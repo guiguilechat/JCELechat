@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -188,8 +188,6 @@ public class StructureDisruptionBattery
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
     public final static StructureDisruptionBattery.MetaGroup METAGROUP = new StructureDisruptionBattery.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDisruptionBattery.yaml";
-    private static Map<String, StructureDisruptionBattery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -298,37 +296,24 @@ public class StructureDisruptionBattery
     }
 
     @Override
-    public int getGroupId() {
-        return  1719;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDisruptionBattery> getGroup() {
+    public IMetaGroup<StructureDisruptionBattery> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureDisruptionBattery> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureDisruptionBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureDisruptionBattery> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDisruptionBattery>
+        implements IMetaGroup<StructureDisruptionBattery>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDisruptionBattery.yaml";
+        private Map<String, StructureDisruptionBattery> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureDisruptionBattery> category() {
+        public IMetaCategory<? super StructureDisruptionBattery> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1719;
         }
 
         @Override
@@ -337,8 +322,19 @@ public class StructureDisruptionBattery
         }
 
         @Override
-        public Collection<StructureDisruptionBattery> items() {
-            return (load().values());
+        public synchronized Map<String, StructureDisruptionBattery> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureDisruptionBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureDisruptionBattery> items;
         }
     }
 }

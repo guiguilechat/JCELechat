@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
@@ -13,41 +13,26 @@ public class Frozen
     extends Commodity
 {
     public final static Frozen.MetaGroup METAGROUP = new Frozen.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/commodity/Frozen.yaml";
-    private static Map<String, Frozen> cache = (null);
 
     @Override
-    public int getGroupId() {
-        return  281;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Frozen> getGroup() {
+    public IMetaGroup<Frozen> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Frozen> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Frozen.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Frozen> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Frozen>
+        implements IMetaGroup<Frozen>
     {
+        public final static String RESOURCE_PATH = "SDE/items/commodity/Frozen.yaml";
+        private Map<String, Frozen> cache = (null);
 
         @Override
-        public MetaCategory<? super Frozen> category() {
+        public IMetaCategory<? super Frozen> category() {
             return Commodity.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  281;
         }
 
         @Override
@@ -56,8 +41,19 @@ public class Frozen
         }
 
         @Override
-        public Collection<Frozen> items() {
-            return (load().values());
+        public synchronized Map<String, Frozen> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Frozen.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Frozen> items;
         }
     }
 }

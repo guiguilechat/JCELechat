@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -298,8 +298,6 @@ public class EffectBeacon
     @DefaultDoubleValue(1.0)
     public double TrackingSpeedMultiplier;
     public final static EffectBeacon.MetaGroup METAGROUP = new EffectBeacon.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/celestial/EffectBeacon.yaml";
-    private static Map<String, EffectBeacon> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -472,37 +470,24 @@ public class EffectBeacon
     }
 
     @Override
-    public int getGroupId() {
-        return  920;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EffectBeacon> getGroup() {
+    public IMetaGroup<EffectBeacon> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, EffectBeacon> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(EffectBeacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, EffectBeacon> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EffectBeacon>
+        implements IMetaGroup<EffectBeacon>
     {
+        public final static String RESOURCE_PATH = "SDE/items/celestial/EffectBeacon.yaml";
+        private Map<String, EffectBeacon> cache = (null);
 
         @Override
-        public MetaCategory<? super EffectBeacon> category() {
+        public IMetaCategory<? super EffectBeacon> category() {
             return Celestial.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  920;
         }
 
         @Override
@@ -511,8 +496,19 @@ public class EffectBeacon
         }
 
         @Override
-        public Collection<EffectBeacon> items() {
-            return (load().values());
+        public synchronized Map<String, EffectBeacon> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(EffectBeacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, EffectBeacon> items;
         }
     }
 }

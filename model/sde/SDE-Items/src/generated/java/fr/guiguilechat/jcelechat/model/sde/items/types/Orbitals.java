@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -284,32 +283,36 @@ public abstract class Orbitals
     }
 
     @Override
-    public int getCategoryId() {
-        return  46;
-    }
-
-    @Override
-    public MetaCategory<Orbitals> getCategory() {
+    public IMetaCategory<Orbitals> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Orbitals> loadCategory() {
-        return Stream.of(OrbitalConstructionPlatform.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Orbitals>
+        implements IMetaCategory<Orbitals>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Orbitals> [] groups = new MetaGroup[] {OrbitalConstructionPlatform.METAGROUP };
+        private final static IMetaGroup<? extends Orbitals> [] groups = new IMetaGroup[] {OrbitalConstructionPlatform.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  46;
+        }
 
         @Override
         public String getName() {
             return "Orbitals";
         }
 
-        public Collection<MetaGroup<? extends Orbitals>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Orbitals>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Orbitals> load() {
+            HashMap<String, Orbitals> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

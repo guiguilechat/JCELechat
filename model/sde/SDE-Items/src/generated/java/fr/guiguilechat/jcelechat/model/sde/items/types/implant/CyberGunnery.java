@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -82,8 +82,6 @@ public class CyberGunnery
     @DefaultIntValue(0)
     public int TurretSpeeBonus;
     public final static CyberGunnery.MetaGroup METAGROUP = new CyberGunnery.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/implant/CyberGunnery.yaml";
-    private static Map<String, CyberGunnery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -132,37 +130,24 @@ public class CyberGunnery
     }
 
     @Override
-    public int getGroupId() {
-        return  742;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberGunnery> getGroup() {
+    public IMetaGroup<CyberGunnery> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CyberGunnery> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CyberGunnery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CyberGunnery> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberGunnery>
+        implements IMetaGroup<CyberGunnery>
     {
+        public final static String RESOURCE_PATH = "SDE/items/implant/CyberGunnery.yaml";
+        private Map<String, CyberGunnery> cache = (null);
 
         @Override
-        public MetaCategory<? super CyberGunnery> category() {
+        public IMetaCategory<? super CyberGunnery> category() {
             return Implant.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  742;
         }
 
         @Override
@@ -171,8 +156,19 @@ public class CyberGunnery
         }
 
         @Override
-        public Collection<CyberGunnery> items() {
-            return (load().values());
+        public synchronized Map<String, CyberGunnery> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CyberGunnery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CyberGunnery> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -67,8 +67,6 @@ public class CorporateHangarArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static CorporateHangarArray.MetaGroup METAGROUP = new CorporateHangarArray.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/CorporateHangarArray.yaml";
-    private static Map<String, CorporateHangarArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -109,37 +107,24 @@ public class CorporateHangarArray
     }
 
     @Override
-    public int getGroupId() {
-        return  471;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CorporateHangarArray> getGroup() {
+    public IMetaGroup<CorporateHangarArray> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CorporateHangarArray> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CorporateHangarArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CorporateHangarArray> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CorporateHangarArray>
+        implements IMetaGroup<CorporateHangarArray>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/CorporateHangarArray.yaml";
+        private Map<String, CorporateHangarArray> cache = (null);
 
         @Override
-        public MetaCategory<? super CorporateHangarArray> category() {
+        public IMetaCategory<? super CorporateHangarArray> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  471;
         }
 
         @Override
@@ -148,8 +133,19 @@ public class CorporateHangarArray
         }
 
         @Override
-        public Collection<CorporateHangarArray> items() {
-            return (load().values());
+        public synchronized Map<String, CorporateHangarArray> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CorporateHangarArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CorporateHangarArray> items;
         }
     }
 }

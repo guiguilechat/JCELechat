@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -341,8 +341,6 @@ public class CovertOps
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
     public final static CovertOps.MetaGroup METAGROUP = new CovertOps.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/ship/CovertOps.yaml";
-    private static Map<String, CovertOps> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -535,37 +533,24 @@ public class CovertOps
     }
 
     @Override
-    public int getGroupId() {
-        return  830;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CovertOps> getGroup() {
+    public IMetaGroup<CovertOps> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CovertOps> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CovertOps.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CovertOps> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CovertOps>
+        implements IMetaGroup<CovertOps>
     {
+        public final static String RESOURCE_PATH = "SDE/items/ship/CovertOps.yaml";
+        private Map<String, CovertOps> cache = (null);
 
         @Override
-        public MetaCategory<? super CovertOps> category() {
+        public IMetaCategory<? super CovertOps> category() {
             return Ship.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  830;
         }
 
         @Override
@@ -574,8 +559,19 @@ public class CovertOps
         }
 
         @Override
-        public Collection<CovertOps> items() {
-            return (load().values());
+        public synchronized Map<String, CovertOps> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CovertOps.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CovertOps> items;
         }
     }
 }

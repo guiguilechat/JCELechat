@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -166,8 +166,6 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureCombatRigXLDoomsdayAndTargeting.MetaGroup METAGROUP = new StructureCombatRigXLDoomsdayAndTargeting.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigXLDoomsdayAndTargeting.yaml";
-    private static Map<String, StructureCombatRigXLDoomsdayAndTargeting> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -264,37 +262,24 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     }
 
     @Override
-    public int getGroupId() {
-        return  1642;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigXLDoomsdayAndTargeting> getGroup() {
+    public IMetaGroup<StructureCombatRigXLDoomsdayAndTargeting> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureCombatRigXLDoomsdayAndTargeting> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigXLDoomsdayAndTargeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureCombatRigXLDoomsdayAndTargeting> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigXLDoomsdayAndTargeting>
+        implements IMetaGroup<StructureCombatRigXLDoomsdayAndTargeting>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigXLDoomsdayAndTargeting.yaml";
+        private Map<String, StructureCombatRigXLDoomsdayAndTargeting> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureCombatRigXLDoomsdayAndTargeting> category() {
+        public IMetaCategory<? super StructureCombatRigXLDoomsdayAndTargeting> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1642;
         }
 
         @Override
@@ -303,8 +288,19 @@ public class StructureCombatRigXLDoomsdayAndTargeting
         }
 
         @Override
-        public Collection<StructureCombatRigXLDoomsdayAndTargeting> items() {
-            return (load().values());
+        public synchronized Map<String, StructureCombatRigXLDoomsdayAndTargeting> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigXLDoomsdayAndTargeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureCombatRigXLDoomsdayAndTargeting> items;
         }
     }
 }

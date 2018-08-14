@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -447,32 +446,36 @@ public abstract class Fighter
     }
 
     @Override
-    public int getCategoryId() {
-        return  87;
-    }
-
-    @Override
-    public MetaCategory<Fighter> getCategory() {
+    public IMetaCategory<Fighter> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Fighter> loadCategory() {
-        return Stream.of(HeavyFighter.load(), LightFighter.load(), SupportFighter.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Fighter>
+        implements IMetaCategory<Fighter>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Fighter> [] groups = new MetaGroup[] {SupportFighter.METAGROUP, LightFighter.METAGROUP, HeavyFighter.METAGROUP };
+        private final static IMetaGroup<? extends Fighter> [] groups = new IMetaGroup[] {SupportFighter.METAGROUP, LightFighter.METAGROUP, HeavyFighter.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  87;
+        }
 
         @Override
         public String getName() {
             return "Fighter";
         }
 
-        public Collection<MetaGroup<? extends Fighter>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Fighter>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Fighter> load() {
+            HashMap<String, Fighter> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

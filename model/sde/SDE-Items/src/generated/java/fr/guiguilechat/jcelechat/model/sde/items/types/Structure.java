@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -759,32 +758,36 @@ public abstract class Structure
     }
 
     @Override
-    public int getCategoryId() {
-        return  65;
-    }
-
-    @Override
-    public MetaCategory<Structure> getCategory() {
+    public IMetaCategory<Structure> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Structure> loadCategory() {
-        return Stream.of(Citadel.load(), EngineeringComplex.load(), Refinery.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Structure>
+        implements IMetaCategory<Structure>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Structure> [] groups = new MetaGroup[] {EngineeringComplex.METAGROUP, Refinery.METAGROUP, Citadel.METAGROUP };
+        private final static IMetaGroup<? extends Structure> [] groups = new IMetaGroup[] {EngineeringComplex.METAGROUP, Refinery.METAGROUP, Citadel.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  65;
+        }
 
         @Override
         public String getName() {
             return "Structure";
         }
 
-        public Collection<MetaGroup<? extends Structure>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Structure>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Structure> load() {
+            HashMap<String, Structure> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

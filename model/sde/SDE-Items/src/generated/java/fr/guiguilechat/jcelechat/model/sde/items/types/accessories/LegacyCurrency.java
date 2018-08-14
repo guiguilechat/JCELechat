@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class LegacyCurrency
     @DefaultIntValue(0)
     public int AurumConversionRate;
     public final static LegacyCurrency.MetaGroup METAGROUP = new LegacyCurrency.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/accessories/LegacyCurrency.yaml";
-    private static Map<String, LegacyCurrency> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class LegacyCurrency
     }
 
     @Override
-    public int getGroupId() {
-        return  943;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LegacyCurrency> getGroup() {
+    public IMetaGroup<LegacyCurrency> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, LegacyCurrency> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(LegacyCurrency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, LegacyCurrency> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LegacyCurrency>
+        implements IMetaGroup<LegacyCurrency>
     {
+        public final static String RESOURCE_PATH = "SDE/items/accessories/LegacyCurrency.yaml";
+        private Map<String, LegacyCurrency> cache = (null);
 
         @Override
-        public MetaCategory<? super LegacyCurrency> category() {
+        public IMetaCategory<? super LegacyCurrency> category() {
             return Accessories.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  943;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class LegacyCurrency
         }
 
         @Override
-        public Collection<LegacyCurrency> items() {
-            return (load().values());
+        public synchronized Map<String, LegacyCurrency> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(LegacyCurrency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, LegacyCurrency> items;
         }
     }
 }

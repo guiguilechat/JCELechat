@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -349,8 +349,6 @@ public class StructureBurstProjector
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
     public final static StructureBurstProjector.MetaGroup METAGROUP = new StructureBurstProjector.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBurstProjector.yaml";
-    private static Map<String, StructureBurstProjector> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -547,37 +545,24 @@ public class StructureBurstProjector
     }
 
     @Override
-    public int getGroupId() {
-        return  1331;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureBurstProjector> getGroup() {
+    public IMetaGroup<StructureBurstProjector> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureBurstProjector> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureBurstProjector.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureBurstProjector> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureBurstProjector>
+        implements IMetaGroup<StructureBurstProjector>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBurstProjector.yaml";
+        private Map<String, StructureBurstProjector> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureBurstProjector> category() {
+        public IMetaCategory<? super StructureBurstProjector> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1331;
         }
 
         @Override
@@ -586,8 +571,19 @@ public class StructureBurstProjector
         }
 
         @Override
-        public Collection<StructureBurstProjector> items() {
-            return (load().values());
+        public synchronized Map<String, StructureBurstProjector> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureBurstProjector.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureBurstProjector> items;
         }
     }
 }

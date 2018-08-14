@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class Composite
     @DefaultIntValue(1)
     public int MoonMiningAmount;
     public final static Composite.MetaGroup METAGROUP = new Composite.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/material/Composite.yaml";
-    private static Map<String, Composite> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class Composite
     }
 
     @Override
-    public int getGroupId() {
-        return  429;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Composite> getGroup() {
+    public IMetaGroup<Composite> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Composite> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Composite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Composite> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Composite>
+        implements IMetaGroup<Composite>
     {
+        public final static String RESOURCE_PATH = "SDE/items/material/Composite.yaml";
+        private Map<String, Composite> cache = (null);
 
         @Override
-        public MetaCategory<? super Composite> category() {
+        public IMetaCategory<? super Composite> category() {
             return Material.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  429;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class Composite
         }
 
         @Override
-        public Collection<Composite> items() {
-            return (load().values());
+        public synchronized Map<String, Composite> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Composite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Composite> items;
         }
     }
 }

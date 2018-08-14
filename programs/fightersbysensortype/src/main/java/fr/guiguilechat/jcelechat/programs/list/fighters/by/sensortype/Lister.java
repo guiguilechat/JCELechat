@@ -27,8 +27,10 @@ public class Lister {
 
 	public static void main(String[] args) {
 		HashMap<String, SensorTypes> fighter2type = new HashMap<>();
-		Stream.concat(Stream.concat(HeavyFighter.load().entrySet().stream(), SupportFighter.load().entrySet().stream()),
-				LightFighter.load().entrySet().stream()).forEach(e -> {
+		Stream.concat(
+				Stream.concat(HeavyFighter.METAGROUP.load().entrySet().stream(),
+						SupportFighter.METAGROUP.load().entrySet().stream()),
+				LightFighter.METAGROUP.load().entrySet().stream()).forEach(e -> {
 					String name = e.getKey();
 					Fighter f = e.getValue();
 					SensorTypes sensor = null;

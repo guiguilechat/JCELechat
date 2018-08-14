@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -55,32 +54,36 @@ public abstract class PlanetaryCommodities
     }
 
     @Override
-    public int getCategoryId() {
-        return  43;
-    }
-
-    @Override
-    public MetaCategory<PlanetaryCommodities> getCategory() {
+    public IMetaCategory<PlanetaryCommodities> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends PlanetaryCommodities> loadCategory() {
-        return Stream.of(AdvancedCommoditiesTier4 .load(), BasicCommoditiesTier1 .load(), RefinedCommoditiesTier2 .load(), SpecializedCommoditiesTier3 .load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<PlanetaryCommodities>
+        implements IMetaCategory<PlanetaryCommodities>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends PlanetaryCommodities> [] groups = new MetaGroup[] {RefinedCommoditiesTier2 .METAGROUP, SpecializedCommoditiesTier3 .METAGROUP, AdvancedCommoditiesTier4 .METAGROUP, BasicCommoditiesTier1 .METAGROUP };
+        private final static IMetaGroup<? extends PlanetaryCommodities> [] groups = new IMetaGroup[] {RefinedCommoditiesTier2 .METAGROUP, SpecializedCommoditiesTier3 .METAGROUP, AdvancedCommoditiesTier4 .METAGROUP, BasicCommoditiesTier1 .METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  43;
+        }
 
         @Override
         public String getName() {
             return "PlanetaryCommodities";
         }
 
-        public Collection<MetaGroup<? extends PlanetaryCommodities>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends PlanetaryCommodities>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, PlanetaryCommodities> load() {
+            HashMap<String, PlanetaryCommodities> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

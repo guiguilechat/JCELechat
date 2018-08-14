@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -145,8 +145,6 @@ public class StructureEngineeringRigMBasicLargeShipTE
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureEngineeringRigMBasicLargeShipTE.MetaGroup METAGROUP = new StructureEngineeringRigMBasicLargeShipTE.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBasicLargeShipTE.yaml";
-    private static Map<String, StructureEngineeringRigMBasicLargeShipTE> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -231,37 +229,24 @@ public class StructureEngineeringRigMBasicLargeShipTE
     }
 
     @Override
-    public int getGroupId() {
-        return  1829;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMBasicLargeShipTE> getGroup() {
+    public IMetaGroup<StructureEngineeringRigMBasicLargeShipTE> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureEngineeringRigMBasicLargeShipTE> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMBasicLargeShipTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureEngineeringRigMBasicLargeShipTE> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMBasicLargeShipTE>
+        implements IMetaGroup<StructureEngineeringRigMBasicLargeShipTE>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBasicLargeShipTE.yaml";
+        private Map<String, StructureEngineeringRigMBasicLargeShipTE> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureEngineeringRigMBasicLargeShipTE> category() {
+        public IMetaCategory<? super StructureEngineeringRigMBasicLargeShipTE> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1829;
         }
 
         @Override
@@ -270,8 +255,19 @@ public class StructureEngineeringRigMBasicLargeShipTE
         }
 
         @Override
-        public Collection<StructureEngineeringRigMBasicLargeShipTE> items() {
-            return (load().values());
+        public synchronized Map<String, StructureEngineeringRigMBasicLargeShipTE> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMBasicLargeShipTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureEngineeringRigMBasicLargeShipTE> items;
         }
     }
 }

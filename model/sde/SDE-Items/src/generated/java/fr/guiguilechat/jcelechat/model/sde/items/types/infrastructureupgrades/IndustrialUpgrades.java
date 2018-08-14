@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -94,8 +94,6 @@ public class IndustrialUpgrades
     @DefaultIntValue(0)
     public int SovUpgradeRequiredUpgradeID;
     public final static IndustrialUpgrades.MetaGroup METAGROUP = new IndustrialUpgrades.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
-    private static Map<String, IndustrialUpgrades> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -152,37 +150,24 @@ public class IndustrialUpgrades
     }
 
     @Override
-    public int getGroupId() {
-        return  1020;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<IndustrialUpgrades> getGroup() {
+    public IMetaGroup<IndustrialUpgrades> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, IndustrialUpgrades> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(IndustrialUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, IndustrialUpgrades> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<IndustrialUpgrades>
+        implements IMetaGroup<IndustrialUpgrades>
     {
+        public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
+        private Map<String, IndustrialUpgrades> cache = (null);
 
         @Override
-        public MetaCategory<? super IndustrialUpgrades> category() {
+        public IMetaCategory<? super IndustrialUpgrades> category() {
             return InfrastructureUpgrades.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1020;
         }
 
         @Override
@@ -191,8 +176,19 @@ public class IndustrialUpgrades
         }
 
         @Override
-        public Collection<IndustrialUpgrades> items() {
-            return (load().values());
+        public synchronized Map<String, IndustrialUpgrades> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(IndustrialUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, IndustrialUpgrades> items;
         }
     }
 }

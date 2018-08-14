@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -67,8 +67,6 @@ public class PlanetaryLinks
     @DefaultDoubleValue(0.0)
     public double PowerLoadPerKm;
     public final static PlanetaryLinks.MetaGroup METAGROUP = new PlanetaryLinks.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
-    private static Map<String, PlanetaryLinks> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -109,37 +107,24 @@ public class PlanetaryLinks
     }
 
     @Override
-    public int getGroupId() {
-        return  1036;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PlanetaryLinks> getGroup() {
+    public IMetaGroup<PlanetaryLinks> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, PlanetaryLinks> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(PlanetaryLinks.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, PlanetaryLinks> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PlanetaryLinks>
+        implements IMetaGroup<PlanetaryLinks>
     {
+        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
+        private Map<String, PlanetaryLinks> cache = (null);
 
         @Override
-        public MetaCategory<? super PlanetaryLinks> category() {
+        public IMetaCategory<? super PlanetaryLinks> category() {
             return PlanetaryInteraction.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1036;
         }
 
         @Override
@@ -148,8 +133,19 @@ public class PlanetaryLinks
         }
 
         @Override
-        public Collection<PlanetaryLinks> items() {
-            return (load().values());
+        public synchronized Map<String, PlanetaryLinks> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(PlanetaryLinks.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, PlanetaryLinks> items;
         }
     }
 }

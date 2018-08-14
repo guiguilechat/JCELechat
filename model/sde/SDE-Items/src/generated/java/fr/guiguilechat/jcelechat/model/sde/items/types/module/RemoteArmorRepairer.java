@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -145,8 +145,6 @@ public class RemoteArmorRepairer
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
     public final static RemoteArmorRepairer.MetaGroup METAGROUP = new RemoteArmorRepairer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/RemoteArmorRepairer.yaml";
-    private static Map<String, RemoteArmorRepairer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -227,37 +225,24 @@ public class RemoteArmorRepairer
     }
 
     @Override
-    public int getGroupId() {
-        return  325;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteArmorRepairer> getGroup() {
+    public IMetaGroup<RemoteArmorRepairer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RemoteArmorRepairer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RemoteArmorRepairer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RemoteArmorRepairer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteArmorRepairer>
+        implements IMetaGroup<RemoteArmorRepairer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/RemoteArmorRepairer.yaml";
+        private Map<String, RemoteArmorRepairer> cache = (null);
 
         @Override
-        public MetaCategory<? super RemoteArmorRepairer> category() {
+        public IMetaCategory<? super RemoteArmorRepairer> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  325;
         }
 
         @Override
@@ -266,8 +251,19 @@ public class RemoteArmorRepairer
         }
 
         @Override
-        public Collection<RemoteArmorRepairer> items() {
-            return (load().values());
+        public synchronized Map<String, RemoteArmorRepairer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RemoteArmorRepairer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RemoteArmorRepairer> items;
         }
     }
 }

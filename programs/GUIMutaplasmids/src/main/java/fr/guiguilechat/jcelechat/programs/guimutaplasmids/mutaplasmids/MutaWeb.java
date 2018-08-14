@@ -17,7 +17,7 @@ public class MutaWeb extends MutaplasmidFamily {
 			{ CapacitorNeed.INSTANCE, 1.4, 1.8, 1.0, 2.0, 0.9, 2.5, 0, 0 } };
 
 	protected MutaWeb() {
-		super(StasisWeb.load().values().stream().filter(web -> !web.name.contains("Civilian")), DATATABLE);
+		super(StasisWeb.METAGROUP.load().values().stream().filter(web -> !web.name.contains("Civilian")), DATATABLE);
 	}
 
 	public static final MutaWeb INSTANCE = new MutaWeb();

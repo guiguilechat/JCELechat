@@ -2,12 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.material.AbyssalMaterials;
 import fr.guiguilechat.jcelechat.model.sde.items.types.material.AncientSalvage;
 import fr.guiguilechat.jcelechat.model.sde.items.types.material.BiochemicalMaterial;
@@ -28,32 +27,36 @@ public abstract class Material
     public final static Material.MetaCat METACAT = new Material.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  4;
-    }
-
-    @Override
-    public MetaCategory<Material> getCategory() {
+    public IMetaCategory<Material> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Material> loadCategory() {
-        return Stream.of(AbyssalMaterials.load(), AncientSalvage.load(), BiochemicalMaterial.load(), Composite.load(), FuelBlock.load(), HybridPolymers.load(), IceProduct.load(), IntermediateMaterials.load(), Mineral.load(), MoonMaterials.load(), NamedComponents.load(), RogueDroneComponents.load(), SalvagedMaterials.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Material>
+        implements IMetaCategory<Material>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Material> [] groups = new MetaGroup[] {Mineral.METAGROUP, IceProduct.METAGROUP, MoonMaterials.METAGROUP, IntermediateMaterials.METAGROUP, Composite.METAGROUP, BiochemicalMaterial.METAGROUP, SalvagedMaterials.METAGROUP, RogueDroneComponents.METAGROUP, AncientSalvage.METAGROUP, HybridPolymers.METAGROUP, FuelBlock.METAGROUP, NamedComponents.METAGROUP, AbyssalMaterials.METAGROUP };
+        private final static IMetaGroup<? extends Material> [] groups = new IMetaGroup[] {Mineral.METAGROUP, IceProduct.METAGROUP, MoonMaterials.METAGROUP, IntermediateMaterials.METAGROUP, Composite.METAGROUP, BiochemicalMaterial.METAGROUP, SalvagedMaterials.METAGROUP, RogueDroneComponents.METAGROUP, AncientSalvage.METAGROUP, HybridPolymers.METAGROUP, FuelBlock.METAGROUP, NamedComponents.METAGROUP, AbyssalMaterials.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  4;
+        }
 
         @Override
         public String getName() {
             return "Material";
         }
 
-        public Collection<MetaGroup<? extends Material>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Material>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Material> load() {
+            HashMap<String, Material> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

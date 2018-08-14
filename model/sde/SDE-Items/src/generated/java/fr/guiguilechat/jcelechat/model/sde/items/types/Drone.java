@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -379,32 +378,36 @@ public abstract class Drone
     }
 
     @Override
-    public int getCategoryId() {
-        return  18;
-    }
-
-    @Override
-    public MetaCategory<Drone> getCategory() {
+    public IMetaCategory<Drone> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Drone> loadCategory() {
-        return Stream.of(CombatDrone.load(), ElectronicWarfareDrone.load(), EnergyNeutralizerDrone.load(), LogisticDrone.load(), MiningDrone.load(), SalvageDrone.load(), StasisWebifyingDrone.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Drone>
+        implements IMetaCategory<Drone>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Drone> [] groups = new MetaGroup[] {CombatDrone.METAGROUP, MiningDrone.METAGROUP, EnergyNeutralizerDrone.METAGROUP, ElectronicWarfareDrone.METAGROUP, LogisticDrone.METAGROUP, StasisWebifyingDrone.METAGROUP, SalvageDrone.METAGROUP };
+        private final static IMetaGroup<? extends Drone> [] groups = new IMetaGroup[] {CombatDrone.METAGROUP, MiningDrone.METAGROUP, EnergyNeutralizerDrone.METAGROUP, ElectronicWarfareDrone.METAGROUP, LogisticDrone.METAGROUP, StasisWebifyingDrone.METAGROUP, SalvageDrone.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  18;
+        }
 
         @Override
         public String getName() {
             return "Drone";
         }
 
-        public Collection<MetaGroup<? extends Drone>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Drone>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Drone> load() {
+            HashMap<String, Drone> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

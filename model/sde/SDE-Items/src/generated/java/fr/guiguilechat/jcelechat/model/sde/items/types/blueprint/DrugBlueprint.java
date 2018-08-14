@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class DrugBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static DrugBlueprint.MetaGroup METAGROUP = new DrugBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/DrugBlueprint.yaml";
-    private static Map<String, DrugBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class DrugBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  178;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DrugBlueprint> getGroup() {
+    public IMetaGroup<DrugBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, DrugBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(DrugBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, DrugBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DrugBlueprint>
+        implements IMetaGroup<DrugBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/DrugBlueprint.yaml";
+        private Map<String, DrugBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super DrugBlueprint> category() {
+        public IMetaCategory<? super DrugBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  178;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class DrugBlueprint
         }
 
         @Override
-        public Collection<DrugBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, DrugBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(DrugBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, DrugBlueprint> items;
         }
     }
 }

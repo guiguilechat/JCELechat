@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -89,8 +89,6 @@ public class StructureDrillingRigMEfficiency
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureDrillingRigMEfficiency.MetaGroup METAGROUP = new StructureDrillingRigMEfficiency.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMEfficiency.yaml";
-    private static Map<String, StructureDrillingRigMEfficiency> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -143,37 +141,24 @@ public class StructureDrillingRigMEfficiency
     }
 
     @Override
-    public int getGroupId() {
-        return  1912;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDrillingRigMEfficiency> getGroup() {
+    public IMetaGroup<StructureDrillingRigMEfficiency> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureDrillingRigMEfficiency> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigMEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureDrillingRigMEfficiency> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDrillingRigMEfficiency>
+        implements IMetaGroup<StructureDrillingRigMEfficiency>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMEfficiency.yaml";
+        private Map<String, StructureDrillingRigMEfficiency> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureDrillingRigMEfficiency> category() {
+        public IMetaCategory<? super StructureDrillingRigMEfficiency> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1912;
         }
 
         @Override
@@ -182,8 +167,19 @@ public class StructureDrillingRigMEfficiency
         }
 
         @Override
-        public Collection<StructureDrillingRigMEfficiency> items() {
-            return (load().values());
+        public synchronized Map<String, StructureDrillingRigMEfficiency> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigMEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureDrillingRigMEfficiency> items;
         }
     }
 }

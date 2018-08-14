@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -523,8 +523,6 @@ public class ForceAuxiliary
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
     public final static ForceAuxiliary.MetaGroup METAGROUP = new ForceAuxiliary.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/ship/ForceAuxiliary.yaml";
-    private static Map<String, ForceAuxiliary> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -821,37 +819,24 @@ public class ForceAuxiliary
     }
 
     @Override
-    public int getGroupId() {
-        return  1538;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ForceAuxiliary> getGroup() {
+    public IMetaGroup<ForceAuxiliary> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ForceAuxiliary> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ForceAuxiliary> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ForceAuxiliary>
+        implements IMetaGroup<ForceAuxiliary>
     {
+        public final static String RESOURCE_PATH = "SDE/items/ship/ForceAuxiliary.yaml";
+        private Map<String, ForceAuxiliary> cache = (null);
 
         @Override
-        public MetaCategory<? super ForceAuxiliary> category() {
+        public IMetaCategory<? super ForceAuxiliary> category() {
             return Ship.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1538;
         }
 
         @Override
@@ -860,8 +845,19 @@ public class ForceAuxiliary
         }
 
         @Override
-        public Collection<ForceAuxiliary> items() {
-            return (load().values());
+        public synchronized Map<String, ForceAuxiliary> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ForceAuxiliary> items;
         }
     }
 }

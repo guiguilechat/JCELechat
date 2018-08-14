@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -61,8 +61,6 @@ public class OverdriveInjectorSystem
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     public final static OverdriveInjectorSystem.MetaGroup METAGROUP = new OverdriveInjectorSystem.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/OverdriveInjectorSystem.yaml";
-    private static Map<String, OverdriveInjectorSystem> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -95,37 +93,24 @@ public class OverdriveInjectorSystem
     }
 
     @Override
-    public int getGroupId() {
-        return  764;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<OverdriveInjectorSystem> getGroup() {
+    public IMetaGroup<OverdriveInjectorSystem> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, OverdriveInjectorSystem> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(OverdriveInjectorSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, OverdriveInjectorSystem> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<OverdriveInjectorSystem>
+        implements IMetaGroup<OverdriveInjectorSystem>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/OverdriveInjectorSystem.yaml";
+        private Map<String, OverdriveInjectorSystem> cache = (null);
 
         @Override
-        public MetaCategory<? super OverdriveInjectorSystem> category() {
+        public IMetaCategory<? super OverdriveInjectorSystem> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  764;
         }
 
         @Override
@@ -134,8 +119,19 @@ public class OverdriveInjectorSystem
         }
 
         @Override
-        public Collection<OverdriveInjectorSystem> items() {
-            return (load().values());
+        public synchronized Map<String, OverdriveInjectorSystem> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(OverdriveInjectorSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, OverdriveInjectorSystem> items;
         }
     }
 }

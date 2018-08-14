@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class Rigging
     @DefaultIntValue(10)
     public int RigDrawbackBonus;
     public final static Rigging.MetaGroup METAGROUP = new Rigging.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/skill/Rigging.yaml";
-    private static Map<String, Rigging> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class Rigging
     }
 
     @Override
-    public int getGroupId() {
-        return  269;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Rigging> getGroup() {
+    public IMetaGroup<Rigging> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Rigging> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Rigging.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Rigging> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Rigging>
+        implements IMetaGroup<Rigging>
     {
+        public final static String RESOURCE_PATH = "SDE/items/skill/Rigging.yaml";
+        private Map<String, Rigging> cache = (null);
 
         @Override
-        public MetaCategory<? super Rigging> category() {
+        public IMetaCategory<? super Rigging> category() {
             return Skill.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  269;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class Rigging
         }
 
         @Override
-        public Collection<Rigging> items() {
-            return (load().values());
+        public synchronized Map<String, Rigging> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Rigging.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Rigging> items;
         }
     }
 }

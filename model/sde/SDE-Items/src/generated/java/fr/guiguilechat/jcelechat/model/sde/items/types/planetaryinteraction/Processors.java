@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -38,8 +38,6 @@ public class Processors
     @DefaultIntValue(0)
     public int PowerLoad;
     public final static Processors.MetaGroup METAGROUP = new Processors.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Processors.yaml";
-    private static Map<String, Processors> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -64,37 +62,24 @@ public class Processors
     }
 
     @Override
-    public int getGroupId() {
-        return  1028;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Processors> getGroup() {
+    public IMetaGroup<Processors> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Processors> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Processors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Processors> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Processors>
+        implements IMetaGroup<Processors>
     {
+        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Processors.yaml";
+        private Map<String, Processors> cache = (null);
 
         @Override
-        public MetaCategory<? super Processors> category() {
+        public IMetaCategory<? super Processors> category() {
             return PlanetaryInteraction.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1028;
         }
 
         @Override
@@ -103,8 +88,19 @@ public class Processors
         }
 
         @Override
-        public Collection<Processors> items() {
-            return (load().values());
+        public synchronized Map<String, Processors> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Processors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Processors> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -38,8 +38,6 @@ public class StorageFacilities
     @DefaultIntValue(0)
     public int PowerLoad;
     public final static StorageFacilities.MetaGroup METAGROUP = new StorageFacilities.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/StorageFacilities.yaml";
-    private static Map<String, StorageFacilities> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -64,37 +62,24 @@ public class StorageFacilities
     }
 
     @Override
-    public int getGroupId() {
-        return  1029;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StorageFacilities> getGroup() {
+    public IMetaGroup<StorageFacilities> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StorageFacilities> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StorageFacilities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StorageFacilities> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StorageFacilities>
+        implements IMetaGroup<StorageFacilities>
     {
+        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/StorageFacilities.yaml";
+        private Map<String, StorageFacilities> cache = (null);
 
         @Override
-        public MetaCategory<? super StorageFacilities> category() {
+        public IMetaCategory<? super StorageFacilities> category() {
             return PlanetaryInteraction.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1029;
         }
 
         @Override
@@ -103,8 +88,19 @@ public class StorageFacilities
         }
 
         @Override
-        public Collection<StorageFacilities> items() {
-            return (load().values());
+        public synchronized Map<String, StorageFacilities> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StorageFacilities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StorageFacilities> items;
         }
     }
 }

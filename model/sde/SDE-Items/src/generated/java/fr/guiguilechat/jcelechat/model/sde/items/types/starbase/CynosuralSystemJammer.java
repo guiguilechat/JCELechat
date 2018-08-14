@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -151,8 +151,6 @@ public class CynosuralSystemJammer
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static CynosuralSystemJammer.MetaGroup METAGROUP = new CynosuralSystemJammer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralSystemJammer.yaml";
-    private static Map<String, CynosuralSystemJammer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -241,37 +239,24 @@ public class CynosuralSystemJammer
     }
 
     @Override
-    public int getGroupId() {
-        return  839;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CynosuralSystemJammer> getGroup() {
+    public IMetaGroup<CynosuralSystemJammer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CynosuralSystemJammer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CynosuralSystemJammer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CynosuralSystemJammer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CynosuralSystemJammer>
+        implements IMetaGroup<CynosuralSystemJammer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralSystemJammer.yaml";
+        private Map<String, CynosuralSystemJammer> cache = (null);
 
         @Override
-        public MetaCategory<? super CynosuralSystemJammer> category() {
+        public IMetaCategory<? super CynosuralSystemJammer> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  839;
         }
 
         @Override
@@ -280,8 +265,19 @@ public class CynosuralSystemJammer
         }
 
         @Override
-        public Collection<CynosuralSystemJammer> items() {
-            return (load().values());
+        public synchronized Map<String, CynosuralSystemJammer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CynosuralSystemJammer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CynosuralSystemJammer> items;
         }
     }
 }

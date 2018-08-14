@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class ShieldRechargerBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static ShieldRechargerBlueprint.MetaGroup METAGROUP = new ShieldRechargerBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldRechargerBlueprint.yaml";
-    private static Map<String, ShieldRechargerBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class ShieldRechargerBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  119;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldRechargerBlueprint> getGroup() {
+    public IMetaGroup<ShieldRechargerBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ShieldRechargerBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ShieldRechargerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ShieldRechargerBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldRechargerBlueprint>
+        implements IMetaGroup<ShieldRechargerBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldRechargerBlueprint.yaml";
+        private Map<String, ShieldRechargerBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ShieldRechargerBlueprint> category() {
+        public IMetaCategory<? super ShieldRechargerBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  119;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class ShieldRechargerBlueprint
         }
 
         @Override
-        public Collection<ShieldRechargerBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ShieldRechargerBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ShieldRechargerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ShieldRechargerBlueprint> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -74,8 +74,6 @@ public class AutomatedTargetingSystem
     @DefaultIntValue(0)
     public int TargetHostileRange;
     public final static AutomatedTargetingSystem.MetaGroup METAGROUP = new AutomatedTargetingSystem.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/AutomatedTargetingSystem.yaml";
-    private static Map<String, AutomatedTargetingSystem> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -120,37 +118,24 @@ public class AutomatedTargetingSystem
     }
 
     @Override
-    public int getGroupId() {
-        return  96;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutomatedTargetingSystem> getGroup() {
+    public IMetaGroup<AutomatedTargetingSystem> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, AutomatedTargetingSystem> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(AutomatedTargetingSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, AutomatedTargetingSystem> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutomatedTargetingSystem>
+        implements IMetaGroup<AutomatedTargetingSystem>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/AutomatedTargetingSystem.yaml";
+        private Map<String, AutomatedTargetingSystem> cache = (null);
 
         @Override
-        public MetaCategory<? super AutomatedTargetingSystem> category() {
+        public IMetaCategory<? super AutomatedTargetingSystem> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  96;
         }
 
         @Override
@@ -159,8 +144,19 @@ public class AutomatedTargetingSystem
         }
 
         @Override
-        public Collection<AutomatedTargetingSystem> items() {
-            return (load().values());
+        public synchronized Map<String, AutomatedTargetingSystem> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(AutomatedTargetingSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, AutomatedTargetingSystem> items;
         }
     }
 }

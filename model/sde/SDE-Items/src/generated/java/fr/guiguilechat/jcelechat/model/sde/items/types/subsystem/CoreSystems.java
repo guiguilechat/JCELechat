@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -137,8 +137,6 @@ public class CoreSystems
     @DefaultIntValue(0)
     public int SubsystemEnergyNeutFittingReduction;
     public final static CoreSystems.MetaGroup METAGROUP = new CoreSystems.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/subsystem/CoreSystems.yaml";
-    private static Map<String, CoreSystems> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -219,37 +217,24 @@ public class CoreSystems
     }
 
     @Override
-    public int getGroupId() {
-        return  958;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CoreSystems> getGroup() {
+    public IMetaGroup<CoreSystems> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CoreSystems> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CoreSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CoreSystems> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CoreSystems>
+        implements IMetaGroup<CoreSystems>
     {
+        public final static String RESOURCE_PATH = "SDE/items/subsystem/CoreSystems.yaml";
+        private Map<String, CoreSystems> cache = (null);
 
         @Override
-        public MetaCategory<? super CoreSystems> category() {
+        public IMetaCategory<? super CoreSystems> category() {
             return Subsystem.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  958;
         }
 
         @Override
@@ -258,8 +243,19 @@ public class CoreSystems
         }
 
         @Override
-        public Collection<CoreSystems> items() {
-            return (load().values());
+        public synchronized Map<String, CoreSystems> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CoreSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CoreSystems> items;
         }
     }
 }

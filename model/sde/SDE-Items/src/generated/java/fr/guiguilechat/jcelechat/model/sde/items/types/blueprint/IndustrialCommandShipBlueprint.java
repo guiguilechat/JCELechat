@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -32,8 +32,6 @@ public class IndustrialCommandShipBlueprint
     @DefaultIntValue(1)
     public int IndustryJobCostMultiplier;
     public final static IndustrialCommandShipBlueprint.MetaGroup METAGROUP = new IndustrialCommandShipBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/IndustrialCommandShipBlueprint.yaml";
-    private static Map<String, IndustrialCommandShipBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -54,37 +52,24 @@ public class IndustrialCommandShipBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  945;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<IndustrialCommandShipBlueprint> getGroup() {
+    public IMetaGroup<IndustrialCommandShipBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, IndustrialCommandShipBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(IndustrialCommandShipBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, IndustrialCommandShipBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<IndustrialCommandShipBlueprint>
+        implements IMetaGroup<IndustrialCommandShipBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/IndustrialCommandShipBlueprint.yaml";
+        private Map<String, IndustrialCommandShipBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super IndustrialCommandShipBlueprint> category() {
+        public IMetaCategory<? super IndustrialCommandShipBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  945;
         }
 
         @Override
@@ -93,8 +78,19 @@ public class IndustrialCommandShipBlueprint
         }
 
         @Override
-        public Collection<IndustrialCommandShipBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, IndustrialCommandShipBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(IndustrialCommandShipBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, IndustrialCommandShipBlueprint> items;
         }
     }
 }

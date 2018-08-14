@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class StarbaseStasisWebificationBatteryBlueprints
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static StarbaseStasisWebificationBatteryBlueprints.MetaGroup METAGROUP = new StarbaseStasisWebificationBatteryBlueprints.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseStasisWebificationBatteryBlueprints.yaml";
-    private static Map<String, StarbaseStasisWebificationBatteryBlueprints> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class StarbaseStasisWebificationBatteryBlueprints
     }
 
     @Override
-    public int getGroupId() {
-        return  858;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseStasisWebificationBatteryBlueprints> getGroup() {
+    public IMetaGroup<StarbaseStasisWebificationBatteryBlueprints> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StarbaseStasisWebificationBatteryBlueprints> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StarbaseStasisWebificationBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StarbaseStasisWebificationBatteryBlueprints> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseStasisWebificationBatteryBlueprints>
+        implements IMetaGroup<StarbaseStasisWebificationBatteryBlueprints>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseStasisWebificationBatteryBlueprints.yaml";
+        private Map<String, StarbaseStasisWebificationBatteryBlueprints> cache = (null);
 
         @Override
-        public MetaCategory<? super StarbaseStasisWebificationBatteryBlueprints> category() {
+        public IMetaCategory<? super StarbaseStasisWebificationBatteryBlueprints> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  858;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class StarbaseStasisWebificationBatteryBlueprints
         }
 
         @Override
-        public Collection<StarbaseStasisWebificationBatteryBlueprints> items() {
-            return (load().values());
+        public synchronized Map<String, StarbaseStasisWebificationBatteryBlueprints> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StarbaseStasisWebificationBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StarbaseStasisWebificationBatteryBlueprints> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -172,8 +172,6 @@ public class AncillaryRemoteArmorRepairer
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
     public final static AncillaryRemoteArmorRepairer.MetaGroup METAGROUP = new AncillaryRemoteArmorRepairer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/AncillaryRemoteArmorRepairer.yaml";
-    private static Map<String, AncillaryRemoteArmorRepairer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -274,37 +272,24 @@ public class AncillaryRemoteArmorRepairer
     }
 
     @Override
-    public int getGroupId() {
-        return  1698;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AncillaryRemoteArmorRepairer> getGroup() {
+    public IMetaGroup<AncillaryRemoteArmorRepairer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, AncillaryRemoteArmorRepairer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(AncillaryRemoteArmorRepairer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, AncillaryRemoteArmorRepairer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AncillaryRemoteArmorRepairer>
+        implements IMetaGroup<AncillaryRemoteArmorRepairer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/AncillaryRemoteArmorRepairer.yaml";
+        private Map<String, AncillaryRemoteArmorRepairer> cache = (null);
 
         @Override
-        public MetaCategory<? super AncillaryRemoteArmorRepairer> category() {
+        public IMetaCategory<? super AncillaryRemoteArmorRepairer> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1698;
         }
 
         @Override
@@ -313,8 +298,19 @@ public class AncillaryRemoteArmorRepairer
         }
 
         @Override
-        public Collection<AncillaryRemoteArmorRepairer> items() {
-            return (load().values());
+        public synchronized Map<String, AncillaryRemoteArmorRepairer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(AncillaryRemoteArmorRepairer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, AncillaryRemoteArmorRepairer> items;
         }
     }
 }

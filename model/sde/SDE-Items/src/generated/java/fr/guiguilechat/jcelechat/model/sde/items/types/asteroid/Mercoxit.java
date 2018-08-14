@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -46,8 +46,6 @@ public class Mercoxit
     @DefaultIntValue(0)
     public int DamageCloudType;
     public final static Mercoxit.MetaGroup METAGROUP = new Mercoxit.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/asteroid/Mercoxit.yaml";
-    private static Map<String, Mercoxit> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -76,37 +74,24 @@ public class Mercoxit
     }
 
     @Override
-    public int getGroupId() {
-        return  468;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Mercoxit> getGroup() {
+    public IMetaGroup<Mercoxit> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Mercoxit> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Mercoxit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Mercoxit> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Mercoxit>
+        implements IMetaGroup<Mercoxit>
     {
+        public final static String RESOURCE_PATH = "SDE/items/asteroid/Mercoxit.yaml";
+        private Map<String, Mercoxit> cache = (null);
 
         @Override
-        public MetaCategory<? super Mercoxit> category() {
+        public IMetaCategory<? super Mercoxit> category() {
             return Asteroid.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  468;
         }
 
         @Override
@@ -115,8 +100,19 @@ public class Mercoxit
         }
 
         @Override
-        public Collection<Mercoxit> items() {
-            return (load().values());
+        public synchronized Map<String, Mercoxit> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Mercoxit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Mercoxit> items;
         }
     }
 }

@@ -2,12 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 
 public abstract class WorldSpace
     extends Item
@@ -15,32 +14,36 @@ public abstract class WorldSpace
     public final static WorldSpace.MetaCat METACAT = new WorldSpace.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  26;
-    }
-
-    @Override
-    public MetaCategory<WorldSpace> getCategory() {
+    public IMetaCategory<WorldSpace> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends WorldSpace> loadCategory() {
-        return Stream.of(fr.guiguilechat.jcelechat.model.sde.items.types.worldspace.WorldSpace.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<WorldSpace>
+        implements IMetaCategory<WorldSpace>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends WorldSpace> [] groups = new MetaGroup[] {fr.guiguilechat.jcelechat.model.sde.items.types.worldspace.WorldSpace.METAGROUP };
+        private final static IMetaGroup<? extends WorldSpace> [] groups = new IMetaGroup[] {fr.guiguilechat.jcelechat.model.sde.items.types.worldspace.WorldSpace.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  26;
+        }
 
         @Override
         public String getName() {
             return "WorldSpace";
         }
 
-        public Collection<MetaGroup<? extends WorldSpace>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends WorldSpace>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, WorldSpace> load() {
+            HashMap<String, WorldSpace> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

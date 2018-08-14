@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -116,8 +116,6 @@ public class ScannerArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static ScannerArray.MetaGroup METAGROUP = new ScannerArray.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
-    private static Map<String, ScannerArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -186,37 +184,24 @@ public class ScannerArray
     }
 
     @Override
-    public int getGroupId() {
-        return  709;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScannerArray> getGroup() {
+    public IMetaGroup<ScannerArray> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ScannerArray> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ScannerArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ScannerArray> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScannerArray>
+        implements IMetaGroup<ScannerArray>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
+        private Map<String, ScannerArray> cache = (null);
 
         @Override
-        public MetaCategory<? super ScannerArray> category() {
+        public IMetaCategory<? super ScannerArray> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  709;
         }
 
         @Override
@@ -225,8 +210,19 @@ public class ScannerArray
         }
 
         @Override
-        public Collection<ScannerArray> items() {
-            return (load().values());
+        public synchronized Map<String, ScannerArray> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ScannerArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ScannerArray> items;
         }
     }
 }

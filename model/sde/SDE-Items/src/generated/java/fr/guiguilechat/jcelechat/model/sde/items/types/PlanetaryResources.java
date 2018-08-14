@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -54,32 +53,36 @@ public abstract class PlanetaryResources
     }
 
     @Override
-    public int getCategoryId() {
-        return  42;
-    }
-
-    @Override
-    public MetaCategory<PlanetaryResources> getCategory() {
+    public IMetaCategory<PlanetaryResources> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends PlanetaryResources> loadCategory() {
-        return Stream.of(PlanetLiquidGasRawResource.load(), PlanetOrganicRawResource.load(), PlanetSolidRawResource.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<PlanetaryResources>
+        implements IMetaCategory<PlanetaryResources>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends PlanetaryResources> [] groups = new MetaGroup[] {PlanetSolidRawResource.METAGROUP, PlanetLiquidGasRawResource.METAGROUP, PlanetOrganicRawResource.METAGROUP };
+        private final static IMetaGroup<? extends PlanetaryResources> [] groups = new IMetaGroup[] {PlanetSolidRawResource.METAGROUP, PlanetLiquidGasRawResource.METAGROUP, PlanetOrganicRawResource.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  42;
+        }
 
         @Override
         public String getName() {
             return "PlanetaryResources";
         }
 
-        public Collection<MetaGroup<? extends PlanetaryResources>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends PlanetaryResources>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, PlanetaryResources> load() {
+            HashMap<String, PlanetaryResources> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

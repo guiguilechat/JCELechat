@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -81,8 +81,6 @@ public class Salvager
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static Salvager.MetaGroup METAGROUP = new Salvager.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/Salvager.yaml";
-    private static Map<String, Salvager> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -131,37 +129,24 @@ public class Salvager
     }
 
     @Override
-    public int getGroupId() {
-        return  1122;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Salvager> getGroup() {
+    public IMetaGroup<Salvager> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Salvager> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Salvager.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Salvager> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Salvager>
+        implements IMetaGroup<Salvager>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/Salvager.yaml";
+        private Map<String, Salvager> cache = (null);
 
         @Override
-        public MetaCategory<? super Salvager> category() {
+        public IMetaCategory<? super Salvager> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1122;
         }
 
         @Override
@@ -170,8 +155,19 @@ public class Salvager
         }
 
         @Override
-        public Collection<Salvager> items() {
-            return (load().values());
+        public synchronized Map<String, Salvager> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Salvager.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Salvager> items;
         }
     }
 }

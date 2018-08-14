@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -165,8 +165,6 @@ public class CapitalSensorArray
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     public final static CapitalSensorArray.MetaGroup METAGROUP = new CapitalSensorArray.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/CapitalSensorArray.yaml";
-    private static Map<String, CapitalSensorArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -263,37 +261,24 @@ public class CapitalSensorArray
     }
 
     @Override
-    public int getGroupId() {
-        return  1706;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapitalSensorArray> getGroup() {
+    public IMetaGroup<CapitalSensorArray> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CapitalSensorArray> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CapitalSensorArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CapitalSensorArray> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapitalSensorArray>
+        implements IMetaGroup<CapitalSensorArray>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/CapitalSensorArray.yaml";
+        private Map<String, CapitalSensorArray> cache = (null);
 
         @Override
-        public MetaCategory<? super CapitalSensorArray> category() {
+        public IMetaCategory<? super CapitalSensorArray> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1706;
         }
 
         @Override
@@ -302,8 +287,19 @@ public class CapitalSensorArray
         }
 
         @Override
-        public Collection<CapitalSensorArray> items() {
-            return (load().values());
+        public synchronized Map<String, CapitalSensorArray> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CapitalSensorArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CapitalSensorArray> items;
         }
     }
 }

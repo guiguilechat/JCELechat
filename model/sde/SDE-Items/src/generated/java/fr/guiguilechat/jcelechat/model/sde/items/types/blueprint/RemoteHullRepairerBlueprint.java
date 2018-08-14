@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class RemoteHullRepairerBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static RemoteHullRepairerBlueprint.MetaGroup METAGROUP = new RemoteHullRepairerBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/RemoteHullRepairerBlueprint.yaml";
-    private static Map<String, RemoteHullRepairerBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class RemoteHullRepairerBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  870;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteHullRepairerBlueprint> getGroup() {
+    public IMetaGroup<RemoteHullRepairerBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RemoteHullRepairerBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RemoteHullRepairerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RemoteHullRepairerBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteHullRepairerBlueprint>
+        implements IMetaGroup<RemoteHullRepairerBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/RemoteHullRepairerBlueprint.yaml";
+        private Map<String, RemoteHullRepairerBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super RemoteHullRepairerBlueprint> category() {
+        public IMetaCategory<? super RemoteHullRepairerBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  870;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class RemoteHullRepairerBlueprint
         }
 
         @Override
-        public Collection<RemoteHullRepairerBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, RemoteHullRepairerBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RemoteHullRepairerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RemoteHullRepairerBlueprint> items;
         }
     }
 }

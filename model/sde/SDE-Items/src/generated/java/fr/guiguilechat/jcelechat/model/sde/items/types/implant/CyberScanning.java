@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -81,8 +81,6 @@ public class CyberScanning
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
     public final static CyberScanning.MetaGroup METAGROUP = new CyberScanning.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/implant/CyberScanning.yaml";
-    private static Map<String, CyberScanning> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -131,37 +129,24 @@ public class CyberScanning
     }
 
     @Override
-    public int getGroupId() {
-        return  1230;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberScanning> getGroup() {
+    public IMetaGroup<CyberScanning> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CyberScanning> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CyberScanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CyberScanning> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberScanning>
+        implements IMetaGroup<CyberScanning>
     {
+        public final static String RESOURCE_PATH = "SDE/items/implant/CyberScanning.yaml";
+        private Map<String, CyberScanning> cache = (null);
 
         @Override
-        public MetaCategory<? super CyberScanning> category() {
+        public IMetaCategory<? super CyberScanning> category() {
             return Implant.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1230;
         }
 
         @Override
@@ -170,8 +155,19 @@ public class CyberScanning
         }
 
         @Override
-        public Collection<CyberScanning> items() {
-            return (load().values());
+        public synchronized Map<String, CyberScanning> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CyberScanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CyberScanning> items;
         }
     }
 }

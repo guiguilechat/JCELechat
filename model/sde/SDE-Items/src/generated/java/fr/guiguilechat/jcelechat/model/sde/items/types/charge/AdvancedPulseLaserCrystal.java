@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -167,8 +167,6 @@ public class AdvancedPulseLaserCrystal
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
     public final static AdvancedPulseLaserCrystal.MetaGroup METAGROUP = new AdvancedPulseLaserCrystal.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedPulseLaserCrystal.yaml";
-    private static Map<String, AdvancedPulseLaserCrystal> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -265,37 +263,24 @@ public class AdvancedPulseLaserCrystal
     }
 
     @Override
-    public int getGroupId() {
-        return  375;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedPulseLaserCrystal> getGroup() {
+    public IMetaGroup<AdvancedPulseLaserCrystal> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, AdvancedPulseLaserCrystal> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(AdvancedPulseLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, AdvancedPulseLaserCrystal> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedPulseLaserCrystal>
+        implements IMetaGroup<AdvancedPulseLaserCrystal>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedPulseLaserCrystal.yaml";
+        private Map<String, AdvancedPulseLaserCrystal> cache = (null);
 
         @Override
-        public MetaCategory<? super AdvancedPulseLaserCrystal> category() {
+        public IMetaCategory<? super AdvancedPulseLaserCrystal> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  375;
         }
 
         @Override
@@ -304,8 +289,19 @@ public class AdvancedPulseLaserCrystal
         }
 
         @Override
-        public Collection<AdvancedPulseLaserCrystal> items() {
-            return (load().values());
+        public synchronized Map<String, AdvancedPulseLaserCrystal> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedPulseLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, AdvancedPulseLaserCrystal> items;
         }
     }
 }

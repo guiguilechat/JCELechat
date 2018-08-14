@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
@@ -13,41 +13,26 @@ public class ArtifactsAndPrototypes
     extends Commodity
 {
     public final static ArtifactsAndPrototypes.MetaGroup METAGROUP = new ArtifactsAndPrototypes.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/commodity/ArtifactsAndPrototypes.yaml";
-    private static Map<String, ArtifactsAndPrototypes> cache = (null);
 
     @Override
-    public int getGroupId() {
-        return  528;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArtifactsAndPrototypes> getGroup() {
+    public IMetaGroup<ArtifactsAndPrototypes> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ArtifactsAndPrototypes> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ArtifactsAndPrototypes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ArtifactsAndPrototypes> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArtifactsAndPrototypes>
+        implements IMetaGroup<ArtifactsAndPrototypes>
     {
+        public final static String RESOURCE_PATH = "SDE/items/commodity/ArtifactsAndPrototypes.yaml";
+        private Map<String, ArtifactsAndPrototypes> cache = (null);
 
         @Override
-        public MetaCategory<? super ArtifactsAndPrototypes> category() {
+        public IMetaCategory<? super ArtifactsAndPrototypes> category() {
             return Commodity.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  528;
         }
 
         @Override
@@ -56,8 +41,19 @@ public class ArtifactsAndPrototypes
         }
 
         @Override
-        public Collection<ArtifactsAndPrototypes> items() {
-            return (load().values());
+        public synchronized Map<String, ArtifactsAndPrototypes> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ArtifactsAndPrototypes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ArtifactsAndPrototypes> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -188,8 +188,6 @@ public class BombEnergy
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
     public final static BombEnergy.MetaGroup METAGROUP = new BombEnergy.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/BombEnergy.yaml";
-    private static Map<String, BombEnergy> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -298,37 +296,24 @@ public class BombEnergy
     }
 
     @Override
-    public int getGroupId() {
-        return  864;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BombEnergy> getGroup() {
+    public IMetaGroup<BombEnergy> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, BombEnergy> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(BombEnergy.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, BombEnergy> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BombEnergy>
+        implements IMetaGroup<BombEnergy>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/BombEnergy.yaml";
+        private Map<String, BombEnergy> cache = (null);
 
         @Override
-        public MetaCategory<? super BombEnergy> category() {
+        public IMetaCategory<? super BombEnergy> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  864;
         }
 
         @Override
@@ -337,8 +322,19 @@ public class BombEnergy
         }
 
         @Override
-        public Collection<BombEnergy> items() {
-            return (load().values());
+        public synchronized Map<String, BombEnergy> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(BombEnergy.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, BombEnergy> items;
         }
     }
 }

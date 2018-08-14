@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -38,8 +38,6 @@ public class Miscellaneous
     @DefaultIntValue(1)
     public int ImportTaxMultiplier;
     public final static Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
-    private static Map<String, Miscellaneous> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -64,37 +62,24 @@ public class Miscellaneous
     }
 
     @Override
-    public int getGroupId() {
-        return  314;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Miscellaneous> getGroup() {
+    public IMetaGroup<Miscellaneous> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Miscellaneous> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Miscellaneous.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Miscellaneous> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Miscellaneous>
+        implements IMetaGroup<Miscellaneous>
     {
+        public final static String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
+        private Map<String, Miscellaneous> cache = (null);
 
         @Override
-        public MetaCategory<? super Miscellaneous> category() {
+        public IMetaCategory<? super Miscellaneous> category() {
             return Commodity.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  314;
         }
 
         @Override
@@ -103,8 +88,19 @@ public class Miscellaneous
         }
 
         @Override
-        public Collection<Miscellaneous> items() {
-            return (load().values());
+        public synchronized Map<String, Miscellaneous> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Miscellaneous.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Miscellaneous> items;
         }
     }
 }

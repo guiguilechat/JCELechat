@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -95,8 +95,6 @@ public class ShieldHardeningArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static ShieldHardeningArray.MetaGroup METAGROUP = new ShieldHardeningArray.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/ShieldHardeningArray.yaml";
-    private static Map<String, ShieldHardeningArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -153,37 +151,24 @@ public class ShieldHardeningArray
     }
 
     @Override
-    public int getGroupId() {
-        return  444;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldHardeningArray> getGroup() {
+    public IMetaGroup<ShieldHardeningArray> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ShieldHardeningArray> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ShieldHardeningArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ShieldHardeningArray> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldHardeningArray>
+        implements IMetaGroup<ShieldHardeningArray>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/ShieldHardeningArray.yaml";
+        private Map<String, ShieldHardeningArray> cache = (null);
 
         @Override
-        public MetaCategory<? super ShieldHardeningArray> category() {
+        public IMetaCategory<? super ShieldHardeningArray> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  444;
         }
 
         @Override
@@ -192,8 +177,19 @@ public class ShieldHardeningArray
         }
 
         @Override
-        public Collection<ShieldHardeningArray> items() {
-            return (load().values());
+        public synchronized Map<String, ShieldHardeningArray> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ShieldHardeningArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ShieldHardeningArray> items;
         }
     }
 }

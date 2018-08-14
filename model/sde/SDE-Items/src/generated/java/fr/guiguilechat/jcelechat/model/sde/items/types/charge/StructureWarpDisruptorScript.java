@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -60,8 +60,6 @@ public class StructureWarpDisruptorScript
     @DefaultIntValue(0)
     public int WarpScrambleRangeBonus;
     public final static StructureWarpDisruptorScript.MetaGroup METAGROUP = new StructureWarpDisruptorScript.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/StructureWarpDisruptorScript.yaml";
-    private static Map<String, StructureWarpDisruptorScript> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -98,37 +96,24 @@ public class StructureWarpDisruptorScript
     }
 
     @Override
-    public int getGroupId() {
-        return  1551;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureWarpDisruptorScript> getGroup() {
+    public IMetaGroup<StructureWarpDisruptorScript> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureWarpDisruptorScript> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureWarpDisruptorScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureWarpDisruptorScript> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureWarpDisruptorScript>
+        implements IMetaGroup<StructureWarpDisruptorScript>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/StructureWarpDisruptorScript.yaml";
+        private Map<String, StructureWarpDisruptorScript> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureWarpDisruptorScript> category() {
+        public IMetaCategory<? super StructureWarpDisruptorScript> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1551;
         }
 
         @Override
@@ -137,8 +122,19 @@ public class StructureWarpDisruptorScript
         }
 
         @Override
-        public Collection<StructureWarpDisruptorScript> items() {
-            return (load().values());
+        public synchronized Map<String, StructureWarpDisruptorScript> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureWarpDisruptorScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureWarpDisruptorScript> items;
         }
     }
 }

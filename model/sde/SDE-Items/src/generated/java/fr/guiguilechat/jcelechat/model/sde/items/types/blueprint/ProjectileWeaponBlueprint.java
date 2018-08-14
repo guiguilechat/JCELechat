@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -48,8 +48,6 @@ public class ProjectileWeaponBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static ProjectileWeaponBlueprint.MetaGroup METAGROUP = new ProjectileWeaponBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ProjectileWeaponBlueprint.yaml";
-    private static Map<String, ProjectileWeaponBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -74,37 +72,24 @@ public class ProjectileWeaponBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  135;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ProjectileWeaponBlueprint> getGroup() {
+    public IMetaGroup<ProjectileWeaponBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ProjectileWeaponBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ProjectileWeaponBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ProjectileWeaponBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ProjectileWeaponBlueprint>
+        implements IMetaGroup<ProjectileWeaponBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ProjectileWeaponBlueprint.yaml";
+        private Map<String, ProjectileWeaponBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ProjectileWeaponBlueprint> category() {
+        public IMetaCategory<? super ProjectileWeaponBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  135;
         }
 
         @Override
@@ -113,8 +98,19 @@ public class ProjectileWeaponBlueprint
         }
 
         @Override
-        public Collection<ProjectileWeaponBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ProjectileWeaponBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ProjectileWeaponBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ProjectileWeaponBlueprint> items;
         }
     }
 }

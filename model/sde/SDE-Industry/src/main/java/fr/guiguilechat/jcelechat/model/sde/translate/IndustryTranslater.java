@@ -96,7 +96,7 @@ public class IndustryTranslater {
 			}
 		}
 
-		for (Entry<String, GenericDecryptor> e : GenericDecryptor.load().entrySet()) {
+		for (Entry<String, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
 			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
 		}
 		ArrayList<Entry<String, Usage>> l = new ArrayList<>(usages.entrySet());

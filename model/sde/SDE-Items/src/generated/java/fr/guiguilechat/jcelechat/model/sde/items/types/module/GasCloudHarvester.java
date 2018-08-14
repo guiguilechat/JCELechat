@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -124,8 +124,6 @@ public class GasCloudHarvester
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static GasCloudHarvester.MetaGroup METAGROUP = new GasCloudHarvester.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/GasCloudHarvester.yaml";
-    private static Map<String, GasCloudHarvester> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -194,37 +192,24 @@ public class GasCloudHarvester
     }
 
     @Override
-    public int getGroupId() {
-        return  737;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<GasCloudHarvester> getGroup() {
+    public IMetaGroup<GasCloudHarvester> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, GasCloudHarvester> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(GasCloudHarvester.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, GasCloudHarvester> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<GasCloudHarvester>
+        implements IMetaGroup<GasCloudHarvester>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/GasCloudHarvester.yaml";
+        private Map<String, GasCloudHarvester> cache = (null);
 
         @Override
-        public MetaCategory<? super GasCloudHarvester> category() {
+        public IMetaCategory<? super GasCloudHarvester> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  737;
         }
 
         @Override
@@ -233,8 +218,19 @@ public class GasCloudHarvester
         }
 
         @Override
-        public Collection<GasCloudHarvester> items() {
-            return (load().values());
+        public synchronized Map<String, GasCloudHarvester> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(GasCloudHarvester.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, GasCloudHarvester> items;
         }
     }
 }

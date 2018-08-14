@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -75,8 +75,6 @@ public class CapacitorFluxCoil
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     public final static CapacitorFluxCoil.MetaGroup METAGROUP = new CapacitorFluxCoil.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/CapacitorFluxCoil.yaml";
-    private static Map<String, CapacitorFluxCoil> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -117,37 +115,24 @@ public class CapacitorFluxCoil
     }
 
     @Override
-    public int getGroupId() {
-        return  768;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorFluxCoil> getGroup() {
+    public IMetaGroup<CapacitorFluxCoil> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CapacitorFluxCoil> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CapacitorFluxCoil.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CapacitorFluxCoil> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorFluxCoil>
+        implements IMetaGroup<CapacitorFluxCoil>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/CapacitorFluxCoil.yaml";
+        private Map<String, CapacitorFluxCoil> cache = (null);
 
         @Override
-        public MetaCategory<? super CapacitorFluxCoil> category() {
+        public IMetaCategory<? super CapacitorFluxCoil> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  768;
         }
 
         @Override
@@ -156,8 +141,19 @@ public class CapacitorFluxCoil
         }
 
         @Override
-        public Collection<CapacitorFluxCoil> items() {
-            return (load().values());
+        public synchronized Map<String, CapacitorFluxCoil> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CapacitorFluxCoil.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CapacitorFluxCoil> items;
         }
     }
 }

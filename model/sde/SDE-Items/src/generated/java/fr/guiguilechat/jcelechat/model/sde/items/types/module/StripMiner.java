@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -117,8 +117,6 @@ public class StripMiner
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static StripMiner.MetaGroup METAGROUP = new StripMiner.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/StripMiner.yaml";
-    private static Map<String, StripMiner> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -183,37 +181,24 @@ public class StripMiner
     }
 
     @Override
-    public int getGroupId() {
-        return  464;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StripMiner> getGroup() {
+    public IMetaGroup<StripMiner> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StripMiner> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StripMiner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StripMiner> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StripMiner>
+        implements IMetaGroup<StripMiner>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/StripMiner.yaml";
+        private Map<String, StripMiner> cache = (null);
 
         @Override
-        public MetaCategory<? super StripMiner> category() {
+        public IMetaCategory<? super StripMiner> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  464;
         }
 
         @Override
@@ -222,8 +207,19 @@ public class StripMiner
         }
 
         @Override
-        public Collection<StripMiner> items() {
-            return (load().values());
+        public synchronized Map<String, StripMiner> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StripMiner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StripMiner> items;
         }
     }
 }

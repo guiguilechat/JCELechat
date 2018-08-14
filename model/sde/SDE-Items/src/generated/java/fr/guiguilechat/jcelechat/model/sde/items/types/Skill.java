@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -118,32 +117,36 @@ public abstract class Skill
     }
 
     @Override
-    public int getCategoryId() {
-        return  16;
-    }
-
-    @Override
-    public MetaCategory<Skill> getCategory() {
+    public IMetaCategory<Skill> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Skill> loadCategory() {
-        return Stream.of(Armor.load(), CorporationManagement.load(), Drones.load(), ElectronicSystems.load(), Engineering.load(), FleetSupport.load(), Gunnery.load(), Missiles.load(), Navigation.load(), NeuralEnhancement.load(), PlanetManagement.load(), Production.load(), ResourceProcessing.load(), Rigging.load(), Scanning.load(), Science.load(), Shields.load(), Social.load(), SpaceshipCommand.load(), StructureManagement.load(), Subsystems.load(), Targeting.load(), Trade.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Skill>
+        implements IMetaCategory<Skill>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Skill> [] groups = new MetaGroup[] {Gunnery.METAGROUP, Missiles.METAGROUP, SpaceshipCommand.METAGROUP, FleetSupport.METAGROUP, CorporationManagement.METAGROUP, Production.METAGROUP, Rigging.METAGROUP, Science.METAGROUP, ElectronicSystems.METAGROUP, Drones.METAGROUP, Trade.METAGROUP, Navigation.METAGROUP, Social.METAGROUP, Shields.METAGROUP, Armor.METAGROUP, Targeting.METAGROUP, Engineering.METAGROUP, Scanning.METAGROUP, ResourceProcessing.METAGROUP, NeuralEnhancement.METAGROUP, Subsystems.METAGROUP, PlanetManagement.METAGROUP, StructureManagement.METAGROUP };
+        private final static IMetaGroup<? extends Skill> [] groups = new IMetaGroup[] {Gunnery.METAGROUP, Missiles.METAGROUP, SpaceshipCommand.METAGROUP, FleetSupport.METAGROUP, CorporationManagement.METAGROUP, Production.METAGROUP, Rigging.METAGROUP, Science.METAGROUP, ElectronicSystems.METAGROUP, Drones.METAGROUP, Trade.METAGROUP, Navigation.METAGROUP, Social.METAGROUP, Shields.METAGROUP, Armor.METAGROUP, Targeting.METAGROUP, Engineering.METAGROUP, Scanning.METAGROUP, ResourceProcessing.METAGROUP, NeuralEnhancement.METAGROUP, Subsystems.METAGROUP, PlanetManagement.METAGROUP, StructureManagement.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  16;
+        }
 
         @Override
         public String getName() {
             return "Skill";
         }
 
-        public Collection<MetaGroup<? extends Skill>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Skill>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Skill> load() {
+            HashMap<String, Skill> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

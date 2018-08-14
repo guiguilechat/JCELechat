@@ -10,13 +10,17 @@ public abstract class Item {
     public String name;
     public int marketGroup;
 
-    public abstract int getCategoryId();
+    public abstract IMetaGroup<?> getGroup();
 
-    public abstract MetaCategory<?> getCategory();
+    public int getGroupId() {
+        return getGroup().getGroupId();
+    }
 
-    public abstract int getGroupId();
+    public abstract IMetaCategory<?> getCategory();
 
-    public abstract MetaGroup<?> getGroup();
+    public int getCategoryId() {
+        return getCategory().getCategoryId();
+    }
 
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {

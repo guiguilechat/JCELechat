@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class Tool
     @DefaultIntValue(0)
     public int Hp;
     public final static Tool.MetaGroup METAGROUP = new Tool.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/commodity/Tool.yaml";
-    private static Map<String, Tool> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class Tool
     }
 
     @Override
-    public int getGroupId() {
-        return  332;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Tool> getGroup() {
+    public IMetaGroup<Tool> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Tool> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Tool.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Tool> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Tool>
+        implements IMetaGroup<Tool>
     {
+        public final static String RESOURCE_PATH = "SDE/items/commodity/Tool.yaml";
+        private Map<String, Tool> cache = (null);
 
         @Override
-        public MetaCategory<? super Tool> category() {
+        public IMetaCategory<? super Tool> category() {
             return Commodity.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  332;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class Tool
         }
 
         @Override
-        public Collection<Tool> items() {
-            return (load().values());
+        public synchronized Map<String, Tool> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Tool.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Tool> items;
         }
     }
 }

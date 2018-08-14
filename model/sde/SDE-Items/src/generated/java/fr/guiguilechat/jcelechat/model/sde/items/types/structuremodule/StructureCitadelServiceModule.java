@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -172,8 +172,6 @@ public class StructureCitadelServiceModule
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     public final static StructureCitadelServiceModule.MetaGroup METAGROUP = new StructureCitadelServiceModule.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCitadelServiceModule.yaml";
-    private static Map<String, StructureCitadelServiceModule> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -274,37 +272,24 @@ public class StructureCitadelServiceModule
     }
 
     @Override
-    public int getGroupId() {
-        return  1321;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCitadelServiceModule> getGroup() {
+    public IMetaGroup<StructureCitadelServiceModule> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureCitadelServiceModule> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureCitadelServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureCitadelServiceModule> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCitadelServiceModule>
+        implements IMetaGroup<StructureCitadelServiceModule>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCitadelServiceModule.yaml";
+        private Map<String, StructureCitadelServiceModule> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureCitadelServiceModule> category() {
+        public IMetaCategory<? super StructureCitadelServiceModule> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1321;
         }
 
         @Override
@@ -313,8 +298,19 @@ public class StructureCitadelServiceModule
         }
 
         @Override
-        public Collection<StructureCitadelServiceModule> items() {
-            return (load().values());
+        public synchronized Map<String, StructureCitadelServiceModule> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureCitadelServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureCitadelServiceModule> items;
         }
     }
 }

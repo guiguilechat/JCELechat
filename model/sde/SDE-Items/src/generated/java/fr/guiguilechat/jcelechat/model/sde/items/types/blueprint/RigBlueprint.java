@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class RigBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static RigBlueprint.MetaGroup METAGROUP = new RigBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/RigBlueprint.yaml";
-    private static Map<String, RigBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class RigBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  787;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigBlueprint> getGroup() {
+    public IMetaGroup<RigBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RigBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RigBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RigBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigBlueprint>
+        implements IMetaGroup<RigBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/RigBlueprint.yaml";
+        private Map<String, RigBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super RigBlueprint> category() {
+        public IMetaCategory<? super RigBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  787;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class RigBlueprint
         }
 
         @Override
-        public Collection<RigBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, RigBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RigBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RigBlueprint> items;
         }
     }
 }

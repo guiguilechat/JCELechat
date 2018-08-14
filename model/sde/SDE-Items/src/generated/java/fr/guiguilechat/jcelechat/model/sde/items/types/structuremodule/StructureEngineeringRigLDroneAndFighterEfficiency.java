@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -145,8 +145,6 @@ public class StructureEngineeringRigLDroneAndFighterEfficiency
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureEngineeringRigLDroneAndFighterEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLDroneAndFighterEfficiency.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLDroneAndFighterEfficiency.yaml";
-    private static Map<String, StructureEngineeringRigLDroneAndFighterEfficiency> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -231,37 +229,24 @@ public class StructureEngineeringRigLDroneAndFighterEfficiency
     }
 
     @Override
-    public int getGroupId() {
-        return  1852;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLDroneAndFighterEfficiency> getGroup() {
+    public IMetaGroup<StructureEngineeringRigLDroneAndFighterEfficiency> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureEngineeringRigLDroneAndFighterEfficiency> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLDroneAndFighterEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureEngineeringRigLDroneAndFighterEfficiency> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLDroneAndFighterEfficiency>
+        implements IMetaGroup<StructureEngineeringRigLDroneAndFighterEfficiency>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLDroneAndFighterEfficiency.yaml";
+        private Map<String, StructureEngineeringRigLDroneAndFighterEfficiency> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureEngineeringRigLDroneAndFighterEfficiency> category() {
+        public IMetaCategory<? super StructureEngineeringRigLDroneAndFighterEfficiency> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1852;
         }
 
         @Override
@@ -270,8 +255,19 @@ public class StructureEngineeringRigLDroneAndFighterEfficiency
         }
 
         @Override
-        public Collection<StructureEngineeringRigLDroneAndFighterEfficiency> items() {
-            return (load().values());
+        public synchronized Map<String, StructureEngineeringRigLDroneAndFighterEfficiency> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLDroneAndFighterEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureEngineeringRigLDroneAndFighterEfficiency> items;
         }
     }
 }

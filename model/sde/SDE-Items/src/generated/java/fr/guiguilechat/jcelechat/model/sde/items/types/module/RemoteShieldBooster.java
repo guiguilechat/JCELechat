@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -152,8 +152,6 @@ public class RemoteShieldBooster
     @DefaultDoubleValue(0.0)
     public double ShieldBonus;
     public final static RemoteShieldBooster.MetaGroup METAGROUP = new RemoteShieldBooster.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/RemoteShieldBooster.yaml";
-    private static Map<String, RemoteShieldBooster> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -238,37 +236,24 @@ public class RemoteShieldBooster
     }
 
     @Override
-    public int getGroupId() {
-        return  41;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteShieldBooster> getGroup() {
+    public IMetaGroup<RemoteShieldBooster> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RemoteShieldBooster> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RemoteShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RemoteShieldBooster> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteShieldBooster>
+        implements IMetaGroup<RemoteShieldBooster>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/RemoteShieldBooster.yaml";
+        private Map<String, RemoteShieldBooster> cache = (null);
 
         @Override
-        public MetaCategory<? super RemoteShieldBooster> category() {
+        public IMetaCategory<? super RemoteShieldBooster> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  41;
         }
 
         @Override
@@ -277,8 +262,19 @@ public class RemoteShieldBooster
         }
 
         @Override
-        public Collection<RemoteShieldBooster> items() {
-            return (load().values());
+        public synchronized Map<String, RemoteShieldBooster> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RemoteShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RemoteShieldBooster> items;
         }
     }
 }

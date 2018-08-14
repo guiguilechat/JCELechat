@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -160,8 +160,6 @@ public class AdvancedBeamLaserCrystal
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
     public final static AdvancedBeamLaserCrystal.MetaGroup METAGROUP = new AdvancedBeamLaserCrystal.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedBeamLaserCrystal.yaml";
-    private static Map<String, AdvancedBeamLaserCrystal> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -254,37 +252,24 @@ public class AdvancedBeamLaserCrystal
     }
 
     @Override
-    public int getGroupId() {
-        return  374;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedBeamLaserCrystal> getGroup() {
+    public IMetaGroup<AdvancedBeamLaserCrystal> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, AdvancedBeamLaserCrystal> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(AdvancedBeamLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, AdvancedBeamLaserCrystal> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedBeamLaserCrystal>
+        implements IMetaGroup<AdvancedBeamLaserCrystal>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedBeamLaserCrystal.yaml";
+        private Map<String, AdvancedBeamLaserCrystal> cache = (null);
 
         @Override
-        public MetaCategory<? super AdvancedBeamLaserCrystal> category() {
+        public IMetaCategory<? super AdvancedBeamLaserCrystal> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  374;
         }
 
         @Override
@@ -293,8 +278,19 @@ public class AdvancedBeamLaserCrystal
         }
 
         @Override
-        public Collection<AdvancedBeamLaserCrystal> items() {
-            return (load().values());
+        public synchronized Map<String, AdvancedBeamLaserCrystal> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedBeamLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, AdvancedBeamLaserCrystal> items;
         }
     }
 }

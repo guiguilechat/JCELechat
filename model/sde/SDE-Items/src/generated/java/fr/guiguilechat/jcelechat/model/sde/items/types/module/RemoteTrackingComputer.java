@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -166,8 +166,6 @@ public class RemoteTrackingComputer
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
     public final static RemoteTrackingComputer.MetaGroup METAGROUP = new RemoteTrackingComputer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/RemoteTrackingComputer.yaml";
-    private static Map<String, RemoteTrackingComputer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -260,37 +258,24 @@ public class RemoteTrackingComputer
     }
 
     @Override
-    public int getGroupId() {
-        return  209;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteTrackingComputer> getGroup() {
+    public IMetaGroup<RemoteTrackingComputer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RemoteTrackingComputer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RemoteTrackingComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RemoteTrackingComputer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteTrackingComputer>
+        implements IMetaGroup<RemoteTrackingComputer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/RemoteTrackingComputer.yaml";
+        private Map<String, RemoteTrackingComputer> cache = (null);
 
         @Override
-        public MetaCategory<? super RemoteTrackingComputer> category() {
+        public IMetaCategory<? super RemoteTrackingComputer> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  209;
         }
 
         @Override
@@ -299,8 +284,19 @@ public class RemoteTrackingComputer
         }
 
         @Override
-        public Collection<RemoteTrackingComputer> items() {
-            return (load().values());
+        public synchronized Map<String, RemoteTrackingComputer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RemoteTrackingComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RemoteTrackingComputer> items;
         }
     }
 }

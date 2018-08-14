@@ -2,12 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.lights.PointLights;
 
 public abstract class Lights
@@ -16,32 +15,36 @@ public abstract class Lights
     public final static Lights.MetaCat METACAT = new Lights.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  54;
-    }
-
-    @Override
-    public MetaCategory<Lights> getCategory() {
+    public IMetaCategory<Lights> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Lights> loadCategory() {
-        return Stream.of(PointLights.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Lights>
+        implements IMetaCategory<Lights>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Lights> [] groups = new MetaGroup[] {PointLights.METAGROUP };
+        private final static IMetaGroup<? extends Lights> [] groups = new IMetaGroup[] {PointLights.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  54;
+        }
 
         @Override
         public String getName() {
             return "Lights";
         }
 
-        public Collection<MetaGroup<? extends Lights>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Lights>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Lights> load() {
+            HashMap<String, Lights> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

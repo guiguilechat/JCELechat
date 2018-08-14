@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -230,8 +230,6 @@ public class AdvancedTorpedo
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
     public final static AdvancedTorpedo.MetaGroup METAGROUP = new AdvancedTorpedo.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedTorpedo.yaml";
-    private static Map<String, AdvancedTorpedo> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -364,37 +362,24 @@ public class AdvancedTorpedo
     }
 
     @Override
-    public int getGroupId() {
-        return  657;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedTorpedo> getGroup() {
+    public IMetaGroup<AdvancedTorpedo> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, AdvancedTorpedo> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(AdvancedTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, AdvancedTorpedo> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedTorpedo>
+        implements IMetaGroup<AdvancedTorpedo>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedTorpedo.yaml";
+        private Map<String, AdvancedTorpedo> cache = (null);
 
         @Override
-        public MetaCategory<? super AdvancedTorpedo> category() {
+        public IMetaCategory<? super AdvancedTorpedo> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  657;
         }
 
         @Override
@@ -403,8 +388,19 @@ public class AdvancedTorpedo
         }
 
         @Override
-        public Collection<AdvancedTorpedo> items() {
-            return (load().values());
+        public synchronized Map<String, AdvancedTorpedo> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, AdvancedTorpedo> items;
         }
     }
 }

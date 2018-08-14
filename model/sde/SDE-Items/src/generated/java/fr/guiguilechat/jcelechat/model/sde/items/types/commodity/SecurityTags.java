@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class SecurityTags
     @DefaultIntValue(0)
     public int SecurityProcessingFee;
     public final static SecurityTags.MetaGroup METAGROUP = new SecurityTags.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/commodity/SecurityTags.yaml";
-    private static Map<String, SecurityTags> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class SecurityTags
     }
 
     @Override
-    public int getGroupId() {
-        return  1206;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SecurityTags> getGroup() {
+    public IMetaGroup<SecurityTags> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, SecurityTags> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(SecurityTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, SecurityTags> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SecurityTags>
+        implements IMetaGroup<SecurityTags>
     {
+        public final static String RESOURCE_PATH = "SDE/items/commodity/SecurityTags.yaml";
+        private Map<String, SecurityTags> cache = (null);
 
         @Override
-        public MetaCategory<? super SecurityTags> category() {
+        public IMetaCategory<? super SecurityTags> category() {
             return Commodity.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1206;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class SecurityTags
         }
 
         @Override
-        public Collection<SecurityTags> items() {
-            return (load().values());
+        public synchronized Map<String, SecurityTags> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(SecurityTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, SecurityTags> items;
         }
     }
 }

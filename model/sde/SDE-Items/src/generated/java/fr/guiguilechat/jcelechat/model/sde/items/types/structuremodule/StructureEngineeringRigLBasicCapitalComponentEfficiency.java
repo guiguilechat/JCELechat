@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -167,8 +167,6 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureEngineeringRigLBasicCapitalComponentEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLBasicCapitalComponentEfficiency.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBasicCapitalComponentEfficiency.yaml";
-    private static Map<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -261,37 +259,24 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
     }
 
     @Override
-    public int getGroupId() {
-        return  1861;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLBasicCapitalComponentEfficiency> getGroup() {
+    public IMetaGroup<StructureEngineeringRigLBasicCapitalComponentEfficiency> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLBasicCapitalComponentEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLBasicCapitalComponentEfficiency>
+        implements IMetaGroup<StructureEngineeringRigLBasicCapitalComponentEfficiency>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBasicCapitalComponentEfficiency.yaml";
+        private Map<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureEngineeringRigLBasicCapitalComponentEfficiency> category() {
+        public IMetaCategory<? super StructureEngineeringRigLBasicCapitalComponentEfficiency> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1861;
         }
 
         @Override
@@ -300,8 +285,19 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
         }
 
         @Override
-        public Collection<StructureEngineeringRigLBasicCapitalComponentEfficiency> items() {
-            return (load().values());
+        public synchronized Map<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLBasicCapitalComponentEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> items;
         }
     }
 }

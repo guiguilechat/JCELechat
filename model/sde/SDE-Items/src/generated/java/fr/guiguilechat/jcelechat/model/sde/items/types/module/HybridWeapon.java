@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -264,8 +264,6 @@ public class HybridWeapon
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static HybridWeapon.MetaGroup METAGROUP = new HybridWeapon.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/HybridWeapon.yaml";
-    private static Map<String, HybridWeapon> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -414,37 +412,24 @@ public class HybridWeapon
     }
 
     @Override
-    public int getGroupId() {
-        return  74;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridWeapon> getGroup() {
+    public IMetaGroup<HybridWeapon> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, HybridWeapon> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(HybridWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, HybridWeapon> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridWeapon>
+        implements IMetaGroup<HybridWeapon>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/HybridWeapon.yaml";
+        private Map<String, HybridWeapon> cache = (null);
 
         @Override
-        public MetaCategory<? super HybridWeapon> category() {
+        public IMetaCategory<? super HybridWeapon> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  74;
         }
 
         @Override
@@ -453,8 +438,19 @@ public class HybridWeapon
         }
 
         @Override
-        public Collection<HybridWeapon> items() {
-            return (load().values());
+        public synchronized Map<String, HybridWeapon> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(HybridWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, HybridWeapon> items;
         }
     }
 }

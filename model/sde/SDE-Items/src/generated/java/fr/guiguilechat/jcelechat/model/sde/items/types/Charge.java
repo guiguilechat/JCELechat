@@ -2,12 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.charge.AdvancedArtilleryAmmo;
 import fr.guiguilechat.jcelechat.model.sde.items.types.charge.AdvancedAutocannonAmmo;
 import fr.guiguilechat.jcelechat.model.sde.items.types.charge.AdvancedBeamLaserCrystal;
@@ -77,32 +76,36 @@ public abstract class Charge
     public final static Charge.MetaCat METACAT = new Charge.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  8;
-    }
-
-    @Override
-    public MetaCategory<Charge> getCategory() {
+    public IMetaCategory<Charge> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Charge> loadCategory() {
-        return Stream.of(AdvancedArtilleryAmmo.load(), AdvancedAutocannonAmmo.load(), AdvancedBeamLaserCrystal.load(), AdvancedBlasterCharge.load(), AdvancedCruiseMissile.load(), AdvancedExoticPlasmaCharge.load(), AdvancedHeavyAssaultMissile.load(), AdvancedHeavyMissile.load(), AdvancedLightMissile.load(), AdvancedPulseLaserCrystal.load(), AdvancedRailgunCharge.load(), AdvancedRocket.load(), AdvancedTorpedo.load(), AdvancedXLCruiseMissile.load(), AdvancedXLTorpedo.load(), ArmorCommandBurstCharges.load(), AutoTargetingCruiseMissile.load(), AutoTargetingHeavyMissile.load(), AutoTargetingLightMissile.load(), Bomb.load(), BombECM.load(), BombEnergy.load(), CapacitorBoosterCharge.load(), CruiseMissile.load(), DefenderMissiles.load(), ExoticPlasmaCharge.load(), FestivalCharges.load(), FlexArmorHardenerScript.load(), FlexShieldHardenerScript.load(), FrequencyCrystal.load(), GuidanceDisruptionScript.load(), HeavyAssaultMissile.load(), HeavyMissile.load(), HybridCharge.load(), InformationCommandBurstCharges.load(), InterdictionProbe.load(), LightMissile.load(), MercoxitMiningCrystal.load(), MiningCrystal.load(), MiningForemanBurstCharges.load(), MissileGuidanceScript.load(), NaniteRepairPaste.load(), ProjectileAmmo.load(), Rocket.load(), ScannerProbe.load(), SensorBoosterScript.load(), SensorDampenerScript.load(), ShieldCommandBurstCharges.load(), SkirmishCommandBurstCharges.load(), StructureAntiCapitalMissile.load(), StructureAntiSubcapitalMissile.load(), StructureECMScript.load(), StructureFestivalCharges.load(), StructureGuidedBomb.load(), StructureWarpDisruptorScript.load(), SurveyProbe.load(), Torpedo.load(), TrackingDisruptionScript.load(), TrackingScript.load(), WarpDisruptionScript.load(), XLCruiseMissile.load(), XLTorpedo.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Charge>
+        implements IMetaCategory<Charge>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Charge> [] groups = new MetaGroup[] {ProjectileAmmo.METAGROUP, HybridCharge.METAGROUP, FrequencyCrystal.METAGROUP, CapacitorBoosterCharge.METAGROUP, DefenderMissiles.METAGROUP, Torpedo.METAGROUP, Bomb.METAGROUP, AdvancedAutocannonAmmo.METAGROUP, AdvancedRailgunCharge.METAGROUP, AdvancedBeamLaserCrystal.METAGROUP, AdvancedPulseLaserCrystal.METAGROUP, AdvancedArtilleryAmmo.METAGROUP, AdvancedBlasterCharge.METAGROUP, LightMissile.METAGROUP, HeavyMissile.METAGROUP, CruiseMissile.METAGROUP, Rocket.METAGROUP, AutoTargetingLightMissile.METAGROUP, AutoTargetingHeavyMissile.METAGROUP, AutoTargetingCruiseMissile.METAGROUP, XLTorpedo.METAGROUP, ScannerProbe.METAGROUP, MiningCrystal.METAGROUP, SurveyProbe.METAGROUP, FestivalCharges.METAGROUP, InterdictionProbe.METAGROUP, AdvancedRocket.METAGROUP, AdvancedLightMissile.METAGROUP, AdvancedHeavyAssaultMissile.METAGROUP, AdvancedHeavyMissile.METAGROUP, AdvancedCruiseMissile.METAGROUP, AdvancedTorpedo.METAGROUP, MercoxitMiningCrystal.METAGROUP, HeavyAssaultMissile.METAGROUP, BombECM.METAGROUP, BombEnergy.METAGROUP, TrackingScript.METAGROUP, WarpDisruptionScript.METAGROUP, TrackingDisruptionScript.METAGROUP, SensorBoosterScript.METAGROUP, SensorDampenerScript.METAGROUP, NaniteRepairPaste.METAGROUP, XLCruiseMissile.METAGROUP, MissileGuidanceScript.METAGROUP, StructureAntiCapitalMissile.METAGROUP, StructureAntiSubcapitalMissile.METAGROUP, StructureGuidedBomb.METAGROUP, StructureECMScript.METAGROUP, StructureWarpDisruptorScript.METAGROUP, GuidanceDisruptionScript.METAGROUP, AdvancedXLTorpedo.METAGROUP, AdvancedXLCruiseMissile.METAGROUP, FlexArmorHardenerScript.METAGROUP, FlexShieldHardenerScript.METAGROUP, ShieldCommandBurstCharges.METAGROUP, MiningForemanBurstCharges.METAGROUP, SkirmishCommandBurstCharges.METAGROUP, InformationCommandBurstCharges.METAGROUP, ArmorCommandBurstCharges.METAGROUP, StructureFestivalCharges.METAGROUP, ExoticPlasmaCharge.METAGROUP, AdvancedExoticPlasmaCharge.METAGROUP };
+        private final static IMetaGroup<? extends Charge> [] groups = new IMetaGroup[] {ProjectileAmmo.METAGROUP, HybridCharge.METAGROUP, FrequencyCrystal.METAGROUP, CapacitorBoosterCharge.METAGROUP, DefenderMissiles.METAGROUP, Torpedo.METAGROUP, Bomb.METAGROUP, AdvancedAutocannonAmmo.METAGROUP, AdvancedRailgunCharge.METAGROUP, AdvancedBeamLaserCrystal.METAGROUP, AdvancedPulseLaserCrystal.METAGROUP, AdvancedArtilleryAmmo.METAGROUP, AdvancedBlasterCharge.METAGROUP, LightMissile.METAGROUP, HeavyMissile.METAGROUP, CruiseMissile.METAGROUP, Rocket.METAGROUP, AutoTargetingLightMissile.METAGROUP, AutoTargetingHeavyMissile.METAGROUP, AutoTargetingCruiseMissile.METAGROUP, XLTorpedo.METAGROUP, ScannerProbe.METAGROUP, MiningCrystal.METAGROUP, SurveyProbe.METAGROUP, FestivalCharges.METAGROUP, InterdictionProbe.METAGROUP, AdvancedRocket.METAGROUP, AdvancedLightMissile.METAGROUP, AdvancedHeavyAssaultMissile.METAGROUP, AdvancedHeavyMissile.METAGROUP, AdvancedCruiseMissile.METAGROUP, AdvancedTorpedo.METAGROUP, MercoxitMiningCrystal.METAGROUP, HeavyAssaultMissile.METAGROUP, BombECM.METAGROUP, BombEnergy.METAGROUP, TrackingScript.METAGROUP, WarpDisruptionScript.METAGROUP, TrackingDisruptionScript.METAGROUP, SensorBoosterScript.METAGROUP, SensorDampenerScript.METAGROUP, NaniteRepairPaste.METAGROUP, XLCruiseMissile.METAGROUP, MissileGuidanceScript.METAGROUP, StructureAntiCapitalMissile.METAGROUP, StructureAntiSubcapitalMissile.METAGROUP, StructureGuidedBomb.METAGROUP, StructureECMScript.METAGROUP, StructureWarpDisruptorScript.METAGROUP, GuidanceDisruptionScript.METAGROUP, AdvancedXLTorpedo.METAGROUP, AdvancedXLCruiseMissile.METAGROUP, FlexArmorHardenerScript.METAGROUP, FlexShieldHardenerScript.METAGROUP, ShieldCommandBurstCharges.METAGROUP, MiningForemanBurstCharges.METAGROUP, SkirmishCommandBurstCharges.METAGROUP, InformationCommandBurstCharges.METAGROUP, ArmorCommandBurstCharges.METAGROUP, StructureFestivalCharges.METAGROUP, ExoticPlasmaCharge.METAGROUP, AdvancedExoticPlasmaCharge.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  8;
+        }
 
         @Override
         public String getName() {
             return "Charge";
         }
 
-        public Collection<MetaGroup<? extends Charge>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Charge>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Charge> load() {
+            HashMap<String, Charge> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

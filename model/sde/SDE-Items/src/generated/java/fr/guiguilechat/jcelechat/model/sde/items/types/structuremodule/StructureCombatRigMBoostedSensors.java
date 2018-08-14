@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -138,8 +138,6 @@ public class StructureCombatRigMBoostedSensors
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureCombatRigMBoostedSensors.MetaGroup METAGROUP = new StructureCombatRigMBoostedSensors.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMBoostedSensors.yaml";
-    private static Map<String, StructureCombatRigMBoostedSensors> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -220,37 +218,24 @@ public class StructureCombatRigMBoostedSensors
     }
 
     @Override
-    public int getGroupId() {
-        return  1622;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMBoostedSensors> getGroup() {
+    public IMetaGroup<StructureCombatRigMBoostedSensors> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureCombatRigMBoostedSensors> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMBoostedSensors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureCombatRigMBoostedSensors> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMBoostedSensors>
+        implements IMetaGroup<StructureCombatRigMBoostedSensors>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMBoostedSensors.yaml";
+        private Map<String, StructureCombatRigMBoostedSensors> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureCombatRigMBoostedSensors> category() {
+        public IMetaCategory<? super StructureCombatRigMBoostedSensors> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1622;
         }
 
         @Override
@@ -259,8 +244,19 @@ public class StructureCombatRigMBoostedSensors
         }
 
         @Override
-        public Collection<StructureCombatRigMBoostedSensors> items() {
-            return (load().values());
+        public synchronized Map<String, StructureCombatRigMBoostedSensors> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMBoostedSensors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureCombatRigMBoostedSensors> items;
         }
     }
 }

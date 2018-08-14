@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -45,32 +44,36 @@ public abstract class AncientRelics
     }
 
     @Override
-    public int getCategoryId() {
-        return  34;
-    }
-
-    @Override
-    public MetaCategory<AncientRelics> getCategory() {
+    public IMetaCategory<AncientRelics> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends AncientRelics> loadCategory() {
-        return Stream.of(SleeperDefensiveRelics.load(), SleeperEngineeringRelics.load(), SleeperHullRelics.load(), SleeperOffensiveRelics.load(), SleeperPropulsionRelics.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<AncientRelics>
+        implements IMetaCategory<AncientRelics>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends AncientRelics> [] groups = new MetaGroup[] {SleeperPropulsionRelics.METAGROUP, SleeperOffensiveRelics.METAGROUP, SleeperEngineeringRelics.METAGROUP, SleeperDefensiveRelics.METAGROUP, SleeperHullRelics.METAGROUP };
+        private final static IMetaGroup<? extends AncientRelics> [] groups = new IMetaGroup[] {SleeperPropulsionRelics.METAGROUP, SleeperOffensiveRelics.METAGROUP, SleeperEngineeringRelics.METAGROUP, SleeperDefensiveRelics.METAGROUP, SleeperHullRelics.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  34;
+        }
 
         @Override
         public String getName() {
             return "AncientRelics";
         }
 
-        public Collection<MetaGroup<? extends AncientRelics>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends AncientRelics>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, AncientRelics> load() {
+            HashMap<String, AncientRelics> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

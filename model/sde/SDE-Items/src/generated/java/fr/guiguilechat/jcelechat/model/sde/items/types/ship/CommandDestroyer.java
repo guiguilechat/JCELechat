@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -249,8 +249,6 @@ public class CommandDestroyer
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     public final static CommandDestroyer.MetaGroup METAGROUP = new CommandDestroyer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/ship/CommandDestroyer.yaml";
-    private static Map<String, CommandDestroyer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -395,37 +393,24 @@ public class CommandDestroyer
     }
 
     @Override
-    public int getGroupId() {
-        return  1534;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommandDestroyer> getGroup() {
+    public IMetaGroup<CommandDestroyer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CommandDestroyer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CommandDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CommandDestroyer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommandDestroyer>
+        implements IMetaGroup<CommandDestroyer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/ship/CommandDestroyer.yaml";
+        private Map<String, CommandDestroyer> cache = (null);
 
         @Override
-        public MetaCategory<? super CommandDestroyer> category() {
+        public IMetaCategory<? super CommandDestroyer> category() {
             return Ship.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1534;
         }
 
         @Override
@@ -434,8 +419,19 @@ public class CommandDestroyer
         }
 
         @Override
-        public Collection<CommandDestroyer> items() {
-            return (load().values());
+        public synchronized Map<String, CommandDestroyer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CommandDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CommandDestroyer> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -228,8 +228,6 @@ public class Marauder
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     public final static Marauder.MetaGroup METAGROUP = new Marauder.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/ship/Marauder.yaml";
-    private static Map<String, Marauder> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -362,37 +360,24 @@ public class Marauder
     }
 
     @Override
-    public int getGroupId() {
-        return  900;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Marauder> getGroup() {
+    public IMetaGroup<Marauder> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Marauder> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Marauder.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Marauder> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Marauder>
+        implements IMetaGroup<Marauder>
     {
+        public final static String RESOURCE_PATH = "SDE/items/ship/Marauder.yaml";
+        private Map<String, Marauder> cache = (null);
 
         @Override
-        public MetaCategory<? super Marauder> category() {
+        public IMetaCategory<? super Marauder> category() {
             return Ship.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  900;
         }
 
         @Override
@@ -401,8 +386,19 @@ public class Marauder
         }
 
         @Override
-        public Collection<Marauder> items() {
-            return (load().values());
+        public synchronized Map<String, Marauder> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Marauder.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Marauder> items;
         }
     }
 }

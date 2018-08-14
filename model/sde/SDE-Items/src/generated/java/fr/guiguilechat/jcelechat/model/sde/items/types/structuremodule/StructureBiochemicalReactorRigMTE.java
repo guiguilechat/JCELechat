@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -117,8 +117,6 @@ public class StructureBiochemicalReactorRigMTE
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureBiochemicalReactorRigMTE.MetaGroup METAGROUP = new StructureBiochemicalReactorRigMTE.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBiochemicalReactorRigMTE.yaml";
-    private static Map<String, StructureBiochemicalReactorRigMTE> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -187,37 +185,24 @@ public class StructureBiochemicalReactorRigMTE
     }
 
     @Override
-    public int getGroupId() {
-        return  1937;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureBiochemicalReactorRigMTE> getGroup() {
+    public IMetaGroup<StructureBiochemicalReactorRigMTE> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureBiochemicalReactorRigMTE> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureBiochemicalReactorRigMTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureBiochemicalReactorRigMTE> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureBiochemicalReactorRigMTE>
+        implements IMetaGroup<StructureBiochemicalReactorRigMTE>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBiochemicalReactorRigMTE.yaml";
+        private Map<String, StructureBiochemicalReactorRigMTE> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureBiochemicalReactorRigMTE> category() {
+        public IMetaCategory<? super StructureBiochemicalReactorRigMTE> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1937;
         }
 
         @Override
@@ -226,8 +211,19 @@ public class StructureBiochemicalReactorRigMTE
         }
 
         @Override
-        public Collection<StructureBiochemicalReactorRigMTE> items() {
-            return (load().values());
+        public synchronized Map<String, StructureBiochemicalReactorRigMTE> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureBiochemicalReactorRigMTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureBiochemicalReactorRigMTE> items;
         }
     }
 }

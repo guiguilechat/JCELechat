@@ -15,7 +15,7 @@ public class MutaDisrupt extends MutaplasmidFamily {
 			{ CapacitorNeed.INSTANCE, 1.4, 1.8, 1.0, 2.0, 0.9, 2.5, 0, 0 } };
 
 	protected MutaDisrupt() {
-		super(WarpScrambler.load().values().stream()
+		super(WarpScrambler.METAGROUP.load().values().stream()
 				.filter(point -> point.name.contains("Disruptor") && !point.name.contains("Heavy")
 						&& !point.name.contains("Civilian")),
 				DATATABLE);

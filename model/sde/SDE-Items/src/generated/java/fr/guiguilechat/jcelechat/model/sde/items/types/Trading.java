@@ -2,11 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 
 public abstract class Trading
     extends Item
@@ -14,32 +14,36 @@ public abstract class Trading
     public final static Trading.MetaCat METACAT = new Trading.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  10;
-    }
-
-    @Override
-    public MetaCategory<Trading> getCategory() {
+    public IMetaCategory<Trading> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Trading> loadCategory() {
-        return Collections.emptyMap();
-    }
-
     public static class MetaCat
-        implements MetaCategory<Trading>
+        implements IMetaCategory<Trading>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Trading> [] groups = new MetaGroup[] { };
+        private final static IMetaGroup<? extends Trading> [] groups = new IMetaGroup[] { };
+
+        @Override
+        public int getCategoryId() {
+            return  10;
+        }
 
         @Override
         public String getName() {
             return "Trading";
         }
 
-        public Collection<MetaGroup<? extends Trading>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Trading>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Trading> load() {
+            HashMap<String, Trading> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

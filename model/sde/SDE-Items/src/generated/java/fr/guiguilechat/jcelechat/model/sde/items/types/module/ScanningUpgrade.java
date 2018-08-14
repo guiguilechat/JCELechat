@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -67,8 +67,6 @@ public class ScanningUpgrade
     @DefaultIntValue(0)
     public int ScanStrengthBonusModule;
     public final static ScanningUpgrade.MetaGroup METAGROUP = new ScanningUpgrade.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/ScanningUpgrade.yaml";
-    private static Map<String, ScanningUpgrade> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -109,37 +107,24 @@ public class ScanningUpgrade
     }
 
     @Override
-    public int getGroupId() {
-        return  1223;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanningUpgrade> getGroup() {
+    public IMetaGroup<ScanningUpgrade> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ScanningUpgrade> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ScanningUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ScanningUpgrade> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanningUpgrade>
+        implements IMetaGroup<ScanningUpgrade>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/ScanningUpgrade.yaml";
+        private Map<String, ScanningUpgrade> cache = (null);
 
         @Override
-        public MetaCategory<? super ScanningUpgrade> category() {
+        public IMetaCategory<? super ScanningUpgrade> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1223;
         }
 
         @Override
@@ -148,8 +133,19 @@ public class ScanningUpgrade
         }
 
         @Override
-        public Collection<ScanningUpgrade> items() {
-            return (load().values());
+        public synchronized Map<String, ScanningUpgrade> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ScanningUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ScanningUpgrade> items;
         }
     }
 }

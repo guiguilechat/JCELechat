@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -137,8 +137,6 @@ public class StructureAntiSubcapitalMissile
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
     public final static StructureAntiSubcapitalMissile.MetaGroup METAGROUP = new StructureAntiSubcapitalMissile.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/StructureAntiSubcapitalMissile.yaml";
-    private static Map<String, StructureAntiSubcapitalMissile> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -219,37 +217,24 @@ public class StructureAntiSubcapitalMissile
     }
 
     @Override
-    public int getGroupId() {
-        return  1547;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureAntiSubcapitalMissile> getGroup() {
+    public IMetaGroup<StructureAntiSubcapitalMissile> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureAntiSubcapitalMissile> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureAntiSubcapitalMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureAntiSubcapitalMissile> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureAntiSubcapitalMissile>
+        implements IMetaGroup<StructureAntiSubcapitalMissile>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/StructureAntiSubcapitalMissile.yaml";
+        private Map<String, StructureAntiSubcapitalMissile> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureAntiSubcapitalMissile> category() {
+        public IMetaCategory<? super StructureAntiSubcapitalMissile> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1547;
         }
 
         @Override
@@ -258,8 +243,19 @@ public class StructureAntiSubcapitalMissile
         }
 
         @Override
-        public Collection<StructureAntiSubcapitalMissile> items() {
-            return (load().values());
+        public synchronized Map<String, StructureAntiSubcapitalMissile> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureAntiSubcapitalMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureAntiSubcapitalMissile> items;
         }
     }
 }

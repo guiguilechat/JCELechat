@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -278,8 +278,6 @@ public class MobileHybridSentry
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static MobileHybridSentry.MetaGroup METAGROUP = new MobileHybridSentry.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/MobileHybridSentry.yaml";
-    private static Map<String, MobileHybridSentry> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -436,37 +434,24 @@ public class MobileHybridSentry
     }
 
     @Override
-    public int getGroupId() {
-        return  449;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileHybridSentry> getGroup() {
+    public IMetaGroup<MobileHybridSentry> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, MobileHybridSentry> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(MobileHybridSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, MobileHybridSentry> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileHybridSentry>
+        implements IMetaGroup<MobileHybridSentry>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/MobileHybridSentry.yaml";
+        private Map<String, MobileHybridSentry> cache = (null);
 
         @Override
-        public MetaCategory<? super MobileHybridSentry> category() {
+        public IMetaCategory<? super MobileHybridSentry> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  449;
         }
 
         @Override
@@ -475,8 +460,19 @@ public class MobileHybridSentry
         }
 
         @Override
-        public Collection<MobileHybridSentry> items() {
-            return (load().values());
+        public synchronized Map<String, MobileHybridSentry> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(MobileHybridSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, MobileHybridSentry> items;
         }
     }
 }

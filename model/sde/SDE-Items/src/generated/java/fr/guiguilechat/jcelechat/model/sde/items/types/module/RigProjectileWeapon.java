@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -88,8 +88,6 @@ public class RigProjectileWeapon
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static RigProjectileWeapon.MetaGroup METAGROUP = new RigProjectileWeapon.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/RigProjectileWeapon.yaml";
-    private static Map<String, RigProjectileWeapon> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -142,37 +140,24 @@ public class RigProjectileWeapon
     }
 
     @Override
-    public int getGroupId() {
-        return  777;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigProjectileWeapon> getGroup() {
+    public IMetaGroup<RigProjectileWeapon> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RigProjectileWeapon> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RigProjectileWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RigProjectileWeapon> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigProjectileWeapon>
+        implements IMetaGroup<RigProjectileWeapon>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/RigProjectileWeapon.yaml";
+        private Map<String, RigProjectileWeapon> cache = (null);
 
         @Override
-        public MetaCategory<? super RigProjectileWeapon> category() {
+        public IMetaCategory<? super RigProjectileWeapon> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  777;
         }
 
         @Override
@@ -181,8 +166,19 @@ public class RigProjectileWeapon
         }
 
         @Override
-        public Collection<RigProjectileWeapon> items() {
-            return (load().values());
+        public synchronized Map<String, RigProjectileWeapon> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RigProjectileWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RigProjectileWeapon> items;
         }
     }
 }

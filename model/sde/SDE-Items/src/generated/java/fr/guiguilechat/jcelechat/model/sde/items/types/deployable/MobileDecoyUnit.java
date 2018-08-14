@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -82,8 +82,6 @@ public class MobileDecoyUnit
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     public final static MobileDecoyUnit.MetaGroup METAGROUP = new MobileDecoyUnit.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDecoyUnit.yaml";
-    private static Map<String, MobileDecoyUnit> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -132,37 +130,24 @@ public class MobileDecoyUnit
     }
 
     @Override
-    public int getGroupId() {
-        return  1274;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDecoyUnit> getGroup() {
+    public IMetaGroup<MobileDecoyUnit> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, MobileDecoyUnit> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(MobileDecoyUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, MobileDecoyUnit> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDecoyUnit>
+        implements IMetaGroup<MobileDecoyUnit>
     {
+        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDecoyUnit.yaml";
+        private Map<String, MobileDecoyUnit> cache = (null);
 
         @Override
-        public MetaCategory<? super MobileDecoyUnit> category() {
+        public IMetaCategory<? super MobileDecoyUnit> category() {
             return Deployable.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1274;
         }
 
         @Override
@@ -171,8 +156,19 @@ public class MobileDecoyUnit
         }
 
         @Override
-        public Collection<MobileDecoyUnit> items() {
-            return (load().values());
+        public synchronized Map<String, MobileDecoyUnit> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(MobileDecoyUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, MobileDecoyUnit> items;
         }
     }
 }

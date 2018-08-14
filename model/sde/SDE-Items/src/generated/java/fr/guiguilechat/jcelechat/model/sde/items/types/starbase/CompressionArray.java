@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -88,8 +88,6 @@ public class CompressionArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static CompressionArray.MetaGroup METAGROUP = new CompressionArray.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/CompressionArray.yaml";
-    private static Map<String, CompressionArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -142,37 +140,24 @@ public class CompressionArray
     }
 
     @Override
-    public int getGroupId() {
-        return  1282;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CompressionArray> getGroup() {
+    public IMetaGroup<CompressionArray> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CompressionArray> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CompressionArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CompressionArray> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CompressionArray>
+        implements IMetaGroup<CompressionArray>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/CompressionArray.yaml";
+        private Map<String, CompressionArray> cache = (null);
 
         @Override
-        public MetaCategory<? super CompressionArray> category() {
+        public IMetaCategory<? super CompressionArray> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1282;
         }
 
         @Override
@@ -181,8 +166,19 @@ public class CompressionArray
         }
 
         @Override
-        public Collection<CompressionArray> items() {
-            return (load().values());
+        public synchronized Map<String, CompressionArray> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CompressionArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CompressionArray> items;
         }
     }
 }

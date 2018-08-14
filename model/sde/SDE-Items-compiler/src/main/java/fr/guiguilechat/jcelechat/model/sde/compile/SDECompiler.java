@@ -33,6 +33,8 @@ import com.helger.jcodemodel.JExpr;
 import com.helger.jcodemodel.JFieldRef;
 import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JForEach;
+import com.helger.jcodemodel.JLambda;
+import com.helger.jcodemodel.JLambdaParam;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JNarrowedClass;
@@ -288,18 +290,21 @@ public class SDECompiler {
 		JMethod groupGetItems;
 
 		try {
-			metaCatClass = rootPackage()._interface(JMod.PUBLIC, "MetaCategory");
+			metaCatClass = rootPackage()._interface(JMod.PUBLIC, "IMetaCategory");
 			JTypeVar paramMetaCat = metaCatClass.generify("T");
-			metaGroupClass = rootPackage()._interface(JMod.PUBLIC | JMod.PUBLIC, "MetaGroup");
+			metaCatClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getCategoryId");
+			metaGroupClass = rootPackage()._interface(JMod.PUBLIC | JMod.PUBLIC, "IMetaGroup");
 			JTypeVar paramMetaGroup = metaGroupClass.generify("T");
+			metaGroupClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getGroupId");
 
 			catGetGroups = metaCatClass.method(JMod.PUBLIC,
 					cm.ref(Collection.class).narrow(metaGroupClass.narrow(paramMetaCat.wildcardExtends())), "groups");
 			metaCatClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
+			metaCatClass.method(JMod.PUBLIC, cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaCat), "load");
 
 			groupGetCat = metaGroupClass.method(JMod.PUBLIC, metaCatClass.narrow(paramMetaGroup.wildcardSuper()), "category");
-			groupGetItems = metaGroupClass.method(JMod.PUBLIC | JMod.DEFAULT, cm.ref(Collection.class).narrow(paramMetaGroup),
-					"items");
+			groupGetItems = metaGroupClass.method(JMod.PUBLIC | JMod.DEFAULT,
+					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaGroup), "load");
 			groupGetItems.body()._return(JExpr._null());
 
 			metaGroupClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
@@ -307,15 +312,18 @@ public class SDECompiler {
 			throw new UnsupportedOperationException(e);
 		}
 
-		// root class is abstract
+		// root class "Item" is abstract
 
 		JDefinedClass typeClass;
 		try {
 			typeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Item");
-			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getCategoryId");
-			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaCatClass.narrow(cm.wildcard()), "getCategory");
-			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getGroupId");
+
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaGroupClass.narrow(cm.wildcard()), "getGroup");
+			typeClass.method(JMod.PUBLIC, cm.INT, "getGroupId").body()._return(JExpr.invoke("getGroup").invoke("getGroupId"));
+
+			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaCatClass.narrow(cm.wildcard()), "getCategory");
+			typeClass.method(JMod.PUBLIC, cm.INT, "getCategoryId").body()
+			._return(JExpr.invoke("getCategory").invoke("getCategoryId"));
 			typeClass.field(JMod.PUBLIC, cm.INT, "id");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 			typeClass.field(JMod.PUBLIC, strRef, "name");
@@ -380,9 +388,6 @@ public class SDECompiler {
 				JDefinedClass catClass = itemPackage()._class(JMod.PUBLIC | JMod.ABSTRACT, newName);
 				catClass._extends(typeClass);
 				addAttributes(catClass, catAttributes.get(cate.getKey()), attributesWithFloatValue);
-				JMethod catID = catClass.method(JMod.PUBLIC, cm.INT, "getCategoryId");
-				catID.body()._return(JExpr.lit(cate.getKey()));
-				catID.annotate(Override.class);
 				catIDToClass.put(cate.getKey(), catClass);
 				ret.cat2Groups.put(catClass, new HashSet<>());
 
@@ -400,7 +405,12 @@ public class SDECompiler {
 				catGetMeta.annotate(Override.class);
 				catIDToMetaInstance.put(cate.getKey(), catClass.staticRef(metaInstance));
 
-				// meetaClass.getName return the category name
+				// metaCat.getCategoryId return the id
+				JMethod catID = metaCat.method(JMod.PUBLIC, cm.INT, "getCategoryId");
+				catID.body()._return(JExpr.lit(cate.getKey()));
+				catID.annotate(Override.class);
+
+				// metaCat.getName return the category name
 				JMethod getName = metaCat.method(JMod.PUBLIC, cm.ref(String.class), "getName");
 				getName.annotate(Override.class);
 				getName.body()._return(JExpr.lit(newName));
@@ -419,6 +429,31 @@ public class SDECompiler {
 				JMethod getGroupsMethod = metaCat.method(JMod.PUBLIC,
 						cm.ref(Collection.class).narrow(subGroupsClass), catGetGroups.name());
 				getGroupsMethod.body()._return(cm.ref(Arrays.class).staticInvoke("asList").arg(groupsf));
+				getGroupsMethod.annotate(Override.class);
+
+				// create a load() method;
+				// }
+				// public Map<String, T> load() {
+				JMethod loadMethod = metaCat.method(JMod.PUBLIC, cm.ref(Map.class).narrow(cm.ref(String.class), catClass),
+						"load");
+				// HashMap<String, T> ret = new HashMap<>()
+				JVar loadRet = loadMethod.body().decl(cm.ref(HashMap.class).narrow(cm.ref(String.class), catClass), "ret")
+						.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+				// groups().stream().flatMap(img ->
+				// img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(),
+				// e.getValue()));
+				JLambda lambdafm = new JLambda();
+				JLambdaParam lambdafmpar = lambdafm.addParam("img");
+				lambdafm.body().add(lambdafmpar.invoke("load").invoke("entrySet").invoke("stream"));
+				JLambda lambdafe = new JLambda();
+				JLambdaParam lambdafepar = lambdafe.addParam("e");
+				lambdafe.body()
+				.add(JExpr.invoke(loadRet, "put").arg(lambdafepar.invoke("getKey")).arg(lambdafepar.invoke("getValue")));
+				loadMethod.body().add(
+						JExpr.invoke("groups").invoke("stream").invoke("flatMap").arg(lambdafm).invoke("forEach").arg(lambdafe));
+				// return ret;
+				loadMethod.body()._return(loadRet);
+				loadMethod.annotate(Override.class);
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this " + e1.getExistingClass(), e1);
 			}
@@ -449,10 +484,6 @@ public class SDECompiler {
 				groupClass._extends(catClass);
 				addAttributes(groupClass, groupAttributes.get(groupEntry.getKey()), attributesWithFloatValue);
 
-				JMethod groupID = groupClass.method(JMod.PUBLIC, cm.INT, "getGroupId");
-				groupID.body()._return(JExpr.lit(groupEntry.getKey()));
-				groupID.annotate(Override.class);
-
 				ret.groupID2ClassName.put(groupEntry.getKey(), groupClass.fullName());
 				ret.cat2Groups.get(catClass).add(groupClass);
 
@@ -477,6 +508,11 @@ public class SDECompiler {
 						groupGetCat.name());
 				getCat.body()._return(catIDToMetaInstance.get(group.categoryID));
 				getCat.annotate(Override.class);
+
+				// MetaGroup.getGroupID returns the group id
+				JMethod groupID = metaGroup.method(JMod.PUBLIC, cm.INT, "getGroupId");
+				groupID.body()._return(JExpr.lit(groupEntry.getKey()));
+				groupID.annotate(Override.class);
 
 				// metaGroup.getName return the group name
 				JMethod getName = metaGroup.method(JMod.PUBLIC, cm.ref(String.class), "getName");
@@ -507,7 +543,7 @@ public class SDECompiler {
 					.field(JMod.PRIVATE | JMod.STATIC, cm.ref(Map.class).narrow(strRef).narrow(cacheValueType), "groupcache")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 
-			// create the mthod that uses this cache
+			// create the method that uses this cache
 			JMethod getItem = ret.metaInfClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getItem");
 			getItem.annotate(SuppressWarnings.class).param("value", "unchecked");
 			JVar itemName = getItem.param(strRef, "name");
@@ -526,9 +562,13 @@ public class SDECompiler {
 							.plus(grp.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
 			JVar loadclass = tryblock.body().decl(cm.ref(Class.class).narrowAny(), "loadclass");
 			loadclass.init(ret.metaInfClass.dotclass().invoke("getClassLoader").invoke("loadClass").arg(className));
-			JBlock assinblock = tryblock.body()._if(loadclass.ne(JExpr._null()))._then();
-			assinblock.assign(map,
-					JExpr.cast(cacheValueType, loadclass.invoke("getMethod").arg("load").invoke("invoke").arg(JExpr._null())));
+			JBlock assignblock = tryblock.body()._if(loadclass.neNull())._then();
+			//			IMetaGroup<? extends Item> img = (IMetaGroup<? extends Item>) loadclass.getField("METAGROUP").get(null);
+			//			map = img.load();
+			JVar img = assignblock.decl(metaGroupClass.narrow(typeClass.wildcardExtends()), "img")
+					.init(JExpr.cast(metaGroupClass.narrow(typeClass.wildcardExtends()),
+							loadclass.invoke("getField").arg("METAGROUP").invoke("get").arg(JExpr._null())));
+			assignblock.assign(map, img.invoke("load"));
 
 			// if exception loading the class
 			JCatchBlock catchblock = tryblock._catch(cm.ref(Exception.class));

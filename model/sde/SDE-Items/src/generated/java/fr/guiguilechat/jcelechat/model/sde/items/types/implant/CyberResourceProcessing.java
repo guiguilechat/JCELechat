@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -68,8 +68,6 @@ public class CyberResourceProcessing
     @DefaultIntValue(1)
     public int TechLevel;
     public final static CyberResourceProcessing.MetaGroup METAGROUP = new CyberResourceProcessing.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/implant/CyberResourceProcessing.yaml";
-    private static Map<String, CyberResourceProcessing> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -110,37 +108,24 @@ public class CyberResourceProcessing
     }
 
     @Override
-    public int getGroupId() {
-        return  1229;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberResourceProcessing> getGroup() {
+    public IMetaGroup<CyberResourceProcessing> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CyberResourceProcessing> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CyberResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CyberResourceProcessing> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberResourceProcessing>
+        implements IMetaGroup<CyberResourceProcessing>
     {
+        public final static String RESOURCE_PATH = "SDE/items/implant/CyberResourceProcessing.yaml";
+        private Map<String, CyberResourceProcessing> cache = (null);
 
         @Override
-        public MetaCategory<? super CyberResourceProcessing> category() {
+        public IMetaCategory<? super CyberResourceProcessing> category() {
             return Implant.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1229;
         }
 
         @Override
@@ -149,8 +134,19 @@ public class CyberResourceProcessing
         }
 
         @Override
-        public Collection<CyberResourceProcessing> items() {
-            return (load().values());
+        public synchronized Map<String, CyberResourceProcessing> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CyberResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CyberResourceProcessing> items;
         }
     }
 }

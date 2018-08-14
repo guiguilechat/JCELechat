@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -69,8 +69,6 @@ public class StructureArmorReinforcer
     @DefaultIntValue(1)
     public int TechLevel;
     public final static StructureArmorReinforcer.MetaGroup METAGROUP = new StructureArmorReinforcer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureArmorReinforcer.yaml";
-    private static Map<String, StructureArmorReinforcer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -111,37 +109,24 @@ public class StructureArmorReinforcer
     }
 
     @Override
-    public int getGroupId() {
-        return  1968;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureArmorReinforcer> getGroup() {
+    public IMetaGroup<StructureArmorReinforcer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureArmorReinforcer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureArmorReinforcer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureArmorReinforcer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureArmorReinforcer>
+        implements IMetaGroup<StructureArmorReinforcer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureArmorReinforcer.yaml";
+        private Map<String, StructureArmorReinforcer> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureArmorReinforcer> category() {
+        public IMetaCategory<? super StructureArmorReinforcer> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1968;
         }
 
         @Override
@@ -150,8 +135,19 @@ public class StructureArmorReinforcer
         }
 
         @Override
-        public Collection<StructureArmorReinforcer> items() {
-            return (load().values());
+        public synchronized Map<String, StructureArmorReinforcer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureArmorReinforcer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureArmorReinforcer> items;
         }
     }
 }

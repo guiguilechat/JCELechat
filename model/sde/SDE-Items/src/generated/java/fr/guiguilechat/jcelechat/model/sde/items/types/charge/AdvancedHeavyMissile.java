@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -216,8 +216,6 @@ public class AdvancedHeavyMissile
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
     public final static AdvancedHeavyMissile.MetaGroup METAGROUP = new AdvancedHeavyMissile.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedHeavyMissile.yaml";
-    private static Map<String, AdvancedHeavyMissile> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -342,37 +340,24 @@ public class AdvancedHeavyMissile
     }
 
     @Override
-    public int getGroupId() {
-        return  655;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedHeavyMissile> getGroup() {
+    public IMetaGroup<AdvancedHeavyMissile> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, AdvancedHeavyMissile> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(AdvancedHeavyMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, AdvancedHeavyMissile> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedHeavyMissile>
+        implements IMetaGroup<AdvancedHeavyMissile>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedHeavyMissile.yaml";
+        private Map<String, AdvancedHeavyMissile> cache = (null);
 
         @Override
-        public MetaCategory<? super AdvancedHeavyMissile> category() {
+        public IMetaCategory<? super AdvancedHeavyMissile> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  655;
         }
 
         @Override
@@ -381,8 +366,19 @@ public class AdvancedHeavyMissile
         }
 
         @Override
-        public Collection<AdvancedHeavyMissile> items() {
-            return (load().values());
+        public synchronized Map<String, AdvancedHeavyMissile> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(AdvancedHeavyMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, AdvancedHeavyMissile> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -190,8 +190,6 @@ public class StructureDoomsdayWeapon
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
     public final static StructureDoomsdayWeapon.MetaGroup METAGROUP = new StructureDoomsdayWeapon.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDoomsdayWeapon.yaml";
-    private static Map<String, StructureDoomsdayWeapon> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -300,37 +298,24 @@ public class StructureDoomsdayWeapon
     }
 
     @Override
-    public int getGroupId() {
-        return  1333;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDoomsdayWeapon> getGroup() {
+    public IMetaGroup<StructureDoomsdayWeapon> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureDoomsdayWeapon> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureDoomsdayWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureDoomsdayWeapon> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDoomsdayWeapon>
+        implements IMetaGroup<StructureDoomsdayWeapon>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDoomsdayWeapon.yaml";
+        private Map<String, StructureDoomsdayWeapon> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureDoomsdayWeapon> category() {
+        public IMetaCategory<? super StructureDoomsdayWeapon> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1333;
         }
 
         @Override
@@ -339,8 +324,19 @@ public class StructureDoomsdayWeapon
         }
 
         @Override
-        public Collection<StructureDoomsdayWeapon> items() {
-            return (load().values());
+        public synchronized Map<String, StructureDoomsdayWeapon> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureDoomsdayWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureDoomsdayWeapon> items;
         }
     }
 }

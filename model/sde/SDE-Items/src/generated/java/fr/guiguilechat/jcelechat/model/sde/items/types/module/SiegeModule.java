@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -550,8 +550,6 @@ public class SiegeModule
     @DefaultDoubleValue(0.0)
     public double WeaponDisruptionResistanceBonus;
     public final static SiegeModule.MetaGroup METAGROUP = new SiegeModule.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/SiegeModule.yaml";
-    private static Map<String, SiegeModule> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -868,37 +866,24 @@ public class SiegeModule
     }
 
     @Override
-    public int getGroupId() {
-        return  515;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SiegeModule> getGroup() {
+    public IMetaGroup<SiegeModule> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, SiegeModule> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(SiegeModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, SiegeModule> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SiegeModule>
+        implements IMetaGroup<SiegeModule>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/SiegeModule.yaml";
+        private Map<String, SiegeModule> cache = (null);
 
         @Override
-        public MetaCategory<? super SiegeModule> category() {
+        public IMetaCategory<? super SiegeModule> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  515;
         }
 
         @Override
@@ -907,8 +892,19 @@ public class SiegeModule
         }
 
         @Override
-        public Collection<SiegeModule> items() {
-            return (load().values());
+        public synchronized Map<String, SiegeModule> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(SiegeModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, SiegeModule> items;
         }
     }
 }

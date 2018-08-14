@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -146,8 +146,6 @@ public class MiningDrone
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     public final static MiningDrone.MetaGroup METAGROUP = new MiningDrone.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/drone/MiningDrone.yaml";
-    private static Map<String, MiningDrone> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -228,37 +226,24 @@ public class MiningDrone
     }
 
     @Override
-    public int getGroupId() {
-        return  101;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningDrone> getGroup() {
+    public IMetaGroup<MiningDrone> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, MiningDrone> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(MiningDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, MiningDrone> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningDrone>
+        implements IMetaGroup<MiningDrone>
     {
+        public final static String RESOURCE_PATH = "SDE/items/drone/MiningDrone.yaml";
+        private Map<String, MiningDrone> cache = (null);
 
         @Override
-        public MetaCategory<? super MiningDrone> category() {
+        public IMetaCategory<? super MiningDrone> category() {
             return Drone.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  101;
         }
 
         @Override
@@ -267,8 +252,19 @@ public class MiningDrone
         }
 
         @Override
-        public Collection<MiningDrone> items() {
-            return (load().values());
+        public synchronized Map<String, MiningDrone> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(MiningDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, MiningDrone> items;
         }
     }
 }

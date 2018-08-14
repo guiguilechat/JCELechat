@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -186,8 +186,6 @@ public class EnergyNeutralizerDrone
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     public final static EnergyNeutralizerDrone.MetaGroup METAGROUP = new EnergyNeutralizerDrone.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/drone/EnergyNeutralizerDrone.yaml";
-    private static Map<String, EnergyNeutralizerDrone> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -296,37 +294,24 @@ public class EnergyNeutralizerDrone
     }
 
     @Override
-    public int getGroupId() {
-        return  544;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyNeutralizerDrone> getGroup() {
+    public IMetaGroup<EnergyNeutralizerDrone> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, EnergyNeutralizerDrone> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(EnergyNeutralizerDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, EnergyNeutralizerDrone> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyNeutralizerDrone>
+        implements IMetaGroup<EnergyNeutralizerDrone>
     {
+        public final static String RESOURCE_PATH = "SDE/items/drone/EnergyNeutralizerDrone.yaml";
+        private Map<String, EnergyNeutralizerDrone> cache = (null);
 
         @Override
-        public MetaCategory<? super EnergyNeutralizerDrone> category() {
+        public IMetaCategory<? super EnergyNeutralizerDrone> category() {
             return Drone.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  544;
         }
 
         @Override
@@ -335,8 +320,19 @@ public class EnergyNeutralizerDrone
         }
 
         @Override
-        public Collection<EnergyNeutralizerDrone> items() {
-            return (load().values());
+        public synchronized Map<String, EnergyNeutralizerDrone> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(EnergyNeutralizerDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, EnergyNeutralizerDrone> items;
         }
     }
 }

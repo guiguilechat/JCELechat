@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -480,8 +480,6 @@ public class Carrier
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
     public final static Carrier.MetaGroup METAGROUP = new Carrier.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/ship/Carrier.yaml";
-    private static Map<String, Carrier> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -758,37 +756,24 @@ public class Carrier
     }
 
     @Override
-    public int getGroupId() {
-        return  547;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Carrier> getGroup() {
+    public IMetaGroup<Carrier> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Carrier> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Carrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Carrier> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Carrier>
+        implements IMetaGroup<Carrier>
     {
+        public final static String RESOURCE_PATH = "SDE/items/ship/Carrier.yaml";
+        private Map<String, Carrier> cache = (null);
 
         @Override
-        public MetaCategory<? super Carrier> category() {
+        public IMetaCategory<? super Carrier> category() {
             return Ship.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  547;
         }
 
         @Override
@@ -797,8 +782,19 @@ public class Carrier
         }
 
         @Override
-        public Collection<Carrier> items() {
-            return (load().values());
+        public synchronized Map<String, Carrier> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Carrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Carrier> items;
         }
     }
 }

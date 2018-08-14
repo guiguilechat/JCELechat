@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class ShieldBoostAmplifierBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static ShieldBoostAmplifierBlueprint.MetaGroup METAGROUP = new ShieldBoostAmplifierBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldBoostAmplifierBlueprint.yaml";
-    private static Map<String, ShieldBoostAmplifierBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class ShieldBoostAmplifierBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  360;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldBoostAmplifierBlueprint> getGroup() {
+    public IMetaGroup<ShieldBoostAmplifierBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ShieldBoostAmplifierBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ShieldBoostAmplifierBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ShieldBoostAmplifierBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldBoostAmplifierBlueprint>
+        implements IMetaGroup<ShieldBoostAmplifierBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldBoostAmplifierBlueprint.yaml";
+        private Map<String, ShieldBoostAmplifierBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ShieldBoostAmplifierBlueprint> category() {
+        public IMetaCategory<? super ShieldBoostAmplifierBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  360;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class ShieldBoostAmplifierBlueprint
         }
 
         @Override
-        public Collection<ShieldBoostAmplifierBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ShieldBoostAmplifierBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ShieldBoostAmplifierBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ShieldBoostAmplifierBlueprint> items;
         }
     }
 }

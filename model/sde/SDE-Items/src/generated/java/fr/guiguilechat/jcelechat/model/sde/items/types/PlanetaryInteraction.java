@@ -2,12 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction.CommandCenters;
 import fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction.ExtractorControlUnits;
 import fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction.Extractors;
@@ -22,32 +21,36 @@ public abstract class PlanetaryInteraction
     public final static PlanetaryInteraction.MetaCat METACAT = new PlanetaryInteraction.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  41;
-    }
-
-    @Override
-    public MetaCategory<PlanetaryInteraction> getCategory() {
+    public IMetaCategory<PlanetaryInteraction> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends PlanetaryInteraction> loadCategory() {
-        return Stream.of(CommandCenters.load(), ExtractorControlUnits.load(), Extractors.load(), PlanetaryLinks.load(), Processors.load(), Spaceports.load(), StorageFacilities.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<PlanetaryInteraction>
+        implements IMetaCategory<PlanetaryInteraction>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends PlanetaryInteraction> [] groups = new MetaGroup[] {Extractors.METAGROUP, CommandCenters.METAGROUP, Processors.METAGROUP, StorageFacilities.METAGROUP, Spaceports.METAGROUP, PlanetaryLinks.METAGROUP, ExtractorControlUnits.METAGROUP };
+        private final static IMetaGroup<? extends PlanetaryInteraction> [] groups = new IMetaGroup[] {Extractors.METAGROUP, CommandCenters.METAGROUP, Processors.METAGROUP, StorageFacilities.METAGROUP, Spaceports.METAGROUP, PlanetaryLinks.METAGROUP, ExtractorControlUnits.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  41;
+        }
 
         @Override
         public String getName() {
             return "PlanetaryInteraction";
         }
 
-        public Collection<MetaGroup<? extends PlanetaryInteraction>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends PlanetaryInteraction>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, PlanetaryInteraction> load() {
+            HashMap<String, PlanetaryInteraction> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

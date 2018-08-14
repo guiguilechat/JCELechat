@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -117,32 +116,36 @@ public abstract class Deployable
     }
 
     @Override
-    public int getCategoryId() {
-        return  22;
-    }
-
-    @Override
-    public MetaCategory<Deployable> getCategory() {
+    public IMetaCategory<Deployable> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Deployable> loadCategory() {
-        return Stream.of(EncounterSurveillanceSystem.load(), MobileCynoInhibitor.load(), MobileDecoyUnit.load(), MobileDepot.load(), MobileMicroJumpUnit.load(), MobileScanInhibitor.load(), MobileSiphonUnit.load(), MobileTractorUnit.load(), MobileWarpDisruptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Deployable>
+        implements IMetaCategory<Deployable>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Deployable> [] groups = new MetaGroup[] {MobileWarpDisruptor.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileDecoyUnit.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP };
+        private final static IMetaGroup<? extends Deployable> [] groups = new IMetaGroup[] {MobileWarpDisruptor.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileDecoyUnit.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  22;
+        }
 
         @Override
         public String getName() {
             return "Deployable";
         }
 
-        public Collection<MetaGroup<? extends Deployable>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Deployable>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Deployable> load() {
+            HashMap<String, Deployable> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

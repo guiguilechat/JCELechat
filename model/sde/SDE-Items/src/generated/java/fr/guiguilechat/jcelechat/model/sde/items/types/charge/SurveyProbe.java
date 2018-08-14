@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -124,8 +124,6 @@ public class SurveyProbe
     @DefaultIntValue(1)
     public int TechLevel;
     public final static SurveyProbe.MetaGroup METAGROUP = new SurveyProbe.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/SurveyProbe.yaml";
-    private static Map<String, SurveyProbe> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -198,37 +196,24 @@ public class SurveyProbe
     }
 
     @Override
-    public int getGroupId() {
-        return  492;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SurveyProbe> getGroup() {
+    public IMetaGroup<SurveyProbe> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, SurveyProbe> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(SurveyProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, SurveyProbe> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SurveyProbe>
+        implements IMetaGroup<SurveyProbe>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/SurveyProbe.yaml";
+        private Map<String, SurveyProbe> cache = (null);
 
         @Override
-        public MetaCategory<? super SurveyProbe> category() {
+        public IMetaCategory<? super SurveyProbe> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  492;
         }
 
         @Override
@@ -237,8 +222,19 @@ public class SurveyProbe
         }
 
         @Override
-        public Collection<SurveyProbe> items() {
-            return (load().values());
+        public synchronized Map<String, SurveyProbe> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(SurveyProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, SurveyProbe> items;
         }
     }
 }

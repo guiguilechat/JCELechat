@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -201,8 +201,6 @@ public class PropulsionModule
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     public final static PropulsionModule.MetaGroup METAGROUP = new PropulsionModule.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/PropulsionModule.yaml";
-    private static Map<String, PropulsionModule> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -315,37 +313,24 @@ public class PropulsionModule
     }
 
     @Override
-    public int getGroupId() {
-        return  46;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PropulsionModule> getGroup() {
+    public IMetaGroup<PropulsionModule> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, PropulsionModule> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(PropulsionModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, PropulsionModule> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PropulsionModule>
+        implements IMetaGroup<PropulsionModule>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/PropulsionModule.yaml";
+        private Map<String, PropulsionModule> cache = (null);
 
         @Override
-        public MetaCategory<? super PropulsionModule> category() {
+        public IMetaCategory<? super PropulsionModule> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  46;
         }
 
         @Override
@@ -354,8 +339,19 @@ public class PropulsionModule
         }
 
         @Override
-        public Collection<PropulsionModule> items() {
-            return (load().values());
+        public synchronized Map<String, PropulsionModule> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(PropulsionModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, PropulsionModule> items;
         }
     }
 }

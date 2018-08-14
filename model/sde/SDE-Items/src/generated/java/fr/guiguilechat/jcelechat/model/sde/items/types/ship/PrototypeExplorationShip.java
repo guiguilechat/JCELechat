@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -38,8 +38,6 @@ public class PrototypeExplorationShip
     @DefaultIntValue(0)
     public int ScanSpeed;
     public final static PrototypeExplorationShip.MetaGroup METAGROUP = new PrototypeExplorationShip.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/ship/PrototypeExplorationShip.yaml";
-    private static Map<String, PrototypeExplorationShip> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -64,37 +62,24 @@ public class PrototypeExplorationShip
     }
 
     @Override
-    public int getGroupId() {
-        return  1022;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PrototypeExplorationShip> getGroup() {
+    public IMetaGroup<PrototypeExplorationShip> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, PrototypeExplorationShip> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(PrototypeExplorationShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, PrototypeExplorationShip> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PrototypeExplorationShip>
+        implements IMetaGroup<PrototypeExplorationShip>
     {
+        public final static String RESOURCE_PATH = "SDE/items/ship/PrototypeExplorationShip.yaml";
+        private Map<String, PrototypeExplorationShip> cache = (null);
 
         @Override
-        public MetaCategory<? super PrototypeExplorationShip> category() {
+        public IMetaCategory<? super PrototypeExplorationShip> category() {
             return Ship.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1022;
         }
 
         @Override
@@ -103,8 +88,19 @@ public class PrototypeExplorationShip
         }
 
         @Override
-        public Collection<PrototypeExplorationShip> items() {
-            return (load().values());
+        public synchronized Map<String, PrototypeExplorationShip> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(PrototypeExplorationShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, PrototypeExplorationShip> items;
         }
     }
 }

@@ -2,11 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 
 public abstract class System
     extends Item
@@ -14,32 +14,36 @@ public abstract class System
     public final static System.MetaCat METACAT = new System.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  0;
-    }
-
-    @Override
-    public MetaCategory<System> getCategory() {
+    public IMetaCategory<System> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends System> loadCategory() {
-        return Collections.emptyMap();
-    }
-
     public static class MetaCat
-        implements MetaCategory<System>
+        implements IMetaCategory<System>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends System> [] groups = new MetaGroup[] { };
+        private final static IMetaGroup<? extends System> [] groups = new IMetaGroup[] { };
+
+        @Override
+        public int getCategoryId() {
+            return  0;
+        }
 
         @Override
         public String getName() {
             return "System";
         }
 
-        public Collection<MetaGroup<? extends System>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends System>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, System> load() {
+            HashMap<String, System> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -768,32 +767,36 @@ public abstract class Ship
     }
 
     @Override
-    public int getCategoryId() {
-        return  6;
-    }
-
-    @Override
-    public MetaCategory<Ship> getCategory() {
+    public IMetaCategory<Ship> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Ship> loadCategory() {
-        return Stream.of(AssaultFrigate.load(), AttackBattlecruiser.load(), Battleship.load(), BlackOps.load(), BlockadeRunner.load(), CapitalIndustrialShip.load(), Carrier.load(), CombatBattlecruiser.load(), CombatReconShip.load(), CommandDestroyer.load(), CommandShip.load(), Corvette.load(), CovertOps.load(), Cruiser.load(), DeepSpaceTransport.load(), Destroyer.load(), Dreadnought.load(), ElectronicAttackShip.load(), Exhumer.load(), ExpeditionFrigate.load(), FlagCruiser.load(), ForceAuxiliary.load(), ForceReconShip.load(), Freighter.load(), Frigate.load(), HeavyAssaultCruiser.load(), HeavyInterdictionCruiser.load(), Industrial.load(), IndustrialCommandShip.load(), Interceptor.load(), Interdictor.load(), JumpFreighter.load(), Logistics.load(), LogisticsFrigate.load(), Marauder.load(), MiningBarge.load(), PrototypeExplorationShip.load(), Shuttle.load(), StealthBomber.load(), StrategicCruiser.load(), Supercarrier.load(), TacticalDestroyer.load(), Titan.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Ship>
+        implements IMetaCategory<Ship>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Ship> [] groups = new MetaGroup[] {Frigate.METAGROUP, Cruiser.METAGROUP, Battleship.METAGROUP, Industrial.METAGROUP, Titan.METAGROUP, Shuttle.METAGROUP, Corvette.METAGROUP, AssaultFrigate.METAGROUP, HeavyAssaultCruiser.METAGROUP, DeepSpaceTransport.METAGROUP, CombatBattlecruiser.METAGROUP, Destroyer.METAGROUP, MiningBarge.METAGROUP, Dreadnought.METAGROUP, Freighter.METAGROUP, CommandShip.METAGROUP, Interdictor.METAGROUP, Exhumer.METAGROUP, Carrier.METAGROUP, Supercarrier.METAGROUP, CovertOps.METAGROUP, Interceptor.METAGROUP, Logistics.METAGROUP, ForceReconShip.METAGROUP, StealthBomber.METAGROUP, CapitalIndustrialShip.METAGROUP, ElectronicAttackShip.METAGROUP, HeavyInterdictionCruiser.METAGROUP, BlackOps.METAGROUP, Marauder.METAGROUP, JumpFreighter.METAGROUP, CombatReconShip.METAGROUP, IndustrialCommandShip.METAGROUP, StrategicCruiser.METAGROUP, PrototypeExplorationShip.METAGROUP, AttackBattlecruiser.METAGROUP, BlockadeRunner.METAGROUP, ExpeditionFrigate.METAGROUP, TacticalDestroyer.METAGROUP, LogisticsFrigate.METAGROUP, CommandDestroyer.METAGROUP, ForceAuxiliary.METAGROUP, FlagCruiser.METAGROUP };
+        private final static IMetaGroup<? extends Ship> [] groups = new IMetaGroup[] {Frigate.METAGROUP, Cruiser.METAGROUP, Battleship.METAGROUP, Industrial.METAGROUP, Titan.METAGROUP, Shuttle.METAGROUP, Corvette.METAGROUP, AssaultFrigate.METAGROUP, HeavyAssaultCruiser.METAGROUP, DeepSpaceTransport.METAGROUP, CombatBattlecruiser.METAGROUP, Destroyer.METAGROUP, MiningBarge.METAGROUP, Dreadnought.METAGROUP, Freighter.METAGROUP, CommandShip.METAGROUP, Interdictor.METAGROUP, Exhumer.METAGROUP, Carrier.METAGROUP, Supercarrier.METAGROUP, CovertOps.METAGROUP, Interceptor.METAGROUP, Logistics.METAGROUP, ForceReconShip.METAGROUP, StealthBomber.METAGROUP, CapitalIndustrialShip.METAGROUP, ElectronicAttackShip.METAGROUP, HeavyInterdictionCruiser.METAGROUP, BlackOps.METAGROUP, Marauder.METAGROUP, JumpFreighter.METAGROUP, CombatReconShip.METAGROUP, IndustrialCommandShip.METAGROUP, StrategicCruiser.METAGROUP, PrototypeExplorationShip.METAGROUP, AttackBattlecruiser.METAGROUP, BlockadeRunner.METAGROUP, ExpeditionFrigate.METAGROUP, TacticalDestroyer.METAGROUP, LogisticsFrigate.METAGROUP, CommandDestroyer.METAGROUP, ForceAuxiliary.METAGROUP, FlagCruiser.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  6;
+        }
 
         @Override
         public String getName() {
             return "Ship";
         }
 
-        public Collection<MetaGroup<? extends Ship>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Ship>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Ship> load() {
+            HashMap<String, Ship> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

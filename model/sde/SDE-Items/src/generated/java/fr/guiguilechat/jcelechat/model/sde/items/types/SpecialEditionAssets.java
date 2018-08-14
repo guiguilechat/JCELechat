@@ -2,12 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.specialeditionassets.FestivalChargesExpired;
 import fr.guiguilechat.jcelechat.model.sde.items.types.specialeditionassets.SpecialEditionCommodities;
 import fr.guiguilechat.jcelechat.model.sde.items.types.specialeditionassets.TournamentCardsAllianceTournamentAllStars;
@@ -19,32 +18,36 @@ public abstract class SpecialEditionAssets
     public final static SpecialEditionAssets.MetaCat METACAT = new SpecialEditionAssets.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  63;
-    }
-
-    @Override
-    public MetaCategory<SpecialEditionAssets> getCategory() {
+    public IMetaCategory<SpecialEditionAssets> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends SpecialEditionAssets> loadCategory() {
-        return Stream.of(FestivalChargesExpired.load(), SpecialEditionCommodities.load(), TournamentCardsAllianceTournamentAllStars.load(), TournamentCardsNewEdenOpenYC114 .load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<SpecialEditionAssets>
+        implements IMetaCategory<SpecialEditionAssets>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends SpecialEditionAssets> [] groups = new MetaGroup[] {FestivalChargesExpired.METAGROUP, SpecialEditionCommodities.METAGROUP, TournamentCardsNewEdenOpenYC114 .METAGROUP, TournamentCardsAllianceTournamentAllStars.METAGROUP };
+        private final static IMetaGroup<? extends SpecialEditionAssets> [] groups = new IMetaGroup[] {FestivalChargesExpired.METAGROUP, SpecialEditionCommodities.METAGROUP, TournamentCardsNewEdenOpenYC114 .METAGROUP, TournamentCardsAllianceTournamentAllStars.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  63;
+        }
 
         @Override
         public String getName() {
             return "SpecialEditionAssets";
         }
 
-        public Collection<MetaGroup<? extends SpecialEditionAssets>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends SpecialEditionAssets>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, SpecialEditionAssets> load() {
+            HashMap<String, SpecialEditionAssets> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

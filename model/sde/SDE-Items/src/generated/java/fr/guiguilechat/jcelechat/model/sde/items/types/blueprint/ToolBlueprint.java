@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -32,8 +32,6 @@ public class ToolBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static ToolBlueprint.MetaGroup METAGROUP = new ToolBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ToolBlueprint.yaml";
-    private static Map<String, ToolBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -54,37 +52,24 @@ public class ToolBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  356;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ToolBlueprint> getGroup() {
+    public IMetaGroup<ToolBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ToolBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ToolBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ToolBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ToolBlueprint>
+        implements IMetaGroup<ToolBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ToolBlueprint.yaml";
+        private Map<String, ToolBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ToolBlueprint> category() {
+        public IMetaCategory<? super ToolBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  356;
         }
 
         @Override
@@ -93,8 +78,19 @@ public class ToolBlueprint
         }
 
         @Override
-        public Collection<ToolBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ToolBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ToolBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ToolBlueprint> items;
         }
     }
 }

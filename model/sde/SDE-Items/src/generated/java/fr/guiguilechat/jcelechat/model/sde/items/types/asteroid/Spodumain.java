@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -38,8 +38,6 @@ public class Spodumain
     @DefaultIntValue(0)
     public int CompressionTypeID;
     public final static Spodumain.MetaGroup METAGROUP = new Spodumain.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/asteroid/Spodumain.yaml";
-    private static Map<String, Spodumain> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -64,37 +62,24 @@ public class Spodumain
     }
 
     @Override
-    public int getGroupId() {
-        return  461;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Spodumain> getGroup() {
+    public IMetaGroup<Spodumain> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Spodumain> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Spodumain.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Spodumain> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Spodumain>
+        implements IMetaGroup<Spodumain>
     {
+        public final static String RESOURCE_PATH = "SDE/items/asteroid/Spodumain.yaml";
+        private Map<String, Spodumain> cache = (null);
 
         @Override
-        public MetaCategory<? super Spodumain> category() {
+        public IMetaCategory<? super Spodumain> category() {
             return Asteroid.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  461;
         }
 
         @Override
@@ -103,8 +88,19 @@ public class Spodumain
         }
 
         @Override
-        public Collection<Spodumain> items() {
-            return (load().values());
+        public synchronized Map<String, Spodumain> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Spodumain.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Spodumain> items;
         }
     }
 }

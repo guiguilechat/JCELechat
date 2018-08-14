@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -52,8 +52,6 @@ public class Trade
     @DefaultIntValue(0)
     public int TradePremiumBonus;
     public final static Trade.MetaGroup METAGROUP = new Trade.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/skill/Trade.yaml";
-    private static Map<String, Trade> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -86,37 +84,24 @@ public class Trade
     }
 
     @Override
-    public int getGroupId() {
-        return  274;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Trade> getGroup() {
+    public IMetaGroup<Trade> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Trade> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Trade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Trade> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Trade>
+        implements IMetaGroup<Trade>
     {
+        public final static String RESOURCE_PATH = "SDE/items/skill/Trade.yaml";
+        private Map<String, Trade> cache = (null);
 
         @Override
-        public MetaCategory<? super Trade> category() {
+        public IMetaCategory<? super Trade> category() {
             return Skill.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  274;
         }
 
         @Override
@@ -125,8 +110,19 @@ public class Trade
         }
 
         @Override
-        public Collection<Trade> items() {
-            return (load().values());
+        public synchronized Map<String, Trade> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Trade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Trade> items;
         }
     }
 }

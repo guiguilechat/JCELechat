@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -38,8 +38,6 @@ public class EngineeringComplex
     @DefaultDoubleValue(1.0)
     public double StrEngTimeBonus;
     public final static EngineeringComplex.MetaGroup METAGROUP = new EngineeringComplex.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structure/EngineeringComplex.yaml";
-    private static Map<String, EngineeringComplex> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -64,37 +62,24 @@ public class EngineeringComplex
     }
 
     @Override
-    public int getGroupId() {
-        return  1404;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EngineeringComplex> getGroup() {
+    public IMetaGroup<EngineeringComplex> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, EngineeringComplex> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(EngineeringComplex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, EngineeringComplex> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EngineeringComplex>
+        implements IMetaGroup<EngineeringComplex>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structure/EngineeringComplex.yaml";
+        private Map<String, EngineeringComplex> cache = (null);
 
         @Override
-        public MetaCategory<? super EngineeringComplex> category() {
+        public IMetaCategory<? super EngineeringComplex> category() {
             return Structure.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1404;
         }
 
         @Override
@@ -103,8 +88,19 @@ public class EngineeringComplex
         }
 
         @Override
-        public Collection<EngineeringComplex> items() {
-            return (load().values());
+        public synchronized Map<String, EngineeringComplex> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(EngineeringComplex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, EngineeringComplex> items;
         }
     }
 }

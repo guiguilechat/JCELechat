@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -68,8 +68,6 @@ public class MobileDepot
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     public final static MobileDepot.MetaGroup METAGROUP = new MobileDepot.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDepot.yaml";
-    private static Map<String, MobileDepot> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -110,37 +108,24 @@ public class MobileDepot
     }
 
     @Override
-    public int getGroupId() {
-        return  1246;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDepot> getGroup() {
+    public IMetaGroup<MobileDepot> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, MobileDepot> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(MobileDepot.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, MobileDepot> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDepot>
+        implements IMetaGroup<MobileDepot>
     {
+        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDepot.yaml";
+        private Map<String, MobileDepot> cache = (null);
 
         @Override
-        public MetaCategory<? super MobileDepot> category() {
+        public IMetaCategory<? super MobileDepot> category() {
             return Deployable.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1246;
         }
 
         @Override
@@ -149,8 +134,19 @@ public class MobileDepot
         }
 
         @Override
-        public Collection<MobileDepot> items() {
-            return (load().values());
+        public synchronized Map<String, MobileDepot> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(MobileDepot.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, MobileDepot> items;
         }
     }
 }

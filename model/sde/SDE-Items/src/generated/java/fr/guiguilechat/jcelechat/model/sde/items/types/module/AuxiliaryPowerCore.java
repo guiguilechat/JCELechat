@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -68,8 +68,6 @@ public class AuxiliaryPowerCore
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     public final static AuxiliaryPowerCore.MetaGroup METAGROUP = new AuxiliaryPowerCore.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/AuxiliaryPowerCore.yaml";
-    private static Map<String, AuxiliaryPowerCore> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -106,37 +104,24 @@ public class AuxiliaryPowerCore
     }
 
     @Override
-    public int getGroupId() {
-        return  339;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuxiliaryPowerCore> getGroup() {
+    public IMetaGroup<AuxiliaryPowerCore> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, AuxiliaryPowerCore> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(AuxiliaryPowerCore.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, AuxiliaryPowerCore> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuxiliaryPowerCore>
+        implements IMetaGroup<AuxiliaryPowerCore>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/AuxiliaryPowerCore.yaml";
+        private Map<String, AuxiliaryPowerCore> cache = (null);
 
         @Override
-        public MetaCategory<? super AuxiliaryPowerCore> category() {
+        public IMetaCategory<? super AuxiliaryPowerCore> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  339;
         }
 
         @Override
@@ -145,8 +130,19 @@ public class AuxiliaryPowerCore
         }
 
         @Override
-        public Collection<AuxiliaryPowerCore> items() {
-            return (load().values());
+        public synchronized Map<String, AuxiliaryPowerCore> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(AuxiliaryPowerCore.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, AuxiliaryPowerCore> items;
         }
     }
 }

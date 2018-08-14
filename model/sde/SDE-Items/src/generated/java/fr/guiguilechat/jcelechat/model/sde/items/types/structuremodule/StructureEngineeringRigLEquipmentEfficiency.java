@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -159,8 +159,6 @@ public class StructureEngineeringRigLEquipmentEfficiency
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureEngineeringRigLEquipmentEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLEquipmentEfficiency.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLEquipmentEfficiency.yaml";
-    private static Map<String, StructureEngineeringRigLEquipmentEfficiency> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -253,37 +251,24 @@ public class StructureEngineeringRigLEquipmentEfficiency
     }
 
     @Override
-    public int getGroupId() {
-        return  1850;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLEquipmentEfficiency> getGroup() {
+    public IMetaGroup<StructureEngineeringRigLEquipmentEfficiency> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureEngineeringRigLEquipmentEfficiency> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLEquipmentEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureEngineeringRigLEquipmentEfficiency> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLEquipmentEfficiency>
+        implements IMetaGroup<StructureEngineeringRigLEquipmentEfficiency>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLEquipmentEfficiency.yaml";
+        private Map<String, StructureEngineeringRigLEquipmentEfficiency> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureEngineeringRigLEquipmentEfficiency> category() {
+        public IMetaCategory<? super StructureEngineeringRigLEquipmentEfficiency> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1850;
         }
 
         @Override
@@ -292,8 +277,19 @@ public class StructureEngineeringRigLEquipmentEfficiency
         }
 
         @Override
-        public Collection<StructureEngineeringRigLEquipmentEfficiency> items() {
-            return (load().values());
+        public synchronized Map<String, StructureEngineeringRigLEquipmentEfficiency> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLEquipmentEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureEngineeringRigLEquipmentEfficiency> items;
         }
     }
 }

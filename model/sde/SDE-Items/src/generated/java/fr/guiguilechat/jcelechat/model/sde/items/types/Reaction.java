@@ -2,12 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.reaction.FreedomPrograms;
 
 public abstract class Reaction
@@ -16,32 +15,36 @@ public abstract class Reaction
     public final static Reaction.MetaCat METACAT = new Reaction.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  24;
-    }
-
-    @Override
-    public MetaCategory<Reaction> getCategory() {
+    public IMetaCategory<Reaction> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Reaction> loadCategory() {
-        return Stream.of(FreedomPrograms.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Reaction>
+        implements IMetaCategory<Reaction>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Reaction> [] groups = new MetaGroup[] {FreedomPrograms.METAGROUP };
+        private final static IMetaGroup<? extends Reaction> [] groups = new IMetaGroup[] {FreedomPrograms.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  24;
+        }
 
         @Override
         public String getName() {
             return "Reaction";
         }
 
-        public Collection<MetaGroup<? extends Reaction>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Reaction>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Reaction> load() {
+            HashMap<String, Reaction> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

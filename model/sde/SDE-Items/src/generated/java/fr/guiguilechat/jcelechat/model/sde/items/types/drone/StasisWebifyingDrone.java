@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -186,8 +186,6 @@ public class StasisWebifyingDrone
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     public final static StasisWebifyingDrone.MetaGroup METAGROUP = new StasisWebifyingDrone.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/drone/StasisWebifyingDrone.yaml";
-    private static Map<String, StasisWebifyingDrone> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -296,37 +294,24 @@ public class StasisWebifyingDrone
     }
 
     @Override
-    public int getGroupId() {
-        return  641;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWebifyingDrone> getGroup() {
+    public IMetaGroup<StasisWebifyingDrone> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StasisWebifyingDrone> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StasisWebifyingDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StasisWebifyingDrone> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWebifyingDrone>
+        implements IMetaGroup<StasisWebifyingDrone>
     {
+        public final static String RESOURCE_PATH = "SDE/items/drone/StasisWebifyingDrone.yaml";
+        private Map<String, StasisWebifyingDrone> cache = (null);
 
         @Override
-        public MetaCategory<? super StasisWebifyingDrone> category() {
+        public IMetaCategory<? super StasisWebifyingDrone> category() {
             return Drone.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  641;
         }
 
         @Override
@@ -335,8 +320,19 @@ public class StasisWebifyingDrone
         }
 
         @Override
-        public Collection<StasisWebifyingDrone> items() {
-            return (load().values());
+        public synchronized Map<String, StasisWebifyingDrone> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StasisWebifyingDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StasisWebifyingDrone> items;
         }
     }
 }

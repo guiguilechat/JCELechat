@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -60,8 +60,6 @@ public class RigResourceProcessing
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static RigResourceProcessing.MetaGroup METAGROUP = new RigResourceProcessing.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/RigResourceProcessing.yaml";
-    private static Map<String, RigResourceProcessing> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -98,37 +96,24 @@ public class RigResourceProcessing
     }
 
     @Override
-    public int getGroupId() {
-        return  1232;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigResourceProcessing> getGroup() {
+    public IMetaGroup<RigResourceProcessing> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RigResourceProcessing> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RigResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RigResourceProcessing> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigResourceProcessing>
+        implements IMetaGroup<RigResourceProcessing>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/RigResourceProcessing.yaml";
+        private Map<String, RigResourceProcessing> cache = (null);
 
         @Override
-        public MetaCategory<? super RigResourceProcessing> category() {
+        public IMetaCategory<? super RigResourceProcessing> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1232;
         }
 
         @Override
@@ -137,8 +122,19 @@ public class RigResourceProcessing
         }
 
         @Override
-        public Collection<RigResourceProcessing> items() {
-            return (load().values());
+        public synchronized Map<String, RigResourceProcessing> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RigResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RigResourceProcessing> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -108,8 +108,6 @@ public class InformationCommandBurstCharges
     @DefaultIntValue(0)
     public int WarfareBuff4Multiplier;
     public final static InformationCommandBurstCharges.MetaGroup METAGROUP = new InformationCommandBurstCharges.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/InformationCommandBurstCharges.yaml";
-    private static Map<String, InformationCommandBurstCharges> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -174,37 +172,24 @@ public class InformationCommandBurstCharges
     }
 
     @Override
-    public int getGroupId() {
-        return  1773;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<InformationCommandBurstCharges> getGroup() {
+    public IMetaGroup<InformationCommandBurstCharges> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, InformationCommandBurstCharges> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(InformationCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, InformationCommandBurstCharges> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<InformationCommandBurstCharges>
+        implements IMetaGroup<InformationCommandBurstCharges>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/InformationCommandBurstCharges.yaml";
+        private Map<String, InformationCommandBurstCharges> cache = (null);
 
         @Override
-        public MetaCategory<? super InformationCommandBurstCharges> category() {
+        public IMetaCategory<? super InformationCommandBurstCharges> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1773;
         }
 
         @Override
@@ -213,8 +198,19 @@ public class InformationCommandBurstCharges
         }
 
         @Override
-        public Collection<InformationCommandBurstCharges> items() {
-            return (load().values());
+        public synchronized Map<String, InformationCommandBurstCharges> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(InformationCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, InformationCommandBurstCharges> items;
         }
     }
 }

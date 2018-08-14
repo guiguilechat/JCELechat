@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -193,8 +193,6 @@ public class SupportFighter
     @DefaultIntValue(0)
     public int FighterSquadronIsSupport;
     public final static SupportFighter.MetaGroup METAGROUP = new SupportFighter.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/fighter/SupportFighter.yaml";
-    private static Map<String, SupportFighter> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -307,37 +305,24 @@ public class SupportFighter
     }
 
     @Override
-    public int getGroupId() {
-        return  1537;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SupportFighter> getGroup() {
+    public IMetaGroup<SupportFighter> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, SupportFighter> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(SupportFighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, SupportFighter> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SupportFighter>
+        implements IMetaGroup<SupportFighter>
     {
+        public final static String RESOURCE_PATH = "SDE/items/fighter/SupportFighter.yaml";
+        private Map<String, SupportFighter> cache = (null);
 
         @Override
-        public MetaCategory<? super SupportFighter> category() {
+        public IMetaCategory<? super SupportFighter> category() {
             return Fighter.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1537;
         }
 
         @Override
@@ -346,8 +331,19 @@ public class SupportFighter
         }
 
         @Override
-        public Collection<SupportFighter> items() {
-            return (load().values());
+        public synchronized Map<String, SupportFighter> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(SupportFighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, SupportFighter> items;
         }
     }
 }

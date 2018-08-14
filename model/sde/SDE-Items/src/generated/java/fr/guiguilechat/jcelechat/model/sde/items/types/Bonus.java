@@ -2,11 +2,11 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 
 public abstract class Bonus
     extends Item
@@ -14,32 +14,36 @@ public abstract class Bonus
     public final static Bonus.MetaCat METACAT = new Bonus.MetaCat();
 
     @Override
-    public int getCategoryId() {
-        return  14;
-    }
-
-    @Override
-    public MetaCategory<Bonus> getCategory() {
+    public IMetaCategory<Bonus> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Bonus> loadCategory() {
-        return Collections.emptyMap();
-    }
-
     public static class MetaCat
-        implements MetaCategory<Bonus>
+        implements IMetaCategory<Bonus>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Bonus> [] groups = new MetaGroup[] { };
+        private final static IMetaGroup<? extends Bonus> [] groups = new IMetaGroup[] { };
+
+        @Override
+        public int getCategoryId() {
+            return  14;
+        }
 
         @Override
         public String getName() {
             return "Bonus";
         }
 
-        public Collection<MetaGroup<? extends Bonus>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Bonus>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Bonus> load() {
+            HashMap<String, Bonus> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

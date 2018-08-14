@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class StarbaseECMJammingArrayBlueprints
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static StarbaseECMJammingArrayBlueprints.MetaGroup METAGROUP = new StarbaseECMJammingArrayBlueprints.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseECMJammingArrayBlueprints.yaml";
-    private static Map<String, StarbaseECMJammingArrayBlueprints> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class StarbaseECMJammingArrayBlueprints
     }
 
     @Override
-    public int getGroupId() {
-        return  856;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseECMJammingArrayBlueprints> getGroup() {
+    public IMetaGroup<StarbaseECMJammingArrayBlueprints> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StarbaseECMJammingArrayBlueprints> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StarbaseECMJammingArrayBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StarbaseECMJammingArrayBlueprints> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseECMJammingArrayBlueprints>
+        implements IMetaGroup<StarbaseECMJammingArrayBlueprints>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseECMJammingArrayBlueprints.yaml";
+        private Map<String, StarbaseECMJammingArrayBlueprints> cache = (null);
 
         @Override
-        public MetaCategory<? super StarbaseECMJammingArrayBlueprints> category() {
+        public IMetaCategory<? super StarbaseECMJammingArrayBlueprints> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  856;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class StarbaseECMJammingArrayBlueprints
         }
 
         @Override
-        public Collection<StarbaseECMJammingArrayBlueprints> items() {
-            return (load().values());
+        public synchronized Map<String, StarbaseECMJammingArrayBlueprints> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StarbaseECMJammingArrayBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StarbaseECMJammingArrayBlueprints> items;
         }
     }
 }

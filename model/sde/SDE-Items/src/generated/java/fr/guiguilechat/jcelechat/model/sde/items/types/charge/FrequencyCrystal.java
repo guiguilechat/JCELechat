@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -160,8 +160,6 @@ public class FrequencyCrystal
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
     public final static FrequencyCrystal.MetaGroup METAGROUP = new FrequencyCrystal.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/FrequencyCrystal.yaml";
-    private static Map<String, FrequencyCrystal> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -250,37 +248,24 @@ public class FrequencyCrystal
     }
 
     @Override
-    public int getGroupId() {
-        return  86;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FrequencyCrystal> getGroup() {
+    public IMetaGroup<FrequencyCrystal> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, FrequencyCrystal> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(FrequencyCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, FrequencyCrystal> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FrequencyCrystal>
+        implements IMetaGroup<FrequencyCrystal>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/FrequencyCrystal.yaml";
+        private Map<String, FrequencyCrystal> cache = (null);
 
         @Override
-        public MetaCategory<? super FrequencyCrystal> category() {
+        public IMetaCategory<? super FrequencyCrystal> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  86;
         }
 
         @Override
@@ -289,8 +274,19 @@ public class FrequencyCrystal
         }
 
         @Override
-        public Collection<FrequencyCrystal> items() {
-            return (load().values());
+        public synchronized Map<String, FrequencyCrystal> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(FrequencyCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, FrequencyCrystal> items;
         }
     }
 }

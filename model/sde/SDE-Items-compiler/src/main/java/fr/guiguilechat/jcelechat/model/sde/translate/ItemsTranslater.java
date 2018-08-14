@@ -7,22 +7,17 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import com.helger.jcodemodel.AbstractJClass;
-import com.helger.jcodemodel.AbstractJType;
 import com.helger.jcodemodel.IJExpression;
 import com.helger.jcodemodel.JBlock;
 import com.helger.jcodemodel.JCatchBlock;
@@ -30,7 +25,6 @@ import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JExpr;
-import com.helger.jcodemodel.JInvocation;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JTryBlock;
@@ -55,7 +49,7 @@ public class ItemsTranslater {
 	public void translate(CompiledClassesData classes, File destFolder, String resFolder) {
 		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
-		makeLoadMethod(classes.metaInfClass, cm, "SDE/items/metainf.yaml", false);
+		makeLoadMethod(null, classes.metaInfClass, cm, "SDE/items/metainf.yaml", false);
 		DynamicClassLoader cl = new DynamicClassLoader(ItemsTranslater.class.getClassLoader()).withCode(cm);
 		// filepath->item name -> object
 		// eg mycategory/mygroup.yaml -> item1-> new MyGroup()
@@ -103,12 +97,9 @@ public class ItemsTranslater {
 				m = new LinkedHashMap<>();
 				exportItems.put(fileName, m);
 				JDefinedClass groupclass = cm._getClass(className);
-				makeLoadMethod(groupclass, cm, resFolder + fileName, true);
 				JDefinedClass metagroup = groupclass.classes().stream().filter(jc -> jc.name().equals("MetaGroup")).findFirst()
 						.get();
-				JMethod getItems = metagroup.method(JMod.PUBLIC, cm.ref(Collection.class).narrow(groupclass), "items");
-				getItems.annotate(Override.class);
-				getItems.body()._return(JExpr.direct("load().values()"));
+				makeLoadMethod(metagroup, groupclass, cm, resFolder + fileName, true);
 			}
 			m.put(type.enName(), item);
 			builtItems.put(e.getKey(), item);
@@ -208,40 +199,6 @@ public class ItemsTranslater {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
 
-		// create the method to load the groups of a category class.
-		//
-		// public static Map<String, ? extends Asteroid> Asteroid::load() {
-		// return Stream.of(Arkonor.load(),
-		// Bistot.load()).flatMap(m -> m.entrySet().stream())
-		// .collect(Collectors.toMap(Entry::getKey, Entry::getValue));
-		// }
-
-		for (Entry<JDefinedClass, Set<JDefinedClass>> e : classes.cat2Groups.entrySet()) {
-			JDefinedClass cat = e.getKey();
-			Set<JDefinedClass> groups = e.getValue();
-			ArrayList<JDefinedClass> groupsL = new ArrayList<>(groups);
-			Collections.sort(groupsL, (cl1, cl2) -> cl1.name().compareTo(cl2.name()));
-			AbstractJClass retType = cm.ref(Map.class).narrow(cm.ref(String.class), cat.wildcardExtends());
-			JMethod loadMeth = cat.method(JMod.PUBLIC | JMod.STATIC, retType, "loadCategory");
-			JInvocation stream = cm.ref(Stream.class).staticInvoke("of");
-			boolean catHasElements = false;
-			for (JDefinedClass group : groupsL) {
-				boolean groupHashElements = group.getMethod("load", new AbstractJType[0]) != null;
-				if (groupHashElements) {
-					stream = stream.arg(group.staticInvoke("load"));
-					catHasElements = true;
-				}
-			}
-			if (catHasElements) {
-				JInvocation flatstream = stream.invoke("flatMap").arg(JExpr.direct("m -> m.entrySet().stream()"));
-				JInvocation retmap = flatstream.invoke("collect").arg(cm.ref(Collectors.class).staticInvoke("toMap")
-						.arg(cm.ref(Entry.class).methodRef("getKey")).arg(cm.ref(Entry.class).methodRef("getValue")));
-				loadMeth.body()._return(retmap);
-			} else {
-				loadMeth.body()._return(cm.ref(Collections.class).staticInvoke("emptyMap"));
-			}
-		}
-
 		logger.info("translated items in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 
@@ -257,33 +214,44 @@ public class ItemsTranslater {
 		}
 	}
 
-	protected void makeLoadMethod(JDefinedClass clazz, JCodeModel cm, String resPath, boolean container) {
-		clazz.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class), "RESOURCE_PATH").init(JExpr.lit(resPath));
+	protected void makeLoadMethod(JDefinedClass metagroup, JDefinedClass loadedClass, JCodeModel cm, String resPath,
+			boolean container) {
+		boolean _static = metagroup == null;
+		if (metagroup == null) {
+			metagroup = loadedClass;
+		}
+		metagroup.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class), "RESOURCE_PATH")
+		.init(JExpr.lit(resPath));
 
 		if (container) {
 			// create a Container class that contains only a field
 			// LinkedHashMap<String, thisclass>
 			// this allows to have snakeyaml parse a text file into a hahsmap
 			try {
-				clazz._class(JMod.PRIVATE | JMod.STATIC, "Container").field(JMod.PUBLIC,
-						cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), clazz), "items");
+				metagroup._class(JMod.PRIVATE | JMod.STATIC, "Container").field(JMod.PUBLIC,
+						cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), loadedClass), "items");
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this", e1);
 			}
 		}
 
 		// create the load method
-		AbstractJClass retType = container ? cm.ref(Map.class).narrow(cm.ref(String.class), clazz) : clazz;
+		AbstractJClass retType = container ? cm.ref(Map.class).narrow(cm.ref(String.class), loadedClass) : loadedClass;
 		// the cache of the load
-		JVar cache = clazz.field(JMod.PRIVATE | JMod.STATIC, retType, "cache").init(JExpr.direct("null"));
+		JVar cache = metagroup.field(JMod.PRIVATE | (_static ? JMod.STATIC : 0), retType, "cache")
+				.init(JExpr.direct("null"));
 		// body method for load
-		JMethod load = clazz.method(JMod.PUBLIC | JMod.STATIC | JMod.SYNCHRONIZED, retType, "load");
+		JMethod load = metagroup.method(JMod.PUBLIC | (_static ? JMod.STATIC : 0) | JMod.SYNCHRONIZED, retType, "load");
+		if (!_static) {
+			load.annotate(Override.class);
+		}
 		JBlock ifblock = load.body()._if(cache.eq(JExpr._null()))._then();
 		JTryBlock tryblock = ifblock._try();
-		IJExpression class2cast = container ? JExpr.direct("Container.class") : clazz.dotclass();
+		IJExpression class2cast = container ? JExpr.direct("Container.class") : loadedClass.dotclass();
 		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).invoke("loadAs")
 				.arg(JExpr._new(cm.ref(InputStreamReader.class)).arg(
-						clazz.dotclass().invoke("getClassLoader").invoke("getResourceAsStream").arg(JExpr.direct("RESOURCE_PATH"))))
+						loadedClass.dotclass().invoke("getClassLoader").invoke("getResourceAsStream")
+						.arg(JExpr.direct("RESOURCE_PATH"))))
 				.arg(class2cast);
 		if (container) {
 			assign = assign.ref("items");

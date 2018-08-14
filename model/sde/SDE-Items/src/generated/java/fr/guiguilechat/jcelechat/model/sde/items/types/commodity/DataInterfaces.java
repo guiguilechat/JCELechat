@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -45,8 +45,6 @@ public class DataInterfaces
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     public final static DataInterfaces.MetaGroup METAGROUP = new DataInterfaces.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
-    private static Map<String, DataInterfaces> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -75,37 +73,24 @@ public class DataInterfaces
     }
 
     @Override
-    public int getGroupId() {
-        return  716;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DataInterfaces> getGroup() {
+    public IMetaGroup<DataInterfaces> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, DataInterfaces> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(DataInterfaces.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, DataInterfaces> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DataInterfaces>
+        implements IMetaGroup<DataInterfaces>
     {
+        public final static String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
+        private Map<String, DataInterfaces> cache = (null);
 
         @Override
-        public MetaCategory<? super DataInterfaces> category() {
+        public IMetaCategory<? super DataInterfaces> category() {
             return Commodity.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  716;
         }
 
         @Override
@@ -114,8 +99,19 @@ public class DataInterfaces
         }
 
         @Override
-        public Collection<DataInterfaces> items() {
-            return (load().values());
+        public synchronized Map<String, DataInterfaces> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(DataInterfaces.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, DataInterfaces> items;
         }
     }
 }

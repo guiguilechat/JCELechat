@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -73,8 +73,6 @@ public class Scanning
     @DefaultIntValue(0)
     public int VirusCoherenceBonus;
     public final static Scanning.MetaGroup METAGROUP = new Scanning.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/skill/Scanning.yaml";
-    private static Map<String, Scanning> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -119,37 +117,24 @@ public class Scanning
     }
 
     @Override
-    public int getGroupId() {
-        return  1217;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Scanning> getGroup() {
+    public IMetaGroup<Scanning> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Scanning> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Scanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Scanning> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Scanning>
+        implements IMetaGroup<Scanning>
     {
+        public final static String RESOURCE_PATH = "SDE/items/skill/Scanning.yaml";
+        private Map<String, Scanning> cache = (null);
 
         @Override
-        public MetaCategory<? super Scanning> category() {
+        public IMetaCategory<? super Scanning> category() {
             return Skill.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1217;
         }
 
         @Override
@@ -158,8 +143,19 @@ public class Scanning
         }
 
         @Override
-        public Collection<Scanning> items() {
-            return (load().values());
+        public synchronized Map<String, Scanning> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Scanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Scanning> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -159,8 +159,6 @@ public class MissileLauncherLight
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static MissileLauncherLight.MetaGroup METAGROUP = new MissileLauncherLight.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherLight.yaml";
-    private static Map<String, MissileLauncherLight> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -249,37 +247,24 @@ public class MissileLauncherLight
     }
 
     @Override
-    public int getGroupId() {
-        return  509;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileLauncherLight> getGroup() {
+    public IMetaGroup<MissileLauncherLight> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, MissileLauncherLight> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherLight.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, MissileLauncherLight> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileLauncherLight>
+        implements IMetaGroup<MissileLauncherLight>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherLight.yaml";
+        private Map<String, MissileLauncherLight> cache = (null);
 
         @Override
-        public MetaCategory<? super MissileLauncherLight> category() {
+        public IMetaCategory<? super MissileLauncherLight> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  509;
         }
 
         @Override
@@ -288,8 +273,19 @@ public class MissileLauncherLight
         }
 
         @Override
-        public Collection<MissileLauncherLight> items() {
-            return (load().values());
+        public synchronized Map<String, MissileLauncherLight> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherLight.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, MissileLauncherLight> items;
         }
     }
 }

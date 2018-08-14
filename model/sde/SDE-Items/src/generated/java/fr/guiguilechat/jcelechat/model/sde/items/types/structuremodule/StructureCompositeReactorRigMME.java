@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -117,8 +117,6 @@ public class StructureCompositeReactorRigMME
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureCompositeReactorRigMME.MetaGroup METAGROUP = new StructureCompositeReactorRigMME.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCompositeReactorRigMME.yaml";
-    private static Map<String, StructureCompositeReactorRigMME> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -187,37 +185,24 @@ public class StructureCompositeReactorRigMME
     }
 
     @Override
-    public int getGroupId() {
-        return  1934;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCompositeReactorRigMME> getGroup() {
+    public IMetaGroup<StructureCompositeReactorRigMME> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureCompositeReactorRigMME> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureCompositeReactorRigMME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureCompositeReactorRigMME> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCompositeReactorRigMME>
+        implements IMetaGroup<StructureCompositeReactorRigMME>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCompositeReactorRigMME.yaml";
+        private Map<String, StructureCompositeReactorRigMME> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureCompositeReactorRigMME> category() {
+        public IMetaCategory<? super StructureCompositeReactorRigMME> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1934;
         }
 
         @Override
@@ -226,8 +211,19 @@ public class StructureCompositeReactorRigMME
         }
 
         @Override
-        public Collection<StructureCompositeReactorRigMME> items() {
-            return (load().values());
+        public synchronized Map<String, StructureCompositeReactorRigMME> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureCompositeReactorRigMME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureCompositeReactorRigMME> items;
         }
     }
 }

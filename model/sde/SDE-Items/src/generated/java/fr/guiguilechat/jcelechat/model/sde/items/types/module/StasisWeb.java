@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -138,8 +138,6 @@ public class StasisWeb
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     public final static StasisWeb.MetaGroup METAGROUP = new StasisWeb.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/StasisWeb.yaml";
-    private static Map<String, StasisWeb> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -216,37 +214,24 @@ public class StasisWeb
     }
 
     @Override
-    public int getGroupId() {
-        return  65;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWeb> getGroup() {
+    public IMetaGroup<StasisWeb> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StasisWeb> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StasisWeb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StasisWeb> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWeb>
+        implements IMetaGroup<StasisWeb>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/StasisWeb.yaml";
+        private Map<String, StasisWeb> cache = (null);
 
         @Override
-        public MetaCategory<? super StasisWeb> category() {
+        public IMetaCategory<? super StasisWeb> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  65;
         }
 
         @Override
@@ -255,8 +240,19 @@ public class StasisWeb
         }
 
         @Override
-        public Collection<StasisWeb> items() {
-            return (load().values());
+        public synchronized Map<String, StasisWeb> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StasisWeb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StasisWeb> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -138,8 +138,6 @@ public class StructureCombatRigLMissileApplicationAndProjection
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureCombatRigLMissileApplicationAndProjection.MetaGroup METAGROUP = new StructureCombatRigLMissileApplicationAndProjection.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLMissileApplicationAndProjection.yaml";
-    private static Map<String, StructureCombatRigLMissileApplicationAndProjection> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -220,37 +218,24 @@ public class StructureCombatRigLMissileApplicationAndProjection
     }
 
     @Override
-    public int getGroupId() {
-        return  1629;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigLMissileApplicationAndProjection> getGroup() {
+    public IMetaGroup<StructureCombatRigLMissileApplicationAndProjection> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureCombatRigLMissileApplicationAndProjection> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigLMissileApplicationAndProjection.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureCombatRigLMissileApplicationAndProjection> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigLMissileApplicationAndProjection>
+        implements IMetaGroup<StructureCombatRigLMissileApplicationAndProjection>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLMissileApplicationAndProjection.yaml";
+        private Map<String, StructureCombatRigLMissileApplicationAndProjection> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureCombatRigLMissileApplicationAndProjection> category() {
+        public IMetaCategory<? super StructureCombatRigLMissileApplicationAndProjection> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1629;
         }
 
         @Override
@@ -259,8 +244,19 @@ public class StructureCombatRigLMissileApplicationAndProjection
         }
 
         @Override
-        public Collection<StructureCombatRigLMissileApplicationAndProjection> items() {
-            return (load().values());
+        public synchronized Map<String, StructureCombatRigLMissileApplicationAndProjection> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigLMissileApplicationAndProjection.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureCombatRigLMissileApplicationAndProjection> items;
         }
     }
 }

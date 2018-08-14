@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class ArmorResistanceShiftHardenerBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static ArmorResistanceShiftHardenerBlueprint.MetaGroup METAGROUP = new ArmorResistanceShiftHardenerBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ArmorResistanceShiftHardenerBlueprint.yaml";
-    private static Map<String, ArmorResistanceShiftHardenerBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class ArmorResistanceShiftHardenerBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  1151;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArmorResistanceShiftHardenerBlueprint> getGroup() {
+    public IMetaGroup<ArmorResistanceShiftHardenerBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ArmorResistanceShiftHardenerBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ArmorResistanceShiftHardenerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ArmorResistanceShiftHardenerBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArmorResistanceShiftHardenerBlueprint>
+        implements IMetaGroup<ArmorResistanceShiftHardenerBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ArmorResistanceShiftHardenerBlueprint.yaml";
+        private Map<String, ArmorResistanceShiftHardenerBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ArmorResistanceShiftHardenerBlueprint> category() {
+        public IMetaCategory<? super ArmorResistanceShiftHardenerBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1151;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class ArmorResistanceShiftHardenerBlueprint
         }
 
         @Override
-        public Collection<ArmorResistanceShiftHardenerBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ArmorResistanceShiftHardenerBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ArmorResistanceShiftHardenerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ArmorResistanceShiftHardenerBlueprint> items;
         }
     }
 }

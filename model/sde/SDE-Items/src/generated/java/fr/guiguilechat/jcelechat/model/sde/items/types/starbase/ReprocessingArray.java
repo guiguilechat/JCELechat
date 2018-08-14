@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -95,8 +95,6 @@ public class ReprocessingArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static ReprocessingArray.MetaGroup METAGROUP = new ReprocessingArray.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/ReprocessingArray.yaml";
-    private static Map<String, ReprocessingArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -153,37 +151,24 @@ public class ReprocessingArray
     }
 
     @Override
-    public int getGroupId() {
-        return  311;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ReprocessingArray> getGroup() {
+    public IMetaGroup<ReprocessingArray> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ReprocessingArray> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ReprocessingArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ReprocessingArray> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ReprocessingArray>
+        implements IMetaGroup<ReprocessingArray>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/ReprocessingArray.yaml";
+        private Map<String, ReprocessingArray> cache = (null);
 
         @Override
-        public MetaCategory<? super ReprocessingArray> category() {
+        public IMetaCategory<? super ReprocessingArray> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  311;
         }
 
         @Override
@@ -192,8 +177,19 @@ public class ReprocessingArray
         }
 
         @Override
-        public Collection<ReprocessingArray> items() {
-            return (load().values());
+        public synchronized Map<String, ReprocessingArray> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ReprocessingArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ReprocessingArray> items;
         }
     }
 }

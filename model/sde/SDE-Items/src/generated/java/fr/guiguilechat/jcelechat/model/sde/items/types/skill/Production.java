@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -87,8 +87,6 @@ public class Production
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
     public final static Production.MetaGroup METAGROUP = new Production.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/skill/Production.yaml";
-    private static Map<String, Production> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -141,37 +139,24 @@ public class Production
     }
 
     @Override
-    public int getGroupId() {
-        return  268;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Production> getGroup() {
+    public IMetaGroup<Production> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Production> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Production.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Production> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Production>
+        implements IMetaGroup<Production>
     {
+        public final static String RESOURCE_PATH = "SDE/items/skill/Production.yaml";
+        private Map<String, Production> cache = (null);
 
         @Override
-        public MetaCategory<? super Production> category() {
+        public IMetaCategory<? super Production> category() {
             return Skill.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  268;
         }
 
         @Override
@@ -180,8 +165,19 @@ public class Production
         }
 
         @Override
-        public Collection<Production> items() {
-            return (load().values());
+        public synchronized Map<String, Production> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Production.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Production> items;
         }
     }
 }

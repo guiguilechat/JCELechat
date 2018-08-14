@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -151,8 +151,6 @@ public class JumpPortalArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static JumpPortalArray.MetaGroup METAGROUP = new JumpPortalArray.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/JumpPortalArray.yaml";
-    private static Map<String, JumpPortalArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -241,37 +239,24 @@ public class JumpPortalArray
     }
 
     @Override
-    public int getGroupId() {
-        return  707;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<JumpPortalArray> getGroup() {
+    public IMetaGroup<JumpPortalArray> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, JumpPortalArray> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(JumpPortalArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, JumpPortalArray> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<JumpPortalArray>
+        implements IMetaGroup<JumpPortalArray>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/JumpPortalArray.yaml";
+        private Map<String, JumpPortalArray> cache = (null);
 
         @Override
-        public MetaCategory<? super JumpPortalArray> category() {
+        public IMetaCategory<? super JumpPortalArray> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  707;
         }
 
         @Override
@@ -280,8 +265,19 @@ public class JumpPortalArray
         }
 
         @Override
-        public Collection<JumpPortalArray> items() {
-            return (load().values());
+        public synchronized Map<String, JumpPortalArray> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(JumpPortalArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, JumpPortalArray> items;
         }
     }
 }

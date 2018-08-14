@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -53,8 +53,6 @@ public class CommandCenters
     @DefaultIntValue(0)
     public int PowerOutput;
     public final static CommandCenters.MetaGroup METAGROUP = new CommandCenters.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/CommandCenters.yaml";
-    private static Map<String, CommandCenters> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -87,37 +85,24 @@ public class CommandCenters
     }
 
     @Override
-    public int getGroupId() {
-        return  1027;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommandCenters> getGroup() {
+    public IMetaGroup<CommandCenters> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CommandCenters> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CommandCenters.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CommandCenters> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommandCenters>
+        implements IMetaGroup<CommandCenters>
     {
+        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/CommandCenters.yaml";
+        private Map<String, CommandCenters> cache = (null);
 
         @Override
-        public MetaCategory<? super CommandCenters> category() {
+        public IMetaCategory<? super CommandCenters> category() {
             return PlanetaryInteraction.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1027;
         }
 
         @Override
@@ -126,8 +111,19 @@ public class CommandCenters
         }
 
         @Override
-        public Collection<CommandCenters> items() {
-            return (load().values());
+        public synchronized Map<String, CommandCenters> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CommandCenters.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CommandCenters> items;
         }
     }
 }

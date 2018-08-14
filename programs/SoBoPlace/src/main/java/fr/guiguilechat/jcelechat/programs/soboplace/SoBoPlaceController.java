@@ -82,7 +82,7 @@ public class SoBoPlaceController {
 
 	protected void load() {
 		regionSelect.setItems(FXCollections.observableArrayList(Region.load().values()));
-		fr.guiguilechat.jcelechat.model.sde.items.types.Module.loadCategory().values().stream()
+		fr.guiguilechat.jcelechat.model.sde.items.types.Module.METACAT.load().values().stream()
 		.filter(a -> a.marketGroup != 0)
 		.forEachOrdered(table.getItems()::add);
 	}

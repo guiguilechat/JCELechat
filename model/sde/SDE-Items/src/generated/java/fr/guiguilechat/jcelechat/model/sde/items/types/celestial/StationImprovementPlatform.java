@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -67,8 +67,6 @@ public class StationImprovementPlatform
     @DefaultIntValue(0)
     public int StationTypeID;
     public final static StationImprovementPlatform.MetaGroup METAGROUP = new StationImprovementPlatform.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/celestial/StationImprovementPlatform.yaml";
-    private static Map<String, StationImprovementPlatform> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -109,37 +107,24 @@ public class StationImprovementPlatform
     }
 
     @Override
-    public int getGroupId() {
-        return  836;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StationImprovementPlatform> getGroup() {
+    public IMetaGroup<StationImprovementPlatform> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StationImprovementPlatform> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StationImprovementPlatform.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StationImprovementPlatform> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StationImprovementPlatform>
+        implements IMetaGroup<StationImprovementPlatform>
     {
+        public final static String RESOURCE_PATH = "SDE/items/celestial/StationImprovementPlatform.yaml";
+        private Map<String, StationImprovementPlatform> cache = (null);
 
         @Override
-        public MetaCategory<? super StationImprovementPlatform> category() {
+        public IMetaCategory<? super StationImprovementPlatform> category() {
             return Celestial.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  836;
         }
 
         @Override
@@ -148,8 +133,19 @@ public class StationImprovementPlatform
         }
 
         @Override
-        public Collection<StationImprovementPlatform> items() {
-            return (load().values());
+        public synchronized Map<String, StationImprovementPlatform> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StationImprovementPlatform.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StationImprovementPlatform> items;
         }
     }
 }

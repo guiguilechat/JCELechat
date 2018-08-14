@@ -74,7 +74,7 @@ public class OreWorthController {
 
 	protected void load() {
 		regionSelect.setItems(FXCollections.observableArrayList(Region.load().values()));
-		Asteroid.loadCategory().values().stream().filter(a -> a.AsteroidMetaLevel != 0)
+		Asteroid.METACAT.load().values().stream().filter(a -> a.AsteroidMetaLevel != 0)
 		.forEachOrdered(table.getItems()::add);
 	}
 

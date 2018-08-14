@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class CoProcessorBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static CoProcessorBlueprint.MetaGroup METAGROUP = new CoProcessorBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/CoProcessorBlueprint.yaml";
-    private static Map<String, CoProcessorBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class CoProcessorBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  346;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CoProcessorBlueprint> getGroup() {
+    public IMetaGroup<CoProcessorBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CoProcessorBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CoProcessorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CoProcessorBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CoProcessorBlueprint>
+        implements IMetaGroup<CoProcessorBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/CoProcessorBlueprint.yaml";
+        private Map<String, CoProcessorBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super CoProcessorBlueprint> category() {
+        public IMetaCategory<? super CoProcessorBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  346;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class CoProcessorBlueprint
         }
 
         @Override
-        public Collection<CoProcessorBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, CoProcessorBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CoProcessorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CoProcessorBlueprint> items;
         }
     }
 }

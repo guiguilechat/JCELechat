@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class TargetPainterBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static TargetPainterBlueprint.MetaGroup METAGROUP = new TargetPainterBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/TargetPainterBlueprint.yaml";
-    private static Map<String, TargetPainterBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class TargetPainterBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  504;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TargetPainterBlueprint> getGroup() {
+    public IMetaGroup<TargetPainterBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, TargetPainterBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(TargetPainterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, TargetPainterBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TargetPainterBlueprint>
+        implements IMetaGroup<TargetPainterBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/TargetPainterBlueprint.yaml";
+        private Map<String, TargetPainterBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super TargetPainterBlueprint> category() {
+        public IMetaCategory<? super TargetPainterBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  504;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class TargetPainterBlueprint
         }
 
         @Override
-        public Collection<TargetPainterBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, TargetPainterBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(TargetPainterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, TargetPainterBlueprint> items;
         }
     }
 }

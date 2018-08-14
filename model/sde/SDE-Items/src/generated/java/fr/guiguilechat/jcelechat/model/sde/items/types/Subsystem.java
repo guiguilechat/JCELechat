@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -145,32 +144,36 @@ public abstract class Subsystem
     }
 
     @Override
-    public int getCategoryId() {
-        return  32;
-    }
-
-    @Override
-    public MetaCategory<Subsystem> getCategory() {
+    public IMetaCategory<Subsystem> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Subsystem> loadCategory() {
-        return Stream.of(CoreSystems.load(), DefensiveSystems.load(), OffensiveSystems.load(), PropulsionSystems.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Subsystem>
+        implements IMetaCategory<Subsystem>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Subsystem> [] groups = new MetaGroup[] {DefensiveSystems.METAGROUP, OffensiveSystems.METAGROUP, PropulsionSystems.METAGROUP, CoreSystems.METAGROUP };
+        private final static IMetaGroup<? extends Subsystem> [] groups = new IMetaGroup[] {DefensiveSystems.METAGROUP, OffensiveSystems.METAGROUP, PropulsionSystems.METAGROUP, CoreSystems.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  32;
+        }
 
         @Override
         public String getName() {
             return "Subsystem";
         }
 
-        public Collection<MetaGroup<? extends Subsystem>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Subsystem>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Subsystem> load() {
+            HashMap<String, Subsystem> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -145,8 +145,6 @@ public class StructureEngineeringRigMAdvancedLargeShipME
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureEngineeringRigMAdvancedLargeShipME.MetaGroup METAGROUP = new StructureEngineeringRigMAdvancedLargeShipME.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMAdvancedLargeShipME.yaml";
-    private static Map<String, StructureEngineeringRigMAdvancedLargeShipME> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -231,37 +229,24 @@ public class StructureEngineeringRigMAdvancedLargeShipME
     }
 
     @Override
-    public int getGroupId() {
-        return  1834;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMAdvancedLargeShipME> getGroup() {
+    public IMetaGroup<StructureEngineeringRigMAdvancedLargeShipME> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureEngineeringRigMAdvancedLargeShipME> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMAdvancedLargeShipME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureEngineeringRigMAdvancedLargeShipME> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMAdvancedLargeShipME>
+        implements IMetaGroup<StructureEngineeringRigMAdvancedLargeShipME>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMAdvancedLargeShipME.yaml";
+        private Map<String, StructureEngineeringRigMAdvancedLargeShipME> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureEngineeringRigMAdvancedLargeShipME> category() {
+        public IMetaCategory<? super StructureEngineeringRigMAdvancedLargeShipME> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1834;
         }
 
         @Override
@@ -270,8 +255,19 @@ public class StructureEngineeringRigMAdvancedLargeShipME
         }
 
         @Override
-        public Collection<StructureEngineeringRigMAdvancedLargeShipME> items() {
-            return (load().values());
+        public synchronized Map<String, StructureEngineeringRigMAdvancedLargeShipME> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMAdvancedLargeShipME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureEngineeringRigMAdvancedLargeShipME> items;
         }
     }
 }

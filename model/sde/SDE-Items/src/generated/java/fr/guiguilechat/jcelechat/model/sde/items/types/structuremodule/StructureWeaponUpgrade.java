@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -125,8 +125,6 @@ public class StructureWeaponUpgrade
     @DefaultIntValue(1)
     public int TechLevel;
     public final static StructureWeaponUpgrade.MetaGroup METAGROUP = new StructureWeaponUpgrade.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureWeaponUpgrade.yaml";
-    private static Map<String, StructureWeaponUpgrade> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -199,37 +197,24 @@ public class StructureWeaponUpgrade
     }
 
     @Override
-    public int getGroupId() {
-        return  1429;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureWeaponUpgrade> getGroup() {
+    public IMetaGroup<StructureWeaponUpgrade> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureWeaponUpgrade> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureWeaponUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureWeaponUpgrade> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureWeaponUpgrade>
+        implements IMetaGroup<StructureWeaponUpgrade>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureWeaponUpgrade.yaml";
+        private Map<String, StructureWeaponUpgrade> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureWeaponUpgrade> category() {
+        public IMetaCategory<? super StructureWeaponUpgrade> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1429;
         }
 
         @Override
@@ -238,8 +223,19 @@ public class StructureWeaponUpgrade
         }
 
         @Override
-        public Collection<StructureWeaponUpgrade> items() {
-            return (load().values());
+        public synchronized Map<String, StructureWeaponUpgrade> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureWeaponUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureWeaponUpgrade> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -146,8 +146,6 @@ public class ScannerProbe
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
     public final static ScannerProbe.MetaGroup METAGROUP = new ScannerProbe.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
-    private static Map<String, ScannerProbe> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -228,37 +226,24 @@ public class ScannerProbe
     }
 
     @Override
-    public int getGroupId() {
-        return  479;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScannerProbe> getGroup() {
+    public IMetaGroup<ScannerProbe> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ScannerProbe> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ScannerProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ScannerProbe> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScannerProbe>
+        implements IMetaGroup<ScannerProbe>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
+        private Map<String, ScannerProbe> cache = (null);
 
         @Override
-        public MetaCategory<? super ScannerProbe> category() {
+        public IMetaCategory<? super ScannerProbe> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  479;
         }
 
         @Override
@@ -267,8 +252,19 @@ public class ScannerProbe
         }
 
         @Override
-        public Collection<ScannerProbe> items() {
-            return (load().values());
+        public synchronized Map<String, ScannerProbe> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ScannerProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ScannerProbe> items;
         }
     }
 }

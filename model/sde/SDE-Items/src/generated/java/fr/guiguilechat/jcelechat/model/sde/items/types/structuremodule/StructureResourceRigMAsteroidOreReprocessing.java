@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -131,8 +131,6 @@ public class StructureResourceRigMAsteroidOreReprocessing
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureResourceRigMAsteroidOreReprocessing.MetaGroup METAGROUP = new StructureResourceRigMAsteroidOreReprocessing.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceRigMAsteroidOreReprocessing.yaml";
-    private static Map<String, StructureResourceRigMAsteroidOreReprocessing> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -209,37 +207,24 @@ public class StructureResourceRigMAsteroidOreReprocessing
     }
 
     @Override
-    public int getGroupId() {
-        return  1941;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureResourceRigMAsteroidOreReprocessing> getGroup() {
+    public IMetaGroup<StructureResourceRigMAsteroidOreReprocessing> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureResourceRigMAsteroidOreReprocessing> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureResourceRigMAsteroidOreReprocessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureResourceRigMAsteroidOreReprocessing> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureResourceRigMAsteroidOreReprocessing>
+        implements IMetaGroup<StructureResourceRigMAsteroidOreReprocessing>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceRigMAsteroidOreReprocessing.yaml";
+        private Map<String, StructureResourceRigMAsteroidOreReprocessing> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureResourceRigMAsteroidOreReprocessing> category() {
+        public IMetaCategory<? super StructureResourceRigMAsteroidOreReprocessing> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1941;
         }
 
         @Override
@@ -248,8 +233,19 @@ public class StructureResourceRigMAsteroidOreReprocessing
         }
 
         @Override
-        public Collection<StructureResourceRigMAsteroidOreReprocessing> items() {
-            return (load().values());
+        public synchronized Map<String, StructureResourceRigMAsteroidOreReprocessing> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureResourceRigMAsteroidOreReprocessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureResourceRigMAsteroidOreReprocessing> items;
         }
     }
 }

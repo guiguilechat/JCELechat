@@ -30,7 +30,8 @@ public class MetaInf {
                 String className = ("fr.guiguilechat.jcelechat.model.sde.items.types."+ group.replaceAll("/", "."));
                 Class<?> loadclass = MetaInf.class.getClassLoader().loadClass(className);
                 if (loadclass!= null) {
-                    map = ((Map<String, ? extends Item> ) loadclass.getMethod("load").invoke(null));
+                    IMetaGroup<? extends Item> img = ((IMetaGroup<? extends Item> ) loadclass.getField("METAGROUP").get(null));
+                    map = img.load();
                 }
             } catch (final Exception exception) {
                 throw new UnsupportedOperationException(exception);

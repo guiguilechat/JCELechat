@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -79,32 +78,36 @@ public abstract class Decryptors
     }
 
     @Override
-    public int getCategoryId() {
-        return  35;
-    }
-
-    @Override
-    public MetaCategory<Decryptors> getCategory() {
+    public IMetaCategory<Decryptors> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Decryptors> loadCategory() {
-        return Stream.of(DecryptorsAmarr.load(), DecryptorsCaldari.load(), DecryptorsGallente.load(), DecryptorsHybrid.load(), DecryptorsMinmatar.load(), GenericDecryptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Decryptors>
+        implements IMetaCategory<Decryptors>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Decryptors> [] groups = new MetaGroup[] {DecryptorsAmarr.METAGROUP, DecryptorsMinmatar.METAGROUP, DecryptorsGallente.METAGROUP, DecryptorsCaldari.METAGROUP, DecryptorsHybrid.METAGROUP, GenericDecryptor.METAGROUP };
+        private final static IMetaGroup<? extends Decryptors> [] groups = new IMetaGroup[] {DecryptorsAmarr.METAGROUP, DecryptorsMinmatar.METAGROUP, DecryptorsGallente.METAGROUP, DecryptorsCaldari.METAGROUP, DecryptorsHybrid.METAGROUP, GenericDecryptor.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  35;
+        }
 
         @Override
         public String getName() {
             return "Decryptors";
         }
 
-        public Collection<MetaGroup<? extends Decryptors>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Decryptors>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Decryptors> load() {
+            HashMap<String, Decryptors> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

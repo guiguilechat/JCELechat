@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -108,8 +108,6 @@ public class Science
     @DefaultIntValue(0)
     public int ResearchGangSizeBonus;
     public final static Science.MetaGroup METAGROUP = new Science.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/skill/Science.yaml";
-    private static Map<String, Science> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -174,37 +172,24 @@ public class Science
     }
 
     @Override
-    public int getGroupId() {
-        return  270;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Science> getGroup() {
+    public IMetaGroup<Science> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Science> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Science.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Science> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Science>
+        implements IMetaGroup<Science>
     {
+        public final static String RESOURCE_PATH = "SDE/items/skill/Science.yaml";
+        private Map<String, Science> cache = (null);
 
         @Override
-        public MetaCategory<? super Science> category() {
+        public IMetaCategory<? super Science> category() {
             return Skill.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  270;
         }
 
         @Override
@@ -213,8 +198,19 @@ public class Science
         }
 
         @Override
-        public Collection<Science> items() {
-            return (load().values());
+        public synchronized Map<String, Science> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Science.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Science> items;
         }
     }
 }

@@ -19,7 +19,7 @@ public class Muta1MN extends MutaplasmidFamily {
 
 	protected Muta1MN() {
 		super(
-				PropulsionModule.load().values().stream()
+				PropulsionModule.METAGROUP.load().values().stream()
 				.filter(pm -> pm.name.contains("1MN ") && !pm.name.contains("Civilian")),
 				DATATABLE);
 	}

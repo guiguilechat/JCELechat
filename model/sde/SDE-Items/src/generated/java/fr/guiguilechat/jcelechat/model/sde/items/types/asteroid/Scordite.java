@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -38,8 +38,6 @@ public class Scordite
     @DefaultIntValue(0)
     public int CompressionTypeID;
     public final static Scordite.MetaGroup METAGROUP = new Scordite.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/asteroid/Scordite.yaml";
-    private static Map<String, Scordite> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -64,37 +62,24 @@ public class Scordite
     }
 
     @Override
-    public int getGroupId() {
-        return  460;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Scordite> getGroup() {
+    public IMetaGroup<Scordite> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Scordite> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Scordite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Scordite> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Scordite>
+        implements IMetaGroup<Scordite>
     {
+        public final static String RESOURCE_PATH = "SDE/items/asteroid/Scordite.yaml";
+        private Map<String, Scordite> cache = (null);
 
         @Override
-        public MetaCategory<? super Scordite> category() {
+        public IMetaCategory<? super Scordite> category() {
             return Asteroid.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  460;
         }
 
         @Override
@@ -103,8 +88,19 @@ public class Scordite
         }
 
         @Override
-        public Collection<Scordite> items() {
-            return (load().values());
+        public synchronized Map<String, Scordite> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Scordite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Scordite> items;
         }
     }
 }

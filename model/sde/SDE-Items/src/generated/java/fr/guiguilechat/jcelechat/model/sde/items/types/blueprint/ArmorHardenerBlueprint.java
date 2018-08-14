@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class ArmorHardenerBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static ArmorHardenerBlueprint.MetaGroup METAGROUP = new ArmorHardenerBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ArmorHardenerBlueprint.yaml";
-    private static Map<String, ArmorHardenerBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class ArmorHardenerBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  348;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArmorHardenerBlueprint> getGroup() {
+    public IMetaGroup<ArmorHardenerBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ArmorHardenerBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ArmorHardenerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ArmorHardenerBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArmorHardenerBlueprint>
+        implements IMetaGroup<ArmorHardenerBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ArmorHardenerBlueprint.yaml";
+        private Map<String, ArmorHardenerBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ArmorHardenerBlueprint> category() {
+        public IMetaCategory<? super ArmorHardenerBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  348;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class ArmorHardenerBlueprint
         }
 
         @Override
-        public Collection<ArmorHardenerBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ArmorHardenerBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ArmorHardenerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ArmorHardenerBlueprint> items;
         }
     }
 }

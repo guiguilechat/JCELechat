@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.specialeditionassets;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class SpecialEditionCommodities
     @DefaultDoubleValue(1.0)
     public double CpuMultiplier;
     public final static SpecialEditionCommodities.MetaGroup METAGROUP = new SpecialEditionCommodities.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/SpecialEditionCommodities.yaml";
-    private static Map<String, SpecialEditionCommodities> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class SpecialEditionCommodities
     }
 
     @Override
-    public int getGroupId() {
-        return  1194;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SpecialEditionCommodities> getGroup() {
+    public IMetaGroup<SpecialEditionCommodities> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, SpecialEditionCommodities> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(SpecialEditionCommodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, SpecialEditionCommodities> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SpecialEditionCommodities>
+        implements IMetaGroup<SpecialEditionCommodities>
     {
+        public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/SpecialEditionCommodities.yaml";
+        private Map<String, SpecialEditionCommodities> cache = (null);
 
         @Override
-        public MetaCategory<? super SpecialEditionCommodities> category() {
+        public IMetaCategory<? super SpecialEditionCommodities> category() {
             return SpecialEditionAssets.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1194;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class SpecialEditionCommodities
         }
 
         @Override
-        public Collection<SpecialEditionCommodities> items() {
-            return (load().values());
+        public synchronized Map<String, SpecialEditionCommodities> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(SpecialEditionCommodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, SpecialEditionCommodities> items;
         }
     }
 }

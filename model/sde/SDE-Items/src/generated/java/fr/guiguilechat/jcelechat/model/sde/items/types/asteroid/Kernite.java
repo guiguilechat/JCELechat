@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -38,8 +38,6 @@ public class Kernite
     @DefaultIntValue(0)
     public int CompressionTypeID;
     public final static Kernite.MetaGroup METAGROUP = new Kernite.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/asteroid/Kernite.yaml";
-    private static Map<String, Kernite> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -64,37 +62,24 @@ public class Kernite
     }
 
     @Override
-    public int getGroupId() {
-        return  457;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Kernite> getGroup() {
+    public IMetaGroup<Kernite> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Kernite> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Kernite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Kernite> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Kernite>
+        implements IMetaGroup<Kernite>
     {
+        public final static String RESOURCE_PATH = "SDE/items/asteroid/Kernite.yaml";
+        private Map<String, Kernite> cache = (null);
 
         @Override
-        public MetaCategory<? super Kernite> category() {
+        public IMetaCategory<? super Kernite> category() {
             return Asteroid.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  457;
         }
 
         @Override
@@ -103,8 +88,19 @@ public class Kernite
         }
 
         @Override
-        public Collection<Kernite> items() {
-            return (load().values());
+        public synchronized Map<String, Kernite> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Kernite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Kernite> items;
         }
     }
 }

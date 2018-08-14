@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -292,8 +292,6 @@ public class Battleship
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
     public final static Battleship.MetaGroup METAGROUP = new Battleship.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/ship/Battleship.yaml";
-    private static Map<String, Battleship> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -458,37 +456,24 @@ public class Battleship
     }
 
     @Override
-    public int getGroupId() {
-        return  27;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Battleship> getGroup() {
+    public IMetaGroup<Battleship> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Battleship> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Battleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Battleship> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Battleship>
+        implements IMetaGroup<Battleship>
     {
+        public final static String RESOURCE_PATH = "SDE/items/ship/Battleship.yaml";
+        private Map<String, Battleship> cache = (null);
 
         @Override
-        public MetaCategory<? super Battleship> category() {
+        public IMetaCategory<? super Battleship> category() {
             return Ship.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  27;
         }
 
         @Override
@@ -497,8 +482,19 @@ public class Battleship
         }
 
         @Override
-        public Collection<Battleship> items() {
-            return (load().values());
+        public synchronized Map<String, Battleship> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Battleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Battleship> items;
         }
     }
 }

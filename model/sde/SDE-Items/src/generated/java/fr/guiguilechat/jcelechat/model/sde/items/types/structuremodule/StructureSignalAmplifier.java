@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -104,8 +104,6 @@ public class StructureSignalAmplifier
     @DefaultIntValue(1)
     public int TechLevel;
     public final static StructureSignalAmplifier.MetaGroup METAGROUP = new StructureSignalAmplifier.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureSignalAmplifier.yaml";
-    private static Map<String, StructureSignalAmplifier> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -166,37 +164,24 @@ public class StructureSignalAmplifier
     }
 
     @Override
-    public int getGroupId() {
-        return  1535;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureSignalAmplifier> getGroup() {
+    public IMetaGroup<StructureSignalAmplifier> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureSignalAmplifier> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureSignalAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureSignalAmplifier> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureSignalAmplifier>
+        implements IMetaGroup<StructureSignalAmplifier>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureSignalAmplifier.yaml";
+        private Map<String, StructureSignalAmplifier> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureSignalAmplifier> category() {
+        public IMetaCategory<? super StructureSignalAmplifier> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1535;
         }
 
         @Override
@@ -205,8 +190,19 @@ public class StructureSignalAmplifier
         }
 
         @Override
-        public Collection<StructureSignalAmplifier> items() {
-            return (load().values());
+        public synchronized Map<String, StructureSignalAmplifier> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureSignalAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureSignalAmplifier> items;
         }
     }
 }

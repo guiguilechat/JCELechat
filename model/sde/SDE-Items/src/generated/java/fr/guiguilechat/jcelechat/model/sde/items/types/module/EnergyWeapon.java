@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -250,8 +250,6 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static EnergyWeapon.MetaGroup METAGROUP = new EnergyWeapon.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/EnergyWeapon.yaml";
-    private static Map<String, EnergyWeapon> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -392,37 +390,24 @@ public class EnergyWeapon
     }
 
     @Override
-    public int getGroupId() {
-        return  53;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyWeapon> getGroup() {
+    public IMetaGroup<EnergyWeapon> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, EnergyWeapon> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(EnergyWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, EnergyWeapon> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyWeapon>
+        implements IMetaGroup<EnergyWeapon>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/EnergyWeapon.yaml";
+        private Map<String, EnergyWeapon> cache = (null);
 
         @Override
-        public MetaCategory<? super EnergyWeapon> category() {
+        public IMetaCategory<? super EnergyWeapon> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  53;
         }
 
         @Override
@@ -431,8 +416,19 @@ public class EnergyWeapon
         }
 
         @Override
-        public Collection<EnergyWeapon> items() {
-            return (load().values());
+        public synchronized Map<String, EnergyWeapon> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(EnergyWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, EnergyWeapon> items;
         }
     }
 }

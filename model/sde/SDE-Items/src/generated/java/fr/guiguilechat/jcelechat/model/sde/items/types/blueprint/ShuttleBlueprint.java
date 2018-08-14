@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class ShuttleBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static ShuttleBlueprint.MetaGroup METAGROUP = new ShuttleBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ShuttleBlueprint.yaml";
-    private static Map<String, ShuttleBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class ShuttleBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  111;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShuttleBlueprint> getGroup() {
+    public IMetaGroup<ShuttleBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ShuttleBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ShuttleBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ShuttleBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShuttleBlueprint>
+        implements IMetaGroup<ShuttleBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShuttleBlueprint.yaml";
+        private Map<String, ShuttleBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ShuttleBlueprint> category() {
+        public IMetaCategory<? super ShuttleBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  111;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class ShuttleBlueprint
         }
 
         @Override
-        public Collection<ShuttleBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ShuttleBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ShuttleBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ShuttleBlueprint> items;
         }
     }
 }

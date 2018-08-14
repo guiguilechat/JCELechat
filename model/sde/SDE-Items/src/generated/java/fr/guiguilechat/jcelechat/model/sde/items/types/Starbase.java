@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -221,32 +220,36 @@ public abstract class Starbase
     }
 
     @Override
-    public int getCategoryId() {
-        return  23;
-    }
-
-    @Override
-    public MetaCategory<Starbase> getCategory() {
+    public IMetaCategory<Starbase> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Starbase> loadCategory() {
-        return Stream.of(AssemblyArray.load(), CompressionArray.load(), ControlTower.load(), CorporateHangarArray.load(), CynosuralGeneratorArray.load(), CynosuralSystemJammer.load(), ElectronicWarfareBattery.load(), EnergyNeutralizingBattery.load(), JumpPortalArray.load(), Laboratory.load(), MobileHybridSentry.load(), MobileLaserSentry.load(), MobileMissileSentry.load(), MobileProjectileSentry.load(), MobileReactor.load(), MoonMining.load(), PersonalHangar.load(), ReprocessingArray.load(), ScannerArray.load(), SensorDampeningBattery.load(), ShieldHardeningArray.load(), ShipMaintenanceArray.load(), Silo.load(), StasisWebificationBattery.load(), TrackingArray.load(), WarpScramblingBattery.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Starbase>
+        implements IMetaCategory<Starbase>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Starbase> [] groups = new MetaGroup[] {ReprocessingArray.METAGROUP, ShipMaintenanceArray.METAGROUP, ControlTower.METAGROUP, AssemblyArray.METAGROUP, Silo.METAGROUP, Laboratory.METAGROUP, MoonMining.METAGROUP, MobileMissileSentry.METAGROUP, MobileProjectileSentry.METAGROUP, MobileLaserSentry.METAGROUP, MobileReactor.METAGROUP, ElectronicWarfareBattery.METAGROUP, SensorDampeningBattery.METAGROUP, StasisWebificationBattery.METAGROUP, WarpScramblingBattery.METAGROUP, ShieldHardeningArray.METAGROUP, MobileHybridSentry.METAGROUP, CorporateHangarArray.METAGROUP, TrackingArray.METAGROUP, JumpPortalArray.METAGROUP, ScannerArray.METAGROUP, EnergyNeutralizingBattery.METAGROUP, CynosuralGeneratorArray.METAGROUP, CynosuralSystemJammer.METAGROUP, PersonalHangar.METAGROUP, CompressionArray.METAGROUP };
+        private final static IMetaGroup<? extends Starbase> [] groups = new IMetaGroup[] {ReprocessingArray.METAGROUP, ShipMaintenanceArray.METAGROUP, ControlTower.METAGROUP, AssemblyArray.METAGROUP, Silo.METAGROUP, Laboratory.METAGROUP, MoonMining.METAGROUP, MobileMissileSentry.METAGROUP, MobileProjectileSentry.METAGROUP, MobileLaserSentry.METAGROUP, MobileReactor.METAGROUP, ElectronicWarfareBattery.METAGROUP, SensorDampeningBattery.METAGROUP, StasisWebificationBattery.METAGROUP, WarpScramblingBattery.METAGROUP, ShieldHardeningArray.METAGROUP, MobileHybridSentry.METAGROUP, CorporateHangarArray.METAGROUP, TrackingArray.METAGROUP, JumpPortalArray.METAGROUP, ScannerArray.METAGROUP, EnergyNeutralizingBattery.METAGROUP, CynosuralGeneratorArray.METAGROUP, CynosuralSystemJammer.METAGROUP, PersonalHangar.METAGROUP, CompressionArray.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  23;
+        }
 
         @Override
         public String getName() {
             return "Starbase";
         }
 
-        public Collection<MetaGroup<? extends Starbase>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Starbase>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Starbase> load() {
+            HashMap<String, Starbase> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

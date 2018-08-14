@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -102,8 +102,6 @@ public class RigArmor
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static RigArmor.MetaGroup METAGROUP = new RigArmor.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/RigArmor.yaml";
-    private static Map<String, RigArmor> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -164,37 +162,24 @@ public class RigArmor
     }
 
     @Override
-    public int getGroupId() {
-        return  773;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigArmor> getGroup() {
+    public IMetaGroup<RigArmor> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RigArmor> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RigArmor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RigArmor> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigArmor>
+        implements IMetaGroup<RigArmor>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/RigArmor.yaml";
+        private Map<String, RigArmor> cache = (null);
 
         @Override
-        public MetaCategory<? super RigArmor> category() {
+        public IMetaCategory<? super RigArmor> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  773;
         }
 
         @Override
@@ -203,8 +188,19 @@ public class RigArmor
         }
 
         @Override
-        public Collection<RigArmor> items() {
-            return (load().values());
+        public synchronized Map<String, RigArmor> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RigArmor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RigArmor> items;
         }
     }
 }

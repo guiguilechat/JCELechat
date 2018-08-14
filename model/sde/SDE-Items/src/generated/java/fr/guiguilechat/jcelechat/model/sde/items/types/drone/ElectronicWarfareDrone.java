@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -284,8 +284,6 @@ public class ElectronicWarfareDrone
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
     public final static ElectronicWarfareDrone.MetaGroup METAGROUP = new ElectronicWarfareDrone.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/drone/ElectronicWarfareDrone.yaml";
-    private static Map<String, ElectronicWarfareDrone> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -450,37 +448,24 @@ public class ElectronicWarfareDrone
     }
 
     @Override
-    public int getGroupId() {
-        return  639;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ElectronicWarfareDrone> getGroup() {
+    public IMetaGroup<ElectronicWarfareDrone> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ElectronicWarfareDrone> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ElectronicWarfareDrone> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ElectronicWarfareDrone>
+        implements IMetaGroup<ElectronicWarfareDrone>
     {
+        public final static String RESOURCE_PATH = "SDE/items/drone/ElectronicWarfareDrone.yaml";
+        private Map<String, ElectronicWarfareDrone> cache = (null);
 
         @Override
-        public MetaCategory<? super ElectronicWarfareDrone> category() {
+        public IMetaCategory<? super ElectronicWarfareDrone> category() {
             return Drone.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  639;
         }
 
         @Override
@@ -489,8 +474,19 @@ public class ElectronicWarfareDrone
         }
 
         @Override
-        public Collection<ElectronicWarfareDrone> items() {
-            return (load().values());
+        public synchronized Map<String, ElectronicWarfareDrone> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ElectronicWarfareDrone> items;
         }
     }
 }

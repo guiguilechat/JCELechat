@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class SurveyScannerBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static SurveyScannerBlueprint.MetaGroup METAGROUP = new SurveyScannerBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/SurveyScannerBlueprint.yaml";
-    private static Map<String, SurveyScannerBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class SurveyScannerBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  129;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SurveyScannerBlueprint> getGroup() {
+    public IMetaGroup<SurveyScannerBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, SurveyScannerBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(SurveyScannerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, SurveyScannerBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SurveyScannerBlueprint>
+        implements IMetaGroup<SurveyScannerBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/SurveyScannerBlueprint.yaml";
+        private Map<String, SurveyScannerBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super SurveyScannerBlueprint> category() {
+        public IMetaCategory<? super SurveyScannerBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  129;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class SurveyScannerBlueprint
         }
 
         @Override
-        public Collection<SurveyScannerBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, SurveyScannerBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(SurveyScannerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, SurveyScannerBlueprint> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -160,8 +160,6 @@ public class StructureStasisWebifier
     @DefaultIntValue(1)
     public int TechLevel;
     public final static StructureStasisWebifier.MetaGroup METAGROUP = new StructureStasisWebifier.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
-    private static Map<String, StructureStasisWebifier> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -254,37 +252,24 @@ public class StructureStasisWebifier
     }
 
     @Override
-    public int getGroupId() {
-        return  1441;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureStasisWebifier> getGroup() {
+    public IMetaGroup<StructureStasisWebifier> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureStasisWebifier> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureStasisWebifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureStasisWebifier> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureStasisWebifier>
+        implements IMetaGroup<StructureStasisWebifier>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
+        private Map<String, StructureStasisWebifier> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureStasisWebifier> category() {
+        public IMetaCategory<? super StructureStasisWebifier> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1441;
         }
 
         @Override
@@ -293,8 +278,19 @@ public class StructureStasisWebifier
         }
 
         @Override
-        public Collection<StructureStasisWebifier> items() {
-            return (load().values());
+        public synchronized Map<String, StructureStasisWebifier> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureStasisWebifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureStasisWebifier> items;
         }
     }
 }

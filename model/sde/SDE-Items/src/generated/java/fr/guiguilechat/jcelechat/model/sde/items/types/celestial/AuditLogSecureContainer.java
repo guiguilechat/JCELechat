@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -58,8 +58,6 @@ public class AuditLogSecureContainer
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     public final static AuditLogSecureContainer.MetaGroup METAGROUP = new AuditLogSecureContainer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/celestial/AuditLogSecureContainer.yaml";
-    private static Map<String, AuditLogSecureContainer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -92,37 +90,24 @@ public class AuditLogSecureContainer
     }
 
     @Override
-    public int getGroupId() {
-        return  448;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuditLogSecureContainer> getGroup() {
+    public IMetaGroup<AuditLogSecureContainer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, AuditLogSecureContainer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(AuditLogSecureContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, AuditLogSecureContainer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuditLogSecureContainer>
+        implements IMetaGroup<AuditLogSecureContainer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/celestial/AuditLogSecureContainer.yaml";
+        private Map<String, AuditLogSecureContainer> cache = (null);
 
         @Override
-        public MetaCategory<? super AuditLogSecureContainer> category() {
+        public IMetaCategory<? super AuditLogSecureContainer> category() {
             return Celestial.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  448;
         }
 
         @Override
@@ -131,8 +116,19 @@ public class AuditLogSecureContainer
         }
 
         @Override
-        public Collection<AuditLogSecureContainer> items() {
-            return (load().values());
+        public synchronized Map<String, AuditLogSecureContainer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(AuditLogSecureContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, AuditLogSecureContainer> items;
         }
     }
 }

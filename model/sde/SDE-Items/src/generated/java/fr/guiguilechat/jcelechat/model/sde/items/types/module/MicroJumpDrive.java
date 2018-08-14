@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -137,8 +137,6 @@ public class MicroJumpDrive
     @DefaultIntValue(0)
     public int SignatureRadiusBonusPercent;
     public final static MicroJumpDrive.MetaGroup METAGROUP = new MicroJumpDrive.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/MicroJumpDrive.yaml";
-    private static Map<String, MicroJumpDrive> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -219,37 +217,24 @@ public class MicroJumpDrive
     }
 
     @Override
-    public int getGroupId() {
-        return  1189;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MicroJumpDrive> getGroup() {
+    public IMetaGroup<MicroJumpDrive> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, MicroJumpDrive> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(MicroJumpDrive.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, MicroJumpDrive> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MicroJumpDrive>
+        implements IMetaGroup<MicroJumpDrive>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/MicroJumpDrive.yaml";
+        private Map<String, MicroJumpDrive> cache = (null);
 
         @Override
-        public MetaCategory<? super MicroJumpDrive> category() {
+        public IMetaCategory<? super MicroJumpDrive> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1189;
         }
 
         @Override
@@ -258,8 +243,19 @@ public class MicroJumpDrive
         }
 
         @Override
-        public Collection<MicroJumpDrive> items() {
-            return (load().values());
+        public synchronized Map<String, MicroJumpDrive> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(MicroJumpDrive.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, MicroJumpDrive> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -75,8 +75,6 @@ public class MagneticFieldStabilizer
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
     public final static MagneticFieldStabilizer.MetaGroup METAGROUP = new MagneticFieldStabilizer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/MagneticFieldStabilizer.yaml";
-    private static Map<String, MagneticFieldStabilizer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -117,37 +115,24 @@ public class MagneticFieldStabilizer
     }
 
     @Override
-    public int getGroupId() {
-        return  302;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MagneticFieldStabilizer> getGroup() {
+    public IMetaGroup<MagneticFieldStabilizer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, MagneticFieldStabilizer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(MagneticFieldStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, MagneticFieldStabilizer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MagneticFieldStabilizer>
+        implements IMetaGroup<MagneticFieldStabilizer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/MagneticFieldStabilizer.yaml";
+        private Map<String, MagneticFieldStabilizer> cache = (null);
 
         @Override
-        public MetaCategory<? super MagneticFieldStabilizer> category() {
+        public IMetaCategory<? super MagneticFieldStabilizer> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  302;
         }
 
         @Override
@@ -156,8 +141,19 @@ public class MagneticFieldStabilizer
         }
 
         @Override
-        public Collection<MagneticFieldStabilizer> items() {
-            return (load().values());
+        public synchronized Map<String, MagneticFieldStabilizer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(MagneticFieldStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, MagneticFieldStabilizer> items;
         }
     }
 }

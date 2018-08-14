@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Apparel;
 import org.yaml.snakeyaml.Yaml;
 
@@ -13,41 +13,26 @@ public class Tops
     extends Apparel
 {
     public final static Tops.MetaGroup METAGROUP = new Tops.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/apparel/Tops.yaml";
-    private static Map<String, Tops> cache = (null);
 
     @Override
-    public int getGroupId() {
-        return  1089;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Tops> getGroup() {
+    public IMetaGroup<Tops> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Tops> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Tops.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Tops> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Tops>
+        implements IMetaGroup<Tops>
     {
+        public final static String RESOURCE_PATH = "SDE/items/apparel/Tops.yaml";
+        private Map<String, Tops> cache = (null);
 
         @Override
-        public MetaCategory<? super Tops> category() {
+        public IMetaCategory<? super Tops> category() {
             return Apparel.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1089;
         }
 
         @Override
@@ -56,8 +41,19 @@ public class Tops
         }
 
         @Override
-        public Collection<Tops> items() {
-            return (load().values());
+        public synchronized Map<String, Tops> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Tops.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Tops> items;
         }
     }
 }

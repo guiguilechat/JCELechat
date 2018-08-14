@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -109,8 +109,6 @@ public class Gunnery
     @DefaultIntValue(0)
     public int TurretSpeeBonus;
     public final static Gunnery.MetaGroup METAGROUP = new Gunnery.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/skill/Gunnery.yaml";
-    private static Map<String, Gunnery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -175,37 +173,24 @@ public class Gunnery
     }
 
     @Override
-    public int getGroupId() {
-        return  255;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Gunnery> getGroup() {
+    public IMetaGroup<Gunnery> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Gunnery> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Gunnery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Gunnery> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Gunnery>
+        implements IMetaGroup<Gunnery>
     {
+        public final static String RESOURCE_PATH = "SDE/items/skill/Gunnery.yaml";
+        private Map<String, Gunnery> cache = (null);
 
         @Override
-        public MetaCategory<? super Gunnery> category() {
+        public IMetaCategory<? super Gunnery> category() {
             return Skill.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  255;
         }
 
         @Override
@@ -214,8 +199,19 @@ public class Gunnery
         }
 
         @Override
-        public Collection<Gunnery> items() {
-            return (load().values());
+        public synchronized Map<String, Gunnery> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Gunnery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Gunnery> items;
         }
     }
 }

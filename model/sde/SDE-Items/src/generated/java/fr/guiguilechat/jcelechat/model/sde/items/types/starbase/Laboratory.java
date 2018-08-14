@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -81,8 +81,6 @@ public class Laboratory
     @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     public final static Laboratory.MetaGroup METAGROUP = new Laboratory.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/Laboratory.yaml";
-    private static Map<String, Laboratory> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -131,37 +129,24 @@ public class Laboratory
     }
 
     @Override
-    public int getGroupId() {
-        return  413;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Laboratory> getGroup() {
+    public IMetaGroup<Laboratory> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Laboratory> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Laboratory.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Laboratory> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Laboratory>
+        implements IMetaGroup<Laboratory>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/Laboratory.yaml";
+        private Map<String, Laboratory> cache = (null);
 
         @Override
-        public MetaCategory<? super Laboratory> category() {
+        public IMetaCategory<? super Laboratory> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  413;
         }
 
         @Override
@@ -170,8 +155,19 @@ public class Laboratory
         }
 
         @Override
-        public Collection<Laboratory> items() {
-            return (load().values());
+        public synchronized Map<String, Laboratory> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Laboratory.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Laboratory> items;
         }
     }
 }

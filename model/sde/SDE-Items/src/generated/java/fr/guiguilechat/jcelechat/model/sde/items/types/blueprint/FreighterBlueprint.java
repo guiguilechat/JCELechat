@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class FreighterBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static FreighterBlueprint.MetaGroup METAGROUP = new FreighterBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/FreighterBlueprint.yaml";
-    private static Map<String, FreighterBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class FreighterBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  525;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FreighterBlueprint> getGroup() {
+    public IMetaGroup<FreighterBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, FreighterBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(FreighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, FreighterBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FreighterBlueprint>
+        implements IMetaGroup<FreighterBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/FreighterBlueprint.yaml";
+        private Map<String, FreighterBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super FreighterBlueprint> category() {
+        public IMetaCategory<? super FreighterBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  525;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class FreighterBlueprint
         }
 
         @Override
-        public Collection<FreighterBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, FreighterBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(FreighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, FreighterBlueprint> items;
         }
     }
 }

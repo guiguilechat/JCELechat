@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -108,8 +108,6 @@ public class ShieldCommandBurstCharges
     @DefaultIntValue(0)
     public int WarfareBuff4Multiplier;
     public final static ShieldCommandBurstCharges.MetaGroup METAGROUP = new ShieldCommandBurstCharges.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/charge/ShieldCommandBurstCharges.yaml";
-    private static Map<String, ShieldCommandBurstCharges> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -174,37 +172,24 @@ public class ShieldCommandBurstCharges
     }
 
     @Override
-    public int getGroupId() {
-        return  1769;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldCommandBurstCharges> getGroup() {
+    public IMetaGroup<ShieldCommandBurstCharges> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ShieldCommandBurstCharges> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ShieldCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ShieldCommandBurstCharges> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldCommandBurstCharges>
+        implements IMetaGroup<ShieldCommandBurstCharges>
     {
+        public final static String RESOURCE_PATH = "SDE/items/charge/ShieldCommandBurstCharges.yaml";
+        private Map<String, ShieldCommandBurstCharges> cache = (null);
 
         @Override
-        public MetaCategory<? super ShieldCommandBurstCharges> category() {
+        public IMetaCategory<? super ShieldCommandBurstCharges> category() {
             return Charge.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1769;
         }
 
         @Override
@@ -213,8 +198,19 @@ public class ShieldCommandBurstCharges
         }
 
         @Override
-        public Collection<ShieldCommandBurstCharges> items() {
-            return (load().values());
+        public synchronized Map<String, ShieldCommandBurstCharges> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ShieldCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ShieldCommandBurstCharges> items;
         }
     }
 }

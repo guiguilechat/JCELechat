@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -257,8 +257,6 @@ public class ElectronicWarfareBattery
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static ElectronicWarfareBattery.MetaGroup METAGROUP = new ElectronicWarfareBattery.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/ElectronicWarfareBattery.yaml";
-    private static Map<String, ElectronicWarfareBattery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -403,37 +401,24 @@ public class ElectronicWarfareBattery
     }
 
     @Override
-    public int getGroupId() {
-        return  439;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ElectronicWarfareBattery> getGroup() {
+    public IMetaGroup<ElectronicWarfareBattery> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ElectronicWarfareBattery> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ElectronicWarfareBattery> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ElectronicWarfareBattery>
+        implements IMetaGroup<ElectronicWarfareBattery>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/ElectronicWarfareBattery.yaml";
+        private Map<String, ElectronicWarfareBattery> cache = (null);
 
         @Override
-        public MetaCategory<? super ElectronicWarfareBattery> category() {
+        public IMetaCategory<? super ElectronicWarfareBattery> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  439;
         }
 
         @Override
@@ -442,8 +427,19 @@ public class ElectronicWarfareBattery
         }
 
         @Override
-        public Collection<ElectronicWarfareBattery> items() {
-            return (load().values());
+        public synchronized Map<String, ElectronicWarfareBattery> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ElectronicWarfareBattery> items;
         }
     }
 }

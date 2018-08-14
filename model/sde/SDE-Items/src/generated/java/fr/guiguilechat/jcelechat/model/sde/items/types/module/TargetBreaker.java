@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -130,8 +130,6 @@ public class TargetBreaker
     @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
     public final static TargetBreaker.MetaGroup METAGROUP = new TargetBreaker.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/TargetBreaker.yaml";
-    private static Map<String, TargetBreaker> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -208,37 +206,24 @@ public class TargetBreaker
     }
 
     @Override
-    public int getGroupId() {
-        return  1154;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TargetBreaker> getGroup() {
+    public IMetaGroup<TargetBreaker> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, TargetBreaker> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(TargetBreaker.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, TargetBreaker> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TargetBreaker>
+        implements IMetaGroup<TargetBreaker>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/TargetBreaker.yaml";
+        private Map<String, TargetBreaker> cache = (null);
 
         @Override
-        public MetaCategory<? super TargetBreaker> category() {
+        public IMetaCategory<? super TargetBreaker> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1154;
         }
 
         @Override
@@ -247,8 +232,19 @@ public class TargetBreaker
         }
 
         @Override
-        public Collection<TargetBreaker> items() {
-            return (load().values());
+        public synchronized Map<String, TargetBreaker> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(TargetBreaker.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, TargetBreaker> items;
         }
     }
 }

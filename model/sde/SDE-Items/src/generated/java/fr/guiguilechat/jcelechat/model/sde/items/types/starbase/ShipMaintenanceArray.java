@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -88,8 +88,6 @@ public class ShipMaintenanceArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static ShipMaintenanceArray.MetaGroup METAGROUP = new ShipMaintenanceArray.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/ShipMaintenanceArray.yaml";
-    private static Map<String, ShipMaintenanceArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -142,37 +140,24 @@ public class ShipMaintenanceArray
     }
 
     @Override
-    public int getGroupId() {
-        return  363;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShipMaintenanceArray> getGroup() {
+    public IMetaGroup<ShipMaintenanceArray> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ShipMaintenanceArray> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ShipMaintenanceArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ShipMaintenanceArray> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShipMaintenanceArray>
+        implements IMetaGroup<ShipMaintenanceArray>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/ShipMaintenanceArray.yaml";
+        private Map<String, ShipMaintenanceArray> cache = (null);
 
         @Override
-        public MetaCategory<? super ShipMaintenanceArray> category() {
+        public IMetaCategory<? super ShipMaintenanceArray> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  363;
         }
 
         @Override
@@ -181,8 +166,19 @@ public class ShipMaintenanceArray
         }
 
         @Override
-        public Collection<ShipMaintenanceArray> items() {
-            return (load().values());
+        public synchronized Map<String, ShipMaintenanceArray> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ShipMaintenanceArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ShipMaintenanceArray> items;
         }
     }
 }

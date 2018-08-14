@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -173,8 +173,6 @@ public class FlexArmorHardener
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
     public final static FlexArmorHardener.MetaGroup METAGROUP = new FlexArmorHardener.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/FlexArmorHardener.yaml";
-    private static Map<String, FlexArmorHardener> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -271,37 +269,24 @@ public class FlexArmorHardener
     }
 
     @Override
-    public int getGroupId() {
-        return  1699;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FlexArmorHardener> getGroup() {
+    public IMetaGroup<FlexArmorHardener> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, FlexArmorHardener> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(FlexArmorHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, FlexArmorHardener> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FlexArmorHardener>
+        implements IMetaGroup<FlexArmorHardener>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/FlexArmorHardener.yaml";
+        private Map<String, FlexArmorHardener> cache = (null);
 
         @Override
-        public MetaCategory<? super FlexArmorHardener> category() {
+        public IMetaCategory<? super FlexArmorHardener> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1699;
         }
 
         @Override
@@ -310,8 +295,19 @@ public class FlexArmorHardener
         }
 
         @Override
-        public Collection<FlexArmorHardener> items() {
-            return (load().values());
+        public synchronized Map<String, FlexArmorHardener> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(FlexArmorHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, FlexArmorHardener> items;
         }
     }
 }

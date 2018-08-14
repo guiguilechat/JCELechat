@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class ElectronicWarfareDroneBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static ElectronicWarfareDroneBlueprint.MetaGroup METAGROUP = new ElectronicWarfareDroneBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ElectronicWarfareDroneBlueprint.yaml";
-    private static Map<String, ElectronicWarfareDroneBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class ElectronicWarfareDroneBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  1143;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ElectronicWarfareDroneBlueprint> getGroup() {
+    public IMetaGroup<ElectronicWarfareDroneBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ElectronicWarfareDroneBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareDroneBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ElectronicWarfareDroneBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ElectronicWarfareDroneBlueprint>
+        implements IMetaGroup<ElectronicWarfareDroneBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ElectronicWarfareDroneBlueprint.yaml";
+        private Map<String, ElectronicWarfareDroneBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ElectronicWarfareDroneBlueprint> category() {
+        public IMetaCategory<? super ElectronicWarfareDroneBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1143;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class ElectronicWarfareDroneBlueprint
         }
 
         @Override
-        public Collection<ElectronicWarfareDroneBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ElectronicWarfareDroneBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareDroneBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ElectronicWarfareDroneBlueprint> items;
         }
     }
 }

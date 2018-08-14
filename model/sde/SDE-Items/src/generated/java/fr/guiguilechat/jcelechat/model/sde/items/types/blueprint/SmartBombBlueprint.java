@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class SmartBombBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static SmartBombBlueprint.MetaGroup METAGROUP = new SmartBombBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/SmartBombBlueprint.yaml";
-    private static Map<String, SmartBombBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class SmartBombBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  152;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SmartBombBlueprint> getGroup() {
+    public IMetaGroup<SmartBombBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, SmartBombBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(SmartBombBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, SmartBombBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SmartBombBlueprint>
+        implements IMetaGroup<SmartBombBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/SmartBombBlueprint.yaml";
+        private Map<String, SmartBombBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super SmartBombBlueprint> category() {
+        public IMetaCategory<? super SmartBombBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  152;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class SmartBombBlueprint
         }
 
         @Override
-        public Collection<SmartBombBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, SmartBombBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(SmartBombBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, SmartBombBlueprint> items;
         }
     }
 }

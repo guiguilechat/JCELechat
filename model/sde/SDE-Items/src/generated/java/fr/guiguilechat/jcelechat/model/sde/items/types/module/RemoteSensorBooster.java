@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -194,8 +194,6 @@ public class RemoteSensorBooster
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     public final static RemoteSensorBooster.MetaGroup METAGROUP = new RemoteSensorBooster.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/RemoteSensorBooster.yaml";
-    private static Map<String, RemoteSensorBooster> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -304,37 +302,24 @@ public class RemoteSensorBooster
     }
 
     @Override
-    public int getGroupId() {
-        return  290;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteSensorBooster> getGroup() {
+    public IMetaGroup<RemoteSensorBooster> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, RemoteSensorBooster> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(RemoteSensorBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, RemoteSensorBooster> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteSensorBooster>
+        implements IMetaGroup<RemoteSensorBooster>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/RemoteSensorBooster.yaml";
+        private Map<String, RemoteSensorBooster> cache = (null);
 
         @Override
-        public MetaCategory<? super RemoteSensorBooster> category() {
+        public IMetaCategory<? super RemoteSensorBooster> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  290;
         }
 
         @Override
@@ -343,8 +328,19 @@ public class RemoteSensorBooster
         }
 
         @Override
-        public Collection<RemoteSensorBooster> items() {
-            return (load().values());
+        public synchronized Map<String, RemoteSensorBooster> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(RemoteSensorBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, RemoteSensorBooster> items;
         }
     }
 }

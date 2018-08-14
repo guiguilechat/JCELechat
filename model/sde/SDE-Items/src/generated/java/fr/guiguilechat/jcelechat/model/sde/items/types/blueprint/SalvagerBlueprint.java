@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class SalvagerBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static SalvagerBlueprint.MetaGroup METAGROUP = new SalvagerBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/SalvagerBlueprint.yaml";
-    private static Map<String, SalvagerBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class SalvagerBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  1123;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SalvagerBlueprint> getGroup() {
+    public IMetaGroup<SalvagerBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, SalvagerBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(SalvagerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, SalvagerBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SalvagerBlueprint>
+        implements IMetaGroup<SalvagerBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/SalvagerBlueprint.yaml";
+        private Map<String, SalvagerBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super SalvagerBlueprint> category() {
+        public IMetaCategory<? super SalvagerBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1123;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class SalvagerBlueprint
         }
 
         @Override
-        public Collection<SalvagerBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, SalvagerBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(SalvagerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, SalvagerBlueprint> items;
         }
     }
 }

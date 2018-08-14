@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -48,8 +48,6 @@ public class DamageControlBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static DamageControlBlueprint.MetaGroup METAGROUP = new DamageControlBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/DamageControlBlueprint.yaml";
-    private static Map<String, DamageControlBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -74,37 +72,24 @@ public class DamageControlBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  140;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DamageControlBlueprint> getGroup() {
+    public IMetaGroup<DamageControlBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, DamageControlBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(DamageControlBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, DamageControlBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DamageControlBlueprint>
+        implements IMetaGroup<DamageControlBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/DamageControlBlueprint.yaml";
+        private Map<String, DamageControlBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super DamageControlBlueprint> category() {
+        public IMetaCategory<? super DamageControlBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  140;
         }
 
         @Override
@@ -113,8 +98,19 @@ public class DamageControlBlueprint
         }
 
         @Override
-        public Collection<DamageControlBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, DamageControlBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(DamageControlBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, DamageControlBlueprint> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class ScanProbeLauncherBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static ScanProbeLauncherBlueprint.MetaGroup METAGROUP = new ScanProbeLauncherBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanProbeLauncherBlueprint.yaml";
-    private static Map<String, ScanProbeLauncherBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class ScanProbeLauncherBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  918;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanProbeLauncherBlueprint> getGroup() {
+    public IMetaGroup<ScanProbeLauncherBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ScanProbeLauncherBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ScanProbeLauncherBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ScanProbeLauncherBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanProbeLauncherBlueprint>
+        implements IMetaGroup<ScanProbeLauncherBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanProbeLauncherBlueprint.yaml";
+        private Map<String, ScanProbeLauncherBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ScanProbeLauncherBlueprint> category() {
+        public IMetaCategory<? super ScanProbeLauncherBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  918;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class ScanProbeLauncherBlueprint
         }
 
         @Override
-        public Collection<ScanProbeLauncherBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ScanProbeLauncherBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ScanProbeLauncherBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ScanProbeLauncherBlueprint> items;
         }
     }
 }

@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -24,8 +24,6 @@ public class StarbaseMissileBatteryBlueprints
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static StarbaseMissileBatteryBlueprints.MetaGroup METAGROUP = new StarbaseMissileBatteryBlueprints.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseMissileBatteryBlueprints.yaml";
-    private static Map<String, StarbaseMissileBatteryBlueprints> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -42,37 +40,24 @@ public class StarbaseMissileBatteryBlueprints
     }
 
     @Override
-    public int getGroupId() {
-        return  871;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseMissileBatteryBlueprints> getGroup() {
+    public IMetaGroup<StarbaseMissileBatteryBlueprints> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StarbaseMissileBatteryBlueprints> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StarbaseMissileBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StarbaseMissileBatteryBlueprints> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseMissileBatteryBlueprints>
+        implements IMetaGroup<StarbaseMissileBatteryBlueprints>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseMissileBatteryBlueprints.yaml";
+        private Map<String, StarbaseMissileBatteryBlueprints> cache = (null);
 
         @Override
-        public MetaCategory<? super StarbaseMissileBatteryBlueprints> category() {
+        public IMetaCategory<? super StarbaseMissileBatteryBlueprints> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  871;
         }
 
         @Override
@@ -81,8 +66,19 @@ public class StarbaseMissileBatteryBlueprints
         }
 
         @Override
-        public Collection<StarbaseMissileBatteryBlueprints> items() {
-            return (load().values());
+        public synchronized Map<String, StarbaseMissileBatteryBlueprints> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StarbaseMissileBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StarbaseMissileBatteryBlueprints> items;
         }
     }
 }

@@ -2,13 +2,12 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -53,32 +52,36 @@ public abstract class Apparel
     }
 
     @Override
-    public int getCategoryId() {
-        return  30;
-    }
-
-    @Override
-    public MetaCategory<Apparel> getCategory() {
+    public IMetaCategory<Apparel> getCategory() {
         return METACAT;
     }
 
-    public static Map<String, ? extends Apparel> loadCategory() {
-        return Stream.of(Augmentations.load(), Bottoms.load(), Eyewear.load(), Footwear.load(), Headwear.load(), Outer.load(), Prosthetics.load(), Tattoos.load(), Tops.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
     public static class MetaCat
-        implements MetaCategory<Apparel>
+        implements IMetaCategory<Apparel>
     {
         @SuppressWarnings("unchecked")
-        private final static MetaGroup<? extends Apparel> [] groups = new MetaGroup[] {Eyewear.METAGROUP, Tattoos.METAGROUP, Outer.METAGROUP, Tops.METAGROUP, Bottoms.METAGROUP, Footwear.METAGROUP, Headwear.METAGROUP, Prosthetics.METAGROUP, Augmentations.METAGROUP };
+        private final static IMetaGroup<? extends Apparel> [] groups = new IMetaGroup[] {Eyewear.METAGROUP, Tattoos.METAGROUP, Outer.METAGROUP, Tops.METAGROUP, Bottoms.METAGROUP, Footwear.METAGROUP, Headwear.METAGROUP, Prosthetics.METAGROUP, Augmentations.METAGROUP };
+
+        @Override
+        public int getCategoryId() {
+            return  30;
+        }
 
         @Override
         public String getName() {
             return "Apparel";
         }
 
-        public Collection<MetaGroup<? extends Apparel>> groups() {
+        @Override
+        public Collection<IMetaGroup<? extends Apparel>> groups() {
             return Arrays.asList(groups);
+        }
+
+        @Override
+        public Map<String, Apparel> load() {
+            HashMap<String, Apparel> ret = new HashMap<>();
+            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+            return ret;
         }
     }
 }

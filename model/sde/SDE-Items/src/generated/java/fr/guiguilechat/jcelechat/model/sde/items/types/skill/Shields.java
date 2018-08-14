@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -116,8 +116,6 @@ public class Shields
     @DefaultDoubleValue(0.0)
     public double UniformityBonus;
     public final static Shields.MetaGroup METAGROUP = new Shields.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/skill/Shields.yaml";
-    private static Map<String, Shields> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -186,37 +184,24 @@ public class Shields
     }
 
     @Override
-    public int getGroupId() {
-        return  1209;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Shields> getGroup() {
+    public IMetaGroup<Shields> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Shields> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Shields.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Shields> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Shields>
+        implements IMetaGroup<Shields>
     {
+        public final static String RESOURCE_PATH = "SDE/items/skill/Shields.yaml";
+        private Map<String, Shields> cache = (null);
 
         @Override
-        public MetaCategory<? super Shields> category() {
+        public IMetaCategory<? super Shields> category() {
             return Skill.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1209;
         }
 
         @Override
@@ -225,8 +210,19 @@ public class Shields
         }
 
         @Override
-        public Collection<Shields> items() {
-            return (load().values());
+        public synchronized Map<String, Shields> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Shields.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Shields> items;
         }
     }
 }

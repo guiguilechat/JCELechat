@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -137,8 +137,6 @@ public class Drones
     @DefaultIntValue(0)
     public int SkillBonusFighterHangarSize;
     public final static Drones.MetaGroup METAGROUP = new Drones.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/skill/Drones.yaml";
-    private static Map<String, Drones> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -219,37 +217,24 @@ public class Drones
     }
 
     @Override
-    public int getGroupId() {
-        return  273;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Drones> getGroup() {
+    public IMetaGroup<Drones> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, Drones> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(Drones.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, Drones> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Drones>
+        implements IMetaGroup<Drones>
     {
+        public final static String RESOURCE_PATH = "SDE/items/skill/Drones.yaml";
+        private Map<String, Drones> cache = (null);
 
         @Override
-        public MetaCategory<? super Drones> category() {
+        public IMetaCategory<? super Drones> category() {
             return Skill.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  273;
         }
 
         @Override
@@ -258,8 +243,19 @@ public class Drones
         }
 
         @Override
-        public Collection<Drones> items() {
-            return (load().values());
+        public synchronized Map<String, Drones> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(Drones.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, Drones> items;
         }
     }
 }

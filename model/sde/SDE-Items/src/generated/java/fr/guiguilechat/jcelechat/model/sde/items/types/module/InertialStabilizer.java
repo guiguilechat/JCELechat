@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -61,8 +61,6 @@ public class InertialStabilizer
     @DefaultDoubleValue(0.0)
     public double SignatureRadiusBonus;
     public final static InertialStabilizer.MetaGroup METAGROUP = new InertialStabilizer.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/InertialStabilizer.yaml";
-    private static Map<String, InertialStabilizer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -95,37 +93,24 @@ public class InertialStabilizer
     }
 
     @Override
-    public int getGroupId() {
-        return  762;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<InertialStabilizer> getGroup() {
+    public IMetaGroup<InertialStabilizer> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, InertialStabilizer> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(InertialStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, InertialStabilizer> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<InertialStabilizer>
+        implements IMetaGroup<InertialStabilizer>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/InertialStabilizer.yaml";
+        private Map<String, InertialStabilizer> cache = (null);
 
         @Override
-        public MetaCategory<? super InertialStabilizer> category() {
+        public IMetaCategory<? super InertialStabilizer> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  762;
         }
 
         @Override
@@ -134,8 +119,19 @@ public class InertialStabilizer
         }
 
         @Override
-        public Collection<InertialStabilizer> items() {
-            return (load().values());
+        public synchronized Map<String, InertialStabilizer> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(InertialStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, InertialStabilizer> items;
         }
     }
 }

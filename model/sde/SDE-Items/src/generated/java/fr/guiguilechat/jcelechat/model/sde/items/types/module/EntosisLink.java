@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -165,8 +165,6 @@ public class EntosisLink
     @DefaultIntValue(1000000)
     public int SpeedLimit;
     public final static EntosisLink.MetaGroup METAGROUP = new EntosisLink.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/EntosisLink.yaml";
-    private static Map<String, EntosisLink> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -263,37 +261,24 @@ public class EntosisLink
     }
 
     @Override
-    public int getGroupId() {
-        return  1313;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EntosisLink> getGroup() {
+    public IMetaGroup<EntosisLink> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, EntosisLink> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(EntosisLink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, EntosisLink> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EntosisLink>
+        implements IMetaGroup<EntosisLink>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/EntosisLink.yaml";
+        private Map<String, EntosisLink> cache = (null);
 
         @Override
-        public MetaCategory<? super EntosisLink> category() {
+        public IMetaCategory<? super EntosisLink> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1313;
         }
 
         @Override
@@ -302,8 +287,19 @@ public class EntosisLink
         }
 
         @Override
-        public Collection<EntosisLink> items() {
-            return (load().values());
+        public synchronized Map<String, EntosisLink> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(EntosisLink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, EntosisLink> items;
         }
     }
 }

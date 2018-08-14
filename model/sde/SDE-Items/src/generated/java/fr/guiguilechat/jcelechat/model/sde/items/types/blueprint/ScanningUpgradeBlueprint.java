@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class ScanningUpgradeBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static ScanningUpgradeBlueprint.MetaGroup METAGROUP = new ScanningUpgradeBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanningUpgradeBlueprint.yaml";
-    private static Map<String, ScanningUpgradeBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class ScanningUpgradeBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  1224;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanningUpgradeBlueprint> getGroup() {
+    public IMetaGroup<ScanningUpgradeBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, ScanningUpgradeBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(ScanningUpgradeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, ScanningUpgradeBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanningUpgradeBlueprint>
+        implements IMetaGroup<ScanningUpgradeBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanningUpgradeBlueprint.yaml";
+        private Map<String, ScanningUpgradeBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super ScanningUpgradeBlueprint> category() {
+        public IMetaCategory<? super ScanningUpgradeBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1224;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class ScanningUpgradeBlueprint
         }
 
         @Override
-        public Collection<ScanningUpgradeBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, ScanningUpgradeBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(ScanningUpgradeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, ScanningUpgradeBlueprint> items;
         }
     }
 }

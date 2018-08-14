@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -229,8 +229,6 @@ public class WarpScramblingBattery
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
     public final static WarpScramblingBattery.MetaGroup METAGROUP = new WarpScramblingBattery.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/starbase/WarpScramblingBattery.yaml";
-    private static Map<String, WarpScramblingBattery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -359,37 +357,24 @@ public class WarpScramblingBattery
     }
 
     @Override
-    public int getGroupId() {
-        return  443;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpScramblingBattery> getGroup() {
+    public IMetaGroup<WarpScramblingBattery> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, WarpScramblingBattery> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(WarpScramblingBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, WarpScramblingBattery> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpScramblingBattery>
+        implements IMetaGroup<WarpScramblingBattery>
     {
+        public final static String RESOURCE_PATH = "SDE/items/starbase/WarpScramblingBattery.yaml";
+        private Map<String, WarpScramblingBattery> cache = (null);
 
         @Override
-        public MetaCategory<? super WarpScramblingBattery> category() {
+        public IMetaCategory<? super WarpScramblingBattery> category() {
             return Starbase.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  443;
         }
 
         @Override
@@ -398,8 +383,19 @@ public class WarpScramblingBattery
         }
 
         @Override
-        public Collection<WarpScramblingBattery> items() {
-            return (load().values());
+        public synchronized Map<String, WarpScramblingBattery> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(WarpScramblingBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, WarpScramblingBattery> items;
         }
     }
 }

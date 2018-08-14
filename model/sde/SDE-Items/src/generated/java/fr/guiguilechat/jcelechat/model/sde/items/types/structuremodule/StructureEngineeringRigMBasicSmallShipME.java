@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -159,8 +159,6 @@ public class StructureEngineeringRigMBasicSmallShipME
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static StructureEngineeringRigMBasicSmallShipME.MetaGroup METAGROUP = new StructureEngineeringRigMBasicSmallShipME.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBasicSmallShipME.yaml";
-    private static Map<String, StructureEngineeringRigMBasicSmallShipME> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -253,37 +251,24 @@ public class StructureEngineeringRigMBasicSmallShipME
     }
 
     @Override
-    public int getGroupId() {
-        return  1824;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMBasicSmallShipME> getGroup() {
+    public IMetaGroup<StructureEngineeringRigMBasicSmallShipME> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, StructureEngineeringRigMBasicSmallShipME> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMBasicSmallShipME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, StructureEngineeringRigMBasicSmallShipME> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMBasicSmallShipME>
+        implements IMetaGroup<StructureEngineeringRigMBasicSmallShipME>
     {
+        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBasicSmallShipME.yaml";
+        private Map<String, StructureEngineeringRigMBasicSmallShipME> cache = (null);
 
         @Override
-        public MetaCategory<? super StructureEngineeringRigMBasicSmallShipME> category() {
+        public IMetaCategory<? super StructureEngineeringRigMBasicSmallShipME> category() {
             return StructureModule.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1824;
         }
 
         @Override
@@ -292,8 +277,19 @@ public class StructureEngineeringRigMBasicSmallShipME
         }
 
         @Override
-        public Collection<StructureEngineeringRigMBasicSmallShipME> items() {
-            return (load().values());
+        public synchronized Map<String, StructureEngineeringRigMBasicSmallShipME> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMBasicSmallShipME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, StructureEngineeringRigMBasicSmallShipME> items;
         }
     }
 }

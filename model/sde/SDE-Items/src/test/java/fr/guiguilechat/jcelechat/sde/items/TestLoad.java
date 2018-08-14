@@ -11,7 +11,7 @@ public class TestLoad {
 
 	@Test
 	public void testLoadAtron() {
-		Frigate atron = Frigate.load().get("Atron");
+		Frigate atron = Frigate.METAGROUP.load().get("Atron");
 		Assert.assertEquals(atron.CpuOutput, 147);
 		Assert.assertEquals(atron.HiSlots, 4);
 		Assert.assertEquals(atron.Agility, 2.799999952316284);
@@ -25,8 +25,14 @@ public class TestLoad {
 	}
 
 	@Test
+	public void testLoadAtronFromFrigates() {
+		Ship atron = Frigate.METAGROUP.load().get("Atron");
+		Assert.assertEquals(atron.WarpSpeedMultiplier, 5.0);
+	}
+
+	@Test(dependsOnMethods = "testLoadAtronFromFrigates")
 	public void testLoadAtronFromShips() {
-		Ship atron = Ship.loadCategory().get("Atron");
+		Ship atron = Ship.METACAT.load().get("Atron");
 		Assert.assertEquals(atron.WarpSpeedMultiplier, 5.0);
 	}
 

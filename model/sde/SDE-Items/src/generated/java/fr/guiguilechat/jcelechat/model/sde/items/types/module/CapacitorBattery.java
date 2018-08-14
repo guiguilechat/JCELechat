@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -75,8 +75,6 @@ public class CapacitorBattery
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     public final static CapacitorBattery.MetaGroup METAGROUP = new CapacitorBattery.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/module/CapacitorBattery.yaml";
-    private static Map<String, CapacitorBattery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -117,37 +115,24 @@ public class CapacitorBattery
     }
 
     @Override
-    public int getGroupId() {
-        return  61;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorBattery> getGroup() {
+    public IMetaGroup<CapacitorBattery> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, CapacitorBattery> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(CapacitorBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, CapacitorBattery> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorBattery>
+        implements IMetaGroup<CapacitorBattery>
     {
+        public final static String RESOURCE_PATH = "SDE/items/module/CapacitorBattery.yaml";
+        private Map<String, CapacitorBattery> cache = (null);
 
         @Override
-        public MetaCategory<? super CapacitorBattery> category() {
+        public IMetaCategory<? super CapacitorBattery> category() {
             return Module.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  61;
         }
 
         @Override
@@ -156,8 +141,19 @@ public class CapacitorBattery
         }
 
         @Override
-        public Collection<CapacitorBattery> items() {
-            return (load().values());
+        public synchronized Map<String, CapacitorBattery> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(CapacitorBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, CapacitorBattery> items;
         }
     }
 }

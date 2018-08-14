@@ -1,12 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -33,8 +33,6 @@ public class LightFighterBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static LightFighterBlueprint.MetaGroup METAGROUP = new LightFighterBlueprint.MetaGroup();
-    public final static String RESOURCE_PATH = "SDE/items/blueprint/LightFighterBlueprint.yaml";
-    private static Map<String, LightFighterBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,37 +53,24 @@ public class LightFighterBlueprint
     }
 
     @Override
-    public int getGroupId() {
-        return  1146;
-    }
-
-    @Override
-    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LightFighterBlueprint> getGroup() {
+    public IMetaGroup<LightFighterBlueprint> getGroup() {
         return METAGROUP;
     }
 
-    public static synchronized Map<String, LightFighterBlueprint> load() {
-        if (cache == null) {
-            try {
-                cache = new Yaml().loadAs(new InputStreamReader(LightFighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (final Exception exception) {
-                throw new UnsupportedOperationException("catch this", exception);
-            }
-        }
-        return Collections.unmodifiableMap(cache);
-    }
-
-    private static class Container {
-        public LinkedHashMap<String, LightFighterBlueprint> items;
-    }
-
     public static class MetaGroup
-        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LightFighterBlueprint>
+        implements IMetaGroup<LightFighterBlueprint>
     {
+        public final static String RESOURCE_PATH = "SDE/items/blueprint/LightFighterBlueprint.yaml";
+        private Map<String, LightFighterBlueprint> cache = (null);
 
         @Override
-        public MetaCategory<? super LightFighterBlueprint> category() {
+        public IMetaCategory<? super LightFighterBlueprint> category() {
             return Blueprint.METACAT;
+        }
+
+        @Override
+        public int getGroupId() {
+            return  1146;
         }
 
         @Override
@@ -94,8 +79,19 @@ public class LightFighterBlueprint
         }
 
         @Override
-        public Collection<LightFighterBlueprint> items() {
-            return (load().values());
+        public synchronized Map<String, LightFighterBlueprint> load() {
+            if (cache == null) {
+                try {
+                    cache = new Yaml().loadAs(new InputStreamReader(LightFighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                } catch (final Exception exception) {
+                    throw new UnsupportedOperationException("catch this", exception);
+                }
+            }
+            return Collections.unmodifiableMap(cache);
+        }
+
+        private static class Container {
+            public LinkedHashMap<String, LightFighterBlueprint> items;
         }
     }
 }
