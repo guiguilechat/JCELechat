@@ -2,8 +2,9 @@ package fr.guiguilechat.jcelechat.programs.manager.panes.apikeys;
 
 import java.util.regex.Pattern;
 
-import fr.guiguilechat.jcelechat.esi.ESITools;
+import fr.guiguilechat.jcelechat.esi.ESIAccountHelper;
 import fr.guiguilechat.jcelechat.esi.connected.ESIConnected;
+import fr.guiguilechat.jcelechat.model.esi.compiled.G_ITransfer;
 import fr.guiguilechat.jcelechat.programs.manager.DataHandler;
 import fr.guiguilechat.jcelechat.programs.manager.MPane;
 import javafx.application.Platform;
@@ -91,10 +92,10 @@ public class SSOCreationPane extends Accordion implements MPane {
 			thread.interrupt();
 		}
 		thread = Thread.currentThread();
-		ESITools.openBrowserForDevCreate();
+		ESIAccountHelper.openBrowserForDevCreate();
 		boolean correct = false;
 		while(!correct) {
-			String entry = ESITools.extractStringFromClipboard();
+			String entry = ESIAccountHelper.extractStringFromClipboard();
 			if(entry!=null) {
 				if (appIdPat.matcher(entry).matches()) {
 					appIDField.setText(entry);
@@ -112,7 +113,7 @@ public class SSOCreationPane extends Accordion implements MPane {
 	protected void changeToRefreshToken() {
 		String appID = appIDField.getText(), appKey = appKeyField.getText();
 		if (appID != null && appIdPat.matcher(appID).matches() && appKey != null && appKeyPat.matcher(appKey).matches()) {
-			baseField.setText(ESITools.encode(appID, appKey));
+			baseField.setText(ESIAccountHelper.encode(appID, appKey));
 			setExpandedPane(refreshTokenPane);
 		}
 	}
@@ -122,9 +123,9 @@ public class SSOCreationPane extends Accordion implements MPane {
 			thread.interrupt();
 		}
 		thread = Thread.currentThread();
-		String authCode = ESITools.getCodeByClipboard(appIDField.getText(), localcallback, ESITools.SCOPES);
+		String authCode = ESIAccountHelper.getCodeByClipboard(appIDField.getText(), localcallback, G_ITransfer.SCOPES);
 		if (authCode != null) {
-			refreshTokenField.setText(ESITools.getRefreshToken(baseField.getText(), authCode));
+			refreshTokenField.setText(ESIAccountHelper.getRefreshToken(baseField.getText(), authCode));
 		}
 	}
 

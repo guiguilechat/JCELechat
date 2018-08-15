@@ -35,8 +35,8 @@ import fr.guiguilechat.jcelechat.model.esi.compiled.G_ITransfer;
  * code to make a sso key
  *
  */
-public class ESITools {
-	private static final Logger logger = LoggerFactory.getLogger(ESITools.class);
+public class ESIAccountHelper {
+	private static final Logger logger = LoggerFactory.getLogger(ESIAccountHelper.class);
 
 	public static final String LOCAL_CALLBACK = "http://localhost/callback/";
 
@@ -71,7 +71,7 @@ public class ESITools {
 
 		// 2 request user to accept the connection of his app to his account
 		// the user should copy the url of the error page
-		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK, SCOPES);
+		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK, G_ITransfer.SCOPES);
 		System.out.println("auth code is " + authCode);
 
 		// 3 get a refresh token. The couple basicCode+refreshtoken allow us to
@@ -84,8 +84,6 @@ public class ESITools {
 		String accessToken = getAccessToken(basicCode, refreshToken).token;
 		System.out.println("acces token is " + accessToken);
 	}
-
-	public static final String[] SCOPES = G_ITransfer.SCOPES;
 
 	public static boolean openBrowserForApp(String appID, String appCalllback, String... scopes) {
 		String uri = "https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=" + appCalllback
@@ -173,7 +171,7 @@ public class ESITools {
 			callback = LOCAL_CALLBACK;
 		}
 		openBrowserForApp(appID, callback, scopes == null || scopes.length == 0 ? new String[0]
-				: SCOPES);
+				: G_ITransfer.SCOPES);
 		return callbackURLToAuthCode(extractStringFromClipboard(), callback);
 	}
 

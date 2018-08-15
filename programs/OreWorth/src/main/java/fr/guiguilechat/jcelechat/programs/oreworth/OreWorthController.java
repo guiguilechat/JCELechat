@@ -2,16 +2,14 @@ package fr.guiguilechat.jcelechat.programs.oreworth;
 
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
+import fr.guiguilechat.jcelechat.esi.tools.MarketHelpers;
 import fr.guiguilechat.jcelechat.model.sde.items.MetaInf;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Asteroid;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
-import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.Property;
 import javafx.beans.property.ReadOnlyObjectWrapper;
-import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleObjectProperty;
-import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
@@ -60,11 +58,14 @@ public class OreWorthController {
 		// make the columns access
 		orename.setCellValueFactory(cell -> new ReadOnlyObjectWrapper<>(cell.getValue().name));
 
-		oreso.setCellValueFactory(cell -> getItemSO(cell.getValue().id).divide(mineVolume(cell.getValue())).asObject());
+		oreso.setCellValueFactory(
+				cell -> MarketHelpers.so(cell.getValue().id, marketHolder).divide(mineVolume(cell.getValue())).asObject());
 
-		orebo.setCellValueFactory(cell -> getItemBO(cell.getValue().id).divide(mineVolume(cell.getValue())).asObject());
+		orebo.setCellValueFactory(
+				cell -> MarketHelpers.bo(cell.getValue().id, marketHolder).divide(mineVolume(cell.getValue())).asObject());
 
-		oreavg.setCellValueFactory(cell -> getItemAVG(cell.getValue().id).divide(mineVolume(cell.getValue())).asObject());
+		oreavg.setCellValueFactory(cell -> MarketHelpers.monthlyAVG(cell.getValue().id, marketHolder)
+				.divide(mineVolume(cell.getValue())).asObject());
 
 		table.setItems(FXCollections.observableArrayList());
 
@@ -92,54 +93,6 @@ public class OreWorthController {
 			return basic.volume * basic.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
 		}
 		return ore.volume;
-	}
-
-	protected DoubleProperty getItemSO(int typeID) {
-		SimpleDoubleProperty ret = new SimpleDoubleProperty();
-		synchronized (marketHolder) {
-			if (marketHolder.getValue() != null) {
-				ret.bind(marketHolder.getValue().getSO(typeID, 1));
-			}
-			marketHolder.addListener((ChangeListener<RegionalMarket>) (observable, oldValue, newValue) -> {
-				ret.unbind();
-				if (newValue != null) {
-					ret.bind(newValue.getSO(typeID, 1));
-				}
-			});
-		}
-		return ret;
-	}
-
-	protected DoubleProperty getItemBO(int typeID) {
-		SimpleDoubleProperty ret = new SimpleDoubleProperty();
-		synchronized (marketHolder) {
-			if (marketHolder.getValue() != null) {
-				ret.bind(marketHolder.getValue().getBO(typeID, 1));
-			}
-			marketHolder.addListener((ChangeListener<RegionalMarket>) (observable, oldValue, newValue) -> {
-				ret.unbind();
-				if (newValue != null) {
-					ret.bind(newValue.getBO(typeID, 1));
-				}
-			});
-		}
-		return ret;
-	}
-
-	protected DoubleProperty getItemAVG(int typeID) {
-		SimpleDoubleProperty ret = new SimpleDoubleProperty();
-		synchronized (marketHolder) {
-			if (marketHolder.getValue() != null) {
-				ret.bind(marketHolder.getValue().getHistory(typeID).dailyAverage());
-			}
-			marketHolder.addListener((ChangeListener<RegionalMarket>) (observable, oldValue, newValue) -> {
-				ret.unbind();
-				if (newValue != null) {
-					ret.bind(newValue.getHistory(typeID).dailyAverage());
-				}
-			});
-		}
-		return ret;
 	}
 
 }

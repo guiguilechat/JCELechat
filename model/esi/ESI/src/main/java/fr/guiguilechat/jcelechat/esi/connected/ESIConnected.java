@@ -7,8 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.esi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.esi.ESITools;
-import fr.guiguilechat.jcelechat.esi.ESITools.AccessToken;
+import fr.guiguilechat.jcelechat.esi.ESIAccountHelper;
+import fr.guiguilechat.jcelechat.esi.ESIAccountHelper.AccessToken;
 import fr.guiguilechat.jcelechat.model.esi.compiled.G_ICOAccess;
 import fr.guiguilechat.tools.JFXTools;
 import javafx.collections.ObservableSet;
@@ -39,7 +39,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 	protected String getAccessToken() {
 		if (accessToken == null || accessToken.expire < System.currentTimeMillis()) {
 			logger.trace("fetching access token");
-			accessToken = ESITools.getAccessToken(basicAuth, refreshToken);
+			accessToken = ESIAccountHelper.getAccessToken(basicAuth, refreshToken);
 		}
 		return accessToken == null ? null : accessToken.token;
 	}

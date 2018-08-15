@@ -4,7 +4,15 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.function.Function;
 
+import javafx.beans.property.DoubleProperty;
+import javafx.beans.property.LongProperty;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleLongProperty;
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableDoubleValue;
+import javafx.beans.value.ObservableLongValue;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
@@ -62,6 +70,14 @@ public class JFXTools {
 	static final long[] unitSuffixValue = { 1000000000000l, 1000000000l, 1000000l, 1000l };
 	static final String[] unitSuffix = { "T", "B", "M", "k" };
 
+	/**
+	 * format a price into unit, with suffix up to 10^12 and maximum 4
+	 * numbers<br />
+	 * eg 1.345 e10 should be translated to 13.4B
+	 * 
+	 * @param value
+	 * @return
+	 */
 	public static String formatPrice(double value) {
 		if (value == Double.MAX_VALUE || value == Double.MIN_VALUE || value == Double.POSITIVE_INFINITY
 				|| value == Double.NEGATIVE_INFINITY) {
@@ -113,4 +129,78 @@ public class JFXTools {
 		return sb.toString();
 	}
 
+	/**
+	 * extract an Observable variable from another one with the help of an
+	 * extractor function
+	 *
+	 * @param variable
+	 * @param extractor
+	 * @return a new simpleobjectProperty
+	 */
+	public static <T, U> ObjectProperty<T> extractObservable(ObservableValue<U> variable,
+			Function<U, ObservableValue<T>> extractor) {
+		SimpleObjectProperty<T> ret = new SimpleObjectProperty<>();
+		synchronized (variable) {
+			if (variable.getValue() != null) {
+				ret.bind(extractor.apply(variable.getValue()));
+			}
+			variable.addListener((ChangeListener<U>) (observable, oldValue, newValue) -> {
+				ret.unbind();
+				if (newValue != null) {
+					ret.bind(extractor.apply(newValue));
+				}
+			});
+		}
+		return ret;
+	}
+
+	/**
+	 * extract a observable double variable from an observable variable with the
+	 * help of an extractor function
+	 *
+	 * @param variable
+	 * @param extractor
+	 * @return
+	 */
+	public static <U> DoubleProperty extractDouble(ObservableValue<U> variable,
+			Function<U, ObservableDoubleValue> extractor) {
+		SimpleDoubleProperty ret = new SimpleDoubleProperty();
+		synchronized (variable) {
+			if (variable.getValue() != null) {
+				ret.bind(extractor.apply(variable.getValue()));
+			}
+			variable.addListener((ChangeListener<U>) (observable, oldValue, newValue) -> {
+				ret.unbind();
+				if (newValue != null) {
+					ret.bind(extractor.apply(newValue));
+				}
+			});
+		}
+		return ret;
+	}
+
+	/**
+	 * extract a observable long variable from an observable variable with the
+	 * help of an extractor function
+	 *
+	 * @param variable
+	 * @param extractor
+	 * @return
+	 */
+	public static <U> LongProperty extractLong(ObservableValue<U> variable,
+			Function<U, ObservableLongValue> extractor) {
+		SimpleLongProperty ret = new SimpleLongProperty();
+		synchronized (variable) {
+			if (variable.getValue() != null) {
+				ret.bind(extractor.apply(variable.getValue()));
+			}
+			variable.addListener((ChangeListener<U>) (observable, oldValue, newValue) -> {
+				ret.unbind();
+				if (newValue != null) {
+					ret.bind(extractor.apply(newValue));
+				}
+			});
+		}
+		return ret;
+	}
 }
