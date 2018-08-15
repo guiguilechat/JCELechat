@@ -2,7 +2,9 @@ package fr.guiguilechat.tools;
 
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.function.DoublePredicate;
 import java.util.function.Function;
+import java.util.function.LongPredicate;
 
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.LongProperty;
@@ -10,6 +12,7 @@ import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleLongProperty;
 import javafx.beans.property.SimpleObjectProperty;
+import javafx.beans.property.StringProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableLongValue;
@@ -74,7 +77,7 @@ public class JFXTools {
 	 * format a price into unit, with suffix up to 10^12 and maximum 4
 	 * numbers<br />
 	 * eg 1.345 e10 should be translated to 13.4B
-	 * 
+	 *
 	 * @param value
 	 * @return
 	 */
@@ -82,6 +85,9 @@ public class JFXTools {
 		if (value == Double.MAX_VALUE || value == Double.MIN_VALUE || value == Double.POSITIVE_INFINITY
 				|| value == Double.NEGATIVE_INFINITY) {
 			return "" + value;
+		}
+		if (value < 0) {
+			return "-"+formatPrice(-value);
 		}
 		double prefix = value;
 		String suffix = null;
@@ -201,6 +207,98 @@ public class JFXTools {
 				}
 			});
 		}
+		return ret;
+	}
+
+	/**
+	 * ensure that the property always holds a double value, and return a property
+	 * bound to that double value
+	 *
+	 * @param prop
+	 * @return
+	 */
+	public static DoubleProperty convertDouble(StringProperty prop, DoublePredicate... predicates) {
+		SimpleDoubleProperty ret = new SimpleDoubleProperty();
+		ChangeListener<String> l = new ChangeListener<>() {
+
+			boolean recursive = false;
+
+			@Override
+			public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+				if (!recursive) {
+					recursive = true;
+					double newdouble = 0;
+					boolean accepted = true;
+					try {
+						newdouble = Double.parseDouble(newValue);
+						if (predicates != null) {
+							for (DoublePredicate p : predicates) {
+								accepted &= p.test(newdouble);
+							}
+						}
+					} catch (NumberFormatException | NullPointerException e) {
+						accepted = false;
+					}
+					if (accepted) {
+						ret.set(newdouble);
+					} else {
+						prop.setValue(oldValue);
+					}
+					recursive = false;
+				}
+			}
+		};
+		l.changed(prop, null, prop.get());
+		prop.addListener(l);
+		return ret;
+	}
+
+	/**
+	 * ensure that the property always holds a double value, and return a property
+	 * bound to that double value
+	 *
+	 * @param prop
+	 *          the string property to observe
+	 * @param predicates
+	 *          optional predicates on long to accept, eg l->l>=0 for positive
+	 *          longs
+	 *
+	 * @return
+	 */
+	public static LongProperty convertLong(StringProperty prop, LongPredicate... predicates) {
+		SimpleLongProperty ret = new SimpleLongProperty();
+		ChangeListener<String> l = new ChangeListener<>() {
+
+			boolean recursive = false;
+
+			@Override
+			public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+				if (!recursive) {
+					recursive = true;
+					long newlong = 0;
+					boolean accepted = true;
+					try {
+						newlong = Long.parseLong(newValue);
+						if (predicates != null) {
+							for( LongPredicate p : predicates) {
+								accepted &= p.test(newlong);
+							}
+						}
+					} catch (NumberFormatException | NullPointerException e) {
+						accepted = false;
+						prop.setValue(oldValue);
+					}
+					if (accepted) {
+						ret.set(newlong);
+					} else {
+						prop.setValue(oldValue);
+					}
+					recursive = false;
+				}
+			}
+		};
+		l.changed(prop, null, prop.get());
+		prop.addListener(l);
 		return ret;
 	}
 }

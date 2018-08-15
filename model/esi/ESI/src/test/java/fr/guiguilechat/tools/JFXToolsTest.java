@@ -6,13 +6,16 @@ import java.util.Map;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleObjectProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import javafx.collections.ObservableSet;
 
-public class JavaFxToolsTest {
+public class JFXToolsTest {
 
 	@Test
-	public void test() {
+	public void testMakeSet() {
 		Map<String, String> map = new HashMap<>();
 		map.put("a", "aa");
 		SimpleObjectProperty<Map<String, String>> obs = new SimpleObjectProperty<>(map);
@@ -24,6 +27,19 @@ public class JavaFxToolsTest {
 		obs.set(map);
 		Assert.assertFalse(created.contains("a"));
 		Assert.assertTrue(created.contains("b"));
+	}
+
+	@Test
+	public void testConvertDouble() {
+		StringProperty sp = new SimpleStringProperty();
+		DoubleProperty dp = JFXTools.convertDouble(sp);
+		Assert.assertEquals(dp.get(), 0.0);
+		sp.set("10");
+		Assert.assertEquals(dp.get(), 10.0);
+		dp = JFXTools.convertDouble(sp);
+		Assert.assertEquals(dp.get(), 10.0);
+		sp.set("-15.45");
+		Assert.assertEquals(dp.get(), -15.45);
 	}
 
 }

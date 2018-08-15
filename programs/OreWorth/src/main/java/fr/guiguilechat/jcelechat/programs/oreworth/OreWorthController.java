@@ -6,6 +6,7 @@ import fr.guiguilechat.jcelechat.esi.tools.MarketHelpers;
 import fr.guiguilechat.jcelechat.model.sde.items.MetaInf;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Asteroid;
+import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import javafx.beans.property.Property;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -16,7 +17,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.util.StringConverter;
 
 public class OreWorthController {
 
@@ -42,17 +42,6 @@ public class OreWorthController {
 
 	@FXML
 	private void initialize() {
-		regionSelect.setConverter(new StringConverter<Region>() {
-			@Override
-			public String toString(Region object) {
-				return object.name;
-			}
-
-			@Override
-			public Region fromString(String string) {
-				throw new UnsupportedOperationException("can't transform name into region");
-			}
-		});
 		regionSelect.getSelectionModel().selectedItemProperty().addListener(this::changeRegion);
 
 		// make the columns access
@@ -74,7 +63,7 @@ public class OreWorthController {
 	}
 
 	protected void load() {
-		regionSelect.setItems(FXCollections.observableArrayList(Region.load().values()));
+		LocationHelper.initRegion(regionSelect);
 		Asteroid.METACAT.load().values().stream().filter(a -> a.AsteroidMetaLevel != 0)
 		.forEachOrdered(table.getItems()::add);
 	}
