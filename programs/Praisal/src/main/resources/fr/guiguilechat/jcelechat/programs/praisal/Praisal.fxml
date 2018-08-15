@@ -19,7 +19,7 @@
             <TableColumn fx:id="itembo" maxWidth="80.0" minWidth="60.0" prefWidth="60.0" text="BO" />
             <TableColumn fx:id="itemavgvol" editable="false" maxWidth="80.0" minWidth="60.0" prefWidth="60.0" sortType="DESCENDING" text="avg/vol" />
             <TableColumn fx:id="itembovol" editable="false" maxWidth="80.0" minWidth="60.0" prefWidth="60.0" sortType="DESCENDING" text="BO/vol" />
-          <TableColumn fx:id="itembuyback" editable="false" maxWidth="80.0" minWidth="60.0" prefWidth="60.0" sortType="DESCENDING" text="buyback" />
+          <TableColumn fx:id="itembuyback" editable="false" maxWidth="80.0" minWidth="60.0" prefWidth="60.0" sortType="DESCENDING" text="bbck" />
         </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />

@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat</groupId>
     <artifactId>JCELechat</artifactId>
-    <version>3.5.2</version>
+    <version>4.0.1</version>
   </parent>
   <artifactId>programs</artifactId>
   <packaging>pom</packaging>
@@ -23,6 +23,7 @@
   	<module>OreWorth</module>
   	<module>SoBoPlace</module>
   	<module>RouteMaker</module>
+  	<module>Praisal</module>
   </modules>
   <dependencies>
   	<dependency>
