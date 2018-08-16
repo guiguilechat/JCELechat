@@ -123,10 +123,5 @@ public class CachedHistory {
 		}
 		monthlyVolume.set(volume);
 		monthlyAverage.set(isks / volume);
-		// System.err.println("aggregated for " + typeID + " : day=" +
-		// dailyVolume.get() + "*" + dailyAverage.get() + " week="
-		// + weeklyVolume.get() + "*" + weeklyAverage.get() + " month=" +
-		// monthlyVolume.get() + "*"
-		// + monthlyAverage.get());
 	}
 }

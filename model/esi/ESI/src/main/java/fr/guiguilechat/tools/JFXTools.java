@@ -4,12 +4,15 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.function.DoublePredicate;
 import java.util.function.Function;
+import java.util.function.IntPredicate;
 import java.util.function.LongPredicate;
 
 import javafx.beans.property.DoubleProperty;
+import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.LongProperty;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleLongProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.StringProperty;
@@ -290,6 +293,55 @@ public class JFXTools {
 					}
 					if (accepted) {
 						ret.set(newlong);
+					} else {
+						prop.setValue(oldValue);
+					}
+					recursive = false;
+				}
+			}
+		};
+		l.changed(prop, null, prop.get());
+		prop.addListener(l);
+		return ret;
+	}
+
+	/**
+	 * ensure that the property always holds a double value, and return a property
+	 * bound to that double value
+	 *
+	 * @param prop
+	 *          the string property to observe
+	 * @param predicates
+	 *          optional predicates on long to accept, eg l->l>=0 for positive
+	 *          longs
+	 *
+	 * @return
+	 */
+	public static IntegerProperty convertInt(StringProperty prop, IntPredicate... predicates) {
+		SimpleIntegerProperty ret = new SimpleIntegerProperty();
+		ChangeListener<String> l = new ChangeListener<>() {
+
+			boolean recursive = false;
+
+			@Override
+			public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+				if (!recursive) {
+					recursive = true;
+					int newint = 0;
+					boolean accepted = true;
+					try {
+						newint = Integer.parseInt(newValue);
+						if (predicates != null) {
+							for (IntPredicate p : predicates) {
+								accepted &= p.test(newint);
+							}
+						}
+					} catch (NumberFormatException | NullPointerException e) {
+						accepted = false;
+						prop.setValue(oldValue);
+					}
+					if (accepted) {
+						ret.set(newint);
 					} else {
 						prop.setValue(oldValue);
 					}
