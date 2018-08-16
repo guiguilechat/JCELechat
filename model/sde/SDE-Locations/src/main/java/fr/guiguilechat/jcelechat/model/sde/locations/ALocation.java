@@ -26,4 +26,9 @@ public class ALocation {
 		return id;
 	}
 
+	@Override
+	public String toString() {
+		return name + "(" + id + ")";
+	}
+
 }

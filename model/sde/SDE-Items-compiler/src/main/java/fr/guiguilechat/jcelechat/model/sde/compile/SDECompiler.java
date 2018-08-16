@@ -359,6 +359,11 @@ public class SDECompiler {
 					.lit("can't load attribute id ").plus(att.invoke("getId")).plus(" on type id ")
 					.plus(JExpr.direct("id").plus(" ").plus(JExpr.direct("name")))));
 
+			// create toString() as a name(id)
+			JMethod itemToString =typeClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
+			itemToString.annotate(Override.class);
+			itemToString.body()._return(JExpr.direct("name + \"(\" + id + \")\""));
+
 			// create a method to load the values of the fields in root class from the
 			// actual fields, when they are annotated
 			JMethod loadDefault = typeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");

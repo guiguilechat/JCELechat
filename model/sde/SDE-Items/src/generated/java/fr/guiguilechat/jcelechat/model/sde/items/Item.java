@@ -31,6 +31,11 @@ public abstract class Item {
         }
     }
 
+    @Override
+    public String toString() {
+        return (name + "(" + id + ")");
+    }
+
     public void loadDefault() {
         for (Field f: (getClass().getFields())) {
             DefaultDoubleValue annotDouble = f.getAnnotation(DefaultDoubleValue.class);
