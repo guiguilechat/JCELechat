@@ -20,7 +20,7 @@ import org.yaml.snakeyaml.constructor.SafeConstructor;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaInf;
+import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.yaml.CleanRepresenter;
@@ -56,7 +56,7 @@ public class LootAnalysis {
 			ArrayList<Object> containsBP = new ArrayList<>();
 			e.loots.forEach((id, nb) -> {
 				totalDrop.put(id, totalDrop.getOrDefault(id, 0) + nb);
-				Item t = MetaInf.getItem(id);
+				Item t = ItemIndex.getItem(id);
 				if (t != null) {
 					if (t.getCategory().equals(Blueprint.METACAT)) {
 						containsBP.add(null);

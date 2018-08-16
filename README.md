@@ -13,20 +13,20 @@ To import the modules in your maven project, you need to add my repo (unless you
 
 ```
 	<repositories>
-		<repository>
-			<id>kimsufi-stable</id>
-			<url>http://91.121.120.36/maven/stable</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>kimsufi-snapshots</id>
-			<url>http://91.121.120.36/maven/snapshot/</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
+ <repository>
+ 	<id>kimsufi-stable</id>
+ 	<url>http://91.121.120.36/maven/stable</url>
+ 	<snapshots>
+  <enabled>false</enabled>
+ 	</snapshots>
+ </repository>
+ <repository>
+ 	<id>kimsufi-snapshots</id>
+ 	<url>http://91.121.120.36/maven/snapshot/</url>
+ 	<snapshots>
+  <enabled>true</enabled>
+ 	</snapshots>
+ </repository>
 	</repositories>
 ```
 
@@ -45,11 +45,11 @@ The libs are accesses through static synchronized singleton classes, so loading 
 
 It is split in several modules.
 
-#### SDE-Industry
+#### [SDE-Industry](model/sde/SDE-Industry)
 
 This module gives access to blueprints, invention decryptors, and for each item, its uses in industry.
 
-#### SDE-Items
+#### [SDE-Items](model/sde/SDE-Items)
 
 This modules compiles the categories and groups of items, then allows to load the items in the game.
 
@@ -70,17 +70,19 @@ Provide the functions to compile the SDE into items, and to translate the SE int
 
 This module is only supposed to be used during compilation phase of SDE-Items.
 
-#### SDE-Locations
+#### [SDE-Locations](model/sde/SDE-Locations)
 
 Give access to the stations, systems, constellations, and regions.
 
 Also provides an algorithm to compute distances.
 
-#### SDE-NPCs
+Since it does not support the citadels, you should use the ESI instead.
+
+#### [SDE-NPCs](model/sde/SDE-NPCs)
 
 List the NPC corporations, their agents and their LP offers.
 
-#### SDE-Full
+#### [SDE-Full](model/sde/SDE-Full)
 
 Contains the above mentioned modules.
 
@@ -94,13 +96,13 @@ You should not use it, it is not required as dependency of other modules.
 
 Contains functions that help the other modules, it's in dependency of other modules.
 
-### ESI
+### [ESI](model/esi)
 
 The Eve Swagger Interface  gives access to the data of Eve through a web service.
 
 This module proposes an access to the raw service.
 
-#### ESI-compiler
+#### [ESI-compiler](model/esi/ESI-compiler)
 
 compiles the Swagger.json from CCP and creates
 
@@ -111,73 +113,74 @@ compiles the Swagger.json from CCP and creates
  
  Basically you don't use this, it is used by the other module to build the ESI classes.
  
-#### ESI
+#### [ESI](model/esi/ESI)
 
 Uses ESI-Compiler to produce the Swagger ; Then implements the Swagger into an ESIConnection class.
 
-example of code. This is from a test class in the esi.
+example of code. This is from [a test class](model/esi/ESI/src/test/java/fr/guiguilechat/jcelechat/model/esi/ExampleStaticAccess.java) in the esi.
+
 ```java
-		/** a static access does not need an account to retrieve data */
-		ESIStatic stat = ESIStatic.INSTANCE;
+ /** a static access does not need an account to retrieve data */
+ ESIStatic stat = ESIStatic.INSTANCE;
 
-		int theforge = 10000002;
-		int veldspar = 1230;
+ int theforge = 10000002;
+ int veldspar = 1230;
 
-		/**
-		 * get the history of veldspar, in The Forge.<br />
-		 * take the first (=random) value and get the average sale value
-		 */
-		double veldsparAVG = stat.get_markets_history(theforge, veldspar, null)[0].average;
+ /**
+  * get the history of veldspar, in The Forge.<br />
+  * take the first (=random) value and get the average sale value
+  */
+ double veldsparAVG = stat.get_markets_history(theforge, veldspar, null)[0].average;
 
-		/**
-		 * some access have pages, we can fetch all the pages using this
-		 * method<br />
-		 * get all the page of present BUY orders in TheForge for Veldpsar,
-		 */
-		List<R_get_markets_region_id_orders> bos = stat
-				.loadPages((p, h) -> stat.get_markets_orders(order_type.buy, p, theforge, veldspar, h), null);
-		/** then you can get eg the maximum BO */
-		double maxbo = bos.stream().mapToDouble(bo -> bo.price).max().getAsDouble();
+ /**
+  * some access have pages, we can fetch all the pages using this
+  * method<br />
+  * get all the page of present BUY orders in TheForge for Veldpsar,
+  */
+ List<R_get_markets_region_id_orders> bos = stat
+  .loadPages((p, h) -> stat.get_markets_orders(order_type.buy, p, theforge, veldspar, h), null);
+ /** then you can get eg the maximum BO */
+ double maxbo = bos.stream().mapToDouble(bo -> bo.price).max().getAsDouble();
 
-		/**
-		 * The esi has a built in cache manager.<br />
-		 * The cache fetch the pages and put the data in the holder
-		 */
-		ObservableList<R_get_markets_region_id_orders> cachebos = stat.cache.markets.orders(order_type.buy, theforge,
-				veldspar);
+ /**
+  * The esi has a built in cache manager.<br />
+  * The cache fetch the pages and put the data in the holder
+  */
+ ObservableList<R_get_markets_region_id_orders> cachebos = stat.cache.markets.orders(order_type.buy, theforge,
+  veldspar);
 
-		/** cache should return the same holder when given the same parameters */
-		if (stat.cache.markets.orders(order_type.buy, theforge, veldspar) != cachebos) {
-			throw new RuntimeException();
-		}
+ /** cache should return the same holder when given the same parameters */
+ if (stat.cache.markets.orders(order_type.buy, theforge, veldspar) != cachebos) {
+ 	throw new RuntimeException();
+ }
 
-		/** wait for the data to be fetched at least once */
-		stat.waitL(cachebos);
+ /** wait for the data to be fetched at least once */
+ stat.waitL(cachebos);
 
-		/**
-		 * Cache data are refreshed as soon as the expiry date is reached. When
-		 * working with a cache, you must sync over the holder to avoid cache
-		 * corruption
-		 */
-		synchronized (cachebos) {
-			maxbo = cachebos.stream().mapToDouble(bo -> bo.price).max().getAsDouble();
-		}
+ /**
+  * Cache data are refreshed as soon as the expiry date is reached. When
+  * working with a cache, you must sync over the holder to avoid cache
+  * corruption
+  */
+ synchronized (cachebos) {
+ 	maxbo = cachebos.stream().mapToDouble(bo -> bo.price).max().getAsDouble();
+ }
 
-		/** you can create bindings to keep extracted data fresh */
-		DoubleBinding maxBOBinding = Bindings.createDoubleBinding(() -> {
-			synchronized (cachebos) {
-				return cachebos.stream().mapToDouble(bo -> bo.price).max().getAsDouble();
-			}
-		}, cachebos);
+ /** you can create bindings to keep extracted data fresh */
+ DoubleBinding maxBOBinding = Bindings.createDoubleBinding(() -> {
+ 	synchronized (cachebos) {
+  return cachebos.stream().mapToDouble(bo -> bo.price).max().getAsDouble();
+ 	}
+ }, cachebos);
 
-		/**
-		 * since this is tedious and error prone I bring some in the modeled class
-		 */
-		ObservableDoubleValue maxBOObs = ESIAccess.INSTANCE.markets.getMarket(theforge).getBO(veldspar, 1);
+ /**
+  * since this is tedious and error prone I bring some in the modeled class
+  */
+ ObservableDoubleValue maxBOObs = ESIAccess.INSTANCE.markets.getMarket(theforge).getBO(veldspar, 1);
 
-		/**
-		 * ^You should use this one ^ Everybody loves maxBOObs.
-		 */
+ /**
+  * ^You should use this one ^ Everybody loves maxBOObs.
+  */
 ```
 
 Also provides methods to get your own ESI dev/client keys.
@@ -191,9 +194,20 @@ This way, GUI that use data won't need to wait for the data to be fetched, but i
 Basically those drive the development of the ESI. My own personal programs that I used are removed from this, because they bring me isks and I don't want to waste my work.
 
 Still some part are present, eg to visually check if I can load data, make small interesting examples.
+The interesting examples make use of javafx library to build GUI with scenebuilder . Basically I draw a GUI, I create a main that invokes it, and I create the controller that controls the GUI. Most of the work is in the controller - once the lib is done.
 
-### OreWorth
+Typically I only show here the programs that are working standalone GUI, other programs are more complex and are tailored for specific analysis.
 
-[This program](programs/OreWorth) gets the price (sell, buy, and daily average) for all ores and divide it by the volume of the ore, then presents it into a GUI.
+### [OreWorth](programs/OreWorth)
 
-[The main class](programs/OreWorth/src/main/java/fr/guiguilechat/jcelechat/programs/oreworth/OreWorthController.java) is very small (142LOC) and functionas as a PoC for both the ESI (to fetch the prices) and the SDE (to get the ores and filter interesting data). Plus it can be integrated in another GUI, as a javafx module.
+This program gets the price (sell, buy, and daily average) for all ores and divide it by the volume of the ore, then presents it into a GUI.
+
+[The main class](programs/OreWorth/src/main/java/fr/guiguilechat/jcelechat/programs/oreworth/OreWorthController.java) is very small with less than 90 LoC. It function as as a PoC for both the ESI (to fetch the prices) and the SDE (to get the ores and filter interesting data). Plus it can be integrated in another GUI, as a javafx module.
+
+## [Praisal](programs/Praisal)
+
+This program needs a list of items, and make prices to buy them on given regional market.
+It also features buyback comparison, with up to 2 buybacks configurable with volumic price and collateral tax, to get the value of the items for each buybacks.
+Finally, it also give the volumic BO/AVG of the items, eg in order to know which items are worth bringing to sell later.
+
+[The main class](programs/Praisal/src/main/java/fr/guiguilechat/jcelechat/programs/praisal/PraisalController.java) is a bit more complex than the Oreworth one, with 130 LoC, but it's because the GUI actually has more buttons ^^ .

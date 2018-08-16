@@ -16,7 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaInf;
+import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 
 public class LootParser {
 
@@ -73,7 +73,7 @@ public class LootParser {
 						state = 0;
 					} else {
 						String[] tokens = line.split("\\t");
-						Item t = MetaInf.getItem(tokens[0]);
+						Item t = ItemIndex.getItem(tokens[0]);
 						if (t == null) {
 							if (undecoded.add(tokens[0])) {
 								if (!isFilenamePrinted) {

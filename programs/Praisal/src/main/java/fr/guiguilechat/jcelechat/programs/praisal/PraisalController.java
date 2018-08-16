@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.esi.tools.MarketHelpers;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaInf;
+import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.tools.JFXTools;
@@ -167,7 +167,7 @@ public class PraisalController {
 		HashMap<Item, Integer> item2qtty = new HashMap<>();
 		for (String line : list.split("\n")) {
 			String[] arr = line.split("\t");
-			Item it = MetaInf.getItem(arr[0]);
+			Item it = ItemIndex.getItem(arr[0]);
 			if (it != null && arr[1].length() > 0) {
 				item2qtty.put(it, Integer.parseInt(arr[1].replaceAll("[^0-9]", "")) + item2qtty.getOrDefault(it, 0));
 			}

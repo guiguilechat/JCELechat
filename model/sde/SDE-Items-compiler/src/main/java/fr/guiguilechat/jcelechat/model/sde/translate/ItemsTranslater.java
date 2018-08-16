@@ -49,7 +49,7 @@ public class ItemsTranslater {
 	public void translate(CompiledClassesData classes, File destFolder, String resFolder) {
 		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
-		makeLoadMethod(null, classes.metaInfClass, cm, "SDE/items/metainf.yaml", false);
+		makeLoadMethod(null, classes.itemIndexClass, cm, "SDE/items/metainf.yaml", false);
 		DynamicClassLoader cl = new DynamicClassLoader(ItemsTranslater.class.getClassLoader()).withCode(cm);
 		// filepath->item name -> object
 		// eg mycategory/mygroup.yaml -> item1-> new MyGroup()

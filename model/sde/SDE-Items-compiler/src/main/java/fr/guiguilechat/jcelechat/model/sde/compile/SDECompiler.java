@@ -133,7 +133,7 @@ public class SDECompiler {
 		public JCodeModel model = new JCodeModel();
 		public HashMap<Integer, String> groupID2ClassName = new HashMap<>();
 		public HashMap<Integer, String> attID2FieldName = new HashMap<>();
-		public JDefinedClass metaInfClass;
+		public JDefinedClass itemIndexClass;
 
 		// for each category, the set of groups that inherit it.
 		public HashMap<JDefinedClass, Set<JDefinedClass>> cat2Groups = new HashMap<>();
@@ -519,32 +519,32 @@ public class SDECompiler {
 			}
 		}
 
-		// create the metainf class
+		// create the ItemIndex class
 
 		try {
-			ret.metaInfClass = rootPackage()._class("MetaInf");
-			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), strRef), "id2name")
+			ret.itemIndexClass = rootPackage()._class("ItemIndex");
+			ret.itemIndexClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), strRef), "id2name")
 			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
-			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "name2group")
+			ret.itemIndexClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "name2group")
 			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
-			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "group2class")
+			ret.itemIndexClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "group2class")
 			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
 
 			// method to load an item from its name.
 
 			// create a cache classname-> map<id, ? extends item>
 			JNarrowedClass cacheValueType = cm.ref(Map.class).narrow(strRef).narrow(typeClass.wildcardExtends());
-			JVar groupcache = ret.metaInfClass
+			JVar groupcache = ret.itemIndexClass
 					.field(JMod.PRIVATE | JMod.STATIC, cm.ref(Map.class).narrow(strRef).narrow(cacheValueType), "groupcache")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 
 			// create the method that uses this cache
-			JMethod getItem = ret.metaInfClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getItem");
+			JMethod getItem = ret.itemIndexClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getItem");
 			getItem.annotate(SuppressWarnings.class).param("value", "unchecked");
 			JVar itemName = getItem.param(strRef, "name");
 			getItem.body()._if(itemName.eq(JExpr._null()))._then()._return(JExpr._null());
 			JVar grp = getItem.body().decl(strRef, "group")
-					.init(ret.metaInfClass.staticInvoke("load").ref("name2group").invoke("get").arg(itemName));
+					.init(ret.itemIndexClass.staticInvoke("load").ref("name2group").invoke("get").arg(itemName));
 			getItem.body()._if(grp.eq(JExpr._null()))._then()._return(JExpr._null());
 			JVar map = getItem.body().decl(cacheValueType, "map").init(groupcache.invoke("get").arg(grp));
 			JBlock createBlock = getItem.body()._if(map.eq(JExpr._null()))._then();
@@ -556,7 +556,7 @@ public class SDECompiler {
 					.init(JExpr.lit(itemPackage().name() + ".")
 							.plus(grp.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
 			JVar loadclass = tryblock.body().decl(cm.ref(Class.class).narrowAny(), "loadclass");
-			loadclass.init(ret.metaInfClass.dotclass().invoke("getClassLoader").invoke("loadClass").arg(className));
+			loadclass.init(ret.itemIndexClass.dotclass().invoke("getClassLoader").invoke("loadClass").arg(className));
 			JBlock assignblock = tryblock.body()._if(loadclass.neNull())._then();
 			//			IMetaGroup<? extends Item> img = (IMetaGroup<? extends Item>) loadclass.getField("METAGROUP").get(null);
 			//			map = img.load();
@@ -576,10 +576,10 @@ public class SDECompiler {
 			getItem.body()._return(map.invoke("get").arg(itemName));
 
 			// create the getItem(int id)
-			getItem = ret.metaInfClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getItem");
+			getItem = ret.itemIndexClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getItem");
 			JVar itemId = getItem.param(cm.INT, "id");
-			getItem.body()._return(ret.metaInfClass.staticInvoke("getItem")
-					.arg(ret.metaInfClass.staticInvoke("load").ref("id2name").invoke("get").arg(itemId)));
+			getItem.body()._return(ret.itemIndexClass.staticInvoke("getItem")
+					.arg(ret.itemIndexClass.staticInvoke("load").ref("id2name").invoke("get").arg(itemId)));
 
 		} catch (JClassAlreadyExistsException e1) {
 			throw new UnsupportedOperationException("catch this", e1);

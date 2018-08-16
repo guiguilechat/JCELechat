@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.sde.items;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.jcelechat.model.sde.items.MetaInf;
+import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Ship;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ship.Frigate;
 
@@ -19,9 +19,9 @@ public class TestLoad {
 
 	@Test
 	public void testLoadAtronFromMetainf() {
-		MetaInf mi = MetaInf.load();
+		ItemIndex mi = ItemIndex.load();
 		Assert.assertEquals(mi.name2group.get("Atron"), "ship/Frigate");
-		Assert.assertEquals(MetaInf.getItem("Atron").name, "Atron");
+		Assert.assertEquals(ItemIndex.getItem("Atron").name, "Atron");
 	}
 
 	@Test
