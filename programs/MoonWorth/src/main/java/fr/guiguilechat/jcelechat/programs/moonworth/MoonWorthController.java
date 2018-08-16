@@ -111,8 +111,8 @@ public class MoonWorthController {
 
 		final NumberAxis xAxis = new NumberAxis();
 		final NumberAxis yAxis = new NumberAxis();
-		xAxis.setLabel("volume");
-		yAxis.setLabel("isk");
+		xAxis.setLabel("volume (m^3)");
+		yAxis.setLabel("isk (M)");
 		moonchart = new LineChart<>(xAxis, yAxis);
 		pane.setCenter(moonchart);
 
@@ -234,7 +234,7 @@ public class MoonWorthController {
 			series.setName(e.getKey());
 			Map<Double, Double> volumicPriceToVol = new HashMap<>();
 			for (Entry<Asteroid, Double> ast : asteroval.entrySet()) {
-				double volume = ast.getKey().volume * 100 * ast.getValue();
+				double volume = 100 * 50000 * ast.getValue();
 				volumicPriceToVol.put(volumicPrices.get(ast.getKey()),
 						volume + volumicPriceToVol.getOrDefault(volumicPriceToVol, 0.));
 			}
@@ -249,7 +249,7 @@ public class MoonWorthController {
 				totalIsk.set(totalIsk.get() + entry.getValue() * entry.getKey());
 				double volume = totalVol.get(), isk = totalIsk.get();
 				System.err.println("added " + e.getKey() + "\t" + volume + "\t" + isk + "\t" + entry.getKey());
-				series.getData().add(new Data<>(volume, isk));
+				series.getData().add(new Data<>(volume, isk / 1000000));
 			});
 		});
 		int limit = datalimitProperty.get();
