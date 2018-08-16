@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.sde.items;
+package fr.guiguilechat.jcelechat.model.sde.items;
 
 import java.io.IOException;
 
