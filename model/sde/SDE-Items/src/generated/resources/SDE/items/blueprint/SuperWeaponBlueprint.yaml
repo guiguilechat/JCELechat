@@ -48,11 +48,6 @@ items:
     marketGroup: 913
     name: ‘Divine Harvest’ Electromagnetic Reaper Blueprint
     volume: 0.01
-  ‘Geiravor’ Explosive Lance Blueprint:
-    id: 41448
-    marketGroup: 913
-    name: ‘Geiravor’ Explosive Lance Blueprint
-    volume: 0.01
   ‘Guillotine’ Thermal Reaper Blueprint:
     id: 41450
     marketGroup: 913
@@ -77,4 +72,9 @@ items:
     id: 41447
     marketGroup: 913
     name: ‘Phalarica’ Thermal Lance Blueprint
+    volume: 0.01
+  ���Geiravor’ Explosive Lance Blueprint:
+    id: 41448
+    marketGroup: 913
+    name: ���Geiravor’ Explosive Lance Blueprint
     volume: 0.01
