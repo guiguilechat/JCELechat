@@ -33,7 +33,7 @@
   	</dependency>
   	<dependency>
   		<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-  		<artifactId>ESI</artifactId>
+  		<artifactId>JCESI</artifactId>
   	</dependency>
   </dependencies>
 	<scm>

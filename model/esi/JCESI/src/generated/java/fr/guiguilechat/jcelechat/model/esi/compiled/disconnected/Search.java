@@ -1,0 +1,54 @@
+package fr.guiguilechat.jcelechat.model.esi.compiled.disconnected;
+
+import java.util.HashMap;
+import java.util.Map;
+import fr.guiguilechat.jcelechat.model.esi.compiled.SwaggerDCCache;
+import fr.guiguilechat.jcelechat.model.esi.compiled.keys.K_17_String_LString_Boolean;
+import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_search;
+import fr.guiguilechat.jcelechat.model.esi.interfaces.ObsObjHolder;
+import javafx.beans.property.SimpleObjectProperty;
+
+public class Search {
+    public final SwaggerDCCache<?> cache;
+    private final Map<K_17_String_LString_Boolean, ObsObjHolder<R_get_search>> get_search_holder = new HashMap<>();
+
+    public Search(SwaggerDCCache<?> parent) {
+        cache = parent;
+    }
+
+    /**
+     * Search for entities that match a given sub-string.
+     * 
+     * cache over {@link Swagger#get}<br />
+     * 
+     * @param categories
+     *     Type of entities to search for
+     * @param search
+     *     The string to search on
+     * @param strict
+     *     Whether the search should be a strict match
+     */
+    public ObsObjHolder<R_get_search> get(String[] categories, String search, Boolean strict) {
+        K_17_String_LString_Boolean param = new K_17_String_LString_Boolean(search, categories, strict);
+        ObsObjHolder<R_get_search> ret = get_search_holder.get(param);
+        if (ret == null) {
+            synchronized (get_search_holder)
+            {
+                ret = get_search_holder.get(param);
+                if (ret == null) {
+                    SimpleObjectProperty<R_get_search> holder = new SimpleObjectProperty<>();
+                    ret = (cache).toHolder(holder);
+                    get_search_holder.put(param, ret);
+                    (cache).addFetchCacheObject("get_search", headerHandler -> (cache.swagger).get(categories, search, strict, headerHandler), item -> {
+                        synchronized (holder)
+                        {
+                            holder.set(item);
+                        }
+                    }
+                    );
+                }
+            }
+        }
+        return ret;
+    }
+}

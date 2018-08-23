@@ -11,7 +11,9 @@
 	<name>sde</name>
 	<packaging>pom</packaging>
 	<modules>
-		<module>ESI</module>
-		<module>ESI-compiler</module>
+		<module>JCESI</module>
+		<module>JCESI-compiler</module>
+		<module>JCESI-interfaces</module>
+		
 	</modules>
 </project>

@@ -7,7 +7,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.esi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
@@ -44,7 +43,6 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, RegionalMarket market) {
 				ObservableDoubleValue var = market.getBO(typeID, 1);
-				ConnectedImpl.waitO(var);
 				return var.doubleValue();
 			}
 		},
@@ -52,7 +50,6 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, RegionalMarket market) {
 				ObservableDoubleValue var = market.getSO(typeID, 1);
-				ConnectedImpl.waitO(var);
 				return var.doubleValue();
 			}
 		},
@@ -60,7 +57,6 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, RegionalMarket market) {
 				ObservableDoubleValue var = market.getHistory(typeID).monthlyAverage();
-				ConnectedImpl.waitO(var);
 				return var.doubleValue();
 			}
 		},
@@ -68,7 +64,6 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, RegionalMarket market) {
 				ObservableDoubleValue var = market.getHistory(typeID).weeklyAverage();
-				ConnectedImpl.waitO(var);
 				return var.doubleValue();
 			}
 		};

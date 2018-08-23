@@ -133,7 +133,7 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-				<artifactId>ESI</artifactId>
+				<artifactId>JCESI</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
