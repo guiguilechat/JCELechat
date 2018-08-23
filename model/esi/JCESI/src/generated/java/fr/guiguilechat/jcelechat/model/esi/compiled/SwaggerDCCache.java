@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.model.esi.compiled;
 
 import fr.guiguilechat.jcelechat.model.esi.compiled.disconnected.Alliances;
 import fr.guiguilechat.jcelechat.model.esi.compiled.disconnected.Characters;
+import fr.guiguilechat.jcelechat.model.esi.compiled.disconnected.Contracts;
 import fr.guiguilechat.jcelechat.model.esi.compiled.disconnected.Corporations;
 import fr.guiguilechat.jcelechat.model.esi.compiled.disconnected.Dogma;
 import fr.guiguilechat.jcelechat.model.esi.compiled.disconnected.Fw;
@@ -26,6 +27,7 @@ public abstract class SwaggerDCCache<T extends G_IDCAccess>
     public final T swagger;
     public final Alliances alliances = new Alliances(this);
     public final Characters characters = new Characters(this);
+    public final Contracts contracts = new Contracts(this);
     public final Corporations corporations = new Corporations(this);
     public final Dogma dogma = new Dogma(this);
     public final Fw fw = new Fw(this);

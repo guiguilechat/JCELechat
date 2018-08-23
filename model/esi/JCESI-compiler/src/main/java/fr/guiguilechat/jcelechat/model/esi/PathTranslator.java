@@ -1,12 +1,15 @@
 package fr.guiguilechat.jcelechat.model.esi;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
@@ -335,6 +338,14 @@ public class PathTranslator {
 	protected JVar cacheContainer;
 	protected JVar cacheParam;
 
+	/** java keywords we can't use as a name */
+	static final Set<String> keywords = Collections.unmodifiableSet(new HashSet<>(
+			Arrays.asList("abstract", "assert", "boolean", "break", "byte", "case", "catch", "char", "class", "const",
+					"continue", "default", "do", "double", "else", "extends", "false", "final", "finally", "float", "for", "goto",
+					"if", "implements", "import", "instanceof", "int", "interface", "long", "native", "new", "null", "package",
+					"private", "protected", "public", "return", "short", "static", "strictfp", "super", "switch", "synchronized",
+					"this", "throw", "throws", "transient", "true", "try", "void", "volatile", "while")));
+
 	protected void createCache() {
 		String fieldName = operation.getOperationId().split("_")[1];
 		cacheGroup = bridge.getCacheGroupClass(fieldName, connected);
@@ -359,12 +370,17 @@ public class PathTranslator {
 		}
 
 		String methName = operation.getOperationId().replaceAll("^get_", "").replaceAll("^" + fieldName + "_", "");
+
 		for (JVar v : allParams) {
 			methName = methName.replaceAll(v.name(), "");
 		}
 		methName = methName.replaceAll("__", "_").replaceAll("^_", "").replaceAll("_$", "");
 		if (methName.length() < 2) {
 			methName = "get";
+		}
+
+		if (keywords.contains(methName)) {
+			methName = "get" + methName;
 		}
 
 		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetType, methName);

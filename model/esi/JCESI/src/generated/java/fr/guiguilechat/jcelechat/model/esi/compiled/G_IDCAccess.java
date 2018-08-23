@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.esi.compiled;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_contracts_bids_contract_4;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_alliances_alliance_id;
@@ -10,6 +11,8 @@ import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_alliances_al
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_characters_character_id_corporationhistory;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_characters_character_id_portrait;
+import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_contracts_public_items_contract_id;
+import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_corporations_corporation_id_alliancehistory;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_corporations_corporation_id_icons;
@@ -147,6 +150,60 @@ public interface G_IDCAccess
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/corporationhistory/".replace("{character_id}", ""+character_id));
         String fetched=connectGet(url,headerHandler);
         return convert((fetched), (fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_characters_character_id_corporationhistory[].class));
+    }
+
+    /**
+     * Get public contract bids
+     * <p>
+     * Lists bids on a public auction contract<br />
+     * This route is cached for up to 300 seconds
+     * </p>
+     * 
+     * @param contract_id
+     *     ID of a contract
+     * @param page
+     *     Which page of results to return
+     */
+    public default M_get_contracts_bids_contract_4 [] get_contracts_public_bids(int contract_id, Integer page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/contracts/public/bids/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String fetched=connectGet(url,headerHandler);
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_contracts_bids_contract_4[].class));
+    }
+
+    /**
+     * Get public contract items
+     * <p>
+     * Lists items of a public contract<br />
+     * This route is cached for up to 3600 seconds
+     * </p>
+     * 
+     * @param contract_id
+     *     ID of a contract
+     * @param page
+     *     Which page of results to return
+     */
+    public default R_get_contracts_public_items_contract_id[] get_contracts_public_items(int contract_id, Integer page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/contracts/public/items/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String fetched=connectGet(url,headerHandler);
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_contracts_public_items_contract_id[].class));
+    }
+
+    /**
+     * Get public contracts
+     * <p>
+     * Returns a paginated list of all public contracts in the given region<br />
+     * This route is cached for up to 1800 seconds
+     * </p>
+     * 
+     * @param page
+     *     Which page of results to return
+     * @param region_id
+     *     An EVE region id
+     */
+    public default R_get_contracts_public_region_id[] get_contracts_public(Integer page, int region_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/contracts/public/{region_id}/".replace("{region_id}", ""+region_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String fetched=connectGet(url,headerHandler);
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_contracts_public_region_id[].class));
     }
 
     /**
