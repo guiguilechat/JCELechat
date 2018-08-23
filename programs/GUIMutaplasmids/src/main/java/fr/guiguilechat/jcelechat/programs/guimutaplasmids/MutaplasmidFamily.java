@@ -10,9 +10,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_universe_groups_group_id;
-import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_universe_types_type_id;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_universe_groups_group_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.mutaplasmids.Muta1MN;

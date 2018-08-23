@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.soboplace;
 
-import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.tools.PriceCellFactory;

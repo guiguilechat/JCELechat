@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.programs.oreworth;
 
-import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
-import fr.guiguilechat.jcelechat.esi.tools.MarketHelpers;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
+import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
 import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Asteroid;
