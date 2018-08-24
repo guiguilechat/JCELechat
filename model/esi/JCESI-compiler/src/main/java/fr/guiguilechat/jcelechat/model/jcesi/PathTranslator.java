@@ -34,8 +34,10 @@ import com.helger.jcodemodel.JLambdaParam;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPrimitiveType;
+import com.helger.jcodemodel.JSynchronizedBlock;
 import com.helger.jcodemodel.JVar;
 
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
@@ -517,7 +519,7 @@ public class PathTranslator {
 	protected void createCache_NoParam_Container() {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE, cm.ref(ObsObjHolder.class).narrow(resourceType.boxify()),
 				operation.getOperationId() + "_holder");
-		JBlock instanceBlock = cacheMeth.body()._if(cacheContainer.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this()).body()
 				._if(cacheContainer.eqNull())._then();
 		JVar holder = instanceBlock.decl(cm.ref(SimpleObjectProperty.class).narrow(resourceType.boxify()), "holder")
 				.init(JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
@@ -527,7 +529,7 @@ public class PathTranslator {
 		invoke.arg(lambdaFetch());
 		JLambda lambdaset = new JLambda();
 		JLambdaParam item = lambdaset.addParam("item");
-		lambdaset.body().synchronizedBlock(holder).body().invoke(holder, "set").arg(item);
+		sync(lambdaset.body(), holder).body().invoke(holder, "set").arg(item);
 		invoke.arg(lambdaset);
 		if (!requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -540,17 +542,34 @@ public class PathTranslator {
 	}
 
 	/**
+	 * create a synchronized(expr) surounded by a call to barker.tak(expr) and a
+	 * call to barker.rel(expr)
+	 *
+	 * @param parent
+	 * @param expr
+	 * @return
+	 */
+	protected JSynchronizedBlock sync(JBlock parent, IJExpression expr) {
+		parent.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "tak").arg(expr);
+		JSynchronizedBlock ret = parent.synchronizedBlock(expr);
+		ret.body().invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "hld").arg(expr);
+		parent.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "rel").arg(expr);
+		return ret;
+	}
+
+	/**
 	 * create the cache body when no parameter and the fetch method returns a list
 	 * of items with no unique field.
 	 */
 	protected void createCache_NoParam_List() {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
-		JBlock instanceBlock = cacheMeth.body()._if(cacheContainer.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this()).body()
 				._if(cacheContainer.eqNull())._then();
 		// _holder = FXCollections.observableArrayList();
 		JVar holder = instanceBlock.decl(cacheHolderType, "holder")
 				.init(cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
 		instanceBlock.assign(cacheContainer, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
+		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(cacheContainer);
 		JInvocation invoke = instanceBlock.invoke(JExpr.direct("cache"), bridge.methFetchCacheArray())
 				.arg(operation.getOperationId());
 
@@ -558,7 +577,9 @@ public class PathTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		lambdaSet.body().synchronizedBlock(holder).body().invoke(holder, "setAll").arg(arr);
+		JBlock setBody = sync(lambdaSet.body(), holder).body();
+		setBody.invoke(holder, "setAll").arg(arr);
+		setBody.invoke(finalRet, "dataReceived");
 		invoke.arg(lambdaSet);
 		if (!requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -626,12 +647,13 @@ public class PathTranslator {
 	/** method is fetch()-> map (param, rettype) */
 	protected void createCache_NoParam_Map() {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
-		JBlock instanceBlock = cacheMeth.body()._if(cacheContainer.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this()).body()
 				._if(cacheContainer.eqNull())._then();
 		// _holder = FXCollections.observableHashMap();
 		JVar holder = instanceBlock.decl(cacheHolderType, "holder")
 				.init(cm.ref(FXCollections.class).staticInvoke("observableHashMap"));
 		instanceBlock.assign(cacheContainer, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
+		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(cacheContainer);
 		JInvocation invoke = instanceBlock.invoke(JExpr.direct("cache"), bridge.methFetchCacheArray())
 				.arg(operation.getOperationId());
 
@@ -639,7 +661,7 @@ public class PathTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		JBlock setBody = lambdaSet.body().synchronizedBlock(holder).body();
+		JBlock setBody = sync(lambdaSet.body(), holder).body();
 		// linkedhashmap<key, resource> newmap = new linkedhashmap<>();
 		JVar newmap = setBody
 				.decl(cm.ref(LinkedHashMap.class).narrow(cacheRetUniqueField.type()).narrow(resourceType), "newmap")
@@ -651,6 +673,7 @@ public class PathTranslator {
 		setBody.add(JExpr.invoke(holder, "entrySet").invoke("retainAll").arg(newmap.invoke("entrySet")));
 		// container.putAll(newmap)
 		setBody.invoke(holder, "putAll").arg(newmap);
+		setBody.invoke(finalRet, "dataReceived");
 		invoke.arg(lambdaSet);
 
 		if (!requiredRoles.isEmpty()) {
@@ -684,7 +707,7 @@ public class PathTranslator {
 
 		JLambda lambdaset = new JLambda();
 		JLambdaParam item = lambdaset.addParam("item");
-		lambdaset.body().synchronizedBlock(holder).body().invoke(holder, "set").arg(item);
+		sync(lambdaset.body(), holder).body().invoke(holder, "set").arg(item);
 		invoke.arg(lambdaset);
 		if (!requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -706,7 +729,7 @@ public class PathTranslator {
 	 */
 	protected JBlock createTestNullCase(JBlock outBlock, JVar ret, IJExpression getter, JVar lock) {
 		ret.init(getter);
-		return outBlock._if(ret.eqNull())._then().synchronizedBlock(lock).body().add(JExpr.assign(ret, getter))
+		return sync(outBlock._if(ret.eqNull())._then(), lock).body().add(JExpr.assign(ret, getter))
 				._if(ret.eqNull())._then();
 	}
 
@@ -721,6 +744,7 @@ public class PathTranslator {
 				.init(cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
 		instanceBlock.assign(ret, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
 		instanceBlock.invoke(cacheContainer, "put").arg(cacheParam).arg(ret);
+		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(ret);
 		JInvocation invoke = instanceBlock.invoke(JExpr.direct("cache"), bridge.methFetchCacheArray())
 				.arg(operation.getOperationId());
 
@@ -728,7 +752,9 @@ public class PathTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		lambdaSet.body().synchronizedBlock(holder).body().invoke(holder, "setAll").arg(arr);
+		JBlock setBody = sync(lambdaSet.body(), holder).body();
+		setBody.invoke(holder, "setAll").arg(arr);
+		setBody.invoke(finalRet, "dataReceived");
 		invoke.arg(lambdaSet);
 		if (!requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -752,6 +778,7 @@ public class PathTranslator {
 				.init(cm.ref(FXCollections.class).staticInvoke("observableHashMap"));
 		instanceBlock.assign(ret, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
 		instanceBlock.invoke(cacheContainer, "put").arg(cacheParam).arg(ret);
+		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(ret);
 		JInvocation invoke = instanceBlock.invoke(JExpr.direct("cache"), bridge.methFetchCacheArray())
 				.arg(operation.getOperationId());
 
@@ -759,7 +786,7 @@ public class PathTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		JBlock setBody = lambdaSet.body().synchronizedBlock(holder).body();
+		JBlock setBody = sync(lambdaSet.body(), holder).body();
 		// linkedhashmap<key, resource> newmap = new linkedhashmap<>();
 		JVar newmap = setBody
 				.decl(cm.ref(LinkedHashMap.class).narrow(cacheRetUniqueField.type()).narrow(resourceType), "newmap")
@@ -771,6 +798,7 @@ public class PathTranslator {
 		setBody.add(JExpr.invoke(holder, "entrySet").invoke("retainAll").arg(newmap.invoke("entrySet")));
 		// container.putAll(newmap)
 		setBody.invoke(holder, "putAll").arg(newmap);
+		setBody.invoke(finalRet, "dataReceived");
 		invoke.arg(lambdaSet);
 		if (!requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));

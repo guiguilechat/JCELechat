@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_universe_ancestries;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id;
@@ -73,20 +74,28 @@ public class Universe {
      */
     public ObsListHolder<R_get_universe_ancestries> ancestries() {
         if (get_universe_ancestries_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_ancestries_holder == null) {
                     ObservableList<R_get_universe_ancestries> holder = FXCollections.observableArrayList();
                     get_universe_ancestries_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_universe_ancestries> finalRet = get_universe_ancestries_holder;
                     (cache).addFetchCacheArray("get_universe_ancestries", (page, headerHandler) -> (cache.swagger).get_universe_ancestries(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_ancestries_holder;
     }
@@ -102,22 +111,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_asteroid_belts_asteroid_belt_id> asteroid_belts(int asteroid_belt_id) {
         ObsObjHolder<R_get_universe_asteroid_belts_asteroid_belt_id> ret = get_universe_asteroid_belts_asteroid_belt_id_holder.get(asteroid_belt_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_asteroid_belts_asteroid_belt_id_holder);
             synchronized (get_universe_asteroid_belts_asteroid_belt_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_asteroid_belts_asteroid_belt_id_holder);
                 ret = get_universe_asteroid_belts_asteroid_belt_id_holder.get(asteroid_belt_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_asteroid_belts_asteroid_belt_id_holder.put(asteroid_belt_id, ret);
                     (cache).addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", headerHandler -> (cache.swagger).get_universe_asteroid_belts(asteroid_belt_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_asteroid_belts_asteroid_belt_id_holder);
         }
         return ret;
     }
@@ -129,20 +144,28 @@ public class Universe {
      */
     public ObsListHolder<R_get_universe_bloodlines> bloodlines() {
         if (get_universe_bloodlines_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_bloodlines_holder == null) {
                     ObservableList<R_get_universe_bloodlines> holder = FXCollections.observableArrayList();
                     get_universe_bloodlines_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_universe_bloodlines> finalRet = get_universe_bloodlines_holder;
                     (cache).addFetchCacheArray("get_universe_bloodlines", (page, headerHandler) -> (cache.swagger).get_universe_bloodlines(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_bloodlines_holder;
     }
@@ -154,20 +177,28 @@ public class Universe {
      */
     public ObsListHolder<Integer> categories() {
         if (get_universe_categories_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_categories_holder == null) {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_universe_categories_holder = (cache).toHolder(holder);
+                    ObsListHolder<Integer> finalRet = get_universe_categories_holder;
                     (cache).addFetchCacheArray("get_universe_categories", (page, headerHandler) -> IntStream.of((cache.swagger).get_universe_categories(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_categories_holder;
     }
@@ -183,22 +214,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_categories_category_id> categories(int category_id) {
         ObsObjHolder<R_get_universe_categories_category_id> ret = get_universe_categories_category_id_holder.get(category_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_categories_category_id_holder);
             synchronized (get_universe_categories_category_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_categories_category_id_holder);
                 ret = get_universe_categories_category_id_holder.get(category_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_categories_category_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_categories_category_id_holder.put(category_id, ret);
                     (cache).addFetchCacheObject("get_universe_categories_category_id", headerHandler -> (cache.swagger).get_universe_categories(category_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_categories_category_id_holder);
         }
         return ret;
     }
@@ -210,20 +247,28 @@ public class Universe {
      */
     public ObsListHolder<Integer> constellations() {
         if (get_universe_constellations_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_constellations_holder == null) {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_universe_constellations_holder = (cache).toHolder(holder);
+                    ObsListHolder<Integer> finalRet = get_universe_constellations_holder;
                     (cache).addFetchCacheArray("get_universe_constellations", (page, headerHandler) -> IntStream.of((cache.swagger).get_universe_constellations(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_constellations_holder;
     }
@@ -239,22 +284,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_constellations_constellation_id> constellations(int constellation_id) {
         ObsObjHolder<R_get_universe_constellations_constellation_id> ret = get_universe_constellations_constellation_id_holder.get(constellation_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_constellations_constellation_id_holder);
             synchronized (get_universe_constellations_constellation_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_constellations_constellation_id_holder);
                 ret = get_universe_constellations_constellation_id_holder.get(constellation_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_constellations_constellation_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_constellations_constellation_id_holder.put(constellation_id, ret);
                     (cache).addFetchCacheObject("get_universe_constellations_constellation_id", headerHandler -> (cache.swagger).get_universe_constellations(constellation_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_constellations_constellation_id_holder);
         }
         return ret;
     }
@@ -266,20 +317,28 @@ public class Universe {
      */
     public ObsListHolder<Integer> graphics() {
         if (get_universe_graphics_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_graphics_holder == null) {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_universe_graphics_holder = (cache).toHolder(holder);
+                    ObsListHolder<Integer> finalRet = get_universe_graphics_holder;
                     (cache).addFetchCacheArray("get_universe_graphics", (page, headerHandler) -> IntStream.of((cache.swagger).get_universe_graphics(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_graphics_holder;
     }
@@ -295,22 +354,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_graphics_graphic_id> graphics(int graphic_id) {
         ObsObjHolder<R_get_universe_graphics_graphic_id> ret = get_universe_graphics_graphic_id_holder.get(graphic_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_graphics_graphic_id_holder);
             synchronized (get_universe_graphics_graphic_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_graphics_graphic_id_holder);
                 ret = get_universe_graphics_graphic_id_holder.get(graphic_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_graphics_graphic_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_graphics_graphic_id_holder.put(graphic_id, ret);
                     (cache).addFetchCacheObject("get_universe_graphics_graphic_id", headerHandler -> (cache.swagger).get_universe_graphics(graphic_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_graphics_graphic_id_holder);
         }
         return ret;
     }
@@ -322,20 +387,28 @@ public class Universe {
      */
     public ObsListHolder<Integer> groups() {
         if (get_universe_groups_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_groups_holder == null) {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_universe_groups_holder = (cache).toHolder(holder);
+                    ObsListHolder<Integer> finalRet = get_universe_groups_holder;
                     (cache).addFetchCacheArray("get_universe_groups", (page, headerHandler) -> IntStream.of((cache.swagger).get_universe_groups(page, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_groups_holder;
     }
@@ -351,22 +424,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_groups_group_id> groups(int group_id) {
         ObsObjHolder<R_get_universe_groups_group_id> ret = get_universe_groups_group_id_holder.get(group_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_groups_group_id_holder);
             synchronized (get_universe_groups_group_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_groups_group_id_holder);
                 ret = get_universe_groups_group_id_holder.get(group_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_groups_group_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_groups_group_id_holder.put(group_id, ret);
                     (cache).addFetchCacheObject("get_universe_groups_group_id", headerHandler -> (cache.swagger).get_universe_groups(group_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_groups_group_id_holder);
         }
         return ret;
     }
@@ -382,22 +461,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_moons_moon_id> moons(int moon_id) {
         ObsObjHolder<R_get_universe_moons_moon_id> ret = get_universe_moons_moon_id_holder.get(moon_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_moons_moon_id_holder);
             synchronized (get_universe_moons_moon_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_moons_moon_id_holder);
                 ret = get_universe_moons_moon_id_holder.get(moon_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_moons_moon_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_moons_moon_id_holder.put(moon_id, ret);
                     (cache).addFetchCacheObject("get_universe_moons_moon_id", headerHandler -> (cache.swagger).get_universe_moons(moon_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_moons_moon_id_holder);
         }
         return ret;
     }
@@ -413,22 +498,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_planets_planet_id> planets(int planet_id) {
         ObsObjHolder<R_get_universe_planets_planet_id> ret = get_universe_planets_planet_id_holder.get(planet_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_planets_planet_id_holder);
             synchronized (get_universe_planets_planet_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_planets_planet_id_holder);
                 ret = get_universe_planets_planet_id_holder.get(planet_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_planets_planet_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_planets_planet_id_holder.put(planet_id, ret);
                     (cache).addFetchCacheObject("get_universe_planets_planet_id", headerHandler -> (cache.swagger).get_universe_planets(planet_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_planets_planet_id_holder);
         }
         return ret;
     }
@@ -440,20 +531,28 @@ public class Universe {
      */
     public ObsListHolder<R_get_universe_races> races() {
         if (get_universe_races_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_races_holder == null) {
                     ObservableList<R_get_universe_races> holder = FXCollections.observableArrayList();
                     get_universe_races_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_universe_races> finalRet = get_universe_races_holder;
                     (cache).addFetchCacheArray("get_universe_races", (page, headerHandler) -> (cache.swagger).get_universe_races(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_races_holder;
     }
@@ -465,20 +564,28 @@ public class Universe {
      */
     public ObsListHolder<Integer> regions() {
         if (get_universe_regions_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_regions_holder == null) {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_universe_regions_holder = (cache).toHolder(holder);
+                    ObsListHolder<Integer> finalRet = get_universe_regions_holder;
                     (cache).addFetchCacheArray("get_universe_regions", (page, headerHandler) -> IntStream.of((cache.swagger).get_universe_regions(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_regions_holder;
     }
@@ -494,22 +601,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_regions_region_id> regions(int region_id) {
         ObsObjHolder<R_get_universe_regions_region_id> ret = get_universe_regions_region_id_holder.get(region_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_regions_region_id_holder);
             synchronized (get_universe_regions_region_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_regions_region_id_holder);
                 ret = get_universe_regions_region_id_holder.get(region_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_regions_region_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_regions_region_id_holder.put(region_id, ret);
                     (cache).addFetchCacheObject("get_universe_regions_region_id", headerHandler -> (cache.swagger).get_universe_regions(region_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_regions_region_id_holder);
         }
         return ret;
     }
@@ -525,22 +638,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_schematics_schematic_id> schematics(int schematic_id) {
         ObsObjHolder<R_get_universe_schematics_schematic_id> ret = get_universe_schematics_schematic_id_holder.get(schematic_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_schematics_schematic_id_holder);
             synchronized (get_universe_schematics_schematic_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_schematics_schematic_id_holder);
                 ret = get_universe_schematics_schematic_id_holder.get(schematic_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_schematics_schematic_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_schematics_schematic_id_holder.put(schematic_id, ret);
                     (cache).addFetchCacheObject("get_universe_schematics_schematic_id", headerHandler -> (cache.swagger).get_universe_schematics(schematic_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_schematics_schematic_id_holder);
         }
         return ret;
     }
@@ -556,22 +675,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_stargates_stargate_id> stargates(int stargate_id) {
         ObsObjHolder<R_get_universe_stargates_stargate_id> ret = get_universe_stargates_stargate_id_holder.get(stargate_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_stargates_stargate_id_holder);
             synchronized (get_universe_stargates_stargate_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_stargates_stargate_id_holder);
                 ret = get_universe_stargates_stargate_id_holder.get(stargate_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_stargates_stargate_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_stargates_stargate_id_holder.put(stargate_id, ret);
                     (cache).addFetchCacheObject("get_universe_stargates_stargate_id", headerHandler -> (cache.swagger).get_universe_stargates(stargate_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_stargates_stargate_id_holder);
         }
         return ret;
     }
@@ -587,22 +712,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_stars_star_id> stars(int star_id) {
         ObsObjHolder<R_get_universe_stars_star_id> ret = get_universe_stars_star_id_holder.get(star_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_stars_star_id_holder);
             synchronized (get_universe_stars_star_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_stars_star_id_holder);
                 ret = get_universe_stars_star_id_holder.get(star_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_stars_star_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_stars_star_id_holder.put(star_id, ret);
                     (cache).addFetchCacheObject("get_universe_stars_star_id", headerHandler -> (cache.swagger).get_universe_stars(star_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_stars_star_id_holder);
         }
         return ret;
     }
@@ -614,20 +745,28 @@ public class Universe {
      */
     public ObsListHolder<Long> structures() {
         if (get_universe_structures_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_structures_holder == null) {
                     ObservableList<Long> holder = FXCollections.observableArrayList();
                     get_universe_structures_holder = (cache).toHolder(holder);
+                    ObsListHolder<Long> finalRet = get_universe_structures_holder;
                     (cache).addFetchCacheArray("get_universe_structures", (page, headerHandler) -> LongStream.of((cache.swagger).get_universe_structures(headerHandler)).mapToObj((Long::valueOf)).toArray((Long[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_structures_holder;
     }
@@ -639,20 +778,28 @@ public class Universe {
      */
     public ObsListHolder<R_get_universe_system_jumps> system_jumps() {
         if (get_universe_system_jumps_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_system_jumps_holder == null) {
                     ObservableList<R_get_universe_system_jumps> holder = FXCollections.observableArrayList();
                     get_universe_system_jumps_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_universe_system_jumps> finalRet = get_universe_system_jumps_holder;
                     (cache).addFetchCacheArray("get_universe_system_jumps", (page, headerHandler) -> (cache.swagger).get_universe_system_jumps(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_system_jumps_holder;
     }
@@ -664,20 +811,28 @@ public class Universe {
      */
     public ObsListHolder<Integer> systems() {
         if (get_universe_systems_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_systems_holder == null) {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_universe_systems_holder = (cache).toHolder(holder);
+                    ObsListHolder<Integer> finalRet = get_universe_systems_holder;
                     (cache).addFetchCacheArray("get_universe_systems", (page, headerHandler) -> IntStream.of((cache.swagger).get_universe_systems(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_systems_holder;
     }
@@ -689,20 +844,28 @@ public class Universe {
      */
     public ObsListHolder<Integer> types() {
         if (get_universe_types_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_types_holder == null) {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_universe_types_holder = (cache).toHolder(holder);
+                    ObsListHolder<Integer> finalRet = get_universe_types_holder;
                     (cache).addFetchCacheArray("get_universe_types", (page, headerHandler) -> IntStream.of((cache.swagger).get_universe_types(page, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_types_holder;
     }
@@ -714,20 +877,28 @@ public class Universe {
      */
     public ObsListHolder<R_get_universe_factions> factions() {
         if (get_universe_factions_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_factions_holder == null) {
                     ObservableList<R_get_universe_factions> holder = FXCollections.observableArrayList();
                     get_universe_factions_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_universe_factions> finalRet = get_universe_factions_holder;
                     (cache).addFetchCacheArray("get_universe_factions", (page, headerHandler) -> (cache.swagger).get_universe_factions(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_factions_holder;
     }
@@ -743,22 +914,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_stations_station_id> stations(int station_id) {
         ObsObjHolder<R_get_universe_stations_station_id> ret = get_universe_stations_station_id_holder.get(station_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_stations_station_id_holder);
             synchronized (get_universe_stations_station_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_stations_station_id_holder);
                 ret = get_universe_stations_station_id_holder.get(station_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_stations_station_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_stations_station_id_holder.put(station_id, ret);
                     (cache).addFetchCacheObject("get_universe_stations_station_id", headerHandler -> (cache.swagger).get_universe_stations(station_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_stations_station_id_holder);
         }
         return ret;
     }
@@ -770,20 +947,28 @@ public class Universe {
      */
     public ObsListHolder<R_get_universe_system_kills> system_kills() {
         if (get_universe_system_kills_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_universe_system_kills_holder == null) {
                     ObservableList<R_get_universe_system_kills> holder = FXCollections.observableArrayList();
                     get_universe_system_kills_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_universe_system_kills> finalRet = get_universe_system_kills_holder;
                     (cache).addFetchCacheArray("get_universe_system_kills", (page, headerHandler) -> (cache.swagger).get_universe_system_kills(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_universe_system_kills_holder;
     }
@@ -799,22 +984,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_types_type_id> types(int type_id) {
         ObsObjHolder<R_get_universe_types_type_id> ret = get_universe_types_type_id_holder.get(type_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_types_type_id_holder);
             synchronized (get_universe_types_type_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_types_type_id_holder);
                 ret = get_universe_types_type_id_holder.get(type_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_types_type_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_types_type_id_holder.put(type_id, ret);
                     (cache).addFetchCacheObject("get_universe_types_type_id", headerHandler -> (cache.swagger).get_universe_types(type_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_types_type_id_holder);
         }
         return ret;
     }
@@ -830,22 +1021,28 @@ public class Universe {
     public ObsObjHolder<R_get_universe_systems_system_id> systems(int system_id) {
         ObsObjHolder<R_get_universe_systems_system_id> ret = get_universe_systems_system_id_holder.get(system_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_systems_system_id_holder);
             synchronized (get_universe_systems_system_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_universe_systems_system_id_holder);
                 ret = get_universe_systems_system_id_holder.get(system_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_universe_systems_system_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_systems_system_id_holder.put(system_id, ret);
                     (cache).addFetchCacheObject("get_universe_systems_system_id", headerHandler -> (cache.swagger).get_universe_systems(system_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_universe_systems_system_id_holder);
         }
         return ret;
     }

@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.jcesi.connected;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +13,7 @@ import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper.AccessToken;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
-import fr.guiguilechat.tools.JFXTools;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
 
 /**
@@ -114,7 +115,15 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 			synchronized (this) {
 				if (roles == null) {
 					ObsObjHolder<R_get_characters_character_id_roles> r = cache.characters.roles(verify().CharacterID);
-					roles = JFXTools.makeSet(r.asObservable(), () -> Arrays.asList(r.get().roles));
+					roles = FXCollections.observableSet();
+					r.follow(newroles -> {
+						synchronized (roles) {
+							List<String> roleslist = Arrays.asList(newroles.roles);
+							roles.retainAll(roleslist);
+							roles.addAll(roleslist);
+							System.err.println("new roles are " + roles);
+						}
+					});
 				}
 			}
 		}

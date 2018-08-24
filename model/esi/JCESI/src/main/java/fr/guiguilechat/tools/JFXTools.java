@@ -1,6 +1,5 @@
 package fr.guiguilechat.tools;
 
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Map.Entry;
 import java.util.concurrent.CountDownLatch;
@@ -8,10 +7,8 @@ import java.util.function.DoublePredicate;
 import java.util.function.Function;
 import java.util.function.IntPredicate;
 import java.util.function.LongPredicate;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-import javafx.beans.Observable;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.LongProperty;
@@ -30,80 +27,8 @@ import javafx.collections.ListChangeListener;
 import javafx.collections.MapChangeListener;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
-import javafx.collections.ObservableSet;
 
 public class JFXTools {
-
-	/**
-	 * Make a set from a observablevalue of something we can extract an iterable
-	 * from<br />
-	 * <p>
-	 * example of code :
-	 *
-	 * <pre>
-	 * {
-	 * 	&#64;code
-	 * 	ObservableValue<Map<Date, String>> data;
-	 * 	ObservableSet<Date> dates = makeSet(data, Map::keySet);
-	 * }
-	 * </pre>
-	 * </p>
-	 *
-	 * @param data
-	 * @param extractor
-	 * @return
-	 */
-	public static <T, U> ObservableSet<T> makeSet(ObservableValue<U> data, Function<U, ? extends Iterable<T>> extractor) {
-		HashSet<T> set = new HashSet<>();
-		ObservableSet<T> ret = FXCollections.observableSet(set);
-		synchronized (data) {
-			U value = data.getValue();
-			if (value != null) {
-				for (T t : extractor.apply(value)) {
-					set.add(t);
-				}
-			}
-			data.addListener((ChangeListener<? super U>) (observable, oldValue, newValue) -> {
-				if (newValue != null) {
-					synchronized (data) {
-						HashSet<T> newValues = new HashSet<>();
-						for (T t : extractor.apply(data.getValue())) {
-							newValues.add(t);
-						}
-						ret.retainAll(newValues);
-						ret.addAll(newValues);
-					}
-				} else {
-					ret.clear();
-				}
-			});
-		}
-		return ret;
-	}
-
-	public static <T, U> ObservableSet<T> makeSet(Observable data, Supplier<? extends Iterable<T>> extractor) {
-		HashSet<T> set = new HashSet<>();
-		ObservableSet<T> ret = FXCollections.observableSet(set);
-		synchronized (data) {
-			Iterable<T> it = extractor.get();
-			if(it!=null) {
-				for (T t : extractor.get()) {
-					set.add(t);
-				}
-			}
-			data.addListener((observable) -> {
-				synchronized (data) {
-					HashSet<T> newValues = new HashSet<>();
-					for (T t : extractor.get()) {
-						newValues.add(t);
-					}
-					ret.retainAll(newValues);
-					ret.addAll(newValues);
-				}
-			});
-		}
-		return ret;
-	}
 
 	static final long[] unitSuffixValue = { 1000000000000l, 1000000000l, 1000000l, 1000l };
 	static final String[] unitSuffix = { "T", "B", "M", "k" };

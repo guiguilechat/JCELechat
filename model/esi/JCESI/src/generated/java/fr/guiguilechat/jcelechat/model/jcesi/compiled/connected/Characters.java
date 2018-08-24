@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.keys.K_0_int_Integer;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.keys.K_18_int_int;
@@ -136,22 +137,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_agents_research> agents_research(int character_id) {
         ObsListHolder<R_get_characters_character_id_agents_research> ret = get_characters_character_id_agents_research_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_agents_research_holder);
             synchronized (get_characters_character_id_agents_research_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_agents_research_holder);
                 ret = get_characters_character_id_agents_research_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_agents_research> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_agents_research_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_agents_research> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_agents_research", (page, headerHandler) -> (cache.swagger).get_characters_agents_research(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_agents_research_holder);
         }
         return ret;
     }
@@ -167,28 +176,34 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_attributes> attributes(int character_id) {
         ObsObjHolder<R_get_characters_character_id_attributes> ret = get_characters_character_id_attributes_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_attributes_holder);
             synchronized (get_characters_character_id_attributes_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_attributes_holder);
                 ret = get_characters_character_id_attributes_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_attributes> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_attributes_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_attributes", headerHandler -> (cache.swagger).get_characters_attributes(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_attributes_holder);
         }
         return ret;
     }
 
     /**
-     * Get 50 event summaries from the calendar. If no from_event ID is given, the resource will return the next 50 chronological event summaries from now. If a from_event ID is specified, it will return the next 50 chronological event summaries from after that event.
+     * Get 50 event summaries from the calendar. If no from_event ID is given, the resource will return the next 50 chronological event summaries from now. If a from_event ID is specified, it will return the next 50 chronological event summaries from after that event
      * 
      * cache over {@link Swagger#get_characters_calendar}<br />
      * 
@@ -201,22 +216,30 @@ public class Characters {
         K_0_int_Integer param = new K_0_int_Integer(character_id, from_event);
         ObsListHolder<R_get_characters_character_id_calendar> ret = get_characters_character_id_calendar_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_calendar_holder);
             synchronized (get_characters_character_id_calendar_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_calendar_holder);
                 ret = get_characters_character_id_calendar_holder.get(param);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_calendar> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_calendar_holder.put(param, ret);
+                    ObsListHolder<R_get_characters_character_id_calendar> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_calendar", (page, headerHandler) -> (cache.swagger).get_characters_calendar(character_id, from_event, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_calendar_holder);
         }
         return ret;
     }
@@ -235,22 +258,30 @@ public class Characters {
         K_1_int_int param = new K_1_int_int(event_id, character_id);
         ObsListHolder<R_get_characters_character_id_calendar_event_id_attendees> ret = get_characters_character_id_calendar_event_id_attendees_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_calendar_event_id_attendees_holder);
             synchronized (get_characters_character_id_calendar_event_id_attendees_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_calendar_event_id_attendees_holder);
                 ret = get_characters_character_id_calendar_event_id_attendees_holder.get(param);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_calendar_event_id_attendees> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_calendar_event_id_attendees_holder.put(param, ret);
+                    ObsListHolder<R_get_characters_character_id_calendar_event_id_attendees> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_calendar_event_id_attendees", (page, headerHandler) -> (cache.swagger).get_characters_calendar_attendees(character_id, event_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_calendar_event_id_attendees_holder);
         }
         return ret;
     }
@@ -266,22 +297,30 @@ public class Characters {
     public ObsListHolder<M_get_contacts_labels_2> contacts_labels(int character_id) {
         ObsListHolder<M_get_contacts_labels_2> ret = get_characters_character_id_contacts_labels_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_contacts_labels_holder);
             synchronized (get_characters_character_id_contacts_labels_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_contacts_labels_holder);
                 ret = get_characters_character_id_contacts_labels_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<M_get_contacts_labels_2> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_contacts_labels_holder.put(character_id, ret);
+                    ObsListHolder<M_get_contacts_labels_2> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_contacts_labels", (page, headerHandler) -> (cache.swagger).get_characters_contacts_labels(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_contacts_labels_holder);
         }
         return ret;
     }
@@ -297,22 +336,30 @@ public class Characters {
     public ObsListHolder<M_get_contracts_22> contracts(int character_id) {
         ObsListHolder<M_get_contracts_22> ret = get_characters_character_id_contracts_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_contracts_holder);
             synchronized (get_characters_character_id_contracts_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_contracts_holder);
                 ret = get_characters_character_id_contracts_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<M_get_contracts_22> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_contracts_holder.put(character_id, ret);
+                    ObsListHolder<M_get_contracts_22> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_contracts", (page, headerHandler) -> (cache.swagger).get_characters_contracts(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_contracts_holder);
         }
         return ret;
     }
@@ -331,27 +378,35 @@ public class Characters {
         K_2_int_int param = new K_2_int_int(contract_id, character_id);
         ObsMapHolder<Integer, M_get_contracts_bids_contract_4> ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_contracts_contract_id_bids_holder);
             synchronized (get_characters_character_id_contracts_contract_id_bids_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_contracts_contract_id_bids_holder);
                 ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
                 if (ret == null) {
                     ObservableMap<Integer, M_get_contracts_bids_contract_4> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_contracts_contract_id_bids_holder.put(param, ret);
+                    ObsMapHolder<Integer, M_get_contracts_bids_contract_4> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_contracts_contract_id_bids", (page, headerHandler) -> (cache.swagger).get_characters_contracts_bids(character_id, contract_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             LinkedHashMap<Integer, M_get_contracts_bids_contract_4> newmap = new LinkedHashMap<>();
                             for (M_get_contracts_bids_contract_4 val: arr) {
                                 newmap.put((val.bid_id), (val));
                             }
                             holder.entrySet().retainAll(newmap.entrySet());
                             holder.putAll(newmap);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_contracts_contract_id_bids_holder);
         }
         return ret;
     }
@@ -370,27 +425,35 @@ public class Characters {
         K_2_int_int param = new K_2_int_int(contract_id, character_id);
         ObsMapHolder<Long, M_get_contracts_contract_items_6> ret = get_characters_character_id_contracts_contract_id_items_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_contracts_contract_id_items_holder);
             synchronized (get_characters_character_id_contracts_contract_id_items_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_contracts_contract_id_items_holder);
                 ret = get_characters_character_id_contracts_contract_id_items_holder.get(param);
                 if (ret == null) {
                     ObservableMap<Long, M_get_contracts_contract_items_6> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_contracts_contract_id_items_holder.put(param, ret);
+                    ObsMapHolder<Long, M_get_contracts_contract_items_6> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_contracts_contract_id_items", (page, headerHandler) -> (cache.swagger).get_characters_contracts_items(character_id, contract_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             LinkedHashMap<Long, M_get_contracts_contract_items_6> newmap = new LinkedHashMap<>();
                             for (M_get_contracts_contract_items_6 val: arr) {
                                 newmap.put((val.record_id), (val));
                             }
                             holder.entrySet().retainAll(newmap.entrySet());
                             holder.putAll(newmap);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_contracts_contract_id_items_holder);
         }
         return ret;
     }
@@ -406,22 +469,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_fatigue> fatigue(int character_id) {
         ObsObjHolder<R_get_characters_character_id_fatigue> ret = get_characters_character_id_fatigue_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_fatigue_holder);
             synchronized (get_characters_character_id_fatigue_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_fatigue_holder);
                 ret = get_characters_character_id_fatigue_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_fatigue> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_fatigue_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_fatigue", headerHandler -> (cache.swagger).get_characters_fatigue(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_fatigue_holder);
         }
         return ret;
     }
@@ -437,22 +506,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_fittings> fittings(int character_id) {
         ObsListHolder<R_get_characters_character_id_fittings> ret = get_characters_character_id_fittings_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_fittings_holder);
             synchronized (get_characters_character_id_fittings_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_fittings_holder);
                 ret = get_characters_character_id_fittings_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_fittings> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_fittings_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_fittings> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_fittings", (page, headerHandler) -> (cache.swagger).get_characters_fittings(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_fittings_holder);
         }
         return ret;
     }
@@ -468,22 +545,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_fleet> fleet(int character_id) {
         ObsObjHolder<R_get_characters_character_id_fleet> ret = get_characters_character_id_fleet_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_fleet_holder);
             synchronized (get_characters_character_id_fleet_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_fleet_holder);
                 ret = get_characters_character_id_fleet_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_fleet> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_fleet_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_fleet", headerHandler -> (cache.swagger).get_characters_fleet(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_fleet_holder);
         }
         return ret;
     }
@@ -499,22 +582,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_fw_stats> fw_stats(int character_id) {
         ObsObjHolder<R_get_characters_character_id_fw_stats> ret = get_characters_character_id_fw_stats_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_fw_stats_holder);
             synchronized (get_characters_character_id_fw_stats_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_fw_stats_holder);
                 ret = get_characters_character_id_fw_stats_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_fw_stats> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_fw_stats_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_fw_stats", headerHandler -> (cache.swagger).get_characters_fw_stats(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_fw_stats_holder);
         }
         return ret;
     }
@@ -530,22 +619,30 @@ public class Characters {
     public ObsListHolder<Integer> implants(int character_id) {
         ObsListHolder<Integer> ret = get_characters_character_id_implants_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_implants_holder);
             synchronized (get_characters_character_id_implants_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_implants_holder);
                 ret = get_characters_character_id_implants_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_implants_holder.put(character_id, ret);
+                    ObsListHolder<Integer> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_implants", (page, headerHandler) -> IntStream.of((cache.swagger).get_characters_implants(character_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_implants_holder);
         }
         return ret;
     }
@@ -558,33 +655,41 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      * @param include_completed
-     *     Whether to retrieve completed character industry jobs. Only includes jobs from the past 90 days.
+     *     Whether to retrieve completed character industry jobs. Only includes jobs from the past 90 days
      */
     public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> industry_jobs(int character_id, Boolean include_completed) {
         K_3_Boolean_int param = new K_3_Boolean_int(include_completed, character_id);
         ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> ret = get_characters_character_id_industry_jobs_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_industry_jobs_holder);
             synchronized (get_characters_character_id_industry_jobs_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_industry_jobs_holder);
                 ret = get_characters_character_id_industry_jobs_holder.get(param);
                 if (ret == null) {
                     ObservableMap<Integer, R_get_characters_character_id_industry_jobs> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_industry_jobs_holder.put(param, ret);
+                    ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_industry_jobs", (page, headerHandler) -> (cache.swagger).get_characters_industry_jobs(character_id, include_completed, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             LinkedHashMap<Integer, R_get_characters_character_id_industry_jobs> newmap = new LinkedHashMap<>();
                             for (R_get_characters_character_id_industry_jobs val: arr) {
                                 newmap.put((val.job_id), (val));
                             }
                             holder.entrySet().retainAll(newmap.entrySet());
                             holder.putAll(newmap);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_industry_jobs_holder);
         }
         return ret;
     }
@@ -600,28 +705,36 @@ public class Characters {
     public ObsListHolder<M_get_killmails_2> killmails_recent(int character_id) {
         ObsListHolder<M_get_killmails_2> ret = get_characters_character_id_killmails_recent_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_killmails_recent_holder);
             synchronized (get_characters_character_id_killmails_recent_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_killmails_recent_holder);
                 ret = get_characters_character_id_killmails_recent_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<M_get_killmails_2> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_killmails_recent_holder.put(character_id, ret);
+                    ObsListHolder<M_get_killmails_2> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_killmails_recent", (page, headerHandler) -> (cache.swagger).get_characters_killmails_recent(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_killmails_recent_holder);
         }
         return ret;
     }
 
     /**
-     * Information about the characters current location. Returns the current solar system id, and also the current station or structure ID if applicable.
+     * Information about the characters current location. Returns the current solar system id, and also the current station or structure ID if applicable
      * 
      * cache over {@link Swagger#get_characters_location}<br />
      * 
@@ -631,22 +744,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_location> location(int character_id) {
         ObsObjHolder<R_get_characters_character_id_location> ret = get_characters_character_id_location_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_location_holder);
             synchronized (get_characters_character_id_location_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_location_holder);
                 ret = get_characters_character_id_location_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_location> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_location_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_location", headerHandler -> (cache.swagger).get_characters_location(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_location_holder);
         }
         return ret;
     }
@@ -662,28 +781,36 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_loyalty_points> loyalty_points(int character_id) {
         ObsListHolder<R_get_characters_character_id_loyalty_points> ret = get_characters_character_id_loyalty_points_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_loyalty_points_holder);
             synchronized (get_characters_character_id_loyalty_points_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_loyalty_points_holder);
                 ret = get_characters_character_id_loyalty_points_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_loyalty_points> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_loyalty_points_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_loyalty_points> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_loyalty_points", (page, headerHandler) -> (cache.swagger).get_characters_loyalty_points(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_loyalty_points_holder);
         }
         return ret;
     }
 
     /**
-     * Return the 50 most recent mail headers belonging to the character that match the query criteria. Queries can be filtered by label, and last_mail_id can be used to paginate backwards.
+     * Return the 50 most recent mail headers belonging to the character that match the query criteria. Queries can be filtered by label, and last_mail_id can be used to paginate backwards
      * 
      * cache over {@link Swagger#get_characters_mail}<br />
      * 
@@ -698,22 +825,30 @@ public class Characters {
         K_4_Integer_int_Lint param = new K_4_Integer_int_Lint(last_mail_id, character_id, labels);
         ObsListHolder<R_get_characters_character_id_mail> ret = get_characters_character_id_mail_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_mail_holder);
             synchronized (get_characters_character_id_mail_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_mail_holder);
                 ret = get_characters_character_id_mail_holder.get(param);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_mail> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_mail_holder.put(param, ret);
+                    ObsListHolder<R_get_characters_character_id_mail> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_mail", (page, headerHandler) -> (cache.swagger).get_characters_mail(character_id, labels, last_mail_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_mail_holder);
         }
         return ret;
     }
@@ -729,22 +864,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_mail_lists> mail_lists(int character_id) {
         ObsListHolder<R_get_characters_character_id_mail_lists> ret = get_characters_character_id_mail_lists_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_mail_lists_holder);
             synchronized (get_characters_character_id_mail_lists_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_mail_lists_holder);
                 ret = get_characters_character_id_mail_lists_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_mail_lists> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_mail_lists_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_mail_lists> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_mail_lists", (page, headerHandler) -> (cache.swagger).get_characters_mail_lists(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_mail_lists_holder);
         }
         return ret;
     }
@@ -763,22 +906,28 @@ public class Characters {
         K_5_int_int param = new K_5_int_int(mail_id, character_id);
         ObsObjHolder<R_get_characters_character_id_mail_mail_id> ret = get_characters_character_id_mail_mail_id_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_mail_mail_id_holder);
             synchronized (get_characters_character_id_mail_mail_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_mail_mail_id_holder);
                 ret = get_characters_character_id_mail_mail_id_holder.get(param);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_mail_mail_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_mail_mail_id_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_mail_mail_id", headerHandler -> (cache.swagger).get_characters_mail(character_id, mail_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_mail_mail_id_holder);
         }
         return ret;
     }
@@ -794,22 +943,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_medals> medals(int character_id) {
         ObsListHolder<R_get_characters_character_id_medals> ret = get_characters_character_id_medals_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_medals_holder);
             synchronized (get_characters_character_id_medals_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_medals_holder);
                 ret = get_characters_character_id_medals_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_medals> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_medals_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_medals> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_medals", (page, headerHandler) -> (cache.swagger).get_characters_medals(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_medals_holder);
         }
         return ret;
     }
@@ -825,22 +982,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_mining> mining(int character_id) {
         ObsListHolder<R_get_characters_character_id_mining> ret = get_characters_character_id_mining_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_mining_holder);
             synchronized (get_characters_character_id_mining_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_mining_holder);
                 ret = get_characters_character_id_mining_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_mining> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_mining_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_mining> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_mining", (page, headerHandler) -> (cache.swagger).get_characters_mining(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_mining_holder);
         }
         return ret;
     }
@@ -856,22 +1021,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_notifications_contacts> notifications_contacts(int character_id) {
         ObsListHolder<R_get_characters_character_id_notifications_contacts> ret = get_characters_character_id_notifications_contacts_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_notifications_contacts_holder);
             synchronized (get_characters_character_id_notifications_contacts_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_notifications_contacts_holder);
                 ret = get_characters_character_id_notifications_contacts_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_notifications_contacts> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_notifications_contacts_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_notifications_contacts> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_notifications_contacts", (page, headerHandler) -> (cache.swagger).get_characters_notifications_contacts(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_notifications_contacts_holder);
         }
         return ret;
     }
@@ -887,22 +1060,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_opportunities> opportunities(int character_id) {
         ObsListHolder<R_get_characters_character_id_opportunities> ret = get_characters_character_id_opportunities_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_opportunities_holder);
             synchronized (get_characters_character_id_opportunities_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_opportunities_holder);
                 ret = get_characters_character_id_opportunities_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_opportunities> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_opportunities_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_opportunities> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_opportunities", (page, headerHandler) -> (cache.swagger).get_characters_opportunities(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_opportunities_holder);
         }
         return ret;
     }
@@ -918,27 +1099,35 @@ public class Characters {
     public ObsMapHolder<Long, R_get_characters_character_id_orders_history> orders_history(int character_id) {
         ObsMapHolder<Long, R_get_characters_character_id_orders_history> ret = get_characters_character_id_orders_history_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_orders_history_holder);
             synchronized (get_characters_character_id_orders_history_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_orders_history_holder);
                 ret = get_characters_character_id_orders_history_holder.get(character_id);
                 if (ret == null) {
                     ObservableMap<Long, R_get_characters_character_id_orders_history> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_orders_history_holder.put(character_id, ret);
+                    ObsMapHolder<Long, R_get_characters_character_id_orders_history> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_orders_history", (page, headerHandler) -> (cache.swagger).get_characters_orders_history(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             LinkedHashMap<Long, R_get_characters_character_id_orders_history> newmap = new LinkedHashMap<>();
                             for (R_get_characters_character_id_orders_history val: arr) {
                                 newmap.put((val.order_id), (val));
                             }
                             holder.entrySet().retainAll(newmap.entrySet());
                             holder.putAll(newmap);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_orders_history_holder);
         }
         return ret;
     }
@@ -954,22 +1143,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_planets> planets(int character_id) {
         ObsListHolder<R_get_characters_character_id_planets> ret = get_characters_character_id_planets_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_planets_holder);
             synchronized (get_characters_character_id_planets_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_planets_holder);
                 ret = get_characters_character_id_planets_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_planets> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_planets_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_planets> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_planets", (page, headerHandler) -> (cache.swagger).get_characters_planets(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_planets_holder);
         }
         return ret;
     }
@@ -985,22 +1182,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_ship> ship(int character_id) {
         ObsObjHolder<R_get_characters_character_id_ship> ret = get_characters_character_id_ship_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_ship_holder);
             synchronized (get_characters_character_id_ship_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_ship_holder);
                 ret = get_characters_character_id_ship_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_ship> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_ship_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_ship", headerHandler -> (cache.swagger).get_characters_ship(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_ship_holder);
         }
         return ret;
     }
@@ -1016,22 +1219,30 @@ public class Characters {
     public ObsListHolder<M_get_standings_3> standings(int character_id) {
         ObsListHolder<M_get_standings_3> ret = get_characters_character_id_standings_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_standings_holder);
             synchronized (get_characters_character_id_standings_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_standings_holder);
                 ret = get_characters_character_id_standings_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<M_get_standings_3> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_standings_holder.put(character_id, ret);
+                    ObsListHolder<M_get_standings_3> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_standings", (page, headerHandler) -> (cache.swagger).get_characters_standings(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_standings_holder);
         }
         return ret;
     }
@@ -1047,22 +1258,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_titles> titles(int character_id) {
         ObsListHolder<R_get_characters_character_id_titles> ret = get_characters_character_id_titles_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_titles_holder);
             synchronized (get_characters_character_id_titles_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_titles_holder);
                 ret = get_characters_character_id_titles_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_titles> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_titles_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_titles> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_titles", (page, headerHandler) -> (cache.swagger).get_characters_titles(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_titles_holder);
         }
         return ret;
     }
@@ -1078,22 +1297,28 @@ public class Characters {
     public ObsObjHolder<Double> wallet(int character_id) {
         ObsObjHolder<Double> ret = get_characters_character_id_wallet_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_wallet_holder);
             synchronized (get_characters_character_id_wallet_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_wallet_holder);
                 ret = get_characters_character_id_wallet_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<Double> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_wallet_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_wallet", headerHandler -> (cache.swagger).get_characters_wallet(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_wallet_holder);
         }
         return ret;
     }
@@ -1112,27 +1337,35 @@ public class Characters {
         K_6_Long_int param = new K_6_Long_int(from_id, character_id);
         ObsMapHolder<Long, R_get_characters_character_id_wallet_transactions> ret = get_characters_character_id_wallet_transactions_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_wallet_transactions_holder);
             synchronized (get_characters_character_id_wallet_transactions_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_wallet_transactions_holder);
                 ret = get_characters_character_id_wallet_transactions_holder.get(param);
                 if (ret == null) {
                     ObservableMap<Long, R_get_characters_character_id_wallet_transactions> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_wallet_transactions_holder.put(param, ret);
+                    ObsMapHolder<Long, R_get_characters_character_id_wallet_transactions> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_wallet_transactions", (page, headerHandler) -> (cache.swagger).get_characters_wallet_transactions(character_id, from_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             LinkedHashMap<Long, R_get_characters_character_id_wallet_transactions> newmap = new LinkedHashMap<>();
                             for (R_get_characters_character_id_wallet_transactions val: arr) {
                                 newmap.put((val.transaction_id), (val));
                             }
                             holder.entrySet().retainAll(newmap.entrySet());
                             holder.putAll(newmap);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_wallet_transactions_holder);
         }
         return ret;
     }
@@ -1148,27 +1381,35 @@ public class Characters {
     public ObsMapHolder<Long, M_get_blueprints_8> blueprints(int character_id) {
         ObsMapHolder<Long, M_get_blueprints_8> ret = get_characters_character_id_blueprints_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_blueprints_holder);
             synchronized (get_characters_character_id_blueprints_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_blueprints_holder);
                 ret = get_characters_character_id_blueprints_holder.get(character_id);
                 if (ret == null) {
                     ObservableMap<Long, M_get_blueprints_8> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_blueprints_holder.put(character_id, ret);
+                    ObsMapHolder<Long, M_get_blueprints_8> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_blueprints", (page, headerHandler) -> (cache.swagger).get_characters_blueprints(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             LinkedHashMap<Long, M_get_blueprints_8> newmap = new LinkedHashMap<>();
                             for (M_get_blueprints_8 val: arr) {
                                 newmap.put((val.item_id), (val));
                             }
                             holder.entrySet().retainAll(newmap.entrySet());
                             holder.putAll(newmap);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_blueprints_holder);
         }
         return ret;
     }
@@ -1184,22 +1425,30 @@ public class Characters {
     public ObsListHolder<M_get_bookmarks_9> bookmarks(int character_id) {
         ObsListHolder<M_get_bookmarks_9> ret = get_characters_character_id_bookmarks_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_bookmarks_holder);
             synchronized (get_characters_character_id_bookmarks_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_bookmarks_holder);
                 ret = get_characters_character_id_bookmarks_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<M_get_bookmarks_9> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_bookmarks_holder.put(character_id, ret);
+                    ObsListHolder<M_get_bookmarks_9> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_bookmarks", (page, headerHandler) -> (cache.swagger).get_characters_bookmarks(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_holder);
         }
         return ret;
     }
@@ -1215,22 +1464,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_bookmarks_folders> bookmarks_folders(int character_id) {
         ObsListHolder<R_get_characters_character_id_bookmarks_folders> ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_bookmarks_folders_holder);
             synchronized (get_characters_character_id_bookmarks_folders_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_bookmarks_folders_holder);
                 ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_bookmarks_folders> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_bookmarks_folders_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_bookmarks_folders> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_bookmarks_folders", (page, headerHandler) -> (cache.swagger).get_characters_bookmarks_folders(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_folders_holder);
         }
         return ret;
     }
@@ -1246,22 +1503,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_contacts> contacts(int character_id) {
         ObsListHolder<R_get_characters_character_id_contacts> ret = get_characters_character_id_contacts_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_contacts_holder);
             synchronized (get_characters_character_id_contacts_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_contacts_holder);
                 ret = get_characters_character_id_contacts_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_contacts> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_contacts_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_contacts> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_contacts", (page, headerHandler) -> (cache.swagger).get_characters_contacts(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_contacts_holder);
         }
         return ret;
     }
@@ -1277,22 +1542,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_notifications> notifications(int character_id) {
         ObsListHolder<R_get_characters_character_id_notifications> ret = get_characters_character_id_notifications_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_notifications_holder);
             synchronized (get_characters_character_id_notifications_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_notifications_holder);
                 ret = get_characters_character_id_notifications_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_notifications> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_notifications_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_notifications> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_notifications", (page, headerHandler) -> (cache.swagger).get_characters_notifications(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_notifications_holder);
         }
         return ret;
     }
@@ -1308,22 +1581,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_online> online(int character_id) {
         ObsObjHolder<R_get_characters_character_id_online> ret = get_characters_character_id_online_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_online_holder);
             synchronized (get_characters_character_id_online_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_online_holder);
                 ret = get_characters_character_id_online_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_online> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_online_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_online", headerHandler -> (cache.swagger).get_characters_online(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_online_holder);
         }
         return ret;
     }
@@ -1339,27 +1618,35 @@ public class Characters {
     public ObsMapHolder<Long, R_get_characters_character_id_orders> orders(int character_id) {
         ObsMapHolder<Long, R_get_characters_character_id_orders> ret = get_characters_character_id_orders_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_orders_holder);
             synchronized (get_characters_character_id_orders_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_orders_holder);
                 ret = get_characters_character_id_orders_holder.get(character_id);
                 if (ret == null) {
                     ObservableMap<Long, R_get_characters_character_id_orders> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_orders_holder.put(character_id, ret);
+                    ObsMapHolder<Long, R_get_characters_character_id_orders> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_orders", (page, headerHandler) -> (cache.swagger).get_characters_orders(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             LinkedHashMap<Long, R_get_characters_character_id_orders> newmap = new LinkedHashMap<>();
                             for (R_get_characters_character_id_orders val: arr) {
                                 newmap.put((val.order_id), (val));
                             }
                             holder.entrySet().retainAll(newmap.entrySet());
                             holder.putAll(newmap);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_orders_holder);
         }
         return ret;
     }
@@ -1375,22 +1662,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_roles> roles(int character_id) {
         ObsObjHolder<R_get_characters_character_id_roles> ret = get_characters_character_id_roles_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_roles_holder);
             synchronized (get_characters_character_id_roles_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_roles_holder);
                 ret = get_characters_character_id_roles_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_roles> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_roles_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_roles", headerHandler -> (cache.swagger).get_characters_roles(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_roles_holder);
         }
         return ret;
     }
@@ -1406,22 +1699,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_skillqueue> skillqueue(int character_id) {
         ObsListHolder<R_get_characters_character_id_skillqueue> ret = get_characters_character_id_skillqueue_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_skillqueue_holder);
             synchronized (get_characters_character_id_skillqueue_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_skillqueue_holder);
                 ret = get_characters_character_id_skillqueue_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_skillqueue> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_skillqueue_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_skillqueue> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_skillqueue", (page, headerHandler) -> (cache.swagger).get_characters_skillqueue(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_skillqueue_holder);
         }
         return ret;
     }
@@ -1437,22 +1738,30 @@ public class Characters {
     public ObsListHolder<R_get_characters_character_id_stats> stats(int character_id) {
         ObsListHolder<R_get_characters_character_id_stats> ret = get_characters_character_id_stats_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_stats_holder);
             synchronized (get_characters_character_id_stats_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_stats_holder);
                 ret = get_characters_character_id_stats_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_stats> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_stats_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_stats> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_stats", (page, headerHandler) -> (cache.swagger).get_characters_stats(character_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_stats_holder);
         }
         return ret;
     }
@@ -1468,22 +1777,30 @@ public class Characters {
     public ObsListHolder<M_get_assets_8> assets(int character_id) {
         ObsListHolder<M_get_assets_8> ret = get_characters_character_id_assets_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_assets_holder);
             synchronized (get_characters_character_id_assets_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_assets_holder);
                 ret = get_characters_character_id_assets_holder.get(character_id);
                 if (ret == null) {
                     ObservableList<M_get_assets_8> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_assets_holder.put(character_id, ret);
+                    ObsListHolder<M_get_assets_8> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_assets", (page, headerHandler) -> (cache.swagger).get_characters_assets(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_assets_holder);
         }
         return ret;
     }
@@ -1502,22 +1819,28 @@ public class Characters {
         K_1_int_int param = new K_1_int_int(event_id, character_id);
         ObsObjHolder<R_get_characters_character_id_calendar_event_id> ret = get_characters_character_id_calendar_event_id_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_calendar_event_id_holder);
             synchronized (get_characters_character_id_calendar_event_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_calendar_event_id_holder);
                 ret = get_characters_character_id_calendar_event_id_holder.get(param);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_calendar_event_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_calendar_event_id_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_calendar_event_id", headerHandler -> (cache.swagger).get_characters_calendar(character_id, event_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_calendar_event_id_holder);
         }
         return ret;
     }
@@ -1533,22 +1856,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_clones> clones(int character_id) {
         ObsObjHolder<R_get_characters_character_id_clones> ret = get_characters_character_id_clones_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_clones_holder);
             synchronized (get_characters_character_id_clones_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_clones_holder);
                 ret = get_characters_character_id_clones_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_clones> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_clones_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_clones", headerHandler -> (cache.swagger).get_characters_clones(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_clones_holder);
         }
         return ret;
     }
@@ -1564,22 +1893,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_mail_labels> mail_labels(int character_id) {
         ObsObjHolder<R_get_characters_character_id_mail_labels> ret = get_characters_character_id_mail_labels_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_mail_labels_holder);
             synchronized (get_characters_character_id_mail_labels_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_mail_labels_holder);
                 ret = get_characters_character_id_mail_labels_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_mail_labels> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_mail_labels_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_mail_labels", headerHandler -> (cache.swagger).get_characters_mail_labels(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_mail_labels_holder);
         }
         return ret;
     }
@@ -1598,22 +1933,28 @@ public class Characters {
         K_18_int_int param = new K_18_int_int(planet_id, character_id);
         ObsObjHolder<R_get_characters_character_id_planets_planet_id> ret = get_characters_character_id_planets_planet_id_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_planets_planet_id_holder);
             synchronized (get_characters_character_id_planets_planet_id_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_planets_planet_id_holder);
                 ret = get_characters_character_id_planets_planet_id_holder.get(param);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_planets_planet_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_planets_planet_id_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_planets_planet_id", headerHandler -> (cache.swagger).get_characters_planets(character_id, planet_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_planets_planet_id_holder);
         }
         return ret;
     }
@@ -1636,22 +1977,28 @@ public class Characters {
         K_19_String_LString_int_Boolean param = new K_19_String_LString_int_Boolean(search, categories, character_id, strict);
         ObsObjHolder<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_search_holder);
             synchronized (get_characters_character_id_search_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_search_holder);
                 ret = get_characters_character_id_search_holder.get(param);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_search> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_search_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_search", headerHandler -> (cache.swagger).get_characters(categories, character_id, search, strict, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_search_holder);
         }
         return ret;
     }
@@ -1667,22 +2014,28 @@ public class Characters {
     public ObsObjHolder<R_get_characters_character_id_skills> skills(int character_id) {
         ObsObjHolder<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_skills_holder);
             synchronized (get_characters_character_id_skills_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_skills_holder);
                 ret = get_characters_character_id_skills_holder.get(character_id);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_skills> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_skills_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_skills", headerHandler -> (cache.swagger).get_characters_skills(character_id, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
         }
         return ret;
     }
@@ -1698,27 +2051,35 @@ public class Characters {
     public ObsMapHolder<Long, M_get_journal_13> wallet_journal(int character_id) {
         ObsMapHolder<Long, M_get_journal_13> ret = get_characters_character_id_wallet_journal_holder.get(character_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_wallet_journal_holder);
             synchronized (get_characters_character_id_wallet_journal_holder)
             {
+                LockWatchDog.BARKER.hld(get_characters_character_id_wallet_journal_holder);
                 ret = get_characters_character_id_wallet_journal_holder.get(character_id);
                 if (ret == null) {
                     ObservableMap<Long, M_get_journal_13> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_wallet_journal_holder.put(character_id, ret);
+                    ObsMapHolder<Long, M_get_journal_13> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_wallet_journal", (page, headerHandler) -> (cache.swagger).get_characters_wallet_journal(character_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             LinkedHashMap<Long, M_get_journal_13> newmap = new LinkedHashMap<>();
                             for (M_get_journal_13 val: arr) {
                                 newmap.put((val.id), (val));
                             }
                             holder.entrySet().retainAll(newmap.entrySet());
                             holder.putAll(newmap);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_characters_character_id_wallet_journal_holder);
         }
         return ret;
     }

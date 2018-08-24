@@ -126,7 +126,7 @@ public interface G_IDCAccess
      * </p>
      * 
      * @param characters
-     *     The character IDs to fetch affiliations for. All characters must exist, or none will be returned.
+     *     The character IDs to fetch affiliations for. All characters must exist, or none will be returned
      */
     public default R_post_characters_affiliation[] post_affiliation(int[] characters, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/affiliation/");
@@ -298,7 +298,7 @@ public interface G_IDCAccess
     /**
      * List of the top factions in faction warfare
      * <p>
-     * Top 4 leaderboard of factions for kills and victory points separated by total, last week and yesterday.<br />
+     * Top 4 leaderboard of factions for kills and victory points separated by total, last week and yesterday<br />
      * This route expires daily at 11:05
      * </p>
      */
@@ -311,7 +311,7 @@ public interface G_IDCAccess
     /**
      * List of the top pilots in faction warfare
      * <p>
-     * Top 100 leaderboard of pilots for kills and victory points separated by total, last week and yesterday.<br />
+     * Top 100 leaderboard of pilots for kills and victory points separated by total, last week and yesterday<br />
      * This route expires daily at 11:05
      * </p>
      */
@@ -324,7 +324,7 @@ public interface G_IDCAccess
     /**
      * List of the top corporations in faction warfare
      * <p>
-     * Top 10 leaderboard of corporations for kills and victory points separated by total, last week and yesterday.<br />
+     * Top 10 leaderboard of corporations for kills and victory points separated by total, last week and yesterday<br />
      * This route expires daily at 11:05
      * </p>
      */
@@ -514,7 +514,7 @@ public interface G_IDCAccess
      * </p>
      * 
      * @param order_type
-     *     Filter buy/sell orders, return all orders by default. If you query without type_id, we always return both buy and sell orders.
+     *     Filter buy/sell orders, return all orders by default. If you query without type_id, we always return both buy and sell orders
      * @param page
      *     Which page of results to return
      * @param region_id
@@ -844,7 +844,7 @@ public interface G_IDCAccess
     /**
      * Bulk names to IDs
      * <p>
-     * Resolve a set of names to IDs in the following categories: agents, alliances, characters, constellations, corporations factions, inventory_types, regions, stations, and systems. Only exact matches will be returned. All names searched for are cached for 12 hours.
+     * Resolve a set of names to IDs in the following categories: agents, alliances, characters, constellations, corporations factions, inventory_types, regions, stations, and systems. Only exact matches will be returned. All names searched for are cached for 12 hours
      * </p>
      * 
      * @param names
@@ -1043,7 +1043,7 @@ public interface G_IDCAccess
      * </p>
      * 
      * @param max_war_id
-     *     Only return wars with ID smaller than this.
+     *     Only return wars with ID smaller than this
      */
     public default int[] get_wars(Integer max_war_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/wars/"+"?"+(max_war_id==null?"":"&max_war_id="+flatten(max_war_id)));
@@ -1182,7 +1182,7 @@ public interface G_IDCAccess
     /**
      * Get names and categories for a set of ID's
      * <p>
-     * Resolve a set of IDs to names and categories. Supported ID's for resolving are: Characters, Corporations, Alliances, Stations, Solar Systems, Constellations, Regions, Types.
+     * Resolve a set of IDs to names and categories. Supported ID's for resolving are: Characters, Corporations, Alliances, Stations, Solar Systems, Constellations, Regions, Types
      * </p>
      * 
      * @param ids

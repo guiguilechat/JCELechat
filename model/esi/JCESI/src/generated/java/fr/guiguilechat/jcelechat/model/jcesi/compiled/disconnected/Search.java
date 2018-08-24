@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiled.disconnected;
 
 import java.util.HashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.keys.K_17_String_LString_Boolean;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_search;
@@ -32,22 +33,28 @@ public class Search {
         K_17_String_LString_Boolean param = new K_17_String_LString_Boolean(search, categories, strict);
         ObsObjHolder<R_get_search> ret = get_search_holder.get(param);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_search_holder);
             synchronized (get_search_holder)
             {
+                LockWatchDog.BARKER.hld(get_search_holder);
                 ret = get_search_holder.get(param);
                 if (ret == null) {
                     SimpleObjectProperty<R_get_search> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_search_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_search", headerHandler -> (cache.swagger).get(categories, search, strict, headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_search_holder);
         }
         return ret;
     }

@@ -283,7 +283,7 @@ public interface G_ICOAccess
     /**
      * List calendar event summaries
      * <p>
-     * Get 50 event summaries from the calendar. If no from_event ID is given, the resource will return the next 50 chronological event summaries from now. If a from_event ID is specified, it will return the next 50 chronological event summaries from after that event.<br />
+     * Get 50 event summaries from the calendar. If no from_event ID is given, the resource will return the next 50 chronological event summaries from now. If a from_event ID is specified, it will return the next 50 chronological event summaries from after that event<br />
      * This route is cached for up to 5 seconds
      * </p>
      * 
@@ -520,7 +520,7 @@ public interface G_ICOAccess
      * @param character_id
      *     An EVE character ID
      * @param include_completed
-     *     Whether to retrieve completed character industry jobs. Only includes jobs from the past 90 days.
+     *     Whether to retrieve completed character industry jobs. Only includes jobs from the past 90 days
      */
     public default R_get_characters_character_id_industry_jobs[] get_characters_industry_jobs(int character_id, Boolean include_completed, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/industry/jobs/".replace("{character_id}", ""+character_id)+"?"+(include_completed==null?"":"&include_completed="+flatten(include_completed)));
@@ -549,7 +549,7 @@ public interface G_ICOAccess
     /**
      * Get character location
      * <p>
-     * Information about the characters current location. Returns the current solar system id, and also the current station or structure ID if applicable.<br />
+     * Information about the characters current location. Returns the current solar system id, and also the current station or structure ID if applicable<br />
      * This route is cached for up to 5 seconds
      * </p>
      * 
@@ -581,7 +581,7 @@ public interface G_ICOAccess
     /**
      * Return mail headers
      * <p>
-     * Return the 50 most recent mail headers belonging to the character that match the query criteria. Queries can be filtered by label, and last_mail_id can be used to paginate backwards.<br />
+     * Return the 50 most recent mail headers belonging to the character that match the query criteria. Queries can be filtered by label, and last_mail_id can be used to paginate backwards<br />
      * This route is cached for up to 30 seconds
      * </p>
      * 
@@ -966,9 +966,9 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get coporation asset names
+     * Get corporation asset names
      * <p>
-     * Return names for a set of item ids, which you can get from corporation assets endpoint. Only valid for items that can customize names, like containers or ships.<br />
+     * Return names for a set of item ids, which you can get from corporation assets endpoint. Only valid for items that can customize names, like containers or ships<br />
      * Requires one of the following EVE corporation role(s): Director
      * </p>
      * <p>
@@ -1188,7 +1188,7 @@ public interface G_ICOAccess
      * @param corporation_id
      *     An EVE corporation ID
      * @param include_completed
-     *     Whether to retrieve completed corporation industry jobs. Only includes jobs from the past 90 days.
+     *     Whether to retrieve completed corporation industry jobs. Only includes jobs from the past 90 days
      * @param page
      *     Which page of results to return
      */
@@ -2039,7 +2039,7 @@ public interface G_ICOAccess
      * <p>
      * Return character notifications<br />
      * This route is cached for up to 600 seconds<br />
-     * Warning: This route has an upgrade available.<br />
+     * Warning: This route has an upgrade available<br />
      * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/notifications/)
      * </p>
      * 

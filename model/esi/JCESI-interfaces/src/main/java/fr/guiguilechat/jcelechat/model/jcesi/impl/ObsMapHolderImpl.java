@@ -58,4 +58,9 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 		return underlying;
 	}
 
+	@Override
+	public void dataReceived() {
+		waitLatch.countDown();
+	}
+
 }

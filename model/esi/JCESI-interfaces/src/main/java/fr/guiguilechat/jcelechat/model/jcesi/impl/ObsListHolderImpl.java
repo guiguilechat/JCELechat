@@ -27,7 +27,6 @@ public class ObsListHolderImpl<U> implements ObsListHolder<U> {
 	public void waitData() {
 		try {
 			waitLatch.await();
-			System.err.println("received data");
 		} catch (InterruptedException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
@@ -69,5 +68,10 @@ public class ObsListHolderImpl<U> implements ObsListHolder<U> {
 	@Override
 	public Observable asObservable() {
 		return underlying;
+	}
+
+	@Override
+	public void dataReceived() {
+		waitLatch.countDown();
 	}
 }

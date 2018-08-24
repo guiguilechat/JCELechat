@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.disconnected;
 
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_fw_stats;
@@ -25,76 +26,94 @@ public class Fw {
     }
 
     /**
-     * Top 4 leaderboard of factions for kills and victory points separated by total, last week and yesterday.
+     * Top 4 leaderboard of factions for kills and victory points separated by total, last week and yesterday
      * 
      * cache over {@link Swagger#get_fw_leaderboards}<br />
      */
     public ObsObjHolder<M_get_fw_leaderboards_2> leaderboards() {
         if (get_fw_leaderboards_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_fw_leaderboards_holder == null) {
                     SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
                     get_fw_leaderboards_holder = (cache).toHolder(holder);
                     (cache).addFetchCacheObject("get_fw_leaderboards", headerHandler -> (cache.swagger).get_fw_leaderboards(headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_fw_leaderboards_holder;
     }
 
     /**
-     * Top 100 leaderboard of pilots for kills and victory points separated by total, last week and yesterday.
+     * Top 100 leaderboard of pilots for kills and victory points separated by total, last week and yesterday
      * 
      * cache over {@link Swagger#get_fw_leaderboards_characters}<br />
      */
     public ObsObjHolder<M_get_fw_leaderboards_2> leaderboards_characters() {
         if (get_fw_leaderboards_characters_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_fw_leaderboards_characters_holder == null) {
                     SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
                     get_fw_leaderboards_characters_holder = (cache).toHolder(holder);
                     (cache).addFetchCacheObject("get_fw_leaderboards_characters", headerHandler -> (cache.swagger).get_fw_leaderboards_characters(headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_fw_leaderboards_characters_holder;
     }
 
     /**
-     * Top 10 leaderboard of corporations for kills and victory points separated by total, last week and yesterday.
+     * Top 10 leaderboard of corporations for kills and victory points separated by total, last week and yesterday
      * 
      * cache over {@link Swagger#get_fw_leaderboards_corporations}<br />
      */
     public ObsObjHolder<M_get_fw_leaderboards_2> leaderboards_corporations() {
         if (get_fw_leaderboards_corporations_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_fw_leaderboards_corporations_holder == null) {
                     SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
                     get_fw_leaderboards_corporations_holder = (cache).toHolder(holder);
                     (cache).addFetchCacheObject("get_fw_leaderboards_corporations", headerHandler -> (cache.swagger).get_fw_leaderboards_corporations(headerHandler), item -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.set(item);
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_fw_leaderboards_corporations_holder;
     }
@@ -106,20 +125,28 @@ public class Fw {
      */
     public ObsListHolder<R_get_fw_stats> stats() {
         if (get_fw_stats_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_fw_stats_holder == null) {
                     ObservableList<R_get_fw_stats> holder = FXCollections.observableArrayList();
                     get_fw_stats_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_fw_stats> finalRet = get_fw_stats_holder;
                     (cache).addFetchCacheArray("get_fw_stats", (page, headerHandler) -> (cache.swagger).get_fw_stats(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_fw_stats_holder;
     }
@@ -131,20 +158,28 @@ public class Fw {
      */
     public ObsListHolder<R_get_fw_wars> wars() {
         if (get_fw_wars_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_fw_wars_holder == null) {
                     ObservableList<R_get_fw_wars> holder = FXCollections.observableArrayList();
                     get_fw_wars_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_fw_wars> finalRet = get_fw_wars_holder;
                     (cache).addFetchCacheArray("get_fw_wars", (page, headerHandler) -> (cache.swagger).get_fw_wars(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_fw_wars_holder;
     }
@@ -156,20 +191,28 @@ public class Fw {
      */
     public ObsListHolder<R_get_fw_systems> systems() {
         if (get_fw_systems_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
+                LockWatchDog.BARKER.hld(this);
                 if (get_fw_systems_holder == null) {
                     ObservableList<R_get_fw_systems> holder = FXCollections.observableArrayList();
                     get_fw_systems_holder = (cache).toHolder(holder);
+                    ObsListHolder<R_get_fw_systems> finalRet = get_fw_systems_holder;
                     (cache).addFetchCacheArray("get_fw_systems", (page, headerHandler) -> (cache.swagger).get_fw_systems(headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(this);
         }
         return get_fw_systems_holder;
     }

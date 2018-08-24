@@ -38,6 +38,13 @@ public interface ObsListHolder<U> {
 
 	void waitData();
 
+	/**
+	 * called by the data fetcher when data has been received. This has use only
+	 * when the data received is empty, otherwise the add() methods should already
+	 * call this method
+	 */
+	void dataReceived();
+
 	/** return an observable to be notified when values are changed */
 	Observable asObservable();
 

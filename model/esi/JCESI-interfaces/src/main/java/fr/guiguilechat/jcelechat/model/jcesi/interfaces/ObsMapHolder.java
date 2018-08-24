@@ -32,6 +32,13 @@ public interface ObsMapHolder<U, V> {
 
 	void waitData();
 
+	/**
+	 * called by the data fetcher when data has been received. This has use only
+	 * when the data received is empty, otherwise the put() methods should already
+	 * call this mthod
+	 */
+	void dataReceived();
+
 	/** return an observable to be notified when values are changed */
 	Observable asObservable();
 }

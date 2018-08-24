@@ -41,8 +41,8 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
+import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ITransfer;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.LongProperty;
 import javafx.beans.property.SimpleBooleanProperty;
@@ -590,7 +590,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		@Override
 		public void pause() {
 			super.pause();
-			cacheHandler.accept(null);
+			cacheHandler.accept(Collections.emptyList());
 		}
 	}
 

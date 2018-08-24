@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiled.connected;
 
 import java.util.HashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_alliances_alliance_id_contacts;
@@ -29,22 +30,30 @@ public class Alliances {
     public ObsListHolder<M_get_contacts_labels_2> contacts_labels(int alliance_id) {
         ObsListHolder<M_get_contacts_labels_2> ret = get_alliances_alliance_id_contacts_labels_holder.get(alliance_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_alliances_alliance_id_contacts_labels_holder);
             synchronized (get_alliances_alliance_id_contacts_labels_holder)
             {
+                LockWatchDog.BARKER.hld(get_alliances_alliance_id_contacts_labels_holder);
                 ret = get_alliances_alliance_id_contacts_labels_holder.get(alliance_id);
                 if (ret == null) {
                     ObservableList<M_get_contacts_labels_2> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_alliances_alliance_id_contacts_labels_holder.put(alliance_id, ret);
+                    ObsListHolder<M_get_contacts_labels_2> finalRet = ret;
                     (cache).addFetchCacheArray("get_alliances_alliance_id_contacts_labels", (page, headerHandler) -> (cache.swagger).get_alliances_contacts_labels(alliance_id, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_alliances_alliance_id_contacts_labels_holder);
         }
         return ret;
     }
@@ -60,22 +69,30 @@ public class Alliances {
     public ObsListHolder<R_get_alliances_alliance_id_contacts> contacts(int alliance_id) {
         ObsListHolder<R_get_alliances_alliance_id_contacts> ret = get_alliances_alliance_id_contacts_holder.get(alliance_id);
         if (ret == null) {
+            LockWatchDog.BARKER.tak(get_alliances_alliance_id_contacts_holder);
             synchronized (get_alliances_alliance_id_contacts_holder)
             {
+                LockWatchDog.BARKER.hld(get_alliances_alliance_id_contacts_holder);
                 ret = get_alliances_alliance_id_contacts_holder.get(alliance_id);
                 if (ret == null) {
                     ObservableList<R_get_alliances_alliance_id_contacts> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_alliances_alliance_id_contacts_holder.put(alliance_id, ret);
+                    ObsListHolder<R_get_alliances_alliance_id_contacts> finalRet = ret;
                     (cache).addFetchCacheArray("get_alliances_alliance_id_contacts", (page, headerHandler) -> (cache.swagger).get_alliances_contacts(alliance_id, page, headerHandler), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
+                            LockWatchDog.BARKER.hld(holder);
                             holder.setAll(arr);
+                            finalRet.dataReceived();
                         }
+                        LockWatchDog.BARKER.rel(holder);
                     }
                     );
                 }
             }
+            LockWatchDog.BARKER.rel(get_alliances_alliance_id_contacts_holder);
         }
         return ret;
     }

@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
 public class M_get_contracts_contract_items_6 {
     /**
-     * true if the contract issuer has submitted this item with the contract, false if the isser is asking for this item in the contract.
+     * true if the contract issuer has submitted this item with the contract, false if the isser is asking for this item in the contract
      */
     public boolean is_included;
     /**
