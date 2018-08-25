@@ -24,6 +24,7 @@ import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.industry.Usage;
 import fr.guiguilechat.jcelechat.model.sde.items.types.decryptors.GenericDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporationTrades;
+import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvTypeMaterials;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
@@ -77,8 +78,7 @@ public class IndustryTranslater {
 	private static void translate(LinkedHashMap<String, Blueprint> blueprints,
 			LinkedHashMap<String, InventionDecryptor> decryptors, LinkedHashMap<String, Usage> usages) {
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
-		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID)
-				.collect(Collectors.toSet());
+		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID).collect(Collectors.toSet());
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
 			EtypeIDs type = types.get(e.getValue().blueprintTypeID);
 			if (type != null) {
@@ -89,16 +89,39 @@ public class IndustryTranslater {
 					blueprints.put(type.enName(), bp2);
 					addUsages(bp2, usages);
 				} else {
-					logger.info("skipping bp for unpublished "+type.enName());
+					logger.info("skipping bp for unpublished " + type.enName());
 				}
 			} else {
 				logger.warn("can't find type for blueprint id " + e.getValue().blueprintTypeID);
 			}
 		}
 
+		for (Entry<Integer, Map<Integer, Integer>> e : EinvTypeMaterials.loadByTypeIdTypeId().entrySet()) {
+			EtypeIDs inputMat = types.get(e.getKey());
+			if (inputMat == null) {
+				System.err.println("can't find item " + e.getKey() + " that reprocess in " + e.getValue());
+				continue;
+			}
+			Usage usage = usages.get(inputMat.enName());
+			if (usage == null) {
+				usage = new Usage();
+				usages.put(inputMat.enName(), usage);
+			}
+			for (Entry<Integer, Integer> r : e.getValue().entrySet()) {
+				EtypeIDs outputmat = types.get(r.getKey());
+				if (outputmat != null) {
+					usage.reprocess.put(types.get(r.getKey()).enName(), r.getValue());
+				} else {
+					System.err.println("can't find type id " + r.getKey() + " reprocessed from " + inputMat.enName());
+				}
+			}
+		}
+
 		for (Entry<String, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
 			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
 		}
+
+		// sort the usages by item name
 		ArrayList<Entry<String, Usage>> l = new ArrayList<>(usages.entrySet());
 		Collections.sort(l, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
 		usages.clear();

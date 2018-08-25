@@ -33,36 +33,26 @@ import javafx.scene.control.TextField;
 public class PraisalController {
 
 	@FXML
-	private ChoiceBox<Region> regionSelect;
-
-	@FXML
 	private TextArea copyfield;
 
 	@FXML
-	private TextField bbk1volumicprice;
+	private TextField bbk1volumicprice, bbk2volumicprice;
 
-	private DoubleProperty bbk1volumicpriceProperty;
-
-	@FXML
-	private TextField bbk1tax;
-
-	private DoubleProperty bbk1taxProperty;
+	private DoubleProperty bbk1volumicpriceProperty, bbk2volumicpriceProperty;
 
 	@FXML
-	private TextField bbk2volumicprice;
+	private TextField bbk1tax, bbk2tax;
 
-	private DoubleProperty bbk2volumicpriceProperty;
-
-	@FXML
-	private TextField bbk2tax;
-
-	private DoubleProperty bbk2taxProperty;
+	private DoubleProperty bbk1taxProperty, bbk2taxProperty;
 
 	@FXML
-	private CheckBox bbk1;
+	private CheckBox bbk1, bbk2;
 
 	@FXML
-	private CheckBox bbk2;
+	private ChoiceBox<Region> regionSelect1, regionSelect2;
+
+	private Property<RegionalMarket> marketHolder1 = new SimpleObjectProperty<>(),
+			marketHolder2 = new SimpleObjectProperty<>();
 
 	@FXML
 	private TableView<Entry<Item, Integer>> table;
@@ -85,11 +75,10 @@ public class PraisalController {
 	@FXML
 	private TableColumn<Entry<Item, Integer>, Double> itembuyback2;
 
-	private Property<RegionalMarket> marketHolder = new SimpleObjectProperty<>();
-
 	@FXML
 	private void initialize() {
-		regionSelect.getSelectionModel().selectedItemProperty().addListener(this::changeRegion);
+		regionSelect1.getSelectionModel().selectedItemProperty().addListener(this::changeRegion1);
+		regionSelect2.getSelectionModel().selectedItemProperty().addListener(this::changeRegion2);
 
 		bbk1taxProperty = JFXTools.convertDouble(bbk1tax.textProperty(), d -> d >= 0);
 		bbk1taxProperty.addListener((ChangeListener<Number>) (observable, oldValue, newValue) -> table.sort());
@@ -110,20 +99,20 @@ public class PraisalController {
 		// make the columns access
 		itemname.setCellValueFactory(cell -> new ReadOnlyObjectWrapper<>(cell.getValue().getKey().name));
 
-		itembo.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder)
+		itembo.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
 				.multiply(cell.getValue().getValue()).asObject());
 		itembo.setCellFactory(col -> new PriceCellFactory<>());
 
-		itemavgvol.setCellValueFactory(cell -> MarketHelpers.monthlyAVG(cell.getValue().getKey().id, marketHolder)
+		itemavgvol.setCellValueFactory(cell -> MarketHelpers.monthlyAVG(cell.getValue().getKey().id, marketHolder1)
 				.divide(cell.getValue().getKey().volume).asObject());
 		itemavgvol.setCellFactory(col -> new PriceCellFactory<>());
 
-		itembovol.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder)
+		itembovol.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
 				.divide(cell.getValue().getKey().volume).asObject());
 		itembovol.setCellFactory(col -> new PriceCellFactory<>());
 
 		// buyback gain = bo *(1-tax/100) - volume*volumicprice
-		itembuyback1.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder)
+		itembuyback1.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
 				.multiply(bbk1taxProperty.divide(100).negate().add(1.0))
 				.subtract(bbk1volumicpriceProperty.multiply(cell.getValue().getKey().volume))
 				.multiply(cell.getValue().getValue()).asObject());
@@ -131,7 +120,7 @@ public class PraisalController {
 		itembuyback1.visibleProperty().bind(bbk1.selectedProperty());
 		itembuyback1.setSortType(SortType.DESCENDING);
 
-		itembuyback2.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder)
+		itembuyback2.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
 				.multiply(bbk2taxProperty.divide(100).negate().add(1.0))
 				.subtract(bbk2volumicpriceProperty.multiply(cell.getValue().getKey().volume))
 				.multiply(cell.getValue().getValue()).asObject());
@@ -145,15 +134,25 @@ public class PraisalController {
 	}
 
 	protected void load() {
-		LocationHelper.initRegion(regionSelect);
-		regionSelect.getSelectionModel().select(Region.getRegion("TheForge"));
+		LocationHelper.initRegion(regionSelect1);
+		regionSelect1.getSelectionModel().select(Region.getRegion("TheForge"));
+		LocationHelper.initRegion(regionSelect2);
+		regionSelect2.getSelectionModel().select(Region.getRegion("TheForge"));
 	}
 
-	protected void changeRegion(ObservableValue<? extends Region> observable, Region oldValue, Region newValue) {
+	protected void changeRegion1(ObservableValue<? extends Region> observable, Region oldValue, Region newValue) {
 		if (newValue == null) {
-			marketHolder.setValue(null);
+			marketHolder1.setValue(null);
 		} else {
-			marketHolder.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
+			marketHolder1.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
+		}
+	}
+
+	protected void changeRegion2(ObservableValue<? extends Region> observable, Region oldValue, Region newValue) {
+		if (newValue == null) {
+			marketHolder2.setValue(null);
+		} else {
+			marketHolder2.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
 		}
 	}
 

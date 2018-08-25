@@ -66,4 +66,6 @@ public class Usage {
 
 	public LinkedHashSet<String> materialTE = new LinkedHashSet<>();
 
+	public LinkedHashMap<String, Integer> reprocess = new LinkedHashMap<>();
+
 }
