@@ -7,6 +7,7 @@ import java.util.Map.Entry;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
+import fr.guiguilechat.jcelechat.model.sde.industry.Usage;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
@@ -14,6 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.tools.JFXTools;
 import fr.guiguilechat.tools.PriceCellFactory;
 import javafx.application.Platform;
+import javafx.beans.binding.DoubleBinding;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.Property;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -61,19 +63,19 @@ public class PraisalController {
 	private TableColumn<Entry<Item, Integer>, String> itemname;
 
 	@FXML
-	private TableColumn<Entry<Item, Integer>, Double> itembo;
-
-	@FXML
 	private TableColumn<Entry<Item, Integer>, Double> itemavgvol;
-
-	@FXML
-	private TableColumn<Entry<Item, Integer>, Double> itembovol;
 
 	@FXML
 	private TableColumn<Entry<Item, Integer>, Double> itembuyback1;
 
 	@FXML
+	private TableColumn<Entry<Item, Integer>, Double> itembuybackr1;
+
+	@FXML
 	private TableColumn<Entry<Item, Integer>, Double> itembuyback2;
+
+	@FXML
+	private TableColumn<Entry<Item, Integer>, Double> itembuybackr2;
 
 	@FXML
 	private void initialize() {
@@ -99,17 +101,9 @@ public class PraisalController {
 		// make the columns access
 		itemname.setCellValueFactory(cell -> new ReadOnlyObjectWrapper<>(cell.getValue().getKey().name));
 
-		itembo.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
-				.multiply(cell.getValue().getValue()).asObject());
-		itembo.setCellFactory(col -> new PriceCellFactory<>());
-
 		itemavgvol.setCellValueFactory(cell -> MarketHelpers.monthlyAVG(cell.getValue().getKey().id, marketHolder1)
 				.divide(cell.getValue().getKey().volume).asObject());
 		itemavgvol.setCellFactory(col -> new PriceCellFactory<>());
-
-		itembovol.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
-				.divide(cell.getValue().getKey().volume).asObject());
-		itembovol.setCellFactory(col -> new PriceCellFactory<>());
 
 		// buyback gain = bo *(1-tax/100) - volume*volumicprice
 		itembuyback1.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
@@ -120,6 +114,13 @@ public class PraisalController {
 		itembuyback1.visibleProperty().bind(bbk1.selectedProperty());
 		itembuyback1.setSortType(SortType.DESCENDING);
 
+		itembuybackr1.setCellValueFactory(
+				cell -> reprocessValue(cell.getValue().getKey(), cell.getValue().getValue(), marketHolder1, bbk1taxProperty,
+						bbk1volumicpriceProperty)
+				.asObject());
+		itembuybackr1.setCellFactory(col -> new PriceCellFactory<>());
+		itembuybackr1.visibleProperty().bind(bbk1.selectedProperty());
+
 		itembuyback2.setCellValueFactory(cell -> MarketHelpers.bo(cell.getValue().getKey().id, marketHolder1)
 				.multiply(bbk2taxProperty.divide(100).negate().add(1.0))
 				.subtract(bbk2volumicpriceProperty.multiply(cell.getValue().getKey().volume))
@@ -127,7 +128,12 @@ public class PraisalController {
 		itembuyback2.setCellFactory(col -> new PriceCellFactory<>());
 		itembuyback2.visibleProperty().bind(bbk2.selectedProperty());
 
-		table.getSortOrder().add(itembo);
+		itembuybackr2.setCellValueFactory(cell -> reprocessValue(cell.getValue().getKey(), cell.getValue().getValue(),
+				marketHolder2, bbk2taxProperty, bbk2volumicpriceProperty).asObject());
+		itembuybackr2.setCellFactory(col -> new PriceCellFactory<>());
+		itembuybackr2.visibleProperty().bind(bbk2.selectedProperty());
+
+		table.getSortOrder().add(itemavgvol);
 		table.setItems(FXCollections.observableArrayList());
 
 		new Thread(this::load).start();
@@ -135,9 +141,12 @@ public class PraisalController {
 
 	protected void load() {
 		LocationHelper.initRegion(regionSelect1);
-		regionSelect1.getSelectionModel().select(Region.getRegion("TheForge"));
 		LocationHelper.initRegion(regionSelect2);
-		regionSelect2.getSelectionModel().select(Region.getRegion("TheForge"));
+		Region theforge = Region.getRegion("TheForge");
+		Platform.runLater(() -> {
+			regionSelect1.getSelectionModel().select(theforge);
+			regionSelect2.getSelectionModel().select(theforge);
+		});
 	}
 
 	protected void changeRegion1(ObservableValue<? extends Region> observable, Region oldValue, Region newValue) {
@@ -162,6 +171,36 @@ public class PraisalController {
 		table.sort();
 	}
 
+	public DoubleBinding reprocessValue(Item item, int qtty, Property<RegionalMarket> marketholder, DoubleProperty tax,
+			DoubleProperty volumicprice) {
+		Usage usage = Usage.load().get(item.name);
+		double totalVol = 0;
+		DoubleBinding totalPrice = new DoubleBinding() {
+
+			@Override
+			protected double computeValue() {
+				return 0;
+			}
+		};
+		if (usage != null) {
+			for (Entry<String, Integer> e : usage.reprocess.entrySet()) {
+				Item product = ItemIndex.getItem(e.getKey());
+				if (product == null) {
+					System.err.println("can't find item " + e.getKey());
+					continue;
+				}
+				int qttyProduct = (int) Math.floor(e.getValue() * usage.maxreprocess);
+				// System.err.println(
+				// item.name + " * " + qtty + " reprocess into " + qttyProduct + " of "
+				// + product.name + " for "
+				// + product.volume * qttyProduct + " m³");
+				totalVol += product.volume * qttyProduct;
+				totalPrice = totalPrice.add(MarketHelpers.bo(product.id, marketholder).multiply(qttyProduct));
+			}
+		}
+		return totalPrice.multiply(tax.divide(100).negate().add(1.0)).subtract(volumicprice.multiply(totalVol));
+	}
+
 	public static Map<Item, Integer> parse(String list) {
 		HashMap<Item, Integer> item2qtty = new HashMap<>();
 		for (String line : list.split("\n")) {
@@ -175,5 +214,6 @@ public class PraisalController {
 		// return Stream.of(list.split("\n")).map(arr ->
 		// MetaInf.getItem(arr.split("\t")[0])).filter(i -> i != null);
 	}
+
 
 }

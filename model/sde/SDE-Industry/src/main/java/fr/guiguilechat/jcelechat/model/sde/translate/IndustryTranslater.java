@@ -107,6 +107,12 @@ public class IndustryTranslater {
 				usage = new Usage();
 				usages.put(inputMat.enName(), usage);
 			}
+			int catID = EgroupIDs.load().get(inputMat.groupID).categoryID;
+			if ("Asteroid".equals(EcategoryIDs.load().get(catID).enName())) {
+				usage.maxreprocess = 0.8934;
+			} else {
+				usage.maxreprocess=0.55;
+			}
 			for (Entry<Integer, Integer> r : e.getValue().entrySet()) {
 				EtypeIDs outputmat = types.get(r.getKey());
 				if (outputmat != null) {

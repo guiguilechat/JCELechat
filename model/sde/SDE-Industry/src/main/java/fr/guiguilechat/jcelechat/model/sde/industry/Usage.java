@@ -68,4 +68,10 @@ public class Usage {
 
 	public LinkedHashMap<String, Integer> reprocess = new LinkedHashMap<>();
 
+	/**
+	 * maximum reprocess mutliplier for the items. 0.55 for modules, 0.82 for
+	 * asteroids.
+	 */
+	public double maxreprocess = 0.55;
+
 }
