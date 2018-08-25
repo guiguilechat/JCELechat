@@ -53,7 +53,7 @@ public class Corporation {
                         }
                         LockWatchDog.BARKER.rel(holder);
                     }
-                    , new String[] {"Structure_manager"});
+                    , new String[] {"Station_Manager"});
                 }
             }
             LockWatchDog.BARKER.rel(get_corporation_corporation_id_mining_extractions_holder);

@@ -103,7 +103,7 @@ public interface G_ICOAccess
     /**
      * the roles required for {@link #get_corporation_mining_extractions this method}
      */
-    public static final String[] GET_CORPORATION_CORPORATION_ID_MINING_EXTRACTIONS_ROLES = new String[] {"Structure_manager"};
+    public static final String[] GET_CORPORATION_CORPORATION_ID_MINING_EXTRACTIONS_ROLES = new String[] {"Station_Manager"};
     /**
      * the roles required for {@link #get_corporation_mining_observers this method}
      */
@@ -131,7 +131,7 @@ public interface G_ICOAccess
     /**
      * the roles required for {@link #get_corporations_industry_jobs this method}
      */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES = new String[] {"FactoryManager"};
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES = new String[] {"Factory_Manager"};
     /**
      * the roles required for {@link #get_corporations_killmails_recent this method}
      */
@@ -199,7 +199,7 @@ public interface G_ICOAccess
     /**
      * the roles required for {@link #get_corporations_structures this method}
      */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES = new String[] {"StationManager"};
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES = new String[] {"Station_Manager"};
     /**
      * the roles required for {@link #get_corporations_assets this method}
      */
@@ -902,7 +902,7 @@ public interface G_ICOAccess
      * <p>
      * Extraction timers for all moon chunks being extracted by refineries belonging to a corporation.<br />
      * This route is cached for up to 1800 seconds<br />
-     * Requires one of the following EVE corporation role(s): Structure_manager
+     * Requires one of the following EVE corporation role(s): Station_Manager
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATION_CORPORATION_ID_MINING_EXTRACTIONS_ROLES here}
@@ -1179,7 +1179,7 @@ public interface G_ICOAccess
      * <p>
      * List industry jobs run by a corporation<br />
      * This route is cached for up to 300 seconds<br />
-     * Requires one of the following EVE corporation role(s): FactoryManager
+     * Requires one of the following EVE corporation role(s): Factory_Manager
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES here}
@@ -2244,7 +2244,7 @@ public interface G_ICOAccess
      * <p>
      * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): StationManager
+     * Requires one of the following EVE corporation role(s): Station_Manager
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES here}
