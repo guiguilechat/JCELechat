@@ -50,7 +50,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>fr.guiguilechat.jcelechat.model.esi.ESICompiler</mainClass>
+					<mainClass>fr.guiguilechat.jcelechat.model.jcesi.ESICompiler</mainClass>
 					<arguments>
 						<argument>https://esi.tech.ccp.is/_latest/swagger.json</argument>
 						<argument>${project.basedir}/src/generated/java</argument>
