@@ -35,7 +35,7 @@
          <children>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <TextArea fx:id="copyfield" promptText="paste items here" />
+                  <TextArea fx:id="copyfield" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="paste items here" />
                </children>
             </HBox>
             <GridPane>
