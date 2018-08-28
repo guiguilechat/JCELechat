@@ -74,4 +74,11 @@ public class ObsListHolderImpl<U> implements ObsListHolder<U> {
 	public void dataReceived() {
 		waitLatch.countDown();
 	}
+
+	@Override
+	public void unfollow(ListChangeListener<? super U> change) {
+		synchronized (underlying) {
+			underlying.removeListener(change);
+		}
+	}
 }

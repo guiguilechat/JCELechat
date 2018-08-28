@@ -70,7 +70,7 @@ public class EveCharacter {
 				rolesHQCache = FXCollections.observableSet();
 				rolesBaseCache = FXCollections.observableSet();
 				rolesOtherCache = FXCollections.observableSet();
-				rolesobs.follow(this::handleNewRoles);
+				rolesobs.follow((o, old, now) -> handleNewRoles(now));
 			}
 		}
 	}

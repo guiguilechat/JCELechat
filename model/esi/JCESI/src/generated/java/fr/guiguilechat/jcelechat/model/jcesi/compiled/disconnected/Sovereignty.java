@@ -46,7 +46,7 @@ public class Sovereignty {
                             for (R_get_sovereignty_campaigns val: arr) {
                                 newmap.put((val.campaign_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -117,7 +117,7 @@ public class Sovereignty {
                             for (R_get_sovereignty_structures val: arr) {
                                 newmap.put((val.structure_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }

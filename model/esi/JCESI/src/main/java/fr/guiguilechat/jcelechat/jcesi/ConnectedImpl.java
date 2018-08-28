@@ -152,6 +152,7 @@ public abstract class ConnectedImpl implements ITransfer {
 							} else {
 								expArr.add(0, ESIAccount.formatter.format(now.plus(Period.ofDays(1))));
 							}
+							headerHandler.put("hackedHeader", Arrays.asList("true"));
 						}
 					}
 					return null;
@@ -245,6 +246,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		T[] res = resourceAccess.apply(1, headerHandler);
 		if (cacheExpireStore != null) {
 			long expire = ESIConnected.getCacheExpire(headerHandler);
+			logger.debug("expiration ms is " + expire + "from " + headerHandler);
 			cacheExpireStore.accept(System.currentTimeMillis() + expire);
 		}
 		if (res == null) {
@@ -330,7 +332,10 @@ public abstract class ConnectedImpl implements ITransfer {
 			props.put("Content-Type", "application/json");
 			datastr = mapToJSON(transmit);
 		}
-		return connect(url, method, props, datastr, headerHandler);
+		logger.debug("fetch " + method + " " + url);
+		String ret = connect(url, method, props, datastr, headerHandler);
+		logger.debug("answered " + method + " " + url);
+		return ret;
 	}
 
 	protected void addConnection(HashMap<String, String> props) {

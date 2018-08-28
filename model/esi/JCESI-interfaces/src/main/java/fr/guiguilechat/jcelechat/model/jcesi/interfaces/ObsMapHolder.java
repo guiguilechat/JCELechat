@@ -30,6 +30,8 @@ public interface ObsMapHolder<U, V> {
 	 */
 	void follow(MapChangeListener<? super U, ? super V> change);
 
+	void unfollow(MapChangeListener<? super U, ? super V> change);
+
 	void waitData();
 
 	/**

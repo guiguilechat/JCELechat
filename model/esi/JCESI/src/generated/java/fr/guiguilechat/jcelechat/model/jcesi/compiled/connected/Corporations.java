@@ -283,7 +283,7 @@ public class Corporations {
                             for (M_get_contracts_bids_contract_4 val: arr) {
                                 newmap.put((val.bid_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -330,7 +330,7 @@ public class Corporations {
                             for (M_get_contracts_contract_items_6 val: arr) {
                                 newmap.put((val.record_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -374,7 +374,7 @@ public class Corporations {
                             for (R_get_corporations_corporation_id_customs_offices val: arr) {
                                 newmap.put((val.office_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -534,7 +534,7 @@ public class Corporations {
                             for (R_get_corporations_corporation_id_industry_jobs val: arr) {
                                 newmap.put((val.job_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -966,7 +966,7 @@ public class Corporations {
                             for (R_get_corporations_corporation_id_starbases val: arr) {
                                 newmap.put((val.starbase_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -1135,7 +1135,7 @@ public class Corporations {
                             for (R_get_corporations_corporation_id_wallets_division_transactions val: arr) {
                                 newmap.put((val.transaction_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -1179,7 +1179,7 @@ public class Corporations {
                             for (M_get_blueprints_8 val: arr) {
                                 newmap.put((val.item_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -1301,7 +1301,7 @@ public class Corporations {
                             for (R_get_corporations_corporation_id_orders_history val: arr) {
                                 newmap.put((val.order_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -1462,7 +1462,7 @@ public class Corporations {
                             for (R_get_corporations_corporation_id_orders val: arr) {
                                 newmap.put((val.order_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
@@ -1509,7 +1509,7 @@ public class Corporations {
                             for (M_get_journal_13 val: arr) {
                                 newmap.put((val.id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }

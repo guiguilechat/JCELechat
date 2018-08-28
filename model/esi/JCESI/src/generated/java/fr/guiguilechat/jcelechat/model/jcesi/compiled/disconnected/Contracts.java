@@ -54,7 +54,7 @@ public class Contracts {
                             for (M_get_contracts_bids_contract_4 val: arr) {
                                 newmap.put((val.bid_id), (val));
                             }
-                            holder.entrySet().retainAll(newmap.entrySet());
+                            holder.keySet().retainAll(newmap.keySet());
                             holder.putAll(newmap);
                             finalRet.dataReceived();
                         }

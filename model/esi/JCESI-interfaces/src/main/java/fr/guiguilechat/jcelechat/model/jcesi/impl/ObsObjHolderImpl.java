@@ -1,10 +1,10 @@
 package fr.guiguilechat.jcelechat.model.jcesi.impl;
 
 import java.util.concurrent.CountDownLatch;
-import java.util.function.Consumer;
 
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
 import javafx.beans.Observable;
+import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 
 public class ObsObjHolderImpl<U> implements ObsObjHolder<U> {
@@ -38,18 +38,25 @@ public class ObsObjHolderImpl<U> implements ObsObjHolder<U> {
 	}
 
 	@Override
-	public void follow(Consumer<U> cons) {
+	public void follow(ChangeListener<U> change) {
 		synchronized (underlying) {
 			if (waitLatch.getCount() <= 0) {
-				cons.accept(get());
+				change.changed(underlying, null, underlying.getValue());
 			}
-			underlying.addListener((o, old, now) -> cons.accept(now));
+			underlying.addListener(change);
 		}
 	}
 
 	@Override
 	public Observable asObservable() {
 		return underlying;
+	}
+
+	@Override
+	public void unfollow(ChangeListener<U> change) {
+		synchronized (underlying) {
+			underlying.removeListener(change);
+		}
 	}
 
 }

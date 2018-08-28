@@ -1,8 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.interfaces;
 
-import java.util.function.Consumer;
-
 import javafx.beans.Observable;
+import javafx.beans.value.ChangeListener;
 
 /**
  * holder on a single object. call should be synchronized.
@@ -13,7 +12,9 @@ public interface ObsObjHolder<U> {
 
 	public U get();
 
-	public void follow(Consumer<U> cons);
+	public void follow(ChangeListener<U> cons);
+
+	void unfollow(ChangeListener<U> change);
 
 	void waitData();
 

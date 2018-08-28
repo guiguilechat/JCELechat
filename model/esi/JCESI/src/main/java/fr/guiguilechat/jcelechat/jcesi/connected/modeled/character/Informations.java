@@ -97,7 +97,7 @@ public class Informations {
 			synchronized (this) {
 				if (!connected) {
 					dataLatch = new CountDownLatch(1);
-					ESIStatic.INSTANCE.cache.characters.get(con.characterId()).follow(this::handleData);
+					ESIStatic.INSTANCE.cache.characters.get(con.characterId()).follow((o, old, now) -> handleData(now));
 					connected = true;
 				}
 			}

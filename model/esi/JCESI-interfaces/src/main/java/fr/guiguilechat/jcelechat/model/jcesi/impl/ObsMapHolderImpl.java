@@ -63,4 +63,11 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 		waitLatch.countDown();
 	}
 
+	@Override
+	public void unfollow(MapChangeListener<? super K, ? super U> change) {
+		synchronized (underlying) {
+			underlying.removeListener(change);
+		}
+	}
+
 }

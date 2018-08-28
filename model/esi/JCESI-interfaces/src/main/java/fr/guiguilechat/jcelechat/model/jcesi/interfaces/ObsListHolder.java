@@ -36,6 +36,8 @@ public interface ObsListHolder<U> {
 	 */
 	void follow(ListChangeListener<? super U> listener);
 
+	void unfollow(ListChangeListener<? super U> change);
+
 	void waitData();
 
 	/**

@@ -670,7 +670,7 @@ public class PathTranslator {
 		setBody.forEach(resourceType, "val", arr).body().invoke(newmap, "put")
 		.arg(JExpr.direct("val." + cacheRetUniqueField.name())).arg(JExpr.direct("val"));
 		// container.entrySet().retainAll(newMap.entrySet())
-		setBody.add(JExpr.invoke(holder, "entrySet").invoke("retainAll").arg(newmap.invoke("entrySet")));
+		setBody.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
 		// container.putAll(newmap)
 		setBody.invoke(holder, "putAll").arg(newmap);
 		setBody.invoke(finalRet, "dataReceived");
@@ -795,7 +795,7 @@ public class PathTranslator {
 		setBody.forEach(resourceType, "val", arr).body().invoke(newmap, "put")
 		.arg(JExpr.direct("val." + cacheRetUniqueField.name())).arg(JExpr.direct("val"));
 		// container.entrySet().retainAll(newMap.entrySet())
-		setBody.add(JExpr.invoke(holder, "entrySet").invoke("retainAll").arg(newmap.invoke("entrySet")));
+		setBody.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
 		// container.putAll(newmap)
 		setBody.invoke(holder, "putAll").arg(newmap);
 		setBody.invoke(finalRet, "dataReceived");
