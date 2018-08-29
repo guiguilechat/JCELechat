@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import javafx.beans.Observable;
 import javafx.collections.FXCollections;
@@ -38,19 +39,27 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 	@Override
 	public Map<K, U> copy() {
 		waitData();
+		Map<K, U> ret;
+		LockWatchDog.BARKER.tak(underlying);
 		synchronized (underlying) {
-			return new HashMap<>(underlying);
+			LockWatchDog.BARKER.hld(underlying);
+			ret = new HashMap<>(underlying);
 		}
+		LockWatchDog.BARKER.rel(underlying);
+		return ret;
 	}
 
 	@Override
 	public void follow(MapChangeListener<? super K, ? super U> listener) {
+		LockWatchDog.BARKER.tak(underlying);
 		synchronized (underlying) {
+			LockWatchDog.BARKER.hld(underlying);
 			ObservableMap<K, U> othermap = FXCollections.observableHashMap();
 			othermap.addListener(listener);
 			othermap.putAll(underlying);
 			underlying.addListener(listener);
 		}
+		LockWatchDog.BARKER.rel(underlying);
 	}
 
 	@Override
@@ -65,9 +74,12 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 
 	@Override
 	public void unfollow(MapChangeListener<? super K, ? super U> change) {
+		LockWatchDog.BARKER.tak(underlying);
 		synchronized (underlying) {
+			LockWatchDog.BARKER.hld(underlying);
 			underlying.removeListener(change);
 		}
+		LockWatchDog.BARKER.rel(underlying);
 	}
 
 }

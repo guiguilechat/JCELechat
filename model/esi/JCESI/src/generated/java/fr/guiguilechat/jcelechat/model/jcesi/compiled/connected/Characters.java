@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_blueprints
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_22;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_bids_contract_4;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_contract_bids_4;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_contract_items_6;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_killmails_2;
@@ -78,7 +78,7 @@ public class Characters {
     private final Map<K_1_int_int, ObsListHolder<R_get_characters_character_id_calendar_event_id_attendees>> get_characters_character_id_calendar_event_id_attendees_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<M_get_contacts_labels_2>> get_characters_character_id_contacts_labels_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<M_get_contracts_22>> get_characters_character_id_contracts_holder = new HashMap<>();
-    private final Map<K_2_int_int, ObsMapHolder<Integer, M_get_contracts_bids_contract_4>> get_characters_character_id_contracts_contract_id_bids_holder = new HashMap<>();
+    private final Map<K_2_int_int, ObsMapHolder<Integer, M_get_contracts_contract_bids_4>> get_characters_character_id_contracts_contract_id_bids_holder = new HashMap<>();
     private final Map<K_2_int_int, ObsMapHolder<Long, M_get_contracts_contract_items_6>> get_characters_character_id_contracts_contract_id_items_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_fittings>> get_characters_character_id_fittings_holder = new HashMap<>();
@@ -374,9 +374,9 @@ public class Characters {
      * @param contract_id
      *     ID of a contract
      */
-    public ObsMapHolder<Integer, M_get_contracts_bids_contract_4> contracts_bids(int character_id, int contract_id) {
+    public ObsMapHolder<Integer, M_get_contracts_contract_bids_4> contracts_bids(int character_id, int contract_id) {
         K_2_int_int param = new K_2_int_int(contract_id, character_id);
-        ObsMapHolder<Integer, M_get_contracts_bids_contract_4> ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
+        ObsMapHolder<Integer, M_get_contracts_contract_bids_4> ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_contracts_contract_id_bids_holder);
             synchronized (get_characters_character_id_contracts_contract_id_bids_holder)
@@ -384,17 +384,17 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_contracts_contract_id_bids_holder);
                 ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
                 if (ret == null) {
-                    ObservableMap<Integer, M_get_contracts_bids_contract_4> holder = FXCollections.observableHashMap();
+                    ObservableMap<Integer, M_get_contracts_contract_bids_4> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_contracts_contract_id_bids_holder.put(param, ret);
-                    ObsMapHolder<Integer, M_get_contracts_bids_contract_4> finalRet = ret;
+                    ObsMapHolder<Integer, M_get_contracts_contract_bids_4> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_contracts_contract_id_bids", (page, headerHandler) -> (cache.swagger).get_characters_contracts_bids(character_id, contract_id, headerHandler), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Integer, M_get_contracts_bids_contract_4> newmap = new LinkedHashMap<>();
-                            for (M_get_contracts_bids_contract_4 val: arr) {
+                            LinkedHashMap<Integer, M_get_contracts_contract_bids_4> newmap = new LinkedHashMap<>();
+                            for (M_get_contracts_contract_bids_4 val: arr) {
                                 newmap.put((val.bid_id), (val));
                             }
                             holder.keySet().retainAll(newmap.keySet());

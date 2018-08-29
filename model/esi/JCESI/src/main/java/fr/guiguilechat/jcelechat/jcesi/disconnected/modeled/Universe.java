@@ -1,6 +1,8 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -42,6 +44,17 @@ public class Universe {
 			}
 			return IntStream.of(ids).mapToObj(cachedNames::get).toArray(R_post_universe_names[]::new);
 		}
+	}
+
+	private Set<Long> publicStructures = new HashSet<>();
+
+	public boolean isPublicStructure(long structureid) {
+		synchronized (publicStructures) {
+			if (publicStructures.isEmpty()) {
+				publicStructures.addAll(con.cache.universe.structures().copy());
+			}
+		}
+		return publicStructures.contains(structureid);
 	}
 
 }

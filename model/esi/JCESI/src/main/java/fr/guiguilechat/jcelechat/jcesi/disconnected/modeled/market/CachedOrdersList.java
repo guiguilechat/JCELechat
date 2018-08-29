@@ -69,7 +69,7 @@ public class CachedOrdersList {
 		Pausable exec = ESIStatic.INSTANCE.cache
 				.addFetchCacheArray("orders_type" + typeID,
 						(p, h) -> ESIStatic.INSTANCE
-								.get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.order_type.all, p,
+						.get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.order_type.all, p,
 								regionalMarket.regionID, typeID, h),
 						this::handleNewCache);
 		selfOrdersStop = exec::pause;
@@ -132,7 +132,11 @@ public class CachedOrdersList {
 						}
 
 						{
-							bind(buy ? listBuyOrders() : listSellOrders());
+							ObservableList<R_get_markets_region_id_orders> orders = buy ? listBuyOrders() : listSellOrders();
+							synchronized (orders) {
+								bind(orders);
+							}
+
 						}
 					};
 					m.put(qtty, ret);

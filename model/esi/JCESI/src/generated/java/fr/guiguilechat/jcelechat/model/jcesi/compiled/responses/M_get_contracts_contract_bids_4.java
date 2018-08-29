@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
-public class M_get_contracts_bids_contract_4 {
+public class M_get_contracts_contract_bids_4 {
     /**
      * The amount bid, in ISK
      */

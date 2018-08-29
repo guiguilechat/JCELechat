@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiled;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_bids_contract_4;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_alliances_alliance_id;
@@ -11,6 +10,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_alliances_
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_corporationhistory;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_portrait;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_bids_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id;
@@ -164,10 +164,10 @@ public interface G_IDCAccess
      * @param page
      *     Which page of results to return
      */
-    public default M_get_contracts_bids_contract_4 [] get_contracts_public_bids(int contract_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default R_get_contracts_public_bids_contract_id[] get_contracts_public_bids(int contract_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/contracts/public/bids/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_bids_contract_4[].class));
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_bids_contract_id[].class));
     }
 
     /**

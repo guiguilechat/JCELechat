@@ -246,7 +246,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		T[] res = resourceAccess.apply(1, headerHandler);
 		if (cacheExpireStore != null) {
 			long expire = ESIConnected.getCacheExpire(headerHandler);
-			logger.debug("expiration ms is " + expire + "from " + headerHandler);
+			logger.trace("expiration ms is " + expire + "from " + headerHandler);
 			cacheExpireStore.accept(System.currentTimeMillis() + expire);
 		}
 		if (res == null) {
@@ -332,9 +332,9 @@ public abstract class ConnectedImpl implements ITransfer {
 			props.put("Content-Type", "application/json");
 			datastr = mapToJSON(transmit);
 		}
-		logger.debug("fetch " + method + " " + url);
+		logger.trace("fetch " + method + " " + url);
 		String ret = connect(url, method, props, datastr, headerHandler);
-		logger.debug("answered " + method + " " + url);
+		logger.trace("answered " + method + " " + url);
 		return ret;
 	}
 
@@ -399,8 +399,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	// scheduling
 	////
 
+	// TODO why set to 200 ? it seems lower value make deadlock
 	// we set daemon otherwise the thread will prevent jvm from running.
-	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(8, r -> {
+	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(200, r -> {
 		Thread t = Executors.defaultThreadFactory().newThread(r);
 		t.setDaemon(true);
 		return t;
@@ -468,7 +469,6 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			paused = false;
 			schedule(0);
-			logState();
 		}
 
 		public void schedule(long delay_ms) {
@@ -478,6 +478,7 @@ public abstract class ConnectedImpl implements ITransfer {
 					scheduled = true;
 				}
 			}
+			logState();
 		}
 
 		public String loggingName = "";
@@ -488,7 +489,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 
 		protected void logState() {
-			logger.info("state of executable " + loggingName + " : " + (stop ? "stopped" : "started") + "|"
+			logger.debug("state of executable " + loggingName + " : " + (stop ? "stopped" : "started") + "|"
 					+ (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled")
 					// , new Exception()
 					);
@@ -502,6 +503,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			if (stop) {
 				return;
 			}
+			logState();
 			long delay_ms = 1000;
 			try {
 				delay_ms = do_execute();
@@ -510,6 +512,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			} finally {
 				schedule(delay_ms);
 			}
+			logState();
 		}
 
 		/**

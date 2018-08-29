@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_bookmarks_
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_characters_character_mail_recipients_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_22;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_bids_contract_4;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_contract_bids_4;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_contract_items_6;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_killmails_2;
@@ -362,10 +362,10 @@ public interface G_ICOAccess
      * @param contract_id
      *     ID of a contract
      */
-    public default M_get_contracts_bids_contract_4 [] get_characters_contracts_bids(int character_id, int contract_id, Map<String, List<String>> headerHandler) {
+    public default M_get_contracts_contract_bids_4 [] get_characters_contracts_bids(int character_id, int contract_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/contracts/{contract_id}/bids/".replace("{character_id}", ""+character_id).replace("{contract_id}", ""+contract_id));
         String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_bids_contract_4[].class));
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_contract_bids_4[].class));
     }
 
     /**
@@ -1072,10 +1072,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default M_get_contracts_bids_contract_4 [] get_corporations_contracts_bids(int contract_id, int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_contracts_contract_bids_4 [] get_corporations_contracts_bids(int contract_id, int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/contracts/{contract_id}/bids/".replace("{contract_id}", ""+contract_id).replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_bids_contract_4[].class));
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_contract_bids_4[].class));
     }
 
     /**
