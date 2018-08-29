@@ -98,7 +98,7 @@ public class LockWatchDog {
 	}
 
 	private LockWatchDog() {
-		Executors.newScheduledThreadPool(1).scheduleAtFixedRate(this::logLocks, 10, 10, TimeUnit.SECONDS);
+		Executors.newScheduledThreadPool(1).scheduleAtFixedRate(this::logLocks, 30, 30, TimeUnit.SECONDS);
 	}
 
 	public static final LockWatchDog BARKER = new LockWatchDog();

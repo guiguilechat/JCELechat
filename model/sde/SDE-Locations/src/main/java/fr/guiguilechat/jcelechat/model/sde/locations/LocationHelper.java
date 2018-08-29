@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.model.sde.locations;
 
-import javafx.collections.FXCollections;
 import javafx.scene.control.ChoiceBox;
 import javafx.util.StringConverter;
 
@@ -10,7 +9,7 @@ public class LocationHelper {
 		return new StringConverter<>() {
 			@Override
 			public String toString(Region object) {
-				return object.name;
+				return object != null ? object.name : "ANY";
 			}
 
 			@Override
@@ -27,6 +26,6 @@ public class LocationHelper {
 	 */
 	public static void initRegion(ChoiceBox<Region> box) {
 		box.setConverter(regionConverter());
-		box.setItems(FXCollections.observableArrayList(Region.load().values()));
+		box.getItems().addAll(Region.load().values());
 	}
 }
