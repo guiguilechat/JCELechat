@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.moonworth;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -9,10 +10,15 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
+import fr.guiguilechat.jcelechat.model.sde.industry.Usage;
 import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionTypeID;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Asteroid;
+import fr.guiguilechat.jcelechat.model.sde.items.types.Material;
+import fr.guiguilechat.jcelechat.model.sde.items.types.material.IceProduct;
+import fr.guiguilechat.jcelechat.model.sde.items.types.material.Mineral;
+import fr.guiguilechat.jcelechat.model.sde.items.types.material.MoonMaterials;
 import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
@@ -32,43 +38,72 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.chart.XYChart.Data;
 import javafx.scene.chart.XYChart.Series;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 
 public class MoonWorthController {
 
 	private static enum Evaluator {
 		BO {
 			@Override
-			public double value(int typeID, RegionalMarket market) {
-				ObservableDoubleValue var = market.getBO(typeID, 1);
+			public double value(int typeID, MoonWorthController controller) {
+				ObservableDoubleValue var = controller.market().getBO(typeID, 1);
+				// System.err.println("bo value of " + typeID + " is " +
+				// var.doubleValue());
 				return var.doubleValue();
 			}
 		},
-		SO {
-			@Override
-			public double value(int typeID, RegionalMarket market) {
-				ObservableDoubleValue var = market.getSO(typeID, 1);
-				return var.doubleValue();
-			}
-		},
+		// SO {
+		// @Override
+		// public double value(int typeID, MoonWorthController controller) {
+		// ObservableDoubleValue var = controller.market().getSO(typeID, 1);
+		// System.err.println("so value of " + typeID + " is " + var.doubleValue());
+		// return var.doubleValue();
+		// }
+		// },
 		MONTH {
 			@Override
-			public double value(int typeID, RegionalMarket market) {
-				ObservableDoubleValue var = market.getHistory(typeID).monthlyAverage();
+			public double value(int typeID, MoonWorthController controller) {
+				ObservableDoubleValue var = controller.market().getHistory(typeID).monthlyAverage();
 				return var.doubleValue();
 			}
 		},
 		WEEK {
 			@Override
-			public double value(int typeID, RegionalMarket market) {
-				ObservableDoubleValue var = market.getHistory(typeID).weeklyAverage();
+			public double value(int typeID, MoonWorthController controller) {
+				ObservableDoubleValue var = controller.market().getHistory(typeID).weeklyAverage();
 				return var.doubleValue();
+			}
+		},
+		REPROBO {
+			@Override
+			public double value(int typeID, MoonWorthController controller) {
+				double ret = 0;
+				for (Entry<String, Integer> e : Usage.load().get(ItemIndex.getItem(typeID).name).reprocess.entrySet()) {
+					Material mat = (Material) ItemIndex.getItem(e.getKey());
+					double matval = controller.matReprocess(mat) * BO.value(mat.id, controller);
+					ret += matval;
+				}
+				return ret;
+			}
+		},
+		REPROMONTH {
+			@Override
+			public double value(int typeID, MoonWorthController controller) {
+				double ret = 0;
+				for (Entry<String, Integer> e : Usage.load().get(ItemIndex.getItem(typeID).name).reprocess.entrySet()) {
+					Material mat = (Material) ItemIndex.getItem(e.getKey());
+					double matval = controller.matReprocess(mat) * MONTH.value(mat.id, controller);
+					ret += matval;
+				}
+				return ret;
 			}
 		};
 
-		public abstract double value(int typeID, RegionalMarket market);
+		public abstract double value(int typeID, MoonWorthController controller);
 	}
 
 	@FXML
@@ -78,6 +113,10 @@ public class MoonWorthController {
 	private ChoiceBox<Region> regionSelect;
 
 	private Property<RegionalMarket> marketHolder = new SimpleObjectProperty<>();
+
+	public RegionalMarket market() {
+		return marketHolder.getValue();
+	}
 
 	@FXML
 	private TextArea moondata;
@@ -90,7 +129,22 @@ public class MoonWorthController {
 	private IntegerProperty datalimitProperty;
 
 	@FXML
+	private GridPane optionsPane;
+
+	@FXML
 	private BorderPane pane;
+
+	private HashMap<Material, DoubleProperty> matReprocess = new HashMap<>();
+
+	public double matReprocess(Material mat) {
+		DoubleProperty obs = matReprocess.get(mat);
+		if (obs == null) {
+			System.err.println("no observable for " + mat);
+		}
+		double ret = obs != null ? obs.doubleValue() : 0.0;
+		// System.err.println("reprocess mult of " + mat + " is " + ret);
+		return ret;
+	}
 
 	@FXML
 	private void initialize() {
@@ -103,6 +157,24 @@ public class MoonWorthController {
 
 		datalimitProperty = JFXTools.convertInt(datalimit.textProperty(), i -> i >= 0);
 		datalimitProperty.addListener((ChangeListener<Number>) (observable, oldValue, newValue) -> updateChart());
+
+		int row = 3;
+		ArrayList<Material> materials = new ArrayList<>();
+		materials.addAll(Mineral.METAGROUP.load().values());
+		materials.addAll(MoonMaterials.METAGROUP.load().values());
+		materials.addAll(IceProduct.METAGROUP.load().values());
+		for (Material mat : materials) {
+			Label lbl = new Label(mat.name);
+			TextField reproc = new TextField("0.5");
+			reproc.setMinHeight(20);
+			reproc.setMaxHeight(25);
+			// lbl.setMinWidth(120);
+			// reproc.setMaxWidth(40);
+			DoubleProperty prop = JFXTools.convertDouble(reproc.textProperty(), d -> d >= 0);
+			matReprocess.put(mat, prop);
+			optionsPane.addRow(row, lbl, reproc);
+			row++;
+		}
 
 		final NumberAxis xAxis = new NumberAxis();
 		final NumberAxis yAxis = new NumberAxis();
@@ -155,9 +227,10 @@ public class MoonWorthController {
 				}
 			}
 		}
-		System.err.println("data after update :");
-		data.values().stream().flatMap(m -> m.values().stream()).flatMap(m -> m.values().stream())
-		.forEach(System.err::println);
+		// System.err.println("data after update :");
+		// data.values().stream().flatMap(m -> m.values().stream()).flatMap(m ->
+		// m.values().stream())
+		// .forEach(System.err::println);
 		updateChart();
 	}
 
@@ -201,6 +274,7 @@ public class MoonWorthController {
 	}
 
 	protected void updateChart() {
+		// System.err.println("\nmaking chart\n");
 		moonchart.getData().clear();
 		Evaluator eval = evalSelector.getSelectionModel().getSelectedItem();
 		if (data.isEmpty() || eval == null) {
@@ -208,12 +282,14 @@ public class MoonWorthController {
 		}
 		HashMap<Asteroid, Double> volumicPrices = new HashMap<>();
 		Asteroid.METACAT.load().values().stream().filter(ast -> ast.marketGroup != 0).forEach(ast -> {
-			double volumicPrice = eval.value(ast.id, marketHolder.getValue())
-					/ ast.volume;
+			double volumicPrice = eval.value(ast.id, this) / ast.volume;
 			try {
 				Asteroid compressed = (Asteroid) ItemIndex.getItem(ast.attribute(CompressionTypeID.INSTANCE).intValue());
 				double compressionRequired = ast.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
-				double volumicprice2 = eval.value(compressed.id, marketHolder.getValue()) / ast.volume / compressionRequired;
+				double volumicprice2 = eval.value(compressed.id, this) / ast.volume / compressionRequired;
+				// System.err.println(
+				// "asteroid " + ast + " volume " + ast.volume + " volprice " +
+				// volumicPrice + " volprice2 " + volumicprice2);
 				if (volumicprice2 > volumicPrice) {
 					volumicPrice = volumicprice2;
 				}
@@ -221,6 +297,7 @@ public class MoonWorthController {
 			}
 			volumicPrices.put(ast, volumicPrice);
 		});
+		// System.err.println("volumic prices is " + volumicPrices);
 		HashMap<Series<Number, Number>, Double> seriesToYield = new HashMap<>();
 		filteredMoons().forEach(e -> {
 			Map<Asteroid, Double> asteroval = e.getValue();
@@ -228,27 +305,35 @@ public class MoonWorthController {
 			series.getData().add(new Data<>(0.0, 0.0));
 			series.setName(e.getKey());
 			Map<Double, Double> volumicPriceToVol = new HashMap<>();
-			for (Entry<Asteroid, Double> ast : asteroval.entrySet()) {
-				double volume = 100 * 50000 * ast.getValue();
-				volumicPriceToVol.put(volumicPrices.get(ast.getKey()),
-						volume + volumicPriceToVol.getOrDefault(volumicPriceToVol, 0.));
+			for (Entry<Asteroid, Double> astEntry : asteroval.entrySet()) {
+				double volume = 100 * 50000 * astEntry.getValue();
+				Double volumicPrice = volumicPrices.get(astEntry.getKey());
+				// System.err.println("volume for " + astEntry.getKey() + " is " +
+				// volume + " ; volprice is " + volumicPrice);
+				volumicPriceToVol.put(volumicPrice, volume + volumicPriceToVol.getOrDefault(volumicPrice, 0.0));
 			}
 			DoubleProperty totalVol = new SimpleDoubleProperty(0);
 			DoubleProperty totalIsk = new SimpleDoubleProperty(0);
 			volumicPriceToVol.entrySet().stream().sorted((e1, e2) -> (int) Math.signum(e2.getKey() - e1.getKey()))
 			.forEach(entry -> {
-				if(totalVol.get()==0) {
+				// System.err.println("entry volprice " + entry.getKey() + " has vol
+				// " + entry.getValue());
+				if (totalVol.get() == 0) {
 					seriesToYield.put(series, entry.getKey());
 				}
 				totalVol.set(totalVol.get() + entry.getValue());
 				totalIsk.set(totalIsk.get() + entry.getValue() * entry.getKey());
-				double volume = totalVol.get(), isk = totalIsk.get();
-				System.err.println("added " + e.getKey() + "\t" + volume + "\t" + isk + "\t" + entry.getKey());
+				// System.err.println("total vol became " + totalVol.get() + " and
+				// total isk became " + totalIsk.get());
+				double volume = totalVol.get();
+				double isk = totalIsk.get();
+				// System.err.println("added " + e.getKey() + "\t" + volume + "\t" +
+				// isk + "\t" + entry.getKey());
 				series.getData().add(new Data<>(volume, isk / 1000000));
 			});
 		});
 		int limit = datalimitProperty.get();
-		if(limit==0) {
+		if (limit == 0) {
 			moonchart.getData().addAll(seriesToYield.keySet());
 		} else {
 			double minValue = seriesToYield.values().stream().sorted((a, b) -> (int) Math.signum(b - a)).limit(limit)
