@@ -175,6 +175,13 @@ items:
     marketGroup: 703
     name: Domination Small Cap Battery
     volume: 5.0
+  Large Abyssal Cap Battery:
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 48439
+    name: Large Abyssal Cap Battery
+    volume: 50.0
   Large Cap Battery I:
     CapacitorBonus: 1300
     Cpu: 50.0
@@ -216,6 +223,13 @@ items:
     marketGroup: 705
     name: Large Compact Pb-Acid Cap Battery
     volume: 15.0
+  Medium Abyssal Cap Battery:
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 48435
+    name: Medium Abyssal Cap Battery
+    volume: 5.0
   Medium Cap Battery I:
     CapacitorBonus: 500
     Cpu: 35.0
@@ -301,6 +315,13 @@ items:
     id: 41212
     marketGroup: 703
     name: Republic Fleet Small Cap Battery
+    volume: 5.0
+  Small Abyssal Cap Battery:
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 48431
+    name: Small Abyssal Cap Battery
     volume: 5.0
   Small Cap Battery I:
     CapacitorBonus: 120
@@ -388,10 +409,3 @@ items:
     marketGroup: 703
     name: Thukker Small Cap Battery
     volume: 5.0
-  unnamed_g61_ic89:
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 4
-    TechLevel: 1
-    id: 48439
-    name: unnamed_g61_ic89
-    volume: 50.0

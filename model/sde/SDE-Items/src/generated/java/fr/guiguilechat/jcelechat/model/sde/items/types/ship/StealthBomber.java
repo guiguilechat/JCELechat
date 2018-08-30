@@ -57,8 +57,8 @@ public class StealthBomber
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EliteBonusCovertOps3;
+    @DefaultDoubleValue(0.0)
+    public double EliteBonusCovertOps3;
     /**
      * 
      */

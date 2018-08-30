@@ -64,6 +64,11 @@ items:
     marketGroup: 2455
     name: Decayed Heavy Energy Neutralizer Mutaplasmid
     volume: 1.0
+  Decayed Heavy Energy Nosferatu Mutaplasmid:
+    id: 48424
+    marketGroup: 2455
+    name: Decayed Heavy Energy Nosferatu Mutaplasmid
+    volume: 1.0
   Decayed Large Armor Plate Mutaplasmid:
     id: 47816
     marketGroup: 2445
@@ -73,6 +78,11 @@ items:
     id: 47774
     marketGroup: 2445
     name: Decayed Large Armor Repairer Mutaplasmid
+    volume: 1.0
+  Decayed Large Cap Battery Mutaplasmid:
+    id: 48436
+    marketGroup: 2455
+    name: Decayed Large Cap Battery Mutaplasmid
     volume: 1.0
   Decayed Large Shield Booster Mutaplasmid:
     id: 47786
@@ -94,10 +104,20 @@ items:
     marketGroup: 2444
     name: Decayed Medium Armor Repairer Mutaplasmid
     volume: 1.0
+  Decayed Medium Cap Battery Mutaplasmid:
+    id: 48432
+    marketGroup: 2454
+    name: Decayed Medium Cap Battery Mutaplasmid
+    volume: 1.0
   Decayed Medium Energy Neutralizer Mutaplasmid:
     id: 47825
     marketGroup: 2454
     name: Decayed Medium Energy Neutralizer Mutaplasmid
+    volume: 1.0
+  Decayed Medium Energy Nosferatu Mutaplasmid:
+    id: 48420
+    marketGroup: 2454
+    name: Decayed Medium Energy Nosferatu Mutaplasmid
     volume: 1.0
   Decayed Medium Shield Booster Mutaplasmid:
     id: 47782
@@ -119,10 +139,20 @@ items:
     marketGroup: 2443
     name: Decayed Small Armor Repairer Mutaplasmid
     volume: 1.0
+  Decayed Small Cap Battery Mutaplasmid:
+    id: 48428
+    marketGroup: 2453
+    name: Decayed Small Cap Battery Mutaplasmid
+    volume: 1.0
   Decayed Small Energy Neutralizer Mutaplasmid:
     id: 47821
     marketGroup: 2453
     name: Decayed Small Energy Neutralizer Mutaplasmid
+    volume: 1.0
+  Decayed Small Energy Nosferatu Mutaplasmid:
+    id: 48416
+    marketGroup: 2453
+    name: Decayed Small Energy Nosferatu Mutaplasmid
     volume: 1.0
   Decayed Small Shield Booster Mutaplasmid:
     id: 47778
@@ -189,6 +219,11 @@ items:
     marketGroup: 2455
     name: Gravid Heavy Energy Neutralizer Mutaplasmid
     volume: 1.0
+  Gravid Heavy Energy Nosferatu Mutaplasmid:
+    id: 48425
+    marketGroup: 2455
+    name: Gravid Heavy Energy Nosferatu Mutaplasmid
+    volume: 1.0
   Gravid Large Armor Plate Mutaplasmid:
     id: 47819
     marketGroup: 2445
@@ -198,6 +233,11 @@ items:
     id: 47776
     marketGroup: 2445
     name: Gravid Large Armor Repairer Mutaplasmid
+    volume: 1.0
+  Gravid Large Cap Battery Mutaplasmid:
+    id: 48437
+    marketGroup: 2455
+    name: Gravid Large Cap Battery Mutaplasmid
     volume: 1.0
   Gravid Large Shield Booster Mutaplasmid:
     id: 47788
@@ -219,10 +259,20 @@ items:
     marketGroup: 2444
     name: Gravid Medium Armor Repairer Mutaplasmid
     volume: 1.0
+  Gravid Medium Cap Battery Mutaplasmid:
+    id: 48433
+    marketGroup: 2454
+    name: Gravid Medium Cap Battery Mutaplasmid
+    volume: 1.0
   Gravid Medium Energy Neutralizer Mutaplasmid:
     id: 47827
     marketGroup: 2454
     name: Gravid Medium Energy Neutralizer Mutaplasmid
+    volume: 1.0
+  Gravid Medium Energy Nosferatu Mutaplasmid:
+    id: 48421
+    marketGroup: 2454
+    name: Gravid Medium Energy Nosferatu Mutaplasmid
     volume: 1.0
   Gravid Medium Shield Booster Mutaplasmid:
     id: 47784
@@ -244,10 +294,20 @@ items:
     marketGroup: 2443
     name: Gravid Small Armor Repairer Mutaplasmid
     volume: 1.0
+  Gravid Small Cap Battery Mutaplasmid:
+    id: 48429
+    marketGroup: 2453
+    name: Gravid Small Cap Battery Mutaplasmid
+    volume: 1.0
   Gravid Small Energy Neutralizer Mutaplasmid:
     id: 47823
     marketGroup: 2453
     name: Gravid Small Energy Neutralizer Mutaplasmid
+    volume: 1.0
+  Gravid Small Energy Nosferatu Mutaplasmid:
+    id: 48417
+    marketGroup: 2453
+    name: Gravid Small Energy Nosferatu Mutaplasmid
     volume: 1.0
   Gravid Small Shield Booster Mutaplasmid:
     id: 47780
@@ -314,6 +374,11 @@ items:
     marketGroup: 2455
     name: Unstable Heavy Energy Neutralizer Mutaplasmid
     volume: 1.0
+  Unstable Heavy Energy Nosferatu Mutaplasmid:
+    id: 48426
+    marketGroup: 2455
+    name: Unstable Heavy Energy Nosferatu Mutaplasmid
+    volume: 1.0
   Unstable Large Armor Plate Mutaplasmid:
     id: 47818
     marketGroup: 2445
@@ -323,6 +388,11 @@ items:
     id: 47775
     marketGroup: 2445
     name: Unstable Large Armor Repairer Mutaplasmid
+    volume: 1.0
+  Unstable Large Cap Battery Mutaplasmid:
+    id: 48438
+    marketGroup: 2455
+    name: Unstable Large Cap Battery Mutaplasmid
     volume: 1.0
   Unstable Large Shield Booster Mutaplasmid:
     id: 47787
@@ -344,10 +414,20 @@ items:
     marketGroup: 2444
     name: Unstable Medium Armor Repairer Mutaplasmid
     volume: 1.0
+  Unstable Medium Cap Battery Mutaplasmid:
+    id: 48434
+    marketGroup: 2454
+    name: Unstable Medium Cap Battery Mutaplasmid
+    volume: 1.0
   Unstable Medium Energy Neutralizer Mutaplasmid:
     id: 47826
     marketGroup: 2454
     name: Unstable Medium Energy Neutralizer Mutaplasmid
+    volume: 1.0
+  Unstable Medium Energy Nosferatu Mutaplasmid:
+    id: 48422
+    marketGroup: 2454
+    name: Unstable Medium Energy Nosferatu Mutaplasmid
     volume: 1.0
   Unstable Medium Shield Booster Mutaplasmid:
     id: 47783
@@ -369,10 +449,20 @@ items:
     marketGroup: 2443
     name: Unstable Small Armor Repairer Mutaplasmid
     volume: 1.0
+  Unstable Small Cap Battery Mutaplasmid:
+    id: 48430
+    marketGroup: 2453
+    name: Unstable Small Cap Battery Mutaplasmid
+    volume: 1.0
   Unstable Small Energy Neutralizer Mutaplasmid:
     id: 47822
     marketGroup: 2453
     name: Unstable Small Energy Neutralizer Mutaplasmid
+    volume: 1.0
+  Unstable Small Energy Nosferatu Mutaplasmid:
+    id: 48418
+    marketGroup: 2453
+    name: Unstable Small Energy Nosferatu Mutaplasmid
     volume: 1.0
   Unstable Small Shield Booster Mutaplasmid:
     id: 47779
@@ -403,34 +493,4 @@ items:
     id: 47791
     marketGroup: 2449
     name: Unstable X-Large Shield Booster Mutaplasmid
-    volume: 1.0
-  unnamed_g1964_ic21988:
-    id: 48424
-    marketGroup: 2455
-    name: unnamed_g1964_ic21988
-    volume: 1.0
-  unnamed_g1964_ic21999:
-    id: 48425
-    marketGroup: 2455
-    name: unnamed_g1964_ic21999
-    volume: 1.0
-  unnamed_g1964_ic22010:
-    id: 48426
-    marketGroup: 2455
-    name: unnamed_g1964_ic22010
-    volume: 1.0
-  unnamed_g1964_ic22029:
-    id: 48436
-    marketGroup: 2455
-    name: unnamed_g1964_ic22029
-    volume: 1.0
-  unnamed_g1964_ic22030:
-    id: 48437
-    marketGroup: 2455
-    name: unnamed_g1964_ic22030
-    volume: 1.0
-  unnamed_g1964_ic22031:
-    id: 48438
-    marketGroup: 2455
-    name: unnamed_g1964_ic22031
     volume: 1.0

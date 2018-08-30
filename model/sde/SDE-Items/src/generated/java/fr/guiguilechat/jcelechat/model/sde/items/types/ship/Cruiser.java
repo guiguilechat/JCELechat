@@ -289,8 +289,8 @@ public class Cruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShipBonusPC1;
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusPC1;
     /**
      * 
      */

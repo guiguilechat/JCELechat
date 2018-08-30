@@ -306,6 +306,20 @@ public class ForceReconShip
     @DefaultDoubleValue(0.0)
     public double ShipBonusMC2;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusPC1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPC2;
+    /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
@@ -504,6 +518,14 @@ public class ForceReconShip
             case  659 :
             {
                 return ShipBonusMC2;
+            }
+            case  2764 :
+            {
+                return ShipBonusPC1;
+            }
+            case  2765 :
+            {
+                return ShipBonusPC2;
             }
             case  2298 :
             {

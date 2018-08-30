@@ -558,6 +558,12 @@ items:
     marketGroup: 454
     name: Zealot Blueprint
     volume: 0.01
+  unnamed_g106_ic0:
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
+    id: 48637
+    name: unnamed_g106_ic0
+    volume: 0.01
   伊什塔级YC117年特别版蓝图:
     TechLevel: 1
     id: 34480
@@ -568,8 +574,8 @@ items:
     id: 34476
     name: 毒蜥级YC117年特别版蓝图
     volume: 0.01
-  银鹰级YC117年特别版蓝��:
+  银鹰级YC117年特别版蓝图:
     TechLevel: 1
     id: 34478
-    name: 银鹰级YC117年特别版蓝��
+    name: 银鹰级YC117年特别版蓝图
     volume: 0.01

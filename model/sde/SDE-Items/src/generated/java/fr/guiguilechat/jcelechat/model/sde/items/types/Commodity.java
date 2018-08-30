@@ -46,6 +46,8 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.StrongBoxes;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.TechnicalDataChips;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.Tool;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.TriglavianData;
+import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.TrinaryDataVaults;
+import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.Unamed;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.UnknownComponents;
 
 public abstract class Commodity
@@ -74,7 +76,7 @@ public abstract class Commodity
 
         @Override
         public Collection<IMetaGroup<? extends Commodity>> groups() {
-            return Arrays.asList(ObsoleteBooks.METAGROUP, General.METAGROUP, Frozen.METAGROUP, Radioactive.METAGROUP, Livestock.METAGROUP, Biohazard.METAGROUP, Drugs.METAGROUP, Miscellaneous.METAGROUP, Tool.METAGROUP, Datacores.METAGROUP, ConstructionComponents.METAGROUP, Refinables.METAGROUP, ShipLogs.METAGROUP, CriminalTags.METAGROUP, EmpireInsigniaDrops.METAGROUP, AccelerationGateKeys.METAGROUP, OverseerPersonalEffects.METAGROUP, Identification.METAGROUP, Commodities.METAGROUP, ArtifactsAndPrototypes.METAGROUP, MaterialsAndCompounds.METAGROUP, StationComponents.METAGROUP, Lease.METAGROUP, DataInterfaces.METAGROUP, DecryptorsSleepers.METAGROUP, DecryptorsYanJung.METAGROUP, DecryptorsTakmahl.METAGROUP, DecryptorsTalocan.METAGROUP, CapitalConstructionComponents.METAGROUP, SlaveReception.METAGROUP, SleeperComponents.METAGROUP, AdvancedCapitalConstructionComponents.METAGROUP, HybridTechComponents.METAGROUP, ResearchData.METAGROUP, SecurityTags.METAGROUP, EmpireBountyReimbursementTags.METAGROUP, UnknownComponents.METAGROUP, StrongBoxes.METAGROUP, TechnicalDataChips.METAGROUP, Mutaplasmids.METAGROUP, AbyssalFilaments.METAGROUP, TriglavianData.METAGROUP);
+            return Arrays.asList(ObsoleteBooks.METAGROUP, General.METAGROUP, Frozen.METAGROUP, Radioactive.METAGROUP, Livestock.METAGROUP, Biohazard.METAGROUP, Drugs.METAGROUP, Miscellaneous.METAGROUP, Tool.METAGROUP, Datacores.METAGROUP, ConstructionComponents.METAGROUP, Refinables.METAGROUP, ShipLogs.METAGROUP, CriminalTags.METAGROUP, EmpireInsigniaDrops.METAGROUP, AccelerationGateKeys.METAGROUP, OverseerPersonalEffects.METAGROUP, Identification.METAGROUP, Commodities.METAGROUP, ArtifactsAndPrototypes.METAGROUP, MaterialsAndCompounds.METAGROUP, StationComponents.METAGROUP, Lease.METAGROUP, DataInterfaces.METAGROUP, DecryptorsSleepers.METAGROUP, DecryptorsYanJung.METAGROUP, DecryptorsTakmahl.METAGROUP, DecryptorsTalocan.METAGROUP, CapitalConstructionComponents.METAGROUP, SlaveReception.METAGROUP, SleeperComponents.METAGROUP, AdvancedCapitalConstructionComponents.METAGROUP, HybridTechComponents.METAGROUP, ResearchData.METAGROUP, SecurityTags.METAGROUP, EmpireBountyReimbursementTags.METAGROUP, UnknownComponents.METAGROUP, StrongBoxes.METAGROUP, TechnicalDataChips.METAGROUP, Mutaplasmids.METAGROUP, TrinaryDataVaults.METAGROUP, AbyssalFilaments.METAGROUP, TriglavianData.METAGROUP, Unamed.METAGROUP);
         }
     }
 }

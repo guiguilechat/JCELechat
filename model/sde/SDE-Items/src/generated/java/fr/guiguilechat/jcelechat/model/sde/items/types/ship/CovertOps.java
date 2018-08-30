@@ -64,8 +64,8 @@ public class CovertOps
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EliteBonusCovertOps3;
+    @DefaultDoubleValue(0.0)
+    public double EliteBonusCovertOps3;
     /**
      * 
      */
@@ -306,6 +306,34 @@ public class CovertOps
     @DefaultDoubleValue(0.0)
     public double ShipBonusMF2;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusPF1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusPF2;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
+    /**
      * Fixed Role Bonus on a ship.
      */
     @HighIsGood(true)
@@ -504,6 +532,22 @@ public class CovertOps
             case  587 :
             {
                 return ShipBonusMF2;
+            }
+            case  2762 :
+            {
+                return ShipBonusPF1;
+            }
+            case  2763 :
+            {
+                return ShipBonusPF2;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
             }
             case  793 :
             {

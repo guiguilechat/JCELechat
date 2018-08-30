@@ -4468,6 +4468,14 @@ usages:
       Nocxium: 1
       Tungsten Carbide Armor Plate: 6
       Morphite: 1
+  5MN Abyssal Microwarpdrive:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 3967
+      Pyerite: 2131
+      Mexallon: 228
+      Isogen: 13
+      Nocxium: 2
   5MN Cold-Gas Enduring Microwarpdrive:
     maxreprocess: 0.55
     reprocess:
@@ -4547,14 +4555,6 @@ usages:
       Mexallon: 517
       Nocxium: 78
       Megacyte: 15
-  5mn Abyssal Microwarpdrive:
-    maxreprocess: 0.55
-    reprocess:
-      Tritanium: 3967
-      Pyerite: 2131
-      Mexallon: 228
-      Isogen: 13
-      Nocxium: 2
   650mm Artillery Cannon I:
     materialManuf: !!set
       650mm Artillery Cannon II Blueprint: null
@@ -4944,7 +4944,7 @@ usages:
     materialManuf: !!set
       Abaddon Tash-Murkon Edition Blueprint: null
       Abaddon Kador Edition Blueprint: null
-      地狱天使级YC117年特���版蓝图: null
+      地��天使级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Abaddon Blueprint: null
@@ -7940,7 +7940,7 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末日沙场级YC117年特别版蓝图: null
+      末日沙场级YC117年特���版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Armageddon Blueprint: null
@@ -23917,9 +23917,14 @@ usages:
       Meson Exotic Plasma L Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
-      unnamed_g1990_ic21923: null
-      unnamed_g1990_ic21922: null
-      unnamed_g1990_ic21921: null
+      Light Compact Entropic Disintegrator Blueprint: null
+      Light Scoped Entropic Disintegrator Blueprint: null
+      Heavy Compact Entropic Disintegrator Blueprint: null
+      Heavy Scoped Entropic Disintegrator Blueprint: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   Cubic Bistot:
     maxreprocess: 0.8934
@@ -30349,6 +30354,15 @@ usages:
       Isogen: 1080
       Nocxium: 240
       Zydrine: 92
+  ? "Drains energy from the target ship and adds it to your own.\r\n\r\nNote: A Nosferatu\
+    \ module will not drain your target's capacitor below your own capacitor level."
+  : maxreprocess: 0.55
+    reprocess:
+      Tritanium: 2093
+      Pyerite: 1532
+      Mexallon: 22
+      Isogen: 138
+      Megacyte: 2
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
@@ -32707,7 +32721,7 @@ usages:
       Isogen: 2
   Eagle:
     materialManuf: !!set
-      银鹰级YC117年特别版蓝��: null
+      银鹰级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Eagle Blueprint: null
@@ -41223,6 +41237,14 @@ usages:
       Isogen: 1486
       Zydrine: 100
       Megacyte: 48
+  Heavy Abyssal Energy Nosferatu:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 12169
+      Pyerite: 6778
+      Mexallon: 1099
+      Isogen: 3276
+      Megacyte: 138
   Heavy Afocal Maser I:
     maxreprocess: 0.55
     reprocess:
@@ -41386,7 +41408,7 @@ usages:
   Heavy Compact Entropic Disintegrator:
     maxreprocess: 0.55
     productManuf: !!set
-      unnamed_g1990_ic21922: null
+      Heavy Compact Entropic Disintegrator Blueprint: null
     reprocess:
       Tritanium: 4453
       Pyerite: 1287
@@ -41866,7 +41888,7 @@ usages:
   Heavy Scoped Entropic Disintegrator:
     maxreprocess: 0.55
     productManuf: !!set
-      unnamed_g1990_ic21922: null
+      Heavy Scoped Entropic Disintegrator Blueprint: null
     reprocess:
       Tritanium: 4453
       Pyerite: 1287
@@ -47313,7 +47335,7 @@ usages:
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
-      ‘Divine Harvest�� Electromagnetic Reaper Blueprint: null
+      ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
       Armor Thermal Resistance Script Blueprint: null
@@ -47422,9 +47444,14 @@ usages:
       Heavy Entropic Disintegrator I Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
-      unnamed_g1990_ic21923: null
-      unnamed_g1990_ic21922: null
-      unnamed_g1990_ic21921: null
+      Light Compact Entropic Disintegrator Blueprint: null
+      Light Scoped Entropic Disintegrator Blueprint: null
+      Heavy Compact Entropic Disintegrator Blueprint: null
+      Heavy Scoped Entropic Disintegrator Blueprint: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   Iteron Inner Zone Shipping Edition:
     maxreprocess: 0.55
@@ -48733,6 +48760,13 @@ usages:
       Mexallon: 1027
       Isogen: 44
       Nocxium: 51
+  Large Abyssal Cap Battery:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 4574
+      Pyerite: 1734
+      Mexallon: 1307
+      Zydrine: 4
   Large Abyssal Shield Booster:
     maxreprocess: 0.55
     reprocess:
@@ -51951,7 +51985,7 @@ usages:
   Light Compact Entropic Disintegrator:
     maxreprocess: 0.55
     productManuf: !!set
-      unnamed_g1990_ic21923: null
+      Light Compact Entropic Disintegrator Blueprint: null
     reprocess:
       Tritanium: 1102
       Pyerite: 113
@@ -52130,7 +52164,7 @@ usages:
   Light Scoped Entropic Disintegrator:
     maxreprocess: 0.55
     productManuf: !!set
-      unnamed_g1990_ic21923: null
+      Light Scoped Entropic Disintegrator Blueprint: null
     reprocess:
       Tritanium: 1102
       Pyerite: 113
@@ -55024,6 +55058,14 @@ usages:
       Mexallon: 906
       Isogen: 1
       Nocxium: 4
+  Medium Abyssal Cap Battery:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 1338
+      Pyerite: 1058
+      Mexallon: 493
+      Isogen: 2
+      Nocxium: 1
   Medium Abyssal Energy Neutralizer:
     maxreprocess: 0.55
     reprocess:
@@ -55033,6 +55075,14 @@ usages:
       Isogen: 198
       Zydrine: 40
       Megacyte: 6
+  Medium Abyssal Energy Nosferatu:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 4547
+      Pyerite: 3208
+      Mexallon: 274
+      Isogen: 592
+      Megacyte: 24
   Medium Abyssal Shield Booster:
     maxreprocess: 0.55
     reprocess:
@@ -58814,7 +58864,7 @@ usages:
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
-      ‘Divine Harvest�� Electromagnetic Reaper Blueprint: null
+      ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
       Armor Thermal Resistance Script Blueprint: null
@@ -58906,7 +58956,10 @@ usages:
       Leshak Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
-      unnamed_g1990_ic21921: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   Megathron:
     materialManuf: !!set
@@ -60112,7 +60165,7 @@ usages:
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
-      ‘Divine Harvest�� Electromagnetic Reaper Blueprint: null
+      ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
       Armor Thermal Resistance Script Blueprint: null
@@ -60199,9 +60252,14 @@ usages:
       Heavy Entropic Disintegrator I Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
-      unnamed_g1990_ic21923: null
-      unnamed_g1990_ic21922: null
-      unnamed_g1990_ic21921: null
+      Light Compact Entropic Disintegrator Blueprint: null
+      Light Scoped Entropic Disintegrator Blueprint: null
+      Heavy Compact Entropic Disintegrator Blueprint: null
+      Heavy Scoped Entropic Disintegrator Blueprint: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   Miasmos:
     maxreprocess: 0.55
@@ -66012,7 +66070,7 @@ usages:
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
-      ‘Divine Harvest�� Electromagnetic Reaper Blueprint: null
+      ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
       Armor Thermal Resistance Script Blueprint: null
@@ -66114,8 +66172,12 @@ usages:
       Leshak Blueprint: null
       Heavy Entropic Disintegrator I Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
-      unnamed_g1990_ic21922: null
-      unnamed_g1990_ic21921: null
+      Heavy Compact Entropic Disintegrator Blueprint: null
+      Heavy Scoped Entropic Disintegrator Blueprint: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   Noir. Modified Entosis Link:
     maxreprocess: 0.55
@@ -72810,7 +72872,7 @@ usages:
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
-      ‘Divine Harvest�� Electromagnetic Reaper Blueprint: null
+      ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
       Armor Thermal Resistance Script Blueprint: null
@@ -72909,9 +72971,14 @@ usages:
       Tetryon Exotic Plasma L Blueprint: null
       Baryon Exotic Plasma L Blueprint: null
       Meson Exotic Plasma L Blueprint: null
-      unnamed_g1990_ic21923: null
-      unnamed_g1990_ic21922: null
-      unnamed_g1990_ic21921: null
+      Light Compact Entropic Disintegrator Blueprint: null
+      Light Scoped Entropic Disintegrator Blueprint: null
+      Heavy Compact Entropic Disintegrator Blueprint: null
+      Heavy Scoped Entropic Disintegrator Blueprint: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   Pyroxeres:
     maxreprocess: 0.8934
@@ -86420,6 +86487,14 @@ usages:
       Pyerite: 288
       Megacyte: 4
       Robotics: 3
+  Small Abyssal Cap Battery:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 684
+      Pyerite: 427
+      Mexallon: 153
+      Isogen: 2
+      Nocxium: 2
   Small Abyssal Energy Neutralizer:
     maxreprocess: 0.55
     reprocess:
@@ -96545,7 +96620,7 @@ usages:
   Supratidal Compact Entropic Disintegrator:
     maxreprocess: 0.55
     productManuf: !!set
-      unnamed_g1990_ic21921: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
     reprocess:
       Tritanium: 13684
       Pyerite: 4117
@@ -96592,7 +96667,7 @@ usages:
   Supratidal Scoped Entropic Disintegrator:
     maxreprocess: 0.55
     productManuf: !!set
-      unnamed_g1990_ic21921: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
     reprocess:
       Tritanium: 13684
       Pyerite: 4117
@@ -98635,6 +98710,12 @@ usages:
       Pyerite: 521
       Mexallon: 1
       Isogen: 3
+  Test Server Infrastructure Hub:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 100000
+      Isogen: 10
+      Megacyte: 100
   Tetrimon Data Analyzer I:
     maxreprocess: 0.55
     reprocess:
@@ -101311,7 +101392,7 @@ usages:
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
-      ‘Divine Harvest�� Electromagnetic Reaper Blueprint: null
+      ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
       Armor Thermal Resistance Script Blueprint: null
@@ -101429,9 +101510,14 @@ usages:
       Tetryon Exotic Plasma L Blueprint: null
       Baryon Exotic Plasma L Blueprint: null
       Meson Exotic Plasma L Blueprint: null
-      unnamed_g1990_ic21923: null
-      unnamed_g1990_ic21922: null
-      unnamed_g1990_ic21921: null
+      Light Compact Entropic Disintegrator Blueprint: null
+      Light Scoped Entropic Disintegrator Blueprint: null
+      Heavy Compact Entropic Disintegrator Blueprint: null
+      Heavy Scoped Entropic Disintegrator Blueprint: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   True Sansha Adaptive Nano Plating:
     maxreprocess: 0.55
@@ -107605,9 +107691,14 @@ usages:
       Meson Exotic Plasma L Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
-      unnamed_g1990_ic21923: null
-      unnamed_g1990_ic21922: null
-      unnamed_g1990_ic21921: null
+      Light Compact Entropic Disintegrator Blueprint: null
+      Light Scoped Entropic Disintegrator Blueprint: null
+      Heavy Compact Entropic Disintegrator Blueprint: null
+      Heavy Scoped Entropic Disintegrator Blueprint: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   Zeugma Integrated Analyzer:
     maxreprocess: 0.55
@@ -108274,7 +108365,7 @@ usages:
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
       ‘Jormungandr’ Explosive Reaper Blueprint: null
-      ‘Divine Harvest�� Electromagnetic Reaper Blueprint: null
+      ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
       Armor Thermal Resistance Script Blueprint: null
@@ -108366,7 +108457,10 @@ usages:
       Leshak Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
-      unnamed_g1990_ic21921: null
+      Supratidal Compact Entropic Disintegrator Blueprint: null
+      Supratidal Scoped Entropic Disintegrator Blueprint: null
+      unnamed_g106_ic0: null
+      unnamed_g105_ic0: null
     maxreprocess: 0.55
   testArmorMod_PLACEHOLDER:
     maxreprocess: 0.55
@@ -108397,29 +108491,34 @@ usages:
       Sustained Shield Emitter: 8
       Morphite: 11
       Superconductors: 15
-  unnamed_g1012_ic0:
+  unnamed_g830_ic0:
     maxreprocess: 0.55
+    productManuf: !!set
+      unnamed_g105_ic0: null
     reprocess:
-      Tritanium: 100000
-      Isogen: 10
-      Megacyte: 100
-  unnamed_g61_ic89:
+      Zero-Point Condensate: 150
+      Tritanium: 23304
+      Pyerite: 6290
+      Mexallon: 2949
+      Isogen: 398
+      Nocxium: 82
+      Zydrine: 20
+      Crystalline Isogen-10: 220
+      Megacyte: 2
+  unnamed_g833_ic0:
     maxreprocess: 0.55
+    productManuf: !!set
+      unnamed_g106_ic0: null
     reprocess:
-      Tritanium: 4574
-      Pyerite: 1734
-      Mexallon: 1307
-      Isogen: 2
-      Nocxium: 1
-      Zydrine: 4
-  unnamed_g68_ic1029:
-    maxreprocess: 0.55
-    reprocess:
-      Tritanium: 12169
-      Pyerite: 6778
-      Mexallon: 1099
-      Isogen: 3276
-      Megacyte: 138
+      Zero-Point Condensate: 400
+      Tritanium: 614356
+      Pyerite: 154233
+      Mexallon: 39907
+      Isogen: 9687
+      Nocxium: 2387
+      Zydrine: 1202
+      Crystalline Isogen-10: 435
+      Megacyte: 356
   ‘Cold Wind’ Kinetic Reaper:
     maxreprocess: 0.55
     productManuf: !!set
@@ -108435,7 +108534,7 @@ usages:
   ‘Divine Harvest’ Electromagnetic Reaper:
     maxreprocess: 0.55
     productManuf: !!set
-      ‘Divine Harvest�� Electromagnetic Reaper Blueprint: null
+      ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
     reprocess:
       Tritanium: 1807988
       Pyerite: 1275073
@@ -108535,7 +108634,7 @@ usages:
       Construction Blocks: 30
       Tungsten Carbide Armor Plate: 300
       Antimatter Reactor Unit: 6
-  万王宝��级YC117年特别版:
+  万王宝座级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       万王宝座级YC117年特别版蓝图: null
@@ -108562,7 +108661,7 @@ usages:
   地狱天使级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      地狱天使级YC117年特���版蓝图: null
+      地��天使级YC117年特别版蓝图: null
     reprocess:
       Abaddon: 1
   多米尼克斯级YC117年特别版:
@@ -108580,10 +108679,10 @@ usages:
   末日沙场级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      末日沙场级YC117年特别版蓝图: null
+      末日沙场级YC117年特���版蓝图: null
     reprocess:
       Armageddon: 1
-  毒蜥级YC117年特别���:
+  毒蜥级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       毒蜥级YC117年特别版蓝图: null
@@ -108595,13 +108694,13 @@ usages:
       灾难级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
-  银鹰��YC117年特别版:
+  银鹰级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      银鹰级YC117年特别版蓝��: null
+      银鹰级YC117年特别版蓝图: null
     reprocess:
       Eagle: 1
-  马克���级YC117年特别版:
+  马克瑞级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       马克瑞级YC117年特别版蓝图: null

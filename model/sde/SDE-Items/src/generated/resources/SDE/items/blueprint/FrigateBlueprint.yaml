@@ -722,3 +722,9 @@ items:
     id: 17931
     name: Worm Blueprint
     volume: 0.01
+  unnamed_g105_ic0:
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
+    id: 48638
+    name: unnamed_g105_ic0
+    volume: 0.01

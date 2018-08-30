@@ -1319,6 +1319,11 @@ items:
     marketGroup: 1993
     name: Bellicose Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Bellicose Dawn of Liberation SKIN (Permanent):
+    id: 48501
+    marketGroup: 1993
+    name: Bellicose Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Bellicose Exoplanets Hunter SKIN (Permanent):
     id: 45954
     marketGroup: 1993
@@ -1534,6 +1539,11 @@ items:
     marketGroup: 2005
     name: Breacher Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Breacher Dawn of Liberation SKIN (Permanent):
+    id: 48485
+    marketGroup: 2005
+    name: Breacher Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Breacher Exoplanets Hunter SKIN (Permanent):
     id: 45933
     marketGroup: 2005
@@ -1572,6 +1582,11 @@ items:
     id: 36820
     marketGroup: 2076
     name: Broadsword Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Broadsword Dawn of Liberation SKIN (Permanent):
+    id: 48507
+    marketGroup: 2076
+    name: Broadsword Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Broadsword Exoplanets Hunter SKIN (Permanent):
     id: 45960
@@ -1613,6 +1628,11 @@ items:
     marketGroup: 1958
     name: Brutix Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Brutix IGC SKIN (Permanent):
+    id: 48558
+    marketGroup: 1958
+    name: Brutix IGC SKIN (Permanent)
+    volume: 0.01
   Brutix Intaki Syndicate SKIN (Permanent):
     id: 34612
     marketGroup: 1958
@@ -1636,6 +1656,11 @@ items:
     id: 46956
     marketGroup: 2103
     name: Brutix Navy Issue Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Brutix Navy Issue IGC SKIN (Permanent):
+    id: 48559
+    marketGroup: 2103
+    name: Brutix Navy Issue IGC SKIN (Permanent)
     volume: 0.01
   Brutix Navy Issue Intaki Syndicate SKIN (Permanent):
     id: 36408
@@ -1685,6 +1710,11 @@ items:
     id: 36799
     marketGroup: 2005
     name: Burst Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Burst Dawn of Liberation SKIN (Permanent):
+    id: 48486
+    marketGroup: 2005
+    name: Burst Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Burst Exoplanets Hunter SKIN (Permanent):
     id: 45934
@@ -2214,6 +2244,11 @@ items:
     marketGroup: 2054
     name: Cheetah Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Cheetah Dawn of Liberation SKIN (Permanent):
+    id: 48493
+    marketGroup: 2054
+    name: Cheetah Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Cheetah Exoplanets Hunter SKIN (Permanent):
     id: 45941
     marketGroup: 2054
@@ -2317,6 +2352,11 @@ items:
     id: 47635
     marketGroup: 2062
     name: Claw Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
+  Claw Dawn of Liberation SKIN (Permanent):
+    id: 48496
+    marketGroup: 2062
+    name: Claw Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Claw Exoplanets Hunter SKIN (Permanent):
     id: 45944
@@ -2989,6 +3029,11 @@ items:
     marketGroup: 2376
     name: Dagon Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Damavik Triglavian Victory SKIN (Permanent):
+    id: 48563
+    marketGroup: 2486
+    name: Damavik Triglavian Victory SKIN (Permanent)
+    volume: 0.01
   Damnation Cold Iron SKIN (Permanent):
     id: 42782
     marketGroup: 2104
@@ -3391,6 +3436,11 @@ items:
     marketGroup: 2103
     name: Drake Navy Issue Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Drake Navy Issue IGC SKIN (Permanent):
+    id: 48551
+    marketGroup: 2103
+    name: Drake Navy Issue IGC SKIN (Permanent)
+    volume: 0.01
   Drake Navy Issue Octopus Orange Flight SKIN (Permanent):
     id: 47616
     marketGroup: 2103
@@ -3562,6 +3612,16 @@ items:
     id: 45480
     marketGroup: 2362
     name: Enforcer CONCORD Aerospace 'Prototype' SKIN (Permanent)
+    volume: 0.01
+  Enforcer DED 'Alpha Plus' Taskforce SKIN (Permanent):
+    id: 48580
+    marketGroup: 2362
+    name: Enforcer DED 'Alpha Plus' Taskforce SKIN (Permanent)
+    volume: 0.01
+  Enforcer DED 'Master-at-Arms' Recruiter SKIN (Permanent):
+    id: 48577
+    marketGroup: 2362
+    name: Enforcer DED 'Master-at-Arms' Recruiter SKIN (Permanent)
     volume: 0.01
   Enforcer Exoplanets Hunter SKIN (Permanent):
     id: 45992
@@ -4083,6 +4143,11 @@ items:
     id: 34608
     name: Ferox Guristas SKIN (Permanent)
     volume: 0.01
+  Ferox IGC SKIN (Permanent):
+    id: 48550
+    marketGroup: 1957
+    name: Ferox IGC SKIN (Permanent)
+    volume: 0.01
   Ferox Lai Dai SKIN (Permanent):
     id: 34609
     marketGroup: 1957
@@ -4205,6 +4270,11 @@ items:
     id: 45508
     marketGroup: 2030
     name: Gila Hostile Takeover SKIN (Permanent)
+    volume: 0.01
+  Gila IGC SKIN (Permanent):
+    id: 48553
+    marketGroup: 2030
+    name: Gila IGC SKIN (Permanent)
     volume: 0.01
   Gila Serenity YC117 SKIN (Permanent):
     id: 34788
@@ -4415,6 +4485,11 @@ items:
     marketGroup: 2077
     name: Guardian Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Guardian IGC SKIN (Permanent):
+    id: 48546
+    marketGroup: 2077
+    name: Guardian IGC SKIN (Permanent)
+    volume: 0.01
   Guardian Imperial Jubilee SKIN (Permanent):
     id: 46530
     marketGroup: 2077
@@ -4469,6 +4544,11 @@ items:
     marketGroup: 1956
     name: Harbinger Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Harbinger IGC SKIN (Permanent):
+    id: 48547
+    marketGroup: 1956
+    name: Harbinger IGC SKIN (Permanent)
+    volume: 0.01
   Harbinger Imperial Jubilee SKIN (Permanent):
     id: 46532
     marketGroup: 1956
@@ -4516,6 +4596,11 @@ items:
     id: 46801
     marketGroup: 2103
     name: Harbinger Navy Issue Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Harbinger Navy Issue IGC SKIN (Permanent):
+    id: 48548
+    marketGroup: 2103
+    name: Harbinger Navy Issue IGC SKIN (Permanent)
     volume: 0.01
   Harbinger Navy Issue Purity of the Throne SKIN (Permanent):
     id: 42583
@@ -4666,6 +4751,11 @@ items:
     id: 36836
     marketGroup: 1977
     name: Hel Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Hel Chainbreaker Khumaak SKIN (Permanent):
+    id: 48525
+    marketGroup: 1977
+    name: Hel Chainbreaker Khumaak SKIN (Permanent)
     volume: 0.01
   Hel Exoplanets Hunter SKIN (Permanent):
     id: 45982
@@ -4883,6 +4973,11 @@ items:
     marketGroup: 2054
     name: Hound Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Hound Dawn of Liberation SKIN (Permanent):
+    id: 48494
+    marketGroup: 2054
+    name: Hound Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Hound Exoplanets Hunter SKIN (Permanent):
     id: 45942
     marketGroup: 2054
@@ -4912,6 +5007,11 @@ items:
     id: 36822
     marketGroup: 2084
     name: Huginn Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Huginn Dawn of Liberation SKIN (Permanent):
+    id: 48509
+    marketGroup: 2084
+    name: Huginn Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Huginn Exoplanets Hunter SKIN (Permanent):
     id: 45962
@@ -5042,6 +5142,11 @@ items:
     marketGroup: 1959
     name: Hurricane Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Hurricane Firewall Breach SKIN (Permanent):
+    id: 48529
+    marketGroup: 1959
+    name: Hurricane Firewall Breach SKIN (Permanent)
+    volume: 0.01
   Hurricane Fleet Issue Bloody Hands SKIN (Permanent):
     id: 47168
     marketGroup: 2103
@@ -5056,6 +5161,11 @@ items:
     id: 46909
     marketGroup: 2103
     name: Hurricane Fleet Issue Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Hurricane Fleet Issue IGC SKIN (Permanent):
+    id: 48561
+    marketGroup: 2103
+    name: Hurricane Fleet Issue IGC SKIN (Permanent)
     volume: 0.01
   Hurricane Fleet Issue Justice SKIN (Permanent):
     id: 36458
@@ -5076,6 +5186,11 @@ items:
     id: 46724
     marketGroup: 1959
     name: Hurricane Headhunter SKIN (Permanent)
+    volume: 0.01
+  Hurricane IGC SKIN (Permanent):
+    id: 48560
+    marketGroup: 1959
+    name: Hurricane IGC SKIN (Permanent)
     volume: 0.01
   Hurricane Justice SKIN (Permanent):
     id: 36453
@@ -5109,6 +5224,11 @@ items:
     id: 36808
     marketGroup: 2058
     name: Hyena Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Hyena Dawn of Liberation SKIN (Permanent):
+    id: 48495
+    marketGroup: 2058
+    name: Hyena Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Hyena Exoplanets Hunter SKIN (Permanent):
     id: 45943
@@ -5545,6 +5665,11 @@ items:
     id: 36517
     name: Ishtar Golden SKIN (Permanent)
     volume: 0.01
+  Ishtar IGC SKIN (Permanent):
+    id: 48557
+    marketGroup: 2071
+    name: Ishtar IGC SKIN (Permanent)
+    volume: 0.01
   Ishtar Intaki Syndicate SKIN (Permanent):
     id: 36385
     marketGroup: 2071
@@ -5671,6 +5796,11 @@ items:
     marketGroup: 2391
     name: Jackdaw Octopus Red Flight SKIN (Permanent)
     volume: 0.01
+  Jackdaw Quantum Potential SKIN (Permanent):
+    id: 48566
+    marketGroup: 2391
+    name: Jackdaw Quantum Potential SKIN (Permanent)
+    volume: 0.01
   Jackdaw Steel Cardinal SKIN (Permanent):
     id: 46109
     marketGroup: 2391
@@ -5680,6 +5810,11 @@ items:
     id: 36804
     marketGroup: 2050
     name: Jaguar Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Jaguar Dawn of Liberation SKIN (Permanent):
+    id: 48491
+    marketGroup: 2050
+    name: Jaguar Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Jaguar Exoplanets Hunter SKIN (Permanent):
     id: 45939
@@ -6006,6 +6141,11 @@ items:
     marketGroup: 2371
     name: Legion Sunburst SKIN (Permanent)
     volume: 0.01
+  Leshak Triglavian Victory SKIN (Permanent):
+    id: 48565
+    marketGroup: 2482
+    name: Leshak Triglavian Victory SKIN (Permanent)
+    volume: 0.01
   Leviathan Blue Tiger SKIN (Permanent):
     id: 36744
     marketGroup: 2092
@@ -6095,6 +6235,11 @@ items:
     id: 46026
     marketGroup: 2373
     name: Loki Battlescar SKIN (Permanent)
+    volume: 0.01
+  Loki Dawn of Liberation SKIN (Permanent):
+    id: 48511
+    marketGroup: 2373
+    name: Loki Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Loki Exoplanets Hunter SKIN (Permanent):
     id: 45964
@@ -6219,10 +6364,20 @@ items:
     marketGroup: 1967
     name: Maelstrom Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Maelstrom Dawn of Liberation SKIN (Permanent):
+    id: 48514
+    marketGroup: 1967
+    name: Maelstrom Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Maelstrom Exoplanets Hunter SKIN (Permanent):
     id: 45973
     marketGroup: 1967
     name: Maelstrom Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Maelstrom Firewall Breach SKIN (Permanent):
+    id: 48530
+    marketGroup: 1967
+    name: Maelstrom Firewall Breach SKIN (Permanent)
     volume: 0.01
   Maelstrom Glacial Drift SKIN (Permanent):
     id: 46910
@@ -6546,6 +6701,16 @@ items:
     id: 47159
     marketGroup: 2406
     name: Marshal CONCORD Aerospace 'Prototype' SKIN (Permanent)
+    volume: 0.01
+  Marshal DED 'Alpha Plus' Taskforce SKIN (Permanent):
+    id: 48581
+    marketGroup: 2406
+    name: Marshal DED 'Alpha Plus' Taskforce SKIN (Permanent)
+    volume: 0.01
+  Marshal DED 'Master-at-Arms' Recruiter SKIN (Permanent):
+    id: 48578
+    marketGroup: 2406
+    name: Marshal DED 'Master-at-Arms' Recruiter SKIN (Permanent)
     volume: 0.01
   Marshal Exoplanets Hunter SKIN (Permanent):
     id: 47158
@@ -7094,6 +7259,11 @@ items:
     marketGroup: 2072
     name: Muninn Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Muninn Dawn of Liberation SKIN (Permanent):
+    id: 48505
+    marketGroup: 2072
+    name: Muninn Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Muninn Exoplanets Hunter SKIN (Permanent):
     id: 45958
     marketGroup: 2072
@@ -7239,6 +7409,11 @@ items:
     id: 36834
     marketGroup: 1983
     name: Naglfar Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Naglfar Chainbreaker Khumaak SKIN (Permanent):
+    id: 48523
+    marketGroup: 1983
+    name: Naglfar Chainbreaker Khumaak SKIN (Permanent)
     volume: 0.01
   Naglfar Exoplanets Hunter SKIN (Permanent):
     id: 45980
@@ -7450,6 +7625,11 @@ items:
     id: 36835
     marketGroup: 1977
     name: Nidhoggur Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Nidhoggur Chainbreaker Khumaak SKIN (Permanent):
+    id: 48524
+    marketGroup: 1977
+    name: Nidhoggur Chainbreaker Khumaak SKIN (Permanent)
     volume: 0.01
   Nidhoggur Eros Blossom SKIN (Permanent):
     id: 47292
@@ -8252,6 +8432,16 @@ items:
     marketGroup: 2361
     name: Pacifier CONCORD Aerospace 'Prototype' SKIN (Permanent)
     volume: 0.01
+  Pacifier DED 'Alpha Plus' Taskforce SKIN (Permanent):
+    id: 48579
+    marketGroup: 2361
+    name: Pacifier DED 'Alpha Plus' Taskforce SKIN (Permanent)
+    volume: 0.01
+  Pacifier DED 'Master-at-Arms' Recruiter SKIN (Permanent):
+    id: 48576
+    marketGroup: 2361
+    name: Pacifier DED 'Master-at-Arms' Recruiter SKIN (Permanent)
+    volume: 0.01
   Pacifier Exoplanets Hunter SKIN (Permanent):
     id: 45991
     marketGroup: 2361
@@ -8348,6 +8538,16 @@ items:
     id: 36832
     marketGroup: 2113
     name: Panther Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Panther Chainbreaker Khumaak SKIN (Permanent):
+    id: 48521
+    marketGroup: 2113
+    name: Panther Chainbreaker Khumaak SKIN (Permanent)
+    volume: 0.01
+  Panther Dawn of Liberation SKIN (Permanent):
+    id: 48517
+    marketGroup: 2113
+    name: Panther Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Panther Exoplanets Hunter SKIN (Permanent):
     id: 45976
@@ -8616,6 +8816,11 @@ items:
     id: 36800
     marketGroup: 2005
     name: Probe Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Probe Dawn of Liberation SKIN (Permanent):
+    id: 48487
+    marketGroup: 2005
+    name: Probe Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Probe Exoplanets Hunter SKIN (Permanent):
     id: 45935
@@ -9101,6 +9306,11 @@ items:
     marketGroup: 2093
     name: Ragnarok Capsuleer Elite XV SKIN (Permanent)
     volume: 0.01
+  Ragnarok Chainbreaker Khumaak SKIN (Permanent):
+    id: 48526
+    marketGroup: 2093
+    name: Ragnarok Chainbreaker Khumaak SKIN (Permanent)
+    volume: 0.01
   Ragnarok Exoplanets Hunter SKIN (Permanent):
     id: 45983
     marketGroup: 2093
@@ -9135,6 +9345,11 @@ items:
     id: 36823
     marketGroup: 2084
     name: Rapier Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Rapier Dawn of Liberation SKIN (Permanent):
+    id: 48510
+    marketGroup: 2084
+    name: Rapier Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Rapier Exoplanets Hunter SKIN (Permanent):
     id: 45963
@@ -9220,6 +9435,11 @@ items:
     id: 45509
     marketGroup: 1963
     name: Rattlesnake Hostile Takeover SKIN (Permanent)
+    volume: 0.01
+  Rattlesnake IGC SKIN (Permanent):
+    id: 48554
+    marketGroup: 1963
+    name: Rattlesnake IGC SKIN (Permanent)
     volume: 0.01
   Rattlesnake King's Ransom Darouen SKIN (Permanent):
     id: 47030
@@ -9399,6 +9619,11 @@ items:
     id: 37518
     marketGroup: 2110
     name: Redeemer Raata Sunset SKIN (Permanent)
+    volume: 0.01
+  Republic Fleet Firetail Dawn of Liberation SKIN (Permanent):
+    id: 48499
+    marketGroup: 2000
+    name: Republic Fleet Firetail Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Republic Fleet Firetail Exoplanets Hunter SKIN (Permanent):
     id: 45947
@@ -9638,6 +9863,11 @@ items:
     marketGroup: 2005
     name: Rifter Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Rifter Dawn of Liberation SKIN (Permanent):
+    id: 48488
+    marketGroup: 2005
+    name: Rifter Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Rifter Exoplanets Hunter SKIN (Permanent):
     id: 45936
     marketGroup: 2005
@@ -9759,6 +9989,11 @@ items:
     marketGroup: 2082
     name: Rook Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Rook IGC SKIN (Permanent):
+    id: 48549
+    marketGroup: 2082
+    name: Rook IGC SKIN (Permanent)
+    volume: 0.01
   Rook Matigu Seabeast SKIN (Permanent):
     id: 40606
     marketGroup: 2082
@@ -9878,6 +10113,11 @@ items:
     marketGroup: 1993
     name: Rupture Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Rupture Dawn of Liberation SKIN (Permanent):
+    id: 48502
+    marketGroup: 1993
+    name: Rupture Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Rupture Exoplanets Hunter SKIN (Permanent):
     id: 45955
     marketGroup: 1993
@@ -9992,6 +10232,11 @@ items:
     marketGroup: 2120
     name: Sansha Victory SKIN (Permanent)
     volume: 0.01
+  Scalpel Dawn of Liberation SKIN (Permanent):
+    id: 48498
+    marketGroup: 2140
+    name: Scalpel Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Scalpel Exoplanets Hunter SKIN (Permanent):
     id: 45946
     marketGroup: 2140
@@ -10016,6 +10261,11 @@ items:
     id: 36821
     marketGroup: 2080
     name: Scimitar Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Scimitar Dawn of Liberation SKIN (Permanent):
+    id: 48508
+    marketGroup: 2080
+    name: Scimitar Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Scimitar Exoplanets Hunter SKIN (Permanent):
     id: 45961
@@ -10135,6 +10385,11 @@ items:
     marketGroup: 1993
     name: Scythe Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Scythe Dawn of Liberation SKIN (Permanent):
+    id: 48503
+    marketGroup: 1993
+    name: Scythe Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Scythe Exoplanets Hunter SKIN (Permanent):
     id: 45956
     marketGroup: 1993
@@ -10144,6 +10399,11 @@ items:
     id: 47165
     marketGroup: 2063
     name: Scythe Fleet Issue Bloody Hands SKIN (Permanent)
+    volume: 0.01
+  Scythe Fleet Issue Dawn of Liberation SKIN (Permanent):
+    id: 48512
+    marketGroup: 2063
+    name: Scythe Fleet Issue Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Scythe Fleet Issue Exoplanets Hunter SKIN (Permanent):
     id: 45965
@@ -10401,6 +10661,11 @@ items:
     marketGroup: 2005
     name: Slasher Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Slasher Dawn of Liberation SKIN (Permanent):
+    id: 48489
+    marketGroup: 2005
+    name: Slasher Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Slasher Exoplanets Hunter SKIN (Permanent):
     id: 45937
     marketGroup: 2005
@@ -10484,10 +10749,20 @@ items:
     marketGroup: 1993
     name: Stabber Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Stabber Dawn of Liberation SKIN (Permanent):
+    id: 48504
+    marketGroup: 1993
+    name: Stabber Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Stabber Exoplanets Hunter SKIN (Permanent):
     id: 45957
     marketGroup: 1993
     name: Stabber Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Stabber Fleet Issue Dawn of Liberation SKIN (Permanent):
+    id: 48513
+    marketGroup: 2063
+    name: Stabber Fleet Issue Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Stabber Fleet Issue Exoplanets Hunter SKIN (Permanent):
     id: 45966
@@ -10560,6 +10835,11 @@ items:
     id: 36810
     marketGroup: 2062
     name: Stiletto Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Stiletto Dawn of Liberation SKIN (Permanent):
+    id: 48497
+    marketGroup: 2062
+    name: Stiletto Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Stiletto Exoplanets Hunter SKIN (Permanent):
     id: 45945
@@ -10709,6 +10989,11 @@ items:
     id: 45953
     marketGroup: 2392
     name: Svipul Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Svipul Firewall Breach SKIN (Permanent):
+    id: 48528
+    marketGroup: 2392
+    name: Svipul Firewall Breach SKIN (Permanent)
     volume: 0.01
   Svipul Glacial Drift SKIN (Permanent):
     id: 46892
@@ -10929,6 +11214,11 @@ items:
     marketGroup: 1967
     name: Tempest Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
+  Tempest Dawn of Liberation SKIN (Permanent):
+    id: 48515
+    marketGroup: 1967
+    name: Tempest Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Tempest Exoplanets Hunter SKIN (Permanent):
     id: 45974
     marketGroup: 1967
@@ -10938,6 +11228,11 @@ items:
     id: 47174
     marketGroup: 2108
     name: Tempest Fleet Issue Bloody Hands SKIN (Permanent)
+    volume: 0.01
+  Tempest Fleet Issue Dawn of Liberation SKIN (Permanent):
+    id: 48519
+    marketGroup: 2108
+    name: Tempest Fleet Issue Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Tempest Fleet Issue Exoplanets Hunter SKIN (Permanent):
     id: 45978
@@ -11024,6 +11319,16 @@ items:
     id: 45997
     marketGroup: 2370
     name: Tengu Sukuuvestaa SKIN (Permanent)
+    volume: 0.01
+  Tengu Ultra Jungle (Ladar) SKIN (Permanent):
+    id: 48544
+    marketGroup: 2370
+    name: Tengu Ultra Jungle (Ladar) SKIN (Permanent)
+    volume: 0.01
+  Tengu Ultra Jungle (Magneto) SKIN (Permanent):
+    id: 48543
+    marketGroup: 2370
+    name: Tengu Ultra Jungle (Magneto) SKIN (Permanent)
     volume: 0.01
   Thalia Exoplanets Hunter SKIN (Permanent):
     id: 45884
@@ -11220,6 +11525,11 @@ items:
     id: 45950
     marketGroup: 1997
     name: Thrasher Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Thrasher Firewall Breach SKIN (Permanent):
+    id: 48527
+    marketGroup: 1997
+    name: Thrasher Firewall Breach SKIN (Permanent)
     volume: 0.01
   Thrasher Glacial Drift SKIN (Permanent):
     id: 44167
@@ -11440,6 +11750,11 @@ items:
     marketGroup: 1967
     name: Typhoon Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Typhoon Dawn of Liberation SKIN (Permanent):
+    id: 48516
+    marketGroup: 1967
+    name: Typhoon Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Typhoon Exoplanets Hunter SKIN (Permanent):
     id: 45975
     marketGroup: 1967
@@ -11450,6 +11765,11 @@ items:
     marketGroup: 2108
     name: Typhoon Fleet Issue Bloody Hands SKIN (Permanent)
     volume: 0.01
+  Typhoon Fleet Issue Dawn of Liberation SKIN (Permanent):
+    id: 48520
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Typhoon Fleet Issue Exoplanets Hunter SKIN (Permanent):
     id: 45979
     marketGroup: 2108
@@ -11459,6 +11779,11 @@ items:
     id: 46916
     marketGroup: 2108
     name: Typhoon Fleet Issue Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Typhoon Fleet Issue IGC SKIN (Permanent):
+    id: 48562
+    marketGroup: 2108
+    name: Typhoon Fleet Issue IGC SKIN (Permanent)
     volume: 0.01
   Typhoon Fleet Issue Justice SKIN (Permanent):
     id: 36456
@@ -11528,6 +11853,11 @@ items:
     marketGroup: 2072
     name: Vagabond Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
+  Vagabond Dawn of Liberation SKIN (Permanent):
+    id: 48506
+    marketGroup: 2072
+    name: Vagabond Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Vagabond Exoplanets Hunter SKIN (Permanent):
     id: 45959
     marketGroup: 2072
@@ -11577,6 +11907,16 @@ items:
     marketGroup: 2027
     name: Vargur Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Vargur Chainbreaker Khumaak SKIN (Permanent):
+    id: 48522
+    marketGroup: 2027
+    name: Vargur Chainbreaker Khumaak SKIN (Permanent)
+    volume: 0.01
+  Vargur Dawn of Liberation SKIN (Permanent):
+    id: 48518
+    marketGroup: 2027
+    name: Vargur Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Vargur Exoplanets Hunter SKIN (Permanent):
     id: 45977
     marketGroup: 2027
@@ -11617,6 +11957,11 @@ items:
     id: 36786
     marketGroup: 2027
     name: Vargur Valklear Glory SKIN (Permanent)
+    volume: 0.01
+  Vedmak Triglavian Victory SKIN (Permanent):
+    id: 48564
+    marketGroup: 2485
+    name: Vedmak Triglavian Victory SKIN (Permanent)
     volume: 0.01
   Vehement Glacial Drift SKIN (Permanent):
     id: 46979
@@ -11768,6 +12113,11 @@ items:
     marketGroup: 1992
     name: Vexor Headhunter SKIN (Permanent)
     volume: 0.01
+  Vexor IGC SKIN (Permanent):
+    id: 48555
+    marketGroup: 1992
+    name: Vexor IGC SKIN (Permanent)
+    volume: 0.01
   Vexor Intaki Syndicate SKIN (Permanent):
     id: 34694
     marketGroup: 1992
@@ -11810,6 +12160,11 @@ items:
     id: 47531
     marketGroup: 2063
     name: Vexor Navy Issue Glittering Dream SKIN (Permanent)
+    volume: 0.01
+  Vexor Navy Issue IGC SKIN (Permanent):
+    id: 48556
+    marketGroup: 2063
+    name: Vexor Navy Issue IGC SKIN (Permanent)
     volume: 0.01
   Vexor Navy Issue Intaki Syndicate SKIN (Permanent):
     id: 36394
@@ -11925,10 +12280,20 @@ items:
     marketGroup: 2005
     name: Vigil Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Vigil Dawn of Liberation SKIN (Permanent):
+    id: 48490
+    marketGroup: 2005
+    name: Vigil Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Vigil Exoplanets Hunter SKIN (Permanent):
     id: 45938
     marketGroup: 2005
     name: Vigil Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Vigil Fleet Issue Dawn of Liberation SKIN (Permanent):
+    id: 48500
+    marketGroup: 2000
+    name: Vigil Fleet Issue Dawn of Liberation SKIN (Permanent)
     volume: 0.01
   Vigil Fleet Issue Exoplanets Hunter SKIN (Permanent):
     id: 45948
@@ -12098,6 +12463,11 @@ items:
     marketGroup: 2050
     name: Wolf Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Wolf Dawn of Liberation SKIN (Permanent):
+    id: 48492
+    marketGroup: 2050
+    name: Wolf Dawn of Liberation SKIN (Permanent)
+    volume: 0.01
   Wolf Exoplanets Hunter SKIN (Permanent):
     id: 45940
     marketGroup: 2050
@@ -12137,6 +12507,11 @@ items:
     id: 45507
     marketGroup: 2031
     name: Worm Hostile Takeover SKIN (Permanent)
+    volume: 0.01
+  Worm IGC SKIN (Permanent):
+    id: 48552
+    marketGroup: 2031
+    name: Worm IGC SKIN (Permanent)
     volume: 0.01
   Wreathe Blue Tiger SKIN (Permanent):
     id: 36840
@@ -12262,7 +12637,7 @@ items:
     name: Zealot Raata Sunset SKIN (Permanent)
     volume: 0.01
   unnamed_g1950_ic0:
-    id: 48581
-    marketGroup: 2406
+    id: 48735
+    marketGroup: 1969
     name: unnamed_g1950_ic0
     volume: 0.01

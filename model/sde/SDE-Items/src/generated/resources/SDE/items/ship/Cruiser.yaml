@@ -2640,7 +2640,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusCC: 5
     ShipBonusGC: 5.0
-    ShipBonusPC1: 5
+    ShipBonusPC1: 5.0
     ShipBonusPC2: 5
     ShipBonusRole1: 100.0
     ShipBonusRole2: -50

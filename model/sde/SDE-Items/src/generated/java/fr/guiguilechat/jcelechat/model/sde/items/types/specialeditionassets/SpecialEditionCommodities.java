@@ -17,6 +17,13 @@ public class SpecialEditionCommodities
     extends SpecialEditionAssets
 {
     /**
+     * The last allowed injection date.  After this date the booster can no longer be consumed. Formatted YYYY.MM.DD HH:MM:SS
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double BoosterLastInjectionDatetime;
+    /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
@@ -28,6 +35,10 @@ public class SpecialEditionCommodities
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  2422 :
+            {
+                return BoosterLastInjectionDatetime;
+            }
             case  202 :
             {
                 return CpuMultiplier;

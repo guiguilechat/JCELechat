@@ -348,7 +348,7 @@ items:
     CpuOutput: 230
     EliteBonusCovertOps1: 5
     EliteBonusCovertOps2: 15
-    EliteBonusCovertOps3: 10
+    EliteBonusCovertOps3: 10.0
     EliteBonusCovertOps4: 7.5
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005

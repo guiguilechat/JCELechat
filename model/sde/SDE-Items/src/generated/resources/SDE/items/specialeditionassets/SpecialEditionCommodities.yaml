@@ -271,6 +271,24 @@ items:
     marketGroup: 1661
     name: Damaged Ancient PEG
     volume: 3.0
+  Dawn of Liberation Battleship SKINs:
+    CpuMultiplier: 1.0
+    id: 48533
+    marketGroup: 1661
+    name: Dawn of Liberation Battleship SKINs
+    volume: 10000.0
+  Dawn of Liberation Cruiser SKINs:
+    CpuMultiplier: 1.0
+    id: 48532
+    marketGroup: 1661
+    name: Dawn of Liberation Cruiser SKINs
+    volume: 10000.0
+  Dawn of Liberation Frigate SKINs:
+    CpuMultiplier: 1.0
+    id: 48531
+    marketGroup: 1661
+    name: Dawn of Liberation Frigate SKINs
+    volume: 10000.0
   Deactivated Station Key Pass:
     CpuMultiplier: 1.0
     id: 33017
@@ -283,6 +301,12 @@ items:
     marketGroup: 1661
     name: Delve Yoiul Calendar
     volume: 3.0
+  Dice of Jade:
+    CpuMultiplier: 1.0
+    id: 48587
+    marketGroup: 1661
+    name: Dice of Jade
+    volume: 1.0
   Donut Holder:
     CpuMultiplier: 1.0
     id: 33065
@@ -487,12 +511,30 @@ items:
     marketGroup: 1661
     name: Kaalakiota Peaks Vodka
     volume: 3.0
+  Kapli Bread:
+    CpuMultiplier: 1.0
+    id: 48590
+    marketGroup: 1661
+    name: Kapli Bread
+    volume: 1.0
   Kor-Azor Family Decree:
     CpuMultiplier: 1.0
     id: 44207
     marketGroup: 1661
     name: Kor-Azor Family Decree
     volume: 3.0
+  Kri'tak Knife:
+    CpuMultiplier: 1.0
+    id: 48591
+    marketGroup: 1661
+    name: Kri'tak Knife
+    volume: 1.0
+  Krusual Etched Sticks:
+    CpuMultiplier: 1.0
+    id: 48588
+    marketGroup: 1661
+    name: Krusual Etched Sticks
+    volume: 1.0
   Little Helper, Female:
     CpuMultiplier: 1.0
     id: 33027
@@ -535,6 +577,12 @@ items:
     marketGroup: 1661
     name: Manufacturing Union’s Placard
     volume: 3.0
+  Matari Word Calendar:
+    CpuMultiplier: 1.0
+    id: 48589
+    marketGroup: 1661
+    name: Matari Word Calendar
+    volume: 1.0
   Max Amarria:
     CpuMultiplier: 1.0
     id: 37880
@@ -691,6 +739,25 @@ items:
     marketGroup: 1661
     name: Republic Civilian Container
     volume: 0.1
+  Republic Justice Department Bronze Reward:
+    CpuMultiplier: 1.0
+    id: 48534
+    marketGroup: 1661
+    name: Republic Justice Department Bronze Reward
+    volume: 10000.0
+  Republic Justice Department Gold Reward:
+    BoosterLastInjectionDatetime: 17724.458984375
+    CpuMultiplier: 1.0
+    id: 48536
+    marketGroup: 1661
+    name: Republic Justice Department Gold Reward
+    volume: 10000.0
+  Republic Justice Department Silver Reward:
+    CpuMultiplier: 1.0
+    id: 48535
+    marketGroup: 1661
+    name: Republic Justice Department Silver Reward
+    volume: 10000.0
   Rooks & Kings – The Clarion Call Compilation:
     CpuMultiplier: 1.0
     id: 34422
@@ -757,6 +824,12 @@ items:
     marketGroup: 1661
     name: Sisters Of EVE Charity Statue
     volume: 3.0
+  Slaver Tooth Necklace:
+    CpuMultiplier: 1.0
+    id: 48593
+    marketGroup: 1661
+    name: Slaver Tooth Necklace
+    volume: 1.0
   Sort Dragon’s Guide To Diplomacy:
     CpuMultiplier: 1.0
     id: 34426
@@ -792,6 +865,18 @@ items:
     marketGroup: 1661
     name: Superior Exoplanets Hunter Reward Crate
     volume: 6000.0
+  TLF Recruitment Poster:
+    CpuMultiplier: 1.0
+    id: 48584
+    marketGroup: 1661
+    name: TLF Recruitment Poster
+    volume: 0.1
+  Ten Most Wanted Slavers:
+    CpuMultiplier: 1.0
+    id: 48592
+    marketGroup: 1661
+    name: Ten Most Wanted Slavers
+    volume: 0.1
   The Champion Ship:
     CpuMultiplier: 1.0
     id: 44213
@@ -846,12 +931,24 @@ items:
     marketGroup: 1661
     name: Upwell Consortium Propaganda Reel
     volume: 3.0
+  Vherokior Medicinal Herbs:
+    CpuMultiplier: 1.0
+    id: 48585
+    marketGroup: 1661
+    name: Vherokior Medicinal Herbs
+    volume: 1.0
   Vial of Kyonoke Plague Cure:
     CpuMultiplier: 1.0
     id: 47046
     marketGroup: 1661
     name: Vial of Kyonoke Plague Cure
     volume: 3.0
+  Vial of Mikramurka:
+    CpuMultiplier: 1.0
+    id: 48586
+    marketGroup: 1661
+    name: Vial of Mikramurka
+    volume: 1.0
   Vincent Pryce’s Warp Disruption Field Generator:
     CpuMultiplier: 1.0
     id: 34429
@@ -954,87 +1051,93 @@ items:
     marketGroup: 1661
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     volume: 3.0
-  unnamed_g1194_ic1193:
+  unnamed_g1194_ic10151:
     CpuMultiplier: 1.0
-    id: 48586
+    id: 48758
     marketGroup: 1661
-    name: unnamed_g1194_ic1193
+    name: unnamed_g1194_ic10151
     volume: 1.0
-  unnamed_g1194_ic2100:
+  unnamed_g1194_ic10158:
     CpuMultiplier: 1.0
-    id: 48593
+    id: 48754
     marketGroup: 1661
-    name: unnamed_g1194_ic2100
+    name: unnamed_g1194_ic10158
     volume: 1.0
-  unnamed_g1194_ic21000:
+  unnamed_g1194_ic10160:
     CpuMultiplier: 1.0
-    id: 48591
+    id: 48750
     marketGroup: 1661
-    name: unnamed_g1194_ic21000
+    name: unnamed_g1194_ic10160
     volume: 1.0
-  unnamed_g1194_ic21060:
+  unnamed_g1194_ic10190:
     CpuMultiplier: 1.0
-    id: 48584
+    id: 48751
     marketGroup: 1661
-    name: unnamed_g1194_ic21060
-    volume: 0.1
-  unnamed_g1194_ic21620:
-    CpuMultiplier: 1.0
-    id: 48534
-    marketGroup: 1661
-    name: unnamed_g1194_ic21620
-    volume: 10000.0
-  unnamed_g1194_ic21621:
-    CpuMultiplier: 1.0
-    id: 48535
-    marketGroup: 1661
-    name: unnamed_g1194_ic21621
-    volume: 10000.0
-  unnamed_g1194_ic21622:
-    CpuMultiplier: 1.0
-    id: 48536
-    marketGroup: 1661
-    name: unnamed_g1194_ic21622
-    volume: 10000.0
-  unnamed_g1194_ic21833:
-    CpuMultiplier: 1.0
-    id: 48533
-    marketGroup: 1661
-    name: unnamed_g1194_ic21833
-    volume: 10000.0
-  unnamed_g1194_ic21843:
-    CpuMultiplier: 1.0
-    id: 48592
-    marketGroup: 1661
-    name: unnamed_g1194_ic21843
-    volume: 0.1
-  unnamed_g1194_ic22034:
-    CpuMultiplier: 1.0
-    id: 48587
-    marketGroup: 1661
-    name: unnamed_g1194_ic22034
+    name: unnamed_g1194_ic10190
     volume: 1.0
-  unnamed_g1194_ic22036:
+  unnamed_g1194_ic10831:
     CpuMultiplier: 1.0
-    id: 48585
+    id: 48760
     marketGroup: 1661
-    name: unnamed_g1194_ic22036
+    name: unnamed_g1194_ic10831
     volume: 1.0
-  unnamed_g1194_ic22041:
+  unnamed_g1194_ic10851:
     CpuMultiplier: 1.0
-    id: 48588
+    id: 48757
     marketGroup: 1661
-    name: unnamed_g1194_ic22041
+    name: unnamed_g1194_ic10851
     volume: 1.0
-  unnamed_g1194_ic3435:
+  unnamed_g1194_ic1181:
     CpuMultiplier: 1.0
-    id: 48590
+    id: 48752
     marketGroup: 1661
-    name: unnamed_g1194_ic3435
+    name: unnamed_g1194_ic1181
     volume: 1.0
-  unnamed_g1194_ic3441:
+  unnamed_g1194_ic21742:
     CpuMultiplier: 1.0
-    id: 48589
+    id: 48642
     marketGroup: 1661
-    name: unnamed_g1194_ic3441
+    name: unnamed_g1194_ic21742
+    volume: 100.0
+  unnamed_g1194_ic21844:
+    CpuMultiplier: 1.0
+    id: 48759
+    marketGroup: 1661
+    name: unnamed_g1194_ic21844
+    volume: 1.0
+  unnamed_g1194_ic21898:
+    CpuMultiplier: 1.0
+    id: 48645
+    marketGroup: 1661
+    name: unnamed_g1194_ic21898
+    volume: 100.0
+  unnamed_g1194_ic22042:
+    CpuMultiplier: 1.0
+    id: 48749
+    marketGroup: 1661
+    name: unnamed_g1194_ic22042
+    volume: 1.0
+  unnamed_g1194_ic2886:
+    CpuMultiplier: 1.0
+    id: 48748
+    marketGroup: 1661
+    name: unnamed_g1194_ic2886
+    volume: 1.0
+  unnamed_g1194_ic3233:
+    CpuMultiplier: 1.0
+    id: 48753
+    marketGroup: 1661
+    name: unnamed_g1194_ic3233
+    volume: 1.0
+  unnamed_g1194_ic3438:
+    CpuMultiplier: 1.0
+    id: 48756
+    marketGroup: 1661
+    name: unnamed_g1194_ic3438
+    volume: 1.0
+  unnamed_g1194_ic3447:
+    CpuMultiplier: 1.0
+    id: 48755
+    marketGroup: 1661
+    name: unnamed_g1194_ic3447
     volume: 1.0

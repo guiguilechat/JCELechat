@@ -345,8 +345,8 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShipBonusPF1;
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusPF1;
     /**
      * 
      */

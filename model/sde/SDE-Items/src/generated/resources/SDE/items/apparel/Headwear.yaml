@@ -1,16 +1,4 @@
 items:
-  Cap Female Minmatar:
-    Gender: 2
-    id: 42715
-    marketGroup: 1943
-    name: Cap Female Minmatar
-    volume: 0.1
-  Cap Male Minmatar:
-    Gender: 2
-    id: 42730
-    marketGroup: 1943
-    name: Cap Male Minmatar
-    volume: 0.1
   Men's 'Boarder' Cap (Digital Camo):
     Gender: 1
     id: 42732
@@ -131,17 +119,23 @@ items:
     marketGroup: 1943
     name: Men's ‘Defender’ Beret (Gallente Federation)
     volume: 0.1
+  Men's ‘Liberator’ Beret (Minmatar Republic):
+    Gender: 1
+    id: 42712
+    marketGroup: 1943
+    name: Men's ‘Liberator’ Beret (Minmatar Republic)
+    volume: 0.1
+  Men's ‘Liberator’ Cap (Minmatar Republic):
+    Gender: 2
+    id: 42730
+    marketGroup: 1943
+    name: Men's ‘Liberator’ Cap (Minmatar Republic)
+    volume: 0.1
   Men's ‘Protector’ Beret (Caldari State):
     Gender: 1
     id: 42736
     marketGroup: 1943
     name: Men's ‘Protector’ Beret (Caldari State)
-    volume: 0.1
-  Men's ��Liberator’ Beret (Minmatar Republic):
-    Gender: 1
-    id: 42712
-    marketGroup: 1943
-    name: Men's ��Liberator’ Beret (Minmatar Republic)
     volume: 0.1
   Men’s ‘Crusader’ Beret (Amarr Empire):
     Gender: 1
@@ -316,6 +310,12 @@ items:
     id: 42738
     marketGroup: 1943
     name: Women's ‘Liberator’ Beret (Minmatar Republic)
+    volume: 0.1
+  Women's ‘Liberator’ Cap (Minmatar Republic):
+    Gender: 2
+    id: 42715
+    marketGroup: 1943
+    name: Women's ‘Liberator’ Cap (Minmatar Republic)
     volume: 0.1
   Women's ‘Protector’ Beret (Caldari State):
     Gender: 3

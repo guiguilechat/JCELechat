@@ -497,6 +497,30 @@ items:
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Bioadaptive)
     volume: 0.1
+  Men's Triglavian Survival Suit (Encounter):
+    Gender: 2
+    id: 48387
+    marketGroup: 1399
+    name: Men's Triglavian Survival Suit (Encounter)
+    volume: 0.1
+  Men's Triglavian Survival Suit (Perun):
+    Gender: 2
+    id: 48385
+    marketGroup: 1399
+    name: Men's Triglavian Survival Suit (Perun)
+    volume: 0.1
+  Men's Triglavian Survival Suit (Svarog):
+    Gender: 2
+    id: 48384
+    marketGroup: 1399
+    name: Men's Triglavian Survival Suit (Svarog)
+    volume: 0.1
+  Men's Triglavian Survival Suit (Veles):
+    Gender: 2
+    id: 48383
+    marketGroup: 1399
+    name: Men's Triglavian Survival Suit (Veles)
+    volume: 0.1
   Women's 'Eternity' Suit Top (Black/Gold):
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
@@ -1169,51 +1193,27 @@ items:
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Bioadaptive)
     volume: 0.1
-  unnamed_g1088_ic22021:
+  Women's Triglavian Survival Suit (Encounter):
     Gender: 2
     id: 48386
     marketGroup: 1405
-    name: unnamed_g1088_ic22021
+    name: Women's Triglavian Survival Suit (Encounter)
     volume: 0.1
-  unnamed_g1088_ic22022:
-    Gender: 2
-    id: 48380
-    marketGroup: 1405
-    name: unnamed_g1088_ic22022
-    volume: 0.1
-  unnamed_g1088_ic22023:
-    Gender: 2
-    id: 48381
-    marketGroup: 1405
-    name: unnamed_g1088_ic22023
-    volume: 0.1
-  unnamed_g1088_ic22024:
+  Women's Triglavian Survival Suit (Perun):
     Gender: 2
     id: 48382
     marketGroup: 1405
-    name: unnamed_g1088_ic22024
+    name: Women's Triglavian Survival Suit (Perun)
     volume: 0.1
-  unnamed_g1088_ic22025:
+  Women's Triglavian Survival Suit (Svarog):
     Gender: 2
-    id: 48383
-    marketGroup: 1399
-    name: unnamed_g1088_ic22025
+    id: 48381
+    marketGroup: 1405
+    name: Women's Triglavian Survival Suit (Svarog)
     volume: 0.1
-  unnamed_g1088_ic22026:
+  Women's Triglavian Survival Suit (Veles):
     Gender: 2
-    id: 48384
-    marketGroup: 1399
-    name: unnamed_g1088_ic22026
-    volume: 0.1
-  unnamed_g1088_ic22027:
-    Gender: 2
-    id: 48385
-    marketGroup: 1399
-    name: unnamed_g1088_ic22027
-    volume: 0.1
-  unnamed_g1088_ic22028:
-    Gender: 2
-    id: 48387
-    marketGroup: 1399
-    name: unnamed_g1088_ic22028
+    id: 48380
+    marketGroup: 1405
+    name: Women's Triglavian Survival Suit (Veles)
     volume: 0.1

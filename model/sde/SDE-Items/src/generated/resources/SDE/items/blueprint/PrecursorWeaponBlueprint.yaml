@@ -1,4 +1,9 @@
 items:
+  Heavy Compact Entropic Disintegrator Blueprint:
+    id: 48471
+    marketGroup: 293
+    name: Heavy Compact Entropic Disintegrator Blueprint
+    volume: 0.01
   Heavy Entropic Disintegrator I Blueprint:
     id: 47971
     marketGroup: 293
@@ -7,6 +12,16 @@ items:
   Heavy Entropic Disintegrator II Blueprint:
     id: 47972
     name: Heavy Entropic Disintegrator II Blueprint
+    volume: 0.01
+  Heavy Scoped Entropic Disintegrator Blueprint:
+    id: 48472
+    marketGroup: 293
+    name: Heavy Scoped Entropic Disintegrator Blueprint
+    volume: 0.01
+  Light Compact Entropic Disintegrator Blueprint:
+    id: 48469
+    marketGroup: 292
+    name: Light Compact Entropic Disintegrator Blueprint
     volume: 0.01
   Light Entropic Disintegrator I Blueprint:
     id: 47969
@@ -17,6 +32,16 @@ items:
     id: 47970
     name: Light Entropic Disintegrator II Blueprint
     volume: 0.01
+  Light Scoped Entropic Disintegrator Blueprint:
+    id: 48470
+    marketGroup: 292
+    name: Light Scoped Entropic Disintegrator Blueprint
+    volume: 0.01
+  Supratidal Compact Entropic Disintegrator Blueprint:
+    id: 48473
+    marketGroup: 295
+    name: Supratidal Compact Entropic Disintegrator Blueprint
+    volume: 0.01
   Supratidal Entropic Disintegrator I Blueprint:
     id: 47973
     marketGroup: 295
@@ -26,18 +51,8 @@ items:
     id: 47974
     name: Supratidal Entropic Disintegrator II Blueprint
     volume: 0.01
-  unnamed_g1990_ic21921:
+  Supratidal Scoped Entropic Disintegrator Blueprint:
     id: 48474
     marketGroup: 295
-    name: unnamed_g1990_ic21921
-    volume: 0.01
-  unnamed_g1990_ic21922:
-    id: 48472
-    marketGroup: 293
-    name: unnamed_g1990_ic21922
-    volume: 0.01
-  unnamed_g1990_ic21923:
-    id: 48470
-    marketGroup: 292
-    name: unnamed_g1990_ic21923
+    name: Supratidal Scoped Entropic Disintegrator Blueprint
     volume: 0.01
