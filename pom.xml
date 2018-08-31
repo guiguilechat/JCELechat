@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.guiguilechat</groupId>
 	<artifactId>JCELechat</artifactId>
-	<version>4.4.1</version>
+	<version>4.4.2</version>
 	<licenses>
 		<license>
 			<name>GNU Lesser General Public License v3</name>
