@@ -289,6 +289,7 @@ public class EveCharacter {
 	 */
 	protected void applyNewAssets(Change<? extends M_get_assets_8> c,
 			ObservableMap<Long, ObservableMap<Integer, Integer>> map) {
+		c.next();
 
 		// the listener is called everytime the full list of items in
 		// modified. thus everytime, we recreate it

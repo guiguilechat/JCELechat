@@ -1,18 +1,14 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
 import java.lang.reflect.Field;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_planets_planet_id;
+import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsMapHolderImpl;
+import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 
@@ -23,9 +19,6 @@ public class PI {
 	public PI(ESIAccount raw) {
 		acc = raw;
 	}
-
-	ObservableMap<Integer, ColonyInfo> cachedPlanets = FXCollections.observableMap(new LinkedHashMap<>());
-	long planetCacheExpiry = 0;
 
 	/**
 	 * colony info<br />
@@ -63,32 +56,53 @@ public class PI {
 
 	}
 
-	public ObservableMap<Integer, ColonyInfo> getPlanets() {
-		synchronized (cachedPlanets) {
-			if (planetCacheExpiry <= System.currentTimeMillis()) {
-				Map<String, List<String>> headerHandler = new HashMap<>();
-				R_get_characters_character_id_planets[] planetIds = acc.raw.get_characters_planets(acc.characterId(),
-						headerHandler);
-				Set<Integer> pids = planetIds == null ? Collections.emptySet()
-						: Stream.of(planetIds).parallel().map(pli -> pli.planet_id).collect(Collectors.toSet());
-				cachedPlanets.keySet().retainAll(pids);
-				planetCacheExpiry = System.currentTimeMillis() + ESIConnected.getCacheExpire(headerHandler);
-				if (planetIds != null) {
-					Stream.of(planetIds).parallel().map(pli -> {
-						R_get_characters_character_id_planets_planet_id planet = acc.raw.get_characters_planets(acc.characterId(),
-								pli.planet_id, null);
-						if (planet != null) {
-							ColonyInfo ret = new ColonyInfo(planet);
-							ret.addInfo(pli);
-							return ret;
-						} else {
-							return null;
+	private ObsMapHolder<Integer, ColonyInfo> planets = null;
+
+	public ObsMapHolder<Integer, ColonyInfo> getPlanets() {
+		if (planets == null) {
+			synchronized (this) {
+				if (planets == null) {
+					ObservableMap<Integer, ColonyInfo> mcol = FXCollections.observableHashMap();
+					planets = new ObsMapHolderImpl<>(mcol);
+					acc.raw.cache.characters.planets(acc.characterId()).follow(c -> {
+						HashSet<Integer> removed = new HashSet<>();
+						List<R_get_characters_character_id_planets> added = new ArrayList<>();
+						while (c.next()) {
+							if (c.wasRemoved()) {
+								for (R_get_characters_character_id_planets e1 : c.getRemoved()) {
+									removed.add(e1.planet_id);
+								}
+							}
+							if (c.wasAdded()) {
+								for (R_get_characters_character_id_planets e2 : c.getAddedSubList()) {
+									if (!removed.remove(e2.planet_id)) {
+										added.add(e2);
+									}
+								}
+							}
 						}
-					}).filter(o -> o != null).forEachOrdered(ci -> cachedPlanets.put(ci.planet_id, ci));
+						mcol.keySet().removeAll(removed);
+						for (R_get_characters_character_id_planets a : added) {
+							acc.raw.cache.characters.planets(acc.characterId(), a.planet_id)
+							.follow((observable, oldValue, newValue) -> {
+								if (newValue == null) {
+									synchronized (mcol) {
+										mcol.remove(a.planet_id);
+									}
+								} else {
+									ColonyInfo added1 = new ColonyInfo(newValue);
+									added1.addInfo(a);
+									synchronized (mcol) {
+										mcol.put(a.planet_id, added1);
+									}
+								}
+							});
+						}
+					});
 				}
 			}
 		}
-		return cachedPlanets;
+		return planets;
 	}
 
 }
