@@ -101,4 +101,95 @@ public class R_get_characters_character_id_stats_social {
      * mails_sent integer
      */
     public long mails_sent;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_characters_character_id_stats_social othersame = ((R_get_characters_character_id_stats_social) other);
+        if (add_contact_bad!= othersame.add_contact_bad) {
+            return false;
+        }
+        if (add_contact_good!= othersame.add_contact_good) {
+            return false;
+        }
+        if (add_contact_high!= othersame.add_contact_high) {
+            return false;
+        }
+        if (add_contact_horrible!= othersame.add_contact_horrible) {
+            return false;
+        }
+        if (add_contact_neutral!= othersame.add_contact_neutral) {
+            return false;
+        }
+        if (add_note!= othersame.add_note) {
+            return false;
+        }
+        if (added_as_contact_bad!= othersame.added_as_contact_bad) {
+            return false;
+        }
+        if (added_as_contact_good!= othersame.added_as_contact_good) {
+            return false;
+        }
+        if (added_as_contact_high!= othersame.added_as_contact_high) {
+            return false;
+        }
+        if (added_as_contact_horrible!= othersame.added_as_contact_horrible) {
+            return false;
+        }
+        if (added_as_contact_neutral!= othersame.added_as_contact_neutral) {
+            return false;
+        }
+        if (calendar_event_created!= othersame.calendar_event_created) {
+            return false;
+        }
+        if (chat_messages_alliance!= othersame.chat_messages_alliance) {
+            return false;
+        }
+        if (chat_messages_constellation!= othersame.chat_messages_constellation) {
+            return false;
+        }
+        if (chat_messages_corporation!= othersame.chat_messages_corporation) {
+            return false;
+        }
+        if (chat_messages_fleet!= othersame.chat_messages_fleet) {
+            return false;
+        }
+        if (chat_messages_region!= othersame.chat_messages_region) {
+            return false;
+        }
+        if (chat_messages_solarsystem!= othersame.chat_messages_solarsystem) {
+            return false;
+        }
+        if (chat_messages_warfaction!= othersame.chat_messages_warfaction) {
+            return false;
+        }
+        if (chat_total_message_length!= othersame.chat_total_message_length) {
+            return false;
+        }
+        if (direct_trades!= othersame.direct_trades) {
+            return false;
+        }
+        if (fleet_broadcasts!= othersame.fleet_broadcasts) {
+            return false;
+        }
+        if (fleet_joins!= othersame.fleet_joins) {
+            return false;
+        }
+        if (mails_received!= othersame.mails_received) {
+            return false;
+        }
+        if (mails_sent!= othersame.mails_sent) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return ((((((((((((((((((((((((Long.hashCode(add_contact_bad)+ Long.hashCode(add_contact_good))+ Long.hashCode(add_contact_high))+ Long.hashCode(add_contact_horrible))+ Long.hashCode(add_contact_neutral))+ Long.hashCode(add_note))+ Long.hashCode(added_as_contact_bad))+ Long.hashCode(added_as_contact_good))+ Long.hashCode(added_as_contact_high))+ Long.hashCode(added_as_contact_horrible))+ Long.hashCode(added_as_contact_neutral))+ Long.hashCode(calendar_event_created))+ Long.hashCode(chat_messages_alliance))+ Long.hashCode(chat_messages_constellation))+ Long.hashCode(chat_messages_corporation))+ Long.hashCode(chat_messages_fleet))+ Long.hashCode(chat_messages_region))+ Long.hashCode(chat_messages_solarsystem))+ Long.hashCode(chat_messages_warfaction))+ Long.hashCode(chat_total_message_length))+ Long.hashCode(direct_trades))+ Long.hashCode(fleet_broadcasts))+ Long.hashCode(fleet_joins))+ Long.hashCode(mails_received))+ Long.hashCode(mails_sent));
+    }
 }

@@ -20,18 +20,34 @@ public class K_16_flag_int_int_Lint_LLint {
         this.connections = connections;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_16_flag_int_int_Lint_LLint other2 = ((K_16_flag_int_int_Lint_LLint) other);
-        return ((((((flag == other2 .flag)||((flag!= null)&&flag.equals(other2 .flag)))&&(origin == other2 .origin))&&(destination == other2 .destination))&&((avoid == other2 .avoid)||((avoid!= null)&&avoid.equals(other2 .avoid))))&&((connections == other2 .connections)||((connections!= null)&&connections.equals(other2 .connections))));
+        K_16_flag_int_int_Lint_LLint othersame = ((K_16_flag_int_int_Lint_LLint) other);
+        if ((flag!= othersame.flag)&&((flag == null)||(!flag.equals(othersame.flag)))) {
+            return false;
+        }
+        if (origin!= othersame.origin) {
+            return false;
+        }
+        if (destination!= othersame.destination) {
+            return false;
+        }
+        if ((avoid!= othersame.avoid)&&((avoid == null)||(!avoid.equals(othersame.avoid)))) {
+            return false;
+        }
+        if ((connections!= othersame.connections)&&((connections == null)||(!connections.equals(othersame.connections)))) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)(((((0 +((flag == null)? 0 :flag.hashCode()))+ origin)+ destination)+((avoid == null)? 0 :avoid.hashCode()))+((connections == null)? 0 :connections.hashCode())));
+        return ((((((flag == null)? 0 :flag.hashCode())+ origin)+ destination)+((avoid == null)? 0 :avoid.hashCode()))+((connections == null)? 0 :connections.hashCode()));
     }
 }

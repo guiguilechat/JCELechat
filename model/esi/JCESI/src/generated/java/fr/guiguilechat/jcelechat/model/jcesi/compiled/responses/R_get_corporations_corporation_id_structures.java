@@ -65,4 +65,68 @@ public class R_get_corporations_corporation_id_structures {
      * Date at which the structure will unanchor
      */
     public String unanchors_at;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_corporations_corporation_id_structures othersame = ((R_get_corporations_corporation_id_structures) other);
+        if (corporation_id!= othersame.corporation_id) {
+            return false;
+        }
+        if ((fuel_expires!= othersame.fuel_expires)&&((fuel_expires == null)||(!fuel_expires.equals(othersame.fuel_expires)))) {
+            return false;
+        }
+        if ((next_reinforce_apply!= othersame.next_reinforce_apply)&&((next_reinforce_apply == null)||(!next_reinforce_apply.equals(othersame.next_reinforce_apply)))) {
+            return false;
+        }
+        if (next_reinforce_hour!= othersame.next_reinforce_hour) {
+            return false;
+        }
+        if (next_reinforce_weekday!= othersame.next_reinforce_weekday) {
+            return false;
+        }
+        if (profile_id!= othersame.profile_id) {
+            return false;
+        }
+        if (reinforce_hour!= othersame.reinforce_hour) {
+            return false;
+        }
+        if (reinforce_weekday!= othersame.reinforce_weekday) {
+            return false;
+        }
+        if ((services!= othersame.services)&&((services == null)||(!services.equals(othersame.services)))) {
+            return false;
+        }
+        if ((state!= othersame.state)&&((state == null)||(!state.equals(othersame.state)))) {
+            return false;
+        }
+        if ((state_timer_end!= othersame.state_timer_end)&&((state_timer_end == null)||(!state_timer_end.equals(othersame.state_timer_end)))) {
+            return false;
+        }
+        if ((state_timer_start!= othersame.state_timer_start)&&((state_timer_start == null)||(!state_timer_start.equals(othersame.state_timer_start)))) {
+            return false;
+        }
+        if (structure_id!= othersame.structure_id) {
+            return false;
+        }
+        if (system_id!= othersame.system_id) {
+            return false;
+        }
+        if (type_id!= othersame.type_id) {
+            return false;
+        }
+        if ((unanchors_at!= othersame.unanchors_at)&&((unanchors_at == null)||(!unanchors_at.equals(othersame.unanchors_at)))) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((((((((((((((corporation_id +((fuel_expires == null)? 0 :fuel_expires.hashCode()))+((next_reinforce_apply == null)? 0 :next_reinforce_apply.hashCode()))+ next_reinforce_hour)+ next_reinforce_weekday)+ profile_id)+ reinforce_hour)+ reinforce_weekday)+((services == null)? 0 :services.hashCode()))+((state == null)? 0 :state.hashCode()))+((state_timer_end == null)? 0 :state_timer_end.hashCode()))+((state_timer_start == null)? 0 :state_timer_start.hashCode()))+ Long.hashCode(structure_id))+ system_id)+ type_id)+((unanchors_at == null)? 0 :unanchors_at.hashCode()));
+    }
 }

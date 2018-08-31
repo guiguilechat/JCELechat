@@ -9,4 +9,26 @@ public class M_get_bookmarks_item_2 {
      * type_id integer
      */
     public int type_id;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        M_get_bookmarks_item_2 othersame = ((M_get_bookmarks_item_2) other);
+        if (item_id!= othersame.item_id) {
+            return false;
+        }
+        if (type_id!= othersame.type_id) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (Long.hashCode(item_id)+ type_id);
+    }
 }

@@ -145,4 +145,128 @@ public class R_get_characters_character_id_stats_industry {
      * reprocess_item_quantity integer
      */
     public long reprocess_item_quantity;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_characters_character_id_stats_industry othersame = ((R_get_characters_character_id_stats_industry) other);
+        if (hacking_successes!= othersame.hacking_successes) {
+            return false;
+        }
+        if (jobs_cancelled!= othersame.jobs_cancelled) {
+            return false;
+        }
+        if (jobs_completed_copy_blueprint!= othersame.jobs_completed_copy_blueprint) {
+            return false;
+        }
+        if (jobs_completed_invention!= othersame.jobs_completed_invention) {
+            return false;
+        }
+        if (jobs_completed_manufacture!= othersame.jobs_completed_manufacture) {
+            return false;
+        }
+        if (jobs_completed_manufacture_asteroid!= othersame.jobs_completed_manufacture_asteroid) {
+            return false;
+        }
+        if (jobs_completed_manufacture_asteroid_quantity!= othersame.jobs_completed_manufacture_asteroid_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_charge!= othersame.jobs_completed_manufacture_charge) {
+            return false;
+        }
+        if (jobs_completed_manufacture_charge_quantity!= othersame.jobs_completed_manufacture_charge_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_commodity!= othersame.jobs_completed_manufacture_commodity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_commodity_quantity!= othersame.jobs_completed_manufacture_commodity_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_deployable!= othersame.jobs_completed_manufacture_deployable) {
+            return false;
+        }
+        if (jobs_completed_manufacture_deployable_quantity!= othersame.jobs_completed_manufacture_deployable_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_drone!= othersame.jobs_completed_manufacture_drone) {
+            return false;
+        }
+        if (jobs_completed_manufacture_drone_quantity!= othersame.jobs_completed_manufacture_drone_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_implant!= othersame.jobs_completed_manufacture_implant) {
+            return false;
+        }
+        if (jobs_completed_manufacture_implant_quantity!= othersame.jobs_completed_manufacture_implant_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_module!= othersame.jobs_completed_manufacture_module) {
+            return false;
+        }
+        if (jobs_completed_manufacture_module_quantity!= othersame.jobs_completed_manufacture_module_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_other!= othersame.jobs_completed_manufacture_other) {
+            return false;
+        }
+        if (jobs_completed_manufacture_other_quantity!= othersame.jobs_completed_manufacture_other_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_ship!= othersame.jobs_completed_manufacture_ship) {
+            return false;
+        }
+        if (jobs_completed_manufacture_ship_quantity!= othersame.jobs_completed_manufacture_ship_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_structure!= othersame.jobs_completed_manufacture_structure) {
+            return false;
+        }
+        if (jobs_completed_manufacture_structure_quantity!= othersame.jobs_completed_manufacture_structure_quantity) {
+            return false;
+        }
+        if (jobs_completed_manufacture_subsystem!= othersame.jobs_completed_manufacture_subsystem) {
+            return false;
+        }
+        if (jobs_completed_manufacture_subsystem_quantity!= othersame.jobs_completed_manufacture_subsystem_quantity) {
+            return false;
+        }
+        if (jobs_completed_material_productivity!= othersame.jobs_completed_material_productivity) {
+            return false;
+        }
+        if (jobs_completed_time_productivity!= othersame.jobs_completed_time_productivity) {
+            return false;
+        }
+        if (jobs_started_copy_blueprint!= othersame.jobs_started_copy_blueprint) {
+            return false;
+        }
+        if (jobs_started_invention!= othersame.jobs_started_invention) {
+            return false;
+        }
+        if (jobs_started_manufacture!= othersame.jobs_started_manufacture) {
+            return false;
+        }
+        if (jobs_started_material_productivity!= othersame.jobs_started_material_productivity) {
+            return false;
+        }
+        if (jobs_started_time_productivity!= othersame.jobs_started_time_productivity) {
+            return false;
+        }
+        if (reprocess_item!= othersame.reprocess_item) {
+            return false;
+        }
+        if (reprocess_item_quantity!= othersame.reprocess_item_quantity) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((((((((((((((((((((((((((((((((((Long.hashCode(hacking_successes)+ Long.hashCode(jobs_cancelled))+ Long.hashCode(jobs_completed_copy_blueprint))+ Long.hashCode(jobs_completed_invention))+ Long.hashCode(jobs_completed_manufacture))+ Long.hashCode(jobs_completed_manufacture_asteroid))+ Long.hashCode(jobs_completed_manufacture_asteroid_quantity))+ Long.hashCode(jobs_completed_manufacture_charge))+ Long.hashCode(jobs_completed_manufacture_charge_quantity))+ Long.hashCode(jobs_completed_manufacture_commodity))+ Long.hashCode(jobs_completed_manufacture_commodity_quantity))+ Long.hashCode(jobs_completed_manufacture_deployable))+ Long.hashCode(jobs_completed_manufacture_deployable_quantity))+ Long.hashCode(jobs_completed_manufacture_drone))+ Long.hashCode(jobs_completed_manufacture_drone_quantity))+ Long.hashCode(jobs_completed_manufacture_implant))+ Long.hashCode(jobs_completed_manufacture_implant_quantity))+ Long.hashCode(jobs_completed_manufacture_module))+ Long.hashCode(jobs_completed_manufacture_module_quantity))+ Long.hashCode(jobs_completed_manufacture_other))+ Long.hashCode(jobs_completed_manufacture_other_quantity))+ Long.hashCode(jobs_completed_manufacture_ship))+ Long.hashCode(jobs_completed_manufacture_ship_quantity))+ Long.hashCode(jobs_completed_manufacture_structure))+ Long.hashCode(jobs_completed_manufacture_structure_quantity))+ Long.hashCode(jobs_completed_manufacture_subsystem))+ Long.hashCode(jobs_completed_manufacture_subsystem_quantity))+ Long.hashCode(jobs_completed_material_productivity))+ Long.hashCode(jobs_completed_time_productivity))+ Long.hashCode(jobs_started_copy_blueprint))+ Long.hashCode(jobs_started_invention))+ Long.hashCode(jobs_started_manufacture))+ Long.hashCode(jobs_started_material_productivity))+ Long.hashCode(jobs_started_time_productivity))+ Long.hashCode(reprocess_item))+ Long.hashCode(reprocess_item_quantity));
+    }
 }

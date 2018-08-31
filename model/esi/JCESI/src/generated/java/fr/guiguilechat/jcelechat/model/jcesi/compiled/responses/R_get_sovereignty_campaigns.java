@@ -50,4 +50,50 @@ public class R_get_sovereignty_campaigns {
      * 
      */
     public long structure_id;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_sovereignty_campaigns othersame = ((R_get_sovereignty_campaigns) other);
+        if (attackers_score!= othersame.attackers_score) {
+            return false;
+        }
+        if (campaign_id!= othersame.campaign_id) {
+            return false;
+        }
+        if (constellation_id!= othersame.constellation_id) {
+            return false;
+        }
+        if (defender_id!= othersame.defender_id) {
+            return false;
+        }
+        if (defender_score!= othersame.defender_score) {
+            return false;
+        }
+        if ((event_type!= othersame.event_type)&&((event_type == null)||(!event_type.equals(othersame.event_type)))) {
+            return false;
+        }
+        if ((participants!= othersame.participants)&&((participants == null)||(!participants.equals(othersame.participants)))) {
+            return false;
+        }
+        if (solar_system_id!= othersame.solar_system_id) {
+            return false;
+        }
+        if ((start_time!= othersame.start_time)&&((start_time == null)||(!start_time.equals(othersame.start_time)))) {
+            return false;
+        }
+        if (structure_id!= othersame.structure_id) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((((((((Double.hashCode(attackers_score)+ campaign_id)+ constellation_id)+ defender_id)+ Double.hashCode(defender_score))+((event_type == null)? 0 :event_type.hashCode()))+((participants == null)? 0 :participants.hashCode()))+ solar_system_id)+((start_time == null)? 0 :start_time.hashCode()))+ Long.hashCode(structure_id));
+    }
 }

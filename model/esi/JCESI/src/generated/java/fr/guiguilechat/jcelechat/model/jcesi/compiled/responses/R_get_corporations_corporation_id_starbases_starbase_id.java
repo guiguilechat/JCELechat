@@ -57,4 +57,62 @@ public class R_get_corporations_corporation_id_starbases_starbase_id {
      * True if the starbase (POS) is using alliance standings, otherwise using corporation's
      */
     public boolean use_alliance_standings;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_corporations_corporation_id_starbases_starbase_id othersame = ((R_get_corporations_corporation_id_starbases_starbase_id) other);
+        if (allow_alliance_members!= othersame.allow_alliance_members) {
+            return false;
+        }
+        if (allow_corporation_members!= othersame.allow_corporation_members) {
+            return false;
+        }
+        if ((anchor!= othersame.anchor)&&((anchor == null)||(!anchor.equals(othersame.anchor)))) {
+            return false;
+        }
+        if (attack_if_at_war!= othersame.attack_if_at_war) {
+            return false;
+        }
+        if (attack_if_other_security_status_dropping!= othersame.attack_if_other_security_status_dropping) {
+            return false;
+        }
+        if (attack_security_status_threshold!= othersame.attack_security_status_threshold) {
+            return false;
+        }
+        if (attack_standing_threshold!= othersame.attack_standing_threshold) {
+            return false;
+        }
+        if ((fuel_bay_take!= othersame.fuel_bay_take)&&((fuel_bay_take == null)||(!fuel_bay_take.equals(othersame.fuel_bay_take)))) {
+            return false;
+        }
+        if ((fuel_bay_view!= othersame.fuel_bay_view)&&((fuel_bay_view == null)||(!fuel_bay_view.equals(othersame.fuel_bay_view)))) {
+            return false;
+        }
+        if ((fuels!= othersame.fuels)&&((fuels == null)||(!fuels.equals(othersame.fuels)))) {
+            return false;
+        }
+        if ((offline!= othersame.offline)&&((offline == null)||(!offline.equals(othersame.offline)))) {
+            return false;
+        }
+        if ((online!= othersame.online)&&((online == null)||(!online.equals(othersame.online)))) {
+            return false;
+        }
+        if ((unanchor!= othersame.unanchor)&&((unanchor == null)||(!unanchor.equals(othersame.unanchor)))) {
+            return false;
+        }
+        if (use_alliance_standings!= othersame.use_alliance_standings) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((((((((((((Boolean.hashCode(allow_alliance_members)+ Boolean.hashCode(allow_corporation_members))+((anchor == null)? 0 :anchor.hashCode()))+ Boolean.hashCode(attack_if_at_war))+ Boolean.hashCode(attack_if_other_security_status_dropping))+ Double.hashCode(attack_security_status_threshold))+ Double.hashCode(attack_standing_threshold))+((fuel_bay_take == null)? 0 :fuel_bay_take.hashCode()))+((fuel_bay_view == null)? 0 :fuel_bay_view.hashCode()))+((fuels == null)? 0 :fuels.hashCode()))+((offline == null)? 0 :offline.hashCode()))+((online == null)? 0 :online.hashCode()))+((unanchor == null)? 0 :unanchor.hashCode()))+ Boolean.hashCode(use_alliance_standings));
+    }
 }

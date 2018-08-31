@@ -16,18 +16,28 @@ public class K_11_int_int_Long {
         this.from_id = from_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_11_int_int_Long other2 = ((K_11_int_int_Long) other);
-        return (((division == other2 .division)&&(corporation_id == other2 .corporation_id))&&((from_id == other2 .from_id)||((from_id!= null)&&from_id.equals(other2 .from_id))));
+        K_11_int_int_Long othersame = ((K_11_int_int_Long) other);
+        if (division!= othersame.division) {
+            return false;
+        }
+        if (corporation_id!= othersame.corporation_id) {
+            return false;
+        }
+        if ((from_id!= othersame.from_id)&&((from_id == null)||(!from_id.equals(othersame.from_id)))) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)(((0 + division)+ corporation_id)+((from_id == null)? 0 :from_id.hashCode())));
+        return ((division + corporation_id)+((from_id == null)? 0 :from_id.hashCode()));
     }
 }

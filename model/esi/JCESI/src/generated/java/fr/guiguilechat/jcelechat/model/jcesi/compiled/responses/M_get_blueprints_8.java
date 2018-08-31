@@ -33,4 +33,44 @@ public class M_get_blueprints_8 {
      * type_id integer
      */
     public int type_id;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        M_get_blueprints_8 othersame = ((M_get_blueprints_8) other);
+        if (item_id!= othersame.item_id) {
+            return false;
+        }
+        if ((location_flag!= othersame.location_flag)&&((location_flag == null)||(!location_flag.equals(othersame.location_flag)))) {
+            return false;
+        }
+        if (location_id!= othersame.location_id) {
+            return false;
+        }
+        if (material_efficiency!= othersame.material_efficiency) {
+            return false;
+        }
+        if (quantity!= othersame.quantity) {
+            return false;
+        }
+        if (runs!= othersame.runs) {
+            return false;
+        }
+        if (time_efficiency!= othersame.time_efficiency) {
+            return false;
+        }
+        if (type_id!= othersame.type_id) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((((((Long.hashCode(item_id)+((location_flag == null)? 0 :location_flag.hashCode()))+ Long.hashCode(location_id))+ material_efficiency)+ quantity)+ runs)+ time_efficiency)+ type_id);
+    }
 }

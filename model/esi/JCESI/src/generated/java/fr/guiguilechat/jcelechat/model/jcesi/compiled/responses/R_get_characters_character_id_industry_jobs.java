@@ -89,4 +89,86 @@ public class R_get_characters_character_id_industry_jobs {
      * Number of successful runs for this job. Equal to runs unless this is an invention job
      */
     public int successful_runs;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_characters_character_id_industry_jobs othersame = ((R_get_characters_character_id_industry_jobs) other);
+        if (activity_id!= othersame.activity_id) {
+            return false;
+        }
+        if (blueprint_id!= othersame.blueprint_id) {
+            return false;
+        }
+        if (blueprint_location_id!= othersame.blueprint_location_id) {
+            return false;
+        }
+        if (blueprint_type_id!= othersame.blueprint_type_id) {
+            return false;
+        }
+        if (completed_character_id!= othersame.completed_character_id) {
+            return false;
+        }
+        if ((completed_date!= othersame.completed_date)&&((completed_date == null)||(!completed_date.equals(othersame.completed_date)))) {
+            return false;
+        }
+        if (cost!= othersame.cost) {
+            return false;
+        }
+        if (duration!= othersame.duration) {
+            return false;
+        }
+        if ((end_date!= othersame.end_date)&&((end_date == null)||(!end_date.equals(othersame.end_date)))) {
+            return false;
+        }
+        if (facility_id!= othersame.facility_id) {
+            return false;
+        }
+        if (installer_id!= othersame.installer_id) {
+            return false;
+        }
+        if (job_id!= othersame.job_id) {
+            return false;
+        }
+        if (licensed_runs!= othersame.licensed_runs) {
+            return false;
+        }
+        if (output_location_id!= othersame.output_location_id) {
+            return false;
+        }
+        if ((pause_date!= othersame.pause_date)&&((pause_date == null)||(!pause_date.equals(othersame.pause_date)))) {
+            return false;
+        }
+        if (probability!= othersame.probability) {
+            return false;
+        }
+        if (product_type_id!= othersame.product_type_id) {
+            return false;
+        }
+        if (runs!= othersame.runs) {
+            return false;
+        }
+        if ((start_date!= othersame.start_date)&&((start_date == null)||(!start_date.equals(othersame.start_date)))) {
+            return false;
+        }
+        if (station_id!= othersame.station_id) {
+            return false;
+        }
+        if ((status!= othersame.status)&&((status == null)||(!status.equals(othersame.status)))) {
+            return false;
+        }
+        if (successful_runs!= othersame.successful_runs) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((((((((((((((((((((activity_id + Long.hashCode(blueprint_id))+ Long.hashCode(blueprint_location_id))+ blueprint_type_id)+ completed_character_id)+((completed_date == null)? 0 :completed_date.hashCode()))+ Double.hashCode(cost))+ duration)+((end_date == null)? 0 :end_date.hashCode()))+ Long.hashCode(facility_id))+ installer_id)+ job_id)+ licensed_runs)+ Long.hashCode(output_location_id))+((pause_date == null)? 0 :pause_date.hashCode()))+ Double.hashCode(probability))+ product_type_id)+ runs)+((start_date == null)? 0 :start_date.hashCode()))+ Long.hashCode(station_id))+((status == null)? 0 :status.hashCode()))+ successful_runs);
+    }
 }

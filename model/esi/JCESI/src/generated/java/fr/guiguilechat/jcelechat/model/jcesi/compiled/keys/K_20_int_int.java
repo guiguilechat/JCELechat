@@ -14,18 +14,25 @@ public class K_20_int_int {
         this.corporation_id = corporation_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_20_int_int other2 = ((K_20_int_int) other);
-        return ((division == other2 .division)&&(corporation_id == other2 .corporation_id));
+        K_20_int_int othersame = ((K_20_int_int) other);
+        if (division!= othersame.division) {
+            return false;
+        }
+        if (corporation_id!= othersame.corporation_id) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)((0 + division)+ corporation_id));
+        return (division + corporation_id);
     }
 }

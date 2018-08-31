@@ -17,4 +17,32 @@ public class R_get_universe_races {
      * race_id integer
      */
     public int race_id;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_universe_races othersame = ((R_get_universe_races) other);
+        if (alliance_id!= othersame.alliance_id) {
+            return false;
+        }
+        if ((description!= othersame.description)&&((description == null)||(!description.equals(othersame.description)))) {
+            return false;
+        }
+        if ((name!= othersame.name)&&((name == null)||(!name.equals(othersame.name)))) {
+            return false;
+        }
+        if (race_id!= othersame.race_id) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((alliance_id +((description == null)? 0 :description.hashCode()))+((name == null)? 0 :name.hashCode()))+ race_id);
+    }
 }

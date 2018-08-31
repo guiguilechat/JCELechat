@@ -16,18 +16,28 @@ public class K_17_String_LString_Boolean {
         this.strict = strict;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_17_String_LString_Boolean other2 = ((K_17_String_LString_Boolean) other);
-        return ((((search == other2 .search)||((search!= null)&&search.equals(other2 .search)))&&((categories == other2 .categories)||((categories!= null)&&categories.equals(other2 .categories))))&&((strict == other2 .strict)||((strict!= null)&&strict.equals(other2 .strict))));
+        K_17_String_LString_Boolean othersame = ((K_17_String_LString_Boolean) other);
+        if ((search!= othersame.search)&&((search == null)||(!search.equals(othersame.search)))) {
+            return false;
+        }
+        if ((categories!= othersame.categories)&&((categories == null)||(!categories.equals(othersame.categories)))) {
+            return false;
+        }
+        if ((strict!= othersame.strict)&&((strict == null)||(!strict.equals(othersame.strict)))) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)(((0 +((search == null)? 0 :search.hashCode()))+((categories == null)? 0 :categories.hashCode()))+((strict == null)? 0 :strict.hashCode())));
+        return ((((search == null)? 0 :search.hashCode())+((categories == null)? 0 :categories.hashCode()))+((strict == null)? 0 :strict.hashCode()));
     }
 }

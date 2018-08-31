@@ -16,18 +16,28 @@ public class K_15_Integer_int_order_type {
         this.order_type = order_type;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_15_Integer_int_order_type other2 = ((K_15_Integer_int_order_type) other);
-        return ((((type_id == other2 .type_id)||((type_id!= null)&&type_id.equals(other2 .type_id)))&&(region_id == other2 .region_id))&&((order_type == other2 .order_type)||((order_type!= null)&&order_type.equals(other2 .order_type))));
+        K_15_Integer_int_order_type othersame = ((K_15_Integer_int_order_type) other);
+        if ((type_id!= othersame.type_id)&&((type_id == null)||(!type_id.equals(othersame.type_id)))) {
+            return false;
+        }
+        if (region_id!= othersame.region_id) {
+            return false;
+        }
+        if ((order_type!= othersame.order_type)&&((order_type == null)||(!order_type.equals(othersame.order_type)))) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)(((0 +((type_id == null)? 0 :type_id.hashCode()))+ region_id)+((order_type == null)? 0 :order_type.hashCode())));
+        return ((((type_id == null)? 0 :type_id.hashCode())+ region_id)+((order_type == null)? 0 :order_type.hashCode()));
     }
 }

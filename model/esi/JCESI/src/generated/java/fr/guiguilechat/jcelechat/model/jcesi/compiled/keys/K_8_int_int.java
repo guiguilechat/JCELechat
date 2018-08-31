@@ -15,18 +15,25 @@ public class K_8_int_int {
         this.contract_id = contract_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_8_int_int other2 = ((K_8_int_int) other);
-        return ((corporation_id == other2 .corporation_id)&&(contract_id == other2 .contract_id));
+        K_8_int_int othersame = ((K_8_int_int) other);
+        if (corporation_id!= othersame.corporation_id) {
+            return false;
+        }
+        if (contract_id!= othersame.contract_id) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)((0 + corporation_id)+ contract_id));
+        return (corporation_id + contract_id);
     }
 }

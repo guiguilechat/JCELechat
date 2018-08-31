@@ -22,4 +22,35 @@ public class R_get_universe_structures_structure_id {
      * type_id integer
      */
     public int type_id;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_universe_structures_structure_id othersame = ((R_get_universe_structures_structure_id) other);
+        if ((name!= othersame.name)&&((name == null)||(!name.equals(othersame.name)))) {
+            return false;
+        }
+        if (owner_id!= othersame.owner_id) {
+            return false;
+        }
+        if ((position!= othersame.position)&&((position == null)||(!position.equals(othersame.position)))) {
+            return false;
+        }
+        if (solar_system_id!= othersame.solar_system_id) {
+            return false;
+        }
+        if (type_id!= othersame.type_id) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return ((((((name == null)? 0 :name.hashCode())+ owner_id)+((position == null)? 0 :position.hashCode()))+ solar_system_id)+ type_id);
+    }
 }

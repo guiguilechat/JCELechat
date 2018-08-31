@@ -14,18 +14,25 @@ public class K_13_String_int {
         this.killmail_id = killmail_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_13_String_int other2 = ((K_13_String_int) other);
-        return (((killmail_hash == other2 .killmail_hash)||((killmail_hash!= null)&&killmail_hash.equals(other2 .killmail_hash)))&&(killmail_id == other2 .killmail_id));
+        K_13_String_int othersame = ((K_13_String_int) other);
+        if ((killmail_hash!= othersame.killmail_hash)&&((killmail_hash == null)||(!killmail_hash.equals(othersame.killmail_hash)))) {
+            return false;
+        }
+        if (killmail_id!= othersame.killmail_id) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)((0 +((killmail_hash == null)? 0 :killmail_hash.hashCode()))+ killmail_id));
+        return (((killmail_hash == null)? 0 :killmail_hash.hashCode())+ killmail_id);
     }
 }

@@ -37,4 +37,47 @@ public class R_get_contracts_public_items_contract_id {
      * Type ID for item
      */
     public int type_id;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_contracts_public_items_contract_id othersame = ((R_get_contracts_public_items_contract_id) other);
+        if (is_blueprint_copy!= othersame.is_blueprint_copy) {
+            return false;
+        }
+        if (is_included!= othersame.is_included) {
+            return false;
+        }
+        if (item_id!= othersame.item_id) {
+            return false;
+        }
+        if (material_efficiency!= othersame.material_efficiency) {
+            return false;
+        }
+        if (quantity!= othersame.quantity) {
+            return false;
+        }
+        if (record_id!= othersame.record_id) {
+            return false;
+        }
+        if (runs!= othersame.runs) {
+            return false;
+        }
+        if (time_efficiency!= othersame.time_efficiency) {
+            return false;
+        }
+        if (type_id!= othersame.type_id) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return ((((((((Boolean.hashCode(is_blueprint_copy)+ Boolean.hashCode(is_included))+ Long.hashCode(item_id))+ material_efficiency)+ quantity)+ Long.hashCode(record_id))+ runs)+ time_efficiency)+ type_id);
+    }
 }

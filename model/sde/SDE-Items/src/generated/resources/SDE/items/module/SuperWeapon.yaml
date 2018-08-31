@@ -241,7 +241,7 @@ items:
     marketGroup: 2325
     name: Pulse Activated Nexus Invulnerability Core
     volume: 8000.0
-  ‘Cold Wind’ Kinetic Reaper:
+  ‘Cold Wind�� Kinetic Reaper:
     CanFitShipType1: 3764
     CanFitShipType2: 45649
     CapacitorNeed: 32500.0
@@ -283,7 +283,7 @@ items:
     TechLevel: 1
     id: 41442
     marketGroup: 2268
-    name: ‘Cold Wind’ Kinetic Reaper
+    name: ‘Cold Wind�� Kinetic Reaper
     volume: 8000.0
   ‘Divine Harvest’ Electromagnetic Reaper:
     CanFitShipType1: 11567
@@ -463,50 +463,6 @@ items:
     marketGroup: 2267
     name: ‘Holy Destiny’ Electromagnetic Lance
     volume: 8000.0
-  ‘Iron Pike’ Kinetic Lance:
-    CanFitShipType1: 3764
-    CanFitShipType2: 45649
-    CapacitorNeed: 32500.0
-    ConsumptionQuantity: 50000
-    ConsumptionType: 17888
-    Cpu: 100.0
-    DamageDelayDuration: 10000
-    DisallowDocking: 1
-    DisallowEarlyDeactivation: 1
-    DisallowInEmpireSpace: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOEShape: 1
-    DoomsdayDamageCycleTime: 1000
-    DoomsdayDamageDuration: 15000
-    DoomsdayDamageRadius: 2500
-    DoomsdayEnergyNeutAmount: 32500
-    DoomsdayEnergyNeutRadius: 10000
-    DoomsdayEnergyNeutResistanceID: 2045
-    DoomsdayEnergyNeutSignatureRadius: 20000
-    DoomsdayImmobilityDuration: 30000
-    DoomsdayNoJumpOrCloakDuration: 300000
-    DoomsdayRangeIsFixed: 1
-    DoomsdayWarningDuration: 15000
-    Duration: 300000.0
-    Hp: 99999
-    IsPointTargeted: 1
-    KineticDamage: 50000.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MaxRange: 200000
-    Power: 100000
-    RequiredSkill1: 24563
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3346
-    RequiredSkill2Level: 1
-    SiegeModeWarpStatus: 100
-    SignatureRadius: 5000
-    SpeedFactor: -100.0
-    TechLevel: 1
-    id: 41439
-    marketGroup: 2268
-    name: ‘Iron Pike’ Kinetic Lance
-    volume: 8000.0
   ‘Jormungandr’ Explosive Reaper:
     CanFitShipType1: 23773
     CanFitShipType2: 42126
@@ -596,4 +552,48 @@ items:
     id: 41440
     marketGroup: 2269
     name: ‘Phalarica’ Thermal Lance
+    volume: 8000.0
+  ���Iron Pike’ Kinetic Lance:
+    CanFitShipType1: 3764
+    CanFitShipType2: 45649
+    CapacitorNeed: 32500.0
+    ConsumptionQuantity: 50000
+    ConsumptionType: 17888
+    Cpu: 100.0
+    DamageDelayDuration: 10000
+    DisallowDocking: 1
+    DisallowEarlyDeactivation: 1
+    DisallowInEmpireSpace: 1
+    DisallowRepeatingActivation: 1
+    DoomsdayAOEShape: 1
+    DoomsdayDamageCycleTime: 1000
+    DoomsdayDamageDuration: 15000
+    DoomsdayDamageRadius: 2500
+    DoomsdayEnergyNeutAmount: 32500
+    DoomsdayEnergyNeutRadius: 10000
+    DoomsdayEnergyNeutResistanceID: 2045
+    DoomsdayEnergyNeutSignatureRadius: 20000
+    DoomsdayImmobilityDuration: 30000
+    DoomsdayNoJumpOrCloakDuration: 300000
+    DoomsdayRangeIsFixed: 1
+    DoomsdayWarningDuration: 15000
+    Duration: 300000.0
+    Hp: 99999
+    IsPointTargeted: 1
+    KineticDamage: 50000.0
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MaxRange: 200000
+    Power: 100000
+    RequiredSkill1: 24563
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3346
+    RequiredSkill2Level: 1
+    SiegeModeWarpStatus: 100
+    SignatureRadius: 5000
+    SpeedFactor: -100.0
+    TechLevel: 1
+    id: 41439
+    marketGroup: 2268
+    name: ���Iron Pike’ Kinetic Lance
     volume: 8000.0

@@ -15,18 +15,25 @@ public class K_1_int_int {
         this.character_id = character_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_1_int_int other2 = ((K_1_int_int) other);
-        return ((event_id == other2 .event_id)&&(character_id == other2 .character_id));
+        K_1_int_int othersame = ((K_1_int_int) other);
+        if (event_id!= othersame.event_id) {
+            return false;
+        }
+        if (character_id!= othersame.character_id) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)((0 + event_id)+ character_id));
+        return (event_id + character_id);
     }
 }

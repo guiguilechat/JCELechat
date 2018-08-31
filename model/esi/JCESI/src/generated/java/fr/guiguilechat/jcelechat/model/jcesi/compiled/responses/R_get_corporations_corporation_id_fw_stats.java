@@ -21,4 +21,35 @@ public class R_get_corporations_corporation_id_fw_stats {
      * Summary of victory points gained by the given corporation for the enlisted faction
      */
     public M_get_fw_stats_3 victory_points;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_corporations_corporation_id_fw_stats othersame = ((R_get_corporations_corporation_id_fw_stats) other);
+        if ((enlisted_on!= othersame.enlisted_on)&&((enlisted_on == null)||(!enlisted_on.equals(othersame.enlisted_on)))) {
+            return false;
+        }
+        if (faction_id!= othersame.faction_id) {
+            return false;
+        }
+        if ((kills!= othersame.kills)&&((kills == null)||(!kills.equals(othersame.kills)))) {
+            return false;
+        }
+        if (pilots!= othersame.pilots) {
+            return false;
+        }
+        if ((victory_points!= othersame.victory_points)&&((victory_points == null)||(!victory_points.equals(othersame.victory_points)))) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return ((((((enlisted_on == null)? 0 :enlisted_on.hashCode())+ faction_id)+((kills == null)? 0 :kills.hashCode()))+ pilots)+((victory_points == null)? 0 :victory_points.hashCode()));
+    }
 }

@@ -57,4 +57,62 @@ public class R_get_corporations_corporation_id_customs_offices {
      * terrible_standing_tax_rate number
      */
     public float terrible_standing_tax_rate;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_corporations_corporation_id_customs_offices othersame = ((R_get_corporations_corporation_id_customs_offices) other);
+        if (alliance_tax_rate!= othersame.alliance_tax_rate) {
+            return false;
+        }
+        if (allow_access_with_standings!= othersame.allow_access_with_standings) {
+            return false;
+        }
+        if (allow_alliance_access!= othersame.allow_alliance_access) {
+            return false;
+        }
+        if (bad_standing_tax_rate!= othersame.bad_standing_tax_rate) {
+            return false;
+        }
+        if (corporation_tax_rate!= othersame.corporation_tax_rate) {
+            return false;
+        }
+        if (excellent_standing_tax_rate!= othersame.excellent_standing_tax_rate) {
+            return false;
+        }
+        if (good_standing_tax_rate!= othersame.good_standing_tax_rate) {
+            return false;
+        }
+        if (neutral_standing_tax_rate!= othersame.neutral_standing_tax_rate) {
+            return false;
+        }
+        if (office_id!= othersame.office_id) {
+            return false;
+        }
+        if (reinforce_exit_end!= othersame.reinforce_exit_end) {
+            return false;
+        }
+        if (reinforce_exit_start!= othersame.reinforce_exit_start) {
+            return false;
+        }
+        if ((standing_level!= othersame.standing_level)&&((standing_level == null)||(!standing_level.equals(othersame.standing_level)))) {
+            return false;
+        }
+        if (system_id!= othersame.system_id) {
+            return false;
+        }
+        if (terrible_standing_tax_rate!= othersame.terrible_standing_tax_rate) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((((((((((((Double.hashCode(alliance_tax_rate)+ Boolean.hashCode(allow_access_with_standings))+ Boolean.hashCode(allow_alliance_access))+ Double.hashCode(bad_standing_tax_rate))+ Double.hashCode(corporation_tax_rate))+ Double.hashCode(excellent_standing_tax_rate))+ Double.hashCode(good_standing_tax_rate))+ Double.hashCode(neutral_standing_tax_rate))+ Long.hashCode(office_id))+ reinforce_exit_end)+ reinforce_exit_start)+((standing_level == null)? 0 :standing_level.hashCode()))+ system_id)+ Double.hashCode(terrible_standing_tax_rate));
+    }
 }

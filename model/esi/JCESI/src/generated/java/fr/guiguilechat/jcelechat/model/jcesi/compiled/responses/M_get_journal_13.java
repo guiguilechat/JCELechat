@@ -53,4 +53,59 @@ public class M_get_journal_13 {
      * The corporation ID receiving any tax paid. Only applies to tax related transactions
      */
     public int tax_receiver_id;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        M_get_journal_13 othersame = ((M_get_journal_13) other);
+        if (amount!= othersame.amount) {
+            return false;
+        }
+        if (balance!= othersame.balance) {
+            return false;
+        }
+        if (context_id!= othersame.context_id) {
+            return false;
+        }
+        if ((context_id_type!= othersame.context_id_type)&&((context_id_type == null)||(!context_id_type.equals(othersame.context_id_type)))) {
+            return false;
+        }
+        if ((date!= othersame.date)&&((date == null)||(!date.equals(othersame.date)))) {
+            return false;
+        }
+        if ((description!= othersame.description)&&((description == null)||(!description.equals(othersame.description)))) {
+            return false;
+        }
+        if (first_party_id!= othersame.first_party_id) {
+            return false;
+        }
+        if (id!= othersame.id) {
+            return false;
+        }
+        if ((reason!= othersame.reason)&&((reason == null)||(!reason.equals(othersame.reason)))) {
+            return false;
+        }
+        if ((ref_type!= othersame.ref_type)&&((ref_type == null)||(!ref_type.equals(othersame.ref_type)))) {
+            return false;
+        }
+        if (second_party_id!= othersame.second_party_id) {
+            return false;
+        }
+        if (tax!= othersame.tax) {
+            return false;
+        }
+        if (tax_receiver_id!= othersame.tax_receiver_id) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return ((((((((((((Double.hashCode(amount)+ Double.hashCode(balance))+ Long.hashCode(context_id))+((context_id_type == null)? 0 :context_id_type.hashCode()))+((date == null)? 0 :date.hashCode()))+((description == null)? 0 :description.hashCode()))+ first_party_id)+ Long.hashCode(id))+((reason == null)? 0 :reason.hashCode()))+((ref_type == null)? 0 :ref_type.hashCode()))+ second_party_id)+ Double.hashCode(tax))+ tax_receiver_id);
+    }
 }

@@ -14,18 +14,25 @@ public class K_3_Boolean_int {
         this.character_id = character_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_3_Boolean_int other2 = ((K_3_Boolean_int) other);
-        return (((include_completed == other2 .include_completed)||((include_completed!= null)&&include_completed.equals(other2 .include_completed)))&&(character_id == other2 .character_id));
+        K_3_Boolean_int othersame = ((K_3_Boolean_int) other);
+        if ((include_completed!= othersame.include_completed)&&((include_completed == null)||(!include_completed.equals(othersame.include_completed)))) {
+            return false;
+        }
+        if (character_id!= othersame.character_id) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)((0 +((include_completed == null)? 0 :include_completed.hashCode()))+ character_id));
+        return (((include_completed == null)? 0 :include_completed.hashCode())+ character_id);
     }
 }

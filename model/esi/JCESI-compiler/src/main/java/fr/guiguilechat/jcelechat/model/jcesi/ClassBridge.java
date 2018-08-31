@@ -23,6 +23,7 @@ import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JExpr;
+import com.helger.jcodemodel.JFieldRef;
 import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
@@ -379,21 +380,75 @@ public class ClassBridge {
 		}
 		try {
 			JDefinedClass cl = pck._class(name.replaceAll("_ok", ""));
-			// if (createdClass != null) {
-			// cl._extends(createdClass);
-			// } else {
 			for (Entry<String, Property> e : p.getProperties().entrySet()) {
 				Property prop = e.getValue();
 				JFieldVar field = cl.field(JMod.PUBLIC,
 						translateToClass(prop, pck, structureRenames.getOrDefault(prop.getTitle(), prop.getTitle())), e.getKey());
 				field.javadoc().add(prop.getDescription());
 			}
+			createEquals(cl);
+			createHashCode(cl);
 			createdClasses.put(classDef, cl);
-			// }
 			return cl;
 		} catch (JClassAlreadyExistsException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
+	}
+
+	protected void createEquals(JDefinedClass cl) {
+
+		JMethod eqmeth = cl.method(JMod.PUBLIC, cm.BOOLEAN, "equals");
+		JVar eqOther = eqmeth.param(cm.ref(Object.class), "other");
+		eqmeth.annotate(Override.class);
+		// if(other==this) return true;
+		eqmeth.body()._if(eqOther.eq(JExpr._this()))._then()._return(JExpr.TRUE);
+		// if (other==null || other.getClass!=getClass()) return false;
+		eqmeth.body()._if(eqOther.eqNull().cor(eqOther.invoke("getClass").ne(JExpr.invoke("getClass"))))._then()
+		._return(JExpr.FALSE);
+		JVar eqOtherSame = eqmeth.body().decl(cl, "othersame").init(JExpr.cast(cl, eqOther));
+
+		for (JFieldVar field : cl.fields().values()) {
+			JFieldRef otherfield = eqOtherSame.ref(field);
+			if (field.type().isPrimitive()) {
+				eqmeth.body()._if(field.ne(otherfield))._then()._return(JExpr.FALSE);
+			} else {
+				eqmeth.body()._if(
+						// field!=otherfield
+						field.ne(otherfield)
+						// && field==null
+						.cand(field.eqNull()
+								// || !field.equals(otherfield)
+								.cor(field.invoke("equals").arg(otherfield).not())))
+				._then()._return(JExpr.FALSE);
+			}
+		}
+
+		eqmeth.body()._return(JExpr.TRUE);
+	}
+
+	protected void createHashCode(JDefinedClass cl) {
+		JMethod hashmeth = cl.method(JMod.PUBLIC, cm.INT, "hashCode");
+		IJExpression ret = null;
+		for (JFieldVar field : cl.fields().values()) {
+			IJExpression newret = null;
+			if (field.type().isPrimitive()) {
+				newret = field;
+				if (field.type() == cm.DOUBLE || field.type() == cm.FLOAT) {
+					// Double.hashCode(field)
+					newret = cm.ref(Double.class).staticInvoke("hashCode").arg(field);
+				} else {
+					if (field.type() == cm.BOOLEAN) {
+						newret = cm.ref(Boolean.class).staticInvoke("hashCode").arg(field);
+					} else if (field.type() == cm.LONG) {
+						newret = cm.ref(Long.class).staticInvoke("hashCode").arg(field);
+					}
+				}
+			} else {
+				newret = JExpr.cond(field.eqNull(), JExpr.lit(0), field.invoke("hashCode"));
+			}
+			ret = ret == null ? newret : ret.plus(newret);
+		}
+		hashmeth.body()._return(ret);
 	}
 
 	protected AbstractJClass translateToClass(ArrayProperty p, JPackage pck, String name) {
@@ -424,7 +479,6 @@ public class ClassBridge {
 	public JDefinedClass cacheClass(boolean connected) {
 		return connected ? cacheCOClass : cacheDCClass;
 	}
-
 
 	public String methFetchCacheObject() {
 		return "addFetchCacheObject";
@@ -458,7 +512,6 @@ public class ClassBridge {
 		cachecons = cacheDCClass.constructor(JMod.PUBLIC);
 		swag = cachecons.param(cacheDCParam, "swag");
 		cachecons.body().assign(cacheParent, swag);
-
 
 	}
 
@@ -522,42 +575,15 @@ public class ClassBridge {
 
 						JMethod methcons = ret.constructor(JMod.PUBLIC);
 
-						JMethod methEq = ret.method(JMod.PUBLIC, cm.BOOLEAN, "equals");
-						JVar methOther = methEq.param(cm.ref(Object.class), "other");
-						// if o==this reutrn true;
-						methEq.body()._if(methOther.eq(JExpr._this()))._then()._return(JExpr.TRUE);
-						// if o==null || o.getclass!=this.getClass return false;
-						methEq.body()._if(methOther.eqNull().cor(methOther.invoke("getClass").ne(JExpr._this().invoke("getClass"))))
-						._then()._return(JExpr.FALSE);
-						methOther = methEq.body().decl(ret, "other2").init(JExpr.cast(ret, methOther));
-						IJExpression testeq = null;
-
-						JMethod methHashCode = ret.method(JMod.PUBLIC, cm.INT, "hashCode");
-						IJExpression retHashCode = JExpr.lit(0);
-
 						for (Entry<String, AbstractJType> e : map.entrySet()) {
-							JFieldVar field = ret.field(JMod.PUBLIC|JMod.FINAL, e.getValue(), e.getKey());
+							JFieldVar field = ret.field(JMod.PUBLIC | JMod.FINAL, e.getValue(), e.getKey());
 
 							JVar consParam = methcons.param(e.getValue(), e.getKey());
 							methcons.body().assign(JExpr.refthis(field), consParam);
-
-							IJExpression addedtest = null;
-							// test field==other.field
-							addedtest = field.eq(methOther.ref(field));
-							if (!e.getValue().isPrimitive()) {
-								IJExpression objectTest = field.neNull().cand(field.invoke("equals").arg(methOther.ref(field)));
-								// test field==other.field || field!=null &&
-								// field.equals(other.field)
-								addedtest = addedtest.cor(objectTest);
-							}
-							testeq=testeq==null? addedtest:testeq.cand(addedtest);
-
-							retHashCode = retHashCode.plus(e.getValue().isPrimitive() ? field
-									: JExpr.cond(field.eqNull(), JExpr.lit(0), field.invoke("hashCode")));
 						}
 
-						methEq.body()._return(testeq);
-						methHashCode.body()._return(JExpr.cast(cm.INT, retHashCode));
+						createEquals(ret);
+						createHashCode(ret);
 
 						existingKeyTypes.put(map, ret);
 					} catch (JClassAlreadyExistsException e) {

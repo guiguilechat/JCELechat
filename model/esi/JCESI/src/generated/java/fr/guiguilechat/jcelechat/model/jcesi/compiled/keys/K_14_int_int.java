@@ -14,18 +14,25 @@ public class K_14_int_int {
         this.region_id = region_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_14_int_int other2 = ((K_14_int_int) other);
-        return ((type_id == other2 .type_id)&&(region_id == other2 .region_id));
+        K_14_int_int othersame = ((K_14_int_int) other);
+        if (type_id!= othersame.type_id) {
+            return false;
+        }
+        if (region_id!= othersame.region_id) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)((0 + type_id)+ region_id));
+        return (type_id + region_id);
     }
 }

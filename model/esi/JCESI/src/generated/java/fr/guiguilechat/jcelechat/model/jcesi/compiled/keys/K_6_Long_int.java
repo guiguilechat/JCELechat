@@ -14,18 +14,25 @@ public class K_6_Long_int {
         this.character_id = character_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_6_Long_int other2 = ((K_6_Long_int) other);
-        return (((from_id == other2 .from_id)||((from_id!= null)&&from_id.equals(other2 .from_id)))&&(character_id == other2 .character_id));
+        K_6_Long_int othersame = ((K_6_Long_int) other);
+        if ((from_id!= othersame.from_id)&&((from_id == null)||(!from_id.equals(othersame.from_id)))) {
+            return false;
+        }
+        if (character_id!= othersame.character_id) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)((0 +((from_id == null)? 0 :from_id.hashCode()))+ character_id));
+        return (((from_id == null)? 0 :from_id.hashCode())+ character_id);
     }
 }

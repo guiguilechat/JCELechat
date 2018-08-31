@@ -16,18 +16,28 @@ public class K_10_int_long_int {
         this.system_id = system_id;
     }
 
+    @Override
     public boolean equals(Object other) {
         if (other == this) {
             return true;
         }
-        if ((other == null)||(other.getClass()!= this.getClass())) {
+        if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        K_10_int_long_int other2 = ((K_10_int_long_int) other);
-        return (((corporation_id == other2 .corporation_id)&&(starbase_id == other2 .starbase_id))&&(system_id == other2 .system_id));
+        K_10_int_long_int othersame = ((K_10_int_long_int) other);
+        if (corporation_id!= othersame.corporation_id) {
+            return false;
+        }
+        if (starbase_id!= othersame.starbase_id) {
+            return false;
+        }
+        if (system_id!= othersame.system_id) {
+            return false;
+        }
+        return true;
     }
 
     public int hashCode() {
-        return ((int)(((0 + corporation_id)+ starbase_id)+ system_id));
+        return ((corporation_id + Long.hashCode(starbase_id))+ system_id);
     }
 }

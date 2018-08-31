@@ -17,4 +17,32 @@ public class R_get_corporations_corporation_id_alliancehistory {
      * start_date string
      */
     public String start_date;
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == this) {
+            return true;
+        }
+        if ((other == null)||(other.getClass()!= getClass())) {
+            return false;
+        }
+        R_get_corporations_corporation_id_alliancehistory othersame = ((R_get_corporations_corporation_id_alliancehistory) other);
+        if (alliance_id!= othersame.alliance_id) {
+            return false;
+        }
+        if (is_deleted!= othersame.is_deleted) {
+            return false;
+        }
+        if (record_id!= othersame.record_id) {
+            return false;
+        }
+        if ((start_date!= othersame.start_date)&&((start_date == null)||(!start_date.equals(othersame.start_date)))) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return (((alliance_id + Boolean.hashCode(is_deleted))+ record_id)+((start_date == null)? 0 :start_date.hashCode()));
+    }
 }
