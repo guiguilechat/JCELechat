@@ -32,6 +32,7 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
+import javafx.scene.Cursor;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
@@ -43,6 +44,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.StackPane;
 
 public class MoonWorthController {
 
@@ -168,8 +170,8 @@ public class MoonWorthController {
 			TextField reproc = new TextField("0.5");
 			reproc.setMinHeight(20);
 			reproc.setMaxHeight(25);
+			reproc.setMinWidth(40);
 			// lbl.setMinWidth(120);
-			// reproc.setMaxWidth(40);
 			DoubleProperty prop = JFXTools.convertDouble(reproc.textProperty(), d -> d >= 0);
 			matReprocess.put(mat, prop);
 			optionsPane.addRow(row, lbl, reproc);
@@ -182,6 +184,8 @@ public class MoonWorthController {
 		yAxis.setLabel("isk (M)");
 		moonchart = new LineChart<>(xAxis, yAxis);
 		pane.setCenter(moonchart);
+		moonchart.setLegendVisible(false);
+		moonchart.getStyleClass().add("thick-chart");
 
 		new Thread(this::load).start();
 		regionSelect.getSelectionModel().select(Region.getRegion("TheForge"));
@@ -329,7 +333,9 @@ public class MoonWorthController {
 				double isk = totalIsk.get();
 				// System.err.println("added " + e.getKey() + "\t" + volume + "\t" +
 				// isk + "\t" + entry.getKey());
-				series.getData().add(new Data<>(volume, isk / 1000000));
+				Data<Number, Number> added = new Data<>(volume, isk / 1000000);
+				added.setNode(new HoveredThresholdNode(e.getKey(), isk));
+				series.getData().add(added);
 			});
 		});
 		int limit = datalimitProperty.get();
@@ -343,6 +349,28 @@ public class MoonWorthController {
 					moonchart.getData().add(e.getKey());
 				}
 			}
+		}
+	}
+
+	/** a node which displays a value on hover, but is otherwise empty */
+	class HoveredThresholdNode extends StackPane {
+		HoveredThresholdNode(String seriesName, double value) {
+			setPrefSize(10, 10);
+
+			final Label label = new Label(seriesName + " " + JFXTools.formatPrice(value));
+			label.getStyleClass().addAll("chart-line-symbol", "chart-series-line");
+			label.setStyle("-fx-font-size: 10; -fx-font-weight: bold;");
+			label.setMinWidth(200);
+
+			setOnMouseEntered(mouseEvent -> {
+				getChildren().setAll(label);
+				setCursor(Cursor.NONE);
+				toFront();
+			});
+			setOnMouseExited(mouseEvent -> {
+				getChildren().clear();
+				setCursor(Cursor.CROSSHAIR);
+			});
 		}
 	}
 

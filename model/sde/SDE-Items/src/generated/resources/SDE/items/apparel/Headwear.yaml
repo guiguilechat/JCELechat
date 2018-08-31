@@ -305,17 +305,17 @@ items:
     marketGroup: 1943
     name: Women's ‘Defender’ Beret (Gallente Federation)
     volume: 0.1
-  Women's ‘Liberator’ Beret (Minmatar Republic):
-    Gender: 3
-    id: 42738
-    marketGroup: 1943
-    name: Women's ‘Liberator’ Beret (Minmatar Republic)
-    volume: 0.1
   Women's ‘Liberator’ Cap (Minmatar Republic):
     Gender: 2
     id: 42715
     marketGroup: 1943
     name: Women's ‘Liberator’ Cap (Minmatar Republic)
+    volume: 0.1
+  Women's ‘Liberator��� Beret (Minmatar Republic):
+    Gender: 3
+    id: 42738
+    marketGroup: 1943
+    name: Women's ‘Liberator��� Beret (Minmatar Republic)
     volume: 0.1
   Women's ‘Protector’ Beret (Caldari State):
     Gender: 3
