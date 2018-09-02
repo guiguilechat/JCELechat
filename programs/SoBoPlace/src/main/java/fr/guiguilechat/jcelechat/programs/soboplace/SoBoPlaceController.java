@@ -5,6 +5,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarke
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.tools.PriceCellFactory;
+import javafx.animation.PauseTransition;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.property.DoubleProperty;
@@ -19,6 +20,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.util.Duration;
 import javafx.util.StringConverter;
 
 public class SoBoPlaceController {
@@ -75,6 +77,8 @@ public class SoBoPlaceController {
 		itemWeekGain.setCellFactory(PriceCellFactory::create);
 
 		table.setItems(FXCollections.observableArrayList());
+		table.getSortOrder().add(itemDayGain);
+		table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
 
 		new Thread(this::load).start();
 		regionSelect.getSelectionModel().select(Region.getRegion("TheForge"));
@@ -85,6 +89,14 @@ public class SoBoPlaceController {
 		fr.guiguilechat.jcelechat.model.sde.items.types.Module.METACAT.load().values().stream()
 		.filter(a -> a.marketGroup != 0)
 		.forEachOrdered(table.getItems()::add);
+		sortLater();
+	}
+
+	PauseTransition pause = new PauseTransition(Duration.seconds(1));
+
+	protected void sortLater() {
+		pause.setOnFinished(event -> table.sort());
+		pause.playFromStart();
 	}
 
 	protected void changeRegion(ObservableValue<? extends Region> observable, Region oldValue, Region newValue) {

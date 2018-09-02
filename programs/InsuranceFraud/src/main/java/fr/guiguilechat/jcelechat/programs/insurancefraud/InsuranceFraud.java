@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.oreworth;
+package fr.guiguilechat.jcelechat.programs.insurancefraud;
 
 import java.net.URL;
 
@@ -8,13 +8,14 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-public class OreWorth extends Application {
+public class InsuranceFraud extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		URL murl = getClass().getResource(getClass().getSimpleName() + ".fxml");
 		BorderPane root = FXMLLoader.load(murl);
 		Scene scene = new Scene(root);
+		primaryStage.setTitle(getClass().getSimpleName());
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}

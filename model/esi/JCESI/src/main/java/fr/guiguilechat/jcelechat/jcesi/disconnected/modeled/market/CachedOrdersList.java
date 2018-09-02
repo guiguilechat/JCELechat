@@ -120,6 +120,9 @@ public class CachedOrdersList {
 							ObservableList<R_get_markets_region_id_orders> orders = buy ? listBuyOrders() : listSellOrders();
 							synchronized (orders) {
 								for (R_get_markets_region_id_orders r : orders) {
+									if (r.min_volume != 1) {
+										continue;
+									}
 									int qtty = Math.min(qttyremain, r.volume_remain);
 									sumCost += qtty * r.price;
 									qttyremain -= qtty;

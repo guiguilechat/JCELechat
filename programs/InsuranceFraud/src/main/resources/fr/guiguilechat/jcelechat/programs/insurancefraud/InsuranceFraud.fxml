@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:id="pane" prefHeight="1000.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.guiguilechat.jcelechat.programs.insurancefraud.InsuranceFraudController">
+   <center>
+      <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="tableNames" prefWidth="75.0" text="name" />
+          <TableColumn fx:id="tableInsGain" prefWidth="136.0" text="insurance gain" />
+            <TableColumn fx:id="tableProdTax" prefWidth="75.0" text="prodTax" />
+            <TableColumn fx:id="tableVolOre" prefWidth="75.0" text="ore vol" />
+            <TableColumn fx:id="tableIskPH" prefWidth="75.0" text="isk/h" />
+            <TableColumn fx:id="tableTechLevel" prefWidth="75.0" text="tech" />
+            <TableColumn fx:id="tableMetaLevel" prefWidth="75.0" text="meta" />
+        </columns>
+      </TableView>
+   </center>
+   <top>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="mat mult" />
+            <TextField fx:id="optMatMult" maxWidth="60.0" promptText="multiplier of cost based on bpo , structure and rig" text="0.9" />
+            <Label text="  " />
+            <Label text="tax mult" />
+            <TextField fx:id="optCostMult" maxWidth="60.0" promptText="multiplication of eif. typically cost index/100" text="0.01" />
+            <Label text="  " />
+            <Label text="m3/s" />
+            <TextField fx:id="optYield" maxWidth="60.0" promptText="m³/s" text="200" />
+            <Label text="  " />
+            <Label text="reproc" />
+            <TextField fx:id="optReproc" maxWidth="60.0" text="0.867" />
+            <Button fx:id="compute" mnemonicParsing="false" text="compute" />
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

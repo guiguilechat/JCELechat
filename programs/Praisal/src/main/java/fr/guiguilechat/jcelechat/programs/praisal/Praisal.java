@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.praisal;
 
+import java.net.URL;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,7 +12,8 @@ public class Praisal extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		BorderPane root = FXMLLoader.load(getClass().getResource("Praisal.fxml"));
+		URL murl = getClass().getResource(getClass().getSimpleName() + ".fxml");
+		BorderPane root = FXMLLoader.load(murl);
 		Scene scene = new Scene(root);
 		primaryStage.setScene(scene);
 		primaryStage.show();
