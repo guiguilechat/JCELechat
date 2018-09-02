@@ -4944,7 +4944,7 @@ usages:
     materialManuf: !!set
       Abaddon Tash-Murkon Edition Blueprint: null
       Abaddon Kador Edition Blueprint: null
-      地��天使级YC117年特别版蓝图: null
+      地狱天使级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Abaddon Blueprint: null
@@ -7480,7 +7480,7 @@ usages:
       Apocalypse Blood Raider Edition Blueprint: null
       Apocalypse Kador Edition Blueprint: null
       Apocalypse Tash-Murkon Edition Blueprint: null
-      灾难级YC117年特别版蓝图: null
+      ��难级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Apocalypse Blueprint: null
@@ -7940,7 +7940,7 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末日沙场级YC117年特���版蓝图: null
+      末日沙场级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Armageddon Blueprint: null
@@ -108519,7 +108519,7 @@ usages:
       Zydrine: 1202
       Crystalline Isogen-10: 435
       Megacyte: 356
-  ‘Cold Wind’ Kinetic Reaper:
+  ‘Cold Wind�� Kinetic Reaper:
     maxreprocess: 0.55
     productManuf: !!set
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -108579,18 +108579,6 @@ usages:
       Nocxium: 353314
       Zydrine: 43638
       Megacyte: 48181
-  ‘Iron Pike’ Kinetic Lance:
-    maxreprocess: 0.55
-    productManuf: !!set
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
-    reprocess:
-      Tritanium: 1809763
-      Pyerite: 1323826
-      Mexallon: 440610
-      Isogen: 274116
-      Nocxium: 335112
-      Zydrine: 42931
-      Megacyte: 46295
   ‘Jormungandr’ Explosive Reaper:
     maxreprocess: 0.55
     productManuf: !!set
@@ -108646,13 +108634,13 @@ usages:
       乌鸦级YC117年特别版蓝图: null
     reprocess:
       Raven: 1
-  伊什塔级YC117年特别版:
+  伊什塔级YC117年���别版:
     maxreprocess: 0.55
     productManuf: !!set
       伊什塔级YC117年特别版蓝图: null
     reprocess:
       Ishtar: 1
-  响尾蛇级YC117年特别版:
+  响尾蛇级YC117年特��版:
     maxreprocess: 0.55
     productManuf: !!set
       响尾蛇级YC117年特别版蓝图: null
@@ -108661,7 +108649,7 @@ usages:
   地狱天使级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      地��天使级YC117年特别版蓝图: null
+      地狱天使级YC117年特别版蓝图: null
     reprocess:
       Abaddon: 1
   多米尼克斯级YC117年特别版:
@@ -108676,10 +108664,10 @@ usages:
       幼龙级YC117年特别版蓝图: null
     reprocess:
       Drake: 1
-  末日沙场级YC117年特别版:
+  末��沙场级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      末日沙场级YC117年特���版蓝图: null
+      末日沙场级YC117年特别版蓝图: null
     reprocess:
       Armageddon: 1
   毒蜥级YC117年特别版:
@@ -108691,7 +108679,7 @@ usages:
   灾难级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      灾难级YC117年特别版蓝图: null
+      ��难级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
   银鹰级YC117年特别版:
@@ -108706,3 +108694,15 @@ usages:
       马克瑞级YC117年特别版蓝图: null
     reprocess:
       Machariel: 1
+  ���Iron Pike’ Kinetic Lance:
+    maxreprocess: 0.55
+    productManuf: !!set
+      ‘Iron Pike’ Kinetic Lance Blueprint: null
+    reprocess:
+      Tritanium: 1809763
+      Pyerite: 1323826
+      Mexallon: 440610
+      Isogen: 274116
+      Nocxium: 335112
+      Zydrine: 42931
+      Megacyte: 46295
