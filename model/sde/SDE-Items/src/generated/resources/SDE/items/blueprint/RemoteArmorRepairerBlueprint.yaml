@@ -5,23 +5,11 @@ items:
     id: 22948
     name: '''Beatnik'' Small Remote Armor Repairer Blueprint'
     volume: 0.01
-  '''Brotherhood'' Small Remote Armor Repairer Blueprint':
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 23415
-    name: '''Brotherhood'' Small Remote Armor Repairer Blueprint'
-    volume: 0.01
   '''Love'' Medium Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 22950
     name: '''Love'' Medium Remote Armor Repairer Blueprint'
-    volume: 0.01
-  '''Pacifier'' Large Remote Armor Repairer Blueprint':
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 22952
-    name: '''Pacifier'' Large Remote Armor Repairer Blueprint'
     volume: 0.01
   '''Peace'' Large Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 9.0

@@ -357,3 +357,10 @@ items:
     id: 2437
     name: Wasp II Blueprint
     volume: 0.01
+  unnamed_g176_ic0:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1
+    id: 48745
+    marketGroup: 1532
+    name: unnamed_g176_ic0
+    volume: 0.01

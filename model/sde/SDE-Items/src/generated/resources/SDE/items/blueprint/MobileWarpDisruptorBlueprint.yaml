@@ -1,10 +1,4 @@
 items:
-  Mobile Large Jump Disruptor I Blueprint:
-    IndustryBlueprintRank: 15.0
-    TechLevel: 1
-    id: 4387
-    name: Mobile Large Jump Disruptor I Blueprint
-    volume: 0.01
   Mobile Large Warp Disruptor I Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 1

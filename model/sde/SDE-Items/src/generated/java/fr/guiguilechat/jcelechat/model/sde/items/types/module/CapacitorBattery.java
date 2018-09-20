@@ -34,7 +34,7 @@ public class CapacitorBattery
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int EnergyWarfareResistanceBonus;

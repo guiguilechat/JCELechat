@@ -83,18 +83,6 @@ items:
     id: 17635
     name: Caracal Navy Issue Blueprint
     volume: 0.01
-  Caracal Nugoeihuvi Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 33644
-    name: Caracal Nugoeihuvi Edition Blueprint
-    volume: 0.01
-  Caracal Wiyrkomi Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 33646
-    name: Caracal Wiyrkomi Edition Blueprint
-    volume: 0.01
   Celestis Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
@@ -289,24 +277,12 @@ items:
     marketGroup: 274
     name: Omen Blueprint
     volume: 0.01
-  Omen Kador Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 33640
-    name: Omen Kador Edition Blueprint
-    volume: 0.01
   Omen Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17710
     name: Omen Navy Issue Blueprint
-    volume: 0.01
-  Omen Tash-Murkon Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 33642
-    name: Omen Tash-Murkon Edition Blueprint
     volume: 0.01
   Oneiros Blueprint:
     IndustryBlueprintRank: 800.0
@@ -443,18 +419,6 @@ items:
     id: 17714
     name: Stabber Fleet Issue Blueprint
     volume: 0.01
-  Stabber Krusual Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 33650
-    name: Stabber Krusual Edition Blueprint
-    volume: 0.01
-  Stabber Nefantar Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 33648
-    name: Stabber Nefantar Edition Blueprint
-    volume: 0.01
   Stratios Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
@@ -469,12 +433,6 @@ items:
     id: 33554
     name: Stratios Emergency Responder Blueprint
     volume: 0.01
-  Thorax Aliastra Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 33652
-    name: Thorax Aliastra Edition Blueprint
-    volume: 0.01
   Thorax Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
@@ -483,11 +441,11 @@ items:
     marketGroup: 276
     name: Thorax Blueprint
     volume: 0.01
-  Thorax Inner Zone Shipping Edition Blueprint:
-    IndustryBlueprintRank: 40.0
+  Tiamat Blueprint:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
-    id: 33654
-    name: Thorax Inner Zone Shipping Edition Blueprint
+    id: 48637
+    name: Tiamat Blueprint
     volume: 0.01
   Vagabond Blueprint:
     IndustryBlueprintRank: 800.0
@@ -525,11 +483,6 @@ items:
     id: 17844
     name: Vexor Navy Issue Blueprint
     volume: 0.01
-  Vexor Quafe Edition Blueprint:
-    TechLevel: 1
-    id: 34446
-    name: Vexor Quafe Edition Blueprint
-    volume: 0.01
   Victor Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
@@ -558,21 +511,15 @@ items:
     marketGroup: 454
     name: Zealot Blueprint
     volume: 0.01
-  unnamed_g106_ic0:
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 48637
-    name: unnamed_g106_ic0
-    volume: 0.01
   伊什塔级YC117年特别版蓝图:
     TechLevel: 1
     id: 34480
     name: 伊什塔级YC117年特别版蓝图
     volume: 0.01
-  毒蜥级YC117年特别版蓝图:
+  毒蜥级YC117年特��版蓝图:
     TechLevel: 1
     id: 34476
-    name: 毒蜥级YC117年特别版蓝图
+    name: 毒蜥级YC117年特��版蓝图
     volume: 0.01
   银鹰级YC117年特别版蓝图:
     TechLevel: 1

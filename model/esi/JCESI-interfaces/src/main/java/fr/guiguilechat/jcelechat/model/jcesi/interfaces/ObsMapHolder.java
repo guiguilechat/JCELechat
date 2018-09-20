@@ -37,7 +37,7 @@ public interface ObsMapHolder<U, V> {
 	/**
 	 * called by the data fetcher when data has been received. This has use only
 	 * when the data received is empty, otherwise the put() methods should already
-	 * call this mthod
+	 * call this method
 	 */
 	void dataReceived();
 

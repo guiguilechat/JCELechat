@@ -200,7 +200,7 @@ public class BlockadeRunner
     @DefaultIntValue(5)
     public int ShipBonusMI;
     /**
-     * How many upgrades can by fitted to this ship.
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)

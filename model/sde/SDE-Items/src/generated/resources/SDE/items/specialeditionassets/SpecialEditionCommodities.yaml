@@ -35,6 +35,12 @@ items:
     marketGroup: 1661
     name: A Letter Of Complaint
     volume: 3.0
+  A Pile of Logs:
+    CpuMultiplier: 1.0
+    id: 48749
+    marketGroup: 1661
+    name: A Pile of Logs
+    volume: 1.0
   A Stolen Voting Pebble:
     CpuMultiplier: 1.0
     id: 47045
@@ -139,6 +145,12 @@ items:
     marketGroup: 1661
     name: CONCORD Speeding Ticket
     volume: 3.0
+  CONCORD Universal Translator:
+    CpuMultiplier: 1.0
+    id: 48754
+    marketGroup: 1661
+    name: CONCORD Universal Translator
+    volume: 1.0
   'CSM 1 Electee Archive Script ':
     CpuMultiplier: 1.0
     id: 34769
@@ -265,6 +277,18 @@ items:
     marketGroup: 1661
     name: Counterfeit Dominix Model
     volume: 0.01
+  Crunch Fuel:
+    CpuMultiplier: 1.0
+    id: 48755
+    marketGroup: 1661
+    name: Crunch Fuel
+    volume: 1.0
+  DO NOT TRANSLATE - Unused Crate:
+    CpuMultiplier: 1.0
+    id: 48645
+    marketGroup: 1661
+    name: DO NOT TRANSLATE - Unused Crate
+    volume: 100.0
   Damaged Ancient PEG:
     CpuMultiplier: 1.0
     id: 47053
@@ -295,6 +319,18 @@ items:
     marketGroup: 1661
     name: Deactivated Station Key Pass
     volume: 0.01
+  Decomissioned ERIC Prototype:
+    CpuMultiplier: 1.0
+    id: 48758
+    marketGroup: 1661
+    name: Decomissioned ERIC Prototype
+    volume: 1.0
+  Defunct Name Change Token:
+    CpuMultiplier: 1.0
+    id: 48760
+    marketGroup: 1661
+    name: Defunct Name Change Token
+    volume: 1.0
   Delve Yoiul Calendar:
     CpuMultiplier: 1.0
     id: 47043
@@ -313,6 +349,18 @@ items:
     marketGroup: 1661
     name: Donut Holder
     volume: 0.01
+  Dried Moss:
+    CpuMultiplier: 1.0
+    id: 48756
+    marketGroup: 1661
+    name: Dried Moss
+    volume: 1.0
+  Dropsuit Fragment:
+    CpuMultiplier: 1.0
+    id: 48757
+    marketGroup: 1661
+    name: Dropsuit Fragment
+    volume: 1.0
   Empire Civilian Container:
     CpuMultiplier: 1.0
     id: 43640
@@ -325,6 +373,12 @@ items:
     marketGroup: 1661
     name: Exoplanets Hunter Reward Crate
     volume: 6000.0
+  Experimental Mutaplasmid Repository:
+    CpuMultiplier: 1.0
+    id: 48642
+    marketGroup: 1661
+    name: Experimental Mutaplasmid Repository
+    volume: 100.0
   Feawen's Approval Documentation:
     CpuMultiplier: 1.0
     id: 37884
@@ -481,6 +535,12 @@ items:
     marketGroup: 1661
     name: Intaki Spiced Tea
     volume: 1.0
+  Internal Policies:
+    CpuMultiplier: 1.0
+    id: 48752
+    marketGroup: 1661
+    name: Internal Policies
+    volume: 1.0
   Jezaja’s Giant Secure Container:
     CpuMultiplier: 1.0
     id: 44205
@@ -631,6 +691,12 @@ items:
     marketGroup: 1661
     name: New Eden Source
     volume: 0.01
+  Offensive Content Reports, Jan. YC120, vol. I:
+    CpuMultiplier: 1.0
+    id: 48759
+    marketGroup: 1661
+    name: Offensive Content Reports, Jan. YC120, vol. I
+    volume: 1.0
   Polaris Eviction Notice:
     CpuMultiplier: 1.0
     id: 34427
@@ -685,6 +751,12 @@ items:
     marketGroup: 1661
     name: 'Public Portrait: How To'
     volume: 0.01
+  'Query: Spaghetti or Chicken Sandwich?':
+    CpuMultiplier: 1.0
+    id: 48748
+    marketGroup: 1661
+    name: 'Query: Spaghetti or Chicken Sandwich?'
+    volume: 1.0
   Raata Wind Chimes:
     CpuMultiplier: 1.0
     id: 48141
@@ -758,6 +830,12 @@ items:
     marketGroup: 1661
     name: Republic Justice Department Silver Reward
     volume: 10000.0
+  Retired Server Hamster:
+    CpuMultiplier: 1.0
+    id: 48750
+    marketGroup: 1661
+    name: Retired Server Hamster
+    volume: 1.0
   Rooks & Kings – The Clarion Call Compilation:
     CpuMultiplier: 1.0
     id: 34422
@@ -907,6 +985,12 @@ items:
     marketGroup: 1661
     name: The Mini Monolith
     volume: 500.0
+  The Policy Enforcer:
+    CpuMultiplier: 1.0
+    id: 48753
+    marketGroup: 1661
+    name: The Policy Enforcer
+    volume: 1.0
   Titanium Plated Cranial Shielding:
     CpuMultiplier: 1.0
     id: 34424
@@ -961,6 +1045,12 @@ items:
     marketGroup: 1661
     name: Vintage Frigate Blueprints
     volume: 0.01
+  Well-Worn Fedora:
+    CpuMultiplier: 1.0
+    id: 48751
+    marketGroup: 1661
+    name: Well-Worn Fedora
+    volume: 1.0
   XV Anniversary Gift Box (Alpha):
     CpuMultiplier: 1.0
     id: 47962
@@ -1051,93 +1141,9 @@ items:
     marketGroup: 1661
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     volume: 3.0
-  unnamed_g1194_ic10151:
+  unnamed_g1194_ic21900:
     CpuMultiplier: 1.0
-    id: 48758
-    marketGroup: 1661
-    name: unnamed_g1194_ic10151
-    volume: 1.0
-  unnamed_g1194_ic10158:
-    CpuMultiplier: 1.0
-    id: 48754
-    marketGroup: 1661
-    name: unnamed_g1194_ic10158
-    volume: 1.0
-  unnamed_g1194_ic10160:
-    CpuMultiplier: 1.0
-    id: 48750
-    marketGroup: 1661
-    name: unnamed_g1194_ic10160
-    volume: 1.0
-  unnamed_g1194_ic10190:
-    CpuMultiplier: 1.0
-    id: 48751
-    marketGroup: 1661
-    name: unnamed_g1194_ic10190
-    volume: 1.0
-  unnamed_g1194_ic10831:
-    CpuMultiplier: 1.0
-    id: 48760
-    marketGroup: 1661
-    name: unnamed_g1194_ic10831
-    volume: 1.0
-  unnamed_g1194_ic10851:
-    CpuMultiplier: 1.0
-    id: 48757
-    marketGroup: 1661
-    name: unnamed_g1194_ic10851
-    volume: 1.0
-  unnamed_g1194_ic1181:
-    CpuMultiplier: 1.0
-    id: 48752
-    marketGroup: 1661
-    name: unnamed_g1194_ic1181
-    volume: 1.0
-  unnamed_g1194_ic21742:
-    CpuMultiplier: 1.0
-    id: 48642
-    marketGroup: 1661
-    name: unnamed_g1194_ic21742
-    volume: 100.0
-  unnamed_g1194_ic21844:
-    CpuMultiplier: 1.0
-    id: 48759
-    marketGroup: 1661
-    name: unnamed_g1194_ic21844
-    volume: 1.0
-  unnamed_g1194_ic21898:
-    CpuMultiplier: 1.0
-    id: 48645
-    marketGroup: 1661
-    name: unnamed_g1194_ic21898
-    volume: 100.0
-  unnamed_g1194_ic22042:
-    CpuMultiplier: 1.0
-    id: 48749
-    marketGroup: 1661
-    name: unnamed_g1194_ic22042
-    volume: 1.0
-  unnamed_g1194_ic2886:
-    CpuMultiplier: 1.0
-    id: 48748
-    marketGroup: 1661
-    name: unnamed_g1194_ic2886
-    volume: 1.0
-  unnamed_g1194_ic3233:
-    CpuMultiplier: 1.0
-    id: 48753
-    marketGroup: 1661
-    name: unnamed_g1194_ic3233
-    volume: 1.0
-  unnamed_g1194_ic3438:
-    CpuMultiplier: 1.0
-    id: 48756
-    marketGroup: 1661
-    name: unnamed_g1194_ic3438
-    volume: 1.0
-  unnamed_g1194_ic3447:
-    CpuMultiplier: 1.0
-    id: 48755
-    marketGroup: 1661
-    name: unnamed_g1194_ic3447
-    volume: 1.0
+    id: 48928
+    marketGroup: 2487
+    name: unnamed_g1194_ic21900
+    volume: 4.0

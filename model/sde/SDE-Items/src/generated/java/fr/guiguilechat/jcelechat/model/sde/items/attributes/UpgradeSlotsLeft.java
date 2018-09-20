@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 
 
 /**
- * How many upgrades can by fitted to this ship.
+ * How many rigs can by fitted to this ship.
  */
 public class UpgradeSlotsLeft
     extends IntAttribute
@@ -18,7 +18,7 @@ public class UpgradeSlotsLeft
 
     @Override
     public int getCatId() {
-        return  7;
+        return  1;
     }
 
     @Override

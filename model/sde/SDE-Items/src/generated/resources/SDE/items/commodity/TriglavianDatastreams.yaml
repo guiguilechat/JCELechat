@@ -1,0 +1,61 @@
+items:
+  Triglavian Trinary Datastream AEA1:
+    id: 48764
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream AEA1
+    volume: 0.1
+  Triglavian Trinary Datastream AEA2:
+    id: 48765
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream AEA2
+    volume: 0.1
+  Triglavian Trinary Datastream AEA3:
+    id: 48777
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream AEA3
+    volume: 0.1
+  Triglavian Trinary Datastream AFN1:
+    id: 48778
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream AFN1
+    volume: 0.1
+  Triglavian Trinary Datastream AFN2:
+    id: 48774
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream AFN2
+    volume: 0.1
+  Triglavian Trinary Datastream AFN3:
+    id: 48775
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream AFN3
+    volume: 0.1
+  Triglavian Trinary Datastream DAV1:
+    id: 48767
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream DAV1
+    volume: 0.1
+  Triglavian Trinary Datastream DAV2:
+    id: 48768
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream DAV2
+    volume: 0.1
+  Triglavian Trinary Datastream DAV3:
+    id: 48769
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream DAV3
+    volume: 0.1
+  Triglavian Trinary Datastream HFN1:
+    id: 48770
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream HFN1
+    volume: 0.1
+  Triglavian Trinary Datastream HFN2:
+    id: 48771
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream HFN2
+    volume: 0.1
+  Triglavian Trinary Datastream HFN3:
+    id: 48772
+    marketGroup: 2480
+    name: Triglavian Trinary Datastream HFN3
+    volume: 0.1

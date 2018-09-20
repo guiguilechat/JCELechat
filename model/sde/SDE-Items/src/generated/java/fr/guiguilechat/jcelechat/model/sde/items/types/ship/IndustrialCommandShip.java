@@ -263,7 +263,7 @@ public class IndustrialCommandShip
     @DefaultIntValue(0)
     public int SpecialOreHoldCapacity;
     /**
-     * How many upgrades can by fitted to this ship.
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)

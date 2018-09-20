@@ -8,7 +8,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
-import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Blueprint;
@@ -24,13 +23,6 @@ public class CapitalIndustrialShipBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    /**
-     * Multiplies the job cost for this blueprint type by the specified value
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int IndustryJobCostMultiplier;
     public final static CapitalIndustrialShipBlueprint.MetaGroup METAGROUP = new CapitalIndustrialShipBlueprint.MetaGroup();
 
     @Override
@@ -39,10 +31,6 @@ public class CapitalIndustrialShipBlueprint
             case  1955 :
             {
                 return IndustryBlueprintRank;
-            }
-            case  1954 :
-            {
-                return IndustryJobCostMultiplier;
             }
             default:
             {

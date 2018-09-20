@@ -221,7 +221,7 @@ public class Interdictor
     @DefaultIntValue(0)
     public int ShipBonusMD2;
     /**
-     * How many upgrades can by fitted to this ship.
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)

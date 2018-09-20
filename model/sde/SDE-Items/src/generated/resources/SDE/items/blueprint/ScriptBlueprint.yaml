@@ -87,11 +87,6 @@ items:
     marketGroup: 1105
     name: Scan Resolution Script Blueprint
     volume: 0.01
-  Shield Booster Fuel Allocation Script Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 4408
-    name: Shield Booster Fuel Allocation Script Blueprint
-    volume: 0.01
   Shield EM Resistance Script Blueprint:
     id: 41594
     marketGroup: 1105

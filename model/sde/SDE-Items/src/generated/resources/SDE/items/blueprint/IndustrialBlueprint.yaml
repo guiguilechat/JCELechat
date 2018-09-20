@@ -13,11 +13,6 @@ items:
     marketGroup: 285
     name: Bestower Blueprint
     volume: 0.01
-  Bestower Tash-Murkon Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    id: 33696
-    name: Bestower Tash-Murkon Edition Blueprint
-    volume: 0.01
   Epithal Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
@@ -31,11 +26,6 @@ items:
     id: 986
     marketGroup: 282
     name: Hoarder Blueprint
-    volume: 0.01
-  Iteron Inner Zone Shipping Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    id: 33690
-    name: Iteron Inner Zone Shipping Edition Blueprint
     volume: 0.01
   Iteron Mark V Blueprint:
     IndustryBlueprintRank: 40.0
@@ -57,11 +47,6 @@ items:
     id: 987
     marketGroup: 282
     name: Mammoth Blueprint
-    volume: 0.01
-  Mammoth Nefantar Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    id: 33694
-    name: Mammoth Nefantar Edition Blueprint
     volume: 0.01
   Miasmos Amastris Edition Blueprint:
     IndustryBlueprintRank: 40.0
@@ -118,11 +103,6 @@ items:
     id: 984
     marketGroup: 284
     name: Tayra Blueprint
-    volume: 0.01
-  Tayra Wiyrkomi Edition Blueprint:
-    IndustryBlueprintRank: 40.0
-    id: 33692
-    name: Tayra Wiyrkomi Edition Blueprint
     volume: 0.01
   Wreathe Blueprint:
     IndustryBlueprintRank: 40.0

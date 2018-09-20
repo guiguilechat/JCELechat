@@ -8,6 +8,7 @@ items:
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 200000.0
+    CargoDeliveryRange: 10000
     CpuOutput: 22000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
@@ -81,6 +82,7 @@ items:
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 100000.0
+    CargoDeliveryRange: 10000
     CpuOutput: 12000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
@@ -149,6 +151,7 @@ items:
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 400000.0
+    CargoDeliveryRange: 10000
     CpuOutput: 38000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929

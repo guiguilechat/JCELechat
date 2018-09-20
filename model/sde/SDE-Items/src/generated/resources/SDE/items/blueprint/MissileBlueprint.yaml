@@ -1,10 +1,4 @@
 items:
-  Ghost Heavy Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1
-    id: 2213
-    name: Ghost Heavy Missile Blueprint
-    volume: 0.01
   Inferno Auto-Targeting Cruise Missile I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1

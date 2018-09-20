@@ -1,18 +1,11 @@
 items:
   Orca Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 28607
     marketGroup: 2334
     name: Orca Blueprint
     volume: 0.01
-  Orca ORE Development Edition Blueprint:
-    IndustryBlueprintRank: 200.0
-    id: 33686
-    name: Orca ORE Development Edition Blueprint
-    volume: 0.01
   Porpoise Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 43910
     marketGroup: 2334
     name: Porpoise Blueprint

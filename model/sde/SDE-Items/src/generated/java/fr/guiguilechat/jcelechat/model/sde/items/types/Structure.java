@@ -81,6 +81,13 @@ public abstract class Structure
     @DefaultDoubleValue(0.0)
     public double CapacitorCapacity;
     /**
+     * Distance which players can deposit cargo into a structure
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CargoDeliveryRange;
+    /**
      * CPU output of ship
      */
     @HighIsGood(true)
@@ -466,7 +473,7 @@ public abstract class Structure
     @DefaultIntValue(0)
     public int UpgradeCapacity;
     /**
-     * How many upgrades can by fitted to this ship.
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -519,6 +526,10 @@ public abstract class Structure
             case  482 :
             {
                 return CapacitorCapacity;
+            }
+            case  2790 :
+            {
+                return CargoDeliveryRange;
             }
             case  48 :
             {

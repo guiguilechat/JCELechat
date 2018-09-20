@@ -809,6 +809,7 @@ items:
     ShipBonusGC: 10.0
     ShipBonusMC2: 10.0
     ShipBonusRole7: -25.0
+    ShipRoleBonusWarpSpeed: 50
     SignatureRadius: 115
     StructureUniformity: 1.0
     TechLevel: 1
@@ -819,7 +820,7 @@ items:
     UpgradeCapacity: 350
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 4.5
+    WarpSpeedMultiplier: 3.0
     id: 17720
     marketGroup: 1371
     name: Cynabal
@@ -2882,6 +2883,7 @@ items:
     ShipBonusCC: 5
     ShipBonusGC: 5.0
     ShipBonusRole7: -100.0
+    ShipRoleBonusWarpSpeed: 100
     SignatureRadius: 150
     StructureUniformity: 1.0
     TechLevel: 1
@@ -2892,7 +2894,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 6.0
+    WarpSpeedMultiplier: 3.0
     id: 34590
     marketGroup: 1699
     name: Victorieux Luxury Yacht

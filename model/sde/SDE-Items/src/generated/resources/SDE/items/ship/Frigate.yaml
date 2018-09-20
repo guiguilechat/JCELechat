@@ -1060,6 +1060,7 @@ items:
     ShipBonusGF: 7.5
     ShipBonusMF: 10.0
     ShipBonusRole7: 100.0
+    ShipRoleBonusWarpSpeed: 50
     SignatureRadius: 30
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1070,7 +1071,7 @@ items:
     UpgradeCapacity: 350
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
-    WarpSpeedMultiplier: 7.5
+    WarpSpeedMultiplier: 5.0
     id: 17932
     marketGroup: 1365
     name: Dramiel

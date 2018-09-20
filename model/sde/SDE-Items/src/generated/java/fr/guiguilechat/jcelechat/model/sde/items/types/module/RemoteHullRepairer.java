@@ -46,12 +46,33 @@ public class RemoteHullRepairer
     @DefaultIntValue(0)
     public int FalloffEffectiveness;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double HeatAbsorbtionRateModifier;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double HeatDamage;
+    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int MaxRange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double OverloadSelfDurationBonus;
     /**
      * current power need
      */
@@ -88,6 +109,13 @@ public class RemoteHullRepairer
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
+    /**
      * An amount to modify the structural damage by.
      */
     @HighIsGood(true)
@@ -115,9 +143,21 @@ public class RemoteHullRepairer
             {
                 return FalloffEffectiveness;
             }
+            case  1180 :
+            {
+                return HeatAbsorbtionRateModifier;
+            }
+            case  1211 :
+            {
+                return HeatDamage;
+            }
             case  54 :
             {
                 return MaxRange;
+            }
+            case  1206 :
+            {
+                return OverloadSelfDurationBonus;
             }
             case  30 :
             {
@@ -138,6 +178,10 @@ public class RemoteHullRepairer
             case  278 :
             {
                 return RequiredSkill2Level;
+            }
+            case  1212 :
+            {
+                return RequiredThermoDynamicsSkill;
             }
             case  83 :
             {

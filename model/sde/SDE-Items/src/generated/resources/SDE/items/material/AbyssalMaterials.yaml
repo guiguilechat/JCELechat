@@ -4,11 +4,6 @@ items:
     marketGroup: 2479
     name: Crystalline Isogen-10
     volume: 0.35
-  Mutaplasmid Residue:
-    id: 48080
-    marketGroup: 1862
-    name: Mutaplasmid Residue
-    volume: 0.01
   Zero-Point Condensate:
     id: 48112
     marketGroup: 2479

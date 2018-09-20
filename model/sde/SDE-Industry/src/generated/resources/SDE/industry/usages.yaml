@@ -47,8 +47,6 @@ usages:
       Isogen: 1
   '''Alpha'' Data Analyzer I':
     maxreprocess: 0.55
-    productManuf: !!set
-      '''Alpha'' Data Analyzer I Blueprint': null
     reprocess:
       Tritanium: 840
       Pyerite: 183
@@ -652,8 +650,6 @@ usages:
       Second-hand Parts: 1
   '''Brotherhood'' Small Remote Armor Repairer':
     maxreprocess: 0.55
-    productManuf: !!set
-      '''Brotherhood'' Small Remote Armor Repairer Blueprint': null
     reprocess:
       Yan Jung Info Matrix: 1
       Yan Jung Null Shell: 2
@@ -773,8 +769,6 @@ usages:
       Nocxium: 1
   '''Codex'' Data Analyzer I':
     maxreprocess: 0.55
-    productManuf: !!set
-      '''Codex'' Data Analyzer I Blueprint': null
     reprocess:
       Tritanium: 840
       Pyerite: 183
@@ -849,8 +843,6 @@ usages:
       Tritanium: 500
   '''Daemon'' Data Analyzer I':
     maxreprocess: 0.55
-    productManuf: !!set
-      '''Daemon'' Data Analyzer I Blueprint': null
     reprocess:
       Tritanium: 840
       Pyerite: 183
@@ -1677,8 +1669,6 @@ usages:
       Isogen: 4
   '''Libram'' Data Analyzer I':
     maxreprocess: 0.55
-    productManuf: !!set
-      '''Libram'' Data Analyzer I Blueprint': null
     reprocess:
       Tritanium: 840
       Pyerite: 183
@@ -2001,8 +1991,6 @@ usages:
       Mexallon: 26
   '''Pacifier'' Large Remote Armor Repairer':
     maxreprocess: 0.55
-    productManuf: !!set
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
     reprocess:
       Tritanium: 4318
       Pyerite: 3256
@@ -4942,8 +4930,6 @@ usages:
       Megacyte: 2
   Abaddon:
     materialManuf: !!set
-      Abaddon Tash-Murkon Edition Blueprint: null
-      Abaddon Kador Edition Blueprint: null
       地狱天使级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -4958,14 +4944,10 @@ usages:
       Megacyte: 7466
   Abaddon Kador Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Abaddon Kador Edition Blueprint: null
     reprocess:
       Abaddon: 1
   Abaddon Tash-Murkon Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Abaddon Tash-Murkon Edition Blueprint: null
     reprocess:
       Abaddon: 1
   Absolution:
@@ -5514,8 +5496,6 @@ usages:
       Megacyte: 6
   Aliastra Catalyst:
     maxreprocess: 0.55
-    productManuf: !!set
-      Aliastra Catalyst Blueprint: null
     reprocess:
       Tritanium: 1
   Alloyed Tritanium Bar:
@@ -7477,10 +7457,7 @@ usages:
   Apocalypse:
     materialManuf: !!set
       Paladin Blueprint: null
-      Apocalypse Blood Raider Edition Blueprint: null
-      Apocalypse Kador Edition Blueprint: null
-      Apocalypse Tash-Murkon Edition Blueprint: null
-      ��难级YC117年特别版蓝图: null
+      灾难级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Apocalypse Blueprint: null
@@ -7494,8 +7471,6 @@ usages:
       Megacyte: 6400
   Apocalypse Blood Raider Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Apocalypse Blood Raider Edition Blueprint: null
     reprocess:
       Apocalypse: 1
   Apocalypse Imperial Issue:
@@ -7512,8 +7487,6 @@ usages:
       Megacyte: 5962
   Apocalypse Kador Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Apocalypse Kador Edition Blueprint: null
     reprocess:
       Apocalypse: 1
   Apocalypse Navy Issue:
@@ -7530,8 +7503,6 @@ usages:
       Megacyte: 5446
   Apocalypse Tash-Murkon Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Apocalypse Tash-Murkon Edition Blueprint: null
     reprocess:
       Apocalypse: 1
   Apostle:
@@ -9333,7 +9304,6 @@ usages:
   Bestower:
     materialManuf: !!set
       Impel Blueprint: null
-      Bestower Tash-Murkon Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Bestower Blueprint: null
@@ -9347,8 +9317,6 @@ usages:
       Megacyte: 20
   Bestower Tash-Murkon Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Bestower Tash-Murkon Edition Blueprint: null
     reprocess:
       Bestower: 1
   Beta Hull Mod Expanded Cargo:
@@ -10469,7 +10437,6 @@ usages:
       Mobile Cynosural Inhibitor Blueprint: null
       Mobile Decoy Unit Blueprint: null
       Mobile Scan Inhibitor Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Entrapment Array 2 Blueprint: null
       Entrapment Array 3 Blueprint: null
       Entrapment Array 4 Blueprint: null
@@ -10769,7 +10736,6 @@ usages:
       Medium Drone Repair Augmentor I Blueprint: null
       Small Drone Speed Augmentor I Blueprint: null
       Medium Drone Speed Augmentor I Blueprint: null
-      Small EW Drone Range Augmentor I Blueprint: null
       Small Drone Scope Chip I Blueprint: null
       Medium Drone Scope Chip I Blueprint: null
       Small Sentry Damage Augmentor I Blueprint: null
@@ -10855,7 +10821,6 @@ usages:
   Brutix:
     materialManuf: !!set
       Astarte Blueprint: null
-      Brutix Serpentis Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Brutix Blueprint: null
@@ -10879,8 +10844,6 @@ usages:
       Megacyte: 1904
   Brutix Serpentis Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Brutix Serpentis Edition Blueprint: null
     reprocess:
       Brutix: 1
   Brynn Jerdola's Tag:
@@ -11103,7 +11066,6 @@ usages:
       Megacyte: 1
   Burned Logic Circuit:
     materialManuf: !!set
-      Small Targeting Amplifier I Blueprint: null
       Large Drone Control Range Augmentor I Blueprint: null
       Large Drone Repair Augmentor I Blueprint: null
       Large Drone Scope Chip I Blueprint: null
@@ -11206,7 +11168,6 @@ usages:
       Medium Drone Repair Augmentor I Blueprint: null
       Small Drone Speed Augmentor I Blueprint: null
       Medium Drone Speed Augmentor I Blueprint: null
-      Small EW Drone Range Augmentor I Blueprint: null
       Small Drone Scope Chip I Blueprint: null
       Medium Drone Scope Chip I Blueprint: null
       Small Sentry Damage Augmentor I Blueprint: null
@@ -16963,8 +16924,6 @@ usages:
   Caracal:
     materialManuf: !!set
       Cerberus Blueprint: null
-      Caracal Nugoeihuvi Edition Blueprint: null
-      Caracal Wiyrkomi Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Caracal Blueprint: null
@@ -16990,14 +16949,10 @@ usages:
       Megacyte: 356
   Caracal Nugoeihuvi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Caracal Nugoeihuvi Edition Blueprint: null
     reprocess:
       Caracal: 1
   Caracal Wiyrkomi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Caracal Wiyrkomi Edition Blueprint: null
     reprocess:
       Caracal: 1
   Carbide Compact Dual 1000mm Railgun:
@@ -17152,7 +17107,6 @@ usages:
   Catalyst:
     materialManuf: !!set
       Eris Blueprint: null
-      Catalyst Serpentis Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Catalyst Blueprint: null
@@ -17165,8 +17119,6 @@ usages:
       Megacyte: 54
   Catalyst Serpentis Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Catalyst Serpentis Edition Blueprint: null
     reprocess:
       Catalyst: 1
   Catalyst Silo:
@@ -17825,7 +17777,6 @@ usages:
       Capital Construction Parts: 51
   Charred Micro Circuit:
     materialManuf: !!set
-      Small Targeting Amplifier I Blueprint: null
       Medium Processor Overclocking Unit I Blueprint: null
       Large Processor Overclocking Unit I Blueprint: null
       Large Core Defense Capacitor Safeguard I Blueprint: null
@@ -18466,8 +18417,6 @@ usages:
       Tritanium: 2778
   Civilian Salvager:
     maxreprocess: 0.55
-    productManuf: !!set
-      Civilian Salvager Blueprint: null
     reprocess:
       Tritanium: 840
       Pyerite: 183
@@ -18748,7 +18697,6 @@ usages:
   Coercer:
     materialManuf: !!set
       Heretic Blueprint: null
-      Coercer Blood Raiders Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Coercer Blueprint: null
@@ -18761,8 +18709,6 @@ usages:
       Megacyte: 40
   Coercer Blood Raiders Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Coercer Blood Raiders Edition Blueprint: null
     reprocess:
       Coercer: 1
   Coesite:
@@ -20327,7 +20273,6 @@ usages:
       Triage Module II Blueprint: null
       Medium Remote Hull Repairer II Blueprint: null
       Small Remote Hull Repairer II Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Magnetic Field Stabilizer II Blueprint: null
       Mining Drone II Blueprint: null
       Rocket Launcher II Blueprint: null
@@ -20765,7 +20710,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -22749,7 +22693,6 @@ usages:
   Cormorant:
     materialManuf: !!set
       Flycatcher Blueprint: null
-      Cormorant Guristas Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Cormorant Blueprint: null
@@ -22763,8 +22706,6 @@ usages:
       Megacyte: 18
   Cormorant Guristas Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Cormorant Guristas Edition Blueprint: null
     reprocess:
       Cormorant: 1
   Corpii A-Type Adaptive Nano Plating:
@@ -23923,8 +23864,8 @@ usages:
       Heavy Scoped Entropic Disintegrator Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
     maxreprocess: 0.55
   Cubic Bistot:
     maxreprocess: 0.8934
@@ -24159,7 +24100,6 @@ usages:
   Cyclone:
     materialManuf: !!set
       Claymore Blueprint: null
-      Cyclone Thukker Tribe Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Cyclone Blueprint: null
@@ -24172,8 +24112,6 @@ usages:
       Megacyte: 3334
   Cyclone Thukker Tribe Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Cyclone Thukker Tribe Edition Blueprint: null
     reprocess:
       Cyclone: 1
   Cyclops I:
@@ -24379,7 +24317,6 @@ usages:
       Damage Control I Blueprint: null
   Damaged Artificial Neural Network:
     materialManuf: !!set
-      Small Targeting Amplifier I Blueprint: null
       Medium Processor Overclocking Unit I Blueprint: null
       Large Processor Overclocking Unit I Blueprint: null
       Large Signal Disruption Amplifier I Blueprint: null
@@ -25882,7 +25819,6 @@ usages:
       Triage Module II Blueprint: null
       Medium Remote Hull Repairer II Blueprint: null
       Small Remote Hull Repairer II Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Magnetic Field Stabilizer II Blueprint: null
       Mining Drone II Blueprint: null
       Rocket Launcher II Blueprint: null
@@ -26412,7 +26348,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -26551,8 +26486,6 @@ usages:
     maxreprocess: 0.55
   Data Subverter I:
     maxreprocess: 0.55
-    productManuf: !!set
-      Data Subverter I Blueprint: null
     reprocess:
       Tritanium: 840
       Pyerite: 183
@@ -26919,7 +26852,6 @@ usages:
       Medium Drone Repair Augmentor I Blueprint: null
       Small Drone Speed Augmentor I Blueprint: null
       Medium Drone Speed Augmentor I Blueprint: null
-      Small EW Drone Range Augmentor I Blueprint: null
       Small Drone Scope Chip I Blueprint: null
       Medium Drone Scope Chip I Blueprint: null
       Small Sentry Damage Augmentor I Blueprint: null
@@ -27805,7 +27737,6 @@ usages:
       Medium Drone Repair Augmentor I Blueprint: null
       Small Drone Speed Augmentor I Blueprint: null
       Medium Drone Speed Augmentor I Blueprint: null
-      Small EW Drone Range Augmentor I Blueprint: null
       Small Drone Scope Chip I Blueprint: null
       Medium Drone Scope Chip I Blueprint: null
       Small Sentry Damage Augmentor I Blueprint: null
@@ -30057,7 +29988,6 @@ usages:
   Dominix:
     materialManuf: !!set
       Sin Blueprint: null
-      Dominix Quafe Edition Blueprint: null
       多米尼克斯级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -30084,8 +30014,6 @@ usages:
       Megacyte: 7556
   Dominix Quafe Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Dominix Quafe Edition Blueprint: null
     reprocess:
       Dominix: 1
   Draclira Merlonne's Tag:
@@ -31472,6 +31400,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Drone Cerebral Fragment:
     materialManuf: !!set
@@ -31501,6 +31430,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Drone Coronary Unit:
     materialManuf: !!set
@@ -31520,6 +31450,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Drone Damage Amplifier I:
     materialManuf: !!set
@@ -31578,6 +31509,7 @@ usages:
       '''Augmented'' Ice Harvesting Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Drone Link Augmentor I:
     materialManuf: !!set
@@ -31673,6 +31605,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Drone Tactical Limb:
     materialManuf: !!set
@@ -31698,6 +31631,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Drone Transceiver:
     materialManuf: !!set
@@ -31721,7 +31655,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -31771,11 +31704,7 @@ usages:
       Standup XL-Set Reprocessing Monitor II Blueprint: null
     maxreprocess: 0.55
   Drug Lab:
-    materialManuf: !!set
-      Drug Lab Blueprint: null
     maxreprocess: 0.55
-    productManuf: !!set
-      Drug Lab Blueprint: null
     reprocess:
       Integrity Response Drones: 5
       Nano-Factory: 13
@@ -33467,7 +33396,6 @@ usages:
     maxreprocess: 0.55
   Electronic Parts:
     materialManuf: !!set
-      Mobile Large Jump Disruptor I Blueprint: null
       Deep Core Mining Laser I Blueprint: null
       Mobile Small Warp Disruptor I Blueprint: null
       Mobile Medium Warp Disruptor I Blueprint: null
@@ -33518,6 +33446,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Emergency Damage Control I:
     maxreprocess: 0.55
@@ -35530,8 +35459,6 @@ usages:
       Isogen: 1
       Nocxium: 4
   Federation Navy Comet:
-    materialManuf: !!set
-      Police Pursuit Comet Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Federation Navy Comet Blueprint: null
@@ -36128,7 +36055,6 @@ usages:
   Ferox:
     materialManuf: !!set
       Vulture Blueprint: null
-      Ferox Guristas Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Ferox Blueprint: null
@@ -36142,8 +36068,6 @@ usages:
       Megacyte: 1778
   Ferox Guristas Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Ferox Guristas Edition Blueprint: null
     reprocess:
       Ferox: 1
   Ferrogel:
@@ -38059,8 +37983,6 @@ usages:
       Megacyte: 1
   Ghost Heavy Missile:
     maxreprocess: 0.55
-    productManuf: !!set
-      Ghost Heavy Missile Blueprint: null
     reprocess:
       Tritanium: 820
       Nocxium: 2
@@ -38080,7 +38002,7 @@ usages:
       Zydrine: 72
   Gila:
     materialManuf: !!set
-      毒蜥级YC117年特别版蓝图: null
+      毒蜥级YC117年特��版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Gila Blueprint: null
@@ -38882,10 +38804,6 @@ usages:
       Pyerite: 110
       Isogen: 94
   Golem:
-    materialManuf: !!set
-      Golem Guristas Edition Blueprint: null
-      Golem Kaalakiota Edition Blueprint: null
-      Golem Nugoeihuvi Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Golem Blueprint: null
@@ -38912,20 +38830,14 @@ usages:
       Raven Blueprint: null
   Golem Guristas Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Golem Guristas Edition Blueprint: null
     reprocess:
       Golem: 1
   Golem Kaalakiota Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Golem Kaalakiota Edition Blueprint: null
     reprocess:
       Golem: 1
   Golem Nugoeihuvi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Golem Nugoeihuvi Edition Blueprint: null
     reprocess:
       Golem: 1
   Goru's Shuttle:
@@ -39708,7 +39620,6 @@ usages:
       Heavy Hull Maintenance Bot II Blueprint: null
       Medium Hull Maintenance Bot II Blueprint: null
       Light Hull Maintenance Bot II Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Ametat II Blueprint: null
       Termite II Blueprint: null
       Antaeus II Blueprint: null
@@ -43047,6 +42958,20 @@ usages:
       Nocxium: 404
       Recursive Computing Module: 2
       Megacyte: 204
+  Hydra:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Hydra Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 150
+      Tritanium: 23304
+      Pyerite: 6290
+      Mexallon: 2949
+      Isogen: 398
+      Nocxium: 82
+      Zydrine: 20
+      Crystalline Isogen-10: 220
+      Megacyte: 2
   Hydraulic Stabilization Actuator:
     maxreprocess: 0.55
     reprocess:
@@ -43118,9 +43043,6 @@ usages:
       Nocxium: 89
       Megacyte: 8
   Hyperion:
-    materialManuf: !!set
-      Hyperion Aliastra Edition Blueprint: null
-      Hyperion Inner Zone Shipping Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Hyperion Blueprint: null
@@ -43134,14 +43056,10 @@ usages:
       Megacyte: 6512
   Hyperion Aliastra Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Hyperion Aliastra Edition Blueprint: null
     reprocess:
       Hyperion: 1
   Hyperion Inner Zone Shipping Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Hyperion Inner Zone Shipping Edition Blueprint: null
     reprocess:
       Hyperion: 1
   Hypersynaptic Fibers:
@@ -44380,8 +44298,6 @@ usages:
     materialManuf: !!set
       Ishkur Blueprint: null
       Enyo Blueprint: null
-      Incursus Aliastra Edition Blueprint: null
-      Incursus Inner Zone Shipping Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Incursus Blueprint: null
@@ -44394,14 +44310,10 @@ usages:
       Zydrine: 12
   Incursus Aliastra Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Incursus Aliastra Edition Blueprint: null
     reprocess:
       Incursus: 1
   Incursus Inner Zone Shipping Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Incursus Inner Zone Shipping Edition Blueprint: null
     reprocess:
       Incursus: 1
   Indirect Scanning Dampening Unit I:
@@ -45695,14 +45607,10 @@ usages:
       Megacyte: 1
   Inner Zone Shipping Catalyst:
     maxreprocess: 0.55
-    productManuf: !!set
-      Inner Zone Shipping Catalyst Blueprint: null
     reprocess:
       Tritanium: 1
   Inner Zone Shipping Imicus:
     maxreprocess: 0.55
-    productManuf: !!set
-      Inner Zone Shipping Imicus Blueprint: null
     reprocess:
       Tritanium: 1
   Inquisitor:
@@ -45833,8 +45741,6 @@ usages:
     maxreprocess: 0.55
   Intaki Syndicate Catalyst:
     maxreprocess: 0.55
-    productManuf: !!set
-      Intaki Syndicate Catalyst Blueprint: null
     reprocess:
       Tritanium: 1
   Integrity Response Drones:
@@ -45937,8 +45843,6 @@ usages:
       Capital Construction Parts: 5
   InterBus Catalyst:
     maxreprocess: 0.55
-    productManuf: !!set
-      InterBus Catalyst Blueprint: null
     reprocess:
       Tritanium: 1
   InterBus Customs Office:
@@ -46675,18 +46579,15 @@ usages:
       Small Remote Shield Booster I Blueprint: null
       Capital Remote Shield Booster I Blueprint: null
       Vigil Blueprint: null
-      Data Subverter I Blueprint: null
       Medium Shield Extender I Blueprint: null
       Oracle Blueprint: null
       Naga Blueprint: null
       Tornado Blueprint: null
       Miasmos Quafe Ultra Edition Blueprint: null
       Large Micro Jump Drive Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Miasmos Quafe Ultramarine Edition Blueprint: null
       Large Ancillary Shield Booster Blueprint: null
       Drone Damage Amplifier I Blueprint: null
-      Shield Booster Fuel Allocation Script Blueprint: null
       Target Spectrum Breaker Blueprint: null
       Mining Drone I Blueprint: null
       125mm Railgun I Blueprint: null
@@ -46962,10 +46863,6 @@ usages:
       Structure Mission Network Blueprint: null
       Data Analyzer I Blueprint: null
       Relic Analyzer I Blueprint: null
-      '''Daemon'' Data Analyzer I Blueprint': null
-      '''Codex'' Data Analyzer I Blueprint': null
-      '''Alpha'' Data Analyzer I Blueprint': null
-      '''Libram'' Data Analyzer I Blueprint': null
       Mining Laser Upgrade I Blueprint: null
       Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint: null
       Mining Foreman Link - Mining Laser Field Enhancement I Blueprint: null
@@ -46992,7 +46889,6 @@ usages:
       Dragonfly I Blueprint: null
       Firbolg I Blueprint: null
       Einherji I Blueprint: null
-      '''Brotherhood'' Small Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
       Wasp EC-900 Blueprint: null
       Praetor TD-900 Blueprint: null
@@ -47062,7 +46958,6 @@ usages:
       Hurricane Blueprint: null
       Signal Distortion Amplifier I Blueprint: null
       Salvager I Blueprint: null
-      Civilian Salvager Blueprint: null
       Civilian Data Analyzer Blueprint: null
       Angel Control Tower Blueprint: null
       ECM Jammer Burst Projector Blueprint: null
@@ -47197,7 +47092,6 @@ usages:
       Talwar Blueprint: null
       Venture Blueprint: null
       Salvage Drone I Blueprint: null
-      Sarum Magnate Blueprint: null
       Deactivated Station Key Pass Blueprint: null
       Medium Ancillary Armor Repairer Blueprint: null
       Large Ancillary Armor Repairer Blueprint: null
@@ -47207,7 +47101,6 @@ usages:
       Scan Acquisition Array I Blueprint: null
       Scan Pinpointing Array I Blueprint: null
       Scan Rangefinding Array I Blueprint: null
-      Tash-Murkon Magnate Blueprint: null
       Moracha Blueprint: null
       Chremoas Blueprint: null
       Bastion Module I Blueprint: null
@@ -47236,7 +47129,6 @@ usages:
       Limited Hyperspatial Accelerator Blueprint: null
       Experimental Hyperspatial Accelerator Blueprint: null
       Prototype Hyperspatial Accelerator Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Limited Jump Drive Economizer Blueprint: null
       Experimental Jump Drive Economizer Blueprint: null
       Prototype Jump Drive Economizer Blueprint: null
@@ -47450,18 +47342,15 @@ usages:
       Heavy Scoped Entropic Disintegrator Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Iteron Inner Zone Shipping Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Iteron Inner Zone Shipping Edition Blueprint: null
     reprocess:
       Iteron Mark V: 1
   Iteron Mark V:
-    materialManuf: !!set
-      Iteron Inner Zone Shipping Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Iteron Mark V Blueprint: null
@@ -48392,10 +48281,6 @@ usages:
       Capital Power Generator: 133
       Capital Shield Emitter: 667
   Kronos:
-    materialManuf: !!set
-      Kronos Police Edition Blueprint: null
-      Kronos Quafe Edition Blueprint: null
-      Kronos Inner Zone Shipping Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Kronos Blueprint: null
@@ -48422,20 +48307,14 @@ usages:
       Megathron Blueprint: null
   Kronos Inner Zone Shipping Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Kronos Inner Zone Shipping Edition Blueprint: null
     reprocess:
       Kronos: 1
   Kronos Police Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Kronos Police Edition Blueprint: null
     reprocess:
       Kronos: 1
   Kronos Quafe Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Kronos Quafe Edition Blueprint: null
     reprocess:
       Kronos: 1
   Kryos:
@@ -51048,17 +50927,6 @@ usages:
     reprocess:
       Tritanium: 2222
       Pyerite: 1111
-  Large Stargate:
-    maxreprocess: 0.55
-    reprocess:
-      Structure Repair Facility: 10
-      Structure Docking Bay: 10
-      Structure Construction Parts: 10
-      Structure Medical Center: 4
-      Structure Hangar Array: 10
-      Structure Acceleration Coils: 40
-      Structure Office Center: 4
-      Structure Storage Bay: 10
   Large Stasis Drone Augmentor I:
     maxreprocess: 0.55
     productManuf: !!set
@@ -52901,7 +52769,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -53952,7 +53819,7 @@ usages:
       Tritanium: 500
   Machariel:
     materialManuf: !!set
-      马克瑞级YC117年特别版蓝图: null
+      ��克瑞级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Machariel Blueprint: null
@@ -53965,8 +53832,6 @@ usages:
       Zydrine: 20828
       Megacyte: 5811
   Mackinaw:
-    materialManuf: !!set
-      Mackinaw ORE Development Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Mackinaw Blueprint: null
@@ -53993,14 +53858,9 @@ usages:
       Retriever Blueprint: null
   Mackinaw ORE Development Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Mackinaw ORE Development Edition Blueprint: null
     reprocess:
       Mackinaw: 1
   Maelstrom:
-    materialManuf: !!set
-      Maelstrom Nefantar Edition Blueprint: null
-      Maelstrom Krusual Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Maelstrom Blueprint: null
@@ -54014,14 +53874,10 @@ usages:
       Megacyte: 4712
   Maelstrom Krusual Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Maelstrom Krusual Edition Blueprint: null
     reprocess:
       Maelstrom: 1
   Maelstrom Nefantar Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Maelstrom Nefantar Edition Blueprint: null
     reprocess:
       Maelstrom: 1
   Magma Mercoxit:
@@ -54527,7 +54383,6 @@ usages:
   Mammoth:
     materialManuf: !!set
       Mastodon Blueprint: null
-      Mammoth Nefantar Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Mammoth Blueprint: null
@@ -54541,8 +54396,6 @@ usages:
       Megacyte: 18
   Mammoth Nefantar Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Mammoth Nefantar Edition Blueprint: null
     reprocess:
       Mammoth: 1
   Manchura's Tag:
@@ -57674,15 +57527,6 @@ usages:
     reprocess:
       Tritanium: 1111
       Pyerite: 444
-  Medium Stargate:
-    maxreprocess: 0.55
-    reprocess:
-      Structure Repair Facility: 1
-      Structure Docking Bay: 1
-      Structure Construction Parts: 1
-      Structure Acceleration Coils: 4
-      Structure Hangar Array: 1
-      Structure Storage Bay: 1
   Medium Stasis Drone Augmentor I:
     maxreprocess: 0.55
     productManuf: !!set
@@ -58260,7 +58104,6 @@ usages:
       Medium Hull Repairer I Blueprint: null
       Large Hull Repairer I Blueprint: null
       Vigil Blueprint: null
-      Data Subverter I Blueprint: null
       Medium Graviton Smartbomb I Blueprint: null
       Medium Plasma Smartbomb I Blueprint: null
       Large Graviton Smartbomb I Blueprint: null
@@ -58272,10 +58115,8 @@ usages:
       Tornado Blueprint: null
       Miasmos Quafe Ultra Edition Blueprint: null
       Large Micro Jump Drive Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Miasmos Quafe Ultramarine Edition Blueprint: null
       Drone Damage Amplifier I Blueprint: null
-      Shield Booster Fuel Allocation Script Blueprint: null
       Target Spectrum Breaker Blueprint: null
       Mining Drone I Blueprint: null
       Guardian-Vexor Blueprint: null
@@ -58496,10 +58337,6 @@ usages:
       Structure Mission Network Blueprint: null
       Data Analyzer I Blueprint: null
       Relic Analyzer I Blueprint: null
-      '''Daemon'' Data Analyzer I Blueprint': null
-      '''Codex'' Data Analyzer I Blueprint': null
-      '''Alpha'' Data Analyzer I Blueprint': null
-      '''Libram'' Data Analyzer I Blueprint': null
       Mining Laser Upgrade I Blueprint: null
       Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint: null
       Mining Foreman Link - Mining Laser Field Enhancement I Blueprint: null
@@ -58604,7 +58441,6 @@ usages:
       Strong Exile Booster Blueprint: null
       Signal Distortion Amplifier I Blueprint: null
       Salvager I Blueprint: null
-      Civilian Salvager Blueprint: null
       Civilian Data Analyzer Blueprint: null
       Angel Control Tower Blueprint: null
       ECM Jammer Burst Projector Blueprint: null
@@ -58736,7 +58572,6 @@ usages:
       Corax Blueprint: null
       Talwar Blueprint: null
       Salvage Drone I Blueprint: null
-      Sarum Magnate Blueprint: null
       Deactivated Station Key Pass Blueprint: null
       Small Ancillary Armor Repairer Blueprint: null
       Advanced Cerebral Accelerator Blueprint: null
@@ -58746,7 +58581,6 @@ usages:
       Drake Navy Issue Blueprint: null
       Harbinger Navy Issue Blueprint: null
       Hurricane Fleet Issue Blueprint: null
-      Tash-Murkon Magnate Blueprint: null
       Moracha Blueprint: null
       Chremoas Blueprint: null
       Bastion Module I Blueprint: null
@@ -58771,7 +58605,6 @@ usages:
       Limited Hyperspatial Accelerator Blueprint: null
       Experimental Hyperspatial Accelerator Blueprint: null
       Prototype Hyperspatial Accelerator Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Limited Jump Drive Economizer Blueprint: null
       Experimental Jump Drive Economizer Blueprint: null
       Prototype Jump Drive Economizer Blueprint: null
@@ -58958,15 +58791,12 @@ usages:
       Entropic Radiation Sink I Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
     maxreprocess: 0.55
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
-      Megathron Quafe Edition Blueprint: null
-      Megathron Police Edition Blueprint: null
-      Megathron Inner Zone Shipping Edition Blueprint: null
       万王宝座级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -58993,8 +58823,6 @@ usages:
       Megacyte: 4674
   Megathron Inner Zone Shipping Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Megathron Inner Zone Shipping Edition Blueprint: null
     reprocess:
       Megathron: 1
   Megathron Navy Issue:
@@ -59011,14 +58839,10 @@ usages:
       Megacyte: 6202
   Megathron Police Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Megathron Police Edition Blueprint: null
     reprocess:
       Megathron: 1
   Megathron Quafe Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Megathron Quafe Edition Blueprint: null
     reprocess:
       Megathron: 1
   Melted Capacitor Console:
@@ -59110,8 +58934,6 @@ usages:
     materialManuf: !!set
       Hawk Blueprint: null
       Harpy Blueprint: null
-      Merlin Nugoeihuvi Edition Blueprint: null
-      Merlin Wiyrkomi Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Merlin Blueprint: null
@@ -59125,14 +58947,10 @@ usages:
       Megacyte: 4
   Merlin Nugoeihuvi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Merlin Nugoeihuvi Edition Blueprint: null
     reprocess:
       Merlin: 1
   Merlin Wiyrkomi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Merlin Wiyrkomi Edition Blueprint: null
     reprocess:
       Merlin: 1
   Meson Exotic Plasma L:
@@ -59470,7 +59288,6 @@ usages:
       Large Remote Shield Booster I Blueprint: null
       Capital Remote Shield Booster I Blueprint: null
       Vigil Blueprint: null
-      Data Subverter I Blueprint: null
       Medium Shield Extender I Blueprint: null
       Large Shield Extender I Blueprint: null
       Medium Proton Smartbomb I Blueprint: null
@@ -59484,7 +59301,6 @@ usages:
       Tornado Blueprint: null
       Miasmos Quafe Ultra Edition Blueprint: null
       Large Micro Jump Drive Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Miasmos Quafe Ultramarine Edition Blueprint: null
       Large Ancillary Shield Booster Blueprint: null
       Drone Damage Amplifier I Blueprint: null
@@ -59821,10 +59637,6 @@ usages:
       Structure Mission Network Blueprint: null
       Data Analyzer I Blueprint: null
       Relic Analyzer I Blueprint: null
-      '''Daemon'' Data Analyzer I Blueprint': null
-      '''Codex'' Data Analyzer I Blueprint': null
-      '''Alpha'' Data Analyzer I Blueprint': null
-      '''Libram'' Data Analyzer I Blueprint': null
       Mining Laser Upgrade I Blueprint: null
       Praetor EV-900 Blueprint: null
       Ice Harvester Upgrade I Blueprint: null
@@ -59853,13 +59665,11 @@ usages:
       '''Executive'' Remote Sensor Dampener Blueprint': null
       '''Beatnik'' Small Remote Armor Repairer Blueprint': null
       '''Love'' Medium Remote Armor Repairer Blueprint': null
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
       '''Cartel'' Power Diagnostic System I Blueprint': null
       Templar I Blueprint: null
       Dragonfly I Blueprint: null
       Firbolg I Blueprint: null
       Einherji I Blueprint: null
-      '''Brotherhood'' Small Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
       '''Radical'' Damage Control Blueprint': null
       Praetor TD-900 Blueprint: null
@@ -59941,7 +59751,6 @@ usages:
       Signal Distortion Amplifier I Blueprint: null
       Salvager I Blueprint: null
       Inferno Heavy Assault Missile Blueprint: null
-      Civilian Salvager Blueprint: null
       Civilian Data Analyzer Blueprint: null
       Station Warehouse Container Blueprint: null
       Angel Control Tower Blueprint: null
@@ -60045,7 +59854,6 @@ usages:
       Corax Blueprint: null
       Talwar Blueprint: null
       Venture Blueprint: null
-      Sarum Magnate Blueprint: null
       Deactivated Station Key Pass Blueprint: null
       Medium Ancillary Armor Repairer Blueprint: null
       Large Ancillary Armor Repairer Blueprint: null
@@ -60056,7 +59864,6 @@ usages:
       Scan Acquisition Array I Blueprint: null
       Scan Pinpointing Array I Blueprint: null
       Scan Rangefinding Array I Blueprint: null
-      Tash-Murkon Magnate Blueprint: null
       Moracha Blueprint: null
       Chremoas Blueprint: null
       Bastion Module I Blueprint: null
@@ -60258,8 +60065,8 @@ usages:
       Heavy Scoped Entropic Disintegrator Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
     maxreprocess: 0.55
   Miasmos:
     maxreprocess: 0.55
@@ -62875,8 +62682,6 @@ usages:
       Megacyte: 388
   Mobile Competitive Vault:
     maxreprocess: 0.55
-    productManuf: !!set
-      Mobile Competitive Vault Blueprint: null
     reprocess:
       Tritanium: 277778
       Pyerite: 11111
@@ -62933,8 +62738,6 @@ usages:
       Smartfab Units: 3
   Mobile Large Jump Disruptor I:
     maxreprocess: 0.55
-    productManuf: !!set
-      Mobile Large Jump Disruptor I Blueprint: null
     reprocess:
       Tritanium: 213740
       Pyerite: 65343
@@ -63444,8 +63247,6 @@ usages:
       Zydrine: 4
       Megacyte: 4
   Moros:
-    materialManuf: !!set
-      Moros Interbus Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Moros Blueprint: null
@@ -63465,8 +63266,6 @@ usages:
       Capital Shield Emitter: 11
   Moros Interbus Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Moros Interbus Edition Blueprint: null
     reprocess:
       Capital Jump Drive: 9
       Capital Computer System: 6
@@ -64321,8 +64120,6 @@ usages:
       Zydrine: 12012
       Megacyte: 2798
   Naglfar:
-    materialManuf: !!set
-      Naglfar Justice Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Naglfar Blueprint: null
@@ -64342,8 +64139,6 @@ usages:
       Capital Shield Emitter: 24
   Naglfar Justice Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Naglfar Justice Edition Blueprint: null
     reprocess:
       Capital Jump Drive: 9
       Capital Computer System: 13
@@ -65460,7 +65255,6 @@ usages:
       Sansha Wrath Cruise Missile Blueprint: null
       Praetor I Blueprint: null
       Acolyte I Blueprint: null
-      Ghost Heavy Missile Blueprint: null
       Shield Power Relay I Blueprint: null
       Ogre I Blueprint: null
       Hobgoblin I Blueprint: null
@@ -65491,11 +65285,9 @@ usages:
       Talos Blueprint: null
       Miasmos Quafe Ultra Edition Blueprint: null
       Large Micro Jump Drive Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Miasmos Quafe Ultramarine Edition Blueprint: null
       Large Ancillary Shield Booster Blueprint: null
       Reactive Armor Hardener Blueprint: null
-      Shield Booster Fuel Allocation Script Blueprint: null
       Target Spectrum Breaker Blueprint: null
       Mining Drone I Blueprint: null
       Large Shield Booster I Blueprint: null
@@ -66176,8 +65968,9 @@ usages:
       Heavy Scoped Entropic Disintegrator Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Noir. Modified Entosis Link:
     maxreprocess: 0.55
@@ -67908,8 +67701,6 @@ usages:
   Omen:
     materialManuf: !!set
       Zealot Blueprint: null
-      Omen Kador Edition Blueprint: null
-      Omen Tash-Murkon Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Omen Blueprint: null
@@ -67923,8 +67714,6 @@ usages:
       Megacyte: 412
   Omen Kador Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Omen Kador Edition Blueprint: null
     reprocess:
       Omen: 1
   Omen Navy Issue:
@@ -67941,8 +67730,6 @@ usages:
       Megacyte: 278
   Omen Tash-Murkon Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Omen Tash-Murkon Edition Blueprint: null
     reprocess:
       Omen: 1
   Omni Effect Beacon:
@@ -68187,8 +67974,6 @@ usages:
       Isogen: 10
       Morphite: 1
   Orca:
-    materialManuf: !!set
-      Orca ORE Development Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Orca Blueprint: null
@@ -68202,8 +67987,6 @@ usages:
       Capital Ship Maintenance Bay: 7
   Orca ORE Development Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Orca ORE Development Edition Blueprint: null
     reprocess:
       Orca: 1
   Ore Prospecting Array 1:
@@ -68330,7 +68113,6 @@ usages:
       Mobile Decoy Unit Blueprint: null
       '''Packrat'' Mobile Tractor Unit Blueprint': null
       '''Magpie'' Mobile Tractor Unit Blueprint': null
-      Mobile Competitive Vault Blueprint: null
       Entrapment Array 2 Blueprint: null
       Entrapment Array 3 Blueprint: null
       Entrapment Array 4 Blueprint: null
@@ -68574,10 +68356,6 @@ usages:
       Tungsten Carbide Armor Plate: 300
       Fusion Reactor Unit: 3
   Paladin:
-    materialManuf: !!set
-      Paladin Blood Raider Edition Blueprint: null
-      Paladin Kador Edition Blueprint: null
-      Paladin Tash-Murkon Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Paladin Blueprint: null
@@ -68600,8 +68378,6 @@ usages:
       Antimatter Reactor Unit: 225
   Paladin Blood Raider Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Paladin Blood Raider Edition Blueprint: null
     reprocess:
       Paladin: 1
   Paladin Blueprint:
@@ -68610,14 +68386,10 @@ usages:
       Apocalypse Blueprint: null
   Paladin Kador Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Paladin Kador Edition Blueprint: null
     reprocess:
       Paladin: 1
   Paladin Tash-Murkon Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Paladin Tash-Murkon Edition Blueprint: null
     reprocess:
       Paladin: 1
   Pandemic SPHERE Modified Entosis Link:
@@ -69075,8 +68847,6 @@ usages:
     productInvention: !!set
       Thorax Blueprint: null
   Phoenix:
-    materialManuf: !!set
-      Phoenix Wiyrkomi Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Phoenix Blueprint: null
@@ -69096,8 +68866,6 @@ usages:
       Capital Shield Emitter: 28
   Phoenix Wiyrkomi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Phoenix Wiyrkomi Edition Blueprint: null
     reprocess:
       Capital Jump Drive: 9
       Capital Computer System: 13
@@ -70053,8 +69821,6 @@ usages:
       Robotics: 36
   Police Pursuit Comet:
     maxreprocess: 0.55
-    productManuf: !!set
-      Police Pursuit Comet Blueprint: null
     reprocess:
       Federation Navy Comet: 1
   Pollucite:
@@ -70342,7 +70108,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -70811,7 +70576,6 @@ usages:
   Prophecy:
     materialManuf: !!set
       Damnation Blueprint: null
-      Prophecy Blood Raiders Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Prophecy Blueprint: null
@@ -70824,8 +70588,6 @@ usages:
       Megacyte: 2222
   Prophecy Blood Raiders Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Prophecy Blood Raiders Edition Blueprint: null
     reprocess:
       Prophecy: 1
   Prorator:
@@ -71581,8 +71343,6 @@ usages:
     materialManuf: !!set
       Vengeance Blueprint: null
       Retribution Blueprint: null
-      Punisher Kador Edition Blueprint: null
-      Punisher Tash-Murkon Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Punisher Blueprint: null
@@ -71595,14 +71355,10 @@ usages:
       Zydrine: 34
   Punisher Kador Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Punisher Kador Edition Blueprint: null
     reprocess:
       Punisher: 1
   Punisher Tash-Murkon Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Punisher Tash-Murkon Edition Blueprint: null
     reprocess:
       Punisher: 1
   Pure Improved Blue Pill Booster:
@@ -72045,7 +71801,6 @@ usages:
       Medium Hull Repairer I Blueprint: null
       Large Hull Repairer I Blueprint: null
       Vigil Blueprint: null
-      Data Subverter I Blueprint: null
       Medium Shield Extender I Blueprint: null
       Large Shield Extender I Blueprint: null
       Medium Proton Smartbomb I Blueprint: null
@@ -72061,11 +71816,9 @@ usages:
       Tornado Blueprint: null
       Miasmos Quafe Ultra Edition Blueprint: null
       Large Micro Jump Drive Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Miasmos Quafe Ultramarine Edition Blueprint: null
       Drone Damage Amplifier I Blueprint: null
       Reactive Armor Hardener Blueprint: null
-      Shield Booster Fuel Allocation Script Blueprint: null
       Target Spectrum Breaker Blueprint: null
       Magnetic Field Stabilizer I Blueprint: null
       Civilian Shield Booster Blueprint: null
@@ -72455,10 +72208,6 @@ usages:
       Structure Mission Network Blueprint: null
       Data Analyzer I Blueprint: null
       Relic Analyzer I Blueprint: null
-      '''Daemon'' Data Analyzer I Blueprint': null
-      '''Codex'' Data Analyzer I Blueprint': null
-      '''Alpha'' Data Analyzer I Blueprint': null
-      '''Libram'' Data Analyzer I Blueprint': null
       Heavy Shield Maintenance Bot I Blueprint: null
       Warp Disrupt Probe Blueprint: null
       Interdiction Sphere Launcher I Blueprint: null
@@ -72488,13 +72237,11 @@ usages:
       '''Executive'' Remote Sensor Dampener Blueprint': null
       '''Beatnik'' Small Remote Armor Repairer Blueprint': null
       '''Love'' Medium Remote Armor Repairer Blueprint': null
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
       '''Cartel'' Power Diagnostic System I Blueprint': null
       Templar I Blueprint: null
       Dragonfly I Blueprint: null
       Firbolg I Blueprint: null
       Einherji I Blueprint: null
-      '''Brotherhood'' Small Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
       '''Radical'' Damage Control Blueprint': null
       Wasp EC-900 Blueprint: null
@@ -72591,7 +72338,6 @@ usages:
       Mjolnir Heavy Assault Missile Blueprint: null
       Inferno Heavy Assault Missile Blueprint: null
       Scourge Heavy Assault Missile Blueprint: null
-      Civilian Salvager Blueprint: null
       Civilian Data Analyzer Blueprint: null
       Station Warehouse Container Blueprint: null
       Angel Control Tower Blueprint: null
@@ -72722,7 +72468,6 @@ usages:
       Corax Blueprint: null
       Talwar Blueprint: null
       Venture Blueprint: null
-      Sarum Magnate Blueprint: null
       Enormous Freight Container Blueprint: null
       Huge Freight Container Blueprint: null
       Large Freight Container Blueprint: null
@@ -72739,7 +72484,6 @@ usages:
       Scan Acquisition Array I Blueprint: null
       Scan Pinpointing Array I Blueprint: null
       Scan Rangefinding Array I Blueprint: null
-      Tash-Murkon Magnate Blueprint: null
       Survey Probe Launcher I Blueprint: null
       Moracha Blueprint: null
       Chremoas Blueprint: null
@@ -72776,7 +72520,6 @@ usages:
       Limited Hyperspatial Accelerator Blueprint: null
       Experimental Hyperspatial Accelerator Blueprint: null
       Prototype Hyperspatial Accelerator Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Limited Jump Drive Economizer Blueprint: null
       Experimental Jump Drive Economizer Blueprint: null
       Prototype Jump Drive Economizer Blueprint: null
@@ -72977,8 +72720,9 @@ usages:
       Heavy Scoped Entropic Disintegrator Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   Pyroxeres:
     maxreprocess: 0.8934
@@ -73339,8 +73083,6 @@ usages:
       Mexallon: 222
   Quafe Catalyst:
     maxreprocess: 0.55
-    productManuf: !!set
-      Quafe Catalyst Blueprint: null
     reprocess:
       Tritanium: 1
   Quake L:
@@ -74250,7 +73992,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -75423,7 +75164,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -75528,7 +75268,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -77518,9 +77257,6 @@ usages:
   Raven:
     materialManuf: !!set
       Golem Blueprint: null
-      Raven Guristas Edition Blueprint: null
-      Raven Kaalakiota Edition Blueprint: null
-      Raven Nugoeihuvi Edition Blueprint: null
       乌鸦级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -77535,14 +77271,10 @@ usages:
       Megacyte: 6288
   Raven Guristas Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Raven Guristas Edition Blueprint: null
     reprocess:
       Raven: 1
   Raven Kaalakiota Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Raven Kaalakiota Edition Blueprint: null
     reprocess:
       Raven: 1
   Raven Navy Issue:
@@ -77559,8 +77291,6 @@ usages:
       Megacyte: 6288
   Raven Nugoeihuvi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Raven Nugoeihuvi Edition Blueprint: null
     reprocess:
       Raven: 1
   Raven State Issue:
@@ -78473,7 +78203,6 @@ usages:
       Triage Module II Blueprint: null
       Medium Remote Hull Repairer II Blueprint: null
       Small Remote Hull Repairer II Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Magnetic Field Stabilizer II Blueprint: null
       Mining Drone II Blueprint: null
       Rocket Launcher II Blueprint: null
@@ -78912,7 +78641,6 @@ usages:
       Medium Drone Speed Augmentor II Blueprint: null
       Small Drone Scope Chip II Blueprint: null
       Medium Drone Scope Chip II Blueprint: null
-      Small EW Drone Range Augmentor II Blueprint: null
       Small Sentry Damage Augmentor II Blueprint: null
       Medium Sentry Damage Augmentor II Blueprint: null
       Small Stasis Drone Augmentor II Blueprint: null
@@ -80710,8 +80438,6 @@ usages:
       Zydrine: 1888
       Megacyte: 566
   Revelation:
-    materialManuf: !!set
-      Revelation Sarum Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Revelation Blueprint: null
@@ -80731,8 +80457,6 @@ usages:
       Capital Shield Emitter: 7
   Revelation Sarum Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Revelation Sarum Edition Blueprint: null
     reprocess:
       Capital Jump Drive: 9
       Capital Computer System: 6
@@ -80797,8 +80521,6 @@ usages:
     materialManuf: !!set
       Wolf Blueprint: null
       Jaguar Blueprint: null
-      Rifter Nefantar Edition Blueprint: null
-      Rifter Krusual Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Rifter Blueprint: null
@@ -80812,14 +80534,10 @@ usages:
       Megacyte: 2
   Rifter Krusual Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Rifter Krusual Edition Blueprint: null
     reprocess:
       Rifter: 1
   Rifter Nefantar Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Rifter Nefantar Edition Blueprint: null
     reprocess:
       Rifter: 1
   Robotics:
@@ -81061,9 +80779,6 @@ usages:
       Tritanium: 100000
       Pyerite: 50000
   Rokh:
-    materialManuf: !!set
-      Rokh Nugoeihuvi Edition Blueprint: null
-      Rokh Wiyrkomi Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Rokh Blueprint: null
@@ -81077,14 +80792,10 @@ usages:
       Megacyte: 6288
   Rokh Nugoeihuvi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Rokh Nugoeihuvi Edition Blueprint: null
     reprocess:
       Rokh: 1
   Rokh Wiyrkomi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Rokh Wiyrkomi Edition Blueprint: null
     reprocess:
       Rokh: 1
   Rook:
@@ -81113,8 +80824,6 @@ usages:
     productInvention: !!set
       Blackbird Blueprint: null
   Rorqual:
-    materialManuf: !!set
-      Rorqual ORE Development Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Rorqual Blueprint: null
@@ -81135,8 +80844,6 @@ usages:
       Capital Shield Emitter: 9
   Rorqual ORE Development Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Rorqual ORE Development Edition Blueprint: null
     reprocess:
       Rorqual: 1
   Rupture:
@@ -81813,8 +81520,6 @@ usages:
       Megacyte: 289
   Sarum Magnate:
     maxreprocess: 0.55
-    productManuf: !!set
-      Sarum Magnate Blueprint: null
     reprocess:
       Tritanium: 13840
       Pyerite: 987
@@ -82453,8 +82158,6 @@ usages:
       Megacyte: 6688
   Scorpion Ishukone Watch:
     maxreprocess: 0.55
-    productManuf: !!set
-      Scorpion Ishukone Watch Blueprint: null
     reprocess:
       Tritanium: 1
   Scorpion Navy Issue:
@@ -83007,7 +82710,6 @@ usages:
       Personal Hangar Array Blueprint: null
       Mobile Cynosural Inhibitor Blueprint: null
       Mobile Decoy Unit Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Entrapment Array 2 Blueprint: null
       Entrapment Array 3 Blueprint: null
       Entrapment Array 4 Blueprint: null
@@ -85225,8 +84927,6 @@ usages:
       Shield Boost Amplifier I Blueprint: null
   Shield Booster Fuel Allocation Script:
     maxreprocess: 0.55
-    productManuf: !!set
-      Shield Booster Fuel Allocation Script Blueprint: null
     reprocess:
       Pyerite: 4
       Isogen: 3
@@ -87406,16 +87106,12 @@ usages:
       Small EMP Smartbomb I Blueprint: null
   Small EW Drone Range Augmentor I:
     maxreprocess: 0.55
-    productManuf: !!set
-      Small EW Drone Range Augmentor I Blueprint: null
     reprocess:
       Burned Logic Circuit: 4
       Broken Drone Transceiver: 4
       Tripped Power Circuit: 6
   Small EW Drone Range Augmentor II:
     maxreprocess: 0.55
-    productManuf: !!set
-      Small EW Drone Range Augmentor II Blueprint: null
     reprocess:
       Power Circuit: 1
       Logic Circuit: 1
@@ -88993,6 +88689,19 @@ usages:
     reprocess:
       Tritanium: 222
       Pyerite: 222
+  Small Stargate:
+    maxreprocess: 0.55
+    reprocess:
+      Structure Mission Network: 4
+      Structure Repair Facility: 1
+      Structure Docking Bay: 1
+      Structure Market Network: 4
+      Structure Construction Parts: 1
+      Structure Acceleration Coils: 400
+      Structure Hangar Array: 1
+      Structure Medical Center: 1
+      Structure Storage Bay: 1
+      Structure Office Center: 1
   Small Stasis Drone Augmentor I:
     maxreprocess: 0.55
     productManuf: !!set
@@ -89038,8 +88747,6 @@ usages:
       Isogen: 6
   Small Targeting Amplifier I:
     maxreprocess: 0.55
-    productManuf: !!set
-      Small Targeting Amplifier I Blueprint: null
     reprocess:
       Burned Logic Circuit: 2
       Damaged Artificial Neural Network: 3
@@ -89619,8 +89326,6 @@ usages:
   Stabber:
     materialManuf: !!set
       Vagabond Blueprint: null
-      Stabber Nefantar Edition Blueprint: null
-      Stabber Krusual Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Stabber Blueprint: null
@@ -89646,14 +89351,10 @@ usages:
       Megacyte: 356
   Stabber Krusual Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Stabber Krusual Edition Blueprint: null
     reprocess:
       Stabber: 1
   Stabber Nefantar Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Stabber Nefantar Edition Blueprint: null
     reprocess:
       Stabber: 1
   Stabilized Weapon Mounts:
@@ -94975,7 +94676,6 @@ usages:
       Structure Mission Network Blueprint: null
       Personal Hangar Array Blueprint: null
       Mobile Cynosural Inhibitor Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Entrapment Array 2 Blueprint: null
       Entrapment Array 3 Blueprint: null
       Entrapment Array 4 Blueprint: null
@@ -95410,21 +95110,21 @@ usages:
   Structure Cynosural Generator Array:
     maxreprocess: 0.55
     reprocess:
-      Tritanium: 3000000
-      Pyerite: 600000
-      Mexallon: 210000
-      Isogen: 24000
-      Nocxium: 4500
-      Zydrine: 2100
-      Megacyte: 900
-      Broadcast Node: 10
-      Integrity Response Drones: 20
-      Nano-Factory: 10
-      Organic Mortar Applicators: 10
-      Recursive Computing Module: 10
-      Self-Harmonizing Power Core: 20
-      Sterile Conduits: 10
-      Wetware Mainframe: 20
+      Tritanium: 250000
+      Pyerite: 50000
+      Mexallon: 17500
+      Isogen: 2000
+      Nocxium: 375
+      Zydrine: 175
+      Megacyte: 75
+      Broadcast Node: 1
+      Integrity Response Drones: 1
+      Nano-Factory: 1
+      Organic Mortar Applicators: 2
+      Recursive Computing Module: 1
+      Self-Harmonizing Power Core: 2
+      Sterile Conduits: 1
+      Wetware Mainframe: 2
   Structure Cynosural Jammer:
     maxreprocess: 0.55
     reprocess:
@@ -96192,21 +95892,21 @@ usages:
   Structure Stargate Connector:
     maxreprocess: 0.55
     reprocess:
-      Tritanium: 10000000
-      Pyerite: 2000000
-      Mexallon: 700000
-      Isogen: 80000
-      Nocxium: 15000
-      Zydrine: 7000
-      Megacyte: 3000
-      Broadcast Node: 75
-      Integrity Response Drones: 150
-      Nano-Factory: 75
-      Organic Mortar Applicators: 75
-      Recursive Computing Module: 75
-      Self-Harmonizing Power Core: 150
-      Sterile Conduits: 75
-      Wetware Mainframe: 150
+      Tritanium: 250000
+      Pyerite: 50000
+      Mexallon: 17500
+      Isogen: 2000
+      Nocxium: 375
+      Zydrine: 175
+      Megacyte: 75
+      Broadcast Node: 1
+      Integrity Response Drones: 1
+      Nano-Factory: 1
+      Organic Mortar Applicators: 2
+      Recursive Computing Module: 1
+      Self-Harmonizing Power Core: 2
+      Sterile Conduits: 1
+      Wetware Mainframe: 2
   Structure Stellar Mapping Array:
     maxreprocess: 0.55
     reprocess:
@@ -96284,21 +95984,21 @@ usages:
   Structure Warp Accelerant:
     maxreprocess: 0.55
     reprocess:
-      Tritanium: 1000000
-      Pyerite: 200000
-      Mexallon: 70000
-      Isogen: 8000
-      Nocxium: 1500
-      Zydrine: 700
-      Megacyte: 300
-      Broadcast Node: 3
-      Integrity Response Drones: 7
-      Nano-Factory: 3
-      Organic Mortar Applicators: 3
-      Recursive Computing Module: 3
-      Self-Harmonizing Power Core: 7
-      Sterile Conduits: 3
-      Wetware Mainframe: 7
+      Tritanium: 250000
+      Pyerite: 50000
+      Mexallon: 17500
+      Isogen: 2000
+      Nocxium: 375
+      Zydrine: 175
+      Megacyte: 75
+      Broadcast Node: 1
+      Integrity Response Drones: 1
+      Nano-Factory: 1
+      Organic Mortar Applicators: 2
+      Recursive Computing Module: 1
+      Self-Harmonizing Power Core: 2
+      Sterile Conduits: 1
+      Wetware Mainframe: 2
   Structure Wormhole Stabilizer:
     maxreprocess: 0.55
     reprocess:
@@ -96346,8 +96046,6 @@ usages:
       Zydrine: 34
   Sukuuvestaa Heron:
     maxreprocess: 0.55
-    productManuf: !!set
-      Sukuuvestaa Heron Blueprint: null
     reprocess:
       Tritanium: 1
   Sunesis:
@@ -98100,8 +97798,6 @@ usages:
       Megacyte: 2
   Tash-Murkon Magnate:
     maxreprocess: 0.55
-    productManuf: !!set
-      Tash-Murkon Magnate Blueprint: null
     reprocess:
       Tritanium: 13840
       Pyerite: 987
@@ -98131,7 +97827,6 @@ usages:
   Tayra:
     materialManuf: !!set
       Bustard Blueprint: null
-      Tayra Wiyrkomi Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Tayra Blueprint: null
@@ -98145,8 +97840,6 @@ usages:
       Megacyte: 14
   Tayra Wiyrkomi Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Tayra Wiyrkomi Edition Blueprint: null
     reprocess:
       Tayra: 1
   Technetium:
@@ -98225,9 +97918,6 @@ usages:
   Tempest:
     materialManuf: !!set
       Vargur Blueprint: null
-      Tempest Justice Edition Blueprint: null
-      Tempest Krusual Edition Blueprint: null
-      Tempest Nefantar Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Tempest Blueprint: null
@@ -98253,20 +97943,14 @@ usages:
       Megacyte: 6126
   Tempest Justice Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Tempest Justice Edition Blueprint: null
     reprocess:
       Tempest: 1
   Tempest Krusual Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Tempest Krusual Edition Blueprint: null
     reprocess:
       Tempest: 1
   Tempest Nefantar Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Tempest Nefantar Edition Blueprint: null
     reprocess:
       Tempest: 1
   Tempest Tribal Issue:
@@ -99080,8 +98764,6 @@ usages:
     materialManuf: !!set
       Phobos Blueprint: null
       Deimos Blueprint: null
-      Thorax Aliastra Edition Blueprint: null
-      Thorax Inner Zone Shipping Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Thorax Blueprint: null
@@ -99095,14 +98777,10 @@ usages:
       Megacyte: 288
   Thorax Aliastra Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Thorax Aliastra Edition Blueprint: null
     reprocess:
       Thorax: 1
   Thorax Inner Zone Shipping Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Thorax Inner Zone Shipping Edition Blueprint: null
     reprocess:
       Thorax: 1
   Thorium Charge L:
@@ -99142,7 +98820,6 @@ usages:
   Thrasher:
     materialManuf: !!set
       Sabre Blueprint: null
-      Thrasher Thukker Tribe Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Thrasher Blueprint: null
@@ -99155,8 +98832,6 @@ usages:
       Megacyte: 26
   Thrasher Thukker Tribe Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Thrasher Thukker Tribe Edition Blueprint: null
     reprocess:
       Thrasher: 1
   Thruster Console:
@@ -99316,6 +98991,20 @@ usages:
     materialManuf: !!set
       Deactivated Station Key Pass Blueprint: null
     maxreprocess: 0.55
+  Tiamat:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Tiamat Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 400
+      Tritanium: 614356
+      Pyerite: 154233
+      Mexallon: 39907
+      Isogen: 9687
+      Nocxium: 2387
+      Zydrine: 1202
+      Crystalline Isogen-10: 435
+      Megacyte: 356
   Titanite:
     maxreprocess: 0.8934
     reprocess:
@@ -100193,7 +99882,6 @@ usages:
       Medium Drone Mining Augmentor I Blueprint: null
       Small Drone Repair Augmentor I Blueprint: null
       Medium Drone Repair Augmentor I Blueprint: null
-      Small EW Drone Range Augmentor I Blueprint: null
       Small Sentry Damage Augmentor I Blueprint: null
       Medium Sentry Damage Augmentor I Blueprint: null
       Small Stasis Drone Augmentor I Blueprint: null
@@ -100226,7 +99914,6 @@ usages:
   Tristan:
     materialManuf: !!set
       Nemesis Blueprint: null
-      Tristan Quafe Edition Blueprint: null
       Virtuoso Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -100241,8 +99928,6 @@ usages:
       Megacyte: 2
   Tristan Quafe Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Tristan Quafe Edition Blueprint: null
     reprocess:
       Tristan: 1
   Tritanium:
@@ -100493,7 +100178,6 @@ usages:
       Praetor I Blueprint: null
       Acolyte I Blueprint: null
       Sansha Juggernaut Torpedo Blueprint: null
-      Ghost Heavy Missile Blueprint: null
       Explosive Deflection Field I Blueprint: null
       Kinetic Deflection Field I Blueprint: null
       EM Ward Field I Blueprint: null
@@ -100532,7 +100216,6 @@ usages:
       Medium Hull Repairer I Blueprint: null
       Large Hull Repairer I Blueprint: null
       Vigil Blueprint: null
-      Data Subverter I Blueprint: null
       Medium Shield Extender I Blueprint: null
       Large Shield Extender I Blueprint: null
       Medium Proton Smartbomb I Blueprint: null
@@ -100543,14 +100226,12 @@ usages:
       Large Graviton Smartbomb I Blueprint: null
       Large Plasma Smartbomb I Blueprint: null
       Large EMP Smartbomb I Blueprint: null
-      Scorpion Ishukone Watch Blueprint: null
       Oracle Blueprint: null
       Naga Blueprint: null
       Talos Blueprint: null
       Tornado Blueprint: null
       Miasmos Quafe Ultra Edition Blueprint: null
       Large Micro Jump Drive Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Miasmos Quafe Ultramarine Edition Blueprint: null
       Drone Damage Amplifier I Blueprint: null
       Reactive Armor Hardener Blueprint: null
@@ -100951,10 +100632,6 @@ usages:
       Structure Mission Network Blueprint: null
       Data Analyzer I Blueprint: null
       Relic Analyzer I Blueprint: null
-      '''Daemon'' Data Analyzer I Blueprint': null
-      '''Codex'' Data Analyzer I Blueprint': null
-      '''Alpha'' Data Analyzer I Blueprint': null
-      '''Libram'' Data Analyzer I Blueprint': null
       Mining Laser Upgrade I Blueprint: null
       Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint: null
       Mining Foreman Link - Mining Laser Field Enhancement I Blueprint: null
@@ -100991,12 +100668,10 @@ usages:
       '''Executive'' Remote Sensor Dampener Blueprint': null
       '''Beatnik'' Small Remote Armor Repairer Blueprint': null
       '''Love'' Medium Remote Armor Repairer Blueprint': null
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
       Templar I Blueprint: null
       Dragonfly I Blueprint: null
       Firbolg I Blueprint: null
       Einherji I Blueprint: null
-      '''Brotherhood'' Small Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
       '''Radical'' Damage Control Blueprint': null
       Wasp EC-900 Blueprint: null
@@ -101099,7 +100774,6 @@ usages:
       Mjolnir Heavy Assault Missile Blueprint: null
       Inferno Heavy Assault Missile Blueprint: null
       Scourge Heavy Assault Missile Blueprint: null
-      Civilian Salvager Blueprint: null
       Civilian Data Analyzer Blueprint: null
       Station Warehouse Container Blueprint: null
       Angel Control Tower Blueprint: null
@@ -101212,11 +100886,6 @@ usages:
       Ammatar Navy Thermal Plating Blueprint: null
       Miasmos Amastris Edition Blueprint: null
       Quest Survey Probe I Blueprint: null
-      InterBus Catalyst Blueprint: null
-      Intaki Syndicate Catalyst Blueprint: null
-      Inner Zone Shipping Catalyst Blueprint: null
-      Quafe Catalyst Blueprint: null
-      Aliastra Catalyst Blueprint: null
       Discovery Survey Probe I Blueprint: null
       Gaze Survey Probe I Blueprint: null
       Station Container Blueprint: null
@@ -101239,10 +100908,6 @@ usages:
       Talwar Blueprint: null
       Venture Blueprint: null
       Salvage Drone I Blueprint: null
-      Sukuuvestaa Heron Blueprint: null
-      Inner Zone Shipping Imicus Blueprint: null
-      Sarum Magnate Blueprint: null
-      Vherokior Probe Blueprint: null
       Enormous Freight Container Blueprint: null
       Huge Freight Container Blueprint: null
       Large Freight Container Blueprint: null
@@ -101260,7 +100925,6 @@ usages:
       Scan Acquisition Array I Blueprint: null
       Scan Pinpointing Array I Blueprint: null
       Scan Rangefinding Array I Blueprint: null
-      Tash-Murkon Magnate Blueprint: null
       Survey Probe Launcher I Blueprint: null
       Gnosis Blueprint: null
       Moracha Blueprint: null
@@ -101299,7 +100963,6 @@ usages:
       Limited Hyperspatial Accelerator Blueprint: null
       Experimental Hyperspatial Accelerator Blueprint: null
       Prototype Hyperspatial Accelerator Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Limited Jump Drive Economizer Blueprint: null
       Experimental Jump Drive Economizer Blueprint: null
       Prototype Jump Drive Economizer Blueprint: null
@@ -101516,8 +101179,9 @@ usages:
       Heavy Scoped Entropic Disintegrator Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   True Sansha Adaptive Nano Plating:
     maxreprocess: 0.55
@@ -103892,6 +103556,32 @@ usages:
       Pyerite: 452
       Mexallon: 1
       Isogen: 1
+  Upwell Cynosural Beacon:
+    maxreprocess: 0.55
+    reprocess:
+      Structure Mission Network: 4
+      Structure Repair Facility: 1
+      Structure Docking Bay: 1
+      Structure Construction Parts: 1
+      Structure Market Network: 4
+      Structure Hangar Array: 1
+      Structure Medical Center: 1
+      Structure Acceleration Coils: 400
+      Structure Storage Bay: 1
+      Structure Office Center: 1
+  Upwell Cynosural System Jammer:
+    maxreprocess: 0.55
+    reprocess:
+      Structure Mission Network: 4
+      Structure Repair Facility: 1
+      Structure Docking Bay: 1
+      Structure Construction Parts: 1
+      Structure Market Network: 4
+      Structure Hangar Array: 1
+      Structure Medical Center: 1
+      Structure Acceleration Coils: 400
+      Structure Storage Bay: 1
+      Structure Office Center: 1
   Upwell Palatine Keepstar:
     maxreprocess: 0.55
     productManuf: !!set
@@ -104102,10 +103792,6 @@ usages:
       Capital Power Generator: 1890
       Capital Shield Emitter: 1575
   Vargur:
-    materialManuf: !!set
-      Vargur Justice Edition Blueprint: null
-      Vargur Krusual Edition Blueprint: null
-      Vargur Nefantar Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Vargur Blueprint: null
@@ -104132,20 +103818,14 @@ usages:
       Tempest Blueprint: null
   Vargur Justice Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Vargur Justice Edition Blueprint: null
     reprocess:
       Vargur: 1
   Vargur Krusual Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Vargur Krusual Edition Blueprint: null
     reprocess:
       Vargur: 1
   Vargur Nefantar Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Vargur Nefantar Edition Blueprint: null
     reprocess:
       Vargur: 1
   Vedmak:
@@ -104474,7 +104154,6 @@ usages:
   Vexor:
     materialManuf: !!set
       Ishtar Blueprint: null
-      Vexor Quafe Edition Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Vexor Blueprint: null
@@ -104500,14 +104179,10 @@ usages:
       Megacyte: 288
   Vexor Quafe Edition:
     maxreprocess: 0.55
-    productManuf: !!set
-      Vexor Quafe Edition Blueprint: null
     reprocess:
       Vexor: 1
   Vherokior Probe:
     maxreprocess: 0.55
-    productManuf: !!set
-      Vherokior Probe Blueprint: null
     reprocess:
       Tritanium: 1
   Viator:
@@ -105253,7 +104928,6 @@ usages:
     materialManuf: !!set
       Warp Scrambler II Blueprint: null
       Warp Scrambling Battery Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Mobile Small Warp Disruptor I Blueprint: null
       Mobile Medium Warp Disruptor I Blueprint: null
       Mobile Large Warp Disruptor I Blueprint: null
@@ -105466,7 +105140,6 @@ usages:
       Mobile Scan Inhibitor Blueprint: null
       '''Packrat'' Mobile Tractor Unit Blueprint': null
       '''Magpie'' Mobile Tractor Unit Blueprint': null
-      Mobile Competitive Vault Blueprint: null
       Entrapment Array 2 Blueprint: null
       Entrapment Array 3 Blueprint: null
       Entrapment Array 4 Blueprint: null
@@ -106012,19 +105685,6 @@ usages:
       Current Pump: 210000
       Trigger Unit: 210000
       Drone Transceiver: 210000
-  X-Large Stargate:
-    maxreprocess: 0.55
-    reprocess:
-      Structure Mission Network: 4
-      Structure Repair Facility: 100
-      Structure Docking Bay: 100
-      Structure Market Network: 4
-      Structure Construction Parts: 100
-      Structure Medical Center: 40
-      Structure Hangar Array: 100
-      Structure Acceleration Coils: 400
-      Structure Office Center: 40
-      Structure Storage Bay: 100
   X5 Enduring Stasis Webifier:
     maxreprocess: 0.55
     reprocess:
@@ -106214,7 +105874,6 @@ usages:
       '''Beatnik'' Small Remote Armor Repairer Blueprint': null
       '''Love'' Medium Remote Armor Repairer Blueprint': null
       '''Cartel'' Power Diagnostic System I Blueprint': null
-      '''Brotherhood'' Small Remote Armor Repairer Blueprint': null
       '''Radical'' Damage Control Blueprint': null
     maxreprocess: 0.55
   Yan Jung Glass Scale:
@@ -106236,14 +105895,12 @@ usages:
       '''Harmony'' Small Armor Repairer I Blueprint': null
       '''Beatnik'' Small Remote Armor Repairer Blueprint': null
       '''Cartel'' Power Diagnostic System I Blueprint': null
-      '''Brotherhood'' Small Remote Armor Repairer Blueprint': null
       '''Radical'' Damage Control Blueprint': null
     maxreprocess: 0.55
   Yan Jung Nano Fabric:
     materialManuf: !!set
       '''Natura'' Warp Core Stabilizer I Blueprint': null
       '''Protest'' Large Armor Repairer I Blueprint': null
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
     maxreprocess: 0.55
   Yan Jung Null Shell:
@@ -106254,7 +105911,6 @@ usages:
       '''Beatnik'' Small Remote Armor Repairer Blueprint': null
       '''Love'' Medium Remote Armor Repairer Blueprint': null
       '''Cartel'' Power Diagnostic System I Blueprint': null
-      '''Brotherhood'' Small Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
       '''Radical'' Damage Control Blueprint': null
     maxreprocess: 0.55
@@ -106274,7 +105930,6 @@ usages:
       '''Natura'' Warp Core Stabilizer I Blueprint': null
       '''Meditation'' Medium Armor Repairer I Blueprint': null
       '''Love'' Medium Remote Armor Repairer Blueprint': null
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
     maxreprocess: 0.55
   Yan Jung Semiotic Theory:
@@ -106296,14 +105951,12 @@ usages:
       '''Natura'' Warp Core Stabilizer I Blueprint': null
       '''Pilfer'' Energized Adaptive Nano Membrane I Blueprint': null
       '''Protest'' Large Armor Repairer I Blueprint': null
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
     maxreprocess: 0.55
   Yan Jung Tachyon Stetoscope:
     materialManuf: !!set
       '''Natura'' Warp Core Stabilizer I Blueprint': null
       '''Protest'' Large Armor Repairer I Blueprint': null
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
     maxreprocess: 0.55
   Yan Jung Thunder Kite:
@@ -106312,7 +105965,6 @@ usages:
       '''Meditation'' Medium Armor Repairer I Blueprint': null
       '''Shady'' Sensor Booster Blueprint': null
       '''Love'' Medium Remote Armor Repairer Blueprint': null
-      '''Pacifier'' Large Remote Armor Repairer Blueprint': null
       '''Peace'' Large Remote Armor Repairer Blueprint': null
     maxreprocess: 0.55
   Yan Jung Trigonometric Laws:
@@ -107697,8 +107349,8 @@ usages:
       Heavy Scoped Entropic Disintegrator Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
     maxreprocess: 0.55
   Zeugma Integrated Analyzer:
     maxreprocess: 0.55
@@ -107877,11 +107529,9 @@ usages:
       Tornado Blueprint: null
       Miasmos Quafe Ultra Edition Blueprint: null
       Large Micro Jump Drive Blueprint: null
-      Mobile Large Jump Disruptor I Blueprint: null
       Miasmos Quafe Ultramarine Edition Blueprint: null
       Drone Damage Amplifier I Blueprint: null
       Reactive Armor Hardener Blueprint: null
-      Shield Booster Fuel Allocation Script Blueprint: null
       Target Spectrum Breaker Blueprint: null
       X-Large Shield Booster I Blueprint: null
       Guardian-Vexor Blueprint: null
@@ -108232,13 +107882,11 @@ usages:
       Corax Blueprint: null
       Talwar Blueprint: null
       Venture Blueprint: null
-      Sarum Magnate Blueprint: null
       Deactivated Station Key Pass Blueprint: null
       Brutix Navy Issue Blueprint: null
       Drake Navy Issue Blueprint: null
       Harbinger Navy Issue Blueprint: null
       Hurricane Fleet Issue Blueprint: null
-      Tash-Murkon Magnate Blueprint: null
       Moracha Blueprint: null
       Chremoas Blueprint: null
       Bastion Module I Blueprint: null
@@ -108273,7 +107921,6 @@ usages:
       Limited Hyperspatial Accelerator Blueprint: null
       Experimental Hyperspatial Accelerator Blueprint: null
       Prototype Hyperspatial Accelerator Blueprint: null
-      Mobile Competitive Vault Blueprint: null
       Limited Jump Drive Economizer Blueprint: null
       Experimental Jump Drive Economizer Blueprint: null
       Prototype Jump Drive Economizer Blueprint: null
@@ -108459,8 +108106,9 @@ usages:
       Entropic Radiation Sink I Blueprint: null
       Supratidal Compact Entropic Disintegrator Blueprint: null
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-      unnamed_g106_ic0: null
-      unnamed_g105_ic0: null
+      Tiamat Blueprint: null
+      Hydra Blueprint: null
+      unnamed_g176_ic0: null
     maxreprocess: 0.55
   testArmorMod_PLACEHOLDER:
     maxreprocess: 0.55
@@ -108491,35 +108139,17 @@ usages:
       Sustained Shield Emitter: 8
       Morphite: 11
       Superconductors: 15
-  unnamed_g830_ic0:
+  unnamed_g100_ic0:
     maxreprocess: 0.55
     productManuf: !!set
-      unnamed_g105_ic0: null
+      unnamed_g176_ic0: null
     reprocess:
-      Zero-Point Condensate: 150
-      Tritanium: 23304
-      Pyerite: 6290
-      Mexallon: 2949
-      Isogen: 398
-      Nocxium: 82
-      Zydrine: 20
-      Crystalline Isogen-10: 220
-      Megacyte: 2
-  unnamed_g833_ic0:
-    maxreprocess: 0.55
-    productManuf: !!set
-      unnamed_g106_ic0: null
-    reprocess:
-      Zero-Point Condensate: 400
-      Tritanium: 614356
-      Pyerite: 154233
-      Mexallon: 39907
-      Isogen: 9687
-      Nocxium: 2387
-      Zydrine: 1202
-      Crystalline Isogen-10: 435
-      Megacyte: 356
-  ‘Cold Wind�� Kinetic Reaper:
+      Tritanium: 5947
+      Pyerite: 729
+      Isogen: 47
+      Nocxium: 27
+      Zydrine: 18
+  ‘Cold Wind’ Kinetic Reaper:
     maxreprocess: 0.55
     productManuf: !!set
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -108579,6 +108209,18 @@ usages:
       Nocxium: 353314
       Zydrine: 43638
       Megacyte: 48181
+  ‘Iron Pike’ Kinetic Lance:
+    maxreprocess: 0.55
+    productManuf: !!set
+      ‘Iron Pike’ Kinetic Lance Blueprint: null
+    reprocess:
+      Tritanium: 1809763
+      Pyerite: 1323826
+      Mexallon: 440610
+      Isogen: 274116
+      Nocxium: 335112
+      Zydrine: 42931
+      Megacyte: 46295
   ‘Jormungandr’ Explosive Reaper:
     maxreprocess: 0.55
     productManuf: !!set
@@ -108591,7 +108233,7 @@ usages:
       Nocxium: 340313
       Zydrine: 40521
       Megacyte: 52250
-  ‘Phalarica’ Thermal Lance:
+  ‘Phalarica�� Thermal Lance:
     maxreprocess: 0.55
     productManuf: !!set
       ‘Phalarica’ Thermal Lance Blueprint: null
@@ -108634,13 +108276,13 @@ usages:
       乌鸦级YC117年特别版蓝图: null
     reprocess:
       Raven: 1
-  伊什塔级YC117年���别版:
+  伊什塔级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       伊什塔级YC117年特别版蓝图: null
     reprocess:
       Ishtar: 1
-  响尾蛇级YC117年特��版:
+  响尾蛇级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       响尾蛇级YC117年特别版蓝图: null
@@ -108664,7 +108306,7 @@ usages:
       幼龙级YC117年特别版蓝图: null
     reprocess:
       Drake: 1
-  末��沙场级YC117年特别版:
+  末日沙场级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       末日沙场级YC117年特别版蓝图: null
@@ -108673,13 +108315,13 @@ usages:
   毒蜥级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      毒蜥级YC117年特别版蓝图: null
+      毒蜥级YC117年特��版蓝图: null
     reprocess:
       Gila: 1
   灾难级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      ��难级YC117年特别版蓝图: null
+      灾难级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
   银鹰级YC117年特别版:
@@ -108691,18 +108333,6 @@ usages:
   马克瑞级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      马克瑞级YC117年特别版蓝图: null
+      ��克瑞级YC117年特别版蓝图: null
     reprocess:
       Machariel: 1
-  ���Iron Pike’ Kinetic Lance:
-    maxreprocess: 0.55
-    productManuf: !!set
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
-    reprocess:
-      Tritanium: 1809763
-      Pyerite: 1323826
-      Mexallon: 440610
-      Isogen: 274116
-      Nocxium: 335112
-      Zydrine: 42931
-      Megacyte: 46295

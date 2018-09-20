@@ -4,13 +4,17 @@ items:
     Cpu: 100.0
     Duration: 12000.0
     FalloffEffectiveness: 8000
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
     Hp: 40
     MaxRange: 15000
+    OverloadSelfDurationBonus: -15.0
     Power: 100000
     RequiredSkill1: 27936
     RequiredSkill1Level: 1
     RequiredSkill2: 27902
     RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 360
     TechLevel: 1
     id: 27934
@@ -22,14 +26,18 @@ items:
     Cpu: 110.0
     Duration: 12000.0
     FalloffEffectiveness: 9600
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
     Hp: 40
     MaxRange: 18000
     MetaLevel: 5
+    OverloadSelfDurationBonus: -15.0
     Power: 110000
     RequiredSkill1: 27936
     RequiredSkill1Level: 1
     RequiredSkill2: 27902
     RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 430
     TechLevel: 2
     id: 41475
@@ -40,11 +48,15 @@ items:
     CapacitorNeed: 488.0
     Duration: 6000.0
     FalloffEffectiveness: 7000
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
     Hp: 40
     MaxRange: 12000
+    OverloadSelfDurationBonus: -15.0
     Power: 380
     RequiredSkill1: 27902
     RequiredSkill1Level: 3
+    RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 192
     TechLevel: 1
     id: 27904
@@ -56,12 +68,16 @@ items:
     Cpu: 99.0
     Duration: 6000.0
     FalloffEffectiveness: 8400
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
     Hp: 40
     MaxRange: 14400
     MetaLevel: 5
+    OverloadSelfDurationBonus: -15.0
     Power: 399
     RequiredSkill1: 27902
     RequiredSkill1Level: 5
+    RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 230
     TechLevel: 2
     id: 3986
@@ -72,11 +88,15 @@ items:
     CapacitorNeed: 244.0
     Duration: 6000.0
     FalloffEffectiveness: 5000
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
     Hp: 40
     MaxRange: 8750
+    OverloadSelfDurationBonus: -15.0
     Power: 115
     RequiredSkill1: 27902
     RequiredSkill1Level: 2
+    RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 96
     TechLevel: 1
     id: 27930
@@ -88,12 +108,16 @@ items:
     Cpu: 75.0
     Duration: 6000.0
     FalloffEffectiveness: 6000
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
     Hp: 40
     MaxRange: 10500
     MetaLevel: 5
+    OverloadSelfDurationBonus: -15.0
     Power: 121
     RequiredSkill1: 27902
     RequiredSkill1Level: 5
+    RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 115
     TechLevel: 2
     id: 4296
@@ -104,11 +128,15 @@ items:
     CapacitorNeed: 122.0
     Duration: 6000.0
     FalloffEffectiveness: 5000
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
     Hp: 40
     MaxRange: 7000
+    OverloadSelfDurationBonus: -15.0
     Power: 6
     RequiredSkill1: 27902
     RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 48
     TechLevel: 1
     id: 27932
@@ -120,12 +148,16 @@ items:
     Cpu: 50.0
     Duration: 6000.0
     FalloffEffectiveness: 6000
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
     Hp: 40
     MaxRange: 8400
     MetaLevel: 5
+    OverloadSelfDurationBonus: -15.0
     Power: 6
     RequiredSkill1: 27902
     RequiredSkill1Level: 5
+    RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 58
     TechLevel: 2
     id: 4299

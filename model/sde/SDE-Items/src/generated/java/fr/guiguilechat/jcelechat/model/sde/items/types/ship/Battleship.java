@@ -278,7 +278,14 @@ public class Battleship
     @DefaultIntValue(0)
     public int ShipMaintenanceBayCapacity;
     /**
-     * How many upgrades can by fitted to this ship.
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipRoleBonusWarpSpeed;
+    /**
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -439,6 +446,10 @@ public class Battleship
             case  908 :
             {
                 return ShipMaintenanceBayCapacity;
+            }
+            case  2789 :
+            {
+                return ShipRoleBonusWarpSpeed;
             }
             case  1154 :
             {

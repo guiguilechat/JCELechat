@@ -1,28 +1,4 @@
 items:
-  '''Alpha'' Data Analyzer I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 22330
-    name: '''Alpha'' Data Analyzer I Blueprint'
-    volume: 0.01
-  '''Codex'' Data Analyzer I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 22328
-    name: '''Codex'' Data Analyzer I Blueprint'
-    volume: 0.01
-  '''Daemon'' Data Analyzer I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 22326
-    name: '''Daemon'' Data Analyzer I Blueprint'
-    volume: 0.01
-  '''Libram'' Data Analyzer I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 22332
-    name: '''Libram'' Data Analyzer I Blueprint'
-    volume: 0.01
   Civilian Data Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
@@ -42,12 +18,6 @@ items:
     TechLevel: 2
     id: 30835
     name: Data Analyzer II Blueprint
-    volume: 0.01
-  Data Subverter I Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 3794
-    name: Data Subverter I Blueprint
     volume: 0.01
   Ligature Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0

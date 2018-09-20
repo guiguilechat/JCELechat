@@ -503,6 +503,7 @@ items:
     ShieldRechargeRate: 625000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
+    ShipRoleBonusWarpSpeed: 300
     SignatureRadius: 25
     StructureUniformity: 1.0
     TechLevel: 1
@@ -511,7 +512,7 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
-    WarpSpeedMultiplier: 20.0
+    WarpSpeedMultiplier: 5.0
     id: 33513
     marketGroup: 1618
     name: Leopard

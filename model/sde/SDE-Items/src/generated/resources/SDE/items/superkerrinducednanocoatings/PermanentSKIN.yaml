@@ -1021,6 +1021,11 @@ items:
     marketGroup: 1990
     name: Augoror Cold Iron SKIN (Permanent)
     volume: 0.01
+  Augoror Combat Medic Section SKIN (Permanent):
+    id: 48719
+    marketGroup: 1990
+    name: Augoror Combat Medic Section SKIN (Permanent)
+    volume: 0.01
   Augoror EoM SKIN (Permanent):
     id: 36279
     name: Augoror EoM SKIN (Permanent)
@@ -1278,6 +1283,11 @@ items:
     id: 36728
     marketGroup: 2078
     name: Basilisk Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Basilisk Emergency Response Squad SKIN (Permanent):
+    id: 48724
+    marketGroup: 2078
+    name: Basilisk Emergency Response Squad SKIN (Permanent)
     volume: 0.01
   Basilisk Exoplanets Hunter SKIN (Permanent):
     id: 45840
@@ -2548,6 +2558,11 @@ items:
     marketGroup: 1995
     name: Corax Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Corax Caldari Union Day SKIN (Permanent):
+    id: 48727
+    marketGroup: 1995
+    name: Corax Caldari Union Day SKIN (Permanent)
+    volume: 0.01
   Corax Exoplanets Hunter SKIN (Permanent):
     id: 45828
     marketGroup: 1995
@@ -3029,6 +3044,16 @@ items:
     marketGroup: 2376
     name: Dagon Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Damavik Hadean Horror SKIN (Permanent):
+    id: 48653
+    marketGroup: 2486
+    name: Damavik Hadean Horror SKIN (Permanent)
+    volume: 0.01
+  Damavik Singularity Storm SKIN (Permanent):
+    id: 48649
+    marketGroup: 2486
+    name: Damavik Singularity Storm SKIN (Permanent)
+    volume: 0.01
   Damavik Triglavian Victory SKIN (Permanent):
     id: 48563
     marketGroup: 2486
@@ -3386,6 +3411,11 @@ items:
     marketGroup: 1957
     name: Drake Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Drake Caldari Union Day SKIN (Permanent):
+    id: 48729
+    marketGroup: 1957
+    name: Drake Caldari Union Day SKIN (Permanent)
+    volume: 0.01
   Drake Capsuleer Day XV SKIN (Permanent):
     id: 47629
     marketGroup: 1957
@@ -3737,6 +3767,11 @@ items:
     marketGroup: 2009
     name: Epithal Kopis Edge SKIN (Permanent)
     volume: 0.01
+  Epithal Planetary Extraction (Upwell) SKIN (Permanent):
+    id: 48656
+    marketGroup: 2009
+    name: Epithal Planetary Extraction (Upwell) SKIN (Permanent)
+    volume: 0.01
   Epithal Ruby Sungrazer SKIN (Permanent):
     id: 45575
     marketGroup: 2009
@@ -3926,6 +3961,11 @@ items:
     id: 37485
     marketGroup: 2002
     name: Executioner Raata Sunset SKIN (Permanent)
+    volume: 0.01
+  Exequror Combat Medic Section SKIN (Permanent):
+    id: 48721
+    marketGroup: 1992
+    name: Exequror Combat Medic Section SKIN (Permanent)
     volume: 0.01
   Exequror Exoplanets Hunter SKIN (Permanent):
     id: 45893
@@ -4329,6 +4369,11 @@ items:
     marketGroup: 2025
     name: Golem Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Golem Caldari Union Day SKIN (Permanent):
+    id: 48733
+    marketGroup: 2025
+    name: Golem Caldari Union Day SKIN (Permanent)
+    volume: 0.01
   Golem Exoplanets Hunter SKIN (Permanent):
     id: 45856
     marketGroup: 2025
@@ -4469,6 +4514,11 @@ items:
     id: 42773
     marketGroup: 2077
     name: Guardian Cold Iron SKIN (Permanent)
+    volume: 0.01
+  Guardian Emergency Response Squad SKIN (Permanent):
+    id: 48723
+    marketGroup: 2077
+    name: Guardian Emergency Response Squad SKIN (Permanent)
     volume: 0.01
   Guardian EoM SKIN (Permanent):
     id: 36295
@@ -6141,6 +6191,16 @@ items:
     marketGroup: 2371
     name: Legion Sunburst SKIN (Permanent)
     volume: 0.01
+  Leshak Hadean Horror SKIN (Permanent):
+    id: 48655
+    marketGroup: 2482
+    name: Leshak Hadean Horror SKIN (Permanent)
+    volume: 0.01
+  Leshak Singularity Storm SKIN (Permanent):
+    id: 48651
+    marketGroup: 2482
+    name: Leshak Singularity Storm SKIN (Permanent)
+    volume: 0.01
   Leshak Triglavian Victory SKIN (Permanent):
     id: 48565
     marketGroup: 2482
@@ -7352,6 +7412,11 @@ items:
     marketGroup: 1957
     name: Naga Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Naga Caldari Union Day SKIN (Permanent):
+    id: 48730
+    marketGroup: 1957
+    name: Naga Caldari Union Day SKIN (Permanent)
+    volume: 0.01
   Naga Exoplanets Hunter SKIN (Permanent):
     id: 45848
     marketGroup: 1957
@@ -8102,6 +8167,11 @@ items:
     id: 37097
     name: Omen Tash-Murkon Serenity Only SKIN (Permanent)
     volume: 0.01
+  Oneiros Emergency Response Squad SKIN (Permanent):
+    id: 48725
+    marketGroup: 2079
+    name: Oneiros Emergency Response Squad SKIN (Permanent)
+    volume: 0.01
   Oneiros Exoplanets Hunter SKIN (Permanent):
     id: 45899
     marketGroup: 2079
@@ -8363,6 +8433,11 @@ items:
     marketGroup: 1991
     name: Osprey Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Osprey Combat Medic Section SKIN (Permanent):
+    id: 48720
+    marketGroup: 1991
+    name: Osprey Combat Medic Section SKIN (Permanent)
+    volume: 0.01
   Osprey Exoplanets Hunter SKIN (Permanent):
     id: 45836
     marketGroup: 1991
@@ -8623,6 +8698,11 @@ items:
     id: 36741
     marketGroup: 1981
     name: Phoenix Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Phoenix Caldari Union Day SKIN (Permanent):
+    id: 48734
+    marketGroup: 1981
+    name: Phoenix Caldari Union Day SKIN (Permanent)
     volume: 0.01
   Phoenix Exoplanets Hunter SKIN (Permanent):
     id: 45859
@@ -9460,6 +9540,11 @@ items:
     marketGroup: 1965
     name: Raven Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Raven Caldari Union Day SKIN (Permanent):
+    id: 48732
+    marketGroup: 1965
+    name: Raven Caldari Union Day SKIN (Permanent)
+    volume: 0.01
   Raven Exoplanets Hunter SKIN (Permanent):
     id: 45852
     marketGroup: 1965
@@ -9921,6 +10006,11 @@ items:
     marketGroup: 1965
     name: Rokh Blue Tiger SKIN (Permanent)
     volume: 0.01
+  Rokh Caldari Union Day SKIN (Permanent):
+    id: 48731
+    marketGroup: 1965
+    name: Rokh Caldari Union Day SKIN (Permanent)
+    volume: 0.01
   Rokh Exoplanets Hunter SKIN (Permanent):
     id: 45853
     marketGroup: 1965
@@ -10103,6 +10193,11 @@ items:
     marketGroup: 1969
     name: Rorqual Sansha Industrial Livery SKIN (Permanent)
     volume: 0.01
+  Rorqual Sovereign Claim SKIN (Permanent):
+    id: 48735
+    marketGroup: 1969
+    name: Rorqual Sovereign Claim SKIN (Permanent)
+    volume: 0.01
   Rupture Bloody Hands SKIN (Permanent):
     id: 47161
     marketGroup: 1993
@@ -10267,6 +10362,11 @@ items:
     marketGroup: 2080
     name: Scimitar Dawn of Liberation SKIN (Permanent)
     volume: 0.01
+  Scimitar Emergency Response Squad SKIN (Permanent):
+    id: 48726
+    marketGroup: 2080
+    name: Scimitar Emergency Response Squad SKIN (Permanent)
+    volume: 0.01
   Scimitar Exoplanets Hunter SKIN (Permanent):
     id: 45961
     marketGroup: 2080
@@ -10384,6 +10484,11 @@ items:
     id: 36816
     marketGroup: 1993
     name: Scythe Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Scythe Combat Medic Section SKIN (Permanent):
+    id: 48722
+    marketGroup: 1993
+    name: Scythe Combat Medic Section SKIN (Permanent)
     volume: 0.01
   Scythe Dawn of Liberation SKIN (Permanent):
     id: 48503
@@ -10870,6 +10975,11 @@ items:
     id: 40322
     marketGroup: 2143
     name: Stork Blue Tiger SKIN (Permanent)
+    volume: 0.01
+  Stork Caldari Union Day SKIN (Permanent):
+    id: 48728
+    marketGroup: 2143
+    name: Stork Caldari Union Day SKIN (Permanent)
     volume: 0.01
   Stork Exoplanets Hunter SKIN (Permanent):
     id: 45830
@@ -11958,6 +12068,16 @@ items:
     marketGroup: 2027
     name: Vargur Valklear Glory SKIN (Permanent)
     volume: 0.01
+  Vedmak Hadean Horror SKIN (Permanent):
+    id: 48654
+    marketGroup: 2485
+    name: Vedmak Hadean Horror SKIN (Permanent)
+    volume: 0.01
+  Vedmak Singularity Storm SKIN (Permanent):
+    id: 48650
+    marketGroup: 2485
+    name: Vedmak Singularity Storm SKIN (Permanent)
+    volume: 0.01
   Vedmak Triglavian Victory SKIN (Permanent):
     id: 48564
     marketGroup: 2485
@@ -12637,7 +12757,7 @@ items:
     name: Zealot Raata Sunset SKIN (Permanent)
     volume: 0.01
   unnamed_g1950_ic0:
-    id: 48735
-    marketGroup: 1969
+    id: 48896
+    marketGroup: 1967
     name: unnamed_g1950_ic0
     volume: 0.01

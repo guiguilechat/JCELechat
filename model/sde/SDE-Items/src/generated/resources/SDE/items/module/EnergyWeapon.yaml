@@ -1072,7 +1072,7 @@ items:
     ChargeSize: 4
     Cpu: 90.0
     DamageMultiplier: 7.331250190734863
-    Falloff: 32000
+    Falloff: 42000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
     Hp: 40

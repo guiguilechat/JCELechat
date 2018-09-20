@@ -9,6 +9,7 @@ items:
     ArmorUniformity: 1.0
     AutoFractureDelay: 10800
     CapacitorCapacity: 100000.0
+    CargoDeliveryRange: 10000
     CpuOutput: 14000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
@@ -79,6 +80,7 @@ items:
     ArmorUniformity: 1.0
     AutoFractureDelay: 10800
     CapacitorCapacity: 300000.0
+    CargoDeliveryRange: 10000
     CpuOutput: 29000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929

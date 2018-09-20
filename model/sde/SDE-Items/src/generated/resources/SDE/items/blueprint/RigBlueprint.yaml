@@ -3503,18 +3503,6 @@ items:
     id: 31136
     name: Small Dynamic Fuel Valve II Blueprint
     volume: 0.01
-  Small EW Drone Range Augmentor I Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 1
-    id: 32066
-    name: Small EW Drone Range Augmentor I Blueprint
-    volume: 0.01
-  Small EW Drone Range Augmentor II Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 2
-    id: 32078
-    name: Small EW Drone Range Augmentor II Blueprint
-    volume: 0.01
   Small Egress Port Maximizer I Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 1
@@ -4067,12 +4055,6 @@ items:
     TechLevel: 2
     id: 32094
     name: Small Stasis Drone Augmentor II Blueprint
-    volume: 0.01
-  Small Targeting Amplifier I Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 1
-    id: 4370
-    name: Small Targeting Amplifier I Blueprint
     volume: 0.01
   Small Targeting System Subcontroller I Blueprint:
     IndustryBlueprintRank: 5.0

@@ -400,7 +400,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	////
 
 	// TODO why set to 200 ? it seems lower value make deadlock
-	// we set daemon otherwise the thread will prevent jvm from running.
+	// we set daemon otherwise the thread will prevent jvm from dying.
 	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(200, r -> {
 		Thread t = Executors.defaultThreadFactory().newThread(r);
 		t.setDaemon(true);
@@ -508,7 +508,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			try {
 				delay_ms = do_execute();
 			} catch (Throwable e) {
-				logger.warn("while  fetching cache", e);
+				logger.warn("while  fetching " + loggingName, e);
 			} finally {
 				schedule(delay_ms);
 			}

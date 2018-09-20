@@ -91,7 +91,7 @@ items:
     ShipBonusSupercarrierA2: -4
     ShipBonusSupercarrierA3: -5
     ShipBonusSupercarrierA4: -5
-    ShipBonusSupercarrierA5: 1
+    ShipBonusSupercarrierA5: 2
     ShipMaintenanceBayCapacity: 2500000
     SignatureRadius: 18870
     SpecialFuelBayCapacity: 5000
@@ -204,7 +204,7 @@ items:
     ShipBonusSupercarrierM2: 5
     ShipBonusSupercarrierM3: -5
     ShipBonusSupercarrierM4: -5
-    ShipBonusSupercarrierM5: 1
+    ShipBonusSupercarrierM5: 2
     ShipMaintenanceBayCapacity: 2500000
     SignatureRadius: 18640
     SpecialFuelBayCapacity: 5000
@@ -316,7 +316,7 @@ items:
     ShipBonusSupercarrierG2: 5
     ShipBonusSupercarrierG3: -5
     ShipBonusSupercarrierG4: -5
-    ShipBonusSupercarrierG5: 1
+    ShipBonusSupercarrierG5: 2
     ShipMaintenanceBayCapacity: 2500000
     SignatureRadius: 19010
     SpecialFuelBayCapacity: 5000
@@ -663,7 +663,7 @@ items:
     ShipBonusSupercarrierC2: -4
     ShipBonusSupercarrierC3: -5
     ShipBonusSupercarrierC4: -5
-    ShipBonusSupercarrierC5: 1
+    ShipBonusSupercarrierC5: 2
     ShipMaintenanceBayCapacity: 2500000
     SignatureRadius: 19470
     SpecialFuelBayCapacity: 5000

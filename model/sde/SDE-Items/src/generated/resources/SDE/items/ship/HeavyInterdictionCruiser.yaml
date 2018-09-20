@@ -209,9 +209,11 @@ items:
     PropulsionGraphicID: 395
     RechargeRate: 450000.0
     RequiredSkill1: 3335
-    RequiredSkill1Level: 2
+    RequiredSkill1Level: 5
     RequiredSkill2: 3334
-    RequiredSkill2Level: 2
+    RequiredSkill2Level: 5
+    RequiredSkill3: 28609
+    RequiredSkill3Level: 1
     RigSize: 2
     RigSlots: 2
     RookieShieldResistBonus: -20

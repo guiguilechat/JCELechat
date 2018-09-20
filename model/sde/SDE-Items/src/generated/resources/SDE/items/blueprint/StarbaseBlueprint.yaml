@@ -93,11 +93,6 @@ items:
     id: 2760
     name: Drone Assembly Array Blueprint
     volume: 0.01
-  Drug Lab Blueprint:
-    IndustryBlueprintRank: 40.0
-    id: 2762
-    name: Drug Lab Blueprint
-    volume: 0.01
   Equipment Assembly Array Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2764

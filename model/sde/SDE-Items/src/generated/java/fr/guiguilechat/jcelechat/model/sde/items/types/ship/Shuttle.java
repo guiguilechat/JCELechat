@@ -60,6 +60,13 @@ public class Shuttle
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipRoleBonusWarpSpeed;
     public final static Shuttle.MetaGroup METAGROUP = new Shuttle.MetaGroup();
 
     @Override
@@ -84,6 +91,10 @@ public class Shuttle
             case  79 :
             {
                 return ScanSpeed;
+            }
+            case  2789 :
+            {
+                return ShipRoleBonusWarpSpeed;
             }
             default:
             {

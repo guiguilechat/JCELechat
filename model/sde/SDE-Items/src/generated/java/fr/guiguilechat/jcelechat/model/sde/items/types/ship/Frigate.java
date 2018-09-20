@@ -383,6 +383,13 @@ public class Frigate
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole8;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipRoleBonusWarpSpeed;
+    /**
      * Chance of being able to resist a ship scan.
      */
     @HighIsGood(true)
@@ -397,7 +404,7 @@ public class Frigate
     @DefaultIntValue(0)
     public int SpecialOreHoldCapacity;
     /**
-     * How many upgrades can by fitted to this ship.
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -625,6 +632,10 @@ public class Frigate
             case  1688 :
             {
                 return ShipBonusRole8;
+            }
+            case  2789 :
+            {
+                return ShipRoleBonusWarpSpeed;
             }
             case  511 :
             {

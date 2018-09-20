@@ -23,3 +23,15 @@ items:
     marketGroup: 2477
     name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
     volume: 1.0
+  unnamed_g739_ic2224:
+    ArmorHpBonus: -25
+    DroneMaxVelocityBonus: 10
+    HullHpBonus: -25
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: -25.0
+    id: 48747
+    marketGroup: 2477
+    name: unnamed_g739_ic2224
+    volume: 1.0

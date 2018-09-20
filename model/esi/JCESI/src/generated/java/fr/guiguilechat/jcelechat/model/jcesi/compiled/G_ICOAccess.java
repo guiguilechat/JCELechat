@@ -2035,24 +2035,6 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get character notifications
-     * <p>
-     * Return character notifications<br />
-     * This route is cached for up to 600 seconds<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/notifications/)
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public default R_get_characters_character_id_notifications[] get_characters_notifications(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/notifications/".replace("{character_id}", ""+character_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_notifications[].class));
-    }
-
-    /**
      * Get character online
      * <p>
      * Checks if the character is currently online<br />
@@ -2381,6 +2363,22 @@ public interface G_ICOAccess
         String url = ("https://esi.evetech.net/v3/characters/{character_id}/mail/labels/".replace("{character_id}", ""+character_id));
         String fetched=connectGet(url,headerHandler);
         return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_mail_labels.class));
+    }
+
+    /**
+     * Get character notifications
+     * <p>
+     * Return character notifications<br />
+     * This route is cached for up to 600 seconds
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public default R_get_characters_character_id_notifications[] get_characters_notifications(int character_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v3/characters/{character_id}/notifications/".replace("{character_id}", ""+character_id));
+        String fetched=connectGet(url,headerHandler);
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_notifications[].class));
     }
 
     /**

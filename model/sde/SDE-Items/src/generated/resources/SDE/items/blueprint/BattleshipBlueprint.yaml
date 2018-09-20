@@ -7,23 +7,6 @@ items:
     marketGroup: 279
     name: Abaddon Blueprint
     volume: 0.01
-  Abaddon Kador Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 33626
-    name: Abaddon Kador Edition Blueprint
-    volume: 0.01
-  Abaddon Tash-Murkon Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 33624
-    name: Abaddon Tash-Murkon Edition Blueprint
-    volume: 0.01
-  Apocalypse Blood Raider Edition Blueprint:
-    TechLevel: 1
-    id: 34214
-    name: Apocalypse Blood Raider Edition Blueprint
-    volume: 0.01
   Apocalypse Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
@@ -39,22 +22,12 @@ items:
     id: 11937
     name: Apocalypse Imperial Issue Blueprint
     volume: 0.01
-  Apocalypse Kador Edition Blueprint:
-    TechLevel: 1
-    id: 34216
-    name: Apocalypse Kador Edition Blueprint
-    volume: 0.01
   Apocalypse Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17727
     name: Apocalypse Navy Issue Blueprint
-    volume: 0.01
-  Apocalypse Tash-Murkon Edition Blueprint:
-    TechLevel: 1
-    id: 34218
-    name: Apocalypse Tash-Murkon Edition Blueprint
     volume: 0.01
   Armageddon Blueprint:
     IndustryBlueprintRank: 60.0
@@ -100,38 +73,12 @@ items:
     id: 32308
     name: Dominix Navy Issue Blueprint
     volume: 0.01
-  Dominix Quafe Edition Blueprint:
-    TechLevel: 1
-    id: 34442
-    name: Dominix Quafe Edition Blueprint
-    volume: 0.01
   Golem Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 28711
     name: Golem Blueprint
-    volume: 0.01
-  Golem Guristas Edition Blueprint:
-    TechLevel: 1
-    id: 34232
-    name: Golem Guristas Edition Blueprint
-    volume: 0.01
-  Golem Kaalakiota Edition Blueprint:
-    TechLevel: 1
-    id: 34234
-    name: Golem Kaalakiota Edition Blueprint
-    volume: 0.01
-  Golem Nugoeihuvi Edition Blueprint:
-    TechLevel: 1
-    id: 34236
-    name: Golem Nugoeihuvi Edition Blueprint
-    volume: 0.01
-  Hyperion Aliastra Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 33636
-    name: Hyperion Aliastra Edition Blueprint
     volume: 0.01
   Hyperion Blueprint:
     IndustryBlueprintRank: 60.0
@@ -141,33 +88,12 @@ items:
     marketGroup: 281
     name: Hyperion Blueprint
     volume: 0.01
-  Hyperion Inner Zone Shipping Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 33638
-    name: Hyperion Inner Zone Shipping Edition Blueprint
-    volume: 0.01
   Kronos Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 28662
     name: Kronos Blueprint
-    volume: 0.01
-  Kronos Inner Zone Shipping Edition Blueprint:
-    TechLevel: 1
-    id: 34246
-    name: Kronos Inner Zone Shipping Edition Blueprint
-    volume: 0.01
-  Kronos Police Edition Blueprint:
-    TechLevel: 1
-    id: 34242
-    name: Kronos Police Edition Blueprint
-    volume: 0.01
-  Kronos Quafe Edition Blueprint:
-    TechLevel: 1
-    id: 34244
-    name: Kronos Quafe Edition Blueprint
     volume: 0.01
   Leshak Blueprint:
     IndustryJobCostMultiplier: 1
@@ -190,18 +116,6 @@ items:
     marketGroup: 278
     name: Maelstrom Blueprint
     volume: 0.01
-  Maelstrom Krusual Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 33634
-    name: Maelstrom Krusual Edition Blueprint
-    volume: 0.01
-  Maelstrom Nefantar Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 33632
-    name: Maelstrom Nefantar Edition Blueprint
-    volume: 0.01
   Marshal Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
@@ -223,28 +137,12 @@ items:
     id: 13203
     name: Megathron Federate Issue Blueprint
     volume: 0.01
-  Megathron Inner Zone Shipping Edition Blueprint:
-    TechLevel: 1
-    id: 34240
-    name: Megathron Inner Zone Shipping Edition Blueprint
-    volume: 0.01
   Megathron Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17729
     name: Megathron Navy Issue Blueprint
-    volume: 0.01
-  Megathron Police Edition Blueprint:
-    TechLevel: 1
-    id: 34238
-    name: Megathron Police Edition Blueprint
-    volume: 0.01
-  Megathron Quafe Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 34119
-    name: Megathron Quafe Edition Blueprint
     volume: 0.01
   Nestor Blueprint:
     IndustryBlueprintRank: 60.0
@@ -260,27 +158,12 @@ items:
     id: 17737
     name: Nightmare Blueprint
     volume: 0.01
-  Paladin Blood Raider Edition Blueprint:
-    TechLevel: 1
-    id: 34220
-    name: Paladin Blood Raider Edition Blueprint
-    volume: 0.01
   Paladin Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 28660
     name: Paladin Blueprint
-    volume: 0.01
-  Paladin Kador Edition Blueprint:
-    TechLevel: 1
-    id: 34222
-    name: Paladin Kador Edition Blueprint
-    volume: 0.01
-  Paladin Tash-Murkon Edition Blueprint:
-    TechLevel: 1
-    id: 34224
-    name: Paladin Tash-Murkon Edition Blueprint
     volume: 0.01
   Panther Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -310,27 +193,12 @@ items:
     marketGroup: 280
     name: Raven Blueprint
     volume: 0.01
-  Raven Guristas Edition Blueprint:
-    TechLevel: 1
-    id: 34226
-    name: Raven Guristas Edition Blueprint
-    volume: 0.01
-  Raven Kaalakiota Edition Blueprint:
-    TechLevel: 1
-    id: 34228
-    name: Raven Kaalakiota Edition Blueprint
-    volume: 0.01
   Raven Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 17637
     name: Raven Navy Issue Blueprint
-    volume: 0.01
-  Raven Nugoeihuvi Edition Blueprint:
-    TechLevel: 1
-    id: 34230
-    name: Raven Nugoeihuvi Edition Blueprint
     volume: 0.01
   Redeemer Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -347,18 +215,6 @@ items:
     marketGroup: 280
     name: Rokh Blueprint
     volume: 0.01
-  Rokh Nugoeihuvi Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 33628
-    name: Rokh Nugoeihuvi Edition Blueprint
-    volume: 0.01
-  Rokh Wiyrkomi Edition Blueprint:
-    IndustryBlueprintRank: 60.0
-    TechLevel: 1
-    id: 33630
-    name: Rokh Wiyrkomi Edition Blueprint
-    volume: 0.01
   Scorpion Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
@@ -366,13 +222,6 @@ items:
     id: 994
     marketGroup: 280
     name: Scorpion Blueprint
-    volume: 0.01
-  Scorpion Ishukone Watch Blueprint:
-    IndustryBlueprintRank: 60.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 4006
-    name: Scorpion Ishukone Watch Blueprint
     volume: 0.01
   Scorpion Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -403,21 +252,6 @@ items:
     id: 17733
     name: Tempest Fleet Issue Blueprint
     volume: 0.01
-  Tempest Justice Edition Blueprint:
-    TechLevel: 1
-    id: 34248
-    name: Tempest Justice Edition Blueprint
-    volume: 0.01
-  Tempest Krusual Edition Blueprint:
-    TechLevel: 1
-    id: 34250
-    name: Tempest Krusual Edition Blueprint
-    volume: 0.01
-  Tempest Nefantar Edition Blueprint:
-    TechLevel: 1
-    id: 34252
-    name: Tempest Nefantar Edition Blueprint
-    volume: 0.01
   Typhoon Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
@@ -439,21 +273,6 @@ items:
     TechLevel: 2
     id: 28666
     name: Vargur Blueprint
-    volume: 0.01
-  Vargur Justice Edition Blueprint:
-    TechLevel: 1
-    id: 34254
-    name: Vargur Justice Edition Blueprint
-    volume: 0.01
-  Vargur Krusual Edition Blueprint:
-    TechLevel: 1
-    id: 34256
-    name: Vargur Krusual Edition Blueprint
-    volume: 0.01
-  Vargur Nefantar Edition Blueprint:
-    TechLevel: 1
-    id: 34258
-    name: Vargur Nefantar Edition Blueprint
     volume: 0.01
   Vindicator Blueprint:
     IndustryBlueprintRank: 60.0
@@ -499,13 +318,13 @@ items:
     id: 34458
     name: 末日沙场级YC117年特别版蓝图
     volume: 0.01
-  马克瑞级YC117年特别版蓝图:
-    TechLevel: 1
-    id: 34462
-    name: 马克瑞级YC117年特别版蓝图
-    volume: 0.01
-  ��难级YC117年特别版蓝图:
+  灾难级YC117年特别版蓝图:
     TechLevel: 1
     id: 34472
-    name: ��难级YC117年特别版蓝图
+    name: 灾难级YC117年特别版蓝图
+    volume: 0.01
+  ��克瑞级YC117年特别版蓝图:
+    TechLevel: 1
+    id: 34462
+    name: ��克瑞级YC117年特别版蓝图
     volume: 0.01

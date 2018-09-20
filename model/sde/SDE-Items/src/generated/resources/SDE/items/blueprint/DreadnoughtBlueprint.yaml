@@ -1,60 +1,37 @@
 items:
   Caiman Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 45646
     name: Caiman Blueprint
     volume: 0.01
   Chemosh Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 45044
     name: Chemosh Blueprint
     volume: 0.01
   Moros Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 19725
     marketGroup: 785
     name: Moros Blueprint
     volume: 0.01
-  Moros Interbus Edition Blueprint:
-    id: 34340
-    name: Moros Interbus Edition Blueprint
-    volume: 0.01
   Naglfar Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 19723
     marketGroup: 786
     name: Naglfar Blueprint
     volume: 0.01
-  Naglfar Justice Edition Blueprint:
-    id: 34342
-    name: Naglfar Justice Edition Blueprint
-    volume: 0.01
   Phoenix Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 19727
     marketGroup: 784
     name: Phoenix Blueprint
     volume: 0.01
-  Phoenix Wiyrkomi Edition Blueprint:
-    id: 34344
-    name: Phoenix Wiyrkomi Edition Blueprint
-    volume: 0.01
   Revelation Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 19721
     marketGroup: 783
     name: Revelation Blueprint
     volume: 0.01
-  Revelation Sarum Edition Blueprint:
-    id: 34346
-    name: Revelation Sarum Edition Blueprint
-    volume: 0.01
   Vehement Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 42136
     name: Vehement Blueprint
     volume: 0.01

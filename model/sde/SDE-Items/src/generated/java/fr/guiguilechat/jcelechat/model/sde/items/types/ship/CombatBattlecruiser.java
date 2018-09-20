@@ -208,7 +208,7 @@ public class CombatBattlecruiser
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole8;
     /**
-     * How many upgrades can by fitted to this ship.
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)

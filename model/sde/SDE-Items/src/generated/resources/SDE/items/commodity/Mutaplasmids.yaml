@@ -1,34 +1,4 @@
 items:
-  Abnormal Large Ancillary Armor Repairer Mutaplasmid:
-    id: 47845
-    marketGroup: 2445
-    name: Abnormal Large Ancillary Armor Repairer Mutaplasmid
-    volume: 1.0
-  Abnormal Large Ancillary Shield Booster Mutaplasmid:
-    id: 47837
-    marketGroup: 2448
-    name: Abnormal Large Ancillary Shield Booster Mutaplasmid
-    volume: 1.0
-  Abnormal Medium Ancillary Armor Repairer Mutaplasmid:
-    id: 47843
-    marketGroup: 2444
-    name: Abnormal Medium Ancillary Armor Repairer Mutaplasmid
-    volume: 1.0
-  Abnormal Medium Ancillary Shield Booster Mutaplasmid:
-    id: 47835
-    marketGroup: 2447
-    name: Abnormal Medium Ancillary Shield Booster Mutaplasmid
-    volume: 1.0
-  Abnormal Small Ancillary Armor Repairer Mutaplasmid:
-    id: 47841
-    marketGroup: 2443
-    name: Abnormal Small Ancillary Armor Repairer Mutaplasmid
-    volume: 1.0
-  Abnormal X-Large Ancillary Shield Booster Mutaplasmid:
-    id: 47839
-    marketGroup: 2449
-    name: Abnormal X-Large Ancillary Shield Booster Mutaplasmid
-    volume: 1.0
   Decayed 100MN Afterburner Mutaplasmid:
     id: 47754
     marketGroup: 2452
@@ -379,6 +349,16 @@ items:
     marketGroup: 2455
     name: Unstable Heavy Energy Nosferatu Mutaplasmid
     volume: 1.0
+  Unstable Large Ancillary Armor Repairer Mutaplasmid:
+    id: 47845
+    marketGroup: 2445
+    name: Unstable Large Ancillary Armor Repairer Mutaplasmid
+    volume: 1.0
+  Unstable Large Ancillary Shield Booster Mutaplasmid:
+    id: 47837
+    marketGroup: 2448
+    name: Unstable Large Ancillary Shield Booster Mutaplasmid
+    volume: 1.0
   Unstable Large Armor Plate Mutaplasmid:
     id: 47818
     marketGroup: 2445
@@ -403,6 +383,16 @@ items:
     id: 47806
     marketGroup: 2448
     name: Unstable Large Shield Extender Mutaplasmid
+    volume: 1.0
+  Unstable Medium Ancillary Armor Repairer Mutaplasmid:
+    id: 47843
+    marketGroup: 2444
+    name: Unstable Medium Ancillary Armor Repairer Mutaplasmid
+    volume: 1.0
+  Unstable Medium Ancillary Shield Booster Mutaplasmid:
+    id: 47835
+    marketGroup: 2447
+    name: Unstable Medium Ancillary Shield Booster Mutaplasmid
     volume: 1.0
   Unstable Medium Armor Plate Mutaplasmid:
     id: 47814
@@ -438,6 +428,11 @@ items:
     id: 47802
     marketGroup: 2447
     name: Unstable Medium Shield Extender Mutaplasmid
+    volume: 1.0
+  Unstable Small Ancillary Armor Repairer Mutaplasmid:
+    id: 47841
+    marketGroup: 2443
+    name: Unstable Small Ancillary Armor Repairer Mutaplasmid
     volume: 1.0
   Unstable Small Armor Plate Mutaplasmid:
     id: 47810
@@ -488,6 +483,11 @@ items:
     id: 47730
     marketGroup: 2441
     name: Unstable Warp Scrambler Mutaplasmid
+    volume: 1.0
+  Unstable X-Large Ancillary Shield Booster Mutaplasmid:
+    id: 47839
+    marketGroup: 2449
+    name: Unstable X-Large Ancillary Shield Booster Mutaplasmid
     volume: 1.0
   Unstable X-Large Shield Booster Mutaplasmid:
     id: 47791

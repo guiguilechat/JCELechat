@@ -124,6 +124,20 @@ public class HeavyInterdictionCruiser
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -236,7 +250,7 @@ public class HeavyInterdictionCruiser
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole7;
     /**
-     * How many upgrades can by fitted to this ship.
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -302,6 +316,14 @@ public class HeavyInterdictionCruiser
             case  278 :
             {
                 return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
             }
             case  1547 :
             {

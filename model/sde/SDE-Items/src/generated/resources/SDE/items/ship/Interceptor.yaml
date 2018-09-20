@@ -370,9 +370,11 @@ items:
     PropulsionGraphicID: 394
     RechargeRate: 200000.0
     RequiredSkill1: 3331
-    RequiredSkill1Level: 3
+    RequiredSkill1Level: 5
     RequiredSkill2: 3330
-    RequiredSkill2Level: 3
+    RequiredSkill2Level: 5
+    RequiredSkill3: 12092
+    RequiredSkill3Level: 1
     RigSize: 1
     RigSlots: 2
     ScanRadarStrength: 15.0

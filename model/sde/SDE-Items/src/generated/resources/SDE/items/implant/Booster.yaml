@@ -879,20 +879,3 @@ items:
     marketGroup: 2494
     name: Synth X-Instinct Booster
     volume: 1.0
-  unnamed_g303_ic10144:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17560.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    MemoryBonus: 12
-    Nondestructible: 1
-    PerceptionBonus: 12
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 12
-    id: 48615
-    marketGroup: 2487
-    name: unnamed_g303_ic10144
-    volume: 1.0

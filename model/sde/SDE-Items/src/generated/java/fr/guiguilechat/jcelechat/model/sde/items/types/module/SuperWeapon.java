@@ -301,6 +301,13 @@ public class SuperWeapon
     @DefaultIntValue(0)
     public int ModuleReactivationDelay;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PanicDuration;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -527,6 +534,10 @@ public class SuperWeapon
             case  669 :
             {
                 return ModuleReactivationDelay;
+            }
+            case  2788 :
+            {
+                return PanicDuration;
             }
             case  30 :
             {

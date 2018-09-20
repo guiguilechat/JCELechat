@@ -327,7 +327,14 @@ public class Cruiser
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole8;
     /**
-     * How many upgrades can by fitted to this ship.
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipRoleBonusWarpSpeed;
+    /**
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -523,6 +530,10 @@ public class Cruiser
             case  1688 :
             {
                 return ShipBonusRole8;
+            }
+            case  2789 :
+            {
+                return ShipRoleBonusWarpSpeed;
             }
             case  1154 :
             {

@@ -18,7 +18,7 @@ items:
     ShieldCapacity: 10000000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 2000
+    SignatureRadius: 14000
     SpecialMaterialBayCapacity: 3200
     StructureUniformity: 1.0
     UnanchoringDelay: 5000

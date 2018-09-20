@@ -30,12 +30,6 @@ items:
     id: 33152
     name: Brutix Navy Issue Blueprint
     volume: 0.01
-  Brutix Serpentis Edition Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 1
-    id: 33870
-    name: Brutix Serpentis Edition Blueprint
-    volume: 0.01
   Claymore Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
@@ -51,12 +45,6 @@ items:
     id: 16232
     marketGroup: 592
     name: Cyclone Blueprint
-    volume: 0.01
-  Cyclone Thukker Tribe Edition Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 1
-    id: 33872
-    name: Cyclone Thukker Tribe Edition Blueprint
     volume: 0.01
   Damnation Blueprint:
     IndustryBlueprintRank: 1000.0
@@ -96,12 +84,6 @@ items:
     id: 16228
     marketGroup: 590
     name: Ferox Blueprint
-    volume: 0.01
-  Ferox Guristas Edition Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 1
-    id: 33874
-    name: Ferox Guristas Edition Blueprint
     volume: 0.01
   Gnosis Blueprint:
     IndustryBlueprintRank: 50.0
@@ -171,12 +153,6 @@ items:
     id: 4305
     marketGroup: 589
     name: Oracle Blueprint
-    volume: 0.01
-  Prophecy Blood Raiders Edition Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 1
-    id: 33876
-    name: Prophecy Blood Raiders Edition Blueprint
     volume: 0.01
   Prophecy Blueprint:
     IndustryBlueprintRank: 50.0

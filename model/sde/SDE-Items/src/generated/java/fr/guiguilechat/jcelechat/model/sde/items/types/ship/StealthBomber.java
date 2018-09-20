@@ -320,7 +320,7 @@ public class StealthBomber
     @DefaultDoubleValue(1.0)
     public double StealthBomberLauncherPower;
     /**
-     * How many upgrades can by fitted to this ship.
+     * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)

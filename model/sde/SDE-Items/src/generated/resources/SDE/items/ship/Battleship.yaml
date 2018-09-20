@@ -1077,6 +1077,7 @@ items:
     ShipBonusCB: 5
     ShipBonusGB: 7.5
     ShipBonusRole7: -25.0
+    ShipRoleBonusWarpSpeed: 50
     SignatureRadius: 380
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1087,7 +1088,7 @@ items:
     UpgradeCapacity: 350
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 2.0
     id: 17738
     marketGroup: 1380
     name: Machariel

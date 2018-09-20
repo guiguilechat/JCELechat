@@ -1,0 +1,18 @@
+items:
+  unnamed_g2004_ic1061:
+    CapacitorNeed: 5.0
+    Cpu: 60.0
+    Duration: 10000.0
+    Hp: 40
+    MaxRange: 10000
+    MiningAmount: 6
+    Power: 1
+    RequiredSkill1: 3386
+    RequiredSkill1Level: 1
+    Slots: 1
+    TargetGroup: 11
+    TechLevel: 1
+    TypeColorScheme: 11346
+    id: 48780
+    name: unnamed_g2004_ic1061
+    volume: 5.0
