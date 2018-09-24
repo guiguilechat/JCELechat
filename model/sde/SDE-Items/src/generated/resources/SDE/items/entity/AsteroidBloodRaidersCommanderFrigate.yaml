@@ -1,0 +1,81 @@
+items:
+  Dark Blood Collector:
+    id: 13558
+    name: Dark Blood Collector
+    published: false
+    volume: 28100.0
+  Dark Blood Diviner:
+    id: 13554
+    name: Dark Blood Diviner
+    published: false
+    volume: 28600.0
+  Dark Blood Engraver:
+    id: 13574
+    name: Dark Blood Engraver
+    published: false
+    volume: 28600.0
+  Dark Blood Follower:
+    id: 13546
+    name: Dark Blood Follower
+    published: false
+    volume: 28100.0
+  Dark Blood Herald:
+    id: 13567
+    name: Dark Blood Herald
+    published: false
+    volume: 28100.0
+  Dark Blood Raider:
+    id: 13566
+    name: Dark Blood Raider
+    published: false
+    volume: 28700.0
+  Dark Blood Reaver:
+    id: 13545
+    name: Dark Blood Reaver
+    published: false
+    volume: 28700.0
+  Dark Blood Seeker:
+    id: 13568
+    name: Dark Blood Seeker
+    published: false
+    volume: 28100.0
+  Dark Blood Upholder:
+    id: 13555
+    name: Dark Blood Upholder
+    published: false
+    volume: 28100.0
+  Dark Blood Worshipper:
+    id: 13571
+    name: Dark Blood Worshipper
+    published: false
+    volume: 24398.0
+  Sellsword Collector:
+    id: 24390
+    name: Sellsword Collector
+    published: false
+    volume: 28100.0
+  Sellsword Diviner:
+    id: 24392
+    name: Sellsword Diviner
+    published: false
+    volume: 28600.0
+  Sellsword Engraver:
+    id: 24394
+    name: Sellsword Engraver
+    published: false
+    volume: 28600.0
+  Sellsword Raider:
+    id: 24391
+    name: Sellsword Raider
+    published: false
+    volume: 28700.0
+  Sellsword Reaver:
+    id: 24393
+    name: Sellsword Reaver
+    published: false
+    volume: 28700.0
+  Sellsword Seeker:
+    id: 24408
+    name: Sellsword Seeker
+    published: false
+    volume: 28100.0

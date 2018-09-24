@@ -21,6 +21,7 @@ items:
     id: 16527
     marketGroup: 639
     name: '''Arbalest'' Rocket Launcher I'
+    published: true
     volume: 5.0
   '''Balefire'' Rocket Launcher':
     ChargeGroup1: 387
@@ -45,6 +46,7 @@ items:
     id: 20593
     marketGroup: 639
     name: '''Balefire'' Rocket Launcher'
+    published: true
     volume: 5.0
   '''Limos'' Rocket Launcher I':
     ChargeGroup1: 387
@@ -68,6 +70,7 @@ items:
     id: 16523
     marketGroup: 639
     name: '''Limos'' Rocket Launcher I'
+    published: true
     volume: 5.0
   '''Malkuth'' Rocket Launcher I':
     ChargeGroup1: 387
@@ -91,6 +94,7 @@ items:
     id: 16521
     marketGroup: 639
     name: '''Malkuth'' Rocket Launcher I'
+    published: true
     volume: 5.0
   Caldari Navy Rocket Launcher:
     ChargeGroup1: 387
@@ -115,6 +119,7 @@ items:
     id: 16065
     marketGroup: 639
     name: Caldari Navy Rocket Launcher
+    published: true
     volume: 5.0
   Domination Rocket Launcher:
     ChargeGroup1: 387
@@ -139,6 +144,7 @@ items:
     id: 13931
     marketGroup: 639
     name: Domination Rocket Launcher
+    published: true
     volume: 5.0
   Dread Guristas Rocket Launcher:
     ChargeGroup1: 387
@@ -163,6 +169,7 @@ items:
     id: 13933
     marketGroup: 639
     name: Dread Guristas Rocket Launcher
+    published: true
     volume: 5.0
   Khanid Navy Rocket Launcher:
     ChargeGroup1: 387
@@ -187,6 +194,7 @@ items:
     id: 28511
     marketGroup: 639
     name: Khanid Navy Rocket Launcher
+    published: true
     volume: 5.0
   N-1 Neon Type Rocket Bay:
     ChargeGroup1: 387
@@ -211,6 +219,7 @@ items:
     id: 21542
     marketGroup: 639
     name: N-1 Neon Type Rocket Bay
+    published: true
     volume: 5.0
   OE-5200 Rocket Launcher:
     ChargeGroup1: 387
@@ -234,6 +243,7 @@ items:
     id: 16525
     marketGroup: 639
     name: OE-5200 Rocket Launcher
+    published: true
     volume: 5.0
   Polarized Rocket Launcher:
     ChargeGroup1: 387
@@ -261,6 +271,7 @@ items:
     id: 34290
     marketGroup: 639
     name: Polarized Rocket Launcher
+    published: true
     volume: 5.0
   Republic Fleet Rocket Launcher:
     ChargeGroup1: 387
@@ -285,6 +296,7 @@ items:
     id: 17488
     marketGroup: 639
     name: Republic Fleet Rocket Launcher
+    published: true
     volume: 5.0
   Rocket Launcher I:
     ChargeGroup1: 387
@@ -307,6 +319,7 @@ items:
     id: 10629
     marketGroup: 639
     name: Rocket Launcher I
+    published: true
     volume: 5.0
   Rocket Launcher II:
     ChargeGroup1: 387
@@ -331,6 +344,7 @@ items:
     id: 10631
     marketGroup: 639
     name: Rocket Launcher II
+    published: true
     volume: 5.0
   True Sansha Rocket Launcher:
     ChargeGroup1: 387
@@ -355,4 +369,5 @@ items:
     id: 22564
     marketGroup: 639
     name: True Sansha Rocket Launcher
+    published: true
     volume: 5.0

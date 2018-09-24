@@ -1,0 +1,11 @@
+items:
+  Bestower Livestock Transport:
+    id: 48132
+    name: Bestower Livestock Transport
+    published: false
+    volume: 260000.0
+  Official Federation Grand Prix Transport Ship:
+    id: 48119
+    name: Official Federation Grand Prix Transport Ship
+    published: false
+    volume: 1105000.0

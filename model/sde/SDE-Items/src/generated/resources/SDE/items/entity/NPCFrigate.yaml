@@ -1,0 +1,211 @@
+items:
+  Atomizer Drone:
+    id: 43645
+    name: Atomizer Drone
+    published: false
+    volume: 60.0
+  Barracuda Drone:
+    id: 43644
+    name: Barracuda Drone
+    published: false
+    volume: 60.0
+  Infester Drone:
+    id: 43646
+    name: Infester Drone
+    published: false
+    volume: 60.0
+  Splinter Drone:
+    id: 43647
+    name: Splinter Drone
+    published: false
+    volume: 60.0
+  Sunder Drone:
+    id: 43648
+    name: Sunder Drone
+    published: false
+    volume: 60.0
+  ♦ Atron:
+    id: 43576
+    name: ♦ Atron
+    published: false
+    volume: 22500.0
+  ♦ Bantam:
+    id: 43615
+    name: ♦ Bantam
+    published: false
+    volume: 20000.0
+  ♦ Breacher:
+    id: 43589
+    name: ♦ Breacher
+    published: false
+    volume: 20000.0
+  ♦ Burst:
+    id: 43586
+    name: ♦ Burst
+    published: false
+    volume: 17100.0
+  ♦ Condor:
+    id: 43616
+    name: ♦ Condor
+    published: false
+    volume: 18000.0
+  ♦ Crucifier:
+    id: 43599
+    name: ♦ Crucifier
+    published: false
+    volume: 28100.0
+  ♦ Cruor:
+    id: 46052
+    name: ♦ Cruor
+    published: false
+    volume: 28600.0
+  ♦ Daredevil:
+    id: 46058
+    name: ♦ Daredevil
+    published: false
+    volume: 26500.0
+  ♦ Dramiel:
+    id: 46061
+    name: ♦ Dramiel
+    published: false
+    volume: 27289.0
+  ♦ Executioner:
+    id: 43598
+    name: ♦ Executioner
+    published: false
+    volume: 28100.0
+  ♦ Fury:
+    id: 43635
+    name: ♦ Fury
+    published: false
+    volume: 26000.0
+  ♦ Griffin:
+    id: 43618
+    name: ♦ Griffin
+    published: false
+    volume: 19400.0
+  ♦ Imp:
+    id: 43655
+    name: ♦ Imp
+    published: false
+    volume: 28600.0
+  ♦ Incursus:
+    id: 46074
+    name: ♦ Incursus
+    published: false
+    volume: 29500.0
+  ♦ Inquisitor:
+    id: 43597
+    name: ♦ Inquisitor
+    published: false
+    volume: 28700.0
+  ♦ Kestrel:
+    id: 46382
+    name: ♦ Kestrel
+    published: false
+    volume: 19700.0
+  ♦ Lynx:
+    id: 43638
+    name: ♦ Lynx
+    published: false
+    volume: 22500.0
+  ♦ Maulus:
+    id: 43577
+    name: ♦ Maulus
+    published: false
+    volume: 23000.0
+  ♦ Medusa:
+    id: 43636
+    name: ♦ Medusa
+    published: false
+    volume: 17500.0
+  ♦ Merlin:
+    id: 46070
+    name: ♦ Merlin
+    published: false
+    volume: 16500.0
+  ♦ Navitas:
+    id: 43575
+    name: ♦ Navitas
+    published: false
+    volume: 10000.0
+  ♦ Punisher:
+    id: 46066
+    name: ♦ Punisher
+    published: false
+    volume: 28600.0
+  ♦ Purifier:
+    id: 44953
+    name: ♦ Purifier
+    published: false
+    volume: 28100.0
+  ♦ Ravener:
+    id: 43654
+    name: ♦ Ravener
+    published: false
+    volume: 29000.0
+  ♦ Rifter:
+    id: 46078
+    name: ♦ Rifter
+    published: false
+    volume: 27289.0
+  ♦ Slasher:
+    id: 43587
+    name: ♦ Slasher
+    published: false
+    volume: 17400.0
+  ♦ Succubus:
+    id: 44108
+    name: ♦ Succubus
+    published: false
+    volume: 28600.0
+  ♦ Tormentor:
+    id: 42841
+    name: ♦ Tormentor
+    published: false
+    volume: 24398.0
+  ♦ Tristan:
+    id: 43578
+    name: ♦ Tristan
+    published: false
+    volume: 26500.0
+  ♦ Vigil:
+    id: 43588
+    name: ♦ Vigil
+    published: false
+    volume: 17400.0
+  ♦ Worm:
+    id: 46053
+    name: ♦ Worm
+    published: false
+    volume: 16500.0
+  ♦ test_damage:
+    id: 47196
+    name: ♦ test_damage
+    published: false
+    volume: 27289.0
+  ♦ test_drone_damage:
+    id: 47194
+    name: ♦ test_drone_damage
+    published: false
+    volume: 5.0
+  ♦ test_drone_logi:
+    id: 47195
+    name: ♦ test_drone_logi
+    published: false
+    volume: 5.0
+  ♦ test_ewar:
+    id: 47197
+    name: ♦ test_ewar
+    published: false
+    volume: 27289.0
+  �� Swordspine:
+    id: 43634
+    name: �� Swordspine
+    published: false
+    volume: 21120.0
+  ��� Incursus:
+    id: 43574
+    name: ��� Incursus
+    published: false
+    volume: 29500.0

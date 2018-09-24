@@ -80,6 +80,7 @@ items:
     id: 22448
     marketGroup: 825
     name: Absolution
+    published: true
     volume: 234000.0
   Astarte:
     Agility: 0.699999988079071
@@ -163,6 +164,7 @@ items:
     id: 22466
     marketGroup: 831
     name: Astarte
+    published: true
     volume: 270000.0
   Claymore:
     Agility: 0.699999988079071
@@ -247,6 +249,7 @@ items:
     id: 22468
     marketGroup: 834
     name: Claymore
+    published: true
     volume: 216000.0
   Damnation:
     Agility: 0.699999988079071
@@ -331,6 +334,7 @@ items:
     id: 22474
     marketGroup: 825
     name: Damnation
+    published: true
     volume: 234000.0
   Eos:
     Agility: 0.7039999961853027
@@ -414,6 +418,7 @@ items:
     id: 22442
     marketGroup: 831
     name: Eos
+    published: true
     volume: 270000.0
   Nighthawk:
     Agility: 0.6499999761581421
@@ -497,6 +502,7 @@ items:
     id: 22470
     marketGroup: 828
     name: Nighthawk
+    published: true
     volume: 252000.0
   Sleipnir:
     Agility: 0.7039999961853027
@@ -580,6 +586,7 @@ items:
     id: 22444
     marketGroup: 834
     name: Sleipnir
+    published: true
     volume: 216000.0
   Vulture:
     Agility: 0.6700000166893005
@@ -664,4 +671,5 @@ items:
     id: 22446
     marketGroup: 828
     name: Vulture
+    published: true
     volume: 252000.0

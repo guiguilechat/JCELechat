@@ -1,0 +1,26 @@
+items:
+  Amarr Frigate Vessel:
+    id: 29234
+    name: Amarr Frigate Vessel
+    published: false
+    volume: 24398.0
+  Caldari Frigate Vessel:
+    id: 29239
+    name: Caldari Frigate Vessel
+    published: false
+    volume: 15001.0
+  Gallente Frigate Vessel:
+    id: 29242
+    name: Gallente Frigate Vessel
+    published: false
+    volume: 24500.0
+  Minmatar Frigate Vessel:
+    id: 29245
+    name: Minmatar Frigate Vessel
+    published: false
+    volume: 21120.0
+  Patrikia Noirild's Reaper:
+    id: 32786
+    name: Patrikia Noirild's Reaper
+    published: false
+    volume: 21120.0

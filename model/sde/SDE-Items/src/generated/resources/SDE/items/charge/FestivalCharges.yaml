@@ -17,6 +17,7 @@ items:
     id: 44261
     marketGroup: 1663
     name: Angels Arisen Firework
+    published: true
     volume: 0.1
   Barium Firework:
     Agility: 3000.0
@@ -36,6 +37,7 @@ items:
     id: 33572
     marketGroup: 1663
     name: Barium Firework
+    published: true
     volume: 0.1
   Barium Firework CXIV:
     Agility: 3000.0
@@ -55,6 +57,7 @@ items:
     id: 32994
     marketGroup: 1663
     name: Barium Firework CXIV
+    published: true
     volume: 0.1
   Blood Dagger Firework:
     Agility: 3000.0
@@ -74,6 +77,7 @@ items:
     id: 44262
     marketGroup: 1663
     name: Blood Dagger Firework
+    published: true
     volume: 0.1
   Copper Firework:
     Agility: 3000.0
@@ -93,6 +97,7 @@ items:
     id: 33573
     marketGroup: 1663
     name: Copper Firework
+    published: true
     volume: 0.1
   Copper Firework CXIV:
     Agility: 3000.0
@@ -112,6 +117,7 @@ items:
     id: 32995
     marketGroup: 1663
     name: Copper Firework CXIV
+    published: true
     volume: 0.1
   Crimson Scythes Firework:
     Agility: 3000.0
@@ -131,6 +137,7 @@ items:
     id: 44267
     marketGroup: 1663
     name: Crimson Scythes Firework
+    published: true
     volume: 0.1
   Crown Imperial Firework:
     Agility: 3000.0
@@ -150,6 +157,7 @@ items:
     id: 44260
     marketGroup: 1663
     name: Crown Imperial Firework
+    published: true
     volume: 0.1
   Eros Blossom Firework:
     Agility: 3000.0
@@ -169,6 +177,7 @@ items:
     id: 47264
     marketGroup: 1663
     name: Eros Blossom Firework
+    published: true
     volume: 0.1
   Fangs of the Serpent Firework:
     Agility: 3000.0
@@ -188,6 +197,7 @@ items:
     id: 44272
     marketGroup: 1663
     name: Fangs of the Serpent Firework
+    published: true
     volume: 0.1
   Flames of the Rebellion Firework:
     Agility: 3000.0
@@ -207,6 +217,7 @@ items:
     id: 44270
     marketGroup: 1663
     name: Flames of the Rebellion Firework
+    published: true
     volume: 0.1
   Four Freedoms Firework:
     Agility: 3000.0
@@ -226,6 +237,7 @@ items:
     id: 44268
     marketGroup: 1663
     name: Four Freedoms Firework
+    published: true
     volume: 0.1
   Nation Uplifts Firework:
     Agility: 3000.0
@@ -245,6 +257,7 @@ items:
     id: 44271
     marketGroup: 1663
     name: Nation Uplifts Firework
+    published: true
     volume: 0.1
   Naughty People Firework:
     Agility: 3000.0
@@ -264,6 +277,7 @@ items:
     id: 44269
     marketGroup: 1663
     name: Naughty People Firework
+    published: true
     volume: 0.1
   Pulsar Flare Firework:
     Agility: 3000.0
@@ -283,6 +297,7 @@ items:
     id: 44264
     marketGroup: 1663
     name: Pulsar Flare Firework
+    published: true
     volume: 0.1
   Snowball:
     Agility: 3000.0
@@ -303,6 +318,7 @@ items:
     id: 33569
     marketGroup: 1663
     name: Snowball
+    published: true
     volume: 0.1
   Snowball CXIV:
     Agility: 3000.0
@@ -323,6 +339,7 @@ items:
     id: 30221
     marketGroup: 1663
     name: Snowball CXIV
+    published: true
     volume: 0.1
   Sodium Firework:
     Agility: 3000.0
@@ -342,6 +359,7 @@ items:
     id: 33571
     marketGroup: 1663
     name: Sodium Firework
+    published: true
     volume: 0.1
   Sodium Firework CXIV:
     Agility: 3000.0
@@ -361,6 +379,7 @@ items:
     id: 32993
     marketGroup: 1663
     name: Sodium Firework CXIV
+    published: true
     volume: 0.1
   Spacetime Singularity Firework:
     Agility: 3000.0
@@ -380,6 +399,7 @@ items:
     id: 44266
     marketGroup: 1663
     name: Spacetime Singularity Firework
+    published: true
     volume: 0.1
   Wheel of Prosperity Firework:
     Agility: 3000.0
@@ -399,6 +419,7 @@ items:
     id: 44263
     marketGroup: 1663
     name: Wheel of Prosperity Firework
+    published: true
     volume: 0.1
   Wings of Victory Firework:
     Agility: 3000.0
@@ -418,6 +439,7 @@ items:
     id: 44265
     marketGroup: 1663
     name: Wings of Victory Firework
+    published: true
     volume: 0.1
   Yoiul Festival Firework:
     Agility: 3000.0
@@ -437,4 +459,5 @@ items:
     id: 44110
     marketGroup: 1663
     name: Yoiul Festival Firework
+    published: true
     volume: 0.1

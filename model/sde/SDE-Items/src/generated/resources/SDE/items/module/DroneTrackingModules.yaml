@@ -24,6 +24,7 @@ items:
     id: 41031
     marketGroup: 938
     name: AML Compact Omnidirectional Tracking Link
+    published: true
     volume: 5.0
   Denny Enduring Omnidirectional Tracking Link:
     AoeCloudSizeBonus: -6.599999904632568
@@ -50,6 +51,7 @@ items:
     id: 41032
     marketGroup: 938
     name: Denny Enduring Omnidirectional Tracking Link
+    published: true
     volume: 5.0
   Federation Navy Omnidirectional Tracking Link:
     AoeCloudSizeBonus: -9.625
@@ -77,6 +79,7 @@ items:
     id: 31942
     marketGroup: 938
     name: Federation Navy Omnidirectional Tracking Link
+    published: true
     volume: 5.0
   Omnidirectional Tracking Link I:
     AoeCloudSizeBonus: -5.5
@@ -101,6 +104,7 @@ items:
     id: 23533
     marketGroup: 938
     name: Omnidirectional Tracking Link I
+    published: true
     volume: 5.0
   Omnidirectional Tracking Link II:
     AoeCloudSizeBonus: -8.25
@@ -127,6 +131,7 @@ items:
     id: 24438
     marketGroup: 938
     name: Omnidirectional Tracking Link II
+    published: true
     volume: 5.0
   Sentient Omnidirectional Tracking Link:
     AoeCloudSizeBonus: -9.625
@@ -154,6 +159,7 @@ items:
     id: 33826
     marketGroup: 938
     name: Sentient Omnidirectional Tracking Link
+    published: true
     volume: 5.0
   Unit D-34343's Modified Omnidirectional Tracking Link:
     AoeCloudSizeBonus: -10.119999885559082
@@ -181,6 +187,7 @@ items:
     id: 32935
     marketGroup: 938
     name: Unit D-34343's Modified Omnidirectional Tracking Link
+    published: true
     volume: 5.0
   Unit F-435454's Modified Omnidirectional Tracking Link:
     AoeCloudSizeBonus: -10.614999771118164
@@ -208,6 +215,7 @@ items:
     id: 32937
     marketGroup: 938
     name: Unit F-435454's Modified Omnidirectional Tracking Link
+    published: true
     volume: 5.0
   Unit P-343554's Modified Omnidirectional Tracking Link:
     AoeCloudSizeBonus: -11.055000305175781
@@ -235,6 +243,7 @@ items:
     id: 32939
     marketGroup: 938
     name: Unit P-343554's Modified Omnidirectional Tracking Link
+    published: true
     volume: 5.0
   Unit W-634's Modified Omnidirectional Tracking Link:
     AoeCloudSizeBonus: -11.550000190734863
@@ -262,4 +271,5 @@ items:
     id: 32941
     marketGroup: 938
     name: Unit W-634's Modified Omnidirectional Tracking Link
+    published: true
     volume: 5.0

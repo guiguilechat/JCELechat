@@ -8,6 +8,7 @@ items:
     id: 47261
     marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-803
+    published: true
     volume: 1.0
   Inquest 'Eros' Stasis Webifier MR-805:
     Implantness: 8
@@ -18,6 +19,7 @@ items:
     id: 47262
     marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-805
+    published: true
     volume: 1.0
   Inquest 'Eros' Stasis Webifier MR-807:
     Implantness: 8
@@ -28,6 +30,7 @@ items:
     id: 47263
     marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-807
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-901:
     CapNeedBonus: -1
@@ -38,6 +41,7 @@ items:
     id: 27226
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-901
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-902:
     CapNeedBonus: -2
@@ -48,6 +52,7 @@ items:
     id: 3271
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-902
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-903:
     CapNeedBonus: -3
@@ -58,6 +63,7 @@ items:
     id: 13232
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-903
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-904:
     CapNeedBonus: -4
@@ -68,6 +74,7 @@ items:
     id: 3272
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-904
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-905:
     CapNeedBonus: -5
@@ -78,6 +85,7 @@ items:
     id: 27225
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-905
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-906:
     CapNeedBonus: -6
@@ -88,6 +96,7 @@ items:
     id: 3273
     marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-906
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-801:
     CapNeedBonus: -1
@@ -98,6 +107,7 @@ items:
     id: 27231
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-801
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-802:
     CapNeedBonus: -2
@@ -108,6 +118,7 @@ items:
     id: 3277
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-802
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-803:
     CapNeedBonus: -3
@@ -118,6 +129,7 @@ items:
     id: 13234
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-803
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-804:
     CapNeedBonus: -4
@@ -128,6 +140,7 @@ items:
     id: 3278
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-804
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-805:
     CapNeedBonus: -5
@@ -138,6 +151,7 @@ items:
     id: 27230
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-805
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-806:
     CapNeedBonus: -6
@@ -148,6 +162,7 @@ items:
     id: 3279
     marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-806
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-901:
     CapNeedBonus: -1
@@ -158,6 +173,7 @@ items:
     id: 27233
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-901
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-902:
     CapNeedBonus: -2
@@ -168,6 +184,7 @@ items:
     id: 3280
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-902
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-903:
     CapNeedBonus: -3
@@ -178,6 +195,7 @@ items:
     id: 13235
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-903
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-904:
     CapNeedBonus: -4
@@ -188,6 +206,7 @@ items:
     id: 3281
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-904
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-905:
     CapNeedBonus: -5
@@ -198,6 +217,7 @@ items:
     id: 27232
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-905
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-906:
     CapNeedBonus: -6
@@ -208,6 +228,7 @@ items:
     id: 3282
     marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-906
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-901:
     CapNeedBonus: -1
@@ -218,6 +239,7 @@ items:
     id: 27237
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-901
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-902:
     CapNeedBonus: -2
@@ -228,6 +250,7 @@ items:
     id: 3288
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-902
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-903:
     CapNeedBonus: -3
@@ -238,6 +261,7 @@ items:
     id: 27224
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-903
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-904:
     CapNeedBonus: -4
@@ -248,6 +272,7 @@ items:
     id: 3289
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-904
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-905:
     CapNeedBonus: -5
@@ -258,6 +283,7 @@ items:
     id: 27236
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-905
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-906:
     CapNeedBonus: -6
@@ -268,6 +294,7 @@ items:
     id: 3290
     marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-906
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-901:
     CapNeedBonus: -1
@@ -278,6 +305,7 @@ items:
     id: 27235
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-901
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-902:
     CapNeedBonus: -2
@@ -288,6 +316,7 @@ items:
     id: 3283
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-902
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-903:
     CapNeedBonus: -3
@@ -298,6 +327,7 @@ items:
     id: 13236
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-903
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-904:
     CapNeedBonus: -4
@@ -308,6 +338,7 @@ items:
     id: 3284
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-904
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-905:
     CapNeedBonus: -5
@@ -318,6 +349,7 @@ items:
     id: 27234
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-905
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-906:
     CapNeedBonus: -6
@@ -328,4 +360,5 @@ items:
     id: 3287
     marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-906
+    published: true
     volume: 1.0

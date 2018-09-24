@@ -1,0 +1,51 @@
+items:
+  Angel Cherubim:
+    id: 22842
+    name: Angel Cherubim
+    published: false
+    volume: 1.9E7
+  Angel Commander:
+    id: 11898
+    name: Angel Commander
+    published: false
+    volume: 1.9E7
+  Angel General:
+    id: 11899
+    name: Angel General
+    published: false
+    volume: 1.9E7
+  Angel Malakim:
+    id: 22840
+    name: Angel Malakim
+    published: false
+    volume: 1.9E7
+  Angel Nephilim:
+    id: 22839
+    name: Angel Nephilim
+    published: false
+    volume: 1.9E7
+  Angel Saint:
+    id: 22838
+    name: Angel Saint
+    published: false
+    volume: 1.9E7
+  Angel Seraphim:
+    id: 22843
+    name: Angel Seraphim
+    published: false
+    volume: 1.9E7
+  Angel Throne:
+    id: 22841
+    name: Angel Throne
+    published: false
+    volume: 1.9E7
+  Angel War General:
+    id: 11927
+    name: Angel War General
+    published: false
+    volume: 1.9E7
+  Angel Warlord:
+    id: 11900
+    name: Angel Warlord
+    published: false
+    volume: 1.9E7

@@ -13,6 +13,7 @@ items:
     id: 20721
     marketGroup: 987
     name: Arch Angel Carbonized Lead L
+    published: true
     volume: 0.025
   Arch Angel Carbonized Lead M:
     ChargeSize: 2
@@ -28,6 +29,7 @@ items:
     id: 19994
     marketGroup: 988
     name: Arch Angel Carbonized Lead M
+    published: true
     volume: 0.0125
   Arch Angel Carbonized Lead S:
     ChargeSize: 1
@@ -43,6 +45,7 @@ items:
     id: 19970
     marketGroup: 989
     name: Arch Angel Carbonized Lead S
+    published: true
     volume: 0.0025
   Arch Angel Carbonized Lead XL:
     ChargeSize: 4
@@ -58,6 +61,7 @@ items:
     id: 20737
     marketGroup: 1006
     name: Arch Angel Carbonized Lead XL
+    published: true
     volume: 0.125
   Arch Angel Depleted Uranium L:
     ChargeSize: 3
@@ -74,6 +78,7 @@ items:
     id: 20727
     marketGroup: 987
     name: Arch Angel Depleted Uranium L
+    published: true
     volume: 0.025
   Arch Angel Depleted Uranium M:
     ChargeSize: 2
@@ -90,6 +95,7 @@ items:
     id: 20000
     marketGroup: 988
     name: Arch Angel Depleted Uranium M
+    published: true
     volume: 0.0125
   Arch Angel Depleted Uranium S:
     ChargeSize: 1
@@ -106,6 +112,7 @@ items:
     id: 19976
     marketGroup: 989
     name: Arch Angel Depleted Uranium S
+    published: true
     volume: 0.0025
   Arch Angel Depleted Uranium XL:
     ChargeSize: 4
@@ -122,6 +129,7 @@ items:
     id: 20739
     marketGroup: 1006
     name: Arch Angel Depleted Uranium XL
+    published: true
     volume: 0.125
   Arch Angel EMP L:
     ChargeSize: 3
@@ -138,6 +146,7 @@ items:
     id: 20735
     marketGroup: 987
     name: Arch Angel EMP L
+    published: true
     volume: 0.025
   Arch Angel EMP M:
     ChargeSize: 2
@@ -154,6 +163,7 @@ items:
     id: 20008
     marketGroup: 988
     name: Arch Angel EMP M
+    published: true
     volume: 0.0125
   Arch Angel EMP S:
     ChargeSize: 1
@@ -170,6 +180,7 @@ items:
     id: 19992
     marketGroup: 989
     name: Arch Angel EMP S
+    published: true
     volume: 0.0025
   Arch Angel EMP XL:
     ChargeSize: 4
@@ -186,6 +197,7 @@ items:
     id: 20741
     marketGroup: 1006
     name: Arch Angel EMP XL
+    published: true
     volume: 0.125
   Arch Angel Fusion L:
     ChargeSize: 3
@@ -201,6 +213,7 @@ items:
     id: 20731
     marketGroup: 987
     name: Arch Angel Fusion L
+    published: true
     volume: 0.025
   Arch Angel Fusion M:
     ChargeSize: 2
@@ -216,6 +229,7 @@ items:
     id: 20004
     marketGroup: 988
     name: Arch Angel Fusion M
+    published: true
     volume: 0.0125
   Arch Angel Fusion S:
     ChargeSize: 1
@@ -231,6 +245,7 @@ items:
     id: 19988
     marketGroup: 989
     name: Arch Angel Fusion S
+    published: true
     volume: 0.0025
   Arch Angel Fusion XL:
     ChargeSize: 4
@@ -246,6 +261,7 @@ items:
     id: 20743
     marketGroup: 1006
     name: Arch Angel Fusion XL
+    published: true
     volume: 0.125
   Arch Angel Nuclear L:
     ChargeSize: 3
@@ -261,6 +277,7 @@ items:
     id: 20723
     marketGroup: 987
     name: Arch Angel Nuclear L
+    published: true
     volume: 0.025
   Arch Angel Nuclear M:
     ChargeSize: 2
@@ -276,6 +293,7 @@ items:
     id: 19996
     marketGroup: 988
     name: Arch Angel Nuclear M
+    published: true
     volume: 0.0125
   Arch Angel Nuclear S:
     ChargeSize: 1
@@ -291,6 +309,7 @@ items:
     id: 19972
     marketGroup: 989
     name: Arch Angel Nuclear S
+    published: true
     volume: 0.0025
   Arch Angel Nuclear XL:
     ChargeSize: 4
@@ -306,6 +325,7 @@ items:
     id: 20745
     marketGroup: 1006
     name: Arch Angel Nuclear XL
+    published: true
     volume: 0.125
   Arch Angel Phased Plasma L:
     ChargeSize: 3
@@ -321,6 +341,7 @@ items:
     id: 20733
     marketGroup: 987
     name: Arch Angel Phased Plasma L
+    published: true
     volume: 0.025
   Arch Angel Phased Plasma M:
     ChargeSize: 2
@@ -336,6 +357,7 @@ items:
     id: 20006
     marketGroup: 988
     name: Arch Angel Phased Plasma M
+    published: true
     volume: 0.0125
   Arch Angel Phased Plasma S:
     ChargeSize: 1
@@ -351,6 +373,7 @@ items:
     id: 19990
     marketGroup: 989
     name: Arch Angel Phased Plasma S
+    published: true
     volume: 0.0025
   Arch Angel Phased Plasma XL:
     ChargeSize: 4
@@ -366,6 +389,7 @@ items:
     id: 20747
     marketGroup: 1006
     name: Arch Angel Phased Plasma XL
+    published: true
     volume: 0.125
   Arch Angel Proton L:
     ChargeSize: 3
@@ -381,6 +405,7 @@ items:
     id: 20725
     marketGroup: 987
     name: Arch Angel Proton L
+    published: true
     volume: 0.025
   Arch Angel Proton M:
     ChargeSize: 2
@@ -396,6 +421,7 @@ items:
     id: 19998
     marketGroup: 988
     name: Arch Angel Proton M
+    published: true
     volume: 0.0125
   Arch Angel Proton S:
     ChargeSize: 1
@@ -411,6 +437,7 @@ items:
     id: 19974
     marketGroup: 989
     name: Arch Angel Proton S
+    published: true
     volume: 0.0025
   Arch Angel Proton XL:
     ChargeSize: 4
@@ -426,6 +453,7 @@ items:
     id: 20749
     marketGroup: 1006
     name: Arch Angel Proton XL
+    published: true
     volume: 0.125
   Arch Angel Titanium Sabot L:
     ChargeSize: 3
@@ -441,6 +469,7 @@ items:
     id: 20729
     marketGroup: 987
     name: Arch Angel Titanium Sabot L
+    published: true
     volume: 0.025
   Arch Angel Titanium Sabot M:
     ChargeSize: 2
@@ -456,6 +485,7 @@ items:
     id: 20002
     marketGroup: 988
     name: Arch Angel Titanium Sabot M
+    published: true
     volume: 0.0125
   Arch Angel Titanium Sabot S:
     ChargeSize: 1
@@ -471,6 +501,7 @@ items:
     id: 19986
     marketGroup: 989
     name: Arch Angel Titanium Sabot S
+    published: true
     volume: 0.0025
   Arch Angel Titanium Sabot XL:
     ChargeSize: 4
@@ -486,6 +517,7 @@ items:
     id: 20751
     marketGroup: 1006
     name: Arch Angel Titanium Sabot XL
+    published: true
     volume: 0.125
   Carbonized Lead L:
     ChargeSize: 3
@@ -500,6 +532,7 @@ items:
     id: 194
     marketGroup: 109
     name: Carbonized Lead L
+    published: true
     volume: 0.025
   Carbonized Lead M:
     ChargeSize: 2
@@ -514,6 +547,7 @@ items:
     id: 186
     marketGroup: 112
     name: Carbonized Lead M
+    published: true
     volume: 0.0125
   Carbonized Lead S:
     ChargeSize: 1
@@ -528,6 +562,7 @@ items:
     id: 178
     marketGroup: 113
     name: Carbonized Lead S
+    published: true
     volume: 0.0025
   Carbonized Lead XL:
     ChargeSize: 4
@@ -542,6 +577,7 @@ items:
     id: 17664
     marketGroup: 502
     name: Carbonized Lead XL
+    published: true
     volume: 0.125
   Depleted Uranium L:
     ChargeSize: 3
@@ -557,6 +593,7 @@ items:
     id: 197
     marketGroup: 109
     name: Depleted Uranium L
+    published: true
     volume: 0.025
   Depleted Uranium M:
     ChargeSize: 2
@@ -572,6 +609,7 @@ items:
     id: 189
     marketGroup: 112
     name: Depleted Uranium M
+    published: true
     volume: 0.0125
   Depleted Uranium S:
     ChargeSize: 1
@@ -587,6 +625,7 @@ items:
     id: 181
     marketGroup: 113
     name: Depleted Uranium S
+    published: true
     volume: 0.0025
   Depleted Uranium XL:
     ChargeSize: 4
@@ -602,6 +641,7 @@ items:
     id: 17666
     marketGroup: 502
     name: Depleted Uranium XL
+    published: true
     volume: 0.125
   Domination Carbonized Lead L:
     ChargeSize: 3
@@ -617,6 +657,7 @@ items:
     id: 20785
     marketGroup: 987
     name: Domination Carbonized Lead L
+    published: true
     volume: 0.025
   Domination Carbonized Lead M:
     ChargeSize: 2
@@ -632,6 +673,7 @@ items:
     id: 20769
     marketGroup: 988
     name: Domination Carbonized Lead M
+    published: true
     volume: 0.0125
   Domination Carbonized Lead S:
     ChargeSize: 1
@@ -647,6 +689,7 @@ items:
     id: 20753
     marketGroup: 989
     name: Domination Carbonized Lead S
+    published: true
     volume: 0.0025
   Domination Carbonized Lead XL:
     ChargeSize: 4
@@ -662,6 +705,7 @@ items:
     id: 20801
     marketGroup: 1006
     name: Domination Carbonized Lead XL
+    published: true
     volume: 0.125
   Domination Depleted Uranium L:
     ChargeSize: 3
@@ -678,6 +722,7 @@ items:
     id: 20791
     marketGroup: 987
     name: Domination Depleted Uranium L
+    published: true
     volume: 0.025
   Domination Depleted Uranium M:
     ChargeSize: 2
@@ -694,6 +739,7 @@ items:
     id: 20775
     marketGroup: 988
     name: Domination Depleted Uranium M
+    published: true
     volume: 0.0125
   Domination Depleted Uranium S:
     ChargeSize: 1
@@ -710,6 +756,7 @@ items:
     id: 20759
     marketGroup: 989
     name: Domination Depleted Uranium S
+    published: true
     volume: 0.0025
   Domination Depleted Uranium XL:
     ChargeSize: 4
@@ -726,6 +773,7 @@ items:
     id: 20803
     marketGroup: 1006
     name: Domination Depleted Uranium XL
+    published: true
     volume: 0.125
   Domination EMP L:
     ChargeSize: 3
@@ -742,6 +790,7 @@ items:
     id: 20799
     marketGroup: 987
     name: Domination EMP L
+    published: true
     volume: 0.025
   Domination EMP M:
     ChargeSize: 2
@@ -758,6 +807,7 @@ items:
     id: 20783
     marketGroup: 988
     name: Domination EMP M
+    published: true
     volume: 0.0125
   Domination EMP S:
     ChargeSize: 1
@@ -774,6 +824,7 @@ items:
     id: 20767
     marketGroup: 989
     name: Domination EMP S
+    published: true
     volume: 0.0025
   Domination EMP XL:
     ChargeSize: 4
@@ -790,6 +841,7 @@ items:
     id: 20805
     marketGroup: 1006
     name: Domination EMP XL
+    published: true
     volume: 0.125
   Domination Fusion L:
     ChargeSize: 3
@@ -805,6 +857,7 @@ items:
     id: 20795
     marketGroup: 987
     name: Domination Fusion L
+    published: true
     volume: 0.025
   Domination Fusion M:
     ChargeSize: 2
@@ -820,6 +873,7 @@ items:
     id: 20779
     marketGroup: 988
     name: Domination Fusion M
+    published: true
     volume: 0.0125
   Domination Fusion S:
     ChargeSize: 1
@@ -835,6 +889,7 @@ items:
     id: 20763
     marketGroup: 989
     name: Domination Fusion S
+    published: true
     volume: 0.0025
   Domination Fusion XL:
     ChargeSize: 4
@@ -850,6 +905,7 @@ items:
     id: 20807
     marketGroup: 1006
     name: Domination Fusion XL
+    published: true
     volume: 0.125
   Domination Nuclear L:
     ChargeSize: 3
@@ -865,6 +921,7 @@ items:
     id: 20787
     marketGroup: 987
     name: Domination Nuclear L
+    published: true
     volume: 0.025
   Domination Nuclear M:
     ChargeSize: 2
@@ -880,6 +937,7 @@ items:
     id: 20771
     marketGroup: 988
     name: Domination Nuclear M
+    published: true
     volume: 0.0125
   Domination Nuclear S:
     ChargeSize: 1
@@ -895,6 +953,7 @@ items:
     id: 20755
     marketGroup: 989
     name: Domination Nuclear S
+    published: true
     volume: 0.0025
   Domination Nuclear XL:
     ChargeSize: 4
@@ -910,6 +969,7 @@ items:
     id: 20809
     marketGroup: 1006
     name: Domination Nuclear XL
+    published: true
     volume: 0.125
   Domination Phased Plasma L:
     ChargeSize: 3
@@ -925,6 +985,7 @@ items:
     id: 20797
     marketGroup: 987
     name: Domination Phased Plasma L
+    published: true
     volume: 0.025
   Domination Phased Plasma M:
     ChargeSize: 2
@@ -940,6 +1001,7 @@ items:
     id: 20781
     marketGroup: 988
     name: Domination Phased Plasma M
+    published: true
     volume: 0.0125
   Domination Phased Plasma S:
     ChargeSize: 1
@@ -955,6 +1017,7 @@ items:
     id: 20765
     marketGroup: 989
     name: Domination Phased Plasma S
+    published: true
     volume: 0.0025
   Domination Phased Plasma XL:
     ChargeSize: 4
@@ -970,6 +1033,7 @@ items:
     id: 20811
     marketGroup: 1006
     name: Domination Phased Plasma XL
+    published: true
     volume: 0.125
   Domination Proton L:
     ChargeSize: 3
@@ -985,6 +1049,7 @@ items:
     id: 20789
     marketGroup: 987
     name: Domination Proton L
+    published: true
     volume: 0.025
   Domination Proton M:
     ChargeSize: 2
@@ -1000,6 +1065,7 @@ items:
     id: 20773
     marketGroup: 988
     name: Domination Proton M
+    published: true
     volume: 0.0125
   Domination Proton S:
     ChargeSize: 1
@@ -1015,6 +1081,7 @@ items:
     id: 20757
     marketGroup: 989
     name: Domination Proton S
+    published: true
     volume: 0.0025
   Domination Proton XL:
     ChargeSize: 4
@@ -1030,6 +1097,7 @@ items:
     id: 20813
     marketGroup: 1006
     name: Domination Proton XL
+    published: true
     volume: 0.125
   Domination Titanium Sabot L:
     ChargeSize: 3
@@ -1045,6 +1113,7 @@ items:
     id: 20793
     marketGroup: 987
     name: Domination Titanium Sabot L
+    published: true
     volume: 0.025
   Domination Titanium Sabot M:
     ChargeSize: 2
@@ -1060,6 +1129,7 @@ items:
     id: 20777
     marketGroup: 988
     name: Domination Titanium Sabot M
+    published: true
     volume: 0.0125
   Domination Titanium Sabot S:
     ChargeSize: 1
@@ -1075,6 +1145,7 @@ items:
     id: 20761
     marketGroup: 989
     name: Domination Titanium Sabot S
+    published: true
     volume: 0.0025
   Domination Titanium Sabot XL:
     ChargeSize: 4
@@ -1090,6 +1161,7 @@ items:
     id: 20815
     marketGroup: 1006
     name: Domination Titanium Sabot XL
+    published: true
     volume: 0.125
   EMP L:
     ChargeSize: 3
@@ -1105,6 +1177,7 @@ items:
     id: 201
     marketGroup: 109
     name: EMP L
+    published: true
     volume: 0.025
   EMP M:
     ChargeSize: 2
@@ -1120,6 +1193,7 @@ items:
     id: 193
     marketGroup: 112
     name: EMP M
+    published: true
     volume: 0.0125
   EMP S:
     ChargeSize: 1
@@ -1135,6 +1209,7 @@ items:
     id: 185
     marketGroup: 113
     name: EMP S
+    published: true
     volume: 0.0025
   EMP XL:
     ChargeSize: 4
@@ -1150,6 +1225,7 @@ items:
     id: 17668
     marketGroup: 502
     name: EMP XL
+    published: true
     volume: 0.125
   Fusion L:
     ChargeSize: 3
@@ -1164,6 +1240,7 @@ items:
     id: 199
     marketGroup: 109
     name: Fusion L
+    published: true
     volume: 0.025
   Fusion M:
     ChargeSize: 2
@@ -1178,6 +1255,7 @@ items:
     id: 191
     marketGroup: 112
     name: Fusion M
+    published: true
     volume: 0.0125
   Fusion S:
     ChargeSize: 1
@@ -1192,6 +1270,7 @@ items:
     id: 183
     marketGroup: 113
     name: Fusion S
+    published: true
     volume: 0.0025
   Fusion XL:
     ChargeSize: 4
@@ -1206,6 +1285,7 @@ items:
     id: 17670
     marketGroup: 502
     name: Fusion XL
+    published: true
     volume: 0.125
   Nuclear L:
     ChargeSize: 3
@@ -1220,6 +1300,7 @@ items:
     id: 195
     marketGroup: 109
     name: Nuclear L
+    published: true
     volume: 0.025
   Nuclear M:
     ChargeSize: 2
@@ -1234,6 +1315,7 @@ items:
     id: 187
     marketGroup: 112
     name: Nuclear M
+    published: true
     volume: 0.0125
   Nuclear S:
     ChargeSize: 1
@@ -1248,6 +1330,7 @@ items:
     id: 179
     marketGroup: 113
     name: Nuclear S
+    published: true
     volume: 0.0025
   Nuclear XL:
     ChargeSize: 4
@@ -1262,6 +1345,7 @@ items:
     id: 17672
     marketGroup: 502
     name: Nuclear XL
+    published: true
     volume: 0.125
   Phased Plasma L:
     ChargeSize: 3
@@ -1276,6 +1360,7 @@ items:
     id: 200
     marketGroup: 109
     name: Phased Plasma L
+    published: true
     volume: 0.025
   Phased Plasma M:
     ChargeSize: 2
@@ -1290,6 +1375,7 @@ items:
     id: 192
     marketGroup: 112
     name: Phased Plasma M
+    published: true
     volume: 0.0125
   Phased Plasma S:
     ChargeSize: 1
@@ -1304,6 +1390,7 @@ items:
     id: 184
     marketGroup: 113
     name: Phased Plasma S
+    published: true
     volume: 0.0025
   Phased Plasma XL:
     ChargeSize: 4
@@ -1318,6 +1405,7 @@ items:
     id: 17674
     marketGroup: 502
     name: Phased Plasma XL
+    published: true
     volume: 0.125
   Proton L:
     ChargeSize: 3
@@ -1332,6 +1420,7 @@ items:
     id: 196
     marketGroup: 109
     name: Proton L
+    published: true
     volume: 0.025
   Proton M:
     ChargeSize: 2
@@ -1346,6 +1435,7 @@ items:
     id: 188
     marketGroup: 112
     name: Proton M
+    published: true
     volume: 0.0125
   Proton S:
     ChargeSize: 1
@@ -1360,6 +1450,7 @@ items:
     id: 180
     marketGroup: 113
     name: Proton S
+    published: true
     volume: 0.0025
   Proton XL:
     ChargeSize: 4
@@ -1374,6 +1465,7 @@ items:
     id: 17676
     marketGroup: 502
     name: Proton XL
+    published: true
     volume: 0.125
   Republic Fleet Carbonized Lead L:
     ChargeSize: 3
@@ -1389,6 +1481,7 @@ items:
     id: 28324
     marketGroup: 987
     name: Republic Fleet Carbonized Lead L
+    published: true
     volume: 0.025
   Republic Fleet Carbonized Lead M:
     ChargeSize: 2
@@ -1404,6 +1497,7 @@ items:
     id: 28326
     marketGroup: 988
     name: Republic Fleet Carbonized Lead M
+    published: true
     volume: 0.0125
   Republic Fleet Carbonized Lead S:
     ChargeSize: 1
@@ -1419,6 +1513,7 @@ items:
     id: 28328
     marketGroup: 989
     name: Republic Fleet Carbonized Lead S
+    published: true
     volume: 0.0025
   Republic Fleet Carbonized Lead XL:
     ChargeSize: 4
@@ -1434,6 +1529,7 @@ items:
     id: 28330
     marketGroup: 1006
     name: Republic Fleet Carbonized Lead XL
+    published: true
     volume: 0.125
   Republic Fleet Depleted Uranium L:
     ChargeSize: 3
@@ -1450,6 +1546,7 @@ items:
     id: 28332
     marketGroup: 987
     name: Republic Fleet Depleted Uranium L
+    published: true
     volume: 0.025
   Republic Fleet Depleted Uranium M:
     ChargeSize: 2
@@ -1466,6 +1563,7 @@ items:
     id: 28334
     marketGroup: 988
     name: Republic Fleet Depleted Uranium M
+    published: true
     volume: 0.0125
   Republic Fleet Depleted Uranium S:
     ChargeSize: 1
@@ -1482,6 +1580,7 @@ items:
     id: 28336
     marketGroup: 989
     name: Republic Fleet Depleted Uranium S
+    published: true
     volume: 0.0025
   Republic Fleet Depleted Uranium XL:
     ChargeSize: 4
@@ -1498,6 +1597,7 @@ items:
     id: 28338
     marketGroup: 1006
     name: Republic Fleet Depleted Uranium XL
+    published: true
     volume: 0.125
   Republic Fleet EMP L:
     ChargeSize: 3
@@ -1514,6 +1614,7 @@ items:
     id: 21894
     marketGroup: 987
     name: Republic Fleet EMP L
+    published: true
     volume: 0.025
   Republic Fleet EMP M:
     ChargeSize: 2
@@ -1530,6 +1631,7 @@ items:
     id: 21896
     marketGroup: 988
     name: Republic Fleet EMP M
+    published: true
     volume: 0.0125
   Republic Fleet EMP S:
     ChargeSize: 1
@@ -1546,6 +1648,7 @@ items:
     id: 21898
     marketGroup: 989
     name: Republic Fleet EMP S
+    published: true
     volume: 0.0025
   Republic Fleet EMP XL:
     ChargeSize: 4
@@ -1562,6 +1665,7 @@ items:
     id: 21900
     marketGroup: 1006
     name: Republic Fleet EMP XL
+    published: true
     volume: 0.125
   Republic Fleet Fusion L:
     ChargeSize: 3
@@ -1577,6 +1681,7 @@ items:
     id: 21902
     marketGroup: 987
     name: Republic Fleet Fusion L
+    published: true
     volume: 0.025
   Republic Fleet Fusion M:
     ChargeSize: 2
@@ -1592,6 +1697,7 @@ items:
     id: 21904
     marketGroup: 988
     name: Republic Fleet Fusion M
+    published: true
     volume: 0.0125
   Republic Fleet Fusion S:
     ChargeSize: 1
@@ -1607,6 +1713,7 @@ items:
     id: 21906
     marketGroup: 989
     name: Republic Fleet Fusion S
+    published: true
     volume: 0.0025
   Republic Fleet Fusion XL:
     ChargeSize: 4
@@ -1622,6 +1729,7 @@ items:
     id: 21908
     marketGroup: 1006
     name: Republic Fleet Fusion XL
+    published: true
     volume: 0.125
   Republic Fleet Nuclear L:
     ChargeSize: 3
@@ -1637,6 +1745,7 @@ items:
     id: 21910
     marketGroup: 987
     name: Republic Fleet Nuclear L
+    published: true
     volume: 0.025
   Republic Fleet Nuclear M:
     ChargeSize: 2
@@ -1652,6 +1761,7 @@ items:
     id: 21912
     marketGroup: 988
     name: Republic Fleet Nuclear M
+    published: true
     volume: 0.0125
   Republic Fleet Nuclear S:
     ChargeSize: 1
@@ -1667,6 +1777,7 @@ items:
     id: 21914
     marketGroup: 989
     name: Republic Fleet Nuclear S
+    published: true
     volume: 0.0025
   Republic Fleet Nuclear XL:
     ChargeSize: 4
@@ -1682,6 +1793,7 @@ items:
     id: 21916
     marketGroup: 1006
     name: Republic Fleet Nuclear XL
+    published: true
     volume: 0.125
   Republic Fleet Phased Plasma L:
     ChargeSize: 3
@@ -1697,6 +1809,7 @@ items:
     id: 21918
     marketGroup: 987
     name: Republic Fleet Phased Plasma L
+    published: true
     volume: 0.025
   Republic Fleet Phased Plasma M:
     ChargeSize: 2
@@ -1712,6 +1825,7 @@ items:
     id: 21922
     marketGroup: 988
     name: Republic Fleet Phased Plasma M
+    published: true
     volume: 0.0125
   Republic Fleet Phased Plasma S:
     ChargeSize: 1
@@ -1727,6 +1841,7 @@ items:
     id: 21924
     marketGroup: 989
     name: Republic Fleet Phased Plasma S
+    published: true
     volume: 0.0025
   Republic Fleet Phased Plasma XL:
     ChargeSize: 4
@@ -1742,6 +1857,7 @@ items:
     id: 21920
     marketGroup: 1006
     name: Republic Fleet Phased Plasma XL
+    published: true
     volume: 0.125
   Republic Fleet Proton L:
     ChargeSize: 3
@@ -1757,6 +1873,7 @@ items:
     id: 21926
     marketGroup: 987
     name: Republic Fleet Proton L
+    published: true
     volume: 0.025
   Republic Fleet Proton M:
     ChargeSize: 2
@@ -1772,6 +1889,7 @@ items:
     id: 21928
     marketGroup: 988
     name: Republic Fleet Proton M
+    published: true
     volume: 0.0125
   Republic Fleet Proton S:
     ChargeSize: 1
@@ -1787,6 +1905,7 @@ items:
     id: 21931
     marketGroup: 989
     name: Republic Fleet Proton S
+    published: true
     volume: 0.0025
   Republic Fleet Proton XL:
     ChargeSize: 4
@@ -1802,6 +1921,7 @@ items:
     id: 21933
     marketGroup: 1006
     name: Republic Fleet Proton XL
+    published: true
     volume: 0.125
   Republic Fleet Titanium Sabot L:
     ChargeSize: 3
@@ -1817,6 +1937,7 @@ items:
     id: 21935
     marketGroup: 987
     name: Republic Fleet Titanium Sabot L
+    published: true
     volume: 0.025
   Republic Fleet Titanium Sabot M:
     ChargeSize: 2
@@ -1832,6 +1953,7 @@ items:
     id: 21937
     marketGroup: 988
     name: Republic Fleet Titanium Sabot M
+    published: true
     volume: 0.0125
   Republic Fleet Titanium Sabot S:
     ChargeSize: 1
@@ -1847,6 +1969,7 @@ items:
     id: 21939
     marketGroup: 989
     name: Republic Fleet Titanium Sabot S
+    published: true
     volume: 0.0025
   Republic Fleet Titanium Sabot XL:
     ChargeSize: 4
@@ -1862,6 +1985,7 @@ items:
     id: 21941
     marketGroup: 1006
     name: Republic Fleet Titanium Sabot XL
+    published: true
     volume: 0.125
   Titanium Sabot L:
     ChargeSize: 3
@@ -1876,6 +2000,7 @@ items:
     id: 198
     marketGroup: 109
     name: Titanium Sabot L
+    published: true
     volume: 0.025
   Titanium Sabot M:
     ChargeSize: 2
@@ -1890,6 +2015,7 @@ items:
     id: 190
     marketGroup: 112
     name: Titanium Sabot M
+    published: true
     volume: 0.0125
   Titanium Sabot S:
     ChargeSize: 1
@@ -1904,6 +2030,7 @@ items:
     id: 182
     marketGroup: 113
     name: Titanium Sabot S
+    published: true
     volume: 0.0025
   Titanium Sabot XL:
     ChargeSize: 4
@@ -1918,4 +2045,5 @@ items:
     id: 17678
     marketGroup: 502
     name: Titanium Sabot XL
+    published: true
     volume: 0.125

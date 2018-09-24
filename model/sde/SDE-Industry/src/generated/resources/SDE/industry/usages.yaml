@@ -38002,7 +38002,7 @@ usages:
       Zydrine: 72
   Gila:
     materialManuf: !!set
-      毒蜥级YC117年特��版蓝图: null
+      毒蜥级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Gila Blueprint: null
@@ -47221,7 +47221,7 @@ usages:
       Networked Sensor Array Blueprint: null
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
+      ‘Iron Pike��� Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -53819,7 +53819,7 @@ usages:
       Tritanium: 500
   Machariel:
     materialManuf: !!set
-      ��克瑞级YC117年特别版蓝图: null
+      马克瑞级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Machariel Blueprint: null
@@ -58691,7 +58691,7 @@ usages:
       Networked Sensor Array Blueprint: null
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
+      ‘Iron Pike��� Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -59966,7 +59966,7 @@ usages:
       Networked Sensor Array Blueprint: null
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
+      ‘Iron Pike��� Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -65856,7 +65856,7 @@ usages:
       Networked Sensor Array Blueprint: null
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
+      ‘Iron Pike��� Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -72609,7 +72609,7 @@ usages:
       Networked Sensor Array Blueprint: null
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
+      ‘Iron Pike��� Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -101049,7 +101049,7 @@ usages:
       Networked Sensor Array Blueprint: null
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
+      ‘Iron Pike��� Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -108006,7 +108006,7 @@ usages:
       Networked Sensor Array Blueprint: null
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
+      ‘Iron Pike��� Kinetic Lance Blueprint: null
       ‘Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -108197,22 +108197,10 @@ usages:
       Nocxium: 325361
       Zydrine: 40313
       Megacyte: 45502
-  ‘Holy Destiny’ Electromagnetic Lance:
-    maxreprocess: 0.55
-    productManuf: !!set
-      ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
-    reprocess:
-      Tritanium: 1708629
-      Pyerite: 1272573
-      Mexallon: 465954
-      Isogen: 243716
-      Nocxium: 353314
-      Zydrine: 43638
-      Megacyte: 48181
   ‘Iron Pike’ Kinetic Lance:
     maxreprocess: 0.55
     productManuf: !!set
-      ‘Iron Pike’ Kinetic Lance Blueprint: null
+      ‘Iron Pike��� Kinetic Lance Blueprint: null
     reprocess:
       Tritanium: 1809763
       Pyerite: 1323826
@@ -108233,7 +108221,7 @@ usages:
       Nocxium: 340313
       Zydrine: 40521
       Megacyte: 52250
-  ‘Phalarica�� Thermal Lance:
+  ‘Phalarica’ Thermal Lance:
     maxreprocess: 0.55
     productManuf: !!set
       ‘Phalarica’ Thermal Lance Blueprint: null
@@ -108315,7 +108303,7 @@ usages:
   毒蜥级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      毒蜥级YC117年特��版蓝图: null
+      毒蜥级YC117年特别版蓝图: null
     reprocess:
       Gila: 1
   灾难级YC117年特别版:
@@ -108333,6 +108321,18 @@ usages:
   马克瑞级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      ��克瑞级YC117年特别版蓝图: null
+      马克瑞级YC117年特别版蓝图: null
     reprocess:
       Machariel: 1
+  ��Holy Destiny’ Electromagnetic Lance:
+    maxreprocess: 0.55
+    productManuf: !!set
+      ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
+    reprocess:
+      Tritanium: 1708629
+      Pyerite: 1272573
+      Mexallon: 465954
+      Isogen: 243716
+      Nocxium: 353314
+      Zydrine: 43638
+      Megacyte: 48181

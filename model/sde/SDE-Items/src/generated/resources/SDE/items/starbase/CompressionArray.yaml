@@ -28,4 +28,5 @@ items:
     id: 12239
     marketGroup: 1921
     name: Compression Array
+    published: true
     volume: 6000.0

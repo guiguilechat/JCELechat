@@ -5,6 +5,7 @@ items:
     id: 983
     marketGroup: 284
     name: Badger Blueprint
+    published: true
     volume: 0.01
   Bestower Blueprint:
     IndustryBlueprintRank: 40.0
@@ -12,6 +13,7 @@ items:
     id: 1945
     marketGroup: 285
     name: Bestower Blueprint
+    published: true
     volume: 0.01
   Epithal Blueprint:
     IndustryBlueprintRank: 40.0
@@ -19,6 +21,7 @@ items:
     id: 990
     marketGroup: 283
     name: Epithal Blueprint
+    published: true
     volume: 0.01
   Hoarder Blueprint:
     IndustryBlueprintRank: 40.0
@@ -26,6 +29,7 @@ items:
     id: 986
     marketGroup: 282
     name: Hoarder Blueprint
+    published: true
     volume: 0.01
   Iteron Mark V Blueprint:
     IndustryBlueprintRank: 40.0
@@ -33,6 +37,7 @@ items:
     id: 992
     marketGroup: 283
     name: Iteron Mark V Blueprint
+    published: true
     volume: 0.01
   Kryos Blueprint:
     IndustryBlueprintRank: 40.0
@@ -40,6 +45,7 @@ items:
     id: 989
     marketGroup: 283
     name: Kryos Blueprint
+    published: true
     volume: 0.01
   Mammoth Blueprint:
     IndustryBlueprintRank: 40.0
@@ -47,11 +53,14 @@ items:
     id: 987
     marketGroup: 282
     name: Mammoth Blueprint
+    published: true
     volume: 0.01
   Miasmos Amastris Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     id: 32812
     name: Miasmos Amastris Edition Blueprint
+    published: true
     volume: 0.01
   Miasmos Blueprint:
     IndustryBlueprintRank: 40.0
@@ -59,16 +68,21 @@ items:
     id: 991
     marketGroup: 283
     name: Miasmos Blueprint
+    published: true
     volume: 0.01
   Miasmos Quafe Ultra Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     id: 4364
     name: Miasmos Quafe Ultra Edition Blueprint
+    published: true
     volume: 0.01
   Miasmos Quafe Ultramarine Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    IndustryJobCostMultiplier: 1
     id: 4389
     name: Miasmos Quafe Ultramarine Edition Blueprint
+    published: true
     volume: 0.01
   Nereus Blueprint:
     IndustryBlueprintRank: 40.0
@@ -76,6 +90,7 @@ items:
     id: 985
     marketGroup: 283
     name: Nereus Blueprint
+    published: true
     volume: 0.01
   Noctis Blueprint:
     IndustryBlueprintRank: 40.0
@@ -83,12 +98,14 @@ items:
     id: 3039
     marketGroup: 1389
     name: Noctis Blueprint
+    published: true
     volume: 0.01
   Primae Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 2864
     name: Primae Blueprint
+    published: true
     volume: 0.01
   Sigil Blueprint:
     IndustryBlueprintRank: 40.0
@@ -96,6 +113,7 @@ items:
     id: 19745
     marketGroup: 285
     name: Sigil Blueprint
+    published: true
     volume: 0.01
   Tayra Blueprint:
     IndustryBlueprintRank: 40.0
@@ -103,6 +121,7 @@ items:
     id: 984
     marketGroup: 284
     name: Tayra Blueprint
+    published: true
     volume: 0.01
   Wreathe Blueprint:
     IndustryBlueprintRank: 40.0
@@ -110,4 +129,5 @@ items:
     id: 988
     marketGroup: 282
     name: Wreathe Blueprint
+    published: true
     volume: 0.01

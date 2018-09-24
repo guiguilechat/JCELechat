@@ -4,18 +4,21 @@ items:
     TechLevel: 1
     id: 20570
     name: '''Deuce'' Co-Processor I Blueprint'
+    published: true
     volume: 0.01
   '''Dyad'' Co-Processor I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 20568
     name: '''Dyad'' Co-Processor I Blueprint'
+    published: true
     volume: 0.01
   Caldari Navy Co-Processor Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15676
     name: Caldari Navy Co-Processor Blueprint
+    published: true
     volume: 0.01
   Co-Processor I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -23,22 +26,26 @@ items:
     id: 11619
     marketGroup: 1584
     name: Co-Processor I Blueprint
+    published: true
     volume: 0.01
   Co-Processor II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 11747
     name: Co-Processor II Blueprint
+    published: true
     volume: 0.01
   Federation Navy Co-Processor Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15678
     name: Federation Navy Co-Processor Blueprint
+    published: true
     volume: 0.01
   Khanid Navy Co-Processor Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 28562
     name: Khanid Navy Co-Processor Blueprint
+    published: true
     volume: 0.01

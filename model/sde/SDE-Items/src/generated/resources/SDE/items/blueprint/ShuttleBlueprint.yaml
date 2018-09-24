@@ -4,42 +4,50 @@ items:
     id: 11135
     marketGroup: 415
     name: Amarr Shuttle Blueprint
+    published: true
     volume: 0.01
   Apotheosis Blueprint:
     IndustryBlueprintRank: 20.0
     id: 29267
     name: Apotheosis Blueprint
+    published: true
     volume: 0.01
   Caldari Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
     id: 967
     marketGroup: 416
     name: Caldari Shuttle Blueprint
+    published: true
     volume: 0.01
   Council Diplomatic Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
     id: 34497
     name: Council Diplomatic Shuttle Blueprint
+    published: true
     volume: 0.01
   Gallente Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
     id: 11130
     marketGroup: 417
     name: Gallente Shuttle Blueprint
+    published: true
     volume: 0.01
   InterBus Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
     id: 30843
     name: InterBus Shuttle Blueprint
+    published: true
     volume: 0.01
   Leopard Blueprint:
     IndustryBlueprintRank: 20.0
     id: 33514
     name: Leopard Blueprint
+    published: true
     volume: 0.01
   Minmatar Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
     id: 11133
     marketGroup: 418
     name: Minmatar Shuttle Blueprint
+    published: true
     volume: 0.01

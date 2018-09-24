@@ -9,6 +9,7 @@ items:
     id: 31109
     marketGroup: 1740
     name: Capital Auxiliary Thrusters I
+    published: true
     volume: 40.0
   Capital Auxiliary Thrusters II:
     Drawback: -10
@@ -21,6 +22,7 @@ items:
     id: 31115
     marketGroup: 1740
     name: Capital Auxiliary Thrusters II
+    published: true
     volume: 40.0
   Capital Cargohold Optimization I:
     CargoCapacityBonus: 15
@@ -32,6 +34,7 @@ items:
     id: 31121
     marketGroup: 1740
     name: Capital Cargohold Optimization I
+    published: true
     volume: 40.0
   Capital Cargohold Optimization II:
     CargoCapacityBonus: 20
@@ -44,6 +47,7 @@ items:
     id: 31127
     marketGroup: 1740
     name: Capital Cargohold Optimization II
+    published: true
     volume: 40.0
   Capital Dynamic Fuel Valve I:
     CapNeedBonus: -15
@@ -55,6 +59,7 @@ items:
     id: 31133
     marketGroup: 1740
     name: Capital Dynamic Fuel Valve I
+    published: true
     volume: 40.0
   Capital Dynamic Fuel Valve II:
     CapNeedBonus: -20
@@ -67,6 +72,7 @@ items:
     id: 31139
     marketGroup: 1740
     name: Capital Dynamic Fuel Valve II
+    published: true
     volume: 40.0
   Capital Engine Thermal Shielding I:
     Drawback: -10
@@ -78,6 +84,7 @@ items:
     id: 31145
     marketGroup: 1740
     name: Capital Engine Thermal Shielding I
+    published: true
     volume: 40.0
   Capital Engine Thermal Shielding II:
     Drawback: -10
@@ -90,6 +97,7 @@ items:
     id: 31151
     marketGroup: 1740
     name: Capital Engine Thermal Shielding II
+    published: true
     volume: 40.0
   Capital Hyperspatial Velocity Optimizer I:
     Drawback: 10
@@ -101,6 +109,7 @@ items:
     id: 31163
     marketGroup: 1740
     name: Capital Hyperspatial Velocity Optimizer I
+    published: true
     volume: 40.0
   Capital Hyperspatial Velocity Optimizer II:
     Drawback: 10
@@ -113,6 +122,7 @@ items:
     id: 31169
     marketGroup: 1740
     name: Capital Hyperspatial Velocity Optimizer II
+    published: true
     volume: 40.0
   Capital Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
@@ -124,6 +134,7 @@ items:
     id: 31157
     marketGroup: 1740
     name: Capital Low Friction Nozzle Joints I
+    published: true
     volume: 40.0
   Capital Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
@@ -136,6 +147,7 @@ items:
     id: 31175
     marketGroup: 1740
     name: Capital Low Friction Nozzle Joints II
+    published: true
     volume: 40.0
   Capital Polycarbon Engine Housing I:
     AgilityBonus: -9.100000381469727
@@ -148,6 +160,7 @@ items:
     id: 31181
     marketGroup: 1740
     name: Capital Polycarbon Engine Housing I
+    published: true
     volume: 40.0
   Capital Polycarbon Engine Housing II:
     AgilityBonus: -11.0
@@ -161,6 +174,7 @@ items:
     id: 31187
     marketGroup: 1740
     name: Capital Polycarbon Engine Housing II
+    published: true
     volume: 40.0
   Capital Warp Core Optimizer I:
     Drawback: 10
@@ -172,6 +186,7 @@ items:
     id: 31193
     marketGroup: 1740
     name: Capital Warp Core Optimizer I
+    published: true
     volume: 40.0
   Capital Warp Core Optimizer II:
     Drawback: 10
@@ -184,6 +199,7 @@ items:
     id: 31199
     marketGroup: 1740
     name: Capital Warp Core Optimizer II
+    published: true
     volume: 40.0
   Large Auxiliary Thrusters I:
     Drawback: -10
@@ -195,6 +211,7 @@ items:
     id: 26060
     marketGroup: 1212
     name: Large Auxiliary Thrusters I
+    published: true
     volume: 20.0
   Large Auxiliary Thrusters II:
     Drawback: -10
@@ -207,6 +224,7 @@ items:
     id: 26318
     marketGroup: 1212
     name: Large Auxiliary Thrusters II
+    published: true
     volume: 20.0
   Large Cargohold Optimization I:
     CargoCapacityBonus: 15
@@ -218,6 +236,7 @@ items:
     id: 26072
     marketGroup: 1212
     name: Large Cargohold Optimization I
+    published: true
     volume: 20.0
   Large Cargohold Optimization II:
     CargoCapacityBonus: 20
@@ -230,6 +249,7 @@ items:
     id: 26304
     marketGroup: 1212
     name: Large Cargohold Optimization II
+    published: true
     volume: 20.0
   Large Dynamic Fuel Valve I:
     CapNeedBonus: -15
@@ -241,6 +261,7 @@ items:
     id: 26056
     marketGroup: 1212
     name: Large Dynamic Fuel Valve I
+    published: true
     volume: 20.0
   Large Dynamic Fuel Valve II:
     CapNeedBonus: -20
@@ -253,6 +274,7 @@ items:
     id: 26306
     marketGroup: 1212
     name: Large Dynamic Fuel Valve II
+    published: true
     volume: 20.0
   Large Engine Thermal Shielding I:
     Drawback: -10
@@ -264,6 +286,7 @@ items:
     id: 26062
     marketGroup: 1212
     name: Large Engine Thermal Shielding I
+    published: true
     volume: 20.0
   Large Engine Thermal Shielding II:
     Drawback: -10
@@ -276,6 +299,7 @@ items:
     id: 26308
     marketGroup: 1212
     name: Large Engine Thermal Shielding II
+    published: true
     volume: 20.0
   Large Hyperspatial Velocity Optimizer I:
     Drawback: 10
@@ -287,6 +311,7 @@ items:
     id: 26068
     marketGroup: 1212
     name: Large Hyperspatial Velocity Optimizer I
+    published: true
     volume: 20.0
   Large Hyperspatial Velocity Optimizer II:
     Drawback: 10
@@ -299,6 +324,7 @@ items:
     id: 26322
     marketGroup: 1212
     name: Large Hyperspatial Velocity Optimizer II
+    published: true
     volume: 20.0
   Large Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
@@ -310,6 +336,7 @@ items:
     id: 26058
     marketGroup: 1212
     name: Large Low Friction Nozzle Joints I
+    published: true
     volume: 20.0
   Large Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
@@ -322,6 +349,7 @@ items:
     id: 26310
     marketGroup: 1212
     name: Large Low Friction Nozzle Joints II
+    published: true
     volume: 20.0
   Large Polycarbon Engine Housing I:
     AgilityBonus: -9.100000381469727
@@ -334,6 +362,7 @@ items:
     id: 26070
     marketGroup: 1212
     name: Large Polycarbon Engine Housing I
+    published: true
     volume: 20.0
   Large Polycarbon Engine Housing II:
     AgilityBonus: -11.0
@@ -347,6 +376,7 @@ items:
     id: 26312
     marketGroup: 1212
     name: Large Polycarbon Engine Housing II
+    published: true
     volume: 20.0
   Large Warp Core Optimizer I:
     Drawback: 10
@@ -358,6 +388,7 @@ items:
     id: 26066
     marketGroup: 1212
     name: Large Warp Core Optimizer I
+    published: true
     volume: 20.0
   Large Warp Core Optimizer II:
     Drawback: 10
@@ -370,6 +401,7 @@ items:
     id: 26320
     marketGroup: 1212
     name: Large Warp Core Optimizer II
+    published: true
     volume: 20.0
   Medium Auxiliary Thrusters I:
     Drawback: -10
@@ -381,6 +413,7 @@ items:
     id: 31107
     marketGroup: 1211
     name: Medium Auxiliary Thrusters I
+    published: true
     volume: 10.0
   Medium Auxiliary Thrusters II:
     Drawback: -10
@@ -393,6 +426,7 @@ items:
     id: 31113
     marketGroup: 1211
     name: Medium Auxiliary Thrusters II
+    published: true
     volume: 10.0
   Medium Cargohold Optimization I:
     CargoCapacityBonus: 15
@@ -404,6 +438,7 @@ items:
     id: 31119
     marketGroup: 1211
     name: Medium Cargohold Optimization I
+    published: true
     volume: 10.0
   Medium Cargohold Optimization II:
     CargoCapacityBonus: 20
@@ -416,6 +451,7 @@ items:
     id: 31125
     marketGroup: 1211
     name: Medium Cargohold Optimization II
+    published: true
     volume: 10.0
   Medium Dynamic Fuel Valve I:
     CapNeedBonus: -15
@@ -427,6 +463,7 @@ items:
     id: 31131
     marketGroup: 1211
     name: Medium Dynamic Fuel Valve I
+    published: true
     volume: 10.0
   Medium Dynamic Fuel Valve II:
     CapNeedBonus: -20
@@ -439,6 +476,7 @@ items:
     id: 31137
     marketGroup: 1211
     name: Medium Dynamic Fuel Valve II
+    published: true
     volume: 10.0
   Medium Engine Thermal Shielding I:
     Drawback: -10
@@ -450,6 +488,7 @@ items:
     id: 31143
     marketGroup: 1211
     name: Medium Engine Thermal Shielding I
+    published: true
     volume: 10.0
   Medium Engine Thermal Shielding II:
     Drawback: -10
@@ -462,6 +501,7 @@ items:
     id: 31149
     marketGroup: 1211
     name: Medium Engine Thermal Shielding II
+    published: true
     volume: 10.0
   Medium Hyperspatial Velocity Optimizer I:
     Drawback: 10
@@ -473,6 +513,7 @@ items:
     id: 31161
     marketGroup: 1211
     name: Medium Hyperspatial Velocity Optimizer I
+    published: true
     volume: 10.0
   Medium Hyperspatial Velocity Optimizer II:
     Drawback: 10
@@ -485,6 +526,7 @@ items:
     id: 31167
     marketGroup: 1211
     name: Medium Hyperspatial Velocity Optimizer II
+    published: true
     volume: 10.0
   Medium Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
@@ -496,6 +538,7 @@ items:
     id: 31155
     marketGroup: 1211
     name: Medium Low Friction Nozzle Joints I
+    published: true
     volume: 10.0
   Medium Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
@@ -508,6 +551,7 @@ items:
     id: 31173
     marketGroup: 1211
     name: Medium Low Friction Nozzle Joints II
+    published: true
     volume: 10.0
   Medium Polycarbon Engine Housing I:
     AgilityBonus: -9.100000381469727
@@ -520,6 +564,7 @@ items:
     id: 31179
     marketGroup: 1211
     name: Medium Polycarbon Engine Housing I
+    published: true
     volume: 10.0
   Medium Polycarbon Engine Housing II:
     AgilityBonus: -11.0
@@ -533,6 +578,7 @@ items:
     id: 31185
     marketGroup: 1211
     name: Medium Polycarbon Engine Housing II
+    published: true
     volume: 10.0
   Medium Warp Core Optimizer I:
     Drawback: 10
@@ -544,6 +590,7 @@ items:
     id: 31191
     marketGroup: 1211
     name: Medium Warp Core Optimizer I
+    published: true
     volume: 10.0
   Medium Warp Core Optimizer II:
     Drawback: 10
@@ -556,6 +603,7 @@ items:
     id: 31197
     marketGroup: 1211
     name: Medium Warp Core Optimizer II
+    published: true
     volume: 10.0
   Small Auxiliary Thrusters I:
     Drawback: -10
@@ -567,6 +615,7 @@ items:
     id: 31105
     marketGroup: 1210
     name: Small Auxiliary Thrusters I
+    published: true
     volume: 5.0
   Small Auxiliary Thrusters II:
     Drawback: -10
@@ -579,6 +628,7 @@ items:
     id: 31111
     marketGroup: 1210
     name: Small Auxiliary Thrusters II
+    published: true
     volume: 5.0
   Small Cargohold Optimization I:
     CargoCapacityBonus: 15
@@ -590,6 +640,7 @@ items:
     id: 31117
     marketGroup: 1210
     name: Small Cargohold Optimization I
+    published: true
     volume: 5.0
   Small Cargohold Optimization II:
     CargoCapacityBonus: 20
@@ -602,6 +653,7 @@ items:
     id: 31123
     marketGroup: 1210
     name: Small Cargohold Optimization II
+    published: true
     volume: 5.0
   Small Dynamic Fuel Valve I:
     CapNeedBonus: -15
@@ -613,6 +665,7 @@ items:
     id: 31129
     marketGroup: 1210
     name: Small Dynamic Fuel Valve I
+    published: true
     volume: 5.0
   Small Dynamic Fuel Valve II:
     CapNeedBonus: -20
@@ -625,6 +678,7 @@ items:
     id: 31135
     marketGroup: 1210
     name: Small Dynamic Fuel Valve II
+    published: true
     volume: 5.0
   Small Engine Thermal Shielding I:
     Drawback: -10
@@ -636,6 +690,7 @@ items:
     id: 31141
     marketGroup: 1210
     name: Small Engine Thermal Shielding I
+    published: true
     volume: 5.0
   Small Engine Thermal Shielding II:
     Drawback: -10
@@ -648,6 +703,7 @@ items:
     id: 31147
     marketGroup: 1210
     name: Small Engine Thermal Shielding II
+    published: true
     volume: 5.0
   Small Hyperspatial Velocity Optimizer I:
     Drawback: 10
@@ -659,6 +715,7 @@ items:
     id: 31159
     marketGroup: 1210
     name: Small Hyperspatial Velocity Optimizer I
+    published: true
     volume: 5.0
   Small Hyperspatial Velocity Optimizer II:
     Drawback: 10
@@ -671,6 +728,7 @@ items:
     id: 31165
     marketGroup: 1210
     name: Small Hyperspatial Velocity Optimizer II
+    published: true
     volume: 5.0
   Small Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
@@ -682,6 +740,7 @@ items:
     id: 31153
     marketGroup: 1210
     name: Small Low Friction Nozzle Joints I
+    published: true
     volume: 5.0
   Small Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
@@ -694,6 +753,7 @@ items:
     id: 31171
     marketGroup: 1210
     name: Small Low Friction Nozzle Joints II
+    published: true
     volume: 5.0
   Small Polycarbon Engine Housing I:
     AgilityBonus: -9.100000381469727
@@ -706,6 +766,7 @@ items:
     id: 31177
     marketGroup: 1210
     name: Small Polycarbon Engine Housing I
+    published: true
     volume: 5.0
   Small Polycarbon Engine Housing II:
     AgilityBonus: -11.0
@@ -719,6 +780,7 @@ items:
     id: 31183
     marketGroup: 1210
     name: Small Polycarbon Engine Housing II
+    published: true
     volume: 5.0
   Small Warp Core Optimizer I:
     Drawback: 10
@@ -730,6 +792,7 @@ items:
     id: 31189
     marketGroup: 1210
     name: Small Warp Core Optimizer I
+    published: true
     volume: 5.0
   Small Warp Core Optimizer II:
     Drawback: 10
@@ -742,4 +805,5 @@ items:
     id: 31195
     marketGroup: 1210
     name: Small Warp Core Optimizer II
+    published: true
     volume: 5.0

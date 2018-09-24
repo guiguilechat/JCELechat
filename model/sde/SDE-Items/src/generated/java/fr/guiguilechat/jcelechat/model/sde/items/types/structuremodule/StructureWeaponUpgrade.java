@@ -110,13 +110,6 @@ public class StructureWeaponUpgrade
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -180,10 +173,6 @@ public class StructureWeaponUpgrade
             case  204 :
             {
                 return SpeedMultiplier;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  422 :
             {

@@ -1,0 +1,61 @@
+items:
+  Gistatis Domination Legatus:
+    id: 24180
+    name: Gistatis Domination Legatus
+    published: false
+    volume: 109000.0
+  Gistatis Domination Legionnaire:
+    id: 24175
+    name: Gistatis Domination Legionnaire
+    published: false
+    volume: 109000.0
+  Gistatis Domination Praefectus:
+    id: 24178
+    name: Gistatis Domination Praefectus
+    published: false
+    volume: 109000.0
+  Gistatis Domination Primus:
+    id: 24176
+    name: Gistatis Domination Primus
+    published: false
+    volume: 109000.0
+  Gistatis Domination Tribuni:
+    id: 24177
+    name: Gistatis Domination Tribuni
+    published: false
+    volume: 109000.0
+  Gistatis Domination Tribunus:
+    id: 24179
+    name: Gistatis Domination Tribunus
+    published: false
+    volume: 109000.0
+  Gistatis Legatus:
+    id: 24008
+    name: Gistatis Legatus
+    published: false
+    volume: 109000.0
+  Gistatis Legionnaire:
+    id: 23999
+    name: Gistatis Legionnaire
+    published: false
+    volume: 109000.0
+  Gistatis Praefectus:
+    id: 24006
+    name: Gistatis Praefectus
+    published: false
+    volume: 109000.0
+  Gistatis Primus:
+    id: 24004
+    name: Gistatis Primus
+    published: false
+    volume: 109000.0
+  Gistatis Tribuni:
+    id: 24005
+    name: Gistatis Tribuni
+    published: false
+    volume: 109000.0
+  Gistatis Tribunus:
+    id: 24007
+    name: Gistatis Tribunus
+    published: false
+    volume: 109000.0

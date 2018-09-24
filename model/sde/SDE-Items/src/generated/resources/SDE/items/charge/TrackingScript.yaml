@@ -14,6 +14,7 @@ items:
     id: 28999
     marketGroup: 1094
     name: Optimal Range Script
+    published: true
     volume: 1.0
   Tracking Speed Script:
     AoeCloudSizeBonusBonus: 100
@@ -30,4 +31,5 @@ items:
     id: 29001
     marketGroup: 1094
     name: Tracking Speed Script
+    published: true
     volume: 1.0

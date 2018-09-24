@@ -10,6 +10,7 @@ items:
     id: 41521
     marketGroup: 1094
     name: Shield EM Resistance Script
+    published: true
     volume: 1.0
   Shield Explosive Resistance Script:
     ChargeSize: 1
@@ -22,6 +23,7 @@ items:
     id: 41524
     marketGroup: 1094
     name: Shield Explosive Resistance Script
+    published: true
     volume: 1.0
   Shield Kinetic Resistance Script:
     ChargeSize: 1
@@ -34,6 +36,7 @@ items:
     id: 41523
     marketGroup: 1094
     name: Shield Kinetic Resistance Script
+    published: true
     volume: 1.0
   Shield Thermal Resistance Script:
     ChargeSize: 1
@@ -46,4 +49,5 @@ items:
     id: 41522
     marketGroup: 1094
     name: Shield Thermal Resistance Script
+    published: true
     volume: 1.0

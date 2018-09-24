@@ -1,0 +1,31 @@
+items:
+  Sansha's Abomination:
+    id: 23406
+    name: Sansha's Abomination
+    published: false
+    volume: 21120.0
+  Sansha's Cannibal:
+    id: 23379
+    name: Sansha's Cannibal
+    published: false
+    volume: 21120.0
+  Sansha's Devourer:
+    id: 23405
+    name: Sansha's Devourer
+    published: false
+    volume: 21120.0
+  Sansha's Horror:
+    id: 23408
+    name: Sansha's Horror
+    published: false
+    volume: 21120.0
+  Sansha's Misshape:
+    id: 23378
+    name: Sansha's Misshape
+    published: false
+    volume: 21120.0
+  Sansha's Monster:
+    id: 23407
+    name: Sansha's Monster
+    published: false
+    volume: 21120.0

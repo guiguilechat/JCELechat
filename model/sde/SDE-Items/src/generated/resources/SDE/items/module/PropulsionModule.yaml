@@ -26,6 +26,7 @@ items:
     id: 41236
     marketGroup: 542
     name: 10000MN Afterburner I
+    published: true
     volume: 4000.0
   10000MN Afterburner II:
     CanFitShipGroup01: 547
@@ -55,6 +56,7 @@ items:
     id: 41239
     marketGroup: 542
     name: 10000MN Afterburner II
+    published: true
     volume: 4000.0
   10000MN Monopropellant Enduring Afterburner:
     CanFitShipGroup01: 547
@@ -84,6 +86,7 @@ items:
     id: 41238
     marketGroup: 542
     name: 10000MN Monopropellant Enduring Afterburner
+    published: true
     volume: 4000.0
   10000MN Y-S8 Compact Afterburner:
     CanFitShipGroup01: 547
@@ -113,6 +116,7 @@ items:
     id: 41237
     marketGroup: 542
     name: 10000MN Y-S8 Compact Afterburner
+    published: true
     volume: 4000.0
   100MN Abyssal Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -122,6 +126,7 @@ items:
     TechLevel: 1
     id: 47757
     name: 100MN Abyssal Afterburner
+    published: true
     volume: 5.0
   100MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
@@ -144,6 +149,7 @@ items:
     id: 12066
     marketGroup: 542
     name: 100MN Afterburner I
+    published: true
     volume: 50.0
   100MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
@@ -167,6 +173,7 @@ items:
     id: 12068
     marketGroup: 542
     name: 100MN Afterburner II
+    published: true
     volume: 5.0
   100MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -191,6 +198,7 @@ items:
     id: 21474
     marketGroup: 542
     name: 100MN Analog Booster Afterburner
+    published: true
     volume: 5.0
   100MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -214,6 +222,7 @@ items:
     id: 5955
     marketGroup: 542
     name: 100MN Monopropellant Enduring Afterburner
+    published: true
     volume: 5.0
   100MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -237,6 +246,7 @@ items:
     id: 35657
     marketGroup: 542
     name: 100MN Y-S8 Compact Afterburner
+    published: true
     volume: 5.0
   10MN Abyssal Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -246,6 +256,7 @@ items:
     TechLevel: 1
     id: 47753
     name: 10MN Abyssal Afterburner
+    published: true
     volume: 5.0
   10MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
@@ -268,6 +279,7 @@ items:
     id: 12056
     marketGroup: 542
     name: 10MN Afterburner I
+    published: true
     volume: 25.0
   10MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
@@ -291,6 +303,7 @@ items:
     id: 12058
     marketGroup: 542
     name: 10MN Afterburner II
+    published: true
     volume: 5.0
   10MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -315,6 +328,7 @@ items:
     id: 21472
     marketGroup: 542
     name: 10MN Analog Booster Afterburner
+    published: true
     volume: 5.0
   10MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -338,6 +352,7 @@ items:
     id: 6005
     marketGroup: 542
     name: 10MN Monopropellant Enduring Afterburner
+    published: true
     volume: 5.0
   10MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -361,6 +376,7 @@ items:
     id: 35656
     marketGroup: 542
     name: 10MN Y-S8 Compact Afterburner
+    published: true
     volume: 5.0
   1MN Abyssal Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -370,6 +386,7 @@ items:
     TechLevel: 1
     id: 47749
     name: 1MN Abyssal Afterburner
+    published: true
     volume: 5.0
   1MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
@@ -392,6 +409,7 @@ items:
     id: 439
     marketGroup: 542
     name: 1MN Afterburner I
+    published: true
     volume: 5.0
   1MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
@@ -415,6 +433,7 @@ items:
     id: 438
     marketGroup: 542
     name: 1MN Afterburner II
+    published: true
     volume: 5.0
   1MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -439,6 +458,7 @@ items:
     id: 21470
     marketGroup: 542
     name: 1MN Analog Booster Afterburner
+    published: true
     volume: 5.0
   1MN Civilian Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -460,6 +480,7 @@ items:
     id: 21857
     marketGroup: 542
     name: 1MN Civilian Afterburner
+    published: true
     volume: 5.0
   1MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -483,6 +504,7 @@ items:
     id: 6003
     marketGroup: 542
     name: 1MN Monopropellant Enduring Afterburner
+    published: true
     volume: 5.0
   1MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -506,6 +528,7 @@ items:
     id: 6001
     marketGroup: 542
     name: 1MN Y-S8 Compact Afterburner
+    published: true
     volume: 5.0
   50000MN Cold-Gas Enduring Microwarpdrive:
     CanFitShipGroup01: 547
@@ -537,6 +560,7 @@ items:
     id: 41252
     marketGroup: 131
     name: 50000MN Cold-Gas Enduring Microwarpdrive
+    published: true
     volume: 4000.0
   50000MN Microwarpdrive I:
     CanFitShipGroup01: 547
@@ -567,6 +591,7 @@ items:
     id: 41249
     marketGroup: 131
     name: 50000MN Microwarpdrive I
+    published: true
     volume: 4000.0
   50000MN Microwarpdrive II:
     CanFitShipGroup01: 547
@@ -598,6 +623,7 @@ items:
     id: 41253
     marketGroup: 131
     name: 50000MN Microwarpdrive II
+    published: true
     volume: 4000.0
   50000MN Quad LiF Restrained Microwarpdrive:
     CanFitShipGroup01: 547
@@ -629,6 +655,7 @@ items:
     id: 41251
     marketGroup: 131
     name: 50000MN Quad LiF Restrained Microwarpdrive
+    published: true
     volume: 4000.0
   50000MN Y-T8 Compact Microwarpdrive:
     CanFitShipGroup01: 547
@@ -660,6 +687,7 @@ items:
     id: 41250
     marketGroup: 131
     name: 50000MN Y-T8 Compact Microwarpdrive
+    published: true
     volume: 4000.0
   500MN Abyssal Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
@@ -669,6 +697,7 @@ items:
     TechLevel: 1
     id: 47745
     name: 500MN Abyssal Microwarpdrive
+    published: true
     volume: 10.0
   500MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
@@ -693,6 +722,7 @@ items:
     id: 5945
     marketGroup: 131
     name: 500MN Cold-Gas Enduring Microwarpdrive
+    published: true
     volume: 10.0
   500MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
@@ -718,6 +748,7 @@ items:
     id: 21480
     marketGroup: 131
     name: 500MN Digital Booster Microwarpdrive
+    published: true
     volume: 10.0
   500MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
@@ -741,6 +772,7 @@ items:
     id: 12054
     marketGroup: 131
     name: 500MN Microwarpdrive I
+    published: true
     volume: 50.0
   500MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
@@ -765,6 +797,7 @@ items:
     id: 12084
     marketGroup: 131
     name: 500MN Microwarpdrive II
+    published: true
     volume: 10.0
   500MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
@@ -790,6 +823,7 @@ items:
     id: 35662
     marketGroup: 131
     name: 500MN Quad LiF Restrained Microwarpdrive
+    published: true
     volume: 10.0
   500MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
@@ -815,6 +849,7 @@ items:
     id: 35661
     marketGroup: 131
     name: 500MN Y-T8 Compact Microwarpdrive
+    published: true
     volume: 10.0
   50MN Abyssal Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
@@ -824,6 +859,7 @@ items:
     TechLevel: 1
     id: 47408
     name: 50MN Abyssal Microwarpdrive
+    published: true
     volume: 10.0
   50MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
@@ -848,6 +884,7 @@ items:
     id: 5975
     marketGroup: 131
     name: 50MN Cold-Gas Enduring Microwarpdrive
+    published: true
     volume: 10.0
   50MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
@@ -873,6 +910,7 @@ items:
     id: 21478
     marketGroup: 131
     name: 50MN Digital Booster Microwarpdrive
+    published: true
     volume: 10.0
   50MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
@@ -896,6 +934,7 @@ items:
     id: 12052
     marketGroup: 131
     name: 50MN Microwarpdrive I
+    published: true
     volume: 25.0
   50MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
@@ -920,6 +959,7 @@ items:
     id: 12076
     marketGroup: 131
     name: 50MN Microwarpdrive II
+    published: true
     volume: 10.0
   50MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
@@ -945,6 +985,7 @@ items:
     id: 35660
     marketGroup: 131
     name: 50MN Quad LiF Restrained Microwarpdrive
+    published: true
     volume: 10.0
   50MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
@@ -970,6 +1011,7 @@ items:
     id: 35659
     marketGroup: 131
     name: 50MN Y-T8 Compact Microwarpdrive
+    published: true
     volume: 10.0
   5MN Abyssal Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
@@ -979,6 +1021,7 @@ items:
     TechLevel: 1
     id: 47740
     name: 5MN Abyssal Microwarpdrive
+    published: true
     volume: 10.0
   5MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
@@ -1003,6 +1046,7 @@ items:
     id: 5971
     marketGroup: 131
     name: 5MN Cold-Gas Enduring Microwarpdrive
+    published: true
     volume: 10.0
   5MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
@@ -1028,6 +1072,7 @@ items:
     id: 21476
     marketGroup: 131
     name: 5MN Digital Booster Microwarpdrive
+    published: true
     volume: 10.0
   5MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
@@ -1051,6 +1096,7 @@ items:
     id: 434
     marketGroup: 131
     name: 5MN Microwarpdrive I
+    published: true
     volume: 10.0
   5MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
@@ -1075,6 +1121,7 @@ items:
     id: 440
     marketGroup: 131
     name: 5MN Microwarpdrive II
+    published: true
     volume: 10.0
   5MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
@@ -1100,6 +1147,7 @@ items:
     id: 35658
     marketGroup: 131
     name: 5MN Quad LiF Restrained Microwarpdrive
+    published: true
     volume: 10.0
   5MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
@@ -1125,6 +1173,7 @@ items:
     id: 5973
     marketGroup: 131
     name: 5MN Y-T8 Compact Microwarpdrive
+    published: true
     volume: 10.0
   Brynn's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1149,6 +1198,7 @@ items:
     id: 14500
     marketGroup: 542
     name: Brynn's Modified 100MN Afterburner
+    published: true
     volume: 5.0
   Brynn's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
@@ -1175,6 +1225,7 @@ items:
     id: 14508
     marketGroup: 131
     name: Brynn's Modified 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Core A-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1199,6 +1250,7 @@ items:
     id: 18696
     marketGroup: 542
     name: Core A-Type 100MN Afterburner
+    published: true
     volume: 5.0
   Core A-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
@@ -1225,6 +1277,7 @@ items:
     id: 19329
     marketGroup: 131
     name: Core A-Type 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Core B-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1249,6 +1302,7 @@ items:
     id: 18690
     marketGroup: 542
     name: Core B-Type 100MN Afterburner
+    published: true
     volume: 5.0
   Core B-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
@@ -1275,6 +1329,7 @@ items:
     id: 19323
     marketGroup: 131
     name: Core B-Type 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Core C-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1299,6 +1354,7 @@ items:
     id: 18684
     marketGroup: 542
     name: Core C-Type 100MN Afterburner
+    published: true
     volume: 5.0
   Core C-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
@@ -1325,6 +1381,7 @@ items:
     id: 19317
     marketGroup: 131
     name: Core C-Type 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Core X-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1349,6 +1406,7 @@ items:
     id: 18698
     marketGroup: 542
     name: Core X-Type 100MN Afterburner
+    published: true
     volume: 5.0
   Core X-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
@@ -1375,6 +1433,7 @@ items:
     id: 19335
     marketGroup: 131
     name: Core X-Type 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Coreli A-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1399,6 +1458,7 @@ items:
     id: 18692
     marketGroup: 542
     name: Coreli A-Type 1MN Afterburner
+    published: true
     volume: 5.0
   Coreli A-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
@@ -1425,6 +1485,7 @@ items:
     id: 19325
     marketGroup: 131
     name: Coreli A-Type 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Coreli B-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1449,6 +1510,7 @@ items:
     id: 18686
     marketGroup: 542
     name: Coreli B-Type 1MN Afterburner
+    published: true
     volume: 5.0
   Coreli B-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
@@ -1474,6 +1536,7 @@ items:
     id: 19319
     marketGroup: 131
     name: Coreli B-Type 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Coreli C-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1498,6 +1561,7 @@ items:
     id: 18680
     marketGroup: 542
     name: Coreli C-Type 1MN Afterburner
+    published: true
     volume: 5.0
   Coreli C-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
@@ -1523,6 +1587,7 @@ items:
     id: 19313
     marketGroup: 131
     name: Coreli C-Type 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Corelum A-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1547,6 +1612,7 @@ items:
     id: 18694
     marketGroup: 542
     name: Corelum A-Type 10MN Afterburner
+    published: true
     volume: 5.0
   Corelum A-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
@@ -1572,6 +1638,7 @@ items:
     id: 19327
     marketGroup: 131
     name: Corelum A-Type 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Corelum B-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1596,6 +1663,7 @@ items:
     id: 18688
     marketGroup: 542
     name: Corelum B-Type 10MN Afterburner
+    published: true
     volume: 5.0
   Corelum B-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
@@ -1622,6 +1690,7 @@ items:
     id: 19321
     marketGroup: 131
     name: Corelum B-Type 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Corelum C-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1646,6 +1715,7 @@ items:
     id: 18682
     marketGroup: 542
     name: Corelum C-Type 10MN Afterburner
+    published: true
     volume: 5.0
   Corelum C-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
@@ -1671,6 +1741,7 @@ items:
     id: 19315
     marketGroup: 131
     name: Corelum C-Type 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Cormack's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1695,6 +1766,7 @@ items:
     id: 14506
     marketGroup: 542
     name: Cormack's Modified 100MN Afterburner
+    published: true
     volume: 5.0
   Cormack's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
@@ -1721,6 +1793,7 @@ items:
     id: 14514
     marketGroup: 131
     name: Cormack's Modified 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Domination 10000MN Afterburner:
     CanFitShipGroup01: 547
@@ -1751,6 +1824,7 @@ items:
     id: 41240
     marketGroup: 542
     name: Domination 10000MN Afterburner
+    published: true
     volume: 4000.0
   Domination 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1775,6 +1849,7 @@ items:
     id: 14102
     marketGroup: 542
     name: Domination 100MN Afterburner
+    published: true
     volume: 5.0
   Domination 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1799,6 +1874,7 @@ items:
     id: 14106
     marketGroup: 542
     name: Domination 10MN Afterburner
+    published: true
     volume: 5.0
   Domination 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1823,6 +1899,7 @@ items:
     id: 14110
     marketGroup: 542
     name: Domination 1MN Afterburner
+    published: true
     volume: 5.0
   Domination 50000MN Microwarpdrive:
     CanFitShipGroup01: 547
@@ -1855,6 +1932,7 @@ items:
     id: 41254
     marketGroup: 131
     name: Domination 50000MN Microwarpdrive
+    published: true
     volume: 4000.0
   Domination 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -1880,6 +1958,7 @@ items:
     id: 14114
     marketGroup: 131
     name: Domination 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Domination 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -1905,6 +1984,7 @@ items:
     id: 14118
     marketGroup: 131
     name: Domination 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Domination 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -1930,6 +2010,7 @@ items:
     id: 14122
     marketGroup: 131
     name: Domination 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Federation Navy 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1954,6 +2035,7 @@ items:
     id: 15770
     marketGroup: 542
     name: Federation Navy 100MN Afterburner
+    published: true
     volume: 5.0
   Federation Navy 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -1978,6 +2060,7 @@ items:
     id: 15766
     marketGroup: 542
     name: Federation Navy 10MN Afterburner
+    published: true
     volume: 5.0
   Federation Navy 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2002,6 +2085,7 @@ items:
     id: 15761
     marketGroup: 542
     name: Federation Navy 1MN Afterburner
+    published: true
     volume: 5.0
   Federation Navy 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -2027,6 +2111,7 @@ items:
     id: 15768
     marketGroup: 131
     name: Federation Navy 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Federation Navy 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -2052,6 +2137,7 @@ items:
     id: 15764
     marketGroup: 131
     name: Federation Navy 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Federation Navy 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -2077,6 +2163,7 @@ items:
     id: 15759
     marketGroup: 131
     name: Federation Navy 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Gist A-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2101,6 +2188,7 @@ items:
     id: 18674
     marketGroup: 542
     name: Gist A-Type 100MN Afterburner
+    published: true
     volume: 5.0
   Gist A-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
@@ -2126,6 +2214,7 @@ items:
     id: 19353
     marketGroup: 131
     name: Gist A-Type 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Gist B-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2150,6 +2239,7 @@ items:
     id: 18668
     marketGroup: 542
     name: Gist B-Type 100MN Afterburner
+    published: true
     volume: 5.0
   Gist B-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
@@ -2175,6 +2265,7 @@ items:
     id: 19347
     marketGroup: 131
     name: Gist B-Type 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Gist C-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2199,6 +2290,7 @@ items:
     id: 18662
     marketGroup: 542
     name: Gist C-Type 100MN Afterburner
+    published: true
     volume: 5.0
   Gist C-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
@@ -2224,6 +2316,7 @@ items:
     id: 19341
     marketGroup: 131
     name: Gist C-Type 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Gist X-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2248,6 +2341,7 @@ items:
     id: 18676
     marketGroup: 542
     name: Gist X-Type 100MN Afterburner
+    published: true
     volume: 5.0
   Gist X-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
@@ -2273,6 +2367,7 @@ items:
     id: 19359
     marketGroup: 131
     name: Gist X-Type 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Gistii A-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2297,6 +2392,7 @@ items:
     id: 18670
     marketGroup: 542
     name: Gistii A-Type 1MN Afterburner
+    published: true
     volume: 5.0
   Gistii A-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
@@ -2322,6 +2418,7 @@ items:
     id: 19349
     marketGroup: 131
     name: Gistii A-Type 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Gistii B-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2346,6 +2443,7 @@ items:
     id: 18664
     marketGroup: 542
     name: Gistii B-Type 1MN Afterburner
+    published: true
     volume: 5.0
   Gistii B-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
@@ -2371,6 +2469,7 @@ items:
     id: 19343
     marketGroup: 131
     name: Gistii B-Type 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Gistii C-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2395,6 +2494,7 @@ items:
     id: 18658
     marketGroup: 542
     name: Gistii C-Type 1MN Afterburner
+    published: true
     volume: 5.0
   Gistii C-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
@@ -2420,6 +2520,7 @@ items:
     id: 19337
     marketGroup: 131
     name: Gistii C-Type 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Gistum A-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2444,6 +2545,7 @@ items:
     id: 18672
     marketGroup: 542
     name: Gistum A-Type 10MN Afterburner
+    published: true
     volume: 5.0
   Gistum A-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
@@ -2469,6 +2571,7 @@ items:
     id: 19351
     marketGroup: 131
     name: Gistum A-Type 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Gistum B-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2493,6 +2596,7 @@ items:
     id: 18666
     marketGroup: 542
     name: Gistum B-Type 10MN Afterburner
+    published: true
     volume: 5.0
   Gistum B-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
@@ -2518,6 +2622,7 @@ items:
     id: 19345
     marketGroup: 131
     name: Gistum B-Type 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Gistum C-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2542,6 +2647,7 @@ items:
     id: 18660
     marketGroup: 542
     name: Gistum C-Type 10MN Afterburner
+    published: true
     volume: 5.0
   Gistum C-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
@@ -2567,6 +2673,7 @@ items:
     id: 19339
     marketGroup: 131
     name: Gistum C-Type 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Gotan's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2591,6 +2698,7 @@ items:
     id: 14488
     marketGroup: 542
     name: Gotan's Modified 100MN Afterburner
+    published: true
     volume: 5.0
   Gotan's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
@@ -2617,6 +2725,7 @@ items:
     id: 14496
     marketGroup: 131
     name: Gotan's Modified 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Hakim's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2641,6 +2750,7 @@ items:
     id: 14486
     marketGroup: 542
     name: Hakim's Modified 100MN Afterburner
+    published: true
     volume: 5.0
   Hakim's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
@@ -2667,6 +2777,7 @@ items:
     id: 14494
     marketGroup: 131
     name: Hakim's Modified 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Mizuro's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2691,6 +2802,7 @@ items:
     id: 14484
     marketGroup: 542
     name: Mizuro's Modified 100MN Afterburner
+    published: true
     volume: 5.0
   Mizuro's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
@@ -2717,6 +2829,7 @@ items:
     id: 14492
     marketGroup: 131
     name: Mizuro's Modified 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Republic Fleet 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2741,6 +2854,7 @@ items:
     id: 15757
     marketGroup: 542
     name: Republic Fleet 100MN Afterburner
+    published: true
     volume: 5.0
   Republic Fleet 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2765,6 +2879,7 @@ items:
     id: 15753
     marketGroup: 542
     name: Republic Fleet 10MN Afterburner
+    published: true
     volume: 5.0
   Republic Fleet 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2789,6 +2904,7 @@ items:
     id: 15749
     marketGroup: 542
     name: Republic Fleet 1MN Afterburner
+    published: true
     volume: 5.0
   Republic Fleet 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -2814,6 +2930,7 @@ items:
     id: 15755
     marketGroup: 131
     name: Republic Fleet 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Republic Fleet 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -2839,6 +2956,7 @@ items:
     id: 15751
     marketGroup: 131
     name: Republic Fleet 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Republic Fleet 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -2864,6 +2982,7 @@ items:
     id: 15747
     marketGroup: 131
     name: Republic Fleet 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Setele's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2888,6 +3007,7 @@ items:
     id: 14504
     marketGroup: 542
     name: Setele's Modified 100MN Afterburner
+    published: true
     volume: 5.0
   Setele's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
@@ -2914,6 +3034,7 @@ items:
     id: 14512
     marketGroup: 131
     name: Setele's Modified 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Shadow Serpentis 10000MN Afterburner:
     CanFitShipGroup01: 547
@@ -2944,6 +3065,7 @@ items:
     id: 41241
     marketGroup: 542
     name: Shadow Serpentis 10000MN Afterburner
+    published: true
     volume: 4000.0
   Shadow Serpentis 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2968,6 +3090,7 @@ items:
     id: 14104
     marketGroup: 542
     name: Shadow Serpentis 100MN Afterburner
+    published: true
     volume: 5.0
   Shadow Serpentis 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -2992,6 +3115,7 @@ items:
     id: 14108
     marketGroup: 542
     name: Shadow Serpentis 10MN Afterburner
+    published: true
     volume: 5.0
   Shadow Serpentis 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -3016,6 +3140,7 @@ items:
     id: 14112
     marketGroup: 542
     name: Shadow Serpentis 1MN Afterburner
+    published: true
     volume: 5.0
   Shadow Serpentis 50000MN Microwarpdrive:
     CanFitShipGroup01: 547
@@ -3048,6 +3173,7 @@ items:
     id: 41255
     marketGroup: 131
     name: Shadow Serpentis 50000MN Microwarpdrive
+    published: true
     volume: 4000.0
   Shadow Serpentis 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -3073,6 +3199,7 @@ items:
     id: 14116
     marketGroup: 131
     name: Shadow Serpentis 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Shadow Serpentis 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -3098,6 +3225,7 @@ items:
     id: 14120
     marketGroup: 131
     name: Shadow Serpentis 50MN Microwarpdrive
+    published: true
     volume: 10.0
   Shadow Serpentis 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
@@ -3123,6 +3251,7 @@ items:
     id: 14124
     marketGroup: 131
     name: Shadow Serpentis 5MN Microwarpdrive
+    published: true
     volume: 10.0
   Tobias' Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -3147,6 +3276,7 @@ items:
     id: 14490
     marketGroup: 542
     name: Tobias' Modified 100MN Afterburner
+    published: true
     volume: 5.0
   Tobias' Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
@@ -3173,6 +3303,7 @@ items:
     id: 14498
     marketGroup: 131
     name: Tobias' Modified 500MN Microwarpdrive
+    published: true
     volume: 10.0
   Tuvan's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
@@ -3197,6 +3328,7 @@ items:
     id: 14502
     marketGroup: 542
     name: Tuvan's Modified 100MN Afterburner
+    published: true
     volume: 5.0
   Tuvan's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
@@ -3223,4 +3355,5 @@ items:
     id: 14510
     marketGroup: 131
     name: Tuvan's Modified 500MN Microwarpdrive
+    published: true
     volume: 10.0

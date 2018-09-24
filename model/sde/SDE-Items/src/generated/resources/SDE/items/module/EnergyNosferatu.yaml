@@ -19,6 +19,7 @@ items:
     id: 14826
     marketGroup: 694
     name: Ahremen's Modified Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Ammatar Navy Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -40,6 +41,7 @@ items:
     id: 15879
     marketGroup: 694
     name: Ammatar Navy Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Ammatar Navy Medium Energy Nosferatu:
     Duration: 5000.0
@@ -61,6 +63,7 @@ items:
     id: 15877
     marketGroup: 693
     name: Ammatar Navy Medium Energy Nosferatu
+    published: true
     volume: 5.0
   Ammatar Navy Small Energy Nosferatu:
     Duration: 2500.0
@@ -82,6 +85,7 @@ items:
     id: 15875
     marketGroup: 692
     name: Ammatar Navy Small Energy Nosferatu
+    published: true
     volume: 5.0
   Brokara's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -103,6 +107,7 @@ items:
     id: 14816
     marketGroup: 694
     name: Brokara's Modified Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Capital Energy Nosferatu I:
     Cpu: 100.0
@@ -124,6 +129,7 @@ items:
     id: 40665
     marketGroup: 2251
     name: Capital Energy Nosferatu I
+    published: true
     volume: 4000.0
   Capital Energy Nosferatu II:
     Cpu: 100.0
@@ -146,6 +152,7 @@ items:
     id: 40668
     marketGroup: 2251
     name: Capital Energy Nosferatu II
+    published: true
     volume: 4000.0
   Capital Ghoul Compact Energy Nosferatu:
     Cpu: 80.0
@@ -168,6 +175,7 @@ items:
     id: 40666
     marketGroup: 2251
     name: Capital Ghoul Compact Energy Nosferatu
+    published: true
     volume: 4000.0
   Capital Knave Scoped Energy Nosferatu:
     Cpu: 100.0
@@ -190,6 +198,7 @@ items:
     id: 40667
     marketGroup: 2251
     name: Capital Knave Scoped Energy Nosferatu
+    published: true
     volume: 4000.0
   Chelm's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -211,6 +220,7 @@ items:
     id: 14828
     marketGroup: 694
     name: Chelm's Modified Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Corpii A-Type Small Energy Nosferatu:
     Duration: 2500.0
@@ -232,6 +242,7 @@ items:
     id: 19105
     marketGroup: 692
     name: Corpii A-Type Small Energy Nosferatu
+    published: true
     volume: 5.0
   Corpii B-Type Small Energy Nosferatu:
     Duration: 2500.0
@@ -253,6 +264,7 @@ items:
     id: 19103
     marketGroup: 692
     name: Corpii B-Type Small Energy Nosferatu
+    published: true
     volume: 5.0
   Corpii C-Type Small Energy Nosferatu:
     Duration: 2500.0
@@ -274,6 +286,7 @@ items:
     id: 19101
     marketGroup: 692
     name: Corpii C-Type Small Energy Nosferatu
+    published: true
     volume: 5.0
   Corpum A-Type Medium Energy Nosferatu:
     Duration: 5000.0
@@ -295,6 +308,7 @@ items:
     id: 19111
     marketGroup: 693
     name: Corpum A-Type Medium Energy Nosferatu
+    published: true
     volume: 5.0
   Corpum B-Type Medium Energy Nosferatu:
     Duration: 5000.0
@@ -316,6 +330,7 @@ items:
     id: 19109
     marketGroup: 693
     name: Corpum B-Type Medium Energy Nosferatu
+    published: true
     volume: 5.0
   Corpum C-Type Medium Energy Nosferatu:
     Duration: 5000.0
@@ -337,6 +352,7 @@ items:
     id: 19107
     marketGroup: 693
     name: Corpum C-Type Medium Energy Nosferatu
+    published: true
     volume: 5.0
   Corpus A-Type Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -358,6 +374,7 @@ items:
     id: 19117
     marketGroup: 694
     name: Corpus A-Type Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Corpus B-Type Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -379,6 +396,7 @@ items:
     id: 19115
     marketGroup: 694
     name: Corpus B-Type Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Corpus C-Type Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -400,6 +418,7 @@ items:
     id: 19113
     marketGroup: 694
     name: Corpus C-Type Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Corpus X-Type Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -421,6 +440,7 @@ items:
     id: 19119
     marketGroup: 694
     name: Corpus X-Type Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Dark Blood Capital Energy Nosferatu:
     Cpu: 100.0
@@ -444,6 +464,7 @@ items:
     id: 40670
     marketGroup: 2251
     name: Dark Blood Capital Energy Nosferatu
+    published: true
     volume: 4000.0
   Dark Blood Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -465,6 +486,7 @@ items:
     id: 14152
     marketGroup: 694
     name: Dark Blood Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Dark Blood Medium Energy Nosferatu:
     Duration: 5000.0
@@ -486,6 +508,7 @@ items:
     id: 14156
     marketGroup: 693
     name: Dark Blood Medium Energy Nosferatu
+    published: true
     volume: 5.0
   Dark Blood Small Energy Nosferatu:
     Duration: 2500.0
@@ -507,6 +530,7 @@ items:
     id: 14148
     marketGroup: 692
     name: Dark Blood Small Energy Nosferatu
+    published: true
     volume: 5.0
   Draclira's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -528,6 +552,7 @@ items:
     id: 14830
     marketGroup: 694
     name: Draclira's Modified Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   ? "Drains energy from the target ship and adds it to your own.\r\n\r\nNote: A Nosferatu\
     \ module will not drain your target's capacitor below your own capacitor level."
@@ -538,6 +563,7 @@ items:
     name: "Drains energy from the target ship and adds it to your own.\r\n\r\nNote:\
       \ A Nosferatu module will not drain your target's capacitor below your own capacitor\
       \ level."
+    published: true
     volume: 5.0
   Heavy 'Vrykolakas' Energy Nosferatu:
     Duration: 10000.0
@@ -559,6 +585,7 @@ items:
     id: 23829
     marketGroup: 694
     name: Heavy 'Vrykolakas' Energy Nosferatu
+    published: true
     volume: 5.0
   Heavy Abyssal Energy Nosferatu:
     RequiredSkill1: 3423
@@ -566,6 +593,7 @@ items:
     TechLevel: 1
     id: 48427
     name: Heavy Abyssal Energy Nosferatu
+    published: true
     volume: 50.0
   Heavy Energy Nosferatu I:
     Duration: 10000.0
@@ -585,6 +613,7 @@ items:
     id: 12261
     marketGroup: 694
     name: Heavy Energy Nosferatu I
+    published: true
     volume: 5.0
   Heavy Energy Nosferatu II:
     Duration: 10000.0
@@ -605,6 +634,7 @@ items:
     id: 12263
     marketGroup: 694
     name: Heavy Energy Nosferatu II
+    published: true
     volume: 5.0
   Heavy Ghoul Compact Energy Nosferatu:
     Cpu: 40.0
@@ -626,6 +656,7 @@ items:
     id: 16497
     marketGroup: 694
     name: Heavy Ghoul Compact Energy Nosferatu
+    published: true
     volume: 5.0
   Heavy Knave Scoped Energy Nosferatu:
     Cpu: 50.0
@@ -647,6 +678,7 @@ items:
     id: 16499
     marketGroup: 694
     name: Heavy Knave Scoped Energy Nosferatu
+    published: true
     volume: 5.0
   Imperial Navy Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -668,6 +700,7 @@ items:
     id: 15885
     marketGroup: 694
     name: Imperial Navy Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Imperial Navy Medium Energy Nosferatu:
     Duration: 5000.0
@@ -689,6 +722,7 @@ items:
     id: 15883
     marketGroup: 693
     name: Imperial Navy Medium Energy Nosferatu
+    published: true
     volume: 5.0
   Imperial Navy Small Energy Nosferatu:
     Duration: 2500.0
@@ -710,6 +744,7 @@ items:
     id: 15881
     marketGroup: 692
     name: Imperial Navy Small Energy Nosferatu
+    published: true
     volume: 5.0
   Medium 'Strigoi' Energy Nosferatu:
     Duration: 5000.0
@@ -731,6 +766,7 @@ items:
     id: 23824
     marketGroup: 693
     name: Medium 'Strigoi' Energy Nosferatu
+    published: true
     volume: 5.0
   Medium Abyssal Energy Nosferatu:
     RequiredSkill1: 3423
@@ -738,6 +774,7 @@ items:
     TechLevel: 1
     id: 48423
     name: Medium Abyssal Energy Nosferatu
+    published: true
     volume: 5.0
   Medium Energy Nosferatu I:
     Duration: 5000.0
@@ -757,6 +794,7 @@ items:
     id: 12257
     marketGroup: 693
     name: Medium Energy Nosferatu I
+    published: true
     volume: 5.0
   Medium Energy Nosferatu II:
     Duration: 5000.0
@@ -777,6 +815,7 @@ items:
     id: 12259
     marketGroup: 693
     name: Medium Energy Nosferatu II
+    published: true
     volume: 5.0
   Medium Ghoul Compact Energy Nosferatu:
     Cpu: 20.0
@@ -798,6 +837,7 @@ items:
     id: 16505
     marketGroup: 693
     name: Medium Ghoul Compact Energy Nosferatu
+    published: true
     volume: 5.0
   Medium Knave Scoped Energy Nosferatu:
     Cpu: 25.0
@@ -819,6 +859,7 @@ items:
     id: 16507
     marketGroup: 693
     name: Medium Knave Scoped Energy Nosferatu
+    published: true
     volume: 5.0
   Raysere's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -840,6 +881,7 @@ items:
     id: 14822
     marketGroup: 694
     name: Raysere's Modified Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Selynne's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -861,6 +903,7 @@ items:
     id: 14820
     marketGroup: 694
     name: Selynne's Modified Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   Small 'Upir' Energy Nosferatu:
     Duration: 2500.0
@@ -882,6 +925,7 @@ items:
     id: 23821
     marketGroup: 692
     name: Small 'Upir' Energy Nosferatu
+    published: true
     volume: 5.0
   Small Energy Nosferatu I:
     Duration: 2500.0
@@ -901,6 +945,7 @@ items:
     id: 530
     marketGroup: 692
     name: Small Energy Nosferatu I
+    published: true
     volume: 5.0
   Small Energy Nosferatu II:
     Duration: 2500.0
@@ -921,6 +966,7 @@ items:
     id: 13001
     marketGroup: 692
     name: Small Energy Nosferatu II
+    published: true
     volume: 5.0
   Small Ghoul Compact Energy Nosferatu:
     Cpu: 12.0
@@ -942,6 +988,7 @@ items:
     id: 5141
     marketGroup: 692
     name: Small Ghoul Compact Energy Nosferatu
+    published: true
     volume: 5.0
   Small Knave Scoped Energy Nosferatu:
     Duration: 2500.0
@@ -962,6 +1009,7 @@ items:
     id: 5137
     marketGroup: 692
     name: Small Knave Scoped Energy Nosferatu
+    published: true
     volume: 5.0
   Tairei's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -983,6 +1031,7 @@ items:
     id: 14818
     marketGroup: 694
     name: Tairei's Modified Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   True Sansha Capital Energy Nosferatu:
     Cpu: 100.0
@@ -1006,6 +1055,7 @@ items:
     id: 40669
     marketGroup: 2251
     name: True Sansha Capital Energy Nosferatu
+    published: true
     volume: 4000.0
   True Sansha Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -1027,6 +1077,7 @@ items:
     id: 14154
     marketGroup: 694
     name: True Sansha Heavy Energy Nosferatu
+    published: true
     volume: 5.0
   True Sansha Medium Energy Nosferatu:
     Duration: 5000.0
@@ -1048,6 +1099,7 @@ items:
     id: 14158
     marketGroup: 693
     name: True Sansha Medium Energy Nosferatu
+    published: true
     volume: 5.0
   True Sansha Small Energy Nosferatu:
     Duration: 2500.0
@@ -1069,6 +1121,7 @@ items:
     id: 14150
     marketGroup: 692
     name: True Sansha Small Energy Nosferatu
+    published: true
     volume: 5.0
   Vizan's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
@@ -1090,4 +1143,5 @@ items:
     id: 14824
     marketGroup: 694
     name: Vizan's Modified Heavy Energy Nosferatu
+    published: true
     volume: 5.0

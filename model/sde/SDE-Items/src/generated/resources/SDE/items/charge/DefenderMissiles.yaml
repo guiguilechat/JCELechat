@@ -19,4 +19,5 @@ items:
     id: 32782
     marketGroup: 116
     name: Defender Missile I
+    published: true
     volume: 0.015

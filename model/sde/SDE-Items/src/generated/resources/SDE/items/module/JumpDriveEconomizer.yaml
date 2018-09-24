@@ -11,6 +11,7 @@ items:
     id: 34124
     marketGroup: 1941
     name: Experimental Jump Drive Economizer
+    published: true
     volume: 3500.0
   Limited Jump Drive Economizer:
     CanFitShipGroup01: 902
@@ -24,6 +25,7 @@ items:
     id: 34122
     marketGroup: 1941
     name: Limited Jump Drive Economizer
+    published: true
     volume: 3500.0
   Prototype Jump Drive Economizer:
     CanFitShipGroup01: 902
@@ -37,4 +39,5 @@ items:
     id: 34126
     marketGroup: 1941
     name: Prototype Jump Drive Economizer
+    published: true
     volume: 3500.0

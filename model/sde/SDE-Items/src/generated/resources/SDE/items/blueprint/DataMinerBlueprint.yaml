@@ -5,6 +5,7 @@ items:
     id: 27015
     marketGroup: 1809
     name: Civilian Data Analyzer Blueprint
+    published: true
     volume: 0.01
   Data Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -12,30 +13,35 @@ items:
     id: 22176
     marketGroup: 1809
     name: Data Analyzer I Blueprint
+    published: true
     volume: 0.01
   Data Analyzer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 30835
     name: Data Analyzer II Blueprint
+    published: true
     volume: 0.01
   Ligature Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 41535
     name: Ligature Integrated Analyzer Blueprint
+    published: true
     volume: 0.01
   Mangled Sansha Data Analyzer Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 3590
     name: Mangled Sansha Data Analyzer Blueprint
+    published: true
     volume: 0.01
   Purloined Sansha Data Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3582
     name: Purloined Sansha Data Analyzer Blueprint
+    published: true
     volume: 0.01
   Relic Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -43,16 +49,19 @@ items:
     id: 22178
     marketGroup: 1809
     name: Relic Analyzer I Blueprint
+    published: true
     volume: 0.01
   Relic Analyzer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 30833
     name: Relic Analyzer II Blueprint
+    published: true
     volume: 0.01
   Zeugma Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 41536
     name: Zeugma Integrated Analyzer Blueprint
+    published: true
     volume: 0.01

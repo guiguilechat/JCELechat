@@ -21,6 +21,7 @@ items:
     id: 45599
     marketGroup: 1130
     name: Legion Offensive - Assault Optimization
+    published: true
     volume: 40.0
   Legion Offensive - Liquid Crystal Magnifiers:
     CapacitorCapacity: 100.0
@@ -43,6 +44,7 @@ items:
     id: 45598
     marketGroup: 1130
     name: Legion Offensive - Liquid Crystal Magnifiers
+    published: true
     volume: 40.0
   Legion Offensive - Support Processor:
     CapacitorCapacity: 100.0
@@ -69,6 +71,7 @@ items:
     id: 45600
     marketGroup: 1130
     name: Legion Offensive - Support Processor
+    published: true
     volume: 40.0
   Loki Offensive - Launcher Efficiency Configuration:
     CpuOutput: 150
@@ -93,6 +96,7 @@ items:
     id: 45608
     marketGroup: 1133
     name: Loki Offensive - Launcher Efficiency Configuration
+    published: true
     volume: 40.0
   Loki Offensive - Projectile Scoping Array:
     CpuOutput: 30
@@ -117,6 +121,7 @@ items:
     id: 45607
     marketGroup: 1133
     name: Loki Offensive - Projectile Scoping Array
+    published: true
     volume: 40.0
   Loki Offensive - Support Processor:
     CapacitorCapacity: 100.0
@@ -145,6 +150,7 @@ items:
     id: 45609
     marketGroup: 1133
     name: Loki Offensive - Support Processor
+    published: true
     volume: 40.0
   Proteus Offensive - Drone Synthesis Projector:
     CpuOutput: 40
@@ -168,6 +174,7 @@ items:
     id: 45605
     marketGroup: 1132
     name: Proteus Offensive - Drone Synthesis Projector
+    published: true
     volume: 40.0
   Proteus Offensive - Hybrid Encoding Platform:
     CapacitorCapacity: 100.0
@@ -192,6 +199,7 @@ items:
     id: 45604
     marketGroup: 1132
     name: Proteus Offensive - Hybrid Encoding Platform
+    published: true
     volume: 40.0
   Proteus Offensive - Support Processor:
     CapacitorCapacity: 100.0
@@ -218,6 +226,7 @@ items:
     id: 45606
     marketGroup: 1132
     name: Proteus Offensive - Support Processor
+    published: true
     volume: 40.0
   Tengu Offensive - Accelerated Ejection Bay:
     CpuOutput: 160
@@ -239,6 +248,7 @@ items:
     id: 45601
     marketGroup: 1131
     name: Tengu Offensive - Accelerated Ejection Bay
+    published: true
     volume: 40.0
   Tengu Offensive - Magnetic Infusion Basin:
     CapacitorCapacity: 100.0
@@ -260,6 +270,7 @@ items:
     id: 45602
     marketGroup: 1131
     name: Tengu Offensive - Magnetic Infusion Basin
+    published: true
     volume: 40.0
   Tengu Offensive - Support Processor:
     CapacitorCapacity: 100.0
@@ -285,4 +296,5 @@ items:
     id: 45603
     marketGroup: 1131
     name: Tengu Offensive - Support Processor
+    published: true
     volume: 40.0

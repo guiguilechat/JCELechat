@@ -1,0 +1,101 @@
+items:
+  Annihilator Drone:
+    id: 25632
+    name: Annihilator Drone
+    published: false
+    volume: 60.0
+  Atomizer Drone:
+    id: 25635
+    name: Atomizer Drone
+    published: false
+    volume: 60.0
+  Bomber Drone:
+    id: 25639
+    name: Bomber Drone
+    published: false
+    volume: 60.0
+  Destructor Drone:
+    id: 25643
+    name: Destructor Drone
+    published: false
+    volume: 60.0
+  Devastator Drone:
+    id: 25644
+    name: Devastator Drone
+    published: false
+    volume: 60.0
+  Disintegrator Drone:
+    id: 25646
+    name: Disintegrator Drone
+    published: false
+    volume: 60.0
+  Nuker Drone:
+    id: 25664
+    name: Nuker Drone
+    published: false
+    volume: 60.0
+  Strain Annihilator Drone:
+    id: 25677
+    name: Strain Annihilator Drone
+    published: false
+    volume: 60.0
+  Strain Atomizer Drone:
+    id: 25678
+    name: Strain Atomizer Drone
+    published: false
+    volume: 60.0
+  Strain Bomber Drone:
+    id: 25680
+    name: Strain Bomber Drone
+    published: false
+    volume: 60.0
+  Strain Destructor Drone:
+    id: 25682
+    name: Strain Destructor Drone
+    published: false
+    volume: 60.0
+  Strain Devastator Drone:
+    id: 25683
+    name: Strain Devastator Drone
+    published: false
+    volume: 60.0
+  Strain Disintegrator Drone:
+    id: 25685
+    name: Strain Disintegrator Drone
+    published: false
+    volume: 60.0
+  Strain Nuker Drone:
+    id: 25688
+    name: Strain Nuker Drone
+    published: false
+    volume: 60.0
+  Strain Violator Drone:
+    id: 25694
+    name: Strain Violator Drone
+    published: false
+    volume: 60.0
+  Strain Viral Infector Drone:
+    id: 25695
+    name: Strain Viral Infector Drone
+    published: false
+    volume: 60.0
+  Strain Wrecker Drone:
+    id: 25696
+    name: Strain Wrecker Drone
+    published: false
+    volume: 60.0
+  Violator Drone:
+    id: 25703
+    name: Violator Drone
+    published: false
+    volume: 60.0
+  Viral Infector Drone:
+    id: 25704
+    name: Viral Infector Drone
+    published: false
+    volume: 60.0
+  Wrecker Drone:
+    id: 25705
+    name: Wrecker Drone
+    published: false
+    volume: 60.0

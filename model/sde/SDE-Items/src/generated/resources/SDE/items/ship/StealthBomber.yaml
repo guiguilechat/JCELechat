@@ -11,6 +11,7 @@ items:
     CapacitorCapacity: 285.0
     CloakingCpuNeedBonus: 0.5
     CovertOpsAndReconOpsCloakModuleDelay: 15000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 310
     EliteBonusCovertOps1: 5
     EliteBonusCovertOps2: 15
@@ -82,6 +83,7 @@ items:
     id: 12034
     marketGroup: 424
     name: Hound
+    published: true
     volume: 28100.0
   Manticore:
     Agility: 4.5
@@ -95,6 +97,7 @@ items:
     CapacitorCapacity: 315.0
     CloakingCpuNeedBonus: 0.5
     CovertOpsAndReconOpsCloakModuleDelay: 15000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 330
     EliteBonusCovertOps1: 5
     EliteBonusCovertOps2: 15
@@ -166,6 +169,7 @@ items:
     id: 12032
     marketGroup: 422
     name: Manticore
+    published: true
     volume: 28100.0
   Nemesis:
     Agility: 4.599999904632568
@@ -179,6 +183,7 @@ items:
     CapacitorCapacity: 355.0
     CloakingCpuNeedBonus: 0.5
     CovertOpsAndReconOpsCloakModuleDelay: 15000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 315
     EliteBonusCovertOps1: 5
     EliteBonusCovertOps2: 15
@@ -250,6 +255,7 @@ items:
     id: 11377
     marketGroup: 423
     name: Nemesis
+    published: true
     volume: 28100.0
   Purifier:
     Agility: 4.400000095367432
@@ -263,6 +269,7 @@ items:
     CapacitorCapacity: 355.0
     CloakingCpuNeedBonus: 0.5
     CovertOpsAndReconOpsCloakModuleDelay: 15000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 305
     EliteBonusCovertOps1: 5
     EliteBonusCovertOps2: 15
@@ -333,6 +340,7 @@ items:
     id: 12038
     marketGroup: 421
     name: Purifier
+    published: true
     volume: 28100.0
   Virtuoso:
     Agility: 4.0
@@ -345,6 +353,7 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 400.0
     CovertOpsAndReconOpsCloakModuleDelay: 15000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 230
     EliteBonusCovertOps1: 5
     EliteBonusCovertOps2: 15
@@ -429,4 +438,5 @@ items:
     id: 45530
     marketGroup: 1838
     name: Virtuoso
+    published: true
     volume: 28100.0

@@ -15,6 +15,7 @@ items:
     id: 37232
     marketGroup: 2344
     name: Standup M-Set Structure Target Multiplexing I
+    published: true
     volume: 10.0
   Standup M-Set Structure Target Multiplexing II:
     CanFitShipGroup01: 1657
@@ -32,4 +33,5 @@ items:
     id: 37233
     marketGroup: 2344
     name: Standup M-Set Structure Target Multiplexing II
+    published: true
     volume: 10.0

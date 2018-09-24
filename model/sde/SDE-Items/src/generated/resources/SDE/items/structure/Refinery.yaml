@@ -69,6 +69,7 @@ items:
     id: 35835
     marketGroup: 2327
     name: Athanor
+    published: true
     volume: 8000.0
   Tatara:
     ArmorDamageLimit: 15000
@@ -145,4 +146,5 @@ items:
     id: 35836
     marketGroup: 2327
     name: Tatara
+    published: true
     volume: 80000.0

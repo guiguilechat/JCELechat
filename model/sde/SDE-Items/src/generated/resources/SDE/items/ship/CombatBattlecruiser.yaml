@@ -74,6 +74,7 @@ items:
     id: 16229
     marketGroup: 472
     name: Brutix
+    published: true
     volume: 270000.0
   Brutix Navy Issue:
     Agility: 0.6299999952316284
@@ -152,6 +153,7 @@ items:
     id: 33151
     marketGroup: 1704
     name: Brutix Navy Issue
+    published: true
     volume: 270000.0
   Cyclone:
     Agility: 0.6800000071525574
@@ -229,6 +231,7 @@ items:
     id: 16231
     marketGroup: 473
     name: Cyclone
+    published: true
     volume: 216000.0
   Drake:
     Agility: 0.6499999761581421
@@ -305,6 +308,7 @@ items:
     id: 24698
     marketGroup: 471
     name: Drake
+    published: true
     volume: 252000.0
   Drake Navy Issue:
     Agility: 0.5299999713897705
@@ -383,6 +387,7 @@ items:
     id: 33153
     marketGroup: 1704
     name: Drake Navy Issue
+    published: true
     volume: 252000.0
   Ferox:
     Agility: 0.6299999952316284
@@ -459,6 +464,7 @@ items:
     id: 16227
     marketGroup: 471
     name: Ferox
+    published: true
     volume: 252000.0
   Gnosis:
     Agility: 0.44999998807907104
@@ -534,6 +540,7 @@ items:
     id: 3756
     marketGroup: 1698
     name: Gnosis
+    published: true
     volume: 101000.0
   Harbinger:
     Agility: 0.5699999928474426
@@ -610,6 +617,7 @@ items:
     id: 24696
     marketGroup: 470
     name: Harbinger
+    published: true
     volume: 234000.0
   Harbinger Navy Issue:
     Agility: 0.5199999809265137
@@ -688,6 +696,7 @@ items:
     id: 33155
     marketGroup: 1704
     name: Harbinger Navy Issue
+    published: true
     volume: 234000.0
   Hurricane:
     Agility: 0.6700000166893005
@@ -765,6 +774,7 @@ items:
     id: 24702
     marketGroup: 473
     name: Hurricane
+    published: true
     volume: 216000.0
   Hurricane Fleet Issue:
     Agility: 0.6100000143051147
@@ -844,6 +854,7 @@ items:
     id: 33157
     marketGroup: 1704
     name: Hurricane Fleet Issue
+    published: true
     volume: 216000.0
   Myrmidon:
     Agility: 0.699999988079071
@@ -920,6 +931,7 @@ items:
     id: 24700
     marketGroup: 472
     name: Myrmidon
+    published: true
     volume: 270000.0
   Prophecy:
     Agility: 0.5699999928474426
@@ -997,4 +1009,5 @@ items:
     id: 16233
     marketGroup: 470
     name: Prophecy
+    published: true
     volume: 234000.0

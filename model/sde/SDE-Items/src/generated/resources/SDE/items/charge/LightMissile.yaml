@@ -26,6 +26,7 @@ items:
     id: 27371
     marketGroup: 998
     name: Caldari Navy Inferno Light Missile
+    published: true
     volume: 0.015
   Caldari Navy Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
@@ -54,6 +55,7 @@ items:
     id: 27387
     marketGroup: 998
     name: Caldari Navy Mjolnir Light Missile
+    published: true
     volume: 0.015
   Caldari Navy Nova Light Missile:
     Agility: 1.4449800073634833E-4
@@ -82,6 +84,7 @@ items:
     id: 27381
     marketGroup: 998
     name: Caldari Navy Nova Light Missile
+    published: true
     volume: 0.015
   Caldari Navy Scourge Light Missile:
     Agility: 1.4449800073634833E-4
@@ -110,6 +113,7 @@ items:
     id: 27361
     marketGroup: 998
     name: Caldari Navy Scourge Light Missile
+    published: true
     volume: 0.015
   Civilian Scourge Light Missile:
     Agility: 1.4449800073634833E-4
@@ -132,6 +136,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 32463
     name: Civilian Scourge Light Missile
+    published: true
     volume: 0.015
   Dread Guristas Inferno Light Missile:
     Agility: 1.4449800073634833E-4
@@ -160,6 +165,7 @@ items:
     id: 27369
     marketGroup: 998
     name: Dread Guristas Inferno Light Missile
+    published: true
     volume: 0.015
   Dread Guristas Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
@@ -188,6 +194,7 @@ items:
     id: 27385
     marketGroup: 998
     name: Dread Guristas Mjolnir Light Missile
+    published: true
     volume: 0.015
   Dread Guristas Nova Light Missile:
     Agility: 1.4449800073634833E-4
@@ -216,6 +223,7 @@ items:
     id: 27375
     marketGroup: 998
     name: Dread Guristas Nova Light Missile
+    published: true
     volume: 0.015
   Dread Guristas Scourge Light Missile:
     Agility: 1.4449800073634833E-4
@@ -244,6 +252,7 @@ items:
     id: 27365
     marketGroup: 998
     name: Dread Guristas Scourge Light Missile
+    published: true
     volume: 0.015
   Guristas Inferno Light Missile:
     Agility: 1.4449800073634833E-4
@@ -272,6 +281,7 @@ items:
     id: 27367
     marketGroup: 998
     name: Guristas Inferno Light Missile
+    published: true
     volume: 0.015
   Guristas Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
@@ -300,6 +310,7 @@ items:
     id: 27383
     marketGroup: 998
     name: Guristas Mjolnir Light Missile
+    published: true
     volume: 0.015
   Guristas Nova Light Missile:
     Agility: 1.4449800073634833E-4
@@ -328,6 +339,7 @@ items:
     id: 27379
     marketGroup: 998
     name: Guristas Nova Light Missile
+    published: true
     volume: 0.015
   Guristas Scourge Light Missile:
     Agility: 1.4449800073634833E-4
@@ -356,6 +368,7 @@ items:
     id: 27353
     marketGroup: 998
     name: Guristas Scourge Light Missile
+    published: true
     volume: 0.015
   Inferno Light Missile:
     Agility: 1.4449800073634833E-4
@@ -382,6 +395,7 @@ items:
     id: 211
     marketGroup: 920
     name: Inferno Light Missile
+    published: true
     volume: 0.015
   Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
@@ -408,6 +422,7 @@ items:
     id: 212
     marketGroup: 920
     name: Mjolnir Light Missile
+    published: true
     volume: 0.015
   Nova Light Missile:
     Agility: 1.4449800073634833E-4
@@ -434,6 +449,7 @@ items:
     id: 213
     marketGroup: 920
     name: Nova Light Missile
+    published: true
     volume: 0.015
   Scourge Light Missile:
     Agility: 1.4449800073634833E-4
@@ -460,4 +476,5 @@ items:
     id: 210
     marketGroup: 920
     name: Scourge Light Missile
+    published: true
     volume: 0.015

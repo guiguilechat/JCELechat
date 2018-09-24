@@ -4,6 +4,7 @@ items:
     TechLevel: 1
     id: 21856
     name: Civilian Expanded Cargohold Blueprint
+    published: true
     volume: 0.01
   Expanded Cargohold I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -11,6 +12,7 @@ items:
     id: 1318
     marketGroup: 335
     name: Expanded Cargohold I Blueprint
+    published: true
     volume: 0.01
   Expanded Cargohold II Blueprint:
     Hp: 1
@@ -18,17 +20,20 @@ items:
     TechLevel: 2
     id: 1320
     name: Expanded Cargohold II Blueprint
+    published: true
     volume: 0.01
   Experimental Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 33984
     name: Experimental Hyperspatial Accelerator Blueprint
+    published: true
     volume: 0.01
   Experimental Jump Drive Economizer Blueprint:
     TechLevel: 1
     id: 34125
     name: Experimental Jump Drive Economizer Blueprint
+    published: true
     volume: 0.01
   Inertial Stabilizers I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -36,6 +41,7 @@ items:
     id: 1404
     marketGroup: 332
     name: Inertial Stabilizers I Blueprint
+    published: true
     volume: 0.01
   Inertial Stabilizers II Blueprint:
     Hp: 1
@@ -43,23 +49,27 @@ items:
     TechLevel: 2
     id: 1406
     name: Inertial Stabilizers II Blueprint
+    published: true
     volume: 0.01
   Limited Expanded 'Archiver' Cargo Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21494
     name: Limited Expanded 'Archiver' Cargo Blueprint
+    published: true
     volume: 0.01
   Limited Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 33982
     name: Limited Hyperspatial Accelerator Blueprint
+    published: true
     volume: 0.01
   Limited Jump Drive Economizer Blueprint:
     TechLevel: 1
     id: 34123
     name: Limited Jump Drive Economizer Blueprint
+    published: true
     volume: 0.01
   Nanofiber Internal Structure I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -67,6 +77,7 @@ items:
     id: 2604
     marketGroup: 335
     name: Nanofiber Internal Structure I Blueprint
+    published: true
     volume: 0.01
   Nanofiber Internal Structure II Blueprint:
     Hp: 1
@@ -74,6 +85,7 @@ items:
     TechLevel: 2
     id: 2606
     name: Nanofiber Internal Structure II Blueprint
+    published: true
     volume: 0.01
   Overdrive Injector System I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -81,6 +93,7 @@ items:
     id: 1245
     marketGroup: 332
     name: Overdrive Injector System I Blueprint
+    published: true
     volume: 0.01
   Overdrive Injector System II Blueprint:
     Hp: 1
@@ -88,17 +101,20 @@ items:
     TechLevel: 2
     id: 1237
     name: Overdrive Injector System II Blueprint
+    published: true
     volume: 0.01
   Prototype Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 33986
     name: Prototype Hyperspatial Accelerator Blueprint
+    published: true
     volume: 0.01
   Prototype Jump Drive Economizer Blueprint:
     TechLevel: 1
     id: 34127
     name: Prototype Jump Drive Economizer Blueprint
+    published: true
     volume: 0.01
   Reinforced Bulkheads I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -106,6 +122,7 @@ items:
     id: 1334
     marketGroup: 335
     name: Reinforced Bulkheads I Blueprint
+    published: true
     volume: 0.01
   Reinforced Bulkheads II Blueprint:
     Hp: 1
@@ -113,28 +130,33 @@ items:
     TechLevel: 2
     id: 1336
     name: Reinforced Bulkheads II Blueprint
+    published: true
     volume: 0.01
   Synthetic Hull Conversion Inertia Stabilizers Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21499
     name: Synthetic Hull Conversion Inertia Stabilizers Blueprint
+    published: true
     volume: 0.01
   Synthetic Hull Conversion Nanofiber Structure Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21501
     name: Synthetic Hull Conversion Nanofiber Structure Blueprint
+    published: true
     volume: 0.01
   Synthetic Hull Conversion Overdrive Injector Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21492
     name: Synthetic Hull Conversion Overdrive Injector Blueprint
+    published: true
     volume: 0.01
   Synthetic Hull Conversion Reinforced Bulkheads Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21497
     name: Synthetic Hull Conversion Reinforced Bulkheads Blueprint
+    published: true
     volume: 0.01

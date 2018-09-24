@@ -17,13 +17,6 @@ public class Biomass
     extends Celestial
 {
     /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
@@ -35,10 +28,6 @@ public class Biomass
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
-            case  9 :
-            {
-                return Hp;
-            }
             case  552 :
             {
                 return SignatureRadius;

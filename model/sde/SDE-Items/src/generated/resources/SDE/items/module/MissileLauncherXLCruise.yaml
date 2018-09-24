@@ -22,6 +22,7 @@ items:
     id: 41175
     marketGroup: 777
     name: Arbalest Compact XL Cruise Missile Launcher
+    published: true
     volume: 4000.0
   CONCORD XL Cruise Missile Launcher:
     ChargeGroup1: 1019
@@ -48,6 +49,7 @@ items:
     id: 3563
     marketGroup: 777
     name: CONCORD XL Cruise Missile Launcher
+    published: true
     volume: 4000.0
   Dread Guristas XL Cruise Missile Launcher:
     ChargeGroup1: 1019
@@ -74,6 +76,7 @@ items:
     id: 41174
     marketGroup: 777
     name: Dread Guristas XL Cruise Missile Launcher
+    published: true
     volume: 4000.0
   TE-2100 Ample XL Cruise Missile Launcher:
     ChargeGroup1: 1019
@@ -98,6 +101,7 @@ items:
     id: 41176
     marketGroup: 777
     name: TE-2100 Ample XL Cruise Missile Launcher
+    published: true
     volume: 4000.0
   XL Cruise Missile Launcher I:
     ChargeGroup1: 1019
@@ -121,6 +125,7 @@ items:
     id: 32444
     marketGroup: 777
     name: XL Cruise Missile Launcher I
+    published: true
     volume: 4000.0
   XL Cruise Missile Launcher II:
     ChargeGroup1: 1019
@@ -148,4 +153,5 @@ items:
     id: 37295
     marketGroup: 777
     name: XL Cruise Missile Launcher II
+    published: true
     volume: 4000.0

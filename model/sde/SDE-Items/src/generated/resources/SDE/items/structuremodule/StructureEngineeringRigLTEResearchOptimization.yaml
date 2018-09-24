@@ -20,6 +20,7 @@ items:
     id: 43726
     marketGroup: 2348
     name: Standup L-Set TE Research Optimization I
+    published: true
     volume: 20.0
   Standup L-Set TE Research Optimization II:
     AttributeEngRigCostBonus: -12
@@ -42,4 +43,5 @@ items:
     id: 43727
     marketGroup: 2348
     name: Standup L-Set TE Research Optimization II
+    published: true
     volume: 20.0

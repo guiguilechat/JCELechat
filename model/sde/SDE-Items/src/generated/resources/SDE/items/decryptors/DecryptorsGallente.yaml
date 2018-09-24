@@ -6,6 +6,7 @@ items:
     InventionTEModifier: 10.0
     id: 23184
     name: Incognito Accelerant
+    published: true
     volume: 1.0
   Incognito Attainment:
     InventionMEModifier: -1.0
@@ -14,6 +15,7 @@ items:
     InventionTEModifier: 4.0
     id: 23187
     name: Incognito Attainment
+    published: true
     volume: 1.0
   Incognito Augmentation:
     InventionMEModifier: -2.0
@@ -22,6 +24,7 @@ items:
     InventionTEModifier: 2.0
     id: 23186
     name: Incognito Augmentation
+    published: true
     volume: 1.0
   Incognito Parity:
     InventionMEModifier: 1.0
@@ -30,6 +33,7 @@ items:
     InventionTEModifier: -2.0
     id: 33320
     name: Incognito Parity
+    published: true
     volume: 1.0
   Incognito Process:
     InventionMEModifier: 3.0
@@ -37,6 +41,7 @@ items:
     InventionTEModifier: 6.0
     id: 23183
     name: Incognito Process
+    published: true
     volume: 1.0
   Incognito Symmetry:
     InventionMEModifier: 1.0
@@ -45,6 +50,7 @@ items:
     InventionTEModifier: 8.0
     id: 23185
     name: Incognito Symmetry
+    published: true
     volume: 1.0
   Optimized Incognito Attainment:
     InventionMEModifier: 1.0
@@ -53,6 +59,7 @@ items:
     InventionTEModifier: -2.0
     id: 33326
     name: Optimized Incognito Attainment
+    published: true
     volume: 1.0
   Optimized Incognito Augmentation:
     InventionMEModifier: 2.0
@@ -60,4 +67,5 @@ items:
     InventionPropabilityMultiplier: 0.8999999761581421
     id: 33323
     name: Optimized Incognito Augmentation
+    published: true
     volume: 1.0

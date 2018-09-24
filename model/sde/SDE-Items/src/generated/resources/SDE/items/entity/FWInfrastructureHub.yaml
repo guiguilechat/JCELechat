@@ -1,0 +1,17 @@
+items:
+  Amarr Infrastructure Hub:
+    id: 29286
+    name: Amarr Infrastructure Hub
+    published: false
+  Caldari Infrastructure Hub:
+    id: 29302
+    name: Caldari Infrastructure Hub
+    published: false
+  Gallente Infrastructure Hub:
+    id: 29303
+    name: Gallente Infrastructure Hub
+    published: false
+  Minmatar Infrastructure Hub:
+    id: 29304
+    name: Minmatar Infrastructure Hub
+    published: false

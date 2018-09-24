@@ -15,6 +15,7 @@ items:
     id: 23898
     marketGroup: 659
     name: '''Portcullis'' Reactor Control Unit I'
+    published: true
     volume: 5.0
   Ahremen's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -32,6 +33,7 @@ items:
     id: 15122
     marketGroup: 659
     name: Ahremen's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Ammatar Navy Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -49,6 +51,7 @@ items:
     id: 17522
     marketGroup: 659
     name: Ammatar Navy Reactor Control Unit
+    published: true
     volume: 5.0
   Basic Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -66,6 +69,7 @@ items:
     id: 1351
     marketGroup: 659
     name: Basic Reactor Control Unit
+    published: true
     volume: 5.0
   Brokara's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -83,6 +87,7 @@ items:
     id: 15112
     marketGroup: 659
     name: Brokara's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Brynn's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -100,6 +105,7 @@ items:
     id: 15300
     marketGroup: 659
     name: Brynn's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Chelm's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -117,6 +123,7 @@ items:
     id: 15124
     marketGroup: 659
     name: Chelm's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Cormack's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -134,6 +141,7 @@ items:
     id: 15306
     marketGroup: 659
     name: Cormack's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Dark Blood Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -151,6 +159,7 @@ items:
     id: 14128
     marketGroup: 659
     name: Dark Blood Reactor Control Unit
+    published: true
     volume: 5.0
   Draclira's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -168,6 +177,7 @@ items:
     id: 15126
     marketGroup: 659
     name: Draclira's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Mark I Compact Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -184,6 +194,7 @@ items:
     id: 8263
     marketGroup: 659
     name: Mark I Compact Reactor Control Unit
+    published: true
     volume: 5.0
   Raysere's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -201,6 +212,7 @@ items:
     id: 15118
     marketGroup: 659
     name: Raysere's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Reactor Control Unit I:
     CapacitorCapacityMultiplier: 1.0
@@ -216,6 +228,7 @@ items:
     id: 1353
     marketGroup: 659
     name: Reactor Control Unit I
+    published: true
     volume: 5.0
   Reactor Control Unit II:
     CapacitorCapacityMultiplier: 1.0
@@ -232,6 +245,7 @@ items:
     id: 1355
     marketGroup: 659
     name: Reactor Control Unit II
+    published: true
     volume: 5.0
   Selynne's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -249,6 +263,7 @@ items:
     id: 15116
     marketGroup: 659
     name: Selynne's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Setele's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -266,6 +281,7 @@ items:
     id: 15304
     marketGroup: 659
     name: Setele's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Shadow Serpentis Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -283,6 +299,7 @@ items:
     id: 14132
     marketGroup: 659
     name: Shadow Serpentis Reactor Control Unit
+    published: true
     volume: 5.0
   Syndicate Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -300,6 +317,7 @@ items:
     id: 28776
     marketGroup: 659
     name: Syndicate Reactor Control Unit
+    published: true
     volume: 5.0
   Tairei's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -317,6 +335,7 @@ items:
     id: 15114
     marketGroup: 659
     name: Tairei's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   True Sansha Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -334,6 +353,7 @@ items:
     id: 14130
     marketGroup: 659
     name: True Sansha Reactor Control Unit
+    published: true
     volume: 5.0
   Tuvan's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -351,6 +371,7 @@ items:
     id: 15302
     marketGroup: 659
     name: Tuvan's Modified Reactor Control Unit
+    published: true
     volume: 5.0
   Vizan's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -368,4 +389,5 @@ items:
     id: 15120
     marketGroup: 659
     name: Vizan's Modified Reactor Control Unit
+    published: true
     volume: 5.0

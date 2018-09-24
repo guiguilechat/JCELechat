@@ -24,6 +24,7 @@ items:
     id: 20575
     marketGroup: 716
     name: '''Gambler'' Ladar ECM'
+    published: true
     volume: 5.0
   '''Heist'' Radar ECM':
     CapacitorNeed: 32.0
@@ -50,6 +51,7 @@ items:
     id: 20579
     marketGroup: 718
     name: '''Heist'' Radar ECM'
+    published: true
     volume: 5.0
   '''Marshall'' Magnetometric ECM':
     CapacitorNeed: 32.0
@@ -76,6 +78,7 @@ items:
     id: 20573
     marketGroup: 715
     name: '''Marshall'' Magnetometric ECM'
+    published: true
     volume: 5.0
   '''Plunderer'' Gravimetric ECM':
     CapacitorNeed: 32.0
@@ -102,6 +105,7 @@ items:
     id: 20577
     marketGroup: 717
     name: '''Plunderer'' Gravimetric ECM'
+    published: true
     volume: 5.0
   Aergia Compact Magnetometric ECM:
     CapacitorNeed: 48.0
@@ -127,6 +131,7 @@ items:
     id: 19925
     marketGroup: 715
     name: Aergia Compact Magnetometric ECM
+    published: true
     volume: 5.0
   BZ-5 Scoped Gravimetric ECM:
     CapacitorNeed: 48.0
@@ -152,6 +157,7 @@ items:
     id: 19946
     marketGroup: 717
     name: BZ-5 Scoped Gravimetric ECM
+    published: true
     volume: 5.0
   CZ-4 Compact Gravimetric ECM:
     CapacitorNeed: 48.0
@@ -177,6 +183,7 @@ items:
     id: 19944
     marketGroup: 717
     name: CZ-4 Compact Gravimetric ECM
+    published: true
     volume: 5.0
   Compulsive Scoped Multispectral ECM:
     CapacitorNeed: 72.0
@@ -202,6 +209,7 @@ items:
     id: 19931
     marketGroup: 719
     name: Compulsive Scoped Multispectral ECM
+    published: true
     volume: 5.0
   Dread Guristas Multispectral ECM:
     CapacitorNeed: 85.0
@@ -228,6 +236,7 @@ items:
     id: 20199
     marketGroup: 719
     name: Dread Guristas Multispectral ECM
+    published: true
     volume: 5.0
   Enfeebling Scoped Ladar ECM:
     CapacitorNeed: 48.0
@@ -253,6 +262,7 @@ items:
     id: 19939
     marketGroup: 716
     name: Enfeebling Scoped Ladar ECM
+    published: true
     volume: 5.0
   Estamel's Modified Multispectral ECM:
     CapacitorNeed: 115.0
@@ -278,6 +288,7 @@ items:
     id: 20207
     marketGroup: 719
     name: Estamel's Modified Multispectral ECM
+    published: true
     volume: 5.0
   FZ-3a Enduring Gravimetric ECM:
     CapacitorNeed: 38.0
@@ -303,6 +314,7 @@ items:
     id: 19942
     marketGroup: 717
     name: FZ-3a Enduring Gravimetric ECM
+    published: true
     volume: 5.0
   Gloom Enduring Radar ECM:
     CapacitorNeed: 38.0
@@ -328,6 +340,7 @@ items:
     id: 19948
     marketGroup: 718
     name: Gloom Enduring Radar ECM
+    published: true
     volume: 5.0
   Gravimetric ECM I:
     CapacitorNeed: 48.0
@@ -351,6 +364,7 @@ items:
     id: 1955
     marketGroup: 717
     name: Gravimetric ECM I
+    published: true
     volume: 5.0
   Gravimetric ECM II:
     CapacitorNeed: 58.0
@@ -375,6 +389,7 @@ items:
     id: 2571
     marketGroup: 717
     name: Gravimetric ECM II
+    published: true
     volume: 5.0
   Halting Compact Ladar ECM:
     CapacitorNeed: 48.0
@@ -400,6 +415,7 @@ items:
     id: 19937
     marketGroup: 716
     name: Halting Compact Ladar ECM
+    published: true
     volume: 5.0
   Hypnos Scoped Magnetometric ECM:
     CapacitorNeed: 48.0
@@ -425,6 +441,7 @@ items:
     id: 19927
     marketGroup: 715
     name: Hypnos Scoped Magnetometric ECM
+    published: true
     volume: 5.0
   Induced Compact Multispectral ECM:
     CapacitorNeed: 72.0
@@ -450,6 +467,7 @@ items:
     id: 19929
     marketGroup: 719
     name: Induced Compact Multispectral ECM
+    published: true
     volume: 5.0
   Initiated Enduring Multispectral ECM:
     CapacitorNeed: 57.0
@@ -475,6 +493,7 @@ items:
     id: 9521
     marketGroup: 719
     name: Initiated Enduring Multispectral ECM
+    published: true
     volume: 5.0
   Kaikka's Modified Multispectral ECM:
     CapacitorNeed: 93.0
@@ -500,6 +519,7 @@ items:
     id: 20201
     marketGroup: 719
     name: Kaikka's Modified Multispectral ECM
+    published: true
     volume: 5.0
   Ladar ECM I:
     CapacitorNeed: 48.0
@@ -523,6 +543,7 @@ items:
     id: 1958
     marketGroup: 716
     name: Ladar ECM I
+    published: true
     volume: 5.0
   Ladar ECM II:
     CapacitorNeed: 58.0
@@ -547,6 +568,7 @@ items:
     id: 2559
     marketGroup: 716
     name: Ladar ECM II
+    published: true
     volume: 5.0
   Languid Enduring Ladar ECM:
     CapacitorNeed: 38.0
@@ -572,6 +594,7 @@ items:
     id: 19935
     marketGroup: 716
     name: Languid Enduring Ladar ECM
+    published: true
     volume: 5.0
   Legion Gravimetric ECM:
     CapacitorNeed: 50.0
@@ -597,6 +620,7 @@ items:
     id: 28735
     marketGroup: 717
     name: Legion Gravimetric ECM
+    published: true
     volume: 5.0
   Legion Ladar ECM:
     CapacitorNeed: 50.0
@@ -622,6 +646,7 @@ items:
     id: 28733
     marketGroup: 716
     name: Legion Ladar ECM
+    published: true
     volume: 5.0
   Legion Magnetometric ECM:
     CapacitorNeed: 50.0
@@ -647,6 +672,7 @@ items:
     id: 28729
     marketGroup: 715
     name: Legion Magnetometric ECM
+    published: true
     volume: 5.0
   Legion Multispectral ECM:
     CapacitorNeed: 74.0
@@ -672,6 +698,7 @@ items:
     id: 28731
     marketGroup: 719
     name: Legion Multispectral ECM
+    published: true
     volume: 5.0
   Legion Radar ECM:
     CapacitorNeed: 50.0
@@ -697,6 +724,7 @@ items:
     id: 28737
     marketGroup: 718
     name: Legion Radar ECM
+    published: true
     volume: 5.0
   Magnetometric ECM I:
     CapacitorNeed: 48.0
@@ -720,6 +748,7 @@ items:
     id: 1948
     marketGroup: 715
     name: Magnetometric ECM I
+    published: true
     volume: 5.0
   Magnetometric ECM II:
     CapacitorNeed: 58.0
@@ -744,6 +773,7 @@ items:
     id: 2563
     marketGroup: 715
     name: Magnetometric ECM II
+    published: true
     volume: 5.0
   Morpheus Enduring Magnetometric ECM:
     CapacitorNeed: 38.0
@@ -769,6 +799,7 @@ items:
     id: 19923
     marketGroup: 715
     name: Morpheus Enduring Magnetometric ECM
+    published: true
     volume: 5.0
   Multispectral ECM I:
     CapacitorNeed: 72.0
@@ -792,6 +823,7 @@ items:
     id: 1957
     marketGroup: 719
     name: Multispectral ECM I
+    published: true
     volume: 5.0
   Multispectral ECM II:
     CapacitorNeed: 87.0
@@ -817,6 +849,7 @@ items:
     id: 2567
     marketGroup: 719
     name: Multispectral ECM II
+    published: true
     volume: 5.0
   Radar ECM I:
     CapacitorNeed: 48.0
@@ -840,6 +873,7 @@ items:
     id: 1956
     marketGroup: 718
     name: Radar ECM I
+    published: true
     volume: 5.0
   Radar ECM II:
     CapacitorNeed: 58.0
@@ -864,6 +898,7 @@ items:
     id: 2575
     marketGroup: 718
     name: Radar ECM II
+    published: true
     volume: 5.0
   Shade Compact Radar ECM:
     CapacitorNeed: 48.0
@@ -889,6 +924,7 @@ items:
     id: 19950
     marketGroup: 718
     name: Shade Compact Radar ECM
+    published: true
     volume: 5.0
   Thon's Modified Multispectral ECM:
     CapacitorNeed: 100.0
@@ -914,6 +950,7 @@ items:
     id: 20203
     marketGroup: 719
     name: Thon's Modified Multispectral ECM
+    published: true
     volume: 5.0
   Umbra Scoped Radar ECM:
     CapacitorNeed: 48.0
@@ -939,6 +976,7 @@ items:
     id: 19952
     marketGroup: 718
     name: Umbra Scoped Radar ECM
+    published: true
     volume: 5.0
   Vepas' Modified Multispectral ECM:
     CapacitorNeed: 108.0
@@ -964,4 +1002,5 @@ items:
     id: 20205
     marketGroup: 719
     name: Vepas' Modified Multispectral ECM
+    published: true
     volume: 5.0

@@ -26,6 +26,7 @@ items:
     id: 27914
     marketGroup: 1014
     name: Bomb Launcher I
+    published: true
     volume: 50.0
   Bomb Launcher II:
     CanFitShipGroup01: 834
@@ -55,4 +56,5 @@ items:
     id: 4256
     marketGroup: 1014
     name: Bomb Launcher II
+    published: true
     volume: 50.0

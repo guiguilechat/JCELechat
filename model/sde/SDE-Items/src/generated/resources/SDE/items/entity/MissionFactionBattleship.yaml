@@ -1,0 +1,26 @@
+items:
+  Amarr Battleship Vessel:
+    id: 29236
+    name: Amarr Battleship Vessel
+    published: false
+    volume: 1100000.0
+  Caldari Battleship Vessel:
+    id: 29237
+    name: Caldari Battleship Vessel
+    published: false
+    volume: 1040000.0
+  Gallente Battleship Vessel:
+    id: 29240
+    name: Gallente Battleship Vessel
+    published: false
+    volume: 1010000.0
+  Karsten Lundham's Typhoon:
+    id: 32784
+    name: Karsten Lundham's Typhoon
+    published: false
+    volume: 1.9E7
+  Minmatar Battleship Vessel:
+    id: 29243
+    name: Minmatar Battleship Vessel
+    published: false
+    volume: 1.9E7

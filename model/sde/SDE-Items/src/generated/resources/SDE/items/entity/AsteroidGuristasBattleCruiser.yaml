@@ -1,0 +1,31 @@
+items:
+  Guristas Assassin:
+    id: 23324
+    name: Guristas Assassin
+    published: false
+    volume: 101000.0
+  Guristas Assaulter:
+    id: 23323
+    name: Guristas Assaulter
+    published: false
+    volume: 101000.0
+  Guristas Death Dealer:
+    id: 23325
+    name: Guristas Death Dealer
+    published: false
+    volume: 101000.0
+  Guristas Enforcer:
+    id: 23322
+    name: Guristas Enforcer
+    published: false
+    volume: 101000.0
+  Guristas Executor:
+    id: 23321
+    name: Guristas Executor
+    published: false
+    volume: 101000.0
+  Guristas Revolter:
+    id: 23326
+    name: Guristas Revolter
+    published: false
+    volume: 101000.0

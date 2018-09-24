@@ -8,6 +8,7 @@ items:
     id: 27120
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-701
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-702:
     CapNeedBonus: -2
@@ -18,6 +19,7 @@ items:
     id: 3247
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-702
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-703:
     CapNeedBonus: -3
@@ -28,6 +30,7 @@ items:
     id: 13265
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-703
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-704:
     CapNeedBonus: -4
@@ -38,6 +41,7 @@ items:
     id: 3248
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-704
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-705:
     CapNeedBonus: -5
@@ -48,6 +52,7 @@ items:
     id: 27121
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-705
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-706:
     CapNeedBonus: -6
@@ -58,6 +63,7 @@ items:
     id: 3249
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-706
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-801:
     Implantness: 8
@@ -67,6 +73,7 @@ items:
     id: 27117
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-801
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-802:
     CapacitorCapacityBonus: 2.0
@@ -77,6 +84,7 @@ items:
     id: 3237
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-802
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-803:
     Implantness: 8
@@ -86,6 +94,7 @@ items:
     id: 13259
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-803
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-804:
     CapacitorCapacityBonus: 4.0
@@ -96,6 +105,7 @@ items:
     id: 3238
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-804
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-805:
     Implantness: 8
@@ -105,6 +115,7 @@ items:
     id: 27116
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-805
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-806:
     CapacitorCapacityBonus: 6.0
@@ -115,6 +126,7 @@ items:
     id: 3239
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-806
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-601:
     Implantness: 6
@@ -124,6 +136,7 @@ items:
     id: 27119
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-601
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-602:
     CapRechargeBonus: -2.0
@@ -134,6 +147,7 @@ items:
     id: 3240
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-602
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-603:
     Implantness: 6
@@ -143,6 +157,7 @@ items:
     id: 13260
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-603
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-604:
     CapRechargeBonus: -4.0
@@ -153,6 +168,7 @@ items:
     id: 3241
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-604
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-605:
     Implantness: 6
@@ -162,6 +178,7 @@ items:
     id: 27118
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-605
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-606:
     CapRechargeBonus: -6.0
@@ -172,6 +189,7 @@ items:
     id: 3246
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-606
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-701:
     CpuNeedBonus: -1
@@ -182,6 +200,7 @@ items:
     id: 27125
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-701
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-702:
     CpuNeedBonus: -2
@@ -192,6 +211,7 @@ items:
     id: 3253
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-702
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-703:
     CpuNeedBonus: -3
@@ -202,6 +222,7 @@ items:
     id: 13255
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-703
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-704:
     CpuNeedBonus: -4
@@ -212,6 +233,7 @@ items:
     id: 3254
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-704
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-705:
     CpuNeedBonus: -5
@@ -222,6 +244,7 @@ items:
     id: 27124
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-705
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-706:
     CpuNeedBonus: -6
@@ -232,6 +255,7 @@ items:
     id: 3255
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-706
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-701:
     DurationBonus: -1
@@ -242,6 +266,7 @@ items:
     id: 27123
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-701
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-702:
     DurationBonus: -2
@@ -252,6 +277,7 @@ items:
     id: 3250
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-702
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-703:
     DurationBonus: -3
@@ -262,6 +288,7 @@ items:
     id: 13251
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-703
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-704:
     DurationBonus: -4
@@ -272,6 +299,7 @@ items:
     id: 3251
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-704
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-705:
     DurationBonus: -5
@@ -282,6 +310,7 @@ items:
     id: 27122
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-705
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-706:
     DurationBonus: -6
@@ -292,6 +321,7 @@ items:
     id: 3252
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-706
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-601:
     Implantness: 6
@@ -301,6 +331,7 @@ items:
     id: 27127
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-601
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-602:
     Implantness: 6
@@ -311,6 +342,7 @@ items:
     id: 3256
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-602
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-603:
     Implantness: 6
@@ -320,6 +352,7 @@ items:
     id: 13261
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-603
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-604:
     Implantness: 6
@@ -330,6 +363,7 @@ items:
     id: 3257
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-604
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-605:
     Implantness: 6
@@ -339,6 +373,7 @@ items:
     id: 27126
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-605
+    published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-606:
     Implantness: 6
@@ -349,6 +384,7 @@ items:
     id: 3258
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-606
+    published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-601:
     Implantness: 6
@@ -358,6 +394,7 @@ items:
     id: 27143
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-601
+    published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-602:
     CpuOutputBonus2: 2.0
@@ -368,6 +405,7 @@ items:
     id: 3265
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-602
+    published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-603:
     Implantness: 6
@@ -377,6 +415,7 @@ items:
     id: 13216
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-603
+    published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-604:
     CpuOutputBonus2: 4.0
@@ -387,6 +426,7 @@ items:
     id: 3266
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-604
+    published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-605:
     Implantness: 6
@@ -396,6 +436,7 @@ items:
     id: 27142
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-605
+    published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-606:
     CpuOutputBonus2: 6.0
@@ -406,6 +447,7 @@ items:
     id: 3267
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-606
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-601:
     CpuNeedBonus: -1
@@ -416,6 +458,7 @@ items:
     id: 27129
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-601
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-602:
     CpuNeedBonus: -2
@@ -426,6 +469,7 @@ items:
     id: 3262
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-602
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-603:
     CpuNeedBonus: -3
@@ -436,6 +480,7 @@ items:
     id: 13254
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-603
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-604:
     CpuNeedBonus: -4
@@ -446,6 +491,7 @@ items:
     id: 3263
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-604
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-605:
     CpuNeedBonus: -5
@@ -456,6 +502,7 @@ items:
     id: 27128
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-605
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-606:
     CpuNeedBonus: -6
@@ -466,4 +513,5 @@ items:
     id: 3264
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-606
+    published: true
     volume: 1.0

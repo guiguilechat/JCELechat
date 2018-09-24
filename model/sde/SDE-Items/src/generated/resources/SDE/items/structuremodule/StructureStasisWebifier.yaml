@@ -21,6 +21,7 @@ items:
     id: 35943
     marketGroup: 2213
     name: Standup Stasis Webifier I
+    published: true
     volume: 4000.0
   Standup Stasis Webifier II:
     CanFitShipGroup01: 1657
@@ -45,4 +46,5 @@ items:
     id: 47351
     marketGroup: 2213
     name: Standup Stasis Webifier II
+    published: true
     volume: 4000.0

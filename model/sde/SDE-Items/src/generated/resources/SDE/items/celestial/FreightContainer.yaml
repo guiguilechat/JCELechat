@@ -5,6 +5,7 @@ items:
     id: 33003
     marketGroup: 1653
     name: Enormous Freight Container
+    published: true
     volume: 250000.0
   Giant Freight Container:
     Hp: 10
@@ -12,6 +13,7 @@ items:
     id: 24445
     marketGroup: 1653
     name: Giant Freight Container
+    published: true
     volume: 120000.0
   Huge Freight Container:
     Hp: 10
@@ -19,6 +21,7 @@ items:
     id: 33005
     marketGroup: 1653
     name: Huge Freight Container
+    published: true
     volume: 50000.0
   Large Freight Container:
     Hp: 10
@@ -26,6 +29,7 @@ items:
     id: 33007
     marketGroup: 1653
     name: Large Freight Container
+    published: true
     volume: 10000.0
   Medium Freight Container:
     Hp: 10
@@ -33,6 +37,7 @@ items:
     id: 33009
     marketGroup: 1653
     name: Medium Freight Container
+    published: true
     volume: 5000.0
   Small Freight Container:
     Hp: 10
@@ -40,4 +45,5 @@ items:
     id: 33011
     marketGroup: 1653
     name: Small Freight Container
+    published: true
     volume: 1000.0

@@ -6,10 +6,11 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 27911
     marketGroup: 367
     name: Burst Projector Operation
+    published: true
     volume: 0.01
   Cloaking:
     CanNotBeTrainedOnTrial: 1
@@ -18,10 +19,11 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 6
+    SkillTimeConstant: 6.0
     id: 11579
     marketGroup: 367
     name: Cloaking
+    published: true
     volume: 0.01
   Electronic Warfare:
     CapNeedBonus: -5
@@ -29,10 +31,11 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3427
     marketGroup: 367
     name: Electronic Warfare
+    published: true
     volume: 0.01
   Frequency Modulation:
     PrimaryAttribute: 165
@@ -41,10 +44,11 @@ items:
     RequiredSkill2: 3427
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 19760
     marketGroup: 367
     name: Frequency Modulation
+    published: true
     volume: 0.01
   Long Distance Jamming:
     PrimaryAttribute: 165
@@ -54,10 +58,11 @@ items:
     RequiredSkill2: 3427
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     id: 19759
     marketGroup: 367
     name: Long Distance Jamming
+    published: true
     volume: 0.01
   Propulsion Jamming:
     CapNeedBonus: -5
@@ -67,10 +72,11 @@ items:
     RequiredSkill2: 3449
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3435
     marketGroup: 367
     name: Propulsion Jamming
+    published: true
     volume: 0.01
   Sensor Linking:
     CapNeedBonus: -5
@@ -78,10 +84,11 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3433
     marketGroup: 367
     name: Sensor Linking
+    published: true
     volume: 0.01
   Signal Dispersion:
     PrimaryAttribute: 165
@@ -91,10 +98,11 @@ items:
     RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 19761
     marketGroup: 367
     name: Signal Dispersion
+    published: true
     volume: 0.01
   Signal Suppression:
     PrimaryAttribute: 165
@@ -104,10 +112,11 @@ items:
     RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 19766
     marketGroup: 367
     name: Signal Suppression
+    published: true
     volume: 0.01
   Signature Focusing:
     PrimaryAttribute: 165
@@ -117,10 +126,11 @@ items:
     RequiredSkill2Level: 4
     ScanSkillTargetPaintStrengthBonus: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 19922
     marketGroup: 367
     name: Signature Focusing
+    published: true
     volume: 0.01
   Tactical Logistics Reconfiguration:
     CanNotBeTrainedOnTrial: 1
@@ -129,10 +139,11 @@ items:
     RequiredSkill1: 12096
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 27906
     marketGroup: 367
     name: Tactical Logistics Reconfiguration
+    published: true
     volume: 0.01
   Target Breaker Amplification:
     CapNeedBonus: -5
@@ -141,10 +152,11 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 4411
     marketGroup: 367
     name: Target Breaker Amplification
+    published: true
     volume: 0.01
   Target Painting:
     CapNeedBonus: -5
@@ -152,10 +164,11 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 19921
     marketGroup: 367
     name: Target Painting
+    published: true
     volume: 0.01
   Weapon Destabilization:
     PrimaryAttribute: 165
@@ -165,10 +178,11 @@ items:
     RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 19767
     marketGroup: 367
     name: Weapon Destabilization
+    published: true
     volume: 0.01
   Weapon Disruption:
     CapNeedBonus: -5
@@ -176,8 +190,9 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3434
     marketGroup: 367
     name: Weapon Disruption
+    published: true
     volume: 0.01

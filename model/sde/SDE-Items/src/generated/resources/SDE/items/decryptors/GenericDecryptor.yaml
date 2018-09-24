@@ -7,6 +7,7 @@ items:
     id: 34201
     marketGroup: 1873
     name: Accelerant Decryptor
+    published: true
     volume: 0.1
   Attainment Decryptor:
     InventionMEModifier: -1.0
@@ -16,6 +17,7 @@ items:
     id: 34202
     marketGroup: 1873
     name: Attainment Decryptor
+    published: true
     volume: 0.1
   Augmentation Decryptor:
     InventionMEModifier: -2.0
@@ -25,6 +27,7 @@ items:
     id: 34203
     marketGroup: 1873
     name: Augmentation Decryptor
+    published: true
     volume: 0.1
   Optimized Attainment Decryptor:
     InventionMEModifier: 1.0
@@ -34,6 +37,7 @@ items:
     id: 34207
     marketGroup: 1873
     name: Optimized Attainment Decryptor
+    published: true
     volume: 0.1
   Optimized Augmentation Decryptor:
     InventionMEModifier: 2.0
@@ -42,6 +46,7 @@ items:
     id: 34208
     marketGroup: 1873
     name: Optimized Augmentation Decryptor
+    published: true
     volume: 0.1
   Parity Decryptor:
     InventionMEModifier: 1.0
@@ -51,6 +56,7 @@ items:
     id: 34204
     marketGroup: 1873
     name: Parity Decryptor
+    published: true
     volume: 0.1
   Process Decryptor:
     InventionMEModifier: 3.0
@@ -59,6 +65,7 @@ items:
     id: 34205
     marketGroup: 1873
     name: Process Decryptor
+    published: true
     volume: 0.1
   Symmetry Decryptor:
     InventionMEModifier: 1.0
@@ -68,4 +75,5 @@ items:
     id: 34206
     marketGroup: 1873
     name: Symmetry Decryptor
+    published: true
     volume: 0.1

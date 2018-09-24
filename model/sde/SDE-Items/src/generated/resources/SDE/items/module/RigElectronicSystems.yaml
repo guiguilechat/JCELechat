@@ -2,6 +2,7 @@ items:
   Capital Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -9,10 +10,12 @@ items:
     id: 31266
     marketGroup: 1737
     name: Capital Inverted Signal Field Projector I
+    published: true
     volume: 40.0
   Capital Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     ScanSkillEwStrengthBonus: 7.5
@@ -21,10 +24,12 @@ items:
     id: 31272
     marketGroup: 1737
     name: Capital Inverted Signal Field Projector II
+    published: true
     volume: 40.0
   Capital Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
@@ -32,10 +37,12 @@ items:
     id: 31290
     marketGroup: 1737
     name: Capital Particle Dispersion Augmentor I
+    published: true
     volume: 40.0
   Capital Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     ScanSkillEwStrengthBonus: 15.0
@@ -44,10 +51,12 @@ items:
     id: 31296
     marketGroup: 1737
     name: Capital Particle Dispersion Augmentor II
+    published: true
     volume: 40.0
   Capital Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20
     RigSize: 4
     TechLevel: 1
@@ -55,10 +64,12 @@ items:
     id: 31302
     marketGroup: 1737
     name: Capital Particle Dispersion Projector I
+    published: true
     volume: 40.0
   Capital Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RangeSkillBonus: 25
     RigSize: 4
@@ -67,22 +78,26 @@ items:
     id: 31308
     marketGroup: 1737
     name: Capital Particle Dispersion Projector II
+    published: true
     volume: 40.0
   Capital Signal Disruption Amplifier I:
     CapNeedBonus: -20
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
     id: 31254
     marketGroup: 1737
     name: Capital Signal Disruption Amplifier I
+    published: true
     volume: 40.0
   Capital Signal Disruption Amplifier II:
     CapNeedBonus: -25
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     TechLevel: 2
@@ -90,22 +105,26 @@ items:
     id: 31260
     marketGroup: 1737
     name: Capital Signal Disruption Amplifier II
+    published: true
     volume: 40.0
   Capital Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
     id: 31338
     marketGroup: 1737
     name: Capital Targeting Systems Stabilizer I
+    published: true
     volume: 40.0
   Capital Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     TechLevel: 2
@@ -113,10 +132,12 @@ items:
     id: 31344
     marketGroup: 1737
     name: Capital Targeting Systems Stabilizer II
+    published: true
     volume: 40.0
   Capital Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 4
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -124,10 +145,12 @@ items:
     id: 31350
     marketGroup: 1737
     name: Capital Tracking Diagnostic Subroutines I
+    published: true
     volume: 40.0
   Capital Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 4
     ScanSkillEwStrengthBonus: 7.5
@@ -136,10 +159,12 @@ items:
     id: 31356
     marketGroup: 1737
     name: Capital Tracking Diagnostic Subroutines II
+    published: true
     volume: 40.0
   Large Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -147,10 +172,12 @@ items:
     id: 26110
     marketGroup: 1221
     name: Large Inverted Signal Field Projector I
+    published: true
     volume: 20.0
   Large Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     ScanSkillEwStrengthBonus: 7.5
@@ -159,10 +186,12 @@ items:
     id: 26354
     marketGroup: 1221
     name: Large Inverted Signal Field Projector II
+    published: true
     volume: 20.0
   Large Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
@@ -170,10 +199,12 @@ items:
     id: 26106
     marketGroup: 1221
     name: Large Particle Dispersion Augmentor I
+    published: true
     volume: 20.0
   Large Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     ScanSkillEwStrengthBonus: 15.0
@@ -182,10 +213,12 @@ items:
     id: 26352
     marketGroup: 1221
     name: Large Particle Dispersion Augmentor II
+    published: true
     volume: 20.0
   Large Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20
     RigSize: 3
     TechLevel: 1
@@ -193,10 +226,12 @@ items:
     id: 26108
     marketGroup: 1221
     name: Large Particle Dispersion Projector I
+    published: true
     volume: 20.0
   Large Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RangeSkillBonus: 25
     RigSize: 3
@@ -205,22 +240,26 @@ items:
     id: 26360
     marketGroup: 1221
     name: Large Particle Dispersion Projector II
+    published: true
     volume: 20.0
   Large Signal Disruption Amplifier I:
     CapNeedBonus: -20
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
     id: 25928
     marketGroup: 1221
     name: Large Signal Disruption Amplifier I
+    published: true
     volume: 20.0
   Large Signal Disruption Amplifier II:
     CapNeedBonus: -25
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     TechLevel: 2
@@ -228,22 +267,26 @@ items:
     id: 26344
     marketGroup: 1221
     name: Large Signal Disruption Amplifier II
+    published: true
     volume: 20.0
   Large Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
     id: 26096
     marketGroup: 1221
     name: Large Targeting Systems Stabilizer I
+    published: true
     volume: 20.0
   Large Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     TechLevel: 2
@@ -251,10 +294,12 @@ items:
     id: 26366
     marketGroup: 1221
     name: Large Targeting Systems Stabilizer II
+    published: true
     volume: 20.0
   Large Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 3
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -262,10 +307,12 @@ items:
     id: 26112
     marketGroup: 1221
     name: Large Tracking Diagnostic Subroutines I
+    published: true
     volume: 20.0
   Large Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 3
     ScanSkillEwStrengthBonus: 7.5
@@ -274,10 +321,12 @@ items:
     id: 26356
     marketGroup: 1221
     name: Large Tracking Diagnostic Subroutines II
+    published: true
     volume: 20.0
   Medium Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -285,10 +334,12 @@ items:
     id: 31264
     marketGroup: 1220
     name: Medium Inverted Signal Field Projector I
+    published: true
     volume: 10.0
   Medium Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     ScanSkillEwStrengthBonus: 7.5
@@ -297,10 +348,12 @@ items:
     id: 31270
     marketGroup: 1220
     name: Medium Inverted Signal Field Projector II
+    published: true
     volume: 10.0
   Medium Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
@@ -308,10 +361,12 @@ items:
     id: 31288
     marketGroup: 1220
     name: Medium Particle Dispersion Augmentor I
+    published: true
     volume: 10.0
   Medium Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     ScanSkillEwStrengthBonus: 15.0
@@ -320,10 +375,12 @@ items:
     id: 31294
     marketGroup: 1220
     name: Medium Particle Dispersion Augmentor II
+    published: true
     volume: 10.0
   Medium Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20
     RigSize: 2
     TechLevel: 1
@@ -331,10 +388,12 @@ items:
     id: 31300
     marketGroup: 1220
     name: Medium Particle Dispersion Projector I
+    published: true
     volume: 10.0
   Medium Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RangeSkillBonus: 25
     RigSize: 2
@@ -343,22 +402,26 @@ items:
     id: 31306
     marketGroup: 1220
     name: Medium Particle Dispersion Projector II
+    published: true
     volume: 10.0
   Medium Signal Disruption Amplifier I:
     CapNeedBonus: -20
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
     id: 31252
     marketGroup: 1220
     name: Medium Signal Disruption Amplifier I
+    published: true
     volume: 10.0
   Medium Signal Disruption Amplifier II:
     CapNeedBonus: -25
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     TechLevel: 2
@@ -366,22 +429,26 @@ items:
     id: 31258
     marketGroup: 1220
     name: Medium Signal Disruption Amplifier II
+    published: true
     volume: 10.0
   Medium Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
     id: 31336
     marketGroup: 1220
     name: Medium Targeting Systems Stabilizer I
+    published: true
     volume: 10.0
   Medium Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     TechLevel: 2
@@ -389,10 +456,12 @@ items:
     id: 31342
     marketGroup: 1220
     name: Medium Targeting Systems Stabilizer II
+    published: true
     volume: 10.0
   Medium Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 2
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -400,10 +469,12 @@ items:
     id: 31348
     marketGroup: 1220
     name: Medium Tracking Diagnostic Subroutines I
+    published: true
     volume: 10.0
   Medium Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 2
     ScanSkillEwStrengthBonus: 7.5
@@ -412,10 +483,12 @@ items:
     id: 31354
     marketGroup: 1220
     name: Medium Tracking Diagnostic Subroutines II
+    published: true
     volume: 10.0
   Small Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -423,10 +496,12 @@ items:
     id: 31262
     marketGroup: 1219
     name: Small Inverted Signal Field Projector I
+    published: true
     volume: 5.0
   Small Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     ScanSkillEwStrengthBonus: 7.5
@@ -435,10 +510,12 @@ items:
     id: 31268
     marketGroup: 1219
     name: Small Inverted Signal Field Projector II
+    published: true
     volume: 5.0
   Small Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
@@ -446,10 +523,12 @@ items:
     id: 31286
     marketGroup: 1219
     name: Small Particle Dispersion Augmentor I
+    published: true
     volume: 5.0
   Small Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     ScanSkillEwStrengthBonus: 15.0
@@ -458,10 +537,12 @@ items:
     id: 31292
     marketGroup: 1219
     name: Small Particle Dispersion Augmentor II
+    published: true
     volume: 5.0
   Small Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20
     RigSize: 1
     TechLevel: 1
@@ -469,10 +550,12 @@ items:
     id: 31298
     marketGroup: 1219
     name: Small Particle Dispersion Projector I
+    published: true
     volume: 5.0
   Small Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RangeSkillBonus: 25
     RigSize: 1
@@ -481,22 +564,26 @@ items:
     id: 31304
     marketGroup: 1219
     name: Small Particle Dispersion Projector II
+    published: true
     volume: 5.0
   Small Signal Disruption Amplifier I:
     CapNeedBonus: -20
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
     id: 31250
     marketGroup: 1219
     name: Small Signal Disruption Amplifier I
+    published: true
     volume: 5.0
   Small Signal Disruption Amplifier II:
     CapNeedBonus: -25
     Drawback: 10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     TechLevel: 2
@@ -504,22 +591,26 @@ items:
     id: 31256
     marketGroup: 1219
     name: Small Signal Disruption Amplifier II
+    published: true
     volume: 5.0
   Small Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
     id: 31334
     marketGroup: 1219
     name: Small Targeting Systems Stabilizer I
+    published: true
     volume: 5.0
   Small Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     TechLevel: 2
@@ -527,10 +618,12 @@ items:
     id: 31340
     marketGroup: 1219
     name: Small Targeting Systems Stabilizer II
+    published: true
     volume: 5.0
   Small Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     RigSize: 1
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
@@ -538,10 +631,12 @@ items:
     id: 31346
     marketGroup: 1219
     name: Small Tracking Diagnostic Subroutines I
+    published: true
     volume: 5.0
   Small Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
+    MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5
     RigSize: 1
     ScanSkillEwStrengthBonus: 7.5
@@ -550,4 +645,5 @@ items:
     id: 31352
     marketGroup: 1219
     name: Small Tracking Diagnostic Subroutines II
+    published: true
     volume: 5.0

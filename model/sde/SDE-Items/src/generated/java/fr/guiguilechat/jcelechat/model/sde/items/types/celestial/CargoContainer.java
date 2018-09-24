@@ -8,7 +8,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
-import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Celestial;
@@ -17,13 +16,6 @@ import org.yaml.snakeyaml.Yaml;
 public class CargoContainer
     extends Celestial
 {
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
     /**
      * DO NOT MESS WITH
      */
@@ -36,10 +28,6 @@ public class CargoContainer
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
-            case  9 :
-            {
-                return Hp;
-            }
             case  525 :
             {
                 return StructureUniformity;

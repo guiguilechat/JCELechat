@@ -24,4 +24,5 @@ items:
     id: 17621
     marketGroup: 506
     name: Corporate Hangar Array
+    published: true
     volume: 4000.0

@@ -4,46 +4,54 @@ items:
     TechLevel: 1
     id: 23419
     name: '''Radical'' Damage Control Blueprint'
+    published: true
     volume: 0.01
   Assault Damage Control I Blueprint:
     TechLevel: 1
     id: 47259
     marketGroup: 1542
     name: Assault Damage Control I Blueprint
+    published: true
     volume: 0.01
   Assault Damage Control II Blueprint:
     TechLevel: 1
     id: 47260
     name: Assault Damage Control II Blueprint
+    published: true
     volume: 0.01
   Capital Emergency Hull Energizer I Blueprint:
     TechLevel: 1
     id: 40719
     marketGroup: 1542
     name: Capital Emergency Hull Energizer I Blueprint
+    published: true
     volume: 0.01
   Capital Emergency Hull Energizer II Blueprint:
     TechLevel: 2
     id: 40722
     name: Capital Emergency Hull Energizer II Blueprint
+    published: true
     volume: 0.01
   Capital Implacable Compact Emergency Hull Energizer Blueprint:
     TechLevel: 1
     id: 40720
     marketGroup: 1542
     name: Capital Implacable Compact Emergency Hull Energizer Blueprint
+    published: true
     volume: 0.01
   Capital Indefatigable Enduring Emergency Hull Energizer Blueprint:
     TechLevel: 1
     id: 40721
     marketGroup: 1542
     name: Capital Indefatigable Enduring Emergency Hull Energizer Blueprint
+    published: true
     volume: 0.01
   Civilian Damage Control Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 30840
     name: Civilian Damage Control Blueprint
+    published: true
     volume: 0.01
   Damage Control I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -51,16 +59,19 @@ items:
     id: 2047
     marketGroup: 1542
     name: Damage Control I Blueprint
+    published: true
     volume: 0.01
   Damage Control II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 2049
     name: Damage Control II Blueprint
+    published: true
     volume: 0.01
   Sisters Capital Emergency Hull Energizer Blueprint:
     MetaGroupID: 4
     TechLevel: 1
     id: 40723
     name: Sisters Capital Emergency Hull Energizer Blueprint
+    published: true
     volume: 0.01

@@ -13,6 +13,7 @@ items:
     id: 518
     marketGroup: 646
     name: '''Basic'' Gyrostabilizer'
+    published: true
     volume: 5.0
   '''Kindred'' Gyrostabilizer':
     Cpu: 18.0
@@ -28,6 +29,7 @@ items:
     id: 21486
     marketGroup: 646
     name: '''Kindred'' Gyrostabilizer'
+    published: true
     volume: 5.0
   Counterbalanced Compact Gyrostabilizer:
     Cpu: 25.0
@@ -42,6 +44,7 @@ items:
     id: 5933
     marketGroup: 646
     name: Counterbalanced Compact Gyrostabilizer
+    published: true
     volume: 5.0
   Domination Gyrostabilizer:
     DamageMultiplier: 1.1200000047683716
@@ -56,6 +59,7 @@ items:
     id: 13939
     marketGroup: 646
     name: Domination Gyrostabilizer
+    published: true
     volume: 5.0
   Gotan's Modified Gyrostabilizer:
     DamageMultiplier: 1.1399999856948853
@@ -70,6 +74,7 @@ items:
     id: 14540
     marketGroup: 646
     name: Gotan's Modified Gyrostabilizer
+    published: true
     volume: 5.0
   Gyrostabilizer I:
     Cpu: 27.0
@@ -83,6 +88,7 @@ items:
     id: 520
     marketGroup: 646
     name: Gyrostabilizer I
+    published: true
     volume: 5.0
   Gyrostabilizer II:
     DamageMultiplier: 1.100000023841858
@@ -96,6 +102,7 @@ items:
     id: 519
     marketGroup: 646
     name: Gyrostabilizer II
+    published: true
     volume: 5.0
   Hakim's Modified Gyrostabilizer:
     DamageMultiplier: 1.1349999904632568
@@ -110,6 +117,7 @@ items:
     id: 14538
     marketGroup: 646
     name: Hakim's Modified Gyrostabilizer
+    published: true
     volume: 5.0
   Mizuro's Modified Gyrostabilizer:
     DamageMultiplier: 1.1299999952316284
@@ -124,6 +132,7 @@ items:
     id: 14536
     marketGroup: 646
     name: Mizuro's Modified Gyrostabilizer
+    published: true
     volume: 5.0
   Republic Fleet Gyrostabilizer:
     DamageMultiplier: 1.1200000047683716
@@ -138,6 +147,7 @@ items:
     id: 15806
     marketGroup: 646
     name: Republic Fleet Gyrostabilizer
+    published: true
     volume: 5.0
   Shaqil's Modified Gyrostabilizer:
     DamageMultiplier: 1.149999976158142
@@ -152,6 +162,7 @@ items:
     id: 15447
     marketGroup: 646
     name: Shaqil's Modified Gyrostabilizer
+    published: true
     volume: 5.0
   Tobias' Modified Gyrostabilizer:
     DamageMultiplier: 1.1449999809265137
@@ -166,6 +177,7 @@ items:
     id: 14542
     marketGroup: 646
     name: Tobias' Modified Gyrostabilizer
+    published: true
     volume: 5.0
   Vadari's Custom Gyrostabilizer:
     Cpu: 29.0
@@ -181,4 +193,5 @@ items:
     id: 44112
     marketGroup: 646
     name: Vadari's Custom Gyrostabilizer
+    published: true
     volume: 5.0

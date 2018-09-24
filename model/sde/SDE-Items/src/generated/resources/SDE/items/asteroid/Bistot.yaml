@@ -9,9 +9,11 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1223
     marketGroup: 514
     name: Bistot
+    published: true
     volume: 16.0
   Compressed Bistot:
     AsteroidMaxRadius: 16255
@@ -21,9 +23,11 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28388
     marketGroup: 514
     name: Compressed Bistot
+    published: true
     volume: 4.4
   Compressed Cubic Bistot:
     AsteroidMaxRadius: 16255
@@ -33,9 +37,11 @@ items:
     OreBasicType: 46676
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46692
     marketGroup: 514
     name: Compressed Cubic Bistot
+    published: true
     volume: 4.4
   Compressed Monoclinic Bistot:
     AsteroidMaxRadius: 16255
@@ -45,9 +51,11 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28389
     marketGroup: 514
     name: Compressed Monoclinic Bistot
+    published: true
     volume: 4.4
   Compressed Triclinic Bistot:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28390
     marketGroup: 514
     name: Compressed Triclinic Bistot
+    published: true
     volume: 4.4
   Cubic Bistot:
     AsteroidMaxRadius: 5000
@@ -71,9 +81,11 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46676
     marketGroup: 514
     name: Cubic Bistot
+    published: true
     volume: 16.0
   Monoclinic Bistot:
     AsteroidMaxRadius: 16255
@@ -85,9 +97,11 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17429
     marketGroup: 514
     name: Monoclinic Bistot
+    published: true
     volume: 16.0
   Triclinic Bistot:
     AsteroidMaxRadius: 16255
@@ -99,7 +113,9 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17428
     marketGroup: 514
     name: Triclinic Bistot
+    published: true
     volume: 16.0

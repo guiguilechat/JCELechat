@@ -16,6 +16,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.25
     HeatAttenuationMed: 0.6299999952316284
     HeatCapacityHi: 100
@@ -74,6 +75,7 @@ items:
     id: 648
     marketGroup: 84
     name: Badger
+    published: true
     volume: 250000.0
   Bestower:
     AffectedByIndustrialInvulnModule: 1
@@ -149,6 +151,7 @@ items:
     id: 1944
     marketGroup: 85
     name: Bestower
+    published: true
     volume: 260000.0
   Epithal:
     AffectedByIndustrialInvulnModule: 1
@@ -226,6 +229,7 @@ items:
     id: 655
     marketGroup: 83
     name: Epithal
+    published: true
     volume: 250000.0
   Hoarder:
     AffectedByIndustrialInvulnModule: 1
@@ -244,6 +248,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 397
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
     HeatAttenuationMed: 0.5
     HeatCapacityHi: 100
@@ -302,6 +307,7 @@ items:
     id: 651
     marketGroup: 82
     name: Hoarder
+    published: true
     volume: 400000.0
   Iteron Mark V:
     AffectedByIndustrialInvulnModule: 1
@@ -377,6 +383,7 @@ items:
     id: 657
     marketGroup: 83
     name: Iteron Mark V
+    published: true
     volume: 275000.0
   Kryos:
     AffectedByIndustrialInvulnModule: 1
@@ -395,6 +402,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.25
     HeatAttenuationMed: 0.6299999952316284
     HeatCapacityHi: 100
@@ -453,6 +461,7 @@ items:
     id: 654
     marketGroup: 83
     name: Kryos
+    published: true
     volume: 245000.0
   Mammoth:
     AffectedByIndustrialInvulnModule: 1
@@ -528,6 +537,7 @@ items:
     id: 652
     marketGroup: 82
     name: Mammoth
+    published: true
     volume: 255000.0
   Miasmos:
     AffectedByIndustrialInvulnModule: 1
@@ -546,6 +556,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
     HeatAttenuationMed: 0.6299999952316284
     HeatCapacityHi: 100
@@ -604,6 +615,7 @@ items:
     id: 656
     marketGroup: 83
     name: Miasmos
+    published: true
     volume: 265000.0
   Miasmos Amastris Edition:
     AffectedByIndustrialInvulnModule: 1
@@ -622,6 +634,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
     HeatAttenuationMed: 0.6299999952316284
     HeatCapacityHi: 100
@@ -679,6 +692,7 @@ items:
     id: 32811
     marketGroup: 1614
     name: Miasmos Amastris Edition
+    published: true
     volume: 265000.0
   Miasmos Quafe Ultra Edition:
     AffectedByIndustrialInvulnModule: 1
@@ -697,6 +711,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
     HeatAttenuationMed: 0.6299999952316284
     HeatCapacityHi: 100
@@ -754,6 +769,7 @@ items:
     id: 4363
     marketGroup: 1614
     name: Miasmos Quafe Ultra Edition
+    published: true
     volume: 265000.0
   Miasmos Quafe Ultramarine Edition:
     AffectedByIndustrialInvulnModule: 1
@@ -772,6 +788,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
     HeatAttenuationMed: 0.6299999952316284
     HeatCapacityHi: 100
@@ -829,6 +846,7 @@ items:
     id: 4388
     marketGroup: 1614
     name: Miasmos Quafe Ultramarine Edition
+    published: true
     volume: 265000.0
   Nereus:
     AffectedByIndustrialInvulnModule: 1
@@ -849,6 +867,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.25
     HeatAttenuationMed: 0.25
     HeatCapacityHi: 100
@@ -906,6 +925,7 @@ items:
     id: 650
     marketGroup: 83
     name: Nereus
+    published: true
     volume: 240000.0
   Noctis:
     AffectedByIndustrialInvulnModule: 1
@@ -987,6 +1007,7 @@ items:
     id: 2998
     marketGroup: 1390
     name: Noctis
+    published: true
     volume: 270000.0
   Primae:
     AffectedByIndustrialInvulnModule: 1
@@ -1053,6 +1074,7 @@ items:
     id: 2863
     marketGroup: 1614
     name: Primae
+    published: true
     volume: 270000.0
   Sigil:
     AffectedByIndustrialInvulnModule: 1
@@ -1128,6 +1150,7 @@ items:
     id: 19744
     marketGroup: 85
     name: Sigil
+    published: true
     volume: 230000.0
   Tayra:
     AffectedByIndustrialInvulnModule: 1
@@ -1204,6 +1227,7 @@ items:
     id: 649
     marketGroup: 84
     name: Tayra
+    published: true
     volume: 270000.0
   Wreathe:
     AffectedByIndustrialInvulnModule: 1
@@ -1222,6 +1246,7 @@ items:
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
     GfxBoosterID: 397
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.25
     HeatAttenuationMed: 0.25
     HeatCapacityHi: 100
@@ -1279,4 +1304,5 @@ items:
     id: 653
     marketGroup: 82
     name: Wreathe
+    published: true
     volume: 225000.0

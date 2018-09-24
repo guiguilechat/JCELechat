@@ -141,8 +141,8 @@ public class ExpeditionFrigate
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(1)
-    public int MiningAmountMultiplier;
+    @DefaultDoubleValue(1.0)
+    public double MiningAmountMultiplier;
     /**
      * The type ID of the skill that is required.
      */

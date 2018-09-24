@@ -167,13 +167,6 @@ public class StructureECMBattery
     @DefaultDoubleValue(0.0)
     public double ScanRadarStrengthBonus;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -265,10 +258,6 @@ public class StructureECMBattery
             case  241 :
             {
                 return ScanRadarStrengthBonus;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  422 :
             {

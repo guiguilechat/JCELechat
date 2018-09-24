@@ -5,6 +5,7 @@ import java.util.Collection;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.types.cells.PhysicalPortals;
 
 public abstract class Cells
     extends Item
@@ -32,7 +33,7 @@ public abstract class Cells
 
         @Override
         public Collection<IMetaGroup<? extends Cells>> groups() {
-            return Arrays.asList();
+            return Arrays.asList(PhysicalPortals.METAGROUP);
         }
     }
 }

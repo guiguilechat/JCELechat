@@ -7,9 +7,11 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28415
     marketGroup: 526
     name: Compressed Golden Omber
+    published: true
     volume: 0.3
   Compressed Omber:
     AsteroidMaxRadius: 16255
@@ -19,9 +21,11 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28416
     marketGroup: 526
     name: Compressed Omber
+    published: true
     volume: 0.3
   Compressed Platinoid Omber:
     AsteroidMaxRadius: 16255
@@ -31,9 +35,11 @@ items:
     OreBasicType: 46684
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46700
     marketGroup: 526
     name: Compressed Platinoid Omber
+    published: true
     volume: 0.3
   Compressed Silvery Omber:
     AsteroidMaxRadius: 16255
@@ -43,9 +49,11 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28417
     marketGroup: 526
     name: Compressed Silvery Omber
+    published: true
     volume: 0.3
   Golden Omber:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17868
     marketGroup: 526
     name: Golden Omber
+    published: true
     volume: 0.6
   Mercium:
     AsteroidMaxRadius: 16255
@@ -68,8 +78,10 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28619
     name: Mercium
+    published: true
     volume: 0.6
   Omber:
     AsteroidMaxRadius: 16255
@@ -81,9 +93,11 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1227
     marketGroup: 526
     name: Omber
+    published: true
     volume: 0.6
   Platinoid Omber:
     AsteroidMaxRadius: 5000
@@ -95,9 +109,11 @@ items:
     OreBasicType: 46684
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46684
     marketGroup: 526
     name: Platinoid Omber
+    published: true
     volume: 0.6
   Silvery Omber:
     AsteroidMaxRadius: 16255
@@ -109,7 +125,9 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17867
     marketGroup: 526
     name: Silvery Omber
+    published: true
     volume: 0.6

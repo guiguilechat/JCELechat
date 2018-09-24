@@ -28,6 +28,7 @@ items:
     FighterTubes: 5
     FleetHangarCapacity: 50000
     FwLpKill: 7000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -110,6 +111,7 @@ items:
     id: 23919
     marketGroup: 818
     name: Aeon
+    published: true
     volume: 6.2E7
   Hel:
     AdvancedAgility: 1
@@ -140,6 +142,7 @@ items:
     FighterTubes: 5
     FleetHangarCapacity: 50000
     FwLpKill: 7000
+    GateScrambleStatus: -1000
     GfxBoosterID: 397
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -223,6 +226,7 @@ items:
     id: 22852
     marketGroup: 821
     name: Hel
+    published: true
     volume: 5.1E7
   Nyx:
     AdvancedAgility: 1
@@ -253,6 +257,7 @@ items:
     FighterTubes: 5
     FleetHangarCapacity: 50000
     FwLpKill: 7000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -335,6 +340,7 @@ items:
     id: 23913
     marketGroup: 820
     name: Nyx
+    published: true
     volume: 5.82E7
   Revenant:
     AdvancedAgility: 1
@@ -365,6 +371,7 @@ items:
     FighterTubes: 5
     FleetHangarCapacity: 50000
     FwLpKill: 7000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -453,6 +460,7 @@ items:
     id: 3514
     marketGroup: 1392
     name: Revenant
+    published: true
     volume: 6.2E7
   Vendetta:
     AdvancedAgility: 1
@@ -483,6 +491,7 @@ items:
     FighterTubes: 5
     FleetHangarCapacity: 50000
     FwLpKill: 7000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -570,6 +579,7 @@ items:
     id: 42125
     marketGroup: 1392
     name: Vendetta
+    published: true
     volume: 5.82E7
   Wyvern:
     AdvancedAgility: 1
@@ -600,6 +610,7 @@ items:
     FighterTubes: 5
     FleetHangarCapacity: 50000
     FwLpKill: 7000
+    GateScrambleStatus: -1000
     GfxBoosterID: 395
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -682,4 +693,5 @@ items:
     id: 23917
     marketGroup: 819
     name: Wyvern
+    published: true
     volume: 5.3E7

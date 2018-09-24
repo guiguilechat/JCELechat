@@ -145,13 +145,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     @DefaultIntValue(0)
     public int SecurityModifier;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * High-sec bonus on structure rigs.
      */
     @HighIsGood(true)
@@ -252,10 +245,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
             case  2358 :
             {
                 return SecurityModifier;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  2095 :
             {

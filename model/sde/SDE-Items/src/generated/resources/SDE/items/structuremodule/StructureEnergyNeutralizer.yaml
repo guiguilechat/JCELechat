@@ -21,6 +21,7 @@ items:
     id: 46575
     marketGroup: 2223
     name: Dark Blood Standup Heavy Energy Neutralizer
+    published: true
     volume: 8000.0
   Standup Heavy Energy Neutralizer I:
     CanFitShipGroup01: 1657
@@ -42,6 +43,7 @@ items:
     id: 35925
     marketGroup: 2223
     name: Standup Heavy Energy Neutralizer I
+    published: true
     volume: 8000.0
   Standup Heavy Energy Neutralizer II:
     CanFitShipGroup01: 1657
@@ -64,6 +66,7 @@ items:
     id: 47332
     marketGroup: 2223
     name: Standup Heavy Energy Neutralizer II
+    published: true
     volume: 8000.0
   Standup XL Energy Neutralizer I:
     CanFitShipGroup01: 1657
@@ -86,6 +89,7 @@ items:
     id: 35924
     marketGroup: 2223
     name: Standup XL Energy Neutralizer I
+    published: true
     volume: 8000.0
   Standup XL Energy Neutralizer II:
     CanFitShipGroup01: 1657
@@ -109,4 +113,5 @@ items:
     id: 47330
     marketGroup: 2223
     name: Standup XL Energy Neutralizer II
+    published: true
     volume: 8000.0

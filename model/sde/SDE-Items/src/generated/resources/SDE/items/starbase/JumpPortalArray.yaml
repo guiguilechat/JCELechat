@@ -1,6 +1,7 @@
 items:
   Jump Bridge:
     AnchoringDelay: 30000
+    AnchoringSecurityLevelMax: 1.0
     ArmorHP: 15000000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 25000
@@ -35,4 +36,5 @@ items:
     id: 27897
     marketGroup: 1011
     name: Jump Bridge
+    published: true
     volume: 100000.0

@@ -4,90 +4,106 @@ items:
     TechLevel: 2
     id: 12804
     name: Javelin L Blueprint
+    published: true
     volume: 0.01
   Javelin M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12802
     name: Javelin M Blueprint
+    published: true
     volume: 0.01
   Javelin S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12621
     name: Javelin S Blueprint
+    published: true
     volume: 0.01
   Javelin XL Blueprint:
     TechLevel: 2
     id: 41327
     name: Javelin XL Blueprint
+    published: true
     volume: 0.01
   Null L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12788
     name: Null L Blueprint
+    published: true
     volume: 0.01
   Null M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12786
     name: Null M Blueprint
+    published: true
     volume: 0.01
   Null S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12615
     name: Null S Blueprint
+    published: true
     volume: 0.01
   Null XL Blueprint:
     TechLevel: 2
     id: 41325
     name: Null XL Blueprint
+    published: true
     volume: 0.01
   Spike L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12808
     name: Spike L Blueprint
+    published: true
     volume: 0.01
   Spike M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12806
     name: Spike M Blueprint
+    published: true
     volume: 0.01
   Spike S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12619
     name: Spike S Blueprint
+    published: true
     volume: 0.01
   Spike XL Blueprint:
     TechLevel: 2
     id: 41329
     name: Spike XL Blueprint
+    published: true
     volume: 0.01
   Void L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12792
     name: Void L Blueprint
+    published: true
     volume: 0.01
   Void M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12790
     name: Void M Blueprint
+    published: true
     volume: 0.01
   Void S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12613
     name: Void S Blueprint
+    published: true
     volume: 0.01
   Void XL Blueprint:
     TechLevel: 2
     id: 41323
     name: Void XL Blueprint
+    published: true
     volume: 0.01

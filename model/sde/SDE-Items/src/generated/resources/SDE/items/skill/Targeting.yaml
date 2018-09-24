@@ -5,10 +5,11 @@ items:
     RequiredSkill1: 3429
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3430
     marketGroup: 1748
     name: Advanced Target Management
+    published: true
     volume: 0.01
   Gravimetric Sensor Compensation:
     PrimaryAttribute: 165
@@ -16,10 +17,11 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 33000
     marketGroup: 1748
     name: Gravimetric Sensor Compensation
+    published: true
     volume: 0.01
   Ladar Sensor Compensation:
     PrimaryAttribute: 165
@@ -27,20 +29,22 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 33001
     marketGroup: 1748
     name: Ladar Sensor Compensation
+    published: true
     volume: 0.01
   Long Range Targeting:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3428
     marketGroup: 1748
     name: Long Range Targeting
+    published: true
     volume: 0.01
   Magnetometric Sensor Compensation:
     PrimaryAttribute: 165
@@ -48,10 +52,11 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 32999
     marketGroup: 1748
     name: Magnetometric Sensor Compensation
+    published: true
     volume: 0.01
   Radar Sensor Compensation:
     PrimaryAttribute: 165
@@ -59,20 +64,22 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 33002
     marketGroup: 1748
     name: Radar Sensor Compensation
+    published: true
     volume: 0.01
   Signature Analysis:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3431
     marketGroup: 1748
     name: Signature Analysis
+    published: true
     volume: 0.01
   Target Management:
     MaxTargetBonus: 1
@@ -80,8 +87,9 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3429
     marketGroup: 1748
     name: Target Management
+    published: true
     volume: 0.01

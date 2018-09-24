@@ -26,6 +26,7 @@ items:
     id: 34264
     marketGroup: 1015
     name: Focused Void Bomb
+    published: true
     volume: 75.0
   Void Bomb:
     Agility: 2.5109991838689893E-5
@@ -54,4 +55,5 @@ items:
     id: 27924
     marketGroup: 1015
     name: Void Bomb
+    published: true
     volume: 75.0

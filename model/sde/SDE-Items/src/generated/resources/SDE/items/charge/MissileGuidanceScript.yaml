@@ -11,6 +11,7 @@ items:
     id: 35795
     marketGroup: 1094
     name: Missile Precision Script
+    published: true
     volume: 1.0
   Missile Range Script:
     AoeCloudSizeBonusBonus: -100
@@ -24,4 +25,5 @@ items:
     id: 35794
     marketGroup: 1094
     name: Missile Range Script
+    published: true
     volume: 1.0

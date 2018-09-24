@@ -13,6 +13,7 @@ items:
     id: 1893
     marketGroup: 647
     name: '''Basic'' Heat Sink'
+    published: true
     volume: 5.0
   '''Trebuchet'' Heat Sink I':
     Cpu: 18.0
@@ -28,6 +29,7 @@ items:
     id: 23902
     marketGroup: 647
     name: '''Trebuchet'' Heat Sink I'
+    published: true
     volume: 5.0
   Ahremen's Modified Heat Sink:
     DamageMultiplier: 1.1399999856948853
@@ -42,6 +44,7 @@ items:
     id: 14810
     marketGroup: 647
     name: Ahremen's Modified Heat Sink
+    published: true
     volume: 5.0
   Ammatar Navy Heat Sink:
     DamageMultiplier: 1.1200000047683716
@@ -56,6 +59,7 @@ items:
     id: 15808
     marketGroup: 647
     name: Ammatar Navy Heat Sink
+    published: true
     volume: 5.0
   Brokara's Modified Heat Sink:
     DamageMultiplier: 1.1299999952316284
@@ -70,6 +74,7 @@ items:
     id: 14800
     marketGroup: 647
     name: Brokara's Modified Heat Sink
+    published: true
     volume: 5.0
   Chelm's Modified Heat Sink:
     DamageMultiplier: 1.1449999809265137
@@ -84,6 +89,7 @@ items:
     id: 14812
     marketGroup: 647
     name: Chelm's Modified Heat Sink
+    published: true
     volume: 5.0
   Dark Blood Heat Sink:
     DamageMultiplier: 1.1200000047683716
@@ -98,6 +104,7 @@ items:
     id: 13941
     marketGroup: 647
     name: Dark Blood Heat Sink
+    published: true
     volume: 5.0
   Draclira's Modified Heat Sink:
     DamageMultiplier: 1.1449999809265137
@@ -112,6 +119,7 @@ items:
     id: 14814
     marketGroup: 647
     name: Draclira's Modified Heat Sink
+    published: true
     volume: 5.0
   Extruded Compact Heat Sink:
     Cpu: 25.0
@@ -126,6 +134,7 @@ items:
     id: 5849
     marketGroup: 647
     name: Extruded Compact Heat Sink
+    published: true
     volume: 5.0
   Heat Sink I:
     Cpu: 27.0
@@ -139,6 +148,7 @@ items:
     id: 2363
     marketGroup: 647
     name: Heat Sink I
+    published: true
     volume: 5.0
   Heat Sink II:
     DamageMultiplier: 1.100000023841858
@@ -152,6 +162,7 @@ items:
     id: 2364
     marketGroup: 647
     name: Heat Sink II
+    published: true
     volume: 5.0
   Imperial Navy Heat Sink:
     DamageMultiplier: 1.1200000047683716
@@ -166,6 +177,7 @@ items:
     id: 15810
     marketGroup: 647
     name: Imperial Navy Heat Sink
+    published: true
     volume: 5.0
   Raysere's Modified Heat Sink:
     DamageMultiplier: 1.1349999904632568
@@ -180,6 +192,7 @@ items:
     id: 14806
     marketGroup: 647
     name: Raysere's Modified Heat Sink
+    published: true
     volume: 5.0
   Selynne's Modified Heat Sink:
     DamageMultiplier: 1.1349999904632568
@@ -194,6 +207,7 @@ items:
     id: 14804
     marketGroup: 647
     name: Selynne's Modified Heat Sink
+    published: true
     volume: 5.0
   Tahron's Custom Heat Sink:
     Cpu: 29.0
@@ -209,6 +223,7 @@ items:
     id: 44111
     marketGroup: 647
     name: Tahron's Custom Heat Sink
+    published: true
     volume: 5.0
   Tairei's Modified Heat Sink:
     DamageMultiplier: 1.1299999952316284
@@ -223,6 +238,7 @@ items:
     id: 14802
     marketGroup: 647
     name: Tairei's Modified Heat Sink
+    published: true
     volume: 5.0
   True Sansha Heat Sink:
     DamageMultiplier: 1.1200000047683716
@@ -237,6 +253,7 @@ items:
     id: 13943
     marketGroup: 647
     name: True Sansha Heat Sink
+    published: true
     volume: 5.0
   Vizan's Modified Heat Sink:
     DamageMultiplier: 1.1399999856948853
@@ -251,4 +268,5 @@ items:
     id: 14808
     marketGroup: 647
     name: Vizan's Modified Heat Sink
+    published: true
     volume: 5.0

@@ -1,0 +1,51 @@
+items:
+  Guristas Conquistador:
+    id: 23340
+    name: Guristas Conquistador
+    published: false
+    volume: 2.2E7
+  Guristas Destroyer:
+    id: 23339
+    name: Guristas Destroyer
+    published: false
+    volume: 2.2E7
+  Guristas Dismantler:
+    id: 11934
+    name: Guristas Dismantler
+    published: false
+    volume: 1040000.0
+  Guristas Eliminator:
+    id: 23337
+    name: Guristas Eliminator
+    published: false
+    volume: 2.2E7
+  Guristas Eradicator:
+    id: 11932
+    name: Guristas Eradicator
+    published: false
+    volume: 1040000.0
+  Guristas Exterminator:
+    id: 23338
+    name: Guristas Exterminator
+    published: false
+    volume: 2.2E7
+  Guristas Extinguisher:
+    id: 11935
+    name: Guristas Extinguisher
+    published: false
+    volume: 2.2E7
+  Guristas Massacrer:
+    id: 23341
+    name: Guristas Massacrer
+    published: false
+    volume: 2.2E7
+  Guristas Obliterator:
+    id: 11933
+    name: Guristas Obliterator
+    published: false
+    volume: 1080000.0
+  Guristas Usurper:
+    id: 23342
+    name: Guristas Usurper
+    published: false
+    volume: 2.2E7

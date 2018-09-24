@@ -4,22 +4,26 @@ items:
     TechLevel: 3
     id: 34318
     name: Confessor Blueprint
+    published: true
     volume: 0.01
   Hecate Blueprint:
     IndustryBlueprintRank: 600.0
     TechLevel: 3
     id: 35684
     name: Hecate Blueprint
+    published: true
     volume: 0.01
   Jackdaw Blueprint:
     IndustryBlueprintRank: 600.0
     TechLevel: 3
     id: 34829
     name: Jackdaw Blueprint
+    published: true
     volume: 0.01
   Svipul Blueprint:
     IndustryBlueprintRank: 600.0
     TechLevel: 3
     id: 34563
     name: Svipul Blueprint
+    published: true
     volume: 0.01

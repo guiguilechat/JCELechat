@@ -6,6 +6,7 @@ items:
     id: 22449
     marketGroup: 896
     name: Absolution Blueprint
+    published: true
     volume: 0.01
   Astarte Blueprint:
     IndustryBlueprintRank: 1000.0
@@ -14,6 +15,7 @@ items:
     id: 22467
     marketGroup: 898
     name: Astarte Blueprint
+    published: true
     volume: 0.01
   Brutix Blueprint:
     IndustryBlueprintRank: 50.0
@@ -22,6 +24,7 @@ items:
     id: 16230
     marketGroup: 591
     name: Brutix Blueprint
+    published: true
     volume: 0.01
   Brutix Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
@@ -29,6 +32,7 @@ items:
     TechLevel: 1
     id: 33152
     name: Brutix Navy Issue Blueprint
+    published: true
     volume: 0.01
   Claymore Blueprint:
     IndustryBlueprintRank: 1000.0
@@ -37,6 +41,7 @@ items:
     id: 22469
     marketGroup: 899
     name: Claymore Blueprint
+    published: true
     volume: 0.01
   Cyclone Blueprint:
     IndustryBlueprintRank: 50.0
@@ -45,6 +50,7 @@ items:
     id: 16232
     marketGroup: 592
     name: Cyclone Blueprint
+    published: true
     volume: 0.01
   Damnation Blueprint:
     IndustryBlueprintRank: 1000.0
@@ -53,6 +59,7 @@ items:
     id: 22475
     marketGroup: 896
     name: Damnation Blueprint
+    published: true
     volume: 0.01
   Drake Blueprint:
     IndustryBlueprintRank: 50.0
@@ -61,6 +68,7 @@ items:
     id: 24699
     marketGroup: 590
     name: Drake Blueprint
+    published: true
     volume: 0.01
   Drake Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
@@ -68,6 +76,7 @@ items:
     TechLevel: 1
     id: 33154
     name: Drake Navy Issue Blueprint
+    published: true
     volume: 0.01
   Eos Blueprint:
     IndustryBlueprintRank: 1000.0
@@ -76,6 +85,7 @@ items:
     id: 22443
     marketGroup: 898
     name: Eos Blueprint
+    published: true
     volume: 0.01
   Ferox Blueprint:
     IndustryBlueprintRank: 50.0
@@ -84,6 +94,7 @@ items:
     id: 16228
     marketGroup: 590
     name: Ferox Blueprint
+    published: true
     volume: 0.01
   Gnosis Blueprint:
     IndustryBlueprintRank: 50.0
@@ -91,6 +102,7 @@ items:
     TechLevel: 1
     id: 33327
     name: Gnosis Blueprint
+    published: true
     volume: 0.01
   Harbinger Blueprint:
     IndustryBlueprintRank: 50.0
@@ -99,6 +111,7 @@ items:
     id: 24697
     marketGroup: 589
     name: Harbinger Blueprint
+    published: true
     volume: 0.01
   Harbinger Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
@@ -106,6 +119,7 @@ items:
     TechLevel: 1
     id: 33156
     name: Harbinger Navy Issue Blueprint
+    published: true
     volume: 0.01
   Hurricane Blueprint:
     IndustryBlueprintRank: 50.0
@@ -114,6 +128,7 @@ items:
     id: 24703
     marketGroup: 592
     name: Hurricane Blueprint
+    published: true
     volume: 0.01
   Hurricane Fleet Issue Blueprint:
     IndustryBlueprintRank: 50.0
@@ -121,6 +136,7 @@ items:
     TechLevel: 1
     id: 33158
     name: Hurricane Fleet Issue Blueprint
+    published: true
     volume: 0.01
   Myrmidon Blueprint:
     IndustryBlueprintRank: 50.0
@@ -129,6 +145,7 @@ items:
     id: 24701
     marketGroup: 591
     name: Myrmidon Blueprint
+    published: true
     volume: 0.01
   Naga Blueprint:
     IndustryBlueprintRank: 50.0
@@ -137,6 +154,7 @@ items:
     id: 4307
     marketGroup: 590
     name: Naga Blueprint
+    published: true
     volume: 0.01
   Nighthawk Blueprint:
     IndustryBlueprintRank: 1000.0
@@ -145,6 +163,7 @@ items:
     id: 22471
     marketGroup: 897
     name: Nighthawk Blueprint
+    published: true
     volume: 0.01
   Oracle Blueprint:
     IndustryBlueprintRank: 50.0
@@ -153,6 +172,7 @@ items:
     id: 4305
     marketGroup: 589
     name: Oracle Blueprint
+    published: true
     volume: 0.01
   Prophecy Blueprint:
     IndustryBlueprintRank: 50.0
@@ -161,6 +181,7 @@ items:
     id: 16234
     marketGroup: 589
     name: Prophecy Blueprint
+    published: true
     volume: 0.01
   Sleipnir Blueprint:
     IndustryBlueprintRank: 1000.0
@@ -169,6 +190,7 @@ items:
     id: 22445
     marketGroup: 899
     name: Sleipnir Blueprint
+    published: true
     volume: 0.01
   Talos Blueprint:
     IndustryBlueprintRank: 50.0
@@ -177,6 +199,7 @@ items:
     id: 4309
     marketGroup: 591
     name: Talos Blueprint
+    published: true
     volume: 0.01
   Tornado Blueprint:
     IndustryBlueprintRank: 50.0
@@ -185,6 +208,7 @@ items:
     id: 4311
     marketGroup: 592
     name: Tornado Blueprint
+    published: true
     volume: 0.01
   Vulture Blueprint:
     IndustryBlueprintRank: 1000.0
@@ -193,9 +217,12 @@ items:
     id: 22447
     marketGroup: 897
     name: Vulture Blueprint
+    published: true
     volume: 0.01
   幼龙级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34474
     name: 幼龙级YC117年特别版蓝图
+    published: true
     volume: 0.01

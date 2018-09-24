@@ -10,6 +10,7 @@ items:
     id: 41517
     marketGroup: 1094
     name: Armor EM Resistance Script
+    published: true
     volume: 1.0
   Armor Explosive Resistance Script:
     ChargeSize: 1
@@ -22,6 +23,7 @@ items:
     id: 41520
     marketGroup: 1094
     name: Armor Explosive Resistance Script
+    published: true
     volume: 1.0
   Armor Kinetic Resistance Script:
     ChargeSize: 1
@@ -34,6 +36,7 @@ items:
     id: 41519
     marketGroup: 1094
     name: Armor Kinetic Resistance Script
+    published: true
     volume: 1.0
   Armor Thermal Resistance Script:
     ChargeSize: 1
@@ -46,4 +49,5 @@ items:
     id: 41518
     marketGroup: 1094
     name: Armor Thermal Resistance Script
+    published: true
     volume: 1.0

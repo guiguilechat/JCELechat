@@ -10,6 +10,7 @@ items:
     id: 42832
     marketGroup: 2298
     name: Armor Energizing Charge
+    published: true
     volume: 0.01
   Armor Reinforcement Charge:
     LauncherGroup: 1770
@@ -22,6 +23,7 @@ items:
     id: 42834
     marketGroup: 2298
     name: Armor Reinforcement Charge
+    published: true
     volume: 0.01
   Rapid Repair Charge:
     LauncherGroup: 1770
@@ -34,4 +36,5 @@ items:
     id: 42833
     marketGroup: 2298
     name: Rapid Repair Charge
+    published: true
     volume: 0.01

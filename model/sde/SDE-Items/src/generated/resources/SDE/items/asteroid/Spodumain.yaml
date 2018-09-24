@@ -9,9 +9,11 @@ items:
     OreBasicType: 19
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17466
     marketGroup: 517
     name: Bright Spodumain
+    published: true
     volume: 16.0
   Compressed Bright Spodumain:
     AsteroidMaxRadius: 16255
@@ -21,9 +23,11 @@ items:
     OreBasicType: 19
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28418
     marketGroup: 517
     name: Compressed Bright Spodumain
+    published: true
     volume: 28.0
   Compressed Dazzling Spodumain:
     AsteroidMaxRadius: 16255
@@ -33,9 +37,11 @@ items:
     OreBasicType: 46688
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46704
     marketGroup: 517
     name: Compressed Dazzling Spodumain
+    published: true
     volume: 28.0
   Compressed Gleaming Spodumain:
     AsteroidMaxRadius: 16255
@@ -45,9 +51,11 @@ items:
     OreBasicType: 19
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28419
     marketGroup: 517
     name: Compressed Gleaming Spodumain
+    published: true
     volume: 28.0
   Compressed Spodumain:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 19
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28420
     marketGroup: 517
     name: Compressed Spodumain
+    published: true
     volume: 28.0
   Dazzling Spodumain:
     AsteroidMaxRadius: 5000
@@ -71,9 +81,11 @@ items:
     OreBasicType: 46688
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46688
     marketGroup: 517
     name: Dazzling Spodumain
+    published: true
     volume: 16.0
   Gleaming Spodumain:
     AsteroidMaxRadius: 16255
@@ -85,9 +97,11 @@ items:
     OreBasicType: 19
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17467
     marketGroup: 517
     name: Gleaming Spodumain
+    published: true
     volume: 16.0
   Spodumain:
     AsteroidMaxRadius: 16255
@@ -99,7 +113,9 @@ items:
     OreBasicType: 19
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 19
     marketGroup: 517
     name: Spodumain
+    published: true
     volume: 16.0

@@ -23,6 +23,7 @@ items:
     id: 18068
     marketGroup: 1039
     name: Modulated Deep Core Miner II
+    published: true
     volume: 5.0
   Modulated Deep Core Strip Miner II:
     CanFitShipGroup01: 543
@@ -51,6 +52,7 @@ items:
     id: 24305
     marketGroup: 1040
     name: Modulated Deep Core Strip Miner II
+    published: true
     volume: 5.0
   Modulated Strip Miner II:
     CanFitShipGroup01: 543
@@ -76,4 +78,5 @@ items:
     id: 17912
     marketGroup: 1040
     name: Modulated Strip Miner II
+    published: true
     volume: 5.0

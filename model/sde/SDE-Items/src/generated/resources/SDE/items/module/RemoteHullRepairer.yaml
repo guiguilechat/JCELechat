@@ -20,6 +20,7 @@ items:
     id: 27934
     marketGroup: 1063
     name: Capital Remote Hull Repairer I
+    published: true
     volume: 4000.0
   Capital Remote Hull Repairer II:
     CapacitorNeed: 1980.0
@@ -43,6 +44,7 @@ items:
     id: 41475
     marketGroup: 1063
     name: Capital Remote Hull Repairer II
+    published: true
     volume: 4000.0
   Large Remote Hull Repairer I:
     CapacitorNeed: 488.0
@@ -62,6 +64,7 @@ items:
     id: 27904
     marketGroup: 1062
     name: Large Remote Hull Repairer I
+    published: true
     volume: 50.0
   Large Remote Hull Repairer II:
     CapacitorNeed: 488.0
@@ -83,6 +86,7 @@ items:
     id: 3986
     marketGroup: 1062
     name: Large Remote Hull Repairer II
+    published: true
     volume: 50.0
   Medium Remote Hull Repairer I:
     CapacitorNeed: 244.0
@@ -102,6 +106,7 @@ items:
     id: 27930
     marketGroup: 1061
     name: Medium Remote Hull Repairer I
+    published: true
     volume: 10.0
   Medium Remote Hull Repairer II:
     CapacitorNeed: 244.0
@@ -123,6 +128,7 @@ items:
     id: 4296
     marketGroup: 1061
     name: Medium Remote Hull Repairer II
+    published: true
     volume: 10.0
   Small Remote Hull Repairer I:
     CapacitorNeed: 122.0
@@ -142,6 +148,7 @@ items:
     id: 27932
     marketGroup: 1060
     name: Small Remote Hull Repairer I
+    published: true
     volume: 5.0
   Small Remote Hull Repairer II:
     CapacitorNeed: 122.0
@@ -163,4 +170,5 @@ items:
     id: 4299
     marketGroup: 1060
     name: Small Remote Hull Repairer II
+    published: true
     volume: 5.0

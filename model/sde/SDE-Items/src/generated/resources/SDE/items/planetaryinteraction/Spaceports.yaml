@@ -7,6 +7,7 @@ items:
     PowerLoad: 700
     id: 2544
     name: Barren Launchpad
+    published: true
   Gas Launchpad:
     CpuLoad: 3600
     ExportTax: 1
@@ -15,6 +16,7 @@ items:
     PowerLoad: 700
     id: 2543
     name: Gas Launchpad
+    published: true
   Ice Launchpad:
     CpuLoad: 3600
     ExportTax: 1
@@ -23,6 +25,7 @@ items:
     PowerLoad: 700
     id: 2552
     name: Ice Launchpad
+    published: true
   Lava Launchpad:
     CpuLoad: 3600
     ExportTax: 1
@@ -31,6 +34,7 @@ items:
     PowerLoad: 700
     id: 2555
     name: Lava Launchpad
+    published: true
   Oceanic Launchpad:
     CpuLoad: 3600
     ExportTax: 1
@@ -39,6 +43,7 @@ items:
     PowerLoad: 700
     id: 2542
     name: Oceanic Launchpad
+    published: true
   Plasma Launchpad:
     CpuLoad: 3600
     ExportTax: 1
@@ -47,6 +52,7 @@ items:
     PowerLoad: 700
     id: 2556
     name: Plasma Launchpad
+    published: true
   Storm Launchpad:
     CpuLoad: 3600
     ExportTax: 1
@@ -55,6 +61,7 @@ items:
     PowerLoad: 700
     id: 2557
     name: Storm Launchpad
+    published: true
   Temperate Launchpad:
     CpuLoad: 3600
     ExportTax: 1
@@ -63,3 +70,4 @@ items:
     PowerLoad: 700
     id: 2256
     name: Temperate Launchpad
+    published: true

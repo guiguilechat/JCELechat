@@ -27,6 +27,7 @@ items:
     id: 27315
     marketGroup: 999
     name: Caldari Navy Inferno Rocket
+    published: true
     volume: 0.005
   Caldari Navy Mjolnir Rocket:
     Agility: 5.220125675201416
@@ -56,6 +57,7 @@ items:
     id: 27321
     marketGroup: 999
     name: Caldari Navy Mjolnir Rocket
+    published: true
     volume: 0.005
   Caldari Navy Nova Rocket:
     Agility: 5.220125675201416
@@ -85,6 +87,7 @@ items:
     id: 27327
     marketGroup: 999
     name: Caldari Navy Nova Rocket
+    published: true
     volume: 0.005
   Caldari Navy Scourge Rocket:
     Agility: 5.220125675201416
@@ -114,6 +117,7 @@ items:
     id: 27333
     marketGroup: 999
     name: Caldari Navy Scourge Rocket
+    published: true
     volume: 0.005
   Dread Guristas Inferno Rocket:
     Agility: 5.220125675201416
@@ -143,6 +147,7 @@ items:
     id: 27317
     marketGroup: 999
     name: Dread Guristas Inferno Rocket
+    published: true
     volume: 0.005
   Dread Guristas Mjolnir Rocket:
     Agility: 5.220125675201416
@@ -172,6 +177,7 @@ items:
     id: 27323
     marketGroup: 999
     name: Dread Guristas Mjolnir Rocket
+    published: true
     volume: 0.005
   Dread Guristas Nova Rocket:
     Agility: 5.220125675201416
@@ -201,6 +207,7 @@ items:
     id: 27329
     marketGroup: 999
     name: Dread Guristas Nova Rocket
+    published: true
     volume: 0.005
   Dread Guristas Scourge Rocket:
     Agility: 5.220125675201416
@@ -230,6 +237,7 @@ items:
     id: 27335
     marketGroup: 999
     name: Dread Guristas Scourge Rocket
+    published: true
     volume: 0.005
   Guristas Inferno Rocket:
     Agility: 5.220125675201416
@@ -259,6 +267,7 @@ items:
     id: 27313
     marketGroup: 999
     name: Guristas Inferno Rocket
+    published: true
     volume: 0.005
   Guristas Mjolnir Rocket:
     Agility: 5.220125675201416
@@ -288,6 +297,7 @@ items:
     id: 27319
     marketGroup: 999
     name: Guristas Mjolnir Rocket
+    published: true
     volume: 0.005
   Guristas Nova Rocket:
     Agility: 5.220125675201416
@@ -317,6 +327,7 @@ items:
     id: 27325
     marketGroup: 999
     name: Guristas Nova Rocket
+    published: true
     volume: 0.005
   Guristas Scourge Rocket:
     Agility: 5.220125675201416
@@ -346,6 +357,7 @@ items:
     id: 27331
     marketGroup: 999
     name: Guristas Scourge Rocket
+    published: true
     volume: 0.005
   Inferno Rocket:
     Agility: 5.220125675201416
@@ -373,6 +385,7 @@ items:
     id: 2514
     marketGroup: 922
     name: Inferno Rocket
+    published: true
     volume: 0.005
   Mjolnir Rocket:
     Agility: 5.220125675201416
@@ -400,6 +413,7 @@ items:
     id: 2512
     marketGroup: 922
     name: Mjolnir Rocket
+    published: true
     volume: 0.005
   Nova Rocket:
     Agility: 5.220125675201416
@@ -427,6 +441,7 @@ items:
     id: 2516
     marketGroup: 922
     name: Nova Rocket
+    published: true
     volume: 0.005
   Scourge Rocket:
     Agility: 5.220125675201416
@@ -454,4 +469,5 @@ items:
     id: 266
     marketGroup: 922
     name: Scourge Rocket
+    published: true
     volume: 0.005

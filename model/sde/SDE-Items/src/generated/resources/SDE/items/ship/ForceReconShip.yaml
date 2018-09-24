@@ -83,6 +83,7 @@ items:
     id: 11969
     marketGroup: 833
     name: Arazu
+    published: true
     volume: 116000.0
   Chameleon:
     Agility: 0.6000000238418579
@@ -170,6 +171,7 @@ items:
     id: 33675
     marketGroup: 1837
     name: Chameleon
+    published: true
     volume: 96000.0
   Enforcer:
     Agility: 0.550000011920929
@@ -269,6 +271,7 @@ items:
     id: 44995
     marketGroup: 1837
     name: Enforcer
+    published: true
     volume: 100000.0
   Falcon:
     Agility: 0.6399999856948853
@@ -354,6 +357,7 @@ items:
     id: 11957
     marketGroup: 830
     name: Falcon
+    published: true
     volume: 96000.0
   Moracha:
     Agility: 0.4699999988079071
@@ -441,6 +445,7 @@ items:
     id: 33395
     marketGroup: 1837
     name: Moracha
+    published: true
     volume: 100000.0
   Pilgrim:
     Agility: 0.6100000143051147
@@ -527,6 +532,7 @@ items:
     id: 11965
     marketGroup: 827
     name: Pilgrim
+    published: true
     volume: 120000.0
   Rapier:
     Agility: 0.5899999737739563
@@ -613,6 +619,7 @@ items:
     id: 11963
     marketGroup: 836
     name: Rapier
+    published: true
     volume: 85000.0
   Tiamat:
     Agility: 0.47999998927116394
@@ -699,6 +706,7 @@ items:
     id: 48635
     marketGroup: 1837
     name: Tiamat
+    published: true
     volume: 118000.0
   Victor:
     Agility: 0.5899999737739563
@@ -792,4 +800,5 @@ items:
     id: 45531
     marketGroup: 1837
     name: Victor
+    published: true
     volume: 116000.0

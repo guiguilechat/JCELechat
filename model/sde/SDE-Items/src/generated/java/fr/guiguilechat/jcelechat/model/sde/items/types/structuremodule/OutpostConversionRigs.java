@@ -181,13 +181,6 @@ public class OutpostConversionRigs
     @DefaultIntValue(0)
     public int RigSize;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -328,10 +321,6 @@ public class OutpostConversionRigs
             case  1547 :
             {
                 return RigSize;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  2434 :
             {

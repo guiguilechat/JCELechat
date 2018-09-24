@@ -1,5 +1,6 @@
 items:
   Standup M-Set Structure Manufacturing Time Efficiency I:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigTimeBonus: -20
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -19,8 +20,10 @@ items:
     id: 43876
     marketGroup: 2347
     name: Standup M-Set Structure Manufacturing Time Efficiency I
+    published: true
     volume: 10.0
   Standup M-Set Structure Manufacturing Time Efficiency II:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -40,4 +43,5 @@ items:
     id: 43877
     marketGroup: 2347
     name: Standup M-Set Structure Manufacturing Time Efficiency II
+    published: true
     volume: 10.0

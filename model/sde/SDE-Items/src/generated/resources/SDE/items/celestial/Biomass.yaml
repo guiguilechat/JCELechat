@@ -4,10 +4,12 @@ items:
     SignatureRadius: 50
     id: 29148
     name: Corpse Female
+    published: true
     volume: 2.0
   Corpse Male:
     Hp: 10
     SignatureRadius: 50
     id: 25
     name: Corpse Male
+    published: true
     volume: 2.0

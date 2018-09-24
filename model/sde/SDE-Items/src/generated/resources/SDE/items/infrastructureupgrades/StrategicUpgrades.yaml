@@ -5,6 +5,7 @@ items:
     id: 32422
     marketGroup: 1282
     name: Advanced Logistics Network
+    published: true
     volume: 200000.0
   Cynosural Navigation:
     DevIndexSovereignty: 2
@@ -12,6 +13,7 @@ items:
     id: 2008
     marketGroup: 1282
     name: Cynosural Navigation
+    published: true
     volume: 200000.0
   Cynosural Suppression:
     DevIndexSovereignty: 3
@@ -19,6 +21,7 @@ items:
     id: 2001
     marketGroup: 1282
     name: Cynosural Suppression
+    published: true
     volume: 200000.0
   Supercapital Construction Facilities:
     DevIndexSovereignty: 1
@@ -26,4 +29,5 @@ items:
     id: 2009
     marketGroup: 1282
     name: Supercapital Construction Facilities
+    published: true
     volume: 200000.0

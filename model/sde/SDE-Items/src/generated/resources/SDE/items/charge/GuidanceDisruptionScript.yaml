@@ -11,6 +11,7 @@ items:
     id: 40335
     marketGroup: 1094
     name: Missile Precision Disruption Script
+    published: true
     volume: 1.0
   Missile Range Disruption Script:
     AoeCloudSizeBonusBonus: -100
@@ -24,4 +25,5 @@ items:
     id: 40334
     marketGroup: 1094
     name: Missile Range Disruption Script
+    published: true
     volume: 1.0

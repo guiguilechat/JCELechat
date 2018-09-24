@@ -17,6 +17,7 @@ items:
     id: 47300
     marketGroup: 1663
     name: Capsuleer Dawn Firework (Large)
+    published: true
     volume: 0.1
   Crimson Helix Firework (Large):
     Agility: 3000.0
@@ -36,6 +37,7 @@ items:
     id: 47301
     marketGroup: 1663
     name: Crimson Helix Firework (Large)
+    published: true
     volume: 0.1
   Yoiul Blizzard Firework (Large):
     Agility: 3000.0
@@ -55,4 +57,5 @@ items:
     id: 47302
     marketGroup: 1663
     name: Yoiul Blizzard Firework (Large)
+    published: true
     volume: 0.1

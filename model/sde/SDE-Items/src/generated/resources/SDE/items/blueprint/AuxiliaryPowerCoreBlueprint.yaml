@@ -5,10 +5,12 @@ items:
     id: 11564
     marketGroup: 1559
     name: Micro Auxiliary Power Core I Blueprint
+    published: true
     volume: 0.01
   Micro Auxiliary Power Core II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 4255
     name: Micro Auxiliary Power Core II Blueprint
+    published: true
     volume: 0.01

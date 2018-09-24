@@ -9,6 +9,7 @@ items:
     id: 32254
     marketGroup: 1518
     name: Imperial Navy Modified 'Noble' Implant
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1001:
     Implantness: 10
@@ -18,6 +19,7 @@ items:
     id: 27074
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1001
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1002:
     ArmorHpBonus2: 2.0
@@ -28,6 +30,7 @@ items:
     id: 3479
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1002
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1003:
     Implantness: 10
@@ -37,6 +40,7 @@ items:
     id: 13256
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1003
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1004:
     ArmorHpBonus2: 4.0
@@ -47,6 +51,7 @@ items:
     id: 3481
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1004
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1005:
     Implantness: 10
@@ -56,6 +61,7 @@ items:
     id: 19550
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1005
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1006:
     ArmorHpBonus2: 6.0
@@ -66,6 +72,7 @@ items:
     id: 3482
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1006
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1008:
     Implantness: 10
@@ -75,6 +82,7 @@ items:
     id: 21606
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1008
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-801:
     HullHpBonus: 1
@@ -85,6 +93,7 @@ items:
     id: 27072
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-801
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-802:
     HullHpBonus: 2
@@ -95,6 +104,7 @@ items:
     id: 3471
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-802
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-803:
     HullHpBonus: 3
@@ -105,6 +115,7 @@ items:
     id: 13257
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-803
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-804:
     HullHpBonus: 4
@@ -115,6 +126,7 @@ items:
     id: 3474
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-804
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-805:
     HullHpBonus: 5
@@ -125,6 +137,7 @@ items:
     id: 19549
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-805
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-806:
     HullHpBonus: 6
@@ -135,6 +148,7 @@ items:
     id: 3475
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-806
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-701:
     CapNeedBonus: -1
@@ -145,6 +159,7 @@ items:
     id: 27071
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-701
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-702:
     CapNeedBonus: -2
@@ -155,6 +170,7 @@ items:
     id: 3414
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-702
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-703:
     CapNeedBonus: -3
@@ -165,6 +181,7 @@ items:
     id: 17871
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-703
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-704:
     CapNeedBonus: -4
@@ -175,6 +192,7 @@ items:
     id: 3415
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-704
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-705:
     CapNeedBonus: -5
@@ -185,6 +203,7 @@ items:
     id: 19548
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-705
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-706:
     CapNeedBonus: -6
@@ -195,6 +214,7 @@ items:
     id: 3470
     marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-706
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-901:
     Implantness: 9
@@ -205,6 +225,7 @@ items:
     id: 27073
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-901
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-902:
     Implantness: 9
@@ -215,6 +236,7 @@ items:
     id: 3476
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-902
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-903:
     Implantness: 9
@@ -225,6 +247,7 @@ items:
     id: 19684
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-903
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-904:
     Implantness: 9
@@ -235,6 +258,7 @@ items:
     id: 3477
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-904
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-905:
     Implantness: 9
@@ -245,6 +269,7 @@ items:
     id: 19685
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-905
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-906:
     Implantness: 9
@@ -255,6 +280,7 @@ items:
     id: 3478
     marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-906
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-601:
     DurationSkillBonus: -1
@@ -265,6 +291,7 @@ items:
     id: 27070
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-601
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-602:
     DurationSkillBonus: -2
@@ -275,6 +302,7 @@ items:
     id: 3291
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-602
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-603:
     DurationSkillBonus: -3
@@ -285,6 +313,7 @@ items:
     id: 13258
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-603
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-604:
     DurationSkillBonus: -4
@@ -295,6 +324,7 @@ items:
     id: 3292
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-604
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-605:
     DurationSkillBonus: -5
@@ -305,6 +335,7 @@ items:
     id: 19547
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-605
+    published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-606:
     DurationSkillBonus: -6
@@ -315,6 +346,7 @@ items:
     id: 3299
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-606
+    published: true
     volume: 1.0
   Numon Family Heirloom:
     DurationSkillBonus: -7
@@ -325,4 +357,5 @@ items:
     id: 20358
     marketGroup: 1514
     name: Numon Family Heirloom
+    published: true
     volume: 1.0

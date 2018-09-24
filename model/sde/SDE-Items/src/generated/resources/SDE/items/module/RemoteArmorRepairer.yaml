@@ -21,6 +21,7 @@ items:
     id: 22947
     marketGroup: 1059
     name: '''Beatnik'' Small Remote Armor Repairer'
+    published: true
     volume: 5.0
   '''Love'' Medium Remote Armor Repairer':
     ArmorDamageAmount: 228
@@ -44,6 +45,7 @@ items:
     id: 22949
     marketGroup: 1058
     name: '''Love'' Medium Remote Armor Repairer'
+    published: true
     volume: 10.0
   '''Peace'' Large Remote Armor Repairer':
     ArmorDamageAmount: 456
@@ -67,6 +69,7 @@ items:
     id: 23416
     marketGroup: 1057
     name: '''Peace'' Large Remote Armor Repairer'
+    published: true
     volume: 25.0
   CONCORD Capital Remote Armor Repairer:
     ArmorDamageAmount: 950
@@ -92,6 +95,7 @@ items:
     id: 3536
     marketGroup: 1056
     name: CONCORD Capital Remote Armor Repairer
+    published: true
     volume: 4000.0
   Capital Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 800
@@ -116,6 +120,7 @@ items:
     id: 41464
     marketGroup: 1056
     name: Capital Coaxial Compact Remote Armor Repairer
+    published: true
     volume: 4000.0
   Capital I-ax Enduring Remote Armor Repairer:
     ArmorDamageAmount: 800
@@ -140,6 +145,7 @@ items:
     id: 41463
     marketGroup: 1056
     name: Capital I-ax Enduring Remote Armor Repairer
+    published: true
     volume: 4000.0
   Capital Remote Armor Repairer I:
     ArmorDamageAmount: 730
@@ -162,6 +168,7 @@ items:
     id: 24569
     marketGroup: 1056
     name: Capital Remote Armor Repairer I
+    published: true
     volume: 4000.0
   Capital Remote Armor Repairer II:
     ArmorDamageAmount: 875
@@ -186,6 +193,7 @@ items:
     id: 41466
     marketGroup: 1056
     name: Capital Remote Armor Repairer II
+    published: true
     volume: 4000.0
   Capital Solace Scoped Remote Armor Repairer:
     ArmorDamageAmount: 800
@@ -210,6 +218,7 @@ items:
     id: 41465
     marketGroup: 1056
     name: Capital Solace Scoped Remote Armor Repairer
+    published: true
     volume: 4000.0
   Centii A-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 94
@@ -233,6 +242,7 @@ items:
     id: 19051
     marketGroup: 1059
     name: Centii A-Type Small Remote Armor Repairer
+    published: true
     volume: 5.0
   Centii B-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 87
@@ -256,6 +266,7 @@ items:
     id: 19049
     marketGroup: 1059
     name: Centii B-Type Small Remote Armor Repairer
+    published: true
     volume: 5.0
   Centii C-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 80
@@ -279,6 +290,7 @@ items:
     id: 19047
     marketGroup: 1059
     name: Centii C-Type Small Remote Armor Repairer
+    published: true
     volume: 5.0
   Centum A-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 376
@@ -302,6 +314,7 @@ items:
     id: 19057
     marketGroup: 1058
     name: Centum A-Type Medium Remote Armor Repairer
+    published: true
     volume: 10.0
   Centum B-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 348
@@ -325,6 +338,7 @@ items:
     id: 19055
     marketGroup: 1058
     name: Centum B-Type Medium Remote Armor Repairer
+    published: true
     volume: 10.0
   Centum C-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 320
@@ -348,6 +362,7 @@ items:
     id: 19053
     marketGroup: 1058
     name: Centum C-Type Medium Remote Armor Repairer
+    published: true
     volume: 10.0
   Civilian Small Remote Armor Repairer:
     ArmorDamageAmount: 24
@@ -366,6 +381,7 @@ items:
     TechLevel: 1
     id: 32469
     name: Civilian Small Remote Armor Repairer
+    published: true
     volume: 5.0
   Coreli A-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 76
@@ -389,6 +405,7 @@ items:
     id: 18985
     marketGroup: 1059
     name: Coreli A-Type Small Remote Armor Repairer
+    published: true
     volume: 5.0
   Coreli B-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 70
@@ -412,6 +429,7 @@ items:
     id: 18983
     marketGroup: 1059
     name: Coreli B-Type Small Remote Armor Repairer
+    published: true
     volume: 5.0
   Coreli C-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 64
@@ -435,6 +453,7 @@ items:
     id: 18981
     marketGroup: 1059
     name: Coreli C-Type Small Remote Armor Repairer
+    published: true
     volume: 5.0
   Corelum A-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 304
@@ -458,6 +477,7 @@ items:
     id: 18991
     marketGroup: 1058
     name: Corelum A-Type Medium Remote Armor Repairer
+    published: true
     volume: 10.0
   Corelum B-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 280
@@ -481,6 +501,7 @@ items:
     id: 18989
     marketGroup: 1058
     name: Corelum B-Type Medium Remote Armor Repairer
+    published: true
     volume: 10.0
   Corelum C-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 256
@@ -504,6 +525,7 @@ items:
     id: 18987
     marketGroup: 1058
     name: Corelum C-Type Medium Remote Armor Repairer
+    published: true
     volume: 10.0
   Dark Blood Capital Remote Armor Repairer:
     ArmorDamageAmount: 980
@@ -529,6 +551,7 @@ items:
     id: 41467
     marketGroup: 1056
     name: Dark Blood Capital Remote Armor Repairer
+    published: true
     volume: 4000.0
   Large Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 448
@@ -551,6 +574,7 @@ items:
     id: 16451
     marketGroup: 1057
     name: Large Coaxial Compact Remote Armor Repairer
+    published: true
     volume: 25.0
   Large I-ax Enduring Remote Armor Repairer:
     ArmorDamageAmount: 448
@@ -573,6 +597,7 @@ items:
     id: 16449
     marketGroup: 1057
     name: Large I-ax Enduring Remote Armor Repairer
+    published: true
     volume: 25.0
   Large Remote Armor Repairer I:
     ArmorDamageAmount: 392
@@ -593,6 +618,7 @@ items:
     id: 11359
     marketGroup: 1057
     name: Large Remote Armor Repairer I
+    published: true
     volume: 25.0
   Large Remote Armor Repairer II:
     ArmorDamageAmount: 512
@@ -614,6 +640,7 @@ items:
     id: 26914
     marketGroup: 1057
     name: Large Remote Armor Repairer II
+    published: true
     volume: 25.0
   Large Solace Scoped Remote Armor Repairer:
     ArmorDamageAmount: 448
@@ -636,6 +663,7 @@ items:
     id: 16455
     marketGroup: 1057
     name: Large Solace Scoped Remote Armor Repairer
+    published: true
     volume: 25.0
   Medium Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 224
@@ -658,6 +686,7 @@ items:
     id: 16443
     marketGroup: 1058
     name: Medium Coaxial Compact Remote Armor Repairer
+    published: true
     volume: 10.0
   Medium I-ax Enduring Remote Armor Repairer:
     ArmorDamageAmount: 224
@@ -680,6 +709,7 @@ items:
     id: 16441
     marketGroup: 1058
     name: Medium I-ax Enduring Remote Armor Repairer
+    published: true
     volume: 10.0
   Medium Remote Armor Repairer I:
     ArmorDamageAmount: 196
@@ -701,6 +731,7 @@ items:
     id: 11357
     marketGroup: 1058
     name: Medium Remote Armor Repairer I
+    published: true
     volume: 10.0
   Medium Remote Armor Repairer II:
     ArmorDamageAmount: 256
@@ -723,6 +754,7 @@ items:
     id: 26913
     marketGroup: 1058
     name: Medium Remote Armor Repairer II
+    published: true
     volume: 10.0
   Medium Solace Scoped Remote Armor Repairer:
     ArmorDamageAmount: 224
@@ -745,6 +777,7 @@ items:
     id: 16447
     marketGroup: 1058
     name: Medium Solace Scoped Remote Armor Repairer
+    published: true
     volume: 10.0
   Shadow Serpentis Capital Remote Armor Repairer:
     ArmorDamageAmount: 840
@@ -770,6 +803,7 @@ items:
     id: 41468
     marketGroup: 1056
     name: Shadow Serpentis Capital Remote Armor Repairer
+    published: true
     volume: 4000.0
   Small Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 56
@@ -792,6 +826,7 @@ items:
     id: 16435
     marketGroup: 1059
     name: Small Coaxial Compact Remote Armor Repairer
+    published: true
     volume: 5.0
   Small I-ax Enduring Remote Armor Repairer:
     ArmorDamageAmount: 56
@@ -814,6 +849,7 @@ items:
     id: 16433
     marketGroup: 1059
     name: Small I-ax Enduring Remote Armor Repairer
+    published: true
     volume: 5.0
   Small Remote Armor Repairer I:
     ArmorDamageAmount: 49
@@ -835,6 +871,7 @@ items:
     id: 11355
     marketGroup: 1059
     name: Small Remote Armor Repairer I
+    published: true
     volume: 5.0
   Small Remote Armor Repairer II:
     ArmorDamageAmount: 64
@@ -857,6 +894,7 @@ items:
     id: 26912
     marketGroup: 1059
     name: Small Remote Armor Repairer II
+    published: true
     volume: 5.0
   Small Solace Scoped Remote Armor Repairer:
     ArmorDamageAmount: 56
@@ -879,4 +917,5 @@ items:
     id: 16439
     marketGroup: 1059
     name: Small Solace Scoped Remote Armor Repairer
+    published: true
     volume: 5.0

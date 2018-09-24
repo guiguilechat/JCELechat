@@ -28,6 +28,7 @@ items:
     id: 2621
     marketGroup: 925
     name: Inferno Fury Cruise Missile
+    published: true
     volume: 0.05
   Inferno Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -58,6 +59,7 @@ items:
     id: 2637
     marketGroup: 918
     name: Inferno Precision Cruise Missile
+    published: true
     volume: 0.05
   Mjolnir Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -88,6 +90,7 @@ items:
     id: 24535
     marketGroup: 925
     name: Mjolnir Fury Cruise Missile
+    published: true
     volume: 0.05
   Mjolnir Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -118,6 +121,7 @@ items:
     id: 24539
     marketGroup: 918
     name: Mjolnir Precision Cruise Missile
+    published: true
     volume: 0.05
   Nova Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -148,6 +152,7 @@ items:
     id: 24531
     marketGroup: 925
     name: Nova Fury Cruise Missile
+    published: true
     volume: 0.05
   Nova Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -178,6 +183,7 @@ items:
     id: 24537
     marketGroup: 918
     name: Nova Precision Cruise Missile
+    published: true
     volume: 0.05
   Scourge Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -208,6 +214,7 @@ items:
     id: 24533
     marketGroup: 925
     name: Scourge Fury Cruise Missile
+    published: true
     volume: 0.05
   Scourge Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -238,4 +245,5 @@ items:
     id: 24541
     marketGroup: 918
     name: Scourge Precision Cruise Missile
+    published: true
     volume: 0.05

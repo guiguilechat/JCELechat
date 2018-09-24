@@ -9,6 +9,7 @@ public abstract class Item {
     public double volume;
     public String name;
     public int marketGroup;
+    public boolean published;
 
     public abstract IMetaGroup<?> getGroup();
 

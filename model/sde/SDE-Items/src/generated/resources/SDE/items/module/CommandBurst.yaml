@@ -37,6 +37,7 @@ items:
     id: 42526
     marketGroup: 1633
     name: Armor Command Burst I
+    published: true
     volume: 60.0
   Armor Command Burst II:
     BuffDuration: 60000
@@ -79,6 +80,7 @@ items:
     id: 43552
     marketGroup: 1633
     name: Armor Command Burst II
+    published: true
     volume: 60.0
   Information Command Burst I:
     BuffDuration: 60000
@@ -118,6 +120,7 @@ items:
     id: 42527
     marketGroup: 1633
     name: Information Command Burst I
+    published: true
     volume: 60.0
   Information Command Burst II:
     BuffDuration: 60000
@@ -160,6 +163,7 @@ items:
     id: 43554
     marketGroup: 1633
     name: Information Command Burst II
+    published: true
     volume: 60.0
   Mining Foreman Burst I:
     BuffDuration: 60000
@@ -199,6 +203,7 @@ items:
     id: 42528
     marketGroup: 1633
     name: Mining Foreman Burst I
+    published: true
     volume: 60.0
   Mining Foreman Burst II:
     BuffDuration: 60000
@@ -241,6 +246,7 @@ items:
     id: 43551
     marketGroup: 1633
     name: Mining Foreman Burst II
+    published: true
     volume: 60.0
   Shield Command Burst I:
     BuffDuration: 60000
@@ -280,6 +286,7 @@ items:
     id: 42529
     marketGroup: 1633
     name: Shield Command Burst I
+    published: true
     volume: 60.0
   Shield Command Burst II:
     BuffDuration: 60000
@@ -322,6 +329,7 @@ items:
     id: 43555
     marketGroup: 1633
     name: Shield Command Burst II
+    published: true
     volume: 60.0
   Skirmish Command Burst I:
     BuffDuration: 60000
@@ -361,6 +369,7 @@ items:
     id: 42530
     marketGroup: 1633
     name: Skirmish Command Burst I
+    published: true
     volume: 60.0
   Skirmish Command Burst II:
     BuffDuration: 60000
@@ -403,4 +412,5 @@ items:
     id: 43556
     marketGroup: 1633
     name: Skirmish Command Burst II
+    published: true
     volume: 60.0

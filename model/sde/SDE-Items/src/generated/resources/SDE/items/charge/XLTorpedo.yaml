@@ -23,6 +23,7 @@ items:
     id: 29618
     marketGroup: 1194
     name: Guristas Inferno XL Torpedo
+    published: true
     volume: 0.3
   Guristas Mjolnir XL Torpedo:
     Agility: 148.0471954345703
@@ -48,6 +49,7 @@ items:
     id: 29622
     marketGroup: 1194
     name: Guristas Mjolnir XL Torpedo
+    published: true
     volume: 0.3
   Guristas Nova XL Torpedo:
     Agility: 148.0471954345703
@@ -73,6 +75,7 @@ items:
     id: 29616
     marketGroup: 1194
     name: Guristas Nova XL Torpedo
+    published: true
     volume: 0.3
   Guristas Scourge XL Torpedo:
     Agility: 148.0471954345703
@@ -98,6 +101,7 @@ items:
     id: 29620
     marketGroup: 1194
     name: Guristas Scourge XL Torpedo
+    published: true
     volume: 0.3
   Inferno XL Torpedo:
     Agility: 148.0471954345703
@@ -121,6 +125,7 @@ items:
     id: 17861
     marketGroup: 1193
     name: Inferno XL Torpedo
+    published: true
     volume: 0.3
   Mjolnir XL Torpedo:
     Agility: 148.0471954345703
@@ -144,6 +149,7 @@ items:
     id: 17857
     marketGroup: 1193
     name: Mjolnir XL Torpedo
+    published: true
     volume: 0.3
   Nova XL Torpedo:
     Agility: 148.0471954345703
@@ -167,6 +173,7 @@ items:
     id: 17863
     marketGroup: 1193
     name: Nova XL Torpedo
+    published: true
     volume: 0.3
   Scourge XL Torpedo:
     Agility: 148.0471954345703
@@ -190,4 +197,5 @@ items:
     id: 17859
     marketGroup: 1193
     name: Scourge XL Torpedo
+    published: true
     volume: 0.3

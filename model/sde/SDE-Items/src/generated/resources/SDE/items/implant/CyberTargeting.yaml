@@ -7,6 +7,7 @@ items:
     id: 27229
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-801
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-802:
     Implantness: 8
@@ -17,6 +18,7 @@ items:
     id: 3274
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-802
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-803:
     Implantness: 8
@@ -26,6 +28,7 @@ items:
     id: 13233
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-803
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-804:
     Implantness: 8
@@ -36,6 +39,7 @@ items:
     id: 3275
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-804
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-805:
     Implantness: 8
@@ -45,6 +49,7 @@ items:
     id: 27227
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-805
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-806:
     Implantness: 8
@@ -55,6 +60,7 @@ items:
     id: 3276
     marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-806
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-701:
     Implantness: 7
@@ -64,6 +70,7 @@ items:
     id: 27131
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-701
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-702:
     Implantness: 7
@@ -74,6 +81,7 @@ items:
     id: 3268
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-702
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-703:
     Implantness: 7
@@ -83,6 +91,7 @@ items:
     id: 10244
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-703
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-704:
     Implantness: 7
@@ -93,6 +102,7 @@ items:
     id: 3269
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-704
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-705:
     Implantness: 7
@@ -102,6 +112,7 @@ items:
     id: 27130
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-705
+    published: true
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-706:
     Implantness: 7
@@ -112,4 +123,5 @@ items:
     id: 3270
     marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-706
+    published: true
     volume: 1.0

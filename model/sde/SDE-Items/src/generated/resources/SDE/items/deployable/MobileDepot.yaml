@@ -17,6 +17,7 @@ items:
     id: 33520
     marketGroup: 1831
     name: '''Wetu'' Mobile Depot'
+    published: true
     volume: 100.0
   '''Yurt'' Mobile Depot':
     ArmorHP: 5000
@@ -36,6 +37,7 @@ items:
     id: 33522
     marketGroup: 1831
     name: '''Yurt'' Mobile Depot'
+    published: true
     volume: 50.0
   Mobile Depot:
     ArmorHP: 5000
@@ -55,4 +57,5 @@ items:
     id: 33474
     marketGroup: 1831
     name: Mobile Depot
+    published: true
     volume: 50.0

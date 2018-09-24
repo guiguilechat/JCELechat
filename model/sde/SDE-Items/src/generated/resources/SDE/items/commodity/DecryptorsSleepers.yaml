@@ -7,6 +7,7 @@ items:
     id: 21572
     marketGroup: 1902
     name: Sleeper Data Crystals
+    published: true
     volume: 1.0
   Sleeper Data Interface Protocol:
     InventionMEModifier: 1.0
@@ -16,6 +17,7 @@ items:
     id: 21568
     marketGroup: 1902
     name: Sleeper Data Interface Protocol
+    published: true
     volume: 1.0
   Sleeper Manuscripts:
     InventionMEModifier: 0.800000011920929
@@ -25,6 +27,7 @@ items:
     id: 21570
     marketGroup: 1902
     name: Sleeper Manuscripts
+    published: true
     volume: 1.0
   Sleeper Profound Research Notes:
     InventionMEModifier: 1.399999976158142
@@ -34,6 +37,7 @@ items:
     id: 21569
     marketGroup: 1902
     name: Sleeper Profound Research Notes
+    published: true
     volume: 1.0
   Sleeper Technical Schematics:
     InventionMEModifier: 0.5
@@ -43,4 +47,5 @@ items:
     id: 21571
     marketGroup: 1902
     name: Sleeper Technical Schematics
+    published: true
     volume: 1.0

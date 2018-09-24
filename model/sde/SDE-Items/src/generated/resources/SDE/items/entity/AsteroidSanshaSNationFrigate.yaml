@@ -1,0 +1,96 @@
+items:
+  Sansha's Butcher:
+    id: 11035
+    name: Sansha's Butcher
+    published: false
+    volume: 21120.0
+  Sansha's Enslaver:
+    id: 11033
+    name: Sansha's Enslaver
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Butcher:
+    id: 23365
+    name: Sansha's Loyal Butcher
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Enslaver:
+    id: 23362
+    name: Sansha's Loyal Enslaver
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Manslayer:
+    id: 23364
+    name: Sansha's Loyal Manslayer
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Minion:
+    id: 13047
+    name: Sansha's Loyal Minion
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Plague:
+    id: 23363
+    name: Sansha's Loyal Plague
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Ravener:
+    id: 13045
+    name: Sansha's Loyal Ravener
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Savage:
+    id: 23360
+    name: Sansha's Loyal Savage
+    published: false
+    volume: 20000.0
+  Sansha's Loyal Scavanger:
+    id: 13046
+    name: Sansha's Loyal Scavanger
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Servant:
+    id: 13048
+    name: Sansha's Loyal Servant
+    published: false
+    volume: 21120.0
+  Sansha's Loyal Slavehunter:
+    id: 23361
+    name: Sansha's Loyal Slavehunter
+    published: false
+    volume: 20000.0
+  Sansha's Minion:
+    id: 10273
+    name: Sansha's Minion
+    published: false
+    volume: 20000.0
+  Sansha's Plague:
+    id: 10028
+    name: Sansha's Plague
+    published: false
+    volume: 21120.0
+  Sansha's Ravener:
+    id: 11032
+    name: Sansha's Ravener
+    published: false
+    volume: 20000.0
+  Sansha's Savage:
+    id: 10027
+    name: Sansha's Savage
+    published: false
+    volume: 20000.0
+  Sansha's Scavenger:
+    id: 10026
+    name: Sansha's Scavenger
+    published: false
+    volume: 20000.0
+  Sansha's Servant:
+    id: 10025
+    name: Sansha's Servant
+    published: false
+    volume: 21120.0
+  Sansha's Slavehunter:
+    id: 11034
+    name: Sansha's Slavehunter
+    published: false
+    volume: 21120.0

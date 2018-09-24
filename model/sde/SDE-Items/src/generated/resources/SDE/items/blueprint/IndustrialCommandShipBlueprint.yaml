@@ -1,12 +1,16 @@
 items:
   Orca Blueprint:
     IndustryBlueprintRank: 200.0
+    IndustryJobCostMultiplier: 1
     id: 28607
     marketGroup: 2334
     name: Orca Blueprint
+    published: true
     volume: 0.01
   Porpoise Blueprint:
+    IndustryJobCostMultiplier: 1
     id: 43910
     marketGroup: 2334
     name: Porpoise Blueprint
+    published: true
     volume: 0.01

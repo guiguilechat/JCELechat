@@ -4,12 +4,14 @@ items:
     id: 30029
     marketGroup: 320
     name: Combat Scanner Probe I Blueprint
+    published: true
     volume: 0.01
   Core Scanner Probe I Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30014
     marketGroup: 320
     name: Core Scanner Probe I Blueprint
+    published: true
     volume: 0.01
   Warp Disrupt Probe Blueprint:
     Hp: 1
@@ -17,4 +19,5 @@ items:
     id: 22779
     marketGroup: 1529
     name: Warp Disrupt Probe Blueprint
+    published: true
     volume: 0.01

@@ -17,6 +17,7 @@ items:
     id: 17938
     marketGroup: 712
     name: Core Probe Launcher I
+    published: true
     volume: 5.0
   Core Probe Launcher II:
     ChargeGroup1: 479
@@ -38,6 +39,7 @@ items:
     id: 4258
     marketGroup: 712
     name: Core Probe Launcher II
+    published: true
     volume: 5.0
   Expanded Probe Launcher I:
     ChargeGroup1: 479
@@ -56,6 +58,7 @@ items:
     id: 18639
     marketGroup: 712
     name: Expanded Probe Launcher I
+    published: true
     volume: 5.0
   Expanded Probe Launcher II:
     ChargeGroup1: 479
@@ -77,6 +80,7 @@ items:
     id: 4260
     marketGroup: 712
     name: Expanded Probe Launcher II
+    published: true
     volume: 5.0
   Prototype Iris Probe Launcher:
     CanFitShipGroup01: 1022
@@ -95,6 +99,7 @@ items:
     TechLevel: 1
     id: 2083
     name: Prototype Iris Probe Launcher
+    published: true
     volume: 5.0
   Sisters Core Probe Launcher:
     ChargeGroup1: 479
@@ -117,6 +122,7 @@ items:
     id: 28758
     marketGroup: 712
     name: Sisters Core Probe Launcher
+    published: true
     volume: 5.0
   Sisters Expanded Probe Launcher:
     ChargeGroup1: 479
@@ -138,4 +144,5 @@ items:
     id: 28756
     marketGroup: 712
     name: Sisters Expanded Probe Launcher
+    published: true
     volume: 5.0

@@ -5,10 +5,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26253
     marketGroup: 372
     name: Armor Rigging
+    published: true
     volume: 0.01
   Astronautics Rigging:
     PrimaryAttribute: 165
@@ -16,10 +17,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26254
     marketGroup: 372
     name: Astronautics Rigging
+    published: true
     volume: 0.01
   Drones Rigging:
     PrimaryAttribute: 165
@@ -27,10 +29,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26255
     marketGroup: 372
     name: Drones Rigging
+    published: true
     volume: 0.01
   Electronic Superiority Rigging:
     PrimaryAttribute: 165
@@ -38,10 +41,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26256
     marketGroup: 372
     name: Electronic Superiority Rigging
+    published: true
     volume: 0.01
   Energy Weapon Rigging:
     PrimaryAttribute: 165
@@ -49,10 +53,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26258
     marketGroup: 372
     name: Energy Weapon Rigging
+    published: true
     volume: 0.01
   Hybrid Weapon Rigging:
     PrimaryAttribute: 165
@@ -60,10 +65,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26259
     marketGroup: 372
     name: Hybrid Weapon Rigging
+    published: true
     volume: 0.01
   Jury Rigging:
     PrimaryAttribute: 165
@@ -71,10 +77,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: 10
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 26252
     marketGroup: 372
     name: Jury Rigging
+    published: true
     volume: 0.01
   Launcher Rigging:
     PrimaryAttribute: 165
@@ -82,10 +89,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26260
     marketGroup: 372
     name: Launcher Rigging
+    published: true
     volume: 0.01
   Projectile Weapon Rigging:
     PrimaryAttribute: 165
@@ -93,10 +101,11 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26257
     marketGroup: 372
     name: Projectile Weapon Rigging
+    published: true
     volume: 0.01
   Shield Rigging:
     PrimaryAttribute: 165
@@ -104,8 +113,9 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 26261
     marketGroup: 372
     name: Shield Rigging
+    published: true
     volume: 0.01

@@ -25,6 +25,7 @@ items:
     id: 46577
     marketGroup: 2211
     name: Dread Guristas Standup Variable Spectrum ECM
+    published: true
     volume: 4000.0
   Standup Variable Spectrum ECM I:
     CanFitShipGroup01: 1657
@@ -50,6 +51,7 @@ items:
     id: 35940
     marketGroup: 2211
     name: Standup Variable Spectrum ECM I
+    published: true
     volume: 4000.0
   Standup Variable Spectrum ECM II:
     CanFitShipGroup01: 1657
@@ -76,4 +78,5 @@ items:
     id: 47338
     marketGroup: 2211
     name: Standup Variable Spectrum ECM II
+    published: true
     volume: 4000.0

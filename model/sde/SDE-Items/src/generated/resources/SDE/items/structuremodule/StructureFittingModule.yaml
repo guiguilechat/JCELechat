@@ -12,6 +12,7 @@ items:
     id: 35963
     marketGroup: 2218
     name: Standup Co-Processor Array I
+    published: true
     volume: 4000.0
   Standup Co-Processor Array II:
     CanFitShipGroup01: 1657
@@ -27,6 +28,7 @@ items:
     id: 47344
     marketGroup: 2218
     name: Standup Co-Processor Array II
+    published: true
     volume: 4000.0
   Standup Reactor Control Unit I:
     CanFitShipGroup01: 1657
@@ -41,6 +43,7 @@ items:
     id: 35965
     marketGroup: 2222
     name: Standup Reactor Control Unit I
+    published: true
     volume: 4000.0
   Standup Reactor Control Unit II:
     CanFitShipGroup01: 1657
@@ -56,4 +59,5 @@ items:
     id: 47347
     marketGroup: 2222
     name: Standup Reactor Control Unit II
+    published: true
     volume: 4000.0

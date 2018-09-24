@@ -28,6 +28,7 @@ items:
     id: 24499
     marketGroup: 927
     name: Inferno Fury Light Missile
+    published: true
     volume: 0.015
   Inferno Precision Light Missile:
     Agility: 1.4449800073634833E-4
@@ -58,6 +59,7 @@ items:
     id: 2647
     marketGroup: 917
     name: Inferno Precision Light Missile
+    published: true
     volume: 0.015
   Mjolnir Fury Light Missile:
     Agility: 1.4449800073634833E-4
@@ -88,6 +90,7 @@ items:
     id: 2613
     marketGroup: 927
     name: Mjolnir Fury Light Missile
+    published: true
     volume: 0.015
   Mjolnir Precision Light Missile:
     Agility: 1.4449800073634833E-4
@@ -118,6 +121,7 @@ items:
     id: 24505
     marketGroup: 917
     name: Mjolnir Precision Light Missile
+    published: true
     volume: 0.015
   Nova Fury Light Missile:
     Agility: 1.4449800073634833E-4
@@ -148,6 +152,7 @@ items:
     id: 24497
     marketGroup: 927
     name: Nova Fury Light Missile
+    published: true
     volume: 0.015
   Nova Precision Light Missile:
     Agility: 1.4449800073634833E-4
@@ -178,6 +183,7 @@ items:
     id: 24503
     marketGroup: 917
     name: Nova Precision Light Missile
+    published: true
     volume: 0.015
   Scourge Fury Light Missile:
     Agility: 1.4449800073634833E-4
@@ -208,6 +214,7 @@ items:
     id: 24495
     marketGroup: 927
     name: Scourge Fury Light Missile
+    published: true
     volume: 0.015
   Scourge Precision Light Missile:
     Agility: 1.4449800073634833E-4
@@ -238,4 +245,5 @@ items:
     id: 24501
     marketGroup: 917
     name: Scourge Precision Light Missile
+    published: true
     volume: 0.015

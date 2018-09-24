@@ -13,6 +13,7 @@ items:
     id: 35770
     marketGroup: 2033
     name: Missile Guidance Enhancer I
+    published: true
     volume: 5.0
   Missile Guidance Enhancer II:
     AoeCloudSizeBonus: -6.0
@@ -29,6 +30,7 @@ items:
     id: 35771
     marketGroup: 2033
     name: Missile Guidance Enhancer II
+    published: true
     volume: 5.0
   Pro-Nav Compact Missile Guidance Enhancer:
     AoeCloudSizeBonus: -5.5
@@ -45,4 +47,5 @@ items:
     id: 35774
     marketGroup: 2033
     name: Pro-Nav Compact Missile Guidance Enhancer
+    published: true
     volume: 5.0

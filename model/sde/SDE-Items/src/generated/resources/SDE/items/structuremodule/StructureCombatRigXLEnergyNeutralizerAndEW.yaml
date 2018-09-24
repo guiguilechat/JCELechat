@@ -20,6 +20,7 @@ items:
     id: 37272
     marketGroup: 2346
     name: Standup XL-Set EW and Emissions Co-ordinator I
+    published: true
     volume: 40.0
   Standup XL-Set EW and Emissions Co-ordinator II:
     CanFitShipGroup01: 1657
@@ -42,4 +43,5 @@ items:
     id: 37273
     marketGroup: 2346
     name: Standup XL-Set EW and Emissions Co-ordinator II
+    published: true
     volume: 40.0

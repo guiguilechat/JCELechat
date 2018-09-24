@@ -80,6 +80,7 @@ items:
     id: 12013
     marketGroup: 1074
     name: Broadsword
+    published: true
     volume: 96000.0
   Devoter:
     Agility: 0.5099999904632568
@@ -163,6 +164,7 @@ items:
     id: 12017
     marketGroup: 1071
     name: Devoter
+    published: true
     volume: 118000.0
   Fiend:
     Agility: 0.6000000238418579
@@ -247,6 +249,7 @@ items:
     id: 35781
     marketGroup: 2115
     name: Fiend
+    published: true
     volume: 101000.0
   Onyx:
     Agility: 0.550000011920929
@@ -327,6 +330,7 @@ items:
     id: 11995
     marketGroup: 1072
     name: Onyx
+    published: true
     volume: 92000.0
   Phobos:
     Agility: 0.5799999833106995
@@ -407,4 +411,5 @@ items:
     id: 12021
     marketGroup: 1073
     name: Phobos
+    published: true
     volume: 112000.0

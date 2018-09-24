@@ -24,6 +24,7 @@ items:
     id: 20595
     marketGroup: 640
     name: '''Gallows'' Light Missile Launcher'
+    published: true
     volume: 5.0
   Arbalest Compact Light Missile Launcher:
     ChargeGroup1: 384
@@ -49,6 +50,7 @@ items:
     id: 8089
     marketGroup: 640
     name: Arbalest Compact Light Missile Launcher
+    published: true
     volume: 5.0
   Caldari Navy Light Missile Launcher:
     ChargeGroup1: 384
@@ -75,6 +77,7 @@ items:
     id: 16068
     marketGroup: 640
     name: Caldari Navy Light Missile Launcher
+    published: true
     volume: 5.0
   Civilian Light Missile Launcher:
     ChargeGroup1: 384
@@ -91,6 +94,7 @@ items:
     TypeColorScheme: 11324
     id: 32461
     name: Civilian Light Missile Launcher
+    published: true
     volume: 5.0
   Domination Light Missile Launcher:
     ChargeGroup1: 384
@@ -117,6 +121,7 @@ items:
     id: 13925
     marketGroup: 640
     name: Domination Light Missile Launcher
+    published: true
     volume: 5.0
   Dread Guristas Light Missile Launcher:
     ChargeGroup1: 384
@@ -143,6 +148,7 @@ items:
     id: 13926
     marketGroup: 640
     name: Dread Guristas Light Missile Launcher
+    published: true
     volume: 5.0
   Light Missile Launcher I:
     ChargeGroup1: 384
@@ -167,6 +173,7 @@ items:
     id: 499
     marketGroup: 640
     name: Light Missile Launcher I
+    published: true
     volume: 5.0
   Light Missile Launcher II:
     ChargeGroup1: 384
@@ -193,6 +200,7 @@ items:
     id: 2404
     marketGroup: 640
     name: Light Missile Launcher II
+    published: true
     volume: 5.0
   Republic Fleet Light Missile Launcher:
     ChargeGroup1: 384
@@ -219,6 +227,7 @@ items:
     id: 17491
     marketGroup: 640
     name: Republic Fleet Light Missile Launcher
+    published: true
     volume: 5.0
   TE-2100 Ample Light Missile Launcher:
     ChargeGroup1: 384
@@ -244,6 +253,7 @@ items:
     id: 8091
     marketGroup: 640
     name: TE-2100 Ample Light Missile Launcher
+    published: true
     volume: 5.0
   True Sansha Light Missile Launcher:
     ChargeGroup1: 384
@@ -270,4 +280,5 @@ items:
     id: 22565
     marketGroup: 640
     name: True Sansha Light Missile Launcher
+    published: true
     volume: 5.0

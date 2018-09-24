@@ -5,6 +5,7 @@ items:
     id: 2393
     marketGroup: 1334
     name: Bacteria
+    published: true
     volume: 0.38
   Biofuels:
     ExportTaxMultiplier: 400
@@ -12,6 +13,7 @@ items:
     id: 2396
     marketGroup: 1334
     name: Biofuels
+    published: true
     volume: 0.38
   Biomass:
     ExportTaxMultiplier: 400
@@ -19,6 +21,7 @@ items:
     id: 3779
     marketGroup: 1334
     name: Biomass
+    published: true
     volume: 0.38
   Chiral Structures:
     ExportTaxMultiplier: 400
@@ -26,6 +29,7 @@ items:
     id: 2401
     marketGroup: 1334
     name: Chiral Structures
+    published: true
     volume: 0.38
   Electrolytes:
     ExportTaxMultiplier: 400
@@ -33,6 +37,7 @@ items:
     id: 2390
     marketGroup: 1334
     name: Electrolytes
+    published: true
     volume: 0.38
   Industrial Fibers:
     ExportTaxMultiplier: 400
@@ -40,6 +45,7 @@ items:
     id: 2397
     marketGroup: 1334
     name: Industrial Fibers
+    published: true
     volume: 0.38
   Oxidizing Compound:
     ExportTaxMultiplier: 400
@@ -47,6 +53,7 @@ items:
     id: 2392
     marketGroup: 1334
     name: Oxidizing Compound
+    published: true
     volume: 0.38
   Oxygen:
     ExportTaxMultiplier: 400
@@ -54,6 +61,7 @@ items:
     id: 3683
     marketGroup: 1334
     name: Oxygen
+    published: true
     volume: 0.38
   Plasmoids:
     ExportTaxMultiplier: 400
@@ -61,6 +69,7 @@ items:
     id: 2389
     marketGroup: 1334
     name: Plasmoids
+    published: true
     volume: 0.38
   Precious Metals:
     ExportTaxMultiplier: 400
@@ -68,6 +77,7 @@ items:
     id: 2399
     marketGroup: 1334
     name: Precious Metals
+    published: true
     volume: 0.38
   Proteins:
     ExportTaxMultiplier: 400
@@ -75,6 +85,7 @@ items:
     id: 2395
     marketGroup: 1334
     name: Proteins
+    published: true
     volume: 0.38
   Reactive Metals:
     ExportTaxMultiplier: 400
@@ -82,6 +93,7 @@ items:
     id: 2398
     marketGroup: 1334
     name: Reactive Metals
+    published: true
     volume: 0.38
   Silicon:
     ExportTaxMultiplier: 400
@@ -89,6 +101,7 @@ items:
     id: 9828
     marketGroup: 1334
     name: Silicon
+    published: true
     volume: 0.38
   Toxic Metals:
     ExportTaxMultiplier: 400
@@ -96,6 +109,7 @@ items:
     id: 2400
     marketGroup: 1334
     name: Toxic Metals
+    published: true
     volume: 0.38
   Water:
     ExportTaxMultiplier: 400
@@ -103,4 +117,5 @@ items:
     id: 3645
     marketGroup: 1334
     name: Water
+    published: true
     volume: 0.38

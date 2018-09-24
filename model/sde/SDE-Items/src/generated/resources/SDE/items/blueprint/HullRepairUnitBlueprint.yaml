@@ -4,29 +4,34 @@ items:
     id: 41627
     marketGroup: 1537
     name: Capital Hull Repairer I Blueprint
+    published: true
     volume: 0.01
   Capital Hull Repairer II Blueprint:
     TechLevel: 1
     id: 41630
     name: Capital Hull Repairer II Blueprint
+    published: true
     volume: 0.01
   Capital I-b Enduring Hull Repairer Blueprint:
     TechLevel: 1
     id: 41628
     marketGroup: 1537
     name: Capital I-b Enduring Hull Repairer Blueprint
+    published: true
     volume: 0.01
   Capital IEF Compact Hull Repairer Blueprint:
     TechLevel: 1
     id: 41629
     marketGroup: 1537
     name: Capital IEF Compact Hull Repairer Blueprint
+    published: true
     volume: 0.01
   Large 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 21509
     name: Large 'Integrative' Hull Repair Unit Blueprint
+    published: true
     volume: 0.01
   Large Hull Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -34,18 +39,21 @@ items:
     id: 3664
     marketGroup: 1537
     name: Large Hull Repairer I Blueprint
+    published: true
     volume: 0.01
   Large Hull Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 3666
     name: Large Hull Repairer II Blueprint
+    published: true
     volume: 0.01
   Medium 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 21507
     name: Medium 'Integrative' Hull Repair Unit Blueprint
+    published: true
     volume: 0.01
   Medium Hull Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -53,18 +61,21 @@ items:
     id: 3654
     marketGroup: 1537
     name: Medium Hull Repairer I Blueprint
+    published: true
     volume: 0.01
   Medium Hull Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 3656
     name: Medium Hull Repairer II Blueprint
+    published: true
     volume: 0.01
   Small 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21505
     name: Small 'Integrative' Hull Repair Unit Blueprint
+    published: true
     volume: 0.01
   Small Hull Repairer I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -72,10 +83,12 @@ items:
     id: 1100
     marketGroup: 1537
     name: Small Hull Repairer I Blueprint
+    published: true
     volume: 0.01
   Small Hull Repairer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 2356
     name: Small Hull Repairer II Blueprint
+    published: true
     volume: 0.01

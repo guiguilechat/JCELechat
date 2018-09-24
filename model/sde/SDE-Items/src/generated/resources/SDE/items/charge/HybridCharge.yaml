@@ -9,6 +9,7 @@ items:
     id: 238
     marketGroup: 106
     name: Antimatter Charge L
+    published: true
     volume: 0.025
   Antimatter Charge M:
     ChargeSize: 2
@@ -20,6 +21,7 @@ items:
     id: 230
     marketGroup: 108
     name: Antimatter Charge M
+    published: true
     volume: 0.0125
   Antimatter Charge S:
     ChargeSize: 1
@@ -31,6 +33,7 @@ items:
     id: 222
     marketGroup: 107
     name: Antimatter Charge S
+    published: true
     volume: 0.0025
   Antimatter Charge XL:
     ChargeSize: 4
@@ -42,6 +45,7 @@ items:
     id: 17648
     marketGroup: 504
     name: Antimatter Charge XL
+    published: true
     volume: 0.125
   Caldari Navy Antimatter Charge L:
     ChargeSize: 3
@@ -56,6 +60,7 @@ items:
     id: 21740
     marketGroup: 991
     name: Caldari Navy Antimatter Charge L
+    published: true
     volume: 0.025
   Caldari Navy Antimatter Charge M:
     ChargeSize: 2
@@ -70,6 +75,7 @@ items:
     id: 23025
     marketGroup: 992
     name: Caldari Navy Antimatter Charge M
+    published: true
     volume: 0.0125
   Caldari Navy Antimatter Charge S:
     ChargeSize: 1
@@ -84,6 +90,7 @@ items:
     id: 23009
     marketGroup: 993
     name: Caldari Navy Antimatter Charge S
+    published: true
     volume: 0.0025
   Caldari Navy Iridium Charge L:
     CapNeedBonus: -24
@@ -99,6 +106,7 @@ items:
     id: 23049
     marketGroup: 991
     name: Caldari Navy Iridium Charge L
+    published: true
     volume: 0.025
   Caldari Navy Iridium Charge M:
     CapNeedBonus: -24
@@ -114,6 +122,7 @@ items:
     id: 23035
     marketGroup: 992
     name: Caldari Navy Iridium Charge M
+    published: true
     volume: 0.0125
   Caldari Navy Iridium Charge S:
     CapNeedBonus: -24
@@ -129,6 +138,7 @@ items:
     id: 23019
     marketGroup: 993
     name: Caldari Navy Iridium Charge S
+    published: true
     volume: 0.0025
   Caldari Navy Iron Charge L:
     CapNeedBonus: -30
@@ -144,6 +154,7 @@ items:
     id: 23053
     marketGroup: 991
     name: Caldari Navy Iron Charge L
+    published: true
     volume: 0.025
   Caldari Navy Iron Charge M:
     CapNeedBonus: -30
@@ -159,6 +170,7 @@ items:
     id: 23039
     marketGroup: 992
     name: Caldari Navy Iron Charge M
+    published: true
     volume: 0.0125
   Caldari Navy Iron Charge S:
     CapNeedBonus: -30
@@ -174,6 +186,7 @@ items:
     id: 23023
     marketGroup: 993
     name: Caldari Navy Iron Charge S
+    published: true
     volume: 0.0025
   Caldari Navy Lead Charge L:
     CapNeedBonus: -50
@@ -189,6 +202,7 @@ items:
     id: 23047
     marketGroup: 991
     name: Caldari Navy Lead Charge L
+    published: true
     volume: 0.025
   Caldari Navy Lead Charge M:
     CapNeedBonus: -50
@@ -204,6 +218,7 @@ items:
     id: 23033
     marketGroup: 992
     name: Caldari Navy Lead Charge M
+    published: true
     volume: 0.0125
   Caldari Navy Lead Charge S:
     CapNeedBonus: -50
@@ -219,6 +234,7 @@ items:
     id: 23017
     marketGroup: 993
     name: Caldari Navy Lead Charge S
+    published: true
     volume: 0.0025
   Caldari Navy Plutonium Charge L:
     CapNeedBonus: -5
@@ -234,6 +250,7 @@ items:
     id: 23041
     marketGroup: 991
     name: Caldari Navy Plutonium Charge L
+    published: true
     volume: 0.025
   Caldari Navy Plutonium Charge M:
     CapNeedBonus: -5
@@ -249,6 +266,7 @@ items:
     id: 23027
     marketGroup: 992
     name: Caldari Navy Plutonium Charge M
+    published: true
     volume: 0.0125
   Caldari Navy Plutonium Charge S:
     CapNeedBonus: -5
@@ -264,6 +282,7 @@ items:
     id: 23011
     marketGroup: 993
     name: Caldari Navy Plutonium Charge S
+    published: true
     volume: 0.0025
   Caldari Navy Thorium Charge L:
     CapNeedBonus: -40
@@ -279,6 +298,7 @@ items:
     id: 23045
     marketGroup: 991
     name: Caldari Navy Thorium Charge L
+    published: true
     volume: 0.025
   Caldari Navy Thorium Charge M:
     CapNeedBonus: -40
@@ -294,6 +314,7 @@ items:
     id: 23031
     marketGroup: 992
     name: Caldari Navy Thorium Charge M
+    published: true
     volume: 0.0125
   Caldari Navy Thorium Charge S:
     CapNeedBonus: -40
@@ -309,6 +330,7 @@ items:
     id: 23015
     marketGroup: 993
     name: Caldari Navy Thorium Charge S
+    published: true
     volume: 0.0025
   Caldari Navy Tungsten Charge L:
     CapNeedBonus: -27
@@ -324,6 +346,7 @@ items:
     id: 23051
     marketGroup: 991
     name: Caldari Navy Tungsten Charge L
+    published: true
     volume: 0.025
   Caldari Navy Tungsten Charge M:
     CapNeedBonus: -27
@@ -339,6 +362,7 @@ items:
     id: 23037
     marketGroup: 992
     name: Caldari Navy Tungsten Charge M
+    published: true
     volume: 0.0125
   Caldari Navy Tungsten Charge S:
     CapNeedBonus: -27
@@ -354,6 +378,7 @@ items:
     id: 23021
     marketGroup: 993
     name: Caldari Navy Tungsten Charge S
+    published: true
     volume: 0.0025
   Caldari Navy Uranium Charge L:
     CapNeedBonus: -8
@@ -369,6 +394,7 @@ items:
     id: 23043
     marketGroup: 991
     name: Caldari Navy Uranium Charge L
+    published: true
     volume: 0.025
   Caldari Navy Uranium Charge M:
     CapNeedBonus: -8
@@ -384,6 +410,7 @@ items:
     id: 23029
     marketGroup: 992
     name: Caldari Navy Uranium Charge M
+    published: true
     volume: 0.0125
   Caldari Navy Uranium Charge S:
     CapNeedBonus: -8
@@ -399,6 +426,7 @@ items:
     id: 23013
     marketGroup: 993
     name: Caldari Navy Uranium Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Antimatter Charge L:
     ChargeSize: 3
@@ -413,6 +441,7 @@ items:
     id: 21430
     marketGroup: 991
     name: Dread Guristas Antimatter Charge L
+    published: true
     volume: 0.025
   Dread Guristas Antimatter Charge M:
     ChargeSize: 2
@@ -427,6 +456,7 @@ items:
     id: 21414
     marketGroup: 992
     name: Dread Guristas Antimatter Charge M
+    published: true
     volume: 0.0125
   Dread Guristas Antimatter Charge S:
     ChargeSize: 1
@@ -441,6 +471,7 @@ items:
     id: 21398
     marketGroup: 993
     name: Dread Guristas Antimatter Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Antimatter Charge XL:
     ChargeSize: 4
@@ -455,6 +486,7 @@ items:
     id: 21432
     marketGroup: 1004
     name: Dread Guristas Antimatter Charge XL
+    published: true
     volume: 0.125
   Dread Guristas Iridium Charge L:
     CapNeedBonus: -24
@@ -470,6 +502,7 @@ items:
     id: 21420
     marketGroup: 991
     name: Dread Guristas Iridium Charge L
+    published: true
     volume: 0.025
   Dread Guristas Iridium Charge M:
     CapNeedBonus: -24
@@ -485,6 +518,7 @@ items:
     id: 21404
     marketGroup: 992
     name: Dread Guristas Iridium Charge M
+    published: true
     volume: 0.0125
   Dread Guristas Iridium Charge S:
     CapNeedBonus: -24
@@ -500,6 +534,7 @@ items:
     id: 21388
     marketGroup: 993
     name: Dread Guristas Iridium Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Iridium Charge XL:
     CapNeedBonus: -24
@@ -515,6 +550,7 @@ items:
     id: 21434
     marketGroup: 1004
     name: Dread Guristas Iridium Charge XL
+    published: true
     volume: 0.125
   Dread Guristas Iron Charge L:
     CapNeedBonus: -30
@@ -530,6 +566,7 @@ items:
     id: 21416
     marketGroup: 991
     name: Dread Guristas Iron Charge L
+    published: true
     volume: 0.025
   Dread Guristas Iron Charge M:
     CapNeedBonus: -30
@@ -545,6 +582,7 @@ items:
     id: 21400
     marketGroup: 992
     name: Dread Guristas Iron Charge M
+    published: true
     volume: 0.0125
   Dread Guristas Iron Charge S:
     CapNeedBonus: -30
@@ -560,6 +598,7 @@ items:
     id: 21384
     marketGroup: 993
     name: Dread Guristas Iron Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Iron Charge XL:
     CapNeedBonus: -30
@@ -575,6 +614,7 @@ items:
     id: 21436
     marketGroup: 1004
     name: Dread Guristas Iron Charge XL
+    published: true
     volume: 0.125
   Dread Guristas Lead Charge L:
     CapNeedBonus: -50
@@ -590,6 +630,7 @@ items:
     id: 21422
     marketGroup: 991
     name: Dread Guristas Lead Charge L
+    published: true
     volume: 0.025
   Dread Guristas Lead Charge M:
     CapNeedBonus: -50
@@ -605,6 +646,7 @@ items:
     id: 21406
     marketGroup: 992
     name: Dread Guristas Lead Charge M
+    published: true
     volume: 0.0125
   Dread Guristas Lead Charge S:
     CapNeedBonus: -50
@@ -620,6 +662,7 @@ items:
     id: 21390
     marketGroup: 993
     name: Dread Guristas Lead Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Lead Charge XL:
     CapNeedBonus: -50
@@ -635,6 +678,7 @@ items:
     id: 21438
     marketGroup: 1004
     name: Dread Guristas Lead Charge XL
+    published: true
     volume: 0.125
   Dread Guristas Plutonium Charge L:
     CapNeedBonus: -5
@@ -650,6 +694,7 @@ items:
     id: 21428
     marketGroup: 991
     name: Dread Guristas Plutonium Charge L
+    published: true
     volume: 0.025
   Dread Guristas Plutonium Charge M:
     CapNeedBonus: -5
@@ -665,6 +710,7 @@ items:
     id: 21412
     marketGroup: 992
     name: Dread Guristas Plutonium Charge M
+    published: true
     volume: 0.0125
   Dread Guristas Plutonium Charge S:
     CapNeedBonus: -5
@@ -680,6 +726,7 @@ items:
     id: 21396
     marketGroup: 993
     name: Dread Guristas Plutonium Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Plutonium Charge XL:
     CapNeedBonus: -5
@@ -695,6 +742,7 @@ items:
     id: 21440
     marketGroup: 1004
     name: Dread Guristas Plutonium Charge XL
+    published: true
     volume: 0.125
   Dread Guristas Thorium Charge L:
     CapNeedBonus: -40
@@ -710,6 +758,7 @@ items:
     id: 21424
     marketGroup: 991
     name: Dread Guristas Thorium Charge L
+    published: true
     volume: 0.025
   Dread Guristas Thorium Charge M:
     CapNeedBonus: -40
@@ -725,6 +774,7 @@ items:
     id: 21408
     marketGroup: 992
     name: Dread Guristas Thorium Charge M
+    published: true
     volume: 0.0125
   Dread Guristas Thorium Charge S:
     CapNeedBonus: -40
@@ -740,6 +790,7 @@ items:
     id: 21392
     marketGroup: 993
     name: Dread Guristas Thorium Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Thorium Charge XL:
     CapNeedBonus: -40
@@ -755,6 +806,7 @@ items:
     id: 21442
     marketGroup: 1004
     name: Dread Guristas Thorium Charge XL
+    published: true
     volume: 0.125
   Dread Guristas Tungsten Charge L:
     CapNeedBonus: -27
@@ -770,6 +822,7 @@ items:
     id: 21418
     marketGroup: 991
     name: Dread Guristas Tungsten Charge L
+    published: true
     volume: 0.025
   Dread Guristas Tungsten Charge M:
     CapNeedBonus: -27
@@ -785,6 +838,7 @@ items:
     id: 21402
     marketGroup: 992
     name: Dread Guristas Tungsten Charge M
+    published: true
     volume: 0.0125
   Dread Guristas Tungsten Charge S:
     CapNeedBonus: -27
@@ -800,6 +854,7 @@ items:
     id: 21386
     marketGroup: 993
     name: Dread Guristas Tungsten Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Tungsten Charge XL:
     CapNeedBonus: -27
@@ -815,6 +870,7 @@ items:
     id: 21444
     marketGroup: 1004
     name: Dread Guristas Tungsten Charge XL
+    published: true
     volume: 0.125
   Dread Guristas Uranium Charge L:
     CapNeedBonus: -8
@@ -830,6 +886,7 @@ items:
     id: 21426
     marketGroup: 991
     name: Dread Guristas Uranium Charge L
+    published: true
     volume: 0.025
   Dread Guristas Uranium Charge M:
     CapNeedBonus: -8
@@ -845,6 +902,7 @@ items:
     id: 21410
     marketGroup: 992
     name: Dread Guristas Uranium Charge M
+    published: true
     volume: 0.0125
   Dread Guristas Uranium Charge S:
     CapNeedBonus: -8
@@ -860,6 +918,7 @@ items:
     id: 21394
     marketGroup: 993
     name: Dread Guristas Uranium Charge S
+    published: true
     volume: 0.0025
   Dread Guristas Uranium Charge XL:
     CapNeedBonus: -8
@@ -875,6 +934,7 @@ items:
     id: 21446
     marketGroup: 1004
     name: Dread Guristas Uranium Charge XL
+    published: true
     volume: 0.125
   Federation Navy Antimatter Charge L:
     ChargeSize: 3
@@ -889,6 +949,7 @@ items:
     id: 22993
     marketGroup: 991
     name: Federation Navy Antimatter Charge L
+    published: true
     volume: 0.025
   Federation Navy Antimatter Charge M:
     ChargeSize: 2
@@ -903,6 +964,7 @@ items:
     id: 22977
     marketGroup: 992
     name: Federation Navy Antimatter Charge M
+    published: true
     volume: 0.0125
   Federation Navy Antimatter Charge S:
     ChargeSize: 1
@@ -917,6 +979,7 @@ items:
     id: 22961
     marketGroup: 993
     name: Federation Navy Antimatter Charge S
+    published: true
     volume: 0.0025
   Federation Navy Iridium Charge L:
     CapNeedBonus: -24
@@ -932,6 +995,7 @@ items:
     id: 23003
     marketGroup: 991
     name: Federation Navy Iridium Charge L
+    published: true
     volume: 0.025
   Federation Navy Iridium Charge M:
     CapNeedBonus: -24
@@ -947,6 +1011,7 @@ items:
     id: 22987
     marketGroup: 992
     name: Federation Navy Iridium Charge M
+    published: true
     volume: 0.0125
   Federation Navy Iridium Charge S:
     CapNeedBonus: -24
@@ -962,6 +1027,7 @@ items:
     id: 22971
     marketGroup: 993
     name: Federation Navy Iridium Charge S
+    published: true
     volume: 0.0025
   Federation Navy Iron Charge L:
     CapNeedBonus: -30
@@ -977,6 +1043,7 @@ items:
     id: 23007
     marketGroup: 991
     name: Federation Navy Iron Charge L
+    published: true
     volume: 0.025
   Federation Navy Iron Charge M:
     CapNeedBonus: -30
@@ -992,6 +1059,7 @@ items:
     id: 22991
     marketGroup: 992
     name: Federation Navy Iron Charge M
+    published: true
     volume: 0.0125
   Federation Navy Iron Charge S:
     CapNeedBonus: -30
@@ -1007,6 +1075,7 @@ items:
     id: 22975
     marketGroup: 993
     name: Federation Navy Iron Charge S
+    published: true
     volume: 0.0025
   Federation Navy Lead Charge L:
     CapNeedBonus: -50
@@ -1022,6 +1091,7 @@ items:
     id: 23001
     marketGroup: 991
     name: Federation Navy Lead Charge L
+    published: true
     volume: 0.025
   Federation Navy Lead Charge M:
     CapNeedBonus: -50
@@ -1037,6 +1107,7 @@ items:
     id: 22985
     marketGroup: 992
     name: Federation Navy Lead Charge M
+    published: true
     volume: 0.0125
   Federation Navy Lead Charge S:
     CapNeedBonus: -50
@@ -1052,6 +1123,7 @@ items:
     id: 22969
     marketGroup: 993
     name: Federation Navy Lead Charge S
+    published: true
     volume: 0.0025
   Federation Navy Plutonium Charge L:
     CapNeedBonus: -5
@@ -1067,6 +1139,7 @@ items:
     id: 22995
     marketGroup: 991
     name: Federation Navy Plutonium Charge L
+    published: true
     volume: 0.025
   Federation Navy Plutonium Charge M:
     CapNeedBonus: -5
@@ -1082,6 +1155,7 @@ items:
     id: 22979
     marketGroup: 992
     name: Federation Navy Plutonium Charge M
+    published: true
     volume: 0.0125
   Federation Navy Plutonium Charge S:
     CapNeedBonus: -5
@@ -1097,6 +1171,7 @@ items:
     id: 22963
     marketGroup: 993
     name: Federation Navy Plutonium Charge S
+    published: true
     volume: 0.0025
   Federation Navy Thorium Charge L:
     CapNeedBonus: -40
@@ -1112,6 +1187,7 @@ items:
     id: 22999
     marketGroup: 991
     name: Federation Navy Thorium Charge L
+    published: true
     volume: 0.025
   Federation Navy Thorium Charge M:
     CapNeedBonus: -40
@@ -1127,6 +1203,7 @@ items:
     id: 22983
     marketGroup: 992
     name: Federation Navy Thorium Charge M
+    published: true
     volume: 0.0125
   Federation Navy Thorium Charge S:
     CapNeedBonus: -40
@@ -1142,6 +1219,7 @@ items:
     id: 22967
     marketGroup: 993
     name: Federation Navy Thorium Charge S
+    published: true
     volume: 0.0025
   Federation Navy Tungsten Charge L:
     CapNeedBonus: -27
@@ -1157,6 +1235,7 @@ items:
     id: 23005
     marketGroup: 991
     name: Federation Navy Tungsten Charge L
+    published: true
     volume: 0.025
   Federation Navy Tungsten Charge M:
     CapNeedBonus: -27
@@ -1172,6 +1251,7 @@ items:
     id: 22989
     marketGroup: 992
     name: Federation Navy Tungsten Charge M
+    published: true
     volume: 0.0125
   Federation Navy Tungsten Charge S:
     CapNeedBonus: -27
@@ -1187,6 +1267,7 @@ items:
     id: 22973
     marketGroup: 993
     name: Federation Navy Tungsten Charge S
+    published: true
     volume: 0.0025
   Federation Navy Uranium Charge L:
     CapNeedBonus: -8
@@ -1202,6 +1283,7 @@ items:
     id: 22997
     marketGroup: 991
     name: Federation Navy Uranium Charge L
+    published: true
     volume: 0.025
   Federation Navy Uranium Charge M:
     CapNeedBonus: -8
@@ -1217,6 +1299,7 @@ items:
     id: 22981
     marketGroup: 992
     name: Federation Navy Uranium Charge M
+    published: true
     volume: 0.0125
   Federation Navy Uranium Charge S:
     CapNeedBonus: -8
@@ -1232,6 +1315,7 @@ items:
     id: 22965
     marketGroup: 993
     name: Federation Navy Uranium Charge S
+    published: true
     volume: 0.0025
   Guardian Antimatter Charge L:
     ChargeSize: 3
@@ -1246,6 +1330,7 @@ items:
     id: 20991
     marketGroup: 991
     name: Guardian Antimatter Charge L
+    published: true
     volume: 0.025
   Guardian Antimatter Charge M:
     ChargeSize: 2
@@ -1260,6 +1345,7 @@ items:
     id: 20975
     marketGroup: 992
     name: Guardian Antimatter Charge M
+    published: true
     volume: 0.0125
   Guardian Antimatter Charge S:
     ChargeSize: 1
@@ -1274,6 +1360,7 @@ items:
     id: 20959
     marketGroup: 993
     name: Guardian Antimatter Charge S
+    published: true
     volume: 0.0025
   Guardian Antimatter Charge XL:
     ChargeSize: 4
@@ -1288,6 +1375,7 @@ items:
     id: 20993
     marketGroup: 1004
     name: Guardian Antimatter Charge XL
+    published: true
     volume: 0.125
   Guardian Iridium Charge L:
     CapNeedBonus: -24
@@ -1303,6 +1391,7 @@ items:
     id: 20981
     marketGroup: 991
     name: Guardian Iridium Charge L
+    published: true
     volume: 0.025
   Guardian Iridium Charge M:
     CapNeedBonus: -24
@@ -1318,6 +1407,7 @@ items:
     id: 20965
     marketGroup: 992
     name: Guardian Iridium Charge M
+    published: true
     volume: 0.0125
   Guardian Iridium Charge S:
     CapNeedBonus: -24
@@ -1333,6 +1423,7 @@ items:
     id: 20949
     marketGroup: 993
     name: Guardian Iridium Charge S
+    published: true
     volume: 0.0025
   Guardian Iridium Charge XL:
     CapNeedBonus: -24
@@ -1348,6 +1439,7 @@ items:
     id: 20995
     marketGroup: 1004
     name: Guardian Iridium Charge XL
+    published: true
     volume: 0.125
   Guardian Iron Charge L:
     CapNeedBonus: -30
@@ -1363,6 +1455,7 @@ items:
     id: 20977
     marketGroup: 991
     name: Guardian Iron Charge L
+    published: true
     volume: 0.025
   Guardian Iron Charge M:
     CapNeedBonus: -30
@@ -1378,6 +1471,7 @@ items:
     id: 20961
     marketGroup: 992
     name: Guardian Iron Charge M
+    published: true
     volume: 0.0125
   Guardian Iron Charge S:
     CapNeedBonus: -30
@@ -1393,6 +1487,7 @@ items:
     id: 20945
     marketGroup: 993
     name: Guardian Iron Charge S
+    published: true
     volume: 0.0025
   Guardian Iron Charge XL:
     CapNeedBonus: -30
@@ -1408,6 +1503,7 @@ items:
     id: 20997
     marketGroup: 1004
     name: Guardian Iron Charge XL
+    published: true
     volume: 0.125
   Guardian Lead Charge L:
     CapNeedBonus: -50
@@ -1423,6 +1519,7 @@ items:
     id: 20983
     marketGroup: 991
     name: Guardian Lead Charge L
+    published: true
     volume: 0.025
   Guardian Lead Charge M:
     CapNeedBonus: -50
@@ -1438,6 +1535,7 @@ items:
     id: 20967
     marketGroup: 992
     name: Guardian Lead Charge M
+    published: true
     volume: 0.0125
   Guardian Lead Charge S:
     CapNeedBonus: -50
@@ -1453,6 +1551,7 @@ items:
     id: 20951
     marketGroup: 993
     name: Guardian Lead Charge S
+    published: true
     volume: 0.0025
   Guardian Lead Charge XL:
     CapNeedBonus: -50
@@ -1468,6 +1567,7 @@ items:
     id: 20999
     marketGroup: 1004
     name: Guardian Lead Charge XL
+    published: true
     volume: 0.125
   Guardian Plutonium Charge L:
     CapNeedBonus: -5
@@ -1483,6 +1583,7 @@ items:
     id: 20989
     marketGroup: 991
     name: Guardian Plutonium Charge L
+    published: true
     volume: 0.025
   Guardian Plutonium Charge M:
     CapNeedBonus: -5
@@ -1498,6 +1599,7 @@ items:
     id: 20973
     marketGroup: 992
     name: Guardian Plutonium Charge M
+    published: true
     volume: 0.0125
   Guardian Plutonium Charge S:
     CapNeedBonus: -5
@@ -1513,6 +1615,7 @@ items:
     id: 20957
     marketGroup: 993
     name: Guardian Plutonium Charge S
+    published: true
     volume: 0.0025
   Guardian Plutonium Charge XL:
     CapNeedBonus: -5
@@ -1528,6 +1631,7 @@ items:
     id: 21001
     marketGroup: 1004
     name: Guardian Plutonium Charge XL
+    published: true
     volume: 0.125
   Guardian Thorium Charge L:
     CapNeedBonus: -40
@@ -1543,6 +1647,7 @@ items:
     id: 20985
     marketGroup: 991
     name: Guardian Thorium Charge L
+    published: true
     volume: 0.025
   Guardian Thorium Charge M:
     CapNeedBonus: -40
@@ -1558,6 +1663,7 @@ items:
     id: 20969
     marketGroup: 992
     name: Guardian Thorium Charge M
+    published: true
     volume: 0.0125
   Guardian Thorium Charge S:
     CapNeedBonus: -40
@@ -1573,6 +1679,7 @@ items:
     id: 20953
     marketGroup: 993
     name: Guardian Thorium Charge S
+    published: true
     volume: 0.0025
   Guardian Thorium Charge XL:
     CapNeedBonus: -40
@@ -1588,6 +1695,7 @@ items:
     id: 21003
     marketGroup: 1004
     name: Guardian Thorium Charge XL
+    published: true
     volume: 0.125
   Guardian Tungsten Charge L:
     CapNeedBonus: -27
@@ -1603,6 +1711,7 @@ items:
     id: 20979
     marketGroup: 991
     name: Guardian Tungsten Charge L
+    published: true
     volume: 0.025
   Guardian Tungsten Charge M:
     CapNeedBonus: -27
@@ -1618,6 +1727,7 @@ items:
     id: 20963
     marketGroup: 992
     name: Guardian Tungsten Charge M
+    published: true
     volume: 0.0125
   Guardian Tungsten Charge S:
     CapNeedBonus: -27
@@ -1633,6 +1743,7 @@ items:
     id: 20947
     marketGroup: 993
     name: Guardian Tungsten Charge S
+    published: true
     volume: 0.0025
   Guardian Tungsten Charge XL:
     CapNeedBonus: -27
@@ -1648,6 +1759,7 @@ items:
     id: 21005
     marketGroup: 1004
     name: Guardian Tungsten Charge XL
+    published: true
     volume: 0.125
   Guardian Uranium Charge L:
     CapNeedBonus: -8
@@ -1663,6 +1775,7 @@ items:
     id: 20987
     marketGroup: 991
     name: Guardian Uranium Charge L
+    published: true
     volume: 0.025
   Guardian Uranium Charge M:
     CapNeedBonus: -8
@@ -1678,6 +1791,7 @@ items:
     id: 20971
     marketGroup: 992
     name: Guardian Uranium Charge M
+    published: true
     volume: 0.0125
   Guardian Uranium Charge S:
     CapNeedBonus: -8
@@ -1693,6 +1807,7 @@ items:
     id: 20955
     marketGroup: 993
     name: Guardian Uranium Charge S
+    published: true
     volume: 0.0025
   Guardian Uranium Charge XL:
     CapNeedBonus: -8
@@ -1708,6 +1823,7 @@ items:
     id: 21007
     marketGroup: 1004
     name: Guardian Uranium Charge XL
+    published: true
     volume: 0.125
   Guristas Antimatter Charge L:
     ChargeSize: 3
@@ -1722,6 +1838,7 @@ items:
     id: 21366
     marketGroup: 991
     name: Guristas Antimatter Charge L
+    published: true
     volume: 0.025
   Guristas Antimatter Charge M:
     ChargeSize: 2
@@ -1736,6 +1853,7 @@ items:
     id: 21350
     marketGroup: 992
     name: Guristas Antimatter Charge M
+    published: true
     volume: 0.0125
   Guristas Antimatter Charge S:
     ChargeSize: 1
@@ -1750,6 +1868,7 @@ items:
     id: 21334
     marketGroup: 993
     name: Guristas Antimatter Charge S
+    published: true
     volume: 0.0025
   Guristas Antimatter Charge XL:
     ChargeSize: 4
@@ -1764,6 +1883,7 @@ items:
     id: 21368
     marketGroup: 1004
     name: Guristas Antimatter Charge XL
+    published: true
     volume: 0.125
   Guristas Iridium Charge L:
     CapNeedBonus: -24
@@ -1779,6 +1899,7 @@ items:
     id: 21356
     marketGroup: 991
     name: Guristas Iridium Charge L
+    published: true
     volume: 0.025
   Guristas Iridium Charge M:
     CapNeedBonus: -24
@@ -1794,6 +1915,7 @@ items:
     id: 21340
     marketGroup: 992
     name: Guristas Iridium Charge M
+    published: true
     volume: 0.0125
   Guristas Iridium Charge S:
     CapNeedBonus: -24
@@ -1809,6 +1931,7 @@ items:
     id: 21324
     marketGroup: 993
     name: Guristas Iridium Charge S
+    published: true
     volume: 0.0025
   Guristas Iridium Charge XL:
     CapNeedBonus: -24
@@ -1824,6 +1947,7 @@ items:
     id: 21370
     marketGroup: 1004
     name: Guristas Iridium Charge XL
+    published: true
     volume: 0.125
   Guristas Iron Charge L:
     CapNeedBonus: -30
@@ -1839,6 +1963,7 @@ items:
     id: 21352
     marketGroup: 991
     name: Guristas Iron Charge L
+    published: true
     volume: 0.025
   Guristas Iron Charge M:
     CapNeedBonus: -30
@@ -1854,6 +1979,7 @@ items:
     id: 21336
     marketGroup: 992
     name: Guristas Iron Charge M
+    published: true
     volume: 0.0125
   Guristas Iron Charge S:
     CapNeedBonus: -30
@@ -1869,6 +1995,7 @@ items:
     id: 21320
     marketGroup: 993
     name: Guristas Iron Charge S
+    published: true
     volume: 0.0025
   Guristas Iron Charge XL:
     CapNeedBonus: -30
@@ -1884,6 +2011,7 @@ items:
     id: 21372
     marketGroup: 1004
     name: Guristas Iron Charge XL
+    published: true
     volume: 0.125
   Guristas Lead Charge L:
     CapNeedBonus: -50
@@ -1899,6 +2027,7 @@ items:
     id: 21358
     marketGroup: 991
     name: Guristas Lead Charge L
+    published: true
     volume: 0.025
   Guristas Lead Charge M:
     CapNeedBonus: -50
@@ -1914,6 +2043,7 @@ items:
     id: 21342
     marketGroup: 992
     name: Guristas Lead Charge M
+    published: true
     volume: 0.0125
   Guristas Lead Charge S:
     CapNeedBonus: -50
@@ -1929,6 +2059,7 @@ items:
     id: 21326
     marketGroup: 993
     name: Guristas Lead Charge S
+    published: true
     volume: 0.0025
   Guristas Lead Charge XL:
     CapNeedBonus: -50
@@ -1944,6 +2075,7 @@ items:
     id: 21374
     marketGroup: 1004
     name: Guristas Lead Charge XL
+    published: true
     volume: 0.125
   Guristas Plutonium Charge L:
     CapNeedBonus: -5
@@ -1959,6 +2091,7 @@ items:
     id: 21364
     marketGroup: 991
     name: Guristas Plutonium Charge L
+    published: true
     volume: 0.025
   Guristas Plutonium Charge M:
     CapNeedBonus: -5
@@ -1974,6 +2107,7 @@ items:
     id: 21348
     marketGroup: 992
     name: Guristas Plutonium Charge M
+    published: true
     volume: 0.0125
   Guristas Plutonium Charge S:
     CapNeedBonus: -5
@@ -1989,6 +2123,7 @@ items:
     id: 21332
     marketGroup: 993
     name: Guristas Plutonium Charge S
+    published: true
     volume: 0.0025
   Guristas Plutonium Charge XL:
     CapNeedBonus: -5
@@ -2004,6 +2139,7 @@ items:
     id: 21376
     marketGroup: 1004
     name: Guristas Plutonium Charge XL
+    published: true
     volume: 0.125
   Guristas Thorium Charge L:
     CapNeedBonus: -40
@@ -2019,6 +2155,7 @@ items:
     id: 21360
     marketGroup: 991
     name: Guristas Thorium Charge L
+    published: true
     volume: 0.025
   Guristas Thorium Charge M:
     CapNeedBonus: -40
@@ -2034,6 +2171,7 @@ items:
     id: 21344
     marketGroup: 992
     name: Guristas Thorium Charge M
+    published: true
     volume: 0.0125
   Guristas Thorium Charge S:
     CapNeedBonus: -40
@@ -2049,6 +2187,7 @@ items:
     id: 21328
     marketGroup: 993
     name: Guristas Thorium Charge S
+    published: true
     volume: 0.0025
   Guristas Thorium Charge XL:
     CapNeedBonus: -40
@@ -2064,6 +2203,7 @@ items:
     id: 21378
     marketGroup: 1004
     name: Guristas Thorium Charge XL
+    published: true
     volume: 0.125
   Guristas Tungsten Charge L:
     CapNeedBonus: -27
@@ -2079,6 +2219,7 @@ items:
     id: 21354
     marketGroup: 991
     name: Guristas Tungsten Charge L
+    published: true
     volume: 0.025
   Guristas Tungsten Charge M:
     CapNeedBonus: -27
@@ -2094,6 +2235,7 @@ items:
     id: 21338
     marketGroup: 992
     name: Guristas Tungsten Charge M
+    published: true
     volume: 0.0125
   Guristas Tungsten Charge S:
     CapNeedBonus: -27
@@ -2109,6 +2251,7 @@ items:
     id: 21322
     marketGroup: 993
     name: Guristas Tungsten Charge S
+    published: true
     volume: 0.0025
   Guristas Tungsten Charge XL:
     CapNeedBonus: -27
@@ -2124,6 +2267,7 @@ items:
     id: 21380
     marketGroup: 1004
     name: Guristas Tungsten Charge XL
+    published: true
     volume: 0.125
   Guristas Uranium Charge L:
     CapNeedBonus: -8
@@ -2139,6 +2283,7 @@ items:
     id: 21362
     marketGroup: 991
     name: Guristas Uranium Charge L
+    published: true
     volume: 0.025
   Guristas Uranium Charge M:
     CapNeedBonus: -8
@@ -2154,6 +2299,7 @@ items:
     id: 21346
     marketGroup: 992
     name: Guristas Uranium Charge M
+    published: true
     volume: 0.0125
   Guristas Uranium Charge S:
     CapNeedBonus: -8
@@ -2169,6 +2315,7 @@ items:
     id: 21330
     marketGroup: 993
     name: Guristas Uranium Charge S
+    published: true
     volume: 0.0025
   Guristas Uranium Charge XL:
     CapNeedBonus: -8
@@ -2184,6 +2331,7 @@ items:
     id: 21382
     marketGroup: 1004
     name: Guristas Uranium Charge XL
+    published: true
     volume: 0.125
   Iridium Charge L:
     CapNeedBonus: -24
@@ -2196,6 +2344,7 @@ items:
     id: 233
     marketGroup: 106
     name: Iridium Charge L
+    published: true
     volume: 0.025
   Iridium Charge M:
     CapNeedBonus: -24
@@ -2208,6 +2357,7 @@ items:
     id: 225
     marketGroup: 108
     name: Iridium Charge M
+    published: true
     volume: 0.0125
   Iridium Charge S:
     CapNeedBonus: -24
@@ -2220,6 +2370,7 @@ items:
     id: 217
     marketGroup: 107
     name: Iridium Charge S
+    published: true
     volume: 0.0025
   Iridium Charge XL:
     CapNeedBonus: -24
@@ -2232,6 +2383,7 @@ items:
     id: 17650
     marketGroup: 504
     name: Iridium Charge XL
+    published: true
     volume: 0.125
   Iron Charge L:
     CapNeedBonus: -30
@@ -2244,6 +2396,7 @@ items:
     id: 231
     marketGroup: 106
     name: Iron Charge L
+    published: true
     volume: 0.025
   Iron Charge M:
     CapNeedBonus: -30
@@ -2256,6 +2409,7 @@ items:
     id: 223
     marketGroup: 108
     name: Iron Charge M
+    published: true
     volume: 0.0125
   Iron Charge S:
     CapNeedBonus: -30
@@ -2268,6 +2422,7 @@ items:
     id: 215
     marketGroup: 107
     name: Iron Charge S
+    published: true
     volume: 0.0025
   Iron Charge XL:
     CapNeedBonus: -30
@@ -2280,6 +2435,7 @@ items:
     id: 17652
     marketGroup: 504
     name: Iron Charge XL
+    published: true
     volume: 0.125
   Lead Charge L:
     CapNeedBonus: -50
@@ -2292,6 +2448,7 @@ items:
     id: 234
     marketGroup: 106
     name: Lead Charge L
+    published: true
     volume: 0.025
   Lead Charge M:
     CapNeedBonus: -50
@@ -2304,6 +2461,7 @@ items:
     id: 226
     marketGroup: 108
     name: Lead Charge M
+    published: true
     volume: 0.0125
   Lead Charge S:
     CapNeedBonus: -50
@@ -2316,6 +2474,7 @@ items:
     id: 218
     marketGroup: 107
     name: Lead Charge S
+    published: true
     volume: 0.0025
   Lead Charge XL:
     CapNeedBonus: -50
@@ -2328,6 +2487,7 @@ items:
     id: 17654
     marketGroup: 504
     name: Lead Charge XL
+    published: true
     volume: 0.125
   Plutonium Charge L:
     CapNeedBonus: -5
@@ -2340,6 +2500,7 @@ items:
     id: 237
     marketGroup: 106
     name: Plutonium Charge L
+    published: true
     volume: 0.025
   Plutonium Charge M:
     CapNeedBonus: -5
@@ -2352,6 +2513,7 @@ items:
     id: 229
     marketGroup: 108
     name: Plutonium Charge M
+    published: true
     volume: 0.0125
   Plutonium Charge S:
     CapNeedBonus: -5
@@ -2364,6 +2526,7 @@ items:
     id: 221
     marketGroup: 107
     name: Plutonium Charge S
+    published: true
     volume: 0.0025
   Plutonium Charge XL:
     CapNeedBonus: -5
@@ -2376,6 +2539,7 @@ items:
     id: 17656
     marketGroup: 504
     name: Plutonium Charge XL
+    published: true
     volume: 0.125
   Shadow Antimatter Charge L:
     ChargeSize: 3
@@ -2390,6 +2554,7 @@ items:
     id: 20927
     marketGroup: 991
     name: Shadow Antimatter Charge L
+    published: true
     volume: 0.025
   Shadow Antimatter Charge M:
     ChargeSize: 2
@@ -2404,6 +2569,7 @@ items:
     id: 20057
     marketGroup: 992
     name: Shadow Antimatter Charge M
+    published: true
     volume: 0.0125
   Shadow Antimatter Charge S:
     ChargeSize: 1
@@ -2418,6 +2584,7 @@ items:
     id: 20040
     marketGroup: 993
     name: Shadow Antimatter Charge S
+    published: true
     volume: 0.0025
   Shadow Antimatter Charge XL:
     ChargeSize: 4
@@ -2432,6 +2599,7 @@ items:
     id: 20929
     marketGroup: 1004
     name: Shadow Antimatter Charge XL
+    published: true
     volume: 0.125
   Shadow Iridium Charge L:
     CapNeedBonus: -24
@@ -2447,6 +2615,7 @@ items:
     id: 20917
     marketGroup: 991
     name: Shadow Iridium Charge L
+    published: true
     volume: 0.025
   Shadow Iridium Charge M:
     CapNeedBonus: -24
@@ -2462,6 +2631,7 @@ items:
     id: 20047
     marketGroup: 992
     name: Shadow Iridium Charge M
+    published: true
     volume: 0.0125
   Shadow Iridium Charge S:
     CapNeedBonus: -24
@@ -2477,6 +2647,7 @@ items:
     id: 19966
     marketGroup: 993
     name: Shadow Iridium Charge S
+    published: true
     volume: 0.0025
   Shadow Iridium Charge XL:
     CapNeedBonus: -24
@@ -2492,6 +2663,7 @@ items:
     id: 20931
     marketGroup: 1004
     name: Shadow Iridium Charge XL
+    published: true
     volume: 0.125
   Shadow Iron Charge L:
     CapNeedBonus: -30
@@ -2507,6 +2679,7 @@ items:
     id: 20913
     marketGroup: 991
     name: Shadow Iron Charge L
+    published: true
     volume: 0.025
   Shadow Iron Charge M:
     CapNeedBonus: -30
@@ -2522,6 +2695,7 @@ items:
     id: 20043
     marketGroup: 992
     name: Shadow Iron Charge M
+    published: true
     volume: 0.0125
   Shadow Iron Charge S:
     CapNeedBonus: -30
@@ -2537,6 +2711,7 @@ items:
     id: 19962
     marketGroup: 993
     name: Shadow Iron Charge S
+    published: true
     volume: 0.0025
   Shadow Iron Charge XL:
     CapNeedBonus: -30
@@ -2552,6 +2727,7 @@ items:
     id: 20933
     marketGroup: 1004
     name: Shadow Iron Charge XL
+    published: true
     volume: 0.125
   Shadow Lead Charge L:
     CapNeedBonus: -50
@@ -2567,6 +2743,7 @@ items:
     id: 20919
     marketGroup: 991
     name: Shadow Lead Charge L
+    published: true
     volume: 0.025
   Shadow Lead Charge M:
     CapNeedBonus: -50
@@ -2582,6 +2759,7 @@ items:
     id: 20049
     marketGroup: 992
     name: Shadow Lead Charge M
+    published: true
     volume: 0.0125
   Shadow Lead Charge S:
     CapNeedBonus: -50
@@ -2597,6 +2775,7 @@ items:
     id: 19968
     marketGroup: 993
     name: Shadow Lead Charge S
+    published: true
     volume: 0.0025
   Shadow Lead Charge XL:
     CapNeedBonus: -50
@@ -2612,6 +2791,7 @@ items:
     id: 20935
     marketGroup: 1004
     name: Shadow Lead Charge XL
+    published: true
     volume: 0.125
   Shadow Plutonium Charge L:
     CapNeedBonus: -5
@@ -2627,6 +2807,7 @@ items:
     id: 20925
     marketGroup: 991
     name: Shadow Plutonium Charge L
+    published: true
     volume: 0.025
   Shadow Plutonium Charge M:
     CapNeedBonus: -5
@@ -2642,6 +2823,7 @@ items:
     id: 20055
     marketGroup: 992
     name: Shadow Plutonium Charge M
+    published: true
     volume: 0.0125
   Shadow Plutonium Charge S:
     CapNeedBonus: -5
@@ -2657,6 +2839,7 @@ items:
     id: 20038
     marketGroup: 993
     name: Shadow Plutonium Charge S
+    published: true
     volume: 0.0025
   Shadow Plutonium Charge XL:
     CapNeedBonus: -5
@@ -2672,6 +2855,7 @@ items:
     id: 20937
     marketGroup: 1004
     name: Shadow Plutonium Charge XL
+    published: true
     volume: 0.125
   Shadow Thorium Charge L:
     CapNeedBonus: -40
@@ -2687,6 +2871,7 @@ items:
     id: 20921
     marketGroup: 991
     name: Shadow Thorium Charge L
+    published: true
     volume: 0.025
   Shadow Thorium Charge M:
     CapNeedBonus: -40
@@ -2702,6 +2887,7 @@ items:
     id: 20051
     marketGroup: 992
     name: Shadow Thorium Charge M
+    published: true
     volume: 0.0125
   Shadow Thorium Charge S:
     CapNeedBonus: -40
@@ -2717,6 +2903,7 @@ items:
     id: 20034
     marketGroup: 993
     name: Shadow Thorium Charge S
+    published: true
     volume: 0.0025
   Shadow Thorium Charge XL:
     CapNeedBonus: -40
@@ -2732,6 +2919,7 @@ items:
     id: 20939
     marketGroup: 1004
     name: Shadow Thorium Charge XL
+    published: true
     volume: 0.125
   Shadow Tungsten Charge L:
     CapNeedBonus: -27
@@ -2747,6 +2935,7 @@ items:
     id: 20915
     marketGroup: 991
     name: Shadow Tungsten Charge L
+    published: true
     volume: 0.025
   Shadow Tungsten Charge M:
     CapNeedBonus: -27
@@ -2762,6 +2951,7 @@ items:
     id: 20045
     marketGroup: 992
     name: Shadow Tungsten Charge M
+    published: true
     volume: 0.0125
   Shadow Tungsten Charge S:
     CapNeedBonus: -27
@@ -2777,6 +2967,7 @@ items:
     id: 19964
     marketGroup: 993
     name: Shadow Tungsten Charge S
+    published: true
     volume: 0.0025
   Shadow Tungsten Charge XL:
     CapNeedBonus: -27
@@ -2792,6 +2983,7 @@ items:
     id: 20941
     marketGroup: 1004
     name: Shadow Tungsten Charge XL
+    published: true
     volume: 0.125
   Shadow Uranium Charge L:
     CapNeedBonus: -8
@@ -2807,6 +2999,7 @@ items:
     id: 20923
     marketGroup: 991
     name: Shadow Uranium Charge L
+    published: true
     volume: 0.025
   Shadow Uranium Charge M:
     CapNeedBonus: -8
@@ -2822,6 +3015,7 @@ items:
     id: 20053
     marketGroup: 992
     name: Shadow Uranium Charge M
+    published: true
     volume: 0.0125
   Shadow Uranium Charge S:
     CapNeedBonus: -8
@@ -2837,6 +3031,7 @@ items:
     id: 20036
     marketGroup: 993
     name: Shadow Uranium Charge S
+    published: true
     volume: 0.0025
   Shadow Uranium Charge XL:
     CapNeedBonus: -8
@@ -2852,6 +3047,7 @@ items:
     id: 20943
     marketGroup: 1004
     name: Shadow Uranium Charge XL
+    published: true
     volume: 0.125
   Thorium Charge L:
     CapNeedBonus: -40
@@ -2864,6 +3060,7 @@ items:
     id: 235
     marketGroup: 106
     name: Thorium Charge L
+    published: true
     volume: 0.025
   Thorium Charge M:
     CapNeedBonus: -40
@@ -2876,6 +3073,7 @@ items:
     id: 227
     marketGroup: 108
     name: Thorium Charge M
+    published: true
     volume: 0.0125
   Thorium Charge S:
     CapNeedBonus: -40
@@ -2888,6 +3086,7 @@ items:
     id: 219
     marketGroup: 107
     name: Thorium Charge S
+    published: true
     volume: 0.0025
   Thorium Charge XL:
     CapNeedBonus: -40
@@ -2900,6 +3099,7 @@ items:
     id: 17658
     marketGroup: 504
     name: Thorium Charge XL
+    published: true
     volume: 0.125
   Tungsten Charge L:
     CapNeedBonus: -27
@@ -2912,6 +3112,7 @@ items:
     id: 232
     marketGroup: 106
     name: Tungsten Charge L
+    published: true
     volume: 0.025
   Tungsten Charge M:
     CapNeedBonus: -27
@@ -2924,6 +3125,7 @@ items:
     id: 224
     marketGroup: 108
     name: Tungsten Charge M
+    published: true
     volume: 0.0125
   Tungsten Charge S:
     CapNeedBonus: -27
@@ -2936,6 +3138,7 @@ items:
     id: 216
     marketGroup: 107
     name: Tungsten Charge S
+    published: true
     volume: 0.0025
   Tungsten Charge XL:
     CapNeedBonus: -27
@@ -2948,6 +3151,7 @@ items:
     id: 17660
     marketGroup: 504
     name: Tungsten Charge XL
+    published: true
     volume: 0.125
   Uranium Charge L:
     CapNeedBonus: -8
@@ -2960,6 +3164,7 @@ items:
     id: 236
     marketGroup: 106
     name: Uranium Charge L
+    published: true
     volume: 0.025
   Uranium Charge M:
     CapNeedBonus: -8
@@ -2972,6 +3177,7 @@ items:
     id: 228
     marketGroup: 108
     name: Uranium Charge M
+    published: true
     volume: 0.0125
   Uranium Charge S:
     CapNeedBonus: -8
@@ -2984,6 +3190,7 @@ items:
     id: 220
     marketGroup: 107
     name: Uranium Charge S
+    published: true
     volume: 0.0025
   Uranium Charge XL:
     CapNeedBonus: -8
@@ -2996,4 +3203,5 @@ items:
     id: 17662
     marketGroup: 504
     name: Uranium Charge XL
+    published: true
     volume: 0.125

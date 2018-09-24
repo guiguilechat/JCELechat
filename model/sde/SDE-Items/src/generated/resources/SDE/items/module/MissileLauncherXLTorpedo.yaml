@@ -22,6 +22,7 @@ items:
     id: 41180
     marketGroup: 777
     name: Arbalest Compact XL Torpedo Launcher
+    published: true
     volume: 4000.0
   CONCORD XL Torpedo Launcher:
     ChargeGroup1: 476
@@ -48,6 +49,7 @@ items:
     id: 3565
     marketGroup: 777
     name: CONCORD XL Torpedo Launcher
+    published: true
     volume: 4000.0
   Dread Guristas XL Torpedo Launcher:
     ChargeGroup1: 476
@@ -74,6 +76,7 @@ items:
     id: 41182
     marketGroup: 777
     name: Dread Guristas XL Torpedo Launcher
+    published: true
     volume: 4000.0
   TE-2100 Ample XL Torpedo Launcher:
     ChargeGroup1: 476
@@ -98,6 +101,7 @@ items:
     id: 41181
     marketGroup: 777
     name: TE-2100 Ample XL Torpedo Launcher
+    published: true
     volume: 4000.0
   XL Torpedo Launcher I:
     ChargeGroup1: 476
@@ -120,6 +124,7 @@ items:
     id: 20539
     marketGroup: 777
     name: XL Torpedo Launcher I
+    published: true
     volume: 4000.0
   XL Torpedo Launcher II:
     ChargeGroup1: 476
@@ -147,4 +152,5 @@ items:
     id: 37294
     marketGroup: 777
     name: XL Torpedo Launcher II
+    published: true
     volume: 4000.0

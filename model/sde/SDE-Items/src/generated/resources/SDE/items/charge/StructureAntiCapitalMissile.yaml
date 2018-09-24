@@ -20,6 +20,7 @@ items:
     id: 37843
     marketGroup: 2197
     name: Standup Super-heavy Torpedo
+    published: true
     volume: 0.5
   Standup XL Cruise Missile:
     Agility: 1000.0
@@ -42,4 +43,5 @@ items:
     id: 37844
     marketGroup: 2197
     name: Standup XL Cruise Missile
+    published: true
     volume: 0.5

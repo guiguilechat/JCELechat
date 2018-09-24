@@ -4,18 +4,21 @@ items:
     TechLevel: 1
     id: 21487
     name: '''Kindred'' Gyrostabilizer Blueprint'
+    published: true
     volume: 0.01
   '''Monopoly'' Magnetic Field Stabilizer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 22920
     name: '''Monopoly'' Magnetic Field Stabilizer Blueprint'
+    published: true
     volume: 0.01
   Federation Navy Magnetic Field Stabilizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15896
     name: Federation Navy Magnetic Field Stabilizer Blueprint
+    published: true
     volume: 0.01
   Gyrostabilizer I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -23,17 +26,20 @@ items:
     id: 1096
     marketGroup: 343
     name: Gyrostabilizer I Blueprint
+    published: true
     volume: 0.01
   Gyrostabilizer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1095
     name: Gyrostabilizer II Blueprint
+    published: true
     volume: 0.01
   Kaatara's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
     id: 44116
     name: Kaatara's Custom Magnetic Field Stabilizer Blueprint
+    published: true
     volume: 0.01
   Magnetic Field Stabilizer I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -41,26 +47,31 @@ items:
     id: 9945
     marketGroup: 343
     name: Magnetic Field Stabilizer I Blueprint
+    published: true
     volume: 0.01
   Magnetic Field Stabilizer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 10191
     name: Magnetic Field Stabilizer II Blueprint
+    published: true
     volume: 0.01
   Republic Fleet Gyrostabilizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15807
     name: Republic Fleet Gyrostabilizer Blueprint
+    published: true
     volume: 0.01
   Torelle's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
     id: 44115
     name: Torelle's Custom Magnetic Field Stabilizer Blueprint
+    published: true
     volume: 0.01
   Vadari's Custom Gyrostabilizer Blueprint:
     TechLevel: 1
     id: 44117
     name: Vadari's Custom Gyrostabilizer Blueprint
+    published: true
     volume: 0.01

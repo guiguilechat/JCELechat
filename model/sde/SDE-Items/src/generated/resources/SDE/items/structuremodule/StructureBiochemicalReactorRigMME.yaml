@@ -17,6 +17,7 @@ items:
     id: 46494
     marketGroup: 2341
     name: Standup M-Set Biochemical Reactor Material Efficiency I
+    published: true
     volume: 10.0
   Standup M-Set Biochemical Reactor Material Efficiency II:
     CanFitShipGroup03: 1406
@@ -36,4 +37,5 @@ items:
     id: 46495
     marketGroup: 2341
     name: Standup M-Set Biochemical Reactor Material Efficiency II
+    published: true
     volume: 10.0

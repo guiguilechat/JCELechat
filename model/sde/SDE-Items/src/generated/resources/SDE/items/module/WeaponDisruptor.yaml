@@ -26,6 +26,7 @@ items:
     id: 22931
     marketGroup: 680
     name: '''Distributor'' Guidance Disruptor'
+    published: true
     volume: 5.0
   '''Investor'' Tracking Disruptor I':
     CapacitorNeed: 10.0
@@ -53,6 +54,7 @@ items:
     id: 22933
     marketGroup: 680
     name: '''Investor'' Tracking Disruptor I'
+    published: true
     volume: 5.0
   A-211 Enduring Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
@@ -80,6 +82,7 @@ items:
     id: 37545
     marketGroup: 680
     name: A-211 Enduring Guidance Disruptor
+    published: true
     volume: 5.0
   Baker Nunn Enduring Tracking Disruptor I:
     CapacitorNeed: 12.0
@@ -106,6 +109,7 @@ items:
     id: 5319
     marketGroup: 680
     name: Baker Nunn Enduring Tracking Disruptor I
+    published: true
     volume: 5.0
   Balmer Series Compact Tracking Disruptor I:
     CapacitorNeed: 15.0
@@ -131,6 +135,7 @@ items:
     id: 5320
     marketGroup: 680
     name: Balmer Series Compact Tracking Disruptor I
+    published: true
     volume: 5.0
   C-IR Compact Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
@@ -158,6 +163,7 @@ items:
     id: 5321
     marketGroup: 680
     name: C-IR Compact Guidance Disruptor
+    published: true
     volume: 5.0
   DDO Scoped Tracking Disruptor I:
     CapacitorNeed: 15.0
@@ -184,6 +190,7 @@ items:
     id: 5322
     marketGroup: 680
     name: DDO Scoped Tracking Disruptor I
+    published: true
     volume: 5.0
   Guidance Disruptor I:
     AoeCloudSizeBonus: 10.0
@@ -210,6 +217,7 @@ items:
     id: 37543
     marketGroup: 680
     name: Guidance Disruptor I
+    published: true
     volume: 5.0
   Guidance Disruptor II:
     AoeCloudSizeBonus: 12.0
@@ -237,6 +245,7 @@ items:
     id: 37546
     marketGroup: 680
     name: Guidance Disruptor II
+    published: true
     volume: 5.0
   Highstroke Scoped Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
@@ -264,6 +273,7 @@ items:
     id: 37544
     marketGroup: 680
     name: Highstroke Scoped Guidance Disruptor
+    published: true
     volume: 5.0
   Tracking Disruptor I:
     CapacitorNeed: 15.0
@@ -288,6 +298,7 @@ items:
     id: 2108
     marketGroup: 680
     name: Tracking Disruptor I
+    published: true
     volume: 5.0
   Tracking Disruptor II:
     CapacitorNeed: 18.0
@@ -313,4 +324,5 @@ items:
     id: 2109
     marketGroup: 680
     name: Tracking Disruptor II
+    published: true
     volume: 5.0

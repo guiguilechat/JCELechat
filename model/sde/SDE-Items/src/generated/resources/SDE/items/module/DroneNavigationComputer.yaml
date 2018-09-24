@@ -9,6 +9,7 @@ items:
     id: 24395
     marketGroup: 938
     name: Drone Navigation Computer I
+    published: true
     volume: 25.0
   Drone Navigation Computer II:
     Cpu: 35.0
@@ -22,6 +23,7 @@ items:
     id: 24417
     marketGroup: 938
     name: Drone Navigation Computer II
+    published: true
     volume: 5.0
   Federation Navy Drone Navigation Computer:
     Cpu: 20.0
@@ -36,6 +38,7 @@ items:
     id: 33850
     marketGroup: 938
     name: Federation Navy Drone Navigation Computer
+    published: true
     volume: 25.0
   Sentient Drone Navigation Computer:
     Cpu: 20.0
@@ -50,6 +53,7 @@ items:
     id: 33852
     marketGroup: 938
     name: Sentient Drone Navigation Computer
+    published: true
     volume: 25.0
   Unit D-34343's Modified Drone Navigation Computer:
     Cpu: 24.0
@@ -64,6 +68,7 @@ items:
     id: 32943
     marketGroup: 938
     name: Unit D-34343's Modified Drone Navigation Computer
+    published: true
     volume: 25.0
   Unit F-435454's Modified Drone Navigation Computer:
     Cpu: 27.0
@@ -78,6 +83,7 @@ items:
     id: 32945
     marketGroup: 938
     name: Unit F-435454's Modified Drone Navigation Computer
+    published: true
     volume: 25.0
   Unit P-343554's Modified Drone Navigation Computer:
     Cpu: 30.0
@@ -92,6 +98,7 @@ items:
     id: 32947
     marketGroup: 938
     name: Unit P-343554's Modified Drone Navigation Computer
+    published: true
     volume: 25.0
   Unit W-634's Modified Drone Navigation Computer:
     Cpu: 33.0
@@ -106,4 +113,5 @@ items:
     id: 32949
     marketGroup: 938
     name: Unit W-634's Modified Drone Navigation Computer
+    published: true
     volume: 25.0

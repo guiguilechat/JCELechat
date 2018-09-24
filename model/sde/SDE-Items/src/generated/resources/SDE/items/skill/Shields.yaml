@@ -8,10 +8,11 @@ items:
     RequiredSkill2: 3422
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 24571
     marketGroup: 1747
     name: Capital Shield Emission Systems
+    published: true
     volume: 0.01
   Capital Shield Operation:
     CanNotBeTrainedOnTrial: 1
@@ -24,10 +25,11 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
     ShieldBoostCapacitorBonus: -2
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 21802
     marketGroup: 1747
     name: Capital Shield Operation
+    published: true
     volume: 0.01
   EM Shield Compensation:
     HardeningBonus: 5
@@ -35,10 +37,11 @@ items:
     RequiredSkill1: 3416
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 12365
     marketGroup: 1747
     name: EM Shield Compensation
+    published: true
     volume: 0.01
   Explosive Shield Compensation:
     HardeningBonus: 5
@@ -46,10 +49,11 @@ items:
     RequiredSkill1: 3416
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 12367
     marketGroup: 1747
     name: Explosive Shield Compensation
+    published: true
     volume: 0.01
   Invulnerability Core Operation:
     DurationBonus: 10
@@ -59,10 +63,11 @@ items:
     RequiredSkill2: 24571
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 44067
     marketGroup: 1747
     name: Invulnerability Core Operation
+    published: true
     volume: 0.01
   Kinetic Shield Compensation:
     HardeningBonus: 5
@@ -70,10 +75,11 @@ items:
     RequiredSkill1: 3416
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 12366
     marketGroup: 1747
     name: Kinetic Shield Compensation
+    published: true
     volume: 0.01
   Shield Compensation:
     PrimaryAttribute: 165
@@ -81,10 +87,11 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     ShieldBoostCapacitorBonus: -2
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 21059
     marketGroup: 1747
     name: Shield Compensation
+    published: true
     volume: 0.01
   Shield Emission Systems:
     CapNeedBonus: -5
@@ -94,20 +101,22 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3422
     marketGroup: 1747
     name: Shield Emission Systems
+    published: true
     volume: 0.01
   Shield Management:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3419
     marketGroup: 1747
     name: Shield Management
+    published: true
     volume: 0.01
   Shield Operation:
     PrimaryAttribute: 165
@@ -115,10 +124,11 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3416
     marketGroup: 1747
     name: Shield Operation
+    published: true
     volume: 0.01
   Shield Upgrades:
     PowerNeedBonus: -5
@@ -128,21 +138,23 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3425
     marketGroup: 1747
     name: Shield Upgrades
+    published: true
     volume: 0.01
   Tactical Shield Manipulation:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     UniformityBonus: 0.05000000074505806
     id: 3420
     marketGroup: 1747
     name: Tactical Shield Manipulation
+    published: true
     volume: 0.01
   Thermal Shield Compensation:
     HardeningBonus: 5
@@ -150,8 +162,9 @@ items:
     RequiredSkill1: 3416
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 11566
     marketGroup: 1747
     name: Thermal Shield Compensation
+    published: true
     volume: 0.01

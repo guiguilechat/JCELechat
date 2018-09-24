@@ -3,132 +3,159 @@ items:
     id: 25268
     marketGroup: 983
     name: Amber Cytoserocin
+    published: true
     volume: 10.0
   Amber Mykoserocin:
     id: 28694
     marketGroup: 983
     name: Amber Mykoserocin
+    published: true
     volume: 10.0
   Azure Cytoserocin:
     id: 25279
     marketGroup: 983
     name: Azure Cytoserocin
+    published: true
     volume: 10.0
   Azure Mykoserocin:
     id: 28695
     marketGroup: 983
     name: Azure Mykoserocin
+    published: true
     volume: 10.0
   Celadon Cytoserocin:
     id: 25275
     marketGroup: 983
     name: Celadon Cytoserocin
+    published: true
     volume: 10.0
   Celadon Mykoserocin:
     id: 28696
     marketGroup: 983
     name: Celadon Mykoserocin
+    published: true
     volume: 10.0
   Chartreuse Cytoserocin:
     id: 28630
     name: Chartreuse Cytoserocin
+    published: true
     volume: 10.0
   Fullerite-C28:
     id: 30375
     marketGroup: 1859
     name: Fullerite-C28
+    published: true
     volume: 2.0
   Fullerite-C32:
     id: 30376
     marketGroup: 1859
     name: Fullerite-C32
+    published: true
     volume: 5.0
   Fullerite-C320:
     id: 30377
     marketGroup: 1859
     name: Fullerite-C320
+    published: true
     volume: 5.0
   Fullerite-C50:
     id: 30370
     marketGroup: 1859
     name: Fullerite-C50
+    published: true
     volume: 1.0
   Fullerite-C540:
     id: 30378
     marketGroup: 1859
     name: Fullerite-C540
+    published: true
     volume: 10.0
   Fullerite-C60:
     id: 30371
     marketGroup: 1859
     name: Fullerite-C60
+    published: true
     volume: 1.0
   Fullerite-C70:
     id: 30372
     marketGroup: 1859
     name: Fullerite-C70
+    published: true
     volume: 1.0
   Fullerite-C72:
     id: 30373
     marketGroup: 1859
     name: Fullerite-C72
+    published: true
     volume: 2.0
   Fullerite-C84:
     id: 30374
     marketGroup: 1859
     name: Fullerite-C84
+    published: true
     volume: 2.0
   Gamboge Cytoserocin:
     id: 28629
     name: Gamboge Cytoserocin
+    published: true
     volume: 10.0
   Golden Cytoserocin:
     id: 25273
     marketGroup: 983
     name: Golden Cytoserocin
+    published: true
     volume: 10.0
   Golden Mykoserocin:
     id: 28697
     marketGroup: 983
     name: Golden Mykoserocin
+    published: true
     volume: 10.0
   Lime Cytoserocin:
     id: 25277
     marketGroup: 983
     name: Lime Cytoserocin
+    published: true
     volume: 10.0
   Lime Mykoserocin:
     id: 28698
     marketGroup: 983
     name: Lime Mykoserocin
+    published: true
     volume: 10.0
   Malachite Cytoserocin:
     id: 25276
     marketGroup: 983
     name: Malachite Cytoserocin
+    published: true
     volume: 10.0
   Malachite Mykoserocin:
     id: 28699
     marketGroup: 983
     name: Malachite Mykoserocin
+    published: true
     volume: 10.0
   Vermillion Cytoserocin:
     id: 25278
     marketGroup: 983
     name: Vermillion Cytoserocin
+    published: true
     volume: 10.0
   Vermillion Mykoserocin:
     id: 28700
     marketGroup: 983
     name: Vermillion Mykoserocin
+    published: true
     volume: 10.0
   Viridian Cytoserocin:
     id: 25274
     marketGroup: 983
     name: Viridian Cytoserocin
+    published: true
     volume: 10.0
   Viridian Mykoserocin:
     id: 28701
     marketGroup: 983
     name: Viridian Mykoserocin
+    published: true
     volume: 10.0

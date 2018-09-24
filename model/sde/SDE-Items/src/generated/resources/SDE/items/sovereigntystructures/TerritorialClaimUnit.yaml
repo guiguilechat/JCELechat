@@ -8,4 +8,5 @@ items:
     id: 32226
     marketGroup: 1273
     name: Territorial Claim Unit
+    published: true
     volume: 5000.0

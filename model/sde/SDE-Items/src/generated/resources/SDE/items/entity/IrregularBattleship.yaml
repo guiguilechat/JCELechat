@@ -1,9 +1,51 @@
 items:
+  Blood Raider Battleship:
+    id: 42238
+    name: Blood Raider Battleship
+    published: false
+    volume: 1150000.0
+  Drifter Strike Battleship:
+    id: 47723
+    name: Drifter Strike Battleship
+    published: false
+    volume: 109000.0
+  Drifter Strike Commander:
+    id: 47724
+    name: Drifter Strike Commander
+    published: false
+    volume: 109000.0
+  Eosian Safeguard:
+    id: 46348
+    name: Eosian Safeguard
+    published: false
+    volume: 1.9E7
+  Eosian Upholder:
+    id: 46349
+    name: Eosian Upholder
+    published: false
+    volume: 1.9E7
+  Guardian Angels Barachael:
+    id: 47275
+    name: Guardian Angels Barachael
+    published: false
+    volume: 595000.0
   Guri Hivaa Rokosabai:
     id: 40727
     name: Guri Hivaa Rokosabai
+    published: true
     volume: 486000.0
+  Manuzivar Slaver:
+    id: 48131
+    name: Manuzivar Slaver
+    published: false
+    volume: 495000.0
   Rakka's Rattlesnake:
     id: 40728
     name: Rakka's Rattlesnake
+    published: true
     volume: 486000.0
+  unnamed_g1667_ic0:
+    id: 48801
+    name: unnamed_g1667_ic0
+    published: false
+    volume: 1010000.0

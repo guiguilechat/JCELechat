@@ -4,46 +4,54 @@ items:
     id: 33377
     marketGroup: 1822
     name: Sleeve - 'Drone' (left)
+    published: true
     volume: 0.1
   Sleeve - 'Drone' (right):
     Gender: 2
     id: 33381
     marketGroup: 1822
     name: Sleeve - 'Drone' (right)
+    published: true
     volume: 0.1
   Sleeve - 'Nature' (left):
     Gender: 2
     id: 33380
     marketGroup: 1822
     name: Sleeve - 'Nature' (left)
+    published: true
     volume: 0.1
   Sleeve - 'Nature' (right):
     Gender: 2
     id: 33384
     marketGroup: 1822
     name: Sleeve - 'Nature' (right)
+    published: true
     volume: 0.1
   Sleeve - 'Prototype' (left):
     Gender: 2
     id: 33379
     marketGroup: 1822
     name: Sleeve - 'Prototype' (left)
+    published: true
     volume: 0.1
   Sleeve - 'Prototype' (right):
     Gender: 2
     id: 33383
     marketGroup: 1822
     name: Sleeve - 'Prototype' (right)
+    published: true
     volume: 0.1
   Sleeve - 'Wreckage' (left):
     Gender: 2
     id: 33378
     marketGroup: 1822
     name: Sleeve - 'Wreckage' (left)
+    published: true
     volume: 0.1
   Sleeve - 'Wreckage' (right):
     Gender: 2
     id: 33382
     marketGroup: 1822
     name: Sleeve - 'Wreckage' (right)
+    published: true
     volume: 0.1

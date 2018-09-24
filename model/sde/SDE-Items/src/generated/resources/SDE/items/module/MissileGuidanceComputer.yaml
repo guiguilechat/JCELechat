@@ -23,6 +23,7 @@ items:
     id: 35789
     marketGroup: 2032
     name: Astro-Inertial Compact Missile Guidance Computer
+    published: true
     volume: 5.0
   Missile Guidance Computer I:
     AoeCloudSizeBonus: -5.5
@@ -47,6 +48,7 @@ items:
     id: 35788
     marketGroup: 2032
     name: Missile Guidance Computer I
+    published: true
     volume: 5.0
   Missile Guidance Computer II:
     AoeCloudSizeBonus: -8.25
@@ -72,4 +74,5 @@ items:
     id: 35790
     marketGroup: 2032
     name: Missile Guidance Computer II
+    published: true
     volume: 5.0

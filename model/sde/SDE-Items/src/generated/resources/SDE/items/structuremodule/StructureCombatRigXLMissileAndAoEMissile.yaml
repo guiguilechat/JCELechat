@@ -20,6 +20,7 @@ items:
     id: 37268
     marketGroup: 2346
     name: Standup XL-Set Missile Fire Control Computer I
+    published: true
     volume: 40.0
   Standup XL-Set Missile Fire Control Computer II:
     CanFitShipGroup01: 1657
@@ -42,4 +43,5 @@ items:
     id: 37269
     marketGroup: 2346
     name: Standup XL-Set Missile Fire Control Computer II
+    published: true
     volume: 40.0

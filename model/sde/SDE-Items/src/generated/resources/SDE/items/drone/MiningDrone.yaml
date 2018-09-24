@@ -48,6 +48,7 @@ items:
     id: 43701
     marketGroup: 158
     name: '''Augmented'' Ice Harvesting Drone'
+    published: true
     volume: 50.0
   '''Augmented'' Mining Drone':
     ArmorEmDamageResonance: 1.0
@@ -98,6 +99,7 @@ items:
     id: 43694
     marketGroup: 158
     name: '''Augmented'' Mining Drone'
+    published: true
     volume: 5.0
   '''Excavator'' Ice Harvesting Drone':
     ArmorEmDamageResonance: 0.3199999928474426
@@ -148,6 +150,7 @@ items:
     id: 43681
     marketGroup: 158
     name: '''Excavator'' Ice Harvesting Drone'
+    published: true
     volume: 750.0
   '''Excavator'' Mining Drone':
     ArmorEmDamageResonance: 0.3199999928474426
@@ -198,6 +201,7 @@ items:
     id: 41030
     marketGroup: 158
     name: '''Excavator'' Mining Drone'
+    published: true
     volume: 750.0
   Civilian Mining Drone:
     ArmorEmDamageResonance: 1.0
@@ -242,6 +246,7 @@ items:
     id: 1202
     marketGroup: 158
     name: Civilian Mining Drone
+    published: true
     volume: 5.0
   Harvester Mining Drone:
     ArmorEmDamageResonance: 1.0
@@ -289,6 +294,7 @@ items:
     id: 3218
     marketGroup: 158
     name: Harvester Mining Drone
+    published: true
     volume: 10.0
   Ice Harvesting Drone I:
     ArmorEmDamageResonance: 1.0
@@ -335,6 +341,7 @@ items:
     id: 43699
     marketGroup: 158
     name: Ice Harvesting Drone I
+    published: true
     volume: 50.0
   Ice Harvesting Drone II:
     ArmorEmDamageResonance: 1.0
@@ -384,6 +391,7 @@ items:
     id: 43700
     marketGroup: 158
     name: Ice Harvesting Drone II
+    published: true
     volume: 50.0
   Mining Drone I:
     ArmorEmDamageResonance: 1.0
@@ -428,6 +436,7 @@ items:
     id: 10246
     marketGroup: 158
     name: Mining Drone I
+    published: true
     volume: 5.0
   Mining Drone II:
     ArmorEmDamageResonance: 1.0
@@ -476,4 +485,5 @@ items:
     id: 10250
     marketGroup: 158
     name: Mining Drone II
+    published: true
     volume: 5.0

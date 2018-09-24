@@ -22,6 +22,7 @@ items:
     id: 8105
     marketGroup: 642
     name: '''Arbalest'' Heavy Missile Launcher'
+    published: true
     volume: 10.0
   '''Malkuth'' Heavy Missile Launcher I':
     ChargeGroup1: 385
@@ -46,6 +47,7 @@ items:
     id: 8101
     marketGroup: 642
     name: '''Malkuth'' Heavy Missile Launcher I'
+    published: true
     volume: 10.0
   '''Undertaker'' Heavy Missile Launcher':
     ChargeGroup1: 385
@@ -71,6 +73,7 @@ items:
     id: 20599
     marketGroup: 642
     name: '''Undertaker'' Heavy Missile Launcher'
+    published: true
     volume: 10.0
   Advanced 'Limos' Heavy Missile Bay I:
     ChargeGroup1: 385
@@ -95,6 +98,7 @@ items:
     id: 8103
     marketGroup: 642
     name: Advanced 'Limos' Heavy Missile Bay I
+    published: true
     volume: 10.0
   Caldari Navy Heavy Missile Launcher:
     ChargeGroup1: 385
@@ -120,6 +124,7 @@ items:
     id: 16064
     marketGroup: 642
     name: Caldari Navy Heavy Missile Launcher
+    published: true
     volume: 10.0
   Domination Heavy Missile Launcher:
     ChargeGroup1: 385
@@ -145,6 +150,7 @@ items:
     id: 13921
     marketGroup: 642
     name: Domination Heavy Missile Launcher
+    published: true
     volume: 10.0
   Dread Guristas Heavy Missile Launcher:
     ChargeGroup1: 385
@@ -170,6 +176,7 @@ items:
     id: 13922
     marketGroup: 642
     name: Dread Guristas Heavy Missile Launcher
+    published: true
     volume: 10.0
   Heavy Missile Launcher I:
     ChargeGroup1: 385
@@ -193,6 +200,7 @@ items:
     id: 501
     marketGroup: 642
     name: Heavy Missile Launcher I
+    published: true
     volume: 10.0
   Heavy Missile Launcher II:
     ChargeGroup1: 385
@@ -218,6 +226,7 @@ items:
     id: 2410
     marketGroup: 642
     name: Heavy Missile Launcher II
+    published: true
     volume: 10.0
   Republic Fleet Heavy Missile Launcher:
     ChargeGroup1: 385
@@ -243,6 +252,7 @@ items:
     id: 17487
     marketGroup: 642
     name: Republic Fleet Heavy Missile Launcher
+    published: true
     volume: 10.0
   True Sansha Heavy Missile Launcher:
     ChargeGroup1: 385
@@ -268,6 +278,7 @@ items:
     id: 22567
     marketGroup: 642
     name: True Sansha Heavy Missile Launcher
+    published: true
     volume: 10.0
   XR-3200 Heavy Missile Bay:
     ChargeGroup1: 385
@@ -292,4 +303,5 @@ items:
     id: 7997
     marketGroup: 642
     name: XR-3200 Heavy Missile Bay
+    published: true
     volume: 10.0

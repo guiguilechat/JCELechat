@@ -1,0 +1,36 @@
+items:
+  Amarr Cruiser Vessel:
+    id: 29235
+    name: Amarr Cruiser Vessel
+    published: false
+    volume: 115000.0
+  Caldari Cruiser Vessel:
+    id: 29238
+    name: Caldari Cruiser Vessel
+    published: false
+    volume: 107000.0
+  Gallente Cruiser Vessel:
+    id: 29241
+    name: Gallente Cruiser Vessel
+    published: false
+    volume: 113000.0
+  Ishukone Escort:
+    id: 32457
+    name: Ishukone Escort
+    published: false
+    volume: 101000.0
+  Minmatar Cruiser Vessel:
+    id: 29244
+    name: Minmatar Cruiser Vessel
+    published: false
+    volume: 99000.0
+  Rohan Shadrak's Scythe:
+    id: 32785
+    name: Rohan Shadrak's Scythe
+    published: false
+    volume: 99000.0
+  Tolmak's Zealots:
+    id: 2224
+    name: Tolmak's Zealots
+    published: false
+    volume: 115000.0

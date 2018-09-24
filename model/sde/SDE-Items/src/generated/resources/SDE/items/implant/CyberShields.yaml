@@ -9,6 +9,7 @@ items:
     id: 32255
     marketGroup: 1481
     name: Sansha Modified 'Gnome' Implant
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-801:
     CapNeedBonus: -1
@@ -19,6 +20,7 @@ items:
     id: 27106
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-801
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-802:
     CapNeedBonus: -2
@@ -29,6 +31,7 @@ items:
     id: 3085
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-802
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-803:
     CapNeedBonus: -3
@@ -39,6 +42,7 @@ items:
     id: 13262
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-803
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-804:
     CapNeedBonus: -4
@@ -49,6 +53,7 @@ items:
     id: 3086
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-804
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-805:
     CapNeedBonus: -5
@@ -59,6 +64,7 @@ items:
     id: 16247
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-805
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-806:
     CapNeedBonus: -6
@@ -69,6 +75,7 @@ items:
     id: 3087
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-806
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-701:
     Implantness: 7
@@ -78,6 +85,7 @@ items:
     id: 27105
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-701
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-702:
     Implantness: 7
@@ -88,6 +96,7 @@ items:
     id: 3080
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-702
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-703:
     Implantness: 7
@@ -97,6 +106,7 @@ items:
     id: 10228
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-703
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-704:
     Implantness: 7
@@ -107,6 +117,7 @@ items:
     id: 3081
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-704
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-705:
     Implantness: 7
@@ -116,6 +127,7 @@ items:
     id: 16246
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-705
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-706:
     Implantness: 7
@@ -126,6 +138,7 @@ items:
     id: 3084
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-706
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-901:
     Implantness: 9
@@ -136,6 +149,7 @@ items:
     id: 27107
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-901
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-902:
     Implantness: 9
@@ -146,6 +160,7 @@ items:
     id: 3088
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-902
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-903:
     Implantness: 9
@@ -156,6 +171,7 @@ items:
     id: 13263
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-903
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-904:
     Implantness: 9
@@ -166,6 +182,7 @@ items:
     id: 3089
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-904
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-905:
     Implantness: 9
@@ -176,6 +193,7 @@ items:
     id: 16248
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-905
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-906:
     Implantness: 9
@@ -186,6 +204,7 @@ items:
     id: 3092
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-906
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-601:
     Implantness: 6
@@ -196,6 +215,7 @@ items:
     id: 27104
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-601
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-602:
     Implantness: 6
@@ -206,6 +226,7 @@ items:
     id: 3077
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-602
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-603:
     Implantness: 6
@@ -216,6 +237,7 @@ items:
     id: 13253
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-603
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-604:
     Implantness: 6
@@ -226,6 +248,7 @@ items:
     id: 3078
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-604
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-605:
     Implantness: 6
@@ -236,6 +259,7 @@ items:
     id: 16245
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-605
+    published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-606:
     Implantness: 6
@@ -246,4 +270,5 @@ items:
     id: 3079
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-606
+    published: true
     volume: 1.0

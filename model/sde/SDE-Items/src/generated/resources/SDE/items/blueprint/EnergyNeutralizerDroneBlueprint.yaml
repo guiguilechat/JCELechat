@@ -4,16 +4,19 @@ items:
     id: 23660
     marketGroup: 1586
     name: Acolyte EV-300 Blueprint
+    published: true
     volume: 0.01
   Infiltrator EV-600 Blueprint:
     IndustryBlueprintRank: 2.0
     id: 23703
     marketGroup: 1586
     name: Infiltrator EV-600 Blueprint
+    published: true
     volume: 0.01
   Praetor EV-900 Blueprint:
     IndustryBlueprintRank: 3.0
     id: 22573
     marketGroup: 1586
     name: Praetor EV-900 Blueprint
+    published: true
     volume: 0.01

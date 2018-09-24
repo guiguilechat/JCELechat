@@ -1,0 +1,106 @@
+items:
+  Centus Beast Lord:
+    id: 24156
+    name: Centus Beast Lord
+    published: false
+    volume: 100100.0
+  Centus Dark Lord:
+    id: 24158
+    name: Centus Dark Lord
+    published: false
+    volume: 100100.0
+  Centus Dread Lord:
+    id: 24159
+    name: Centus Dread Lord
+    published: false
+    volume: 100100.0
+  Centus Lord:
+    id: 17058
+    name: Centus Lord
+    published: false
+    volume: 100100.0
+  Centus Mutant Lord:
+    id: 17071
+    name: Centus Mutant Lord
+    published: false
+    volume: 100100.0
+  Centus Overlord:
+    id: 24157
+    name: Centus Overlord
+    published: false
+    volume: 100100.0
+  Centus Plague Lord:
+    id: 24155
+    name: Centus Plague Lord
+    published: false
+    volume: 100100.0
+  Centus Savage Lord:
+    id: 17082
+    name: Centus Savage Lord
+    published: false
+    volume: 100100.0
+  Centus Slave Lord:
+    id: 17066
+    name: Centus Slave Lord
+    published: false
+    volume: 100100.0
+  Centus Tyrant:
+    id: 24160
+    name: Centus Tyrant
+    published: false
+    volume: 100100.0
+  Sansha's Tyrant Elite:
+    id: 19737
+    name: Sansha's Tyrant Elite
+    published: false
+    volume: 100100.0
+  True Centus Beast Lord:
+    id: 17107
+    name: True Centus Beast Lord
+    published: false
+    volume: 100100.0
+  True Centus Dark Lord:
+    id: 24162
+    name: True Centus Dark Lord
+    published: false
+    volume: 100100.0
+  True Centus Dread Lord:
+    id: 24163
+    name: True Centus Dread Lord
+    published: false
+    volume: 100100.0
+  True Centus Lord:
+    id: 17085
+    name: True Centus Lord
+    published: false
+    volume: 100100.0
+  True Centus Mutant Lord:
+    id: 17095
+    name: True Centus Mutant Lord
+    published: false
+    volume: 100100.0
+  True Centus Overlord:
+    id: 24161
+    name: True Centus Overlord
+    published: false
+    volume: 100100.0
+  True Centus Plague Lord:
+    id: 17096
+    name: True Centus Plague Lord
+    published: false
+    volume: 100100.0
+  True Centus Savage Lord:
+    id: 17108
+    name: True Centus Savage Lord
+    published: false
+    volume: 100100.0
+  True Centus Slave Lord:
+    id: 17090
+    name: True Centus Slave Lord
+    published: false
+    volume: 100100.0
+  True Centus Tyrant:
+    id: 24164
+    name: True Centus Tyrant
+    published: false
+    volume: 100100.0

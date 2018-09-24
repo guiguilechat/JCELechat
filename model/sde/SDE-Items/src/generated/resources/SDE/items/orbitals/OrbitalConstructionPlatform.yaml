@@ -26,4 +26,5 @@ items:
     id: 3962
     marketGroup: 1410
     name: Customs Office Gantry
+    published: true
     volume: 7600.0

@@ -23,6 +23,7 @@ items:
     id: 20597
     marketGroup: 641
     name: '''Pickaxe'' Rapid Light Missile Launcher'
+    published: true
     volume: 10.0
   Caldari Navy Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -48,6 +49,7 @@ items:
     id: 16061
     marketGroup: 641
     name: Caldari Navy Rapid Light Missile Launcher
+    published: true
     volume: 10.0
   Domination Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -73,6 +75,7 @@ items:
     id: 13919
     marketGroup: 641
     name: Domination Rapid Light Missile Launcher
+    published: true
     volume: 10.0
   Dread Guristas Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -98,6 +101,7 @@ items:
     id: 13920
     marketGroup: 641
     name: Dread Guristas Rapid Light Missile Launcher
+    published: true
     volume: 10.0
   Experimental SV-2000 Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -122,6 +126,7 @@ items:
     id: 8007
     marketGroup: 641
     name: Experimental SV-2000 Rapid Light Missile Launcher
+    published: true
     volume: 10.0
   Limited 'Limos' Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -146,6 +151,7 @@ items:
     id: 8025
     marketGroup: 641
     name: Limited 'Limos' Rapid Light Missile Launcher
+    published: true
     volume: 10.0
   Prototype 'Arbalest' Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -170,6 +176,7 @@ items:
     id: 8027
     marketGroup: 641
     name: Prototype 'Arbalest' Rapid Light Missile Launcher
+    published: true
     volume: 10.0
   Rapid Light Missile Launcher I:
     ChargeGroup1: 384
@@ -193,6 +200,7 @@ items:
     id: 1875
     marketGroup: 641
     name: Rapid Light Missile Launcher I
+    published: true
     volume: 10.0
   Rapid Light Missile Launcher II:
     ChargeGroup1: 384
@@ -218,6 +226,7 @@ items:
     id: 1877
     marketGroup: 641
     name: Rapid Light Missile Launcher II
+    published: true
     volume: 10.0
   Republic Fleet Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -243,6 +252,7 @@ items:
     id: 17484
     marketGroup: 641
     name: Republic Fleet Rapid Light Missile Launcher
+    published: true
     volume: 10.0
   True Sansha Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -268,6 +278,7 @@ items:
     id: 22566
     marketGroup: 641
     name: True Sansha Rapid Light Missile Launcher
+    published: true
     volume: 10.0
   Upgraded 'Malkuth' Rapid Light Missile Launcher:
     ChargeGroup1: 384
@@ -292,4 +303,5 @@ items:
     id: 8023
     marketGroup: 641
     name: Upgraded 'Malkuth' Rapid Light Missile Launcher
+    published: true
     volume: 10.0

@@ -22,6 +22,7 @@ items:
     id: 14842
     marketGroup: 691
     name: Ahremen's Modified Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Ammatar Navy Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -46,6 +47,7 @@ items:
     id: 15798
     marketGroup: 691
     name: Ammatar Navy Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Ammatar Navy Medium Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -70,6 +72,7 @@ items:
     id: 15796
     marketGroup: 690
     name: Ammatar Navy Medium Energy Neutralizer
+    published: true
     volume: 5.0
   Ammatar Navy Small Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -94,6 +97,7 @@ items:
     id: 15794
     marketGroup: 689
     name: Ammatar Navy Small Energy Neutralizer
+    published: true
     volume: 5.0
   Brokara's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -118,6 +122,7 @@ items:
     id: 14832
     marketGroup: 691
     name: Brokara's Modified Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Capital Energy Neutralizer I:
     CapacitorNeed: 3600.0
@@ -142,6 +147,7 @@ items:
     id: 40659
     marketGroup: 2250
     name: Capital Energy Neutralizer I
+    published: true
     volume: 4000.0
   Capital Energy Neutralizer II:
     CapacitorNeed: 3600.0
@@ -167,6 +173,7 @@ items:
     id: 40662
     marketGroup: 2250
     name: Capital Energy Neutralizer II
+    published: true
     volume: 4000.0
   Capital Gremlin Compact Energy Neutralizer:
     CapacitorNeed: 3600.0
@@ -192,6 +199,7 @@ items:
     id: 40660
     marketGroup: 2250
     name: Capital Gremlin Compact Energy Neutralizer
+    published: true
     volume: 4000.0
   Capital Infectious Scoped Energy Neutralizer:
     CapacitorNeed: 3600.0
@@ -217,6 +225,7 @@ items:
     id: 40661
     marketGroup: 2250
     name: Capital Infectious Scoped Energy Neutralizer
+    published: true
     volume: 4000.0
   Chelm's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -241,6 +250,7 @@ items:
     id: 14844
     marketGroup: 691
     name: Chelm's Modified Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Corpii A-Type Small Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -266,6 +276,7 @@ items:
     id: 37624
     marketGroup: 689
     name: Corpii A-Type Small Energy Neutralizer
+    published: true
     volume: 5.0
   Corpii B-Type Small Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -291,6 +302,7 @@ items:
     id: 37623
     marketGroup: 689
     name: Corpii B-Type Small Energy Neutralizer
+    published: true
     volume: 5.0
   Corpii C-Type Small Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -316,6 +328,7 @@ items:
     id: 37622
     marketGroup: 689
     name: Corpii C-Type Small Energy Neutralizer
+    published: true
     volume: 5.0
   Corpum A-Type Medium Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -341,6 +354,7 @@ items:
     id: 37627
     marketGroup: 690
     name: Corpum A-Type Medium Energy Neutralizer
+    published: true
     volume: 5.0
   Corpum B-Type Medium Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -366,6 +380,7 @@ items:
     id: 37626
     marketGroup: 690
     name: Corpum B-Type Medium Energy Neutralizer
+    published: true
     volume: 5.0
   Corpum C-Type Medium Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -391,6 +406,7 @@ items:
     id: 37625
     marketGroup: 690
     name: Corpum C-Type Medium Energy Neutralizer
+    published: true
     volume: 5.0
   Corpus A-Type Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -416,6 +432,7 @@ items:
     id: 37630
     marketGroup: 691
     name: Corpus A-Type Heavy Energy Neutralizer
+    published: true
     volume: 50.0
   Corpus B-Type Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -441,6 +458,7 @@ items:
     id: 37629
     marketGroup: 691
     name: Corpus B-Type Heavy Energy Neutralizer
+    published: true
     volume: 50.0
   Corpus C-Type Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -466,6 +484,7 @@ items:
     id: 37628
     marketGroup: 691
     name: Corpus C-Type Heavy Energy Neutralizer
+    published: true
     volume: 50.0
   Corpus X-Type Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -491,6 +510,7 @@ items:
     id: 37631
     marketGroup: 691
     name: Corpus X-Type Heavy Energy Neutralizer
+    published: true
     volume: 50.0
   Dark Blood Capital Energy Neutralizer:
     CapacitorNeed: 3600.0
@@ -517,6 +537,7 @@ items:
     id: 40664
     marketGroup: 2250
     name: Dark Blood Capital Energy Neutralizer
+    published: true
     volume: 4000.0
   Dark Blood Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -541,6 +562,7 @@ items:
     id: 14168
     marketGroup: 691
     name: Dark Blood Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Dark Blood Medium Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -565,6 +587,7 @@ items:
     id: 14164
     marketGroup: 690
     name: Dark Blood Medium Energy Neutralizer
+    published: true
     volume: 5.0
   Dark Blood Small Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -589,6 +612,7 @@ items:
     id: 14160
     marketGroup: 689
     name: Dark Blood Small Energy Neutralizer
+    published: true
     volume: 5.0
   Draclira's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -613,6 +637,7 @@ items:
     id: 14846
     marketGroup: 691
     name: Draclira's Modified Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Heavy 'Moat' Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -637,6 +662,7 @@ items:
     id: 23819
     marketGroup: 691
     name: Heavy 'Moat' Energy Neutralizer
+    published: true
     volume: 5.0
   Heavy Abyssal Energy Neutralizer:
     EntityCapacitorLevelModifierLarge: 1.0
@@ -647,6 +673,7 @@ items:
     TechLevel: 1
     id: 47832
     name: Heavy Abyssal Energy Neutralizer
+    published: true
     volume: 50.0
   Heavy Energy Neutralizer I:
     CapacitorNeed: 500.0
@@ -669,6 +696,7 @@ items:
     id: 12269
     marketGroup: 691
     name: Heavy Energy Neutralizer I
+    published: true
     volume: 50.0
   Heavy Energy Neutralizer II:
     CapacitorNeed: 500.0
@@ -692,6 +720,7 @@ items:
     id: 12271
     marketGroup: 691
     name: Heavy Energy Neutralizer II
+    published: true
     volume: 5.0
   Heavy Gremlin Compact Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -716,6 +745,7 @@ items:
     id: 16475
     marketGroup: 691
     name: Heavy Gremlin Compact Energy Neutralizer
+    published: true
     volume: 5.0
   Heavy Infectious Scoped Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -740,6 +770,7 @@ items:
     id: 16477
     marketGroup: 691
     name: Heavy Infectious Scoped Energy Neutralizer
+    published: true
     volume: 5.0
   Imperial Navy Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -764,6 +795,7 @@ items:
     id: 15804
     marketGroup: 691
     name: Imperial Navy Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Imperial Navy Medium Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -788,6 +820,7 @@ items:
     id: 15802
     marketGroup: 690
     name: Imperial Navy Medium Energy Neutralizer
+    published: true
     volume: 5.0
   Imperial Navy Small Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -812,6 +845,7 @@ items:
     id: 15800
     marketGroup: 689
     name: Imperial Navy Small Energy Neutralizer
+    published: true
     volume: 5.0
   Medium 'Ditch' Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -836,6 +870,7 @@ items:
     id: 23817
     marketGroup: 690
     name: Medium 'Ditch' Energy Neutralizer
+    published: true
     volume: 5.0
   Medium Abyssal Energy Neutralizer:
     EntityCapacitorLevelModifierLarge: 1.0
@@ -846,6 +881,7 @@ items:
     TechLevel: 1
     id: 47828
     name: Medium Abyssal Energy Neutralizer
+    published: true
     volume: 5.0
   Medium Energy Neutralizer I:
     CapacitorNeed: 150.0
@@ -868,6 +904,7 @@ items:
     id: 12265
     marketGroup: 690
     name: Medium Energy Neutralizer I
+    published: true
     volume: 5.0
   Medium Energy Neutralizer II:
     CapacitorNeed: 150.0
@@ -891,6 +928,7 @@ items:
     id: 12267
     marketGroup: 690
     name: Medium Energy Neutralizer II
+    published: true
     volume: 5.0
   Medium Gremlin Compact Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -915,6 +953,7 @@ items:
     id: 16467
     marketGroup: 690
     name: Medium Gremlin Compact Energy Neutralizer
+    published: true
     volume: 5.0
   Medium Infectious Scoped Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -939,6 +978,7 @@ items:
     id: 16469
     marketGroup: 690
     name: Medium Infectious Scoped Energy Neutralizer
+    published: true
     volume: 5.0
   Raysere's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -963,6 +1003,7 @@ items:
     id: 14838
     marketGroup: 691
     name: Raysere's Modified Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Selynne's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -987,6 +1028,7 @@ items:
     id: 14836
     marketGroup: 691
     name: Selynne's Modified Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   Small 'Caltrop' Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -1011,6 +1053,7 @@ items:
     id: 23815
     marketGroup: 689
     name: Small 'Caltrop' Energy Neutralizer
+    published: true
     volume: 5.0
   Small Abyssal Energy Neutralizer:
     EntityCapacitorLevelModifierLarge: 1.0
@@ -1021,6 +1064,7 @@ items:
     TechLevel: 1
     id: 47824
     name: Small Abyssal Energy Neutralizer
+    published: true
     volume: 5.0
   Small Energy Neutralizer I:
     CapacitorNeed: 45.0
@@ -1043,6 +1087,7 @@ items:
     id: 533
     marketGroup: 689
     name: Small Energy Neutralizer I
+    published: true
     volume: 5.0
   Small Energy Neutralizer II:
     CapacitorNeed: 45.0
@@ -1066,6 +1111,7 @@ items:
     id: 13003
     marketGroup: 689
     name: Small Energy Neutralizer II
+    published: true
     volume: 5.0
   Small Gremlin Compact Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -1090,6 +1136,7 @@ items:
     id: 4477
     marketGroup: 689
     name: Small Gremlin Compact Energy Neutralizer
+    published: true
     volume: 5.0
   Small Infectious Scoped Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -1114,6 +1161,7 @@ items:
     id: 4471
     marketGroup: 689
     name: Small Infectious Scoped Energy Neutralizer
+    published: true
     volume: 5.0
   Tairei's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -1138,6 +1186,7 @@ items:
     id: 14834
     marketGroup: 691
     name: Tairei's Modified Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   True Sansha Capital Energy Neutralizer:
     CapacitorNeed: 3600.0
@@ -1164,6 +1213,7 @@ items:
     id: 40663
     marketGroup: 2250
     name: True Sansha Capital Energy Neutralizer
+    published: true
     volume: 4000.0
   True Sansha Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -1188,6 +1238,7 @@ items:
     id: 14170
     marketGroup: 691
     name: True Sansha Heavy Energy Neutralizer
+    published: true
     volume: 5.0
   True Sansha Medium Energy Neutralizer:
     CapacitorNeed: 150.0
@@ -1212,6 +1263,7 @@ items:
     id: 14166
     marketGroup: 690
     name: True Sansha Medium Energy Neutralizer
+    published: true
     volume: 5.0
   True Sansha Small Energy Neutralizer:
     CapacitorNeed: 45.0
@@ -1236,6 +1288,7 @@ items:
     id: 14162
     marketGroup: 689
     name: True Sansha Small Energy Neutralizer
+    published: true
     volume: 5.0
   Vizan's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
@@ -1260,4 +1313,5 @@ items:
     id: 14840
     marketGroup: 691
     name: Vizan's Modified Heavy Energy Neutralizer
+    published: true
     volume: 5.0

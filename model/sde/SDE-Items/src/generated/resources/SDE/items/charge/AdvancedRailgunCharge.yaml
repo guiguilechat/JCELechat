@@ -5,9 +5,12 @@ items:
     KineticDamage: 24.0
     LauncherGroup: 74
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12207
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 32.0
     TrackingSpeedMultiplier: 1.25
@@ -15,6 +18,7 @@ items:
     id: 12803
     marketGroup: 863
     name: Javelin L
+    published: true
     volume: 0.025
   Javelin M:
     ChargeSize: 2
@@ -22,9 +26,12 @@ items:
     KineticDamage: 12.0
     LauncherGroup: 74
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12206
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 16.0
     TrackingSpeedMultiplier: 1.25
@@ -32,6 +39,7 @@ items:
     id: 12801
     marketGroup: 864
     name: Javelin M
+    published: true
     volume: 0.0125
   Javelin S:
     ChargeSize: 1
@@ -39,9 +47,12 @@ items:
     KineticDamage: 6.0
     LauncherGroup: 74
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 11082
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 1.25
@@ -49,6 +60,7 @@ items:
     id: 12620
     marketGroup: 865
     name: Javelin S
+    published: true
     volume: 0.0025
   Javelin XL:
     ChargeSize: 4
@@ -56,9 +68,12 @@ items:
     KineticDamage: 48.0
     LauncherGroup: 74
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 41406
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 64.0
     TrackingSpeedMultiplier: 1.25
@@ -66,6 +81,7 @@ items:
     id: 41326
     marketGroup: 2255
     name: Javelin XL
+    published: true
     volume: 0.125
   Spike L:
     ChargeSize: 3
@@ -73,9 +89,12 @@ items:
     KineticDamage: 16.0
     LauncherGroup: 74
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12207
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 16.0
     TrackingSpeedMultiplier: 0.25
@@ -83,6 +102,7 @@ items:
     id: 12807
     marketGroup: 863
     name: Spike L
+    published: true
     volume: 0.025
   Spike M:
     ChargeSize: 2
@@ -90,9 +110,12 @@ items:
     KineticDamage: 8.0
     LauncherGroup: 74
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12206
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 0.25
@@ -100,6 +123,7 @@ items:
     id: 12805
     marketGroup: 864
     name: Spike M
+    published: true
     volume: 0.0125
   Spike S:
     ChargeSize: 1
@@ -107,9 +131,12 @@ items:
     KineticDamage: 4.0
     LauncherGroup: 74
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 11082
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 4.0
     TrackingSpeedMultiplier: 0.25
@@ -117,6 +144,7 @@ items:
     id: 12618
     marketGroup: 865
     name: Spike S
+    published: true
     volume: 0.0025
   Spike XL:
     ChargeSize: 4
@@ -124,9 +152,12 @@ items:
     KineticDamage: 32.0
     LauncherGroup: 74
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 41406
     RequiredSkill1Level: 1
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 32.0
     TrackingSpeedMultiplier: 0.25
@@ -134,4 +165,5 @@ items:
     id: 41328
     marketGroup: 2255
     name: Spike XL
+    published: true
     volume: 0.125

@@ -1,0 +1,12 @@
+items:
+  '#System':
+    name: '#System'
+    published: false
+  asurface1_f_01:amarrbase:amarr:
+    id: 48464
+    name: asurface1_f_01:amarrbase:amarr
+    published: false
+  asurface_c_01:amarrbase:amarr:
+    id: 48465
+    name: asurface_c_01:amarrbase:amarr
+    published: false

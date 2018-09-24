@@ -8,6 +8,7 @@ items:
     id: 27240
     marketGroup: 1768
     name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-801
+    published: true
     volume: 1.0
   Eifyr and Co. 'Alchemist' Gas Harvesting GH-803:
     DurationBonus: -3
@@ -18,6 +19,7 @@ items:
     id: 27238
     marketGroup: 1768
     name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-803
+    published: true
     volume: 1.0
   Eifyr and Co. 'Alchemist' Gas Harvesting GH-805:
     DurationBonus: -5
@@ -28,6 +30,7 @@ items:
     id: 27239
     marketGroup: 1768
     name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-805
+    published: true
     volume: 1.0
   Inherent Implants 'Highwall' Mining MX-1001:
     Implantness: 10
@@ -38,6 +41,7 @@ items:
     id: 27102
     marketGroup: 1767
     name: Inherent Implants 'Highwall' Mining MX-1001
+    published: true
     volume: 1.0
   Inherent Implants 'Highwall' Mining MX-1003:
     Implantness: 10
@@ -48,6 +52,7 @@ items:
     id: 22534
     marketGroup: 1767
     name: Inherent Implants 'Highwall' Mining MX-1003
+    published: true
     volume: 1.0
   Inherent Implants 'Highwall' Mining MX-1005:
     Implantness: 10
@@ -58,6 +63,7 @@ items:
     id: 22535
     marketGroup: 1767
     name: Inherent Implants 'Highwall' Mining MX-1005
+    published: true
     volume: 1.0
   Inherent Implants 'Highwall' Mining Upgrades MU-1001:
     Implantness: 10
@@ -68,6 +74,7 @@ items:
     id: 27151
     marketGroup: 1767
     name: Inherent Implants 'Highwall' Mining Upgrades MU-1001
+    published: true
     volume: 1.0
   Inherent Implants 'Highwall' Mining Upgrades MU-1003:
     Implantness: 10
@@ -78,6 +85,7 @@ items:
     id: 27149
     marketGroup: 1767
     name: Inherent Implants 'Highwall' Mining Upgrades MU-1003
+    published: true
     volume: 1.0
   Inherent Implants 'Highwall' Mining Upgrades MU-1005:
     Implantness: 10
@@ -88,6 +96,7 @@ items:
     id: 27150
     marketGroup: 1767
     name: Inherent Implants 'Highwall' Mining Upgrades MU-1005
+    published: true
     volume: 1.0
   Inherent Implants 'Yeti' Ice Harvesting IH-1001:
     IceHarvestCycleBonus: -1.0
@@ -98,6 +107,7 @@ items:
     id: 27103
     marketGroup: 1767
     name: Inherent Implants 'Yeti' Ice Harvesting IH-1001
+    published: true
     volume: 1.0
   Inherent Implants 'Yeti' Ice Harvesting IH-1003:
     IceHarvestCycleBonus: -3.0
@@ -108,6 +118,7 @@ items:
     id: 22570
     marketGroup: 1767
     name: Inherent Implants 'Yeti' Ice Harvesting IH-1003
+    published: true
     volume: 1.0
   Inherent Implants 'Yeti' Ice Harvesting IH-1005:
     IceHarvestCycleBonus: -5.0
@@ -118,6 +129,7 @@ items:
     id: 22571
     marketGroup: 1767
     name: Inherent Implants 'Yeti' Ice Harvesting IH-1005
+    published: true
     volume: 1.0
   Michi's Excavation Augmentor:
     Implantness: 7
@@ -128,6 +140,7 @@ items:
     id: 20700
     marketGroup: 1769
     name: Michi's Excavation Augmentor
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Reprocessing RX-801:
     Implantness: 8
@@ -138,6 +151,7 @@ items:
     id: 27175
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-801
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Reprocessing RX-802:
     Implantness: 8
@@ -148,6 +162,7 @@ items:
     id: 27169
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-802
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Reprocessing RX-804:
     Implantness: 8
@@ -158,4 +173,5 @@ items:
     id: 27174
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-804
+    published: true
     volume: 1.0

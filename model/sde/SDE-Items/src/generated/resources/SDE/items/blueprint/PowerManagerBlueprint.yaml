@@ -4,42 +4,49 @@ items:
     TechLevel: 1
     id: 22954
     name: '''Cartel'' Power Diagnostic System I Blueprint'
+    published: true
     volume: 0.01
   '''Motte'' Capacitor Power Relay I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23897
     name: '''Motte'' Capacitor Power Relay I Blueprint'
+    published: true
     volume: 0.01
   '''Page'' Capacitor Flux Coil I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23895
     name: '''Page'' Capacitor Flux Coil I Blueprint'
+    published: true
     volume: 0.01
   '''Portcullis'' Reactor Control Unit I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23899
     name: '''Portcullis'' Reactor Control Unit I Blueprint'
+    published: true
     volume: 0.01
   Ammatar Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 17511
     name: Ammatar Navy Capacitor Power Relay Blueprint
+    published: true
     volume: 0.01
   Ammatar Navy Power Diagnostic System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 17525
     name: Ammatar Navy Power Diagnostic System Blueprint
+    published: true
     volume: 0.01
   Ammatar Navy Reactor Control Unit Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 17523
     name: Ammatar Navy Reactor Control Unit Blueprint
+    published: true
     volume: 0.01
   Capacitor Flux Coil I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -47,12 +54,14 @@ items:
     id: 1247
     marketGroup: 1556
     name: Capacitor Flux Coil I Blueprint
+    published: true
     volume: 0.01
   Capacitor Flux Coil II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1249
     name: Capacitor Flux Coil II Blueprint
+    published: true
     volume: 0.01
   Capacitor Power Relay I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -60,24 +69,28 @@ items:
     id: 1446
     marketGroup: 1557
     name: Capacitor Power Relay I Blueprint
+    published: true
     volume: 0.01
   Capacitor Power Relay II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1448
     name: Capacitor Power Relay II Blueprint
+    published: true
     volume: 0.01
   Imperial Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 17529
     name: Imperial Navy Capacitor Power Relay Blueprint
+    published: true
     volume: 0.01
   Khanid Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 28533
     name: Khanid Navy Capacitor Power Relay Blueprint
+    published: true
     volume: 0.01
   Power Diagnostic System I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -85,12 +98,14 @@ items:
     id: 1540
     marketGroup: 1560
     name: Power Diagnostic System I Blueprint
+    published: true
     volume: 0.01
   Power Diagnostic System II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1542
     name: Power Diagnostic System II Blueprint
+    published: true
     volume: 0.01
   Reactor Control Unit I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -98,12 +113,14 @@ items:
     id: 1354
     marketGroup: 1561
     name: Reactor Control Unit I Blueprint
+    published: true
     volume: 0.01
   Reactor Control Unit II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1356
     name: Reactor Control Unit II Blueprint
+    published: true
     volume: 0.01
   Shield Flux Coil I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -111,12 +128,14 @@ items:
     id: 1255
     marketGroup: 1547
     name: Shield Flux Coil I Blueprint
+    published: true
     volume: 0.01
   Shield Flux Coil II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1257
     name: Shield Flux Coil II Blueprint
+    published: true
     volume: 0.01
   Shield Power Relay I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -124,10 +143,12 @@ items:
     id: 2332
     marketGroup: 1550
     name: Shield Power Relay I Blueprint
+    published: true
     volume: 0.01
   Shield Power Relay II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1423
     name: Shield Power Relay II Blueprint
+    published: true
     volume: 0.01

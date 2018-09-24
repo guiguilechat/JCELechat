@@ -1,0 +1,16 @@
+items:
+  Awakened Defender:
+    id: 30203
+    name: Awakened Defender
+    published: false
+    volume: 109000.0
+  Awakened Preserver:
+    id: 30205
+    name: Awakened Preserver
+    published: false
+    volume: 109000.0
+  Awakened Upholder:
+    id: 30204
+    name: Awakened Upholder
+    published: false
+    volume: 109000.0

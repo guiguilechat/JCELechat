@@ -7,9 +7,11 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28427
     marketGroup: 519
     name: Compressed Condensed Scordite
+    published: true
     volume: 0.19
   Compressed Glossy Scordite:
     AsteroidMaxRadius: 16255
@@ -19,9 +21,11 @@ items:
     OreBasicType: 46687
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46703
     marketGroup: 519
     name: Compressed Glossy Scordite
+    published: true
     volume: 0.19
   Compressed Massive Scordite:
     AsteroidMaxRadius: 16255
@@ -31,9 +35,11 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28428
     marketGroup: 519
     name: Compressed Massive Scordite
+    published: true
     volume: 0.19
   Compressed Scordite:
     AsteroidMaxRadius: 16255
@@ -43,9 +49,11 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28429
     marketGroup: 519
     name: Compressed Scordite
+    published: true
     volume: 0.19
   Condensed Scordite:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17463
     marketGroup: 519
     name: Condensed Scordite
+    published: true
     volume: 0.15
   Glossy Scordite:
     AsteroidMaxRadius: 5000
@@ -71,9 +81,11 @@ items:
     OreBasicType: 46687
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46687
     marketGroup: 519
     name: Glossy Scordite
+    published: true
     volume: 0.15
   Massive Scordite:
     AsteroidMaxRadius: 16255
@@ -85,9 +97,11 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17464
     marketGroup: 519
     name: Massive Scordite
+    published: true
     volume: 0.15
   Scordite:
     AsteroidMaxRadius: 16255
@@ -99,7 +113,9 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1228
     marketGroup: 519
     name: Scordite
+    published: true
     volume: 0.15

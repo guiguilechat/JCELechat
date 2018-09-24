@@ -32,6 +32,7 @@ items:
     id: 24554
     marketGroup: 2269
     name: '''Aurora Ominae'' Thermal Doomsday'
+    published: true
     volume: 8000.0
   '''Gjallarhorn'' Explosive Doomsday':
     CanCloak: 1
@@ -66,6 +67,7 @@ items:
     id: 23674
     marketGroup: 2270
     name: '''Gjallarhorn'' Explosive Doomsday'
+    published: true
     volume: 8000.0
   '''Judgment'' Electromagnetic Doomsday':
     CanCloak: 1
@@ -99,6 +101,7 @@ items:
     id: 24550
     marketGroup: 2267
     name: '''Judgment'' Electromagnetic Doomsday'
+    published: true
     volume: 8000.0
   '''Oblivion'' Kinetic Doomsday':
     CanCloak: 1
@@ -132,8 +135,10 @@ items:
     id: 24552
     marketGroup: 2268
     name: '''Oblivion'' Kinetic Doomsday'
+    published: true
     volume: 8000.0
   Bosonic Field Generator:
+    CanCloak: 1
     CanFitShipGroup01: 30
     CapacitorNeed: 30000.0
     ConsumptionQuantity: 2000
@@ -177,8 +182,10 @@ items:
     id: 40633
     marketGroup: 2276
     name: Bosonic Field Generator
+    published: true
     volume: 8000.0
   Gravitational Transportation Field Oscillator:
+    CanCloak: 1
     CanFitShipGroup01: 30
     CapacitorNeed: 30000.0
     ConsumptionQuantity: 2000
@@ -215,6 +222,7 @@ items:
     id: 40634
     marketGroup: 2276
     name: Gravitational Transportation Field Oscillator
+    published: true
     volume: 8000.0
   Pulse Activated Nexus Invulnerability Core:
     BuffDuration: 300000
@@ -240,8 +248,10 @@ items:
     id: 42522
     marketGroup: 2325
     name: Pulse Activated Nexus Invulnerability Core
+    published: true
     volume: 8000.0
   ‘Cold Wind’ Kinetic Reaper:
+    CanCloak: 1
     CanFitShipType1: 3764
     CanFitShipType2: 45649
     CapacitorNeed: 32500.0
@@ -284,8 +294,10 @@ items:
     id: 41442
     marketGroup: 2268
     name: ‘Cold Wind’ Kinetic Reaper
+    published: true
     volume: 8000.0
   ‘Divine Harvest’ Electromagnetic Reaper:
+    CanCloak: 1
     CanFitShipType1: 11567
     CanFitShipType2: 42241
     CapacitorNeed: 35000.0
@@ -328,8 +340,10 @@ items:
     id: 40632
     marketGroup: 2267
     name: ‘Divine Harvest’ Electromagnetic Reaper
+    published: true
     volume: 8000.0
   ‘Geiravor’ Explosive Lance:
+    CanCloak: 1
     CanFitShipType1: 23773
     CanFitShipType2: 42126
     CanFitShipType3: 42241
@@ -373,8 +387,10 @@ items:
     id: 41441
     marketGroup: 2270
     name: ‘Geiravor’ Explosive Lance
+    published: true
     volume: 8000.0
   ‘Guillotine’ Thermal Reaper:
+    CanCloak: 1
     CanFitShipType1: 671
     CanFitShipType2: 42126
     CanFitShipType3: 45649
@@ -418,8 +434,10 @@ items:
     id: 41443
     marketGroup: 2269
     name: ‘Guillotine’ Thermal Reaper
+    published: true
     volume: 8000.0
   ‘Holy Destiny’ Electromagnetic Lance:
+    CanCloak: 1
     CanFitShipType1: 11567
     CanFitShipType2: 42241
     CapacitorNeed: 35000.0
@@ -462,8 +480,10 @@ items:
     id: 40631
     marketGroup: 2267
     name: ‘Holy Destiny’ Electromagnetic Lance
+    published: true
     volume: 8000.0
   ‘Iron Pike’ Kinetic Lance:
+    CanCloak: 1
     CanFitShipType1: 3764
     CanFitShipType2: 45649
     CapacitorNeed: 32500.0
@@ -506,8 +526,10 @@ items:
     id: 41439
     marketGroup: 2268
     name: ‘Iron Pike’ Kinetic Lance
+    published: true
     volume: 8000.0
   ‘Jormungandr’ Explosive Reaper:
+    CanCloak: 1
     CanFitShipType1: 23773
     CanFitShipType2: 42126
     CanFitShipType3: 42241
@@ -551,8 +573,10 @@ items:
     id: 41444
     marketGroup: 2270
     name: ‘Jormungandr’ Explosive Reaper
+    published: true
     volume: 8000.0
-  ‘Phalarica�� Thermal Lance:
+  ‘Phalarica’ Thermal Lance:
+    CanCloak: 1
     CanFitShipType1: 671
     CanFitShipType2: 42126
     CanFitShipType3: 45649
@@ -595,5 +619,6 @@ items:
     ThermalDamage: 50000.0
     id: 41440
     marketGroup: 2269
-    name: ‘Phalarica�� Thermal Lance
+    name: ‘Phalarica’ Thermal Lance
+    published: true
     volume: 8000.0

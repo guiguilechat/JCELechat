@@ -12,6 +12,7 @@ items:
     id: 22621
     marketGroup: 935
     name: '''Anguis'' Ice Harvester Upgrade'
+    published: true
     volume: 5.0
   '''Aoede'' Mining Laser Upgrade':
     Cpu: 40.0
@@ -27,6 +28,7 @@ items:
     id: 22615
     marketGroup: 935
     name: '''Aoede'' Mining Laser Upgrade'
+    published: true
     volume: 5.0
   '''Carpo'' Mining Laser Upgrade':
     CpuPenaltyPercent: 6.0
@@ -41,6 +43,7 @@ items:
     id: 22613
     marketGroup: 935
     name: '''Carpo'' Mining Laser Upgrade'
+    published: true
     volume: 5.0
   '''Ingenii'' Ice Harvester Upgrade':
     Cpu: 40.0
@@ -56,6 +59,7 @@ items:
     id: 22623
     marketGroup: 935
     name: '''Ingenii'' Ice Harvester Upgrade'
+    published: true
     volume: 5.0
   Elara Restrained Mining Laser Upgrade:
     Cpu: 35.0
@@ -70,6 +74,7 @@ items:
     id: 22611
     marketGroup: 935
     name: Elara Restrained Mining Laser Upgrade
+    published: true
     volume: 5.0
   Frigoris Restrained Ice Harvester Upgrade:
     Cpu: 35.0
@@ -84,6 +89,7 @@ items:
     id: 22619
     marketGroup: 935
     name: Frigoris Restrained Ice Harvester Upgrade
+    published: true
     volume: 5.0
   Ice Harvester Upgrade I:
     CpuPenaltyPercent: 10.0
@@ -96,6 +102,7 @@ items:
     id: 22576
     marketGroup: 935
     name: Ice Harvester Upgrade I
+    published: true
     volume: 5.0
   Ice Harvester Upgrade II:
     CpuPenaltyPercent: 12.5
@@ -109,6 +116,7 @@ items:
     id: 28578
     marketGroup: 935
     name: Ice Harvester Upgrade II
+    published: true
     volume: 5.0
   Mining Laser Upgrade I:
     CpuPenaltyPercent: 10.0
@@ -121,6 +129,7 @@ items:
     id: 22542
     marketGroup: 935
     name: Mining Laser Upgrade I
+    published: true
     volume: 5.0
   Mining Laser Upgrade II:
     CpuPenaltyPercent: 12.5
@@ -134,4 +143,5 @@ items:
     id: 28576
     marketGroup: 935
     name: Mining Laser Upgrade II
+    published: true
     volume: 5.0

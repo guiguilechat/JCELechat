@@ -22,6 +22,7 @@ items:
     id: 33585
     marketGroup: 1847
     name: Amarr Encounter Surveillance System
+    published: true
     volume: 200.0
   Caldari Encounter Surveillance System:
     ArmorHP: 30000
@@ -46,6 +47,7 @@ items:
     id: 33595
     marketGroup: 1847
     name: Caldari Encounter Surveillance System
+    published: true
     volume: 200.0
   Gallente Encounter Surveillance System:
     ArmorHP: 30000
@@ -70,6 +72,7 @@ items:
     id: 33608
     marketGroup: 1847
     name: Gallente Encounter Surveillance System
+    published: true
     volume: 200.0
   Minmatar Encounter Surveillance System:
     ArmorHP: 30000
@@ -94,4 +97,5 @@ items:
     id: 33610
     marketGroup: 1847
     name: Minmatar Encounter Surveillance System
+    published: true
     volume: 200.0

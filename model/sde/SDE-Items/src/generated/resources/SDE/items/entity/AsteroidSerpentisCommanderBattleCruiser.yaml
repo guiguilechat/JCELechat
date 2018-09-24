@@ -1,0 +1,31 @@
+items:
+  Shadow Serpentis Captain:
+    id: 23466
+    name: Shadow Serpentis Captain
+    published: false
+    volume: 112000.0
+  Shadow Serpentis Captain Sentry:
+    id: 23467
+    name: Shadow Serpentis Captain Sentry
+    published: false
+    volume: 112000.0
+  Shadow Serpentis High Captain:
+    id: 23468
+    name: Shadow Serpentis High Captain
+    published: false
+    volume: 112000.0
+  Shadow Serpentis Platoon Leader:
+    id: 23465
+    name: Shadow Serpentis Platoon Leader
+    published: false
+    volume: 112000.0
+  Shadow Serpentis Squad Leader:
+    id: 23464
+    name: Shadow Serpentis Squad Leader
+    published: false
+    volume: 112000.0
+  Shadow Serpentis Wing Leader:
+    id: 23463
+    name: Shadow Serpentis Wing Leader
+    published: false
+    volume: 112000.0

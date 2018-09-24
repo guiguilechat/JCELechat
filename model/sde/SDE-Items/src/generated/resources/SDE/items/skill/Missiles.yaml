@@ -5,11 +5,12 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     SpeedFactor: 1.0
     id: 3322
     marketGroup: 373
     name: Auto-Targeting Missiles
+    published: true
     volume: 0.01
   Bomb Deployment:
     PrimaryAttribute: 167
@@ -17,11 +18,12 @@ items:
     RequiredSkill1Level: 4
     RofBonus: -10
     SecondaryAttribute: 168
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     SpeedFactor: 1.0
     id: 28073
     marketGroup: 373
     name: Bomb Deployment
+    published: true
     volume: 0.01
   Cruise Missile Specialization:
     CanNotBeTrainedOnTrial: 1
@@ -32,11 +34,12 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     SpeedFactor: 1.0
     id: 20212
     marketGroup: 373
     name: Cruise Missile Specialization
+    published: true
     volume: 0.01
   Cruise Missiles:
     DamageMultiplierBonus: 5
@@ -46,21 +49,23 @@ items:
     RequiredSkill2: 3324
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     SpeedFactor: 1.0
     id: 3326
     marketGroup: 373
     name: Cruise Missiles
+    published: true
     volume: 0.01
   Defender Missiles:
     MissileVelocityBonus: 10.0
     PrimaryAttribute: 167
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     SpeedFactor: 1.0
     id: 3323
     marketGroup: 373
     name: Defender Missiles
+    published: true
     volume: 0.01
   Guided Missile Precision:
     AoeCloudSizeBonus: -5.0
@@ -68,11 +73,12 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     SpeedFactor: 1.0
     id: 20312
     marketGroup: 373
     name: Guided Missile Precision
+    published: true
     volume: 0.01
   Heavy Assault Missile Specialization:
     CanNotBeTrainedOnTrial: 1
@@ -83,11 +89,12 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     SpeedFactor: 1.0
     id: 25718
     marketGroup: 373
     name: Heavy Assault Missile Specialization
+    published: true
     volume: 0.01
   Heavy Assault Missiles:
     DamageMultiplierBonus: 5
@@ -97,11 +104,12 @@ items:
     RequiredSkill2: 3321
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     SpeedFactor: 1.0
     id: 25719
     marketGroup: 373
     name: Heavy Assault Missiles
+    published: true
     volume: 0.01
   Heavy Missile Specialization:
     CanNotBeTrainedOnTrial: 1
@@ -112,11 +120,12 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     SpeedFactor: 1.0
     id: 20211
     marketGroup: 373
     name: Heavy Missile Specialization
+    published: true
     volume: 0.01
   Heavy Missiles:
     DamageMultiplierBonus: 5
@@ -126,11 +135,12 @@ items:
     RequiredSkill2: 3321
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     SpeedFactor: 1.0
     id: 3324
     marketGroup: 373
     name: Heavy Missiles
+    published: true
     volume: 0.01
   Light Missile Specialization:
     CanNotBeTrainedOnTrial: 1
@@ -141,11 +151,12 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     SpeedFactor: 1.0
     id: 20210
     marketGroup: 373
     name: Light Missile Specialization
+    published: true
     volume: 0.01
   Light Missiles:
     DamageMultiplierBonus: 5
@@ -153,11 +164,12 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     SpeedFactor: 1.0
     id: 3321
     marketGroup: 373
     name: Light Missiles
+    published: true
     volume: 0.01
   Missile Bombardment:
     MaxFlightTimeBonus: 10
@@ -165,32 +177,35 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     SpeedFactor: 1.0
     id: 12441
     marketGroup: 373
     name: Missile Bombardment
+    published: true
     volume: 0.01
   Missile Launcher Operation:
     PrimaryAttribute: 167
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     SpeedFactor: 1.0
     id: 3319
     marketGroup: 373
     name: Missile Launcher Operation
+    published: true
     volume: 0.01
   Missile Projection:
     PrimaryAttribute: 167
     RequiredSkill1: 3319
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     SpeedFactor: 10.0
     id: 12442
     marketGroup: 373
     name: Missile Projection
+    published: true
     volume: 0.01
   Rapid Launch:
     PrimaryAttribute: 167
@@ -198,11 +213,12 @@ items:
     RequiredSkill1Level: 2
     RofBonus: -3
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     SpeedFactor: 1.0
     id: 21071
     marketGroup: 373
     name: Rapid Launch
+    published: true
     volume: 0.01
   Rocket Specialization:
     CanNotBeTrainedOnTrial: 1
@@ -213,11 +229,12 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     SpeedFactor: 1.0
     id: 20209
     marketGroup: 373
     name: Rocket Specialization
+    published: true
     volume: 0.01
   Rockets:
     DamageMultiplierBonus: 5
@@ -225,11 +242,12 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     SpeedFactor: 1.0
     id: 3320
     marketGroup: 373
     name: Rockets
+    published: true
     volume: 0.01
   Target Navigation Prediction:
     AoeVelocityBonus: 10.0
@@ -237,11 +255,12 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     SpeedFactor: 1.0
     id: 20314
     marketGroup: 373
     name: Target Navigation Prediction
+    published: true
     volume: 0.01
   Torpedo Specialization:
     CanNotBeTrainedOnTrial: 1
@@ -252,11 +271,12 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     SpeedFactor: 1.0
     id: 20213
     marketGroup: 373
     name: Torpedo Specialization
+    published: true
     volume: 0.01
   Torpedoes:
     DamageMultiplierBonus: 5
@@ -266,11 +286,12 @@ items:
     RequiredSkill2: 3324
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4
+    SkillTimeConstant: 4.0
     SpeedFactor: 1.0
     id: 3325
     marketGroup: 373
     name: Torpedoes
+    published: true
     volume: 0.01
   Warhead Upgrades:
     DamageMultiplierBonus: 2
@@ -278,11 +299,12 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     SpeedFactor: 1.0
     id: 20315
     marketGroup: 373
     name: Warhead Upgrades
+    published: true
     volume: 0.01
   XL Cruise Missile Specialization:
     CanNotBeTrainedOnTrial: 1
@@ -293,11 +315,12 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     SpeedFactor: 1.0
     id: 41410
     marketGroup: 373
     name: XL Cruise Missile Specialization
+    published: true
     volume: 0.01
   XL Cruise Missiles:
     CanNotBeTrainedOnTrial: 1
@@ -308,11 +331,12 @@ items:
     RequiredSkill2: 3326
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 7
+    SkillTimeConstant: 7.0
     SpeedFactor: 1.0
     id: 32435
     marketGroup: 373
     name: XL Cruise Missiles
+    published: true
     volume: 0.01
   XL Torpedo Specialization:
     CanNotBeTrainedOnTrial: 1
@@ -323,11 +347,12 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     SpeedFactor: 1.0
     id: 41409
     marketGroup: 373
     name: XL Torpedo Specialization
+    published: true
     volume: 0.01
   XL Torpedoes:
     CanNotBeTrainedOnTrial: 1
@@ -338,9 +363,10 @@ items:
     RequiredSkill2: 3325
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 7
+    SkillTimeConstant: 7.0
     SpeedFactor: 1.0
     id: 21668
     marketGroup: 373
     name: XL Torpedoes
+    published: true
     volume: 0.01

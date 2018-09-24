@@ -1,0 +1,1324 @@
+items:
+  Active Armor Enhancement:
+    id: 353378
+    name: Active Armor Enhancement
+    published: false
+    volume: 0.01
+  Active Scanner Operation:
+    id: 364920
+    name: Active Scanner Operation
+    published: false
+  Active Shield Enhancement:
+    id: 353369
+    name: Active Shield Enhancement
+    published: false
+    volume: 0.01
+  Amarr Assault Dropsuits:
+    id: 364609
+    name: Amarr Assault Dropsuits
+    published: false
+  Amarr Commando Dropsuits:
+    id: 364602
+    name: Amarr Commando Dropsuits
+    published: false
+    volume: 0.01
+  Amarr Heavy Dropsuits:
+    id: 353685
+    name: Amarr Heavy Dropsuits
+    published: false
+    volume: 0.01
+  Amarr Light Dropsuits:
+    id: 364570
+    name: Amarr Light Dropsuits
+    published: false
+    volume: 0.01
+  Amarr Logistics Dropsuits:
+    id: 364610
+    name: Amarr Logistics Dropsuits
+    published: false
+  Amarr Medium Dropsuits:
+    id: 364571
+    name: Amarr Medium Dropsuits
+    published: false
+  Amarr Pilot Dropsuits:
+    id: 364595
+    name: Amarr Pilot Dropsuits
+    published: false
+  Amarr Scout Dropsuits:
+    id: 364594
+    name: Amarr Scout Dropsuits
+    published: false
+  Amarr Sentinel Dropsuits:
+    id: 364601
+    name: Amarr Sentinel Dropsuits
+    published: false
+  Armor Fitting Optimization:
+    id: 365832
+    name: Armor Fitting Optimization
+    published: false
+    volume: 0.01
+  Armor Plating:
+    id: 353379
+    name: Armor Plating
+    published: false
+    volume: 0.01
+  Armor Repair Systems:
+    id: 353376
+    name: Armor Repair Systems
+    published: false
+    volume: 0.01
+  Assault Dropships:
+    id: 366228
+    name: Assault Dropships
+    published: false
+    volume: 0.01
+  Assault Rifle Ammo Capacity:
+    id: 364656
+    name: Assault Rifle Ammo Capacity
+    published: false
+  Assault Rifle Fitting Optimization:
+    id: 364661
+    name: Assault Rifle Fitting Optimization
+    published: false
+  Assault Rifle Operation:
+    id: 353461
+    name: Assault Rifle Operation
+    published: false
+    volume: 0.01
+  Assault Rifle Proficiency:
+    id: 353462
+    name: Assault Rifle Proficiency
+    published: false
+    volume: 0.01
+  Assault Rifle Rapid Reload:
+    id: 364658
+    name: Assault Rifle Rapid Reload
+    published: false
+  Assault Rifle Sharpshooter:
+    id: 364659
+    name: Assault Rifle Sharpshooter
+    published: false
+  Bolt Pistol Ammo Capacity:
+    id: 366589
+    name: Bolt Pistol Ammo Capacity
+    published: false
+    volume: 0.01
+  Bolt Pistol Fitting Optimization:
+    id: 366587
+    name: Bolt Pistol Fitting Optimization
+    published: false
+    volume: 0.01
+  Bolt Pistol Operation:
+    id: 366592
+    name: Bolt Pistol Operation
+    published: false
+    volume: 0.01
+  Bolt Pistol Proficiency:
+    id: 366590
+    name: Bolt Pistol Proficiency
+    published: false
+    volume: 0.01
+  Bolt Pistol Rapid Reload:
+    id: 366591
+    name: Bolt Pistol Rapid Reload
+    published: false
+    volume: 0.01
+  Caldari Assault Dropship:
+    id: 364943
+    name: Caldari Assault Dropship
+    published: false
+  Caldari Assault Dropsuits:
+    id: 364611
+    name: Caldari Assault Dropsuits
+    published: false
+  Caldari Commando Dropsuits:
+    id: 364603
+    name: Caldari Commando Dropsuits
+    published: false
+  Caldari Enforcer HAV:
+    id: 364921
+    name: Caldari Enforcer HAV
+    published: false
+  Caldari Heavy Dropsuits:
+    id: 364575
+    name: Caldari Heavy Dropsuits
+    published: false
+  Caldari Light Dropsuits:
+    id: 364573
+    name: Caldari Light Dropsuits
+    published: false
+    volume: 0.01
+  Caldari Logistics Dropship:
+    id: 364751
+    name: Caldari Logistics Dropship
+    published: false
+    volume: 0.01
+  Caldari Logistics Dropsuits:
+    id: 364612
+    name: Caldari Logistics Dropsuits
+    published: false
+  Caldari Logistics LAV:
+    id: 364748
+    name: Caldari Logistics LAV
+    published: false
+    volume: 0.01
+  Caldari Marauder:
+    id: 353399
+    name: Caldari Marauder
+    published: false
+    volume: 0.01
+  Caldari Medium Dropsuits:
+    id: 353686
+    name: Caldari Medium Dropsuits
+    published: false
+    volume: 0.01
+  Caldari Pilot Dropsuits:
+    id: 364596
+    name: Caldari Pilot Dropsuits
+    published: false
+  Caldari Scout Dropsuits:
+    id: 364597
+    name: Caldari Scout Dropsuits
+    published: false
+  Caldari Scout LAV:
+    id: 364933
+    name: Caldari Scout LAV
+    published: false
+  Caldari Sentinel Dropsuits:
+    id: 364604
+    name: Caldari Sentinel Dropsuits
+    published: false
+  Cardiac Regulation:
+    id: 353427
+    name: Cardiac Regulation
+    published: false
+    volume: 0.01
+  Chassis Modification:
+    id: 364775
+    name: Chassis Modification
+    published: false
+  Cloak Field  Operation:
+    id: 366760
+    name: Cloak Field  Operation
+    published: false
+    volume: 0.01
+  Combat Rifle Ammo Capacity:
+    id: 365396
+    name: Combat Rifle Ammo Capacity
+    published: false
+    volume: 0.01
+  Combat Rifle Fitting Optimization:
+    id: 365399
+    name: Combat Rifle Fitting Optimization
+    published: false
+    volume: 0.01
+  Combat Rifle Operation:
+    id: 365393
+    name: Combat Rifle Operation
+    published: false
+    volume: 0.01
+  Combat Rifle Proficiency:
+    id: 365397
+    name: Combat Rifle Proficiency
+    published: false
+    volume: 0.01
+  Combat Rifle Rapid Reload:
+    id: 365400
+    name: Combat Rifle Rapid Reload
+    published: false
+    volume: 0.01
+  Combat Rifle Sharpshooter:
+    id: 365395
+    name: Combat Rifle Sharpshooter
+    published: false
+    volume: 0.01
+  Core Grid Management:
+    id: 353405
+    name: Core Grid Management
+    published: false
+    volume: 0.01
+  Corporations:
+    id: 352887
+    name: Corporations
+    published: false
+    volume: 0.01
+  Damage Amplifier Fitting Optimization:
+    id: 365893
+    name: Damage Amplifier Fitting Optimization
+    published: false
+    volume: 0.01
+  Demolitions:
+    id: 353482
+    name: Demolitions
+    published: false
+    volume: 0.01
+  Drop Uplink Deployment:
+    id: 353363
+    name: Drop Uplink Deployment
+    published: false
+    volume: 0.01
+  Dropship Operation:
+    id: 353388
+    name: Dropship Operation
+    published: false
+    volume: 0.01
+  Dropsuit Armor Upgrades:
+    id: 353375
+    name: Dropsuit Armor Upgrades
+    published: false
+    volume: 0.01
+  Dropsuit Biotic Upgrades:
+    id: 364521
+    name: Dropsuit Biotic Upgrades
+    published: false
+  Dropsuit Command:
+    id: 353408
+    name: Dropsuit Command
+    published: false
+    volume: 0.01
+  Dropsuit Core Upgrades:
+    id: 364520
+    name: Dropsuit Core Upgrades
+    published: false
+  Dropsuit Electronics:
+    id: 353352
+    name: Dropsuit Electronics
+    published: false
+    volume: 0.01
+  Dropsuit Engineering:
+    id: 353366
+    name: Dropsuit Engineering
+    published: false
+    volume: 0.01
+  Dropsuit Shield Upgrades:
+    id: 353370
+    name: Dropsuit Shield Upgrades
+    published: false
+    volume: 0.01
+  Dropsuit Upgrades:
+    id: 364519
+    name: Dropsuit Upgrades
+    published: false
+  Duplicate skill?:
+    id: 364579
+    name: Duplicate skill?
+    published: false
+  Engine Core Calibration:
+    id: 364773
+    name: Engine Core Calibration
+    published: false
+    volume: 0.01
+  Explosives:
+    id: 364531
+    name: Explosives
+    published: false
+  Flaylock Pistol Ammo Capacity:
+    id: 364690
+    name: Flaylock Pistol Ammo Capacity
+    published: false
+  Flaylock Pistol Fitting Optimization:
+    id: 364691
+    name: Flaylock Pistol Fitting Optimization
+    published: false
+  Flaylock Pistol Operation:
+    id: 363788
+    name: Flaylock Pistol Operation
+    published: false
+  Flaylock Pistol Proficiency:
+    id: 363789
+    name: Flaylock Pistol Proficiency
+    published: false
+  Flaylock Pistol Rapid Reload:
+    id: 364692
+    name: Flaylock Pistol Rapid Reload
+    published: false
+  Flaylock Pistol Sharpshooter:
+    id: 364693
+    name: Flaylock Pistol Sharpshooter
+    published: false
+  Forge Gun Ammo Capacity:
+    id: 364702
+    name: Forge Gun Ammo Capacity
+    published: false
+  Forge Gun Fitting Optimization:
+    id: 364703
+    name: Forge Gun Fitting Optimization
+    published: false
+  Forge Gun Operation:
+    id: 353463
+    name: Forge Gun Operation
+    published: false
+    volume: 0.01
+  Forge Gun Proficiency:
+    id: 353464
+    name: Forge Gun Proficiency
+    published: false
+    volume: 0.01
+  Forge Gun Rapid Reload:
+    id: 364704
+    name: Forge Gun Rapid Reload
+    published: false
+  Forge Gun Sharpshooter:
+    id: 364705
+    name: Forge Gun Sharpshooter
+    published: false
+  Gallente Assault Dropship:
+    id: 364945
+    name: Gallente Assault Dropship
+    published: false
+  Gallente Assault Dropsuits:
+    id: 364613
+    name: Gallente Assault Dropsuits
+    published: false
+  Gallente Commando Dropsuits:
+    id: 364606
+    name: Gallente Commando Dropsuits
+    published: false
+    volume: 0.01
+  Gallente Dropship:
+    id: 353390
+    name: Gallente Dropship
+    published: false
+    volume: 0.01
+  Gallente Enforcer HAV:
+    id: 364922
+    name: Gallente Enforcer HAV
+    published: false
+  Gallente HAV:
+    id: 353389
+    name: Gallente HAV
+    published: false
+    volume: 0.01
+  Gallente Heavy Dropsuits:
+    id: 364581
+    name: Gallente Heavy Dropsuits
+    published: false
+  Gallente LAV:
+    id: 353391
+    name: Gallente LAV
+    published: false
+    volume: 0.01
+  Gallente Light Dropsuits:
+    id: 353687
+    name: Gallente Light Dropsuits
+    published: false
+    volume: 0.01
+  Gallente Logistics Dropship:
+    id: 364750
+    name: Gallente Logistics Dropship
+    published: false
+    volume: 0.01
+  Gallente Logistics Dropsuit:
+    id: 364614
+    name: Gallente Logistics Dropsuit
+    published: false
+  Gallente Logistics LAV:
+    id: 364749
+    name: Gallente Logistics LAV
+    published: false
+    volume: 0.01
+  Gallente Marauder:
+    id: 364747
+    name: Gallente Marauder
+    published: false
+  Gallente Medium Dropsuits:
+    id: 364580
+    name: Gallente Medium Dropsuits
+    published: false
+  Gallente Pilot Dropsuits:
+    id: 364598
+    name: Gallente Pilot Dropsuits
+    published: false
+  Gallente Scout Dropsuits:
+    id: 364617
+    name: Gallente Scout Dropsuits
+    published: false
+  Gallente Scout LAV:
+    id: 364935
+    name: Gallente Scout LAV
+    published: false
+  Gallente Sentinel Dropsuits:
+    id: 364605
+    name: Gallente Sentinel Dropsuits
+    published: false
+  Grenadier:
+    id: 353484
+    name: Grenadier
+    published: false
+    volume: 0.01
+  HAV Operation:
+    id: 353387
+    name: HAV Operation
+    published: false
+    volume: 0.01
+  Hand-to-Hand Combat:
+    id: 353479
+    name: Hand-to-Hand Combat
+    published: false
+    volume: 0.01
+  Handheld Weapon Upgrades:
+    id: 364618
+    name: Handheld Weapon Upgrades
+    published: false
+  Heavy Machine Gun Ammo Capacity:
+    id: 364706
+    name: Heavy Machine Gun Ammo Capacity
+    published: false
+  Heavy Machine Gun Fitting Optimization:
+    id: 364709
+    name: Heavy Machine Gun Fitting Optimization
+    published: false
+  Heavy Machine Gun Operation:
+    id: 353467
+    name: Heavy Machine Gun Operation
+    published: false
+    volume: 0.01
+  Heavy Machine Gun Proficiency:
+    id: 353468
+    name: Heavy Machine Gun Proficiency
+    published: false
+    volume: 0.01
+  Heavy Machine Gun Rapid Reload:
+    id: 364707
+    name: Heavy Machine Gun Rapid Reload
+    published: false
+  Heavy Machine Gun Sharpshooter:
+    id: 364708
+    name: Heavy Machine Gun Sharpshooter
+    published: false
+  Heavy Weapon Capacity:
+    id: 353459
+    name: Heavy Weapon Capacity
+    published: false
+    volume: 0.01
+  Heavy Weapon Capacity Proficiency:
+    id: 353460
+    name: Heavy Weapon Capacity Proficiency
+    published: false
+    volume: 0.01
+  Heavy Weapon Operation:
+    id: 364532
+    name: Heavy Weapon Operation
+    published: false
+  Heavy Weapon Rapid Reload:
+    id: 353447
+    name: Heavy Weapon Rapid Reload
+    published: false
+    volume: 0.01
+  Heavy Weapon Rapid Reload Proficiency:
+    id: 353448
+    name: Heavy Weapon Rapid Reload Proficiency
+    published: false
+    volume: 0.01
+  Heavy Weapon Sharpshooter:
+    id: 353453
+    name: Heavy Weapon Sharpshooter
+    published: false
+    volume: 0.01
+  Heavy Weapon Sharpshooting Proficiency:
+    id: 353454
+    name: Heavy Weapon Sharpshooting Proficiency
+    published: false
+    volume: 0.01
+  Heavy Weapon Upgrade:
+    id: 353441
+    name: Heavy Weapon Upgrade
+    published: false
+    volume: 0.01
+  Heavy Weapon Upgrade Proficiency:
+    id: 353485
+    name: Heavy Weapon Upgrade Proficiency
+    published: false
+    volume: 0.01
+  Infantry Skill Endurance:
+    id: 353428
+    name: Infantry Skill Endurance
+    published: false
+    volume: 0.01
+  Ion Pistol Ammo Capacity:
+    id: 366597
+    name: Ion Pistol Ammo Capacity
+    published: false
+    volume: 0.01
+  Ion Pistol Fitting Optimization:
+    id: 366595
+    name: Ion Pistol Fitting Optimization
+    published: false
+    volume: 0.01
+  Ion Pistol Operation:
+    id: 366600
+    name: Ion Pistol Operation
+    published: false
+    volume: 0.01
+  Ion Pistol Proficiency:
+    id: 366598
+    name: Ion Pistol Proficiency
+    published: false
+    volume: 0.01
+  Ion Pistol Rapid Reload:
+    id: 366599
+    name: Ion Pistol Rapid Reload
+    published: false
+    volume: 0.01
+  Ion Pistol Sharpshooter:
+    id: 366596
+    name: Ion Pistol Sharpshooter
+    published: false
+    volume: 0.01
+  Kinetic Catalyzation:
+    id: 353426
+    name: Kinetic Catalyzation
+    published: false
+    volume: 0.01
+  LAV Operation:
+    id: 353386
+    name: LAV Operation
+    published: false
+    volume: 0.01
+  Large Blaster Ammo Capacity:
+    id: 365873
+    name: Large Blaster Ammo Capacity
+    published: false
+    volume: 0.01
+  Large Blaster Fitting Optimization:
+    id: 365870
+    name: Large Blaster Fitting Optimization
+    published: false
+    volume: 0.01
+  Large Blaster Operation:
+    id: 353317
+    name: Large Blaster Operation
+    published: false
+    volume: 0.01
+  Large Blaster Proficiency:
+    id: 353318
+    name: Large Blaster Proficiency
+    published: false
+    volume: 0.01
+  Large Blaster Reload Systems:
+    id: 365872
+    name: Large Blaster Reload Systems
+    published: false
+    volume: 0.01
+  Large Missile Launcher Ammo Capacity:
+    id: 365876
+    name: Large Missile Launcher Ammo Capacity
+    published: false
+    volume: 0.01
+  Large Missile Launcher Fitting Optimization:
+    id: 365875
+    name: Large Missile Launcher Fitting Optimization
+    published: false
+    volume: 0.01
+  Large Missile Launcher Operation:
+    id: 353322
+    name: Large Missile Launcher Operation
+    published: false
+    volume: 0.01
+  Large Missile Launcher Proficiency:
+    id: 353323
+    name: Large Missile Launcher Proficiency
+    published: false
+    volume: 0.01
+  Large Missile Launcher Reload Systems:
+    id: 365877
+    name: Large Missile Launcher Reload Systems
+    published: false
+    volume: 0.01
+  Large Railgun Ammo Capacity:
+    id: 365864
+    name: Large Railgun Ammo Capacity
+    published: false
+    volume: 0.01
+  Large Railgun Fitting Optimization:
+    id: 365866
+    name: Large Railgun Fitting Optimization
+    published: false
+    volume: 0.01
+  Large Railgun Operation:
+    id: 365844
+    name: Large Railgun Operation
+    published: false
+    volume: 0.01
+  Large Railgun Proficiency:
+    id: 365868
+    name: Large Railgun Proficiency
+    published: false
+    volume: 0.01
+  Large Railgun Reload Systems:
+    id: 365865
+    name: Large Railgun Reload Systems
+    published: false
+    volume: 0.01
+  Large Turret Operation:
+    id: 365878
+    name: Large Turret Operation
+    published: false
+    volume: 0.01
+  Laser Rifle Ammo Capacity:
+    id: 364663
+    name: Laser Rifle Ammo Capacity
+    published: false
+  Laser Rifle Fitting Optimization:
+    id: 364662
+    name: Laser Rifle Fitting Optimization
+    published: false
+  Laser Rifle Operation:
+    id: 353465
+    name: Laser Rifle Operation
+    published: false
+    volume: 0.01
+  Laser Rifle Proficiency:
+    id: 353466
+    name: Laser Rifle Proficiency
+    published: false
+    volume: 0.01
+  Laser Rifle Rapid Reload:
+    id: 364665
+    name: Laser Rifle Rapid Reload
+    published: false
+  Laser Rifle Sharpshooter:
+    id: 364664
+    name: Laser Rifle Sharpshooter
+    published: false
+  Light Weapon Capacity:
+    id: 353457
+    name: Light Weapon Capacity
+    published: false
+    volume: 0.01
+  Light Weapon Capacity Proficiency:
+    id: 353458
+    name: Light Weapon Capacity Proficiency
+    published: false
+    volume: 0.01
+  Light Weapon Operation:
+    id: 364533
+    name: Light Weapon Operation
+    published: false
+  Light Weapon Rapid Reload:
+    id: 353445
+    name: Light Weapon Rapid Reload
+    published: false
+    volume: 0.01
+  Light Weapon Rapid Reload Proficiency:
+    id: 353446
+    name: Light Weapon Rapid Reload Proficiency
+    published: false
+    volume: 0.01
+  Light Weapon Sharpshooter:
+    id: 353451
+    name: Light Weapon Sharpshooter
+    published: false
+    volume: 0.01
+  Light Weapon Sharpshooter Proficiency:
+    id: 353452
+    name: Light Weapon Sharpshooter Proficiency
+    published: false
+    volume: 0.01
+  Light Weapon Upgrade:
+    id: 353438
+    name: Light Weapon Upgrade
+    published: false
+    volume: 0.01
+  Light Weapon Upgrade Proficiency:
+    id: 353440
+    name: Light Weapon Upgrade Proficiency
+    published: false
+    volume: 0.01
+  Long Range Scanning:
+    id: 353365
+    name: Long Range Scanning
+    published: false
+    volume: 0.01
+  Magsec SMG Ammo Capacity:
+    id: 365405
+    name: Magsec SMG Ammo Capacity
+    published: false
+    volume: 0.01
+  Magsec SMG Fitting Optimization:
+    id: 365407
+    name: Magsec SMG Fitting Optimization
+    published: false
+    volume: 0.01
+  Magsec SMG Operation:
+    id: 365401
+    name: Magsec SMG Operation
+    published: false
+    volume: 0.01
+  Magsec SMG Proficiency:
+    id: 365406
+    name: Magsec SMG Proficiency
+    published: false
+    volume: 0.01
+  Magsec SMG Rapid Reload:
+    id: 365408
+    name: Magsec SMG Rapid Reload
+    published: false
+    volume: 0.01
+  Magsec SMG Sharpshooter:
+    id: 365404
+    name: Magsec SMG Sharpshooter
+    published: false
+    volume: 0.01
+  Mass Driver Ammo Capacity:
+    id: 364666
+    name: Mass Driver Ammo Capacity
+    published: false
+  Mass Driver Fitting Optimization:
+    id: 364668
+    name: Mass Driver Fitting Optimization
+    published: false
+  Mass Driver Operation:
+    id: 353469
+    name: Mass Driver Operation
+    published: false
+    volume: 0.01
+  Mass Driver Proficiency:
+    id: 353470
+    name: Mass Driver Proficiency
+    published: false
+    volume: 0.01
+  Mass Driver Rapid Reload:
+    id: 364667
+    name: Mass Driver Rapid Reload
+    published: false
+  Mass Driver Sharpshooter:
+    id: 364669
+    name: Mass Driver Sharpshooter
+    published: false
+  Megacorp Control:
+    id: 352888
+    name: Megacorp Control
+    published: false
+    volume: 0.01
+  Minmatar Assault Dropsuits:
+    id: 364615
+    name: Minmatar Assault Dropsuits
+    published: false
+  Minmatar Commando Dropsuits:
+    id: 364608
+    name: Minmatar Commando Dropsuits
+    published: false
+    volume: 0.01
+  Minmatar Heavy Dropsuits:
+    id: 364578
+    name: Minmatar Heavy Dropsuits
+    published: false
+  Minmatar Light Dropsuits:
+    id: 364576
+    name: Minmatar Light Dropsuits
+    published: false
+  Minmatar Logistics Dropsuit:
+    id: 364616
+    name: Minmatar Logistics Dropsuit
+    published: false
+  Minmatar Medium Dropsuits:
+    id: 353413
+    name: Minmatar Medium Dropsuits
+    published: false
+    volume: 0.01
+  Minmatar Pilot Dropsuits:
+    id: 364600
+    name: Minmatar Pilot Dropsuits
+    published: false
+  Minmatar Scout Dropsuits:
+    id: 364599
+    name: Minmatar Scout Dropsuits
+    published: false
+  Minmatar Sentinel Dropsuits:
+    id: 364607
+    name: Minmatar Sentinel Dropsuits
+    published: false
+  Nanocircuitry:
+    id: 355280
+    name: Nanocircuitry
+    published: false
+    volume: 0.01
+  Neural Trainer:
+    id: 356915
+    name: Neural Trainer
+    published: false
+    volume: 0.01
+  Nova Knife Fitting Optimization:
+    id: 367382
+    name: Nova Knife Fitting Optimization
+    published: false
+  Nova Knife Operation:
+    id: 356658
+    name: Nova Knife Operation
+    published: false
+    volume: 0.01
+  Nova Knife Proficiency:
+    id: 356701
+    name: Nova Knife Proficiency
+    published: false
+    volume: 0.01
+  Piloting:
+    id: 353382
+    name: Piloting
+    published: false
+    volume: 0.01
+  Plasma Cannon Ammo Capacity:
+    id: 364670
+    name: Plasma Cannon Ammo Capacity
+    published: false
+  Plasma Cannon Fitting Optimization:
+    id: 364671
+    name: Plasma Cannon Fitting Optimization
+    published: false
+  Plasma Cannon Operation:
+    id: 363360
+    name: Plasma Cannon Operation
+    published: false
+    volume: 0.01
+  Plasma Cannon Proficiency:
+    id: 363362
+    name: Plasma Cannon Proficiency
+    published: false
+    volume: 0.01
+  Plasma Cannon Rapid Reload:
+    id: 364672
+    name: Plasma Cannon Rapid Reload
+    published: false
+  Plasma Cannon Sharpshooter:
+    id: 364673
+    name: Plasma Cannon Sharpshooter
+    published: false
+  Precision Enhancement:
+    id: 364918
+    name: Precision Enhancement
+    published: false
+  Profile Analysis:
+    id: 353357
+    name: Profile Analysis
+    published: false
+    volume: 0.01
+  Profile Dampening:
+    id: 356724
+    name: Profile Dampening
+    published: false
+    volume: 0.01
+  Rail Rifle Ammo Capacity:
+    id: 365388
+    name: Rail Rifle Ammo Capacity
+    published: false
+    volume: 0.01
+  Rail Rifle Fitting Optimization:
+    id: 365391
+    name: Rail Rifle Fitting Optimization
+    published: false
+    volume: 0.01
+  Rail Rifle Operation:
+    id: 365386
+    name: Rail Rifle Operation
+    published: false
+    volume: 0.01
+  Rail Rifle Proficiency:
+    id: 365389
+    name: Rail Rifle Proficiency
+    published: false
+    volume: 0.01
+  Rail Rifle Rapid Reload:
+    id: 365392
+    name: Rail Rifle Rapid Reload
+    published: false
+    volume: 0.01
+  Range Amplification:
+    id: 364916
+    name: Range Amplification
+    published: false
+  Remote Armor Repair:
+    id: 353377
+    name: Remote Armor Repair
+    published: false
+    volume: 0.01
+  Remote Shield Modulation:
+    id: 353372
+    name: Remote Shield Modulation
+    published: false
+    volume: 0.01
+  Repair Tool Operation:
+    id: 364919
+    name: Repair Tool Operation
+    published: false
+  Scrambler Pistol Ammo Capacity:
+    id: 364694
+    name: Scrambler Pistol Ammo Capacity
+    published: false
+  Scrambler Pistol Fitting Optimization:
+    id: 364696
+    name: Scrambler Pistol Fitting Optimization
+    published: false
+  Scrambler Pistol Operation:
+    id: 353473
+    name: Scrambler Pistol Operation
+    published: false
+    volume: 0.01
+  Scrambler Pistol Proficiency:
+    id: 353474
+    name: Scrambler Pistol Proficiency
+    published: false
+    volume: 0.01
+  Scrambler Pistol Rapid Reload:
+    id: 364695
+    name: Scrambler Pistol Rapid Reload
+    published: false
+  Scrambler Pistol Sharpshooter:
+    id: 364697
+    name: Scrambler Pistol Sharpshooter
+    published: false
+  Scrambler Rifle Ammo Capacity:
+    id: 364674
+    name: Scrambler Rifle Ammo Capacity
+    published: false
+  Scrambler Rifle Fitting Optimization:
+    id: 364677
+    name: Scrambler Rifle Fitting Optimization
+    published: false
+  Scrambler Rifle Operation:
+    id: 363861
+    name: Scrambler Rifle Operation
+    published: false
+  Scrambler Rifle Proficiency:
+    id: 363862
+    name: Scrambler Rifle Proficiency
+    published: false
+  Scrambler Rifle Rapid Reload:
+    id: 364675
+    name: Scrambler Rifle Rapid Reload
+    published: false
+  Scrambler Rifle Sharpshooter:
+    id: 364676
+    name: Scrambler Rifle Sharpshooter
+    published: false
+  Sensor Upgrades:
+    id: 356725
+    name: Sensor Upgrades
+    published: false
+    volume: 0.01
+  Shield Boost Systems:
+    id: 353371
+    name: Shield Boost Systems
+    published: false
+    volume: 0.01
+  Shield Extension:
+    id: 364555
+    name: Shield Extension
+    published: false
+  Shield Fitting Optimization:
+    id: 364776
+    name: Shield Fitting Optimization
+    published: false
+    volume: 0.01
+  Shield Recharging:
+    id: 353373
+    name: Shield Recharging
+    published: false
+    volume: 0.01
+  Shield Regulation:
+    id: 364556
+    name: Shield Regulation
+    published: false
+  Shotgun Ammo Capacity:
+    id: 364678
+    name: Shotgun Ammo Capacity
+    published: false
+  Shotgun Fitting Optimization:
+    id: 364680
+    name: Shotgun Fitting Optimization
+    published: false
+  Shotgun Operation:
+    id: 355212
+    name: Shotgun Operation
+    published: false
+    volume: 0.01
+  Shotgun Proficiency:
+    id: 355213
+    name: Shotgun Proficiency
+    published: false
+    volume: 0.01
+  Shotgun Rapid Reload:
+    id: 364679
+    name: Shotgun Rapid Reload
+    published: false
+  Shotgun Sharpshooter:
+    id: 364681
+    name: Shotgun Sharpshooter
+    published: false
+  Sidearm Operation:
+    id: 364534
+    name: Sidearm Operation
+    published: false
+  Sidearm Weapon Capacity:
+    id: 353455
+    name: Sidearm Weapon Capacity
+    published: false
+    volume: 0.01
+  Sidearm Weapon Capacity Proficiency:
+    id: 353456
+    name: Sidearm Weapon Capacity Proficiency
+    published: false
+    volume: 0.01
+  Sidearm Weapon Rapid Reload:
+    id: 353443
+    name: Sidearm Weapon Rapid Reload
+    published: false
+    volume: 0.01
+  Sidearm Weapon Rapid Reload Proficiency:
+    id: 353444
+    name: Sidearm Weapon Rapid Reload Proficiency
+    published: false
+    volume: 0.01
+  Sidearm Weapon Sharpshooter:
+    id: 353449
+    name: Sidearm Weapon Sharpshooter
+    published: false
+    volume: 0.01
+  Sidearm Weapon Sharpshooter Proficiency:
+    id: 353450
+    name: Sidearm Weapon Sharpshooter Proficiency
+    published: false
+    volume: 0.01
+  Sidearm Weapon Upgrade:
+    id: 353436
+    name: Sidearm Weapon Upgrade
+    published: false
+    volume: 0.01
+  Sidearm Weapon Upgrade Proficiency:
+    id: 353437
+    name: Sidearm Weapon Upgrade Proficiency
+    published: false
+    volume: 0.01
+  Small Blaster Ammo Capacity:
+    id: 365850
+    name: Small Blaster Ammo Capacity
+    published: false
+    volume: 0.01
+  Small Blaster Fitting Optimization:
+    id: 365848
+    name: Small Blaster Fitting Optimization
+    published: false
+    volume: 0.01
+  Small Blaster Operation:
+    id: 353326
+    name: Small Blaster Operation
+    published: false
+    volume: 0.01
+  Small Blaster Proficiency:
+    id: 353327
+    name: Small Blaster Proficiency
+    published: false
+    volume: 0.01
+  Small Blaster Reload Systems:
+    id: 365851
+    name: Small Blaster Reload Systems
+    published: false
+    volume: 0.01
+  Small Missile Launcher Ammo Capacity:
+    id: 365855
+    name: Small Missile Launcher Ammo Capacity
+    published: false
+    volume: 0.01
+  Small Missile Launcher Fitting Optimization:
+    id: 365853
+    name: Small Missile Launcher Fitting Optimization
+    published: false
+    volume: 0.01
+  Small Missile Launcher Operation:
+    id: 353330
+    name: Small Missile Launcher Operation
+    published: false
+    volume: 0.01
+  Small Missile Launcher Proficiency:
+    id: 353331
+    name: Small Missile Launcher Proficiency
+    published: false
+    volume: 0.01
+  Small Missile Launcher Reload Systems:
+    id: 365854
+    name: Small Missile Launcher Reload Systems
+    published: false
+    volume: 0.01
+  Small Railgun Ammo Capacity:
+    id: 365859
+    name: Small Railgun Ammo Capacity
+    published: false
+    volume: 0.01
+  Small Railgun Fitting Optimization:
+    id: 365857
+    name: Small Railgun Fitting Optimization
+    published: false
+    volume: 0.01
+  Small Railgun Operation:
+    id: 365845
+    name: Small Railgun Operation
+    published: false
+    volume: 0.01
+  Small Railgun Proficiency:
+    id: 365861
+    name: Small Railgun Proficiency
+    published: false
+    volume: 0.01
+  Small Railgun Reload Systems:
+    id: 365860
+    name: Small Railgun Reload Systems
+    published: false
+    volume: 0.01
+  Small Turret Operation:
+    id: 365879
+    name: Small Turret Operation
+    published: false
+    volume: 0.01
+  Sniper Rifle Ammo Capacity:
+    id: 364682
+    name: Sniper Rifle Ammo Capacity
+    published: false
+  Sniper Rifle Fitting Optimization:
+    id: 364683
+    name: Sniper Rifle Fitting Optimization
+    published: false
+  Sniper Rifle Operation:
+    id: 353475
+    name: Sniper Rifle Operation
+    published: false
+    volume: 0.01
+  Sniper Rifle Proficiency:
+    id: 353476
+    name: Sniper Rifle Proficiency
+    published: false
+    volume: 0.01
+  Sniper Rifle Rapid Reload:
+    id: 364685
+    name: Sniper Rifle Rapid Reload
+    published: false
+  Sniper Rifle Sharpshooter:
+    id: 364684
+    name: Sniper Rifle Sharpshooter
+    published: false
+  Submachine Gun Ammo Capacity:
+    id: 364698
+    name: Submachine Gun Ammo Capacity
+    published: false
+  Submachine Gun Fitting Optimization:
+    id: 364699
+    name: Submachine Gun Fitting Optimization
+    published: false
+  Submachine Gun Operation:
+    id: 353477
+    name: Submachine Gun Operation
+    published: false
+    volume: 0.01
+  Submachine Gun Proficiency:
+    id: 353478
+    name: Submachine Gun Proficiency
+    published: false
+    volume: 0.01
+  Submachine Gun Rapid Reload:
+    id: 364701
+    name: Submachine Gun Rapid Reload
+    published: false
+  Submachine Gun Sharpshooter:
+    id: 364700
+    name: Submachine Gun Sharpshooter
+    published: false
+  Swarm Launcher Ammo Capacity:
+    id: 364686
+    name: Swarm Launcher Ammo Capacity
+    published: false
+  Swarm Launcher Fitting Optimization:
+    id: 364688
+    name: Swarm Launcher Fitting Optimization
+    published: false
+  Swarm Launcher Operation:
+    id: 353471
+    name: Swarm Launcher Operation
+    published: false
+    volume: 0.01
+  Swarm Launcher Proficiency:
+    id: 353472
+    name: Swarm Launcher Proficiency
+    published: false
+    volume: 0.01
+  Swarm Launcher Rapid Reload:
+    id: 364687
+    name: Swarm Launcher Rapid Reload
+    published: false
+  Swarm Launcher Sharpshooter:
+    id: 364689
+    name: Swarm Launcher Sharpshooter
+    published: false
+  Systems Hacking:
+    id: 355932
+    name: Systems Hacking
+    published: false
+    volume: 0.01
+  Transstellar Empire Control:
+    id: 352890
+    name: Transstellar Empire Control
+    published: false
+    volume: 0.01
+  Turret Operation:
+    id: 353335
+    name: Turret Operation
+    published: false
+    volume: 0.01
+  Vehicle Active Hardening:
+    id: 364763
+    name: Vehicle Active Hardening
+    published: false
+  Vehicle Armor Composition:
+    id: 364769
+    name: Vehicle Armor Composition
+    published: false
+    volume: 0.01
+  Vehicle Armor Repair Systems:
+    id: 364761
+    name: Vehicle Armor Repair Systems
+    published: false
+  Vehicle Armor Upgrades:
+    id: 364639
+    name: Vehicle Armor Upgrades
+    published: false
+  Vehicle Command:
+    id: 353381
+    name: Vehicle Command
+    published: false
+    volume: 0.01
+  Vehicle Core Upgrades:
+    id: 364640
+    name: Vehicle Core Upgrades
+    published: false
+  Vehicle Electronics:
+    id: 353353
+    name: Vehicle Electronics
+    published: false
+    volume: 0.01
+  Vehicle Engineering:
+    id: 353368
+    name: Vehicle Engineering
+    published: false
+    volume: 0.01
+  Vehicle Shield Regeneration:
+    id: 364777
+    name: Vehicle Shield Regeneration
+    published: false
+    volume: 0.01
+  Vehicle Shield Upgrades:
+    id: 364641
+    name: Vehicle Shield Upgrades
+    published: false
+    volume: 0.01
+  Vehicle Turret Upgrades:
+    id: 353336
+    name: Vehicle Turret Upgrades
+    published: false
+    volume: 0.01
+  Vehicle Upgrades:
+    id: 364633
+    name: Vehicle Upgrades
+    published: false
+  Weaponry:
+    id: 353435
+    name: Weaponry
+    published: false
+    volume: 0.01

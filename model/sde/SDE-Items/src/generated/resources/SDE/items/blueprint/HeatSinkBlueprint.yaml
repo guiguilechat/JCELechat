@@ -4,12 +4,14 @@ items:
     TechLevel: 1
     id: 23903
     name: '''Trebuchet'' Heat Sink Blueprint'
+    published: true
     volume: 0.01
   Ammatar Navy Heat Sink Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15809
     name: Ammatar Navy Heat Sink Blueprint
+    published: true
     volume: 0.01
   Heat Sink I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -17,21 +19,25 @@ items:
     id: 11612
     marketGroup: 343
     name: Heat Sink I Blueprint
+    published: true
     volume: 0.01
   Heat Sink II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 11795
     name: Heat Sink II Blueprint
+    published: true
     volume: 0.01
   Imperial Navy Heat Sink Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15811
     name: Imperial Navy Heat Sink Blueprint
+    published: true
     volume: 0.01
   Tahron's Custom Heat Sink Blueprint:
     TechLevel: 1
     id: 44118
     name: Tahron's Custom Heat Sink Blueprint
+    published: true
     volume: 0.01

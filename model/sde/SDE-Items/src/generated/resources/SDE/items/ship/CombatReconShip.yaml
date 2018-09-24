@@ -80,6 +80,7 @@ items:
     id: 20125
     marketGroup: 827
     name: Curse
+    published: true
     volume: 120000.0
   Huginn:
     Agility: 0.5699999928474426
@@ -160,6 +161,7 @@ items:
     id: 11961
     marketGroup: 836
     name: Huginn
+    published: true
     volume: 85000.0
   Lachesis:
     Agility: 0.5600000023841858
@@ -240,6 +242,7 @@ items:
     id: 11971
     marketGroup: 833
     name: Lachesis
+    published: true
     volume: 116000.0
   Rook:
     Agility: 0.6100000143051147
@@ -320,4 +323,5 @@ items:
     id: 11959
     marketGroup: 830
     name: Rook
+    published: true
     volume: 96000.0

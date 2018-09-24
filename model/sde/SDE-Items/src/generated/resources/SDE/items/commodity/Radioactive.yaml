@@ -3,13 +3,16 @@ items:
     id: 3727
     marketGroup: 22
     name: Plutonium
+    published: true
     volume: 1.0
   Radioactive Waste:
     id: 17475
     name: Radioactive Waste
+    published: true
     volume: 1.0
   Toxic Waste:
     id: 3729
     marketGroup: 22
     name: Toxic Waste
+    published: true
     volume: 1.0

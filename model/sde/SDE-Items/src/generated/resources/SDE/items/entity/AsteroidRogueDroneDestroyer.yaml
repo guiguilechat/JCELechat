@@ -1,0 +1,31 @@
+items:
+  Dismantler Drone:
+    id: 25647
+    name: Dismantler Drone
+    published: false
+    volume: 60.0
+  Marauder Drone:
+    id: 25661
+    name: Marauder Drone
+    published: false
+    volume: 60.0
+  Predator Drone:
+    id: 25666
+    name: Predator Drone
+    published: false
+    volume: 60.0
+  Ripper Drone:
+    id: 25669
+    name: Ripper Drone
+    published: false
+    volume: 60.0
+  Shatter Drone:
+    id: 25671
+    name: Shatter Drone
+    published: false
+    volume: 60.0
+  Shredder Drone:
+    id: 25672
+    name: Shredder Drone
+    published: false
+    volume: 60.0

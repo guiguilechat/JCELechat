@@ -2,10 +2,11 @@ items:
   Anchoring:
     PrimaryAttribute: 166
     SecondaryAttribute: 164
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 11584
     marketGroup: 2152
     name: Anchoring
+    published: true
     volume: 0.01
   Starbase Defense Management:
     CanNotBeTrainedOnTrial: 1
@@ -13,10 +14,11 @@ items:
     RequiredSkill1: 11584
     RequiredSkill1Level: 4
     SecondaryAttribute: 164
-    SkillTimeConstant: 7
+    SkillTimeConstant: 7.0
     id: 3373
     marketGroup: 2152
     name: Starbase Defense Management
+    published: true
     volume: 0.01
   Structure Doomsday Operation:
     DurationBonus: -2
@@ -26,10 +28,11 @@ items:
     RequiredSkill2: 11584
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 37797
     marketGroup: 2152
     name: Structure Doomsday Operation
+    published: true
     volume: 0.01
   Structure Electronic Systems:
     CapNeedBonus: -3
@@ -39,10 +42,11 @@ items:
     RequiredSkill2: 11584
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 37798
     marketGroup: 2152
     name: Structure Electronic Systems
+    published: true
     volume: 0.01
   Structure Engineering Systems:
     CapNeedBonus: -2
@@ -52,10 +56,11 @@ items:
     RequiredSkill2: 11584
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 37799
     marketGroup: 2152
     name: Structure Engineering Systems
+    published: true
     volume: 0.01
   Structure Missile Systems:
     DamageMultiplierBonus: 2
@@ -65,8 +70,9 @@ items:
     RequiredSkill2: 11584
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 37796
     marketGroup: 2152
     name: Structure Missile Systems
+    published: true
     volume: 0.01

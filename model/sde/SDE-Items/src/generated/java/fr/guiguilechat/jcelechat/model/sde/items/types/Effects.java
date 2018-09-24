@@ -5,6 +5,9 @@ import java.util.Collection;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.types.effects.AnimatedLights;
+import fr.guiguilechat.jcelechat.model.sde.items.types.effects.LensFlares;
+import fr.guiguilechat.jcelechat.model.sde.items.types.effects.ParticleSystems;
 
 public abstract class Effects
     extends Item
@@ -32,7 +35,7 @@ public abstract class Effects
 
         @Override
         public Collection<IMetaGroup<? extends Effects>> groups() {
-            return Arrays.asList();
+            return Arrays.asList(LensFlares.METAGROUP, ParticleSystems.METAGROUP, AnimatedLights.METAGROUP);
         }
     }
 }

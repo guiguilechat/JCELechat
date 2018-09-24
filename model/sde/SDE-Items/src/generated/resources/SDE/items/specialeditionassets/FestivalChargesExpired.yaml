@@ -16,6 +16,7 @@ items:
     id: 19658
     marketGroup: 1663
     name: Melted Snowball CVII
+    published: true
     volume: 1.0
   Melted Snowball CX:
     Agility: 3000.0
@@ -36,4 +37,5 @@ items:
     id: 30222
     marketGroup: 1663
     name: Melted Snowball CX
+    published: true
     volume: 1.0

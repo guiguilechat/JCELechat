@@ -5,10 +5,12 @@ items:
     id: 35791
     marketGroup: 343
     name: Missile Guidance Computer I Blueprint
+    published: true
     volume: 0.01
   Missile Guidance Computer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 35792
     name: Missile Guidance Computer II Blueprint
+    published: true
     volume: 0.01

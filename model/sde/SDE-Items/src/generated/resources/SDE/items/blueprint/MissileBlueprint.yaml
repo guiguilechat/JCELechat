@@ -5,6 +5,7 @@ items:
     id: 1833
     marketGroup: 315
     name: Inferno Auto-Targeting Cruise Missile I Blueprint
+    published: true
     volume: 0.01
   Inferno Auto-Targeting Heavy Missile I Blueprint:
     IndustryBlueprintRank: 2.0
@@ -12,6 +13,7 @@ items:
     id: 1825
     marketGroup: 315
     name: Inferno Auto-Targeting Heavy Missile I Blueprint
+    published: true
     volume: 0.01
   Inferno Auto-Targeting Light Missile I Blueprint:
     IndustryBlueprintRank: 1.0
@@ -19,6 +21,7 @@ items:
     id: 1817
     marketGroup: 315
     name: Inferno Auto-Targeting Light Missile I Blueprint
+    published: true
     volume: 0.01
   Inferno Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
@@ -26,29 +29,34 @@ items:
     id: 805
     marketGroup: 1526
     name: Inferno Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Fury Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 2622
     name: Inferno Fury Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Fury Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24512
     name: Inferno Fury Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Fury Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24500
     name: Inferno Fury Light Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Fury XL Cruise Missile Blueprint:
     TechLevel: 2
     id: 41289
     name: Inferno Fury XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 2.0
@@ -56,6 +64,7 @@ items:
     id: 26761
     marketGroup: 975
     name: Inferno Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Heavy Missile Blueprint:
     IndustryBlueprintRank: 2.0
@@ -63,29 +72,34 @@ items:
     id: 809
     marketGroup: 1527
     name: Inferno Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Javelin Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24615
     name: Inferno Javelin Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Javelin Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24543
     name: Inferno Javelin Rocket Blueprint
+    published: true
     volume: 0.01
   Inferno Javelin Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24526
     name: Inferno Javelin Torpedo Blueprint
+    published: true
     volume: 0.01
   Inferno Javelin XL Torpedo Blueprint:
     TechLevel: 2
     id: 41284
     name: Inferno Javelin XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Inferno Light Missile Blueprint:
     IndustryBlueprintRank: 1.0
@@ -93,52 +107,61 @@ items:
     id: 812
     marketGroup: 1528
     name: Inferno Light Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Precision Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 2638
     name: Inferno Precision Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Precision Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24516
     name: Inferno Precision Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Precision Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 2648
     name: Inferno Precision Light Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Precision XL Cruise Missile Blueprint:
     TechLevel: 2
     id: 41288
     name: Inferno Precision XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Rage Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24487
     name: Inferno Rage Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Inferno Rage Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24476
     name: Inferno Rage Rocket Blueprint
+    published: true
     volume: 0.01
   Inferno Rage Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 2812
     name: Inferno Rage Torpedo Blueprint
+    published: true
     volume: 0.01
   Inferno Rage XL Torpedo Blueprint:
     TechLevel: 2
     id: 41285
     name: Inferno Rage XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Inferno Rocket Blueprint:
     IndustryBlueprintRank: 1.0
@@ -146,6 +169,7 @@ items:
     id: 2515
     marketGroup: 318
     name: Inferno Rocket Blueprint
+    published: true
     volume: 0.01
   Inferno Torpedo Blueprint:
     IndustryBlueprintRank: 3.0
@@ -153,6 +177,7 @@ items:
     id: 2511
     marketGroup: 390
     name: Inferno Torpedo Blueprint
+    published: true
     volume: 0.01
   Inferno XL Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
@@ -160,6 +185,7 @@ items:
     id: 32441
     marketGroup: 1286
     name: Inferno XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Inferno XL Torpedo Blueprint:
     IndustryBlueprintRank: 4.0
@@ -167,6 +193,7 @@ items:
     id: 17862
     marketGroup: 617
     name: Inferno XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Mjolnir Auto-Targeting Cruise Missile I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -174,6 +201,7 @@ items:
     id: 1829
     marketGroup: 315
     name: Mjolnir Auto-Targeting Cruise Missile I Blueprint
+    published: true
     volume: 0.01
   Mjolnir Auto-Targeting Heavy Missile I Blueprint:
     IndustryBlueprintRank: 2.0
@@ -181,6 +209,7 @@ items:
     id: 1821
     marketGroup: 315
     name: Mjolnir Auto-Targeting Heavy Missile I Blueprint
+    published: true
     volume: 0.01
   Mjolnir Auto-Targeting Light Missile I Blueprint:
     IndustryBlueprintRank: 1.0
@@ -188,6 +217,7 @@ items:
     id: 1216
     marketGroup: 315
     name: Mjolnir Auto-Targeting Light Missile I Blueprint
+    published: true
     volume: 0.01
   Mjolnir Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
@@ -195,29 +225,34 @@ items:
     id: 803
     marketGroup: 1526
     name: Mjolnir Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Fury Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24536
     name: Mjolnir Fury Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Fury Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24510
     name: Mjolnir Fury Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Fury Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 2614
     name: Mjolnir Fury Light Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Fury XL Cruise Missile Blueprint:
     TechLevel: 2
     id: 41301
     name: Mjolnir Fury XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 2.0
@@ -225,6 +260,7 @@ items:
     id: 26760
     marketGroup: 975
     name: Mjolnir Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Heavy Missile Blueprint:
     IndustryBlueprintRank: 2.0
@@ -232,29 +268,34 @@ items:
     id: 808
     marketGroup: 1527
     name: Mjolnir Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Javelin Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24617
     name: Mjolnir Javelin Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Javelin Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24544
     name: Mjolnir Javelin Rocket Blueprint
+    published: true
     volume: 0.01
   Mjolnir Javelin Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24528
     name: Mjolnir Javelin Torpedo Blueprint
+    published: true
     volume: 0.01
   Mjolnir Javelin XL Torpedo Blueprint:
     TechLevel: 2
     id: 41282
     name: Mjolnir Javelin XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Mjolnir Light Missile Blueprint:
     IndustryBlueprintRank: 1.0
@@ -262,52 +303,61 @@ items:
     id: 813
     marketGroup: 1528
     name: Mjolnir Light Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Precision Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24540
     name: Mjolnir Precision Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Precision Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24518
     name: Mjolnir Precision Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Precision Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24506
     name: Mjolnir Precision Light Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Precision XL Cruise Missile Blueprint:
     TechLevel: 2
     id: 41300
     name: Mjolnir Precision XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Rage Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24491
     name: Mjolnir Rage Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir Rage Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 2818
     name: Mjolnir Rage Rocket Blueprint
+    published: true
     volume: 0.01
   Mjolnir Rage Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24524
     name: Mjolnir Rage Torpedo Blueprint
+    published: true
     volume: 0.01
   Mjolnir Rage XL Torpedo Blueprint:
     TechLevel: 2
     id: 41283
     name: Mjolnir Rage XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Mjolnir Rocket Blueprint:
     IndustryBlueprintRank: 1.0
@@ -315,6 +365,7 @@ items:
     id: 2513
     marketGroup: 318
     name: Mjolnir Rocket Blueprint
+    published: true
     volume: 0.01
   Mjolnir Torpedo Blueprint:
     IndustryBlueprintRank: 3.0
@@ -322,6 +373,7 @@ items:
     id: 2507
     marketGroup: 390
     name: Mjolnir Torpedo Blueprint
+    published: true
     volume: 0.01
   Mjolnir XL Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
@@ -329,6 +381,7 @@ items:
     id: 32443
     marketGroup: 1286
     name: Mjolnir XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Mjolnir XL Torpedo Blueprint:
     IndustryBlueprintRank: 4.0
@@ -336,6 +389,7 @@ items:
     id: 17858
     marketGroup: 617
     name: Mjolnir XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Nova Auto-Targeting Cruise Missile I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -343,6 +397,7 @@ items:
     id: 1831
     marketGroup: 315
     name: Nova Auto-Targeting Cruise Missile I Blueprint
+    published: true
     volume: 0.01
   Nova Auto-Targeting Heavy Missile I Blueprint:
     IndustryBlueprintRank: 2.0
@@ -350,6 +405,7 @@ items:
     id: 1823
     marketGroup: 315
     name: Nova Auto-Targeting Heavy Missile I Blueprint
+    published: true
     volume: 0.01
   Nova Auto-Targeting Light Missile I Blueprint:
     IndustryBlueprintRank: 1.0
@@ -357,6 +413,7 @@ items:
     id: 1815
     marketGroup: 315
     name: Nova Auto-Targeting Light Missile I Blueprint
+    published: true
     volume: 0.01
   Nova Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
@@ -364,29 +421,34 @@ items:
     id: 806
     marketGroup: 1526
     name: Nova Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Nova Fury Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24532
     name: Nova Fury Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Nova Fury Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24508
     name: Nova Fury Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Nova Fury Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24498
     name: Nova Fury Light Missile Blueprint
+    published: true
     volume: 0.01
   Nova Fury XL Cruise Missile Blueprint:
     TechLevel: 2
     id: 41296
     name: Nova Fury XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Nova Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 2.0
@@ -394,6 +456,7 @@ items:
     id: 21868
     marketGroup: 975
     name: Nova Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Nova Heavy Missile Blueprint:
     IndustryBlueprintRank: 2.0
@@ -401,29 +464,34 @@ items:
     id: 807
     marketGroup: 1527
     name: Nova Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Nova Javelin Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24616
     name: Nova Javelin Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Nova Javelin Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24604
     name: Nova Javelin Rocket Blueprint
+    published: true
     volume: 0.01
   Nova Javelin Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 2802
     name: Nova Javelin Torpedo Blueprint
+    published: true
     volume: 0.01
   Nova Javelin XL Torpedo Blueprint:
     TechLevel: 2
     id: 41280
     name: Nova Javelin XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Nova Light Missile Blueprint:
     IndustryBlueprintRank: 1.0
@@ -431,52 +499,61 @@ items:
     id: 814
     marketGroup: 1528
     name: Nova Light Missile Blueprint
+    published: true
     volume: 0.01
   Nova Precision Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24538
     name: Nova Precision Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Nova Precision Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 2656
     name: Nova Precision Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Nova Precision Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24504
     name: Nova Precision Light Missile Blueprint
+    published: true
     volume: 0.01
   Nova Precision XL Cruise Missile Blueprint:
     TechLevel: 2
     id: 41297
     name: Nova Precision XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Nova Rage Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24489
     name: Nova Rage Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Nova Rage Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24474
     name: Nova Rage Rocket Blueprint
+    published: true
     volume: 0.01
   Nova Rage Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24520
     name: Nova Rage Torpedo Blueprint
+    published: true
     volume: 0.01
   Nova Rage XL Torpedo Blueprint:
     TechLevel: 2
     id: 41281
     name: Nova Rage XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Nova Rocket Blueprint:
     IndustryBlueprintRank: 1.0
@@ -484,6 +561,7 @@ items:
     id: 2517
     marketGroup: 318
     name: Nova Rocket Blueprint
+    published: true
     volume: 0.01
   Nova Torpedo Blueprint:
     IndustryBlueprintRank: 3.0
@@ -491,6 +569,7 @@ items:
     id: 2509
     marketGroup: 390
     name: Nova Torpedo Blueprint
+    published: true
     volume: 0.01
   Nova XL Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
@@ -498,6 +577,7 @@ items:
     id: 32439
     marketGroup: 1286
     name: Nova XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Nova XL Torpedo Blueprint:
     IndustryBlueprintRank: 4.0
@@ -505,18 +585,21 @@ items:
     id: 17864
     marketGroup: 617
     name: Nova XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Sansha Juggernaut Torpedo Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 2211
     name: Sansha Juggernaut Torpedo Blueprint
+    published: true
     volume: 0.01
   Sansha Wrath Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 2179
     name: Sansha Wrath Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Auto-Targeting Cruise Missile I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -524,6 +607,7 @@ items:
     id: 1827
     marketGroup: 315
     name: Scourge Auto-Targeting Cruise Missile I Blueprint
+    published: true
     volume: 0.01
   Scourge Auto-Targeting Heavy Missile I Blueprint:
     IndustryBlueprintRank: 2.0
@@ -531,6 +615,7 @@ items:
     id: 1819
     marketGroup: 315
     name: Scourge Auto-Targeting Heavy Missile I Blueprint
+    published: true
     volume: 0.01
   Scourge Auto-Targeting Light Missile I Blueprint:
     IndustryBlueprintRank: 1.0
@@ -538,6 +623,7 @@ items:
     id: 1811
     marketGroup: 315
     name: Scourge Auto-Targeting Light Missile I Blueprint
+    published: true
     volume: 0.01
   Scourge Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
@@ -545,29 +631,34 @@ items:
     id: 804
     marketGroup: 1526
     name: Scourge Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Fury Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24534
     name: Scourge Fury Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Fury Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 2630
     name: Scourge Fury Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Fury Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24496
     name: Scourge Fury Light Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Fury XL Cruise Missile Blueprint:
     TechLevel: 2
     id: 41293
     name: Scourge Fury XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 2.0
@@ -575,6 +666,7 @@ items:
     id: 26762
     marketGroup: 975
     name: Scourge Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Heavy Missile Blueprint:
     IndustryBlueprintRank: 2.0
@@ -582,29 +674,34 @@ items:
     id: 810
     marketGroup: 1527
     name: Scourge Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Javelin Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24614
     name: Scourge Javelin Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Javelin Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24605
     name: Scourge Javelin Rocket Blueprint
+    published: true
     volume: 0.01
   Scourge Javelin Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24530
     name: Scourge Javelin Torpedo Blueprint
+    published: true
     volume: 0.01
   Scourge Javelin XL Torpedo Blueprint:
     TechLevel: 2
     id: 41278
     name: Scourge Javelin XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Scourge Light Missile Blueprint:
     IndustryBlueprintRank: 1.0
@@ -612,52 +709,61 @@ items:
     id: 811
     marketGroup: 1528
     name: Scourge Light Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Precision Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24542
     name: Scourge Precision Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Precision Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 24514
     name: Scourge Precision Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Precision Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24502
     name: Scourge Precision Light Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Precision XL Cruise Missile Blueprint:
     TechLevel: 2
     id: 41292
     name: Scourge Precision XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Rage Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 2680
     name: Scourge Rage Heavy Assault Missile Blueprint
+    published: true
     volume: 0.01
   Scourge Rage Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 24472
     name: Scourge Rage Rocket Blueprint
+    published: true
     volume: 0.01
   Scourge Rage Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 24522
     name: Scourge Rage Torpedo Blueprint
+    published: true
     volume: 0.01
   Scourge Rage XL Torpedo Blueprint:
     TechLevel: 2
     id: 41279
     name: Scourge Rage XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Scourge Rocket Blueprint:
     IndustryBlueprintRank: 1.0
@@ -665,6 +771,7 @@ items:
     id: 1220
     marketGroup: 318
     name: Scourge Rocket Blueprint
+    published: true
     volume: 0.01
   Scourge Torpedo Blueprint:
     IndustryBlueprintRank: 3.0
@@ -672,6 +779,7 @@ items:
     id: 1221
     marketGroup: 390
     name: Scourge Torpedo Blueprint
+    published: true
     volume: 0.01
   Scourge XL Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
@@ -679,6 +787,7 @@ items:
     id: 32437
     marketGroup: 1286
     name: Scourge XL Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Scourge XL Torpedo Blueprint:
     IndustryBlueprintRank: 4.0
@@ -686,6 +795,7 @@ items:
     id: 17860
     marketGroup: 617
     name: Scourge XL Torpedo Blueprint
+    published: true
     volume: 0.01
   Standup Cruise Missile Blueprint:
     StructureItemVisualFlag: 1
@@ -693,6 +803,7 @@ items:
     id: 37855
     marketGroup: 2192
     name: Standup Cruise Missile Blueprint
+    published: true
     volume: 0.01
   Standup Heavy Guided Bomb Blueprint:
     StructureItemVisualFlag: 1
@@ -700,6 +811,7 @@ items:
     id: 37858
     marketGroup: 2193
     name: Standup Heavy Guided Bomb Blueprint
+    published: true
     volume: 0.01
   Standup Heavy Missile Blueprint:
     StructureItemVisualFlag: 1
@@ -707,6 +819,7 @@ items:
     id: 37856
     marketGroup: 2192
     name: Standup Heavy Missile Blueprint
+    published: true
     volume: 0.01
   Standup Light Guided Bomb Blueprint:
     StructureItemVisualFlag: 1
@@ -714,6 +827,7 @@ items:
     id: 37859
     marketGroup: 2193
     name: Standup Light Guided Bomb Blueprint
+    published: true
     volume: 0.01
   Standup Light Missile Blueprint:
     StructureItemVisualFlag: 1
@@ -721,6 +835,7 @@ items:
     id: 37857
     marketGroup: 2192
     name: Standup Light Missile Blueprint
+    published: true
     volume: 0.01
   Standup Super-heavy Torpedo Blueprint:
     StructureItemVisualFlag: 1
@@ -728,6 +843,7 @@ items:
     id: 37852
     marketGroup: 2191
     name: Standup Super-heavy Torpedo Blueprint
+    published: true
     volume: 0.01
   Standup XL Cruise Missile Blueprint:
     StructureItemVisualFlag: 1
@@ -735,4 +851,5 @@ items:
     id: 37853
     marketGroup: 2191
     name: Standup XL Cruise Missile Blueprint
+    published: true
     volume: 0.01

@@ -52,6 +52,7 @@ items:
     id: 27557
     marketGroup: 594
     name: Angel Large Artillery Battery
+    published: true
     volume: 5000.0
   Angel Large AutoCannon Battery:
     AmmoCapacity: 10000
@@ -106,6 +107,7 @@ items:
     id: 27554
     marketGroup: 594
     name: Angel Large AutoCannon Battery
+    published: true
     volume: 5000.0
   Angel Medium Artillery Battery:
     AmmoCapacity: 10000
@@ -160,6 +162,7 @@ items:
     id: 27644
     marketGroup: 594
     name: Angel Medium Artillery Battery
+    published: true
     volume: 1000.0
   Angel Medium AutoCannon Battery:
     AmmoCapacity: 10000
@@ -214,6 +217,7 @@ items:
     id: 27647
     marketGroup: 594
     name: Angel Medium AutoCannon Battery
+    published: true
     volume: 1000.0
   Angel Small Artillery Battery:
     AmmoCapacity: 10000
@@ -268,6 +272,7 @@ items:
     id: 27650
     marketGroup: 594
     name: Angel Small Artillery Battery
+    published: true
     volume: 500.0
   Angel Small AutoCannon Battery:
     AmmoCapacity: 10000
@@ -322,6 +327,7 @@ items:
     id: 27653
     marketGroup: 594
     name: Angel Small AutoCannon Battery
+    published: true
     volume: 500.0
   Domination Large Artillery Battery:
     AmmoCapacity: 10000
@@ -376,6 +382,7 @@ items:
     id: 27559
     marketGroup: 594
     name: Domination Large Artillery Battery
+    published: true
     volume: 5000.0
   Domination Large AutoCannon Battery:
     AmmoCapacity: 10000
@@ -430,6 +437,7 @@ items:
     id: 27556
     marketGroup: 594
     name: Domination Large AutoCannon Battery
+    published: true
     volume: 5000.0
   Domination Medium Artillery Battery:
     AmmoCapacity: 10000
@@ -484,6 +492,7 @@ items:
     id: 27646
     marketGroup: 594
     name: Domination Medium Artillery Battery
+    published: true
     volume: 1000.0
   Domination Medium AutoCannon Battery:
     AmmoCapacity: 10000
@@ -538,6 +547,7 @@ items:
     id: 27649
     marketGroup: 594
     name: Domination Medium AutoCannon Battery
+    published: true
     volume: 1000.0
   Domination Small Artillery Battery:
     AmmoCapacity: 10000
@@ -592,6 +602,7 @@ items:
     id: 27652
     marketGroup: 594
     name: Domination Small Artillery Battery
+    published: true
     volume: 500.0
   Domination Small AutoCannon Battery:
     AmmoCapacity: 10000
@@ -646,6 +657,7 @@ items:
     id: 27655
     marketGroup: 594
     name: Domination Small AutoCannon Battery
+    published: true
     volume: 500.0
   Large Artillery Battery:
     AmmoCapacity: 10000
@@ -699,6 +711,7 @@ items:
     id: 16689
     marketGroup: 594
     name: Large Artillery Battery
+    published: true
     volume: 5000.0
   Large AutoCannon Battery:
     AmmoCapacity: 10000
@@ -752,6 +765,7 @@ items:
     id: 17770
     marketGroup: 594
     name: Large AutoCannon Battery
+    published: true
     volume: 5000.0
   Medium Artillery Battery:
     AmmoCapacity: 10000
@@ -805,6 +819,7 @@ items:
     id: 16688
     marketGroup: 594
     name: Medium Artillery Battery
+    published: true
     volume: 1000.0
   Medium AutoCannon Battery:
     AmmoCapacity: 10000
@@ -858,6 +873,7 @@ items:
     id: 17771
     marketGroup: 594
     name: Medium AutoCannon Battery
+    published: true
     volume: 1000.0
   Small Artillery Battery:
     AmmoCapacity: 10000
@@ -911,6 +927,7 @@ items:
     id: 16631
     marketGroup: 594
     name: Small Artillery Battery
+    published: true
     volume: 500.0
   Small AutoCannon Battery:
     AmmoCapacity: 10000
@@ -964,4 +981,5 @@ items:
     id: 17772
     marketGroup: 594
     name: Small AutoCannon Battery
+    published: true
     volume: 500.0

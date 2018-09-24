@@ -20,6 +20,8 @@ items:
     FlagCruiserFittingBonusPropMods: -99
     FwLpKill: 200
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
+    HeatAttenuationLow: 1.0
     HeatAttenuationMed: 0.25
     HeatCapacityHi: 100
     HeatCapacityLow: 100
@@ -82,4 +84,5 @@ items:
     id: 45534
     marketGroup: 2417
     name: Monitor
+    published: true
     volume: 100000.0

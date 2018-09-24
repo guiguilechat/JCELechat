@@ -1,6 +1,7 @@
 items:
   Standup M-Set Blueprint Copy Cost Optimization I:
     AttributeEngRigCostBonus: -10
+    AttributeEngRigTimeBonus: 1
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
@@ -19,9 +20,11 @@ items:
     id: 43891
     marketGroup: 2347
     name: Standup M-Set Blueprint Copy Cost Optimization I
+    published: true
     volume: 10.0
   Standup M-Set Blueprint Copy Cost Optimization II:
     AttributeEngRigCostBonus: -12
+    AttributeEngRigTimeBonus: 1
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
@@ -40,4 +43,5 @@ items:
     id: 43890
     marketGroup: 2347
     name: Standup M-Set Blueprint Copy Cost Optimization II
+    published: true
     volume: 10.0

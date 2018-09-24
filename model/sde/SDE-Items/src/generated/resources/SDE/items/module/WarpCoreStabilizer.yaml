@@ -11,6 +11,7 @@ items:
     id: 16297
     marketGroup: 1088
     name: '''Accord'' Core Compensation'
+    published: true
     volume: 5.0
   '''Aura'' Warp Core Stabilizer I':
     Cpu: 22.0
@@ -26,6 +27,7 @@ items:
     id: 22875
     marketGroup: 1088
     name: '''Aura'' Warp Core Stabilizer I'
+    published: true
     volume: 5.0
   '''Halcyon'' Core Equalizer I':
     Hp: 40
@@ -39,6 +41,7 @@ items:
     id: 16303
     marketGroup: 1088
     name: '''Halcyon'' Core Equalizer I'
+    published: true
     volume: 5.0
   '''Natura'' Warp Core Stabilizer I':
     Hp: 40
@@ -53,6 +56,7 @@ items:
     id: 22877
     marketGroup: 1088
     name: '''Natura'' Warp Core Stabilizer I'
+    published: true
     volume: 5.0
   '''Repose'' Core Compensation':
     Hp: 40
@@ -66,6 +70,7 @@ items:
     id: 16299
     marketGroup: 1088
     name: '''Repose'' Core Compensation'
+    published: true
     volume: 5.0
   '''Stoic'' Core Equalizer I':
     Hp: 40
@@ -79,6 +84,7 @@ items:
     id: 16301
     marketGroup: 1088
     name: '''Stoic'' Core Equalizer I'
+    published: true
     volume: 5.0
   Warp Core Stabilizer I:
     Hp: 40
@@ -91,6 +97,7 @@ items:
     id: 10998
     marketGroup: 1088
     name: Warp Core Stabilizer I
+    published: true
     volume: 5.0
   Warp Core Stabilizer II:
     Hp: 40
@@ -104,4 +111,5 @@ items:
     id: 11640
     marketGroup: 1088
     name: Warp Core Stabilizer II
+    published: true
     volume: 5.0

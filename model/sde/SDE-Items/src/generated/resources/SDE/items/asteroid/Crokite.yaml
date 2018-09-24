@@ -7,9 +7,11 @@ items:
     OreBasicType: 1225
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28391
     marketGroup: 521
     name: Compressed Crokite
+    published: true
     volume: 7.81
   Compressed Crystalline Crokite:
     AsteroidMaxRadius: 16255
@@ -19,9 +21,11 @@ items:
     OreBasicType: 1225
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28392
     marketGroup: 521
     name: Compressed Crystalline Crokite
+    published: true
     volume: 7.81
   Compressed Pellucid Crokite:
     AsteroidMaxRadius: 16255
@@ -31,9 +35,11 @@ items:
     OreBasicType: 46677
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46693
     marketGroup: 521
     name: Compressed Pellucid Crokite
+    published: true
     volume: 7.81
   Compressed Sharp Crokite:
     AsteroidMaxRadius: 16255
@@ -43,9 +49,11 @@ items:
     OreBasicType: 1225
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28393
     marketGroup: 521
     name: Compressed Sharp Crokite
+    published: true
     volume: 7.81
   Crokite:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 1225
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1225
     marketGroup: 521
     name: Crokite
+    published: true
     volume: 16.0
   Crystalline Crokite:
     AsteroidMaxRadius: 16255
@@ -71,9 +81,11 @@ items:
     OreBasicType: 1225
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17433
     marketGroup: 521
     name: Crystalline Crokite
+    published: true
     volume: 16.0
   Geodite:
     AsteroidMaxRadius: 16255
@@ -82,8 +94,10 @@ items:
     OreBasicType: 1225
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28624
     name: Geodite
+    published: true
     volume: 16.0
   Pellucid Crokite:
     AsteroidMaxRadius: 5000
@@ -95,9 +109,11 @@ items:
     OreBasicType: 46677
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46677
     marketGroup: 521
     name: Pellucid Crokite
+    published: true
     volume: 16.0
   Sharp Crokite:
     AsteroidMaxRadius: 16255
@@ -109,7 +125,9 @@ items:
     OreBasicType: 1225
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17432
     marketGroup: 521
     name: Sharp Crokite
+    published: true
     volume: 16.0

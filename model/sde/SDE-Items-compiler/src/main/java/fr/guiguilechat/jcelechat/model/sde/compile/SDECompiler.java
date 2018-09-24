@@ -152,15 +152,14 @@ public class SDECompiler {
 		// create the attribute class
 		try {
 			attributeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Attribute");
-			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.INT, "getId");
-			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.INT, "getCatId");
-			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.BOOLEAN, "getHighIsGood");
-			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.DOUBLE, "getDefaultValue");
-			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.BOOLEAN, "getPublished");
-			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.BOOLEAN, "getStackable");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getId");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getCatId");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getHighIsGood");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.DOUBLE, "getDefaultValue");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getPublished");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getStackable");
 
-			doubleAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "DoubleAttribute")
-					._extends(attributeClass);
+			doubleAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "DoubleAttribute")._extends(attributeClass);
 			intAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "IntAttribute")._extends(attributeClass);
 		} catch (JClassAlreadyExistsException e3) {
 			throw new UnsupportedOperationException("catch this", e3);
@@ -181,9 +180,15 @@ public class SDECompiler {
 				continue;
 			}
 			int groupID = type.groupID;
-			if (!type.published) {
-				logger.debug("skipping attr " + attribute.attributeID + " for type " + type.enName()
-				+ " as type is not published ");
+			// if (!type.published) {
+			// logger.debug("skipping attr " + attribute.attributeID + " for type " +
+			// type.enName()
+			// + " as type is not published ");
+			// continue;
+			// }
+			EgroupIDs group = groupids.get(groupID);
+			EcategoryIDs cat = catids.get(group.categoryID);
+			if (cat.published && !group.published || group.published && !type.published) {
 				continue;
 			}
 			allAttributesIds.add(attribute.attributeID);
@@ -208,14 +213,14 @@ public class SDECompiler {
 
 		// create the attributes
 		HashMap<Integer, JDefinedClass> idToAttribute = new HashMap<>();
-		for( int attId : allAttributesIds) {
+		for (int attId : allAttributesIds) {
 			EdgmAttributeTypes eattr = attTypes.get(attId);
 			String name = formatName(eattr.attributeName);
 			ret.attID2FieldName.put(attId, name);
 			JDefinedClass attClass;
 			try {
 				attClass = attributesPackage()._class(name);
-				if(attributesWithFloatValue.contains(attId)) {
+				if (attributesWithFloatValue.contains(attId)) {
 					attClass._extends(doubleAttribute);
 				} else {
 					attClass._extends(intAttribute);
@@ -305,8 +310,7 @@ public class SDECompiler {
 			// }
 			// public default Map<String, T> load() {
 			JMethod loadMethod = metaCatClass.method(JMod.PUBLIC | JMod.DEFAULT,
-					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaCat),
-					"load");
+					cm.ref(Map.class).narrow(cm.ref(String.class), paramMetaCat), "load");
 			// HashMap<String, T> ret = new HashMap<>()
 			JVar loadRet = loadMethod.body().decl(cm.ref(HashMap.class).narrow(cm.ref(String.class), paramMetaCat), "ret")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
@@ -351,16 +355,18 @@ public class SDECompiler {
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 			typeClass.field(JMod.PUBLIC, strRef, "name");
 			typeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
+			typeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
 
 			JMethod attrMeth = typeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
 			JVar att = attrMeth.param(attributeClass, "attribute");
 			JSwitch js = attrMeth.body()._switch(att.invoke("getId"));
-			js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(JExpr
-					.lit("can't load attribute id ").plus(att.invoke("getId")).plus(" on type id ")
-					.plus(JExpr.direct("id").plus(" ").plus(JExpr.direct("name")))));
+			js._default().body()
+			._throw(JExpr._new(cm.ref(UnsupportedOperationException.class))
+					.arg(JExpr.lit("can't load attribute id ").plus(att.invoke("getId")).plus(" on type id ")
+							.plus(JExpr.direct("id").plus(" ").plus(JExpr.direct("name")))));
 
 			// create toString() as a name(id)
-			JMethod itemToString =typeClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
+			JMethod itemToString = typeClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
 			itemToString.annotate(Override.class);
 			itemToString.body()._return(JExpr.direct("name + \"(\" + id + \")\""));
 
@@ -412,6 +418,7 @@ public class SDECompiler {
 
 		for (Entry<Integer, EcategoryIDs> cate : catids.entrySet()) {
 			String newName = formatName(cate.getValue().enName());
+			// System.err.println("create cat " + newName);
 			try {
 				JDefinedClass catClass = itemPackage()._class(JMod.PUBLIC | JMod.ABSTRACT, newName);
 				catClass._extends(typeClass);
@@ -448,8 +455,8 @@ public class SDECompiler {
 				// make the getGroups()#return arrays.aslist(group1, grop2, …)
 
 				// we return it in the getgroups method
-				JMethod getGroupsMethod = metaCat.method(JMod.PUBLIC,
-						cm.ref(Collection.class).narrow(subGroupsClass), catGetGroups.name());
+				JMethod getGroupsMethod = metaCat.method(JMod.PUBLIC, cm.ref(Collection.class).narrow(subGroupsClass),
+						catGetGroups.name());
 				JInvocation retGetGroups = cm.ref(Arrays.class).staticInvoke("asList");
 				getGroupsMethod.body()._return(retGetGroups);
 				catIDToGroupListInvoke.put(cate.getKey(), retGetGroups);
@@ -463,23 +470,33 @@ public class SDECompiler {
 
 		for (Entry<Integer, EgroupIDs> groupEntry : groupids.entrySet()) {
 			EgroupIDs group = groupEntry.getValue();
-			// skip the group that have no published item and that are unpublished
-			if (!EtypeIDs.load().values().stream()
-					.filter(eti -> eti.published && eti.groupID == groupEntry.getKey())
-					.findAny().isPresent()) {
-				logger.debug("skipped group " + group.enName() + "(" + groupEntry.getKey()
-				+ "), has no item published");
+			if (group.enName() == null) {
+				logger.debug("skipped group " + groupEntry.getKey() + " has no name");
 				continue;
 			}
-			String newName = formatName(group.enName());
+			// skip the group that have no item
+			if (!EtypeIDs.load().values().stream().filter(eti ->
+			(eti.published || !group.published) &&
+			eti.groupID == groupEntry.getKey()).findAny().isPresent()) {
+				logger.debug("skipped group " + group.enName() + "(" + groupEntry.getKey() + "), has no item");
+				continue;
+			}
+			String name = formatName(group.enName());
 			JDefinedClass catClass = catIDToClass.get(group.categoryID);
 			if (catClass == null) {
-				logger.warn("can't resolve category " + group.categoryID + " for group " + group.enName()
-				+ "(" + groupEntry.getKey() + ")");
+				logger.warn("skipped group " + group.enName() + "(" + groupEntry.getKey() + "), can't resolve category "
+						+ group.categoryID);
 				continue;
 			}
+			EcategoryIDs cat = catids.get(group.categoryID);
+			if (cat.published && !group.published) {
+				logger.debug("skipped group " + group.enName() + "(" + groupEntry.getKey() + "), is not published while cat "
+						+ cat.enName() + " is");
+				continue;
+			}
+			// System.err.println("create group " + name + "extends " +
+			// catClass.name());
 			try {
-				String name = formatName(newName);
 				JDefinedClass groupClass = itemPackage().subPackage(catClass.name().toLowerCase())._class(name);
 				groupClass._extends(catClass);
 				addAttributes(groupClass, groupAttributes.get(groupEntry.getKey()), attributesWithFloatValue);
@@ -517,10 +534,12 @@ public class SDECompiler {
 				// metaGroup.getName return the group name
 				JMethod getName = metaGroup.method(JMod.PUBLIC, cm.ref(String.class), "getName");
 				getName.annotate(Override.class);
-				getName.body()._return(JExpr.lit(newName));
+				getName.body()._return(JExpr.lit(name));
 
 			} catch (JClassAlreadyExistsException e1) {
-				throw new UnsupportedOperationException("catch this " + e1.getExistingClass(), e1);
+				throw new UnsupportedOperationException(
+						"while creating class " + e1.getExistingClass() + " for group name=" + name + " id=" + groupEntry.getKey(),
+						e1);
 			}
 		}
 
@@ -528,7 +547,8 @@ public class SDECompiler {
 
 		try {
 			ret.itemIndexClass = rootPackage()._class("ItemIndex");
-			ret.itemIndexClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), strRef), "id2name")
+			ret.itemIndexClass
+			.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), strRef), "id2name")
 			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
 			ret.itemIndexClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "name2group")
 			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
@@ -557,14 +577,14 @@ public class SDECompiler {
 			// try to load the class then call load() on it
 			JTryBlock tryblock = createBlock._try();
 			// convert the group to the classname
-			JVar className = tryblock.body().decl(strRef, "className")
-					.init(JExpr.lit(itemPackage().name() + ".")
-							.plus(grp.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
+			JVar className = tryblock.body().decl(strRef, "className").init(
+					JExpr.lit(itemPackage().name() + ".").plus(grp.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
 			JVar loadclass = tryblock.body().decl(cm.ref(Class.class).narrowAny(), "loadclass");
 			loadclass.init(ret.itemIndexClass.dotclass().invoke("getClassLoader").invoke("loadClass").arg(className));
 			JBlock assignblock = tryblock.body()._if(loadclass.neNull())._then();
-			//			IMetaGroup<? extends Item> img = (IMetaGroup<? extends Item>) loadclass.getField("METAGROUP").get(null);
-			//			map = img.load();
+			// IMetaGroup<? extends Item> img = (IMetaGroup<? extends Item>)
+			// loadclass.getField("METAGROUP").get(null);
+			// map = img.load();
 			JVar img = assignblock.decl(metaGroupClass.narrow(typeClass.wildcardExtends()), "img")
 					.init(JExpr.cast(metaGroupClass.narrow(typeClass.wildcardExtends()),
 							loadclass.invoke("getField").arg("METAGROUP").invoke("get").arg(JExpr._null())));
@@ -670,6 +690,7 @@ public class SDECompiler {
 
 		for (Integer attributeID : sortedAttIds) {
 			EdgmAttributeTypes attr = attTypes.get(attributeID);
+			// System.err.println(" - " + attr.attributeName);
 			boolean isDouble = attributesWithFloatValue.contains(attr.attributeID);
 			JFieldVar f = cl.field(JMod.PUBLIC, isDouble ? cm.DOUBLE : cm.INT, formatName(attr.attributeName));
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
@@ -688,8 +709,7 @@ public class SDECompiler {
 			jsAttr._case(JExpr.lit(attr.attributeID)).body()._return(f);
 			f.javadoc().add(attr.description);
 		}
-		if(jsAttr!=null)
-		{
+		if (jsAttr != null) {
 			jsAttr._default().body()._return(JExpr._super().invoke("attribute").arg(JExpr.direct("attribute")));
 		}
 	}

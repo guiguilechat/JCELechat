@@ -78,6 +78,7 @@ items:
     id: 47513
     marketGroup: 2200
     name: '''Draccous'' Fortizar'
+    published: true
     volume: 80000.0
   '''Horizon'' Fortizar':
     ArmorDamageLimit: 15000
@@ -158,6 +159,7 @@ items:
     id: 47514
     marketGroup: 2200
     name: '''Horizon'' Fortizar'
+    published: true
     volume: 80000.0
   '''Marginis'' Fortizar':
     ArmorDamageLimit: 15000
@@ -238,6 +240,7 @@ items:
     id: 47515
     marketGroup: 2200
     name: '''Marginis'' Fortizar'
+    published: true
     volume: 80000.0
   '''Moreau'' Fortizar':
     ArmorDamageLimit: 15000
@@ -319,6 +322,7 @@ items:
     id: 47512
     marketGroup: 2200
     name: '''Moreau'' Fortizar'
+    published: true
     volume: 80000.0
   '''Prometheus'' Fortizar':
     ArmorDamageLimit: 15000
@@ -400,6 +404,7 @@ items:
     id: 47516
     marketGroup: 2200
     name: '''Prometheus'' Fortizar'
+    published: true
     volume: 80000.0
   Astrahus:
     ArmorDamageLimit: 5000
@@ -476,6 +481,7 @@ items:
     id: 35832
     marketGroup: 2201
     name: Astrahus
+    published: true
     volume: 8000.0
   Fortizar:
     ArmorDamageLimit: 15000
@@ -554,6 +560,7 @@ items:
     id: 35833
     marketGroup: 2201
     name: Fortizar
+    published: true
     volume: 80000.0
   Keepstar:
     ArmorDamageLimit: 75000
@@ -632,6 +639,7 @@ items:
     id: 35834
     marketGroup: 2201
     name: Keepstar
+    published: true
     volume: 800000.0
   Upwell Palatine Keepstar:
     ArmorDamageLimit: 75000
@@ -712,4 +720,5 @@ items:
     id: 40340
     marketGroup: 2200
     name: Upwell Palatine Keepstar
+    published: true
     volume: 800000.0

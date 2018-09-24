@@ -24,6 +24,7 @@ items:
     id: 33591
     marketGroup: 1844
     name: Mobile Micro Jump Unit
+    published: true
     volume: 50.0
   Tournament Micro Jump Unit:
     ArmorHP: 1000
@@ -47,4 +48,5 @@ items:
     TechLevel: 1
     id: 33990
     name: Tournament Micro Jump Unit
+    published: true
     volume: 1.0

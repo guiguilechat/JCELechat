@@ -1,0 +1,111 @@
+items:
+  Dread Pith Conquistador:
+    id: 24152
+    name: Dread Pith Conquistador
+    published: false
+    volume: 2.2E7
+  Dread Pith Destroyer:
+    id: 24151
+    name: Dread Pith Destroyer
+    published: false
+    volume: 2.2E7
+  Dread Pith Dismantler:
+    id: 17010
+    name: Dread Pith Dismantler
+    published: false
+    volume: 1040000.0
+  Dread Pith Eliminator:
+    id: 17011
+    name: Dread Pith Eliminator
+    published: false
+    volume: 1040000.0
+  Dread Pith Eradicator:
+    id: 17018
+    name: Dread Pith Eradicator
+    published: false
+    volume: 1040000.0
+  Dread Pith Exterminator:
+    id: 17031
+    name: Dread Pith Exterminator
+    published: false
+    volume: 2.2E7
+  Dread Pith Extinguisher:
+    id: 17030
+    name: Dread Pith Extinguisher
+    published: false
+    volume: 2.2E7
+  Dread Pith Massacrer:
+    id: 24153
+    name: Dread Pith Massacrer
+    published: false
+    volume: 2.2E7
+  Dread Pith Obliterator:
+    id: 17014
+    name: Dread Pith Obliterator
+    published: false
+    volume: 1080000.0
+  Dread Pith Usurper:
+    id: 24154
+    name: Dread Pith Usurper
+    published: false
+    volume: 2.2E7
+  Guristas Battleship Vessel:
+    id: 32385
+    name: Guristas Battleship Vessel
+    published: false
+    volume: 1040000.0
+  Pith Conquistador:
+    id: 24148
+    name: Pith Conquistador
+    published: false
+    volume: 2.2E7
+  Pith Defender:
+    id: 25824
+    name: Pith Defender
+    published: false
+    volume: 2.2E7
+  Pith Destroyer:
+    id: 24147
+    name: Pith Destroyer
+    published: false
+    volume: 2.2E7
+  Pith Dismantler:
+    id: 16984
+    name: Pith Dismantler
+    published: false
+    volume: 1040000.0
+  Pith Eliminator:
+    id: 24145
+    name: Pith Eliminator
+    published: false
+    volume: 2.2E7
+  Pith Eradicator:
+    id: 16992
+    name: Pith Eradicator
+    published: false
+    volume: 1040000.0
+  Pith Exterminator:
+    id: 24146
+    name: Pith Exterminator
+    published: false
+    volume: 2.2E7
+  Pith Extinguisher:
+    id: 17005
+    name: Pith Extinguisher
+    published: false
+    volume: 2.2E7
+  Pith Massacrer:
+    id: 24149
+    name: Pith Massacrer
+    published: false
+    volume: 2.2E7
+  Pith Obliterator:
+    id: 16988
+    name: Pith Obliterator
+    published: false
+    volume: 1080000.0
+  Pith Usurper:
+    id: 24150
+    name: Pith Usurper
+    published: false
+    volume: 2.2E7

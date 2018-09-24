@@ -30,6 +30,7 @@ items:
     id: 22925
     marketGroup: 673
     name: '''Bootleg'' Remote Sensor Booster'
+    published: true
     volume: 5.0
   Coadjunct Scoped Remote Sensor Booster:
     CapacitorNeed: 20.0
@@ -61,6 +62,7 @@ items:
     id: 5281
     marketGroup: 673
     name: Coadjunct Scoped Remote Sensor Booster
+    published: true
     volume: 5.0
   F-23 Compact Remote Sensor Booster:
     CapacitorNeed: 20.0
@@ -92,6 +94,7 @@ items:
     id: 5279
     marketGroup: 673
     name: F-23 Compact Remote Sensor Booster
+    published: true
     volume: 5.0
   Linked Enduring Remote Sensor Booster:
     CapacitorNeed: 16.0
@@ -123,6 +126,7 @@ items:
     id: 5282
     marketGroup: 673
     name: Linked Enduring Remote Sensor Booster
+    published: true
     volume: 5.0
   Remote Sensor Booster I:
     CapacitorNeed: 20.0
@@ -153,6 +157,7 @@ items:
     id: 1963
     marketGroup: 673
     name: Remote Sensor Booster I
+    published: true
     volume: 25.0
   Remote Sensor Booster II:
     CapacitorNeed: 24.0
@@ -184,6 +189,7 @@ items:
     id: 1964
     marketGroup: 673
     name: Remote Sensor Booster II
+    published: true
     volume: 5.0
   Sentient Remote Sensor Booster:
     CapacitorNeed: 16.0
@@ -216,6 +222,7 @@ items:
     id: 41198
     marketGroup: 673
     name: Sentient Remote Sensor Booster
+    published: true
     volume: 25.0
   Shadow Serpentis Remote Sensor Booster:
     CapacitorNeed: 16.0
@@ -248,4 +255,5 @@ items:
     id: 41199
     marketGroup: 673
     name: Shadow Serpentis Remote Sensor Booster
+    published: true
     volume: 25.0

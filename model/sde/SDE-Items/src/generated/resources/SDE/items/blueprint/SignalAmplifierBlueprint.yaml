@@ -4,6 +4,7 @@ items:
     TechLevel: 1
     id: 21528
     name: '''Firewall'' Signal Amplifier Blueprint'
+    published: true
     volume: 0.01
   Signal Amplifier I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -11,10 +12,12 @@ items:
     id: 11634
     marketGroup: 1585
     name: Signal Amplifier I Blueprint
+    published: true
     volume: 0.01
   Signal Amplifier II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 11812
     name: Signal Amplifier II Blueprint
+    published: true
     volume: 0.01

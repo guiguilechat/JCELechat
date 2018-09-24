@@ -13,6 +13,7 @@ items:
     id: 35959
     marketGroup: 2234
     name: Standup Ballistic Control System I
+    published: true
     volume: 4000.0
   Standup Ballistic Control System II:
     CanFitShipGroup01: 1657
@@ -29,6 +30,7 @@ items:
     id: 47342
     marketGroup: 2234
     name: Standup Ballistic Control System II
+    published: true
     volume: 4000.0
   Standup Missile Guidance Enhancer I:
     AoeCloudSizeBonus: -4.400000095367432
@@ -47,6 +49,7 @@ items:
     id: 35962
     marketGroup: 2235
     name: Standup Missile Guidance Enhancer I
+    published: true
     volume: 4000.0
   Standup Missile Guidance Enhancer II:
     AoeCloudSizeBonus: -6.0
@@ -66,4 +69,5 @@ items:
     id: 47340
     marketGroup: 2235
     name: Standup Missile Guidance Enhancer II
+    published: true
     volume: 4000.0

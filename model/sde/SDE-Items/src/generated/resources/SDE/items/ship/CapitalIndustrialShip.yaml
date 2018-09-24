@@ -26,6 +26,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 40000
     FwLpKill: 2000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -106,4 +107,5 @@ items:
     id: 28352
     marketGroup: 1048
     name: Rorqual
+    published: true
     volume: 1.45E7

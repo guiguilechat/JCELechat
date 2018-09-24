@@ -90,6 +90,7 @@ items:
     id: 28606
     marketGroup: 2336
     name: Orca
+    published: true
     volume: 1.025E7
   Porpoise:
     AffectedByIndustrialInvulnModule: 1
@@ -177,4 +178,5 @@ items:
     id: 42244
     marketGroup: 2336
     name: Porpoise
+    published: true
     volume: 400000.0

@@ -1,6 +1,7 @@
 items:
   Cynosural Generator Array:
     AnchoringDelay: 10000
+    AnchoringSecurityLevelMax: 1.0
     ArmorHP: 15000000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 25000
@@ -32,4 +33,5 @@ items:
     id: 27673
     marketGroup: 1013
     name: Cynosural Generator Array
+    published: true
     volume: 4000.0

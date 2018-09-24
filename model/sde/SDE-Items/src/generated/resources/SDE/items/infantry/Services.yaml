@@ -1,0 +1,25 @@
+items:
+  Instant Booster 2X:
+    id: 367596
+    name: Instant Booster 2X
+    published: false
+  Instant Booster 3X:
+    id: 367597
+    name: Instant Booster 3X
+    published: false
+  Instant Booster 4X:
+    id: 367598
+    name: Instant Booster 4X
+    published: false
+  Skill Tree Reset and Refund:
+    id: 367499
+    name: Skill Tree Reset and Refund
+    published: false
+  instant_booster4:
+    id: 367845
+    name: instant_booster4
+    published: false
+  mission_reroll:
+    id: 367843
+    name: mission_reroll
+    published: false

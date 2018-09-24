@@ -6,6 +6,7 @@ items:
     LauncherGroup: 1226
     MaxScanRange: 100000000
     MaxVelocity: 30000.0
+    ProbesInGroup: 3
     RequiredSkill1: 3412
     RequiredSkill1Level: 3
     RequiredSkill2: 3551
@@ -16,6 +17,7 @@ items:
     id: 18635
     marketGroup: 1200
     name: Discovery Survey Probe I
+    published: true
     volume: 10.0
   Gaze Survey Probe I:
     Agility: 1000.0
@@ -24,6 +26,7 @@ items:
     LauncherGroup: 1226
     MaxScanRange: 100000000
     MaxVelocity: 30000.0
+    ProbesInGroup: 3
     RequiredSkill1: 3412
     RequiredSkill1Level: 5
     RequiredSkill2: 3551
@@ -34,6 +37,7 @@ items:
     id: 18637
     marketGroup: 1200
     name: Gaze Survey Probe I
+    published: true
     volume: 5.0
   Quest Survey Probe I:
     Agility: 1000.0
@@ -42,6 +46,7 @@ items:
     LauncherGroup: 1226
     MaxScanRange: 100000000
     MaxVelocity: 30000.0
+    ProbesInGroup: 3
     RequiredSkill1: 3412
     RequiredSkill1Level: 3
     RequiredSkill2: 3551
@@ -52,4 +57,5 @@ items:
     id: 18626
     marketGroup: 1200
     name: Quest Survey Probe I
+    published: true
     volume: 5.0

@@ -1,0 +1,46 @@
+items:
+  Gath Renton:
+    id: 32390
+    name: Gath Renton
+    published: false
+    volume: 101000.0
+  State Kanpaku:
+    id: 25066
+    name: State Kanpaku
+    published: false
+    volume: 101000.0
+  State Kerai:
+    id: 25063
+    name: State Kerai
+    published: false
+    volume: 101000.0
+  State Oni:
+    id: 25065
+    name: State Oni
+    published: false
+    volume: 101000.0
+  State Ronin:
+    id: 25064
+    name: State Ronin
+    published: false
+    volume: 101000.0
+  State Shukuro Bajo:
+    id: 25067
+    name: State Shukuro Bajo
+    published: false
+    volume: 101000.0
+  State Shukuro Gassin:
+    id: 28173
+    name: State Shukuro Gassin
+    published: false
+    volume: 140000.0
+  State Shukuro Samurai:
+    id: 25069
+    name: State Shukuro Samurai
+    published: false
+    volume: 101000.0
+  State Shukuro Seki:
+    id: 28172
+    name: State Shukuro Seki
+    published: false
+    volume: 140000.0

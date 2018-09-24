@@ -1,5 +1,6 @@
 items:
   Standup M-Set Blueprint Copy Accelerator I:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigTimeBonus: -20
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -19,8 +20,10 @@ items:
     id: 43893
     marketGroup: 2347
     name: Standup M-Set Blueprint Copy Accelerator I
+    published: true
     volume: 10.0
   Standup M-Set Blueprint Copy Accelerator II:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -40,4 +43,5 @@ items:
     id: 43892
     marketGroup: 2347
     name: Standup M-Set Blueprint Copy Accelerator II
+    published: true
     volume: 10.0

@@ -17,6 +17,7 @@ items:
     id: 46484
     marketGroup: 2341
     name: Standup M-Set Composite Reactor Time Efficiency I
+    published: true
     volume: 10.0
   Standup M-Set Composite Reactor Time Efficiency II:
     CanFitShipGroup03: 1406
@@ -36,4 +37,5 @@ items:
     id: 46485
     marketGroup: 2341
     name: Standup M-Set Composite Reactor Time Efficiency II
+    published: true
     volume: 10.0

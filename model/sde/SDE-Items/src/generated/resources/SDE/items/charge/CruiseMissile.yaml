@@ -20,6 +20,7 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 431.0
@@ -27,6 +28,7 @@ items:
     id: 27423
     marketGroup: 1001
     name: Caldari Navy Inferno Cruise Missile
+    published: true
     volume: 0.05
   Caldari Navy Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -50,12 +52,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27377
     marketGroup: 1001
     name: Caldari Navy Mjolnir Cruise Missile
+    published: true
     volume: 0.05
   Caldari Navy Nova Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -79,12 +83,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27429
     marketGroup: 1001
     name: Caldari Navy Nova Cruise Missile
+    published: true
     volume: 0.05
   Caldari Navy Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -108,12 +114,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27395
     marketGroup: 1001
     name: Caldari Navy Scourge Cruise Missile
+    published: true
     volume: 0.05
   Dread Guristas Inferno Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -136,6 +144,7 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 450.0
@@ -143,6 +152,7 @@ items:
     id: 27425
     marketGroup: 1001
     name: Dread Guristas Inferno Cruise Missile
+    published: true
     volume: 0.05
   Dread Guristas Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -166,12 +176,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27389
     marketGroup: 1001
     name: Dread Guristas Mjolnir Cruise Missile
+    published: true
     volume: 0.05
   Dread Guristas Nova Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -195,12 +207,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27431
     marketGroup: 1001
     name: Dread Guristas Nova Cruise Missile
+    published: true
     volume: 0.05
   Dread Guristas Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -224,12 +238,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27399
     marketGroup: 1001
     name: Dread Guristas Scourge Cruise Missile
+    published: true
     volume: 0.05
   Guristas Inferno Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -252,6 +268,7 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 413.0
@@ -259,6 +276,7 @@ items:
     id: 27409
     marketGroup: 1001
     name: Guristas Inferno Cruise Missile
+    published: true
     volume: 0.05
   Guristas Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -282,12 +300,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27373
     marketGroup: 1001
     name: Guristas Mjolnir Cruise Missile
+    published: true
     volume: 0.05
   Guristas Nova Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -311,12 +331,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27427
     marketGroup: 1001
     name: Guristas Nova Cruise Missile
+    published: true
     volume: 0.05
   Guristas Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -340,12 +362,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27391
     marketGroup: 1001
     name: Guristas Scourge Cruise Missile
+    published: true
     volume: 0.05
   Inferno Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -366,6 +390,7 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 375.0
@@ -373,6 +398,7 @@ items:
     id: 204
     marketGroup: 921
     name: Inferno Cruise Missile
+    published: true
     volume: 0.05
   Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -394,12 +420,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 202
     marketGroup: 921
     name: Mjolnir Cruise Missile
+    published: true
     volume: 0.05
   Nova Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -421,12 +449,14 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 205
     marketGroup: 921
     name: Nova Cruise Missile
+    published: true
     volume: 0.05
   Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
@@ -448,10 +478,12 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
+    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 203
     marketGroup: 921
     name: Scourge Cruise Missile
+    published: true
     volume: 0.05

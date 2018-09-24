@@ -1,5 +1,51 @@
 items:
+  Blood Raider Frigate:
+    id: 36939
+    name: Blood Raider Frigate
+    published: false
+    volume: 28600.0
+  Eosian Defender:
+    id: 46344
+    name: Eosian Defender
+    published: false
+    volume: 19100.0
+  Excoriator Slaver:
+    id: 48129
+    name: Excoriator Slaver
+    published: false
+    volume: 28100.0
+  Guardian Angels Jeremael:
+    id: 42127
+    name: Guardian Angels Jeremael
+    published: false
+    volume: 16450.0
   Guri Hivaa Killer:
     id: 40725
     name: Guri Hivaa Killer
+    published: true
     volume: 16500.0
+  Noumenal Impeder:
+    id: 47715
+    name: Noumenal Impeder
+    published: false
+    volume: 19100.0
+  Noumenal Obstructor:
+    id: 47717
+    name: Noumenal Obstructor
+    published: false
+    volume: 19100.0
+  Purist Apostle:
+    id: 42512
+    name: Purist Apostle
+    published: false
+    volume: 28100.0
+  Serpentis Frigate:
+    id: 38659
+    name: Serpentis Frigate
+    published: false
+    volume: 29500.0
+  unnamed_g1568_ic0:
+    id: 48907
+    name: unnamed_g1568_ic0
+    published: false
+    volume: 60.0

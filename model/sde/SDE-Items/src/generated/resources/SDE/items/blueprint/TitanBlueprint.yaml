@@ -4,34 +4,41 @@ items:
     id: 11568
     marketGroup: 884
     name: Avatar Blueprint
+    published: true
     volume: 0.01
   Erebus Blueprint:
     IndustryBlueprintRank: 600.0
     id: 1002
     marketGroup: 886
     name: Erebus Blueprint
+    published: true
     volume: 0.01
   Komodo Blueprint:
     id: 45648
     name: Komodo Blueprint
+    published: true
     volume: 0.01
   Leviathan Blueprint:
     IndustryBlueprintRank: 600.0
     id: 3765
     marketGroup: 885
     name: Leviathan Blueprint
+    published: true
     volume: 0.01
   Molok Blueprint:
     id: 45045
     name: Molok Blueprint
+    published: true
     volume: 0.01
   Ragnarok Blueprint:
     IndustryBlueprintRank: 600.0
     id: 23774
     marketGroup: 887
     name: Ragnarok Blueprint
+    published: true
     volume: 0.01
   Vanquisher Blueprint:
     id: 42138
     name: Vanquisher Blueprint
+    published: true
     volume: 0.01

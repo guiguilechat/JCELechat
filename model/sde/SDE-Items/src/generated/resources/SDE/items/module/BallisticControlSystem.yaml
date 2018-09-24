@@ -13,6 +13,7 @@ items:
     id: 21484
     marketGroup: 645
     name: '''Full Duplex'' Ballistic Control System'
+    published: true
     volume: 5.0
   Ballistic Control System I:
     Hp: 40
@@ -25,6 +26,7 @@ items:
     id: 12274
     marketGroup: 645
     name: Ballistic Control System I
+    published: true
     volume: 5.0
   Ballistic Control System II:
     Hp: 40
@@ -38,6 +40,7 @@ items:
     id: 22291
     marketGroup: 645
     name: Ballistic Control System II
+    published: true
     volume: 5.0
   C3-A 'Hivaa Saitsuo' Ballistic Control System:
     Cpu: 37.0
@@ -56,6 +59,7 @@ items:
     id: 47447
     marketGroup: 645
     name: C3-A 'Hivaa Saitsuo' Ballistic Control System
+    published: true
     volume: 5.0
   C3-X 'Hivaa Saitsuo' Ballistic Control System:
     Cpu: 42.0
@@ -74,6 +78,7 @@ items:
     id: 47448
     marketGroup: 645
     name: C3-X 'Hivaa Saitsuo' Ballistic Control System
+    published: true
     volume: 5.0
   Caldari Navy Ballistic Control System:
     Hp: 40
@@ -88,6 +93,7 @@ items:
     id: 15681
     marketGroup: 645
     name: Caldari Navy Ballistic Control System
+    published: true
     volume: 5.0
   Crosslink Compact Ballistic Control System:
     Cpu: 31.0
@@ -102,6 +108,7 @@ items:
     id: 16457
     marketGroup: 645
     name: Crosslink Compact Ballistic Control System
+    published: true
     volume: 5.0
   Domination Ballistic Control System:
     Cpu: 24.0
@@ -117,6 +124,7 @@ items:
     id: 13935
     marketGroup: 645
     name: Domination Ballistic Control System
+    published: true
     volume: 5.0
   Dread Guristas Ballistic Control System:
     Hp: 40
@@ -131,6 +139,7 @@ items:
     id: 13937
     marketGroup: 645
     name: Dread Guristas Ballistic Control System
+    published: true
     volume: 5.0
   Estamel's Modified Ballistic Control System:
     Hp: 40
@@ -145,6 +154,7 @@ items:
     id: 14690
     marketGroup: 645
     name: Estamel's Modified Ballistic Control System
+    published: true
     volume: 5.0
   Gotan's Modified Ballistic Control System:
     Cpu: 31.0
@@ -160,6 +170,7 @@ items:
     id: 14532
     marketGroup: 645
     name: Gotan's Modified Ballistic Control System
+    published: true
     volume: 5.0
   Hakim's Modified Ballistic Control System:
     Cpu: 29.0
@@ -175,6 +186,7 @@ items:
     id: 14528
     marketGroup: 645
     name: Hakim's Modified Ballistic Control System
+    published: true
     volume: 5.0
   Kaatara's Custom Ballistic Control System:
     Cpu: 38.0
@@ -190,6 +202,7 @@ items:
     id: 46270
     marketGroup: 645
     name: Kaatara's Custom Ballistic Control System
+    published: true
     volume: 5.0
   Kaikka's Modified Ballistic Control System:
     Hp: 40
@@ -204,6 +217,7 @@ items:
     id: 14684
     marketGroup: 645
     name: Kaikka's Modified Ballistic Control System
+    published: true
     volume: 5.0
   Khanid Navy Ballistic Control System:
     Hp: 40
@@ -218,6 +232,7 @@ items:
     id: 28563
     marketGroup: 645
     name: Khanid Navy Ballistic Control System
+    published: true
     volume: 5.0
   Mizuro's Modified Ballistic Control System:
     Cpu: 26.0
@@ -233,6 +248,7 @@ items:
     id: 14530
     marketGroup: 645
     name: Mizuro's Modified Ballistic Control System
+    published: true
     volume: 5.0
   Republic Fleet Ballistic Control System:
     Cpu: 24.0
@@ -248,6 +264,7 @@ items:
     id: 15683
     marketGroup: 645
     name: Republic Fleet Ballistic Control System
+    published: true
     volume: 5.0
   Thon's Modified Ballistic Control System:
     Hp: 40
@@ -262,6 +279,7 @@ items:
     id: 14686
     marketGroup: 645
     name: Thon's Modified Ballistic Control System
+    published: true
     volume: 5.0
   Tobias' Modified Ballistic Control System:
     Cpu: 34.0
@@ -277,6 +295,7 @@ items:
     id: 14534
     marketGroup: 645
     name: Tobias' Modified Ballistic Control System
+    published: true
     volume: 5.0
   Vepas' Modified Ballistic Control System:
     Hp: 40
@@ -291,4 +310,5 @@ items:
     id: 14688
     marketGroup: 645
     name: Vepas' Modified Ballistic Control System
+    published: true
     volume: 5.0

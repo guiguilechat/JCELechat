@@ -13,6 +13,7 @@ items:
     id: 41034
     marketGroup: 938
     name: AE-K Compact Drone Damage Amplifier
+    published: true
     volume: 5.0
   Dread Guristas Drone Damage Amplifier:
     Cpu: 20.0
@@ -29,6 +30,7 @@ items:
     id: 33846
     marketGroup: 938
     name: Dread Guristas Drone Damage Amplifier
+    published: true
     volume: 5.0
   Drone Damage Amplifier I:
     Cpu: 27.0
@@ -43,6 +45,7 @@ items:
     id: 4393
     marketGroup: 938
     name: Drone Damage Amplifier I
+    published: true
     volume: 5.0
   Drone Damage Amplifier II:
     Cpu: 30.0
@@ -58,6 +61,7 @@ items:
     id: 4405
     marketGroup: 938
     name: Drone Damage Amplifier II
+    published: true
     volume: 5.0
   Federation Navy Drone Damage Amplifier:
     Cpu: 20.0
@@ -74,6 +78,7 @@ items:
     id: 33842
     marketGroup: 938
     name: Federation Navy Drone Damage Amplifier
+    published: true
     volume: 5.0
   Imperial Navy Drone Damage Amplifier:
     Cpu: 20.0
@@ -90,6 +95,7 @@ items:
     id: 33844
     marketGroup: 938
     name: Imperial Navy Drone Damage Amplifier
+    published: true
     volume: 5.0
   Sentient Drone Damage Amplifier:
     Cpu: 20.0
@@ -106,6 +112,7 @@ items:
     id: 33848
     marketGroup: 938
     name: Sentient Drone Damage Amplifier
+    published: true
     volume: 5.0
   Unit D-34343's Modified Drone Damage Amplifier:
     Cpu: 22.0
@@ -120,6 +127,7 @@ items:
     id: 32919
     marketGroup: 938
     name: Unit D-34343's Modified Drone Damage Amplifier
+    published: true
     volume: 5.0
   Unit F-435454's Modified Drone Damage Amplifier:
     Cpu: 24.0
@@ -134,6 +142,7 @@ items:
     id: 32921
     marketGroup: 938
     name: Unit F-435454's Modified Drone Damage Amplifier
+    published: true
     volume: 5.0
   Unit P-343554's Modified Drone Damage Amplifier:
     Cpu: 26.0
@@ -150,6 +159,7 @@ items:
     id: 32923
     marketGroup: 938
     name: Unit P-343554's Modified Drone Damage Amplifier
+    published: true
     volume: 5.0
   Unit W-634's Modified Drone Damage Amplifier:
     Cpu: 28.0
@@ -166,4 +176,5 @@ items:
     id: 32925
     marketGroup: 938
     name: Unit W-634's Modified Drone Damage Amplifier
+    published: true
     volume: 5.0

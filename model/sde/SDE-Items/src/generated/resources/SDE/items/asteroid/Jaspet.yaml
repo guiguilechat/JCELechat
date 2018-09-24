@@ -7,9 +7,11 @@ items:
     OreBasicType: 46682
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46698
     marketGroup: 529
     name: Compressed Immaculate Jaspet
+    published: true
     volume: 0.15
   Compressed Jaspet:
     AsteroidMaxRadius: 16255
@@ -19,9 +21,11 @@ items:
     OreBasicType: 1226
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28406
     marketGroup: 529
     name: Compressed Jaspet
+    published: true
     volume: 0.15
   Compressed Pristine Jaspet:
     AsteroidMaxRadius: 16255
@@ -31,9 +35,11 @@ items:
     OreBasicType: 1226
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28407
     marketGroup: 529
     name: Compressed Pristine Jaspet
+    published: true
     volume: 0.15
   Compressed Pure Jaspet:
     AsteroidMaxRadius: 16255
@@ -43,9 +49,11 @@ items:
     OreBasicType: 1226
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28408
     marketGroup: 529
     name: Compressed Pure Jaspet
+    published: true
     volume: 0.15
   Immaculate Jaspet:
     AsteroidMaxRadius: 5000
@@ -57,9 +65,11 @@ items:
     OreBasicType: 46682
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46682
     marketGroup: 529
     name: Immaculate Jaspet
+    published: true
     volume: 2.0
   Jaspet:
     AsteroidMaxRadius: 16255
@@ -71,9 +81,11 @@ items:
     OreBasicType: 1226
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1226
     marketGroup: 529
     name: Jaspet
+    published: true
     volume: 2.0
   Pithix:
     AsteroidMaxRadius: 16255
@@ -82,8 +94,10 @@ items:
     OreBasicType: 1226
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28621
     name: Pithix
+    published: true
     volume: 2.0
   Pristine Jaspet:
     AsteroidMaxRadius: 16255
@@ -95,9 +109,11 @@ items:
     OreBasicType: 1226
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17449
     marketGroup: 529
     name: Pristine Jaspet
+    published: true
     volume: 2.0
   Pure Jaspet:
     AsteroidMaxRadius: 16255
@@ -109,7 +125,9 @@ items:
     OreBasicType: 1226
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17448
     marketGroup: 529
     name: Pure Jaspet
+    published: true
     volume: 2.0

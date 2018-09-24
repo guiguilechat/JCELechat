@@ -8,6 +8,7 @@ items:
     id: 27182
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-701
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-703:
     Implantness: 7
@@ -18,6 +19,7 @@ items:
     id: 27176
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-703
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-705:
     Implantness: 7
@@ -28,6 +30,7 @@ items:
     id: 27181
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-705
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-601:
     BlueprintmanufactureTimeBonus: -1
@@ -38,6 +41,7 @@ items:
     id: 27180
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-601
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-603:
     BlueprintmanufactureTimeBonus: -3
@@ -48,6 +52,7 @@ items:
     id: 27177
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-603
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-605:
     BlueprintmanufactureTimeBonus: -5
@@ -58,6 +63,7 @@ items:
     id: 27179
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-605
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-801:
     CopySpeedBonus: -1
@@ -68,6 +74,7 @@ items:
     id: 27185
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-801
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-803:
     CopySpeedBonus: -3
@@ -78,6 +85,7 @@ items:
     id: 27178
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-803
+    published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-805:
     CopySpeedBonus: -5
@@ -88,4 +96,5 @@ items:
     id: 27184
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-805
+    published: true
     volume: 1.0

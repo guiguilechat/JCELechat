@@ -1,0 +1,71 @@
+items:
+  Corelior Artillery:
+    id: 23998
+    name: Corelior Artillery
+    published: false
+    volume: 26500.0
+  Corelior Cannoneer:
+    id: 23997
+    name: Corelior Cannoneer
+    published: false
+    volume: 26500.0
+  Corelior Infantry:
+    id: 23995
+    name: Corelior Infantry
+    published: false
+    volume: 26500.0
+  Corelior Sentinel:
+    id: 23996
+    name: Corelior Sentinel
+    published: false
+    volume: 26500.0
+  Corelior Soldier:
+    id: 23994
+    name: Corelior Soldier
+    published: false
+    volume: 26500.0
+  Corelior Trooper:
+    id: 23973
+    name: Corelior Trooper
+    published: false
+    volume: 26500.0
+  Locced's Destroyer:
+    id: 2128
+    name: Locced's Destroyer
+    published: false
+    volume: 26500.0
+  Phenod's Broke-Ass Destroyer:
+    id: 2098
+    name: Phenod's Broke-Ass Destroyer
+    published: false
+    volume: 26500.0
+  Shadow Corelior Artillery:
+    id: 24210
+    name: Shadow Corelior Artillery
+    published: false
+    volume: 26500.0
+  Shadow Corelior Cannoneer:
+    id: 24209
+    name: Shadow Corelior Cannoneer
+    published: false
+    volume: 26500.0
+  Shadow Corelior Infantry:
+    id: 24207
+    name: Shadow Corelior Infantry
+    published: false
+    volume: 26500.0
+  Shadow Corelior Sentinel:
+    id: 24208
+    name: Shadow Corelior Sentinel
+    published: false
+    volume: 26500.0
+  Shadow Corelior Soldier:
+    id: 24206
+    name: Shadow Corelior Soldier
+    published: false
+    volume: 26500.0
+  Shadow Corelior Trooper:
+    id: 24205
+    name: Shadow Corelior Trooper
+    published: false
+    volume: 26500.0

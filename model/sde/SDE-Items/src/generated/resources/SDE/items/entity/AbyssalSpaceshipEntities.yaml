@@ -1,0 +1,239 @@
+items:
+  Anchoring Damavik:
+    id: 48089
+    name: Anchoring Damavik
+    published: false
+    volume: 28600.0
+  Anchoring Vila Damavik:
+    id: 48258
+    name: Anchoring Vila Damavik
+    published: false
+    volume: 28600.0
+  Bathyic Abyssal Overmind:
+    id: 47878
+    name: Bathyic Abyssal Overmind
+    published: false
+    volume: 454500.0
+  Benthic Abyssal Overmind:
+    id: 47880
+    name: Benthic Abyssal Overmind
+    published: false
+    volume: 454500.0
+  Blinding Leshak:
+    id: 48127
+    name: Blinding Leshak
+    published: false
+    volume: 495000.0
+  Blinding Vila Damavik:
+    id: 48260
+    name: Blinding Vila Damavik
+    published: false
+    volume: 28600.0
+  Drifter Assault Battleship:
+    id: 47957
+    name: Drifter Assault Battleship
+    published: false
+    volume: 109000.0
+  Drifter Entanglement Cruiser:
+    id: 47958
+    name: Drifter Entanglement Cruiser
+    published: false
+    volume: 100000.0
+  Drifter Foothold Battleship:
+    id: 47953
+    name: Drifter Foothold Battleship
+    published: false
+    volume: 109000.0
+  Drifter Frontline Battleship:
+    id: 47955
+    name: Drifter Frontline Battleship
+    published: false
+    volume: 109000.0
+  Drifter Nullcharge Cruiser:
+    id: 47960
+    name: Drifter Nullcharge Cruiser
+    published: false
+    volume: 100000.0
+  Drifter Nullwarp Cruiser:
+    id: 47959
+    name: Drifter Nullwarp Cruiser
+    published: false
+    volume: 100000.0
+  Drifter Rearguard Battleship:
+    id: 47954
+    name: Drifter Rearguard Battleship
+    published: false
+    volume: 109000.0
+  Drifter Vanguard Battleship:
+    id: 47956
+    name: Drifter Vanguard Battleship
+    published: false
+    volume: 109000.0
+  'Ephialtes Confuser ':
+    id: 48240
+    name: 'Ephialtes Confuser '
+    published: false
+  Ephialtes Dissipator:
+    id: 48238
+    name: Ephialtes Dissipator
+    published: false
+  Ephialtes Entangler:
+    id: 48235
+    name: Ephialtes Entangler
+    published: false
+  Ephialtes Illuminator:
+    id: 48237
+    name: Ephialtes Illuminator
+    published: false
+  Ephialtes Lancer:
+    id: 48234
+    name: Ephialtes Lancer
+    published: false
+  Ephialtes Obfuscator:
+    id: 48239
+    name: Ephialtes Obfuscator
+    published: false
+  Ephialtes Spearfisher:
+    id: 48236
+    name: Ephialtes Spearfisher
+    published: false
+  Ghosting Damavik:
+    id: 48086
+    name: Ghosting Damavik
+    published: false
+    volume: 28600.0
+  Ghosting Vila Damavik:
+    id: 48261
+    name: Ghosting Vila Damavik
+    published: false
+    volume: 28600.0
+  Hadal Abyssal Overmind:
+    id: 47879
+    name: Hadal Abyssal Overmind
+    published: false
+    volume: 454500.0
+  Harrowing Vedmak:
+    id: 48091
+    name: Harrowing Vedmak
+    published: false
+    volume: 118000.0
+  Harrowing Vila Vedmak:
+    id: 48255
+    name: Harrowing Vila Vedmak
+    published: false
+    volume: 118000.0
+  Lucid Aegis:
+    id: 48245
+    name: Lucid Aegis
+    published: false
+    volume: 19100.0
+  Lucid Deepwatcher:
+    id: 48252
+    name: Lucid Deepwatcher
+    published: false
+    volume: 1.9E7
+  Lucid Escort:
+    id: 48241
+    name: Lucid Escort
+    published: false
+    volume: 19100.0
+  Lucid Firewatcher:
+    id: 48247
+    name: Lucid Firewatcher
+    published: false
+    volume: 19100.0
+  Lucid Preserver:
+    id: 48251
+    name: Lucid Preserver
+    published: false
+    volume: 19100.0
+  Lucid Sentinel:
+    id: 48250
+    name: Lucid Sentinel
+    published: false
+    volume: 109000.0
+  Lucid Upholder:
+    id: 48249
+    name: Lucid Upholder
+    published: false
+    volume: 109000.0
+  Lucid Warden:
+    id: 48246
+    name: Lucid Warden
+    published: false
+    volume: 19100.0
+  Lucid Watchman:
+    id: 48248
+    name: Lucid Watchman
+    published: false
+    volume: 109000.0
+  Photic Abyssal Overmind:
+    id: 47876
+    name: Photic Abyssal Overmind
+    published: false
+    volume: 454500.0
+  Renewing Leshak:
+    id: 48123
+    name: Renewing Leshak
+    published: false
+    volume: 495000.0
+  Shining Vila Damavik:
+    id: 48259
+    name: Shining Vila Damavik
+    published: false
+    volume: 28600.0
+  Starving Damavik:
+    id: 48090
+    name: Starving Damavik
+    published: false
+    volume: 28600.0
+  Starving Leshak:
+    id: 48125
+    name: Starving Leshak
+    published: false
+    volume: 495000.0
+  Starving Vedmak:
+    id: 48087
+    name: Starving Vedmak
+    published: false
+    volume: 118000.0
+  Striking Damavik:
+    id: 48092
+    name: Striking Damavik
+    published: false
+    volume: 28600.0
+  Striking Leshak:
+    id: 48122
+    name: Striking Leshak
+    published: false
+    volume: 495000.0
+  Striking Vila Damavik:
+    id: 48256
+    name: Striking Vila Damavik
+    published: false
+    volume: 28600.0
+  Tangling Damavik:
+    id: 48088
+    name: Tangling Damavik
+    published: false
+    volume: 28600.0
+  Tangling Leshak:
+    id: 48124
+    name: Tangling Leshak
+    published: false
+    volume: 495000.0
+  Tangling Vila Damavik:
+    id: 48257
+    name: Tangling Vila Damavik
+    published: false
+    volume: 28600.0
+  Twilit Abyssal Overmind:
+    id: 47877
+    name: Twilit Abyssal Overmind
+    published: false
+    volume: 454500.0
+  Warding Leshak:
+    id: 48126
+    name: Warding Leshak
+    published: false
+    volume: 495000.0

@@ -44,6 +44,7 @@ items:
     id: 27570
     marketGroup: 481
     name: Angel Stasis Webification Battery
+    published: true
     volume: 4000.0
   Domination Stasis Webification Battery:
     AnchoringDelay: 5000
@@ -90,6 +91,7 @@ items:
     id: 27573
     marketGroup: 481
     name: Domination Stasis Webification Battery
+    published: true
     volume: 4000.0
   Stasis Webification Battery:
     AnchoringDelay: 5000
@@ -135,4 +137,5 @@ items:
     id: 17178
     marketGroup: 481
     name: Stasis Webification Battery
+    published: true
     volume: 4000.0

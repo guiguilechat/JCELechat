@@ -26,6 +26,7 @@ items:
     id: 22937
     marketGroup: 708
     name: '''Enterprise'' Remote Tracking Computer'
+    published: true
     volume: 5.0
   Alfven Enduring Remote Tracking Computer:
     CapacitorNeed: 16.0
@@ -53,6 +54,7 @@ items:
     id: 5342
     marketGroup: 708
     name: Alfven Enduring Remote Tracking Computer
+    published: true
     volume: 5.0
   F-293 Scoped Remote Tracking Computer:
     ChargeGroup1: 907
@@ -79,6 +81,7 @@ items:
     id: 5339
     marketGroup: 708
     name: F-293 Scoped Remote Tracking Computer
+    published: true
     volume: 5.0
   Federation Navy Remote Tracking Computer:
     ChargeGroup1: 907
@@ -105,6 +108,7 @@ items:
     id: 15967
     marketGroup: 708
     name: Federation Navy Remote Tracking Computer
+    published: true
     volume: 5.0
   P-S Compact Remote Tracking Computer:
     ChargeGroup1: 907
@@ -131,6 +135,7 @@ items:
     id: 5340
     marketGroup: 708
     name: P-S Compact Remote Tracking Computer
+    published: true
     volume: 5.0
   Remote Tracking Computer I:
     ChargeGroup1: 907
@@ -155,6 +160,7 @@ items:
     id: 2103
     marketGroup: 708
     name: Remote Tracking Computer I
+    published: true
     volume: 25.0
   Remote Tracking Computer II:
     CapacitorNeed: 24.0
@@ -182,6 +188,7 @@ items:
     id: 2104
     marketGroup: 708
     name: Remote Tracking Computer II
+    published: true
     volume: 5.0
   Shadow Serpentis Remote Tracking Computer:
     ChargeGroup1: 907
@@ -208,4 +215,5 @@ items:
     id: 14240
     marketGroup: 708
     name: Shadow Serpentis Remote Tracking Computer
+    published: true
     volume: 5.0

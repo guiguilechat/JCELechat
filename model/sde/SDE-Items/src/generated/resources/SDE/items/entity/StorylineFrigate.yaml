@@ -1,0 +1,291 @@
+items:
+  COSMOS Amarr Archon:
+    id: 22258
+    name: COSMOS Amarr Archon
+    published: false
+    volume: 28600.0
+  COSMOS Amarr Collector:
+    id: 22256
+    name: COSMOS Amarr Collector
+    published: false
+    volume: 28100.0
+  COSMOS Amarr Engraver:
+    id: 22257
+    name: COSMOS Amarr Engraver
+    published: false
+    volume: 28100.0
+  COSMOS Amarr Gamma II Support Frigate:
+    id: 22270
+    name: COSMOS Amarr Gamma II Support Frigate
+    published: false
+    volume: 28100.0
+  COSMOS Amarr Phantom:
+    id: 22261
+    name: COSMOS Amarr Phantom
+    published: false
+    volume: 28600.0
+  COSMOS Amarr Seeker:
+    id: 22255
+    name: COSMOS Amarr Seeker
+    published: false
+    volume: 24398.0
+  COSMOS Amarr Shade:
+    id: 22260
+    name: COSMOS Amarr Shade
+    published: false
+    volume: 28600.0
+  COSMOS Amarr Templar:
+    id: 22259
+    name: COSMOS Amarr Templar
+    published: false
+    volume: 28600.0
+  COSMOS Caldari Arrogator:
+    id: 20462
+    name: COSMOS Caldari Arrogator
+    published: false
+    volume: 15001.0
+  COSMOS Caldari Assassin:
+    id: 20463
+    name: COSMOS Caldari Assassin
+    published: false
+    volume: 19700.0
+  COSMOS Caldari Death Dealer:
+    id: 20464
+    name: COSMOS Caldari Death Dealer
+    published: false
+    volume: 16500.0
+  COSMOS Caldari Demolisher:
+    id: 20465
+    name: COSMOS Caldari Demolisher
+    published: false
+    volume: 16500.0
+  COSMOS Caldari Despoiler:
+    id: 20466
+    name: COSMOS Caldari Despoiler
+    published: false
+    volume: 20400.0
+  COSMOS Caldari Destructor:
+    id: 20467
+    name: COSMOS Caldari Destructor
+    published: false
+    volume: 19700.0
+  COSMOS Caldari Eliminator:
+    id: 20468
+    name: COSMOS Caldari Eliminator
+    published: false
+    volume: 16500.0
+  COSMOS Caldari Imputor:
+    id: 20469
+    name: COSMOS Caldari Imputor
+    published: false
+    volume: 16120.0
+  COSMOS Caldari Infiltrator:
+    id: 20470
+    name: COSMOS Caldari Infiltrator
+    published: false
+    volume: 20250.0
+  COSMOS Caldari Invader:
+    id: 20471
+    name: COSMOS Caldari Invader
+    published: false
+    volume: 20250.0
+  COSMOS Caldari Nihilist:
+    id: 20472
+    name: COSMOS Caldari Nihilist
+    published: false
+    volume: 19700.0
+  COSMOS Caldari Non-Pirate Frigate Elite 4:
+    id: 21060
+    name: COSMOS Caldari Non-Pirate Frigate Elite 4
+    published: false
+    volume: 16500.0
+  COSMOS Caldari Plunderer:
+    id: 20473
+    name: COSMOS Caldari Plunderer
+    published: false
+    volume: 19700.0
+  COSMOS Caldari Saboteur:
+    id: 20474
+    name: COSMOS Caldari Saboteur
+    published: false
+    volume: 20400.0
+  COSMOS Caldari Wrecker:
+    id: 20475
+    name: COSMOS Caldari Wrecker
+    published: false
+    volume: 16500.0
+  COSMOS Gallente Defender:
+    id: 22664
+    name: COSMOS Gallente Defender
+    published: false
+    volume: 23000.0
+  COSMOS Gallente Elite Frigate:
+    id: 22666
+    name: COSMOS Gallente Elite Frigate
+    published: false
+    volume: 26500.0
+  COSMOS Gallente Mercenary:
+    id: 22661
+    name: COSMOS Gallente Mercenary
+    published: false
+    volume: 22500.0
+  COSMOS Gallente Non-Pirate Elite Frigate:
+    id: 22673
+    name: COSMOS Gallente Non-Pirate Elite Frigate
+    published: false
+    volume: 26500.0
+  COSMOS Gallente Patroller:
+    id: 22662
+    name: COSMOS Gallente Patroller
+    published: false
+    volume: 22500.0
+  COSMOS Gallente Sentinel:
+    id: 22663
+    name: COSMOS Gallente Sentinel
+    published: false
+    volume: 29500.0
+  COSMOS Gallente Soldier:
+    id: 22665
+    name: COSMOS Gallente Soldier
+    published: false
+    volume: 26500.0
+  COSMOS Magye Death Dealer:
+    id: 21130
+    name: COSMOS Magye Death Dealer
+    published: false
+    volume: 16500.0
+  COSMOS Magye Wrecker:
+    id: 21131
+    name: COSMOS Magye Wrecker
+    published: false
+    volume: 16500.0
+  COSMOS Minmatar Arch Ambusher:
+    id: 21779
+    name: COSMOS Minmatar Arch Ambusher
+    published: false
+    volume: 16450.0
+  COSMOS Minmatar Arch Hunter:
+    id: 21780
+    name: COSMOS Minmatar Arch Hunter
+    published: false
+    volume: 16450.0
+  COSMOS Minmatar Arch Impaler:
+    id: 21781
+    name: COSMOS Minmatar Arch Impaler
+    published: false
+    volume: 16450.0
+  COSMOS Minmatar Arch Raider:
+    id: 21782
+    name: COSMOS Minmatar Arch Raider
+    published: false
+    volume: 16450.0
+  COSMOS Minmatar Hijacker:
+    id: 21767
+    name: COSMOS Minmatar Hijacker
+    published: false
+    volume: 21120.0
+  COSMOS Minmatar Hunter:
+    id: 21769
+    name: COSMOS Minmatar Hunter
+    published: false
+    volume: 19100.0
+  COSMOS Minmatar Impaler:
+    id: 21768
+    name: COSMOS Minmatar Impaler
+    published: false
+    volume: 16450.0
+  COSMOS Minmatar Nomad:
+    id: 21770
+    name: COSMOS Minmatar Nomad
+    published: false
+    volume: 17500.0
+  COSMOS Minmatar Non-Pirate Elite Frigate:
+    id: 21776
+    name: COSMOS Minmatar Non-Pirate Elite Frigate
+    published: false
+    volume: 17400.0
+  COSMOS Minmatar Outlaw:
+    id: 21771
+    name: COSMOS Minmatar Outlaw
+    published: false
+    volume: 17400.0
+  COSMOS Minmatar Raider:
+    id: 21772
+    name: COSMOS Minmatar Raider
+    published: false
+    volume: 16450.0
+  COSMOS Minmatar Rogue:
+    id: 21773
+    name: COSMOS Minmatar Rogue
+    published: false
+    volume: 22500.0
+  COSMOS Minmatar Ruffian:
+    id: 21774
+    name: COSMOS Minmatar Ruffian
+    published: false
+    volume: 17660.0
+  COSMOS Minmatar Thug:
+    id: 21775
+    name: COSMOS Minmatar Thug
+    published: false
+    volume: 26005.0
+  Corpii Phantom_COSMOS:
+    id: 23671
+    name: Corpii Phantom_COSMOS
+    published: false
+    volume: 28600.0
+  Corpii Templar_COSMOS:
+    id: 23672
+    name: Corpii Templar_COSMOS
+    published: false
+    volume: 28600.0
+  FON Frigate 1:
+    id: 23277
+    name: FON Frigate 1
+    published: false
+    volume: 22500.0
+  FON Frigate 2:
+    id: 23280
+    name: FON Frigate 2
+    published: false
+    volume: 26500.0
+  Kador Surveillance Sergeant:
+    id: 23665
+    name: Kador Surveillance Sergeant
+    published: false
+    volume: 28100.0
+  Maphante Interceptor:
+    id: 24683
+    name: Maphante Interceptor
+    published: false
+    volume: 28100.0
+  Mourmarie Mone's Covert Ops Frigate:
+    id: 32222
+    name: Mourmarie Mone's Covert Ops Frigate
+    published: false
+    volume: 26500.0
+  Scope Interceptor:
+    id: 32199
+    name: Scope Interceptor
+    published: false
+    volume: 26500.0
+  Serpentis Prankster:
+    id: 26717
+    name: Serpentis Prankster
+    published: false
+    volume: 29500.0
+  Serpentis Prankster_2:
+    id: 26718
+    name: Serpentis Prankster_2
+    published: false
+    volume: 29500.0
+  Temko Grunt:
+    id: 23242
+    name: Temko Grunt
+    published: false
+    volume: 26500.0
+  Temko Interceptor:
+    id: 23243
+    name: Temko Interceptor
+    published: false
+    volume: 26500.0

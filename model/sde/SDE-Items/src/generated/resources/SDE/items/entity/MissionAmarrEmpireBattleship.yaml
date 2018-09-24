@@ -1,0 +1,156 @@
+items:
+  Amarr Luxury Yacht:
+    id: 15411
+    name: Amarr Luxury Yacht
+    published: false
+    volume: 115000.0
+  Ammatar Navy Apocalypse:
+    id: 14356
+    name: Ammatar Navy Apocalypse
+    published: false
+    volume: 1150000.0
+  Ammatar Navy Armageddon:
+    id: 15329
+    name: Ammatar Navy Armageddon
+    published: false
+    volume: 1100000.0
+  Ammatar Navy Fleet Commander:
+    id: 15336
+    name: Ammatar Navy Fleet Commander
+    published: false
+    volume: 1150000.0
+  Harkan's Behemoth:
+    id: 32268
+    name: Harkan's Behemoth
+    published: false
+    volume: 1100000.0
+  ISHAEKA Monalaz Commander:
+    id: 2594
+    name: ISHAEKA Monalaz Commander
+    published: false
+    volume: 1150000.0
+  Imperial Bataivah:
+    id: 24977
+    name: Imperial Bataivah
+    published: false
+    volume: 1150000.0
+  Imperial Dominator:
+    id: 24982
+    name: Imperial Dominator
+    published: false
+    volume: 1150000.0
+  Imperial Martyr:
+    id: 24983
+    name: Imperial Martyr
+    published: false
+    volume: 1150000.0
+  Imperial Navy Apocalypse:
+    id: 12388
+    name: Imperial Navy Apocalypse
+    published: false
+    volume: 1150000.0
+  Imperial Navy Armageddon:
+    id: 15328
+    name: Imperial Navy Armageddon
+    published: false
+    volume: 1100000.0
+  Imperial Navy Fleet Commander:
+    id: 15335
+    name: Imperial Navy Fleet Commander
+    published: false
+    volume: 1150000.0
+  Imperial Navy Jakar:
+    id: 20330
+    name: Imperial Navy Jakar
+    published: false
+    volume: 1150000.0
+  Imperial Origen:
+    id: 24976
+    name: Imperial Origen
+    published: false
+    volume: 1100000.0
+  Imperial Tanakh:
+    id: 24978
+    name: Imperial Tanakh
+    published: false
+    volume: 1100000.0
+  Imperial Templar Diviner:
+    id: 28168
+    name: Imperial Templar Diviner
+    published: false
+    volume: 1100000.0
+  Imperial Templar Dominator:
+    id: 24991
+    name: Imperial Templar Dominator
+    published: false
+    volume: 1150000.0
+  Imperial Templar Judgment:
+    id: 28167
+    name: Imperial Templar Judgment
+    published: false
+    volume: 1100000.0
+  Imperial Templar Martyr:
+    id: 24992
+    name: Imperial Templar Martyr
+    published: false
+    volume: 1150000.0
+  Imperial Templar Torah:
+    id: 24985
+    name: Imperial Templar Torah
+    published: false
+    volume: 1150000.0
+  Imperial Templar Ultara:
+    id: 24988
+    name: Imperial Templar Ultara
+    published: false
+    volume: 1150000.0
+  Imperial Ultara:
+    id: 24979
+    name: Imperial Ultara
+    published: false
+    volume: 1150000.0
+  Independent Abaddon:
+    id: 29675
+    name: Independent Abaddon
+    published: false
+    volume: 1150000.0
+  'Independent Apocalypse ':
+    id: 29674
+    name: 'Independent Apocalypse '
+    published: false
+    volume: 1150000.0
+  'Independent Armageddon ':
+    id: 29673
+    name: 'Independent Armageddon '
+    published: false
+    volume: 1150000.0
+  'Independent Green-Crewed Abaddon ':
+    id: 29671
+    name: 'Independent Green-Crewed Abaddon '
+    published: false
+    volume: 1100000.0
+  Independent Green-Crewed Apocalypse:
+    id: 29667
+    name: Independent Green-Crewed Apocalypse
+    published: false
+    volume: 1150000.0
+  Independent Green-Crewed Armageddon:
+    id: 29665
+    name: Independent Green-Crewed Armageddon
+    published: false
+    volume: 1100000.0
+  Independent Veteran Abaddon:
+    id: 29678
+    name: Independent Veteran Abaddon
+    published: false
+    volume: 1100000.0
+  Independent Veteran Apocalypse:
+    id: 29677
+    name: Independent Veteran Apocalypse
+    published: false
+    volume: 1100000.0
+  Independent Veteran Armageddon:
+    id: 29676
+    name: Independent Veteran Armageddon
+    published: false
+    volume: 1100000.0

@@ -28,6 +28,7 @@ items:
     id: 24525
     marketGroup: 929
     name: Inferno Javelin Torpedo
+    published: true
     volume: 0.05
   Inferno Rage Torpedo:
     Agility: 5.220125675201416
@@ -57,6 +58,7 @@ items:
     id: 2811
     marketGroup: 931
     name: Inferno Rage Torpedo
+    published: true
     volume: 0.05
   Mjolnir Javelin Torpedo:
     Agility: 5.220125675201416
@@ -87,6 +89,7 @@ items:
     id: 24527
     marketGroup: 929
     name: Mjolnir Javelin Torpedo
+    published: true
     volume: 0.05
   Mjolnir Rage Torpedo:
     Agility: 5.220125675201416
@@ -116,6 +119,7 @@ items:
     id: 24523
     marketGroup: 931
     name: Mjolnir Rage Torpedo
+    published: true
     volume: 0.05
   Nova Javelin Torpedo:
     Agility: 5.220125675201416
@@ -146,6 +150,7 @@ items:
     id: 2801
     marketGroup: 929
     name: Nova Javelin Torpedo
+    published: true
     volume: 0.05
   Nova Rage Torpedo:
     Agility: 5.220125675201416
@@ -175,6 +180,7 @@ items:
     id: 24519
     marketGroup: 931
     name: Nova Rage Torpedo
+    published: true
     volume: 0.05
   Scourge Javelin Torpedo:
     Agility: 5.220125675201416
@@ -205,6 +211,7 @@ items:
     id: 24529
     marketGroup: 929
     name: Scourge Javelin Torpedo
+    published: true
     volume: 0.05
   Scourge Rage Torpedo:
     Agility: 5.220125675201416
@@ -234,4 +241,5 @@ items:
     id: 24521
     marketGroup: 931
     name: Scourge Rage Torpedo
+    published: true
     volume: 0.05

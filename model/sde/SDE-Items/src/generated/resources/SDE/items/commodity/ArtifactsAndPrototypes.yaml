@@ -3,204 +3,245 @@ items:
     id: 21729
     marketGroup: 1898
     name: Angel Advanced Trigger Mechanism
+    published: true
     volume: 0.1
   Angel Dynamic Calibrator:
     id: 21733
     marketGroup: 1898
     name: Angel Dynamic Calibrator
+    published: true
     volume: 0.1
   Angel Simple Trigger Mechanism:
     id: 21731
     marketGroup: 1898
     name: Angel Simple Trigger Mechanism
+    published: true
     volume: 0.1
   Angel Spatial Analyzer:
     id: 21732
     marketGroup: 1898
     name: Angel Spatial Analyzer
+    published: true
     volume: 0.1
   Angel Standard Trigger Mechanism:
     id: 21730
     marketGroup: 1898
     name: Angel Standard Trigger Mechanism
+    published: true
     volume: 0.1
   Blood Raider Extreme Ballistic Control:
     id: 23150
     marketGroup: 1899
     name: Blood Raider Extreme Ballistic Control
+    published: true
     volume: 0.1
   Blood Raider Limited Ballistic Control:
     id: 23148
     marketGroup: 1899
     name: Blood Raider Limited Ballistic Control
+    published: true
     volume: 0.1
   Blood Raider Power Redistributor:
     id: 23152
     marketGroup: 1899
     name: Blood Raider Power Redistributor
+    published: true
     volume: 0.1
   Blood Raider Regular Ballistic Control:
     id: 23149
     marketGroup: 1899
     name: Blood Raider Regular Ballistic Control
+    published: true
     volume: 0.1
   Blood Raider Weapon Integration Unit:
     id: 23151
     marketGroup: 1899
     name: Blood Raider Weapon Integration Unit
+    published: true
     volume: 0.1
   Guristas Graviton Hardening:
     id: 21728
     marketGroup: 1900
     name: Guristas Graviton Hardening
+    published: true
     volume: 0.1
   Guristas Gravity Focuser:
     id: 21727
     marketGroup: 1900
     name: Guristas Gravity Focuser
+    published: true
     volume: 0.1
   Guristas Heavy Weapon Console:
     id: 21724
     marketGroup: 1900
     name: Guristas Heavy Weapon Console
+    published: true
     volume: 0.1
   Guristas Light Weapon Console:
     id: 21726
     marketGroup: 1900
     name: Guristas Light Weapon Console
+    published: true
     volume: 0.1
   Guristas Medium Weapon Console:
     id: 21725
     marketGroup: 1900
     name: Guristas Medium Weapon Console
+    published: true
     volume: 0.1
   Serpentis 3D Scanner Gamut:
     id: 23156
     marketGroup: 1901
     name: Serpentis 3D Scanner Gamut
+    published: true
     volume: 0.1
   Serpentis Basic Target Guider:
     id: 23154
     marketGroup: 1901
     name: Serpentis Basic Target Guider
+    published: true
     volume: 0.1
   Serpentis Complex Target Guider:
     id: 23155
     marketGroup: 1901
     name: Serpentis Complex Target Guider
+    published: true
     volume: 0.1
   Serpentis Modified Capital Microprocessor:
     id: 42226
     marketGroup: 1901
     name: Serpentis Modified Capital Microprocessor
+    published: true
     volume: 1.0
   Serpentis Multi-tasking Processor:
     id: 23157
     marketGroup: 1901
     name: Serpentis Multi-tasking Processor
+    published: true
     volume: 0.1
   Serpentis Plain Target Guider:
     id: 23153
     marketGroup: 1901
     name: Serpentis Plain Target Guider
+    published: true
     volume: 0.1
   Sleeper Heat Nullifying Coil:
     id: 21721
     marketGroup: 1902
     name: Sleeper Heat Nullifying Coil
+    published: true
     volume: 0.1
   Sleeper Hyperbooster:
     id: 21719
     marketGroup: 1902
     name: Sleeper Hyperbooster
+    published: true
     volume: 0.1
   Sleeper Nanite Cluster:
     id: 21722
     marketGroup: 1902
     name: Sleeper Nanite Cluster
+    published: true
     volume: 0.1
   Sleeper Reintegration Control:
     id: 21723
     marketGroup: 1902
     name: Sleeper Reintegration Control
+    published: true
     volume: 0.1
   Sleeper Thermal Regulator:
     id: 21720
     marketGroup: 1902
     name: Sleeper Thermal Regulator
+    published: true
     volume: 0.1
   Takmahl Biodroid Controller:
     id: 23136
     marketGroup: 1905
     name: Takmahl Biodroid Controller
+    published: true
     volume: 0.1
   Takmahl Dynamic Gauge:
     id: 23134
     marketGroup: 1905
     name: Takmahl Dynamic Gauge
+    published: true
     volume: 0.1
   Takmahl Gyro Ballast:
     id: 23135
     marketGroup: 1905
     name: Takmahl Gyro Ballast
+    published: true
     volume: 0.1
   Takmahl Phrenic Appendix:
     id: 23133
     marketGroup: 1905
     name: Takmahl Phrenic Appendix
+    published: true
     volume: 0.1
   Takmahl Quantum Sphere:
     id: 23137
     marketGroup: 1905
     name: Takmahl Quantum Sphere
+    published: true
     volume: 0.1
   Talocan Perpetual Clock:
     id: 21079
     marketGroup: 1903
     name: Talocan Perpetual Clock
+    published: true
     volume: 0.1
   Talocan Solid Atomizer:
     id: 21080
     marketGroup: 1903
     name: Talocan Solid Atomizer
+    published: true
     volume: 0.1
   Talocan Stasis Deflector:
     id: 21088
     marketGroup: 1903
     name: Talocan Stasis Deflector
+    published: true
     volume: 0.1
   Talocan Stasis Inverter:
     id: 21076
     marketGroup: 1903
     name: Talocan Stasis Inverter
+    published: true
     volume: 0.1
   Talocan System Interface Unit:
     id: 21082
     marketGroup: 1903
     name: Talocan System Interface Unit
+    published: true
     volume: 0.1
   Yan Jung Crystal Cylinder:
     id: 23128
     marketGroup: 1904
     name: Yan Jung Crystal Cylinder
+    published: true
     volume: 0.1
   Yan Jung Paradox Box:
     id: 23129
     marketGroup: 1904
     name: Yan Jung Paradox Box
+    published: true
     volume: 0.1
   Yan Jung Tachyon Stetoscope:
     id: 23132
     marketGroup: 1904
     name: Yan Jung Tachyon Stetoscope
+    published: true
     volume: 0.1
   Yan Jung Thunder Kite:
     id: 23130
     marketGroup: 1904
     name: Yan Jung Thunder Kite
+    published: true
     volume: 0.1
   Yan Jung Void Machine:
     id: 23131
     marketGroup: 1904
     name: Yan Jung Void Machine
+    published: true
     volume: 0.1

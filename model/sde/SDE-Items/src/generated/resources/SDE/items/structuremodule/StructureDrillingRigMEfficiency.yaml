@@ -13,6 +13,7 @@ items:
     id: 46323
     marketGroup: 2341
     name: Standup M-Set Moon Drilling Efficiency I
+    published: true
     volume: 10.0
   Standup M-Set Moon Drilling Efficiency II:
     CanFitShipGroup03: 1406
@@ -28,4 +29,5 @@ items:
     id: 46324
     marketGroup: 2341
     name: Standup M-Set Moon Drilling Efficiency II
+    published: true
     volume: 10.0

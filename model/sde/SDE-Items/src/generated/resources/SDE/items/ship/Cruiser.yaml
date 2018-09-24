@@ -80,6 +80,7 @@ items:
     id: 628
     marketGroup: 74
     name: Arbitrator
+    published: true
     volume: 120000.0
   Ashimmu:
     Agility: 0.5799999833106995
@@ -167,6 +168,7 @@ items:
     id: 17922
     marketGroup: 1371
     name: Ashimmu
+    published: true
     volume: 118000.0
   Augoror:
     Agility: 0.5600000023841858
@@ -183,7 +185,7 @@ items:
     DroneBandwidth: 20
     DroneCapacity: 20
     EmDamageResonance: 0.6700000166893005
-    EnergyTransferAmountBonus: 200.0
+    EnergyTransferAmountBonus: 200
     ExplosiveDamageResonance: 0.6700000166893005
     FalloffBonus: 430.0
     FwLpKill: 100
@@ -252,6 +254,7 @@ items:
     id: 625
     marketGroup: 74
     name: Augoror
+    published: true
     volume: 115000.0
   Augoror Navy Issue:
     Agility: 0.47999998927116394
@@ -335,6 +338,7 @@ items:
     id: 29337
     marketGroup: 1370
     name: Augoror Navy Issue
+    published: true
     volume: 101000.0
   Bellicose:
     Agility: 0.5099999904632568
@@ -416,6 +420,7 @@ items:
     id: 630
     marketGroup: 73
     name: Bellicose
+    published: true
     volume: 85000.0
   Blackbird:
     Agility: 0.47999998927116394
@@ -497,6 +502,7 @@ items:
     id: 632
     marketGroup: 75
     name: Blackbird
+    published: true
     volume: 96000.0
   Caracal:
     Agility: 0.4699999988079071
@@ -577,6 +583,7 @@ items:
     id: 621
     marketGroup: 75
     name: Caracal
+    published: true
     volume: 92000.0
   Caracal Navy Issue:
     Agility: 0.5099999904632568
@@ -657,6 +664,7 @@ items:
     id: 17634
     marketGroup: 1370
     name: Caracal Navy Issue
+    published: true
     volume: 101000.0
   Celestis:
     Agility: 0.5049999952316284
@@ -738,6 +746,7 @@ items:
     id: 633
     marketGroup: 76
     name: Celestis
+    published: true
     volume: 116000.0
   Cynabal:
     Agility: 0.44999998807907104
@@ -824,6 +833,7 @@ items:
     id: 17720
     marketGroup: 1371
     name: Cynabal
+    published: true
     volume: 101000.0
   Exequror:
     Agility: 0.6100000143051147
@@ -908,6 +918,7 @@ items:
     id: 634
     marketGroup: 76
     name: Exequror
+    published: true
     volume: 113000.0
   Exequror Navy Issue:
     Agility: 0.4000000059604645
@@ -990,6 +1001,7 @@ items:
     id: 29344
     marketGroup: 1370
     name: Exequror Navy Issue
+    published: true
     volume: 112000.0
   Gila:
     Agility: 0.6600000262260437
@@ -1076,6 +1088,7 @@ items:
     id: 17715
     marketGroup: 1371
     name: Gila
+    published: true
     volume: 101000.0
   Guardian-Vexor:
     Agility: 0.5462499856948853
@@ -1158,6 +1171,7 @@ items:
     id: 11011
     marketGroup: 1699
     name: Guardian-Vexor
+    published: true
     volume: 115000.0
   Maller:
     Agility: 0.47600001096725464
@@ -1239,6 +1253,7 @@ items:
     id: 624
     marketGroup: 74
     name: Maller
+    published: true
     volume: 118000.0
   Moa:
     Agility: 0.5199999809265137
@@ -1319,6 +1334,7 @@ items:
     id: 623
     marketGroup: 75
     name: Moa
+    published: true
     volume: 101000.0
   Omen:
     Agility: 0.4300000071525574
@@ -1399,6 +1415,7 @@ items:
     id: 2006
     marketGroup: 74
     name: Omen
+    published: true
     volume: 118000.0
   Omen Navy Issue:
     Agility: 0.4300000071525574
@@ -1482,6 +1499,7 @@ items:
     id: 17709
     marketGroup: 1370
     name: Omen Navy Issue
+    published: true
     volume: 101000.0
   Opux Luxury Yacht:
     Agility: 0.6499999761581421
@@ -1561,6 +1579,7 @@ items:
     id: 635
     marketGroup: 1699
     name: Opux Luxury Yacht
+    published: true
     volume: 115000.0
   Orthrus:
     Agility: 0.47999998927116394
@@ -1647,6 +1666,7 @@ items:
     id: 33818
     marketGroup: 1371
     name: Orthrus
+    published: true
     volume: 101000.0
   Osprey:
     Agility: 0.6100000143051147
@@ -1663,7 +1683,7 @@ items:
     DroneBandwidth: 20
     DroneCapacity: 20
     EmDamageResonance: 0.6700000166893005
-    EnergyTransferAmountBonus: 200.0
+    EnergyTransferAmountBonus: 200
     ExplosiveDamageResonance: 0.6700000166893005
     FalloffBonus: 430.0
     FwLpKill: 100
@@ -1732,6 +1752,7 @@ items:
     id: 620
     marketGroup: 75
     name: Osprey
+    published: true
     volume: 107000.0
   Osprey Navy Issue:
     Agility: 0.38499999046325684
@@ -1817,6 +1838,7 @@ items:
     id: 29340
     marketGroup: 1370
     name: Osprey Navy Issue
+    published: true
     volume: 107000.0
   Phantasm:
     Agility: 0.6200000047683716
@@ -1903,6 +1925,7 @@ items:
     id: 17718
     marketGroup: 1371
     name: Phantasm
+    published: true
     volume: 101000.0
   Rupture:
     Agility: 0.5
@@ -1984,6 +2007,7 @@ items:
     id: 629
     marketGroup: 73
     name: Rupture
+    published: true
     volume: 96000.0
   Scythe:
     Agility: 0.6000000238418579
@@ -2070,6 +2094,7 @@ items:
     id: 631
     marketGroup: 73
     name: Scythe
+    published: true
     volume: 89000.0
   Scythe Fleet Issue:
     Agility: 0.4399999976158142
@@ -2155,6 +2180,7 @@ items:
     id: 29336
     marketGroup: 1370
     name: Scythe Fleet Issue
+    published: true
     volume: 89000.0
   Stabber:
     Agility: 0.5
@@ -2237,6 +2263,7 @@ items:
     id: 622
     marketGroup: 73
     name: Stabber
+    published: true
     volume: 80000.0
   Stabber Fleet Issue:
     Agility: 0.4650000035762787
@@ -2320,6 +2347,7 @@ items:
     id: 17713
     marketGroup: 1370
     name: Stabber Fleet Issue
+    published: true
     volume: 101000.0
   Stratios:
     Agility: 0.4699999988079071
@@ -2409,6 +2437,7 @@ items:
     id: 33470
     marketGroup: 1371
     name: Stratios
+    published: true
     volume: 101000.0
   Stratios Emergency Responder:
     Agility: 0.4699999988079071
@@ -2497,6 +2526,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 33553
     name: Stratios Emergency Responder
+    published: true
     volume: 101000.0
   Thorax:
     Agility: 0.49000000953674316
@@ -2576,6 +2606,7 @@ items:
     id: 627
     marketGroup: 76
     name: Thorax
+    published: true
     volume: 112000.0
   Vedmak:
     Agility: 0.44999998807907104
@@ -2659,6 +2690,7 @@ items:
     id: 47270
     marketGroup: 2428
     name: Vedmak
+    published: true
     volume: 118000.0
   Vexor:
     Agility: 0.5600000023841858
@@ -2738,6 +2770,7 @@ items:
     id: 626
     marketGroup: 76
     name: Vexor
+    published: true
     volume: 115000.0
   Vexor Navy Issue:
     Agility: 0.4399999976158142
@@ -2819,6 +2852,7 @@ items:
     id: 17843
     marketGroup: 1370
     name: Vexor Navy Issue
+    published: true
     volume: 112000.0
   Victorieux Luxury Yacht:
     Agility: 0.4000000059604645
@@ -2835,7 +2869,9 @@ items:
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     GfxBoosterID: 394
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.7599999904632568
+    HeatAttenuationMed: 1.0
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -2898,6 +2934,7 @@ items:
     id: 34590
     marketGroup: 1699
     name: Victorieux Luxury Yacht
+    published: true
     volume: 115000.0
   Vigilant:
     Agility: 0.47999998927116394
@@ -2983,4 +3020,5 @@ items:
     id: 17722
     marketGroup: 1371
     name: Vigilant
+    published: true
     volume: 101000.0

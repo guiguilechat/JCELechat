@@ -20,6 +20,7 @@ items:
     id: 41511
     marketGroup: 2244
     name: Capital Hull Repairer I
+    published: true
     volume: 4000.0
   Capital Hull Repairer II:
     CapacitorNeed: 864.0
@@ -43,6 +44,7 @@ items:
     id: 41514
     marketGroup: 2244
     name: Capital Hull Repairer II
+    published: true
     volume: 4000.0
   Capital I-b Enduring Hull Repairer:
     CapacitorNeed: 576.0
@@ -66,6 +68,7 @@ items:
     id: 41512
     marketGroup: 2244
     name: Capital I-b Enduring Hull Repairer
+    published: true
     volume: 4000.0
   Capital IEF Compact Hull Repairer:
     CapacitorNeed: 720.0
@@ -89,6 +92,7 @@ items:
     id: 41513
     marketGroup: 2244
     name: Capital IEF Compact Hull Repairer
+    published: true
     volume: 4000.0
   Large 'Hope' Hull Reconstructor I:
     Duration: 25500.0
@@ -108,6 +112,7 @@ items:
     id: 5755
     marketGroup: 1055
     name: Large 'Hope' Hull Reconstructor I
+    published: true
     volume: 50.0
   Large 'Integrative' Hull Repair Unit:
     CapacitorNeed: 120.0
@@ -129,6 +134,7 @@ items:
     id: 21508
     marketGroup: 1055
     name: Large 'Integrative' Hull Repair Unit
+    published: true
     volume: 50.0
   Large Automated Structural Restoration:
     Duration: 28500.0
@@ -148,6 +154,7 @@ items:
     id: 5757
     marketGroup: 1055
     name: Large Automated Structural Restoration
+    published: true
     volume: 50.0
   Large Hull Repairer I:
     CapacitorNeed: 120.0
@@ -167,6 +174,7 @@ items:
     id: 3663
     marketGroup: 1055
     name: Large Hull Repairer I
+    published: true
     volume: 50.0
   Large Hull Repairer II:
     CapacitorNeed: 120.0
@@ -187,6 +195,7 @@ items:
     id: 3665
     marketGroup: 1055
     name: Large Hull Repairer II
+    published: true
     volume: 50.0
   Large I-b Polarized Structural Regenerator:
     Duration: 27000.0
@@ -206,6 +215,7 @@ items:
     id: 5759
     marketGroup: 1055
     name: Large I-b Polarized Structural Regenerator
+    published: true
     volume: 50.0
   Large Inefficient Hull Repair Unit:
     CapacitorNeed: 120.0
@@ -226,6 +236,7 @@ items:
     id: 5697
     marketGroup: 1055
     name: Large Inefficient Hull Repair Unit
+    published: true
     volume: 50.0
   Medium 'Hope' Hull Reconstructor I:
     Duration: 25500.0
@@ -245,6 +256,7 @@ items:
     id: 5719
     marketGroup: 1054
     name: Medium 'Hope' Hull Reconstructor I
+    published: true
     volume: 10.0
   Medium 'Integrative' Hull Repair Unit:
     CapacitorNeed: 60.0
@@ -266,6 +278,7 @@ items:
     id: 21506
     marketGroup: 1054
     name: Medium 'Integrative' Hull Repair Unit
+    published: true
     volume: 10.0
   Medium Automated Structural Restoration:
     Duration: 28500.0
@@ -285,6 +298,7 @@ items:
     id: 5721
     marketGroup: 1054
     name: Medium Automated Structural Restoration
+    published: true
     volume: 10.0
   Medium Hull Repairer I:
     CapacitorNeed: 60.0
@@ -304,6 +318,7 @@ items:
     id: 3653
     marketGroup: 1054
     name: Medium Hull Repairer I
+    published: true
     volume: 25.0
   Medium Hull Repairer II:
     CapacitorNeed: 60.0
@@ -324,6 +339,7 @@ items:
     id: 3655
     marketGroup: 1054
     name: Medium Hull Repairer II
+    published: true
     volume: 10.0
   Medium I-b Polarized Structural Regenerator:
     Duration: 27000.0
@@ -343,6 +359,7 @@ items:
     id: 5723
     marketGroup: 1054
     name: Medium I-b Polarized Structural Regenerator
+    published: true
     volume: 10.0
   Medium Inefficient Hull Repair Unit:
     CapacitorNeed: 60.0
@@ -363,6 +380,7 @@ items:
     id: 5683
     marketGroup: 1054
     name: Medium Inefficient Hull Repair Unit
+    published: true
     volume: 10.0
   Small 'Hope' Hull Reconstructor I:
     Duration: 25500.0
@@ -382,6 +400,7 @@ items:
     id: 5743
     marketGroup: 1053
     name: Small 'Hope' Hull Reconstructor I
+    published: true
     volume: 5.0
   Small 'Integrative' Hull Repair Unit:
     CapacitorNeed: 30.0
@@ -403,6 +422,7 @@ items:
     id: 21504
     marketGroup: 1053
     name: Small 'Integrative' Hull Repair Unit
+    published: true
     volume: 5.0
   Small Automated Structural Restoration:
     Duration: 28500.0
@@ -422,6 +442,7 @@ items:
     id: 5745
     marketGroup: 1053
     name: Small Automated Structural Restoration
+    published: true
     volume: 5.0
   Small Hull Repairer I:
     CapacitorNeed: 30.0
@@ -441,6 +462,7 @@ items:
     id: 524
     marketGroup: 1053
     name: Small Hull Repairer I
+    published: true
     volume: 12.5
   Small Hull Repairer II:
     CapacitorNeed: 30.0
@@ -461,6 +483,7 @@ items:
     id: 2355
     marketGroup: 1053
     name: Small Hull Repairer II
+    published: true
     volume: 5.0
   Small I-b Polarized Structural Regenerator:
     Duration: 27000.0
@@ -480,6 +503,7 @@ items:
     id: 5747
     marketGroup: 1053
     name: Small I-b Polarized Structural Regenerator
+    published: true
     volume: 5.0
   Small Inefficient Hull Repair Unit:
     CapacitorNeed: 30.0
@@ -500,4 +524,5 @@ items:
     id: 5693
     marketGroup: 1053
     name: Small Inefficient Hull Repair Unit
+    published: true
     volume: 5.0

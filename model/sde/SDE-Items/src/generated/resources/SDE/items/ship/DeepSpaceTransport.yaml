@@ -83,6 +83,7 @@ items:
     id: 12731
     marketGroup: 631
     name: Bustard
+    published: true
     volume: 390000.0
   Impel:
     AffectedByIndustrialInvulnModule: 1
@@ -168,6 +169,7 @@ items:
     id: 12753
     marketGroup: 630
     name: Impel
+    published: true
     volume: 400000.0
   Mastodon:
     AffectedByIndustrialInvulnModule: 1
@@ -253,6 +255,7 @@ items:
     id: 12747
     marketGroup: 633
     name: Mastodon
+    published: true
     volume: 385000.0
   Occator:
     AffectedByIndustrialInvulnModule: 1
@@ -338,4 +341,5 @@ items:
     id: 12745
     marketGroup: 632
     name: Occator
+    published: true
     volume: 390000.0

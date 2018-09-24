@@ -26,4 +26,5 @@ items:
     id: 44102
     marketGroup: 2351
     name: Defender Launcher I
+    published: true
     volume: 5.0

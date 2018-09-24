@@ -9,9 +9,11 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17455
     marketGroup: 516
     name: Azure Plagioclase
+    published: true
     volume: 0.35
   Compressed Azure Plagioclase:
     AsteroidMaxRadius: 16255
@@ -21,9 +23,11 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28421
     marketGroup: 516
     name: Compressed Azure Plagioclase
+    published: true
     volume: 0.15
   Compressed Plagioclase:
     AsteroidMaxRadius: 16255
@@ -33,9 +37,11 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28422
     marketGroup: 516
     name: Compressed Plagioclase
+    published: true
     volume: 0.15
   Compressed Rich Plagioclase:
     AsteroidMaxRadius: 16255
@@ -45,9 +51,11 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28423
     marketGroup: 516
     name: Compressed Rich Plagioclase
+    published: true
     volume: 0.15
   Compressed Sparkling Plagioclase:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 46685
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46701
     marketGroup: 516
     name: Compressed Sparkling Plagioclase
+    published: true
     volume: 0.15
   Plagioclase:
     AsteroidMaxRadius: 16255
@@ -71,9 +81,11 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 18
     marketGroup: 516
     name: Plagioclase
+    published: true
     volume: 0.35
   Rich Plagioclase:
     AsteroidMaxRadius: 16255
@@ -85,9 +97,11 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17456
     marketGroup: 516
     name: Rich Plagioclase
+    published: true
     volume: 0.35
   Sparkling Plagioclase:
     AsteroidMaxRadius: 5000
@@ -99,7 +113,9 @@ items:
     OreBasicType: 46685
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46685
     marketGroup: 516
     name: Sparkling Plagioclase
+    published: true
     volume: 0.35

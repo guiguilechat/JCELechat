@@ -14,6 +14,7 @@ items:
     id: 1240
     marketGroup: 1195
     name: '''Basic'' Reinforced Bulkheads'
+    published: true
     volume: 5.0
   Mark I Compact Reinforced Bulkheads:
     AgilityMultiplier: 3.0
@@ -29,6 +30,7 @@ items:
     id: 5649
     marketGroup: 1195
     name: Mark I Compact Reinforced Bulkheads
+    published: true
     volume: 5.0
   ORE Reinforced Bulkheads:
     AgilityMultiplier: 4.0
@@ -45,6 +47,7 @@ items:
     id: 34485
     marketGroup: 1195
     name: ORE Reinforced Bulkheads
+    published: true
     volume: 5.0
   Reinforced Bulkheads I:
     AgilityMultiplier: 3.0
@@ -58,6 +61,7 @@ items:
     id: 1333
     marketGroup: 1195
     name: Reinforced Bulkheads I
+    published: true
     volume: 25.0
   Reinforced Bulkheads II:
     AgilityMultiplier: 5.0
@@ -72,6 +76,7 @@ items:
     id: 1335
     marketGroup: 1195
     name: Reinforced Bulkheads II
+    published: true
     volume: 5.0
   Syndicate Reinforced Bulkheads:
     AgilityMultiplier: 2.0
@@ -88,6 +93,7 @@ items:
     id: 34487
     marketGroup: 1195
     name: Syndicate Reinforced Bulkheads
+    published: true
     volume: 5.0
   Synthetic Hull Conversion Reinforced Bulkheads:
     AgilityMultiplier: 3.0
@@ -104,6 +110,7 @@ items:
     id: 21496
     marketGroup: 1195
     name: Synthetic Hull Conversion Reinforced Bulkheads
+    published: true
     volume: 5.0
   Type-D Restrained Reinforced Bulkheads:
     AgilityMultiplier: 1.0
@@ -119,4 +126,5 @@ items:
     id: 5647
     marketGroup: 1195
     name: Type-D Restrained Reinforced Bulkheads
+    published: true
     volume: 5.0

@@ -4,322 +4,376 @@ items:
     id: 42732
     marketGroup: 1943
     name: Men's 'Boarder' Cap (Digital Camo)
+    published: true
     volume: 0.1
   Men's 'Dread' Beret (Guristas):
     Gender: 1
     id: 42699
     marketGroup: 1943
     name: Men's 'Dread' Beret (Guristas)
+    published: true
     volume: 0.1
   Men's 'Nova' Headwear (black):
     Gender: 1
     id: 34056
     marketGroup: 1943
     name: Men's 'Nova' Headwear (black)
+    published: true
     volume: 0.1
   Men's 'Nova' Headwear (bronze):
     Gender: 1
     id: 34061
     marketGroup: 1943
     name: Men's 'Nova' Headwear (bronze)
+    published: true
     volume: 0.1
   Men's 'Nova' Headwear (gold):
     Gender: 1
     id: 34060
     marketGroup: 1943
     name: Men's 'Nova' Headwear (gold)
+    published: true
     volume: 0.1
   Men's 'Nova' Headwear (silver):
     Gender: 1
     id: 34059
     marketGroup: 1943
     name: Men's 'Nova' Headwear (silver)
+    published: true
     volume: 0.1
   Men's 'Pithum' Beret (Guristas):
     Gender: 1
     id: 42721
     marketGroup: 1943
     name: Men's 'Pithum' Beret (Guristas)
+    published: true
     volume: 0.1
   Men's 'Sable' Cap (Black):
     Gender: 2
     id: 42723
     marketGroup: 1943
     name: Men's 'Sable' Cap (Black)
+    published: true
     volume: 0.1
   Men's 'Tectonic' Headwear (matte black):
     Gender: 1
     id: 34057
     marketGroup: 1943
     name: Men's 'Tectonic' Headwear (matte black)
+    published: true
     volume: 0.1
   Men's 'Tectonic' Headwear (metal):
     Gender: 1
     id: 34062
     marketGroup: 1943
     name: Men's 'Tectonic' Headwear (metal)
+    published: true
     volume: 0.1
   Men's 'Tectonic' Headwear (shiny black):
     Gender: 1
     id: 34063
     marketGroup: 1943
     name: Men's 'Tectonic' Headwear (shiny black)
+    published: true
     volume: 0.1
   Men's 'Tectonic' Headwear (white):
     Gender: 1
     id: 34058
     marketGroup: 1943
     name: Men's 'Tectonic' Headwear (white)
+    published: true
     volume: 0.1
   Men's Beret (Blood Raiders):
     Gender: 1
     id: 42708
     marketGroup: 1943
     name: Men's Beret (Blood Raiders)
+    published: true
     volume: 0.1
   Men's Cap (Blood Raiders):
     Gender: 1
     id: 42726
     marketGroup: 1943
     name: Men's Cap (Blood Raiders)
+    published: true
     volume: 0.1
   Men's Capsuleer Elite XV Cap:
     Gender: 2
     id: 47191
     marketGroup: 1943
     name: Men's Capsuleer Elite XV Cap
+    published: true
     volume: 0.1
   Men's Capsuleer Networker XV Cap:
     Gender: 2
     id: 47478
     marketGroup: 1943
     name: Men's Capsuleer Networker XV Cap
+    published: true
     volume: 0.1
   Men's Exoplanets Hunter Cap:
     Gender: 2
     id: 45740
     marketGroup: 1943
     name: Men's Exoplanets Hunter Cap
+    published: true
     volume: 0.1
   Men's Federation Grand Prix 'Pit Stop' Cap:
     Gender: 2
     id: 42710
     marketGroup: 1943
     name: Men's Federation Grand Prix 'Pit Stop' Cap
+    published: true
     volume: 0.1
   Men's YC119 Yoiul Festival Cap:
     Gender: 1
     id: 44125
     marketGroup: 1943
     name: Men's YC119 Yoiul Festival Cap
+    published: true
     volume: 0.1
   Men's ‘Defender’ Beret (Gallente Federation):
     Gender: 1
     id: 42739
     marketGroup: 1943
     name: Men's ‘Defender’ Beret (Gallente Federation)
+    published: true
     volume: 0.1
   Men's ‘Liberator’ Beret (Minmatar Republic):
     Gender: 1
     id: 42712
     marketGroup: 1943
     name: Men's ‘Liberator’ Beret (Minmatar Republic)
+    published: true
     volume: 0.1
   Men's ‘Liberator’ Cap (Minmatar Republic):
     Gender: 2
     id: 42730
     marketGroup: 1943
     name: Men's ‘Liberator’ Cap (Minmatar Republic)
+    published: true
     volume: 0.1
   Men's ‘Protector’ Beret (Caldari State):
     Gender: 1
     id: 42736
     marketGroup: 1943
     name: Men's ‘Protector’ Beret (Caldari State)
+    published: true
     volume: 0.1
   Men’s ‘Crusader’ Beret (Amarr Empire):
     Gender: 1
     id: 42741
     marketGroup: 1943
     name: Men’s ‘Crusader’ Beret (Amarr Empire)
+    published: true
     volume: 0.1
   Women's 'Aeriform' Headwear (black):
     Gender: 3
     id: 34078
     marketGroup: 1943
     name: Women's 'Aeriform' Headwear (black)
+    published: true
     volume: 0.1
   Women's 'Aeriform' Headwear (blue):
     Gender: 3
     id: 34066
     marketGroup: 1943
     name: Women's 'Aeriform' Headwear (blue)
+    published: true
     volume: 0.1
   Women's 'Aeriform' Headwear (clear):
     Gender: 3
     id: 34076
     marketGroup: 1943
     name: Women's 'Aeriform' Headwear (clear)
+    published: true
     volume: 0.1
   Women's 'Aeriform' Headwear (cyan):
     Gender: 3
     id: 34064
     marketGroup: 1943
     name: Women's 'Aeriform' Headwear (cyan)
+    published: true
     volume: 0.1
   Women's 'Aeriform' Headwear (orange):
     Gender: 3
     id: 34070
     marketGroup: 1943
     name: Women's 'Aeriform' Headwear (orange)
+    published: true
     volume: 0.1
   Women's 'Blades' Headwear (black):
     Gender: 3
     id: 34071
     marketGroup: 1943
     name: Women's 'Blades' Headwear (black)
+    published: true
     volume: 0.1
   Women's 'Blades' Headwear (gold):
     Gender: 3
     id: 34069
     marketGroup: 1943
     name: Women's 'Blades' Headwear (gold)
+    published: true
     volume: 0.1
   Women's 'Blades' Headwear (gunmetal):
     Gender: 3
     id: 34065
     marketGroup: 1943
     name: Women's 'Blades' Headwear (gunmetal)
+    published: true
     volume: 0.1
   Women's 'Blades' Headwear (jade):
     Gender: 3
     id: 34074
     marketGroup: 1943
     name: Women's 'Blades' Headwear (jade)
+    published: true
     volume: 0.1
   Women's 'Blades' Headwear (platinum):
     Gender: 3
     id: 34067
     marketGroup: 1943
     name: Women's 'Blades' Headwear (platinum)
+    published: true
     volume: 0.1
   Women's 'Boarder' Cap (Digital Camo):
     Gender: 3
     id: 42729
     marketGroup: 1943
     name: Women's 'Boarder' Cap (Digital Camo)
+    published: true
     volume: 0.1
   Women's 'Crusader' Beret (Amarr Empire):
     Gender: 3
     id: 42744
     marketGroup: 1943
     name: Women's 'Crusader' Beret (Amarr Empire)
+    published: true
     volume: 0.1
   Women's 'Dread' Beret (Guristas):
     Gender: 3
     id: 42698
     marketGroup: 1943
     name: Women's 'Dread' Beret (Guristas)
+    published: true
     volume: 0.1
   Women's 'Pithum' Beret (Guristas):
     Gender: 3
     id: 42717
     marketGroup: 1943
     name: Women's 'Pithum' Beret (Guristas)
+    published: true
     volume: 0.1
   Women's 'Sable' Cap (Black):
     Gender: 2
     id: 42734
     marketGroup: 1943
     name: Women's 'Sable' Cap (Black)
+    published: true
     volume: 0.1
   Women's 'Spiderweb' Headwear (black):
     Gender: 3
     id: 34068
     marketGroup: 1943
     name: Women's 'Spiderweb' Headwear (black)
+    published: true
     volume: 0.1
   Women's 'Spiderweb' Headwear (copper):
     Gender: 3
     id: 34072
     marketGroup: 1943
     name: Women's 'Spiderweb' Headwear (copper)
+    published: true
     volume: 0.1
   Women's 'Spiderweb' Headwear (golden):
     Gender: 3
     id: 34077
     marketGroup: 1943
     name: Women's 'Spiderweb' Headwear (golden)
+    published: true
     volume: 0.1
   Women's 'Spiderweb' Headwear (metallic):
     Gender: 3
     id: 34073
     marketGroup: 1943
     name: Women's 'Spiderweb' Headwear (metallic)
+    published: true
     volume: 0.1
   Women's Beret (Blood Raiders):
     Gender: 3
     id: 42733
     marketGroup: 1943
     name: Women's Beret (Blood Raiders)
+    published: true
     volume: 0.1
   Women's Cap (Blood Raiders):
     Gender: 3
     id: 42718
     marketGroup: 1943
     name: Women's Cap (Blood Raiders)
+    published: true
     volume: 0.1
   Women's Capsuleer Elite XV Cap:
     Gender: 2
     id: 47193
     marketGroup: 1943
     name: Women's Capsuleer Elite XV Cap
+    published: true
     volume: 0.1
   Women's Capsuleer Networker XV Cap:
     Gender: 2
     id: 47477
     marketGroup: 1943
     name: Women's Capsuleer Networker XV Cap
+    published: true
     volume: 0.1
   Women's Exoplanets Hunter Cap:
     Gender: 2
     id: 45739
     marketGroup: 1943
     name: Women's Exoplanets Hunter Cap
+    published: true
     volume: 0.1
   Women's Federation Grand Prix 'Pit Stop' Cap:
     Gender: 2
     id: 42745
     marketGroup: 1943
     name: Women's Federation Grand Prix 'Pit Stop' Cap
+    published: true
     volume: 0.1
   Women's YC119 Yoiul Festival Cap:
     Gender: 3
     id: 44122
     marketGroup: 1943
     name: Women's YC119 Yoiul Festival Cap
+    published: true
     volume: 0.1
   Women's ‘Defender’ Beret (Gallente Federation):
     Gender: 3
     id: 42709
     marketGroup: 1943
     name: Women's ‘Defender’ Beret (Gallente Federation)
+    published: true
     volume: 0.1
   Women's ‘Liberator’ Beret (Minmatar Republic):
     Gender: 3
     id: 42738
     marketGroup: 1943
     name: Women's ‘Liberator’ Beret (Minmatar Republic)
+    published: true
     volume: 0.1
   Women's ‘Liberator’ Cap (Minmatar Republic):
     Gender: 2
     id: 42715
     marketGroup: 1943
     name: Women's ‘Liberator’ Cap (Minmatar Republic)
+    published: true
     volume: 0.1
   Women's ‘Protector’ Beret (Caldari State):
     Gender: 3
     id: 42740
     marketGroup: 1943
     name: Women's ‘Protector’ Beret (Caldari State)
+    published: true
     volume: 0.1

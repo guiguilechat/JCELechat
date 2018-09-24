@@ -1,5 +1,6 @@
 items:
   Networked Sensor Array:
+    CanCloak: 1
     CanFitShipGroup01: 547
     CanFitShipGroup02: 659
     CapacitorNeed: 3000.0
@@ -25,4 +26,5 @@ items:
     id: 41411
     marketGroup: 671
     name: Networked Sensor Array
+    published: true
     volume: 4000.0

@@ -54,6 +54,7 @@ items:
     id: 23523
     marketGroup: 842
     name: Heavy Armor Maintenance Bot I
+    published: true
     volume: 25.0
   Heavy Armor Maintenance Bot II:
     Agility: 100.0
@@ -111,6 +112,7 @@ items:
     id: 28197
     marketGroup: 842
     name: Heavy Armor Maintenance Bot II
+    published: true
     volume: 25.0
   Heavy Hull Maintenance Bot I:
     Agility: 100.0
@@ -168,6 +170,7 @@ items:
     id: 33671
     marketGroup: 842
     name: Heavy Hull Maintenance Bot I
+    published: true
     volume: 25.0
   Heavy Hull Maintenance Bot II:
     Agility: 100.0
@@ -226,6 +229,7 @@ items:
     id: 33708
     marketGroup: 842
     name: Heavy Hull Maintenance Bot II
+    published: true
     volume: 25.0
   Heavy Shield Maintenance Bot I:
     Agility: 100.0
@@ -282,6 +286,7 @@ items:
     id: 22765
     marketGroup: 842
     name: Heavy Shield Maintenance Bot I
+    published: true
     volume: 25.0
   Heavy Shield Maintenance Bot II:
     Agility: 100.0
@@ -339,6 +344,7 @@ items:
     id: 28199
     marketGroup: 842
     name: Heavy Shield Maintenance Bot II
+    published: true
     volume: 25.0
   Light Armor Maintenance Bot I:
     Agility: 100.0
@@ -395,6 +401,7 @@ items:
     id: 23711
     marketGroup: 842
     name: Light Armor Maintenance Bot I
+    published: true
     volume: 5.0
   Light Armor Maintenance Bot II:
     Agility: 100.0
@@ -452,6 +459,7 @@ items:
     id: 28201
     marketGroup: 842
     name: Light Armor Maintenance Bot II
+    published: true
     volume: 5.0
   Light Hull Maintenance Bot I:
     Agility: 100.0
@@ -509,6 +517,7 @@ items:
     id: 33706
     marketGroup: 842
     name: Light Hull Maintenance Bot I
+    published: true
     volume: 5.0
   Light Hull Maintenance Bot II:
     Agility: 100.0
@@ -567,6 +576,7 @@ items:
     id: 33712
     marketGroup: 842
     name: Light Hull Maintenance Bot II
+    published: true
     volume: 5.0
   Light Shield Maintenance Bot I:
     Agility: 100.0
@@ -623,6 +633,7 @@ items:
     id: 23719
     marketGroup: 842
     name: Light Shield Maintenance Bot I
+    published: true
     volume: 5.0
   Light Shield Maintenance Bot II:
     Agility: 100.0
@@ -680,6 +691,7 @@ items:
     id: 28203
     marketGroup: 842
     name: Light Shield Maintenance Bot II
+    published: true
     volume: 5.0
   Medium Armor Maintenance Bot I:
     Agility: 100.0
@@ -736,6 +748,7 @@ items:
     id: 23709
     marketGroup: 842
     name: Medium Armor Maintenance Bot I
+    published: true
     volume: 10.0
   Medium Armor Maintenance Bot II:
     Agility: 100.0
@@ -793,6 +806,7 @@ items:
     id: 28205
     marketGroup: 842
     name: Medium Armor Maintenance Bot II
+    published: true
     volume: 10.0
   Medium Hull Maintenance Bot I:
     Agility: 100.0
@@ -850,6 +864,7 @@ items:
     id: 33704
     marketGroup: 842
     name: Medium Hull Maintenance Bot I
+    published: true
     volume: 10.0
   Medium Hull Maintenance Bot II:
     Agility: 100.0
@@ -908,6 +923,7 @@ items:
     id: 33710
     marketGroup: 842
     name: Medium Hull Maintenance Bot II
+    published: true
     volume: 10.0
   Medium Shield Maintenance Bot I:
     Agility: 100.0
@@ -964,6 +980,7 @@ items:
     id: 23717
     marketGroup: 842
     name: Medium Shield Maintenance Bot I
+    published: true
     volume: 10.0
   Medium Shield Maintenance Bot II:
     Agility: 100.0
@@ -1021,4 +1038,5 @@ items:
     id: 28207
     marketGroup: 842
     name: Medium Shield Maintenance Bot II
+    published: true
     volume: 10.0

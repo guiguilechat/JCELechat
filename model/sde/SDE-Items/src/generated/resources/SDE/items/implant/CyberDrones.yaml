@@ -10,6 +10,7 @@ items:
     id: 48149
     marketGroup: 2477
     name: CreoDron 'Bumblebee' Drone Tuner T10-5D
+    published: true
     volume: 1.0
   CreoDron 'Yellowjacket' Drone Tuner D5-10T:
     ArmorHpBonus: -10
@@ -22,6 +23,7 @@ items:
     id: 48148
     marketGroup: 2477
     name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
+    published: true
     volume: 1.0
   unnamed_g739_ic2224:
     ArmorHpBonus: -25
@@ -34,4 +36,5 @@ items:
     id: 48747
     marketGroup: 2477
     name: unnamed_g739_ic2224
+    published: true
     volume: 1.0

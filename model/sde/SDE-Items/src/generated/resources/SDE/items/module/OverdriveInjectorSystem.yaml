@@ -11,6 +11,7 @@ items:
     id: 1192
     marketGroup: 1087
     name: '''Basic'' Overdrive Injector System'
+    published: true
     volume: 5.0
   Domination Overdrive Injector:
     CargoCapacityMultiplier: 0.949999988079071
@@ -24,6 +25,7 @@ items:
     id: 14126
     marketGroup: 1087
     name: Domination Overdrive Injector
+    published: true
     volume: 5.0
   Overdrive Injector System I:
     CargoCapacityMultiplier: 0.8500000238418579
@@ -35,6 +37,7 @@ items:
     id: 1244
     marketGroup: 1087
     name: Overdrive Injector System I
+    published: true
     volume: 5.0
   Overdrive Injector System II:
     CargoCapacityMultiplier: 0.800000011920929
@@ -47,6 +50,7 @@ items:
     id: 1236
     marketGroup: 1087
     name: Overdrive Injector System II
+    published: true
     volume: 5.0
   Republic Fleet Overdrive Injector:
     CargoCapacityMultiplier: 0.949999988079071
@@ -60,6 +64,7 @@ items:
     id: 15812
     marketGroup: 1087
     name: Republic Fleet Overdrive Injector
+    published: true
     volume: 5.0
   Synthetic Hull Conversion Overdrive Injector:
     CargoCapacityMultiplier: 0.9700000286102295
@@ -73,6 +78,7 @@ items:
     id: 21491
     marketGroup: 1087
     name: Synthetic Hull Conversion Overdrive Injector
+    published: true
     volume: 5.0
   Type-D Restrained Overdrive Injector:
     CargoCapacityMultiplier: 0.8999999761581421
@@ -85,4 +91,5 @@ items:
     id: 5631
     marketGroup: 1087
     name: Type-D Restrained Overdrive Injector
+    published: true
     volume: 5.0

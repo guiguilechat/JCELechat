@@ -3,39 +3,47 @@ items:
     id: 37
     marketGroup: 1857
     name: Isogen
+    published: true
     volume: 0.01
   Megacyte:
     id: 40
     marketGroup: 1857
     name: Megacyte
+    published: true
     volume: 0.01
   Mexallon:
     id: 36
     marketGroup: 1857
     name: Mexallon
+    published: true
     volume: 0.01
   Morphite:
     id: 11399
     marketGroup: 1857
     name: Morphite
+    published: true
     volume: 0.01
   Nocxium:
     id: 38
     marketGroup: 1857
     name: Nocxium
+    published: true
     volume: 0.01
   Pyerite:
     id: 35
     marketGroup: 1857
     name: Pyerite
+    published: true
     volume: 0.01
   Tritanium:
     id: 34
     marketGroup: 1857
     name: Tritanium
+    published: true
     volume: 0.01
   Zydrine:
     id: 39
     marketGroup: 1857
     name: Zydrine
+    published: true
     volume: 0.01

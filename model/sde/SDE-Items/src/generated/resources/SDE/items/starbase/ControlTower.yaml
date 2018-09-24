@@ -44,6 +44,7 @@ items:
     id: 12235
     marketGroup: 478
     name: Amarr Control Tower
+    published: true
     volume: 8000.0
   Amarr Control Tower Medium:
     AnchoringDelay: 900000
@@ -90,6 +91,7 @@ items:
     id: 20059
     marketGroup: 478
     name: Amarr Control Tower Medium
+    published: true
     volume: 4000.0
   Amarr Control Tower Small:
     AnchoringDelay: 450000
@@ -136,6 +138,7 @@ items:
     id: 20060
     marketGroup: 478
     name: Amarr Control Tower Small
+    published: true
     volume: 2000.0
   Angel Control Tower:
     AnchoringDelay: 1620000
@@ -183,6 +186,7 @@ items:
     id: 27539
     marketGroup: 478
     name: Angel Control Tower
+    published: true
     volume: 8000.0
   Angel Control Tower Medium:
     AnchoringDelay: 810000
@@ -230,6 +234,7 @@ items:
     id: 27607
     marketGroup: 478
     name: Angel Control Tower Medium
+    published: true
     volume: 4000.0
   Angel Control Tower Small:
     AnchoringDelay: 405000
@@ -277,6 +282,7 @@ items:
     id: 27610
     marketGroup: 478
     name: Angel Control Tower Small
+    published: true
     volume: 2000.0
   Blood Control Tower:
     AnchoringDelay: 1620000
@@ -324,6 +330,7 @@ items:
     id: 27530
     marketGroup: 478
     name: Blood Control Tower
+    published: true
     volume: 8000.0
   Blood Control Tower Medium:
     AnchoringDelay: 810000
@@ -371,6 +378,7 @@ items:
     id: 27589
     marketGroup: 478
     name: Blood Control Tower Medium
+    published: true
     volume: 4000.0
   Blood Control Tower Small:
     AnchoringDelay: 405000
@@ -418,6 +426,7 @@ items:
     id: 27592
     marketGroup: 478
     name: Blood Control Tower Small
+    published: true
     volume: 2000.0
   Caldari Control Tower:
     AnchoringDelay: 1800000
@@ -464,6 +473,7 @@ items:
     id: 16213
     marketGroup: 478
     name: Caldari Control Tower
+    published: true
     volume: 8000.0
   Caldari Control Tower Medium:
     AnchoringDelay: 900000
@@ -510,6 +520,7 @@ items:
     id: 20061
     marketGroup: 478
     name: Caldari Control Tower Medium
+    published: true
     volume: 4000.0
   Caldari Control Tower Small:
     AnchoringDelay: 450000
@@ -556,6 +567,7 @@ items:
     id: 20062
     marketGroup: 478
     name: Caldari Control Tower Small
+    published: true
     volume: 2000.0
   Dark Blood Control Tower:
     AnchoringDelay: 1440000
@@ -603,6 +615,7 @@ items:
     id: 27532
     marketGroup: 478
     name: Dark Blood Control Tower
+    published: true
     volume: 8000.0
   Dark Blood Control Tower Medium:
     AnchoringDelay: 720000
@@ -650,6 +663,7 @@ items:
     id: 27591
     marketGroup: 478
     name: Dark Blood Control Tower Medium
+    published: true
     volume: 4000.0
   Dark Blood Control Tower Small:
     AnchoringDelay: 360000
@@ -697,6 +711,7 @@ items:
     id: 27594
     marketGroup: 478
     name: Dark Blood Control Tower Small
+    published: true
     volume: 2000.0
   Domination Control Tower:
     AnchoringDelay: 1440000
@@ -744,6 +759,7 @@ items:
     id: 27540
     marketGroup: 478
     name: Domination Control Tower
+    published: true
     volume: 8000.0
   Domination Control Tower Medium:
     AnchoringDelay: 720000
@@ -791,6 +807,7 @@ items:
     id: 27609
     marketGroup: 478
     name: Domination Control Tower Medium
+    published: true
     volume: 4000.0
   Domination Control Tower Small:
     AnchoringDelay: 360000
@@ -838,6 +855,7 @@ items:
     id: 27612
     marketGroup: 478
     name: Domination Control Tower Small
+    published: true
     volume: 2000.0
   Dread Guristas Control Tower:
     AnchoringDelay: 1440000
@@ -885,6 +903,7 @@ items:
     id: 27535
     marketGroup: 478
     name: Dread Guristas Control Tower
+    published: true
     volume: 8000.0
   Dread Guristas Control Tower Medium:
     AnchoringDelay: 720000
@@ -932,6 +951,7 @@ items:
     id: 27597
     marketGroup: 478
     name: Dread Guristas Control Tower Medium
+    published: true
     volume: 4000.0
   Dread Guristas Control Tower Small:
     AnchoringDelay: 360000
@@ -979,6 +999,7 @@ items:
     id: 27600
     marketGroup: 478
     name: Dread Guristas Control Tower Small
+    published: true
     volume: 2000.0
   Gallente Control Tower:
     AnchoringDelay: 1800000
@@ -1024,6 +1045,7 @@ items:
     id: 12236
     marketGroup: 478
     name: Gallente Control Tower
+    published: true
     volume: 8000.0
   Gallente Control Tower Medium:
     AnchoringDelay: 900000
@@ -1069,6 +1091,7 @@ items:
     id: 20063
     marketGroup: 478
     name: Gallente Control Tower Medium
+    published: true
     volume: 4000.0
   Gallente Control Tower Small:
     AnchoringDelay: 450000
@@ -1114,6 +1137,7 @@ items:
     id: 20064
     marketGroup: 478
     name: Gallente Control Tower Small
+    published: true
     volume: 2000.0
   Guristas Control Tower:
     AnchoringDelay: 1620000
@@ -1161,6 +1185,7 @@ items:
     id: 27533
     marketGroup: 478
     name: Guristas Control Tower
+    published: true
     volume: 8000.0
   Guristas Control Tower Medium:
     AnchoringDelay: 810000
@@ -1208,6 +1233,7 @@ items:
     id: 27595
     marketGroup: 478
     name: Guristas Control Tower Medium
+    published: true
     volume: 4000.0
   Guristas Control Tower Small:
     AnchoringDelay: 405000
@@ -1255,6 +1281,7 @@ items:
     id: 27598
     marketGroup: 478
     name: Guristas Control Tower Small
+    published: true
     volume: 2000.0
   Minmatar Control Tower:
     AnchoringDelay: 1800000
@@ -1301,6 +1328,7 @@ items:
     id: 16214
     marketGroup: 478
     name: Minmatar Control Tower
+    published: true
     volume: 8000.0
   Minmatar Control Tower Medium:
     AnchoringDelay: 900000
@@ -1347,6 +1375,7 @@ items:
     id: 20065
     marketGroup: 478
     name: Minmatar Control Tower Medium
+    published: true
     volume: 4000.0
   Minmatar Control Tower Small:
     AnchoringDelay: 450000
@@ -1393,6 +1422,7 @@ items:
     id: 20066
     marketGroup: 478
     name: Minmatar Control Tower Small
+    published: true
     volume: 2000.0
   Sansha Control Tower:
     AnchoringDelay: 1620000
@@ -1440,6 +1470,7 @@ items:
     id: 27780
     marketGroup: 478
     name: Sansha Control Tower
+    published: true
     volume: 8000.0
   Sansha Control Tower Medium:
     AnchoringDelay: 810000
@@ -1487,6 +1518,7 @@ items:
     id: 27782
     marketGroup: 478
     name: Sansha Control Tower Medium
+    published: true
     volume: 4000.0
   Sansha Control Tower Small:
     AnchoringDelay: 405000
@@ -1534,6 +1566,7 @@ items:
     id: 27784
     marketGroup: 478
     name: Sansha Control Tower Small
+    published: true
     volume: 2000.0
   Serpentis Control Tower:
     AnchoringDelay: 1620000
@@ -1580,6 +1613,7 @@ items:
     id: 27536
     marketGroup: 478
     name: Serpentis Control Tower
+    published: true
     volume: 8000.0
   Serpentis Control Tower Medium:
     AnchoringDelay: 810000
@@ -1626,6 +1660,7 @@ items:
     id: 27601
     marketGroup: 478
     name: Serpentis Control Tower Medium
+    published: true
     volume: 4000.0
   Serpentis Control Tower Small:
     AnchoringDelay: 405000
@@ -1672,6 +1707,7 @@ items:
     id: 27604
     marketGroup: 478
     name: Serpentis Control Tower Small
+    published: true
     volume: 2000.0
   Shadow Control Tower:
     AnchoringDelay: 1440000
@@ -1718,6 +1754,7 @@ items:
     id: 27538
     marketGroup: 478
     name: Shadow Control Tower
+    published: true
     volume: 8000.0
   Shadow Control Tower Medium:
     AnchoringDelay: 720000
@@ -1764,6 +1801,7 @@ items:
     id: 27603
     marketGroup: 478
     name: Shadow Control Tower Medium
+    published: true
     volume: 4000.0
   Shadow Control Tower Small:
     AnchoringDelay: 360000
@@ -1810,6 +1848,7 @@ items:
     id: 27606
     marketGroup: 478
     name: Shadow Control Tower Small
+    published: true
     volume: 2000.0
   True Sansha Control Tower:
     AnchoringDelay: 1440000
@@ -1857,6 +1896,7 @@ items:
     id: 27786
     marketGroup: 478
     name: True Sansha Control Tower
+    published: true
     volume: 8000.0
   True Sansha Control Tower Medium:
     AnchoringDelay: 720000
@@ -1904,6 +1944,7 @@ items:
     id: 27788
     marketGroup: 478
     name: True Sansha Control Tower Medium
+    published: true
     volume: 4000.0
   True Sansha Control Tower Small:
     AnchoringDelay: 360000
@@ -1951,4 +1992,5 @@ items:
     id: 27790
     marketGroup: 478
     name: True Sansha Control Tower Small
+    published: true
     volume: 2000.0

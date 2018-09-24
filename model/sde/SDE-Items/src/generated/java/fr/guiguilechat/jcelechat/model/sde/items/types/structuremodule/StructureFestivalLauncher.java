@@ -94,13 +94,6 @@ public class StructureFestivalLauncher
     @Stackable(false)
     @DefaultIntValue(0)
     public int Speed;
-    /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
     public final static StructureFestivalLauncher.MetaGroup METAGROUP = new StructureFestivalLauncher.MetaGroup();
 
     @Override
@@ -149,10 +142,6 @@ public class StructureFestivalLauncher
             case  51 :
             {
                 return Speed;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             default:
             {

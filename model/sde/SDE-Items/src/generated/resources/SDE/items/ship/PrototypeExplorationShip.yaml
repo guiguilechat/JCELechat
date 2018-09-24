@@ -54,4 +54,5 @@ items:
     id: 2078
     marketGroup: 1619
     name: Zephyr
+    published: true
     volume: 5000.0

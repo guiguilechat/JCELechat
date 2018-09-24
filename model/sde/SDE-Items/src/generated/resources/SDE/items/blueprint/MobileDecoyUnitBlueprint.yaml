@@ -3,4 +3,5 @@ items:
     IndustryBlueprintRank: 40.0
     id: 33588
     name: Mobile Decoy Unit Blueprint
+    published: true
     volume: 0.01

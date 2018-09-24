@@ -5,24 +5,28 @@ items:
     id: 16279
     marketGroup: 338
     name: Ice Harvester I Blueprint
+    published: true
     volume: 0.01
   Ice Harvester II Blueprint:
     IndustryBlueprintRank: 18.200000762939453
     TechLevel: 2
     id: 22230
     name: Ice Harvester II Blueprint
+    published: true
     volume: 0.01
   Modulated Deep Core Strip Miner II Blueprint:
     IndustryBlueprintRank: 18.200000762939453
     TechLevel: 2
     id: 24306
     name: Modulated Deep Core Strip Miner II Blueprint
+    published: true
     volume: 0.01
   Modulated Strip Miner II Blueprint:
     IndustryBlueprintRank: 18.200000762939453
     TechLevel: 2
     id: 17913
     name: Modulated Strip Miner II Blueprint
+    published: true
     volume: 0.01
   Strip Miner I Blueprint:
     IndustryBlueprintRank: 7.0
@@ -30,4 +34,5 @@ items:
     id: 17483
     marketGroup: 338
     name: Strip Miner I Blueprint
+    published: true
     volume: 0.01

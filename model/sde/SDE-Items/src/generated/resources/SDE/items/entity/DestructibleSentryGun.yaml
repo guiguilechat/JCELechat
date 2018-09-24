@@ -1,0 +1,875 @@
+items:
+  Amarr Cruise Missile Battery:
+    id: 17591
+    name: Amarr Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Amarr Energy Neutralizer Sentry I:
+    id: 27668
+    name: Amarr Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Amarr Energy Neutralizer Sentry II:
+    id: 27669
+    name: Amarr Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Amarr Energy Neutralizer Sentry III:
+    id: 27670
+    name: Amarr Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Amarr Heavy Missile Battery:
+    id: 17590
+    name: Amarr Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Amarr Light Missile Battery:
+    id: 17589
+    name: Amarr Light Missile Battery
+    published: false
+    volume: 1000.0
+  Amarr Point Defense Battery:
+    id: 17588
+    name: Amarr Point Defense Battery
+    published: false
+    volume: 1000.0
+  Amarr Stasis Tower:
+    id: 17609
+    name: Amarr Stasis Tower
+    published: false
+    volume: 1000.0
+  Ammatar Cruise Missile Battery:
+    id: 19667
+    name: Ammatar Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Ammatar Heavy Missile Battery:
+    id: 19666
+    name: Ammatar Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Ammatar Light Missile Battery:
+    id: 19665
+    name: Ammatar Light Missile Battery
+    published: false
+    volume: 1000.0
+  Ammatar Point Defense Battery:
+    id: 19664
+    name: Ammatar Point Defense Battery
+    published: false
+    volume: 1000.0
+  Angel Basic Defense Battery:
+    id: 27280
+    name: Angel Basic Defense Battery
+    published: false
+    volume: 1000.0
+  Angel Cruise Missile Battery:
+    id: 17575
+    name: Angel Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Angel Energy Neutralizer Sentry I:
+    id: 28139
+    name: Angel Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Angel Energy Neutralizer Sentry II:
+    id: 28144
+    name: Angel Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Angel Energy Neutralizer Sentry III:
+    id: 28150
+    name: Angel Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Angel Heavy Missile Battery:
+    id: 17574
+    name: Angel Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Angel Light Missile Battery:
+    id: 17573
+    name: Angel Light Missile Battery
+    published: false
+    volume: 1000.0
+  Angel Point Defense Battery:
+    id: 17572
+    name: Angel Point Defense Battery
+    published: false
+    volume: 1000.0
+  Angel Sentry Gun:
+    id: 13114
+    name: Angel Sentry Gun
+    published: false
+    volume: 1000.0
+  Angel Stasis Tower:
+    id: 17605
+    name: Angel Stasis Tower
+    published: false
+    volume: 1000.0
+  Archive Sentry Tower:
+    id: 34454
+    name: Archive Sentry Tower
+    published: false
+    volume: 1000.0
+  Attack Tower:
+    id: 47488
+    name: Attack Tower
+    published: false
+    volume: 1000.0
+  Blood Basic Defense Battery:
+    id: 27281
+    name: Blood Basic Defense Battery
+    published: false
+    volume: 1000.0
+  Blood Cruise Missile Battery:
+    id: 17595
+    name: Blood Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Blood Energy Neutralizer Sentry I:
+    id: 28140
+    name: Blood Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Blood Energy Neutralizer Sentry II:
+    id: 28145
+    name: Blood Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Blood Energy Neutralizer Sentry III:
+    id: 28149
+    name: Blood Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Blood Heavy Missile Battery:
+    id: 17594
+    name: Blood Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Blood Light Missile Battery:
+    id: 17593
+    name: Blood Light Missile Battery
+    published: false
+    volume: 1000.0
+  Blood Point Defense Battery:
+    id: 17592
+    name: Blood Point Defense Battery
+    published: false
+    volume: 1000.0
+  Blood Raider Sentry Gun:
+    id: 13116
+    name: Blood Raider Sentry Gun
+    published: false
+    volume: 1000.0
+  Blood Stasis Tower:
+    id: 17610
+    name: Blood Stasis Tower
+    published: false
+    volume: 1000.0
+  Caldari Cruise Missile Battery:
+    id: 17603
+    name: Caldari Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Caldari Energy Neutralizer Sentry I:
+    id: 27792
+    name: Caldari Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Caldari Energy Neutralizer Sentry II:
+    id: 27793
+    name: Caldari Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Caldari Energy Neutralizer Sentry III:
+    id: 27794
+    name: Caldari Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Caldari Heavy Missile Battery:
+    id: 17602
+    name: Caldari Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Caldari Light Missile Battery:
+    id: 17601
+    name: Caldari Light Missile Battery
+    published: false
+    volume: 1000.0
+  Caldari Point Defense Battery:
+    id: 17600
+    name: Caldari Point Defense Battery
+    published: false
+    volume: 1000.0
+  Caldari Stasis Tower:
+    id: 17612
+    name: Caldari Stasis Tower
+    published: false
+    volume: 1000.0
+  Damaged Sentinel Angel:
+    id: 28571
+    name: Damaged Sentinel Angel
+    published: false
+    volume: 1000.0
+  Damaged Sentinel Bloodraider:
+    id: 28572
+    name: Damaged Sentinel Bloodraider
+    published: false
+    volume: 1000.0
+  Damaged Sentinel Chimera Strain Mother:
+    id: 28575
+    name: Damaged Sentinel Chimera Strain Mother
+    published: false
+    volume: 1000.0
+  Damaged Sentinel Sansha:
+    id: 28573
+    name: Damaged Sentinel Sansha
+    published: false
+    volume: 1000.0
+  Damaged Sentinel Serpentis:
+    id: 28574
+    name: Damaged Sentinel Serpentis
+    published: false
+    volume: 1000.0
+  Deficient Tower Sentry Sansha II:
+    id: 24772
+    name: Deficient Tower Sentry Sansha II
+    published: false
+    volume: 1000.0
+  Drone Cruise Missile Battery:
+    id: 18031
+    name: Drone Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Drone Energy Neutralizer Sentry I:
+    id: 27953
+    name: Drone Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Drone Energy Neutralizer Sentry II:
+    id: 27954
+    name: Drone Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Drone Energy Neutralizer Sentry III:
+    id: 27955
+    name: Drone Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Drone Heavy Missile Battery:
+    id: 18032
+    name: Drone Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Drone Light Missile Battery:
+    id: 18033
+    name: Drone Light Missile Battery
+    published: false
+    volume: 1000.0
+  Drone Point Defense Battery:
+    id: 18035
+    name: Drone Point Defense Battery
+    published: false
+    volume: 1000.0
+  Drone Stasis Tower:
+    id: 27956
+    name: Drone Stasis Tower
+    published: false
+    volume: 1000.0
+  Drone Wall Sentry Gun:
+    id: 18023
+    name: Drone Wall Sentry Gun
+    published: false
+    volume: 1000.0
+  Gallente Cruise Missile Battery:
+    id: 17587
+    name: Gallente Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Gallente Energy Neutralizer Sentry I:
+    id: 27795
+    name: Gallente Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Gallente Energy Neutralizer Sentry II:
+    id: 27796
+    name: Gallente Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Gallente Energy Neutralizer Sentry III:
+    id: 27797
+    name: Gallente Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Gallente Heavy Missile Battery:
+    id: 17586
+    name: Gallente Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Gallente Light Missile Battery:
+    id: 17585
+    name: Gallente Light Missile Battery
+    published: false
+    volume: 1000.0
+  Gallente Point Defense Battery:
+    id: 17584
+    name: Gallente Point Defense Battery
+    published: false
+    volume: 1000.0
+  Gallente Sentry Gun - Training:
+    id: 22848
+    name: Gallente Sentry Gun - Training
+    published: false
+    volume: 1000.0
+  Gallente Stasis Tower:
+    id: 17608
+    name: Gallente Stasis Tower
+    published: false
+    volume: 1000.0
+  Guristas Annihilation Missile Battery:
+    id: 25626
+    name: Guristas Annihilation Missile Battery
+    published: false
+    volume: 1000.0
+  Guristas Annihilation Missile Battery_Uber:
+    id: 26747
+    name: Guristas Annihilation Missile Battery_Uber
+    published: false
+    volume: 1000.0
+  Guristas Basic Defense Battery:
+    id: 24767
+    name: Guristas Basic Defense Battery
+    published: false
+    volume: 1000.0
+  Guristas Cruise Missile Batteries:
+    id: 17599
+    name: Guristas Cruise Missile Batteries
+    published: false
+    volume: 1000.0
+  Guristas Energy Neutralizer Sentry I:
+    id: 28141
+    name: Guristas Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Guristas Energy Neutralizer Sentry II:
+    id: 28146
+    name: Guristas Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Guristas Energy Neutralizer Sentry III:
+    id: 28151
+    name: Guristas Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Guristas Heavy Missile Battery:
+    id: 17598
+    name: Guristas Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Guristas Light Missile Battery:
+    id: 17597
+    name: Guristas Light Missile Battery
+    published: false
+    volume: 1000.0
+  Guristas Point Defense Battery:
+    id: 17596
+    name: Guristas Point Defense Battery
+    published: false
+    volume: 1000.0
+  Guristas Sentry Gun:
+    id: 13068
+    name: Guristas Sentry Gun
+    published: false
+    volume: 1000.0
+  Guristas Stasis Tower:
+    id: 17611
+    name: Guristas Stasis Tower
+    published: false
+    volume: 1000.0
+  H-2874 Defense Sentinel:
+    id: 25385
+    name: H-2874 Defense Sentinel
+    published: false
+    volume: 1000.0
+  Hive mother:
+    id: 18000
+    name: Hive mother
+    published: false
+    volume: 1000.0
+  Hive mother 2:
+    id: 18001
+    name: Hive mother 2
+    published: false
+    volume: 1000.0
+  Impaired Archive Sentry Tower:
+    id: 34455
+    name: Impaired Archive Sentry Tower
+    published: false
+    volume: 1000.0
+  Inert Proximity-activated Autoturret:
+    id: 35663
+    name: Inert Proximity-activated Autoturret
+    published: false
+    volume: 1000.0
+  Minmatar Cruise Missile Battery:
+    id: 17579
+    name: Minmatar Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Minmatar Energy Neutralizer Sentry I:
+    id: 27798
+    name: Minmatar Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Minmatar Energy Neutralizer Sentry II:
+    id: 27799
+    name: Minmatar Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Minmatar Energy Neutralizer Sentry III:
+    id: 27800
+    name: Minmatar Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Minmatar Heavy Missile Battery:
+    id: 17578
+    name: Minmatar Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Minmatar Light Missile Battery:
+    id: 17577
+    name: Minmatar Light Missile Battery
+    published: false
+    volume: 1000.0
+  Minmatar Point Defense Battery:
+    id: 17576
+    name: Minmatar Point Defense Battery
+    published: false
+    volume: 1000.0
+  Minmatar Stasis Tower:
+    id: 17606
+    name: Minmatar Stasis Tower
+    published: false
+    volume: 1000.0
+  Minmatar Station Sentry:
+    id: 25827
+    name: Minmatar Station Sentry
+    published: false
+    volume: 1000.0
+  Proximity-activated Autoturret:
+    id: 34873
+    name: Proximity-activated Autoturret
+    published: false
+    volume: 1000.0
+  Restless Sentry Tower:
+    id: 30462
+    name: Restless Sentry Tower
+    published: false
+    volume: 1000.0
+  Rewired Sentry Gun:
+    id: 34437
+    name: Rewired Sentry Gun
+    published: false
+  Sansha Cruise Missile Battery:
+    id: 17583
+    name: Sansha Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Sansha Energy Neutralizer Sentry I:
+    id: 28142
+    name: Sansha Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Sansha Energy Neutralizer Sentry II:
+    id: 28147
+    name: Sansha Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Sansha Energy Neutralizer Sentry III:
+    id: 28152
+    name: Sansha Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Sansha Heavy Missile Battery:
+    id: 17582
+    name: Sansha Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Sansha Light Missile Battery:
+    id: 17581
+    name: Sansha Light Missile Battery
+    published: false
+    volume: 1000.0
+  Sansha Point Defense Battery:
+    id: 17580
+    name: Sansha Point Defense Battery
+    published: false
+    volume: 1000.0
+  Sansha Sentry Gun:
+    id: 13113
+    name: Sansha Sentry Gun
+    published: false
+    volume: 1000.0
+  Sansha Stasis Tower:
+    id: 17607
+    name: Sansha Stasis Tower
+    published: false
+    volume: 1000.0
+  Secret Angel Facility:
+    id: 26709
+    name: Secret Angel Facility
+    published: false
+    volume: 1.0E8
+  Sentinel Angel:
+    id: 17875
+    name: Sentinel Angel
+    published: false
+    volume: 1000.0
+  Sentinel Bloodraider:
+    id: 17638
+    name: Sentinel Bloodraider
+    published: false
+    volume: 1000.0
+  Sentinel Chimera Strain Mother:
+    id: 17878
+    name: Sentinel Chimera Strain Mother
+    published: false
+    volume: 1000.0
+  Sentinel Gallente:
+    id: 17880
+    name: Sentinel Gallente
+    published: false
+    volume: 1000.0
+  Sentinel Jormungand Strain Mother:
+    id: 17879
+    name: Sentinel Jormungand Strain Mother
+    published: false
+    volume: 1000.0
+  Sentinel Sansha:
+    id: 17876
+    name: Sentinel Sansha
+    published: false
+    volume: 1000.0
+  Sentinel Serpentis:
+    id: 17877
+    name: Sentinel Serpentis
+    published: false
+    volume: 1000.0
+  Serpentis Crash Storage Platform:
+    id: 26856
+    name: Serpentis Crash Storage Platform
+    published: false
+    volume: 1000.0
+  Serpentis Cruise Missile Battery:
+    id: 17571
+    name: Serpentis Cruise Missile Battery
+    published: false
+    volume: 1000.0
+  Serpentis Energy Neutralizer Sentry I:
+    id: 28143
+    name: Serpentis Energy Neutralizer Sentry I
+    published: false
+    volume: 1000.0
+  Serpentis Energy Neutralizer Sentry II:
+    id: 28148
+    name: Serpentis Energy Neutralizer Sentry II
+    published: false
+    volume: 1000.0
+  Serpentis Energy Neutralizer Sentry III:
+    id: 28153
+    name: Serpentis Energy Neutralizer Sentry III
+    published: false
+    volume: 1000.0
+  Serpentis Exile Storage Platform:
+    id: 26857
+    name: Serpentis Exile Storage Platform
+    published: false
+    volume: 1000.0
+  Serpentis Heavy Missile Battery:
+    id: 17570
+    name: Serpentis Heavy Missile Battery
+    published: false
+    volume: 1000.0
+  Serpentis Light Missile Battery:
+    id: 18034
+    name: Serpentis Light Missile Battery
+    published: false
+    volume: 1000.0
+  Serpentis Mindflood Storage Platform:
+    id: 26858
+    name: Serpentis Mindflood Storage Platform
+    published: false
+    volume: 1000.0
+  Serpentis Point Defense Battery:
+    id: 17568
+    name: Serpentis Point Defense Battery
+    published: false
+    volume: 1000.0
+  Serpentis Sentry Gun:
+    id: 13115
+    name: Serpentis Sentry Gun
+    published: false
+    volume: 1000.0
+  Serpentis Stasis Tower:
+    id: 17163
+    name: Serpentis Stasis Tower
+    published: false
+    volume: 1000.0
+  Siege Artillery Sentry:
+    id: 21744
+    name: Siege Artillery Sentry
+    published: false
+    volume: 1000.0
+  Siege Autocannon Sentry:
+    id: 21745
+    name: Siege Autocannon Sentry
+    published: false
+    volume: 1000.0
+  Siege Beam Laser Sentry:
+    id: 21746
+    name: Siege Beam Laser Sentry
+    published: false
+    volume: 1000.0
+  Siege Blaster Sentry:
+    id: 21749
+    name: Siege Blaster Sentry
+    published: false
+    volume: 1000.0
+  Siege Pulse Laser Sentry:
+    id: 21747
+    name: Siege Pulse Laser Sentry
+    published: false
+    volume: 1000.0
+  Siege Railgun Sentry:
+    id: 21748
+    name: Siege Railgun Sentry
+    published: false
+    volume: 1000.0
+  Station Sentry 9F:
+    id: 25840
+    name: Station Sentry 9F
+    published: false
+    volume: 1000.0
+  TEST Cap Drain Sentry:
+    id: 25817
+    name: TEST Cap Drain Sentry
+    published: false
+    volume: 60.0
+  TEST ICON Amarr Carrier:
+    id: 27765
+    name: TEST ICON Amarr Carrier
+    published: false
+    volume: 1.395E7
+  Tower Basic Sentry Angel:
+    id: 27282
+    name: Tower Basic Sentry Angel
+    published: false
+    volume: 1000.0
+  Tower Basic Sentry Bloodraider:
+    id: 27283
+    name: Tower Basic Sentry Bloodraider
+    published: false
+    volume: 1000.0
+  Tower Basic Sentry Guristas:
+    id: 27284
+    name: Tower Basic Sentry Guristas
+    published: false
+    volume: 1000.0
+  Tower Basic Sentry Serpentis:
+    id: 27285
+    name: Tower Basic Sentry Serpentis
+    published: false
+    volume: 1000.0
+  Tower Missile Battery Serpentis I:
+    id: 17164
+    name: Tower Missile Battery Serpentis I
+    published: false
+    volume: 1000.0
+  Tower Sentry Amarr I:
+    id: 17160
+    name: Tower Sentry Amarr I
+    published: false
+    volume: 1000.0
+  Tower Sentry Amarr II:
+    id: 17161
+    name: Tower Sentry Amarr II
+    published: false
+    volume: 1000.0
+  Tower Sentry Amarr III:
+    id: 16739
+    name: Tower Sentry Amarr III
+    published: false
+    volume: 1000.0
+  Tower Sentry Ammatar I:
+    id: 19668
+    name: Tower Sentry Ammatar I
+    published: false
+    volume: 1000.0
+  Tower Sentry Ammatar II:
+    id: 19669
+    name: Tower Sentry Ammatar II
+    published: false
+    volume: 1000.0
+  Tower Sentry Ammatar III:
+    id: 19670
+    name: Tower Sentry Ammatar III
+    published: false
+    volume: 1000.0
+  Tower Sentry Angel I:
+    id: 17147
+    name: Tower Sentry Angel I
+    published: false
+    volume: 1000.0
+  Tower Sentry Angel II:
+    id: 17146
+    name: Tower Sentry Angel II
+    published: false
+    volume: 1000.0
+  Tower Sentry Angel III:
+    id: 16740
+    name: Tower Sentry Angel III
+    published: false
+    volume: 1000.0
+  Tower Sentry Bloodraider I:
+    id: 17145
+    name: Tower Sentry Bloodraider I
+    published: false
+    volume: 1000.0
+  Tower Sentry Bloodraider II:
+    id: 17144
+    name: Tower Sentry Bloodraider II
+    published: false
+    volume: 1000.0
+  Tower Sentry Bloodraider III:
+    id: 16741
+    name: Tower Sentry Bloodraider III
+    published: false
+    volume: 1000.0
+  Tower Sentry Caldari I:
+    id: 17149
+    name: Tower Sentry Caldari I
+    published: false
+    volume: 1000.0
+  Tower Sentry Caldari II:
+    id: 17148
+    name: Tower Sentry Caldari II
+    published: false
+    volume: 1000.0
+  Tower Sentry Caldari III:
+    id: 16742
+    name: Tower Sentry Caldari III
+    published: false
+    volume: 1000.0
+  Tower Sentry Drone I:
+    id: 18028
+    name: Tower Sentry Drone I
+    published: false
+    volume: 1000.0
+  Tower Sentry Drone II:
+    id: 18027
+    name: Tower Sentry Drone II
+    published: false
+    volume: 1000.0
+  Tower Sentry Drone III:
+    id: 18026
+    name: Tower Sentry Drone III
+    published: false
+    volume: 1000.0
+  Tower Sentry Gallente I:
+    id: 17151
+    name: Tower Sentry Gallente I
+    published: false
+    volume: 1000.0
+  Tower Sentry Gallente II:
+    id: 17150
+    name: Tower Sentry Gallente II
+    published: false
+    volume: 1000.0
+  Tower Sentry Gallente III:
+    id: 16743
+    name: Tower Sentry Gallente III
+    published: false
+    volume: 1000.0
+  Tower Sentry Guristas I:
+    id: 17152
+    name: Tower Sentry Guristas I
+    published: false
+    volume: 1000.0
+  Tower Sentry Guristas II:
+    id: 17153
+    name: Tower Sentry Guristas II
+    published: false
+    volume: 1000.0
+  Tower Sentry Guristas III:
+    id: 16744
+    name: Tower Sentry Guristas III
+    published: false
+    volume: 1000.0
+  Tower Sentry Guristas III_buffed:
+    id: 25706
+    name: Tower Sentry Guristas III_buffed
+    published: false
+    volume: 1000.0
+  Tower Sentry Minmatar I:
+    id: 17155
+    name: Tower Sentry Minmatar I
+    published: false
+    volume: 1000.0
+  Tower Sentry Minmatar II:
+    id: 17154
+    name: Tower Sentry Minmatar II
+    published: false
+    volume: 1000.0
+  Tower Sentry Minmatar III:
+    id: 16745
+    name: Tower Sentry Minmatar III
+    published: false
+    volume: 1000.0
+  Tower Sentry Sansha I:
+    id: 17157
+    name: Tower Sentry Sansha I
+    published: false
+    volume: 1000.0
+  Tower Sentry Sansha II:
+    id: 17156
+    name: Tower Sentry Sansha II
+    published: false
+    volume: 1000.0
+  Tower Sentry Sansha III:
+    id: 16746
+    name: Tower Sentry Sansha III
+    published: false
+    volume: 1000.0
+  Tower Sentry Serpentis I:
+    id: 17159
+    name: Tower Sentry Serpentis I
+    published: false
+    volume: 1000.0
+  Tower Sentry Serpentis II:
+    id: 17158
+    name: Tower Sentry Serpentis II
+    published: false
+    volume: 1000.0
+  Tower Sentry Serpentis III:
+    id: 16747
+    name: Tower Sentry Serpentis III
+    published: false
+    volume: 1000.0
+  Tower Structure:
+    id: 48594
+    name: Tower Structure
+    published: false
+    volume: 1000.0
+  Vigilant Sentry Tower:
+    id: 30460
+    name: Vigilant Sentry Tower
+    published: false
+    volume: 1000.0
+  Wakeful Sentry Tower:
+    id: 30461
+    name: Wakeful Sentry Tower
+    published: false
+    volume: 1000.0

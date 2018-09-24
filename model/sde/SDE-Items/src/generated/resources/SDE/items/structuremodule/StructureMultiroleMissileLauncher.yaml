@@ -16,6 +16,7 @@ items:
     id: 35922
     marketGroup: 2231
     name: Standup Multirole Missile Launcher I
+    published: true
     volume: 4000.0
   Standup Multirole Missile Launcher II:
     CanFitShipGroup01: 1657
@@ -35,4 +36,5 @@ items:
     id: 47298
     marketGroup: 2231
     name: Standup Multirole Missile Launcher II
+    published: true
     volume: 4000.0

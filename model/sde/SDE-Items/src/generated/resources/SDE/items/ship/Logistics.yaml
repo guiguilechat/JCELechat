@@ -83,6 +83,7 @@ items:
     id: 11985
     marketGroup: 439
     name: Basilisk
+    published: true
     volume: 107000.0
   Etana:
     Agility: 0.6100000143051147
@@ -170,6 +171,7 @@ items:
     id: 32790
     marketGroup: 1624
     name: Etana
+    published: true
     volume: 107000.0
   Guardian:
     Agility: 0.6100000143051147
@@ -254,6 +256,7 @@ items:
     id: 11987
     marketGroup: 438
     name: Guardian
+    published: true
     volume: 115000.0
   Oneiros:
     Agility: 0.6150000095367432
@@ -337,6 +340,7 @@ items:
     id: 11989
     marketGroup: 440
     name: Oneiros
+    published: true
     volume: 113000.0
   Rabisu:
     Agility: 0.5199999809265137
@@ -432,6 +436,7 @@ items:
     id: 42245
     marketGroup: 1624
     name: Rabisu
+    published: true
     volume: 115000.0
   Scimitar:
     Agility: 0.550000011920929
@@ -517,4 +522,5 @@ items:
     id: 11978
     marketGroup: 441
     name: Scimitar
+    published: true
     volume: 89000.0

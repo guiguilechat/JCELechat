@@ -29,6 +29,7 @@ items:
     id: 19470
     marketGroup: 482
     name: Intensive Reprocessing Array
+    published: true
     volume: 6000.0
   Reprocessing Array:
     AnchoringDelay: 5000
@@ -60,4 +61,5 @@ items:
     id: 12238
     marketGroup: 482
     name: Reprocessing Array
+    published: true
     volume: 6000.0

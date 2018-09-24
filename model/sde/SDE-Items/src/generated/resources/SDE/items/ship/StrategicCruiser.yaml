@@ -81,6 +81,7 @@ items:
     id: 29986
     marketGroup: 1139
     name: Legion
+    published: true
     volume: 118000.0
   Loki:
     Agility: 0.5400000214576721
@@ -164,6 +165,7 @@ items:
     id: 29990
     marketGroup: 1142
     name: Loki
+    published: true
     volume: 80000.0
   Proteus:
     Agility: 0.5600000023841858
@@ -247,6 +249,7 @@ items:
     id: 29988
     marketGroup: 1141
     name: Proteus
+    published: true
     volume: 115000.0
   Tengu:
     Agility: 0.5199999809265137
@@ -330,4 +333,5 @@ items:
     id: 29984
     marketGroup: 1140
     name: Tengu
+    published: true
     volume: 92000.0

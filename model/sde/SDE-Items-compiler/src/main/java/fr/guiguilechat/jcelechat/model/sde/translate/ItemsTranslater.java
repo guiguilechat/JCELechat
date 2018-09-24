@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -33,6 +34,8 @@ import com.helger.jcodemodel.JVar;
 import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler.CompiledClassesData;
 import fr.guiguilechat.jcelechat.model.sde.compile.inmemory.DynamicClassLoader;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmTypeAttributes;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.yaml.CleanRepresenter;
 import fr.guiguilechat.jcelechat.model.sde.yaml.YAMLTools;
@@ -62,8 +65,11 @@ public class ItemsTranslater {
 		LinkedHashMap<Integer, EtypeIDs> typeids = EtypeIDs.load();
 		for (Entry<Integer, EtypeIDs> e : typeids.entrySet()) {
 			EtypeIDs type = e.getValue();
-			if (!type.published) {
-				logger.debug("type " + type.enName() + "(" + e.getKey() + ") is not published");
+			EgroupIDs group = EgroupIDs.load().get(type.groupID);
+			EcategoryIDs cat = EcategoryIDs.load().get(group.categoryID);
+			if (!type.published&& group.published || !group.published&&cat.published) {
+				logger.debug("skipped type " + type.enName() + "(" + e.getKey() + "), not	publication loss (t:" + type.published
+						+ ", g:" + group.published + ", c:" + cat.published + ")");
 				continue;
 			}
 			String className = classes.groupID2ClassName.get(type.groupID);
@@ -89,6 +95,9 @@ public class ItemsTranslater {
 				Field marketGroupField = item.getClass().getField("marketGroup");
 				marketGroupField.setAccessible(true);
 				marketGroupField.set(item, type.marketGroupID);
+				Field publishedfield = item.getClass().getField("published");
+				publishedfield.setAccessible(true);
+				publishedfield.set(item, type.published);
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}
@@ -122,17 +131,29 @@ public class ItemsTranslater {
 					continue;
 				}
 				for (Entry<Integer, EdgmTypeAttributes> c : e.getValue().entrySet()) {
+					if (c.getValue().valueInt == 0 && c.getValue().valueFloat == 0) {
+						continue;
+					}
 					String fieldName = classes.attID2FieldName.get(c.getKey());
-					Field f = built.getClass().getField(fieldName);
-					f.setAccessible(true);
-					if (f.getType() == double.class) {
-						f.set(built, c.getValue().valueFloat);
-					} else {
-						if (c.getValue().valueFloat != 0) {
-							f.set(built, (int) c.getValue().valueFloat);
+					try {
+						Field f = built.getClass().getField(fieldName);
+						f.setAccessible(true);
+						if (f.getType() == double.class) {
+							f.set(built, c.getValue().valueFloat);
 						} else {
-							f.set(built, c.getValue().valueInt);
+							if (c.getValue().valueFloat != 0) {
+								f.set(built, (int) c.getValue().valueFloat);
+							} else {
+								f.set(built, c.getValue().valueInt);
+							}
 						}
+					} catch (NoSuchFieldException nsfe) {
+						throw new UnsupportedOperationException(
+								"cant' find field " + fieldName + "(" + c.getKey() + ") in class " + built.getClass().getName()
+								+ " to value "
+								+ (c.getValue().valueFloat + c.getValue().valueInt) + ", fields are "
+								+ Arrays.asList(built.getClass().getFields()),
+								nsfe);
 					}
 				}
 			} catch (Exception ex) {

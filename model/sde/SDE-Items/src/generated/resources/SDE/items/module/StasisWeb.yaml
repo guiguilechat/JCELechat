@@ -7,11 +7,13 @@ items:
     TechLevel: 1
     id: 47702
     name: Abyssal Stasis Webifier
+    published: true
     volume: 5.0
   Caldari Navy Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -29,11 +31,13 @@ items:
     id: 17500
     marketGroup: 683
     name: Caldari Navy Stasis Webifier
+    published: true
     volume: 5.0
   Civilian Stasis Webifier:
     CapacitorNeed: 7.0
     Cpu: 27.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -47,11 +51,13 @@ items:
     id: 30328
     marketGroup: 683
     name: Civilian Stasis Webifier
+    published: true
     volume: 5.0
   Dark Blood Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -69,11 +75,13 @@ items:
     id: 14262
     marketGroup: 683
     name: Dark Blood Stasis Webifier
+    published: true
     volume: 5.0
   Domination Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -91,11 +99,13 @@ items:
     id: 14264
     marketGroup: 683
     name: Domination Stasis Webifier
+    published: true
     volume: 5.0
   Dread Guristas Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -113,11 +123,13 @@ items:
     id: 14266
     marketGroup: 683
     name: Dread Guristas Stasis Webifier
+    published: true
     volume: 5.0
   Federation Navy Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -135,11 +147,13 @@ items:
     id: 17559
     marketGroup: 683
     name: Federation Navy Stasis Webifier
+    published: true
     volume: 5.0
   Fleeting Compact Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 20.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -156,11 +170,13 @@ items:
     id: 4027
     marketGroup: 683
     name: Fleeting Compact Stasis Webifier
+    published: true
     volume: 5.0
   Gotan's Modified Stasis Webifier:
     CapacitorNeed: 15.0
     Cpu: 18.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -178,11 +194,13 @@ items:
     id: 14652
     marketGroup: 683
     name: Gotan's Modified Stasis Webifier
+    published: true
     volume: 5.0
   Hakim's Modified Stasis Webifier:
     CapacitorNeed: 15.0
     Cpu: 18.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -200,11 +218,13 @@ items:
     id: 14650
     marketGroup: 683
     name: Hakim's Modified Stasis Webifier
+    published: true
     volume: 5.0
   Khanid Navy Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -222,11 +242,13 @@ items:
     id: 28514
     marketGroup: 683
     name: Khanid Navy Stasis Webifier
+    published: true
     volume: 5.0
   Mizuro's Modified Stasis Webifier:
     CapacitorNeed: 15.0
     Cpu: 18.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -244,11 +266,13 @@ items:
     id: 14648
     marketGroup: 683
     name: Mizuro's Modified Stasis Webifier
+    published: true
     volume: 5.0
   Republic Fleet Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -266,11 +290,13 @@ items:
     id: 41038
     marketGroup: 683
     name: Republic Fleet Stasis Webifier
+    published: true
     volume: 5.0
   Shadow Serpentis Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -288,11 +314,13 @@ items:
     id: 14270
     marketGroup: 683
     name: Shadow Serpentis Stasis Webifier
+    published: true
     volume: 5.0
   Stasis Webifier I:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -308,11 +336,13 @@ items:
     id: 526
     marketGroup: 683
     name: Stasis Webifier I
+    published: true
     volume: 5.0
   Stasis Webifier II:
     CapacitorNeed: 6.0
     Cpu: 30.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.0
     Hp: 40
@@ -329,11 +359,13 @@ items:
     id: 527
     marketGroup: 683
     name: Stasis Webifier II
+    published: true
     volume: 5.0
   Tobias' Modified Stasis Webifier:
     CapacitorNeed: 15.0
     Cpu: 18.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -351,11 +383,13 @@ items:
     id: 14654
     marketGroup: 683
     name: Tobias' Modified Stasis Webifier
+    published: true
     volume: 5.0
   True Sansha Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -373,11 +407,13 @@ items:
     id: 14268
     marketGroup: 683
     name: True Sansha Stasis Webifier
+    published: true
     volume: 5.0
   X5 Enduring Stasis Webifier:
     CapacitorNeed: 2.0
     Cpu: 25.0
     Duration: 5000.0
+    Falloff: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
     Hp: 40
@@ -394,4 +430,5 @@ items:
     id: 4025
     marketGroup: 683
     name: X5 Enduring Stasis Webifier
+    published: true
     volume: 5.0

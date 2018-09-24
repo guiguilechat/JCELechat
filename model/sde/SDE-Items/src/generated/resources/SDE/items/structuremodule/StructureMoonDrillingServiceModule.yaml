@@ -13,4 +13,5 @@ items:
     id: 45009
     marketGroup: 2233
     name: Standup Moon Drill I
+    published: true
     volume: 8000.0

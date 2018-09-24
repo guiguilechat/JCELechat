@@ -21,6 +21,7 @@ items:
     id: 37849
     marketGroup: 2198
     name: Standup Heavy Guided Bomb
+    published: true
     volume: 100.0
   Standup Light Guided Bomb:
     Agility: 1000.0
@@ -44,4 +45,5 @@ items:
     id: 37850
     marketGroup: 2198
     name: Standup Light Guided Bomb
+    published: true
     volume: 100.0

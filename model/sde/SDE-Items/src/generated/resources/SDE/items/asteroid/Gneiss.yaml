@@ -9,9 +9,11 @@ items:
     OreBasicType: 46679
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46679
     marketGroup: 525
     name: Brilliant Gneiss
+    published: true
     volume: 5.0
   Compressed Brilliant Gneiss:
     AsteroidMaxRadius: 16255
@@ -21,9 +23,11 @@ items:
     OreBasicType: 46679
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46695
     marketGroup: 525
     name: Compressed Brilliant Gneiss
+    published: true
     volume: 1.8
   Compressed Gneiss:
     AsteroidMaxRadius: 16255
@@ -33,9 +37,11 @@ items:
     OreBasicType: 1229
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28397
     marketGroup: 525
     name: Compressed Gneiss
+    published: true
     volume: 1.8
   Compressed Iridescent Gneiss:
     AsteroidMaxRadius: 16255
@@ -45,9 +51,11 @@ items:
     OreBasicType: 1229
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28398
     marketGroup: 525
     name: Compressed Iridescent Gneiss
+    published: true
     volume: 1.8
   Compressed Prismatic Gneiss:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 1229
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28399
     marketGroup: 525
     name: Compressed Prismatic Gneiss
+    published: true
     volume: 1.8
   Gneiss:
     AsteroidMaxRadius: 16255
@@ -71,9 +81,11 @@ items:
     OreBasicType: 1229
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1229
     marketGroup: 525
     name: Gneiss
+    published: true
     volume: 5.0
   Green Arisite:
     AsteroidMaxRadius: 16255
@@ -82,8 +94,10 @@ items:
     OreBasicType: 1229
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28622
     name: Green Arisite
+    published: true
     volume: 5.0
   Iridescent Gneiss:
     AsteroidMaxRadius: 16255
@@ -95,9 +109,11 @@ items:
     OreBasicType: 1229
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17865
     marketGroup: 525
     name: Iridescent Gneiss
+    published: true
     volume: 5.0
   Prismatic Gneiss:
     AsteroidMaxRadius: 16255
@@ -109,7 +125,9 @@ items:
     OreBasicType: 1229
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17866
     marketGroup: 525
     name: Prismatic Gneiss
+    published: true
     volume: 5.0

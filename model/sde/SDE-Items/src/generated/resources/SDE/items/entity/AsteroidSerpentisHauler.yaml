@@ -1,0 +1,81 @@
+items:
+  Mule Ferrier:
+    id: 24379
+    name: Mule Ferrier
+    published: false
+    volume: 26500.0
+  Mule Gatherer:
+    id: 24378
+    name: Mule Gatherer
+    published: false
+    volume: 23000.0
+  Mule Harvester:
+    id: 24377
+    name: Mule Harvester
+    published: false
+    volume: 23000.0
+  Mule Loader:
+    id: 24380
+    name: Mule Loader
+    published: false
+    volume: 26500.0
+  Serpentis Bulker:
+    id: 13706
+    name: Serpentis Bulker
+    published: false
+    volume: 112000.0
+  Serpentis Carrier:
+    id: 13702
+    name: Serpentis Carrier
+    published: false
+    volume: 1140000.0
+  Serpentis Convoy:
+    id: 13703
+    name: Serpentis Convoy
+    published: false
+    volume: 1010000.0
+  Serpentis Courier:
+    id: 13709
+    name: Serpentis Courier
+    published: false
+    volume: 112000.0
+  Serpentis Ferrier:
+    id: 13711
+    name: Serpentis Ferrier
+    published: false
+    volume: 26500.0
+  Serpentis Gatherer:
+    id: 13712
+    name: Serpentis Gatherer
+    published: false
+    volume: 23000.0
+  Serpentis Harvester:
+    id: 13713
+    name: Serpentis Harvester
+    published: false
+    volume: 23000.0
+  Serpentis Hauler:
+    id: 13705
+    name: Serpentis Hauler
+    published: false
+    volume: 1010000.0
+  Serpentis Loader:
+    id: 13710
+    name: Serpentis Loader
+    published: false
+    volume: 26500.0
+  Serpentis Trailer:
+    id: 13704
+    name: Serpentis Trailer
+    published: false
+    volume: 1140000.0
+  Serpentis Transporter:
+    id: 13707
+    name: Serpentis Transporter
+    published: false
+    volume: 112000.0
+  Serpentis Trucker:
+    id: 13708
+    name: Serpentis Trucker
+    published: false
+    volume: 112000.0

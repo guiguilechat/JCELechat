@@ -3,62 +3,75 @@ items:
     id: 3707
     marketGroup: 491
     name: Blue Pill
+    published: true
     volume: 0.2
   Crash:
     id: 3705
     marketGroup: 491
     name: Crash
+    published: true
     volume: 0.2
   Crates of Crystal Eggs:
     id: 26780
     name: Crates of Crystal Eggs
+    published: true
     volume: 90.0
   Crystal Egg:
     id: 3824
     marketGroup: 491
     name: Crystal Egg
+    published: true
     volume: 0.5
   Drop:
     id: 3709
     marketGroup: 491
     name: Drop
+    published: true
     volume: 0.2
   Exile:
     id: 3818
     marketGroup: 491
     name: Exile
+    published: true
     volume: 1.0
   Frentix:
     id: 3822
     marketGroup: 491
     name: Frentix
+    published: true
     volume: 0.2
   Large Crates of Crystal Eggs:
     id: 2711
     name: Large Crates of Crystal Eggs
+    published: true
     volume: 500.0
   Mindflood:
     id: 3826
     marketGroup: 491
     name: Mindflood
+    published: true
     volume: 0.2
   Nerve Sticks:
     id: 3703
     marketGroup: 491
     name: Nerve Sticks
+    published: true
     volume: 0.2
   Sooth Sayer:
     id: 3820
     marketGroup: 491
     name: Sooth Sayer
+    published: true
     volume: 1.0
   Vitoc:
     id: 3713
     marketGroup: 491
     name: Vitoc
+    published: true
     volume: 0.5
   X-Instinct:
     id: 3711
     marketGroup: 491
     name: X-Instinct
+    published: true
     volume: 1.0

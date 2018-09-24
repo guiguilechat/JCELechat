@@ -191,8 +191,8 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(1)
-    public int MiningAmountMultiplier;
+    @DefaultDoubleValue(1.0)
+    public double MiningAmountMultiplier;
     /**
      * NOS override allows a nosferatu module to drain the target capacitor below the current ships capacitor level.
      */

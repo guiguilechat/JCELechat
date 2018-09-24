@@ -16,6 +16,7 @@ items:
     id: 24644
     marketGroup: 872
     name: Capital Tractor Beam I
+    published: true
     volume: 4000.0
   Capital Tractor Beam II:
     CanFitShipGroup01: 883
@@ -36,6 +37,7 @@ items:
     id: 4252
     marketGroup: 872
     name: Capital Tractor Beam II
+    published: true
     volume: 4000.0
   Small Tractor Beam I:
     CapacitorNeed: 5.0
@@ -53,6 +55,7 @@ items:
     id: 24348
     marketGroup: 872
     name: Small Tractor Beam I
+    published: true
     volume: 50.0
   Small Tractor Beam II:
     CapacitorNeed: 5.0
@@ -72,4 +75,5 @@ items:
     id: 4250
     marketGroup: 872
     name: Small Tractor Beam II
+    published: true
     volume: 50.0

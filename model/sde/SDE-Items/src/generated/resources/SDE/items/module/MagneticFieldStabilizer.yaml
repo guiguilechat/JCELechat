@@ -13,6 +13,7 @@ items:
     id: 10188
     marketGroup: 648
     name: '''Basic'' Magnetic Field Stabilizer'
+    published: true
     volume: 5.0
   '''Monopoly'' Magnetic Field Stabilizer':
     Cpu: 18.0
@@ -28,6 +29,7 @@ items:
     id: 22919
     marketGroup: 648
     name: '''Monopoly'' Magnetic Field Stabilizer'
+    published: true
     volume: 5.0
   Brynn's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1299999952316284
@@ -42,6 +44,7 @@ items:
     id: 15144
     marketGroup: 648
     name: Brynn's Modified Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Cormack's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1449999809265137
@@ -56,6 +59,7 @@ items:
     id: 15150
     marketGroup: 648
     name: Cormack's Modified Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Federation Navy Magnetic Field Stabilizer:
     DamageMultiplier: 1.1200000047683716
@@ -70,6 +74,7 @@ items:
     id: 15895
     marketGroup: 648
     name: Federation Navy Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Kaatara's Custom Magnetic Field Stabilizer:
     Cpu: 29.0
@@ -85,6 +90,7 @@ items:
     id: 44113
     marketGroup: 648
     name: Kaatara's Custom Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Magnetic Field Stabilizer I:
     Cpu: 27.0
@@ -98,6 +104,7 @@ items:
     id: 9944
     marketGroup: 648
     name: Magnetic Field Stabilizer I
+    published: true
     volume: 5.0
   Magnetic Field Stabilizer II:
     DamageMultiplier: 1.100000023841858
@@ -111,6 +118,7 @@ items:
     id: 10190
     marketGroup: 648
     name: Magnetic Field Stabilizer II
+    published: true
     volume: 5.0
   Naiyon's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1375000476837158
@@ -125,6 +133,7 @@ items:
     id: 15416
     marketGroup: 648
     name: Naiyon's Modified Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Setele's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1399999856948853
@@ -139,6 +148,7 @@ items:
     id: 15148
     marketGroup: 648
     name: Setele's Modified Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Shadow Serpentis Magnetic Field Stabilizer:
     DamageMultiplier: 1.1200000047683716
@@ -153,6 +163,7 @@ items:
     id: 13945
     marketGroup: 648
     name: Shadow Serpentis Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Torelle's Custom Magnetic Field Stabilizer:
     Cpu: 29.0
@@ -168,6 +179,7 @@ items:
     id: 44114
     marketGroup: 648
     name: Torelle's Custom Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Tuvan's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1349999904632568
@@ -182,6 +194,7 @@ items:
     id: 15146
     marketGroup: 648
     name: Tuvan's Modified Magnetic Field Stabilizer
+    published: true
     volume: 5.0
   Vortex Compact Magnetic Field Stabilizer:
     Cpu: 25.0
@@ -196,4 +209,5 @@ items:
     id: 11105
     marketGroup: 648
     name: Vortex Compact Magnetic Field Stabilizer
+    published: true
     volume: 5.0

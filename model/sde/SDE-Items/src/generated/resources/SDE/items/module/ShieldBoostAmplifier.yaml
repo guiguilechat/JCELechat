@@ -11,6 +11,7 @@ items:
     id: 16535
     marketGroup: 613
     name: '''Copasetic'' Particle Field Acceleration'
+    published: true
     volume: 5.0
   '''Glycerine'' Shield Boost Amplifier':
     HeatDamageBonus: 100
@@ -25,6 +26,7 @@ items:
     id: 20613
     marketGroup: 613
     name: '''Glycerine'' Shield Boost Amplifier'
+    published: true
     volume: 5.0
   '''Stalwart'' Particle Field Magnifier':
     HeatDamageBonus: 100
@@ -38,6 +40,7 @@ items:
     id: 16533
     marketGroup: 613
     name: '''Stalwart'' Particle Field Magnifier'
+    published: true
     volume: 5.0
   5a Prototype Shield Support I:
     HeatDamageBonus: 100
@@ -51,6 +54,7 @@ items:
     id: 16531
     marketGroup: 613
     name: 5a Prototype Shield Support I
+    published: true
     volume: 5.0
   Caldari Navy Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -65,6 +69,7 @@ items:
     id: 15905
     marketGroup: 613
     name: Caldari Navy Shield Boost Amplifier
+    published: true
     volume: 5.0
   Domination Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -79,6 +84,7 @@ items:
     id: 14045
     marketGroup: 613
     name: Domination Shield Boost Amplifier
+    published: true
     volume: 5.0
   Dread Guristas Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -93,6 +99,7 @@ items:
     id: 14047
     marketGroup: 613
     name: Dread Guristas Shield Boost Amplifier
+    published: true
     volume: 5.0
   Estamel's Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -107,6 +114,7 @@ items:
     id: 14714
     marketGroup: 613
     name: Estamel's Modified Shield Boost Amplifier
+    published: true
     volume: 5.0
   Gist A-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -121,6 +129,7 @@ items:
     id: 19293
     marketGroup: 613
     name: Gist A-Type Shield Boost Amplifier
+    published: true
     volume: 5.0
   Gist B-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -135,6 +144,7 @@ items:
     id: 19299
     marketGroup: 613
     name: Gist B-Type Shield Boost Amplifier
+    published: true
     volume: 5.0
   Gist C-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -149,6 +159,7 @@ items:
     id: 19297
     marketGroup: 613
     name: Gist C-Type Shield Boost Amplifier
+    published: true
     volume: 5.0
   Gist X-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -163,6 +174,7 @@ items:
     id: 19301
     marketGroup: 613
     name: Gist X-Type Shield Boost Amplifier
+    published: true
     volume: 5.0
   Hakim's Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -177,6 +189,7 @@ items:
     id: 14636
     marketGroup: 613
     name: Hakim's Modified Shield Boost Amplifier
+    published: true
     volume: 5.0
   Ionic Field Accelerator I:
     HeatDamageBonus: 100
@@ -190,6 +203,7 @@ items:
     id: 16529
     marketGroup: 613
     name: Ionic Field Accelerator I
+    published: true
     volume: 5.0
   Kaikka's Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -204,6 +218,7 @@ items:
     id: 14708
     marketGroup: 613
     name: Kaikka's Modified Shield Boost Amplifier
+    published: true
     volume: 5.0
   Pith A-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -218,6 +233,7 @@ items:
     id: 19311
     marketGroup: 613
     name: Pith A-Type Shield Boost Amplifier
+    published: true
     volume: 5.0
   Pith B-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -232,6 +248,7 @@ items:
     id: 19303
     marketGroup: 613
     name: Pith B-Type Shield Boost Amplifier
+    published: true
     volume: 5.0
   Pith C-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -246,6 +263,7 @@ items:
     id: 19289
     marketGroup: 613
     name: Pith C-Type Shield Boost Amplifier
+    published: true
     volume: 5.0
   Pith X-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -260,6 +278,7 @@ items:
     id: 19295
     marketGroup: 613
     name: Pith X-Type Shield Boost Amplifier
+    published: true
     volume: 5.0
   Republic Fleet Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -274,6 +293,7 @@ items:
     id: 15907
     marketGroup: 613
     name: Republic Fleet Shield Boost Amplifier
+    published: true
     volume: 5.0
   Shield Boost Amplifier I:
     HeatDamageBonus: 100
@@ -286,6 +306,7 @@ items:
     id: 11561
     marketGroup: 613
     name: Shield Boost Amplifier I
+    published: true
     volume: 25.0
   Shield Boost Amplifier II:
     HeatDamageBonus: 100
@@ -299,6 +320,7 @@ items:
     id: 24443
     marketGroup: 613
     name: Shield Boost Amplifier II
+    published: true
     volume: 5.0
   Thon's Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -313,6 +335,7 @@ items:
     id: 14710
     marketGroup: 613
     name: Thon's Modified Shield Boost Amplifier
+    published: true
     volume: 5.0
   Tobias' Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -327,6 +350,7 @@ items:
     id: 14638
     marketGroup: 613
     name: Tobias' Modified Shield Boost Amplifier
+    published: true
     volume: 5.0
   Vepas' Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
@@ -341,4 +365,5 @@ items:
     id: 14712
     marketGroup: 613
     name: Vepas' Modified Shield Boost Amplifier
+    published: true
     volume: 5.0

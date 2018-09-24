@@ -20,6 +20,7 @@ items:
     id: 37846
     marketGroup: 2196
     name: Standup Cruise Missile
+    published: true
     volume: 0.5
   Standup Heavy Missile:
     Agility: 1000.0
@@ -42,6 +43,7 @@ items:
     id: 37847
     marketGroup: 2196
     name: Standup Heavy Missile
+    published: true
     volume: 0.5
   Standup Light Missile:
     Agility: 1000.0
@@ -64,4 +66,5 @@ items:
     id: 37848
     marketGroup: 2196
     name: Standup Light Missile
+    published: true
     volume: 0.5

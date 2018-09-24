@@ -7,9 +7,11 @@ items:
     OreBasicType: 45494
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 45494
     marketGroup: 2397
     name: Cobaltite
+    published: true
     volume: 10.0
   Copious Cobaltite:
     AsteroidMaxRadius: 5000
@@ -19,9 +21,11 @@ items:
     OreBasicType: 45494
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46288
     marketGroup: 2397
     name: Copious Cobaltite
+    published: true
     volume: 10.0
   Copious Euxenite:
     AsteroidMaxRadius: 5000
@@ -31,9 +35,11 @@ items:
     OreBasicType: 45495
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46290
     marketGroup: 2397
     name: Copious Euxenite
+    published: true
     volume: 10.0
   Copious Scheelite:
     AsteroidMaxRadius: 5000
@@ -43,9 +49,11 @@ items:
     OreBasicType: 45497
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46294
     marketGroup: 2397
     name: Copious Scheelite
+    published: true
     volume: 10.0
   Copious Titanite:
     AsteroidMaxRadius: 5000
@@ -55,9 +63,11 @@ items:
     OreBasicType: 45496
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46292
     marketGroup: 2397
     name: Copious Titanite
+    published: true
     volume: 10.0
   Euxenite:
     AsteroidMaxRadius: 5000
@@ -67,9 +77,11 @@ items:
     OreBasicType: 45495
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 45495
     marketGroup: 2397
     name: Euxenite
+    published: true
     volume: 10.0
   Scheelite:
     AsteroidMaxRadius: 5000
@@ -79,9 +91,11 @@ items:
     OreBasicType: 45497
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 45497
     marketGroup: 2397
     name: Scheelite
+    published: true
     volume: 10.0
   Titanite:
     AsteroidMaxRadius: 5000
@@ -91,9 +105,11 @@ items:
     OreBasicType: 45496
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 45496
     marketGroup: 2397
     name: Titanite
+    published: true
     volume: 10.0
   Twinkling Cobaltite:
     AsteroidMaxRadius: 5000
@@ -103,9 +119,11 @@ items:
     OreBasicType: 45494
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46289
     marketGroup: 2397
     name: Twinkling Cobaltite
+    published: true
     volume: 10.0
   Twinkling Euxenite:
     AsteroidMaxRadius: 5000
@@ -115,9 +133,11 @@ items:
     OreBasicType: 45495
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46291
     marketGroup: 2397
     name: Twinkling Euxenite
+    published: true
     volume: 10.0
   Twinkling Scheelite:
     AsteroidMaxRadius: 5000
@@ -127,9 +147,11 @@ items:
     OreBasicType: 45497
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46295
     marketGroup: 2397
     name: Twinkling Scheelite
+    published: true
     volume: 10.0
   Twinkling Titanite:
     AsteroidMaxRadius: 5000
@@ -139,7 +161,9 @@ items:
     OreBasicType: 45496
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46293
     marketGroup: 2397
     name: Twinkling Titanite
+    published: true
     volume: 10.0

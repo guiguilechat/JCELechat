@@ -23,6 +23,7 @@ items:
     id: 2182
     marketGroup: 1317
     name: Guristas Inferno XL Cruise Missile
+    published: true
     volume: 0.3
   Guristas Mjolnir XL Cruise Missile:
     Agility: 4.363462267065188E-6
@@ -48,6 +49,7 @@ items:
     id: 2188
     marketGroup: 1317
     name: Guristas Mjolnir XL Cruise Missile
+    published: true
     volume: 0.3
   Guristas Nova XL Cruise Missile:
     Agility: 4.363462267065188E-6
@@ -73,6 +75,7 @@ items:
     id: 2178
     marketGroup: 1317
     name: Guristas Nova XL Cruise Missile
+    published: true
     volume: 0.3
   Guristas Scourge XL Cruise Missile:
     Agility: 4.363462267065188E-6
@@ -98,6 +101,7 @@ items:
     id: 2180
     marketGroup: 1317
     name: Guristas Scourge XL Cruise Missile
+    published: true
     volume: 0.3
   Inferno XL Cruise Missile:
     Agility: 4.363462267065188E-6
@@ -121,6 +125,7 @@ items:
     id: 32440
     marketGroup: 1287
     name: Inferno XL Cruise Missile
+    published: true
     volume: 0.3
   Mjolnir XL Cruise Missile:
     Agility: 4.363462267065188E-6
@@ -144,6 +149,7 @@ items:
     id: 32442
     marketGroup: 1287
     name: Mjolnir XL Cruise Missile
+    published: true
     volume: 0.3
   Nova XL Cruise Missile:
     Agility: 4.363462267065188E-6
@@ -167,6 +173,7 @@ items:
     id: 32438
     marketGroup: 1287
     name: Nova XL Cruise Missile
+    published: true
     volume: 0.3
   Scourge XL Cruise Missile:
     Agility: 4.363462267065188E-6
@@ -190,4 +197,5 @@ items:
     id: 32436
     marketGroup: 1287
     name: Scourge XL Cruise Missile
+    published: true
     volume: 0.3

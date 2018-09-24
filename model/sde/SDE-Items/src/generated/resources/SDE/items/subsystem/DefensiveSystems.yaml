@@ -18,6 +18,7 @@ items:
     id: 45587
     marketGroup: 1126
     name: Legion Defensive - Augmented Plating
+    published: true
     volume: 40.0
   Legion Defensive - Covert Reconfiguration:
     CapacitorCapacity: 200.0
@@ -44,6 +45,7 @@ items:
     id: 45586
     marketGroup: 1126
     name: Legion Defensive - Covert Reconfiguration
+    published: true
     volume: 40.0
   Legion Defensive - Nanobot Injector:
     ArmorHPBonusAdd: 500
@@ -66,6 +68,7 @@ items:
     id: 45588
     marketGroup: 1126
     name: Legion Defensive - Nanobot Injector
+    published: true
     volume: 40.0
   Loki Defensive - Adaptive Defense Node:
     ArmorHPBonusAdd: 300
@@ -90,6 +93,7 @@ items:
     id: 45597
     marketGroup: 1128
     name: Loki Defensive - Adaptive Defense Node
+    published: true
     volume: 40.0
   Loki Defensive - Augmented Durability:
     ArmorHPBonusAdd: 600
@@ -111,6 +115,7 @@ items:
     id: 45596
     marketGroup: 1128
     name: Loki Defensive - Augmented Durability
+    published: true
     volume: 40.0
   Loki Defensive - Covert Reconfiguration:
     CapacitorCapacity: 200.0
@@ -136,6 +141,7 @@ items:
     id: 45595
     marketGroup: 1128
     name: Loki Defensive - Covert Reconfiguration
+    published: true
     volume: 40.0
   Proteus Defensive - Augmented Plating:
     ArmorHPBonusAdd: 1000
@@ -156,6 +162,7 @@ items:
     id: 45593
     marketGroup: 1129
     name: Proteus Defensive - Augmented Plating
+    published: true
     volume: 40.0
   Proteus Defensive - Covert Reconfiguration:
     CapacitorCapacity: 200.0
@@ -182,6 +189,7 @@ items:
     id: 45592
     marketGroup: 1129
     name: Proteus Defensive - Covert Reconfiguration
+    published: true
     volume: 40.0
   Proteus Defensive - Nanobot Injector:
     ArmorHPBonusAdd: 500
@@ -204,6 +212,7 @@ items:
     id: 45594
     marketGroup: 1129
     name: Proteus Defensive - Nanobot Injector
+    published: true
     volume: 40.0
   Tengu Defensive - Amplification Node:
     ArmorHPBonusAdd: 100
@@ -226,6 +235,7 @@ items:
     id: 45591
     marketGroup: 1127
     name: Tengu Defensive - Amplification Node
+    published: true
     volume: 40.0
   Tengu Defensive - Covert Reconfiguration:
     ArmorHPBonusAdd: 300
@@ -251,6 +261,7 @@ items:
     id: 45589
     marketGroup: 1127
     name: Tengu Defensive - Covert Reconfiguration
+    published: true
     volume: 40.0
   Tengu Defensive - Supplemental Screening:
     CovertCloakCPUPenalty: 10000
@@ -271,4 +282,5 @@ items:
     id: 45590
     marketGroup: 1127
     name: Tengu Defensive - Supplemental Screening
+    published: true
     volume: 40.0

@@ -23,6 +23,7 @@ items:
     id: 27513
     marketGroup: 1192
     name: Caldari Navy Scourge Auto-Targeting Light Missile I
+    published: true
     volume: 0.015
   Federation Navy Inferno Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
@@ -48,6 +49,7 @@ items:
     id: 27519
     marketGroup: 1192
     name: Federation Navy Inferno Auto-Targeting Light Missile I
+    published: true
     volume: 0.015
   Imperial Navy Mjolnir Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
@@ -73,6 +75,7 @@ items:
     id: 27507
     marketGroup: 1192
     name: Imperial Navy Mjolnir Auto-Targeting Light Missile I
+    published: true
     volume: 0.015
   Inferno Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
@@ -97,6 +100,7 @@ items:
     id: 1816
     marketGroup: 914
     name: Inferno Auto-Targeting Light Missile I
+    published: true
     volume: 0.015
   Mjolnir Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
@@ -121,6 +125,7 @@ items:
     id: 269
     marketGroup: 914
     name: Mjolnir Auto-Targeting Light Missile I
+    published: true
     volume: 0.015
   Nova Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
@@ -145,6 +150,7 @@ items:
     id: 1814
     marketGroup: 914
     name: Nova Auto-Targeting Light Missile I
+    published: true
     volume: 0.015
   Republic Fleet Nova Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
@@ -170,6 +176,7 @@ items:
     id: 27525
     marketGroup: 1192
     name: Republic Fleet Nova Auto-Targeting Light Missile I
+    published: true
     volume: 0.015
   Scourge Auto-Targeting Light Missile I:
     Agility: 1.4449800073634833E-4
@@ -194,4 +201,5 @@ items:
     id: 1810
     marketGroup: 914
     name: Scourge Auto-Targeting Light Missile I
+    published: true
     volume: 0.015

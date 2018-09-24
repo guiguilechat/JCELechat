@@ -25,13 +25,6 @@ public class StationImprovementPlatform
     @DefaultIntValue(60000)
     public int AnchoringDelay;
     /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -74,10 +67,6 @@ public class StationImprovementPlatform
             case  556 :
             {
                 return AnchoringDelay;
-            }
-            case  9 :
-            {
-                return Hp;
             }
             case  182 :
             {

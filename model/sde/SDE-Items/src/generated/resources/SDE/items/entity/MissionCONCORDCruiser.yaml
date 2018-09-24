@@ -1,0 +1,31 @@
+items:
+  DED Captain:
+    id: 16114
+    name: DED Captain
+    published: false
+    volume: 101000.0
+  DED Officer 1st Class:
+    id: 16112
+    name: DED Officer 1st Class
+    published: false
+    volume: 101000.0
+  DED Officer 1st Class Vessel:
+    id: 33805
+    name: DED Officer 1st Class Vessel
+    published: false
+    volume: 101000.0
+  DED Officer 2nd Class:
+    id: 16111
+    name: DED Officer 2nd Class
+    published: false
+    volume: 101000.0
+  DED Officer 3rd Class:
+    id: 16110
+    name: DED Officer 3rd Class
+    published: false
+    volume: 101000.0
+  DED Special Ops Raptor:
+    id: 16115
+    name: DED Special Ops Raptor
+    published: false
+    volume: 101000.0

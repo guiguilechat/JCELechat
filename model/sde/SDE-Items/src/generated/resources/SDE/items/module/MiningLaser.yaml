@@ -14,6 +14,7 @@ items:
     TechLevel: 1
     id: 22921
     name: '''Habitat'' Miner I'
+    published: true
     volume: 5.0
   '''Wild'' Miner I':
     CapacitorNeed: 40.0
@@ -30,6 +31,7 @@ items:
     TechLevel: 1
     id: 22923
     name: '''Wild'' Miner I'
+    published: true
     volume: 5.0
   Civilian Miner:
     CapacitorNeed: 5.0
@@ -48,6 +50,7 @@ items:
     id: 3651
     marketGroup: 1039
     name: Civilian Miner
+    published: true
     volume: 5.0
   Deep Core Mining Laser I:
     CapacitorNeed: 240.0
@@ -69,6 +72,7 @@ items:
     id: 12108
     marketGroup: 1039
     name: Deep Core Mining Laser I
+    published: true
     volume: 5.0
   EP-S Gaussian Scoped Mining Laser:
     CapacitorNeed: 20.0
@@ -88,6 +92,7 @@ items:
     id: 5239
     marketGroup: 1039
     name: EP-S Gaussian Scoped Mining Laser
+    published: true
     volume: 5.0
   Gallente Mining Laser:
     CapacitorNeed: 10.0
@@ -108,6 +113,7 @@ items:
     id: 21841
     marketGroup: 1039
     name: Gallente Mining Laser
+    published: true
     volume: 5.0
   Ice Mining Laser I:
     CanFitShipGroup01: 1283
@@ -127,6 +133,7 @@ items:
     id: 37450
     marketGroup: 2151
     name: Ice Mining Laser I
+    published: true
     volume: 5.0
   Ice Mining Laser II:
     CanFitShipGroup01: 1283
@@ -147,6 +154,7 @@ items:
     id: 37451
     marketGroup: 2151
     name: Ice Mining Laser II
+    published: true
     volume: 5.0
   Miner I:
     CapacitorNeed: 20.0
@@ -164,6 +172,7 @@ items:
     id: 483
     marketGroup: 1039
     name: Miner I
+    published: true
     volume: 5.0
   Miner II:
     CapacitorNeed: 70.0
@@ -182,6 +191,7 @@ items:
     id: 482
     marketGroup: 1039
     name: Miner II
+    published: true
     volume: 5.0
   ORE Deep Core Mining Laser:
     CapacitorNeed: 240.0
@@ -205,6 +215,7 @@ items:
     id: 28748
     marketGroup: 1039
     name: ORE Deep Core Mining Laser
+    published: true
     volume: 5.0
   ORE Ice Mining Laser:
     CanFitShipGroup01: 1283
@@ -226,6 +237,7 @@ items:
     id: 37452
     marketGroup: 2151
     name: ORE Ice Mining Laser
+    published: true
     volume: 5.0
   ORE Miner:
     CapacitorNeed: 70.0
@@ -245,6 +257,7 @@ items:
     id: 28750
     marketGroup: 1039
     name: ORE Miner
+    published: true
     volume: 5.0
   Particle Bore Compact Mining Laser:
     CapacitorNeed: 20.0
@@ -264,6 +277,7 @@ items:
     id: 5245
     marketGroup: 1039
     name: Particle Bore Compact Mining Laser
+    published: true
     volume: 5.0
   Single Diode Basic Mining Laser:
     Cpu: 45.0
@@ -282,4 +296,5 @@ items:
     id: 5233
     marketGroup: 1039
     name: Single Diode Basic Mining Laser
+    published: true
     volume: 5.0

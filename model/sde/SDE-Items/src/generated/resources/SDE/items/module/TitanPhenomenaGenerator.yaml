@@ -30,6 +30,7 @@ items:
     id: 43658
     marketGroup: 2267
     name: Amarr Phenomena Generator
+    published: true
     volume: 8000.0
   Caldari Phenomena Generator:
     BuffDuration: 300000
@@ -62,6 +63,7 @@ items:
     id: 43660
     marketGroup: 2268
     name: Caldari Phenomena Generator
+    published: true
     volume: 8000.0
   Gallente Phenomena Generator:
     BuffDuration: 300000
@@ -95,6 +97,7 @@ items:
     id: 43662
     marketGroup: 2269
     name: Gallente Phenomena Generator
+    published: true
     volume: 8000.0
   Minmatar Phenomena Generator:
     BuffDuration: 300000
@@ -128,4 +131,5 @@ items:
     id: 43664
     marketGroup: 2270
     name: Minmatar Phenomena Generator
+    published: true
     volume: 8000.0

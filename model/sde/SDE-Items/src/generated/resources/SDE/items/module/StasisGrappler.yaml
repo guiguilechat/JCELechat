@@ -12,6 +12,7 @@ items:
     CapacitorNeed: 4.0
     Cpu: 20.0
     Duration: 2000.0
+    Falloff: 1
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -31,6 +32,7 @@ items:
     id: 41059
     marketGroup: 2154
     name: Domination Heavy Stasis Grappler
+    published: true
     volume: 50.0
   Heavy Gunnar Compact Stasis Grappler:
     CanFitShipGroup01: 27
@@ -45,6 +47,7 @@ items:
     CapacitorNeed: 4.0
     Cpu: 20.0
     Duration: 2000.0
+    Falloff: 1
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -63,6 +66,7 @@ items:
     id: 41054
     marketGroup: 2154
     name: Heavy Gunnar Compact Stasis Grappler
+    published: true
     volume: 50.0
   Heavy Jigoro Enduring Stasis Grappler:
     CanFitShipGroup01: 27
@@ -77,6 +81,7 @@ items:
     CapacitorNeed: 2.0
     Cpu: 25.0
     Duration: 2000.0
+    Falloff: 1
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -95,6 +100,7 @@ items:
     id: 41056
     marketGroup: 2154
     name: Heavy Jigoro Enduring Stasis Grappler
+    published: true
     volume: 50.0
   Heavy Karelin Scoped Stasis Grappler:
     CanFitShipGroup01: 27
@@ -109,6 +115,7 @@ items:
     CapacitorNeed: 4.0
     Cpu: 25.0
     Duration: 2000.0
+    Falloff: 1
     FalloffEffectiveness: 9000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -127,6 +134,7 @@ items:
     id: 41055
     marketGroup: 2154
     name: Heavy Karelin Scoped Stasis Grappler
+    published: true
     volume: 50.0
   Heavy Stasis Grappler I:
     CanFitShipGroup01: 27
@@ -141,6 +149,7 @@ items:
     CapacitorNeed: 4.0
     Cpu: 25.0
     Duration: 2000.0
+    Falloff: 1
     FalloffEffectiveness: 8000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -158,6 +167,7 @@ items:
     id: 41040
     marketGroup: 2154
     name: Heavy Stasis Grappler I
+    published: true
     volume: 50.0
   Heavy Stasis Grappler II:
     CanFitShipGroup01: 27
@@ -172,6 +182,7 @@ items:
     CapacitorNeed: 5.0
     Cpu: 30.0
     Duration: 2000.0
+    Falloff: 1
     FalloffEffectiveness: 10000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.0
@@ -190,6 +201,7 @@ items:
     id: 41057
     marketGroup: 2154
     name: Heavy Stasis Grappler II
+    published: true
     volume: 50.0
   Shadow Serpentis Heavy Stasis Grappler:
     CanFitShipGroup01: 27
@@ -204,6 +216,7 @@ items:
     CapacitorNeed: 4.0
     Cpu: 25.0
     Duration: 2000.0
+    Falloff: 1
     FalloffEffectiveness: 11000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -223,4 +236,5 @@ items:
     id: 41058
     marketGroup: 2154
     name: Shadow Serpentis Heavy Stasis Grappler
+    published: true
     volume: 50.0

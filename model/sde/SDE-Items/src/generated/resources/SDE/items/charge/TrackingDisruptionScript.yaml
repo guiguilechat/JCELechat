@@ -10,6 +10,7 @@ items:
     id: 29005
     marketGroup: 1094
     name: Optimal Range Disruption Script
+    published: true
     volume: 1.0
   Tracking Speed Disruption Script:
     ChargeSize: 1
@@ -22,4 +23,5 @@ items:
     id: 29007
     marketGroup: 1094
     name: Tracking Speed Disruption Script
+    published: true
     volume: 1.0

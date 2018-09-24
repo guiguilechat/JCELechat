@@ -81,6 +81,7 @@ items:
     id: 12729
     marketGroup: 631
     name: Crane
+    published: true
     volume: 195000.0
   Prorator:
     AffectedByIndustrialInvulnModule: 1
@@ -165,6 +166,7 @@ items:
     id: 12733
     marketGroup: 630
     name: Prorator
+    published: true
     volume: 200000.0
   Prowler:
     AffectedByIndustrialInvulnModule: 1
@@ -250,6 +252,7 @@ items:
     id: 12735
     marketGroup: 633
     name: Prowler
+    published: true
     volume: 180000.0
   Viator:
     AffectedByIndustrialInvulnModule: 1
@@ -334,4 +337,5 @@ items:
     id: 12743
     marketGroup: 632
     name: Viator
+    published: true
     volume: 190000.0

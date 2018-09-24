@@ -2,72 +2,90 @@ items:
   Angel Drug Addict Tag:
     id: 22203
     name: Angel Drug Addict Tag
+    published: true
     volume: 0.1
   Bandit Spur:
     id: 20477
     name: Bandit Spur
+    published: true
     volume: 0.1
   Black Box:
     id: 27276
     name: Black Box
+    published: true
     volume: 0.1
   Blood Raider Commander's Medalion:
     id: 23878
     name: Blood Raider Commander's Medalion
+    published: true
     volume: 1.0
   Desperado Spur:
     id: 20481
     name: Desperado Spur
+    published: true
     volume: 0.1
   Drifter Spur:
     id: 20476
     name: Drifter Spur
+    published: true
     volume: 0.1
   Garp Soolim's ID Tag:
     id: 22095
     name: Garp Soolim's ID Tag
+    published: true
     volume: 0.1
   Gunslinger Spur:
     id: 20480
     name: Gunslinger Spur
+    published: true
     volume: 0.1
   Hacker ID Slice:
     id: 21809
     name: Hacker ID Slice
+    published: true
     volume: 0.1
   Marauder Spur:
     id: 20478
     name: Marauder Spur
+    published: true
     volume: 0.1
   Mikado ID Slice:
     id: 21813
     name: Mikado ID Slice
+    published: true
     volume: 0.1
   Minmatar Republic Narcotic Officer's Tag:
     id: 22194
     name: Minmatar Republic Narcotic Officer's Tag
+    published: true
     volume: 0.1
   Ninja ID Slice:
     id: 21812
     name: Ninja ID Slice
+    published: true
     volume: 0.1
   Outlaw Spur:
     id: 20479
     name: Outlaw Spur
+    published: true
     volume: 0.1
   Punk ID Slice:
     id: 21808
     name: Punk ID Slice
+    published: true
     volume: 0.1
   Red Hammer's Personal Effects:
     id: 22204
     name: Red Hammer's Personal Effects
+    published: true
     volume: 10.0
   Sniper ID Slice:
     id: 21811
     name: Sniper ID Slice
+    published: true
     volume: 0.1
   Spy ID Slice:
     id: 21810
     name: Spy ID Slice
+    published: true
     volume: 0.1

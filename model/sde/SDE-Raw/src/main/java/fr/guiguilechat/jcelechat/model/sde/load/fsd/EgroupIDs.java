@@ -62,7 +62,7 @@ public class EgroupIDs {
 	public int iconID;
 
 	public String enName() {
-		return name == null || !name.containsKey("en") ? "unamed" : name.get("en");
+		return name == null || !name.containsKey("en") ? null : name.get("en");
 	}
 
 }

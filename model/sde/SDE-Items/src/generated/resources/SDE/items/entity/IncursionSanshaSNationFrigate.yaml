@@ -1,0 +1,51 @@
+items:
+  Eystur Rhomben:
+    id: 2966
+    name: Eystur Rhomben
+    published: false
+    volume: 20000.0
+  Jel Rhomben:
+    id: 3524
+    name: Jel Rhomben
+    published: false
+    volume: 20000.0
+  Niarja Myelen:
+    id: 2909
+    name: Niarja Myelen
+    published: false
+    volume: 20000.0
+  Orkashu Myelen:
+    id: 3526
+    name: Orkashu Myelen
+    published: false
+    volume: 20000.0
+  Orkashu Pontine:
+    id: 3259
+    name: Orkashu Pontine
+    published: false
+    volume: 20000.0
+  Renyn Meten:
+    id: 2190
+    name: Renyn Meten
+    published: false
+    volume: 20000.0
+  Sansha's Nation Commander:
+    id: 3492
+    name: Sansha's Nation Commander
+    published: false
+    volume: 20000.0
+  Schmaeel Medulla:
+    id: 2907
+    name: Schmaeel Medulla
+    published: false
+    volume: 20000.0
+  Tama Cerebellum:
+    id: 2939
+    name: Tama Cerebellum
+    published: false
+    volume: 20000.0
+  Youl Meten:
+    id: 3525
+    name: Youl Meten
+    published: false
+    volume: 20000.0

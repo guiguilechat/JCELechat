@@ -17,6 +17,7 @@ items:
     id: 24283
     marketGroup: 938
     name: Fighter Support Unit I
+    published: true
     volume: 4000.0
   Fighter Support Unit II:
     CanFitShipGroup01: 547
@@ -37,6 +38,7 @@ items:
     id: 41415
     marketGroup: 938
     name: Fighter Support Unit II
+    published: true
     volume: 4000.0
   Hermes Compact Fighter Support Unit:
     CanFitShipGroup01: 547
@@ -57,6 +59,7 @@ items:
     id: 41414
     marketGroup: 938
     name: Hermes Compact Fighter Support Unit
+    published: true
     volume: 4000.0
   Sentient Fighter Support Unit:
     CanFitShipGroup01: 547
@@ -78,6 +81,7 @@ items:
     id: 41417
     marketGroup: 938
     name: Sentient Fighter Support Unit
+    published: true
     volume: 2000.0
   Unit D-34343's Modified Fighter Support Unit:
     CanFitShipGroup01: 547
@@ -99,6 +103,7 @@ items:
     id: 32951
     marketGroup: 938
     name: Unit D-34343's Modified Fighter Support Unit
+    published: true
     volume: 800.0
   Unit F-435454's Modified Fighter Support Unit:
     CanFitShipGroup01: 547
@@ -120,6 +125,7 @@ items:
     id: 32953
     marketGroup: 938
     name: Unit F-435454's Modified Fighter Support Unit
+    published: true
     volume: 600.0
   Unit P-343554's Modified Fighter Support Unit:
     CanFitShipGroup01: 547
@@ -141,6 +147,7 @@ items:
     id: 32955
     marketGroup: 938
     name: Unit P-343554's Modified Fighter Support Unit
+    published: true
     volume: 400.0
   Unit W-634's Modified Fighter Support Unit:
     CanFitShipGroup01: 547
@@ -162,4 +169,5 @@ items:
     id: 32957
     marketGroup: 938
     name: Unit W-634's Modified Fighter Support Unit
+    published: true
     volume: 200.0

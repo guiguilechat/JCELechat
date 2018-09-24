@@ -27,6 +27,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 90000
     MaxVelocity: 555.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -47,6 +49,7 @@ items:
     id: 40362
     marketGroup: 1310
     name: Ametat I
+    published: true
     volume: 2000.0
   Ametat II:
     Agility: 500.0
@@ -77,6 +80,8 @@ items:
     MaxTargetRange: 100000
     MaxVelocity: 578.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -97,6 +102,7 @@ items:
     id: 40560
     marketGroup: 1310
     name: Ametat II
+    published: true
     volume: 2000.0
   Antaeus I:
     Agility: 500.0
@@ -126,6 +132,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 90000
     MaxVelocity: 476.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -146,6 +154,7 @@ items:
     id: 40364
     marketGroup: 1310
     name: Antaeus I
+    published: true
     volume: 2000.0
   Antaeus II:
     Agility: 500.0
@@ -176,6 +185,8 @@ items:
     MaxTargetRange: 100000
     MaxVelocity: 495.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -196,6 +207,7 @@ items:
     id: 40562
     marketGroup: 1310
     name: Antaeus II
+    published: true
     volume: 2000.0
   Cyclops I:
     Agility: 500.0
@@ -232,6 +244,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 45000
     MaxVelocity: 494.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -252,6 +266,7 @@ items:
     id: 32325
     marketGroup: 1310
     name: Cyclops I
+    published: true
     volume: 1800.0
   Cyclops II:
     Agility: 500.0
@@ -289,6 +304,8 @@ items:
     MaxTargetRange: 54000
     MaxVelocity: 514.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -309,6 +326,7 @@ items:
     id: 40563
     marketGroup: 1310
     name: Cyclops II
+    published: true
     volume: 1800.0
   Gungnir I:
     Agility: 500.0
@@ -338,6 +356,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 90000
     MaxVelocity: 582.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -358,6 +378,7 @@ items:
     id: 40365
     marketGroup: 1310
     name: Gungnir I
+    published: true
     volume: 2000.0
   Gungnir II:
     Agility: 500.0
@@ -388,6 +409,8 @@ items:
     MaxTargetRange: 100000
     MaxVelocity: 605.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -408,6 +431,7 @@ items:
     id: 40564
     marketGroup: 1310
     name: Gungnir II
+    published: true
     volume: 2000.0
   Malleus I:
     Agility: 500.0
@@ -444,6 +468,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 45000
     MaxVelocity: 576.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -464,6 +490,7 @@ items:
     id: 32340
     marketGroup: 1310
     name: Malleus I
+    published: true
     volume: 1800.0
   Malleus II:
     Agility: 500.0
@@ -501,6 +528,8 @@ items:
     MaxTargetRange: 54000
     MaxVelocity: 600.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -521,6 +550,7 @@ items:
     id: 40561
     marketGroup: 1310
     name: Malleus II
+    published: true
     volume: 1800.0
   Mantis I:
     Agility: 500.0
@@ -557,6 +587,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 45000
     MaxVelocity: 521.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -577,6 +609,7 @@ items:
     id: 32344
     marketGroup: 1310
     name: Mantis I
+    published: true
     volume: 1800.0
   Mantis II:
     Agility: 500.0
@@ -614,6 +647,8 @@ items:
     MaxTargetRange: 54000
     MaxVelocity: 543.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -634,6 +669,7 @@ items:
     id: 40567
     marketGroup: 1310
     name: Mantis II
+    published: true
     volume: 1800.0
   Shadow:
     Agility: 500.0
@@ -668,6 +704,8 @@ items:
     MaxVelocity: 543.0
     MetaGroupID: 4
     MetaLevel: 8
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -688,9 +726,11 @@ items:
     id: 2948
     marketGroup: 1310
     name: Shadow
+    published: true
     volume: 1800.0
   Standup Ametat I:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageEM: 835
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -701,6 +741,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 42500
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41549
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -715,6 +756,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 90000
     MaxVelocity: 1110.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 11.0
     ScanResolution: 430
     ShieldCapacity: 5472
@@ -732,9 +775,11 @@ items:
     id: 47124
     marketGroup: 2412
     name: Standup Ametat I
+    published: true
     volume: 4000.0
   Standup Ametat II:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageEM: 921
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -745,6 +790,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 51000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41549
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -760,6 +806,8 @@ items:
     MaxTargetRange: 100000
     MaxVelocity: 1156.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 12.0
     ScanResolution: 450
     ShieldCapacity: 6048
@@ -777,9 +825,11 @@ items:
     id: 47127
     marketGroup: 2412
     name: Standup Ametat II
+    published: true
     volume: 4000.0
   Standup Antaeus I:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 967
@@ -790,6 +840,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 37500
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41550
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -804,6 +855,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 90000
     MaxVelocity: 952.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 11.0
     ScanResolution: 430
     ShieldCapacity: 5472
@@ -821,9 +874,11 @@ items:
     id: 47126
     marketGroup: 2412
     name: Standup Antaeus I
+    published: true
     volume: 4000.0
   Standup Antaeus II:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 1066
@@ -834,6 +889,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 45000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41550
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -849,6 +905,8 @@ items:
     MaxTargetRange: 100000
     MaxVelocity: 990.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 12.0
     ScanResolution: 450
     ShieldCapacity: 6048
@@ -866,9 +924,11 @@ items:
     id: 47129
     marketGroup: 2412
     name: Standup Antaeus II
+    published: true
     volume: 4000.0
   Standup Cyclops I:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 1208
@@ -879,6 +939,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 5000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -900,6 +961,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 45000
     MaxVelocity: 988.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 11.0
     ScanResolution: 500
     ShieldCapacity: 5840
@@ -917,9 +980,11 @@ items:
     id: 47117
     marketGroup: 2412
     name: Standup Cyclops I
+    published: true
     volume: 3600.0
   Standup Cyclops II:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 1333
@@ -930,6 +995,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 6000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -952,6 +1018,8 @@ items:
     MaxTargetRange: 54000
     MaxVelocity: 1028.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 12.0
     ScanResolution: 520
     ShieldCapacity: 6448
@@ -969,9 +1037,11 @@ items:
     id: 47121
     marketGroup: 2412
     name: Standup Cyclops II
+    published: true
     volume: 3600.0
   Standup Gungnir I:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageExp: 789
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -982,6 +1052,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 32500
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41551
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -996,6 +1067,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 90000
     MaxVelocity: 1164.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanLadarStrength: 11.0
     ScanResolution: 430
     ShieldCapacity: 5472
@@ -1013,9 +1086,11 @@ items:
     id: 47039
     marketGroup: 2412
     name: Standup Gungnir I
+    published: true
     volume: 4000.0
   Standup Gungnir II:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageExp: 875
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1026,6 +1101,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 39000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41551
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -1041,6 +1117,8 @@ items:
     MaxTargetRange: 100000
     MaxVelocity: 1210.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanLadarStrength: 12.0
     ScanResolution: 450
     ShieldCapacity: 6048
@@ -1058,9 +1136,11 @@ items:
     id: 47130
     marketGroup: 2412
     name: Standup Gungnir II
+    published: true
     volume: 4000.0
   Standup Malleus I:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageEM: 1043
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1071,6 +1151,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 10000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1092,6 +1173,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 45000
     MaxVelocity: 1152.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 11.0
     ScanResolution: 500
     ShieldCapacity: 5840
@@ -1109,9 +1192,11 @@ items:
     id: 47116
     marketGroup: 2412
     name: Standup Malleus I
+    published: true
     volume: 3600.0
   Standup Malleus II:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageEM: 1152
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1122,6 +1207,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 12000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1144,6 +1230,8 @@ items:
     MaxTargetRange: 54000
     MaxVelocity: 1200.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 12.0
     ScanResolution: 520
     ShieldCapacity: 6448
@@ -1161,9 +1249,11 @@ items:
     id: 47119
     marketGroup: 2412
     name: Standup Malleus II
+    published: true
     volume: 3600.0
   Standup Mantis I:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageKin: 1152
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1174,6 +1264,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 5000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1195,6 +1286,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 45000
     MaxVelocity: 1042.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 11.0
     ScanResolution: 500
     ShieldCapacity: 5840
@@ -1212,9 +1305,11 @@ items:
     id: 47038
     marketGroup: 2412
     name: Standup Mantis I
+    published: true
     volume: 3600.0
   Standup Mantis II:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageKin: 1274
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1225,6 +1320,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 6000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1247,6 +1343,8 @@ items:
     MaxTargetRange: 54000
     MaxVelocity: 1086.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 12.0
     ScanResolution: 520
     ShieldCapacity: 6448
@@ -1264,6 +1362,7 @@ items:
     id: 47120
     marketGroup: 2412
     name: Standup Mantis II
+    published: true
     volume: 3600.0
   Standup Shadow:
     Agility: 500.0
@@ -1298,6 +1397,8 @@ items:
     MaxVelocity: 1086.0
     MetaGroupID: 4
     MetaLevel: 8
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 12.0
     ScanResolution: 520
     ShieldCapacity: 8800
@@ -1315,9 +1416,11 @@ items:
     id: 47123
     marketGroup: 2412
     name: Standup Shadow
+    published: true
     volume: 3600.0
   Standup Termite I:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageKin: 921
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1328,6 +1431,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 37500
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41548
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -1342,6 +1446,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 90000
     MaxVelocity: 1004.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 11.0
     ScanResolution: 430
     ShieldCapacity: 5472
@@ -1359,9 +1465,11 @@ items:
     id: 47125
     marketGroup: 2412
     name: Standup Termite I
+    published: true
     volume: 4000.0
   Standup Termite II:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageKin: 1020
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1372,6 +1480,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 45000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41548
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -1387,6 +1496,8 @@ items:
     MaxTargetRange: 100000
     MaxVelocity: 1046.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 12.0
     ScanResolution: 450
     ShieldCapacity: 6048
@@ -1404,9 +1515,11 @@ items:
     id: 47128
     marketGroup: 2412
     name: Standup Termite II
+    published: true
     volume: 4000.0
   Standup Tyrfing I:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageExp: 987
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1417,6 +1530,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 5000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1438,6 +1552,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 45000
     MaxVelocity: 1208.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanLadarStrength: 11.0
     ScanResolution: 500
     ShieldCapacity: 5840
@@ -1455,9 +1571,11 @@ items:
     id: 47118
     marketGroup: 2412
     name: Standup Tyrfing I
+    published: true
     volume: 3600.0
   Standup Tyrfing II:
     Agility: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
     FighterAbilityAttackMissileDamageExp: 1092
     FighterAbilityAttackMissileDamageMultiplier: 1
@@ -1468,6 +1586,7 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 6000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1490,6 +1609,8 @@ items:
     MaxTargetRange: 54000
     MaxVelocity: 1256.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanLadarStrength: 12.0
     ScanResolution: 520
     ShieldCapacity: 6448
@@ -1507,6 +1628,7 @@ items:
     id: 47122
     marketGroup: 2412
     name: Standup Tyrfing II
+    published: true
     volume: 3600.0
   Termite I:
     Agility: 500.0
@@ -1536,6 +1658,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 90000
     MaxVelocity: 502.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -1556,6 +1680,7 @@ items:
     id: 40363
     marketGroup: 1310
     name: Termite I
+    published: true
     volume: 2000.0
   Termite II:
     Agility: 500.0
@@ -1586,6 +1711,8 @@ items:
     MaxTargetRange: 100000
     MaxVelocity: 523.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -1606,6 +1733,7 @@ items:
     id: 40566
     marketGroup: 1310
     name: Termite II
+    published: true
     volume: 2000.0
   Tyrfing I:
     Agility: 500.0
@@ -1642,6 +1770,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 45000
     MaxVelocity: 604.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -1662,6 +1792,7 @@ items:
     id: 32342
     marketGroup: 1310
     name: Tyrfing I
+    published: true
     volume: 1800.0
   Tyrfing II:
     Agility: 500.0
@@ -1699,6 +1830,8 @@ items:
     MaxTargetRange: 54000
     MaxVelocity: 628.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 32339
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -1719,4 +1852,5 @@ items:
     id: 40565
     marketGroup: 1310
     name: Tyrfing II
+    published: true
     volume: 1800.0

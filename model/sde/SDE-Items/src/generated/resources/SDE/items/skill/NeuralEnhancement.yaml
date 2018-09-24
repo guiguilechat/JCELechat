@@ -5,10 +5,11 @@ items:
     RequiredSkill1: 24242
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 33407
     marketGroup: 1746
     name: Advanced Infomorph Psychology
+    published: true
     volume: 0.01
   Biology:
     DurationBonus: 20
@@ -16,10 +17,11 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3405
     marketGroup: 1746
     name: Biology
+    published: true
     volume: 0.01
   Cloning Facility Operation:
     MaxJumpClonesBonus: 15
@@ -29,39 +31,43 @@ items:
     RequiredSkill2: 20533
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 24606
     marketGroup: 1746
     name: Cloning Facility Operation
+    published: true
     volume: 0.01
   Cybernetics:
     PrimaryAttribute: 165
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 3411
     marketGroup: 1746
     name: Cybernetics
+    published: true
     volume: 0.01
   Infomorph Psychology:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 24242
     marketGroup: 1746
     name: Infomorph Psychology
+    published: true
     volume: 0.01
   Infomorph Synchronizing:
     PrimaryAttribute: 164
     RequiredSkill1: 24242
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 33399
     marketGroup: 1746
     name: Infomorph Synchronizing
+    published: true
     volume: 0.01
   Neurotoxin Control:
     BoosterAttributeModifier: -5
@@ -71,10 +77,11 @@ items:
     RequiredSkill2: 3405
     RequiredSkill2Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 25538
     marketGroup: 1746
     name: Neurotoxin Control
+    published: true
     volume: 0.01
   Neurotoxin Recovery:
     BoosterChanceBonus: -5
@@ -82,8 +89,9 @@ items:
     RequiredSkill1: 25538
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 5
+    SkillTimeConstant: 5.0
     id: 25530
     marketGroup: 1746
     name: Neurotoxin Recovery
+    published: true
     volume: 0.01

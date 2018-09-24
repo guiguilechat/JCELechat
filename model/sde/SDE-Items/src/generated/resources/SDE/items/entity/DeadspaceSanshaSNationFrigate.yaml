@@ -1,0 +1,171 @@
+items:
+  Centii Butcher:
+    id: 17059
+    name: Centii Butcher
+    published: false
+    volume: 21120.0
+  Centii Enslaver:
+    id: 17063
+    name: Centii Enslaver
+    published: false
+    volume: 21120.0
+  Centii Fugitive:
+    id: 17064
+    name: Centii Fugitive
+    published: false
+    volume: 20000.0
+  Centii Loyal Butcher:
+    id: 24056
+    name: Centii Loyal Butcher
+    published: false
+    volume: 21120.0
+  Centii Loyal Enslaver:
+    id: 24053
+    name: Centii Loyal Enslaver
+    published: false
+    volume: 21120.0
+  Centii Loyal Manslayer:
+    id: 24055
+    name: Centii Loyal Manslayer
+    published: false
+    volume: 21120.0
+  Centii Loyal Minion:
+    id: 17060
+    name: Centii Loyal Minion
+    published: false
+    volume: 21120.0
+  Centii Loyal Plague:
+    id: 24054
+    name: Centii Loyal Plague
+    published: false
+    volume: 21120.0
+  Centii Loyal Ravener:
+    id: 17061
+    name: Centii Loyal Ravener
+    published: false
+    volume: 21120.0
+  Centii Loyal Savage:
+    id: 24051
+    name: Centii Loyal Savage
+    published: false
+    volume: 21120.0
+  Centii Loyal Scavenger:
+    id: 17079
+    name: Centii Loyal Scavenger
+    published: false
+    volume: 21120.0
+  Centii Loyal Servant:
+    id: 17069
+    name: Centii Loyal Servant
+    published: false
+    volume: 21120.0
+  Centii Loyal Slavehunter:
+    id: 24052
+    name: Centii Loyal Slavehunter
+    published: false
+    volume: 21120.0
+  Centii Manslayer:
+    id: 17067
+    name: Centii Manslayer
+    published: false
+    volume: 21120.0
+  Centii Minion:
+    id: 17068
+    name: Centii Minion
+    published: false
+    volume: 21120.0
+  Centii Plague:
+    id: 17072
+    name: Centii Plague
+    published: false
+    volume: 21120.0
+  Centii Ravener:
+    id: 17074
+    name: Centii Ravener
+    published: false
+    volume: 20000.0
+  Centii Savage:
+    id: 17076
+    name: Centii Savage
+    published: false
+    volume: 20000.0
+  Centii Scavenger:
+    id: 17077
+    name: Centii Scavenger
+    published: false
+    volume: 20000.0
+  Centii Servant:
+    id: 17078
+    name: Centii Servant
+    published: false
+    volume: 20000.0
+  Centii Slavehunter:
+    id: 17081
+    name: Centii Slavehunter
+    published: false
+    volume: 21120.0
+  Sansha's Berserker:
+    id: 16568
+    name: Sansha's Berserker
+    published: false
+    volume: 21120.0
+  Sansha's Demon:
+    id: 16567
+    name: Sansha's Demon
+    published: false
+    volume: 21120.0
+  TestScanRadar:
+    id: 24607
+    name: TestScanRadar
+    published: false
+    volume: 24500.0
+  True Centii Butcher:
+    id: 17086
+    name: True Centii Butcher
+    published: false
+    volume: 21120.0
+  True Centii Enslaver:
+    id: 17088
+    name: True Centii Enslaver
+    published: false
+    volume: 21120.0
+  True Centii Manslayer:
+    id: 17091
+    name: True Centii Manslayer
+    published: false
+    volume: 21120.0
+  True Centii Minion:
+    id: 17092
+    name: True Centii Minion
+    published: false
+    volume: 21120.0
+  True Centii Plague:
+    id: 17097
+    name: True Centii Plague
+    published: false
+    volume: 21120.0
+  True Centii Ravener:
+    id: 17099
+    name: True Centii Ravener
+    published: false
+    volume: 20000.0
+  True Centii Savage:
+    id: 17101
+    name: True Centii Savage
+    published: false
+    volume: 20000.0
+  True Centii Scavenger:
+    id: 17102
+    name: True Centii Scavenger
+    published: false
+    volume: 20000.0
+  True Centii Servant:
+    id: 17103
+    name: True Centii Servant
+    published: false
+    volume: 20000.0
+  True Centii Slavehunter:
+    id: 17106
+    name: True Centii Slavehunter
+    published: false
+    volume: 21120.0

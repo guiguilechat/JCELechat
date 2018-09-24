@@ -24,4 +24,5 @@ items:
     id: 16221
     marketGroup: 488
     name: Moon Harvesting Array
+    published: true
     volume: 4000.0

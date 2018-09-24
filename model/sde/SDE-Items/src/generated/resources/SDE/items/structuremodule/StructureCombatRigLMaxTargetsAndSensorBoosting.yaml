@@ -21,6 +21,7 @@ items:
     id: 37260
     marketGroup: 2345
     name: Standup L-Set Target Acquisition Array I
+    published: true
     volume: 20.0
   Standup L-Set Target Acquisition Array II:
     CanFitShipGroup01: 1657
@@ -44,4 +45,5 @@ items:
     id: 37261
     marketGroup: 2345
     name: Standup L-Set Target Acquisition Array II
+    published: true
     volume: 20.0

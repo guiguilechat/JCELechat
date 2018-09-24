@@ -21,6 +21,7 @@ items:
     id: 37183
     marketGroup: 2349
     name: Standup XL-Set Laboratory Optimization I
+    published: true
     volume: 40.0
   Standup XL-Set Laboratory Optimization II:
     AttributeEngRigCostBonus: -12
@@ -44,4 +45,5 @@ items:
     id: 37182
     marketGroup: 2349
     name: Standup XL-Set Laboratory Optimization II
+    published: true
     volume: 40.0

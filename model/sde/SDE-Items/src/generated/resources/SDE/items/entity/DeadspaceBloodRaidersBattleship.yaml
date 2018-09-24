@@ -1,0 +1,106 @@
+items:
+  Corpus Apostle:
+    id: 16941
+    name: Corpus Apostle
+    published: false
+    volume: 1150000.0
+  Corpus Archbishop:
+    id: 24135
+    name: Corpus Archbishop
+    published: false
+    volume: 1150000.0
+  Corpus Archon:
+    id: 16952
+    name: Corpus Archon
+    published: false
+    volume: 1100000.0
+  Corpus Cardinal:
+    id: 24138
+    name: Corpus Cardinal
+    published: false
+    volume: 1150000.0
+  Corpus Harbinger:
+    id: 24136
+    name: Corpus Harbinger
+    published: false
+    volume: 1150000.0
+  Corpus Messiah:
+    id: 26754
+    name: Corpus Messiah
+    published: false
+    volume: 1150000.0
+  Corpus Monsignor:
+    id: 24137
+    name: Corpus Monsignor
+    published: false
+    volume: 1150000.0
+  Corpus Oracle:
+    id: 16938
+    name: Corpus Oracle
+    published: false
+    volume: 1100000.0
+  Corpus Patriarch:
+    id: 24139
+    name: Corpus Patriarch
+    published: false
+    volume: 1150000.0
+  Corpus Pope:
+    id: 24140
+    name: Corpus Pope
+    published: false
+    volume: 1150000.0
+  Corpus Prophet:
+    id: 16934
+    name: Corpus Prophet
+    published: false
+    volume: 1150000.0
+  Dark Corpus Apostle:
+    id: 16969
+    name: Dark Corpus Apostle
+    published: false
+    volume: 1150000.0
+  Dark Corpus Archbishop:
+    id: 16968
+    name: Dark Corpus Archbishop
+    published: false
+    volume: 1100000.0
+  Dark Corpus Archon:
+    id: 16978
+    name: Dark Corpus Archon
+    published: false
+    volume: 1100000.0
+  Dark Corpus Cardinal:
+    id: 24142
+    name: Dark Corpus Cardinal
+    published: false
+    volume: 1150000.0
+  Dark Corpus Harbinger:
+    id: 16970
+    name: Dark Corpus Harbinger
+    published: false
+    volume: 1150000.0
+  Dark Corpus Monsignor:
+    id: 24141
+    name: Dark Corpus Monsignor
+    published: false
+    volume: 1150000.0
+  Dark Corpus Oracle:
+    id: 16967
+    name: Dark Corpus Oracle
+    published: false
+    volume: 1100000.0
+  Dark Corpus Patriarch:
+    id: 24143
+    name: Dark Corpus Patriarch
+    published: false
+    volume: 1150000.0
+  Dark Corpus Pope:
+    id: 24144
+    name: Dark Corpus Pope
+    published: false
+    volume: 1150000.0
+  Dark Corpus Prophet:
+    id: 16965
+    name: Dark Corpus Prophet
+    published: false
+    volume: 1150000.0

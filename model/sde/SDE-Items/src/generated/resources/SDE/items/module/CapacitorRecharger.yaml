@@ -12,6 +12,7 @@ items:
     id: 421
     marketGroup: 665
     name: '''Basic'' Capacitor Recharger'
+    published: true
     volume: 5.0
   '''Palisade'' Cap Recharger I':
     CapacitorRechargeRateMultiplier: 0.800000011920929
@@ -25,6 +26,7 @@ items:
     id: 23813
     marketGroup: 665
     name: '''Palisade'' Cap Recharger I'
+    published: true
     volume: 5.0
   Ahremen's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6800000071525574
@@ -38,6 +40,7 @@ items:
     id: 21818
     marketGroup: 665
     name: Ahremen's Modified Cap Recharger
+    published: true
     volume: 5.0
   Ammatar Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
@@ -51,6 +54,7 @@ items:
     id: 15788
     marketGroup: 665
     name: Ammatar Navy Cap Recharger
+    published: true
     volume: 5.0
   Brokara's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
@@ -64,6 +68,7 @@ items:
     id: 16599
     marketGroup: 665
     name: Brokara's Modified Cap Recharger
+    published: true
     volume: 5.0
   Cap Recharger I:
     CapacitorRechargeRateMultiplier: 0.8500000238418579
@@ -75,6 +80,7 @@ items:
     id: 1195
     marketGroup: 665
     name: Cap Recharger I
+    published: true
     volume: 5.0
   Cap Recharger II:
     CapacitorRechargeRateMultiplier: 0.800000011920929
@@ -87,6 +93,7 @@ items:
     id: 2032
     marketGroup: 665
     name: Cap Recharger II
+    published: true
     volume: 5.0
   Chelm's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6399999856948853
@@ -100,6 +107,7 @@ items:
     id: 16605
     marketGroup: 665
     name: Chelm's Modified Cap Recharger
+    published: true
     volume: 5.0
   Dark Blood Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
@@ -113,6 +121,7 @@ items:
     id: 14142
     marketGroup: 665
     name: Dark Blood Cap Recharger
+    published: true
     volume: 5.0
   Draclira's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6399999856948853
@@ -126,6 +135,7 @@ items:
     id: 21819
     marketGroup: 665
     name: Draclira's Modified Cap Recharger
+    published: true
     volume: 5.0
   Eutectic Compact Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.824999988079071
@@ -138,6 +148,7 @@ items:
     id: 4435
     marketGroup: 665
     name: Eutectic Compact Cap Recharger
+    published: true
     volume: 5.0
   Imperial Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
@@ -151,6 +162,7 @@ items:
     id: 17526
     marketGroup: 665
     name: Imperial Navy Cap Recharger
+    published: true
     volume: 5.0
   Khanid Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
@@ -164,6 +176,7 @@ items:
     id: 28530
     marketGroup: 665
     name: Khanid Navy Cap Recharger
+    published: true
     volume: 5.0
   Raysere's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7200000286102295
@@ -177,6 +190,7 @@ items:
     id: 21817
     marketGroup: 665
     name: Raysere's Modified Cap Recharger
+    published: true
     volume: 5.0
   Selynne's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7200000286102295
@@ -190,6 +204,7 @@ items:
     id: 16601
     marketGroup: 665
     name: Selynne's Modified Cap Recharger
+    published: true
     volume: 5.0
   Tairei's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
@@ -203,6 +218,7 @@ items:
     id: 21816
     marketGroup: 665
     name: Tairei's Modified Cap Recharger
+    published: true
     volume: 5.0
   True Sansha Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
@@ -216,6 +232,7 @@ items:
     id: 14140
     marketGroup: 665
     name: True Sansha Cap Recharger
+    published: true
     volume: 5.0
   Vizan's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6800000071525574
@@ -229,4 +246,5 @@ items:
     id: 16603
     marketGroup: 665
     name: Vizan's Modified Cap Recharger
+    published: true
     volume: 5.0

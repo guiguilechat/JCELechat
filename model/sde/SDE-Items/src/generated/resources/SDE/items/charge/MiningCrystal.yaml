@@ -19,6 +19,7 @@ items:
     id: 18036
     marketGroup: 593
     name: Arkonor Mining Crystal I
+    published: true
     volume: 6.0
   Arkonor Mining Crystal II:
     CapNeedBonus: 50
@@ -41,6 +42,7 @@ items:
     id: 18590
     marketGroup: 593
     name: Arkonor Mining Crystal II
+    published: true
     volume: 10.0
   Bistot Mining Crystal I:
     CapNeedBonus: 45
@@ -62,6 +64,7 @@ items:
     id: 18038
     marketGroup: 593
     name: Bistot Mining Crystal I
+    published: true
     volume: 6.0
   Bistot Mining Crystal II:
     CapNeedBonus: 45
@@ -84,6 +87,7 @@ items:
     id: 18592
     marketGroup: 593
     name: Bistot Mining Crystal II
+    published: true
     volume: 10.0
   Common Moon Ore Mining Crystal I:
     CapNeedBonus: 35
@@ -105,6 +109,7 @@ items:
     id: 46365
     marketGroup: 593
     name: Common Moon Ore Mining Crystal I
+    published: true
     volume: 6.0
   Common Moon Ore Mining Crystal II:
     CapNeedBonus: 35
@@ -127,6 +132,7 @@ items:
     id: 46366
     marketGroup: 593
     name: Common Moon Ore Mining Crystal II
+    published: true
     volume: 10.0
   Crokite Mining Crystal I:
     CapNeedBonus: 35
@@ -148,6 +154,7 @@ items:
     id: 18040
     marketGroup: 593
     name: Crokite Mining Crystal I
+    published: true
     volume: 6.0
   Crokite Mining Crystal II:
     CapNeedBonus: 35
@@ -170,6 +177,7 @@ items:
     id: 18594
     marketGroup: 593
     name: Crokite Mining Crystal II
+    published: true
     volume: 10.0
   Dark Ochre Mining Crystal I:
     CapNeedBonus: 30
@@ -191,6 +199,7 @@ items:
     id: 18042
     marketGroup: 593
     name: Dark Ochre Mining Crystal I
+    published: true
     volume: 6.0
   Dark Ochre Mining Crystal II:
     CapNeedBonus: 30
@@ -213,6 +222,7 @@ items:
     id: 18596
     marketGroup: 593
     name: Dark Ochre Mining Crystal II
+    published: true
     volume: 10.0
   Exceptional Moon Ore Mining Crystal I:
     CapNeedBonus: 50
@@ -234,6 +244,7 @@ items:
     id: 46371
     marketGroup: 593
     name: Exceptional Moon Ore Mining Crystal I
+    published: true
     volume: 6.0
   Exceptional Moon Ore Mining Crystal II:
     CapNeedBonus: 50
@@ -256,6 +267,7 @@ items:
     id: 46372
     marketGroup: 593
     name: Exceptional Moon Ore Mining Crystal II
+    published: true
     volume: 10.0
   Gneiss Mining Crystal I:
     CapNeedBonus: 25
@@ -277,6 +289,7 @@ items:
     id: 18044
     marketGroup: 593
     name: Gneiss Mining Crystal I
+    published: true
     volume: 6.0
   Gneiss Mining Crystal II:
     CapNeedBonus: 25
@@ -299,6 +312,7 @@ items:
     id: 18598
     marketGroup: 593
     name: Gneiss Mining Crystal II
+    published: true
     volume: 10.0
   Hedbergite Mining Crystal I:
     CapNeedBonus: 20
@@ -320,6 +334,7 @@ items:
     id: 18046
     marketGroup: 593
     name: Hedbergite Mining Crystal I
+    published: true
     volume: 6.0
   Hedbergite Mining Crystal II:
     CapNeedBonus: 20
@@ -342,6 +357,7 @@ items:
     id: 18600
     marketGroup: 593
     name: Hedbergite Mining Crystal II
+    published: true
     volume: 10.0
   Hemorphite Mining Crystal I:
     CapNeedBonus: 15
@@ -363,6 +379,7 @@ items:
     id: 18048
     marketGroup: 593
     name: Hemorphite Mining Crystal I
+    published: true
     volume: 6.0
   Hemorphite Mining Crystal II:
     CapNeedBonus: 15
@@ -385,6 +402,7 @@ items:
     id: 18602
     marketGroup: 593
     name: Hemorphite Mining Crystal II
+    published: true
     volume: 10.0
   Jaspet Mining Crystal I:
     CapNeedBonus: 10
@@ -406,6 +424,7 @@ items:
     id: 18050
     marketGroup: 593
     name: Jaspet Mining Crystal I
+    published: true
     volume: 6.0
   Jaspet Mining Crystal II:
     CapNeedBonus: 10
@@ -428,6 +447,7 @@ items:
     id: 18604
     marketGroup: 593
     name: Jaspet Mining Crystal II
+    published: true
     volume: 10.0
   Kernite Mining Crystal I:
     CapNeedBonus: 5
@@ -449,6 +469,7 @@ items:
     id: 18052
     marketGroup: 593
     name: Kernite Mining Crystal I
+    published: true
     volume: 6.0
   Kernite Mining Crystal II:
     CapNeedBonus: 5
@@ -471,6 +492,7 @@ items:
     id: 18606
     marketGroup: 593
     name: Kernite Mining Crystal II
+    published: true
     volume: 10.0
   Omber Mining Crystal I:
     ChargeSize: 1
@@ -491,6 +513,7 @@ items:
     id: 18056
     marketGroup: 593
     name: Omber Mining Crystal I
+    published: true
     volume: 6.0
   Omber Mining Crystal II:
     ChargeSize: 1
@@ -512,6 +535,7 @@ items:
     id: 18610
     marketGroup: 593
     name: Omber Mining Crystal II
+    published: true
     volume: 10.0
   Plagioclase Mining Crystal I:
     CapNeedBonus: -5
@@ -533,6 +557,7 @@ items:
     id: 18058
     marketGroup: 593
     name: Plagioclase Mining Crystal I
+    published: true
     volume: 6.0
   Plagioclase Mining Crystal II:
     CapNeedBonus: -5
@@ -555,6 +580,7 @@ items:
     id: 18612
     marketGroup: 593
     name: Plagioclase Mining Crystal II
+    published: true
     volume: 10.0
   Pyroxeres Mining Crystal I:
     CapNeedBonus: -10
@@ -576,6 +602,7 @@ items:
     id: 18060
     marketGroup: 593
     name: Pyroxeres Mining Crystal I
+    published: true
     volume: 6.0
   Pyroxeres Mining Crystal II:
     CapNeedBonus: -10
@@ -598,6 +625,7 @@ items:
     id: 18614
     marketGroup: 593
     name: Pyroxeres Mining Crystal II
+    published: true
     volume: 10.0
   Rare Moon Ore Mining Crystal I:
     CapNeedBonus: 45
@@ -619,6 +647,7 @@ items:
     id: 46369
     marketGroup: 593
     name: Rare Moon Ore Mining Crystal I
+    published: true
     volume: 6.0
   Rare Moon Ore Mining Crystal II:
     CapNeedBonus: 45
@@ -641,6 +670,7 @@ items:
     id: 46370
     marketGroup: 593
     name: Rare Moon Ore Mining Crystal II
+    published: true
     volume: 10.0
   Scordite Mining Crystal I:
     CapNeedBonus: -15
@@ -662,6 +692,7 @@ items:
     id: 18062
     marketGroup: 593
     name: Scordite Mining Crystal I
+    published: true
     volume: 6.0
   Scordite Mining Crystal II:
     CapNeedBonus: -15
@@ -684,6 +715,7 @@ items:
     id: 18616
     marketGroup: 593
     name: Scordite Mining Crystal II
+    published: true
     volume: 10.0
   Spodumain Mining Crystal I:
     CapNeedBonus: 40
@@ -705,6 +737,7 @@ items:
     id: 18064
     marketGroup: 593
     name: Spodumain Mining Crystal I
+    published: true
     volume: 6.0
   Spodumain Mining Crystal II:
     CapNeedBonus: 40
@@ -727,6 +760,7 @@ items:
     id: 18624
     marketGroup: 593
     name: Spodumain Mining Crystal II
+    published: true
     volume: 10.0
   Ubiquitous Moon Ore Mining Crystal I:
     CapNeedBonus: 30
@@ -748,6 +782,7 @@ items:
     id: 46355
     marketGroup: 593
     name: Ubiquitous Moon Ore Mining Crystal I
+    published: true
     volume: 6.0
   Ubiquitous Moon Ore Mining Crystal II:
     CapNeedBonus: 30
@@ -770,6 +805,7 @@ items:
     id: 46356
     marketGroup: 593
     name: Ubiquitous Moon Ore Mining Crystal II
+    published: true
     volume: 10.0
   Uncommon Moon Ore Mining Crystal I:
     CapNeedBonus: 40
@@ -791,6 +827,7 @@ items:
     id: 46367
     marketGroup: 593
     name: Uncommon Moon Ore Mining Crystal I
+    published: true
     volume: 6.0
   Uncommon Moon Ore Mining Crystal II:
     CapNeedBonus: 40
@@ -813,6 +850,7 @@ items:
     id: 46368
     marketGroup: 593
     name: Uncommon Moon Ore Mining Crystal II
+    published: true
     volume: 10.0
   Veldspar Mining Crystal I:
     CapNeedBonus: -20
@@ -834,6 +872,7 @@ items:
     id: 18066
     marketGroup: 593
     name: Veldspar Mining Crystal I
+    published: true
     volume: 6.0
   Veldspar Mining Crystal II:
     CapNeedBonus: -20
@@ -856,4 +895,5 @@ items:
     id: 18618
     marketGroup: 593
     name: Veldspar Mining Crystal II
+    published: true
     volume: 10.0

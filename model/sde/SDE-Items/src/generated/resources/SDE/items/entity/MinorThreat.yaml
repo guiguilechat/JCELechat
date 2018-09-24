@@ -1,0 +1,71 @@
+items:
+  Angel Rookie:
+    id: 30369
+    name: Angel Rookie
+    published: false
+    volume: 21120.0
+  Belter Hoodlum:
+    id: 43923
+    name: Belter Hoodlum
+    published: false
+    volume: 19700.0
+  Blood Raider Rookie:
+    id: 30379
+    name: Blood Raider Rookie
+    published: false
+    volume: 28100.0
+  CloneJacker Punk:
+    id: 43922
+    name: CloneJacker Punk
+    published: false
+    volume: 19700.0
+  Clonejacker Punk:
+    id: 34579
+    name: Clonejacker Punk
+    published: false
+    volume: 19700.0
+  Damaged Vessel:
+    id: 32471
+    name: Damaged Vessel
+    published: false
+    volume: 115000.0
+  Guristas Rookie:
+    id: 30380
+    name: Guristas Rookie
+    published: false
+    volume: 15001.0
+  Insurance Teaching Drone:
+    id: 3548
+    name: Insurance Teaching Drone
+    published: false
+    volume: 20400.0
+  Mercenary Trainee:
+    id: 2052
+    name: Mercenary Trainee
+    published: false
+    volume: 19700.0
+  Narco Pusher:
+    id: 43924
+    name: Narco Pusher
+    published: false
+    volume: 19700.0
+  Rebel Leader:
+    id: 2010
+    name: Rebel Leader
+    published: false
+    volume: 21120.0
+  Runner Drone:
+    id: 30366
+    name: Runner Drone
+    published: false
+    volume: 250.0
+  Serpentis Rookie:
+    id: 30381
+    name: Serpentis Rookie
+    published: false
+    volume: 24500.0
+  Webber Drone:
+    id: 30365
+    name: Webber Drone
+    published: false
+    volume: 250.0

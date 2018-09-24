@@ -3,89 +3,107 @@ items:
     id: 41264
     marketGroup: 2155
     name: Ample Compounds
+    published: true
     volume: 0.001
   Ample Conductors:
     id: 41265
     marketGroup: 2155
     name: Ample Conductors
+    published: true
     volume: 0.001
   Ample Electronics:
     id: 41263
     marketGroup: 2155
     name: Ample Electronics
+    published: true
     volume: 0.001
   Compact Compounds:
     id: 41267
     marketGroup: 2155
     name: Compact Compounds
+    published: true
     volume: 0.001
   Compact Conductors:
     id: 41268
     marketGroup: 2155
     name: Compact Conductors
+    published: true
     volume: 0.001
   Compact Electronics:
     id: 41266
     marketGroup: 2155
     name: Compact Electronics
+    published: true
     volume: 0.001
   Enduring Compounds:
     id: 41302
     marketGroup: 2155
     name: Enduring Compounds
+    published: true
     volume: 0.001
   Enduring Conductors:
     id: 41303
     marketGroup: 2155
     name: Enduring Conductors
+    published: true
     volume: 0.001
   Enduring Electronics:
     id: 41269
     marketGroup: 2155
     name: Enduring Electronics
+    published: true
     volume: 0.001
   Precise Compounds:
     id: 41305
     marketGroup: 2155
     name: Precise Compounds
+    published: true
     volume: 0.001
   Precise Conductors:
     id: 41306
     marketGroup: 2155
     name: Precise Conductors
+    published: true
     volume: 0.001
   Precise Electronics:
     id: 41304
     marketGroup: 2155
     name: Precise Electronics
+    published: true
     volume: 0.001
   Restrained Compounds:
     id: 41308
     marketGroup: 2155
     name: Restrained Compounds
+    published: true
     volume: 0.001
   Restrained Conductors:
     id: 41309
     marketGroup: 2155
     name: Restrained Conductors
+    published: true
     volume: 0.001
   Restrained Electronics:
     id: 41307
     marketGroup: 2155
     name: Restrained Electronics
+    published: true
     volume: 0.001
   Scoped Compounds:
     id: 41311
     marketGroup: 2155
     name: Scoped Compounds
+    published: true
     volume: 0.001
   Scoped Conductors:
     id: 41312
     marketGroup: 2155
     name: Scoped Conductors
+    published: true
     volume: 0.001
   Scoped Electronics:
     id: 41310
     marketGroup: 2155
     name: Scoped Electronics
+    published: true
     volume: 0.001

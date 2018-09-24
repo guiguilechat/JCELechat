@@ -3,44 +3,53 @@ items:
     id: 30311
     marketGroup: 1860
     name: C3-FTM Acid
+    published: true
     volume: 0.2
   Carbon-86 Epoxy Resin:
     id: 30310
     marketGroup: 1860
     name: Carbon-86 Epoxy Resin
+    published: true
     volume: 0.4
   Fullerene Intercalated Graphite:
     id: 30305
     marketGroup: 1860
     name: Fullerene Intercalated Graphite
+    published: true
     volume: 0.8
   Fulleroferrocene:
     id: 30303
     marketGroup: 1860
     name: Fulleroferrocene
+    published: true
     volume: 0.1
   Graphene Nanoribbons:
     id: 30309
     marketGroup: 1860
     name: Graphene Nanoribbons
+    published: true
     volume: 1.5
   Lanthanum Metallofullerene:
     id: 30307
     marketGroup: 1860
     name: Lanthanum Metallofullerene
+    published: true
     volume: 1.0
   Methanofullerene:
     id: 30306
     marketGroup: 1860
     name: Methanofullerene
+    published: true
     volume: 0.75
   PPD Fullerene Fibers:
     id: 30304
     marketGroup: 1860
     name: PPD Fullerene Fibers
+    published: true
     volume: 0.5
   Scandium Metallofullerene:
     id: 30308
     marketGroup: 1860
     name: Scandium Metallofullerene
+    published: true
     volume: 0.65

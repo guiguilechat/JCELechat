@@ -51,6 +51,7 @@ items:
     id: 17402
     marketGroup: 595
     name: Large Blaster Battery
+    published: true
     volume: 5000.0
   Large Railgun Battery:
     AmmoCapacity: 10000
@@ -104,6 +105,7 @@ items:
     id: 16692
     marketGroup: 595
     name: Large Railgun Battery
+    published: true
     volume: 5000.0
   Medium Blaster Battery:
     AmmoCapacity: 10000
@@ -157,6 +159,7 @@ items:
     id: 17403
     marketGroup: 595
     name: Medium Blaster Battery
+    published: true
     volume: 1000.0
   Medium Railgun Battery:
     AmmoCapacity: 10000
@@ -210,6 +213,7 @@ items:
     id: 16691
     marketGroup: 595
     name: Medium Railgun Battery
+    published: true
     volume: 1000.0
   Serpentis Large Blaster Battery:
     AmmoCapacity: 10000
@@ -264,6 +268,7 @@ items:
     id: 27542
     marketGroup: 595
     name: Serpentis Large Blaster Battery
+    published: true
     volume: 5000.0
   Serpentis Large Railgun Battery:
     AmmoCapacity: 10000
@@ -318,6 +323,7 @@ items:
     id: 27545
     marketGroup: 595
     name: Serpentis Large Railgun Battery
+    published: true
     volume: 5000.0
   Serpentis Medium Blaster Battery:
     AmmoCapacity: 10000
@@ -372,6 +378,7 @@ items:
     id: 27613
     marketGroup: 595
     name: Serpentis Medium Blaster Battery
+    published: true
     volume: 1000.0
   Serpentis Medium Railgun Battery:
     AmmoCapacity: 10000
@@ -426,6 +433,7 @@ items:
     id: 27616
     marketGroup: 595
     name: Serpentis Medium Railgun Battery
+    published: true
     volume: 1000.0
   Serpentis Small Blaster Battery:
     AmmoCapacity: 10000
@@ -480,6 +488,7 @@ items:
     id: 27619
     marketGroup: 595
     name: Serpentis Small Blaster Battery
+    published: true
     volume: 500.0
   Serpentis Small Railgun Battery:
     AmmoCapacity: 10000
@@ -534,6 +543,7 @@ items:
     id: 27622
     marketGroup: 595
     name: Serpentis Small Railgun Battery
+    published: true
     volume: 500.0
   Shadow Large Blaster Battery:
     AmmoCapacity: 10000
@@ -588,6 +598,7 @@ items:
     id: 27544
     marketGroup: 595
     name: Shadow Large Blaster Battery
+    published: true
     volume: 5000.0
   Shadow Large Railgun Battery:
     AmmoCapacity: 10000
@@ -642,6 +653,7 @@ items:
     id: 27547
     marketGroup: 595
     name: Shadow Large Railgun Battery
+    published: true
     volume: 5000.0
   Shadow Medium Blaster Battery:
     AmmoCapacity: 10000
@@ -696,6 +708,7 @@ items:
     id: 27615
     marketGroup: 595
     name: Shadow Medium Blaster Battery
+    published: true
     volume: 1000.0
   Shadow Medium Railgun Battery:
     AmmoCapacity: 10000
@@ -750,6 +763,7 @@ items:
     id: 27618
     marketGroup: 595
     name: Shadow Medium Railgun Battery
+    published: true
     volume: 1000.0
   Shadow Small Blaster Battery:
     AmmoCapacity: 10000
@@ -804,6 +818,7 @@ items:
     id: 27621
     marketGroup: 595
     name: Shadow Small Blaster Battery
+    published: true
     volume: 500.0
   Shadow Small Railgun Battery:
     AmmoCapacity: 10000
@@ -858,6 +873,7 @@ items:
     id: 27624
     marketGroup: 595
     name: Shadow Small Railgun Battery
+    published: true
     volume: 500.0
   Small Blaster Battery:
     AmmoCapacity: 10000
@@ -911,6 +927,7 @@ items:
     id: 17404
     marketGroup: 595
     name: Small Blaster Battery
+    published: true
     volume: 500.0
   Small Railgun Battery:
     AmmoCapacity: 10000
@@ -964,4 +981,5 @@ items:
     id: 16690
     marketGroup: 595
     name: Small Railgun Battery
+    published: true
     volume: 500.0

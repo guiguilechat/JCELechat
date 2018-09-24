@@ -1,0 +1,161 @@
+items:
+  Angel Ambusher:
+    id: 11023
+    name: Angel Ambusher
+    published: false
+    volume: 19100.0
+  Angel Hijacker:
+    id: 10013
+    name: Angel Hijacker
+    published: false
+    volume: 21120.0
+  Angel Hunter:
+    id: 10019
+    name: Angel Hunter
+    published: false
+    volume: 19100.0
+  Angel Impaler:
+    id: 11024
+    name: Angel Impaler
+    published: false
+    volume: 16450.0
+  Angel Nomad:
+    id: 10015
+    name: Angel Nomad
+    published: false
+    volume: 17500.0
+  Angel Outlaw:
+    id: 10014
+    name: Angel Outlaw
+    published: false
+    volume: 17400.0
+  Angel Raider:
+    id: 10016
+    name: Angel Raider
+    published: false
+    volume: 16450.0
+  Angel Rogue:
+    id: 2372
+    name: Angel Rogue
+    published: false
+    volume: 22500.0
+  Angel Ruffian:
+    id: 11022
+    name: Angel Ruffian
+    published: false
+    volume: 17660.0
+  Angel Thug:
+    id: 11021
+    name: Angel Thug
+    published: false
+    volume: 26005.0
+  Angel Viper:
+    id: 16561
+    name: Angel Viper
+    published: false
+    volume: 16450.0
+  Angel Webifier:
+    id: 16562
+    name: Angel Webifier
+    published: false
+    volume: 16450.0
+  Arch Angel Ambusher:
+    id: 22834
+    name: Arch Angel Ambusher
+    published: false
+    volume: 19100.0
+  Arch Angel Hijacker:
+    id: 13035
+    name: Arch Angel Hijacker
+    published: false
+    volume: 16450.0
+  Arch Angel Hunter:
+    id: 22836
+    name: Arch Angel Hunter
+    published: false
+    volume: 19100.0
+  Arch Angel Impaler:
+    id: 22837
+    name: Arch Angel Impaler
+    published: false
+    volume: 16450.0
+  Arch Angel Nomad:
+    id: 22819
+    name: Arch Angel Nomad
+    published: false
+    volume: 17500.0
+  Arch Angel Outlaw:
+    id: 13036
+    name: Arch Angel Outlaw
+    published: false
+    volume: 16450.0
+  Arch Angel Raider:
+    id: 22835
+    name: Arch Angel Raider
+    published: false
+    volume: 16450.0
+  Arch Angel Rogue:
+    id: 13032
+    name: Arch Angel Rogue
+    published: false
+    volume: 16450.0
+  Arch Angel Ruffian:
+    id: 22818
+    name: Arch Angel Ruffian
+    published: false
+    volume: 17660.0
+  Arch Angel Thug:
+    id: 13033
+    name: Arch Angel Thug
+    published: false
+    volume: 16450.0
+  Cyber Ambusher:
+    id: 22011
+    name: Cyber Ambusher
+    published: false
+    volume: 19100.0
+  Cyber Hijacker:
+    id: 22005
+    name: Cyber Hijacker
+    published: false
+    volume: 21120.0
+  Cyber Hunter:
+    id: 22013
+    name: Cyber Hunter
+    published: false
+    volume: 19100.0
+  Cyber Impaler:
+    id: 22014
+    name: Cyber Impaler
+    published: false
+    volume: 16450.0
+  Cyber Nomad:
+    id: 22010
+    name: Cyber Nomad
+    published: false
+    volume: 17500.0
+  Cyber Outlaw:
+    id: 22007
+    name: Cyber Outlaw
+    published: false
+    volume: 17400.0
+  Cyber Raider:
+    id: 22012
+    name: Cyber Raider
+    published: false
+    volume: 16450.0
+  Cyber Rogue:
+    id: 22006
+    name: Cyber Rogue
+    published: false
+    volume: 22500.0
+  Cyber Ruffian:
+    id: 22009
+    name: Cyber Ruffian
+    published: false
+    volume: 17660.0
+  Cyber Thug:
+    id: 22008
+    name: Cyber Thug
+    published: false
+    volume: 26005.0

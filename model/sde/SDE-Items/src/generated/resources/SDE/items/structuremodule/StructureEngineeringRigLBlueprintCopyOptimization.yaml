@@ -20,6 +20,7 @@ items:
     id: 43729
     marketGroup: 2348
     name: Standup L-Set Blueprint Copy Optimization I
+    published: true
     volume: 20.0
   Standup L-Set Blueprint Copy Optimization II:
     AttributeEngRigCostBonus: -12
@@ -42,4 +43,5 @@ items:
     id: 43730
     marketGroup: 2348
     name: Standup L-Set Blueprint Copy Optimization II
+    published: true
     volume: 20.0

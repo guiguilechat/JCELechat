@@ -22,4 +22,5 @@ items:
     id: 4409
     marketGroup: 1426
     name: Target Spectrum Breaker
+    published: true
     volume: 5.0

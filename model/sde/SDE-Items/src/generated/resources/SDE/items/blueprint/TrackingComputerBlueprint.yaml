@@ -4,12 +4,14 @@ items:
     TechLevel: 1
     id: 22930
     name: '''Marketeer'' Tracking Computer Blueprint'
+    published: true
     volume: 0.01
   Federation Navy Tracking Computer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 15793
     name: Federation Navy Tracking Computer Blueprint
+    published: true
     volume: 0.01
   Tracking Computer I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -17,10 +19,12 @@ items:
     id: 11621
     marketGroup: 343
     name: Tracking Computer I Blueprint
+    published: true
     volume: 0.01
   Tracking Computer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11840
     name: Tracking Computer II Blueprint
+    published: true
     volume: 0.01

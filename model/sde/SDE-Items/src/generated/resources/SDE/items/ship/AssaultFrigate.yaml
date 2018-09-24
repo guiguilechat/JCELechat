@@ -10,6 +10,7 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 400.0
     CpuOutput: 225
+    EliteBonusEscorts: 10
     EliteBonusGunship1: -5
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -80,6 +81,7 @@ items:
     id: 32788
     marketGroup: 1623
     name: Cambion
+    published: true
     volume: 16500.0
   Enyo:
     Agility: 3.921600103378296
@@ -95,6 +97,7 @@ items:
     DroneBandwidth: 5
     DroneCapacity: 5
     EliteBonusAssaultShips1: 75
+    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 7.5
     EmDamageResonance: 0.6700000166893005
@@ -162,6 +165,7 @@ items:
     id: 12044
     marketGroup: 435
     name: Enyo
+    published: true
     volume: 29500.0
   Freki:
     Agility: 3.055999994277954
@@ -174,6 +178,7 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 350.0
     CpuOutput: 187
+    EliteBonusEscorts: 10
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
@@ -242,6 +247,7 @@ items:
     id: 32207
     marketGroup: 1623
     name: Freki
+    published: true
     volume: 27289.0
   Harpy:
     Agility: 3.6328001022338867
@@ -255,6 +261,7 @@ items:
     CapacitorCapacity: 450.0
     CpuOutput: 185
     EliteBonusAssaultShips1: 75
+    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 5.0
     EmDamageResonance: 0.6700000166893005
@@ -323,6 +330,7 @@ items:
     id: 11381
     marketGroup: 434
     name: Harpy
+    published: true
     volume: 16500.0
   Hawk:
     Agility: 3.7679998874664307
@@ -336,6 +344,7 @@ items:
     CapacitorCapacity: 406.29998779296875
     CpuOutput: 190
     EliteBonusAssaultShips1: 75
+    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 7.5
     EmDamageResonance: 0.6700000166893005
@@ -404,6 +413,7 @@ items:
     id: 11379
     marketGroup: 434
     name: Hawk
+    published: true
     volume: 16500.0
   Ishkur:
     Agility: 3.8684000968933105
@@ -419,6 +429,7 @@ items:
     DroneBandwidth: 25
     DroneCapacity: 50
     EliteBonusAssaultShips1: 75
+    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 7.5
     EmDamageResonance: 0.6700000166893005
@@ -486,6 +497,7 @@ items:
     id: 12042
     marketGroup: 435
     name: Ishkur
+    published: true
     volume: 29500.0
   Jaguar:
     Agility: 3.1760001182556152
@@ -501,6 +513,7 @@ items:
     DroneBandwidth: 10
     DroneCapacity: 20
     EliteBonusAssaultShips1: 75
+    EliteBonusEscorts: 10
     EliteBonusGunship1: 5
     EliteBonusGunship2: 5.0
     EmDamageResonance: 0.6700000166893005
@@ -569,6 +582,7 @@ items:
     id: 11400
     marketGroup: 436
     name: Jaguar
+    published: true
     volume: 27289.0
   Malice:
     Agility: 2.430000066757202
@@ -581,6 +595,7 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 612.0
     CpuOutput: 178
+    EliteBonusEscorts: 10
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
@@ -647,6 +662,7 @@ items:
     id: 3516
     marketGroup: 1623
     name: Malice
+    published: true
     volume: 28600.0
   Retribution:
     Agility: 4.127999782562256
@@ -660,6 +676,7 @@ items:
     CapacitorCapacity: 568.7999877929688
     CpuOutput: 140
     EliteBonusAssaultShips1: 75
+    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 5.0
     EmDamageResonance: 0.6700000166893005
@@ -725,6 +742,7 @@ items:
     id: 11393
     marketGroup: 433
     name: Retribution
+    published: true
     volume: 28600.0
   Utu:
     Agility: 3.4674999713897705
@@ -739,6 +757,7 @@ items:
     CpuOutput: 225
     DroneBandwidth: 25
     DroneCapacity: 75
+    EliteBonusEscorts: 10
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
@@ -804,6 +823,7 @@ items:
     id: 2834
     marketGroup: 1623
     name: Utu
+    published: true
     volume: 29500.0
   Vengeance:
     Agility: 4.263999938964844
@@ -817,6 +837,7 @@ items:
     CapacitorCapacity: 487.5
     CpuOutput: 170
     EliteBonusAssaultShips1: 75
+    EliteBonusEscorts: 10
     EliteBonusGunship1: -4
     EliteBonusGunship2: -5.0
     EmDamageResonance: 0.6700000166893005
@@ -883,6 +904,7 @@ items:
     id: 11365
     marketGroup: 433
     name: Vengeance
+    published: true
     volume: 28600.0
   Wolf:
     Agility: 3.4560000896453857
@@ -896,6 +918,7 @@ items:
     CapacitorCapacity: 357.5
     CpuOutput: 135
     EliteBonusAssaultShips1: 75
+    EliteBonusEscorts: 10
     EliteBonusGunship1: 5
     EliteBonusGunship2: 10.0
     EmDamageResonance: 0.6700000166893005
@@ -963,4 +986,5 @@ items:
     id: 11371
     marketGroup: 436
     name: Wolf
+    published: true
     volume: 27289.0

@@ -21,6 +21,7 @@ items:
     id: 4383
     marketGroup: 1650
     name: Large Micro Jump Drive
+    published: true
     volume: 10.0
   Medium Micro Jump Drive:
     CanFitShipGroup01: 1972
@@ -46,4 +47,5 @@ items:
     id: 33915
     marketGroup: 1650
     name: Medium Micro Jump Drive
+    published: true
     volume: 10.0

@@ -7,6 +7,7 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -16,6 +17,7 @@ items:
     id: 20635
     marketGroup: 1692
     name: '''Desert Heat'' Thermal Dissipation Field'
+    published: true
     volume: 5.0
   '''Nugget'' Kinetic Deflection Field':
     Duration: 10000.0
@@ -26,6 +28,7 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -34,6 +37,7 @@ items:
     id: 20633
     marketGroup: 1693
     name: '''Nugget'' Kinetic Deflection Field'
+    published: true
     volume: 5.0
   '''Poacher'' EM Ward Field':
     Duration: 10000.0
@@ -44,6 +48,7 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -52,6 +57,7 @@ items:
     id: 20639
     marketGroup: 1695
     name: '''Poacher'' EM Ward Field'
+    published: true
     volume: 5.0
   '''Posse'' Adaptive Invulnerability Field':
     CapacitorNeed: 40.0
@@ -65,6 +71,7 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -74,6 +81,7 @@ items:
     id: 20637
     marketGroup: 1696
     name: '''Posse'' Adaptive Invulnerability Field'
+    published: true
     volume: 5.0
   '''Snake Eyes'' Explosive Deflection Field':
     Duration: 10000.0
@@ -84,6 +92,7 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -92,6 +101,7 @@ items:
     id: 20641
     marketGroup: 1694
     name: '''Snake Eyes'' Explosive Deflection Field'
+    published: true
     volume: 5.0
   Adaptive Invulnerability Field I:
     CapacitorNeed: 40.0
@@ -103,6 +113,7 @@ items:
     Hp: 40
     KineticDamageResistanceBonus: -25.0
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -112,6 +123,7 @@ items:
     id: 578
     marketGroup: 1696
     name: Adaptive Invulnerability Field I
+    published: true
     volume: 20.0
   Adaptive Invulnerability Field II:
     CapacitorNeed: 32.0
@@ -124,6 +136,7 @@ items:
     KineticDamageResistanceBonus: -30.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -133,6 +146,7 @@ items:
     id: 2281
     marketGroup: 1696
     name: Adaptive Invulnerability Field II
+    published: true
     volume: 5.0
   Caldari Navy Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -146,6 +160,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -155,6 +170,7 @@ items:
     id: 17498
     marketGroup: 1696
     name: Caldari Navy Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Caldari Navy EM Ward Field:
     Duration: 12000.0
@@ -165,6 +181,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -173,6 +190,7 @@ items:
     id: 17499
     marketGroup: 1695
     name: Caldari Navy EM Ward Field
+    published: true
     volume: 5.0
   Caldari Navy Explosive Deflection Field:
     Duration: 12000.0
@@ -183,6 +201,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -191,6 +210,7 @@ items:
     id: 17496
     marketGroup: 1694
     name: Caldari Navy Explosive Deflection Field
+    published: true
     volume: 5.0
   Caldari Navy Kinetic Deflection Field:
     Duration: 12000.0
@@ -201,6 +221,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -209,6 +230,7 @@ items:
     id: 17495
     marketGroup: 1693
     name: Caldari Navy Kinetic Deflection Field
+    published: true
     volume: 5.0
   Caldari Navy Thermal Dissipation Field:
     Duration: 12000.0
@@ -218,6 +240,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -227,6 +250,7 @@ items:
     id: 17497
     marketGroup: 1692
     name: Caldari Navy Thermal Dissipation Field
+    published: true
     volume: 5.0
   Civilian EM Ward Field:
     CapacitorNeed: 25.0
@@ -237,6 +261,7 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -245,6 +270,7 @@ items:
     id: 30420
     marketGroup: 1695
     name: Civilian EM Ward Field
+    published: true
     volume: 20.0
   Civilian Explosive Deflection Field:
     CapacitorNeed: 25.0
@@ -255,6 +281,7 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -263,6 +290,7 @@ items:
     id: 30422
     marketGroup: 1694
     name: Civilian Explosive Deflection Field
+    published: true
     volume: 20.0
   Civilian Kinetic Deflection Field:
     CapacitorNeed: 25.0
@@ -273,6 +301,7 @@ items:
     Hp: 40
     KineticDamageResistanceBonus: -35.0
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -281,6 +310,7 @@ items:
     id: 30424
     marketGroup: 1693
     name: Civilian Kinetic Deflection Field
+    published: true
     volume: 20.0
   Civilian Thermal Dissipation Field:
     CapacitorNeed: 25.0
@@ -290,6 +320,7 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -299,6 +330,7 @@ items:
     id: 30342
     marketGroup: 1692
     name: Civilian Thermal Dissipation Field
+    published: true
     volume: 20.0
   Domination Adaptive Invulnerability Field:
     CapacitorNeed: 16.0
@@ -312,6 +344,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -321,6 +354,7 @@ items:
     id: 13998
     marketGroup: 1696
     name: Domination Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Domination EM Ward Field:
     Duration: 12000.0
@@ -331,6 +365,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -339,6 +374,7 @@ items:
     id: 13994
     marketGroup: 1695
     name: Domination EM Ward Field
+    published: true
     volume: 5.0
   Domination Explosive Deflection Field:
     Duration: 12000.0
@@ -349,6 +385,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -357,6 +394,7 @@ items:
     id: 13996
     marketGroup: 1694
     name: Domination Explosive Deflection Field
+    published: true
     volume: 5.0
   Domination Kinetic Deflection Field:
     Duration: 12000.0
@@ -367,6 +405,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -375,6 +414,7 @@ items:
     id: 13997
     marketGroup: 1693
     name: Domination Kinetic Deflection Field
+    published: true
     volume: 5.0
   Domination Thermal Dissipation Field:
     Duration: 12000.0
@@ -384,6 +424,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -393,6 +434,7 @@ items:
     id: 13995
     marketGroup: 1692
     name: Domination Thermal Dissipation Field
+    published: true
     volume: 5.0
   Dread Guristas Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -406,6 +448,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -415,6 +458,7 @@ items:
     id: 13969
     marketGroup: 1696
     name: Dread Guristas Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Dread Guristas EM Ward Field:
     Duration: 12000.0
@@ -425,6 +469,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -433,6 +478,7 @@ items:
     id: 13965
     marketGroup: 1695
     name: Dread Guristas EM Ward Field
+    published: true
     volume: 5.0
   Dread Guristas Explosive Deflection Field:
     Duration: 12000.0
@@ -443,6 +489,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -451,6 +498,7 @@ items:
     id: 13967
     marketGroup: 1694
     name: Dread Guristas Explosive Deflection Field
+    published: true
     volume: 5.0
   Dread Guristas Kinetic Deflection Field:
     Duration: 12000.0
@@ -461,6 +509,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -469,6 +518,7 @@ items:
     id: 13968
     marketGroup: 1693
     name: Dread Guristas Kinetic Deflection Field
+    published: true
     volume: 5.0
   Dread Guristas Thermal Dissipation Field:
     Duration: 12000.0
@@ -478,6 +528,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -487,6 +538,7 @@ items:
     id: 13966
     marketGroup: 1692
     name: Dread Guristas Thermal Dissipation Field
+    published: true
     volume: 5.0
   EM Ward Field I:
     Duration: 10000.0
@@ -495,6 +547,7 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -503,6 +556,7 @@ items:
     id: 2293
     marketGroup: 1695
     name: EM Ward Field I
+    published: true
     volume: 20.0
   EM Ward Field II:
     Duration: 10000.0
@@ -512,6 +566,7 @@ items:
     Hp: 40
     MetaLevel: 5
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -520,6 +575,7 @@ items:
     id: 2301
     marketGroup: 1695
     name: EM Ward Field II
+    published: true
     volume: 5.0
   Estamel's Modified Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -533,6 +589,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -542,6 +599,7 @@ items:
     id: 14767
     marketGroup: 1696
     name: Estamel's Modified Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Estamel's Modified EM Ward Field:
     Duration: 12000.0
@@ -552,6 +610,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -560,6 +619,7 @@ items:
     id: 14755
     marketGroup: 1695
     name: Estamel's Modified EM Ward Field
+    published: true
     volume: 5.0
   Estamel's Modified Explosive Deflection Field:
     Duration: 12000.0
@@ -570,6 +630,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -578,6 +639,7 @@ items:
     id: 14759
     marketGroup: 1694
     name: Estamel's Modified Explosive Deflection Field
+    published: true
     volume: 5.0
   Estamel's Modified Kinetic Deflection Field:
     Duration: 12000.0
@@ -588,6 +650,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -596,6 +659,7 @@ items:
     id: 14751
     marketGroup: 1693
     name: Estamel's Modified Kinetic Deflection Field
+    published: true
     volume: 5.0
   Estamel's Modified Thermal Dissipation Field:
     Duration: 12000.0
@@ -605,6 +669,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -614,6 +679,7 @@ items:
     id: 14763
     marketGroup: 1692
     name: Estamel's Modified Thermal Dissipation Field
+    published: true
     volume: 5.0
   Explosive Deflection Field I:
     Duration: 10000.0
@@ -622,6 +688,7 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -630,6 +697,7 @@ items:
     id: 2289
     marketGroup: 1694
     name: Explosive Deflection Field I
+    published: true
     volume: 20.0
   Explosive Deflection Field II:
     Duration: 10000.0
@@ -639,6 +707,7 @@ items:
     Hp: 40
     MetaLevel: 5
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -647,6 +716,7 @@ items:
     id: 2297
     marketGroup: 1694
     name: Explosive Deflection Field II
+    published: true
     volume: 5.0
   Gist A-Type EM Ward Field:
     CapacitorNeed: 18.0
@@ -658,6 +728,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -666,6 +737,7 @@ items:
     id: 19279
     marketGroup: 1695
     name: Gist A-Type EM Ward Field
+    published: true
     volume: 5.0
   Gist A-Type Explosive Deflection Field:
     CapacitorNeed: 18.0
@@ -677,6 +749,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -685,6 +758,7 @@ items:
     id: 19275
     marketGroup: 1694
     name: Gist A-Type Explosive Deflection Field
+    published: true
     volume: 5.0
   Gist A-Type Kinetic Deflection Field:
     CapacitorNeed: 18.0
@@ -696,6 +770,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -704,6 +779,7 @@ items:
     id: 19273
     marketGroup: 1693
     name: Gist A-Type Kinetic Deflection Field
+    published: true
     volume: 5.0
   Gist A-Type Thermal Dissipation Field:
     CapacitorNeed: 18.0
@@ -714,6 +790,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -723,6 +800,7 @@ items:
     id: 19277
     marketGroup: 1692
     name: Gist A-Type Thermal Dissipation Field
+    published: true
     volume: 5.0
   Gist B-Type EM Ward Field:
     CapacitorNeed: 17.0
@@ -734,6 +812,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -742,6 +821,7 @@ items:
     id: 19265
     marketGroup: 1695
     name: Gist B-Type EM Ward Field
+    published: true
     volume: 5.0
   Gist B-Type Explosive Deflection Field:
     CapacitorNeed: 17.0
@@ -753,6 +833,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -761,6 +842,7 @@ items:
     id: 19269
     marketGroup: 1694
     name: Gist B-Type Explosive Deflection Field
+    published: true
     volume: 5.0
   Gist B-Type Kinetic Deflection Field:
     CapacitorNeed: 17.0
@@ -772,6 +854,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -780,6 +863,7 @@ items:
     id: 19271
     marketGroup: 1693
     name: Gist B-Type Kinetic Deflection Field
+    published: true
     volume: 5.0
   Gist B-Type Thermal Dissipation Field:
     CapacitorNeed: 17.0
@@ -790,6 +874,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -799,6 +884,7 @@ items:
     id: 19267
     marketGroup: 1692
     name: Gist B-Type Thermal Dissipation Field
+    published: true
     volume: 5.0
   Gist C-Type EM Ward Field:
     CapacitorNeed: 16.0
@@ -810,6 +896,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -818,6 +905,7 @@ items:
     id: 19263
     marketGroup: 1695
     name: Gist C-Type EM Ward Field
+    published: true
     volume: 5.0
   Gist C-Type Explosive Deflection Field:
     CapacitorNeed: 16.0
@@ -829,6 +917,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -837,6 +926,7 @@ items:
     id: 19259
     marketGroup: 1694
     name: Gist C-Type Explosive Deflection Field
+    published: true
     volume: 5.0
   Gist C-Type Kinetic Deflection Field:
     CapacitorNeed: 16.0
@@ -848,6 +938,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -856,6 +947,7 @@ items:
     id: 19257
     marketGroup: 1693
     name: Gist C-Type Kinetic Deflection Field
+    published: true
     volume: 5.0
   Gist C-Type Thermal Dissipation Field:
     CapacitorNeed: 16.0
@@ -866,6 +958,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -875,6 +968,7 @@ items:
     id: 19261
     marketGroup: 1692
     name: Gist C-Type Thermal Dissipation Field
+    published: true
     volume: 5.0
   Gist X-Type EM Ward Field:
     CapacitorNeed: 19.0
@@ -886,6 +980,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -894,6 +989,7 @@ items:
     id: 19281
     marketGroup: 1695
     name: Gist X-Type EM Ward Field
+    published: true
     volume: 5.0
   Gist X-Type Explosive Deflection Field:
     CapacitorNeed: 19.0
@@ -905,6 +1001,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -913,6 +1010,7 @@ items:
     id: 19285
     marketGroup: 1694
     name: Gist X-Type Explosive Deflection Field
+    published: true
     volume: 5.0
   Gist X-Type Kinetic Deflection Field:
     CapacitorNeed: 19.0
@@ -924,6 +1022,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -932,6 +1031,7 @@ items:
     id: 19287
     marketGroup: 1693
     name: Gist X-Type Kinetic Deflection Field
+    published: true
     volume: 5.0
   Gist X-Type Thermal Dissipation Field:
     CapacitorNeed: 19.0
@@ -942,6 +1042,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -951,6 +1052,7 @@ items:
     id: 19283
     marketGroup: 1692
     name: Gist X-Type Thermal Dissipation Field
+    published: true
     volume: 5.0
   Gistum A-Type Adaptive Invulnerability Field:
     CapacitorNeed: 36.0
@@ -965,6 +1067,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -974,6 +1077,7 @@ items:
     id: 4346
     marketGroup: 1696
     name: Gistum A-Type Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Gistum B-Type Adaptive Invulnerability Field:
     CapacitorNeed: 34.0
@@ -988,6 +1092,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -997,6 +1102,7 @@ items:
     id: 4345
     marketGroup: 1696
     name: Gistum B-Type Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Gistum C-Type Adaptive Invulnerability Field:
     CapacitorNeed: 32.0
@@ -1011,6 +1117,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1020,6 +1127,7 @@ items:
     id: 2050
     marketGroup: 1696
     name: Gistum C-Type Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Kaikka's Modified Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -1033,6 +1141,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1042,6 +1151,7 @@ items:
     id: 14764
     marketGroup: 1696
     name: Kaikka's Modified Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Kaikka's Modified EM Ward Field:
     Duration: 12000.0
@@ -1052,6 +1162,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1060,6 +1171,7 @@ items:
     id: 14752
     marketGroup: 1695
     name: Kaikka's Modified EM Ward Field
+    published: true
     volume: 5.0
   Kaikka's Modified Explosive Deflection Field:
     Duration: 12000.0
@@ -1070,6 +1182,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1078,6 +1191,7 @@ items:
     id: 14756
     marketGroup: 1694
     name: Kaikka's Modified Explosive Deflection Field
+    published: true
     volume: 5.0
   Kaikka's Modified Kinetic Deflection Field:
     Duration: 12000.0
@@ -1088,6 +1202,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1096,6 +1211,7 @@ items:
     id: 14748
     marketGroup: 1693
     name: Kaikka's Modified Kinetic Deflection Field
+    published: true
     volume: 5.0
   Kaikka's Modified Thermal Dissipation Field:
     Duration: 12000.0
@@ -1105,6 +1221,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1114,6 +1231,7 @@ items:
     id: 14760
     marketGroup: 1692
     name: Kaikka's Modified Thermal Dissipation Field
+    published: true
     volume: 5.0
   Kinetic Deflection Field I:
     Duration: 10000.0
@@ -1122,6 +1240,7 @@ items:
     Hp: 40
     KineticDamageResistanceBonus: -50.0
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1130,6 +1249,7 @@ items:
     id: 2291
     marketGroup: 1693
     name: Kinetic Deflection Field I
+    published: true
     volume: 20.0
   Kinetic Deflection Field II:
     Duration: 10000.0
@@ -1139,6 +1259,7 @@ items:
     KineticDamageResistanceBonus: -55.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -1147,6 +1268,7 @@ items:
     id: 2299
     marketGroup: 1693
     name: Kinetic Deflection Field II
+    published: true
     volume: 5.0
   Limited 'Anointed' EM Ward Field:
     Duration: 12000.0
@@ -1156,6 +1278,7 @@ items:
     Hp: 40
     MetaLevel: 2
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1164,6 +1287,7 @@ items:
     id: 9622
     marketGroup: 1695
     name: Limited 'Anointed' EM Ward Field
+    published: true
     volume: 5.0
   Limited Adaptive Invulnerability Field I:
     CapacitorNeed: 40.0
@@ -1176,6 +1300,7 @@ items:
     KineticDamageResistanceBonus: -25.0
     MetaLevel: 2
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1185,6 +1310,7 @@ items:
     id: 9632
     marketGroup: 1696
     name: Limited Adaptive Invulnerability Field I
+    published: true
     volume: 5.0
   Limited Explosive Deflection Field I:
     Duration: 12000.0
@@ -1194,6 +1320,7 @@ items:
     Hp: 40
     MetaLevel: 2
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1202,6 +1329,7 @@ items:
     id: 9646
     marketGroup: 1694
     name: Limited Explosive Deflection Field I
+    published: true
     volume: 5.0
   Limited Kinetic Deflection Field I:
     Duration: 12000.0
@@ -1211,6 +1339,7 @@ items:
     KineticDamageResistanceBonus: -50.0
     MetaLevel: 2
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1219,6 +1348,7 @@ items:
     id: 9608
     marketGroup: 1693
     name: Limited Kinetic Deflection Field I
+    published: true
     volume: 5.0
   Limited Thermal Dissipation Field I:
     Duration: 12000.0
@@ -1227,6 +1357,7 @@ items:
     Hp: 40
     MetaLevel: 2
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1236,6 +1367,7 @@ items:
     id: 9660
     marketGroup: 1692
     name: Limited Thermal Dissipation Field I
+    published: true
     volume: 5.0
   Pith A-Type EM Ward Field:
     Duration: 12000.0
@@ -1246,6 +1378,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1254,6 +1387,7 @@ items:
     id: 19280
     marketGroup: 1695
     name: Pith A-Type EM Ward Field
+    published: true
     volume: 5.0
   Pith A-Type Explosive Deflection Field:
     Duration: 12000.0
@@ -1264,6 +1398,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1272,6 +1407,7 @@ items:
     id: 19276
     marketGroup: 1694
     name: Pith A-Type Explosive Deflection Field
+    published: true
     volume: 5.0
   Pith A-Type Kinetic Deflection Field:
     Duration: 12000.0
@@ -1282,6 +1418,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1290,6 +1427,7 @@ items:
     id: 19274
     marketGroup: 1693
     name: Pith A-Type Kinetic Deflection Field
+    published: true
     volume: 5.0
   Pith A-Type Thermal Dissipation Field:
     Duration: 12000.0
@@ -1299,6 +1437,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1308,6 +1447,7 @@ items:
     id: 19278
     marketGroup: 1692
     name: Pith A-Type Thermal Dissipation Field
+    published: true
     volume: 5.0
   Pith B-Type EM Ward Field:
     Duration: 12000.0
@@ -1318,6 +1458,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1326,6 +1467,7 @@ items:
     id: 19266
     marketGroup: 1695
     name: Pith B-Type EM Ward Field
+    published: true
     volume: 5.0
   Pith B-Type Explosive Deflection Field:
     Duration: 12000.0
@@ -1336,6 +1478,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1344,6 +1487,7 @@ items:
     id: 19270
     marketGroup: 1694
     name: Pith B-Type Explosive Deflection Field
+    published: true
     volume: 5.0
   Pith B-Type Kinetic Deflection Field:
     Duration: 12000.0
@@ -1354,6 +1498,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1362,6 +1507,7 @@ items:
     id: 19272
     marketGroup: 1693
     name: Pith B-Type Kinetic Deflection Field
+    published: true
     volume: 5.0
   Pith B-Type Thermal Dissipation Field:
     Duration: 12000.0
@@ -1371,6 +1517,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1380,6 +1527,7 @@ items:
     id: 19268
     marketGroup: 1692
     name: Pith B-Type Thermal Dissipation Field
+    published: true
     volume: 5.0
   Pith C-Type EM Ward Field:
     Duration: 12000.0
@@ -1390,6 +1538,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1398,6 +1547,7 @@ items:
     id: 19264
     marketGroup: 1695
     name: Pith C-Type EM Ward Field
+    published: true
     volume: 5.0
   Pith C-Type Explosive Deflection Field:
     Duration: 12000.0
@@ -1408,6 +1558,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1416,6 +1567,7 @@ items:
     id: 19260
     marketGroup: 1694
     name: Pith C-Type Explosive Deflection Field
+    published: true
     volume: 5.0
   Pith C-Type Kinetic Deflection Field:
     Duration: 12000.0
@@ -1426,6 +1578,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1434,6 +1587,7 @@ items:
     id: 19258
     marketGroup: 1693
     name: Pith C-Type Kinetic Deflection Field
+    published: true
     volume: 5.0
   Pith C-Type Thermal Dissipation Field:
     Duration: 12000.0
@@ -1443,6 +1597,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1452,6 +1607,7 @@ items:
     id: 19262
     marketGroup: 1692
     name: Pith C-Type Thermal Dissipation Field
+    published: true
     volume: 5.0
   Pith X-Type EM Ward Field:
     Duration: 12000.0
@@ -1462,6 +1618,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1470,6 +1627,7 @@ items:
     id: 19282
     marketGroup: 1695
     name: Pith X-Type EM Ward Field
+    published: true
     volume: 5.0
   Pith X-Type Explosive Deflection Field:
     Duration: 12000.0
@@ -1480,6 +1638,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1488,6 +1647,7 @@ items:
     id: 19286
     marketGroup: 1694
     name: Pith X-Type Explosive Deflection Field
+    published: true
     volume: 5.0
   Pith X-Type Kinetic Deflection Field:
     Duration: 12000.0
@@ -1498,6 +1658,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1506,6 +1667,7 @@ items:
     id: 19288
     marketGroup: 1693
     name: Pith X-Type Kinetic Deflection Field
+    published: true
     volume: 5.0
   Pith X-Type Thermal Dissipation Field:
     Duration: 12000.0
@@ -1515,6 +1677,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1524,6 +1687,7 @@ items:
     id: 19284
     marketGroup: 1692
     name: Pith X-Type Thermal Dissipation Field
+    published: true
     volume: 5.0
   Pithum A-Type Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -1538,6 +1702,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1547,6 +1712,7 @@ items:
     id: 4347
     marketGroup: 1696
     name: Pithum A-Type Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Pithum B-Type Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -1561,6 +1727,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1570,6 +1737,7 @@ items:
     id: 4348
     marketGroup: 1696
     name: Pithum B-Type Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Pithum C-Type Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -1584,6 +1752,7 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1593,6 +1762,7 @@ items:
     id: 4349
     marketGroup: 1696
     name: Pithum C-Type Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Thermal Dissipation Field I:
     Duration: 10000.0
@@ -1600,6 +1770,7 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1609,6 +1780,7 @@ items:
     id: 2295
     marketGroup: 1692
     name: Thermal Dissipation Field I
+    published: true
     volume: 20.0
   Thermal Dissipation Field II:
     Duration: 10000.0
@@ -1617,6 +1789,7 @@ items:
     Hp: 40
     MetaLevel: 5
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -1626,6 +1799,7 @@ items:
     id: 2303
     marketGroup: 1692
     name: Thermal Dissipation Field II
+    published: true
     volume: 5.0
   Thon's Modified Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -1639,6 +1813,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1648,6 +1823,7 @@ items:
     id: 14765
     marketGroup: 1696
     name: Thon's Modified Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Thon's Modified EM Ward Field:
     Duration: 12000.0
@@ -1658,6 +1834,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1666,6 +1843,7 @@ items:
     id: 14753
     marketGroup: 1695
     name: Thon's Modified EM Ward Field
+    published: true
     volume: 5.0
   Thon's Modified Explosive Deflection Field:
     Duration: 12000.0
@@ -1676,6 +1854,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1684,6 +1863,7 @@ items:
     id: 14757
     marketGroup: 1694
     name: Thon's Modified Explosive Deflection Field
+    published: true
     volume: 5.0
   Thon's Modified Kinetic Deflection Field:
     Duration: 12000.0
@@ -1694,6 +1874,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1702,6 +1883,7 @@ items:
     id: 14749
     marketGroup: 1693
     name: Thon's Modified Kinetic Deflection Field
+    published: true
     volume: 5.0
   Thon's Modified Thermal Dissipation Field:
     Duration: 12000.0
@@ -1711,6 +1893,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1720,6 +1903,7 @@ items:
     id: 14761
     marketGroup: 1692
     name: Thon's Modified Thermal Dissipation Field
+    published: true
     volume: 5.0
   Vepas's Modified Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
@@ -1733,6 +1917,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1742,6 +1927,7 @@ items:
     id: 14766
     marketGroup: 1696
     name: Vepas's Modified Adaptive Invulnerability Field
+    published: true
     volume: 5.0
   Vepas's Modified EM Ward Field:
     Duration: 12000.0
@@ -1752,6 +1938,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1760,6 +1947,7 @@ items:
     id: 14754
     marketGroup: 1695
     name: Vepas's Modified EM Ward Field
+    published: true
     volume: 5.0
   Vepas's Modified Explosive Deflection Field:
     Duration: 12000.0
@@ -1770,6 +1958,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1778,6 +1967,7 @@ items:
     id: 14758
     marketGroup: 1694
     name: Vepas's Modified Explosive Deflection Field
+    published: true
     volume: 5.0
   Vepas's Modified Kinetic Deflection Field:
     Duration: 12000.0
@@ -1788,6 +1978,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1796,6 +1987,7 @@ items:
     id: 14750
     marketGroup: 1693
     name: Vepas's Modified Kinetic Deflection Field
+    published: true
     volume: 5.0
   Vepas's Modified Thermal Dissipation Field:
     Duration: 12000.0
@@ -1805,6 +1997,7 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
+    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1814,4 +2007,5 @@ items:
     id: 14762
     marketGroup: 1692
     name: Vepas's Modified Thermal Dissipation Field
+    published: true
     volume: 5.0

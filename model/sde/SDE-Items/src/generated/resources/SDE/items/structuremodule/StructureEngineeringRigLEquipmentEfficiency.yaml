@@ -1,5 +1,6 @@
 items:
   Standup L-Set Equipment Manufacturing Efficiency I:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.0
     AttributeEngRigTimeBonus: -20
     CanFitShipGroup01: 1657
@@ -22,8 +23,10 @@ items:
     id: 37170
     marketGroup: 2348
     name: Standup L-Set Equipment Manufacturing Efficiency I
+    published: true
     volume: 20.0
   Standup L-Set Equipment Manufacturing Efficiency II:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
@@ -46,4 +49,5 @@ items:
     id: 37171
     marketGroup: 2348
     name: Standup L-Set Equipment Manufacturing Efficiency II
+    published: true
     volume: 20.0

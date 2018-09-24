@@ -28,6 +28,7 @@ items:
     id: 24494
     marketGroup: 972
     name: Inferno Javelin Heavy Assault Missile
+    published: true
     volume: 0.015
   Inferno Rage Heavy Assault Missile:
     Agility: 67.54669189453125
@@ -58,6 +59,7 @@ items:
     id: 24486
     marketGroup: 973
     name: Inferno Rage Heavy Assault Missile
+    published: true
     volume: 0.015
   Mjolnir Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
@@ -88,6 +90,7 @@ items:
     id: 24493
     marketGroup: 972
     name: Mjolnir Javelin Heavy Assault Missile
+    published: true
     volume: 0.015
   Mjolnir Rage Heavy Assault Missile:
     Agility: 67.54669189453125
@@ -118,6 +121,7 @@ items:
     id: 24490
     marketGroup: 973
     name: Mjolnir Rage Heavy Assault Missile
+    published: true
     volume: 0.015
   Nova Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
@@ -148,6 +152,7 @@ items:
     id: 13856
     marketGroup: 972
     name: Nova Javelin Heavy Assault Missile
+    published: true
     volume: 0.015
   Nova Rage Heavy Assault Missile:
     Agility: 67.54669189453125
@@ -178,6 +183,7 @@ items:
     id: 24488
     marketGroup: 973
     name: Nova Rage Heavy Assault Missile
+    published: true
     volume: 0.015
   Scourge Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
@@ -208,6 +214,7 @@ items:
     id: 24492
     marketGroup: 972
     name: Scourge Javelin Heavy Assault Missile
+    published: true
     volume: 0.015
   Scourge Rage Heavy Assault Missile:
     Agility: 67.54669189453125
@@ -238,4 +245,5 @@ items:
     id: 2679
     marketGroup: 973
     name: Scourge Rage Heavy Assault Missile
+    published: true
     volume: 0.015

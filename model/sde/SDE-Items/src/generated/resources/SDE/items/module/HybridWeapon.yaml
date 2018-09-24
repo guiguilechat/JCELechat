@@ -31,6 +31,7 @@ items:
     id: 22899
     marketGroup: 561
     name: '''Corporate'' Light Electron Blaster I'
+    published: true
     volume: 5.0
   '''Dealer'' Light Ion Blaster I':
     CapacitorNeed: 1.0927000045776367
@@ -64,6 +65,7 @@ items:
     id: 22901
     marketGroup: 561
     name: '''Dealer'' Light Ion Blaster I'
+    published: true
     volume: 5.0
   '''Felon'' Ion Blaster Cannon I':
     CapacitorNeed: 9.800000190734863
@@ -97,6 +99,7 @@ items:
     id: 22913
     marketGroup: 563
     name: '''Felon'' Ion Blaster Cannon I'
+    published: true
     volume: 20.0
   '''Hooligan'' Heavy Ion Blaster I':
     CapacitorNeed: 3.2683000564575195
@@ -130,6 +133,7 @@ items:
     id: 22907
     marketGroup: 562
     name: '''Hooligan'' Heavy Ion Blaster I'
+    published: true
     volume: 10.0
   '''Hustler'' Heavy Neutron Blaster I':
     CapacitorNeed: 4.248300075531006
@@ -163,6 +167,7 @@ items:
     id: 22909
     marketGroup: 562
     name: '''Hustler'' Heavy Neutron Blaster I'
+    published: true
     volume: 10.0
   '''Racket'' Light Neutron Blaster I':
     CapacitorNeed: 1.416100025177002
@@ -196,6 +201,7 @@ items:
     id: 22903
     marketGroup: 561
     name: '''Racket'' Light Neutron Blaster I'
+    published: true
     volume: 5.0
   '''Slither'' Heavy Electron Blaster I':
     CapacitorNeed: 1.9600000381469727
@@ -229,6 +235,7 @@ items:
     id: 22905
     marketGroup: 562
     name: '''Slither'' Heavy Electron Blaster I'
+    published: true
     volume: 10.0
   '''Swindler'' Electron Blaster Cannon I':
     CapacitorNeed: 5.880000114440918
@@ -262,6 +269,7 @@ items:
     id: 22911
     marketGroup: 563
     name: '''Swindler'' Electron Blaster Cannon I'
+    published: true
     volume: 20.0
   '''Underhand'' Neutron Blaster Cannon I':
     CapacitorNeed: 12.739999771118164
@@ -295,6 +303,7 @@ items:
     id: 22915
     marketGroup: 563
     name: '''Underhand'' Neutron Blaster Cannon I'
+    published: true
     volume: 20.0
   125mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 1.3509999513626099
@@ -327,6 +336,7 @@ items:
     id: 10688
     marketGroup: 564
     name: 125mm 'Scout' Accelerator Cannon
+    published: true
     volume: 5.0
   125mm Carbide Railgun I:
     CapacitorNeed: 1.4279999732971191
@@ -359,6 +369,7 @@ items:
     id: 10690
     marketGroup: 564
     name: 125mm Carbide Railgun I
+    published: true
     volume: 5.0
   125mm Compressed Coil Gun I:
     CapacitorNeed: 1.281000018119812
@@ -391,6 +402,7 @@ items:
     id: 10692
     marketGroup: 564
     name: 125mm Compressed Coil Gun I
+    published: true
     volume: 5.0
   125mm Prototype Gauss Gun:
     CapacitorNeed: 1.2039999961853027
@@ -423,6 +435,7 @@ items:
     id: 10694
     marketGroup: 564
     name: 125mm Prototype Gauss Gun
+    published: true
     volume: 5.0
   125mm Railgun I:
     CapacitorNeed: 1.5049999952316284
@@ -454,6 +467,7 @@ items:
     id: 10678
     marketGroup: 564
     name: 125mm Railgun I
+    published: true
     volume: 5.0
   125mm Railgun II:
     CapacitorNeed: 1.5049999952316284
@@ -489,6 +503,7 @@ items:
     id: 10680
     marketGroup: 564
     name: 125mm Railgun II
+    published: true
     volume: 5.0
   150mm 'Musket' Railgun:
     CapacitorNeed: 2.0999999046325684
@@ -522,6 +537,7 @@ items:
     id: 20587
     marketGroup: 564
     name: 150mm 'Musket' Railgun
+    published: true
     volume: 5.0
   150mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 2.0999999046325684
@@ -554,6 +570,7 @@ items:
     id: 7289
     marketGroup: 564
     name: 150mm 'Scout' Accelerator Cannon
+    published: true
     volume: 5.0
   150mm Carbide Railgun I:
     CapacitorNeed: 2.2190001010894775
@@ -586,6 +603,7 @@ items:
     id: 7291
     marketGroup: 564
     name: 150mm Carbide Railgun I
+    published: true
     volume: 5.0
   150mm Compressed Coil Gun I:
     CapacitorNeed: 1.9880000352859497
@@ -618,6 +636,7 @@ items:
     id: 7293
     marketGroup: 564
     name: 150mm Compressed Coil Gun I
+    published: true
     volume: 5.0
   150mm Prototype Gauss Gun:
     CapacitorNeed: 1.86899995803833
@@ -650,6 +669,7 @@ items:
     id: 7287
     marketGroup: 564
     name: 150mm Prototype Gauss Gun
+    published: true
     volume: 5.0
   150mm Railgun I:
     CapacitorNeed: 2.3380000591278076
@@ -681,6 +701,7 @@ items:
     id: 565
     marketGroup: 564
     name: 150mm Railgun I
+    published: true
     volume: 5.0
   150mm Railgun II:
     CapacitorNeed: 2.3380000591278076
@@ -716,6 +737,7 @@ items:
     id: 3074
     marketGroup: 564
     name: 150mm Railgun II
+    published: true
     volume: 5.0
   200mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 4.066999912261963
@@ -748,6 +770,7 @@ items:
     id: 14274
     marketGroup: 565
     name: 200mm 'Scout' Accelerator Cannon
+    published: true
     volume: 10.0
   200mm Carbide Railgun I:
     CapacitorNeed: 4.290999889373779
@@ -780,6 +803,7 @@ items:
     id: 14272
     marketGroup: 565
     name: 200mm Carbide Railgun I
+    published: true
     volume: 10.0
   200mm Compressed Coil Gun I:
     CapacitorNeed: 3.8359999656677246
@@ -812,6 +836,7 @@ items:
     id: 14276
     marketGroup: 565
     name: 200mm Compressed Coil Gun I
+    published: true
     volume: 10.0
   200mm Prototype Gauss Gun:
     CapacitorNeed: 3.611999988555908
@@ -844,6 +869,7 @@ items:
     id: 14278
     marketGroup: 565
     name: 200mm Prototype Gauss Gun
+    published: true
     volume: 10.0
   200mm Railgun I:
     CapacitorNeed: 4.514999866485596
@@ -875,6 +901,7 @@ items:
     id: 12344
     marketGroup: 565
     name: 200mm Railgun I
+    published: true
     volume: 10.0
   200mm Railgun II:
     CapacitorNeed: 4.514999866485596
@@ -910,6 +937,7 @@ items:
     id: 12346
     marketGroup: 565
     name: 200mm Railgun II
+    published: true
     volume: 10.0
   250mm 'Flintlock' Railgun:
     CapacitorNeed: 6.300000190734863
@@ -943,6 +971,7 @@ items:
     id: 20589
     marketGroup: 565
     name: 250mm 'Flintlock' Railgun
+    published: true
     volume: 10.0
   250mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 6.300000190734863
@@ -975,6 +1004,7 @@ items:
     id: 7369
     marketGroup: 565
     name: 250mm 'Scout' Accelerator Cannon
+    published: true
     volume: 10.0
   250mm Carbide Railgun I:
     CapacitorNeed: 6.650000095367432
@@ -1007,6 +1037,7 @@ items:
     id: 7371
     marketGroup: 565
     name: 250mm Carbide Railgun I
+    published: true
     volume: 10.0
   250mm Compressed Coil Gun I:
     CapacitorNeed: 5.949999809265137
@@ -1039,6 +1070,7 @@ items:
     id: 7373
     marketGroup: 565
     name: 250mm Compressed Coil Gun I
+    published: true
     volume: 10.0
   250mm Prototype Gauss Gun:
     CapacitorNeed: 5.599999904632568
@@ -1071,6 +1103,7 @@ items:
     id: 7367
     marketGroup: 565
     name: 250mm Prototype Gauss Gun
+    published: true
     volume: 10.0
   250mm Railgun I:
     CapacitorNeed: 7.0
@@ -1102,6 +1135,7 @@ items:
     id: 570
     marketGroup: 565
     name: 250mm Railgun I
+    published: true
     volume: 25.0
   250mm Railgun II:
     CapacitorNeed: 7.0
@@ -1137,6 +1171,7 @@ items:
     id: 3082
     marketGroup: 565
     name: 250mm Railgun II
+    published: true
     volume: 10.0
   350mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 13.859999656677246
@@ -1169,6 +1204,7 @@ items:
     id: 14282
     marketGroup: 566
     name: 350mm 'Scout' Accelerator Cannon
+    published: true
     volume: 20.0
   350mm Carbide Railgun I:
     CapacitorNeed: 14.630000114440918
@@ -1201,6 +1237,7 @@ items:
     id: 14280
     marketGroup: 566
     name: 350mm Carbide Railgun I
+    published: true
     volume: 20.0
   350mm Compressed Coil Gun I:
     CapacitorNeed: 13.09000015258789
@@ -1233,6 +1270,7 @@ items:
     id: 14284
     marketGroup: 566
     name: 350mm Compressed Coil Gun I
+    published: true
     volume: 20.0
   350mm Prototype Gauss Gun:
     CapacitorNeed: 12.319999694824219
@@ -1265,6 +1303,7 @@ items:
     id: 14286
     marketGroup: 566
     name: 350mm Prototype Gauss Gun
+    published: true
     volume: 20.0
   350mm Railgun I:
     CapacitorNeed: 15.399999618530273
@@ -1296,6 +1335,7 @@ items:
     id: 12354
     marketGroup: 566
     name: 350mm Railgun I
+    published: true
     volume: 50.0
   350mm Railgun II:
     CapacitorNeed: 15.399999618530273
@@ -1331,6 +1371,7 @@ items:
     id: 12356
     marketGroup: 566
     name: 350mm Railgun II
+    published: true
     volume: 20.0
   425mm 'Popper' Railgun:
     CapacitorNeed: 18.899999618530273
@@ -1364,6 +1405,7 @@ items:
     id: 20591
     marketGroup: 566
     name: 425mm 'Popper' Railgun
+    published: true
     volume: 20.0
   425mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 18.899999618530273
@@ -1396,6 +1438,7 @@ items:
     id: 7449
     marketGroup: 566
     name: 425mm 'Scout' Accelerator Cannon
+    published: true
     volume: 20.0
   425mm Carbide Railgun I:
     CapacitorNeed: 19.950000762939453
@@ -1428,6 +1471,7 @@ items:
     id: 7451
     marketGroup: 566
     name: 425mm Carbide Railgun I
+    published: true
     volume: 20.0
   425mm Compressed Coil Gun I:
     CapacitorNeed: 17.850000381469727
@@ -1460,6 +1504,7 @@ items:
     id: 7453
     marketGroup: 566
     name: 425mm Compressed Coil Gun I
+    published: true
     volume: 20.0
   425mm Prototype Gauss Gun:
     CapacitorNeed: 16.799999237060547
@@ -1492,6 +1537,7 @@ items:
     id: 7447
     marketGroup: 566
     name: 425mm Prototype Gauss Gun
+    published: true
     volume: 20.0
   425mm Railgun I:
     CapacitorNeed: 21.0
@@ -1523,6 +1569,7 @@ items:
     id: 574
     marketGroup: 566
     name: 425mm Railgun I
+    published: true
     volume: 50.0
   425mm Railgun II:
     CapacitorNeed: 21.0
@@ -1558,6 +1605,7 @@ items:
     id: 3090
     marketGroup: 566
     name: 425mm Railgun II
+    published: true
     volume: 20.0
   75mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 1.0499999523162842
@@ -1589,6 +1637,7 @@ items:
     id: 7249
     marketGroup: 564
     name: 75mm 'Scout' Accelerator Cannon
+    published: true
     volume: 5.0
   75mm Carbide Railgun I:
     CapacitorNeed: 1.1130000352859497
@@ -1620,6 +1669,7 @@ items:
     id: 7251
     marketGroup: 564
     name: 75mm Carbide Railgun I
+    published: true
     volume: 5.0
   75mm Compressed Coil Gun I:
     CapacitorNeed: 0.9940000176429749
@@ -1651,6 +1701,7 @@ items:
     id: 7253
     marketGroup: 564
     name: 75mm Compressed Coil Gun I
+    published: true
     volume: 5.0
   75mm Gatling Rail I:
     CapacitorNeed: 1.1690000295639038
@@ -1681,6 +1732,7 @@ items:
     id: 561
     marketGroup: 564
     name: 75mm Gatling Rail I
+    published: true
     volume: 5.0
   75mm Gatling Rail II:
     CapacitorNeed: 1.1690000295639038
@@ -1715,6 +1767,7 @@ items:
     id: 3098
     marketGroup: 564
     name: 75mm Gatling Rail II
+    published: true
     volume: 5.0
   75mm Prototype Gauss Gun:
     CapacitorNeed: 0.9380000233650208
@@ -1746,6 +1799,7 @@ items:
     id: 7247
     marketGroup: 564
     name: 75mm Prototype Gauss Gun
+    published: true
     volume: 5.0
   Anode Electron Particle Cannon I:
     CapacitorNeed: 1.6660000085830688
@@ -1778,6 +1832,7 @@ items:
     id: 7625
     marketGroup: 562
     name: Anode Electron Particle Cannon I
+    published: true
     volume: 10.0
   Anode Ion Particle Cannon I:
     CapacitorNeed: 2.7783000469207764
@@ -1810,6 +1865,7 @@ items:
     id: 7669
     marketGroup: 562
     name: Anode Ion Particle Cannon I
+    published: true
     volume: 10.0
   Anode Light Electron Particle Cannon I:
     CapacitorNeed: 0.5586000084877014
@@ -1842,6 +1898,7 @@ items:
     id: 7493
     marketGroup: 561
     name: Anode Light Electron Particle Cannon I
+    published: true
     volume: 5.0
   Anode Light Ion Particle Cannon I:
     CapacitorNeed: 0.9261000156402588
@@ -1874,6 +1931,7 @@ items:
     id: 7541
     marketGroup: 561
     name: Anode Light Ion Particle Cannon I
+    published: true
     volume: 5.0
   Anode Light Neutron Particle Cannon I:
     CapacitorNeed: 1.2005000114440918
@@ -1906,6 +1964,7 @@ items:
     id: 7585
     marketGroup: 561
     name: Anode Light Neutron Particle Cannon I
+    published: true
     volume: 5.0
   Anode Mega Electron Particle Cannon I:
     CapacitorNeed: 4.998000144958496
@@ -1938,6 +1997,7 @@ items:
     id: 7749
     marketGroup: 563
     name: Anode Mega Electron Particle Cannon I
+    published: true
     volume: 20.0
   Anode Mega Ion Particle Cannon I:
     CapacitorNeed: 8.329999923706055
@@ -1970,6 +2030,7 @@ items:
     id: 7833
     marketGroup: 563
     name: Anode Mega Ion Particle Cannon I
+    published: true
     volume: 20.0
   Anode Mega Neutron Particle Cannon I:
     CapacitorNeed: 10.829000473022461
@@ -2002,6 +2063,7 @@ items:
     id: 7789
     marketGroup: 563
     name: Anode Mega Neutron Particle Cannon I
+    published: true
     volume: 20.0
   Anode Neutron Particle Cannon I:
     CapacitorNeed: 3.611299991607666
@@ -2034,6 +2096,7 @@ items:
     id: 7709
     marketGroup: 562
     name: Anode Neutron Particle Cannon I
+    published: true
     volume: 10.0
   Anode Scoped Ion Siege Blaster:
     CapacitorNeed: 100.0
@@ -2066,6 +2129,7 @@ items:
     id: 41128
     marketGroup: 771
     name: Anode Scoped Ion Siege Blaster
+    published: true
     volume: 4000.0
   Anode Scoped Triple Neutron Blaster Cannon:
     CapacitorNeed: 75.0
@@ -2098,6 +2162,7 @@ items:
     id: 41077
     marketGroup: 771
     name: Anode Scoped Triple Neutron Blaster Cannon
+    published: true
     volume: 4000.0
   Brynn's Modified 350mm Railgun:
     CapacitorNeed: 12.704999923706055
@@ -2131,6 +2196,7 @@ items:
     id: 14387
     marketGroup: 566
     name: Brynn's Modified 350mm Railgun
+    published: true
     volume: 20.0
   Brynn's Modified 425mm Railgun:
     CapacitorNeed: 17.325000762939453
@@ -2164,6 +2230,7 @@ items:
     id: 14397
     marketGroup: 566
     name: Brynn's Modified 425mm Railgun
+    published: true
     volume: 20.0
   Brynn's Modified Dual 250mm Railgun:
     CapacitorNeed: 8.666000366210938
@@ -2197,6 +2264,7 @@ items:
     id: 14407
     marketGroup: 566
     name: Brynn's Modified Dual 250mm Railgun
+    published: true
     volume: 20.0
   CONCORD Dual 1000mm Railgun:
     CapacitorNeed: 171.36000061035156
@@ -2231,6 +2299,7 @@ items:
     id: 3550
     marketGroup: 772
     name: CONCORD Dual 1000mm Railgun
+    published: true
     volume: 4000.0
   CONCORD Ion Siege Blaster:
     CapacitorNeed: 151.1999969482422
@@ -2265,6 +2334,7 @@ items:
     id: 3546
     marketGroup: 771
     name: CONCORD Ion Siege Blaster
+    published: true
     volume: 4000.0
   Caldari Navy 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
@@ -2298,6 +2368,7 @@ items:
     id: 15824
     marketGroup: 564
     name: Caldari Navy 125mm Railgun
+    published: true
     volume: 5.0
   Caldari Navy 150mm Railgun:
     CapacitorNeed: 1.86899995803833
@@ -2331,6 +2402,7 @@ items:
     id: 15823
     marketGroup: 564
     name: Caldari Navy 150mm Railgun
+    published: true
     volume: 5.0
   Caldari Navy 200mm Railgun:
     CapacitorNeed: 3.611999988555908
@@ -2364,6 +2436,7 @@ items:
     id: 15821
     marketGroup: 565
     name: Caldari Navy 200mm Railgun
+    published: true
     volume: 10.0
   Caldari Navy 250mm Railgun:
     CapacitorNeed: 5.599999904632568
@@ -2397,6 +2470,7 @@ items:
     id: 15820
     marketGroup: 565
     name: Caldari Navy 250mm Railgun
+    published: true
     volume: 10.0
   Caldari Navy 350mm Railgun:
     CapacitorNeed: 12.319999694824219
@@ -2430,6 +2504,7 @@ items:
     id: 15818
     marketGroup: 566
     name: Caldari Navy 350mm Railgun
+    published: true
     volume: 20.0
   Caldari Navy 425mm Railgun:
     CapacitorNeed: 16.799999237060547
@@ -2463,6 +2538,7 @@ items:
     id: 15817
     marketGroup: 566
     name: Caldari Navy 425mm Railgun
+    published: true
     volume: 20.0
   Caldari Navy 75mm Railgun:
     CapacitorNeed: 0.8259999752044678
@@ -2496,6 +2572,7 @@ items:
     id: 15816
     marketGroup: 564
     name: Caldari Navy 75mm Railgun
+    published: true
     volume: 5.0
   Caldari Navy Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
@@ -2529,6 +2606,7 @@ items:
     id: 15815
     marketGroup: 565
     name: Caldari Navy Dual 150mm Railgun
+    published: true
     volume: 10.0
   Caldari Navy Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
@@ -2562,6 +2640,7 @@ items:
     id: 15814
     marketGroup: 566
     name: Caldari Navy Dual 250mm Railgun
+    published: true
     volume: 20.0
   Carbide Compact Dual 1000mm Railgun:
     CapacitorNeed: 300.0
@@ -2594,6 +2673,7 @@ items:
     id: 41138
     marketGroup: 772
     name: Carbide Compact Dual 1000mm Railgun
+    published: true
     volume: 4000.0
   Compressed Enduring Dual 1000mm Railgun:
     CapacitorNeed: 270.0
@@ -2626,6 +2706,7 @@ items:
     id: 41139
     marketGroup: 772
     name: Compressed Enduring Dual 1000mm Railgun
+    published: true
     volume: 4000.0
   Cormack's Modified Electron Blaster Cannon:
     CapacitorNeed: 5.291999816894531
@@ -2659,6 +2740,7 @@ items:
     id: 14377
     marketGroup: 563
     name: Cormack's Modified Electron Blaster Cannon
+    published: true
     volume: 20.0
   Cormack's Modified Ion Blaster Cannon:
     CapacitorNeed: 8.819999694824219
@@ -2692,6 +2774,7 @@ items:
     id: 14379
     marketGroup: 563
     name: Cormack's Modified Ion Blaster Cannon
+    published: true
     volume: 20.0
   Cormack's Modified Neutron Blaster Cannon:
     CapacitorNeed: 11.465999603271484
@@ -2725,6 +2808,7 @@ items:
     id: 14385
     marketGroup: 563
     name: Cormack's Modified Neutron Blaster Cannon
+    published: true
     volume: 20.0
   Dread Guristas 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
@@ -2758,6 +2842,7 @@ items:
     id: 13865
     marketGroup: 564
     name: Dread Guristas 125mm Railgun
+    published: true
     volume: 5.0
   Dread Guristas 150mm Railgun:
     CapacitorNeed: 1.86899995803833
@@ -2791,6 +2876,7 @@ items:
     id: 13867
     marketGroup: 564
     name: Dread Guristas 150mm Railgun
+    published: true
     volume: 5.0
   Dread Guristas 200mm Railgun:
     CapacitorNeed: 3.611999988555908
@@ -2824,6 +2910,7 @@ items:
     id: 13870
     marketGroup: 565
     name: Dread Guristas 200mm Railgun
+    published: true
     volume: 10.0
   Dread Guristas 250mm Railgun:
     CapacitorNeed: 5.599999904632568
@@ -2857,6 +2944,7 @@ items:
     id: 13873
     marketGroup: 565
     name: Dread Guristas 250mm Railgun
+    published: true
     volume: 10.0
   Dread Guristas 350mm Railgun:
     CapacitorNeed: 12.319999694824219
@@ -2890,6 +2978,7 @@ items:
     id: 13876
     marketGroup: 566
     name: Dread Guristas 350mm Railgun
+    published: true
     volume: 20.0
   Dread Guristas 425mm Railgun:
     CapacitorNeed: 16.799999237060547
@@ -2923,6 +3012,7 @@ items:
     id: 13879
     marketGroup: 566
     name: Dread Guristas 425mm Railgun
+    published: true
     volume: 20.0
   Dread Guristas 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
@@ -2956,6 +3046,7 @@ items:
     id: 13893
     marketGroup: 564
     name: Dread Guristas 75mm Railgun
+    published: true
     volume: 5.0
   Dread Guristas Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
@@ -2989,6 +3080,7 @@ items:
     id: 13881
     marketGroup: 565
     name: Dread Guristas Dual 150mm Railgun
+    published: true
     volume: 10.0
   Dread Guristas Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
@@ -3022,6 +3114,7 @@ items:
     id: 13883
     marketGroup: 566
     name: Dread Guristas Dual 250mm Railgun
+    published: true
     volume: 20.0
   Dual 1000mm Railgun I:
     CapacitorNeed: 300.0
@@ -3053,6 +3146,7 @@ items:
     id: 20448
     marketGroup: 772
     name: Dual 1000mm Railgun I
+    published: true
     volume: 4000.0
   Dual 1000mm Railgun II:
     CapacitorNeed: 300.0
@@ -3088,6 +3182,7 @@ items:
     id: 37303
     marketGroup: 772
     name: Dual 1000mm Railgun II
+    published: true
     volume: 4000.0
   Dual 150mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 3.1500000953674316
@@ -3120,6 +3215,7 @@ items:
     id: 7329
     marketGroup: 565
     name: Dual 150mm 'Scout' Accelerator Cannon
+    published: true
     volume: 10.0
   Dual 150mm Carbide Railgun I:
     CapacitorNeed: 3.325000047683716
@@ -3152,6 +3248,7 @@ items:
     id: 7331
     marketGroup: 565
     name: Dual 150mm Carbide Railgun I
+    published: true
     volume: 10.0
   Dual 150mm Compressed Coil Gun I:
     CapacitorNeed: 2.9749999046325684
@@ -3184,6 +3281,7 @@ items:
     id: 7333
     marketGroup: 565
     name: Dual 150mm Compressed Coil Gun I
+    published: true
     volume: 10.0
   Dual 150mm Prototype Gauss Gun:
     CapacitorNeed: 2.799999952316284
@@ -3216,6 +3314,7 @@ items:
     id: 7327
     marketGroup: 565
     name: Dual 150mm Prototype Gauss Gun
+    published: true
     volume: 10.0
   Dual 150mm Railgun I:
     CapacitorNeed: 3.5
@@ -3247,6 +3346,7 @@ items:
     id: 567
     marketGroup: 565
     name: Dual 150mm Railgun I
+    published: true
     volume: 10.0
   Dual 150mm Railgun II:
     CapacitorNeed: 3.5
@@ -3282,6 +3382,7 @@ items:
     id: 3106
     marketGroup: 565
     name: Dual 150mm Railgun II
+    published: true
     volume: 10.0
   Dual 250mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 9.449999809265137
@@ -3314,6 +3415,7 @@ items:
     id: 7409
     marketGroup: 566
     name: Dual 250mm 'Scout' Accelerator Cannon
+    published: true
     volume: 20.0
   Dual 250mm Carbide Railgun I:
     CapacitorNeed: 9.975000381469727
@@ -3346,6 +3448,7 @@ items:
     id: 7411
     marketGroup: 566
     name: Dual 250mm Carbide Railgun I
+    published: true
     volume: 20.0
   Dual 250mm Compressed Coil Gun I:
     CapacitorNeed: 8.925000190734863
@@ -3378,6 +3481,7 @@ items:
     id: 7413
     marketGroup: 566
     name: Dual 250mm Compressed Coil Gun I
+    published: true
     volume: 20.0
   Dual 250mm Prototype Gauss Gun:
     CapacitorNeed: 8.399999618530273
@@ -3410,6 +3514,7 @@ items:
     id: 7407
     marketGroup: 566
     name: Dual 250mm Prototype Gauss Gun
+    published: true
     volume: 20.0
   Dual 250mm Railgun I:
     CapacitorNeed: 10.5
@@ -3441,6 +3546,7 @@ items:
     id: 572
     marketGroup: 566
     name: Dual 250mm Railgun I
+    published: true
     volume: 20.0
   Dual 250mm Railgun II:
     CapacitorNeed: 10.5
@@ -3476,6 +3582,7 @@ items:
     id: 3114
     marketGroup: 566
     name: Dual 250mm Railgun II
+    published: true
     volume: 20.0
   Electron Blaster Cannon I:
     CapacitorNeed: 5.880000114440918
@@ -3507,6 +3614,7 @@ items:
     id: 571
     marketGroup: 563
     name: Electron Blaster Cannon I
+    published: true
     volume: 50.0
   Electron Blaster Cannon II:
     CapacitorNeed: 5.880000114440918
@@ -3542,6 +3650,7 @@ items:
     id: 3122
     marketGroup: 563
     name: Electron Blaster Cannon II
+    published: true
     volume: 20.0
   Estamel's Modified 350mm Railgun:
     CapacitorNeed: 13.859999656677246
@@ -3575,6 +3684,7 @@ items:
     id: 14395
     marketGroup: 566
     name: Estamel's Modified 350mm Railgun
+    published: true
     volume: 20.0
   Estamel's Modified 425mm Railgun:
     CapacitorNeed: 18.899999618530273
@@ -3608,6 +3718,7 @@ items:
     id: 14405
     marketGroup: 566
     name: Estamel's Modified 425mm Railgun
+    published: true
     volume: 20.0
   Estamel's Modified Dual 250mm Railgun:
     CapacitorNeed: 9.449999809265137
@@ -3641,6 +3752,7 @@ items:
     id: 14415
     marketGroup: 566
     name: Estamel's Modified Dual 250mm Railgun
+    published: true
     volume: 20.0
   Federation Navy 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
@@ -3674,6 +3786,7 @@ items:
     id: 15844
     marketGroup: 564
     name: Federation Navy 125mm Railgun
+    published: true
     volume: 5.0
   Federation Navy 150mm Railgun:
     CapacitorNeed: 1.86899995803833
@@ -3707,6 +3820,7 @@ items:
     id: 15843
     marketGroup: 564
     name: Federation Navy 150mm Railgun
+    published: true
     volume: 5.0
   Federation Navy 200mm Railgun:
     CapacitorNeed: 3.611999988555908
@@ -3740,6 +3854,7 @@ items:
     id: 15841
     marketGroup: 565
     name: Federation Navy 200mm Railgun
+    published: true
     volume: 10.0
   Federation Navy 250mm Railgun:
     CapacitorNeed: 5.599999904632568
@@ -3773,6 +3888,7 @@ items:
     id: 15840
     marketGroup: 565
     name: Federation Navy 250mm Railgun
+    published: true
     volume: 10.0
   Federation Navy 350mm Railgun:
     CapacitorNeed: 12.319999694824219
@@ -3806,6 +3922,7 @@ items:
     id: 15838
     marketGroup: 566
     name: Federation Navy 350mm Railgun
+    published: true
     volume: 20.0
   Federation Navy 425mm Railgun:
     CapacitorNeed: 16.799999237060547
@@ -3839,6 +3956,7 @@ items:
     id: 15837
     marketGroup: 566
     name: Federation Navy 425mm Railgun
+    published: true
     volume: 20.0
   Federation Navy 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
@@ -3872,6 +3990,7 @@ items:
     id: 15836
     marketGroup: 564
     name: Federation Navy 75mm Railgun
+    published: true
     volume: 5.0
   Federation Navy Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
@@ -3905,6 +4024,7 @@ items:
     id: 15835
     marketGroup: 565
     name: Federation Navy Dual 150mm Railgun
+    published: true
     volume: 10.0
   Federation Navy Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
@@ -3938,6 +4058,7 @@ items:
     id: 15834
     marketGroup: 566
     name: Federation Navy Dual 250mm Railgun
+    published: true
     volume: 20.0
   Federation Navy Electron Blaster Cannon:
     CapacitorNeed: 4.703999996185303
@@ -3971,6 +4092,7 @@ items:
     id: 15833
     marketGroup: 563
     name: Federation Navy Electron Blaster Cannon
+    published: true
     volume: 20.0
   Federation Navy Heavy Electron Blaster:
     CapacitorNeed: 1.5679999589920044
@@ -4004,6 +4126,7 @@ items:
     id: 15832
     marketGroup: 562
     name: Federation Navy Heavy Electron Blaster
+    published: true
     volume: 10.0
   Federation Navy Heavy Ion Blaster:
     CapacitorNeed: 2.6166000366210938
@@ -4037,6 +4160,7 @@ items:
     id: 15831
     marketGroup: 562
     name: Federation Navy Heavy Ion Blaster
+    published: true
     volume: 10.0
   Federation Navy Heavy Neutron Blaster:
     CapacitorNeed: 3.395699977874756
@@ -4070,6 +4194,7 @@ items:
     id: 15830
     marketGroup: 562
     name: Federation Navy Heavy Neutron Blaster
+    published: true
     volume: 10.0
   Federation Navy Ion Blaster Cannon:
     CapacitorNeed: 7.840000152587891
@@ -4103,6 +4228,7 @@ items:
     id: 15829
     marketGroup: 563
     name: Federation Navy Ion Blaster Cannon
+    published: true
     volume: 20.0
   Federation Navy Light Electron Blaster:
     CapacitorNeed: 0.5242999792098999
@@ -4136,6 +4262,7 @@ items:
     id: 15828
     marketGroup: 561
     name: Federation Navy Light Electron Blaster
+    published: true
     volume: 5.0
   Federation Navy Light Ion Blaster:
     CapacitorNeed: 0.8722000122070312
@@ -4169,6 +4296,7 @@ items:
     id: 15827
     marketGroup: 561
     name: Federation Navy Light Ion Blaster
+    published: true
     volume: 5.0
   Federation Navy Light Neutron Blaster:
     CapacitorNeed: 1.1318999528884888
@@ -4202,6 +4330,7 @@ items:
     id: 15826
     marketGroup: 561
     name: Federation Navy Light Neutron Blaster
+    published: true
     volume: 5.0
   Federation Navy Neutron Blaster Cannon:
     CapacitorNeed: 10.192000389099121
@@ -4235,6 +4364,7 @@ items:
     id: 15825
     marketGroup: 563
     name: Federation Navy Neutron Blaster Cannon
+    published: true
     volume: 20.0
   Heavy Electron Blaster I:
     CapacitorNeed: 1.9600000381469727
@@ -4266,6 +4396,7 @@ items:
     id: 566
     marketGroup: 562
     name: Heavy Electron Blaster I
+    published: true
     volume: 10.0
   Heavy Electron Blaster II:
     CapacitorNeed: 1.9600000381469727
@@ -4301,6 +4432,7 @@ items:
     id: 3130
     marketGroup: 562
     name: Heavy Electron Blaster II
+    published: true
     volume: 10.0
   Heavy Ion Blaster I:
     CapacitorNeed: 3.2683000564575195
@@ -4332,6 +4464,7 @@ items:
     id: 569
     marketGroup: 562
     name: Heavy Ion Blaster I
+    published: true
     volume: 10.0
   Heavy Ion Blaster II:
     CapacitorNeed: 3.2683000564575195
@@ -4367,6 +4500,7 @@ items:
     id: 3138
     marketGroup: 562
     name: Heavy Ion Blaster II
+    published: true
     volume: 10.0
   Heavy Neutron Blaster I:
     CapacitorNeed: 4.248300075531006
@@ -4398,6 +4532,7 @@ items:
     id: 568
     marketGroup: 562
     name: Heavy Neutron Blaster I
+    published: true
     volume: 25.0
   Heavy Neutron Blaster II:
     CapacitorNeed: 4.248300075531006
@@ -4433,6 +4568,7 @@ items:
     id: 3146
     marketGroup: 562
     name: Heavy Neutron Blaster II
+    published: true
     volume: 10.0
   Ion Blaster Cannon I:
     CapacitorNeed: 9.800000190734863
@@ -4464,6 +4600,7 @@ items:
     id: 575
     marketGroup: 563
     name: Ion Blaster Cannon I
+    published: true
     volume: 50.0
   Ion Blaster Cannon II:
     CapacitorNeed: 9.800000190734863
@@ -4499,6 +4636,7 @@ items:
     id: 3154
     marketGroup: 563
     name: Ion Blaster Cannon II
+    published: true
     volume: 20.0
   Ion Siege Blaster I:
     CapacitorNeed: 100.0
@@ -4530,6 +4668,7 @@ items:
     id: 20450
     marketGroup: 771
     name: Ion Siege Blaster I
+    published: true
     volume: 4000.0
   Ion Siege Blaster II:
     CapacitorNeed: 100.0
@@ -4565,6 +4704,7 @@ items:
     id: 37302
     marketGroup: 771
     name: Ion Siege Blaster II
+    published: true
     volume: 4000.0
   Kaikka's Modified 350mm Railgun:
     CapacitorNeed: 12.319999694824219
@@ -4598,6 +4738,7 @@ items:
     id: 14391
     marketGroup: 566
     name: Kaikka's Modified 350mm Railgun
+    published: true
     volume: 20.0
   Kaikka's Modified 425mm Railgun:
     CapacitorNeed: 16.799999237060547
@@ -4631,6 +4772,7 @@ items:
     id: 14401
     marketGroup: 566
     name: Kaikka's Modified 425mm Railgun
+    published: true
     volume: 20.0
   Kaikka's Modified Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
@@ -4664,6 +4806,7 @@ items:
     id: 14411
     marketGroup: 566
     name: Kaikka's Modified Dual 250mm Railgun
+    published: true
     volume: 20.0
   Light Electron Blaster I:
     CapacitorNeed: 0.6565999984741211
@@ -4695,6 +4838,7 @@ items:
     id: 562
     marketGroup: 561
     name: Light Electron Blaster I
+    published: true
     volume: 5.0
   Light Electron Blaster II:
     CapacitorNeed: 0.6565999984741211
@@ -4730,6 +4874,7 @@ items:
     id: 3162
     marketGroup: 561
     name: Light Electron Blaster II
+    published: true
     volume: 5.0
   Light Ion Blaster I:
     CapacitorNeed: 1.0927000045776367
@@ -4761,6 +4906,7 @@ items:
     id: 563
     marketGroup: 561
     name: Light Ion Blaster I
+    published: true
     volume: 5.0
   Light Ion Blaster II:
     CapacitorNeed: 0.9309999942779541
@@ -4796,6 +4942,7 @@ items:
     id: 3170
     marketGroup: 561
     name: Light Ion Blaster II
+    published: true
     volume: 5.0
   Light Neutron Blaster I:
     CapacitorNeed: 1.416100025177002
@@ -4827,6 +4974,7 @@ items:
     id: 564
     marketGroup: 561
     name: Light Neutron Blaster I
+    published: true
     volume: 5.0
   Light Neutron Blaster II:
     CapacitorNeed: 1.416100025177002
@@ -4862,6 +5010,7 @@ items:
     id: 3178
     marketGroup: 561
     name: Light Neutron Blaster II
+    published: true
     volume: 5.0
   Limited Electron Blaster Cannon I:
     CapacitorNeed: 5.291999816894531
@@ -4894,6 +5043,7 @@ items:
     id: 7745
     marketGroup: 563
     name: Limited Electron Blaster Cannon I
+    published: true
     volume: 20.0
   Limited Electron Blaster I:
     CapacitorNeed: 1.7640000581741333
@@ -4926,6 +5076,7 @@ items:
     id: 7621
     marketGroup: 562
     name: Limited Electron Blaster I
+    published: true
     volume: 10.0
   Limited Ion Blaster I:
     CapacitorNeed: 2.940000057220459
@@ -4958,6 +5109,7 @@ items:
     id: 7665
     marketGroup: 562
     name: Limited Ion Blaster I
+    published: true
     volume: 10.0
   Limited Light Electron Blaster I:
     CapacitorNeed: 0.5879999995231628
@@ -4990,6 +5142,7 @@ items:
     id: 7489
     marketGroup: 561
     name: Limited Light Electron Blaster I
+    published: true
     volume: 5.0
   Limited Light Ion Blaster I:
     CapacitorNeed: 0.9800000190734863
@@ -5022,6 +5175,7 @@ items:
     id: 7537
     marketGroup: 561
     name: Limited Light Ion Blaster I
+    published: true
     volume: 5.0
   Limited Light Neutron Blaster I:
     CapacitorNeed: 1.2740000486373901
@@ -5054,6 +5208,7 @@ items:
     id: 7581
     marketGroup: 561
     name: Limited Light Neutron Blaster I
+    published: true
     volume: 5.0
   Limited Mega Ion Blaster I:
     CapacitorNeed: 8.819999694824219
@@ -5086,6 +5241,7 @@ items:
     id: 7829
     marketGroup: 563
     name: Limited Mega Ion Blaster I
+    published: true
     volume: 20.0
   Limited Mega Neutron Blaster I:
     CapacitorNeed: 11.465999603271484
@@ -5118,6 +5274,7 @@ items:
     id: 7785
     marketGroup: 563
     name: Limited Mega Neutron Blaster I
+    published: true
     volume: 20.0
   Limited Neutron Blaster I:
     CapacitorNeed: 3.822000026702881
@@ -5150,6 +5307,7 @@ items:
     id: 7705
     marketGroup: 562
     name: Limited Neutron Blaster I
+    published: true
     volume: 10.0
   Limited Precise Ion Siege Blaster:
     CapacitorNeed: 100.0
@@ -5182,6 +5340,7 @@ items:
     id: 41129
     marketGroup: 771
     name: Limited Precise Ion Siege Blaster
+    published: true
     volume: 4000.0
   Limited Precise Triple Neutron Blaster Cannon:
     CapacitorNeed: 75.0
@@ -5214,6 +5373,7 @@ items:
     id: 41078
     marketGroup: 771
     name: Limited Precise Triple Neutron Blaster Cannon
+    published: true
     volume: 4000.0
   Modal Electron Particle Accelerator I:
     CapacitorNeed: 1.5679999589920044
@@ -5246,6 +5406,7 @@ items:
     id: 7619
     marketGroup: 562
     name: Modal Electron Particle Accelerator I
+    published: true
     volume: 10.0
   Modal Enduring Ion Siege Blaster:
     CapacitorNeed: 90.0
@@ -5278,6 +5439,7 @@ items:
     id: 41127
     marketGroup: 771
     name: Modal Enduring Ion Siege Blaster
+    published: true
     volume: 4000.0
   Modal Enduring Triple Neutron Blaster Cannon:
     CapacitorNeed: 67.5
@@ -5310,6 +5472,7 @@ items:
     id: 41076
     marketGroup: 771
     name: Modal Enduring Triple Neutron Blaster Cannon
+    published: true
     volume: 4000.0
   Modal Ion Particle Accelerator I:
     CapacitorNeed: 2.6166000366210938
@@ -5342,6 +5505,7 @@ items:
     id: 7663
     marketGroup: 562
     name: Modal Ion Particle Accelerator I
+    published: true
     volume: 10.0
   Modal Light Electron Particle Accelerator I:
     CapacitorNeed: 0.5242999792098999
@@ -5374,6 +5538,7 @@ items:
     id: 7487
     marketGroup: 561
     name: Modal Light Electron Particle Accelerator I
+    published: true
     volume: 5.0
   Modal Light Ion Particle Accelerator I:
     CapacitorNeed: 0.8722000122070312
@@ -5406,6 +5571,7 @@ items:
     id: 7535
     marketGroup: 561
     name: Modal Light Ion Particle Accelerator I
+    published: true
     volume: 5.0
   Modal Light Neutron Particle Accelerator I:
     CapacitorNeed: 1.1318999528884888
@@ -5438,6 +5604,7 @@ items:
     id: 7579
     marketGroup: 561
     name: Modal Light Neutron Particle Accelerator I
+    published: true
     volume: 5.0
   Modal Mega Electron Particle Accelerator I:
     CapacitorNeed: 4.703999996185303
@@ -5470,6 +5637,7 @@ items:
     id: 7743
     marketGroup: 563
     name: Modal Mega Electron Particle Accelerator I
+    published: true
     volume: 20.0
   Modal Mega Ion Particle Accelerator I:
     CapacitorNeed: 7.840000152587891
@@ -5502,6 +5670,7 @@ items:
     id: 7827
     marketGroup: 563
     name: Modal Mega Ion Particle Accelerator I
+    published: true
     volume: 20.0
   Modal Mega Neutron Particle Accelerator I:
     CapacitorNeed: 10.192000389099121
@@ -5534,6 +5703,7 @@ items:
     id: 7783
     marketGroup: 563
     name: Modal Mega Neutron Particle Accelerator I
+    published: true
     volume: 20.0
   Modal Neutron Particle Accelerator I:
     CapacitorNeed: 3.395699977874756
@@ -5566,6 +5736,7 @@ items:
     id: 7703
     marketGroup: 562
     name: Modal Neutron Particle Accelerator I
+    published: true
     volume: 10.0
   Neutron Blaster Cannon I:
     CapacitorNeed: 12.739999771118164
@@ -5597,6 +5768,7 @@ items:
     id: 573
     marketGroup: 563
     name: Neutron Blaster Cannon I
+    published: true
     volume: 50.0
   Neutron Blaster Cannon II:
     CapacitorNeed: 12.739999771118164
@@ -5632,6 +5804,7 @@ items:
     id: 3186
     marketGroup: 563
     name: Neutron Blaster Cannon II
+    published: true
     volume: 20.0
   Polarized Heavy Neutron Blaster:
     CapacitorNeed: 3.186224937438965
@@ -5669,6 +5842,7 @@ items:
     id: 34280
     marketGroup: 562
     name: Polarized Heavy Neutron Blaster
+    published: true
     volume: 10.0
   Polarized Light Neutron Blaster:
     CapacitorNeed: 1.0620750188827515
@@ -5706,6 +5880,7 @@ items:
     id: 34278
     marketGroup: 561
     name: Polarized Light Neutron Blaster
+    published: true
     volume: 5.0
   Polarized Neutron Blaster Cannon:
     CapacitorNeed: 9.555000305175781
@@ -5743,6 +5918,7 @@ items:
     id: 34282
     marketGroup: 563
     name: Polarized Neutron Blaster Cannon
+    published: true
     volume: 20.0
   Prototype Precise Dual 1000mm Railgun:
     CapacitorNeed: 300.0
@@ -5775,6 +5951,7 @@ items:
     id: 41141
     marketGroup: 772
     name: Prototype Precise Dual 1000mm Railgun
+    published: true
     volume: 4000.0
   Regulated Compact Ion Siege Blaster:
     CapacitorNeed: 100.0
@@ -5807,6 +5984,7 @@ items:
     id: 41126
     marketGroup: 771
     name: Regulated Compact Ion Siege Blaster
+    published: true
     volume: 4000.0
   Regulated Compact Triple Neutron Blaster Cannon:
     CapacitorNeed: 75.0
@@ -5839,6 +6017,7 @@ items:
     id: 37301
     marketGroup: 771
     name: Regulated Compact Triple Neutron Blaster Cannon
+    published: true
     volume: 4000.0
   Regulated Electron Phase Cannon I:
     CapacitorNeed: 1.8619999885559082
@@ -5871,6 +6050,7 @@ items:
     id: 7623
     marketGroup: 562
     name: Regulated Electron Phase Cannon I
+    published: true
     volume: 10.0
   Regulated Ion Phase Cannon I:
     CapacitorNeed: 3.106600046157837
@@ -5903,6 +6083,7 @@ items:
     id: 7667
     marketGroup: 562
     name: Regulated Ion Phase Cannon I
+    published: true
     volume: 10.0
   Regulated Light Electron Phase Cannon I:
     CapacitorNeed: 0.6223000288009644
@@ -5935,6 +6116,7 @@ items:
     id: 7491
     marketGroup: 561
     name: Regulated Light Electron Phase Cannon I
+    published: true
     volume: 5.0
   Regulated Light Ion Phase Cannon I:
     CapacitorNeed: 1.0339000225067139
@@ -5967,6 +6149,7 @@ items:
     id: 7539
     marketGroup: 561
     name: Regulated Light Ion Phase Cannon I
+    published: true
     volume: 5.0
   Regulated Light Neutron Phase Cannon I:
     CapacitorNeed: 1.3425999879837036
@@ -5999,6 +6182,7 @@ items:
     id: 7583
     marketGroup: 561
     name: Regulated Light Neutron Phase Cannon I
+    published: true
     volume: 5.0
   Regulated Mega Electron Phase Cannon I:
     CapacitorNeed: 5.585999965667725
@@ -6031,6 +6215,7 @@ items:
     id: 7747
     marketGroup: 563
     name: Regulated Mega Electron Phase Cannon I
+    published: true
     volume: 20.0
   Regulated Mega Ion Phase Cannon I:
     CapacitorNeed: 9.3100004196167
@@ -6063,6 +6248,7 @@ items:
     id: 7831
     marketGroup: 563
     name: Regulated Mega Ion Phase Cannon I
+    published: true
     volume: 20.0
   Regulated Mega Neutron Phase Cannon I:
     CapacitorNeed: 12.102999687194824
@@ -6095,6 +6281,7 @@ items:
     id: 7787
     marketGroup: 563
     name: Regulated Mega Neutron Phase Cannon I
+    published: true
     volume: 20.0
   Regulated Neutron Phase Cannon I:
     CapacitorNeed: 4.032700061798096
@@ -6127,6 +6314,7 @@ items:
     id: 7707
     marketGroup: 562
     name: Regulated Neutron Phase Cannon I
+    published: true
     volume: 10.0
   Scout Scoped Dual 1000mm Railgun:
     CapacitorNeed: 300.0
@@ -6159,6 +6347,7 @@ items:
     id: 41140
     marketGroup: 772
     name: Scout Scoped Dual 1000mm Railgun
+    published: true
     volume: 4000.0
   Setele's Modified 350mm Railgun:
     CapacitorNeed: 13.859999656677246
@@ -6192,6 +6381,7 @@ items:
     id: 14389
     marketGroup: 566
     name: Setele's Modified 350mm Railgun
+    published: true
     volume: 20.0
   Setele's Modified 425mm Railgun:
     CapacitorNeed: 18.899999618530273
@@ -6225,6 +6415,7 @@ items:
     id: 14399
     marketGroup: 566
     name: Setele's Modified 425mm Railgun
+    published: true
     volume: 20.0
   Setele's Modified Dual 250mm Railgun:
     CapacitorNeed: 9.449999809265137
@@ -6258,6 +6449,7 @@ items:
     id: 14409
     marketGroup: 566
     name: Setele's Modified Dual 250mm Railgun
+    published: true
     volume: 20.0
   Shadow Serpentis 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
@@ -6291,6 +6483,7 @@ items:
     id: 13864
     marketGroup: 564
     name: Shadow Serpentis 125mm Railgun
+    published: true
     volume: 5.0
   Shadow Serpentis 150mm Railgun:
     CapacitorNeed: 1.86899995803833
@@ -6324,6 +6517,7 @@ items:
     id: 13866
     marketGroup: 564
     name: Shadow Serpentis 150mm Railgun
+    published: true
     volume: 5.0
   Shadow Serpentis 200mm Railgun:
     CapacitorNeed: 3.611999988555908
@@ -6357,6 +6551,7 @@ items:
     id: 13868
     marketGroup: 565
     name: Shadow Serpentis 200mm Railgun
+    published: true
     volume: 10.0
   Shadow Serpentis 250mm Railgun:
     CapacitorNeed: 5.599999904632568
@@ -6390,6 +6585,7 @@ items:
     id: 13872
     marketGroup: 565
     name: Shadow Serpentis 250mm Railgun
+    published: true
     volume: 10.0
   Shadow Serpentis 350mm Railgun:
     CapacitorNeed: 12.319999694824219
@@ -6423,6 +6619,7 @@ items:
     id: 13874
     marketGroup: 566
     name: Shadow Serpentis 350mm Railgun
+    published: true
     volume: 20.0
   Shadow Serpentis 425mm Railgun:
     CapacitorNeed: 16.799999237060547
@@ -6456,6 +6653,7 @@ items:
     id: 13878
     marketGroup: 566
     name: Shadow Serpentis 425mm Railgun
+    published: true
     volume: 20.0
   Shadow Serpentis 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
@@ -6489,6 +6687,7 @@ items:
     id: 13894
     marketGroup: 564
     name: Shadow Serpentis 75mm Railgun
+    published: true
     volume: 5.0
   Shadow Serpentis Dual 1000mm Railgun:
     CapacitorNeed: 190.39999389648438
@@ -6523,6 +6722,7 @@ items:
     id: 41142
     marketGroup: 772
     name: Shadow Serpentis Dual 1000mm Railgun
+    published: true
     volume: 4000.0
   Shadow Serpentis Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
@@ -6556,6 +6756,7 @@ items:
     id: 13880
     marketGroup: 565
     name: Shadow Serpentis Dual 150mm Railgun
+    published: true
     volume: 10.0
   Shadow Serpentis Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
@@ -6589,6 +6790,7 @@ items:
     id: 13882
     marketGroup: 566
     name: Shadow Serpentis Dual 250mm Railgun
+    published: true
     volume: 20.0
   Shadow Serpentis Electron Blaster Cannon:
     CapacitorNeed: 4.703999996185303
@@ -6622,6 +6824,7 @@ items:
     id: 13889
     marketGroup: 563
     name: Shadow Serpentis Electron Blaster Cannon
+    published: true
     volume: 20.0
   Shadow Serpentis Heavy Electron Blaster:
     CapacitorNeed: 1.5679999589920044
@@ -6655,6 +6858,7 @@ items:
     id: 13884
     marketGroup: 562
     name: Shadow Serpentis Heavy Electron Blaster
+    published: true
     volume: 10.0
   Shadow Serpentis Heavy Ion Blaster:
     CapacitorNeed: 2.6166000366210938
@@ -6688,6 +6892,7 @@ items:
     id: 13885
     marketGroup: 562
     name: Shadow Serpentis Heavy Ion Blaster
+    published: true
     volume: 10.0
   Shadow Serpentis Heavy Neutron Blaster:
     CapacitorNeed: 3.395699977874756
@@ -6721,6 +6926,7 @@ items:
     id: 13892
     marketGroup: 562
     name: Shadow Serpentis Heavy Neutron Blaster
+    published: true
     volume: 10.0
   Shadow Serpentis Ion Blaster Cannon:
     CapacitorNeed: 7.840000152587891
@@ -6754,6 +6960,7 @@ items:
     id: 13890
     marketGroup: 563
     name: Shadow Serpentis Ion Blaster Cannon
+    published: true
     volume: 20.0
   Shadow Serpentis Ion Siege Blaster:
     CapacitorNeed: 168.0
@@ -6788,6 +6995,7 @@ items:
     id: 41130
     marketGroup: 771
     name: Shadow Serpentis Ion Siege Blaster
+    published: true
     volume: 4000.0
   Shadow Serpentis Light Electron Blaster:
     CapacitorNeed: 0.5242999792098999
@@ -6821,6 +7029,7 @@ items:
     id: 13886
     marketGroup: 561
     name: Shadow Serpentis Light Electron Blaster
+    published: true
     volume: 5.0
   Shadow Serpentis Light Ion Blaster:
     CapacitorNeed: 0.8722000122070312
@@ -6854,6 +7063,7 @@ items:
     id: 13887
     marketGroup: 561
     name: Shadow Serpentis Light Ion Blaster
+    published: true
     volume: 5.0
   Shadow Serpentis Light Neutron Blaster:
     CapacitorNeed: 1.1318999528884888
@@ -6887,6 +7097,7 @@ items:
     id: 13888
     marketGroup: 561
     name: Shadow Serpentis Light Neutron Blaster
+    published: true
     volume: 5.0
   Shadow Serpentis Neutron Blaster Cannon:
     CapacitorNeed: 10.192000389099121
@@ -6920,6 +7131,7 @@ items:
     id: 13891
     marketGroup: 563
     name: Shadow Serpentis Neutron Blaster Cannon
+    published: true
     volume: 20.0
   Shadow Serpentis Triple Neutron Blaster Cannon:
     CapacitorNeed: 75.0
@@ -6954,6 +7166,7 @@ items:
     id: 41079
     marketGroup: 771
     name: Shadow Serpentis Triple Neutron Blaster Cannon
+    published: true
     volume: 4000.0
   Triple Neutron Blaster Cannon I:
     CapacitorNeed: 75.0
@@ -6985,6 +7198,7 @@ items:
     id: 37291
     marketGroup: 771
     name: Triple Neutron Blaster Cannon I
+    published: true
     volume: 4000.0
   Triple Neutron Blaster Cannon II:
     CapacitorNeed: 75.0
@@ -7020,6 +7234,7 @@ items:
     id: 37300
     marketGroup: 771
     name: Triple Neutron Blaster Cannon II
+    published: true
     volume: 4000.0
   Tuvan's Modified Electron Blaster Cannon:
     CapacitorNeed: 4.85099983215332
@@ -7053,6 +7268,7 @@ items:
     id: 14375
     marketGroup: 563
     name: Tuvan's Modified Electron Blaster Cannon
+    published: true
     volume: 20.0
   Tuvan's Modified Ion Blaster Cannon:
     CapacitorNeed: 8.085000038146973
@@ -7086,6 +7302,7 @@ items:
     id: 14381
     marketGroup: 563
     name: Tuvan's Modified Ion Blaster Cannon
+    published: true
     volume: 20.0
   Tuvan's Modified Neutron Blaster Cannon:
     CapacitorNeed: 10.510499954223633
@@ -7119,6 +7336,7 @@ items:
     id: 14383
     marketGroup: 563
     name: Tuvan's Modified Neutron Blaster Cannon
+    published: true
     volume: 20.0
   Vepas' Modified 350mm Railgun:
     CapacitorNeed: 13.09000015258789
@@ -7152,6 +7370,7 @@ items:
     id: 14393
     marketGroup: 566
     name: Vepas' Modified 350mm Railgun
+    published: true
     volume: 20.0
   Vepas' Modified 425mm Railgun:
     CapacitorNeed: 17.850000381469727
@@ -7185,6 +7404,7 @@ items:
     id: 14403
     marketGroup: 566
     name: Vepas' Modified 425mm Railgun
+    published: true
     volume: 20.0
   Vepas' Modified Dual 250mm Railgun:
     CapacitorNeed: 8.925000190734863
@@ -7218,4 +7438,5 @@ items:
     id: 14413
     marketGroup: 566
     name: Vepas' Modified Dual 250mm Railgun
+    published: true
     volume: 20.0

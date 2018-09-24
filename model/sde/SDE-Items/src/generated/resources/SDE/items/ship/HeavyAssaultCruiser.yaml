@@ -78,6 +78,7 @@ items:
     id: 2836
     marketGroup: 1621
     name: Adrestia
+    published: true
     volume: 112000.0
   Cerberus:
     Agility: 0.46299999952316284
@@ -159,6 +160,7 @@ items:
     id: 11993
     marketGroup: 450
     name: Cerberus
+    published: true
     volume: 92000.0
   Deimos:
     Agility: 0.4749999940395355
@@ -239,6 +241,7 @@ items:
     id: 12023
     marketGroup: 451
     name: Deimos
+    published: true
     volume: 112000.0
   Eagle:
     Agility: 0.5759999752044678
@@ -321,6 +324,7 @@ items:
     id: 12011
     marketGroup: 450
     name: Eagle
+    published: true
     volume: 101000.0
   Ishtar:
     Agility: 0.5649999976158142
@@ -403,6 +407,7 @@ items:
     id: 12005
     marketGroup: 451
     name: Ishtar
+    published: true
     volume: 115000.0
   Mimir:
     Agility: 0.5099999904632568
@@ -486,6 +491,7 @@ items:
     id: 32209
     marketGroup: 1621
     name: Mimir
+    published: true
     volume: 96000.0
   Muninn:
     Agility: 0.5709999799728394
@@ -569,6 +575,7 @@ items:
     id: 12015
     marketGroup: 452
     name: Muninn
+    published: true
     volume: 96000.0
   Sacrilege:
     Agility: 0.5669999718666077
@@ -651,6 +658,7 @@ items:
     id: 12019
     marketGroup: 449
     name: Sacrilege
+    published: true
     volume: 118000.0
   Vagabond:
     Agility: 0.5040000081062317
@@ -733,6 +741,7 @@ items:
     id: 11999
     marketGroup: 452
     name: Vagabond
+    published: true
     volume: 80000.0
   Vangel:
     Agility: 0.5099999904632568
@@ -816,6 +825,7 @@ items:
     id: 3518
     marketGroup: 1621
     name: Vangel
+    published: true
     volume: 118000.0
   Zealot:
     Agility: 0.5529999732971191
@@ -897,4 +907,5 @@ items:
     id: 12003
     marketGroup: 449
     name: Zealot
+    published: true
     volume: 118000.0

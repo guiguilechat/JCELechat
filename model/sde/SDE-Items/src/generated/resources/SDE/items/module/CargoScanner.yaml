@@ -13,6 +13,7 @@ items:
     id: 442
     marketGroup: 711
     name: Cargo Scanner I
+    published: true
     volume: 5.0
   Cargo Scanner II:
     CapacitorNeed: 4.0
@@ -28,6 +29,7 @@ items:
     id: 2038
     marketGroup: 711
     name: Cargo Scanner II
+    published: true
     volume: 5.0
   PL-0 Scoped Cargo Scanner:
     CapacitorNeed: 4.0
@@ -43,6 +45,7 @@ items:
     id: 6135
     marketGroup: 711
     name: PL-0 Scoped Cargo Scanner
+    published: true
     volume: 5.0
   Type-E Enduring Cargo Scanner:
     CapacitorNeed: 3.0
@@ -58,4 +61,5 @@ items:
     id: 6131
     marketGroup: 711
     name: Type-E Enduring Cargo Scanner
+    published: true
     volume: 5.0

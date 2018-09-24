@@ -23,6 +23,7 @@ items:
     id: 20603
     marketGroup: 644
     name: '''Barrage'' Torpedo Launcher'
+    published: true
     volume: 20.0
   Caldari Navy Torpedo Launcher:
     ChargeGroup3: 89
@@ -48,6 +49,7 @@ items:
     id: 16067
     marketGroup: 644
     name: Caldari Navy Torpedo Launcher
+    published: true
     volume: 20.0
   Domination Torpedo Launcher:
     ChargeGroup3: 89
@@ -73,6 +75,7 @@ items:
     id: 13923
     marketGroup: 644
     name: Domination Torpedo Launcher
+    published: true
     volume: 20.0
   Dread Guristas Torpedo Launcher:
     ChargeGroup3: 89
@@ -98,6 +101,7 @@ items:
     id: 13924
     marketGroup: 644
     name: Dread Guristas Torpedo Launcher
+    published: true
     volume: 20.0
   Estamel's Modified Torpedo Launcher:
     ChargeGroup3: 89
@@ -123,6 +127,7 @@ items:
     id: 14683
     marketGroup: 644
     name: Estamel's Modified Torpedo Launcher
+    published: true
     volume: 20.0
   Experimental ZW-4100 Torpedo Launcher:
     ChargeGroup3: 89
@@ -147,6 +152,7 @@ items:
     id: 8001
     marketGroup: 644
     name: Experimental ZW-4100 Torpedo Launcher
+    published: true
     volume: 20.0
   Gotan's Modified Torpedo Launcher:
     ChargeGroup3: 89
@@ -172,6 +178,7 @@ items:
     id: 14526
     marketGroup: 644
     name: Gotan's Modified Torpedo Launcher
+    published: true
     volume: 20.0
   Hakim's Modified Torpedo Launcher:
     ChargeGroup3: 89
@@ -197,6 +204,7 @@ items:
     id: 14525
     marketGroup: 644
     name: Hakim's Modified Torpedo Launcher
+    published: true
     volume: 20.0
   Kaikka's Modified Torpedo Launcher:
     ChargeGroup3: 89
@@ -222,6 +230,7 @@ items:
     id: 14680
     marketGroup: 644
     name: Kaikka's Modified Torpedo Launcher
+    published: true
     volume: 20.0
   Khanid Navy Torpedo Launcher:
     ChargeGroup3: 89
@@ -245,6 +254,7 @@ items:
     TypeColorScheme: 11337
     id: 28513
     name: Khanid Navy Torpedo Launcher
+    published: true
     volume: 20.0
   Limited 'Limos' Torpedo Launcher:
     ChargeGroup3: 89
@@ -269,6 +279,7 @@ items:
     id: 8115
     marketGroup: 644
     name: Limited 'Limos' Torpedo Launcher
+    published: true
     volume: 20.0
   Mizuro's Modified Torpedo Launcher:
     ChargeGroup3: 89
@@ -294,6 +305,7 @@ items:
     id: 14524
     marketGroup: 644
     name: Mizuro's Modified Torpedo Launcher
+    published: true
     volume: 20.0
   Polarized Torpedo Launcher:
     ChargeGroup1: 657
@@ -322,6 +334,7 @@ items:
     id: 34294
     marketGroup: 644
     name: Polarized Torpedo Launcher
+    published: true
     volume: 20.0
   Prototype 'Arbalest' Torpedo Launcher:
     ChargeGroup3: 89
@@ -346,6 +359,7 @@ items:
     id: 8117
     marketGroup: 644
     name: Prototype 'Arbalest' Torpedo Launcher
+    published: true
     volume: 20.0
   Republic Fleet Torpedo Launcher:
     ChargeGroup3: 89
@@ -371,6 +385,7 @@ items:
     id: 17490
     marketGroup: 644
     name: Republic Fleet Torpedo Launcher
+    published: true
     volume: 20.0
   Thon's Modified Torpedo Launcher:
     ChargeGroup3: 89
@@ -396,6 +411,7 @@ items:
     id: 14681
     marketGroup: 644
     name: Thon's Modified Torpedo Launcher
+    published: true
     volume: 20.0
   Tobias's Modified Torpedo Launcher:
     ChargeGroup3: 89
@@ -421,6 +437,7 @@ items:
     id: 14527
     marketGroup: 644
     name: Tobias's Modified Torpedo Launcher
+    published: true
     volume: 20.0
   Torpedo Launcher I:
     ChargeGroup3: 89
@@ -444,6 +461,7 @@ items:
     id: 503
     marketGroup: 644
     name: Torpedo Launcher I
+    published: true
     volume: 20.0
   Torpedo Launcher II:
     ChargeGroup1: 657
@@ -469,6 +487,7 @@ items:
     id: 2420
     marketGroup: 644
     name: Torpedo Launcher II
+    published: true
     volume: 20.0
   True Sansha Torpedo Launcher:
     ChargeGroup3: 89
@@ -494,6 +513,7 @@ items:
     id: 22569
     marketGroup: 644
     name: True Sansha Torpedo Launcher
+    published: true
     volume: 20.0
   Upgraded 'Malkuth' Torpedo Launcher:
     ChargeGroup3: 89
@@ -518,6 +538,7 @@ items:
     id: 8113
     marketGroup: 644
     name: Upgraded 'Malkuth' Torpedo Launcher
+    published: true
     volume: 20.0
   Vepas's Modified Torpedo Launcher:
     ChargeGroup3: 89
@@ -543,4 +564,5 @@ items:
     id: 14682
     marketGroup: 644
     name: Vepas's Modified Torpedo Launcher
+    published: true
     volume: 20.0

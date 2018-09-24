@@ -9,6 +9,7 @@ items:
     id: 31001
     marketGroup: 1730
     name: Capital Anti-EM Pump I
+    published: true
     volume: 40.0
   Capital Anti-EM Pump II:
     Drawback: -10
@@ -21,6 +22,7 @@ items:
     id: 31007
     marketGroup: 1730
     name: Capital Anti-EM Pump II
+    published: true
     volume: 40.0
   Capital Anti-Explosive Pump I:
     Drawback: -10
@@ -32,6 +34,7 @@ items:
     id: 31013
     marketGroup: 1730
     name: Capital Anti-Explosive Pump I
+    published: true
     volume: 40.0
   Capital Anti-Explosive Pump II:
     Drawback: -10
@@ -44,6 +47,7 @@ items:
     id: 31019
     marketGroup: 1730
     name: Capital Anti-Explosive Pump II
+    published: true
     volume: 40.0
   Capital Anti-Kinetic Pump I:
     Drawback: -10
@@ -55,6 +59,7 @@ items:
     id: 31025
     marketGroup: 1730
     name: Capital Anti-Kinetic Pump I
+    published: true
     volume: 40.0
   Capital Anti-Kinetic Pump II:
     Drawback: -10
@@ -67,6 +72,7 @@ items:
     id: 31031
     marketGroup: 1730
     name: Capital Anti-Kinetic Pump II
+    published: true
     volume: 40.0
   Capital Anti-Thermal Pump I:
     Drawback: -10
@@ -78,6 +84,7 @@ items:
     id: 31037
     marketGroup: 1730
     name: Capital Anti-Thermal Pump I
+    published: true
     volume: 40.0
   Capital Anti-Thermal Pump II:
     Drawback: -10
@@ -90,6 +97,7 @@ items:
     id: 31043
     marketGroup: 1730
     name: Capital Anti-Thermal Pump II
+    published: true
     volume: 40.0
   Capital Auxiliary Nano Pump I:
     Drawback: 10
@@ -101,6 +109,7 @@ items:
     id: 27064
     marketGroup: 1730
     name: Capital Auxiliary Nano Pump I
+    published: true
     volume: 40.0
   Capital Auxiliary Nano Pump II:
     Drawback: 10
@@ -113,6 +122,7 @@ items:
     id: 31049
     marketGroup: 1730
     name: Capital Auxiliary Nano Pump II
+    published: true
     volume: 40.0
   Capital Nanobot Accelerator I:
     Drawback: 10
@@ -124,6 +134,7 @@ items:
     id: 31067
     marketGroup: 1730
     name: Capital Nanobot Accelerator I
+    published: true
     volume: 40.0
   Capital Nanobot Accelerator II:
     Drawback: 10
@@ -136,6 +147,7 @@ items:
     id: 27066
     marketGroup: 1730
     name: Capital Nanobot Accelerator II
+    published: true
     volume: 40.0
   Capital Remote Repair Augmentor I:
     CapNeedBonus: -20
@@ -147,6 +159,7 @@ items:
     id: 31075
     marketGroup: 1730
     name: Capital Remote Repair Augmentor I
+    published: true
     volume: 40.0
   Capital Remote Repair Augmentor II:
     CapNeedBonus: -25
@@ -159,6 +172,7 @@ items:
     id: 31081
     marketGroup: 1730
     name: Capital Remote Repair Augmentor II
+    published: true
     volume: 40.0
   Capital Transverse Bulkhead I:
     Drawback: -10
@@ -170,6 +184,7 @@ items:
     id: 33902
     marketGroup: 1730
     name: Capital Transverse Bulkhead I
+    published: true
     volume: 40.0
   Capital Transverse Bulkhead II:
     Drawback: -10
@@ -182,6 +197,7 @@ items:
     id: 33904
     marketGroup: 1730
     name: Capital Transverse Bulkhead II
+    published: true
     volume: 40.0
   Capital Trimark Armor Pump I:
     ArmorHpBonus: 15
@@ -193,6 +209,7 @@ items:
     id: 30993
     marketGroup: 1730
     name: Capital Trimark Armor Pump I
+    published: true
     volume: 40.0
   Capital Trimark Armor Pump II:
     ArmorHpBonus: 20
@@ -205,6 +222,7 @@ items:
     id: 31061
     marketGroup: 1730
     name: Capital Trimark Armor Pump II
+    published: true
     volume: 40.0
   Large Anti-EM Pump I:
     Drawback: -10
@@ -216,6 +234,7 @@ items:
     id: 25736
     marketGroup: 1208
     name: Large Anti-EM Pump I
+    published: true
     volume: 20.0
   Large Anti-EM Pump II:
     Drawback: -10
@@ -228,6 +247,7 @@ items:
     id: 26286
     marketGroup: 1208
     name: Large Anti-EM Pump II
+    published: true
     volume: 20.0
   Large Anti-Explosive Pump I:
     Drawback: -10
@@ -239,6 +259,7 @@ items:
     id: 25888
     marketGroup: 1208
     name: Large Anti-Explosive Pump I
+    published: true
     volume: 20.0
   Large Anti-Explosive Pump II:
     Drawback: -10
@@ -251,6 +272,7 @@ items:
     id: 26288
     marketGroup: 1208
     name: Large Anti-Explosive Pump II
+    published: true
     volume: 20.0
   Large Anti-Kinetic Pump I:
     Drawback: -10
@@ -262,6 +284,7 @@ items:
     id: 25890
     marketGroup: 1208
     name: Large Anti-Kinetic Pump I
+    published: true
     volume: 20.0
   Large Anti-Kinetic Pump II:
     Drawback: -10
@@ -274,6 +297,7 @@ items:
     id: 26290
     marketGroup: 1208
     name: Large Anti-Kinetic Pump II
+    published: true
     volume: 20.0
   Large Anti-Thermal Pump I:
     Drawback: -10
@@ -285,6 +309,7 @@ items:
     id: 25892
     marketGroup: 1208
     name: Large Anti-Thermal Pump I
+    published: true
     volume: 20.0
   Large Anti-Thermal Pump II:
     Drawback: -10
@@ -297,6 +322,7 @@ items:
     id: 26292
     marketGroup: 1208
     name: Large Anti-Thermal Pump II
+    published: true
     volume: 20.0
   Large Auxiliary Nano Pump I:
     Drawback: 10
@@ -308,6 +334,7 @@ items:
     id: 25896
     marketGroup: 1208
     name: Large Auxiliary Nano Pump I
+    published: true
     volume: 20.0
   Large Auxiliary Nano Pump II:
     Drawback: 10
@@ -320,6 +347,7 @@ items:
     id: 26294
     marketGroup: 1208
     name: Large Auxiliary Nano Pump II
+    published: true
     volume: 20.0
   Large Nanobot Accelerator I:
     Drawback: 10
@@ -331,6 +359,7 @@ items:
     id: 25898
     marketGroup: 1208
     name: Large Nanobot Accelerator I
+    published: true
     volume: 20.0
   Large Nanobot Accelerator II:
     Drawback: 10
@@ -343,6 +372,7 @@ items:
     id: 26296
     marketGroup: 1208
     name: Large Nanobot Accelerator II
+    published: true
     volume: 20.0
   Large Remote Repair Augmentor I:
     CapNeedBonus: -20
@@ -354,6 +384,7 @@ items:
     id: 25900
     marketGroup: 1208
     name: Large Remote Repair Augmentor I
+    published: true
     volume: 20.0
   Large Remote Repair Augmentor II:
     CapNeedBonus: -25
@@ -366,6 +397,7 @@ items:
     id: 26298
     marketGroup: 1208
     name: Large Remote Repair Augmentor II
+    published: true
     volume: 20.0
   Large Transverse Bulkhead I:
     Drawback: -10
@@ -377,6 +409,7 @@ items:
     id: 33898
     marketGroup: 1208
     name: Large Transverse Bulkhead I
+    published: true
     volume: 20.0
   Large Transverse Bulkhead II:
     Drawback: -10
@@ -389,6 +422,7 @@ items:
     id: 33900
     marketGroup: 1208
     name: Large Transverse Bulkhead II
+    published: true
     volume: 20.0
   Large Trimark Armor Pump I:
     ArmorHpBonus: 15
@@ -400,6 +434,7 @@ items:
     id: 25894
     marketGroup: 1208
     name: Large Trimark Armor Pump I
+    published: true
     volume: 20.0
   Large Trimark Armor Pump II:
     ArmorHpBonus: 20
@@ -412,6 +447,7 @@ items:
     id: 26302
     marketGroup: 1208
     name: Large Trimark Armor Pump II
+    published: true
     volume: 20.0
   Medium Anti-EM Pump I:
     Drawback: -10
@@ -423,6 +459,7 @@ items:
     id: 30999
     marketGroup: 1207
     name: Medium Anti-EM Pump I
+    published: true
     volume: 10.0
   Medium Anti-EM Pump II:
     Drawback: -10
@@ -435,6 +472,7 @@ items:
     id: 31005
     marketGroup: 1207
     name: Medium Anti-EM Pump II
+    published: true
     volume: 10.0
   Medium Anti-Explosive Pump I:
     Drawback: -10
@@ -446,6 +484,7 @@ items:
     id: 31011
     marketGroup: 1207
     name: Medium Anti-Explosive Pump I
+    published: true
     volume: 10.0
   Medium Anti-Explosive Pump II:
     Drawback: -10
@@ -458,6 +497,7 @@ items:
     id: 31017
     marketGroup: 1207
     name: Medium Anti-Explosive Pump II
+    published: true
     volume: 10.0
   Medium Anti-Kinetic Pump I:
     Drawback: -10
@@ -469,6 +509,7 @@ items:
     id: 31023
     marketGroup: 1207
     name: Medium Anti-Kinetic Pump I
+    published: true
     volume: 10.0
   Medium Anti-Kinetic Pump II:
     Drawback: -10
@@ -481,6 +522,7 @@ items:
     id: 31029
     marketGroup: 1207
     name: Medium Anti-Kinetic Pump II
+    published: true
     volume: 10.0
   Medium Anti-Thermal Pump I:
     Drawback: -10
@@ -492,6 +534,7 @@ items:
     id: 31035
     marketGroup: 1207
     name: Medium Anti-Thermal Pump I
+    published: true
     volume: 10.0
   Medium Anti-Thermal Pump II:
     Drawback: -10
@@ -504,6 +547,7 @@ items:
     id: 31041
     marketGroup: 1207
     name: Medium Anti-Thermal Pump II
+    published: true
     volume: 10.0
   Medium Auxiliary Nano Pump I:
     Drawback: 10
@@ -515,6 +559,7 @@ items:
     id: 31047
     marketGroup: 1207
     name: Medium Auxiliary Nano Pump I
+    published: true
     volume: 10.0
   Medium Auxiliary Nano Pump II:
     Drawback: 10
@@ -527,6 +572,7 @@ items:
     id: 31053
     marketGroup: 1207
     name: Medium Auxiliary Nano Pump II
+    published: true
     volume: 10.0
   Medium Nanobot Accelerator I:
     Drawback: 10
@@ -538,6 +584,7 @@ items:
     id: 31065
     marketGroup: 1207
     name: Medium Nanobot Accelerator I
+    published: true
     volume: 10.0
   Medium Nanobot Accelerator II:
     Drawback: 10
@@ -550,6 +597,7 @@ items:
     id: 31071
     marketGroup: 1207
     name: Medium Nanobot Accelerator II
+    published: true
     volume: 10.0
   Medium Remote Repair Augmentor I:
     CapNeedBonus: -20
@@ -561,6 +609,7 @@ items:
     id: 31073
     marketGroup: 1207
     name: Medium Remote Repair Augmentor I
+    published: true
     volume: 10.0
   Medium Remote Repair Augmentor II:
     CapNeedBonus: -25
@@ -573,6 +622,7 @@ items:
     id: 31079
     marketGroup: 1207
     name: Medium Remote Repair Augmentor II
+    published: true
     volume: 10.0
   Medium Transverse Bulkhead I:
     Drawback: -10
@@ -584,6 +634,7 @@ items:
     id: 33894
     marketGroup: 1207
     name: Medium Transverse Bulkhead I
+    published: true
     volume: 10.0
   Medium Transverse Bulkhead II:
     Drawback: -10
@@ -596,6 +647,7 @@ items:
     id: 33896
     marketGroup: 1207
     name: Medium Transverse Bulkhead II
+    published: true
     volume: 10.0
   Medium Trimark Armor Pump I:
     ArmorHpBonus: 15
@@ -607,6 +659,7 @@ items:
     id: 31055
     marketGroup: 1207
     name: Medium Trimark Armor Pump I
+    published: true
     volume: 10.0
   Medium Trimark Armor Pump II:
     ArmorHpBonus: 20
@@ -619,6 +672,7 @@ items:
     id: 31059
     marketGroup: 1207
     name: Medium Trimark Armor Pump II
+    published: true
     volume: 10.0
   Small Anti-EM Pump I:
     Drawback: -10
@@ -630,6 +684,7 @@ items:
     id: 30997
     marketGroup: 1206
     name: Small Anti-EM Pump I
+    published: true
     volume: 5.0
   Small Anti-EM Pump II:
     Drawback: -10
@@ -642,6 +697,7 @@ items:
     id: 31003
     marketGroup: 1206
     name: Small Anti-EM Pump II
+    published: true
     volume: 5.0
   Small Anti-Explosive Pump I:
     Drawback: -10
@@ -653,6 +709,7 @@ items:
     id: 31009
     marketGroup: 1206
     name: Small Anti-Explosive Pump I
+    published: true
     volume: 5.0
   Small Anti-Explosive Pump II:
     Drawback: -10
@@ -665,6 +722,7 @@ items:
     id: 31015
     marketGroup: 1206
     name: Small Anti-Explosive Pump II
+    published: true
     volume: 5.0
   Small Anti-Kinetic Pump I:
     Drawback: -10
@@ -676,6 +734,7 @@ items:
     id: 31021
     marketGroup: 1206
     name: Small Anti-Kinetic Pump I
+    published: true
     volume: 5.0
   Small Anti-Kinetic Pump II:
     Drawback: -10
@@ -688,6 +747,7 @@ items:
     id: 31027
     marketGroup: 1206
     name: Small Anti-Kinetic Pump II
+    published: true
     volume: 5.0
   Small Anti-Thermal Pump I:
     Drawback: -10
@@ -699,6 +759,7 @@ items:
     id: 31033
     marketGroup: 1206
     name: Small Anti-Thermal Pump I
+    published: true
     volume: 5.0
   Small Anti-Thermal Pump II:
     Drawback: -10
@@ -711,6 +772,7 @@ items:
     id: 31039
     marketGroup: 1206
     name: Small Anti-Thermal Pump II
+    published: true
     volume: 5.0
   Small Auxiliary Nano Pump I:
     Drawback: 10
@@ -722,6 +784,7 @@ items:
     id: 31045
     marketGroup: 1206
     name: Small Auxiliary Nano Pump I
+    published: true
     volume: 5.0
   Small Auxiliary Nano Pump II:
     Drawback: 10
@@ -734,6 +797,7 @@ items:
     id: 31051
     marketGroup: 1206
     name: Small Auxiliary Nano Pump II
+    published: true
     volume: 5.0
   Small Nanobot Accelerator I:
     Drawback: 10
@@ -745,6 +809,7 @@ items:
     id: 31063
     marketGroup: 1206
     name: Small Nanobot Accelerator I
+    published: true
     volume: 5.0
   Small Nanobot Accelerator II:
     Drawback: 10
@@ -757,6 +822,7 @@ items:
     id: 31069
     marketGroup: 1206
     name: Small Nanobot Accelerator II
+    published: true
     volume: 5.0
   Small Remote Repair Augmentor I:
     CapNeedBonus: -20
@@ -768,6 +834,7 @@ items:
     id: 27068
     marketGroup: 1206
     name: Small Remote Repair Augmentor I
+    published: true
     volume: 5.0
   Small Remote Repair Augmentor II:
     CapNeedBonus: -25
@@ -780,6 +847,7 @@ items:
     id: 31077
     marketGroup: 1206
     name: Small Remote Repair Augmentor II
+    published: true
     volume: 5.0
   Small Transverse Bulkhead I:
     Drawback: -10
@@ -791,6 +859,7 @@ items:
     id: 33890
     marketGroup: 1206
     name: Small Transverse Bulkhead I
+    published: true
     volume: 5.0
   Small Transverse Bulkhead II:
     Drawback: -10
@@ -803,6 +872,7 @@ items:
     id: 33892
     marketGroup: 1206
     name: Small Transverse Bulkhead II
+    published: true
     volume: 5.0
   Small Trimark Armor Pump I:
     ArmorHpBonus: 15
@@ -814,6 +884,7 @@ items:
     id: 30987
     marketGroup: 1206
     name: Small Trimark Armor Pump I
+    published: true
     volume: 5.0
   Small Trimark Armor Pump II:
     ArmorHpBonus: 20
@@ -826,4 +897,5 @@ items:
     id: 31057
     marketGroup: 1206
     name: Small Trimark Armor Pump II
+    published: true
     volume: 5.0

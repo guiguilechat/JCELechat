@@ -6,8 +6,10 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28617
     name: Banidine
+    published: true
     volume: 0.1
   Compressed Concentrated Veldspar:
     AsteroidMaxRadius: 16255
@@ -17,9 +19,11 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28430
     marketGroup: 518
     name: Compressed Concentrated Veldspar
+    published: true
     volume: 0.15
   Compressed Dense Veldspar:
     AsteroidMaxRadius: 16255
@@ -29,9 +33,11 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28431
     marketGroup: 518
     name: Compressed Dense Veldspar
+    published: true
     volume: 0.15
   Compressed Stable Veldspar:
     AsteroidMaxRadius: 16255
@@ -41,9 +47,11 @@ items:
     OreBasicType: 46689
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46705
     marketGroup: 518
     name: Compressed Stable Veldspar
+    published: true
     volume: 0.15
   Compressed Veldspar:
     AsteroidMaxRadius: 16255
@@ -53,9 +61,11 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28432
     marketGroup: 518
     name: Compressed Veldspar
+    published: true
     volume: 0.15
   Concentrated Veldspar:
     AsteroidMaxRadius: 16255
@@ -67,9 +77,11 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17470
     marketGroup: 518
     name: Concentrated Veldspar
+    published: true
     volume: 0.1
   Dense Veldspar:
     AsteroidMaxRadius: 16255
@@ -81,9 +93,11 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17471
     marketGroup: 518
     name: Dense Veldspar
+    published: true
     volume: 0.1
   Stable Veldspar:
     AsteroidMaxRadius: 5000
@@ -95,9 +109,11 @@ items:
     OreBasicType: 46689
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46689
     marketGroup: 518
     name: Stable Veldspar
+    published: true
     volume: 0.1
   Veldspar:
     AsteroidMaxRadius: 16255
@@ -109,7 +125,9 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1230
     marketGroup: 518
     name: Veldspar
+    published: true
     volume: 0.1

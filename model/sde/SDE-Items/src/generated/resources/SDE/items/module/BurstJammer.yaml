@@ -23,6 +23,7 @@ items:
     id: 20581
     marketGroup: 678
     name: '''Ghost'' Burst Jammer'
+    published: true
     volume: 5.0
   Burst Jammer I:
     CapacitorNeed: 240.0
@@ -45,6 +46,7 @@ items:
     id: 580
     marketGroup: 678
     name: Burst Jammer I
+    published: true
     volume: 5.0
   Burst Jammer II:
     CapacitorNeed: 288.0
@@ -69,6 +71,7 @@ items:
     id: 2117
     marketGroup: 678
     name: Burst Jammer II
+    published: true
     volume: 5.0
   Cetus Scoped Burst Jammer:
     CapacitorNeed: 240.0
@@ -93,6 +96,7 @@ items:
     id: 5365
     marketGroup: 678
     name: Cetus Scoped Burst Jammer
+    published: true
     volume: 5.0
   Deluge Enduring Burst Jammer:
     CapacitorNeed: 192.0
@@ -117,6 +121,7 @@ items:
     id: 5361
     marketGroup: 678
     name: Deluge Enduring Burst Jammer
+    published: true
     volume: 5.0
   Rash Compact Burst Jammer:
     CapacitorNeed: 240.0
@@ -140,6 +145,7 @@ items:
     id: 5363
     marketGroup: 678
     name: Rash Compact Burst Jammer
+    published: true
     volume: 5.0
   Sentient Burst Jammer:
     CapacitorNeed: 180.0
@@ -165,6 +171,7 @@ items:
     id: 40690
     marketGroup: 678
     name: Sentient Burst Jammer
+    published: true
     volume: 5.0
   Unit D-34343's Modified Burst Jammer:
     CapacitorNeed: 300.0
@@ -190,6 +197,7 @@ items:
     id: 40691
     marketGroup: 678
     name: Unit D-34343's Modified Burst Jammer
+    published: true
     volume: 5.0
   Unit F-435454's Modified Burst Jammer:
     CapacitorNeed: 320.0
@@ -215,6 +223,7 @@ items:
     id: 40692
     marketGroup: 678
     name: Unit F-435454's Modified Burst Jammer
+    published: true
     volume: 5.0
   Unit P-343554's Modified Burst Jammer:
     CapacitorNeed: 340.0
@@ -240,6 +249,7 @@ items:
     id: 40693
     marketGroup: 678
     name: Unit P-343554's Modified Burst Jammer
+    published: true
     volume: 5.0
   Unit W-634's Modified Burst Jammer:
     CapacitorNeed: 360.0
@@ -265,4 +275,5 @@ items:
     id: 40694
     marketGroup: 678
     name: Unit W-634's Modified Burst Jammer
+    published: true
     volume: 5.0

@@ -5,105 +5,123 @@ items:
     PowerLoad: 700
     id: 2474
     name: Barren Advanced Industry Facility
+    published: true
   Barren Basic Industry Facility:
     CpuLoad: 200
     PlanetRestriction: 2016
     PowerLoad: 800
     id: 2473
     name: Barren Basic Industry Facility
+    published: true
   Barren High-Tech Production Plant:
     CpuLoad: 1100
     PlanetRestriction: 2016
     PowerLoad: 400
     id: 2475
     name: Barren High-Tech Production Plant
+    published: true
   Gas Advanced Industry Facility:
     CpuLoad: 500
     PlanetRestriction: 13
     PowerLoad: 700
     id: 2494
     name: Gas Advanced Industry Facility
+    published: true
   Gas Basic Industry Facility:
     CpuLoad: 200
     PlanetRestriction: 13
     PowerLoad: 800
     id: 2492
     name: Gas Basic Industry Facility
+    published: true
   Ice Advanced Industry Facility:
     CpuLoad: 500
     PlanetRestriction: 12
     PowerLoad: 700
     id: 2491
     name: Ice Advanced Industry Facility
+    published: true
   Ice Basic Industry Facility:
     CpuLoad: 200
     PlanetRestriction: 12
     PowerLoad: 800
     id: 2493
     name: Ice Basic Industry Facility
+    published: true
   Lava Advanced Industry Facility:
     CpuLoad: 500
     PlanetRestriction: 2015
     PowerLoad: 700
     id: 2470
     name: Lava Advanced Industry Facility
+    published: true
   Lava Basic Industry Facility:
     CpuLoad: 200
     PlanetRestriction: 2015
     PowerLoad: 800
     id: 2469
     name: Lava Basic Industry Facility
+    published: true
   Oceanic Advanced Industry Facility:
     CpuLoad: 500
     PlanetRestriction: 2014
     PowerLoad: 700
     id: 2485
     name: Oceanic Advanced Industry Facility
+    published: true
   Oceanic Basic Industry Facility:
     CpuLoad: 200
     PlanetRestriction: 2014
     PowerLoad: 800
     id: 2490
     name: Oceanic Basic Industry Facility
+    published: true
   Plasma Advanced Industry Facility:
     CpuLoad: 500
     PlanetRestriction: 2063
     PowerLoad: 700
     id: 2472
     name: Plasma Advanced Industry Facility
+    published: true
   Plasma Basic Industry Facility:
     CpuLoad: 200
     PlanetRestriction: 2063
     PowerLoad: 800
     id: 2471
     name: Plasma Basic Industry Facility
+    published: true
   Storm Advanced Industry Facility:
     CpuLoad: 500
     PlanetRestriction: 2017
     PowerLoad: 700
     id: 2484
     name: Storm Advanced Industry Facility
+    published: true
   Storm Basic Industry Facility:
     CpuLoad: 200
     PlanetRestriction: 2017
     PowerLoad: 800
     id: 2483
     name: Storm Basic Industry Facility
+    published: true
   Temperate Advanced Industry Facility:
     CpuLoad: 500
     PlanetRestriction: 11
     PowerLoad: 700
     id: 2480
     name: Temperate Advanced Industry Facility
+    published: true
   Temperate Basic Industry Facility:
     CpuLoad: 200
     PlanetRestriction: 11
     PowerLoad: 800
     id: 2481
     name: Temperate Basic Industry Facility
+    published: true
   Temperate High-Tech Production Plant:
     CpuLoad: 1100
     PlanetRestriction: 11
     PowerLoad: 400
     id: 2482
     name: Temperate High-Tech Production Plant
+    published: true

@@ -24,6 +24,7 @@ items:
     id: 521
     marketGroup: 615
     name: '''Basic'' Damage Control'
+    published: true
     volume: 5.0
   '''Radical'' Damage Control':
     ArmorEmDamageResonance: 0.8500000238418579
@@ -50,6 +51,7 @@ items:
     id: 23418
     marketGroup: 615
     name: '''Radical'' Damage Control'
+    published: true
     volume: 5.0
   Assault Damage Control I:
     ArmorEmDamageResonance: 0.925000011920929
@@ -81,6 +83,7 @@ items:
     id: 47254
     marketGroup: 615
     name: Assault Damage Control I
+    published: true
     volume: 5.0
   Assault Damage Control II:
     ArmorEmDamageResonance: 0.8999999761581421
@@ -113,6 +116,7 @@ items:
     id: 47257
     marketGroup: 615
     name: Assault Damage Control II
+    published: true
     volume: 5.0
   Brynn's Modified Damage Control:
     ArmorEmDamageResonance: 0.8100000023841858
@@ -139,6 +143,7 @@ items:
     id: 41203
     marketGroup: 615
     name: Brynn's Modified Damage Control
+    published: true
     volume: 5.0
   Capital Emergency Hull Energizer I:
     ArmorEmDamageResonance: 1.0
@@ -173,6 +178,7 @@ items:
     id: 40714
     marketGroup: 615
     name: Capital Emergency Hull Energizer I
+    published: true
     volume: 8000.0
   Capital Emergency Hull Energizer II:
     ArmorEmDamageResonance: 1.0
@@ -208,6 +214,7 @@ items:
     id: 40717
     marketGroup: 615
     name: Capital Emergency Hull Energizer II
+    published: true
     volume: 8000.0
   Capital Implacable Compact Emergency Hull Energizer:
     ArmorEmDamageResonance: 1.0
@@ -243,6 +250,7 @@ items:
     id: 40715
     marketGroup: 615
     name: Capital Implacable Compact Emergency Hull Energizer
+    published: true
     volume: 8000.0
   Capital Indefatigable Enduring Emergency Hull Energizer:
     ArmorEmDamageResonance: 1.0
@@ -278,6 +286,7 @@ items:
     id: 40716
     marketGroup: 615
     name: Capital Indefatigable Enduring Emergency Hull Energizer
+    published: true
     volume: 8000.0
   Civilian Damage Control:
     ArmorEmDamageResonance: 0.949999988079071
@@ -302,6 +311,7 @@ items:
     id: 30839
     marketGroup: 615
     name: Civilian Damage Control
+    published: true
     volume: 5.0
   Cormack's Modified Damage Control:
     ArmorEmDamageResonance: 0.7799999713897705
@@ -328,6 +338,7 @@ items:
     id: 41210
     marketGroup: 615
     name: Cormack's Modified Damage Control
+    published: true
     volume: 5.0
   Damage Control I:
     ArmorEmDamageResonance: 0.8999999761581421
@@ -351,6 +362,7 @@ items:
     id: 2046
     marketGroup: 615
     name: Damage Control I
+    published: true
     volume: 5.0
   Damage Control II:
     ArmorEmDamageResonance: 0.8500000238418579
@@ -375,6 +387,7 @@ items:
     id: 2048
     marketGroup: 615
     name: Damage Control II
+    published: true
     volume: 5.0
   EFFA Compact Assault Damage Control:
     ArmorEmDamageResonance: 0.925000011920929
@@ -406,6 +419,7 @@ items:
     id: 47255
     marketGroup: 615
     name: EFFA Compact Assault Damage Control
+    published: true
     volume: 5.0
   FFR Enduring Assault Damage Control:
     ArmorEmDamageResonance: 0.925000011920929
@@ -437,6 +451,7 @@ items:
     id: 47256
     marketGroup: 615
     name: FFR Enduring Assault Damage Control
+    published: true
     volume: 5.0
   IFFA Compact Damage Control:
     ArmorEmDamageResonance: 0.875
@@ -462,6 +477,7 @@ items:
     id: 5839
     marketGroup: 615
     name: IFFA Compact Damage Control
+    published: true
     volume: 5.0
   Sentient Damage Control:
     ArmorEmDamageResonance: 0.8349999785423279
@@ -488,6 +504,7 @@ items:
     id: 41202
     marketGroup: 615
     name: Sentient Damage Control
+    published: true
     volume: 5.0
   Setele's Modified Damage Control:
     ArmorEmDamageResonance: 0.7900000214576721
@@ -514,6 +531,7 @@ items:
     id: 41207
     marketGroup: 615
     name: Setele's Modified Damage Control
+    published: true
     volume: 5.0
   Shadow Serpentis Assault Damage Control:
     ArmorEmDamageResonance: 0.8999999761581421
@@ -547,6 +565,7 @@ items:
     id: 47258
     marketGroup: 615
     name: Shadow Serpentis Assault Damage Control
+    published: true
     volume: 5.0
   Shadow Serpentis Damage Control:
     ArmorEmDamageResonance: 0.8349999785423279
@@ -573,6 +592,7 @@ items:
     id: 41200
     marketGroup: 615
     name: Shadow Serpentis Damage Control
+    published: true
     volume: 5.0
   Sisters Capital Emergency Hull Energizer:
     ArmorEmDamageResonance: 1.0
@@ -609,6 +629,7 @@ items:
     id: 40718
     marketGroup: 615
     name: Sisters Capital Emergency Hull Energizer
+    published: true
     volume: 8000.0
   Syndicate Damage Control:
     ArmorEmDamageResonance: 0.8349999785423279
@@ -635,6 +656,7 @@ items:
     id: 41201
     marketGroup: 615
     name: Syndicate Damage Control
+    published: true
     volume: 5.0
   Tuvan's Modified Damage Control:
     ArmorEmDamageResonance: 0.800000011920929
@@ -661,6 +683,7 @@ items:
     id: 41205
     marketGroup: 615
     name: Tuvan's Modified Damage Control
+    published: true
     volume: 5.0
   Unit D-34343's Modified Damage Control:
     ArmorEmDamageResonance: 0.8100000023841858
@@ -687,6 +710,7 @@ items:
     id: 41204
     marketGroup: 615
     name: Unit D-34343's Modified Damage Control
+    published: true
     volume: 5.0
   Unit F-435454's Modified Damage Control:
     ArmorEmDamageResonance: 0.800000011920929
@@ -713,6 +737,7 @@ items:
     id: 41206
     marketGroup: 615
     name: Unit F-435454's Modified Damage Control
+    published: true
     volume: 5.0
   Unit P-343554's Modified Damage Control:
     ArmorEmDamageResonance: 0.7900000214576721
@@ -739,6 +764,7 @@ items:
     id: 41208
     marketGroup: 615
     name: Unit P-343554's Modified Damage Control
+    published: true
     volume: 5.0
   Unit W-634's Modified Damage Control:
     ArmorEmDamageResonance: 0.7799999713897705
@@ -765,4 +791,5 @@ items:
     id: 41211
     marketGroup: 615
     name: Unit W-634's Modified Damage Control
+    published: true
     volume: 5.0

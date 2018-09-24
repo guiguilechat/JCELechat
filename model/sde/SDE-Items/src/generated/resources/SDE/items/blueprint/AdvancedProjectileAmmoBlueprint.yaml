@@ -4,90 +4,106 @@ items:
     TechLevel: 2
     id: 12776
     name: Barrage L Blueprint
+    published: true
     volume: 0.01
   Barrage M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12774
     name: Barrage M Blueprint
+    published: true
     volume: 0.01
   Barrage S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12626
     name: Barrage S Blueprint
+    published: true
     volume: 0.01
   Barrage XL Blueprint:
     TechLevel: 2
     id: 41317
     name: Barrage XL Blueprint
+    published: true
     volume: 0.01
   Hail L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12780
     name: Hail L Blueprint
+    published: true
     volume: 0.01
   Hail M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12778
     name: Hail M Blueprint
+    published: true
     volume: 0.01
   Hail S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12609
     name: Hail S Blueprint
+    published: true
     volume: 0.01
   Hail XL Blueprint:
     TechLevel: 2
     id: 41315
     name: Hail XL Blueprint
+    published: true
     volume: 0.01
   Quake L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12762
     name: Quake L Blueprint
+    published: true
     volume: 0.01
   Quake M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12768
     name: Quake M Blueprint
+    published: true
     volume: 0.01
   Quake S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12632
     name: Quake S Blueprint
+    published: true
     volume: 0.01
   Quake XL Blueprint:
     TechLevel: 2
     id: 41321
     name: Quake XL Blueprint
+    published: true
     volume: 0.01
   Tremor L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12766
     name: Tremor L Blueprint
+    published: true
     volume: 0.01
   Tremor M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12772
     name: Tremor M Blueprint
+    published: true
     volume: 0.01
   Tremor S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12634
     name: Tremor S Blueprint
+    published: true
     volume: 0.01
   Tremor XL Blueprint:
     TechLevel: 2
     id: 41319
     name: Tremor XL Blueprint
+    published: true
     volume: 0.01

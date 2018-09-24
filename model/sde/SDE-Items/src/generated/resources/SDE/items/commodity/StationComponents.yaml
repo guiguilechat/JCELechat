@@ -4,88 +4,103 @@ items:
     id: 36957
     marketGroup: 1865
     name: Structure Acceleration Coils
+    published: true
     volume: 3000.0
   Structure Advertisement Nexus:
     MoonMiningAmount: 1
     id: 36958
     marketGroup: 1865
     name: Structure Advertisement Nexus
+    published: true
     volume: 3000.0
   Structure Construction Parts:
     MoonMiningAmount: 100
     id: 21947
     marketGroup: 1865
     name: Structure Construction Parts
+    published: true
     volume: 3000.0
   Structure Docking Bay:
     MoonMiningAmount: 100
     id: 21961
     marketGroup: 1865
     name: Structure Docking Bay
+    published: true
     volume: 3000.0
   Structure Electromagnetic Sensor:
     MoonMiningAmount: 1
     id: 36956
     marketGroup: 1865
     name: Structure Electromagnetic Sensor
+    published: true
     volume: 3000.0
   Structure Factory:
     MoonMiningAmount: 100
     id: 21955
     marketGroup: 1865
     name: Structure Factory
+    published: true
     volume: 3000.0
   Structure Hangar Array:
     MoonMiningAmount: 100
     id: 21949
     marketGroup: 1865
     name: Structure Hangar Array
+    published: true
     volume: 3000.0
   Structure Laboratory:
     MoonMiningAmount: 100
     id: 21953
     marketGroup: 1865
     name: Structure Laboratory
+    published: true
     volume: 3000.0
   Structure Market Network:
     MoonMiningAmount: 100
     id: 21963
     marketGroup: 1865
     name: Structure Market Network
+    published: true
     volume: 3000.0
   Structure Medical Center:
     MoonMiningAmount: 100
     id: 21965
     marketGroup: 1865
     name: Structure Medical Center
+    published: true
     volume: 3000.0
   Structure Mission Network:
     MoonMiningAmount: 100
     id: 21969
     marketGroup: 1865
     name: Structure Mission Network
+    published: true
     volume: 3000.0
   Structure Office Center:
     MoonMiningAmount: 100
     id: 21967
     marketGroup: 1865
     name: Structure Office Center
+    published: true
     volume: 3000.0
   Structure Repair Facility:
     MoonMiningAmount: 100
     id: 21957
     marketGroup: 1865
     name: Structure Repair Facility
+    published: true
     volume: 3000.0
   Structure Reprocessing Plant:
     MoonMiningAmount: 100
     id: 21959
     marketGroup: 1865
     name: Structure Reprocessing Plant
+    published: true
     volume: 3000.0
   Structure Storage Bay:
     MoonMiningAmount: 100
     id: 21951
     marketGroup: 1865
     name: Structure Storage Bay
+    published: true
     volume: 3000.0

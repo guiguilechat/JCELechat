@@ -18,6 +18,7 @@ items:
     id: 1949
     marketGroup: 669
     name: '''Basic'' Signal Amplifier'
+    published: true
     volume: 5.0
   '''Firewall'' Signal Amplifier':
     Cpu: 12.0
@@ -38,6 +39,7 @@ items:
     id: 21527
     marketGroup: 669
     name: '''Firewall'' Signal Amplifier'
+    published: true
     volume: 20.0
   F-89 Compact Signal Amplifier:
     Cpu: 16.0
@@ -57,6 +59,7 @@ items:
     id: 6296
     marketGroup: 669
     name: F-89 Compact Signal Amplifier
+    published: true
     volume: 5.0
   Sentient Signal Amplifier:
     Cpu: 16.0
@@ -77,6 +80,7 @@ items:
     id: 41196
     marketGroup: 669
     name: Sentient Signal Amplifier
+    published: true
     volume: 5.0
   Signal Amplifier I:
     Hp: 40
@@ -94,6 +98,7 @@ items:
     id: 1986
     marketGroup: 669
     name: Signal Amplifier I
+    published: true
     volume: 5.0
   Signal Amplifier II:
     Cpu: 24.0
@@ -113,6 +118,7 @@ items:
     id: 1987
     marketGroup: 669
     name: Signal Amplifier II
+    published: true
     volume: 5.0
   Syndicate Signal Amplifier:
     Cpu: 16.0
@@ -133,4 +139,5 @@ items:
     id: 41197
     marketGroup: 669
     name: Syndicate Signal Amplifier
+    published: true
     volume: 5.0

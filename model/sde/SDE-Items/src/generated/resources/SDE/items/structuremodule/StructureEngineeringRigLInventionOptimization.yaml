@@ -20,6 +20,7 @@ items:
     id: 43722
     marketGroup: 2348
     name: Standup L-Set Invention Optimization I
+    published: true
     volume: 20.0
   Standup L-Set Invention Optimization II:
     AttributeEngRigCostBonus: -12
@@ -42,4 +43,5 @@ items:
     id: 43723
     marketGroup: 2348
     name: Standup L-Set Invention Optimization II
+    published: true
     volume: 20.0

@@ -7,6 +7,7 @@ items:
     id: 21085
     marketGroup: 1903
     name: Talocan Automation Accounts
+    published: true
     volume: 1.0
   Talocan Info Shards:
     InventionMEModifier: 1.0
@@ -16,6 +17,7 @@ items:
     id: 21077
     marketGroup: 1903
     name: Talocan Info Shards
+    published: true
     volume: 1.0
   Talocan Intricate Formulas:
     InventionMEModifier: 1.2000000476837158
@@ -25,6 +27,7 @@ items:
     id: 21087
     marketGroup: 1903
     name: Talocan Intricate Formulas
+    published: true
     volume: 1.0
   Talocan Mathematical Schematics:
     InventionMEModifier: 0.6000000238418579
@@ -34,6 +37,7 @@ items:
     id: 21084
     marketGroup: 1903
     name: Talocan Mathematical Schematics
+    published: true
     volume: 1.0
   Talocan Sketch Books:
     InventionMEModifier: 0.6000000238418579
@@ -43,4 +47,5 @@ items:
     id: 21074
     marketGroup: 1903
     name: Talocan Sketch Books
+    published: true
     volume: 1.0

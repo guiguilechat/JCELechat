@@ -20,6 +20,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 996
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -31,6 +32,8 @@ items:
     MaxVelocity: 5082.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -60,6 +63,7 @@ items:
     id: 28264
     marketGroup: 837
     name: '''Augmented'' Acolyte'
+    published: true
     volume: 5.0
   '''Augmented'' Berserker':
     Agility: 100.0
@@ -81,6 +85,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 420
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 35.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -94,6 +99,8 @@ items:
     MaxVelocity: 1980.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -122,6 +129,7 @@ items:
     id: 28268
     marketGroup: 839
     name: '''Augmented'' Berserker'
+    published: true
     volume: 25.0
   '''Augmented'' Hammerhead':
     Agility: 100.0
@@ -143,6 +151,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 528
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -155,6 +164,8 @@ items:
     MaxVelocity: 2218.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -184,6 +195,7 @@ items:
     id: 28272
     marketGroup: 838
     name: '''Augmented'' Hammerhead'
+    published: true
     volume: 10.0
   '''Augmented'' Hobgoblin':
     Agility: 100.0
@@ -205,6 +217,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 792
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -217,6 +230,8 @@ items:
     MaxVelocity: 3696.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -246,6 +261,7 @@ items:
     id: 28276
     marketGroup: 837
     name: '''Augmented'' Hobgoblin'
+    published: true
     volume: 5.0
   '''Augmented'' Hornet':
     Agility: 100.0
@@ -267,6 +283,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 894
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -279,6 +296,8 @@ items:
     MaxVelocity: 4158.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -308,6 +327,7 @@ items:
     id: 28280
     marketGroup: 837
     name: '''Augmented'' Hornet'
+    published: true
     volume: 5.0
   '''Augmented'' Infiltrator':
     Agility: 100.0
@@ -330,6 +350,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 630
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -341,6 +362,8 @@ items:
     MaxVelocity: 3036.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -370,6 +393,7 @@ items:
     id: 28284
     marketGroup: 838
     name: '''Augmented'' Infiltrator'
+    published: true
     volume: 10.0
   '''Augmented'' Ogre':
     Agility: 100.0
@@ -391,6 +415,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -403,6 +428,8 @@ items:
     MaxVelocity: 1320.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -432,6 +459,7 @@ items:
     id: 28288
     marketGroup: 839
     name: '''Augmented'' Ogre'
+    published: true
     volume: 25.0
   '''Augmented'' Praetor':
     Agility: 100.0
@@ -454,6 +482,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 384
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -465,6 +494,8 @@ items:
     MaxVelocity: 1822.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -494,6 +525,7 @@ items:
     id: 28292
     marketGroup: 839
     name: '''Augmented'' Praetor'
+    published: true
     volume: 25.0
   '''Augmented'' Valkyrie':
     Agility: 100.0
@@ -515,6 +547,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 19.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -528,6 +561,8 @@ items:
     MaxVelocity: 3300.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -556,6 +591,7 @@ items:
     id: 28296
     marketGroup: 838
     name: '''Augmented'' Valkyrie'
+    published: true
     volume: 10.0
   '''Augmented'' Vespa':
     Agility: 100.0
@@ -577,6 +613,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 564
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -589,6 +626,8 @@ items:
     MaxVelocity: 2495.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -618,6 +657,7 @@ items:
     id: 28300
     marketGroup: 838
     name: '''Augmented'' Vespa'
+    published: true
     volume: 10.0
   '''Augmented'' Warrior':
     Agility: 100.0
@@ -639,6 +679,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 1080
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 13.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -652,6 +693,8 @@ items:
     MaxVelocity: 5544.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -680,6 +723,7 @@ items:
     id: 28304
     marketGroup: 837
     name: '''Augmented'' Warrior'
+    published: true
     volume: 5.0
   '''Augmented'' Wasp':
     Agility: 100.0
@@ -701,6 +745,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 336
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -713,6 +758,8 @@ items:
     MaxVelocity: 1485.0
     MetaGroupID: 4
     MetaLevel: 8
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -742,6 +789,7 @@ items:
     id: 28308
     marketGroup: 839
     name: '''Augmented'' Wasp'
+    published: true
     volume: 25.0
   '''Integrated'' Acolyte':
     Agility: 100.0
@@ -764,6 +812,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 913
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -775,6 +824,8 @@ items:
     MaxVelocity: 4235.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -802,6 +853,7 @@ items:
     id: 28262
     marketGroup: 837
     name: '''Integrated'' Acolyte'
+    published: true
     volume: 5.0
   '''Integrated'' Berserker':
     Agility: 100.0
@@ -823,6 +875,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 385
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 35.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -836,6 +889,8 @@ items:
     MaxVelocity: 1650.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -862,6 +917,7 @@ items:
     id: 28266
     marketGroup: 839
     name: '''Integrated'' Berserker'
+    published: true
     volume: 25.0
   '''Integrated'' Hammerhead':
     Agility: 100.0
@@ -883,6 +939,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 484
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -895,6 +952,8 @@ items:
     MaxVelocity: 1848.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -922,6 +981,7 @@ items:
     id: 28270
     marketGroup: 838
     name: '''Integrated'' Hammerhead'
+    published: true
     volume: 10.0
   '''Integrated'' Hobgoblin':
     Agility: 100.0
@@ -943,6 +1003,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 726
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -955,6 +1016,8 @@ items:
     MaxVelocity: 3080.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -982,6 +1045,7 @@ items:
     id: 28274
     marketGroup: 837
     name: '''Integrated'' Hobgoblin'
+    published: true
     volume: 5.0
   '''Integrated'' Hornet':
     Agility: 100.0
@@ -1003,6 +1067,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 820
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1015,6 +1080,8 @@ items:
     MaxVelocity: 3465.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1042,6 +1109,7 @@ items:
     id: 28278
     marketGroup: 837
     name: '''Integrated'' Hornet'
+    published: true
     volume: 5.0
   '''Integrated'' Infiltrator':
     Agility: 100.0
@@ -1064,6 +1132,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 523
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1075,6 +1144,8 @@ items:
     MaxVelocity: 2530.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -1102,6 +1173,7 @@ items:
     id: 28282
     marketGroup: 838
     name: '''Integrated'' Infiltrator'
+    published: true
     volume: 10.0
   '''Integrated'' Ogre':
     Agility: 100.0
@@ -1123,6 +1195,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 275
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1135,6 +1208,8 @@ items:
     MaxVelocity: 1100.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1162,6 +1237,7 @@ items:
     id: 28286
     marketGroup: 839
     name: '''Integrated'' Ogre'
+    published: true
     volume: 25.0
   '''Integrated'' Praetor':
     Agility: 100.0
@@ -1184,6 +1260,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 352
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1195,6 +1272,8 @@ items:
     MaxVelocity: 1518.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1222,6 +1301,7 @@ items:
     id: 28290
     marketGroup: 839
     name: '''Integrated'' Praetor'
+    published: true
     volume: 25.0
   '''Integrated'' Valkyrie':
     Agility: 100.0
@@ -1243,6 +1323,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 605
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 19.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -1256,6 +1337,8 @@ items:
     MaxVelocity: 2750.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -1282,6 +1365,7 @@ items:
     id: 28294
     marketGroup: 838
     name: '''Integrated'' Valkyrie'
+    published: true
     volume: 10.0
   '''Integrated'' Vespa':
     Agility: 100.0
@@ -1303,6 +1387,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 468
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1315,6 +1400,8 @@ items:
     MaxVelocity: 2079.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -1342,6 +1429,7 @@ items:
     id: 28298
     marketGroup: 838
     name: '''Integrated'' Vespa'
+    published: true
     volume: 10.0
   '''Integrated'' Warrior':
     Agility: 100.0
@@ -1363,6 +1451,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 990
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 13.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -1376,6 +1465,8 @@ items:
     MaxVelocity: 4620.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1402,6 +1493,7 @@ items:
     id: 28302
     marketGroup: 837
     name: '''Integrated'' Warrior'
+    published: true
     volume: 5.0
   '''Integrated'' Wasp':
     Agility: 100.0
@@ -1423,6 +1515,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 308
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1435,6 +1528,8 @@ items:
     MaxVelocity: 1238.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1462,6 +1557,7 @@ items:
     id: 28306
     marketGroup: 839
     name: '''Integrated'' Wasp'
+    published: true
     volume: 25.0
   Acolyte I:
     Agility: 100.0
@@ -1484,6 +1580,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 830
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1493,6 +1590,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 2400
     MaxVelocity: 3850.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1519,6 +1618,7 @@ items:
     id: 2203
     marketGroup: 837
     name: Acolyte I
+    published: true
     volume: 5.0
   Acolyte II:
     Agility: 100.0
@@ -1541,6 +1641,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 996
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1551,6 +1652,8 @@ items:
     MaxRange: 2400
     MaxVelocity: 4620.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1579,6 +1682,7 @@ items:
     id: 2205
     marketGroup: 837
     name: Acolyte II
+    published: true
     volume: 5.0
   Berserker I:
     Agility: 100.0
@@ -1600,6 +1704,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 350
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -1610,6 +1715,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4200
     MaxVelocity: 1500.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1636,6 +1743,7 @@ items:
     id: 2476
     marketGroup: 839
     name: Berserker I
+    published: true
     volume: 25.0
   Berserker II:
     Agility: 100.0
@@ -1657,6 +1765,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 420
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -1668,6 +1777,8 @@ items:
     MaxRange: 4200
     MaxVelocity: 1800.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1696,6 +1807,7 @@ items:
     id: 2478
     marketGroup: 839
     name: Berserker II
+    published: true
     volume: 25.0
   Bouncer I:
     Agility: 0.0010000000474974513
@@ -1712,9 +1824,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 45000
@@ -1725,6 +1839,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 30000
     MaxVelocity: 9.999999747378752E-6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -1751,6 +1867,7 @@ items:
     id: 23563
     marketGroup: 911
     name: Bouncer I
+    published: true
     volume: 25.0
   Bouncer II:
     Agility: 0.0010000000474974513
@@ -1767,9 +1884,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 54000
@@ -1781,6 +1900,8 @@ items:
     MaxRange: 36000
     MaxVelocity: 9.999999747378752E-6
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -1809,6 +1930,7 @@ items:
     id: 28215
     marketGroup: 911
     name: Bouncer II
+    published: true
     volume: 25.0
   Caldari Navy Hornet:
     Agility: 100.0
@@ -1830,6 +1952,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 894
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1842,6 +1965,8 @@ items:
     MaxVelocity: 3780.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1868,6 +1993,7 @@ items:
     id: 31872
     marketGroup: 837
     name: Caldari Navy Hornet
+    published: true
     volume: 5.0
   Caldari Navy Vespa:
     Agility: 100.0
@@ -1889,6 +2015,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 564
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1901,6 +2028,8 @@ items:
     MaxVelocity: 2268.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -1927,6 +2056,7 @@ items:
     id: 31874
     marketGroup: 838
     name: Caldari Navy Vespa
+    published: true
     volume: 10.0
   Caldari Navy Warden:
     Agility: 0.0010000000474974513
@@ -1943,9 +2073,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 42000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1958,6 +2090,8 @@ items:
     MaxVelocity: 9.999999747378752E-6
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -1984,6 +2118,7 @@ items:
     id: 31878
     marketGroup: 911
     name: Caldari Navy Warden
+    published: true
     volume: 25.0
   Caldari Navy Wasp:
     Agility: 100.0
@@ -2005,6 +2140,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 336
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2017,6 +2153,8 @@ items:
     MaxVelocity: 1350.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -2043,6 +2181,7 @@ items:
     id: 31876
     marketGroup: 839
     name: Caldari Navy Wasp
+    published: true
     volume: 25.0
   Civilian Hobgoblin:
     Agility: 100.0
@@ -2064,6 +2203,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 550
     EntityFlyRange: 500.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2073,6 +2213,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 1000
     MaxVelocity: 1400.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2097,6 +2239,7 @@ items:
     Uniformity: 0.75
     id: 32465
     name: Civilian Hobgoblin
+    published: true
     volume: 5.0
   Curator I:
     Agility: 0.0010000000474974513
@@ -2114,9 +2257,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 10000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2126,6 +2271,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 35000
     MaxVelocity: 9.999999747378752E-6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2152,6 +2299,7 @@ items:
     id: 23525
     marketGroup: 911
     name: Curator I
+    published: true
     volume: 25.0
   Curator II:
     Agility: 0.0010000000474974513
@@ -2169,9 +2317,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 12000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2182,6 +2332,8 @@ items:
     MaxRange: 42000
     MaxVelocity: 9.999999747378752E-6
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2210,6 +2362,7 @@ items:
     id: 28213
     marketGroup: 911
     name: Curator II
+    published: true
     volume: 25.0
   Federation Navy Garde:
     Agility: 0.0010000000474974513
@@ -2226,9 +2379,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 30000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2241,6 +2396,8 @@ items:
     MaxVelocity: 9.999999747378752E-6
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2268,6 +2425,7 @@ items:
     id: 31886
     marketGroup: 911
     name: Federation Navy Garde
+    published: true
     volume: 25.0
   Federation Navy Hammerhead:
     Agility: 100.0
@@ -2289,6 +2447,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 528
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2300,6 +2459,8 @@ items:
     MaxVelocity: 2016.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -2327,6 +2488,7 @@ items:
     id: 31882
     marketGroup: 838
     name: Federation Navy Hammerhead
+    published: true
     volume: 10.0
   Federation Navy Hobgoblin:
     Agility: 100.0
@@ -2348,6 +2510,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 792
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2359,6 +2522,8 @@ items:
     MaxVelocity: 3360.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2386,6 +2551,7 @@ items:
     id: 31880
     marketGroup: 837
     name: Federation Navy Hobgoblin
+    published: true
     volume: 5.0
   Federation Navy Ogre:
     Agility: 100.0
@@ -2407,6 +2573,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2418,6 +2585,8 @@ items:
     MaxVelocity: 1200.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -2445,6 +2614,7 @@ items:
     id: 31884
     marketGroup: 839
     name: Federation Navy Ogre
+    published: true
     volume: 25.0
   Garde I:
     Agility: 0.0010000000474974513
@@ -2461,9 +2631,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 25000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2474,6 +2646,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 15000
     MaxVelocity: 9.999999747378752E-6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2501,6 +2675,7 @@ items:
     id: 23561
     marketGroup: 911
     name: Garde I
+    published: true
     volume: 25.0
   Garde II:
     Agility: 0.0010000000474974513
@@ -2517,9 +2692,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 30000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2531,6 +2708,8 @@ items:
     MaxRange: 18000
     MaxVelocity: 9.999999747378752E-6
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2560,6 +2739,7 @@ items:
     id: 28211
     marketGroup: 911
     name: Garde II
+    published: true
     volume: 25.0
   Gecko:
     Agility: 100.0
@@ -2582,6 +2762,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 400
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -2595,6 +2776,8 @@ items:
     MaxVelocity: 1820.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -2622,6 +2805,7 @@ items:
     id: 33681
     marketGroup: 839
     name: Gecko
+    published: true
     volume: 50.0
   Hammerhead I:
     Agility: 100.0
@@ -2643,6 +2827,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 440
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2652,6 +2837,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4200
     MaxVelocity: 1680.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -2679,6 +2866,7 @@ items:
     id: 2183
     marketGroup: 838
     name: Hammerhead I
+    published: true
     volume: 10.0
   Hammerhead II:
     Agility: 100.0
@@ -2700,6 +2888,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 528
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2710,6 +2899,8 @@ items:
     MaxRange: 4200
     MaxVelocity: 2016.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -2739,6 +2930,7 @@ items:
     id: 2185
     marketGroup: 838
     name: Hammerhead II
+    published: true
     volume: 10.0
   Hobgoblin I:
     Agility: 100.0
@@ -2760,6 +2952,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2769,6 +2962,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 2100
     MaxVelocity: 2800.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2796,6 +2991,7 @@ items:
     id: 2454
     marketGroup: 837
     name: Hobgoblin I
+    published: true
     volume: 5.0
   Hobgoblin II:
     Agility: 100.0
@@ -2817,6 +3013,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2827,6 +3024,8 @@ items:
     MaxRange: 2100
     MaxVelocity: 3360.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2856,6 +3055,7 @@ items:
     id: 2456
     marketGroup: 837
     name: Hobgoblin II
+    published: true
     volume: 5.0
   Hornet I:
     Agility: 100.0
@@ -2877,6 +3077,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 745
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2887,6 +3088,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 2400
     MaxVelocity: 3150.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2913,6 +3116,7 @@ items:
     id: 2464
     marketGroup: 837
     name: Hornet I
+    published: true
     volume: 5.0
   Hornet II:
     Agility: 100.0
@@ -2934,6 +3138,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 894
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2945,6 +3150,8 @@ items:
     MaxRange: 2400
     MaxVelocity: 3780.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2973,6 +3180,7 @@ items:
     id: 2466
     marketGroup: 837
     name: Hornet II
+    published: true
     volume: 5.0
   Imperial Navy Acolyte:
     Agility: 100.0
@@ -2995,6 +3203,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 996
     EntityFlyRange: 800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3006,6 +3215,8 @@ items:
     MaxVelocity: 4620.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -3032,6 +3243,7 @@ items:
     id: 31864
     marketGroup: 837
     name: Imperial Navy Acolyte
+    published: true
     volume: 5.0
   Imperial Navy Curator:
     Agility: 0.0010000000474974513
@@ -3049,9 +3261,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 12000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3063,6 +3277,8 @@ items:
     MaxVelocity: 9.999999747378752E-6
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -3089,6 +3305,7 @@ items:
     id: 31868
     marketGroup: 911
     name: Imperial Navy Curator
+    published: true
     volume: 25.0
   Imperial Navy Infiltrator:
     Agility: 100.0
@@ -3111,6 +3328,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 630
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3122,6 +3340,8 @@ items:
     MaxVelocity: 2760.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3148,6 +3368,7 @@ items:
     id: 31866
     marketGroup: 838
     name: Imperial Navy Infiltrator
+    published: true
     volume: 10.0
   Imperial Navy Praetor:
     Agility: 100.0
@@ -3170,6 +3391,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 384
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3181,6 +3403,8 @@ items:
     MaxVelocity: 1656.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3207,6 +3431,7 @@ items:
     id: 31870
     marketGroup: 839
     name: Imperial Navy Praetor
+    published: true
     volume: 25.0
   Infiltrator I:
     Agility: 100.0
@@ -3229,6 +3454,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 525
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3238,6 +3464,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4800
     MaxVelocity: 2300.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3264,6 +3492,7 @@ items:
     id: 2173
     marketGroup: 838
     name: Infiltrator I
+    published: true
     volume: 10.0
   Infiltrator II:
     Agility: 100.0
@@ -3286,6 +3515,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 630
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3296,6 +3526,8 @@ items:
     MaxRange: 4800
     MaxVelocity: 2760.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3324,6 +3556,7 @@ items:
     id: 2175
     marketGroup: 838
     name: Infiltrator II
+    published: true
     volume: 10.0
   Ogre I:
     Agility: 100.0
@@ -3345,6 +3578,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 250
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3354,6 +3588,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4200
     MaxVelocity: 1000.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3381,6 +3617,7 @@ items:
     id: 2444
     marketGroup: 839
     name: Ogre I
+    published: true
     volume: 25.0
   Ogre II:
     Agility: 100.0
@@ -3402,6 +3639,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3412,6 +3650,8 @@ items:
     MaxRange: 4200
     MaxVelocity: 1200.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3441,6 +3681,7 @@ items:
     id: 2446
     marketGroup: 839
     name: Ogre II
+    published: true
     volume: 25.0
   Praetor I:
     Agility: 100.0
@@ -3463,6 +3704,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 320
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3472,6 +3714,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4800
     MaxVelocity: 1380.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3498,6 +3742,7 @@ items:
     id: 2193
     marketGroup: 839
     name: Praetor I
+    published: true
     volume: 25.0
   Praetor II:
     Agility: 100.0
@@ -3520,6 +3765,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 384
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3530,6 +3776,8 @@ items:
     MaxRange: 4800
     MaxVelocity: 1656.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3558,6 +3806,7 @@ items:
     id: 2195
     marketGroup: 839
     name: Praetor II
+    published: true
     volume: 25.0
   Republic Fleet Berserker:
     Agility: 100.0
@@ -3579,6 +3828,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 420
     EntityFlyRange: 2800.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -3591,6 +3841,8 @@ items:
     MaxVelocity: 1800.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3617,6 +3869,7 @@ items:
     id: 31892
     marketGroup: 839
     name: Republic Fleet Berserker
+    published: true
     volume: 25.0
   Republic Fleet Bouncer:
     Agility: 0.0010000000474974513
@@ -3633,9 +3886,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 54000
@@ -3648,6 +3903,8 @@ items:
     MaxVelocity: 9.999999747378752E-6
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -3674,6 +3931,7 @@ items:
     id: 31894
     marketGroup: 911
     name: Republic Fleet Bouncer
+    published: true
     volume: 25.0
   Republic Fleet Valkyrie:
     Agility: 100.0
@@ -3695,6 +3953,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -3707,6 +3966,8 @@ items:
     MaxVelocity: 3000.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3733,6 +3994,7 @@ items:
     id: 31890
     marketGroup: 838
     name: Republic Fleet Valkyrie
+    published: true
     volume: 10.0
   Republic Fleet Warrior:
     Agility: 100.0
@@ -3754,6 +4016,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 1080
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 20.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -3766,6 +4029,8 @@ items:
     MaxVelocity: 5040.0
     MetaGroupID: 4
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -3792,6 +4057,7 @@ items:
     id: 31888
     marketGroup: 837
     name: Republic Fleet Warrior
+    published: true
     volume: 5.0
   Valkyrie I:
     Agility: 100.0
@@ -3813,6 +4079,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 550
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -3823,6 +4090,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4200
     MaxVelocity: 2500.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3849,6 +4118,7 @@ items:
     id: 15510
     marketGroup: 838
     name: Valkyrie I
+    published: true
     volume: 10.0
   Valkyrie II:
     Agility: 100.0
@@ -3870,6 +4140,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 1400.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -3881,6 +4152,8 @@ items:
     MaxRange: 4200
     MaxVelocity: 3000.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3909,6 +4182,7 @@ items:
     id: 21640
     marketGroup: 838
     name: Valkyrie II
+    published: true
     volume: 10.0
   Vespa I:
     Agility: 100.0
@@ -3930,6 +4204,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 470
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3940,6 +4215,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4800
     MaxVelocity: 1890.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3966,6 +4243,7 @@ items:
     id: 15508
     marketGroup: 838
     name: Vespa I
+    published: true
     volume: 10.0
   Vespa II:
     Agility: 100.0
@@ -3987,6 +4265,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 564
     EntityFlyRange: 1600.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3998,6 +4277,8 @@ items:
     MaxRange: 4800
     MaxVelocity: 2268.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -4026,6 +4307,7 @@ items:
     id: 21638
     marketGroup: 838
     name: Vespa II
+    published: true
     volume: 10.0
   Warden I:
     Agility: 0.0010000000474974513
@@ -4042,9 +4324,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 35000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4055,6 +4339,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 50000
     MaxVelocity: 9.999999747378752E-6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -4081,6 +4367,7 @@ items:
     id: 23559
     marketGroup: 911
     name: Warden I
+    published: true
     volume: 25.0
   Warden II:
     Agility: 0.0010000000474974513
@@ -4097,9 +4384,11 @@ items:
     EntityAttackRange: 250000
     EntityChaseMaxDelay: 5000
     EntityChaseMaxDelayChance: 1
+    EntityChaseMaxDistance: 2500
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 42000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4111,6 +4400,8 @@ items:
     MaxRange: 60000
     MaxVelocity: 9.999999747378752E-6
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -4139,6 +4430,7 @@ items:
     id: 28209
     marketGroup: 911
     name: Warden II
+    published: true
     volume: 25.0
   Warrior I:
     Agility: 100.0
@@ -4160,6 +4452,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 900
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 20.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -4170,6 +4463,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 2100
     MaxVelocity: 4200.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -4196,6 +4491,7 @@ items:
     id: 2486
     marketGroup: 837
     name: Warrior I
+    published: true
     volume: 5.0
   Warrior II:
     Agility: 100.0
@@ -4217,6 +4513,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 900
     EntityFlyRange: 700.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 20.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -4228,6 +4525,8 @@ items:
     MaxRange: 2100
     MaxVelocity: 5040.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -4256,6 +4555,7 @@ items:
     id: 2488
     marketGroup: 837
     name: Warrior II
+    published: true
     volume: 5.0
   Wasp I:
     Agility: 100.0
@@ -4277,6 +4577,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 280
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4287,6 +4588,8 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4800
     MaxVelocity: 1125.0
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -4313,6 +4616,7 @@ items:
     id: 1201
     marketGroup: 839
     name: Wasp I
+    published: true
     volume: 25.0
   Wasp II:
     Agility: 100.0
@@ -4334,6 +4638,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 336
     EntityFlyRange: 3200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4345,6 +4650,8 @@ items:
     MaxRange: 4800
     MaxVelocity: 1350.0
     MetaLevel: 5
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -4373,6 +4680,7 @@ items:
     id: 2436
     marketGroup: 839
     name: Wasp II
+    published: true
     volume: 25.0
   unnamed_g100_ic0:
     Agility: 100.0
@@ -4395,6 +4703,7 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 440
     EntityFlyRange: 4200.0
+    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -4407,6 +4716,8 @@ items:
     MaxRange: 4200
     MaxVelocity: 1680.0
     MetaLevel: 6
+    MissileDamageMultiplier: 1.0
+    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -4434,4 +4745,5 @@ items:
     id: 48744
     marketGroup: 838
     name: unnamed_g100_ic0
+    published: true
     volume: 20.0

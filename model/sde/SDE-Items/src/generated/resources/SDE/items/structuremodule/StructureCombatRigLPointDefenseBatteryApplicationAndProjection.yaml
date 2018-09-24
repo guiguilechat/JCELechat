@@ -20,6 +20,7 @@ items:
     id: 37258
     marketGroup: 2345
     name: Standup L-Set Point Defense Battery Control I
+    published: true
     volume: 20.0
   Standup L-Set Point Defense Battery Control II:
     CanFitShipGroup01: 1657
@@ -42,4 +43,5 @@ items:
     id: 37259
     marketGroup: 2345
     name: Standup L-Set Point Defense Battery Control II
+    published: true
     volume: 20.0

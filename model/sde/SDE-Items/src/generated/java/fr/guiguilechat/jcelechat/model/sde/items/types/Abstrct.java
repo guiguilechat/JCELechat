@@ -5,6 +5,9 @@ import java.util.Collection;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.types.abstrct.Audio;
+import fr.guiguilechat.jcelechat.model.sde.items.types.abstrct.Decorations;
+import fr.guiguilechat.jcelechat.model.sde.items.types.abstrct.Miscellaneous;
 
 public abstract class Abstrct
     extends Item
@@ -32,7 +35,7 @@ public abstract class Abstrct
 
         @Override
         public Collection<IMetaGroup<? extends Abstrct>> groups() {
-            return Arrays.asList();
+            return Arrays.asList(Decorations.METAGROUP, Audio.METAGROUP, Miscellaneous.METAGROUP);
         }
     }
 }

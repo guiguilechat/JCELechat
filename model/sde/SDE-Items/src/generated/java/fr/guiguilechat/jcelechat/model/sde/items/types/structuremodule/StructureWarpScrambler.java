@@ -127,8 +127,8 @@ public class StructureWarpScrambler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double MaxVelocityMultiplier;
+    @DefaultIntValue(0)
+    public int MaxVelocityMultiplier;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -158,13 +158,6 @@ public class StructureWarpScrambler
     @Stackable(true)
     @DefaultDoubleValue(10000.0)
     public double ReloadTime;
-    /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -264,10 +257,6 @@ public class StructureWarpScrambler
             case  1795 :
             {
                 return ReloadTime;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  422 :
             {

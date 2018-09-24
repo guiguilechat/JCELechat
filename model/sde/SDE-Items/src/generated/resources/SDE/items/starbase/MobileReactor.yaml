@@ -26,6 +26,7 @@ items:
     id: 24684
     marketGroup: 490
     name: Biochemical Reactor Array
+    published: true
     volume: 4000.0
   Complex Reactor Array:
     AnchoringDelay: 5000
@@ -55,6 +56,7 @@ items:
     id: 16869
     marketGroup: 490
     name: Complex Reactor Array
+    published: true
     volume: 4000.0
   Medium Biochemical Reactor Array:
     AnchoringDelay: 5000
@@ -83,6 +85,7 @@ items:
     id: 22634
     marketGroup: 490
     name: Medium Biochemical Reactor Array
+    published: true
     volume: 4000.0
   Polymer Reactor Array:
     AnchoringDelay: 5000
@@ -112,6 +115,7 @@ items:
     id: 30656
     marketGroup: 490
     name: Polymer Reactor Array
+    published: true
     volume: 4000.0
   Simple Reactor Array:
     AnchoringDelay: 5000
@@ -140,4 +144,5 @@ items:
     id: 20175
     marketGroup: 490
     name: Simple Reactor Array
+    published: true
     volume: 4000.0

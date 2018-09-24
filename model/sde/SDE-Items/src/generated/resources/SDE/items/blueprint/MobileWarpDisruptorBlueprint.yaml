@@ -5,12 +5,14 @@ items:
     id: 12301
     marketGroup: 407
     name: Mobile Large Warp Disruptor I Blueprint
+    published: true
     volume: 0.01
   Mobile Large Warp Disruptor II Blueprint:
     IndustryBlueprintRank: 150.0
     TechLevel: 2
     id: 26889
     name: Mobile Large Warp Disruptor II Blueprint
+    published: true
     volume: 0.01
   Mobile Medium Warp Disruptor I Blueprint:
     IndustryBlueprintRank: 10.0
@@ -18,12 +20,14 @@ items:
     id: 12300
     marketGroup: 407
     name: Mobile Medium Warp Disruptor I Blueprint
+    published: true
     volume: 0.01
   Mobile Medium Warp Disruptor II Blueprint:
     IndustryBlueprintRank: 100.0
     TechLevel: 2
     id: 26891
     name: Mobile Medium Warp Disruptor II Blueprint
+    published: true
     volume: 0.01
   Mobile Small Warp Disruptor I Blueprint:
     IndustryBlueprintRank: 5.0
@@ -31,10 +35,12 @@ items:
     id: 12297
     marketGroup: 407
     name: Mobile Small Warp Disruptor I Blueprint
+    published: true
     volume: 0.01
   Mobile Small Warp Disruptor II Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 2
     id: 26893
     name: Mobile Small Warp Disruptor II Blueprint
+    published: true
     volume: 0.01

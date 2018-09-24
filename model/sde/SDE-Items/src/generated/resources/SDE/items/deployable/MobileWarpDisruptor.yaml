@@ -17,6 +17,7 @@ items:
     id: 12200
     marketGroup: 405
     name: Mobile Large Warp Disruptor I
+    published: true
     volume: 585.0
   Mobile Large Warp Disruptor II:
     AnchoringDelay: 240000
@@ -37,6 +38,7 @@ items:
     id: 26888
     marketGroup: 405
     name: Mobile Large Warp Disruptor II
+    published: true
     volume: 585.0
   Mobile Medium Warp Disruptor I:
     AnchoringDelay: 240000
@@ -56,6 +58,7 @@ items:
     id: 12199
     marketGroup: 405
     name: Mobile Medium Warp Disruptor I
+    published: true
     volume: 195.0
   Mobile Medium Warp Disruptor II:
     AnchoringDelay: 120000
@@ -76,6 +79,7 @@ items:
     id: 26890
     marketGroup: 405
     name: Mobile Medium Warp Disruptor II
+    published: true
     volume: 195.0
   Mobile Small Warp Disruptor I:
     AnchoringDelay: 120000
@@ -95,6 +99,7 @@ items:
     id: 12198
     marketGroup: 405
     name: Mobile Small Warp Disruptor I
+    published: true
     volume: 65.0
   Mobile Small Warp Disruptor II:
     AnchoringDelay: 60000
@@ -115,6 +120,7 @@ items:
     id: 26892
     marketGroup: 405
     name: Mobile Small Warp Disruptor II
+    published: true
     volume: 65.0
   Syndicate Mobile Large Warp Disruptor:
     AnchoringDelay: 240000
@@ -136,6 +142,7 @@ items:
     id: 28770
     marketGroup: 405
     name: Syndicate Mobile Large Warp Disruptor
+    published: true
     volume: 585.0
   Syndicate Mobile Medium Warp Disruptor:
     AnchoringDelay: 120000
@@ -157,6 +164,7 @@ items:
     id: 28772
     marketGroup: 405
     name: Syndicate Mobile Medium Warp Disruptor
+    published: true
     volume: 195.0
   Syndicate Mobile Small Warp Disruptor:
     AnchoringDelay: 60000
@@ -178,4 +186,5 @@ items:
     id: 28774
     marketGroup: 405
     name: Syndicate Mobile Small Warp Disruptor
+    published: true
     volume: 65.0

@@ -23,6 +23,7 @@ items:
     id: 22929
     marketGroup: 706
     name: '''Marketeer'' Tracking Computer'
+    published: true
     volume: 5.0
   Brynn's Modified Tracking Computer:
     CapacitorNeed: 11.0
@@ -48,6 +49,7 @@ items:
     id: 15284
     marketGroup: 706
     name: Brynn's Modified Tracking Computer
+    published: true
     volume: 5.0
   Cormack's Modified Tracking Computer:
     CapacitorNeed: 14.0
@@ -73,6 +75,7 @@ items:
     id: 15290
     marketGroup: 706
     name: Cormack's Modified Tracking Computer
+    published: true
     volume: 5.0
   F-12 Enduring Tracking Computer:
     CapacitorNeed: 4.0
@@ -97,6 +100,7 @@ items:
     id: 6176
     marketGroup: 706
     name: F-12 Enduring Tracking Computer
+    published: true
     volume: 5.0
   Federation Navy Tracking Computer:
     CapacitorNeed: 7.0
@@ -122,6 +126,7 @@ items:
     id: 15792
     marketGroup: 706
     name: Federation Navy Tracking Computer
+    published: true
     volume: 5.0
   Optical Compact Tracking Computer:
     CapacitorNeed: 7.0
@@ -146,6 +151,7 @@ items:
     id: 6173
     marketGroup: 706
     name: Optical Compact Tracking Computer
+    published: true
     volume: 5.0
   Setele's Modified Tracking Computer:
     CapacitorNeed: 13.0
@@ -171,6 +177,7 @@ items:
     id: 15288
     marketGroup: 706
     name: Setele's Modified Tracking Computer
+    published: true
     volume: 5.0
   Shadow Serpentis Tracking Computer:
     CapacitorNeed: 7.0
@@ -196,6 +203,7 @@ items:
     id: 14238
     marketGroup: 706
     name: Shadow Serpentis Tracking Computer
+    published: true
     volume: 5.0
   Tracking Computer I:
     CapacitorNeed: 7.0
@@ -219,6 +227,7 @@ items:
     id: 1977
     marketGroup: 706
     name: Tracking Computer I
+    published: true
     volume: 5.0
   Tracking Computer II:
     CapacitorNeed: 10.0
@@ -242,6 +251,7 @@ items:
     id: 1978
     marketGroup: 706
     name: Tracking Computer II
+    published: true
     volume: 5.0
   Tuvan's Modified Tracking Computer:
     CapacitorNeed: 12.0
@@ -267,4 +277,5 @@ items:
     id: 15286
     marketGroup: 706
     name: Tuvan's Modified Tracking Computer
+    published: true
     volume: 5.0

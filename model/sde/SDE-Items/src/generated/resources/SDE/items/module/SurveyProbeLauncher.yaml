@@ -17,6 +17,7 @@ items:
     id: 33270
     marketGroup: 1717
     name: Survey Probe Launcher I
+    published: true
     volume: 5.0
   Survey Probe Launcher II:
     ChargeGroup2: 492
@@ -38,4 +39,5 @@ items:
     id: 33272
     marketGroup: 1717
     name: Survey Probe Launcher II
+    published: true
     volume: 5.0

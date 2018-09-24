@@ -14,6 +14,7 @@ items:
     id: 45611
     marketGroup: 1134
     name: Legion Propulsion - Intercalated Nanofibers
+    published: true
     volume: 40.0
   Legion Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
@@ -33,6 +34,7 @@ items:
     id: 45610
     marketGroup: 1134
     name: Legion Propulsion - Interdiction Nullifier
+    published: true
     volume: 40.0
   Legion Propulsion - Wake Limiter:
     FitsToShipType: 29986
@@ -50,6 +52,7 @@ items:
     id: 45612
     marketGroup: 1134
     name: Legion Propulsion - Wake Limiter
+    published: true
     volume: 40.0
   Loki Propulsion - Intercalated Nanofibers:
     FitsToShipType: 29990
@@ -66,6 +69,7 @@ items:
     id: 45620
     marketGroup: 1137
     name: Loki Propulsion - Intercalated Nanofibers
+    published: true
     volume: 40.0
   Loki Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
@@ -85,6 +89,7 @@ items:
     id: 45619
     marketGroup: 1137
     name: Loki Propulsion - Interdiction Nullifier
+    published: true
     volume: 40.0
   Loki Propulsion - Wake Limiter:
     FitsToShipType: 29990
@@ -101,6 +106,7 @@ items:
     id: 45621
     marketGroup: 1137
     name: Loki Propulsion - Wake Limiter
+    published: true
     volume: 40.0
   Proteus Propulsion - Hyperspatial Optimization:
     FitsToShipType: 29988
@@ -117,6 +123,7 @@ items:
     id: 45617
     marketGroup: 1136
     name: Proteus Propulsion - Hyperspatial Optimization
+    published: true
     volume: 40.0
   Proteus Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
@@ -136,6 +143,7 @@ items:
     id: 45616
     marketGroup: 1136
     name: Proteus Propulsion - Interdiction Nullifier
+    published: true
     volume: 40.0
   Proteus Propulsion - Localized Injectors:
     FitsToShipType: 29988
@@ -153,6 +161,7 @@ items:
     id: 45618
     marketGroup: 1136
     name: Proteus Propulsion - Localized Injectors
+    published: true
     volume: 40.0
   Tengu Propulsion - Chassis Optimization:
     FitsToShipType: 29984
@@ -170,6 +179,7 @@ items:
     id: 45614
     marketGroup: 1135
     name: Tengu Propulsion - Chassis Optimization
+    published: true
     volume: 40.0
   Tengu Propulsion - Fuel Catalyst:
     FitsToShipType: 29984
@@ -186,6 +196,7 @@ items:
     id: 45615
     marketGroup: 1135
     name: Tengu Propulsion - Fuel Catalyst
+    published: true
     volume: 40.0
   Tengu Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
@@ -205,4 +216,5 @@ items:
     id: 45613
     marketGroup: 1135
     name: Tengu Propulsion - Interdiction Nullifier
+    published: true
     volume: 40.0

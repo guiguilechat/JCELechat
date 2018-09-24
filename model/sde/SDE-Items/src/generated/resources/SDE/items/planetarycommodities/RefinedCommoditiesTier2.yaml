@@ -5,6 +5,7 @@ items:
     id: 2329
     marketGroup: 1335
     name: Biocells
+    published: true
     volume: 1.5
   Construction Blocks:
     ExportTaxMultiplier: 7200
@@ -12,6 +13,7 @@ items:
     id: 3828
     marketGroup: 1335
     name: Construction Blocks
+    published: true
     volume: 1.5
   Consumer Electronics:
     ExportTaxMultiplier: 7200
@@ -19,6 +21,7 @@ items:
     id: 9836
     marketGroup: 1335
     name: Consumer Electronics
+    published: true
     volume: 1.5
   Coolant:
     ExportTaxMultiplier: 7200
@@ -26,6 +29,7 @@ items:
     id: 9832
     marketGroup: 1335
     name: Coolant
+    published: true
     volume: 1.5
   Enriched Uranium:
     ExportTaxMultiplier: 7200
@@ -33,6 +37,7 @@ items:
     id: 44
     marketGroup: 1335
     name: Enriched Uranium
+    published: true
     volume: 1.5
   Fertilizer:
     ExportTaxMultiplier: 7200
@@ -40,6 +45,7 @@ items:
     id: 3693
     marketGroup: 1335
     name: Fertilizer
+    published: true
     volume: 1.5
   Genetically Enhanced Livestock:
     ExportTaxMultiplier: 7200
@@ -47,6 +53,7 @@ items:
     id: 15317
     marketGroup: 1335
     name: Genetically Enhanced Livestock
+    published: true
     volume: 1.5
   Livestock:
     ExportTaxMultiplier: 7200
@@ -54,6 +61,7 @@ items:
     id: 3725
     marketGroup: 1335
     name: Livestock
+    published: true
     volume: 1.5
   Mechanical Parts:
     ExportTaxMultiplier: 7200
@@ -61,6 +69,7 @@ items:
     id: 3689
     marketGroup: 1335
     name: Mechanical Parts
+    published: true
     volume: 1.5
   Microfiber Shielding:
     ExportTaxMultiplier: 7200
@@ -68,6 +77,7 @@ items:
     id: 2327
     marketGroup: 1335
     name: Microfiber Shielding
+    published: true
     volume: 1.5
   Miniature Electronics:
     ExportTaxMultiplier: 7200
@@ -75,6 +85,7 @@ items:
     id: 9842
     marketGroup: 1335
     name: Miniature Electronics
+    published: true
     volume: 1.5
   Nanites:
     ExportTaxMultiplier: 7200
@@ -82,6 +93,7 @@ items:
     id: 2463
     marketGroup: 1335
     name: Nanites
+    published: true
     volume: 1.5
   Oxides:
     ExportTaxMultiplier: 7200
@@ -89,6 +101,7 @@ items:
     id: 2317
     marketGroup: 1335
     name: Oxides
+    published: true
     volume: 1.5
   Polyaramids:
     ExportTaxMultiplier: 7200
@@ -96,6 +109,7 @@ items:
     id: 2321
     marketGroup: 1335
     name: Polyaramids
+    published: true
     volume: 1.5
   Polytextiles:
     ExportTaxMultiplier: 7200
@@ -103,6 +117,7 @@ items:
     id: 3695
     marketGroup: 1335
     name: Polytextiles
+    published: true
     volume: 1.5
   Rocket Fuel:
     ExportTaxMultiplier: 7200
@@ -110,6 +125,7 @@ items:
     id: 9830
     marketGroup: 1335
     name: Rocket Fuel
+    published: true
     volume: 1.5
   Silicate Glass:
     ExportTaxMultiplier: 7200
@@ -117,6 +133,7 @@ items:
     id: 3697
     marketGroup: 1335
     name: Silicate Glass
+    published: true
     volume: 1.5
   Superconductors:
     ExportTaxMultiplier: 7200
@@ -124,6 +141,7 @@ items:
     id: 9838
     marketGroup: 1335
     name: Superconductors
+    published: true
     volume: 1.5
   Supertensile Plastics:
     ExportTaxMultiplier: 7200
@@ -131,6 +149,7 @@ items:
     id: 2312
     marketGroup: 1335
     name: Supertensile Plastics
+    published: true
     volume: 1.5
   Synthetic Oil:
     ExportTaxMultiplier: 7200
@@ -138,6 +157,7 @@ items:
     id: 3691
     marketGroup: 1335
     name: Synthetic Oil
+    published: true
     volume: 1.5
   Test Cultures:
     ExportTaxMultiplier: 7200
@@ -145,6 +165,7 @@ items:
     id: 2319
     marketGroup: 1335
     name: Test Cultures
+    published: true
     volume: 1.5
   Transmitter:
     ExportTaxMultiplier: 7200
@@ -152,6 +173,7 @@ items:
     id: 9840
     marketGroup: 1335
     name: Transmitter
+    published: true
     volume: 1.5
   Viral Agent:
     ExportTaxMultiplier: 7200
@@ -159,6 +181,7 @@ items:
     id: 3775
     marketGroup: 1335
     name: Viral Agent
+    published: true
     volume: 1.5
   Water-Cooled CPU:
     ExportTaxMultiplier: 7200
@@ -166,4 +189,5 @@ items:
     id: 2328
     marketGroup: 1335
     name: Water-Cooled CPU
+    published: true
     volume: 1.5

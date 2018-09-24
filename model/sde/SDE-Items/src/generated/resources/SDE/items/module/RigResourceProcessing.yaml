@@ -9,6 +9,7 @@ items:
     id: 31087
     marketGroup: 1785
     name: Capital Salvage Tackle I
+    published: true
     volume: 40.0
   Capital Salvage Tackle II:
     AccessDifficultyBonus: 15
@@ -21,6 +22,7 @@ items:
     id: 31093
     marketGroup: 1785
     name: Capital Salvage Tackle II
+    published: true
     volume: 40.0
   Large Salvage Tackle I:
     AccessDifficultyBonus: 10
@@ -32,6 +34,7 @@ items:
     id: 25902
     marketGroup: 1784
     name: Large Salvage Tackle I
+    published: true
     volume: 20.0
   Large Salvage Tackle II:
     AccessDifficultyBonus: 15
@@ -44,6 +47,7 @@ items:
     id: 26300
     marketGroup: 1784
     name: Large Salvage Tackle II
+    published: true
     volume: 20.0
   Medium Ice Harvester Accelerator I:
     Drawback: 10
@@ -55,6 +59,7 @@ items:
     id: 32819
     marketGroup: 1783
     name: Medium Ice Harvester Accelerator I
+    published: true
     volume: 10.0
   Medium Mercoxit Mining Crystal Optimization I:
     Drawback: 10
@@ -66,6 +71,7 @@ items:
     id: 32817
     marketGroup: 1783
     name: Medium Mercoxit Mining Crystal Optimization I
+    published: true
     volume: 10.0
   Medium Salvage Tackle I:
     AccessDifficultyBonus: 10
@@ -77,6 +83,7 @@ items:
     id: 31085
     marketGroup: 1783
     name: Medium Salvage Tackle I
+    published: true
     volume: 10.0
   Medium Salvage Tackle II:
     AccessDifficultyBonus: 15
@@ -89,6 +96,7 @@ items:
     id: 31091
     marketGroup: 1783
     name: Medium Salvage Tackle II
+    published: true
     volume: 10.0
   Small Salvage Tackle I:
     AccessDifficultyBonus: 10
@@ -100,6 +108,7 @@ items:
     id: 31083
     marketGroup: 1782
     name: Small Salvage Tackle I
+    published: true
     volume: 5.0
   Small Salvage Tackle II:
     AccessDifficultyBonus: 15
@@ -112,4 +121,5 @@ items:
     id: 31089
     marketGroup: 1782
     name: Small Salvage Tackle II
+    published: true
     volume: 5.0

@@ -1,0 +1,216 @@
+items:
+  Caldari CA Cruiser:
+    id: 45463
+    name: Caldari CA Cruiser
+    published: false
+    volume: 101000.0
+  Caldari Military Transport:
+    id: 22800
+    name: Caldari Military Transport
+    published: false
+    volume: 960000.0
+  Caldari Navy Blackbird:
+    id: 12394
+    name: Caldari Navy Blackbird
+    published: false
+    volume: 96000.0
+  Caldari Navy Moa:
+    id: 15320
+    name: Caldari Navy Moa
+    published: false
+    volume: 101000.0
+  Caldari Navy Raid Leader:
+    id: 15349
+    name: Caldari Navy Raid Leader
+    published: false
+    volume: 107000.0
+  Caldari Personnel Transport:
+    id: 16162
+    name: Caldari Personnel Transport
+    published: false
+    volume: 960000.0
+  Caldari Transport Ship:
+    id: 11712
+    name: Caldari Transport Ship
+    published: false
+    volume: 960000.0
+  Civilian Caldari Cruiser Blackbird:
+    id: 30729
+    name: Civilian Caldari Cruiser Blackbird
+    published: false
+    volume: 96000.0
+  Civilian Caldari Cruiser Caracal:
+    id: 30730
+    name: Civilian Caldari Cruiser Caracal
+    published: false
+    volume: 96000.0
+  Civilian Caldari Cruiser Moa:
+    id: 30731
+    name: Civilian Caldari Cruiser Moa
+    published: false
+    volume: 96000.0
+  Civilian Caldari Cruiser Osprey:
+    id: 30732
+    name: Civilian Caldari Cruiser Osprey
+    published: false
+    volume: 96000.0
+  Corporate Liaison:
+    id: 30950
+    name: Corporate Liaison
+    published: false
+    volume: 96000.0
+  Independent Blackbird:
+    id: 29765
+    name: Independent Blackbird
+    published: false
+    volume: 101000.0
+  Independent Caracal:
+    id: 29766
+    name: Independent Caracal
+    published: false
+    volume: 101000.0
+  Independent Green-Crewed Blackbird:
+    id: 29761
+    name: Independent Green-Crewed Blackbird
+    published: false
+    volume: 96000.0
+  Independent Green-Crewed Caracal:
+    id: 29762
+    name: Independent Green-Crewed Caracal
+    published: false
+    volume: 96000.0
+  Independent Green-Crewed Moa:
+    id: 29763
+    name: Independent Green-Crewed Moa
+    published: false
+    volume: 96000.0
+  Independent Green-Crewed Osprey:
+    id: 29764
+    name: Independent Green-Crewed Osprey
+    published: false
+    volume: 96000.0
+  Independent Moa:
+    id: 29767
+    name: Independent Moa
+    published: false
+    volume: 101000.0
+  Independent Osprey:
+    id: 29768
+    name: Independent Osprey
+    published: false
+    volume: 101000.0
+  Independent Veteran Blackbird:
+    id: 29769
+    name: Independent Veteran Blackbird
+    published: false
+    volume: 140000.0
+  Independent Veteran Caracal:
+    id: 29770
+    name: Independent Veteran Caracal
+    published: false
+    volume: 140000.0
+  Independent Veteran Moa:
+    id: 29771
+    name: Independent Veteran Moa
+    published: false
+    volume: 140000.0
+  Independent Veteran Osprey:
+    id: 29772
+    name: Independent Veteran Osprey
+    published: false
+    volume: 140000.0
+  Scions of the Superior Gene:
+    id: 2222
+    name: Scions of the Superior Gene
+    published: false
+    volume: 101000.0
+  State Ashigaru:
+    id: 25048
+    name: State Ashigaru
+    published: false
+    volume: 101000.0
+  State Buke:
+    id: 25052
+    name: State Buke
+    published: false
+    volume: 101000.0
+  State Bushi:
+    id: 25043
+    name: State Bushi
+    published: false
+    volume: 107000.0
+  State Chugen:
+    id: 25050
+    name: State Chugen
+    published: false
+    volume: 101000.0
+  State Dogo:
+    id: 25045
+    name: State Dogo
+    published: false
+    volume: 96000.0
+  State Fudai:
+    id: 25046
+    name: State Fudai
+    published: false
+    volume: 92000.0
+  State Shukuro Ashigaru:
+    id: 25054
+    name: State Shukuro Ashigaru
+    published: false
+    volume: 101000.0
+  State Shukuro Ashura:
+    id: 25058
+    name: State Shukuro Ashura
+    published: false
+    volume: 101000.0
+  State Shukuro Buke:
+    id: 25057
+    name: State Shukuro Buke
+    published: false
+    volume: 101000.0
+  State Shukuro Chugen:
+    id: 25056
+    name: State Shukuro Chugen
+    published: false
+    volume: 101000.0
+  Taibu State Bajo:
+    id: 25081
+    name: Taibu State Bajo
+    published: false
+    volume: 101000.0
+  Taibu State Daimyo:
+    id: 25078
+    name: Taibu State Daimyo
+    published: false
+    volume: 101000.0
+  Taibu State Kanpaku:
+    id: 25080
+    name: Taibu State Kanpaku
+    published: false
+    volume: 101000.0
+  Taibu State Oni:
+    id: 25079
+    name: Taibu State Oni
+    published: false
+    volume: 101000.0
+  Taibu State Samurai:
+    id: 25082
+    name: Taibu State Samurai
+    published: false
+    volume: 101000.0
+  Taibu State Shugo:
+    id: 25077
+    name: Taibu State Shugo
+    published: false
+    volume: 101000.0
+  Taibu State Sohei:
+    id: 25076
+    name: Taibu State Sohei
+    published: false
+    volume: 101000.0
+  Taibu State Tendai:
+    id: 25075
+    name: Taibu State Tendai
+    published: false
+    volume: 101000.0

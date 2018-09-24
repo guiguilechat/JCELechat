@@ -26,6 +26,7 @@ items:
     id: 22895
     marketGroup: 671
     name: '''Shady'' Sensor Booster'
+    published: true
     volume: 5.0
   Alumel-Wired Enduring Sensor Booster:
     CapacitorNeed: 6.0
@@ -53,6 +54,7 @@ items:
     id: 6159
     marketGroup: 671
     name: Alumel-Wired Enduring Sensor Booster
+    published: true
     volume: 5.0
   Brynn's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -81,6 +83,7 @@ items:
     id: 15276
     marketGroup: 671
     name: Brynn's Modified Sensor Booster
+    published: true
     volume: 5.0
   Cormack's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -109,6 +112,7 @@ items:
     id: 15282
     marketGroup: 671
     name: Cormack's Modified Sensor Booster
+    published: true
     volume: 5.0
   F-90 Compact Sensor Booster:
     CapacitorNeed: 10.0
@@ -136,6 +140,7 @@ items:
     id: 6160
     marketGroup: 671
     name: F-90 Compact Sensor Booster
+    published: true
     volume: 5.0
   Federation Navy Sensor Booster:
     CapacitorNeed: 9.0
@@ -164,6 +169,7 @@ items:
     id: 17520
     marketGroup: 671
     name: Federation Navy Sensor Booster
+    published: true
     volume: 5.0
   Sensor Booster I:
     CapacitorNeed: 10.0
@@ -190,6 +196,7 @@ items:
     id: 1973
     marketGroup: 671
     name: Sensor Booster I
+    published: true
     volume: 5.0
   Sensor Booster II:
     CapacitorNeed: 12.0
@@ -217,6 +224,7 @@ items:
     id: 1952
     marketGroup: 671
     name: Sensor Booster II
+    published: true
     volume: 5.0
   Sentient Sensor Booster:
     CapacitorNeed: 9.0
@@ -245,6 +253,7 @@ items:
     id: 41191
     marketGroup: 671
     name: Sentient Sensor Booster
+    published: true
     volume: 5.0
   Setele's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -272,6 +281,7 @@ items:
     id: 15280
     marketGroup: 671
     name: Setele's Modified Sensor Booster
+    published: true
     volume: 5.0
   Shadow Serpentis Sensor Booster:
     CapacitorNeed: 9.0
@@ -300,6 +310,7 @@ items:
     id: 14236
     marketGroup: 671
     name: Shadow Serpentis Sensor Booster
+    published: true
     volume: 5.0
   Tuvan's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -327,6 +338,7 @@ items:
     id: 15278
     marketGroup: 671
     name: Tuvan's Modified Sensor Booster
+    published: true
     volume: 5.0
   Unit D-34343's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -355,6 +367,7 @@ items:
     id: 41192
     marketGroup: 671
     name: Unit D-34343's Modified Sensor Booster
+    published: true
     volume: 5.0
   Unit F-435454's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -383,6 +396,7 @@ items:
     id: 41193
     marketGroup: 671
     name: Unit F-435454's Modified Sensor Booster
+    published: true
     volume: 5.0
   Unit P-343554's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -411,6 +425,7 @@ items:
     id: 41194
     marketGroup: 671
     name: Unit P-343554's Modified Sensor Booster
+    published: true
     volume: 5.0
   Unit W-634's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -439,4 +454,5 @@ items:
     id: 41195
     marketGroup: 671
     name: Unit W-634's Modified Sensor Booster
+    published: true
     volume: 5.0

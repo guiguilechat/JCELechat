@@ -1,0 +1,36 @@
+items:
+  Dismantler Alvior:
+    id: 23480
+    name: Dismantler Alvior
+    published: false
+    volume: 60.0
+  Marauder Alvior:
+    id: 23479
+    name: Marauder Alvior
+    published: false
+    volume: 60.0
+  Predator Alvior:
+    id: 23478
+    name: Predator Alvior
+    published: false
+    volume: 60.0
+  Ripper Alvior:
+    id: 23476
+    name: Ripper Alvior
+    published: false
+    volume: 60.0
+  Shatter Alvior:
+    id: 23475
+    name: Shatter Alvior
+    published: false
+    volume: 60.0
+  Shredder Alvior:
+    id: 23477
+    name: Shredder Alvior
+    published: false
+    volume: 60.0
+  Unidentified Spacecraft:
+    id: 29215
+    name: Unidentified Spacecraft
+    published: false
+    volume: 60.0

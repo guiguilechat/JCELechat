@@ -13,6 +13,7 @@ items:
     id: 443
     marketGroup: 713
     name: Ship Scanner I
+    published: true
     volume: 5.0
   Ship Scanner II:
     CapacitorNeed: 5.0
@@ -30,6 +31,7 @@ items:
     id: 1855
     marketGroup: 713
     name: Ship Scanner II
+    published: true
     volume: 5.0
   Ta3 Compact Ship Scanner:
     Cpu: 11.0
@@ -47,4 +49,5 @@ items:
     id: 6527
     marketGroup: 713
     name: Ta3 Compact Ship Scanner
+    published: true
     volume: 5.0

@@ -20,6 +20,7 @@ items:
     id: 37228
     marketGroup: 2344
     name: Standup M-Set Electronic Warfare Projection I
+    published: true
     volume: 10.0
   Standup M-Set Electronic Warfare Projection II:
     CanFitShipGroup01: 1657
@@ -42,4 +43,5 @@ items:
     id: 37229
     marketGroup: 2344
     name: Standup M-Set Electronic Warfare Projection II
+    published: true
     volume: 10.0

@@ -12,6 +12,7 @@ items:
     id: 33176
     marketGroup: 1709
     name: Scan Acquisition Array I
+    published: true
     volume: 5.0
   Scan Acquisition Array II:
     Cpu: 30.0
@@ -27,4 +28,5 @@ items:
     id: 33197
     marketGroup: 1709
     name: Scan Acquisition Array II
+    published: true
     volume: 5.0

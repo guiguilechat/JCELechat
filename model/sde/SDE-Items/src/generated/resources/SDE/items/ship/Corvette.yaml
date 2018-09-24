@@ -69,6 +69,7 @@ items:
     id: 617
     marketGroup: 1619
     name: Echo
+    published: true
     volume: 17660.0
   Hematos:
     Agility: 4.449999809265137
@@ -141,6 +142,7 @@ items:
     id: 33079
     marketGroup: 1619
     name: Hematos
+    published: true
     volume: 28100.0
   Ibis:
     Agility: 4.5
@@ -213,6 +215,7 @@ items:
     id: 601
     marketGroup: 1817
     name: Ibis
+    published: true
     volume: 15000.0
   Immolator:
     Agility: 4.449999809265137
@@ -283,6 +286,7 @@ items:
     id: 615
     marketGroup: 1619
     name: Immolator
+    published: true
     volume: 17400.0
   Impairor:
     Agility: 4.449999809265137
@@ -355,6 +359,7 @@ items:
     id: 596
     marketGroup: 1816
     name: Impairor
+    published: true
     volume: 28100.0
   Reaper:
     Agility: 4.349999904632568
@@ -427,6 +432,7 @@ items:
     id: 588
     marketGroup: 1819
     name: Reaper
+    published: true
     volume: 15800.0
   Taipan:
     Agility: 4.5
@@ -501,6 +507,7 @@ items:
     id: 33081
     marketGroup: 1619
     name: Taipan
+    published: true
     volume: 15000.0
   Velator:
     Agility: 4.349999904632568
@@ -573,6 +580,7 @@ items:
     id: 606
     marketGroup: 1818
     name: Velator
+    published: true
     volume: 24500.0
   Violator:
     Agility: 4.349999904632568
@@ -644,4 +652,5 @@ items:
     id: 33083
     marketGroup: 1619
     name: Violator
+    published: true
     volume: 24500.0

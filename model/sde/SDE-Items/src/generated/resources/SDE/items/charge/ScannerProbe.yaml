@@ -18,6 +18,7 @@ items:
     id: 30028
     marketGroup: 1199
     name: Combat Scanner Probe I
+    published: true
     volume: 1.0
   Core Scanner Probe I:
     Agility: 1000.0
@@ -37,6 +38,7 @@ items:
     id: 30013
     marketGroup: 1199
     name: Core Scanner Probe I
+    published: true
     volume: 0.1
   RSS Core Scanner Probe:
     Agility: 1000.0
@@ -57,6 +59,7 @@ items:
     id: 32246
     marketGroup: 1199
     name: RSS Core Scanner Probe
+    published: true
     volume: 0.1
   Sisters Combat Scanner Probe:
     Agility: 1000.0
@@ -78,6 +81,7 @@ items:
     id: 30486
     marketGroup: 1199
     name: Sisters Combat Scanner Probe
+    published: true
     volume: 1.0
   Sisters Core Scanner Probe:
     Agility: 1000.0
@@ -98,4 +102,5 @@ items:
     id: 30488
     marketGroup: 1199
     name: Sisters Core Scanner Probe
+    published: true
     volume: 0.1

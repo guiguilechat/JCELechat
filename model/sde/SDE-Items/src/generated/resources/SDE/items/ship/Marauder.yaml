@@ -84,6 +84,7 @@ items:
     id: 28710
     marketGroup: 1082
     name: Golem
+    published: true
     volume: 486000.0
   Kronos:
     Agility: 0.11699999868869781
@@ -170,6 +171,7 @@ items:
     id: 28661
     marketGroup: 1083
     name: Kronos
+    published: true
     volume: 486000.0
   Paladin:
     Agility: 0.11900000274181366
@@ -255,6 +257,7 @@ items:
     id: 28659
     marketGroup: 1081
     name: Paladin
+    published: true
     volume: 495000.0
   Vargur:
     Agility: 0.10999999940395355
@@ -340,4 +343,5 @@ items:
     id: 28665
     marketGroup: 1084
     name: Vargur
+    published: true
     volume: 450000.0

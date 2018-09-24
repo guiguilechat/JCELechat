@@ -5,10 +5,12 @@ items:
     id: 33177
     marketGroup: 1707
     name: Scan Acquisition Array I Blueprint
+    published: true
     volume: 0.01
   Scan Acquisition Array II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 33198
     name: Scan Acquisition Array II Blueprint
+    published: true
     volume: 0.01

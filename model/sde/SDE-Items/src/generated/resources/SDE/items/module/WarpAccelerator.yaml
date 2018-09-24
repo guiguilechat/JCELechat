@@ -10,6 +10,7 @@ items:
     id: 33983
     marketGroup: 1931
     name: Experimental Hyperspatial Accelerator
+    published: true
     volume: 5.0
   Limited Hyperspatial Accelerator:
     Hp: 40
@@ -22,6 +23,7 @@ items:
     id: 33981
     marketGroup: 1931
     name: Limited Hyperspatial Accelerator
+    published: true
     volume: 5.0
   Prototype Hyperspatial Accelerator:
     Hp: 40
@@ -34,4 +36,5 @@ items:
     id: 33985
     marketGroup: 1931
     name: Prototype Hyperspatial Accelerator
+    published: true
     volume: 5.0

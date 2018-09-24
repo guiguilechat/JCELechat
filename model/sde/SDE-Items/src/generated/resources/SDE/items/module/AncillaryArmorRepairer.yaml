@@ -25,6 +25,7 @@ items:
     id: 41503
     marketGroup: 1052
     name: Capital Ancillary Armor Repairer
+    published: true
     volume: 4000.0
   Large Abyssal Ancillary Armor Repairer:
     ChargeGroup2: 916
@@ -37,6 +38,7 @@ items:
     TechLevel: 1
     id: 47846
     name: Large Abyssal Ancillary Armor Repairer
+    published: true
     volume: 50.0
   Large Ancillary Armor Repairer:
     ArmorDamageAmount: 518
@@ -64,6 +66,7 @@ items:
     id: 33103
     marketGroup: 1051
     name: Large Ancillary Armor Repairer
+    published: true
     volume: 50.0
   Medium Abyssal Ancillary Armor Repairer:
     ChargeGroup2: 916
@@ -76,6 +79,7 @@ items:
     TechLevel: 1
     id: 47844
     name: Medium Abyssal Ancillary Armor Repairer
+    published: true
     volume: 10.0
   Medium Ancillary Armor Repairer:
     ArmorDamageAmount: 207
@@ -103,6 +107,7 @@ items:
     id: 33101
     marketGroup: 1050
     name: Medium Ancillary Armor Repairer
+    published: true
     volume: 10.0
   Small Abyssal Ancillary Armor Repairer:
     ChargeGroup2: 916
@@ -115,6 +120,7 @@ items:
     TechLevel: 1
     id: 47842
     name: Small Abyssal Ancillary Armor Repairer
+    published: true
     volume: 5.0
   Small Ancillary Armor Repairer:
     ArmorDamageAmount: 52
@@ -142,4 +148,5 @@ items:
     id: 33076
     marketGroup: 1049
     name: Small Ancillary Armor Repairer
+    published: true
     volume: 5.0

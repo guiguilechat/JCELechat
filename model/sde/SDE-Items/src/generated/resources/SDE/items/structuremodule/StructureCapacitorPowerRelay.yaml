@@ -9,6 +9,7 @@ items:
     id: 47356
     marketGroup: 2220
     name: Standup Capacitor Power Relay I
+    published: true
     volume: 4000.0
   Standup Capacitor Power Relay II:
     CapacitorRechargeRateMultiplier: 0.8799999952316284
@@ -21,4 +22,5 @@ items:
     id: 47358
     marketGroup: 2220
     name: Standup Capacitor Power Relay II
+    published: true
     volume: 4000.0

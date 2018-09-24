@@ -4,54 +4,63 @@ items:
     TechLevel: 1
     id: 23845
     name: '''Arquebus'' Heavy Beam Laser I Blueprint'
+    published: true
     volume: 0.01
   '''Ballista'' Tachyon Beam Laser I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 23851
     name: '''Ballista'' Tachyon Beam Laser I Blueprint'
+    published: true
     volume: 0.01
   '''Catapult'' Mega Beam Laser I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 23849
     name: '''Catapult'' Mega Beam Laser I Blueprint'
+    published: true
     volume: 0.01
   '''Crossbow'' Focused Medium Beam Laser I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 23841
     name: '''Crossbow'' Focused Medium Beam Laser I Blueprint'
+    published: true
     volume: 0.01
   '''Gauntlet'' Small Focused Beam Laser I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23839
     name: '''Gauntlet'' Small Focused Beam Laser I Blueprint'
+    published: true
     volume: 0.01
   '''Halberd'' Mega Pulse Laser I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 23847
     name: '''Halberd'' Mega Pulse Laser I Blueprint'
+    published: true
     volume: 0.01
   '''Joust'' Heavy Pulse Laser I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 23843
     name: '''Joust'' Heavy Pulse Laser I Blueprint'
+    published: true
     volume: 0.01
   '''Longbow'' Small Focused Pulse Laser I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23837
     name: '''Longbow'' Small Focused Pulse Laser I Blueprint'
+    published: true
     volume: 0.01
   '''Mace'' Dual Light Beam Laser I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23835
     name: '''Mace'' Dual Light Beam Laser I Blueprint'
+    published: true
     volume: 0.01
   Afocal Precise Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -59,6 +68,7 @@ items:
     id: 41123
     marketGroup: 794
     name: Afocal Precise Dual Giga Beam Laser Blueprint
+    published: true
     volume: 0.01
   Afocal Precise Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -66,6 +76,7 @@ items:
     id: 41108
     marketGroup: 794
     name: Afocal Precise Dual Giga Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Afocal Precise Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -73,6 +84,7 @@ items:
     id: 41072
     marketGroup: 794
     name: Afocal Precise Quad Mega Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Anode Scoped Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -80,6 +92,7 @@ items:
     id: 41122
     marketGroup: 794
     name: Anode Scoped Dual Giga Beam Laser Blueprint
+    published: true
     volume: 0.01
   Anode Scoped Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -87,6 +100,7 @@ items:
     id: 41107
     marketGroup: 794
     name: Anode Scoped Dual Giga Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Anode Scoped Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -94,6 +108,7 @@ items:
     id: 41071
     marketGroup: 794
     name: Anode Scoped Quad Mega Pulse Laser Blueprint
+    published: true
     volume: 0.01
   CONCORD Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 120.0
@@ -101,6 +116,7 @@ items:
     TechLevel: 1
     id: 3562
     name: CONCORD Dual Giga Beam Laser Blueprint
+    published: true
     volume: 0.01
   CONCORD Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 120.0
@@ -108,6 +124,7 @@ items:
     TechLevel: 1
     id: 3560
     name: CONCORD Dual Giga Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Dark Blood Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 400.0
@@ -115,6 +132,7 @@ items:
     TechLevel: 1
     id: 41124
     name: Dark Blood Dual Giga Beam Laser Blueprint
+    published: true
     volume: 0.01
   Dark Blood Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
@@ -122,6 +140,7 @@ items:
     TechLevel: 1
     id: 41111
     name: Dark Blood Dual Giga Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Dark Blood Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
@@ -129,6 +148,7 @@ items:
     TechLevel: 1
     id: 41074
     name: Dark Blood Quad Mega Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Dual Giga Beam Laser I Blueprint:
     IndustryBlueprintRank: 120.0
@@ -136,12 +156,14 @@ items:
     id: 20447
     marketGroup: 794
     name: Dual Giga Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Dual Giga Beam Laser II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
     id: 41186
     name: Dual Giga Beam Laser II Blueprint
+    published: true
     volume: 0.01
   Dual Giga Pulse Laser I Blueprint:
     IndustryBlueprintRank: 120.0
@@ -149,12 +171,14 @@ items:
     id: 20445
     marketGroup: 794
     name: Dual Giga Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Dual Giga Pulse Laser II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
     id: 41110
     name: Dual Giga Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Dual Heavy Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
@@ -162,12 +186,14 @@ items:
     id: 845
     marketGroup: 295
     name: Dual Heavy Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Dual Heavy Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 2986
     name: Dual Heavy Beam Laser II Blueprint
+    published: true
     volume: 0.01
   Dual Heavy Pulse Laser I Blueprint:
     IndustryBlueprintRank: 9.0
@@ -175,12 +201,14 @@ items:
     id: 844
     marketGroup: 295
     name: Dual Heavy Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Dual Heavy Pulse Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 4148
     name: Dual Heavy Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Dual Light Beam Laser I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -188,12 +216,14 @@ items:
     id: 836
     marketGroup: 292
     name: Dual Light Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Dual Light Beam Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 2994
     name: Dual Light Beam Laser II Blueprint
+    published: true
     volume: 0.01
   Dual Light Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -201,12 +231,14 @@ items:
     id: 835
     marketGroup: 292
     name: Dual Light Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Dual Light Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 3002
     name: Dual Light Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Focused Medium Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -214,12 +246,14 @@ items:
     id: 841
     marketGroup: 293
     name: Focused Medium Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Focused Medium Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 3010
     name: Focused Medium Beam Laser II Blueprint
+    published: true
     volume: 0.01
   Focused Medium Pulse Laser I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -227,12 +261,14 @@ items:
     id: 840
     marketGroup: 293
     name: Focused Medium Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Focused Medium Pulse Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 3513
     name: Focused Medium Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Gatling Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -240,12 +276,14 @@ items:
     id: 834
     marketGroup: 292
     name: Gatling Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Gatling Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 3018
     name: Gatling Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Heavy Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -253,12 +291,14 @@ items:
     id: 843
     marketGroup: 293
     name: Heavy Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Heavy Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 3026
     name: Heavy Beam Laser II Blueprint
+    published: true
     volume: 0.01
   Heavy Pulse Laser I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -266,12 +306,14 @@ items:
     id: 842
     marketGroup: 293
     name: Heavy Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Heavy Pulse Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 3521
     name: Heavy Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Mega Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
@@ -279,12 +321,14 @@ items:
     id: 847
     marketGroup: 295
     name: Mega Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Mega Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 3050
     name: Mega Beam Laser II Blueprint
+    published: true
     volume: 0.01
   Mega Pulse Laser I Blueprint:
     IndustryBlueprintRank: 9.0
@@ -292,12 +336,14 @@ items:
     id: 846
     marketGroup: 295
     name: Mega Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Mega Pulse Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 3058
     name: Mega Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Modal Enduring Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -305,6 +351,7 @@ items:
     id: 41121
     marketGroup: 794
     name: Modal Enduring Dual Giga Beam Laser Blueprint
+    published: true
     volume: 0.01
   Modal Enduring Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -312,6 +359,7 @@ items:
     id: 41106
     marketGroup: 794
     name: Modal Enduring Dual Giga Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Modal Enduring Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -319,6 +367,7 @@ items:
     id: 41070
     marketGroup: 794
     name: Modal Enduring Quad Mega Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Modulated Compact Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -326,6 +375,7 @@ items:
     id: 41120
     marketGroup: 794
     name: Modulated Compact Dual Giga Beam Laser Blueprint
+    published: true
     volume: 0.01
   Modulated Compact Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -333,6 +383,7 @@ items:
     id: 41105
     marketGroup: 794
     name: Modulated Compact Dual Giga Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Modulated Compact Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
@@ -340,21 +391,25 @@ items:
     id: 41069
     marketGroup: 794
     name: Modulated Compact Quad Mega Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Polarized Heavy Pulse Laser Blueprint:
     TechLevel: 2
     id: 34275
     name: Polarized Heavy Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Polarized Mega Pulse Laser Blueprint:
     TechLevel: 2
     id: 34277
     name: Polarized Mega Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Polarized Small Focused Pulse Laser Blueprint:
     TechLevel: 2
     id: 34273
     name: Polarized Small Focused Pulse Laser Blueprint
+    published: true
     volume: 0.01
   Quad Light Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -362,12 +417,14 @@ items:
     id: 839
     marketGroup: 293
     name: Quad Light Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Quad Light Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 3286
     name: Quad Light Beam Laser II Blueprint
+    published: true
     volume: 0.01
   Quad Mega Pulse Laser I Blueprint:
     IndustryBlueprintRank: 120.0
@@ -375,12 +432,14 @@ items:
     id: 41068
     marketGroup: 794
     name: Quad Mega Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Quad Mega Pulse Laser II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
     id: 41073
     name: Quad Mega Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Small Focused Beam Laser I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -388,12 +447,14 @@ items:
     id: 838
     marketGroup: 292
     name: Small Focused Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Small Focused Beam Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 3034
     name: Small Focused Beam Laser II Blueprint
+    published: true
     volume: 0.01
   Small Focused Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -401,12 +462,14 @@ items:
     id: 837
     marketGroup: 292
     name: Small Focused Pulse Laser I Blueprint
+    published: true
     volume: 0.01
   Small Focused Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 3042
     name: Small Focused Pulse Laser II Blueprint
+    published: true
     volume: 0.01
   Tachyon Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
@@ -414,12 +477,14 @@ items:
     id: 848
     marketGroup: 295
     name: Tachyon Beam Laser I Blueprint
+    published: true
     volume: 0.01
   Tachyon Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 3066
     name: Tachyon Beam Laser II Blueprint
+    published: true
     volume: 0.01
   True Sansha Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 400.0
@@ -427,6 +492,7 @@ items:
     TechLevel: 1
     id: 41125
     name: True Sansha Dual Giga Beam Laser Blueprint
+    published: true
     volume: 0.01
   True Sansha Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
@@ -434,6 +500,7 @@ items:
     TechLevel: 1
     id: 41113
     name: True Sansha Dual Giga Pulse Laser Blueprint
+    published: true
     volume: 0.01
   True Sansha Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
@@ -441,4 +508,5 @@ items:
     TechLevel: 1
     id: 41075
     name: True Sansha Quad Mega Pulse Laser Blueprint
+    published: true
     volume: 0.01

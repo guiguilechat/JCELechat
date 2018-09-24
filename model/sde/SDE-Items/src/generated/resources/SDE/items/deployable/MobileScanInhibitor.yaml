@@ -19,4 +19,5 @@ items:
     id: 33589
     marketGroup: 1845
     name: Mobile Scan Inhibitor
+    published: true
     volume: 100.0

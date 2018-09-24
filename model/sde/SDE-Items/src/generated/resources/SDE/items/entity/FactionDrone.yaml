@@ -1,0 +1,331 @@
+items:
+  Ammatar Navy Captain:
+    id: 10650
+    name: Ammatar Navy Captain
+    published: false
+    volume: 28700.0
+  Ammatar Navy Colonel:
+    id: 10669
+    name: Ammatar Navy Colonel
+    published: false
+    volume: 120000.0
+  Ammatar Navy General:
+    id: 10089
+    name: Ammatar Navy General
+    published: false
+    volume: 1080000.0
+  Ammatar Navy Major:
+    id: 10086
+    name: Ammatar Navy Major
+    published: false
+    volume: 28600.0
+  Ammatar Navy Sergeant:
+    id: 10084
+    name: Ammatar Navy Sergeant
+    published: false
+    volume: 18100.0
+  Ammatar Navy Sergeant Major:
+    id: 10085
+    name: Ammatar Navy Sergeant Major
+    published: false
+    volume: 28100.0
+  Caldari Navy Captain 1st Rank:
+    id: 10047
+    name: Caldari Navy Captain 1st Rank
+    published: false
+    volume: 19700.0
+  Caldari Navy Captain 2nd Rank:
+    id: 10046
+    name: Caldari Navy Captain 2nd Rank
+    published: false
+    volume: 20400.0
+  Caldari Navy Captain 3rd Rank:
+    id: 10651
+    name: Caldari Navy Captain 3rd Rank
+    published: false
+    volume: 18000.0
+  Caldari Navy Commodore:
+    id: 10048
+    name: Caldari Navy Commodore
+    published: false
+    volume: 16500.0
+  Caldari Navy Fleet Admiral:
+    id: 11138
+    name: Caldari Navy Fleet Admiral
+    published: false
+    volume: 1080000.0
+  Caldari Navy Vice Admiral:
+    id: 10050
+    name: Caldari Navy Vice Admiral
+    published: false
+    volume: 92000.0
+  DED Army Captain:
+    id: 3886
+    name: DED Army Captain
+    published: false
+    volume: 101000.0
+  DED Army Commander:
+    id: 11127
+    name: DED Army Commander
+    published: false
+    volume: 1080000.0
+  DED Army Officer:
+    id: 3883
+    name: DED Army Officer
+    published: false
+    volume: 20400.0
+  Federation Navy Command Sergeant Major:
+    id: 10052
+    name: Federation Navy Command Sergeant Major
+    published: false
+    volume: 29500.0
+  Federation Navy First Sergeant:
+    id: 10652
+    name: Federation Navy First Sergeant
+    published: false
+    volume: 22500.0
+  Federation Navy Fleet Captain:
+    id: 10053
+    name: Federation Navy Fleet Captain
+    published: false
+    volume: 16200.0
+  Federation Navy Fleet Colonel:
+    id: 10057
+    name: Federation Navy Fleet Colonel
+    published: false
+    volume: 112000.0
+  Federation Navy Fleet General:
+    id: 11139
+    name: Federation Navy Fleet General
+    published: false
+    volume: 1140000.0
+  Federation Navy Fleet Major:
+    id: 10056
+    name: Federation Navy Fleet Major
+    published: false
+    volume: 116000.0
+  Federation Navy Sergeant Major:
+    id: 10054
+    name: Federation Navy Sergeant Major
+    published: false
+    volume: 23000.0
+  Imperial Navy Captain:
+    id: 9999
+    name: Imperial Navy Captain
+    published: false
+    volume: 28700.0
+  Imperial Navy Colonel:
+    id: 10001
+    name: Imperial Navy Colonel
+    published: false
+    volume: 120000.0
+  Imperial Navy Fleet Marshall:
+    id: 11137
+    name: Imperial Navy Fleet Marshall
+    published: false
+    volume: 1100000.0
+  Imperial Navy General:
+    id: 10003
+    name: Imperial Navy General
+    published: false
+    volume: 118000.0
+  Imperial Navy Major:
+    id: 10000
+    name: Imperial Navy Major
+    published: false
+    volume: 28600.0
+  Imperial Navy Sergeant:
+    id: 9998
+    name: Imperial Navy Sergeant
+    published: false
+    volume: 18100.0
+  Imperial Navy Sergeant Major:
+    id: 9997
+    name: Imperial Navy Sergeant Major
+    published: false
+    volume: 28100.0
+  Intaki Defense Command Sergeant Major:
+    id: 10107
+    name: Intaki Defense Command Sergeant Major
+    published: false
+    volume: 23000.0
+  Intaki Defense First Sergeant:
+    id: 10653
+    name: Intaki Defense First Sergeant
+    published: false
+    volume: 24500.0
+  Intaki Defense Fleet Captain:
+    id: 10108
+    name: Intaki Defense Fleet Captain
+    published: false
+    volume: 29500.0
+  Intaki Defense Fleet Colonel:
+    id: 10109
+    name: Intaki Defense Fleet Colonel
+    published: false
+    volume: 115000.0
+  Intaki Defense Fleet Major:
+    id: 10677
+    name: Intaki Defense Fleet Major
+    published: false
+    volume: 116000.0
+  Intaki Defense Sergeant Major:
+    id: 10106
+    name: Intaki Defense Sergeant Major
+    published: false
+    volume: 18500.0
+  Khanid Navy Captain:
+    id: 10670
+    name: Khanid Navy Captain
+    published: false
+    volume: 28700.0
+  Khanid Navy Colonel:
+    id: 10082
+    name: Khanid Navy Colonel
+    published: false
+    volume: 120000.0
+  Khanid Navy General:
+    id: 10083
+    name: Khanid Navy General
+    published: false
+    volume: 1080000.0
+  Khanid Navy Major:
+    id: 10080
+    name: Khanid Navy Major
+    published: false
+    volume: 28600.0
+  Khanid Navy Sergeant:
+    id: 10076
+    name: Khanid Navy Sergeant
+    published: false
+    volume: 18100.0
+  Khanid Navy Sergeant Major:
+    id: 10079
+    name: Khanid Navy Sergeant Major
+    published: false
+    volume: 28100.0
+  Mordu's Captain:
+    id: 10134
+    name: Mordu's Captain
+    published: false
+    volume: 92000.0
+  Mordu's Legion:
+    id: 10655
+    name: Mordu's Legion
+    published: false
+    volume: 101000.0
+  Mordu's Lieutenant:
+    id: 10133
+    name: Mordu's Lieutenant
+    published: false
+    volume: 16500.0
+  Mordu's Lieutenant 1st Rank:
+    id: 10654
+    name: Mordu's Lieutenant 1st Rank
+    published: false
+    volume: 19700.0
+  Mordu's Lieutenant 2nd Rank:
+    id: 10126
+    name: Mordu's Lieutenant 2nd Rank
+    published: false
+    volume: 19400.0
+  Mordu's Lieutenant 3rd Rank:
+    id: 10125
+    name: Mordu's Lieutenant 3rd Rank
+    published: false
+    volume: 20250.0
+  Republic Fleet Captain:
+    id: 10060
+    name: Republic Fleet Captain
+    published: false
+    volume: 19800.0
+  Republic Fleet Commander:
+    id: 10077
+    name: Republic Fleet Commander
+    published: false
+    volume: 96000.0
+  Republic Fleet High Captain:
+    id: 10078
+    name: Republic Fleet High Captain
+    published: false
+    volume: 85000.0
+  Republic Fleet High Commander:
+    id: 11140
+    name: Republic Fleet High Commander
+    published: false
+    volume: 850000.0
+  Republic Fleet Private 1st Rank:
+    id: 10663
+    name: Republic Fleet Private 1st Rank
+    published: false
+    volume: 20000.0
+  Republic Fleet Private 2nd Rank:
+    id: 10664
+    name: Republic Fleet Private 2nd Rank
+    published: false
+    volume: 17400.0
+  Republic Fleet Private 3rd Rank:
+    id: 10058
+    name: Republic Fleet Private 3rd Rank
+    published: false
+    volume: 17400.0
+  Sarum Navy Captain:
+    id: 10092
+    name: Sarum Navy Captain
+    published: false
+    volume: 18700.0
+  Sarum Navy Colonel:
+    id: 10676
+    name: Sarum Navy Colonel
+    published: false
+    volume: 120000.0
+  Sarum Navy General:
+    id: 10095
+    name: Sarum Navy General
+    published: false
+    volume: 1080000.0
+  Sarum Navy Major:
+    id: 10091
+    name: Sarum Navy Major
+    published: false
+    volume: 28600.0
+  Sarum Navy Sergeant:
+    id: 10090
+    name: Sarum Navy Sergeant
+    published: false
+    volume: 18100.0
+  Sarum Navy Sergeant Major:
+    id: 10656
+    name: Sarum Navy Sergeant Major
+    published: false
+    volume: 28100.0
+  Thukker Brute:
+    id: 10111
+    name: Thukker Brute
+    published: false
+    volume: 17100.0
+  Thukker Tribal Lord:
+    id: 10113
+    name: Thukker Tribal Lord
+    published: false
+    volume: 80000.0
+  Thukker Tribal Priest:
+    id: 10658
+    name: Thukker Tribal Priest
+    published: false
+    volume: 89000.0
+  Thukker Tribalist:
+    id: 10657
+    name: Thukker Tribalist
+    published: false
+    volume: 27289.0
+  Thukker Warrior:
+    id: 10112
+    name: Thukker Warrior
+    published: false
+    volume: 17400.0
+  Thukker Wingman:
+    id: 24265
+    name: Thukker Wingman
+    published: false
+    volume: 15800.0

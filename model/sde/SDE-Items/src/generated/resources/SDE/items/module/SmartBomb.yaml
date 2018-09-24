@@ -18,6 +18,7 @@ items:
     id: 23866
     marketGroup: 383
     name: '''Lance'' Medium EMP Smartbomb I'
+    published: true
     volume: 10.0
   '''Pike'' Small EMP Smartbomb I':
     CapacitorNeed: 30.0
@@ -38,6 +39,7 @@ items:
     id: 23864
     marketGroup: 382
     name: '''Pike'' Small EMP Smartbomb I'
+    published: true
     volume: 5.0
   '''Warhammer'' Large EMP Smartbomb I':
     CapacitorNeed: 200.0
@@ -58,6 +60,7 @@ items:
     id: 23868
     marketGroup: 381
     name: '''Warhammer'' Large EMP Smartbomb I'
+    published: true
     volume: 50.0
   Ahremen's Modified Large EMP Smartbomb:
     Duration: 10000.0
@@ -76,6 +79,7 @@ items:
     id: 14794
     marketGroup: 381
     name: Ahremen's Modified Large EMP Smartbomb
+    published: true
     volume: 50.0
   Ammatar Navy Large EMP Smartbomb:
     Duration: 10000.0
@@ -94,6 +98,7 @@ items:
     id: 15947
     marketGroup: 381
     name: Ammatar Navy Large EMP Smartbomb
+    published: true
     volume: 50.0
   Ammatar Navy Medium EMP Smartbomb:
     Duration: 10000.0
@@ -112,6 +117,7 @@ items:
     id: 15945
     marketGroup: 383
     name: Ammatar Navy Medium EMP Smartbomb
+    published: true
     volume: 10.0
   Ammatar Navy Micro EMP Smartbomb:
     Duration: 10000.0
@@ -130,6 +136,7 @@ items:
     id: 15943
     marketGroup: 380
     name: Ammatar Navy Micro EMP Smartbomb
+    published: true
     volume: 2.5
   Ammatar Navy Small EMP Smartbomb:
     Duration: 10000.0
@@ -148,6 +155,7 @@ items:
     id: 15941
     marketGroup: 382
     name: Ammatar Navy Small EMP Smartbomb
+    published: true
     volume: 5.0
   Brokara's Modified Large EMP Smartbomb:
     Duration: 10000.0
@@ -166,6 +174,7 @@ items:
     id: 14784
     marketGroup: 381
     name: Brokara's Modified Large EMP Smartbomb
+    published: true
     volume: 50.0
   Brynn's Modified Large Plasma Smartbomb:
     Duration: 10000.0
@@ -184,6 +193,7 @@ items:
     id: 15152
     marketGroup: 381
     name: Brynn's Modified Large Plasma Smartbomb
+    published: true
     volume: 50.0
   Caldari Navy Large Graviton Smartbomb:
     Duration: 10000.0
@@ -202,6 +212,7 @@ items:
     id: 15931
     marketGroup: 381
     name: Caldari Navy Large Graviton Smartbomb
+    published: true
     volume: 50.0
   Caldari Navy Medium Graviton Smartbomb:
     Duration: 10000.0
@@ -220,6 +231,7 @@ items:
     id: 15929
     marketGroup: 383
     name: Caldari Navy Medium Graviton Smartbomb
+    published: true
     volume: 10.0
   Caldari Navy Micro Graviton Smartbomb:
     Duration: 10000.0
@@ -238,6 +250,7 @@ items:
     id: 15927
     marketGroup: 380
     name: Caldari Navy Micro Graviton Smartbomb
+    published: true
     volume: 2.5
   Caldari Navy Small Graviton Smartbomb:
     Duration: 10000.0
@@ -256,6 +269,7 @@ items:
     id: 15925
     marketGroup: 382
     name: Caldari Navy Small Graviton Smartbomb
+    published: true
     volume: 5.0
   Chelm's Modified Large EMP Smartbomb:
     Duration: 10000.0
@@ -274,6 +288,7 @@ items:
     id: 14796
     marketGroup: 381
     name: Chelm's Modified Large EMP Smartbomb
+    published: true
     volume: 50.0
   Cormack's Modified Large Plasma Smartbomb:
     Duration: 10000.0
@@ -292,6 +307,7 @@ items:
     id: 15158
     marketGroup: 381
     name: Cormack's Modified Large Plasma Smartbomb
+    published: true
     volume: 50.0
   Dark Blood Large EMP Smartbomb:
     Duration: 10000.0
@@ -310,6 +326,7 @@ items:
     id: 14188
     marketGroup: 381
     name: Dark Blood Large EMP Smartbomb
+    published: true
     volume: 50.0
   Dark Blood Medium EMP Smartbomb:
     Duration: 10000.0
@@ -328,6 +345,7 @@ items:
     id: 14192
     marketGroup: 383
     name: Dark Blood Medium EMP Smartbomb
+    published: true
     volume: 10.0
   Dark Blood Micro EMP Smartbomb:
     Duration: 10000.0
@@ -346,6 +364,7 @@ items:
     id: 14196
     marketGroup: 380
     name: Dark Blood Micro EMP Smartbomb
+    published: true
     volume: 2.5
   Dark Blood Small EMP Smartbomb:
     Duration: 10000.0
@@ -364,6 +383,7 @@ items:
     id: 14200
     marketGroup: 382
     name: Dark Blood Small EMP Smartbomb
+    published: true
     volume: 5.0
   Domination Large Proton Smartbomb:
     Duration: 10000.0
@@ -382,6 +402,7 @@ items:
     id: 14208
     marketGroup: 381
     name: Domination Large Proton Smartbomb
+    published: true
     volume: 50.0
   Domination Medium Proton Smartbomb:
     Duration: 10000.0
@@ -400,6 +421,7 @@ items:
     id: 14222
     marketGroup: 383
     name: Domination Medium Proton Smartbomb
+    published: true
     volume: 10.0
   Domination Micro Proton Smartbomb:
     Duration: 10000.0
@@ -418,6 +440,7 @@ items:
     id: 14224
     marketGroup: 380
     name: Domination Micro Proton Smartbomb
+    published: true
     volume: 2.5
   Domination Small Proton Smartbomb:
     Duration: 10000.0
@@ -436,6 +459,7 @@ items:
     id: 14226
     marketGroup: 382
     name: Domination Small Proton Smartbomb
+    published: true
     volume: 5.0
   Draclira's Modified Large EMP Smartbomb:
     Duration: 10000.0
@@ -454,6 +478,7 @@ items:
     id: 14798
     marketGroup: 381
     name: Draclira's Modified Large EMP Smartbomb
+    published: true
     volume: 50.0
   Dread Guristas Large Graviton Smartbomb:
     Duration: 10000.0
@@ -472,6 +497,7 @@ items:
     id: 14204
     marketGroup: 381
     name: Dread Guristas Large Graviton Smartbomb
+    published: true
     volume: 50.0
   Dread Guristas Medium Graviton Smartbomb:
     Duration: 10000.0
@@ -490,6 +516,7 @@ items:
     id: 14210
     marketGroup: 383
     name: Dread Guristas Medium Graviton Smartbomb
+    published: true
     volume: 10.0
   Dread Guristas Micro Graviton Smartbomb:
     Duration: 10000.0
@@ -508,6 +535,7 @@ items:
     id: 14212
     marketGroup: 380
     name: Dread Guristas Micro Graviton Smartbomb
+    published: true
     volume: 2.5
   Dread Guristas Small Graviton Smartbomb:
     Duration: 10000.0
@@ -526,6 +554,7 @@ items:
     id: 14214
     marketGroup: 382
     name: Dread Guristas Small Graviton Smartbomb
+    published: true
     volume: 5.0
   Estamel's Modified Large Graviton Smartbomb:
     Duration: 10000.0
@@ -544,6 +573,7 @@ items:
     id: 14698
     marketGroup: 381
     name: Estamel's Modified Large Graviton Smartbomb
+    published: true
     volume: 50.0
   Federation Navy Large Plasma Smartbomb:
     Duration: 10000.0
@@ -562,6 +592,7 @@ items:
     id: 15955
     marketGroup: 381
     name: Federation Navy Large Plasma Smartbomb
+    published: true
     volume: 50.0
   Federation Navy Medium Plasma Smartbomb:
     Duration: 10000.0
@@ -580,6 +611,7 @@ items:
     id: 15953
     marketGroup: 383
     name: Federation Navy Medium Plasma Smartbomb
+    published: true
     volume: 10.0
   Federation Navy Micro Plasma Smartbomb:
     Duration: 10000.0
@@ -598,6 +630,7 @@ items:
     id: 15951
     marketGroup: 380
     name: Federation Navy Micro Plasma Smartbomb
+    published: true
     volume: 2.5
   Federation Navy Small Plasma Smartbomb:
     Duration: 10000.0
@@ -616,6 +649,7 @@ items:
     id: 15949
     marketGroup: 382
     name: Federation Navy Small Plasma Smartbomb
+    published: true
     volume: 5.0
   Gotan's Modified Large Proton Smartbomb:
     Duration: 10000.0
@@ -634,6 +668,7 @@ items:
     id: 14548
     marketGroup: 381
     name: Gotan's Modified Large Proton Smartbomb
+    published: true
     volume: 50.0
   Hakim's Modified Large Proton Smartbomb:
     Duration: 10000.0
@@ -652,6 +687,7 @@ items:
     id: 14546
     marketGroup: 381
     name: Hakim's Modified Large Proton Smartbomb
+    published: true
     volume: 50.0
   Imperial Navy Large EMP Smartbomb:
     Duration: 10000.0
@@ -670,6 +706,7 @@ items:
     id: 15963
     marketGroup: 381
     name: Imperial Navy Large EMP Smartbomb
+    published: true
     volume: 50.0
   Imperial Navy Medium EMP Smartbomb:
     Duration: 10000.0
@@ -688,6 +725,7 @@ items:
     id: 15961
     marketGroup: 383
     name: Imperial Navy Medium EMP Smartbomb
+    published: true
     volume: 10.0
   Imperial Navy Micro EMP Smartbomb:
     Duration: 10000.0
@@ -706,6 +744,7 @@ items:
     id: 15959
     marketGroup: 380
     name: Imperial Navy Micro EMP Smartbomb
+    published: true
     volume: 2.5
   Imperial Navy Small EMP Smartbomb:
     Duration: 10000.0
@@ -724,6 +763,7 @@ items:
     id: 15957
     marketGroup: 382
     name: Imperial Navy Small EMP Smartbomb
+    published: true
     volume: 5.0
   Kaikka's Modified Large Graviton Smartbomb:
     Duration: 10000.0
@@ -742,6 +782,7 @@ items:
     id: 14692
     marketGroup: 381
     name: Kaikka's Modified Large Graviton Smartbomb
+    published: true
     volume: 50.0
   Khanid Navy Large EMP Smartbomb:
     Duration: 10000.0
@@ -760,6 +801,7 @@ items:
     id: 28545
     marketGroup: 381
     name: Khanid Navy Large EMP Smartbomb
+    published: true
     volume: 50.0
   Khanid Navy Medium EMP Smartbomb:
     Duration: 10000.0
@@ -778,6 +820,7 @@ items:
     id: 28550
     marketGroup: 383
     name: Khanid Navy Medium EMP Smartbomb
+    published: true
     volume: 10.0
   Khanid Navy Small EMP Smartbomb:
     Duration: 10000.0
@@ -796,6 +839,7 @@ items:
     id: 28557
     marketGroup: 382
     name: Khanid Navy Small EMP Smartbomb
+    published: true
     volume: 5.0
   Large 'Notos' Explosive Charge I:
     Duration: 10000.0
@@ -813,6 +857,7 @@ items:
     id: 9772
     marketGroup: 381
     name: Large 'Notos' Explosive Charge I
+    published: true
     volume: 50.0
   Large 'Vehemence' Shockwave Charge:
     Duration: 10000.0
@@ -830,6 +875,7 @@ items:
     id: 9678
     marketGroup: 381
     name: Large 'Vehemence' Shockwave Charge
+    published: true
     volume: 50.0
   Large Degenerative Concussion Bomb I:
     CapacitorNeed: 200.0
@@ -850,6 +896,7 @@ items:
     id: 21538
     marketGroup: 381
     name: Large Degenerative Concussion Bomb I
+    published: true
     volume: 50.0
   Large EMP Smartbomb I:
     CapacitorNeed: 200.0
@@ -867,6 +914,7 @@ items:
     id: 3993
     marketGroup: 381
     name: Large EMP Smartbomb I
+    published: true
     volume: 50.0
   Large EMP Smartbomb II:
     CapacitorNeed: 220.0
@@ -886,6 +934,7 @@ items:
     id: 3995
     marketGroup: 381
     name: Large EMP Smartbomb II
+    published: true
     volume: 50.0
   Large Graviton Smartbomb I:
     CapacitorNeed: 200.0
@@ -903,6 +952,7 @@ items:
     id: 3981
     marketGroup: 381
     name: Large Graviton Smartbomb I
+    published: true
     volume: 50.0
   Large Graviton Smartbomb II:
     CapacitorNeed: 220.0
@@ -922,6 +972,7 @@ items:
     id: 3983
     marketGroup: 381
     name: Large Graviton Smartbomb II
+    published: true
     volume: 50.0
   Large Plasma Smartbomb I:
     CapacitorNeed: 200.0
@@ -939,6 +990,7 @@ items:
     id: 3987
     marketGroup: 381
     name: Large Plasma Smartbomb I
+    published: true
     volume: 50.0
   Large Plasma Smartbomb II:
     CapacitorNeed: 220.0
@@ -958,6 +1010,7 @@ items:
     id: 3989
     marketGroup: 381
     name: Large Plasma Smartbomb II
+    published: true
     volume: 50.0
   Large Proton Smartbomb I:
     CapacitorNeed: 200.0
@@ -976,6 +1029,7 @@ items:
     id: 3977
     marketGroup: 381
     name: Large Proton Smartbomb I
+    published: true
     volume: 50.0
   Large Proton Smartbomb II:
     CapacitorNeed: 220.0
@@ -995,6 +1049,7 @@ items:
     id: 3979
     marketGroup: 381
     name: Large Proton Smartbomb II
+    published: true
     volume: 50.0
   Large Rudimentary Concussion Bomb I:
     Duration: 10000.0
@@ -1012,6 +1067,7 @@ items:
     id: 9668
     marketGroup: 381
     name: Large Rudimentary Concussion Bomb I
+    published: true
     volume: 50.0
   Large YF-12a Smartbomb:
     Duration: 10000.0
@@ -1029,6 +1085,7 @@ items:
     id: 9808
     marketGroup: 381
     name: Large YF-12a Smartbomb
+    published: true
     volume: 50.0
   Medium 'Notos' Explosive Charge I:
     Duration: 10000.0
@@ -1046,6 +1103,7 @@ items:
     id: 9762
     marketGroup: 383
     name: Medium 'Notos' Explosive Charge I
+    published: true
     volume: 10.0
   Medium 'Vehemence' Shockwave Charge:
     Duration: 10000.0
@@ -1063,6 +1121,7 @@ items:
     id: 9734
     marketGroup: 383
     name: Medium 'Vehemence' Shockwave Charge
+    published: true
     volume: 10.0
   Medium Degenerative Concussion Bomb I:
     CapacitorNeed: 75.0
@@ -1083,6 +1142,7 @@ items:
     id: 21536
     marketGroup: 383
     name: Medium Degenerative Concussion Bomb I
+    published: true
     volume: 10.0
   Medium EMP Smartbomb I:
     CapacitorNeed: 75.0
@@ -1100,6 +1160,7 @@ items:
     id: 3953
     marketGroup: 383
     name: Medium EMP Smartbomb I
+    published: true
     volume: 25.0
   Medium EMP Smartbomb II:
     CapacitorNeed: 75.0
@@ -1118,6 +1179,7 @@ items:
     id: 3955
     marketGroup: 383
     name: Medium EMP Smartbomb II
+    published: true
     volume: 10.0
   Medium Graviton Smartbomb I:
     CapacitorNeed: 75.0
@@ -1135,6 +1197,7 @@ items:
     id: 3941
     marketGroup: 383
     name: Medium Graviton Smartbomb I
+    published: true
     volume: 25.0
   Medium Graviton Smartbomb II:
     CapacitorNeed: 75.0
@@ -1153,6 +1216,7 @@ items:
     id: 3943
     marketGroup: 383
     name: Medium Graviton Smartbomb II
+    published: true
     volume: 10.0
   Medium Plasma Smartbomb I:
     CapacitorNeed: 75.0
@@ -1170,6 +1234,7 @@ items:
     id: 3947
     marketGroup: 383
     name: Medium Plasma Smartbomb I
+    published: true
     volume: 25.0
   Medium Plasma Smartbomb II:
     CapacitorNeed: 75.0
@@ -1188,6 +1253,7 @@ items:
     id: 3949
     marketGroup: 383
     name: Medium Plasma Smartbomb II
+    published: true
     volume: 10.0
   Medium Proton Smartbomb I:
     CapacitorNeed: 75.0
@@ -1206,6 +1272,7 @@ items:
     id: 3937
     marketGroup: 383
     name: Medium Proton Smartbomb I
+    published: true
     volume: 25.0
   Medium Proton Smartbomb II:
     CapacitorNeed: 75.0
@@ -1225,6 +1292,7 @@ items:
     id: 3939
     marketGroup: 383
     name: Medium Proton Smartbomb II
+    published: true
     volume: 10.0
   Medium Rudimentary Concussion Bomb I:
     Duration: 10000.0
@@ -1242,6 +1310,7 @@ items:
     id: 9728
     marketGroup: 383
     name: Medium Rudimentary Concussion Bomb I
+    published: true
     volume: 10.0
   Medium YF-12a Smartbomb:
     Duration: 10000.0
@@ -1259,6 +1328,7 @@ items:
     id: 9800
     marketGroup: 383
     name: Medium YF-12a Smartbomb
+    published: true
     volume: 10.0
   Micro 'Notos' Explosive Charge I:
     Duration: 10000.0
@@ -1276,6 +1346,7 @@ items:
     id: 9750
     marketGroup: 380
     name: Micro 'Notos' Explosive Charge I
+    published: true
     volume: 2.5
   Micro 'Vehemence' Shockwave Charge:
     Duration: 10000.0
@@ -1293,6 +1364,7 @@ items:
     id: 9706
     marketGroup: 380
     name: Micro 'Vehemence' Shockwave Charge
+    published: true
     volume: 2.5
   Micro Degenerative Concussion Bomb I:
     CapacitorNeed: 30.0
@@ -1313,6 +1385,7 @@ items:
     id: 21532
     marketGroup: 380
     name: Micro Degenerative Concussion Bomb I
+    published: true
     volume: 5.0
   Micro EMP Smartbomb I:
     CapacitorNeed: 15.0
@@ -1330,6 +1403,7 @@ items:
     id: 3913
     marketGroup: 380
     name: Micro EMP Smartbomb I
+    published: true
     volume: 2.5
   Micro EMP Smartbomb II:
     CapacitorNeed: 15.0
@@ -1348,6 +1422,7 @@ items:
     id: 3915
     marketGroup: 380
     name: Micro EMP Smartbomb II
+    published: true
     volume: 2.5
   Micro Graviton Smartbomb I:
     CapacitorNeed: 15.0
@@ -1365,6 +1440,7 @@ items:
     id: 3901
     marketGroup: 380
     name: Micro Graviton Smartbomb I
+    published: true
     volume: 2.5
   Micro Graviton Smartbomb II:
     CapacitorNeed: 15.0
@@ -1383,6 +1459,7 @@ items:
     id: 3903
     marketGroup: 380
     name: Micro Graviton Smartbomb II
+    published: true
     volume: 2.5
   Micro Plasma Smartbomb I:
     CapacitorNeed: 15.0
@@ -1400,6 +1477,7 @@ items:
     id: 3907
     marketGroup: 380
     name: Micro Plasma Smartbomb I
+    published: true
     volume: 2.5
   Micro Plasma Smartbomb II:
     CapacitorNeed: 15.0
@@ -1418,6 +1496,7 @@ items:
     id: 3909
     marketGroup: 380
     name: Micro Plasma Smartbomb II
+    published: true
     volume: 2.5
   Micro Proton Smartbomb I:
     CapacitorNeed: 15.0
@@ -1436,6 +1515,7 @@ items:
     id: 3897
     marketGroup: 380
     name: Micro Proton Smartbomb I
+    published: true
     volume: 2.5
   Micro Proton Smartbomb II:
     CapacitorNeed: 15.0
@@ -1455,6 +1535,7 @@ items:
     id: 3899
     marketGroup: 380
     name: Micro Proton Smartbomb II
+    published: true
     volume: 2.5
   Micro Rudimentary Concussion Bomb I:
     Duration: 10000.0
@@ -1472,6 +1553,7 @@ items:
     id: 9702
     marketGroup: 380
     name: Micro Rudimentary Concussion Bomb I
+    published: true
     volume: 2.5
   Micro YF-12a Smartbomb:
     Duration: 10000.0
@@ -1489,6 +1571,7 @@ items:
     id: 9790
     marketGroup: 380
     name: Micro YF-12a Smartbomb
+    published: true
     volume: 2.5
   Mizuro's Modified Large Proton Smartbomb:
     Duration: 10000.0
@@ -1507,6 +1590,7 @@ items:
     id: 14544
     marketGroup: 381
     name: Mizuro's Modified Large Proton Smartbomb
+    published: true
     volume: 50.0
   Raysere's Modified Large EMP Smartbomb:
     Duration: 10000.0
@@ -1525,6 +1609,7 @@ items:
     id: 14790
     marketGroup: 381
     name: Raysere's Modified Large EMP Smartbomb
+    published: true
     volume: 50.0
   Republic Fleet Large Proton Smartbomb:
     Duration: 10000.0
@@ -1543,6 +1628,7 @@ items:
     id: 15939
     marketGroup: 381
     name: Republic Fleet Large Proton Smartbomb
+    published: true
     volume: 50.0
   Republic Fleet Medium Proton Smartbomb:
     Duration: 10000.0
@@ -1561,6 +1647,7 @@ items:
     id: 15937
     marketGroup: 383
     name: Republic Fleet Medium Proton Smartbomb
+    published: true
     volume: 10.0
   Republic Fleet Micro Proton Smartbomb:
     Duration: 10000.0
@@ -1579,6 +1666,7 @@ items:
     id: 15933
     marketGroup: 380
     name: Republic Fleet Micro Proton Smartbomb
+    published: true
     volume: 2.5
   Republic Fleet Small Proton Smartbomb:
     Duration: 10000.0
@@ -1597,6 +1685,7 @@ items:
     id: 15935
     marketGroup: 382
     name: Republic Fleet Small Proton Smartbomb
+    published: true
     volume: 5.0
   Selynne's Modified Large EMP Smartbomb:
     Duration: 10000.0
@@ -1615,6 +1704,7 @@ items:
     id: 14788
     marketGroup: 381
     name: Selynne's Modified Large EMP Smartbomb
+    published: true
     volume: 50.0
   Setele's Modified Large Plasma Smartbomb:
     Duration: 10000.0
@@ -1633,6 +1723,7 @@ items:
     id: 15156
     marketGroup: 381
     name: Setele's Modified Large Plasma Smartbomb
+    published: true
     volume: 50.0
   Shadow Serpentis Large Plasma Smartbomb:
     Duration: 10000.0
@@ -1651,6 +1742,7 @@ items:
     id: 14206
     marketGroup: 381
     name: Shadow Serpentis Large Plasma Smartbomb
+    published: true
     volume: 50.0
   Shadow Serpentis Medium Plasma Smartbomb:
     Duration: 10000.0
@@ -1669,6 +1761,7 @@ items:
     id: 14220
     marketGroup: 383
     name: Shadow Serpentis Medium Plasma Smartbomb
+    published: true
     volume: 10.0
   Shadow Serpentis Micro Plasma Smartbomb:
     Duration: 10000.0
@@ -1687,6 +1780,7 @@ items:
     id: 14218
     marketGroup: 380
     name: Shadow Serpentis Micro Plasma Smartbomb
+    published: true
     volume: 2.5
   Shadow Serpentis Small Plasma Smartbomb:
     Duration: 10000.0
@@ -1705,6 +1799,7 @@ items:
     id: 14228
     marketGroup: 382
     name: Shadow Serpentis Small Plasma Smartbomb
+    published: true
     volume: 5.0
   Small 'Notos' Explosive Charge I:
     Duration: 10000.0
@@ -1722,6 +1817,7 @@ items:
     id: 9744
     marketGroup: 382
     name: Small 'Notos' Explosive Charge I
+    published: true
     volume: 5.0
   Small 'Vehemence' Shockwave Charge:
     Duration: 10000.0
@@ -1739,6 +1835,7 @@ items:
     id: 9680
     marketGroup: 382
     name: Small 'Vehemence' Shockwave Charge
+    published: true
     volume: 5.0
   Small Degenerative Concussion Bomb I:
     CapacitorNeed: 15.0
@@ -1759,6 +1856,7 @@ items:
     id: 21534
     marketGroup: 382
     name: Small Degenerative Concussion Bomb I
+    published: true
     volume: 2.5
   Small EMP Smartbomb I:
     CapacitorNeed: 30.0
@@ -1776,6 +1874,7 @@ items:
     id: 1563
     marketGroup: 382
     name: Small EMP Smartbomb I
+    published: true
     volume: 12.5
   Small EMP Smartbomb II:
     CapacitorNeed: 30.0
@@ -1794,6 +1893,7 @@ items:
     id: 1565
     marketGroup: 382
     name: Small EMP Smartbomb II
+    published: true
     volume: 5.0
   Small Graviton Smartbomb I:
     CapacitorNeed: 30.0
@@ -1811,6 +1911,7 @@ items:
     id: 1551
     marketGroup: 382
     name: Small Graviton Smartbomb I
+    published: true
     volume: 12.5
   Small Graviton Smartbomb II:
     CapacitorNeed: 30.0
@@ -1829,6 +1930,7 @@ items:
     id: 1553
     marketGroup: 382
     name: Small Graviton Smartbomb II
+    published: true
     volume: 5.0
   Small Plasma Smartbomb I:
     CapacitorNeed: 30.0
@@ -1846,6 +1948,7 @@ items:
     id: 1557
     marketGroup: 382
     name: Small Plasma Smartbomb I
+    published: true
     volume: 12.5
   Small Plasma Smartbomb II:
     CapacitorNeed: 30.0
@@ -1864,6 +1967,7 @@ items:
     id: 1559
     marketGroup: 382
     name: Small Plasma Smartbomb II
+    published: true
     volume: 5.0
   Small Proton Smartbomb I:
     CapacitorNeed: 30.0
@@ -1882,6 +1986,7 @@ items:
     id: 1547
     marketGroup: 382
     name: Small Proton Smartbomb I
+    published: true
     volume: 12.5
   Small Proton Smartbomb II:
     CapacitorNeed: 30.0
@@ -1901,6 +2006,7 @@ items:
     id: 1549
     marketGroup: 382
     name: Small Proton Smartbomb II
+    published: true
     volume: 5.0
   Small Rudimentary Concussion Bomb I:
     Duration: 10000.0
@@ -1918,6 +2024,7 @@ items:
     id: 9670
     marketGroup: 382
     name: Small Rudimentary Concussion Bomb I
+    published: true
     volume: 5.0
   Small YF-12a Smartbomb:
     Duration: 10000.0
@@ -1935,6 +2042,7 @@ items:
     id: 9784
     marketGroup: 382
     name: Small YF-12a Smartbomb
+    published: true
     volume: 5.0
   Tairei's Modified Large EMP Smartbomb:
     Duration: 10000.0
@@ -1953,6 +2061,7 @@ items:
     id: 14786
     marketGroup: 381
     name: Tairei's Modified Large EMP Smartbomb
+    published: true
     volume: 50.0
   Thon's Modified Large Graviton Smartbomb:
     Duration: 10000.0
@@ -1971,6 +2080,7 @@ items:
     id: 14694
     marketGroup: 381
     name: Thon's Modified Large Graviton Smartbomb
+    published: true
     volume: 50.0
   Tobias' Modified Large Proton Smartbomb:
     Duration: 10000.0
@@ -1989,6 +2099,7 @@ items:
     id: 14550
     marketGroup: 381
     name: Tobias' Modified Large Proton Smartbomb
+    published: true
     volume: 50.0
   True Sansha Large EMP Smartbomb:
     CapacitorNeed: 130.0
@@ -2008,6 +2119,7 @@ items:
     id: 14190
     marketGroup: 381
     name: True Sansha Large EMP Smartbomb
+    published: true
     volume: 50.0
   True Sansha Medium EMP Smartbomb:
     CapacitorNeed: 49.0
@@ -2027,6 +2139,7 @@ items:
     id: 14194
     marketGroup: 383
     name: True Sansha Medium EMP Smartbomb
+    published: true
     volume: 10.0
   True Sansha Micro EMP Smartbomb:
     CapacitorNeed: 10.0
@@ -2046,6 +2159,7 @@ items:
     id: 14198
     marketGroup: 380
     name: True Sansha Micro EMP Smartbomb
+    published: true
     volume: 2.5
   True Sansha Small EMP Smartbomb:
     CapacitorNeed: 20.0
@@ -2065,6 +2179,7 @@ items:
     id: 14202
     marketGroup: 382
     name: True Sansha Small EMP Smartbomb
+    published: true
     volume: 5.0
   Tuvan's Modified Large Plasma Smartbomb:
     Duration: 10000.0
@@ -2083,6 +2198,7 @@ items:
     id: 15154
     marketGroup: 381
     name: Tuvan's Modified Large Plasma Smartbomb
+    published: true
     volume: 50.0
   Vepas' Modified Large Graviton Smartbomb:
     Duration: 10000.0
@@ -2101,6 +2217,7 @@ items:
     id: 14696
     marketGroup: 381
     name: Vepas' Modified Large Graviton Smartbomb
+    published: true
     volume: 50.0
   Vizan's Modified Large EMP Smartbomb:
     Duration: 10000.0
@@ -2119,4 +2236,5 @@ items:
     id: 14792
     marketGroup: 381
     name: Vizan's Modified Large EMP Smartbomb
+    published: true
     volume: 50.0

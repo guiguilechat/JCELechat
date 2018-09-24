@@ -8,6 +8,7 @@ items:
     ArmorThermalDamageResonance: 0.699999988079071
     CanFitShipGroup01: 900
     Cpu: 10.0
+    DeactivateIfOffensive: 1
     DisallowActivateOnWarp: 1
     DisallowDocking: 1
     DisallowEarlyDeactivation: 1
@@ -51,6 +52,7 @@ items:
     id: 33400
     marketGroup: 801
     name: Bastion Module I
+    published: true
     volume: 200.0
   Industrial Core I:
     ArmorEmDamageResonance: 1.0
@@ -103,6 +105,7 @@ items:
     id: 28583
     marketGroup: 801
     name: Industrial Core I
+    published: true
     volume: 4000.0
   Industrial Core II:
     ArmorEmDamageResonance: 1.0
@@ -157,6 +160,7 @@ items:
     id: 42890
     marketGroup: 801
     name: Industrial Core II
+    published: true
     volume: 4000.0
   Siege Module I:
     ArmorEmDamageResonance: 1.0
@@ -205,6 +209,7 @@ items:
     id: 20280
     marketGroup: 801
     name: Siege Module I
+    published: true
     volume: 4000.0
   Siege Module II:
     ArmorEmDamageResonance: 1.0
@@ -254,6 +259,7 @@ items:
     id: 4292
     marketGroup: 801
     name: Siege Module II
+    published: true
     volume: 4000.0
   Triage Module I:
     ArmorEmDamageResonance: 1.0
@@ -304,6 +310,7 @@ items:
     id: 27951
     marketGroup: 801
     name: Triage Module I
+    published: true
     volume: 4000.0
   Triage Module II:
     ArmorEmDamageResonance: 1.0
@@ -354,4 +361,5 @@ items:
     id: 4294
     marketGroup: 801
     name: Triage Module II
+    published: true
     volume: 4000.0

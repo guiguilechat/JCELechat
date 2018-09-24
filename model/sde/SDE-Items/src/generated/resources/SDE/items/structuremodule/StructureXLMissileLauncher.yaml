@@ -16,6 +16,7 @@ items:
     id: 35921
     marketGroup: 2230
     name: Standup Anticapital Missile Launcher I
+    published: true
     volume: 4000.0
   Standup Anticapital Missile Launcher II:
     CanFitShipGroup01: 1657
@@ -35,4 +36,5 @@ items:
     id: 47323
     marketGroup: 2230
     name: Standup Anticapital Missile Launcher II
+    published: true
     volume: 4000.0

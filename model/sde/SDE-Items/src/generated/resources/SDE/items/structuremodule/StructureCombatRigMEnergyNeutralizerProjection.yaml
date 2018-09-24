@@ -20,6 +20,7 @@ items:
     id: 37218
     marketGroup: 2344
     name: Standup M-Set Energy Neutralizer Projection I
+    published: true
     volume: 10.0
   Standup M-Set Energy Neutralizer Projection II:
     CanFitShipGroup01: 1657
@@ -42,4 +43,5 @@ items:
     id: 37219
     marketGroup: 2344
     name: Standup M-Set Energy Neutralizer Projection II
+    published: true
     volume: 10.0

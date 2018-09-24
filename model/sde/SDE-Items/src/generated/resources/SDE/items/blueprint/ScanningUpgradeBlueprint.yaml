@@ -5,12 +5,14 @@ items:
     id: 33179
     marketGroup: 1707
     name: Scan Pinpointing Array I Blueprint
+    published: true
     volume: 0.01
   Scan Pinpointing Array II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 33200
     name: Scan Pinpointing Array II Blueprint
+    published: true
     volume: 0.01
   Scan Rangefinding Array I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -18,10 +20,12 @@ items:
     id: 33181
     marketGroup: 1707
     name: Scan Rangefinding Array I Blueprint
+    published: true
     volume: 0.01
   Scan Rangefinding Array II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 33202
     name: Scan Rangefinding Array II Blueprint
+    published: true
     volume: 0.01

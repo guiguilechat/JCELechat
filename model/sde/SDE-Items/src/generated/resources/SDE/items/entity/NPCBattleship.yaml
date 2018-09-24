@@ -1,0 +1,76 @@
+items:
+  ♦ Apocalypse:
+    id: 46069
+    name: ♦ Apocalypse
+    published: false
+    volume: 495000.0
+  ♦ Armageddon:
+    id: 43562
+    name: ♦ Armageddon
+    published: false
+    volume: 486000.0
+  ♦ Bhaalgorn:
+    id: 46055
+    name: ♦ Bhaalgorn
+    published: false
+    volume: 486000.0
+  ♦ Dominix:
+    id: 43584
+    name: ♦ Dominix
+    published: false
+    volume: 454500.0
+  ♦ Infested Dominix:
+    id: 43650
+    name: ♦ Infested Dominix
+    published: false
+    volume: 1010000.0
+  ♦ Machariel:
+    id: 46063
+    name: ♦ Machariel
+    published: false
+    volume: 595000.0
+  ♦ Megathron:
+    id: 46077
+    name: ♦ Megathron
+    published: false
+    volume: 486000.0
+  ♦ Nightmare:
+    id: 43657
+    name: ♦ Nightmare
+    published: false
+    volume: 486000.0
+  ♦ Rattlesnake:
+    id: 46523
+    name: ♦ Rattlesnake
+    published: false
+    volume: 486000.0
+  ♦ Raven:
+    id: 46524
+    name: ♦ Raven
+    published: false
+    volume: 486000.0
+  ♦ Scorpion:
+    id: 43573
+    name: ♦ Scorpion
+    published: false
+    volume: 468000.0
+  ♦ Tempest:
+    id: 46081
+    name: ♦ Tempest
+    published: false
+    volume: 450000.0
+  ♦ Typhoon:
+    id: 43595
+    name: ♦ Typhoon
+    published: false
+    volume: 414000.0
+  ♦ Vindicator:
+    id: 46060
+    name: ♦ Vindicator
+    published: false
+    volume: 486000.0
+  ♦ test_boss:
+    id: 47198
+    name: ♦ test_boss
+    published: false
+    volume: 1010000.0

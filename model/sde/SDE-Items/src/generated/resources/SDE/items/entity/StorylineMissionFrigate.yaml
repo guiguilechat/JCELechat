@@ -1,0 +1,136 @@
+items:
+  Angel Drug Addict:
+    id: 22236
+    name: Angel Drug Addict
+    published: false
+    volume: 19100.0
+  Ansedon Blat:
+    id: 23619
+    name: Ansedon Blat
+    published: false
+    volume: 26500.0
+  Bandit Mechanic:
+    id: 21660
+    name: Bandit Mechanic
+    published: false
+    volume: 20250.0
+  Captain Jark Makon:
+    id: 23612
+    name: Captain Jark Makon
+    published: false
+    volume: 26500.0
+  Corpse Collector:
+    id: 24259
+    name: Corpse Collector
+    published: false
+    volume: 28600.0
+  Corpse Dealer:
+    id: 24258
+    name: Corpse Dealer
+    published: false
+    volume: 28600.0
+  Dread Guristas Envoy_destroyer:
+    id: 26767
+    name: Dread Guristas Envoy_destroyer
+    published: false
+    volume: 16500.0
+  Dry River Gangleader:
+    id: 21503
+    name: Dry River Gangleader
+    published: false
+    volume: 20400.0
+  Dry River Gangmember:
+    id: 21495
+    name: Dry River Gangmember
+    published: false
+    volume: 20250.0
+  Dry River Guardian:
+    id: 21518
+    name: Dry River Guardian
+    published: false
+    volume: 19700.0
+  Dyklan Harrikar:
+    id: 21563
+    name: Dyklan Harrikar
+    published: false
+    volume: 20250.0
+  Guristas Defender:
+    id: 21658
+    name: Guristas Defender
+    published: false
+    volume: 19700.0
+  Guristas Propagandist:
+    id: 21657
+    name: Guristas Propagandist
+    published: false
+    volume: 15001.0
+  Hired Gunman:
+    id: 21618
+    name: Hired Gunman
+    published: false
+    volume: 16500.0
+  Honim Iratur:
+    id: 22092
+    name: Honim Iratur
+    published: false
+    volume: 16500.0
+  Kazka Eunuch:
+    id: 21621
+    name: Kazka Eunuch
+    published: false
+    volume: 20400.0
+  Minmatar Republic Narcotics Officer 1st Rank:
+    id: 22240
+    name: Minmatar Republic Narcotics Officer 1st Rank
+    published: false
+    volume: 16450.0
+  Nanom Basskel:
+    id: 22316
+    name: Nanom Basskel
+    published: false
+    volume: 109000.0
+  Nugoeihuvi Defender:
+    id: 21653
+    name: Nugoeihuvi Defender
+    published: false
+    volume: 19700.0
+  Nugoeihuvi Miner:
+    id: 21654
+    name: Nugoeihuvi Miner
+    published: false
+    volume: 15001.0
+  Propel Dynamics Defender:
+    id: 21656
+    name: Propel Dynamics Defender
+    published: false
+    volume: 19700.0
+  Propel Dynamics Miner:
+    id: 21655
+    name: Propel Dynamics Miner
+    published: false
+    volume: 15001.0
+  ST 58:
+    id: 22106
+    name: ST 58
+    published: false
+    volume: 60.0
+  Sefo Caraton:
+    id: 21636
+    name: Sefo Caraton
+    published: false
+    volume: 109000.0
+  Serpentis Junkie:
+    id: 23557
+    name: Serpentis Junkie
+    published: false
+    volume: 22500.0
+  Umeld Iratur:
+    id: 22093
+    name: Umeld Iratur
+    published: false
+    volume: 16500.0
+  Zarkona Mirei's Worm:
+    id: 21490
+    name: Zarkona Mirei's Worm
+    published: false
+    volume: 16500.0

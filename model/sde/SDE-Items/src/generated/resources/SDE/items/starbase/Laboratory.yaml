@@ -26,6 +26,7 @@ items:
     id: 28351
     marketGroup: 933
     name: Design Laboratory
+    published: true
     volume: 3000.0
   Experimental Laboratory:
     AnchoringDelay: 5000
@@ -52,6 +53,7 @@ items:
     id: 24567
     marketGroup: 933
     name: Experimental Laboratory
+    published: true
     volume: 3000.0
   Hyasyoda Research Laboratory:
     AnchoringDelay: 5000
@@ -81,6 +83,7 @@ items:
     id: 32245
     marketGroup: 933
     name: Hyasyoda Research Laboratory
+    published: true
     volume: 3000.0
   Research Laboratory:
     AnchoringDelay: 5000
@@ -109,4 +112,5 @@ items:
     id: 16216
     marketGroup: 933
     name: Research Laboratory
+    published: true
     volume: 3000.0

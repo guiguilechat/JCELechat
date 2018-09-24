@@ -6,6 +6,7 @@ items:
     InventionTEModifier: 10.0
     id: 21574
     name: Esoteric Accelerant
+    published: true
     volume: 1.0
   Esoteric Attainment:
     InventionMEModifier: -1.0
@@ -14,6 +15,7 @@ items:
     InventionTEModifier: 4.0
     id: 21577
     name: Esoteric Attainment
+    published: true
     volume: 1.0
   Esoteric Augmentation:
     InventionMEModifier: -2.0
@@ -22,6 +24,7 @@ items:
     InventionTEModifier: 2.0
     id: 21576
     name: Esoteric Augmentation
+    published: true
     volume: 1.0
   Esoteric Parity:
     InventionMEModifier: 1.0
@@ -30,6 +33,7 @@ items:
     InventionTEModifier: -2.0
     id: 33319
     name: Esoteric Parity
+    published: true
     volume: 1.0
   Esoteric Process:
     InventionMEModifier: 3.0
@@ -37,6 +41,7 @@ items:
     InventionTEModifier: 6.0
     id: 21573
     name: Esoteric Process
+    published: true
     volume: 1.0
   Esoteric Symmetry:
     InventionMEModifier: 1.0
@@ -45,6 +50,7 @@ items:
     InventionTEModifier: 8.0
     id: 21575
     name: Esoteric Symmetry
+    published: true
     volume: 1.0
   Optimized Esoteric Attainment:
     InventionMEModifier: 1.0
@@ -53,6 +59,7 @@ items:
     InventionTEModifier: -2.0
     id: 33325
     name: Optimized Esoteric Attainment
+    published: true
     volume: 1.0
   Optimized Esoteric Augmentation:
     InventionMEModifier: 2.0
@@ -60,4 +67,5 @@ items:
     InventionPropabilityMultiplier: 0.8999999761581421
     id: 33322
     name: Optimized Esoteric Augmentation
+    published: true
     volume: 1.0

@@ -6,6 +6,7 @@ items:
     InventionTEModifier: 10.0
     id: 23179
     name: Occult Accelerant
+    published: true
     volume: 1.0
   Occult Attainment:
     InventionMEModifier: -1.0
@@ -14,6 +15,7 @@ items:
     InventionTEModifier: 4.0
     id: 23182
     name: Occult Attainment
+    published: true
     volume: 1.0
   Occult Augmentation:
     InventionMEModifier: -2.0
@@ -22,6 +24,7 @@ items:
     InventionTEModifier: 2.0
     id: 23181
     name: Occult Augmentation
+    published: true
     volume: 1.0
   Occult Parity:
     InventionMEModifier: 1.0
@@ -30,6 +33,7 @@ items:
     InventionTEModifier: -2.0
     id: 33315
     name: Occult Parity
+    published: true
     volume: 1.0
   Occult Process:
     InventionMEModifier: 3.0
@@ -37,6 +41,7 @@ items:
     InventionTEModifier: 6.0
     id: 23178
     name: Occult Process
+    published: true
     volume: 1.0
   Occult Symmetry:
     InventionMEModifier: 1.0
@@ -45,6 +50,7 @@ items:
     InventionTEModifier: 8.0
     id: 23180
     name: Occult Symmetry
+    published: true
     volume: 1.0
   Optimized Occult Attainment:
     InventionMEModifier: 1.0
@@ -53,6 +59,7 @@ items:
     InventionTEModifier: -2.0
     id: 33317
     name: Optimized Occult Attainment
+    published: true
     volume: 1.0
   Optimized Occult Augmentation:
     InventionMEModifier: 2.0
@@ -60,4 +67,5 @@ items:
     InventionPropabilityMultiplier: 0.8999999761581421
     id: 33316
     name: Optimized Occult Augmentation
+    published: true
     volume: 1.0

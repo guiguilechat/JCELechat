@@ -327,13 +327,6 @@ public class StructureBurstProjector
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -524,10 +517,6 @@ public class StructureBurstProjector
             case  20 :
             {
                 return SpeedFactor;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  422 :
             {

@@ -13,6 +13,7 @@ items:
     id: 41459
     marketGroup: 2241
     name: CONCORD Capital Shield Extender
+    published: true
     volume: 4000.0
   Caldari Navy Large Shield Extender:
     CapacityBonus: 2750
@@ -28,6 +29,7 @@ items:
     id: 31930
     marketGroup: 608
     name: Caldari Navy Large Shield Extender
+    published: true
     volume: 20.0
   Caldari Navy Medium Shield Extender:
     CapacityBonus: 1200
@@ -43,6 +45,7 @@ items:
     id: 31926
     marketGroup: 606
     name: Caldari Navy Medium Shield Extender
+    published: true
     volume: 10.0
   Caldari Navy Small Shield Extender:
     CapacityBonus: 550
@@ -58,6 +61,7 @@ items:
     id: 31922
     marketGroup: 605
     name: Caldari Navy Small Shield Extender
+    published: true
     volume: 5.0
   Capital Azeotropic Restrained Shield Extender:
     CapacityBonus: 64800
@@ -72,6 +76,7 @@ items:
     id: 40355
     marketGroup: 2241
     name: Capital Azeotropic Restrained Shield Extender
+    published: true
     volume: 4000.0
   Capital F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 64800
@@ -86,6 +91,7 @@ items:
     id: 40356
     marketGroup: 2241
     name: Capital F-S9 Regolith Compact Shield Extender
+    published: true
     volume: 4000.0
   Capital Shield Extender I:
     CapacityBonus: 57600
@@ -99,6 +105,7 @@ items:
     id: 40354
     marketGroup: 2241
     name: Capital Shield Extender I
+    published: true
     volume: 4000.0
   Capital Shield Extender II:
     CapacityBonus: 72000
@@ -113,6 +120,7 @@ items:
     id: 40357
     marketGroup: 2241
     name: Capital Shield Extender II
+    published: true
     volume: 4000.0
   Domination Capital Shield Extender:
     CapacityBonus: 79200
@@ -128,6 +136,7 @@ items:
     id: 41462
     marketGroup: 2241
     name: Domination Capital Shield Extender
+    published: true
     volume: 4000.0
   Dread Guristas Capital Shield Extender:
     CapacityBonus: 79200
@@ -143,6 +152,7 @@ items:
     id: 41461
     marketGroup: 2241
     name: Dread Guristas Capital Shield Extender
+    published: true
     volume: 4000.0
   Large 'Sheriff' Shield Extender:
     CapacityBonus: 2400
@@ -158,6 +168,7 @@ items:
     id: 20631
     marketGroup: 608
     name: Large 'Sheriff' Shield Extender
+    published: true
     volume: 20.0
   Large Abyssal Shield Extender:
     RequiredSkill1: 3425
@@ -165,6 +176,7 @@ items:
     TechLevel: 1
     id: 47808
     name: Large Abyssal Shield Extender
+    published: true
     volume: 20.0
   Large Azeotropic Restrained Shield Extender:
     CapacityBonus: 2200
@@ -179,6 +191,7 @@ items:
     id: 8419
     marketGroup: 608
     name: Large Azeotropic Restrained Shield Extender
+    published: true
     volume: 20.0
   Large F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 2200
@@ -193,6 +206,7 @@ items:
     id: 8529
     marketGroup: 608
     name: Large F-S9 Regolith Compact Shield Extender
+    published: true
     volume: 20.0
   Large Shield Extender I:
     CapacityBonus: 1900
@@ -205,6 +219,7 @@ items:
     id: 3839
     marketGroup: 608
     name: Large Shield Extender I
+    published: true
     volume: 20.0
   Large Shield Extender II:
     CapacityBonus: 2600
@@ -219,6 +234,7 @@ items:
     id: 3841
     marketGroup: 608
     name: Large Shield Extender II
+    published: true
     volume: 20.0
   Medium 'Canyon' Shield Extender:
     CapacityBonus: 1000
@@ -234,6 +250,7 @@ items:
     id: 20629
     marketGroup: 606
     name: Medium 'Canyon' Shield Extender
+    published: true
     volume: 10.0
   Medium Abyssal Shield Extender:
     RequiredSkill1: 3425
@@ -241,6 +258,7 @@ items:
     TechLevel: 1
     id: 47804
     name: Medium Abyssal Shield Extender
+    published: true
     volume: 10.0
   Medium Azeotropic Restrained Shield Extender:
     CapacityBonus: 900
@@ -255,6 +273,7 @@ items:
     id: 8433
     marketGroup: 606
     name: Medium Azeotropic Restrained Shield Extender
+    published: true
     volume: 10.0
   Medium F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 900
@@ -269,6 +288,7 @@ items:
     id: 8517
     marketGroup: 606
     name: Medium F-S9 Regolith Compact Shield Extender
+    published: true
     volume: 10.0
   Medium Shield Extender I:
     CapacityBonus: 800
@@ -282,6 +302,7 @@ items:
     id: 3829
     marketGroup: 606
     name: Medium Shield Extender I
+    published: true
     volume: 10.0
   Medium Shield Extender II:
     CapacityBonus: 1100
@@ -296,6 +317,7 @@ items:
     id: 3831
     marketGroup: 606
     name: Medium Shield Extender II
+    published: true
     volume: 10.0
   Republic Fleet Large Shield Extender:
     CapacityBonus: 2750
@@ -311,6 +333,7 @@ items:
     id: 31932
     marketGroup: 608
     name: Republic Fleet Large Shield Extender
+    published: true
     volume: 20.0
   Republic Fleet Medium Shield Extender:
     CapacityBonus: 1200
@@ -326,6 +349,7 @@ items:
     id: 31928
     marketGroup: 606
     name: Republic Fleet Medium Shield Extender
+    published: true
     volume: 10.0
   Republic Fleet Small Shield Extender:
     CapacityBonus: 550
@@ -341,6 +365,7 @@ items:
     id: 31924
     marketGroup: 605
     name: Republic Fleet Small Shield Extender
+    published: true
     volume: 5.0
   Small 'Trapper' Shield Extender:
     CapacityBonus: 300
@@ -355,6 +380,7 @@ items:
     id: 20627
     marketGroup: 605
     name: Small 'Trapper' Shield Extender
+    published: true
     volume: 2.5
   Small 'Wolf' Shield Extender:
     CapacityBonus: 500
@@ -370,6 +396,7 @@ items:
     id: 20625
     marketGroup: 605
     name: Small 'Wolf' Shield Extender
+    published: true
     volume: 5.0
   Small Abyssal Shield Extender:
     RequiredSkill1: 3425
@@ -377,6 +404,7 @@ items:
     TechLevel: 1
     id: 47800
     name: Small Abyssal Shield Extender
+    published: true
     volume: 5.0
   Small Azeotropic Restrained Shield Extender:
     CapacityBonus: 450
@@ -390,6 +418,7 @@ items:
     id: 8427
     marketGroup: 605
     name: Small Azeotropic Restrained Shield Extender
+    published: true
     volume: 5.0
   Small F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 450
@@ -404,6 +433,7 @@ items:
     id: 8521
     marketGroup: 605
     name: Small F-S9 Regolith Compact Shield Extender
+    published: true
     volume: 5.0
   Small Shield Extender I:
     CapacityBonus: 400
@@ -416,6 +446,7 @@ items:
     id: 377
     marketGroup: 605
     name: Small Shield Extender I
+    published: true
     volume: 5.0
   Small Shield Extender II:
     CapacityBonus: 520
@@ -429,6 +460,7 @@ items:
     id: 380
     marketGroup: 605
     name: Small Shield Extender II
+    published: true
     volume: 5.0
   Thukker Large Shield Extender:
     CapacityBonus: 2750
@@ -444,6 +476,7 @@ items:
     id: 28744
     marketGroup: 608
     name: Thukker Large Shield Extender
+    published: true
     volume: 20.0
   Thukker Medium Shield Extender:
     CapacityBonus: 1200
@@ -459,6 +492,7 @@ items:
     id: 28746
     marketGroup: 606
     name: Thukker Medium Shield Extender
+    published: true
     volume: 10.0
   Thukker Small Shield Extender:
     CapacityBonus: 550
@@ -473,6 +507,7 @@ items:
     id: 28742
     marketGroup: 605
     name: Thukker Small Shield Extender
+    published: true
     volume: 5.0
   True Sansha Capital Shield Extender:
     CapacityBonus: 79200
@@ -488,4 +523,5 @@ items:
     id: 41460
     marketGroup: 2241
     name: True Sansha Capital Shield Extender
+    published: true
     volume: 4000.0

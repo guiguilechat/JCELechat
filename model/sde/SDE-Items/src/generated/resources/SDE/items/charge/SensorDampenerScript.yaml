@@ -9,6 +9,7 @@ items:
     id: 29013
     marketGroup: 1094
     name: Scan Resolution Dampening Script
+    published: true
     volume: 1.0
   Targeting Range Dampening Script:
     ChargeSize: 1
@@ -20,4 +21,5 @@ items:
     id: 29015
     marketGroup: 1094
     name: Targeting Range Dampening Script
+    published: true
     volume: 1.0

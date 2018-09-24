@@ -13,6 +13,7 @@ items:
     id: 6043
     marketGroup: 670
     name: '''Recusant'' Hostile Targeting Array I'
+    published: true
     volume: 5.0
   Auto Targeting System I:
     CapacitorNeed: 8.0
@@ -27,6 +28,7 @@ items:
     id: 1182
     marketGroup: 670
     name: Auto Targeting System I
+    published: true
     volume: 5.0
   Auto Targeting System II:
     CapacitorNeed: 10.0
@@ -42,6 +44,7 @@ items:
     id: 1436
     marketGroup: 670
     name: Auto Targeting System II
+    published: true
     volume: 5.0
   Automated Targeting Unit I:
     CapacitorNeed: 8.0
@@ -57,6 +60,7 @@ items:
     id: 6047
     marketGroup: 670
     name: Automated Targeting Unit I
+    published: true
     volume: 5.0
   Hostile Target Acquisition I:
     CapacitorNeed: 8.0
@@ -72,6 +76,7 @@ items:
     id: 6041
     marketGroup: 670
     name: Hostile Target Acquisition I
+    published: true
     volume: 5.0
   Responsive Auto-Targeting System I:
     CapacitorNeed: 8.0
@@ -87,4 +92,5 @@ items:
     id: 6045
     marketGroup: 670
     name: Responsive Auto-Targeting System I
+    published: true
     volume: 5.0

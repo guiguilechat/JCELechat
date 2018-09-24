@@ -1,0 +1,171 @@
+items:
+  Dire Pithum Abolisher:
+    id: 24098
+    name: Dire Pithum Abolisher
+    published: false
+    volume: 101000.0
+  Dire Pithum Annihilator:
+    id: 24093
+    name: Dire Pithum Annihilator
+    published: false
+    volume: 101000.0
+  Dire Pithum Ascriber:
+    id: 24090
+    name: Dire Pithum Ascriber
+    published: false
+    volume: 101000.0
+  Dire Pithum Eraser:
+    id: 24097
+    name: Dire Pithum Eraser
+    published: false
+    volume: 101000.0
+  Dire Pithum Inferno:
+    id: 24096
+    name: Dire Pithum Inferno
+    published: false
+    volume: 101000.0
+  Dire Pithum Killer:
+    id: 24091
+    name: Dire Pithum Killer
+    published: false
+    volume: 101000.0
+  Dire Pithum Mortifier:
+    id: 24095
+    name: Dire Pithum Mortifier
+    published: false
+    volume: 101000.0
+  Dire Pithum Murderer:
+    id: 24092
+    name: Dire Pithum Murderer
+    published: false
+    volume: 101000.0
+  Dire Pithum Nullifier:
+    id: 24094
+    name: Dire Pithum Nullifier
+    published: false
+    volume: 101000.0
+  Dire Pithum Silencer:
+    id: 24089
+    name: Dire Pithum Silencer
+    published: false
+    volume: 101000.0
+  Dread Pithum Abolisher:
+    id: 17017
+    name: Dread Pithum Abolisher
+    published: false
+    volume: 101000.0
+  Dread Pithum Annihilator:
+    id: 17028
+    name: Dread Pithum Annihilator
+    published: false
+    volume: 101000.0
+  Dread Pithum Ascriber:
+    id: 17009
+    name: Dread Pithum Ascriber
+    published: false
+    volume: 96000.0
+  Dread Pithum Eraser:
+    id: 17021
+    name: Dread Pithum Eraser
+    published: false
+    volume: 101000.0
+  Dread Pithum Inferno:
+    id: 17016
+    name: Dread Pithum Inferno
+    published: false
+    volume: 101000.0
+  Dread Pithum Killer:
+    id: 17007
+    name: Dread Pithum Killer
+    published: false
+    volume: 92000.0
+  Dread Pithum Mortifier:
+    id: 17020
+    name: Dread Pithum Mortifier
+    published: false
+    volume: 101000.0
+  Dread Pithum Murderer:
+    id: 17025
+    name: Dread Pithum Murderer
+    published: false
+    volume: 101000.0
+  Dread Pithum Nullifier:
+    id: 17024
+    name: Dread Pithum Nullifier
+    published: false
+    volume: 101000.0
+  Dread Pithum Silencer:
+    id: 17029
+    name: Dread Pithum Silencer
+    published: false
+    volume: 107000.0
+  Guristas Emissary:
+    id: 11601
+    name: Guristas Emissary
+    published: false
+    volume: 101000.0
+  Guristas Personnel Transport:
+    id: 16169
+    name: Guristas Personnel Transport
+    published: false
+    volume: 960000.0
+  Guristas Transport Ship:
+    id: 11718
+    name: Guristas Transport Ship
+    published: false
+    volume: 960000.0
+  Pithum Abolisher:
+    id: 24088
+    name: Pithum Abolisher
+    published: false
+    volume: 101000.0
+  Pithum Annihilator:
+    id: 17003
+    name: Pithum Annihilator
+    published: false
+    volume: 101000.0
+  Pithum Ascriber:
+    id: 16982
+    name: Pithum Ascriber
+    published: false
+    volume: 96000.0
+  Pithum Eraser:
+    id: 24087
+    name: Pithum Eraser
+    published: false
+    volume: 101000.0
+  Pithum Inferno:
+    id: 16991
+    name: Pithum Inferno
+    published: false
+    volume: 101000.0
+  Pithum Killer:
+    id: 16980
+    name: Pithum Killer
+    published: false
+    volume: 92000.0
+  Pithum Mortifier:
+    id: 16995
+    name: Pithum Mortifier
+    published: false
+    volume: 101000.0
+  Pithum Murderer:
+    id: 17000
+    name: Pithum Murderer
+    published: false
+    volume: 101000.0
+  Pithum Nullifier:
+    id: 16998
+    name: Pithum Nullifier
+    published: false
+    volume: 101000.0
+  Pithum Silencer:
+    id: 17004
+    name: Pithum Silencer
+    published: false
+    volume: 107000.0
+  Renegade Guristas Pirate:
+    id: 14344
+    name: Renegade Guristas Pirate
+    published: false
+    volume: 101000.0

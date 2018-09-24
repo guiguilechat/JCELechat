@@ -1,0 +1,261 @@
+items:
+  Captain Amiette Barcier:
+    id: 29917
+    name: Captain Amiette Barcier
+    published: false
+    volume: 1140000.0
+  Captain Aneika Sareko:
+    id: 29925
+    name: Captain Aneika Sareko
+    published: false
+    volume: 1150000.0
+  Captain Appakir Tarvia:
+    id: 29907
+    name: Captain Appakir Tarvia
+    published: false
+    volume: 1.9E7
+  Captain Artey Vinck:
+    id: 29906
+    name: Captain Artey Vinck
+    published: false
+    volume: 1.9E7
+  Captain Isoryn Ardorele:
+    id: 29911
+    name: Captain Isoryn Ardorele
+    published: false
+    volume: 2.2E7
+  Captain Saira Katori:
+    id: 29910
+    name: Captain Saira Katori
+    published: false
+    volume: 2.2E7
+  Captain Scane Essyn:
+    id: 29916
+    name: Captain Scane Essyn
+    published: false
+    volume: 1140000.0
+  Captain Tori Aanai:
+    id: 29922
+    name: Captain Tori Aanai
+    published: false
+    volume: 100100.0
+  Commander Dakin Gara:
+    id: 19677
+    name: Commander Dakin Gara
+    published: false
+    volume: 1080000.0
+  Commander Genom Tara:
+    id: 19683
+    name: Commander Genom Tara
+    published: false
+    volume: 1150000.0
+  Commander Karzo Sarum:
+    id: 14350
+    name: Commander Karzo Sarum
+    published: false
+    volume: 1150000.0
+  Darkonnen Envoy:
+    id: 13909
+    name: Darkonnen Envoy
+    published: false
+    volume: 1100000.0
+  Draben Kuvakei:
+    id: 22324
+    name: Draben Kuvakei
+    published: false
+    volume: 100100.0
+  EoM Behemoth:
+    id: 16101
+    name: EoM Behemoth
+    published: false
+    volume: 2.2E7
+  EoM Death Lord:
+    id: 16099
+    name: EoM Death Lord
+    published: false
+    volume: 1040000.0
+  EoM Hydra:
+    id: 16098
+    name: EoM Hydra
+    published: false
+    volume: 1040000.0
+  EoM Ogre:
+    id: 16100
+    name: EoM Ogre
+    published: false
+    volume: 1080000.0
+  Faramon Mundan:
+    id: 20438
+    name: Faramon Mundan
+    published: false
+    volume: 1150000.0
+  Faramon Zaccori:
+    id: 17851
+    name: Faramon Zaccori
+    published: false
+    volume: 1140000.0
+  Freedom Command Ship:
+    id: 22086
+    name: Freedom Command Ship
+    published: false
+    volume: 850000.0
+  Freedom Liberty:
+    id: 16252
+    name: Freedom Liberty
+    published: false
+    volume: 920000.0
+  General 'Buck' Turgidson:
+    id: 20373
+    name: General 'Buck' Turgidson
+    published: false
+    volume: 1150000.0
+  General Krayek Tsunomi:
+    id: 16871
+    name: General Krayek Tsunomi
+    published: false
+    volume: 1080000.0
+  Gregory Lerma:
+    id: 21860
+    name: Gregory Lerma
+    published: false
+    volume: 1080000.0
+  High Priest Karmone Tizmer:
+    id: 19679
+    name: High Priest Karmone Tizmer
+    published: false
+    volume: 1150000.0
+  Hoborak Moon:
+    id: 20439
+    name: Hoborak Moon
+    published: false
+    volume: 1.9E7
+  Hyan Vezzon:
+    id: 16621
+    name: Hyan Vezzon
+    published: false
+    volume: 1080000.0
+  Ioan Lafonte:
+    id: 16201
+    name: Ioan Lafonte
+    published: false
+    volume: 1140000.0
+  Jared Kalem:
+    id: 15393
+    name: Jared Kalem
+    published: false
+    volume: 1.9E7
+  Jerek Shapuir:
+    id: 16200
+    name: Jerek Shapuir
+    published: false
+    volume: 1100000.0
+  Kazar Numon:
+    id: 20359
+    name: Kazar Numon
+    published: false
+    volume: 1150000.0
+  Komni Envoy:
+    id: 13908
+    name: Komni Envoy
+    published: false
+    volume: 1040000.0
+  Korien Anieu:
+    id: 16613
+    name: Korien Anieu
+    published: false
+    volume: 1.9E7
+  Kurzon Destroyer:
+    id: 16226
+    name: Kurzon Destroyer
+    published: false
+    volume: 980000.0
+  Kyokan:
+    id: 16203
+    name: Kyokan
+    published: false
+    volume: 1.9E7
+  Markus Ikmani:
+    id: 20545
+    name: Markus Ikmani
+    published: false
+    volume: 1040000.0
+  Maru Envoy:
+    id: 13910
+    name: Maru Envoy
+    published: false
+    volume: 100100.0
+  Mercenary Overlord:
+    id: 12464
+    name: Mercenary Overlord
+    published: false
+    volume: 1.9E7
+  Odamian Envoy:
+    id: 13911
+    name: Odamian Envoy
+    published: false
+    volume: 1010000.0
+  Paon Tay:
+    id: 20442
+    name: Paon Tay
+    published: false
+    volume: 2.2E7
+  Rachen Mysuna:
+    id: 20440
+    name: Rachen Mysuna
+    published: false
+    volume: 2.2E7
+  Redtail Shark:
+    id: 46275
+    name: Redtail Shark
+    published: false
+    volume: 486000.0
+  Rogue Pirate Leader:
+    id: 13514
+    name: Rogue Pirate Leader
+    published: false
+    volume: 80000.0
+  Taisu Magdesh:
+    id: 15394
+    name: Taisu Magdesh
+    published: false
+    volume: 1080000.0
+  Tauron:
+    id: 16202
+    name: Tauron
+    published: false
+    volume: 1.9E7
+  Tikui Makan:
+    id: 25400
+    name: Tikui Makan
+    published: false
+    volume: 1080000.0
+  Warlord Ixon Kruz:
+    id: 19674
+    name: Warlord Ixon Kruz
+    published: false
+    volume: 850000.0
+  Whelan Machorin:
+    id: 20370
+    name: Whelan Machorin
+    published: false
+    volume: 1080000.0
+  Xevni Jipon:
+    id: 20441
+    name: Xevni Jipon
+    published: false
+    volume: 1140000.0
+  Yaekun Ogdin:
+    id: 20435
+    name: Yaekun Ogdin
+    published: false
+    volume: 920000.0
+  Zelfarios Kashnostramus:
+    id: 18678
+    name: Zelfarios Kashnostramus
+    published: false
+    volume: 100100.0
+  Zor:
+    id: 12256
+    name: Zor
+    published: false
+    volume: 1080000.0

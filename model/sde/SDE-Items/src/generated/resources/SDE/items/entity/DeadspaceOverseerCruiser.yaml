@@ -1,0 +1,176 @@
+items:
+  5/10 DED Angel Big Boss:
+    id: 3891
+    name: 5/10 DED Angel Big Boss
+    published: false
+    volume: 109000.0
+  Colony Captain:
+    id: 26768
+    name: Colony Captain
+    published: false
+    volume: 60.0
+  Control Headquarters:
+    id: 17165
+    name: Control Headquarters
+    published: false
+    volume: 109000.0
+  Corpus Crimson Commander:
+    id: 17615
+    name: Corpus Crimson Commander
+    published: false
+    volume: 118000.0
+  Dark Corpum Believer:
+    id: 26682
+    name: Dark Corpum Believer
+    published: false
+    volume: 118000.0
+  Domination Excavator:
+    id: 2846
+    name: Domination Excavator
+    published: false
+    volume: 109000.0
+  Dread Pithum Vindicator:
+    id: 26686
+    name: Dread Pithum Vindicator
+    published: false
+    volume: 101000.0
+  'Exsanguinator ':
+    id: 3882
+    name: 'Exsanguinator '
+    published: false
+    volume: 118000.0
+  Gistum Domination Racer:
+    id: 26678
+    name: Gistum Domination Racer
+    published: false
+    volume: 109000.0
+  Gurista Special Acquirement Captain:
+    id: 26756
+    name: Gurista Special Acquirement Captain
+    published: false
+    volume: 101000.0
+  Guristas Distributor:
+    id: 3884
+    name: Guristas Distributor
+    published: false
+    volume: 101000.0
+  Guristas Harlot Procurer:
+    id: 18641
+    name: Guristas Harlot Procurer
+    published: false
+    volume: 101000.0
+  Guristas Scout Officer:
+    id: 17284
+    name: Guristas Scout Officer
+    published: false
+    volume: 92000.0
+  Hive Logistic Captain:
+    id: 26766
+    name: Hive Logistic Captain
+    published: false
+    volume: 60.0
+  Hive Overseer:
+    id: 26765
+    name: Hive Overseer
+    published: false
+    volume: 60.0
+  Intoxicated Commander:
+    id: 18584
+    name: Intoxicated Commander
+    published: false
+    volume: 101000.0
+  Mul-Zatah Gatekeeper:
+    id: 17616
+    name: Mul-Zatah Gatekeeper
+    published: false
+    volume: 118000.0
+  Pithatis Speaker:
+    id: 25306
+    name: Pithatis Speaker
+    published: false
+    volume: 101000.0
+  Republic Fleet Keeper:
+    id: 25990
+    name: Republic Fleet Keeper
+    published: false
+    volume: 109000.0
+  Rogue Drone Logistic Overseer:
+    id: 26763
+    name: Rogue Drone Logistic Overseer
+    published: false
+    volume: 60.0
+  Rogue Production Captain:
+    id: 26764
+    name: Rogue Production Captain
+    published: false
+    volume: 60.0
+  Sansha Infiltrator:
+    id: 26130
+    name: Sansha Infiltrator
+    published: false
+    volume: 100100.0
+  Sarpati Family Enforcer:
+    id: 3890
+    name: Sarpati Family Enforcer
+    published: false
+    volume: 112000.0
+  Security Coordinator:
+    id: 17166
+    name: Security Coordinator
+    published: false
+    volume: 109000.0
+  Serpentis Chief of Security:
+    id: 17823
+    name: Serpentis Chief of Security
+    published: false
+    volume: 112000.0
+  Serpentis Drug Carrier:
+    id: 26758
+    name: Serpentis Drug Carrier
+    published: false
+    volume: 112000.0
+  Serpentis Refinery Headmaster:
+    id: 17824
+    name: Serpentis Refinery Headmaster
+    published: false
+    volume: 116000.0
+  Shadow Corelum Infantry:
+    id: 26691
+    name: Shadow Corelum Infantry
+    published: false
+    volume: 112000.0
+  Slave Ation09:
+    id: 3889
+    name: Slave Ation09
+    published: false
+    volume: 100100.0
+  TestNPC001:
+    id: 25877
+    name: TestNPC001
+    published: false
+    volume: 101000.0
+  The Negotiator:
+    id: 24582
+    name: The Negotiator
+    published: false
+    volume: 116000.0
+  Thukker Informant:
+    id: 26117
+    name: Thukker Informant
+    published: false
+    volume: 109000.0
+  True Centum General:
+    id: 26690
+    name: True Centum General
+    published: false
+    volume: 100100.0
+  True Sansha Foreman:
+    id: 2847
+    name: True Sansha Foreman
+    published: false
+    volume: 100100.0
+  Wiyrkomi Head Engineer:
+    id: 24584
+    name: Wiyrkomi Head Engineer
+    published: false
+    volume: 112000.0

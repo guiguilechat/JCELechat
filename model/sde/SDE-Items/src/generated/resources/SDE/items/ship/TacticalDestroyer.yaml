@@ -75,6 +75,7 @@ items:
     id: 34317
     marketGroup: 1952
     name: Confessor
+    published: true
     volume: 47000.0
   Hecate:
     Agility: 6.0
@@ -153,6 +154,7 @@ items:
     id: 35683
     marketGroup: 2034
     name: Hecate
+    published: true
     volume: 47000.0
   Jackdaw:
     Agility: 6.0
@@ -231,6 +233,7 @@ items:
     id: 34828
     marketGroup: 2021
     name: Jackdaw
+    published: true
     volume: 47000.0
   Svipul:
     Agility: 3.799999952316284
@@ -309,4 +312,5 @@ items:
     id: 34562
     marketGroup: 1953
     name: Svipul
+    published: true
     volume: 47000.0

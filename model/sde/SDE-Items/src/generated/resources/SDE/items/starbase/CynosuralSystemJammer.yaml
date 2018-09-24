@@ -1,6 +1,7 @@
 items:
   Cynosural System Jammer:
     AnchoringDelay: 300000
+    AnchoringSecurityLevelMax: 1.0
     ArmorHP: 15000000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 15000
@@ -34,4 +35,5 @@ items:
     id: 27674
     marketGroup: 1012
     name: Cynosural System Jammer
+    published: true
     volume: 4000.0

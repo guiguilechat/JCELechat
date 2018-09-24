@@ -12,6 +12,7 @@ items:
     id: 42838
     marketGroup: 2302
     name: Evasive Maneuvers Charge
+    published: true
     volume: 0.01
   Interdiction Maneuvers Charge:
     LauncherGroup: 1770
@@ -24,6 +25,7 @@ items:
     id: 42839
     marketGroup: 2302
     name: Interdiction Maneuvers Charge
+    published: true
     volume: 0.01
   Rapid Deployment Charge:
     LauncherGroup: 1770
@@ -36,4 +38,5 @@ items:
     id: 42840
     marketGroup: 2302
     name: Rapid Deployment Charge
+    published: true
     volume: 0.01

@@ -79,6 +79,7 @@ items:
     id: 11188
     marketGroup: 421
     name: Anathema
+    published: true
     volume: 28100.0
   Buzzard:
     Agility: 4.269999980926514
@@ -162,6 +163,7 @@ items:
     id: 11192
     marketGroup: 422
     name: Buzzard
+    published: true
     volume: 19400.0
   Caedes:
     Agility: 3.5999999046325684
@@ -174,6 +176,7 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 500.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 190
     DroneBandwidth: 10
     DroneCapacity: 30
@@ -252,6 +255,7 @@ items:
     id: 42246
     marketGroup: 1838
     name: Caedes
+    published: true
     volume: 28600.0
   Cheetah:
     Agility: 3.7699999809265137
@@ -334,6 +338,7 @@ items:
     id: 11182
     marketGroup: 424
     name: Cheetah
+    published: true
     volume: 17400.0
   Chremoas:
     Agility: 3.119999885559082
@@ -346,6 +351,7 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 365.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuOutput: 275
     DroneBandwidth: 15
     DroneCapacity: 30
@@ -422,6 +428,7 @@ items:
     id: 33397
     marketGroup: 1838
     name: Chremoas
+    published: true
     volume: 28000.0
   Helios:
     Agility: 4.142000198364258
@@ -505,6 +512,7 @@ items:
     id: 11172
     marketGroup: 423
     name: Helios
+    published: true
     volume: 23000.0
   Hydra:
     Agility: 3.1500000953674316
@@ -589,6 +597,7 @@ items:
     id: 48636
     marketGroup: 1838
     name: Hydra
+    published: true
     volume: 28600.0
   Pacifier:
     Agility: 3.5999999046325684
@@ -688,4 +697,5 @@ items:
     id: 44993
     marketGroup: 1838
     name: Pacifier
+    published: true
     volume: 20000.0

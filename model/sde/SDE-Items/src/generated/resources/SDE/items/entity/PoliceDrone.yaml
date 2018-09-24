@@ -1,0 +1,171 @@
+items:
+  Amarr Surveillance General Major:
+    id: 11515
+    name: Amarr Surveillance General Major
+    published: false
+    volume: 1080000.0
+  Amarr Surveillance Officer:
+    id: 9959
+    name: Amarr Surveillance Officer
+    published: false
+    volume: 18100.0
+  Amarr Surveillance Sergeant:
+    id: 9962
+    name: Amarr Surveillance Sergeant
+    published: false
+    volume: 115000.0
+  Amarr Surveillance Sergeant Major:
+    id: 9960
+    name: Amarr Surveillance Sergeant Major
+    published: false
+    volume: 118000.0
+  Ammatar Surveillance General Major:
+    id: 11517
+    name: Ammatar Surveillance General Major
+    published: false
+    volume: 1080000.0
+  Ammatar Surveillance Officer:
+    id: 10097
+    name: Ammatar Surveillance Officer
+    published: false
+    volume: 18100.0
+  Ammatar Surveillance Sergeant:
+    id: 10100
+    name: Ammatar Surveillance Sergeant
+    published: false
+    volume: 115000.0
+  Ammatar Surveillance Sergeant Major:
+    id: 10099
+    name: Ammatar Surveillance Sergeant Major
+    published: false
+    volume: 118000.0
+  CONCORD SWAT Captain:
+    id: 10036
+    name: CONCORD SWAT Captain
+    published: false
+    volume: 101000.0
+  CONCORD SWAT Commander:
+    id: 11126
+    name: CONCORD SWAT Commander
+    published: false
+    volume: 1080000.0
+  CONCORD SWAT Officer:
+    id: 10035
+    name: CONCORD SWAT Officer
+    published: false
+    volume: 20400.0
+  Caldari Police 1st Lieutenant:
+    id: 9971
+    name: Caldari Police 1st Lieutenant
+    published: false
+    volume: 92000.0
+  Caldari Police 2nd Lieutenant:
+    id: 10660
+    name: Caldari Police 2nd Lieutenant
+    published: false
+    volume: 107000.0
+  Caldari Police 3rd Lieutenant:
+    id: 9970
+    name: Caldari Police 3rd Lieutenant
+    published: false
+    volume: 16500.0
+  Caldari Police Commissioner:
+    id: 11521
+    name: Caldari Police Commissioner
+    published: false
+    volume: 1080000.0
+  Caldari Police Vice Commissioner:
+    id: 9965
+    name: Caldari Police Vice Commissioner
+    published: false
+    volume: 101000.0
+  Gallente Police Captain:
+    id: 9984
+    name: Gallente Police Captain
+    published: false
+    volume: 115000.0
+  Gallente Police Major:
+    id: 11519
+    name: Gallente Police Major
+    published: false
+    volume: 1080000.0
+  Gallente Police Master Sergeant:
+    id: 9983
+    name: Gallente Police Master Sergeant
+    published: false
+    volume: 113000.0
+  Gallente Police Sergeant:
+    id: 9991
+    name: Gallente Police Sergeant
+    published: false
+    volume: 20400.0
+  Khanid Surveillance General Major:
+    id: 11518
+    name: Khanid Surveillance General Major
+    published: false
+    volume: 1080000.0
+  Khanid Surveillance Officer:
+    id: 9987
+    name: Khanid Surveillance Officer
+    published: false
+    volume: 20400.0
+  Khanid Surveillance Sergeant:
+    id: 9988
+    name: Khanid Surveillance Sergeant
+    published: false
+    volume: 115000.0
+  Khanid Surveillance Sergeant Major:
+    id: 10674
+    name: Khanid Surveillance Sergeant Major
+    published: false
+    volume: 118000.0
+  Minmatar Security High Captain:
+    id: 11520
+    name: Minmatar Security High Captain
+    published: false
+    volume: 1080000.0
+  Minmatar Security Officer 1st Rank:
+    id: 9978
+    name: Minmatar Security Officer 1st Rank
+    published: false
+    volume: 80000.0
+  Minmatar Security Officer 2nd Rank:
+    id: 9977
+    name: Minmatar Security Officer 2nd Rank
+    published: false
+    volume: 89000.0
+  Minmatar Security Officer 3rd Rank:
+    id: 9989
+    name: Minmatar Security Officer 3rd Rank
+    published: false
+    volume: 12000.0
+  Roden Police Major:
+    id: 32380
+    name: Roden Police Major
+    published: false
+    volume: 1080000.0
+  Roden Police Sergeant:
+    id: 32381
+    name: Roden Police Sergeant
+    published: false
+    volume: 20400.0
+  Sarum Surveillance General Major:
+    id: 11516
+    name: Sarum Surveillance General Major
+    published: false
+    volume: 1080000.0
+  Sarum Surveillance Officer:
+    id: 10102
+    name: Sarum Surveillance Officer
+    published: false
+    volume: 18100.0
+  Sarum Surveillance Sergeant:
+    id: 10105
+    name: Sarum Surveillance Sergeant
+    published: false
+    volume: 115000.0
+  Sarum Surveillance Sergeant Major:
+    id: 10104
+    name: Sarum Surveillance Sergeant Major
+    published: false
+    volume: 118000.0

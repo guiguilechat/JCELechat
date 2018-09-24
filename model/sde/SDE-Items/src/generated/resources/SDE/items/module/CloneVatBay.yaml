@@ -1,6 +1,7 @@
 items:
   Clone Vat Bay I:
     AllowsCloneJumpsWhenActive: 1
+    CanCloak: 1
     CanFitShipGroup01: 883
     CanFitShipGroup02: 30
     ConsumptionQuantity: 1
@@ -21,4 +22,5 @@ items:
     id: 23735
     marketGroup: 1642
     name: Clone Vat Bay I
+    published: true
     volume: 4000.0

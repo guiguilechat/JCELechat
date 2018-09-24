@@ -11,6 +11,7 @@ items:
     id: 47909
     marketGroup: 2471
     name: Compact Entropic Radiation Sink
+    published: true
     volume: 5.0
   Entropic Radiation Sink I:
     Cpu: 27.0
@@ -24,6 +25,7 @@ items:
     id: 47908
     marketGroup: 2471
     name: Entropic Radiation Sink I
+    published: true
     volume: 5.0
   Entropic Radiation Sink II:
     Cpu: 30.0
@@ -38,4 +40,5 @@ items:
     id: 47911
     marketGroup: 2471
     name: Entropic Radiation Sink II
+    published: true
     volume: 5.0

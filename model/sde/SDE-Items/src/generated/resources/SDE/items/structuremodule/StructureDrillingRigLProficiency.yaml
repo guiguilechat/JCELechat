@@ -16,6 +16,7 @@ items:
     id: 46327
     marketGroup: 2342
     name: Standup L-Set Moon Drilling Proficiency I
+    published: true
     volume: 20.0
   Standup L-Set Moon Drilling Proficiency II:
     CanFitShipGroup03: 1406
@@ -34,4 +35,5 @@ items:
     id: 46328
     marketGroup: 2342
     name: Standup L-Set Moon Drilling Proficiency II
+    published: true
     volume: 20.0

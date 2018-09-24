@@ -19,6 +19,7 @@ items:
     id: 37216
     marketGroup: 2344
     name: Standup M-Set Missile Precision I
+    published: true
     volume: 10.0
   Standup M-Set Missile Precision II:
     CanFitShipGroup01: 1657
@@ -40,4 +41,5 @@ items:
     id: 37217
     marketGroup: 2344
     name: Standup M-Set Missile Precision II
+    published: true
     volume: 10.0

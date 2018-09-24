@@ -72,6 +72,7 @@ items:
     id: 35826
     marketGroup: 2324
     name: Azbel
+    published: true
     volume: 80000.0
   Raitaru:
     ArmorDamageLimit: 5000
@@ -141,6 +142,7 @@ items:
     id: 35825
     marketGroup: 2324
     name: Raitaru
+    published: true
     volume: 8000.0
   Sotiyo:
     ArmorDamageLimit: 75000
@@ -216,4 +218,5 @@ items:
     id: 35827
     marketGroup: 2324
     name: Sotiyo
+    published: true
     volume: 800000.0

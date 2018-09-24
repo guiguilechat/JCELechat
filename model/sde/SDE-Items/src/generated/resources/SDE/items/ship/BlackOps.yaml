@@ -13,6 +13,7 @@ items:
     ConcordRoleBonusSecGain: 10
     ConcordTankBonus: -10
     CovertOpsAndReconOpsCloakModuleDelay: 5000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
     CpuOutput: 800
     EliteBonusBlackOps1: 10.0
@@ -106,6 +107,7 @@ items:
     id: 44996
     marketGroup: 1620
     name: Marshal
+    published: true
     volume: 450000.0
   Panther:
     Agility: 0.06400000303983688
@@ -119,6 +121,7 @@ items:
     CanJump: 1
     CapacitorCapacity: 5000.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
     CpuOutput: 510
     DroneBandwidth: 125
@@ -200,6 +203,7 @@ items:
     id: 22440
     marketGroup: 1079
     name: Panther
+    published: true
     volume: 414000.0
   Redeemer:
     Agility: 0.07199999690055847
@@ -213,6 +217,7 @@ items:
     CanJump: 1
     CapacitorCapacity: 5312.5
     CovertOpsAndReconOpsCloakModuleDelay: 5000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
     CpuOutput: 505
     DroneBandwidth: 125
@@ -294,6 +299,7 @@ items:
     id: 22428
     marketGroup: 1076
     name: Redeemer
+    published: true
     volume: 486000.0
   Sin:
     Agility: 0.06840000301599503
@@ -307,6 +313,7 @@ items:
     CanJump: 1
     CapacitorCapacity: 5000.0
     CovertOpsAndReconOpsCloakModuleDelay: 5000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
     CpuOutput: 600
     DroneBandwidth: 125
@@ -389,6 +396,7 @@ items:
     id: 22430
     marketGroup: 1078
     name: Sin
+    published: true
     volume: 454500.0
   Widow:
     Agility: 0.06800000369548798
@@ -402,6 +410,7 @@ items:
     CanJump: 1
     CapacitorCapacity: 5312.5
     CovertOpsAndReconOpsCloakModuleDelay: 5000
+    CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
     CpuOutput: 760
     DroneBandwidth: 75
@@ -484,4 +493,5 @@ items:
     id: 22436
     marketGroup: 1077
     name: Widow
+    published: true
     volume: 468000.0

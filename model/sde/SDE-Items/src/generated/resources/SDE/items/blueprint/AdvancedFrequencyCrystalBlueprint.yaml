@@ -4,90 +4,106 @@ items:
     TechLevel: 2
     id: 12825
     name: Aurora L Blueprint
+    published: true
     volume: 0.01
   Aurora M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12823
     name: Aurora M Blueprint
+    published: true
     volume: 0.01
   Aurora S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12560
     name: Aurora S Blueprint
+    published: true
     volume: 0.01
   Aurora XL Blueprint:
     TechLevel: 2
     id: 41337
     name: Aurora XL Blueprint
+    published: true
     volume: 0.01
   Conflagration L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12817
     name: Conflagration L Blueprint
+    published: true
     volume: 0.01
   Conflagration M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12815
     name: Conflagration M Blueprint
+    published: true
     volume: 0.01
   Conflagration S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12566
     name: Conflagration S Blueprint
+    published: true
     volume: 0.01
   Conflagration XL Blueprint:
     TechLevel: 2
     id: 41333
     name: Conflagration XL Blueprint
+    published: true
     volume: 0.01
   Gleam L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12829
     name: Gleam L Blueprint
+    published: true
     volume: 0.01
   Gleam M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12827
     name: Gleam M Blueprint
+    published: true
     volume: 0.01
   Gleam S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12558
     name: Gleam S Blueprint
+    published: true
     volume: 0.01
   Gleam XL Blueprint:
     TechLevel: 2
     id: 41335
     name: Gleam XL Blueprint
+    published: true
     volume: 0.01
   Scorch L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
     id: 12821
     name: Scorch L Blueprint
+    published: true
     volume: 0.01
   Scorch M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
     id: 12819
     name: Scorch M Blueprint
+    published: true
     volume: 0.01
   Scorch S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
     id: 12564
     name: Scorch S Blueprint
+    published: true
     volume: 0.01
   Scorch XL Blueprint:
     TechLevel: 2
     id: 41331
     name: Scorch XL Blueprint
+    published: true
     volume: 0.01

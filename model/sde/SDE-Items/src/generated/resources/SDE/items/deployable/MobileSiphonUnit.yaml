@@ -1,5 +1,6 @@
 items:
   Small Mobile 'Hybrid' Siphon Unit:
+    AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
     ArmorHP: 10000
     ArmorUniformity: 0.75
@@ -22,8 +23,10 @@ items:
     id: 33581
     marketGroup: 1835
     name: Small Mobile 'Hybrid' Siphon Unit
+    published: true
     volume: 35.0
   Small Mobile 'Rote' Siphon Unit:
+    AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
     ArmorHP: 10000
     ArmorUniformity: 0.75
@@ -47,8 +50,10 @@ items:
     id: 33583
     marketGroup: 1835
     name: Small Mobile 'Rote' Siphon Unit
+    published: true
     volume: 35.0
   Small Mobile Siphon Unit:
+    AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
     ArmorHP: 10000
     ArmorUniformity: 0.75
@@ -72,4 +77,5 @@ items:
     id: 33477
     marketGroup: 1835
     name: Small Mobile Siphon Unit
+    published: true
     volume: 35.0

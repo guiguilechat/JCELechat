@@ -1,0 +1,61 @@
+items:
+  Corpior Cleric:
+    id: 23983
+    name: Corpior Cleric
+    published: false
+    volume: 28600.0
+  Corpior Converter:
+    id: 23979
+    name: Corpior Converter
+    published: false
+    volume: 28600.0
+  Corpior Devoter:
+    id: 23981
+    name: Corpior Devoter
+    published: false
+    volume: 28600.0
+  Corpior Friar:
+    id: 23982
+    name: Corpior Friar
+    published: false
+    volume: 28600.0
+  Corpior Templar:
+    id: 23980
+    name: Corpior Templar
+    published: false
+    volume: 28600.0
+  Corpior Visionary:
+    id: 23970
+    name: Corpior Visionary
+    published: false
+    volume: 28600.0
+  Dark Corpior Cleric:
+    id: 24228
+    name: Dark Corpior Cleric
+    published: false
+    volume: 28600.0
+  Dark Corpior Converter:
+    id: 24224
+    name: Dark Corpior Converter
+    published: false
+    volume: 28600.0
+  Dark Corpior Devoter:
+    id: 24226
+    name: Dark Corpior Devoter
+    published: false
+    volume: 28600.0
+  Dark Corpior Friar:
+    id: 24227
+    name: Dark Corpior Friar
+    published: false
+    volume: 28600.0
+  Dark Corpior Templar:
+    id: 24225
+    name: Dark Corpior Templar
+    published: false
+    volume: 28600.0
+  Dark Corpior Visioner:
+    id: 24223
+    name: Dark Corpior Visioner
+    published: false
+    volume: 28600.0

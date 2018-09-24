@@ -25,4 +25,5 @@ items:
     id: 33149
     marketGroup: 1702
     name: Personal Hangar Array
+    published: true
     volume: 4000.0

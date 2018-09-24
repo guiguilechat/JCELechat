@@ -13,6 +13,7 @@ items:
     id: 29003
     marketGroup: 1094
     name: Focused Warp Disruption Script
+    published: true
     volume: 1.0
   Focused Warp Scrambling Script:
     CapNeedBonus: -60
@@ -28,4 +29,5 @@ items:
     id: 45010
     marketGroup: 1094
     name: Focused Warp Scrambling Script
+    published: true
     volume: 1.0

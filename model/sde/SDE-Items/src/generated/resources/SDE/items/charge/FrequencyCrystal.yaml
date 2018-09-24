@@ -17,6 +17,7 @@ items:
     id: 21236
     marketGroup: 995
     name: Blood Gamma L
+    published: true
     volume: 1.0
   Blood Gamma M:
     CapNeedBonus: -15
@@ -36,6 +37,7 @@ items:
     id: 21220
     marketGroup: 996
     name: Blood Gamma M
+    published: true
     volume: 1.0
   Blood Gamma S:
     CapNeedBonus: -15
@@ -55,6 +57,7 @@ items:
     id: 21206
     marketGroup: 997
     name: Blood Gamma S
+    published: true
     volume: 1.0
   Blood Gamma XL:
     CapNeedBonus: -15
@@ -74,6 +77,7 @@ items:
     id: 21252
     marketGroup: 1007
     name: Blood Gamma XL
+    published: true
     volume: 1.0
   Blood Infrared L:
     CapNeedBonus: -35
@@ -93,6 +97,7 @@ items:
     id: 21228
     marketGroup: 995
     name: Blood Infrared L
+    published: true
     volume: 1.0
   Blood Infrared M:
     CapNeedBonus: -35
@@ -112,6 +117,7 @@ items:
     id: 21212
     marketGroup: 996
     name: Blood Infrared M
+    published: true
     volume: 1.0
   Blood Infrared S:
     CapNeedBonus: -35
@@ -131,6 +137,7 @@ items:
     id: 21198
     marketGroup: 997
     name: Blood Infrared S
+    published: true
     volume: 1.0
   Blood Infrared XL:
     CapNeedBonus: -35
@@ -150,6 +157,7 @@ items:
     id: 21244
     marketGroup: 1007
     name: Blood Infrared XL
+    published: true
     volume: 1.0
   Blood Microwave L:
     CapNeedBonus: -25
@@ -169,6 +177,7 @@ items:
     id: 21226
     marketGroup: 995
     name: Blood Microwave L
+    published: true
     volume: 1.0
   Blood Microwave M:
     CapNeedBonus: -25
@@ -188,6 +197,7 @@ items:
     id: 21210
     marketGroup: 996
     name: Blood Microwave M
+    published: true
     volume: 1.0
   Blood Microwave S:
     CapNeedBonus: -25
@@ -207,6 +217,7 @@ items:
     id: 21196
     marketGroup: 997
     name: Blood Microwave S
+    published: true
     volume: 1.0
   Blood Microwave XL:
     CapNeedBonus: -25
@@ -226,6 +237,7 @@ items:
     id: 21242
     marketGroup: 1007
     name: Blood Microwave XL
+    published: true
     volume: 1.0
   Blood Multifrequency L:
     ChargeSize: 3
@@ -244,6 +256,7 @@ items:
     id: 21238
     marketGroup: 995
     name: Blood Multifrequency L
+    published: true
     volume: 1.0
   Blood Multifrequency M:
     ChargeSize: 2
@@ -262,6 +275,7 @@ items:
     id: 21222
     marketGroup: 996
     name: Blood Multifrequency M
+    published: true
     volume: 1.0
   Blood Multifrequency S:
     ChargeSize: 1
@@ -280,6 +294,7 @@ items:
     id: 21208
     marketGroup: 997
     name: Blood Multifrequency S
+    published: true
     volume: 1.0
   Blood Multifrequency XL:
     ChargeSize: 4
@@ -298,6 +313,7 @@ items:
     id: 21254
     marketGroup: 1007
     name: Blood Multifrequency XL
+    published: true
     volume: 1.0
   Blood Radio L:
     CapNeedBonus: -15
@@ -316,6 +332,7 @@ items:
     id: 21224
     marketGroup: 995
     name: Blood Radio L
+    published: true
     volume: 1.0
   Blood Radio M:
     CapNeedBonus: -15
@@ -334,6 +351,7 @@ items:
     id: 21450
     marketGroup: 996
     name: Blood Radio M
+    published: true
     volume: 1.0
   Blood Radio S:
     CapNeedBonus: -15
@@ -352,6 +370,7 @@ items:
     id: 21194
     marketGroup: 997
     name: Blood Radio S
+    published: true
     volume: 1.0
   Blood Radio XL:
     CapNeedBonus: -15
@@ -370,6 +389,7 @@ items:
     id: 21240
     marketGroup: 1007
     name: Blood Radio XL
+    published: true
     volume: 1.0
   Blood Standard L:
     CapNeedBonus: -45
@@ -389,6 +409,7 @@ items:
     id: 21230
     marketGroup: 995
     name: Blood Standard L
+    published: true
     volume: 1.0
   Blood Standard M:
     CapNeedBonus: -45
@@ -408,6 +429,7 @@ items:
     id: 21214
     marketGroup: 996
     name: Blood Standard M
+    published: true
     volume: 1.0
   Blood Standard S:
     CapNeedBonus: -45
@@ -427,6 +449,7 @@ items:
     id: 21200
     marketGroup: 997
     name: Blood Standard S
+    published: true
     volume: 1.0
   Blood Standard XL:
     CapNeedBonus: -45
@@ -446,6 +469,7 @@ items:
     id: 21246
     marketGroup: 1007
     name: Blood Standard XL
+    published: true
     volume: 1.0
   Blood Ultraviolet L:
     CapNeedBonus: -35
@@ -465,6 +489,7 @@ items:
     id: 21232
     marketGroup: 995
     name: Blood Ultraviolet L
+    published: true
     volume: 1.0
   Blood Ultraviolet M:
     CapNeedBonus: -35
@@ -484,6 +509,7 @@ items:
     id: 21216
     marketGroup: 996
     name: Blood Ultraviolet M
+    published: true
     volume: 1.0
   Blood Ultraviolet S:
     CapNeedBonus: -35
@@ -503,6 +529,7 @@ items:
     id: 21202
     marketGroup: 997
     name: Blood Ultraviolet S
+    published: true
     volume: 1.0
   Blood Ultraviolet XL:
     CapNeedBonus: -35
@@ -522,6 +549,7 @@ items:
     id: 21248
     marketGroup: 1007
     name: Blood Ultraviolet XL
+    published: true
     volume: 1.0
   Blood Xray L:
     CapNeedBonus: -25
@@ -541,6 +569,7 @@ items:
     id: 21234
     marketGroup: 995
     name: Blood Xray L
+    published: true
     volume: 1.0
   Blood Xray M:
     CapNeedBonus: -25
@@ -560,6 +589,7 @@ items:
     id: 21218
     marketGroup: 996
     name: Blood Xray M
+    published: true
     volume: 1.0
   Blood Xray S:
     CapNeedBonus: -25
@@ -579,6 +609,7 @@ items:
     id: 21204
     marketGroup: 997
     name: Blood Xray S
+    published: true
     volume: 1.0
   Blood Xray XL:
     CapNeedBonus: -25
@@ -598,6 +629,7 @@ items:
     id: 21250
     marketGroup: 1007
     name: Blood Xray XL
+    published: true
     volume: 1.0
   Dark Blood Gamma L:
     CapNeedBonus: -15
@@ -617,6 +649,7 @@ items:
     id: 21300
     marketGroup: 995
     name: Dark Blood Gamma L
+    published: true
     volume: 1.0
   Dark Blood Gamma M:
     CapNeedBonus: -15
@@ -636,6 +669,7 @@ items:
     id: 21284
     marketGroup: 996
     name: Dark Blood Gamma M
+    published: true
     volume: 1.0
   Dark Blood Gamma S:
     CapNeedBonus: -15
@@ -655,6 +689,7 @@ items:
     id: 21268
     marketGroup: 997
     name: Dark Blood Gamma S
+    published: true
     volume: 1.0
   Dark Blood Gamma XL:
     CapNeedBonus: -15
@@ -674,6 +709,7 @@ items:
     id: 21316
     marketGroup: 1007
     name: Dark Blood Gamma XL
+    published: true
     volume: 1.0
   Dark Blood Infrared L:
     CapNeedBonus: -35
@@ -693,6 +729,7 @@ items:
     id: 21292
     marketGroup: 995
     name: Dark Blood Infrared L
+    published: true
     volume: 1.0
   Dark Blood Infrared M:
     CapNeedBonus: -35
@@ -712,6 +749,7 @@ items:
     id: 21276
     marketGroup: 996
     name: Dark Blood Infrared M
+    published: true
     volume: 1.0
   Dark Blood Infrared S:
     CapNeedBonus: -35
@@ -731,6 +769,7 @@ items:
     id: 21260
     marketGroup: 997
     name: Dark Blood Infrared S
+    published: true
     volume: 1.0
   Dark Blood Infrared XL:
     CapNeedBonus: -35
@@ -750,6 +789,7 @@ items:
     id: 21308
     marketGroup: 1007
     name: Dark Blood Infrared XL
+    published: true
     volume: 1.0
   Dark Blood Microwave L:
     CapNeedBonus: -25
@@ -769,6 +809,7 @@ items:
     id: 21290
     marketGroup: 995
     name: Dark Blood Microwave L
+    published: true
     volume: 1.0
   Dark Blood Microwave M:
     CapNeedBonus: -25
@@ -788,6 +829,7 @@ items:
     id: 21274
     marketGroup: 996
     name: Dark Blood Microwave M
+    published: true
     volume: 1.0
   Dark Blood Microwave S:
     CapNeedBonus: -25
@@ -807,6 +849,7 @@ items:
     id: 21258
     marketGroup: 997
     name: Dark Blood Microwave S
+    published: true
     volume: 1.0
   Dark Blood Microwave XL:
     CapNeedBonus: -25
@@ -826,6 +869,7 @@ items:
     id: 21306
     marketGroup: 1007
     name: Dark Blood Microwave XL
+    published: true
     volume: 1.0
   Dark Blood Multifrequency L:
     ChargeSize: 3
@@ -844,6 +888,7 @@ items:
     id: 21302
     marketGroup: 995
     name: Dark Blood Multifrequency L
+    published: true
     volume: 1.0
   Dark Blood Multifrequency M:
     ChargeSize: 2
@@ -862,6 +907,7 @@ items:
     id: 21286
     marketGroup: 996
     name: Dark Blood Multifrequency M
+    published: true
     volume: 1.0
   Dark Blood Multifrequency S:
     ChargeSize: 1
@@ -880,6 +926,7 @@ items:
     id: 21270
     marketGroup: 997
     name: Dark Blood Multifrequency S
+    published: true
     volume: 1.0
   Dark Blood Multifrequency XL:
     ChargeSize: 4
@@ -898,6 +945,7 @@ items:
     id: 21318
     marketGroup: 1007
     name: Dark Blood Multifrequency XL
+    published: true
     volume: 1.0
   Dark Blood Radio L:
     CapNeedBonus: -15
@@ -916,6 +964,7 @@ items:
     id: 21288
     marketGroup: 995
     name: Dark Blood Radio L
+    published: true
     volume: 1.0
   Dark Blood Radio M:
     CapNeedBonus: -15
@@ -934,6 +983,7 @@ items:
     id: 21272
     marketGroup: 996
     name: Dark Blood Radio M
+    published: true
     volume: 1.0
   Dark Blood Radio S:
     CapNeedBonus: -15
@@ -952,6 +1002,7 @@ items:
     id: 21256
     marketGroup: 997
     name: Dark Blood Radio S
+    published: true
     volume: 1.0
   Dark Blood Radio XL:
     CapNeedBonus: -15
@@ -970,6 +1021,7 @@ items:
     id: 21304
     marketGroup: 1007
     name: Dark Blood Radio XL
+    published: true
     volume: 1.0
   Dark Blood Standard L:
     CapNeedBonus: -45
@@ -989,6 +1041,7 @@ items:
     id: 21294
     marketGroup: 995
     name: Dark Blood Standard L
+    published: true
     volume: 1.0
   Dark Blood Standard M:
     CapNeedBonus: -45
@@ -1008,6 +1061,7 @@ items:
     id: 21278
     marketGroup: 996
     name: Dark Blood Standard M
+    published: true
     volume: 1.0
   Dark Blood Standard S:
     CapNeedBonus: -45
@@ -1027,6 +1081,7 @@ items:
     id: 21262
     marketGroup: 997
     name: Dark Blood Standard S
+    published: true
     volume: 1.0
   Dark Blood Standard XL:
     CapNeedBonus: -45
@@ -1046,6 +1101,7 @@ items:
     id: 21310
     marketGroup: 1007
     name: Dark Blood Standard XL
+    published: true
     volume: 1.0
   Dark Blood Ultraviolet L:
     CapNeedBonus: -35
@@ -1065,6 +1121,7 @@ items:
     id: 21296
     marketGroup: 995
     name: Dark Blood Ultraviolet L
+    published: true
     volume: 1.0
   Dark Blood Ultraviolet M:
     CapNeedBonus: -35
@@ -1084,6 +1141,7 @@ items:
     id: 21280
     marketGroup: 996
     name: Dark Blood Ultraviolet M
+    published: true
     volume: 1.0
   Dark Blood Ultraviolet S:
     CapNeedBonus: -35
@@ -1103,6 +1161,7 @@ items:
     id: 21264
     marketGroup: 997
     name: Dark Blood Ultraviolet S
+    published: true
     volume: 1.0
   Dark Blood Ultraviolet XL:
     CapNeedBonus: -35
@@ -1122,6 +1181,7 @@ items:
     id: 21312
     marketGroup: 1007
     name: Dark Blood Ultraviolet XL
+    published: true
     volume: 1.0
   Dark Blood Xray L:
     CapNeedBonus: -25
@@ -1141,6 +1201,7 @@ items:
     id: 21298
     marketGroup: 995
     name: Dark Blood Xray L
+    published: true
     volume: 1.0
   Dark Blood Xray M:
     CapNeedBonus: -25
@@ -1160,6 +1221,7 @@ items:
     id: 21282
     marketGroup: 996
     name: Dark Blood Xray M
+    published: true
     volume: 1.0
   Dark Blood Xray S:
     CapNeedBonus: -25
@@ -1179,6 +1241,7 @@ items:
     id: 21266
     marketGroup: 997
     name: Dark Blood Xray S
+    published: true
     volume: 1.0
   Dark Blood Xray XL:
     CapNeedBonus: -25
@@ -1198,6 +1261,7 @@ items:
     id: 21314
     marketGroup: 1007
     name: Dark Blood Xray XL
+    published: true
     volume: 1.0
   Gamma L:
     CapNeedBonus: -15
@@ -1215,6 +1279,7 @@ items:
     id: 261
     marketGroup: 105
     name: Gamma L
+    published: true
     volume: 1.0
   Gamma M:
     CapNeedBonus: -15
@@ -1232,6 +1297,7 @@ items:
     id: 253
     marketGroup: 103
     name: Gamma M
+    published: true
     volume: 1.0
   Gamma S:
     CapNeedBonus: -15
@@ -1249,6 +1315,7 @@ items:
     id: 245
     marketGroup: 102
     name: Gamma S
+    published: true
     volume: 1.0
   Gamma XL:
     CapNeedBonus: -15
@@ -1266,6 +1333,7 @@ items:
     id: 17680
     marketGroup: 503
     name: Gamma XL
+    published: true
     volume: 1.0
   Imperial Navy Gamma L:
     CapNeedBonus: -15
@@ -1285,6 +1353,7 @@ items:
     id: 23107
     marketGroup: 995
     name: Imperial Navy Gamma L
+    published: true
     volume: 1.0
   Imperial Navy Gamma M:
     CapNeedBonus: -15
@@ -1304,6 +1373,7 @@ items:
     id: 23091
     marketGroup: 996
     name: Imperial Navy Gamma M
+    published: true
     volume: 1.0
   Imperial Navy Gamma S:
     CapNeedBonus: -15
@@ -1323,6 +1393,7 @@ items:
     id: 23073
     marketGroup: 997
     name: Imperial Navy Gamma S
+    published: true
     volume: 1.0
   Imperial Navy Infrared L:
     CapNeedBonus: -35
@@ -1342,6 +1413,7 @@ items:
     id: 23115
     marketGroup: 995
     name: Imperial Navy Infrared L
+    published: true
     volume: 1.0
   Imperial Navy Infrared M:
     CapNeedBonus: -35
@@ -1361,6 +1433,7 @@ items:
     id: 23099
     marketGroup: 996
     name: Imperial Navy Infrared M
+    published: true
     volume: 1.0
   Imperial Navy Infrared S:
     CapNeedBonus: -35
@@ -1380,6 +1453,7 @@ items:
     id: 23081
     marketGroup: 997
     name: Imperial Navy Infrared S
+    published: true
     volume: 1.0
   Imperial Navy Microwave L:
     CapNeedBonus: -25
@@ -1399,6 +1473,7 @@ items:
     id: 23117
     marketGroup: 995
     name: Imperial Navy Microwave L
+    published: true
     volume: 1.0
   Imperial Navy Microwave M:
     CapNeedBonus: -25
@@ -1418,6 +1493,7 @@ items:
     id: 23101
     marketGroup: 996
     name: Imperial Navy Microwave M
+    published: true
     volume: 1.0
   Imperial Navy Microwave S:
     CapNeedBonus: -25
@@ -1437,6 +1513,7 @@ items:
     id: 23083
     marketGroup: 997
     name: Imperial Navy Microwave S
+    published: true
     volume: 1.0
   Imperial Navy Multifrequency L:
     ChargeSize: 3
@@ -1455,6 +1532,7 @@ items:
     id: 23105
     marketGroup: 995
     name: Imperial Navy Multifrequency L
+    published: true
     volume: 1.0
   Imperial Navy Multifrequency M:
     ChargeSize: 2
@@ -1473,6 +1551,7 @@ items:
     id: 23089
     marketGroup: 996
     name: Imperial Navy Multifrequency M
+    published: true
     volume: 1.0
   Imperial Navy Multifrequency S:
     ChargeSize: 1
@@ -1491,6 +1570,7 @@ items:
     id: 23071
     marketGroup: 997
     name: Imperial Navy Multifrequency S
+    published: true
     volume: 1.0
   Imperial Navy Radio L:
     CapNeedBonus: -15
@@ -1509,6 +1589,7 @@ items:
     id: 23119
     marketGroup: 995
     name: Imperial Navy Radio L
+    published: true
     volume: 1.0
   Imperial Navy Radio M:
     CapNeedBonus: -15
@@ -1527,6 +1608,7 @@ items:
     id: 23103
     marketGroup: 996
     name: Imperial Navy Radio M
+    published: true
     volume: 1.0
   Imperial Navy Radio S:
     CapNeedBonus: -15
@@ -1545,6 +1627,7 @@ items:
     id: 23085
     marketGroup: 997
     name: Imperial Navy Radio S
+    published: true
     volume: 1.0
   Imperial Navy Standard L:
     CapNeedBonus: -45
@@ -1564,6 +1647,7 @@ items:
     id: 23113
     marketGroup: 995
     name: Imperial Navy Standard L
+    published: true
     volume: 1.0
   Imperial Navy Standard M:
     CapNeedBonus: -45
@@ -1583,6 +1667,7 @@ items:
     id: 23097
     marketGroup: 996
     name: Imperial Navy Standard M
+    published: true
     volume: 1.0
   Imperial Navy Standard S:
     CapNeedBonus: -45
@@ -1602,6 +1687,7 @@ items:
     id: 23079
     marketGroup: 997
     name: Imperial Navy Standard S
+    published: true
     volume: 1.0
   Imperial Navy Ultraviolet L:
     CapNeedBonus: -35
@@ -1621,6 +1707,7 @@ items:
     id: 23111
     marketGroup: 995
     name: Imperial Navy Ultraviolet L
+    published: true
     volume: 1.0
   Imperial Navy Ultraviolet M:
     CapNeedBonus: -35
@@ -1640,6 +1727,7 @@ items:
     id: 23095
     marketGroup: 996
     name: Imperial Navy Ultraviolet M
+    published: true
     volume: 1.0
   Imperial Navy Ultraviolet S:
     CapNeedBonus: -35
@@ -1659,6 +1747,7 @@ items:
     id: 23077
     marketGroup: 997
     name: Imperial Navy Ultraviolet S
+    published: true
     volume: 1.0
   Imperial Navy Xray L:
     CapNeedBonus: -25
@@ -1678,6 +1767,7 @@ items:
     id: 23109
     marketGroup: 995
     name: Imperial Navy Xray L
+    published: true
     volume: 1.0
   Imperial Navy Xray M:
     CapNeedBonus: -25
@@ -1697,6 +1787,7 @@ items:
     id: 23093
     marketGroup: 996
     name: Imperial Navy Xray M
+    published: true
     volume: 1.0
   Imperial Navy Xray S:
     CapNeedBonus: -25
@@ -1716,6 +1807,7 @@ items:
     id: 23075
     marketGroup: 997
     name: Imperial Navy Xray S
+    published: true
     volume: 1.0
   Infrared L:
     CapNeedBonus: -35
@@ -1733,6 +1825,7 @@ items:
     id: 257
     marketGroup: 105
     name: Infrared L
+    published: true
     volume: 1.0
   Infrared M:
     CapNeedBonus: -35
@@ -1750,6 +1843,7 @@ items:
     id: 249
     marketGroup: 103
     name: Infrared M
+    published: true
     volume: 1.0
   Infrared S:
     CapNeedBonus: -35
@@ -1767,6 +1861,7 @@ items:
     id: 241
     marketGroup: 102
     name: Infrared S
+    published: true
     volume: 1.0
   Infrared XL:
     CapNeedBonus: -35
@@ -1784,6 +1879,7 @@ items:
     id: 17682
     marketGroup: 503
     name: Infrared XL
+    published: true
     volume: 1.0
   Microwave L:
     CapNeedBonus: -25
@@ -1801,6 +1897,7 @@ items:
     id: 256
     marketGroup: 105
     name: Microwave L
+    published: true
     volume: 1.0
   Microwave M:
     CapNeedBonus: -25
@@ -1818,6 +1915,7 @@ items:
     id: 248
     marketGroup: 103
     name: Microwave M
+    published: true
     volume: 1.0
   Microwave S:
     CapNeedBonus: -25
@@ -1835,6 +1933,7 @@ items:
     id: 240
     marketGroup: 102
     name: Microwave S
+    published: true
     volume: 1.0
   Microwave XL:
     CapNeedBonus: -25
@@ -1852,6 +1951,7 @@ items:
     id: 17684
     marketGroup: 503
     name: Microwave XL
+    published: true
     volume: 1.0
   Multifrequency L:
     ChargeSize: 3
@@ -1868,6 +1968,7 @@ items:
     id: 262
     marketGroup: 105
     name: Multifrequency L
+    published: true
     volume: 1.0
   Multifrequency M:
     ChargeSize: 2
@@ -1884,6 +1985,7 @@ items:
     id: 254
     marketGroup: 103
     name: Multifrequency M
+    published: true
     volume: 1.0
   Multifrequency S:
     ChargeSize: 1
@@ -1900,6 +2002,7 @@ items:
     id: 246
     marketGroup: 102
     name: Multifrequency S
+    published: true
     volume: 1.0
   Multifrequency XL:
     ChargeSize: 4
@@ -1916,6 +2019,7 @@ items:
     id: 17686
     marketGroup: 503
     name: Multifrequency XL
+    published: true
     volume: 1.0
   Radio L:
     CapNeedBonus: -15
@@ -1932,6 +2036,7 @@ items:
     id: 255
     marketGroup: 105
     name: Radio L
+    published: true
     volume: 1.0
   Radio M:
     CapNeedBonus: -15
@@ -1948,6 +2053,7 @@ items:
     id: 247
     marketGroup: 103
     name: Radio M
+    published: true
     volume: 1.0
   Radio S:
     CapNeedBonus: -15
@@ -1964,6 +2070,7 @@ items:
     id: 239
     marketGroup: 102
     name: Radio S
+    published: true
     volume: 1.0
   Radio XL:
     CapNeedBonus: -15
@@ -1980,6 +2087,7 @@ items:
     id: 17688
     marketGroup: 503
     name: Radio XL
+    published: true
     volume: 1.0
   Sanshas Gamma L:
     CapNeedBonus: -15
@@ -1999,6 +2107,7 @@ items:
     id: 20837
     marketGroup: 995
     name: Sanshas Gamma L
+    published: true
     volume: 1.0
   Sanshas Gamma M:
     CapNeedBonus: -15
@@ -2018,6 +2127,7 @@ items:
     id: 20829
     marketGroup: 996
     name: Sanshas Gamma M
+    published: true
     volume: 1.0
   Sanshas Gamma S:
     CapNeedBonus: -15
@@ -2037,6 +2147,7 @@ items:
     id: 20821
     marketGroup: 997
     name: Sanshas Gamma S
+    published: true
     volume: 1.0
   Sanshas Gamma XL:
     CapNeedBonus: -15
@@ -2056,6 +2167,7 @@ items:
     id: 20845
     marketGroup: 1007
     name: Sanshas Gamma XL
+    published: true
     volume: 1.0
   Sanshas Infrared L:
     CapNeedBonus: -35
@@ -2075,6 +2187,7 @@ items:
     id: 20022
     marketGroup: 995
     name: Sanshas Infrared L
+    published: true
     volume: 1.0
   Sanshas Infrared M:
     CapNeedBonus: -35
@@ -2094,6 +2207,7 @@ items:
     id: 20014
     marketGroup: 996
     name: Sanshas Infrared M
+    published: true
     volume: 1.0
   Sanshas Infrared S:
     CapNeedBonus: -35
@@ -2113,6 +2227,7 @@ items:
     id: 19982
     marketGroup: 997
     name: Sanshas Infrared S
+    published: true
     volume: 1.0
   Sanshas Infrared XL:
     CapNeedBonus: -35
@@ -2132,6 +2247,7 @@ items:
     id: 20030
     marketGroup: 1007
     name: Sanshas Infrared XL
+    published: true
     volume: 1.0
   Sanshas Microwave L:
     CapNeedBonus: -25
@@ -2151,6 +2267,7 @@ items:
     id: 20020
     marketGroup: 995
     name: Sanshas Microwave L
+    published: true
     volume: 1.0
   Sanshas Microwave M:
     CapNeedBonus: -25
@@ -2170,6 +2287,7 @@ items:
     id: 20012
     marketGroup: 996
     name: Sanshas Microwave M
+    published: true
     volume: 1.0
   Sanshas Microwave S:
     CapNeedBonus: -25
@@ -2189,6 +2307,7 @@ items:
     id: 19980
     marketGroup: 997
     name: Sanshas Microwave S
+    published: true
     volume: 1.0
   Sanshas Microwave XL:
     CapNeedBonus: -25
@@ -2208,6 +2327,7 @@ items:
     id: 20028
     marketGroup: 1007
     name: Sanshas Microwave XL
+    published: true
     volume: 1.0
   Sanshas Multifrequency L:
     ChargeSize: 3
@@ -2226,6 +2346,7 @@ items:
     id: 20839
     marketGroup: 995
     name: Sanshas Multifrequency L
+    published: true
     volume: 1.0
   Sanshas Multifrequency M:
     ChargeSize: 2
@@ -2244,6 +2365,7 @@ items:
     id: 20831
     marketGroup: 996
     name: Sanshas Multifrequency M
+    published: true
     volume: 1.0
   Sanshas Multifrequency S:
     ChargeSize: 1
@@ -2262,6 +2384,7 @@ items:
     id: 20823
     marketGroup: 997
     name: Sanshas Multifrequency S
+    published: true
     volume: 1.0
   Sanshas Multifrequency XL:
     ChargeSize: 4
@@ -2280,6 +2403,7 @@ items:
     id: 20847
     marketGroup: 1007
     name: Sanshas Multifrequency XL
+    published: true
     volume: 1.0
   Sanshas Radio L:
     CapNeedBonus: -15
@@ -2298,6 +2422,7 @@ items:
     id: 20018
     marketGroup: 995
     name: Sanshas Radio L
+    published: true
     volume: 1.0
   Sanshas Radio M:
     CapNeedBonus: -15
@@ -2316,6 +2441,7 @@ items:
     id: 20010
     marketGroup: 996
     name: Sanshas Radio M
+    published: true
     volume: 1.0
   Sanshas Radio S:
     CapNeedBonus: -15
@@ -2334,6 +2460,7 @@ items:
     id: 19978
     marketGroup: 997
     name: Sanshas Radio S
+    published: true
     volume: 1.0
   Sanshas Radio XL:
     CapNeedBonus: -15
@@ -2352,6 +2479,7 @@ items:
     id: 20026
     marketGroup: 1007
     name: Sanshas Radio XL
+    published: true
     volume: 1.0
   Sanshas Standard L:
     CapNeedBonus: -45
@@ -2371,6 +2499,7 @@ items:
     id: 20024
     marketGroup: 995
     name: Sanshas Standard L
+    published: true
     volume: 1.0
   Sanshas Standard M:
     CapNeedBonus: -45
@@ -2390,6 +2519,7 @@ items:
     id: 20016
     marketGroup: 996
     name: Sanshas Standard M
+    published: true
     volume: 1.0
   Sanshas Standard S:
     CapNeedBonus: -45
@@ -2409,6 +2539,7 @@ items:
     id: 19984
     marketGroup: 997
     name: Sanshas Standard S
+    published: true
     volume: 1.0
   Sanshas Standard XL:
     CapNeedBonus: -45
@@ -2428,6 +2559,7 @@ items:
     id: 20032
     marketGroup: 1007
     name: Sanshas Standard XL
+    published: true
     volume: 1.0
   Sanshas Ultraviolet L:
     CapNeedBonus: -35
@@ -2447,6 +2579,7 @@ items:
     id: 20833
     marketGroup: 995
     name: Sanshas Ultraviolet L
+    published: true
     volume: 1.0
   Sanshas Ultraviolet M:
     CapNeedBonus: -35
@@ -2466,6 +2599,7 @@ items:
     id: 20825
     marketGroup: 996
     name: Sanshas Ultraviolet M
+    published: true
     volume: 1.0
   Sanshas Ultraviolet S:
     CapNeedBonus: -35
@@ -2485,6 +2619,7 @@ items:
     id: 20817
     marketGroup: 997
     name: Sanshas Ultraviolet S
+    published: true
     volume: 1.0
   Sanshas Ultraviolet XL:
     CapNeedBonus: -35
@@ -2504,6 +2639,7 @@ items:
     id: 20841
     marketGroup: 1007
     name: Sanshas Ultraviolet XL
+    published: true
     volume: 1.0
   Sanshas Xray L:
     CapNeedBonus: -25
@@ -2523,6 +2659,7 @@ items:
     id: 20835
     marketGroup: 995
     name: Sanshas Xray L
+    published: true
     volume: 1.0
   Sanshas Xray M:
     CapNeedBonus: -25
@@ -2542,6 +2679,7 @@ items:
     id: 20827
     marketGroup: 996
     name: Sanshas Xray M
+    published: true
     volume: 1.0
   Sanshas Xray S:
     CapNeedBonus: -25
@@ -2561,6 +2699,7 @@ items:
     id: 20819
     marketGroup: 997
     name: Sanshas Xray S
+    published: true
     volume: 1.0
   Sanshas Xray XL:
     CapNeedBonus: -25
@@ -2580,6 +2719,7 @@ items:
     id: 20843
     marketGroup: 1007
     name: Sanshas Xray XL
+    published: true
     volume: 1.0
   Standard L:
     CapNeedBonus: -45
@@ -2597,6 +2737,7 @@ items:
     id: 258
     marketGroup: 105
     name: Standard L
+    published: true
     volume: 1.0
   Standard M:
     CapNeedBonus: -45
@@ -2614,6 +2755,7 @@ items:
     id: 250
     marketGroup: 103
     name: Standard M
+    published: true
     volume: 1.0
   Standard S:
     CapNeedBonus: -45
@@ -2631,6 +2773,7 @@ items:
     id: 242
     marketGroup: 102
     name: Standard S
+    published: true
     volume: 1.0
   Standard XL:
     CapNeedBonus: -45
@@ -2648,6 +2791,7 @@ items:
     id: 17690
     marketGroup: 503
     name: Standard XL
+    published: true
     volume: 1.0
   True Sanshas Gamma L:
     CapNeedBonus: -15
@@ -2667,6 +2811,7 @@ items:
     id: 20893
     marketGroup: 995
     name: True Sanshas Gamma L
+    published: true
     volume: 1.0
   True Sanshas Gamma M:
     CapNeedBonus: -15
@@ -2686,6 +2831,7 @@ items:
     id: 20877
     marketGroup: 996
     name: True Sanshas Gamma M
+    published: true
     volume: 1.0
   True Sanshas Gamma S:
     CapNeedBonus: -15
@@ -2705,6 +2851,7 @@ items:
     id: 20861
     marketGroup: 997
     name: True Sanshas Gamma S
+    published: true
     volume: 1.0
   True Sanshas Gamma XL:
     CapNeedBonus: -15
@@ -2724,6 +2871,7 @@ items:
     id: 20909
     marketGroup: 1007
     name: True Sanshas Gamma XL
+    published: true
     volume: 1.0
   True Sanshas Infrared L:
     CapNeedBonus: -35
@@ -2743,6 +2891,7 @@ items:
     id: 20885
     marketGroup: 995
     name: True Sanshas Infrared L
+    published: true
     volume: 1.0
   True Sanshas Infrared M:
     CapNeedBonus: -35
@@ -2762,6 +2911,7 @@ items:
     id: 20869
     marketGroup: 996
     name: True Sanshas Infrared M
+    published: true
     volume: 1.0
   True Sanshas Infrared S:
     CapNeedBonus: -35
@@ -2781,6 +2931,7 @@ items:
     id: 20853
     marketGroup: 997
     name: True Sanshas Infrared S
+    published: true
     volume: 1.0
   True Sanshas Infrared XL:
     CapNeedBonus: -35
@@ -2800,6 +2951,7 @@ items:
     id: 20901
     marketGroup: 1007
     name: True Sanshas Infrared XL
+    published: true
     volume: 1.0
   True Sanshas Microwave L:
     CapNeedBonus: -25
@@ -2819,6 +2971,7 @@ items:
     id: 20883
     marketGroup: 995
     name: True Sanshas Microwave L
+    published: true
     volume: 1.0
   True Sanshas Microwave M:
     CapNeedBonus: -25
@@ -2838,6 +2991,7 @@ items:
     id: 20867
     marketGroup: 996
     name: True Sanshas Microwave M
+    published: true
     volume: 1.0
   True Sanshas Microwave S:
     CapNeedBonus: -25
@@ -2857,6 +3011,7 @@ items:
     id: 20851
     marketGroup: 997
     name: True Sanshas Microwave S
+    published: true
     volume: 1.0
   True Sanshas Microwave XL:
     CapNeedBonus: -25
@@ -2876,6 +3031,7 @@ items:
     id: 20899
     marketGroup: 1007
     name: True Sanshas Microwave XL
+    published: true
     volume: 1.0
   True Sanshas Multifrequency L:
     ChargeSize: 3
@@ -2894,6 +3050,7 @@ items:
     id: 20895
     marketGroup: 995
     name: True Sanshas Multifrequency L
+    published: true
     volume: 1.0
   True Sanshas Multifrequency M:
     ChargeSize: 2
@@ -2912,6 +3069,7 @@ items:
     id: 20879
     marketGroup: 996
     name: True Sanshas Multifrequency M
+    published: true
     volume: 1.0
   True Sanshas Multifrequency S:
     ChargeSize: 1
@@ -2930,6 +3088,7 @@ items:
     id: 20863
     marketGroup: 997
     name: True Sanshas Multifrequency S
+    published: true
     volume: 1.0
   True Sanshas Multifrequency XL:
     ChargeSize: 4
@@ -2948,6 +3107,7 @@ items:
     id: 20911
     marketGroup: 1007
     name: True Sanshas Multifrequency XL
+    published: true
     volume: 1.0
   True Sanshas Radio L:
     CapNeedBonus: -15
@@ -2966,6 +3126,7 @@ items:
     id: 20881
     marketGroup: 995
     name: True Sanshas Radio L
+    published: true
     volume: 1.0
   True Sanshas Radio M:
     CapNeedBonus: -15
@@ -2984,6 +3145,7 @@ items:
     id: 20865
     marketGroup: 996
     name: True Sanshas Radio M
+    published: true
     volume: 1.0
   True Sanshas Radio S:
     CapNeedBonus: -15
@@ -3002,6 +3164,7 @@ items:
     id: 20849
     marketGroup: 997
     name: True Sanshas Radio S
+    published: true
     volume: 1.0
   True Sanshas Radio XL:
     CapNeedBonus: -15
@@ -3020,6 +3183,7 @@ items:
     id: 20897
     marketGroup: 1007
     name: True Sanshas Radio XL
+    published: true
     volume: 1.0
   True Sanshas Standard L:
     CapNeedBonus: -45
@@ -3039,6 +3203,7 @@ items:
     id: 20887
     marketGroup: 995
     name: True Sanshas Standard L
+    published: true
     volume: 1.0
   True Sanshas Standard M:
     CapNeedBonus: -45
@@ -3058,6 +3223,7 @@ items:
     id: 20871
     marketGroup: 996
     name: True Sanshas Standard M
+    published: true
     volume: 1.0
   True Sanshas Standard S:
     CapNeedBonus: -45
@@ -3077,6 +3243,7 @@ items:
     id: 20855
     marketGroup: 997
     name: True Sanshas Standard S
+    published: true
     volume: 1.0
   True Sanshas Standard XL:
     CapNeedBonus: -45
@@ -3096,6 +3263,7 @@ items:
     id: 20903
     marketGroup: 1007
     name: True Sanshas Standard XL
+    published: true
     volume: 1.0
   True Sanshas Ultraviolet L:
     CapNeedBonus: -35
@@ -3115,6 +3283,7 @@ items:
     id: 20889
     marketGroup: 995
     name: True Sanshas Ultraviolet L
+    published: true
     volume: 1.0
   True Sanshas Ultraviolet M:
     CapNeedBonus: -35
@@ -3134,6 +3303,7 @@ items:
     id: 20873
     marketGroup: 996
     name: True Sanshas Ultraviolet M
+    published: true
     volume: 1.0
   True Sanshas Ultraviolet S:
     CapNeedBonus: -35
@@ -3153,6 +3323,7 @@ items:
     id: 20857
     marketGroup: 997
     name: True Sanshas Ultraviolet S
+    published: true
     volume: 1.0
   True Sanshas Ultraviolet XL:
     CapNeedBonus: -35
@@ -3172,6 +3343,7 @@ items:
     id: 20905
     marketGroup: 1007
     name: True Sanshas Ultraviolet XL
+    published: true
     volume: 1.0
   True Sanshas Xray L:
     CapNeedBonus: -25
@@ -3191,6 +3363,7 @@ items:
     id: 20891
     marketGroup: 995
     name: True Sanshas Xray L
+    published: true
     volume: 1.0
   True Sanshas Xray M:
     CapNeedBonus: -25
@@ -3210,6 +3383,7 @@ items:
     id: 20875
     marketGroup: 996
     name: True Sanshas Xray M
+    published: true
     volume: 1.0
   True Sanshas Xray S:
     CapNeedBonus: -25
@@ -3229,6 +3403,7 @@ items:
     id: 20859
     marketGroup: 997
     name: True Sanshas Xray S
+    published: true
     volume: 1.0
   True Sanshas Xray XL:
     CapNeedBonus: -25
@@ -3248,6 +3423,7 @@ items:
     id: 20907
     marketGroup: 1007
     name: True Sanshas Xray XL
+    published: true
     volume: 1.0
   Ultraviolet L:
     CapNeedBonus: -35
@@ -3265,6 +3441,7 @@ items:
     id: 259
     marketGroup: 105
     name: Ultraviolet L
+    published: true
     volume: 1.0
   Ultraviolet M:
     CapNeedBonus: -35
@@ -3282,6 +3459,7 @@ items:
     id: 251
     marketGroup: 103
     name: Ultraviolet M
+    published: true
     volume: 1.0
   Ultraviolet S:
     CapNeedBonus: -35
@@ -3299,6 +3477,7 @@ items:
     id: 243
     marketGroup: 102
     name: Ultraviolet S
+    published: true
     volume: 1.0
   Ultraviolet XL:
     CapNeedBonus: -35
@@ -3316,6 +3495,7 @@ items:
     id: 17692
     marketGroup: 503
     name: Ultraviolet XL
+    published: true
     volume: 1.0
   Xray L:
     CapNeedBonus: -25
@@ -3333,6 +3513,7 @@ items:
     id: 260
     marketGroup: 105
     name: Xray L
+    published: true
     volume: 1.0
   Xray M:
     CapNeedBonus: -25
@@ -3350,6 +3531,7 @@ items:
     id: 252
     marketGroup: 103
     name: Xray M
+    published: true
     volume: 1.0
   Xray S:
     CapNeedBonus: -25
@@ -3367,6 +3549,7 @@ items:
     id: 244
     marketGroup: 102
     name: Xray S
+    published: true
     volume: 1.0
   Xray XL:
     CapNeedBonus: -25
@@ -3384,4 +3567,5 @@ items:
     id: 17694
     marketGroup: 503
     name: Xray XL
+    published: true
     volume: 1.0

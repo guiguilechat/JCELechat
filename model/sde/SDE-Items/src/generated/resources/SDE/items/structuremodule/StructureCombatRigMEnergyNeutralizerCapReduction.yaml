@@ -19,6 +19,7 @@ items:
     id: 37222
     marketGroup: 2344
     name: Standup M-Set Energy Neutralizer Economy I
+    published: true
     volume: 10.0
   Standup M-Set Energy Neutralizer Economy II:
     CanFitShipGroup01: 1657
@@ -40,4 +41,5 @@ items:
     id: 37223
     marketGroup: 2344
     name: Standup M-Set Energy Neutralizer Economy II
+    published: true
     volume: 10.0

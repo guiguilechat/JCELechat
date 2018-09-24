@@ -28,6 +28,7 @@ items:
     id: 24479
     marketGroup: 928
     name: Inferno Javelin Rocket
+    published: true
     volume: 0.005
   Inferno Rage Rocket:
     Agility: 5.220125675201416
@@ -59,6 +60,7 @@ items:
     id: 24475
     marketGroup: 930
     name: Inferno Rage Rocket
+    published: true
     volume: 0.005
   Mjolnir Javelin Rocket:
     Agility: 0.0019947297405451536
@@ -89,6 +91,7 @@ items:
     id: 13119
     marketGroup: 928
     name: Mjolnir Javelin Rocket
+    published: true
     volume: 0.005
   Mjolnir Rage Rocket:
     Agility: 5.220125675201416
@@ -120,6 +123,7 @@ items:
     id: 2817
     marketGroup: 930
     name: Mjolnir Rage Rocket
+    published: true
     volume: 0.005
   Nova Javelin Rocket:
     Agility: 0.0019947297405451536
@@ -150,6 +154,7 @@ items:
     id: 24478
     marketGroup: 928
     name: Nova Javelin Rocket
+    published: true
     volume: 0.005
   Nova Rage Rocket:
     Agility: 5.220125675201416
@@ -181,6 +186,7 @@ items:
     id: 24473
     marketGroup: 930
     name: Nova Rage Rocket
+    published: true
     volume: 0.005
   Scourge Javelin Rocket:
     Agility: 0.0019947297405451536
@@ -211,6 +217,7 @@ items:
     id: 24477
     marketGroup: 928
     name: Scourge Javelin Rocket
+    published: true
     volume: 0.005
   Scourge Rage Rocket:
     Agility: 5.220125675201416
@@ -242,4 +249,5 @@ items:
     id: 24471
     marketGroup: 930
     name: Scourge Rage Rocket
+    published: true
     volume: 0.005

@@ -19,6 +19,7 @@ items:
     id: 3542
     marketGroup: 778
     name: CONCORD Capital Shield Booster
+    published: true
     volume: 4000.0
   Caldari Navy Large Shield Booster:
     Duration: 3200.0
@@ -38,6 +39,7 @@ items:
     id: 15900
     marketGroup: 611
     name: Caldari Navy Large Shield Booster
+    published: true
     volume: 25.0
   Caldari Navy Medium Shield Booster:
     Duration: 2400.0
@@ -57,6 +59,7 @@ items:
     id: 15899
     marketGroup: 610
     name: Caldari Navy Medium Shield Booster
+    published: true
     volume: 10.0
   Caldari Navy Small Shield Booster:
     Duration: 1600.0
@@ -76,6 +79,7 @@ items:
     id: 15898
     marketGroup: 609
     name: Caldari Navy Small Shield Booster
+    published: true
     volume: 5.0
   Caldari Navy X-Large Shield Booster:
     Duration: 4000.0
@@ -95,6 +99,7 @@ items:
     id: 15897
     marketGroup: 612
     name: Caldari Navy X-Large Shield Booster
+    published: true
     volume: 50.0
   Capital C-5L Compact Shield Booster:
     CapacitorNeed: 2400.0
@@ -115,6 +120,7 @@ items:
     id: 41505
     marketGroup: 778
     name: Capital C-5L Compact Shield Booster
+    published: true
     volume: 4000.0
   Capital Clarity Ward Enduring Shield Booster:
     CapacitorNeed: 1920.0
@@ -135,6 +141,7 @@ items:
     id: 41506
     marketGroup: 778
     name: Capital Clarity Ward Enduring Shield Booster
+    published: true
     volume: 4000.0
   Capital Shield Booster I:
     CapacitorNeed: 2400.0
@@ -153,6 +160,7 @@ items:
     id: 20703
     marketGroup: 778
     name: Capital Shield Booster I
+    published: true
     volume: 4000.0
   Capital Shield Booster II:
     CapacitorNeed: 2880.0
@@ -173,6 +181,7 @@ items:
     id: 41507
     marketGroup: 778
     name: Capital Shield Booster II
+    published: true
     volume: 4000.0
   Civilian Shield Booster:
     CapacitorNeed: 5.0
@@ -191,6 +200,7 @@ items:
     id: 10039
     marketGroup: 609
     name: Civilian Shield Booster
+    published: true
     volume: 5.0
   Domination Capital Shield Booster:
     CapacitorNeed: 1900.0
@@ -212,6 +222,7 @@ items:
     id: 41510
     marketGroup: 778
     name: Domination Capital Shield Booster
+    published: true
     volume: 4000.0
   Domination Large Shield Booster:
     Duration: 3200.0
@@ -231,6 +242,7 @@ items:
     id: 13948
     marketGroup: 611
     name: Domination Large Shield Booster
+    published: true
     volume: 25.0
   Domination Medium Shield Booster:
     Duration: 2400.0
@@ -250,6 +262,7 @@ items:
     id: 13950
     marketGroup: 610
     name: Domination Medium Shield Booster
+    published: true
     volume: 10.0
   Domination Small Shield Booster:
     Duration: 1600.0
@@ -269,6 +282,7 @@ items:
     id: 13952
     marketGroup: 609
     name: Domination Small Shield Booster
+    published: true
     volume: 5.0
   Domination X-Large Shield Booster:
     Duration: 4000.0
@@ -288,6 +302,7 @@ items:
     id: 13954
     marketGroup: 612
     name: Domination X-Large Shield Booster
+    published: true
     volume: 50.0
   Dread Guristas Capital Shield Booster:
     CapacitorNeed: 2500.0
@@ -309,6 +324,7 @@ items:
     id: 41509
     marketGroup: 778
     name: Dread Guristas Capital Shield Booster
+    published: true
     volume: 4000.0
   Dread Guristas Large Shield Booster:
     Duration: 3200.0
@@ -328,6 +344,7 @@ items:
     id: 13947
     marketGroup: 611
     name: Dread Guristas Large Shield Booster
+    published: true
     volume: 25.0
   Dread Guristas Medium Shield Booster:
     Duration: 2400.0
@@ -347,6 +364,7 @@ items:
     id: 13949
     marketGroup: 610
     name: Dread Guristas Medium Shield Booster
+    published: true
     volume: 10.0
   Dread Guristas Small Shield Booster:
     Duration: 1600.0
@@ -366,6 +384,7 @@ items:
     id: 13951
     marketGroup: 609
     name: Dread Guristas Small Shield Booster
+    published: true
     volume: 5.0
   Dread Guristas X-Large Shield Booster:
     Duration: 4000.0
@@ -385,6 +404,7 @@ items:
     id: 13953
     marketGroup: 612
     name: Dread Guristas X-Large Shield Booster
+    published: true
     volume: 50.0
   Estamel's Modified Large Shield Booster:
     Duration: 3200.0
@@ -404,6 +424,7 @@ items:
     id: 14703
     marketGroup: 611
     name: Estamel's Modified Large Shield Booster
+    published: true
     volume: 25.0
   Estamel's Modified X-Large Shield Booster:
     Duration: 4000.0
@@ -423,6 +444,7 @@ items:
     id: 14707
     marketGroup: 612
     name: Estamel's Modified X-Large Shield Booster
+    published: true
     volume: 50.0
   Gist A-Type Large Shield Booster:
     CapacitorNeed: 98.0
@@ -443,6 +465,7 @@ items:
     id: 19199
     marketGroup: 611
     name: Gist A-Type Large Shield Booster
+    published: true
     volume: 25.0
   Gist A-Type X-Large Shield Booster:
     CapacitorNeed: 196.0
@@ -463,6 +486,7 @@ items:
     id: 19197
     marketGroup: 612
     name: Gist A-Type X-Large Shield Booster
+    published: true
     volume: 50.0
   Gist B-Type Large Shield Booster:
     CapacitorNeed: 94.0
@@ -483,6 +507,7 @@ items:
     id: 19194
     marketGroup: 611
     name: Gist B-Type Large Shield Booster
+    published: true
     volume: 25.0
   Gist B-Type X-Large Shield Booster:
     CapacitorNeed: 187.0
@@ -503,6 +528,7 @@ items:
     id: 19196
     marketGroup: 612
     name: Gist B-Type X-Large Shield Booster
+    published: true
     volume: 50.0
   Gist C-Type Large Shield Booster:
     CapacitorNeed: 90.0
@@ -523,6 +549,7 @@ items:
     id: 19193
     marketGroup: 611
     name: Gist C-Type Large Shield Booster
+    published: true
     volume: 25.0
   Gist C-Type X-Large Shield Booster:
     CapacitorNeed: 179.0
@@ -543,6 +570,7 @@ items:
     id: 19195
     marketGroup: 612
     name: Gist C-Type X-Large Shield Booster
+    published: true
     volume: 50.0
   Gist X-Type Large Shield Booster:
     CapacitorNeed: 102.0
@@ -563,6 +591,7 @@ items:
     id: 19200
     marketGroup: 611
     name: Gist X-Type Large Shield Booster
+    published: true
     volume: 25.0
   Gist X-Type X-Large Shield Booster:
     CapacitorNeed: 204.0
@@ -583,6 +612,7 @@ items:
     id: 19198
     marketGroup: 612
     name: Gist X-Type X-Large Shield Booster
+    published: true
     volume: 50.0
   Gistii A-Type Small Shield Booster:
     CapacitorNeed: 13.0
@@ -603,6 +633,7 @@ items:
     id: 19173
     marketGroup: 609
     name: Gistii A-Type Small Shield Booster
+    published: true
     volume: 5.0
   Gistii B-Type Small Shield Booster:
     CapacitorNeed: 12.0
@@ -623,6 +654,7 @@ items:
     id: 19171
     marketGroup: 609
     name: Gistii B-Type Small Shield Booster
+    published: true
     volume: 5.0
   Gistii C-Type Small Shield Booster:
     CapacitorNeed: 11.0
@@ -643,6 +675,7 @@ items:
     id: 19169
     marketGroup: 609
     name: Gistii C-Type Small Shield Booster
+    published: true
     volume: 5.0
   Gistum A-Type Medium Shield Booster:
     CapacitorNeed: 38.0
@@ -663,6 +696,7 @@ items:
     id: 19185
     marketGroup: 610
     name: Gistum A-Type Medium Shield Booster
+    published: true
     volume: 10.0
   Gistum B-Type Medium Shield Booster:
     CapacitorNeed: 35.0
@@ -683,6 +717,7 @@ items:
     id: 19183
     marketGroup: 610
     name: Gistum B-Type Medium Shield Booster
+    published: true
     volume: 10.0
   Gistum C-Type Medium Shield Booster:
     CapacitorNeed: 32.0
@@ -703,6 +738,7 @@ items:
     id: 19181
     marketGroup: 610
     name: Gistum C-Type Medium Shield Booster
+    published: true
     volume: 10.0
   Hakim's Modified Large Shield Booster:
     CapacitorNeed: 94.0
@@ -723,6 +759,7 @@ items:
     id: 14597
     marketGroup: 611
     name: Hakim's Modified Large Shield Booster
+    published: true
     volume: 25.0
   Hakim's Modified X-Large Shield Booster:
     CapacitorNeed: 187.0
@@ -743,6 +780,7 @@ items:
     id: 14601
     marketGroup: 612
     name: Hakim's Modified X-Large Shield Booster
+    published: true
     volume: 50.0
   Kaikka's Modified Large Shield Booster:
     Duration: 3200.0
@@ -762,6 +800,7 @@ items:
     id: 14700
     marketGroup: 611
     name: Kaikka's Modified Large Shield Booster
+    published: true
     volume: 25.0
   Kaikka's Modified X-Large Shield Booster:
     Duration: 4000.0
@@ -781,6 +820,7 @@ items:
     id: 14704
     marketGroup: 612
     name: Kaikka's Modified X-Large Shield Booster
+    published: true
     volume: 50.0
   Large 'Outlaw' Shield Booster:
     CapacitorNeed: 160.0
@@ -801,6 +841,7 @@ items:
     id: 20621
     marketGroup: 611
     name: Large 'Outlaw' Shield Booster
+    published: true
     volume: 25.0
   Large Abyssal Shield Booster:
     RequiredSkill1: 3416
@@ -808,6 +849,7 @@ items:
     TechLevel: 1
     id: 47789
     name: Large Abyssal Shield Booster
+    published: true
     volume: 25.0
   Large C5-L Emergency Shield Overload I:
     CapacitorNeed: 160.0
@@ -827,6 +869,7 @@ items:
     id: 10880
     marketGroup: 611
     name: Large C5-L Emergency Shield Overload I
+    published: true
     volume: 25.0
   Large Clarity Ward Booster I:
     CapacitorNeed: 160.0
@@ -846,6 +889,7 @@ items:
     id: 10876
     marketGroup: 611
     name: Large Clarity Ward Booster I
+    published: true
     volume: 25.0
   Large Converse Deflection Catalyzer:
     CapacitorNeed: 160.0
@@ -865,6 +909,7 @@ items:
     id: 10878
     marketGroup: 611
     name: Large Converse Deflection Catalyzer
+    published: true
     volume: 25.0
   Large Neutron Saturation Injector I:
     CapacitorNeed: 160.0
@@ -884,6 +929,7 @@ items:
     id: 10874
     marketGroup: 611
     name: Large Neutron Saturation Injector I
+    published: true
     volume: 25.0
   Large Shield Booster I:
     CapacitorNeed: 160.0
@@ -902,6 +948,7 @@ items:
     id: 10838
     marketGroup: 611
     name: Large Shield Booster I
+    published: true
     volume: 25.0
   Large Shield Booster II:
     CapacitorNeed: 160.0
@@ -921,6 +968,7 @@ items:
     id: 10858
     marketGroup: 611
     name: Large Shield Booster II
+    published: true
     volume: 10.0
   Medium 'Lone Ranger' Shield Booster:
     CapacitorNeed: 60.0
@@ -941,6 +989,7 @@ items:
     id: 20619
     marketGroup: 610
     name: Medium 'Lone Ranger' Shield Booster
+    published: true
     volume: 10.0
   Medium Abyssal Shield Booster:
     RequiredSkill1: 3416
@@ -948,6 +997,7 @@ items:
     TechLevel: 1
     id: 47785
     name: Medium Abyssal Shield Booster
+    published: true
     volume: 10.0
   Medium C5-L Emergency Shield Overload I:
     CapacitorNeed: 60.0
@@ -967,6 +1017,7 @@ items:
     id: 10872
     marketGroup: 610
     name: Medium C5-L Emergency Shield Overload I
+    published: true
     volume: 10.0
   Medium Clarity Ward Booster I:
     CapacitorNeed: 60.0
@@ -986,6 +1037,7 @@ items:
     id: 10868
     marketGroup: 610
     name: Medium Clarity Ward Booster I
+    published: true
     volume: 10.0
   Medium Converse Deflection Catalyzer:
     CapacitorNeed: 60.0
@@ -1005,6 +1057,7 @@ items:
     id: 10870
     marketGroup: 610
     name: Medium Converse Deflection Catalyzer
+    published: true
     volume: 10.0
   Medium Neutron Saturation Injector I:
     CapacitorNeed: 60.0
@@ -1024,6 +1077,7 @@ items:
     id: 10866
     marketGroup: 610
     name: Medium Neutron Saturation Injector I
+    published: true
     volume: 10.0
   Medium Shield Booster I:
     CapacitorNeed: 60.0
@@ -1042,6 +1096,7 @@ items:
     id: 10836
     marketGroup: 610
     name: Medium Shield Booster I
+    published: true
     volume: 10.0
   Medium Shield Booster II:
     CapacitorNeed: 60.0
@@ -1061,6 +1116,7 @@ items:
     id: 10850
     marketGroup: 610
     name: Medium Shield Booster II
+    published: true
     volume: 10.0
   Pith A-Type Large Shield Booster:
     CapacitorNeed: 160.0
@@ -1081,6 +1137,7 @@ items:
     id: 19205
     marketGroup: 611
     name: Pith A-Type Large Shield Booster
+    published: true
     volume: 25.0
   Pith A-Type X-Large Shield Booster:
     CapacitorNeed: 400.0
@@ -1101,6 +1158,7 @@ items:
     id: 19206
     marketGroup: 612
     name: Pith A-Type X-Large Shield Booster
+    published: true
     volume: 50.0
   Pith B-Type Large Shield Booster:
     CapacitorNeed: 160.0
@@ -1121,6 +1179,7 @@ items:
     id: 19203
     marketGroup: 611
     name: Pith B-Type Large Shield Booster
+    published: true
     volume: 25.0
   Pith B-Type X-Large Shield Booster:
     CapacitorNeed: 400.0
@@ -1141,6 +1200,7 @@ items:
     id: 19204
     marketGroup: 612
     name: Pith B-Type X-Large Shield Booster
+    published: true
     volume: 50.0
   Pith C-Type Large Shield Booster:
     CapacitorNeed: 160.0
@@ -1161,6 +1221,7 @@ items:
     id: 19201
     marketGroup: 611
     name: Pith C-Type Large Shield Booster
+    published: true
     volume: 25.0
   Pith C-Type X-Large Shield Booster:
     CapacitorNeed: 400.0
@@ -1181,6 +1242,7 @@ items:
     id: 19202
     marketGroup: 612
     name: Pith C-Type X-Large Shield Booster
+    published: true
     volume: 50.0
   Pith X-Type Large Shield Booster:
     CapacitorNeed: 160.0
@@ -1201,6 +1263,7 @@ items:
     id: 19207
     marketGroup: 611
     name: Pith X-Type Large Shield Booster
+    published: true
     volume: 25.0
   Pith X-Type X-Large Shield Booster:
     CapacitorNeed: 400.0
@@ -1221,6 +1284,7 @@ items:
     id: 19208
     marketGroup: 612
     name: Pith X-Type X-Large Shield Booster
+    published: true
     volume: 50.0
   Pithi A-Type Small Shield Booster:
     CapacitorNeed: 20.0
@@ -1241,6 +1305,7 @@ items:
     id: 19179
     marketGroup: 609
     name: Pithi A-Type Small Shield Booster
+    published: true
     volume: 5.0
   Pithi B-Type Small Shield Booster:
     CapacitorNeed: 20.0
@@ -1261,6 +1326,7 @@ items:
     id: 19177
     marketGroup: 609
     name: Pithi B-Type Small Shield Booster
+    published: true
     volume: 5.0
   Pithi C-Type Small Shield Booster:
     CapacitorNeed: 20.0
@@ -1281,6 +1347,7 @@ items:
     id: 19175
     marketGroup: 609
     name: Pithi C-Type Small Shield Booster
+    published: true
     volume: 5.0
   Pithum A-Type Medium Shield Booster:
     CapacitorNeed: 60.0
@@ -1301,6 +1368,7 @@ items:
     id: 19191
     marketGroup: 610
     name: Pithum A-Type Medium Shield Booster
+    published: true
     volume: 10.0
   Pithum B-Type Medium Shield Booster:
     CapacitorNeed: 60.0
@@ -1321,6 +1389,7 @@ items:
     id: 19189
     marketGroup: 610
     name: Pithum B-Type Medium Shield Booster
+    published: true
     volume: 10.0
   Pithum C-Type Medium Shield Booster:
     CapacitorNeed: 60.0
@@ -1341,6 +1410,7 @@ items:
     id: 19187
     marketGroup: 610
     name: Pithum C-Type Medium Shield Booster
+    published: true
     volume: 10.0
   Republic Fleet Large Shield Booster:
     Duration: 3200.0
@@ -1360,6 +1430,7 @@ items:
     id: 15904
     marketGroup: 611
     name: Republic Fleet Large Shield Booster
+    published: true
     volume: 25.0
   Republic Fleet Medium Shield Booster:
     Duration: 2400.0
@@ -1379,6 +1450,7 @@ items:
     id: 15903
     marketGroup: 610
     name: Republic Fleet Medium Shield Booster
+    published: true
     volume: 10.0
   Republic Fleet Small Shield Booster:
     Duration: 1600.0
@@ -1398,6 +1470,7 @@ items:
     id: 15902
     marketGroup: 609
     name: Republic Fleet Small Shield Booster
+    published: true
     volume: 5.0
   Republic Fleet X-Large Shield Booster:
     Duration: 4000.0
@@ -1417,6 +1490,7 @@ items:
     id: 15901
     marketGroup: 612
     name: Republic Fleet X-Large Shield Booster
+    published: true
     volume: 50.0
   Small 'Settler' Shield Booster:
     CapacitorNeed: 20.0
@@ -1437,6 +1511,7 @@ items:
     id: 20617
     marketGroup: 609
     name: Small 'Settler' Shield Booster
+    published: true
     volume: 5.0
   Small Abyssal Shield Booster:
     RequiredSkill1: 3416
@@ -1444,6 +1519,7 @@ items:
     TechLevel: 1
     id: 47781
     name: Small Abyssal Shield Booster
+    published: true
     volume: 5.0
   Small C5-L Emergency Shield Overload I:
     CapacitorNeed: 20.0
@@ -1463,6 +1539,7 @@ items:
     id: 6437
     marketGroup: 609
     name: Small C5-L Emergency Shield Overload I
+    published: true
     volume: 5.0
   Small Clarity Ward Booster I:
     CapacitorNeed: 20.0
@@ -1482,6 +1559,7 @@ items:
     id: 6441
     marketGroup: 609
     name: Small Clarity Ward Booster I
+    published: true
     volume: 5.0
   Small Converse Deflection Catalyzer:
     CapacitorNeed: 20.0
@@ -1501,6 +1579,7 @@ items:
     id: 6443
     marketGroup: 609
     name: Small Converse Deflection Catalyzer
+    published: true
     volume: 5.0
   Small Neutron Saturation Injector I:
     CapacitorNeed: 20.0
@@ -1520,6 +1599,7 @@ items:
     id: 6439
     marketGroup: 609
     name: Small Neutron Saturation Injector I
+    published: true
     volume: 5.0
   Small Shield Booster I:
     CapacitorNeed: 20.0
@@ -1538,6 +1618,7 @@ items:
     id: 399
     marketGroup: 609
     name: Small Shield Booster I
+    published: true
     volume: 5.0
   Small Shield Booster II:
     CapacitorNeed: 20.0
@@ -1557,6 +1638,7 @@ items:
     id: 400
     marketGroup: 609
     name: Small Shield Booster II
+    published: true
     volume: 5.0
   Thon's Modified Large Shield Booster:
     Duration: 3200.0
@@ -1576,6 +1658,7 @@ items:
     id: 14701
     marketGroup: 611
     name: Thon's Modified Large Shield Booster
+    published: true
     volume: 25.0
   Thon's Modified X-Large Shield Booster:
     Duration: 4000.0
@@ -1595,6 +1678,7 @@ items:
     id: 14705
     marketGroup: 612
     name: Thon's Modified X-Large Shield Booster
+    published: true
     volume: 50.0
   Tobias' Modified Large Shield Booster:
     CapacitorNeed: 102.0
@@ -1615,6 +1699,7 @@ items:
     id: 14599
     marketGroup: 611
     name: Tobias' Modified Large Shield Booster
+    published: true
     volume: 25.0
   Tobias' Modified X-Large Shield Booster:
     CapacitorNeed: 204.0
@@ -1635,6 +1720,7 @@ items:
     id: 14603
     marketGroup: 612
     name: Tobias' Modified X-Large Shield Booster
+    published: true
     volume: 50.0
   True Sansha Capital Shield Booster:
     CapacitorNeed: 1900.0
@@ -1656,6 +1742,7 @@ items:
     id: 41508
     marketGroup: 778
     name: True Sansha Capital Shield Booster
+    published: true
     volume: 4000.0
   Vepas' Modified Large Shield Booster:
     Duration: 3200.0
@@ -1675,6 +1762,7 @@ items:
     id: 14702
     marketGroup: 611
     name: Vepas' Modified Large Shield Booster
+    published: true
     volume: 25.0
   Vepas' Modified X-Large Shield Booster:
     Duration: 4000.0
@@ -1694,6 +1782,7 @@ items:
     id: 14706
     marketGroup: 612
     name: Vepas' Modified X-Large Shield Booster
+    published: true
     volume: 50.0
   X-Large 'Locomotive' Shield Booster:
     CapacitorNeed: 400.0
@@ -1714,6 +1803,7 @@ items:
     id: 20623
     marketGroup: 612
     name: X-Large 'Locomotive' Shield Booster
+    published: true
     volume: 50.0
   X-Large Abyssal Shield Booster:
     RequiredSkill1: 3416
@@ -1721,6 +1811,7 @@ items:
     TechLevel: 2
     id: 47793
     name: X-Large Abyssal Shield Booster
+    published: true
     volume: 50.0
   X-Large C5-L Emergency Shield Overload I:
     CapacitorNeed: 400.0
@@ -1740,6 +1831,7 @@ items:
     id: 10888
     marketGroup: 612
     name: X-Large C5-L Emergency Shield Overload I
+    published: true
     volume: 50.0
   X-Large Clarity Ward Booster I:
     CapacitorNeed: 400.0
@@ -1759,6 +1851,7 @@ items:
     id: 10884
     marketGroup: 612
     name: X-Large Clarity Ward Booster I
+    published: true
     volume: 50.0
   X-Large Converse Deflection Catalyzer:
     CapacitorNeed: 400.0
@@ -1778,6 +1871,7 @@ items:
     id: 10886
     marketGroup: 612
     name: X-Large Converse Deflection Catalyzer
+    published: true
     volume: 50.0
   X-Large Neutron Saturation Injector I:
     CapacitorNeed: 400.0
@@ -1797,6 +1891,7 @@ items:
     id: 10882
     marketGroup: 612
     name: X-Large Neutron Saturation Injector I
+    published: true
     volume: 50.0
   X-Large Shield Booster I:
     CapacitorNeed: 400.0
@@ -1815,6 +1910,7 @@ items:
     id: 10840
     marketGroup: 612
     name: X-Large Shield Booster I
+    published: true
     volume: 50.0
   X-Large Shield Booster II:
     CapacitorNeed: 400.0
@@ -1834,4 +1930,5 @@ items:
     id: 10842
     marketGroup: 612
     name: X-Large Shield Booster II
+    published: true
     volume: 50.0

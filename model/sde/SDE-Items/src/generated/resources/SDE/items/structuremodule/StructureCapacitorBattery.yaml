@@ -9,6 +9,7 @@ items:
     id: 47352
     marketGroup: 2224
     name: Standup Cap Battery I
+    published: true
     volume: 4000.0
   Standup Cap Battery II:
     CapacitorBonus: 62500
@@ -21,4 +22,5 @@ items:
     id: 47353
     marketGroup: 2224
     name: Standup Cap Battery II
+    published: true
     volume: 4000.0

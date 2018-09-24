@@ -1,5 +1,6 @@
 items:
   Standup XL-Set Equipment and Consumable Manufacturing Efficiency I:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.0
     AttributeEngRigTimeBonus: -20
     CanFitShipGroup01: 1657
@@ -21,8 +22,10 @@ items:
     id: 37178
     marketGroup: 2349
     name: Standup XL-Set Equipment and Consumable Manufacturing Efficiency I
+    published: true
     volume: 40.0
   Standup XL-Set Equipment and Consumable Manufacturing Efficiency II:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
@@ -44,4 +47,5 @@ items:
     id: 37179
     marketGroup: 2349
     name: Standup XL-Set Equipment and Consumable Manufacturing Efficiency II
+    published: true
     volume: 40.0

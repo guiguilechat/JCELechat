@@ -12,6 +12,7 @@ items:
     id: 1242
     marketGroup: 1196
     name: '''Basic'' Nanofiber Internal Structure'
+    published: true
     volume: 5.0
   Domination Nanofiber Structure:
     AgilityMultiplier: -16.0
@@ -26,6 +27,7 @@ items:
     id: 14127
     marketGroup: 1196
     name: Domination Nanofiber Structure
+    published: true
     volume: 5.0
   Nanofiber Internal Structure I:
     AgilityMultiplier: -13.0
@@ -38,6 +40,7 @@ items:
     id: 2603
     marketGroup: 1196
     name: Nanofiber Internal Structure I
+    published: true
     volume: 5.0
   Nanofiber Internal Structure II:
     AgilityMultiplier: -15.75
@@ -51,6 +54,7 @@ items:
     id: 2605
     marketGroup: 1196
     name: Nanofiber Internal Structure II
+    published: true
     volume: 5.0
   Republic Fleet Nanofiber Structure:
     AgilityMultiplier: -16.0
@@ -65,6 +69,7 @@ items:
     id: 15813
     marketGroup: 1196
     name: Republic Fleet Nanofiber Structure
+    published: true
     volume: 5.0
   Synthetic Hull Conversion Nanofiber Structure:
     AgilityMultiplier: -15.5
@@ -79,6 +84,7 @@ items:
     id: 21500
     marketGroup: 1196
     name: Synthetic Hull Conversion Nanofiber Structure
+    published: true
     volume: 5.0
   Type-D Restrained Nanofiber Structure:
     AgilityMultiplier: -14.5
@@ -92,4 +98,5 @@ items:
     id: 5599
     marketGroup: 1196
     name: Type-D Restrained Nanofiber Structure
+    published: true
     volume: 5.0

@@ -1,0 +1,61 @@
+items:
+  Centatis Behemoth:
+    id: 24023
+    name: Centatis Behemoth
+    published: false
+    volume: 100100.0
+  Centatis Daemon:
+    id: 24022
+    name: Centatis Daemon
+    published: false
+    volume: 100100.0
+  Centatis Devil:
+    id: 24021
+    name: Centatis Devil
+    published: false
+    volume: 100100.0
+  Centatis Phantasm:
+    id: 24002
+    name: Centatis Phantasm
+    published: false
+    volume: 100100.0
+  Centatis Specter:
+    id: 24019
+    name: Centatis Specter
+    published: false
+    volume: 100100.0
+  Centatis Wraith:
+    id: 24020
+    name: Centatis Wraith
+    published: false
+    volume: 100100.0
+  True Centatis Behemoth:
+    id: 24198
+    name: True Centatis Behemoth
+    published: false
+    volume: 100100.0
+  True Centatis Daemon:
+    id: 24197
+    name: True Centatis Daemon
+    published: false
+    volume: 100100.0
+  True Centatis Devil:
+    id: 24196
+    name: True Centatis Devil
+    published: false
+    volume: 100100.0
+  True Centatis Phantasm:
+    id: 24193
+    name: True Centatis Phantasm
+    published: false
+    volume: 100100.0
+  True Centatis Specter:
+    id: 24194
+    name: True Centatis Specter
+    published: false
+    volume: 100100.0
+  True Centatis Wraith:
+    id: 24195
+    name: True Centatis Wraith
+    published: false
+    volume: 100100.0

@@ -1,6 +1,8 @@
 items:
   Standup M-Set Advanced Component Manufacturing Material Efficiency I:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.0
+    AttributeEngRigTimeBonus: 1
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
@@ -19,9 +21,12 @@ items:
     id: 43867
     marketGroup: 2347
     name: Standup M-Set Advanced Component Manufacturing Material Efficiency I
+    published: true
     volume: 10.0
   Standup M-Set Advanced Component Manufacturing Material Efficiency II:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.4000000953674316
+    AttributeEngRigTimeBonus: 1
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
@@ -40,9 +45,12 @@ items:
     id: 43866
     marketGroup: 2347
     name: Standup M-Set Advanced Component Manufacturing Material Efficiency II
+    published: true
     volume: 10.0
   Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.0
+    AttributeEngRigTimeBonus: 1
     AttributeThukkerEngRigMatBonus: -3.700000047683716
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -63,4 +71,5 @@ items:
     id: 45640
     marketGroup: 2347
     name: Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency
+    published: true
     volume: 10.0

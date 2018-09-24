@@ -1,5 +1,6 @@
 items:
   Standup XL-Set Structure and Component Manufacturing Efficiency I:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.0
     AttributeEngRigTimeBonus: -20
     CanFitShipGroup01: 1657
@@ -19,8 +20,10 @@ items:
     id: 43704
     marketGroup: 2349
     name: Standup XL-Set Structure and Component Manufacturing Efficiency I
+    published: true
     volume: 40.0
   Standup XL-Set Structure and Component Manufacturing Efficiency II:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
@@ -40,8 +43,10 @@ items:
     id: 43705
     marketGroup: 2349
     name: Standup XL-Set Structure and Component Manufacturing Efficiency II
+    published: true
     volume: 40.0
   Standup XL-Set Thukker Structure and Component Manufacturing Efficiency:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.0
     AttributeEngRigTimeBonus: -20
     AttributeThukkerEngRigMatBonus: -3.700000047683716
@@ -63,4 +68,5 @@ items:
     id: 45548
     marketGroup: 2349
     name: Standup XL-Set Thukker Structure and Component Manufacturing Efficiency
+    published: true
     volume: 40.0

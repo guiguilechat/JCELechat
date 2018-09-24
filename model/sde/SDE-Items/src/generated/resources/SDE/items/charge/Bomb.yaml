@@ -27,6 +27,7 @@ items:
     id: 27912
     marketGroup: 1015
     name: Concussion Bomb
+    published: true
     volume: 75.0
   Electron Bomb:
     Agility: 0.02753569185733795
@@ -56,6 +57,7 @@ items:
     id: 27920
     marketGroup: 1015
     name: Electron Bomb
+    published: true
     volume: 75.0
   Scorch Bomb:
     Agility: 0.02753569185733795
@@ -85,6 +87,7 @@ items:
     id: 27916
     marketGroup: 1015
     name: Scorch Bomb
+    published: true
     volume: 75.0
   Shrapnel Bomb:
     Agility: 0.02753569185733795
@@ -114,4 +117,5 @@ items:
     id: 27918
     marketGroup: 1015
     name: Shrapnel Bomb
+    published: true
     volume: 75.0

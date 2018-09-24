@@ -1,0 +1,16 @@
+items:
+  Emergent Defender:
+    id: 30212
+    name: Emergent Defender
+    published: false
+    volume: 19100.0
+  Emergent Preserver:
+    id: 30214
+    name: Emergent Preserver
+    published: false
+    volume: 19100.0
+  Emergent Upholder:
+    id: 30213
+    name: Emergent Upholder
+    published: false
+    volume: 19100.0

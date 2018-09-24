@@ -1,0 +1,21 @@
+items:
+  Thukker Follower:
+    id: 10110
+    name: Thukker Follower
+    published: false
+    volume: 15800.0
+  Thukker Mercenary Elite Fighter:
+    id: 23959
+    name: Thukker Mercenary Elite Fighter
+    published: false
+    volume: 22500.0
+  Thukker Mercenary Fighter:
+    id: 23955
+    name: Thukker Mercenary Fighter
+    published: false
+    volume: 27289.0
+  Thukker Mercenary Rookie:
+    id: 23958
+    name: Thukker Mercenary Rookie
+    published: false
+    volume: 17400.0

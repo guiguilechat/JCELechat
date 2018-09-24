@@ -1,0 +1,131 @@
+items:
+  Blockade General Sade:
+    id: 17997
+    name: Blockade General Sade
+    published: false
+    volume: 16120.0
+  Centus Black Ops Commander:
+    id: 17285
+    name: Centus Black Ops Commander
+    published: false
+    volume: 20000.0
+  Corpii Monk:
+    id: 26680
+    name: Corpii Monk
+    published: false
+    volume: 28100.0
+  Dark Blood Alpha:
+    id: 4015
+    name: Dark Blood Alpha
+    published: false
+    volume: 28700.0
+  Dark Blood Keeper:
+    id: 4355
+    name: Dark Blood Keeper
+    published: false
+    volume: 28600.0
+  Domination Grigori:
+    id: 4010
+    name: Domination Grigori
+    published: false
+    volume: 19100.0
+  Dread Guristas Irregular:
+    id: 4012
+    name: Dread Guristas Irregular
+    published: false
+    volume: 16500.0
+  Dread Pithi Terminator:
+    id: 26684
+    name: Dread Pithi Terminator
+    published: false
+    volume: 19700.0
+  Eha Hidaiki:
+    id: 26864
+    name: Eha Hidaiki
+    published: false
+    volume: 19700.0
+  Elgur Erinn:
+    id: 26866
+    name: Elgur Erinn
+    published: false
+    volume: 26500.0
+  Gamat Hakoot:
+    id: 26865
+    name: Gamat Hakoot
+    published: false
+    volume: 21120.0
+  Gistii Domination Scavenger:
+    id: 26661
+    name: Gistii Domination Scavenger
+    published: false
+    volume: 17660.0
+  Jols Eytur:
+    id: 26862
+    name: Jols Eytur
+    published: false
+    volume: 19100.0
+  Outpost Security Officer:
+    id: 17903
+    name: Outpost Security Officer
+    published: false
+    volume: 20000.0
+  Retired Mining Veteran:
+    id: 17800
+    name: Retired Mining Veteran
+    published: false
+    volume: 16120.0
+  Rogue Harvesting Vessel:
+    id: 26142
+    name: Rogue Harvesting Vessel
+    published: false
+    volume: 16450.0
+  Sansha Black Ops Squad Leader:
+    id: 17283
+    name: Sansha Black Ops Squad Leader
+    published: false
+    volume: 20000.0
+  Sansha Tenebrus:
+    id: 4354
+    name: Sansha Tenebrus
+    published: false
+    volume: 21120.0
+  Serpentis Drugstore Overseer:
+    id: 17890
+    name: Serpentis Drugstore Overseer
+    published: false
+    volume: 25000.0
+  Shadow Coreli Antagonist:
+    id: 26688
+    name: Shadow Coreli Antagonist
+    published: false
+    volume: 26500.0
+  Shadow Serpentis Warden:
+    id: 4356
+    name: Shadow Serpentis Warden
+    published: false
+    volume: 26500.0
+  Supply Station Manager:
+    id: 18004
+    name: Supply Station Manager
+    published: false
+    volume: 16120.0
+  The Superintendent:
+    id: 18024
+    name: The Superintendent
+    published: false
+    volume: 16120.0
+  True Centii Revelator:
+    id: 26687
+    name: True Centii Revelator
+    published: false
+    volume: 21120.0
+  Vlye Cadille:
+    id: 26863
+    name: Vlye Cadille
+    published: false
+    volume: 28700.0
+  chantal testing thingy:
+    id: 26753
+    name: chantal testing thingy
+    published: false
+    volume: 60.0

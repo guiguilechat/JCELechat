@@ -1,0 +1,31 @@
+items:
+  Dark Blood Bishop:
+    id: 23293
+    name: Dark Blood Bishop
+    published: false
+    volume: 118000.0
+  Dark Blood Exorcist:
+    id: 23298
+    name: Dark Blood Exorcist
+    published: false
+    volume: 118000.0
+  Dark Blood Fanatic:
+    id: 23296
+    name: Dark Blood Fanatic
+    published: false
+    volume: 118000.0
+  Dark Blood Phantom:
+    id: 23297
+    name: Dark Blood Phantom
+    published: false
+    volume: 118000.0
+  Dark Blood Seer:
+    id: 23294
+    name: Dark Blood Seer
+    published: false
+    volume: 118000.0
+  Dark Blood Shade:
+    id: 23295
+    name: Dark Blood Shade
+    published: false
+    volume: 118000.0

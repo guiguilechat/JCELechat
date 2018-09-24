@@ -5,10 +5,12 @@ items:
     id: 33271
     marketGroup: 1716
     name: Survey Probe Launcher I Blueprint
+    published: true
     volume: 0.01
   Survey Probe Launcher II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 33273
     name: Survey Probe Launcher II Blueprint
+    published: true
     volume: 0.01

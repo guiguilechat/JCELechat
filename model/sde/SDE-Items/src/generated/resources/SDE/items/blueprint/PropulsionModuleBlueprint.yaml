@@ -5,12 +5,14 @@ items:
     id: 41242
     marketGroup: 1525
     name: 10000MN Afterburner I Blueprint
+    published: true
     volume: 0.01
   10000MN Afterburner II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
     id: 41245
     name: 10000MN Afterburner II Blueprint
+    published: true
     volume: 0.01
   10000MN Monopropellant Enduring Afterburner Blueprint:
     IndustryBlueprintRank: 200.0
@@ -18,6 +20,7 @@ items:
     id: 41244
     marketGroup: 1525
     name: 10000MN Monopropellant Enduring Afterburner Blueprint
+    published: true
     volume: 0.01
   10000MN Y-S8 Compact Afterburner Blueprint:
     IndustryBlueprintRank: 200.0
@@ -25,6 +28,7 @@ items:
     id: 41243
     marketGroup: 1525
     name: 10000MN Y-S8 Compact Afterburner Blueprint
+    published: true
     volume: 0.01
   100MN Afterburner I Blueprint:
     IndustryBlueprintRank: 9.0
@@ -32,18 +36,21 @@ items:
     id: 12067
     marketGroup: 1525
     name: 100MN Afterburner I Blueprint
+    published: true
     volume: 0.01
   100MN Afterburner II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 12069
     name: 100MN Afterburner II Blueprint
+    published: true
     volume: 0.01
   100MN Analog Booster Afterburner Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 21475
     name: 100MN Analog Booster Afterburner Blueprint
+    published: true
     volume: 0.01
   10MN Afterburner I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -51,18 +58,21 @@ items:
     id: 12057
     marketGroup: 1525
     name: 10MN Afterburner I Blueprint
+    published: true
     volume: 0.01
   10MN Afterburner II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 12059
     name: 10MN Afterburner II Blueprint
+    published: true
     volume: 0.01
   10MN Analog Booster Afterburner Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 21473
     name: 10MN Analog Booster Afterburner Blueprint
+    published: true
     volume: 0.01
   1MN Afterburner I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -70,24 +80,28 @@ items:
     id: 1072
     marketGroup: 1525
     name: 1MN Afterburner I Blueprint
+    published: true
     volume: 0.01
   1MN Afterburner II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1071
     name: 1MN Afterburner II Blueprint
+    published: true
     volume: 0.01
   1MN Analog Booster Afterburner Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21471
     name: 1MN Analog Booster Afterburner Blueprint
+    published: true
     volume: 0.01
   1MN Civilian Afterburner Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 21858
     name: 1MN Civilian Afterburner Blueprint
+    published: true
     volume: 0.01
   50000MN Cold-Gas Enduring Microwarpdrive Blueprint:
     IndustryBlueprintRank: 200.0
@@ -95,6 +109,7 @@ items:
     id: 41313
     marketGroup: 331
     name: 50000MN Cold-Gas Enduring Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   50000MN Microwarpdrive I Blueprint:
     IndustryBlueprintRank: 120.0
@@ -102,12 +117,14 @@ items:
     id: 41256
     marketGroup: 331
     name: 50000MN Microwarpdrive I Blueprint
+    published: true
     volume: 0.01
   50000MN Microwarpdrive II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
     id: 41261
     name: 50000MN Microwarpdrive II Blueprint
+    published: true
     volume: 0.01
   50000MN Quad LiF Restrained Microwarpdrive Blueprint:
     IndustryBlueprintRank: 200.0
@@ -115,6 +132,7 @@ items:
     id: 41258
     marketGroup: 331
     name: 50000MN Quad LiF Restrained Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   50000MN Y-T8 Compact Microwarpdrive Blueprint:
     IndustryBlueprintRank: 200.0
@@ -122,12 +140,14 @@ items:
     id: 41257
     marketGroup: 331
     name: 50000MN Y-T8 Compact Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   500MN Digital Booster Microwarpdrive Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 21481
     name: 500MN Digital Booster Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   500MN Microwarpdrive I Blueprint:
     IndustryBlueprintRank: 9.0
@@ -135,18 +155,21 @@ items:
     id: 12055
     marketGroup: 331
     name: 500MN Microwarpdrive I Blueprint
+    published: true
     volume: 0.01
   500MN Microwarpdrive II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 12085
     name: 500MN Microwarpdrive II Blueprint
+    published: true
     volume: 0.01
   50MN Digital Booster Microwarpdrive Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 21479
     name: 50MN Digital Booster Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   50MN Microwarpdrive I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -154,18 +177,21 @@ items:
     id: 12053
     marketGroup: 331
     name: 50MN Microwarpdrive I Blueprint
+    published: true
     volume: 0.01
   50MN Microwarpdrive II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 12077
     name: 50MN Microwarpdrive II Blueprint
+    published: true
     volume: 0.01
   5MN Digital Booster Microwarpdrive Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21477
     name: 5MN Digital Booster Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   5MN Microwarpdrive I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -173,12 +199,14 @@ items:
     id: 1067
     marketGroup: 331
     name: 5MN Microwarpdrive I Blueprint
+    published: true
     volume: 0.01
   5MN Microwarpdrive II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 1073
     name: 5MN Microwarpdrive II Blueprint
+    published: true
     volume: 0.01
   Domination 10000MN Afterburner Blueprint:
     IndustryBlueprintRank: 400.0
@@ -186,6 +214,7 @@ items:
     TechLevel: 1
     id: 41246
     name: Domination 10000MN Afterburner Blueprint
+    published: true
     volume: 0.01
   Domination 50000MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 400.0
@@ -193,78 +222,91 @@ items:
     TechLevel: 1
     id: 41262
     name: Domination 50000MN Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   Federation Navy 100MN Afterburner Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 15771
     name: Federation Navy 100MN Afterburner Blueprint
+    published: true
     volume: 0.01
   Federation Navy 10MN Afterburner Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 15767
     name: Federation Navy 10MN Afterburner Blueprint
+    published: true
     volume: 0.01
   Federation Navy 1MN Afterburner Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15762
     name: Federation Navy 1MN Afterburner Blueprint
+    published: true
     volume: 0.01
   Federation Navy 500MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 15769
     name: Federation Navy 500MN Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   Federation Navy 50MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 15765
     name: Federation Navy 50MN Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   Federation Navy 5MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15760
     name: Federation Navy 5MN Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   Republic Fleet 100MN Afterburner Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 15758
     name: Republic Fleet 100MN Afterburner Blueprint
+    published: true
     volume: 0.01
   Republic Fleet 10MN Afterburner Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 15754
     name: Republic Fleet 10MN Afterburner Blueprint
+    published: true
     volume: 0.01
   Republic Fleet 1MN Afterburner Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15750
     name: Republic Fleet 1MN Afterburner Blueprint
+    published: true
     volume: 0.01
   Republic Fleet 500MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 15756
     name: Republic Fleet 500MN Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   Republic Fleet 50MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 15752
     name: Republic Fleet 50MN Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   Republic Fleet 5MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 15748
     name: Republic Fleet 5MN Microwarpdrive Blueprint
+    published: true
     volume: 0.01
   Shadow Serpentis 10000MN Afterburner Blueprint:
     IndustryBlueprintRank: 400.0
@@ -272,6 +314,7 @@ items:
     TechLevel: 1
     id: 41248
     name: Shadow Serpentis 10000MN Afterburner Blueprint
+    published: true
     volume: 0.01
   Shadow Serpentis 50000MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 400.0
@@ -279,4 +322,5 @@ items:
     TechLevel: 1
     id: 41260
     name: Shadow Serpentis 50000MN Microwarpdrive Blueprint
+    published: true
     volume: 0.01

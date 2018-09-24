@@ -18,6 +18,7 @@ items:
     id: 35941
     marketGroup: 2212
     name: Standup Remote Sensor Dampener I
+    published: true
     volume: 4000.0
   Standup Remote Sensor Dampener II:
     CanFitShipGroup01: 1657
@@ -39,6 +40,7 @@ items:
     id: 47368
     marketGroup: 2212
     name: Standup Remote Sensor Dampener II
+    published: true
     volume: 4000.0
   Standup Target Painter I:
     CanFitShipGroup01: 1657
@@ -58,6 +60,7 @@ items:
     id: 35947
     marketGroup: 2214
     name: Standup Target Painter I
+    published: true
     volume: 4000.0
   Standup Target Painter II:
     CanFitShipGroup01: 1657
@@ -78,6 +81,7 @@ items:
     id: 47366
     marketGroup: 2214
     name: Standup Target Painter II
+    published: true
     volume: 4000.0
   Standup Weapon Disruptor I:
     AoeCloudSizeBonus: 50.0
@@ -102,6 +106,7 @@ items:
     id: 35945
     marketGroup: 2215
     name: Standup Weapon Disruptor I
+    published: true
     volume: 4000.0
   Standup Weapon Disruptor II:
     AoeCloudSizeBonus: 55.0
@@ -127,4 +132,5 @@ items:
     id: 47364
     marketGroup: 2215
     name: Standup Weapon Disruptor II
+    published: true
     volume: 4000.0

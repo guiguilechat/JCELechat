@@ -12,6 +12,7 @@ items:
     id: 32262
     marketGroup: 938
     name: Black Eagle Drone Link Augmentor
+    published: true
     volume: 25.0
   Drone Link Augmentor I:
     DroneRangeBonus: 20000
@@ -23,6 +24,7 @@ items:
     id: 23527
     marketGroup: 938
     name: Drone Link Augmentor I
+    published: true
     volume: 25.0
   Drone Link Augmentor II:
     DroneRangeBonus: 24000
@@ -35,6 +37,7 @@ items:
     id: 24427
     marketGroup: 938
     name: Drone Link Augmentor II
+    published: true
     volume: 25.0
   Unit D-34343's Modified Drone Link Augmentor:
     Cpu: 40.0
@@ -49,6 +52,7 @@ items:
     id: 32927
     marketGroup: 938
     name: Unit D-34343's Modified Drone Link Augmentor
+    published: true
     volume: 25.0
   Unit F-435454's Modified Drone Link Augmentor:
     Cpu: 44.0
@@ -63,6 +67,7 @@ items:
     id: 32929
     marketGroup: 938
     name: Unit F-435454's Modified Drone Link Augmentor
+    published: true
     volume: 25.0
   Unit P-343554's Modified Drone Link Augmentor:
     Cpu: 48.0
@@ -77,6 +82,7 @@ items:
     id: 32931
     marketGroup: 938
     name: Unit P-343554's Modified Drone Link Augmentor
+    published: true
     volume: 25.0
   Unit W-634's Modified Drone Link Augmentor:
     Cpu: 51.0
@@ -91,4 +97,5 @@ items:
     id: 32933
     marketGroup: 938
     name: Unit W-634's Modified Drone Link Augmentor
+    published: true
     volume: 25.0

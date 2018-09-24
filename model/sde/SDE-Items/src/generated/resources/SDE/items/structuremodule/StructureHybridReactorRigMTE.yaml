@@ -17,6 +17,7 @@ items:
     id: 46488
     marketGroup: 2341
     name: Standup M-Set Hybrid Reactor Time Efficiency I
+    published: true
     volume: 10.0
   Standup M-Set Hybrid Reactor Time Efficiency II:
     CanFitShipGroup03: 1406
@@ -36,4 +37,5 @@ items:
     id: 46489
     marketGroup: 2341
     name: Standup M-Set Hybrid Reactor Time Efficiency II
+    published: true
     volume: 10.0

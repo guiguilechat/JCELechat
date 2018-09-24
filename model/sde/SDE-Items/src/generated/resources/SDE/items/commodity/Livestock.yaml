@@ -2,799 +2,995 @@ items:
   A Really REALLY Clueless Tourist:
     id: 25847
     name: A Really REALLY Clueless Tourist
+    published: true
     volume: 1.0
   Activists:
     id: 17754
     marketGroup: 754
     name: Activists
+    published: true
     volume: 1.0
   'Admiral Meledier ':
     id: 29439
     name: 'Admiral Meledier '
+    published: true
     volume: 1.0
   Amarr Diplomat:
     id: 29229
     name: Amarr Diplomat
+    published: true
     volume: 1.0
   Amarr Forensic Investigative Deployment:
     id: 3036
     name: Amarr Forensic Investigative Deployment
+    published: true
     volume: 400.0
   Amarr Forensic Investigative Team:
     id: 3032
     name: Amarr Forensic Investigative Team
+    published: true
     volume: 65.0
   Amarr Light Marines:
     id: 22801
     name: Amarr Light Marines
+    published: true
     volume: 2.0
   Amarr Marine Counter-Boarding Company:
     id: 3004
     name: Amarr Marine Counter-Boarding Company
+    published: true
     volume: 300.0
   Amarr Marine Counter-Boarding Team:
     id: 2999
     name: Amarr Marine Counter-Boarding Team
+    published: true
     volume: 30.0
   Amarr Reporter:
     id: 22788
     name: Amarr Reporter
+    published: true
     volume: 2.0
   Amarr Sympathizer:
     id: 28842
     name: Amarr Sympathizer
+    published: true
     volume: 1.0
   Amarrian Agent:
     id: 22792
     name: Amarrian Agent
+    published: true
     volume: 2.0
   Amarrian Double-Agent:
     id: 28869
     name: Amarrian Double-Agent
+    published: true
     volume: 1.0
   Amarrian Spy:
     id: 22708
     name: Amarrian Spy
+    published: true
     volume: 1.0
   Ambassador Hugo Farin:
     id: 22067
     name: Ambassador Hugo Farin
+    published: true
     volume: 3.0
   Angel Cartel Pilot:
     id: 24752
     name: Angel Cartel Pilot
+    published: true
     volume: 1.0
   Angel Cartel Prisoners:
     id: 16593
     name: Angel Cartel Prisoners
+    published: true
     volume: 1.0
   Arctic Warfare Marine Squads:
     id: 2976
     name: Arctic Warfare Marine Squads
+    published: true
     volume: 320.0
   Arctic Warfare Marines:
     id: 2975
     name: Arctic Warfare Marines
+    published: true
     volume: 32.0
   Artificial Miyan:
     id: 32270
     name: Artificial Miyan
+    published: true
     volume: 2.0
   Black Jack's Underling:
     id: 25352
     name: Black Jack's Underling
+    published: true
     volume: 1.0
   Blood Raider Scientist:
     id: 24238
     name: Blood Raider Scientist
+    published: true
     volume: 3.0
   Breeder Slave:
     id: 26901
     name: Breeder Slave
+    published: true
     volume: 1.5
   Brutor Workers:
     id: 29614
     name: Brutor Workers
+    published: true
     volume: 3.0
   CPF Security Personnel:
     id: 30968
     name: CPF Security Personnel
+    published: true
     volume: 3.0
   Caldari Light Marines:
     id: 22804
     name: Caldari Light Marines
+    published: true
     volume: 2.0
   Caldari Operative:
     id: 2919
     name: Caldari Operative
+    published: true
     volume: 0.1
   Caldari Prisoners of War:
     id: 30980
     name: Caldari Prisoners of War
+    published: true
     volume: 0.5
   Caldari Surveyor:
     id: 23274
     name: Caldari Surveyor
+    published: true
     volume: 3.0
   Captives:
     id: 13837
     name: Captives
+    published: true
     volume: 1.0
   Captured CEO:
     id: 2942
     name: Captured CEO
+    published: true
     volume: 3.0
   Captured Civilians:
     id: 3483
     name: Captured Civilians
+    published: true
     volume: 5.0
   Cattle:
     id: 21734
     name: Cattle
+    published: true
     volume: 1.0
   Chef Aubrei Azil:
     id: 30759
     name: Chef Aubrei Azil
+    published: true
     volume: 3.0
   Citizens:
     id: 28137
     name: Citizens
+    published: true
     volume: 1000.0
   Civilian SIGINT Contractors:
     id: 2958
     name: Civilian SIGINT Contractors
+    published: true
     volume: 30.0
   Civilians:
     id: 24441
     name: Civilians
+    published: true
     volume: 5.0
   Cloned SOE officer:
     id: 22210
     name: Cloned SOE officer
+    published: true
     volume: 1.0
   Comatose Alena Karyn:
     id: 11709
     name: Comatose Alena Karyn
+    published: true
     volume: 1.0
   Conditioned House Slaves:
     id: 3006
     name: Conditioned House Slaves
+    published: true
     volume: 30.0
   Construction Workers:
     id: 21631
     name: Construction Workers
+    published: true
     volume: 3.0
   Corin Risia:
     id: 30812
     name: Corin Risia
+    published: true
     volume: 1.0
   Corporate Assassin:
     id: 2983
     name: Corporate Assassin
+    published: true
     volume: 30.0
   Dagan:
     id: 30827
     name: Dagan
+    published: true
     volume: 1.0
   Dalitat Dakpor's Clone:
     id: 25850
     name: Dalitat Dakpor's Clone
+    published: true
     volume: 5.0
   Dari Akell:
     id: 24760
     name: Dari Akell
+    published: true
     volume: 5.0
   Deep Cover Corporate Assassin:
     id: 2984
     name: Deep Cover Corporate Assassin
+    published: true
     volume: 300.0
   Doctor Luija Elban:
     id: 30761
     name: Doctor Luija Elban
+    published: true
     volume: 1.0
   Dread Guristas Strike Force:
     id: 32389
     name: Dread Guristas Strike Force
+    published: true
     volume: 1.0
   Elite Slaves:
     id: 17796
     marketGroup: 23
     name: Elite Slaves
+    published: true
     volume: 1.0
   Engineer Tahaki Karin:
     id: 30774
     name: Engineer Tahaki Karin
+    published: true
     volume: 1.0
   Exotic Dancers, Female:
     id: 17765
     marketGroup: 23
     name: Exotic Dancers, Female
+    published: true
     volume: 1.0
   Exotic Dancers, Male:
     id: 4358
     marketGroup: 23
     name: Exotic Dancers, Male
+    published: true
     volume: 1.0
   FR Personnel:
     id: 30814
     name: FR Personnel
+    published: true
     volume: 1.0
   Fajah Ateshi:
     id: 2244
     name: Fajah Ateshi
+    published: true
     volume: 1.0
   Federal Intelligence Officer:
     id: 23558
     name: Federal Intelligence Officer
+    published: true
     volume: 2.0
   Former Slaves:
     id: 17409
     name: Former Slaves
+    published: true
     volume: 1.0
   Freed Pet Slaves:
     id: 22143
     name: Freed Pet Slaves
+    published: true
     volume: 1.0
   Freedom Fighters:
     id: 17791
     marketGroup: 23
     name: Freedom Fighters
+    published: true
     volume: 2.0
   Fugitive Slaves:
     id: 29489
     name: Fugitive Slaves
+    published: true
     volume: 1.5
   Gallente Light Marines:
     id: 22802
     name: Gallente Light Marines
+    published: true
     volume: 2.0
   Gallente Politician:
     id: 29447
     name: Gallente Politician
+    published: true
     volume: 2.0
   Gallente Reporter:
     id: 22796
     name: Gallente Reporter
+    published: true
     volume: 2.0
   Gang of Miners:
     id: 26788
     name: Gang of Miners
+    published: true
     volume: 6000.0
   Geeral Tash-Murkon:
     id: 29263
     name: Geeral Tash-Murkon
+    published: true
     volume: 1.5
   Govarde Alourtine:
     id: 24729
     name: Govarde Alourtine
+    published: true
     volume: 1.0
   Grace Tarsis:
     id: 22321
     name: Grace Tarsis
+    published: true
     volume: 1.0
   Group of Army Recruits:
     id: 2662
     name: Group of Army Recruits
+    published: true
     volume: 60.0
   Group of Cattle:
     id: 2663
     name: Group of Cattle
+    published: true
     volume: 100.0
   Group of Civilian SIGINT Contractors:
     id: 2959
     name: Group of Civilian SIGINT Contractors
+    published: true
     volume: 300.0
   Group of Elite Slaves:
     id: 2665
     name: Group of Elite Slaves
+    published: true
     volume: 60.0
   Group of Exotic Dancers:
     id: 2666
     name: Group of Exotic Dancers
+    published: true
     volume: 40.0
   Group of Genetically Enhanced Livestock:
     id: 2668
     name: Group of Genetically Enhanced Livestock
+    published: true
     volume: 100.0
   Group of Homeless:
     id: 26783
     name: Group of Homeless
+    published: true
     volume: 40.0
   Group of Janitors:
     id: 26775
     name: Group of Janitors
+    published: true
     volume: 50.0
   Group of Kameiras:
     id: 2669
     name: Group of Kameiras
+    published: true
     volume: 70.0
   Group of Marines:
     id: 2670
     name: Group of Marines
+    published: true
     volume: 60.0
   Group of Militants:
     id: 2671
     name: Group of Militants
+    published: true
     volume: 60.0
   Group of Miners:
     id: 2672
     name: Group of Miners
+    published: true
     volume: 50.0
   Group of Refugees:
     id: 2674
     name: Group of Refugees
+    published: true
     volume: 40.0
   Group of Science Graduates:
     id: 2675
     name: Group of Science Graduates
+    published: true
     volume: 50.0
   Group of Security Personnel:
     id: 2676
     name: Group of Security Personnel
+    published: true
     volume: 60.0
   Group of Slaves:
     id: 2677
     name: Group of Slaves
+    published: true
     volume: 50.0
   Group of Tourists:
     id: 2678
     name: Group of Tourists
+    published: true
     volume: 50.0
   Group of VIPs:
     id: 2681
     name: Group of VIPs
+    published: true
     volume: 50.0
   Harlots:
     id: 25869
     name: Harlots
+    published: true
     volume: 1.0
   Harroken Ikero:
     id: 2240
     name: Harroken Ikero
+    published: true
     volume: 3.0
   Heiress:
     id: 29216
     name: Heiress
+    published: true
     volume: 1.0
   Hejilmar the Slave:
     id: 26998
     name: Hejilmar the Slave
+    published: true
     volume: 3.0
   Herd of Conditioned House Slaves:
     id: 3008
     name: Herd of Conditioned House Slaves
+    published: true
     volume: 300.0
   Homeless:
     id: 12110
     marketGroup: 23
     name: Homeless
+    published: true
     volume: 3.0
   Hostages:
     id: 2013
     name: Hostages
+    published: true
     volume: 1.0
   Infected Refugees:
     id: 21850
     name: Infected Refugees
+    published: true
     volume: 1.0
   Informant:
     id: 26115
     name: Informant
+    published: true
     volume: 2.0
   Injured Slaves:
     id: 22085
     name: Injured Slaves
+    published: true
     volume: 3.0
   Inspector Layna Whizon:
     id: 22069
     name: Inspector Layna Whizon
+    published: true
     volume: 2.0
   Jamiella Ortar:
     id: 26225
     name: Jamiella Ortar
+    published: true
     volume: 0.1
   Janitor:
     id: 13267
     marketGroup: 23
     name: Janitor
+    published: true
     volume: 3.0
   Jark Makon:
     id: 23610
     name: Jark Makon
+    published: true
     volume: 1.0
   Jorek Lephny:
     id: 20715
     name: Jorek Lephny
+    published: true
     volume: 1.0
   Kameiras:
     id: 17767
     marketGroup: 23
     name: Kameiras
+    published: true
     volume: 1.0
   Kardimo Palettan:
     id: 22139
     name: Kardimo Palettan
+    published: true
     volume: 3.0
   Khanid Commander:
     id: 22752
     name: Khanid Commander
+    published: true
     volume: 1.0
   Khanid Marine:
     id: 24731
     name: Khanid Marine
+    published: true
     volume: 2.0
   Kidnapped Citizens:
     id: 2093
     name: Kidnapped Citizens
+    published: true
     volume: 1.0
   Kritsan Parthus:
     id: 30719
     name: Kritsan Parthus
+    published: true
     volume: 1.0
   Large Group of Cattle:
     id: 2725
     name: Large Group of Cattle
+    published: true
     volume: 1000.0
   Large Group of Civilians:
     id: 2699
     name: Large Group of Civilians
+    published: true
     volume: 500.0
   Large Group of Exotic Dancers:
     id: 2700
     name: Large Group of Exotic Dancers
+    published: true
     volume: 400.0
   Large Group of Genetically Enhanced Livestock:
     id: 2701
     name: Large Group of Genetically Enhanced Livestock
+    published: true
     volume: 1000.0
   Large Group of Homeless:
     id: 2702
     name: Large Group of Homeless
+    published: true
     volume: 400.0
   Large Group of Janitors:
     id: 2726
     name: Large Group of Janitors
+    published: true
     volume: 500.0
   Large Group of Kameiras:
     id: 2703
     name: Large Group of Kameiras
+    published: true
     volume: 700.0
   Large Group of Marines:
     id: 2704
     name: Large Group of Marines
+    published: true
     volume: 600.0
   Large Group of Militants:
     id: 2705
     name: Large Group of Militants
+    published: true
     volume: 600.0
   Large Group of Miners:
     id: 2727
     name: Large Group of Miners
+    published: true
     volume: 500.0
   Large Group of Refugees:
     id: 2728
     name: Large Group of Refugees
+    published: true
     volume: 400.0
   Large Group of Science Graduates:
     id: 2706
     name: Large Group of Science Graduates
+    published: true
     volume: 500.0
   Large Group of Slaves:
     id: 2707
     name: Large Group of Slaves
+    published: true
     volume: 500.0
   Large Group of Tourists:
     id: 2708
     name: Large Group of Tourists
+    published: true
     volume: 500.0
   Large Group of VIPs:
     id: 2709
     name: Large Group of VIPs
+    published: true
     volume: 500.0
   Lazron Kamon:
     id: 26266
     name: Lazron Kamon
+    published: true
     volume: 3.0
   Lieutenant Kipo “Foxfire” Tekira:
     id: 32398
     name: Lieutenant Kipo “Foxfire” Tekira
+    published: true
     volume: 1.0
   Lieutenant Kirus:
     id: 30804
     name: Lieutenant Kirus
+    published: true
     volume: 1.0
   Logut Akell:
     id: 24755
     name: Logut Akell
+    published: true
     volume: 5.0
   Lord Arachnan:
     id: 24342
     name: Lord Arachnan
+    published: true
     volume: 3.0
   Lucia Deep:
     id: 22089
     name: Lucia Deep
+    published: true
     volume: 0.1
   Major's Son:
     id: 29269
     name: Major's Son
+    published: true
     volume: 1.0
   Manel's Servant:
     id: 23699
     name: Manel's Servant
+    published: true
     volume: 2.0
   Marines:
     id: 3810
     marketGroup: 23
     name: Marines
+    published: true
     volume: 2.0
   Mercenary Pilot:
     id: 16194
     name: Mercenary Pilot
+    published: true
     volume: 1.0
   Militants:
     id: 25373
     name: Militants
+    published: true
     volume: 2.0
   Mina Darabi:
     id: 31960
     name: Mina Darabi
+    published: true
     volume: 1.0
   Minecore Harvester:
     id: 25989
     name: Minecore Harvester
+    published: true
     volume: 2.0
-  Minedrill – E518 Crew:
+  Minedrill �� E518 Crew:
     id: 32372
-    name: Minedrill – E518 Crew
+    name: Minedrill �� E518 Crew
+    published: true
     volume: 3.0
   Miner:
     id: 21466
     name: Miner
+    published: true
     volume: 3.0
   Miniature Slaver:
     id: 29219
     name: Miniature Slaver
+    published: true
     volume: 0.01
   Minmatar Civilians:
     id: 22847
     name: Minmatar Civilians
+    published: true
     volume: 5.0
   Minmatar Emissary:
     id: 16253
     name: Minmatar Emissary
+    published: true
     volume: 0.1
   Minmatar Light Marines:
     id: 22803
     name: Minmatar Light Marines
+    published: true
     volume: 2.0
   Minmatar Reporter:
     id: 25875
     name: Minmatar Reporter
+    published: true
     volume: 2.0
   Nakyo Fukoren:
     id: 21743
     name: Nakyo Fukoren
+    published: true
     volume: 1.0
   Nebben Centrien, Janitor:
     id: 30757
     name: Nebben Centrien, Janitor
+    published: true
     volume: 3.0
   Oura Madusaari:
     id: 2239
     name: Oura Madusaari
+    published: true
     volume: 1.0
   Pilgrims:
     id: 24251
     name: Pilgrims
+    published: true
     volume: 1.0
   Political Envoy:
     id: 29253
     name: Political Envoy
+    published: true
     volume: 2.0
   Port Rolette Residents:
     id: 26708
     name: Port Rolette Residents
+    published: true
     volume: 5.0
   Preacher:
     id: 2217
     name: Preacher
+    published: true
     volume: 1.0
   Prisoner:
     id: 28886
     name: Prisoner
+    published: true
     volume: 1.0
   Prisoners:
     id: 3808
     name: Prisoners
+    published: true
     volume: 7.5
   Production Assistant:
     id: 27203
     name: Production Assistant
+    published: true
     volume: 3.0
   Professor Kajurei Delainen:
     id: 28835
     name: Professor Kajurei Delainen
+    published: true
     volume: 1.0
   Prop Comedian:
     id: 28995
     name: Prop Comedian
+    published: true
     volume: 3.0
   Prostitute:
     id: 22208
     name: Prostitute
+    published: true
     volume: 1.0
   Quao Kale:
     id: 21672
     name: Quao Kale
+    published: true
     volume: 1.0
   Rahsa, Sansha Commander:
     id: 32097
     name: Rahsa, Sansha Commander
+    published: true
     volume: 1.0
   Ralie Ardanne:
     id: 32292
     name: Ralie Ardanne
+    published: true
     volume: 1.0
   Refugee:
     id: 22209
     name: Refugee
+    published: true
     volume: 3.0
   Refugees:
     id: 3806
     marketGroup: 23
     name: Refugees
+    published: true
     volume: 1.0
   Regiment of Marines:
     id: 26773
     name: Regiment of Marines
+    published: true
     volume: 2000.0
   Rogue Harvester:
     id: 26140
     name: Rogue Harvester
+    published: true
     volume: 5.0
   Ryoke Laika:
     id: 21066
     name: Ryoke Laika
+    published: true
     volume: 1.0
   Science Graduates:
     id: 12243
     marketGroup: 23
     name: Science Graduates
+    published: true
     volume: 3.0
   Scientist:
     id: 25885
     name: Scientist
+    published: true
     volume: 1.0
   Scope Journalist:
     id: 23509
     name: Scope Journalist
+    published: true
     volume: 5.0
   Serpentis Informant:
     id: 30182
     name: Serpentis Informant
+    published: true
     volume: 1.0
   Sheriff Togany:
     id: 21070
     name: Sheriff Togany
+    published: true
     volume: 1.0
   Ship's Crew:
     id: 24766
     name: Ship's Crew
+    published: true
     volume: 2.0
   Sidura Meisana:
     id: 26696
     name: Sidura Meisana
+    published: true
     volume: 0.1
   Sisters of EVE Negotiator:
     id: 2226
     name: Sisters of EVE Negotiator
+    published: true
     volume: 1.0
   Slaver:
     id: 12049
     marketGroup: 23
     name: Slaver
+    published: true
     volume: 2.0
   Slaver Hound:
     id: 3723
     marketGroup: 23
     name: Slaver Hound
+    published: true
     volume: 1.0
   Slaves:
     id: 3721
     marketGroup: 23
     name: Slaves
+    published: true
     volume: 5.0
   Smugglers:
     id: 29294
     name: Smugglers
+    published: true
     volume: 300.0
   Spy:
     id: 21467
     name: Spy
+    published: true
     volume: 3.0
   Starkmanir Slave:
     id: 26907
     name: Starkmanir Slave
+    published: true
     volume: 3.0
   Stranded Pilot:
     id: 28832
     name: Stranded Pilot
+    published: true
     volume: 1.0
   Survivor:
     id: 29191
     name: Survivor
+    published: true
     volume: 1.0
   Tahaki Karin:
     id: 30716
     name: Tahaki Karin
+    published: true
     volume: 3.0
   Tantima Areki:
     id: 25390
     name: Tantima Areki
+    published: true
     volume: 5.0
   Temko Mercenaries:
     id: 23327
     name: Temko Mercenaries
+    published: true
     volume: 5.0
   Thanok:
     id: 11701
     name: Thanok
+    published: true
     volume: 1.0
   The Chief of Security:
     id: 16623
     name: The Chief of Security
+    published: true
     volume: 0.1
   The Damsel:
     id: 11742
     name: The Damsel
+    published: true
     volume: 0.1
   The Infiltrator:
     id: 22173
     name: The Infiltrator
+    published: true
     volume: 1.0
   The Militia Leader:
     id: 16630
     name: The Militia Leader
+    published: true
     volume: 0.1
   The Ringmaster:
     id: 32193
     name: The Ringmaster
+    published: true
     volume: 1.0
   Torin Tacs:
     id: 26271
     name: Torin Tacs
+    published: true
     volume: 5.0
   Tourists:
     id: 3719
     marketGroup: 23
     name: Tourists
+    published: true
     volume: 1.0
   Troubled Miner:
     id: 29283
     name: Troubled Miner
+    published: true
     volume: 2.0
   VIPs:
     id: 3804
     name: VIPs
+    published: true
     volume: 3.0
   Valkears:
     id: 26908
     name: Valkears
+    published: true
     volume: 1.0
   Vira Mikano:
     id: 32228
     name: Vira Mikano
+    published: true
     volume: 3.0
   Wei Todaki:
     id: 20554
     name: Wei Todaki
+    published: true
     volume: 1.0
   Zarkona Mirei:
     id: 21502
     name: Zarkona Mirei
+    published: true
     volume: 1.0
   Zvarin Karsha:
     id: 21064
     name: Zvarin Karsha
+    published: true
     volume: 3.0

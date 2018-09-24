@@ -19,6 +19,7 @@ items:
     id: 18054
     marketGroup: 593
     name: Mercoxit Mining Crystal I
+    published: true
     volume: 6.0
   Mercoxit Mining Crystal II:
     CapNeedBonus: 100
@@ -41,4 +42,5 @@ items:
     id: 18608
     marketGroup: 593
     name: Mercoxit Mining Crystal II
+    published: true
     volume: 10.0

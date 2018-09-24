@@ -35,6 +35,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 60000
     MaxVelocity: 837.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -55,6 +57,7 @@ items:
     id: 23057
     marketGroup: 840
     name: Dragonfly I
+    published: true
     volume: 1000.0
   Dragonfly II:
     Agility: 700.0
@@ -93,6 +96,8 @@ items:
     MaxTargetRange: 70000
     MaxVelocity: 872.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -113,6 +118,7 @@ items:
     id: 40557
     marketGroup: 840
     name: Dragonfly II
+    published: true
     volume: 1000.0
   Einherji I:
     Agility: 700.0
@@ -150,6 +156,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 60000
     MaxVelocity: 970.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -170,6 +178,7 @@ items:
     id: 23061
     marketGroup: 840
     name: Einherji I
+    published: true
     volume: 1000.0
   Einherji II:
     Agility: 700.0
@@ -208,6 +217,8 @@ items:
     MaxTargetRange: 70000
     MaxVelocity: 1009.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -228,6 +239,7 @@ items:
     id: 40559
     marketGroup: 840
     name: Einherji II
+    published: true
     volume: 1000.0
   Equite I:
     Agility: 500.0
@@ -261,6 +273,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 50000
     MaxVelocity: 1111.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -281,6 +295,7 @@ items:
     id: 40358
     marketGroup: 840
     name: Equite I
+    published: true
     volume: 800.0
   Equite II:
     Agility: 500.0
@@ -315,6 +330,8 @@ items:
     MaxTargetRange: 60000
     MaxVelocity: 1156.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -335,6 +352,7 @@ items:
     id: 40552
     marketGroup: 840
     name: Equite II
+    published: true
     volume: 800.0
   Firbolg I:
     Agility: 700.0
@@ -372,6 +390,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 60000
     MaxVelocity: 793.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -392,6 +412,7 @@ items:
     id: 23059
     marketGroup: 840
     name: Firbolg I
+    published: true
     volume: 1000.0
   Firbolg II:
     Agility: 700.0
@@ -430,6 +451,8 @@ items:
     MaxTargetRange: 70000
     MaxVelocity: 826.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -450,6 +473,7 @@ items:
     id: 40558
     marketGroup: 840
     name: Firbolg II
+    published: true
     volume: 1000.0
   Gram I:
     Agility: 500.0
@@ -483,6 +507,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 50000
     MaxVelocity: 1164.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -503,6 +529,7 @@ items:
     id: 40361
     marketGroup: 840
     name: Gram I
+    published: true
     volume: 800.0
   Gram II:
     Agility: 500.0
@@ -537,6 +564,8 @@ items:
     MaxTargetRange: 60000
     MaxVelocity: 1211.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -557,6 +586,7 @@ items:
     id: 40553
     marketGroup: 840
     name: Gram II
+    published: true
     volume: 800.0
   Locust I:
     Agility: 500.0
@@ -590,6 +620,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 50000
     MaxVelocity: 1005.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -610,6 +642,7 @@ items:
     id: 40359
     marketGroup: 840
     name: Locust I
+    published: true
     volume: 800.0
   Locust II:
     Agility: 500.0
@@ -644,6 +677,8 @@ items:
     MaxTargetRange: 60000
     MaxVelocity: 1046.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -664,6 +699,7 @@ items:
     id: 40554
     marketGroup: 840
     name: Locust II
+    published: true
     volume: 800.0
   Satyr I:
     Agility: 500.0
@@ -697,6 +733,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 50000
     MaxVelocity: 952.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -717,6 +755,7 @@ items:
     id: 40360
     marketGroup: 840
     name: Satyr I
+    published: true
     volume: 800.0
   Satyr II:
     Agility: 500.0
@@ -751,6 +790,8 @@ items:
     MaxTargetRange: 60000
     MaxVelocity: 991.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -771,6 +812,7 @@ items:
     id: 40555
     marketGroup: 840
     name: Satyr II
+    published: true
     volume: 800.0
   Standup Dragonfly I:
     Agility: 700.0
@@ -784,6 +826,10 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 5000
     FighterAbilityAttackMissileReductionFactor: 3.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityEvasiveManeuversEmResonance: 1.0
+    FighterAbilityEvasiveManeuversExpResonance: 1.0
+    FighterAbilityEvasiveManeuversKinResonance: 1.0
+    FighterAbilityEvasiveManeuversThermResonance: 1.0
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -804,6 +850,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 60000
     MaxVelocity: 1674.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 8.0
     ScanResolution: 700
     ShieldCapacity: 3504
@@ -821,6 +869,7 @@ items:
     id: 47138
     marketGroup: 2411
     name: Standup Dragonfly I
+    published: true
     volume: 2000.0
   Standup Dragonfly II:
     Agility: 700.0
@@ -834,6 +883,10 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 6000
     FighterAbilityAttackMissileReductionFactor: 3.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityEvasiveManeuversEmResonance: 1.0
+    FighterAbilityEvasiveManeuversExpResonance: 1.0
+    FighterAbilityEvasiveManeuversKinResonance: 1.0
+    FighterAbilityEvasiveManeuversThermResonance: 1.0
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -855,6 +908,8 @@ items:
     MaxTargetRange: 70000
     MaxVelocity: 1744.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 11.0
     ScanResolution: 800
     ShieldCapacity: 3872
@@ -872,6 +927,7 @@ items:
     id: 47142
     marketGroup: 2411
     name: Standup Dragonfly II
+    published: true
     volume: 2000.0
   Standup Einherji I:
     Agility: 700.0
@@ -885,6 +941,10 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 5000
     FighterAbilityAttackMissileReductionFactor: 3.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityEvasiveManeuversEmResonance: 1.0
+    FighterAbilityEvasiveManeuversExpResonance: 1.0
+    FighterAbilityEvasiveManeuversKinResonance: 1.0
+    FighterAbilityEvasiveManeuversThermResonance: 1.0
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -905,6 +965,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 60000
     MaxVelocity: 1940.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanLadarStrength: 8.0
     ScanResolution: 700
     ShieldCapacity: 3504
@@ -922,6 +984,7 @@ items:
     id: 47140
     marketGroup: 2411
     name: Standup Einherji I
+    published: true
     volume: 2000.0
   Standup Einherji II:
     Agility: 700.0
@@ -935,6 +998,10 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 6000
     FighterAbilityAttackMissileReductionFactor: 3.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityEvasiveManeuversEmResonance: 1.0
+    FighterAbilityEvasiveManeuversExpResonance: 1.0
+    FighterAbilityEvasiveManeuversKinResonance: 1.0
+    FighterAbilityEvasiveManeuversThermResonance: 1.0
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -956,6 +1023,8 @@ items:
     MaxTargetRange: 70000
     MaxVelocity: 2018.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanLadarStrength: 11.0
     ScanResolution: 800
     ShieldCapacity: 3872
@@ -973,6 +1042,7 @@ items:
     id: 47144
     marketGroup: 2411
     name: Standup Einherji II
+    published: true
     volume: 2000.0
   Standup Equite I:
     Agility: 500.0
@@ -1006,6 +1076,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 50000
     MaxVelocity: 2778.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 9.0
     ScanResolution: 850
     ShieldCapacity: 2560
@@ -1023,6 +1095,7 @@ items:
     id: 47145
     marketGroup: 2411
     name: Standup Equite I
+    published: true
     volume: 1600.0
   Standup Equite II:
     Agility: 500.0
@@ -1057,6 +1130,8 @@ items:
     MaxTargetRange: 60000
     MaxVelocity: 2890.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 12.0
     ScanResolution: 950
     ShieldCapacity: 2816
@@ -1074,6 +1149,7 @@ items:
     id: 47148
     marketGroup: 2411
     name: Standup Equite II
+    published: true
     volume: 1600.0
   Standup Firbolg I:
     Agility: 700.0
@@ -1087,6 +1163,10 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 5000
     FighterAbilityAttackMissileReductionFactor: 3.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityEvasiveManeuversEmResonance: 1.0
+    FighterAbilityEvasiveManeuversExpResonance: 1.0
+    FighterAbilityEvasiveManeuversKinResonance: 1.0
+    FighterAbilityEvasiveManeuversThermResonance: 1.0
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1107,6 +1187,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 60000
     MaxVelocity: 1586.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 8.0
     ScanResolution: 700
     ShieldCapacity: 3504
@@ -1124,6 +1206,7 @@ items:
     id: 47139
     marketGroup: 2411
     name: Standup Firbolg I
+    published: true
     volume: 2000.0
   Standup Firbolg II:
     Agility: 700.0
@@ -1137,6 +1220,10 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 6000
     FighterAbilityAttackMissileReductionFactor: 3.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityEvasiveManeuversEmResonance: 1.0
+    FighterAbilityEvasiveManeuversExpResonance: 1.0
+    FighterAbilityEvasiveManeuversKinResonance: 1.0
+    FighterAbilityEvasiveManeuversThermResonance: 1.0
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1158,6 +1245,8 @@ items:
     MaxTargetRange: 70000
     MaxVelocity: 1652.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 11.0
     ScanResolution: 800
     ShieldCapacity: 3872
@@ -1175,6 +1264,7 @@ items:
     id: 47143
     marketGroup: 2411
     name: Standup Firbolg II
+    published: true
     volume: 2000.0
   Standup Gram I:
     Agility: 500.0
@@ -1208,6 +1298,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 50000
     MaxVelocity: 2910.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanLadarStrength: 9.0
     ScanResolution: 850
     ShieldCapacity: 2560
@@ -1225,6 +1317,7 @@ items:
     id: 47036
     marketGroup: 2411
     name: Standup Gram I
+    published: true
     volume: 1600.0
   Standup Gram II:
     Agility: 500.0
@@ -1259,6 +1352,8 @@ items:
     MaxTargetRange: 60000
     MaxVelocity: 3028.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanLadarStrength: 12.0
     ScanResolution: 950
     ShieldCapacity: 2816
@@ -1276,6 +1371,7 @@ items:
     id: 47151
     marketGroup: 2411
     name: Standup Gram II
+    published: true
     volume: 1600.0
   Standup Locust I:
     Agility: 500.0
@@ -1309,6 +1405,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 50000
     MaxVelocity: 2513.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 9.0
     ScanResolution: 850
     ShieldCapacity: 2560
@@ -1326,6 +1424,7 @@ items:
     id: 47146
     marketGroup: 2411
     name: Standup Locust I
+    published: true
     volume: 1600.0
   Standup Locust II:
     Agility: 500.0
@@ -1360,6 +1459,8 @@ items:
     MaxTargetRange: 60000
     MaxVelocity: 2615.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanGravimetricStrength: 12.0
     ScanResolution: 950
     ShieldCapacity: 2816
@@ -1377,6 +1478,7 @@ items:
     id: 47149
     marketGroup: 2411
     name: Standup Locust II
+    published: true
     volume: 1600.0
   Standup Satyr I:
     Agility: 500.0
@@ -1410,6 +1512,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 50000
     MaxVelocity: 2380.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 9.0
     ScanResolution: 850
     ShieldCapacity: 2560
@@ -1427,6 +1531,7 @@ items:
     id: 47147
     marketGroup: 2411
     name: Standup Satyr I
+    published: true
     volume: 1600.0
   Standup Satyr II:
     Agility: 500.0
@@ -1461,6 +1566,8 @@ items:
     MaxTargetRange: 60000
     MaxVelocity: 2478.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanMagnetometricStrength: 12.0
     ScanResolution: 950
     ShieldCapacity: 2816
@@ -1478,6 +1585,7 @@ items:
     id: 47150
     marketGroup: 2411
     name: Standup Satyr II
+    published: true
     volume: 1600.0
   Standup Templar I:
     Agility: 700.0
@@ -1491,6 +1599,10 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 10000
     FighterAbilityAttackMissileReductionFactor: 3.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityEvasiveManeuversEmResonance: 1.0
+    FighterAbilityEvasiveManeuversExpResonance: 1.0
+    FighterAbilityEvasiveManeuversKinResonance: 1.0
+    FighterAbilityEvasiveManeuversThermResonance: 1.0
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1511,6 +1623,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 60000
     MaxVelocity: 1852.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 8.0
     ScanResolution: 700
     ShieldCapacity: 3504
@@ -1528,6 +1642,7 @@ items:
     id: 47035
     marketGroup: 2411
     name: Standup Templar I
+    published: true
     volume: 2000.0
   Standup Templar II:
     Agility: 700.0
@@ -1541,6 +1656,10 @@ items:
     FighterAbilityAttackMissileRangeOptimal: 12000
     FighterAbilityAttackMissileReductionFactor: 3.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityEvasiveManeuversEmResonance: 1.0
+    FighterAbilityEvasiveManeuversExpResonance: 1.0
+    FighterAbilityEvasiveManeuversKinResonance: 1.0
+    FighterAbilityEvasiveManeuversThermResonance: 1.0
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
@@ -1562,6 +1681,8 @@ items:
     MaxTargetRange: 70000
     MaxVelocity: 1926.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     ScanRadarStrength: 11.0
     ScanResolution: 800
     ShieldCapacity: 3872
@@ -1579,6 +1700,7 @@ items:
     id: 47141
     marketGroup: 2411
     name: Standup Templar II
+    published: true
     volume: 2000.0
   Templar I:
     Agility: 700.0
@@ -1616,6 +1738,8 @@ items:
     MaxLockedTargets: 6
     MaxTargetRange: 60000
     MaxVelocity: 926.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 1
     RequiredSkill2: 23069
@@ -1636,6 +1760,7 @@ items:
     id: 23055
     marketGroup: 840
     name: Templar I
+    published: true
     volume: 1000.0
   Templar II:
     Agility: 700.0
@@ -1674,6 +1799,8 @@ items:
     MaxTargetRange: 70000
     MaxVelocity: 963.0
     MetaLevel: 5
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
     RequiredSkill1: 40572
     RequiredSkill1Level: 4
     RequiredSkill2: 23069
@@ -1694,4 +1821,5 @@ items:
     id: 40556
     marketGroup: 840
     name: Templar II
+    published: true
     volume: 1000.0

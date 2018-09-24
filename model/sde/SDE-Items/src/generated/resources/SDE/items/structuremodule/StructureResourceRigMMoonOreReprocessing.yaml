@@ -19,6 +19,7 @@ items:
     id: 46637
     marketGroup: 2341
     name: Standup M-Set Moon Ore Grading Processor I
+    published: true
     volume: 10.0
   Standup M-Set Moon Ore Grading Processor II:
     CanFitShipGroup01: 1657
@@ -40,4 +41,5 @@ items:
     id: 46638
     marketGroup: 2341
     name: Standup M-Set Moon Ore Grading Processor II
+    published: true
     volume: 10.0

@@ -5,11 +5,13 @@ items:
     id: 27935
     marketGroup: 1538
     name: Capital Remote Hull Repairer I Blueprint
+    published: true
     volume: 0.01
   Capital Remote Hull Repairer II Blueprint:
     TechLevel: 1
     id: 41631
     name: Capital Remote Hull Repairer II Blueprint
+    published: true
     volume: 0.01
   Large Remote Hull Repairer I Blueprint:
     IndustryBlueprintRank: 9.0
@@ -17,12 +19,14 @@ items:
     id: 27905
     marketGroup: 1538
     name: Large Remote Hull Repairer I Blueprint
+    published: true
     volume: 0.01
   Large Remote Hull Repairer II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
     id: 3991
     name: Large Remote Hull Repairer II Blueprint
+    published: true
     volume: 0.01
   Medium Remote Hull Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -30,12 +34,14 @@ items:
     id: 27931
     marketGroup: 1538
     name: Medium Remote Hull Repairer I Blueprint
+    published: true
     volume: 0.01
   Medium Remote Hull Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 4298
     name: Medium Remote Hull Repairer II Blueprint
+    published: true
     volume: 0.01
   Small Remote Hull Repairer I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -43,10 +49,12 @@ items:
     id: 27933
     marketGroup: 1538
     name: Small Remote Hull Repairer I Blueprint
+    published: true
     volume: 0.01
   Small Remote Hull Repairer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
     id: 4300
     name: Small Remote Hull Repairer II Blueprint
+    published: true
     volume: 0.01

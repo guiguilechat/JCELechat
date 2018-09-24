@@ -5,10 +5,11 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30539
     marketGroup: 1824
     name: Amarr Core Systems
+    published: true
     volume: 0.01
   Amarr Defensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -18,10 +19,11 @@ items:
     RequiredSkill2: 3416
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30532
     marketGroup: 1824
     name: Amarr Defensive Systems
+    published: true
     volume: 0.01
   Amarr Offensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -31,10 +33,11 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30537
     marketGroup: 1824
     name: Amarr Offensive Systems
+    published: true
     volume: 0.01
   Amarr Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
@@ -42,10 +45,11 @@ items:
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30538
     marketGroup: 1824
     name: Amarr Propulsion Systems
+    published: true
     volume: 0.01
   Caldari Core Systems:
     CanNotBeTrainedOnTrial: 1
@@ -53,10 +57,11 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30548
     marketGroup: 1824
     name: Caldari Core Systems
+    published: true
     volume: 0.01
   Caldari Defensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -66,10 +71,11 @@ items:
     RequiredSkill2: 3392
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30544
     marketGroup: 1824
     name: Caldari Defensive Systems
+    published: true
     volume: 0.01
   Caldari Offensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -79,10 +85,11 @@ items:
     RequiredSkill2: 3300
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30549
     marketGroup: 1824
     name: Caldari Offensive Systems
+    published: true
     volume: 0.01
   Caldari Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
@@ -90,10 +97,11 @@ items:
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30552
     marketGroup: 1824
     name: Caldari Propulsion Systems
+    published: true
     volume: 0.01
   Gallente Core Systems:
     CanNotBeTrainedOnTrial: 1
@@ -101,10 +109,11 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30546
     marketGroup: 1824
     name: Gallente Core Systems
+    published: true
     volume: 0.01
   Gallente Defensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -114,10 +123,11 @@ items:
     RequiredSkill2: 3416
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30540
     marketGroup: 1824
     name: Gallente Defensive Systems
+    published: true
     volume: 0.01
   Gallente Offensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -127,10 +137,11 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30550
     marketGroup: 1824
     name: Gallente Offensive Systems
+    published: true
     volume: 0.01
   Gallente Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
@@ -138,10 +149,11 @@ items:
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30553
     marketGroup: 1824
     name: Gallente Propulsion Systems
+    published: true
     volume: 0.01
   Minmatar Core Systems:
     CanNotBeTrainedOnTrial: 1
@@ -149,10 +161,11 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30547
     marketGroup: 1824
     name: Minmatar Core Systems
+    published: true
     volume: 0.01
   Minmatar Defensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -162,10 +175,11 @@ items:
     RequiredSkill2: 3416
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30545
     marketGroup: 1824
     name: Minmatar Defensive Systems
+    published: true
     volume: 0.01
   Minmatar Offensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -175,10 +189,11 @@ items:
     RequiredSkill2: 3319
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30551
     marketGroup: 1824
     name: Minmatar Offensive Systems
+    published: true
     volume: 0.01
   Minmatar Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
@@ -186,8 +201,9 @@ items:
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 30554
     marketGroup: 1824
     name: Minmatar Propulsion Systems
+    published: true
     volume: 0.01

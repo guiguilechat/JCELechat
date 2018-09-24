@@ -176,13 +176,6 @@ public class StructureDoomsdayWeapon
     @DefaultIntValue(0)
     public int Power;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * Thermal damage done.
      */
     @HighIsGood(true)
@@ -281,10 +274,6 @@ public class StructureDoomsdayWeapon
             case  30 :
             {
                 return Power;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  118 :
             {

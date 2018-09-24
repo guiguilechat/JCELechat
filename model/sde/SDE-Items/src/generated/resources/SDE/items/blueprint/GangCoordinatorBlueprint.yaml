@@ -5,6 +5,7 @@ items:
     id: 23736
     marketGroup: 799
     name: Clone Vat Bay I Blueprint
+    published: true
     volume: 0.01
   Covert Cynosural Field Generator I Blueprint:
     IndustryBlueprintRank: 12.0
@@ -12,6 +13,7 @@ items:
     id: 28647
     marketGroup: 799
     name: Covert Cynosural Field Generator I Blueprint
+    published: true
     volume: 0.01
   Cynosural Field Generator I Blueprint:
     IndustryBlueprintRank: 12.0
@@ -19,40 +21,47 @@ items:
     id: 21604
     marketGroup: 799
     name: Cynosural Field Generator I Blueprint
+    published: true
     volume: 0.01
   Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 22554
     name: Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint
+    published: true
     volume: 0.01
   Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
     id: 4275
     name: Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint
+    published: true
     volume: 0.01
   Mining Foreman Link - Laser Optimization I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 22558
     name: Mining Foreman Link - Laser Optimization I Blueprint
+    published: true
     volume: 0.01
   Mining Foreman Link - Laser Optimization II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
     id: 4277
     name: Mining Foreman Link - Laser Optimization II Blueprint
+    published: true
     volume: 0.01
   Mining Foreman Link - Mining Laser Field Enhancement I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 22556
     name: Mining Foreman Link - Mining Laser Field Enhancement I Blueprint
+    published: true
     volume: 0.01
   Mining Foreman Link - Mining Laser Field Enhancement II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
     id: 4279
     name: Mining Foreman Link - Mining Laser Field Enhancement II Blueprint
+    published: true
     volume: 0.01

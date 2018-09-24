@@ -7,6 +7,7 @@ items:
     id: 23177
     marketGroup: 1905
     name: Takmahl Astral Treatment
+    published: true
     volume: 1.0
   Takmahl Binary Texts:
     InventionMEModifier: 0.8999999761581421
@@ -16,6 +17,7 @@ items:
     id: 23173
     marketGroup: 1905
     name: Takmahl Binary Texts
+    published: true
     volume: 1.0
   Takmahl Centrifugal Primer:
     InventionMEModifier: 1.5
@@ -25,6 +27,7 @@ items:
     id: 23175
     marketGroup: 1905
     name: Takmahl Centrifugal Primer
+    published: true
     volume: 1.0
   Takmahl Fractal Sheet:
     InventionMEModifier: 0.5
@@ -34,6 +37,7 @@ items:
     id: 23174
     marketGroup: 1905
     name: Takmahl Fractal Sheet
+    published: true
     volume: 1.0
   Takmahl Geometric Design:
     InventionMEModifier: 1.0
@@ -43,4 +47,5 @@ items:
     id: 23176
     marketGroup: 1905
     name: Takmahl Geometric Design
+    published: true
     volume: 1.0

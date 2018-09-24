@@ -1,17 +1,21 @@
 items:
   Capital Projectile Ambit Extension I:
+    DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 15.0
     Hp: 40
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31660
     marketGroup: 1731
     name: Capital Projectile Ambit Extension I
+    published: true
     volume: 40.0
   Capital Projectile Ambit Extension II:
+    DamageMultiplier: 1.0
     Drawback: 10
     FalloffBonus: 20.0
     Hp: 40
@@ -19,33 +23,41 @@ items:
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31666
     marketGroup: 1731
     name: Capital Projectile Ambit Extension II
+    published: true
     volume: 40.0
   Capital Projectile Burst Aerator I:
+    DamageMultiplier: 1.0
     Drawback: 10
     Hp: 40
     RigSize: 4
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
     id: 31672
     marketGroup: 1731
     name: Capital Projectile Burst Aerator I
+    published: true
     volume: 40.0
   Capital Projectile Burst Aerator II:
+    DamageMultiplier: 1.0
     Drawback: 10
     Hp: 40
     MetaLevel: 5
     RigSize: 4
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
     id: 31678
     marketGroup: 1731
     name: Capital Projectile Burst Aerator II
+    published: true
     volume: 40.0
   Capital Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
@@ -54,10 +66,12 @@ items:
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
     id: 31684
     marketGroup: 1731
     name: Capital Projectile Collision Accelerator I
+    published: true
     volume: 40.0
   Capital Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
@@ -67,24 +81,30 @@ items:
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
     id: 31690
     marketGroup: 1731
     name: Capital Projectile Collision Accelerator II
+    published: true
     volume: 40.0
   Capital Projectile Locus Coordinator I:
+    DamageMultiplier: 1.0
     Drawback: 10
     Hp: 40
     MaxRangeBonus: 15.0
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 1
+    TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31696
     marketGroup: 1731
     name: Capital Projectile Locus Coordinator I
+    published: true
     volume: 40.0
   Capital Projectile Locus Coordinator II:
+    DamageMultiplier: 1.0
     Drawback: 10
     Hp: 40
     MaxRangeBonus: 20.0
@@ -92,12 +112,15 @@ items:
     RigSize: 4
     SpeedMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31702
     marketGroup: 1731
     name: Capital Projectile Locus Coordinator II
+    published: true
     volume: 40.0
   Capital Projectile Metastasis Adjuster I:
+    DamageMultiplier: 1.0
     Drawback: 10
     Hp: 40
     RigSize: 4
@@ -109,8 +132,10 @@ items:
     id: 31708
     marketGroup: 1731
     name: Capital Projectile Metastasis Adjuster I
+    published: true
     volume: 40.0
   Capital Projectile Metastasis Adjuster II:
+    DamageMultiplier: 1.0
     Drawback: 10
     Hp: 40
     MetaLevel: 5
@@ -123,6 +148,7 @@ items:
     id: 31714
     marketGroup: 1731
     name: Capital Projectile Metastasis Adjuster II
+    published: true
     volume: 40.0
   Large Projectile Ambit Extension I:
     DamageMultiplier: 1.0
@@ -136,6 +162,7 @@ items:
     id: 26038
     marketGroup: 1239
     name: Large Projectile Ambit Extension I
+    published: true
     volume: 20.0
   Large Projectile Ambit Extension II:
     DamageMultiplier: 1.0
@@ -150,6 +177,7 @@ items:
     id: 26428
     marketGroup: 1239
     name: Large Projectile Ambit Extension II
+    published: true
     volume: 20.0
   Large Projectile Burst Aerator I:
     DamageMultiplier: 1.0
@@ -163,6 +191,7 @@ items:
     id: 26046
     marketGroup: 1239
     name: Large Projectile Burst Aerator I
+    published: true
     volume: 20.0
   Large Projectile Burst Aerator II:
     DamageMultiplier: 1.0
@@ -177,6 +206,7 @@ items:
     id: 26430
     marketGroup: 1239
     name: Large Projectile Burst Aerator II
+    published: true
     volume: 20.0
   Large Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
@@ -190,6 +220,7 @@ items:
     id: 26048
     marketGroup: 1239
     name: Large Projectile Collision Accelerator I
+    published: true
     volume: 20.0
   Large Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
@@ -204,6 +235,7 @@ items:
     id: 26424
     marketGroup: 1239
     name: Large Projectile Collision Accelerator II
+    published: true
     volume: 20.0
   Large Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
@@ -218,6 +250,7 @@ items:
     id: 26040
     marketGroup: 1239
     name: Large Projectile Locus Coordinator I
+    published: true
     volume: 20.0
   Large Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
@@ -233,6 +266,7 @@ items:
     id: 26432
     marketGroup: 1239
     name: Large Projectile Locus Coordinator II
+    published: true
     volume: 20.0
   Large Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
@@ -247,6 +281,7 @@ items:
     id: 26042
     marketGroup: 1239
     name: Large Projectile Metastasis Adjuster I
+    published: true
     volume: 20.0
   Large Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
@@ -262,6 +297,7 @@ items:
     id: 26434
     marketGroup: 1239
     name: Large Projectile Metastasis Adjuster II
+    published: true
     volume: 20.0
   Medium Projectile Ambit Extension I:
     DamageMultiplier: 1.0
@@ -276,6 +312,7 @@ items:
     id: 31658
     marketGroup: 1238
     name: Medium Projectile Ambit Extension I
+    published: true
     volume: 10.0
   Medium Projectile Ambit Extension II:
     DamageMultiplier: 1.0
@@ -291,6 +328,7 @@ items:
     id: 31664
     marketGroup: 1238
     name: Medium Projectile Ambit Extension II
+    published: true
     volume: 10.0
   Medium Projectile Burst Aerator I:
     DamageMultiplier: 1.0
@@ -304,6 +342,7 @@ items:
     id: 31670
     marketGroup: 1238
     name: Medium Projectile Burst Aerator I
+    published: true
     volume: 10.0
   Medium Projectile Burst Aerator II:
     DamageMultiplier: 1.0
@@ -318,6 +357,7 @@ items:
     id: 31676
     marketGroup: 1238
     name: Medium Projectile Burst Aerator II
+    published: true
     volume: 10.0
   Medium Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
@@ -331,6 +371,7 @@ items:
     id: 31682
     marketGroup: 1238
     name: Medium Projectile Collision Accelerator I
+    published: true
     volume: 10.0
   Medium Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
@@ -345,6 +386,7 @@ items:
     id: 31688
     marketGroup: 1238
     name: Medium Projectile Collision Accelerator II
+    published: true
     volume: 10.0
   Medium Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
@@ -359,6 +401,7 @@ items:
     id: 31694
     marketGroup: 1238
     name: Medium Projectile Locus Coordinator I
+    published: true
     volume: 10.0
   Medium Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
@@ -374,6 +417,7 @@ items:
     id: 31700
     marketGroup: 1238
     name: Medium Projectile Locus Coordinator II
+    published: true
     volume: 10.0
   Medium Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
@@ -388,6 +432,7 @@ items:
     id: 31706
     marketGroup: 1238
     name: Medium Projectile Metastasis Adjuster I
+    published: true
     volume: 10.0
   Medium Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
@@ -403,6 +448,7 @@ items:
     id: 31712
     marketGroup: 1238
     name: Medium Projectile Metastasis Adjuster II
+    published: true
     volume: 10.0
   Small Projectile Ambit Extension I:
     DamageMultiplier: 1.0
@@ -417,6 +463,7 @@ items:
     id: 31656
     marketGroup: 1237
     name: Small Projectile Ambit Extension I
+    published: true
     volume: 5.0
   Small Projectile Ambit Extension II:
     DamageMultiplier: 1.0
@@ -432,6 +479,7 @@ items:
     id: 31662
     marketGroup: 1237
     name: Small Projectile Ambit Extension II
+    published: true
     volume: 5.0
   Small Projectile Burst Aerator I:
     DamageMultiplier: 1.0
@@ -445,6 +493,7 @@ items:
     id: 31668
     marketGroup: 1237
     name: Small Projectile Burst Aerator I
+    published: true
     volume: 5.0
   Small Projectile Burst Aerator II:
     DamageMultiplier: 1.0
@@ -459,6 +508,7 @@ items:
     id: 31674
     marketGroup: 1237
     name: Small Projectile Burst Aerator II
+    published: true
     volume: 5.0
   Small Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
@@ -472,6 +522,7 @@ items:
     id: 31680
     marketGroup: 1237
     name: Small Projectile Collision Accelerator I
+    published: true
     volume: 5.0
   Small Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
@@ -486,6 +537,7 @@ items:
     id: 31686
     marketGroup: 1237
     name: Small Projectile Collision Accelerator II
+    published: true
     volume: 5.0
   Small Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
@@ -500,6 +552,7 @@ items:
     id: 31692
     marketGroup: 1237
     name: Small Projectile Locus Coordinator I
+    published: true
     volume: 5.0
   Small Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
@@ -515,6 +568,7 @@ items:
     id: 31698
     marketGroup: 1237
     name: Small Projectile Locus Coordinator II
+    published: true
     volume: 5.0
   Small Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
@@ -529,6 +583,7 @@ items:
     id: 31704
     marketGroup: 1237
     name: Small Projectile Metastasis Adjuster I
+    published: true
     volume: 5.0
   Small Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
@@ -544,4 +599,5 @@ items:
     id: 31710
     marketGroup: 1237
     name: Small Projectile Metastasis Adjuster II
+    published: true
     volume: 5.0

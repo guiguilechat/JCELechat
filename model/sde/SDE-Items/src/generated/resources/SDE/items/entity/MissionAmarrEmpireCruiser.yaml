@@ -1,0 +1,261 @@
+items:
+  Amarr CA Cruiser:
+    id: 45057
+    name: Amarr CA Cruiser
+    published: false
+    volume: 120000.0
+  Amarr Personnel Transport:
+    id: 16161
+    name: Amarr Personnel Transport
+    published: false
+    volume: 1120000.0
+  Amarr Slave Trader:
+    id: 12048
+    name: Amarr Slave Trader
+    published: false
+    volume: 118000.0
+  Amarr Slave Transport Ship:
+    id: 26970
+    name: Amarr Slave Transport Ship
+    published: false
+    volume: 1120000.0
+  Amarr Slaver Ship:
+    id: 26969
+    name: Amarr Slaver Ship
+    published: false
+    volume: 1120000.0
+  Amarr Transport Ship:
+    id: 11711
+    name: Amarr Transport Ship
+    published: false
+    volume: 1120000.0
+  Ammatar Navy Augoror:
+    id: 12999
+    name: Ammatar Navy Augoror
+    published: false
+    volume: 115000.0
+  Ammatar Navy Maller:
+    id: 15323
+    name: Ammatar Navy Maller
+    published: false
+    volume: 118000.0
+  Ammatar Navy Raid Leader:
+    id: 15352
+    name: Ammatar Navy Raid Leader
+    published: false
+    volume: 115000.0
+  Ammatar Personnel Transport:
+    id: 16164
+    name: Ammatar Personnel Transport
+    published: false
+    volume: 1120000.0
+  Ammatar Slave Trader:
+    id: 12046
+    name: Ammatar Slave Trader
+    published: false
+    volume: 120000.0
+  Ammatar Transport Ship:
+    id: 11713
+    name: Ammatar Transport Ship
+    published: false
+    volume: 1120000.0
+  Civilian Amarr Cruiser Arbitrator:
+    id: 30733
+    name: Civilian Amarr Cruiser Arbitrator
+    published: false
+    volume: 120000.0
+  Civilian Amarr Cruiser Augoror:
+    id: 30734
+    name: Civilian Amarr Cruiser Augoror
+    published: false
+    volume: 120000.0
+  Civilian Amarr Cruiser Maller:
+    id: 30735
+    name: Civilian Amarr Cruiser Maller
+    published: false
+    volume: 120000.0
+  Civilian Amarr Cruiser Omen:
+    id: 30736
+    name: Civilian Amarr Cruiser Omen
+    published: false
+    volume: 120000.0
+  Divine Imperial Ambrose:
+    id: 24970
+    name: Divine Imperial Ambrose
+    published: false
+    volume: 118000.0
+  Divine Imperial Avenger:
+    id: 24973
+    name: Divine Imperial Avenger
+    published: false
+    volume: 118000.0
+  Divine Imperial Basil:
+    id: 24971
+    name: Divine Imperial Basil
+    published: false
+    volume: 118000.0
+  Divine Imperial Champion:
+    id: 24975
+    name: Divine Imperial Champion
+    published: false
+    volume: 118000.0
+  Divine Imperial Equalizer:
+    id: 24972
+    name: Divine Imperial Equalizer
+    published: false
+    volume: 118000.0
+  Divine Imperial Justicar:
+    id: 24974
+    name: Divine Imperial Justicar
+    published: false
+    volume: 118000.0
+  Divine Imperial Tamir:
+    id: 24969
+    name: Divine Imperial Tamir
+    published: false
+    volume: 118000.0
+  Divine Imperial Wrath:
+    id: 24968
+    name: Divine Imperial Wrath
+    published: false
+    volume: 118000.0
+  Imperial Agatho:
+    id: 24941
+    name: Imperial Agatho
+    published: false
+    volume: 118000.0
+  Imperial Donus:
+    id: 24938
+    name: Imperial Donus
+    published: false
+    volume: 118000.0
+  Imperial Mathura:
+    id: 24935
+    name: Imperial Mathura
+    published: false
+    volume: 120000.0
+  Imperial Muzakir:
+    id: 24933
+    name: Imperial Muzakir
+    published: false
+    volume: 115000.0
+  Imperial Navy Maller:
+    id: 15322
+    name: Imperial Navy Maller
+    published: false
+    volume: 118000.0
+  Imperial Navy Officer:
+    id: 13107
+    name: Imperial Navy Officer
+    published: false
+    volume: 109000.0
+  Imperial Navy Omen:
+    id: 12439
+    name: Imperial Navy Omen
+    published: false
+    volume: 118000.0
+  Imperial Navy Raid Leader:
+    id: 15350
+    name: Imperial Navy Raid Leader
+    published: false
+    volume: 115000.0
+  Imperial Tamir:
+    id: 24940
+    name: Imperial Tamir
+    published: false
+    volume: 118000.0
+  Imperial Templar Agatho:
+    id: 24952
+    name: Imperial Templar Agatho
+    published: false
+    volume: 118000.0
+  Imperial Templar Donus:
+    id: 24947
+    name: Imperial Templar Donus
+    published: false
+    volume: 118000.0
+  Imperial Templar Mathura:
+    id: 24944
+    name: Imperial Templar Mathura
+    published: false
+    volume: 118000.0
+  Imperial Templar Muzakir:
+    id: 24942
+    name: Imperial Templar Muzakir
+    published: false
+    volume: 118000.0
+  Imperial Templar Tamir:
+    id: 24949
+    name: Imperial Templar Tamir
+    published: false
+    volume: 118000.0
+  Independent Arbitrator:
+    id: 29753
+    name: Independent Arbitrator
+    published: false
+    volume: 118000.0
+  Independent Augoror:
+    id: 29754
+    name: Independent Augoror
+    published: false
+    volume: 118000.0
+  Independent Green-Crewed Arbitrator:
+    id: 29747
+    name: Independent Green-Crewed Arbitrator
+    published: false
+    volume: 120000.0
+  Independent Green-Crewed Augoror:
+    id: 29746
+    name: Independent Green-Crewed Augoror
+    published: false
+    volume: 120000.0
+  Independent Green-Crewed Maller:
+    id: 29748
+    name: Independent Green-Crewed Maller
+    published: false
+    volume: 120000.0
+  Independent Green-Crewed Omen:
+    id: 29749
+    name: Independent Green-Crewed Omen
+    published: false
+    volume: 120000.0
+  Independent Maller:
+    id: 29755
+    name: Independent Maller
+    published: false
+    volume: 118000.0
+  Independent Omen:
+    id: 29756
+    name: Independent Omen
+    published: false
+    volume: 118000.0
+  Independent Veteran Arbitrator:
+    id: 29757
+    name: Independent Veteran Arbitrator
+    published: false
+    volume: 130000.0
+  Independent Veteran Augoror:
+    id: 29758
+    name: Independent Veteran Augoror
+    published: false
+    volume: 130000.0
+  Independent Veteran Maller:
+    id: 29759
+    name: Independent Veteran Maller
+    published: false
+    volume: 130000.0
+  Independent Veteran Omen:
+    id: 29760
+    name: Independent Veteran Omen
+    published: false
+    volume: 130000.0
+  Lord Miyan:
+    id: 32269
+    name: Lord Miyan
+    published: false
+    volume: 118000.0
+  Sarum Maller:
+    id: 14349
+    name: Sarum Maller
+    published: false
+    volume: 118000.0

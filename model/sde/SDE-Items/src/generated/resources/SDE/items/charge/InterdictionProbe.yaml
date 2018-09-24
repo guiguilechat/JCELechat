@@ -15,6 +15,7 @@ items:
     id: 34260
     marketGroup: 1201
     name: Surgical Warp Disrupt Probe
+    published: true
     volume: 5.0
   Warp Disrupt Probe:
     Agility: 1000.0
@@ -32,4 +33,5 @@ items:
     id: 22778
     marketGroup: 1201
     name: Warp Disrupt Probe
+    published: true
     volume: 5.0

@@ -24,4 +24,5 @@ items:
     Uniformity: 1.0
     id: 17701
     name: Tracking Array
+    published: true
     volume: 4000.0

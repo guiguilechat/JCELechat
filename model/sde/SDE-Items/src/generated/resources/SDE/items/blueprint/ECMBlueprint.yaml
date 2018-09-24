@@ -4,24 +4,28 @@ items:
     TechLevel: 1
     id: 20576
     name: '''Gambler'' Ladar ECM Blueprint'
+    published: true
     volume: 0.01
   '''Heist'' Radar ECM Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 20580
     name: '''Heist'' Radar ECM Blueprint'
+    published: true
     volume: 0.01
   '''Marshall'' Magnetometric ECM Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 20574
     name: '''Marshall'' Magnetometric ECM Blueprint'
+    published: true
     volume: 0.01
   '''Plunderer'' Gravimetric ECM Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 20578
     name: '''Plunderer'' Gravimetric ECM Blueprint'
+    published: true
     volume: 0.01
   Gravimetric ECM I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -29,12 +33,14 @@ items:
     id: 11631
     marketGroup: 1567
     name: Gravimetric ECM I Blueprint
+    published: true
     volume: 0.01
   Gravimetric ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11787
     name: Gravimetric ECM II Blueprint
+    published: true
     volume: 0.01
   Ladar ECM I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -42,12 +48,14 @@ items:
     id: 11630
     marketGroup: 1567
     name: Ladar ECM I Blueprint
+    published: true
     volume: 0.01
   Ladar ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11783
     name: Ladar ECM II Blueprint
+    published: true
     volume: 0.01
   Magnetometric ECM I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -55,12 +63,14 @@ items:
     id: 11628
     marketGroup: 1567
     name: Magnetometric ECM I Blueprint
+    published: true
     volume: 0.01
   Magnetometric ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11775
     name: Magnetometric ECM II Blueprint
+    published: true
     volume: 0.01
   Multispectral ECM I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -68,12 +78,14 @@ items:
     id: 11629
     marketGroup: 1567
     name: Multispectral ECM I Blueprint
+    published: true
     volume: 0.01
   Multispectral ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11779
     name: Multispectral ECM II Blueprint
+    published: true
     volume: 0.01
   Radar ECM I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -81,10 +93,12 @@ items:
     id: 11632
     marketGroup: 1567
     name: Radar ECM I Blueprint
+    published: true
     volume: 0.01
   Radar ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11791
     name: Radar ECM II Blueprint
+    published: true
     volume: 0.01

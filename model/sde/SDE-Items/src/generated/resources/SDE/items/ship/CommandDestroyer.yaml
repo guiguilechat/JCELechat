@@ -83,6 +83,7 @@ items:
     id: 37480
     marketGroup: 2133
     name: Bifrost
+    published: true
     volume: 43000.0
   Magus:
     Agility: 3.200000047683716
@@ -171,6 +172,7 @@ items:
     id: 37483
     marketGroup: 2132
     name: Magus
+    published: true
     volume: 55000.0
   Pontifex:
     Agility: 3.4000000953674316
@@ -259,6 +261,7 @@ items:
     id: 37481
     marketGroup: 2126
     name: Pontifex
+    published: true
     volume: 47000.0
   Stork:
     Agility: 3.5999999046325684
@@ -344,4 +347,5 @@ items:
     id: 37482
     marketGroup: 2131
     name: Stork
+    published: true
     volume: 52000.0

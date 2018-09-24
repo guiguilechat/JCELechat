@@ -12,6 +12,7 @@ items:
     id: 1315
     marketGroup: 1197
     name: '''Basic'' Expanded Cargohold'
+    published: true
     volume: 5.0
   Civilian Expanded Cargohold:
     CargoCapacityMultiplier: 1.100000023841858
@@ -23,6 +24,7 @@ items:
     id: 21855
     marketGroup: 1197
     name: Civilian Expanded Cargohold
+    published: true
     volume: 5.0
   Expanded Cargohold I:
     CargoCapacityMultiplier: 1.1749999523162842
@@ -35,6 +37,7 @@ items:
     id: 1317
     marketGroup: 1197
     name: Expanded Cargohold I
+    published: true
     volume: 5.0
   Expanded Cargohold II:
     CargoCapacityMultiplier: 1.274999976158142
@@ -48,6 +51,7 @@ items:
     id: 1319
     marketGroup: 1197
     name: Expanded Cargohold II
+    published: true
     volume: 5.0
   Limited Expanded 'Archiver' Cargo:
     CargoCapacityMultiplier: 1.274999976158142
@@ -62,6 +66,7 @@ items:
     id: 21493
     marketGroup: 1197
     name: Limited Expanded 'Archiver' Cargo
+    published: true
     volume: 5.0
   ORE Expanded Cargohold:
     CargoCapacityMultiplier: 1.2899999618530273
@@ -76,6 +81,7 @@ items:
     id: 34489
     marketGroup: 1197
     name: ORE Expanded Cargohold
+    published: true
     volume: 5.0
   Type-D Restrained Expanded Cargo:
     CargoCapacityMultiplier: 1.225000023841858
@@ -89,4 +95,5 @@ items:
     id: 5493
     marketGroup: 1197
     name: Type-D Restrained Expanded Cargo
+    published: true
     volume: 5.0

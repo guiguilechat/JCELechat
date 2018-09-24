@@ -88,13 +88,6 @@ public class StructureDrillingRigLProficiency
     @DefaultIntValue(0)
     public int RigSize;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -153,10 +146,6 @@ public class StructureDrillingRigLProficiency
             case  1547 :
             {
                 return RigSize;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  422 :
             {

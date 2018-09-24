@@ -4,94 +4,110 @@ items:
     id: 30466
     marketGroup: 1147
     name: Electromechanical Interface Nexus
+    published: true
     volume: 10.0
   Emergent Neurovisual Interface:
     MoonMiningAmount: 100
     id: 29996
     marketGroup: 1147
     name: Emergent Neurovisual Interface
+    published: true
     volume: 20.0
   Fullerene Intercalated Sheets:
     MoonMiningAmount: 100
     id: 30002
     marketGroup: 1147
     name: Fullerene Intercalated Sheets
+    published: true
     volume: 5.0
   Fulleroferrocene Power Conduits:
     MoonMiningAmount: 100
     id: 30476
     marketGroup: 1147
     name: Fulleroferrocene Power Conduits
+    published: true
     volume: 5.0
   Metallofullerene Plating:
     MoonMiningAmount: 100
     id: 30464
     marketGroup: 1147
     name: Metallofullerene Plating
+    published: true
     volume: 5.0
   Nanowire Composites:
     MoonMiningAmount: 100
     id: 30474
     marketGroup: 1147
     name: Nanowire Composites
+    published: true
     volume: 5.0
   Neurovisual Output Analyzer:
     MoonMiningAmount: 100
     id: 30470
     marketGroup: 1147
     name: Neurovisual Output Analyzer
+    published: true
     volume: 5.0
   Optimized Nano-Engines:
     MoonMiningAmount: 100
     id: 29992
     marketGroup: 1147
     name: Optimized Nano-Engines
+    published: true
     volume: 10.0
   Reconfigured Subspace Calibrator:
     MoonMiningAmount: 100
     id: 30478
     marketGroup: 1147
     name: Reconfigured Subspace Calibrator
+    published: true
     volume: 10.0
   Reinforced Metallofullerene Alloys:
     MoonMiningAmount: 100
     id: 30008
     marketGroup: 1147
     name: Reinforced Metallofullerene Alloys
+    published: true
     volume: 10.0
   Self-Assembling Nanolattice:
     MoonMiningAmount: 100
     id: 34396
     marketGroup: 1147
     name: Self-Assembling Nanolattice
+    published: true
     volume: 5.0
   Superconducting Gravimetric Amplifier:
     MoonMiningAmount: 1
     id: 45653
     marketGroup: 1147
     name: Superconducting Gravimetric Amplifier
+    published: true
     volume: 5.0
   Superconducting Ladar Amplifier:
     MoonMiningAmount: 1
     id: 45655
     marketGroup: 1147
     name: Superconducting Ladar Amplifier
+    published: true
     volume: 5.0
   Superconducting Magnetometric Amplifier:
     MoonMiningAmount: 1
     id: 45652
     marketGroup: 1147
     name: Superconducting Magnetometric Amplifier
+    published: true
     volume: 5.0
   Superconducting Radar Amplifier:
     MoonMiningAmount: 1
     id: 45654
     marketGroup: 1147
     name: Superconducting Radar Amplifier
+    published: true
     volume: 5.0
   Warfare Computation Core:
     MoonMiningAmount: 100
     id: 29994
     marketGroup: 1147
     name: Warfare Computation Core
+    published: true
     volume: 10.0

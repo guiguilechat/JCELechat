@@ -6,6 +6,7 @@ items:
     RequiredSkill1Level: 1
     id: 25553
     name: Cryptic Data Interface
+    published: true
     volume: 1.0
   Cryptic Ship Data Interface:
     DecryptorID: 729
@@ -14,6 +15,7 @@ items:
     RequiredSkill1Level: 1
     id: 25857
     name: Cryptic Ship Data Interface
+    published: true
     volume: 1.0
   Cryptic Tuner Data Interface:
     DecryptorID: 729
@@ -22,6 +24,7 @@ items:
     RequiredSkill1Level: 1
     id: 26597
     name: Cryptic Tuner Data Interface
+    published: true
     volume: 1.0
   Esoteric Data Interface:
     DecryptorID: 731
@@ -30,6 +33,7 @@ items:
     RequiredSkill1Level: 1
     id: 25555
     name: Esoteric Data Interface
+    published: true
     volume: 1.0
   Esoteric Ship Data Interface:
     DecryptorID: 731
@@ -38,6 +42,7 @@ items:
     RequiredSkill1Level: 1
     id: 25853
     name: Esoteric Ship Data Interface
+    published: true
     volume: 1.0
   Esoteric Tuner Data Interface:
     DecryptorID: 731
@@ -46,6 +51,7 @@ items:
     RequiredSkill1Level: 1
     id: 26599
     name: Esoteric Tuner Data Interface
+    published: true
     volume: 1.0
   Incognito Data Interface:
     DecryptorID: 730
@@ -54,6 +60,7 @@ items:
     RequiredSkill1Level: 1
     id: 25556
     name: Incognito Data Interface
+    published: true
     volume: 1.0
   Incognito Ship Data Interface:
     DecryptorID: 730
@@ -62,6 +69,7 @@ items:
     RequiredSkill1Level: 1
     id: 25855
     name: Incognito Ship Data Interface
+    published: true
     volume: 1.0
   Incognito Tuner Data Interface:
     DecryptorID: 730
@@ -70,6 +78,7 @@ items:
     RequiredSkill1Level: 1
     id: 26601
     name: Incognito Tuner Data Interface
+    published: true
     volume: 1.0
   Occult Data Interface:
     DecryptorID: 728
@@ -78,6 +87,7 @@ items:
     RequiredSkill1Level: 1
     id: 25554
     name: Occult Data Interface
+    published: true
     volume: 1.0
   Occult Ship Data Interface:
     DecryptorID: 728
@@ -86,6 +96,7 @@ items:
     RequiredSkill1Level: 1
     id: 25851
     name: Occult Ship Data Interface
+    published: true
     volume: 1.0
   Occult Tuner Data Interface:
     DecryptorID: 728
@@ -94,6 +105,7 @@ items:
     RequiredSkill1Level: 1
     id: 26603
     name: Occult Tuner Data Interface
+    published: true
     volume: 1.0
   R.Db.- Hybrid Technology:
     DecryptorID: 979
@@ -102,4 +114,5 @@ items:
     RequiredSkill1Level: 1
     id: 30386
     name: R.Db.- Hybrid Technology
+    published: true
     volume: 1.0

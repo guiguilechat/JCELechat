@@ -19,6 +19,7 @@ items:
     id: 23856
     marketGroup: 697
     name: '''Chivalry'' Large Remote Capacitor Transmitter'
+    published: true
     volume: 5.0
   '''Knight'' Medium Remote Capacitor Transmitter':
     CapacitorNeed: 146.0
@@ -40,6 +41,7 @@ items:
     id: 23854
     marketGroup: 696
     name: '''Knight'' Medium Remote Capacitor Transmitter'
+    published: true
     volume: 5.0
   '''Squire'' Small Remote Capacitor Transmitter':
     CapacitorNeed: 49.0
@@ -61,6 +63,7 @@ items:
     id: 23852
     marketGroup: 695
     name: '''Squire'' Small Remote Capacitor Transmitter'
+    published: true
     volume: 5.0
   CONCORD Capital Remote Capacitor Transmitter:
     CapacitorNeed: 2500.0
@@ -85,6 +88,7 @@ items:
     id: 3575
     marketGroup: 910
     name: CONCORD Capital Remote Capacitor Transmitter
+    published: true
     volume: 4000.0
   Capital Inductive Compact Remote Capacitor Transmitter:
     CapacitorNeed: 2500.0
@@ -108,6 +112,7 @@ items:
     id: 41566
     marketGroup: 910
     name: Capital Inductive Compact Remote Capacitor Transmitter
+    published: true
     volume: 4000.0
   Capital Radiative Scoped Remote Capacitor Transmitter:
     CapacitorNeed: 2500.0
@@ -131,6 +136,7 @@ items:
     id: 41565
     marketGroup: 910
     name: Capital Radiative Scoped Remote Capacitor Transmitter
+    published: true
     volume: 4000.0
   Capital Remote Capacitor Transmitter I:
     CapacitorNeed: 2500.0
@@ -152,6 +158,7 @@ items:
     id: 12219
     marketGroup: 910
     name: Capital Remote Capacitor Transmitter I
+    published: true
     volume: 4000.0
   Capital Remote Capacitor Transmitter II:
     CapacitorNeed: 2700.0
@@ -175,6 +182,7 @@ items:
     id: 12223
     marketGroup: 910
     name: Capital Remote Capacitor Transmitter II
+    published: true
     volume: 4000.0
   Centii A-Type Small Remote Capacitor Transmitter:
     CapacitorNeed: 38.0
@@ -196,6 +204,7 @@ items:
     id: 19075
     marketGroup: 695
     name: Centii A-Type Small Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Centii B-Type Small Remote Capacitor Transmitter:
     CapacitorNeed: 38.0
@@ -217,6 +226,7 @@ items:
     id: 19073
     marketGroup: 695
     name: Centii B-Type Small Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Centii C-Type Small Remote Capacitor Transmitter:
     CapacitorNeed: 38.0
@@ -238,6 +248,7 @@ items:
     id: 19071
     marketGroup: 695
     name: Centii C-Type Small Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Centum A-Type Medium Remote Capacitor Transmitter:
     CapacitorNeed: 113.0
@@ -259,6 +270,7 @@ items:
     id: 19087
     marketGroup: 696
     name: Centum A-Type Medium Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Centum B-Type Medium Remote Capacitor Transmitter:
     CapacitorNeed: 113.0
@@ -280,6 +292,7 @@ items:
     id: 19085
     marketGroup: 696
     name: Centum B-Type Medium Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Centum C-Type Medium Remote Capacitor Transmitter:
     CapacitorNeed: 113.0
@@ -301,6 +314,7 @@ items:
     id: 19083
     marketGroup: 696
     name: Centum C-Type Medium Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Corpii A-Type Small Remote Capacitor Transmitter:
     CapacitorNeed: 44.0
@@ -322,6 +336,7 @@ items:
     id: 19069
     marketGroup: 695
     name: Corpii A-Type Small Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Corpii B-Type Small Remote Capacitor Transmitter:
     CapacitorNeed: 42.0
@@ -343,6 +358,7 @@ items:
     id: 19067
     marketGroup: 695
     name: Corpii B-Type Small Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Corpii C-Type Small Remote Capacitor Transmitter:
     CapacitorNeed: 40.0
@@ -364,6 +380,7 @@ items:
     id: 19065
     marketGroup: 695
     name: Corpii C-Type Small Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Corpum A-Type Medium Remote Capacitor Transmitter:
     CapacitorNeed: 130.0
@@ -385,6 +402,7 @@ items:
     id: 19081
     marketGroup: 696
     name: Corpum A-Type Medium Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Corpum B-Type Medium Remote Capacitor Transmitter:
     CapacitorNeed: 124.0
@@ -406,6 +424,7 @@ items:
     id: 19079
     marketGroup: 696
     name: Corpum B-Type Medium Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Corpum C-Type Medium Remote Capacitor Transmitter:
     CapacitorNeed: 119.0
@@ -427,6 +446,7 @@ items:
     id: 19077
     marketGroup: 696
     name: Corpum C-Type Medium Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Imperial Navy Large Remote Capacitor Transmitter:
     CapacitorNeed: 366.0
@@ -449,6 +469,7 @@ items:
     id: 31946
     marketGroup: 697
     name: Imperial Navy Large Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Imperial Navy Medium Remote Capacitor Transmitter:
     CapacitorNeed: 122.0
@@ -471,6 +492,7 @@ items:
     id: 31948
     marketGroup: 696
     name: Imperial Navy Medium Remote Capacitor Transmitter
+    published: true
     volume: 25.0
   Imperial Navy Small Remote Capacitor Transmitter:
     CapacitorNeed: 41.0
@@ -493,6 +515,7 @@ items:
     id: 31950
     marketGroup: 695
     name: Imperial Navy Small Remote Capacitor Transmitter
+    published: true
     volume: 25.0
   Large 'Regard' Remote Capacitor Transmitter:
     CapacitorNeed: 338.0
@@ -513,6 +536,7 @@ items:
     id: 16487
     marketGroup: 697
     name: Large 'Regard' Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Large Asymmetric Remote Capacitor Transmitter:
     CapacitorNeed: 338.0
@@ -533,6 +557,7 @@ items:
     id: 16481
     marketGroup: 697
     name: Large Asymmetric Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Large Murky Remote Capacitor Transmitter:
     CapacitorNeed: 338.0
@@ -553,6 +578,7 @@ items:
     id: 16483
     marketGroup: 697
     name: Large Murky Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Large Partial E95c Remote Capacitor Transmitter:
     CapacitorNeed: 338.0
@@ -573,6 +599,7 @@ items:
     id: 16485
     marketGroup: 697
     name: Large Partial E95c Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Large Remote Capacitor Transmitter I:
     CapacitorNeed: 338.0
@@ -592,6 +619,7 @@ items:
     id: 12225
     marketGroup: 697
     name: Large Remote Capacitor Transmitter I
+    published: true
     volume: 5.0
   Large Remote Capacitor Transmitter II:
     CapacitorNeed: 366.0
@@ -612,6 +640,7 @@ items:
     id: 12102
     marketGroup: 697
     name: Large Remote Capacitor Transmitter II
+    published: true
     volume: 5.0
   Medium 'Regard' Remote Capacitor Transmitter:
     CapacitorNeed: 113.0
@@ -632,6 +661,7 @@ items:
     id: 16495
     marketGroup: 696
     name: Medium 'Regard' Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Medium Asymmetric Remote Capacitor Transmitter:
     CapacitorNeed: 113.0
@@ -652,6 +682,7 @@ items:
     id: 16489
     marketGroup: 696
     name: Medium Asymmetric Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Medium Murky Remote Capacitor Transmitter:
     CapacitorNeed: 113.0
@@ -672,6 +703,7 @@ items:
     id: 16491
     marketGroup: 696
     name: Medium Murky Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Medium Partial E95b Remote Capacitor Transmitter:
     CapacitorNeed: 113.0
@@ -692,6 +724,7 @@ items:
     id: 16493
     marketGroup: 696
     name: Medium Partial E95b Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Medium Remote Capacitor Transmitter I:
     CapacitorNeed: 113.0
@@ -711,6 +744,7 @@ items:
     id: 12217
     marketGroup: 696
     name: Medium Remote Capacitor Transmitter I
+    published: true
     volume: 25.0
   Medium Remote Capacitor Transmitter II:
     CapacitorNeed: 122.0
@@ -731,6 +765,7 @@ items:
     id: 12221
     marketGroup: 696
     name: Medium Remote Capacitor Transmitter II
+    published: true
     volume: 5.0
   Small 'Regard' Remote Capacitor Transmitter:
     CapacitorNeed: 38.0
@@ -751,6 +786,7 @@ items:
     id: 5091
     marketGroup: 695
     name: Small 'Regard' Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Small Asymmetric Remote Capacitor Transmitter:
     CapacitorNeed: 38.0
@@ -771,6 +807,7 @@ items:
     id: 5093
     marketGroup: 695
     name: Small Asymmetric Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Small Murky Remote Capacitor Transmitter:
     CapacitorNeed: 38.0
@@ -791,6 +828,7 @@ items:
     id: 5089
     marketGroup: 695
     name: Small Murky Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Small Partial E95a Remote Capacitor Transmitter:
     CapacitorNeed: 38.0
@@ -811,6 +849,7 @@ items:
     id: 5087
     marketGroup: 695
     name: Small Partial E95a Remote Capacitor Transmitter
+    published: true
     volume: 5.0
   Small Remote Capacitor Transmitter I:
     CapacitorNeed: 38.0
@@ -830,6 +869,7 @@ items:
     id: 529
     marketGroup: 695
     name: Small Remote Capacitor Transmitter I
+    published: true
     volume: 25.0
   Small Remote Capacitor Transmitter II:
     CapacitorNeed: 41.0
@@ -850,4 +890,5 @@ items:
     id: 1190
     marketGroup: 695
     name: Small Remote Capacitor Transmitter II
+    published: true
     volume: 5.0

@@ -1,5 +1,6 @@
 items:
   Covert Cynosural Field Generator I:
+    CanCloak: 1
     CanFitShipGroup01: 898
     CanFitShipGroup02: 830
     CanFitShipGroup03: 833
@@ -34,8 +35,10 @@ items:
     id: 28646
     marketGroup: 1641
     name: Covert Cynosural Field Generator I
+    published: true
     volume: 25.0
   Cynosural Field Generator I:
+    CanCloak: 1
     ConsumptionQuantity: 500
     ConsumptionType: 16273
     CynosuralFieldSpawnRadius: 5000
@@ -60,4 +63,5 @@ items:
     id: 21096
     marketGroup: 1641
     name: Cynosural Field Generator I
+    published: true
     volume: 50.0

@@ -4,22 +4,26 @@ items:
     id: 4315
     marketGroup: 1920
     name: Helium Fuel Block Blueprint
+    published: true
     volume: 0.01
   Hydrogen Fuel Block Blueprint:
     IndustryBlueprintRank: 3.0
     id: 4316
     marketGroup: 1920
     name: Hydrogen Fuel Block Blueprint
+    published: true
     volume: 0.01
   Nitrogen Fuel Block Blueprint:
     IndustryBlueprintRank: 3.0
     id: 4314
     marketGroup: 1920
     name: Nitrogen Fuel Block Blueprint
+    published: true
     volume: 0.01
   Oxygen Fuel Block Blueprint:
     IndustryBlueprintRank: 3.0
     id: 4313
     marketGroup: 1920
     name: Oxygen Fuel Block Blueprint
+    published: true
     volume: 0.01

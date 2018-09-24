@@ -9,4 +9,5 @@ items:
     id: 32458
     marketGroup: 1275
     name: Infrastructure Hub
+    published: true
     volume: 60000.0

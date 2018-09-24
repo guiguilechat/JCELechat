@@ -32,7 +32,7 @@ public abstract class System
 
         @Override
         public Collection<IMetaGroup<? extends System>> groups() {
-            return Arrays.asList();
+            return Arrays.asList(fr.guiguilechat.jcelechat.model.sde.items.types.system.System.METAGROUP);
         }
     }
 }

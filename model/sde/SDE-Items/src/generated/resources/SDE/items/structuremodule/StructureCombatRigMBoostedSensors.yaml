@@ -20,6 +20,7 @@ items:
     id: 37234
     marketGroup: 2344
     name: Standup M-Set Enhanced Targeting System I
+    published: true
     volume: 10.0
   Standup M-Set Enhanced Targeting System II:
     CanFitShipGroup01: 1657
@@ -42,4 +43,5 @@ items:
     id: 37235
     marketGroup: 2344
     name: Standup M-Set Enhanced Targeting System II
+    published: true
     volume: 10.0

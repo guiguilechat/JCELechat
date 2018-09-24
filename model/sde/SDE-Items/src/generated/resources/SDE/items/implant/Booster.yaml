@@ -13,6 +13,7 @@ items:
     WillpowerBonus: 17
     id: 33087
     name: Advanced Cerebral Accelerator
+    published: true
     volume: 1.0
   Agency 'Hardshell' TB3 Dose I:
     ArmorDamageAmountBonus: 3
@@ -22,6 +23,7 @@ items:
     id: 46001
     marketGroup: 2503
     name: Agency 'Hardshell' TB3 Dose I
+    published: true
     volume: 1.0
   Agency 'Hardshell' TB5 Dose II:
     ArmorDamageAmountBonus: 5
@@ -31,6 +33,7 @@ items:
     id: 46002
     marketGroup: 2503
     name: Agency 'Hardshell' TB5 Dose II
+    published: true
     volume: 1.0
   Agency 'Hardshell' TB7 Dose III:
     ArmorDamageAmountBonus: 7
@@ -40,6 +43,7 @@ items:
     id: 46003
     marketGroup: 2503
     name: Agency 'Hardshell' TB7 Dose III
+    published: true
     volume: 1.0
   Agency 'Hardshell' TB9 Dose IV:
     ArmorDamageAmountBonus: 9
@@ -49,6 +53,7 @@ items:
     id: 48113
     marketGroup: 2503
     name: Agency 'Hardshell' TB9 Dose IV
+    published: true
     volume: 1.0
   Agency 'Overclocker' SB3 Dose I:
     BoosterDuration: 1800000
@@ -57,6 +62,7 @@ items:
     id: 46004
     marketGroup: 2504
     name: Agency 'Overclocker' SB3 Dose I
+    published: true
     volume: 1.0
   Agency 'Overclocker' SB5 Dose II:
     BoosterDuration: 1800000
@@ -65,6 +71,7 @@ items:
     id: 46005
     marketGroup: 2504
     name: Agency 'Overclocker' SB5 Dose II
+    published: true
     volume: 1.0
   Agency 'Overclocker' SB7 Dose III:
     BoosterDuration: 1800000
@@ -73,6 +80,7 @@ items:
     id: 46006
     marketGroup: 2504
     name: Agency 'Overclocker' SB7 Dose III
+    published: true
     volume: 1.0
   Agency 'Overclocker' SB9 Dose IV:
     BoosterDuration: 1800000
@@ -81,6 +89,7 @@ items:
     id: 48114
     marketGroup: 2504
     name: Agency 'Overclocker' SB9 Dose IV
+    published: true
     volume: 1.0
   Agency 'Pyrolancea' DB3 Dose I:
     BoosterDuration: 1800000
@@ -89,6 +98,7 @@ items:
     id: 45998
     marketGroup: 2505
     name: Agency 'Pyrolancea' DB3 Dose I
+    published: true
     volume: 1.0
   Agency 'Pyrolancea' DB5 Dose II:
     BoosterDuration: 1800000
@@ -97,6 +107,7 @@ items:
     id: 45999
     marketGroup: 2505
     name: Agency 'Pyrolancea' DB5 Dose II
+    published: true
     volume: 1.0
   Agency 'Pyrolancea' DB7 Dose III:
     BoosterDuration: 1800000
@@ -105,6 +116,7 @@ items:
     id: 46000
     marketGroup: 2505
     name: Agency 'Pyrolancea' DB7 Dose III
+    published: true
     volume: 1.0
   Agency 'Pyrolancea' DB9 Dose IV:
     BoosterDuration: 1800000
@@ -113,6 +125,7 @@ items:
     id: 48115
     marketGroup: 2505
     name: Agency 'Pyrolancea' DB9 Dose IV
+    published: true
     volume: 1.0
   Antipharmakon Aeolis:
     BoosterDuration: 1800000
@@ -123,6 +136,7 @@ items:
     id: 36912
     marketGroup: 2495
     name: Antipharmakon Aeolis
+    published: true
     volume: 1.0
   Antipharmakon Iokira:
     BoosterDuration: 1800000
@@ -133,6 +147,7 @@ items:
     id: 36910
     marketGroup: 2499
     name: Antipharmakon Iokira
+    published: true
     volume: 1.0
   Antipharmakon Kosybo:
     ArmorDamageAmountBonus: 8
@@ -143,6 +158,7 @@ items:
     id: 36909
     marketGroup: 2495
     name: Antipharmakon Kosybo
+    published: true
     volume: 1.0
   Antipharmakon Thureo:
     BoosterDuration: 1800000
@@ -153,6 +169,7 @@ items:
     id: 36908
     marketGroup: 2495
     name: Antipharmakon Thureo
+    published: true
     volume: 1.0
   Antipharmakon Toxot:
     BoosterDuration: 1800000
@@ -163,6 +180,7 @@ items:
     id: 36911
     marketGroup: 2501
     name: Antipharmakon Toxot
+    published: true
     volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -179,6 +197,7 @@ items:
     WillpowerBonus: 12
     id: 47396
     name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
+    published: true
     volume: 1.0
   Expired CDIA SPACE Cerebral Accelerator:
     BoosterDuration: 259200000
@@ -195,6 +214,7 @@ items:
     WillpowerBonus: 12
     id: 47481
     name: Expired CDIA SPACE Cerebral Accelerator
+    published: true
     volume: 1.0
   Expired Extended 'Guri Hivaa' Cerebral Accelerator:
     BoosterDuration: 259200000
@@ -211,6 +231,7 @@ items:
     WillpowerBonus: 10
     id: 47397
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
+    published: true
     volume: 1.0
   Expired Guardian Angels 'Advanced' Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -227,6 +248,7 @@ items:
     WillpowerBonus: 12
     id: 47266
     name: Expired Guardian Angels 'Advanced' Cerebral Accelerator
+    published: true
     volume: 1.0
   Expired Guardian Angels 'Standard' Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -243,6 +265,7 @@ items:
     WillpowerBonus: 10
     id: 47265
     name: Expired Guardian Angels 'Standard' Cerebral Accelerator
+    published: true
     volume: 1.0
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
     BoosterDuration: 259200000
@@ -259,6 +282,7 @@ items:
     WillpowerBonus: 10
     id: 47267
     name: Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator
+    published: true
     volume: 1.0
   Expired Standard 'Guri Hivaa' Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -275,6 +299,7 @@ items:
     WillpowerBonus: 10
     id: 47395
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
+    published: true
     volume: 1.0
   Improved Blue Pill Booster:
     BoosterAOEVelocityPenalty: -25
@@ -294,6 +319,7 @@ items:
     id: 10155
     marketGroup: 2491
     name: Improved Blue Pill Booster
+    published: true
     volume: 1.0
   Improved Crash Booster:
     AoeCloudSizeBonus: -25.0
@@ -313,6 +339,7 @@ items:
     id: 10151
     marketGroup: 2500
     name: Improved Crash Booster
+    published: true
     volume: 1.0
   Improved Drop Booster:
     BoosterArmorRepairAmountPenalty: -25
@@ -332,6 +359,7 @@ items:
     id: 15477
     marketGroup: 2496
     name: Improved Drop Booster
+    published: true
     volume: 1.0
   Improved Exile Booster:
     ArmorDamageAmountBonus: 25
@@ -351,6 +379,7 @@ items:
     id: 15480
     marketGroup: 2492
     name: Improved Exile Booster
+    published: true
     volume: 1.0
   Improved Frentix Booster:
     BoosterArmorHPPenalty: -25
@@ -370,6 +399,7 @@ items:
     id: 15461
     marketGroup: 2497
     name: Improved Frentix Booster
+    published: true
     volume: 1.0
   Improved Mindflood Booster:
     BoosterArmorRepairAmountPenalty: -25
@@ -389,6 +419,7 @@ items:
     id: 15464
     marketGroup: 2493
     name: Improved Mindflood Booster
+    published: true
     volume: 1.0
   Improved Sooth Sayer Booster:
     BoosterArmorRepairAmountPenalty: -25
@@ -408,6 +439,7 @@ items:
     id: 10165
     marketGroup: 2498
     name: Improved Sooth Sayer Booster
+    published: true
     volume: 1.0
   Improved X-Instinct Booster:
     BoosterArmorHPPenalty: -25
@@ -427,6 +459,7 @@ items:
     id: 15458
     marketGroup: 2494
     name: Improved X-Instinct Booster
+    published: true
     volume: 1.0
   Master-at-Arms Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -443,6 +476,7 @@ items:
     id: 48582
     marketGroup: 2487
     name: Master-at-Arms Cerebral Accelerator
+    published: true
     volume: 1.0
   Nugoehuvi Synth Blue Pill Booster:
     BoosterDuration: 1980000
@@ -453,6 +487,7 @@ items:
     id: 32248
     marketGroup: 2491
     name: Nugoehuvi Synth Blue Pill Booster
+    published: true
     volume: 1.0
   Prototype Cerebral Accelerator:
     BoosterMaxCharAgeHours: 336
@@ -468,6 +503,7 @@ items:
     WillpowerBonus: 9
     id: 33111
     name: Prototype Cerebral Accelerator
+    published: true
     volume: 1.0
   Quafe Zero:
     BoosterDuration: 3600000
@@ -477,6 +513,7 @@ items:
     id: 3898
     marketGroup: 2506
     name: Quafe Zero
+    published: true
     volume: 1.0
   Standard Blue Pill Booster:
     BoosterAOEVelocityPenalty: -20
@@ -496,6 +533,7 @@ items:
     id: 9950
     marketGroup: 2491
     name: Standard Blue Pill Booster
+    published: true
     volume: 1.0
   Standard Cerebral Accelerator:
     BoosterMaxCharAgeHours: 840
@@ -513,6 +551,7 @@ items:
     WillpowerBonus: 3
     id: 2838
     name: Standard Cerebral Accelerator
+    published: true
     volume: 1.0
   Standard Crash Booster:
     AoeCloudSizeBonus: -20.0
@@ -532,6 +571,7 @@ items:
     id: 9947
     marketGroup: 2500
     name: Standard Crash Booster
+    published: true
     volume: 1.0
   Standard Drop Booster:
     BoosterArmorRepairAmountPenalty: -20
@@ -551,6 +591,7 @@ items:
     id: 15466
     marketGroup: 2496
     name: Standard Drop Booster
+    published: true
     volume: 1.0
   Standard Exile Booster:
     ArmorDamageAmountBonus: 20
@@ -570,6 +611,7 @@ items:
     id: 15479
     marketGroup: 2492
     name: Standard Exile Booster
+    published: true
     volume: 1.0
   Standard Frentix Booster:
     BoosterArmorHPPenalty: -20
@@ -589,6 +631,7 @@ items:
     id: 15460
     marketGroup: 2497
     name: Standard Frentix Booster
+    published: true
     volume: 1.0
   Standard Mindflood Booster:
     BoosterArmorRepairAmountPenalty: -20
@@ -608,6 +651,7 @@ items:
     id: 15463
     marketGroup: 2493
     name: Standard Mindflood Booster
+    published: true
     volume: 1.0
   Standard Sooth Sayer Booster:
     BoosterArmorRepairAmountPenalty: -20
@@ -627,6 +671,7 @@ items:
     id: 10164
     marketGroup: 2498
     name: Standard Sooth Sayer Booster
+    published: true
     volume: 1.0
   Standard X-Instinct Booster:
     BoosterArmorHPPenalty: -20
@@ -646,6 +691,7 @@ items:
     id: 15457
     marketGroup: 2494
     name: Standard X-Instinct Booster
+    published: true
     volume: 1.0
   Strong Blue Pill Booster:
     BoosterAOEVelocityPenalty: -30
@@ -665,6 +711,7 @@ items:
     id: 10156
     marketGroup: 2491
     name: Strong Blue Pill Booster
+    published: true
     volume: 1.0
   Strong Crash Booster:
     AoeCloudSizeBonus: -30.0
@@ -684,6 +731,7 @@ items:
     id: 10152
     marketGroup: 2500
     name: Strong Crash Booster
+    published: true
     volume: 1.0
   Strong Drop Booster:
     BoosterArmorRepairAmountPenalty: -30
@@ -703,6 +751,7 @@ items:
     id: 15478
     marketGroup: 2496
     name: Strong Drop Booster
+    published: true
     volume: 1.0
   Strong Exile Booster:
     ArmorDamageAmountBonus: 30
@@ -722,6 +771,7 @@ items:
     id: 25349
     marketGroup: 2492
     name: Strong Exile Booster
+    published: true
     volume: 1.0
   Strong Frentix Booster:
     BoosterArmorHPPenalty: -30
@@ -741,6 +791,7 @@ items:
     id: 15462
     marketGroup: 2497
     name: Strong Frentix Booster
+    published: true
     volume: 1.0
   Strong Mindflood Booster:
     BoosterArmorRepairAmountPenalty: -30
@@ -760,6 +811,7 @@ items:
     id: 15465
     marketGroup: 2493
     name: Strong Mindflood Booster
+    published: true
     volume: 1.0
   Strong Sooth Sayer Booster:
     BoosterArmorRepairAmountPenalty: -30
@@ -779,6 +831,7 @@ items:
     id: 10166
     marketGroup: 2498
     name: Strong Sooth Sayer Booster
+    published: true
     volume: 1.0
   Strong X-Instinct Booster:
     BoosterArmorHPPenalty: -30
@@ -798,6 +851,7 @@ items:
     id: 15459
     marketGroup: 2494
     name: Strong X-Instinct Booster
+    published: true
     volume: 1.0
   Synth Blue Pill Booster:
     BoosterDuration: 1800000
@@ -808,6 +862,7 @@ items:
     id: 28670
     marketGroup: 2491
     name: Synth Blue Pill Booster
+    published: true
     volume: 1.0
   Synth Crash Booster:
     AoeCloudSizeBonus: -3.0
@@ -818,6 +873,7 @@ items:
     id: 28672
     marketGroup: 2500
     name: Synth Crash Booster
+    published: true
     volume: 1.0
   Synth Drop Booster:
     BoosterDuration: 1800000
@@ -828,6 +884,7 @@ items:
     id: 28674
     marketGroup: 2496
     name: Synth Drop Booster
+    published: true
     volume: 1.0
   Synth Exile Booster:
     ArmorDamageAmountBonus: 3
@@ -838,6 +895,7 @@ items:
     id: 28676
     marketGroup: 2492
     name: Synth Exile Booster
+    published: true
     volume: 1.0
   Synth Frentix Booster:
     BoosterDuration: 1800000
@@ -848,6 +906,7 @@ items:
     id: 28678
     marketGroup: 2497
     name: Synth Frentix Booster
+    published: true
     volume: 1.0
   Synth Mindflood Booster:
     BoosterDuration: 1800000
@@ -858,6 +917,7 @@ items:
     id: 28680
     marketGroup: 2493
     name: Synth Mindflood Booster
+    published: true
     volume: 1.0
   Synth Sooth Sayer Booster:
     BoosterDuration: 1800000
@@ -868,6 +928,7 @@ items:
     id: 28684
     marketGroup: 2498
     name: Synth Sooth Sayer Booster
+    published: true
     volume: 1.0
   Synth X-Instinct Booster:
     BoosterDuration: 1800000
@@ -878,4 +939,5 @@ items:
     id: 28682
     marketGroup: 2494
     name: Synth X-Instinct Booster
+    published: true
     volume: 1.0

@@ -5,10 +5,11 @@ items:
     RequiredSkill1: 3392
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3
+    SkillTimeConstant: 3.0
     id: 33078
     marketGroup: 1745
     name: Armor Layering
+    published: true
     volume: 0.01
   Capital Remote Armor Repair Systems:
     CanNotBeTrainedOnTrial: 1
@@ -17,10 +18,11 @@ items:
     RequiredSkill1: 16069
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 24568
     marketGroup: 1745
     name: Capital Remote Armor Repair Systems
+    published: true
     volume: 0.01
   Capital Remote Hull Repair Systems:
     CanNotBeTrainedOnTrial: 1
@@ -29,10 +31,11 @@ items:
     RequiredSkill1: 27902
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 10
+    SkillTimeConstant: 10.0
     id: 27936
     marketGroup: 1745
     name: Capital Remote Hull Repair Systems
+    published: true
     volume: 0.01
   Capital Repair Systems:
     CanNotBeTrainedOnTrial: 1
@@ -45,10 +48,11 @@ items:
     RequiredSkill3: 3393
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 8
+    SkillTimeConstant: 8.0
     id: 21803
     marketGroup: 1745
     name: Capital Repair Systems
+    published: true
     volume: 0.01
   EM Armor Compensation:
     HardeningBonus: 5
@@ -56,10 +60,11 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22806
     marketGroup: 1745
     name: EM Armor Compensation
+    published: true
     volume: 0.01
   Explosive Armor Compensation:
     HardeningBonus: 5
@@ -67,10 +72,11 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22807
     marketGroup: 1745
     name: Explosive Armor Compensation
+    published: true
     volume: 0.01
   Hull Upgrades:
     ArmorHpBonus: 5
@@ -78,10 +84,11 @@ items:
     RequiredSkill1: 3392
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 3394
     marketGroup: 1745
     name: Hull Upgrades
+    published: true
     volume: 0.01
   Kinetic Armor Compensation:
     HardeningBonus: 5
@@ -89,19 +96,21 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22808
     marketGroup: 1745
     name: Kinetic Armor Compensation
+    published: true
     volume: 0.01
   Mechanics:
     HullHpBonus: 5
     PrimaryAttribute: 165
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3392
     marketGroup: 1745
     name: Mechanics
+    published: true
     volume: 0.01
   Remote Armor Repair Systems:
     CapNeedBonus: -5
@@ -111,10 +120,11 @@ items:
     RequiredSkill2: 3393
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 16069
     marketGroup: 1745
     name: Remote Armor Repair Systems
+    published: true
     volume: 0.01
   Remote Hull Repair Systems:
     CapNeedBonus: -5
@@ -122,10 +132,11 @@ items:
     RequiredSkill1: 3392
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 27902
     marketGroup: 1745
     name: Remote Hull Repair Systems
+    published: true
     volume: 0.01
   Repair Systems:
     DurationSkillBonus: -5
@@ -133,10 +144,11 @@ items:
     RequiredSkill1: 3392
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1
+    SkillTimeConstant: 1.0
     id: 3393
     marketGroup: 1745
     name: Repair Systems
+    published: true
     volume: 0.01
   Thermal Armor Compensation:
     HardeningBonus: 5
@@ -144,8 +156,9 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 2
+    SkillTimeConstant: 2.0
     id: 22809
     marketGroup: 1745
     name: Thermal Armor Compensation
+    published: true
     volume: 0.01

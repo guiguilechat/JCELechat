@@ -10,6 +10,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
+    CanUseCargoInSpace: 1
     CapacitorCapacity: 35000.0
     CpuNeedBonus: -100
     CpuOutput: 5
@@ -22,7 +23,9 @@ items:
     FreighterBonusG2: 5
     FwLpKill: 4000
     GfxBoosterID: 394
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
+    HeatAttenuationMed: 1.0
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -77,6 +80,7 @@ items:
     id: 28848
     marketGroup: 1092
     name: Anshar
+    published: true
     volume: 1.755E7
   Ark:
     AdvancedAgility: 1
@@ -89,6 +93,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
+    CanUseCargoInSpace: 1
     CapacitorCapacity: 37500.0
     CpuNeedBonus: -100
     CpuOutput: 5
@@ -101,7 +106,9 @@ items:
     FreighterBonusA2: 5
     FwLpKill: 4000
     GfxBoosterID: 394
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
+    HeatAttenuationMed: 1.0
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -156,6 +163,7 @@ items:
     id: 28850
     marketGroup: 1090
     name: Ark
+    published: true
     volume: 1.85E7
   Nomad:
     AdvancedAgility: 1
@@ -168,6 +176,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
+    CanUseCargoInSpace: 1
     CapacitorCapacity: 30000.0
     CpuNeedBonus: -100
     CpuOutput: 5
@@ -180,7 +189,9 @@ items:
     FreighterBonusM2: 5
     FwLpKill: 4000
     GfxBoosterID: 397
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
+    HeatAttenuationMed: 1.0
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -235,6 +246,7 @@ items:
     id: 28846
     marketGroup: 1093
     name: Nomad
+    published: true
     volume: 1.55E7
   Rhea:
     AdvancedAgility: 1
@@ -247,6 +259,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CanJump: 1
+    CanUseCargoInSpace: 1
     CapacitorCapacity: 35000.0
     CpuNeedBonus: -100
     CpuOutput: 5
@@ -259,7 +272,9 @@ items:
     FreighterBonusC2: 5
     FwLpKill: 4000
     GfxBoosterID: 395
+    HeatAttenuationHi: 1.0
     HeatAttenuationLow: 0.5
+    HeatAttenuationMed: 1.0
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -314,4 +329,5 @@ items:
     id: 28844
     marketGroup: 1091
     name: Rhea
+    published: true
     volume: 1.625E7

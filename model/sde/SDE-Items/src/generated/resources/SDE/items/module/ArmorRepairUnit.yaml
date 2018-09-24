@@ -20,6 +20,7 @@ items:
     id: 23795
     marketGroup: 1049
     name: '''Gorget'' Small Armor Repairer I'
+    published: true
     volume: 5.0
   '''Greaves'' Medium Armor Repairer I':
     ArmorDamageAmount: 368
@@ -42,6 +43,7 @@ items:
     id: 23797
     marketGroup: 1050
     name: '''Greaves'' Medium Armor Repairer I'
+    published: true
     volume: 10.0
   '''Harmony'' Small Armor Repairer I':
     ArmorDamageAmount: 104
@@ -64,6 +66,7 @@ items:
     id: 22887
     marketGroup: 1049
     name: '''Harmony'' Small Armor Repairer I'
+    published: true
     volume: 5.0
   '''Hauberk'' Large Armor Repairer I':
     ArmorDamageAmount: 920
@@ -86,6 +89,7 @@ items:
     id: 23799
     marketGroup: 1051
     name: '''Hauberk'' Large Armor Repairer I'
+    published: true
     volume: 50.0
   '''Meditation'' Medium Armor Repairer I':
     ArmorDamageAmount: 414
@@ -108,6 +112,7 @@ items:
     id: 22889
     marketGroup: 1050
     name: '''Meditation'' Medium Armor Repairer I'
+    published: true
     volume: 10.0
   '''Protest'' Large Armor Repairer I':
     ArmorDamageAmount: 1035
@@ -130,6 +135,7 @@ items:
     id: 22891
     marketGroup: 1051
     name: '''Protest'' Large Armor Repairer I'
+    published: true
     volume: 50.0
   Ahremen's Modified Large Armor Repairer:
     ArmorDamageAmount: 1346
@@ -151,6 +157,7 @@ items:
     id: 14853
     marketGroup: 1051
     name: Ahremen's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Ammatar Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
@@ -172,6 +179,7 @@ items:
     id: 15743
     marketGroup: 1051
     name: Ammatar Navy Large Armor Repairer
+    published: true
     volume: 50.0
   Ammatar Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
@@ -193,6 +201,7 @@ items:
     id: 15742
     marketGroup: 1050
     name: Ammatar Navy Medium Armor Repairer
+    published: true
     volume: 10.0
   Ammatar Navy Small Armor Repairer:
     ArmorDamageAmount: 104
@@ -214,6 +223,7 @@ items:
     id: 15741
     marketGroup: 1049
     name: Ammatar Navy Small Armor Repairer
+    published: true
     volume: 5.0
   Brokara's Modified Large Armor Repairer:
     ArmorDamageAmount: 1139
@@ -235,6 +245,7 @@ items:
     id: 14848
     marketGroup: 1051
     name: Brokara's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Brynn's Modified Large Armor Repairer:
     ArmorDamageAmount: 1012
@@ -256,6 +267,7 @@ items:
     id: 15160
     marketGroup: 1051
     name: Brynn's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   CONCORD Capital Armor Repairer:
     ArmorDamageAmount: 13000
@@ -277,6 +289,7 @@ items:
     id: 3534
     marketGroup: 1052
     name: CONCORD Capital Armor Repairer
+    published: true
     volume: 4000.0
   Capital ACM Compact Armor Repairer:
     ArmorDamageAmount: 10560
@@ -297,6 +310,7 @@ items:
     id: 41499
     marketGroup: 1052
     name: Capital ACM Compact Armor Repairer
+    published: true
     volume: 4000.0
   Capital Armor Repairer I:
     ArmorDamageAmount: 9600
@@ -315,6 +329,7 @@ items:
     id: 20701
     marketGroup: 1052
     name: Capital Armor Repairer I
+    published: true
     volume: 4000.0
   Capital Armor Repairer II:
     ArmorDamageAmount: 11520
@@ -335,6 +350,7 @@ items:
     id: 41500
     marketGroup: 1052
     name: Capital Armor Repairer II
+    published: true
     volume: 4000.0
   Capital I-a Enduring Armor Repairer:
     ArmorDamageAmount: 10560
@@ -355,6 +371,7 @@ items:
     id: 41498
     marketGroup: 1052
     name: Capital I-a Enduring Armor Repairer
+    published: true
     volume: 4000.0
   Centii A-Type Small Armor Repairer:
     ArmorDamageAmount: 135
@@ -377,6 +394,7 @@ items:
     id: 19009
     marketGroup: 1049
     name: Centii A-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Centii B-Type Small Armor Repairer:
     ArmorDamageAmount: 124
@@ -399,6 +417,7 @@ items:
     id: 19007
     marketGroup: 1049
     name: Centii B-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Centii C-Type Small Armor Repairer:
     ArmorDamageAmount: 114
@@ -421,6 +440,7 @@ items:
     id: 19005
     marketGroup: 1049
     name: Centii C-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Centum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 538
@@ -443,6 +463,7 @@ items:
     id: 19027
     marketGroup: 1050
     name: Centum A-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Centum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 497
@@ -465,6 +486,7 @@ items:
     id: 19025
     marketGroup: 1050
     name: Centum B-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Centum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 455
@@ -487,6 +509,7 @@ items:
     id: 19023
     marketGroup: 1050
     name: Centum C-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Centus A-Type Large Armor Repairer:
     ArmorDamageAmount: 1346
@@ -509,6 +532,7 @@ items:
     id: 19044
     marketGroup: 1051
     name: Centus A-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Centus B-Type Large Armor Repairer:
     ArmorDamageAmount: 1242
@@ -531,6 +555,7 @@ items:
     id: 19042
     marketGroup: 1051
     name: Centus B-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Centus C-Type Large Armor Repairer:
     ArmorDamageAmount: 1139
@@ -553,6 +578,7 @@ items:
     id: 19040
     marketGroup: 1051
     name: Centus C-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Centus X-Type Large Armor Repairer:
     ArmorDamageAmount: 1449
@@ -575,6 +601,7 @@ items:
     id: 19046
     marketGroup: 1051
     name: Centus X-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Chelm's Modified Large Armor Repairer:
     ArmorDamageAmount: 1449
@@ -596,6 +623,7 @@ items:
     id: 14854
     marketGroup: 1051
     name: Chelm's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Civilian Armor Repairer:
     ArmorDamageAmount: 15
@@ -614,6 +642,7 @@ items:
     id: 21853
     marketGroup: 1049
     name: Civilian Armor Repairer
+    published: true
     volume: 5.0
   Core A-Type Large Armor Repairer:
     ArmorDamageAmount: 1196
@@ -636,6 +665,7 @@ items:
     id: 19037
     marketGroup: 1051
     name: Core A-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Core B-Type Large Armor Repairer:
     ArmorDamageAmount: 1104
@@ -658,6 +688,7 @@ items:
     id: 19036
     marketGroup: 1051
     name: Core B-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Core C-Type Large Armor Repairer:
     ArmorDamageAmount: 1012
@@ -680,6 +711,7 @@ items:
     id: 19035
     marketGroup: 1051
     name: Core C-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Core X-Type Large Armor Repairer:
     ArmorDamageAmount: 1288
@@ -702,6 +734,7 @@ items:
     id: 19038
     marketGroup: 1051
     name: Core X-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Coreli A-Type Small Armor Repairer:
     ArmorDamageAmount: 120
@@ -724,6 +757,7 @@ items:
     id: 19015
     marketGroup: 1049
     name: Coreli A-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Coreli B-Type Small Armor Repairer:
     ArmorDamageAmount: 110
@@ -746,6 +780,7 @@ items:
     id: 19013
     marketGroup: 1049
     name: Coreli B-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Coreli C-Type Small Armor Repairer:
     ArmorDamageAmount: 101
@@ -768,6 +803,7 @@ items:
     id: 19011
     marketGroup: 1049
     name: Coreli C-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Corelum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 478
@@ -790,6 +826,7 @@ items:
     id: 19033
     marketGroup: 1050
     name: Corelum A-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Corelum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 442
@@ -812,6 +849,7 @@ items:
     id: 19031
     marketGroup: 1050
     name: Corelum B-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Corelum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 405
@@ -834,6 +872,7 @@ items:
     id: 19029
     marketGroup: 1050
     name: Corelum C-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Cormack's Modified Large Armor Repairer:
     ArmorDamageAmount: 1288
@@ -855,6 +894,7 @@ items:
     id: 15163
     marketGroup: 1051
     name: Cormack's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Corpii A-Type Small Armor Repairer:
     ArmorDamageAmount: 135
@@ -877,6 +917,7 @@ items:
     id: 19003
     marketGroup: 1049
     name: Corpii A-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Corpii B-Type Small Armor Repairer:
     ArmorDamageAmount: 124
@@ -899,6 +940,7 @@ items:
     id: 19001
     marketGroup: 1049
     name: Corpii B-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Corpii C-Type Small Armor Repairer:
     ArmorDamageAmount: 114
@@ -921,6 +963,7 @@ items:
     id: 18999
     marketGroup: 1049
     name: Corpii C-Type Small Armor Repairer
+    published: true
     volume: 5.0
   Corpum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 538
@@ -943,6 +986,7 @@ items:
     id: 19021
     marketGroup: 1050
     name: Corpum A-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Corpum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 497
@@ -965,6 +1009,7 @@ items:
     id: 19019
     marketGroup: 1050
     name: Corpum B-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Corpum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 455
@@ -987,6 +1032,7 @@ items:
     id: 19017
     marketGroup: 1050
     name: Corpum C-Type Medium Armor Repairer
+    published: true
     volume: 10.0
   Corpus A-Type Large Armor Repairer:
     ArmorDamageAmount: 1346
@@ -1009,6 +1055,7 @@ items:
     id: 19043
     marketGroup: 1051
     name: Corpus A-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Corpus B-Type Large Armor Repairer:
     ArmorDamageAmount: 1242
@@ -1031,6 +1078,7 @@ items:
     id: 19041
     marketGroup: 1051
     name: Corpus B-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Corpus C-Type Large Armor Repairer:
     ArmorDamageAmount: 1139
@@ -1053,6 +1101,7 @@ items:
     id: 19039
     marketGroup: 1051
     name: Corpus C-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Corpus X-Type Large Armor Repairer:
     ArmorDamageAmount: 1449
@@ -1075,6 +1124,7 @@ items:
     id: 19045
     marketGroup: 1051
     name: Corpus X-Type Large Armor Repairer
+    published: true
     volume: 50.0
   Dark Blood Capital Armor Repairer:
     ArmorDamageAmount: 13440
@@ -1096,6 +1146,7 @@ items:
     id: 41501
     marketGroup: 1052
     name: Dark Blood Capital Armor Repairer
+    published: true
     volume: 4000.0
   Dark Blood Large Armor Repairer:
     ArmorDamageAmount: 1035
@@ -1117,6 +1168,7 @@ items:
     id: 13957
     marketGroup: 1051
     name: Dark Blood Large Armor Repairer
+    published: true
     volume: 50.0
   Dark Blood Medium Armor Repairer:
     ArmorDamageAmount: 414
@@ -1138,6 +1190,7 @@ items:
     id: 13960
     marketGroup: 1050
     name: Dark Blood Medium Armor Repairer
+    published: true
     volume: 10.0
   Dark Blood Small Armor Repairer:
     ArmorDamageAmount: 104
@@ -1159,6 +1212,7 @@ items:
     id: 13964
     marketGroup: 1049
     name: Dark Blood Small Armor Repairer
+    published: true
     volume: 5.0
   Domination Large Armor Repairer:
     ArmorDamageAmount: 828
@@ -1180,6 +1234,7 @@ items:
     id: 13955
     marketGroup: 1051
     name: Domination Large Armor Repairer
+    published: true
     volume: 50.0
   Domination Medium Armor Repairer:
     ArmorDamageAmount: 331
@@ -1201,6 +1256,7 @@ items:
     id: 13958
     marketGroup: 1050
     name: Domination Medium Armor Repairer
+    published: true
     volume: 10.0
   Domination Small Armor Repairer:
     ArmorDamageAmount: 83
@@ -1222,6 +1278,7 @@ items:
     id: 13962
     marketGroup: 1049
     name: Domination Small Armor Repairer
+    published: true
     volume: 5.0
   Draclira's Modified Large Armor Repairer:
     ArmorDamageAmount: 1449
@@ -1243,6 +1300,7 @@ items:
     id: 14855
     marketGroup: 1051
     name: Draclira's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Federation Navy Large Armor Repairer:
     ArmorDamageAmount: 920
@@ -1264,6 +1322,7 @@ items:
     id: 15746
     marketGroup: 1051
     name: Federation Navy Large Armor Repairer
+    published: true
     volume: 50.0
   Federation Navy Medium Armor Repairer:
     ArmorDamageAmount: 368
@@ -1285,6 +1344,7 @@ items:
     id: 15745
     marketGroup: 1050
     name: Federation Navy Medium Armor Repairer
+    published: true
     volume: 10.0
   Federation Navy Small Armor Repairer:
     ArmorDamageAmount: 92
@@ -1306,6 +1366,7 @@ items:
     id: 15744
     marketGroup: 1049
     name: Federation Navy Small Armor Repairer
+    published: true
     volume: 5.0
   Gotan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1076
@@ -1327,6 +1388,7 @@ items:
     id: 14554
     marketGroup: 1051
     name: Gotan's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Imperial Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
@@ -1348,6 +1410,7 @@ items:
     id: 17546
     marketGroup: 1051
     name: Imperial Navy Large Armor Repairer
+    published: true
     volume: 50.0
   Imperial Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
@@ -1369,6 +1432,7 @@ items:
     id: 17547
     marketGroup: 1050
     name: Imperial Navy Medium Armor Repairer
+    published: true
     volume: 10.0
   Imperial Navy Small Armor Repairer:
     ArmorDamageAmount: 104
@@ -1390,6 +1454,7 @@ items:
     id: 17548
     marketGroup: 1049
     name: Imperial Navy Small Armor Repairer
+    published: true
     volume: 5.0
   Khanid Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
@@ -1411,6 +1476,7 @@ items:
     id: 28544
     marketGroup: 1051
     name: Khanid Navy Large Armor Repairer
+    published: true
     volume: 50.0
   Khanid Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
@@ -1432,6 +1498,7 @@ items:
     id: 28549
     marketGroup: 1050
     name: Khanid Navy Medium Armor Repairer
+    published: true
     volume: 10.0
   Khanid Navy Small Armor Repairer:
     ArmorDamageAmount: 104
@@ -1453,6 +1520,7 @@ items:
     id: 28556
     marketGroup: 1049
     name: Khanid Navy Small Armor Repairer
+    published: true
     volume: 5.0
   Large 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 828
@@ -1473,6 +1541,7 @@ items:
     id: 4613
     marketGroup: 1051
     name: Large 'Accommodation' Vestment Reconstructer I
+    published: true
     volume: 50.0
   Large 'Reprieve' Vestment Reconstructer I:
     ArmorDamageAmount: 1104
@@ -1493,6 +1562,7 @@ items:
     TechLevel: 1
     id: 4621
     name: Large 'Reprieve' Vestment Reconstructer I
+    published: true
     volume: 50.0
   Large Abyssal Armor Repairer:
     RequiredSkill1: 3393
@@ -1502,6 +1572,7 @@ items:
     TechLevel: 1
     id: 47777
     name: Large Abyssal Armor Repairer
+    published: true
     volume: 50.0
   Large Armor Repairer I:
     ArmorDamageAmount: 690
@@ -1522,6 +1593,7 @@ items:
     id: 3538
     marketGroup: 1051
     name: Large Armor Repairer I
+    published: true
     volume: 50.0
   Large Armor Repairer II:
     ArmorDamageAmount: 920
@@ -1543,6 +1615,7 @@ items:
     id: 3540
     marketGroup: 1051
     name: Large Armor Repairer II
+    published: true
     volume: 50.0
   Large Automated Carapace Restoration:
     ArmorDamageAmount: 794
@@ -1563,6 +1636,7 @@ items:
     id: 4615
     marketGroup: 1051
     name: Large Automated Carapace Restoration
+    published: true
     volume: 50.0
   Large I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 725
@@ -1583,6 +1657,7 @@ items:
     id: 4609
     marketGroup: 1051
     name: Large I-a Polarized Armor Regenerator
+    published: true
     volume: 50.0
   Large Inefficient Armor Repair Unit:
     ArmorDamageAmount: 759
@@ -1603,6 +1678,7 @@ items:
     id: 4611
     marketGroup: 1051
     name: Large Inefficient Armor Repair Unit
+    published: true
     volume: 50.0
   Medium 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 331
@@ -1623,6 +1699,7 @@ items:
     id: 4573
     marketGroup: 1050
     name: Medium 'Accommodation' Vestment Reconstructer I
+    published: true
     volume: 10.0
   Medium Abyssal Armor Repairer:
     RequiredSkill1: 3393
@@ -1632,6 +1709,7 @@ items:
     TechLevel: 1
     id: 47773
     name: Medium Abyssal Armor Repairer
+    published: true
     volume: 10.0
   Medium Armor Repairer I:
     ArmorDamageAmount: 276
@@ -1652,6 +1730,7 @@ items:
     id: 3528
     marketGroup: 1050
     name: Medium Armor Repairer I
+    published: true
     volume: 10.0
   Medium Armor Repairer II:
     ArmorDamageAmount: 368
@@ -1672,6 +1751,7 @@ items:
     id: 3530
     marketGroup: 1050
     name: Medium Armor Repairer II
+    published: true
     volume: 10.0
   Medium Automated Carapace Restoration:
     ArmorDamageAmount: 317
@@ -1692,6 +1772,7 @@ items:
     id: 4575
     marketGroup: 1050
     name: Medium Automated Carapace Restoration
+    published: true
     volume: 10.0
   Medium I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 290
@@ -1712,6 +1793,7 @@ items:
     id: 4569
     marketGroup: 1050
     name: Medium I-a Polarized Armor Regenerator
+    published: true
     volume: 10.0
   Medium Inefficient Armor Repair Unit:
     ArmorDamageAmount: 304
@@ -1732,6 +1814,7 @@ items:
     id: 4571
     marketGroup: 1050
     name: Medium Inefficient Armor Repair Unit
+    published: true
     volume: 10.0
   Medium Nano Armor Repair Unit I:
     ArmorDamageAmount: 405
@@ -1752,6 +1835,7 @@ items:
     TechLevel: 1
     id: 4579
     name: Medium Nano Armor Repair Unit I
+    published: true
     volume: 10.0
   Mizuro's Modified Large Armor Repairer:
     ArmorDamageAmount: 911
@@ -1773,6 +1857,7 @@ items:
     id: 14552
     marketGroup: 1051
     name: Mizuro's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Raysere's Modified Large Armor Repairer:
     ArmorDamageAmount: 1242
@@ -1794,6 +1879,7 @@ items:
     id: 14851
     marketGroup: 1051
     name: Raysere's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Republic Fleet Large Armor Repairer:
     ArmorDamageAmount: 828
@@ -1815,6 +1901,7 @@ items:
     id: 17492
     marketGroup: 1051
     name: Republic Fleet Large Armor Repairer
+    published: true
     volume: 50.0
   Republic Fleet Medium Armor Repairer:
     ArmorDamageAmount: 331
@@ -1836,6 +1923,7 @@ items:
     id: 17493
     marketGroup: 1050
     name: Republic Fleet Medium Armor Repairer
+    published: true
     volume: 10.0
   Republic Fleet Small Armor Repairer:
     ArmorDamageAmount: 83
@@ -1857,6 +1945,7 @@ items:
     id: 17494
     marketGroup: 1049
     name: Republic Fleet Small Armor Repairer
+    published: true
     volume: 5.0
   Selynne's Modified Large Armor Repairer:
     ArmorDamageAmount: 1242
@@ -1878,6 +1967,7 @@ items:
     id: 14850
     marketGroup: 1051
     name: Selynne's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Setele's Modified Large Armor Repairer:
     ArmorDamageAmount: 1196
@@ -1899,6 +1989,7 @@ items:
     id: 15162
     marketGroup: 1051
     name: Setele's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Shadow Serpentis Capital Armor Repairer:
     ArmorDamageAmount: 12500
@@ -1920,6 +2011,7 @@ items:
     id: 41502
     marketGroup: 1052
     name: Shadow Serpentis Capital Armor Repairer
+    published: true
     volume: 4000.0
   Shadow Serpentis Large Armor Repairer:
     ArmorDamageAmount: 920
@@ -1941,6 +2033,7 @@ items:
     id: 14067
     marketGroup: 1051
     name: Shadow Serpentis Large Armor Repairer
+    published: true
     volume: 50.0
   Shadow Serpentis Medium Armor Repairer:
     ArmorDamageAmount: 368
@@ -1962,6 +2055,7 @@ items:
     id: 14068
     marketGroup: 1050
     name: Shadow Serpentis Medium Armor Repairer
+    published: true
     volume: 10.0
   Shadow Serpentis Small Armor Repairer:
     ArmorDamageAmount: 92
@@ -1983,6 +2077,7 @@ items:
     id: 14069
     marketGroup: 1049
     name: Shadow Serpentis Small Armor Repairer
+    published: true
     volume: 5.0
   Small 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 83
@@ -2003,6 +2098,7 @@ items:
     id: 4533
     marketGroup: 1049
     name: Small 'Accommodation' Vestment Reconstructer I
+    published: true
     volume: 5.0
   Small Abyssal Armor Repairer:
     RequiredSkill1: 3393
@@ -2012,6 +2108,7 @@ items:
     TechLevel: 1
     id: 47769
     name: Small Abyssal Armor Repairer
+    published: true
     volume: 5.0
   Small Armor Repairer I:
     ArmorDamageAmount: 69
@@ -2032,6 +2129,7 @@ items:
     id: 523
     marketGroup: 1049
     name: Small Armor Repairer I
+    published: true
     volume: 5.0
   Small Armor Repairer II:
     ArmorDamageAmount: 92
@@ -2052,6 +2150,7 @@ items:
     id: 1183
     marketGroup: 1049
     name: Small Armor Repairer II
+    published: true
     volume: 5.0
   Small Automated Carapace Restoration:
     ArmorDamageAmount: 79
@@ -2072,6 +2171,7 @@ items:
     id: 4535
     marketGroup: 1049
     name: Small Automated Carapace Restoration
+    published: true
     volume: 5.0
   Small I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 72
@@ -2092,6 +2192,7 @@ items:
     id: 4529
     marketGroup: 1049
     name: Small I-a Polarized Armor Regenerator
+    published: true
     volume: 5.0
   Small Inefficient Armor Repair Unit:
     ArmorDamageAmount: 76
@@ -2112,6 +2213,7 @@ items:
     id: 4531
     marketGroup: 1049
     name: Small Inefficient Armor Repair Unit
+    published: true
     volume: 5.0
   Tairei's Modified Large Armor Repairer:
     ArmorDamageAmount: 1139
@@ -2133,6 +2235,7 @@ items:
     id: 14849
     marketGroup: 1051
     name: Tairei's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   True Sansha Large Armor Repairer:
     ArmorDamageAmount: 1035
@@ -2154,6 +2257,7 @@ items:
     id: 13956
     marketGroup: 1051
     name: True Sansha Large Armor Repairer
+    published: true
     volume: 50.0
   True Sansha Medium Armor Repairer:
     ArmorDamageAmount: 414
@@ -2175,6 +2279,7 @@ items:
     id: 13959
     marketGroup: 1050
     name: True Sansha Medium Armor Repairer
+    published: true
     volume: 10.0
   True Sansha Small Armor Repairer:
     ArmorDamageAmount: 104
@@ -2196,6 +2301,7 @@ items:
     id: 13963
     marketGroup: 1049
     name: True Sansha Small Armor Repairer
+    published: true
     volume: 5.0
   Tuvan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1104
@@ -2217,6 +2323,7 @@ items:
     id: 15161
     marketGroup: 1051
     name: Tuvan's Modified Large Armor Repairer
+    published: true
     volume: 50.0
   Vizan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1346
@@ -2238,4 +2345,5 @@ items:
     id: 14852
     marketGroup: 1051
     name: Vizan's Modified Large Armor Repairer
+    published: true
     volume: 50.0

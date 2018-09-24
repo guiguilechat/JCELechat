@@ -25,6 +25,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 100000
     FwLpKill: 14000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -109,6 +110,7 @@ items:
     id: 11567
     marketGroup: 813
     name: Avatar
+    published: true
     volume: 1.55E8
   Erebus:
     AccuracyBonus: 1
@@ -136,6 +138,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 100000
     FwLpKill: 14000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -220,6 +223,7 @@ items:
     id: 671
     marketGroup: 815
     name: Erebus
+    published: true
     volume: 1.455E8
   Komodo:
     AccuracyBonus: 1
@@ -251,6 +255,7 @@ items:
     FighterTubes: 2
     FleetHangarCapacity: 100000
     FwLpKill: 14000
+    GateScrambleStatus: -1000
     GfxBoosterID: 395
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -345,6 +350,7 @@ items:
     id: 45649
     marketGroup: 2287
     name: Komodo
+    published: true
     volume: 1.325E8
   Leviathan:
     AccuracyBonus: 1
@@ -372,6 +378,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 100000
     FwLpKill: 14000
+    GateScrambleStatus: -1000
     GfxBoosterID: 395
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -458,6 +465,7 @@ items:
     id: 3764
     marketGroup: 814
     name: Leviathan
+    published: true
     volume: 1.325E8
   Molok:
     AccuracyBonus: 1
@@ -485,6 +493,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 100000
     FwLpKill: 14000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -578,6 +587,7 @@ items:
     id: 42241
     marketGroup: 2287
     name: Molok
+    published: true
     volume: 1.55E8
   Ragnarok:
     AdvancedAgility: 1
@@ -604,6 +614,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 100000
     FwLpKill: 14000
+    GateScrambleStatus: -1000
     GfxBoosterID: 397
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -688,6 +699,7 @@ items:
     id: 23773
     marketGroup: 816
     name: Ragnarok
+    published: true
     volume: 1.0E8
   Vanquisher:
     AccuracyBonus: 1
@@ -715,6 +727,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 100000
     FwLpKill: 14000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -807,4 +820,5 @@ items:
     id: 42126
     marketGroup: 2287
     name: Vanquisher
+    published: true
     volume: 1.455E8

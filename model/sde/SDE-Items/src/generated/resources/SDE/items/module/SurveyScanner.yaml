@@ -14,6 +14,7 @@ items:
     id: 6569
     marketGroup: 714
     name: ML-3 Scoped Survey Scanner
+    published: true
     volume: 5.0
   Survey Scanner I:
     CapacitorNeed: 5.0
@@ -30,6 +31,7 @@ items:
     id: 444
     marketGroup: 714
     name: Survey Scanner I
+    published: true
     volume: 5.0
   Survey Scanner II:
     CapacitorNeed: 6.0
@@ -46,4 +48,5 @@ items:
     id: 2333
     marketGroup: 714
     name: Survey Scanner II
+    published: true
     volume: 5.0

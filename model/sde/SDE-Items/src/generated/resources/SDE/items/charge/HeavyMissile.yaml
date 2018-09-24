@@ -27,6 +27,7 @@ items:
     id: 27447
     marketGroup: 1002
     name: Caldari Navy Inferno Heavy Missile
+    published: true
     volume: 0.03
   Caldari Navy Mjolnir Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -56,6 +57,7 @@ items:
     id: 27435
     marketGroup: 1002
     name: Caldari Navy Mjolnir Heavy Missile
+    published: true
     volume: 0.03
   Caldari Navy Nova Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -85,6 +87,7 @@ items:
     id: 27453
     marketGroup: 1002
     name: Caldari Navy Nova Heavy Missile
+    published: true
     volume: 0.03
   Caldari Navy Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -114,6 +117,7 @@ items:
     id: 27441
     marketGroup: 1002
     name: Caldari Navy Scourge Heavy Missile
+    published: true
     volume: 0.03
   Dread Guristas Inferno Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -143,6 +147,7 @@ items:
     id: 27449
     marketGroup: 1002
     name: Dread Guristas Inferno Heavy Missile
+    published: true
     volume: 0.03
   Dread Guristas Mjolnir Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -172,6 +177,7 @@ items:
     id: 27437
     marketGroup: 1002
     name: Dread Guristas Mjolnir Heavy Missile
+    published: true
     volume: 0.03
   Dread Guristas Nova Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -201,6 +207,7 @@ items:
     id: 27455
     marketGroup: 1002
     name: Dread Guristas Nova Heavy Missile
+    published: true
     volume: 0.03
   Dread Guristas Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -230,6 +237,7 @@ items:
     id: 27443
     marketGroup: 1002
     name: Dread Guristas Scourge Heavy Missile
+    published: true
     volume: 0.03
   Guristas Inferno Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -259,6 +267,7 @@ items:
     id: 27445
     marketGroup: 1002
     name: Guristas Inferno Heavy Missile
+    published: true
     volume: 0.03
   Guristas Mjolnir Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -288,6 +297,7 @@ items:
     id: 27433
     marketGroup: 1002
     name: Guristas Mjolnir Heavy Missile
+    published: true
     volume: 0.03
   Guristas Nova Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -317,6 +327,7 @@ items:
     id: 27451
     marketGroup: 1002
     name: Guristas Nova Heavy Missile
+    published: true
     volume: 0.03
   Guristas Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -346,6 +357,7 @@ items:
     id: 27439
     marketGroup: 1002
     name: Guristas Scourge Heavy Missile
+    published: true
     volume: 0.03
   Inferno Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -373,6 +385,7 @@ items:
     id: 208
     marketGroup: 924
     name: Inferno Heavy Missile
+    published: true
     volume: 0.03
   Mjolnir Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -400,6 +413,7 @@ items:
     id: 207
     marketGroup: 924
     name: Mjolnir Heavy Missile
+    published: true
     volume: 0.03
   Nova Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -427,6 +441,7 @@ items:
     id: 206
     marketGroup: 924
     name: Nova Heavy Missile
+    published: true
     volume: 0.03
   Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
@@ -454,4 +469,5 @@ items:
     id: 209
     marketGroup: 924
     name: Scourge Heavy Missile
+    published: true
     volume: 0.03

@@ -1,0 +1,81 @@
+items:
+  Barrow Ferrier:
+    id: 24383
+    name: Barrow Ferrier
+    published: false
+    volume: 28700.0
+  Barrow Gatherer:
+    id: 24382
+    name: Barrow Gatherer
+    published: false
+    volume: 28600.0
+  Barrow Harvester:
+    id: 24381
+    name: Barrow Harvester
+    published: false
+    volume: 28700.0
+  Barrow Loader:
+    id: 24384
+    name: Barrow Loader
+    published: false
+    volume: 28600.0
+  Blood Bulker:
+    id: 13694
+    name: Blood Bulker
+    published: false
+    volume: 118000.0
+  Blood Carrier:
+    id: 13690
+    name: Blood Carrier
+    published: false
+    volume: 1150000.0
+  Blood Convoy:
+    id: 13691
+    name: Blood Convoy
+    published: false
+    volume: 1100000.0
+  Blood Courier:
+    id: 13697
+    name: Blood Courier
+    published: false
+    volume: 118000.0
+  Blood Ferrier:
+    id: 13699
+    name: Blood Ferrier
+    published: false
+    volume: 28700.0
+  Blood Gatherer:
+    id: 13700
+    name: Blood Gatherer
+    published: false
+    volume: 28600.0
+  Blood Harvester:
+    id: 13701
+    name: Blood Harvester
+    published: false
+    volume: 28700.0
+  Blood Hauler:
+    id: 13693
+    name: Blood Hauler
+    published: false
+    volume: 1100000.0
+  Blood Loader:
+    id: 13698
+    name: Blood Loader
+    published: false
+    volume: 28600.0
+  Blood Trailer:
+    id: 13692
+    name: Blood Trailer
+    published: false
+    volume: 1150000.0
+  Blood Transporter:
+    id: 13695
+    name: Blood Transporter
+    published: false
+    volume: 118000.0
+  Blood Trucker:
+    id: 13696
+    name: Blood Trucker
+    published: false
+    volume: 118000.0

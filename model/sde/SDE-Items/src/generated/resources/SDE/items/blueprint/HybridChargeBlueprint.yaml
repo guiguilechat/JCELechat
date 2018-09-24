@@ -4,190 +4,222 @@ items:
     id: 1153
     marketGroup: 306
     name: Antimatter Charge L Blueprint
+    published: true
     volume: 0.01
   Antimatter Charge M Blueprint:
     IndustryBlueprintRank: 2.0
     id: 1145
     marketGroup: 308
     name: Antimatter Charge M Blueprint
+    published: true
     volume: 0.01
   Antimatter Charge S Blueprint:
     IndustryBlueprintRank: 1.0
     id: 1137
     marketGroup: 307
     name: Antimatter Charge S Blueprint
+    published: true
     volume: 0.01
   Antimatter Charge XL Blueprint:
     IndustryBlueprintRank: 4.0
     id: 17649
     marketGroup: 598
     name: Antimatter Charge XL Blueprint
+    published: true
     volume: 0.01
   Iridium Charge L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1148
     marketGroup: 306
     name: Iridium Charge L Blueprint
+    published: true
     volume: 0.01
   Iridium Charge M Blueprint:
     IndustryBlueprintRank: 2.0
     id: 1140
     marketGroup: 308
     name: Iridium Charge M Blueprint
+    published: true
     volume: 0.01
   Iridium Charge S Blueprint:
     IndustryBlueprintRank: 1.0
     id: 1132
     marketGroup: 307
     name: Iridium Charge S Blueprint
+    published: true
     volume: 0.01
   Iridium Charge XL Blueprint:
     IndustryBlueprintRank: 4.0
     id: 17651
     marketGroup: 598
     name: Iridium Charge XL Blueprint
+    published: true
     volume: 0.01
   Iron Charge L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1146
     marketGroup: 306
     name: Iron Charge L Blueprint
+    published: true
     volume: 0.01
   Iron Charge M Blueprint:
     IndustryBlueprintRank: 2.0
     id: 1138
     marketGroup: 308
     name: Iron Charge M Blueprint
+    published: true
     volume: 0.01
   Iron Charge S Blueprint:
     IndustryBlueprintRank: 1.0
     id: 1130
     marketGroup: 307
     name: Iron Charge S Blueprint
+    published: true
     volume: 0.01
   Iron Charge XL Blueprint:
     IndustryBlueprintRank: 4.0
     id: 17653
     marketGroup: 598
     name: Iron Charge XL Blueprint
+    published: true
     volume: 0.01
   Lead Charge L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1149
     marketGroup: 306
     name: Lead Charge L Blueprint
+    published: true
     volume: 0.01
   Lead Charge M Blueprint:
     IndustryBlueprintRank: 2.0
     id: 1141
     marketGroup: 308
     name: Lead Charge M Blueprint
+    published: true
     volume: 0.01
   Lead Charge S Blueprint:
     IndustryBlueprintRank: 1.0
     id: 1133
     marketGroup: 307
     name: Lead Charge S Blueprint
+    published: true
     volume: 0.01
   Lead Charge XL Blueprint:
     IndustryBlueprintRank: 4.0
     id: 17655
     marketGroup: 598
     name: Lead Charge XL Blueprint
+    published: true
     volume: 0.01
   Plutonium Charge L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1152
     marketGroup: 306
     name: Plutonium Charge L Blueprint
+    published: true
     volume: 0.01
   Plutonium Charge M Blueprint:
     IndustryBlueprintRank: 2.0
     id: 1144
     marketGroup: 308
     name: Plutonium Charge M Blueprint
+    published: true
     volume: 0.01
   Plutonium Charge S Blueprint:
     IndustryBlueprintRank: 1.0
     id: 1136
     marketGroup: 307
     name: Plutonium Charge S Blueprint
+    published: true
     volume: 0.01
   Plutonium Charge XL Blueprint:
     IndustryBlueprintRank: 4.0
     id: 17657
     marketGroup: 598
     name: Plutonium Charge XL Blueprint
+    published: true
     volume: 0.01
   Thorium Charge L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1150
     marketGroup: 306
     name: Thorium Charge L Blueprint
+    published: true
     volume: 0.01
   Thorium Charge M Blueprint:
     IndustryBlueprintRank: 2.0
     id: 1142
     marketGroup: 308
     name: Thorium Charge M Blueprint
+    published: true
     volume: 0.01
   Thorium Charge S Blueprint:
     IndustryBlueprintRank: 1.0
     id: 1134
     marketGroup: 307
     name: Thorium Charge S Blueprint
+    published: true
     volume: 0.01
   Thorium Charge XL Blueprint:
     IndustryBlueprintRank: 4.0
     id: 17659
     marketGroup: 598
     name: Thorium Charge XL Blueprint
+    published: true
     volume: 0.01
   Tungsten Charge L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1147
     marketGroup: 306
     name: Tungsten Charge L Blueprint
+    published: true
     volume: 0.01
   Tungsten Charge M Blueprint:
     IndustryBlueprintRank: 2.0
     id: 1139
     marketGroup: 308
     name: Tungsten Charge M Blueprint
+    published: true
     volume: 0.01
   Tungsten Charge S Blueprint:
     IndustryBlueprintRank: 1.0
     id: 1131
     marketGroup: 307
     name: Tungsten Charge S Blueprint
+    published: true
     volume: 0.01
   Tungsten Charge XL Blueprint:
     IndustryBlueprintRank: 4.0
     id: 17661
     marketGroup: 598
     name: Tungsten Charge XL Blueprint
+    published: true
     volume: 0.01
   Uranium Charge L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1151
     marketGroup: 306
     name: Uranium Charge L Blueprint
+    published: true
     volume: 0.01
   Uranium Charge M Blueprint:
     IndustryBlueprintRank: 2.0
     id: 1143
     marketGroup: 308
     name: Uranium Charge M Blueprint
+    published: true
     volume: 0.01
   Uranium Charge S Blueprint:
     IndustryBlueprintRank: 1.0
     id: 1135
     marketGroup: 307
     name: Uranium Charge S Blueprint
+    published: true
     volume: 0.01
   Uranium Charge XL Blueprint:
     IndustryBlueprintRank: 4.0
     id: 17663
     marketGroup: 598
     name: Uranium Charge XL Blueprint
+    published: true
     volume: 0.01

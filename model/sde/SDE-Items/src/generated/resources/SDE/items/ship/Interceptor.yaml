@@ -80,6 +80,7 @@ items:
     id: 11202
     marketGroup: 402
     name: Ares
+    published: true
     volume: 22500.0
   Claw:
     Agility: 3.1500000953674316
@@ -162,6 +163,7 @@ items:
     id: 11196
     marketGroup: 403
     name: Claw
+    published: true
     volume: 17400.0
   Crow:
     Agility: 3.700000047683716
@@ -243,6 +245,7 @@ items:
     id: 11176
     marketGroup: 401
     name: Crow
+    published: true
     volume: 18000.0
   Crusader:
     Agility: 3.200000047683716
@@ -321,6 +324,7 @@ items:
     id: 11184
     marketGroup: 400
     name: Crusader
+    published: true
     volume: 28100.0
   Imp:
     Agility: 3.299999952316284
@@ -406,6 +410,7 @@ items:
     id: 35779
     marketGroup: 1932
     name: Imp
+    published: true
     volume: 28600.0
   Malediction:
     Agility: 3.049999952316284
@@ -487,6 +492,7 @@ items:
     id: 11186
     marketGroup: 400
     name: Malediction
+    published: true
     volume: 28100.0
   Raptor:
     Agility: 3.4000000953674316
@@ -568,6 +574,7 @@ items:
     id: 11178
     marketGroup: 401
     name: Raptor
+    published: true
     volume: 18000.0
   Stiletto:
     Agility: 3.5
@@ -650,6 +657,7 @@ items:
     id: 11198
     marketGroup: 403
     name: Stiletto
+    published: true
     volume: 17400.0
   Taranis:
     Agility: 3.25
@@ -732,6 +740,7 @@ items:
     id: 11200
     marketGroup: 402
     name: Taranis
+    published: true
     volume: 22500.0
   Whiptail:
     Agility: 3.700000047683716
@@ -818,4 +827,5 @@ items:
     id: 33673
     marketGroup: 1932
     name: Whiptail
+    published: true
     volume: 18000.0

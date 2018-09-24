@@ -24,6 +24,7 @@ items:
     id: 37274
     marketGroup: 2346
     name: Standup XL-Set Extinction Level Weapons Suite I
+    published: true
     volume: 40.0
   Standup XL-Set Extinction Level Weapons Suite II:
     CanFitShipGroup01: 1657
@@ -50,4 +51,5 @@ items:
     id: 37275
     marketGroup: 2346
     name: Standup XL-Set Extinction Level Weapons Suite II
+    published: true
     volume: 40.0

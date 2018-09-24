@@ -74,6 +74,7 @@ items:
     id: 32872
     marketGroup: 467
     name: Algos
+    published: true
     volume: 55000.0
   Catalyst:
     Agility: 2.759999990463257
@@ -146,6 +147,7 @@ items:
     id: 16240
     marketGroup: 467
     name: Catalyst
+    published: true
     volume: 55000.0
   Coercer:
     Agility: 2.7699999809265137
@@ -218,6 +220,7 @@ items:
     id: 16236
     marketGroup: 465
     name: Coercer
+    published: true
     volume: 47000.0
   Corax:
     Agility: 2.700000047683716
@@ -292,6 +295,7 @@ items:
     id: 32876
     marketGroup: 466
     name: Corax
+    published: true
     volume: 52000.0
   Cormorant:
     Agility: 2.7799999713897705
@@ -365,6 +369,7 @@ items:
     id: 16238
     marketGroup: 466
     name: Cormorant
+    published: true
     volume: 52000.0
   Dragoon:
     Agility: 2.869999885559082
@@ -443,6 +448,7 @@ items:
     id: 32874
     marketGroup: 465
     name: Dragoon
+    published: true
     volume: 47000.0
   Sunesis:
     Agility: 2.0
@@ -519,6 +525,7 @@ items:
     id: 42685
     marketGroup: 2350
     name: Sunesis
+    published: true
     volume: 55000.0
   Talwar:
     Agility: 2.9000000953674316
@@ -593,6 +600,7 @@ items:
     id: 32878
     marketGroup: 468
     name: Talwar
+    published: true
     volume: 43000.0
   Thrasher:
     Agility: 2.799999952316284
@@ -666,4 +674,5 @@ items:
     id: 16242
     marketGroup: 468
     name: Thrasher
+    published: true
     volume: 43000.0

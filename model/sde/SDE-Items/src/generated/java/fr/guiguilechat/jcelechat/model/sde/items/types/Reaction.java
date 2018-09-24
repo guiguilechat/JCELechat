@@ -5,7 +5,6 @@ import java.util.Collection;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.types.reaction.FreedomPrograms;
 
 public abstract class Reaction
     extends Item
@@ -33,7 +32,7 @@ public abstract class Reaction
 
         @Override
         public Collection<IMetaGroup<? extends Reaction>> groups() {
-            return Arrays.asList(FreedomPrograms.METAGROUP);
+            return Arrays.asList();
         }
     }
 }

@@ -12,6 +12,7 @@ items:
     id: 42837
     marketGroup: 2299
     name: Electronic Hardening Charge
+    published: true
     volume: 0.01
   Electronic Superiority Charge:
     LauncherGroup: 1770
@@ -24,6 +25,7 @@ items:
     id: 42836
     marketGroup: 2299
     name: Electronic Superiority Charge
+    published: true
     volume: 0.01
   Sensor Optimization Charge:
     LauncherGroup: 1770
@@ -38,4 +40,5 @@ items:
     id: 42835
     marketGroup: 2299
     name: Sensor Optimization Charge
+    published: true
     volume: 0.01

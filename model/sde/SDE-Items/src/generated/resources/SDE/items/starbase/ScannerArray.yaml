@@ -31,4 +31,5 @@ items:
     id: 27675
     marketGroup: 1010
     name: System Scanning Array
+    published: true
     volume: 4000.0

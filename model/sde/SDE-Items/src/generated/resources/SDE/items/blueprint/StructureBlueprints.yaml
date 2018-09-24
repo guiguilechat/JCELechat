@@ -3,43 +3,52 @@ items:
     id: 36966
     marketGroup: 2156
     name: Astrahus Blueprint
+    published: true
     volume: 0.01
   Athanor Blueprint:
     id: 36977
     marketGroup: 2393
     name: Athanor Blueprint
+    published: true
     volume: 0.01
   Azbel Blueprint:
     id: 36972
     marketGroup: 2322
     name: Azbel Blueprint
+    published: true
     volume: 0.01
   Fortizar Blueprint:
     id: 36967
     marketGroup: 2156
     name: Fortizar Blueprint
+    published: true
     volume: 0.01
   Keepstar Blueprint:
     id: 36968
     marketGroup: 2156
     name: Keepstar Blueprint
+    published: true
     volume: 0.01
   Raitaru Blueprint:
     id: 36971
     marketGroup: 2322
     name: Raitaru Blueprint
+    published: true
     volume: 0.01
   Sotiyo Blueprint:
     id: 36973
     marketGroup: 2322
     name: Sotiyo Blueprint
+    published: true
     volume: 0.01
   Tatara Blueprint:
     id: 36978
     marketGroup: 2393
     name: Tatara Blueprint
+    published: true
     volume: 0.01
   Upwell Palatine Keepstar Blueprint:
     id: 40521
     name: Upwell Palatine Keepstar Blueprint
+    published: true
     volume: 0.01

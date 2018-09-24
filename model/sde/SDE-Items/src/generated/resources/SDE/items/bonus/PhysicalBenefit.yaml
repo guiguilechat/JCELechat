@@ -1,0 +1,124 @@
+items:
+  August Demeanor Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1619
+    name: August Demeanor Bonus
+    published: false
+  Booster Immunity Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1627
+    name: Booster Immunity Bonus
+    published: false
+  Computer Empathy Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 0.800000011920929
+    MiningAmountMultiplier: 1.0
+    id: 1611
+    name: Computer Empathy Bonus
+    published: false
+  Creative Bonus:
+    AccuracyMultiplier: 1.0
+    BlueprintResearchTimeMultiplierBonus: -0.05000000074505806
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1617
+    name: Creative Bonus
+    published: false
+  Deft Hands Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1615
+    name: Deft Hands Bonus
+    published: false
+  Doctrine Ingrained Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1624
+    name: Doctrine Ingrained Bonus
+    published: false
+  Glib Tongue Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1618
+    name: Glib Tongue Bonus
+    published: false
+  High-G Tolerance Bonus:
+    AccuracyMultiplier: 1.0
+    AgilityMultiplier: 1.0499999523162842
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1621
+    name: High-G Tolerance Bonus
+    published: false
+  Killer Instinct Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1614
+    name: Killer Instinct Bonus
+    published: false
+  Ordered Mind Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1612
+    name: Ordered Mind Bonus
+    published: false
+  Standard DNA Pattern Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1613
+    name: Standard DNA Pattern Bonus
+    published: false
+  Stratum Form Feel Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.100000023841858
+    id: 1623
+    name: Stratum Form Feel Bonus
+    published: false
+  Structural Understanding Bonus:
+    AccuracyMultiplier: 1.0
+    BlueprintManufactureTimeMultiplierBonus: -0.05000000074505806
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1616
+    name: Structural Understanding Bonus
+    published: false
+  Superior Motion Sense Bonus:
+    AccuracyMultiplier: 1.0199999809265137
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1620
+    name: Superior Motion Sense Bonus
+    published: false
+  Swift Neural Grafting Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1626
+    name: Swift Neural Grafting Bonus
+    published: false
+  Three Dimensional Thinking Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    MissileDamageMultiplierBonus: 0.05000000074505806
+    id: 1625
+    name: Three Dimensional Thinking Bonus
+    published: false
+  Vector Reckoning Bonus:
+    AccuracyMultiplier: 1.0
+    CpuMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    id: 1622
+    name: Vector Reckoning Bonus
+    published: false

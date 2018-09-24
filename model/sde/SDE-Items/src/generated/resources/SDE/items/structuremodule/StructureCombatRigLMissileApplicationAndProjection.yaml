@@ -20,6 +20,7 @@ items:
     id: 37248
     marketGroup: 2345
     name: Standup L-Set Missile Flight Processor I
+    published: true
     volume: 20.0
   Standup L-Set Missile Flight Processor II:
     CanFitShipGroup01: 1657
@@ -42,4 +43,5 @@ items:
     id: 37249
     marketGroup: 2345
     name: Standup L-Set Missile Flight Processor II
+    published: true
     volume: 20.0

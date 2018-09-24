@@ -10,6 +10,7 @@ items:
     id: 6485
     marketGroup: 126
     name: M51 Benefactor Compact Shield Recharger
+    published: true
     volume: 5.0
   Republic Fleet Shield Recharger:
     Cpu: 25.0
@@ -24,6 +25,7 @@ items:
     id: 37805
     marketGroup: 126
     name: Republic Fleet Shield Recharger
+    published: true
     volume: 5.0
   Shield Recharger I:
     Hp: 40
@@ -35,6 +37,7 @@ items:
     id: 393
     marketGroup: 126
     name: Shield Recharger I
+    published: true
     volume: 5.0
   Shield Recharger II:
     Hp: 40
@@ -47,4 +50,5 @@ items:
     id: 394
     marketGroup: 126
     name: Shield Recharger II
+    published: true
     volume: 5.0

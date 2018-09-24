@@ -1,5 +1,6 @@
 items:
   Affirmative. Modified Entosis Link:
+    CanCloak: 1
     CapacitorNeed: 20.0
     ConsumptionQuantity: 1
     ConsumptionType: 16275
@@ -24,8 +25,10 @@ items:
     id: 40309
     marketGroup: 2018
     name: Affirmative. Modified Entosis Link
+    published: true
     volume: 10.0
   Entosis Link I:
+    CanCloak: 1
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1
     ConsumptionType: 16275
@@ -49,8 +52,10 @@ items:
     id: 34593
     marketGroup: 2018
     name: Entosis Link I
+    published: true
     volume: 20.0
   Entosis Link II:
+    CanCloak: 1
     CapacitorNeed: 500.0
     ConsumptionQuantity: 1
     ConsumptionType: 16275
@@ -75,8 +80,10 @@ items:
     id: 34595
     marketGroup: 2018
     name: Entosis Link II
+    published: true
     volume: 20.0
   Noir. Modified Entosis Link:
+    CanCloak: 1
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1
     ConsumptionType: 16275
@@ -101,8 +108,10 @@ items:
     id: 40307
     marketGroup: 2018
     name: Noir. Modified Entosis Link
+    published: true
     volume: 10.0
   Pandemic SPHERE Modified Entosis Link:
+    CanCloak: 1
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1
     ConsumptionType: 16275
@@ -127,8 +136,10 @@ items:
     id: 40310
     marketGroup: 2018
     name: Pandemic SPHERE Modified Entosis Link
+    published: true
     volume: 10.0
   Spectre Fleet's Modified Entosis Link:
+    CanCloak: 1
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1
     ConsumptionType: 16275
@@ -153,4 +164,5 @@ items:
     id: 40308
     marketGroup: 2018
     name: Spectre Fleet's Modified Entosis Link
+    published: true
     volume: 10.0

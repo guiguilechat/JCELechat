@@ -21,6 +21,7 @@ items:
     id: 35923
     marketGroup: 2229
     name: Standup Guided Bomb Launcher I
+    published: true
     volume: 8000.0
   Standup Guided Bomb Launcher II:
     CanFitShipGroup01: 1657
@@ -45,4 +46,5 @@ items:
     id: 47325
     marketGroup: 2229
     name: Standup Guided Bomb Launcher II
+    published: true
     volume: 8000.0

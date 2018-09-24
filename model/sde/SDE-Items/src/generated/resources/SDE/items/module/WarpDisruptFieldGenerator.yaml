@@ -12,7 +12,7 @@ items:
     HeatDamage: 3.0
     Hp: 40
     MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1.0
+    MaxVelocityMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -33.29999923706055
@@ -32,6 +32,7 @@ items:
     id: 37613
     marketGroup: 1085
     name: CONCORD Warp Disruption Field Generator
+    published: true
     volume: 50.0
   Clutch Restrained Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
@@ -46,7 +47,7 @@ items:
     HeatDamage: 3.0
     Hp: 40
     MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1.0
+    MaxVelocityMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
@@ -65,6 +66,7 @@ items:
     id: 37610
     marketGroup: 1085
     name: Clutch Restrained Warp Disruption Field Generator
+    published: true
     volume: 50.0
   M-36 Enduring Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
@@ -79,7 +81,7 @@ items:
     HeatDamage: 3.0
     Hp: 40
     MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1.0
+    MaxVelocityMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
@@ -98,6 +100,7 @@ items:
     id: 37611
     marketGroup: 1085
     name: M-36 Enduring Warp Disruption Field Generator
+    published: true
     volume: 50.0
   Pitfall Compact Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
@@ -112,7 +115,7 @@ items:
     HeatDamage: 3.0
     Hp: 40
     MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1.0
+    MaxVelocityMultiplier: 1
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 76
@@ -131,6 +134,7 @@ items:
     id: 37608
     marketGroup: 1085
     name: Pitfall Compact Warp Disruption Field Generator
+    published: true
     volume: 50.0
   True Sansha Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
@@ -145,7 +149,7 @@ items:
     HeatDamage: 3.0
     Hp: 40
     MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1.0
+    MaxVelocityMultiplier: 1
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -33.29999923706055
@@ -165,6 +169,7 @@ items:
     id: 37612
     marketGroup: 1085
     name: True Sansha Warp Disruption Field Generator
+    published: true
     volume: 50.0
   Warp Disruption Field Generator I:
     ActivationBlockedStrenght: 1
@@ -178,7 +183,7 @@ items:
     HeatDamage: 3.0
     Hp: 40
     MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1.0
+    MaxVelocityMultiplier: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
     ReloadTime: 0.009999999776482582
@@ -196,6 +201,7 @@ items:
     id: 28654
     marketGroup: 1085
     name: Warp Disruption Field Generator I
+    published: true
     volume: 50.0
   Warp Disruption Field Generator II:
     ActivationBlockedStrenght: 1
@@ -210,7 +216,7 @@ items:
     HeatDamage: 3.0
     Hp: 40
     MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1.0
+    MaxVelocityMultiplier: 1
     MetaLevel: 5
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 84
@@ -229,4 +235,5 @@ items:
     id: 4248
     marketGroup: 1085
     name: Warp Disruption Field Generator II
+    published: true
     volume: 50.0

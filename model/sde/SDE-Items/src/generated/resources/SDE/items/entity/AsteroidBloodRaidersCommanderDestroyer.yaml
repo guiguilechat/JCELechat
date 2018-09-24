@@ -1,0 +1,31 @@
+items:
+  Dark Blood Cleric:
+    id: 23292
+    name: Dark Blood Cleric
+    published: false
+    volume: 28600.0
+  Dark Blood Converter:
+    id: 23288
+    name: Dark Blood Converter
+    published: false
+    volume: 28600.0
+  Dark Blood Devoter:
+    id: 23290
+    name: Dark Blood Devoter
+    published: false
+    volume: 28600.0
+  Dark Blood Friar:
+    id: 23291
+    name: Dark Blood Friar
+    published: false
+    volume: 28600.0
+  Dark Blood Templar:
+    id: 23289
+    name: Dark Blood Templar
+    published: false
+    volume: 28600.0
+  Dark Blood Visionary:
+    id: 23287
+    name: Dark Blood Visionary
+    published: false
+    volume: 28600.0

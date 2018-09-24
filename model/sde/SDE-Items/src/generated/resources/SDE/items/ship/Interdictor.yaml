@@ -81,6 +81,7 @@ items:
     id: 22460
     marketGroup: 832
     name: Eris
+    published: true
     volume: 55000.0
   Flycatcher:
     Agility: 3.5999999046325684
@@ -101,6 +102,7 @@ items:
     FwLpKill: 80
     GfxBoosterID: 395
     HeatAttenuationHi: 0.8199999928474426
+    HeatAttenuationLow: 1.0
     HeatAttenuationMed: 0.7099999785423279
     HeatCapacityHi: 100
     HeatCapacityLow: 100
@@ -163,6 +165,7 @@ items:
     id: 22464
     marketGroup: 829
     name: Flycatcher
+    published: true
     volume: 52000.0
   Heretic:
     Agility: 3.5999999046325684
@@ -246,6 +249,7 @@ items:
     id: 22452
     marketGroup: 826
     name: Heretic
+    published: true
     volume: 47000.0
   Sabre:
     Agility: 3.700000047683716
@@ -329,4 +333,5 @@ items:
     id: 22456
     marketGroup: 835
     name: Sabre
+    published: true
     volume: 43000.0

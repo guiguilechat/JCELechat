@@ -5,6 +5,7 @@ import java.util.Collection;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.types.trading.TradeSession;
 
 public abstract class Trading
     extends Item
@@ -32,7 +33,7 @@ public abstract class Trading
 
         @Override
         public Collection<IMetaGroup<? extends Trading>> groups() {
-            return Arrays.asList();
+            return Arrays.asList(fr.guiguilechat.jcelechat.model.sde.items.types.trading.Trading.METAGROUP, TradeSession.METAGROUP);
         }
     }
 }

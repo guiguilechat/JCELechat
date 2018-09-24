@@ -24,6 +24,7 @@ items:
     id: 27489
     marketGroup: 1192
     name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
+    published: true
     volume: 0.03
   Federation Navy Inferno Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
@@ -50,6 +51,7 @@ items:
     id: 27495
     marketGroup: 1192
     name: Federation Navy Inferno Auto-Targeting Heavy Missile I
+    published: true
     volume: 0.03
   Imperial Navy Mjolnir Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
@@ -76,6 +78,7 @@ items:
     id: 27483
     marketGroup: 1192
     name: Imperial Navy Mjolnir Auto-Targeting Heavy Missile I
+    published: true
     volume: 0.03
   Inferno Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
@@ -101,6 +104,7 @@ items:
     id: 1824
     marketGroup: 914
     name: Inferno Auto-Targeting Heavy Missile I
+    published: true
     volume: 0.03
   Mjolnir Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
@@ -126,6 +130,7 @@ items:
     id: 1820
     marketGroup: 914
     name: Mjolnir Auto-Targeting Heavy Missile I
+    published: true
     volume: 0.03
   Nova Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
@@ -151,6 +156,7 @@ items:
     id: 1822
     marketGroup: 914
     name: Nova Auto-Targeting Heavy Missile I
+    published: true
     volume: 0.03
   Republic Fleet Nova Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
@@ -177,6 +183,7 @@ items:
     id: 27501
     marketGroup: 1192
     name: Republic Fleet Nova Auto-Targeting Heavy Missile I
+    published: true
     volume: 0.03
   Scourge Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
@@ -202,4 +209,5 @@ items:
     id: 1818
     marketGroup: 914
     name: Scourge Auto-Targeting Heavy Missile I
+    published: true
     volume: 0.03

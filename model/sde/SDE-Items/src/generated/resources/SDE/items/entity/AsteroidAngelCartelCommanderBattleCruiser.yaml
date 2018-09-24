@@ -1,0 +1,31 @@
+items:
+  Domination Legatus:
+    id: 22870
+    name: Domination Legatus
+    published: false
+    volume: 109000.0
+  Domination Legionnaire:
+    id: 22865
+    name: Domination Legionnaire
+    published: false
+    volume: 109000.0
+  Domination Praefectus:
+    id: 22868
+    name: Domination Praefectus
+    published: false
+    volume: 109000.0
+  Domination Primus:
+    id: 22866
+    name: Domination Primus
+    published: false
+    volume: 109000.0
+  Domination Tribuni:
+    id: 22867
+    name: Domination Tribuni
+    published: false
+    volume: 109000.0
+  Domination Tribunus:
+    id: 22869
+    name: Domination Tribunus
+    published: false
+    volume: 109000.0

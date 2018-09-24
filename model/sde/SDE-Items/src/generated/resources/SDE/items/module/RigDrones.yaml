@@ -9,6 +9,7 @@ items:
     id: 33277
     marketGroup: 1739
     name: Capital Drone Control Range Augmentor I
+    published: true
     volume: 40.0
   Capital Drone Control Range Augmentor II:
     Drawback: -10
@@ -21,6 +22,7 @@ items:
     id: 33279
     marketGroup: 1739
     name: Capital Drone Control Range Augmentor II
+    published: true
     volume: 40.0
   Capital Drone Durability Enhancer I:
     Drawback: -10
@@ -32,6 +34,7 @@ items:
     id: 33281
     marketGroup: 1739
     name: Capital Drone Durability Enhancer I
+    published: true
     volume: 40.0
   Capital Drone Durability Enhancer II:
     Drawback: -10
@@ -44,6 +47,7 @@ items:
     id: 33283
     marketGroup: 1739
     name: Capital Drone Durability Enhancer II
+    published: true
     volume: 40.0
   Capital Drone Mining Augmentor I:
     Drawback: -10
@@ -56,6 +60,7 @@ items:
     id: 33285
     marketGroup: 1739
     name: Capital Drone Mining Augmentor I
+    published: true
     volume: 40.0
   Capital Drone Mining Augmentor II:
     Drawback: -10
@@ -69,6 +74,7 @@ items:
     id: 33287
     marketGroup: 1739
     name: Capital Drone Mining Augmentor II
+    published: true
     volume: 40.0
   Capital Drone Repair Augmentor I:
     DamageHP: 10
@@ -80,6 +86,7 @@ items:
     id: 33289
     marketGroup: 1739
     name: Capital Drone Repair Augmentor I
+    published: true
     volume: 40.0
   Capital Drone Repair Augmentor II:
     DamageHP: 15
@@ -92,6 +99,7 @@ items:
     id: 33291
     marketGroup: 1739
     name: Capital Drone Repair Augmentor II
+    published: true
     volume: 40.0
   Capital Drone Scope Chip I:
     Drawback: -10
@@ -103,6 +111,7 @@ items:
     id: 33293
     marketGroup: 1739
     name: Capital Drone Scope Chip I
+    published: true
     volume: 40.0
   Capital Drone Scope Chip II:
     Drawback: -10
@@ -115,6 +124,7 @@ items:
     id: 33295
     marketGroup: 1739
     name: Capital Drone Scope Chip II
+    published: true
     volume: 40.0
   Capital Drone Speed Augmentor I:
     Drawback: -10
@@ -126,6 +136,7 @@ items:
     id: 33297
     marketGroup: 1739
     name: Capital Drone Speed Augmentor I
+    published: true
     volume: 40.0
   Capital Drone Speed Augmentor II:
     Drawback: -10
@@ -138,6 +149,7 @@ items:
     id: 33298
     marketGroup: 1739
     name: Capital Drone Speed Augmentor II
+    published: true
     volume: 40.0
   Capital Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
@@ -149,6 +161,7 @@ items:
     id: 33307
     marketGroup: 1739
     name: Capital Sentry Damage Augmentor I
+    published: true
     volume: 40.0
   Capital Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
@@ -161,6 +174,7 @@ items:
     id: 33309
     marketGroup: 1739
     name: Capital Sentry Damage Augmentor II
+    published: true
     volume: 40.0
   Capital Stasis Drone Augmentor I:
     Drawback: -10
@@ -172,6 +186,7 @@ items:
     id: 33311
     marketGroup: 1739
     name: Capital Stasis Drone Augmentor I
+    published: true
     volume: 40.0
   Capital Stasis Drone Augmentor II:
     Drawback: -10
@@ -184,6 +199,7 @@ items:
     id: 33313
     marketGroup: 1739
     name: Capital Stasis Drone Augmentor II
+    published: true
     volume: 40.0
   Large Drone Control Range Augmentor I:
     Drawback: -10
@@ -195,6 +211,7 @@ items:
     id: 25908
     marketGroup: 1215
     name: Large Drone Control Range Augmentor I
+    published: true
     volume: 20.0
   Large Drone Control Range Augmentor II:
     Drawback: -10
@@ -207,6 +224,7 @@ items:
     id: 26324
     marketGroup: 1215
     name: Large Drone Control Range Augmentor II
+    published: true
     volume: 20.0
   Large Drone Durability Enhancer I:
     Drawback: -10
@@ -218,6 +236,7 @@ items:
     id: 25916
     marketGroup: 1215
     name: Large Drone Durability Enhancer I
+    published: true
     volume: 20.0
   Large Drone Durability Enhancer II:
     Drawback: -10
@@ -230,6 +249,7 @@ items:
     id: 26326
     marketGroup: 1215
     name: Large Drone Durability Enhancer II
+    published: true
     volume: 20.0
   Large Drone Mining Augmentor I:
     Drawback: -10
@@ -242,6 +262,7 @@ items:
     id: 25918
     marketGroup: 1215
     name: Large Drone Mining Augmentor I
+    published: true
     volume: 20.0
   Large Drone Mining Augmentor II:
     Drawback: -10
@@ -255,6 +276,7 @@ items:
     id: 26328
     marketGroup: 1215
     name: Large Drone Mining Augmentor II
+    published: true
     volume: 20.0
   Large Drone Repair Augmentor I:
     DamageHP: 10
@@ -266,6 +288,7 @@ items:
     id: 25910
     marketGroup: 1215
     name: Large Drone Repair Augmentor I
+    published: true
     volume: 20.0
   Large Drone Repair Augmentor II:
     DamageHP: 15
@@ -278,6 +301,7 @@ items:
     id: 26330
     marketGroup: 1215
     name: Large Drone Repair Augmentor II
+    published: true
     volume: 20.0
   Large Drone Scope Chip I:
     Drawback: -10
@@ -289,6 +313,7 @@ items:
     id: 25912
     marketGroup: 1215
     name: Large Drone Scope Chip I
+    published: true
     volume: 20.0
   Large Drone Scope Chip II:
     Drawback: -10
@@ -301,6 +326,7 @@ items:
     id: 26332
     marketGroup: 1215
     name: Large Drone Scope Chip II
+    published: true
     volume: 20.0
   Large Drone Speed Augmentor I:
     Drawback: -10
@@ -312,6 +338,7 @@ items:
     id: 25914
     marketGroup: 1215
     name: Large Drone Speed Augmentor I
+    published: true
     volume: 20.0
   Large Drone Speed Augmentor II:
     Drawback: -10
@@ -325,6 +352,7 @@ items:
     id: 26334
     marketGroup: 1215
     name: Large Drone Speed Augmentor II
+    published: true
     volume: 20.0
   Large Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
@@ -336,6 +364,7 @@ items:
     id: 25920
     marketGroup: 1215
     name: Large Sentry Damage Augmentor I
+    published: true
     volume: 20.0
   Large Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
@@ -348,6 +377,7 @@ items:
     id: 26338
     marketGroup: 1215
     name: Large Sentry Damage Augmentor II
+    published: true
     volume: 20.0
   Large Stasis Drone Augmentor I:
     Drawback: -10
@@ -359,6 +389,7 @@ items:
     id: 25924
     marketGroup: 1215
     name: Large Stasis Drone Augmentor I
+    published: true
     volume: 20.0
   Large Stasis Drone Augmentor II:
     Drawback: -10
@@ -371,6 +402,7 @@ items:
     id: 26340
     marketGroup: 1215
     name: Large Stasis Drone Augmentor II
+    published: true
     volume: 20.0
   Medium Drone Control Range Augmentor I:
     Drawback: -10
@@ -382,6 +414,7 @@ items:
     id: 32027
     marketGroup: 1214
     name: Medium Drone Control Range Augmentor I
+    published: true
     volume: 10.0
   Medium Drone Control Range Augmentor II:
     Drawback: -10
@@ -394,6 +427,7 @@ items:
     id: 32031
     marketGroup: 1214
     name: Medium Drone Control Range Augmentor II
+    published: true
     volume: 10.0
   Medium Drone Durability Enhancer I:
     Drawback: -10
@@ -405,6 +439,7 @@ items:
     id: 32035
     marketGroup: 1214
     name: Medium Drone Durability Enhancer I
+    published: true
     volume: 10.0
   Medium Drone Durability Enhancer II:
     Drawback: -10
@@ -417,6 +452,7 @@ items:
     id: 32039
     marketGroup: 1214
     name: Medium Drone Durability Enhancer II
+    published: true
     volume: 10.0
   Medium Drone Mining Augmentor I:
     Drawback: -10
@@ -429,6 +465,7 @@ items:
     id: 32043
     marketGroup: 1214
     name: Medium Drone Mining Augmentor I
+    published: true
     volume: 10.0
   Medium Drone Mining Augmentor II:
     Drawback: -10
@@ -442,6 +479,7 @@ items:
     id: 32047
     marketGroup: 1214
     name: Medium Drone Mining Augmentor II
+    published: true
     volume: 10.0
   Medium Drone Repair Augmentor I:
     DamageHP: 10
@@ -453,6 +491,7 @@ items:
     id: 32051
     marketGroup: 1214
     name: Medium Drone Repair Augmentor I
+    published: true
     volume: 10.0
   Medium Drone Repair Augmentor II:
     DamageHP: 15
@@ -465,6 +504,7 @@ items:
     id: 32055
     marketGroup: 1214
     name: Medium Drone Repair Augmentor II
+    published: true
     volume: 10.0
   Medium Drone Scope Chip I:
     Drawback: -10
@@ -476,6 +516,7 @@ items:
     id: 32071
     marketGroup: 1214
     name: Medium Drone Scope Chip I
+    published: true
     volume: 10.0
   Medium Drone Scope Chip II:
     Drawback: -10
@@ -488,6 +529,7 @@ items:
     id: 32075
     marketGroup: 1214
     name: Medium Drone Scope Chip II
+    published: true
     volume: 10.0
   Medium Drone Speed Augmentor I:
     Drawback: -10
@@ -499,6 +541,7 @@ items:
     id: 32059
     marketGroup: 1214
     name: Medium Drone Speed Augmentor I
+    published: true
     volume: 10.0
   Medium Drone Speed Augmentor II:
     Drawback: -10
@@ -512,6 +555,7 @@ items:
     id: 32063
     marketGroup: 1214
     name: Medium Drone Speed Augmentor II
+    published: true
     volume: 10.0
   Medium Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
@@ -523,6 +567,7 @@ items:
     id: 32083
     marketGroup: 1214
     name: Medium Sentry Damage Augmentor I
+    published: true
     volume: 10.0
   Medium Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
@@ -535,6 +580,7 @@ items:
     id: 32087
     marketGroup: 1214
     name: Medium Sentry Damage Augmentor II
+    published: true
     volume: 10.0
   Medium Stasis Drone Augmentor I:
     Drawback: -10
@@ -546,6 +592,7 @@ items:
     id: 32091
     marketGroup: 1214
     name: Medium Stasis Drone Augmentor I
+    published: true
     volume: 10.0
   Medium Stasis Drone Augmentor II:
     Drawback: -10
@@ -558,6 +605,7 @@ items:
     id: 32095
     marketGroup: 1214
     name: Medium Stasis Drone Augmentor II
+    published: true
     volume: 10.0
   Small Drone Control Range Augmentor I:
     Drawback: -10
@@ -569,6 +617,7 @@ items:
     id: 32025
     marketGroup: 1213
     name: Small Drone Control Range Augmentor I
+    published: true
     volume: 5.0
   Small Drone Control Range Augmentor II:
     Drawback: -10
@@ -581,6 +630,7 @@ items:
     id: 32029
     marketGroup: 1213
     name: Small Drone Control Range Augmentor II
+    published: true
     volume: 5.0
   Small Drone Durability Enhancer I:
     Drawback: -10
@@ -592,6 +642,7 @@ items:
     id: 32033
     marketGroup: 1213
     name: Small Drone Durability Enhancer I
+    published: true
     volume: 5.0
   Small Drone Durability Enhancer II:
     Drawback: -10
@@ -604,6 +655,7 @@ items:
     id: 32037
     marketGroup: 1213
     name: Small Drone Durability Enhancer II
+    published: true
     volume: 5.0
   Small Drone Mining Augmentor I:
     Drawback: -10
@@ -616,6 +668,7 @@ items:
     id: 32041
     marketGroup: 1213
     name: Small Drone Mining Augmentor I
+    published: true
     volume: 5.0
   Small Drone Mining Augmentor II:
     Drawback: -10
@@ -629,6 +682,7 @@ items:
     id: 32045
     marketGroup: 1213
     name: Small Drone Mining Augmentor II
+    published: true
     volume: 5.0
   Small Drone Repair Augmentor I:
     DamageHP: 10
@@ -640,6 +694,7 @@ items:
     id: 32049
     marketGroup: 1213
     name: Small Drone Repair Augmentor I
+    published: true
     volume: 5.0
   Small Drone Repair Augmentor II:
     DamageHP: 15
@@ -652,6 +707,7 @@ items:
     id: 32053
     marketGroup: 1213
     name: Small Drone Repair Augmentor II
+    published: true
     volume: 5.0
   Small Drone Scope Chip I:
     Drawback: -10
@@ -663,6 +719,7 @@ items:
     id: 32069
     marketGroup: 1213
     name: Small Drone Scope Chip I
+    published: true
     volume: 5.0
   Small Drone Scope Chip II:
     Drawback: -10
@@ -675,6 +732,7 @@ items:
     id: 32073
     marketGroup: 1213
     name: Small Drone Scope Chip II
+    published: true
     volume: 5.0
   Small Drone Speed Augmentor I:
     Drawback: -10
@@ -686,6 +744,7 @@ items:
     id: 32057
     marketGroup: 1213
     name: Small Drone Speed Augmentor I
+    published: true
     volume: 5.0
   Small Drone Speed Augmentor II:
     Drawback: -10
@@ -699,6 +758,7 @@ items:
     id: 32061
     marketGroup: 1213
     name: Small Drone Speed Augmentor II
+    published: true
     volume: 5.0
   Small Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
@@ -710,6 +770,7 @@ items:
     id: 32081
     marketGroup: 1213
     name: Small Sentry Damage Augmentor I
+    published: true
     volume: 5.0
   Small Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
@@ -722,6 +783,7 @@ items:
     id: 32085
     marketGroup: 1213
     name: Small Sentry Damage Augmentor II
+    published: true
     volume: 5.0
   Small Stasis Drone Augmentor I:
     Drawback: -10
@@ -733,6 +795,7 @@ items:
     id: 32089
     marketGroup: 1213
     name: Small Stasis Drone Augmentor I
+    published: true
     volume: 5.0
   Small Stasis Drone Augmentor II:
     Drawback: -10
@@ -745,4 +808,5 @@ items:
     id: 32093
     marketGroup: 1213
     name: Small Stasis Drone Augmentor II
+    published: true
     volume: 5.0

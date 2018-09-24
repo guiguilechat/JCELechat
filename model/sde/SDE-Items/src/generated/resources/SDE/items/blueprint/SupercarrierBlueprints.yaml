@@ -4,31 +4,37 @@ items:
     id: 23920
     marketGroup: 888
     name: Aeon Blueprint
+    published: true
     volume: 0.01
   Hel Blueprint:
     IndustryBlueprintRank: 400.0
     id: 22853
     marketGroup: 891
     name: Hel Blueprint
+    published: true
     volume: 0.01
   Nyx Blueprint:
     IndustryBlueprintRank: 400.0
     id: 23914
     marketGroup: 890
     name: Nyx Blueprint
+    published: true
     volume: 0.01
   Revenant Blueprint:
     IndustryBlueprintRank: 400.0
     id: 3515
     name: Revenant Blueprint
+    published: true
     volume: 0.01
   Vendetta Blueprint:
     id: 42137
     name: Vendetta Blueprint
+    published: true
     volume: 0.01
   Wyvern Blueprint:
     IndustryBlueprintRank: 400.0
     id: 23918
     marketGroup: 889
     name: Wyvern Blueprint
+    published: true
     volume: 0.01

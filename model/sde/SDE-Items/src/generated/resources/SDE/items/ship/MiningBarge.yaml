@@ -20,6 +20,7 @@ items:
     GfxBoosterID: 397
     HeatAttenuationHi: 0.25
     HeatAttenuationLow: 0.5
+    HeatAttenuationMed: 1.0
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -76,6 +77,7 @@ items:
     id: 17476
     marketGroup: 494
     name: Covetor
+    published: true
     volume: 200000.0
   Procurer:
     AffectedByIndustrialInvulnModule: 1
@@ -156,6 +158,7 @@ items:
     id: 17480
     marketGroup: 494
     name: Procurer
+    published: true
     volume: 100000.0
   Retriever:
     AffectedByIndustrialInvulnModule: 1
@@ -178,6 +181,7 @@ items:
     GfxBoosterID: 397
     HeatAttenuationHi: 0.25
     HeatAttenuationLow: 0.5
+    HeatAttenuationMed: 1.0
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -233,4 +237,5 @@ items:
     id: 17478
     marketGroup: 494
     name: Retriever
+    published: true
     volume: 150000.0

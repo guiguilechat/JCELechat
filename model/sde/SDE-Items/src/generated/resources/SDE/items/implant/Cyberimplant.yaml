@@ -22,10 +22,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
     id: 33516
     marketGroup: 618
     name: High-grade Ascendancy Alpha
+    published: true
     volume: 1.0
   High-grade Ascendancy Beta:
     ImplantSetAngel: 1.0
@@ -50,10 +52,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
     id: 33525
     marketGroup: 619
     name: High-grade Ascendancy Beta
+    published: true
     volume: 1.0
   High-grade Ascendancy Delta:
     ImplantSetAngel: 1.0
@@ -78,10 +82,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
     id: 33526
     marketGroup: 621
     name: High-grade Ascendancy Delta
+    published: true
     volume: 1.0
   High-grade Ascendancy Epsilon:
     CharismaBonus: 4
@@ -106,10 +112,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
     id: 33527
     marketGroup: 622
     name: High-grade Ascendancy Epsilon
+    published: true
     volume: 1.0
   High-grade Ascendancy Gamma:
     ImplantSetAngel: 1.0
@@ -133,11 +141,13 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 3
     WillpowerBonus: 4
     id: 33528
     marketGroup: 620
     name: High-grade Ascendancy Gamma
+    published: true
     volume: 1.0
   High-grade Ascendancy Omega:
     ImplantSetAngel: 1.0
@@ -161,9 +171,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33529
     marketGroup: 1506
     name: High-grade Ascendancy Omega
+    published: true
     volume: 1.0
   High-grade Asklepian Alpha:
     ArmorRepairBonus: 1
@@ -190,9 +202,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42210
     marketGroup: 618
     name: High-grade Asklepian Alpha
+    published: true
     volume: 1.0
   High-grade Asklepian Beta:
     ArmorRepairBonus: 2
@@ -219,9 +233,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42211
     marketGroup: 619
     name: High-grade Asklepian Beta
+    published: true
     volume: 1.0
   High-grade Asklepian Delta:
     ArmorRepairBonus: 4
@@ -248,9 +264,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42213
     marketGroup: 621
     name: High-grade Asklepian Delta
+    published: true
     volume: 1.0
   High-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
@@ -277,9 +295,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42214
     marketGroup: 622
     name: High-grade Asklepian Epsilon
+    published: true
     volume: 1.0
   High-grade Asklepian Gamma:
     ArmorRepairBonus: 3
@@ -305,10 +325,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 42212
     marketGroup: 620
     name: High-grade Asklepian Gamma
+    published: true
     volume: 1.0
   High-grade Asklepian Omega:
     ImplantSetAngel: 1.0
@@ -333,9 +355,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42215
     marketGroup: 1506
     name: High-grade Asklepian Omega
+    published: true
     volume: 1.0
   High-grade Crystal Alpha:
     ImplantSetAngel: 1.0
@@ -361,9 +385,11 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20121
     marketGroup: 618
     name: High-grade Crystal Alpha
+    published: true
     volume: 1.0
   High-grade Crystal Beta:
     ImplantSetAngel: 1.0
@@ -389,9 +415,11 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20157
     marketGroup: 619
     name: High-grade Crystal Beta
+    published: true
     volume: 1.0
   High-grade Crystal Delta:
     ImplantSetAngel: 1.0
@@ -417,9 +445,11 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20159
     marketGroup: 621
     name: High-grade Crystal Delta
+    published: true
     volume: 1.0
   High-grade Crystal Epsilon:
     CharismaBonus: 4
@@ -445,9 +475,11 @@ items:
     RequiredSkill1Level: 4
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20160
     marketGroup: 622
     name: High-grade Crystal Epsilon
+    published: true
     volume: 1.0
   High-grade Crystal Gamma:
     ImplantSetAngel: 1.0
@@ -472,10 +504,12 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20158
     marketGroup: 620
     name: High-grade Crystal Gamma
+    published: true
     volume: 1.0
   High-grade Crystal Omega:
     ImplantSetAngel: 1.0
@@ -499,9 +533,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20161
     marketGroup: 1506
     name: High-grade Crystal Omega
+    published: true
     volume: 1.0
   High-grade Grail Alpha:
     ImplantSetAngel: 1.0
@@ -527,9 +563,11 @@ items:
     RequiredSkill1Level: 2
     ScanRadarStrengthPercent: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31954
     marketGroup: 618
     name: High-grade Grail Alpha
+    published: true
     volume: 1.0
   High-grade Grail Beta:
     ImplantSetAngel: 1.0
@@ -555,9 +593,11 @@ items:
     RequiredSkill1Level: 2
     ScanRadarStrengthPercent: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31955
     marketGroup: 619
     name: High-grade Grail Beta
+    published: true
     volume: 1.0
   High-grade Grail Delta:
     ImplantSetAngel: 1.0
@@ -583,9 +623,11 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthPercent: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31956
     marketGroup: 621
     name: High-grade Grail Delta
+    published: true
     volume: 1.0
   High-grade Grail Epsilon:
     CharismaBonus: 4
@@ -611,9 +653,11 @@ items:
     RequiredSkill1Level: 4
     ScanRadarStrengthPercent: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31957
     marketGroup: 622
     name: High-grade Grail Epsilon
+    published: true
     volume: 1.0
   High-grade Grail Gamma:
     ImplantSetAngel: 1.0
@@ -638,10 +682,12 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthPercent: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31958
     marketGroup: 620
     name: High-grade Grail Gamma
+    published: true
     volume: 1.0
   High-grade Grail Omega:
     ImplantSetAngel: 1.0
@@ -665,9 +711,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31959
     marketGroup: 1506
     name: High-grade Grail Omega
+    published: true
     volume: 1.0
   High-grade Halo Alpha:
     ImplantSetAngel: 1.149999976158142
@@ -693,9 +741,11 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20498
     marketGroup: 618
     name: High-grade Halo Alpha
+    published: true
     volume: 1.0
   High-grade Halo Beta:
     ImplantSetAngel: 1.149999976158142
@@ -721,9 +771,11 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.25
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20500
     marketGroup: 619
     name: High-grade Halo Beta
+    published: true
     volume: 1.0
   High-grade Halo Delta:
     ImplantSetAngel: 1.149999976158142
@@ -749,9 +801,11 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20502
     marketGroup: 621
     name: High-grade Halo Delta
+    published: true
     volume: 1.0
   High-grade Halo Epsilon:
     CharismaBonus: 4
@@ -777,9 +831,11 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusBonus: -2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20504
     marketGroup: 622
     name: High-grade Halo Epsilon
+    published: true
     volume: 1.0
   High-grade Halo Gamma:
     ImplantSetAngel: 1.149999976158142
@@ -804,10 +860,12 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.75
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20506
     marketGroup: 620
     name: High-grade Halo Gamma
+    published: true
     volume: 1.0
   High-grade Halo Omega:
     ImplantSetAngel: 1.5
@@ -831,9 +889,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20508
     marketGroup: 1506
     name: High-grade Halo Omega
+    published: true
     volume: 1.0
   High-grade Jackal Alpha:
     ImplantSetAngel: 1.0
@@ -859,9 +919,11 @@ items:
     RequiredSkill1Level: 2
     ScanLadarStrengthPercent: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31974
     marketGroup: 618
     name: High-grade Jackal Alpha
+    published: true
     volume: 1.0
   High-grade Jackal Beta:
     ImplantSetAngel: 1.0
@@ -887,9 +949,11 @@ items:
     RequiredSkill1Level: 2
     ScanLadarStrengthPercent: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31975
     marketGroup: 619
     name: High-grade Jackal Beta
+    published: true
     volume: 1.0
   High-grade Jackal Delta:
     ImplantSetAngel: 1.0
@@ -915,9 +979,11 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthPercent: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31976
     marketGroup: 621
     name: High-grade Jackal Delta
+    published: true
     volume: 1.0
   High-grade Jackal Epsilon:
     CharismaBonus: 4
@@ -943,9 +1009,11 @@ items:
     RequiredSkill1Level: 4
     ScanLadarStrengthPercent: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31977
     marketGroup: 622
     name: High-grade Jackal Epsilon
+    published: true
     volume: 1.0
   High-grade Jackal Gamma:
     ImplantSetAngel: 1.0
@@ -970,10 +1038,12 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthPercent: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31978
     marketGroup: 620
     name: High-grade Jackal Gamma
+    published: true
     volume: 1.0
   High-grade Jackal Omega:
     ImplantSetAngel: 1.0
@@ -997,9 +1067,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31979
     marketGroup: 1506
     name: High-grade Jackal Omega
+    published: true
     volume: 1.0
   High-grade Slave Alpha:
     ArmorHpBonus: 1
@@ -1026,9 +1098,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20499
     marketGroup: 618
     name: High-grade Slave Alpha
+    published: true
     volume: 1.0
   High-grade Slave Beta:
     ArmorHpBonus: 2
@@ -1055,9 +1129,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20501
     marketGroup: 619
     name: High-grade Slave Beta
+    published: true
     volume: 1.0
   High-grade Slave Delta:
     ArmorHpBonus: 4
@@ -1084,9 +1160,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20503
     marketGroup: 621
     name: High-grade Slave Delta
+    published: true
     volume: 1.0
   High-grade Slave Epsilon:
     ArmorHpBonus: 5
@@ -1113,9 +1191,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20505
     marketGroup: 622
     name: High-grade Slave Epsilon
+    published: true
     volume: 1.0
   High-grade Slave Gamma:
     ArmorHpBonus: 3
@@ -1141,10 +1221,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20507
     marketGroup: 620
     name: High-grade Slave Gamma
+    published: true
     volume: 1.0
   High-grade Slave Omega:
     ImplantSetAngel: 1.0
@@ -1169,9 +1251,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 20509
     marketGroup: 1506
     name: High-grade Slave Omega
+    published: true
     volume: 1.0
   High-grade Snake Alpha:
     ImplantSetAngel: 1.0
@@ -1198,10 +1282,12 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 19540
     marketGroup: 618
     name: High-grade Snake Alpha
+    published: true
     volume: 1.0
   High-grade Snake Beta:
     ImplantSetAngel: 1.0
@@ -1228,10 +1314,12 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 19551
     marketGroup: 619
     name: High-grade Snake Beta
+    published: true
     volume: 1.0
   High-grade Snake Delta:
     ImplantSetAngel: 1.0
@@ -1258,10 +1346,12 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.03999999910593033
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 19554
     marketGroup: 621
     name: High-grade Snake Delta
+    published: true
     volume: 1.0
   High-grade Snake Epsilon:
     CharismaBonus: 4
@@ -1288,10 +1378,12 @@ items:
     RequiredSkill1Level: 4
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 19555
     marketGroup: 622
     name: High-grade Snake Epsilon
+    published: true
     volume: 1.0
   High-grade Snake Gamma:
     ImplantSetAngel: 1.0
@@ -1317,11 +1409,13 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 4
     id: 19553
     marketGroup: 620
     name: High-grade Snake Gamma
+    published: true
     volume: 1.0
   High-grade Snake Omega:
     ImplantSetAngel: 1.0
@@ -1346,9 +1440,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19556
     marketGroup: 1506
     name: High-grade Snake Omega
+    published: true
     volume: 1.0
   High-grade Spur Alpha:
     ImplantSetAngel: 1.0
@@ -1374,9 +1470,11 @@ items:
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthPercent: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31968
     marketGroup: 618
     name: High-grade Spur Alpha
+    published: true
     volume: 1.0
   High-grade Spur Beta:
     ImplantSetAngel: 1.0
@@ -1402,9 +1500,11 @@ items:
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthPercent: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31969
     marketGroup: 619
     name: High-grade Spur Beta
+    published: true
     volume: 1.0
   High-grade Spur Delta:
     ImplantSetAngel: 1.0
@@ -1430,9 +1530,11 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthPercent: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31970
     marketGroup: 621
     name: High-grade Spur Delta
+    published: true
     volume: 1.0
   High-grade Spur Epsilon:
     CharismaBonus: 4
@@ -1458,9 +1560,11 @@ items:
     RequiredSkill1Level: 4
     ScanMagnetometricStrengthPercent: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31971
     marketGroup: 622
     name: High-grade Spur Epsilon
+    published: true
     volume: 1.0
   High-grade Spur Gamma:
     ImplantSetAngel: 1.0
@@ -1485,10 +1589,12 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthPercent: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31972
     marketGroup: 620
     name: High-grade Spur Gamma
+    published: true
     volume: 1.0
   High-grade Spur Omega:
     ImplantSetAngel: 1.0
@@ -1512,9 +1618,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31973
     marketGroup: 1506
     name: High-grade Spur Omega
+    published: true
     volume: 1.0
   High-grade Talisman Alpha:
     DurationBonus: -1
@@ -1540,9 +1648,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19534
     marketGroup: 618
     name: High-grade Talisman Alpha
+    published: true
     volume: 1.0
   High-grade Talisman Beta:
     DurationBonus: -2
@@ -1568,9 +1678,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19535
     marketGroup: 619
     name: High-grade Talisman Beta
+    published: true
     volume: 1.0
   High-grade Talisman Delta:
     DurationBonus: -4
@@ -1596,9 +1708,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19537
     marketGroup: 621
     name: High-grade Talisman Delta
+    published: true
     volume: 1.0
   High-grade Talisman Epsilon:
     CharismaBonus: 4
@@ -1624,9 +1738,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19538
     marketGroup: 622
     name: High-grade Talisman Epsilon
+    published: true
     volume: 1.0
   High-grade Talisman Gamma:
     DurationBonus: -3
@@ -1651,10 +1767,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 19536
     marketGroup: 620
     name: High-grade Talisman Gamma
+    published: true
     volume: 1.0
   High-grade Talisman Omega:
     ImplantSetAngel: 1.0
@@ -1678,9 +1796,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 19539
     marketGroup: 1506
     name: High-grade Talisman Omega
+    published: true
     volume: 1.0
   High-grade Talon Alpha:
     ImplantSetAngel: 1.0
@@ -1706,9 +1826,11 @@ items:
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31962
     marketGroup: 618
     name: High-grade Talon Alpha
+    published: true
     volume: 1.0
   High-grade Talon Beta:
     ImplantSetAngel: 1.0
@@ -1734,9 +1856,11 @@ items:
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31963
     marketGroup: 619
     name: High-grade Talon Beta
+    published: true
     volume: 1.0
   High-grade Talon Delta:
     ImplantSetAngel: 1.0
@@ -1762,9 +1886,11 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthPercent: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31964
     marketGroup: 621
     name: High-grade Talon Delta
+    published: true
     volume: 1.0
   High-grade Talon Epsilon:
     CharismaBonus: 4
@@ -1790,9 +1916,11 @@ items:
     RequiredSkill1Level: 4
     ScanGravimetricStrengthPercent: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31965
     marketGroup: 622
     name: High-grade Talon Epsilon
+    published: true
     volume: 1.0
   High-grade Talon Gamma:
     ImplantSetAngel: 1.0
@@ -1817,10 +1945,12 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthPercent: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31966
     marketGroup: 620
     name: High-grade Talon Gamma
+    published: true
     volume: 1.0
   High-grade Talon Omega:
     ImplantSetAngel: 1.0
@@ -1844,9 +1974,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 31967
     marketGroup: 1506
     name: High-grade Talon Omega
+    published: true
     volume: 1.0
   Low-grade Asklepian Alpha:
     ArmorRepairBonus: 1
@@ -1873,9 +2005,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42145
     marketGroup: 618
     name: Low-grade Asklepian Alpha
+    published: true
     volume: 1.0
   Low-grade Asklepian Beta:
     ArmorRepairBonus: 2
@@ -1902,9 +2036,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42146
     marketGroup: 619
     name: Low-grade Asklepian Beta
+    published: true
     volume: 1.0
   Low-grade Asklepian Delta:
     ArmorRepairBonus: 4
@@ -1931,9 +2067,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42200
     marketGroup: 621
     name: Low-grade Asklepian Delta
+    published: true
     volume: 1.0
   Low-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
@@ -1960,9 +2098,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42201
     marketGroup: 622
     name: Low-grade Asklepian Epsilon
+    published: true
     volume: 1.0
   Low-grade Asklepian Gamma:
     ArmorRepairBonus: 3
@@ -1988,10 +2128,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 42202
     marketGroup: 620
     name: Low-grade Asklepian Gamma
+    published: true
     volume: 1.0
   Low-grade Asklepian Omega:
     ImplantSetAngel: 1.0
@@ -2016,9 +2158,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42203
     marketGroup: 1506
     name: Low-grade Asklepian Omega
+    published: true
     volume: 1.0
   Low-grade Centurion Alpha:
     ImplantSetAngel: 1.0
@@ -2044,9 +2188,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33917
     marketGroup: 618
     name: Low-grade Centurion Alpha
+    published: true
     volume: 1.0
   Low-grade Centurion Beta:
     ImplantSetAngel: 1.0
@@ -2072,9 +2218,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33918
     marketGroup: 619
     name: Low-grade Centurion Beta
+    published: true
     volume: 1.0
   Low-grade Centurion Delta:
     ImplantSetAngel: 1.0
@@ -2100,9 +2248,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33919
     marketGroup: 621
     name: Low-grade Centurion Delta
+    published: true
     volume: 1.0
   Low-grade Centurion Epsilon:
     CharismaBonus: 2
@@ -2128,9 +2278,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33920
     marketGroup: 622
     name: Low-grade Centurion Epsilon
+    published: true
     volume: 1.0
   Low-grade Centurion Gamma:
     ImplantSetAngel: 1.0
@@ -2155,10 +2307,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33921
     marketGroup: 620
     name: Low-grade Centurion Gamma
+    published: true
     volume: 1.0
   Low-grade Centurion Omega:
     ImplantSetAngel: 1.0
@@ -2182,9 +2336,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33922
     marketGroup: 1506
     name: Low-grade Centurion Omega
+    published: true
     volume: 1.0
   Low-grade Crystal Alpha:
     ImplantSetAngel: 1.0
@@ -2210,9 +2366,11 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33923
     marketGroup: 618
     name: Low-grade Crystal Alpha
+    published: true
     volume: 1.0
   Low-grade Crystal Beta:
     ImplantSetAngel: 1.0
@@ -2238,9 +2396,11 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33924
     marketGroup: 619
     name: Low-grade Crystal Beta
+    published: true
     volume: 1.0
   Low-grade Crystal Delta:
     ImplantSetAngel: 1.0
@@ -2266,9 +2426,11 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33925
     marketGroup: 621
     name: Low-grade Crystal Delta
+    published: true
     volume: 1.0
   Low-grade Crystal Epsilon:
     CharismaBonus: 2
@@ -2294,9 +2456,11 @@ items:
     RequiredSkill1Level: 4
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33926
     marketGroup: 622
     name: Low-grade Crystal Epsilon
+    published: true
     volume: 1.0
   Low-grade Crystal Gamma:
     ImplantSetAngel: 1.0
@@ -2321,10 +2485,12 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33927
     marketGroup: 620
     name: Low-grade Crystal Gamma
+    published: true
     volume: 1.0
   Low-grade Crystal Omega:
     ImplantSetAngel: 1.0
@@ -2348,9 +2514,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33928
     marketGroup: 1506
     name: Low-grade Crystal Omega
+    published: true
     volume: 1.0
   Low-grade Edge Alpha:
     BoosterAttributeModifier: -1
@@ -2376,9 +2544,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33929
     marketGroup: 618
     name: Low-grade Edge Alpha
+    published: true
     volume: 1.0
   Low-grade Edge Beta:
     BoosterAttributeModifier: -2
@@ -2404,9 +2574,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33930
     marketGroup: 619
     name: Low-grade Edge Beta
+    published: true
     volume: 1.0
   Low-grade Edge Delta:
     BoosterAttributeModifier: -4
@@ -2432,9 +2604,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33931
     marketGroup: 621
     name: Low-grade Edge Delta
+    published: true
     volume: 1.0
   Low-grade Edge Epsilon:
     BoosterAttributeModifier: -5
@@ -2460,9 +2634,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33932
     marketGroup: 622
     name: Low-grade Edge Epsilon
+    published: true
     volume: 1.0
   Low-grade Edge Gamma:
     BoosterAttributeModifier: -3
@@ -2487,10 +2663,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33933
     marketGroup: 620
     name: Low-grade Edge Gamma
+    published: true
     volume: 1.0
   Low-grade Edge Omega:
     ImplantSetAngel: 1.0
@@ -2514,9 +2692,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33934
     marketGroup: 1506
     name: Low-grade Edge Omega
+    published: true
     volume: 1.0
   Low-grade Grail Alpha:
     ImplantSetAngel: 1.0
@@ -2542,9 +2722,11 @@ items:
     RequiredSkill1Level: 2
     ScanRadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32101
     marketGroup: 618
     name: Low-grade Grail Alpha
+    published: true
     volume: 1.0
   Low-grade Grail Beta:
     ImplantSetAngel: 1.0
@@ -2570,9 +2752,11 @@ items:
     RequiredSkill1Level: 2
     ScanRadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32102
     marketGroup: 619
     name: Low-grade Grail Beta
+    published: true
     volume: 1.0
   Low-grade Grail Delta:
     ImplantSetAngel: 1.0
@@ -2598,9 +2782,11 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32103
     marketGroup: 621
     name: Low-grade Grail Delta
+    published: true
     volume: 1.0
   Low-grade Grail Epsilon:
     CharismaBonus: 2
@@ -2626,9 +2812,11 @@ items:
     RequiredSkill1Level: 4
     ScanRadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32104
     marketGroup: 622
     name: Low-grade Grail Epsilon
+    published: true
     volume: 1.0
   Low-grade Grail Gamma:
     ImplantSetAngel: 1.0
@@ -2653,10 +2841,12 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32105
     marketGroup: 620
     name: Low-grade Grail Gamma
+    published: true
     volume: 1.0
   Low-grade Grail Omega:
     ImplantSetAngel: 1.0
@@ -2680,9 +2870,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32122
     marketGroup: 1506
     name: Low-grade Grail Omega
+    published: true
     volume: 1.0
   Low-grade Halo Alpha:
     ImplantSetAngel: 1.024999976158142
@@ -2708,9 +2900,11 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33935
     marketGroup: 618
     name: Low-grade Halo Alpha
+    published: true
     volume: 1.0
   Low-grade Halo Beta:
     ImplantSetAngel: 1.024999976158142
@@ -2736,9 +2930,11 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.25
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33936
     marketGroup: 619
     name: Low-grade Halo Beta
+    published: true
     volume: 1.0
   Low-grade Halo Delta:
     ImplantSetAngel: 1.024999976158142
@@ -2764,9 +2960,11 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33937
     marketGroup: 621
     name: Low-grade Halo Delta
+    published: true
     volume: 1.0
   Low-grade Halo Epsilon:
     CharismaBonus: 2
@@ -2792,9 +2990,11 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusBonus: -2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33938
     marketGroup: 622
     name: Low-grade Halo Epsilon
+    published: true
     volume: 1.0
   Low-grade Halo Gamma:
     ImplantSetAngel: 1.024999976158142
@@ -2819,10 +3019,12 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.75
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33939
     marketGroup: 620
     name: Low-grade Halo Gamma
+    published: true
     volume: 1.0
   Low-grade Halo Omega:
     ImplantSetAngel: 1.100000023841858
@@ -2846,9 +3048,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33940
     marketGroup: 1506
     name: Low-grade Halo Omega
+    published: true
     volume: 1.0
   Low-grade Harvest Alpha:
     ImplantSetAngel: 1.0
@@ -2874,9 +3078,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33941
     marketGroup: 618
     name: Low-grade Harvest Alpha
+    published: true
     volume: 1.0
   Low-grade Harvest Beta:
     ImplantSetAngel: 1.0
@@ -2902,9 +3108,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33942
     marketGroup: 619
     name: Low-grade Harvest Beta
+    published: true
     volume: 1.0
   Low-grade Harvest Delta:
     ImplantSetAngel: 1.0
@@ -2930,9 +3138,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33943
     marketGroup: 621
     name: Low-grade Harvest Delta
+    published: true
     volume: 1.0
   Low-grade Harvest Epsilon:
     CharismaBonus: 2
@@ -2958,9 +3168,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33944
     marketGroup: 622
     name: Low-grade Harvest Epsilon
+    published: true
     volume: 1.0
   Low-grade Harvest Gamma:
     ImplantSetAngel: 1.0
@@ -2985,10 +3197,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33945
     marketGroup: 620
     name: Low-grade Harvest Gamma
+    published: true
     volume: 1.0
   Low-grade Harvest Omega:
     ImplantSetAngel: 1.0
@@ -3012,9 +3226,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33946
     marketGroup: 1506
     name: Low-grade Harvest Omega
+    published: true
     volume: 1.0
   Low-grade Jackal Alpha:
     ImplantSetAngel: 1.0
@@ -3040,9 +3256,11 @@ items:
     RequiredSkill1Level: 2
     ScanLadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32117
     marketGroup: 618
     name: Low-grade Jackal Alpha
+    published: true
     volume: 1.0
   Low-grade Jackal Beta:
     ImplantSetAngel: 1.0
@@ -3068,9 +3286,11 @@ items:
     RequiredSkill1Level: 2
     ScanLadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32118
     marketGroup: 619
     name: Low-grade Jackal Beta
+    published: true
     volume: 1.0
   Low-grade Jackal Delta:
     ImplantSetAngel: 1.0
@@ -3096,9 +3316,11 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32119
     marketGroup: 621
     name: Low-grade Jackal Delta
+    published: true
     volume: 1.0
   Low-grade Jackal Epsilon:
     CharismaBonus: 2
@@ -3124,9 +3346,11 @@ items:
     RequiredSkill1Level: 4
     ScanLadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32120
     marketGroup: 622
     name: Low-grade Jackal Epsilon
+    published: true
     volume: 1.0
   Low-grade Jackal Gamma:
     ImplantSetAngel: 1.0
@@ -3151,10 +3375,12 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32121
     marketGroup: 620
     name: Low-grade Jackal Gamma
+    published: true
     volume: 1.0
   Low-grade Jackal Omega:
     ImplantSetAngel: 1.0
@@ -3178,9 +3404,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32123
     marketGroup: 1506
     name: Low-grade Jackal Omega
+    published: true
     volume: 1.0
   Low-grade Nomad Alpha:
     AgilityBonus: -1.0
@@ -3206,9 +3434,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33947
     marketGroup: 618
     name: Low-grade Nomad Alpha
+    published: true
     volume: 1.0
   Low-grade Nomad Beta:
     AgilityBonus: -2.0
@@ -3234,9 +3464,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33948
     marketGroup: 619
     name: Low-grade Nomad Beta
+    published: true
     volume: 1.0
   Low-grade Nomad Delta:
     AgilityBonus: -4.0
@@ -3262,9 +3494,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33949
     marketGroup: 621
     name: Low-grade Nomad Delta
+    published: true
     volume: 1.0
   Low-grade Nomad Epsilon:
     AgilityBonus: -5.0
@@ -3290,9 +3524,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33950
     marketGroup: 622
     name: Low-grade Nomad Epsilon
+    published: true
     volume: 1.0
   Low-grade Nomad Gamma:
     AgilityBonus: -3.0
@@ -3317,10 +3553,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33951
     marketGroup: 620
     name: Low-grade Nomad Gamma
+    published: true
     volume: 1.0
   Low-grade Nomad Omega:
     ImplantSetAngel: 1.0
@@ -3344,9 +3582,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33952
     marketGroup: 1506
     name: Low-grade Nomad Omega
+    published: true
     volume: 1.0
   Low-grade Slave Alpha:
     ArmorHpBonus: 1
@@ -3373,9 +3613,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33953
     marketGroup: 618
     name: Low-grade Slave Alpha
+    published: true
     volume: 1.0
   Low-grade Slave Beta:
     ArmorHpBonus: 2
@@ -3402,9 +3644,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33954
     marketGroup: 619
     name: Low-grade Slave Beta
+    published: true
     volume: 1.0
   Low-grade Slave Delta:
     ArmorHpBonus: 4
@@ -3431,9 +3675,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33955
     marketGroup: 621
     name: Low-grade Slave Delta
+    published: true
     volume: 1.0
   Low-grade Slave Epsilon:
     ArmorHpBonus: 5
@@ -3460,9 +3706,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33956
     marketGroup: 622
     name: Low-grade Slave Epsilon
+    published: true
     volume: 1.0
   Low-grade Slave Gamma:
     ArmorHpBonus: 3
@@ -3488,10 +3736,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33957
     marketGroup: 620
     name: Low-grade Slave Gamma
+    published: true
     volume: 1.0
   Low-grade Slave Omega:
     ImplantSetAngel: 1.0
@@ -3516,9 +3766,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33958
     marketGroup: 1506
     name: Low-grade Slave Omega
+    published: true
     volume: 1.0
   Low-grade Snake Alpha:
     ImplantSetAngel: 1.0
@@ -3545,10 +3797,12 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 33959
     marketGroup: 618
     name: Low-grade Snake Alpha
+    published: true
     volume: 1.0
   Low-grade Snake Beta:
     ImplantSetAngel: 1.0
@@ -3575,10 +3829,12 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 33960
     marketGroup: 619
     name: Low-grade Snake Beta
+    published: true
     volume: 1.0
   Low-grade Snake Delta:
     ImplantSetAngel: 1.0
@@ -3605,10 +3861,12 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 33961
     marketGroup: 621
     name: Low-grade Snake Delta
+    published: true
     volume: 1.0
   Low-grade Snake Epsilon:
     CharismaBonus: 2
@@ -3635,10 +3893,12 @@ items:
     RequiredSkill1Level: 4
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 33962
     marketGroup: 622
     name: Low-grade Snake Epsilon
+    published: true
     volume: 1.0
   Low-grade Snake Gamma:
     ImplantSetAngel: 1.0
@@ -3664,11 +3924,13 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 2
     id: 33963
     marketGroup: 620
     name: Low-grade Snake Gamma
+    published: true
     volume: 1.0
   Low-grade Snake Omega:
     ImplantSetAngel: 1.0
@@ -3693,9 +3955,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33964
     marketGroup: 1506
     name: Low-grade Snake Omega
+    published: true
     volume: 1.0
   Low-grade Spur Alpha:
     ImplantSetAngel: 1.0
@@ -3721,9 +3985,11 @@ items:
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32107
     marketGroup: 618
     name: Low-grade Spur Alpha
+    published: true
     volume: 1.0
   Low-grade Spur Beta:
     ImplantSetAngel: 1.0
@@ -3749,9 +4015,11 @@ items:
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32108
     marketGroup: 619
     name: Low-grade Spur Beta
+    published: true
     volume: 1.0
   Low-grade Spur Delta:
     ImplantSetAngel: 1.0
@@ -3777,9 +4045,11 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32109
     marketGroup: 621
     name: Low-grade Spur Delta
+    published: true
     volume: 1.0
   Low-grade Spur Epsilon:
     CharismaBonus: 2
@@ -3805,9 +4075,11 @@ items:
     RequiredSkill1Level: 4
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32110
     marketGroup: 622
     name: Low-grade Spur Epsilon
+    published: true
     volume: 1.0
   Low-grade Spur Gamma:
     ImplantSetAngel: 1.0
@@ -3832,10 +4104,12 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32111
     marketGroup: 620
     name: Low-grade Spur Gamma
+    published: true
     volume: 1.0
   Low-grade Spur Omega:
     ImplantSetAngel: 1.0
@@ -3859,9 +4133,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32124
     marketGroup: 1506
     name: Low-grade Spur Omega
+    published: true
     volume: 1.0
   Low-grade Talisman Alpha:
     DurationBonus: -1
@@ -3887,9 +4163,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33965
     marketGroup: 618
     name: Low-grade Talisman Alpha
+    published: true
     volume: 1.0
   Low-grade Talisman Beta:
     DurationBonus: -2
@@ -3915,9 +4193,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33966
     marketGroup: 619
     name: Low-grade Talisman Beta
+    published: true
     volume: 1.0
   Low-grade Talisman Delta:
     DurationBonus: -4
@@ -3943,9 +4223,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33967
     marketGroup: 621
     name: Low-grade Talisman Delta
+    published: true
     volume: 1.0
   Low-grade Talisman Epsilon:
     CharismaBonus: 2
@@ -3971,9 +4253,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33968
     marketGroup: 622
     name: Low-grade Talisman Epsilon
+    published: true
     volume: 1.0
   Low-grade Talisman Gamma:
     DurationBonus: -3
@@ -3998,10 +4282,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33969
     marketGroup: 620
     name: Low-grade Talisman Gamma
+    published: true
     volume: 1.0
   Low-grade Talisman Omega:
     ImplantSetAngel: 1.0
@@ -4025,9 +4311,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33970
     marketGroup: 1506
     name: Low-grade Talisman Omega
+    published: true
     volume: 1.0
   Low-grade Talon Alpha:
     ImplantSetAngel: 1.0
@@ -4053,9 +4341,11 @@ items:
     RequiredSkill1Level: 2
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32112
     marketGroup: 618
     name: Low-grade Talon Alpha
+    published: true
     volume: 1.0
   Low-grade Talon Beta:
     ImplantSetAngel: 1.0
@@ -4081,9 +4371,11 @@ items:
     RequiredSkill1Level: 2
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32113
     marketGroup: 619
     name: Low-grade Talon Beta
+    published: true
     volume: 1.0
   Low-grade Talon Delta:
     ImplantSetAngel: 1.0
@@ -4109,9 +4401,11 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32114
     marketGroup: 621
     name: Low-grade Talon Delta
+    published: true
     volume: 1.0
   Low-grade Talon Epsilon:
     CharismaBonus: 2
@@ -4137,9 +4431,11 @@ items:
     RequiredSkill1Level: 4
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32115
     marketGroup: 622
     name: Low-grade Talon Epsilon
+    published: true
     volume: 1.0
   Low-grade Talon Gamma:
     ImplantSetAngel: 1.0
@@ -4164,10 +4460,12 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32116
     marketGroup: 620
     name: Low-grade Talon Gamma
+    published: true
     volume: 1.0
   Low-grade Talon Omega:
     ImplantSetAngel: 1.0
@@ -4191,9 +4489,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 32125
     marketGroup: 1506
     name: Low-grade Talon Omega
+    published: true
     volume: 1.0
   Low-grade Virtue Alpha:
     ImplantSetAngel: 1.0
@@ -4219,9 +4519,11 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonus: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33971
     marketGroup: 618
     name: Low-grade Virtue Alpha
+    published: true
     volume: 1.0
   Low-grade Virtue Beta:
     ImplantSetAngel: 1.0
@@ -4247,9 +4549,11 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonus: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33972
     marketGroup: 619
     name: Low-grade Virtue Beta
+    published: true
     volume: 1.0
   Low-grade Virtue Delta:
     ImplantSetAngel: 1.0
@@ -4275,9 +4579,11 @@ items:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33973
     marketGroup: 621
     name: Low-grade Virtue Delta
+    published: true
     volume: 1.0
   Low-grade Virtue Epsilon:
     CharismaBonus: 2
@@ -4303,9 +4609,11 @@ items:
     RequiredSkill1Level: 4
     ScanStrengthBonus: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33974
     marketGroup: 622
     name: Low-grade Virtue Epsilon
+    published: true
     volume: 1.0
   Low-grade Virtue Gamma:
     ImplantSetAngel: 1.0
@@ -4330,10 +4638,12 @@ items:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33975
     marketGroup: 620
     name: Low-grade Virtue Gamma
+    published: true
     volume: 1.0
   Low-grade Virtue Omega:
     ImplantSetAngel: 1.0
@@ -4357,9 +4667,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33976
     marketGroup: 1506
     name: Low-grade Virtue Omega
+    published: true
     volume: 1.0
   Mid-grade Ascendancy Alpha:
     ImplantSetAngel: 1.0
@@ -4384,10 +4696,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
     id: 33555
     marketGroup: 618
     name: Mid-grade Ascendancy Alpha
+    published: true
     volume: 1.0
   Mid-grade Ascendancy Beta:
     ImplantSetAngel: 1.0
@@ -4412,10 +4726,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
     id: 33557
     marketGroup: 619
     name: Mid-grade Ascendancy Beta
+    published: true
     volume: 1.0
   Mid-grade Ascendancy Delta:
     ImplantSetAngel: 1.0
@@ -4440,10 +4756,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
     id: 33559
     marketGroup: 621
     name: Mid-grade Ascendancy Delta
+    published: true
     volume: 1.0
   Mid-grade Ascendancy Epsilon:
     CharismaBonus: 3
@@ -4468,10 +4786,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
     id: 33561
     marketGroup: 622
     name: Mid-grade Ascendancy Epsilon
+    published: true
     volume: 1.0
   Mid-grade Ascendancy Gamma:
     ImplantSetAngel: 1.0
@@ -4495,11 +4815,13 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 3
     WillpowerBonus: 3
     id: 33563
     marketGroup: 620
     name: Mid-grade Ascendancy Gamma
+    published: true
     volume: 1.0
   Mid-grade Ascendancy Omega:
     ImplantSetAngel: 1.0
@@ -4523,9 +4845,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 33565
     marketGroup: 1506
     name: Mid-grade Ascendancy Omega
+    published: true
     volume: 1.0
   Mid-grade Asklepian Alpha:
     ArmorRepairBonus: 1
@@ -4552,9 +4876,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42204
     marketGroup: 618
     name: Mid-grade Asklepian Alpha
+    published: true
     volume: 1.0
   Mid-grade Asklepian Beta:
     ArmorRepairBonus: 2
@@ -4581,9 +4907,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42205
     marketGroup: 619
     name: Mid-grade Asklepian Beta
+    published: true
     volume: 1.0
   Mid-grade Asklepian Delta:
     ArmorRepairBonus: 4
@@ -4610,9 +4938,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42207
     marketGroup: 621
     name: Mid-grade Asklepian Delta
+    published: true
     volume: 1.0
   Mid-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
@@ -4639,9 +4969,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42208
     marketGroup: 622
     name: Mid-grade Asklepian Epsilon
+    published: true
     volume: 1.0
   Mid-grade Asklepian Gamma:
     ArmorRepairBonus: 3
@@ -4667,10 +4999,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 42206
     marketGroup: 620
     name: Mid-grade Asklepian Gamma
+    published: true
     volume: 1.0
   Mid-grade Asklepian Omega:
     ImplantSetAngel: 1.0
@@ -4695,9 +5029,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 42209
     marketGroup: 1506
     name: Mid-grade Asklepian Omega
+    published: true
     volume: 1.0
   Mid-grade Centurion Alpha:
     ImplantSetAngel: 1.0
@@ -4723,9 +5059,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28790
     marketGroup: 618
     name: Mid-grade Centurion Alpha
+    published: true
     volume: 1.0
   Mid-grade Centurion Beta:
     ImplantSetAngel: 1.0
@@ -4751,9 +5089,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28791
     marketGroup: 619
     name: Mid-grade Centurion Beta
+    published: true
     volume: 1.0
   Mid-grade Centurion Delta:
     ImplantSetAngel: 1.0
@@ -4779,9 +5119,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28792
     marketGroup: 621
     name: Mid-grade Centurion Delta
+    published: true
     volume: 1.0
   Mid-grade Centurion Epsilon:
     CharismaBonus: 3
@@ -4807,9 +5149,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28793
     marketGroup: 622
     name: Mid-grade Centurion Epsilon
+    published: true
     volume: 1.0
   Mid-grade Centurion Gamma:
     ImplantSetAngel: 1.0
@@ -4834,10 +5178,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28794
     marketGroup: 620
     name: Mid-grade Centurion Gamma
+    published: true
     volume: 1.0
   Mid-grade Centurion Omega:
     ImplantSetAngel: 1.0
@@ -4861,9 +5207,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28795
     marketGroup: 1506
     name: Mid-grade Centurion Omega
+    published: true
     volume: 1.0
   Mid-grade Crystal Alpha:
     ImplantSetAngel: 1.0
@@ -4889,9 +5237,11 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22107
     marketGroup: 618
     name: Mid-grade Crystal Alpha
+    published: true
     volume: 1.0
   Mid-grade Crystal Beta:
     ImplantSetAngel: 1.0
@@ -4917,9 +5267,11 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22108
     marketGroup: 619
     name: Mid-grade Crystal Beta
+    published: true
     volume: 1.0
   Mid-grade Crystal Delta:
     ImplantSetAngel: 1.0
@@ -4945,9 +5297,11 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22109
     marketGroup: 621
     name: Mid-grade Crystal Delta
+    published: true
     volume: 1.0
   Mid-grade Crystal Epsilon:
     CharismaBonus: 3
@@ -4973,9 +5327,11 @@ items:
     RequiredSkill1Level: 4
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22110
     marketGroup: 622
     name: Mid-grade Crystal Epsilon
+    published: true
     volume: 1.0
   Mid-grade Crystal Gamma:
     ImplantSetAngel: 1.0
@@ -5000,10 +5356,12 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22111
     marketGroup: 620
     name: Mid-grade Crystal Gamma
+    published: true
     volume: 1.0
   Mid-grade Crystal Omega:
     ImplantSetAngel: 1.0
@@ -5027,9 +5385,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22112
     marketGroup: 1506
     name: Mid-grade Crystal Omega
+    published: true
     volume: 1.0
   Mid-grade Edge Alpha:
     BoosterAttributeModifier: -1
@@ -5055,9 +5415,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28814
     marketGroup: 618
     name: Mid-grade Edge Alpha
+    published: true
     volume: 1.0
   Mid-grade Edge Beta:
     BoosterAttributeModifier: -2
@@ -5083,9 +5445,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28815
     marketGroup: 619
     name: Mid-grade Edge Beta
+    published: true
     volume: 1.0
   Mid-grade Edge Delta:
     BoosterAttributeModifier: -4
@@ -5111,9 +5475,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28816
     marketGroup: 621
     name: Mid-grade Edge Delta
+    published: true
     volume: 1.0
   Mid-grade Edge Epsilon:
     BoosterAttributeModifier: -5
@@ -5139,9 +5505,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28817
     marketGroup: 622
     name: Mid-grade Edge Epsilon
+    published: true
     volume: 1.0
   Mid-grade Edge Gamma:
     BoosterAttributeModifier: -3
@@ -5166,10 +5534,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28818
     marketGroup: 620
     name: Mid-grade Edge Gamma
+    published: true
     volume: 1.0
   Mid-grade Edge Omega:
     ImplantSetAngel: 1.0
@@ -5193,9 +5563,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28819
     marketGroup: 1506
     name: Mid-grade Edge Omega
+    published: true
     volume: 1.0
   Mid-grade Halo Alpha:
     ImplantSetAngel: 1.100000023841858
@@ -5221,9 +5593,11 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22113
     marketGroup: 618
     name: Mid-grade Halo Alpha
+    published: true
     volume: 1.0
   Mid-grade Halo Beta:
     ImplantSetAngel: 1.100000023841858
@@ -5249,9 +5623,11 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.25
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22114
     marketGroup: 619
     name: Mid-grade Halo Beta
+    published: true
     volume: 1.0
   Mid-grade Halo Delta:
     ImplantSetAngel: 1.100000023841858
@@ -5277,9 +5653,11 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22115
     marketGroup: 621
     name: Mid-grade Halo Delta
+    published: true
     volume: 1.0
   Mid-grade Halo Epsilon:
     CharismaBonus: 3
@@ -5305,9 +5683,11 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusBonus: -2.0
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22116
     marketGroup: 622
     name: Mid-grade Halo Epsilon
+    published: true
     volume: 1.0
   Mid-grade Halo Gamma:
     ImplantSetAngel: 1.100000023841858
@@ -5332,10 +5712,12 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.75
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22117
     marketGroup: 620
     name: Mid-grade Halo Gamma
+    published: true
     volume: 1.0
   Mid-grade Halo Omega:
     ImplantSetAngel: 1.25
@@ -5359,9 +5741,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22118
     marketGroup: 1506
     name: Mid-grade Halo Omega
+    published: true
     volume: 1.0
   Mid-grade Harvest Alpha:
     ImplantSetAngel: 1.0
@@ -5387,9 +5771,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28802
     marketGroup: 618
     name: Mid-grade Harvest Alpha
+    published: true
     volume: 1.0
   Mid-grade Harvest Beta:
     ImplantSetAngel: 1.0
@@ -5415,9 +5801,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28803
     marketGroup: 619
     name: Mid-grade Harvest Beta
+    published: true
     volume: 1.0
   Mid-grade Harvest Delta:
     ImplantSetAngel: 1.0
@@ -5443,9 +5831,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28804
     marketGroup: 621
     name: Mid-grade Harvest Delta
+    published: true
     volume: 1.0
   Mid-grade Harvest Epsilon:
     CharismaBonus: 3
@@ -5471,9 +5861,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28805
     marketGroup: 622
     name: Mid-grade Harvest Epsilon
+    published: true
     volume: 1.0
   Mid-grade Harvest Gamma:
     ImplantSetAngel: 1.0
@@ -5498,10 +5890,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28806
     marketGroup: 620
     name: Mid-grade Harvest Gamma
+    published: true
     volume: 1.0
   Mid-grade Harvest Omega:
     ImplantSetAngel: 1.0
@@ -5525,9 +5919,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28807
     marketGroup: 1506
     name: Mid-grade Harvest Omega
+    published: true
     volume: 1.0
   Mid-grade Nomad Alpha:
     AgilityBonus: -1.0
@@ -5553,9 +5949,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28796
     marketGroup: 618
     name: Mid-grade Nomad Alpha
+    published: true
     volume: 1.0
   Mid-grade Nomad Beta:
     AgilityBonus: -2.0
@@ -5581,9 +5979,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28797
     marketGroup: 619
     name: Mid-grade Nomad Beta
+    published: true
     volume: 1.0
   Mid-grade Nomad Delta:
     AgilityBonus: -4.0
@@ -5609,9 +6009,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28798
     marketGroup: 621
     name: Mid-grade Nomad Delta
+    published: true
     volume: 1.0
   Mid-grade Nomad Epsilon:
     AgilityBonus: -5.0
@@ -5637,9 +6039,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28799
     marketGroup: 622
     name: Mid-grade Nomad Epsilon
+    published: true
     volume: 1.0
   Mid-grade Nomad Gamma:
     AgilityBonus: -3.0
@@ -5664,10 +6068,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28800
     marketGroup: 620
     name: Mid-grade Nomad Gamma
+    published: true
     volume: 1.0
   Mid-grade Nomad Omega:
     ImplantSetAngel: 1.0
@@ -5691,9 +6097,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28801
     marketGroup: 1506
     name: Mid-grade Nomad Omega
+    published: true
     volume: 1.0
   Mid-grade Slave Alpha:
     ArmorHpBonus: 1
@@ -5720,9 +6128,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22119
     marketGroup: 618
     name: Mid-grade Slave Alpha
+    published: true
     volume: 1.0
   Mid-grade Slave Beta:
     ArmorHpBonus: 2
@@ -5749,9 +6159,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22120
     marketGroup: 619
     name: Mid-grade Slave Beta
+    published: true
     volume: 1.0
   Mid-grade Slave Delta:
     ArmorHpBonus: 4
@@ -5778,9 +6190,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22121
     marketGroup: 621
     name: Mid-grade Slave Delta
+    published: true
     volume: 1.0
   Mid-grade Slave Epsilon:
     ArmorHpBonus: 5
@@ -5807,9 +6221,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22122
     marketGroup: 622
     name: Mid-grade Slave Epsilon
+    published: true
     volume: 1.0
   Mid-grade Slave Gamma:
     ArmorHpBonus: 3
@@ -5835,10 +6251,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22123
     marketGroup: 620
     name: Mid-grade Slave Gamma
+    published: true
     volume: 1.0
   Mid-grade Slave Omega:
     ImplantSetAngel: 1.0
@@ -5863,9 +6281,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22124
     marketGroup: 1506
     name: Mid-grade Slave Omega
+    published: true
     volume: 1.0
   Mid-grade Snake Alpha:
     ImplantSetAngel: 1.0
@@ -5892,10 +6312,12 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 22125
     marketGroup: 618
     name: Mid-grade Snake Alpha
+    published: true
     volume: 1.0
   Mid-grade Snake Beta:
     ImplantSetAngel: 1.0
@@ -5922,10 +6344,12 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 22126
     marketGroup: 619
     name: Mid-grade Snake Beta
+    published: true
     volume: 1.0
   Mid-grade Snake Delta:
     ImplantSetAngel: 1.0
@@ -5952,10 +6376,12 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 22127
     marketGroup: 621
     name: Mid-grade Snake Delta
+    published: true
     volume: 1.0
   Mid-grade Snake Epsilon:
     CharismaBonus: 3
@@ -5982,10 +6408,12 @@ items:
     RequiredSkill1Level: 4
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 22128
     marketGroup: 622
     name: Mid-grade Snake Epsilon
+    published: true
     volume: 1.0
   Mid-grade Snake Gamma:
     ImplantSetAngel: 1.0
@@ -6011,11 +6439,13 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 3
     id: 22129
     marketGroup: 620
     name: Mid-grade Snake Gamma
+    published: true
     volume: 1.0
   Mid-grade Snake Omega:
     ImplantSetAngel: 1.0
@@ -6040,9 +6470,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22130
     marketGroup: 1506
     name: Mid-grade Snake Omega
+    published: true
     volume: 1.0
   Mid-grade Talisman Alpha:
     DurationBonus: -1
@@ -6068,9 +6500,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22131
     marketGroup: 618
     name: Mid-grade Talisman Alpha
+    published: true
     volume: 1.0
   Mid-grade Talisman Beta:
     DurationBonus: -2
@@ -6096,9 +6530,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22133
     marketGroup: 619
     name: Mid-grade Talisman Beta
+    published: true
     volume: 1.0
   Mid-grade Talisman Delta:
     DurationBonus: -4
@@ -6124,9 +6560,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22134
     marketGroup: 621
     name: Mid-grade Talisman Delta
+    published: true
     volume: 1.0
   Mid-grade Talisman Epsilon:
     CharismaBonus: 3
@@ -6152,9 +6590,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22135
     marketGroup: 622
     name: Mid-grade Talisman Epsilon
+    published: true
     volume: 1.0
   Mid-grade Talisman Gamma:
     DurationBonus: -3
@@ -6179,10 +6619,12 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22136
     marketGroup: 620
     name: Mid-grade Talisman Gamma
+    published: true
     volume: 1.0
   Mid-grade Talisman Omega:
     ImplantSetAngel: 1.0
@@ -6206,9 +6648,11 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 22137
     marketGroup: 1506
     name: Mid-grade Talisman Omega
+    published: true
     volume: 1.0
   Mid-grade Virtue Alpha:
     ImplantSetAngel: 1.0
@@ -6234,9 +6678,11 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonus: 1
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28808
     marketGroup: 618
     name: Mid-grade Virtue Alpha
+    published: true
     volume: 1.0
   Mid-grade Virtue Beta:
     ImplantSetAngel: 1.0
@@ -6262,9 +6708,11 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonus: 2
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28809
     marketGroup: 619
     name: Mid-grade Virtue Beta
+    published: true
     volume: 1.0
   Mid-grade Virtue Delta:
     ImplantSetAngel: 1.0
@@ -6290,9 +6738,11 @@ items:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 4
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28810
     marketGroup: 621
     name: Mid-grade Virtue Delta
+    published: true
     volume: 1.0
   Mid-grade Virtue Epsilon:
     CharismaBonus: 3
@@ -6318,9 +6768,11 @@ items:
     RequiredSkill1Level: 4
     ScanStrengthBonus: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28811
     marketGroup: 622
     name: Mid-grade Virtue Epsilon
+    published: true
     volume: 1.0
   Mid-grade Virtue Gamma:
     ImplantSetAngel: 1.0
@@ -6345,10 +6797,12 @@ items:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 3
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28812
     marketGroup: 620
     name: Mid-grade Virtue Gamma
+    published: true
     volume: 1.0
   Mid-grade Virtue Omega:
     ImplantSetAngel: 1.0
@@ -6372,7 +6826,9 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    TrackingSpeedMultiplier: 1.0
     id: 28813
     marketGroup: 1506
     name: Mid-grade Virtue Omega
+    published: true
     volume: 1.0

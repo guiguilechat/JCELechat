@@ -5,8 +5,10 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28627
     name: Azure Ice
+    published: true
     volume: 1000.0
   Blue Ice:
     AsteroidMetaLevel: 1
@@ -17,9 +19,11 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 16264
     marketGroup: 1855
     name: Blue Ice
+    published: true
     volume: 1000.0
   Clear Icicle:
     AsteroidMetaLevel: 1
@@ -30,9 +34,11 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 16262
     marketGroup: 1855
     name: Clear Icicle
+    published: true
     volume: 1000.0
   Compressed Blue Ice:
     AsteroidMetaLevel: 1
@@ -41,9 +47,11 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28433
     marketGroup: 1855
     name: Compressed Blue Ice
+    published: true
     volume: 100.0
   Compressed Clear Icicle:
     AsteroidMetaLevel: 1
@@ -52,9 +60,11 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28434
     marketGroup: 1855
     name: Compressed Clear Icicle
+    published: true
     volume: 100.0
   Compressed Dark Glitter:
     AsteroidMetaLevel: 1
@@ -63,9 +73,11 @@ items:
     OreBasicType: 16267
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28435
     marketGroup: 1855
     name: Compressed Dark Glitter
+    published: true
     volume: 100.0
   Compressed Enriched Clear Icicle:
     AsteroidMetaLevel: 4
@@ -74,9 +86,11 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28436
     marketGroup: 1855
     name: Compressed Enriched Clear Icicle
+    published: true
     volume: 100.0
   Compressed Gelidus:
     AsteroidMetaLevel: 1
@@ -85,9 +99,11 @@ items:
     OreBasicType: 16268
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28437
     marketGroup: 1855
     name: Compressed Gelidus
+    published: true
     volume: 100.0
   Compressed Glacial Mass:
     AsteroidMetaLevel: 1
@@ -96,9 +112,11 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28438
     marketGroup: 1855
     name: Compressed Glacial Mass
+    published: true
     volume: 100.0
   Compressed Glare Crust:
     AsteroidMetaLevel: 1
@@ -107,9 +125,11 @@ items:
     OreBasicType: 16266
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28439
     marketGroup: 1855
     name: Compressed Glare Crust
+    published: true
     volume: 100.0
   Compressed Krystallos:
     AsteroidMetaLevel: 1
@@ -118,9 +138,11 @@ items:
     OreBasicType: 16269
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28440
     marketGroup: 1855
     name: Compressed Krystallos
+    published: true
     volume: 100.0
   Compressed Pristine White Glaze:
     AsteroidMetaLevel: 4
@@ -129,9 +151,11 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28441
     marketGroup: 1855
     name: Compressed Pristine White Glaze
+    published: true
     volume: 100.0
   Compressed Smooth Glacial Mass:
     AsteroidMetaLevel: 4
@@ -140,9 +164,11 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28442
     marketGroup: 1855
     name: Compressed Smooth Glacial Mass
+    published: true
     volume: 100.0
   Compressed Thick Blue Ice:
     AsteroidMetaLevel: 4
@@ -151,9 +177,11 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28443
     marketGroup: 1855
     name: Compressed Thick Blue Ice
+    published: true
     volume: 100.0
   Compressed White Glaze:
     AsteroidMetaLevel: 1
@@ -162,9 +190,11 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28444
     marketGroup: 1855
     name: Compressed White Glaze
+    published: true
     volume: 100.0
   Crystalline Icicle:
     AsteroidRadiusGrowthFactor: 160.0
@@ -172,8 +202,10 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 28628
     name: Crystalline Icicle
+    published: true
     volume: 1000.0
   Dark Glitter:
     AsteroidMetaLevel: 1
@@ -184,9 +216,11 @@ items:
     OreBasicType: 16267
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 16267
     marketGroup: 1855
     name: Dark Glitter
+    published: true
     volume: 1000.0
   Enriched Clear Icicle:
     AsteroidMetaLevel: 4
@@ -197,9 +231,11 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 17978
     marketGroup: 1855
     name: Enriched Clear Icicle
+    published: true
     volume: 1000.0
   Gelidus:
     AsteroidMetaLevel: 1
@@ -210,9 +246,11 @@ items:
     OreBasicType: 16268
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 16268
     marketGroup: 1855
     name: Gelidus
+    published: true
     volume: 1000.0
   Glacial Mass:
     AsteroidMetaLevel: 1
@@ -223,9 +261,11 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 16263
     marketGroup: 1855
     name: Glacial Mass
+    published: true
     volume: 1000.0
   Glare Crust:
     AsteroidMetaLevel: 1
@@ -236,9 +276,11 @@ items:
     OreBasicType: 16266
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 16266
     marketGroup: 1855
     name: Glare Crust
+    published: true
     volume: 1000.0
   Krystallos:
     AsteroidMetaLevel: 1
@@ -249,9 +291,11 @@ items:
     OreBasicType: 16269
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 16269
     marketGroup: 1855
     name: Krystallos
+    published: true
     volume: 1000.0
   Pristine White Glaze:
     AsteroidMetaLevel: 4
@@ -262,9 +306,11 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 17976
     marketGroup: 1855
     name: Pristine White Glaze
+    published: true
     volume: 1000.0
   Smooth Glacial Mass:
     AsteroidMetaLevel: 4
@@ -275,9 +321,11 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 17977
     marketGroup: 1855
     name: Smooth Glacial Mass
+    published: true
     volume: 1000.0
   Thick Blue Ice:
     AsteroidMetaLevel: 4
@@ -288,9 +336,11 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 17975
     marketGroup: 1855
     name: Thick Blue Ice
+    published: true
     volume: 1000.0
   White Glaze:
     AsteroidMetaLevel: 1
@@ -301,7 +351,9 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    StasisWebifierResistance: 1.0
     id: 16265
     marketGroup: 1855
     name: White Glaze
+    published: true
     volume: 1000.0

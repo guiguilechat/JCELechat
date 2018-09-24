@@ -73,6 +73,7 @@ items:
     id: 4306
     marketGroup: 471
     name: Naga
+    published: true
     volume: 252000.0
   Oracle:
     Agility: 0.4950000047683716
@@ -148,6 +149,7 @@ items:
     id: 4302
     marketGroup: 470
     name: Oracle
+    published: true
     volume: 234000.0
   Talos:
     Agility: 0.44999998807907104
@@ -225,6 +227,7 @@ items:
     id: 4308
     marketGroup: 472
     name: Talos
+    published: true
     volume: 270000.0
   Tornado:
     Agility: 0.4749999940395355
@@ -300,4 +303,5 @@ items:
     id: 4310
     marketGroup: 473
     name: Tornado
+    published: true
     volume: 216000.0

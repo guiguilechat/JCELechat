@@ -7,9 +7,11 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28403
     marketGroup: 528
     name: Compressed Hemorphite
+    published: true
     volume: 0.86
   Compressed Radiant Hemorphite:
     AsteroidMaxRadius: 16255
@@ -19,9 +21,11 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28404
     marketGroup: 528
     name: Compressed Radiant Hemorphite
+    published: true
     volume: 0.86
   Compressed Scintillating Hemorphite:
     AsteroidMaxRadius: 16255
@@ -31,9 +35,11 @@ items:
     OreBasicType: 46681
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46697
     marketGroup: 528
     name: Compressed Scintillating Hemorphite
+    published: true
     volume: 0.86
   Compressed Vivid Hemorphite:
     AsteroidMaxRadius: 16255
@@ -43,9 +49,11 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28405
     marketGroup: 528
     name: Compressed Vivid Hemorphite
+    published: true
     volume: 0.86
   Hemorphite:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1231
     marketGroup: 528
     name: Hemorphite
+    published: true
     volume: 3.0
   Radiant Hemorphite:
     AsteroidMaxRadius: 16255
@@ -71,9 +81,11 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17445
     marketGroup: 528
     name: Radiant Hemorphite
+    published: true
     volume: 3.0
   Scintillating Hemorphite:
     AsteroidMaxRadius: 5000
@@ -85,9 +97,11 @@ items:
     OreBasicType: 46681
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46681
     marketGroup: 528
     name: Scintillating Hemorphite
+    published: true
     volume: 3.0
   Vivid Hemorphite:
     AsteroidMaxRadius: 16255
@@ -99,7 +113,9 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17444
     marketGroup: 528
     name: Vivid Hemorphite
+    published: true
     volume: 3.0

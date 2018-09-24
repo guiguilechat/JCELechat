@@ -9,6 +9,7 @@ items:
     id: 31720
     marketGroup: 1732
     name: Capital Anti-EM Screen Reinforcer I
+    published: true
     volume: 40.0
   Capital Anti-EM Screen Reinforcer II:
     Drawback: 10
@@ -21,6 +22,7 @@ items:
     id: 31726
     marketGroup: 1732
     name: Capital Anti-EM Screen Reinforcer II
+    published: true
     volume: 40.0
   Capital Anti-Explosive Screen Reinforcer I:
     Drawback: 10
@@ -32,6 +34,7 @@ items:
     id: 31732
     marketGroup: 1732
     name: Capital Anti-Explosive Screen Reinforcer I
+    published: true
     volume: 40.0
   Capital Anti-Explosive Screen Reinforcer II:
     Drawback: 10
@@ -44,6 +47,7 @@ items:
     id: 31738
     marketGroup: 1732
     name: Capital Anti-Explosive Screen Reinforcer II
+    published: true
     volume: 40.0
   Capital Anti-Kinetic Screen Reinforcer I:
     Drawback: 10
@@ -55,6 +59,7 @@ items:
     id: 31744
     marketGroup: 1732
     name: Capital Anti-Kinetic Screen Reinforcer I
+    published: true
     volume: 40.0
   Capital Anti-Kinetic Screen Reinforcer II:
     Drawback: 10
@@ -67,6 +72,7 @@ items:
     id: 31750
     marketGroup: 1732
     name: Capital Anti-Kinetic Screen Reinforcer II
+    published: true
     volume: 40.0
   Capital Anti-Thermal Screen Reinforcer I:
     Drawback: 10
@@ -78,6 +84,7 @@ items:
     id: 31756
     marketGroup: 1732
     name: Capital Anti-Thermal Screen Reinforcer I
+    published: true
     volume: 40.0
   Capital Anti-Thermal Screen Reinforcer II:
     Drawback: 10
@@ -90,6 +97,7 @@ items:
     id: 31762
     marketGroup: 1732
     name: Capital Anti-Thermal Screen Reinforcer II
+    published: true
     volume: 40.0
   Capital Core Defense Capacitor Safeguard I:
     Drawback: 10
@@ -101,6 +109,7 @@ items:
     id: 31768
     marketGroup: 1732
     name: Capital Core Defense Capacitor Safeguard I
+    published: true
     volume: 40.0
   Capital Core Defense Capacitor Safeguard II:
     Drawback: 10
@@ -113,6 +122,7 @@ items:
     id: 31774
     marketGroup: 1732
     name: Capital Core Defense Capacitor Safeguard II
+    published: true
     volume: 40.0
   Capital Core Defense Charge Economizer I:
     Drawback: 10
@@ -124,6 +134,7 @@ items:
     id: 31780
     marketGroup: 1732
     name: Capital Core Defense Charge Economizer I
+    published: true
     volume: 40.0
   Capital Core Defense Charge Economizer II:
     Drawback: 10
@@ -136,6 +147,7 @@ items:
     id: 31786
     marketGroup: 1732
     name: Capital Core Defense Charge Economizer II
+    published: true
     volume: 40.0
   Capital Core Defense Field Extender I:
     Drawback: 10
@@ -147,6 +159,7 @@ items:
     id: 31792
     marketGroup: 1732
     name: Capital Core Defense Field Extender I
+    published: true
     volume: 40.0
   Capital Core Defense Field Extender II:
     Drawback: 10
@@ -159,6 +172,7 @@ items:
     id: 31798
     marketGroup: 1732
     name: Capital Core Defense Field Extender II
+    published: true
     volume: 40.0
   Capital Core Defense Field Purger I:
     Drawback: 10
@@ -170,6 +184,7 @@ items:
     id: 31804
     marketGroup: 1732
     name: Capital Core Defense Field Purger I
+    published: true
     volume: 40.0
   Capital Core Defense Field Purger II:
     Drawback: 10
@@ -182,6 +197,7 @@ items:
     id: 31814
     marketGroup: 1732
     name: Capital Core Defense Field Purger II
+    published: true
     volume: 40.0
   Capital Core Defense Operational Solidifier I:
     Drawback: 10
@@ -193,6 +209,7 @@ items:
     id: 31820
     marketGroup: 1732
     name: Capital Core Defense Operational Solidifier I
+    published: true
     volume: 40.0
   Capital Core Defense Operational Solidifier II:
     Drawback: 10
@@ -205,6 +222,7 @@ items:
     id: 31826
     marketGroup: 1732
     name: Capital Core Defense Operational Solidifier II
+    published: true
     volume: 40.0
   Large Anti-EM Screen Reinforcer I:
     Drawback: 10
@@ -216,6 +234,7 @@ items:
     id: 26076
     marketGroup: 1236
     name: Large Anti-EM Screen Reinforcer I
+    published: true
     volume: 20.0
   Large Anti-EM Screen Reinforcer II:
     Drawback: 10
@@ -228,6 +247,7 @@ items:
     id: 26436
     marketGroup: 1236
     name: Large Anti-EM Screen Reinforcer II
+    published: true
     volume: 20.0
   Large Anti-Explosive Screen Reinforcer I:
     Drawback: 10
@@ -239,6 +259,7 @@ items:
     id: 26078
     marketGroup: 1236
     name: Large Anti-Explosive Screen Reinforcer I
+    published: true
     volume: 20.0
   Large Anti-Explosive Screen Reinforcer II:
     Drawback: 10
@@ -251,6 +272,7 @@ items:
     id: 26438
     marketGroup: 1236
     name: Large Anti-Explosive Screen Reinforcer II
+    published: true
     volume: 20.0
   Large Anti-Kinetic Screen Reinforcer I:
     Drawback: 10
@@ -262,6 +284,7 @@ items:
     id: 26080
     marketGroup: 1236
     name: Large Anti-Kinetic Screen Reinforcer I
+    published: true
     volume: 20.0
   Large Anti-Kinetic Screen Reinforcer II:
     Drawback: 10
@@ -274,6 +297,7 @@ items:
     id: 26440
     marketGroup: 1236
     name: Large Anti-Kinetic Screen Reinforcer II
+    published: true
     volume: 20.0
   Large Anti-Thermal Screen Reinforcer I:
     Drawback: 10
@@ -285,6 +309,7 @@ items:
     id: 26082
     marketGroup: 1236
     name: Large Anti-Thermal Screen Reinforcer I
+    published: true
     volume: 20.0
   Large Anti-Thermal Screen Reinforcer II:
     Drawback: 10
@@ -297,6 +322,7 @@ items:
     id: 26442
     marketGroup: 1236
     name: Large Anti-Thermal Screen Reinforcer II
+    published: true
     volume: 20.0
   Large Core Defense Capacitor Safeguard I:
     Drawback: 10
@@ -308,6 +334,7 @@ items:
     id: 25906
     marketGroup: 1236
     name: Large Core Defense Capacitor Safeguard I
+    published: true
     volume: 20.0
   Large Core Defense Capacitor Safeguard II:
     Drawback: 10
@@ -320,6 +347,7 @@ items:
     id: 26444
     marketGroup: 1236
     name: Large Core Defense Capacitor Safeguard II
+    published: true
     volume: 20.0
   Large Core Defense Charge Economizer I:
     Drawback: 10
@@ -331,6 +359,7 @@ items:
     id: 26090
     marketGroup: 1236
     name: Large Core Defense Charge Economizer I
+    published: true
     volume: 20.0
   Large Core Defense Charge Economizer II:
     Drawback: 10
@@ -343,6 +372,7 @@ items:
     id: 26446
     marketGroup: 1236
     name: Large Core Defense Charge Economizer II
+    published: true
     volume: 20.0
   Large Core Defense Field Extender I:
     Drawback: 10
@@ -353,6 +383,7 @@ items:
     id: 26088
     marketGroup: 1236
     name: Large Core Defense Field Extender I
+    published: true
     volume: 20.0
   Large Core Defense Field Extender II:
     Drawback: 10
@@ -364,6 +395,7 @@ items:
     id: 26448
     marketGroup: 1236
     name: Large Core Defense Field Extender II
+    published: true
     volume: 20.0
   Large Core Defense Field Purger I:
     Drawback: 10
@@ -375,6 +407,7 @@ items:
     id: 26084
     marketGroup: 1236
     name: Large Core Defense Field Purger I
+    published: true
     volume: 20.0
   Large Core Defense Field Purger II:
     Drawback: 10
@@ -387,6 +420,7 @@ items:
     id: 26450
     marketGroup: 1236
     name: Large Core Defense Field Purger II
+    published: true
     volume: 20.0
   Large Core Defense Operational Solidifier I:
     Drawback: 10
@@ -398,6 +432,7 @@ items:
     id: 26086
     marketGroup: 1236
     name: Large Core Defense Operational Solidifier I
+    published: true
     volume: 20.0
   Large Core Defense Operational Solidifier II:
     Drawback: 10
@@ -410,6 +445,7 @@ items:
     id: 26452
     marketGroup: 1236
     name: Large Core Defense Operational Solidifier II
+    published: true
     volume: 20.0
   Medium Anti-EM Screen Reinforcer I:
     Drawback: 10
@@ -421,6 +457,7 @@ items:
     id: 31718
     marketGroup: 1235
     name: Medium Anti-EM Screen Reinforcer I
+    published: true
     volume: 10.0
   Medium Anti-EM Screen Reinforcer II:
     Drawback: 10
@@ -433,6 +470,7 @@ items:
     id: 31724
     marketGroup: 1235
     name: Medium Anti-EM Screen Reinforcer II
+    published: true
     volume: 10.0
   Medium Anti-Explosive Screen Reinforcer I:
     Drawback: 10
@@ -444,6 +482,7 @@ items:
     id: 31730
     marketGroup: 1235
     name: Medium Anti-Explosive Screen Reinforcer I
+    published: true
     volume: 10.0
   Medium Anti-Explosive Screen Reinforcer II:
     Drawback: 10
@@ -456,6 +495,7 @@ items:
     id: 31736
     marketGroup: 1235
     name: Medium Anti-Explosive Screen Reinforcer II
+    published: true
     volume: 10.0
   Medium Anti-Kinetic Screen Reinforcer I:
     Drawback: 10
@@ -467,6 +507,7 @@ items:
     id: 31742
     marketGroup: 1235
     name: Medium Anti-Kinetic Screen Reinforcer I
+    published: true
     volume: 10.0
   Medium Anti-Kinetic Screen Reinforcer II:
     Drawback: 10
@@ -479,6 +520,7 @@ items:
     id: 31748
     marketGroup: 1235
     name: Medium Anti-Kinetic Screen Reinforcer II
+    published: true
     volume: 10.0
   Medium Anti-Thermal Screen Reinforcer I:
     Drawback: 10
@@ -490,6 +532,7 @@ items:
     id: 31754
     marketGroup: 1235
     name: Medium Anti-Thermal Screen Reinforcer I
+    published: true
     volume: 10.0
   Medium Anti-Thermal Screen Reinforcer II:
     Drawback: 10
@@ -502,6 +545,7 @@ items:
     id: 31760
     marketGroup: 1235
     name: Medium Anti-Thermal Screen Reinforcer II
+    published: true
     volume: 10.0
   Medium Core Defense Capacitor Safeguard I:
     Drawback: 10
@@ -513,6 +557,7 @@ items:
     id: 31766
     marketGroup: 1235
     name: Medium Core Defense Capacitor Safeguard I
+    published: true
     volume: 10.0
   Medium Core Defense Capacitor Safeguard II:
     Drawback: 10
@@ -525,6 +570,7 @@ items:
     id: 31772
     marketGroup: 1235
     name: Medium Core Defense Capacitor Safeguard II
+    published: true
     volume: 10.0
   Medium Core Defense Charge Economizer I:
     Drawback: 10
@@ -536,6 +582,7 @@ items:
     id: 31778
     marketGroup: 1235
     name: Medium Core Defense Charge Economizer I
+    published: true
     volume: 10.0
   Medium Core Defense Charge Economizer II:
     Drawback: 10
@@ -548,6 +595,7 @@ items:
     id: 31784
     marketGroup: 1235
     name: Medium Core Defense Charge Economizer II
+    published: true
     volume: 10.0
   Medium Core Defense Field Extender I:
     Drawback: 10
@@ -559,6 +607,7 @@ items:
     id: 31790
     marketGroup: 1235
     name: Medium Core Defense Field Extender I
+    published: true
     volume: 10.0
   Medium Core Defense Field Extender II:
     Drawback: 10
@@ -571,6 +620,7 @@ items:
     id: 31796
     marketGroup: 1235
     name: Medium Core Defense Field Extender II
+    published: true
     volume: 10.0
   Medium Core Defense Field Purger I:
     Drawback: 10
@@ -582,6 +632,7 @@ items:
     id: 31802
     marketGroup: 1235
     name: Medium Core Defense Field Purger I
+    published: true
     volume: 10.0
   Medium Core Defense Field Purger II:
     Drawback: 10
@@ -594,6 +645,7 @@ items:
     id: 31812
     marketGroup: 1235
     name: Medium Core Defense Field Purger II
+    published: true
     volume: 10.0
   Medium Core Defense Operational Solidifier I:
     Drawback: 10
@@ -605,6 +657,7 @@ items:
     id: 31818
     marketGroup: 1235
     name: Medium Core Defense Operational Solidifier I
+    published: true
     volume: 10.0
   Medium Core Defense Operational Solidifier II:
     Drawback: 10
@@ -617,6 +670,7 @@ items:
     id: 31824
     marketGroup: 1235
     name: Medium Core Defense Operational Solidifier II
+    published: true
     volume: 10.0
   Small Anti-EM Screen Reinforcer I:
     Drawback: 10
@@ -628,6 +682,7 @@ items:
     id: 31716
     marketGroup: 1234
     name: Small Anti-EM Screen Reinforcer I
+    published: true
     volume: 5.0
   Small Anti-EM Screen Reinforcer II:
     Drawback: 10
@@ -640,6 +695,7 @@ items:
     id: 31722
     marketGroup: 1234
     name: Small Anti-EM Screen Reinforcer II
+    published: true
     volume: 5.0
   Small Anti-Explosive Screen Reinforcer I:
     Drawback: 10
@@ -651,6 +707,7 @@ items:
     id: 31728
     marketGroup: 1234
     name: Small Anti-Explosive Screen Reinforcer I
+    published: true
     volume: 5.0
   Small Anti-Explosive Screen Reinforcer II:
     Drawback: 10
@@ -663,6 +720,7 @@ items:
     id: 31734
     marketGroup: 1234
     name: Small Anti-Explosive Screen Reinforcer II
+    published: true
     volume: 5.0
   Small Anti-Kinetic Screen Reinforcer I:
     Drawback: 10
@@ -674,6 +732,7 @@ items:
     id: 31740
     marketGroup: 1234
     name: Small Anti-Kinetic Screen Reinforcer I
+    published: true
     volume: 5.0
   Small Anti-Kinetic Screen Reinforcer II:
     Drawback: 10
@@ -686,6 +745,7 @@ items:
     id: 31746
     marketGroup: 1234
     name: Small Anti-Kinetic Screen Reinforcer II
+    published: true
     volume: 5.0
   Small Anti-Thermal Screen Reinforcer I:
     Drawback: 10
@@ -697,6 +757,7 @@ items:
     id: 31752
     marketGroup: 1234
     name: Small Anti-Thermal Screen Reinforcer I
+    published: true
     volume: 5.0
   Small Anti-Thermal Screen Reinforcer II:
     Drawback: 10
@@ -709,6 +770,7 @@ items:
     id: 31758
     marketGroup: 1234
     name: Small Anti-Thermal Screen Reinforcer II
+    published: true
     volume: 5.0
   Small Core Defense Capacitor Safeguard I:
     Drawback: 10
@@ -720,6 +782,7 @@ items:
     id: 31764
     marketGroup: 1234
     name: Small Core Defense Capacitor Safeguard I
+    published: true
     volume: 5.0
   Small Core Defense Capacitor Safeguard II:
     Drawback: 10
@@ -732,6 +795,7 @@ items:
     id: 31770
     marketGroup: 1234
     name: Small Core Defense Capacitor Safeguard II
+    published: true
     volume: 5.0
   Small Core Defense Charge Economizer I:
     Drawback: 10
@@ -743,6 +807,7 @@ items:
     id: 31776
     marketGroup: 1234
     name: Small Core Defense Charge Economizer I
+    published: true
     volume: 5.0
   Small Core Defense Charge Economizer II:
     Drawback: 10
@@ -755,6 +820,7 @@ items:
     id: 31782
     marketGroup: 1234
     name: Small Core Defense Charge Economizer II
+    published: true
     volume: 5.0
   Small Core Defense Field Extender I:
     Drawback: 10
@@ -766,6 +832,7 @@ items:
     id: 31788
     marketGroup: 1234
     name: Small Core Defense Field Extender I
+    published: true
     volume: 5.0
   Small Core Defense Field Extender II:
     Drawback: 10
@@ -778,6 +845,7 @@ items:
     id: 31794
     marketGroup: 1234
     name: Small Core Defense Field Extender II
+    published: true
     volume: 5.0
   Small Core Defense Field Purger I:
     Drawback: 10
@@ -789,6 +857,7 @@ items:
     id: 31800
     marketGroup: 1234
     name: Small Core Defense Field Purger I
+    published: true
     volume: 5.0
   Small Core Defense Field Purger II:
     Drawback: 10
@@ -801,6 +870,7 @@ items:
     id: 31810
     marketGroup: 1234
     name: Small Core Defense Field Purger II
+    published: true
     volume: 5.0
   Small Core Defense Operational Solidifier I:
     Drawback: 10
@@ -812,6 +882,7 @@ items:
     id: 31816
     marketGroup: 1234
     name: Small Core Defense Operational Solidifier I
+    published: true
     volume: 5.0
   Small Core Defense Operational Solidifier II:
     Drawback: 10
@@ -824,4 +895,5 @@ items:
     id: 31822
     marketGroup: 1234
     name: Small Core Defense Operational Solidifier II
+    published: true
     volume: 5.0

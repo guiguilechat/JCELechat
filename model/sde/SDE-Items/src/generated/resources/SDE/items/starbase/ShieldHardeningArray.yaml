@@ -28,6 +28,7 @@ items:
     id: 17184
     marketGroup: 485
     name: Ballistic Deflection Array
+    published: true
     volume: 4000.0
   Explosion Dampening Array:
     AnchoringDelay: 5000
@@ -58,6 +59,7 @@ items:
     id: 17185
     marketGroup: 485
     name: Explosion Dampening Array
+    published: true
     volume: 4000.0
   Heat Dissipation Array:
     AnchoringDelay: 5000
@@ -88,6 +90,7 @@ items:
     id: 17186
     marketGroup: 485
     name: Heat Dissipation Array
+    published: true
     volume: 4000.0
   Photon Scattering Array:
     AnchoringDelay: 5000
@@ -118,4 +121,5 @@ items:
     id: 17187
     marketGroup: 485
     name: Photon Scattering Array
+    published: true
     volume: 4000.0

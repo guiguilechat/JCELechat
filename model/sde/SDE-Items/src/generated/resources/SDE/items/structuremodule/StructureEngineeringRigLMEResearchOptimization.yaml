@@ -20,6 +20,7 @@ items:
     id: 43724
     marketGroup: 2348
     name: Standup L-Set ME Research Optimization I
+    published: true
     volume: 20.0
   Standup L-Set ME Research Optimization II:
     AttributeEngRigCostBonus: -12
@@ -42,4 +43,5 @@ items:
     id: 43725
     marketGroup: 2348
     name: Standup L-Set ME Research Optimization II
+    published: true
     volume: 20.0

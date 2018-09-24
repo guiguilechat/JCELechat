@@ -1,0 +1,251 @@
+items:
+  Chief Republic Baldur:
+    id: 24817
+    name: Chief Republic Baldur
+    published: false
+    volume: 16450.0
+  Chief Republic Gleeda:
+    id: 24816
+    name: Chief Republic Gleeda
+    published: false
+    volume: 16450.0
+  Chief Republic Hrakt:
+    id: 24819
+    name: Chief Republic Hrakt
+    published: false
+    volume: 16450.0
+  Chief Republic Iflin:
+    id: 24812
+    name: Chief Republic Iflin
+    published: false
+    volume: 16450.0
+  Chief Republic Isak:
+    id: 24811
+    name: Chief Republic Isak
+    published: false
+    volume: 16450.0
+  Chief Republic Ivan:
+    id: 24813
+    name: Chief Republic Ivan
+    published: false
+    volume: 16450.0
+  Chief Republic Kvarm:
+    id: 24815
+    name: Chief Republic Kvarm
+    published: false
+    volume: 16450.0
+  Chief Republic Magni:
+    id: 24814
+    name: Chief Republic Magni
+    published: false
+    volume: 16450.0
+  Chief Republic Ofeg:
+    id: 24818
+    name: Chief Republic Ofeg
+    published: false
+    volume: 16450.0
+  Chief Republic Takan:
+    id: 24820
+    name: Chief Republic Takan
+    published: false
+    volume: 16450.0
+  Independent Breacher:
+    id: 29882
+    name: Independent Breacher
+    published: false
+    volume: 16450.0
+  Independent Green-Crewed Breacher:
+    id: 29876
+    name: Independent Green-Crewed Breacher
+    published: false
+    volume: 22500.0
+  Independent Green-Crewed Probe:
+    id: 29878
+    name: Independent Green-Crewed Probe
+    published: false
+    volume: 22500.0
+  Independent Green-Crewed Rifter:
+    id: 29879
+    name: Independent Green-Crewed Rifter
+    published: false
+    volume: 22500.0
+  Independent Green-Crewed Slasher:
+    id: 29891
+    name: Independent Green-Crewed Slasher
+    published: false
+    volume: 22500.0
+  Independent Green-Crewed Vigil:
+    id: 29881
+    name: Independent Green-Crewed Vigil
+    published: false
+    volume: 22500.0
+  Independent Probe:
+    id: 29883
+    name: Independent Probe
+    published: false
+    volume: 16450.0
+  Independent Rifter:
+    id: 29884
+    name: Independent Rifter
+    published: false
+    volume: 16450.0
+  Independent Slasher:
+    id: 29885
+    name: Independent Slasher
+    published: false
+    volume: 16450.0
+  Independent Veteran Breacher:
+    id: 29887
+    name: Independent Veteran Breacher
+    published: false
+    volume: 16450.0
+  Independent Veteran Probe:
+    id: 29888
+    name: Independent Veteran Probe
+    published: false
+    volume: 16450.0
+  Independent Veteran Rifter:
+    id: 29889
+    name: Independent Veteran Rifter
+    published: false
+    volume: 16450.0
+  Independent Veteran Slasher:
+    id: 29892
+    name: Independent Veteran Slasher
+    published: false
+    volume: 16450.0
+  Independent Veteran Vigil:
+    id: 29893
+    name: Independent Veteran Vigil
+    published: false
+    volume: 16450.0
+  Independent Vigil:
+    id: 29886
+    name: Independent Vigil
+    published: false
+    volume: 16450.0
+  Minmatar CA Frigate:
+    id: 45467
+    name: Minmatar CA Frigate
+    published: false
+    volume: 27289.0
+  Minmatar Freedom Fighter:
+    id: 11665
+    name: Minmatar Freedom Fighter
+    published: false
+    volume: 19100.0
+  Minmatar Mercenary Fighter:
+    id: 11639
+    name: Minmatar Mercenary Fighter
+    published: false
+    volume: 16450.0
+  Minmatar Miner:
+    id: 20163
+    name: Minmatar Miner
+    published: false
+    volume: 17100.0
+  Republic Baldur:
+    id: 24790
+    name: Republic Baldur
+    published: false
+    volume: 16450.0
+  Republic Fleet C-1 Support Frigate:
+    id: 15975
+    name: Republic Fleet C-1 Support Frigate
+    published: false
+    volume: 17400.0
+  Republic Fleet C-2 Support Frigate:
+    id: 15973
+    name: Republic Fleet C-2 Support Frigate
+    published: false
+    volume: 17400.0
+  Republic Fleet D-1 Support Frigate:
+    id: 15976
+    name: Republic Fleet D-1 Support Frigate
+    published: false
+    volume: 28100.0
+  Republic Fleet D-2 Support Frigate:
+    id: 15974
+    name: Republic Fleet D-2 Support Frigate
+    published: false
+    volume: 17400.0
+  Republic Fleet Elite Soldier:
+    id: 15581
+    name: Republic Fleet Elite Soldier
+    published: false
+    volume: 12000.0
+  Republic Fleet Officer:
+    id: 13105
+    name: Republic Fleet Officer
+    published: false
+    volume: 109000.0
+  Republic Fleet Scout:
+    id: 11745
+    name: Republic Fleet Scout
+    published: false
+    volume: 19100.0
+  Republic Fleet Slasher:
+    id: 14360
+    name: Republic Fleet Slasher
+    published: false
+    volume: 17400.0
+  Republic Fleet Soldier:
+    id: 14354
+    name: Republic Fleet Soldier
+    published: false
+    volume: 12000.0
+  Republic Fleet Squad Leader:
+    id: 15342
+    name: Republic Fleet Squad Leader
+    published: false
+    volume: 27289.0
+  Republic Fleet Vigil:
+    id: 14480
+    name: Republic Fleet Vigil
+    published: false
+    volume: 17400.0
+  Republic Gleeda:
+    id: 24787
+    name: Republic Gleeda
+    published: false
+    volume: 17660.0
+  Republic Kvarm:
+    id: 24784
+    name: Republic Kvarm
+    published: false
+    volume: 26005.0
+  Republic Otur:
+    id: 24781
+    name: Republic Otur
+    published: false
+    volume: 17400.0
+  Republic Radur:
+    id: 24777
+    name: Republic Radur
+    published: false
+    volume: 21120.0
+  Republic Skani:
+    id: 24779
+    name: Republic Skani
+    published: false
+    volume: 22500.0
+  Republic Takan:
+    id: 24791
+    name: Republic Takan
+    published: false
+    volume: 19100.0
+  Republic Tribal Baldur:
+    id: 24786
+    name: Republic Tribal Baldur
+    published: false
+    volume: 17500.0
+  Republic Tribal Gleeda:
+    id: 24785
+    name: Republic Tribal Gleeda
+    published: false
+    volume: 17660.0
+  Republic Tribal Takan:
+    id: 24793
+    name: Republic Tribal Takan
+    published: false
+    volume: 16450.0

@@ -8,9 +8,11 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    StasisWebifierResistance: 1.0
     id: 28412
     marketGroup: 530
     name: Compressed Magma Mercoxit
+    published: true
     volume: 0.1
   Compressed Mercoxit:
     AsteroidMetaLevel: 1
@@ -21,9 +23,11 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    StasisWebifierResistance: 1.0
     id: 28413
     marketGroup: 530
     name: Compressed Mercoxit
+    published: true
     volume: 0.1
   Compressed Vitreous Mercoxit:
     AsteroidMetaLevel: 3
@@ -34,9 +38,11 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    StasisWebifierResistance: 1.0
     id: 28414
     marketGroup: 530
     name: Compressed Vitreous Mercoxit
+    published: true
     volume: 0.1
   Magma Mercoxit:
     AsteroidMetaLevel: 2
@@ -49,9 +55,11 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    StasisWebifierResistance: 1.0
     id: 17869
     marketGroup: 530
     name: Magma Mercoxit
+    published: true
     volume: 40.0
   Mercoxit:
     AsteroidMetaLevel: 1
@@ -64,9 +72,11 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    StasisWebifierResistance: 1.0
     id: 11396
     marketGroup: 530
     name: Mercoxit
+    published: true
     volume: 40.0
   Vitreous Mercoxit:
     AsteroidMetaLevel: 3
@@ -79,9 +89,11 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    StasisWebifierResistance: 1.0
     id: 17870
     marketGroup: 530
     name: Vitreous Mercoxit
+    published: true
     volume: 40.0
   Zuthrine:
     AsteroidRadiusGrowthFactor: 1.0
@@ -91,6 +103,8 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    StasisWebifierResistance: 1.0
     id: 28626
     name: Zuthrine
+    published: true
     volume: 40.0

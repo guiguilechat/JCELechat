@@ -12,6 +12,7 @@ items:
     id: 506
     marketGroup: 667
     name: '''Basic'' Capacitor Power Relay'
+    published: true
     volume: 5.0
   '''Motte'' Capacitor Power Relay I':
     CapacitorRechargeRateMultiplier: 0.75
@@ -26,6 +27,7 @@ items:
     id: 23896
     marketGroup: 667
     name: '''Motte'' Capacitor Power Relay I'
+    published: true
     volume: 5.0
   Ahremen's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
@@ -39,6 +41,7 @@ items:
     id: 15090
     marketGroup: 667
     name: Ahremen's Modified Capacitor Power Relay
+    published: true
     volume: 5.0
   Ammatar Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
@@ -52,6 +55,7 @@ items:
     id: 17510
     marketGroup: 667
     name: Ammatar Navy Capacitor Power Relay
+    published: true
     volume: 5.0
   Brokara's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
@@ -65,6 +69,7 @@ items:
     id: 15080
     marketGroup: 667
     name: Brokara's Modified Capacitor Power Relay
+    published: true
     volume: 5.0
   Capacitor Power Relay I:
     CapacitorRechargeRateMultiplier: 0.800000011920929
@@ -76,6 +81,7 @@ items:
     id: 1445
     marketGroup: 667
     name: Capacitor Power Relay I
+    published: true
     volume: 5.0
   Capacitor Power Relay II:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
@@ -88,6 +94,7 @@ items:
     id: 1447
     marketGroup: 667
     name: Capacitor Power Relay II
+    published: true
     volume: 5.0
   Chelm's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.675000011920929
@@ -101,6 +108,7 @@ items:
     id: 15092
     marketGroup: 667
     name: Chelm's Modified Capacitor Power Relay
+    published: true
     volume: 5.0
   Dark Blood Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
@@ -114,6 +122,7 @@ items:
     id: 14144
     marketGroup: 667
     name: Dark Blood Capacitor Power Relay
+    published: true
     volume: 5.0
   Draclira's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.675000011920929
@@ -127,6 +136,7 @@ items:
     id: 15094
     marketGroup: 667
     name: Draclira's Modified Capacitor Power Relay
+    published: true
     volume: 5.0
   Imperial Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
@@ -140,6 +150,7 @@ items:
     id: 17528
     marketGroup: 667
     name: Imperial Navy Capacitor Power Relay
+    published: true
     volume: 5.0
   Khanid Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
@@ -153,6 +164,7 @@ items:
     id: 28532
     marketGroup: 667
     name: Khanid Navy Capacitor Power Relay
+    published: true
     volume: 5.0
   Makur's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
@@ -166,6 +178,7 @@ items:
     id: 15437
     marketGroup: 667
     name: Makur's Modified Capacitor Power Relay
+    published: true
     volume: 5.0
   Mark I Compact Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7799999713897705
@@ -179,6 +192,7 @@ items:
     id: 8177
     marketGroup: 667
     name: Mark I Compact Capacitor Power Relay
+    published: true
     volume: 5.0
   Raysere's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
@@ -192,6 +206,7 @@ items:
     id: 15086
     marketGroup: 667
     name: Raysere's Modified Capacitor Power Relay
+    published: true
     volume: 5.0
   Selynne's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
@@ -205,6 +220,7 @@ items:
     id: 15084
     marketGroup: 667
     name: Selynne's Modified Capacitor Power Relay
+    published: true
     volume: 5.0
   Tairei's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
@@ -218,6 +234,7 @@ items:
     id: 15082
     marketGroup: 667
     name: Tairei's Modified Capacitor Power Relay
+    published: true
     volume: 5.0
   True Sansha Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
@@ -231,6 +248,7 @@ items:
     id: 14146
     marketGroup: 667
     name: True Sansha Capacitor Power Relay
+    published: true
     volume: 5.0
   Type-D Restrained Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7799999713897705
@@ -244,6 +262,7 @@ items:
     id: 8175
     marketGroup: 667
     name: Type-D Restrained Capacitor Power Relay
+    published: true
     volume: 5.0
   Vizan's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
@@ -257,4 +276,5 @@ items:
     id: 15088
     marketGroup: 667
     name: Vizan's Modified Capacitor Power Relay
+    published: true
     volume: 5.0

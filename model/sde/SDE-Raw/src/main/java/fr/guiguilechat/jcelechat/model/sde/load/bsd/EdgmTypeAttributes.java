@@ -64,4 +64,9 @@ public class EdgmTypeAttributes {
 		}
 		return ret;
 	}
+
+	@Override
+	public String toString() {
+		return "type" + typeID + ".att" + attributeID + "=" + (valueFloat != 0 ? valueFloat : valueInt);
+	}
 }

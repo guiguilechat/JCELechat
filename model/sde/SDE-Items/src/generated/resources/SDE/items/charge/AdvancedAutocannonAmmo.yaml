@@ -1,153 +1,193 @@
 items:
   Barrage L:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
+    CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 1.0
     ExplosiveDamage: 24.0
     FallofMultiplier: 1.399999976158142
     KineticDamage: 20.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     PowerNeedMultiplier: 1
     RequiredSkill1: 12209
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
     id: 12775
     marketGroup: 857
     name: Barrage L
+    published: true
     volume: 0.025
   Barrage M:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
+    CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 1.0
     ExplosiveDamage: 12.0
     FallofMultiplier: 1.399999976158142
     KineticDamage: 10.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     PowerNeedMultiplier: 1
     RequiredSkill1: 12208
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
     id: 12773
     marketGroup: 858
     name: Barrage M
+    published: true
     volume: 0.0125
   Barrage S:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
+    CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 1.0
     ExplosiveDamage: 6.0
     FallofMultiplier: 1.399999976158142
     KineticDamage: 5.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     PowerNeedMultiplier: 1
     RequiredSkill1: 11084
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
     id: 12625
     marketGroup: 859
     name: Barrage S
+    published: true
     volume: 0.0025
   Barrage XL:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
+    CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 1.0
     ExplosiveDamage: 48.0
     FallofMultiplier: 1.399999976158142
     KineticDamage: 40.0
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     PowerNeedMultiplier: 1
     RequiredSkill1: 41403
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
     id: 41316
     marketGroup: 2253
     name: Barrage XL
+    published: true
     volume: 0.125
   Hail L:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
+    CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 48.400001525878906
     FallofMultiplier: 0.75
     KineticDamage: 13.199999809265137
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     PowerNeedMultiplier: 1
     RequiredSkill1: 12209
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12779
     marketGroup: 857
     name: Hail L
+    published: true
     volume: 0.025
   Hail M:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
+    CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 24.200000762939453
     FallofMultiplier: 0.75
     KineticDamage: 6.599999904632568
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     PowerNeedMultiplier: 1
     RequiredSkill1: 12208
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12777
     marketGroup: 858
     name: Hail M
+    published: true
     volume: 0.0125
   Hail S:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
+    CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 12.100000381469727
     FallofMultiplier: 0.75
     KineticDamage: 3.299999952316284
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     PowerNeedMultiplier: 1
     RequiredSkill1: 11084
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12608
     marketGroup: 859
     name: Hail S
+    published: true
     volume: 0.0025
   Hail XL:
+    CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
+    CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 0.5
     ExplosiveDamage: 96.80000305175781
     FallofMultiplier: 0.75
     KineticDamage: 26.399999618530273
     LauncherGroup: 55
     MainColor: 11835778
+    MaxVelocityModifier: 1.0
     MetaLevel: 5
     PowerNeedMultiplier: 1
     RequiredSkill1: 41403
     RequiredSkill1Level: 1
+    SpeedMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 41314
     marketGroup: 2253
     name: Hail XL
+    published: true
     volume: 0.125

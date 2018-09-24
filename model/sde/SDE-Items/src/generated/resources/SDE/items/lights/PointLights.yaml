@@ -2,3 +2,4 @@ items:
   Default Point Light:
     id: 32634
     name: Default Point Light
+    published: true

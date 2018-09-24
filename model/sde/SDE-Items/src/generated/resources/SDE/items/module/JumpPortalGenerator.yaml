@@ -21,6 +21,7 @@ items:
     id: 28652
     marketGroup: 1640
     name: Covert Jump Portal Generator I
+    published: true
     volume: 125.0
   Jump Portal Generator I:
     CanFitShipGroup01: 30
@@ -46,4 +47,5 @@ items:
     id: 23953
     marketGroup: 1640
     name: Jump Portal Generator I
+    published: true
     volume: 10000.0

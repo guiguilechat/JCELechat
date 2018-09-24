@@ -10,6 +10,7 @@ items:
     id: 42694
     marketGroup: 2301
     name: Active Shielding Charge
+    published: true
     volume: 0.01
   Shield Extension Charge:
     LauncherGroup: 1770
@@ -22,6 +23,7 @@ items:
     id: 42696
     marketGroup: 2301
     name: Shield Extension Charge
+    published: true
     volume: 0.01
   Shield Harmonizing Charge:
     LauncherGroup: 316
@@ -34,4 +36,5 @@ items:
     id: 42695
     marketGroup: 2301
     name: Shield Harmonizing Charge
+    published: true
     volume: 0.01

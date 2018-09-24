@@ -9,6 +9,7 @@ items:
     id: 47360
     marketGroup: 2414
     name: Standup Layered Armor Plating I
+    published: true
     volume: 4000.0
   Standup Layered Armor Plating II:
     ArmorHPMultiplier: 1.149999976158142
@@ -21,4 +22,5 @@ items:
     id: 47362
     marketGroup: 2414
     name: Standup Layered Armor Plating II
+    published: true
     volume: 4000.0

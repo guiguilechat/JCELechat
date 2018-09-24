@@ -5,6 +5,7 @@ items:
     id: 47892
     marketGroup: 2458
     name: Agitated Dark Filament
+    published: true
     volume: 0.1
   Agitated Electrical Filament:
     DifficultyTier: 2
@@ -12,6 +13,7 @@ items:
     id: 47904
     marketGroup: 2461
     name: Agitated Electrical Filament
+    published: true
     volume: 0.1
   Agitated Exotic Filament:
     DifficultyTier: 2
@@ -19,6 +21,7 @@ items:
     id: 47888
     marketGroup: 2457
     name: Agitated Exotic Filament
+    published: true
     volume: 0.1
   Agitated Firestorm Filament:
     DifficultyTier: 2
@@ -26,6 +29,7 @@ items:
     id: 47896
     marketGroup: 2459
     name: Agitated Firestorm Filament
+    published: true
     volume: 0.1
   Agitated Gamma Filament:
     DifficultyTier: 2
@@ -33,6 +37,7 @@ items:
     id: 47900
     marketGroup: 2460
     name: Agitated Gamma Filament
+    published: true
     volume: 0.1
   Calm Dark Filament:
     DifficultyTier: 1
@@ -40,6 +45,7 @@ items:
     id: 47762
     marketGroup: 2458
     name: Calm Dark Filament
+    published: true
     volume: 0.1
   Calm Electrical Filament:
     DifficultyTier: 1
@@ -47,6 +53,7 @@ items:
     id: 47765
     marketGroup: 2461
     name: Calm Electrical Filament
+    published: true
     volume: 0.1
   Calm Exotic Filament:
     DifficultyTier: 1
@@ -54,6 +61,7 @@ items:
     id: 47761
     marketGroup: 2457
     name: Calm Exotic Filament
+    published: true
     volume: 0.1
   Calm Firestorm Filament:
     DifficultyTier: 1
@@ -61,6 +69,7 @@ items:
     id: 47763
     marketGroup: 2459
     name: Calm Firestorm Filament
+    published: true
     volume: 0.1
   Calm Gamma Filament:
     DifficultyTier: 1
@@ -68,6 +77,7 @@ items:
     id: 47764
     marketGroup: 2460
     name: Calm Gamma Filament
+    published: true
     volume: 0.1
   Chaotic Dark Filament:
     DifficultyTier: 5
@@ -75,6 +85,7 @@ items:
     id: 47895
     marketGroup: 2458
     name: Chaotic Dark Filament
+    published: true
     volume: 0.1
   Chaotic Electrical Filament:
     DifficultyTier: 5
@@ -82,6 +93,7 @@ items:
     id: 47907
     marketGroup: 2461
     name: Chaotic Electrical Filament
+    published: true
     volume: 0.1
   Chaotic Exotic Filament:
     DifficultyTier: 5
@@ -89,6 +101,7 @@ items:
     id: 47891
     marketGroup: 2457
     name: Chaotic Exotic Filament
+    published: true
     volume: 0.1
   Chaotic Firestorm Filament:
     DifficultyTier: 5
@@ -96,6 +109,7 @@ items:
     id: 47899
     marketGroup: 2459
     name: Chaotic Firestorm Filament
+    published: true
     volume: 0.1
   Chaotic Gamma Filament:
     DifficultyTier: 5
@@ -103,6 +117,7 @@ items:
     id: 47903
     marketGroup: 2460
     name: Chaotic Gamma Filament
+    published: true
     volume: 0.1
   Fierce Dark Filament:
     DifficultyTier: 3
@@ -110,6 +125,7 @@ items:
     id: 47893
     marketGroup: 2458
     name: Fierce Dark Filament
+    published: true
     volume: 0.1
   Fierce Electrical Filament:
     DifficultyTier: 3
@@ -117,6 +133,7 @@ items:
     id: 47905
     marketGroup: 2461
     name: Fierce Electrical Filament
+    published: true
     volume: 0.1
   Fierce Exotic Filament:
     DifficultyTier: 3
@@ -124,6 +141,7 @@ items:
     id: 47889
     marketGroup: 2457
     name: Fierce Exotic Filament
+    published: true
     volume: 0.1
   Fierce Firestorm Filament:
     DifficultyTier: 3
@@ -131,6 +149,7 @@ items:
     id: 47897
     marketGroup: 2459
     name: Fierce Firestorm Filament
+    published: true
     volume: 0.1
   Fierce Gamma Filament:
     DifficultyTier: 3
@@ -138,6 +157,7 @@ items:
     id: 47901
     marketGroup: 2460
     name: Fierce Gamma Filament
+    published: true
     volume: 0.1
   Raging Dark Filament:
     DifficultyTier: 4
@@ -145,6 +165,7 @@ items:
     id: 47894
     marketGroup: 2458
     name: Raging Dark Filament
+    published: true
     volume: 0.1
   Raging Electrical Filament:
     DifficultyTier: 4
@@ -152,6 +173,7 @@ items:
     id: 47906
     marketGroup: 2461
     name: Raging Electrical Filament
+    published: true
     volume: 0.1
   Raging Exotic Filament:
     DifficultyTier: 4
@@ -159,6 +181,7 @@ items:
     id: 47890
     marketGroup: 2457
     name: Raging Exotic Filament
+    published: true
     volume: 0.1
   Raging Firestorm Filament:
     DifficultyTier: 4
@@ -166,6 +189,7 @@ items:
     id: 47898
     marketGroup: 2459
     name: Raging Firestorm Filament
+    published: true
     volume: 0.1
   Raging Gamma Filament:
     DifficultyTier: 4
@@ -173,4 +197,5 @@ items:
     id: 47902
     marketGroup: 2460
     name: Raging Gamma Filament
+    published: true
     volume: 0.1

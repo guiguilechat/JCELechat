@@ -7,9 +7,11 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 45492
     marketGroup: 2396
     name: Bitumens
+    published: true
     volume: 10.0
   Brimful Bitumens:
     AsteroidMaxRadius: 5000
@@ -19,9 +21,11 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46284
     marketGroup: 2396
     name: Brimful Bitumens
+    published: true
     volume: 10.0
   Brimful Coesite:
     AsteroidMaxRadius: 5000
@@ -31,9 +35,11 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46286
     marketGroup: 2396
     name: Brimful Coesite
+    published: true
     volume: 10.0
   Brimful Sylvite:
     AsteroidMaxRadius: 5000
@@ -43,9 +49,11 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46282
     marketGroup: 2396
     name: Brimful Sylvite
+    published: true
     volume: 10.0
   Brimful Zeolites:
     AsteroidMaxRadius: 5000
@@ -55,9 +63,11 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46280
     marketGroup: 2396
     name: Brimful Zeolites
+    published: true
     volume: 10.0
   Coesite:
     AsteroidMaxRadius: 5000
@@ -67,9 +77,11 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 45493
     marketGroup: 2396
     name: Coesite
+    published: true
     volume: 10.0
   Glistening Bitumens:
     AsteroidMaxRadius: 5000
@@ -79,9 +91,11 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46285
     marketGroup: 2396
     name: Glistening Bitumens
+    published: true
     volume: 10.0
   Glistening Coesite:
     AsteroidMaxRadius: 5000
@@ -91,9 +105,11 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46287
     marketGroup: 2396
     name: Glistening Coesite
+    published: true
     volume: 10.0
   Glistening Sylvite:
     AsteroidMaxRadius: 5000
@@ -103,9 +119,11 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46283
     marketGroup: 2396
     name: Glistening Sylvite
+    published: true
     volume: 10.0
   Glistening Zeolites:
     AsteroidMaxRadius: 5000
@@ -115,9 +133,11 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46281
     marketGroup: 2396
     name: Glistening Zeolites
+    published: true
     volume: 10.0
   Sylvite:
     AsteroidMaxRadius: 5000
@@ -127,9 +147,11 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 45491
     marketGroup: 2396
     name: Sylvite
+    published: true
     volume: 10.0
   Zeolites:
     AsteroidMaxRadius: 5000
@@ -139,7 +161,9 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 45490
     marketGroup: 2396
     name: Zeolites
+    published: true
     volume: 10.0

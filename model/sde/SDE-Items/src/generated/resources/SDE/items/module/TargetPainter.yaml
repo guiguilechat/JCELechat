@@ -21,6 +21,7 @@ items:
     id: 21540
     marketGroup: 757
     name: '''Inception'' Target Painter'
+    published: true
     volume: 5.0
   Domination Target Painter:
     CapacitorNeed: 10.0
@@ -44,6 +45,7 @@ items:
     id: 32414
     marketGroup: 757
     name: Domination Target Painter
+    published: true
     volume: 5.0
   Parallel Enduring Target Painter:
     CapacitorNeed: 6.0
@@ -66,6 +68,7 @@ items:
     id: 19812
     marketGroup: 757
     name: Parallel Enduring Target Painter
+    published: true
     volume: 5.0
   Peripheral Compact Target Painter:
     CapacitorNeed: 10.0
@@ -88,6 +91,7 @@ items:
     id: 19810
     marketGroup: 757
     name: Peripheral Compact Target Painter
+    published: true
     volume: 5.0
   Phased Scoped Target Painter:
     CapacitorNeed: 10.0
@@ -110,6 +114,7 @@ items:
     id: 19814
     marketGroup: 757
     name: Phased Scoped Target Painter
+    published: true
     volume: 5.0
   Republic Fleet Target Painter:
     CapacitorNeed: 10.0
@@ -133,6 +138,7 @@ items:
     id: 31944
     marketGroup: 757
     name: Republic Fleet Target Painter
+    published: true
     volume: 5.0
   Target Painter I:
     CapacitorNeed: 10.0
@@ -153,6 +159,7 @@ items:
     id: 12709
     marketGroup: 757
     name: Target Painter I
+    published: true
     volume: 5.0
   Target Painter II:
     CapacitorNeed: 12.0
@@ -174,4 +181,5 @@ items:
     id: 19806
     marketGroup: 757
     name: Target Painter II
+    published: true
     volume: 5.0

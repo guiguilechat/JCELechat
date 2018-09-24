@@ -4,102 +4,119 @@ items:
     id: 4245
     marketGroup: 1399
     name: '''Silvershore'' Greatcoat'
+    published: true
     volume: 0.1
   Men's 'Curate' Coat (black/silver):
     Gender: 1
     id: 33800
     marketGroup: 1399
     name: Men's 'Curate' Coat (black/silver)
+    published: true
     volume: 0.1
   Men's 'Curate' Coat (dark bronze):
     Gender: 1
     id: 33799
     marketGroup: 1399
     name: Men's 'Curate' Coat (dark bronze)
+    published: true
     volume: 0.1
   Men's 'Curate' Coat (festive):
     Gender: 1
     id: 37817
     marketGroup: 1399
     name: Men's 'Curate' Coat (festive)
+    published: true
     volume: 0.1
   Men's 'Curate' Coat (red/gold):
     Gender: 1
     id: 33798
     marketGroup: 1399
     name: Men's 'Curate' Coat (red/gold)
+    published: true
     volume: 0.1
   Men's 'Curate' Coat (royal gold):
     Gender: 1
     id: 33797
     marketGroup: 1399
     name: Men's 'Curate' Coat (royal gold)
+    published: true
     volume: 0.1
   Men's 'Curate' Coat (white gold):
     Gender: 1
     id: 33796
     marketGroup: 1399
     name: Men's 'Curate' Coat (white gold)
+    published: true
     volume: 0.1
   Men's 'Esquire' Coat:
     Gender: 1
     id: 4098
     marketGroup: 1399
     name: Men's 'Esquire' Coat
+    published: true
     volume: 0.1
   Men's 'Esquire' Coat (black):
     Gender: 1
     id: 4233
     marketGroup: 1399
     name: Men's 'Esquire' Coat (black)
+    published: true
     volume: 0.1
   Men's 'Esquire' Coat (green/gold):
     Gender: 1
     id: 4234
     marketGroup: 1399
     name: Men's 'Esquire' Coat (green/gold)
+    published: true
     volume: 0.1
   Men's 'Esquire' Coat (matte graphite):
     Gender: 1
     id: 4235
     marketGroup: 1399
     name: Men's 'Esquire' Coat (matte graphite)
+    published: true
     volume: 0.1
   Men's 'Esquire' Coat (matte gray):
     Gender: 1
     id: 4236
     marketGroup: 1399
     name: Men's 'Esquire' Coat (matte gray)
+    published: true
     volume: 0.1
   Men's 'Esquire' Coat (matte green):
     Gender: 1
     id: 4237
     marketGroup: 1399
     name: Men's 'Esquire' Coat (matte green)
+    published: true
     volume: 0.1
   Men's 'Esquire' Coat (red/gold):
     Gender: 1
     id: 4238
     marketGroup: 1399
     name: Men's 'Esquire' Coat (red/gold)
+    published: true
     volume: 0.1
   Men's 'Esquire' Coat (silver):
     Gender: 1
     id: 4239
     marketGroup: 1399
     name: Men's 'Esquire' Coat (silver)
+    published: true
     volume: 0.1
   Men's 'Field Marshal' Coat:
     Gender: 1
     id: 4097
     marketGroup: 1399
     name: Men's 'Field Marshal' Coat
+    published: true
     volume: 0.1
   Men's 'Field Marshal' Coat (green):
     Gender: 1
     id: 4244
     marketGroup: 1399
     name: Men's 'Field Marshal' Coat (green)
+    published: true
     volume: 0.1
   Men's 'Impact' Jacket (dark red):
     ClothingRemovesCategory: 2
@@ -107,6 +124,7 @@ items:
     id: 33794
     marketGroup: 1399
     name: Men's 'Impact' Jacket (dark red)
+    published: true
     volume: 0.1
   Men's 'Impact' Jacket (graphite):
     ClothingRemovesCategory: 2
@@ -114,6 +132,7 @@ items:
     id: 33793
     marketGroup: 1399
     name: Men's 'Impact' Jacket (graphite)
+    published: true
     volume: 0.1
   Men's 'Impact' Jacket (green camo):
     ClothingRemovesCategory: 2
@@ -121,6 +140,7 @@ items:
     id: 33792
     marketGroup: 1399
     name: Men's 'Impact' Jacket (green camo)
+    published: true
     volume: 0.1
   Men's 'Impact' Jacket (monochrome):
     ClothingRemovesCategory: 2
@@ -128,6 +148,7 @@ items:
     id: 33791
     marketGroup: 1399
     name: Men's 'Impact' Jacket (monochrome)
+    published: true
     volume: 0.1
   Men's 'Impact' Jacket (reflective blue):
     ClothingRemovesCategory: 2
@@ -135,6 +156,7 @@ items:
     id: 33795
     marketGroup: 1399
     name: Men's 'Impact' Jacket (reflective blue)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Amarr):
     ClothingRemovesCategory: 2
@@ -142,6 +164,7 @@ items:
     id: 34157
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Amarr)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Angel Cartel):
     ClothingRemovesCategory: 2
@@ -149,12 +172,14 @@ items:
     id: 34164
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Angel Cartel)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Blood Raiders black/red):
     Gender: 1
     id: 42702
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Blood Raiders black/red)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Blood Raiders):
     ClothingRemovesCategory: 2
@@ -162,6 +187,7 @@ items:
     id: 34166
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Blood Raiders)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Caldari):
     ClothingRemovesCategory: 2
@@ -169,6 +195,7 @@ items:
     id: 34156
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Caldari)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Gallente):
     ClothingRemovesCategory: 2
@@ -176,6 +203,7 @@ items:
     id: 34159
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Gallente)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Guristas):
     ClothingRemovesCategory: 2
@@ -183,6 +211,7 @@ items:
     id: 34167
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Guristas)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (InterBus):
     ClothingRemovesCategory: 2
@@ -190,6 +219,7 @@ items:
     id: 34163
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (InterBus)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Minmatar):
     ClothingRemovesCategory: 2
@@ -197,6 +227,7 @@ items:
     id: 34158
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Minmatar)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Mordu's Legion):
     ClothingRemovesCategory: 2
@@ -204,6 +235,7 @@ items:
     id: 34162
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Mordu's Legion)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (ORE):
     ClothingRemovesCategory: 2
@@ -211,6 +243,7 @@ items:
     id: 34160
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (ORE)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Sansha's Nation):
     ClothingRemovesCategory: 2
@@ -218,6 +251,7 @@ items:
     id: 34165
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Sansha's Nation)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Serpentis):
     ClothingRemovesCategory: 2
@@ -225,6 +259,7 @@ items:
     id: 34168
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Serpentis)
+    published: true
     volume: 0.1
   Men's 'Marshal' Jacket (Sisters of EVE):
     ClothingRemovesCategory: 2
@@ -232,18 +267,21 @@ items:
     id: 34161
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Sisters of EVE)
+    published: true
     volume: 0.1
   Men's 'Mirelle' Upwell Executive Coat:
     Gender: 1
     id: 40522
     marketGroup: 1399
     name: Men's 'Mirelle' Upwell Executive Coat
+    published: true
     volume: 0.1
   Men's 'Outlaw' Jacket (Blood Raiders extra red):
     Gender: 1
     id: 42705
     marketGroup: 1399
     name: Men's 'Outlaw' Jacket (Blood Raiders extra red)
+    published: true
     volume: 0.1
   Men's 'Outlaw' Jacket (Blood Raiders):
     ClothingRemovesCategory: 2
@@ -251,6 +289,7 @@ items:
     id: 34347
     marketGroup: 1399
     name: Men's 'Outlaw' Jacket (Blood Raiders)
+    published: true
     volume: 0.1
   Men's 'Outlaw' Jacket (Burnt Orange):
     ClothingRemovesCategory: 2
@@ -258,6 +297,7 @@ items:
     id: 34393
     marketGroup: 1399
     name: Men's 'Outlaw' Jacket (Burnt Orange)
+    published: true
     volume: 0.1
   Men's 'Outlaw' Jacket (Guristas):
     ClothingRemovesCategory: 2
@@ -265,6 +305,7 @@ items:
     id: 34349
     marketGroup: 1399
     name: Men's 'Outlaw' Jacket (Guristas)
+    published: true
     volume: 0.1
   Men's 'Outlaw' Jacket (Sansha's Nation):
     ClothingRemovesCategory: 2
@@ -272,24 +313,28 @@ items:
     id: 34348
     marketGroup: 1399
     name: Men's 'Outlaw' Jacket (Sansha's Nation)
+    published: true
     volume: 0.1
   Men's 'Source' Coat (black):
     Gender: 1
     id: 33803
     marketGroup: 1662
     name: Men's 'Source' Coat (black)
+    published: true
     volume: 0.1
   Men's 'Valkyrie' Flight Jacket:
     Gender: 2
     id: 46274
     marketGroup: 1399
     name: Men's 'Valkyrie' Flight Jacket
+    published: true
     volume: 0.1
   Men's Amarr Empire Command Jacket:
     Gender: 2
     id: 46662
     marketGroup: 1399
     name: Men's Amarr Empire Command Jacket
+    published: true
     volume: 0.1
   Men's Amarr Empire Exploration Suit:
     ClothingAlsoCoversCategory: 25
@@ -300,6 +345,7 @@ items:
     id: 45526
     marketGroup: 1399
     name: Men's Amarr Empire Exploration Suit
+    published: true
     volume: 0.1
   Men's CONCORD 'Solitaire' Survival Suit:
     ClothingAlsoCoversCategory: 25
@@ -310,6 +356,7 @@ items:
     id: 37818
     marketGroup: 1399
     name: Men's CONCORD 'Solitaire' Survival Suit
+    published: true
     volume: 0.1
   Men's Caldari State Exploration Suit:
     ClothingAlsoCoversCategory: 25
@@ -320,12 +367,14 @@ items:
     id: 45524
     marketGroup: 1399
     name: Men's Caldari State Exploration Suit
+    published: true
     volume: 0.1
   Men's Caldari State Officer Jacket:
     Gender: 2
     id: 46659
     marketGroup: 1399
     name: Men's Caldari State Officer Jacket
+    published: true
     volume: 0.1
   Men's Capsuleer Networker XV Suit:
     ClothingAlsoCoversCategory: 25
@@ -336,6 +385,7 @@ items:
     id: 47476
     marketGroup: 1399
     name: Men's Capsuleer Networker XV Suit
+    published: true
     volume: 0.1
   Men's Corporate Troubleshooter Gear:
     ClothingAlsoCoversCategory: 25
@@ -346,18 +396,21 @@ items:
     id: 45527
     marketGroup: 1399
     name: Men's Corporate Troubleshooter Gear
+    published: true
     volume: 0.1
   Men's Empyrean Dragons Jacket:
     Gender: 1
     id: 47032
     marketGroup: 1399
     name: Men's Empyrean Dragons Jacket
+    published: true
     volume: 0.1
   Men's Exoplanets Data Analyst Lab Coat:
     Gender: 2
     id: 45744
     marketGroup: 1399
     name: Men's Exoplanets Data Analyst Lab Coat
+    published: true
     volume: 0.1
   Men's Exoplanets Hunter Mission Suit:
     ClothingAlsoCoversCategory: 25
@@ -368,24 +421,28 @@ items:
     id: 45741
     marketGroup: 1399
     name: Men's Exoplanets Hunter Mission Suit
+    published: true
     volume: 0.1
   Men's Exoplanets Program Director Coat:
     Gender: 2
     id: 45742
     marketGroup: 1399
     name: Men's Exoplanets Program Director Coat
+    published: true
     volume: 0.1
   Men's Federal Strategic Materiel Jacket:
     Gender: 2
     id: 46667
     marketGroup: 1399
     name: Men's Federal Strategic Materiel Jacket
+    published: true
     volume: 0.1
   Men's Gallente Federation Command Jacket:
     Gender: 2
     id: 46665
     marketGroup: 1399
     name: Men's Gallente Federation Command Jacket
+    published: true
     volume: 0.1
   Men's Gallente Federation Exploration Suit:
     ClothingAlsoCoversCategory: 25
@@ -396,6 +453,7 @@ items:
     id: 45521
     marketGroup: 1399
     name: Men's Gallente Federation Exploration Suit
+    published: true
     volume: 0.1
   Men's Genolution Combat Suit:
     ClothingAlsoCoversCategory: 25
@@ -406,6 +464,7 @@ items:
     id: 37810
     marketGroup: 1399
     name: Men's Genolution Combat Suit
+    published: true
     volume: 0.1
   Men's IGC Location Scout Suit:
     ClothingAlsoCoversCategory: 25
@@ -416,12 +475,14 @@ items:
     id: 46038
     marketGroup: 1399
     name: Men's IGC Location Scout Suit
+    published: true
     volume: 0.1
   Men's Imperial War Reserves Jacket:
     Gender: 2
     id: 46666
     marketGroup: 1399
     name: Men's Imperial War Reserves Jacket
+    published: true
     volume: 0.1
   Men's Minmatar Republic Exploration Suit:
     ClothingAlsoCoversCategory: 25
@@ -432,12 +493,14 @@ items:
     id: 45525
     marketGroup: 1399
     name: Men's Minmatar Republic Exploration Suit
+    published: true
     volume: 0.1
   Men's Minmatar Republic Officer Jacket:
     Gender: 2
     id: 46664
     marketGroup: 1399
     name: Men's Minmatar Republic Officer Jacket
+    published: true
     volume: 0.1
   Men's ORE Claim Surveyor Suit:
     ClothingAlsoCoversCategory: 25
@@ -448,12 +511,14 @@ items:
     id: 45522
     marketGroup: 1399
     name: Men's ORE Claim Surveyor Suit
+    published: true
     volume: 0.5
   Men's Republic Fleet Ordnance Jacket:
     Gender: 2
     id: 46674
     marketGroup: 1399
     name: Men's Republic Fleet Ordnance Jacket
+    published: true
     volume: 0.1
   Men's SARO 'Black Troop' Combat Suit:
     ClothingAlsoCoversCategory: 25
@@ -464,6 +529,7 @@ items:
     id: 47286
     marketGroup: 1399
     name: Men's SARO 'Black Troop' Combat Suit
+    published: true
     volume: 0.1
   Men's SOE Expeditionary Suit:
     ClothingAlsoCoversCategory: 25
@@ -474,6 +540,7 @@ items:
     id: 45523
     marketGroup: 1399
     name: Men's SOE Expeditionary Suit
+    published: true
     volume: 0.1
   Men's Scope Network Special Correspondent Suit:
     ClothingAlsoCoversCategory: 25
@@ -484,42 +551,49 @@ items:
     id: 37864
     marketGroup: 1399
     name: Men's Scope Network Special Correspondent Suit
+    published: true
     volume: 0.1
   Men's State Military Stockpile Jacket:
     Gender: 2
     id: 46672
     marketGroup: 1399
     name: Men's State Military Stockpile Jacket
+    published: true
     volume: 0.1
   Men's Triglavian Survival Suit (Bioadaptive):
     Gender: 1
     id: 48082
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Bioadaptive)
+    published: true
     volume: 0.1
   Men's Triglavian Survival Suit (Encounter):
     Gender: 2
     id: 48387
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Encounter)
+    published: true
     volume: 0.1
   Men's Triglavian Survival Suit (Perun):
     Gender: 2
     id: 48385
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Perun)
+    published: true
     volume: 0.1
   Men's Triglavian Survival Suit (Svarog):
     Gender: 2
     id: 48384
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Svarog)
+    published: true
     volume: 0.1
   Men's Triglavian Survival Suit (Veles):
     Gender: 2
     id: 48383
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Veles)
+    published: true
     volume: 0.1
   Women's 'Eternity' Suit Top (Black/Gold):
     ClothingRemovesCategory: 2
@@ -528,6 +602,7 @@ items:
     id: 34091
     marketGroup: 1405
     name: Women's 'Eternity' Suit Top (Black/Gold)
+    published: true
     volume: 0.1
   Women's 'Eternity' Suit Top (Black/Red):
     ClothingRemovesCategory: 2
@@ -536,6 +611,7 @@ items:
     id: 34097
     marketGroup: 1405
     name: Women's 'Eternity' Suit Top (Black/Red)
+    published: true
     volume: 0.1
   Women's 'Eternity' Suit Top (Olive):
     ClothingRemovesCategory: 2
@@ -544,6 +620,7 @@ items:
     id: 34094
     marketGroup: 1405
     name: Women's 'Eternity' Suit Top (Olive)
+    published: true
     volume: 0.1
   Women's 'Eternity' Suit Top (White):
     ClothingRemovesCategory: 2
@@ -552,6 +629,7 @@ items:
     id: 34099
     marketGroup: 1405
     name: Women's 'Eternity' Suit Top (White)
+    published: true
     volume: 0.1
   Women's 'Eternity' Suit Top (Yellow):
     ClothingRemovesCategory: 2
@@ -560,54 +638,63 @@ items:
     id: 34100
     marketGroup: 1405
     name: Women's 'Eternity' Suit Top (Yellow)
+    published: true
     volume: 0.1
   Women's 'Executor' Coat:
     Gender: 3
     id: 4054
     marketGroup: 1405
     name: Women's 'Executor' Coat
+    published: true
     volume: 0.1
   Women's 'Executor' Coat (black):
     Gender: 3
     id: 4136
     marketGroup: 1405
     name: Women's 'Executor' Coat (black)
+    published: true
     volume: 0.1
   Women's 'Executor' Coat (graphite):
     Gender: 3
     id: 4137
     marketGroup: 1405
     name: Women's 'Executor' Coat (graphite)
+    published: true
     volume: 0.1
   Women's 'Executor' Coat (green/gold):
     Gender: 3
     id: 4138
     marketGroup: 1405
     name: Women's 'Executor' Coat (green/gold)
+    published: true
     volume: 0.1
   Women's 'Executor' Coat (matte blue):
     Gender: 3
     id: 4139
     marketGroup: 1405
     name: Women's 'Executor' Coat (matte blue)
+    published: true
     volume: 0.1
   Women's 'Executor' Coat (matte red):
     Gender: 3
     id: 4140
     marketGroup: 1405
     name: Women's 'Executor' Coat (matte red)
+    published: true
     volume: 0.1
   Women's 'Executor' Coat (red/gold):
     Gender: 3
     id: 4141
     marketGroup: 1405
     name: Women's 'Executor' Coat (red/gold)
+    published: true
     volume: 0.1
   Women's 'Executor' Coat (silver):
     Gender: 3
     id: 4142
     marketGroup: 1405
     name: Women's 'Executor' Coat (silver)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Amarr):
     ClothingRemovesCategory: 2
@@ -615,6 +702,7 @@ items:
     id: 34170
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Amarr)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Angel Cartel):
     ClothingRemovesCategory: 2
@@ -622,12 +710,14 @@ items:
     id: 34177
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Angel Cartel)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Blood Raiders black):
     Gender: 3
     id: 42703
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Blood Raiders black)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Blood Raiders):
     ClothingRemovesCategory: 2
@@ -635,6 +725,7 @@ items:
     id: 34179
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Blood Raiders)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Caldari):
     ClothingRemovesCategory: 2
@@ -642,6 +733,7 @@ items:
     id: 34169
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Caldari)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Gallente):
     ClothingRemovesCategory: 2
@@ -649,6 +741,7 @@ items:
     id: 34172
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Gallente)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Guristas):
     ClothingRemovesCategory: 2
@@ -656,6 +749,7 @@ items:
     id: 34180
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Guristas)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (InterBus):
     ClothingRemovesCategory: 2
@@ -663,6 +757,7 @@ items:
     id: 34176
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (InterBus)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Minmatar):
     ClothingRemovesCategory: 2
@@ -670,6 +765,7 @@ items:
     id: 34171
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Minmatar)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Mordu's Legion):
     ClothingRemovesCategory: 2
@@ -677,6 +773,7 @@ items:
     id: 34175
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Mordu's Legion)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (ORE):
     ClothingRemovesCategory: 2
@@ -684,6 +781,7 @@ items:
     id: 34173
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (ORE)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Sansha's Nation):
     ClothingRemovesCategory: 2
@@ -691,6 +789,7 @@ items:
     id: 34178
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Sansha's Nation)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Serpentis):
     ClothingRemovesCategory: 2
@@ -698,6 +797,7 @@ items:
     id: 34181
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Serpentis)
+    published: true
     volume: 0.1
   Women's 'Gunner' Jacket (Sisters of EVE):
     ClothingRemovesCategory: 2
@@ -705,18 +805,21 @@ items:
     id: 34174
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Sisters of EVE)
+    published: true
     volume: 0.1
   Women's 'Mirelle' Upwell Executive Coat:
     Gender: 3
     id: 40523
     marketGroup: 1405
     name: Women's 'Mirelle' Upwell Executive Coat
+    published: true
     volume: 0.1
   Women's 'Outlaw' Coat (Blood Raiders extra red):
     Gender: 3
     id: 42706
     marketGroup: 1405
     name: Women's 'Outlaw' Coat (Blood Raiders extra red)
+    published: true
     volume: 0.1
   Women's 'Outlaw' Coat (Blood Raiders):
     ClothingRemovesCategory: 2
@@ -724,12 +827,14 @@ items:
     id: 34353
     marketGroup: 1405
     name: Women's 'Outlaw' Coat (Blood Raiders)
+    published: true
     volume: 0.1
   Women's 'Outlaw' Coat (Burnt Orange):
     Gender: 3
     id: 34394
     marketGroup: 1405
     name: Women's 'Outlaw' Coat (Burnt Orange)
+    published: true
     volume: 0.1
   Women's 'Outlaw' Coat (Guristas):
     ClothingRemovesCategory: 2
@@ -737,6 +842,7 @@ items:
     id: 34351
     marketGroup: 1405
     name: Women's 'Outlaw' Coat (Guristas)
+    published: true
     volume: 0.1
   Women's 'Outlaw' Coat (Sansha's Nation):
     ClothingRemovesCategory: 2
@@ -744,78 +850,91 @@ items:
     id: 34350
     marketGroup: 1405
     name: Women's 'Outlaw' Coat (Sansha's Nation)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (black):
     Gender: 3
     id: 33734
     marketGroup: 1405
     name: Women's 'Rocket' Dress (black)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (blue):
     Gender: 3
     id: 33735
     marketGroup: 1405
     name: Women's 'Rocket' Dress (blue)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (copper):
     Gender: 3
     id: 33736
     marketGroup: 1405
     name: Women's 'Rocket' Dress (copper)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (dark grey):
     Gender: 3
     id: 33737
     marketGroup: 1405
     name: Women's 'Rocket' Dress (dark grey)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (dark teal):
     Gender: 3
     id: 33743
     marketGroup: 1405
     name: Women's 'Rocket' Dress (dark teal)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (festive):
     Gender: 3
     id: 37816
     marketGroup: 1405
     name: Women's 'Rocket' Dress (festive)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (glossy black):
     Gender: 3
     id: 33733
     marketGroup: 1405
     name: Women's 'Rocket' Dress (glossy black)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (green):
     Gender: 3
     id: 33739
     marketGroup: 1405
     name: Women's 'Rocket' Dress (green)
+    published: true
     volume: 0.1
   'Women''s ''Rocket'' Dress (metal) ':
     Gender: 3
     id: 33738
     marketGroup: 1405
     name: 'Women''s ''Rocket'' Dress (metal) '
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (purple):
     Gender: 3
     id: 33740
     marketGroup: 1405
     name: Women's 'Rocket' Dress (purple)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (red):
     Gender: 3
     id: 33741
     marketGroup: 1405
     name: Women's 'Rocket' Dress (red)
+    published: true
     volume: 0.1
   Women's 'Rocket' Dress (white):
     Gender: 3
     id: 33742
     marketGroup: 1405
     name: Women's 'Rocket' Dress (white)
+    published: true
     volume: 0.1
   Women's 'Sanctity' Dress (black/gold):
     ClothingAlsoCoversCategory: 25
@@ -824,6 +943,7 @@ items:
     id: 33726
     marketGroup: 1405
     name: Women's 'Sanctity' Dress (black/gold)
+    published: true
     volume: 0.1
   Women's 'Sanctity' Dress (blue/silver):
     ClothingAlsoCoversCategory: 25
@@ -832,6 +952,7 @@ items:
     id: 33728
     marketGroup: 1405
     name: Women's 'Sanctity' Dress (blue/silver)
+    published: true
     volume: 0.1
   Women's 'Sanctity' Dress (brown/gold):
     ClothingAlsoCoversCategory: 25
@@ -840,6 +961,7 @@ items:
     id: 33727
     marketGroup: 1405
     name: Women's 'Sanctity' Dress (brown/gold)
+    published: true
     volume: 0.1
   Women's 'Sanctity' Dress (cream/gold):
     ClothingAlsoCoversCategory: 25
@@ -848,6 +970,7 @@ items:
     id: 33715
     marketGroup: 1405
     name: Women's 'Sanctity' Dress (cream/gold)
+    published: true
     volume: 0.1
   Women's 'Sanctity' Dress (green/gold):
     ClothingAlsoCoversCategory: 25
@@ -856,6 +979,7 @@ items:
     id: 33729
     marketGroup: 1405
     name: Women's 'Sanctity' Dress (green/gold)
+    published: true
     volume: 0.1
   Women's 'Sanctity' Dress (olive/gold):
     ClothingAlsoCoversCategory: 25
@@ -864,6 +988,7 @@ items:
     id: 33731
     marketGroup: 1405
     name: Women's 'Sanctity' Dress (olive/gold)
+    published: true
     volume: 0.1
   Women's 'Sanctity' Dress (red/gold):
     ClothingAlsoCoversCategory: 25
@@ -872,6 +997,7 @@ items:
     id: 33730
     marketGroup: 1405
     name: Women's 'Sanctity' Dress (red/gold)
+    published: true
     volume: 0.1
   Women's 'Sanctity' Dress (red/silver):
     ClothingAlsoCoversCategory: 25
@@ -880,12 +1006,14 @@ items:
     id: 33732
     marketGroup: 1405
     name: Women's 'Sanctity' Dress (red/silver)
+    published: true
     volume: 0.1
   Women's 'Source' Coat (silver):
     Gender: 3
     id: 33804
     marketGroup: 1662
     name: Women's 'Source' Coat (silver)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (black):
     ClothingAlsoCoversCategory: 25
@@ -894,6 +1022,7 @@ items:
     id: 4143
     marketGroup: 1405
     name: Women's 'Structure' Dress (black)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (black/white):
     ClothingAlsoCoversCategory: 25
@@ -902,6 +1031,7 @@ items:
     id: 4144
     marketGroup: 1405
     name: Women's 'Structure' Dress (black/white)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (brown):
     ClothingAlsoCoversCategory: 25
@@ -910,6 +1040,7 @@ items:
     id: 4145
     marketGroup: 1405
     name: Women's 'Structure' Dress (brown)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (gold/black):
     ClothingAlsoCoversCategory: 25
@@ -918,6 +1049,7 @@ items:
     id: 4146
     marketGroup: 1405
     name: Women's 'Structure' Dress (gold/black)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (graphite):
     ClothingAlsoCoversCategory: 25
@@ -926,6 +1058,7 @@ items:
     id: 4149
     marketGroup: 1405
     name: Women's 'Structure' Dress (graphite)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (green):
     ClothingAlsoCoversCategory: 25
@@ -934,6 +1067,7 @@ items:
     id: 4150
     marketGroup: 1405
     name: Women's 'Structure' Dress (green)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (matte blue):
     ClothingAlsoCoversCategory: 25
@@ -942,6 +1076,7 @@ items:
     id: 4151
     marketGroup: 1405
     name: Women's 'Structure' Dress (matte blue)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (matte red):
     ClothingAlsoCoversCategory: 25
@@ -950,6 +1085,7 @@ items:
     id: 4152
     marketGroup: 1405
     name: Women's 'Structure' Dress (matte red)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (navy):
     ClothingAlsoCoversCategory: 25
@@ -958,6 +1094,7 @@ items:
     id: 3975
     marketGroup: 1405
     name: Women's 'Structure' Dress (navy)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (red):
     ClothingAlsoCoversCategory: 25
@@ -966,6 +1103,7 @@ items:
     id: 4153
     marketGroup: 1405
     name: Women's 'Structure' Dress (red)
+    published: true
     volume: 0.1
   Women's 'Structure' Dress (turquoise):
     ClothingAlsoCoversCategory: 25
@@ -974,18 +1112,21 @@ items:
     id: 4154
     marketGroup: 1405
     name: Women's 'Structure' Dress (turquoise)
+    published: true
     volume: 0.1
   Women's 'Valkyrie' Flight Jacket:
     Gender: 2
     id: 46273
     marketGroup: 1405
     name: Women's 'Valkyrie' Flight Jacket
+    published: true
     volume: 0.1
   Women's Amarr Empire Command Jacket:
     Gender: 2
     id: 46663
     marketGroup: 1405
     name: Women's Amarr Empire Command Jacket
+    published: true
     volume: 0.1
   Women's Amarr Empire Exploration Suit:
     ClothingAlsoCoversCategory: 25
@@ -996,6 +1137,7 @@ items:
     id: 45518
     marketGroup: 1405
     name: Women's Amarr Empire Exploration Suit
+    published: true
     volume: 0.1
   Women's CONCORD 'Solitaire' Survival Suit:
     ClothingAlsoCoversCategory: 25
@@ -1006,6 +1148,7 @@ items:
     id: 37601
     marketGroup: 1405
     name: Women's CONCORD 'Solitaire' Survival Suit
+    published: true
     volume: 0.1
   Women's Caldari State Exploration Suit:
     ClothingAlsoCoversCategory: 25
@@ -1016,12 +1159,14 @@ items:
     id: 45515
     marketGroup: 1405
     name: Women's Caldari State Exploration Suit
+    published: true
     volume: 0.1
   Women's Caldari State Officer Jacket:
     Gender: 2
     id: 46669
     marketGroup: 1405
     name: Women's Caldari State Officer Jacket
+    published: true
     volume: 0.1
   Women's Capsuleer Networker XV Suit:
     ClothingAlsoCoversCategory: 25
@@ -1032,6 +1177,7 @@ items:
     id: 47475
     marketGroup: 1405
     name: Women's Capsuleer Networker XV Suit
+    published: true
     volume: 0.1
   Women's Corporate Troubleshooter Gear:
     ClothingAlsoCoversCategory: 25
@@ -1042,18 +1188,21 @@ items:
     id: 45519
     marketGroup: 1405
     name: Women's Corporate Troubleshooter Gear
+    published: true
     volume: 0.1
   Women's Empyrean Dragons Jacket:
     Gender: 3
     id: 47031
     marketGroup: 1405
     name: Women's Empyrean Dragons Jacket
+    published: true
     volume: 0.1
   Women's Exoplanets Data Analyst Lab Coat:
     Gender: 2
     id: 45737
     marketGroup: 1405
     name: Women's Exoplanets Data Analyst Lab Coat
+    published: true
     volume: 0.1
   Women's Exoplanets Hunter Mission Suit:
     ClothingAlsoCoversCategory: 25
@@ -1064,24 +1213,28 @@ items:
     id: 45735
     marketGroup: 1405
     name: Women's Exoplanets Hunter Mission Suit
+    published: true
     volume: 0.1
   Women's Exoplanets Program Director Coat:
     Gender: 2
     id: 45738
     marketGroup: 1405
     name: Women's Exoplanets Program Director Coat
+    published: true
     volume: 0.1
   Women's Federal Strategic Materiel Jacket:
     Gender: 2
     id: 46658
     marketGroup: 1405
     name: Women's Federal Strategic Materiel Jacket
+    published: true
     volume: 0.1
   Women's Gallente Federation Command Jacket:
     Gender: 2
     id: 46660
     marketGroup: 1405
     name: Women's Gallente Federation Command Jacket
+    published: true
     volume: 0.1
   Women's Gallente Federation Exploration Suit:
     ClothingAlsoCoversCategory: 25
@@ -1092,6 +1245,7 @@ items:
     id: 45517
     marketGroup: 1405
     name: Women's Gallente Federation Exploration Suit
+    published: true
     volume: 0.1
   Women's Genolution Combat Suit:
     ClothingAlsoCoversCategory: 25
@@ -1102,6 +1256,7 @@ items:
     id: 37600
     marketGroup: 1405
     name: Women's Genolution Combat Suit
+    published: true
     volume: 0.1
   Women's IGC Location Scout Suit:
     ClothingAlsoCoversCategory: 25
@@ -1112,12 +1267,14 @@ items:
     id: 46039
     marketGroup: 1405
     name: Women's IGC Location Scout Suit
+    published: true
     volume: 0.1
   Women's Imperial War Reserves Jacket:
     Gender: 2
     id: 46668
     marketGroup: 1405
     name: Women's Imperial War Reserves Jacket
+    published: true
     volume: 0.1
   Women's Minmatar Republic Exploration Suit:
     ClothingAlsoCoversCategory: 25
@@ -1128,12 +1285,14 @@ items:
     id: 45516
     marketGroup: 1405
     name: Women's Minmatar Republic Exploration Suit
+    published: true
     volume: 0.1
   Women's Minmatar Republic Officer Jacket:
     Gender: 2
     id: 46673
     marketGroup: 1405
     name: Women's Minmatar Republic Officer Jacket
+    published: true
     volume: 0.1
   Women's ORE Claim Surveyor Suit:
     ClothingAlsoCoversCategory: 25
@@ -1144,12 +1303,14 @@ items:
     id: 45520
     marketGroup: 1405
     name: Women's ORE Claim Surveyor Suit
+    published: true
     volume: 0.1
   Women's Republic Fleet Ordnance Jacket:
     Gender: 2
     id: 46661
     marketGroup: 1405
     name: Women's Republic Fleet Ordnance Jacket
+    published: true
     volume: 0.1
   Women's SARO 'Black Troop' Combat Suit:
     ClothingAlsoCoversCategory: 25
@@ -1160,6 +1321,7 @@ items:
     id: 47287
     marketGroup: 1405
     name: Women's SARO 'Black Troop' Combat Suit
+    published: true
     volume: 0.1
   Women's SOE Expeditionary Suit:
     ClothingAlsoCoversCategory: 25
@@ -1170,6 +1332,7 @@ items:
     id: 45514
     marketGroup: 1405
     name: Women's SOE Expeditionary Suit
+    published: true
     volume: 0.1
   Women's Scope Network Special Correspondent Suit:
     ClothingAlsoCoversCategory: 25
@@ -1180,40 +1343,47 @@ items:
     id: 37863
     marketGroup: 1405
     name: Women's Scope Network Special Correspondent Suit
+    published: true
     volume: 0.1
   Women's State Military Stockpile Jacket:
     Gender: 2
     id: 46671
     marketGroup: 1405
     name: Women's State Military Stockpile Jacket
+    published: true
     volume: 0.1
   Women's Triglavian Survival Suit (Bioadaptive):
     Gender: 3
     id: 48081
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Bioadaptive)
+    published: true
     volume: 0.1
   Women's Triglavian Survival Suit (Encounter):
     Gender: 2
     id: 48386
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Encounter)
+    published: true
     volume: 0.1
   Women's Triglavian Survival Suit (Perun):
     Gender: 2
     id: 48382
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Perun)
+    published: true
     volume: 0.1
   Women's Triglavian Survival Suit (Svarog):
     Gender: 2
     id: 48381
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Svarog)
+    published: true
     volume: 0.1
   Women's Triglavian Survival Suit (Veles):
     Gender: 2
     id: 48380
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Veles)
+    published: true
     volume: 0.1

@@ -17,6 +17,7 @@ items:
     id: 15026
     marketGroup: 1681
     name: Ahremen's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Ahremen's Modified Armor Explosive Hardener:
     CapacitorNeed: 42.0
@@ -36,6 +37,7 @@ items:
     id: 15074
     marketGroup: 1680
     name: Ahremen's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Ahremen's Modified Armor Kinetic Hardener:
     CapacitorNeed: 42.0
@@ -55,6 +57,7 @@ items:
     id: 15058
     marketGroup: 1679
     name: Ahremen's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Ahremen's Modified Armor Thermal Hardener:
     CapacitorNeed: 42.0
@@ -74,6 +77,7 @@ items:
     id: 15042
     marketGroup: 1678
     name: Ahremen's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Ammatar Navy Armor EM Hardener:
     Duration: 20000.0
@@ -92,6 +96,7 @@ items:
     id: 17502
     marketGroup: 1681
     name: Ammatar Navy Armor EM Hardener
+    published: true
     volume: 5.0
   Ammatar Navy Armor Explosive Hardener:
     Duration: 20000.0
@@ -110,6 +115,7 @@ items:
     id: 17504
     marketGroup: 1680
     name: Ammatar Navy Armor Explosive Hardener
+    published: true
     volume: 5.0
   Ammatar Navy Armor Kinetic Hardener:
     Duration: 20000.0
@@ -128,6 +134,7 @@ items:
     id: 17506
     marketGroup: 1679
     name: Ammatar Navy Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Ammatar Navy Armor Thermal Hardener:
     Duration: 20000.0
@@ -146,6 +153,7 @@ items:
     id: 17508
     marketGroup: 1678
     name: Ammatar Navy Armor Thermal Hardener
+    published: true
     volume: 5.0
   Armor EM Hardener I:
     CapacitorNeed: 30.0
@@ -163,6 +171,7 @@ items:
     id: 11301
     marketGroup: 1681
     name: Armor EM Hardener I
+    published: true
     volume: 20.0
   Armor EM Hardener II:
     CapacitorNeed: 30.0
@@ -181,6 +190,7 @@ items:
     id: 11642
     marketGroup: 1681
     name: Armor EM Hardener II
+    published: true
     volume: 5.0
   Armor Explosive Hardener I:
     CapacitorNeed: 30.0
@@ -198,6 +208,7 @@ items:
     id: 11303
     marketGroup: 1680
     name: Armor Explosive Hardener I
+    published: true
     volume: 20.0
   Armor Explosive Hardener II:
     CapacitorNeed: 30.0
@@ -216,6 +227,7 @@ items:
     id: 11646
     marketGroup: 1680
     name: Armor Explosive Hardener II
+    published: true
     volume: 5.0
   Armor Kinetic Hardener I:
     CapacitorNeed: 30.0
@@ -233,6 +245,7 @@ items:
     id: 11305
     marketGroup: 1679
     name: Armor Kinetic Hardener I
+    published: true
     volume: 20.0
   Armor Kinetic Hardener II:
     CapacitorNeed: 30.0
@@ -251,6 +264,7 @@ items:
     id: 11644
     marketGroup: 1679
     name: Armor Kinetic Hardener II
+    published: true
     volume: 5.0
   Armor Thermal Hardener I:
     CapacitorNeed: 30.0
@@ -268,6 +282,7 @@ items:
     id: 11277
     marketGroup: 1678
     name: Armor Thermal Hardener I
+    published: true
     volume: 20.0
   Armor Thermal Hardener II:
     CapacitorNeed: 30.0
@@ -286,6 +301,7 @@ items:
     id: 11648
     marketGroup: 1678
     name: Armor Thermal Hardener II
+    published: true
     volume: 5.0
   Brokara's Modified Armor EM Hardener:
     CapacitorNeed: 34.0
@@ -305,6 +321,7 @@ items:
     id: 15016
     marketGroup: 1681
     name: Brokara's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Brokara's Modified Armor Explosive Hardener:
     CapacitorNeed: 34.0
@@ -324,6 +341,7 @@ items:
     id: 15064
     marketGroup: 1680
     name: Brokara's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Brokara's Modified Armor Kinetic Hardener:
     CapacitorNeed: 34.0
@@ -343,6 +361,7 @@ items:
     id: 15048
     marketGroup: 1679
     name: Brokara's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Brokara's Modified Armor Thermal Hardener:
     CapacitorNeed: 34.0
@@ -362,6 +381,7 @@ items:
     id: 15032
     marketGroup: 1678
     name: Brokara's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Brynn's Modified Armor EM Hardener:
     CapacitorNeed: 34.0
@@ -381,6 +401,7 @@ items:
     id: 15244
     marketGroup: 1681
     name: Brynn's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Brynn's Modified Armor Explosive Hardener:
     CapacitorNeed: 34.0
@@ -400,6 +421,7 @@ items:
     id: 15268
     marketGroup: 1680
     name: Brynn's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Brynn's Modified Armor Kinetic Hardener:
     CapacitorNeed: 34.0
@@ -419,6 +441,7 @@ items:
     id: 15260
     marketGroup: 1679
     name: Brynn's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Brynn's Modified Armor Thermal Hardener:
     CapacitorNeed: 34.0
@@ -438,6 +461,7 @@ items:
     id: 15252
     marketGroup: 1678
     name: Brynn's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Centus A-Type Armor EM Hardener:
     CapacitorNeed: 42.0
@@ -457,6 +481,7 @@ items:
     id: 18931
     marketGroup: 1681
     name: Centus A-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Centus A-Type Armor Explosive Hardener:
     CapacitorNeed: 42.0
@@ -476,6 +501,7 @@ items:
     id: 18927
     marketGroup: 1680
     name: Centus A-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Centus A-Type Armor Kinetic Hardener:
     CapacitorNeed: 42.0
@@ -495,6 +521,7 @@ items:
     id: 18923
     marketGroup: 1679
     name: Centus A-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Centus A-Type Armor Thermal Hardener:
     CapacitorNeed: 42.0
@@ -514,6 +541,7 @@ items:
     id: 18919
     marketGroup: 1678
     name: Centus A-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Centus B-Type Armor EM Hardener:
     CapacitorNeed: 38.0
@@ -533,6 +561,7 @@ items:
     id: 18903
     marketGroup: 1681
     name: Centus B-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Centus B-Type Armor Explosive Hardener:
     CapacitorNeed: 38.0
@@ -552,6 +581,7 @@ items:
     id: 18907
     marketGroup: 1680
     name: Centus B-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Centus B-Type Armor Kinetic Hardener:
     CapacitorNeed: 38.0
@@ -571,6 +601,7 @@ items:
     id: 18911
     marketGroup: 1679
     name: Centus B-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Centus B-Type Armor Thermal Hardener:
     CapacitorNeed: 38.0
@@ -590,6 +621,7 @@ items:
     id: 18915
     marketGroup: 1678
     name: Centus B-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Centus C-Type Armor EM Hardener:
     CapacitorNeed: 34.0
@@ -609,6 +641,7 @@ items:
     id: 18887
     marketGroup: 1681
     name: Centus C-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Centus C-Type Armor Explosive Hardener:
     CapacitorNeed: 34.0
@@ -628,6 +661,7 @@ items:
     id: 18891
     marketGroup: 1680
     name: Centus C-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Centus C-Type Armor Kinetic Hardener:
     CapacitorNeed: 34.0
@@ -647,6 +681,7 @@ items:
     id: 18895
     marketGroup: 1679
     name: Centus C-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Centus C-Type Armor Thermal Hardener:
     CapacitorNeed: 34.0
@@ -666,6 +701,7 @@ items:
     id: 18899
     marketGroup: 1678
     name: Centus C-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Centus X-Type Armor EM Hardener:
     CapacitorNeed: 46.0
@@ -685,6 +721,7 @@ items:
     id: 18935
     marketGroup: 1681
     name: Centus X-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Centus X-Type Armor Explosive Hardener:
     CapacitorNeed: 46.0
@@ -704,6 +741,7 @@ items:
     id: 18939
     marketGroup: 1680
     name: Centus X-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Centus X-Type Armor Kinetic Hardener:
     CapacitorNeed: 46.0
@@ -723,6 +761,7 @@ items:
     id: 18943
     marketGroup: 1679
     name: Centus X-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Centus X-Type Armor Thermal Hardener:
     CapacitorNeed: 46.0
@@ -742,6 +781,7 @@ items:
     id: 18947
     marketGroup: 1678
     name: Centus X-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Chelm's Modified Armor EM Hardener:
     CapacitorNeed: 46.0
@@ -761,6 +801,7 @@ items:
     id: 15028
     marketGroup: 1681
     name: Chelm's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Chelm's Modified Armor Explosive Hardener:
     CapacitorNeed: 46.0
@@ -780,6 +821,7 @@ items:
     id: 15076
     marketGroup: 1680
     name: Chelm's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Chelm's Modified Armor Kinetic Hardener:
     CapacitorNeed: 46.0
@@ -799,6 +841,7 @@ items:
     id: 15060
     marketGroup: 1679
     name: Chelm's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Chelm's Modified Armor Thermal Hardener:
     CapacitorNeed: 46.0
@@ -818,6 +861,7 @@ items:
     id: 15044
     marketGroup: 1678
     name: Chelm's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Core A-Type Armor EM Hardener:
     CapacitorNeed: 42.0
@@ -837,6 +881,7 @@ items:
     id: 18965
     marketGroup: 1681
     name: Core A-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Core A-Type Armor Explosive Hardener:
     CapacitorNeed: 42.0
@@ -856,6 +901,7 @@ items:
     id: 18967
     marketGroup: 1680
     name: Core A-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Core A-Type Armor Kinetic Hardener:
     CapacitorNeed: 42.0
@@ -875,6 +921,7 @@ items:
     id: 18969
     marketGroup: 1679
     name: Core A-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Core A-Type Armor Thermal Hardener:
     CapacitorNeed: 42.0
@@ -894,6 +941,7 @@ items:
     id: 18971
     marketGroup: 1678
     name: Core A-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Core B-Type Armor EM Hardener:
     CapacitorNeed: 38.0
@@ -913,6 +961,7 @@ items:
     id: 18957
     marketGroup: 1681
     name: Core B-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Core B-Type Armor Explosive Hardener:
     CapacitorNeed: 38.0
@@ -932,6 +981,7 @@ items:
     id: 18959
     marketGroup: 1680
     name: Core B-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Core B-Type Armor Kinetic Hardener:
     CapacitorNeed: 38.0
@@ -951,6 +1001,7 @@ items:
     id: 18961
     marketGroup: 1679
     name: Core B-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Core B-Type Armor Thermal Hardener:
     CapacitorNeed: 38.0
@@ -970,6 +1021,7 @@ items:
     id: 18963
     marketGroup: 1678
     name: Core B-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Core C-Type Armor EM Hardener:
     CapacitorNeed: 34.0
@@ -989,6 +1041,7 @@ items:
     id: 18949
     marketGroup: 1681
     name: Core C-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Core C-Type Armor Explosive Hardener:
     CapacitorNeed: 34.0
@@ -1008,6 +1061,7 @@ items:
     id: 18951
     marketGroup: 1680
     name: Core C-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Core C-Type Armor Kinetic Hardener:
     CapacitorNeed: 34.0
@@ -1027,6 +1081,7 @@ items:
     id: 18953
     marketGroup: 1679
     name: Core C-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Core C-Type Armor Thermal Hardener:
     CapacitorNeed: 34.0
@@ -1046,6 +1101,7 @@ items:
     id: 18955
     marketGroup: 1678
     name: Core C-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Core X-Type Armor EM Hardener:
     CapacitorNeed: 46.0
@@ -1065,6 +1121,7 @@ items:
     id: 18973
     marketGroup: 1681
     name: Core X-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Core X-Type Armor Explosive Hardener:
     CapacitorNeed: 46.0
@@ -1084,6 +1141,7 @@ items:
     id: 18975
     marketGroup: 1680
     name: Core X-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Core X-Type Armor Kinetic Hardener:
     CapacitorNeed: 46.0
@@ -1103,6 +1161,7 @@ items:
     id: 18977
     marketGroup: 1679
     name: Core X-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Core X-Type Armor Thermal Hardener:
     CapacitorNeed: 46.0
@@ -1122,6 +1181,7 @@ items:
     id: 18979
     marketGroup: 1678
     name: Core X-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Cormack's Modified Armor EM Hardener:
     CapacitorNeed: 46.0
@@ -1141,6 +1201,7 @@ items:
     id: 15250
     marketGroup: 1681
     name: Cormack's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Cormack's Modified Armor Explosive Hardener:
     CapacitorNeed: 46.0
@@ -1160,6 +1221,7 @@ items:
     id: 15274
     marketGroup: 1680
     name: Cormack's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Cormack's Modified Armor Kinetic Hardener:
     CapacitorNeed: 46.0
@@ -1179,6 +1241,7 @@ items:
     id: 15266
     marketGroup: 1679
     name: Cormack's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Cormack's Modified Armor Thermal Hardener:
     CapacitorNeed: 46.0
@@ -1198,6 +1261,7 @@ items:
     id: 15258
     marketGroup: 1678
     name: Cormack's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Corpus A-Type Armor EM Hardener:
     CapacitorNeed: 42.0
@@ -1217,6 +1281,7 @@ items:
     id: 18929
     marketGroup: 1681
     name: Corpus A-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Corpus A-Type Armor Explosive Hardener:
     CapacitorNeed: 42.0
@@ -1236,6 +1301,7 @@ items:
     id: 18925
     marketGroup: 1680
     name: Corpus A-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Corpus A-Type Armor Kinetic Hardener:
     CapacitorNeed: 42.0
@@ -1255,6 +1321,7 @@ items:
     id: 18921
     marketGroup: 1679
     name: Corpus A-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Corpus A-Type Armor Thermal Hardener:
     CapacitorNeed: 42.0
@@ -1274,6 +1341,7 @@ items:
     id: 18917
     marketGroup: 1678
     name: Corpus A-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Corpus B-Type Armor EM Hardener:
     CapacitorNeed: 38.0
@@ -1293,6 +1361,7 @@ items:
     id: 18901
     marketGroup: 1681
     name: Corpus B-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Corpus B-Type Armor Explosive Hardener:
     CapacitorNeed: 38.0
@@ -1312,6 +1381,7 @@ items:
     id: 18905
     marketGroup: 1680
     name: Corpus B-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Corpus B-Type Armor Kinetic Hardener:
     CapacitorNeed: 38.0
@@ -1331,6 +1401,7 @@ items:
     id: 18909
     marketGroup: 1679
     name: Corpus B-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Corpus B-Type Armor Thermal Hardener:
     CapacitorNeed: 38.0
@@ -1350,6 +1421,7 @@ items:
     id: 18913
     marketGroup: 1678
     name: Corpus B-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Corpus C-Type Armor EM Hardener:
     CapacitorNeed: 34.0
@@ -1369,6 +1441,7 @@ items:
     id: 18885
     marketGroup: 1681
     name: Corpus C-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Corpus C-Type Armor Explosive Hardener:
     CapacitorNeed: 34.0
@@ -1388,6 +1461,7 @@ items:
     id: 18889
     marketGroup: 1680
     name: Corpus C-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Corpus C-Type Armor Kinetic Hardener:
     CapacitorNeed: 34.0
@@ -1407,6 +1481,7 @@ items:
     id: 18893
     marketGroup: 1679
     name: Corpus C-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Corpus C-Type Armor Thermal Hardener:
     CapacitorNeed: 34.0
@@ -1426,6 +1501,7 @@ items:
     id: 18897
     marketGroup: 1678
     name: Corpus C-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Corpus X-Type Armor EM Hardener:
     CapacitorNeed: 46.0
@@ -1445,6 +1521,7 @@ items:
     id: 18933
     marketGroup: 1681
     name: Corpus X-Type Armor EM Hardener
+    published: true
     volume: 5.0
   Corpus X-Type Armor Explosive Hardener:
     CapacitorNeed: 46.0
@@ -1464,6 +1541,7 @@ items:
     id: 18937
     marketGroup: 1680
     name: Corpus X-Type Armor Explosive Hardener
+    published: true
     volume: 5.0
   Corpus X-Type Armor Kinetic Hardener:
     CapacitorNeed: 46.0
@@ -1483,6 +1561,7 @@ items:
     id: 18941
     marketGroup: 1679
     name: Corpus X-Type Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Corpus X-Type Armor Thermal Hardener:
     CapacitorNeed: 46.0
@@ -1502,6 +1581,7 @@ items:
     id: 18945
     marketGroup: 1678
     name: Corpus X-Type Armor Thermal Hardener
+    published: true
     volume: 5.0
   Dark Blood Armor EM Hardener:
     Duration: 20000.0
@@ -1520,6 +1600,7 @@ items:
     id: 13972
     marketGroup: 1681
     name: Dark Blood Armor EM Hardener
+    published: true
     volume: 5.0
   Dark Blood Armor Explosive Hardener:
     Duration: 20000.0
@@ -1538,6 +1619,7 @@ items:
     id: 13976
     marketGroup: 1680
     name: Dark Blood Armor Explosive Hardener
+    published: true
     volume: 5.0
   Dark Blood Armor Kinetic Hardener:
     Duration: 20000.0
@@ -1556,6 +1638,7 @@ items:
     id: 13980
     marketGroup: 1679
     name: Dark Blood Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Dark Blood Armor Thermal Hardener:
     Duration: 20000.0
@@ -1574,6 +1657,7 @@ items:
     id: 13984
     marketGroup: 1678
     name: Dark Blood Armor Thermal Hardener
+    published: true
     volume: 5.0
   Domination Armor EM Hardener:
     Duration: 20000.0
@@ -1592,6 +1676,7 @@ items:
     id: 13986
     marketGroup: 1681
     name: Domination Armor EM Hardener
+    published: true
     volume: 5.0
   Domination Armor Explosive Hardener:
     Duration: 20000.0
@@ -1610,6 +1695,7 @@ items:
     id: 13988
     marketGroup: 1680
     name: Domination Armor Explosive Hardener
+    published: true
     volume: 5.0
   Domination Armor Kinetic Hardener:
     Duration: 20000.0
@@ -1628,6 +1714,7 @@ items:
     id: 13990
     marketGroup: 1679
     name: Domination Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Domination Armor Thermal Hardener:
     Duration: 20000.0
@@ -1646,6 +1733,7 @@ items:
     id: 13992
     marketGroup: 1678
     name: Domination Armor Thermal Hardener
+    published: true
     volume: 5.0
   Draclira's Modified Armor EM Hardener:
     CapacitorNeed: 46.0
@@ -1665,6 +1753,7 @@ items:
     id: 15030
     marketGroup: 1681
     name: Draclira's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Draclira's Modified Armor Explosive Hardener:
     CapacitorNeed: 46.0
@@ -1684,6 +1773,7 @@ items:
     id: 15078
     marketGroup: 1680
     name: Draclira's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Draclira's Modified Armor Kinetic Hardener:
     CapacitorNeed: 46.0
@@ -1703,6 +1793,7 @@ items:
     id: 15062
     marketGroup: 1679
     name: Draclira's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Draclira's Modified Armor Thermal Hardener:
     CapacitorNeed: 46.0
@@ -1722,6 +1813,7 @@ items:
     id: 15046
     marketGroup: 1678
     name: Draclira's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Experimental Armor EM Hardener I:
     CapacitorNeed: 26.0
@@ -1740,6 +1832,7 @@ items:
     id: 16357
     marketGroup: 1681
     name: Experimental Armor EM Hardener I
+    published: true
     volume: 5.0
   Experimental Armor Explosive Hardener I:
     CapacitorNeed: 26.0
@@ -1758,6 +1851,7 @@ items:
     id: 16365
     marketGroup: 1680
     name: Experimental Armor Explosive Hardener I
+    published: true
     volume: 5.0
   Experimental Armor Kinetic Hardener I:
     CapacitorNeed: 26.0
@@ -1776,6 +1870,7 @@ items:
     id: 16373
     marketGroup: 1679
     name: Experimental Armor Kinetic Hardener I
+    published: true
     volume: 5.0
   Experimental Armor Thermal Hardener I:
     CapacitorNeed: 26.0
@@ -1794,6 +1889,7 @@ items:
     id: 16381
     marketGroup: 1678
     name: Experimental Armor Thermal Hardener I
+    published: true
     volume: 5.0
   Federation Navy Armor EM Hardener:
     Duration: 20000.0
@@ -1812,6 +1908,7 @@ items:
     id: 17832
     marketGroup: 1681
     name: Federation Navy Armor EM Hardener
+    published: true
     volume: 5.0
   Federation Navy Armor Explosive Hardener:
     Duration: 20000.0
@@ -1830,6 +1927,7 @@ items:
     id: 17834
     marketGroup: 1680
     name: Federation Navy Armor Explosive Hardener
+    published: true
     volume: 5.0
   Federation Navy Armor Kinetic Hardener:
     Duration: 20000.0
@@ -1848,6 +1946,7 @@ items:
     id: 17836
     marketGroup: 1679
     name: Federation Navy Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Federation Navy Armor Thermal Hardener:
     Duration: 20000.0
@@ -1866,6 +1965,7 @@ items:
     id: 17838
     marketGroup: 1678
     name: Federation Navy Armor Thermal Hardener
+    published: true
     volume: 5.0
   Imperial Navy Armor EM Hardener:
     Duration: 20000.0
@@ -1884,6 +1984,7 @@ items:
     id: 15711
     marketGroup: 1681
     name: Imperial Navy Armor EM Hardener
+    published: true
     volume: 5.0
   Imperial Navy Armor Explosive Hardener:
     Duration: 20000.0
@@ -1902,6 +2003,7 @@ items:
     id: 15709
     marketGroup: 1680
     name: Imperial Navy Armor Explosive Hardener
+    published: true
     volume: 5.0
   Imperial Navy Armor Kinetic Hardener:
     Duration: 20000.0
@@ -1920,6 +2022,7 @@ items:
     id: 15707
     marketGroup: 1679
     name: Imperial Navy Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Imperial Navy Armor Thermal Hardener:
     Duration: 20000.0
@@ -1938,6 +2041,7 @@ items:
     id: 15705
     marketGroup: 1678
     name: Imperial Navy Armor Thermal Hardener
+    published: true
     volume: 5.0
   Khanid Navy Armor EM Hardener:
     Duration: 20000.0
@@ -1956,6 +2060,7 @@ items:
     id: 28522
     marketGroup: 1681
     name: Khanid Navy Armor EM Hardener
+    published: true
     volume: 5.0
   Khanid Navy Armor Explosive Hardener:
     Duration: 20000.0
@@ -1974,6 +2079,7 @@ items:
     id: 28524
     marketGroup: 1680
     name: Khanid Navy Armor Explosive Hardener
+    published: true
     volume: 5.0
   Khanid Navy Armor Kinetic Hardener:
     Duration: 20000.0
@@ -1992,6 +2098,7 @@ items:
     id: 28526
     marketGroup: 1679
     name: Khanid Navy Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Khanid Navy Armor Thermal Hardener:
     Duration: 20000.0
@@ -2010,6 +2117,7 @@ items:
     id: 28528
     marketGroup: 1678
     name: Khanid Navy Armor Thermal Hardener
+    published: true
     volume: 5.0
   Limited Armor EM Hardener I:
     CapacitorNeed: 27.0
@@ -2028,6 +2136,7 @@ items:
     id: 16355
     marketGroup: 1681
     name: Limited Armor EM Hardener I
+    published: true
     volume: 5.0
   Limited Armor Explosive Hardener I:
     CapacitorNeed: 27.0
@@ -2046,6 +2155,7 @@ items:
     id: 16363
     marketGroup: 1680
     name: Limited Armor Explosive Hardener I
+    published: true
     volume: 5.0
   Limited Armor Kinetic Hardener I:
     CapacitorNeed: 27.0
@@ -2064,6 +2174,7 @@ items:
     id: 16371
     marketGroup: 1679
     name: Limited Armor Kinetic Hardener I
+    published: true
     volume: 5.0
   Limited Armor Thermal Hardener I:
     CapacitorNeed: 27.0
@@ -2082,6 +2193,7 @@ items:
     id: 16379
     marketGroup: 1678
     name: Limited Armor Thermal Hardener I
+    published: true
     volume: 5.0
   Prototype Armor EM Hardener I:
     CapacitorNeed: 24.0
@@ -2100,6 +2212,7 @@ items:
     id: 16359
     marketGroup: 1681
     name: Prototype Armor EM Hardener I
+    published: true
     volume: 5.0
   Prototype Armor Explosive Hardener I:
     CapacitorNeed: 24.0
@@ -2118,6 +2231,7 @@ items:
     id: 16367
     marketGroup: 1680
     name: Prototype Armor Explosive Hardener I
+    published: true
     volume: 5.0
   Prototype Armor Kinetic Hardener I:
     CapacitorNeed: 24.0
@@ -2136,6 +2250,7 @@ items:
     id: 16375
     marketGroup: 1679
     name: Prototype Armor Kinetic Hardener I
+    published: true
     volume: 5.0
   Prototype Armor Thermal Hardener I:
     CapacitorNeed: 24.0
@@ -2154,6 +2269,7 @@ items:
     id: 16383
     marketGroup: 1678
     name: Prototype Armor Thermal Hardener I
+    published: true
     volume: 5.0
   Raysere's Modified Armor EM Hardener:
     CapacitorNeed: 38.0
@@ -2173,6 +2289,7 @@ items:
     id: 15022
     marketGroup: 1681
     name: Raysere's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Raysere's Modified Armor Explosive Hardener:
     CapacitorNeed: 38.0
@@ -2192,6 +2309,7 @@ items:
     id: 15070
     marketGroup: 1680
     name: Raysere's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Raysere's Modified Armor Kinetic Hardener:
     CapacitorNeed: 38.0
@@ -2211,6 +2329,7 @@ items:
     id: 15054
     marketGroup: 1679
     name: Raysere's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Raysere's Modified Armor Thermal Hardener:
     CapacitorNeed: 38.0
@@ -2230,6 +2349,7 @@ items:
     id: 15038
     marketGroup: 1678
     name: Raysere's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Republic Fleet Armor EM Hardener:
     Duration: 20000.0
@@ -2248,6 +2368,7 @@ items:
     id: 15719
     marketGroup: 1681
     name: Republic Fleet Armor EM Hardener
+    published: true
     volume: 5.0
   Republic Fleet Armor Explosive Hardener:
     Duration: 20000.0
@@ -2266,6 +2387,7 @@ items:
     id: 15717
     marketGroup: 1680
     name: Republic Fleet Armor Explosive Hardener
+    published: true
     volume: 5.0
   Republic Fleet Armor Kinetic Hardener:
     Duration: 20000.0
@@ -2284,6 +2406,7 @@ items:
     id: 15715
     marketGroup: 1679
     name: Republic Fleet Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Republic Fleet Armor Thermal Hardener:
     Duration: 20000.0
@@ -2302,6 +2425,7 @@ items:
     id: 15713
     marketGroup: 1678
     name: Republic Fleet Armor Thermal Hardener
+    published: true
     volume: 5.0
   Selynne's Modified Armor EM Hardener:
     CapacitorNeed: 38.0
@@ -2321,6 +2445,7 @@ items:
     id: 15020
     marketGroup: 1681
     name: Selynne's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Selynne's Modified Armor Explosive Hardener:
     CapacitorNeed: 38.0
@@ -2340,6 +2465,7 @@ items:
     id: 15068
     marketGroup: 1680
     name: Selynne's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Selynne's Modified Armor Kinetic Hardener:
     CapacitorNeed: 38.0
@@ -2359,6 +2485,7 @@ items:
     id: 15052
     marketGroup: 1679
     name: Selynne's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Selynne's Modified Armor Thermal Hardener:
     CapacitorNeed: 38.0
@@ -2378,6 +2505,7 @@ items:
     id: 15036
     marketGroup: 1678
     name: Selynne's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Setele's Modified Armor EM Hardener:
     CapacitorNeed: 42.0
@@ -2397,6 +2525,7 @@ items:
     id: 15248
     marketGroup: 1681
     name: Setele's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Setele's Modified Armor Explosive Hardener:
     CapacitorNeed: 42.0
@@ -2416,6 +2545,7 @@ items:
     id: 15272
     marketGroup: 1680
     name: Setele's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Setele's Modified Armor Kinetic Hardener:
     CapacitorNeed: 42.0
@@ -2435,6 +2565,7 @@ items:
     id: 15264
     marketGroup: 1679
     name: Setele's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Setele's Modified Armor Thermal Hardener:
     CapacitorNeed: 42.0
@@ -2454,6 +2585,7 @@ items:
     id: 15256
     marketGroup: 1678
     name: Setele's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Shadow Serpentis Armor EM Hardener:
     Duration: 20000.0
@@ -2472,6 +2604,7 @@ items:
     id: 14059
     marketGroup: 1681
     name: Shadow Serpentis Armor EM Hardener
+    published: true
     volume: 5.0
   Shadow Serpentis Armor Explosive Hardener:
     Duration: 20000.0
@@ -2490,6 +2623,7 @@ items:
     id: 14061
     marketGroup: 1680
     name: Shadow Serpentis Armor Explosive Hardener
+    published: true
     volume: 5.0
   Shadow Serpentis Armor Kinetic Hardener:
     Duration: 20000.0
@@ -2508,6 +2642,7 @@ items:
     id: 14063
     marketGroup: 1679
     name: Shadow Serpentis Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Shadow Serpentis Armor Thermal Hardener:
     Duration: 20000.0
@@ -2526,6 +2661,7 @@ items:
     id: 14065
     marketGroup: 1678
     name: Shadow Serpentis Armor Thermal Hardener
+    published: true
     volume: 5.0
   Tairei's Modified Armor EM Hardener:
     CapacitorNeed: 34.0
@@ -2545,6 +2681,7 @@ items:
     id: 15018
     marketGroup: 1681
     name: Tairei's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Tairei's Modified Armor Explosive Hardener:
     CapacitorNeed: 34.0
@@ -2564,6 +2701,7 @@ items:
     id: 15066
     marketGroup: 1680
     name: Tairei's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Tairei's Modified Armor Kinetic Hardener:
     CapacitorNeed: 34.0
@@ -2583,6 +2721,7 @@ items:
     id: 15050
     marketGroup: 1679
     name: Tairei's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Tairei's Modified Armor Thermal Hardener:
     CapacitorNeed: 34.0
@@ -2602,6 +2741,7 @@ items:
     id: 15034
     marketGroup: 1678
     name: Tairei's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   True Sansha Armor EM Hardener:
     Duration: 20000.0
@@ -2620,6 +2760,7 @@ items:
     id: 13970
     marketGroup: 1681
     name: True Sansha Armor EM Hardener
+    published: true
     volume: 5.0
   True Sansha Armor Explosive Hardener:
     Duration: 20000.0
@@ -2638,6 +2779,7 @@ items:
     id: 13974
     marketGroup: 1680
     name: True Sansha Armor Explosive Hardener
+    published: true
     volume: 5.0
   True Sansha Armor Kinetic Hardener:
     Duration: 20000.0
@@ -2656,6 +2798,7 @@ items:
     id: 13978
     marketGroup: 1679
     name: True Sansha Armor Kinetic Hardener
+    published: true
     volume: 5.0
   True Sansha Armor Thermal Hardener:
     Duration: 20000.0
@@ -2674,6 +2817,7 @@ items:
     id: 13982
     marketGroup: 1678
     name: True Sansha Armor Thermal Hardener
+    published: true
     volume: 5.0
   Tuvan's Modified Armor EM Hardener:
     CapacitorNeed: 38.0
@@ -2693,6 +2837,7 @@ items:
     id: 15246
     marketGroup: 1681
     name: Tuvan's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Tuvan's Modified Armor Explosive Hardener:
     CapacitorNeed: 38.0
@@ -2712,6 +2857,7 @@ items:
     id: 15270
     marketGroup: 1680
     name: Tuvan's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Tuvan's Modified Armor Kinetic Hardener:
     CapacitorNeed: 38.0
@@ -2731,6 +2877,7 @@ items:
     id: 15262
     marketGroup: 1679
     name: Tuvan's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Tuvan's Modified Armor Thermal Hardener:
     CapacitorNeed: 38.0
@@ -2750,6 +2897,7 @@ items:
     id: 15254
     marketGroup: 1678
     name: Tuvan's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0
   Upgraded Armor EM Hardener I:
     CapacitorNeed: 29.0
@@ -2768,6 +2916,7 @@ items:
     id: 16353
     marketGroup: 1681
     name: Upgraded Armor EM Hardener I
+    published: true
     volume: 5.0
   Upgraded Armor Explosive Hardener I:
     CapacitorNeed: 29.0
@@ -2786,6 +2935,7 @@ items:
     id: 16361
     marketGroup: 1680
     name: Upgraded Armor Explosive Hardener I
+    published: true
     volume: 5.0
   Upgraded Armor Kinetic Hardener I:
     CapacitorNeed: 29.0
@@ -2804,6 +2954,7 @@ items:
     id: 16369
     marketGroup: 1679
     name: Upgraded Armor Kinetic Hardener I
+    published: true
     volume: 5.0
   Upgraded Armor Thermal Hardener I:
     CapacitorNeed: 29.0
@@ -2822,6 +2973,7 @@ items:
     id: 16377
     marketGroup: 1678
     name: Upgraded Armor Thermal Hardener I
+    published: true
     volume: 5.0
   Vizan's Modified Armor EM Hardener:
     CapacitorNeed: 42.0
@@ -2841,6 +2993,7 @@ items:
     id: 15024
     marketGroup: 1681
     name: Vizan's Modified Armor EM Hardener
+    published: true
     volume: 5.0
   Vizan's Modified Armor Explosive Hardener:
     CapacitorNeed: 42.0
@@ -2860,6 +3013,7 @@ items:
     id: 15072
     marketGroup: 1680
     name: Vizan's Modified Armor Explosive Hardener
+    published: true
     volume: 5.0
   Vizan's Modified Armor Kinetic Hardener:
     CapacitorNeed: 42.0
@@ -2879,6 +3033,7 @@ items:
     id: 15056
     marketGroup: 1679
     name: Vizan's Modified Armor Kinetic Hardener
+    published: true
     volume: 5.0
   Vizan's Modified Armor Thermal Hardener:
     CapacitorNeed: 42.0
@@ -2898,4 +3053,5 @@ items:
     id: 15040
     marketGroup: 1678
     name: Vizan's Modified Armor Thermal Hardener
+    published: true
     volume: 5.0

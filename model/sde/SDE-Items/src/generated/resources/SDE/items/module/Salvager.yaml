@@ -13,6 +13,7 @@ items:
     id: 25861
     marketGroup: 1715
     name: Salvager I
+    published: true
     volume: 5.0
   Salvager II:
     AccessDifficultyBonus: 7
@@ -30,4 +31,5 @@ items:
     id: 30836
     marketGroup: 1715
     name: Salvager II
+    published: true
     volume: 5.0

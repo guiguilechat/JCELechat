@@ -25,6 +25,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 10000
     FwLpKill: 4000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -107,6 +108,7 @@ items:
     id: 37604
     marketGroup: 2272
     name: Apostle
+    published: true
     volume: 1.8135E7
   Dagon:
     AdvancedAgility: 1
@@ -134,6 +136,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 10000
     FwLpKill: 4000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -223,6 +226,7 @@ items:
     id: 42242
     marketGroup: 2357
     name: Dagon
+    published: true
     volume: 1.8135E7
   Lif:
     AdvancedAgility: 1
@@ -250,6 +254,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 10000
     FwLpKill: 4000
+    GateScrambleStatus: -1000
     GfxBoosterID: 397
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -332,6 +337,7 @@ items:
     id: 37606
     marketGroup: 2275
     name: Lif
+    published: true
     volume: 1.4625E7
   Loggerhead:
     AdvancedAgility: 1
@@ -359,6 +365,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 10000
     FwLpKill: 4000
+    GateScrambleStatus: -1000
     GfxBoosterID: 395
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -443,6 +450,7 @@ items:
     id: 45645
     marketGroup: 2357
     name: Loggerhead
+    published: true
     volume: 1.55E7
   Minokawa:
     AdvancedAgility: 1
@@ -470,6 +478,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 10000
     FwLpKill: 4000
+    GateScrambleStatus: -1000
     GfxBoosterID: 395
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -552,6 +561,7 @@ items:
     id: 37605
     marketGroup: 2273
     name: Minokawa
+    published: true
     volume: 1.55E7
   Ninazu:
     AdvancedAgility: 1
@@ -579,6 +589,7 @@ items:
     FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 10000
     FwLpKill: 4000
+    GateScrambleStatus: -1000
     GfxBoosterID: 394
     HasFleetHangars: 1
     HasShipMaintenanceBay: 1
@@ -661,4 +672,5 @@ items:
     id: 37607
     marketGroup: 2274
     name: Ninazu
+    published: true
     volume: 1.702E7

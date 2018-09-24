@@ -10,6 +10,7 @@ items:
     id: 37821
     marketGroup: 1094
     name: Standup Gravimetric ECM Script
+    published: true
     volume: 1.0
   Standup Ladar ECM Script:
     ChargeSize: 1
@@ -22,6 +23,7 @@ items:
     id: 37822
     marketGroup: 1094
     name: Standup Ladar ECM Script
+    published: true
     volume: 1.0
   Standup Magnetometric ECM Script:
     ChargeSize: 1
@@ -34,6 +36,7 @@ items:
     id: 37823
     marketGroup: 1094
     name: Standup Magnetometric ECM Script
+    published: true
     volume: 1.0
   Standup Radar ECM Script:
     ChargeSize: 1
@@ -46,4 +49,5 @@ items:
     id: 37824
     marketGroup: 1094
     name: Standup Radar ECM Script
+    published: true
     volume: 1.0

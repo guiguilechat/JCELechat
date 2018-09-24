@@ -4,30 +4,35 @@ items:
     TechLevel: 1
     id: 20636
     name: '''Desert Heat'' Thermal Dissipation Field Blueprint'
+    published: true
     volume: 0.01
   '''Nugget'' Kinetic Deflection Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 20634
     name: '''Nugget'' Kinetic Deflection Field Blueprint'
+    published: true
     volume: 0.01
   '''Poacher'' EM Ward Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 20640
     name: '''Poacher'' EM Ward Field Blueprint'
+    published: true
     volume: 0.01
   '''Posse'' Adaptive Invulnerability Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 20638
     name: '''Posse'' Adaptive Invulnerability Field Blueprint'
+    published: true
     volume: 0.01
   '''Snake Eyes'' Explosive Deflection Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 20642
     name: '''Snake Eyes'' Explosive Deflection Field Blueprint'
+    published: true
     volume: 0.01
   Adaptive Invulnerability Field I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -35,36 +40,42 @@ items:
     id: 1129
     marketGroup: 1548
     name: Adaptive Invulnerability Field I Blueprint
+    published: true
     volume: 0.01
   Adaptive Invulnerability Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 2282
     name: Adaptive Invulnerability Field II Blueprint
+    published: true
     volume: 0.01
   Civilian EM Ward Field Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 30421
     name: Civilian EM Ward Field Blueprint
+    published: true
     volume: 0.01
   Civilian Explosive Deflection Field Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 30423
     name: Civilian Explosive Deflection Field Blueprint
+    published: true
     volume: 0.01
   Civilian Kinetic Deflection Field Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 30425
     name: Civilian Kinetic Deflection Field Blueprint
+    published: true
     volume: 0.01
   Civilian Thermal Dissipation Field Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 30343
     name: Civilian Thermal Dissipation Field Blueprint
+    published: true
     volume: 0.01
   EM Ward Field I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -72,12 +83,14 @@ items:
     id: 2294
     marketGroup: 1548
     name: EM Ward Field I Blueprint
+    published: true
     volume: 0.01
   EM Ward Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 2302
     name: EM Ward Field II Blueprint
+    published: true
     volume: 0.01
   Explosive Deflection Field I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -85,12 +98,14 @@ items:
     id: 2290
     marketGroup: 1548
     name: Explosive Deflection Field I Blueprint
+    published: true
     volume: 0.01
   Explosive Deflection Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 2298
     name: Explosive Deflection Field II Blueprint
+    published: true
     volume: 0.01
   Kinetic Deflection Field I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -98,12 +113,14 @@ items:
     id: 2292
     marketGroup: 1548
     name: Kinetic Deflection Field I Blueprint
+    published: true
     volume: 0.01
   Kinetic Deflection Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 2300
     name: Kinetic Deflection Field II Blueprint
+    published: true
     volume: 0.01
   Thermal Dissipation Field I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -111,10 +128,12 @@ items:
     id: 2296
     marketGroup: 1548
     name: Thermal Dissipation Field I Blueprint
+    published: true
     volume: 0.01
   Thermal Dissipation Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 2304
     name: Thermal Dissipation Field II Blueprint
+    published: true
     volume: 0.01

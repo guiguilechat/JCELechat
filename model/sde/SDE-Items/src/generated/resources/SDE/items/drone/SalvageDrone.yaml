@@ -36,4 +36,5 @@ items:
     id: 32787
     marketGroup: 1646
     name: Salvage Drone I
+    published: true
     volume: 5.0

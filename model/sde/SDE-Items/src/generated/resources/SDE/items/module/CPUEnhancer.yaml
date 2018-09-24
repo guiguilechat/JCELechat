@@ -11,6 +11,7 @@ items:
     id: 20569
     marketGroup: 676
     name: '''Deuce'' Co-Processor I'
+    published: true
     volume: 5.0
   '''Dyad'' Co-Processor I':
     CpuMultiplier: 1.1100000143051147
@@ -24,6 +25,7 @@ items:
     id: 20567
     marketGroup: 676
     name: '''Dyad'' Co-Processor I'
+    published: true
     volume: 5.0
   Basic Co-Processor:
     CpuMultiplier: 1.0700000524520874
@@ -37,6 +39,7 @@ items:
     id: 3469
     marketGroup: 676
     name: Basic Co-Processor
+    published: true
     volume: 5.0
   Brynn's Modified Co-Processor:
     CpuMultiplier: 1.159999966621399
@@ -50,6 +53,7 @@ items:
     id: 15308
     marketGroup: 676
     name: Brynn's Modified Co-Processor
+    published: true
     volume: 5.0
   Caldari Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
@@ -63,6 +67,7 @@ items:
     id: 15675
     marketGroup: 676
     name: Caldari Navy Co-Processor
+    published: true
     volume: 5.0
   Co-Processor I:
     CpuMultiplier: 1.0800000429153442
@@ -74,6 +79,7 @@ items:
     id: 3887
     marketGroup: 676
     name: Co-Processor I
+    published: true
     volume: 5.0
   Co-Processor II:
     CpuMultiplier: 1.100000023841858
@@ -86,6 +92,7 @@ items:
     id: 3888
     marketGroup: 676
     name: Co-Processor II
+    published: true
     volume: 5.0
   Cormack's Modified Co-Processor:
     CpuMultiplier: 1.190000057220459
@@ -99,6 +106,7 @@ items:
     id: 15314
     marketGroup: 676
     name: Cormack's Modified Co-Processor
+    published: true
     volume: 5.0
   Dread Guristas Co-Processor:
     CpuMultiplier: 1.1399999856948853
@@ -112,6 +120,7 @@ items:
     id: 14230
     marketGroup: 676
     name: Dread Guristas Co-Processor
+    published: true
     volume: 5.0
   Estamel's Modified Co-Processor:
     CpuMultiplier: 1.190000057220459
@@ -125,6 +134,7 @@ items:
     id: 14774
     marketGroup: 676
     name: Estamel's Modified Co-Processor
+    published: true
     volume: 5.0
   Federation Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
@@ -138,6 +148,7 @@ items:
     id: 15677
     marketGroup: 676
     name: Federation Navy Co-Processor
+    published: true
     volume: 5.0
   Kaikka's Modified Co-Processor:
     CpuMultiplier: 1.159999966621399
@@ -151,6 +162,7 @@ items:
     id: 14768
     marketGroup: 676
     name: Kaikka's Modified Co-Processor
+    published: true
     volume: 5.0
   Khanid Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
@@ -164,6 +176,7 @@ items:
     id: 28561
     marketGroup: 676
     name: Khanid Navy Co-Processor
+    published: true
     volume: 5.0
   Photonic Upgraded Co-Processor:
     CpuMultiplier: 1.090000033378601
@@ -176,6 +189,7 @@ items:
     id: 8748
     marketGroup: 676
     name: Photonic Upgraded Co-Processor
+    published: true
     volume: 5.0
   Setele's Modified Co-Processor:
     CpuMultiplier: 1.1799999475479126
@@ -189,6 +203,7 @@ items:
     id: 15312
     marketGroup: 676
     name: Setele's Modified Co-Processor
+    published: true
     volume: 5.0
   Shadow Serpentis Co-Processor:
     CpuMultiplier: 1.1399999856948853
@@ -202,6 +217,7 @@ items:
     id: 14232
     marketGroup: 676
     name: Shadow Serpentis Co-Processor
+    published: true
     volume: 5.0
   Thon's Modified Co-Processor:
     CpuMultiplier: 1.1699999570846558
@@ -215,6 +231,7 @@ items:
     id: 14770
     marketGroup: 676
     name: Thon's Modified Co-Processor
+    published: true
     volume: 5.0
   Tuvan's Modified Co-Processor:
     CpuMultiplier: 1.1699999570846558
@@ -228,6 +245,7 @@ items:
     id: 15310
     marketGroup: 676
     name: Tuvan's Modified Co-Processor
+    published: true
     volume: 5.0
   Vepas' Modified Co-Processor:
     CpuMultiplier: 1.1799999475479126
@@ -241,4 +259,5 @@ items:
     id: 14772
     marketGroup: 676
     name: Vepas' Modified Co-Processor
+    published: true
     volume: 5.0

@@ -8,6 +8,7 @@ items:
     id: 3554
     marketGroup: 139
     name: Cap Booster 100
+    published: true
     volume: 4.0
   Cap Booster 150:
     CapNeedBonus: -100
@@ -18,6 +19,7 @@ items:
     id: 11283
     marketGroup: 139
     name: Cap Booster 150
+    published: true
     volume: 6.0
   Cap Booster 200:
     CapNeedBonus: -100
@@ -28,6 +30,7 @@ items:
     id: 11285
     marketGroup: 139
     name: Cap Booster 200
+    published: true
     volume: 8.0
   Cap Booster 25:
     CapNeedBonus: -100
@@ -37,6 +40,7 @@ items:
     id: 263
     marketGroup: 139
     name: Cap Booster 25
+    published: true
     volume: 1.0
   Cap Booster 3200:
     CapNeedBonus: -100
@@ -47,6 +51,7 @@ items:
     id: 41489
     marketGroup: 139
     name: Cap Booster 3200
+    published: true
     volume: 128.0
   Cap Booster 400:
     CapNeedBonus: -100
@@ -57,6 +62,7 @@ items:
     id: 11287
     marketGroup: 139
     name: Cap Booster 400
+    published: true
     volume: 16.0
   Cap Booster 50:
     CapNeedBonus: -100
@@ -67,6 +73,7 @@ items:
     id: 264
     marketGroup: 139
     name: Cap Booster 50
+    published: true
     volume: 2.0
   Cap Booster 75:
     CapNeedBonus: -100
@@ -77,6 +84,7 @@ items:
     id: 3552
     marketGroup: 139
     name: Cap Booster 75
+    published: true
     volume: 3.0
   Cap Booster 800:
     CapNeedBonus: -100
@@ -87,6 +95,7 @@ items:
     id: 11289
     marketGroup: 139
     name: Cap Booster 800
+    published: true
     volume: 32.0
   Navy Cap Booster 100:
     CapNeedBonus: -100
@@ -98,6 +107,7 @@ items:
     id: 31982
     marketGroup: 139
     name: Navy Cap Booster 100
+    published: true
     volume: 3.0
   Navy Cap Booster 150:
     CapNeedBonus: -100
@@ -109,6 +119,7 @@ items:
     id: 31990
     marketGroup: 139
     name: Navy Cap Booster 150
+    published: true
     volume: 4.5
   Navy Cap Booster 200:
     CapNeedBonus: -100
@@ -120,6 +131,7 @@ items:
     id: 31998
     marketGroup: 139
     name: Navy Cap Booster 200
+    published: true
     volume: 6.0
   Navy Cap Booster 25:
     CapNeedBonus: -100
@@ -130,6 +142,7 @@ items:
     id: 33330
     marketGroup: 139
     name: Navy Cap Booster 25
+    published: true
     volume: 0.75
   Navy Cap Booster 3200:
     CapNeedBonus: -100
@@ -141,6 +154,7 @@ items:
     id: 41490
     marketGroup: 139
     name: Navy Cap Booster 3200
+    published: true
     volume: 96.0
   Navy Cap Booster 400:
     CapNeedBonus: -100
@@ -152,6 +166,7 @@ items:
     id: 32006
     marketGroup: 139
     name: Navy Cap Booster 400
+    published: true
     volume: 12.0
   Navy Cap Booster 50:
     CapNeedBonus: -100
@@ -163,6 +178,7 @@ items:
     id: 33332
     marketGroup: 139
     name: Navy Cap Booster 50
+    published: true
     volume: 1.5
   Navy Cap Booster 75:
     CapNeedBonus: -100
@@ -174,6 +190,7 @@ items:
     id: 33334
     marketGroup: 139
     name: Navy Cap Booster 75
+    published: true
     volume: 2.25
   Navy Cap Booster 800:
     CapNeedBonus: -100
@@ -185,4 +202,5 @@ items:
     id: 32014
     marketGroup: 139
     name: Navy Cap Booster 800
+    published: true
     volume: 24.0

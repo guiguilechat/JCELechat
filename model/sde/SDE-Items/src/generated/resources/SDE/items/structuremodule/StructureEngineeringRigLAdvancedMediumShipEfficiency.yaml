@@ -1,5 +1,6 @@
 items:
   Standup L-Set Advanced Medium Ship Manufacturing Efficiency I:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.0
     AttributeEngRigTimeBonus: -20
     CanFitShipGroup01: 1657
@@ -20,8 +21,10 @@ items:
     id: 43709
     marketGroup: 2348
     name: Standup L-Set Advanced Medium Ship Manufacturing Efficiency I
+    published: true
     volume: 20.0
   Standup L-Set Advanced Medium Ship Manufacturing Efficiency II:
+    AttributeEngRigCostBonus: 1
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
@@ -42,4 +45,5 @@ items:
     id: 43711
     marketGroup: 2348
     name: Standup L-Set Advanced Medium Ship Manufacturing Efficiency II
+    published: true
     volume: 20.0

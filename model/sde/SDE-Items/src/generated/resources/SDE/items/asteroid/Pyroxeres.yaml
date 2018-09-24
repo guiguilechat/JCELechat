@@ -6,8 +6,10 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28618
     name: Augumene
+    published: true
     volume: 0.3
   Compressed Opulent Pyroxeres:
     AsteroidMaxRadius: 16255
@@ -17,9 +19,11 @@ items:
     OreBasicType: 46686
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46702
     marketGroup: 515
     name: Compressed Opulent Pyroxeres
+    published: true
     volume: 0.16
   Compressed Pyroxeres:
     AsteroidMaxRadius: 16255
@@ -29,9 +33,11 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28424
     marketGroup: 515
     name: Compressed Pyroxeres
+    published: true
     volume: 0.16
   Compressed Solid Pyroxeres:
     AsteroidMaxRadius: 16255
@@ -41,9 +47,11 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28425
     marketGroup: 515
     name: Compressed Solid Pyroxeres
+    published: true
     volume: 0.16
   Compressed Viscous Pyroxeres:
     AsteroidMaxRadius: 16255
@@ -53,9 +61,11 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28426
     marketGroup: 515
     name: Compressed Viscous Pyroxeres
+    published: true
     volume: 0.16
   Opulent Pyroxeres:
     AsteroidMaxRadius: 5000
@@ -67,9 +77,11 @@ items:
     OreBasicType: 46686
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46686
     marketGroup: 515
     name: Opulent Pyroxeres
+    published: true
     volume: 0.3
   Pyroxeres:
     AsteroidMaxRadius: 16255
@@ -81,9 +93,11 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 1224
     marketGroup: 515
     name: Pyroxeres
+    published: true
     volume: 0.3
   Solid Pyroxeres:
     AsteroidMaxRadius: 16255
@@ -95,9 +109,11 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17459
     marketGroup: 515
     name: Solid Pyroxeres
+    published: true
     volume: 0.3
   Viscous Pyroxeres:
     AsteroidMaxRadius: 16255
@@ -109,7 +125,9 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17460
     marketGroup: 515
     name: Viscous Pyroxeres
+    published: true
     volume: 0.3

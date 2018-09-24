@@ -12,7 +12,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.EncounterSurveillanceSystem;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileCynoInhibitor;
-import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileDecoyUnit;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileDepot;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileMicroJumpUnit;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileScanInhibitor;
@@ -134,7 +133,7 @@ public abstract class Deployable
 
         @Override
         public Collection<IMetaGroup<? extends Deployable>> groups() {
-            return Arrays.asList(MobileWarpDisruptor.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileDecoyUnit.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP);
+            return Arrays.asList(MobileWarpDisruptor.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP);
         }
     }
 }

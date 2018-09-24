@@ -4,18 +4,21 @@ items:
     TechLevel: 1
     id: 20614
     name: '''Glycerine'' Shield Boost Amplifier Blueprint'
+    published: true
     volume: 0.01
   Caldari Navy Shield Boost Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 15906
     name: Caldari Navy Shield Boost Amplifier Blueprint
+    published: true
     volume: 0.01
   Republic Fleet Shield Boost Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 15908
     name: Republic Fleet Shield Boost Amplifier Blueprint
+    published: true
     volume: 0.01
   Shield Boost Amplifier I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -23,10 +26,12 @@ items:
     id: 11562
     marketGroup: 1552
     name: Shield Boost Amplifier I Blueprint
+    published: true
     volume: 0.01
   Shield Boost Amplifier II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 24444
     name: Shield Boost Amplifier II Blueprint
+    published: true
     volume: 0.01

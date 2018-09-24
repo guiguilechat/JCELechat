@@ -29,6 +29,7 @@ items:
     id: 24657
     marketGroup: 932
     name: Advanced Large Ship Assembly Array
+    published: true
     volume: 25000.0
   Advanced Medium Ship Assembly Array:
     AnchoringDelay: 5000
@@ -60,6 +61,7 @@ items:
     id: 24655
     marketGroup: 932
     name: Advanced Medium Ship Assembly Array
+    published: true
     volume: 17000.0
   Advanced Small Ship Assembly Array:
     AnchoringDelay: 5000
@@ -91,6 +93,7 @@ items:
     id: 24653
     marketGroup: 932
     name: Advanced Small Ship Assembly Array
+    published: true
     volume: 10000.0
   Ammunition Assembly Array:
     AnchoringDelay: 5000
@@ -122,6 +125,7 @@ items:
     id: 24658
     marketGroup: 932
     name: Ammunition Assembly Array
+    published: true
     volume: 1250.0
   Capital Ship Assembly Array:
     AnchoringDelay: 5000
@@ -153,6 +157,7 @@ items:
     id: 24656
     marketGroup: 932
     name: Capital Ship Assembly Array
+    published: true
     volume: 25000.0
   Component Assembly Array:
     AnchoringDelay: 5000
@@ -184,6 +189,7 @@ items:
     id: 24660
     marketGroup: 932
     name: Component Assembly Array
+    published: true
     volume: 12500.0
   Drone Assembly Array:
     AnchoringDelay: 5000
@@ -215,6 +221,7 @@ items:
     id: 24659
     marketGroup: 932
     name: Drone Assembly Array
+    published: true
     volume: 1250.0
   Drug Lab:
     AnchoringDelay: 5000
@@ -246,6 +253,7 @@ items:
     id: 25305
     marketGroup: 933
     name: Drug Lab
+    published: true
     volume: 1250.0
   Equipment Assembly Array:
     AnchoringDelay: 5000
@@ -277,6 +285,7 @@ items:
     id: 13780
     marketGroup: 932
     name: Equipment Assembly Array
+    published: true
     volume: 6250.0
   Large Ship Assembly Array:
     AnchoringDelay: 5000
@@ -309,6 +318,7 @@ items:
     id: 29613
     marketGroup: 932
     name: Large Ship Assembly Array
+    published: true
     volume: 25000.0
   Medium Ship Assembly Array:
     AnchoringDelay: 5000
@@ -340,6 +350,7 @@ items:
     id: 24654
     marketGroup: 932
     name: Medium Ship Assembly Array
+    published: true
     volume: 17000.0
   Rapid Equipment Assembly Array:
     AnchoringDelay: 5000
@@ -371,6 +382,7 @@ items:
     id: 16220
     marketGroup: 932
     name: Rapid Equipment Assembly Array
+    published: true
     volume: 6250.0
   Small Ship Assembly Array:
     AnchoringDelay: 5000
@@ -402,6 +414,7 @@ items:
     id: 24574
     marketGroup: 932
     name: Small Ship Assembly Array
+    published: true
     volume: 10000.0
   Subsystem Assembly Array:
     AnchoringDelay: 5000
@@ -434,9 +447,11 @@ items:
     id: 30389
     marketGroup: 932
     name: Subsystem Assembly Array
+    published: true
     volume: 17000.0
   Supercapital Ship Assembly Array:
     AnchoringDelay: 30000
+    AnchoringSecurityLevelMax: 1.0
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
@@ -465,6 +480,7 @@ items:
     id: 24575
     marketGroup: 932
     name: Supercapital Ship Assembly Array
+    published: true
     volume: 850000.0
   Thukker Component Assembly Array:
     AnchoringDelay: 5000
@@ -498,4 +514,5 @@ items:
     id: 33867
     marketGroup: 932
     name: Thukker Component Assembly Array
+    published: true
     volume: 12500.0

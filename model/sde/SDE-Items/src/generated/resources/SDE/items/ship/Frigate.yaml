@@ -46,7 +46,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 32
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -87,6 +87,7 @@ items:
     id: 33468
     marketGroup: 1365
     name: Astero
+    published: true
     volume: 16500.0
   Atron:
     Agility: 2.799999952316284
@@ -131,7 +132,7 @@ items:
     MaxVelocity: 420.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 37
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -165,6 +166,7 @@ items:
     id: 608
     marketGroup: 77
     name: Atron
+    published: true
     volume: 22500.0
   Bantam:
     Agility: 4.099999904632568
@@ -212,7 +214,7 @@ items:
     MaxVelocity: 370.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 39
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -248,6 +250,7 @@ items:
     id: 582
     marketGroup: 61
     name: Bantam
+    published: true
     volume: 20000.0
   Breacher:
     Agility: 3.0999999046325684
@@ -293,7 +296,7 @@ items:
     MaxVelocity: 365.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 37
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -328,6 +331,7 @@ items:
     id: 598
     marketGroup: 64
     name: Breacher
+    published: true
     volume: 20000.0
   Burst:
     Agility: 3.9000000953674316
@@ -375,7 +379,7 @@ items:
     MaxVelocity: 415.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -411,6 +415,7 @@ items:
     id: 599
     marketGroup: 64
     name: Burst
+    published: true
     volume: 17100.0
   Caldari Navy Hookbill:
     Agility: 3.299999952316284
@@ -457,7 +462,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 37
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -493,6 +498,7 @@ items:
     id: 17619
     marketGroup: 1366
     name: Caldari Navy Hookbill
+    published: true
     volume: 16500.0
   Condor:
     Agility: 2.9000000953674316
@@ -538,7 +544,7 @@ items:
     MaxVelocity: 400.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -572,6 +578,7 @@ items:
     id: 583
     marketGroup: 61
     name: Condor
+    published: true
     volume: 18000.0
   Crucifier:
     Agility: 3.3499999046325684
@@ -617,7 +624,7 @@ items:
     MaxVelocity: 350.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 27
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -651,6 +658,7 @@ items:
     id: 2161
     marketGroup: 72
     name: Crucifier
+    published: true
     volume: 28100.0
   Crucifier Navy Issue:
     Agility: 3.3499999046325684
@@ -698,7 +706,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 42
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -733,6 +741,7 @@ items:
     id: 37453
     marketGroup: 1366
     name: Crucifier Navy Issue
+    published: true
     volume: 28100.0
   Cruor:
     Agility: 3.5999999046325684
@@ -780,7 +789,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     NosOverride: 1
     PowerOutput: 57
     PowerToSpeed: 1
@@ -820,6 +829,7 @@ items:
     id: 17926
     marketGroup: 1365
     name: Cruor
+    published: true
     volume: 28600.0
   Damavik:
     Agility: 3.0
@@ -865,7 +875,7 @@ items:
     MaxVelocity: 350.0
     MedSlots: 2
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 50
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -903,6 +913,7 @@ items:
     id: 47269
     marketGroup: 2426
     name: Damavik
+    published: true
     volume: 28600.0
   Daredevil:
     Agility: 3.200000047683716
@@ -948,7 +959,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -987,6 +998,7 @@ items:
     id: 17928
     marketGroup: 1365
     name: Daredevil
+    published: true
     volume: 26500.0
   Dramiel:
     Agility: 3.0999999046325684
@@ -1035,7 +1047,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 37
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -1075,6 +1087,7 @@ items:
     id: 17932
     marketGroup: 1365
     name: Dramiel
+    published: true
     volume: 27289.0
   Echelon:
     Agility: 2.450000047683716
@@ -1117,7 +1130,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 6
     MinTargetVelDmgMultiplier: 1.0
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerToSpeed: 1
     PropulsionGraphicID: 394
     RechargeRate: 140625.0
@@ -1144,6 +1157,7 @@ items:
     id: 3532
     marketGroup: 1619
     name: Echelon
+    published: true
     volume: 28100.0
   Executioner:
     Agility: 2.8499999046325684
@@ -1188,7 +1202,7 @@ items:
     MaxVelocity: 410.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1221,6 +1235,7 @@ items:
     id: 589
     marketGroup: 72
     name: Executioner
+    published: true
     volume: 28100.0
   Federation Navy Comet:
     Agility: 3.134999990463257
@@ -1268,7 +1283,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1304,6 +1319,7 @@ items:
     id: 17841
     marketGroup: 1366
     name: Federation Navy Comet
+    published: true
     volume: 16500.0
   Garmur:
     Agility: 3.200000047683716
@@ -1350,7 +1366,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 38
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -1389,6 +1405,7 @@ items:
     id: 33816
     marketGroup: 1365
     name: Garmur
+    published: true
     volume: 27289.0
   Gold Magnate:
     Agility: 2.200000047683716
@@ -1435,7 +1452,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 65
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1470,6 +1487,7 @@ items:
     id: 11940
     marketGroup: 1619
     name: Gold Magnate
+    published: true
     volume: 22100.0
   Griffin:
     Agility: 3.5
@@ -1516,7 +1534,7 @@ items:
     MaxVelocity: 325.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 24
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -1551,6 +1569,7 @@ items:
     id: 584
     marketGroup: 61
     name: Griffin
+    published: true
     volume: 19400.0
   Griffin Navy Issue:
     Agility: 3.450000047683716
@@ -1599,7 +1618,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -1636,6 +1655,7 @@ items:
     id: 37455
     marketGroup: 1366
     name: Griffin Navy Issue
+    published: true
     volume: 19400.0
   Heron:
     Agility: 3.569999933242798
@@ -1684,7 +1704,7 @@ items:
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiniProfessionRangeBonus: 50
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 24
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -1721,6 +1741,7 @@ items:
     id: 605
     marketGroup: 61
     name: Heron
+    published: true
     volume: 18900.0
   Imicus:
     Agility: 4.150000095367432
@@ -1768,7 +1789,7 @@ items:
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiniProfessionRangeBonus: 50
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 21
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1805,6 +1826,7 @@ items:
     id: 607
     marketGroup: 77
     name: Imicus
+    published: true
     volume: 21500.0
   Imperial Navy Slicer:
     Agility: 3.299999952316284
@@ -1850,7 +1872,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 50
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -1885,6 +1907,7 @@ items:
     id: 17703
     marketGroup: 1366
     name: Imperial Navy Slicer
+    published: true
     volume: 16500.0
   Incursus:
     Agility: 3.1500000953674316
@@ -1930,7 +1953,7 @@ items:
     MaxVelocity: 340.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1965,6 +1988,7 @@ items:
     id: 594
     marketGroup: 77
     name: Incursus
+    published: true
     volume: 29500.0
   Inquisitor:
     Agility: 3.549999952316284
@@ -2012,7 +2036,7 @@ items:
     MaxVelocity: 405.0
     MedSlots: 2
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 51
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2047,6 +2071,7 @@ items:
     id: 590
     marketGroup: 72
     name: Inquisitor
+    published: true
     volume: 28700.0
   Kestrel:
     Agility: 3.2699999809265137
@@ -2091,7 +2116,7 @@ items:
     MaxVelocity: 325.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -2125,6 +2150,7 @@ items:
     id: 602
     marketGroup: 61
     name: Kestrel
+    published: true
     volume: 19700.0
   Magnate:
     Agility: 3.799999952316284
@@ -2173,7 +2199,7 @@ items:
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiniProfessionRangeBonus: 50
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 26
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2209,6 +2235,7 @@ items:
     id: 29248
     marketGroup: 72
     name: Magnate
+    published: true
     volume: 22100.0
   Maulus:
     Agility: 3.25
@@ -2254,7 +2281,7 @@ items:
     MaxVelocity: 375.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 28
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2290,6 +2317,7 @@ items:
     id: 609
     marketGroup: 77
     name: Maulus
+    published: true
     volume: 23000.0
   Maulus Navy Issue:
     Agility: 3.3499999046325684
@@ -2337,7 +2365,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2374,6 +2402,7 @@ items:
     id: 37456
     marketGroup: 1366
     name: Maulus Navy Issue
+    published: true
     volume: 23000.0
   Merlin:
     Agility: 3.5999999046325684
@@ -2417,7 +2446,7 @@ items:
     MaxVelocity: 310.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -2453,6 +2482,7 @@ items:
     id: 603
     marketGroup: 61
     name: Merlin
+    published: true
     volume: 16500.0
   Navitas:
     Agility: 3.75
@@ -2501,7 +2531,7 @@ items:
     MaxVelocity: 410.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 49
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2537,6 +2567,7 @@ items:
     id: 592
     marketGroup: 77
     name: Navitas
+    published: true
     volume: 10000.0
   Probe:
     Agility: 3.5799999237060547
@@ -2585,7 +2616,7 @@ items:
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiniProfessionRangeBonus: 50
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 25
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -2622,6 +2653,7 @@ items:
     id: 586
     marketGroup: 64
     name: Probe
+    published: true
     volume: 19500.0
   Punisher:
     Agility: 2.9000000953674316
@@ -2665,7 +2697,7 @@ items:
     MaxVelocity: 355.0
     MedSlots: 2
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 67
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2700,6 +2732,7 @@ items:
     id: 597
     marketGroup: 72
     name: Punisher
+    published: true
     volume: 28600.0
   Republic Fleet Firetail:
     Agility: 3.200000047683716
@@ -2746,7 +2779,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -2782,6 +2815,7 @@ items:
     id: 17812
     marketGroup: 1366
     name: Republic Fleet Firetail
+    published: true
     volume: 16500.0
   Rifter:
     Agility: 3.200000047683716
@@ -2826,7 +2860,7 @@ items:
     MaxVelocity: 365.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 41
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -2861,6 +2895,7 @@ items:
     id: 587
     marketGroup: 64
     name: Rifter
+    published: true
     volume: 27289.0
   Silver Magnate:
     Agility: 2.200000047683716
@@ -2907,7 +2942,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 60
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2942,6 +2977,7 @@ items:
     id: 11942
     marketGroup: 1619
     name: Silver Magnate
+    published: true
     volume: 22100.0
   Slasher:
     Agility: 2.8299999237060547
@@ -2986,7 +3022,7 @@ items:
     MaxVelocity: 430.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 36
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -3021,6 +3057,7 @@ items:
     id: 585
     marketGroup: 64
     name: Slasher
+    published: true
     volume: 17400.0
   Succubus:
     Agility: 3.5
@@ -3066,7 +3103,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 44
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -3105,6 +3142,7 @@ items:
     id: 17924
     marketGroup: 1365
     name: Succubus
+    published: true
     volume: 28600.0
   Tormentor:
     Agility: 3.0999999046325684
@@ -3151,7 +3189,7 @@ items:
     MaxVelocity: 335.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 50
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -3186,6 +3224,7 @@ items:
     id: 591
     marketGroup: 72
     name: Tormentor
+    published: true
     volume: 24398.0
   Tristan:
     Agility: 3.440000057220459
@@ -3231,7 +3270,7 @@ items:
     MaxVelocity: 315.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -3267,6 +3306,7 @@ items:
     id: 593
     marketGroup: 77
     name: Tristan
+    published: true
     volume: 26500.0
   Venture:
     AffectedByIndustrialInvulnModule: 1
@@ -3314,7 +3354,7 @@ items:
     MaxVelocity: 335.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 2
+    MiningAmountMultiplier: 2.0
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -3354,6 +3394,7 @@ items:
     id: 32880
     marketGroup: 1616
     name: Venture
+    published: true
     volume: 29500.0
   Vigil:
     Agility: 3.2200000286102295
@@ -3400,7 +3441,7 @@ items:
     MaxVelocity: 410.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 26
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -3435,6 +3476,7 @@ items:
     id: 3766
     marketGroup: 64
     name: Vigil
+    published: true
     volume: 17400.0
   Vigil Fleet Issue:
     Agility: 3.200000047683716
@@ -3483,7 +3525,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 38
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -3521,6 +3563,7 @@ items:
     id: 37454
     marketGroup: 1366
     name: Vigil Fleet Issue
+    published: true
     volume: 17400.0
   Worm:
     Agility: 3.799999952316284
@@ -3569,7 +3612,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1
+    MiningAmountMultiplier: 1.0
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -3607,4 +3650,5 @@ items:
     id: 17930
     marketGroup: 1365
     name: Worm
+    published: true
     volume: 16500.0

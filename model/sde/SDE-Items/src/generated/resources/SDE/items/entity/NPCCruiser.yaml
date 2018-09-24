@@ -1,0 +1,126 @@
+items:
+  ♦ Annihilator Drone:
+    id: 43649
+    name: ♦ Annihilator Drone
+    published: false
+    volume: 60.0
+  ♦ Arbitrator:
+    id: 43603
+    name: ♦ Arbitrator
+    published: false
+    volume: 120000.0
+  ♦ Ashimmu:
+    id: 46054
+    name: ♦ Ashimmu
+    published: false
+    volume: 118000.0
+  ♦ Augoror:
+    id: 43558
+    name: ♦ Augoror
+    published: false
+    volume: 115000.0
+  ♦ Bellicose:
+    id: 43592
+    name: ♦ Bellicose
+    published: false
+    volume: 85000.0
+  ♦ Blackbird:
+    id: 43625
+    name: ♦ Blackbird
+    published: false
+    volume: 96000.0
+  ♦ Caracal:
+    id: 46581
+    name: ♦ Caracal
+    published: false
+    volume: 92000.0
+  ♦ Celestis:
+    id: 43581
+    name: ♦ Celestis
+    published: false
+    volume: 116000.0
+  ♦ Cynabal:
+    id: 46062
+    name: ♦ Cynabal
+    published: false
+    volume: 101000.0
+  ♦ DED Special Operation Captain:
+    id: 48583
+    name: ♦ DED Special Operation Captain
+    published: false
+    volume: 101000.0
+  ♦ Exequror:
+    id: 43580
+    name: ♦ Exequror
+    published: false
+    volume: 113000.0
+  ♦ Gila:
+    id: 46056
+    name: ♦ Gila
+    published: false
+    volume: 101000.0
+  ♦ Ixion:
+    id: 43642
+    name: ♦ Ixion
+    published: false
+    volume: 99000.0
+  ♦ Maller:
+    id: 43560
+    name: ♦ Maller
+    published: false
+    volume: 118000.0
+  ♦ Moa:
+    id: 46760
+    name: ♦ Moa
+    published: false
+    volume: 101000.0
+  ♦ Omen:
+    id: 46067
+    name: ♦ Omen
+    published: false
+    volume: 118000.0
+  ♦ Osprey:
+    id: 43623
+    name: ♦ Osprey
+    published: false
+    volume: 107000.0
+  ♦ Phantasm:
+    id: 43656
+    name: ♦ Phantasm
+    published: false
+    volume: 101000.0
+  ♦ Rupture:
+    id: 46079
+    name: ♦ Rupture
+    published: false
+    volume: 96000.0
+  ♦ Scythe:
+    id: 43591
+    name: ♦ Scythe
+    published: false
+    volume: 89000.0
+  ♦ Stabber:
+    id: 43593
+    name: ♦ Stabber
+    published: false
+    volume: 80000.0
+  ♦ Thorax:
+    id: 46075
+    name: ♦ Thorax
+    published: false
+    volume: 112000.0
+  ♦ Vexor:
+    id: 43582
+    name: ♦ Vexor
+    published: false
+    volume: 115000.0
+  ♦ Vigilant:
+    id: 46059
+    name: ♦ Vigilant
+    published: false
+    volume: 101000.0
+  ��� Augoror:
+    id: 43602
+    name: ��� Augoror
+    published: false
+    volume: 115000.0

@@ -1,0 +1,276 @@
+items:
+  Caldari CA Frigate:
+    id: 45461
+    name: Caldari CA Frigate
+    published: false
+    volume: 19700.0
+  Caldari Navy Condor:
+    id: 14359
+    name: Caldari Navy Condor
+    published: false
+    volume: 18000.0
+  Caldari Navy Delta I Support Frigate:
+    id: 15971
+    name: Caldari Navy Delta I Support Frigate
+    published: false
+    volume: 20400.0
+  Caldari Navy Delta II Support Frigate:
+    id: 15972
+    name: Caldari Navy Delta II Support Frigate
+    published: false
+    volume: 20400.0
+  Caldari Navy Detective:
+    id: 11659
+    name: Caldari Navy Detective
+    published: false
+    volume: 109000.0
+  Caldari Navy Elite Soldier:
+    id: 15579
+    name: Caldari Navy Elite Soldier
+    published: false
+    volume: 17400.0
+  Caldari Navy Gamma I Support Frigate:
+    id: 15969
+    name: Caldari Navy Gamma I Support Frigate
+    published: false
+    volume: 19700.0
+  Caldari Navy Gamma II Support Frigate:
+    id: 15970
+    name: Caldari Navy Gamma II Support Frigate
+    published: false
+    volume: 19400.0
+  Caldari Navy Griffin:
+    id: 14478
+    name: Caldari Navy Griffin
+    published: false
+    volume: 19400.0
+  Caldari Navy Officer:
+    id: 13104
+    name: Caldari Navy Officer
+    published: false
+    volume: 109000.0
+  Caldari Navy Scout:
+    id: 11664
+    name: Caldari Navy Scout
+    published: false
+    volume: 19100.0
+  Caldari Navy Soldier:
+    id: 14355
+    name: Caldari Navy Soldier
+    published: false
+    volume: 17400.0
+  Caldari Navy Squad Leader:
+    id: 15346
+    name: Caldari Navy Squad Leader
+    published: false
+    volume: 16500.0
+  Captured Caldari State Shuttle:
+    id: 32384
+    name: Captured Caldari State Shuttle
+    published: false
+    volume: 5000.0
+  Civilian Caldari Frigate Condor:
+    id: 30769
+    name: Civilian Caldari Frigate Condor
+    published: false
+    volume: 16120.0
+  Civilian Caldari Frigate Griffin:
+    id: 30770
+    name: Civilian Caldari Frigate Griffin
+    published: false
+    volume: 16120.0
+  Civilian Caldari Frigate Heron:
+    id: 30771
+    name: Civilian Caldari Frigate Heron
+    published: false
+    volume: 16120.0
+  Civilian Caldari Frigate Kestrel:
+    id: 30772
+    name: Civilian Caldari Frigate Kestrel
+    published: false
+    volume: 16120.0
+  Civilian Caldari Frigate Merlin:
+    id: 30773
+    name: Civilian Caldari Frigate Merlin
+    published: false
+    volume: 16120.0
+  Eroma Eralen:
+    id: 32392
+    name: Eroma Eralen
+    published: false
+    volume: 5000.0
+  Independent Condor:
+    id: 29829
+    name: Independent Condor
+    published: false
+    volume: 16500.0
+  Independent Green-Crewed Condor:
+    id: 29828
+    name: Independent Green-Crewed Condor
+    published: false
+    volume: 16120.0
+  Independent Green-Crewed Griffin:
+    id: 29816
+    name: Independent Green-Crewed Griffin
+    published: false
+    volume: 16120.0
+  Independent Green-Crewed Heron:
+    id: 29817
+    name: Independent Green-Crewed Heron
+    published: false
+    volume: 16120.0
+  Independent Green-Crewed Kestrel:
+    id: 29818
+    name: Independent Green-Crewed Kestrel
+    published: false
+    volume: 16120.0
+  Independent Green-Crewed Merlin:
+    id: 29819
+    name: Independent Green-Crewed Merlin
+    published: false
+    volume: 16120.0
+  Independent Griffin:
+    id: 29820
+    name: Independent Griffin
+    published: false
+    volume: 16500.0
+  Independent Heron:
+    id: 29821
+    name: Independent Heron
+    published: false
+    volume: 16500.0
+  Independent Kestrel:
+    id: 29822
+    name: Independent Kestrel
+    published: false
+    volume: 16500.0
+  Independent Merlin:
+    id: 29823
+    name: Independent Merlin
+    published: false
+    volume: 16500.0
+  Independent Veteran Condor:
+    id: 29830
+    name: Independent Veteran Condor
+    published: false
+    volume: 16500.0
+  Independent Veteran Griffin:
+    id: 29824
+    name: Independent Veteran Griffin
+    published: false
+    volume: 16500.0
+  Independent Veteran Heron:
+    id: 29825
+    name: Independent Veteran Heron
+    published: false
+    volume: 16500.0
+  Independent Veteran Kestrel:
+    id: 29826
+    name: Independent Veteran Kestrel
+    published: false
+    volume: 16500.0
+  Independent Veteran Merlin:
+    id: 29827
+    name: Independent Veteran Merlin
+    published: false
+    volume: 16500.0
+  State Bo-Hi:
+    id: 24997
+    name: State Bo-Hi
+    published: false
+    volume: 15001.0
+  State Daito:
+    id: 25008
+    name: State Daito
+    published: false
+    volume: 20400.0
+  State Katana:
+    id: 25012
+    name: State Katana
+    published: false
+    volume: 16500.0
+  State Nagasa:
+    id: 25001
+    name: State Nagasa
+    published: false
+    volume: 20250.0
+  State Shinai:
+    id: 25004
+    name: State Shinai
+    published: false
+    volume: 20250.0
+  State Showato:
+    id: 24999
+    name: State Showato
+    published: false
+    volume: 16120.0
+  State Shukuro Shinai:
+    id: 25013
+    name: State Shukuro Shinai
+    published: false
+    volume: 19700.0
+  State Shukuro Shuriken:
+    id: 25015
+    name: State Shukuro Shuriken
+    published: false
+    volume: 16500.0
+  State Shuriken:
+    id: 25007
+    name: State Shuriken
+    published: false
+    volume: 20400.0
+  State Wakizashi:
+    id: 25011
+    name: State Wakizashi
+    published: false
+    volume: 19700.0
+  Taibu State Daito:
+    id: 25040
+    name: Taibu State Daito
+    published: false
+    volume: 16500.0
+  Taibu State Katana:
+    id: 25042
+    name: Taibu State Katana
+    published: false
+    volume: 16500.0
+  Taibu State Nagasa:
+    id: 25035
+    name: Taibu State Nagasa
+    published: false
+    volume: 19700.0
+  Taibu State Shinai:
+    id: 25036
+    name: Taibu State Shinai
+    published: false
+    volume: 16500.0
+  Taibu State Shirasaya:
+    id: 25033
+    name: Taibu State Shirasaya
+    published: false
+    volume: 19700.0
+  Taibu State Shuriken:
+    id: 25037
+    name: Taibu State Shuriken
+    published: false
+    volume: 16500.0
+  Taibu State Suriage:
+    id: 25034
+    name: Taibu State Suriage
+    published: false
+    volume: 16500.0
+  Taibu State Tachi:
+    id: 25038
+    name: Taibu State Tachi
+    published: false
+    volume: 16500.0
+  Taibu State Wakizashi:
+    id: 25041
+    name: Taibu State Wakizashi
+    published: false
+    volume: 16500.0
+  Taibu State Yari:
+    id: 25039
+    name: Taibu State Yari
+    published: false
+    volume: 16500.0

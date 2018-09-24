@@ -25,6 +25,7 @@ items:
     id: 41516
     marketGroup: 2246
     name: Capital Flex Shield Hardener I
+    published: true
     volume: 4000.0
   Capital Flex Shield Hardener II:
     CapacitorNeed: 3600.0
@@ -53,6 +54,7 @@ items:
     id: 41528
     marketGroup: 2246
     name: Capital Flex Shield Hardener II
+    published: true
     volume: 4000.0
   Domination Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
@@ -82,6 +84,7 @@ items:
     id: 41531
     marketGroup: 2246
     name: Domination Capital Flex Shield Hardener
+    published: true
     volume: 4000.0
   Dread Guristas Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
@@ -111,6 +114,7 @@ items:
     id: 41530
     marketGroup: 2246
     name: Dread Guristas Capital Flex Shield Hardener
+    published: true
     volume: 4000.0
   True Sansha Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
@@ -140,4 +144,5 @@ items:
     id: 41529
     marketGroup: 2246
     name: True Sansha Capital Flex Shield Hardener
+    published: true
     volume: 4000.0

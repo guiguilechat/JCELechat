@@ -47,6 +47,7 @@ items:
     id: 16696
     marketGroup: 479
     name: Cruise Missile Battery
+    published: true
     volume: 500.0
   Dread Guristas Cruise Missile Battery:
     AmmoCapacity: 10000
@@ -97,6 +98,7 @@ items:
     id: 27640
     marketGroup: 479
     name: Dread Guristas Cruise Missile Battery
+    published: true
     volume: 500.0
   Dread Guristas Torpedo Battery:
     AmmoCapacity: 10000
@@ -147,6 +149,7 @@ items:
     id: 27643
     marketGroup: 479
     name: Dread Guristas Torpedo Battery
+    published: true
     volume: 1000.0
   Dread Guristas XL Torpedo Battery:
     AmmoCapacity: 10000
@@ -197,6 +200,7 @@ items:
     id: 27562
     marketGroup: 479
     name: Dread Guristas XL Torpedo Battery
+    published: true
     volume: 5000.0
   Guristas Cruise Missile Battery:
     AmmoCapacity: 10000
@@ -247,6 +251,7 @@ items:
     id: 27638
     marketGroup: 479
     name: Guristas Cruise Missile Battery
+    published: true
     volume: 500.0
   Guristas Torpedo Battery:
     AmmoCapacity: 10000
@@ -297,6 +302,7 @@ items:
     id: 27641
     marketGroup: 479
     name: Guristas Torpedo Battery
+    published: true
     volume: 1000.0
   Guristas XL Torpedo Battery:
     AmmoCapacity: 10000
@@ -347,6 +353,7 @@ items:
     id: 27560
     marketGroup: 479
     name: Guristas XL Torpedo Battery
+    published: true
     volume: 5000.0
   Torpedo Battery:
     AmmoCapacity: 10000
@@ -396,6 +403,7 @@ items:
     id: 16697
     marketGroup: 479
     name: Torpedo Battery
+    published: true
     volume: 1000.0
   XL Torpedo Battery:
     AmmoCapacity: 10000
@@ -445,4 +453,5 @@ items:
     id: 17773
     marketGroup: 479
     name: XL Torpedo Battery
+    published: true
     volume: 5000.0

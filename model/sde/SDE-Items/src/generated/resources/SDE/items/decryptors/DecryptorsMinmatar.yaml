@@ -6,6 +6,7 @@ items:
     InventionTEModifier: 10.0
     id: 21580
     name: Cryptic Accelerant
+    published: true
     volume: 1.0
   Cryptic Attainment:
     InventionMEModifier: -1.0
@@ -14,6 +15,7 @@ items:
     InventionTEModifier: 4.0
     id: 21583
     name: Cryptic Attainment
+    published: true
     volume: 1.0
   Cryptic Augmentation:
     InventionMEModifier: -2.0
@@ -22,6 +24,7 @@ items:
     InventionTEModifier: 2.0
     id: 21582
     name: Cryptic Augmentation
+    published: true
     volume: 1.0
   Cryptic Parity:
     InventionMEModifier: 1.0
@@ -30,6 +33,7 @@ items:
     InventionTEModifier: -2.0
     id: 33318
     name: Cryptic Parity
+    published: true
     volume: 1.0
   Cryptic Process:
     InventionMEModifier: 3.0
@@ -37,6 +41,7 @@ items:
     InventionTEModifier: 6.0
     id: 21579
     name: Cryptic Process
+    published: true
     volume: 1.0
   Cryptic Symmetry:
     InventionMEModifier: 1.0
@@ -45,6 +50,7 @@ items:
     InventionTEModifier: 8.0
     id: 21581
     name: Cryptic Symmetry
+    published: true
     volume: 1.0
   Optimized Cryptic Attainment:
     InventionMEModifier: 1.0
@@ -53,6 +59,7 @@ items:
     InventionTEModifier: -2.0
     id: 33324
     name: Optimized Cryptic Attainment
+    published: true
     volume: 1.0
   Optimized Cryptic Augmentation:
     InventionMEModifier: 2.0
@@ -60,4 +67,5 @@ items:
     InventionPropabilityMultiplier: 0.8999999761581421
     id: 33321
     name: Optimized Cryptic Augmentation
+    published: true
     volume: 1.0

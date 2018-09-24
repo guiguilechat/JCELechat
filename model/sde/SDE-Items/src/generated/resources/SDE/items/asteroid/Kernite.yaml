@@ -7,9 +7,11 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28409
     marketGroup: 523
     name: Compressed Fiery Kernite
+    published: true
     volume: 0.19
   Compressed Kernite:
     AsteroidMaxRadius: 16255
@@ -19,9 +21,11 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28410
     marketGroup: 523
     name: Compressed Kernite
+    published: true
     volume: 0.19
   Compressed Luminous Kernite:
     AsteroidMaxRadius: 16255
@@ -31,9 +35,11 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28411
     marketGroup: 523
     name: Compressed Luminous Kernite
+    published: true
     volume: 0.19
   Compressed Resplendant Kernite:
     AsteroidMaxRadius: 16255
@@ -43,9 +49,11 @@ items:
     OreBasicType: 46683
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46699
     marketGroup: 523
     name: Compressed Resplendant Kernite
+    published: true
     volume: 0.19
   Fiery Kernite:
     AsteroidMaxRadius: 16255
@@ -57,9 +65,11 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17453
     marketGroup: 523
     name: Fiery Kernite
+    published: true
     volume: 1.2
   Kernite:
     AsteroidMaxRadius: 16255
@@ -71,9 +81,11 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 20
     marketGroup: 523
     name: Kernite
+    published: true
     volume: 1.2
   Luminous Kernite:
     AsteroidMaxRadius: 16255
@@ -85,9 +97,11 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 17452
     marketGroup: 523
     name: Luminous Kernite
+    published: true
     volume: 1.2
   Lyavite:
     AsteroidMaxRadius: 16255
@@ -96,8 +110,10 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 28620
     name: Lyavite
+    published: true
     volume: 1.2
   Resplendant Kernite:
     AsteroidMaxRadius: 5000
@@ -109,7 +125,9 @@ items:
     OreBasicType: 46683
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    StasisWebifierResistance: 1.0
     id: 46683
     marketGroup: 523
     name: Resplendant Kernite
+    published: true
     volume: 1.2

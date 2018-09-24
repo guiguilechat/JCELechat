@@ -10,6 +10,7 @@ items:
     id: 13209
     marketGroup: 1505
     name: Armored Command Mindlink
+    published: true
     volume: 1.0
   Caldari Navy Command Mindlink:
     Implantness: 10
@@ -25,6 +26,7 @@ items:
     id: 33406
     marketGroup: 1505
     name: Caldari Navy Command Mindlink
+    published: true
     volume: 1.0
   Federation Navy Command Mindlink:
     Implantness: 10
@@ -40,6 +42,7 @@ items:
     id: 33404
     marketGroup: 1505
     name: Federation Navy Command Mindlink
+    published: true
     volume: 1.0
   Imperial Navy Command Mindlink:
     Implantness: 10
@@ -55,6 +58,7 @@ items:
     id: 33403
     marketGroup: 1505
     name: Imperial Navy Command Mindlink
+    published: true
     volume: 1.0
   Information Command Mindlink:
     Implantness: 10
@@ -67,6 +71,7 @@ items:
     id: 21889
     marketGroup: 1505
     name: Information Command Mindlink
+    published: true
     volume: 1.0
   Mining Foreman Mindlink:
     Implantness: 10
@@ -79,6 +84,7 @@ items:
     id: 22559
     marketGroup: 1505
     name: Mining Foreman Mindlink
+    published: true
     volume: 1.0
   ORE Mining Director Mindlink:
     Implantness: 10
@@ -94,6 +100,7 @@ items:
     id: 43775
     marketGroup: 1505
     name: ORE Mining Director Mindlink
+    published: true
     volume: 1.0
   Republic Fleet Command Mindlink:
     Implantness: 10
@@ -109,6 +116,7 @@ items:
     id: 33405
     marketGroup: 1505
     name: Republic Fleet Command Mindlink
+    published: true
     volume: 1.0
   Shield Command Mindlink:
     Implantness: 10
@@ -121,6 +129,7 @@ items:
     id: 21888
     marketGroup: 1505
     name: Shield Command Mindlink
+    published: true
     volume: 1.0
   Skirmish Command Mindlink:
     Implantness: 10
@@ -133,4 +142,5 @@ items:
     id: 21890
     marketGroup: 1505
     name: Skirmish Command Mindlink
+    published: true
     volume: 1.0

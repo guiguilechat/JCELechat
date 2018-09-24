@@ -13,6 +13,7 @@ items:
     id: 44109
     marketGroup: 1663
     name: Display Launcher
+    published: true
     volume: 20.0
   Festival Launcher:
     ChargeGroup1: 500
@@ -27,4 +28,5 @@ items:
     id: 19660
     marketGroup: 1663
     name: Festival Launcher
+    published: true
     volume: 20.0

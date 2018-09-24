@@ -6,6 +6,7 @@ items:
     id: 24693
     marketGroup: 279
     name: Abaddon Blueprint
+    published: true
     volume: 0.01
   Apocalypse Blueprint:
     IndustryBlueprintRank: 60.0
@@ -14,6 +15,7 @@ items:
     id: 996
     marketGroup: 279
     name: Apocalypse Blueprint
+    published: true
     volume: 0.01
   Apocalypse Imperial Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -21,6 +23,7 @@ items:
     TechLevel: 1
     id: 11937
     name: Apocalypse Imperial Issue Blueprint
+    published: true
     volume: 0.01
   Apocalypse Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -28,6 +31,7 @@ items:
     TechLevel: 1
     id: 17727
     name: Apocalypse Navy Issue Blueprint
+    published: true
     volume: 0.01
   Armageddon Blueprint:
     IndustryBlueprintRank: 60.0
@@ -36,6 +40,7 @@ items:
     id: 997
     marketGroup: 279
     name: Armageddon Blueprint
+    published: true
     volume: 0.01
   Armageddon Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -43,6 +48,7 @@ items:
     TechLevel: 1
     id: 32306
     name: Armageddon Navy Issue Blueprint
+    published: true
     volume: 0.01
   Barghest Blueprint:
     IndustryBlueprintRank: 60.0
@@ -50,6 +56,7 @@ items:
     TechLevel: 1
     id: 33821
     name: Barghest Blueprint
+    published: true
     volume: 0.01
   Bhaalgorn Blueprint:
     IndustryBlueprintRank: 60.0
@@ -57,6 +64,7 @@ items:
     TechLevel: 1
     id: 17921
     name: Bhaalgorn Blueprint
+    published: true
     volume: 0.01
   Dominix Blueprint:
     IndustryBlueprintRank: 60.0
@@ -65,6 +73,7 @@ items:
     id: 999
     marketGroup: 281
     name: Dominix Blueprint
+    published: true
     volume: 0.01
   Dominix Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -72,6 +81,7 @@ items:
     TechLevel: 1
     id: 32308
     name: Dominix Navy Issue Blueprint
+    published: true
     volume: 0.01
   Golem Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -79,6 +89,7 @@ items:
     TechLevel: 2
     id: 28711
     name: Golem Blueprint
+    published: true
     volume: 0.01
   Hyperion Blueprint:
     IndustryBlueprintRank: 60.0
@@ -87,6 +98,7 @@ items:
     id: 24691
     marketGroup: 281
     name: Hyperion Blueprint
+    published: true
     volume: 0.01
   Kronos Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -94,12 +106,14 @@ items:
     TechLevel: 2
     id: 28662
     name: Kronos Blueprint
+    published: true
     volume: 0.01
   Leshak Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 47968
     name: Leshak Blueprint
+    published: true
     volume: 0.01
   Machariel Blueprint:
     IndustryBlueprintRank: 60.0
@@ -107,6 +121,7 @@ items:
     TechLevel: 1
     id: 17739
     name: Machariel Blueprint
+    published: true
     volume: 0.01
   Maelstrom Blueprint:
     IndustryBlueprintRank: 60.0
@@ -115,12 +130,14 @@ items:
     id: 24695
     marketGroup: 278
     name: Maelstrom Blueprint
+    published: true
     volume: 0.01
   Marshal Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 45528
     name: Marshal Blueprint
+    published: true
     volume: 0.01
   Megathron Blueprint:
     IndustryBlueprintRank: 60.0
@@ -129,6 +146,7 @@ items:
     id: 995
     marketGroup: 281
     name: Megathron Blueprint
+    published: true
     volume: 0.01
   Megathron Federate Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -136,6 +154,7 @@ items:
     TechLevel: 1
     id: 13203
     name: Megathron Federate Issue Blueprint
+    published: true
     volume: 0.01
   Megathron Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -143,6 +162,7 @@ items:
     TechLevel: 1
     id: 17729
     name: Megathron Navy Issue Blueprint
+    published: true
     volume: 0.01
   Nestor Blueprint:
     IndustryBlueprintRank: 60.0
@@ -150,6 +170,7 @@ items:
     TechLevel: 1
     id: 33473
     name: Nestor Blueprint
+    published: true
     volume: 0.01
   Nightmare Blueprint:
     IndustryBlueprintRank: 60.0
@@ -157,6 +178,7 @@ items:
     TechLevel: 1
     id: 17737
     name: Nightmare Blueprint
+    published: true
     volume: 0.01
   Paladin Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -164,6 +186,7 @@ items:
     TechLevel: 2
     id: 28660
     name: Paladin Blueprint
+    published: true
     volume: 0.01
   Panther Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -171,12 +194,14 @@ items:
     TechLevel: 2
     id: 22441
     name: Panther Blueprint
+    published: true
     volume: 0.01
   Praxis Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 47716
     name: Praxis Blueprint
+    published: true
     volume: 0.01
   Rattlesnake Blueprint:
     IndustryBlueprintRank: 60.0
@@ -184,6 +209,7 @@ items:
     TechLevel: 1
     id: 17919
     name: Rattlesnake Blueprint
+    published: true
     volume: 0.01
   Raven Blueprint:
     IndustryBlueprintRank: 60.0
@@ -192,6 +218,7 @@ items:
     id: 688
     marketGroup: 280
     name: Raven Blueprint
+    published: true
     volume: 0.01
   Raven Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -199,6 +226,7 @@ items:
     TechLevel: 1
     id: 17637
     name: Raven Navy Issue Blueprint
+    published: true
     volume: 0.01
   Redeemer Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -206,6 +234,7 @@ items:
     TechLevel: 2
     id: 22429
     name: Redeemer Blueprint
+    published: true
     volume: 0.01
   Rokh Blueprint:
     IndustryBlueprintRank: 60.0
@@ -214,6 +243,7 @@ items:
     id: 24689
     marketGroup: 280
     name: Rokh Blueprint
+    published: true
     volume: 0.01
   Scorpion Blueprint:
     IndustryBlueprintRank: 60.0
@@ -222,6 +252,7 @@ items:
     id: 994
     marketGroup: 280
     name: Scorpion Blueprint
+    published: true
     volume: 0.01
   Scorpion Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -229,6 +260,7 @@ items:
     TechLevel: 1
     id: 32310
     name: Scorpion Navy Issue Blueprint
+    published: true
     volume: 0.01
   Sin Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -236,6 +268,7 @@ items:
     TechLevel: 2
     id: 22431
     name: Sin Blueprint
+    published: true
     volume: 0.01
   Tempest Blueprint:
     IndustryBlueprintRank: 60.0
@@ -244,6 +277,7 @@ items:
     id: 693
     marketGroup: 278
     name: Tempest Blueprint
+    published: true
     volume: 0.01
   Tempest Fleet Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -251,6 +285,7 @@ items:
     TechLevel: 1
     id: 17733
     name: Tempest Fleet Issue Blueprint
+    published: true
     volume: 0.01
   Typhoon Blueprint:
     IndustryBlueprintRank: 60.0
@@ -259,6 +294,7 @@ items:
     id: 998
     marketGroup: 278
     name: Typhoon Blueprint
+    published: true
     volume: 0.01
   Typhoon Fleet Issue Blueprint:
     IndustryBlueprintRank: 60.0
@@ -266,6 +302,7 @@ items:
     TechLevel: 1
     id: 32312
     name: Typhoon Fleet Issue Blueprint
+    published: true
     volume: 0.01
   Vargur Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -273,6 +310,7 @@ items:
     TechLevel: 2
     id: 28666
     name: Vargur Blueprint
+    published: true
     volume: 0.01
   Vindicator Blueprint:
     IndustryBlueprintRank: 60.0
@@ -280,6 +318,7 @@ items:
     TechLevel: 1
     id: 17741
     name: Vindicator Blueprint
+    published: true
     volume: 0.01
   Widow Blueprint:
     IndustryBlueprintRank: 1200.0
@@ -287,44 +326,61 @@ items:
     TechLevel: 2
     id: 22437
     name: Widow Blueprint
+    published: true
     volume: 0.01
   万王宝座级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34468
     name: 万王宝座级YC117年特别版蓝图
+    published: true
     volume: 0.01
   乌鸦级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34470
     name: 乌鸦级YC117年特别版蓝图
+    published: true
     volume: 0.01
-  响尾蛇级YC117年特别版蓝图:
+  响尾蛇��YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34464
-    name: 响尾蛇级YC117年特别版蓝图
+    name: 响尾蛇��YC117年特别版蓝图
+    published: true
     volume: 0.01
   地狱天使级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34460
     name: 地狱天使级YC117年特别版蓝图
+    published: true
     volume: 0.01
   多米尼克斯级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34466
     name: 多米尼克斯级YC117年特别版蓝图
+    published: true
     volume: 0.01
   末日沙场级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34458
     name: 末日沙场级YC117年特别版蓝图
+    published: true
     volume: 0.01
   灾难级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34472
     name: 灾难级YC117年特别版蓝图
+    published: true
     volume: 0.01
-  ��克瑞级YC117年特别版蓝图:
+  马克瑞级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34462
-    name: ��克瑞级YC117年特别版蓝图
+    name: 马克瑞级YC117年特别版蓝图
+    published: true
     volume: 0.01

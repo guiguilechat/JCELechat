@@ -1,0 +1,41 @@
+items:
+  ♦ Badger:
+    id: 43612
+    name: ♦ Badger
+    published: false
+    volume: 250000.0
+  ♦ Bestower:
+    id: 42654
+    name: ♦ Bestower
+    published: false
+    volume: 260000.0
+  ♦ Bustard:
+    id: 43613
+    name: ♦ Bustard
+    published: false
+    volume: 390000.0
+  ♦ Impel:
+    id: 42655
+    name: ♦ Impel
+    published: false
+    volume: 400000.0
+  ♦ Iteron Mark V:
+    id: 42658
+    name: ♦ Iteron Mark V
+    published: false
+    volume: 275000.0
+  ♦ Mammoth:
+    id: 42660
+    name: ♦ Mammoth
+    published: false
+    volume: 255000.0
+  ♦ Mastodon:
+    id: 42661
+    name: ♦ Mastodon
+    published: false
+    volume: 385000.0
+  ♦ Occator:
+    id: 42659
+    name: ♦ Occator
+    published: false
+    volume: 390000.0

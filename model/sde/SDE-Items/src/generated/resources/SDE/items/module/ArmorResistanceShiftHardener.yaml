@@ -23,4 +23,5 @@ items:
     id: 4403
     marketGroup: 1416
     name: Reactive Armor Hardener
+    published: true
     volume: 25.0

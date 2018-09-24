@@ -8,6 +8,7 @@ items:
     TechLevel: 1
     id: 27206
     name: Hardwiring - Zainou 'Sharpshooter' ZMX10
+    published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX100:
     DamageMultiplierBonus: 3
@@ -18,6 +19,7 @@ items:
     TechLevel: 1
     id: 27204
     name: Hardwiring - Zainou 'Sharpshooter' ZMX100
+    published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1000:
     DamageMultiplierBonus: 5
@@ -28,6 +30,7 @@ items:
     TechLevel: 1
     id: 27205
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1000
+    published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX11:
     DamageMultiplierBonus: 2
@@ -39,6 +42,7 @@ items:
     id: 3149
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX11
+    published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX110:
     DamageMultiplierBonus: 4
@@ -50,6 +54,7 @@ items:
     id: 3150
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX110
+    published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1100:
     DamageMultiplierBonus: 6
@@ -61,6 +66,7 @@ items:
     id: 3151
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1100
+    published: true
     volume: 1.0
   Whelan Machorin's Ballistic Smartlink:
     Implantness: 10
@@ -72,6 +78,7 @@ items:
     id: 20371
     marketGroup: 1497
     name: Whelan Machorin's Ballistic Smartlink
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-801:
     AoeCloudSizeBonus: -1.0
@@ -83,6 +90,7 @@ items:
     id: 27094
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-801
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-802:
     AoeCloudSizeBonus: -2.0
@@ -94,6 +102,7 @@ items:
     id: 3125
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-802
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-803:
     AoeCloudSizeBonus: -3.0
@@ -105,6 +114,7 @@ items:
     id: 24632
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-803
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-804:
     AoeCloudSizeBonus: -4.0
@@ -116,6 +126,7 @@ items:
     id: 3126
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-804
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-805:
     AoeCloudSizeBonus: -5.0
@@ -127,6 +138,7 @@ items:
     id: 24640
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-805
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-806:
     AoeCloudSizeBonus: -6.0
@@ -138,6 +150,7 @@ items:
     id: 3127
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-806
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-701:
     Implantness: 7
@@ -149,6 +162,7 @@ items:
     id: 27092
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-701
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-702:
     Implantness: 7
@@ -160,6 +174,7 @@ items:
     id: 3128
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-702
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-703:
     Implantness: 7
@@ -171,6 +186,7 @@ items:
     id: 13247
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-703
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-704:
     Implantness: 7
@@ -182,6 +198,7 @@ items:
     id: 3129
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-704
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-705:
     Implantness: 7
@@ -193,6 +210,7 @@ items:
     id: 24636
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-705
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-706:
     Implantness: 7
@@ -204,6 +222,7 @@ items:
     id: 3132
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-706
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-701:
     Implantness: 7
@@ -214,6 +233,7 @@ items:
     id: 27093
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-701
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-702:
     Implantness: 7
@@ -224,6 +244,7 @@ items:
     id: 3133
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-702
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-703:
     Implantness: 7
@@ -234,6 +255,7 @@ items:
     id: 13248
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-703
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-704:
     Implantness: 7
@@ -244,6 +266,7 @@ items:
     id: 3134
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-704
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-705:
     Implantness: 7
@@ -254,6 +277,7 @@ items:
     id: 24637
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-705
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-706:
     Implantness: 7
@@ -264,6 +288,7 @@ items:
     id: 3135
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-706
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1001:
     Implantness: 10
@@ -275,6 +300,7 @@ items:
     id: 27096
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1001
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1002:
     Implantness: 10
@@ -286,6 +312,7 @@ items:
     id: 3136
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1002
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1003:
     Implantness: 10
@@ -297,6 +324,7 @@ items:
     id: 13249
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1003
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1004:
     Implantness: 10
@@ -308,6 +336,7 @@ items:
     id: 3137
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1004
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1005:
     Implantness: 10
@@ -319,6 +348,7 @@ items:
     id: 24638
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1005
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1006:
     Implantness: 10
@@ -330,6 +360,7 @@ items:
     id: 3140
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1006
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-901:
     AoeVelocityBonus: 1.0
@@ -341,6 +372,7 @@ items:
     id: 27095
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-901
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-902:
     AoeVelocityBonus: 2.0
@@ -352,6 +384,7 @@ items:
     id: 3141
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-902
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-903:
     AoeVelocityBonus: 3.0
@@ -363,6 +396,7 @@ items:
     id: 13250
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-903
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-904:
     AoeVelocityBonus: 4.0
@@ -374,6 +408,7 @@ items:
     id: 3142
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-904
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-905:
     AoeVelocityBonus: 5.0
@@ -385,6 +420,7 @@ items:
     id: 24639
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-905
+    published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-906:
     AoeVelocityBonus: 6.0
@@ -396,6 +432,7 @@ items:
     id: 3143
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-906
+    published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-601:
     CpuNeedBonus: -1
@@ -407,6 +444,7 @@ items:
     id: 27091
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-601
+    published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-602:
     CpuNeedBonus: -2
@@ -418,6 +456,7 @@ items:
     id: 3144
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-602
+    published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-603:
     CpuNeedBonus: -3
@@ -429,6 +468,7 @@ items:
     id: 24641
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-603
+    published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-604:
     CpuNeedBonus: -4
@@ -440,6 +480,7 @@ items:
     id: 3145
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-604
+    published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-605:
     CpuNeedBonus: -5
@@ -451,6 +492,7 @@ items:
     id: 24642
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-605
+    published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-606:
     CpuNeedBonus: -6
@@ -462,6 +504,7 @@ items:
     id: 3148
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-606
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001:
     AoeCloudSizeBonus: -1.0
@@ -473,6 +516,7 @@ items:
     id: 27249
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002:
     AoeCloudSizeBonus: -2.0
@@ -484,6 +528,7 @@ items:
     id: 3160
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003:
     AoeCloudSizeBonus: -3.0
@@ -495,6 +540,7 @@ items:
     id: 13228
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004:
     AoeCloudSizeBonus: -4.0
@@ -506,6 +552,7 @@ items:
     id: 3161
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005:
     AoeCloudSizeBonus: -5.0
@@ -517,6 +564,7 @@ items:
     id: 27247
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006:
     AoeCloudSizeBonus: -6.0
@@ -528,6 +576,7 @@ items:
     id: 3164
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-601:
     DamageMultiplierBonus: 1
@@ -539,6 +588,7 @@ items:
     id: 27259
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-601
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-602:
     DamageMultiplierBonus: 2
@@ -550,6 +600,7 @@ items:
     id: 3181
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-602
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-603:
     DamageMultiplierBonus: 3
@@ -561,6 +612,7 @@ items:
     id: 13226
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-603
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-604:
     DamageMultiplierBonus: 4
@@ -572,6 +624,7 @@ items:
     id: 3182
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-604
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-605:
     DamageMultiplierBonus: 5
@@ -583,6 +636,7 @@ items:
     id: 27258
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-605
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-606:
     DamageMultiplierBonus: 6
@@ -594,6 +648,7 @@ items:
     id: 3183
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-606
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-801:
     Implantness: 8
@@ -604,6 +659,7 @@ items:
     id: 27244
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-801
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-802:
     Implantness: 8
@@ -615,6 +671,7 @@ items:
     id: 3152
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-802
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-803:
     Implantness: 8
@@ -625,6 +682,7 @@ items:
     id: 13227
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-803
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-804:
     Implantness: 8
@@ -636,6 +694,7 @@ items:
     id: 3153
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-804
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-805:
     Implantness: 8
@@ -646,6 +705,7 @@ items:
     id: 27243
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-805
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-806:
     Implantness: 8
@@ -657,6 +717,7 @@ items:
     id: 3156
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-806
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-701:
     DamageMultiplierBonus: 1
@@ -668,6 +729,7 @@ items:
     id: 27246
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-701
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-702:
     DamageMultiplierBonus: 2
@@ -679,6 +741,7 @@ items:
     id: 3157
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-702
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-703:
     DamageMultiplierBonus: 3
@@ -690,6 +753,7 @@ items:
     id: 27109
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-703
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-704:
     DamageMultiplierBonus: 4
@@ -701,6 +765,7 @@ items:
     id: 3158
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-704
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-705:
     DamageMultiplierBonus: 5
@@ -712,6 +777,7 @@ items:
     id: 27245
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-705
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-706:
     DamageMultiplierBonus: 6
@@ -723,6 +789,7 @@ items:
     id: 3159
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-706
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-701:
     DamageMultiplierBonus: 1
@@ -734,6 +801,7 @@ items:
     id: 27251
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-701
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-702:
     DamageMultiplierBonus: 2
@@ -745,6 +813,7 @@ items:
     id: 3165
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-702
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-703:
     DamageMultiplierBonus: 3
@@ -756,6 +825,7 @@ items:
     id: 13229
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-703
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-704:
     DamageMultiplierBonus: 4
@@ -767,6 +837,7 @@ items:
     id: 3166
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-704
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-705:
     DamageMultiplierBonus: 5
@@ -778,6 +849,7 @@ items:
     id: 27250
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-705
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-706:
     DamageMultiplierBonus: 6
@@ -789,6 +861,7 @@ items:
     id: 3167
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-706
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-901:
     DamageMultiplierBonus: 1
@@ -800,6 +873,7 @@ items:
     id: 27253
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-901
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-902:
     DamageMultiplierBonus: 2
@@ -811,6 +885,7 @@ items:
     id: 3168
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-902
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-903:
     DamageMultiplierBonus: 3
@@ -822,6 +897,7 @@ items:
     id: 27108
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-903
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-904:
     DamageMultiplierBonus: 4
@@ -833,6 +909,7 @@ items:
     id: 3169
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-904
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-905:
     DamageMultiplierBonus: 5
@@ -844,6 +921,7 @@ items:
     id: 27252
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-905
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-906:
     DamageMultiplierBonus: 6
@@ -855,6 +933,7 @@ items:
     id: 3172
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-906
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-901:
     DamageMultiplierBonus: 1
@@ -866,6 +945,7 @@ items:
     id: 27255
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-901
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-902:
     DamageMultiplierBonus: 2
@@ -877,6 +957,7 @@ items:
     id: 3173
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-902
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-903:
     DamageMultiplierBonus: 3
@@ -888,6 +969,7 @@ items:
     id: 13230
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-903
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-904:
     DamageMultiplierBonus: 4
@@ -899,6 +981,7 @@ items:
     id: 3174
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-904
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-905:
     DamageMultiplierBonus: 5
@@ -910,6 +993,7 @@ items:
     id: 27254
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-905
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-906:
     DamageMultiplierBonus: 6
@@ -921,6 +1005,7 @@ items:
     id: 3175
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-906
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-601:
     DamageMultiplierBonus: 1
@@ -932,6 +1017,7 @@ items:
     id: 27257
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-601
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-602:
     DamageMultiplierBonus: 2
@@ -943,6 +1029,7 @@ items:
     id: 3176
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-602
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-603:
     DamageMultiplierBonus: 3
@@ -954,6 +1041,7 @@ items:
     id: 13231
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-603
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-604:
     DamageMultiplierBonus: 4
@@ -965,6 +1053,7 @@ items:
     id: 3177
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-604
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-605:
     DamageMultiplierBonus: 5
@@ -976,6 +1065,7 @@ items:
     id: 27256
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-605
+    published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-606:
     DamageMultiplierBonus: 6
@@ -987,4 +1077,5 @@ items:
     id: 3180
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-606
+    published: true
     volume: 1.0

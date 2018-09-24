@@ -3,19 +3,23 @@ items:
     id: 30746
     marketGroup: 1109
     name: Ancient Coordinates Database
+    published: true
     volume: 0.1
   Neural Network Analyzer:
     id: 30744
     marketGroup: 1109
     name: Neural Network Analyzer
+    published: true
     volume: 0.1
   Sleeper Data Library:
     id: 30745
     marketGroup: 1109
     name: Sleeper Data Library
+    published: true
     volume: 0.1
   Sleeper Drone AI Nexus:
     id: 30747
     marketGroup: 1109
     name: Sleeper Drone AI Nexus
+    published: true
     volume: 0.1

@@ -54,13 +54,6 @@ public class StructureCapacitorBattery
     @DefaultIntValue(0)
     public int Power;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -92,10 +85,6 @@ public class StructureCapacitorBattery
             case  30 :
             {
                 return Power;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
             }
             case  422 :
             {

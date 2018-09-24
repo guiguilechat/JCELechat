@@ -1,0 +1,41 @@
+items:
+  Mordur Bloodsworn:
+    id: 16703
+    name: Mordur Bloodsworn
+    published: false
+    volume: 28600.0
+  Mordus Bounty Hunter:
+    id: 16040
+    name: Mordus Bounty Hunter
+    published: false
+    volume: 16500.0
+  Mordus Gladius:
+    id: 16022
+    name: Mordus Gladius
+    published: false
+    volume: 16500.0
+  Mordus Katana:
+    id: 16023
+    name: Mordus Katana
+    published: false
+    volume: 16500.0
+  Mordus Rapier:
+    id: 16021
+    name: Mordus Rapier
+    published: false
+    volume: 20400.0
+  Mordus Rookie:
+    id: 16019
+    name: Mordus Rookie
+    published: false
+    volume: 16120.0
+  Mordus Sabre:
+    id: 16020
+    name: Mordus Sabre
+    published: false
+    volume: 20250.0
+  Mordus Squad Leader:
+    id: 16024
+    name: Mordus Squad Leader
+    published: false
+    volume: 16500.0

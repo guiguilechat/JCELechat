@@ -4,30 +4,35 @@ items:
     TechLevel: 1
     id: 22926
     name: '''Bootleg'' Remote Sensor Booster Blueprint'
+    published: true
     volume: 0.01
   '''Executive'' Remote Sensor Dampener Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 22946
     name: '''Executive'' Remote Sensor Dampener Blueprint'
+    published: true
     volume: 0.01
   '''Shady'' Sensor Booster Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 22896
     name: '''Shady'' Sensor Booster Blueprint'
+    published: true
     volume: 0.01
   Federation Navy Sensor Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 17521
     name: Federation Navy Sensor Booster Blueprint
+    published: true
     volume: 0.01
   Networked Sensor Array Blueprint:
     TechLevel: 1
     id: 41412
     marketGroup: 1581
     name: Networked Sensor Array Blueprint
+    published: true
     volume: 0.01
   Remote Sensor Booster I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -35,12 +40,14 @@ items:
     id: 11798
     marketGroup: 1580
     name: Remote Sensor Booster I Blueprint
+    published: true
     volume: 0.01
   Remote Sensor Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11799
     name: Remote Sensor Booster II Blueprint
+    published: true
     volume: 0.01
   Remote Sensor Dampener I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -48,12 +55,14 @@ items:
     id: 11803
     marketGroup: 1576
     name: Remote Sensor Dampener I Blueprint
+    published: true
     volume: 0.01
   Remote Sensor Dampener II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11804
     name: Remote Sensor Dampener II Blueprint
+    published: true
     volume: 0.01
   Sensor Booster I Blueprint:
     IndustryBlueprintRank: 6.0
@@ -61,10 +70,12 @@ items:
     id: 11620
     marketGroup: 1581
     name: Sensor Booster I Blueprint
+    published: true
     volume: 0.01
   Sensor Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
     id: 11808
     name: Sensor Booster II Blueprint
+    published: true
     volume: 0.01

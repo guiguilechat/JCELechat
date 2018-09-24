@@ -45,6 +45,7 @@ items:
     id: 17180
     marketGroup: 481
     name: Sensor Dampening Battery
+    published: true
     volume: 4000.0
   Serpentis Sensor Dampening Battery:
     AnchoringDelay: 5000
@@ -93,6 +94,7 @@ items:
     id: 27778
     marketGroup: 481
     name: Serpentis Sensor Dampening Battery
+    published: true
     volume: 4000.0
   Shadow Sensor Dampening Battery:
     AnchoringDelay: 5000
@@ -141,4 +143,5 @@ items:
     id: 27779
     marketGroup: 481
     name: Shadow Sensor Dampening Battery
+    published: true
     volume: 4000.0

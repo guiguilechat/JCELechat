@@ -15,6 +15,7 @@ items:
     id: 46325
     marketGroup: 2341
     name: Standup M-Set Moon Drilling Stability I
+    published: true
     volume: 10.0
   Standup M-Set Moon Drilling Stability II:
     CanFitShipGroup03: 1406
@@ -32,4 +33,5 @@ items:
     id: 46326
     marketGroup: 2341
     name: Standup M-Set Moon Drilling Stability II
+    published: true
     volume: 10.0

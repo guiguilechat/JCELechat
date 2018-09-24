@@ -11,6 +11,7 @@ items:
     PowerLoad: 2600
     id: 2848
     name: Barren Extractor Control Unit
+    published: true
   Gas Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -23,6 +24,7 @@ items:
     PowerLoad: 2600
     id: 3060
     name: Gas Extractor Control Unit
+    published: true
   Ice Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -35,6 +37,7 @@ items:
     PowerLoad: 2600
     id: 3061
     name: Ice Extractor Control Unit
+    published: true
   Lava Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -47,6 +50,7 @@ items:
     PowerLoad: 2600
     id: 3062
     name: Lava Extractor Control Unit
+    published: true
   Oceanic Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -59,6 +63,7 @@ items:
     PowerLoad: 2600
     id: 3063
     name: Oceanic Extractor Control Unit
+    published: true
   Plasma Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -71,6 +76,7 @@ items:
     PowerLoad: 2600
     id: 3064
     name: Plasma Extractor Control Unit
+    published: true
   Storm Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -83,6 +89,7 @@ items:
     PowerLoad: 2600
     id: 3067
     name: Storm Extractor Control Unit
+    published: true
   Temperate Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -95,3 +102,4 @@ items:
     PowerLoad: 2600
     id: 3068
     name: Temperate Extractor Control Unit
+    published: true

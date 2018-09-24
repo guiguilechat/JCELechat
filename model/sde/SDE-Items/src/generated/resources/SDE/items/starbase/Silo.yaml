@@ -23,6 +23,7 @@ items:
     id: 25270
     marketGroup: 483
     name: Biochemical Silo
+    published: true
     volume: 4000.0
   Catalyst Silo:
     AnchoringDelay: 5000
@@ -48,6 +49,7 @@ items:
     id: 25271
     marketGroup: 483
     name: Catalyst Silo
+    published: true
     volume: 4000.0
   Coupling Array:
     AnchoringDelay: 5000
@@ -72,6 +74,7 @@ items:
     id: 17982
     marketGroup: 483
     name: Coupling Array
+    published: true
     volume: 4000.0
   General Storage:
     AnchoringDelay: 5000
@@ -98,6 +101,7 @@ items:
     id: 25821
     marketGroup: 483
     name: General Storage
+    published: true
     volume: 4000.0
   Hazardous Chemical Silo:
     AnchoringDelay: 5000
@@ -123,6 +127,7 @@ items:
     id: 25280
     marketGroup: 483
     name: Hazardous Chemical Silo
+    published: true
     volume: 4000.0
   Hybrid Polymer Silo:
     AnchoringDelay: 5000
@@ -149,6 +154,7 @@ items:
     id: 30655
     marketGroup: 483
     name: Hybrid Polymer Silo
+    published: true
     volume: 4000.0
   Silo:
     AnchoringDelay: 5000
@@ -173,4 +179,5 @@ items:
     id: 14343
     marketGroup: 483
     name: Silo
+    published: true
     volume: 4000.0
