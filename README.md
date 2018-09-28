@@ -117,7 +117,7 @@ compiles the Swagger.json from CCP and creates
 
 Uses ESI-Compiler to produce the Swagger ; Then implements the Swagger into an ESIConnection class.
 
-example of code. This is from [a test class](model/esi/ESI/src/test/java/fr/guiguilechat/jcelechat/model/esi/ExampleStaticAccess.java) in the esi.
+example of code. This is from [a test class](https://github.com/guiguilechat/JCELechat/blob/master/model/esi/JCESI/src/test/java/fr/guiguilechat/jcelechat/model/jcesi/ExampleStaticAccess.java) in the esi.
 
 ```java
  /** a static access does not need an account to retrieve data */
