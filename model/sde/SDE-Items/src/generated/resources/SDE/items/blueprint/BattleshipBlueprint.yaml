@@ -342,11 +342,11 @@ items:
     name: 乌鸦级YC117年特别版蓝图
     published: true
     volume: 0.01
-  响尾蛇��YC117年特别版蓝图:
+  响尾蛇级YC117年特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34464
-    name: 响尾蛇��YC117年特别版蓝图
+    name: 响尾蛇级YC117年特别版蓝图
     published: true
     volume: 0.01
   地狱天使级YC117年特别版蓝图:
@@ -370,11 +370,11 @@ items:
     name: 末日沙场级YC117年特别版蓝图
     published: true
     volume: 0.01
-  灾难级YC117年特别版蓝图:
+  灾��级YC117年特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34472
-    name: 灾难级YC117年特别版蓝图
+    name: 灾��级YC117年特别版蓝图
     published: true
     volume: 0.01
   马克瑞级YC117年特别版蓝图:

@@ -5,7 +5,7 @@ items:
     RequiredSkill1: 24242
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 33407
     marketGroup: 1746
     name: Advanced Infomorph Psychology
@@ -17,7 +17,7 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3405
     marketGroup: 1746
     name: Biology
@@ -31,7 +31,7 @@ items:
     RequiredSkill2: 20533
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     id: 24606
     marketGroup: 1746
     name: Cloning Facility Operation
@@ -42,7 +42,7 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3411
     marketGroup: 1746
     name: Cybernetics
@@ -52,7 +52,7 @@ items:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 24242
     marketGroup: 1746
     name: Infomorph Psychology
@@ -63,7 +63,7 @@ items:
     RequiredSkill1: 24242
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33399
     marketGroup: 1746
     name: Infomorph Synchronizing
@@ -77,7 +77,7 @@ items:
     RequiredSkill2: 3405
     RequiredSkill2Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 25538
     marketGroup: 1746
     name: Neurotoxin Control
@@ -89,7 +89,7 @@ items:
     RequiredSkill1: 25538
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 25530
     marketGroup: 1746
     name: Neurotoxin Recovery

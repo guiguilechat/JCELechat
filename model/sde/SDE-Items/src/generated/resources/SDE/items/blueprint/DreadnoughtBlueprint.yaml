@@ -1,19 +1,16 @@
 items:
   Caiman Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 45646
     name: Caiman Blueprint
     published: true
     volume: 0.01
   Chemosh Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 45044
     name: Chemosh Blueprint
     published: true
     volume: 0.01
   Moros Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 19725
     marketGroup: 785
     name: Moros Blueprint
@@ -21,7 +18,6 @@ items:
     volume: 0.01
   Naglfar Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 19723
     marketGroup: 786
     name: Naglfar Blueprint
@@ -29,7 +25,6 @@ items:
     volume: 0.01
   Phoenix Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 19727
     marketGroup: 784
     name: Phoenix Blueprint
@@ -37,14 +32,12 @@ items:
     volume: 0.01
   Revelation Blueprint:
     IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
     id: 19721
     marketGroup: 783
     name: Revelation Blueprint
     published: true
     volume: 0.01
   Vehement Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 42136
     name: Vehement Blueprint
     published: true

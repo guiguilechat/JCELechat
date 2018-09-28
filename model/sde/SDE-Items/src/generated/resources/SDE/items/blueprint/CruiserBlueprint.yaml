@@ -587,17 +587,17 @@ items:
     name: 伊什塔级YC117年特别版蓝图
     published: true
     volume: 0.01
-  毒蜥级YC117年特别��蓝图:
+  毒蜥级YC117年特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34476
-    name: 毒蜥级YC117年特别��蓝图
+    name: 毒蜥级YC117年特别版蓝图
     published: true
     volume: 0.01
-  银鹰级YC117��特别版蓝图:
+  银鹰级YC117年特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34478
-    name: 银鹰级YC117��特别版蓝图
+    name: 银鹰级YC117年特别版蓝图
     published: true
     volume: 0.01

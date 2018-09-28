@@ -20,7 +20,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 431.0
@@ -52,7 +51,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -83,7 +81,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -114,7 +111,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -144,7 +140,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 450.0
@@ -176,7 +171,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -207,7 +201,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -238,7 +231,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -268,7 +260,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 413.0
@@ -300,7 +291,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -331,7 +321,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -362,7 +351,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -390,7 +378,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 375.0
@@ -420,7 +407,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -449,7 +435,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
@@ -478,7 +463,6 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
-    SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0

@@ -1,11 +1,8 @@
 items:
   '''Basic'' Shield Flux Coil':
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
     Hp: 40
     MetaGroupID: 3
     MetaLevel: 6
-    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 0.949999988079071
@@ -17,13 +14,10 @@ items:
     published: true
     volume: 5.0
   Dread Guristas Shield Flux Coil:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
     Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
-    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 0.8500000238418579
@@ -35,12 +29,9 @@ items:
     published: true
     volume: 5.0
   Mark I Compact Shield Flux Coil:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
     Cpu: 15.0
     Hp: 40
     MetaLevel: 1
-    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 0.8500000238418579
@@ -52,10 +43,7 @@ items:
     published: true
     volume: 5.0
   Shield Flux Coil I:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
     Hp: 40
-    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 0.8500000238418579
@@ -67,12 +55,9 @@ items:
     published: true
     volume: 5.0
   Shield Flux Coil II:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
     Cpu: 25.0
     Hp: 40
     MetaLevel: 5
-    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     ShieldCapacityMultiplier: 0.8500000238418579
@@ -84,12 +69,9 @@ items:
     published: true
     volume: 5.0
   Type-D Restrained Shield Flux Coil:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
     Hp: 40
     MetaLevel: 1
-    PowerOutputMultiplier: 1.0
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 0.8999999761581421

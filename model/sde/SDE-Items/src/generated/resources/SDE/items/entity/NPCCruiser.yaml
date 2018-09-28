@@ -10,12 +10,12 @@ items:
     published: false
     volume: 120000.0
   ♦ Ashimmu:
-    id: 46054
+    id: 43604
     name: ♦ Ashimmu
     published: false
     volume: 118000.0
   ♦ Augoror:
-    id: 43558
+    id: 43602
     name: ♦ Augoror
     published: false
     volume: 115000.0
@@ -30,7 +30,7 @@ items:
     published: false
     volume: 96000.0
   ♦ Caracal:
-    id: 46581
+    id: 46071
     name: ♦ Caracal
     published: false
     volume: 92000.0
@@ -109,18 +109,23 @@ items:
     name: ♦ Thorax
     published: false
     volume: 112000.0
-  ♦ Vexor:
-    id: 43582
-    name: ♦ Vexor
-    published: false
-    volume: 115000.0
   ♦ Vigilant:
     id: 46059
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  ��� Augoror:
-    id: 43602
-    name: ��� Augoror
+  �� Vexor:
+    id: 43582
+    name: �� Vexor
     published: false
     volume: 115000.0
+  ��� Ashimmu:
+    id: 46054
+    name: ��� Ashimmu
+    published: false
+    volume: 118000.0
+  ��� Caracal:
+    id: 46581
+    name: ��� Caracal
+    published: false
+    volume: 92000.0

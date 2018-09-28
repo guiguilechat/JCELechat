@@ -1,7 +1,6 @@
 items:
   Basic Robotics Blueprint:
     IndustryBlueprintRank: 1.0
-    TechLevel: 1
     id: 29227
     name: Basic Robotics Blueprint
     published: true
@@ -9,7 +8,6 @@ items:
   Cryptic Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 25587
     name: Cryptic Data Interface Blueprint
     published: true
@@ -17,7 +15,6 @@ items:
   Cryptic Ship Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 25858
     name: Cryptic Ship Data Interface Blueprint
     published: true
@@ -25,7 +22,6 @@ items:
   Cryptic Tuner Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 26598
     name: Cryptic Tuner Data Interface Blueprint
     published: true
@@ -33,7 +29,6 @@ items:
   Esoteric Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 25584
     name: Esoteric Data Interface Blueprint
     published: true
@@ -41,7 +36,6 @@ items:
   Esoteric Ship Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 25854
     name: Esoteric Ship Data Interface Blueprint
     published: true
@@ -49,7 +43,6 @@ items:
   Esoteric Tuner Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 26600
     name: Esoteric Tuner Data Interface Blueprint
     published: true
@@ -57,7 +50,6 @@ items:
   Incognito Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 25586
     name: Incognito Data Interface Blueprint
     published: true
@@ -65,7 +57,6 @@ items:
   Incognito Ship Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 25856
     name: Incognito Ship Data Interface Blueprint
     published: true
@@ -73,7 +64,6 @@ items:
   Incognito Tuner Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 26602
     name: Incognito Tuner Data Interface Blueprint
     published: true
@@ -81,7 +71,6 @@ items:
   Occult Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 25585
     name: Occult Data Interface Blueprint
     published: true
@@ -89,7 +78,6 @@ items:
   Occult Ship Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 25852
     name: Occult Ship Data Interface Blueprint
     published: true
@@ -97,7 +85,6 @@ items:
   Occult Tuner Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
-    TechLevel: 1
     id: 26604
     name: Occult Tuner Data Interface Blueprint
     published: true
@@ -105,7 +92,6 @@ items:
   R.A.M.- Ammunition Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11872
     marketGroup: 1918
     name: R.A.M.- Ammunition Tech Blueprint
@@ -114,7 +100,6 @@ items:
   R.A.M.- Armor/Hull Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11873
     marketGroup: 1918
     name: R.A.M.- Armor/Hull Tech Blueprint
@@ -123,7 +108,6 @@ items:
   R.A.M.- Cybernetics Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11860
     name: R.A.M.- Cybernetics Blueprint
     published: true
@@ -131,7 +115,6 @@ items:
   R.A.M.- Electronics Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11870
     marketGroup: 1918
     name: R.A.M.- Electronics Blueprint
@@ -140,7 +123,6 @@ items:
   R.A.M.- Energy Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11859
     marketGroup: 1918
     name: R.A.M.- Energy Tech Blueprint
@@ -149,7 +131,6 @@ items:
   R.A.M.- Robotics Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11887
     marketGroup: 1918
     name: R.A.M.- Robotics Blueprint
@@ -158,7 +139,6 @@ items:
   R.A.M.- Shield Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11889
     marketGroup: 1918
     name: R.A.M.- Shield Tech Blueprint
@@ -167,7 +147,6 @@ items:
   R.A.M.- Starship Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11890
     marketGroup: 1918
     name: R.A.M.- Starship Tech Blueprint
@@ -176,7 +155,6 @@ items:
   R.A.M.- Weapon Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
-    TechLevel: 1
     id: 11891
     marketGroup: 1918
     name: R.A.M.- Weapon Tech Blueprint
@@ -185,7 +163,6 @@ items:
   R.Db - Boundless Creations Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11876
     marketGroup: 1919
     name: R.Db - Boundless Creations Blueprint
@@ -194,7 +171,6 @@ items:
   R.Db - Carthum Conglomerate Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11880
     marketGroup: 1919
     name: R.Db - Carthum Conglomerate Blueprint
@@ -203,7 +179,6 @@ items:
   R.Db - Core Complexion Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11877
     marketGroup: 1919
     name: R.Db - Core Complexion Blueprint
@@ -212,7 +187,6 @@ items:
   R.Db - CreoDron Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11878
     marketGroup: 1919
     name: R.Db - CreoDron Blueprint
@@ -221,7 +195,6 @@ items:
   R.Db - Duvolle Labs Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11879
     marketGroup: 1919
     name: R.Db - Duvolle Labs Blueprint
@@ -230,7 +203,6 @@ items:
   R.Db - Ishukone Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11885
     marketGroup: 1919
     name: R.Db - Ishukone Blueprint
@@ -239,7 +211,6 @@ items:
   R.Db - Kaalakiota Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11881
     marketGroup: 1919
     name: R.Db - Kaalakiota Blueprint
@@ -248,7 +219,6 @@ items:
   R.Db - Khanid Innovation Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11882
     marketGroup: 1919
     name: R.Db - Khanid Innovation Blueprint
@@ -257,7 +227,6 @@ items:
   R.Db - Lai Dai Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11886
     marketGroup: 1919
     name: R.Db - Lai Dai Blueprint
@@ -266,7 +235,6 @@ items:
   R.Db - Roden Shipyards Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11857
     marketGroup: 1919
     name: R.Db - Roden Shipyards Blueprint
@@ -275,7 +243,6 @@ items:
   R.Db - Thukker Mix Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11883
     marketGroup: 1919
     name: R.Db - Thukker Mix Blueprint
@@ -284,7 +251,6 @@ items:
   R.Db - Viziam Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
-    TechLevel: 1
     id: 11884
     marketGroup: 1919
     name: R.Db - Viziam Blueprint

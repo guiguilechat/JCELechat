@@ -57,7 +57,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	private static HashMap<String, Integer> requestedURLs = new HashMap<>();
 
 	public static Map<String, Integer> getRequestedURls() {
-		return Collections.unmodifiableMap(requestedURLs);
+		synchronized (requestedURLs) {
+			return new HashMap<>(requestedURLs);
+		}
 	}
 
 	/**
@@ -65,13 +67,22 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * at the end.
 	 */
 	public static List<Entry<String, Integer>> sortedUrls() {
-		ArrayList<Entry<String, Integer>> list = new ArrayList<>(requestedURLs.entrySet());
+		ArrayList<Entry<String, Integer>> list;
+		synchronized (requestedURLs) {
+			list = new ArrayList<>(requestedURLs.entrySet());
+		}
 		Collections.sort(list, (e1, e2) -> e1.getValue() - e2.getValue());
 		return list;
 	}
 
 	public static void clearRequestedURls() {
 		requestedURLs.clear();
+	}
+
+	public static double nbRequestedUrls() {
+		synchronized (requestedURLs) {
+			return requestedURLs.values().stream().mapToInt(i -> i).sum();
+		}
 	}
 
 	/**

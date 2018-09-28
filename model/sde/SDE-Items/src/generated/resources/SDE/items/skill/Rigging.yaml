@@ -5,7 +5,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26253
     marketGroup: 372
     name: Armor Rigging
@@ -17,7 +17,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26254
     marketGroup: 372
     name: Astronautics Rigging
@@ -29,7 +29,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26255
     marketGroup: 372
     name: Drones Rigging
@@ -41,7 +41,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26256
     marketGroup: 372
     name: Electronic Superiority Rigging
@@ -53,7 +53,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26258
     marketGroup: 372
     name: Energy Weapon Rigging
@@ -65,7 +65,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26259
     marketGroup: 372
     name: Hybrid Weapon Rigging
@@ -77,7 +77,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: 10
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 26252
     marketGroup: 372
     name: Jury Rigging
@@ -89,7 +89,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26260
     marketGroup: 372
     name: Launcher Rigging
@@ -101,7 +101,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26257
     marketGroup: 372
     name: Projectile Weapon Rigging
@@ -113,7 +113,7 @@ items:
     RequiredSkill1Level: 3
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 26261
     marketGroup: 372
     name: Shield Rigging

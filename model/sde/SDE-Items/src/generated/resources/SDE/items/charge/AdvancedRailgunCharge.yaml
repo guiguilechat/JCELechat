@@ -5,12 +5,9 @@ items:
     KineticDamage: 24.0
     LauncherGroup: 74
     MainColor: 11835778
-    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12207
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 32.0
     TrackingSpeedMultiplier: 1.25
@@ -26,12 +23,9 @@ items:
     KineticDamage: 12.0
     LauncherGroup: 74
     MainColor: 11835778
-    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12206
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 16.0
     TrackingSpeedMultiplier: 1.25
@@ -47,12 +41,9 @@ items:
     KineticDamage: 6.0
     LauncherGroup: 74
     MainColor: 11835778
-    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 11082
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 1.25
@@ -68,12 +59,9 @@ items:
     KineticDamage: 48.0
     LauncherGroup: 74
     MainColor: 11835778
-    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 41406
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 64.0
     TrackingSpeedMultiplier: 1.25
@@ -89,12 +77,9 @@ items:
     KineticDamage: 16.0
     LauncherGroup: 74
     MainColor: 11835778
-    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12207
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 16.0
     TrackingSpeedMultiplier: 0.25
@@ -110,12 +95,9 @@ items:
     KineticDamage: 8.0
     LauncherGroup: 74
     MainColor: 11835778
-    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 12206
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 0.25
@@ -131,12 +113,9 @@ items:
     KineticDamage: 4.0
     LauncherGroup: 74
     MainColor: 11835778
-    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 11082
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 4.0
     TrackingSpeedMultiplier: 0.25
@@ -152,12 +131,9 @@ items:
     KineticDamage: 32.0
     LauncherGroup: 74
     MainColor: 11835778
-    MaxVelocityModifier: 1.0
     MetaLevel: 5
     RequiredSkill1: 41406
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 32.0
     TrackingSpeedMultiplier: 0.25

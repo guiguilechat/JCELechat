@@ -4,7 +4,7 @@ items:
     CorporationMemberBonus: 20
     PrimaryAttribute: 166
     SecondaryAttribute: 164
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3363
     marketGroup: 365
     name: Corporation Management
@@ -19,7 +19,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillAllyCostModifierBonus: -5
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3368
     marketGroup: 365
     name: Diplomatic Relations
@@ -33,7 +33,7 @@ items:
     RequiredSkill1: 3731
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 3732
     marketGroup: 365
     name: Empire Control
@@ -47,7 +47,7 @@ items:
     RequiredSkill1: 3363
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3731
     marketGroup: 365
     name: Megacorp Management
@@ -61,7 +61,7 @@ items:
     RequiredSkill1: 3732
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 12241
     marketGroup: 365
     name: Sovereignty
