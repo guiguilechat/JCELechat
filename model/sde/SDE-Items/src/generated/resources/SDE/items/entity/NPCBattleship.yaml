@@ -19,11 +19,6 @@ items:
     name: ♦ Dominix
     published: false
     volume: 454500.0
-  ♦ Infested Dominix:
-    id: 43650
-    name: ♦ Infested Dominix
-    published: false
-    volume: 1010000.0
   ♦ Machariel:
     id: 46063
     name: ♦ Machariel
@@ -72,5 +67,10 @@ items:
   ♦ test_boss:
     id: 47198
     name: ♦ test_boss
+    published: false
+    volume: 1010000.0
+  ��� Infested Dominix:
+    id: 43650
+    name: ��� Infested Dominix
     published: false
     volume: 1010000.0

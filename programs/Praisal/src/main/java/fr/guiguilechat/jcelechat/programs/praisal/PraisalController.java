@@ -7,7 +7,7 @@ import java.util.Map.Entry;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
-import fr.guiguilechat.jcelechat.model.sde.industry.Usage;
+import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
@@ -173,7 +173,7 @@ public class PraisalController {
 
 	public DoubleBinding reprocessValue(Item item, int qtty, Property<RegionalMarket> marketholder, DoubleProperty tax,
 			DoubleProperty volumicprice) {
-		Usage usage = Usage.load().get(item.name);
+		IndustryUsage usage = IndustryUsage.load().get(item.name);
 		double totalVol = 0;
 		DoubleBinding totalPrice = new DoubleBinding() {
 

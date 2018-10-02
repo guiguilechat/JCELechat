@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
-import fr.guiguilechat.jcelechat.model.sde.industry.Usage;
+import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionTypeID;
@@ -84,7 +84,7 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
 				double ret = 0;
-				for (Entry<String, Integer> e : Usage.load().get(ItemIndex.getItem(typeID).name).reprocess.entrySet()) {
+				for (Entry<String, Integer> e : IndustryUsage.load().get(ItemIndex.getItem(typeID).name).reprocess.entrySet()) {
 					Material mat = (Material) ItemIndex.getItem(e.getKey());
 					double matval = controller.matReprocess(mat) * BO.value(mat.id, controller);
 					ret += matval;
@@ -96,7 +96,7 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
 				double ret = 0;
-				for (Entry<String, Integer> e : Usage.load().get(ItemIndex.getItem(typeID).name).reprocess.entrySet()) {
+				for (Entry<String, Integer> e : IndustryUsage.load().get(ItemIndex.getItem(typeID).name).reprocess.entrySet()) {
 					Material mat = (Material) ItemIndex.getItem(e.getKey());
 					double matval = controller.matReprocess(mat) * MONTH.value(mat.id, controller);
 					ret += matval;

@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
-import fr.guiguilechat.jcelechat.model.sde.industry.Usage;
+import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.items.types.decryptors.GenericDecryptor;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporationTrades;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvTypeMaterials;
@@ -50,7 +50,7 @@ public class IndustryTranslater {
 
 		LinkedHashMap<String, Blueprint> blueprints = new LinkedHashMap<>();
 		LinkedHashMap<String, InventionDecryptor> decryptors = new LinkedHashMap<>();
-		LinkedHashMap<String, Usage> usages = new LinkedHashMap<>();
+		LinkedHashMap<String, IndustryUsage> usages = new LinkedHashMap<>();
 
 		translate(blueprints, decryptors, usages);
 
@@ -69,14 +69,14 @@ public class IndustryTranslater {
 
 		Blueprint.export(blueprints, folderOut);
 		InventionDecryptor.export(decryptors, folderOut);
-		Usage.export(usages, folderOut);
+		IndustryUsage.export(usages, folderOut);
 
 		System.err.println("exported industry in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 
 	}
 
 	private static void translate(LinkedHashMap<String, Blueprint> blueprints,
-			LinkedHashMap<String, InventionDecryptor> decryptors, LinkedHashMap<String, Usage> usages) {
+			LinkedHashMap<String, InventionDecryptor> decryptors, LinkedHashMap<String, IndustryUsage> usages) {
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
 		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID).collect(Collectors.toSet());
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
@@ -102,9 +102,9 @@ public class IndustryTranslater {
 				System.err.println("can't find item " + e.getKey() + " that reprocess in " + e.getValue());
 				continue;
 			}
-			Usage usage = usages.get(inputMat.enName());
+			IndustryUsage usage = usages.get(inputMat.enName());
 			if (usage == null) {
-				usage = new Usage();
+				usage = new IndustryUsage();
 				usages.put(inputMat.enName(), usage);
 			}
 			int catID = EgroupIDs.load().get(inputMat.groupID).categoryID;
@@ -128,10 +128,10 @@ public class IndustryTranslater {
 		}
 
 		// sort the usages by item name
-		ArrayList<Entry<String, Usage>> l = new ArrayList<>(usages.entrySet());
+		ArrayList<Entry<String, IndustryUsage>> l = new ArrayList<>(usages.entrySet());
 		Collections.sort(l, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
 		usages.clear();
-		for (Entry<String, Usage> e : l) {
+		for (Entry<String, IndustryUsage> e : l) {
 			usages.put(e.getKey(), e.getValue());
 		}
 	}
@@ -209,7 +209,7 @@ public class IndustryTranslater {
 		return ret;
 	}
 
-	public static void addUsages(Blueprint bp, Map<String, Usage> usages) {
+	public static void addUsages(Blueprint bp, Map<String, IndustryUsage> usages) {
 		addUsages(bp.name, usages, bp.manufacturing.products, u -> u.productManuf);
 		addUsages(bp.name, usages, bp.manufacturing.materials, u -> u.materialManuf);
 		addUsages(bp.name, usages, bp.copying.materials, u -> u.materialCopy);
@@ -219,12 +219,12 @@ public class IndustryTranslater {
 		addUsages(bp.name, usages, bp.research_time.materials, u -> u.materialTE);
 	}
 
-	protected static void addUsages(String name, Map<String, Usage> usages, List<? extends MaterialReq> materials,
-			Function<Usage, Set<String>> categorizer) {
+	protected static void addUsages(String name, Map<String, IndustryUsage> usages, List<? extends MaterialReq> materials,
+			Function<IndustryUsage, Set<String>> categorizer) {
 		for (MaterialReq m : materials) {
-			Usage u = usages.get(m.name);
+			IndustryUsage u = usages.get(m.name);
 			if (u == null) {
-				u = new Usage();
+				u = new IndustryUsage();
 				usages.put(m.name, u);
 			}
 			categorizer.apply(u).add(name);

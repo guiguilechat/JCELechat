@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_insurance_
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
-import fr.guiguilechat.jcelechat.model.sde.industry.Usage;
+import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.MetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.items.attributes.TechLevel;
@@ -216,7 +216,7 @@ public class InsuranceFraudController {
 		System.err.println("reprocess values : ");
 		for (int i = 0; i < asteroids.size(); i++) {
 			Asteroid astero = asteroids.get(i);
-			Usage u = Usage.load().get(astero.name);
+			IndustryUsage u = IndustryUsage.load().get(astero.name);
 			for (int j = 0; j < minerals.length; j++) {
 				reproc2[i][j] = u.reprocess.getOrDefault(minerals[j], 0) / astero.volume;
 			}
@@ -283,7 +283,7 @@ public class InsuranceFraudController {
 			return item2craftQtty.get(name);
 		}
 		CraftCost ret = null;
-		Usage usage = Usage.load().get(name);
+		IndustryUsage usage = IndustryUsage.load().get(name);
 		if (usage != null && usage.productManuf.size() != 0) {
 			String bponame = usage.productManuf.iterator().next();
 			Blueprint bpo = Blueprint.load().get(bponame);

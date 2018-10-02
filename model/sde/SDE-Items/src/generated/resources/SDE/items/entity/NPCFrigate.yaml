@@ -120,7 +120,7 @@ items:
     published: false
     volume: 17500.0
   ♦ Merlin:
-    id: 46070
+    id: 43566
     name: ♦ Merlin
     published: false
     volume: 16500.0
@@ -159,6 +159,11 @@ items:
     name: ♦ Succubus
     published: false
     volume: 28600.0
+  ♦ Swordspine:
+    id: 43634
+    name: ♦ Swordspine
+    published: false
+    volume: 21120.0
   ♦ Tormentor:
     id: 42841
     name: ♦ Tormentor
@@ -199,8 +204,13 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  �� Swordspine:
-    id: 43634
-    name: �� Swordspine
+  �� Cruor:
+    id: 43600
+    name: �� Cruor
     published: false
-    volume: 21120.0
+    volume: 28600.0
+  �� Merlin:
+    id: 46070
+    name: �� Merlin
+    published: false
+    volume: 16500.0

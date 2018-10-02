@@ -12,15 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 import fr.guiguilechat.jcelechat.model.sde.yaml.CleanRepresenter;
 import fr.guiguilechat.jcelechat.model.sde.yaml.YAMLTools;
 
-public class Usage {
+public class IndustryUsage {
 
 	// loading/dumping
 
-	private static LinkedHashMap<String, Usage> cache = null;
+	private static LinkedHashMap<String, IndustryUsage> cache = null;
 
 	public static final String RESOURCE_PATH = "SDE/industry/usages.yaml";
 
-	public static synchronized LinkedHashMap<String, Usage> load() {
+	public static synchronized LinkedHashMap<String, IndustryUsage> load() {
 		if (cache == null) {
 			try {
 				cache = new Yaml().loadAs(
@@ -33,7 +33,7 @@ public class Usage {
 		return cache;
 	}
 
-	public static void export(LinkedHashMap<String, Usage> data, File folderout) {
+	public static void export(LinkedHashMap<String, IndustryUsage> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
 		output.delete();
@@ -47,7 +47,7 @@ public class Usage {
 	}
 
 	private static final class Container {
-		public LinkedHashMap<String, Usage> usages;
+		public LinkedHashMap<String, IndustryUsage> usages;
 	}
 
 	// structure

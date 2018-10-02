@@ -632,11 +632,11 @@ items:
     name: Internal Policies
     published: true
     volume: 1.0
-  Jezaja’s Giant Secure Container:
+  Jezaja��s Giant Secure Container:
     CpuMultiplier: 1.0
     id: 44205
     marketGroup: 1661
-    name: Jezaja’s Giant Secure Container
+    name: Jezaja��s Giant Secure Container
     published: true
     volume: 3.0
   Jin-Mei Silk Cord:
@@ -1269,6 +1269,13 @@ items:
     name: YC118 Succession Trial Champion’s Decree – House Khanid
     published: true
     volume: 0.01
+  YC118 Succession Trial Champion’s Decree – House Kor-Azor:
+    CpuMultiplier: 1.0
+    id: 37895
+    marketGroup: 1661
+    name: YC118 Succession Trial Champion’s Decree – House Kor-Azor
+    published: true
+    volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Sarum:
     CpuMultiplier: 1.0
     id: 37896
@@ -1281,13 +1288,6 @@ items:
     id: 37889
     marketGroup: 1661
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
-    published: true
-    volume: 0.01
-  YC118 Succession Trial Champion��s Decree – House Kor-Azor:
-    CpuMultiplier: 1.0
-    id: 37895
-    marketGroup: 1661
-    name: YC118 Succession Trial Champion��s Decree – House Kor-Azor
     published: true
     volume: 0.01
   Yoiul Festival Fireworks Package:

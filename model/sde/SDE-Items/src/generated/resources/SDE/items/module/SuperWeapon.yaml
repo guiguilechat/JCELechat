@@ -296,7 +296,7 @@ items:
     name: ‘Cold Wind’ Kinetic Reaper
     published: true
     volume: 8000.0
-  ‘Divine Harvest’ Electromagnetic Reaper:
+  ‘Divine Harvest��� Electromagnetic Reaper:
     CanCloak: 1
     CanFitShipType1: 11567
     CanFitShipType2: 42241
@@ -339,7 +339,7 @@ items:
     TechLevel: 1
     id: 40632
     marketGroup: 2267
-    name: ‘Divine Harvest’ Electromagnetic Reaper
+    name: ‘Divine Harvest��� Electromagnetic Reaper
     published: true
     volume: 8000.0
   ‘Geiravor’ Explosive Lance:
@@ -482,7 +482,7 @@ items:
     name: ‘Holy Destiny’ Electromagnetic Lance
     published: true
     volume: 8000.0
-  ‘Iron Pike��� Kinetic Lance:
+  ‘Iron Pike’ Kinetic Lance:
     CanCloak: 1
     CanFitShipType1: 3764
     CanFitShipType2: 45649
@@ -525,7 +525,7 @@ items:
     TechLevel: 1
     id: 41439
     marketGroup: 2268
-    name: ‘Iron Pike��� Kinetic Lance
+    name: ‘Iron Pike’ Kinetic Lance
     published: true
     volume: 8000.0
   ‘Jormungandr’ Explosive Reaper:
