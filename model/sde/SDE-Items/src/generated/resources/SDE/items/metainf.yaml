@@ -20639,9 +20639,9 @@ id2name:
   33852: Sentient Drone Navigation Computer
   33856: Expedition Frigates
   33857: 泰坦会战遗址
-  33858: 泰坦会战纪���碑
+  33858: 泰坦会战纪念碑
   33864: Mordu’s Special Warfare Unit Operative
-  33865: Mordu’s Special Warfare Unit Specialist
+  33865: Mordu���s Special Warfare Unit Specialist
   33866: Mordu’s Special Warfare Unit Commander
   33867: Thukker Component Assembly Array
   33868: Thukker Component Assembly Array Blueprint
@@ -21181,26 +21181,26 @@ id2name:
   34458: 末日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
-  34461: 马克瑞级YC117年特别��
+  34461: 马克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
-  34463: 响尾蛇级YC117年特别版
+  34463: 响尾蛇级YC117年特别���
   34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
-  34466: 多��尼克斯级YC117年特别版蓝图
+  34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
   34469: 乌鸦级YC117年特别版
   34470: 乌鸦级YC117年特别版蓝图
-  34471: 灾难级YC117年特别版
-  34472: 灾难级YC117���特别版蓝图
+  34471: 灾难级YC117年特别���
+  34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
-  34474: 幼龙���YC117年特别版蓝图
+  34474: 幼龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
-  34476: 毒蜥级YC117年特别版��图
+  34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
-  34478: 银鹰级YC117年特别版蓝图
+  34478: 银鹰级YC117年特别版蓝���
   34479: 伊什塔级YC117年特别版
-  34480: 伊什塔级YC117年特别版蓝图
+  34480: 伊��塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
   34485: ORE Reinforced Bulkheads
@@ -26552,7 +26552,7 @@ id2name:
   40625: Charon Matigu Seabeast SKIN (Permanent)
   40626: Rhea Matigu Seabeast SKIN (Permanent)
   40631: ‘Holy Destiny’ Electromagnetic Lance
-  40632: ‘Divine Harvest��� Electromagnetic Reaper
+  40632: ‘Divine Harvest’ Electromagnetic Reaper
   40633: Bosonic Field Generator
   40634: Gravitational Transportation Field Oscillator
   40635: Stasis Webification Burst Projector
@@ -26915,7 +26915,7 @@ id2name:
   41032: Denny Enduring Omnidirectional Tracking Link
   41033: N-JM Compact Omnidirectional Tracking Enhancer
   41034: AE-K Compact Drone Damage Amplifier
-  41035: 未来���类纪念章
+  41035: 未来人类纪念章
   41036: Men's 'Boneweld' Facial Augmentation
   41038: Republic Fleet Stasis Webifier
   41040: Heavy Stasis Grappler I
@@ -27297,7 +27297,7 @@ id2name:
   41438: Gravitational Transportation Field Oscillator Blueprint
   41439: ‘Iron Pike’ Kinetic Lance
   41440: ‘Phalarica’ Thermal Lance
-  41441: ‘Geiravor’ Explosive Lance
+  41441: ��Geiravor’ Explosive Lance
   41442: ‘Cold Wind’ Kinetic Reaper
   41443: ‘Guillotine’ Thermal Reaper
   41444: ‘Jormungandr’ Explosive Reaper
@@ -27305,7 +27305,7 @@ id2name:
   41446: ‘Iron Pike’ Kinetic Lance Blueprint
   41447: ‘Phalarica’ Thermal Lance Blueprint
   41448: ‘Geiravor’ Explosive Lance Blueprint
-  41449: ‘Cold Wind’ Kinetic Reaper Blueprint
+  41449: ‘Cold Wind��� Kinetic Reaper Blueprint
   41450: ‘Guillotine’ Thermal Reaper Blueprint
   41451: ‘Jormungandr’ Explosive Reaper Blueprint
   41452: ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -27400,7 +27400,7 @@ id2name:
   41567: Hangar Container
   41573: Astrahus Citadel
   41575: 'Women''s “Mirelle” Upwell Executive Spectacles '
-  41576: Men's ���Mirelle” Upwell Executive Spectacles
+  41576: Men's “Mirelle” Upwell Executive Spectacles
   41579: Capsule Upwell SKIN (Permanent)
   41580: Capsule Palatine SKIN (Permanent)
   41581: Astrahus Lights On
@@ -29217,10 +29217,10 @@ id2name:
   43597: ♦ Inquisitor
   43598: ♦ Executioner
   43599: ♦ Crucifier
-  43600: �� Cruor
+  43600: ♦ Cruor
   43601: ♦ Omen
   43602: ♦ Augoror
-  43603: �� Arbitrator
+  43603: ♦ Arbitrator
   43604: ♦ Ashimmu
   43605: ♦ Apocalypse
   43606: ♦ Bhaalgorn
@@ -29249,16 +29249,16 @@ id2name:
   43636: ♦ Medusa
   43638: ♦ Lynx
   43640: Empire Civilian Container
-  43641: �� Cynabal
+  43641: ♦ Cynabal
   43642: ♦ Ixion
-  43643: ♦ Machariel
+  43643: �� Machariel
   43644: Barracuda Drone
   43645: Atomizer Drone
   43646: Infester Drone
   43647: Splinter Drone
   43648: Sunder Drone
   43649: ♦ Annihilator Drone
-  43650: ��� Infested Dominix
+  43650: ♦ Infested Dominix
   43653: ♦ Succubus
   43654: ♦ Ravener
   43655: ♦ Imp
@@ -29709,7 +29709,7 @@ id2name:
   44202: Rifter test fix
   44203: Merlin Sukuuvestaa SKIN (Permanent)
   44204: 300 Aurum Token
-  44205: Jezaja��s Giant Secure Container
+  44205: Jezaja’s Giant Secure Container
   44206: A Letter Of Complaint
   44207: Kor-Azor Family Decree
   44208: Forged Frigate Blueprints
@@ -31094,7 +31094,7 @@ id2name:
   46067: ♦ Omen
   46068: ♦ Harbinger
   46069: ♦ Apocalypse
-  46070: �� Merlin
+  46070: ��� Merlin
   46071: ♦ Caracal
   46072: ♦ Drake
   46073: ♦ Raven
@@ -35691,7 +35691,7 @@ id2name:
   367457: '''Enkidu'' Sentinel G-I+'
   367472: Militia Flaylock Pistol
   367477: Kubo’s GMK-16 Plasma Cannon
-  367489: Beacon��s ELI-74 Swarm Launcher
+  367489: Beacon’s ELI-74 Swarm Launcher
   367499: Skill Tree Reset and Refund
   367500: Symb's FORK-5 Sniper Rifle
   367502: Agimus' Modified AGO-56 Mass Driver
@@ -39340,7 +39340,7 @@ name2group:
   Battery Cartridge: commodity/Miscellaneous
   Battlement Accesscard: commodity/AccelerationGateKeys
   Bazeri Palen: entity/StorylineMissionBattleship
-  Beacon��s ELI-74 Swarm Launcher: infantry/InfantryWeapons
+  Beacon’s ELI-74 Swarm Launcher: infantry/InfantryWeapons
   Beelzebub Apis: entity/DeadspaceRogueDroneSwarm
   Beelzebub Drone: entity/AsteroidRogueDroneSwarm
   Bellicose: ship/Cruiser
@@ -48504,7 +48504,7 @@ name2group:
   Jerpam Hollek: entity/StorylineMissionCruiser
   Jerpam Hollek's Head: commodity/Commodities
   Jet Ochre: asteroid/DarkOchre
-  Jezaja��s Giant Secure Container: specialeditionassets/SpecialEditionCommodities
+  Jezaja’s Giant Secure Container: specialeditionassets/SpecialEditionCommodities
   Jhelom Marek: entity/MissionGenericFrigates
   Jihar Okham: entity/StorylineMissionCruiser
   Jin-Mei Silk Cord: specialeditionassets/SpecialEditionCommodities
@@ -51131,7 +51131,7 @@ name2group:
   Men's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Liberator’ Cap (Minmatar Republic): apparel/Headwear
   Men's ‘Protector’ Beret (Caldari State): apparel/Headwear
-  Men's ���Mirelle” Upwell Executive Spectacles: apparel/Eyewear
+  Men's “Mirelle” Upwell Executive Spectacles: apparel/Eyewear
   Men’s ‘Crusader’ Beret (Amarr Empire): apparel/Headwear
   Mercenary Commander: entity/MissionGenericCruisers
   Mercenary Corporal: entity/MissionGenericCruisers
@@ -51980,7 +51980,7 @@ name2group:
   Mordus Squad Leader: entity/MissionMorduFrigate
   Mordu’s Special Warfare Unit Commander: entity/AsteroidMordusLegionCommanderBattleship
   Mordu’s Special Warfare Unit Operative: entity/AsteroidMordusLegionCommanderFrigate
-  Mordu’s Special Warfare Unit Specialist: entity/AsteroidMordusLegionCommanderCruiser
+  Mordu���s Special Warfare Unit Specialist: entity/AsteroidMordusLegionCommanderCruiser
   Moros: ship/Dreadnought
   Moros Blueprint: blueprint/DreadnoughtBlueprint
   Moros Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -61221,10 +61221,9 @@ name2group:
   weapon_container: entity/SpawnContainer
   wrecktest: worldspace/WorldSpace
   ‘Cold Wind’ Kinetic Reaper: module/SuperWeapon
-  ‘Cold Wind’ Kinetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Cold Wind��� Kinetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Divine Harvest’ Electromagnetic Reaper: module/SuperWeapon
   ‘Divine Harvest’ Electromagnetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
-  ‘Divine Harvest��� Electromagnetic Reaper: module/SuperWeapon
-  ‘Geiravor’ Explosive Lance: module/SuperWeapon
   ‘Geiravor’ Explosive Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Guillotine’ Thermal Reaper: module/SuperWeapon
   ‘Guillotine’ Thermal Reaper Blueprint: blueprint/SuperWeaponBlueprint
@@ -61278,6 +61277,7 @@ name2group:
   ♦ Imp: entity/NPCFrigate
   ♦ Impel: entity/NPCMiningHauler
   ♦ Incursus: entity/NPCFrigate
+  ♦ Infested Dominix: entity/NPCBattleship
   ♦ Inquisitor: entity/NPCFrigate
   ♦ Iteron Mark V: entity/NPCMiningHauler
   ♦ Ixion: entity/NPCCruiser
@@ -61333,18 +61333,16 @@ name2group:
   ♦ test_ewar: entity/NPCFrigate
   万王宝座级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   乌鸦级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  伊什塔级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  伊��塔级YC117年特别版蓝图: blueprint/CruiserBlueprint
   响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  多��尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  幼龙���YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
+  多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
   末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  毒蜥级YC117年特别版��图: blueprint/CruiserBlueprint
-  灾难级YC117���特别版蓝图: blueprint/BattleshipBlueprint
-  银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  银鹰级YC117年特别版蓝���: blueprint/CruiserBlueprint
   马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  �� Arbitrator: entity/NPCCruiser
-  �� Cruor: entity/NPCFrigate
-  �� Cynabal: entity/NPCCruiser
-  �� Merlin: entity/NPCFrigate
-  ��� Infested Dominix: entity/NPCBattleship
+  �� Machariel: entity/NPCBattleship
+  ��Geiravor’ Explosive Lance: module/SuperWeapon
+  ��� Merlin: entity/NPCFrigate

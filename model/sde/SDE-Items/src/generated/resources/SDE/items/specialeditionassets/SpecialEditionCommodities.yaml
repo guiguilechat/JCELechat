@@ -632,11 +632,11 @@ items:
     name: Internal Policies
     published: true
     volume: 1.0
-  Jezaja��s Giant Secure Container:
+  Jezaja’s Giant Secure Container:
     CpuMultiplier: 1.0
     id: 44205
     marketGroup: 1661
-    name: Jezaja��s Giant Secure Container
+    name: Jezaja’s Giant Secure Container
     published: true
     volume: 3.0
   Jin-Mei Silk Cord:

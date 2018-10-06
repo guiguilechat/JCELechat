@@ -7457,7 +7457,7 @@ usages:
   Apocalypse:
     materialManuf: !!set
       Paladin Blueprint: null
-      灾难级YC117���特别版蓝图: null
+      灾难级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Apocalypse Blueprint: null
@@ -29988,7 +29988,7 @@ usages:
   Dominix:
     materialManuf: !!set
       Sin Blueprint: null
-      多��尼克斯级YC117年特别版蓝图: null
+      多米尼克斯���YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Dominix Blueprint: null
@@ -30294,7 +30294,7 @@ usages:
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
-      幼龙���YC117年特别版蓝图: null
+      ��龙级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Drake Blueprint: null
@@ -38002,7 +38002,7 @@ usages:
       Zydrine: 72
   Gila:
     materialManuf: !!set
-      毒蜥级YC117年特别版��图: null
+      ���蜥级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Gila Blueprint: null
@@ -108161,7 +108161,7 @@ usages:
       Nocxium: 334137
       Zydrine: 42474
       Megacyte: 48231
-  ‘Divine Harvest��� Electromagnetic Reaper:
+  ‘Divine Harvest’ Electromagnetic Reaper:
     maxreprocess: 0.55
     productManuf: !!set
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
@@ -108297,13 +108297,13 @@ usages:
   多米尼克斯级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      多��尼克斯级YC117年特别版蓝图: null
+      多米尼克斯���YC117年特别版蓝图: null
     reprocess:
       Dominix: 1
   幼龙级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      幼龙���YC117年特别版蓝图: null
+      ��龙级YC117年特别版蓝图: null
     reprocess:
       Drake: 1
   末日沙场级YC117年特别版:
@@ -108315,22 +108315,22 @@ usages:
   毒蜥级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      毒蜥级YC117年特别版��图: null
+      ���蜥级YC117年特别版蓝图: null
     reprocess:
       Gila: 1
   灾难级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      灾难级YC117���特别版蓝图: null
+      灾难级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
-  银鹰级YC117年特别版:
+  银鹰级YC117年特��版:
     maxreprocess: 0.55
     productManuf: !!set
       银鹰级YC117年特别版蓝图: null
     reprocess:
       Eagle: 1
-  马克瑞级YC117年特别��:
+  马克瑞级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       马克瑞级YC117年特别版蓝图: null
