@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.moonworth;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -33,6 +35,8 @@ import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.scene.Cursor;
+import javafx.scene.Node;
+import javafx.scene.chart.Chart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
@@ -40,11 +44,14 @@ import javafx.scene.chart.XYChart.Data;
 import javafx.scene.chart.XYChart.Series;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.TilePane;
 
 public class MoonWorthController {
 
@@ -125,6 +132,8 @@ public class MoonWorthController {
 
 	private LineChart<Number, Number> moonchart;
 
+	private ScrollPane scrollPane;
+
 	@FXML
 	private TextField datalimit;
 
@@ -184,7 +193,37 @@ public class MoonWorthController {
 		yAxis.setLabel("isk (M)");
 		moonchart = new LineChart<>(xAxis, yAxis);
 		pane.setCenter(moonchart);
-		moonchart.setLegendVisible(false);
+		Method m;
+		try {
+			// use reflexion to embed the legend pane into a scrollpane of 100 px max
+			m = Chart.class.getDeclaredMethod("getLegend");
+			m.setAccessible(true);
+			TilePane legend = (TilePane) m.invoke(moonchart);
+			if (legend != null) {
+				scrollPane = new ScrollPane(legend);
+				scrollPane.setHbarPolicy(ScrollBarPolicy.NEVER);
+				scrollPane.setVbarPolicy(ScrollBarPolicy.AS_NEEDED);
+				legend.setPrefHeight(100);
+				scrollPane.maxWidthProperty().bind(legend.widthProperty());
+				legend.setMaxWidth(540);
+				scrollPane.setPrefSize(560, 100);
+				scrollPane.setMaxHeight(100);
+				m = Chart.class.getDeclaredMethod("setLegend", Node.class);
+				m.setAccessible(true);
+				m.invoke(moonchart, scrollPane);
+			}
+		} catch (NoSuchMethodException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		} catch (SecurityException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		} catch (IllegalAccessException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		} catch (IllegalArgumentException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		} catch (InvocationTargetException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+		// moonchart.setLegendVisible(false);
 		moonchart.getStyleClass().add("thick-chart");
 
 		new Thread(this::load).start();
@@ -231,10 +270,6 @@ public class MoonWorthController {
 				}
 			}
 		}
-		// System.err.println("data after update :");
-		// data.values().stream().flatMap(m -> m.values().stream()).flatMap(m ->
-		// m.values().stream())
-		// .forEach(System.err::println);
 		updateChart();
 	}
 
@@ -278,7 +313,6 @@ public class MoonWorthController {
 	}
 
 	protected void updateChart() {
-		// System.err.println("\nmaking chart\n");
 		moonchart.getData().clear();
 		Evaluator eval = evalSelector.getSelectionModel().getSelectedItem();
 		if (data.isEmpty() || eval == null) {
@@ -291,9 +325,6 @@ public class MoonWorthController {
 				Asteroid compressed = (Asteroid) ItemIndex.getItem(ast.attribute(CompressionTypeID.INSTANCE).intValue());
 				double compressionRequired = ast.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
 				double volumicprice2 = eval.value(compressed.id, this) / ast.volume / compressionRequired;
-				// System.err.println(
-				// "asteroid " + ast + " volume " + ast.volume + " volprice " +
-				// volumicPrice + " volprice2 " + volumicprice2);
 				if (volumicprice2 > volumicPrice) {
 					volumicPrice = volumicprice2;
 				}
@@ -301,7 +332,6 @@ public class MoonWorthController {
 			}
 			volumicPrices.put(ast, volumicPrice);
 		});
-		// System.err.println("volumic prices is " + volumicPrices);
 		HashMap<Series<Number, Number>, Double> seriesToYield = new HashMap<>();
 		filteredMoons().forEach(e -> {
 			Map<Asteroid, Double> asteroval = e.getValue();
@@ -312,27 +342,19 @@ public class MoonWorthController {
 			for (Entry<Asteroid, Double> astEntry : asteroval.entrySet()) {
 				double volume = 100 * 50000 * astEntry.getValue();
 				Double volumicPrice = volumicPrices.get(astEntry.getKey());
-				// System.err.println("volume for " + astEntry.getKey() + " is " +
-				// volume + " ; volprice is " + volumicPrice);
 				volumicPriceToVol.put(volumicPrice, volume + volumicPriceToVol.getOrDefault(volumicPrice, 0.0));
 			}
 			DoubleProperty totalVol = new SimpleDoubleProperty(0);
 			DoubleProperty totalIsk = new SimpleDoubleProperty(0);
 			volumicPriceToVol.entrySet().stream().sorted((e1, e2) -> (int) Math.signum(e2.getKey() - e1.getKey()))
 			.forEach(entry -> {
-				// System.err.println("entry volprice " + entry.getKey() + " has vol
-				// " + entry.getValue());
 				if (totalVol.get() == 0) {
 					seriesToYield.put(series, entry.getKey());
 				}
 				totalVol.set(totalVol.get() + entry.getValue());
 				totalIsk.set(totalIsk.get() + entry.getValue() * entry.getKey());
-				// System.err.println("total vol became " + totalVol.get() + " and
-				// total isk became " + totalIsk.get());
 				double volume = totalVol.get();
 				double isk = totalIsk.get();
-				// System.err.println("added " + e.getKey() + "\t" + volume + "\t" +
-				// isk + "\t" + entry.getKey());
 				Data<Number, Number> added = new Data<>(volume, isk / 1000000);
 				added.setNode(new HoveredThresholdNode(e.getKey(), isk));
 				series.getData().add(added);
@@ -350,6 +372,8 @@ public class MoonWorthController {
 				}
 			}
 		}
+		System.err.println("scrollpane h " + scrollPane.getHeight());
+		System.err.println("scrollpane max h " + scrollPane.getMaxHeight());
 	}
 
 	/** a node which displays a value on hover, but is otherwise empty */
