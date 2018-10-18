@@ -23,7 +23,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
-import java.util.function.LongConsumer;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
@@ -44,9 +43,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ITransfer;
 import javafx.beans.InvalidationListener;
-import javafx.beans.property.LongProperty;
 import javafx.beans.property.SimpleBooleanProperty;
-import javafx.beans.property.SimpleLongProperty;
 import javafx.beans.value.ObservableBooleanValue;
 import javafx.collections.ObservableSet;
 
@@ -242,28 +239,25 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * load the pages for a given resource access.
 	 *
 	 * @param resourceAccess
-	 *          loads given page , and store header values. (page, store->result).
-	 *          Must be able to handle null store.
-	 * @param cacheExpireStore
-	 *          store the cache expiration value, retrieved from the headers of
-	 *          the first page. can be null.
+	 *          function to load a page and store header in the holder, then
+	 *          return the data. (page, holder->result). Must be able to handle
+	 *          null store.
+	 * @param headerHandler
+	 *          store the cache of the first page. can be null.
 	 * @return the stream of values retrieved from the first page and following
 	 *         pages. Those values are only fetched on demand, store them using
 	 *         collect to avoid delay on iteration.
 	 */
 	public static <T> List<T> loadPages(BiFunction<Integer, Map<String, List<String>>, T[]> resourceAccess,
-			LongConsumer cacheExpireStore) {
-		Map<String, List<String>> headerHandler = new HashMap<>();
-		T[] res = resourceAccess.apply(1, headerHandler);
-		if (cacheExpireStore != null) {
-			long expire = ESIConnected.getCacheExpire(headerHandler);
-			logger.trace("expiration ms is " + expire + "from " + headerHandler);
-			cacheExpireStore.accept(System.currentTimeMillis() + expire);
+			Map<String, List<String>> headerHandler) {
+		if (headerHandler == null) {
+			headerHandler = new HashMap<>();
 		}
+		T[] res = resourceAccess.apply(1, headerHandler);
 		if (res == null) {
 			return null;
 		}
-		int nbpages = ESIConnected.getNbPages(headerHandler);
+		int nbpages = getNbPages(headerHandler);
 		List<T> ret = Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
 				.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of)).collect(Collectors.toList());
 		if (ret.contains(null)) {
@@ -368,10 +362,6 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	protected static String mapToJSON(Map<String, Object> transmit) {
 		try {
-			// TODO check if Objectwriter is thread safe.
-			// few tests did not show concurrency corruption, but just in case I sync
-			// over it. If possible, use a thread-safe OW. If OW is already thread
-			// safe, remove this comment.
 			synchronized (ow) {
 				if (transmit != null && transmit.size() == 1) {
 					return ow.writeValueAsString(transmit.values().iterator().next());
@@ -597,13 +587,12 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		@Override
 		protected long do_execute() {
-			LongProperty cachedExpire = new SimpleLongProperty();
-			List<T> arr = ESIConnected.loadPages(fetcher, cachedExpire::set);
-			long ret = 1000 + cachedExpire.get() - System.currentTimeMillis();
+			HashMap<String, List<String>> header = new HashMap<>();
+			List<T> arr = ESIConnected.loadPages(fetcher, header);
 			if (arr != null) {
 				cacheHandler.accept(arr);
 			}
-			return ret;
+			return 1000 + getCacheExpire(header) - System.currentTimeMillis();
 		}
 
 		@Override

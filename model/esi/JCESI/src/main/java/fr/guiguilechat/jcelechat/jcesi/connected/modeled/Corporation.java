@@ -2,11 +2,13 @@ package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Bookmarks;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_assets_8;
@@ -66,13 +68,15 @@ public class Corporation {
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
+				Map<String, List<String>> headerandler = new HashMap<>();
 				M_get_assets_8[] itemsArr = ESIConnected
 						.loadPages(
 								(p, h) -> con.raw.get_corporations_assets(con.character.infos.corporationId().get(), p,
 										h),
-								l -> assetsExpire = l)
+								headerandler)
 						.stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
 						.toArray(M_get_assets_8[]::new);
+				assetsExpire = ConnectedImpl.getNbPages(headerandler);
 				// we make the map of itemid->locations. if a location is actually an
 				// asset, we
 				// iterally map it to this asset's location instead

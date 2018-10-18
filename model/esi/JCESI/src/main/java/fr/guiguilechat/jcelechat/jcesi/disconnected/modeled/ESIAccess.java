@@ -8,20 +8,23 @@ public class ESIAccess {
 
 	private ESIAccess(ESIStatic connection) {
 		this.connection = connection;
-		markets = new Markets(connection);
+		contracts = new Contracts(connection);
 		industry = new Industry(connection);
-		universe = new Universe(connection);
+		markets = new Markets(connection);
 		route = new Route(connection);
+		universe = new Universe(connection);
 	}
 
 	public static final ESIAccess INSTANCE = new ESIAccess(ESIStatic.INSTANCE);
 
-	public final Markets markets;
+	public final Contracts contracts;
 
 	public final Industry industry;
 
-	public final Universe universe;
+	public final Markets markets;
 
 	public final Route route;
+
+	public final Universe universe;
 
 }
