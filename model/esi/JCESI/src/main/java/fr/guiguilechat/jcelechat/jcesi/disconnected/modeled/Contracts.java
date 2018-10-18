@@ -27,6 +27,7 @@ public class Contracts {
 
 	private HashMap<Integer, ObsListHolder<ContractDesc>> caches = new HashMap<>();
 
+	/** observe the contracts on given region. */
 	public ObsListHolder<ContractDesc> get(int regionId) {
 		ObsListHolder<ContractDesc> ret = caches.get(regionId);
 		if (ret == null) {
