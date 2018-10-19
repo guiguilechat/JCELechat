@@ -1,5 +1,9 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_history_new_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_history_old_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_history_role_type;
+
 public class R_get_corporations_corporation_id_roles_history {
     /**
      * changed_at string
@@ -16,15 +20,15 @@ public class R_get_corporations_corporation_id_roles_history {
     /**
      * new_roles array
      */
-    public String[] new_roles;
+    public get_corporations_corporation_id_roles_history_new_roles[] new_roles;
     /**
      * old_roles array
      */
-    public String[] old_roles;
+    public get_corporations_corporation_id_roles_history_old_roles[] old_roles;
     /**
      * role_type string
      */
-    public String role_type;
+    public get_corporations_corporation_id_roles_history_role_type role_type;
 
     @Override
     public boolean equals(Object other) {

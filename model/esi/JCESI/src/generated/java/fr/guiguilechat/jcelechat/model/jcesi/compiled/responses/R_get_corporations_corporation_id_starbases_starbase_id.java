@@ -1,5 +1,12 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_starbases_starbase_id_anchor;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_starbases_starbase_id_fuel_bay_take;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_starbases_starbase_id_fuel_bay_view;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_starbases_starbase_id_offline;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_starbases_starbase_id_online;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_starbases_starbase_id_unanchor;
+
 public class R_get_corporations_corporation_id_starbases_starbase_id {
     /**
      * allow_alliance_members boolean
@@ -12,7 +19,7 @@ public class R_get_corporations_corporation_id_starbases_starbase_id {
     /**
      * Who can anchor starbase (POS) and its structures
      */
-    public String anchor;
+    public get_corporations_corporation_id_starbases_starbase_id_anchor anchor;
     /**
      * attack_if_at_war boolean
      */
@@ -32,11 +39,11 @@ public class R_get_corporations_corporation_id_starbases_starbase_id {
     /**
      * Who can take fuel blocks out of the starbase (POS)'s fuel bay
      */
-    public String fuel_bay_take;
+    public get_corporations_corporation_id_starbases_starbase_id_fuel_bay_take fuel_bay_take;
     /**
      * Who can view the starbase (POS)'s fule bay. Characters either need to have required role or belong to the starbase (POS) owner's corporation or alliance, as described by the enum, all other access settings follows the same scheme
      */
-    public String fuel_bay_view;
+    public get_corporations_corporation_id_starbases_starbase_id_fuel_bay_view fuel_bay_view;
     /**
      * Fuel blocks and other things that will be consumed when operating a starbase (POS)
      */
@@ -44,15 +51,15 @@ public class R_get_corporations_corporation_id_starbases_starbase_id {
     /**
      * Who can offline starbase (POS) and its structures
      */
-    public String offline;
+    public get_corporations_corporation_id_starbases_starbase_id_offline offline;
     /**
      * Who can online starbase (POS) and its structures
      */
-    public String online;
+    public get_corporations_corporation_id_starbases_starbase_id_online online;
     /**
      * Who can unanchor starbase (POS) and its structures
      */
-    public String unanchor;
+    public get_corporations_corporation_id_starbases_starbase_id_unanchor unanchor;
     /**
      * True if the starbase (POS) is using alliance standings, otherwise using corporation's
      */

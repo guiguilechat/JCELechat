@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_starbases_state;
+
 public class R_get_corporations_corporation_id_starbases {
     /**
      * The moon this starbase (POS) is anchored on, unanchored POSes do not have this information
@@ -20,7 +22,7 @@ public class R_get_corporations_corporation_id_starbases {
     /**
      * state string
      */
-    public String state;
+    public get_corporations_corporation_id_starbases_state state;
     /**
      * The solar system this starbase (POS) is in, unanchored POSes have this information
      */

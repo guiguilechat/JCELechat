@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Bookmarks;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_assets_8;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
@@ -74,7 +75,8 @@ public class Corporation {
 								(p, h) -> con.raw.get_corporations_assets(con.character.infos.corporationId().get(), p,
 										h),
 								headerandler)
-						.stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
+						.stream()
+						.filter(asset -> !get_characters_character_id_assets_location_flag.AutoFit.equals(asset.location_flag))
 						.toArray(M_get_assets_8[]::new);
 				assetsExpire = ConnectedImpl.getNbPages(headerandler);
 				// we make the map of itemid->locations. if a location is actually an

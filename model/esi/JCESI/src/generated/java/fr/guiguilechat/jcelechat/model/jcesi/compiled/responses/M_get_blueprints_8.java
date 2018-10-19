@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_blueprints_location_flag;
+
 public class M_get_blueprints_8 {
     /**
      * Unique ID for this item.
@@ -8,7 +10,7 @@ public class M_get_blueprints_8 {
     /**
      * Type of the location_id
      */
-    public String location_flag;
+    public get_characters_character_id_blueprints_location_flag location_flag;
     /**
      * References a solar system, station or item_id if this blueprint is located within a container. If the return value is an item_id, then the Character AssetList API must be queried to find the container using the given item_id to determine the correct location of the Blueprint.
      */

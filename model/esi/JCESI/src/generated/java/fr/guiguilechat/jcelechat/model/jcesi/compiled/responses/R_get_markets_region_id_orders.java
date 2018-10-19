@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_markets_region_id_orders_range;
+
 public class R_get_markets_region_id_orders {
     /**
      * duration integer
@@ -32,7 +34,7 @@ public class R_get_markets_region_id_orders {
     /**
      * range string
      */
-    public String range;
+    public get_markets_region_id_orders_range range;
     /**
      * The solar system this order was placed
      */

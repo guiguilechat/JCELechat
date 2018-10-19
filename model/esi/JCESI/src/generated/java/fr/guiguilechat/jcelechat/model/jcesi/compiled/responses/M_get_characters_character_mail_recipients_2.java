@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_mail_recipient_type;
+
 public class M_get_characters_character_mail_recipients_2 {
     /**
      * recipient_id integer
@@ -8,7 +10,7 @@ public class M_get_characters_character_mail_recipients_2 {
     /**
      * recipient_type string
      */
-    public String recipient_type;
+    public get_characters_character_id_mail_recipient_type recipient_type;
 
     @Override
     public boolean equals(Object other) {

@@ -44,22 +44,22 @@ public class Industry {
 				IndustryIndices indices = new IndustryIndices();
 				for (R_get_industry_systems_cost_indices t : r.cost_indices) {
 					switch (t.activity) {
-					case "copying":
+					case copying:
 						indices.copying = t.cost_index;
 						break;
-					case "invention":
+					case invention:
 						indices.invention = t.cost_index;
 						break;
-					case "manufacturing":
+					case manufacturing:
 						indices.manufacturing = t.cost_index;
 						break;
-					case "reaction":
+					case reaction:
 						indices.reaction = t.cost_index;
 						break;
-					case "researching_material_efficiency":
+					case researching_material_efficiency:
 						indices.researching_material_efficiency = t.cost_index;
 						break;
-					case "researching_time_efficiency":
+					case researching_time_efficiency:
 						indices.researching_time_efficiency = t.cost_index;
 						break;
 					default:

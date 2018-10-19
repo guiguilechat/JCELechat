@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_gender;
+
 public class R_get_characters_character_id {
     /**
      * The character's alliance ID
@@ -32,7 +34,7 @@ public class R_get_characters_character_id {
     /**
      * gender string
      */
-    public String gender;
+    public get_characters_character_id_gender gender;
     /**
      * name string
      */

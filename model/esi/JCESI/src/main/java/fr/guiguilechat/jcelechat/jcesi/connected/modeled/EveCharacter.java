@@ -5,9 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.TimeZone;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -22,6 +22,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
@@ -79,16 +80,19 @@ public class EveCharacter {
 		if (newroles == null) {
 			return;
 		}
-		HashSet<String> roles = new HashSet<>(Arrays.asList(newroles.roles));
+		Set<String> roles = Arrays.asList(newroles.roles).stream().map(r -> r.toString).collect(Collectors.toSet());
 		rolesCache.retainAll(roles);
 		rolesCache.addAll(roles);
-		HashSet<String> rolesHQ = new HashSet<>(Arrays.asList(newroles.roles_at_hq));
+		Set<String> rolesHQ = Arrays.asList(newroles.roles_at_hq).stream().map(r -> r.toString)
+				.collect(Collectors.toSet());
 		rolesHQCache.retainAll(rolesHQ);
 		rolesHQCache.addAll(rolesHQ);
-		HashSet<String> rolesBase = new HashSet<>(Arrays.asList(newroles.roles_at_base));
+		Set<String> rolesBase = Arrays.asList(newroles.roles_at_base).stream().map(r -> r.toString)
+				.collect(Collectors.toSet());
 		rolesBaseCache.retainAll(rolesBase);
 		rolesBaseCache.addAll(rolesBase);
-		HashSet<String> rolesOther = new HashSet<>(Arrays.asList(newroles.roles_at_other));
+		Set<String> rolesOther = Arrays.asList(newroles.roles_at_other).stream().map(r -> r.toString)
+				.collect(Collectors.toSet());
 		rolesOtherCache.retainAll(rolesOther);
 		rolesOtherCache.addAll(rolesOther);
 	}
@@ -293,7 +297,8 @@ public class EveCharacter {
 
 		// the listener is called everytime the full list of items in
 		// modified. thus everytime, we recreate it
-		M_get_assets_8[] itemsArr = c.getAddedSubList().stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
+		M_get_assets_8[] itemsArr = c.getAddedSubList().stream()
+				.filter(asset -> !get_characters_character_id_assets_location_flag.AutoFit.equals(asset.location_flag))
 				.toArray(M_get_assets_8[]::new);
 
 		// we make the map of itemid->locations. if a location is actually an

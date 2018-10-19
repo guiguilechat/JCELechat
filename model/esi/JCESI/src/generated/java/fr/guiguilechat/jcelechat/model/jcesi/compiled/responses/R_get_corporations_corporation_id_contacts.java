@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_contacts_contact_type;
+
 public class R_get_corporations_corporation_id_contacts {
     /**
      * contact_id integer
@@ -8,7 +10,7 @@ public class R_get_corporations_corporation_id_contacts {
     /**
      * contact_type string
      */
-    public String contact_type;
+    public get_corporations_corporation_id_contacts_contact_type contact_type;
     /**
      * Whether this contact is being watched
      */

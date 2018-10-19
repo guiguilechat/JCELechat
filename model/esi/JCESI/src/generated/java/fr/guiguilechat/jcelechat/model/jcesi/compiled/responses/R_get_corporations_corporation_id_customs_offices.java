@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_customs_offices_standing_level;
+
 public class R_get_corporations_corporation_id_customs_offices {
     /**
      * Only present if alliance access is allowed
@@ -48,7 +50,7 @@ public class R_get_corporations_corporation_id_customs_offices {
     /**
      * Access is allowed only for entities with this level of standing or better
      */
-    public String standing_level;
+    public get_corporations_corporation_id_customs_offices_standing_level standing_level;
     /**
      * ID of the solar system this customs office is located in
      */

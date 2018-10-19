@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_calendar_event_id_owner_type;
+
 public class R_get_characters_character_id_calendar_event_id {
     /**
      * date string
@@ -28,7 +30,7 @@ public class R_get_characters_character_id_calendar_event_id {
     /**
      * owner_type string
      */
-    public String owner_type;
+    public get_characters_character_id_calendar_event_id_owner_type owner_type;
     /**
      * response string
      */

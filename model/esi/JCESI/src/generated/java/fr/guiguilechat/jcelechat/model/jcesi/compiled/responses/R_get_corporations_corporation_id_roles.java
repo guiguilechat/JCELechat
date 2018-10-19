@@ -1,5 +1,14 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_grantable_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_grantable_roles_at_base;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_grantable_roles_at_hq;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_grantable_roles_at_other;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_roles_at_base;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_roles_at_hq;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_roles_roles_at_other;
+
 public class R_get_corporations_corporation_id_roles {
     /**
      * character_id integer
@@ -8,35 +17,35 @@ public class R_get_corporations_corporation_id_roles {
     /**
      * grantable_roles array
      */
-    public String[] grantable_roles;
+    public get_corporations_corporation_id_roles_grantable_roles[] grantable_roles;
     /**
      * grantable_roles_at_base array
      */
-    public String[] grantable_roles_at_base;
+    public get_corporations_corporation_id_roles_grantable_roles_at_base[] grantable_roles_at_base;
     /**
      * grantable_roles_at_hq array
      */
-    public String[] grantable_roles_at_hq;
+    public get_corporations_corporation_id_roles_grantable_roles_at_hq[] grantable_roles_at_hq;
     /**
      * grantable_roles_at_other array
      */
-    public String[] grantable_roles_at_other;
+    public get_corporations_corporation_id_roles_grantable_roles_at_other[] grantable_roles_at_other;
     /**
      * roles array
      */
-    public String[] roles;
+    public get_corporations_corporation_id_roles_roles[] roles;
     /**
      * roles_at_base array
      */
-    public String[] roles_at_base;
+    public get_corporations_corporation_id_roles_roles_at_base[] roles_at_base;
     /**
      * roles_at_hq array
      */
-    public String[] roles_at_hq;
+    public get_corporations_corporation_id_roles_roles_at_hq[] roles_at_hq;
     /**
      * roles_at_other array
      */
-    public String[] roles_at_other;
+    public get_corporations_corporation_id_roles_roles_at_other[] roles_at_other;
 
     @Override
     public boolean equals(Object other) {

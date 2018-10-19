@@ -2,7 +2,8 @@ package fr.guiguilechat.jcelechat.jcesi.connected;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -118,7 +119,8 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 					roles = FXCollections.observableSet();
 					r.follow((o, old, newroles) -> {
 						synchronized (roles) {
-							List<String> roleslist = Arrays.asList(newroles.roles);
+							Set<String> roleslist = Arrays.asList(newroles.roles).stream().map(role -> role.toString)
+									.collect(Collectors.toSet());
 							roles.retainAll(roleslist);
 							roles.addAll(roleslist);
 							logger.debug("new roles for " + verify().CharacterName + " are " + roles);

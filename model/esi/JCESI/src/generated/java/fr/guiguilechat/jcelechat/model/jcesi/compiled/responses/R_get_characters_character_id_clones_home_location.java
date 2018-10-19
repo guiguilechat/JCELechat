@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_clones_location_type;
+
 public class R_get_characters_character_id_clones_home_location {
     /**
      * location_id integer
@@ -8,7 +10,7 @@ public class R_get_characters_character_id_clones_home_location {
     /**
      * location_type string
      */
-    public String location_type;
+    public get_characters_character_id_clones_location_type location_type;
 
     @Override
     public boolean equals(Object other) {

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_mail_labels_color;
+
 public class R_get_characters_character_id_mail_labels_labels {
     /**
      * color string
      */
-    public String color;
+    public get_characters_character_id_mail_labels_color color;
     /**
      * label_id integer
      */

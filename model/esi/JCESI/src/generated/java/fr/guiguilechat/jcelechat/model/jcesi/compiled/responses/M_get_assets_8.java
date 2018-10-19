@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_assets_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_assets_location_type;
+
 public class M_get_assets_8 {
     /**
      * is_blueprint_copy boolean
@@ -16,7 +19,7 @@ public class M_get_assets_8 {
     /**
      * location_flag string
      */
-    public String location_flag;
+    public get_characters_character_id_assets_location_flag location_flag;
     /**
      * location_id integer
      */
@@ -24,7 +27,7 @@ public class M_get_assets_8 {
     /**
      * location_type string
      */
-    public String location_type;
+    public get_characters_character_id_assets_location_type location_type;
     /**
      * quantity integer
      */

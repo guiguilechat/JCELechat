@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_calendar_event_id_attendees_event_response;
+
 public class R_get_characters_character_id_calendar_event_id_attendees {
     /**
      * character_id integer
@@ -8,7 +10,7 @@ public class R_get_characters_character_id_calendar_event_id_attendees {
     /**
      * event_response string
      */
-    public String event_response;
+    public get_characters_character_id_calendar_event_id_attendees_event_response event_response;
 
     @Override
     public boolean equals(Object other) {

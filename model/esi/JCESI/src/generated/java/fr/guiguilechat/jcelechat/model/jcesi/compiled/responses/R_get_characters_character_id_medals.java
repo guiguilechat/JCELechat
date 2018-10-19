@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_medals_status;
+
 public class R_get_characters_character_id_medals {
     /**
      * corporation_id integer
@@ -32,7 +34,7 @@ public class R_get_characters_character_id_medals {
     /**
      * status string
      */
-    public String status;
+    public get_characters_character_id_medals_status status;
     /**
      * title string
      */

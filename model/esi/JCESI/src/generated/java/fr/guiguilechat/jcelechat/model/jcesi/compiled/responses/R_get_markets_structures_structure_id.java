@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_markets_structures_structure_id_range;
+
 public class R_get_markets_structures_structure_id {
     /**
      * duration integer
@@ -32,7 +34,7 @@ public class R_get_markets_structures_structure_id {
     /**
      * range string
      */
-    public String range;
+    public get_markets_structures_structure_id_range range;
     /**
      * type_id integer
      */

@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_incursions_state;
+
 public class R_get_incursions {
     /**
      * The constellation id in which this incursion takes place
@@ -28,7 +30,7 @@ public class R_get_incursions {
     /**
      * The state of this incursion
      */
-    public String state;
+    public get_incursions_state state;
     /**
      * The type of this incursion
      */

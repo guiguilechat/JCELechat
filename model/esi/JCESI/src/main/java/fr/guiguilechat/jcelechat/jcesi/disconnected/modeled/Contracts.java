@@ -13,6 +13,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_bids_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_region_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_contracts_public_region_id_type;
 import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsListHolderImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import javafx.collections.FXCollections;
@@ -107,13 +108,14 @@ public class Contracts {
 		public void run() {
 			ret = new ContractDesc();
 			ret.details = contract;
-			if ("auction".equals(contract.type) || "item_exchange".equals(contract.type)) {
+			if (get_contracts_public_region_id_type.auction.equals(contract.type)
+					|| get_contracts_public_region_id_type.item_exchange.equals(contract.type)) {
 				ret.items = ConnectedImpl
 						.loadPages((p, h) -> esiConnection.get_contracts_public_items(contract.contract_id, p, h), null);
 			} else {
 				ret.items = Collections.emptyList();
 			}
-			if ("auction".equals(contract.type)) {
+			if (get_contracts_public_region_id_type.auction.equals(contract.type)) {
 				ret.bids = ConnectedImpl
 						.loadPages((p, h) -> esiConnection.get_contracts_public_bids(contract.contract_id, p, h), null);
 			} else {

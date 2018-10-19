@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporation_corporation_id_mining_observers_observer_type;
+
 public class R_get_corporation_corporation_id_mining_observers {
     /**
      * last_updated string
@@ -13,7 +15,7 @@ public class R_get_corporation_corporation_id_mining_observers {
     /**
      * The category of the observing entity
      */
-    public String observer_type;
+    public get_corporation_corporation_id_mining_observers_observer_type observer_type;
 
     @Override
     public boolean equals(Object other) {

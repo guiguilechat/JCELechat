@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_contracts_public_region_id_type;
+
 public class R_get_contracts_public_region_id {
     /**
      * Buyout price (for Auctions only)
@@ -60,7 +62,7 @@ public class R_get_contracts_public_region_id {
     /**
      * Type of the contract
      */
-    public String type;
+    public get_contracts_public_region_id_type type;
     /**
      * Volume of items in the contract
      */

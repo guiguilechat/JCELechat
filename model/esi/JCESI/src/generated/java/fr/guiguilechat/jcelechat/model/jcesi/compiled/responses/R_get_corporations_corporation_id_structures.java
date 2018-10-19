@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_structures_state;
+
 public class R_get_corporations_corporation_id_structures {
     /**
      * ID of the corporation that owns the structure
@@ -40,7 +42,7 @@ public class R_get_corporations_corporation_id_structures {
     /**
      * state string
      */
-    public String state;
+    public get_corporations_corporation_id_structures_state state;
     /**
      * Date at which the structure will move to it's next state
      */

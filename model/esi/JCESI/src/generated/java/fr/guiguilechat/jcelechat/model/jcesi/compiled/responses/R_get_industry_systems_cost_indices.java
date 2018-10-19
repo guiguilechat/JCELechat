@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_industry_systems_activity;
+
 public class R_get_industry_systems_cost_indices {
     /**
      * activity string
      */
-    public String activity;
+    public get_industry_systems_activity activity;
     /**
      * cost_index number
      */

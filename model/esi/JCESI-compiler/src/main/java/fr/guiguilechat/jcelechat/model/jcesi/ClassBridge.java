@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.AbstractJType;
 import com.helger.jcodemodel.EClassType;
@@ -22,6 +23,7 @@ import com.helger.jcodemodel.JArrayClass;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
+import com.helger.jcodemodel.JEnumConstant;
 import com.helger.jcodemodel.JExpr;
 import com.helger.jcodemodel.JFieldRef;
 import com.helger.jcodemodel.JFieldVar;
@@ -267,8 +269,13 @@ public class ClassBridge {
 	 * @return
 	 */
 	public AbstractJType translateToClass(Property p, JPackage pck, String name) {
-		AbstractJType ret = getExistingClass(p.getType(), name, p.getFormat(), null);
+		AbstractJType ret = getExistingClass(p.getType(), name, p.getFormat(),
+				p instanceof StringProperty ? ((StringProperty) p).getEnum() : null);
 		if (ret != null) {
+			// if (ret == cm.ref(String.class)) {
+			// System.err.println(p.getTitle() + " already translated to string " +
+			// p);
+			// }
 			return ret;
 		}
 		switch (p.getType()) {
@@ -329,7 +336,8 @@ public class ClassBridge {
 			toStringm.body()._return(toStringf);
 			toStringm.annotate(Override.class);
 			for (String s : enums) {
-				ret.enumConstant(s.replaceAll("-", "_")).arg(JExpr.lit(s));
+				JEnumConstant enumcst = ret.enumConstant(sanitizeEnumName(s)).arg(JExpr.lit(s));
+				enumcst.annotate(JsonProperty.class).param("value", s);
 			}
 			// logger.info("created enum " + name + " with values " + enums);
 			return ret;
@@ -342,6 +350,17 @@ public class ClassBridge {
 			}
 			return null;
 		}
+	}
+
+	public static String sanitizeEnumName(String s) {
+		if (PathTranslator.keywords.contains(s)) {
+			return "_"+s;
+		}
+		String ret = s.replaceAll("[- #]", "_");
+		if (ret.matches("^[0-9].*")) {
+			ret = "_" + ret;
+		}
+		return ret;
 	}
 
 	public AbstractJType getExistingClass(ArrayModel model) {

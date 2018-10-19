@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_fw_systems_contested;
+
 public class R_get_fw_systems {
     /**
      * contested string
      */
-    public String contested;
+    public get_fw_systems_contested contested;
     /**
      * occupier_faction_id integer
      */

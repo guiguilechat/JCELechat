@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_fleets_fleet_id_members_role;
+
 public class R_get_fleets_fleet_id_members {
     /**
      * character_id integer
@@ -12,7 +14,7 @@ public class R_get_fleets_fleet_id_members {
     /**
      * Member’s role in fleet
      */
-    public String role;
+    public get_fleets_fleet_id_members_role role;
     /**
      * Localized role names
      */

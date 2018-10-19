@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_sovereignty_campaigns_event_type;
+
 public class R_get_sovereignty_campaigns {
     /**
      * Score for all attacking parties, only present in Defense Events.
@@ -29,7 +31,7 @@ public class R_get_sovereignty_campaigns {
      * Type of event this campaign is for. tcu_defense, ihub_defense and station_defense are referred to as "Defense Events", station_freeport as "Freeport Events".
      * 
      */
-    public String event_type;
+    public get_sovereignty_campaigns_event_type event_type;
     /**
      * Alliance participating and their respective scores, only present in Freeport Events.
      * 

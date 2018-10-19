@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_industry_jobs_status;
+
 public class R_get_characters_character_id_industry_jobs {
     /**
      * Job activity ID
@@ -84,7 +86,7 @@ public class R_get_characters_character_id_industry_jobs {
     /**
      * status string
      */
-    public String status;
+    public get_characters_character_id_industry_jobs_status status;
     /**
      * Number of successful runs for this job. Equal to runs unless this is an invention job
      */

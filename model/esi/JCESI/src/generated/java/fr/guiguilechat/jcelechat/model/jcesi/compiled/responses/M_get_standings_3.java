@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_standings_from_type;
+
 public class M_get_standings_3 {
     /**
      * from_id integer
@@ -8,7 +10,7 @@ public class M_get_standings_3 {
     /**
      * from_type string
      */
-    public String from_type;
+    public get_characters_character_id_standings_from_type from_type;
     /**
      * standing number
      */

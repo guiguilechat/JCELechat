@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_planets_planet_type;
+
 public class R_get_characters_character_id_planets {
     /**
      * last_update string
@@ -20,7 +22,7 @@ public class R_get_characters_character_id_planets {
     /**
      * planet_type string
      */
-    public String planet_type;
+    public get_characters_character_id_planets_planet_type planet_type;
     /**
      * solar_system_id integer
      */

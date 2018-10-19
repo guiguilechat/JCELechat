@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_containers_logs_action;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_containers_logs_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_containers_logs_password_type;
+
 public class R_get_corporations_corporation_id_containers_logs {
     /**
      * action string
      */
-    public String action;
+    public get_corporations_corporation_id_containers_logs_action action;
     /**
      * ID of the character who performed the action.
      */
@@ -20,7 +24,7 @@ public class R_get_corporations_corporation_id_containers_logs {
     /**
      * location_flag string
      */
-    public String location_flag;
+    public get_corporations_corporation_id_containers_logs_location_flag location_flag;
     /**
      * location_id integer
      */
@@ -40,7 +44,7 @@ public class R_get_corporations_corporation_id_containers_logs {
     /**
      * Type of password set if action is of type SetPassword or EnterPassword
      */
-    public String password_type;
+    public get_corporations_corporation_id_containers_logs_password_type password_type;
     /**
      * Quantity of the item being acted upon
      */

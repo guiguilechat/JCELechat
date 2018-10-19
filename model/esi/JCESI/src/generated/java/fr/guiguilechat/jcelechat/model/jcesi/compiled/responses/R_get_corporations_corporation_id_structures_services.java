@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_structures_service_state;
+
 public class R_get_corporations_corporation_id_structures_services {
     /**
      * name string
@@ -8,7 +10,7 @@ public class R_get_corporations_corporation_id_structures_services {
     /**
      * state string
      */
-    public String state;
+    public get_corporations_corporation_id_structures_service_state state;
 
     @Override
     public boolean equals(Object other) {

@@ -341,7 +341,7 @@ public class PathTranslator {
 	protected JVar cacheParam;
 
 	/** java keywords we can't use as a name */
-	static final Set<String> keywords = Collections.unmodifiableSet(new HashSet<>(
+	public static final Set<String> keywords = Collections.unmodifiableSet(new HashSet<>(
 			Arrays.asList("abstract", "assert", "boolean", "break", "byte", "case", "catch", "char", "class", "const",
 					"continue", "default", "do", "double", "else", "extends", "false", "final", "finally", "float", "for", "goto",
 					"if", "implements", "import", "instanceof", "int", "interface", "long", "native", "new", "null", "package",

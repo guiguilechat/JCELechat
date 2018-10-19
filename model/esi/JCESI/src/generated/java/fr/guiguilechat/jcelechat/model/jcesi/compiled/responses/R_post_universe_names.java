@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.post_universe_names_category;
+
 public class R_post_universe_names {
     /**
      * category string
      */
-    public String category;
+    public post_universe_names_category category;
     /**
      * id integer
      */

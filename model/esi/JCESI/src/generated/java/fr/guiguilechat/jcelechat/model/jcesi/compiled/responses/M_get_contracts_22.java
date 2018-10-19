@@ -1,5 +1,9 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_contracts_availability;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_contracts_status;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_contracts_type;
+
 public class M_get_contracts_22 {
     /**
      * Who will accept the contract
@@ -12,7 +16,7 @@ public class M_get_contracts_22 {
     /**
      * To whom the contract is available
      */
-    public String availability;
+    public get_characters_character_id_contracts_availability availability;
     /**
      * Buyout price (for Auctions only)
      */
@@ -76,7 +80,7 @@ public class M_get_contracts_22 {
     /**
      * Status of the the contract
      */
-    public String status;
+    public get_characters_character_id_contracts_status status;
     /**
      * Title of the contract
      */
@@ -84,7 +88,7 @@ public class M_get_contracts_22 {
     /**
      * Type of the contract
      */
-    public String type;
+    public get_characters_character_id_contracts_type type;
     /**
      * Volume of items in the contract
      */

@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_wallets_division_journal_context_id_type;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_wallets_division_journal_ref_type;
+
 public class M_get_journal_13 {
     /**
      * The amount of ISK given or taken from the wallet as a result of the given transaction. Positive when ISK is deposited into the wallet and negative when ISK is withdrawn
@@ -16,7 +19,7 @@ public class M_get_journal_13 {
     /**
      * The type of the given context_id if present
      */
-    public String context_id_type;
+    public get_corporations_corporation_id_wallets_division_journal_context_id_type context_id_type;
     /**
      * Date and time of transaction
      */
@@ -40,7 +43,7 @@ public class M_get_journal_13 {
     /**
      * The transaction type for the given transaction. Different transaction types will populate different attributes. Note: If you have an existing XML API application that is using ref_types, you will need to know which string ESI ref_type maps to which integer. You can look at the following file to see string->int mappings: https://github.com/ccpgames/eve-glue/blob/master/eve_glue/wallet_journal_ref.py
      */
-    public String ref_type;
+    public get_corporations_corporation_id_wallets_division_journal_ref_type ref_type;
     /**
      * The id of the second party involved in the transaction. This attribute has no consistency and is different or non existant for particular ref_types. The description attribute will help make sense of what this attribute means. For more info about the given ID it can be dropped into the /universe/names/ ESI route to determine its type and name
      */

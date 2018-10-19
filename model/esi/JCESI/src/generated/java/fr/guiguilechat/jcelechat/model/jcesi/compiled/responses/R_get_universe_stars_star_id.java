@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_universe_stars_star_id_spectral_class;
+
 public class R_get_universe_stars_star_id {
     /**
      * Age of star in years
@@ -24,7 +26,7 @@ public class R_get_universe_stars_star_id {
     /**
      * spectral_class string
      */
-    public String spectral_class;
+    public get_universe_stars_star_id_spectral_class spectral_class;
     /**
      * temperature integer
      */

@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_orders_history_range;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_orders_history_state;
+
 public class R_get_characters_character_id_orders_history {
     /**
      * Number of days the order was valid for (starting from the issued date). An order expires at time issued + duration
@@ -40,7 +43,7 @@ public class R_get_characters_character_id_orders_history {
     /**
      * Valid order range, numbers are ranges in jumps
      */
-    public String range;
+    public get_characters_character_id_orders_history_range range;
     /**
      * ID of the region where order was placed
      */
@@ -48,7 +51,7 @@ public class R_get_characters_character_id_orders_history {
     /**
      * Current order state
      */
-    public String state;
+    public get_characters_character_id_orders_history_state state;
     /**
      * The type ID of the item transacted in this order
      */

@@ -5,11 +5,14 @@ import java.util.concurrent.CountDownLatch;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_gender;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableIntegerValue;
+import javafx.beans.value.ObservableObjectValue;
 import javafx.beans.value.ObservableStringValue;
 
 public class Informations {
@@ -60,9 +63,10 @@ public class Informations {
 		waitData();
 		return factionId;
 	}
-	private SimpleStringProperty gender = new SimpleStringProperty();
 
-	public ObservableStringValue gender() {
+	private SimpleObjectProperty<get_characters_character_id_gender> gender = new SimpleObjectProperty<>();
+
+	public ObservableObjectValue<get_characters_character_id_gender> gender() {
 		waitData();
 		return gender;
 	}

@@ -1578,7 +1578,7 @@ public interface G_ICOAccess
      * @param wing_id
      *     wing_id integer
      */
-    public default void post_fleets_members(long fleet_id, int character_id, String role, long squad_id, long wing_id, Map<String, List<String>> headerHandler) {
+    public default void post_fleets_members(long fleet_id, int character_id, fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.role role, long squad_id, long wing_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/members/".replace("{fleet_id}", ""+fleet_id));
         Map<String, Object> content = new HashMap<>();
         content.put("character_id", character_id);
@@ -1605,7 +1605,7 @@ public interface G_ICOAccess
      * @param wing_id
      *     wing_id integer
      */
-    public default void put_fleets_members(long fleet_id, int member_id, String role, long squad_id, long wing_id, Map<String, List<String>> headerHandler) {
+    public default void put_fleets_members(long fleet_id, int member_id, fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.role role, long squad_id, long wing_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/members/{member_id}/".replace("{fleet_id}", ""+fleet_id).replace("{member_id}", ""+member_id));
         Map<String, Object> content = new HashMap<>();
         content.put("role", role);
@@ -2025,7 +2025,7 @@ public interface G_ICOAccess
      * @param name
      *     name string
      */
-    public default int post_characters_mail_s(int character_id, String color, String name, Map<String, List<String>> headerHandler) {
+    public default int post_characters_mail_s(int character_id, fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.color color, String name, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/mail/labels/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("color", color);
@@ -2326,7 +2326,7 @@ public interface G_ICOAccess
      * @param response
      *     response string
      */
-    public default void put_characters_calendar(int character_id, int event_id, String response, Map<String, List<String>> headerHandler) {
+    public default void put_characters_calendar(int character_id, int event_id, fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.response response, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v3/characters/{character_id}/calendar/{event_id}/".replace("{character_id}", ""+character_id).replace("{event_id}", ""+event_id));
         Map<String, Object> content = new HashMap<>();
         content.put("response", response);

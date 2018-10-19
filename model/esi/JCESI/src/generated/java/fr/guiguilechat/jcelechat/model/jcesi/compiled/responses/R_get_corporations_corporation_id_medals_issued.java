@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_medals_issued_status;
+
 public class R_get_corporations_corporation_id_medals_issued {
     /**
      * ID of the character who was rewarded this medal
@@ -24,7 +26,7 @@ public class R_get_corporations_corporation_id_medals_issued {
     /**
      * status string
      */
-    public String status;
+    public get_corporations_corporation_id_medals_issued_status status;
 
     @Override
     public boolean equals(Object other) {

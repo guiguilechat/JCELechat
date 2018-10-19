@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_shareholders_shareholder_type;
+
 public class R_get_corporations_corporation_id_shareholders {
     /**
      * share_count integer
@@ -12,7 +14,7 @@ public class R_get_corporations_corporation_id_shareholders {
     /**
      * shareholder_type string
      */
-    public String shareholder_type;
+    public get_corporations_corporation_id_shareholders_shareholder_type shareholder_type;
 
     @Override
     public boolean equals(Object other) {

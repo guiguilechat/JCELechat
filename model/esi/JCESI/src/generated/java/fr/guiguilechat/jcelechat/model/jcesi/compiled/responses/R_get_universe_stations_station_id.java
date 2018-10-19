@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_universe_stations_station_id_services;
+
 public class R_get_universe_stations_station_id {
     /**
      * max_dockable_ship_volume number
@@ -36,7 +38,7 @@ public class R_get_universe_stations_station_id {
     /**
      * services array
      */
-    public String[] services;
+    public get_universe_stations_station_id_services[] services;
     /**
      * station_id integer
      */

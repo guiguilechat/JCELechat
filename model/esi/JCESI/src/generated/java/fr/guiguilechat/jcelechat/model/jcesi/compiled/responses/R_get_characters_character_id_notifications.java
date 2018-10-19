@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_notifications_sender_type;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_notifications_type;
+
 public class R_get_characters_character_id_notifications {
     /**
      * is_read boolean
@@ -16,7 +19,7 @@ public class R_get_characters_character_id_notifications {
     /**
      * sender_type string
      */
-    public String sender_type;
+    public get_characters_character_id_notifications_sender_type sender_type;
     /**
      * text string
      */
@@ -28,7 +31,7 @@ public class R_get_characters_character_id_notifications {
     /**
      * type string
      */
-    public String type;
+    public get_characters_character_id_notifications_type type;
 
     @Override
     public boolean equals(Object other) {
