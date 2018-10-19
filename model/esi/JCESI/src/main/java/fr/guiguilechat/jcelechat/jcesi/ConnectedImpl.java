@@ -201,12 +201,12 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	/**
-	 * extract the cache expire from the headers returned by a connection. If the
-	 * headers are missing the data, return 0
+	 * extract the cache expire delay from the headers returned by a connection.
+	 * If the headers are missing the data, return 0
 	 *
 	 * @param headers
-	 * @return the long value of milliseconds at which the cache will expire, or
-	 *         System.currentTimeMillis if missing header entries
+	 * @return the long value of milliseconds after which the cache will expire,
+	 *         or System.currentTimeMillis if missing header entries
 	 */
 	public static long getCacheExpire(Map<String, List<String>> headers) {
 		List<String> expirel = headers.get("Expires");
@@ -592,7 +592,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			if (arr != null) {
 				cacheHandler.accept(arr);
 			}
-			return 1000 + getCacheExpire(header) - System.currentTimeMillis();
+			return getCacheExpire(header);
 		}
 
 		@Override
@@ -658,11 +658,10 @@ public abstract class ConnectedImpl implements ITransfer {
 		protected long do_execute() throws Exception {
 			Map<String, List<String>> headerHandler = new HashMap<>();
 			T res = fetcher.apply(headerHandler);
-			long ret = 1000 + ESIConnected.getCacheExpire(headerHandler);
 			if (res != null) {
 				cacheHandler.accept(res);
 			}
-			return ret;
+			return ESIConnected.getCacheExpire(headerHandler);
 		}
 
 		@Override
