@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
@@ -26,9 +27,9 @@ public class Contracts {
 	}
 
 	public static class ContractDesc {
-		R_get_contracts_public_region_id details = null;
-		List<R_get_contracts_public_items_contract_id> items = null;
-		List<R_get_contracts_public_bids_contract_id> bids = null;
+		public R_get_contracts_public_region_id details = null;
+		public List<R_get_contracts_public_items_contract_id> items = null;
+		public List<R_get_contracts_public_bids_contract_id> bids = null;
 	}
 
 	private HashMap<Integer, ObsListHolder<ContractDesc>> caches = new HashMap<>();
@@ -48,24 +49,30 @@ public class Contracts {
 							// contracts can't be changed : only removed and added
 							if (c.wasRemoved()) {
 								for (R_get_contracts_public_region_id it : c.getRemoved()) {
-									underlying.removeIf(con -> con.details.contract_id == it.contract_id);
+									synchronized (underlying) {
+										System.err.println("remove contract " + it.contract_id);
+										underlying.removeIf(con -> con.details.contract_id == it.contract_id);
+									}
 								}
 							}
 							if (c.wasAdded()) {
 								ArrayList<ContractFetcher> fetchers = new ArrayList<>();
 								for (R_get_contracts_public_region_id it : c.getAddedSubList()) {
+									System.err.println("new contract to fetch " + it.contract_id);
 									ContractFetcher fetcher = new ContractFetcher(it, underlying);
-									new Thread(fetcher).start();
+									esiConnection.exec.schedule(fetcher, 0, TimeUnit.SECONDS);
 									fetchers.add(fetcher);
 								}
+								System.err.println("one pass of contracts is scheduled to fetch");
 								// once all fetchers have received data, the returned list is
 								// notified the first pass is done.
-								new Thread(() -> {
+								esiConnection.exec.schedule(() -> {
 									for (ContractFetcher cf : fetchers) {
 										cf.waitData();
 									}
 									CHolder.dataReceived();
-								}).start();
+									System.err.println("contract description complete");
+								}, 0, TimeUnit.SECONDS);
 							}
 						}
 					});
@@ -96,15 +103,20 @@ public class Contracts {
 
 		@Override
 		public void run() {
-			ContractDesc added = new ContractDesc();
-			added.details = contract;
-			added.items = ConnectedImpl
-					.loadPages((p, h) -> esiConnection.get_contracts_public_items(contract.contract_id, p, h), null);
-			added.bids = "auction".equals(contract.type)
+			ContractDesc newdesc = new ContractDesc();
+			newdesc.details = contract;
+			newdesc.items = "auction".equals(contract.type) || "item_exchange".equals(contract.type)
+					? ConnectedImpl.loadPages((p, h) -> esiConnection.get_contracts_public_items(contract.contract_id, p, h),
+							null)
+					: Collections.emptyList();
+			newdesc.bids = "auction".equals(contract.type)
 					? ConnectedImpl.loadPages((p, h) -> esiConnection.get_contracts_public_bids(contract.contract_id, p, h), null)
 					: Collections.emptyList();
+			System.err.println("details for contract " + contract.contract_id + " acquired, items:" + newdesc.items.size()
+					+ " bids:" + newdesc.bids.size());
+
 			synchronized (storage) {
-				storage.add(added);
+				storage.add(newdesc);
 			}
 			waitData.countDown();
 		}
