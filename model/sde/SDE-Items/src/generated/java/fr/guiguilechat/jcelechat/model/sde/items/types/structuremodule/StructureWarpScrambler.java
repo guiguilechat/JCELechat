@@ -127,8 +127,8 @@ public class StructureWarpScrambler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxVelocityMultiplier;
+    @DefaultDoubleValue(0.0)
+    public double MaxVelocityMultiplier;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level

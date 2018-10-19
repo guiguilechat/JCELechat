@@ -366,6 +366,11 @@ corporations:
     - 16243
     name: 24th Imperial Crusade
     warfare: Amarr Empire
+  AEGIS:
+    concordRate: 1.0
+    faction: CONCORD Assembly
+    id: 1000297
+    name: AEGIS
   Academy of Aggressive Behaviour:
     faction: Jove Empire
     id: 1000178

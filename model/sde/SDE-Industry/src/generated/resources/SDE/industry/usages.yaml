@@ -4906,6 +4906,10 @@ usages:
       Mexallon: 166
       Isogen: 1
       Megacyte: 1
+  A10:
+    maxreprocess: 0.55
+    productManuf: !!set
+      unnamed_g718_ic10144: null
   AE-K Compact Drone Damage Amplifier:
     maxreprocess: 0.55
     reprocess:
@@ -4930,7 +4934,7 @@ usages:
       Megacyte: 2
   Abaddon:
     materialManuf: !!set
-      地狱天使级YC117年特别版蓝图: null
+      地狱天使级YC117��特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Abaddon Blueprint: null
@@ -8742,6 +8746,7 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
+      unnamed_g718_ic10144: null
     maxreprocess: 0.55
   Avatar:
     maxreprocess: 0.55
@@ -8793,6 +8798,10 @@ usages:
       Tritanium: 113
       Pyerite: 224
       Mexallon: 113
+  B10:
+    maxreprocess: 0.55
+    productManuf: !!set
+      unnamed_g718_ic10144: null
   BH Ship Scanner:
     maxreprocess: 0.55
     reprocess:
@@ -29988,7 +29997,7 @@ usages:
   Dominix:
     materialManuf: !!set
       Sin Blueprint: null
-      多米尼克斯���YC117年特别版蓝图: null
+      多米尼克斯级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Dominix Blueprint: null
@@ -32360,6 +32369,10 @@ usages:
       Pyerite: 51
       Mexallon: 2
       Nocxium: 1
+  E10:
+    maxreprocess: 0.55
+    productManuf: !!set
+      unnamed_g718_ic10144: null
   E5 Prototype Energy Vampire:
     maxreprocess: 0.55
     reprocess:
@@ -33427,6 +33440,7 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
+      unnamed_g718_ic10144: null
     maxreprocess: 0.55
   Elite Drone AI:
     materialManuf: !!set
@@ -36431,6 +36445,7 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
+      unnamed_g718_ic10144: null
     maxreprocess: 0.55
   Force Field Array:
     maxreprocess: 0.55
@@ -38002,7 +38017,7 @@ usages:
       Zydrine: 72
   Gila:
     materialManuf: !!set
-      ���蜥级YC117年特别版蓝图: null
+      毒蜥级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Gila Blueprint: null
@@ -47345,6 +47360,7 @@ usages:
       Tiamat Blueprint: null
       Hydra Blueprint: null
       unnamed_g176_ic0: null
+      unnamed_g2010_ic97: null
     maxreprocess: 0.55
   Iteron Inner Zone Shipping Edition:
     maxreprocess: 0.55
@@ -48682,12 +48698,16 @@ usages:
   Large Advertisement Center:
     maxreprocess: 0.55
     reprocess:
-      Structure Repair Facility: 10
-      Structure Docking Bay: 10
-      Structure Construction Parts: 10
-      Structure Hangar Array: 10
+      Structure Laboratory: 1
+      Structure Factory: 1
+      Structure Repair Facility: 1
+      Structure Reprocessing Plant: 1
+      Structure Docking Bay: 1
+      Structure Construction Parts: 1
+      Structure Hangar Array: 1
       Structure Advertisement Nexus: 40
-      Structure Storage Bay: 10
+      Structure Storage Bay: 1
+      Structure Office Center: 1
   Large Algid Energy Administrations Unit I:
     maxreprocess: 0.55
     productManuf: !!set
@@ -54969,12 +54989,16 @@ usages:
   Medium Advertisement Center:
     maxreprocess: 0.55
     reprocess:
+      Structure Laboratory: 1
+      Structure Factory: 1
       Structure Repair Facility: 1
+      Structure Reprocessing Plant: 1
       Structure Docking Bay: 1
       Structure Construction Parts: 1
       Structure Hangar Array: 1
-      Structure Advertisement Nexus: 4
+      Structure Advertisement Nexus: 40
       Structure Storage Bay: 1
+      Structure Office Center: 1
   Medium Algid Energy Administrations Unit I:
     maxreprocess: 0.55
     productManuf: !!set
@@ -58793,11 +58817,12 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
+      unnamed_g2010_ic97: null
     maxreprocess: 0.55
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
-      万王宝座级YC117年特别版蓝图: null
+      万���宝座级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Megathron Blueprint: null
@@ -60067,6 +60092,7 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
+      unnamed_g2010_ic97: null
     maxreprocess: 0.55
   Miasmos:
     maxreprocess: 0.55
@@ -65971,6 +65997,7 @@ usages:
       Tiamat Blueprint: null
       Hydra Blueprint: null
       unnamed_g176_ic0: null
+      unnamed_g2010_ic97: null
     maxreprocess: 0.55
   Noir. Modified Entosis Link:
     maxreprocess: 0.55
@@ -69894,6 +69921,7 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
+      unnamed_g718_ic10144: null
     maxreprocess: 0.55
   Poteque 'Prospector' Archaeology AC-905:
     maxreprocess: 0.55
@@ -72723,6 +72751,7 @@ usages:
       Tiamat Blueprint: null
       Hydra Blueprint: null
       unnamed_g176_ic0: null
+      unnamed_g2010_ic97: null
     maxreprocess: 0.55
   Pyroxeres:
     maxreprocess: 0.8934
@@ -80861,6 +80890,10 @@ usages:
       Nocxium: 2556
       Zydrine: 1044
       Megacyte: 422
+  S10:
+    maxreprocess: 0.55
+    productManuf: !!set
+      unnamed_g718_ic10144: null
   Sabre:
     maxreprocess: 0.55
     productManuf: !!set
@@ -101182,6 +101215,8 @@ usages:
       Tiamat Blueprint: null
       Hydra Blueprint: null
       unnamed_g176_ic0: null
+      unnamed_g718_ic10144: null
+      unnamed_g2010_ic97: null
     maxreprocess: 0.55
   True Sansha Adaptive Nano Plating:
     maxreprocess: 0.55
@@ -105416,12 +105451,16 @@ usages:
   X-Large Advertisement Center:
     maxreprocess: 0.55
     reprocess:
-      Structure Repair Facility: 100
-      Structure Docking Bay: 100
-      Structure Construction Parts: 100
-      Structure Hangar Array: 100
-      Structure Advertisement Nexus: 400
-      Structure Storage Bay: 100
+      Structure Laboratory: 1
+      Structure Factory: 1
+      Structure Repair Facility: 1
+      Structure Reprocessing Plant: 1
+      Structure Docking Bay: 1
+      Structure Construction Parts: 1
+      Structure Hangar Array: 1
+      Structure Advertisement Nexus: 40
+      Structure Storage Bay: 1
+      Structure Office Center: 1
   X-Large All Components Research I:
     maxreprocess: 0.55
     reprocess:
@@ -107351,6 +107390,7 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
+      unnamed_g2010_ic97: null
     maxreprocess: 0.55
   Zeugma Integrated Analyzer:
     maxreprocess: 0.55
@@ -108109,6 +108149,7 @@ usages:
       Tiamat Blueprint: null
       Hydra Blueprint: null
       unnamed_g176_ic0: null
+      unnamed_g2010_ic97: null
     maxreprocess: 0.55
   testArmorMod_PLACEHOLDER:
     maxreprocess: 0.55
@@ -108149,6 +108190,39 @@ usages:
       Isogen: 47
       Nocxium: 27
       Zydrine: 18
+  unnamed_g18_ic21784:
+    materialManuf: !!set
+      unnamed_g718_ic10144: null
+    maxreprocess: 0.55
+  unnamed_g2005_ic0:
+    maxreprocess: 0.55
+    reprocess:
+      Ukomi Superconductors: 2
+      Tritanium: 27778
+      Pyerite: 12222
+      Mexallon: 10000
+      Isogen: 2778
+      Nocxium: 389
+      Organic Mortar Applicators: 2
+      Zydrine: 1112
+      Megacyte: 88
+      Wetware Mainframe: 1
+  unnamed_g2006_ic21823:
+    maxreprocess: 0.8934
+    reprocess:
+      unnamed_g18_ic21784: 4
+  unnamed_g2008_ic97:
+    maxreprocess: 0.55
+    productManuf: !!set
+      unnamed_g2010_ic97: null
+    reprocess:
+      Tritanium: 66156
+      Pyerite: 36064
+      Mexallon: 17147
+      Isogen: 9360
+      Nocxium: 2824
+      Zydrine: 204
+      Megacyte: 40
   ‘Cold Wind’ Kinetic Reaper:
     maxreprocess: 0.55
     productManuf: !!set
@@ -108185,7 +108259,7 @@ usages:
       Nocxium: 352339
       Zydrine: 40521
       Megacyte: 49074
-  ‘Guillotine’ Thermal Reaper:
+  ‘Guillotine��� Thermal Reaper:
     maxreprocess: 0.55
     productManuf: !!set
       ‘Guillotine’ Thermal Reaper Blueprint: null
@@ -108267,7 +108341,7 @@ usages:
   万王宝座级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      万王宝座级YC117年特别版蓝图: null
+      万���宝座级YC117年特别版蓝图: null
     reprocess:
       Megathron: 1
   乌鸦级YC117年特别版:
@@ -108291,13 +108365,13 @@ usages:
   地狱天使级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      地狱天使级YC117年特别版蓝图: null
+      地狱天使级YC117��特别版蓝图: null
     reprocess:
       Abaddon: 1
-  多米尼克斯级YC117年特别版:
+  多米尼克斯级YC117年特别���:
     maxreprocess: 0.55
     productManuf: !!set
-      多米尼克斯���YC117年特别版蓝图: null
+      多米尼克斯级YC117年特别版蓝图: null
     reprocess:
       Dominix: 1
   幼龙级YC117年特别版:
@@ -108315,7 +108389,7 @@ usages:
   毒蜥级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      ���蜥级YC117年特别版蓝图: null
+      毒蜥级YC117年特别版蓝图: null
     reprocess:
       Gila: 1
   灾难级YC117年特别版:
@@ -108324,7 +108398,7 @@ usages:
       灾难级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
-  银鹰级YC117年特��版:
+  银鹰级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       银鹰级YC117年特别版蓝图: null

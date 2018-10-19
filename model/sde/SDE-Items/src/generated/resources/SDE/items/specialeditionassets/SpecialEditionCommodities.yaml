@@ -373,11 +373,11 @@ items:
     name: Deactivated Station Key Pass
     published: true
     volume: 0.01
-  Decomissioned ERIC Prototype:
+  Decommissioned ERIC Prototype:
     CpuMultiplier: 1.0
     id: 48758
     marketGroup: 1661
-    name: Decomissioned ERIC Prototype
+    name: Decommissioned ERIC Prototype
     published: true
     volume: 1.0
   Defunct Name Change Token:
@@ -1332,6 +1332,27 @@ items:
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     published: true
     volume: 3.0
+  unnamed_g1194_ic10886:
+    CpuMultiplier: 1.0
+    id: 49621
+    marketGroup: 1661
+    name: unnamed_g1194_ic10886
+    published: true
+    volume: 1.0
+  unnamed_g1194_ic10887:
+    CpuMultiplier: 1.0
+    id: 49620
+    marketGroup: 1661
+    name: unnamed_g1194_ic10887
+    published: true
+    volume: 1.0
+  unnamed_g1194_ic1196:
+    CpuMultiplier: 1.0
+    id: 49619
+    marketGroup: 1661
+    name: unnamed_g1194_ic1196
+    published: true
+    volume: 0.2
   unnamed_g1194_ic21900:
     CpuMultiplier: 1.0
     id: 48928

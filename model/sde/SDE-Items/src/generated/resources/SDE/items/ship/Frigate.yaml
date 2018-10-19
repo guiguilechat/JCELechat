@@ -866,14 +866,14 @@ items:
     HullKineticDamageResonance: 1.0
     HullThermalDamageResonance: 1.0
     KineticDamageResonance: 0.6700000166893005
-    LowSlots: 4
+    LowSlots: 3
     MainColor: 16777215
     MaxDirectionalVelocity: 3000
     MaxLockedTargets: 5
     MaxPassengers: 12
     MaxTargetRange: 42000
     MaxVelocity: 350.0
-    MedSlots: 2
+    MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiningAmountMultiplier: 1.0
     PowerOutput: 50

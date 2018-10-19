@@ -9,7 +9,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 9000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 3
     MetaLevel: 6
     OverloadRangeBonus: 20
@@ -102,7 +102,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 10000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -167,7 +167,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 11250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -217,7 +217,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 12250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -267,7 +267,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 11250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -317,7 +317,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 10000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -344,7 +344,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 8250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadRangeBonus: 20
     Power: 1
@@ -415,7 +415,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 10500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -465,7 +465,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 14250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 5
     MetaLevel: 15
     OverloadRangeBonus: 20
@@ -515,7 +515,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 13500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadRangeBonus: 20
@@ -542,7 +542,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 9250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadRangeBonus: 20
     Power: 5000
@@ -612,7 +612,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 8500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadRangeBonus: 20
     Power: 4000
@@ -660,7 +660,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 8500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadRangeBonus: 20
     Power: 5000
@@ -729,7 +729,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 8500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     OverloadRangeBonus: 20
     Power: 5000
     RequiredSkill1: 3435
@@ -754,7 +754,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 10000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 5
     OverloadRangeBonus: 20
     Power: 6000
@@ -802,7 +802,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 7500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadRangeBonus: 20
     Power: 1
@@ -850,7 +850,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 7500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadRangeBonus: 20
     Power: 1
@@ -899,7 +899,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 10000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -949,7 +949,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 12750
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadRangeBonus: 20
@@ -999,7 +999,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 11250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -1049,7 +1049,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 11250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -1099,7 +1099,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 10500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -1149,7 +1149,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 15000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 5
     MetaLevel: 17
     OverloadRangeBonus: 20
@@ -1199,7 +1199,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 11250
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadRangeBonus: 20
@@ -1267,7 +1267,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 7500
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     OverloadRangeBonus: 20
     Power: 1
     RequiredSkill1: 3435
@@ -1292,7 +1292,7 @@ items:
     HeatDamage: 5.0
     Hp: 40
     MaxRange: 9000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 5
     OverloadRangeBonus: 20
     Power: 1

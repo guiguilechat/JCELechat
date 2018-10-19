@@ -306,48 +306,6 @@ public class Titan
     @DefaultIntValue(0)
     public int NosOverride;
     /**
-     * Range of the explosion when the ship dies.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OnDeathAOERadius;
-    /**
-     * EM Damage when the ship dies
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OnDeathDamageEM;
-    /**
-     * Explosive Damage when the ship dies
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OnDeathDamageExp;
-    /**
-     * Kinetic Damage when the ship dies
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OnDeathDamageKin;
-    /**
-     * Thermal Damage when the ship dies
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OnDeathDamageTherm;
-    /**
-     * Signature Radius of Explosion (cloud factor) when ship dies
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OnDeathSignatureRadius;
-    /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
      */
     @HighIsGood(true)
@@ -763,30 +721,6 @@ public class Titan
             case  1945 :
             {
                 return NosOverride;
-            }
-            case  2275 :
-            {
-                return OnDeathAOERadius;
-            }
-            case  2271 :
-            {
-                return OnDeathDamageEM;
-            }
-            case  2274 :
-            {
-                return OnDeathDamageExp;
-            }
-            case  2273 :
-            {
-                return OnDeathDamageKin;
-            }
-            case  2272 :
-            {
-                return OnDeathDamageTherm;
-            }
-            case  2276 :
-            {
-                return OnDeathSignatureRadius;
             }
             case  2135 :
             {

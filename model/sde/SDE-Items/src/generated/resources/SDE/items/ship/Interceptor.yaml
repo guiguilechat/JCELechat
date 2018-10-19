@@ -157,7 +157,6 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
-    WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11196
@@ -166,7 +165,7 @@ items:
     published: true
     volume: 17400.0
   Crow:
-    Agility: 3.700000047683716
+    Agility: 3.25
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
     ArmorHP: 325
@@ -318,7 +317,6 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
-    WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11184
@@ -568,7 +566,6 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
-    WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11178
@@ -734,7 +731,6 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
-    WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11200

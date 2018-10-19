@@ -1778,11 +1778,6 @@ items:
     name: Tough Gallente Starbase Control Tower
     published: false
     volume: 1150.0
-  Triglavian Bioadaptive Cache:
-    id: 47951
-    name: Triglavian Bioadaptive Cache
-    published: false
-    volume: 1.0E8
   Tutorial Fuel Depot:
     id: 3858
     name: Tutorial Fuel Depot
@@ -1838,3 +1833,8 @@ items:
     name: Worn Talocan Static Gate
     published: false
     volume: 1.0E8
+  unnamed_g319_ic0:
+    id: 48962
+    name: unnamed_g319_ic0
+    published: false
+    volume: 1.0

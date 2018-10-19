@@ -130,6 +130,13 @@ public class SuperWeapon
     @DefaultIntValue(0)
     public int DisallowRepeatingActivation;
     /**
+     * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowTethering;
+    /**
      * Radius of the AOE Effect
      */
     @HighIsGood(true)
@@ -438,6 +445,10 @@ public class SuperWeapon
             case  1014 :
             {
                 return DisallowRepeatingActivation;
+            }
+            case  2343 :
+            {
+                return DisallowTethering;
             }
             case  2279 :
             {

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.items.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 
 
 /**
  * Maximum velocity multiplier
  */
 public class MaxVelocityMultiplier
-    extends IntAttribute
+    extends DoubleAttribute
 {
     public final static MaxVelocityMultiplier INSTANCE = new MaxVelocityMultiplier();
 

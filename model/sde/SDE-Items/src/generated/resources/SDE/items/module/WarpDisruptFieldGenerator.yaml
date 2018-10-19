@@ -11,8 +11,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
     Hp: 40
-    MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -33.29999923706055
@@ -24,8 +23,6 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 50.0
-    SpeedBoostFactorBonus: -70
-    SpeedFactorBonus: -80
     TechLevel: 1
     WarpScrambleRange: 21000
     WarpScrambleStrength: 100
@@ -46,8 +43,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
     Hp: 40
-    MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
@@ -58,8 +54,6 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 50.0
-    SpeedBoostFactorBonus: -70
-    SpeedFactorBonus: -80
     TechLevel: 1
     WarpScrambleRange: 18000
     WarpScrambleStrength: 100
@@ -80,8 +74,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
     Hp: 40
-    MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
@@ -92,8 +85,6 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 50.0
-    SpeedBoostFactorBonus: -75
-    SpeedFactorBonus: -85
     TechLevel: 1
     WarpScrambleRange: 18000
     WarpScrambleStrength: 100
@@ -114,8 +105,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
     Hp: 40
-    MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 76
@@ -126,8 +116,6 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 50.0
-    SpeedBoostFactorBonus: -75
-    SpeedFactorBonus: -85
     TechLevel: 1
     WarpScrambleRange: 18000
     WarpScrambleStrength: 100
@@ -148,8 +136,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
     Hp: 40
-    MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaGroupID: 4
     MetaLevel: 8
     OverloadSelfDurationBonus: -33.29999923706055
@@ -161,8 +148,6 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 50.0
-    SpeedBoostFactorBonus: -70
-    SpeedFactorBonus: -80
     TechLevel: 1
     WarpScrambleRange: 21000
     WarpScrambleStrength: 100
@@ -182,8 +167,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
     Hp: 40
-    MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 80
     ReloadTime: 0.009999999776482582
@@ -193,8 +177,6 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 50.0
-    SpeedBoostFactorBonus: -75
-    SpeedFactorBonus: -85
     TechLevel: 1
     WarpScrambleRange: 16000
     WarpScrambleStrength: 100
@@ -215,8 +197,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.0
     Hp: 40
-    MassBonusPercentage: -80
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -33.29999923706055
     Power: 84
@@ -227,8 +208,6 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 50.0
-    SpeedBoostFactorBonus: -80
-    SpeedFactorBonus: -90
     TechLevel: 2
     WarpScrambleRange: 20000
     WarpScrambleStrength: 100

@@ -120,7 +120,7 @@ items:
     published: false
     volume: 17500.0
   ♦ Merlin:
-    id: 43566
+    id: 46070
     name: ♦ Merlin
     published: false
     volume: 16500.0
@@ -204,8 +204,8 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  ��� Merlin:
-    id: 46070
-    name: ��� Merlin
+  �� Executioner:
+    id: 42843
+    name: �� Executioner
     published: false
-    volume: 16500.0
+    volume: 28100.0

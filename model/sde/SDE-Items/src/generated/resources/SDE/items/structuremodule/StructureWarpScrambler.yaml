@@ -14,7 +14,7 @@ items:
     MaxGroupFitted: 1
     MaxGroupOnline: 1
     MaxRange: 210000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     ModuleReactivationDelay: 60000
     Power: 50000
     ReloadTime: 0.009999999776482582
@@ -41,7 +41,7 @@ items:
     MaxGroupFitted: 1
     MaxGroupOnline: 1
     MaxRange: 300000
-    MaxVelocityMultiplier: 1
+    MaxVelocityMultiplier: 1.0
     MetaLevel: 5
     ModuleReactivationDelay: 60000
     Power: 60000

@@ -78,8 +78,8 @@ public class WarpScrambler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxVelocityMultiplier;
+    @DefaultDoubleValue(0.0)
+    public double MaxVelocityMultiplier;
     /**
      * Authoring has been moved to FSD.
      * meta group of type

@@ -60,9 +60,6 @@ items:
     MaxPassengers: 150
     MaxTargetRange: 250000
     MedSlots: 5
-    OnDeathAOERadius: 10000
-    OnDeathDamageEM: 200000
-    OnDeathSignatureRadius: 20000
     PowerOutput: 1250000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -173,9 +170,6 @@ items:
     MaxPassengers: 1500
     MaxTargetRange: 250000
     MedSlots: 6
-    OnDeathAOERadius: 10000
-    OnDeathDamageTherm: 200000
-    OnDeathSignatureRadius: 20000
     PowerOutput: 1050000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -294,9 +288,6 @@ items:
     MedSlots: 8
     MetaGroupID: 4
     MetaLevel: 8
-    OnDeathAOERadius: 10000
-    OnDeathDamageKin: 200000
-    OnDeathSignatureRadius: 20000
     PowerOutput: 840000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -414,9 +405,6 @@ items:
     MaxPassengers: 1500
     MaxTargetRange: 250000
     MedSlots: 8
-    OnDeathAOERadius: 10000
-    OnDeathDamageKin: 200000
-    OnDeathSignatureRadius: 20000
     PowerOutput: 755000
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -532,9 +520,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     NosOverride: 1
-    OnDeathAOERadius: 10000
-    OnDeathDamageEM: 200000
-    OnDeathSignatureRadius: 20000
     PowerOutput: 1375000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -649,9 +634,6 @@ items:
     MaxPassengers: 150
     MaxTargetRange: 250000
     MedSlots: 7
-    OnDeathAOERadius: 10000
-    OnDeathDamageExp: 200000
-    OnDeathSignatureRadius: 20000
     PowerOutput: 965000
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -765,10 +747,6 @@ items:
     MedSlots: 6
     MetaGroupID: 4
     MetaLevel: 8
-    OnDeathAOERadius: 10000
-    OnDeathDamageExp: 100000
-    OnDeathDamageTherm: 100000
-    OnDeathSignatureRadius: 20000
     PowerOutput: 1155000
     PowerToSpeed: 1
     PropulsionGraphicID: 394
