@@ -1,14 +1,14 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_bids_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_contracts_public_items_contract_id;
@@ -30,9 +30,15 @@ public class Contracts {
 		public R_get_contracts_public_region_id details = null;
 		public List<R_get_contracts_public_items_contract_id> items = null;
 		public List<R_get_contracts_public_bids_contract_id> bids = null;
+
+		@Override
+		public String toString() {
+			return "contract" + (details == null ? "null" : details.contract_id);
+		}
 	}
 
 	private HashMap<Integer, ObsListHolder<ContractDesc>> caches = new HashMap<>();
+
 
 	/** observe the contracts on given region. */
 	public ObsListHolder<ContractDesc> get(int regionId) {
@@ -45,36 +51,32 @@ public class Contracts {
 					ret = new ObsListHolderImpl<>(underlying);
 					ObsListHolder<R_get_contracts_public_region_id> CHolder = esiConnection.cache.contracts.getpublic(regionId);
 					CHolder.follow(c -> {
+						Stream<R_get_contracts_public_region_id> stream = Stream.empty();
 						while (c.next()) {
 							// contracts can't be changed : only removed and added
 							if (c.wasRemoved()) {
 								for (R_get_contracts_public_region_id it : c.getRemoved()) {
+									LockWatchDog.BARKER.tak(underlying);
 									synchronized (underlying) {
-										System.err.println("remove contract " + it.contract_id);
+										LockWatchDog.BARKER.hld(underlying);
 										underlying.removeIf(con -> con.details.contract_id == it.contract_id);
 									}
+									LockWatchDog.BARKER.rel(underlying);
 								}
 							}
 							if (c.wasAdded()) {
-								ArrayList<ContractFetcher> fetchers = new ArrayList<>();
-								for (R_get_contracts_public_region_id it : c.getAddedSubList()) {
-									System.err.println("new contract to fetch " + it.contract_id);
-									ContractFetcher fetcher = new ContractFetcher(it, underlying);
-									esiConnection.exec.schedule(fetcher, 0, TimeUnit.SECONDS);
-									fetchers.add(fetcher);
-								}
-								System.err.println("one pass of contracts is scheduled to fetch");
-								// once all fetchers have received data, the returned list is
-								// notified the first pass is done.
-								esiConnection.exec.schedule(() -> {
-									for (ContractFetcher cf : fetchers) {
-										cf.waitData();
-									}
-									CHolder.dataReceived();
-									System.err.println("contract description complete");
-								}, 0, TimeUnit.SECONDS);
+								stream = Stream.concat(stream, c.getAddedSubList().stream());
 							}
 						}
+						List<ContractFetcher> tmplist = stream.map(ContractFetcher::new).collect(Collectors.toList());
+						List<ContractDesc> newContracts = tmplist.stream().map(ContractFetcher::get)
+								.collect(Collectors.toList());
+						LockWatchDog.BARKER.tak(underlying);
+						synchronized (underlying) {
+							LockWatchDog.BARKER.hld(underlying);
+							underlying.addAll(newContracts);
+						}
+						LockWatchDog.BARKER.rel(underlying);
 					});
 					caches.put(regionId, ret);
 				}
@@ -84,49 +86,49 @@ public class Contracts {
 	}
 
 	/**
-	 * fetch the data for a contract, then add the whole details to an underlying
-	 * collection.
+	 * fetch the data for a contract when run. the get() method schedules the
+	 * run(), then wiatfor its completion.
 	 *
 	 */
 	private class ContractFetcher implements Runnable {
 
 		R_get_contracts_public_region_id contract;
 
-		Collection<ContractDesc> storage;
-
-		public ContractFetcher(R_get_contracts_public_region_id contract, Collection<ContractDesc> storage) {
+		public ContractFetcher(R_get_contracts_public_region_id contract) {
 			this.contract = contract;
-			this.storage = storage;
+			esiConnection.exec.submit(this);
 		}
 
 		CountDownLatch waitData = new CountDownLatch(1);
 
+		private ContractDesc ret;
+
 		@Override
 		public void run() {
-			ContractDesc newdesc = new ContractDesc();
-			newdesc.details = contract;
-			newdesc.items = "auction".equals(contract.type) || "item_exchange".equals(contract.type)
-					? ConnectedImpl.loadPages((p, h) -> esiConnection.get_contracts_public_items(contract.contract_id, p, h),
-							null)
-					: Collections.emptyList();
-			newdesc.bids = "auction".equals(contract.type)
-					? ConnectedImpl.loadPages((p, h) -> esiConnection.get_contracts_public_bids(contract.contract_id, p, h), null)
-					: Collections.emptyList();
-			System.err.println("details for contract " + contract.contract_id + " acquired, items:" + newdesc.items.size()
-					+ " bids:" + newdesc.bids.size());
-
-			synchronized (storage) {
-				storage.add(newdesc);
+			ret = new ContractDesc();
+			ret.details = contract;
+			if ("auction".equals(contract.type) || "item_exchange".equals(contract.type)) {
+				ret.items = ConnectedImpl
+						.loadPages((p, h) -> esiConnection.get_contracts_public_items(contract.contract_id, p, h), null);
+			} else {
+				ret.items = Collections.emptyList();
+			}
+			if ("auction".equals(contract.type)) {
+				ret.bids = ConnectedImpl
+						.loadPages((p, h) -> esiConnection.get_contracts_public_bids(contract.contract_id, p, h), null);
+			} else {
+				ret.bids = Collections.emptyList();
 			}
 			waitData.countDown();
 		}
 
-		public void waitData() {
+		public ContractDesc get() {
 			try {
 				waitData.await();
 			} catch (InterruptedException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
+			return ret;
 		}
 
 	}
