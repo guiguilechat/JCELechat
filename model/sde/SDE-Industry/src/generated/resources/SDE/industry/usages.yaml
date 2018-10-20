@@ -4934,7 +4934,7 @@ usages:
       Megacyte: 2
   Abaddon:
     materialManuf: !!set
-      地狱天使级YC117��特别版蓝图: null
+      地狱天使级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Abaddon Blueprint: null
@@ -7461,7 +7461,7 @@ usages:
   Apocalypse:
     materialManuf: !!set
       Paladin Blueprint: null
-      灾难级YC117年特别版蓝图: null
+      灾��级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Apocalypse Blueprint: null
@@ -30303,7 +30303,7 @@ usages:
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
-      ��龙级YC117年特别版蓝图: null
+      幼龙级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Drake Blueprint: null
@@ -108259,7 +108259,7 @@ usages:
       Nocxium: 352339
       Zydrine: 40521
       Megacyte: 49074
-  ‘Guillotine��� Thermal Reaper:
+  ‘Guillotine’ Thermal Reaper:
     maxreprocess: 0.55
     productManuf: !!set
       ‘Guillotine’ Thermal Reaper Blueprint: null
@@ -108338,7 +108338,7 @@ usages:
       Construction Blocks: 30
       Tungsten Carbide Armor Plate: 300
       Antimatter Reactor Unit: 6
-  万王宝座级YC117年特别版:
+  万���宝座级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       万���宝座级YC117年特别版蓝图: null
@@ -108356,30 +108356,18 @@ usages:
       伊什塔级YC117年特别版蓝图: null
     reprocess:
       Ishtar: 1
-  响尾蛇级YC117年特别版:
-    maxreprocess: 0.55
-    productManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
-    reprocess:
-      Rattlesnake: 1
   地狱天使级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      地狱天使级YC117��特别版蓝图: null
+      地狱天使级YC117年特别版蓝图: null
     reprocess:
       Abaddon: 1
-  多米尼克斯级YC117年特别���:
+  多米尼克斯级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       多米尼克斯级YC117年特别版蓝图: null
     reprocess:
       Dominix: 1
-  幼龙级YC117年特别版:
-    maxreprocess: 0.55
-    productManuf: !!set
-      ��龙级YC117年特别版蓝图: null
-    reprocess:
-      Drake: 1
   末日沙场级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
@@ -108395,10 +108383,10 @@ usages:
   灾难级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      灾难级YC117年特别版蓝图: null
+      灾��级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
-  银鹰级YC117年特别版:
+  银鹰级YC117��特别版:
     maxreprocess: 0.55
     productManuf: !!set
       银鹰级YC117年特别版蓝图: null
@@ -108410,3 +108398,15 @@ usages:
       马克瑞级YC117年特别版蓝图: null
     reprocess:
       Machariel: 1
+  ��龙级YC117年特别版:
+    maxreprocess: 0.55
+    productManuf: !!set
+      幼龙级YC117年特别版蓝图: null
+    reprocess:
+      Drake: 1
+  ���尾蛇级YC117年特别版:
+    maxreprocess: 0.55
+    productManuf: !!set
+      响尾蛇级YC117年特别版蓝图: null
+    reprocess:
+      Rattlesnake: 1

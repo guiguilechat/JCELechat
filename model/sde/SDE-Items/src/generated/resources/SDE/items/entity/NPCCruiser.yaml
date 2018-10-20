@@ -5,7 +5,7 @@ items:
     published: false
     volume: 60.0
   ♦ Arbitrator:
-    id: 43559
+    id: 43603
     name: ♦ Arbitrator
     published: false
     volume: 120000.0
@@ -119,8 +119,8 @@ items:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  ��� Arbitrator:
-    id: 43603
-    name: ��� Arbitrator
+  �� Rupture:
+    id: 43590
+    name: �� Rupture
     published: false
-    volume: 120000.0
+    volume: 96000.0

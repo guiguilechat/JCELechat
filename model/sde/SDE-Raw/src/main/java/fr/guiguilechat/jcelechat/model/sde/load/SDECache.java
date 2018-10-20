@@ -40,7 +40,7 @@ public class SDECache {
 	/**
 	 * where we want to extract the SDE
 	 */
-	protected File CACHEDIR = new File("target/");
+	protected File CACHEDIR = new File(System.getProperties().getProperty("user.tmpDir", "target/"));
 
 	public File cacheDir() {
 		return CACHEDIR;
@@ -72,13 +72,15 @@ public class SDECache {
 		String url = findLastURL();
 		try {
 			if (LAST_DL.exists() && url.equals(new BufferedReader(new FileReader(LAST_DL)).readLine())) {
+				logger.info("already last version of sde in  " + CACHEDIR.getAbsolutePath());
 				return;
 			}
 			if(LAST_DL.exists()) {
-				logger.info("new version of sde to download from " + url);
+				logger.info("new version of sde to download from " + url + " into " + CACHEDIR.getAbsolutePath());
 			} else {
 				logger.info(
-						"no existing download information in file " + LAST_DL.getAbsolutePath() + ", downloading sde from " + url);
+						"no existing download information in file " + LAST_DL.getAbsolutePath() + ", downloading sde from " + url
+						+ " into " + CACHEDIR.getAbsolutePath());
 			}
 		} catch (IOException e1) {
 			System.err.println(e1);

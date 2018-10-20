@@ -398,7 +398,7 @@ items:
     name: ‘Geiravor’ Explosive Lance
     published: true
     volume: 8000.0
-  ‘Guillotine��� Thermal Reaper:
+  ‘Guillotine’ Thermal Reaper:
     CanCloak: 1
     CanFitShipType1: 671
     CanFitShipType2: 42126
@@ -443,7 +443,7 @@ items:
     ThermalDamage: 100000.0
     id: 41443
     marketGroup: 2269
-    name: ‘Guillotine��� Thermal Reaper
+    name: ‘Guillotine’ Thermal Reaper
     published: true
     volume: 8000.0
   ‘Holy Destiny’ Electromagnetic Lance:
