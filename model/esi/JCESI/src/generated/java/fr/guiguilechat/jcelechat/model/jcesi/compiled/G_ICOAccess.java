@@ -4,8 +4,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_assets_8;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_characters_character_mail_recipients_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contacts_labels_2;
@@ -19,7 +17,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_post_assets_lo
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_post_assets_names_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_alliances_alliance_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_agents_research;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_attributes;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_bookmarks_folders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_calendar;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_calendar_event_id;
@@ -59,6 +59,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporation_corporation_id_mining_extractions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporation_corporation_id_mining_observers;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporation_corporation_id_mining_observers_observer_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_assets;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_containers_logs;
@@ -1887,10 +1889,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default M_get_blueprints_8 [] get_characters_blueprints(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default R_get_characters_character_id_blueprints[] get_characters_blueprints(int character_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_blueprints_8[].class));
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_blueprints[].class));
     }
 
     /**
@@ -2153,10 +2155,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default M_get_blueprints_8 [] get_corporations_blueprints(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default R_get_corporations_corporation_id_blueprints[] get_corporations_blueprints(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/blueprints/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_blueprints_8[].class));
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_blueprints[].class));
     }
 
     /**
@@ -2289,10 +2291,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default M_get_assets_8 [] get_characters_assets(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default R_get_characters_character_id_assets[] get_characters_assets(int character_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v3/characters/{character_id}/assets/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_assets_8[].class));
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_assets[].class));
     }
 
     /**
@@ -2437,10 +2439,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default M_get_assets_8 [] get_corporations_assets(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default R_get_corporations_corporation_id_assets[] get_corporations_assets(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/assets/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_assets_8[].class));
+        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_assets[].class));
     }
 
     /**

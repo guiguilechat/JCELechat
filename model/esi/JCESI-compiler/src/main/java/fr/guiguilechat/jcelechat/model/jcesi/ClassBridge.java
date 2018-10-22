@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -167,7 +168,7 @@ public class ClassBridge {
 
 	protected void registerResponseType(String name, ObjectProperty structure) {
 		Map<String, String> classDef = structure.getProperties().entrySet().stream()
-				.collect(Collectors.toMap(Entry::getKey, e -> e.getValue().getType()));
+				.collect(Collectors.toMap(Entry::getKey, e -> propertyTypeExtended(e.getValue())));
 		Set<String> set = responseStructures.get(classDef);
 		if (set == null) {
 			set = new HashSet<>();
@@ -176,12 +177,26 @@ public class ClassBridge {
 		set.add(name);
 	}
 
+	protected static String propertyTypeExtended(Property structure) {
+		String ret = structure.getType();// + (structure.getFormat() != null ? "(" +
+		// structure.getFormat() + ")" : "");
+		if (structure instanceof StringProperty) {
+			List<String> enums = ((StringProperty) structure).getEnum();
+			if (enums != null) {
+				enums = new ArrayList<>(enums);
+				Collections.sort(enums);
+				ret += enums;
+			}
+		}
+		return ret;
+	}
+
 	/**
 	 * get the {@link ObjectProperty} at first or second level from a property. If
 	 * the property defines an object, return it ; if the property defines an
 	 * array, return the item type fo the array.<br />
-	 * So pasing as parameters a property which defines int[] or one which defines
-	 * int will both return int.
+	 * So passing as parameters a property which defines int[] or one which
+	 * defines int will both return int.
 	 *
 	 * @param s
 	 * @return the corresponding object property, or null.
@@ -272,10 +287,6 @@ public class ClassBridge {
 		AbstractJType ret = getExistingClass(p.getType(), name, p.getFormat(),
 				p instanceof StringProperty ? ((StringProperty) p).getEnum() : null);
 		if (ret != null) {
-			// if (ret == cm.ref(String.class)) {
-			// System.err.println(p.getTitle() + " already translated to string " +
-			// p);
-			// }
 			return ret;
 		}
 		switch (p.getType()) {
@@ -354,7 +365,7 @@ public class ClassBridge {
 
 	public static String sanitizeEnumName(String s) {
 		if (PathTranslator.keywords.contains(s)) {
-			return "_"+s;
+			return "_" + s;
 		}
 		String ret = s.replaceAll("[- #]", "_");
 		if (ret.matches("^[0-9].*")) {
@@ -391,8 +402,9 @@ public class ClassBridge {
 	protected HashMap<Map<String, String>, JDefinedClass> createdClasses = new HashMap<>();
 
 	protected JDefinedClass translateToClass(ObjectProperty p, JPackage pck, String name) {
+
 		Map<String, String> classDef = p.getProperties().entrySet().stream()
-				.collect(Collectors.toMap(Entry::getKey, e -> e.getValue().getType()));
+				.collect(Collectors.toMap(Entry::getKey, e -> propertyTypeExtended(e.getValue())));
 		JDefinedClass createdClass = createdClasses.get(classDef);
 		if (createdClass != null) {
 			return createdClass;

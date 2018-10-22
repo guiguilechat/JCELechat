@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_blueprints_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_blueprints_location_flag;
 
-public class M_get_blueprints_8 {
+public class R_get_corporations_corporation_id_blueprints {
     /**
      * Unique ID for this item.
      */
@@ -10,9 +10,9 @@ public class M_get_blueprints_8 {
     /**
      * Type of the location_id
      */
-    public get_characters_character_id_blueprints_location_flag location_flag;
+    public get_corporations_corporation_id_blueprints_location_flag location_flag;
     /**
-     * References a solar system, station or item_id if this blueprint is located within a container. If the return value is an item_id, then the Character AssetList API must be queried to find the container using the given item_id to determine the correct location of the Blueprint.
+     * References a solar system, station or item_id if this blueprint is located within a container.
      */
     public long location_id;
     /**
@@ -44,7 +44,7 @@ public class M_get_blueprints_8 {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        M_get_blueprints_8 othersame = ((M_get_blueprints_8) other);
+        R_get_corporations_corporation_id_blueprints othersame = ((R_get_corporations_corporation_id_blueprints) other);
         if (item_id!= othersame.item_id) {
             return false;
         }

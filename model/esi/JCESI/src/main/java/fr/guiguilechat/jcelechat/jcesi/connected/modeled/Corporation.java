@@ -11,10 +11,10 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Bookmarks;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_assets_8;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_blueprints_8;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_assets;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_assets_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
@@ -70,14 +70,14 @@ public class Corporation {
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
 				Map<String, List<String>> headerandler = new HashMap<>();
-				M_get_assets_8[] itemsArr = ESIConnected
+				R_get_corporations_corporation_id_assets[] itemsArr = ESIConnected
 						.loadPages(
 								(p, h) -> con.raw.get_corporations_assets(con.character.infos.corporationId().get(), p,
 										h),
 								headerandler)
 						.stream()
-						.filter(asset -> !get_characters_character_id_assets_location_flag.AutoFit.equals(asset.location_flag))
-						.toArray(M_get_assets_8[]::new);
+						.filter(asset -> !get_corporations_corporation_id_assets_location_flag.AutoFit.equals(asset.location_flag))
+						.toArray(R_get_corporations_corporation_id_assets[]::new);
 				assetsExpire = ConnectedImpl.getNbPages(headerandler);
 				// we make the map of itemid->locations. if a location is actually an
 				// asset, we
@@ -109,7 +109,7 @@ public class Corporation {
 		return cachedAssets;
 	}
 
-	private static Map<Integer, Integer> makeMap(M_get_assets_8 asset) {
+	private static Map<Integer, Integer> makeMap(R_get_corporations_corporation_id_assets asset) {
 		Map<Integer, Integer> ret = new HashMap<>();
 		ret.put(asset.type_id, asset.quantity);
 		return ret;
@@ -122,7 +122,7 @@ public class Corporation {
 		return m1;
 	}
 
-	public ObsMapHolder<Long, M_get_blueprints_8> getBlueprints() {
+	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
 		return con.raw.cache.corporations
 				.blueprints(con.character.infos.corporationId().get());
 	}

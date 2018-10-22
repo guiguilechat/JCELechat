@@ -11,8 +11,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.keys.K_11_int_int_Long;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.keys.K_20_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.keys.K_8_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.keys.K_9_int_Boolean;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_assets_8;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_22;
@@ -21,6 +19,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_contracts_
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_standings_3;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_assets;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_containers_logs;
@@ -80,12 +80,12 @@ public class Corporations {
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_titles>> get_corporations_corporation_id_titles_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_wallets>> get_corporations_corporation_id_wallets_holder = new HashMap<>();
     private final Map<K_11_int_int_Long, ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions>> get_corporations_corporation_id_wallets_division_transactions_holder = new HashMap<>();
-    private final Map<Integer, ObsMapHolder<Long, M_get_blueprints_8>> get_corporations_corporation_id_blueprints_holder = new HashMap<>();
+    private final Map<Integer, ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints>> get_corporations_corporation_id_blueprints_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_containers_logs>> get_corporations_corporation_id_containers_logs_holder = new HashMap<>();
     private final Map<Integer, ObsMapHolder<Long, R_get_corporations_corporation_id_orders_history>> get_corporations_corporation_id_orders_history_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolder<M_get_assets_8>> get_corporations_corporation_id_assets_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_assets>> get_corporations_corporation_id_assets_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<Integer, ObsMapHolder<Long, R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
     private final Map<K_20_int_int, ObsMapHolder<Long, M_get_journal_13>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
@@ -1157,8 +1157,8 @@ public class Corporations {
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public ObsMapHolder<Long, M_get_blueprints_8> blueprints(int corporation_id) {
-        ObsMapHolder<Long, M_get_blueprints_8> ret = get_corporations_corporation_id_blueprints_holder.get(corporation_id);
+    public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> blueprints(int corporation_id) {
+        ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> ret = get_corporations_corporation_id_blueprints_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_blueprints_holder);
             synchronized (get_corporations_corporation_id_blueprints_holder)
@@ -1166,17 +1166,17 @@ public class Corporations {
                 LockWatchDog.BARKER.hld(get_corporations_corporation_id_blueprints_holder);
                 ret = get_corporations_corporation_id_blueprints_holder.get(corporation_id);
                 if (ret == null) {
-                    ObservableMap<Long, M_get_blueprints_8> holder = FXCollections.observableHashMap();
+                    ObservableMap<Long, R_get_corporations_corporation_id_blueprints> holder = FXCollections.observableHashMap();
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_blueprints_holder.put(corporation_id, ret);
-                    ObsMapHolder<Long, M_get_blueprints_8> finalRet = ret;
+                    ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> finalRet = ret;
                     (cache).addFetchCacheArray("get_corporations_corporation_id_blueprints", (page, headerHandler) -> (cache.swagger).get_corporations_blueprints(corporation_id, page, headerHandler), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Long, M_get_blueprints_8> newmap = new LinkedHashMap<>();
-                            for (M_get_blueprints_8 val: arr) {
+                            LinkedHashMap<Long, R_get_corporations_corporation_id_blueprints> newmap = new LinkedHashMap<>();
+                            for (R_get_corporations_corporation_id_blueprints val: arr) {
                                 newmap.put((val.item_id), (val));
                             }
                             holder.keySet().retainAll(newmap.keySet());
@@ -1362,8 +1362,8 @@ public class Corporations {
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public ObsListHolder<M_get_assets_8> assets(int corporation_id) {
-        ObsListHolder<M_get_assets_8> ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+    public ObsListHolder<R_get_corporations_corporation_id_assets> assets(int corporation_id) {
+        ObsListHolder<R_get_corporations_corporation_id_assets> ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_assets_holder);
             synchronized (get_corporations_corporation_id_assets_holder)
@@ -1371,10 +1371,10 @@ public class Corporations {
                 LockWatchDog.BARKER.hld(get_corporations_corporation_id_assets_holder);
                 ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
                 if (ret == null) {
-                    ObservableList<M_get_assets_8> holder = FXCollections.observableArrayList();
+                    ObservableList<R_get_corporations_corporation_id_assets> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_assets_holder.put(corporation_id, ret);
-                    ObsListHolder<M_get_assets_8> finalRet = ret;
+                    ObsListHolder<R_get_corporations_corporation_id_assets> finalRet = ret;
                     (cache).addFetchCacheArray("get_corporations_corporation_id_assets", (page, headerHandler) -> (cache.swagger).get_corporations_assets(corporation_id, page, headerHandler), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)

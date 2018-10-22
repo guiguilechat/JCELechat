@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiled.responses;
 
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_assets_location_flag;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_assets_location_type;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_assets_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_assets_location_type;
 
-public class M_get_assets_8 {
+public class R_get_corporations_corporation_id_assets {
     /**
      * is_blueprint_copy boolean
      */
@@ -19,7 +19,7 @@ public class M_get_assets_8 {
     /**
      * location_flag string
      */
-    public get_characters_character_id_assets_location_flag location_flag;
+    public get_corporations_corporation_id_assets_location_flag location_flag;
     /**
      * location_id integer
      */
@@ -27,7 +27,7 @@ public class M_get_assets_8 {
     /**
      * location_type string
      */
-    public get_characters_character_id_assets_location_type location_type;
+    public get_corporations_corporation_id_assets_location_type location_type;
     /**
      * quantity integer
      */
@@ -45,7 +45,7 @@ public class M_get_assets_8 {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        M_get_assets_8 othersame = ((M_get_assets_8) other);
+        R_get_corporations_corporation_id_assets othersame = ((R_get_corporations_corporation_id_assets) other);
         if (is_blueprint_copy!= othersame.is_blueprint_copy) {
             return false;
         }

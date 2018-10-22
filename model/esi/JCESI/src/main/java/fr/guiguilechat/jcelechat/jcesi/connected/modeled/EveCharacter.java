@@ -15,8 +15,8 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Bookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.LocationCache;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_assets_8;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_blueprints_8;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_assets;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_orders;
@@ -200,7 +200,7 @@ public class EveCharacter {
 	//
 
 
-	public ObsMapHolder<Long, M_get_blueprints_8> getBlueprints() {
+	public ObsMapHolder<Long, R_get_characters_character_id_blueprints> getBlueprints() {
 		return con.raw.cache.characters.blueprints(con.characterId());
 	}
 
@@ -274,7 +274,8 @@ public class EveCharacter {
 		if (cachedAssets == null) {
 			synchronized (this) {
 				if (cachedAssets==null) {
-					ObsListHolder<M_get_assets_8> assets = con.raw.cache.characters.assets(con.characterId());
+					ObsListHolder<R_get_characters_character_id_assets> assets = con.raw.cache.characters
+							.assets(con.characterId());
 					ObservableMap<Long, ObservableMap<Integer, Integer>> map = FXCollections.observableHashMap();
 					cachedAssets = con.raw.cache.toHolder(map);
 					assets.follow(c -> applyNewAssets(c, map));
@@ -291,15 +292,15 @@ public class EveCharacter {
 	 * @param c
 	 * @param map
 	 */
-	protected void applyNewAssets(Change<? extends M_get_assets_8> c,
+	protected void applyNewAssets(Change<? extends R_get_characters_character_id_assets> c,
 			ObservableMap<Long, ObservableMap<Integer, Integer>> map) {
 		c.next();
 
 		// the listener is called everytime the full list of items in
 		// modified. thus everytime, we recreate it
-		M_get_assets_8[] itemsArr = c.getAddedSubList().stream()
+		R_get_characters_character_id_assets[] itemsArr = c.getAddedSubList().stream()
 				.filter(asset -> !get_characters_character_id_assets_location_flag.AutoFit.equals(asset.location_flag))
-				.toArray(M_get_assets_8[]::new);
+				.toArray(R_get_characters_character_id_assets[]::new);
 
 		// we make the map of itemid->locations. if a location is actually an
 		// asset, we iteratively map it to this asset's location instead
@@ -326,7 +327,7 @@ public class EveCharacter {
 
 	}
 
-	private static Map<Integer, Integer> makeMap(M_get_assets_8 asset) {
+	private static Map<Integer, Integer> makeMap(R_get_characters_character_id_assets asset) {
 		Map<Integer, Integer> ret = new HashMap<>();
 		ret.put(asset.type_id, asset.quantity);
 		return ret;
