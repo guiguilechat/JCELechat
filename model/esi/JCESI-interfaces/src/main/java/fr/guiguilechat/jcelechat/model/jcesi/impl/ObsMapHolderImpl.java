@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.impl;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
+import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
@@ -80,6 +81,27 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 			underlying.removeListener(change);
 		}
 		LockWatchDog.BARKER.rel(underlying);
+	}
+
+	/**
+	 * create a new observableMap that map each entry in the source to an entry in
+	 * the ret. creation and deletion of key are mappecd accordingly.
+	 *
+	 * @param source
+	 * @param mapping
+	 * @return
+	 */
+	public static <K, S, T> ObsMapHolderImpl<K, T> map(ObsMapHolder<K, S> source, Function<S, T> mapping) {
+		ObservableMap<K, T> containedTarget = FXCollections.observableHashMap();
+		ObsMapHolderImpl<K, T> ret = new ObsMapHolderImpl<>(containedTarget);
+		source.follow(c -> {
+			if (c.wasRemoved() && !c.wasAdded()) {
+				containedTarget.remove(c.getKey());
+			} else {
+				containedTarget.put(c.getKey(), mapping.apply(c.getValueAdded()));
+			}
+		});
+		return ret;
 	}
 
 }

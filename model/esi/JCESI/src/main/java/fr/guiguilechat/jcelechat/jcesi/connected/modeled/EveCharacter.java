@@ -21,8 +21,11 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_assets_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_corporations_corporation_id_blueprints_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsMapHolderImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
@@ -199,9 +202,38 @@ public class EveCharacter {
 	// blueprints
 	//
 
+	private ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> blueprints = null;
 
-	public ObsMapHolder<Long, R_get_characters_character_id_blueprints> getBlueprints() {
-		return con.raw.cache.characters.blueprints(con.characterId());
+	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
+		if(blueprints ==null) {
+			synchronized (blueprints) {
+				if (blueprints == null) {
+					blueprints = ObsMapHolderImpl.map(con.raw.cache.characters.blueprints(con.characterId()),
+							this::convertBlueprint);
+				}
+			}
+		}
+		return blueprints;
+	}
+
+	/**
+	 * copy the structure of a character bp to a corporation bp.
+	 * 
+	 * @param source
+	 * @return
+	 */
+	protected R_get_corporations_corporation_id_blueprints convertBlueprint(
+			R_get_characters_character_id_blueprints source) {
+		R_get_corporations_corporation_id_blueprints ret = new R_get_corporations_corporation_id_blueprints();
+		ret.item_id = source.item_id;
+		ret.location_flag = get_corporations_corporation_id_blueprints_location_flag.valueOf(source.location_flag.name());
+		ret.location_id = source.location_id;
+		ret.material_efficiency = source.material_efficiency;
+		ret.quantity = source.quantity;
+		ret.runs = source.runs;
+		ret.time_efficiency = source.time_efficiency;
+		ret.type_id = source.type_id;
+		return ret;
 	}
 
 	//
