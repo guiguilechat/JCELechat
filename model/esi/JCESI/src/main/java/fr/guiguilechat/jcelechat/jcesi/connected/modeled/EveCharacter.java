@@ -206,7 +206,7 @@ public class EveCharacter {
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
 		if(blueprints ==null) {
-			synchronized (blueprints) {
+			synchronized (this) {
 				if (blueprints == null) {
 					blueprints = ObsMapHolderImpl.map(con.raw.cache.characters.blueprints(con.characterId()),
 							this::convertBlueprint);
@@ -218,7 +218,7 @@ public class EveCharacter {
 
 	/**
 	 * copy the structure of a character bp to a corporation bp.
-	 * 
+	 *
 	 * @param source
 	 * @return
 	 */
