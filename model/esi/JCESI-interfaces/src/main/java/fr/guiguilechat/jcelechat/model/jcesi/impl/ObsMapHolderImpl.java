@@ -33,6 +33,10 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 		}
 	}
 
+	/**
+	 * cleanest way to add listener with correct type. Otherwise just adding
+	 * c->waitLatch.countDown() is ambiguous
+	 */
 	protected void mapchangelisten(Change<? extends K, ? extends U> change) {
 		waitLatch.countDown();
 	}
@@ -96,11 +100,16 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 		ObsMapHolderImpl<K, T> ret = new ObsMapHolderImpl<>(containedTarget);
 		source.follow(c -> {
 			if (c.wasRemoved() && !c.wasAdded()) {
-				containedTarget.remove(c.getKey());
+				synchronized (containedTarget) {
+					containedTarget.remove(c.getKey());
+				}
 			} else {
-				containedTarget.put(c.getKey(), mapping.apply(c.getValueAdded()));
+				synchronized (containedTarget) {
+					containedTarget.put(c.getKey(), mapping.apply(c.getValueAdded()));
+				}
 			}
 		});
+		source.onWaitEnd(() -> ret.dataReceived());
 		return ret;
 	}
 

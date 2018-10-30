@@ -41,6 +41,21 @@ public interface ObsMapHolder<U, V> {
 	 */
 	void dataReceived();
 
+	/**
+	 * register a runnable to be run once {@link #dataReceived()} is called. The
+	 * call is made in a new thread.
+	 *
+	 * @param callback
+	 *          the function to call once data is available. if data is already
+	 *          available, this callback will be called at once.
+	 */
+	public default void onWaitEnd(Runnable callback) {
+		new Thread(() -> {
+			waitData();
+			callback.run();
+		}).start();
+	}
+
 	/** return an observable to be notified when values are changed */
 	Observable asObservable();
 }
