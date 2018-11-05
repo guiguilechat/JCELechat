@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily.ModifiedItem;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily.MutaStr;
+import fr.guiguilechat.tools.PriceCellFactory;
 import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.beans.binding.Bindings;
@@ -29,7 +30,6 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.scene.control.SplitPane;
-import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableView;
@@ -149,7 +149,7 @@ public class MutaEvals extends Application {
 		priceCol.setCellValueFactory(lo -> lo.getValue().price());
 		table.getColumns().add(priceCol);
 		priceCol.setSortType(SortType.ASCENDING);
-		priceCol.setCellFactory(col -> new PriceCellFactory());
+		priceCol.setCellFactory(PriceCellFactory::create);
 		table.getSortOrder().addAll(priceCol, qttyCol);
 
 		// table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
@@ -297,19 +297,6 @@ public class MutaEvals extends Application {
 	protected void sortLater() {
 		pause.setOnFinished(event -> table.sort());
 		pause.playFromStart();
-	}
-
-	protected static class PriceCellFactory extends TableCell<ModifiedItemCost, Number> {
-		@Override
-		public void updateItem(Number value, boolean empty) {
-			super.updateItem(value, empty);
-			if (empty) {
-				setText(null);
-			} else {
-				// System.err.println("update cell to number " + value);
-				setText(formatPrice(value.doubleValue()));
-			}
-		}
 	}
 
 	static final long[] unitSuffixValue = { 1000000000000l, 1000000000l, 1000000l, 1000l };
