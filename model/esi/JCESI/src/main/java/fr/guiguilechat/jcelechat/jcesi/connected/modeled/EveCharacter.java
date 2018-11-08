@@ -310,7 +310,10 @@ public class EveCharacter {
 							.assets(con.characterId());
 					ObservableMap<Long, ObservableMap<Integer, Integer>> map = FXCollections.observableHashMap();
 					cachedAssets = con.raw.cache.toHolder(map);
-					assets.follow(c -> applyNewAssets(c, map));
+					synchronized (assets) {
+						assets.follow(c -> applyNewAssets(c, map));
+					}
+
 				}
 			}
 		}
@@ -336,7 +339,8 @@ public class EveCharacter {
 
 		// we make the map of itemid->locations. if a location is actually an
 		// asset, we iteratively map it to this asset's location instead
-		Map<Long, Long> baseLocationMap = Stream.of(itemsArr).collect(Collectors.toMap(i -> i.item_id, i -> i.location_id));
+		Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
+				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (l1, l2) -> l1));
 		Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
 			Long ret = e.getValue();
 			while (baseLocationMap.containsKey(ret)) {
@@ -346,17 +350,18 @@ public class EveCharacter {
 		}));
 		Map<Long, Map<Integer, Integer>> newitems = Stream.of(itemsArr)
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), EveCharacter::makeMap, EveCharacter::mergeMap));
-		map.keySet().retainAll(newitems.keySet());
-		for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
-			ObservableMap<Integer, Integer> om = map.get(e.getKey());
-			if (om == null) {
-				om = FXCollections.observableHashMap();
-				map.put(e.getKey(), om);
+		synchronized (map) {
+			map.keySet().retainAll(newitems.keySet());
+			for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
+				ObservableMap<Integer, Integer> om = map.get(e.getKey());
+				if (om == null) {
+					om = FXCollections.observableHashMap();
+					map.put(e.getKey(), om);
+				}
+				om.keySet().retainAll(e.getValue().keySet());
+				om.putAll(e.getValue());
 			}
-			om.keySet().retainAll(e.getValue().keySet());
-			om.putAll(e.getValue());
 		}
-
 	}
 
 	private static Map<Integer, Integer> makeMap(R_get_characters_character_id_assets asset) {
