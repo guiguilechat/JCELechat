@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.programs.moonworth;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -35,8 +33,6 @@ import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.scene.Cursor;
-import javafx.scene.Node;
-import javafx.scene.chart.Chart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
@@ -44,14 +40,11 @@ import javafx.scene.chart.XYChart.Data;
 import javafx.scene.chart.XYChart.Series;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
-import javafx.scene.layout.TilePane;
 
 public class MoonWorthController {
 
@@ -132,8 +125,6 @@ public class MoonWorthController {
 
 	private LineChart<Number, Number> moonchart;
 
-	private ScrollPane scrollPane;
-
 	@FXML
 	private TextField datalimit;
 
@@ -193,37 +184,7 @@ public class MoonWorthController {
 		yAxis.setLabel("isk (M)");
 		moonchart = new LineChart<>(xAxis, yAxis);
 		pane.setCenter(moonchart);
-		Method m;
-		try {
-			// use reflexion to embed the legend pane into a scrollpane of 100 px max
-			m = Chart.class.getDeclaredMethod("getLegend");
-			m.setAccessible(true);
-			TilePane legend = (TilePane) m.invoke(moonchart);
-			if (legend != null) {
-				scrollPane = new ScrollPane(legend);
-				scrollPane.setHbarPolicy(ScrollBarPolicy.NEVER);
-				scrollPane.setVbarPolicy(ScrollBarPolicy.AS_NEEDED);
-				legend.setPrefHeight(100);
-				scrollPane.maxWidthProperty().bind(legend.widthProperty());
-				legend.setMaxWidth(540);
-				scrollPane.setPrefSize(560, 100);
-				scrollPane.setMaxHeight(100);
-				m = Chart.class.getDeclaredMethod("setLegend", Node.class);
-				m.setAccessible(true);
-				m.invoke(moonchart, scrollPane);
-			}
-		} catch (NoSuchMethodException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		} catch (SecurityException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		} catch (IllegalAccessException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		} catch (IllegalArgumentException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		} catch (InvocationTargetException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
-		// moonchart.setLegendVisible(false);
+		moonchart.setLegendVisible(false);
 		moonchart.getStyleClass().add("thick-chart");
 
 		new Thread(this::load).start();
@@ -372,8 +333,6 @@ public class MoonWorthController {
 				}
 			}
 		}
-		System.err.println("scrollpane h " + scrollPane.getHeight());
-		System.err.println("scrollpane max h " + scrollPane.getMaxHeight());
 	}
 
 	/** a node which displays a value on hover, but is otherwise empty */
