@@ -9,7 +9,7 @@ import java.util.function.Function;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.SwaggerCOCache;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsListHolderImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsMapHolderImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsObjHolderImpl;

@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 import java.util.concurrent.CountDownLatch;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_markets_region_id_history;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleLongProperty;
 import javafx.beans.value.ObservableDoubleValue;

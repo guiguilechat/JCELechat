@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_markets_prices;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_markets_region_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import javafx.collections.ObservableList;
 
 public class Markets {

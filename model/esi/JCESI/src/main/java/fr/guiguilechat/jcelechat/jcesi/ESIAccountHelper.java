@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.G_ICOAccess;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 
 /**
  * code to make a sso key

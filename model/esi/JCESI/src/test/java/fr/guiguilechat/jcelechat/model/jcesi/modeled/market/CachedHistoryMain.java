@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.modeled.market;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.CachedHistory;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_markets_region_id_history;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 
 public class CachedHistoryMain {
 

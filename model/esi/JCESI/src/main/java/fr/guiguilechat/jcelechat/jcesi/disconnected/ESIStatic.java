@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.G_IDCAccess;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
 

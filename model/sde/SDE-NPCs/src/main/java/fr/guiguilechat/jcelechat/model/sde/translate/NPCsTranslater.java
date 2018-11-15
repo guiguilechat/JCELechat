@@ -17,10 +17,10 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.FileTools;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_corporation_2;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_corporations_corporation_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_universe_factions;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_corporations_corporation_id_starbases_starbase_id_fuels;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgents;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporations;
@@ -194,7 +194,7 @@ public class NPCsTranslater {
 		lpo.name = typesbyID.get(o.type_id).enName();
 		lpo.id = o.offer_id;
 
-		for (M_get_corporation_2 ir : o.required_items) {
+		for (get_corporations_corporation_id_starbases_starbase_id_fuels ir : o.required_items) {
 			ItemRef translated = new ItemRef();
 			translated.quantity = ir.quantity;
 			translated.item = typesbyID.get(ir.type_id).enName();

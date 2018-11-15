@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_markets_region_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 
 public class MarketsTest {
 

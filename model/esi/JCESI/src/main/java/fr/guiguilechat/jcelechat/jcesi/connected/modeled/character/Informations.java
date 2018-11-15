@@ -4,8 +4,8 @@ import java.util.concurrent.CountDownLatch;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.get_characters_character_id_gender;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleObjectProperty;

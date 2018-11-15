@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Map;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.G_IDCAccess;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_industry_systems;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_industry_systems_cost_indices;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems_cost_indices;
 
 public class Industry {
 

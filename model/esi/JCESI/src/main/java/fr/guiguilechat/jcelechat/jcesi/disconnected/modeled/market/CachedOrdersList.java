@@ -5,7 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_markets_region_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.value.ObservableDoubleValue;
@@ -69,7 +70,8 @@ public class CachedOrdersList {
 		Pausable exec = ESIStatic.INSTANCE.cache
 				.addFetchCacheArray("orders_type" + typeID,
 						(p, h) -> ESIStatic.INSTANCE
-						.get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.order_type.all, p,
+						.get_markets_orders(order_type.all,
+								p,
 								regionalMarket.regionID, typeID, h),
 						this::handleNewCache);
 		selfOrdersStop = exec::pause;

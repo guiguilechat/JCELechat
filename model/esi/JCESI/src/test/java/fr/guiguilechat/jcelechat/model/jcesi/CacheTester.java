@@ -4,9 +4,9 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_markets_region_id_orders;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_status;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.order_type;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
 import javafx.collections.ListChangeListener;

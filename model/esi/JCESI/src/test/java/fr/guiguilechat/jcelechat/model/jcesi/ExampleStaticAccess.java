@@ -4,8 +4,8 @@ import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_markets_region_id_orders;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.order_type;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.DoubleBinding;
@@ -43,7 +43,7 @@ public class ExampleStaticAccess {
 		 * The cache fetch the pages and put the data in the holder
 		 */
 		ObsListHolder<R_get_markets_region_id_orders> cachebos = stat.cache.markets
-				.orders(fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.order_type.buy, theforge,
+				.orders(order_type.buy, theforge,
 						veldspar);
 
 		/** cache should return the same holder when given the same parameters */

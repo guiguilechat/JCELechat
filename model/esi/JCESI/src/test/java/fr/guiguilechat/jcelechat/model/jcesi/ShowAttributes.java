@@ -3,8 +3,8 @@ package fr.guiguilechat.jcelechat.model.jcesi;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_dogma_attributes_attribute_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_universe_types_type_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 
 public class ShowAttributes {
 

@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 import java.util.concurrent.CountDownLatch;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_characters_character_id_location;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_location;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleLongProperty;
 import javafx.beans.value.ObservableIntegerValue;

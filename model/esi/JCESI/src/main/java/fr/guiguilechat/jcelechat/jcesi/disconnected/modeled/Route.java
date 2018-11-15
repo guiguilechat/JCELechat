@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.structures.flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 
 public class Route {
 

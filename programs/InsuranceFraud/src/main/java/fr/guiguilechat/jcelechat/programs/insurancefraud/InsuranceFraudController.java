@@ -9,9 +9,9 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.M_get_type_dogma_attributes_2;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_insurance_prices;
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.responses.R_get_universe_types_type_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
@@ -81,7 +81,7 @@ public class InsuranceFraudController {
 					name.set(esiItem.name);
 					published = esiItem.published;
 					if (esiItem.dogma_attributes != null) {
-						for (M_get_type_dogma_attributes_2 att : esiItem.dogma_attributes) {
+						for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes att : esiItem.dogma_attributes) {
 							if (att.attribute_id == TechLevel.INSTANCE.getId()) {
 								techLevel = (int) att.value;
 							}

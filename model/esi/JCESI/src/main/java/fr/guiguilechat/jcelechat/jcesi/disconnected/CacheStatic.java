@@ -6,7 +6,7 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import fr.guiguilechat.jcelechat.model.jcesi.compiled.SwaggerDCCache;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsListHolderImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsMapHolderImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsObjHolderImpl;
