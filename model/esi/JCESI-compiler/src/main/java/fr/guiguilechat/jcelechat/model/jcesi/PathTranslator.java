@@ -41,21 +41,21 @@ import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
+import io.swagger.models.ArrayModel;
+import io.swagger.models.Model;
+import io.swagger.models.Operation;
+import io.swagger.models.Response;
+import io.swagger.models.parameters.BodyParameter;
+import io.swagger.models.parameters.Parameter;
+import io.swagger.models.parameters.PathParameter;
+import io.swagger.models.parameters.QueryParameter;
+import io.swagger.models.properties.ArrayProperty;
+import io.swagger.models.properties.ObjectProperty;
+import io.swagger.models.properties.Property;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
-import v2.io.swagger.models.ArrayModel;
-import v2.io.swagger.models.Model;
-import v2.io.swagger.models.Operation;
-import v2.io.swagger.models.Response;
-import v2.io.swagger.models.parameters.BodyParameter;
-import v2.io.swagger.models.parameters.Parameter;
-import v2.io.swagger.models.parameters.PathParameter;
-import v2.io.swagger.models.parameters.QueryParameter;
-import v2.io.swagger.models.properties.ArrayProperty;
-import v2.io.swagger.models.properties.ObjectProperty;
-import v2.io.swagger.models.properties.Property;
 
 public class PathTranslator {
 
@@ -729,8 +729,8 @@ public class PathTranslator {
 	 */
 	protected JBlock createTestNullCase(JBlock outBlock, JVar ret, IJExpression getter, JVar lock) {
 		ret.init(getter);
-		return sync(outBlock._if(ret.eqNull())._then(), lock).body().add(JExpr.assign(ret, getter))
-				._if(ret.eqNull())._then();
+		return sync(outBlock._if(ret.eqNull())._then(), lock).body().add(JExpr.assign(ret, getter))._if(ret.eqNull())
+				._then();
 	}
 
 	/**

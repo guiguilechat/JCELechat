@@ -36,20 +36,21 @@ import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ITransfer;
-import v2.io.swagger.models.ArrayModel;
-import v2.io.swagger.models.Path;
-import v2.io.swagger.models.Response;
-import v2.io.swagger.models.Swagger;
-import v2.io.swagger.models.parameters.QueryParameter;
-import v2.io.swagger.models.properties.ArrayProperty;
-import v2.io.swagger.models.properties.BooleanProperty;
-import v2.io.swagger.models.properties.DecimalProperty;
-import v2.io.swagger.models.properties.FloatProperty;
-import v2.io.swagger.models.properties.IntegerProperty;
-import v2.io.swagger.models.properties.LongProperty;
-import v2.io.swagger.models.properties.ObjectProperty;
-import v2.io.swagger.models.properties.Property;
-import v2.io.swagger.models.properties.StringProperty;
+import io.swagger.models.ArrayModel;
+import io.swagger.models.Model;
+import io.swagger.models.Path;
+import io.swagger.models.Response;
+import io.swagger.models.Swagger;
+import io.swagger.models.parameters.QueryParameter;
+import io.swagger.models.properties.ArrayProperty;
+import io.swagger.models.properties.BooleanProperty;
+import io.swagger.models.properties.DecimalProperty;
+import io.swagger.models.properties.FloatProperty;
+import io.swagger.models.properties.IntegerProperty;
+import io.swagger.models.properties.LongProperty;
+import io.swagger.models.properties.ObjectProperty;
+import io.swagger.models.properties.Property;
+import io.swagger.models.properties.StringProperty;
 
 /**
  * bridge between a {@link Swagger} and the classes we create in a
@@ -60,7 +61,7 @@ public class ClassBridge {
 	private static final Logger logger = LoggerFactory.getLogger(ClassBridge.class);
 
 	public final JCodeModel cm;
-	public final v2.io.swagger.models.Swagger swagger;
+	public final Swagger swagger;
 
 	protected JPackage responsePackage = null;
 	protected JPackage structurePackage = null;
@@ -219,6 +220,35 @@ public class ClassBridge {
 		}
 	}
 
+	/**
+	 * get the {@link ObjectProperty} at first or second level from a property. If
+	 * the property defines an object, return it ; if the property defines an
+	 * array, return the item type fo the array.<br />
+	 * So passing as parameters a property which defines int[] or one which
+	 * defines int will both return int.
+	 *
+	 * @param s
+	 * @return the corresponding object property, or null.
+	 */
+	protected ObjectProperty getPropertyObject(Model s) {
+		return null;
+		// if (s == null) {
+		// return null;
+		// }
+		// switch (s.getType()) {
+		// case ObjectProperty.TYPE:
+		// return (ObjectProperty) s;
+		// case ArrayProperty.TYPE:
+		// Property sublevel = ((ArrayProperty) s).getItems();
+		// if (sublevel.getType() == ObjectProperty.TYPE) {
+		// return (ObjectProperty) sublevel;
+		// }
+		// // if an Arraypropert<y??> we return null so no break;
+		// default:
+		// return null;
+		// }
+	}
+
 	protected HashMap<String, String> structureRenames = new HashMap<>();
 
 	protected void mergeResponseTypes() {
@@ -291,6 +321,7 @@ public class ClassBridge {
 		}
 		switch (p.getType()) {
 		case ObjectProperty.TYPE:
+			// TODO check if mapproperty
 			return translateToClass((ObjectProperty) p, pck, name);
 		case ArrayProperty.TYPE:
 			return translateToClass((ArrayProperty) p, pck, name);

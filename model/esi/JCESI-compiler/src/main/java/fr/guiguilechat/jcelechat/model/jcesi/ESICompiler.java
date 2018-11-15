@@ -12,11 +12,11 @@ import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 
 import fr.guiguilechat.jcelechat.model.jcesi.PathTranslator.OpType;
-import v2.io.swagger.models.Operation;
-import v2.io.swagger.models.Path;
-import v2.io.swagger.models.Response;
-import v2.io.swagger.models.Swagger;
-import v2.io.swagger.parser.SwaggerParser;
+import io.swagger.models.Operation;
+import io.swagger.models.Path;
+import io.swagger.models.Response;
+import io.swagger.models.Swagger;
+import io.swagger.parser.SwaggerParser;
 
 public class ESICompiler {
 
