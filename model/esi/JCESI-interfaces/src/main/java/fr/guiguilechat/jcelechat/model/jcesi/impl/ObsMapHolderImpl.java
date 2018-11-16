@@ -6,6 +6,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
+import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import javafx.beans.Observable;
 import javafx.collections.FXCollections;
@@ -110,6 +111,28 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 			}
 		});
 		source.onWaitEnd(() -> ret.dataReceived());
+		return ret;
+	}
+
+	public static <K, V> ObsMapHolderImpl<K, V> toMap(ObsListHolder<V> list, Function<V, K> keyExtractor) {
+		ObservableMap<K, V> internal = FXCollections.observableHashMap();
+		ObsMapHolderImpl<K, V> ret = new ObsMapHolderImpl<>(internal);
+		list.follow(c -> {
+			while (c.next()) {
+				synchronized (internal) {
+					if (c.wasRemoved()) {
+						for (V removed : c.getRemoved()) {
+							internal.remove(keyExtractor.apply(removed));
+						}
+					}
+					if (c.wasAdded()) {
+						for (V added : c.getAddedSubList()) {
+							internal.put(keyExtractor.apply(added), added);
+						}
+					}
+				}
+			}
+		});
 		return ret;
 	}
 

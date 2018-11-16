@@ -50,7 +50,6 @@ import io.swagger.models.parameters.BodyParameter;
 import io.swagger.models.parameters.Parameter;
 import io.swagger.models.parameters.PathParameter;
 import io.swagger.models.parameters.QueryParameter;
-import io.swagger.models.properties.ArrayProperty;
 import io.swagger.models.properties.ObjectProperty;
 import io.swagger.models.properties.Property;
 import io.swagger.models.utils.PropertyModelConverter;
@@ -86,7 +85,6 @@ public class PathTranslator {
 	}
 
 	protected Response response;
-	protected Property responseProperties;
 	/**
 	 * flat type of resource produced by the http fetch. if the fetch actually
 	 * produces an array, this is the item type of the array, eg int[] will
@@ -117,7 +115,6 @@ public class PathTranslator {
 			logger.error("can't find response for path " + path + " " + optype);
 			return;
 		}
-		responseProperties = new PropertyModelConverter().modelToProperty(response.getResponseSchema());
 		makeFetchMethInit();
 		addPathJavadoc();
 
@@ -134,7 +131,7 @@ public class PathTranslator {
 					fetchMeth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
 				}
 			}
-			if (responseProperties == null) {
+			if (resourceStructure == RETURNTYPE.NONE) {
 				fetchMeth.body().add(JExpr.invoke(methName).arg(url)
 						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content).arg(headerParam));
 			} else {
@@ -153,7 +150,7 @@ public class PathTranslator {
 		default:
 			throw new UnsupportedOperationException("unsupported type " + optype + " for path " + path);
 		}
-		if (responseProperties != null) {
+		if (resourceStructure != RETURNTYPE.NONE) {
 			fetchMeth.body()._return(
 					JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(fetchRetType.binaryName() + ".class")));
 		}
@@ -399,7 +396,7 @@ public class PathTranslator {
 		cacheGroup = bridge.getCacheGroupClass(cacheFieldName, connected);
 
 		// first we need to know the result.
-		if (responseProperties.getType().equals(ArrayProperty.TYPE)) {
+		if (resourceStructure == RETURNTYPE.LIST) {
 			findCacheRetUniqueField();
 			if (cacheRetUniqueField != null) {
 				cacheRetType = cm.ref(ObsMapHolder.class).narrow(cacheRetUniqueField.type().boxify(), resourceType.boxify());
@@ -525,9 +522,9 @@ public class PathTranslator {
 		List<String> uniqueFields = new ArrayList<>();
 		// we only have fields for reponses that are of type Object[], eg int[]
 		// can't have a unique field, nor Object[][]
-		ArrayProperty ap = (ArrayProperty) responseProperties;
-		if (ap.getItems().getType().equals(ObjectProperty.TYPE)) {
-			ObjectProperty op = (ObjectProperty) ap.getItems();
+		ArrayModel am = (ArrayModel) response.getResponseSchema();
+		if (am.getItems().getType().equals(ObjectProperty.TYPE)) {
+			ObjectProperty op = (ObjectProperty) am.getItems();
 			for (Entry<String, Property> esp : op.getProperties().entrySet()) {
 				if (esp.getValue().getDescription().toLowerCase().startsWith("unique ")) {
 					uniqueFields.add(esp.getKey());

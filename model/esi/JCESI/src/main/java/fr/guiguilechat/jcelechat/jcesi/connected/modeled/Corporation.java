@@ -14,7 +14,9 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Bookmarks;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsMapHolderImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
@@ -125,6 +127,23 @@ public class Corporation {
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
 		return con.raw.cache.corporations
 				.blueprints(con.character.infos.corporationId().get());
+	}
+
+	private ObsMapHolder<Long, R_get_corporations_corporation_id_structures> structures = null;
+
+	public ObsMapHolder<Long, R_get_corporations_corporation_id_structures> getStructures() {
+		if(structures==null) {
+			synchronized (this) {
+				if(structures==null) {
+					System.err.println("creating corp structure");
+					structures = ObsMapHolderImpl.toMap(
+							con.raw.cache.corporations.structures(con.character.infos.corporationId().get()),
+							str -> str.structure_id);
+					System.err.println("structures returned");
+				}
+			}
+		}
+		return structures;
 	}
 
 }
