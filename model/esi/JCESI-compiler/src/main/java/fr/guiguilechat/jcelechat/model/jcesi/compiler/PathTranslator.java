@@ -43,6 +43,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
 import io.swagger.models.ArrayModel;
 import io.swagger.models.Model;
+import io.swagger.models.ModelImpl;
 import io.swagger.models.Operation;
 import io.swagger.models.Response;
 import io.swagger.models.parameters.BodyParameter;
@@ -52,6 +53,7 @@ import io.swagger.models.parameters.QueryParameter;
 import io.swagger.models.properties.ArrayProperty;
 import io.swagger.models.properties.ObjectProperty;
 import io.swagger.models.properties.Property;
+import io.swagger.models.utils.PropertyModelConverter;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -84,22 +86,28 @@ public class PathTranslator {
 	}
 
 	protected Response response;
-	protected Property responseSchema;
+	protected Property responseProperties;
 	/**
-	 * the type of resource produced by the http fetch. if the fetch actually
+	 * flat type of resource produced by the http fetch. if the fetch actually
 	 * produces an array, this is the item type of the array, eg int[] will
 	 * resolve to int.
 	 */
 	protected AbstractJType resourceType;
+
+	/** the structure of the resource we fetch */
+	protected RETURNTYPE resourceStructure;
+
 	/**
-	 * return type of the fetch method.
+	 * return type of the fetch method. if resourcestructure is object, then it
+	 * will be resourceType; if map, then map string>resourcetype ; if list, list
+	 * resourcetype
 	 */
 	protected AbstractJType fetchRetType;
+
 	protected JMethod fetchMeth;
 
 	protected List<String> requiredRoles;
 
-	@SuppressWarnings("unchecked")
 	public void apply() {
 		if (operation == null) {
 			return;
@@ -109,20 +117,63 @@ public class PathTranslator {
 			logger.error("can't find response for path " + path + " " + optype);
 			return;
 		}
-		responseSchema = response.getSchema();
+		responseProperties = new PropertyModelConverter().modelToProperty(response.getResponseSchema());
+		makeFetchMethInit();
+		addPathJavadoc();
 
-		// get the existing class for this response.
-		fetchRetType = bridge.getReponseClass(responseSchema);
-		if (fetchRetType instanceof JArrayClass) {
-			resourceType = ((JArrayClass) fetchRetType).elementType();
-		} else {
-			resourceType = fetchRetType;
+		switch (optype) {
+		case post:
+		case put:
+			String methName = optype == OpType.post ? "connectPost" : "connectPut";
+			JVar content = null;
+			if (!bodyparameters.isEmpty()) {
+				content = fetchMeth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
+						"content");
+				content.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+				for (JVar p : bodyparameters) {
+					fetchMeth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
+				}
+			}
+			if (responseProperties == null) {
+				fetchMeth.body().add(JExpr.invoke(methName).arg(url)
+						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content).arg(headerParam));
+			} else {
+				JVar fetched = fetchMeth.body().decl(cm.ref(String.class), "fetched");
+				fetched.init(JExpr.invoke(methName).arg(url)
+						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content).arg(headerParam));
+			}
+			break;
+		case get:
+			fetchMeth.body().directStatement("String fetched=" + "connectGet(url," + headerHandlerName + ");");
+			createCache();
+			break;
+		case delete:
+			fetchMeth.body().directStatement("connectDel(url," + headerHandlerName + ");");
+			break;
+		default:
+			throw new UnsupportedOperationException("unsupported type " + optype + " for path " + path);
 		}
+		if (responseProperties != null) {
+			fetchMeth.body()._return(
+					JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(fetchRetType.binaryName() + ".class")));
+		}
+	}
+
+	/** the url to fetch the resource from */
+	private JVar url;
+
+	/**
+	 * create the fetch method, as well as its url assignement variable.
+	 */
+	@SuppressWarnings("unchecked")
+	protected void makeFetchMethInit() {
 		String fetchMethName = operation.getOperationId();
 		for (Parameter p : operation.getParameters()) {
 			fetchMethName = fetchMethName.replaceAll(p.getName(), "");
 		}
 		fetchMethName = fetchMethName.replaceAll("__", "_").replaceAll("_$", "");
+
+		makeFetchRetType();
 		findConnected();
 		// create the method
 		fetchMeth = (connected ? bridge.swaggerCOClass : bridge.swaggerDCClass).method(JMod.PUBLIC | JMod.DEFAULT,
@@ -130,67 +181,67 @@ public class PathTranslator {
 		// add the parameters
 		extractFetchParameters();
 
-		requiredRoles = operation.getVendorExtensions().containsKey("x-required-roles")
-				? (List<String>) operation.getVendorExtensions().get("x-required-roles")
-						: Collections.emptyList();
+		if (operation.getVendorExtensions().containsKey("x-required-roles")) {
+			requiredRoles = (List<String>) operation.getVendorExtensions().get("x-required-roles");
+		} else {
+			requiredRoles = Collections.emptyList();
+		}
 
-				addPathJavadoc();
+		String urlAssign = "\"" + path + "\"";
+		for (JVar jv : pathparameters) {
+			urlAssign += ".replace(\"{" + jv.name() + "}\", \"\"+" + jv.name() + ")";
+		}
+		if (queryparameters.size() > 0) {
+			urlAssign += "+\"?\"";
+		}
+		for (int pi = 0; pi < queryparameters.size(); pi++) {
+			JVar qp = queryparameters.get(pi);
+			if (qp.type() instanceof JPrimitiveType) {
+				urlAssign += "+\"&" + qp.name() + "=\"+flatten(" + qp.name() + ")";
+			} else {
+				urlAssign += "+(" + qp.name() + "==null?\"\":\"&" + qp.name() + "=\"+flatten(" + qp.name() + "))";
+			}
+		}
+		url = fetchMeth.body().decl(cm.ref(String.class), "url");
+		url.init(JExpr.direct(urlAssign));
 
-				headerParam = fetchMeth.param(bridge.headerhandlertype(), headerHandlerName);
+		headerParam = fetchMeth.param(bridge.headerhandlertype(), headerHandlerName);
+	}
 
-				String urlAssign = "\"" + path + "\"";
-				for (JVar jv : pathparameters) {
-					urlAssign += ".replace(\"{" + jv.name() + "}\", \"\"+" + jv.name() + ")";
-				}
-				if (queryparameters.size() > 0) {
-					urlAssign += "+\"?\"";
-				}
-				for (int pi = 0; pi < queryparameters.size(); pi++) {
-					JVar qp = queryparameters.get(pi);
-					if (qp.type() instanceof JPrimitiveType) {
-						urlAssign += "+\"&" + qp.name() + "=\"+flatten(" + qp.name() + ")";
-					} else {
-						urlAssign += "+(" + qp.name() + "==null?\"\":\"&" + qp.name() + "=\"+flatten(" + qp.name() + "))";
-					}
-				}
-				JVar url = fetchMeth.body().decl(cm.ref(String.class), "url");
-				url.init(JExpr.direct(urlAssign));
-				switch (optype) {
-				case post:
-				case put:
-					String methName = optype == OpType.post ? "connectPost" : "connectPut";
-					JVar content = null;
-					if (!bodyparameters.isEmpty()) {
-						content = fetchMeth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
-								"content");
-						content.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
-						for (JVar p : bodyparameters) {
-							fetchMeth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
-						}
-					}
-					if (responseSchema == null) {
-						fetchMeth.body().add(JExpr.invoke(methName).arg(url)
-								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content).arg(headerParam));
-					} else {
-						JVar fetched = fetchMeth.body().decl(cm.ref(String.class), "fetched");
-						fetched.init(JExpr.invoke(methName).arg(url)
-								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content).arg(headerParam));
-					}
-					break;
-				case get:
-					fetchMeth.body().directStatement("String fetched=" + "connectGet(url," + headerHandlerName + ");");
-					createCache();
-					break;
-				case delete:
-					fetchMeth.body().directStatement("connectDel(url," + headerHandlerName + ");");
-					break;
-				default:
-					throw new UnsupportedOperationException("unsupported type " + optype + " for path " + path);
-				}
-				if (responseSchema != null) {
-					fetchMeth.body()._return(
-							JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(fetchRetType.binaryName() + ".class")));
-				}
+	/**
+	 * get the existing fetch type for this response
+	 */
+	protected void makeFetchRetType() {
+		Model m = response.getResponseSchema();
+		if (m == null) {
+			resourceStructure = RETURNTYPE.NONE;
+			resourceType = fetchRetType = cm.VOID;
+		} else if (m.getClass() == ArrayModel.class) {
+			ArrayModel am = (ArrayModel) m;
+			resourceStructure = RETURNTYPE.LIST;
+			resourceType = bridge.getReponseClass(am.getItems());
+			fetchRetType = resourceType.array();
+		} else if (m.getClass() == ModelImpl.class) {
+			ModelImpl mi = (ModelImpl) m;
+			if (mi.getAdditionalProperties() != null) {
+				resourceStructure = RETURNTYPE.MAP;
+				resourceType = bridge.getReponseClass(mi.getAdditionalProperties());
+				fetchRetType = cm.ref(Map.class).narrow(cm.ref(String.class), resourceType.boxify());
+			} else {
+				resourceStructure = RETURNTYPE.OBJECT;
+				resourceType = fetchRetType = bridge
+						.getReponseClass(new PropertyModelConverter().modelToProperty(response.getResponseSchema()));
+			}
+		} else {
+			logger.warn("can't apply to path class " + m.getClass());
+		}
+	}
+
+	/** true iff the path requires connection */
+	private boolean connected;
+
+	protected void findConnected() {
+		connected = operation.getParameters().stream().filter(p -> p.getName().equals("token")).findAny().isPresent();
 	}
 
 	////
@@ -213,13 +264,6 @@ public class PathTranslator {
 	private List<JVar> bodyparameters = new ArrayList<>();
 
 	private List<JVar> allParams = new ArrayList<>();
-
-	/** true iff the path requires connection */
-	private boolean connected;
-
-	protected void findConnected() {
-		connected = operation.getParameters().stream().filter(p -> p.getName().equals("token")).findAny().isPresent();
-	}
 
 	/** argument of the fetch method for the header handler */
 	JVar headerParam;
@@ -331,7 +375,7 @@ public class PathTranslator {
 	 * {@link #cacheRetUniqueField}
 	 */
 	protected static enum RETURNTYPE {
-		CONTAINER, LIST, MAP
+		NONE, OBJECT, LIST, MAP
 	}
 
 	protected RETURNTYPE cacheRetTransform;
@@ -348,12 +392,14 @@ public class PathTranslator {
 					"private", "protected", "public", "return", "short", "static", "strictfp", "super", "switch", "synchronized",
 					"this", "throw", "throws", "transient", "true", "try", "void", "volatile", "while")));
 
+	String cacheFieldName;
+
 	protected void createCache() {
-		String fieldName = operation.getOperationId().split("_")[1];
-		cacheGroup = bridge.getCacheGroupClass(fieldName, connected);
+		cacheFieldName = operation.getOperationId().split("_")[1];
+		cacheGroup = bridge.getCacheGroupClass(cacheFieldName, connected);
 
 		// first we need to know the result.
-		if (responseSchema.getType().equals(ArrayProperty.TYPE)) {
+		if (responseProperties.getType().equals(ArrayProperty.TYPE)) {
 			findCacheRetUniqueField();
 			if (cacheRetUniqueField != null) {
 				cacheRetType = cm.ref(ObsMapHolder.class).narrow(cacheRetUniqueField.type().boxify(), resourceType.boxify());
@@ -368,10 +414,10 @@ public class PathTranslator {
 		} else {
 			cacheRetType = cm.ref(ObsObjHolder.class).narrow(resourceType.boxify());
 			cacheHolderType = cm.ref(javafx.beans.property.Property.class).narrow(resourceType.boxify());
-			cacheRetTransform = RETURNTYPE.CONTAINER;
+			cacheRetTransform = RETURNTYPE.OBJECT;
 		}
 
-		String methName = operation.getOperationId().replaceAll("^get_", "").replaceAll("^" + fieldName + "_", "");
+		String methName = operation.getOperationId().replaceAll("^get_", "").replaceAll("^" + cacheFieldName + "_", "");
 
 		for (JVar v : allParams) {
 			methName = methName.replaceAll(v.name(), "");
@@ -406,7 +452,7 @@ public class PathTranslator {
 		case 0:
 			cacheKeyType = null;
 			switch (cacheRetTransform) {
-			case CONTAINER:
+			case OBJECT:
 				createCache_NoParam_Container();
 				break;
 			case LIST:
@@ -426,7 +472,7 @@ public class PathTranslator {
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 			cacheParam = cacheParams.get(0);
 			switch (cacheRetTransform) {
-			case CONTAINER:
+			case OBJECT:
 				createCache_Param_Container();
 				break;
 			case LIST:
@@ -452,7 +498,7 @@ public class PathTranslator {
 			}
 			cacheParam.init(callNew);
 			switch (cacheRetTransform) {
-			case CONTAINER:
+			case OBJECT:
 				createCache_Param_Container();
 				break;
 			case LIST:
@@ -479,7 +525,7 @@ public class PathTranslator {
 		List<String> uniqueFields = new ArrayList<>();
 		// we only have fields for reponses that are of type Object[], eg int[]
 		// can't have a unique field, nor Object[][]
-		ArrayProperty ap = (ArrayProperty) responseSchema;
+		ArrayProperty ap = (ArrayProperty) responseProperties;
 		if (ap.getItems().getType().equals(ObjectProperty.TYPE)) {
 			ObjectProperty op = (ObjectProperty) ap.getItems();
 			for (Entry<String, Property> esp : op.getProperties().entrySet()) {
@@ -602,7 +648,7 @@ public class PathTranslator {
 	protected JLambda lambdaFetch() {
 		JLambda lambdaFetch = new JLambda();
 		Map<String, IJExpression> paramsByName = new HashMap<>();
-		if (cacheRetTransform != RETURNTYPE.CONTAINER) {
+		if (cacheRetTransform != RETURNTYPE.OBJECT) {
 			JLambdaParam page = lambdaFetch.addParam("page");
 			paramsByName.put(page.name(), page);
 		}
@@ -619,7 +665,7 @@ public class PathTranslator {
 			}
 			callmeth.arg(v2);
 		}
-		if (cacheRetTransform != RETURNTYPE.CONTAINER && resourceType.isPrimitive()) {
+		if (cacheRetTransform != RETURNTYPE.OBJECT && resourceType.isPrimitive()) {
 			IJExpression convert, toArr;
 			AbstractJClass streamType;
 			if (resourceType == cm.INT) {

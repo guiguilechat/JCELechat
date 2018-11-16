@@ -153,9 +153,6 @@ public class ClassBridge {
 
 	protected void addResponseType(Response r) {
 		if (r == null || r.getResponseSchema() == null) {
-			if (r != null) {
-				System.err.println("skipping type for response " +  r.getDescription());
-			}
 			return;
 		}
 		Model m = r.getResponseSchema();
@@ -173,14 +170,14 @@ public class ClassBridge {
 			}
 		} else if (m.getClass() == ArrayModel.class) {
 			ArrayModel am = (ArrayModel) m;
-			registerPropertyType(m.getTitle(), am.getItems());
+			registerPropertyType(am.getItems().getTitle(), am.getItems());
 		} else {
 			System.err.println("can't load model of class " + m.getClass());
 		}
 	}
 
 	protected void registerPropertyType(String name, Property prop) {
-		ObjectProperty op = getPropertyObject(prop);
+		ObjectProperty op = ESICompiler.getPropertyObject(prop);
 		if (op != null) {
 			for (Property subprop : op.getProperties().values()) {
 				if (subprop != null) {
@@ -216,34 +213,6 @@ public class ClassBridge {
 		return ret;
 	}
 
-	/**
-	 * get the {@link ObjectProperty} at first or second level from a property. If
-	 * the property defines an object, return it ; if the property defines an
-	 * array, return the item type fo the array.<br />
-	 * So passing as parameters a property which defines int[] or one which
-	 * defines int will both return int.
-	 *
-	 * @param s
-	 * @return the corresponding object property, or null.
-	 */
-	protected ObjectProperty getPropertyObject(Property s) {
-		if (s == null) {
-			return null;
-		}
-		switch (s.getType()) {
-		case ObjectProperty.TYPE:
-			return (ObjectProperty) s;
-		case ArrayProperty.TYPE:
-			Property sublevel = ((ArrayProperty) s).getItems();
-			if (sublevel.getType() == ObjectProperty.TYPE) {
-				return (ObjectProperty) sublevel;
-			}
-			// if an Arraypropert<y??> we return null so no break;
-		default:
-			return null;
-		}
-	}
-
 	protected HashMap<String, String> structureRenames = new HashMap<>();
 
 	protected void mergeResponseTypes() {
@@ -275,13 +244,13 @@ public class ClassBridge {
 	 */
 	protected String mergeClassesNames(Map<String, String> classDef, Set<String> names) {
 		if (names.size() == 1) {
-			return ("R_" + names.iterator().next()).replaceAll("_ok", "");
+			return ("R_" + names.iterator().next()).replaceAll("_ok", "").replaceAll("_[0-9]+", "");
 		}
 		ArrayList<String> tokens = new ArrayList<>(Arrays.asList(names.iterator().next().split("_")));
 		for (String name : names) {
 			tokens.retainAll(Arrays.asList(name.split("_")));
 		}
-		tokens.removeIf(s -> s.equals("id") || s.equals("R") || s.equals("ok"));
+		tokens.removeIf(s -> s.equals("id") || s.equals("R") || s.equals("ok") || s.matches("^[0-9]+$"));
 		tokens.add(0, "M");
 		tokens.add("" + classDef.size());
 		String common = tokens.stream().collect(Collectors.joining("_"));
@@ -428,7 +397,6 @@ public class ClassBridge {
 	protected HashMap<Map<String, String>, JDefinedClass> createdClasses = new HashMap<>();
 
 	protected JDefinedClass translateToClass(ObjectProperty p, JPackage pck, String name) {
-
 		Map<String, String> classDef = p.getProperties().entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey, e -> propertyTypeExtended(e.getValue())));
 		JDefinedClass createdClass = createdClasses.get(classDef);
@@ -513,11 +481,20 @@ public class ClassBridge {
 		return arraCl.array();
 	}
 
+	/**
+	 * translate a property into a response class.
+	 *
+	 * @param s
+	 * @return
+	 */
 	public AbstractJType getReponseClass(Property s) {
 		if (s == null) {
 			return cm.VOID;
 		} else {
-			String className = structureRenames.get(s.getTitle());
+			String className = structureRenames.getOrDefault(s.getTitle(), s.getTitle());
+			if (className == null) {
+				System.err.println("null name for " + s + " with title " + s.getTitle());
+			}
 			return translateToClass(s, responsePackage, className);
 		}
 	}

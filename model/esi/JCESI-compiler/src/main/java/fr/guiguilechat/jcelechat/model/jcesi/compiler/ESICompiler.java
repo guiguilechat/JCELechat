@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Arrays;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,10 +13,15 @@ import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.PathTranslator.OpType;
+import io.swagger.models.ArrayModel;
+import io.swagger.models.Model;
 import io.swagger.models.Operation;
 import io.swagger.models.Path;
 import io.swagger.models.Response;
 import io.swagger.models.Swagger;
+import io.swagger.models.properties.ArrayProperty;
+import io.swagger.models.properties.ObjectProperty;
+import io.swagger.models.properties.Property;
 import io.swagger.parser.SwaggerParser;
 
 public class ESICompiler {
@@ -100,5 +106,44 @@ public class ESICompiler {
 		return r;
 	}
 
+	public static Map<String, Property> getStructureDef(Model m) {
+		if (m == null) {
+			return null;
+		}
+		if (m.getClass() == ArrayModel.class) {
+			ArrayModel am = (ArrayModel) m;
+			return getPropertyObject(am.getItems()).getProperties();
+		}
+		logger.warn("can't translate model class " + m.getClass());
+		return null;
+	}
+
+	/**
+	 * get the {@link ObjectProperty} at first or second level from a property. If
+	 * the property defines an object, return it ; if the property defines an
+	 * array, return the item type fo the array.<br />
+	 * So passing as parameters a property which defines int[] or one which
+	 * defines int will both return int.
+	 *
+	 * @param s
+	 * @return the corresponding object property, or null.
+	 */
+	public static ObjectProperty getPropertyObject(Property s) {
+		if (s == null) {
+			return null;
+		}
+		switch (s.getType()) {
+		case ObjectProperty.TYPE:
+			return (ObjectProperty) s;
+		case ArrayProperty.TYPE:
+			Property sublevel = ((ArrayProperty) s).getItems();
+			if (sublevel.getType() == ObjectProperty.TYPE) {
+				return (ObjectProperty) sublevel;
+			}
+			// if an Arraypropert<y??> we return null so no break;
+		default:
+			return null;
+		}
+	}
 
 }
