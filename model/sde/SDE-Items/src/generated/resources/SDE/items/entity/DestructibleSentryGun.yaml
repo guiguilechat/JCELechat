@@ -114,11 +114,6 @@ items:
     name: Archive Sentry Tower
     published: false
     volume: 1000.0
-  Attack Tower:
-    id: 47488
-    name: Attack Tower
-    published: false
-    volume: 1000.0
   Blood Basic Defense Battery:
     id: 27281
     name: Blood Basic Defense Battery
@@ -558,6 +553,11 @@ items:
     name: Sentinel Serpentis
     published: false
     volume: 1000.0
+  Sentry Tower:
+    id: 48594
+    name: Sentry Tower
+    published: false
+    volume: 1000.0
   Serpentis Crash Storage Platform:
     id: 26856
     name: Serpentis Crash Storage Platform
@@ -856,11 +856,6 @@ items:
   Tower Sentry Serpentis III:
     id: 16747
     name: Tower Sentry Serpentis III
-    published: false
-    volume: 1000.0
-  Tower Structure:
-    id: 48594
-    name: Tower Structure
     published: false
     volume: 1000.0
   Vigilant Sentry Tower:

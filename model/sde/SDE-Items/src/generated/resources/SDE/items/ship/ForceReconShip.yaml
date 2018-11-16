@@ -320,7 +320,7 @@ items:
     MedSlots: 7
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 1.0
-    PowerOutput: 700
+    PowerOutput: 760
     PowerToSpeed: 1
     PropulsionGraphicID: 397
     RechargeRate: 321000.0
@@ -343,7 +343,7 @@ items:
     ShipBonusCC: -10
     ShipBonusCC2: 5.0
     ShipBonusGC: 5.0
-    SignatureRadius: 175
+    SignatureRadius: 165
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005

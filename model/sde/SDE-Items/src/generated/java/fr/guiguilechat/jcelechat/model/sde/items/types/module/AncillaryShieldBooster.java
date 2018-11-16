@@ -78,6 +78,13 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double OverloadSelfDurationBonus;
     /**
@@ -165,6 +172,10 @@ public class AncillaryShieldBooster
             case  1211 :
             {
                 return HeatDamage;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
             }
             case  1206 :
             {

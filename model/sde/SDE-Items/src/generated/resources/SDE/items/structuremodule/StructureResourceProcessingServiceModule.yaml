@@ -13,7 +13,8 @@ items:
     ServiceModuleFuelAmount: 15
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 45539
     marketGroup: 2233
@@ -34,7 +35,8 @@ items:
     ServiceModuleFuelAmount: 15
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 45537
     marketGroup: 2233
@@ -55,7 +57,8 @@ items:
     ServiceModuleFuelAmount: 15
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 45538
     marketGroup: 2233
@@ -77,7 +80,8 @@ items:
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 35899
     marketGroup: 2233

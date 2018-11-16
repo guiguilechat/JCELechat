@@ -127,12 +127,19 @@ public class StructureResourceProcessingServiceModule
     @DefaultIntValue(0)
     public int ServiceModuleFuelOnlineAmount;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ServiceModuleFullPowerStateArmorPlatingMultiplier;
+    /**
      * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ServiceModuleFullPowerStateHitpointMultiplier;
+    @DefaultIntValue(1)
+    public int ServiceModuleFullPowerStateHitpointMultiplier;
     public final static StructureResourceProcessingServiceModule.MetaGroup METAGROUP = new StructureResourceProcessingServiceModule.MetaGroup();
 
     @Override
@@ -197,6 +204,10 @@ public class StructureResourceProcessingServiceModule
             case  2110 :
             {
                 return ServiceModuleFuelOnlineAmount;
+            }
+            case  2804 :
+            {
+                return ServiceModuleFullPowerStateArmorPlatingMultiplier;
             }
             case  2744 :
             {

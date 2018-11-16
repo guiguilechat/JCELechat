@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.items.types.superkerrinducednanocoatings;
+package fr.guiguilechat.jcelechat.model.sde.items.types.skins;
 
 import java.io.InputStreamReader;
 import java.util.Collections;
@@ -6,11 +6,11 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.items.types.SuperKerrInducedNanocoatings;
+import fr.guiguilechat.jcelechat.model.sde.items.types.SKINs;
 import org.yaml.snakeyaml.Yaml;
 
 public class Max1YearSKIN
-    extends SuperKerrInducedNanocoatings
+    extends SKINs
 {
     public final static Max1YearSKIN.MetaGroup METAGROUP = new Max1YearSKIN.MetaGroup();
 
@@ -22,12 +22,12 @@ public class Max1YearSKIN
     public static class MetaGroup
         implements IMetaGroup<Max1YearSKIN>
     {
-        public final static String RESOURCE_PATH = "SDE/items/superkerrinducednanocoatings/Max1YearSKIN.yaml";
+        public final static String RESOURCE_PATH = "SDE/items/skins/Max1YearSKIN.yaml";
         private Map<String, Max1YearSKIN> cache = (null);
 
         @Override
         public IMetaCategory<? super Max1YearSKIN> category() {
-            return SuperKerrInducedNanocoatings.METACAT;
+            return SKINs.METACAT;
         }
 
         @Override

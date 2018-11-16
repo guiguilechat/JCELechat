@@ -364,6 +364,8 @@ corporations:
     - 16076
     - 16173
     - 16243
+    - 16340
+    - 16341
     name: 24th Imperial Crusade
     warfare: Amarr Empire
   AEGIS:
@@ -9410,6 +9412,8 @@ corporations:
     - 16194
     - 16195
     - 16243
+    - 16344
+    - 16345
     name: Federal Defense Union
     warfare: Gallente Federation
   Federal Freight:
@@ -27012,6 +27016,8 @@ corporations:
     - 16170
     - 16175
     - 16243
+    - 16346
+    - 16347
     name: State Protectorate
     warfare: Caldari State
   State War Academy:
@@ -29443,6 +29449,8 @@ corporations:
     - 16200
     - 16202
     - 16243
+    - 16342
+    - 16343
     name: Tribal Liberation Force
     warfare: Minmatar Republic
   Tronhadar Free Guard:

@@ -9,42 +9,42 @@ import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class NPCBattlecruiser
+public class IrregularUnidentified
     extends Entity
 {
-    public final static NPCBattlecruiser.MetaGroup METAGROUP = new NPCBattlecruiser.MetaGroup();
+    public final static IrregularUnidentified.MetaGroup METAGROUP = new IrregularUnidentified.MetaGroup();
 
     @Override
-    public IMetaGroup<NPCBattlecruiser> getGroup() {
+    public IMetaGroup<IrregularUnidentified> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<NPCBattlecruiser>
+        implements IMetaGroup<IrregularUnidentified>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/NPCBattlecruiser.yaml";
-        private Map<String, NPCBattlecruiser> cache = (null);
+        public final static String RESOURCE_PATH = "SDE/items/entity/IrregularUnidentified.yaml";
+        private Map<String, IrregularUnidentified> cache = (null);
 
         @Override
-        public IMetaCategory<? super NPCBattlecruiser> category() {
+        public IMetaCategory<? super IrregularUnidentified> category() {
             return Entity.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  1909;
+            return  1929;
         }
 
         @Override
         public String getName() {
-            return "NPCBattlecruiser";
+            return "IrregularUnidentified";
         }
 
         @Override
-        public synchronized Map<String, NPCBattlecruiser> load() {
+        public synchronized Map<String, IrregularUnidentified> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(IrregularUnidentified.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCBattlecruiser
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCBattlecruiser> items;
+            public LinkedHashMap<String, IrregularUnidentified> items;
         }
     }
 }

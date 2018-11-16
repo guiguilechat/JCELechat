@@ -134,7 +134,7 @@ public class BlackOps
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
+    @DefaultIntValue(2000)
     public int JumpDriveConsumptionAmount;
     /**
      * Type that is used for consumption from cargo hold when activating jump drive operation.

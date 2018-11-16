@@ -9,7 +9,8 @@ items:
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 35894
     marketGroup: 2232
@@ -34,7 +35,8 @@ items:
     ServiceModuleFuelAmount: 40
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 2880
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 35892
     marketGroup: 2232

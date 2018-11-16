@@ -286,7 +286,7 @@ items:
     MaxVelocity: 194.0
     MedSlots: 7
     MetaLevel: 5
-    PowerOutput: 680
+    PowerOutput: 740
     PowerToSpeed: 1
     PropulsionGraphicID: 397
     RechargeRate: 318000.0
@@ -309,7 +309,7 @@ items:
     ShipBonusCC: -10
     ShipBonusCC2: 7.5
     ShipBonusGC: 5.0
-    SignatureRadius: 170
+    SignatureRadius: 158
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005

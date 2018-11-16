@@ -194,6 +194,34 @@ public class CombatBattlecruiser
     @DefaultDoubleValue(0.0)
     public double ShipBonusMBC2;
     /**
+     * Precursor Battlecruiser Skill Attribute
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPBC1;
+    /**
+     * Precursor Battlecruiser Skill Attribute
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPBC2;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
+    /**
      * Fixed Role Bonus on a ship.
      */
     @HighIsGood(true)
@@ -314,6 +342,22 @@ public class CombatBattlecruiser
             case  749 :
             {
                 return ShipBonusMBC2;
+            }
+            case  2801 :
+            {
+                return ShipBonusPBC1;
+            }
+            case  2802 :
+            {
+                return ShipBonusPBC2;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
             }
             case  793 :
             {

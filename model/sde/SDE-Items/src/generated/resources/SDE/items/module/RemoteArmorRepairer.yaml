@@ -75,7 +75,7 @@ items:
     ArmorDamageAmount: 950
     CapacitorNeed: 1650.0
     Cpu: 34.0
-    Duration: 12000.0
+    Duration: 15000.0
     FalloffEffectiveness: 5100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
@@ -101,7 +101,7 @@ items:
     ArmorDamageAmount: 800
     CapacitorNeed: 1770.0
     Cpu: 32.0
-    Duration: 12000.0
+    Duration: 15000.0
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
@@ -126,7 +126,7 @@ items:
     ArmorDamageAmount: 800
     CapacitorNeed: 1420.0
     Cpu: 40.0
-    Duration: 12000.0
+    Duration: 15000.0
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
@@ -150,7 +150,7 @@ items:
   Capital Remote Armor Repairer I:
     ArmorDamageAmount: 730
     CapacitorNeed: 1770.0
-    Duration: 12000.0
+    Duration: 15000.0
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
@@ -174,7 +174,7 @@ items:
     ArmorDamageAmount: 875
     CapacitorNeed: 1950.0
     Cpu: 44.0
-    Duration: 12000.0
+    Duration: 15000.0
     FalloffEffectiveness: 4800
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
@@ -199,7 +199,7 @@ items:
     ArmorDamageAmount: 800
     CapacitorNeed: 1770.0
     Cpu: 40.0
-    Duration: 12000.0
+    Duration: 15000.0
     FalloffEffectiveness: 4400
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
@@ -531,7 +531,7 @@ items:
     ArmorDamageAmount: 980
     CapacitorNeed: 1800.0
     Cpu: 34.0
-    Duration: 12000.0
+    Duration: 15000.0
     FalloffEffectiveness: 5100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
@@ -783,7 +783,7 @@ items:
     ArmorDamageAmount: 840
     CapacitorNeed: 1400.0
     Cpu: 32.0
-    Duration: 10800.0
+    Duration: 13000.0
     FalloffEffectiveness: 5100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842

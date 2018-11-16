@@ -27,6 +27,13 @@ items:
     name: Structure Docking Bay
     published: true
     volume: 3000.0
+  Structure EXERT Conduit Coupler:
+    MoonMiningAmount: 1
+    id: 49720
+    marketGroup: 1865
+    name: Structure EXERT Conduit Coupler
+    published: true
+    volume: 3000.0
   Structure Electromagnetic Sensor:
     MoonMiningAmount: 1
     id: 36956

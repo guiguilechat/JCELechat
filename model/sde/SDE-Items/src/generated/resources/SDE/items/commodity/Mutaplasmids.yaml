@@ -35,6 +35,30 @@ items:
     name: Decayed 5MN Microwarpdrive Mutaplasmid
     published: true
     volume: 1.0
+  Decayed Ballistic Control System Mutaplasmid:
+    id: 49739
+    marketGroup: 2517
+    name: Decayed Ballistic Control System Mutaplasmid
+    published: true
+    volume: 1.0
+  Decayed Entropic Radiation Sink Mutaplasmid:
+    id: 49735
+    marketGroup: 2516
+    name: Decayed Entropic Radiation Sink Mutaplasmid
+    published: true
+    volume: 1.0
+  Decayed Gyrostabilizer Mutaplasmid:
+    id: 49731
+    marketGroup: 2515
+    name: Decayed Gyrostabilizer Mutaplasmid
+    published: true
+    volume: 1.0
+  Decayed Heat Sink Mutaplasmid:
+    id: 49727
+    marketGroup: 2514
+    name: Decayed Heat Sink Mutaplasmid
+    published: true
+    volume: 1.0
   Decayed Heavy Energy Neutralizer Mutaplasmid:
     id: 47829
     marketGroup: 2455
@@ -75,6 +99,12 @@ items:
     id: 47805
     marketGroup: 2448
     name: Decayed Large Shield Extender Mutaplasmid
+    published: true
+    volume: 1.0
+  Decayed Magnetic Field Stabilizer Mutaplasmid:
+    id: 49723
+    marketGroup: 2513
+    name: Decayed Magnetic Field Stabilizer Mutaplasmid
     published: true
     volume: 1.0
   Decayed Medium Armor Plate Mutaplasmid:
@@ -221,6 +251,30 @@ items:
     name: Gravid 5MN Microwarpdrive Mutaplasmid
     published: true
     volume: 1.0
+  Gravid Ballistic Control System Mutaplasmid:
+    id: 49740
+    marketGroup: 2517
+    name: Gravid Ballistic Control System Mutaplasmid
+    published: true
+    volume: 1.0
+  Gravid Entropic Radiation Sink Mutaplasmid:
+    id: 49736
+    marketGroup: 2516
+    name: Gravid Entropic Radiation Sink Mutaplasmid
+    published: true
+    volume: 1.0
+  Gravid Gyrostabilizer Mutaplasmid:
+    id: 49732
+    marketGroup: 2515
+    name: Gravid Gyrostabilizer Mutaplasmid
+    published: true
+    volume: 1.0
+  Gravid Heat Sink Mutaplasmid:
+    id: 49728
+    marketGroup: 2514
+    name: Gravid Heat Sink Mutaplasmid
+    published: true
+    volume: 1.0
   Gravid Heavy Energy Neutralizer Mutaplasmid:
     id: 47831
     marketGroup: 2455
@@ -261,6 +315,12 @@ items:
     id: 47807
     marketGroup: 2448
     name: Gravid Large Shield Extender Mutaplasmid
+    published: true
+    volume: 1.0
+  Gravid Magnetic Field Stabilizer Mutaplasmid:
+    id: 49724
+    marketGroup: 2513
+    name: Gravid Magnetic Field Stabilizer Mutaplasmid
     published: true
     volume: 1.0
   Gravid Medium Armor Plate Mutaplasmid:
@@ -407,6 +467,30 @@ items:
     name: Unstable 5MN Microwarpdrive Mutaplasmid
     published: true
     volume: 1.0
+  Unstable Ballistic Control System Mutaplasmid:
+    id: 49741
+    marketGroup: 2517
+    name: Unstable Ballistic Control System Mutaplasmid
+    published: true
+    volume: 1.0
+  Unstable Entropic Radiation Sink Mutaplasmid:
+    id: 49737
+    marketGroup: 2516
+    name: Unstable Entropic Radiation Sink Mutaplasmid
+    published: true
+    volume: 1.0
+  Unstable Gyrostabilizer Mutaplasmid:
+    id: 49733
+    marketGroup: 2515
+    name: Unstable Gyrostabilizer Mutaplasmid
+    published: true
+    volume: 1.0
+  Unstable Heat Sink Mutaplasmid:
+    id: 49729
+    marketGroup: 2514
+    name: Unstable Heat Sink Mutaplasmid
+    published: true
+    volume: 1.0
   Unstable Heavy Energy Neutralizer Mutaplasmid:
     id: 47830
     marketGroup: 2455
@@ -459,6 +543,12 @@ items:
     id: 47806
     marketGroup: 2448
     name: Unstable Large Shield Extender Mutaplasmid
+    published: true
+    volume: 1.0
+  Unstable Magnetic Field Stabilizer Mutaplasmid:
+    id: 49725
+    marketGroup: 2513
+    name: Unstable Magnetic Field Stabilizer Mutaplasmid
     published: true
     volume: 1.0
   Unstable Medium Ancillary Armor Repairer Mutaplasmid:

@@ -598,6 +598,11 @@ items:
     id: 25992
     name: Conquerable Station 3
     published: false
+  Cookhouse Shielding Projector:
+    id: 48962
+    name: Cookhouse Shielding Projector
+    published: false
+    volume: 1.0
   Crippled Sleeper Preservation Conduit:
     id: 30276
     name: Crippled Sleeper Preservation Conduit
@@ -618,6 +623,11 @@ items:
     name: Deadspace Particle Accelerator
     published: false
     volume: 1.0E8
+  Deathglow Harvest Silo:
+    id: 48961
+    name: Deathglow Harvest Silo
+    published: false
+    volume: 4000.0
   Decrepit Talocan Outpost Core:
     id: 30278
     name: Decrepit Talocan Outpost Core
@@ -1833,8 +1843,3 @@ items:
     name: Worn Talocan Static Gate
     published: false
     volume: 1.0E8
-  unnamed_g319_ic0:
-    id: 48962
-    name: unnamed_g319_ic0
-    published: false
-    volume: 1.0

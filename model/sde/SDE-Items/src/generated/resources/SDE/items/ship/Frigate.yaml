@@ -1535,7 +1535,7 @@ items:
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiningAmountMultiplier: 1.0
-    PowerOutput: 24
+    PowerOutput: 28
     PowerToSpeed: 1
     PropulsionGraphicID: 395
     RechargeRate: 135000.0
@@ -1556,7 +1556,7 @@ items:
     ShipBonus2AF: 5.0
     ShipBonusCF: 15
     ShipBonusCF2: -10.0
-    SignatureRadius: 42
+    SignatureRadius: 40
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -1641,7 +1641,7 @@ items:
     ShipBonus2AF: 5.0
     ShipBonusCF: 20
     ShipBonusCF2: 20.0
-    SignatureRadius: 40
+    SignatureRadius: 38
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005

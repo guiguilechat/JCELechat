@@ -14,7 +14,7 @@ items:
     marketGroup: 2467
     name: Baryon Exotic Plasma L
     published: true
-    volume: 0.1
+    volume: 0.01
   Baryon Exotic Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -30,7 +30,7 @@ items:
     marketGroup: 2466
     name: Baryon Exotic Plasma M
     published: true
-    volume: 0.1
+    volume: 0.01
   Baryon Exotic Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -46,7 +46,7 @@ items:
     marketGroup: 2465
     name: Baryon Exotic Plasma S
     published: true
-    volume: 0.1
+    volume: 0.01
   Meson Exotic Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -62,7 +62,7 @@ items:
     marketGroup: 2467
     name: Meson Exotic Plasma L
     published: true
-    volume: 0.1
+    volume: 0.01
   Meson Exotic Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -78,7 +78,7 @@ items:
     marketGroup: 2466
     name: Meson Exotic Plasma M
     published: true
-    volume: 0.1
+    volume: 0.01
   Meson Exotic Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -94,7 +94,7 @@ items:
     marketGroup: 2465
     name: Meson Exotic Plasma S
     published: true
-    volume: 0.1
+    volume: 0.01
   Tetryon Exotic Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -110,7 +110,7 @@ items:
     marketGroup: 2467
     name: Tetryon Exotic Plasma L
     published: true
-    volume: 0.1
+    volume: 0.01
   Tetryon Exotic Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -126,7 +126,7 @@ items:
     marketGroup: 2466
     name: Tetryon Exotic Plasma M
     published: true
-    volume: 0.1
+    volume: 0.01
   Tetryon Exotic Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -142,4 +142,4 @@ items:
     marketGroup: 2465
     name: Tetryon Exotic Plasma S
     published: true
-    volume: 0.1
+    volume: 0.01

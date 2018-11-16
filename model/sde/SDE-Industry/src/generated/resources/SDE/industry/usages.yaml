@@ -2383,6 +2383,16 @@ usages:
       Tritanium: 509
       Pyerite: 454
       Mexallon: 167
+  '''Subverted'' JVN-UC49':
+    maxreprocess: 0.55
+    productManuf: !!set
+      '''Subverted'' JVN-UC49 Blueprint': null
+    reprocess:
+      Tritanium: 5947
+      Pyerite: 729
+      Isogen: 47
+      Nocxium: 27
+      Zydrine: 18
   '''Swindler'' Electron Blaster Cannon I':
     maxreprocess: 0.55
     productManuf: !!set
@@ -4906,10 +4916,6 @@ usages:
       Mexallon: 166
       Isogen: 1
       Megacyte: 1
-  A10:
-    maxreprocess: 0.55
-    productManuf: !!set
-      unnamed_g718_ic10144: null
   AE-K Compact Drone Damage Amplifier:
     maxreprocess: 0.55
     reprocess:
@@ -4934,7 +4940,7 @@ usages:
       Megacyte: 2
   Abaddon:
     materialManuf: !!set
-      地狱天使级YC117年特别版蓝图: null
+      地狱天使级YC117年���别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Abaddon Blueprint: null
@@ -4978,6 +4984,47 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Harbinger Blueprint: null
+  Abyssal Ballistic Control System:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 1351
+      Miniature Electronics: 5
+      Mexallon: 636
+      Quantum Microprocessor: 9
+      Isogen: 4
+      Zydrine: 14
+      Morphite: 5
+      Megacyte: 4
+      Mechanical Parts: 1
+  Abyssal Entropic Radiation Sink:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 676
+      Mexallon: 318
+      Isogen: 2
+      Zydrine: 6
+      Megacyte: 2
+  Abyssal Gyrostabilizer:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 773
+      Pyerite: 491
+      Mexallon: 518
+      Isogen: 3
+      Zydrine: 4
+  Abyssal Heat Sink:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 676
+      Mexallon: 318
+      Isogen: 2
+      Zydrine: 6
+      Megacyte: 2
+  Abyssal Magnetic Field Stabilizer:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 8050
+      Pyerite: 1459
   Abyssal Stasis Webifier:
     maxreprocess: 0.55
     reprocess:
@@ -5132,6 +5179,10 @@ usages:
       Tritanium: 1466
       Pyerite: 1316
       Mexallon: 48
+  Advanced 'Radiance' Cerebral Accelerator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
   Advanced Cerebral Accelerator:
     maxreprocess: 0.55
     productManuf: !!set
@@ -7318,6 +7369,17 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Obelisk Blueprint: null
+  Ansiblex Jump Gate:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Ansiblex Jump Gate Blueprint: null
+    reprocess:
+      Structure EXERT Conduit Coupler: 2
+      Structure Construction Parts: 4
+      Structure Electromagnetic Sensor: 1
+      Structure Acceleration Coils: 3
+      Structure Advertisement Nexus: 1
+      Structure Storage Bay: 1
   Antaeus I:
     materialManuf: !!set
       Antaeus II Blueprint: null
@@ -7461,7 +7523,7 @@ usages:
   Apocalypse:
     materialManuf: !!set
       Paladin Blueprint: null
-      灾��级YC117年特别版蓝图: null
+      灾难级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Apocalypse Blueprint: null
@@ -7915,7 +7977,7 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末日沙场级YC117年特别版蓝图: null
+      末日���场级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Armageddon Blueprint: null
@@ -8537,6 +8599,18 @@ usages:
       Nocxium: 40
       Zydrine: 18
       Megacyte: 4
+  Asteroid B UNUSED:
+    maxreprocess: 0.8934
+    reprocess:
+      Chromodynamic Tricarboxyls: 4
+  Asteroid C UNUSED:
+    maxreprocess: 0.8934
+    reprocess:
+      Chromodynamic Tricarboxyls: 4
+  Asteroid D UNUSED:
+    maxreprocess: 0.8934
+    reprocess:
+      Chromodynamic Tricarboxyls: 4
   Astrahus:
     maxreprocess: 0.55
     productManuf: !!set
@@ -8746,7 +8820,6 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
-      unnamed_g718_ic10144: null
     maxreprocess: 0.55
   Avatar:
     maxreprocess: 0.55
@@ -8798,10 +8871,6 @@ usages:
       Tritanium: 113
       Pyerite: 224
       Mexallon: 113
-  B10:
-    maxreprocess: 0.55
-    productManuf: !!set
-      unnamed_g718_ic10144: null
   BH Ship Scanner:
     maxreprocess: 0.55
     reprocess:
@@ -9021,6 +9090,10 @@ usages:
       Tritanium: 27
       Pyerite: 21
       Crystalline Isogen-10: 2
+  Basic 'Radiance' Cerebral Accelerator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Basic 'Radiance' Cerebral Accelerator Blueprint: null
   Basic Adaptive Nano Plating:
     maxreprocess: 0.55
     reprocess:
@@ -18330,6 +18403,13 @@ usages:
       Isogen: 750
       Nocxium: 50
       Hydrocarbons: 10
+  Chromodynamic Tricarboxyls:
+    materialManuf: !!set
+      Basic 'Radiance' Cerebral Accelerator Blueprint: null
+      Standard 'Radiance' Cerebral Accelerator Blueprint: null
+      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
+      Extended 'Radiance' Cerebral Accelerator Blueprint: null
+    maxreprocess: 0.55
   Cinnabar:
     maxreprocess: 0.8934
     reprocess:
@@ -23473,6 +23553,7 @@ usages:
       Standup XL-Set Thukker Structure and Component Manufacturing Efficiency Blueprint: null
       Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency Blueprint: null
       Standup L-Set Thukker Advanced Component Manufacturing Efficiency Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   Covetor:
     materialManuf: !!set
@@ -23875,7 +23956,14 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
+  Cthonic Attar:
+    maxreprocess: 0.8934
+    reprocess:
+      Chromodynamic Tricarboxyls: 4
   Cubic Bistot:
     maxreprocess: 0.8934
     reprocess:
@@ -23918,6 +24006,10 @@ usages:
       Incognito Data Interface Blueprint: null
       Incognito Ship Data Interface Blueprint: null
       Incognito Tuner Data Interface Blueprint: null
+      Basic 'Radiance' Cerebral Accelerator Blueprint: null
+      Standard 'Radiance' Cerebral Accelerator Blueprint: null
+      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
+      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Current Pump:
     materialManuf: !!set
@@ -25669,6 +25761,10 @@ usages:
       Cryptic Data Interface Blueprint: null
       Cryptic Ship Data Interface Blueprint: null
       Cryptic Tuner Data Interface Blueprint: null
+      Basic 'Radiance' Cerebral Accelerator Blueprint: null
+      Standard 'Radiance' Cerebral Accelerator Blueprint: null
+      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
+      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Data Sheets:
     materialCopy: !!set
@@ -28808,6 +28904,19 @@ usages:
     reprocess:
       Tritanium: 4578
       Pyerite: 5800
+  Deployable Billboard:
+    maxreprocess: 0.55
+    reprocess:
+      Ukomi Superconductors: 2
+      Tritanium: 27778
+      Pyerite: 12222
+      Mexallon: 10000
+      Isogen: 2778
+      Nocxium: 389
+      Organic Mortar Applicators: 2
+      Zydrine: 1112
+      Megacyte: 88
+      Wetware Mainframe: 1
   Design Laboratory:
     materialManuf: !!set
       Design Laboratory Blueprint: null
@@ -29997,7 +30106,7 @@ usages:
   Dominix:
     materialManuf: !!set
       Sin Blueprint: null
-      多米尼克斯级YC117年特别版蓝图: null
+      多��尼克斯级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Dominix Blueprint: null
@@ -30291,15 +30400,6 @@ usages:
       Isogen: 1080
       Nocxium: 240
       Zydrine: 92
-  ? "Drains energy from the target ship and adds it to your own.\r\n\r\nNote: A Nosferatu\
-    \ module will not drain your target's capacitor below your own capacitor level."
-  : maxreprocess: 0.55
-    reprocess:
-      Tritanium: 2093
-      Pyerite: 1532
-      Mexallon: 22
-      Isogen: 138
-      Megacyte: 2
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
@@ -31326,6 +31426,20 @@ usages:
       Morphite: 678
       Megacyte: 2214
       Robotics: 768
+  Drekavac:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Drekavac Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 560
+      Tritanium: 914356
+      Pyerite: 184233
+      Mexallon: 43907
+      Isogen: 9687
+      Nocxium: 2887
+      Zydrine: 1402
+      Crystalline Isogen-10: 635
+      Megacyte: 386
   Dromi I:
     materialManuf: !!set
       Dromi II Blueprint: null
@@ -31409,7 +31523,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
-      unnamed_g176_ic0: null
+      '''Subverted'' JVN-UC49 Blueprint': null
     maxreprocess: 0.55
   Drone Cerebral Fragment:
     materialManuf: !!set
@@ -31439,7 +31553,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
-      unnamed_g176_ic0: null
+      '''Subverted'' JVN-UC49 Blueprint': null
     maxreprocess: 0.55
   Drone Coronary Unit:
     materialManuf: !!set
@@ -31459,7 +31573,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
-      unnamed_g176_ic0: null
+      '''Subverted'' JVN-UC49 Blueprint': null
     maxreprocess: 0.55
   Drone Damage Amplifier I:
     materialManuf: !!set
@@ -31518,7 +31632,7 @@ usages:
       '''Augmented'' Ice Harvesting Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
-      unnamed_g176_ic0: null
+      '''Subverted'' JVN-UC49 Blueprint': null
     maxreprocess: 0.55
   Drone Link Augmentor I:
     materialManuf: !!set
@@ -31614,7 +31728,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
-      unnamed_g176_ic0: null
+      '''Subverted'' JVN-UC49 Blueprint': null
     maxreprocess: 0.55
   Drone Tactical Limb:
     materialManuf: !!set
@@ -31640,7 +31754,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
-      unnamed_g176_ic0: null
+      '''Subverted'' JVN-UC49 Blueprint': null
     maxreprocess: 0.55
   Drone Transceiver:
     materialManuf: !!set
@@ -32369,10 +32483,6 @@ usages:
       Pyerite: 51
       Mexallon: 2
       Nocxium: 1
-  E10:
-    maxreprocess: 0.55
-    productManuf: !!set
-      unnamed_g718_ic10144: null
   E5 Prototype Energy Vampire:
     maxreprocess: 0.55
     reprocess:
@@ -33406,6 +33516,10 @@ usages:
       Esoteric Data Interface Blueprint: null
       Esoteric Ship Data Interface Blueprint: null
       Esoteric Tuner Data Interface Blueprint: null
+      Basic 'Radiance' Cerebral Accelerator Blueprint: null
+      Standard 'Radiance' Cerebral Accelerator Blueprint: null
+      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
+      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Electronic Parts:
     materialManuf: !!set
@@ -33440,7 +33554,6 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
-      unnamed_g718_ic10144: null
     maxreprocess: 0.55
   Elite Drone AI:
     materialManuf: !!set
@@ -33460,7 +33573,7 @@ usages:
       '''Augmented'' Mining Drone Blueprint': null
       '''Excavator'' Mining Drone Blueprint': null
       '''Excavator'' Ice Harvesting Drone Blueprint': null
-      unnamed_g176_ic0: null
+      '''Subverted'' JVN-UC49 Blueprint': null
     maxreprocess: 0.55
   Emergency Damage Control I:
     maxreprocess: 0.55
@@ -34963,6 +35076,10 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Explosive Plating I Blueprint: null
+  Extended 'Radiance' Cerebral Accelerator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Extended 'Radiance' Cerebral Accelerator Blueprint: null
   Extra Gravimetric ECCM Scanning Array I:
     maxreprocess: 0.55
     reprocess:
@@ -36445,7 +36562,6 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
-      unnamed_g718_ic10144: null
     maxreprocess: 0.55
   Force Field Array:
     maxreprocess: 0.55
@@ -46393,7 +46509,7 @@ usages:
       Incursus Blueprint: null
   Ishtar:
     materialManuf: !!set
-      伊什塔级YC117年特别版蓝图: null
+      伊什塔级YC117年特���版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Ishtar Blueprint: null
@@ -47359,8 +47475,11 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
-      unnamed_g176_ic0: null
-      unnamed_g2010_ic97: null
+      '''Subverted'' JVN-UC49 Blueprint': null
+      Zero-Point Mass Entangler Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   Iteron Inner Zone Shipping Edition:
     maxreprocess: 0.55
@@ -48130,6 +48249,20 @@ usages:
       Mexallon: 334
       Isogen: 197
       Zydrine: 4
+  Kikimora:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Kikimora Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 180
+      Tritanium: 43304
+      Pyerite: 7290
+      Mexallon: 3349
+      Isogen: 398
+      Nocxium: 82
+      Zydrine: 22
+      Crystalline Isogen-10: 230
+      Megacyte: 3
   Kinetic Deflection Amplifier I:
     materialManuf: !!set
       Kinetic Deflection Amplifier II Blueprint: null
@@ -48695,19 +48828,6 @@ usages:
       Structure Advertisement Nexus: 4
       Structure Office Center: 10
       Structure Storage Bay: 10
-  Large Advertisement Center:
-    maxreprocess: 0.55
-    reprocess:
-      Structure Laboratory: 1
-      Structure Factory: 1
-      Structure Repair Facility: 1
-      Structure Reprocessing Plant: 1
-      Structure Docking Bay: 1
-      Structure Construction Parts: 1
-      Structure Hangar Array: 1
-      Structure Advertisement Nexus: 40
-      Structure Storage Bay: 1
-      Structure Office Center: 1
   Large Algid Energy Administrations Unit I:
     maxreprocess: 0.55
     productManuf: !!set
@@ -52546,6 +52666,7 @@ usages:
       Nitrogen Fuel Block Blueprint: null
       Helium Fuel Block Blueprint: null
       Hydrogen Fuel Block Blueprint: null
+      Pharolux Cyno Beacon Blueprint: null
     maxreprocess: 0.55
   Local Hull Conversion Expanded Cargo I:
     maxreprocess: 0.55
@@ -54986,19 +55107,6 @@ usages:
       Structure Hangar Array: 1
       Structure Office Center: 1
       Structure Storage Bay: 1
-  Medium Advertisement Center:
-    maxreprocess: 0.55
-    reprocess:
-      Structure Laboratory: 1
-      Structure Factory: 1
-      Structure Repair Facility: 1
-      Structure Reprocessing Plant: 1
-      Structure Docking Bay: 1
-      Structure Construction Parts: 1
-      Structure Hangar Array: 1
-      Structure Advertisement Nexus: 40
-      Structure Storage Bay: 1
-      Structure Office Center: 1
   Medium Algid Energy Administrations Unit I:
     maxreprocess: 0.55
     productManuf: !!set
@@ -58817,12 +58925,15 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
-      unnamed_g2010_ic97: null
+      Zero-Point Mass Entangler Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
-      万���宝座级YC117年特别版蓝图: null
+      万王宝座级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Megathron Blueprint: null
@@ -60092,7 +60203,10 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
-      unnamed_g2010_ic97: null
+      Zero-Point Mass Entangler Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   Miasmos:
     maxreprocess: 0.55
@@ -65996,8 +66110,11 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
-      unnamed_g176_ic0: null
-      unnamed_g2010_ic97: null
+      '''Subverted'' JVN-UC49 Blueprint': null
+      Zero-Point Mass Entangler Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   Noir. Modified Entosis Link:
     maxreprocess: 0.55
@@ -68688,6 +68805,17 @@ usages:
       Mexallon: 73
       Isogen: 4
       Zydrine: 1
+  Pharolux Cyno Beacon:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Pharolux Cyno Beacon Blueprint: null
+    reprocess:
+      Liquid Ozone: 500000
+      Structure Construction Parts: 2
+      Structure Electromagnetic Sensor: 2
+      Structure Hangar Array: 1
+      Structure Acceleration Coils: 1
+      Structure Storage Bay: 1
   Phase Inversion Battery:
     materialManuf: !!set
       Guristas Phase Inversion Battery Blueprint: null
@@ -69921,7 +70049,10 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
-      unnamed_g718_ic10144: null
+      Basic 'Radiance' Cerebral Accelerator Blueprint: null
+      Standard 'Radiance' Cerebral Accelerator Blueprint: null
+      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
+      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Poteque 'Prospector' Archaeology AC-905:
     maxreprocess: 0.55
@@ -72750,8 +72881,11 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
-      unnamed_g176_ic0: null
-      unnamed_g2010_ic97: null
+      '''Subverted'' JVN-UC49 Blueprint': null
+      Zero-Point Mass Entangler Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   Pyroxeres:
     maxreprocess: 0.8934
@@ -77705,6 +77839,7 @@ usages:
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   Red Giant Beacon Class 1:
     maxreprocess: 0.55
@@ -80807,6 +80942,18 @@ usages:
     reprocess:
       Tritanium: 100000
       Pyerite: 50000
+  Rodiva:
+    maxreprocess: 0.55
+    reprocess:
+      Zero-Point Condensate: 400
+      Tritanium: 614356
+      Pyerite: 154233
+      Mexallon: 39907
+      Isogen: 9687
+      Nocxium: 2387
+      Zydrine: 1202
+      Crystalline Isogen-10: 435
+      Megacyte: 356
   Rokh:
     maxreprocess: 0.55
     productManuf: !!set
@@ -80890,10 +81037,6 @@ usages:
       Nocxium: 2556
       Zydrine: 1044
       Megacyte: 422
-  S10:
-    maxreprocess: 0.55
-    productManuf: !!set
-      unnamed_g718_ic10144: null
   Sabre:
     maxreprocess: 0.55
     productManuf: !!set
@@ -86237,6 +86380,14 @@ usages:
       Isogen: 96
       Zydrine: 2
       Megacyte: 2
+  Small Abyssal Energy Nosferatu:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 2093
+      Pyerite: 1532
+      Mexallon: 22
+      Isogen: 138
+      Megacyte: 2
   Small Abyssal Shield Booster:
     maxreprocess: 0.55
     reprocess:
@@ -88722,19 +88873,6 @@ usages:
     reprocess:
       Tritanium: 222
       Pyerite: 222
-  Small Stargate:
-    maxreprocess: 0.55
-    reprocess:
-      Structure Mission Network: 4
-      Structure Repair Facility: 1
-      Structure Docking Bay: 1
-      Structure Market Network: 4
-      Structure Construction Parts: 1
-      Structure Acceleration Coils: 400
-      Structure Hangar Array: 1
-      Structure Medical Center: 1
-      Structure Storage Bay: 1
-      Structure Office Center: 1
   Small Stasis Drone Augmentor I:
     maxreprocess: 0.55
     productManuf: !!set
@@ -89408,6 +89546,10 @@ usages:
       Pyerite: 79
       Mexallon: 103
       Nocxium: 1
+  Standard 'Radiance' Cerebral Accelerator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Standard 'Radiance' Cerebral Accelerator Blueprint: null
   Standard Blue Pill Booster:
     maxreprocess: 0.55
     productManuf: !!set
@@ -94916,10 +95058,13 @@ usages:
     maxreprocess: 0.55
   Structure Acceleration Coils:
     materialManuf: !!set
+      Pharolux Cyno Beacon Blueprint: null
+      Ansiblex Jump Gate Blueprint: null
       Keepstar Blueprint: null
       Sotiyo Blueprint: null
       Athanor Blueprint: null
       Tatara Blueprint: null
+      Tenebrex Cyno Jammer Blueprint: null
       Upwell Palatine Keepstar Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -94954,11 +95099,13 @@ usages:
       Megacyte: 23
   Structure Advertisement Nexus:
     materialManuf: !!set
+      Ansiblex Jump Gate Blueprint: null
       Fortizar Blueprint: null
       Keepstar Blueprint: null
       Azbel Blueprint: null
       Sotiyo Blueprint: null
       Tatara Blueprint: null
+      Tenebrex Cyno Jammer Blueprint: null
       Upwell Palatine Keepstar Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -95078,6 +95225,8 @@ usages:
       Wetware Mainframe: 7
   Structure Construction Parts:
     materialManuf: !!set
+      Pharolux Cyno Beacon Blueprint: null
+      Ansiblex Jump Gate Blueprint: null
       Astrahus Blueprint: null
       Fortizar Blueprint: null
       Keepstar Blueprint: null
@@ -95086,6 +95235,7 @@ usages:
       Sotiyo Blueprint: null
       Athanor Blueprint: null
       Tatara Blueprint: null
+      Tenebrex Cyno Jammer Blueprint: null
       Upwell Palatine Keepstar Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -95140,24 +95290,6 @@ usages:
       Self-Harmonizing Power Core: 3
       Sterile Conduits: 7
       Wetware Mainframe: 3
-  Structure Cynosural Generator Array:
-    maxreprocess: 0.55
-    reprocess:
-      Tritanium: 250000
-      Pyerite: 50000
-      Mexallon: 17500
-      Isogen: 2000
-      Nocxium: 375
-      Zydrine: 175
-      Megacyte: 75
-      Broadcast Node: 1
-      Integrity Response Drones: 1
-      Nano-Factory: 1
-      Organic Mortar Applicators: 2
-      Recursive Computing Module: 1
-      Self-Harmonizing Power Core: 2
-      Sterile Conduits: 1
-      Wetware Mainframe: 2
   Structure Cynosural Jammer:
     maxreprocess: 0.55
     reprocess:
@@ -95262,12 +95394,33 @@ usages:
       Nocxium: 15
       Zydrine: 7
       Megacyte: 3
+  Structure EXERT Conduit Coupler:
+    materialManuf: !!set
+      Ansiblex Jump Gate Blueprint: null
+    maxreprocess: 0.55
+    productManuf: !!set
+      Structure EXERT Conduit Coupler Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 100
+      Tritanium: 800000
+      Pyerite: 400000
+      Mexallon: 90000
+      Isogen: 80000
+      Nocxium: 10000
+      Crystalline Isogen-10: 20
+      Zydrine: 7000
+      Recursive Computing Module: 25
+      Megacyte: 4000
+      Covert Research Tools: 10
   Structure Electromagnetic Sensor:
     materialManuf: !!set
+      Pharolux Cyno Beacon Blueprint: null
+      Ansiblex Jump Gate Blueprint: null
       Keepstar Blueprint: null
       Sotiyo Blueprint: null
       Athanor Blueprint: null
       Tatara Blueprint: null
+      Tenebrex Cyno Jammer Blueprint: null
       Upwell Palatine Keepstar Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -95342,6 +95495,7 @@ usages:
       Self-Harmonizing Power Core: 5
   Structure Hangar Array:
     materialManuf: !!set
+      Pharolux Cyno Beacon Blueprint: null
       Astrahus Blueprint: null
       Fortizar Blueprint: null
       Keepstar Blueprint: null
@@ -95599,7 +95753,7 @@ usages:
       Self-Harmonizing Power Core: 5
       Sterile Conduits: 10
       Wetware Mainframe: 5
-  Structure Monument:
+  Structure Monument Module I:
     maxreprocess: 0.55
     reprocess:
       Tritanium: 20000000
@@ -95922,24 +96076,6 @@ usages:
       Self-Harmonizing Power Core: 6
       Sterile Conduits: 6
       Wetware Mainframe: 6
-  Structure Stargate Connector:
-    maxreprocess: 0.55
-    reprocess:
-      Tritanium: 250000
-      Pyerite: 50000
-      Mexallon: 17500
-      Isogen: 2000
-      Nocxium: 375
-      Zydrine: 175
-      Megacyte: 75
-      Broadcast Node: 1
-      Integrity Response Drones: 1
-      Nano-Factory: 1
-      Organic Mortar Applicators: 2
-      Recursive Computing Module: 1
-      Self-Harmonizing Power Core: 2
-      Sterile Conduits: 1
-      Wetware Mainframe: 2
   Structure Stellar Mapping Array:
     maxreprocess: 0.55
     reprocess:
@@ -95960,6 +96096,8 @@ usages:
       Wetware Mainframe: 5
   Structure Storage Bay:
     materialManuf: !!set
+      Pharolux Cyno Beacon Blueprint: null
+      Ansiblex Jump Gate Blueprint: null
       Astrahus Blueprint: null
       Fortizar Blueprint: null
       Keepstar Blueprint: null
@@ -95968,6 +96106,7 @@ usages:
       Sotiyo Blueprint: null
       Athanor Blueprint: null
       Tatara Blueprint: null
+      Tenebrex Cyno Jammer Blueprint: null
       Upwell Palatine Keepstar Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -96014,24 +96153,6 @@ usages:
       Self-Harmonizing Power Core: 2
       Sterile Conduits: 5
       Wetware Mainframe: 5
-  Structure Warp Accelerant:
-    maxreprocess: 0.55
-    reprocess:
-      Tritanium: 250000
-      Pyerite: 50000
-      Mexallon: 17500
-      Isogen: 2000
-      Nocxium: 375
-      Zydrine: 175
-      Megacyte: 75
-      Broadcast Node: 1
-      Integrity Response Drones: 1
-      Nano-Factory: 1
-      Organic Mortar Applicators: 2
-      Recursive Computing Module: 1
-      Self-Harmonizing Power Core: 2
-      Sterile Conduits: 1
-      Wetware Mainframe: 2
   Structure Wormhole Stabilizer:
     maxreprocess: 0.55
     reprocess:
@@ -96953,6 +97074,10 @@ usages:
       Armor Command Burst I Blueprint: null
       Information Command Burst I Blueprint: null
       Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint: null
+      Basic 'Radiance' Cerebral Accelerator Blueprint: null
+      Standard 'Radiance' Cerebral Accelerator Blueprint: null
+      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
+      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   System Scanner I:
     maxreprocess: 0.55
@@ -98035,6 +98160,16 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Templar I Blueprint: null
+  Tenebrex Cyno Jammer:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Tenebrex Cyno Jammer Blueprint: null
+    reprocess:
+      Structure Construction Parts: 4
+      Structure Electromagnetic Sensor: 4
+      Structure Acceleration Coils: 3
+      Structure Advertisement Nexus: 1
+      Structure Storage Bay: 1
   Tengu:
     maxreprocess: 0.55
     productManuf: !!set
@@ -99534,6 +99669,10 @@ usages:
       Mid-grade Ascendancy Epsilon Blueprint: null
       Mid-grade Ascendancy Gamma Blueprint: null
       Entosis Link II Blueprint: null
+      Basic 'Radiance' Cerebral Accelerator Blueprint: null
+      Standard 'Radiance' Cerebral Accelerator Blueprint: null
+      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
+      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Transmitter:
     materialManuf: !!set
@@ -101214,9 +101353,11 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
-      unnamed_g176_ic0: null
-      unnamed_g718_ic10144: null
-      unnamed_g2010_ic97: null
+      '''Subverted'' JVN-UC49 Blueprint': null
+      Zero-Point Mass Entangler Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   True Sansha Adaptive Nano Plating:
     maxreprocess: 0.55
@@ -103591,32 +103732,40 @@ usages:
       Pyerite: 452
       Mexallon: 1
       Isogen: 1
-  Upwell Cynosural Beacon:
+  Upwell Advanced Advertisement Center:
     maxreprocess: 0.55
     reprocess:
-      Structure Mission Network: 4
+      Structure Laboratory: 1
+      Structure Factory: 1
       Structure Repair Facility: 1
+      Structure Reprocessing Plant: 1
       Structure Docking Bay: 1
       Structure Construction Parts: 1
-      Structure Market Network: 4
       Structure Hangar Array: 1
-      Structure Medical Center: 1
-      Structure Acceleration Coils: 400
+      Structure Advertisement Nexus: 40
       Structure Storage Bay: 1
       Structure Office Center: 1
-  Upwell Cynosural System Jammer:
+  Upwell Monument 1F:
     maxreprocess: 0.55
     reprocess:
-      Structure Mission Network: 4
-      Structure Repair Facility: 1
-      Structure Docking Bay: 1
-      Structure Construction Parts: 1
-      Structure Market Network: 4
-      Structure Hangar Array: 1
-      Structure Medical Center: 1
-      Structure Acceleration Coils: 400
+      Structure Construction Parts: 8
+      Structure Electromagnetic Sensor: 1
+      Structure Advertisement Nexus: 5
       Structure Storage Bay: 1
-      Structure Office Center: 1
+  Upwell Monument 1M:
+    maxreprocess: 0.55
+    reprocess:
+      Structure Construction Parts: 8
+      Structure Electromagnetic Sensor: 1
+      Structure Advertisement Nexus: 5
+      Structure Storage Bay: 1
+  Upwell Monument AM:
+    maxreprocess: 0.55
+    reprocess:
+      Structure Construction Parts: 8
+      Structure Electromagnetic Sensor: 1
+      Structure Advertisement Nexus: 5
+      Structure Storage Bay: 1
   Upwell Palatine Keepstar:
     maxreprocess: 0.55
     productManuf: !!set
@@ -103645,6 +103794,19 @@ usages:
       Structure Advertisement Nexus: 4000
       Structure Storage Bay: 100000
       Holoreels: 500000
+  Upwell Simple Advertisement Center:
+    maxreprocess: 0.55
+    reprocess:
+      Structure Laboratory: 1
+      Structure Factory: 1
+      Structure Repair Facility: 1
+      Structure Reprocessing Plant: 1
+      Structure Docking Bay: 1
+      Structure Construction Parts: 1
+      Structure Hangar Array: 1
+      Structure Advertisement Nexus: 40
+      Structure Storage Bay: 1
+      Structure Office Center: 1
   Uranium Charge L:
     maxreprocess: 0.55
     productManuf: !!set
@@ -105448,19 +105610,6 @@ usages:
       Structure Hangar Array: 100
       Structure Advertisement Nexus: 40
       Structure Storage Bay: 100
-  X-Large Advertisement Center:
-    maxreprocess: 0.55
-    reprocess:
-      Structure Laboratory: 1
-      Structure Factory: 1
-      Structure Repair Facility: 1
-      Structure Reprocessing Plant: 1
-      Structure Docking Bay: 1
-      Structure Construction Parts: 1
-      Structure Hangar Array: 1
-      Structure Advertisement Nexus: 40
-      Structure Storage Bay: 1
-      Structure Office Center: 1
   X-Large All Components Research I:
     maxreprocess: 0.55
     reprocess:
@@ -107318,6 +107467,25 @@ usages:
       Nocxium: 2
       Zydrine: 2
       Megacyte: 2
+  Zarmazd:
+    maxreprocess: 0.55
+    reprocess:
+      Oscillator Capacitor Unit: 750
+      Tritanium: 566667
+      Pyerite: 134444
+      Mexallon: 32222
+      Pulse Shield Emitter: 150
+      Isogen: 8889
+      Nocxium: 1111
+      Zydrine: 800
+      Morphite: 90
+      Megacyte: 200
+      Ion Thruster: 75
+      Magnetometric Sensor Cluster: 263
+      Construction Blocks: 75
+      Photon Microprocessor: 1800
+      Crystalline Carbonide Armor Plate: 2250
+      Fusion Reactor Unit: 23
   Zealot:
     maxreprocess: 0.55
     productManuf: !!set
@@ -107390,8 +107558,23 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
-      unnamed_g2010_ic97: null
+      Zero-Point Mass Entangler Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
+  Zero-Point Mass Entangler:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Zero-Point Mass Entangler Blueprint: null
+    reprocess:
+      Tritanium: 66156
+      Pyerite: 36064
+      Mexallon: 17147
+      Isogen: 9360
+      Nocxium: 2824
+      Zydrine: 204
+      Megacyte: 40
   Zeugma Integrated Analyzer:
     maxreprocess: 0.55
     productManuf: !!set
@@ -108148,8 +108331,11 @@ usages:
       Supratidal Scoped Entropic Disintegrator Blueprint: null
       Tiamat Blueprint: null
       Hydra Blueprint: null
-      unnamed_g176_ic0: null
-      unnamed_g2010_ic97: null
+      '''Subverted'' JVN-UC49 Blueprint': null
+      Zero-Point Mass Entangler Blueprint: null
+      Kikimora Blueprint: null
+      Drekavac Blueprint: null
+      Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   testArmorMod_PLACEHOLDER:
     maxreprocess: 0.55
@@ -108180,49 +108366,6 @@ usages:
       Sustained Shield Emitter: 8
       Morphite: 11
       Superconductors: 15
-  unnamed_g100_ic0:
-    maxreprocess: 0.55
-    productManuf: !!set
-      unnamed_g176_ic0: null
-    reprocess:
-      Tritanium: 5947
-      Pyerite: 729
-      Isogen: 47
-      Nocxium: 27
-      Zydrine: 18
-  unnamed_g18_ic21784:
-    materialManuf: !!set
-      unnamed_g718_ic10144: null
-    maxreprocess: 0.55
-  unnamed_g2005_ic0:
-    maxreprocess: 0.55
-    reprocess:
-      Ukomi Superconductors: 2
-      Tritanium: 27778
-      Pyerite: 12222
-      Mexallon: 10000
-      Isogen: 2778
-      Nocxium: 389
-      Organic Mortar Applicators: 2
-      Zydrine: 1112
-      Megacyte: 88
-      Wetware Mainframe: 1
-  unnamed_g2006_ic21823:
-    maxreprocess: 0.8934
-    reprocess:
-      unnamed_g18_ic21784: 4
-  unnamed_g2008_ic97:
-    maxreprocess: 0.55
-    productManuf: !!set
-      unnamed_g2010_ic97: null
-    reprocess:
-      Tritanium: 66156
-      Pyerite: 36064
-      Mexallon: 17147
-      Isogen: 9360
-      Nocxium: 2824
-      Zydrine: 204
-      Megacyte: 40
   ‘Cold Wind’ Kinetic Reaper:
     maxreprocess: 0.55
     productManuf: !!set
@@ -108338,10 +108481,10 @@ usages:
       Construction Blocks: 30
       Tungsten Carbide Armor Plate: 300
       Antimatter Reactor Unit: 6
-  万���宝座级YC117年特别版:
+  万王宝座级YC117年���别版:
     maxreprocess: 0.55
     productManuf: !!set
-      万���宝座级YC117年特别版蓝图: null
+      万王宝座级YC117年特别版蓝图: null
     reprocess:
       Megathron: 1
   乌鸦级YC117年特别版:
@@ -108353,25 +108496,37 @@ usages:
   伊什塔级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      伊什塔级YC117年特别版蓝图: null
+      伊什塔级YC117年特���版蓝图: null
     reprocess:
       Ishtar: 1
+  响尾蛇级YC117年特别版:
+    maxreprocess: 0.55
+    productManuf: !!set
+      响尾蛇级YC117年特别版蓝图: null
+    reprocess:
+      Rattlesnake: 1
   地狱天使级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      地狱天使级YC117年特别版蓝图: null
+      地狱天使级YC117年���别版蓝图: null
     reprocess:
       Abaddon: 1
   多米尼克斯级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      多米尼克斯级YC117年特别版蓝图: null
+      多��尼克斯级YC117年特别版蓝图: null
     reprocess:
       Dominix: 1
-  末日沙场级YC117年特别版:
+  幼龙级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      末日沙场级YC117年特别版蓝图: null
+      幼龙级YC117年特别版蓝图: null
+    reprocess:
+      Drake: 1
+  末日沙场��YC117年特别版:
+    maxreprocess: 0.55
+    productManuf: !!set
+      末日���场级YC117年特别版蓝图: null
     reprocess:
       Armageddon: 1
   毒蜥级YC117年特别版:
@@ -108383,10 +108538,10 @@ usages:
   灾难级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      灾��级YC117年特别版蓝图: null
+      灾难级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
-  银鹰级YC117��特别版:
+  银鹰级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       银鹰级YC117年特别版蓝图: null
@@ -108398,15 +108553,3 @@ usages:
       马克瑞级YC117年特别版蓝图: null
     reprocess:
       Machariel: 1
-  ��龙级YC117年特别版:
-    maxreprocess: 0.55
-    productManuf: !!set
-      幼龙级YC117年特别版蓝图: null
-    reprocess:
-      Drake: 1
-  ���尾蛇级YC117年特别版:
-    maxreprocess: 0.55
-    productManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
-    reprocess:
-      Rattlesnake: 1

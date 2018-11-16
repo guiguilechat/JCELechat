@@ -4,6 +4,11 @@ items:
     name: Bestower Livestock Transport
     published: false
     volume: 260000.0
+  Guristas Research Convoy:
+    id: 49695
+    name: Guristas Research Convoy
+    published: false
+    volume: 1040000.0
   Official Federation Grand Prix Transport Ship:
     id: 48119
     name: Official Federation Grand Prix Transport Ship

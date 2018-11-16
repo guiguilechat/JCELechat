@@ -9,6 +9,16 @@ items:
     name: Blood Raider Cruiser
     published: false
     volume: 118000.0
+  Deathglow Filthraker:
+    id: 48956
+    name: Deathglow Filthraker
+    published: false
+    volume: 118000.0
+  Destructor Alvum:
+    id: 48901
+    name: Destructor Alvum
+    published: false
+    volume: 60.0
   Drifter Strike Cruiser:
     id: 47722
     name: Drifter Strike Cruiser
@@ -38,6 +48,11 @@ items:
     name: Guri Hivaa Assassin
     published: true
     volume: 101000.0
+  Guristas Cruiser:
+    id: 49536
+    name: Guristas Cruiser
+    published: false
+    volume: 101000.0
   Noumenal Silencer:
     id: 47719
     name: Noumenal Silencer
@@ -48,6 +63,21 @@ items:
     name: Noumenal Suppressor
     published: false
     volume: 109000.0
+  November Cruiser Fast:
+    id: 48937
+    name: November Cruiser Fast
+    published: false
+    volume: 100100.0
+  November Cruiser Strong:
+    id: 48938
+    name: November Cruiser Strong
+    published: false
+    volume: 100100.0
+  November Cruiser Weak:
+    id: 48939
+    name: November Cruiser Weak
+    published: false
+    volume: 100100.0
   Purist Papal:
     id: 42513
     name: Purist Papal
@@ -58,8 +88,8 @@ items:
     name: Serpentis Cruiser
     published: false
     volume: 112000.0
-  unnamed_g1665_ic0:
-    id: 48956
-    name: unnamed_g1665_ic0
+  Wrecker Alvum:
+    id: 48900
+    name: Wrecker Alvum
     published: false
-    volume: 118000.0
+    volume: 60.0

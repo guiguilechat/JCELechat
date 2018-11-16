@@ -1034,11 +1034,25 @@ items:
     name: ORE Industrial
     published: true
     volume: 0.01
+  Precursor Battlecruiser:
+    PrimaryAttribute: 167
+    RequiredSkill1: 3327
+    RequiredSkill1Level: 4
+    RequiredSkill2: 47868
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 168
+    ShipPowerBonus: 2
+    SkillTimeConstant: 6
+    id: 49743
+    marketGroup: 377
+    name: Precursor Battlecruiser
+    published: true
+    volume: 0.01
   Precursor Battleship:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
-    RequiredSkill2: 47868
+    RequiredSkill2: 49743
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 8
@@ -1051,7 +1065,7 @@ items:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
-    RequiredSkill2: 47867
+    RequiredSkill2: 49742
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     ShipPowerBonus: 2
@@ -1059,6 +1073,17 @@ items:
     id: 47868
     marketGroup: 377
     name: Precursor Cruiser
+    published: true
+    volume: 0.01
+  Precursor Destroyer:
+    PrimaryAttribute: 167
+    RequiredSkill1: 47867
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 168
+    SkillTimeConstant: 2
+    id: 49742
+    marketGroup: 377
+    name: Precursor Destroyer
     published: true
     volume: 0.01
   Precursor Frigate:

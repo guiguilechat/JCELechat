@@ -412,7 +412,7 @@ items:
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
-    CpuOutput: 760
+    CpuOutput: 800
     DroneBandwidth: 75
     DroneCapacity: 75
     EliteBonusBlackOps1: 30.0
@@ -454,7 +454,7 @@ items:
     MedSlots: 8
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.5
-    PowerOutput: 8800
+    PowerOutput: 9800
     PowerToSpeed: 1
     PropulsionGraphicID: 395
     RechargeRate: 1087500.0
@@ -479,7 +479,7 @@ items:
     ShipBonusCB: 10
     ShipBonusCB3: 10
     ShipBonusMB: 5.0
-    SignatureRadius: 432
+    SignatureRadius: 405
     SpecialFuelBayCapacity: 1250
     StructureUniformity: 1.0
     TechLevel: 2

@@ -1,16 +1,36 @@
 items:
+  Deathglow Brainjuicer:
+    id: 48958
+    name: Deathglow Brainjuicer
+    published: false
+    volume: 28600.0
   Eosian Warden:
     id: 46345
     name: Eosian Warden
     published: false
     volume: 109000.0
+  Guristas Destroyer:
+    id: 49535
+    name: Guristas Destroyer
+    published: false
+    volume: 16500.0
   Noumenal Divider:
     id: 47718
     name: Noumenal Divider
     published: false
     volume: 109000.0
-  unnamed_g1664_ic0:
-    id: 48958
-    name: unnamed_g1664_ic0
+  November Destroyer:
+    id: 48943
+    name: November Destroyer
     published: false
-    volume: 28600.0
+    volume: 21120.0
+  Ripper Alvior:
+    id: 48903
+    name: Ripper Alvior
+    published: false
+    volume: 60.0
+  Shatter Alvior:
+    id: 48902
+    name: Shatter Alvior
+    published: false
+    volume: 60.0

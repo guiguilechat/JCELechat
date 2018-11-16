@@ -488,7 +488,7 @@ items:
     ShipBonusCC: 15
     ShipBonusCC2: 12.5
     ShipBonusGC: 5.0
-    SignatureRadius: 150
+    SignatureRadius: 135
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005

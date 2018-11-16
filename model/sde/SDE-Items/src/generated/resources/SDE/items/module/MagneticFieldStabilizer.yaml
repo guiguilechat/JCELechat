@@ -31,6 +31,16 @@ items:
     name: '''Monopoly'' Magnetic Field Stabilizer'
     published: true
     volume: 5.0
+  Abyssal Magnetic Field Stabilizer:
+    DamageMultiplier: 1.0
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    SpeedMultiplier: 1.0
+    TechLevel: 1
+    id: 49722
+    name: Abyssal Magnetic Field Stabilizer
+    published: true
+    volume: 1.0
   Brynn's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1299999952316284
     Hp: 40

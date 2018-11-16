@@ -4,11 +4,21 @@ items:
     name: Blood Raider Battlecruiser
     published: false
     volume: 118000.0
+  Deathglow Splendorcook:
+    id: 48959
+    name: Deathglow Splendorcook
+    published: false
+    volume: 118000.0
   Guardian Angels Hanael:
     id: 42129
     name: Guardian Angels Hanael
     published: false
     volume: 109000.0
+  Guristas Battlecruiser:
+    id: 49537
+    name: Guristas Battlecruiser
+    published: false
+    volume: 101000.0
   Noumenal Interruptor:
     id: 47721
     name: Noumenal Interruptor
@@ -24,8 +34,3 @@ items:
     name: Serpentis Battlecruiser
     published: false
     volume: 112000.0
-  unnamed_g1666_ic0:
-    id: 48959
-    name: unnamed_g1666_ic0
-    published: false
-    volume: 118000.0

@@ -9,6 +9,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
     Hp: 40
+    MaxGroupFitted: 1
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10
     Power: 75000

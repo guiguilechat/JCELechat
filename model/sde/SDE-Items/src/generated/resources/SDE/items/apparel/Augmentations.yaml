@@ -1,4 +1,11 @@
 items:
+  Men's 'Barbatus Glimmer' Facial Augmentation:
+    Gender: 2
+    id: 49683
+    marketGroup: 1836
+    name: Men's 'Barbatus Glimmer' Facial Augmentation
+    published: true
+    volume: 0.1
   Men's 'Boneweld' Facial Augmentation:
     Gender: 1
     id: 41036
@@ -18,6 +25,62 @@ items:
     id: 41044
     marketGroup: 1836
     name: Men's 'Circuitrun' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Domino Turqoise' Facial Augmentation:
+    Gender: 2
+    id: 49682
+    marketGroup: 1836
+    name: Men's 'Domino Turqoise' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Eico Azurbrak' Facial Augmentation:
+    Gender: 2
+    id: 49678
+    marketGroup: 1836
+    name: Men's 'Eico Azurbrak' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Eico Flamjaw' Facial Augmentation:
+    Gender: 2
+    id: 49681
+    marketGroup: 1836
+    name: Men's 'Eico Flamjaw' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Eico Hexarc' Facial Augmentation:
+    Gender: 2
+    id: 49680
+    marketGroup: 1836
+    name: Men's 'Eico Hexarc' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Eico Zygomandiba' Facial Augmentation:
+    Gender: 2
+    id: 49684
+    marketGroup: 1836
+    name: Men's 'Eico Zygomandiba' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Glamstreak' Facial Augmentation:
+    Gender: 2
+    id: 49685
+    marketGroup: 1836
+    name: Men's 'Glamstreak' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Grimglam' Facial Augmentation:
+    Gender: 2
+    id: 49677
+    marketGroup: 1836
+    name: Men's 'Grimglam' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Rikkadori' Facial Augmentation:
+    Gender: 2
+    id: 49679
+    marketGroup: 1836
+    name: Men's 'Rikkadori' Facial Augmentation
     published: true
     volume: 0.1
   Men's 'Setcouple' Facial Augmentation:
@@ -48,6 +111,48 @@ items:
     name: Women's 'Crossgrid' Facial Augmentation
     published: true
     volume: 0.1
+  Women's 'Domino Auric' Facial Augmentation:
+    Gender: 2
+    id: 49671
+    marketGroup: 1836
+    name: Women's 'Domino Auric' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Domino Bronza' Facial Augmentation:
+    Gender: 2
+    id: 49676
+    marketGroup: 1836
+    name: Women's 'Domino Bronza' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Domino Turqoise' Facial Augmentation:
+    Gender: 2
+    id: 49673
+    marketGroup: 1836
+    name: Women's 'Domino Turqoise' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Eico Azurchev' Facial Augmentation:
+    Gender: 2
+    id: 49669
+    marketGroup: 1836
+    name: Women's 'Eico Azurchev' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Eico Flamjaw' Facial Augmentation:
+    Gender: 2
+    id: 49672
+    marketGroup: 1836
+    name: Women's 'Eico Flamjaw' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Eico Sunstrip' Facial Augmentation:
+    Gender: 2
+    id: 49675
+    marketGroup: 1836
+    name: Women's 'Eico Sunstrip' Facial Augmentation
+    published: true
+    volume: 0.1
   Women's 'Guidemask' Facial Augmentation:
     Gender: 3
     id: 41050
@@ -55,11 +160,32 @@ items:
     name: Women's 'Guidemask' Facial Augmentation
     published: true
     volume: 0.1
+  Women's 'Imkuradori' Facial Augmentation:
+    Gender: 2
+    id: 49670
+    marketGroup: 1836
+    name: Women's 'Imkuradori' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Khalikos Vector' Facial Augmentation:
+    Gender: 2
+    id: 49674
+    marketGroup: 1836
+    name: Women's 'Khalikos Vector' Facial Augmentation
+    published: true
+    volume: 0.1
   Women's 'Openyagi' Facial Augmentation:
     Gender: 3
     id: 41053
     marketGroup: 1836
     name: Women's 'Openyagi' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Shadowglam' Facial Augmentation:
+    Gender: 2
+    id: 49668
+    marketGroup: 1836
+    name: Women's 'Shadowglam' Facial Augmentation
     published: true
     volume: 0.1
   Women's 'Sparkgap' Facial Augmentation:

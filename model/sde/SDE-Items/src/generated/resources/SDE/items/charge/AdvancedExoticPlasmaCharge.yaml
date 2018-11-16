@@ -17,7 +17,7 @@ items:
     marketGroup: 2470
     name: Mystic L
     published: true
-    volume: 0.1
+    volume: 0.01
   Mystic M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -36,7 +36,7 @@ items:
     marketGroup: 2469
     name: Mystic M
     published: true
-    volume: 0.1
+    volume: 0.01
   Mystic S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -55,7 +55,7 @@ items:
     marketGroup: 2468
     name: Mystic S
     published: true
-    volume: 0.1
+    volume: 0.01
   Occult L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -74,7 +74,7 @@ items:
     marketGroup: 2470
     name: Occult L
     published: true
-    volume: 0.1
+    volume: 0.01
   Occult M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -93,7 +93,7 @@ items:
     marketGroup: 2469
     name: Occult M
     published: true
-    volume: 0.1
+    volume: 0.01
   Occult S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -112,4 +112,4 @@ items:
     marketGroup: 2468
     name: Occult S
     published: true
-    volume: 0.1
+    volume: 0.01

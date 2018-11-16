@@ -3,7 +3,7 @@ items:
     ArmorDamageLimit: 5000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 3200000
+    ArmorHP: 1200000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
@@ -43,7 +43,7 @@ items:
     ScanResolution: 40
     SensorDampenerResistance: 9.999999747378752E-6
     ServiceSlots: 3
-    ShieldCapacity: 3200000
+    ShieldCapacity: 1200000
     ShieldDamageLimit: 5000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
@@ -75,7 +75,7 @@ items:
     ArmorDamageLimit: 15000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 9600000
+    ArmorHP: 3600000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
@@ -119,7 +119,7 @@ items:
     ScanResolution: 40
     SensorDampenerResistance: 9.999999747378752E-6
     ServiceSlots: 5
-    ShieldCapacity: 9600000
+    ShieldCapacity: 3600000
     ShieldDamageLimit: 15000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929

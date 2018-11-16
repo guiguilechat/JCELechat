@@ -31,6 +31,16 @@ items:
     name: '''Trebuchet'' Heat Sink I'
     published: true
     volume: 5.0
+  Abyssal Heat Sink:
+    DamageMultiplier: 1.0
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    SpeedMultiplier: 1.0
+    TechLevel: 1
+    id: 49726
+    name: Abyssal Heat Sink
+    published: true
+    volume: 1.0
   Ahremen's Modified Heat Sink:
     DamageMultiplier: 1.1399999856948853
     Hp: 40

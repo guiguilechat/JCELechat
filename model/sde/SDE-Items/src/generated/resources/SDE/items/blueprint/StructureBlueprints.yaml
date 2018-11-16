@@ -1,4 +1,10 @@
 items:
+  Ansiblex Jump Gate Blueprint:
+    id: 36961
+    marketGroup: 2510
+    name: Ansiblex Jump Gate Blueprint
+    published: true
+    volume: 0.01
   Astrahus Blueprint:
     id: 36966
     marketGroup: 2156
@@ -29,6 +35,12 @@ items:
     name: Keepstar Blueprint
     published: true
     volume: 0.01
+  Pharolux Cyno Beacon Blueprint:
+    id: 36960
+    marketGroup: 2510
+    name: Pharolux Cyno Beacon Blueprint
+    published: true
+    volume: 0.01
   Raitaru Blueprint:
     id: 36971
     marketGroup: 2322
@@ -45,6 +57,12 @@ items:
     id: 36978
     marketGroup: 2393
     name: Tatara Blueprint
+    published: true
+    volume: 0.01
+  Tenebrex Cyno Jammer Blueprint:
+    id: 37538
+    marketGroup: 2510
+    name: Tenebrex Cyno Jammer Blueprint
     published: true
     volume: 0.01
   Upwell Palatine Keepstar Blueprint:

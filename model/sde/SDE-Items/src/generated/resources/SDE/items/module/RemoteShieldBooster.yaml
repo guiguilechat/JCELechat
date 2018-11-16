@@ -27,7 +27,7 @@ items:
   CONCORD Capital Remote Shield Booster:
     CapacitorNeed: 2200.0
     Cpu: 95.0
-    Duration: 16000.0
+    Duration: 20000.0
     FalloffEffectiveness: 15100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
@@ -54,7 +54,7 @@ items:
   Capital Asymmetric Enduring Remote Shield Booster:
     CapacitorNeed: 1920.0
     Cpu: 112.0
-    Duration: 16000.0
+    Duration: 20000.0
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
@@ -80,7 +80,7 @@ items:
   Capital Murky Compact Remote Shield Booster:
     CapacitorNeed: 2400.0
     Cpu: 90.0
-    Duration: 16000.0
+    Duration: 20000.0
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
@@ -106,7 +106,7 @@ items:
   Capital Remote Shield Booster I:
     CapacitorNeed: 2400.0
     Cpu: 112.0
-    Duration: 16000.0
+    Duration: 20000.0
     FalloffEffectiveness: 12000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
@@ -131,7 +131,7 @@ items:
   Capital Remote Shield Booster II:
     CapacitorNeed: 2640.0
     Cpu: 125.0
-    Duration: 16000.0
+    Duration: 20000.0
     FalloffEffectiveness: 14400
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 2.799999952316284
@@ -157,7 +157,7 @@ items:
   Capital S95a Scoped Remote Shield Booster:
     CapacitorNeed: 2400.0
     Cpu: 112.0
-    Duration: 16000.0
+    Duration: 20000.0
     FalloffEffectiveness: 13200
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
@@ -203,7 +203,7 @@ items:
   Domination Capital Remote Shield Booster:
     CapacitorNeed: 1900.0
     Cpu: 90.0
-    Duration: 14400.0
+    Duration: 17280.0
     FalloffEffectiveness: 15100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5
@@ -230,7 +230,7 @@ items:
   Dread Guristas Capital Remote Shield Booster:
     CapacitorNeed: 2500.0
     Cpu: 95.0
-    Duration: 16000.0
+    Duration: 20000.0
     FalloffEffectiveness: 15100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
@@ -914,7 +914,7 @@ items:
   True Sansha Capital Remote Shield Booster:
     CapacitorNeed: 1900.0
     Cpu: 90.0
-    Duration: 14400.0
+    Duration: 17280.0
     FalloffEffectiveness: 15100
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5

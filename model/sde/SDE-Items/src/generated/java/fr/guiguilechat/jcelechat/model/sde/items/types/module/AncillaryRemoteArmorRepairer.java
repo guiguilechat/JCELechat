@@ -137,6 +137,20 @@ public class AncillaryRemoteArmorRepairer
     @DefaultIntValue(0)
     public int RemoteResistanceID;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RepairMultiplierBonusMax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RepairMultiplierBonusPerCycle;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -243,6 +257,14 @@ public class AncillaryRemoteArmorRepairer
             case  2138 :
             {
                 return RemoteResistanceID;
+            }
+            case  2797 :
+            {
+                return RepairMultiplierBonusMax;
+            }
+            case  2796 :
+            {
+                return RepairMultiplierBonusPerCycle;
             }
             case  182 :
             {

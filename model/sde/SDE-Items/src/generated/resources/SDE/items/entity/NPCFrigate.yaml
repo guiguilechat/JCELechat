@@ -159,11 +159,6 @@ items:
     name: ♦ Succubus
     published: false
     volume: 28600.0
-  ♦ Swordspine:
-    id: 43634
-    name: ♦ Swordspine
-    published: false
-    volume: 21120.0
   ♦ Tormentor:
     id: 42841
     name: ♦ Tormentor
@@ -204,8 +199,13 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  �� Kestrel:
-    id: 43563
-    name: �� Kestrel
+  �� Swordspine:
+    id: 43634
+    name: �� Swordspine
     published: false
-    volume: 19700.0
+    volume: 21120.0
+  ��� Punisher:
+    id: 43596
+    name: ��� Punisher
+    published: false
+    volume: 28600.0

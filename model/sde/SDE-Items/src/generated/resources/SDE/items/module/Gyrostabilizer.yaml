@@ -31,6 +31,16 @@ items:
     name: '''Kindred'' Gyrostabilizer'
     published: true
     volume: 5.0
+  Abyssal Gyrostabilizer:
+    DamageMultiplier: 1.0
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    SpeedMultiplier: 1.0
+    TechLevel: 2
+    id: 49730
+    name: Abyssal Gyrostabilizer
+    published: true
+    volume: 1.0
   Counterbalanced Compact Gyrostabilizer:
     Cpu: 25.0
     DamageMultiplier: 1.0800000429153442

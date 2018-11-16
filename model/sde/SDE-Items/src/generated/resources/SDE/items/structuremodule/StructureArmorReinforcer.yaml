@@ -1,6 +1,6 @@
 items:
   Standup Layered Armor Plating I:
-    ArmorHPMultiplier: 1.100000023841858
+    ArmorHpBonus: 10
     Cpu: 2000.0
     Hp: 40
     Power: 200000
@@ -12,7 +12,7 @@ items:
     published: true
     volume: 4000.0
   Standup Layered Armor Plating II:
-    ArmorHPMultiplier: 1.149999976158142
+    ArmorHpBonus: 15
     Cpu: 2400.0
     Hp: 40
     MetaLevel: 5

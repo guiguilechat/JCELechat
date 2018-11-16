@@ -7,7 +7,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28800
+    MaxRange: 34560
     MetaGroupID: 3
     MetaLevel: 6
     OverloadECMStrengthBonus: 20
@@ -16,10 +16,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.149999976158142
-    ScanLadarStrengthBonus: 3.450000047683716
-    ScanMagnetometricStrengthBonus: 1.149999976158142
-    ScanRadarStrengthBonus: 1.149999976158142
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 3.799999952316284
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 1
     id: 20575
     marketGroup: 716
@@ -34,7 +34,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28800
+    MaxRange: 34560
     MetaGroupID: 3
     MetaLevel: 6
     OverloadECMStrengthBonus: 20
@@ -43,10 +43,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.149999976158142
-    ScanLadarStrengthBonus: 1.149999976158142
-    ScanMagnetometricStrengthBonus: 1.149999976158142
-    ScanRadarStrengthBonus: 3.450000047683716
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 3.799999952316284
     TechLevel: 1
     id: 20579
     marketGroup: 718
@@ -61,7 +61,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28800
+    MaxRange: 34560
     MetaGroupID: 3
     MetaLevel: 6
     OverloadECMStrengthBonus: 20
@@ -70,10 +70,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.149999976158142
-    ScanLadarStrengthBonus: 1.149999976158142
-    ScanMagnetometricStrengthBonus: 3.450000047683716
-    ScanRadarStrengthBonus: 1.149999976158142
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 3.799999952316284
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 1
     id: 20573
     marketGroup: 715
@@ -88,7 +88,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28800
+    MaxRange: 34560
     MetaGroupID: 3
     MetaLevel: 6
     OverloadECMStrengthBonus: 20
@@ -97,10 +97,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.450000047683716
-    ScanLadarStrengthBonus: 1.149999976158142
-    ScanMagnetometricStrengthBonus: 1.149999976158142
-    ScanRadarStrengthBonus: 1.149999976158142
+    ScanGravimetricStrengthBonus: 3.799999952316284
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 1
     id: 20577
     marketGroup: 717
@@ -115,7 +115,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -123,10 +123,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 3.299999952316284
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 3.5999999046325684
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19925
     marketGroup: 715
@@ -141,7 +141,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 26400
+    MaxRange: 31680
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -149,10 +149,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.299999952316284
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 3.5999999046325684
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19946
     marketGroup: 717
@@ -167,7 +167,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -175,10 +175,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.299999952316284
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 3.5999999046325684
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19944
     marketGroup: 717
@@ -193,7 +193,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 17600
+    MaxRange: 21120
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -201,10 +201,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.200000047683716
-    ScanLadarStrengthBonus: 2.200000047683716
-    ScanMagnetometricStrengthBonus: 2.200000047683716
-    ScanRadarStrengthBonus: 2.200000047683716
+    ScanGravimetricStrengthBonus: 2.4000000953674316
+    ScanLadarStrengthBonus: 2.4000000953674316
+    ScanMagnetometricStrengthBonus: 2.4000000953674316
+    ScanRadarStrengthBonus: 2.4000000953674316
     TechLevel: 1
     id: 19931
     marketGroup: 719
@@ -219,7 +219,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 20800
+    MaxRange: 24960
     MetaGroupID: 4
     MetaLevel: 8
     OverloadECMStrengthBonus: 20
@@ -228,10 +228,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.5999999046325684
-    ScanLadarStrengthBonus: 2.5999999046325684
-    ScanMagnetometricStrengthBonus: 2.5999999046325684
-    ScanRadarStrengthBonus: 2.5999999046325684
+    ScanGravimetricStrengthBonus: 2.9000000953674316
+    ScanLadarStrengthBonus: 2.9000000953674316
+    ScanMagnetometricStrengthBonus: 2.9000000953674316
+    ScanRadarStrengthBonus: 2.9000000953674316
     TechLevel: 1
     id: 20199
     marketGroup: 719
@@ -246,7 +246,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 26400
+    MaxRange: 31680
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -254,10 +254,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 3.299999952316284
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 3.5999999046325684
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19939
     marketGroup: 716
@@ -271,7 +271,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 30400
+    MaxRange: 36480
     MetaGroupID: 5
     MetaLevel: 17
     OverloadECMStrengthBonus: 20
@@ -280,10 +280,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.200000047683716
-    ScanLadarStrengthBonus: 3.200000047683716
-    ScanMagnetometricStrengthBonus: 3.200000047683716
-    ScanRadarStrengthBonus: 3.200000047683716
+    ScanGravimetricStrengthBonus: 3.5
+    ScanLadarStrengthBonus: 3.5
+    ScanMagnetometricStrengthBonus: 3.5
+    ScanRadarStrengthBonus: 3.5
     TechLevel: 1
     id: 20207
     marketGroup: 719
@@ -298,7 +298,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -306,10 +306,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.299999952316284
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 3.5999999046325684
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19942
     marketGroup: 717
@@ -324,7 +324,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -332,10 +332,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 3.299999952316284
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 3.5999999046325684
     TechLevel: 1
     id: 19948
     marketGroup: 718
@@ -349,17 +349,17 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     OverloadECMStrengthBonus: 20
     Power: 1
     RemoteResistanceID: 2253
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.0
-    ScanLadarStrengthBonus: 1.0
-    ScanMagnetometricStrengthBonus: 1.0
-    ScanRadarStrengthBonus: 1.0
+    ScanGravimetricStrengthBonus: 3.299999952316284
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
     id: 1955
     marketGroup: 717
@@ -373,7 +373,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28800
+    MaxRange: 34560
     MetaLevel: 5
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -381,10 +381,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.5999999046325684
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 1.2000000476837158
+    ScanGravimetricStrengthBonus: 4.0
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 2
     id: 2571
     marketGroup: 717
@@ -399,7 +399,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -407,10 +407,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 3.299999952316284
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 3.5999999046325684
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19937
     marketGroup: 716
@@ -425,7 +425,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 26400
+    MaxRange: 31680
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -433,10 +433,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 3.299999952316284
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 3.5999999046325684
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19927
     marketGroup: 715
@@ -451,7 +451,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 16000
+    MaxRange: 19200
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -459,10 +459,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.200000047683716
-    ScanLadarStrengthBonus: 2.200000047683716
-    ScanMagnetometricStrengthBonus: 2.200000047683716
-    ScanRadarStrengthBonus: 2.200000047683716
+    ScanGravimetricStrengthBonus: 2.4000000953674316
+    ScanLadarStrengthBonus: 2.4000000953674316
+    ScanMagnetometricStrengthBonus: 2.4000000953674316
+    ScanRadarStrengthBonus: 2.4000000953674316
     TechLevel: 1
     id: 19929
     marketGroup: 719
@@ -477,7 +477,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 16000
+    MaxRange: 19200
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -485,10 +485,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.200000047683716
-    ScanLadarStrengthBonus: 2.200000047683716
-    ScanMagnetometricStrengthBonus: 2.200000047683716
-    ScanRadarStrengthBonus: 2.200000047683716
+    ScanGravimetricStrengthBonus: 2.4000000953674316
+    ScanLadarStrengthBonus: 2.4000000953674316
+    ScanMagnetometricStrengthBonus: 2.4000000953674316
+    ScanRadarStrengthBonus: 2.4000000953674316
     TechLevel: 1
     id: 9521
     marketGroup: 719
@@ -502,7 +502,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 23200
+    MaxRange: 27840
     MetaGroupID: 5
     MetaLevel: 11
     OverloadECMStrengthBonus: 20
@@ -511,10 +511,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.799999952316284
-    ScanLadarStrengthBonus: 2.799999952316284
-    ScanMagnetometricStrengthBonus: 2.799999952316284
-    ScanRadarStrengthBonus: 2.799999952316284
+    ScanGravimetricStrengthBonus: 3.0999999046325684
+    ScanLadarStrengthBonus: 3.0999999046325684
+    ScanMagnetometricStrengthBonus: 3.0999999046325684
+    ScanRadarStrengthBonus: 3.0999999046325684
     TechLevel: 1
     id: 20201
     marketGroup: 719
@@ -528,17 +528,17 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     OverloadECMStrengthBonus: 20
     Power: 1
     RemoteResistanceID: 2253
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.0
-    ScanLadarStrengthBonus: 3.0
-    ScanMagnetometricStrengthBonus: 1.0
-    ScanRadarStrengthBonus: 1.0
+    ScanGravimetricStrengthBonus: 1.100000023841858
+    ScanLadarStrengthBonus: 3.299999952316284
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
     id: 1958
     marketGroup: 716
@@ -552,7 +552,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28800
+    MaxRange: 34560
     MetaLevel: 5
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -560,10 +560,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 3.5999999046325684
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 1.2000000476837158
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 4.0
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 2
     id: 2559
     marketGroup: 716
@@ -578,7 +578,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -586,10 +586,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 3.299999952316284
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 3.5999999046325684
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19935
     marketGroup: 716
@@ -603,7 +603,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 30000
+    MaxRange: 36000
     MetaGroupID: 4
     MetaLevel: 8
     OverloadECMStrengthBonus: 20
@@ -612,10 +612,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.700000047683716
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 1.2000000476837158
+    ScanGravimetricStrengthBonus: 4.099999904632568
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 1
     id: 28735
     marketGroup: 717
@@ -629,7 +629,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 30000
+    MaxRange: 36000
     MetaGroupID: 4
     MetaLevel: 8
     OverloadECMStrengthBonus: 20
@@ -638,10 +638,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 3.700000047683716
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 1.2000000476837158
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 4.099999904632568
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 1
     id: 28733
     marketGroup: 716
@@ -655,7 +655,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 30000
+    MaxRange: 36000
     MetaGroupID: 4
     MetaLevel: 8
     OverloadECMStrengthBonus: 20
@@ -664,10 +664,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 3.700000047683716
-    ScanRadarStrengthBonus: 1.2000000476837158
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 4.099999904632568
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 1
     id: 28729
     marketGroup: 715
@@ -681,7 +681,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 22400
+    MaxRange: 26880
     MetaGroupID: 4
     MetaLevel: 8
     OverloadECMStrengthBonus: 20
@@ -690,10 +690,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.5
-    ScanLadarStrengthBonus: 2.5
-    ScanMagnetometricStrengthBonus: 2.5
-    ScanRadarStrengthBonus: 2.5
+    ScanGravimetricStrengthBonus: 2.799999952316284
+    ScanLadarStrengthBonus: 2.799999952316284
+    ScanMagnetometricStrengthBonus: 2.799999952316284
+    ScanRadarStrengthBonus: 2.799999952316284
     TechLevel: 1
     id: 28731
     marketGroup: 719
@@ -707,7 +707,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 30000
+    MaxRange: 36000
     MetaGroupID: 4
     MetaLevel: 8
     OverloadECMStrengthBonus: 20
@@ -716,10 +716,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 3.700000047683716
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 4.099999904632568
     TechLevel: 1
     id: 28737
     marketGroup: 718
@@ -733,17 +733,17 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     OverloadECMStrengthBonus: 20
     Power: 1
     RemoteResistanceID: 2253
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.0
-    ScanLadarStrengthBonus: 1.0
-    ScanMagnetometricStrengthBonus: 3.0
-    ScanRadarStrengthBonus: 1.0
+    ScanGravimetricStrengthBonus: 1.100000023841858
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 3.299999952316284
+    ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
     id: 1948
     marketGroup: 715
@@ -757,7 +757,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28800
+    MaxRange: 34560
     MetaLevel: 5
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -765,10 +765,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 3.5999999046325684
-    ScanRadarStrengthBonus: 1.2000000476837158
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 4.0
+    ScanRadarStrengthBonus: 1.2999999523162842
     TechLevel: 2
     id: 2563
     marketGroup: 715
@@ -783,7 +783,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -791,10 +791,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 3.299999952316284
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 3.5999999046325684
+    ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
     id: 19923
     marketGroup: 715
@@ -808,17 +808,17 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 16000
+    MaxRange: 19200
     OverloadECMStrengthBonus: 20
     Power: 1
     RemoteResistanceID: 2253
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.0
-    ScanLadarStrengthBonus: 2.0
-    ScanMagnetometricStrengthBonus: 2.0
-    ScanRadarStrengthBonus: 2.0
+    ScanGravimetricStrengthBonus: 2.200000047683716
+    ScanLadarStrengthBonus: 2.200000047683716
+    ScanMagnetometricStrengthBonus: 2.200000047683716
+    ScanRadarStrengthBonus: 2.200000047683716
     TechLevel: 1
     id: 1957
     marketGroup: 719
@@ -833,7 +833,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 19200
+    MaxRange: 23040
     MetaLevel: 5
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -841,10 +841,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.4000000953674316
-    ScanLadarStrengthBonus: 2.4000000953674316
-    ScanMagnetometricStrengthBonus: 2.4000000953674316
-    ScanRadarStrengthBonus: 2.4000000953674316
+    ScanGravimetricStrengthBonus: 2.5999999046325684
+    ScanLadarStrengthBonus: 2.5999999046325684
+    ScanMagnetometricStrengthBonus: 2.5999999046325684
+    ScanRadarStrengthBonus: 2.5999999046325684
     TechLevel: 2
     id: 2567
     marketGroup: 719
@@ -858,17 +858,17 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     OverloadECMStrengthBonus: 20
     Power: 1
     RemoteResistanceID: 2253
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.0
-    ScanLadarStrengthBonus: 1.0
-    ScanMagnetometricStrengthBonus: 1.0
-    ScanRadarStrengthBonus: 3.0
+    ScanGravimetricStrengthBonus: 1.100000023841858
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 3.299999952316284
     TechLevel: 1
     id: 1956
     marketGroup: 718
@@ -882,7 +882,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28800
+    MaxRange: 34560
     MetaLevel: 5
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -890,10 +890,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 3.5999999046325684
+    ScanGravimetricStrengthBonus: 1.2999999523162842
+    ScanLadarStrengthBonus: 1.2999999523162842
+    ScanMagnetometricStrengthBonus: 1.2999999523162842
+    ScanRadarStrengthBonus: 4.0
     TechLevel: 2
     id: 2575
     marketGroup: 718
@@ -908,7 +908,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 28800
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -916,10 +916,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 3.299999952316284
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 3.5999999046325684
     TechLevel: 1
     id: 19950
     marketGroup: 718
@@ -933,7 +933,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 25600
+    MaxRange: 30720
     MetaGroupID: 5
     MetaLevel: 13
     OverloadECMStrengthBonus: 20
@@ -942,10 +942,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.9000000953674316
-    ScanLadarStrengthBonus: 2.9000000953674316
-    ScanMagnetometricStrengthBonus: 2.9000000953674316
-    ScanRadarStrengthBonus: 2.9000000953674316
+    ScanGravimetricStrengthBonus: 3.200000047683716
+    ScanLadarStrengthBonus: 3.200000047683716
+    ScanMagnetometricStrengthBonus: 3.200000047683716
+    ScanRadarStrengthBonus: 3.200000047683716
     TechLevel: 1
     id: 20203
     marketGroup: 719
@@ -960,7 +960,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 26400
+    MaxRange: 31680
     MetaLevel: 1
     OverloadECMStrengthBonus: 20
     Power: 1
@@ -968,10 +968,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 3.299999952316284
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 3.5999999046325684
     TechLevel: 1
     id: 19952
     marketGroup: 718
@@ -985,7 +985,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40
-    MaxRange: 28000
+    MaxRange: 33600
     MetaGroupID: 5
     MetaLevel: 15
     OverloadECMStrengthBonus: 20
@@ -994,10 +994,10 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.0999999046325684
-    ScanLadarStrengthBonus: 3.0999999046325684
-    ScanMagnetometricStrengthBonus: 3.0999999046325684
-    ScanRadarStrengthBonus: 3.0999999046325684
+    ScanGravimetricStrengthBonus: 3.4000000953674316
+    ScanLadarStrengthBonus: 3.4000000953674316
+    ScanMagnetometricStrengthBonus: 3.4000000953674316
+    ScanRadarStrengthBonus: 3.4000000953674316
     TechLevel: 1
     id: 20205
     marketGroup: 719

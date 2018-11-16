@@ -13,6 +13,9 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.structure.Citadel;
 import fr.guiguilechat.jcelechat.model.sde.items.types.structure.EngineeringComplex;
 import fr.guiguilechat.jcelechat.model.sde.items.types.structure.Refinery;
+import fr.guiguilechat.jcelechat.model.sde.items.types.structure.UpwellCynoBeacon;
+import fr.guiguilechat.jcelechat.model.sde.items.types.structure.UpwellCynoJammer;
+import fr.guiguilechat.jcelechat.model.sde.items.types.structure.UpwellJumpGate;
 
 public abstract class Structure
     extends Item
@@ -116,48 +119,6 @@ public abstract class Structure
     @DefaultDoubleValue(1.0)
     public double ExplosiveDamageResonance;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
-    /**
-     * This defines the total capacity of fighters allowed in the fighter bay of the ship
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterCapacity;
-    /**
-     * Number of Heavy Fighters the structure can launch.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterStandupHeavySlots;
-    /**
-     * Number of Light Fighters the structure can launch.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterStandupLightSlots;
-    /**
-     * Number of Support Fighters the structure can launch.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterStandupSupportSlots;
-    /**
-     * This defines the total number of fighter launch tubes on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterTubes;
-    /**
      * Defines whether an entity can be hacked or not.
      */
     @HighIsGood(true)
@@ -178,13 +139,6 @@ public abstract class Structure
     @Stackable(false)
     @DefaultIntValue(1)
     public int HiddenArmorHPMultiplier;
-    /**
-     * Missile damage attribute used by structures as a workaround for implementing Standup BCS stacking penalties
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(1)
-    public int HiddenMissileDamageMultiplier;
     /**
      * The maximum hitpoints of an object.
      */
@@ -269,13 +223,6 @@ public abstract class Structure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double RemoteRepairImpedance;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
     /**
      * The number of rig slots on the ship.
      */
@@ -405,13 +352,6 @@ public abstract class Structure
     /**
      * 
      */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureAoERoFRoleBonus;
-    /**
-     * 
-     */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
@@ -429,7 +369,7 @@ public abstract class Structure
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureServiceRoleBonus;
+    public int StructurePowerStateArmorPlatingMultiplier;
     /**
      * Resistance against Target Painters
      */
@@ -437,13 +377,6 @@ public abstract class Structure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double TargetPainterResistance;
-    /**
-     * Distance which tethering will engage / disengage piloted ships.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int TetheringRange;
     /**
      * damage multiplier vs. thermal.
      */
@@ -465,20 +398,6 @@ public abstract class Structure
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    /**
-     * Attribute on ships used for ship upgrades
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
-    /**
-     * How many rigs can by fitted to this ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
     /**
      * Resistance against Remote Weapon Disruptors.
      */
@@ -547,30 +466,6 @@ public abstract class Structure
             {
                 return ExplosiveDamageResonance;
             }
-            case  2244 :
-            {
-                return FighterAbilityAntiCapitalMissileResistance;
-            }
-            case  2055 :
-            {
-                return FighterCapacity;
-            }
-            case  2739 :
-            {
-                return FighterStandupHeavySlots;
-            }
-            case  2737 :
-            {
-                return FighterStandupLightSlots;
-            }
-            case  2738 :
-            {
-                return FighterStandupSupportSlots;
-            }
-            case  2216 :
-            {
-                return FighterTubes;
-            }
             case  1927 :
             {
                 return Hackable;
@@ -582,10 +477,6 @@ public abstract class Structure
             case  2751 :
             {
                 return HiddenArmorHPMultiplier;
-            }
-            case  2750 :
-            {
-                return HiddenMissileDamageMultiplier;
             }
             case  9 :
             {
@@ -634,10 +525,6 @@ public abstract class Structure
             case  2116 :
             {
                 return RemoteRepairImpedance;
-            }
-            case  1547 :
-            {
-                return RigSize;
             }
             case  1137 :
             {
@@ -711,10 +598,6 @@ public abstract class Structure
             {
                 return StasisWebifierResistance;
             }
-            case  2749 :
-            {
-                return StructureAoERoFRoleBonus;
-            }
             case  2036 :
             {
                 return StructureDamageLimit;
@@ -723,17 +606,13 @@ public abstract class Structure
             {
                 return StructureFullPowerStateHitpointMultiplier;
             }
-            case  2339 :
+            case  2805 :
             {
-                return StructureServiceRoleBonus;
+                return StructurePowerStateArmorPlatingMultiplier;
             }
             case  2114 :
             {
                 return TargetPainterResistance;
-            }
-            case  2268 :
-            {
-                return TetheringRange;
             }
             case  110 :
             {
@@ -746,14 +625,6 @@ public abstract class Structure
             case  136 :
             {
                 return Uniformity;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
-            }
-            case  1154 :
-            {
-                return UpgradeSlotsLeft;
             }
             case  2113 :
             {
@@ -787,7 +658,7 @@ public abstract class Structure
 
         @Override
         public Collection<IMetaGroup<? extends Structure>> groups() {
-            return Arrays.asList(EngineeringComplex.METAGROUP, Refinery.METAGROUP, Citadel.METAGROUP);
+            return Arrays.asList(EngineeringComplex.METAGROUP, Refinery.METAGROUP, UpwellJumpGate.METAGROUP, Citadel.METAGROUP, UpwellCynoJammer.METAGROUP, UpwellCynoBeacon.METAGROUP);
         }
     }
 }

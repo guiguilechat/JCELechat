@@ -8,6 +8,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Structure;
@@ -16,6 +17,62 @@ import org.yaml.snakeyaml.Yaml;
 public class EngineeringComplex
     extends Structure
 {
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
+    /**
+     * This defines the total capacity of fighters allowed in the fighter bay of the ship
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterCapacity;
+    /**
+     * Number of Heavy Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupHeavySlots;
+    /**
+     * Number of Light Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupLightSlots;
+    /**
+     * Number of Support Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupSupportSlots;
+    /**
+     * This defines the total number of fighter launch tubes on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterTubes;
+    /**
+     * Missile damage attribute used by structures as a workaround for implementing Standup BCS stacking penalties
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int HiddenMissileDamageMultiplier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
      * Cost bonus for Engineering Complexes Structures
      */
@@ -37,11 +94,78 @@ public class EngineeringComplex
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StrEngTimeBonus;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureAoERoFRoleBonus;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureServiceRoleBonus;
+    /**
+     * Distance which tethering will engage / disengage piloted ships.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int TetheringRange;
+    /**
+     * Attribute on ships used for ship upgrades
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
+    /**
+     * How many rigs can by fitted to this ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     public final static EngineeringComplex.MetaGroup METAGROUP = new EngineeringComplex.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  2055 :
+            {
+                return FighterCapacity;
+            }
+            case  2739 :
+            {
+                return FighterStandupHeavySlots;
+            }
+            case  2737 :
+            {
+                return FighterStandupLightSlots;
+            }
+            case  2738 :
+            {
+                return FighterStandupSupportSlots;
+            }
+            case  2216 :
+            {
+                return FighterTubes;
+            }
+            case  2750 :
+            {
+                return HiddenMissileDamageMultiplier;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
             case  2601 :
             {
                 return StrEngCostBonus;
@@ -53,6 +177,26 @@ public class EngineeringComplex
             case  2602 :
             {
                 return StrEngTimeBonus;
+            }
+            case  2749 :
+            {
+                return StructureAoERoFRoleBonus;
+            }
+            case  2339 :
+            {
+                return StructureServiceRoleBonus;
+            }
+            case  2268 :
+            {
+                return TetheringRange;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
             }
             default:
             {

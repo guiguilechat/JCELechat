@@ -159,12 +159,12 @@ items:
     CapacitorNeed: 10000.0
     Cpu: 80.0
     DisallowRepeatingActivation: 1
-    Duration: 18000.0
+    Duration: 14000.0
     Hp: 40
-    HullEmDamageResonance: 0.0010000000474974513
-    HullExplosiveDamageResonance: 0.0010000000474974513
-    HullKineticDamageResonance: 0.0010000000474974513
-    HullThermalDamageResonance: 0.0010000000474974513
+    HullEmDamageResonance: 0.05000000074505806
+    HullExplosiveDamageResonance: 0.05000000074505806
+    HullKineticDamageResonance: 0.05000000074505806
+    HullThermalDamageResonance: 0.05000000074505806
     MaxGroupActive: 1
     MaxGroupFitted: 1
     Power: 100000
@@ -194,12 +194,12 @@ items:
     CapacitorNeed: 12000.0
     Cpu: 80.0
     DisallowRepeatingActivation: 1
-    Duration: 22000.0
+    Duration: 16500.0
     Hp: 40
-    HullEmDamageResonance: 0.0010000000474974513
-    HullExplosiveDamageResonance: 0.0010000000474974513
-    HullKineticDamageResonance: 0.0010000000474974513
-    HullThermalDamageResonance: 0.0010000000474974513
+    HullEmDamageResonance: 0.05000000074505806
+    HullExplosiveDamageResonance: 0.05000000074505806
+    HullKineticDamageResonance: 0.05000000074505806
+    HullThermalDamageResonance: 0.05000000074505806
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 5
@@ -230,12 +230,12 @@ items:
     CapacitorNeed: 10000.0
     Cpu: 60.0
     DisallowRepeatingActivation: 1
-    Duration: 20000.0
+    Duration: 16500.0
     Hp: 40
-    HullEmDamageResonance: 0.0010000000474974513
-    HullExplosiveDamageResonance: 0.0010000000474974513
-    HullKineticDamageResonance: 0.0010000000474974513
-    HullThermalDamageResonance: 0.0010000000474974513
+    HullEmDamageResonance: 0.05000000074505806
+    HullExplosiveDamageResonance: 0.05000000074505806
+    HullKineticDamageResonance: 0.05000000074505806
+    HullThermalDamageResonance: 0.05000000074505806
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 1
@@ -266,12 +266,12 @@ items:
     CapacitorNeed: 8000.0
     Cpu: 80.0
     DisallowRepeatingActivation: 1
-    Duration: 20000.0
+    Duration: 16500.0
     Hp: 40
-    HullEmDamageResonance: 0.0010000000474974513
-    HullExplosiveDamageResonance: 0.0010000000474974513
-    HullKineticDamageResonance: 0.0010000000474974513
-    HullThermalDamageResonance: 0.0010000000474974513
+    HullEmDamageResonance: 0.05000000074505806
+    HullExplosiveDamageResonance: 0.05000000074505806
+    HullKineticDamageResonance: 0.05000000074505806
+    HullThermalDamageResonance: 0.05000000074505806
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaLevel: 1
@@ -608,12 +608,12 @@ items:
     CapacitorNeed: 8000.0
     Cpu: 80.0
     DisallowRepeatingActivation: 1
-    Duration: 25000.0
+    Duration: 19000.0
     Hp: 40
-    HullEmDamageResonance: 0.0010000000474974513
-    HullExplosiveDamageResonance: 0.0010000000474974513
-    HullKineticDamageResonance: 0.0010000000474974513
-    HullThermalDamageResonance: 0.0010000000474974513
+    HullEmDamageResonance: 0.05000000074505806
+    HullExplosiveDamageResonance: 0.05000000074505806
+    HullKineticDamageResonance: 0.05000000074505806
+    HullThermalDamageResonance: 0.05000000074505806
     MaxGroupActive: 1
     MaxGroupFitted: 1
     MetaGroupID: 4

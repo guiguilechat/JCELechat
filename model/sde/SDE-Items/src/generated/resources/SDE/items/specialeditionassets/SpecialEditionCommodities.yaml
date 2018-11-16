@@ -1,4 +1,25 @@
 items:
+  '''Domino Turqoise'' Augmentation Crate':
+    CpuMultiplier: 1.0
+    id: 49705
+    marketGroup: 2487
+    name: '''Domino Turqoise'' Augmentation Crate'
+    published: true
+    volume: 4.0
+  '''Eico Flamjaw'' Augmentation Crate':
+    CpuMultiplier: 1.0
+    id: 49706
+    marketGroup: 2487
+    name: '''Eico Flamjaw'' Augmentation Crate'
+    published: true
+    volume: 4.0
+  '''Subverted'' JVN-UC49 Blueprint Crate':
+    CpuMultiplier: 1.0
+    id: 48928
+    marketGroup: 2487
+    name: '''Subverted'' JVN-UC49 Blueprint Crate'
+    published: true
+    volume: 4.0
   '*Sneaks in a classic*':
     CpuMultiplier: 1.0
     id: 33060
@@ -114,6 +135,13 @@ items:
     name: Amarr Inception Package
     published: true
     volume: 2520.0
+  Amarr Religious Mask:
+    CpuMultiplier: 1.0
+    id: 49641
+    marketGroup: 1661
+    name: Amarr Religious Mask
+    published: true
+    volume: 1.0
   Animal Medical Expert:
     CpuMultiplier: 1.0
     id: 33024
@@ -149,6 +177,20 @@ items:
     name: Band of Brothers Director Access Key
     published: true
     volume: 0.01
+  Black Dagger:
+    CpuMultiplier: 1.0
+    id: 49644
+    marketGroup: 1661
+    name: Black Dagger
+    published: true
+    volume: 1.0
+  Blood Coated Statuette:
+    CpuMultiplier: 1.0
+    id: 49646
+    marketGroup: 1661
+    name: Blood Coated Statuette
+    published: true
+    volume: 1.0
   CDIA Training Exercise Supply Crate:
     CpuMultiplier: 1.0
     id: 47482
@@ -261,6 +303,13 @@ items:
     name: Caldari Inception Package
     published: true
     volume: 2520.0
+  Calm Abyssal Filaments Crate:
+    CpuMultiplier: 1.0
+    id: 49708
+    marketGroup: 2487
+    name: Calm Abyssal Filaments Crate
+    published: true
+    volume: 1.0
   Capital Parking Ticket:
     CpuMultiplier: 1.0
     id: 37886
@@ -282,6 +331,13 @@ items:
     name: Chribba’s Modified Strip Miner
     published: true
     volume: 3.0
+  Colonize! Board Game:
+    CpuMultiplier: 1.0
+    id: 49653
+    marketGroup: 1661
+    name: Colonize! Board Game
+    published: true
+    volume: 1.0
   Concordokken:
     CpuMultiplier: 1.0
     id: 33058
@@ -373,6 +429,20 @@ items:
     name: Deactivated Station Key Pass
     published: true
     volume: 0.01
+  Deathglow Residue:
+    CpuMultiplier: 1.0
+    id: 49619
+    marketGroup: 1661
+    name: Deathglow Residue
+    published: true
+    volume: 0.2
+  Decayed Deathglow:
+    CpuMultiplier: 1.0
+    id: 49620
+    marketGroup: 1661
+    name: Decayed Deathglow
+    published: true
+    volume: 1.0
   Decommissioned ERIC Prototype:
     CpuMultiplier: 1.0
     id: 48758
@@ -506,6 +576,13 @@ items:
     name: Festive Firecrackers
     published: true
     volume: 0.01
+  Fierce Abyssal Filaments Crate:
+    CpuMultiplier: 1.0
+    id: 49709
+    marketGroup: 2487
+    name: Fierce Abyssal Filaments Crate
+    published: true
+    volume: 1.0
   Forged Frigate Blueprints:
     CpuMultiplier: 1.0
     id: 44208
@@ -562,6 +639,13 @@ items:
     name: Gold Ouroboros
     published: true
     volume: 0.1
+  Golden Sabik Vial:
+    CpuMultiplier: 1.0
+    id: 49647
+    marketGroup: 1661
+    name: Golden Sabik Vial
+    published: true
+    volume: 1.0
   Grand Teigjon Casino Chip:
     CpuMultiplier: 1.0
     id: 37881
@@ -576,6 +660,13 @@ items:
     name: Guillome Renard’s Sleeper Loot Stash
     published: true
     volume: 3.0
+  Hair Accessory Shipment (Damaged):
+    CpuMultiplier: 1.0
+    id: 49707
+    marketGroup: 1661
+    name: Hair Accessory Shipment (Damaged)
+    published: true
+    volume: 0.1
   Headhunter Crate:
     CpuMultiplier: 1.0
     id: 46756
@@ -695,6 +786,20 @@ items:
     name: Krusual Etched Sticks
     published: true
     volume: 1.0
+  Large Faction Ammunition Crate:
+    CpuMultiplier: 1.0
+    id: 49748
+    marketGroup: 2487
+    name: Large Faction Ammunition Crate
+    published: true
+    volume: 4.0
+  Lifeblood (Collector's Edition):
+    CpuMultiplier: 1.0
+    id: 49649
+    marketGroup: 1661
+    name: Lifeblood (Collector's Edition)
+    published: true
+    volume: 1.0
   Little Helper, Female:
     CpuMultiplier: 1.0
     id: 33027
@@ -737,11 +842,11 @@ items:
     name: Mannar Hair Gel
     published: true
     volume: 1.0
-  Manufacturing Union’s Placard:
+  Manufacturing Union���s Placard:
     CpuMultiplier: 1.0
     id: 34417
     marketGroup: 1661
-    name: Manufacturing Union’s Placard
+    name: Manufacturing Union���s Placard
     published: true
     volume: 3.0
   Matari Word Calendar:
@@ -765,6 +870,20 @@ items:
     name: Meat Popsicle
     published: true
     volume: 0.01
+  Medium Faction Ammunition Crate:
+    CpuMultiplier: 1.0
+    id: 49719
+    marketGroup: 2487
+    name: Medium Faction Ammunition Crate
+    published: true
+    volume: 4.0
+  Medium Navy Ammunition Crate:
+    CpuMultiplier: 1.0
+    id: 49718
+    marketGroup: 2487
+    name: Medium Navy Ammunition Crate
+    published: true
+    volume: 4.0
   Military Experts and You:
     CpuMultiplier: 1.0
     id: 33025
@@ -807,6 +926,34 @@ items:
     name: New Eden Source
     published: true
     volume: 0.01
+  Nov Imp A BPC Crate:
+    CpuMultiplier: 1.0
+    id: 49531
+    marketGroup: 2487
+    name: Nov Imp A BPC Crate
+    published: true
+    volume: 4.0
+  Nov Imp E BPC Crate:
+    CpuMultiplier: 1.0
+    id: 49532
+    marketGroup: 2487
+    name: Nov Imp E BPC Crate
+    published: true
+    volume: 4.0
+  Nov Imp S BPC Crate:
+    CpuMultiplier: 1.0
+    id: 49533
+    marketGroup: 2487
+    name: Nov Imp S BPC Crate
+    published: true
+    volume: 4.0
+  November Module Crate:
+    CpuMultiplier: 1.0
+    id: 49419
+    marketGroup: 2487
+    name: November Module Crate
+    published: true
+    volume: 4.0
   Offensive Content Reports, Jan. YC120, vol. I:
     CpuMultiplier: 1.0
     id: 48759
@@ -877,6 +1024,13 @@ items:
     name: 'Public Portrait: How To'
     published: true
     volume: 0.01
+  Purgative Coffin:
+    CpuMultiplier: 1.0
+    id: 49651
+    marketGroup: 1661
+    name: Purgative Coffin
+    published: true
+    volume: 1.0
   'Query: Spaghetti or Chicken Sandwich?':
     CpuMultiplier: 1.0
     id: 48748
@@ -1004,6 +1158,20 @@ items:
     name: SCC Guidelines – Lotteries For Dummies
     published: true
     volume: 3.0
+  Sani Sabik Murder Security Tapes:
+    CpuMultiplier: 1.0
+    id: 49650
+    marketGroup: 1661
+    name: Sani Sabik Murder Security Tapes
+    published: true
+    volume: 1.0
+  Sani Sabik Sermon:
+    CpuMultiplier: 1.0
+    id: 49648
+    marketGroup: 1661
+    name: Sani Sabik Sermon
+    published: true
+    volume: 1.0
   Sansha Claws Fairytale Book:
     CpuMultiplier: 1.0
     id: 37878
@@ -1060,6 +1228,13 @@ items:
     name: Slaver Tooth Necklace
     published: true
     volume: 1.0
+  Small Navy Ammunition Crate:
+    CpuMultiplier: 1.0
+    id: 49746
+    marketGroup: 2487
+    name: Small Navy Ammunition Crate
+    published: true
+    volume: 2.0
   Sort Dragon’s Guide To Diplomacy:
     CpuMultiplier: 1.0
     id: 34426
@@ -1067,13 +1242,20 @@ items:
     name: Sort Dragon’s Guide To Diplomacy
     published: true
     volume: 3.0
-  Soxfour��s Spaceboots:
+  Soxfour’s Spaceboots:
     CpuMultiplier: 1.0
     id: 34435
     marketGroup: 1661
-    name: Soxfour��s Spaceboots
+    name: Soxfour’s Spaceboots
     published: true
     volume: 3.0
+  St. Tetrimon's Finger:
+    CpuMultiplier: 1.0
+    id: 49634
+    marketGroup: 1661
+    name: St. Tetrimon's Finger
+    published: true
+    volume: 1.0
   Starsi:
     CpuMultiplier: 1.0
     id: 37888
@@ -1108,6 +1290,13 @@ items:
     name: TLF Recruitment Poster
     published: true
     volume: 0.1
+  Tarot of St. Jamyl:
+    CpuMultiplier: 1.0
+    id: 49645
+    marketGroup: 1661
+    name: Tarot of St. Jamyl
+    published: true
+    volume: 1.0
   Ten Most Wanted Slavers:
     CpuMultiplier: 1.0
     id: 48592
@@ -1171,6 +1360,13 @@ items:
     name: To Kill the Risen Dead
     published: true
     volume: 3.0
+  Top Grade Deathglow:
+    CpuMultiplier: 1.0
+    id: 49621
+    marketGroup: 1661
+    name: Top Grade Deathglow
+    published: true
+    volume: 1.0
   Unit of Lag:
     CpuMultiplier: 0.10000000149011612
     id: 33021
@@ -1220,6 +1416,13 @@ items:
     name: Vintage Frigate Blueprints
     published: true
     volume: 0.01
+  Vintage Wine?:
+    CpuMultiplier: 1.0
+    id: 49652
+    marketGroup: 1661
+    name: Vintage Wine?
+    published: true
+    volume: 1.0
   Well-Worn Fedora:
     CpuMultiplier: 1.0
     id: 48751
@@ -1332,31 +1535,3 @@ items:
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     published: true
     volume: 3.0
-  unnamed_g1194_ic10886:
-    CpuMultiplier: 1.0
-    id: 49621
-    marketGroup: 1661
-    name: unnamed_g1194_ic10886
-    published: true
-    volume: 1.0
-  unnamed_g1194_ic10887:
-    CpuMultiplier: 1.0
-    id: 49620
-    marketGroup: 1661
-    name: unnamed_g1194_ic10887
-    published: true
-    volume: 1.0
-  unnamed_g1194_ic1196:
-    CpuMultiplier: 1.0
-    id: 49619
-    marketGroup: 1661
-    name: unnamed_g1194_ic1196
-    published: true
-    volume: 0.2
-  unnamed_g1194_ic21900:
-    CpuMultiplier: 1.0
-    id: 48928
-    marketGroup: 2487
-    name: unnamed_g1194_ic21900
-    published: true
-    volume: 4.0

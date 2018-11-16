@@ -28,7 +28,7 @@ public class JumpDriveConsumptionAmount
 
     @Override
     public double getDefaultValue() {
-        return  0.0;
+        return  2000.0;
     }
 
     @Override

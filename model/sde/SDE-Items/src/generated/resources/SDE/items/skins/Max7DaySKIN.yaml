@@ -99,9 +99,19 @@ items:
     name: Armageddon Tash-Murkon SKIN (7 Days)
     published: true
     volume: 0.01
+  Ashimmu Serenity Splatter (Ashimmu) SKIN (7 Days):
+    id: 49462
+    name: Ashimmu Serenity Splatter (Ashimmu) SKIN (7 Days)
+    published: true
+    volume: 0.01
   Astero Sanctuary SKIN (7 Days):
     id: 35691
     name: Astero Sanctuary SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Astero Spectral Shift Serenity Only SKIN (7 Days):
+    id: 49477
+    name: Astero Spectral Shift Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Atron Intaki Syndicate SKIN (7 Days):
@@ -149,6 +159,26 @@ items:
     name: Bestower Tash-Murkon SKIN (7 Days)
     published: true
     volume: 0.01
+  Bowhead Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49204
+    name: Bowhead Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Bowhead Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49269
+    name: Bowhead Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Bowhead Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49334
+    name: Bowhead Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Bowhead Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49399
+    name: Bowhead Minmatar Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Brutix Inner Zone Shipping SKIN (7 Days):
     id: 35001
     name: Brutix Inner Zone Shipping SKIN (7 Days)
@@ -167,6 +197,11 @@ items:
   Caracal Nugoeihuvi SKIN (7 Days):
     id: 35009
     name: Caracal Nugoeihuvi SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Caracal Serenity Water SKIN (7 Days):
+    id: 49447
+    name: Caracal Serenity Water SKIN (7 Days)
     published: true
     volume: 0.01
   Caracal Wiyrkomi SKIN (7 Days):
@@ -244,6 +279,26 @@ items:
     name: Cormorant Guristas SKIN (7 Days)
     published: true
     volume: 0.01
+  Covetor Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49184
+    name: Covetor Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Covetor Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49249
+    name: Covetor Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Covetor Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49314
+    name: Covetor Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Covetor Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49379
+    name: Covetor Minmatar Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Crucifier Kador SKIN (7 Days):
     id: 35077
     name: Crucifier Kador SKIN (7 Days)
@@ -264,9 +319,19 @@ items:
     name: Cyclone Thukker Tribe SKIN (7 Days)
     published: true
     volume: 0.01
+  Cynabal Serenity Twirl SKIN (7 Days):
+    id: 49472
+    name: Cynabal Serenity Twirl SKIN (7 Days)
+    published: true
+    volume: 0.01
   Cynabal Serenity YC119 SKIN (7 Days):
     id: 47091
     name: Cynabal Serenity YC119 SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Damavik Hadean Horror Serenity Only SKIN (7 Days):
+    id: 49512
+    name: Damavik Hadean Horror Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Dominix Inner Zone Shipping SKIN (7 Days):
@@ -307,6 +372,26 @@ items:
   Eagle Serenity YC117 SKIN (7 Days):
     id: 35121
     name: Eagle Serenity YC117 SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Endurance Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49164
+    name: Endurance Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Endurance Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49229
+    name: Endurance Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Endurance Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49294
+    name: Endurance Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Endurance Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49359
+    name: Endurance Minmatar Industrial Livery Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Erebus Duvolle SKIN (7 Days):
@@ -354,6 +439,11 @@ items:
     name: Ferox Lai Dai SKIN (7 Days)
     published: true
     volume: 0.01
+  Gila Serenity Circle SKIN (7 Days):
+    id: 49467
+    name: Gila Serenity Circle SKIN (7 Days)
+    published: true
+    volume: 0.01
   Gila Serenity YC117 SKIN (7 Days):
     id: 35157
     name: Gila Serenity YC117 SKIN (7 Days)
@@ -362,6 +452,11 @@ items:
   Gold Magnate Serenity YC119 SKIN (7 Days):
     id: 47076
     name: Gold Magnate Serenity YC119 SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Golem Ghostbird Serenity Only SKIN (7 Days):
+    id: 49507
+    name: Golem Ghostbird Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Golem Guristas SKIN (7 Days):
@@ -397,6 +492,26 @@ items:
   Heron Sukuuvestaa SKIN (7 Days):
     id: 35185
     name: Heron Sukuuvestaa SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Hulk Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49199
+    name: Hulk Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Hulk Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49264
+    name: Hulk Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Hulk Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49329
+    name: Hulk Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Hulk Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49394
+    name: Hulk Minmatar Industrial Livery Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Hulk ORE Development SKIN (7 Days):
@@ -484,9 +599,39 @@ items:
     name: Kronos Quafe SKIN (7 Days)
     published: true
     volume: 0.01
+  Leshak Hadean Horror Serenity Only SKIN (7 Days):
+    id: 49522
+    name: Leshak Hadean Horror Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Machariel Angel's Hex Serenity Only SKIN (7 Days):
+    id: 49527
+    name: Machariel Angel's Hex Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Machariel Serenity YC117 SKIN (7 Days):
     id: 35257
     name: Machariel Serenity YC117 SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Mackinaw Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49194
+    name: Mackinaw Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Mackinaw Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49259
+    name: Mackinaw Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Mackinaw Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49324
+    name: Mackinaw Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Mackinaw Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49389
+    name: Mackinaw Minmatar Industrial Livery Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Mackinaw ORE Development SKIN (7 Days):
@@ -629,6 +774,11 @@ items:
     name: Nestor Sanctuary SKIN (7 Days)
     published: true
     volume: 0.01
+  Nestor Spectral Shift Serenity Only SKIN (7 Days):
+    id: 49487
+    name: Nestor Spectral Shift Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Nidhoggur Krusual SKIN (7 Days):
     id: 35361
     name: Nidhoggur Krusual SKIN (7 Days)
@@ -664,6 +814,11 @@ items:
     name: Omen Sarum SKIN (7 Days)
     published: true
     volume: 0.01
+  Omen Serenity Electric SKIN (7 Days):
+    id: 49452
+    name: Omen Serenity Electric SKIN (7 Days)
+    published: true
+    volume: 0.01
   Omen Tash-Murkon SKIN (7 Days):
     id: 35389
     name: Omen Tash-Murkon SKIN (7 Days)
@@ -679,6 +834,26 @@ items:
     name: Oracle Sarum SKIN (7 Days)
     published: true
     volume: 0.01
+  Orca Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49209
+    name: Orca Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Orca Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49274
+    name: Orca Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Orca Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49339
+    name: Orca Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Orca Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49404
+    name: Orca Minmatar Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Orca ORE Development SKIN (7 Days):
     id: 35401
     name: Orca ORE Development SKIN (7 Days)
@@ -692,6 +867,11 @@ items:
   Paladin Blood Raiders SKIN (7 Days):
     id: 35409
     name: Paladin Blood Raiders SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Paladin Imperial Jubilee Serenity Only SKIN (7 Days):
+    id: 49497
+    name: Paladin Imperial Jubilee Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Paladin Kador SKIN (7 Days):
@@ -714,9 +894,49 @@ items:
     name: Phoenix Wiyrkomi SKIN (7 Days)
     published: true
     volume: 0.01
+  Porpoise Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49219
+    name: Porpoise Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Porpoise Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49284
+    name: Porpoise Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Porpoise Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49349
+    name: Porpoise Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Porpoise Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49414
+    name: Porpoise Minmatar Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Probe Vherokior SKIN (7 Days):
     id: 35429
     name: Probe Vherokior SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Procurer Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49174
+    name: Procurer Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Procurer Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49239
+    name: Procurer Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Procurer Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49304
+    name: Procurer Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Procurer Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49369
+    name: Procurer Minmatar Industrial Livery Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Prophecy Blood Raiders SKIN (7 Days):
@@ -734,9 +954,34 @@ items:
     name: Prophecy Tash-Murkon SKIN (7 Days)
     published: true
     volume: 0.01
+  Prospect Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49169
+    name: Prospect Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Prospect Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49234
+    name: Prospect Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Prospect Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49299
+    name: Prospect Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Prospect Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49364
+    name: Prospect Minmatar Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Providence Ardishapur SKIN (7 Days):
     id: 35445
     name: Providence Ardishapur SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Providence Imperial Jubilee Serenity Only SKIN (7 Days):
+    id: 49492
+    name: Providence Imperial Jubilee Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Providence Kador SKIN (7 Days):
@@ -784,6 +1029,26 @@ items:
     name: Raven Wiyrkomi SKIN (7 Days)
     published: true
     volume: 0.01
+  Retriever Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49179
+    name: Retriever Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Retriever Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49244
+    name: Retriever Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Retriever Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49309
+    name: Retriever Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Retriever Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49374
+    name: Retriever Minmatar Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Revelation Kador SKIN (7 Days):
     id: 35485
     name: Revelation Kador SKIN (7 Days)
@@ -814,9 +1079,39 @@ items:
     name: Rokh Wiyrkomi SKIN (7 Days)
     published: true
     volume: 0.01
+  Rorqual Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49214
+    name: Rorqual Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Rorqual Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49279
+    name: Rorqual Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Rorqual Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49344
+    name: Rorqual Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Rorqual Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49409
+    name: Rorqual Minmatar Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Rorqual ORE Development SKIN (7 Days):
     id: 35509
     name: Rorqual ORE Development SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Rorqual Sovereign Claim Serenity Only SKIN (7 Days):
+    id: 49142
+    name: Rorqual Sovereign Claim Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Rupture Serenity Cloud SKIN (7 Days):
+    id: 49442
+    name: Rupture Serenity Cloud SKIN (7 Days)
     published: true
     volume: 0.01
   Scorpion Ishukone Watch SKIN (7 Days):
@@ -827,6 +1122,26 @@ items:
   Sigil Kador SKIN (7 Days):
     id: 35517
     name: Sigil Kador SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Skiff Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49189
+    name: Skiff Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Skiff Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49254
+    name: Skiff Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Skiff Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49319
+    name: Skiff Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Skiff Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49384
+    name: Skiff Minmatar Industrial Livery Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Skiff ORE Development SKIN (7 Days):
@@ -852,6 +1167,11 @@ items:
   Stratios Sanctuary SKIN (7 Days):
     id: 35696
     name: Stratios Sanctuary SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Stratios Spectral Shift Serenity Only SKIN (7 Days):
+    id: 49482
+    name: Stratios Spectral Shift Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Talos Duvolle SKIN (7 Days):
@@ -892,6 +1212,11 @@ items:
   Tempest Nefantar SKIN (7 Days):
     id: 35561
     name: Tempest Nefantar SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Tengu Ghostbird Serenity Only SKIN (7 Days):
+    id: 49502
+    name: Tengu Ghostbird Serenity Only SKIN (7 Days)
     published: true
     volume: 0.01
   Thanatos Quafe SKIN (7 Days):
@@ -974,6 +1299,31 @@ items:
     name: Vargur Thukker Tribe SKIN (7 Days)
     published: true
     volume: 0.01
+  Vedmak Hadean Horror Serenity Only SKIN (7 Days):
+    id: 49517
+    name: Vedmak Hadean Horror Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Venture Amarr Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49159
+    name: Venture Amarr Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Venture Caldari Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49224
+    name: Venture Caldari Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Venture Gallente Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49289
+    name: Venture Gallente Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
+  Venture Minmatar Industrial Livery Serenity Only SKIN (7 Days):
+    id: 49354
+    name: Venture Minmatar Industrial Livery Serenity Only SKIN (7 Days)
+    published: true
+    volume: 0.01
   Vexor Intaki Syndicate SKIN (7 Days):
     id: 35625
     name: Vexor Intaki Syndicate SKIN (7 Days)
@@ -989,18 +1339,23 @@ items:
     name: Vexor Quafe SKIN (7 Days)
     published: true
     volume: 0.01
+  Vexor Serenity Flame SKIN (7 Days):
+    id: 49437
+    name: Vexor Serenity Flame SKIN (7 Days)
+    published: true
+    volume: 0.01
   Vigil Krusual SKIN (7 Days):
     id: 35637
     name: Vigil Krusual SKIN (7 Days)
     published: true
     volume: 0.01
+  Vigilant Serenity Splatter (Thorax) SKIN (7 Days):
+    id: 49457
+    name: Vigilant Serenity Splatter (Thorax) SKIN (7 Days)
+    published: true
+    volume: 0.01
   Wyvern Wiyrkomi SKIN (7 Days):
     id: 35641
     name: Wyvern Wiyrkomi SKIN (7 Days)
-    published: true
-    volume: 0.01
-  unnamed_g1952_ic0:
-    id: 49527
-    name: unnamed_g1952_ic0
     published: true
     volume: 0.01

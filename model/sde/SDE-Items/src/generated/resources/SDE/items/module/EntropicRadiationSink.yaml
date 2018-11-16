@@ -1,4 +1,14 @@
 items:
+  Abyssal Entropic Radiation Sink:
+    DamageMultiplier: 1.0
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    SpeedMultiplier: 1.0
+    TechLevel: 1
+    id: 49734
+    name: Abyssal Entropic Radiation Sink
+    published: true
+    volume: 1.0
   Compact Entropic Radiation Sink:
     Cpu: 27.0
     DamageMultiplier: 1.090000033378601

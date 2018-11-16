@@ -1,9 +1,4 @@
 items:
-  ♦ Annihilator Drone:
-    id: 43649
-    name: ♦ Annihilator Drone
-    published: false
-    volume: 60.0
   ♦ Arbitrator:
     id: 43603
     name: ♦ Arbitrator
@@ -19,11 +14,6 @@ items:
     name: ♦ Augoror
     published: false
     volume: 115000.0
-  ♦ Bellicose:
-    id: 43592
-    name: ♦ Bellicose
-    published: false
-    volume: 85000.0
   ♦ Blackbird:
     id: 43625
     name: ♦ Blackbird
@@ -40,7 +30,7 @@ items:
     published: false
     volume: 116000.0
   ♦ Cynabal:
-    id: 46062
+    id: 43641
     name: ♦ Cynabal
     published: false
     volume: 101000.0
@@ -119,8 +109,18 @@ items:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  �� Rupture:
-    id: 43590
-    name: �� Rupture
+  �� Annihilator Drone:
+    id: 43649
+    name: �� Annihilator Drone
     published: false
-    volume: 96000.0
+    volume: 60.0
+  �� Cynabal:
+    id: 46062
+    name: �� Cynabal
+    published: false
+    volume: 101000.0
+  ��� Bellicose:
+    id: 43592
+    name: ��� Bellicose
+    published: false
+    volume: 85000.0

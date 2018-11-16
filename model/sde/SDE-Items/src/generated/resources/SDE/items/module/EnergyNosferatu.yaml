@@ -554,17 +554,6 @@ items:
     name: Draclira's Modified Heavy Energy Nosferatu
     published: true
     volume: 5.0
-  ? "Drains energy from the target ship and adds it to your own.\r\n\r\nNote: A Nosferatu\
-    \ module will not drain your target's capacitor below your own capacitor level."
-  : RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 48419
-    name: "Drains energy from the target ship and adds it to your own.\r\n\r\nNote:\
-      \ A Nosferatu module will not drain your target's capacitor below your own capacitor\
-      \ level."
-    published: true
-    volume: 5.0
   Heavy 'Vrykolakas' Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 10000
@@ -925,6 +914,14 @@ items:
     id: 23821
     marketGroup: 692
     name: Small 'Upir' Energy Nosferatu
+    published: true
+    volume: 5.0
+  Small Abyssal Energy Nosferatu:
+    RequiredSkill1: 3423
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 48419
+    name: Small Abyssal Energy Nosferatu
     published: true
     volume: 5.0
   Small Energy Nosferatu I:

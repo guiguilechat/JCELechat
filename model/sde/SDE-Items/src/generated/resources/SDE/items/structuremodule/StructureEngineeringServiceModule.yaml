@@ -18,7 +18,8 @@ items:
     ServiceModuleFuelAmount: 24
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 1728
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 35881
     marketGroup: 2332
@@ -37,7 +38,8 @@ items:
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 45550
     marketGroup: 2332
@@ -55,7 +57,8 @@ items:
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 35886
     marketGroup: 2332
@@ -73,7 +76,8 @@ items:
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 35878
     marketGroup: 2332
@@ -91,7 +95,8 @@ items:
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 35891
     marketGroup: 2332
@@ -109,7 +114,8 @@ items:
     ServiceModuleFuelAmount: 36
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 2592
-    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
+    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
+    ServiceModuleFullPowerStateHitpointMultiplier: 4
     StructureItemVisualFlag: 1
     id: 35877
     marketGroup: 2332

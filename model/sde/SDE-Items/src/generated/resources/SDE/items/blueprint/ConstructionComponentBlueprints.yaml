@@ -241,6 +241,12 @@ items:
     name: Structure Docking Bay Blueprint
     published: true
     volume: 0.01
+  Structure EXERT Conduit Coupler Blueprint:
+    id: 49721
+    marketGroup: 1913
+    name: Structure EXERT Conduit Coupler Blueprint
+    published: true
+    volume: 0.01
   Structure Electromagnetic Sensor Blueprint:
     id: 36953
     marketGroup: 1913

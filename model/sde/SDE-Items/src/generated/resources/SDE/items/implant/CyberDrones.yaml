@@ -25,7 +25,20 @@ items:
     name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
     published: true
     volume: 1.0
-  unnamed_g739_ic2224:
+  Overmind 'Goliath' Drone Tuner T25-10S:
+    ArmorHpBonus: 25
+    DroneMaxVelocityBonus: -10
+    HullHpBonus: 25
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: 25.0
+    id: 48746
+    marketGroup: 2475
+    name: Overmind 'Goliath' Drone Tuner T25-10S
+    published: true
+    volume: 1.0
+  Overmind 'Hawkmoth' Drone Tuner S10-25T:
     ArmorHpBonus: -25
     DroneMaxVelocityBonus: 10
     HullHpBonus: -25
@@ -35,6 +48,6 @@ items:
     ShieldCapacityBonus: -25.0
     id: 48747
     marketGroup: 2475
-    name: unnamed_g739_ic2224
+    name: Overmind 'Hawkmoth' Drone Tuner S10-25T
     published: true
     volume: 1.0

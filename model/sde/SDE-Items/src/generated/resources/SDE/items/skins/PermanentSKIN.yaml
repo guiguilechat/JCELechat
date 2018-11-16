@@ -11,6 +11,12 @@ items:
     name: Abaddon Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Abaddon Cryptic Mimesis SKIN (Permanent):
+    id: 48893
+    marketGroup: 1964
+    name: Abaddon Cryptic Mimesis SKIN (Permanent)
+    published: true
+    volume: 0.01
   Abaddon EoM SKIN (Permanent):
     id: 36317
     name: Abaddon EoM SKIN (Permanent)
@@ -127,6 +133,12 @@ items:
     name: Absolution Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Absolution Imperial Jubilee SKIN (Permanent):
+    id: 48852
+    marketGroup: 2104
+    name: Absolution Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Absolution Ironblood SKIN (Permanent):
     id: 43513
     marketGroup: 2104
@@ -179,6 +191,12 @@ items:
     id: 46811
     marketGroup: 1974
     name: Aeon Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Aeon Headhunter SKIN (Permanent):
+    id: 49422
+    marketGroup: 1974
+    name: Aeon Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
   Aeon Ironblood SKIN (Permanent):
@@ -345,6 +363,12 @@ items:
     name: Anathema Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Anathema Imperial Jubilee SKIN (Permanent):
+    id: 48844
+    marketGroup: 2051
+    name: Anathema Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Anathema Ironblood SKIN (Permanent):
     id: 43490
     marketGroup: 2051
@@ -456,6 +480,12 @@ items:
     name: Apocalypse IGC Victory SKIN (Permanent)
     published: true
     volume: 0.01
+  Apocalypse Imperial Jubilee SKIN (Permanent):
+    id: 48854
+    marketGroup: 1964
+    name: Apocalypse Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Apocalypse Ironblood SKIN (Permanent):
     id: 43516
     marketGroup: 1964
@@ -506,6 +536,12 @@ items:
     id: 46807
     marketGroup: 2108
     name: Apocalypse Navy Issue Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apocalypse Navy Issue Imperial Jubilee SKIN (Permanent):
+    id: 48855
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Imperial Jubilee SKIN (Permanent)
     published: true
     volume: 0.01
   Apocalypse Navy Issue Purity of the Throne SKIN (Permanent):
@@ -570,6 +606,18 @@ items:
     id: 47049
     marketGroup: 2278
     name: Apostle Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apostle Headhunter SKIN (Permanent):
+    id: 49421
+    marketGroup: 2278
+    name: Apostle Headhunter SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apostle Imperial Jubilee SKIN (Permanent):
+    id: 48858
+    marketGroup: 2278
+    name: Apostle Imperial Jubilee SKIN (Permanent)
     published: true
     volume: 0.01
   Apostle Purity of the Throne SKIN (Permanent):
@@ -891,6 +939,12 @@ items:
     name: Ark Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Ark Imperial Jubilee SKIN (Permanent):
+    id: 48861
+    marketGroup: 2095
+    name: Ark Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ark Ironblood SKIN (Permanent):
     id: 43529
     marketGroup: 2095
@@ -997,6 +1051,12 @@ items:
     name: Armageddon Navy Issue Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Armageddon Navy Issue Imperial Jubilee SKIN (Permanent):
+    id: 48856
+    marketGroup: 2108
+    name: Armageddon Navy Issue Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Armageddon Navy Issue Purity of the Throne SKIN (Permanent):
     id: 42590
     marketGroup: 2108
@@ -1049,6 +1109,11 @@ items:
     name: Ashimmu Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Ashimmu Serenity Splatter (Ashimmu) SKIN (Permanent):
+    id: 49461
+    name: Ashimmu Serenity Splatter (Ashimmu) SKIN (Permanent)
+    published: true
+    volume: 0.01
   Astarte Exoplanets Hunter SKIN (Permanent):
     id: 45908
     marketGroup: 2106
@@ -1097,6 +1162,12 @@ items:
     name: Astero Crystal Blast SKIN (Permanent)
     published: true
     volume: 0.01
+  Astero Deathglow Hunters SKIN (Permanent):
+    id: 49435
+    marketGroup: 2031
+    name: Astero Deathglow Hunters SKIN (Permanent)
+    published: true
+    volume: 0.01
   Astero Glacial Drift SKIN (Permanent):
     id: 47013
     marketGroup: 2031
@@ -1142,6 +1213,11 @@ items:
     id: 46520
     marketGroup: 2031
     name: Astero Spectral Shift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Astero Spectral Shift Serenity Only SKIN (Permanent):
+    id: 49476
+    name: Astero Spectral Shift Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Atron Exoplanets Hunter SKIN (Permanent):
@@ -1301,6 +1377,12 @@ items:
     name: Augoror Navy Issue Purity of the Throne SKIN (Permanent)
     published: true
     volume: 0.01
+  Augoror Navy Issue Serene Rou SKIN (Permanent):
+    id: 49155
+    marketGroup: 2063
+    name: Augoror Navy Issue Serene Rou SKIN (Permanent)
+    published: true
+    volume: 0.01
   Augoror Navy Issue Serenity YC119 SKIN (Permanent):
     id: 47095
     name: Augoror Navy Issue Serenity YC119 SKIN (Permanent)
@@ -1334,6 +1416,12 @@ items:
     id: 42794
     marketGroup: 1978
     name: Avatar Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Avatar Deathglow Hunters SKIN (Permanent):
+    id: 49432
+    marketGroup: 1978
+    name: Avatar Deathglow Hunters SKIN (Permanent)
     published: true
     volume: 0.01
   Avatar EoM SKIN (Permanent):
@@ -1795,6 +1883,11 @@ items:
     name: Bowhead Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Bowhead Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49203
+    name: Bowhead Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Bowhead Angel Industrial Livery SKIN (Permanent):
     id: 43811
     marketGroup: 2318
@@ -1813,10 +1906,20 @@ items:
     name: Bowhead Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Bowhead Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49268
+    name: Bowhead Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Bowhead Gallente Industrial Livery SKIN (Permanent):
     id: 43785
     marketGroup: 2318
     name: Bowhead Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Bowhead Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49333
+    name: Bowhead Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Bowhead Glacial Drift SKIN (Permanent):
@@ -1835,6 +1938,11 @@ items:
     id: 43798
     marketGroup: 2318
     name: Bowhead Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Bowhead Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49398
+    name: Bowhead Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Bowhead Morphite Shine SKIN (Permanent):
@@ -1960,6 +2068,12 @@ items:
     id: 36773
     marketGroup: 2076
     name: Broadsword Valklear Glory SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Brutix Cordite Blossom SKIN (Permanent):
+    id: 48836
+    marketGroup: 1958
+    name: Brutix Cordite Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Brutix Exoplanets Hunter SKIN (Permanent):
@@ -2394,6 +2508,11 @@ items:
     id: 36650
     marketGroup: 1991
     name: Caracal Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Caracal Serenity Water SKIN (Permanent):
+    id: 49446
+    name: Caracal Serenity Water SKIN (Permanent)
     published: true
     volume: 0.01
   Caracal Spirit SKIN (Permanent):
@@ -2958,6 +3077,12 @@ items:
     name: Coercer Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Coercer Imperial Jubilee SKIN (Permanent):
+    id: 48845
+    marketGroup: 1994
+    name: Coercer Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Coercer Ironblood SKIN (Permanent):
     id: 43496
     marketGroup: 1994
@@ -3212,6 +3337,11 @@ items:
     name: Covetor Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Covetor Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49183
+    name: Covetor Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Covetor Angel Industrial Livery SKIN (Permanent):
     id: 43807
     marketGroup: 2319
@@ -3230,6 +3360,11 @@ items:
     name: Covetor Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Covetor Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49248
+    name: Covetor Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Covetor Digmaster Blazon SKIN (Permanent):
     id: 42646
     marketGroup: 2319
@@ -3240,6 +3375,11 @@ items:
     id: 43781
     marketGroup: 2319
     name: Covetor Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Covetor Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49313
+    name: Covetor Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Covetor Glacial Drift SKIN (Permanent):
@@ -3264,6 +3404,11 @@ items:
     id: 43794
     marketGroup: 2319
     name: Covetor Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Covetor Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49378
+    name: Covetor Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Covetor Morphite Shine SKIN (Permanent):
@@ -3563,6 +3708,12 @@ items:
     name: Curse Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Curse Imperial Jubilee SKIN (Permanent):
+    id: 48848
+    marketGroup: 2081
+    name: Curse Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Curse Ironblood SKIN (Permanent):
     id: 43508
     marketGroup: 2081
@@ -3638,6 +3789,12 @@ items:
     name: Cyclone Valklear Glory SKIN (Permanent)
     published: true
     volume: 0.01
+  Cynabal Angel's Hex SKIN (Permanent):
+    id: 49147
+    marketGroup: 2030
+    name: Cynabal Angel's Hex SKIN (Permanent)
+    published: true
+    volume: 0.01
   Cynabal Eros Blossom SKIN (Permanent):
     id: 47294
     marketGroup: 2030
@@ -3648,6 +3805,17 @@ items:
     id: 46998
     marketGroup: 2030
     name: Cynabal Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Cynabal Serene Tu SKIN (Permanent):
+    id: 49154
+    marketGroup: 2030
+    name: Cynabal Serene Tu SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Cynabal Serenity Twirl SKIN (Permanent):
+    id: 49471
+    name: Cynabal Serenity Twirl SKIN (Permanent)
     published: true
     volume: 0.01
   Cynabal Serenity YC119 SKIN (Permanent):
@@ -3671,6 +3839,11 @@ items:
     id: 48653
     marketGroup: 2486
     name: Damavik Hadean Horror SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Damavik Hadean Horror Serenity Only SKIN (Permanent):
+    id: 49511
+    name: Damavik Hadean Horror Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Damavik Singularity Storm SKIN (Permanent):
@@ -3709,6 +3882,12 @@ items:
     name: Damnation Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Damnation Imperial Jubilee SKIN (Permanent):
+    id: 48853
+    marketGroup: 2104
+    name: Damnation Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Damnation Ironblood SKIN (Permanent):
     id: 43514
     marketGroup: 2104
@@ -3731,6 +3910,12 @@ items:
     id: 48244
     marketGroup: 2104
     name: Damnation Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Daredevil Angel's Hex SKIN (Permanent):
+    id: 49148
+    marketGroup: 2031
+    name: Daredevil Angel's Hex SKIN (Permanent)
     published: true
     volume: 0.01
   Daredevil Glacial Drift SKIN (Permanent):
@@ -3875,6 +4060,12 @@ items:
     id: 37506
     marketGroup: 2073
     name: Devoter Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Dominix Cryptic Mimesis SKIN (Permanent):
+    id: 48895
+    marketGroup: 1966
+    name: Dominix Cryptic Mimesis SKIN (Permanent)
     published: true
     volume: 0.01
   Dominix Exoplanets Hunter SKIN (Permanent):
@@ -4239,6 +4430,12 @@ items:
     name: Drake Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Dramiel Angel's Hex SKIN (Permanent):
+    id: 49146
+    marketGroup: 2031
+    name: Dramiel Angel's Hex SKIN (Permanent)
+    published: true
+    volume: 0.01
   Dramiel Eros Blossom SKIN (Permanent):
     id: 47293
     marketGroup: 2031
@@ -4267,6 +4464,12 @@ items:
     id: 36726
     marketGroup: 2070
     name: Eagle Blue Tiger SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Eagle Cordite Blossom SKIN (Permanent):
+    id: 48833
+    marketGroup: 2070
+    name: Eagle Cordite Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Eagle Exoplanets Hunter SKIN (Permanent):
@@ -4322,6 +4525,11 @@ items:
     name: Endurance Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Endurance Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49163
+    name: Endurance Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Endurance Angel Industrial Livery SKIN (Permanent):
     id: 43803
     marketGroup: 2320
@@ -4340,10 +4548,20 @@ items:
     name: Endurance Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Endurance Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49228
+    name: Endurance Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Endurance Gallente Industrial Livery SKIN (Permanent):
     id: 43777
     marketGroup: 2320
     name: Endurance Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Endurance Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49293
+    name: Endurance Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Endurance Glacial Drift SKIN (Permanent):
@@ -4362,6 +4580,11 @@ items:
     id: 43790
     marketGroup: 2320
     name: Endurance Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Endurance Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49358
+    name: Endurance Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Endurance Morphite Shine SKIN (Permanent):
@@ -4600,6 +4823,12 @@ items:
     id: 47540
     marketGroup: 1979
     name: Erebus Glittering Dream SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Erebus Headhunter SKIN (Permanent):
+    id: 49428
+    marketGroup: 1979
+    name: Erebus Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
   Erebus Intaki Syndicate SKIN (Permanent):
@@ -5015,6 +5244,12 @@ items:
     name: Ferox Blue Tiger SKIN (Permanent)
     published: true
     volume: 0.01
+  Ferox Cordite Blossom SKIN (Permanent):
+    id: 48834
+    marketGroup: 1957
+    name: Ferox Cordite Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ferox Exoplanets Hunter SKIN (Permanent):
     id: 45847
     marketGroup: 1957
@@ -5174,10 +5409,34 @@ items:
     name: Garmur Waschi Uprising 'Parade' SKIN (Permanent)
     published: true
     volume: 0.01
+  Gila Abyssal Afterglow SKIN (Permanent):
+    id: 49750
+    marketGroup: 2030
+    name: Gila Abyssal Afterglow SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Gila Abyssal Firestorm SKIN (Permanent):
+    id: 49751
+    marketGroup: 2030
+    name: Gila Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Gila Abyssal Thunderstorm SKIN (Permanent):
+    id: 49752
+    marketGroup: 2030
+    name: Gila Abyssal Thunderstorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Gila Ace of Podhunters SKIN (Permanent):
     id: 47510
     marketGroup: 2030
     name: Gila Ace of Podhunters SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Gila Deathglow Hunters SKIN (Permanent):
+    id: 49433
+    marketGroup: 2030
+    name: Gila Deathglow Hunters SKIN (Permanent)
     published: true
     volume: 0.01
   Gila Glacial Drift SKIN (Permanent):
@@ -5198,9 +5457,20 @@ items:
     name: Gila IGC SKIN (Permanent)
     published: true
     volume: 0.01
+  Gila Serenity Circle SKIN (Permanent):
+    id: 49466
+    name: Gila Serenity Circle SKIN (Permanent)
+    published: true
+    volume: 0.01
   Gila Serenity YC117 SKIN (Permanent):
     id: 34788
     name: Gila Serenity YC117 SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Gila Storm Bear SKIN (Permanent):
+    id: 48817
+    marketGroup: 2030
+    name: Gila Storm Bear SKIN (Permanent)
     published: true
     volume: 0.01
   Gnosis Capsuleer Elite XV SKIN (Permanent):
@@ -5280,6 +5550,11 @@ items:
     name: Golem Ghostbird SKIN (Permanent)
     published: true
     volume: 0.01
+  Golem Ghostbird Serenity Only SKIN (Permanent):
+    id: 49506
+    name: Golem Ghostbird Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Golem Glacial Drift SKIN (Permanent):
     id: 46860
     marketGroup: 2025
@@ -5289,6 +5564,12 @@ items:
   Golem Guristas SKIN (Permanent):
     id: 34813
     name: Golem Guristas SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Golem Headhunter SKIN (Permanent):
+    id: 49423
+    marketGroup: 2025
+    name: Golem Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
   Golem Kaalakiota SKIN (Permanent):
@@ -5601,6 +5882,12 @@ items:
     id: 48548
     marketGroup: 2103
     name: Harbinger Navy Issue IGC SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Harbinger Navy Issue Imperial Jubilee SKIN (Permanent):
+    id: 48851
+    marketGroup: 2103
+    name: Harbinger Navy Issue Imperial Jubilee SKIN (Permanent)
     published: true
     volume: 0.01
   Harbinger Navy Issue Purity of the Throne SKIN (Permanent):
@@ -5932,6 +6219,12 @@ items:
     name: Heretic Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Heretic Imperial Jubilee SKIN (Permanent):
+    id: 48846
+    marketGroup: 2038
+    name: Heretic Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Heretic Ironblood SKIN (Permanent):
     id: 43499
     marketGroup: 2038
@@ -6133,6 +6426,11 @@ items:
     name: Hulk Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Hulk Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49198
+    name: Hulk Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hulk Angel Industrial Livery SKIN (Permanent):
     id: 43810
     marketGroup: 2012
@@ -6151,6 +6449,11 @@ items:
     name: Hulk Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Hulk Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49263
+    name: Hulk Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hulk Claim Foreman SKIN (Permanent):
     id: 44070
     marketGroup: 2012
@@ -6167,6 +6470,11 @@ items:
     id: 43784
     marketGroup: 2012
     name: Hulk Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hulk Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49328
+    name: Hulk Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Hulk Glacial Drift SKIN (Permanent):
@@ -6191,6 +6499,11 @@ items:
     id: 43797
     marketGroup: 2012
     name: Hulk Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hulk Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49393
+    name: Hulk Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Hulk Morphite Shine SKIN (Permanent):
@@ -6244,6 +6557,12 @@ items:
     id: 36825
     marketGroup: 1959
     name: Hurricane Blue Tiger SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hurricane Cordite Blossom SKIN (Permanent):
+    id: 48839
+    marketGroup: 1959
+    name: Hurricane Cordite Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Hurricane Exoplanets Hunter SKIN (Permanent):
@@ -6452,6 +6771,12 @@ items:
     name: Hyperion Quafe SKIN (Permanent)
     published: true
     volume: 0.01
+  Hyperion Serene Mang SKIN (Permanent):
+    id: 49152
+    marketGroup: 1966
+    name: Hyperion Serene Mang SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hyperion Serpentis SKIN (Permanent):
     id: 42183
     marketGroup: 1966
@@ -6586,6 +6911,12 @@ items:
     id: 46816
     marketGroup: 2088
     name: Impel Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Impel Imperial Jubilee SKIN (Permanent):
+    id: 48860
+    marketGroup: 2088
+    name: Impel Imperial Jubilee SKIN (Permanent)
     published: true
     volume: 0.01
   Impel Ironblood SKIN (Permanent):
@@ -7291,6 +7622,12 @@ items:
     name: Kronos Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Kronos Headhunter SKIN (Permanent):
+    id: 49426
+    marketGroup: 2026
+    name: Kronos Headhunter SKIN (Permanent)
+    published: true
+    volume: 0.01
   Kronos Inner Zone Shipping SKIN (Permanent):
     id: 34816
     name: Kronos Inner Zone Shipping SKIN (Permanent)
@@ -7461,6 +7798,11 @@ items:
     name: Leshak Hadean Horror SKIN (Permanent)
     published: true
     volume: 0.01
+  Leshak Hadean Horror Serenity Only SKIN (Permanent):
+    id: 49521
+    name: Leshak Hadean Horror Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Leshak Singularity Storm SKIN (Permanent):
     id: 48651
     marketGroup: 2482
@@ -7501,6 +7843,12 @@ items:
     id: 46866
     marketGroup: 2092
     name: Leviathan Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Leviathan Headhunter SKIN (Permanent):
+    id: 49425
+    marketGroup: 2092
+    name: Leviathan Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
   Leviathan Matigu Seabeast SKIN (Permanent):
@@ -7605,6 +7953,17 @@ items:
     name: Machariel Angel's Hex SKIN (Permanent)
     published: true
     volume: 0.01
+  Machariel Angel's Hex Serenity Only SKIN (Permanent):
+    id: 49526
+    name: Machariel Angel's Hex Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Machariel Deathglow Hunters SKIN (Permanent):
+    id: 49434
+    marketGroup: 1963
+    name: Machariel Deathglow Hunters SKIN (Permanent)
+    published: true
+    volume: 0.01
   Machariel Eros Blossom SKIN (Permanent):
     id: 47295
     marketGroup: 1963
@@ -7634,6 +7993,11 @@ items:
     name: Mackinaw Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Mackinaw Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49193
+    name: Mackinaw Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Mackinaw Angel Industrial Livery SKIN (Permanent):
     id: 43809
     marketGroup: 2012
@@ -7652,6 +8016,11 @@ items:
     name: Mackinaw Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Mackinaw Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49258
+    name: Mackinaw Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Mackinaw Claim Foreman SKIN (Permanent):
     id: 44072
     marketGroup: 2012
@@ -7668,6 +8037,11 @@ items:
     id: 43783
     marketGroup: 2012
     name: Mackinaw Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Mackinaw Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49323
+    name: Mackinaw Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Mackinaw Glacial Drift SKIN (Permanent):
@@ -7692,6 +8066,11 @@ items:
     id: 43796
     marketGroup: 2012
     name: Mackinaw Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Mackinaw Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49388
+    name: Mackinaw Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Mackinaw Morphite Shine SKIN (Permanent):
@@ -7867,6 +8246,12 @@ items:
     name: Magnate Sarum Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Magnate Serene Hao SKIN (Permanent):
+    id: 49151
+    marketGroup: 2002
+    name: Magnate Serene Hao SKIN (Permanent)
+    published: true
+    volume: 0.01
   Magnate Tash-Murkon SKIN (Permanent):
     id: 34727
     marketGroup: 2002
@@ -7948,6 +8333,12 @@ items:
     id: 46780
     marketGroup: 2059
     name: Malediction Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Malediction Imperial Jubilee SKIN (Permanent):
+    id: 48843
+    marketGroup: 2059
+    name: Malediction Imperial Jubilee SKIN (Permanent)
     published: true
     volume: 0.01
   Malediction Ironblood SKIN (Permanent):
@@ -8968,6 +9359,12 @@ items:
     name: Naga Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Naga Serene Song SKIN (Permanent):
+    id: 49153
+    marketGroup: 1957
+    name: Naga Serene Song SKIN (Permanent)
+    published: true
+    volume: 0.01
   Naga Serenity YC119 SKIN (Permanent):
     id: 47085
     name: Naga Serenity YC119 SKIN (Permanent)
@@ -9250,6 +9647,11 @@ items:
     name: Nestor Spectral Shift SKIN (Permanent)
     published: true
     volume: 0.01
+  Nestor Spectral Shift Serenity Only SKIN (Permanent):
+    id: 49486
+    name: Nestor Spectral Shift Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nidhoggur Bloody Hands SKIN (Permanent):
     id: 47177
     marketGroup: 1977
@@ -9296,6 +9698,12 @@ items:
     id: 45555
     marketGroup: 1977
     name: Nidhoggur Hazard Control SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Nidhoggur Headhunter SKIN (Permanent):
+    id: 49430
+    marketGroup: 1977
+    name: Nidhoggur Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
   Nidhoggur Justice SKIN (Permanent):
@@ -9795,6 +10203,12 @@ items:
     name: Omen Navy Issue Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Omen Navy Issue Imperial Jubilee SKIN (Permanent):
+    id: 48847
+    marketGroup: 2063
+    name: Omen Navy Issue Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Omen Navy Issue Purity of the Throne SKIN (Permanent):
     id: 42577
     marketGroup: 2063
@@ -9822,6 +10236,11 @@ items:
   Omen Sarum Serenity Only SKIN (Permanent):
     id: 37949
     name: Omen Sarum Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Omen Serenity Electric SKIN (Permanent):
+    id: 49451
+    name: Omen Serenity Electric SKIN (Permanent)
     published: true
     volume: 0.01
   Omen Tash-Murkon SKIN (Permanent):
@@ -10030,6 +10449,11 @@ items:
     name: Orca Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Orca Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49208
+    name: Orca Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Orca Angel Industrial Livery SKIN (Permanent):
     id: 43812
     marketGroup: 2338
@@ -10048,6 +10472,11 @@ items:
     name: Orca Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Orca Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49273
+    name: Orca Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Orca Claim Foreman SKIN (Permanent):
     id: 44068
     marketGroup: 2338
@@ -10064,6 +10493,11 @@ items:
     id: 43786
     marketGroup: 2338
     name: Orca Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Orca Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49338
+    name: Orca Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Orca Glacial Drift SKIN (Permanent):
@@ -10088,6 +10522,11 @@ items:
     id: 43799
     marketGroup: 2338
     name: Orca Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Orca Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49403
+    name: Orca Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Orca Morphite Shine SKIN (Permanent):
@@ -10321,6 +10760,11 @@ items:
     name: Paladin Imperial Jubilee SKIN (Permanent)
     published: true
     volume: 0.01
+  Paladin Imperial Jubilee Serenity Only SKIN (Permanent):
+    id: 49496
+    name: Paladin Imperial Jubilee Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Paladin Ironblood SKIN (Permanent):
     id: 43519
     marketGroup: 2024
@@ -10395,6 +10839,12 @@ items:
     id: 46913
     marketGroup: 2113
     name: Panther Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Panther Headhunter SKIN (Permanent):
+    id: 49429
+    marketGroup: 2113
+    name: Panther Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
   Panther Justice SKIN (Permanent):
@@ -10575,6 +11025,12 @@ items:
     name: Pilgrim Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Pilgrim Imperial Jubilee SKIN (Permanent):
+    id: 48849
+    marketGroup: 2081
+    name: Pilgrim Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Pilgrim Ironblood SKIN (Permanent):
     id: 43509
     marketGroup: 2081
@@ -10635,6 +11091,11 @@ items:
     name: Porpoise Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Porpoise Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49218
+    name: Porpoise Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Porpoise Angel Industrial Livery SKIN (Permanent):
     id: 43814
     marketGroup: 2338
@@ -10653,10 +11114,20 @@ items:
     name: Porpoise Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Porpoise Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49283
+    name: Porpoise Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Porpoise Gallente Industrial Livery SKIN (Permanent):
     id: 43788
     marketGroup: 2338
     name: Porpoise Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Porpoise Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49348
+    name: Porpoise Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Porpoise Glacial Drift SKIN (Permanent):
@@ -10675,6 +11146,11 @@ items:
     id: 43801
     marketGroup: 2338
     name: Porpoise Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Porpoise Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49413
+    name: Porpoise Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Porpoise Sansha Industrial Livery SKIN (Permanent):
@@ -10765,6 +11241,11 @@ items:
     name: Procurer Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Procurer Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49173
+    name: Procurer Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Procurer Angel Industrial Livery SKIN (Permanent):
     id: 43805
     marketGroup: 2319
@@ -10783,6 +11264,11 @@ items:
     name: Procurer Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Procurer Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49238
+    name: Procurer Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Procurer Digmaster Blazon SKIN (Permanent):
     id: 42644
     marketGroup: 2319
@@ -10793,6 +11279,11 @@ items:
     id: 43779
     marketGroup: 2319
     name: Procurer Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Procurer Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49303
+    name: Procurer Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Procurer Glacial Drift SKIN (Permanent):
@@ -10817,6 +11308,11 @@ items:
     id: 43792
     marketGroup: 2319
     name: Procurer Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Procurer Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49368
+    name: Procurer Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Procurer Morphite Shine SKIN (Permanent):
@@ -10947,6 +11443,12 @@ items:
     name: Prorator Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Prorator Imperial Jubilee SKIN (Permanent):
+    id: 48859
+    marketGroup: 2088
+    name: Prorator Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Prorator Ironblood SKIN (Permanent):
     id: 43526
     marketGroup: 2088
@@ -10977,6 +11479,11 @@ items:
     name: Prospect Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Prospect Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49168
+    name: Prospect Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Prospect Angel Industrial Livery SKIN (Permanent):
     id: 43804
     marketGroup: 2320
@@ -10995,10 +11502,20 @@ items:
     name: Prospect Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Prospect Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49233
+    name: Prospect Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Prospect Gallente Industrial Livery SKIN (Permanent):
     id: 43778
     marketGroup: 2320
     name: Prospect Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Prospect Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49298
+    name: Prospect Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Prospect Glacial Drift SKIN (Permanent):
@@ -11017,6 +11534,11 @@ items:
     id: 43791
     marketGroup: 2320
     name: Prospect Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Prospect Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49363
+    name: Prospect Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Prospect Morphite Shine SKIN (Permanent):
@@ -11102,6 +11624,11 @@ items:
     name: Providence Imperial Jubilee SKIN (Permanent)
     published: true
     volume: 0.01
+  Providence Imperial Jubilee Serenity Only SKIN (Permanent):
+    id: 49491
+    name: Providence Imperial Jubilee Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Providence Ironblood SKIN (Permanent):
     id: 43528
     marketGroup: 1984
@@ -11177,6 +11704,12 @@ items:
     id: 42750
     marketGroup: 2002
     name: Punisher Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Punisher Cordite Blossom SKIN (Permanent):
+    id: 48830
+    marketGroup: 2002
+    name: Punisher Cordite Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Punisher EoM SKIN (Permanent):
@@ -11318,6 +11851,12 @@ items:
     id: 46920
     marketGroup: 2093
     name: Ragnarok Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Ragnarok Headhunter SKIN (Permanent):
+    id: 49431
+    marketGroup: 2093
+    name: Ragnarok Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
   Ragnarok Justice SKIN (Permanent):
@@ -11491,6 +12030,12 @@ items:
     id: 48732
     marketGroup: 1965
     name: Raven Caldari Union Day SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Raven Cryptic Mimesis SKIN (Permanent):
+    id: 48894
+    marketGroup: 1965
+    name: Raven Cryptic Mimesis SKIN (Permanent)
     published: true
     volume: 0.01
   Raven Exoplanets Hunter SKIN (Permanent):
@@ -11668,6 +12213,18 @@ items:
     name: Redeemer Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Redeemer Headhunter SKIN (Permanent):
+    id: 49420
+    marketGroup: 2110
+    name: Redeemer Headhunter SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Redeemer Imperial Jubilee SKIN (Permanent):
+    id: 48857
+    marketGroup: 2110
+    name: Redeemer Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Redeemer Ironblood SKIN (Permanent):
     id: 43518
     marketGroup: 2110
@@ -11758,6 +12315,11 @@ items:
     name: Retriever Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Retriever Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49178
+    name: Retriever Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Retriever Angel Industrial Livery SKIN (Permanent):
     id: 43806
     marketGroup: 2319
@@ -11776,6 +12338,11 @@ items:
     name: Retriever Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Retriever Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49243
+    name: Retriever Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Retriever Digmaster Blazon SKIN (Permanent):
     id: 42645
     marketGroup: 2319
@@ -11786,6 +12353,11 @@ items:
     id: 43780
     marketGroup: 2319
     name: Retriever Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Retriever Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49308
+    name: Retriever Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Retriever Glacial Drift SKIN (Permanent):
@@ -11810,6 +12382,11 @@ items:
     id: 43793
     marketGroup: 2319
     name: Retriever Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Retriever Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49373
+    name: Retriever Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Retriever Morphite Shine SKIN (Permanent):
@@ -11970,6 +12547,12 @@ items:
     id: 36362
     marketGroup: 2096
     name: Rhea Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rifter Absent Heroes SKIN (Permanent):
+    id: 49156
+    marketGroup: 2005
+    name: Rifter Absent Heroes SKIN (Permanent)
     published: true
     volume: 0.01
   Rifter Blue Tiger SKIN (Permanent):
@@ -12172,6 +12755,11 @@ items:
     name: Rorqual Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Rorqual Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49213
+    name: Rorqual Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rorqual Angel Industrial Livery SKIN (Permanent):
     id: 43813
     marketGroup: 1969
@@ -12188,6 +12776,11 @@ items:
     id: 43773
     marketGroup: 1969
     name: Rorqual Caldari Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rorqual Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49278
+    name: Rorqual Caldari Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Rorqual Claim Foreman SKIN (Permanent):
@@ -12214,6 +12807,11 @@ items:
     name: Rorqual Gallente Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Rorqual Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49343
+    name: Rorqual Gallente Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rorqual Glacial Drift SKIN (Permanent):
     id: 46992
     marketGroup: 1969
@@ -12236,6 +12834,11 @@ items:
     id: 43800
     marketGroup: 1969
     name: Rorqual Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rorqual Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49408
+    name: Rorqual Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Rorqual Morphite Shine SKIN (Permanent):
@@ -12277,6 +12880,11 @@ items:
     id: 48735
     marketGroup: 1969
     name: Rorqual Sovereign Claim SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rorqual Sovereign Claim Serenity Only SKIN (Permanent):
+    id: 49141
+    name: Rorqual Sovereign Claim Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Rupture Bloody Hands SKIN (Permanent):
@@ -12326,6 +12934,11 @@ items:
     name: Rupture Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Rupture Serenity Cloud SKIN (Permanent):
+    id: 49441
+    name: Rupture Serenity Cloud SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rupture Tronhadar Ink SKIN (Permanent):
     id: 40485
     marketGroup: 1993
@@ -12342,6 +12955,12 @@ items:
     id: 36813
     marketGroup: 2041
     name: Sabre Blue Tiger SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sabre Cordite Blossom SKIN (Permanent):
+    id: 48838
+    marketGroup: 2041
+    name: Sabre Cordite Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Sabre Exoplanets Hunter SKIN (Permanent):
@@ -12861,6 +13480,11 @@ items:
     name: Skiff Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Skiff Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49188
+    name: Skiff Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Skiff Angel Industrial Livery SKIN (Permanent):
     id: 43808
     marketGroup: 2012
@@ -12879,6 +13503,11 @@ items:
     name: Skiff Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Skiff Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49253
+    name: Skiff Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Skiff Claim Foreman SKIN (Permanent):
     id: 44069
     marketGroup: 2012
@@ -12895,6 +13524,11 @@ items:
     id: 43782
     marketGroup: 2012
     name: Skiff Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Skiff Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49318
+    name: Skiff Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Skiff Glacial Drift SKIN (Permanent):
@@ -12919,6 +13553,11 @@ items:
     id: 43795
     marketGroup: 2012
     name: Skiff Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Skiff Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49383
+    name: Skiff Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Skiff Morphite Shine SKIN (Permanent):
@@ -12960,6 +13599,12 @@ items:
     id: 36802
     marketGroup: 2005
     name: Slasher Blue Tiger SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Slasher Cordite Blossom SKIN (Permanent):
+    id: 48837
+    marketGroup: 2005
+    name: Slasher Cordite Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Slasher Dawn of Liberation SKIN (Permanent):
@@ -13048,6 +13693,12 @@ items:
     id: 36446
     marketGroup: 2107
     name: Sleipnir Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sleipnir Storm Bear SKIN (Permanent):
+    id: 48819
+    marketGroup: 2107
+    name: Sleipnir Storm Bear SKIN (Permanent)
     published: true
     volume: 0.01
   Sleipnir Tronhadar Ink SKIN (Permanent):
@@ -13302,6 +13953,11 @@ items:
     id: 46521
     marketGroup: 2030
     name: Stratios Spectral Shift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Stratios Spectral Shift Serenity Only SKIN (Permanent):
+    id: 49481
+    name: Stratios Spectral Shift Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Succubus Glacial Drift SKIN (Permanent):
@@ -13738,6 +14394,11 @@ items:
     name: Tengu Ghostbird SKIN (Permanent)
     published: true
     volume: 0.01
+  Tengu Ghostbird Serenity Only SKIN (Permanent):
+    id: 49501
+    name: Tengu Ghostbird Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Tengu Glacial Drift SKIN (Permanent):
     id: 46847
     marketGroup: 2370
@@ -13754,6 +14415,12 @@ items:
     id: 46120
     marketGroup: 2370
     name: Tengu Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Tengu Storm Bear SKIN (Permanent):
+    id: 48816
+    marketGroup: 2370
+    name: Tengu Storm Bear SKIN (Permanent)
     published: true
     volume: 0.01
   Tengu Sukuuvestaa SKIN (Permanent):
@@ -13832,6 +14499,12 @@ items:
     id: 47538
     marketGroup: 1976
     name: Thanatos Glittering Dream SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Thanatos Headhunter SKIN (Permanent):
+    id: 49427
+    marketGroup: 1976
+    name: Thanatos Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
   Thanatos Hunter's Quiver SKIN (Permanent):
@@ -14269,6 +14942,12 @@ items:
     name: Tristan Valimor Legacy SKIN (Permanent)
     published: true
     volume: 0.01
+  Typhoon Absent Heroes SKIN (Permanent):
+    id: 49157
+    marketGroup: 1967
+    name: Typhoon Absent Heroes SKIN (Permanent)
+    published: true
+    volume: 0.01
   Typhoon Bloody Hands SKIN (Permanent):
     id: 47171
     marketGroup: 1967
@@ -14279,6 +14958,12 @@ items:
     id: 36831
     marketGroup: 1967
     name: Typhoon Blue Tiger SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Typhoon Cryptic Mimesis SKIN (Permanent):
+    id: 48896
+    marketGroup: 1967
+    name: Typhoon Cryptic Mimesis SKIN (Permanent)
     published: true
     volume: 0.01
   Typhoon Dawn of Liberation SKIN (Permanent):
@@ -14538,6 +15223,11 @@ items:
     name: Vedmak Hadean Horror SKIN (Permanent)
     published: true
     volume: 0.01
+  Vedmak Hadean Horror Serenity Only SKIN (Permanent):
+    id: 49516
+    name: Vedmak Hadean Horror Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Vedmak Singularity Storm SKIN (Permanent):
     id: 48650
     marketGroup: 2485
@@ -14640,6 +15330,11 @@ items:
     name: Venture Amarr Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Venture Amarr Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49158
+    name: Venture Amarr Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Venture Angel Industrial Livery SKIN (Permanent):
     id: 43802
     marketGroup: 2321
@@ -14658,10 +15353,20 @@ items:
     name: Venture Caldari Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Venture Caldari Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49223
+    name: Venture Caldari Industrial Livery Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
   Venture Gallente Industrial Livery SKIN (Permanent):
     id: 43776
     marketGroup: 2321
     name: Venture Gallente Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Venture Gallente Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49288
+    name: Venture Gallente Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Venture Glacial Drift SKIN (Permanent):
@@ -14686,6 +15391,11 @@ items:
     id: 43789
     marketGroup: 2321
     name: Venture Minmatar Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Venture Minmatar Industrial Livery Serenity Only SKIN (Permanent):
+    id: 49353
+    name: Venture Minmatar Industrial Livery Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
   Venture Morphite Shine SKIN (Permanent):
@@ -14853,6 +15563,11 @@ items:
     name: Vexor Sapphire Sungrazer SKIN (Permanent)
     published: true
     volume: 0.01
+  Vexor Serenity Flame SKIN (Permanent):
+    id: 49436
+    name: Vexor Serenity Flame SKIN (Permanent)
+    published: true
+    volume: 0.01
   Vexor Serpentis SKIN (Permanent):
     id: 42169
     marketGroup: 1992
@@ -15007,6 +15722,12 @@ items:
     name: Vigil Valklear Glory SKIN (Permanent)
     published: true
     volume: 0.01
+  Vigilant Angel's Hex SKIN (Permanent):
+    id: 49149
+    marketGroup: 2030
+    name: Vigilant Angel's Hex SKIN (Permanent)
+    published: true
+    volume: 0.01
   Vigilant Glacial Drift SKIN (Permanent):
     id: 46976
     marketGroup: 2030
@@ -15017,6 +15738,17 @@ items:
     id: 46040
     marketGroup: 2030
     name: Vigilant IGC SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vigilant Serenity Splatter (Thorax) SKIN (Permanent):
+    id: 49456
+    name: Vigilant Serenity Splatter (Thorax) SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vindicator Angel's Hex SKIN (Permanent):
+    id: 49150
+    marketGroup: 1963
+    name: Vindicator Angel's Hex SKIN (Permanent)
     published: true
     volume: 0.01
   Vindicator Glacial Drift SKIN (Permanent):
@@ -15282,6 +16014,12 @@ items:
     name: Wyvern Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Wyvern Headhunter SKIN (Permanent):
+    id: 49424
+    marketGroup: 1975
+    name: Wyvern Headhunter SKIN (Permanent)
+    published: true
+    volume: 0.01
   Wyvern Matigu Seabeast SKIN (Permanent):
     id: 40619
     marketGroup: 1975
@@ -15323,6 +16061,12 @@ items:
     name: Zealot Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Zealot Cordite Blossom SKIN (Permanent):
+    id: 48831
+    marketGroup: 2069
+    name: Zealot Cordite Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Zealot EoM SKIN (Permanent):
     id: 36296
     marketGroup: 2069
@@ -15341,6 +16085,12 @@ items:
     name: Zealot Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Zealot Imperial Jubilee SKIN (Permanent):
+    id: 48850
+    marketGroup: 2069
+    name: Zealot Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
   Zealot Ironblood SKIN (Permanent):
     id: 43505
     marketGroup: 2069
@@ -15357,10 +16107,5 @@ items:
     id: 37505
     marketGroup: 2069
     name: Zealot Raata Sunset SKIN (Permanent)
-    published: true
-    volume: 0.01
-  unnamed_g1950_ic0:
-    id: 49526
-    name: unnamed_g1950_ic0
     published: true
     volume: 0.01

@@ -110,6 +110,20 @@ public class RemoteArmorRepairer
     @DefaultIntValue(0)
     public int Power;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RepairMultiplierBonusMax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RepairMultiplierBonusPerCycle;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -144,6 +158,20 @@ public class RemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole3;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole4;
     public final static RemoteArmorRepairer.MetaGroup METAGROUP = new RemoteArmorRepairer.MetaGroup();
 
     @Override
@@ -197,6 +225,14 @@ public class RemoteArmorRepairer
             {
                 return Power;
             }
+            case  2797 :
+            {
+                return RepairMultiplierBonusMax;
+            }
+            case  2796 :
+            {
+                return RepairMultiplierBonusPerCycle;
+            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -216,6 +252,14 @@ public class RemoteArmorRepairer
             case  1212 :
             {
                 return RequiredThermoDynamicsSkill;
+            }
+            case  2300 :
+            {
+                return ShipBonusRole3;
+            }
+            case  2301 :
+            {
+                return ShipBonusRole4;
             }
             default:
             {

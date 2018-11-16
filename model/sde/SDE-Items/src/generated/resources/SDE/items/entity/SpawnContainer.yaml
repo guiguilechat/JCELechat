@@ -589,6 +589,11 @@ items:
     name: Disabled Badger
     published: false
     volume: 27500.0
+  Disabled Swarm Overmind:
+    id: 48743
+    name: Disabled Swarm Overmind
+    published: false
+    volume: 1010000.0
   Disposal Unit:
     id: 23220
     name: Disposal Unit
@@ -614,6 +619,11 @@ items:
     name: Drone Sensor Storage
     published: false
     volume: 2750.0
+  Drop-off Container:
+    id: 48779
+    name: Drop-off Container
+    published: false
+    volume: 27500.0
   Electronic_Container:
     id: 16722
     name: Electronic_Container
@@ -1669,15 +1679,10 @@ items:
     published: false
     volume: 27500.0
   unnamed_g306_ic0:
-    id: 48743
+    id: 48085
     name: unnamed_g306_ic0
     published: false
-    volume: 1010000.0
-  unnamed_g306_ic16:
-    id: 48779
-    name: unnamed_g306_ic16
-    published: false
-    volume: 27500.0
+    volume: 1.0
   weapon_container:
     id: 16725
     name: weapon_container

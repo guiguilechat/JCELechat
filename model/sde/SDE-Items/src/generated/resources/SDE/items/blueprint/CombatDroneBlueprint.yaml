@@ -167,6 +167,14 @@ items:
     name: '''Integrated'' Wasp Blueprint'
     published: true
     volume: 0.01
+  '''Subverted'' JVN-UC49 Blueprint':
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1
+    id: 48745
+    marketGroup: 1532
+    name: '''Subverted'' JVN-UC49 Blueprint'
+    published: true
+    volume: 0.01
   Acolyte I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
@@ -412,13 +420,5 @@ items:
     TechLevel: 2
     id: 2437
     name: Wasp II Blueprint
-    published: true
-    volume: 0.01
-  unnamed_g176_ic0:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1
-    id: 48745
-    marketGroup: 1532
-    name: unnamed_g176_ic0
     published: true
     volume: 0.01

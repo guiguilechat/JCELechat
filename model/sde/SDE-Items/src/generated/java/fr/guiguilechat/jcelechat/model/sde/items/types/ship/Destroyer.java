@@ -172,6 +172,34 @@ public class Destroyer
     @DefaultIntValue(0)
     public int ShipBonusMD2;
     /**
+     * Precursor Destroyer Skill Attribute
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPD1;
+    /**
+     * Precursor Destroyer Skill Attribute
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPD2;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
+    /**
      * Fixed Role Bonus on a ship.
      */
     @HighIsGood(true)
@@ -185,6 +213,13 @@ public class Destroyer
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole8;
+    /**
+     * Chance of being able to resist a ship scan.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipScanResistance;
     /**
      * Tracking Speed Bonus
      */
@@ -292,6 +327,22 @@ public class Destroyer
             {
                 return ShipBonusMD2;
             }
+            case  2799 :
+            {
+                return ShipBonusPD1;
+            }
+            case  2800 :
+            {
+                return ShipBonusPD2;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
+            }
             case  793 :
             {
                 return ShipBonusRole7;
@@ -299,6 +350,10 @@ public class Destroyer
             case  1688 :
             {
                 return ShipBonusRole8;
+            }
+            case  511 :
+            {
+                return ShipScanResistance;
             }
             case  767 :
             {

@@ -9,42 +9,42 @@ import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class NPCMiningFrigate
+public class Battlecruiser
     extends Entity
 {
-    public final static NPCMiningFrigate.MetaGroup METAGROUP = new NPCMiningFrigate.MetaGroup();
+    public final static Battlecruiser.MetaGroup METAGROUP = new Battlecruiser.MetaGroup();
 
     @Override
-    public IMetaGroup<NPCMiningFrigate> getGroup() {
+    public IMetaGroup<Battlecruiser> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<NPCMiningFrigate>
+        implements IMetaGroup<Battlecruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/NPCMiningFrigate.yaml";
-        private Map<String, NPCMiningFrigate> cache = (null);
+        public final static String RESOURCE_PATH = "SDE/items/entity/Battlecruiser.yaml";
+        private Map<String, Battlecruiser> cache = (null);
 
         @Override
-        public IMetaCategory<? super NPCMiningFrigate> category() {
+        public IMetaCategory<? super Battlecruiser> category() {
             return Entity.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  1764;
+            return  1909;
         }
 
         @Override
         public String getName() {
-            return "NPCMiningFrigate";
+            return "Battlecruiser";
         }
 
         @Override
-        public synchronized Map<String, NPCMiningFrigate> load() {
+        public synchronized Map<String, Battlecruiser> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(NPCMiningFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(Battlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class NPCMiningFrigate
         }
 
         private static class Container {
-            public LinkedHashMap<String, NPCMiningFrigate> items;
+            public LinkedHashMap<String, Battlecruiser> items;
         }
     }
 }

@@ -24560,3 +24560,199 @@ offers:
       - item: Tritanium
         quantity: 400000
       lp: 10000
+  16340:
+    id: 16340
+    name: Armageddon Navy Issue(BPC)
+    product:
+      item: Armageddon Navy Issue
+      quantity: 1
+    requirements:
+      items:
+      - item: Draclira Merlonne's Tag
+        quantity: 1
+      - item: Tritanium
+        quantity: 12090111
+      - item: Pyerite
+        quantity: 3024444
+      - item: Mexallon
+        quantity: 762222
+      - item: Isogen
+        quantity: 189478
+      - item: Nocxium
+        quantity: 47256
+      - item: Zydrine
+        quantity: 22178
+      - item: Megacyte
+        quantity: 10312
+      lp: 250000
+  16341:
+    id: 16341
+    name: Armageddon Navy Issue(BPC)
+    product:
+      item: Armageddon Navy Issue
+      quantity: 1
+    requirements:
+      isk: 20000000
+      items:
+      - item: Tritanium
+        quantity: 12090111
+      - item: Pyerite
+        quantity: 3024444
+      - item: Mexallon
+        quantity: 762222
+      - item: Isogen
+        quantity: 189478
+      - item: Nocxium
+        quantity: 47256
+      - item: Zydrine
+        quantity: 22178
+      - item: Megacyte
+        quantity: 10312
+      lp: 250000
+  16342:
+    id: 16342
+    name: Typhoon Fleet Issue(BPC)
+    product:
+      item: Typhoon Fleet Issue
+      quantity: 1
+    requirements:
+      items:
+      - item: Hakim Stormare's Tag
+        quantity: 1
+      - item: Tritanium
+        quantity: 10279111
+      - item: Pyerite
+        quantity: 2792889
+      - item: Mexallon
+        quantity: 624889
+      - item: Isogen
+        quantity: 164589
+      - item: Nocxium
+        quantity: 34656
+      - item: Zydrine
+        quantity: 18244
+      - item: Megacyte
+        quantity: 4800
+      lp: 250000
+  16343:
+    id: 16343
+    name: Typhoon Fleet Issue(BPC)
+    product:
+      item: Typhoon Fleet Issue
+      quantity: 1
+    requirements:
+      isk: 20000000
+      items:
+      - item: Tritanium
+        quantity: 10279111
+      - item: Pyerite
+        quantity: 2792889
+      - item: Mexallon
+        quantity: 624889
+      - item: Isogen
+        quantity: 164589
+      - item: Nocxium
+        quantity: 34656
+      - item: Zydrine
+        quantity: 18244
+      - item: Megacyte
+        quantity: 4800
+      lp: 250000
+  16344:
+    id: 16344
+    name: Dominix Navy Issue(BPC)
+    product:
+      item: Dominix Navy Issue
+      quantity: 1
+    requirements:
+      items:
+      - item: Cormack Vaaja's Tag
+        quantity: 1
+      - item: Tritanium
+        quantity: 11564444
+      - item: Pyerite
+        quantity: 2892889
+      - item: Mexallon
+        quantity: 728333
+      - item: Isogen
+        quantity: 181211
+      - item: Nocxium
+        quantity: 45133
+      - item: Zydrine
+        quantity: 20644
+      - item: Megacyte
+        quantity: 7556
+      lp: 250000
+  16345:
+    id: 16345
+    name: Dominix Navy Issue(BPC)
+    product:
+      item: Dominix Navy Issue
+      quantity: 1
+    requirements:
+      isk: 20000000
+      items:
+      - item: Tritanium
+        quantity: 11564444
+      - item: Pyerite
+        quantity: 2892889
+      - item: Mexallon
+        quantity: 728333
+      - item: Isogen
+        quantity: 181211
+      - item: Nocxium
+        quantity: 45133
+      - item: Zydrine
+        quantity: 20644
+      - item: Megacyte
+        quantity: 7556
+      lp: 250000
+  16346:
+    id: 16346
+    name: Scorpion Navy Issue(BPC)
+    product:
+      item: Scorpion Navy Issue
+      quantity: 1
+    requirements:
+      items:
+      - item: Estamel Tharchon's Tag
+        quantity: 1
+      - item: Tritanium
+        quantity: 10649667
+      - item: Pyerite
+        quantity: 2263111
+      - item: Mexallon
+        quantity: 607000
+      - item: Isogen
+        quantity: 166200
+      - item: Nocxium
+        quantity: 36011
+      - item: Zydrine
+        quantity: 16066
+      - item: Megacyte
+        quantity: 6688
+      lp: 250000
+  16347:
+    id: 16347
+    name: Scorpion Navy Issue(BPC)
+    product:
+      item: Scorpion Navy Issue
+      quantity: 1
+    requirements:
+      isk: 20000000
+      items:
+      - item: Tritanium
+        quantity: 10649667
+      - item: Pyerite
+        quantity: 2263111
+      - item: Mexallon
+        quantity: 607000
+      - item: Isogen
+        quantity: 166200
+      - item: Nocxium
+        quantity: 36011
+      - item: Zydrine
+        quantity: 16066
+      - item: Megacyte
+        quantity: 6688
+      lp: 250000

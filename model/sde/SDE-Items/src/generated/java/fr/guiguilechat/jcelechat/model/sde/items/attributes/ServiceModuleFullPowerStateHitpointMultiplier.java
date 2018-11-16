@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.items.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 
 
 /**
  * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
  */
 public class ServiceModuleFullPowerStateHitpointMultiplier
-    extends DoubleAttribute
+    extends IntAttribute
 {
     public final static ServiceModuleFullPowerStateHitpointMultiplier INSTANCE = new ServiceModuleFullPowerStateHitpointMultiplier();
 

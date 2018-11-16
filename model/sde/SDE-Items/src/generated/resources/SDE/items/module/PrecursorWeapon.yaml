@@ -2,6 +2,7 @@ items:
   Heavy Compact Entropic Disintegrator:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
+    CanFitShipType3: 49711
     CapacitorNeed: 22.100000381469727
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -37,6 +38,7 @@ items:
   Heavy Entropic Disintegrator I:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
+    CanFitShipType3: 49711
     CapacitorNeed: 20.399999618530273
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -71,6 +73,7 @@ items:
   Heavy Entropic Disintegrator II:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
+    CanFitShipType3: 49711
     CapacitorNeed: 20.399999618530273
     ChargeGroup1: 1987
     ChargeGroup2: 1989
@@ -110,6 +113,7 @@ items:
   Heavy Scoped Entropic Disintegrator:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
+    CanFitShipType3: 49711
     CapacitorNeed: 22.100000381469727
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -145,6 +149,7 @@ items:
   Heavy Veles Entropic Disintegrator:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
+    CanFitShipType3: 49711
     CapacitorNeed: 19.200000762939453
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -181,6 +186,7 @@ items:
   Light Compact Entropic Disintegrator:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
+    CanFitShipType3: 49710
     CapacitorNeed: 5.199999809265137
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -216,6 +222,7 @@ items:
   Light Entropic Disintegrator I:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
+    CanFitShipType3: 49710
     CapacitorNeed: 4.5
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -250,6 +257,7 @@ items:
   Light Entropic Disintegrator II:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
+    CanFitShipType3: 49710
     CapacitorNeed: 4.5
     ChargeGroup1: 1987
     ChargeGroup2: 1989
@@ -289,6 +297,7 @@ items:
   Light Scoped Entropic Disintegrator:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
+    CanFitShipType3: 49710
     CapacitorNeed: 5.199999809265137
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -324,6 +333,7 @@ items:
   Light Veles Entropic Disintegrator:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
+    CanFitShipType3: 49710
     CapacitorNeed: 4.0
     ChargeGroup1: 1987
     ChargeRate: 1

@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
-public class StationComponents
+public class StructureComponents
     extends Commodity
 {
     /**
@@ -23,7 +23,7 @@ public class StationComponents
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
-    public final static StationComponents.MetaGroup METAGROUP = new StationComponents.MetaGroup();
+    public final static StructureComponents.MetaGroup METAGROUP = new StructureComponents.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -40,18 +40,18 @@ public class StationComponents
     }
 
     @Override
-    public IMetaGroup<StationComponents> getGroup() {
+    public IMetaGroup<StructureComponents> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<StationComponents>
+        implements IMetaGroup<StructureComponents>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/StationComponents.yaml";
-        private Map<String, StationComponents> cache = (null);
+        public final static String RESOURCE_PATH = "SDE/items/commodity/StructureComponents.yaml";
+        private Map<String, StructureComponents> cache = (null);
 
         @Override
-        public IMetaCategory<? super StationComponents> category() {
+        public IMetaCategory<? super StructureComponents> category() {
             return Commodity.METACAT;
         }
 
@@ -62,14 +62,14 @@ public class StationComponents
 
         @Override
         public String getName() {
-            return "StationComponents";
+            return "StructureComponents";
         }
 
         @Override
-        public synchronized Map<String, StationComponents> load() {
+        public synchronized Map<String, StructureComponents> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(StationComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(StructureComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -78,7 +78,7 @@ public class StationComponents
         }
 
         private static class Container {
-            public LinkedHashMap<String, StationComponents> items;
+            public LinkedHashMap<String, StructureComponents> items;
         }
     }
 }

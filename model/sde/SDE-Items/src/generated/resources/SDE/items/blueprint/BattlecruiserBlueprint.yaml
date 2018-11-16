@@ -78,6 +78,13 @@ items:
     name: Drake Navy Issue Blueprint
     published: true
     volume: 0.01
+  Drekavac Blueprint:
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
+    id: 49715
+    name: Drekavac Blueprint
+    published: true
+    volume: 0.01
   Eos Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1

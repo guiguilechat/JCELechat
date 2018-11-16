@@ -71,6 +71,12 @@ items:
     name: Heretic Blueprint
     published: true
     volume: 0.01
+  Kikimora Blueprint:
+    TechLevel: 1
+    id: 49714
+    name: Kikimora Blueprint
+    published: true
+    volume: 0.01
   Sabre Blueprint:
     IndustryBlueprintRank: 600.0
     TechLevel: 2

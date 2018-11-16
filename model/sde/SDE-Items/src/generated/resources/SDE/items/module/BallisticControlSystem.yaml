@@ -15,6 +15,15 @@ items:
     name: '''Full Duplex'' Ballistic Control System'
     published: true
     volume: 5.0
+  Abyssal Ballistic Control System:
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    SpeedMultiplier: 1.0
+    TechLevel: 1
+    id: 49738
+    name: Abyssal Ballistic Control System
+    published: true
+    volume: 1.0
   Ballistic Control System I:
     Hp: 40
     MissileDamageMultiplierBonus: 1.0700000524520874

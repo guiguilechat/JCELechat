@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.items.types.superkerrinducednanocoatings;
+package fr.guiguilechat.jcelechat.model.sde.items.types.skins;
 
 import java.io.InputStreamReader;
 import java.util.Collections;
@@ -6,11 +6,11 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.items.types.SuperKerrInducedNanocoatings;
+import fr.guiguilechat.jcelechat.model.sde.items.types.SKINs;
 import org.yaml.snakeyaml.Yaml;
 
 public class PermanentSKIN
-    extends SuperKerrInducedNanocoatings
+    extends SKINs
 {
     public final static PermanentSKIN.MetaGroup METAGROUP = new PermanentSKIN.MetaGroup();
 
@@ -22,12 +22,12 @@ public class PermanentSKIN
     public static class MetaGroup
         implements IMetaGroup<PermanentSKIN>
     {
-        public final static String RESOURCE_PATH = "SDE/items/superkerrinducednanocoatings/PermanentSKIN.yaml";
+        public final static String RESOURCE_PATH = "SDE/items/skins/PermanentSKIN.yaml";
         private Map<String, PermanentSKIN> cache = (null);
 
         @Override
         public IMetaCategory<? super PermanentSKIN> category() {
-            return SuperKerrInducedNanocoatings.METACAT;
+            return SKINs.METACAT;
         }
 
         @Override

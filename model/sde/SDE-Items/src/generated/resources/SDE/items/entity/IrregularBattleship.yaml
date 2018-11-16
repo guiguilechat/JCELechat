@@ -1,7 +1,17 @@
 items:
+  Armageddon Hulk:
+    id: 49124
+    name: Armageddon Hulk
+    published: false
+    volume: 486000.0
   Blood Raider Battleship:
     id: 42238
     name: Blood Raider Battleship
+    published: false
+    volume: 1150000.0
+  Deathglow Scumlord:
+    id: 48957
+    name: Deathglow Scumlord
     published: false
     volume: 1150000.0
   Drifter Strike Battleship:
@@ -39,13 +49,43 @@ items:
     name: Manuzivar Slaver
     published: false
     volume: 495000.0
+  Megathron Hulk:
+    id: 49122
+    name: Megathron Hulk
+    published: false
+    volume: 486000.0
+  November Nightmare:
+    id: 48936
+    name: November Nightmare
+    published: false
+    volume: 100100.0
   Rakka's Rattlesnake:
     id: 40728
     name: Rakka's Rattlesnake
     published: true
     volume: 486000.0
-  unnamed_g1667_ic0:
-    id: 48957
-    name: unnamed_g1667_ic0
+  Raven Hulk:
+    id: 49118
+    name: Raven Hulk
     published: false
-    volume: 1150000.0
+    volume: 486000.0
+  Swarm Overmind Primus x01:
+    id: 48800
+    name: Swarm Overmind Primus x01
+    published: false
+    volume: 1010000.0
+  Swarm Overmind Secundus x01:
+    id: 48801
+    name: Swarm Overmind Secundus x01
+    published: false
+    volume: 1010000.0
+  Swarm Overmind Tertius x01:
+    id: 48799
+    name: Swarm Overmind Tertius x01
+    published: false
+    volume: 1010000.0
+  Typhoon Hulk:
+    id: 49120
+    name: Typhoon Hulk
+    published: false
+    volume: 414000.0
