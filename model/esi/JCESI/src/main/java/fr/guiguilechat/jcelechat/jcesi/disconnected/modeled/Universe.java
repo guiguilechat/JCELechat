@@ -73,10 +73,10 @@ public class Universe {
 
 	public static class TripDistance {
 		// number of jumps taken
-		int jumps;
+		public int jumps;
 		// total distance in AU between gates, the original station, and the ending
 		// sun
-		double AU;
+		public double AU;
 
 		@Override
 		public String toString() {
@@ -89,6 +89,7 @@ public class Universe {
 		R_get_universe_systems_system_id system = cache.systems(station.system_id).get();
 		List<R_get_universe_systems_system_id> destinations = systemsWithinOneConstelJump(system)
 				.collect(Collectors.toList());
+
 		return destinations.parallelStream().collect(Collectors.toMap(sys -> sys, sys -> getDistance(station, sys).get()));
 	}
 
@@ -101,8 +102,8 @@ public class Universe {
 	 */
 	public Stream<R_get_universe_systems_system_id> systemsWithinOneConstelJump(R_get_universe_systems_system_id system) {
 		R_get_universe_constellations_constellation_id constel = cache.constellations(system.constellation_id).get();
-		List<ObsObjHolder<R_get_universe_systems_system_id>> systemsholders = Stream
-				.concat(adjacentConstels(constel), Stream.of(constel)).flatMapToInt(co -> IntStream.of(co.systems))
+		List<ObsObjHolder<R_get_universe_systems_system_id>> systemsholders = adjacentConstels(constel)
+				.flatMapToInt(co -> IntStream.of(co.systems))
 				.mapToObj(cache::systems).collect(Collectors.toList());
 		return systemsholders.parallelStream().map(sh -> sh.get());
 	}
@@ -145,7 +146,7 @@ public class Universe {
 				.map(si -> cache.systems(si).get()).collect(Collectors.toList());
 		M_3_xnumber_ynumber_znumber lastPos = station.position;
 		R_get_universe_systems_system_id lastSys = cache.systems(station.system_id).get();
-		System.err.println("starting from " + station.name);
+		// System.err.println("starting from " + station.name);
 		for (R_get_universe_systems_system_id nextSys : systems) {
 			if (nextSys.system_id == lastSys.system_id) {
 				continue;
@@ -154,14 +155,14 @@ public class Universe {
 					.mapToObj(stargate -> cache.stargates(stargate).get())
 					.filter(sg -> sg.destination.system_id == nextSys.system_id).findFirst().get();
 			double dist_AU = distance(lastPos, nextGate.position) / M_PER_AU;
-			System.err.println("dist to " + nextSys.name + " is " + dist_AU);
+			// System.err.println("dist to " + nextSys.name + " is " + dist_AU);
 			ret.AU += dist_AU;
 			ret.jumps++;
 			lastSys=nextSys;
 			lastPos=cache.stargates(nextGate.destination.stargate_id).get().position;
 		}
 		double dist_AU = distance(lastPos, SUN_POS) / M_PER_AU;
-		System.err.println("dist to sun is " + dist_AU);
+		// System.err.println("dist to sun is " + dist_AU);
 		ret.AU += dist_AU;
 		return ret;
 	}

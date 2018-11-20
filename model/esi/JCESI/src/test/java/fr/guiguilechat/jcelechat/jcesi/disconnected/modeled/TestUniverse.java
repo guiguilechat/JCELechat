@@ -1,20 +1,29 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
+import java.util.Map.Entry;
+
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe.TripDistance;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 
 public class TestUniverse {
 
 	protected static fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe uni = ESIAccess.INSTANCE.universe;
 
-	public static void main(String[] args) {
-		int jitaIV4=60003760;
-		int perimeter = 30000144;
-		int osmon = 30000180;
-		int airaken = 30000185;
+	static int jitaIV4 = 60003760;
+	static int lanngisiIII2 = 60012625;
+	static int perimeter = 30000144;
+	static int osmon = 30000180;
+	static int airaken = 30000185;
 
-		evaluateTimes(compute(jitaIV4, perimeter));
-		evaluateTimes(compute(jitaIV4, osmon));
-		evaluateTimes(compute(jitaIV4, airaken));
+	public static void main(String[] args) {
+
+		// evaluateTimes(compute(jitaIV4, perimeter));
+		// evaluateTimes(compute(jitaIV4, osmon));
+		// evaluateTimes(compute(jitaIV4, airaken));
+		for (Entry<R_get_universe_systems_system_id, TripDistance> e : uni.distancesOneConstelJump(lanngisiIII2)
+				.entrySet()) {
+			System.err.println(e.getKey().name + " : " + e.getValue());
+		}
 	}
 
 	protected static TripDistance compute(int stationFrom, int systemDest) {
