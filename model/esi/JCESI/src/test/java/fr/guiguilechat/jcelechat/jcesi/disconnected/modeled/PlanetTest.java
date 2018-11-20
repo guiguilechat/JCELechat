@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.jcesi.modeled;
+package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

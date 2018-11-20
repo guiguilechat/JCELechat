@@ -114,6 +114,14 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 		return ret;
 	}
 
+	/**
+	 * transforms an observable list into a map, by extracting the key from the
+	 * new elements.
+	 * 
+	 * @param list
+	 * @param keyExtractor
+	 * @return
+	 */
 	public static <K, V> ObsMapHolderImpl<K, V> toMap(ObsListHolder<V> list, Function<V, K> keyExtractor) {
 		ObservableMap<K, V> internal = FXCollections.observableHashMap();
 		ObsMapHolderImpl<K, V> ret = new ObsMapHolderImpl<>(internal);

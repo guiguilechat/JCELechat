@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.jcesi.modeled;
+package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 

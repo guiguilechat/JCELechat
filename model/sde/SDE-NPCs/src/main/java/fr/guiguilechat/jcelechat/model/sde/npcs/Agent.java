@@ -58,6 +58,7 @@ public class Agent {
 	public boolean isLocator = false;
 	public String system;
 	public String station;
+	public int stationId;
 
 	public String type;
 	public String division;

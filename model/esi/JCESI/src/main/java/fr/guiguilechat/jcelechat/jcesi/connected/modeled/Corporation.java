@@ -135,11 +135,9 @@ public class Corporation {
 		if(structures==null) {
 			synchronized (this) {
 				if(structures==null) {
-					System.err.println("creating corp structure");
 					structures = ObsMapHolderImpl.toMap(
 							con.raw.cache.corporations.structures(con.character.infos.corporationId().get()),
 							str -> str.structure_id);
-					System.err.println("structures returned");
 				}
 			}
 		}

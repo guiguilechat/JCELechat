@@ -124,6 +124,9 @@ public class NPCsTranslater {
 			String station = stationsByID.get(eagt.locationID);
 			if (station != null) {
 				agent.station = station;
+				if (station != null) {
+					agent.stationId=eagt.locationID;
+				}
 				agent.system = stations.get(station).solarSystem;
 			}
 			agents.put(agent.name, agent);

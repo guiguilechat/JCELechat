@@ -1,4 +1,5 @@
-package fr.guiguilechat.jcelechat.model.jcesi;
+package fr.guiguilechat.jcelechat.jcesi.disconnected
+;
 
 import java.util.stream.Collectors;
 
