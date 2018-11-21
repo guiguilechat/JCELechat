@@ -5,6 +5,7 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 

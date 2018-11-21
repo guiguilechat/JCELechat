@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets_planet_id;
-import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsMapHolderImpl;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 

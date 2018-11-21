@@ -10,12 +10,12 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.impl.ObsListHolderImpl;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_bids_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
-import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsListHolderImpl;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

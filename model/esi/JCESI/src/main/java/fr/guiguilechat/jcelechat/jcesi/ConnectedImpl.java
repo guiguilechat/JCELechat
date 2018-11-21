@@ -40,8 +40,8 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ITransfer;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;

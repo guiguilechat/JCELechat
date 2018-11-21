@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.jcesi.impl;
+package fr.guiguilechat.jcelechat.jcesi.impl;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.concurrent.CountDownLatch;
 import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.MapChangeListener;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.jcesi.interfaces;
+package fr.guiguilechat.jcelechat.jcesi.interfaces;
 
 import java.util.Map;
 

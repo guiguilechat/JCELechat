@@ -38,9 +38,9 @@ import com.helger.jcodemodel.JSynchronizedBlock;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import io.swagger.models.ArrayModel;
 import io.swagger.models.Model;
 import io.swagger.models.ModelImpl;

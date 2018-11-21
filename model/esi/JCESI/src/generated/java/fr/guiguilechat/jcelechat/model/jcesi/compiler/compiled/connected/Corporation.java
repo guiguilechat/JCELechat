@@ -3,12 +3,12 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected;
 import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_7_int_long;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_extractions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_observers;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_observers_observer_id;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

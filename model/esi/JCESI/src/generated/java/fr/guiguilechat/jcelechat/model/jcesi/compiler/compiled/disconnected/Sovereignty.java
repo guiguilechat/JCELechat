@@ -2,12 +2,12 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import java.util.LinkedHashMap;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;

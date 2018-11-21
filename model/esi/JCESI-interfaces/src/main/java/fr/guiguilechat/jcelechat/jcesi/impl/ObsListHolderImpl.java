@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.jcesi.impl;
+package fr.guiguilechat.jcelechat.jcesi.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.function.BiConsumer;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;

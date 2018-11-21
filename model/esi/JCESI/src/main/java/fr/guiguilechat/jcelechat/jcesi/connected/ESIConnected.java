@@ -11,9 +11,9 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper;
 import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper.AccessToken;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
 

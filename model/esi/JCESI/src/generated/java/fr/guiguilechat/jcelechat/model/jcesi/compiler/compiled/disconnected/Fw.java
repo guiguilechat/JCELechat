@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

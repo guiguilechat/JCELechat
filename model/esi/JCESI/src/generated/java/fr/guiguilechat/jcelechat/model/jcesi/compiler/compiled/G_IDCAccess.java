@@ -3,6 +3,8 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id;
@@ -63,7 +65,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_w
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_ids;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ITransfer;
 
 
 /**

@@ -4,6 +4,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_22;
@@ -92,7 +94,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_character_id_fittings_created;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_fleets_fleet_id_wings_created;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_fleets_fleet_id_wings_wing_id_squads_created;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ITransfer;
 
 
 /**

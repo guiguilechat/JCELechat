@@ -34,8 +34,8 @@ import com.helger.jcodemodel.JPackage;
 import com.helger.jcodemodel.JTypeVar;
 import com.helger.jcodemodel.JVar;
 
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ITransfer;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import io.swagger.models.ArrayModel;
 import io.swagger.models.Model;
 import io.swagger.models.ModelImpl;

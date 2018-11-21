@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_16_flag_int_int_Lint_LLint;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

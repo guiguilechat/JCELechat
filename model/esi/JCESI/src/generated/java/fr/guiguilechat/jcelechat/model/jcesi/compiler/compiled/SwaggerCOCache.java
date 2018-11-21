@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled;
 
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected.Alliances;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected.Characters;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected.Corporation;
@@ -7,7 +8,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected.Corpora
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected.Fleets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected.Markets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected.Universe;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper;
 
 public abstract class SwaggerCOCache<T extends G_ICOAccess>
     implements ISwaggerCacheHelper

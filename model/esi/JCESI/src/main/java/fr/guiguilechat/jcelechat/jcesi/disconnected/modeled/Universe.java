@@ -10,6 +10,8 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.impl.ObsObjHolderImpl;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_3_xnumber_ynumber_znumber;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
@@ -17,8 +19,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
-import fr.guiguilechat.jcelechat.model.jcesi.impl.ObsObjHolderImpl;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Universe {

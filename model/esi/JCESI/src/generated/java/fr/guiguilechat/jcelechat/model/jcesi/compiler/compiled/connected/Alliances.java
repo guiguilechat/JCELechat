@@ -3,10 +3,10 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected;
 import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id_contacts;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsListHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

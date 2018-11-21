@@ -5,9 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.collections.FXCollections;

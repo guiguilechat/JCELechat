@@ -1,8 +1,8 @@
-package fr.guiguilechat.jcelechat.model.jcesi.impl;
+package fr.guiguilechat.jcelechat.jcesi.impl;
 
 import java.util.concurrent.CountDownLatch;
 
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ObsObjHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import javafx.beans.Observable;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;

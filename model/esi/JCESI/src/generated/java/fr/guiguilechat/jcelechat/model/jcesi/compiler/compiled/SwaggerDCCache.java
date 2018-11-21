@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled;
 
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Alliances;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Characters;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Contracts;
@@ -19,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Sove
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Status;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Wars;
-import fr.guiguilechat.jcelechat.model.jcesi.interfaces.ISwaggerCacheHelper;
 
 public abstract class SwaggerDCCache<T extends G_IDCAccess>
     implements ISwaggerCacheHelper
