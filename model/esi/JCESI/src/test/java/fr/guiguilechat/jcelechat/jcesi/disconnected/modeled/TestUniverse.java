@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import java.util.Map.Entry;
 
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe.TripDistance;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 
@@ -37,6 +40,12 @@ public class TestUniverse {
 		System.err.println("freeigther " + Universe.time_travel(trip.jumps, trip.AU, 1.5, 42, 97.5));
 		System.err.println("kryos " + Universe.time_travel(trip.jumps, trip.AU, 3, 11, 187.5));
 		System.err.println("inty " + Universe.time_travel(trip.jumps, trip.AU, 8, 2, 525));
+	}
+
+	@Test
+	public void testMethod() {
+		Assert.assertEquals(compute(jitaIV4, perimeter).jumps, 1);
+		Assert.assertEquals(Universe.time_travel(0, 10, 6, 2, 500), 2 + 4 + 1 + 11 + 1);
 	}
 
 }

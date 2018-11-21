@@ -210,11 +210,13 @@ public class Universe {
 		double time_decel = Math.log(warpseed * M_PER_AU / decel_speed) / decel_warpseed;
 		double dist_decel = warpseed / decel_warpseed;
 		int time_per_jump = (int) (10 + align + Math.ceil(time_accel + time_decel));
-		double cruise_distance = Math.max(nbAU - nbjumps * (dist_decel + 1), 0);
+		double cruise_distance = Math.max(nbAU - (nbjumps + 1) * (dist_decel + 1), 0);
 		// System.err.println("ship goes " + warpseed + "AU/s and " + speedmps +
 		// "m/s, align " + align + " : time per jump="
-		// + time_per_jump + " distDecel" + dist_decel);
-		return (int) (time_per_jump * nbjumps + Math.ceil(cruise_distance / warpseed));
+		// + time_per_jump + " distDecel" + dist_decel + ", time accel " +
+		// time_accel + " ,time decel " + time_decel);
+		return (int) (time_per_jump * nbjumps + align + Math.ceil(time_accel + time_decel)
+		+ Math.ceil(cruise_distance / warpseed));
 	}
 
 }
