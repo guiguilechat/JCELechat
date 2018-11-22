@@ -51,6 +51,9 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	private static final Logger logger = LoggerFactory.getLogger(ConnectedImpl.class);
 
+	public static final String IFNONEMATCH = "If-None-Match";
+	public static final String ETAG = "Etag";
+
 	private static HashMap<String, Integer> requestedURLs = new HashMap<>();
 
 	public static Map<String, Integer> getRequestedURls() {
@@ -138,6 +141,8 @@ public abstract class ConnectedImpl implements ITransfer {
 				case HttpsURLConnection.HTTP_RESET:
 				case HttpsURLConnection.HTTP_PARTIAL:
 					return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+				case HttpsURLConnection.HTTP_NOT_MODIFIED:
+					return null;
 					// 4xx client error
 				case HttpsURLConnection.HTTP_BAD_REQUEST:
 				case HttpsURLConnection.HTTP_UNAUTHORIZED:
@@ -336,6 +341,13 @@ public abstract class ConnectedImpl implements ITransfer {
 		if (transmit != null) {
 			props.put("Content-Type", "application/json");
 			datastr = mapToJSON(transmit);
+		}
+		if (headerHandler != null && headerHandler.containsKey(IFNONEMATCH)) {
+			props.put(IFNONEMATCH, headerHandler.get(IFNONEMATCH).get(0));
+			headerHandler.remove(IFNONEMATCH);
+		}
+		if (headerHandler == null) {
+			headerHandler = new HashMap<>();
 		}
 		logger.trace("fetch " + method + " " + url);
 		String ret = connect(url, method, props, datastr, headerHandler);
@@ -586,6 +598,8 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		private final Consumer<List<T>> cacheHandler;
 
+		private String lastEtag = null;
+
 		public ArrayCacheUpdaterTask(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
 				Consumer<List<T>> cacheHandler) {
 			this.fetcher = fetcher;
@@ -598,9 +612,15 @@ public abstract class ConnectedImpl implements ITransfer {
 		@Override
 		protected long do_execute() {
 			HashMap<String, List<String>> header = new HashMap<>();
+			if (lastEtag != null) {
+				header.put(IFNONEMATCH, Arrays.asList(lastEtag));
+			}
 			List<T> arr = ESIConnected.loadPages(fetcher, header);
 			if (arr != null) {
 				cacheHandler.accept(arr);
+			}
+			if (header.containsKey(ETAG)) {
+				lastEtag = header.get(ETAG).get(0);
 			}
 			return getCacheExpire(header);
 		}
@@ -656,6 +676,8 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		private final Consumer<T> cacheHandler;
 
+		private String lastEtag = null;
+
 		public ObjectCacheUpdaterTask(Function<Map<String, List<String>>, T> fetcher, Consumer<T> cacheHandler) {
 			this.fetcher = fetcher;
 			this.cacheHandler = cacheHandler;
@@ -667,9 +689,15 @@ public abstract class ConnectedImpl implements ITransfer {
 		@Override
 		protected long do_execute() throws Exception {
 			Map<String, List<String>> headerHandler = new HashMap<>();
+			if (lastEtag != null) {
+				headerHandler.put(IFNONEMATCH, Arrays.asList(lastEtag));
+			}
 			T res = fetcher.apply(headerHandler);
 			if (res != null) {
 				cacheHandler.accept(res);
+			}
+			if (headerHandler.containsKey(ETAG)) {
+				lastEtag = headerHandler.get(ETAG).get(0);
 			}
 			return ESIConnected.getCacheExpire(headerHandler);
 		}
