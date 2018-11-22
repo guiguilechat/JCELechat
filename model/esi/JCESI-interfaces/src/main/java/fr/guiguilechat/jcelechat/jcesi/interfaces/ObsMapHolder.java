@@ -23,6 +23,14 @@ public interface ObsMapHolder<U, V> {
 	Map<U, V> copy();
 
 	/**
+	 * synchronized call to the underlying map get, after the dxata is received.
+	 * 
+	 * @param key
+	 * @return
+	 */
+	V get(U key);
+
+	/**
 	 * apply all existing values to the change listener, and register it as a
 	 * listener of the underlying map.
 	 *

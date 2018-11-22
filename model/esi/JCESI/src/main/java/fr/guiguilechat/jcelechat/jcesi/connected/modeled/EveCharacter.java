@@ -12,7 +12,7 @@ import java.util.TimeZone;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Bookmarks;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.LocationCache;
 import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
@@ -45,12 +45,12 @@ public class EveCharacter {
 	public EveCharacter(ESIAccount con) {
 		this.con = con;
 		infos = new Informations(con);
-		bms = new Bookmarks(con);
+		bms = new CharBookmarks(con);
 	}
 
 	public final Informations infos;
 
-	public final Bookmarks bms;
+	public final CharBookmarks bms;
 
 	//
 	// roles

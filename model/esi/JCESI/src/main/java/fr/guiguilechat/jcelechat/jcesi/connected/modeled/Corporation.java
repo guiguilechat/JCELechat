@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Bookmarks;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
@@ -27,10 +27,10 @@ public class Corporation {
 
 	public Corporation(ESIAccount con) {
 		this.con = con;
-		bms = new Bookmarks(con);
+		bms = new CorpBookmarks(con);
 	}
 
-	public final Bookmarks bms;
+	public final CorpBookmarks bms;
 
 	// industry jobs
 

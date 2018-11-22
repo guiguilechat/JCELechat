@@ -56,6 +56,12 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 	}
 
 	@Override
+	public U get(K key) {
+		waitData();
+		return underlying.get(key);
+	}
+
+	@Override
 	public void follow(MapChangeListener<? super K, ? super U> listener) {
 		LockWatchDog.BARKER.tak(underlying);
 		synchronized (underlying) {
@@ -117,7 +123,7 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 	/**
 	 * transforms an observable list into a map, by extracting the key from the
 	 * new elements.
-	 * 
+	 *
 	 * @param list
 	 * @param keyExtractor
 	 * @return
