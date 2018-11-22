@@ -67,14 +67,14 @@ public class CorpBookmarks {
 				knownFoldersByRef.put(change.getKey(), change.getValueAdded());
 			} else {
 				if (change.wasAdded()) {
+					knownFoldersByRef.put(change.getKey(), change.getValueAdded());
 					ObservableMap<String, M_get_bookmarks_9> add = FXCollections.observableHashMap();
 					knownBMByRef.entrySet().stream().filter(e -> e.getValue().folder_id == change.getValueAdded().folder_id)
 					.forEachOrdered(e -> add.put(e.getKey(), e.getValue()));
 					bookmarks.put(change.getValueAdded().name, add);
-					knownFoldersByRef.put(change.getKey(), change.getValueAdded());
 				} else {
-					bookmarks.remove(change.getValueRemoved().name);
 					knownFoldersByRef.remove(change.getKey());
+					bookmarks.remove(change.getValueRemoved().name);
 				}
 			}
 		}
@@ -95,14 +95,12 @@ public class CorpBookmarks {
 			}
 			if (c.wasAdded()) {
 				M_get_bookmarks_9 added = c.getValueAdded();
+				knownBMByRef.put(c.getKey(), added);
 				R_get_corporations_corporation_id_bookmarks_folders folder = knownFoldersByRef.get("" + added.folder_id);
 				if (folder != null) {
 					String name = folder.name;
-					if (name != null && bookmarks.containsKey(name)) {
-						bookmarks.get(name).put("", c.getValueAdded());
-					}
+					bookmarks.get(name).put(c.getKey(), c.getValueAdded());
 				}
-				knownBMByRef.put(c.getKey(), c.getValueAdded());
 			}
 		}
 		LockWatchDog.BARKER.rel(bookmarks);
