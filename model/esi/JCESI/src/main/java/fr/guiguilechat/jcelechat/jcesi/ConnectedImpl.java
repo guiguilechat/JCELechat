@@ -40,8 +40,8 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;
@@ -339,7 +339,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 		logger.trace("fetch " + method + " " + url);
 		String ret = connect(url, method, props, datastr, headerHandler);
-		logger.trace("answered " + method + " " + url);
+		logger.trace("answered " + method + " " + url + " headers=" + headerHandler);
 		return ret;
 	}
 
@@ -496,6 +496,8 @@ public abstract class ConnectedImpl implements ITransfer {
 					);
 		}
 
+		private int count_shortdelay = 0;
+
 		@Override
 		public void run() {
 			synchronized (exec) {
@@ -511,6 +513,14 @@ public abstract class ConnectedImpl implements ITransfer {
 			} catch (Throwable e) {
 				logger.warn("while  fetching " + loggingName, e);
 			} finally {
+				logger.trace(loggingName + " sleep for " + (delay_ms < 1000 ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
+				if (delay_ms < 1000) {
+					count_shortdelay++;
+					delay_ms = count_shortdelay * 1000;
+					logger.trace(loggingName + " sleep duration corrected to " + count_shortdelay + "s");
+				} else {
+					count_shortdelay = 0;
+				}
 				schedule(delay_ms);
 			}
 			logState();
