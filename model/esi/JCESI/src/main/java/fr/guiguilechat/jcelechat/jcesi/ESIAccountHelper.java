@@ -85,7 +85,7 @@ public class ESIAccountHelper {
 		System.out.println("acces token is " + accessToken);
 	}
 
-	public static boolean openBrowserForApp(String appID, String appCalllback, String... scopes) {
+	public static void openBrowserForApp(String appID, String appCalllback, String... scopes) {
 		String uri = "https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=" + appCalllback
 				+ "&client_id=" + appID;
 		if (scopes != null && scopes.length != 0) {
@@ -93,7 +93,6 @@ public class ESIAccountHelper {
 		}
 		String urif = uri;
 		openBrowser(urif);
-		return false;
 	}
 
 	/** open a browser to given url */

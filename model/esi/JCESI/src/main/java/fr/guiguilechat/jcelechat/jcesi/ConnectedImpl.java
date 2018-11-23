@@ -489,9 +489,9 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (!scheduled && !stop && !paused) {
 					exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
 					scheduled = true;
+					logState();
 				}
 			}
-			logState();
 		}
 
 		public String loggingName = "";
@@ -525,17 +525,17 @@ public abstract class ConnectedImpl implements ITransfer {
 			} catch (Throwable e) {
 				logger.warn("while  fetching " + loggingName, e);
 			} finally {
-				logger.trace(loggingName + " sleep for " + (delay_ms < 1000 ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
 				if (delay_ms < 1000) {
 					count_shortdelay++;
 					delay_ms = count_shortdelay * 1000;
-					logger.trace(loggingName + " sleep duration corrected to " + count_shortdelay + "s");
+					logger.trace(loggingName + " sleep for (corrected)"
+							+ (delay_ms < 1000 ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
 				} else {
+					logger.trace(loggingName + " sleep for " + (delay_ms < 1000 ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
 					count_shortdelay = 0;
 				}
 				schedule(delay_ms);
 			}
-			logState();
 		}
 
 		/**

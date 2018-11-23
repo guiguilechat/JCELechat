@@ -126,7 +126,6 @@ public class LockWatchDog {
 	public void logLocks() {
 		Date now = new Date();
 		synchronized (aquisitions) {
-			logger.trace("watchdog locks logging");
 			boolean nolock = true;
 			for( Entry<Object, AquireData> e : aquisitions.entrySet()) {
 				AquireData val = e.getValue();

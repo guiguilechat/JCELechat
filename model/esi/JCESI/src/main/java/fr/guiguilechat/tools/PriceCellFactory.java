@@ -8,7 +8,7 @@ public class PriceCellFactory<T, W extends Number> extends TableCell<T, W> {
 	@Override
 	public void updateItem(W value, boolean empty) {
 		super.updateItem(value, empty);
-		if (empty) {
+		if (empty || value == null) {
 			setText(null);
 		} else {
 			setText(JFXTools.formatPrice(value.doubleValue()));
