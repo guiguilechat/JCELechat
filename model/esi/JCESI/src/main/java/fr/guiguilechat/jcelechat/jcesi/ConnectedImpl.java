@@ -109,7 +109,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		synchronized (requestedURLs) {
 			requestedURLs.put(url, 1 + requestedURLs.getOrDefault(url, 0));
 		}
-		for (int retry = 10; retry > 0; retry--) {
+		for (int fetchTry = 1; fetchTry <= 10; fetchTry++) {
 			try {
 				URL target = new URL(url);
 				HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
@@ -141,6 +141,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				case HttpsURLConnection.HTTP_RESET:
 				case HttpsURLConnection.HTTP_PARTIAL:
 					return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+					// 304 not modified
 				case HttpsURLConnection.HTTP_NOT_MODIFIED:
 					return null;
 					// 4xx client error
@@ -180,13 +181,14 @@ public abstract class ConnectedImpl implements ITransfer {
 					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
 				}
 				int remaining = con.getHeaderFieldInt("X-ESI-Error-Limit-Remain", 100);
+				int waitS = fetchTry;
 				// if we are 10 errors from the error rate, we wait until next error
 				// window
 				if (remaining <= 10) {
-					int waitS = con.getHeaderFieldInt("X-ESI-Error-Limit-Reset", 60);
+					waitS = Math.max(con.getHeaderFieldInt("X-ESI-Error-Limit-Reset", 60), waitS);
 					logger.warn(" " + remaining + " errors remaining, waiting for " + waitS + " s");
-					Thread.sleep(1000 * waitS);
 				}
+				Thread.sleep(1000 * waitS);
 			} catch (Exception e) {
 				logger.warn("while getting " + url, e);
 				return null;
@@ -525,7 +527,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			} catch (Throwable e) {
 				logger.warn("while  fetching " + loggingName, e);
 			} finally {
-				if (delay_ms < 1000) {
+				if (delay_ms < 500) {
 					count_shortdelay++;
 					delay_ms = count_shortdelay * 1000;
 					logger.trace(loggingName + " sleep for (corrected)"
@@ -616,11 +618,14 @@ public abstract class ConnectedImpl implements ITransfer {
 				header.put(IFNONEMATCH, Arrays.asList(lastEtag));
 			}
 			List<T> arr = ESIConnected.loadPages(fetcher, header);
-			if (arr != null) {
-				cacheHandler.accept(arr);
-			}
 			if (header.containsKey(ETAG)) {
-				lastEtag = header.get(ETAG).get(0);
+				String newEtag = header.get(ETAG).get(0);
+				if (!newEtag.equals(lastEtag)) {
+					cacheHandler.accept(arr);
+				}
+				lastEtag = newEtag;
+			} else {
+				cacheHandler.accept(arr);
 			}
 			return getCacheExpire(header);
 		}
@@ -693,12 +698,16 @@ public abstract class ConnectedImpl implements ITransfer {
 				headerHandler.put(IFNONEMATCH, Arrays.asList(lastEtag));
 			}
 			T res = fetcher.apply(headerHandler);
-			if (res != null) {
-				cacheHandler.accept(res);
-			}
 			if (headerHandler.containsKey(ETAG)) {
-				lastEtag = headerHandler.get(ETAG).get(0);
-			}
+				String newEtag = headerHandler.get(ETAG).get(0);
+				if (!newEtag.equals(lastEtag)) {
+					cacheHandler.accept(res);
+				}
+				lastEtag = newEtag;
+			} else 
+				if (res != null) {
+					cacheHandler.accept(res);
+				}
 			return ESIConnected.getCacheExpire(headerHandler);
 		}
 
