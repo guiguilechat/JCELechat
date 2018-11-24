@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
@@ -107,7 +106,7 @@ public interface G_IDCAccess
      * Get alliance icon
      * <p>
      * Get the icon urls for a alliance<br />
-     * This route is cached for up to 3600 seconds
+     * This route expires daily at 11:05
      * </p>
      * 
      * @param alliance_id
@@ -1090,7 +1089,7 @@ public interface G_IDCAccess
      * Get character portraits
      * <p>
      * Get portrait urls for a character<br />
-     * This route is cached for up to 3600 seconds
+     * This route expires daily at 11:05
      * </p>
      * 
      * @param character_id

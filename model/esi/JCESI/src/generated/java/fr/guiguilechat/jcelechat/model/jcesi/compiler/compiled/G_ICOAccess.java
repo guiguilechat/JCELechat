@@ -4,7 +4,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contacts_labels_2;
@@ -2491,7 +2490,9 @@ public interface G_ICOAccess
      * <p>
      * Retrieve the given corporation's wallet journal for the given division going 30 days back<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Accountant, Junior_Accountant
+     * Requires one of the following EVE corporation role(s): Accountant, Junior_Accountant<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/wallets/{division}/journal/)
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_JOURNAL_ROLES here}
@@ -2549,7 +2550,9 @@ public interface G_ICOAccess
      * Get character wallet journal
      * <p>
      * Retrieve the given character's wallet journal going 30 days back<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 3600 seconds<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/wallet/journal/)
      * </p>
      * 
      * @param character_id
