@@ -129,8 +129,8 @@ public class EveCharacter {
 	//
 
 	/**
-	 * fetch the list of industry jobs for this character. If the cache delay is
-	 * not expired, uses the cached version.
+	 * fetch the list of industry jobs for this character. Completed jobs are
+	 * ignored.
 	 *
 	 * @return the internal cache of the jobs for this character. successive calls
 	 *         will return the same value.

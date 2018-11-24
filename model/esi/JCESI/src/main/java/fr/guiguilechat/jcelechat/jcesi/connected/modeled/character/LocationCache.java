@@ -19,9 +19,7 @@ public class LocationCache {
 
 	public LocationCache(ESIAccount acc) {
 		account = acc;
-		acc.raw.cache.addFetchCacheObject(account.characterName() + ".locations",
-				h -> acc.raw.get_characters_location(acc.characterId(), h),
-				this::handleNewCache);
+		acc.raw.cache.characters.location(acc.characterId()).follow((obj, old, now) -> handleNewCache(now));
 	}
 
 	private final CountDownLatch rdyData = new CountDownLatch(1);
