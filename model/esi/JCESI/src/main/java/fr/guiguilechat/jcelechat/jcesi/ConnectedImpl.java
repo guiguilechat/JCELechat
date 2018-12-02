@@ -10,7 +10,6 @@ import java.nio.charset.StandardCharsets;
 import java.time.Period;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
@@ -40,8 +39,10 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
+import fr.guiguilechat.jcelechat.jcesi.impl.ResponseImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Response;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;
@@ -54,36 +55,6 @@ public abstract class ConnectedImpl implements ITransfer {
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
 
-	private static HashMap<String, Integer> requestedURLs = new HashMap<>();
-
-	public static Map<String, Integer> getRequestedURls() {
-		synchronized (requestedURLs) {
-			return new HashMap<>(requestedURLs);
-		}
-	}
-
-	/**
-	 * get the ascending order of urls requested; that means url most required is
-	 * at the end.
-	 */
-	public static List<Entry<String, Integer>> sortedUrls() {
-		ArrayList<Entry<String, Integer>> list;
-		synchronized (requestedURLs) {
-			list = new ArrayList<>(requestedURLs.entrySet());
-		}
-		Collections.sort(list, (e1, e2) -> e1.getValue() - e2.getValue());
-		return list;
-	}
-
-	public static void clearRequestedURls() {
-		requestedURLs.clear();
-	}
-
-	public static double nbRequestedUrls() {
-		synchronized (requestedURLs) {
-			return requestedURLs.values().stream().mapToInt(i -> i).sum();
-		}
-	}
 
 	/**
 	 * connect to an url and retrieve the result.<br />
@@ -106,9 +77,6 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	public static String connect(String url, String method, Map<String, String> properties, String transmit,
 			Map<String, List<String>> headerHandler) {
-		synchronized (requestedURLs) {
-			requestedURLs.put(url, 1 + requestedURLs.getOrDefault(url, 0));
-		}
 		for (int fetchTry = 1; fetchTry <= 10; fetchTry++) {
 			try {
 				URL target = new URL(url);
@@ -273,6 +241,117 @@ public abstract class ConnectedImpl implements ITransfer {
 		return ret;
 	}
 
+	/**
+	 * request an url
+	 *
+	 * @param url
+	 *          the url to request
+	 * @param method
+	 *          the type of method
+	 * @param properties
+	 *          the properties to send in the header
+	 * @param transmit
+	 *          the data to send through the connection
+	 * @param expectedClass
+	 *          the class to convert the OK result to
+	 * @return a new response holding the result of the request, or null if
+	 *         connection issue
+	 */
+	public <T> Response<T> request(String url, String method, Map<String, String> properties,
+			Map<String, Object> transmit, Class<T> expectedClass) {
+		try {
+			URL target = new URL(url);
+			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
+			con.setRequestMethod(method);
+			if (properties != null) {
+				for (Entry<String, String> e : properties.entrySet()) {
+					con.setRequestProperty(e.getKey(), e.getValue());
+				}
+			}
+			if (transmit != null && !transmit.isEmpty()) {
+				con.setRequestProperty("Content-Type", "application/json");
+				con.setDoOutput(true);
+				DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+				wr.write(mapToJSON(transmit).getBytes(StandardCharsets.UTF_8));
+				wr.flush();
+				wr.close();
+			}
+			Map<String, List<String>> headers = con.getHeaderFields();
+			int responseCode = con.getResponseCode();
+			switch (responseCode) {
+			// 2xx ok
+			case HttpsURLConnection.HTTP_OK:
+			case HttpsURLConnection.HTTP_CREATED:
+			case HttpsURLConnection.HTTP_ACCEPTED:
+			case HttpsURLConnection.HTTP_NOT_AUTHORITATIVE:
+			case HttpsURLConnection.HTTP_NO_CONTENT:
+			case HttpsURLConnection.HTTP_RESET:
+			case HttpsURLConnection.HTTP_PARTIAL:
+				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+				return new ResponseImpl<>(responseCode, null, convert(ret, expectedClass), headers);
+				// 304 not modified
+			case HttpsURLConnection.HTTP_NOT_MODIFIED:
+				return new ResponseImpl<>(responseCode, null, null, headers);
+				// 4xx client error
+			case HttpsURLConnection.HTTP_BAD_REQUEST:
+			case HttpsURLConnection.HTTP_UNAUTHORIZED:
+			case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
+			case HttpsURLConnection.HTTP_FORBIDDEN:
+			case HttpsURLConnection.HTTP_NOT_FOUND:
+			case HttpsURLConnection.HTTP_BAD_METHOD:
+				// 5xx server error
+			case HttpsURLConnection.HTTP_INTERNAL_ERROR:
+			case HttpsURLConnection.HTTP_BAD_GATEWAY:
+			case HttpsURLConnection.HTTP_UNAVAILABLE:
+			case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
+				StringBuilder sb = new StringBuilder("[" + method + ":" + responseCode + "]" + url + " data=" + transmit + " ");
+				if (con.getErrorStream() != null) {
+					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+				}
+				return new ResponseImpl<>(responseCode, sb.toString(), null, headers);
+			default:
+				return null;
+			}
+		} catch (Exception e) {
+			logger.warn("while getting " + url, e);
+			return null;
+		}
+	}
+
+	@Override
+	public Response<Void> requestDel(String url, Map<String, String> properties) {
+		return request(url, "DELETE", properties, null, null);
+	}
+
+	@Override
+	public <T> Response<T> requestGet(String url, Map<String, String> properties, Class<T> expectedClass) {
+		return request(url, "GET", properties, null, expectedClass);
+	}
+
+	@Override
+	public Response<Void> requestPost(String url, Map<String, String> properties, Map<String, Object> transmit) {
+		return request(url, "POST", properties, transmit, null);
+	}
+
+	@Override
+	public Response<Void> requestPut(String url, Map<String, String> properties, Map<String, Object> transmit) {
+		return request(url, "PUT", properties, transmit, null);
+	}
+
+	@Override
+	public <T> Response<List<T>> requestGetPages(Function<Integer, Response<List<T>>> resourceAccess) {
+		Response<List<T>> res = resourceAccess.apply(1);
+		if (res == null) {
+			return null;
+		}
+		int nbPages = res.getNbPages();
+		if (res.isOk() && nbPages > 1) {
+			res.getOK().addAll(IntStream.rangeClosed(2, nbPages).parallel()
+					.mapToObj(page -> resourceAccess.apply(page).getOK()).flatMap(l -> l.stream()).collect(Collectors.toList()));
+		}
+		return res;
+	}
+
 	////
 	//
 	////
@@ -282,6 +361,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	@SuppressWarnings("unchecked")
 	@Override
 	public <T> T convert(String line, Class<? extends T> clazz) {
+		if (clazz == null) {
+			return null;
+		}
 		try {
 			if (line == null || line.length() == 0) {
 				if (clazz.isArray()) {
@@ -337,22 +419,22 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	public String connect(String url, String method, Map<String, Object> transmit,
 			Map<String, List<String>> headerHandler) {
-		HashMap<String, String> props = new HashMap<>();
+		HashMap<String, String> headerProperties = new HashMap<>();
 		String datastr = null;
-		addConnection(props);
+		addConnection(headerProperties);
 		if (transmit != null) {
-			props.put("Content-Type", "application/json");
+			headerProperties.put("Content-Type", "application/json");
 			datastr = mapToJSON(transmit);
 		}
 		if (headerHandler != null && headerHandler.containsKey(IFNONEMATCH)) {
-			props.put(IFNONEMATCH, headerHandler.get(IFNONEMATCH).get(0));
+			headerProperties.put(IFNONEMATCH, headerHandler.get(IFNONEMATCH).get(0));
 			headerHandler.remove(IFNONEMATCH);
 		}
 		if (headerHandler == null) {
 			headerHandler = new HashMap<>();
 		}
 		logger.trace("fetch " + method + " " + url);
-		String ret = connect(url, method, props, datastr, headerHandler);
+		String ret = connect(url, method, headerProperties, datastr, headerHandler);
 		logger.trace("answered " + method + " " + url + " headers=" + headerHandler);
 		return ret;
 	}
@@ -399,14 +481,12 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	@Override
-	public String connectPost(String url, Map<String, Object> transmit,
-			Map<String, List<String>> headerHandler) {
+	public String connectPost(String url, Map<String, Object> transmit, Map<String, List<String>> headerHandler) {
 		return connect(url, "POST", transmit, headerHandler);
 	}
 
 	@Override
-	public String connectPut(String url, Map<String, Object> transmit,
-			Map<String, List<String>> headerHandler) {
+	public String connectPut(String url, Map<String, Object> transmit, Map<String, List<String>> headerHandler) {
 		return connect(url, "PUT", transmit, headerHandler);
 	}
 
@@ -704,10 +784,9 @@ public abstract class ConnectedImpl implements ITransfer {
 					cacheHandler.accept(res);
 				}
 				lastEtag = newEtag;
-			} else 
-				if (res != null) {
-					cacheHandler.accept(res);
-				}
+			} else if (res != null) {
+				cacheHandler.accept(res);
+			}
 			return ESIConnected.getCacheExpire(headerHandler);
 		}
 
