@@ -1316,7 +1316,7 @@ public class Corporations {
     }
 
     /**
-     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th
+     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th Note: this route will not return any flex structures owned by a corporation, use the v3 route to have those included in the response. A list of FLEX structures can be found here: https://support.eveonline.com/hc/en-us/articles/213021829-Upwell-Structures
      * 
      * cache over {@link Swagger#get_corporations_structures}<br />
      * 
@@ -1477,7 +1477,7 @@ public class Corporations {
     }
 
     /**
-     * Retrieve the given corporation's wallet journal for the given division going 30 days back
+     * Retrieve the given corporation's wallet journal for the given division going 30 days back. Note: any journal records having to do with the new navigation structures from the release of Onslaught will not show up in this version. To see those, use the v4 version of this route.
      * 
      * cache over {@link Swagger#get_corporations_wallets_journal}<br />
      * 

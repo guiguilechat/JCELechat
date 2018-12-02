@@ -2226,9 +2226,11 @@ public interface G_ICOAccess
     /**
      * Get corporation structures
      * <p>
-     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th<br />
+     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th Note: this route will not return any flex structures owned by a corporation, use the v3 route to have those included in the response. A list of FLEX structures can be found here: https://support.eveonline.com/hc/en-us/articles/213021829-Upwell-Structures<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Station_Manager
+     * Requires one of the following EVE corporation role(s): Station_Manager<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/structures/)
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES here}
@@ -2488,7 +2490,7 @@ public interface G_ICOAccess
     /**
      * Get corporation wallet journal
      * <p>
-     * Retrieve the given corporation's wallet journal for the given division going 30 days back<br />
+     * Retrieve the given corporation's wallet journal for the given division going 30 days back. Note: any journal records having to do with the new navigation structures from the release of Onslaught will not show up in this version. To see those, use the v4 version of this route.<br />
      * This route is cached for up to 3600 seconds<br />
      * Requires one of the following EVE corporation role(s): Accountant, Junior_Accountant<br />
      * Warning: This route has an upgrade available<br />
