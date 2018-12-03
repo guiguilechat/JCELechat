@@ -121,10 +121,10 @@ public class ClassBridge {
 		}
 	}
 
-	private AbstractJClass headerhandlertype;
+	private AbstractJClass propertiesType;
 
-	public AbstractJClass headerhandlertype() {
-		return headerhandlertype;
+	public AbstractJClass propertiesType() {
+		return propertiesType;
 	}
 
 	protected void createSwaggerCalls() {
@@ -139,7 +139,7 @@ public class ClassBridge {
 		}
 		scopesField.init(scopesinit);
 
-		headerhandlertype = cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(cm.ref(String.class)));
+		propertiesType = cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(String.class));
 	}
 
 	protected String rootPackage = ESICompiler.class.getPackage().getName() + ".compiled";

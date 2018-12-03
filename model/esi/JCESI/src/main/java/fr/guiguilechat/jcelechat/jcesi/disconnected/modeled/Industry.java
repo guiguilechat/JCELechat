@@ -1,10 +1,9 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems_cost_indices;
@@ -36,8 +35,8 @@ public class Industry {
 			if (System.currentTimeMillis() <= systemIndicesCacheExpire) {
 				return;
 			}
-			Map<String, List<String>> headers = new HashMap<>();
-			R_get_industry_systems[] results = con.get_industry_systems(headers);
+			Requested<R_get_industry_systems[]> req = con.get_industry_systems(null);
+			R_get_industry_systems[] results = req.getOK();
 			systemIndicesCache.clear();
 			for (R_get_industry_systems r : results) {
 				int sysid = r.solar_system_id;
@@ -68,7 +67,7 @@ public class Industry {
 				}
 				systemIndicesCache.put(sysid, indices);
 			}
-			systemIndicesCacheExpire = System.currentTimeMillis() + ESIConnected.getCacheExpire(headers);
+			systemIndicesCacheExpire = System.currentTimeMillis() + req.getCacheExpire();
 		}
 	}
 

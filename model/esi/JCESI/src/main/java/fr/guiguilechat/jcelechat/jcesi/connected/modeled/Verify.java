@@ -19,7 +19,9 @@ public class Verify {
 	}
 
 	public String characterName() {
-		return raw.verify().CharacterName;
+		return raw
+				.verify()
+				.CharacterName;
 	}
 
 	public String expiresOn() {

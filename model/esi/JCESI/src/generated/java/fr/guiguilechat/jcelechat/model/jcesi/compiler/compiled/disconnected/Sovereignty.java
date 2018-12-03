@@ -37,7 +37,7 @@ public class Sovereignty {
                     ObservableMap<Integer, R_get_sovereignty_campaigns> holder = FXCollections.observableHashMap();
                     get_sovereignty_campaigns_holder = (cache).toHolder(holder);
                     ObsMapHolder<Integer, R_get_sovereignty_campaigns> finalRet = get_sovereignty_campaigns_holder;
-                    (cache).addFetchCacheArray("get_sovereignty_campaigns", (page, headerHandler) -> (cache.swagger).get_sovereignty_campaigns(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_sovereignty_campaigns", (page, properties) -> (cache.swagger).get_sovereignty_campaigns(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -75,7 +75,7 @@ public class Sovereignty {
                     ObservableList<R_get_sovereignty_map> holder = FXCollections.observableArrayList();
                     get_sovereignty_map_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_sovereignty_map> finalRet = get_sovereignty_map_holder;
-                    (cache).addFetchCacheArray("get_sovereignty_map", (page, headerHandler) -> (cache.swagger).get_sovereignty_map(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_sovereignty_map", (page, properties) -> (cache.swagger).get_sovereignty_map(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -108,7 +108,7 @@ public class Sovereignty {
                     ObservableMap<Long, R_get_sovereignty_structures> holder = FXCollections.observableHashMap();
                     get_sovereignty_structures_holder = (cache).toHolder(holder);
                     ObsMapHolder<Long, R_get_sovereignty_structures> finalRet = get_sovereignty_structures_holder;
-                    (cache).addFetchCacheArray("get_sovereignty_structures", (page, headerHandler) -> (cache.swagger).get_sovereignty_structures(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_sovereignty_structures", (page, properties) -> (cache.swagger).get_sovereignty_structures(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

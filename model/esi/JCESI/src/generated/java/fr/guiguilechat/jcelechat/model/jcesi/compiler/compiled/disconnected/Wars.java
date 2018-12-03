@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
@@ -44,7 +43,7 @@ public class Wars {
                     ret = (cache).toHolder(holder);
                     get_wars_holder.put(max_war_id, ret);
                     ObsListHolder<Integer> finalRet = ret;
-                    (cache).addFetchCacheArray("get_wars", (page, headerHandler) -> IntStream.of((cache.swagger).get_wars(max_war_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_wars", (page, properties) -> (cache.swagger).get_wars(max_war_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -82,7 +81,7 @@ public class Wars {
                     SimpleObjectProperty<R_get_wars_war_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_wars_war_id_holder.put(war_id, ret);
-                    (cache).addFetchCacheObject("get_wars_war_id", headerHandler -> (cache.swagger).get_wars(war_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_wars_war_id", properties -> (cache.swagger).get_wars(war_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -120,7 +119,7 @@ public class Wars {
                     ret = (cache).toHolder(holder);
                     get_wars_war_id_killmails_holder.put(war_id, ret);
                     ObsListHolder<M_get_killmails_2> finalRet = ret;
-                    (cache).addFetchCacheArray("get_wars_war_id_killmails", (page, headerHandler) -> (cache.swagger).get_wars_killmails(page, war_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_wars_war_id_killmails", (page, properties) -> (cache.swagger).get_wars_killmails(page, war_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

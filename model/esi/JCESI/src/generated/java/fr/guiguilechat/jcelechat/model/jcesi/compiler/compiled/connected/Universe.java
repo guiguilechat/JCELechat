@@ -36,7 +36,7 @@ public class Universe {
                     SimpleObjectProperty<R_get_universe_structures_structure_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_universe_structures_structure_id_holder.put(structure_id, ret);
-                    (cache).addFetchCacheObject("get_universe_structures_structure_id", headerHandler -> (cache.swagger).get_universe_structures(structure_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_universe_structures_structure_id", properties -> (cache.swagger).get_universe_structures(structure_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

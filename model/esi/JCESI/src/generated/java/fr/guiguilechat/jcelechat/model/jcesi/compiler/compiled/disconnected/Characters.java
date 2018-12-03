@@ -44,7 +44,7 @@ public class Characters {
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_corporationhistory_holder.put(character_id, ret);
                     ObsListHolder<R_get_characters_character_id_corporationhistory> finalRet = ret;
-                    (cache).addFetchCacheArray("get_characters_character_id_corporationhistory", (page, headerHandler) -> (cache.swagger).get_characters_corporationhistory(character_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_characters_character_id_corporationhistory", (page, properties) -> (cache.swagger).get_characters_corporationhistory(character_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -82,7 +82,7 @@ public class Characters {
                     SimpleObjectProperty<R_get_characters_character_id_portrait> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_portrait_holder.put(character_id, ret);
-                    (cache).addFetchCacheObject("get_characters_character_id_portrait", headerHandler -> (cache.swagger).get_characters_portrait(character_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_characters_character_id_portrait", properties -> (cache.swagger).get_characters_portrait(character_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -119,7 +119,7 @@ public class Characters {
                     SimpleObjectProperty<R_get_characters_character_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_holder.put(character_id, ret);
-                    (cache).addFetchCacheObject("get_characters_character_id", headerHandler -> (cache.swagger).get_characters(character_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_characters_character_id", properties -> (cache.swagger).get_characters(character_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

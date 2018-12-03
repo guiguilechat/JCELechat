@@ -9,7 +9,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import org.slf4j.LoggerFactory;
@@ -92,10 +91,9 @@ public class NPCsTranslater {
 		Map<Integer, String> stationsByID = Station.loadById();
 		LinkedHashMap<String, Station> stations = Station.load();
 		HashMap<Integer, EcrpNPCCorporations> snpcCorps = EcrpNPCCorporations.loadById();
-		Map<Integer, R_get_corporations_corporation_id> npcCorps = IntStream
-				.of(esi.connection.get_corporations_npccorps(null))
-				.parallel().mapToObj(l -> l)
-				.collect(Collectors.toMap(l -> l, l -> esi.connection.get_corporations(l, null)));
+		Map<Integer, R_get_corporations_corporation_id> npcCorps = Stream
+				.of(esi.connection.get_corporations_npccorps(null).getOK())
+				.parallel().collect(Collectors.toMap(l -> l, l -> esi.connection.get_corporations(l, null).getOK()));
 		Integer[] allyIds = npcCorps.keySet().stream().map(corp -> snpcCorps.get(corp)).filter(corp -> corp != null)
 				.map(c -> c.factionID).filter(i -> i > 0).distinct().toArray(Integer[]::new);
 		if (allyIds.length == 0) {
@@ -106,7 +104,7 @@ public class NPCsTranslater {
 		} else {
 			System.err.println("npc alliances are " + Arrays.asList(allyIds));
 		}
-		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.connection.get_universe_factions(null))
+		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.connection.get_universe_factions(null).getOK())
 				.collect(Collectors.toMap(f -> f.faction_id, f -> f));
 		Map<Integer, String> agentNames = Stream
 				.of(esi.universe.names(eagents.stream().parallel().mapToInt(a -> a.agentID).toArray()))
@@ -155,7 +153,7 @@ public class NPCsTranslater {
 		}
 		corporations.values().stream().parallel().flatMap(c -> {
 			R_get_loyalty_stores_corporation_id_offers[] values = esi.connection.get_loyalty_stores_offers(c.id,
-					null);
+					null).getOK();
 			return values == null ? Stream.empty() : Stream.of(values);
 		}).forEachOrdered(o -> {
 			if (!offers.containsKey(o.offer_id)) {
@@ -226,7 +224,7 @@ public class NPCsTranslater {
 	}
 
 	protected static void loadCorpOffers(Corporation c, ESIStatic raw, LinkedHashMap<Integer, LPOffer> alloffers) {
-		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_offers(c.id, null);
+		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_offers(c.id, null).getOK();
 		if (offers != null) {
 			for (R_get_loyalty_stores_corporation_id_offers o : offers) {
 				c.lpoffers.add(o.offer_id);

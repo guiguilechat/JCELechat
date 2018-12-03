@@ -11,9 +11,9 @@ public class Route {
 		this.con = con;
 	}
 
-	public int[] makeRoute(int origin, int destination, boolean secure) {
+	public Integer[] makeRoute(int origin, int destination, boolean secure) {
 		return con.get_route(null, null, destination,
-				secure ? flag.secure : flag.shortest, origin, null);
+				secure ? flag.secure : flag.shortest, origin, null).getOK();
 	}
 
 }

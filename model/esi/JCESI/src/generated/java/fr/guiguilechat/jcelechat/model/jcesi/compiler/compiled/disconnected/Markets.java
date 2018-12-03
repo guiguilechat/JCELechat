@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
@@ -45,7 +44,7 @@ public class Markets {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_markets_groups_holder = (cache).toHolder(holder);
                     ObsListHolder<Integer> finalRet = get_markets_groups_holder;
-                    (cache).addFetchCacheArray("get_markets_groups", (page, headerHandler) -> IntStream.of((cache.swagger).get_markets_groups(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_markets_groups", (page, properties) -> (cache.swagger).get_markets_groups(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -83,7 +82,7 @@ public class Markets {
                     SimpleObjectProperty<R_get_markets_groups_market_group_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_markets_groups_market_group_id_holder.put(market_group_id, ret);
-                    (cache).addFetchCacheObject("get_markets_groups_market_group_id", headerHandler -> (cache.swagger).get_markets_groups(market_group_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_markets_groups_market_group_id", properties -> (cache.swagger).get_markets_groups(market_group_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -115,7 +114,7 @@ public class Markets {
                     ObservableList<R_get_markets_prices> holder = FXCollections.observableArrayList();
                     get_markets_prices_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_markets_prices> finalRet = get_markets_prices_holder;
-                    (cache).addFetchCacheArray("get_markets_prices", (page, headerHandler) -> (cache.swagger).get_markets_prices(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_markets_prices", (page, properties) -> (cache.swagger).get_markets_prices(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -157,7 +156,7 @@ public class Markets {
                     ret = (cache).toHolder(holder);
                     get_markets_region_id_history_holder.put(param, ret);
                     ObsListHolder<R_get_markets_region_id_history> finalRet = ret;
-                    (cache).addFetchCacheArray("get_markets_region_id_history", (page, headerHandler) -> (cache.swagger).get_markets_history(region_id, type_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_markets_region_id_history", (page, properties) -> (cache.swagger).get_markets_history(region_id, type_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -201,7 +200,7 @@ public class Markets {
                     ret = (cache).toHolder(holder);
                     get_markets_region_id_orders_holder.put(param, ret);
                     ObsListHolder<R_get_markets_region_id_orders> finalRet = ret;
-                    (cache).addFetchCacheArray("get_markets_region_id_orders", (page, headerHandler) -> (cache.swagger).get_markets_orders(order_type, page, region_id, type_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_markets_region_id_orders", (page, properties) -> (cache.swagger).get_markets_orders(order_type, page, region_id, type_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -240,7 +239,7 @@ public class Markets {
                     ret = (cache).toHolder(holder);
                     get_markets_region_id_types_holder.put(region_id, ret);
                     ObsListHolder<Integer> finalRet = ret;
-                    (cache).addFetchCacheArray("get_markets_region_id_types", (page, headerHandler) -> IntStream.of((cache.swagger).get_markets_types(page, region_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_markets_region_id_types", (page, properties) -> (cache.swagger).get_markets_types(page, region_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

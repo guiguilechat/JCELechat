@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
@@ -39,7 +38,7 @@ public class Opportunities {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_opportunities_groups_holder = (cache).toHolder(holder);
                     ObsListHolder<Integer> finalRet = get_opportunities_groups_holder;
-                    (cache).addFetchCacheArray("get_opportunities_groups", (page, headerHandler) -> IntStream.of((cache.swagger).get_opportunities_groups(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_opportunities_groups", (page, properties) -> (cache.swagger).get_opportunities_groups(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -77,7 +76,7 @@ public class Opportunities {
                     SimpleObjectProperty<R_get_opportunities_groups_group_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_opportunities_groups_group_id_holder.put(group_id, ret);
-                    (cache).addFetchCacheObject("get_opportunities_groups_group_id", headerHandler -> (cache.swagger).get_opportunities_groups(group_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_opportunities_groups_group_id", properties -> (cache.swagger).get_opportunities_groups(group_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -109,7 +108,7 @@ public class Opportunities {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_opportunities_tasks_holder = (cache).toHolder(holder);
                     ObsListHolder<Integer> finalRet = get_opportunities_tasks_holder;
-                    (cache).addFetchCacheArray("get_opportunities_tasks", (page, headerHandler) -> IntStream.of((cache.swagger).get_opportunities_tasks(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_opportunities_tasks", (page, properties) -> (cache.swagger).get_opportunities_tasks(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -147,7 +146,7 @@ public class Opportunities {
                     SimpleObjectProperty<R_get_opportunities_tasks_task_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_opportunities_tasks_task_id_holder.put(task_id, ret);
-                    (cache).addFetchCacheObject("get_opportunities_tasks_task_id", headerHandler -> (cache.swagger).get_opportunities_tasks(task_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_opportunities_tasks_task_id", properties -> (cache.swagger).get_opportunities_tasks(task_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

@@ -43,7 +43,7 @@ public class Fleets {
                     SimpleObjectProperty<R_get_fleets_fleet_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_fleets_fleet_id_holder.put(fleet_id, ret);
-                    (cache).addFetchCacheObject("get_fleets_fleet_id", headerHandler -> (cache.swagger).get_fleets(fleet_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_fleets_fleet_id", properties -> (cache.swagger).get_fleets(fleet_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -81,7 +81,7 @@ public class Fleets {
                     ret = (cache).toHolder(holder);
                     get_fleets_fleet_id_members_holder.put(fleet_id, ret);
                     ObsListHolder<R_get_fleets_fleet_id_members> finalRet = ret;
-                    (cache).addFetchCacheArray("get_fleets_fleet_id_members", (page, headerHandler) -> (cache.swagger).get_fleets_members(fleet_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_fleets_fleet_id_members", (page, properties) -> (cache.swagger).get_fleets_members(fleet_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -120,7 +120,7 @@ public class Fleets {
                     ret = (cache).toHolder(holder);
                     get_fleets_fleet_id_wings_holder.put(fleet_id, ret);
                     ObsListHolder<R_get_fleets_fleet_id_wings> finalRet = ret;
-                    (cache).addFetchCacheArray("get_fleets_fleet_id_wings", (page, headerHandler) -> (cache.swagger).get_fleets_wings(fleet_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_fleets_fleet_id_wings", (page, properties) -> (cache.swagger).get_fleets_wings(fleet_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

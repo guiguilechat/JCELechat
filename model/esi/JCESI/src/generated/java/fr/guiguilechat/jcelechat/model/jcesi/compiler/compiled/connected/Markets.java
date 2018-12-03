@@ -38,7 +38,7 @@ public class Markets {
                     ret = (cache).toHolder(holder);
                     get_markets_structures_structure_id_holder.put(structure_id, ret);
                     ObsListHolder<R_get_markets_structures_structure_id> finalRet = ret;
-                    (cache).addFetchCacheArray("get_markets_structures_structure_id", (page, headerHandler) -> (cache.swagger).get_markets_structures(page, structure_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_markets_structures_structure_id", (page, properties) -> (cache.swagger).get_markets_structures(page, structure_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

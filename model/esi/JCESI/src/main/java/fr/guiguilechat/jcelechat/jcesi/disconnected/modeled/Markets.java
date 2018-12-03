@@ -60,7 +60,7 @@ public class Markets {
 				}
 				HashMap<Integer, Double> fcachedAverage = new HashMap<>();
 				HashMap<Integer, Double> fcachedAdjusted = new HashMap<>();
-				for (R_get_markets_prices p : esiConnection.get_markets_prices(null)) {
+				for (R_get_markets_prices p : esiConnection.get_markets_prices(null).getOK()) {
 					int id = p.type_id;
 					fcachedAverage.put(id, p.average_price);
 					fcachedAdjusted.put(id, p.adjusted_price);

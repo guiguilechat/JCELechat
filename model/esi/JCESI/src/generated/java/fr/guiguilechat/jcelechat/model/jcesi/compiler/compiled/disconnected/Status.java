@@ -28,7 +28,7 @@ public class Status {
                 if (get_status_holder == null) {
                     SimpleObjectProperty<R_get_status> holder = new SimpleObjectProperty<>();
                     get_status_holder = (cache).toHolder(holder);
-                    (cache).addFetchCacheObject("get_status", headerHandler -> (cache.swagger).get_status(headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_status", properties -> (cache.swagger).get_status(properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

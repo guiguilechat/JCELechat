@@ -2,14 +2,11 @@ package fr.guiguilechat.jcelechat.jcesi;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Array;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.time.Period;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
@@ -37,12 +34,10 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
-import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.impl.ResponseImpl;
+import fr.guiguilechat.jcelechat.jcesi.impl.RequestedImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Response;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;
@@ -55,190 +50,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
 
-
-	/**
-	 * connect to an url and retrieve the result.<br />
-	 * This is a static method, all the code to handle specific options (eg
-	 * connection, data type) must be handled before. That's why there is another
-	 * connect method that has more code.
-	 *
-	 * @param url
-	 *          the url to fetch
-	 * @param method
-	 *          the method to connect. must be POST or GET, DELETE or UPDATE
-	 * @param properties
-	 *          the properties to transmit in the header
-	 * @param transmit
-	 *          the data to transmit during the query
-	 * @param headerHandler
-	 *          the map to store the header received from the server.
-	 * @return the line returned by the server as a response. null if there was an
-	 *         issue
-	 */
-	public static String connect(String url, String method, Map<String, String> properties, String transmit,
-			Map<String, List<String>> headerHandler) {
-		for (int fetchTry = 1; fetchTry <= 10; fetchTry++) {
-			try {
-				URL target = new URL(url);
-				HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
-				con.setRequestMethod(method);
-				if (properties != null) {
-					for (Entry<String, String> e : properties.entrySet()) {
-						con.setRequestProperty(e.getKey(), e.getValue());
-					}
-				}
-				if (transmit != null) {
-					con.setDoOutput(true);
-					DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-					wr.write(transmit.getBytes(StandardCharsets.UTF_8));
-					wr.flush();
-					wr.close();
-				}
-				if (headerHandler != null) {
-					headerHandler.clear();
-					headerHandler.putAll(con.getHeaderFields());
-				}
-				int responseCode = con.getResponseCode();
-				switch (responseCode) {
-				// 2xx ok
-				case HttpsURLConnection.HTTP_OK:
-				case HttpsURLConnection.HTTP_CREATED:
-				case HttpsURLConnection.HTTP_ACCEPTED:
-				case HttpsURLConnection.HTTP_NOT_AUTHORITATIVE:
-				case HttpsURLConnection.HTTP_NO_CONTENT:
-				case HttpsURLConnection.HTTP_RESET:
-				case HttpsURLConnection.HTTP_PARTIAL:
-					return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-					// 304 not modified
-				case HttpsURLConnection.HTTP_NOT_MODIFIED:
-					return null;
-					// 4xx client error
-				case HttpsURLConnection.HTTP_BAD_REQUEST:
-				case HttpsURLConnection.HTTP_UNAUTHORIZED:
-				case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
-				case HttpsURLConnection.HTTP_FORBIDDEN:
-				case HttpsURLConnection.HTTP_NOT_FOUND:
-				case HttpsURLConnection.HTTP_BAD_METHOD:
-					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
-					// hack : set the cache data to expire tomorrow
-					if (headerHandler != null) {
-						synchronized (ESIAccount.formatter) {
-							ZonedDateTime now = ZonedDateTime.now(ZoneId.of("UTC"));
-							List<String> dateArr = headerHandler.get("Date");
-							if (dateArr == null) {
-								headerHandler.put("Date", Arrays.asList(ESIAccount.formatter.format(now)));
-							}
-							List<String> expArr = headerHandler.get("Expires");
-							if (expArr == null) {
-								headerHandler.put("Expires", Arrays.asList(ESIAccount.formatter.format(now.plus(Period.ofDays(1)))));
-							} else {
-								expArr.add(0, ESIAccount.formatter.format(now.plus(Period.ofDays(1))));
-							}
-							headerHandler.put("hackedHeader", Arrays.asList("true"));
-						}
-					}
-					return null;
-					// 5xx server error
-				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
-				case HttpsURLConnection.HTTP_BAD_GATEWAY:
-				case HttpsURLConnection.HTTP_UNAVAILABLE:
-				case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
-					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
-					break;
-				default:
-					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
-				}
-				int remaining = con.getHeaderFieldInt("X-ESI-Error-Limit-Remain", 100);
-				int waitS = fetchTry;
-				// if we are 10 errors from the error rate, we wait until next error
-				// window
-				if (remaining <= 10) {
-					waitS = Math.max(con.getHeaderFieldInt("X-ESI-Error-Limit-Reset", 60), waitS);
-					logger.warn(" " + remaining + " errors remaining, waiting for " + waitS + " s");
-				}
-				Thread.sleep(1000 * waitS);
-			} catch (Exception e) {
-				logger.warn("while getting " + url, e);
-				return null;
-			}
-		}
-		logger.warn("too many retries, returning null for " + url);
-		return null;
-	}
-
-	private static void logConnectError(String method, String url, String transmit, int responseCode,
-			InputStream errorStream) {
-		StringBuilder sb = new StringBuilder("[" + method + ":" + responseCode + "]" + url + " data=" + transmit + " ");
-		if (errorStream != null) {
-			new BufferedReader(new InputStreamReader(errorStream)).lines().forEach(sb::append);
-		}
-		logger.warn(sb.toString());
-	}
-
-	/**
-	 * extract the cache expire delay from the headers returned by a connection.
-	 * If the headers are missing the data, return 0
-	 *
-	 * @param headers
-	 * @return the long value of milliseconds after which the cache will expire,
-	 *         or System.currentTimeMillis if missing header entries
-	 */
-	public static long getCacheExpire(Map<String, List<String>> headers) {
-		List<String> expirel = headers.get("Expires");
-		if (expirel == null || expirel.isEmpty()) {
-			return 0;
-		}
-		List<String> datel = headers.get("Date");
-		if (datel == null || datel.isEmpty()) {
-			return 0;
-		}
-		synchronized (ESIAccount.formatter) {
-			return 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
-					- 1000 * ZonedDateTime.parse(datel.get(0), ESIAccount.formatter).toEpochSecond();
-		}
-	}
-
-	/**
-	 * get the number of pages for a request.
-	 *
-	 * @param headers
-	 * @return
-	 */
-	public static int getNbPages(Map<String, List<String>> headers) {
-		String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0)
-				: headers.containsKey("X-Pages") ? headers.get("X-Pages").get(0) : null;
-				return pages == null ? 1 : Integer.parseInt(pages);
-	}
-
-	/**
-	 * load the pages for a given resource access.
-	 *
-	 * @param resourceAccess
-	 *          function to load a page and store header in the holder, then
-	 *          return the data. (page, holder->result). Must be able to handle
-	 *          null store.
-	 * @param headerHandler
-	 *          store the cache of the first page. can be null.
-	 * @return the stream of values retrieved from the first page and following
-	 *         pages. Those values are only fetched on demand, store them using
-	 *         collect to avoid delay on iteration.
-	 */
-	public static <T> List<T> loadPages(BiFunction<Integer, Map<String, List<String>>, T[]> resourceAccess,
-			Map<String, List<String>> headerHandler) {
-		if (headerHandler == null) {
-			headerHandler = new HashMap<>();
-		}
-		T[] res = resourceAccess.apply(1, headerHandler);
-		if (res == null) {
-			return null;
-		}
-		int nbpages = getNbPages(headerHandler);
-		List<T> ret = Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
-				.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of)).collect(Collectors.toList());
-		if (ret.contains(null)) {
-			return null;
-		}
-		return ret;
+	protected void addConnection(Map<String, String> props) {
 	}
 
 	/**
@@ -257,16 +69,18 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @return a new response holding the result of the request, or null if
 	 *         connection issue
 	 */
-	public <T> Response<T> request(String url, String method, Map<String, String> properties,
+	public <T> Requested<T> request(String url, String method, Map<String, String> properties,
 			Map<String, Object> transmit, Class<T> expectedClass) {
 		try {
 			URL target = new URL(url);
 			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
 			con.setRequestMethod(method);
-			if (properties != null) {
-				for (Entry<String, String> e : properties.entrySet()) {
-					con.setRequestProperty(e.getKey(), e.getValue());
-				}
+			if (properties == null) {
+				properties =new HashMap<>();
+			}
+			addConnection(properties);
+			for (Entry<String, String> e : properties.entrySet()) {
+				con.setRequestProperty(e.getKey(), e.getValue());
 			}
 			if (transmit != null && !transmit.isEmpty()) {
 				con.setRequestProperty("Content-Type", "application/json");
@@ -288,10 +102,10 @@ public abstract class ConnectedImpl implements ITransfer {
 			case HttpsURLConnection.HTTP_RESET:
 			case HttpsURLConnection.HTTP_PARTIAL:
 				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				return new ResponseImpl<>(responseCode, null, convert(ret, expectedClass), headers);
+				return new RequestedImpl<>(responseCode, null, convert(ret, expectedClass), headers);
 				// 304 not modified
 			case HttpsURLConnection.HTTP_NOT_MODIFIED:
-				return new ResponseImpl<>(responseCode, null, null, headers);
+				return new RequestedImpl<>(responseCode, null, null, headers);
 				// 4xx client error
 			case HttpsURLConnection.HTTP_BAD_REQUEST:
 			case HttpsURLConnection.HTTP_UNAUTHORIZED:
@@ -308,7 +122,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (con.getErrorStream() != null) {
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 				}
-				return new ResponseImpl<>(responseCode, sb.toString(), null, headers);
+				return new RequestedImpl<>(responseCode, sb.toString(), null, headers);
 			default:
 				return null;
 			}
@@ -319,37 +133,50 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	@Override
-	public Response<Void> requestDel(String url, Map<String, String> properties) {
+	public Requested<Void> requestDel(String url, Map<String, String> properties) {
 		return request(url, "DELETE", properties, null, null);
 	}
 
 	@Override
-	public <T> Response<T> requestGet(String url, Map<String, String> properties, Class<T> expectedClass) {
+	public <T> Requested<T> requestGet(String url, Map<String, String> properties, Class<T> expectedClass) {
 		return request(url, "GET", properties, null, expectedClass);
 	}
 
 	@Override
-	public Response<Void> requestPost(String url, Map<String, String> properties, Map<String, Object> transmit) {
-		return request(url, "POST", properties, transmit, null);
+	public <T> Requested<T> requestPost(String url, Map<String, String> properties, Map<String, Object> transmit,
+			Class<T> expectedClass) {
+		return request(url, "POST", properties, transmit, expectedClass);
 	}
 
 	@Override
-	public Response<Void> requestPut(String url, Map<String, String> properties, Map<String, Object> transmit) {
+	public Requested<Void> requestPut(String url, Map<String, String> properties, Map<String, Object> transmit) {
 		return request(url, "PUT", properties, transmit, null);
 	}
 
 	@Override
-	public <T> Response<List<T>> requestGetPages(Function<Integer, Response<List<T>>> resourceAccess) {
-		Response<List<T>> res = resourceAccess.apply(1);
+	public <T> Requested<List<T>> requestGetPages(
+			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
+			Map<String, String> parameters) {
+		Requested<List<T>> res = convertToList(resourceAccess.apply(1, parameters));
 		if (res == null) {
 			return null;
 		}
 		int nbPages = res.getNbPages();
 		if (res.isOk() && nbPages > 1) {
 			res.getOK().addAll(IntStream.rangeClosed(2, nbPages).parallel()
-					.mapToObj(page -> resourceAccess.apply(page).getOK()).flatMap(l -> l.stream()).collect(Collectors.toList()));
+					.mapToObj(page -> resourceAccess.apply(page, parameters).getOK()).flatMap(arr -> Stream.of(arr))
+					.collect(Collectors.toList()));
 		}
 		return res;
+	}
+
+	protected <T> Requested<List<T>> convertToList(Requested<T[]> apply) {
+		RequestedImpl<List<T>> ret = new RequestedImpl<>(apply.getResponseCode(), apply.getError(), new ArrayList<>(),
+				apply.getHeaders());
+		if (apply.getOK() != null) {
+			ret.getOK().addAll(Arrays.asList(apply.getOK()));
+		}
+		return ret;
 	}
 
 	////
@@ -414,34 +241,6 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 	}
 
-	/**
-	 * handle the connection and translation of data into the proper format
-	 */
-	public String connect(String url, String method, Map<String, Object> transmit,
-			Map<String, List<String>> headerHandler) {
-		HashMap<String, String> headerProperties = new HashMap<>();
-		String datastr = null;
-		addConnection(headerProperties);
-		if (transmit != null) {
-			headerProperties.put("Content-Type", "application/json");
-			datastr = mapToJSON(transmit);
-		}
-		if (headerHandler != null && headerHandler.containsKey(IFNONEMATCH)) {
-			headerProperties.put(IFNONEMATCH, headerHandler.get(IFNONEMATCH).get(0));
-			headerHandler.remove(IFNONEMATCH);
-		}
-		if (headerHandler == null) {
-			headerHandler = new HashMap<>();
-		}
-		logger.trace("fetch " + method + " " + url);
-		String ret = connect(url, method, headerProperties, datastr, headerHandler);
-		logger.trace("answered " + method + " " + url + " headers=" + headerHandler);
-		return ret;
-	}
-
-	protected void addConnection(HashMap<String, String> props) {
-	}
-
 	static final ObjectWriter ow = new ObjectMapper().writer();
 
 	/**
@@ -468,26 +267,6 @@ public abstract class ConnectedImpl implements ITransfer {
 		} catch (JsonProcessingException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
-	}
-
-	@Override
-	public String connectGet(String url, Map<String, List<String>> headerHandler) {
-		return connect(url, "GET", null, headerHandler);
-	}
-
-	@Override
-	public String connectDel(String url, Map<String, List<String>> headerHandler) {
-		return connect(url, "DELETE", null, headerHandler);
-	}
-
-	@Override
-	public String connectPost(String url, Map<String, Object> transmit, Map<String, List<String>> headerHandler) {
-		return connect(url, "POST", transmit, headerHandler);
-	}
-
-	@Override
-	public String connectPut(String url, Map<String, Object> transmit, Map<String, List<String>> headerHandler) {
-		return connect(url, "PUT", transmit, headerHandler);
 	}
 
 	////
@@ -676,13 +455,13 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	public class ArrayCacheUpdaterTask<T> extends SelfExecutable {
 
-		private final BiFunction<Integer, Map<String, List<String>>, T[]> fetcher;
+		private final BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher;
 
 		private final Consumer<List<T>> cacheHandler;
 
 		private String lastEtag = null;
 
-		public ArrayCacheUpdaterTask(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+		public ArrayCacheUpdaterTask(BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher,
 				Consumer<List<T>> cacheHandler) {
 			this.fetcher = fetcher;
 			this.cacheHandler = cacheHandler;
@@ -693,21 +472,26 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		@Override
 		protected long do_execute() {
-			HashMap<String, List<String>> header = new HashMap<>();
+			HashMap<String, String> parameters = new HashMap<>();
 			if (lastEtag != null) {
-				header.put(IFNONEMATCH, Arrays.asList(lastEtag));
+				parameters.put(IFNONEMATCH, lastEtag);
 			}
-			List<T> arr = ESIConnected.loadPages(fetcher, header);
-			if (header.containsKey(ETAG)) {
-				String newEtag = header.get(ETAG).get(0);
-				if (!newEtag.equals(lastEtag)) {
-					cacheHandler.accept(arr);
+			Requested<List<T>> res = requestGetPages(fetcher, parameters);
+			if (res == null) {
+				return 0;
+			}
+			String etag = res.getETag();
+			if (etag != null) {
+				if (!etag.equals(lastEtag)) {
+					cacheHandler.accept(res.getOK());
 				}
-				lastEtag = newEtag;
+				lastEtag = etag;
+			} else if (res.isOk()) {
+				cacheHandler.accept(res.getOK());
 			} else {
-				cacheHandler.accept(arr);
+				logger.debug(res.getError());
 			}
-			return getCacheExpire(header);
+			return res.getCacheExpire();
 		}
 
 		@Override
@@ -737,7 +521,8 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T>
 	 *          the type of object the fetched array contains.
 	 */
-	public <T> SelfExecutable addFetchCacheArray(String name, BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+	public <T> SelfExecutable addFetchCacheArray(String name,
+			BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher,
 			Consumer<List<T>> cacheHandler, String... requiredRoles) {
 		SelfExecutable t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
@@ -757,13 +542,13 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	public class ObjectCacheUpdaterTask<T> extends SelfExecutable {
 
-		private final Function<Map<String, List<String>>, T> fetcher;
+		private final Function<Map<String, String>, Requested<T>> fetcher;
 
 		private final Consumer<T> cacheHandler;
 
 		private String lastEtag = null;
 
-		public ObjectCacheUpdaterTask(Function<Map<String, List<String>>, T> fetcher, Consumer<T> cacheHandler) {
+		public ObjectCacheUpdaterTask(Function<Map<String, String>, Requested<T>> fetcher, Consumer<T> cacheHandler) {
 			this.fetcher = fetcher;
 			this.cacheHandler = cacheHandler;
 			if (cacheHandler == null || fetcher == null) {
@@ -773,21 +558,26 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		@Override
 		protected long do_execute() throws Exception {
-			Map<String, List<String>> headerHandler = new HashMap<>();
+			Map<String, String> headerHandler = new HashMap<>();
 			if (lastEtag != null) {
-				headerHandler.put(IFNONEMATCH, Arrays.asList(lastEtag));
+				headerHandler.put(IFNONEMATCH, lastEtag);
 			}
-			T res = fetcher.apply(headerHandler);
-			if (headerHandler.containsKey(ETAG)) {
-				String newEtag = headerHandler.get(ETAG).get(0);
-				if (!newEtag.equals(lastEtag)) {
-					cacheHandler.accept(res);
+			Requested<T> res = fetcher.apply(headerHandler);
+			if (res == null) {
+				return 0;
+			}
+			String etag = res.getETag();
+			if (etag != null) {
+				if (!etag.equals(lastEtag)) {
+					cacheHandler.accept(res.getOK());
 				}
-				lastEtag = newEtag;
-			} else if (res != null) {
-				cacheHandler.accept(res);
+				lastEtag = etag;
+			} else if (res.isOk()) {
+				cacheHandler.accept(res.getOK());
+			} else {
+				logger.debug(res.getError());
 			}
-			return ESIConnected.getCacheExpire(headerHandler);
+			return res.getCacheExpire();
 		}
 
 		@Override
@@ -816,7 +606,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T>
 	 *          the type of object that represents the cache.
 	 */
-	public <T> SelfExecutable addFetchCacheObject(String name, Function<Map<String, List<String>>, T> fetcher,
+	public <T> SelfExecutable addFetchCacheObject(String name, Function<Map<String, String>, Requested<T>> fetcher,
 			Consumer<T> cacheHandler, String... requiredRoles) {
 		SelfExecutable t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {

@@ -30,7 +30,7 @@ public class Insurance {
                     ObservableList<R_get_insurance_prices> holder = FXCollections.observableArrayList();
                     get_insurance_prices_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_insurance_prices> finalRet = get_insurance_prices_holder;
-                    (cache).addFetchCacheArray("get_insurance_prices", (page, headerHandler) -> (cache.swagger).get_insurance_prices(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_insurance_prices", (page, properties) -> (cache.swagger).get_insurance_prices(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

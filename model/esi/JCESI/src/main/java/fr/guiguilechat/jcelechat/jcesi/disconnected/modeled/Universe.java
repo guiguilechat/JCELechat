@@ -53,7 +53,7 @@ public class Universe {
 					fullbuffer = new int[missingIds.length - start];
 				}
 				System.arraycopy(missingIds, start, fullbuffer, 0, fullbuffer.length);
-				Stream.of(ESIStatic.INSTANCE.post_universe_names(fullbuffer, null))
+				Stream.of(ESIStatic.INSTANCE.post_universe_names(fullbuffer, null).getOK())
 				.forEachOrdered(n -> cachedNames.put(n.id, n));
 			}
 			return IntStream.of(ids).mapToObj(cachedNames::get).toArray(R_post_universe_names[]::new);

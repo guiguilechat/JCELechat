@@ -8,11 +8,10 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
-import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
@@ -71,16 +70,14 @@ public class Corporation {
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
-				Map<String, List<String>> headerandler = new HashMap<>();
-				R_get_corporations_corporation_id_assets[] itemsArr = ESIConnected
-						.loadPages(
-								(p, h) -> con.raw.get_corporations_assets(con.character.infos.corporationId().get(), p,
-										h),
-								headerandler)
+				Requested<List<R_get_corporations_corporation_id_assets>> requested = con.raw.requestGetPages(
+						(p, props) -> con.raw.get_corporations_assets(con.character.infos.corporationId().get(), p, props), null);
+				R_get_corporations_corporation_id_assets[] itemsArr = requested
+						.getOK()
 						.stream()
 						.filter(asset -> !get_corporations_corporation_id_assets_location_flag.AutoFit.equals(asset.location_flag))
 						.toArray(R_get_corporations_corporation_id_assets[]::new);
-				assetsExpire = ConnectedImpl.getNbPages(headerandler);
+				assetsExpire = requested.getCacheExpire();
 				// we make the map of itemid->locations. if a location is actually an
 				// asset, we
 				// iterally map it to this asset's location instead

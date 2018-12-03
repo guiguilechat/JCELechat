@@ -2,9 +2,6 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected;
 
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-
 public class ShowAllShipsNames {
 
 	public static void main(String[] args) {
@@ -18,7 +15,8 @@ public class ShowAllShipsNames {
 			.forEachOrdered(t -> System.err.println(t.name + "\t" + t.type_id));
 		} else {
 			ESIStatic esi = ESIStatic.INSTANCE;
-			Stream.of(esi.get_insurance_prices(null)).parallel().map(price -> esi.get_universe_types(price.type_id, null))
+			Stream.of(esi.get_insurance_prices(null).getOK()).parallel()
+			.map(price -> esi.get_universe_types(price.type_id, null).getOK())
 			.forEachOrdered(t -> System.err.println(t.name + "\t" + t.type_id));
 		}
 		System.err.println("total fetch " + 0.001 * (System.currentTimeMillis() - time) + "s");

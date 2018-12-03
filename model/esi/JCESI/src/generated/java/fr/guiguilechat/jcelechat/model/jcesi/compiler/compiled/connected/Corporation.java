@@ -43,7 +43,7 @@ public class Corporation {
                     ret = (cache).toHolder(holder);
                     get_corporation_corporation_id_mining_extractions_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporation_corporation_id_mining_extractions> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, headerHandler) -> (cache.swagger).get_corporation_mining_extractions(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, properties) -> (cache.swagger).get_corporation_mining_extractions(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -82,7 +82,7 @@ public class Corporation {
                     ret = (cache).toHolder(holder);
                     get_corporation_corporation_id_mining_observers_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporation_corporation_id_mining_observers> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, headerHandler) -> (cache.swagger).get_corporation_mining_observers(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, properties) -> (cache.swagger).get_corporation_mining_observers(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -124,7 +124,7 @@ public class Corporation {
                     ret = (cache).toHolder(holder);
                     get_corporation_corporation_id_mining_observers_observer_id_holder.put(param, ret);
                     ObsListHolder<R_get_corporation_corporation_id_mining_observers_observer_id> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, headerHandler) -> (cache.swagger).get_corporation_mining_observers(corporation_id, observer_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, properties) -> (cache.swagger).get_corporation_mining_observers(corporation_id, observer_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

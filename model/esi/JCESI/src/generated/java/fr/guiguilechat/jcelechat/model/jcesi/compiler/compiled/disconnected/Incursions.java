@@ -30,7 +30,7 @@ public class Incursions {
                     ObservableList<R_get_incursions> holder = FXCollections.observableArrayList();
                     get_incursions_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_incursions> finalRet = get_incursions_holder;
-                    (cache).addFetchCacheArray("get_incursions", (page, headerHandler) -> (cache.swagger).get_incursions(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_incursions", (page, properties) -> (cache.swagger).get_incursions(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

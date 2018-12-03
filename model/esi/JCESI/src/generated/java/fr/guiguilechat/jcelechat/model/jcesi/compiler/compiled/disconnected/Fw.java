@@ -39,7 +39,7 @@ public class Fw {
                 if (get_fw_leaderboards_holder == null) {
                     SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
                     get_fw_leaderboards_holder = (cache).toHolder(holder);
-                    (cache).addFetchCacheObject("get_fw_leaderboards", headerHandler -> (cache.swagger).get_fw_leaderboards(headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_fw_leaderboards", properties -> (cache.swagger).get_fw_leaderboards(properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -70,7 +70,7 @@ public class Fw {
                 if (get_fw_leaderboards_characters_holder == null) {
                     SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
                     get_fw_leaderboards_characters_holder = (cache).toHolder(holder);
-                    (cache).addFetchCacheObject("get_fw_leaderboards_characters", headerHandler -> (cache.swagger).get_fw_leaderboards_characters(headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_fw_leaderboards_characters", properties -> (cache.swagger).get_fw_leaderboards_characters(properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -101,7 +101,7 @@ public class Fw {
                 if (get_fw_leaderboards_corporations_holder == null) {
                     SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
                     get_fw_leaderboards_corporations_holder = (cache).toHolder(holder);
-                    (cache).addFetchCacheObject("get_fw_leaderboards_corporations", headerHandler -> (cache.swagger).get_fw_leaderboards_corporations(headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_fw_leaderboards_corporations", properties -> (cache.swagger).get_fw_leaderboards_corporations(properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -133,7 +133,7 @@ public class Fw {
                     ObservableList<R_get_fw_stats> holder = FXCollections.observableArrayList();
                     get_fw_stats_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_fw_stats> finalRet = get_fw_stats_holder;
-                    (cache).addFetchCacheArray("get_fw_stats", (page, headerHandler) -> (cache.swagger).get_fw_stats(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_fw_stats", (page, properties) -> (cache.swagger).get_fw_stats(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -166,7 +166,7 @@ public class Fw {
                     ObservableList<R_get_fw_wars> holder = FXCollections.observableArrayList();
                     get_fw_wars_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_fw_wars> finalRet = get_fw_wars_holder;
-                    (cache).addFetchCacheArray("get_fw_wars", (page, headerHandler) -> (cache.swagger).get_fw_wars(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_fw_wars", (page, properties) -> (cache.swagger).get_fw_wars(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -199,7 +199,7 @@ public class Fw {
                     ObservableList<R_get_fw_systems> holder = FXCollections.observableArrayList();
                     get_fw_systems_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_fw_systems> finalRet = get_fw_systems_holder;
-                    (cache).addFetchCacheArray("get_fw_systems", (page, headerHandler) -> (cache.swagger).get_fw_systems(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_fw_systems", (page, properties) -> (cache.swagger).get_fw_systems(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

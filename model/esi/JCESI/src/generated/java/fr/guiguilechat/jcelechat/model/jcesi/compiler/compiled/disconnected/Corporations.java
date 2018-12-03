@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
@@ -40,7 +39,7 @@ public class Corporations {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_corporations_npccorps_holder = (cache).toHolder(holder);
                     ObsListHolder<Integer> finalRet = get_corporations_npccorps_holder;
-                    (cache).addFetchCacheArray("get_corporations_npccorps", (page, headerHandler) -> IntStream.of((cache.swagger).get_corporations_npccorps(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_npccorps", (page, properties) -> (cache.swagger).get_corporations_npccorps(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -78,7 +77,7 @@ public class Corporations {
                     SimpleObjectProperty<R_get_corporations_corporation_id_icons> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_icons_holder.put(corporation_id, ret);
-                    (cache).addFetchCacheObject("get_corporations_corporation_id_icons", headerHandler -> (cache.swagger).get_corporations_icons(corporation_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_corporations_corporation_id_icons", properties -> (cache.swagger).get_corporations_icons(corporation_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -116,7 +115,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_alliancehistory_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_alliancehistory> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, headerHandler) -> (cache.swagger).get_corporations_alliancehistory(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, properties) -> (cache.swagger).get_corporations_alliancehistory(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -154,7 +153,7 @@ public class Corporations {
                     SimpleObjectProperty<R_get_corporations_corporation_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_holder.put(corporation_id, ret);
-                    (cache).addFetchCacheObject("get_corporations_corporation_id", headerHandler -> (cache.swagger).get_corporations(corporation_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_corporations_corporation_id", properties -> (cache.swagger).get_corporations(corporation_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

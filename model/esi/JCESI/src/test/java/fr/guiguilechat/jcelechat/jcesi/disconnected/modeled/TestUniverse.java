@@ -31,7 +31,8 @@ public class TestUniverse {
 
 	protected static TripDistance compute(int stationFrom, int systemDest) {
 		return uni
-				.getDistance(uni.con.get_universe_stations(stationFrom, null), uni.con.get_universe_systems(systemDest, null))
+				.getDistance(uni.con.get_universe_stations(stationFrom, null).getOK(),
+						uni.con.get_universe_systems(systemDest, null).getOK())
 				.get();
 	}
 

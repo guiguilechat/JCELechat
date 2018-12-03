@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id;
@@ -80,10 +80,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default int[] get_alliances(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_alliances(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/alliances/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -96,10 +95,9 @@ public interface G_IDCAccess
      * @param alliance_id
      *     An EVE alliance ID
      */
-    public default int[] get_alliances_corporations(int alliance_id, Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_alliances_corporations(int alliance_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/alliances/{alliance_id}/corporations/".replace("{alliance_id}", ""+alliance_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -112,10 +110,9 @@ public interface G_IDCAccess
      * @param alliance_id
      *     An EVE alliance ID
      */
-    public default R_get_alliances_alliance_id_icons get_alliances_icons(int alliance_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_alliances_alliance_id_icons> get_alliances_icons(int alliance_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/alliances/{alliance_id}/icons/".replace("{alliance_id}", ""+alliance_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id_icons.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id_icons.class));
     }
 
     /**
@@ -128,12 +125,11 @@ public interface G_IDCAccess
      * @param characters
      *     The character IDs to fetch affiliations for. All characters must exist, or none will be returned
      */
-    public default R_post_characters_affiliation[] post_affiliation(int[] characters, Map<String, List<String>> headerHandler) {
+    public default Requested<R_post_characters_affiliation[]> post_affiliation(int[] characters, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/characters/affiliation/");
         Map<String, Object> content = new HashMap<>();
         content.put("characters", characters);
-        String fetched = connectPost(url, content, headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation[].class));
+        return requestPost(url, properties, content, R_post_characters_affiliation[].class);
     }
 
     /**
@@ -146,10 +142,9 @@ public interface G_IDCAccess
      * @param character_id
      *     An EVE character ID
      */
-    public default R_get_characters_character_id_corporationhistory[] get_characters_corporationhistory(int character_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_characters_character_id_corporationhistory[]> get_characters_corporationhistory(int character_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/corporationhistory/".replace("{character_id}", ""+character_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_corporationhistory[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_corporationhistory[].class));
     }
 
     /**
@@ -164,10 +159,9 @@ public interface G_IDCAccess
      * @param page
      *     Which page of results to return
      */
-    public default R_get_contracts_public_bids_contract_id[] get_contracts_public_bids(int contract_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_contracts_public_bids_contract_id[]> get_contracts_public_bids(int contract_id, Integer page, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/contracts/public/bids/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_bids_contract_id[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_bids_contract_id[].class));
     }
 
     /**
@@ -182,10 +176,9 @@ public interface G_IDCAccess
      * @param page
      *     Which page of results to return
      */
-    public default R_get_contracts_public_items_contract_id[] get_contracts_public_items(int contract_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_contracts_public_items_contract_id[]> get_contracts_public_items(int contract_id, Integer page, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/contracts/public/items/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id[].class));
     }
 
     /**
@@ -200,10 +193,9 @@ public interface G_IDCAccess
      * @param region_id
      *     An EVE region id
      */
-    public default R_get_contracts_public_region_id[] get_contracts_public(Integer page, int region_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_contracts_public_region_id[]> get_contracts_public(Integer page, int region_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/contracts/public/{region_id}/".replace("{region_id}", ""+region_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id[].class));
     }
 
     /**
@@ -213,10 +205,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_corporations_npccorps(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_corporations_npccorps(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/corporations/npccorps/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -229,10 +220,9 @@ public interface G_IDCAccess
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default R_get_corporations_corporation_id_icons get_corporations_icons(int corporation_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_corporations_corporation_id_icons> get_corporations_icons(int corporation_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/icons/".replace("{corporation_id}", ""+corporation_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_icons.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_icons.class));
     }
 
     /**
@@ -242,10 +232,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_dogma_attributes(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_dogma_attributes(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/dogma/attributes/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -258,10 +247,9 @@ public interface G_IDCAccess
      * @param attribute_id
      *     A dogma attribute ID
      */
-    public default R_get_dogma_attributes_attribute_id get_dogma_attributes(int attribute_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_dogma_attributes_attribute_id> get_dogma_attributes(int attribute_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/dogma/attributes/{attribute_id}/".replace("{attribute_id}", ""+attribute_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id.class));
     }
 
     /**
@@ -276,10 +264,9 @@ public interface G_IDCAccess
      * @param type_id
      *     type_id integer
      */
-    public default R_get_dogma_dynamic_items_type_id_item_id get_dogma_dynamic_items(long item_id, int type_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_dogma_dynamic_items_type_id_item_id> get_dogma_dynamic_items(long item_id, int type_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/dogma/dynamic/items/{type_id}/{item_id}/".replace("{item_id}", ""+item_id).replace("{type_id}", ""+type_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id.class));
     }
 
     /**
@@ -289,10 +276,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_dogma_effects(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_dogma_effects(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/dogma/effects/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -302,10 +288,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default M_get_fw_leaderboards_2 get_fw_leaderboards(Map<String, List<String>> headerHandler) {
+    public default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fw/leaderboards/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
     }
 
     /**
@@ -315,10 +300,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default M_get_fw_leaderboards_2 get_fw_leaderboards_characters(Map<String, List<String>> headerHandler) {
+    public default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards_characters(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fw/leaderboards/characters/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
     }
 
     /**
@@ -328,10 +312,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default M_get_fw_leaderboards_2 get_fw_leaderboards_corporations(Map<String, List<String>> headerHandler) {
+    public default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards_corporations(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fw/leaderboards/corporations/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
     }
 
     /**
@@ -341,10 +324,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_fw_stats[] get_fw_stats(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_fw_stats[]> get_fw_stats(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fw/stats/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats[].class));
     }
 
     /**
@@ -354,10 +336,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_fw_wars[] get_fw_wars(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_fw_wars[]> get_fw_wars(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fw/wars/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars[].class));
     }
 
     /**
@@ -367,10 +348,9 @@ public interface G_IDCAccess
      * This route is cached for up to 300 seconds
      * </p>
      */
-    public default R_get_incursions[] get_incursions(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_incursions[]> get_incursions(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/incursions/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_incursions[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_incursions[].class));
     }
 
     /**
@@ -380,10 +360,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default R_get_industry_facilities[] get_industry_facilities(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_industry_facilities[]> get_industry_facilities(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/industry/facilities/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities[].class));
     }
 
     /**
@@ -393,10 +372,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default R_get_industry_systems[] get_industry_systems(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_industry_systems[]> get_industry_systems(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/industry/systems/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems[].class));
     }
 
     /**
@@ -406,10 +384,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default R_get_insurance_prices[] get_insurance_prices(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_insurance_prices[]> get_insurance_prices(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/insurance/prices/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices[].class));
     }
 
     /**
@@ -424,10 +401,9 @@ public interface G_IDCAccess
      * @param killmail_id
      *     The killmail ID to be queried
      */
-    public default R_get_killmails_killmail_id_killmail_hash get_killmails(String killmail_hash, int killmail_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_killmails_killmail_id_killmail_hash> get_killmails(String killmail_hash, int killmail_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/killmails/{killmail_id}/{killmail_hash}/".replace("{killmail_hash}", ""+killmail_hash).replace("{killmail_id}", ""+killmail_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_killmails_killmail_id_killmail_hash.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_killmails_killmail_id_killmail_hash.class));
     }
 
     /**
@@ -440,10 +416,9 @@ public interface G_IDCAccess
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default R_get_loyalty_stores_corporation_id_offers[] get_loyalty_stores_offers(int corporation_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_loyalty_stores_corporation_id_offers[]> get_loyalty_stores_offers(int corporation_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/loyalty/stores/{corporation_id}/offers/".replace("{corporation_id}", ""+corporation_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers[].class));
     }
 
     /**
@@ -453,10 +428,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_markets_groups(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_markets_groups(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/markets/groups/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -469,10 +443,9 @@ public interface G_IDCAccess
      * @param market_group_id
      *     An Eve item group ID
      */
-    public default R_get_markets_groups_market_group_id get_markets_groups(int market_group_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_markets_groups_market_group_id> get_markets_groups(int market_group_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/markets/groups/{market_group_id}/".replace("{market_group_id}", ""+market_group_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_groups_market_group_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_groups_market_group_id.class));
     }
 
     /**
@@ -482,10 +455,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default R_get_markets_prices[] get_markets_prices(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_markets_prices[]> get_markets_prices(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/markets/prices/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices[].class));
     }
 
     /**
@@ -500,10 +472,9 @@ public interface G_IDCAccess
      * @param type_id
      *     Return statistics for this type
      */
-    public default R_get_markets_region_id_history[] get_markets_history(int region_id, int type_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_markets_region_id_history[]> get_markets_history(int region_id, int type_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/markets/{region_id}/history/".replace("{region_id}", ""+region_id)+"?"+"&type_id="+flatten(type_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history[].class));
     }
 
     /**
@@ -522,10 +493,9 @@ public interface G_IDCAccess
      * @param type_id
      *     Return orders only for this type
      */
-    public default R_get_markets_region_id_orders[] get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type order_type, Integer page, int region_id, Integer type_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_markets_region_id_orders[]> get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type order_type, Integer page, int region_id, Integer type_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/markets/{region_id}/orders/".replace("{region_id}", ""+region_id)+"?"+(order_type==null?"":"&order_type="+flatten(order_type))+(page==null?"":"&page="+flatten(page))+(type_id==null?"":"&type_id="+flatten(type_id)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders[].class));
     }
 
     /**
@@ -540,10 +510,9 @@ public interface G_IDCAccess
      * @param region_id
      *     Return statistics in this region
      */
-    public default int[] get_markets_types(Integer page, int region_id, Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_markets_types(Integer page, int region_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/markets/{region_id}/types/".replace("{region_id}", ""+region_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -553,10 +522,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_opportunities_groups(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_opportunities_groups(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/opportunities/groups/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -569,10 +537,9 @@ public interface G_IDCAccess
      * @param group_id
      *     ID of an opportunities group
      */
-    public default R_get_opportunities_groups_group_id get_opportunities_groups(int group_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_opportunities_groups_group_id> get_opportunities_groups(int group_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/opportunities/groups/{group_id}/".replace("{group_id}", ""+group_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_groups_group_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_groups_group_id.class));
     }
 
     /**
@@ -582,10 +549,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_opportunities_tasks(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_opportunities_tasks(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/opportunities/tasks/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -598,10 +564,9 @@ public interface G_IDCAccess
      * @param task_id
      *     ID of an opportunities task
      */
-    public default R_get_opportunities_tasks_task_id get_opportunities_tasks(int task_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_opportunities_tasks_task_id> get_opportunities_tasks(int task_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/opportunities/tasks/{task_id}/".replace("{task_id}", ""+task_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_tasks_task_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_tasks_task_id.class));
     }
 
     /**
@@ -622,10 +587,9 @@ public interface G_IDCAccess
      * @param origin
      *     origin solar system ID
      */
-    public default int[] get_route(int[] avoid, int[][] connections, int destination, fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag, int origin, Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_route(int[] avoid, int[][] connections, int destination, fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag, int origin, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/route/{origin}/{destination}/".replace("{destination}", ""+destination).replace("{origin}", ""+origin)+"?"+(avoid==null?"":"&avoid="+flatten(avoid))+(connections==null?"":"&connections="+flatten(connections))+(flag==null?"":"&flag="+flatten(flag)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -635,10 +599,9 @@ public interface G_IDCAccess
      * This route is cached for up to 5 seconds
      * </p>
      */
-    public default R_get_sovereignty_campaigns[] get_sovereignty_campaigns(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_sovereignty_campaigns[]> get_sovereignty_campaigns(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/sovereignty/campaigns/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns[].class));
     }
 
     /**
@@ -648,10 +611,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default R_get_sovereignty_map[] get_sovereignty_map(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_sovereignty_map[]> get_sovereignty_map(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/sovereignty/map/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map[].class));
     }
 
     /**
@@ -661,10 +623,9 @@ public interface G_IDCAccess
      * This route is cached for up to 120 seconds
      * </p>
      */
-    public default R_get_sovereignty_structures[] get_sovereignty_structures(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_sovereignty_structures[]> get_sovereignty_structures(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/sovereignty/structures/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures[].class));
     }
 
     /**
@@ -674,10 +635,9 @@ public interface G_IDCAccess
      * This route is cached for up to 30 seconds
      * </p>
      */
-    public default R_get_status get_status(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_status> get_status(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/status/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status.class));
     }
 
     /**
@@ -687,10 +647,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_universe_ancestries[] get_universe_ancestries(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_ancestries[]> get_universe_ancestries(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/ancestries/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_ancestries[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_ancestries[].class));
     }
 
     /**
@@ -703,10 +662,9 @@ public interface G_IDCAccess
      * @param asteroid_belt_id
      *     asteroid_belt_id integer
      */
-    public default R_get_universe_asteroid_belts_asteroid_belt_id get_universe_asteroid_belts(int asteroid_belt_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_asteroid_belts_asteroid_belt_id> get_universe_asteroid_belts(int asteroid_belt_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/asteroid_belts/{asteroid_belt_id}/".replace("{asteroid_belt_id}", ""+asteroid_belt_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id.class));
     }
 
     /**
@@ -716,10 +674,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_universe_bloodlines[] get_universe_bloodlines(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_bloodlines[]> get_universe_bloodlines(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/bloodlines/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_bloodlines[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_bloodlines[].class));
     }
 
     /**
@@ -729,10 +686,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_universe_categories(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_universe_categories(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/categories/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -745,10 +701,9 @@ public interface G_IDCAccess
      * @param category_id
      *     An Eve item category ID
      */
-    public default R_get_universe_categories_category_id get_universe_categories(int category_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_categories_category_id> get_universe_categories(int category_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/categories/{category_id}/".replace("{category_id}", ""+category_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id.class));
     }
 
     /**
@@ -758,10 +713,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_universe_constellations(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_universe_constellations(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/constellations/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -774,10 +728,9 @@ public interface G_IDCAccess
      * @param constellation_id
      *     constellation_id integer
      */
-    public default R_get_universe_constellations_constellation_id get_universe_constellations(int constellation_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_constellations_constellation_id> get_universe_constellations(int constellation_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/constellations/{constellation_id}/".replace("{constellation_id}", ""+constellation_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id.class));
     }
 
     /**
@@ -787,10 +740,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_universe_graphics(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_universe_graphics(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/graphics/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -803,10 +755,9 @@ public interface G_IDCAccess
      * @param graphic_id
      *     graphic_id integer
      */
-    public default R_get_universe_graphics_graphic_id get_universe_graphics(int graphic_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_graphics_graphic_id> get_universe_graphics(int graphic_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/graphics/{graphic_id}/".replace("{graphic_id}", ""+graphic_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_graphics_graphic_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_graphics_graphic_id.class));
     }
 
     /**
@@ -819,10 +770,9 @@ public interface G_IDCAccess
      * @param page
      *     Which page of results to return
      */
-    public default int[] get_universe_groups(Integer page, Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_universe_groups(Integer page, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/groups/"+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -835,10 +785,9 @@ public interface G_IDCAccess
      * @param group_id
      *     An Eve item group ID
      */
-    public default R_get_universe_groups_group_id get_universe_groups(int group_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_groups_group_id> get_universe_groups(int group_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/groups/{group_id}/".replace("{group_id}", ""+group_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id.class));
     }
 
     /**
@@ -850,12 +799,11 @@ public interface G_IDCAccess
      * @param names
      *     The names to resolve
      */
-    public default R_post_universe_ids post_universe_ids(String[] names, Map<String, List<String>> headerHandler) {
+    public default Requested<R_post_universe_ids> post_universe_ids(String[] names, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/ids/");
         Map<String, Object> content = new HashMap<>();
         content.put("names", names);
-        String fetched = connectPost(url, content, headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_ids.class));
+        return requestPost(url, properties, content, R_post_universe_ids.class);
     }
 
     /**
@@ -868,10 +816,9 @@ public interface G_IDCAccess
      * @param moon_id
      *     moon_id integer
      */
-    public default R_get_universe_moons_moon_id get_universe_moons(int moon_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_moons_moon_id> get_universe_moons(int moon_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/moons/{moon_id}/".replace("{moon_id}", ""+moon_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_moons_moon_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_moons_moon_id.class));
     }
 
     /**
@@ -884,10 +831,9 @@ public interface G_IDCAccess
      * @param planet_id
      *     planet_id integer
      */
-    public default R_get_universe_planets_planet_id get_universe_planets(int planet_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_planets_planet_id> get_universe_planets(int planet_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/planets/{planet_id}/".replace("{planet_id}", ""+planet_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id.class));
     }
 
     /**
@@ -897,10 +843,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_universe_races[] get_universe_races(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_races[]> get_universe_races(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/races/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_races[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_races[].class));
     }
 
     /**
@@ -910,10 +855,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_universe_regions(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_universe_regions(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/regions/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -926,10 +870,9 @@ public interface G_IDCAccess
      * @param region_id
      *     region_id integer
      */
-    public default R_get_universe_regions_region_id get_universe_regions(int region_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_regions_region_id> get_universe_regions(int region_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/regions/{region_id}/".replace("{region_id}", ""+region_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id.class));
     }
 
     /**
@@ -942,10 +885,9 @@ public interface G_IDCAccess
      * @param schematic_id
      *     A PI schematic ID
      */
-    public default R_get_universe_schematics_schematic_id get_universe_schematics(int schematic_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_schematics_schematic_id> get_universe_schematics(int schematic_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/schematics/{schematic_id}/".replace("{schematic_id}", ""+schematic_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_schematics_schematic_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_schematics_schematic_id.class));
     }
 
     /**
@@ -958,10 +900,9 @@ public interface G_IDCAccess
      * @param stargate_id
      *     stargate_id integer
      */
-    public default R_get_universe_stargates_stargate_id get_universe_stargates(int stargate_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_stargates_stargate_id> get_universe_stargates(int stargate_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/stargates/{stargate_id}/".replace("{stargate_id}", ""+stargate_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id.class));
     }
 
     /**
@@ -974,10 +915,9 @@ public interface G_IDCAccess
      * @param star_id
      *     star_id integer
      */
-    public default R_get_universe_stars_star_id get_universe_stars(int star_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_stars_star_id> get_universe_stars(int star_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/stars/{star_id}/".replace("{star_id}", ""+star_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stars_star_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stars_star_id.class));
     }
 
     /**
@@ -987,10 +927,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default long[] get_universe_structures(Map<String, List<String>> headerHandler) {
+    public default Requested<Long[]> get_universe_structures(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/structures/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (long[].class));
+        return (requestGet(url, properties,java.lang.Long[].class));
     }
 
     /**
@@ -1000,10 +939,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default R_get_universe_system_jumps[] get_universe_system_jumps(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_system_jumps[]> get_universe_system_jumps(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/system_jumps/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps[].class));
     }
 
     /**
@@ -1013,10 +951,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default int[] get_universe_systems(Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_universe_systems(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/systems/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -1029,10 +966,9 @@ public interface G_IDCAccess
      * @param page
      *     Which page of results to return
      */
-    public default int[] get_universe_types(Integer page, Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_universe_types(Integer page, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/universe/types/"+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -1045,10 +981,9 @@ public interface G_IDCAccess
      * @param max_war_id
      *     Only return wars with ID smaller than this
      */
-    public default int[] get_wars(Integer max_war_id, Map<String, List<String>> headerHandler) {
+    public default Requested<Integer[]> get_wars(Integer max_war_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/wars/"+"?"+(max_war_id==null?"":"&max_war_id="+flatten(max_war_id)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (int[].class));
+        return (requestGet(url, properties,java.lang.Integer[].class));
     }
 
     /**
@@ -1061,10 +996,9 @@ public interface G_IDCAccess
      * @param war_id
      *     ID for a war
      */
-    public default R_get_wars_war_id get_wars(int war_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_wars_war_id> get_wars(int war_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/wars/{war_id}/".replace("{war_id}", ""+war_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id.class));
     }
 
     /**
@@ -1079,10 +1013,9 @@ public interface G_IDCAccess
      * @param war_id
      *     A valid war ID
      */
-    public default M_get_killmails_2 [] get_wars_killmails(Integer page, int war_id, Map<String, List<String>> headerHandler) {
+    public default Requested<M_get_killmails_2 []> get_wars_killmails(Integer page, int war_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/wars/{war_id}/killmails/".replace("{war_id}", ""+war_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2[].class));
     }
 
     /**
@@ -1095,10 +1028,9 @@ public interface G_IDCAccess
      * @param character_id
      *     An EVE character ID
      */
-    public default R_get_characters_character_id_portrait get_characters_portrait(int character_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_characters_character_id_portrait> get_characters_portrait(int character_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/portrait/".replace("{character_id}", ""+character_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_portrait.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_portrait.class));
     }
 
     /**
@@ -1111,10 +1043,9 @@ public interface G_IDCAccess
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default R_get_corporations_corporation_id_alliancehistory[] get_corporations_alliancehistory(int corporation_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_corporations_corporation_id_alliancehistory[]> get_corporations_alliancehistory(int corporation_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/alliancehistory/".replace("{corporation_id}", ""+corporation_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_alliancehistory[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_alliancehistory[].class));
     }
 
     /**
@@ -1127,10 +1058,9 @@ public interface G_IDCAccess
      * @param effect_id
      *     A dogma effect ID
      */
-    public default R_get_dogma_effects_effect_id get_dogma_effects(int effect_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_dogma_effects_effect_id> get_dogma_effects(int effect_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/dogma/effects/{effect_id}/".replace("{effect_id}", ""+effect_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id.class));
     }
 
     /**
@@ -1140,10 +1070,9 @@ public interface G_IDCAccess
      * This route is cached for up to 1800 seconds
      * </p>
      */
-    public default R_get_fw_systems[] get_fw_systems(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_fw_systems[]> get_fw_systems(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/fw/systems/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems[].class));
     }
 
     /**
@@ -1160,10 +1089,9 @@ public interface G_IDCAccess
      * @param strict
      *     Whether the search should be a strict match
      */
-    public default R_get_search get(String[] categories, String search, Boolean strict, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_search> get(String[] categories, String search, Boolean strict, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/search/"+"?"+(categories==null?"":"&categories="+flatten(categories))+(search==null?"":"&search="+flatten(search))+(strict==null?"":"&strict="+flatten(strict)));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_search.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_search.class));
     }
 
     /**
@@ -1173,10 +1101,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_universe_factions[] get_universe_factions(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_factions[]> get_universe_factions(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/universe/factions/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions[].class));
     }
 
     /**
@@ -1188,12 +1115,11 @@ public interface G_IDCAccess
      * @param ids
      *     The ids to resolve
      */
-    public default R_post_universe_names[] post_universe_names(int[] ids, Map<String, List<String>> headerHandler) {
+    public default Requested<R_post_universe_names[]> post_universe_names(int[] ids, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/universe/names/");
         Map<String, Object> content = new HashMap<>();
         content.put("ids", ids);
-        String fetched = connectPost(url, content, headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names[].class));
+        return requestPost(url, properties, content, R_post_universe_names[].class);
     }
 
     /**
@@ -1206,10 +1132,9 @@ public interface G_IDCAccess
      * @param station_id
      *     station_id integer
      */
-    public default R_get_universe_stations_station_id get_universe_stations(int station_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_stations_station_id> get_universe_stations(int station_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/universe/stations/{station_id}/".replace("{station_id}", ""+station_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id.class));
     }
 
     /**
@@ -1219,10 +1144,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default R_get_universe_system_kills[] get_universe_system_kills(Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_system_kills[]> get_universe_system_kills(Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/universe/system_kills/");
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills[].class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills[].class));
     }
 
     /**
@@ -1235,10 +1159,9 @@ public interface G_IDCAccess
      * @param alliance_id
      *     An EVE alliance ID
      */
-    public default R_get_alliances_alliance_id get_alliances(int alliance_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_alliances_alliance_id> get_alliances(int alliance_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v3/alliances/{alliance_id}/".replace("{alliance_id}", ""+alliance_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id.class));
     }
 
     /**
@@ -1251,10 +1174,9 @@ public interface G_IDCAccess
      * @param type_id
      *     An Eve item type ID
      */
-    public default R_get_universe_types_type_id get_universe_types(int type_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_types_type_id> get_universe_types(int type_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v3/universe/types/{type_id}/".replace("{type_id}", ""+type_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id.class));
     }
 
     /**
@@ -1267,10 +1189,9 @@ public interface G_IDCAccess
      * @param character_id
      *     An EVE character ID
      */
-    public default R_get_characters_character_id get_characters(int character_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_characters_character_id> get_characters(int character_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v4/characters/{character_id}/".replace("{character_id}", ""+character_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id.class));
     }
 
     /**
@@ -1283,10 +1204,9 @@ public interface G_IDCAccess
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default R_get_corporations_corporation_id get_corporations(int corporation_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_corporations_corporation_id> get_corporations(int corporation_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v4/corporations/{corporation_id}/".replace("{corporation_id}", ""+corporation_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id.class));
     }
 
     /**
@@ -1299,9 +1219,8 @@ public interface G_IDCAccess
      * @param system_id
      *     system_id integer
      */
-    public default R_get_universe_systems_system_id get_universe_systems(int system_id, Map<String, List<String>> headerHandler) {
+    public default Requested<R_get_universe_systems_system_id> get_universe_systems(int system_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v4/universe/systems/{system_id}/".replace("{system_id}", ""+system_id));
-        String fetched=connectGet(url,headerHandler);
-        return convert((fetched), (fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id.class));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id.class));
     }
 }

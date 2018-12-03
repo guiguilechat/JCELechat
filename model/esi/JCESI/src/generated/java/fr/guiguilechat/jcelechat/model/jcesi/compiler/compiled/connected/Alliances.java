@@ -40,7 +40,7 @@ public class Alliances {
                     ret = (cache).toHolder(holder);
                     get_alliances_alliance_id_contacts_labels_holder.put(alliance_id, ret);
                     ObsListHolder<M_get_contacts_labels_2> finalRet = ret;
-                    (cache).addFetchCacheArray("get_alliances_alliance_id_contacts_labels", (page, headerHandler) -> (cache.swagger).get_alliances_contacts_labels(alliance_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_alliances_alliance_id_contacts_labels", (page, properties) -> (cache.swagger).get_alliances_contacts_labels(alliance_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -79,7 +79,7 @@ public class Alliances {
                     ret = (cache).toHolder(holder);
                     get_alliances_alliance_id_contacts_holder.put(alliance_id, ret);
                     ObsListHolder<R_get_alliances_alliance_id_contacts> finalRet = ret;
-                    (cache).addFetchCacheArray("get_alliances_alliance_id_contacts", (page, headerHandler) -> (cache.swagger).get_alliances_contacts(alliance_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_alliances_alliance_id_contacts", (page, properties) -> (cache.swagger).get_alliances_contacts(alliance_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

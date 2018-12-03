@@ -42,7 +42,7 @@ public class Search {
                     SimpleObjectProperty<R_get_search> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_search_holder.put(param, ret);
-                    (cache).addFetchCacheObject("get_search", headerHandler -> (cache.swagger).get(categories, search, strict, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_search", properties -> (cache.swagger).get(categories, search, strict, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

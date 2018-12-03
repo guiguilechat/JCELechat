@@ -11,14 +11,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.AbstractJType;
 import com.helger.jcodemodel.IJExpression;
 import com.helger.jcodemodel.JArray;
@@ -41,6 +37,7 @@ import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import io.swagger.models.ArrayModel;
 import io.swagger.models.Model;
 import io.swagger.models.ModelImpl;
@@ -73,7 +70,7 @@ public class PathTranslator {
 		get, post, put, delete;
 	};
 
-	protected String headerHandlerName = "headerHandler";
+	protected String propsParamName = "properties";
 
 	public PathTranslator(Operation operation, OpType optype, String path, ClassBridge bridge) {
 		this.operation = operation;
@@ -85,19 +82,26 @@ public class PathTranslator {
 	}
 
 	protected Response response;
+
 	/**
 	 * flat type of resource produced by the http fetch. if the fetch actually
 	 * produces an array, this is the item type of the array, eg int[] will
 	 * resolve to int.
 	 */
+	protected AbstractJType resourceFlatType;
+
+	/**
+	 * type we convert the resource into. typically the exact translation of the
+	 * response's model.
+	 */
 	protected AbstractJType resourceType;
 
-	/** the structure of the resource we fetch */
+	/** the structure of the resource we fetch : none, map, list, object */
 	protected RETURNTYPE resourceStructure;
 
 	/**
 	 * return type of the fetch method. if resourcestructure is object, then it
-	 * will be resourceType; if map, then map string>resourcetype ; if list, list
+	 * will be resourceType; if map, then map string=>resourcetype ; if list, list
 	 * resourcetype
 	 */
 	protected AbstractJType fetchRetType;
@@ -120,8 +124,6 @@ public class PathTranslator {
 
 		switch (optype) {
 		case post:
-		case put:
-			String methName = optype == OpType.post ? "connectPost" : "connectPut";
 			JVar content = null;
 			if (!bodyparameters.isEmpty()) {
 				content = fetchMeth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
@@ -131,28 +133,34 @@ public class PathTranslator {
 					fetchMeth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
 				}
 			}
-			if (resourceStructure == RETURNTYPE.NONE) {
-				fetchMeth.body().add(JExpr.invoke(methName).arg(url)
-						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content).arg(headerParam));
-			} else {
-				JVar fetched = fetchMeth.body().decl(cm.ref(String.class), "fetched");
-				fetched.init(JExpr.invoke(methName).arg(url)
-						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content).arg(headerParam));
+			fetchMeth.body()._return(JExpr.invoke("requestPost").arg(url).arg(propsParam)
+					.arg(content == null ? JExpr._null() : content).arg(JExpr.dotclass(resourceType.boxify())));
+			break;
+		case put:
+			content = null;
+			if (!bodyparameters.isEmpty()) {
+				content = fetchMeth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
+						"content");
+				content.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+				for (JVar p : bodyparameters) {
+					fetchMeth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
+				}
 			}
+			fetchMeth.body()
+			._return(JExpr.invoke("requestPut").arg(url).arg(propsParam)
+					.arg(content == null ? JExpr._null() : content));
 			break;
 		case get:
-			fetchMeth.body().directStatement("String fetched=" + "connectGet(url," + headerHandlerName + ");");
+			fetchMeth.body()
+			._return(
+					JExpr.direct("requestGet(url, " + propsParamName + "," + resourceType.binaryName() + ".class)"));
 			createCache();
 			break;
 		case delete:
-			fetchMeth.body().directStatement("connectDel(url," + headerHandlerName + ");");
+			fetchMeth.body()._return(JExpr.direct("requestDel(url, " + propsParamName + ")"));
 			break;
 		default:
 			throw new UnsupportedOperationException("unsupported type " + optype + " for path " + path);
-		}
-		if (resourceStructure != RETURNTYPE.NONE) {
-			fetchMeth.body()._return(
-					JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(fetchRetType.binaryName() + ".class")));
 		}
 	}
 
@@ -202,7 +210,7 @@ public class PathTranslator {
 		url = fetchMeth.body().decl(cm.ref(String.class), "url");
 		url.init(JExpr.direct(urlAssign));
 
-		headerParam = fetchMeth.param(bridge.headerhandlertype(), headerHandlerName);
+		propsParam = fetchMeth.param(bridge.propertiesType(), propsParamName);
 	}
 
 	/**
@@ -212,22 +220,26 @@ public class PathTranslator {
 		Model m = response.getResponseSchema();
 		if (m == null) {
 			resourceStructure = RETURNTYPE.NONE;
-			resourceType = fetchRetType = cm.VOID;
+			resourceType = resourceFlatType = cm.VOID;
+			fetchRetType = cm.ref(Requested.class).narrow(resourceType);
 		} else if (m.getClass() == ArrayModel.class) {
 			ArrayModel am = (ArrayModel) m;
 			resourceStructure = RETURNTYPE.LIST;
-			resourceType = bridge.getReponseClass(am.getItems());
-			fetchRetType = resourceType.array();
+			resourceFlatType = bridge.getReponseClass(am.getItems());
+			resourceType = resourceFlatType.boxify().array();
+			fetchRetType = cm.ref(Requested.class).narrow(resourceType);
 		} else if (m.getClass() == ModelImpl.class) {
 			ModelImpl mi = (ModelImpl) m;
 			if (mi.getAdditionalProperties() != null) {
 				resourceStructure = RETURNTYPE.MAP;
-				resourceType = bridge.getReponseClass(mi.getAdditionalProperties());
-				fetchRetType = cm.ref(Map.class).narrow(cm.ref(String.class), resourceType.boxify());
+				resourceFlatType = bridge.getReponseClass(mi.getAdditionalProperties());
+				resourceType = cm.ref(Map.class).narrow(cm.ref(String.class), resourceFlatType.boxify());
+				fetchRetType = cm.ref(Requested.class).narrow(resourceType);
 			} else {
 				resourceStructure = RETURNTYPE.OBJECT;
-				resourceType = fetchRetType = bridge
+				resourceType = resourceFlatType = bridge
 						.getReponseClass(new PropertyModelConverter().modelToProperty(response.getResponseSchema()));
+				fetchRetType = cm.ref(Requested.class).narrow(resourceType);
 			}
 		} else {
 			logger.warn("can't apply to path class " + m.getClass());
@@ -263,7 +275,7 @@ public class PathTranslator {
 	private List<JVar> allParams = new ArrayList<>();
 
 	/** argument of the fetch method for the header handler */
-	JVar headerParam;
+	JVar propsParam;
 
 	/**
 	 * extract the parameters from an operation and put them in corresponding
@@ -391,7 +403,12 @@ public class PathTranslator {
 
 	String cacheFieldName;
 
+	protected boolean skipCache = false;
+
 	protected void createCache() {
+		if (skipCache) {
+			return;
+		}
 		cacheFieldName = operation.getOperationId().split("_")[1];
 		cacheGroup = bridge.getCacheGroupClass(cacheFieldName, connected);
 
@@ -399,18 +416,18 @@ public class PathTranslator {
 		if (resourceStructure == RETURNTYPE.LIST) {
 			findCacheRetUniqueField();
 			if (cacheRetUniqueField != null) {
-				cacheRetType = cm.ref(ObsMapHolder.class).narrow(cacheRetUniqueField.type().boxify(), resourceType.boxify());
+				cacheRetType = cm.ref(ObsMapHolder.class).narrow(cacheRetUniqueField.type().boxify(), resourceFlatType.boxify());
 				cacheHolderType = cm.ref(ObservableMap.class).narrow(cacheRetUniqueField.type().boxify(),
-						resourceType.boxify());
+						resourceFlatType.boxify());
 				cacheRetTransform = RETURNTYPE.MAP;
 			} else {
-				cacheRetType = cm.ref(ObsListHolder.class).narrow(resourceType.boxify());
-				cacheHolderType = cm.ref(ObservableList.class).narrow(resourceType.boxify());
+				cacheRetType = cm.ref(ObsListHolder.class).narrow(resourceFlatType.boxify());
+				cacheHolderType = cm.ref(ObservableList.class).narrow(resourceFlatType.boxify());
 				cacheRetTransform = RETURNTYPE.LIST;
 			}
 		} else {
-			cacheRetType = cm.ref(ObsObjHolder.class).narrow(resourceType.boxify());
-			cacheHolderType = cm.ref(javafx.beans.property.Property.class).narrow(resourceType.boxify());
+			cacheRetType = cm.ref(ObsObjHolder.class).narrow(resourceFlatType.boxify());
+			cacheHolderType = cm.ref(javafx.beans.property.Property.class).narrow(resourceFlatType.boxify());
 			cacheRetTransform = RETURNTYPE.OBJECT;
 		}
 
@@ -435,7 +452,7 @@ public class PathTranslator {
 		// after that we need to know the parameters
 
 		for (JVar v : allParams) {
-			if (!v.name().equals(headerHandlerName) && !v.name().equals("page")) {
+			if (!v.name().equals(propsParamName) && !v.name().equals("page")) {
 				cacheParams.add(cacheMeth.param(v.type(), v.name()));
 				Parameter vp = operation.getParameters().stream().filter(p -> p.getName().equals(v.name())).findFirst()
 						.orElse(null);
@@ -535,7 +552,7 @@ public class PathTranslator {
 		}
 		if (uniqueFields.size() == 1) {
 			String name = uniqueFields.get(0);
-			AbstractJType fetchSub = ((JArrayClass) fetchRetType).elementType();
+			AbstractJType fetchSub = ((JArrayClass) resourceType).elementType();
 			if (fetchSub instanceof JDefinedClass) {
 				cacheRetUniqueField = ((JDefinedClass) fetchSub).fields().get(name);
 			} else {
@@ -560,11 +577,11 @@ public class PathTranslator {
 	 * returns an object
 	 */
 	protected void createCache_NoParam_Container() {
-		cacheContainer = cacheGroup.field(JMod.PRIVATE, cm.ref(ObsObjHolder.class).narrow(resourceType.boxify()),
+		cacheContainer = cacheGroup.field(JMod.PRIVATE, cm.ref(ObsObjHolder.class).narrow(resourceFlatType.boxify()),
 				operation.getOperationId() + "_holder");
 		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this()).body()
 				._if(cacheContainer.eqNull())._then();
-		JVar holder = instanceBlock.decl(cm.ref(SimpleObjectProperty.class).narrow(resourceType.boxify()), "holder")
+		JVar holder = instanceBlock.decl(cm.ref(SimpleObjectProperty.class).narrow(resourceFlatType.boxify()), "holder")
 				.init(JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
 		instanceBlock.assign(cacheContainer, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
 		JInvocation invoke = instanceBlock.invoke(JExpr.direct("cache"), bridge.methFetchCacheObject())
@@ -649,7 +666,7 @@ public class PathTranslator {
 			JLambdaParam page = lambdaFetch.addParam("page");
 			paramsByName.put(page.name(), page);
 		}
-		JLambdaParam head = lambdaFetch.addParam("headerHandler");
+		JLambdaParam head = lambdaFetch.addParam(propsParamName);
 		paramsByName.put(head.name(), head);
 		for (JVar p : cacheParams) {
 			paramsByName.put(p.name(), p);
@@ -661,27 +678,6 @@ public class PathTranslator {
 				System.err.println("getting arg " + v.name() + " from " + paramsByName);
 			}
 			callmeth.arg(v2);
-		}
-		if (cacheRetTransform != RETURNTYPE.OBJECT && resourceType.isPrimitive()) {
-			IJExpression convert, toArr;
-			AbstractJClass streamType;
-			if (resourceType == cm.INT) {
-				convert = JExpr.direct("Integer::valueOf");
-				toArr = JExpr.direct("Integer[]::new");
-				streamType = cm.ref(IntStream.class);
-			} else if (resourceType == cm.LONG) {
-				convert = JExpr.direct("Long::valueOf");
-				toArr = JExpr.direct("Long[]::new");
-				streamType = cm.ref(LongStream.class);
-			} else if (resourceType == cm.DOUBLE) {
-				convert = JExpr.direct("Double::valueOf");
-				toArr = JExpr.direct("Double[]::new");
-				streamType = cm.ref(DoubleStream.class);
-			} else {
-				throw new UnsupportedOperationException("handle type " + resourceType);
-			}
-			callmeth = streamType.staticInvoke("of").arg(callmeth).invoke("mapToObj").arg(convert).invoke("toArray")
-					.arg(toArr);
 		}
 		lambdaFetch.body().add(callmeth);
 		return lambdaFetch;
@@ -707,10 +703,10 @@ public class PathTranslator {
 		JBlock setBody = sync(lambdaSet.body(), holder).body();
 		// linkedhashmap<key, resource> newmap = new linkedhashmap<>();
 		JVar newmap = setBody
-				.decl(cm.ref(LinkedHashMap.class).narrow(cacheRetUniqueField.type()).narrow(resourceType), "newmap")
+				.decl(cm.ref(LinkedHashMap.class).narrow(cacheRetUniqueField.type()).narrow(resourceFlatType), "newmap")
 				.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
 		// for (val : arr) newmap.put(val.unique, val)
-		setBody.forEach(resourceType, "val", arr).body().invoke(newmap, "put")
+		setBody.forEach(resourceFlatType, "val", arr).body().invoke(newmap, "put")
 		.arg(JExpr.direct("val." + cacheRetUniqueField.name())).arg(JExpr.direct("val"));
 		// container.entrySet().retainAll(newMap.entrySet())
 		setBody.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
@@ -739,7 +735,7 @@ public class PathTranslator {
 		JVar ret = cacheMeth.body().decl(cacheRetType, "ret");
 		JBlock instanceBlock = createTestNullCase(cacheMeth.body(), ret, cacheContainer.invoke("get").arg(cacheParam),
 				cacheContainer);
-		JVar holder = instanceBlock.decl(cm.ref(SimpleObjectProperty.class).narrow(resourceType), "holder")
+		JVar holder = instanceBlock.decl(cm.ref(SimpleObjectProperty.class).narrow(resourceFlatType), "holder")
 				.init(JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
 		instanceBlock.assign(ret, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
 		instanceBlock.invoke(cacheContainer, "put").arg(cacheParam).arg(ret);
@@ -832,10 +828,10 @@ public class PathTranslator {
 		JBlock setBody = sync(lambdaSet.body(), holder).body();
 		// linkedhashmap<key, resource> newmap = new linkedhashmap<>();
 		JVar newmap = setBody
-				.decl(cm.ref(LinkedHashMap.class).narrow(cacheRetUniqueField.type()).narrow(resourceType), "newmap")
+				.decl(cm.ref(LinkedHashMap.class).narrow(cacheRetUniqueField.type()).narrow(resourceFlatType), "newmap")
 				.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
 		// for (val : arr) newmap.put(val.unique, val)
-		setBody.forEach(resourceType, "val", arr).body().invoke(newmap, "put")
+		setBody.forEach(resourceFlatType, "val", arr).body().invoke(newmap, "put")
 		.arg(JExpr.direct("val." + cacheRetUniqueField.name())).arg(JExpr.direct("val"));
 		// container.entrySet().retainAll(newMap.entrySet())
 		setBody.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));

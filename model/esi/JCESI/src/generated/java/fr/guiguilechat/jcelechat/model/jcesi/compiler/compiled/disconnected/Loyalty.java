@@ -38,7 +38,7 @@ public class Loyalty {
                     ret = (cache).toHolder(holder);
                     get_loyalty_stores_corporation_id_offers_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_loyalty_stores_corporation_id_offers> finalRet = ret;
-                    (cache).addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, headerHandler) -> (cache.swagger).get_loyalty_stores_offers(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, properties) -> (cache.swagger).get_loyalty_stores_offers(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

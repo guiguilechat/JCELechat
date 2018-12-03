@@ -45,7 +45,7 @@ public class Contracts {
                     ret = (cache).toHolder(holder);
                     get_contracts_public_bids_contract_id_holder.put(contract_id, ret);
                     ObsMapHolder<Integer, R_get_contracts_public_bids_contract_id> finalRet = ret;
-                    (cache).addFetchCacheArray("get_contracts_public_bids_contract_id", (page, headerHandler) -> (cache.swagger).get_contracts_public_bids(contract_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_contracts_public_bids_contract_id", (page, properties) -> (cache.swagger).get_contracts_public_bids(contract_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -89,7 +89,7 @@ public class Contracts {
                     ret = (cache).toHolder(holder);
                     get_contracts_public_items_contract_id_holder.put(contract_id, ret);
                     ObsListHolder<R_get_contracts_public_items_contract_id> finalRet = ret;
-                    (cache).addFetchCacheArray("get_contracts_public_items_contract_id", (page, headerHandler) -> (cache.swagger).get_contracts_public_items(contract_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_contracts_public_items_contract_id", (page, properties) -> (cache.swagger).get_contracts_public_items(contract_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -128,7 +128,7 @@ public class Contracts {
                     ret = (cache).toHolder(holder);
                     get_contracts_public_region_id_holder.put(region_id, ret);
                     ObsListHolder<R_get_contracts_public_region_id> finalRet = ret;
-                    (cache).addFetchCacheArray("get_contracts_public_region_id", (page, headerHandler) -> (cache.swagger).get_contracts_public(page, region_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_contracts_public_region_id", (page, properties) -> (cache.swagger).get_contracts_public(page, region_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

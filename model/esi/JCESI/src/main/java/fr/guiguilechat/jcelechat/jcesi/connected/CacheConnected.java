@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.jcesi.impl.ObsObjHolderImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
@@ -40,13 +41,14 @@ public class CacheConnected extends SwaggerCOCache<ESIConnected> {
 	// execution of data retrieval
 
 	@Override
-	public <U> Pausable addFetchCacheArray(String name, BiFunction<Integer, Map<String, List<String>>, U[]> fetcher,
+	public <U> Pausable addFetchCacheArray(String name,
+			BiFunction<Integer, Map<String, String>, Requested<U[]>> fetcher,
 			Consumer<List<U>> cacheHandler, String... requiredRoles) {
 		return swagger.addFetchCacheArray(name, fetcher, cacheHandler, requiredRoles);
 	}
 
 	@Override
-	public <U> Pausable addFetchCacheObject(String name, Function<Map<String, List<String>>, U> fetcher,
+	public <U> Pausable addFetchCacheObject(String name, Function<Map<String, String>, Requested<U>> fetcher,
 			Consumer<U> cacheHandler, String... requiredRoles) {
 		return swagger.addFetchCacheObject(swagger.verify().CharacterName + "." + name, fetcher, cacheHandler,
 				requiredRoles);

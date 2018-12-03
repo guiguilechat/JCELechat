@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
@@ -115,7 +114,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_bookmarks_holder.put(corporation_id, ret);
                     ObsListHolder<M_get_bookmarks_9> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_bookmarks", (page, headerHandler) -> (cache.swagger).get_corporations_bookmarks(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_bookmarks", (page, properties) -> (cache.swagger).get_corporations_bookmarks(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -154,7 +153,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_bookmarks_folders_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_bookmarks_folders> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_bookmarks_folders", (page, headerHandler) -> (cache.swagger).get_corporations_bookmarks_folders(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_bookmarks_folders", (page, properties) -> (cache.swagger).get_corporations_bookmarks_folders(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -193,7 +192,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_contacts_labels_holder.put(corporation_id, ret);
                     ObsListHolder<M_get_contacts_labels_2> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_contacts_labels", (page, headerHandler) -> (cache.swagger).get_corporations_contacts_labels(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_contacts_labels", (page, properties) -> (cache.swagger).get_corporations_contacts_labels(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -232,7 +231,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_contracts_holder.put(corporation_id, ret);
                     ObsListHolder<M_get_contracts_22> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_contracts", (page, headerHandler) -> (cache.swagger).get_corporations_contracts(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_contracts", (page, properties) -> (cache.swagger).get_corporations_contracts(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -274,7 +273,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_contracts_contract_id_bids_holder.put(param, ret);
                     ObsMapHolder<Integer, M_get_contracts_contract_bids_4> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_bids", (page, headerHandler) -> (cache.swagger).get_corporations_contracts_bids(contract_id, corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_bids", (page, properties) -> (cache.swagger).get_corporations_contracts_bids(contract_id, corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -321,7 +320,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_contracts_contract_id_items_holder.put(param, ret);
                     ObsMapHolder<Long, M_get_contracts_contract_items_6> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_items", (page, headerHandler) -> (cache.swagger).get_corporations_contracts_items(contract_id, corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_items", (page, properties) -> (cache.swagger).get_corporations_contracts_items(contract_id, corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -365,7 +364,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_customs_offices_holder.put(corporation_id, ret);
                     ObsMapHolder<Long, R_get_corporations_corporation_id_customs_offices> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_customs_offices", (page, headerHandler) -> (cache.swagger).get_corporations_customs_offices(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_customs_offices", (page, properties) -> (cache.swagger).get_corporations_customs_offices(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -408,7 +407,7 @@ public class Corporations {
                     SimpleObjectProperty<R_get_corporations_corporation_id_divisions> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_divisions_holder.put(corporation_id, ret);
-                    (cache).addFetchCacheObject("get_corporations_corporation_id_divisions", headerHandler -> (cache.swagger).get_corporations_divisions(corporation_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_corporations_corporation_id_divisions", properties -> (cache.swagger).get_corporations_divisions(corporation_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -446,7 +445,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_facilities_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_facilities> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_facilities", (page, headerHandler) -> (cache.swagger).get_corporations_facilities(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_facilities", (page, properties) -> (cache.swagger).get_corporations_facilities(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -484,7 +483,7 @@ public class Corporations {
                     SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_fw_stats_holder.put(corporation_id, ret);
-                    (cache).addFetchCacheObject("get_corporations_corporation_id_fw_stats", headerHandler -> (cache.swagger).get_corporations_fw_stats(corporation_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_corporations_corporation_id_fw_stats", properties -> (cache.swagger).get_corporations_fw_stats(corporation_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -525,7 +524,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_industry_jobs_holder.put(param, ret);
                     ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_industry_jobs", (page, headerHandler) -> (cache.swagger).get_corporations_industry_jobs(corporation_id, include_completed, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_industry_jobs", (page, properties) -> (cache.swagger).get_corporations_industry_jobs(corporation_id, include_completed, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -569,7 +568,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_killmails_recent_holder.put(corporation_id, ret);
                     ObsListHolder<M_get_killmails_2> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_killmails_recent", (page, headerHandler) -> (cache.swagger).get_corporations_killmails_recent(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_killmails_recent", (page, properties) -> (cache.swagger).get_corporations_killmails_recent(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -608,7 +607,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_medals_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_medals> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_medals", (page, headerHandler) -> (cache.swagger).get_corporations_medals(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_medals", (page, properties) -> (cache.swagger).get_corporations_medals(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -647,7 +646,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_medals_issued_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_medals_issued> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_medals_issued", (page, headerHandler) -> (cache.swagger).get_corporations_medals_issued(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_medals_issued", (page, properties) -> (cache.swagger).get_corporations_medals_issued(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -685,7 +684,7 @@ public class Corporations {
                     SimpleObjectProperty<Integer> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_members_limit_holder.put(corporation_id, ret);
-                    (cache).addFetchCacheObject("get_corporations_corporation_id_members_limit", headerHandler -> (cache.swagger).get_corporations_members_limit(corporation_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_corporations_corporation_id_members_limit", properties -> (cache.swagger).get_corporations_members_limit(corporation_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -723,7 +722,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_members_titles_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_members_titles> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_members_titles", (page, headerHandler) -> (cache.swagger).get_corporations_members_titles(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_members_titles", (page, properties) -> (cache.swagger).get_corporations_members_titles(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -762,7 +761,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_membertracking_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_membertracking> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_membertracking", (page, headerHandler) -> (cache.swagger).get_corporations_membertracking(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_membertracking", (page, properties) -> (cache.swagger).get_corporations_membertracking(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -801,7 +800,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_roles_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_roles> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_roles", (page, headerHandler) -> (cache.swagger).get_corporations_roles(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_roles", (page, properties) -> (cache.swagger).get_corporations_roles(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -840,7 +839,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_roles_history_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_roles_history> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_roles_history", (page, headerHandler) -> (cache.swagger).get_corporations_roles_history(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_roles_history", (page, properties) -> (cache.swagger).get_corporations_roles_history(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -879,7 +878,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_shareholders_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_shareholders> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_shareholders", (page, headerHandler) -> (cache.swagger).get_corporations_shareholders(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_shareholders", (page, properties) -> (cache.swagger).get_corporations_shareholders(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -918,7 +917,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_standings_holder.put(corporation_id, ret);
                     ObsListHolder<M_get_standings_3> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_standings", (page, headerHandler) -> (cache.swagger).get_corporations_standings(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_standings", (page, properties) -> (cache.swagger).get_corporations_standings(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -957,7 +956,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_starbases_holder.put(corporation_id, ret);
                     ObsMapHolder<Long, R_get_corporations_corporation_id_starbases> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_starbases", (page, headerHandler) -> (cache.swagger).get_corporations_starbases(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_starbases", (page, properties) -> (cache.swagger).get_corporations_starbases(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1005,7 +1004,7 @@ public class Corporations {
                     SimpleObjectProperty<R_get_corporations_corporation_id_starbases_starbase_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_starbases_starbase_id_holder.put(param, ret);
-                    (cache).addFetchCacheObject("get_corporations_corporation_id_starbases_starbase_id", headerHandler -> (cache.swagger).get_corporations_starbases(corporation_id, starbase_id, system_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_corporations_corporation_id_starbases_starbase_id", properties -> (cache.swagger).get_corporations_starbases(corporation_id, starbase_id, system_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1043,7 +1042,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_titles_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_titles> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_titles", (page, headerHandler) -> (cache.swagger).get_corporations_titles(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_titles", (page, properties) -> (cache.swagger).get_corporations_titles(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1082,7 +1081,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_wallets_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_wallets> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_wallets", (page, headerHandler) -> (cache.swagger).get_corporations_wallets(corporation_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_wallets", (page, properties) -> (cache.swagger).get_corporations_wallets(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1126,7 +1125,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_wallets_division_transactions_holder.put(param, ret);
                     ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_transactions", (page, headerHandler) -> (cache.swagger).get_corporations_wallets_transactions(corporation_id, division, from_id, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_transactions", (page, properties) -> (cache.swagger).get_corporations_wallets_transactions(corporation_id, division, from_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1170,7 +1169,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_blueprints_holder.put(corporation_id, ret);
                     ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_blueprints", (page, headerHandler) -> (cache.swagger).get_corporations_blueprints(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_blueprints", (page, properties) -> (cache.swagger).get_corporations_blueprints(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1214,7 +1213,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_contacts_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_contacts> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_contacts", (page, headerHandler) -> (cache.swagger).get_corporations_contacts(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_contacts", (page, properties) -> (cache.swagger).get_corporations_contacts(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1253,7 +1252,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_containers_logs_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_containers_logs> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_containers_logs", (page, headerHandler) -> (cache.swagger).get_corporations_containers_logs(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_containers_logs", (page, properties) -> (cache.swagger).get_corporations_containers_logs(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1292,7 +1291,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_orders_history_holder.put(corporation_id, ret);
                     ObsMapHolder<Long, R_get_corporations_corporation_id_orders_history> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_orders_history", (page, headerHandler) -> (cache.swagger).get_corporations_orders_history(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_orders_history", (page, properties) -> (cache.swagger).get_corporations_orders_history(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1336,7 +1335,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_structures_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_structures> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_structures", (page, headerHandler) -> (cache.swagger).get_corporations_structures(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_structures", (page, properties) -> (cache.swagger).get_corporations_structures(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1375,7 +1374,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_assets_holder.put(corporation_id, ret);
                     ObsListHolder<R_get_corporations_corporation_id_assets> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_assets", (page, headerHandler) -> (cache.swagger).get_corporations_assets(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_assets", (page, properties) -> (cache.swagger).get_corporations_assets(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1414,7 +1413,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_members_holder.put(corporation_id, ret);
                     ObsListHolder<Integer> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_members", (page, headerHandler) -> IntStream.of((cache.swagger).get_corporations_members(corporation_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_members", (page, properties) -> (cache.swagger).get_corporations_members(corporation_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1453,7 +1452,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_orders_holder.put(corporation_id, ret);
                     ObsMapHolder<Long, R_get_corporations_corporation_id_orders> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_orders", (page, headerHandler) -> (cache.swagger).get_corporations_orders(corporation_id, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_orders", (page, properties) -> (cache.swagger).get_corporations_orders(corporation_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -1500,7 +1499,7 @@ public class Corporations {
                     ret = (cache).toHolder(holder);
                     get_corporations_corporation_id_wallets_division_journal_holder.put(param, ret);
                     ObsMapHolder<Long, M_get_journal_13> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_journal", (page, headerHandler) -> (cache.swagger).get_corporations_wallets_journal(corporation_id, division, page, headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_journal", (page, properties) -> (cache.swagger).get_corporations_wallets_journal(corporation_id, division, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

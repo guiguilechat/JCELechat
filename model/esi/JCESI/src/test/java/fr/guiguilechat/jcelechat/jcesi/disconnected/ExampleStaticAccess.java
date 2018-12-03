@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -13,7 +12,7 @@ import javafx.beans.value.ObservableDoubleValue;
 
 public class ExampleStaticAccess {
 
-	@SuppressWarnings({ "unused", "static-access" })
+	@SuppressWarnings({ "unused" })
 	public static void main(String[] args) {
 
 		/** a static access does not need an account to retrieve data */
@@ -26,7 +25,7 @@ public class ExampleStaticAccess {
 		 * get the history of veldspar, in The Forge.<br />
 		 * take the first (=random) value and get the average sale value
 		 */
-		double veldsparAVG = stat.get_markets_history(theforge, veldspar, null)[0].average;
+		double veldsparAVG = stat.get_markets_history(theforge, veldspar, null).getOK()[0].average;
 
 		/**
 		 * some access have pages, we can fetch all the pages using this
@@ -34,7 +33,7 @@ public class ExampleStaticAccess {
 		 * get all the page of present BUY orders in TheForge for Veldpsar,
 		 */
 		List<R_get_markets_region_id_orders> bos = stat
-				.loadPages((p, h) -> stat.get_markets_orders(order_type.buy, p, theforge, veldspar, h), null);
+				.requestGetPages((p, h) -> stat.get_markets_orders(order_type.buy, p, theforge, veldspar, h), null).getOK();
 		/** then you can get eg the maximum BO */
 		double maxbo = bos.stream().mapToDouble(bo -> bo.price).max().getAsDouble();
 

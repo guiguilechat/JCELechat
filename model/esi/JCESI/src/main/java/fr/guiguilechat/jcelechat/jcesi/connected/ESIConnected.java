@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.connected;
 
 import java.util.Arrays;
-import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -49,7 +49,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 	}
 
 	@Override
-	protected void addConnection(HashMap<String, String> props) {
+	protected void addConnection(Map<String, String> props) {
 		props.put("Authorization", "Bearer " + getAccessToken());
 	}
 
@@ -83,7 +83,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 			synchronized (this) {
 				if (verify == null) {
 					verify = isNull() ? NULLVERIFY
-							: convert(connectGet("https://login.eveonline.com/oauth/verify", null), R_Verify.class);
+							: requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class).getOK();
 				}
 			}
 		}

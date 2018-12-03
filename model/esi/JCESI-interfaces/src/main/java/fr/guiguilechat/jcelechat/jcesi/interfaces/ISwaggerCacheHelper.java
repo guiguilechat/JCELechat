@@ -12,10 +12,11 @@ import javafx.collections.ObservableMap;
 
 public interface ISwaggerCacheHelper {
 
-	public <U> Pausable addFetchCacheArray(String name, BiFunction<Integer, Map<String, List<String>>, U[]> fetcher,
+	public <U> Pausable addFetchCacheArray(String name,
+			BiFunction<Integer, Map<String, String>, Requested<U[]>> fetcher,
 			Consumer<List<U>> cacheHandler, String... requiredRoles);
 
-	public <U> Pausable addFetchCacheObject(String name, Function<Map<String, List<String>>, U> fetcher,
+	public <U> Pausable addFetchCacheObject(String name, Function<Map<String, String>, Requested<U>> fetcher,
 			Consumer<U> cacheHandler, String... requiredRoles);
 
 	public <U, V> ObsMapHolder<U, V> toHolder(ObservableMap<U, V> map);

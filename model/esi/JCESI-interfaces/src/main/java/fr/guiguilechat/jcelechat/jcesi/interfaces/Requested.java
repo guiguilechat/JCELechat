@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /** holds a response from a request */
-public interface Response<T> {
+public interface Requested<T> {
 
 	public int getResponseCode();
 

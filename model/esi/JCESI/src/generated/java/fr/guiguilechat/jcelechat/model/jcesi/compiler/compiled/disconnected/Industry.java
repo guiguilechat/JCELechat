@@ -32,7 +32,7 @@ public class Industry {
                     ObservableList<R_get_industry_facilities> holder = FXCollections.observableArrayList();
                     get_industry_facilities_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_industry_facilities> finalRet = get_industry_facilities_holder;
-                    (cache).addFetchCacheArray("get_industry_facilities", (page, headerHandler) -> (cache.swagger).get_industry_facilities(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_industry_facilities", (page, properties) -> (cache.swagger).get_industry_facilities(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -65,7 +65,7 @@ public class Industry {
                     ObservableList<R_get_industry_systems> holder = FXCollections.observableArrayList();
                     get_industry_systems_holder = (cache).toHolder(holder);
                     ObsListHolder<R_get_industry_systems> finalRet = get_industry_systems_holder;
-                    (cache).addFetchCacheArray("get_industry_systems", (page, headerHandler) -> (cache.swagger).get_industry_systems(headerHandler), arr -> {
+                    (cache).addFetchCacheArray("get_industry_systems", (page, properties) -> (cache.swagger).get_industry_systems(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

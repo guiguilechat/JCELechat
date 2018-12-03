@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
@@ -39,7 +38,7 @@ public class Alliances {
                     ObservableList<Integer> holder = FXCollections.observableArrayList();
                     get_alliances_holder = (cache).toHolder(holder);
                     ObsListHolder<Integer> finalRet = get_alliances_holder;
-                    (cache).addFetchCacheArray("get_alliances", (page, headerHandler) -> IntStream.of((cache.swagger).get_alliances(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_alliances", (page, properties) -> (cache.swagger).get_alliances(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -78,7 +77,7 @@ public class Alliances {
                     ret = (cache).toHolder(holder);
                     get_alliances_alliance_id_corporations_holder.put(alliance_id, ret);
                     ObsListHolder<Integer> finalRet = ret;
-                    (cache).addFetchCacheArray("get_alliances_alliance_id_corporations", (page, headerHandler) -> IntStream.of((cache.swagger).get_alliances_corporations(alliance_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                    (cache).addFetchCacheArray("get_alliances_alliance_id_corporations", (page, properties) -> (cache.swagger).get_alliances_corporations(alliance_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -116,7 +115,7 @@ public class Alliances {
                     SimpleObjectProperty<R_get_alliances_alliance_id_icons> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
-                    (cache).addFetchCacheObject("get_alliances_alliance_id_icons", headerHandler -> (cache.swagger).get_alliances_icons(alliance_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_alliances_alliance_id_icons", properties -> (cache.swagger).get_alliances_icons(alliance_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -153,7 +152,7 @@ public class Alliances {
                     SimpleObjectProperty<R_get_alliances_alliance_id> holder = new SimpleObjectProperty<>();
                     ret = (cache).toHolder(holder);
                     get_alliances_alliance_id_holder.put(alliance_id, ret);
-                    (cache).addFetchCacheObject("get_alliances_alliance_id", headerHandler -> (cache.swagger).get_alliances(alliance_id, headerHandler), item -> {
+                    (cache).addFetchCacheObject("get_alliances_alliance_id", properties -> (cache.swagger).get_alliances(alliance_id, properties), item -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {

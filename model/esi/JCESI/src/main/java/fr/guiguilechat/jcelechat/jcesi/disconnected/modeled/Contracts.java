@@ -7,7 +7,6 @@ import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.impl.ObsListHolderImpl;
@@ -40,7 +39,6 @@ public class Contracts {
 
 	private HashMap<Integer, ObsListHolder<ContractDesc>> caches = new HashMap<>();
 
-
 	/** observe the contracts on given region. */
 	public ObsListHolder<ContractDesc> get(int regionId) {
 		ObsListHolder<ContractDesc> ret = caches.get(regionId);
@@ -70,8 +68,7 @@ public class Contracts {
 							}
 						}
 						List<ContractFetcher> tmplist = stream.map(ContractFetcher::new).collect(Collectors.toList());
-						List<ContractDesc> newContracts = tmplist.stream().map(ContractFetcher::get)
-								.collect(Collectors.toList());
+						List<ContractDesc> newContracts = tmplist.stream().map(ContractFetcher::get).collect(Collectors.toList());
 						LockWatchDog.BARKER.tak(underlying);
 						synchronized (underlying) {
 							LockWatchDog.BARKER.hld(underlying);
@@ -110,14 +107,16 @@ public class Contracts {
 			ret.details = contract;
 			if (get_contracts_public_region_id_type.auction.equals(contract.type)
 					|| get_contracts_public_region_id_type.item_exchange.equals(contract.type)) {
-				ret.items = ConnectedImpl
-						.loadPages((p, h) -> esiConnection.get_contracts_public_items(contract.contract_id, p, h), null);
+				ret.items = esiConnection
+						.requestGetPages((p, h) -> esiConnection.get_contracts_public_items(contract.contract_id, p, h), null)
+						.getOK();
 			} else {
 				ret.items = Collections.emptyList();
 			}
 			if (get_contracts_public_region_id_type.auction.equals(contract.type)) {
-				ret.bids = ConnectedImpl
-						.loadPages((p, h) -> esiConnection.get_contracts_public_bids(contract.contract_id, p, h), null);
+				ret.bids = esiConnection
+						.requestGetPages((p, h) -> esiConnection.get_contracts_public_bids(contract.contract_id, p, h), null)
+						.getOK();
 			} else {
 				ret.bids = Collections.emptyList();
 			}

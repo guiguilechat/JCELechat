@@ -3,11 +3,11 @@ package fr.guiguilechat.jcelechat.jcesi.impl;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Response;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 
-public class ResponseImpl<T> implements Response<T> {
+public class RequestedImpl<T> implements Requested<T> {
 
-	public ResponseImpl(int responseCode, String message, T item, Map<String, List<String>> headers) {
+	public RequestedImpl(int responseCode, String message, T item, Map<String, List<String>> headers) {
 		this.responseCode = responseCode;
 		this.error = message;
 		this.ok = item;
