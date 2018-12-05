@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat</groupId>
     <artifactId>JCELechat</artifactId>
-    <version>4.8.0</version>
+    <version>5.0.0</version>
   </parent>
   <artifactId>programs</artifactId>
   <packaging>pom</packaging>

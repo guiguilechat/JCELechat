@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 
 public class Universe {
@@ -49,10 +50,9 @@ public class Universe {
 					ret = ESIStatic.INSTANCE.get_universe_stations((int) locationid - 6000000, null).getOK().name;
 				}
 			} else {
-				R_get_universe_structures_structure_id struct = parent.raw.get_universe_structures(locationid,
-						null).getOK();
-				if (struct != null) {
-					ret = struct.name;
+				Requested<R_get_universe_structures_structure_id> req = parent.raw.get_universe_structures(locationid, null);
+				if (req.isOk()) {
+					ret = req.getOK().name;
 				} else {
 					logger.warn("location " + locationid + " = unknown");
 				}

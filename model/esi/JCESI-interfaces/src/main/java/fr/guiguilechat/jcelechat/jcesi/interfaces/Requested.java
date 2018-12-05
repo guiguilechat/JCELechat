@@ -14,6 +14,8 @@ public interface Requested<T> {
 
 	public String getError();
 
+	public String getURL();
+
 	public default boolean isOk() {
 		return getResponseCode() / 100 == 2;
 	}

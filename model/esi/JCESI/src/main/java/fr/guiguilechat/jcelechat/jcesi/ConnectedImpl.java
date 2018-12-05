@@ -102,10 +102,10 @@ public abstract class ConnectedImpl implements ITransfer {
 			case HttpsURLConnection.HTTP_RESET:
 			case HttpsURLConnection.HTTP_PARTIAL:
 				String ret = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				return new RequestedImpl<>(responseCode, null, convert(ret, expectedClass), headers);
+				return new RequestedImpl<>(url, responseCode, null, convert(ret, expectedClass), headers);
 				// 304 not modified
 			case HttpsURLConnection.HTTP_NOT_MODIFIED:
-				return new RequestedImpl<>(responseCode, null, null, headers);
+				return new RequestedImpl<>(url, responseCode, null, null, headers);
 				// 4xx client error
 			case HttpsURLConnection.HTTP_BAD_REQUEST:
 			case HttpsURLConnection.HTTP_UNAUTHORIZED:
@@ -122,7 +122,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (con.getErrorStream() != null) {
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 				}
-				return new RequestedImpl<>(responseCode, sb.toString(), null, headers);
+				return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 			default:
 				return null;
 			}
@@ -157,23 +157,29 @@ public abstract class ConnectedImpl implements ITransfer {
 	public <T> Requested<List<T>> requestGetPages(
 			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters) {
-		Requested<List<T>> res = convertToList(resourceAccess.apply(1, parameters));
+		RequestedImpl<List<T>> res = convertToList(resourceAccess.apply(1, parameters));
 		if (res == null) {
 			return null;
 		}
 		int nbPages = res.getNbPages();
 		if (res.isOk() && nbPages > 1) {
 			res.getOK().addAll(IntStream.rangeClosed(2, nbPages).parallel()
-					.mapToObj(page -> resourceAccess.apply(page, parameters).getOK()).flatMap(arr -> Stream.of(arr))
+					.mapToObj(page -> resourceAccess.apply(page, parameters)).peek(req -> {
+						if (!req.isOk()) {
+							res.responseCode = req.getResponseCode();
+							res.error = req.getError();
+						}
+					}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr))
 					.collect(Collectors.toList()));
 		}
 		return res;
 	}
 
-	protected <T> Requested<List<T>> convertToList(Requested<T[]> apply) {
-		RequestedImpl<List<T>> ret = new RequestedImpl<>(apply.getResponseCode(), apply.getError(), new ArrayList<>(),
+	protected <T> RequestedImpl<List<T>> convertToList(Requested<T[]> apply) {
+		RequestedImpl<List<T>> ret = new RequestedImpl<>(apply.getURL(), apply.getResponseCode(), apply.getError(),
+				new ArrayList<>(),
 				apply.getHeaders());
-		if (apply.getOK() != null) {
+		if (apply.isOk() && apply.getOK() != null) {
 			ret.getOK().addAll(Arrays.asList(apply.getOK()));
 		}
 		return ret;
@@ -565,17 +571,13 @@ public abstract class ConnectedImpl implements ITransfer {
 			Requested<T> res = fetcher.apply(headerHandler);
 			if (res == null) {
 				return 0;
-			}
-			String etag = res.getETag();
-			if (etag != null) {
-				if (!etag.equals(lastEtag)) {
-					cacheHandler.accept(res.getOK());
-				}
-				lastEtag = etag;
 			} else if (res.isOk()) {
+				lastEtag = res.getETag();
 				cacheHandler.accept(res.getOK());
+			} else if (res.isRedirect() && res.getResponseCode() == 304) {
+				lastEtag = res.getETag();
 			} else {
-				logger.debug(res.getError());
+				logger.debug("" + res.getResponseCode() + " : " + res.getError());
 			}
 			return res.getCacheExpire();
 		}

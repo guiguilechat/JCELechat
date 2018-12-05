@@ -15,6 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
@@ -152,9 +153,9 @@ public class NPCsTranslater {
 			corporations.put(e.getValue().name, add);
 		}
 		corporations.values().stream().parallel().flatMap(c -> {
-			R_get_loyalty_stores_corporation_id_offers[] values = esi.connection.get_loyalty_stores_offers(c.id,
-					null).getOK();
-			return values == null ? Stream.empty() : Stream.of(values);
+			Requested<R_get_loyalty_stores_corporation_id_offers[]> req = esi.connection.get_loyalty_stores_offers(c.id,
+					null);
+			return req.isOk() ? Stream.of(req.getOK()) : Stream.empty();
 		}).forEachOrdered(o -> {
 			if (!offers.containsKey(o.offer_id)) {
 				offers.put(o.offer_id, makeOffer(o));
@@ -224,9 +225,9 @@ public class NPCsTranslater {
 	}
 
 	protected static void loadCorpOffers(Corporation c, ESIStatic raw, LinkedHashMap<Integer, LPOffer> alloffers) {
-		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_offers(c.id, null).getOK();
-		if (offers != null) {
-			for (R_get_loyalty_stores_corporation_id_offers o : offers) {
+		Requested<R_get_loyalty_stores_corporation_id_offers[]> offers = raw.get_loyalty_stores_offers(c.id, null);
+		if (offers != null && offers.isOk()) {
+			for (R_get_loyalty_stores_corporation_id_offers o : offers.getOK()) {
 				c.lpoffers.add(o.offer_id);
 			}
 		}
