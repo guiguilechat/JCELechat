@@ -136,7 +136,7 @@ public class LockWatchDog {
 				logger.debug("" + val.takerTraces.size() + " " + e.getKey());
 				Date firstdate = val.dates.stream().sorted((d1, d2)->(int)Math.signum(d2.getTime()-d1.getTime())).findFirst().orElse(null);
 				logger.debug("  acquired " + (now.getTime() - firstdate.getTime()) / 1000 + " s ago, hold by "
-						+ val.holder.toString());
+						+ val.holder);
 				for (Entry<Thread, List<StackTraceElement>> l : val.takerTraces.entrySet()) {
 					logger.debug("    " + l.getKey() + " : " + l.getValue().toString().replace('[', ' '));
 				}

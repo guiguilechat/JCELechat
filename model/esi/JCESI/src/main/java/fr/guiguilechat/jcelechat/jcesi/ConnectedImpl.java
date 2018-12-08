@@ -390,7 +390,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			try {
 				delay_ms = do_execute();
 			} catch (Throwable e) {
-				logger.warn("while  fetching " + loggingName, e);
+				logger.warn("while fetching " + loggingName, e);
 			} finally {
 				if (delay_ms < 500) {
 					count_shortdelay++;
