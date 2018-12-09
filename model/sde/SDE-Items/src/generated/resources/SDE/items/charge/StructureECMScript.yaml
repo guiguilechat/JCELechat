@@ -9,6 +9,7 @@ items:
     StructureItemVisualFlag: 1
     id: 37821
     marketGroup: 1094
+    mass: 1.0
     name: Standup Gravimetric ECM Script
     published: true
     volume: 1.0
@@ -22,6 +23,7 @@ items:
     StructureItemVisualFlag: 1
     id: 37822
     marketGroup: 1094
+    mass: 1.0
     name: Standup Ladar ECM Script
     published: true
     volume: 1.0
@@ -35,6 +37,7 @@ items:
     StructureItemVisualFlag: 1
     id: 37823
     marketGroup: 1094
+    mass: 1.0
     name: Standup Magnetometric ECM Script
     published: true
     volume: 1.0
@@ -48,6 +51,7 @@ items:
     StructureItemVisualFlag: 1
     id: 37824
     marketGroup: 1094
+    mass: 1.0
     name: Standup Radar ECM Script
     published: true
     volume: 1.0

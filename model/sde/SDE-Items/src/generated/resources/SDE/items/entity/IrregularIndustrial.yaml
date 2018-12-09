@@ -1,16 +1,19 @@
 items:
   Bestower Livestock Transport:
     id: 48132
+    mass: 1.35E7
     name: Bestower Livestock Transport
     published: false
     volume: 260000.0
   Guristas Research Convoy:
     id: 49695
+    mass: 2.1E7
     name: Guristas Research Convoy
     published: false
     volume: 1040000.0
   Official Federation Grand Prix Transport Ship:
     id: 48119
+    mass: 1.105E8
     name: Official Federation Grand Prix Transport Ship
     published: false
     volume: 1105000.0

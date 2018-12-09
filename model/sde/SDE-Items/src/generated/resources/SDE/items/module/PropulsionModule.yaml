@@ -25,6 +25,7 @@ items:
     TechLevel: 1
     id: 41236
     marketGroup: 542
+    mass: 1000.0
     name: 10000MN Afterburner I
     published: true
     volume: 4000.0
@@ -55,6 +56,7 @@ items:
     TechLevel: 2
     id: 41239
     marketGroup: 542
+    mass: 1000.0
     name: 10000MN Afterburner II
     published: true
     volume: 4000.0
@@ -85,6 +87,7 @@ items:
     TechLevel: 1
     id: 41238
     marketGroup: 542
+    mass: 1000.0
     name: 10000MN Monopropellant Enduring Afterburner
     published: true
     volume: 4000.0
@@ -115,6 +118,7 @@ items:
     TechLevel: 1
     id: 41237
     marketGroup: 542
+    mass: 1000.0
     name: 10000MN Y-S8 Compact Afterburner
     published: true
     volume: 4000.0
@@ -125,6 +129,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 47757
+    mass: 1.0
     name: 100MN Abyssal Afterburner
     published: true
     volume: 5.0
@@ -255,6 +260,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 47753
+    mass: 1.0
     name: 10MN Abyssal Afterburner
     published: true
     volume: 5.0
@@ -385,6 +391,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 47749
+    mass: 1.0
     name: 1MN Abyssal Afterburner
     published: true
     volume: 5.0
@@ -559,6 +566,7 @@ items:
     TechLevel: 1
     id: 41252
     marketGroup: 131
+    mass: 1000.0
     name: 50000MN Cold-Gas Enduring Microwarpdrive
     published: true
     volume: 4000.0
@@ -590,6 +598,7 @@ items:
     TechLevel: 1
     id: 41249
     marketGroup: 131
+    mass: 1000.0
     name: 50000MN Microwarpdrive I
     published: true
     volume: 4000.0
@@ -622,6 +631,7 @@ items:
     TechLevel: 2
     id: 41253
     marketGroup: 131
+    mass: 1000.0
     name: 50000MN Microwarpdrive II
     published: true
     volume: 4000.0
@@ -654,6 +664,7 @@ items:
     TechLevel: 1
     id: 41251
     marketGroup: 131
+    mass: 1000.0
     name: 50000MN Quad LiF Restrained Microwarpdrive
     published: true
     volume: 4000.0
@@ -686,6 +697,7 @@ items:
     TechLevel: 1
     id: 41250
     marketGroup: 131
+    mass: 1000.0
     name: 50000MN Y-T8 Compact Microwarpdrive
     published: true
     volume: 4000.0
@@ -696,6 +708,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 47745
+    mass: 1.0
     name: 500MN Abyssal Microwarpdrive
     published: true
     volume: 10.0
@@ -858,6 +871,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 47408
+    mass: 1.0
     name: 50MN Abyssal Microwarpdrive
     published: true
     volume: 10.0
@@ -1020,6 +1034,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 47740
+    mass: 1.0
     name: 5MN Abyssal Microwarpdrive
     published: true
     volume: 10.0
@@ -1823,6 +1838,7 @@ items:
     TechLevel: 1
     id: 41240
     marketGroup: 542
+    mass: 1000.0
     name: Domination 10000MN Afterburner
     published: true
     volume: 4000.0
@@ -1931,6 +1947,7 @@ items:
     TechLevel: 1
     id: 41254
     marketGroup: 131
+    mass: 1000.0
     name: Domination 50000MN Microwarpdrive
     published: true
     volume: 4000.0
@@ -3064,6 +3081,7 @@ items:
     TechLevel: 1
     id: 41241
     marketGroup: 542
+    mass: 1000.0
     name: Shadow Serpentis 10000MN Afterburner
     published: true
     volume: 4000.0
@@ -3172,6 +3190,7 @@ items:
     TechLevel: 1
     id: 41255
     marketGroup: 131
+    mass: 1000.0
     name: Shadow Serpentis 50000MN Microwarpdrive
     published: true
     volume: 4000.0

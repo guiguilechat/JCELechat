@@ -10,6 +10,7 @@ items:
     TechLevel: 1
     id: 1401
     marketGroup: 1086
+    mass: 200.0
     name: '''Basic'' Inertial Stabilizers'
     published: true
     volume: 5.0
@@ -24,6 +25,7 @@ items:
     TechLevel: 1
     id: 34481
     marketGroup: 1086
+    mass: 200.0
     name: Domination Inertial Stabilizers
     published: true
     volume: 5.0
@@ -36,6 +38,7 @@ items:
     TechLevel: 1
     id: 1403
     marketGroup: 1086
+    mass: 200.0
     name: Inertial Stabilizers I
     published: true
     volume: 5.0
@@ -49,6 +52,7 @@ items:
     TechLevel: 2
     id: 1405
     marketGroup: 1086
+    mass: 200.0
     name: Inertial Stabilizers II
     published: true
     volume: 5.0
@@ -63,6 +67,7 @@ items:
     TechLevel: 1
     id: 34483
     marketGroup: 1086
+    mass: 200.0
     name: Shadow Serpentis Inertial Stabilizers
     published: true
     volume: 5.0
@@ -77,6 +82,7 @@ items:
     TechLevel: 1
     id: 21498
     marketGroup: 1086
+    mass: 200.0
     name: Synthetic Hull Conversion Inertia Stabilizers
     published: true
     volume: 5.0
@@ -90,6 +96,7 @@ items:
     TechLevel: 1
     id: 5533
     marketGroup: 1086
+    mass: 200.0
     name: Type-D Restrained Inertial Stabilizers
     published: true
     volume: 5.0

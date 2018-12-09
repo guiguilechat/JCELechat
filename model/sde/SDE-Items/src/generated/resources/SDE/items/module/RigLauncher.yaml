@@ -9,6 +9,7 @@ items:
     UpgradeCost: 200
     id: 31590
     marketGroup: 1733
+    mass: 200.0
     name: Capital Bay Loading Accelerator I
     published: true
     volume: 40.0
@@ -23,6 +24,7 @@ items:
     UpgradeCost: 300
     id: 31596
     marketGroup: 1733
+    mass: 200.0
     name: Capital Bay Loading Accelerator II
     published: true
     volume: 40.0
@@ -36,6 +38,7 @@ items:
     UpgradeCost: 100
     id: 31602
     marketGroup: 1733
+    mass: 200.0
     name: Capital Hydraulic Bay Thrusters I
     published: true
     volume: 40.0
@@ -50,6 +53,7 @@ items:
     UpgradeCost: 150
     id: 33301
     marketGroup: 1733
+    mass: 200.0
     name: Capital Hydraulic Bay Thrusters II
     published: true
     volume: 40.0
@@ -64,6 +68,7 @@ items:
     UpgradeCost: 100
     id: 31612
     marketGroup: 1733
+    mass: 200.0
     name: Capital Rocket Fuel Cache Partition I
     published: true
     volume: 40.0
@@ -79,6 +84,7 @@ items:
     UpgradeCost: 150
     id: 31618
     marketGroup: 1733
+    mass: 200.0
     name: Capital Rocket Fuel Cache Partition II
     published: true
     volume: 40.0
@@ -93,6 +99,7 @@ items:
     UpgradeCost: 200
     id: 31624
     marketGroup: 1733
+    mass: 200.0
     name: Capital Warhead Calefaction Catalyst I
     published: true
     volume: 40.0
@@ -108,6 +115,7 @@ items:
     UpgradeCost: 300
     id: 31630
     marketGroup: 1733
+    mass: 200.0
     name: Capital Warhead Calefaction Catalyst II
     published: true
     volume: 40.0
@@ -122,6 +130,7 @@ items:
     UpgradeCost: 50
     id: 31636
     marketGroup: 1733
+    mass: 200.0
     name: Capital Warhead Flare Catalyst I
     published: true
     volume: 40.0
@@ -137,6 +146,7 @@ items:
     UpgradeCost: 75
     id: 31642
     marketGroup: 1733
+    mass: 200.0
     name: Capital Warhead Flare Catalyst II
     published: true
     volume: 40.0
@@ -151,6 +161,7 @@ items:
     UpgradeCost: 100
     id: 31648
     marketGroup: 1733
+    mass: 200.0
     name: Capital Warhead Rigor Catalyst I
     published: true
     volume: 40.0
@@ -166,6 +177,7 @@ items:
     UpgradeCost: 150
     id: 31654
     marketGroup: 1733
+    mass: 200.0
     name: Capital Warhead Rigor Catalyst II
     published: true
     volume: 40.0
@@ -179,6 +191,7 @@ items:
     UpgradeCost: 200
     id: 26026
     marketGroup: 1233
+    mass: 200.0
     name: Large Bay Loading Accelerator I
     published: true
     volume: 20.0
@@ -193,6 +206,7 @@ items:
     UpgradeCost: 300
     id: 26406
     marketGroup: 1233
+    mass: 200.0
     name: Large Bay Loading Accelerator II
     published: true
     volume: 20.0
@@ -206,6 +220,7 @@ items:
     UpgradeCost: 100
     id: 26016
     marketGroup: 1233
+    mass: 200.0
     name: Large Hydraulic Bay Thrusters I
     published: true
     volume: 20.0
@@ -220,6 +235,7 @@ items:
     UpgradeCost: 150
     id: 26416
     marketGroup: 1233
+    mass: 200.0
     name: Large Hydraulic Bay Thrusters II
     published: true
     volume: 20.0
@@ -234,6 +250,7 @@ items:
     UpgradeCost: 100
     id: 26022
     marketGroup: 1233
+    mass: 200.0
     name: Large Rocket Fuel Cache Partition I
     published: true
     volume: 20.0
@@ -249,6 +266,7 @@ items:
     UpgradeCost: 150
     id: 26418
     marketGroup: 1233
+    mass: 200.0
     name: Large Rocket Fuel Cache Partition II
     published: true
     volume: 20.0
@@ -263,6 +281,7 @@ items:
     UpgradeCost: 200
     id: 26030
     marketGroup: 1233
+    mass: 200.0
     name: Large Warhead Calefaction Catalyst I
     published: true
     volume: 20.0
@@ -278,6 +297,7 @@ items:
     UpgradeCost: 300
     id: 26420
     marketGroup: 1233
+    mass: 200.0
     name: Large Warhead Calefaction Catalyst II
     published: true
     volume: 20.0
@@ -292,6 +312,7 @@ items:
     UpgradeCost: 50
     id: 26028
     marketGroup: 1233
+    mass: 200.0
     name: Large Warhead Flare Catalyst I
     published: true
     volume: 20.0
@@ -307,6 +328,7 @@ items:
     UpgradeCost: 75
     id: 26412
     marketGroup: 1233
+    mass: 200.0
     name: Large Warhead Flare Catalyst II
     published: true
     volume: 20.0
@@ -321,6 +343,7 @@ items:
     UpgradeCost: 100
     id: 26020
     marketGroup: 1233
+    mass: 200.0
     name: Large Warhead Rigor Catalyst I
     published: true
     volume: 20.0
@@ -336,6 +359,7 @@ items:
     UpgradeCost: 150
     id: 26414
     marketGroup: 1233
+    mass: 200.0
     name: Large Warhead Rigor Catalyst II
     published: true
     volume: 20.0
@@ -349,6 +373,7 @@ items:
     UpgradeCost: 200
     id: 31588
     marketGroup: 1232
+    mass: 200.0
     name: Medium Bay Loading Accelerator I
     published: true
     volume: 10.0
@@ -363,6 +388,7 @@ items:
     UpgradeCost: 300
     id: 31594
     marketGroup: 1232
+    mass: 200.0
     name: Medium Bay Loading Accelerator II
     published: true
     volume: 10.0
@@ -376,6 +402,7 @@ items:
     UpgradeCost: 100
     id: 31600
     marketGroup: 1232
+    mass: 200.0
     name: Medium Hydraulic Bay Thrusters I
     published: true
     volume: 10.0
@@ -390,6 +417,7 @@ items:
     UpgradeCost: 150
     id: 31606
     marketGroup: 1232
+    mass: 200.0
     name: Medium Hydraulic Bay Thrusters II
     published: true
     volume: 10.0
@@ -404,6 +432,7 @@ items:
     UpgradeCost: 100
     id: 31610
     marketGroup: 1232
+    mass: 200.0
     name: Medium Rocket Fuel Cache Partition I
     published: true
     volume: 10.0
@@ -419,6 +448,7 @@ items:
     UpgradeCost: 150
     id: 31616
     marketGroup: 1232
+    mass: 200.0
     name: Medium Rocket Fuel Cache Partition II
     published: true
     volume: 10.0
@@ -433,6 +463,7 @@ items:
     UpgradeCost: 200
     id: 31622
     marketGroup: 1232
+    mass: 200.0
     name: Medium Warhead Calefaction Catalyst I
     published: true
     volume: 10.0
@@ -448,6 +479,7 @@ items:
     UpgradeCost: 300
     id: 31628
     marketGroup: 1232
+    mass: 200.0
     name: Medium Warhead Calefaction Catalyst II
     published: true
     volume: 10.0
@@ -462,6 +494,7 @@ items:
     UpgradeCost: 50
     id: 31634
     marketGroup: 1232
+    mass: 200.0
     name: Medium Warhead Flare Catalyst I
     published: true
     volume: 10.0
@@ -477,6 +510,7 @@ items:
     UpgradeCost: 75
     id: 31640
     marketGroup: 1232
+    mass: 200.0
     name: Medium Warhead Flare Catalyst II
     published: true
     volume: 10.0
@@ -491,6 +525,7 @@ items:
     UpgradeCost: 100
     id: 31646
     marketGroup: 1232
+    mass: 200.0
     name: Medium Warhead Rigor Catalyst I
     published: true
     volume: 10.0
@@ -506,6 +541,7 @@ items:
     UpgradeCost: 150
     id: 31652
     marketGroup: 1232
+    mass: 200.0
     name: Medium Warhead Rigor Catalyst II
     published: true
     volume: 10.0
@@ -519,6 +555,7 @@ items:
     UpgradeCost: 200
     id: 31586
     marketGroup: 1231
+    mass: 200.0
     name: Small Bay Loading Accelerator I
     published: true
     volume: 5.0
@@ -533,6 +570,7 @@ items:
     UpgradeCost: 300
     id: 31592
     marketGroup: 1231
+    mass: 200.0
     name: Small Bay Loading Accelerator II
     published: true
     volume: 5.0
@@ -546,6 +584,7 @@ items:
     UpgradeCost: 100
     id: 31598
     marketGroup: 1231
+    mass: 200.0
     name: Small Hydraulic Bay Thrusters I
     published: true
     volume: 5.0
@@ -560,6 +599,7 @@ items:
     UpgradeCost: 150
     id: 31604
     marketGroup: 1231
+    mass: 200.0
     name: Small Hydraulic Bay Thrusters II
     published: true
     volume: 5.0
@@ -574,6 +614,7 @@ items:
     UpgradeCost: 100
     id: 31608
     marketGroup: 1231
+    mass: 200.0
     name: Small Rocket Fuel Cache Partition I
     published: true
     volume: 5.0
@@ -589,6 +630,7 @@ items:
     UpgradeCost: 150
     id: 31614
     marketGroup: 1231
+    mass: 200.0
     name: Small Rocket Fuel Cache Partition II
     published: true
     volume: 5.0
@@ -603,6 +645,7 @@ items:
     UpgradeCost: 200
     id: 31620
     marketGroup: 1231
+    mass: 200.0
     name: Small Warhead Calefaction Catalyst I
     published: true
     volume: 5.0
@@ -618,6 +661,7 @@ items:
     UpgradeCost: 300
     id: 31626
     marketGroup: 1231
+    mass: 200.0
     name: Small Warhead Calefaction Catalyst II
     published: true
     volume: 5.0
@@ -632,6 +676,7 @@ items:
     UpgradeCost: 50
     id: 31632
     marketGroup: 1231
+    mass: 200.0
     name: Small Warhead Flare Catalyst I
     published: true
     volume: 5.0
@@ -647,6 +692,7 @@ items:
     UpgradeCost: 75
     id: 31638
     marketGroup: 1231
+    mass: 200.0
     name: Small Warhead Flare Catalyst II
     published: true
     volume: 5.0
@@ -661,6 +707,7 @@ items:
     UpgradeCost: 100
     id: 31644
     marketGroup: 1231
+    mass: 200.0
     name: Small Warhead Rigor Catalyst I
     published: true
     volume: 5.0
@@ -676,6 +723,7 @@ items:
     UpgradeCost: 150
     id: 31650
     marketGroup: 1231
+    mass: 200.0
     name: Small Warhead Rigor Catalyst II
     published: true
     volume: 5.0

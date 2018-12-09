@@ -20,6 +20,7 @@ items:
     UpgradeCost: 100
     id: 37254
     marketGroup: 2345
+    mass: 200.0
     name: Standup L-Set EW Expert System I
     published: true
     volume: 20.0
@@ -44,6 +45,7 @@ items:
     UpgradeCost: 150
     id: 37255
     marketGroup: 2345
+    mass: 200.0
     name: Standup L-Set EW Expert System II
     published: true
     volume: 20.0

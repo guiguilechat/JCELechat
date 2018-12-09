@@ -1,6 +1,7 @@
 items:
   Drifter Cruiser:
     id: 47459
+    mass: 1000000.0
     name: Drifter Cruiser
     published: false
     volume: 100000.0

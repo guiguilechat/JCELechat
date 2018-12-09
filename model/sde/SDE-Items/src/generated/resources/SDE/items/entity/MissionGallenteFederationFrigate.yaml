@@ -1,251 +1,301 @@
 items:
   Elite Federation Arcus:
     id: 25143
+    mass: 2650000.0
     name: Elite Federation Arcus
     published: false
     volume: 26500.0
   Elite Federation Insidiator:
     id: 25141
+    mass: 2650000.0
     name: Elite Federation Insidiator
     published: false
     volume: 26500.0
   Elite Federation Libertus:
     id: 25140
+    mass: 2650000.0
     name: Elite Federation Libertus
     published: false
     volume: 26500.0
   Elite Federation Lixa:
     id: 25137
+    mass: 2300000.0
     name: Elite Federation Lixa
     published: false
     volume: 23000.0
   Elite Federation Lochos:
     id: 25138
+    mass: 2300000.0
     name: Elite Federation Lochos
     published: false
     volume: 23000.0
   Elite Federation Machina:
     id: 25146
+    mass: 2650000.0
     name: Elite Federation Machina
     published: false
     volume: 26500.0
   Elite Federation Manica:
     id: 25139
+    mass: 2650000.0
     name: Elite Federation Manica
     published: false
     volume: 26500.0
   Elite Federation Matara:
     id: 25142
+    mass: 2650000.0
     name: Elite Federation Matara
     published: false
     volume: 26500.0
   Elite Federation Pelekus:
     id: 25144
+    mass: 2650000.0
     name: Elite Federation Pelekus
     published: false
     volume: 26500.0
   Elite Federation Phalarica:
     id: 25145
+    mass: 2650000.0
     name: Elite Federation Phalarica
     published: false
     volume: 26500.0
   Federation Clavis:
     id: 25103
+    mass: 2450000.0
     name: Federation Clavis
     published: false
     volume: 24500.0
   Federation Hastile:
     id: 25105
+    mass: 2250000.0
     name: Federation Hastile
     published: false
     volume: 22500.0
   Federation Hoplon:
     id: 25107
+    mass: 2250000.0
     name: Federation Hoplon
     published: false
     volume: 22500.0
   Federation Insidiator:
     id: 25116
+    mass: 2300000.0
     name: Federation Insidiator
     published: false
     volume: 23000.0
   Federation Kontos:
     id: 25106
+    mass: 2500000.0
     name: Federation Kontos
     published: false
     volume: 25000.0
   Federation Kopis:
     id: 25124
+    mass: 2250000.0
     name: Federation Kopis
     published: false
     volume: 22500.0
   Federation Libertus:
     id: 25112
+    mass: 2950000.0
     name: Federation Libertus
     published: false
     volume: 29500.0
   Federation Manica:
     id: 25110
+    mass: 2950000.0
     name: Federation Manica
     published: false
     volume: 29500.0
   Federation Navy Atron:
     id: 14361
+    mass: 1200000.0
     name: Federation Navy Atron
     published: false
     volume: 22500.0
   Federation Navy Delta I Support Frigate:
     id: 15991
+    mass: 2300000.0
     name: Federation Navy Delta I Support Frigate
     published: false
     volume: 23000.0
   Federation Navy Delta II Support Frigate:
     id: 15989
+    mass: 2300000.0
     name: Federation Navy Delta II Support Frigate
     published: false
     volume: 23000.0
   Federation Navy Elite Soldier:
     id: 15580
+    mass: 2040000.0
     name: Federation Navy Elite Soldier
     published: false
     volume: 20400.0
   Federation Navy Gamma I Support Frigate:
     id: 15990
+    mass: 2650000.0
     name: Federation Navy Gamma I Support Frigate
     published: false
     volume: 26500.0
   Federation Navy Gamma II Support Frigate:
     id: 15988
+    mass: 2300000.0
     name: Federation Navy Gamma II Support Frigate
     published: false
     volume: 23000.0
   Federation Navy Maulus:
     id: 14481
+    mass: 1400000.0
     name: Federation Navy Maulus
     published: false
     volume: 23000.0
   Federation Navy Officer:
     id: 13112
+    mass: 1.09E7
     name: Federation Navy Officer
     published: false
     volume: 109000.0
   Federation Navy Scout:
     id: 11666
+    mass: 1910000.0
     name: Federation Navy Scout
     published: false
     volume: 19100.0
   Federation Navy Soldier:
     id: 14353
+    mass: 2040000.0
     name: Federation Navy Soldier
     published: false
     volume: 20400.0
   Federation Navy Squad Leader:
     id: 15345
+    mass: 1250000.0
     name: Federation Navy Squad Leader
     published: false
     volume: 26500.0
   Federation Praktor Balra:
     id: 25117
+    mass: 2300000.0
     name: Federation Praktor Balra
     published: false
     volume: 23000.0
   Federation Praktor Belos:
     id: 25118
+    mass: 2650000.0
     name: Federation Praktor Belos
     published: false
     volume: 26500.0
   Federation Praktor Harpago:
     id: 25120
+    mass: 2650000.0
     name: Federation Praktor Harpago
     published: false
     volume: 26500.0
   Gallente CA Frigate:
     id: 45464
+    mass: 1028000.0
     name: Gallente CA Frigate
     published: false
     volume: 29500.0
   Gallente Miner:
     id: 21840
+    mass: 1200000.0
     name: Gallente Miner
     published: false
     volume: 22500.0
   Gallente Spy Drone:
     id: 22706
+    mass: 100000.0
     name: Gallente Spy Drone
     published: false
     volume: 60.0
   Independent Atron:
     id: 29866
+    mass: 2650000.0
     name: Independent Atron
     published: false
     volume: 26500.0
   Independent Green-Crewed Atron:
     id: 29831
+    mass: 2250000.0
     name: Independent Green-Crewed Atron
     published: false
     volume: 22500.0
   Independent Green-Crewed Imicus:
     id: 29859
+    mass: 2250000.0
     name: Independent Green-Crewed Imicus
     published: false
     volume: 22500.0
   Independent Green-Crewed Incursus:
     id: 29863
+    mass: 2250000.0
     name: Independent Green-Crewed Incursus
     published: false
     volume: 22500.0
   Independent Green-Crewed Maulus:
     id: 29864
+    mass: 2250000.0
     name: Independent Green-Crewed Maulus
     published: false
     volume: 22500.0
   Independent Green-Crewed Tristan:
     id: 29865
+    mass: 2250000.0
     name: Independent Green-Crewed Tristan
     published: false
     volume: 22500.0
   Independent Imicus:
     id: 29867
+    mass: 2650000.0
     name: Independent Imicus
     published: false
     volume: 26500.0
   Independent Incursus:
     id: 29868
+    mass: 2650000.0
     name: Independent Incursus
     published: false
     volume: 26500.0
   Independent Maulus:
     id: 29869
+    mass: 2650000.0
     name: Independent Maulus
     published: false
     volume: 26500.0
   Independent Tristan:
     id: 29870
+    mass: 2650000.0
     name: Independent Tristan
     published: false
     volume: 26500.0
   Independent Veteran Atron:
     id: 29871
+    mass: 2650000.0
     name: Independent Veteran Atron
     published: false
     volume: 26500.0
   Independent Veteran Imicus:
     id: 29872
+    mass: 2650000.0
     name: Independent Veteran Imicus
     published: false
     volume: 26500.0
   Independent Veteran Incursus:
     id: 29873
+    mass: 2650000.0
     name: Independent Veteran Incursus
     published: false
     volume: 26500.0
   Independent Veteran Maulus:
     id: 29874
+    mass: 2650000.0
     name: Independent Veteran Maulus
     published: false
     volume: 26500.0
   Independent Veteran Tristan:
     id: 29875
+    mass: 2650000.0
     name: Independent Veteran Tristan
     published: false
     volume: 26500.0

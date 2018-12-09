@@ -16,6 +16,7 @@ items:
     TechLevel: 1
     id: 15026
     marketGroup: 1681
+    mass: 1.0
     name: Ahremen's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -36,6 +37,7 @@ items:
     TechLevel: 1
     id: 15074
     marketGroup: 1680
+    mass: 1.0
     name: Ahremen's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -56,6 +58,7 @@ items:
     TechLevel: 1
     id: 15058
     marketGroup: 1679
+    mass: 1.0
     name: Ahremen's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -76,6 +79,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 15042
     marketGroup: 1678
+    mass: 1.0
     name: Ahremen's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -95,6 +99,7 @@ items:
     TechLevel: 1
     id: 17502
     marketGroup: 1681
+    mass: 1.0
     name: Ammatar Navy Armor EM Hardener
     published: true
     volume: 5.0
@@ -114,6 +119,7 @@ items:
     TechLevel: 1
     id: 17504
     marketGroup: 1680
+    mass: 1.0
     name: Ammatar Navy Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -133,6 +139,7 @@ items:
     TechLevel: 1
     id: 17506
     marketGroup: 1679
+    mass: 1.0
     name: Ammatar Navy Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -152,6 +159,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 17508
     marketGroup: 1678
+    mass: 1.0
     name: Ammatar Navy Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -170,6 +178,7 @@ items:
     TechLevel: 1
     id: 11301
     marketGroup: 1681
+    mass: 1.0
     name: Armor EM Hardener I
     published: true
     volume: 20.0
@@ -189,6 +198,7 @@ items:
     TechLevel: 2
     id: 11642
     marketGroup: 1681
+    mass: 1.0
     name: Armor EM Hardener II
     published: true
     volume: 5.0
@@ -207,6 +217,7 @@ items:
     TechLevel: 1
     id: 11303
     marketGroup: 1680
+    mass: 1.0
     name: Armor Explosive Hardener I
     published: true
     volume: 20.0
@@ -226,6 +237,7 @@ items:
     TechLevel: 2
     id: 11646
     marketGroup: 1680
+    mass: 1.0
     name: Armor Explosive Hardener II
     published: true
     volume: 5.0
@@ -244,6 +256,7 @@ items:
     TechLevel: 1
     id: 11305
     marketGroup: 1679
+    mass: 1.0
     name: Armor Kinetic Hardener I
     published: true
     volume: 20.0
@@ -263,6 +276,7 @@ items:
     TechLevel: 2
     id: 11644
     marketGroup: 1679
+    mass: 1.0
     name: Armor Kinetic Hardener II
     published: true
     volume: 5.0
@@ -281,6 +295,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 11277
     marketGroup: 1678
+    mass: 1.0
     name: Armor Thermal Hardener I
     published: true
     volume: 20.0
@@ -300,6 +315,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 11648
     marketGroup: 1678
+    mass: 1.0
     name: Armor Thermal Hardener II
     published: true
     volume: 5.0
@@ -320,6 +336,7 @@ items:
     TechLevel: 1
     id: 15016
     marketGroup: 1681
+    mass: 1.0
     name: Brokara's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -340,6 +357,7 @@ items:
     TechLevel: 1
     id: 15064
     marketGroup: 1680
+    mass: 1.0
     name: Brokara's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -360,6 +378,7 @@ items:
     TechLevel: 1
     id: 15048
     marketGroup: 1679
+    mass: 1.0
     name: Brokara's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -380,6 +399,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 15032
     marketGroup: 1678
+    mass: 1.0
     name: Brokara's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -400,6 +420,7 @@ items:
     TechLevel: 1
     id: 15244
     marketGroup: 1681
+    mass: 1.0
     name: Brynn's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -420,6 +441,7 @@ items:
     TechLevel: 1
     id: 15268
     marketGroup: 1680
+    mass: 1.0
     name: Brynn's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -440,6 +462,7 @@ items:
     TechLevel: 1
     id: 15260
     marketGroup: 1679
+    mass: 1.0
     name: Brynn's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -460,6 +483,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 15252
     marketGroup: 1678
+    mass: 1.0
     name: Brynn's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -480,6 +504,7 @@ items:
     TechLevel: 1
     id: 18931
     marketGroup: 1681
+    mass: 1.0
     name: Centus A-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -500,6 +525,7 @@ items:
     TechLevel: 1
     id: 18927
     marketGroup: 1680
+    mass: 1.0
     name: Centus A-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -520,6 +546,7 @@ items:
     TechLevel: 1
     id: 18923
     marketGroup: 1679
+    mass: 1.0
     name: Centus A-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -540,6 +567,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 18919
     marketGroup: 1678
+    mass: 1.0
     name: Centus A-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -560,6 +588,7 @@ items:
     TechLevel: 1
     id: 18903
     marketGroup: 1681
+    mass: 1.0
     name: Centus B-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -580,6 +609,7 @@ items:
     TechLevel: 1
     id: 18907
     marketGroup: 1680
+    mass: 1.0
     name: Centus B-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -600,6 +630,7 @@ items:
     TechLevel: 1
     id: 18911
     marketGroup: 1679
+    mass: 1.0
     name: Centus B-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -620,6 +651,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 18915
     marketGroup: 1678
+    mass: 1.0
     name: Centus B-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -640,6 +672,7 @@ items:
     TechLevel: 1
     id: 18887
     marketGroup: 1681
+    mass: 1.0
     name: Centus C-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -660,6 +693,7 @@ items:
     TechLevel: 1
     id: 18891
     marketGroup: 1680
+    mass: 1.0
     name: Centus C-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -680,6 +714,7 @@ items:
     TechLevel: 1
     id: 18895
     marketGroup: 1679
+    mass: 1.0
     name: Centus C-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -700,6 +735,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 18899
     marketGroup: 1678
+    mass: 1.0
     name: Centus C-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -720,6 +756,7 @@ items:
     TechLevel: 1
     id: 18935
     marketGroup: 1681
+    mass: 1.0
     name: Centus X-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -740,6 +777,7 @@ items:
     TechLevel: 1
     id: 18939
     marketGroup: 1680
+    mass: 1.0
     name: Centus X-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -760,6 +798,7 @@ items:
     TechLevel: 1
     id: 18943
     marketGroup: 1679
+    mass: 1.0
     name: Centus X-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -780,6 +819,7 @@ items:
     ThermalDamageResistanceBonus: -64.0
     id: 18947
     marketGroup: 1678
+    mass: 1.0
     name: Centus X-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -800,6 +840,7 @@ items:
     TechLevel: 1
     id: 15028
     marketGroup: 1681
+    mass: 1.0
     name: Chelm's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -820,6 +861,7 @@ items:
     TechLevel: 1
     id: 15076
     marketGroup: 1680
+    mass: 1.0
     name: Chelm's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -840,6 +882,7 @@ items:
     TechLevel: 1
     id: 15060
     marketGroup: 1679
+    mass: 1.0
     name: Chelm's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -860,6 +903,7 @@ items:
     ThermalDamageResistanceBonus: -64.0
     id: 15044
     marketGroup: 1678
+    mass: 1.0
     name: Chelm's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -880,6 +924,7 @@ items:
     TechLevel: 1
     id: 18965
     marketGroup: 1681
+    mass: 1.0
     name: Core A-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -900,6 +945,7 @@ items:
     TechLevel: 1
     id: 18967
     marketGroup: 1680
+    mass: 1.0
     name: Core A-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -920,6 +966,7 @@ items:
     TechLevel: 1
     id: 18969
     marketGroup: 1679
+    mass: 1.0
     name: Core A-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -940,6 +987,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 18971
     marketGroup: 1678
+    mass: 1.0
     name: Core A-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -960,6 +1008,7 @@ items:
     TechLevel: 1
     id: 18957
     marketGroup: 1681
+    mass: 1.0
     name: Core B-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -980,6 +1029,7 @@ items:
     TechLevel: 1
     id: 18959
     marketGroup: 1680
+    mass: 1.0
     name: Core B-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1000,6 +1050,7 @@ items:
     TechLevel: 1
     id: 18961
     marketGroup: 1679
+    mass: 1.0
     name: Core B-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1020,6 +1071,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 18963
     marketGroup: 1678
+    mass: 1.0
     name: Core B-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1040,6 +1092,7 @@ items:
     TechLevel: 1
     id: 18949
     marketGroup: 1681
+    mass: 1.0
     name: Core C-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -1060,6 +1113,7 @@ items:
     TechLevel: 1
     id: 18951
     marketGroup: 1680
+    mass: 1.0
     name: Core C-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1080,6 +1134,7 @@ items:
     TechLevel: 1
     id: 18953
     marketGroup: 1679
+    mass: 1.0
     name: Core C-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1100,6 +1155,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 18955
     marketGroup: 1678
+    mass: 1.0
     name: Core C-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1120,6 +1176,7 @@ items:
     TechLevel: 1
     id: 18973
     marketGroup: 1681
+    mass: 1.0
     name: Core X-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -1140,6 +1197,7 @@ items:
     TechLevel: 1
     id: 18975
     marketGroup: 1680
+    mass: 1.0
     name: Core X-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1160,6 +1218,7 @@ items:
     TechLevel: 1
     id: 18977
     marketGroup: 1679
+    mass: 1.0
     name: Core X-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1180,6 +1239,7 @@ items:
     ThermalDamageResistanceBonus: -64.0
     id: 18979
     marketGroup: 1678
+    mass: 1.0
     name: Core X-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1200,6 +1260,7 @@ items:
     TechLevel: 1
     id: 15250
     marketGroup: 1681
+    mass: 1.0
     name: Cormack's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -1220,6 +1281,7 @@ items:
     TechLevel: 1
     id: 15274
     marketGroup: 1680
+    mass: 1.0
     name: Cormack's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1240,6 +1302,7 @@ items:
     TechLevel: 1
     id: 15266
     marketGroup: 1679
+    mass: 1.0
     name: Cormack's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1260,6 +1323,7 @@ items:
     ThermalDamageResistanceBonus: -64.0
     id: 15258
     marketGroup: 1678
+    mass: 1.0
     name: Cormack's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1280,6 +1344,7 @@ items:
     TechLevel: 1
     id: 18929
     marketGroup: 1681
+    mass: 1.0
     name: Corpus A-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -1300,6 +1365,7 @@ items:
     TechLevel: 1
     id: 18925
     marketGroup: 1680
+    mass: 1.0
     name: Corpus A-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1320,6 +1386,7 @@ items:
     TechLevel: 1
     id: 18921
     marketGroup: 1679
+    mass: 1.0
     name: Corpus A-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1340,6 +1407,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 18917
     marketGroup: 1678
+    mass: 1.0
     name: Corpus A-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1360,6 +1428,7 @@ items:
     TechLevel: 1
     id: 18901
     marketGroup: 1681
+    mass: 1.0
     name: Corpus B-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -1380,6 +1449,7 @@ items:
     TechLevel: 1
     id: 18905
     marketGroup: 1680
+    mass: 1.0
     name: Corpus B-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1400,6 +1470,7 @@ items:
     TechLevel: 1
     id: 18909
     marketGroup: 1679
+    mass: 1.0
     name: Corpus B-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1420,6 +1491,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 18913
     marketGroup: 1678
+    mass: 1.0
     name: Corpus B-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1440,6 +1512,7 @@ items:
     TechLevel: 1
     id: 18885
     marketGroup: 1681
+    mass: 1.0
     name: Corpus C-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -1460,6 +1533,7 @@ items:
     TechLevel: 1
     id: 18889
     marketGroup: 1680
+    mass: 1.0
     name: Corpus C-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1480,6 +1554,7 @@ items:
     TechLevel: 1
     id: 18893
     marketGroup: 1679
+    mass: 1.0
     name: Corpus C-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1500,6 +1575,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 18897
     marketGroup: 1678
+    mass: 1.0
     name: Corpus C-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1520,6 +1596,7 @@ items:
     TechLevel: 1
     id: 18933
     marketGroup: 1681
+    mass: 1.0
     name: Corpus X-Type Armor EM Hardener
     published: true
     volume: 5.0
@@ -1540,6 +1617,7 @@ items:
     TechLevel: 1
     id: 18937
     marketGroup: 1680
+    mass: 1.0
     name: Corpus X-Type Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1560,6 +1638,7 @@ items:
     TechLevel: 1
     id: 18941
     marketGroup: 1679
+    mass: 1.0
     name: Corpus X-Type Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1580,6 +1659,7 @@ items:
     ThermalDamageResistanceBonus: -64.0
     id: 18945
     marketGroup: 1678
+    mass: 1.0
     name: Corpus X-Type Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1599,6 +1679,7 @@ items:
     TechLevel: 1
     id: 13972
     marketGroup: 1681
+    mass: 1.0
     name: Dark Blood Armor EM Hardener
     published: true
     volume: 5.0
@@ -1618,6 +1699,7 @@ items:
     TechLevel: 1
     id: 13976
     marketGroup: 1680
+    mass: 1.0
     name: Dark Blood Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1637,6 +1719,7 @@ items:
     TechLevel: 1
     id: 13980
     marketGroup: 1679
+    mass: 1.0
     name: Dark Blood Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1656,6 +1739,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 13984
     marketGroup: 1678
+    mass: 1.0
     name: Dark Blood Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1675,6 +1759,7 @@ items:
     TechLevel: 1
     id: 13986
     marketGroup: 1681
+    mass: 1.0
     name: Domination Armor EM Hardener
     published: true
     volume: 5.0
@@ -1694,6 +1779,7 @@ items:
     TechLevel: 1
     id: 13988
     marketGroup: 1680
+    mass: 1.0
     name: Domination Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1713,6 +1799,7 @@ items:
     TechLevel: 1
     id: 13990
     marketGroup: 1679
+    mass: 1.0
     name: Domination Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1732,6 +1819,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 13992
     marketGroup: 1678
+    mass: 1.0
     name: Domination Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1752,6 +1840,7 @@ items:
     TechLevel: 1
     id: 15030
     marketGroup: 1681
+    mass: 1.0
     name: Draclira's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -1772,6 +1861,7 @@ items:
     TechLevel: 1
     id: 15078
     marketGroup: 1680
+    mass: 1.0
     name: Draclira's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1792,6 +1882,7 @@ items:
     TechLevel: 1
     id: 15062
     marketGroup: 1679
+    mass: 1.0
     name: Draclira's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1812,6 +1903,7 @@ items:
     ThermalDamageResistanceBonus: -64.0
     id: 15046
     marketGroup: 1678
+    mass: 1.0
     name: Draclira's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1831,6 +1923,7 @@ items:
     TechLevel: 1
     id: 16357
     marketGroup: 1681
+    mass: 1.0
     name: Experimental Armor EM Hardener I
     published: true
     volume: 5.0
@@ -1850,6 +1943,7 @@ items:
     TechLevel: 1
     id: 16365
     marketGroup: 1680
+    mass: 1.0
     name: Experimental Armor Explosive Hardener I
     published: true
     volume: 5.0
@@ -1869,6 +1963,7 @@ items:
     TechLevel: 1
     id: 16373
     marketGroup: 1679
+    mass: 1.0
     name: Experimental Armor Kinetic Hardener I
     published: true
     volume: 5.0
@@ -1888,6 +1983,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 16381
     marketGroup: 1678
+    mass: 1.0
     name: Experimental Armor Thermal Hardener I
     published: true
     volume: 5.0
@@ -1907,6 +2003,7 @@ items:
     TechLevel: 1
     id: 17832
     marketGroup: 1681
+    mass: 1.0
     name: Federation Navy Armor EM Hardener
     published: true
     volume: 5.0
@@ -1926,6 +2023,7 @@ items:
     TechLevel: 1
     id: 17834
     marketGroup: 1680
+    mass: 1.0
     name: Federation Navy Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -1945,6 +2043,7 @@ items:
     TechLevel: 1
     id: 17836
     marketGroup: 1679
+    mass: 1.0
     name: Federation Navy Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -1964,6 +2063,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 17838
     marketGroup: 1678
+    mass: 1.0
     name: Federation Navy Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -1983,6 +2083,7 @@ items:
     TechLevel: 1
     id: 15711
     marketGroup: 1681
+    mass: 1.0
     name: Imperial Navy Armor EM Hardener
     published: true
     volume: 5.0
@@ -2002,6 +2103,7 @@ items:
     TechLevel: 1
     id: 15709
     marketGroup: 1680
+    mass: 1.0
     name: Imperial Navy Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2021,6 +2123,7 @@ items:
     TechLevel: 1
     id: 15707
     marketGroup: 1679
+    mass: 1.0
     name: Imperial Navy Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2040,6 +2143,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 15705
     marketGroup: 1678
+    mass: 1.0
     name: Imperial Navy Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2059,6 +2163,7 @@ items:
     TechLevel: 1
     id: 28522
     marketGroup: 1681
+    mass: 1.0
     name: Khanid Navy Armor EM Hardener
     published: true
     volume: 5.0
@@ -2078,6 +2183,7 @@ items:
     TechLevel: 1
     id: 28524
     marketGroup: 1680
+    mass: 1.0
     name: Khanid Navy Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2097,6 +2203,7 @@ items:
     TechLevel: 1
     id: 28526
     marketGroup: 1679
+    mass: 1.0
     name: Khanid Navy Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2116,6 +2223,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 28528
     marketGroup: 1678
+    mass: 1.0
     name: Khanid Navy Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2135,6 +2243,7 @@ items:
     TechLevel: 1
     id: 16355
     marketGroup: 1681
+    mass: 1.0
     name: Limited Armor EM Hardener I
     published: true
     volume: 5.0
@@ -2154,6 +2263,7 @@ items:
     TechLevel: 1
     id: 16363
     marketGroup: 1680
+    mass: 1.0
     name: Limited Armor Explosive Hardener I
     published: true
     volume: 5.0
@@ -2173,6 +2283,7 @@ items:
     TechLevel: 1
     id: 16371
     marketGroup: 1679
+    mass: 1.0
     name: Limited Armor Kinetic Hardener I
     published: true
     volume: 5.0
@@ -2192,6 +2303,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 16379
     marketGroup: 1678
+    mass: 1.0
     name: Limited Armor Thermal Hardener I
     published: true
     volume: 5.0
@@ -2211,6 +2323,7 @@ items:
     TechLevel: 1
     id: 16359
     marketGroup: 1681
+    mass: 1.0
     name: Prototype Armor EM Hardener I
     published: true
     volume: 5.0
@@ -2230,6 +2343,7 @@ items:
     TechLevel: 1
     id: 16367
     marketGroup: 1680
+    mass: 1.0
     name: Prototype Armor Explosive Hardener I
     published: true
     volume: 5.0
@@ -2249,6 +2363,7 @@ items:
     TechLevel: 1
     id: 16375
     marketGroup: 1679
+    mass: 1.0
     name: Prototype Armor Kinetic Hardener I
     published: true
     volume: 5.0
@@ -2268,6 +2383,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 16383
     marketGroup: 1678
+    mass: 1.0
     name: Prototype Armor Thermal Hardener I
     published: true
     volume: 5.0
@@ -2288,6 +2404,7 @@ items:
     TechLevel: 1
     id: 15022
     marketGroup: 1681
+    mass: 1.0
     name: Raysere's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -2308,6 +2425,7 @@ items:
     TechLevel: 1
     id: 15070
     marketGroup: 1680
+    mass: 1.0
     name: Raysere's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2328,6 +2446,7 @@ items:
     TechLevel: 1
     id: 15054
     marketGroup: 1679
+    mass: 1.0
     name: Raysere's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2348,6 +2467,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 15038
     marketGroup: 1678
+    mass: 1.0
     name: Raysere's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2367,6 +2487,7 @@ items:
     TechLevel: 1
     id: 15719
     marketGroup: 1681
+    mass: 1.0
     name: Republic Fleet Armor EM Hardener
     published: true
     volume: 5.0
@@ -2386,6 +2507,7 @@ items:
     TechLevel: 1
     id: 15717
     marketGroup: 1680
+    mass: 1.0
     name: Republic Fleet Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2405,6 +2527,7 @@ items:
     TechLevel: 1
     id: 15715
     marketGroup: 1679
+    mass: 1.0
     name: Republic Fleet Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2424,6 +2547,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 15713
     marketGroup: 1678
+    mass: 1.0
     name: Republic Fleet Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2444,6 +2568,7 @@ items:
     TechLevel: 1
     id: 15020
     marketGroup: 1681
+    mass: 1.0
     name: Selynne's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -2464,6 +2589,7 @@ items:
     TechLevel: 1
     id: 15068
     marketGroup: 1680
+    mass: 1.0
     name: Selynne's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2484,6 +2610,7 @@ items:
     TechLevel: 1
     id: 15052
     marketGroup: 1679
+    mass: 1.0
     name: Selynne's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2504,6 +2631,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 15036
     marketGroup: 1678
+    mass: 1.0
     name: Selynne's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2524,6 +2652,7 @@ items:
     TechLevel: 1
     id: 15248
     marketGroup: 1681
+    mass: 1.0
     name: Setele's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -2544,6 +2673,7 @@ items:
     TechLevel: 1
     id: 15272
     marketGroup: 1680
+    mass: 1.0
     name: Setele's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2564,6 +2694,7 @@ items:
     TechLevel: 1
     id: 15264
     marketGroup: 1679
+    mass: 1.0
     name: Setele's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2584,6 +2715,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 15256
     marketGroup: 1678
+    mass: 1.0
     name: Setele's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2603,6 +2735,7 @@ items:
     TechLevel: 1
     id: 14059
     marketGroup: 1681
+    mass: 1.0
     name: Shadow Serpentis Armor EM Hardener
     published: true
     volume: 5.0
@@ -2622,6 +2755,7 @@ items:
     TechLevel: 1
     id: 14061
     marketGroup: 1680
+    mass: 1.0
     name: Shadow Serpentis Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2641,6 +2775,7 @@ items:
     TechLevel: 1
     id: 14063
     marketGroup: 1679
+    mass: 1.0
     name: Shadow Serpentis Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2660,6 +2795,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 14065
     marketGroup: 1678
+    mass: 1.0
     name: Shadow Serpentis Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2680,6 +2816,7 @@ items:
     TechLevel: 1
     id: 15018
     marketGroup: 1681
+    mass: 1.0
     name: Tairei's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -2700,6 +2837,7 @@ items:
     TechLevel: 1
     id: 15066
     marketGroup: 1680
+    mass: 1.0
     name: Tairei's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2720,6 +2858,7 @@ items:
     TechLevel: 1
     id: 15050
     marketGroup: 1679
+    mass: 1.0
     name: Tairei's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2740,6 +2879,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 15034
     marketGroup: 1678
+    mass: 1.0
     name: Tairei's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2759,6 +2899,7 @@ items:
     TechLevel: 1
     id: 13970
     marketGroup: 1681
+    mass: 1.0
     name: True Sansha Armor EM Hardener
     published: true
     volume: 5.0
@@ -2778,6 +2919,7 @@ items:
     TechLevel: 1
     id: 13974
     marketGroup: 1680
+    mass: 1.0
     name: True Sansha Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2797,6 +2939,7 @@ items:
     TechLevel: 1
     id: 13978
     marketGroup: 1679
+    mass: 1.0
     name: True Sansha Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2816,6 +2959,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 13982
     marketGroup: 1678
+    mass: 1.0
     name: True Sansha Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2836,6 +2980,7 @@ items:
     TechLevel: 1
     id: 15246
     marketGroup: 1681
+    mass: 1.0
     name: Tuvan's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -2856,6 +3001,7 @@ items:
     TechLevel: 1
     id: 15270
     marketGroup: 1680
+    mass: 1.0
     name: Tuvan's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -2876,6 +3022,7 @@ items:
     TechLevel: 1
     id: 15262
     marketGroup: 1679
+    mass: 1.0
     name: Tuvan's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -2896,6 +3043,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 15254
     marketGroup: 1678
+    mass: 1.0
     name: Tuvan's Modified Armor Thermal Hardener
     published: true
     volume: 5.0
@@ -2915,6 +3063,7 @@ items:
     TechLevel: 1
     id: 16353
     marketGroup: 1681
+    mass: 1.0
     name: Upgraded Armor EM Hardener I
     published: true
     volume: 5.0
@@ -2934,6 +3083,7 @@ items:
     TechLevel: 1
     id: 16361
     marketGroup: 1680
+    mass: 1.0
     name: Upgraded Armor Explosive Hardener I
     published: true
     volume: 5.0
@@ -2953,6 +3103,7 @@ items:
     TechLevel: 1
     id: 16369
     marketGroup: 1679
+    mass: 1.0
     name: Upgraded Armor Kinetic Hardener I
     published: true
     volume: 5.0
@@ -2972,6 +3123,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 16377
     marketGroup: 1678
+    mass: 1.0
     name: Upgraded Armor Thermal Hardener I
     published: true
     volume: 5.0
@@ -2992,6 +3144,7 @@ items:
     TechLevel: 1
     id: 15024
     marketGroup: 1681
+    mass: 1.0
     name: Vizan's Modified Armor EM Hardener
     published: true
     volume: 5.0
@@ -3012,6 +3165,7 @@ items:
     TechLevel: 1
     id: 15072
     marketGroup: 1680
+    mass: 1.0
     name: Vizan's Modified Armor Explosive Hardener
     published: true
     volume: 5.0
@@ -3032,6 +3186,7 @@ items:
     TechLevel: 1
     id: 15056
     marketGroup: 1679
+    mass: 1.0
     name: Vizan's Modified Armor Kinetic Hardener
     published: true
     volume: 5.0
@@ -3052,6 +3207,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 15040
     marketGroup: 1678
+    mass: 1.0
     name: Vizan's Modified Armor Thermal Hardener
     published: true
     volume: 5.0

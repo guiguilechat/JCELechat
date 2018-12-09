@@ -1,5 +1,6 @@
 items:
   '#System':
+    mass: 1.0
     name: '#System'
     published: false
   asurface1_f_01:amarrbase:amarr:

@@ -10,6 +10,7 @@ items:
     TechLevel: 1
     id: 40335
     marketGroup: 1094
+    mass: 1.0
     name: Missile Precision Disruption Script
     published: true
     volume: 1.0
@@ -24,6 +25,7 @@ items:
     TechLevel: 1
     id: 40334
     marketGroup: 1094
+    mass: 1.0
     name: Missile Range Disruption Script
     published: true
     volume: 1.0

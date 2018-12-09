@@ -21,6 +21,7 @@ items:
     Uniformity: 1.0
     id: 33581
     marketGroup: 1835
+    mass: 10000.0
     name: Small Mobile 'Hybrid' Siphon Unit
     published: true
     volume: 35.0
@@ -47,6 +48,7 @@ items:
     Uniformity: 1.0
     id: 33583
     marketGroup: 1835
+    mass: 10000.0
     name: Small Mobile 'Rote' Siphon Unit
     published: true
     volume: 35.0
@@ -73,6 +75,7 @@ items:
     Uniformity: 1.0
     id: 33477
     marketGroup: 1835
+    mass: 10000.0
     name: Small Mobile Siphon Unit
     published: true
     volume: 35.0

@@ -38,6 +38,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     id: 49730
+    mass: 1.0
     name: Abyssal Gyrostabilizer
     published: true
     volume: 1.0

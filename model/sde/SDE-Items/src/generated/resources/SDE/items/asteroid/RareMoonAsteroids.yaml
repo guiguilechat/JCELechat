@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45502
     marketGroup: 2400
+    mass: 4000.0
     name: Carnotite
     published: true
     volume: 10.0
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45506
     marketGroup: 2400
+    mass: 4000.0
     name: Cinnabar
     published: true
     volume: 10.0
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46305
     marketGroup: 2400
+    mass: 4000.0
     name: Glowing Carnotite
     published: true
     volume: 10.0
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46311
     marketGroup: 2400
+    mass: 4000.0
     name: Glowing Cinnabar
     published: true
     volume: 10.0
@@ -66,6 +70,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46309
     marketGroup: 2400
+    mass: 4000.0
     name: Glowing Pollucite
     published: true
     volume: 10.0
@@ -80,6 +85,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46307
     marketGroup: 2400
+    mass: 4000.0
     name: Glowing Zircon
     published: true
     volume: 10.0
@@ -94,6 +100,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45504
     marketGroup: 2400
+    mass: 4000.0
     name: Pollucite
     published: true
     volume: 10.0
@@ -108,6 +115,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46304
     marketGroup: 2400
+    mass: 4000.0
     name: Replete Carnotite
     published: true
     volume: 10.0
@@ -122,6 +130,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46310
     marketGroup: 2400
+    mass: 4000.0
     name: Replete Cinnabar
     published: true
     volume: 10.0
@@ -136,6 +145,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46308
     marketGroup: 2400
+    mass: 4000.0
     name: Replete Pollucite
     published: true
     volume: 10.0
@@ -150,6 +160,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46306
     marketGroup: 2400
+    mass: 4000.0
     name: Replete Zircon
     published: true
     volume: 10.0
@@ -164,6 +175,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45503
     marketGroup: 2400
+    mass: 4000.0
     name: Zircon
     published: true
     volume: 10.0

@@ -60,6 +60,7 @@ items:
     ImportTaxMultiplier: 7200
     id: 3725
     marketGroup: 1335
+    mass: 900.0
     name: Livestock
     published: true
     volume: 1.5
@@ -116,6 +117,7 @@ items:
     ImportTaxMultiplier: 7200
     id: 3695
     marketGroup: 1335
+    mass: 200.0
     name: Polytextiles
     published: true
     volume: 1.5

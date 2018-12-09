@@ -20,6 +20,7 @@ items:
     UpgradeCost: 100
     id: 37183
     marketGroup: 2349
+    mass: 200.0
     name: Standup XL-Set Laboratory Optimization I
     published: true
     volume: 40.0
@@ -44,6 +45,7 @@ items:
     UpgradeCost: 150
     id: 37182
     marketGroup: 2349
+    mass: 200.0
     name: Standup XL-Set Laboratory Optimization II
     published: true
     volume: 40.0

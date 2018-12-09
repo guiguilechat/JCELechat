@@ -82,6 +82,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 12034
     marketGroup: 424
+    mass: 1455000.0
     name: Hound
     published: true
     volume: 28100.0
@@ -168,6 +169,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 12032
     marketGroup: 422
+    mass: 1470000.0
     name: Manticore
     published: true
     volume: 28100.0
@@ -254,6 +256,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 11377
     marketGroup: 423
+    mass: 1410000.0
     name: Nemesis
     published: true
     volume: 28100.0
@@ -339,6 +342,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 12038
     marketGroup: 421
+    mass: 1495000.0
     name: Purifier
     published: true
     volume: 28100.0
@@ -437,6 +441,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 45530
     marketGroup: 1838
+    mass: 1410000.0
     name: Virtuoso
     published: true
     volume: 28100.0

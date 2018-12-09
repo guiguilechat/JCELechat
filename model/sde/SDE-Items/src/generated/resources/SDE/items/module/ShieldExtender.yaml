@@ -175,6 +175,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 47808
+    mass: 1.0
     name: Large Abyssal Shield Extender
     published: true
     volume: 20.0
@@ -257,6 +258,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 47804
+    mass: 1.0
     name: Medium Abyssal Shield Extender
     published: true
     volume: 10.0
@@ -403,6 +405,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 47800
+    mass: 1.0
     name: Small Abyssal Shield Extender
     published: true
     volume: 5.0

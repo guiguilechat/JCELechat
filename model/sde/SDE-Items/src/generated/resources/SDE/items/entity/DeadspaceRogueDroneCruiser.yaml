@@ -1,151 +1,181 @@
 items:
   Annihilator Alvum:
     id: 18083
+    mass: 100000.0
     name: Annihilator Alvum
     published: false
     volume: 60.0
   Atomizer Alvum:
     id: 23487
+    mass: 100000.0
     name: Atomizer Alvum
     published: false
     volume: 60.0
   Bomber Alvum:
     id: 18078
+    mass: 100000.0
     name: Bomber Alvum
     published: false
     volume: 60.0
   COSMOS Strain Domination Drone:
     id: 22281
+    mass: 100000.0
     name: COSMOS Strain Domination Drone
     published: false
     volume: 60.0
   COSMOS Strain Matriarch Drone:
     id: 22280
+    mass: 100000.0
     name: COSMOS Strain Matriarch Drone
     published: false
     volume: 60.0
   COSMOS Strain Spearhead Drone:
     id: 22282
+    mass: 100000.0
     name: COSMOS Strain Spearhead Drone
     published: false
     volume: 60.0
   COSMOS Viral Infector Drone:
     id: 22283
+    mass: 100000.0
     name: COSMOS Viral Infector Drone
     published: false
     volume: 60.0
   Destructor Alvum:
     id: 18082
+    mass: 100000.0
     name: Destructor Alvum
     published: false
     volume: 60.0
   Devastator Alvum:
     id: 18084
+    mass: 100000.0
     name: Devastator Alvum
     published: false
     volume: 60.0
   Disintegrator Alvum:
     id: 18077
+    mass: 100000.0
     name: Disintegrator Alvum
     published: false
     volume: 60.0
   Drone Perimeter Guard:
     id: 23686
+    mass: 100000.0
     name: Drone Perimeter Guard
     published: false
     volume: 60.0
   Drone Worker:
     id: 23687
+    mass: 100000.0
     name: Drone Worker
     published: false
     volume: 60.0
   Elite Repair Drone:
     id: 26269
+    mass: 100000.0
     name: Elite Repair Drone
     published: false
     volume: 60.0
   Nuker Alvum:
     id: 23488
+    mass: 100000.0
     name: Nuker Alvum
     published: false
     volume: 60.0
   Searcher Drone_MISSION Spawn:
     id: 22148
+    mass: 100000.0
     name: Searcher Drone_MISSION Spawn
     published: false
     volume: 60.0
   Strain Annihilator Alvum:
     id: 23921
+    mass: 100000.0
     name: Strain Annihilator Alvum
     published: false
     volume: 60.0
   Strain Atomizer Alvum:
     id: 23495
+    mass: 100000.0
     name: Strain Atomizer Alvum
     published: false
     volume: 60.0
   Strain Bomber Alvum:
     id: 23494
+    mass: 100000.0
     name: Strain Bomber Alvum
     published: false
     volume: 60.0
   Strain Destructor Alvum:
     id: 23492
+    mass: 100000.0
     name: Strain Destructor Alvum
     published: false
     volume: 60.0
   Strain Devastator Alvum:
     id: 23922
+    mass: 100000.0
     name: Strain Devastator Alvum
     published: false
     volume: 60.0
   Strain Disintegrator Alvum:
     id: 23493
+    mass: 100000.0
     name: Strain Disintegrator Alvum
     published: false
     volume: 60.0
   Strain Domination Drone Replica:
     id: 22729
+    mass: 100000.0
     name: Strain Domination Drone Replica
     published: false
     volume: 60.0
   Strain Nuker Alvum:
     id: 23496
+    mass: 100000.0
     name: Strain Nuker Alvum
     published: false
     volume: 60.0
   Strain Violator Alvum:
     id: 23924
+    mass: 100000.0
     name: Strain Violator Alvum
     published: false
     volume: 60.0
   Strain Viral Infector Alvum:
     id: 23923
+    mass: 100000.0
     name: Strain Viral Infector Alvum
     published: false
     volume: 60.0
   Strain Wrecker Alvum:
     id: 23491
+    mass: 100000.0
     name: Strain Wrecker Alvum
     published: false
     volume: 60.0
   Swarm Overmind Tertius:
     id: 45636
+    mass: 2.1E7
     name: Swarm Overmind Tertius
     published: false
     volume: 1010000.0
   Violator Alvum:
     id: 18076
+    mass: 100000.0
     name: Violator Alvum
     published: false
     volume: 60.0
   Viral Infector Alvum:
     id: 3745
+    mass: 100000.0
     name: Viral Infector Alvum
     published: false
     volume: 60.0
   Wrecker Alvum:
     id: 3746
+    mass: 100000.0
     name: Wrecker Alvum
     published: false
     volume: 60.0

@@ -51,6 +51,7 @@ items:
     WeaponDisruptionResistanceBonus: -99.9999008178711
     id: 33400
     marketGroup: 801
+    mass: 1.0
     name: Bastion Module I
     published: true
     volume: 200.0
@@ -104,6 +105,7 @@ items:
     TechLevel: 1
     id: 28583
     marketGroup: 801
+    mass: 1.0
     name: Industrial Core I
     published: true
     volume: 4000.0
@@ -159,6 +161,7 @@ items:
     TechLevel: 2
     id: 42890
     marketGroup: 801
+    mass: 1.0
     name: Industrial Core II
     published: true
     volume: 4000.0
@@ -208,6 +211,7 @@ items:
     WeaponDisruptionResistanceBonus: -60.0
     id: 20280
     marketGroup: 801
+    mass: 1.0
     name: Siege Module I
     published: true
     volume: 4000.0
@@ -258,6 +262,7 @@ items:
     WeaponDisruptionResistanceBonus: -70.0
     id: 4292
     marketGroup: 801
+    mass: 1.0
     name: Siege Module II
     published: true
     volume: 4000.0
@@ -309,6 +314,7 @@ items:
     TechLevel: 1
     id: 27951
     marketGroup: 801
+    mass: 1.0
     name: Triage Module I
     published: true
     volume: 4000.0
@@ -360,6 +366,7 @@ items:
     TechLevel: 2
     id: 4294
     marketGroup: 801
+    mass: 1.0
     name: Triage Module II
     published: true
     volume: 4000.0

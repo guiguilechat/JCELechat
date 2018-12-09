@@ -76,6 +76,7 @@ items:
     VirusStrength: 40
     id: 3581
     marketGroup: 1718
+    mass: 1800.0
     name: Purloined Sansha Data Analyzer
     published: true
     volume: 5.0

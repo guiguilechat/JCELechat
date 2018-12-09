@@ -56,6 +56,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 23057
     marketGroup: 840
+    mass: 1000.0
     name: Dragonfly I
     published: true
     volume: 1000.0
@@ -117,6 +118,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40557
     marketGroup: 840
+    mass: 1000.0
     name: Dragonfly II
     published: true
     volume: 1000.0
@@ -177,6 +179,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 23061
     marketGroup: 840
+    mass: 1000.0
     name: Einherji I
     published: true
     volume: 1000.0
@@ -238,6 +241,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40559
     marketGroup: 840
+    mass: 1000.0
     name: Einherji II
     published: true
     volume: 1000.0
@@ -294,6 +298,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40358
     marketGroup: 840
+    mass: 1000.0
     name: Equite I
     published: true
     volume: 800.0
@@ -351,6 +356,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40552
     marketGroup: 840
+    mass: 1000.0
     name: Equite II
     published: true
     volume: 800.0
@@ -411,6 +417,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 23059
     marketGroup: 840
+    mass: 1000.0
     name: Firbolg I
     published: true
     volume: 1000.0
@@ -472,6 +479,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40558
     marketGroup: 840
+    mass: 1000.0
     name: Firbolg II
     published: true
     volume: 1000.0
@@ -528,6 +536,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40361
     marketGroup: 840
+    mass: 1000.0
     name: Gram I
     published: true
     volume: 800.0
@@ -585,6 +594,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40553
     marketGroup: 840
+    mass: 1000.0
     name: Gram II
     published: true
     volume: 800.0
@@ -641,6 +651,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40359
     marketGroup: 840
+    mass: 1000.0
     name: Locust I
     published: true
     volume: 800.0
@@ -698,6 +709,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40554
     marketGroup: 840
+    mass: 1000.0
     name: Locust II
     published: true
     volume: 800.0
@@ -754,6 +766,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40360
     marketGroup: 840
+    mass: 1000.0
     name: Satyr I
     published: true
     volume: 800.0
@@ -811,6 +824,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40555
     marketGroup: 840
+    mass: 1000.0
     name: Satyr II
     published: true
     volume: 800.0
@@ -868,6 +882,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47138
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Dragonfly I
     published: true
     volume: 2000.0
@@ -926,6 +941,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47142
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Dragonfly II
     published: true
     volume: 2000.0
@@ -983,6 +999,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47140
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Einherji I
     published: true
     volume: 2000.0
@@ -1041,6 +1058,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47144
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Einherji II
     published: true
     volume: 2000.0
@@ -1094,6 +1112,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47145
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Equite I
     published: true
     volume: 1600.0
@@ -1148,6 +1167,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47148
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Equite II
     published: true
     volume: 1600.0
@@ -1205,6 +1225,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47139
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Firbolg I
     published: true
     volume: 2000.0
@@ -1263,6 +1284,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47143
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Firbolg II
     published: true
     volume: 2000.0
@@ -1316,6 +1338,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47036
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Gram I
     published: true
     volume: 1600.0
@@ -1370,6 +1393,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47151
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Gram II
     published: true
     volume: 1600.0
@@ -1423,6 +1447,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47146
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Locust I
     published: true
     volume: 1600.0
@@ -1477,6 +1502,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47149
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Locust II
     published: true
     volume: 1600.0
@@ -1530,6 +1556,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47147
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Satyr I
     published: true
     volume: 1600.0
@@ -1584,6 +1611,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47150
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Satyr II
     published: true
     volume: 1600.0
@@ -1641,6 +1669,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47035
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Templar I
     published: true
     volume: 2000.0
@@ -1699,6 +1728,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47141
     marketGroup: 2411
+    mass: 1000.0
     name: Standup Templar II
     published: true
     volume: 2000.0
@@ -1759,6 +1789,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 23055
     marketGroup: 840
+    mass: 1000.0
     name: Templar I
     published: true
     volume: 1000.0
@@ -1820,6 +1851,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40556
     marketGroup: 840
+    mass: 1000.0
     name: Templar II
     published: true
     volume: 1000.0

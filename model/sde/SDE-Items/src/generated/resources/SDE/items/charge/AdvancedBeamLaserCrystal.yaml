@@ -18,6 +18,7 @@ items:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12824
     marketGroup: 866
+    mass: 1.0
     name: Aurora L
     published: true
     volume: 1.0
@@ -40,6 +41,7 @@ items:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12822
     marketGroup: 867
+    mass: 1.0
     name: Aurora M
     published: true
     volume: 1.0
@@ -62,6 +64,7 @@ items:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12559
     marketGroup: 868
+    mass: 1.0
     name: Aurora S
     published: true
     volume: 1.0
@@ -84,6 +87,7 @@ items:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 41336
     marketGroup: 2257
+    mass: 1.0
     name: Aurora XL
     published: true
     volume: 1.0
@@ -106,6 +110,7 @@ items:
     WeaponRangeMultiplier: 0.25
     id: 12828
     marketGroup: 866
+    mass: 1.0
     name: Gleam L
     published: true
     volume: 1.0
@@ -128,6 +133,7 @@ items:
     WeaponRangeMultiplier: 0.25
     id: 12826
     marketGroup: 867
+    mass: 1.0
     name: Gleam M
     published: true
     volume: 1.0
@@ -150,6 +156,7 @@ items:
     WeaponRangeMultiplier: 0.25
     id: 12557
     marketGroup: 868
+    mass: 1.0
     name: Gleam S
     published: true
     volume: 1.0
@@ -172,6 +179,7 @@ items:
     WeaponRangeMultiplier: 0.25
     id: 41334
     marketGroup: 2257
+    mass: 1.0
     name: Gleam XL
     published: true
     volume: 1.0

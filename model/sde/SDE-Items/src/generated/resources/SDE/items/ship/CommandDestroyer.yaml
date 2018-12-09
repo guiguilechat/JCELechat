@@ -82,6 +82,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 37480
     marketGroup: 2133
+    mass: 1235000.0
     name: Bifrost
     published: true
     volume: 43000.0
@@ -171,6 +172,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 37483
     marketGroup: 2132
+    mass: 1150000.0
     name: Magus
     published: true
     volume: 55000.0
@@ -260,6 +262,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 37481
     marketGroup: 2126
+    mass: 1250000.0
     name: Pontifex
     published: true
     volume: 47000.0
@@ -346,6 +349,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 37482
     marketGroup: 2131
+    mass: 1300000.0
     name: Stork
     published: true
     volume: 52000.0

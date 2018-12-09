@@ -28,6 +28,7 @@ items:
     Uniformity: 1.0
     id: 24657
     marketGroup: 932
+    mass: 2.0E8
     name: Advanced Large Ship Assembly Array
     published: true
     volume: 25000.0
@@ -60,6 +61,7 @@ items:
     Uniformity: 1.0
     id: 24655
     marketGroup: 932
+    mass: 2.0E8
     name: Advanced Medium Ship Assembly Array
     published: true
     volume: 17000.0
@@ -92,6 +94,7 @@ items:
     Uniformity: 1.0
     id: 24653
     marketGroup: 932
+    mass: 2.0E8
     name: Advanced Small Ship Assembly Array
     published: true
     volume: 10000.0
@@ -124,6 +127,7 @@ items:
     Uniformity: 1.0
     id: 24658
     marketGroup: 932
+    mass: 1.0E8
     name: Ammunition Assembly Array
     published: true
     volume: 1250.0
@@ -156,6 +160,7 @@ items:
     Uniformity: 1.0
     id: 24656
     marketGroup: 932
+    mass: 2.0E8
     name: Capital Ship Assembly Array
     published: true
     volume: 25000.0
@@ -188,6 +193,7 @@ items:
     Uniformity: 1.0
     id: 24660
     marketGroup: 932
+    mass: 1.0E8
     name: Component Assembly Array
     published: true
     volume: 12500.0
@@ -220,6 +226,7 @@ items:
     Uniformity: 1.0
     id: 24659
     marketGroup: 932
+    mass: 1.0E8
     name: Drone Assembly Array
     published: true
     volume: 1250.0
@@ -252,6 +259,7 @@ items:
     Uniformity: 1.0
     id: 25305
     marketGroup: 933
+    mass: 1.0E8
     name: Drug Lab
     published: true
     volume: 1250.0
@@ -284,6 +292,7 @@ items:
     Uniformity: 1.0
     id: 13780
     marketGroup: 932
+    mass: 2.0E8
     name: Equipment Assembly Array
     published: true
     volume: 6250.0
@@ -317,6 +326,7 @@ items:
     Uniformity: 1.0
     id: 29613
     marketGroup: 932
+    mass: 2.0E8
     name: Large Ship Assembly Array
     published: true
     volume: 25000.0
@@ -349,6 +359,7 @@ items:
     Uniformity: 1.0
     id: 24654
     marketGroup: 932
+    mass: 2.0E8
     name: Medium Ship Assembly Array
     published: true
     volume: 17000.0
@@ -381,6 +392,7 @@ items:
     Uniformity: 1.0
     id: 16220
     marketGroup: 932
+    mass: 1.0E8
     name: Rapid Equipment Assembly Array
     published: true
     volume: 6250.0
@@ -413,6 +425,7 @@ items:
     Uniformity: 1.0
     id: 24574
     marketGroup: 932
+    mass: 2.0E8
     name: Small Ship Assembly Array
     published: true
     volume: 10000.0
@@ -446,6 +459,7 @@ items:
     Uniformity: 1.0
     id: 30389
     marketGroup: 932
+    mass: 2.0E8
     name: Subsystem Assembly Array
     published: true
     volume: 17000.0
@@ -479,6 +493,7 @@ items:
     Uniformity: 1.0
     id: 24575
     marketGroup: 932
+    mass: 2.0E8
     name: Supercapital Ship Assembly Array
     published: true
     volume: 850000.0
@@ -513,6 +528,7 @@ items:
     Uniformity: 1.0
     id: 33867
     marketGroup: 932
+    mass: 1.0E8
     name: Thukker Component Assembly Array
     published: true
     volume: 12500.0

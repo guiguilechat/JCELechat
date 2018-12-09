@@ -23,6 +23,7 @@ items:
     Uniformity: 1.0
     id: 17621
     marketGroup: 506
+    mass: 1.0E7
     name: Corporate Hangar Array
     published: true
     volume: 4000.0

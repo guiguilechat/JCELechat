@@ -1,31 +1,37 @@
 items:
   Angel Defacer:
     id: 22813
+    mass: 1645000.0
     name: Angel Defacer
     published: false
     volume: 16450.0
   Angel Defiler:
     id: 22815
+    mass: 1645000.0
     name: Angel Defiler
     published: false
     volume: 16450.0
   Angel Haunter:
     id: 22814
+    mass: 1645000.0
     name: Angel Haunter
     published: false
     volume: 16450.0
   Angel Seizer:
     id: 22816
+    mass: 1645000.0
     name: Angel Seizer
     published: false
     volume: 16450.0
   Angel Shatterer:
     id: 22812
+    mass: 1645000.0
     name: Angel Shatterer
     published: false
     volume: 16450.0
   Angel Trasher:
     id: 22817
+    mass: 1645000.0
     name: Angel Trasher
     published: false
     volume: 16450.0

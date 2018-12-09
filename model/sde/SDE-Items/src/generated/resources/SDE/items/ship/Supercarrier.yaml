@@ -110,6 +110,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 23919
     marketGroup: 818
+    mass: 1.78E9
     name: Aeon
     published: true
     volume: 6.2E7
@@ -225,6 +226,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 22852
     marketGroup: 821
+    mass: 1.65E9
     name: Hel
     published: true
     volume: 5.1E7
@@ -339,6 +341,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 23913
     marketGroup: 820
+    mass: 1.6E9
     name: Nyx
     published: true
     volume: 5.82E7
@@ -459,6 +462,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 3514
     marketGroup: 1392
+    mass: 1.6E9
     name: Revenant
     published: true
     volume: 6.2E7
@@ -578,6 +582,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 42125
     marketGroup: 1392
+    mass: 1.6E9
     name: Vendetta
     published: true
     volume: 5.82E7
@@ -692,6 +697,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 23917
     marketGroup: 819
+    mass: 1.7E9
     name: Wyvern
     published: true
     volume: 5.3E7

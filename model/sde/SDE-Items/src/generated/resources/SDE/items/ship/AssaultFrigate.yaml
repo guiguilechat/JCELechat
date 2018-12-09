@@ -79,6 +79,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 32788
     marketGroup: 1623
+    mass: 997000.0
     name: Cambion
     published: true
     volume: 16500.0
@@ -162,6 +163,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 12044
     marketGroup: 435
+    mass: 1053900.0
     name: Enyo
     published: true
     volume: 29500.0
@@ -243,6 +245,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 32207
     marketGroup: 1623
+    mass: 1309000.0
     name: Freki
     published: true
     volume: 27289.0
@@ -325,6 +328,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11381
     marketGroup: 434
+    mass: 1039500.0
     name: Harpy
     published: true
     volume: 16500.0
@@ -407,6 +411,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11379
     marketGroup: 434
+    mass: 1095300.0
     name: Hawk
     published: true
     volume: 16500.0
@@ -490,6 +495,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 12042
     marketGroup: 435
+    mass: 1094400.0
     name: Ishkur
     published: true
     volume: 29500.0
@@ -574,6 +580,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11400
     marketGroup: 436
+    mass: 1229400.0
     name: Jaguar
     published: true
     volume: 27289.0
@@ -653,6 +660,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 3516
     marketGroup: 1623
+    mass: 1271000.0
     name: Malice
     published: true
     volume: 28600.0
@@ -732,6 +740,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11393
     marketGroup: 433
+    mass: 1053900.0
     name: Retribution
     published: true
     volume: 28600.0
@@ -812,6 +821,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 2834
     marketGroup: 1623
+    mass: 1216000.0
     name: Utu
     published: true
     volume: 29500.0
@@ -892,6 +902,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11365
     marketGroup: 433
+    mass: 1046700.0
     name: Vengeance
     published: true
     volume: 28600.0
@@ -973,6 +984,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11371
     marketGroup: 436
+    mass: 1178100.0
     name: Wolf
     published: true
     volume: 27289.0

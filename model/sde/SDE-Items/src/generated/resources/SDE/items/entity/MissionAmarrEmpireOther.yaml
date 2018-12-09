@@ -1,11 +1,13 @@
 items:
   Civilian Amarr Bestower:
     id: 30974
+    mass: 1.35E7
     name: Civilian Amarr Bestower
     published: false
     volume: 260000.0
   Jamur Fatimar:
     id: 25557
+    mass: 1.95E7
     name: Jamur Fatimar
     published: false
     volume: 1150000.0

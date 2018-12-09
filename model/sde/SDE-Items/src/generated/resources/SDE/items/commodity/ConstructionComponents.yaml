@@ -3,6 +3,7 @@ items:
     MoonMiningAmount: 100
     id: 11549
     marketGroup: 802
+    mass: 1.0
     name: Antimatter Reactor Unit
     published: true
     volume: 1.0
@@ -10,6 +11,7 @@ items:
     MoonMiningAmount: 100
     id: 11545
     marketGroup: 1888
+    mass: 1.0
     name: Crystalline Carbonide Armor Plate
     published: true
     volume: 1.0
@@ -17,6 +19,7 @@ items:
     MoonMiningAmount: 100
     id: 11555
     marketGroup: 1889
+    mass: 1.0
     name: Deflection Shield Emitter
     published: true
     volume: 1.0
@@ -24,6 +27,7 @@ items:
     MoonMiningAmount: 100
     id: 11694
     marketGroup: 802
+    mass: 1.0
     name: EM Pulse Generator
     published: true
     volume: 1.0
@@ -31,6 +35,7 @@ items:
     MoonMiningAmount: 100
     id: 11551
     marketGroup: 1889
+    mass: 1.0
     name: Electrolytic Capacitor Unit
     published: true
     volume: 1.0
@@ -38,6 +43,7 @@ items:
     MoonMiningAmount: 100
     id: 11542
     marketGroup: 1889
+    mass: 1.0
     name: Fernite Carbide Composite Armor Plate
     published: true
     volume: 1.0
@@ -45,6 +51,7 @@ items:
     MoonMiningAmount: 100
     id: 11547
     marketGroup: 1888
+    mass: 1.0
     name: Fusion Reactor Unit
     published: true
     volume: 1.0
@@ -52,6 +59,7 @@ items:
     MoonMiningAmount: 100
     id: 11532
     marketGroup: 802
+    mass: 1.0
     name: Fusion Thruster
     published: true
     volume: 1.0
@@ -59,6 +67,7 @@ items:
     MoonMiningAmount: 100
     id: 11534
     marketGroup: 803
+    mass: 1.0
     name: Gravimetric Sensor Cluster
     published: true
     volume: 1.0
@@ -66,6 +75,7 @@ items:
     MoonMiningAmount: 100
     id: 11693
     marketGroup: 803
+    mass: 1.0
     name: Graviton Pulse Generator
     published: true
     volume: 1.0
@@ -73,6 +83,7 @@ items:
     MoonMiningAmount: 100
     id: 11550
     marketGroup: 803
+    mass: 1.0
     name: Graviton Reactor Unit
     published: true
     volume: 1.0
@@ -80,6 +91,7 @@ items:
     MoonMiningAmount: 100
     id: 11531
     marketGroup: 1888
+    mass: 1.0
     name: Ion Thruster
     published: true
     volume: 1.0
@@ -87,6 +99,7 @@ items:
     MoonMiningAmount: 100
     id: 11536
     marketGroup: 1889
+    mass: 1.0
     name: Ladar Sensor Cluster
     published: true
     volume: 1.0
@@ -94,6 +107,7 @@ items:
     MoonMiningAmount: 100
     id: 11689
     marketGroup: 802
+    mass: 1.0
     name: Laser Focusing Crystals
     published: true
     volume: 1.0
@@ -101,6 +115,7 @@ items:
     MoonMiningAmount: 100
     id: 11557
     marketGroup: 802
+    mass: 1.0
     name: Linear Shield Emitter
     published: true
     volume: 1.0
@@ -108,6 +123,7 @@ items:
     MoonMiningAmount: 100
     id: 11535
     marketGroup: 1888
+    mass: 1.0
     name: Magnetometric Sensor Cluster
     published: true
     volume: 1.0
@@ -115,6 +131,7 @@ items:
     MoonMiningAmount: 100
     id: 11533
     marketGroup: 803
+    mass: 1.0
     name: Magpulse Thruster
     published: true
     volume: 1.0
@@ -122,6 +139,7 @@ items:
     MoonMiningAmount: 100
     id: 11539
     marketGroup: 802
+    mass: 1.0
     name: Nanoelectrical Microprocessor
     published: true
     volume: 1.0
@@ -129,6 +147,7 @@ items:
     MoonMiningAmount: 100
     id: 11538
     marketGroup: 1889
+    mass: 1.0
     name: Nanomechanical Microprocessor
     published: true
     volume: 1.0
@@ -136,6 +155,7 @@ items:
     MoonMiningAmount: 100
     id: 11692
     marketGroup: 1889
+    mass: 1.0
     name: Nuclear Pulse Generator
     published: true
     volume: 1.0
@@ -143,6 +163,7 @@ items:
     MoonMiningAmount: 100
     id: 11548
     marketGroup: 1889
+    mass: 1.0
     name: Nuclear Reactor Unit
     published: true
     volume: 1.0
@@ -150,6 +171,7 @@ items:
     MoonMiningAmount: 100
     id: 11553
     marketGroup: 1888
+    mass: 1.0
     name: Oscillator Capacitor Unit
     published: true
     volume: 1.0
@@ -157,6 +179,7 @@ items:
     MoonMiningAmount: 100
     id: 11688
     marketGroup: 1888
+    mass: 1.0
     name: Particle Accelerator Unit
     published: true
     volume: 1.0
@@ -164,6 +187,7 @@ items:
     MoonMiningAmount: 100
     id: 11541
     marketGroup: 1888
+    mass: 1.0
     name: Photon Microprocessor
     published: true
     volume: 1.0
@@ -171,6 +195,7 @@ items:
     MoonMiningAmount: 100
     id: 11695
     marketGroup: 1888
+    mass: 1.0
     name: Plasma Pulse Generator
     published: true
     volume: 1.0
@@ -178,6 +203,7 @@ items:
     MoonMiningAmount: 100
     id: 11530
     marketGroup: 1889
+    mass: 1.0
     name: Plasma Thruster
     published: true
     volume: 1.0
@@ -185,6 +211,7 @@ items:
     MoonMiningAmount: 100
     id: 11556
     marketGroup: 1888
+    mass: 1.0
     name: Pulse Shield Emitter
     published: true
     volume: 1.0
@@ -192,6 +219,7 @@ items:
     MoonMiningAmount: 100
     id: 11540
     marketGroup: 803
+    mass: 1.0
     name: Quantum Microprocessor
     published: true
     volume: 1.0
@@ -199,6 +227,7 @@ items:
     MoonMiningAmount: 100
     id: 11537
     marketGroup: 802
+    mass: 1.0
     name: Radar Sensor Cluster
     published: true
     volume: 1.0
@@ -206,6 +235,7 @@ items:
     MoonMiningAmount: 100
     id: 11552
     marketGroup: 803
+    mass: 1.0
     name: Scalar Capacitor Unit
     published: true
     volume: 1.0
@@ -213,6 +243,7 @@ items:
     MoonMiningAmount: 1
     id: 33195
     marketGroup: 1147
+    mass: 1.0
     name: Spatial Attunement Unit
     published: true
     volume: 1.0
@@ -220,6 +251,7 @@ items:
     MoonMiningAmount: 100
     id: 11690
     marketGroup: 803
+    mass: 1.0
     name: Superconductor Rails
     published: true
     volume: 1.0
@@ -227,6 +259,7 @@ items:
     MoonMiningAmount: 100
     id: 11558
     marketGroup: 803
+    mass: 1.0
     name: Sustained Shield Emitter
     published: true
     volume: 1.0
@@ -234,6 +267,7 @@ items:
     MoonMiningAmount: 100
     id: 11554
     marketGroup: 802
+    mass: 1.0
     name: Tesseract Capacitor Unit
     published: true
     volume: 1.0
@@ -241,6 +275,7 @@ items:
     MoonMiningAmount: 100
     id: 11691
     marketGroup: 1889
+    mass: 1.0
     name: Thermonuclear Trigger Unit
     published: true
     volume: 1.0
@@ -248,6 +283,7 @@ items:
     MoonMiningAmount: 100
     id: 11544
     marketGroup: 803
+    mass: 1.0
     name: Titanium Diborite Armor Plate
     published: true
     volume: 1.0
@@ -255,6 +291,7 @@ items:
     MoonMiningAmount: 100
     id: 11543
     marketGroup: 802
+    mass: 1.0
     name: Tungsten Carbide Armor Plate
     published: true
     volume: 1.0

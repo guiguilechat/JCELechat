@@ -24,6 +24,7 @@ items:
     TechLevel: 1
     id: 27465
     marketGroup: 1192
+    mass: 1250.0
     name: Caldari Navy Scourge Auto-Targeting Cruise Missile I
     published: true
     volume: 0.05
@@ -52,6 +53,7 @@ items:
     ThermalDamage: 323.0
     id: 27471
     marketGroup: 1192
+    mass: 1250.0
     name: Federation Navy Inferno Auto-Targeting Cruise Missile I
     published: true
     volume: 0.05
@@ -80,6 +82,7 @@ items:
     TechLevel: 1
     id: 27459
     marketGroup: 1192
+    mass: 1250.0
     name: Imperial Navy Mjolnir Auto-Targeting Cruise Missile I
     published: true
     volume: 0.05
@@ -107,6 +110,7 @@ items:
     ThermalDamage: 281.0
     id: 1832
     marketGroup: 914
+    mass: 1250.0
     name: Inferno Auto-Targeting Cruise Missile I
     published: true
     volume: 0.05
@@ -134,6 +138,7 @@ items:
     TechLevel: 1
     id: 1828
     marketGroup: 914
+    mass: 1250.0
     name: Mjolnir Auto-Targeting Cruise Missile I
     published: true
     volume: 0.05
@@ -161,6 +166,7 @@ items:
     TechLevel: 1
     id: 1830
     marketGroup: 914
+    mass: 1250.0
     name: Nova Auto-Targeting Cruise Missile I
     published: true
     volume: 0.05
@@ -189,6 +195,7 @@ items:
     TechLevel: 1
     id: 27477
     marketGroup: 1192
+    mass: 1250.0
     name: Republic Fleet Nova Auto-Targeting Cruise Missile I
     published: true
     volume: 0.05
@@ -216,6 +223,7 @@ items:
     TechLevel: 1
     id: 1826
     marketGroup: 914
+    mass: 1250.0
     name: Scourge Auto-Targeting Cruise Missile I
     published: true
     volume: 0.05

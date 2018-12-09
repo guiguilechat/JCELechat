@@ -106,6 +106,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 28352
     marketGroup: 1048
+    mass: 8.0E8
     name: Rorqual
     published: true
     volume: 1.45E7

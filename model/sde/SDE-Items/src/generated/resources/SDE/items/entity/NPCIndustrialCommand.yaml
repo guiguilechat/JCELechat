@@ -1,11 +1,13 @@
 items:
   Justice Liberator:
     id: 48134
+    mass: 1.0E7
     name: Justice Liberator
     published: false
     volume: 225000.0
   ♦ Orca:
     id: 46049
+    mass: 1.5E7
     name: ♦ Orca
     published: false
     volume: 1.025E7

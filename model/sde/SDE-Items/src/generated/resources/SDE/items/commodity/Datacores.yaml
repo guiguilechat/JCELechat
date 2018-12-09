@@ -4,6 +4,7 @@ items:
     RequiredSkill1Level: 1
     id: 20421
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Amarrian Starship Engineering
     published: true
     volume: 0.1
@@ -12,6 +13,7 @@ items:
     RequiredSkill1Level: 1
     id: 25887
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Caldari Starship Engineering
     published: true
     volume: 0.1
@@ -20,6 +22,7 @@ items:
     RequiredSkill1Level: 1
     id: 20115
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Core Subsystems Engineering
     published: true
     volume: 0.1
@@ -28,6 +31,7 @@ items:
     RequiredSkill1Level: 1
     id: 11496
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Defensive Subsystems Engineering
     published: true
     volume: 0.1
@@ -36,6 +40,7 @@ items:
     RequiredSkill1Level: 1
     id: 20417
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Electromagnetic Physics
     published: true
     volume: 0.1
@@ -44,6 +49,7 @@ items:
     RequiredSkill1Level: 1
     id: 20418
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Electronic Engineering
     published: true
     volume: 0.1
@@ -52,6 +58,7 @@ items:
     RequiredSkill1Level: 1
     id: 20410
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Gallentean Starship Engineering
     published: true
     volume: 0.1
@@ -60,6 +67,7 @@ items:
     RequiredSkill1Level: 1
     id: 20419
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Graviton Physics
     published: true
     volume: 0.1
@@ -68,6 +76,7 @@ items:
     RequiredSkill1Level: 1
     id: 20411
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - High Energy Physics
     published: true
     volume: 0.1
@@ -76,6 +85,7 @@ items:
     RequiredSkill1Level: 1
     id: 20171
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Hydromagnetic Physics
     published: true
     volume: 0.1
@@ -84,6 +94,7 @@ items:
     RequiredSkill1Level: 1
     id: 20413
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Laser Physics
     published: true
     volume: 0.1
@@ -92,6 +103,7 @@ items:
     RequiredSkill1Level: 1
     id: 20424
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Mechanical Engineering
     published: true
     volume: 0.1
@@ -100,6 +112,7 @@ items:
     RequiredSkill1Level: 1
     id: 20172
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Minmatar Starship Engineering
     published: true
     volume: 0.1
@@ -108,6 +121,7 @@ items:
     RequiredSkill1Level: 1
     id: 20415
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Molecular Engineering
     published: true
     volume: 0.1
@@ -116,6 +130,7 @@ items:
     RequiredSkill1Level: 1
     id: 20416
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Nanite Engineering
     published: true
     volume: 0.1
@@ -124,6 +139,7 @@ items:
     RequiredSkill1Level: 1
     id: 20423
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Nuclear Physics
     published: true
     volume: 0.1
@@ -132,6 +148,7 @@ items:
     RequiredSkill1Level: 1
     id: 20425
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Offensive Subsystems Engineering
     published: true
     volume: 0.1
@@ -140,6 +157,7 @@ items:
     RequiredSkill1Level: 1
     id: 20412
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Plasma Physics
     published: true
     volume: 0.1
@@ -148,6 +166,7 @@ items:
     RequiredSkill1Level: 1
     id: 20114
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Propulsion Subsystems Engineering
     published: true
     volume: 0.1
@@ -156,6 +175,7 @@ items:
     RequiredSkill1Level: 1
     id: 20414
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Quantum Physics
     published: true
     volume: 0.1
@@ -164,6 +184,7 @@ items:
     RequiredSkill1Level: 1
     id: 20420
     marketGroup: 1880
+    mass: 1.0
     name: Datacore - Rocket Science
     published: true
     volume: 0.1

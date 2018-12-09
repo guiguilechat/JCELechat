@@ -1,61 +1,73 @@
 items:
   Arachula Apis:
     id: 10990
+    mass: 2000000.0
     name: Arachula Apis
     published: false
     volume: 20000.0
   Asmodeus Apis:
     id: 10994
+    mass: 2000000.0
     name: Asmodeus Apis
     published: false
     volume: 20000.0
   Beelzebub Apis:
     id: 10992
+    mass: 2000000.0
     name: Beelzebub Apis
     published: false
     volume: 20000.0
   Belphegor Apis:
     id: 10995
+    mass: 2000000.0
     name: Belphegor Apis
     published: false
     volume: 20000.0
   Dragonfly Apis:
     id: 10987
+    mass: 2000000.0
     name: Dragonfly Apis
     published: false
     volume: 20000.0
   Incubus Apis:
     id: 18113
+    mass: 2000000.0
     name: Incubus Apis
     published: false
     volume: 20000.0
   Malphas Apis:
     id: 18114
+    mass: 2000000.0
     name: Malphas Apis
     published: false
     volume: 20000.0
   Mammon Apis:
     id: 10993
+    mass: 2000000.0
     name: Mammon Apis
     published: false
     volume: 20000.0
   Moth Apis:
     id: 10986
+    mass: 2000000.0
     name: Moth Apis
     published: false
     volume: 20000.0
   Scorpionfly Apis:
     id: 10989
+    mass: 2000000.0
     name: Scorpionfly Apis
     published: false
     volume: 20000.0
   Tarantula Apis:
     id: 10991
+    mass: 2000000.0
     name: Tarantula Apis
     published: false
     volume: 20000.0
   Termite Apis:
     id: 10988
+    mass: 2000000.0
     name: Termite Apis
     published: false
     volume: 20000.0

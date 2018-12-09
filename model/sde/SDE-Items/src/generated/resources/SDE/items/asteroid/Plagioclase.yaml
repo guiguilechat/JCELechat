@@ -12,6 +12,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17455
     marketGroup: 516
+    mass: 1.0E35
     name: Azure Plagioclase
     published: true
     volume: 0.35
@@ -26,6 +27,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28421
     marketGroup: 516
+    mass: 1.0E35
     name: Compressed Azure Plagioclase
     published: true
     volume: 0.15
@@ -40,6 +42,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28422
     marketGroup: 516
+    mass: 1.0E35
     name: Compressed Plagioclase
     published: true
     volume: 0.15
@@ -54,6 +57,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28423
     marketGroup: 516
+    mass: 1.0E35
     name: Compressed Rich Plagioclase
     published: true
     volume: 0.15
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46701
     marketGroup: 516
+    mass: 1.0
     name: Compressed Sparkling Plagioclase
     published: true
     volume: 0.15
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 18
     marketGroup: 516
+    mass: 1.0E35
     name: Plagioclase
     published: true
     volume: 0.35
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17456
     marketGroup: 516
+    mass: 1.0E35
     name: Rich Plagioclase
     published: true
     volume: 0.35
@@ -116,6 +123,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46685
     marketGroup: 516
+    mass: 1.0E35
     name: Sparkling Plagioclase
     published: true
     volume: 0.35

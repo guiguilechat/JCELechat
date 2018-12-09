@@ -43,6 +43,7 @@ items:
     Uniformity: 1.0
     id: 27570
     marketGroup: 481
+    mass: 1.0E8
     name: Angel Stasis Webification Battery
     published: true
     volume: 4000.0
@@ -90,6 +91,7 @@ items:
     Uniformity: 1.0
     id: 27573
     marketGroup: 481
+    mass: 1.0E8
     name: Domination Stasis Webification Battery
     published: true
     volume: 4000.0
@@ -136,6 +138,7 @@ items:
     Uniformity: 1.0
     id: 17178
     marketGroup: 481
+    mass: 1.0E8
     name: Stasis Webification Battery
     published: true
     volume: 4000.0

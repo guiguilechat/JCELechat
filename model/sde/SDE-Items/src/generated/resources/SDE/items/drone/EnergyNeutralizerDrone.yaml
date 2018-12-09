@@ -52,6 +52,7 @@ items:
     Uniformity: 0.75
     id: 23659
     marketGroup: 843
+    mass: 3000.0
     name: Acolyte EV-300
     published: true
     volume: 5.0
@@ -108,6 +109,7 @@ items:
     Uniformity: 0.75
     id: 23702
     marketGroup: 843
+    mass: 3000.0
     name: Infiltrator EV-600
     published: true
     volume: 10.0
@@ -164,6 +166,7 @@ items:
     Uniformity: 0.75
     id: 22572
     marketGroup: 843
+    mass: 3000.0
     name: Praetor EV-900
     published: true
     volume: 25.0

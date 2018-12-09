@@ -1,126 +1,151 @@
 items:
   Blood Arch Engraver:
     id: 10282
+    mass: 1.2E7
     name: Blood Arch Engraver
     published: false
     volume: 120000.0
   Blood Arch Priest:
     id: 11904
+    mass: 1.18E7
     name: Blood Arch Priest
     published: false
     volume: 118000.0
   Blood Arch Reaver:
     id: 10281
+    mass: 1.15E7
     name: Blood Arch Reaver
     published: false
     volume: 115000.0
   Blood Arch Sage:
     id: 11903
+    mass: 1.18E7
     name: Blood Arch Sage
     published: false
     volume: 118000.0
   Blood Arch Templar:
     id: 11043
+    mass: 1.18E7
     name: Blood Arch Templar
     published: false
     volume: 118000.0
   Blood Clone Soldier Negotiator:
     id: 33182
+    mass: 1.18E7
     name: Blood Clone Soldier Negotiator
     published: false
     volume: 118000.0
   'Blood Clone Soldier Recruiter ':
     id: 33144
+    mass: 1.18E7
     name: 'Blood Clone Soldier Recruiter '
     published: false
     volume: 118000.0
   Blood Clone Soldier Trainer:
     id: 33135
+    mass: 1.18E7
     name: Blood Clone Soldier Trainer
     published: false
     volume: 118000.0
   Blood Clone Soldier Transporter:
     id: 33172
+    mass: 1.18E7
     name: Blood Clone Soldier Transporter
     published: false
     volume: 118000.0
   Blood Dark Priest:
     id: 23258
+    mass: 1.18E7
     name: Blood Dark Priest
     published: false
     volume: 118000.0
   Blood Priest:
     id: 11902
+    mass: 1.18E7
     name: Blood Priest
     published: false
     volume: 118000.0
   Blood Revenant:
     id: 11044
+    mass: 1.18E7
     name: Blood Revenant
     published: false
     volume: 118000.0
   Blood Sage:
     id: 11901
+    mass: 1.18E7
     name: Blood Sage
     published: false
     volume: 118000.0
   Blood Shadow Sage:
     id: 23257
+    mass: 1.18E7
     name: Blood Shadow Sage
     published: false
     volume: 118000.0
   Elder Blood Arch Engraver:
     id: 23282
+    mass: 1.18E7
     name: Elder Blood Arch Engraver
     published: false
     volume: 118000.0
   Elder Blood Arch Priest:
     id: 23284
+    mass: 1.18E7
     name: Elder Blood Arch Priest
     published: false
     volume: 118000.0
   Elder Blood Arch Reaver:
     id: 23281
+    mass: 1.18E7
     name: Elder Blood Arch Reaver
     published: false
     volume: 118000.0
   Elder Blood Arch Sage:
     id: 23283
+    mass: 1.18E7
     name: Elder Blood Arch Sage
     published: false
     volume: 118000.0
   Elder Blood Arch Templar:
     id: 23643
+    mass: 1.18E7
     name: Elder Blood Arch Templar
     published: false
     volume: 118000.0
   Elder Blood Dark Priest:
     id: 23286
+    mass: 1.18E7
     name: Elder Blood Dark Priest
     published: false
     volume: 118000.0
   Elder Blood Priest:
     id: 23646
+    mass: 1.18E7
     name: Elder Blood Priest
     published: false
     volume: 118000.0
   Elder Blood Revenant:
     id: 23644
+    mass: 1.18E7
     name: Elder Blood Revenant
     published: false
     volume: 118000.0
   Elder Blood Sage:
     id: 23645
+    mass: 1.18E7
     name: Elder Blood Sage
     published: false
     volume: 118000.0
   Elder Blood Shadow Sage:
     id: 23285
+    mass: 1.18E7
     name: Elder Blood Shadow Sage
     published: false
     volume: 118000.0
   TEST DRAINER:
     id: 24630
+    mass: 1.18E7
     name: TEST DRAINER
     published: false
     volume: 118000.0

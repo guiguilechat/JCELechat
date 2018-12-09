@@ -79,6 +79,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 12013
     marketGroup: 1074
+    mass: 1.5E7
     name: Broadsword
     published: true
     volume: 96000.0
@@ -163,6 +164,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 12017
     marketGroup: 1071
+    mass: 1.62E7
     name: Devoter
     published: true
     volume: 118000.0
@@ -248,6 +250,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 35781
     marketGroup: 2115
+    mass: 9000000.0
     name: Fiend
     published: true
     volume: 101000.0
@@ -329,6 +332,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 11995
     marketGroup: 1072
+    mass: 1.54E7
     name: Onyx
     published: true
     volume: 92000.0
@@ -410,6 +414,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 12021
     marketGroup: 1073
+    mass: 1.4E7
     name: Phobos
     published: true
     volume: 112000.0

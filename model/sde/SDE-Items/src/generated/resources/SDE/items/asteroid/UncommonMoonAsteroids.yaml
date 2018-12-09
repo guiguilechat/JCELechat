@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45501
     marketGroup: 2398
+    mass: 4000.0
     name: Chromite
     published: true
     volume: 10.0
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46302
     marketGroup: 2398
+    mass: 4000.0
     name: Lavish Chromite
     published: true
     volume: 10.0
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46296
     marketGroup: 2398
+    mass: 4000.0
     name: Lavish Otavite
     published: true
     volume: 10.0
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46298
     marketGroup: 2398
+    mass: 4000.0
     name: Lavish Sperrylite
     published: true
     volume: 10.0
@@ -66,6 +70,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46300
     marketGroup: 2398
+    mass: 4000.0
     name: Lavish Vanadinite
     published: true
     volume: 10.0
@@ -80,6 +85,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45498
     marketGroup: 2398
+    mass: 4000.0
     name: Otavite
     published: true
     volume: 10.0
@@ -94,6 +100,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46303
     marketGroup: 2398
+    mass: 4000.0
     name: Shimmering Chromite
     published: true
     volume: 10.0
@@ -108,6 +115,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46297
     marketGroup: 2398
+    mass: 4000.0
     name: Shimmering Otavite
     published: true
     volume: 10.0
@@ -122,6 +130,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46299
     marketGroup: 2398
+    mass: 4000.0
     name: Shimmering Sperrylite
     published: true
     volume: 10.0
@@ -136,6 +145,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46301
     marketGroup: 2398
+    mass: 4000.0
     name: Shimmering Vanadinite
     published: true
     volume: 10.0
@@ -150,6 +160,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45499
     marketGroup: 2398
+    mass: 4000.0
     name: Sperrylite
     published: true
     volume: 10.0
@@ -164,6 +175,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45500
     marketGroup: 2398
+    mass: 4000.0
     name: Vanadinite
     published: true
     volume: 10.0

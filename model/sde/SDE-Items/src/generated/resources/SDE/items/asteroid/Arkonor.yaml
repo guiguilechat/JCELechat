@@ -12,6 +12,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 22
     marketGroup: 512
+    mass: 1.0E35
     name: Arkonor
     published: true
     volume: 16.0
@@ -26,6 +27,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28367
     marketGroup: 512
+    mass: 1.0E35
     name: Compressed Arkonor
     published: true
     volume: 8.8
@@ -40,6 +42,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28385
     marketGroup: 512
+    mass: 1.0E35
     name: Compressed Crimson Arkonor
     published: true
     volume: 8.8
@@ -54,6 +57,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46691
     marketGroup: 512
+    mass: 1.0
     name: Compressed Flawless Arkonor
     published: true
     volume: 8.8
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28387
     marketGroup: 512
+    mass: 1.0E35
     name: Compressed Prime Arkonor
     published: true
     volume: 8.8
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17425
     marketGroup: 512
+    mass: 1.0E35
     name: Crimson Arkonor
     published: true
     volume: 16.0
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46678
     marketGroup: 512
+    mass: 1.0E35
     name: Flawless Arkonor
     published: true
     volume: 16.0
@@ -112,6 +119,7 @@ items:
     RequiredSkill1: 3386
     StasisWebifierResistance: 1.0
     id: 28625
+    mass: 1.0E35
     name: Polygypsum
     published: true
     volume: 16.0
@@ -128,6 +136,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17426
     marketGroup: 512
+    mass: 1.0E35
     name: Prime Arkonor
     published: true
     volume: 16.0

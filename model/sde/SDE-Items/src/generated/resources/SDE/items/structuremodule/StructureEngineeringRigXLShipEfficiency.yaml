@@ -21,6 +21,7 @@ items:
     UpgradeCost: 100
     id: 37180
     marketGroup: 2349
+    mass: 200.0
     name: Standup XL-Set Ship Manufacturing Efficiency I
     published: true
     volume: 40.0
@@ -46,6 +47,7 @@ items:
     UpgradeCost: 150
     id: 37181
     marketGroup: 2349
+    mass: 200.0
     name: Standup XL-Set Ship Manufacturing Efficiency II
     published: true
     volume: 40.0

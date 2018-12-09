@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 32262
     marketGroup: 938
+    mass: 200.0
     name: Black Eagle Drone Link Augmentor
     published: true
     volume: 25.0
@@ -23,6 +24,7 @@ items:
     TechLevel: 1
     id: 23527
     marketGroup: 938
+    mass: 200.0
     name: Drone Link Augmentor I
     published: true
     volume: 25.0
@@ -36,6 +38,7 @@ items:
     TechLevel: 2
     id: 24427
     marketGroup: 938
+    mass: 200.0
     name: Drone Link Augmentor II
     published: true
     volume: 25.0
@@ -51,6 +54,7 @@ items:
     TechLevel: 1
     id: 32927
     marketGroup: 938
+    mass: 200.0
     name: Unit D-34343's Modified Drone Link Augmentor
     published: true
     volume: 25.0
@@ -66,6 +70,7 @@ items:
     TechLevel: 1
     id: 32929
     marketGroup: 938
+    mass: 200.0
     name: Unit F-435454's Modified Drone Link Augmentor
     published: true
     volume: 25.0
@@ -81,6 +86,7 @@ items:
     TechLevel: 1
     id: 32931
     marketGroup: 938
+    mass: 200.0
     name: Unit P-343554's Modified Drone Link Augmentor
     published: true
     volume: 25.0
@@ -96,6 +102,7 @@ items:
     TechLevel: 1
     id: 32933
     marketGroup: 938
+    mass: 200.0
     name: Unit W-634's Modified Drone Link Augmentor
     published: true
     volume: 25.0

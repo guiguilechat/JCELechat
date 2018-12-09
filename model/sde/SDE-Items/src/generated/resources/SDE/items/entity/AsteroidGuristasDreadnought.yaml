@@ -1,11 +1,13 @@
 items:
   Dread Guristas Dreadnought:
     id: 41398
+    mass: 1.32E9
     name: Dread Guristas Dreadnought
     published: false
     volume: 1.625E7
   Guristas Dreadnought:
     id: 37465
+    mass: 1.32E9
     name: Guristas Dreadnought
     published: false
     volume: 1.625E7

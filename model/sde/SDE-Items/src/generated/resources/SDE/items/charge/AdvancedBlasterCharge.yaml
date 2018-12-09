@@ -15,6 +15,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12787
     marketGroup: 860
+    mass: 0.01
     name: Null L
     published: true
     volume: 0.025
@@ -34,6 +35,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12785
     marketGroup: 861
+    mass: 0.01
     name: Null M
     published: true
     volume: 0.0125
@@ -53,6 +55,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12614
     marketGroup: 862
+    mass: 0.01
     name: Null S
     published: true
     volume: 0.0025
@@ -72,6 +75,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 41324
     marketGroup: 2254
+    mass: 0.5
     name: Null XL
     published: true
     volume: 0.125
@@ -92,6 +96,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 12791
     marketGroup: 860
+    mass: 0.01
     name: Void L
     published: true
     volume: 0.025
@@ -112,6 +117,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 12789
     marketGroup: 861
+    mass: 0.01
     name: Void M
     published: true
     volume: 0.0125
@@ -132,6 +138,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 12612
     marketGroup: 862
+    mass: 0.01
     name: Void S
     published: true
     volume: 0.0025
@@ -152,6 +159,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 41322
     marketGroup: 2254
+    mass: 0.5
     name: Void XL
     published: true
     volume: 0.125

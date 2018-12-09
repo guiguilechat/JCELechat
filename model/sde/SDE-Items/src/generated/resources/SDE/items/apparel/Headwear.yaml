@@ -17,6 +17,7 @@ items:
     Gender: 1
     id: 34056
     marketGroup: 1943
+    mass: 0.1
     name: Men's 'Nova' Headwear (black)
     published: true
     volume: 0.1
@@ -24,6 +25,7 @@ items:
     Gender: 1
     id: 34061
     marketGroup: 1943
+    mass: 0.1
     name: Men's 'Nova' Headwear (bronze)
     published: true
     volume: 0.1
@@ -31,6 +33,7 @@ items:
     Gender: 1
     id: 34060
     marketGroup: 1943
+    mass: 0.1
     name: Men's 'Nova' Headwear (gold)
     published: true
     volume: 0.1
@@ -38,6 +41,7 @@ items:
     Gender: 1
     id: 34059
     marketGroup: 1943
+    mass: 0.1
     name: Men's 'Nova' Headwear (silver)
     published: true
     volume: 0.1
@@ -59,6 +63,7 @@ items:
     Gender: 1
     id: 34057
     marketGroup: 1943
+    mass: 0.1
     name: Men's 'Tectonic' Headwear (matte black)
     published: true
     volume: 0.1
@@ -66,6 +71,7 @@ items:
     Gender: 1
     id: 34062
     marketGroup: 1943
+    mass: 0.1
     name: Men's 'Tectonic' Headwear (metal)
     published: true
     volume: 0.1
@@ -73,6 +79,7 @@ items:
     Gender: 1
     id: 34063
     marketGroup: 1943
+    mass: 0.1
     name: Men's 'Tectonic' Headwear (shiny black)
     published: true
     volume: 0.1
@@ -80,6 +87,7 @@ items:
     Gender: 1
     id: 34058
     marketGroup: 1943
+    mass: 0.1
     name: Men's 'Tectonic' Headwear (white)
     published: true
     volume: 0.1
@@ -101,6 +109,7 @@ items:
     Gender: 2
     id: 47191
     marketGroup: 1943
+    mass: 0.5
     name: Men's Capsuleer Elite XV Cap
     published: true
     volume: 0.1
@@ -108,6 +117,7 @@ items:
     Gender: 2
     id: 47478
     marketGroup: 1943
+    mass: 0.5
     name: Men's Capsuleer Networker XV Cap
     published: true
     volume: 0.1
@@ -115,6 +125,7 @@ items:
     Gender: 2
     id: 45740
     marketGroup: 1943
+    mass: 0.5
     name: Men's Exoplanets Hunter Cap
     published: true
     volume: 0.1
@@ -139,18 +150,18 @@ items:
     name: Men's ‘Defender’ Beret (Gallente Federation)
     published: true
     volume: 0.1
-  Men's ‘Liberator’ Beret (Minmatar Republic):
-    Gender: 1
-    id: 42712
-    marketGroup: 1943
-    name: Men's ‘Liberator’ Beret (Minmatar Republic)
-    published: true
-    volume: 0.1
   Men's ‘Liberator’ Cap (Minmatar Republic):
     Gender: 2
     id: 42730
     marketGroup: 1943
     name: Men's ‘Liberator’ Cap (Minmatar Republic)
+    published: true
+    volume: 0.1
+  Men's ‘Liberator�� Beret (Minmatar Republic):
+    Gender: 1
+    id: 42712
+    marketGroup: 1943
+    name: Men's ‘Liberator�� Beret (Minmatar Republic)
     published: true
     volume: 0.1
   Men's ‘Protector’ Beret (Caldari State):
@@ -171,6 +182,7 @@ items:
     Gender: 3
     id: 34078
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Aeriform' Headwear (black)
     published: true
     volume: 0.1
@@ -178,6 +190,7 @@ items:
     Gender: 3
     id: 34066
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Aeriform' Headwear (blue)
     published: true
     volume: 0.1
@@ -185,6 +198,7 @@ items:
     Gender: 3
     id: 34076
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Aeriform' Headwear (clear)
     published: true
     volume: 0.1
@@ -192,6 +206,7 @@ items:
     Gender: 3
     id: 34064
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Aeriform' Headwear (cyan)
     published: true
     volume: 0.1
@@ -199,6 +214,7 @@ items:
     Gender: 3
     id: 34070
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Aeriform' Headwear (orange)
     published: true
     volume: 0.1
@@ -206,6 +222,7 @@ items:
     Gender: 3
     id: 34071
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Blades' Headwear (black)
     published: true
     volume: 0.1
@@ -213,6 +230,7 @@ items:
     Gender: 3
     id: 34069
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Blades' Headwear (gold)
     published: true
     volume: 0.1
@@ -220,6 +238,7 @@ items:
     Gender: 3
     id: 34065
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Blades' Headwear (gunmetal)
     published: true
     volume: 0.1
@@ -227,6 +246,7 @@ items:
     Gender: 3
     id: 34074
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Blades' Headwear (jade)
     published: true
     volume: 0.1
@@ -234,6 +254,7 @@ items:
     Gender: 3
     id: 34067
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Blades' Headwear (platinum)
     published: true
     volume: 0.1
@@ -276,6 +297,7 @@ items:
     Gender: 3
     id: 34068
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Spiderweb' Headwear (black)
     published: true
     volume: 0.1
@@ -283,6 +305,7 @@ items:
     Gender: 3
     id: 34072
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Spiderweb' Headwear (copper)
     published: true
     volume: 0.1
@@ -290,6 +313,7 @@ items:
     Gender: 3
     id: 34077
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Spiderweb' Headwear (golden)
     published: true
     volume: 0.1
@@ -297,6 +321,7 @@ items:
     Gender: 3
     id: 34073
     marketGroup: 1943
+    mass: 0.1
     name: Women's 'Spiderweb' Headwear (metallic)
     published: true
     volume: 0.1
@@ -318,6 +343,7 @@ items:
     Gender: 2
     id: 47193
     marketGroup: 1943
+    mass: 0.5
     name: Women's Capsuleer Elite XV Cap
     published: true
     volume: 0.1
@@ -325,6 +351,7 @@ items:
     Gender: 2
     id: 47477
     marketGroup: 1943
+    mass: 0.5
     name: Women's Capsuleer Networker XV Cap
     published: true
     volume: 0.1
@@ -332,6 +359,7 @@ items:
     Gender: 2
     id: 45739
     marketGroup: 1943
+    mass: 0.5
     name: Women's Exoplanets Hunter Cap
     published: true
     volume: 0.1
@@ -346,6 +374,7 @@ items:
     Gender: 3
     id: 44122
     marketGroup: 1943
+    mass: 0.5
     name: Women's YC119 Yoiul Festival Cap
     published: true
     volume: 0.1

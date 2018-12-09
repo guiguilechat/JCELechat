@@ -2,106 +2,124 @@ items:
   Antibiotics:
     id: 43
     marketGroup: 492
+    mass: 5.0
     name: Antibiotics
     published: true
     volume: 0.2
   Carbon:
     id: 9826
     marketGroup: 20
+    mass: 4400.0
     name: Carbon
     published: true
     volume: 0.01
   Data Sheets:
     id: 3812
     marketGroup: 20
+    mass: 1.0
     name: Data Sheets
     published: true
     volume: 1.0
   Electronic Parts:
     id: 3687
     marketGroup: 20
+    mass: 1000.0
     name: Electronic Parts
     published: true
     volume: 1.0
   Garbage:
     id: 41
     marketGroup: 20
+    mass: 2500.0
     name: Garbage
     published: true
     volume: 0.25
   Holoreel GRS-81A:
     id: 32374
+    mass: 100.0
     name: Holoreel GRS-81A
     published: true
     volume: 0.5
   Holoreels:
     id: 3647
     marketGroup: 492
+    mass: 100.0
     name: Holoreels
     published: true
     volume: 0.5
   Hydrogen Batteries:
     id: 3685
     marketGroup: 20
+    mass: 1500.0
     name: Hydrogen Batteries
     published: true
     volume: 1.0
   Large Crates of Quafe:
     id: 4090
+    mass: 500.0
     name: Large Crates of Quafe
     published: true
     volume: 500.0
   Quafe:
     id: 3699
     marketGroup: 492
+    mass: 500.0
     name: Quafe
     published: true
     volume: 0.1
   Quafe Ultra:
     id: 12865
     marketGroup: 492
+    mass: 500.0
     name: Quafe Ultra
     published: true
     volume: 0.1
   Reports:
     id: 3814
     marketGroup: 20
+    mass: 1.0
     name: Reports
     published: true
     volume: 0.1
   Small Arms:
     id: 9844
     marketGroup: 492
+    mass: 2500.0
     name: Small Arms
     published: true
     volume: 2.0
   Soil:
     id: 3643
     marketGroup: 20
+    mass: 3000.0
     name: Soil
     published: true
     volume: 1.5
   Spiced Wine:
     id: 42
     marketGroup: 492
+    mass: 500.0
     name: Spiced Wine
     published: true
     volume: 0.5
   Spirits:
     id: 9850
     marketGroup: 492
+    mass: 2500.0
     name: Spirits
     published: true
     volume: 0.2
   Tobacco:
     id: 9852
     marketGroup: 492
+    mass: 2500.0
     name: Tobacco
     published: true
     volume: 0.2
   Wheat:
     id: 3673
     marketGroup: 492
+    mass: 1000.0
     name: Wheat
     published: true
     volume: 1.15

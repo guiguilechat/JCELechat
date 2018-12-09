@@ -1,16 +1,19 @@
 items:
   Enhanced Training Drone:
     id: 16693
+    mass: 100000.0
     name: Enhanced Training Drone
     published: false
     volume: 60.0
   Rogue Drone:
     id: 13323
+    mass: 100000.0
     name: Rogue Drone
     published: false
     volume: 60.0
   Training Drone:
     id: 10649
+    mass: 100000.0
     name: Training Drone
     published: false
     volume: 60.0

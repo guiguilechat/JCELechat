@@ -16,6 +16,7 @@ items:
     TechLevel: 1
     id: 44261
     marketGroup: 1663
+    mass: 100.0
     name: Angels Arisen Firework
     published: true
     volume: 0.1
@@ -36,6 +37,7 @@ items:
     TechLevel: 1
     id: 33572
     marketGroup: 1663
+    mass: 100.0
     name: Barium Firework
     published: true
     volume: 0.1
@@ -56,6 +58,7 @@ items:
     TechLevel: 1
     id: 32994
     marketGroup: 1663
+    mass: 100.0
     name: Barium Firework CXIV
     published: true
     volume: 0.1
@@ -76,6 +79,7 @@ items:
     TechLevel: 1
     id: 44262
     marketGroup: 1663
+    mass: 100.0
     name: Blood Dagger Firework
     published: true
     volume: 0.1
@@ -96,6 +100,7 @@ items:
     TechLevel: 1
     id: 33573
     marketGroup: 1663
+    mass: 100.0
     name: Copper Firework
     published: true
     volume: 0.1
@@ -116,6 +121,7 @@ items:
     TechLevel: 1
     id: 32995
     marketGroup: 1663
+    mass: 100.0
     name: Copper Firework CXIV
     published: true
     volume: 0.1
@@ -136,6 +142,7 @@ items:
     TechLevel: 1
     id: 44267
     marketGroup: 1663
+    mass: 100.0
     name: Crimson Scythes Firework
     published: true
     volume: 0.1
@@ -156,6 +163,7 @@ items:
     TechLevel: 1
     id: 44260
     marketGroup: 1663
+    mass: 100.0
     name: Crown Imperial Firework
     published: true
     volume: 0.1
@@ -176,6 +184,7 @@ items:
     TechLevel: 1
     id: 47264
     marketGroup: 1663
+    mass: 100.0
     name: Eros Blossom Firework
     published: true
     volume: 0.1
@@ -196,6 +205,7 @@ items:
     TechLevel: 1
     id: 44272
     marketGroup: 1663
+    mass: 100.0
     name: Fangs of the Serpent Firework
     published: true
     volume: 0.1
@@ -216,6 +226,7 @@ items:
     TechLevel: 1
     id: 44270
     marketGroup: 1663
+    mass: 100.0
     name: Flames of the Rebellion Firework
     published: true
     volume: 0.1
@@ -236,6 +247,7 @@ items:
     TechLevel: 1
     id: 44268
     marketGroup: 1663
+    mass: 100.0
     name: Four Freedoms Firework
     published: true
     volume: 0.1
@@ -256,6 +268,7 @@ items:
     TechLevel: 1
     id: 44271
     marketGroup: 1663
+    mass: 100.0
     name: Nation Uplifts Firework
     published: true
     volume: 0.1
@@ -276,6 +289,7 @@ items:
     TechLevel: 1
     id: 44269
     marketGroup: 1663
+    mass: 100.0
     name: Naughty People Firework
     published: true
     volume: 0.1
@@ -296,6 +310,7 @@ items:
     TechLevel: 1
     id: 44264
     marketGroup: 1663
+    mass: 100.0
     name: Pulsar Flare Firework
     published: true
     volume: 0.1
@@ -317,6 +332,7 @@ items:
     ThermalDamage: -10.0
     id: 33569
     marketGroup: 1663
+    mass: 100.0
     name: Snowball
     published: true
     volume: 0.1
@@ -338,6 +354,7 @@ items:
     ThermalDamage: -10.0
     id: 30221
     marketGroup: 1663
+    mass: 100.0
     name: Snowball CXIV
     published: true
     volume: 0.1
@@ -358,6 +375,7 @@ items:
     TechLevel: 1
     id: 33571
     marketGroup: 1663
+    mass: 100.0
     name: Sodium Firework
     published: true
     volume: 0.1
@@ -378,6 +396,7 @@ items:
     TechLevel: 1
     id: 32993
     marketGroup: 1663
+    mass: 100.0
     name: Sodium Firework CXIV
     published: true
     volume: 0.1
@@ -398,6 +417,7 @@ items:
     TechLevel: 1
     id: 44266
     marketGroup: 1663
+    mass: 100.0
     name: Spacetime Singularity Firework
     published: true
     volume: 0.1
@@ -418,6 +438,7 @@ items:
     TechLevel: 1
     id: 44263
     marketGroup: 1663
+    mass: 100.0
     name: Wheel of Prosperity Firework
     published: true
     volume: 0.1
@@ -438,6 +459,7 @@ items:
     TechLevel: 1
     id: 44265
     marketGroup: 1663
+    mass: 100.0
     name: Wings of Victory Firework
     published: true
     volume: 0.1
@@ -458,6 +480,7 @@ items:
     TechLevel: 1
     id: 44110
     marketGroup: 1663
+    mass: 100.0
     name: Yoiul Festival Firework
     published: true
     volume: 0.1

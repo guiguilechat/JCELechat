@@ -1,6 +1,7 @@
 items:
   Dark Blood Titan:
     id: 37464
+    mass: 2.278125E9
     name: Dark Blood Titan
     published: false
     volume: 1.55E8

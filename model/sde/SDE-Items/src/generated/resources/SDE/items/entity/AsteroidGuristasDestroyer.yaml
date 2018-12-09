@@ -1,41 +1,49 @@
 items:
   Guristas Anarchist:
     id: 23313
+    mass: 1650000.0
     name: Guristas Anarchist
     published: false
     volume: 16500.0
   Guristas Guerilla:
     id: 23315
+    mass: 1650000.0
     name: Guristas Guerilla
     published: false
     volume: 16500.0
   Guristas Nihilist:
     id: 23312
+    mass: 1650000.0
     name: Guristas Nihilist
     published: false
     volume: 16500.0
   Guristas Renegade:
     id: 23314
+    mass: 1650000.0
     name: Guristas Renegade
     published: false
     volume: 16500.0
   Guristas Supremacist:
     id: 23329
+    mass: 1650000.0
     name: Guristas Supremacist
     published: false
     volume: 16500.0
   Guristas Terrorist:
     id: 23328
+    mass: 1650000.0
     name: Guristas Terrorist
     published: false
     volume: 16500.0
   Vagrant Anarchist:
     id: 23941
+    mass: 1650000.0
     name: Vagrant Anarchist
     published: false
     volume: 16500.0
   Vagrant Nihilist:
     id: 23940
+    mass: 1650000.0
     name: Vagrant Nihilist
     published: false
     volume: 16500.0

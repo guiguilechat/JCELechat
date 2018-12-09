@@ -19,6 +19,7 @@ items:
     UpgradeCost: 100
     id: 37248
     marketGroup: 2345
+    mass: 200.0
     name: Standup L-Set Missile Flight Processor I
     published: true
     volume: 20.0
@@ -42,6 +43,7 @@ items:
     UpgradeCost: 150
     id: 37249
     marketGroup: 2345
+    mass: 200.0
     name: Standup L-Set Missile Flight Processor II
     published: true
     volume: 20.0

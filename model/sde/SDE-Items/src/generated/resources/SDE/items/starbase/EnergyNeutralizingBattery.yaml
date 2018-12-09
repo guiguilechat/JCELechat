@@ -42,6 +42,7 @@ items:
     Uniformity: 1.0
     id: 27857
     marketGroup: 1009
+    mass: 1.0E8
     name: Blood Energy Neutralizing Battery
     published: true
     volume: 4000.0
@@ -88,6 +89,7 @@ items:
     Uniformity: 1.0
     id: 27858
     marketGroup: 1009
+    mass: 1.0E8
     name: Dark Blood Energy Neutralizing Battery
     published: true
     volume: 4000.0
@@ -133,6 +135,7 @@ items:
     Uniformity: 1.0
     id: 27672
     marketGroup: 1009
+    mass: 1.0E8
     name: Energy Neutralizing Battery
     published: true
     volume: 4000.0
@@ -179,6 +182,7 @@ items:
     Uniformity: 1.0
     id: 27855
     marketGroup: 1009
+    mass: 1.0E8
     name: Sansha Energy Neutralizing Battery
     published: true
     volume: 4000.0
@@ -225,6 +229,7 @@ items:
     Uniformity: 1.0
     id: 27856
     marketGroup: 1009
+    mass: 1.0E8
     name: True Sansha Energy Neutralizing Battery
     published: true
     volume: 4000.0

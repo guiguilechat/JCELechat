@@ -1,6 +1,7 @@
 items:
   Mordu’s Special Warfare Unit Operative:
     id: 33864
+    mass: 1970000.0
     name: Mordu’s Special Warfare Unit Operative
     published: false
     volume: 19700.0

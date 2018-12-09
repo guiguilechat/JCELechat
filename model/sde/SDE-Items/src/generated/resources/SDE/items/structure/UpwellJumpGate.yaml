@@ -57,6 +57,7 @@ items:
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35841
     marketGroup: 2511
+    mass: 3.0E9
     name: Ansiblex Jump Gate
     published: true
     volume: 6000.0

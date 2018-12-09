@@ -19,6 +19,7 @@ items:
     UpgradeCost: 100
     id: 43726
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set TE Research Optimization I
     published: true
     volume: 20.0
@@ -42,6 +43,7 @@ items:
     UpgradeCost: 150
     id: 43727
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set TE Research Optimization II
     published: true
     volume: 20.0

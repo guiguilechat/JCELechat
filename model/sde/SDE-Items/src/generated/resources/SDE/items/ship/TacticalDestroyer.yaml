@@ -74,6 +74,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 34317
     marketGroup: 1952
+    mass: 1800000.0
     name: Confessor
     published: true
     volume: 47000.0
@@ -153,6 +154,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 35683
     marketGroup: 2034
+    mass: 1050000.0
     name: Hecate
     published: true
     volume: 47000.0
@@ -232,6 +234,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 34828
     marketGroup: 2021
+    mass: 1100000.0
     name: Jackdaw
     published: true
     volume: 47000.0
@@ -311,6 +314,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 34562
     marketGroup: 1953
+    mass: 1400000.0
     name: Svipul
     published: true
     volume: 47000.0

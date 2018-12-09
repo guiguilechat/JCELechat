@@ -15,6 +15,7 @@ items:
     TechLevel: 3
     id: 45623
     marketGroup: 1122
+    mass: 1200000.0
     name: Legion Core - Augmented Antimatter Reactor
     published: true
     volume: 40.0
@@ -34,6 +35,7 @@ items:
     TechLevel: 3
     id: 45622
     marketGroup: 1122
+    mass: 1200000.0
     name: Legion Core - Dissolution Sequencer
     published: true
     volume: 40.0
@@ -54,6 +56,7 @@ items:
     TechLevel: 3
     id: 45624
     marketGroup: 1122
+    mass: 1200000.0
     name: Legion Core - Energy Parasitic Complex
     published: true
     volume: 40.0
@@ -73,6 +76,7 @@ items:
     TechLevel: 3
     id: 45632
     marketGroup: 1125
+    mass: 1200000.0
     name: Loki Core - Augmented Nuclear Reactor
     published: true
     volume: 40.0
@@ -92,6 +96,7 @@ items:
     TechLevel: 3
     id: 45631
     marketGroup: 1125
+    mass: 1200000.0
     name: Loki Core - Dissolution Sequencer
     published: true
     volume: 40.0
@@ -110,6 +115,7 @@ items:
     TechLevel: 3
     id: 45633
     marketGroup: 1125
+    mass: 1200000.0
     name: Loki Core - Immobility Drivers
     published: true
     volume: 40.0
@@ -129,6 +135,7 @@ items:
     TechLevel: 3
     id: 45629
     marketGroup: 1124
+    mass: 1200000.0
     name: Proteus Core - Augmented Fusion Reactor
     published: true
     volume: 40.0
@@ -148,6 +155,7 @@ items:
     TechLevel: 3
     id: 45628
     marketGroup: 1124
+    mass: 1200000.0
     name: Proteus Core - Electronic Efficiency Gate
     published: true
     volume: 40.0
@@ -166,6 +174,7 @@ items:
     TechLevel: 3
     id: 45630
     marketGroup: 1124
+    mass: 1200000.0
     name: Proteus Core - Friction Extension Processor
     published: true
     volume: 40.0
@@ -185,6 +194,7 @@ items:
     TechLevel: 3
     id: 45626
     marketGroup: 1123
+    mass: 1200000.0
     name: Tengu Core - Augmented Graviton Reactor
     published: true
     volume: 40.0
@@ -204,6 +214,7 @@ items:
     TechLevel: 3
     id: 45625
     marketGroup: 1123
+    mass: 1200000.0
     name: Tengu Core - Electronic Efficiency Gate
     published: true
     volume: 40.0
@@ -222,6 +233,7 @@ items:
     TechLevel: 3
     id: 45627
     marketGroup: 1123
+    mass: 1200000.0
     name: Tengu Core - Obfuscation Manifold
     published: true
     volume: 40.0

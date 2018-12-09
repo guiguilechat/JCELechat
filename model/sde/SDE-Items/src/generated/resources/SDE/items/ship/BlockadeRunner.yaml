@@ -80,6 +80,7 @@ items:
     WarpSpeedMultiplier: 6.0
     id: 12729
     marketGroup: 631
+    mass: 1.1E7
     name: Crane
     published: true
     volume: 195000.0
@@ -165,6 +166,7 @@ items:
     WarpSpeedMultiplier: 6.0
     id: 12733
     marketGroup: 630
+    mass: 1.075E7
     name: Prorator
     published: true
     volume: 200000.0
@@ -251,6 +253,7 @@ items:
     WarpSpeedMultiplier: 6.0
     id: 12735
     marketGroup: 633
+    mass: 1.12E7
     name: Prowler
     published: true
     volume: 180000.0
@@ -336,6 +339,7 @@ items:
     WarpSpeedMultiplier: 6.0
     id: 12743
     marketGroup: 632
+    mass: 1.0E7
     name: Viator
     published: true
     volume: 190000.0

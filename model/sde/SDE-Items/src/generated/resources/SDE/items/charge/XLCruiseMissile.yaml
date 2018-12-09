@@ -22,6 +22,7 @@ items:
     ThermalDamage: 5225.0
     id: 2182
     marketGroup: 1317
+    mass: 1500.0
     name: Guristas Inferno XL Cruise Missile
     published: true
     volume: 0.3
@@ -48,6 +49,7 @@ items:
     TechLevel: 1
     id: 2188
     marketGroup: 1317
+    mass: 1500.0
     name: Guristas Mjolnir XL Cruise Missile
     published: true
     volume: 0.3
@@ -74,6 +76,7 @@ items:
     TechLevel: 1
     id: 2178
     marketGroup: 1317
+    mass: 1500.0
     name: Guristas Nova XL Cruise Missile
     published: true
     volume: 0.3
@@ -100,6 +103,7 @@ items:
     TechLevel: 1
     id: 2180
     marketGroup: 1317
+    mass: 1500.0
     name: Guristas Scourge XL Cruise Missile
     published: true
     volume: 0.3
@@ -124,6 +128,7 @@ items:
     ThermalDamage: 4750.0
     id: 32440
     marketGroup: 1287
+    mass: 1500.0
     name: Inferno XL Cruise Missile
     published: true
     volume: 0.3
@@ -148,6 +153,7 @@ items:
     TechLevel: 1
     id: 32442
     marketGroup: 1287
+    mass: 1500.0
     name: Mjolnir XL Cruise Missile
     published: true
     volume: 0.3
@@ -172,6 +178,7 @@ items:
     TechLevel: 1
     id: 32438
     marketGroup: 1287
+    mass: 1500.0
     name: Nova XL Cruise Missile
     published: true
     volume: 0.3
@@ -196,6 +203,7 @@ items:
     TechLevel: 1
     id: 32436
     marketGroup: 1287
+    mass: 1500.0
     name: Scourge XL Cruise Missile
     published: true
     volume: 0.3

@@ -10,6 +10,7 @@ items:
     TechLevel: 1
     id: 16319
     marketGroup: 1667
+    mass: 1.0
     name: '''Aegis'' Explosive Plating I'
     published: true
     volume: 5.0
@@ -27,6 +28,7 @@ items:
     ThermalDamageResistanceBonus: -13.520000457763672
     id: 16309
     marketGroup: 1670
+    mass: 1.0
     name: '''Collateral'' Adaptive Nano Plating I'
     published: true
     volume: 5.0
@@ -41,6 +43,7 @@ items:
     TechLevel: 1
     id: 16333
     marketGroup: 1668
+    mass: 1.0
     name: '''Contour'' EM Plating I'
     published: true
     volume: 5.0
@@ -55,6 +58,7 @@ items:
     TechLevel: 1
     id: 16327
     marketGroup: 1666
+    mass: 1.0
     name: '''Element'' Kinetic Plating I'
     published: true
     volume: 5.0
@@ -68,6 +72,7 @@ items:
     TechLevel: 1
     id: 16351
     marketGroup: 1669
+    mass: 1.0
     name: '''Grail'' Layered Plating I'
     published: true
     volume: 5.0
@@ -85,6 +90,7 @@ items:
     ThermalDamageResistanceBonus: -15.359999656677246
     id: 16311
     marketGroup: 1670
+    mass: 1.0
     name: '''Refuge'' Adaptive Nano Plating I'
     published: true
     volume: 5.0
@@ -98,6 +104,7 @@ items:
     TechLevel: 1
     id: 16349
     marketGroup: 1669
+    mass: 1.0
     name: '''Scarab'' Layered Plating I'
     published: true
     volume: 5.0
@@ -112,6 +119,7 @@ items:
     TechLevel: 1
     id: 16335
     marketGroup: 1668
+    mass: 1.0
     name: '''Spiegel'' EM Plating I'
     published: true
     volume: 5.0
@@ -128,6 +136,7 @@ items:
     ThermalDamageResistanceBonus: -8.0
     id: 1304
     marketGroup: 1670
+    mass: 1.0
     name: Adaptive Nano Plating I
     published: true
     volume: 5.0
@@ -145,6 +154,7 @@ items:
     ThermalDamageResistanceBonus: -15.359999656677246
     id: 1306
     marketGroup: 1670
+    mass: 1.0
     name: Adaptive Nano Plating II
     published: true
     volume: 5.0
@@ -163,6 +173,7 @@ items:
     ThermalDamageResistanceBonus: -23.6875
     id: 14866
     marketGroup: 1670
+    mass: 1.0
     name: Ahremen's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -178,6 +189,7 @@ items:
     TechLevel: 1
     id: 14914
     marketGroup: 1668
+    mass: 1.0
     name: Ahremen's Modified EM Plating
     published: true
     volume: 5.0
@@ -193,6 +205,7 @@ items:
     TechLevel: 1
     id: 14898
     marketGroup: 1667
+    mass: 1.0
     name: Ahremen's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -208,6 +221,7 @@ items:
     TechLevel: 1
     id: 14882
     marketGroup: 1666
+    mass: 1.0
     name: Ahremen's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -223,6 +237,7 @@ items:
     ThermalDamageResistanceBonus: -35.25
     id: 14930
     marketGroup: 1665
+    mass: 1.0
     name: Ahremen's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -241,6 +256,7 @@ items:
     ThermalDamageResistanceBonus: -17.5
     id: 17514
     marketGroup: 1670
+    mass: 1.0
     name: Ammatar Navy Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -256,6 +272,7 @@ items:
     TechLevel: 1
     id: 17518
     marketGroup: 1668
+    mass: 1.0
     name: Ammatar Navy EM Plating
     published: true
     volume: 5.0
@@ -271,6 +288,7 @@ items:
     TechLevel: 1
     id: 17516
     marketGroup: 1667
+    mass: 1.0
     name: Ammatar Navy Explosive Plating
     published: true
     volume: 5.0
@@ -286,6 +304,7 @@ items:
     TechLevel: 1
     id: 17512
     marketGroup: 1666
+    mass: 1.0
     name: Ammatar Navy Kinetic Plating
     published: true
     volume: 5.0
@@ -301,6 +320,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     id: 32809
     marketGroup: 1665
+    mass: 1.0
     name: Ammatar Navy Thermal Plating
     published: true
     volume: 5.0
@@ -317,6 +337,7 @@ items:
     ThermalDamageResistanceBonus: -7.0
     id: 1302
     marketGroup: 1670
+    mass: 1.0
     name: Basic Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -330,6 +351,7 @@ items:
     TechLevel: 1
     id: 1193
     marketGroup: 1668
+    mass: 1.0
     name: Basic EM Plating
     published: true
     volume: 5.0
@@ -343,6 +365,7 @@ items:
     TechLevel: 1
     id: 1262
     marketGroup: 1667
+    mass: 1.0
     name: Basic Explosive Plating
     published: true
     volume: 5.0
@@ -356,6 +379,7 @@ items:
     TechLevel: 1
     id: 1282
     marketGroup: 1666
+    mass: 1.0
     name: Basic Kinetic Plating
     published: true
     volume: 5.0
@@ -368,6 +392,7 @@ items:
     TechLevel: 1
     id: 1272
     marketGroup: 1669
+    mass: 1.0
     name: Basic Layered Plating
     published: true
     volume: 5.0
@@ -381,6 +406,7 @@ items:
     ThermalDamageResistanceBonus: -15.0
     id: 1292
     marketGroup: 1665
+    mass: 1.0
     name: Basic Thermal Plating
     published: true
     volume: 5.0
@@ -399,6 +425,7 @@ items:
     ThermalDamageResistanceBonus: -19.5625
     id: 14856
     marketGroup: 1670
+    mass: 1.0
     name: Brokara's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -414,6 +441,7 @@ items:
     TechLevel: 1
     id: 14904
     marketGroup: 1668
+    mass: 1.0
     name: Brokara's Modified EM Plating
     published: true
     volume: 5.0
@@ -429,6 +457,7 @@ items:
     TechLevel: 1
     id: 14888
     marketGroup: 1667
+    mass: 1.0
     name: Brokara's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -444,6 +473,7 @@ items:
     TechLevel: 1
     id: 14872
     marketGroup: 1666
+    mass: 1.0
     name: Brokara's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -459,6 +489,7 @@ items:
     ThermalDamageResistanceBonus: -31.75
     id: 14920
     marketGroup: 1665
+    mass: 1.0
     name: Brokara's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -477,6 +508,7 @@ items:
     ThermalDamageResistanceBonus: -19.5625
     id: 15164
     marketGroup: 1670
+    mass: 1.0
     name: Brynn's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -492,6 +524,7 @@ items:
     TechLevel: 1
     id: 15180
     marketGroup: 1668
+    mass: 1.0
     name: Brynn's Modified EM Plating
     published: true
     volume: 5.0
@@ -507,6 +540,7 @@ items:
     TechLevel: 1
     id: 15188
     marketGroup: 1667
+    mass: 1.0
     name: Brynn's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -522,6 +556,7 @@ items:
     TechLevel: 1
     id: 15196
     marketGroup: 1666
+    mass: 1.0
     name: Brynn's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -537,6 +572,7 @@ items:
     ThermalDamageResistanceBonus: -31.75
     id: 15172
     marketGroup: 1665
+    mass: 1.0
     name: Brynn's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -555,6 +591,7 @@ items:
     ThermalDamageResistanceBonus: -23.6875
     id: 18710
     marketGroup: 1670
+    mass: 1.0
     name: Centii A-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -570,6 +607,7 @@ items:
     TechLevel: 1
     id: 18762
     marketGroup: 1668
+    mass: 1.0
     name: Centii A-Type EM Plating
     published: true
     volume: 5.0
@@ -585,6 +623,7 @@ items:
     TechLevel: 1
     id: 18758
     marketGroup: 1667
+    mass: 1.0
     name: Centii A-Type Explosive Plating
     published: true
     volume: 5.0
@@ -600,6 +639,7 @@ items:
     TechLevel: 1
     id: 18754
     marketGroup: 1666
+    mass: 1.0
     name: Centii A-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -615,6 +655,7 @@ items:
     ThermalDamageResistanceBonus: -35.25
     id: 18766
     marketGroup: 1665
+    mass: 1.0
     name: Centii A-Type Thermal Plating
     published: true
     volume: 5.0
@@ -633,6 +674,7 @@ items:
     ThermalDamageResistanceBonus: -21.625
     id: 18706
     marketGroup: 1670
+    mass: 1.0
     name: Centii B-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -648,6 +690,7 @@ items:
     TechLevel: 1
     id: 18750
     marketGroup: 1668
+    mass: 1.0
     name: Centii B-Type EM Plating
     published: true
     volume: 5.0
@@ -663,6 +706,7 @@ items:
     TechLevel: 1
     id: 18746
     marketGroup: 1667
+    mass: 1.0
     name: Centii B-Type Explosive Plating
     published: true
     volume: 5.0
@@ -678,6 +722,7 @@ items:
     TechLevel: 1
     id: 18742
     marketGroup: 1666
+    mass: 1.0
     name: Centii B-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -693,6 +738,7 @@ items:
     ThermalDamageResistanceBonus: -33.5
     id: 18730
     marketGroup: 1665
+    mass: 1.0
     name: Centii B-Type Thermal Plating
     published: true
     volume: 5.0
@@ -711,6 +757,7 @@ items:
     ThermalDamageResistanceBonus: -19.5625
     id: 18702
     marketGroup: 1670
+    mass: 1.0
     name: Centii C-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -726,6 +773,7 @@ items:
     TechLevel: 1
     id: 18722
     marketGroup: 1668
+    mass: 1.0
     name: Centii C-Type EM Plating
     published: true
     volume: 5.0
@@ -741,6 +789,7 @@ items:
     TechLevel: 1
     id: 18718
     marketGroup: 1667
+    mass: 1.0
     name: Centii C-Type Explosive Plating
     published: true
     volume: 5.0
@@ -756,6 +805,7 @@ items:
     TechLevel: 1
     id: 18714
     marketGroup: 1666
+    mass: 1.0
     name: Centii C-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -771,6 +821,7 @@ items:
     ThermalDamageResistanceBonus: -31.75
     id: 18726
     marketGroup: 1665
+    mass: 1.0
     name: Centii C-Type Thermal Plating
     published: true
     volume: 5.0
@@ -789,6 +840,7 @@ items:
     ThermalDamageResistanceBonus: -25.75
     id: 14868
     marketGroup: 1670
+    mass: 1.0
     name: Chelm's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -804,6 +856,7 @@ items:
     TechLevel: 1
     id: 14916
     marketGroup: 1668
+    mass: 1.0
     name: Chelm's Modified EM Plating
     published: true
     volume: 5.0
@@ -819,6 +872,7 @@ items:
     TechLevel: 1
     id: 14900
     marketGroup: 1667
+    mass: 1.0
     name: Chelm's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -834,6 +888,7 @@ items:
     TechLevel: 1
     id: 14884
     marketGroup: 1666
+    mass: 1.0
     name: Chelm's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -849,6 +904,7 @@ items:
     ThermalDamageResistanceBonus: -37.0
     id: 14932
     marketGroup: 1665
+    mass: 1.0
     name: Chelm's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -867,6 +923,7 @@ items:
     ThermalDamageResistanceBonus: -23.6875
     id: 18789
     marketGroup: 1670
+    mass: 1.0
     name: Coreli A-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -882,6 +939,7 @@ items:
     TechLevel: 1
     id: 18795
     marketGroup: 1668
+    mass: 1.0
     name: Coreli A-Type EM Plating
     published: true
     volume: 5.0
@@ -897,6 +955,7 @@ items:
     TechLevel: 1
     id: 18793
     marketGroup: 1667
+    mass: 1.0
     name: Coreli A-Type Explosive Plating
     published: true
     volume: 5.0
@@ -912,6 +971,7 @@ items:
     TechLevel: 1
     id: 18791
     marketGroup: 1666
+    mass: 1.0
     name: Coreli A-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -927,6 +987,7 @@ items:
     ThermalDamageResistanceBonus: -35.25
     id: 18797
     marketGroup: 1665
+    mass: 1.0
     name: Coreli A-Type Thermal Plating
     published: true
     volume: 5.0
@@ -945,6 +1006,7 @@ items:
     ThermalDamageResistanceBonus: -21.625
     id: 18779
     marketGroup: 1670
+    mass: 1.0
     name: Coreli B-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -960,6 +1022,7 @@ items:
     TechLevel: 1
     id: 18785
     marketGroup: 1668
+    mass: 1.0
     name: Coreli B-Type EM Plating
     published: true
     volume: 5.0
@@ -975,6 +1038,7 @@ items:
     TechLevel: 1
     id: 18783
     marketGroup: 1667
+    mass: 1.0
     name: Coreli B-Type Explosive Plating
     published: true
     volume: 5.0
@@ -990,6 +1054,7 @@ items:
     TechLevel: 1
     id: 18781
     marketGroup: 1666
+    mass: 1.0
     name: Coreli B-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -1005,6 +1070,7 @@ items:
     ThermalDamageResistanceBonus: -33.5
     id: 18787
     marketGroup: 1665
+    mass: 1.0
     name: Coreli B-Type Thermal Plating
     published: true
     volume: 5.0
@@ -1023,6 +1089,7 @@ items:
     ThermalDamageResistanceBonus: -19.5625
     id: 18768
     marketGroup: 1670
+    mass: 1.0
     name: Coreli C-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1038,6 +1105,7 @@ items:
     TechLevel: 1
     id: 18775
     marketGroup: 1668
+    mass: 1.0
     name: Coreli C-Type EM Plating
     published: true
     volume: 5.0
@@ -1053,6 +1121,7 @@ items:
     TechLevel: 1
     id: 18772
     marketGroup: 1667
+    mass: 1.0
     name: Coreli C-Type Explosive Plating
     published: true
     volume: 5.0
@@ -1068,6 +1137,7 @@ items:
     TechLevel: 1
     id: 18770
     marketGroup: 1666
+    mass: 1.0
     name: Coreli C-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -1083,6 +1153,7 @@ items:
     ThermalDamageResistanceBonus: -31.75
     id: 18777
     marketGroup: 1665
+    mass: 1.0
     name: Coreli C-Type Thermal Plating
     published: true
     volume: 5.0
@@ -1101,6 +1172,7 @@ items:
     ThermalDamageResistanceBonus: -25.75
     id: 15170
     marketGroup: 1670
+    mass: 1.0
     name: Cormack's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1116,6 +1188,7 @@ items:
     TechLevel: 1
     id: 15186
     marketGroup: 1668
+    mass: 1.0
     name: Cormack's Modified EM Plating
     published: true
     volume: 5.0
@@ -1131,6 +1204,7 @@ items:
     TechLevel: 1
     id: 15194
     marketGroup: 1667
+    mass: 1.0
     name: Cormack's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -1146,6 +1220,7 @@ items:
     TechLevel: 1
     id: 15202
     marketGroup: 1666
+    mass: 1.0
     name: Cormack's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -1161,6 +1236,7 @@ items:
     ThermalDamageResistanceBonus: -37.0
     id: 15178
     marketGroup: 1665
+    mass: 1.0
     name: Cormack's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -1179,6 +1255,7 @@ items:
     ThermalDamageResistanceBonus: -23.6875
     id: 18708
     marketGroup: 1670
+    mass: 1.0
     name: Corpii A-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1194,6 +1271,7 @@ items:
     TechLevel: 1
     id: 18760
     marketGroup: 1668
+    mass: 1.0
     name: Corpii A-Type EM Plating
     published: true
     volume: 5.0
@@ -1209,6 +1287,7 @@ items:
     TechLevel: 1
     id: 18756
     marketGroup: 1667
+    mass: 1.0
     name: Corpii A-Type Explosive Plating
     published: true
     volume: 5.0
@@ -1224,6 +1303,7 @@ items:
     TechLevel: 1
     id: 18752
     marketGroup: 1666
+    mass: 1.0
     name: Corpii A-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -1239,6 +1319,7 @@ items:
     ThermalDamageResistanceBonus: -35.25
     id: 18764
     marketGroup: 1665
+    mass: 1.0
     name: Corpii A-Type Thermal Plating
     published: true
     volume: 5.0
@@ -1257,6 +1338,7 @@ items:
     ThermalDamageResistanceBonus: -21.625
     id: 18704
     marketGroup: 1670
+    mass: 1.0
     name: Corpii B-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1272,6 +1354,7 @@ items:
     TechLevel: 1
     id: 18748
     marketGroup: 1668
+    mass: 1.0
     name: Corpii B-Type EM Plating
     published: true
     volume: 5.0
@@ -1287,6 +1370,7 @@ items:
     TechLevel: 1
     id: 18744
     marketGroup: 1667
+    mass: 1.0
     name: Corpii B-Type Explosive Plating
     published: true
     volume: 5.0
@@ -1302,6 +1386,7 @@ items:
     TechLevel: 1
     id: 18740
     marketGroup: 1666
+    mass: 1.0
     name: Corpii B-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -1317,6 +1402,7 @@ items:
     ThermalDamageResistanceBonus: -33.5
     id: 18728
     marketGroup: 1665
+    mass: 1.0
     name: Corpii B-Type Thermal Plating
     published: true
     volume: 5.0
@@ -1335,6 +1421,7 @@ items:
     ThermalDamageResistanceBonus: -19.5625
     id: 18700
     marketGroup: 1670
+    mass: 1.0
     name: Corpii C-Type Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1350,6 +1437,7 @@ items:
     TechLevel: 1
     id: 18720
     marketGroup: 1668
+    mass: 1.0
     name: Corpii C-Type EM Plating
     published: true
     volume: 5.0
@@ -1365,6 +1453,7 @@ items:
     TechLevel: 1
     id: 18716
     marketGroup: 1667
+    mass: 1.0
     name: Corpii C-Type Explosive Plating
     published: true
     volume: 5.0
@@ -1380,6 +1469,7 @@ items:
     TechLevel: 1
     id: 18712
     marketGroup: 1666
+    mass: 1.0
     name: Corpii C-Type Kinetic Plating
     published: true
     volume: 5.0
@@ -1395,6 +1485,7 @@ items:
     ThermalDamageResistanceBonus: -31.75
     id: 18724
     marketGroup: 1665
+    mass: 1.0
     name: Corpii C-Type Thermal Plating
     published: true
     volume: 5.0
@@ -1413,6 +1504,7 @@ items:
     ThermalDamageResistanceBonus: -17.5
     id: 14003
     marketGroup: 1670
+    mass: 1.0
     name: Dark Blood Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1428,6 +1520,7 @@ items:
     TechLevel: 1
     id: 14021
     marketGroup: 1668
+    mass: 1.0
     name: Dark Blood EM Plating
     published: true
     volume: 5.0
@@ -1443,6 +1536,7 @@ items:
     TechLevel: 1
     id: 14015
     marketGroup: 1667
+    mass: 1.0
     name: Dark Blood Explosive Plating
     published: true
     volume: 5.0
@@ -1458,6 +1552,7 @@ items:
     TechLevel: 1
     id: 14009
     marketGroup: 1666
+    mass: 1.0
     name: Dark Blood Kinetic Plating
     published: true
     volume: 5.0
@@ -1473,6 +1568,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     id: 14027
     marketGroup: 1665
+    mass: 1.0
     name: Dark Blood Thermal Plating
     published: true
     volume: 5.0
@@ -1491,6 +1587,7 @@ items:
     ThermalDamageResistanceBonus: -15.359999656677246
     id: 13999
     marketGroup: 1670
+    mass: 1.0
     name: Domination Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1506,6 +1603,7 @@ items:
     TechLevel: 1
     id: 14017
     marketGroup: 1668
+    mass: 1.0
     name: Domination EM Plating
     published: true
     volume: 5.0
@@ -1521,6 +1619,7 @@ items:
     TechLevel: 1
     id: 14011
     marketGroup: 1667
+    mass: 1.0
     name: Domination Explosive Plating
     published: true
     volume: 5.0
@@ -1536,6 +1635,7 @@ items:
     TechLevel: 1
     id: 14005
     marketGroup: 1666
+    mass: 1.0
     name: Domination Kinetic Plating
     published: true
     volume: 5.0
@@ -1551,6 +1651,7 @@ items:
     ThermalDamageResistanceBonus: -26.399999618530273
     id: 14023
     marketGroup: 1665
+    mass: 1.0
     name: Domination Thermal Plating
     published: true
     volume: 5.0
@@ -1569,6 +1670,7 @@ items:
     ThermalDamageResistanceBonus: -25.75
     id: 14870
     marketGroup: 1670
+    mass: 1.0
     name: Draclira's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1584,6 +1686,7 @@ items:
     TechLevel: 1
     id: 14918
     marketGroup: 1668
+    mass: 1.0
     name: Draclira's Modified EM Plating
     published: true
     volume: 5.0
@@ -1599,6 +1702,7 @@ items:
     TechLevel: 1
     id: 14902
     marketGroup: 1667
+    mass: 1.0
     name: Draclira's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -1614,6 +1718,7 @@ items:
     TechLevel: 1
     id: 14886
     marketGroup: 1666
+    mass: 1.0
     name: Draclira's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -1629,6 +1734,7 @@ items:
     ThermalDamageResistanceBonus: -37.0
     id: 14934
     marketGroup: 1665
+    mass: 1.0
     name: Draclira's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -1642,6 +1748,7 @@ items:
     TechLevel: 1
     id: 1197
     marketGroup: 1668
+    mass: 1.0
     name: EM Plating I
     published: true
     volume: 5.0
@@ -1656,6 +1763,7 @@ items:
     TechLevel: 2
     id: 1198
     marketGroup: 1668
+    mass: 1.0
     name: EM Plating II
     published: true
     volume: 5.0
@@ -1670,6 +1778,7 @@ items:
     TechLevel: 1
     id: 16325
     marketGroup: 1667
+    mass: 1.0
     name: Experimental Explosive Plating I
     published: true
     volume: 5.0
@@ -1684,6 +1793,7 @@ items:
     TechLevel: 1
     id: 16317
     marketGroup: 1666
+    mass: 1.0
     name: Experimental Kinetic Plating I
     published: true
     volume: 5.0
@@ -1698,6 +1808,7 @@ items:
     ThermalDamageResistanceBonus: -24.799999237060547
     id: 16341
     marketGroup: 1665
+    mass: 1.0
     name: Experimental Thermal Plating I
     published: true
     volume: 5.0
@@ -1711,6 +1822,7 @@ items:
     TechLevel: 1
     id: 1264
     marketGroup: 1667
+    mass: 1.0
     name: Explosive Plating I
     published: true
     volume: 5.0
@@ -1725,6 +1837,7 @@ items:
     TechLevel: 2
     id: 1266
     marketGroup: 1667
+    mass: 1.0
     name: Explosive Plating II
     published: true
     volume: 5.0
@@ -1743,6 +1856,7 @@ items:
     ThermalDamageResistanceBonus: -15.359999656677246
     id: 17549
     marketGroup: 1670
+    mass: 1.0
     name: Federation Navy Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1758,6 +1872,7 @@ items:
     TechLevel: 1
     id: 17555
     marketGroup: 1668
+    mass: 1.0
     name: Federation Navy EM Plating
     published: true
     volume: 5.0
@@ -1773,6 +1888,7 @@ items:
     TechLevel: 1
     id: 17553
     marketGroup: 1667
+    mass: 1.0
     name: Federation Navy Explosive Plating
     published: true
     volume: 5.0
@@ -1788,6 +1904,7 @@ items:
     TechLevel: 1
     id: 17551
     marketGroup: 1666
+    mass: 1.0
     name: Federation Navy Kinetic Plating
     published: true
     volume: 5.0
@@ -1803,6 +1920,7 @@ items:
     ThermalDamageResistanceBonus: -26.399999618530273
     id: 17557
     marketGroup: 1665
+    mass: 1.0
     name: Federation Navy Thermal Plating
     published: true
     volume: 5.0
@@ -1821,6 +1939,7 @@ items:
     ThermalDamageResistanceBonus: -23.6875
     id: 14560
     marketGroup: 1670
+    mass: 1.0
     name: Gotan's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1836,6 +1955,7 @@ items:
     TechLevel: 1
     id: 14584
     marketGroup: 1668
+    mass: 1.0
     name: Gotan's Modified EM Plating
     published: true
     volume: 5.0
@@ -1851,6 +1971,7 @@ items:
     TechLevel: 1
     id: 14576
     marketGroup: 1667
+    mass: 1.0
     name: Gotan's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -1866,6 +1987,7 @@ items:
     TechLevel: 1
     id: 14568
     marketGroup: 1666
+    mass: 1.0
     name: Gotan's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -1881,6 +2003,7 @@ items:
     ThermalDamageResistanceBonus: -35.25
     id: 14592
     marketGroup: 1665
+    mass: 1.0
     name: Gotan's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -1899,6 +2022,7 @@ items:
     ThermalDamageResistanceBonus: -17.5
     id: 15693
     marketGroup: 1670
+    mass: 1.0
     name: Imperial Navy Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1914,6 +2038,7 @@ items:
     TechLevel: 1
     id: 15687
     marketGroup: 1668
+    mass: 1.0
     name: Imperial Navy EM Plating
     published: true
     volume: 5.0
@@ -1929,6 +2054,7 @@ items:
     TechLevel: 1
     id: 15689
     marketGroup: 1667
+    mass: 1.0
     name: Imperial Navy Explosive Plating
     published: true
     volume: 5.0
@@ -1944,6 +2070,7 @@ items:
     TechLevel: 1
     id: 15691
     marketGroup: 1666
+    mass: 1.0
     name: Imperial Navy Kinetic Plating
     published: true
     volume: 5.0
@@ -1959,6 +2086,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     id: 15685
     marketGroup: 1665
+    mass: 1.0
     name: Imperial Navy Thermal Plating
     published: true
     volume: 5.0
@@ -1977,6 +2105,7 @@ items:
     ThermalDamageResistanceBonus: -17.5
     id: 28520
     marketGroup: 1670
+    mass: 1.0
     name: Khanid Navy Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -1992,6 +2121,7 @@ items:
     TechLevel: 1
     id: 28554
     marketGroup: 1668
+    mass: 1.0
     name: Khanid Navy EM Plating
     published: true
     volume: 5.0
@@ -2007,6 +2137,7 @@ items:
     TechLevel: 1
     id: 28552
     marketGroup: 1667
+    mass: 1.0
     name: Khanid Navy Explosive Plating
     published: true
     volume: 5.0
@@ -2022,6 +2153,7 @@ items:
     TechLevel: 1
     id: 28547
     marketGroup: 1666
+    mass: 1.0
     name: Khanid Navy Kinetic Plating
     published: true
     volume: 5.0
@@ -2037,6 +2169,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     id: 28559
     marketGroup: 1665
+    mass: 1.0
     name: Khanid Navy Thermal Plating
     published: true
     volume: 5.0
@@ -2050,6 +2183,7 @@ items:
     TechLevel: 1
     id: 1284
     marketGroup: 1666
+    mass: 1.0
     name: Kinetic Plating I
     published: true
     volume: 5.0
@@ -2064,6 +2198,7 @@ items:
     TechLevel: 2
     id: 1286
     marketGroup: 1666
+    mass: 1.0
     name: Kinetic Plating II
     published: true
     volume: 5.0
@@ -2076,6 +2211,7 @@ items:
     TechLevel: 1
     id: 1274
     marketGroup: 1669
+    mass: 1.0
     name: Layered Plating I
     published: true
     volume: 5.0
@@ -2089,6 +2225,7 @@ items:
     TechLevel: 2
     id: 1276
     marketGroup: 1669
+    mass: 1.0
     name: Layered Plating II
     published: true
     volume: 5.0
@@ -2106,6 +2243,7 @@ items:
     ThermalDamageResistanceBonus: -11.680000305175781
     id: 16307
     marketGroup: 1670
+    mass: 1.0
     name: Limited Adaptive Nano Plating I
     published: true
     volume: 5.0
@@ -2120,6 +2258,7 @@ items:
     TechLevel: 1
     id: 16331
     marketGroup: 1668
+    mass: 1.0
     name: Limited EM Plating I
     published: true
     volume: 5.0
@@ -2134,6 +2273,7 @@ items:
     TechLevel: 1
     id: 16323
     marketGroup: 1667
+    mass: 1.0
     name: Limited Explosive Plating I
     published: true
     volume: 5.0
@@ -2148,6 +2288,7 @@ items:
     TechLevel: 1
     id: 16315
     marketGroup: 1666
+    mass: 1.0
     name: Limited Kinetic Plating I
     published: true
     volume: 5.0
@@ -2161,6 +2302,7 @@ items:
     TechLevel: 1
     id: 16347
     marketGroup: 1669
+    mass: 1.0
     name: Limited Layered Plating I
     published: true
     volume: 5.0
@@ -2175,6 +2317,7 @@ items:
     ThermalDamageResistanceBonus: -23.200000762939453
     id: 16339
     marketGroup: 1665
+    mass: 1.0
     name: Limited Thermal Plating I
     published: true
     volume: 5.0
@@ -2193,6 +2336,7 @@ items:
     ThermalDamageResistanceBonus: -19.5625
     id: 14556
     marketGroup: 1670
+    mass: 1.0
     name: Mizuro's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2208,6 +2352,7 @@ items:
     TechLevel: 1
     id: 14580
     marketGroup: 1668
+    mass: 1.0
     name: Mizuro's Modified EM Plating
     published: true
     volume: 5.0
@@ -2223,6 +2368,7 @@ items:
     TechLevel: 1
     id: 14572
     marketGroup: 1667
+    mass: 1.0
     name: Mizuro's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -2238,6 +2384,7 @@ items:
     TechLevel: 1
     id: 14564
     marketGroup: 1666
+    mass: 1.0
     name: Mizuro's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -2253,6 +2400,7 @@ items:
     ThermalDamageResistanceBonus: -31.75
     id: 14588
     marketGroup: 1665
+    mass: 1.0
     name: Mizuro's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -2267,6 +2415,7 @@ items:
     ThermalDamageResistanceBonus: -26.399999618530273
     id: 16343
     marketGroup: 1665
+    mass: 1.0
     name: Prototype Thermal Plating I
     published: true
     volume: 5.0
@@ -2285,6 +2434,7 @@ items:
     ThermalDamageResistanceBonus: -21.625
     id: 14862
     marketGroup: 1670
+    mass: 1.0
     name: Raysere's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2300,6 +2450,7 @@ items:
     TechLevel: 1
     id: 14910
     marketGroup: 1668
+    mass: 1.0
     name: Raysere's Modified EM Plating
     published: true
     volume: 5.0
@@ -2315,6 +2466,7 @@ items:
     TechLevel: 1
     id: 14894
     marketGroup: 1667
+    mass: 1.0
     name: Raysere's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -2330,6 +2482,7 @@ items:
     TechLevel: 1
     id: 14878
     marketGroup: 1666
+    mass: 1.0
     name: Raysere's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -2345,6 +2498,7 @@ items:
     ThermalDamageResistanceBonus: -33.5
     id: 14926
     marketGroup: 1665
+    mass: 1.0
     name: Raysere's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -2363,6 +2517,7 @@ items:
     ThermalDamageResistanceBonus: -15.359999656677246
     id: 15703
     marketGroup: 1670
+    mass: 1.0
     name: Republic Fleet Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2378,6 +2533,7 @@ items:
     TechLevel: 1
     id: 15697
     marketGroup: 1668
+    mass: 1.0
     name: Republic Fleet EM Plating
     published: true
     volume: 5.0
@@ -2393,6 +2549,7 @@ items:
     TechLevel: 1
     id: 15699
     marketGroup: 1667
+    mass: 1.0
     name: Republic Fleet Explosive Plating
     published: true
     volume: 5.0
@@ -2408,6 +2565,7 @@ items:
     TechLevel: 1
     id: 15701
     marketGroup: 1666
+    mass: 1.0
     name: Republic Fleet Kinetic Plating
     published: true
     volume: 5.0
@@ -2423,6 +2581,7 @@ items:
     ThermalDamageResistanceBonus: -26.399999618530273
     id: 15695
     marketGroup: 1665
+    mass: 1.0
     name: Republic Fleet Thermal Plating
     published: true
     volume: 5.0
@@ -2441,6 +2600,7 @@ items:
     ThermalDamageResistanceBonus: -21.625
     id: 14860
     marketGroup: 1670
+    mass: 1.0
     name: Selynne's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2456,6 +2616,7 @@ items:
     TechLevel: 1
     id: 14908
     marketGroup: 1668
+    mass: 1.0
     name: Selynne's Modified EM Plating
     published: true
     volume: 5.0
@@ -2471,6 +2632,7 @@ items:
     TechLevel: 1
     id: 14892
     marketGroup: 1667
+    mass: 1.0
     name: Selynne's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -2486,6 +2648,7 @@ items:
     TechLevel: 1
     id: 14876
     marketGroup: 1666
+    mass: 1.0
     name: Selynne's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -2501,6 +2664,7 @@ items:
     ThermalDamageResistanceBonus: -33.5
     id: 14924
     marketGroup: 1665
+    mass: 1.0
     name: Selynne's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -2519,6 +2683,7 @@ items:
     ThermalDamageResistanceBonus: -23.6875
     id: 15168
     marketGroup: 1670
+    mass: 1.0
     name: Setele's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2534,6 +2699,7 @@ items:
     TechLevel: 1
     id: 15184
     marketGroup: 1668
+    mass: 1.0
     name: Setele's Modified EM Plating
     published: true
     volume: 5.0
@@ -2549,6 +2715,7 @@ items:
     TechLevel: 1
     id: 15192
     marketGroup: 1667
+    mass: 1.0
     name: Setele's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -2564,6 +2731,7 @@ items:
     TechLevel: 1
     id: 15200
     marketGroup: 1666
+    mass: 1.0
     name: Setele's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -2579,6 +2747,7 @@ items:
     ThermalDamageResistanceBonus: -35.25
     id: 15176
     marketGroup: 1665
+    mass: 1.0
     name: Setele's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -2597,6 +2766,7 @@ items:
     ThermalDamageResistanceBonus: -15.359999656677246
     id: 14049
     marketGroup: 1670
+    mass: 1.0
     name: Shadow Serpentis Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2612,6 +2782,7 @@ items:
     TechLevel: 1
     id: 14055
     marketGroup: 1668
+    mass: 1.0
     name: Shadow Serpentis EM Plating
     published: true
     volume: 5.0
@@ -2627,6 +2798,7 @@ items:
     TechLevel: 1
     id: 14053
     marketGroup: 1667
+    mass: 1.0
     name: Shadow Serpentis Explosive Plating
     published: true
     volume: 5.0
@@ -2642,6 +2814,7 @@ items:
     TechLevel: 1
     id: 14051
     marketGroup: 1666
+    mass: 1.0
     name: Shadow Serpentis Kinetic Plating
     published: true
     volume: 5.0
@@ -2657,6 +2830,7 @@ items:
     ThermalDamageResistanceBonus: -26.399999618530273
     id: 14057
     marketGroup: 1665
+    mass: 1.0
     name: Shadow Serpentis Thermal Plating
     published: true
     volume: 5.0
@@ -2675,6 +2849,7 @@ items:
     ThermalDamageResistanceBonus: -19.5625
     id: 14858
     marketGroup: 1670
+    mass: 1.0
     name: Tairei's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2690,6 +2865,7 @@ items:
     TechLevel: 1
     id: 14906
     marketGroup: 1668
+    mass: 1.0
     name: Tairei's Modified EM Plating
     published: true
     volume: 5.0
@@ -2705,6 +2881,7 @@ items:
     TechLevel: 1
     id: 14890
     marketGroup: 1667
+    mass: 1.0
     name: Tairei's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -2720,6 +2897,7 @@ items:
     TechLevel: 1
     id: 14874
     marketGroup: 1666
+    mass: 1.0
     name: Tairei's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -2735,6 +2913,7 @@ items:
     ThermalDamageResistanceBonus: -31.75
     id: 14922
     marketGroup: 1665
+    mass: 1.0
     name: Tairei's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -2748,6 +2927,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 1294
     marketGroup: 1665
+    mass: 1.0
     name: Thermal Plating I
     published: true
     volume: 5.0
@@ -2762,6 +2942,7 @@ items:
     ThermalDamageResistanceBonus: -26.399999618530273
     id: 1296
     marketGroup: 1665
+    mass: 1.0
     name: Thermal Plating II
     published: true
     volume: 5.0
@@ -2780,6 +2961,7 @@ items:
     ThermalDamageResistanceBonus: -17.5
     id: 14001
     marketGroup: 1670
+    mass: 1.0
     name: True Sansha Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2795,6 +2977,7 @@ items:
     TechLevel: 1
     id: 14019
     marketGroup: 1668
+    mass: 1.0
     name: True Sansha EM Plating
     published: true
     volume: 5.0
@@ -2810,6 +2993,7 @@ items:
     TechLevel: 1
     id: 14013
     marketGroup: 1667
+    mass: 1.0
     name: True Sansha Explosive Plating
     published: true
     volume: 5.0
@@ -2825,6 +3009,7 @@ items:
     TechLevel: 1
     id: 14007
     marketGroup: 1666
+    mass: 1.0
     name: True Sansha Kinetic Plating
     published: true
     volume: 5.0
@@ -2840,6 +3025,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     id: 14025
     marketGroup: 1665
+    mass: 1.0
     name: True Sansha Thermal Plating
     published: true
     volume: 5.0
@@ -2858,6 +3044,7 @@ items:
     ThermalDamageResistanceBonus: -21.625
     id: 15166
     marketGroup: 1670
+    mass: 1.0
     name: Tuvan's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -2873,6 +3060,7 @@ items:
     TechLevel: 1
     id: 15182
     marketGroup: 1668
+    mass: 1.0
     name: Tuvan's Modified EM Plating
     published: true
     volume: 5.0
@@ -2888,6 +3076,7 @@ items:
     TechLevel: 1
     id: 15190
     marketGroup: 1667
+    mass: 1.0
     name: Tuvan's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -2903,6 +3092,7 @@ items:
     TechLevel: 1
     id: 15198
     marketGroup: 1666
+    mass: 1.0
     name: Tuvan's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -2918,6 +3108,7 @@ items:
     ThermalDamageResistanceBonus: -33.5
     id: 15174
     marketGroup: 1665
+    mass: 1.0
     name: Tuvan's Modified Thermal Plating
     published: true
     volume: 5.0
@@ -2935,6 +3126,7 @@ items:
     ThermalDamageResistanceBonus: -9.84000015258789
     id: 16305
     marketGroup: 1670
+    mass: 1.0
     name: Upgraded Adaptive Nano Plating I
     published: true
     volume: 5.0
@@ -2949,6 +3141,7 @@ items:
     TechLevel: 1
     id: 16329
     marketGroup: 1668
+    mass: 1.0
     name: Upgraded EM Plating I
     published: true
     volume: 5.0
@@ -2963,6 +3156,7 @@ items:
     TechLevel: 1
     id: 16321
     marketGroup: 1667
+    mass: 1.0
     name: Upgraded Explosive Plating I
     published: true
     volume: 5.0
@@ -2977,6 +3171,7 @@ items:
     TechLevel: 1
     id: 16313
     marketGroup: 1666
+    mass: 1.0
     name: Upgraded Kinetic Plating I
     published: true
     volume: 5.0
@@ -2990,6 +3185,7 @@ items:
     TechLevel: 1
     id: 16345
     marketGroup: 1669
+    mass: 1.0
     name: Upgraded Layered Plating I
     published: true
     volume: 5.0
@@ -3004,6 +3200,7 @@ items:
     ThermalDamageResistanceBonus: -21.600000381469727
     id: 16337
     marketGroup: 1665
+    mass: 1.0
     name: Upgraded Thermal Plating I
     published: true
     volume: 5.0
@@ -3022,6 +3219,7 @@ items:
     ThermalDamageResistanceBonus: -23.6875
     id: 14864
     marketGroup: 1670
+    mass: 1.0
     name: Vizan's Modified Adaptive Nano Plating
     published: true
     volume: 5.0
@@ -3037,6 +3235,7 @@ items:
     TechLevel: 1
     id: 14912
     marketGroup: 1668
+    mass: 1.0
     name: Vizan's Modified EM Plating
     published: true
     volume: 5.0
@@ -3052,6 +3251,7 @@ items:
     TechLevel: 1
     id: 14896
     marketGroup: 1667
+    mass: 1.0
     name: Vizan's Modified Explosive Plating
     published: true
     volume: 5.0
@@ -3067,6 +3267,7 @@ items:
     TechLevel: 1
     id: 14880
     marketGroup: 1666
+    mass: 1.0
     name: Vizan's Modified Kinetic Plating
     published: true
     volume: 5.0
@@ -3082,6 +3283,7 @@ items:
     ThermalDamageResistanceBonus: -35.25
     id: 14928
     marketGroup: 1665
+    mass: 1.0
     name: Vizan's Modified Thermal Plating
     published: true
     volume: 5.0

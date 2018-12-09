@@ -39,6 +39,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 37599
     marketGroup: 2239
+    mass: 1500.0
     name: Cenobite I
     published: true
     volume: 3000.0
@@ -83,6 +84,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40568
     marketGroup: 2239
+    mass: 1500.0
     name: Cenobite II
     published: true
     volume: 3000.0
@@ -126,6 +128,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40347
     marketGroup: 2239
+    mass: 1500.0
     name: Dromi I
     published: true
     volume: 3000.0
@@ -170,6 +173,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40571
     marketGroup: 2239
+    mass: 1500.0
     name: Dromi II
     published: true
     volume: 3000.0
@@ -216,6 +220,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40345
     marketGroup: 2239
+    mass: 1500.0
     name: Scarab I
     published: true
     volume: 3000.0
@@ -263,6 +268,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40569
     marketGroup: 2239
+    mass: 1500.0
     name: Scarab II
     published: true
     volume: 3000.0
@@ -305,6 +311,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40346
     marketGroup: 2239
+    mass: 1500.0
     name: Siren I
     published: true
     volume: 3000.0
@@ -348,6 +355,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40570
     marketGroup: 2239
+    mass: 1500.0
     name: Siren II
     published: true
     volume: 3000.0
@@ -388,6 +396,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47131
     marketGroup: 2413
+    mass: 1500.0
     name: Standup Cenobite I
     published: true
     volume: 6000.0
@@ -429,6 +438,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47134
     marketGroup: 2413
+    mass: 1500.0
     name: Standup Cenobite II
     published: true
     volume: 6000.0
@@ -469,6 +479,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47133
     marketGroup: 2413
+    mass: 1500.0
     name: Standup Dromi I
     published: true
     volume: 6000.0
@@ -510,6 +521,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47137
     marketGroup: 2413
+    mass: 1500.0
     name: Standup Dromi II
     published: true
     volume: 6000.0
@@ -553,6 +565,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47132
     marketGroup: 2413
+    mass: 1500.0
     name: Standup Scarab I
     published: true
     volume: 6000.0
@@ -597,6 +610,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47135
     marketGroup: 2413
+    mass: 1500.0
     name: Standup Scarab II
     published: true
     volume: 6000.0
@@ -636,6 +650,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47037
     marketGroup: 2413
+    mass: 1500.0
     name: Standup Siren I
     published: true
     volume: 6000.0
@@ -676,6 +691,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47136
     marketGroup: 2413
+    mass: 1500.0
     name: Standup Siren II
     published: true
     volume: 6000.0

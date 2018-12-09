@@ -15,6 +15,7 @@ items:
     ThermalDamageResistanceBonus: -52.5
     id: 20635
     marketGroup: 1692
+    mass: 10000.0
     name: '''Desert Heat'' Thermal Dissipation Field'
     published: true
     volume: 5.0
@@ -34,6 +35,7 @@ items:
     TechLevel: 1
     id: 20633
     marketGroup: 1693
+    mass: 10000.0
     name: '''Nugget'' Kinetic Deflection Field'
     published: true
     volume: 5.0
@@ -53,6 +55,7 @@ items:
     TechLevel: 1
     id: 20639
     marketGroup: 1695
+    mass: 10000.0
     name: '''Poacher'' EM Ward Field'
     published: true
     volume: 5.0
@@ -76,6 +79,7 @@ items:
     ThermalDamageResistanceBonus: -27.5
     id: 20637
     marketGroup: 1696
+    mass: 10000.0
     name: '''Posse'' Adaptive Invulnerability Field'
     published: true
     volume: 5.0
@@ -95,6 +99,7 @@ items:
     TechLevel: 1
     id: 20641
     marketGroup: 1694
+    mass: 10000.0
     name: '''Snake Eyes'' Explosive Deflection Field'
     published: true
     volume: 5.0
@@ -116,6 +121,7 @@ items:
     ThermalDamageResistanceBonus: -25.0
     id: 578
     marketGroup: 1696
+    mass: 10000.0
     name: Adaptive Invulnerability Field I
     published: true
     volume: 20.0
@@ -138,6 +144,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     id: 2281
     marketGroup: 1696
+    mass: 10000.0
     name: Adaptive Invulnerability Field II
     published: true
     volume: 5.0
@@ -161,6 +168,7 @@ items:
     ThermalDamageResistanceBonus: -37.5
     id: 17498
     marketGroup: 1696
+    mass: 10000.0
     name: Caldari Navy Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -180,6 +188,7 @@ items:
     TechLevel: 1
     id: 17499
     marketGroup: 1695
+    mass: 10000.0
     name: Caldari Navy EM Ward Field
     published: true
     volume: 5.0
@@ -199,6 +208,7 @@ items:
     TechLevel: 1
     id: 17496
     marketGroup: 1694
+    mass: 10000.0
     name: Caldari Navy Explosive Deflection Field
     published: true
     volume: 5.0
@@ -218,6 +228,7 @@ items:
     TechLevel: 1
     id: 17495
     marketGroup: 1693
+    mass: 10000.0
     name: Caldari Navy Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -237,6 +248,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 17497
     marketGroup: 1692
+    mass: 10000.0
     name: Caldari Navy Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -256,6 +268,7 @@ items:
     TechLevel: 1
     id: 30420
     marketGroup: 1695
+    mass: 10000.0
     name: Civilian EM Ward Field
     published: true
     volume: 20.0
@@ -275,6 +288,7 @@ items:
     TechLevel: 1
     id: 30422
     marketGroup: 1694
+    mass: 10000.0
     name: Civilian Explosive Deflection Field
     published: true
     volume: 20.0
@@ -294,6 +308,7 @@ items:
     TechLevel: 1
     id: 30424
     marketGroup: 1693
+    mass: 10000.0
     name: Civilian Kinetic Deflection Field
     published: true
     volume: 20.0
@@ -313,6 +328,7 @@ items:
     ThermalDamageResistanceBonus: -35.0
     id: 30342
     marketGroup: 1692
+    mass: 10000.0
     name: Civilian Thermal Dissipation Field
     published: true
     volume: 20.0
@@ -336,6 +352,7 @@ items:
     ThermalDamageResistanceBonus: -25.0
     id: 13998
     marketGroup: 1696
+    mass: 10000.0
     name: Domination Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -355,6 +372,7 @@ items:
     TechLevel: 1
     id: 13994
     marketGroup: 1695
+    mass: 10000.0
     name: Domination EM Ward Field
     published: true
     volume: 5.0
@@ -374,6 +392,7 @@ items:
     TechLevel: 1
     id: 13996
     marketGroup: 1694
+    mass: 10000.0
     name: Domination Explosive Deflection Field
     published: true
     volume: 5.0
@@ -393,6 +412,7 @@ items:
     TechLevel: 1
     id: 13997
     marketGroup: 1693
+    mass: 10000.0
     name: Domination Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -412,6 +432,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 13995
     marketGroup: 1692
+    mass: 10000.0
     name: Domination Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -435,6 +456,7 @@ items:
     ThermalDamageResistanceBonus: -37.5
     id: 13969
     marketGroup: 1696
+    mass: 10000.0
     name: Dread Guristas Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -454,6 +476,7 @@ items:
     TechLevel: 1
     id: 13965
     marketGroup: 1695
+    mass: 10000.0
     name: Dread Guristas EM Ward Field
     published: true
     volume: 5.0
@@ -473,6 +496,7 @@ items:
     TechLevel: 1
     id: 13967
     marketGroup: 1694
+    mass: 10000.0
     name: Dread Guristas Explosive Deflection Field
     published: true
     volume: 5.0
@@ -492,6 +516,7 @@ items:
     TechLevel: 1
     id: 13968
     marketGroup: 1693
+    mass: 10000.0
     name: Dread Guristas Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -511,6 +536,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 13966
     marketGroup: 1692
+    mass: 10000.0
     name: Dread Guristas Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -528,6 +554,7 @@ items:
     TechLevel: 1
     id: 2293
     marketGroup: 1695
+    mass: 10000.0
     name: EM Ward Field I
     published: true
     volume: 20.0
@@ -546,6 +573,7 @@ items:
     TechLevel: 2
     id: 2301
     marketGroup: 1695
+    mass: 10000.0
     name: EM Ward Field II
     published: true
     volume: 5.0
@@ -569,6 +597,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 14767
     marketGroup: 1696
+    mass: 10000.0
     name: Estamel's Modified Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -588,6 +617,7 @@ items:
     TechLevel: 1
     id: 14755
     marketGroup: 1695
+    mass: 10000.0
     name: Estamel's Modified EM Ward Field
     published: true
     volume: 5.0
@@ -607,6 +637,7 @@ items:
     TechLevel: 1
     id: 14759
     marketGroup: 1694
+    mass: 10000.0
     name: Estamel's Modified Explosive Deflection Field
     published: true
     volume: 5.0
@@ -626,6 +657,7 @@ items:
     TechLevel: 1
     id: 14751
     marketGroup: 1693
+    mass: 10000.0
     name: Estamel's Modified Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -645,6 +677,7 @@ items:
     ThermalDamageResistanceBonus: -64.0
     id: 14763
     marketGroup: 1692
+    mass: 10000.0
     name: Estamel's Modified Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -662,6 +695,7 @@ items:
     TechLevel: 1
     id: 2289
     marketGroup: 1694
+    mass: 10000.0
     name: Explosive Deflection Field I
     published: true
     volume: 20.0
@@ -680,6 +714,7 @@ items:
     TechLevel: 2
     id: 2297
     marketGroup: 1694
+    mass: 10000.0
     name: Explosive Deflection Field II
     published: true
     volume: 5.0
@@ -700,6 +735,7 @@ items:
     TechLevel: 1
     id: 19279
     marketGroup: 1695
+    mass: 10000.0
     name: Gist A-Type EM Ward Field
     published: true
     volume: 5.0
@@ -720,6 +756,7 @@ items:
     TechLevel: 1
     id: 19275
     marketGroup: 1694
+    mass: 10000.0
     name: Gist A-Type Explosive Deflection Field
     published: true
     volume: 5.0
@@ -740,6 +777,7 @@ items:
     TechLevel: 1
     id: 19273
     marketGroup: 1693
+    mass: 10000.0
     name: Gist A-Type Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -760,6 +798,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 19277
     marketGroup: 1692
+    mass: 10000.0
     name: Gist A-Type Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -780,6 +819,7 @@ items:
     TechLevel: 1
     id: 19265
     marketGroup: 1695
+    mass: 10000.0
     name: Gist B-Type EM Ward Field
     published: true
     volume: 5.0
@@ -800,6 +840,7 @@ items:
     TechLevel: 1
     id: 19269
     marketGroup: 1694
+    mass: 10000.0
     name: Gist B-Type Explosive Deflection Field
     published: true
     volume: 5.0
@@ -820,6 +861,7 @@ items:
     TechLevel: 1
     id: 19271
     marketGroup: 1693
+    mass: 10000.0
     name: Gist B-Type Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -840,6 +882,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 19267
     marketGroup: 1692
+    mass: 10000.0
     name: Gist B-Type Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -860,6 +903,7 @@ items:
     TechLevel: 1
     id: 19263
     marketGroup: 1695
+    mass: 10000.0
     name: Gist C-Type EM Ward Field
     published: true
     volume: 5.0
@@ -880,6 +924,7 @@ items:
     TechLevel: 1
     id: 19259
     marketGroup: 1694
+    mass: 10000.0
     name: Gist C-Type Explosive Deflection Field
     published: true
     volume: 5.0
@@ -900,6 +945,7 @@ items:
     TechLevel: 1
     id: 19257
     marketGroup: 1693
+    mass: 10000.0
     name: Gist C-Type Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -920,6 +966,7 @@ items:
     ThermalDamageResistanceBonus: -54.5
     id: 19261
     marketGroup: 1692
+    mass: 10000.0
     name: Gist C-Type Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -940,6 +987,7 @@ items:
     TechLevel: 1
     id: 19281
     marketGroup: 1695
+    mass: 10000.0
     name: Gist X-Type EM Ward Field
     published: true
     volume: 5.0
@@ -960,6 +1008,7 @@ items:
     TechLevel: 1
     id: 19285
     marketGroup: 1694
+    mass: 10000.0
     name: Gist X-Type Explosive Deflection Field
     published: true
     volume: 5.0
@@ -980,6 +1029,7 @@ items:
     TechLevel: 1
     id: 19287
     marketGroup: 1693
+    mass: 10000.0
     name: Gist X-Type Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -1000,6 +1050,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 19283
     marketGroup: 1692
+    mass: 10000.0
     name: Gist X-Type Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -1024,6 +1075,7 @@ items:
     ThermalDamageResistanceBonus: -43.75
     id: 4346
     marketGroup: 1696
+    mass: 10000.0
     name: Gistum A-Type Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1048,6 +1100,7 @@ items:
     ThermalDamageResistanceBonus: -40.625
     id: 4345
     marketGroup: 1696
+    mass: 10000.0
     name: Gistum B-Type Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1072,6 +1125,7 @@ items:
     ThermalDamageResistanceBonus: -37.5
     id: 2050
     marketGroup: 1696
+    mass: 10000.0
     name: Gistum C-Type Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1095,6 +1149,7 @@ items:
     ThermalDamageResistanceBonus: -40.625
     id: 14764
     marketGroup: 1696
+    mass: 10000.0
     name: Kaikka's Modified Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1114,6 +1169,7 @@ items:
     TechLevel: 1
     id: 14752
     marketGroup: 1695
+    mass: 10000.0
     name: Kaikka's Modified EM Ward Field
     published: true
     volume: 5.0
@@ -1133,6 +1189,7 @@ items:
     TechLevel: 1
     id: 14756
     marketGroup: 1694
+    mass: 10000.0
     name: Kaikka's Modified Explosive Deflection Field
     published: true
     volume: 5.0
@@ -1152,6 +1209,7 @@ items:
     TechLevel: 1
     id: 14748
     marketGroup: 1693
+    mass: 10000.0
     name: Kaikka's Modified Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -1171,6 +1229,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 14760
     marketGroup: 1692
+    mass: 10000.0
     name: Kaikka's Modified Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -1188,6 +1247,7 @@ items:
     TechLevel: 1
     id: 2291
     marketGroup: 1693
+    mass: 10000.0
     name: Kinetic Deflection Field I
     published: true
     volume: 20.0
@@ -1206,6 +1266,7 @@ items:
     TechLevel: 2
     id: 2299
     marketGroup: 1693
+    mass: 10000.0
     name: Kinetic Deflection Field II
     published: true
     volume: 5.0
@@ -1224,6 +1285,7 @@ items:
     TechLevel: 1
     id: 9622
     marketGroup: 1695
+    mass: 10000.0
     name: Limited 'Anointed' EM Ward Field
     published: true
     volume: 5.0
@@ -1246,6 +1308,7 @@ items:
     ThermalDamageResistanceBonus: -25.0
     id: 9632
     marketGroup: 1696
+    mass: 10000.0
     name: Limited Adaptive Invulnerability Field I
     published: true
     volume: 5.0
@@ -1264,6 +1327,7 @@ items:
     TechLevel: 1
     id: 9646
     marketGroup: 1694
+    mass: 10000.0
     name: Limited Explosive Deflection Field I
     published: true
     volume: 5.0
@@ -1282,6 +1346,7 @@ items:
     TechLevel: 1
     id: 9608
     marketGroup: 1693
+    mass: 10000.0
     name: Limited Kinetic Deflection Field I
     published: true
     volume: 5.0
@@ -1300,6 +1365,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 9660
     marketGroup: 1692
+    mass: 10000.0
     name: Limited Thermal Dissipation Field I
     published: true
     volume: 5.0
@@ -1319,6 +1385,7 @@ items:
     TechLevel: 1
     id: 19280
     marketGroup: 1695
+    mass: 10000.0
     name: Pith A-Type EM Ward Field
     published: true
     volume: 5.0
@@ -1338,6 +1405,7 @@ items:
     TechLevel: 1
     id: 19276
     marketGroup: 1694
+    mass: 10000.0
     name: Pith A-Type Explosive Deflection Field
     published: true
     volume: 5.0
@@ -1357,6 +1425,7 @@ items:
     TechLevel: 1
     id: 19274
     marketGroup: 1693
+    mass: 10000.0
     name: Pith A-Type Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -1376,6 +1445,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 19278
     marketGroup: 1692
+    mass: 10000.0
     name: Pith A-Type Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -1395,6 +1465,7 @@ items:
     TechLevel: 1
     id: 19266
     marketGroup: 1695
+    mass: 10000.0
     name: Pith B-Type EM Ward Field
     published: true
     volume: 5.0
@@ -1414,6 +1485,7 @@ items:
     TechLevel: 1
     id: 19270
     marketGroup: 1694
+    mass: 10000.0
     name: Pith B-Type Explosive Deflection Field
     published: true
     volume: 5.0
@@ -1433,6 +1505,7 @@ items:
     TechLevel: 1
     id: 19272
     marketGroup: 1693
+    mass: 10000.0
     name: Pith B-Type Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -1452,6 +1525,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 19268
     marketGroup: 1692
+    mass: 10000.0
     name: Pith B-Type Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -1471,6 +1545,7 @@ items:
     TechLevel: 1
     id: 19264
     marketGroup: 1695
+    mass: 10000.0
     name: Pith C-Type EM Ward Field
     published: true
     volume: 5.0
@@ -1490,6 +1565,7 @@ items:
     TechLevel: 1
     id: 19260
     marketGroup: 1694
+    mass: 10000.0
     name: Pith C-Type Explosive Deflection Field
     published: true
     volume: 5.0
@@ -1509,6 +1585,7 @@ items:
     TechLevel: 1
     id: 19258
     marketGroup: 1693
+    mass: 10000.0
     name: Pith C-Type Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -1528,6 +1605,7 @@ items:
     ThermalDamageResistanceBonus: -57.25
     id: 19262
     marketGroup: 1692
+    mass: 10000.0
     name: Pith C-Type Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -1547,6 +1625,7 @@ items:
     TechLevel: 1
     id: 19282
     marketGroup: 1695
+    mass: 10000.0
     name: Pith X-Type EM Ward Field
     published: true
     volume: 5.0
@@ -1566,6 +1645,7 @@ items:
     TechLevel: 1
     id: 19286
     marketGroup: 1694
+    mass: 10000.0
     name: Pith X-Type Explosive Deflection Field
     published: true
     volume: 5.0
@@ -1585,6 +1665,7 @@ items:
     TechLevel: 1
     id: 19288
     marketGroup: 1693
+    mass: 10000.0
     name: Pith X-Type Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -1604,6 +1685,7 @@ items:
     ThermalDamageResistanceBonus: -64.0
     id: 19284
     marketGroup: 1692
+    mass: 10000.0
     name: Pith X-Type Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -1628,6 +1710,7 @@ items:
     ThermalDamageResistanceBonus: -46.875
     id: 4347
     marketGroup: 1696
+    mass: 10000.0
     name: Pithum A-Type Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1652,6 +1735,7 @@ items:
     ThermalDamageResistanceBonus: -43.75
     id: 4348
     marketGroup: 1696
+    mass: 10000.0
     name: Pithum B-Type Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1676,6 +1760,7 @@ items:
     ThermalDamageResistanceBonus: -40.625
     id: 4349
     marketGroup: 1696
+    mass: 10000.0
     name: Pithum C-Type Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1693,6 +1778,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 2295
     marketGroup: 1692
+    mass: 10000.0
     name: Thermal Dissipation Field I
     published: true
     volume: 20.0
@@ -1711,6 +1797,7 @@ items:
     ThermalDamageResistanceBonus: -55.0
     id: 2303
     marketGroup: 1692
+    mass: 10000.0
     name: Thermal Dissipation Field II
     published: true
     volume: 5.0
@@ -1734,6 +1821,7 @@ items:
     ThermalDamageResistanceBonus: -43.75
     id: 14765
     marketGroup: 1696
+    mass: 10000.0
     name: Thon's Modified Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1753,6 +1841,7 @@ items:
     TechLevel: 1
     id: 14753
     marketGroup: 1695
+    mass: 10000.0
     name: Thon's Modified EM Ward Field
     published: true
     volume: 5.0
@@ -1772,6 +1861,7 @@ items:
     TechLevel: 1
     id: 14757
     marketGroup: 1694
+    mass: 10000.0
     name: Thon's Modified Explosive Deflection Field
     published: true
     volume: 5.0
@@ -1791,6 +1881,7 @@ items:
     TechLevel: 1
     id: 14749
     marketGroup: 1693
+    mass: 10000.0
     name: Thon's Modified Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -1810,6 +1901,7 @@ items:
     ThermalDamageResistanceBonus: -59.5
     id: 14761
     marketGroup: 1692
+    mass: 10000.0
     name: Thon's Modified Thermal Dissipation Field
     published: true
     volume: 5.0
@@ -1833,6 +1925,7 @@ items:
     ThermalDamageResistanceBonus: -46.875
     id: 14766
     marketGroup: 1696
+    mass: 10000.0
     name: Vepas's Modified Adaptive Invulnerability Field
     published: true
     volume: 5.0
@@ -1852,6 +1945,7 @@ items:
     TechLevel: 1
     id: 14754
     marketGroup: 1695
+    mass: 10000.0
     name: Vepas's Modified EM Ward Field
     published: true
     volume: 5.0
@@ -1871,6 +1965,7 @@ items:
     TechLevel: 1
     id: 14758
     marketGroup: 1694
+    mass: 10000.0
     name: Vepas's Modified Explosive Deflection Field
     published: true
     volume: 5.0
@@ -1890,6 +1985,7 @@ items:
     TechLevel: 1
     id: 14750
     marketGroup: 1693
+    mass: 10000.0
     name: Vepas's Modified Kinetic Deflection Field
     published: true
     volume: 5.0
@@ -1909,6 +2005,7 @@ items:
     ThermalDamageResistanceBonus: -61.75
     id: 14762
     marketGroup: 1692
+    mass: 10000.0
     name: Vepas's Modified Thermal Dissipation Field
     published: true
     volume: 5.0

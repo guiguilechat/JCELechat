@@ -11,6 +11,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28412
     marketGroup: 530
+    mass: 1.0E35
     name: Compressed Magma Mercoxit
     published: true
     volume: 0.1
@@ -26,6 +27,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28413
     marketGroup: 530
+    mass: 1.0E35
     name: Compressed Mercoxit
     published: true
     volume: 0.1
@@ -41,6 +43,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28414
     marketGroup: 530
+    mass: 1.0E35
     name: Compressed Vitreous Mercoxit
     published: true
     volume: 0.1
@@ -58,6 +61,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17869
     marketGroup: 530
+    mass: 1.0E35
     name: Magma Mercoxit
     published: true
     volume: 40.0
@@ -75,6 +79,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 11396
     marketGroup: 530
+    mass: 1.0E35
     name: Mercoxit
     published: true
     volume: 40.0
@@ -92,6 +97,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17870
     marketGroup: 530
+    mass: 1.0E35
     name: Vitreous Mercoxit
     published: true
     volume: 40.0
@@ -105,6 +111,7 @@ items:
     RequiredSkill1: 11395
     StasisWebifierResistance: 1.0
     id: 28626
+    mass: 1.0E35
     name: Zuthrine
     published: true
     volume: 40.0

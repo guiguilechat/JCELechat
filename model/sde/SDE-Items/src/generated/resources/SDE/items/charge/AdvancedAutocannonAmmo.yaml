@@ -16,6 +16,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 12775
     marketGroup: 857
+    mass: 0.01
     name: Barrage L
     published: true
     volume: 0.025
@@ -36,6 +37,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 12773
     marketGroup: 858
+    mass: 0.01
     name: Barrage M
     published: true
     volume: 0.0125
@@ -56,6 +58,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 12625
     marketGroup: 859
+    mass: 0.01
     name: Barrage S
     published: true
     volume: 0.0025
@@ -76,6 +79,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 41316
     marketGroup: 2253
+    mass: 1.0
     name: Barrage XL
     published: true
     volume: 0.125
@@ -96,6 +100,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 12779
     marketGroup: 857
+    mass: 0.01
     name: Hail L
     published: true
     volume: 0.025
@@ -116,6 +121,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 12777
     marketGroup: 858
+    mass: 0.01
     name: Hail M
     published: true
     volume: 0.0125
@@ -136,6 +142,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 12608
     marketGroup: 859
+    mass: 0.01
     name: Hail S
     published: true
     volume: 0.0025
@@ -156,6 +163,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 41314
     marketGroup: 2253
+    mass: 1.0
     name: Hail XL
     published: true
     volume: 0.125

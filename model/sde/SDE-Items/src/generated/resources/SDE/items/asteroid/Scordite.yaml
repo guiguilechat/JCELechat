@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28427
     marketGroup: 519
+    mass: 1.0E35
     name: Compressed Condensed Scordite
     published: true
     volume: 0.19
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46703
     marketGroup: 519
+    mass: 1.0
     name: Compressed Glossy Scordite
     published: true
     volume: 0.19
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28428
     marketGroup: 519
+    mass: 1.0E35
     name: Compressed Massive Scordite
     published: true
     volume: 0.19
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28429
     marketGroup: 519
+    mass: 1.0E35
     name: Compressed Scordite
     published: true
     volume: 0.19
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17463
     marketGroup: 519
+    mass: 1.0E35
     name: Condensed Scordite
     published: true
     volume: 0.15
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46687
     marketGroup: 519
+    mass: 1.0E35
     name: Glossy Scordite
     published: true
     volume: 0.15
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17464
     marketGroup: 519
+    mass: 1.0E35
     name: Massive Scordite
     published: true
     volume: 0.15
@@ -116,6 +123,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 1228
     marketGroup: 519
+    mass: 1.0E35
     name: Scordite
     published: true
     volume: 0.15

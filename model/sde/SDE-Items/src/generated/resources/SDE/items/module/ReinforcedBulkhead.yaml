@@ -13,6 +13,7 @@ items:
     TechLevel: 1
     id: 1240
     marketGroup: 1195
+    mass: 200.0
     name: '''Basic'' Reinforced Bulkheads'
     published: true
     volume: 5.0
@@ -29,6 +30,7 @@ items:
     TechLevel: 1
     id: 5649
     marketGroup: 1195
+    mass: 200.0
     name: Mark I Compact Reinforced Bulkheads
     published: true
     volume: 5.0
@@ -46,6 +48,7 @@ items:
     TechLevel: 1
     id: 34485
     marketGroup: 1195
+    mass: 200.0
     name: ORE Reinforced Bulkheads
     published: true
     volume: 5.0
@@ -60,6 +63,7 @@ items:
     TechLevel: 1
     id: 1333
     marketGroup: 1195
+    mass: 200.0
     name: Reinforced Bulkheads I
     published: true
     volume: 25.0
@@ -75,6 +79,7 @@ items:
     TechLevel: 2
     id: 1335
     marketGroup: 1195
+    mass: 200.0
     name: Reinforced Bulkheads II
     published: true
     volume: 5.0
@@ -92,6 +97,7 @@ items:
     TechLevel: 1
     id: 34487
     marketGroup: 1195
+    mass: 200.0
     name: Syndicate Reinforced Bulkheads
     published: true
     volume: 5.0
@@ -109,6 +115,7 @@ items:
     TechLevel: 1
     id: 21496
     marketGroup: 1195
+    mass: 200.0
     name: Synthetic Hull Conversion Reinforced Bulkheads
     published: true
     volume: 5.0
@@ -125,6 +132,7 @@ items:
     TechLevel: 1
     id: 5647
     marketGroup: 1195
+    mass: 200.0
     name: Type-D Restrained Reinforced Bulkheads
     published: true
     volume: 5.0

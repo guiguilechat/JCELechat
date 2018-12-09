@@ -9,6 +9,7 @@ items:
     ThermalDamageResistanceBonusBonus: -100
     id: 41521
     marketGroup: 1094
+    mass: 1.0
     name: Shield EM Resistance Script
     published: true
     volume: 1.0
@@ -22,6 +23,7 @@ items:
     ThermalDamageResistanceBonusBonus: -100
     id: 41524
     marketGroup: 1094
+    mass: 1.0
     name: Shield Explosive Resistance Script
     published: true
     volume: 1.0
@@ -35,6 +37,7 @@ items:
     ThermalDamageResistanceBonusBonus: -100
     id: 41523
     marketGroup: 1094
+    mass: 1.0
     name: Shield Kinetic Resistance Script
     published: true
     volume: 1.0
@@ -48,6 +51,7 @@ items:
     ThermalDamageResistanceBonusBonus: 200
     id: 41522
     marketGroup: 1094
+    mass: 1.0
     name: Shield Thermal Resistance Script
     published: true
     volume: 1.0

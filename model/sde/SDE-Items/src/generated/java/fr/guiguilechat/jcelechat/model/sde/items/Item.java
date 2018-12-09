@@ -10,6 +10,7 @@ public abstract class Item {
     public String name;
     public int marketGroup;
     public boolean published;
+    public double mass;
 
     public abstract IMetaGroup<?> getGroup();
 

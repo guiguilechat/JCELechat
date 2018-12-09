@@ -9,6 +9,7 @@ items:
     WarpSpeedAdd: 0.25
     id: 33983
     marketGroup: 1931
+    mass: 50.0
     name: Experimental Hyperspatial Accelerator
     published: true
     volume: 5.0
@@ -22,6 +23,7 @@ items:
     WarpSpeedAdd: 0.20000000298023224
     id: 33981
     marketGroup: 1931
+    mass: 50.0
     name: Limited Hyperspatial Accelerator
     published: true
     volume: 5.0
@@ -35,6 +37,7 @@ items:
     WarpSpeedAdd: 0.30000001192092896
     id: 33985
     marketGroup: 1931
+    mass: 50.0
     name: Prototype Hyperspatial Accelerator
     published: true
     volume: 5.0

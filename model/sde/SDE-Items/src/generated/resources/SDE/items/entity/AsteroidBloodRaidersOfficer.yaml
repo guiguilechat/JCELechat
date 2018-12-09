@@ -1,21 +1,25 @@
 items:
   Ahremen Arkah:
     id: 13561
+    mass: 2.05E7
     name: Ahremen Arkah
     published: false
     volume: 1100000.0
   Draclira Merlonne:
     id: 13564
+    mass: 1.95E7
     name: Draclira Merlonne
     published: false
     volume: 1150000.0
   Raysere Giant:
     id: 13557
+    mass: 1.95E7
     name: Raysere Giant
     published: false
     volume: 1150000.0
   Tairei Namazoth:
     id: 13573
+    mass: 2.05E7
     name: Tairei Namazoth
     published: false
     volume: 1100000.0

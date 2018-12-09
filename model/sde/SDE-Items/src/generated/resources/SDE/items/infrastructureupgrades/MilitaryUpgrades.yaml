@@ -10,6 +10,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2028
     id: 2031
     marketGroup: 1284
+    mass: 1000.0
     name: Entrapment Array 1
     published: true
     volume: 5000.0
@@ -24,6 +25,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2031
     id: 2034
     marketGroup: 1284
+    mass: 1000.0
     name: Entrapment Array 2
     published: true
     volume: 10000.0
@@ -38,6 +40,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2034
     id: 2035
     marketGroup: 1284
+    mass: 1000.0
     name: Entrapment Array 3
     published: true
     volume: 20000.0
@@ -52,6 +55,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2035
     id: 2036
     marketGroup: 1284
+    mass: 1000.0
     name: Entrapment Array 4
     published: true
     volume: 40000.0
@@ -66,6 +70,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2036
     id: 2037
     marketGroup: 1284
+    mass: 1000.0
     name: Entrapment Array 5
     published: true
     volume: 60000.0
@@ -103,6 +108,7 @@ items:
     DistributionIDSerpentis05: 570
     id: 2026
     marketGroup: 1284
+    mass: 1000.0
     name: Pirate Detection Array 1
     published: true
     volume: 5000.0
@@ -141,6 +147,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2026
     id: 2027
     marketGroup: 1284
+    mass: 1000.0
     name: Pirate Detection Array 2
     published: true
     volume: 10000.0
@@ -179,6 +186,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2027
     id: 2028
     marketGroup: 1284
+    mass: 1000.0
     name: Pirate Detection Array 3
     published: true
     volume: 20000.0
@@ -217,6 +225,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2028
     id: 2029
     marketGroup: 1284
+    mass: 1000.0
     name: Pirate Detection Array 4
     published: true
     volume: 40000.0
@@ -255,6 +264,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2029
     id: 2030
     marketGroup: 1284
+    mass: 1000.0
     name: Pirate Detection Array 5
     published: true
     volume: 60000.0
@@ -263,6 +273,7 @@ items:
     DistributionID01: 429
     id: 2058
     marketGroup: 1284
+    mass: 1000.0
     name: Quantum Flux Generator 1
     published: true
     volume: 5000.0
@@ -272,6 +283,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2058
     id: 2059
     marketGroup: 1284
+    mass: 1000.0
     name: Quantum Flux Generator 2
     published: true
     volume: 10000.0
@@ -281,6 +293,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2059
     id: 2060
     marketGroup: 1284
+    mass: 1000.0
     name: Quantum Flux Generator 3
     published: true
     volume: 20000.0
@@ -290,6 +303,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2060
     id: 2061
     marketGroup: 1284
+    mass: 1000.0
     name: Quantum Flux Generator 4
     published: true
     volume: 40000.0
@@ -299,6 +313,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2061
     id: 2062
     marketGroup: 1284
+    mass: 1000.0
     name: Quantum Flux Generator 5
     published: true
     volume: 60000.0

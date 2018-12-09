@@ -19,6 +19,7 @@ items:
     UpgradeCost: 100
     id: 37258
     marketGroup: 2345
+    mass: 200.0
     name: Standup L-Set Point Defense Battery Control I
     published: true
     volume: 20.0
@@ -42,6 +43,7 @@ items:
     UpgradeCost: 150
     id: 37259
     marketGroup: 2345
+    mass: 200.0
     name: Standup L-Set Point Defense Battery Control II
     published: true
     volume: 20.0

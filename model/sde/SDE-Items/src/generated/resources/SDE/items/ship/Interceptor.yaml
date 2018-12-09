@@ -79,6 +79,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11202
     marketGroup: 402
+    mass: 950000.0
     name: Ares
     published: true
     volume: 22500.0
@@ -161,6 +162,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11196
     marketGroup: 403
+    mass: 1100000.0
     name: Claw
     published: true
     volume: 17400.0
@@ -243,6 +245,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11176
     marketGroup: 401
+    mass: 1065000.0
     name: Crow
     published: true
     volume: 18000.0
@@ -321,6 +324,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11184
     marketGroup: 400
+    mass: 1050000.0
     name: Crusader
     published: true
     volume: 28100.0
@@ -407,6 +411,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 35779
     marketGroup: 1932
+    mass: 900000.0
     name: Imp
     published: true
     volume: 28600.0
@@ -489,6 +494,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11186
     marketGroup: 400
+    mass: 1140000.0
     name: Malediction
     published: true
     volume: 28100.0
@@ -570,6 +576,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11178
     marketGroup: 401
+    mass: 1050000.0
     name: Raptor
     published: true
     volume: 18000.0
@@ -653,6 +660,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11198
     marketGroup: 403
+    mass: 1010000.0
     name: Stiletto
     published: true
     volume: 17400.0
@@ -735,6 +743,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11200
     marketGroup: 402
+    mass: 1060000.0
     name: Taranis
     published: true
     volume: 22500.0
@@ -822,6 +831,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 33673
     marketGroup: 1932
+    mass: 1000000.0
     name: Whiptail
     published: true
     volume: 18000.0

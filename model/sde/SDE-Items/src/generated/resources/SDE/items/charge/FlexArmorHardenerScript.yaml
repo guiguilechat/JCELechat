@@ -9,6 +9,7 @@ items:
     ThermalDamageResistanceBonusBonus: -100
     id: 41517
     marketGroup: 1094
+    mass: 1.0
     name: Armor EM Resistance Script
     published: true
     volume: 1.0
@@ -22,6 +23,7 @@ items:
     ThermalDamageResistanceBonusBonus: -100
     id: 41520
     marketGroup: 1094
+    mass: 1.0
     name: Armor Explosive Resistance Script
     published: true
     volume: 1.0
@@ -35,6 +37,7 @@ items:
     ThermalDamageResistanceBonusBonus: -100
     id: 41519
     marketGroup: 1094
+    mass: 1.0
     name: Armor Kinetic Resistance Script
     published: true
     volume: 1.0
@@ -48,6 +51,7 @@ items:
     ThermalDamageResistanceBonusBonus: 200
     id: 41518
     marketGroup: 1094
+    mass: 1.0
     name: Armor Thermal Resistance Script
     published: true
     volume: 1.0

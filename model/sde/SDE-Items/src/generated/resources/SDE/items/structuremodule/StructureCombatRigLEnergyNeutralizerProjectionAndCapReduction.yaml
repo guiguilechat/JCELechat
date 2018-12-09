@@ -20,6 +20,7 @@ items:
     UpgradeCost: 100
     id: 37250
     marketGroup: 2345
+    mass: 200.0
     name: Standup L-Set Energy Neutralizer Feedback Control I
     published: true
     volume: 20.0
@@ -44,6 +45,7 @@ items:
     UpgradeCost: 150
     id: 37251
     marketGroup: 2345
+    mass: 200.0
     name: Standup L-Set Energy Neutralizer Feedback Control II
     published: true
     volume: 20.0

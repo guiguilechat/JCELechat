@@ -22,6 +22,7 @@ items:
     TechLevel: 1
     id: 4403
     marketGroup: 1416
+    mass: 1.0
     name: Reactive Armor Hardener
     published: true
     volume: 25.0

@@ -1,6 +1,7 @@
 items:
   Minmatar Lif:
     id: 42849
+    mass: 9.225E8
     name: Minmatar Lif
     published: false
     volume: 1.125E7

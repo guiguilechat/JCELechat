@@ -8,6 +8,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 238
     marketGroup: 106
+    mass: 0.1
     name: Antimatter Charge L
     published: true
     volume: 0.025
@@ -20,6 +21,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 230
     marketGroup: 108
+    mass: 0.05
     name: Antimatter Charge M
     published: true
     volume: 0.0125
@@ -32,6 +34,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 222
     marketGroup: 107
+    mass: 0.01
     name: Antimatter Charge S
     published: true
     volume: 0.0025
@@ -44,6 +47,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 17648
     marketGroup: 504
+    mass: 0.5
     name: Antimatter Charge XL
     published: true
     volume: 0.125
@@ -59,6 +63,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21740
     marketGroup: 991
+    mass: 0.1
     name: Caldari Navy Antimatter Charge L
     published: true
     volume: 0.025
@@ -74,6 +79,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 23025
     marketGroup: 992
+    mass: 0.05
     name: Caldari Navy Antimatter Charge M
     published: true
     volume: 0.0125
@@ -89,6 +95,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 23009
     marketGroup: 993
+    mass: 0.01
     name: Caldari Navy Antimatter Charge S
     published: true
     volume: 0.0025
@@ -105,6 +112,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23049
     marketGroup: 991
+    mass: 0.1
     name: Caldari Navy Iridium Charge L
     published: true
     volume: 0.025
@@ -121,6 +129,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23035
     marketGroup: 992
+    mass: 0.05
     name: Caldari Navy Iridium Charge M
     published: true
     volume: 0.0125
@@ -137,6 +146,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23019
     marketGroup: 993
+    mass: 0.01
     name: Caldari Navy Iridium Charge S
     published: true
     volume: 0.0025
@@ -153,6 +163,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 23053
     marketGroup: 991
+    mass: 0.1
     name: Caldari Navy Iron Charge L
     published: true
     volume: 0.025
@@ -169,6 +180,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 23039
     marketGroup: 992
+    mass: 0.05
     name: Caldari Navy Iron Charge M
     published: true
     volume: 0.0125
@@ -185,6 +197,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 23023
     marketGroup: 993
+    mass: 0.01
     name: Caldari Navy Iron Charge S
     published: true
     volume: 0.0025
@@ -201,6 +214,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 23047
     marketGroup: 991
+    mass: 0.1
     name: Caldari Navy Lead Charge L
     published: true
     volume: 0.025
@@ -217,6 +231,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 23033
     marketGroup: 992
+    mass: 0.05
     name: Caldari Navy Lead Charge M
     published: true
     volume: 0.0125
@@ -233,6 +248,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 23017
     marketGroup: 993
+    mass: 0.01
     name: Caldari Navy Lead Charge S
     published: true
     volume: 0.0025
@@ -249,6 +265,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 23041
     marketGroup: 991
+    mass: 0.1
     name: Caldari Navy Plutonium Charge L
     published: true
     volume: 0.025
@@ -265,6 +282,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 23027
     marketGroup: 992
+    mass: 0.05
     name: Caldari Navy Plutonium Charge M
     published: true
     volume: 0.0125
@@ -281,6 +299,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 23011
     marketGroup: 993
+    mass: 0.01
     name: Caldari Navy Plutonium Charge S
     published: true
     volume: 0.0025
@@ -297,6 +316,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 23045
     marketGroup: 991
+    mass: 0.1
     name: Caldari Navy Thorium Charge L
     published: true
     volume: 0.025
@@ -313,6 +333,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 23031
     marketGroup: 992
+    mass: 0.05
     name: Caldari Navy Thorium Charge M
     published: true
     volume: 0.0125
@@ -329,6 +350,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 23015
     marketGroup: 993
+    mass: 0.01
     name: Caldari Navy Thorium Charge S
     published: true
     volume: 0.0025
@@ -345,6 +367,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 23051
     marketGroup: 991
+    mass: 0.1
     name: Caldari Navy Tungsten Charge L
     published: true
     volume: 0.025
@@ -361,6 +384,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 23037
     marketGroup: 992
+    mass: 0.05
     name: Caldari Navy Tungsten Charge M
     published: true
     volume: 0.0125
@@ -377,6 +401,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 23021
     marketGroup: 993
+    mass: 0.01
     name: Caldari Navy Tungsten Charge S
     published: true
     volume: 0.0025
@@ -393,6 +418,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 23043
     marketGroup: 991
+    mass: 0.1
     name: Caldari Navy Uranium Charge L
     published: true
     volume: 0.025
@@ -409,6 +435,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 23029
     marketGroup: 992
+    mass: 0.05
     name: Caldari Navy Uranium Charge M
     published: true
     volume: 0.0125
@@ -425,6 +452,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 23013
     marketGroup: 993
+    mass: 0.01
     name: Caldari Navy Uranium Charge S
     published: true
     volume: 0.0025
@@ -440,6 +468,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21430
     marketGroup: 991
+    mass: 0.1
     name: Dread Guristas Antimatter Charge L
     published: true
     volume: 0.025
@@ -455,6 +484,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21414
     marketGroup: 992
+    mass: 0.05
     name: Dread Guristas Antimatter Charge M
     published: true
     volume: 0.0125
@@ -470,6 +500,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21398
     marketGroup: 993
+    mass: 0.01
     name: Dread Guristas Antimatter Charge S
     published: true
     volume: 0.0025
@@ -485,6 +516,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21432
     marketGroup: 1004
+    mass: 0.5
     name: Dread Guristas Antimatter Charge XL
     published: true
     volume: 0.125
@@ -501,6 +533,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21420
     marketGroup: 991
+    mass: 0.1
     name: Dread Guristas Iridium Charge L
     published: true
     volume: 0.025
@@ -517,6 +550,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21404
     marketGroup: 992
+    mass: 0.05
     name: Dread Guristas Iridium Charge M
     published: true
     volume: 0.0125
@@ -533,6 +567,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21388
     marketGroup: 993
+    mass: 0.01
     name: Dread Guristas Iridium Charge S
     published: true
     volume: 0.0025
@@ -549,6 +584,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21434
     marketGroup: 1004
+    mass: 0.5
     name: Dread Guristas Iridium Charge XL
     published: true
     volume: 0.125
@@ -565,6 +601,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21416
     marketGroup: 991
+    mass: 0.1
     name: Dread Guristas Iron Charge L
     published: true
     volume: 0.025
@@ -581,6 +618,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21400
     marketGroup: 992
+    mass: 0.05
     name: Dread Guristas Iron Charge M
     published: true
     volume: 0.0125
@@ -597,6 +635,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21384
     marketGroup: 993
+    mass: 0.01
     name: Dread Guristas Iron Charge S
     published: true
     volume: 0.0025
@@ -613,6 +652,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21436
     marketGroup: 1004
+    mass: 0.5
     name: Dread Guristas Iron Charge XL
     published: true
     volume: 0.125
@@ -629,6 +669,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21422
     marketGroup: 991
+    mass: 0.1
     name: Dread Guristas Lead Charge L
     published: true
     volume: 0.025
@@ -645,6 +686,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21406
     marketGroup: 992
+    mass: 0.05
     name: Dread Guristas Lead Charge M
     published: true
     volume: 0.0125
@@ -661,6 +703,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21390
     marketGroup: 993
+    mass: 0.01
     name: Dread Guristas Lead Charge S
     published: true
     volume: 0.0025
@@ -677,6 +720,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21438
     marketGroup: 1004
+    mass: 0.5
     name: Dread Guristas Lead Charge XL
     published: true
     volume: 0.125
@@ -693,6 +737,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21428
     marketGroup: 991
+    mass: 0.1
     name: Dread Guristas Plutonium Charge L
     published: true
     volume: 0.025
@@ -709,6 +754,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21412
     marketGroup: 992
+    mass: 0.05
     name: Dread Guristas Plutonium Charge M
     published: true
     volume: 0.0125
@@ -725,6 +771,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21396
     marketGroup: 993
+    mass: 0.01
     name: Dread Guristas Plutonium Charge S
     published: true
     volume: 0.0025
@@ -741,6 +788,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21440
     marketGroup: 1004
+    mass: 0.5
     name: Dread Guristas Plutonium Charge XL
     published: true
     volume: 0.125
@@ -757,6 +805,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21424
     marketGroup: 991
+    mass: 0.1
     name: Dread Guristas Thorium Charge L
     published: true
     volume: 0.025
@@ -773,6 +822,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21408
     marketGroup: 992
+    mass: 0.05
     name: Dread Guristas Thorium Charge M
     published: true
     volume: 0.0125
@@ -789,6 +839,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21392
     marketGroup: 993
+    mass: 0.01
     name: Dread Guristas Thorium Charge S
     published: true
     volume: 0.0025
@@ -805,6 +856,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21442
     marketGroup: 1004
+    mass: 0.5
     name: Dread Guristas Thorium Charge XL
     published: true
     volume: 0.125
@@ -821,6 +873,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21418
     marketGroup: 991
+    mass: 0.1
     name: Dread Guristas Tungsten Charge L
     published: true
     volume: 0.025
@@ -837,6 +890,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21402
     marketGroup: 992
+    mass: 0.05
     name: Dread Guristas Tungsten Charge M
     published: true
     volume: 0.0125
@@ -853,6 +907,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21386
     marketGroup: 993
+    mass: 0.01
     name: Dread Guristas Tungsten Charge S
     published: true
     volume: 0.0025
@@ -869,6 +924,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21444
     marketGroup: 1004
+    mass: 0.5
     name: Dread Guristas Tungsten Charge XL
     published: true
     volume: 0.125
@@ -885,6 +941,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21426
     marketGroup: 991
+    mass: 0.1
     name: Dread Guristas Uranium Charge L
     published: true
     volume: 0.025
@@ -901,6 +958,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21410
     marketGroup: 992
+    mass: 0.05
     name: Dread Guristas Uranium Charge M
     published: true
     volume: 0.0125
@@ -917,6 +975,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21394
     marketGroup: 993
+    mass: 0.01
     name: Dread Guristas Uranium Charge S
     published: true
     volume: 0.0025
@@ -933,6 +992,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21446
     marketGroup: 1004
+    mass: 0.5
     name: Dread Guristas Uranium Charge XL
     published: true
     volume: 0.125
@@ -948,6 +1008,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 22993
     marketGroup: 991
+    mass: 0.1
     name: Federation Navy Antimatter Charge L
     published: true
     volume: 0.025
@@ -963,6 +1024,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 22977
     marketGroup: 992
+    mass: 0.05
     name: Federation Navy Antimatter Charge M
     published: true
     volume: 0.0125
@@ -978,6 +1040,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 22961
     marketGroup: 993
+    mass: 0.01
     name: Federation Navy Antimatter Charge S
     published: true
     volume: 0.0025
@@ -994,6 +1057,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23003
     marketGroup: 991
+    mass: 0.1
     name: Federation Navy Iridium Charge L
     published: true
     volume: 0.025
@@ -1010,6 +1074,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 22987
     marketGroup: 992
+    mass: 0.05
     name: Federation Navy Iridium Charge M
     published: true
     volume: 0.0125
@@ -1026,6 +1091,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 22971
     marketGroup: 993
+    mass: 0.01
     name: Federation Navy Iridium Charge S
     published: true
     volume: 0.0025
@@ -1042,6 +1108,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 23007
     marketGroup: 991
+    mass: 0.1
     name: Federation Navy Iron Charge L
     published: true
     volume: 0.025
@@ -1058,6 +1125,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 22991
     marketGroup: 992
+    mass: 0.05
     name: Federation Navy Iron Charge M
     published: true
     volume: 0.0125
@@ -1074,6 +1142,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 22975
     marketGroup: 993
+    mass: 0.01
     name: Federation Navy Iron Charge S
     published: true
     volume: 0.0025
@@ -1090,6 +1159,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 23001
     marketGroup: 991
+    mass: 0.1
     name: Federation Navy Lead Charge L
     published: true
     volume: 0.025
@@ -1106,6 +1176,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 22985
     marketGroup: 992
+    mass: 0.05
     name: Federation Navy Lead Charge M
     published: true
     volume: 0.0125
@@ -1122,6 +1193,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 22969
     marketGroup: 993
+    mass: 0.01
     name: Federation Navy Lead Charge S
     published: true
     volume: 0.0025
@@ -1138,6 +1210,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 22995
     marketGroup: 991
+    mass: 0.1
     name: Federation Navy Plutonium Charge L
     published: true
     volume: 0.025
@@ -1154,6 +1227,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 22979
     marketGroup: 992
+    mass: 0.05
     name: Federation Navy Plutonium Charge M
     published: true
     volume: 0.0125
@@ -1170,6 +1244,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 22963
     marketGroup: 993
+    mass: 0.01
     name: Federation Navy Plutonium Charge S
     published: true
     volume: 0.0025
@@ -1186,6 +1261,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 22999
     marketGroup: 991
+    mass: 0.1
     name: Federation Navy Thorium Charge L
     published: true
     volume: 0.025
@@ -1202,6 +1278,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 22983
     marketGroup: 992
+    mass: 0.05
     name: Federation Navy Thorium Charge M
     published: true
     volume: 0.0125
@@ -1218,6 +1295,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 22967
     marketGroup: 993
+    mass: 0.01
     name: Federation Navy Thorium Charge S
     published: true
     volume: 0.0025
@@ -1234,6 +1312,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 23005
     marketGroup: 991
+    mass: 0.1
     name: Federation Navy Tungsten Charge L
     published: true
     volume: 0.025
@@ -1250,6 +1329,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 22989
     marketGroup: 992
+    mass: 0.05
     name: Federation Navy Tungsten Charge M
     published: true
     volume: 0.0125
@@ -1266,6 +1346,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 22973
     marketGroup: 993
+    mass: 0.01
     name: Federation Navy Tungsten Charge S
     published: true
     volume: 0.0025
@@ -1282,6 +1363,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 22997
     marketGroup: 991
+    mass: 0.1
     name: Federation Navy Uranium Charge L
     published: true
     volume: 0.025
@@ -1298,6 +1380,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 22981
     marketGroup: 992
+    mass: 0.05
     name: Federation Navy Uranium Charge M
     published: true
     volume: 0.0125
@@ -1314,6 +1397,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 22965
     marketGroup: 993
+    mass: 0.01
     name: Federation Navy Uranium Charge S
     published: true
     volume: 0.0025
@@ -1329,6 +1413,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20991
     marketGroup: 991
+    mass: 0.1
     name: Guardian Antimatter Charge L
     published: true
     volume: 0.025
@@ -1344,6 +1429,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20975
     marketGroup: 992
+    mass: 0.05
     name: Guardian Antimatter Charge M
     published: true
     volume: 0.0125
@@ -1359,6 +1445,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20959
     marketGroup: 993
+    mass: 0.01
     name: Guardian Antimatter Charge S
     published: true
     volume: 0.0025
@@ -1374,6 +1461,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20993
     marketGroup: 1004
+    mass: 0.5
     name: Guardian Antimatter Charge XL
     published: true
     volume: 0.125
@@ -1390,6 +1478,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20981
     marketGroup: 991
+    mass: 0.1
     name: Guardian Iridium Charge L
     published: true
     volume: 0.025
@@ -1406,6 +1495,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20965
     marketGroup: 992
+    mass: 0.05
     name: Guardian Iridium Charge M
     published: true
     volume: 0.0125
@@ -1422,6 +1512,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20949
     marketGroup: 993
+    mass: 0.01
     name: Guardian Iridium Charge S
     published: true
     volume: 0.0025
@@ -1438,6 +1529,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20995
     marketGroup: 1004
+    mass: 0.5
     name: Guardian Iridium Charge XL
     published: true
     volume: 0.125
@@ -1454,6 +1546,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20977
     marketGroup: 991
+    mass: 0.1
     name: Guardian Iron Charge L
     published: true
     volume: 0.025
@@ -1470,6 +1563,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20961
     marketGroup: 992
+    mass: 0.05
     name: Guardian Iron Charge M
     published: true
     volume: 0.0125
@@ -1486,6 +1580,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20945
     marketGroup: 993
+    mass: 0.01
     name: Guardian Iron Charge S
     published: true
     volume: 0.0025
@@ -1502,6 +1597,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20997
     marketGroup: 1004
+    mass: 0.5
     name: Guardian Iron Charge XL
     published: true
     volume: 0.125
@@ -1518,6 +1614,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20983
     marketGroup: 991
+    mass: 0.1
     name: Guardian Lead Charge L
     published: true
     volume: 0.025
@@ -1534,6 +1631,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20967
     marketGroup: 992
+    mass: 0.05
     name: Guardian Lead Charge M
     published: true
     volume: 0.0125
@@ -1550,6 +1648,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20951
     marketGroup: 993
+    mass: 0.01
     name: Guardian Lead Charge S
     published: true
     volume: 0.0025
@@ -1566,6 +1665,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20999
     marketGroup: 1004
+    mass: 0.5
     name: Guardian Lead Charge XL
     published: true
     volume: 0.125
@@ -1582,6 +1682,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20989
     marketGroup: 991
+    mass: 0.1
     name: Guardian Plutonium Charge L
     published: true
     volume: 0.025
@@ -1598,6 +1699,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20973
     marketGroup: 992
+    mass: 0.05
     name: Guardian Plutonium Charge M
     published: true
     volume: 0.0125
@@ -1614,6 +1716,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20957
     marketGroup: 993
+    mass: 0.01
     name: Guardian Plutonium Charge S
     published: true
     volume: 0.0025
@@ -1630,6 +1733,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21001
     marketGroup: 1004
+    mass: 0.5
     name: Guardian Plutonium Charge XL
     published: true
     volume: 0.125
@@ -1646,6 +1750,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20985
     marketGroup: 991
+    mass: 0.1
     name: Guardian Thorium Charge L
     published: true
     volume: 0.025
@@ -1662,6 +1767,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20969
     marketGroup: 992
+    mass: 0.05
     name: Guardian Thorium Charge M
     published: true
     volume: 0.0125
@@ -1678,6 +1784,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20953
     marketGroup: 993
+    mass: 0.01
     name: Guardian Thorium Charge S
     published: true
     volume: 0.0025
@@ -1694,6 +1801,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21003
     marketGroup: 1004
+    mass: 0.5
     name: Guardian Thorium Charge XL
     published: true
     volume: 0.125
@@ -1710,6 +1818,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20979
     marketGroup: 991
+    mass: 0.1
     name: Guardian Tungsten Charge L
     published: true
     volume: 0.025
@@ -1726,6 +1835,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20963
     marketGroup: 992
+    mass: 0.05
     name: Guardian Tungsten Charge M
     published: true
     volume: 0.0125
@@ -1742,6 +1852,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20947
     marketGroup: 993
+    mass: 0.01
     name: Guardian Tungsten Charge S
     published: true
     volume: 0.0025
@@ -1758,6 +1869,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21005
     marketGroup: 1004
+    mass: 0.5
     name: Guardian Tungsten Charge XL
     published: true
     volume: 0.125
@@ -1774,6 +1886,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20987
     marketGroup: 991
+    mass: 0.1
     name: Guardian Uranium Charge L
     published: true
     volume: 0.025
@@ -1790,6 +1903,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20971
     marketGroup: 992
+    mass: 0.05
     name: Guardian Uranium Charge M
     published: true
     volume: 0.0125
@@ -1806,6 +1920,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20955
     marketGroup: 993
+    mass: 0.01
     name: Guardian Uranium Charge S
     published: true
     volume: 0.0025
@@ -1822,6 +1937,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21007
     marketGroup: 1004
+    mass: 0.5
     name: Guardian Uranium Charge XL
     published: true
     volume: 0.125
@@ -1837,6 +1953,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21366
     marketGroup: 991
+    mass: 0.05
     name: Guristas Antimatter Charge L
     published: true
     volume: 0.025
@@ -1852,6 +1969,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21350
     marketGroup: 992
+    mass: 0.5
     name: Guristas Antimatter Charge M
     published: true
     volume: 0.0125
@@ -1867,6 +1985,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21334
     marketGroup: 993
+    mass: 0.05
     name: Guristas Antimatter Charge S
     published: true
     volume: 0.0025
@@ -1882,6 +2001,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21368
     marketGroup: 1004
+    mass: 0.1
     name: Guristas Antimatter Charge XL
     published: true
     volume: 0.125
@@ -1898,6 +2018,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21356
     marketGroup: 991
+    mass: 0.01
     name: Guristas Iridium Charge L
     published: true
     volume: 0.025
@@ -1914,6 +2035,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21340
     marketGroup: 992
+    mass: 0.1
     name: Guristas Iridium Charge M
     published: true
     volume: 0.0125
@@ -1930,6 +2052,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21324
     marketGroup: 993
+    mass: 0.01
     name: Guristas Iridium Charge S
     published: true
     volume: 0.0025
@@ -1946,6 +2069,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21370
     marketGroup: 1004
+    mass: 0.1
     name: Guristas Iridium Charge XL
     published: true
     volume: 0.125
@@ -1962,6 +2086,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21352
     marketGroup: 991
+    mass: 0.01
     name: Guristas Iron Charge L
     published: true
     volume: 0.025
@@ -1978,6 +2103,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21336
     marketGroup: 992
+    mass: 0.1
     name: Guristas Iron Charge M
     published: true
     volume: 0.0125
@@ -1994,6 +2120,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21320
     marketGroup: 993
+    mass: 0.01
     name: Guristas Iron Charge S
     published: true
     volume: 0.0025
@@ -2010,6 +2137,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21372
     marketGroup: 1004
+    mass: 0.1
     name: Guristas Iron Charge XL
     published: true
     volume: 0.125
@@ -2026,6 +2154,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21358
     marketGroup: 991
+    mass: 0.01
     name: Guristas Lead Charge L
     published: true
     volume: 0.025
@@ -2042,6 +2171,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21342
     marketGroup: 992
+    mass: 0.1
     name: Guristas Lead Charge M
     published: true
     volume: 0.0125
@@ -2058,6 +2188,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21326
     marketGroup: 993
+    mass: 0.01
     name: Guristas Lead Charge S
     published: true
     volume: 0.0025
@@ -2074,6 +2205,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21374
     marketGroup: 1004
+    mass: 0.1
     name: Guristas Lead Charge XL
     published: true
     volume: 0.125
@@ -2090,6 +2222,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21364
     marketGroup: 991
+    mass: 0.05
     name: Guristas Plutonium Charge L
     published: true
     volume: 0.025
@@ -2106,6 +2239,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21348
     marketGroup: 992
+    mass: 0.5
     name: Guristas Plutonium Charge M
     published: true
     volume: 0.0125
@@ -2122,6 +2256,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21332
     marketGroup: 993
+    mass: 0.05
     name: Guristas Plutonium Charge S
     published: true
     volume: 0.0025
@@ -2138,6 +2273,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21376
     marketGroup: 1004
+    mass: 0.5
     name: Guristas Plutonium Charge XL
     published: true
     volume: 0.125
@@ -2154,6 +2290,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21360
     marketGroup: 991
+    mass: 0.05
     name: Guristas Thorium Charge L
     published: true
     volume: 0.025
@@ -2170,6 +2307,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21344
     marketGroup: 992
+    mass: 0.5
     name: Guristas Thorium Charge M
     published: true
     volume: 0.0125
@@ -2186,6 +2324,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21328
     marketGroup: 993
+    mass: 0.05
     name: Guristas Thorium Charge S
     published: true
     volume: 0.0025
@@ -2202,6 +2341,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21378
     marketGroup: 1004
+    mass: 0.5
     name: Guristas Thorium Charge XL
     published: true
     volume: 0.125
@@ -2218,6 +2358,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21354
     marketGroup: 991
+    mass: 0.01
     name: Guristas Tungsten Charge L
     published: true
     volume: 0.025
@@ -2234,6 +2375,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21338
     marketGroup: 992
+    mass: 0.1
     name: Guristas Tungsten Charge M
     published: true
     volume: 0.0125
@@ -2250,6 +2392,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21322
     marketGroup: 993
+    mass: 0.01
     name: Guristas Tungsten Charge S
     published: true
     volume: 0.0025
@@ -2266,6 +2409,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21380
     marketGroup: 1004
+    mass: 0.5
     name: Guristas Tungsten Charge XL
     published: true
     volume: 0.125
@@ -2282,6 +2426,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21362
     marketGroup: 991
+    mass: 0.05
     name: Guristas Uranium Charge L
     published: true
     volume: 0.025
@@ -2298,6 +2443,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21346
     marketGroup: 992
+    mass: 0.5
     name: Guristas Uranium Charge M
     published: true
     volume: 0.0125
@@ -2314,6 +2460,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21330
     marketGroup: 993
+    mass: 0.05
     name: Guristas Uranium Charge S
     published: true
     volume: 0.0025
@@ -2330,6 +2477,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21382
     marketGroup: 1004
+    mass: 0.5
     name: Guristas Uranium Charge XL
     published: true
     volume: 0.125
@@ -2343,6 +2491,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 233
     marketGroup: 106
+    mass: 0.1
     name: Iridium Charge L
     published: true
     volume: 0.025
@@ -2356,6 +2505,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 225
     marketGroup: 108
+    mass: 0.05
     name: Iridium Charge M
     published: true
     volume: 0.0125
@@ -2369,6 +2519,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 217
     marketGroup: 107
+    mass: 0.01
     name: Iridium Charge S
     published: true
     volume: 0.0025
@@ -2382,6 +2533,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 17650
     marketGroup: 504
+    mass: 0.5
     name: Iridium Charge XL
     published: true
     volume: 0.125
@@ -2395,6 +2547,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 231
     marketGroup: 106
+    mass: 0.1
     name: Iron Charge L
     published: true
     volume: 0.025
@@ -2408,6 +2561,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 223
     marketGroup: 108
+    mass: 0.05
     name: Iron Charge M
     published: true
     volume: 0.0125
@@ -2421,6 +2575,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 215
     marketGroup: 107
+    mass: 0.01
     name: Iron Charge S
     published: true
     volume: 0.0025
@@ -2434,6 +2589,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 17652
     marketGroup: 504
+    mass: 0.5
     name: Iron Charge XL
     published: true
     volume: 0.125
@@ -2447,6 +2603,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 234
     marketGroup: 106
+    mass: 0.1
     name: Lead Charge L
     published: true
     volume: 0.025
@@ -2460,6 +2617,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 226
     marketGroup: 108
+    mass: 0.05
     name: Lead Charge M
     published: true
     volume: 0.0125
@@ -2473,6 +2631,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 218
     marketGroup: 107
+    mass: 0.01
     name: Lead Charge S
     published: true
     volume: 0.0025
@@ -2486,6 +2645,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 17654
     marketGroup: 504
+    mass: 0.5
     name: Lead Charge XL
     published: true
     volume: 0.125
@@ -2499,6 +2659,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 237
     marketGroup: 106
+    mass: 0.1
     name: Plutonium Charge L
     published: true
     volume: 0.025
@@ -2512,6 +2673,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 229
     marketGroup: 108
+    mass: 0.05
     name: Plutonium Charge M
     published: true
     volume: 0.0125
@@ -2525,6 +2687,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 221
     marketGroup: 107
+    mass: 0.01
     name: Plutonium Charge S
     published: true
     volume: 0.0025
@@ -2538,6 +2701,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 17656
     marketGroup: 504
+    mass: 0.5
     name: Plutonium Charge XL
     published: true
     volume: 0.125
@@ -2553,6 +2717,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20927
     marketGroup: 991
+    mass: 0.05
     name: Shadow Antimatter Charge L
     published: true
     volume: 0.025
@@ -2568,6 +2733,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20057
     marketGroup: 992
+    mass: 0.5
     name: Shadow Antimatter Charge M
     published: true
     volume: 0.0125
@@ -2583,6 +2749,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20040
     marketGroup: 993
+    mass: 0.05
     name: Shadow Antimatter Charge S
     published: true
     volume: 0.0025
@@ -2598,6 +2765,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20929
     marketGroup: 1004
+    mass: 0.1
     name: Shadow Antimatter Charge XL
     published: true
     volume: 0.125
@@ -2614,6 +2782,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20917
     marketGroup: 991
+    mass: 0.01
     name: Shadow Iridium Charge L
     published: true
     volume: 0.025
@@ -2630,6 +2799,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20047
     marketGroup: 992
+    mass: 0.1
     name: Shadow Iridium Charge M
     published: true
     volume: 0.0125
@@ -2646,6 +2816,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 19966
     marketGroup: 993
+    mass: 0.01
     name: Shadow Iridium Charge S
     published: true
     volume: 0.0025
@@ -2662,6 +2833,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20931
     marketGroup: 1004
+    mass: 0.1
     name: Shadow Iridium Charge XL
     published: true
     volume: 0.125
@@ -2678,6 +2850,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20913
     marketGroup: 991
+    mass: 0.01
     name: Shadow Iron Charge L
     published: true
     volume: 0.025
@@ -2694,6 +2867,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20043
     marketGroup: 992
+    mass: 0.1
     name: Shadow Iron Charge M
     published: true
     volume: 0.0125
@@ -2710,6 +2884,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 19962
     marketGroup: 993
+    mass: 0.01
     name: Shadow Iron Charge S
     published: true
     volume: 0.0025
@@ -2726,6 +2901,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20933
     marketGroup: 1004
+    mass: 0.1
     name: Shadow Iron Charge XL
     published: true
     volume: 0.125
@@ -2742,6 +2918,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20919
     marketGroup: 991
+    mass: 0.01
     name: Shadow Lead Charge L
     published: true
     volume: 0.025
@@ -2758,6 +2935,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20049
     marketGroup: 992
+    mass: 0.1
     name: Shadow Lead Charge M
     published: true
     volume: 0.0125
@@ -2774,6 +2952,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 19968
     marketGroup: 993
+    mass: 0.01
     name: Shadow Lead Charge S
     published: true
     volume: 0.0025
@@ -2790,6 +2969,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20935
     marketGroup: 1004
+    mass: 0.1
     name: Shadow Lead Charge XL
     published: true
     volume: 0.125
@@ -2806,6 +2986,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20925
     marketGroup: 991
+    mass: 0.05
     name: Shadow Plutonium Charge L
     published: true
     volume: 0.025
@@ -2822,6 +3003,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20055
     marketGroup: 992
+    mass: 0.5
     name: Shadow Plutonium Charge M
     published: true
     volume: 0.0125
@@ -2838,6 +3020,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20038
     marketGroup: 993
+    mass: 0.05
     name: Shadow Plutonium Charge S
     published: true
     volume: 0.0025
@@ -2854,6 +3037,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20937
     marketGroup: 1004
+    mass: 0.5
     name: Shadow Plutonium Charge XL
     published: true
     volume: 0.125
@@ -2870,6 +3054,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20921
     marketGroup: 991
+    mass: 0.05
     name: Shadow Thorium Charge L
     published: true
     volume: 0.025
@@ -2886,6 +3071,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20051
     marketGroup: 992
+    mass: 0.5
     name: Shadow Thorium Charge M
     published: true
     volume: 0.0125
@@ -2902,6 +3088,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20034
     marketGroup: 993
+    mass: 0.05
     name: Shadow Thorium Charge S
     published: true
     volume: 0.0025
@@ -2918,6 +3105,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20939
     marketGroup: 1004
+    mass: 0.5
     name: Shadow Thorium Charge XL
     published: true
     volume: 0.125
@@ -2934,6 +3122,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20915
     marketGroup: 991
+    mass: 0.01
     name: Shadow Tungsten Charge L
     published: true
     volume: 0.025
@@ -2950,6 +3139,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20045
     marketGroup: 992
+    mass: 0.1
     name: Shadow Tungsten Charge M
     published: true
     volume: 0.0125
@@ -2966,6 +3156,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 19964
     marketGroup: 993
+    mass: 0.01
     name: Shadow Tungsten Charge S
     published: true
     volume: 0.0025
@@ -2982,6 +3173,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20941
     marketGroup: 1004
+    mass: 0.5
     name: Shadow Tungsten Charge XL
     published: true
     volume: 0.125
@@ -2998,6 +3190,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20923
     marketGroup: 991
+    mass: 0.05
     name: Shadow Uranium Charge L
     published: true
     volume: 0.025
@@ -3014,6 +3207,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20053
     marketGroup: 992
+    mass: 0.5
     name: Shadow Uranium Charge M
     published: true
     volume: 0.0125
@@ -3030,6 +3224,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20036
     marketGroup: 993
+    mass: 0.05
     name: Shadow Uranium Charge S
     published: true
     volume: 0.0025
@@ -3046,6 +3241,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20943
     marketGroup: 1004
+    mass: 0.5
     name: Shadow Uranium Charge XL
     published: true
     volume: 0.125
@@ -3059,6 +3255,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 235
     marketGroup: 106
+    mass: 0.1
     name: Thorium Charge L
     published: true
     volume: 0.025
@@ -3072,6 +3269,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 227
     marketGroup: 108
+    mass: 0.05
     name: Thorium Charge M
     published: true
     volume: 0.0125
@@ -3085,6 +3283,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 219
     marketGroup: 107
+    mass: 0.01
     name: Thorium Charge S
     published: true
     volume: 0.0025
@@ -3098,6 +3297,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 17658
     marketGroup: 504
+    mass: 0.5
     name: Thorium Charge XL
     published: true
     volume: 0.125
@@ -3111,6 +3311,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 232
     marketGroup: 106
+    mass: 0.1
     name: Tungsten Charge L
     published: true
     volume: 0.025
@@ -3124,6 +3325,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 224
     marketGroup: 108
+    mass: 0.05
     name: Tungsten Charge M
     published: true
     volume: 0.0125
@@ -3137,6 +3339,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 216
     marketGroup: 107
+    mass: 0.01
     name: Tungsten Charge S
     published: true
     volume: 0.0025
@@ -3150,6 +3353,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 17660
     marketGroup: 504
+    mass: 0.5
     name: Tungsten Charge XL
     published: true
     volume: 0.125
@@ -3163,6 +3367,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 236
     marketGroup: 106
+    mass: 0.1
     name: Uranium Charge L
     published: true
     volume: 0.025
@@ -3176,6 +3381,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 228
     marketGroup: 108
+    mass: 0.05
     name: Uranium Charge M
     published: true
     volume: 0.0125
@@ -3189,6 +3395,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 220
     marketGroup: 107
+    mass: 0.01
     name: Uranium Charge S
     published: true
     volume: 0.0025
@@ -3202,6 +3409,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 17662
     marketGroup: 504
+    mass: 0.5
     name: Uranium Charge XL
     published: true
     volume: 0.125

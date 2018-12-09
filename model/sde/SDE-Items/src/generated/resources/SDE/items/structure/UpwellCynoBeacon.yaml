@@ -52,6 +52,7 @@ items:
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35840
     marketGroup: 2511
+    mass: 3.0E9
     name: Pharolux Cyno Beacon
     published: true
     volume: 4000.0

@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46316
     marketGroup: 2401
+    mass: 4000.0
     name: Bountiful Loparite
     published: true
     volume: 10.0
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46314
     marketGroup: 2401
+    mass: 4000.0
     name: Bountiful Monazite
     published: true
     volume: 10.0
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46312
     marketGroup: 2401
+    mass: 4000.0
     name: Bountiful Xenotime
     published: true
     volume: 10.0
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46318
     marketGroup: 2401
+    mass: 4000.0
     name: Bountiful Ytterbite
     published: true
     volume: 10.0
@@ -66,6 +70,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45512
     marketGroup: 2401
+    mass: 4000.0
     name: Loparite
     published: true
     volume: 10.0
@@ -80,6 +85,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45511
     marketGroup: 2401
+    mass: 4000.0
     name: Monazite
     published: true
     volume: 10.0
@@ -94,6 +100,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46317
     marketGroup: 2401
+    mass: 4000.0
     name: Shining Loparite
     published: true
     volume: 10.0
@@ -108,6 +115,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46315
     marketGroup: 2401
+    mass: 4000.0
     name: Shining Monazite
     published: true
     volume: 10.0
@@ -122,6 +130,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46313
     marketGroup: 2401
+    mass: 4000.0
     name: Shining Xenotime
     published: true
     volume: 10.0
@@ -136,6 +145,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46319
     marketGroup: 2401
+    mass: 4000.0
     name: Shining Ytterbite
     published: true
     volume: 10.0
@@ -150,6 +160,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45510
     marketGroup: 2401
+    mass: 4000.0
     name: Xenotime
     published: true
     volume: 10.0
@@ -164,6 +175,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45513
     marketGroup: 2401
+    mass: 4000.0
     name: Ytterbite
     published: true
     volume: 10.0

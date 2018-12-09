@@ -7,6 +7,7 @@ items:
     StructureUniformity: 1.0
     id: 17365
     marketGroup: 1652
+    mass: 1000000.0
     name: Large Audit Log Secure Container
     published: true
     volume: 650.0
@@ -18,6 +19,7 @@ items:
     StructureUniformity: 1.0
     id: 17364
     marketGroup: 1652
+    mass: 100000.0
     name: Medium Audit Log Secure Container
     published: true
     volume: 325.0
@@ -29,6 +31,7 @@ items:
     StructureUniformity: 1.0
     id: 17363
     marketGroup: 1652
+    mass: 10000.0
     name: Small Audit Log Secure Container
     published: true
     volume: 100.0
@@ -38,6 +41,7 @@ items:
     StructureUniformity: 1.0
     id: 17366
     marketGroup: 1658
+    mass: 3000000.0
     name: Station Container
     published: true
     volume: 2000000.0
@@ -47,6 +51,7 @@ items:
     StructureUniformity: 1.0
     id: 17367
     marketGroup: 1658
+    mass: 6000000.0
     name: Station Vault Container
     published: true
     volume: 5000000.0
@@ -56,6 +61,7 @@ items:
     StructureUniformity: 1.0
     id: 17368
     marketGroup: 1658
+    mass: 1.8E7
     name: Station Warehouse Container
     published: true
     volume: 1.0E7

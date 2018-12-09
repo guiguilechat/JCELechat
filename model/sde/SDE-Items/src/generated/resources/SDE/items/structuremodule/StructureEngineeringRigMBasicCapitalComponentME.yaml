@@ -20,6 +20,7 @@ items:
     UpgradeCost: 100
     id: 43870
     marketGroup: 2347
+    mass: 200.0
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       I
     published: true
@@ -45,6 +46,7 @@ items:
     UpgradeCost: 150
     id: 43871
     marketGroup: 2347
+    mass: 200.0
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       II
     published: true
@@ -71,6 +73,7 @@ items:
     UpgradeCost: 100
     id: 45544
     marketGroup: 2347
+    mass: 200.0
     name: Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency
     published: true
     volume: 10.0

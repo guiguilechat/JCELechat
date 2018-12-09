@@ -10,6 +10,7 @@ items:
     MoonMiningAmount: 100
     id: 16643
     marketGroup: 501
+    mass: 3476.0
     name: Cadmium
     published: true
     volume: 0.05
@@ -17,6 +18,7 @@ items:
     MoonMiningAmount: 100
     id: 16647
     marketGroup: 501
+    mass: 1544.0
     name: Caesium
     published: true
     volume: 0.05
@@ -24,6 +26,7 @@ items:
     MoonMiningAmount: 100
     id: 16641
     marketGroup: 501
+    mass: 4290.0
     name: Chromium
     published: true
     volume: 0.05
@@ -31,6 +34,7 @@ items:
     MoonMiningAmount: 100
     id: 16640
     marketGroup: 501
+    mass: 3544.0
     name: Cobalt
     published: true
     volume: 0.05
@@ -38,6 +42,7 @@ items:
     MoonMiningAmount: 100
     id: 16650
     marketGroup: 501
+    mass: 8550.0
     name: Dysprosium
     published: true
     volume: 0.05
@@ -52,6 +57,7 @@ items:
     MoonMiningAmount: 100
     id: 16648
     marketGroup: 501
+    mass: 10640.0
     name: Hafnium
     published: true
     volume: 0.05
@@ -66,6 +72,7 @@ items:
     MoonMiningAmount: 100
     id: 16646
     marketGroup: 501
+    mass: 10826.0
     name: Mercury
     published: true
     volume: 0.05
@@ -73,6 +80,7 @@ items:
     MoonMiningAmount: 100
     id: 16651
     marketGroup: 501
+    mass: 7010.0
     name: Neodymium
     published: true
     volume: 0.05
@@ -80,6 +88,7 @@ items:
     MoonMiningAmount: 100
     id: 16644
     marketGroup: 501
+    mass: 21460.0
     name: Platinum
     published: true
     volume: 0.05
@@ -87,6 +96,7 @@ items:
     MoonMiningAmount: 100
     id: 16652
     marketGroup: 501
+    mass: 7260.0
     name: Promethium
     published: true
     volume: 0.05
@@ -94,6 +104,7 @@ items:
     MoonMiningAmount: 100
     id: 16639
     marketGroup: 501
+    mass: 1196.0
     name: Scandium
     published: true
     volume: 0.05
@@ -108,6 +119,7 @@ items:
     MoonMiningAmount: 100
     id: 16649
     marketGroup: 501
+    mass: 8800.0
     name: Technetium
     published: true
     volume: 0.05
@@ -115,6 +127,7 @@ items:
     MoonMiningAmount: 100
     id: 16653
     marketGroup: 501
+    mass: 9320.0
     name: Thulium
     published: true
     volume: 0.05
@@ -122,6 +135,7 @@ items:
     MoonMiningAmount: 100
     id: 16638
     marketGroup: 501
+    mass: 1800.0
     name: Titanium
     published: true
     volume: 0.05
@@ -129,6 +143,7 @@ items:
     MoonMiningAmount: 100
     id: 16637
     marketGroup: 501
+    mass: 7720.0
     name: Tungsten
     published: true
     volume: 0.05
@@ -136,6 +151,7 @@ items:
     MoonMiningAmount: 100
     id: 16642
     marketGroup: 501
+    mass: 6000.0
     name: Vanadium
     published: true
     volume: 0.05

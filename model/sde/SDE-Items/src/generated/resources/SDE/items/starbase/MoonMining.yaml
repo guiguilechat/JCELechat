@@ -23,6 +23,7 @@ items:
     Uniformity: 1.0
     id: 16221
     marketGroup: 488
+    mass: 2.0E8
     name: Moon Harvesting Array
     published: true
     volume: 4000.0

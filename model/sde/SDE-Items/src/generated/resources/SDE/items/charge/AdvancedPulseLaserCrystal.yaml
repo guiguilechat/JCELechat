@@ -19,6 +19,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 12816
     marketGroup: 869
+    mass: 1.0
     name: Conflagration L
     published: true
     volume: 1.0
@@ -42,6 +43,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 12814
     marketGroup: 870
+    mass: 1.0
     name: Conflagration M
     published: true
     volume: 1.0
@@ -65,6 +67,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 12565
     marketGroup: 871
+    mass: 1.0
     name: Conflagration S
     published: true
     volume: 1.0
@@ -88,6 +91,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 41332
     marketGroup: 2256
+    mass: 1.0
     name: Conflagration XL
     published: true
     volume: 1.0
@@ -110,6 +114,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12820
     marketGroup: 869
+    mass: 1.0
     name: Scorch L
     published: true
     volume: 1.0
@@ -132,6 +137,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12818
     marketGroup: 870
+    mass: 1.0
     name: Scorch M
     published: true
     volume: 1.0
@@ -154,6 +160,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 12563
     marketGroup: 871
+    mass: 1.0
     name: Scorch S
     published: true
     volume: 1.0
@@ -176,6 +183,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 41330
     marketGroup: 2256
+    mass: 1.0
     name: Scorch XL
     published: true
     volume: 1.0

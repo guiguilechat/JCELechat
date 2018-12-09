@@ -10,6 +10,7 @@ items:
     TechLevel: 1
     id: 1192
     marketGroup: 1087
+    mass: 50.0
     name: '''Basic'' Overdrive Injector System'
     published: true
     volume: 5.0
@@ -24,6 +25,7 @@ items:
     TechLevel: 1
     id: 14126
     marketGroup: 1087
+    mass: 50.0
     name: Domination Overdrive Injector
     published: true
     volume: 5.0
@@ -36,6 +38,7 @@ items:
     TechLevel: 1
     id: 1244
     marketGroup: 1087
+    mass: 50.0
     name: Overdrive Injector System I
     published: true
     volume: 5.0
@@ -49,6 +52,7 @@ items:
     TechLevel: 2
     id: 1236
     marketGroup: 1087
+    mass: 100.0
     name: Overdrive Injector System II
     published: true
     volume: 5.0
@@ -63,6 +67,7 @@ items:
     TechLevel: 1
     id: 15812
     marketGroup: 1087
+    mass: 50.0
     name: Republic Fleet Overdrive Injector
     published: true
     volume: 5.0
@@ -77,6 +82,7 @@ items:
     TechLevel: 1
     id: 21491
     marketGroup: 1087
+    mass: 50.0
     name: Synthetic Hull Conversion Overdrive Injector
     published: true
     volume: 5.0
@@ -90,6 +96,7 @@ items:
     TechLevel: 1
     id: 5631
     marketGroup: 1087
+    mass: 50.0
     name: Type-D Restrained Overdrive Injector
     published: true
     volume: 5.0

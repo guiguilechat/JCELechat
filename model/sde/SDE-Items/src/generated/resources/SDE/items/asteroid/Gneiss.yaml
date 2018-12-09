@@ -12,6 +12,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46679
     marketGroup: 525
+    mass: 1.0E35
     name: Brilliant Gneiss
     published: true
     volume: 5.0
@@ -26,6 +27,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46695
     marketGroup: 525
+    mass: 1.0
     name: Compressed Brilliant Gneiss
     published: true
     volume: 1.8
@@ -40,6 +42,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28397
     marketGroup: 525
+    mass: 1.0E35
     name: Compressed Gneiss
     published: true
     volume: 1.8
@@ -54,6 +57,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28398
     marketGroup: 525
+    mass: 1.0E35
     name: Compressed Iridescent Gneiss
     published: true
     volume: 1.8
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28399
     marketGroup: 525
+    mass: 1.0E35
     name: Compressed Prismatic Gneiss
     published: true
     volume: 1.8
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 1229
     marketGroup: 525
+    mass: 1.0E35
     name: Gneiss
     published: true
     volume: 5.0
@@ -96,6 +102,7 @@ items:
     RequiredSkill1: 3386
     StasisWebifierResistance: 1.0
     id: 28622
+    mass: 1.0E35
     name: Green Arisite
     published: true
     volume: 5.0
@@ -112,6 +119,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17865
     marketGroup: 525
+    mass: 1.0E35
     name: Iridescent Gneiss
     published: true
     volume: 5.0
@@ -128,6 +136,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17866
     marketGroup: 525
+    mass: 1.0E35
     name: Prismatic Gneiss
     published: true
     volume: 5.0

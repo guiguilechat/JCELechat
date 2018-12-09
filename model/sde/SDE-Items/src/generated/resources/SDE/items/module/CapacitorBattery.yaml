@@ -192,6 +192,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 48439
+    mass: 1.0
     name: Large Abyssal Cap Battery
     published: true
     volume: 50.0
@@ -244,6 +245,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 48435
+    mass: 1.0
     name: Medium Abyssal Cap Battery
     published: true
     volume: 5.0
@@ -344,6 +346,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 48431
+    mass: 1.0
     name: Small Abyssal Cap Battery
     published: true
     volume: 5.0

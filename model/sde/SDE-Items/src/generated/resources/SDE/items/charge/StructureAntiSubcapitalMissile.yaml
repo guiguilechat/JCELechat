@@ -19,6 +19,7 @@ items:
     ThermalDamage: 600.0
     id: 37846
     marketGroup: 2196
+    mass: 1000.0
     name: Standup Cruise Missile
     published: true
     volume: 0.5
@@ -42,6 +43,7 @@ items:
     ThermalDamage: 300.0
     id: 37847
     marketGroup: 2196
+    mass: 1000.0
     name: Standup Heavy Missile
     published: true
     volume: 0.5
@@ -65,6 +67,7 @@ items:
     ThermalDamage: 100.0
     id: 37848
     marketGroup: 2196
+    mass: 1000.0
     name: Standup Light Missile
     published: true
     volume: 0.5

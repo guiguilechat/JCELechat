@@ -8,6 +8,7 @@ items:
     RequiredSkill1: 3386
     StasisWebifierResistance: 1.0
     id: 28618
+    mass: 1.0E35
     name: Augumene
     published: true
     volume: 0.3
@@ -22,6 +23,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46702
     marketGroup: 515
+    mass: 1.0
     name: Compressed Opulent Pyroxeres
     published: true
     volume: 0.16
@@ -36,6 +38,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28424
     marketGroup: 515
+    mass: 1.0E35
     name: Compressed Pyroxeres
     published: true
     volume: 0.16
@@ -50,6 +53,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28425
     marketGroup: 515
+    mass: 1.0E35
     name: Compressed Solid Pyroxeres
     published: true
     volume: 0.16
@@ -64,6 +68,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28426
     marketGroup: 515
+    mass: 1.0E35
     name: Compressed Viscous Pyroxeres
     published: true
     volume: 0.16
@@ -80,6 +85,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46686
     marketGroup: 515
+    mass: 1.0E35
     name: Opulent Pyroxeres
     published: true
     volume: 0.3
@@ -96,6 +102,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 1224
     marketGroup: 515
+    mass: 1.0E35
     name: Pyroxeres
     published: true
     volume: 0.3
@@ -112,6 +119,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17459
     marketGroup: 515
+    mass: 1.0E35
     name: Solid Pyroxeres
     published: true
     volume: 0.3
@@ -128,6 +136,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17460
     marketGroup: 515
+    mass: 1.0E35
     name: Viscous Pyroxeres
     published: true
     volume: 0.3

@@ -21,6 +21,7 @@ items:
     WarpScrambleStrength: 100
     id: 33585
     marketGroup: 1847
+    mass: 100000.0
     name: Amarr Encounter Surveillance System
     published: true
     volume: 200.0
@@ -46,6 +47,7 @@ items:
     WarpScrambleStrength: 100
     id: 33595
     marketGroup: 1847
+    mass: 100000.0
     name: Caldari Encounter Surveillance System
     published: true
     volume: 200.0
@@ -71,6 +73,7 @@ items:
     WarpScrambleStrength: 100
     id: 33608
     marketGroup: 1847
+    mass: 100000.0
     name: Gallente Encounter Surveillance System
     published: true
     volume: 200.0
@@ -96,6 +99,7 @@ items:
     WarpScrambleStrength: 100
     id: 33610
     marketGroup: 1847
+    mass: 100000.0
     name: Minmatar Encounter Surveillance System
     published: true
     volume: 200.0

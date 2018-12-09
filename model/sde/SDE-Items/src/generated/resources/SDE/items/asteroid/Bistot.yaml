@@ -12,6 +12,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 1223
     marketGroup: 514
+    mass: 1.0E35
     name: Bistot
     published: true
     volume: 16.0
@@ -26,6 +27,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28388
     marketGroup: 514
+    mass: 1.0E35
     name: Compressed Bistot
     published: true
     volume: 4.4
@@ -40,6 +42,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46692
     marketGroup: 514
+    mass: 1.0
     name: Compressed Cubic Bistot
     published: true
     volume: 4.4
@@ -54,6 +57,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28389
     marketGroup: 514
+    mass: 1.0E35
     name: Compressed Monoclinic Bistot
     published: true
     volume: 4.4
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28390
     marketGroup: 514
+    mass: 1.0E35
     name: Compressed Triclinic Bistot
     published: true
     volume: 4.4
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46676
     marketGroup: 514
+    mass: 1.0E35
     name: Cubic Bistot
     published: true
     volume: 16.0
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17429
     marketGroup: 514
+    mass: 1.0E35
     name: Monoclinic Bistot
     published: true
     volume: 16.0
@@ -116,6 +123,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17428
     marketGroup: 514
+    mass: 1.0E35
     name: Triclinic Bistot
     published: true
     volume: 16.0

@@ -22,6 +22,7 @@ items:
     Uniformity: 1.0
     id: 25270
     marketGroup: 483
+    mass: 1.0E8
     name: Biochemical Silo
     published: true
     volume: 4000.0
@@ -48,6 +49,7 @@ items:
     Uniformity: 1.0
     id: 25271
     marketGroup: 483
+    mass: 1.0E8
     name: Catalyst Silo
     published: true
     volume: 4000.0
@@ -73,6 +75,7 @@ items:
     Uniformity: 1.0
     id: 17982
     marketGroup: 483
+    mass: 1.0E8
     name: Coupling Array
     published: true
     volume: 4000.0
@@ -100,6 +103,7 @@ items:
     Uniformity: 1.0
     id: 25821
     marketGroup: 483
+    mass: 1.0E8
     name: General Storage
     published: true
     volume: 4000.0
@@ -126,6 +130,7 @@ items:
     Uniformity: 1.0
     id: 25280
     marketGroup: 483
+    mass: 1.0E8
     name: Hazardous Chemical Silo
     published: true
     volume: 4000.0
@@ -153,6 +158,7 @@ items:
     Uniformity: 1.0
     id: 30655
     marketGroup: 483
+    mass: 1.0E8
     name: Hybrid Polymer Silo
     published: true
     volume: 4000.0
@@ -178,6 +184,7 @@ items:
     Uniformity: 1.0
     id: 14343
     marketGroup: 483
+    mass: 1.0E8
     name: Silo
     published: true
     volume: 4000.0

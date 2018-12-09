@@ -83,6 +83,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 28710
     marketGroup: 1082
+    mass: 9.4335E7
     name: Golem
     published: true
     volume: 486000.0
@@ -170,6 +171,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 28661
     marketGroup: 1083
+    mass: 9.348E7
     name: Kronos
     published: true
     volume: 486000.0
@@ -256,6 +258,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 28659
     marketGroup: 1081
+    mass: 9.2245E7
     name: Paladin
     published: true
     volume: 495000.0
@@ -342,6 +345,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 28665
     marketGroup: 1084
+    mass: 9.652E7
     name: Vargur
     published: true
     volume: 450000.0

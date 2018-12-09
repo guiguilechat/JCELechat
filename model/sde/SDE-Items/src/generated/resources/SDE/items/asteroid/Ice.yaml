@@ -7,6 +7,7 @@ items:
     RequiredSkill1: 16281
     StasisWebifierResistance: 1.0
     id: 28627
+    mass: 1000.0
     name: Azure Ice
     published: true
     volume: 1000.0
@@ -22,6 +23,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 16264
     marketGroup: 1855
+    mass: 1000.0
     name: Blue Ice
     published: true
     volume: 1000.0
@@ -37,6 +39,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 16262
     marketGroup: 1855
+    mass: 1000.0
     name: Clear Icicle
     published: true
     volume: 1000.0
@@ -50,6 +53,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28433
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Blue Ice
     published: true
     volume: 100.0
@@ -63,6 +67,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28434
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Clear Icicle
     published: true
     volume: 100.0
@@ -76,6 +81,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28435
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Dark Glitter
     published: true
     volume: 100.0
@@ -89,6 +95,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28436
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Enriched Clear Icicle
     published: true
     volume: 100.0
@@ -102,6 +109,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28437
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Gelidus
     published: true
     volume: 100.0
@@ -115,6 +123,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28438
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Glacial Mass
     published: true
     volume: 100.0
@@ -128,6 +137,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28439
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Glare Crust
     published: true
     volume: 100.0
@@ -141,6 +151,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28440
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Krystallos
     published: true
     volume: 100.0
@@ -154,6 +165,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28441
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Pristine White Glaze
     published: true
     volume: 100.0
@@ -167,6 +179,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28442
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Smooth Glacial Mass
     published: true
     volume: 100.0
@@ -180,6 +193,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28443
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed Thick Blue Ice
     published: true
     volume: 100.0
@@ -193,6 +207,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28444
     marketGroup: 1855
+    mass: 1000.0
     name: Compressed White Glaze
     published: true
     volume: 100.0
@@ -204,6 +219,7 @@ items:
     RequiredSkill1: 16281
     StasisWebifierResistance: 1.0
     id: 28628
+    mass: 1000.0
     name: Crystalline Icicle
     published: true
     volume: 1000.0
@@ -219,6 +235,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 16267
     marketGroup: 1855
+    mass: 1000.0
     name: Dark Glitter
     published: true
     volume: 1000.0
@@ -234,6 +251,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17978
     marketGroup: 1855
+    mass: 1000.0
     name: Enriched Clear Icicle
     published: true
     volume: 1000.0
@@ -249,6 +267,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 16268
     marketGroup: 1855
+    mass: 1000.0
     name: Gelidus
     published: true
     volume: 1000.0
@@ -264,6 +283,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 16263
     marketGroup: 1855
+    mass: 1000.0
     name: Glacial Mass
     published: true
     volume: 1000.0
@@ -279,6 +299,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 16266
     marketGroup: 1855
+    mass: 1000.0
     name: Glare Crust
     published: true
     volume: 1000.0
@@ -294,6 +315,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 16269
     marketGroup: 1855
+    mass: 1000.0
     name: Krystallos
     published: true
     volume: 1000.0
@@ -309,6 +331,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17976
     marketGroup: 1855
+    mass: 1000.0
     name: Pristine White Glaze
     published: true
     volume: 1000.0
@@ -324,6 +347,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17977
     marketGroup: 1855
+    mass: 1000.0
     name: Smooth Glacial Mass
     published: true
     volume: 1000.0
@@ -339,6 +363,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17975
     marketGroup: 1855
+    mass: 1000.0
     name: Thick Blue Ice
     published: true
     volume: 1000.0
@@ -354,6 +379,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 16265
     marketGroup: 1855
+    mass: 1000.0
     name: White Glaze
     published: true
     volume: 1000.0

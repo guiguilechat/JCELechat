@@ -20,6 +20,7 @@ items:
     UpgradeCost: 100
     id: 43709
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Advanced Medium Ship Manufacturing Efficiency I
     published: true
     volume: 20.0
@@ -44,6 +45,7 @@ items:
     UpgradeCost: 150
     id: 43711
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Advanced Medium Ship Manufacturing Efficiency II
     published: true
     volume: 20.0

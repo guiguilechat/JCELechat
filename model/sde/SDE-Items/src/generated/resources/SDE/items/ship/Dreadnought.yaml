@@ -110,6 +110,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 45647
     marketGroup: 2288
+    mass: 1.27E9
     name: Caiman
     published: true
     volume: 1.625E7
@@ -223,6 +224,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 42243
     marketGroup: 2288
+    mass: 1.29E9
     name: Chemosh
     published: true
     volume: 1.85E7
@@ -330,6 +332,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 19724
     marketGroup: 764
+    mass: 1.25E9
     name: Moros
     published: true
     volume: 1.755E7
@@ -437,6 +440,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 19722
     marketGroup: 765
+    mass: 1.26E9
     name: Naglfar
     published: true
     volume: 1.55E7
@@ -544,6 +548,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 19726
     marketGroup: 763
+    mass: 1.27E9
     name: Phoenix
     published: true
     volume: 1.625E7
@@ -651,6 +656,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 19720
     marketGroup: 762
+    mass: 1.29E9
     name: Revelation
     published: true
     volume: 1.85E7
@@ -762,6 +768,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 42124
     marketGroup: 2288
+    mass: 1.25E9
     name: Vehement
     published: true
     volume: 1.755E7

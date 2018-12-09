@@ -106,6 +106,7 @@ items:
     WeaponDisruptionResistance: 0.20000000298023224
     id: 11567
     marketGroup: 813
+    mass: 2.4E9
     name: Avatar
     published: true
     volume: 1.55E8
@@ -216,6 +217,7 @@ items:
     WeaponDisruptionResistance: 0.20000000298023224
     id: 671
     marketGroup: 815
+    mass: 2.1E9
     name: Erebus
     published: true
     volume: 1.455E8
@@ -340,6 +342,7 @@ items:
     WeaponDisruptionResistance: 0.20000000298023224
     id: 45649
     marketGroup: 2287
+    mass: 2.3E9
     name: Komodo
     published: true
     volume: 1.325E8
@@ -452,6 +455,7 @@ items:
     WeaponDisruptionResistance: 0.20000000298023224
     id: 3764
     marketGroup: 814
+    mass: 2.3E9
     name: Leviathan
     published: true
     volume: 1.325E8
@@ -571,6 +575,7 @@ items:
     WeaponDisruptionResistance: 0.20000000298023224
     id: 42241
     marketGroup: 2287
+    mass: 2.4E9
     name: Molok
     published: true
     volume: 1.55E8
@@ -680,6 +685,7 @@ items:
     WeaponDisruptionResistance: 0.20000000298023224
     id: 23773
     marketGroup: 816
+    mass: 2.2E9
     name: Ragnarok
     published: true
     volume: 1.0E8
@@ -797,6 +803,7 @@ items:
     WeaponDisruptionResistance: 0.20000000298023224
     id: 42126
     marketGroup: 2287
+    mass: 2.1E9
     name: Vanquisher
     published: true
     volume: 1.455E8

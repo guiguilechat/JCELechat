@@ -1,6 +1,7 @@
 items:
   Imperial Redeemer:
     id: 27717
+    mass: 1.0125E9
     name: Imperial Redeemer
     published: false
     volume: 1.395E7

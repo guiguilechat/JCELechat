@@ -1,6 +1,7 @@
 items:
   ♦ Retriever:
     id: 42534
+    mass: 2.0E7
     name: ♦ Retriever
     published: false
     volume: 150000.0

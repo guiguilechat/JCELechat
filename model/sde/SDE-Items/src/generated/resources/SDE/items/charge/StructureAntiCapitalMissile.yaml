@@ -19,6 +19,7 @@ items:
     ThermalDamage: 18000.0
     id: 37843
     marketGroup: 2197
+    mass: 1000.0
     name: Standup Super-heavy Torpedo
     published: true
     volume: 0.5
@@ -42,6 +43,7 @@ items:
     ThermalDamage: 12000.0
     id: 37844
     marketGroup: 2197
+    mass: 1000.0
     name: Standup XL Cruise Missile
     published: true
     volume: 0.5

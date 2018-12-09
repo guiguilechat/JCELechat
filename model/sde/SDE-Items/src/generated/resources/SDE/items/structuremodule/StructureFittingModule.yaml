@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 35963
     marketGroup: 2218
+    mass: 500.0
     name: Standup Co-Processor Array I
     published: true
     volume: 4000.0
@@ -27,6 +28,7 @@ items:
     TechLevel: 2
     id: 47344
     marketGroup: 2218
+    mass: 500.0
     name: Standup Co-Processor Array II
     published: true
     volume: 4000.0
@@ -42,6 +44,7 @@ items:
     TechLevel: 1
     id: 35965
     marketGroup: 2222
+    mass: 500.0
     name: Standup Reactor Control Unit I
     published: true
     volume: 4000.0
@@ -58,6 +61,7 @@ items:
     TechLevel: 2
     id: 47347
     marketGroup: 2222
+    mass: 500.0
     name: Standup Reactor Control Unit II
     published: true
     volume: 4000.0

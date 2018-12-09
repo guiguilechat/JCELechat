@@ -1,66 +1,79 @@
 items:
   Assembled Container:
     id: 18629
+    mass: 10000.0
     name: Assembled Container
     published: false
     volume: 27500.0
   Black Drone Container:
     id: 19425
+    mass: 10000.0
     name: Black Drone Container
     published: false
     volume: 27500.0
   Container with blast marks:
     id: 17276
+    mass: 10000.0
     name: Container with blast marks
     published: false
     volume: 1200.0
   Crimson Hand Container:
     id: 17996
+    mass: 10000.0
     name: Crimson Hand Container
     published: false
     volume: 27500.0
   Dented Cask:
     id: 17798
+    mass: 10000.0
     name: Dented Cask
     published: false
     volume: 1200.0
   Dewak's Dot:
     id: 19591
+    mass: 10000.0
     name: Dewak's Dot
     published: false
     volume: 1200.0
   Electronically Sealed Container:
     id: 17277
+    mass: 10000.0
     name: Electronically Sealed Container
     published: false
     volume: 27500.0
   Main Supply Storage:
     id: 20077
+    mass: 10000.0
     name: Main Supply Storage
     published: false
     volume: 1200.0
   Scratched Cask:
     id: 18628
+    mass: 10000.0
     name: Scratched Cask
     published: false
     volume: 27500.0
   Special Products:
     id: 19960
+    mass: 10000.0
     name: Special Products
     published: false
     volume: 2750.0
   Storage Taxes:
     id: 18582
+    mass: 10000.0
     name: Storage Taxes
     published: false
     volume: 10500.0
   Stuffed Container:
     id: 17274
+    mass: 10000.0
     name: Stuffed Container
     published: false
     volume: 2750.0
   The Prize Container:
     id: 19373
+    mass: 10000.0
     name: The Prize Container
     published: false
     volume: 1200.0

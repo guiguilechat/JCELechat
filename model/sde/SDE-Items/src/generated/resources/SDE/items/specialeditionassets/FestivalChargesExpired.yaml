@@ -15,6 +15,7 @@ items:
     TechLevel: 1
     id: 19658
     marketGroup: 1663
+    mass: 100.0
     name: Melted Snowball CVII
     published: true
     volume: 1.0
@@ -36,6 +37,7 @@ items:
     ThermalDamage: -10.0
     id: 30222
     marketGroup: 1663
+    mass: 100.0
     name: Melted Snowball CX
     published: true
     volume: 1.0

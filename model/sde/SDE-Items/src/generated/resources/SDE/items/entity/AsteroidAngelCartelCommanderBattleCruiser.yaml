@@ -1,31 +1,37 @@
 items:
   Domination Legatus:
     id: 22870
+    mass: 1.09E7
     name: Domination Legatus
     published: false
     volume: 109000.0
   Domination Legionnaire:
     id: 22865
+    mass: 1.09E7
     name: Domination Legionnaire
     published: false
     volume: 109000.0
   Domination Praefectus:
     id: 22868
+    mass: 1.09E7
     name: Domination Praefectus
     published: false
     volume: 109000.0
   Domination Primus:
     id: 22866
+    mass: 1.09E7
     name: Domination Primus
     published: false
     volume: 109000.0
   Domination Tribuni:
     id: 22867
+    mass: 1.09E7
     name: Domination Tribuni
     published: false
     volume: 109000.0
   Domination Tribunus:
     id: 22869
+    mass: 1.09E7
     name: Domination Tribunus
     published: false
     volume: 109000.0

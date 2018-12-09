@@ -1,61 +1,73 @@
 items:
   Dread Pithatis Assassin:
     id: 24190
+    mass: 1.01E7
     name: Dread Pithatis Assassin
     published: false
     volume: 101000.0
   Dread Pithatis Assaulter:
     id: 24189
+    mass: 1.01E7
     name: Dread Pithatis Assaulter
     published: false
     volume: 101000.0
   Dread Pithatis Death Dealer:
     id: 24191
+    mass: 1.01E7
     name: Dread Pithatis Death Dealer
     published: false
     volume: 101000.0
   Dread Pithatis Enforcer:
     id: 24188
+    mass: 1.01E7
     name: Dread Pithatis Enforcer
     published: false
     volume: 101000.0
   Dread Pithatis Executor:
     id: 24187
+    mass: 1.01E7
     name: Dread Pithatis Executor
     published: false
     volume: 101000.0
   Dread Pithatis Revolter:
     id: 24192
+    mass: 1.01E7
     name: Dread Pithatis Revolter
     published: false
     volume: 101000.0
   Pithatis Assassin:
     id: 24016
+    mass: 1.01E7
     name: Pithatis Assassin
     published: false
     volume: 101000.0
   Pithatis Assaulter:
     id: 24015
+    mass: 1.01E7
     name: Pithatis Assaulter
     published: false
     volume: 101000.0
   Pithatis Death Dealer:
     id: 24017
+    mass: 1.01E7
     name: Pithatis Death Dealer
     published: false
     volume: 101000.0
   Pithatis Enforcer:
     id: 24014
+    mass: 1.01E7
     name: Pithatis Enforcer
     published: false
     volume: 101000.0
   Pithatis Executor:
     id: 24001
+    mass: 1.01E7
     name: Pithatis Executor
     published: false
     volume: 101000.0
   Pithatis Revolter:
     id: 24018
+    mass: 1.01E7
     name: Pithatis Revolter
     published: false
     volume: 101000.0

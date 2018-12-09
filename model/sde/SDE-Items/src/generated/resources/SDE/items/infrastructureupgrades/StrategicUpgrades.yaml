@@ -4,6 +4,7 @@ items:
     SovBillSystemCost: 20000000
     id: 32422
     marketGroup: 1282
+    mass: 1000.0
     name: Advanced Logistics Network
     published: true
     volume: 200000.0
@@ -12,6 +13,7 @@ items:
     SovBillSystemCost: 5000000
     id: 2008
     marketGroup: 1282
+    mass: 1000.0
     name: Cynosural Navigation
     published: true
     volume: 200000.0
@@ -20,6 +22,7 @@ items:
     SovBillSystemCost: 30000000
     id: 2001
     marketGroup: 1282
+    mass: 1000.0
     name: Cynosural Suppression
     published: true
     volume: 200000.0
@@ -28,6 +31,7 @@ items:
     SovBillSystemCost: 40000000
     id: 2009
     marketGroup: 1282
+    mass: 1000.0
     name: Supercapital Construction Facilities
     published: true
     volume: 200000.0

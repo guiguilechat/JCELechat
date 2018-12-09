@@ -3,6 +3,7 @@ items:
     MoonMiningAmount: 100
     id: 30466
     marketGroup: 1147
+    mass: 1.0
     name: Electromechanical Interface Nexus
     published: true
     volume: 10.0
@@ -10,6 +11,7 @@ items:
     MoonMiningAmount: 100
     id: 29996
     marketGroup: 1147
+    mass: 1.0
     name: Emergent Neurovisual Interface
     published: true
     volume: 20.0
@@ -17,6 +19,7 @@ items:
     MoonMiningAmount: 100
     id: 30002
     marketGroup: 1147
+    mass: 1.0
     name: Fullerene Intercalated Sheets
     published: true
     volume: 5.0
@@ -24,6 +27,7 @@ items:
     MoonMiningAmount: 100
     id: 30476
     marketGroup: 1147
+    mass: 1.0
     name: Fulleroferrocene Power Conduits
     published: true
     volume: 5.0
@@ -31,6 +35,7 @@ items:
     MoonMiningAmount: 100
     id: 30464
     marketGroup: 1147
+    mass: 1.0
     name: Metallofullerene Plating
     published: true
     volume: 5.0
@@ -38,6 +43,7 @@ items:
     MoonMiningAmount: 100
     id: 30474
     marketGroup: 1147
+    mass: 1.0
     name: Nanowire Composites
     published: true
     volume: 5.0
@@ -45,6 +51,7 @@ items:
     MoonMiningAmount: 100
     id: 30470
     marketGroup: 1147
+    mass: 1.0
     name: Neurovisual Output Analyzer
     published: true
     volume: 5.0
@@ -52,6 +59,7 @@ items:
     MoonMiningAmount: 100
     id: 29992
     marketGroup: 1147
+    mass: 1.0
     name: Optimized Nano-Engines
     published: true
     volume: 10.0
@@ -59,6 +67,7 @@ items:
     MoonMiningAmount: 100
     id: 30478
     marketGroup: 1147
+    mass: 1.0
     name: Reconfigured Subspace Calibrator
     published: true
     volume: 10.0
@@ -66,6 +75,7 @@ items:
     MoonMiningAmount: 100
     id: 30008
     marketGroup: 1147
+    mass: 1.0
     name: Reinforced Metallofullerene Alloys
     published: true
     volume: 10.0
@@ -73,6 +83,7 @@ items:
     MoonMiningAmount: 100
     id: 34396
     marketGroup: 1147
+    mass: 1.0
     name: Self-Assembling Nanolattice
     published: true
     volume: 5.0
@@ -80,6 +91,7 @@ items:
     MoonMiningAmount: 1
     id: 45653
     marketGroup: 1147
+    mass: 1.0
     name: Superconducting Gravimetric Amplifier
     published: true
     volume: 5.0
@@ -87,6 +99,7 @@ items:
     MoonMiningAmount: 1
     id: 45655
     marketGroup: 1147
+    mass: 1.0
     name: Superconducting Ladar Amplifier
     published: true
     volume: 5.0
@@ -94,6 +107,7 @@ items:
     MoonMiningAmount: 1
     id: 45652
     marketGroup: 1147
+    mass: 1.0
     name: Superconducting Magnetometric Amplifier
     published: true
     volume: 5.0
@@ -101,6 +115,7 @@ items:
     MoonMiningAmount: 1
     id: 45654
     marketGroup: 1147
+    mass: 1.0
     name: Superconducting Radar Amplifier
     published: true
     volume: 5.0
@@ -108,6 +123,7 @@ items:
     MoonMiningAmount: 100
     id: 29994
     marketGroup: 1147
+    mass: 1.0
     name: Warfare Computation Core
     published: true
     volume: 10.0

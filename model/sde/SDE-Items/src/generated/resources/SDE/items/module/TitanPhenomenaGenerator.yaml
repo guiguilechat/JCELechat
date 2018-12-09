@@ -29,6 +29,7 @@ items:
     WarfareBuff4Value: -10.0
     id: 43658
     marketGroup: 2267
+    mass: 1000.0
     name: Amarr Phenomena Generator
     published: true
     volume: 8000.0
@@ -62,6 +63,7 @@ items:
     WarfareBuff4Value: -10.0
     id: 43660
     marketGroup: 2268
+    mass: 1000.0
     name: Caldari Phenomena Generator
     published: true
     volume: 8000.0
@@ -96,6 +98,7 @@ items:
     WarfareBuff4Value: -10.0
     id: 43662
     marketGroup: 2269
+    mass: 1000.0
     name: Gallente Phenomena Generator
     published: true
     volume: 8000.0
@@ -130,6 +133,7 @@ items:
     WarfareBuff4Value: -10.0
     id: 43664
     marketGroup: 2270
+    mass: 1000.0
     name: Minmatar Phenomena Generator
     published: true
     volume: 8000.0

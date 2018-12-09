@@ -13,6 +13,7 @@ items:
     published: false
   Isana Dagin's Machariel:
     id: 25351
+    mass: 100000.0
     name: Isana Dagin's Machariel
     published: false
     volume: 1.0E8
@@ -22,6 +23,7 @@ items:
     published: false
   Knaaninn Aranuri's Rattlesnake:
     id: 25392
+    mass: 100000.0
     name: Knaaninn Aranuri's Rattlesnake
     published: false
     volume: 1.0E8
@@ -39,6 +41,7 @@ items:
     published: false
   Oronata Vion's Caracal:
     id: 25365
+    mass: 1.01E7
     name: Oronata Vion's Caracal
     published: false
     volume: 101000.0
@@ -48,11 +51,13 @@ items:
     published: false
   Rakka's Rattlesnake:
     id: 25409
+    mass: 100000.0
     name: Rakka's Rattlesnake
     published: false
     volume: 1.0E8
   Rattlesnake_Airkio Yanjulen:
     id: 25368
+    mass: 100000.0
     name: Rattlesnake_Airkio Yanjulen
     published: false
     volume: 1.0E8
@@ -62,6 +67,7 @@ items:
     published: false
   Tomi_Hakiro Caracal:
     id: 25371
+    mass: 100000.0
     name: Tomi_Hakiro Caracal
     published: false
     volume: 1.0E8

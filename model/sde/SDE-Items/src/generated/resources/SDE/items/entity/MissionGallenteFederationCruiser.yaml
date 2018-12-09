@@ -1,201 +1,241 @@
 items:
   Civilian Gallente Cruiser Celestis:
     id: 30725
+    mass: 1.13E7
     name: Civilian Gallente Cruiser Celestis
     published: false
     volume: 113000.0
   Civilian Gallente Cruiser Exequror:
     id: 30726
+    mass: 1.13E7
     name: Civilian Gallente Cruiser Exequror
     published: false
     volume: 113000.0
   Civilian Gallente Cruiser Thorax:
     id: 30727
+    mass: 1.13E7
     name: Civilian Gallente Cruiser Thorax
     published: false
     volume: 113000.0
   Civilian Gallente Cruiser Vexor:
     id: 30728
+    mass: 1.13E7
     name: Civilian Gallente Cruiser Vexor
     published: false
     volume: 113000.0
   Elite Federation Arx:
     id: 25181
+    mass: 1.12E7
     name: Elite Federation Arx
     published: false
     volume: 112000.0
   Elite Federation Auxilia:
     id: 25182
+    mass: 1.12E7
     name: Elite Federation Auxilia
     published: false
     volume: 112000.0
   Elite Federation Bearcus:
     id: 25180
+    mass: 1.12E7
     name: Elite Federation Bearcus
     published: false
     volume: 112000.0
   Elite Federation Calo:
     id: 25179
+    mass: 1.12E7
     name: Elite Federation Calo
     published: false
     volume: 112000.0
   Elite Federation Liburna:
     id: 25183
+    mass: 1.12E7
     name: Elite Federation Liburna
     published: false
     volume: 112000.0
   Elite Federation Mentes:
     id: 25186
+    mass: 1.12E7
     name: Elite Federation Mentes
     published: false
     volume: 112000.0
   Elite Federation Navis:
     id: 25184
+    mass: 1.12E7
     name: Elite Federation Navis
     published: false
     volume: 112000.0
   Elite Federation Quadrieris:
     id: 25185
+    mass: 1.12E7
     name: Elite Federation Quadrieris
     published: false
     volume: 112000.0
   Federation Hastarius:
     id: 25149
+    mass: 1.16E7
     name: Federation Hastarius
     published: false
     volume: 116000.0
   Federation Hastatus:
     id: 25150
+    mass: 1.15E7
     name: Federation Hastatus
     published: false
     volume: 115000.0
   Federation Loras:
     id: 25147
+    mass: 1.13E7
     name: Federation Loras
     published: false
     volume: 113000.0
   Federation Misthios:
     id: 25152
+    mass: 1.12E7
     name: Federation Misthios
     published: false
     volume: 112000.0
   Federation Nauclarius:
     id: 25154
+    mass: 1.12E7
     name: Federation Nauclarius
     published: false
     volume: 112000.0
   Federation Navy Detective:
     id: 11661
+    mass: 1.25E7
     name: Federation Navy Detective
     published: false
     volume: 116000.0
   Federation Navy Officer Vexor:
     id: 24271
+    mass: 1.3075E7
     name: Federation Navy Officer Vexor
     published: false
     volume: 115000.0
   Federation Navy Thorax:
     id: 15325
+    mass: 1.2E7
     name: Federation Navy Thorax
     published: false
     volume: 112000.0
   Federation Navy Vexor:
     id: 12440
+    mass: 1.3075E7
     name: Federation Navy Vexor
     published: false
     volume: 115000.0
   Federation Praktor Centurion:
     id: 25162
+    mass: 1.12E7
     name: Federation Praktor Centurion
     published: false
     volume: 112000.0
   Federation Praktor Hippeus:
     id: 25156
+    mass: 1.12E7
     name: Federation Praktor Hippeus
     published: false
     volume: 112000.0
   Federation Praktor Legionarius:
     id: 25161
+    mass: 1.12E7
     name: Federation Praktor Legionarius
     published: false
     volume: 112000.0
   Federation Praktor Optioon:
     id: 25160
+    mass: 1.12E7
     name: Federation Praktor Optioon
     published: false
     volume: 112000.0
   Federation Praktor Ouragos:
     id: 25158
+    mass: 1.12E7
     name: Federation Praktor Ouragos
     published: false
     volume: 112000.0
   Gallente CA Cruiser:
     id: 45466
+    mass: 1.13E7
     name: Gallente CA Cruiser
     published: false
     volume: 113000.0
   Independent Celestis:
     id: 29779
+    mass: 1.12E7
     name: Independent Celestis
     published: false
     volume: 112000.0
   Independent Exequror:
     id: 29780
+    mass: 1.12E7
     name: Independent Exequror
     published: false
     volume: 112000.0
   Independent Green-Crewed Celestis:
     id: 29776
+    mass: 1.13E7
     name: Independent Green-Crewed Celestis
     published: false
     volume: 113000.0
   Independent Green-Crewed Exequror:
     id: 29775
+    mass: 1.13E7
     name: Independent Green-Crewed Exequror
     published: false
     volume: 113000.0
   'Independent Green-Crewed Thorax ':
     id: 29777
+    mass: 1.13E7
     name: 'Independent Green-Crewed Thorax '
     published: false
     volume: 113000.0
   Independent Green-Crewed Vexor:
     id: 29778
+    mass: 1.13E7
     name: Independent Green-Crewed Vexor
     published: false
     volume: 113000.0
   Independent Thorax:
     id: 29781
+    mass: 1.12E7
     name: Independent Thorax
     published: false
     volume: 112000.0
   Independent Veteran Celestis:
     id: 29783
+    mass: 1.325E7
     name: Independent Veteran Celestis
     published: false
     volume: 150000.0
   Independent Veteran Exequror:
     id: 29784
+    mass: 1.325E7
     name: Independent Veteran Exequror
     published: false
     volume: 150000.0
   Independent Veteran Thorax:
     id: 29785
+    mass: 1.325E7
     name: Independent Veteran Thorax
     published: false
     volume: 150000.0
   Independent Veteran Vexor:
     id: 29786
+    mass: 1.325E7
     name: Independent Veteran Vexor
     published: false
     volume: 150000.0
   Independent Vexor:
     id: 29782
+    mass: 1.12E7
     name: Independent Vexor
     published: false
     volume: 112000.0
   Kristjan's Gallente Boss:
     id: 25820
+    mass: 1.12E7
     name: Kristjan's Gallente Boss
     published: false
     volume: 112000.0

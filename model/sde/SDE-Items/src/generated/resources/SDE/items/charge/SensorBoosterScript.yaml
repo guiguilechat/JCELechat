@@ -10,6 +10,7 @@ items:
     TechLevel: 1
     id: 41155
     marketGroup: 1094
+    mass: 1.0
     name: ECCM Script
     published: true
     volume: 1.0
@@ -24,6 +25,7 @@ items:
     TechLevel: 1
     id: 29011
     marketGroup: 1094
+    mass: 1.0
     name: Scan Resolution Script
     published: true
     volume: 1.0
@@ -38,6 +40,7 @@ items:
     TechLevel: 1
     id: 29009
     marketGroup: 1094
+    mass: 1.0
     name: Targeting Range Script
     published: true
     volume: 1.0

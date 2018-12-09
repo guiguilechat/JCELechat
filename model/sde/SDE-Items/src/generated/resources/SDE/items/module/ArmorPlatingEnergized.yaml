@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 22883
     marketGroup: 1685
+    mass: 1.0
     name: '''Mafia'' Energized Kinetic Membrane I'
     published: true
     volume: 5.0
@@ -26,6 +27,7 @@ items:
     ThermalDamageResistanceBonus: -37.5
     id: 22881
     marketGroup: 1683
+    mass: 1.0
     name: '''Moonshine'' Energized Thermal Membrane I'
     published: true
     volume: 5.0
@@ -44,6 +46,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 22879
     marketGroup: 1686
+    mass: 1.0
     name: '''Pilfer'' Energized Adaptive Nano Membrane I'
     published: true
     volume: 5.0
@@ -62,6 +65,7 @@ items:
     ThermalDamageResistanceBonus: -28.3125
     id: 14946
     marketGroup: 1686
+    mass: 1.0
     name: Ahremen's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -77,6 +81,7 @@ items:
     TechLevel: 1
     id: 14978
     marketGroup: 1684
+    mass: 1.0
     name: Ahremen's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -92,6 +97,7 @@ items:
     TechLevel: 1
     id: 14994
     marketGroup: 1682
+    mass: 1.0
     name: Ahremen's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -107,6 +113,7 @@ items:
     TechLevel: 1
     id: 15010
     marketGroup: 1685
+    mass: 1.0
     name: Ahremen's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -122,6 +129,7 @@ items:
     ThermalDamageResistanceBonus: -44.5
     id: 14962
     marketGroup: 1683
+    mass: 1.0
     name: Ahremen's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -140,6 +148,7 @@ items:
     ThermalDamageResistanceBonus: -22.5
     id: 17536
     marketGroup: 1686
+    mass: 1.0
     name: Ammatar Navy Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -155,6 +164,7 @@ items:
     TechLevel: 1
     id: 17542
     marketGroup: 1684
+    mass: 1.0
     name: Ammatar Navy Energized EM Membrane
     published: true
     volume: 5.0
@@ -170,6 +180,7 @@ items:
     TechLevel: 1
     id: 17540
     marketGroup: 1682
+    mass: 1.0
     name: Ammatar Navy Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -185,6 +196,7 @@ items:
     TechLevel: 1
     id: 17538
     marketGroup: 1685
+    mass: 1.0
     name: Ammatar Navy Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -200,6 +212,7 @@ items:
     ThermalDamageResistanceBonus: -40.0
     id: 17544
     marketGroup: 1683
+    mass: 1.0
     name: Ammatar Navy Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -216,6 +229,7 @@ items:
     ThermalDamageResistanceBonus: -14.0
     id: 11265
     marketGroup: 1686
+    mass: 1.0
     name: Basic Energized Adaptive Nano Membrane
     published: true
     volume: 25.0
@@ -228,6 +242,7 @@ items:
     TechLevel: 1
     id: 11235
     marketGroup: 1687
+    mass: 1.0
     name: Basic Energized Armor Layering Membrane
     published: true
     volume: 25.0
@@ -241,6 +256,7 @@ items:
     TechLevel: 1
     id: 11215
     marketGroup: 1684
+    mass: 1.0
     name: Basic Energized EM Membrane
     published: true
     volume: 25.0
@@ -254,6 +270,7 @@ items:
     TechLevel: 1
     id: 11225
     marketGroup: 1682
+    mass: 1.0
     name: Basic Energized Explosive Membrane
     published: true
     volume: 25.0
@@ -267,6 +284,7 @@ items:
     TechLevel: 1
     id: 11245
     marketGroup: 1685
+    mass: 1.0
     name: Basic Energized Kinetic Membrane
     published: true
     volume: 25.0
@@ -280,6 +298,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     id: 11255
     marketGroup: 1683
+    mass: 1.0
     name: Basic Energized Thermal Membrane
     published: true
     volume: 25.0
@@ -298,6 +317,7 @@ items:
     ThermalDamageResistanceBonus: -24.4375
     id: 14936
     marketGroup: 1686
+    mass: 1.0
     name: Brokara's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -313,6 +333,7 @@ items:
     TechLevel: 1
     id: 14968
     marketGroup: 1684
+    mass: 1.0
     name: Brokara's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -328,6 +349,7 @@ items:
     TechLevel: 1
     id: 14984
     marketGroup: 1682
+    mass: 1.0
     name: Brokara's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -343,6 +365,7 @@ items:
     TechLevel: 1
     id: 15000
     marketGroup: 1685
+    mass: 1.0
     name: Brokara's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -358,6 +381,7 @@ items:
     ThermalDamageResistanceBonus: -41.5
     id: 14952
     marketGroup: 1683
+    mass: 1.0
     name: Brokara's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -376,6 +400,7 @@ items:
     ThermalDamageResistanceBonus: -24.4375
     id: 15204
     marketGroup: 1686
+    mass: 1.0
     name: Brynn's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -391,6 +416,7 @@ items:
     TechLevel: 1
     id: 15220
     marketGroup: 1684
+    mass: 1.0
     name: Brynn's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -406,6 +432,7 @@ items:
     TechLevel: 1
     id: 15228
     marketGroup: 1682
+    mass: 1.0
     name: Brynn's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -421,6 +448,7 @@ items:
     TechLevel: 1
     id: 15236
     marketGroup: 1685
+    mass: 1.0
     name: Brynn's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -436,6 +464,7 @@ items:
     ThermalDamageResistanceBonus: -41.5
     id: 15212
     marketGroup: 1683
+    mass: 1.0
     name: Brynn's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -454,6 +483,7 @@ items:
     ThermalDamageResistanceBonus: -28.3125
     id: 18883
     marketGroup: 1686
+    mass: 1.0
     name: Centum A-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -469,6 +499,7 @@ items:
     TechLevel: 1
     id: 18871
     marketGroup: 1684
+    mass: 1.0
     name: Centum A-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -484,6 +515,7 @@ items:
     TechLevel: 1
     id: 18875
     marketGroup: 1682
+    mass: 1.0
     name: Centum A-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -499,6 +531,7 @@ items:
     TechLevel: 1
     id: 18879
     marketGroup: 1685
+    mass: 1.0
     name: Centum A-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -514,6 +547,7 @@ items:
     ThermalDamageResistanceBonus: -44.5
     id: 18867
     marketGroup: 1683
+    mass: 1.0
     name: Centum A-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -532,6 +566,7 @@ items:
     ThermalDamageResistanceBonus: -26.375
     id: 18851
     marketGroup: 1686
+    mass: 1.0
     name: Centum B-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -547,6 +582,7 @@ items:
     TechLevel: 1
     id: 19363
     marketGroup: 1684
+    mass: 1.0
     name: Centum B-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -562,6 +598,7 @@ items:
     TechLevel: 1
     id: 18859
     marketGroup: 1682
+    mass: 1.0
     name: Centum B-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -577,6 +614,7 @@ items:
     TechLevel: 1
     id: 18855
     marketGroup: 1685
+    mass: 1.0
     name: Centum B-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -592,6 +630,7 @@ items:
     ThermalDamageResistanceBonus: -43.0
     id: 18863
     marketGroup: 1683
+    mass: 1.0
     name: Centum B-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -610,6 +649,7 @@ items:
     ThermalDamageResistanceBonus: -24.4375
     id: 18831
     marketGroup: 1686
+    mass: 1.0
     name: Centum C-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -625,6 +665,7 @@ items:
     TechLevel: 1
     id: 18843
     marketGroup: 1684
+    mass: 1.0
     name: Centum C-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -640,6 +681,7 @@ items:
     TechLevel: 1
     id: 18839
     marketGroup: 1682
+    mass: 1.0
     name: Centum C-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -655,6 +697,7 @@ items:
     TechLevel: 1
     id: 18835
     marketGroup: 1685
+    mass: 1.0
     name: Centum C-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -670,6 +713,7 @@ items:
     ThermalDamageResistanceBonus: -41.5
     id: 18847
     marketGroup: 1683
+    mass: 1.0
     name: Centum C-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -688,6 +732,7 @@ items:
     ThermalDamageResistanceBonus: -30.25
     id: 14948
     marketGroup: 1686
+    mass: 1.0
     name: Chelm's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -703,6 +748,7 @@ items:
     TechLevel: 1
     id: 14980
     marketGroup: 1684
+    mass: 1.0
     name: Chelm's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -718,6 +764,7 @@ items:
     TechLevel: 1
     id: 14996
     marketGroup: 1682
+    mass: 1.0
     name: Chelm's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -733,6 +780,7 @@ items:
     TechLevel: 1
     id: 15012
     marketGroup: 1685
+    mass: 1.0
     name: Chelm's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -748,6 +796,7 @@ items:
     ThermalDamageResistanceBonus: -46.0
     id: 14964
     marketGroup: 1683
+    mass: 1.0
     name: Chelm's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -766,6 +815,7 @@ items:
     ThermalDamageResistanceBonus: -28.3125
     id: 18819
     marketGroup: 1686
+    mass: 1.0
     name: Corelum A-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -781,6 +831,7 @@ items:
     TechLevel: 1
     id: 18825
     marketGroup: 1684
+    mass: 1.0
     name: Corelum A-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -796,6 +847,7 @@ items:
     TechLevel: 1
     id: 18823
     marketGroup: 1682
+    mass: 1.0
     name: Corelum A-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -811,6 +863,7 @@ items:
     TechLevel: 1
     id: 18821
     marketGroup: 1685
+    mass: 1.0
     name: Corelum A-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -826,6 +879,7 @@ items:
     ThermalDamageResistanceBonus: -44.5
     id: 18827
     marketGroup: 1683
+    mass: 1.0
     name: Corelum A-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -844,6 +898,7 @@ items:
     ThermalDamageResistanceBonus: -26.375
     id: 18809
     marketGroup: 1686
+    mass: 1.0
     name: Corelum B-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -859,6 +914,7 @@ items:
     TechLevel: 1
     id: 18815
     marketGroup: 1684
+    mass: 1.0
     name: Corelum B-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -874,6 +930,7 @@ items:
     TechLevel: 1
     id: 18813
     marketGroup: 1682
+    mass: 1.0
     name: Corelum B-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -889,6 +946,7 @@ items:
     TechLevel: 1
     id: 18811
     marketGroup: 1685
+    mass: 1.0
     name: Corelum B-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -904,6 +962,7 @@ items:
     ThermalDamageResistanceBonus: -43.0
     id: 18817
     marketGroup: 1683
+    mass: 1.0
     name: Corelum B-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -922,6 +981,7 @@ items:
     ThermalDamageResistanceBonus: -24.4375
     id: 18799
     marketGroup: 1686
+    mass: 1.0
     name: Corelum C-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -938,6 +998,7 @@ items:
     TechLevel: 1
     id: 18805
     marketGroup: 1684
+    mass: 1.0
     name: Corelum C-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -953,6 +1014,7 @@ items:
     TechLevel: 1
     id: 18803
     marketGroup: 1682
+    mass: 1.0
     name: Corelum C-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -968,6 +1030,7 @@ items:
     TechLevel: 1
     id: 18801
     marketGroup: 1685
+    mass: 1.0
     name: Corelum C-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -983,6 +1046,7 @@ items:
     ThermalDamageResistanceBonus: -41.5
     id: 18807
     marketGroup: 1683
+    mass: 1.0
     name: Corelum C-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1001,6 +1065,7 @@ items:
     ThermalDamageResistanceBonus: -30.25
     id: 15210
     marketGroup: 1686
+    mass: 1.0
     name: Cormack's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1016,6 +1081,7 @@ items:
     TechLevel: 1
     id: 15226
     marketGroup: 1684
+    mass: 1.0
     name: Cormack's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -1031,6 +1097,7 @@ items:
     TechLevel: 1
     id: 15234
     marketGroup: 1682
+    mass: 1.0
     name: Cormack's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1046,6 +1113,7 @@ items:
     TechLevel: 1
     id: 15242
     marketGroup: 1685
+    mass: 1.0
     name: Cormack's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1061,6 +1129,7 @@ items:
     ThermalDamageResistanceBonus: -46.0
     id: 15218
     marketGroup: 1683
+    mass: 1.0
     name: Cormack's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1079,6 +1148,7 @@ items:
     ThermalDamageResistanceBonus: -28.3125
     id: 18881
     marketGroup: 1686
+    mass: 1.0
     name: Corpum A-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1094,6 +1164,7 @@ items:
     TechLevel: 1
     id: 18869
     marketGroup: 1684
+    mass: 1.0
     name: Corpum A-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -1109,6 +1180,7 @@ items:
     TechLevel: 1
     id: 18873
     marketGroup: 1682
+    mass: 1.0
     name: Corpum A-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1124,6 +1196,7 @@ items:
     TechLevel: 1
     id: 18877
     marketGroup: 1685
+    mass: 1.0
     name: Corpum A-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1139,6 +1212,7 @@ items:
     ThermalDamageResistanceBonus: -44.5
     id: 18865
     marketGroup: 1683
+    mass: 1.0
     name: Corpum A-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1157,6 +1231,7 @@ items:
     ThermalDamageResistanceBonus: -26.375
     id: 18849
     marketGroup: 1686
+    mass: 1.0
     name: Corpum B-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1172,6 +1247,7 @@ items:
     TechLevel: 1
     id: 19361
     marketGroup: 1684
+    mass: 1.0
     name: Corpum B-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -1187,6 +1263,7 @@ items:
     TechLevel: 1
     id: 18857
     marketGroup: 1682
+    mass: 1.0
     name: Corpum B-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1202,6 +1279,7 @@ items:
     TechLevel: 1
     id: 18853
     marketGroup: 1685
+    mass: 1.0
     name: Corpum B-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1217,6 +1295,7 @@ items:
     ThermalDamageResistanceBonus: -43.0
     id: 18861
     marketGroup: 1683
+    mass: 1.0
     name: Corpum B-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1235,6 +1314,7 @@ items:
     ThermalDamageResistanceBonus: -24.4375
     id: 18829
     marketGroup: 1686
+    mass: 1.0
     name: Corpum C-Type Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1250,6 +1330,7 @@ items:
     TechLevel: 1
     id: 18841
     marketGroup: 1684
+    mass: 1.0
     name: Corpum C-Type Energized EM Membrane
     published: true
     volume: 5.0
@@ -1265,6 +1346,7 @@ items:
     TechLevel: 1
     id: 18837
     marketGroup: 1682
+    mass: 1.0
     name: Corpum C-Type Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1280,6 +1362,7 @@ items:
     TechLevel: 1
     id: 18833
     marketGroup: 1685
+    mass: 1.0
     name: Corpum C-Type Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1295,6 +1378,7 @@ items:
     ThermalDamageResistanceBonus: -41.5
     id: 18845
     marketGroup: 1683
+    mass: 1.0
     name: Corpum C-Type Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1313,6 +1397,7 @@ items:
     ThermalDamageResistanceBonus: -22.5
     id: 14070
     marketGroup: 1686
+    mass: 1.0
     name: Dark Blood Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1328,6 +1413,7 @@ items:
     TechLevel: 1
     id: 14088
     marketGroup: 1684
+    mass: 1.0
     name: Dark Blood Energized EM Membrane
     published: true
     volume: 5.0
@@ -1343,6 +1429,7 @@ items:
     TechLevel: 1
     id: 14082
     marketGroup: 1682
+    mass: 1.0
     name: Dark Blood Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1358,6 +1445,7 @@ items:
     TechLevel: 1
     id: 14076
     marketGroup: 1685
+    mass: 1.0
     name: Dark Blood Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1373,6 +1461,7 @@ items:
     ThermalDamageResistanceBonus: -40.0
     id: 14094
     marketGroup: 1683
+    mass: 1.0
     name: Dark Blood Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1391,6 +1480,7 @@ items:
     ThermalDamageResistanceBonus: -30.25
     id: 14950
     marketGroup: 1686
+    mass: 1.0
     name: Draclira's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1406,6 +1496,7 @@ items:
     TechLevel: 1
     id: 14982
     marketGroup: 1684
+    mass: 1.0
     name: Draclira's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -1421,6 +1512,7 @@ items:
     TechLevel: 1
     id: 14998
     marketGroup: 1682
+    mass: 1.0
     name: Draclira's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1436,6 +1528,7 @@ items:
     TechLevel: 1
     id: 15014
     marketGroup: 1685
+    mass: 1.0
     name: Draclira's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1451,6 +1544,7 @@ items:
     ThermalDamageResistanceBonus: -46.0
     id: 14966
     marketGroup: 1683
+    mass: 1.0
     name: Draclira's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1467,6 +1561,7 @@ items:
     ThermalDamageResistanceBonus: -15.0
     id: 11267
     marketGroup: 1686
+    mass: 1.0
     name: Energized Adaptive Nano Membrane I
     published: true
     volume: 25.0
@@ -1484,6 +1579,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 11269
     marketGroup: 1686
+    mass: 1.0
     name: Energized Adaptive Nano Membrane II
     published: true
     volume: 5.0
@@ -1496,6 +1592,7 @@ items:
     TechLevel: 1
     id: 11237
     marketGroup: 1687
+    mass: 1.0
     name: Energized Armor Layering Membrane I
     published: true
     volume: 25.0
@@ -1509,6 +1606,7 @@ items:
     TechLevel: 2
     id: 11239
     marketGroup: 1687
+    mass: 1.0
     name: Energized Armor Layering Membrane II
     published: true
     volume: 5.0
@@ -1522,6 +1620,7 @@ items:
     TechLevel: 1
     id: 11217
     marketGroup: 1684
+    mass: 1.0
     name: Energized EM Membrane I
     published: true
     volume: 25.0
@@ -1536,6 +1635,7 @@ items:
     TechLevel: 2
     id: 11219
     marketGroup: 1684
+    mass: 1.0
     name: Energized EM Membrane II
     published: true
     volume: 5.0
@@ -1549,6 +1649,7 @@ items:
     TechLevel: 1
     id: 11227
     marketGroup: 1682
+    mass: 1.0
     name: Energized Explosive Membrane I
     published: true
     volume: 25.0
@@ -1563,6 +1664,7 @@ items:
     TechLevel: 2
     id: 11229
     marketGroup: 1682
+    mass: 1.0
     name: Energized Explosive Membrane II
     published: true
     volume: 5.0
@@ -1576,6 +1678,7 @@ items:
     TechLevel: 1
     id: 11247
     marketGroup: 1685
+    mass: 1.0
     name: Energized Kinetic Membrane I
     published: true
     volume: 25.0
@@ -1590,6 +1693,7 @@ items:
     TechLevel: 2
     id: 11249
     marketGroup: 1685
+    mass: 1.0
     name: Energized Kinetic Membrane II
     published: true
     volume: 5.0
@@ -1603,6 +1707,7 @@ items:
     ThermalDamageResistanceBonus: -32.5
     id: 11257
     marketGroup: 1683
+    mass: 1.0
     name: Energized Thermal Membrane I
     published: true
     volume: 25.0
@@ -1617,6 +1722,7 @@ items:
     ThermalDamageResistanceBonus: -37.5
     id: 11259
     marketGroup: 1683
+    mass: 1.0
     name: Energized Thermal Membrane II
     published: true
     volume: 5.0
@@ -1634,6 +1740,7 @@ items:
     ThermalDamageResistanceBonus: -15.0
     id: 16389
     marketGroup: 1686
+    mass: 1.0
     name: Experimental Energized Adaptive Nano Membrane I
     published: true
     volume: 5.0
@@ -1647,6 +1754,7 @@ items:
     TechLevel: 1
     id: 16421
     marketGroup: 1687
+    mass: 1.0
     name: Experimental Energized Armor Layering Membrane I
     published: true
     volume: 5.0
@@ -1661,6 +1769,7 @@ items:
     TechLevel: 1
     id: 16413
     marketGroup: 1684
+    mass: 1.0
     name: Experimental Energized EM Membrane I
     published: true
     volume: 5.0
@@ -1675,6 +1784,7 @@ items:
     TechLevel: 1
     id: 16405
     marketGroup: 1682
+    mass: 1.0
     name: Experimental Energized Explosive Membrane I
     published: true
     volume: 5.0
@@ -1689,6 +1799,7 @@ items:
     TechLevel: 1
     id: 16397
     marketGroup: 1685
+    mass: 1.0
     name: Experimental Energized Kinetic Membrane I
     published: true
     volume: 5.0
@@ -1703,6 +1814,7 @@ items:
     ThermalDamageResistanceBonus: -32.5
     id: 16429
     marketGroup: 1683
+    mass: 1.0
     name: Experimental Energized Thermal Membrane I
     published: true
     volume: 5.0
@@ -1721,6 +1833,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 15739
     marketGroup: 1686
+    mass: 1.0
     name: Federation Navy Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1736,6 +1849,7 @@ items:
     TechLevel: 1
     id: 15733
     marketGroup: 1684
+    mass: 1.0
     name: Federation Navy Energized EM Membrane
     published: true
     volume: 5.0
@@ -1751,6 +1865,7 @@ items:
     TechLevel: 1
     id: 15735
     marketGroup: 1682
+    mass: 1.0
     name: Federation Navy Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1766,6 +1881,7 @@ items:
     TechLevel: 1
     id: 15737
     marketGroup: 1685
+    mass: 1.0
     name: Federation Navy Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1781,6 +1897,7 @@ items:
     ThermalDamageResistanceBonus: -37.5
     id: 15731
     marketGroup: 1683
+    mass: 1.0
     name: Federation Navy Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1799,6 +1916,7 @@ items:
     ThermalDamageResistanceBonus: -22.5
     id: 15729
     marketGroup: 1686
+    mass: 1.0
     name: Imperial Navy Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1814,6 +1932,7 @@ items:
     TechLevel: 1
     id: 15723
     marketGroup: 1684
+    mass: 1.0
     name: Imperial Navy Energized EM Membrane
     published: true
     volume: 5.0
@@ -1829,6 +1948,7 @@ items:
     TechLevel: 1
     id: 15725
     marketGroup: 1682
+    mass: 1.0
     name: Imperial Navy Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1844,6 +1964,7 @@ items:
     TechLevel: 1
     id: 15727
     marketGroup: 1685
+    mass: 1.0
     name: Imperial Navy Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1859,6 +1980,7 @@ items:
     ThermalDamageResistanceBonus: -40.0
     id: 15721
     marketGroup: 1683
+    mass: 1.0
     name: Imperial Navy Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1877,6 +1999,7 @@ items:
     ThermalDamageResistanceBonus: -22.5
     id: 28534
     marketGroup: 1686
+    mass: 1.0
     name: Khanid Navy Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -1892,6 +2015,7 @@ items:
     TechLevel: 1
     id: 28540
     marketGroup: 1684
+    mass: 1.0
     name: Khanid Navy Energized EM Membrane
     published: true
     volume: 5.0
@@ -1907,6 +2031,7 @@ items:
     TechLevel: 1
     id: 28538
     marketGroup: 1682
+    mass: 1.0
     name: Khanid Navy Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -1922,6 +2047,7 @@ items:
     TechLevel: 1
     id: 28536
     marketGroup: 1685
+    mass: 1.0
     name: Khanid Navy Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -1937,6 +2063,7 @@ items:
     ThermalDamageResistanceBonus: -40.0
     id: 28542
     marketGroup: 1683
+    mass: 1.0
     name: Khanid Navy Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -1954,6 +2081,7 @@ items:
     ThermalDamageResistanceBonus: -15.0
     id: 16387
     marketGroup: 1686
+    mass: 1.0
     name: Limited Energized Adaptive Nano Membrane I
     published: true
     volume: 5.0
@@ -1967,6 +2095,7 @@ items:
     TechLevel: 1
     id: 16419
     marketGroup: 1687
+    mass: 1.0
     name: Limited Energized Armor Layering Membrane I
     published: true
     volume: 5.0
@@ -1981,6 +2110,7 @@ items:
     TechLevel: 1
     id: 16411
     marketGroup: 1684
+    mass: 1.0
     name: Limited Energized EM Membrane I
     published: true
     volume: 5.0
@@ -1995,6 +2125,7 @@ items:
     TechLevel: 1
     id: 16403
     marketGroup: 1682
+    mass: 1.0
     name: Limited Energized Explosive Membrane I
     published: true
     volume: 5.0
@@ -2009,6 +2140,7 @@ items:
     TechLevel: 1
     id: 16395
     marketGroup: 1685
+    mass: 1.0
     name: Limited Energized Kinetic Membrane I
     published: true
     volume: 5.0
@@ -2023,6 +2155,7 @@ items:
     ThermalDamageResistanceBonus: -32.5
     id: 16427
     marketGroup: 1683
+    mass: 1.0
     name: Limited Energized Thermal Membrane I
     published: true
     volume: 5.0
@@ -2040,6 +2173,7 @@ items:
     ThermalDamageResistanceBonus: -15.0
     id: 16391
     marketGroup: 1686
+    mass: 1.0
     name: Prototype Energized Adaptive Nano Membrane I
     published: true
     volume: 5.0
@@ -2053,6 +2187,7 @@ items:
     TechLevel: 1
     id: 16423
     marketGroup: 1687
+    mass: 1.0
     name: Prototype Energized Armor Layering Membrane I
     published: true
     volume: 5.0
@@ -2067,6 +2202,7 @@ items:
     TechLevel: 1
     id: 16415
     marketGroup: 1684
+    mass: 1.0
     name: Prototype Energized EM Membrane I
     published: true
     volume: 5.0
@@ -2081,6 +2217,7 @@ items:
     TechLevel: 1
     id: 16407
     marketGroup: 1682
+    mass: 1.0
     name: Prototype Energized Explosive Membrane I
     published: true
     volume: 5.0
@@ -2095,6 +2232,7 @@ items:
     TechLevel: 1
     id: 16399
     marketGroup: 1685
+    mass: 1.0
     name: Prototype Energized Kinetic Membrane I
     published: true
     volume: 5.0
@@ -2109,6 +2247,7 @@ items:
     ThermalDamageResistanceBonus: -32.5
     id: 16431
     marketGroup: 1683
+    mass: 1.0
     name: Prototype Energized Thermal Membrane I
     published: true
     volume: 5.0
@@ -2127,6 +2266,7 @@ items:
     ThermalDamageResistanceBonus: -26.375
     id: 14942
     marketGroup: 1686
+    mass: 1.0
     name: Raysere's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2142,6 +2282,7 @@ items:
     TechLevel: 1
     id: 14974
     marketGroup: 1684
+    mass: 1.0
     name: Raysere's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -2157,6 +2298,7 @@ items:
     TechLevel: 1
     id: 14990
     marketGroup: 1682
+    mass: 1.0
     name: Raysere's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -2172,6 +2314,7 @@ items:
     TechLevel: 1
     id: 15006
     marketGroup: 1685
+    mass: 1.0
     name: Raysere's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -2187,6 +2330,7 @@ items:
     ThermalDamageResistanceBonus: -43.0
     id: 14958
     marketGroup: 1683
+    mass: 1.0
     name: Raysere's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -2205,6 +2349,7 @@ items:
     ThermalDamageResistanceBonus: -26.375
     id: 14940
     marketGroup: 1686
+    mass: 1.0
     name: Selynne's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2220,6 +2365,7 @@ items:
     TechLevel: 1
     id: 14972
     marketGroup: 1684
+    mass: 1.0
     name: Selynne's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -2235,6 +2381,7 @@ items:
     TechLevel: 1
     id: 14988
     marketGroup: 1682
+    mass: 1.0
     name: Selynne's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -2250,6 +2397,7 @@ items:
     TechLevel: 1
     id: 15004
     marketGroup: 1685
+    mass: 1.0
     name: Selynne's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -2265,6 +2413,7 @@ items:
     ThermalDamageResistanceBonus: -43.0
     id: 14956
     marketGroup: 1683
+    mass: 1.0
     name: Selynne's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -2283,6 +2432,7 @@ items:
     ThermalDamageResistanceBonus: -28.3125
     id: 15208
     marketGroup: 1686
+    mass: 1.0
     name: Setele's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2298,6 +2448,7 @@ items:
     TechLevel: 1
     id: 15224
     marketGroup: 1684
+    mass: 1.0
     name: Setele's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -2313,6 +2464,7 @@ items:
     TechLevel: 1
     id: 15232
     marketGroup: 1682
+    mass: 1.0
     name: Setele's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -2328,6 +2480,7 @@ items:
     TechLevel: 1
     id: 15240
     marketGroup: 1685
+    mass: 1.0
     name: Setele's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -2343,6 +2496,7 @@ items:
     ThermalDamageResistanceBonus: -44.5
     id: 15216
     marketGroup: 1683
+    mass: 1.0
     name: Setele's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -2361,6 +2515,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 14074
     marketGroup: 1686
+    mass: 1.0
     name: Shadow Serpentis Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2376,6 +2531,7 @@ items:
     TechLevel: 1
     id: 14092
     marketGroup: 1684
+    mass: 1.0
     name: Shadow Serpentis Energized EM Membrane
     published: true
     volume: 5.0
@@ -2391,6 +2547,7 @@ items:
     TechLevel: 1
     id: 14086
     marketGroup: 1682
+    mass: 1.0
     name: Shadow Serpentis Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -2406,6 +2563,7 @@ items:
     TechLevel: 1
     id: 14080
     marketGroup: 1685
+    mass: 1.0
     name: Shadow Serpentis Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -2421,6 +2579,7 @@ items:
     ThermalDamageResistanceBonus: -37.5
     id: 14098
     marketGroup: 1683
+    mass: 1.0
     name: Shadow Serpentis Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -2439,6 +2598,7 @@ items:
     ThermalDamageResistanceBonus: -30.299999237060547
     id: 15455
     marketGroup: 1686
+    mass: 1.0
     name: Shaqil's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2454,6 +2614,7 @@ items:
     ThermalDamageResistanceBonus: -50.0
     id: 15453
     marketGroup: 1683
+    mass: 1.0
     name: Shaqil's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -2472,6 +2633,7 @@ items:
     ThermalDamageResistanceBonus: -24.4375
     id: 14938
     marketGroup: 1686
+    mass: 1.0
     name: Tairei's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2487,6 +2649,7 @@ items:
     TechLevel: 1
     id: 14970
     marketGroup: 1684
+    mass: 1.0
     name: Tairei's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -2502,6 +2665,7 @@ items:
     TechLevel: 1
     id: 14986
     marketGroup: 1682
+    mass: 1.0
     name: Tairei's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -2517,6 +2681,7 @@ items:
     TechLevel: 1
     id: 15002
     marketGroup: 1685
+    mass: 1.0
     name: Tairei's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -2532,6 +2697,7 @@ items:
     ThermalDamageResistanceBonus: -41.5
     id: 14954
     marketGroup: 1683
+    mass: 1.0
     name: Tairei's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -2550,6 +2716,7 @@ items:
     ThermalDamageResistanceBonus: -22.5
     id: 14072
     marketGroup: 1686
+    mass: 1.0
     name: True Sansha Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2565,6 +2732,7 @@ items:
     TechLevel: 1
     id: 14090
     marketGroup: 1684
+    mass: 1.0
     name: True Sansha Energized EM Membrane
     published: true
     volume: 5.0
@@ -2580,6 +2748,7 @@ items:
     TechLevel: 1
     id: 14084
     marketGroup: 1682
+    mass: 1.0
     name: True Sansha Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -2595,6 +2764,7 @@ items:
     TechLevel: 1
     id: 14078
     marketGroup: 1685
+    mass: 1.0
     name: True Sansha Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -2610,6 +2780,7 @@ items:
     ThermalDamageResistanceBonus: -40.0
     id: 14096
     marketGroup: 1683
+    mass: 1.0
     name: True Sansha Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -2628,6 +2799,7 @@ items:
     ThermalDamageResistanceBonus: -26.375
     id: 15206
     marketGroup: 1686
+    mass: 1.0
     name: Tuvan's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2643,6 +2815,7 @@ items:
     TechLevel: 1
     id: 15222
     marketGroup: 1684
+    mass: 1.0
     name: Tuvan's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -2658,6 +2831,7 @@ items:
     TechLevel: 1
     id: 15230
     marketGroup: 1682
+    mass: 1.0
     name: Tuvan's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -2673,6 +2847,7 @@ items:
     TechLevel: 1
     id: 15238
     marketGroup: 1685
+    mass: 1.0
     name: Tuvan's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -2688,6 +2863,7 @@ items:
     ThermalDamageResistanceBonus: -43.0
     id: 15214
     marketGroup: 1683
+    mass: 1.0
     name: Tuvan's Modified Energized Thermal Membrane
     published: true
     volume: 5.0
@@ -2705,6 +2881,7 @@ items:
     ThermalDamageResistanceBonus: -15.0
     id: 16385
     marketGroup: 1686
+    mass: 1.0
     name: Upgraded Energized Adaptive Nano Membrane I
     published: true
     volume: 5.0
@@ -2718,6 +2895,7 @@ items:
     TechLevel: 1
     id: 16417
     marketGroup: 1687
+    mass: 1.0
     name: Upgraded Energized Armor Layering Membrane I
     published: true
     volume: 5.0
@@ -2732,6 +2910,7 @@ items:
     TechLevel: 1
     id: 16409
     marketGroup: 1684
+    mass: 1.0
     name: Upgraded Energized EM Membrane I
     published: true
     volume: 5.0
@@ -2746,6 +2925,7 @@ items:
     TechLevel: 1
     id: 16401
     marketGroup: 1682
+    mass: 1.0
     name: Upgraded Energized Explosive Membrane I
     published: true
     volume: 5.0
@@ -2760,6 +2940,7 @@ items:
     TechLevel: 1
     id: 16393
     marketGroup: 1685
+    mass: 1.0
     name: Upgraded Energized Kinetic Membrane I
     published: true
     volume: 5.0
@@ -2774,6 +2955,7 @@ items:
     ThermalDamageResistanceBonus: -32.5
     id: 16425
     marketGroup: 1683
+    mass: 1.0
     name: Upgraded Energized Thermal Membrane I
     published: true
     volume: 5.0
@@ -2792,6 +2974,7 @@ items:
     ThermalDamageResistanceBonus: -28.3125
     id: 14944
     marketGroup: 1686
+    mass: 1.0
     name: Vizan's Modified Energized Adaptive Nano Membrane
     published: true
     volume: 5.0
@@ -2807,6 +2990,7 @@ items:
     TechLevel: 1
     id: 14976
     marketGroup: 1684
+    mass: 1.0
     name: Vizan's Modified Energized EM Membrane
     published: true
     volume: 5.0
@@ -2822,6 +3006,7 @@ items:
     TechLevel: 1
     id: 14992
     marketGroup: 1682
+    mass: 1.0
     name: Vizan's Modified Energized Explosive Membrane
     published: true
     volume: 5.0
@@ -2837,6 +3022,7 @@ items:
     TechLevel: 1
     id: 15008
     marketGroup: 1685
+    mass: 1.0
     name: Vizan's Modified Energized Kinetic Membrane
     published: true
     volume: 5.0
@@ -2852,6 +3038,7 @@ items:
     ThermalDamageResistanceBonus: -44.5
     id: 14960
     marketGroup: 1683
+    mass: 1.0
     name: Vizan's Modified Energized Thermal Membrane
     published: true
     volume: 5.0

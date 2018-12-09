@@ -9,6 +9,7 @@ items:
     UpgradeCost: 100
     id: 31362
     marketGroup: 1736
+    mass: 200.0
     name: Capital Ancillary Current Router I
     published: true
     volume: 40.0
@@ -23,6 +24,7 @@ items:
     UpgradeCost: 150
     id: 31368
     marketGroup: 1736
+    mass: 200.0
     name: Capital Ancillary Current Router II
     published: true
     volume: 40.0
@@ -36,6 +38,7 @@ items:
     UpgradeCost: 100
     id: 31374
     marketGroup: 1736
+    mass: 200.0
     name: Capital Capacitor Control Circuit I
     published: true
     volume: 40.0
@@ -50,6 +53,7 @@ items:
     UpgradeCost: 150
     id: 31380
     marketGroup: 1736
+    mass: 200.0
     name: Capital Capacitor Control Circuit II
     published: true
     volume: 40.0
@@ -62,6 +66,7 @@ items:
     UpgradeCost: 150
     id: 43900
     marketGroup: 1736
+    mass: 200.0
     name: Capital Command Processor I
     published: true
     volume: 40.0
@@ -75,6 +80,7 @@ items:
     UpgradeCost: 100
     id: 31386
     marketGroup: 1736
+    mass: 200.0
     name: Capital Egress Port Maximizer I
     published: true
     volume: 40.0
@@ -89,6 +95,7 @@ items:
     UpgradeCost: 150
     id: 31392
     marketGroup: 1736
+    mass: 200.0
     name: Capital Egress Port Maximizer II
     published: true
     volume: 40.0
@@ -102,6 +109,7 @@ items:
     UpgradeCost: 100
     id: 31230
     marketGroup: 1736
+    mass: 200.0
     name: Capital Liquid Cooled Electronics I
     published: true
     volume: 40.0
@@ -116,6 +124,7 @@ items:
     UpgradeCost: 150
     id: 31236
     marketGroup: 1736
+    mass: 200.0
     name: Capital Liquid Cooled Electronics II
     published: true
     volume: 40.0
@@ -129,6 +138,7 @@ items:
     UpgradeCost: 50
     id: 31398
     marketGroup: 1736
+    mass: 200.0
     name: Capital Powergrid Subroutine Maximizer I
     published: true
     volume: 40.0
@@ -143,6 +153,7 @@ items:
     UpgradeCost: 75
     id: 31404
     marketGroup: 1736
+    mass: 200.0
     name: Capital Powergrid Subroutine Maximizer II
     published: true
     volume: 40.0
@@ -156,6 +167,7 @@ items:
     UpgradeCost: 150
     id: 33303
     marketGroup: 1736
+    mass: 200.0
     name: Capital Processor Overclocking Unit I
     published: true
     volume: 40.0
@@ -170,6 +182,7 @@ items:
     UpgradeCost: 300
     id: 33305
     marketGroup: 1736
+    mass: 200.0
     name: Capital Processor Overclocking Unit II
     published: true
     volume: 40.0
@@ -183,6 +196,7 @@ items:
     UpgradeCost: 100
     id: 31410
     marketGroup: 1736
+    mass: 200.0
     name: Capital Semiconductor Memory Cell I
     published: true
     volume: 40.0
@@ -197,6 +211,7 @@ items:
     UpgradeCost: 150
     id: 31416
     marketGroup: 1736
+    mass: 200.0
     name: Capital Semiconductor Memory Cell II
     published: true
     volume: 40.0
@@ -209,6 +224,7 @@ items:
     UpgradeCost: 100
     id: 25956
     marketGroup: 1224
+    mass: 200.0
     name: Large Ancillary Current Router I
     published: true
     volume: 20.0
@@ -222,6 +238,7 @@ items:
     UpgradeCost: 150
     id: 26370
     marketGroup: 1224
+    mass: 200.0
     name: Large Ancillary Current Router II
     published: true
     volume: 20.0
@@ -234,6 +251,7 @@ items:
     UpgradeCost: 100
     id: 25948
     marketGroup: 1224
+    mass: 200.0
     name: Large Capacitor Control Circuit I
     published: true
     volume: 20.0
@@ -247,6 +265,7 @@ items:
     UpgradeCost: 150
     id: 26374
     marketGroup: 1224
+    mass: 200.0
     name: Large Capacitor Control Circuit II
     published: true
     volume: 20.0
@@ -259,6 +278,7 @@ items:
     UpgradeCost: 150
     id: 43898
     marketGroup: 1224
+    mass: 200.0
     name: Large Command Processor I
     published: true
     volume: 20.0
@@ -272,6 +292,7 @@ items:
     UpgradeCost: 100
     id: 25950
     marketGroup: 1224
+    mass: 200.0
     name: Large Egress Port Maximizer I
     published: true
     volume: 20.0
@@ -286,6 +307,7 @@ items:
     UpgradeCost: 150
     id: 26368
     marketGroup: 1224
+    mass: 200.0
     name: Large Egress Port Maximizer II
     published: true
     volume: 20.0
@@ -299,6 +321,7 @@ items:
     UpgradeCost: 100
     id: 25934
     marketGroup: 1224
+    mass: 200.0
     name: Large Liquid Cooled Electronics I
     published: true
     volume: 20.0
@@ -313,6 +336,7 @@ items:
     UpgradeCost: 150
     id: 26348
     marketGroup: 1224
+    mass: 200.0
     name: Large Liquid Cooled Electronics II
     published: true
     volume: 20.0
@@ -326,6 +350,7 @@ items:
     UpgradeCost: 50
     id: 25952
     marketGroup: 1224
+    mass: 200.0
     name: Large Powergrid Subroutine Maximizer I
     published: true
     volume: 20.0
@@ -340,6 +365,7 @@ items:
     UpgradeCost: 75
     id: 26372
     marketGroup: 1224
+    mass: 200.0
     name: Large Powergrid Subroutine Maximizer II
     published: true
     volume: 20.0
@@ -353,6 +379,7 @@ items:
     UpgradeCost: 150
     id: 4397
     marketGroup: 1224
+    mass: 200.0
     name: Large Processor Overclocking Unit I
     published: true
     volume: 5.0
@@ -367,6 +394,7 @@ items:
     UpgradeCost: 300
     id: 4401
     marketGroup: 1224
+    mass: 200.0
     name: Large Processor Overclocking Unit II
     published: true
     volume: 5.0
@@ -379,6 +407,7 @@ items:
     UpgradeCost: 100
     id: 25954
     marketGroup: 1224
+    mass: 200.0
     name: Large Semiconductor Memory Cell I
     published: true
     volume: 20.0
@@ -392,6 +421,7 @@ items:
     UpgradeCost: 150
     id: 26376
     marketGroup: 1224
+    mass: 200.0
     name: Large Semiconductor Memory Cell II
     published: true
     volume: 20.0
@@ -405,6 +435,7 @@ items:
     UpgradeCost: 100
     id: 31360
     marketGroup: 1223
+    mass: 200.0
     name: Medium Ancillary Current Router I
     published: true
     volume: 10.0
@@ -419,6 +450,7 @@ items:
     UpgradeCost: 150
     id: 31366
     marketGroup: 1223
+    mass: 200.0
     name: Medium Ancillary Current Router II
     published: true
     volume: 10.0
@@ -432,6 +464,7 @@ items:
     UpgradeCost: 100
     id: 31372
     marketGroup: 1223
+    mass: 200.0
     name: Medium Capacitor Control Circuit I
     published: true
     volume: 10.0
@@ -446,6 +479,7 @@ items:
     UpgradeCost: 150
     id: 31378
     marketGroup: 1223
+    mass: 200.0
     name: Medium Capacitor Control Circuit II
     published: true
     volume: 10.0
@@ -458,6 +492,7 @@ items:
     UpgradeCost: 150
     id: 43896
     marketGroup: 1223
+    mass: 200.0
     name: Medium Command Processor I
     published: true
     volume: 10.0
@@ -471,6 +506,7 @@ items:
     UpgradeCost: 100
     id: 31384
     marketGroup: 1223
+    mass: 200.0
     name: Medium Egress Port Maximizer I
     published: true
     volume: 10.0
@@ -485,6 +521,7 @@ items:
     UpgradeCost: 150
     id: 31390
     marketGroup: 1223
+    mass: 200.0
     name: Medium Egress Port Maximizer II
     published: true
     volume: 10.0
@@ -498,6 +535,7 @@ items:
     UpgradeCost: 100
     id: 31228
     marketGroup: 1223
+    mass: 200.0
     name: Medium Liquid Cooled Electronics I
     published: true
     volume: 10.0
@@ -512,6 +550,7 @@ items:
     UpgradeCost: 150
     id: 31234
     marketGroup: 1223
+    mass: 200.0
     name: Medium Liquid Cooled Electronics II
     published: true
     volume: 10.0
@@ -525,6 +564,7 @@ items:
     UpgradeCost: 50
     id: 31396
     marketGroup: 1223
+    mass: 200.0
     name: Medium Powergrid Subroutine Maximizer I
     published: true
     volume: 10.0
@@ -539,6 +579,7 @@ items:
     UpgradeCost: 75
     id: 31402
     marketGroup: 1223
+    mass: 200.0
     name: Medium Powergrid Subroutine Maximizer II
     published: true
     volume: 10.0
@@ -552,6 +593,7 @@ items:
     UpgradeCost: 150
     id: 4395
     marketGroup: 1223
+    mass: 200.0
     name: Medium Processor Overclocking Unit I
     published: true
     volume: 5.0
@@ -566,6 +608,7 @@ items:
     UpgradeCost: 300
     id: 4399
     marketGroup: 1223
+    mass: 200.0
     name: Medium Processor Overclocking Unit II
     published: true
     volume: 5.0
@@ -579,6 +622,7 @@ items:
     UpgradeCost: 100
     id: 31408
     marketGroup: 1223
+    mass: 200.0
     name: Medium Semiconductor Memory Cell I
     published: true
     volume: 10.0
@@ -593,6 +637,7 @@ items:
     UpgradeCost: 150
     id: 31414
     marketGroup: 1223
+    mass: 200.0
     name: Medium Semiconductor Memory Cell II
     published: true
     volume: 10.0
@@ -606,6 +651,7 @@ items:
     UpgradeCost: 100
     id: 31358
     marketGroup: 1222
+    mass: 200.0
     name: Small Ancillary Current Router I
     published: true
     volume: 5.0
@@ -620,6 +666,7 @@ items:
     UpgradeCost: 150
     id: 31364
     marketGroup: 1222
+    mass: 200.0
     name: Small Ancillary Current Router II
     published: true
     volume: 5.0
@@ -633,6 +680,7 @@ items:
     UpgradeCost: 100
     id: 31370
     marketGroup: 1222
+    mass: 200.0
     name: Small Capacitor Control Circuit I
     published: true
     volume: 5.0
@@ -647,6 +695,7 @@ items:
     UpgradeCost: 150
     id: 31376
     marketGroup: 1222
+    mass: 200.0
     name: Small Capacitor Control Circuit II
     published: true
     volume: 5.0
@@ -659,6 +708,7 @@ items:
     UpgradeCost: 150
     id: 43894
     marketGroup: 1222
+    mass: 200.0
     name: Small Command Processor I
     published: true
     volume: 5.0
@@ -672,6 +722,7 @@ items:
     UpgradeCost: 100
     id: 31382
     marketGroup: 1222
+    mass: 200.0
     name: Small Egress Port Maximizer I
     published: true
     volume: 5.0
@@ -686,6 +737,7 @@ items:
     UpgradeCost: 150
     id: 31388
     marketGroup: 1222
+    mass: 200.0
     name: Small Egress Port Maximizer II
     published: true
     volume: 5.0
@@ -699,6 +751,7 @@ items:
     UpgradeCost: 100
     id: 31226
     marketGroup: 1222
+    mass: 200.0
     name: Small Liquid Cooled Electronics I
     published: true
     volume: 5.0
@@ -713,6 +766,7 @@ items:
     UpgradeCost: 150
     id: 31232
     marketGroup: 1222
+    mass: 200.0
     name: Small Liquid Cooled Electronics II
     published: true
     volume: 5.0
@@ -726,6 +780,7 @@ items:
     UpgradeCost: 50
     id: 31394
     marketGroup: 1222
+    mass: 200.0
     name: Small Powergrid Subroutine Maximizer I
     published: true
     volume: 5.0
@@ -740,6 +795,7 @@ items:
     UpgradeCost: 75
     id: 31400
     marketGroup: 1222
+    mass: 200.0
     name: Small Powergrid Subroutine Maximizer II
     published: true
     volume: 5.0
@@ -753,6 +809,7 @@ items:
     UpgradeCost: 150
     id: 26929
     marketGroup: 1222
+    mass: 200.0
     name: Small Processor Overclocking Unit I
     published: true
     volume: 5.0
@@ -767,6 +824,7 @@ items:
     UpgradeCost: 300
     id: 26931
     marketGroup: 1222
+    mass: 200.0
     name: Small Processor Overclocking Unit II
     published: true
     volume: 5.0
@@ -780,6 +838,7 @@ items:
     UpgradeCost: 100
     id: 31406
     marketGroup: 1222
+    mass: 200.0
     name: Small Semiconductor Memory Cell I
     published: true
     volume: 5.0
@@ -794,6 +853,7 @@ items:
     UpgradeCost: 150
     id: 31412
     marketGroup: 1222
+    mass: 200.0
     name: Small Semiconductor Memory Cell II
     published: true
     volume: 5.0

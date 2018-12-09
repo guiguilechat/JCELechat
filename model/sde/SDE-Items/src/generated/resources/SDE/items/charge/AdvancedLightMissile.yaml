@@ -27,6 +27,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 24499
     marketGroup: 927
+    mass: 700.0
     name: Inferno Fury Light Missile
     published: true
     volume: 0.015
@@ -58,6 +59,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 2647
     marketGroup: 917
+    mass: 700.0
     name: Inferno Precision Light Missile
     published: true
     volume: 0.015
@@ -89,6 +91,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 2613
     marketGroup: 927
+    mass: 700.0
     name: Mjolnir Fury Light Missile
     published: true
     volume: 0.015
@@ -120,6 +123,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24505
     marketGroup: 917
+    mass: 700.0
     name: Mjolnir Precision Light Missile
     published: true
     volume: 0.015
@@ -151,6 +155,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24497
     marketGroup: 927
+    mass: 700.0
     name: Nova Fury Light Missile
     published: true
     volume: 0.015
@@ -182,6 +187,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24503
     marketGroup: 917
+    mass: 700.0
     name: Nova Precision Light Missile
     published: true
     volume: 0.015
@@ -213,6 +219,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24495
     marketGroup: 927
+    mass: 700.0
     name: Scourge Fury Light Missile
     published: true
     volume: 0.015
@@ -244,6 +251,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24501
     marketGroup: 917
+    mass: 700.0
     name: Scourge Precision Light Missile
     published: true
     volume: 0.015

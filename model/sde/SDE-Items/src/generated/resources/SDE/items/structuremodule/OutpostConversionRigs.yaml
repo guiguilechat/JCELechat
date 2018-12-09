@@ -20,6 +20,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47883
+    mass: 200.0
     name: Upwell A1F Outpost Rig
     published: true
     volume: 20.0
@@ -43,6 +44,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 47983
+    mass: 200.0
     name: Upwell A1O Outpost Rig
     published: true
     volume: 20.0
@@ -67,6 +69,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47985
+    mass: 200.0
     name: Upwell A1P Outpost Rig
     published: true
     volume: 20.0
@@ -89,6 +92,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47996
+    mass: 200.0
     name: Upwell A1R Outpost Rig
     published: true
     volume: 20.0
@@ -114,6 +118,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48028
+    mass: 200.0
     name: Upwell A2-FP Outpost Rig
     published: true
     volume: 20.0
@@ -138,6 +143,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48029
+    mass: 200.0
     name: Upwell A2-FR Outpost Rig
     published: true
     volume: 20.0
@@ -162,6 +168,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47991
+    mass: 200.0
     name: Upwell A2F- Outpost Rig
     published: true
     volume: 20.0
@@ -187,6 +194,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 48043
+    mass: 200.0
     name: Upwell A2FO Outpost Rig
     published: true
     volume: 20.0
@@ -212,6 +220,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47981
+    mass: 200.0
     name: Upwell A2FP Outpost Rig
     published: true
     volume: 20.0
@@ -236,6 +245,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48033
+    mass: 200.0
     name: Upwell A2L- Outpost Rig
     published: true
     volume: 20.0
@@ -261,6 +271,7 @@ items:
     StructureServiceRoleBonus: -15
     UpgradeCost: 50
     id: 48030
+    mass: 200.0
     name: Upwell A2OF Outpost Rig
     published: true
     volume: 20.0
@@ -285,6 +296,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48053
+    mass: 200.0
     name: Upwell A2P- Outpost Rig
     published: true
     volume: 20.0
@@ -310,6 +322,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47987
+    mass: 200.0
     name: Upwell A2PF Outpost Rig
     published: true
     volume: 20.0
@@ -335,6 +348,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 48042
+    mass: 200.0
     name: Upwell A2PO Outpost Rig
     published: true
     volume: 20.0
@@ -359,6 +373,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48046
+    mass: 200.0
     name: Upwell A3F-- Outpost Rig
     published: true
     volume: 20.0
@@ -385,6 +400,7 @@ items:
     StructureServiceRoleBonus: -15
     UpgradeCost: 50
     id: 48031
+    mass: 200.0
     name: Upwell A3FOP Outpost Rig
     published: true
     volume: 20.0
@@ -410,6 +426,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47990
+    mass: 200.0
     name: Upwell A3FP- Outpost Rig
     published: true
     volume: 20.0
@@ -437,6 +454,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48027
+    mass: 200.0
     name: Upwell A3FPL Outpost Rig
     published: true
     volume: 20.0
@@ -463,6 +481,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 47986
+    mass: 200.0
     name: Upwell A3FPO Outpost Rig
     published: true
     volume: 20.0
@@ -485,6 +504,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48070
+    mass: 200.0
     name: Upwell A3FPR Outpost Rig
     published: true
     volume: 20.0
@@ -509,6 +529,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48077
+    mass: 200.0
     name: Upwell A3L-- Outpost Rig
     published: true
     volume: 20.0
@@ -535,6 +556,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48064
+    mass: 200.0
     name: Upwell A3L-P Outpost Rig
     published: true
     volume: 20.0
@@ -560,6 +582,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48069
+    mass: 200.0
     name: Upwell A3P-F Outpost Rig
     published: true
     volume: 20.0
@@ -585,6 +608,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48012
+    mass: 200.0
     name: Upwell A3PF- Outpost Rig
     published: true
     volume: 20.0
@@ -612,6 +636,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48056
+    mass: 200.0
     name: Upwell A3PFL Outpost Rig
     published: true
     volume: 20.0
@@ -638,6 +663,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 47982
+    mass: 200.0
     name: Upwell A3PFO Outpost Rig
     published: true
     volume: 20.0
@@ -663,6 +689,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47999
+    mass: 200.0
     name: Upwell C1I Outpost Rig
     published: true
     volume: 20.0
@@ -690,6 +717,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47984
+    mass: 200.0
     name: Upwell C1L Outpost Rig
     published: true
     volume: 20.0
@@ -712,6 +740,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48004
+    mass: 200.0
     name: Upwell C1R Outpost Rig
     published: true
     volume: 20.0
@@ -740,6 +769,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48015
+    mass: 200.0
     name: Upwell C2IL Outpost Rig
     published: true
     volume: 20.0
@@ -765,6 +795,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48018
+    mass: 200.0
     name: Upwell C2IR Outpost Rig
     published: true
     volume: 20.0
@@ -792,6 +823,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48014
+    mass: 200.0
     name: Upwell C2L- Outpost Rig
     published: true
     volume: 20.0
@@ -819,6 +851,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48044
+    mass: 200.0
     name: Upwell C2LF Outpost Rig
     published: true
     volume: 20.0
@@ -847,6 +880,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48001
+    mass: 200.0
     name: Upwell C2LI Outpost Rig
     published: true
     volume: 20.0
@@ -875,6 +909,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48073
+    mass: 200.0
     name: Upwell C3-LI- Outpost Rig
     published: true
     volume: 20.0
@@ -905,6 +940,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48026
+    mass: 200.0
     name: Upwell C3FIL Outpost Rig
     published: true
     volume: 20.0
@@ -935,6 +971,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48063
+    mass: 200.0
     name: Upwell C3FLI Outpost Rig
     published: true
     volume: 20.0
@@ -963,6 +1000,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48074
+    mass: 200.0
     name: Upwell C3ILR Outpost Rig
     published: true
     volume: 20.0
@@ -990,6 +1028,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48045
+    mass: 200.0
     name: Upwell C3L-- Outpost Rig
     published: true
     volume: 20.0
@@ -1019,6 +1058,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48068
+    mass: 200.0
     name: Upwell C3L-F Outpost Rig
     published: true
     volume: 20.0
@@ -1047,6 +1087,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48049
+    mass: 200.0
     name: Upwell C3L-I Outpost Rig
     published: true
     volume: 20.0
@@ -1076,6 +1117,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 48016
+    mass: 200.0
     name: Upwell C3L-IO Outpost Rig
     published: true
     volume: 20.0
@@ -1103,6 +1145,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48075
+    mass: 200.0
     name: Upwell C3L-R Outpost Rig
     published: true
     volume: 20.0
@@ -1132,6 +1175,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48061
+    mass: 200.0
     name: Upwell C3LF- Outpost Rig
     published: true
     volume: 20.0
@@ -1162,6 +1206,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48062
+    mass: 200.0
     name: Upwell C3LFI Outpost Rig
     published: true
     volume: 20.0
@@ -1190,6 +1235,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48017
+    mass: 200.0
     name: Upwell C3LI- Outpost Rig
     published: true
     volume: 20.0
@@ -1220,6 +1266,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48047
+    mass: 200.0
     name: Upwell C3LIF Outpost Rig
     published: true
     volume: 20.0
@@ -1249,6 +1296,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 48013
+    mass: 200.0
     name: Upwell C3LIO Outpost Rig
     published: true
     volume: 20.0
@@ -1272,6 +1320,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47992
+    mass: 200.0
     name: Upwell G1F Outpost Rig
     published: true
     volume: 20.0
@@ -1297,6 +1346,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48019
+    mass: 200.0
     name: Upwell G1L Outpost Rig
     published: true
     volume: 20.0
@@ -1320,6 +1370,7 @@ items:
     StructureServiceRoleBonus: -12
     UpgradeCost: 50
     id: 47988
+    mass: 200.0
     name: Upwell G1O Outpost Rig
     published: true
     volume: 20.0
@@ -1343,6 +1394,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48007
+    mass: 200.0
     name: Upwell G1P Outpost Rig
     published: true
     volume: 20.0
@@ -1365,6 +1417,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47995
+    mass: 200.0
     name: Upwell G1R Outpost Rig
     published: true
     volume: 20.0
@@ -1388,6 +1441,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48066
+    mass: 200.0
     name: Upwell G2F- Outpost Rig
     published: true
     volume: 20.0
@@ -1412,6 +1466,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48008
+    mass: 200.0
     name: Upwell G2FP Outpost Rig
     published: true
     volume: 20.0
@@ -1437,6 +1492,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48076
+    mass: 200.0
     name: Upwell G2L- Outpost Rig
     published: true
     volume: 20.0
@@ -1460,6 +1516,7 @@ items:
     StructureServiceRoleBonus: -24
     UpgradeCost: 50
     id: 48021
+    mass: 200.0
     name: Upwell G2O- Outpost Rig
     published: true
     volume: 20.0
@@ -1484,6 +1541,7 @@ items:
     StructureServiceRoleBonus: -24
     UpgradeCost: 50
     id: 48034
+    mass: 200.0
     name: Upwell G2OP Outpost Rig
     published: true
     volume: 20.0
@@ -1508,6 +1566,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48011
+    mass: 200.0
     name: Upwell G2PF Outpost Rig
     published: true
     volume: 20.0
@@ -1531,6 +1590,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48039
+    mass: 200.0
     name: Upwell G2PR Outpost Rig
     published: true
     volume: 20.0
@@ -1558,6 +1618,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48037
+    mass: 200.0
     name: Upwell G3FLP Outpost Rig
     published: true
     volume: 20.0
@@ -1582,6 +1643,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48054
+    mass: 200.0
     name: Upwell G3FP- Outpost Rig
     published: true
     volume: 20.0
@@ -1607,6 +1669,7 @@ items:
     StructureServiceRoleBonus: -12
     UpgradeCost: 50
     id: 48067
+    mass: 200.0
     name: Upwell G3FPO Outpost Rig
     published: true
     volume: 20.0
@@ -1632,6 +1695,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48059
+    mass: 200.0
     name: Upwell G3L-- Outpost Rig
     published: true
     volume: 20.0
@@ -1659,6 +1723,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48065
+    mass: 200.0
     name: Upwell G3LFP Outpost Rig
     published: true
     volume: 20.0
@@ -1683,6 +1748,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48003
+    mass: 200.0
     name: Upwell M1L Outpost Rig
     published: true
     volume: 20.0
@@ -1706,6 +1772,7 @@ items:
     StructureServiceRoleBonus: -7
     UpgradeCost: 50
     id: 48000
+    mass: 200.0
     name: Upwell M1O Outpost Rig
     published: true
     volume: 20.0
@@ -1729,6 +1796,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48035
+    mass: 200.0
     name: Upwell M1P Outpost Rig
     published: true
     volume: 20.0
@@ -1751,6 +1819,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47882
+    mass: 200.0
     name: Upwell M1R Outpost Rig
     published: true
     volume: 20.0
@@ -1775,6 +1844,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48071
+    mass: 200.0
     name: Upwell M2-RL Outpost Rig
     published: true
     volume: 20.0
@@ -1798,6 +1868,7 @@ items:
     StructureServiceRoleBonus: -7
     UpgradeCost: 50
     id: 48005
+    mass: 200.0
     name: Upwell M2-RO Outpost Rig
     published: true
     volume: 20.0
@@ -1821,6 +1892,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48009
+    mass: 200.0
     name: Upwell M2-RP Outpost Rig
     published: true
     volume: 20.0
@@ -1845,6 +1917,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48072
+    mass: 200.0
     name: Upwell M2LR Outpost Rig
     published: true
     volume: 20.0
@@ -1868,6 +1941,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 48006
+    mass: 200.0
     name: Upwell M2OR Outpost Rig
     published: true
     volume: 20.0
@@ -1891,6 +1965,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47998
+    mass: 200.0
     name: Upwell M2PR Outpost Rig
     published: true
     volume: 20.0
@@ -1913,6 +1988,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47884
+    mass: 200.0
     name: Upwell M2R- Outpost Rig
     published: true
     volume: 20.0
@@ -1937,6 +2013,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47997
+    mass: 200.0
     name: Upwell M2RL Outpost Rig
     published: true
     volume: 20.0
@@ -1960,6 +2037,7 @@ items:
     StructureServiceRoleBonus: -7
     UpgradeCost: 50
     id: 47980
+    mass: 200.0
     name: Upwell M2RO Outpost Rig
     published: true
     volume: 20.0
@@ -1983,6 +2061,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48010
+    mass: 200.0
     name: Upwell M2RP Outpost Rig
     published: true
     volume: 20.0
@@ -2008,6 +2087,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48040
+    mass: 200.0
     name: Upwell M3-RPL Outpost Rig
     published: true
     volume: 20.0
@@ -2032,6 +2112,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48058
+    mass: 200.0
     name: Upwell M3L-- Outpost Rig
     published: true
     volume: 20.0
@@ -2056,6 +2137,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48048
+    mass: 200.0
     name: Upwell M3L-R Outpost Rig
     published: true
     volume: 20.0
@@ -2081,6 +2163,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48041
+    mass: 200.0
     name: Upwell M3LPR Outpost Rig
     published: true
     volume: 20.0
@@ -2106,6 +2189,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48060
+    mass: 200.0
     name: Upwell M3LRP Outpost Rig
     published: true
     volume: 20.0
@@ -2130,6 +2214,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48023
+    mass: 200.0
     name: Upwell M3P-RF Outpost Rig
     published: true
     volume: 20.0
@@ -2153,6 +2238,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48036
+    mass: 200.0
     name: Upwell M3PR- Outpost Rig
     published: true
     volume: 20.0
@@ -2175,6 +2261,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47979
+    mass: 200.0
     name: Upwell M3R-- Outpost Rig
     published: true
     volume: 20.0
@@ -2198,6 +2285,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48024
+    mass: 200.0
     name: Upwell M3R-F Outpost Rig
     published: true
     volume: 20.0
@@ -2222,6 +2310,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48052
+    mass: 200.0
     name: Upwell M3R-L Outpost Rig
     published: true
     volume: 20.0
@@ -2247,6 +2336,7 @@ items:
     StructureServiceRoleBonus: -7
     UpgradeCost: 50
     id: 48002
+    mass: 200.0
     name: Upwell M3R-LO Outpost Rig
     published: true
     volume: 20.0
@@ -2270,6 +2360,7 @@ items:
     StructureServiceRoleBonus: -7
     UpgradeCost: 50
     id: 47989
+    mass: 200.0
     name: Upwell M3R-O Outpost Rig
     published: true
     volume: 20.0
@@ -2293,6 +2384,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48051
+    mass: 200.0
     name: Upwell M3R-P Outpost Rig
     published: true
     volume: 20.0
@@ -2317,6 +2409,7 @@ items:
     StructureServiceRoleBonus: -7
     UpgradeCost: 50
     id: 48038
+    mass: 200.0
     name: Upwell M3RFO Outpost Rig
     published: true
     volume: 20.0
@@ -2341,6 +2434,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48057
+    mass: 200.0
     name: Upwell M3RL- Outpost Rig
     published: true
     volume: 20.0
@@ -2366,6 +2460,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48078
+    mass: 200.0
     name: Upwell M3RLP Outpost Rig
     published: true
     volume: 20.0
@@ -2389,6 +2484,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 47994
+    mass: 200.0
     name: Upwell M3RO- Outpost Rig
     published: true
     volume: 20.0
@@ -2413,6 +2509,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 48025
+    mass: 200.0
     name: Upwell M3ROF Outpost Rig
     published: true
     volume: 20.0
@@ -2438,6 +2535,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 48020
+    mass: 200.0
     name: Upwell M3ROL Outpost Rig
     published: true
     volume: 20.0
@@ -2462,6 +2560,7 @@ items:
     StructureServiceRoleBonus: -10
     UpgradeCost: 50
     id: 48032
+    mass: 200.0
     name: Upwell M3ROP Outpost Rig
     published: true
     volume: 20.0
@@ -2485,6 +2584,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48050
+    mass: 200.0
     name: Upwell M3RP- Outpost Rig
     published: true
     volume: 20.0
@@ -2509,6 +2609,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48022
+    mass: 200.0
     name: Upwell M3RPF Outpost Rig
     published: true
     volume: 20.0
@@ -2534,6 +2635,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 48055
+    mass: 200.0
     name: Upwell M3RPL Outpost Rig
     published: true
     volume: 20.0
@@ -2558,6 +2660,7 @@ items:
     StructureServiceRoleBonus: -7
     UpgradeCost: 50
     id: 47993
+    mass: 200.0
     name: Upwell M3RPO Outpost Rig
     published: true
     volume: 20.0
@@ -2580,6 +2683,7 @@ items:
     StructureRigScanResBonus: 180
     UpgradeCost: 50
     id: 47881
+    mass: 200.0
     name: Upwell Standard Outpost Rig
     published: true
     volume: 20.0

@@ -27,6 +27,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 24479
     marketGroup: 928
+    mass: 100.0
     name: Inferno Javelin Rocket
     published: true
     volume: 0.005
@@ -59,6 +60,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 24475
     marketGroup: 930
+    mass: 100.0
     name: Inferno Rage Rocket
     published: true
     volume: 0.005
@@ -90,6 +92,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 13119
     marketGroup: 928
+    mass: 100.0
     name: Mjolnir Javelin Rocket
     published: true
     volume: 0.005
@@ -122,6 +125,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 2817
     marketGroup: 930
+    mass: 100.0
     name: Mjolnir Rage Rocket
     published: true
     volume: 0.005
@@ -153,6 +157,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24478
     marketGroup: 928
+    mass: 100.0
     name: Nova Javelin Rocket
     published: true
     volume: 0.005
@@ -185,6 +190,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24473
     marketGroup: 930
+    mass: 100.0
     name: Nova Rage Rocket
     published: true
     volume: 0.005
@@ -216,6 +222,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24477
     marketGroup: 928
+    mass: 100.0
     name: Scourge Javelin Rocket
     published: true
     volume: 0.005
@@ -248,6 +255,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 24471
     marketGroup: 930
+    mass: 100.0
     name: Scourge Rage Rocket
     published: true
     volume: 0.005

@@ -82,6 +82,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 12731
     marketGroup: 631
+    mass: 2.0E7
     name: Bustard
     published: true
     volume: 390000.0
@@ -168,6 +169,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 12753
     marketGroup: 630
+    mass: 1.95E7
     name: Impel
     published: true
     volume: 400000.0
@@ -254,6 +256,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 12747
     marketGroup: 633
+    mass: 1.92E7
     name: Mastodon
     published: true
     volume: 385000.0
@@ -340,6 +343,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 12745
     marketGroup: 632
+    mass: 1.9E7
     name: Occator
     published: true
     volume: 390000.0

@@ -1,36 +1,43 @@
 items:
   Dismantler Alvior:
     id: 23480
+    mass: 100000.0
     name: Dismantler Alvior
     published: false
     volume: 60.0
   Marauder Alvior:
     id: 23479
+    mass: 100000.0
     name: Marauder Alvior
     published: false
     volume: 60.0
   Predator Alvior:
     id: 23478
+    mass: 100000.0
     name: Predator Alvior
     published: false
     volume: 60.0
   Ripper Alvior:
     id: 23476
+    mass: 100000.0
     name: Ripper Alvior
     published: false
     volume: 60.0
   Shatter Alvior:
     id: 23475
+    mass: 100000.0
     name: Shatter Alvior
     published: false
     volume: 60.0
   Shredder Alvior:
     id: 23477
+    mass: 100000.0
     name: Shredder Alvior
     published: false
     volume: 60.0
   Unidentified Spacecraft:
     id: 29215
+    mass: 100000.0
     name: Unidentified Spacecraft
     published: false
     volume: 60.0

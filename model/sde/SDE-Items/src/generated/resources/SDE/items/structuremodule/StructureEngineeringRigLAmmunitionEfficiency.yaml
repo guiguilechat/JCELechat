@@ -22,6 +22,7 @@ items:
     UpgradeCost: 100
     id: 37164
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Ammunition Manufacturing Efficiency I
     published: true
     volume: 20.0
@@ -48,6 +49,7 @@ items:
     UpgradeCost: 150
     id: 37165
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Ammunition Manufacturing Efficiency II
     published: true
     volume: 20.0

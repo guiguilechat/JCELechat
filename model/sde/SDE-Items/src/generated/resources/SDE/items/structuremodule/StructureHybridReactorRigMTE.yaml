@@ -16,6 +16,7 @@ items:
     UpgradeCost: 100
     id: 46488
     marketGroup: 2341
+    mass: 200.0
     name: Standup M-Set Hybrid Reactor Time Efficiency I
     published: true
     volume: 10.0
@@ -36,6 +37,7 @@ items:
     UpgradeCost: 150
     id: 46489
     marketGroup: 2341
+    mass: 200.0
     name: Standup M-Set Hybrid Reactor Time Efficiency II
     published: true
     volume: 10.0

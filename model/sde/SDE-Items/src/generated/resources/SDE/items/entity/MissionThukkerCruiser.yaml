@@ -1,11 +1,13 @@
 items:
   Thukker Mercenary Captain:
     id: 23956
+    mass: 1.15E7
     name: Thukker Mercenary Captain
     published: false
     volume: 96000.0
   Thukker Mercenary Eliminator:
     id: 23957
+    mass: 1.0E7
     name: Thukker Mercenary Eliminator
     published: false
     volume: 80000.0

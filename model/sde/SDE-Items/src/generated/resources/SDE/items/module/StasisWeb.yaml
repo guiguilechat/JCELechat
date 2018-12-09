@@ -6,6 +6,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 47702
+    mass: 1.0
     name: Abyssal Stasis Webifier
     published: true
     volume: 5.0

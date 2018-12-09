@@ -11,6 +11,7 @@ items:
     UpgradeCost: 50
     id: 31422
     marketGroup: 1735
+    mass: 200.0
     name: Capital Algid Energy Administrations Unit I
     published: true
     volume: 40.0
@@ -27,6 +28,7 @@ items:
     UpgradeCost: 75
     id: 31428
     marketGroup: 1735
+    mass: 200.0
     name: Capital Algid Energy Administrations Unit II
     published: true
     volume: 40.0
@@ -42,6 +44,7 @@ items:
     UpgradeCost: 50
     id: 31434
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Ambit Extension I
     published: true
     volume: 40.0
@@ -58,6 +61,7 @@ items:
     UpgradeCost: 75
     id: 31440
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Ambit Extension II
     published: true
     volume: 40.0
@@ -72,6 +76,7 @@ items:
     UpgradeCost: 200
     id: 31446
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Burst Aerator I
     published: true
     volume: 40.0
@@ -87,6 +92,7 @@ items:
     UpgradeCost: 300
     id: 31452
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Burst Aerator II
     published: true
     volume: 40.0
@@ -101,6 +107,7 @@ items:
     UpgradeCost: 200
     id: 31458
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Collision Accelerator I
     published: true
     volume: 40.0
@@ -116,6 +123,7 @@ items:
     UpgradeCost: 300
     id: 31464
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Collision Accelerator II
     published: true
     volume: 40.0
@@ -131,6 +139,7 @@ items:
     UpgradeCost: 100
     id: 31470
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Discharge Elutriation I
     published: true
     volume: 40.0
@@ -147,6 +156,7 @@ items:
     UpgradeCost: 150
     id: 31476
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Discharge Elutriation II
     published: true
     volume: 40.0
@@ -162,6 +172,7 @@ items:
     UpgradeCost: 100
     id: 31482
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Locus Coordinator I
     published: true
     volume: 40.0
@@ -178,6 +189,7 @@ items:
     UpgradeCost: 150
     id: 31488
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Locus Coordinator II
     published: true
     volume: 40.0
@@ -193,6 +205,7 @@ items:
     UpgradeCost: 100
     id: 31494
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Metastasis Adjuster I
     published: true
     volume: 40.0
@@ -209,6 +222,7 @@ items:
     UpgradeCost: 150
     id: 31500
     marketGroup: 1735
+    mass: 200.0
     name: Capital Energy Metastasis Adjuster II
     published: true
     volume: 40.0
@@ -224,6 +238,7 @@ items:
     UpgradeCost: 50
     id: 25976
     marketGroup: 1227
+    mass: 200.0
     name: Large Algid Energy Administrations Unit I
     published: true
     volume: 20.0
@@ -240,6 +255,7 @@ items:
     UpgradeCost: 75
     id: 26384
     marketGroup: 1227
+    mass: 200.0
     name: Large Algid Energy Administrations Unit II
     published: true
     volume: 20.0
@@ -254,6 +270,7 @@ items:
     UpgradeCost: 50
     id: 25970
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Ambit Extension I
     published: true
     volume: 20.0
@@ -269,6 +286,7 @@ items:
     UpgradeCost: 75
     id: 26386
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Ambit Extension II
     published: true
     volume: 20.0
@@ -283,6 +301,7 @@ items:
     UpgradeCost: 200
     id: 25978
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Burst Aerator I
     published: true
     volume: 20.0
@@ -298,6 +317,7 @@ items:
     UpgradeCost: 300
     id: 26380
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Burst Aerator II
     published: true
     volume: 20.0
@@ -312,6 +332,7 @@ items:
     UpgradeCost: 200
     id: 25980
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Collision Accelerator I
     published: true
     volume: 20.0
@@ -327,6 +348,7 @@ items:
     UpgradeCost: 300
     id: 26382
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Collision Accelerator II
     published: true
     volume: 20.0
@@ -342,6 +364,7 @@ items:
     UpgradeCost: 100
     id: 25968
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Discharge Elutriation I
     published: true
     volume: 20.0
@@ -358,6 +381,7 @@ items:
     UpgradeCost: 150
     id: 26378
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Discharge Elutriation II
     published: true
     volume: 20.0
@@ -373,6 +397,7 @@ items:
     UpgradeCost: 100
     id: 25972
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Locus Coordinator I
     published: true
     volume: 20.0
@@ -389,6 +414,7 @@ items:
     UpgradeCost: 150
     id: 26388
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Locus Coordinator II
     published: true
     volume: 20.0
@@ -404,6 +430,7 @@ items:
     UpgradeCost: 100
     id: 25974
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Metastasis Adjuster I
     published: true
     volume: 20.0
@@ -420,6 +447,7 @@ items:
     UpgradeCost: 150
     id: 26390
     marketGroup: 1227
+    mass: 200.0
     name: Large Energy Metastasis Adjuster II
     published: true
     volume: 20.0
@@ -435,6 +463,7 @@ items:
     UpgradeCost: 50
     id: 31420
     marketGroup: 1226
+    mass: 200.0
     name: Medium Algid Energy Administrations Unit I
     published: true
     volume: 10.0
@@ -451,6 +480,7 @@ items:
     UpgradeCost: 75
     id: 31426
     marketGroup: 1226
+    mass: 200.0
     name: Medium Algid Energy Administrations Unit II
     published: true
     volume: 10.0
@@ -466,6 +496,7 @@ items:
     UpgradeCost: 50
     id: 31432
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Ambit Extension I
     published: true
     volume: 10.0
@@ -482,6 +513,7 @@ items:
     UpgradeCost: 75
     id: 31438
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Ambit Extension II
     published: true
     volume: 10.0
@@ -496,6 +528,7 @@ items:
     UpgradeCost: 200
     id: 31444
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Burst Aerator I
     published: true
     volume: 10.0
@@ -511,6 +544,7 @@ items:
     UpgradeCost: 300
     id: 31450
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Burst Aerator II
     published: true
     volume: 10.0
@@ -525,6 +559,7 @@ items:
     UpgradeCost: 200
     id: 31456
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Collision Accelerator I
     published: true
     volume: 10.0
@@ -540,6 +575,7 @@ items:
     UpgradeCost: 300
     id: 31462
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Collision Accelerator II
     published: true
     volume: 10.0
@@ -555,6 +591,7 @@ items:
     UpgradeCost: 100
     id: 31468
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Discharge Elutriation I
     published: true
     volume: 10.0
@@ -571,6 +608,7 @@ items:
     UpgradeCost: 150
     id: 31474
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Discharge Elutriation II
     published: true
     volume: 10.0
@@ -586,6 +624,7 @@ items:
     UpgradeCost: 100
     id: 31480
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Locus Coordinator I
     published: true
     volume: 10.0
@@ -602,6 +641,7 @@ items:
     UpgradeCost: 150
     id: 31486
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Locus Coordinator II
     published: true
     volume: 10.0
@@ -617,6 +657,7 @@ items:
     UpgradeCost: 100
     id: 31492
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Metastasis Adjuster I
     published: true
     volume: 10.0
@@ -633,6 +674,7 @@ items:
     UpgradeCost: 150
     id: 31498
     marketGroup: 1226
+    mass: 200.0
     name: Medium Energy Metastasis Adjuster II
     published: true
     volume: 10.0
@@ -648,6 +690,7 @@ items:
     UpgradeCost: 50
     id: 31418
     marketGroup: 1225
+    mass: 200.0
     name: Small Algid Energy Administrations Unit I
     published: true
     volume: 5.0
@@ -664,6 +707,7 @@ items:
     UpgradeCost: 75
     id: 31424
     marketGroup: 1225
+    mass: 200.0
     name: Small Algid Energy Administrations Unit II
     published: true
     volume: 5.0
@@ -679,6 +723,7 @@ items:
     UpgradeCost: 50
     id: 31430
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Ambit Extension I
     published: true
     volume: 5.0
@@ -695,6 +740,7 @@ items:
     UpgradeCost: 75
     id: 31436
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Ambit Extension II
     published: true
     volume: 5.0
@@ -709,6 +755,7 @@ items:
     UpgradeCost: 200
     id: 31442
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Burst Aerator I
     published: true
     volume: 5.0
@@ -724,6 +771,7 @@ items:
     UpgradeCost: 300
     id: 31448
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Burst Aerator II
     published: true
     volume: 5.0
@@ -738,6 +786,7 @@ items:
     UpgradeCost: 200
     id: 31454
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Collision Accelerator I
     published: true
     volume: 5.0
@@ -753,6 +802,7 @@ items:
     UpgradeCost: 300
     id: 31460
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Collision Accelerator II
     published: true
     volume: 5.0
@@ -768,6 +818,7 @@ items:
     UpgradeCost: 100
     id: 31466
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Discharge Elutriation I
     published: true
     volume: 5.0
@@ -784,6 +835,7 @@ items:
     UpgradeCost: 150
     id: 31472
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Discharge Elutriation II
     published: true
     volume: 5.0
@@ -799,6 +851,7 @@ items:
     UpgradeCost: 100
     id: 31478
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Locus Coordinator I
     published: true
     volume: 5.0
@@ -815,6 +868,7 @@ items:
     UpgradeCost: 150
     id: 31484
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Locus Coordinator II
     published: true
     volume: 5.0
@@ -830,6 +884,7 @@ items:
     UpgradeCost: 100
     id: 31490
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Metastasis Adjuster I
     published: true
     volume: 5.0
@@ -846,6 +901,7 @@ items:
     UpgradeCost: 150
     id: 31496
     marketGroup: 1225
+    mass: 200.0
     name: Small Energy Metastasis Adjuster II
     published: true
     volume: 5.0

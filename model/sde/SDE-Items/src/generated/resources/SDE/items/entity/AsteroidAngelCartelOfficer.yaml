@@ -1,21 +1,25 @@
 items:
   Gotan Kreiss:
     id: 13541
+    mass: 1.9E7
     name: Gotan Kreiss
     published: false
     volume: 1.9E7
   Hakim Stormare:
     id: 13538
+    mass: 1.9E7
     name: Hakim Stormare
     published: false
     volume: 1.9E7
   Mizuro Cybon:
     id: 13536
+    mass: 1.9E7
     name: Mizuro Cybon
     published: false
     volume: 1.9E7
   Tobias Kruzhor:
     id: 13544
+    mass: 1.9E7
     name: Tobias Kruzhor
     published: false
     volume: 1.9E7

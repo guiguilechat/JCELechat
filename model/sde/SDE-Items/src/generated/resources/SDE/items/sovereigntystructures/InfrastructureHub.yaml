@@ -8,6 +8,7 @@ items:
     SignatureRadius: 4000
     id: 32458
     marketGroup: 1275
+    mass: 1000000.0
     name: Infrastructure Hub
     published: true
     volume: 60000.0

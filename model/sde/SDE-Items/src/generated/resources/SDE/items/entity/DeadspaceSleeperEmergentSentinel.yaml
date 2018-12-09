@@ -1,21 +1,25 @@
 items:
   Emergent Keeper:
     id: 30216
+    mass: 1910000.0
     name: Emergent Keeper
     published: false
     volume: 19100.0
   Emergent Retainer:
     id: 41338
+    mass: 1910000.0
     name: Emergent Retainer
     published: false
     volume: 19100.0
   Emergent Sentinel:
     id: 30215
+    mass: 1910000.0
     name: Emergent Sentinel
     published: false
     volume: 19100.0
   Emergent Warden:
     id: 30217
+    mass: 1910000.0
     name: Emergent Warden
     published: false
     volume: 19100.0

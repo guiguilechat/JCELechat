@@ -14,6 +14,7 @@ items:
     TechLevel: 1
     id: 23898
     marketGroup: 659
+    mass: 20.0
     name: '''Portcullis'' Reactor Control Unit I'
     published: true
     volume: 5.0
@@ -32,6 +33,7 @@ items:
     TechLevel: 1
     id: 15122
     marketGroup: 659
+    mass: 20.0
     name: Ahremen's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -50,6 +52,7 @@ items:
     TechLevel: 1
     id: 17522
     marketGroup: 659
+    mass: 20.0
     name: Ammatar Navy Reactor Control Unit
     published: true
     volume: 5.0
@@ -68,6 +71,7 @@ items:
     TechLevel: 1
     id: 1351
     marketGroup: 659
+    mass: 20.0
     name: Basic Reactor Control Unit
     published: true
     volume: 5.0
@@ -86,6 +90,7 @@ items:
     TechLevel: 1
     id: 15112
     marketGroup: 659
+    mass: 20.0
     name: Brokara's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -104,6 +109,7 @@ items:
     TechLevel: 1
     id: 15300
     marketGroup: 659
+    mass: 20.0
     name: Brynn's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -122,6 +128,7 @@ items:
     TechLevel: 1
     id: 15124
     marketGroup: 659
+    mass: 20.0
     name: Chelm's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -140,6 +147,7 @@ items:
     TechLevel: 1
     id: 15306
     marketGroup: 659
+    mass: 20.0
     name: Cormack's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -158,6 +166,7 @@ items:
     TechLevel: 1
     id: 14128
     marketGroup: 659
+    mass: 20.0
     name: Dark Blood Reactor Control Unit
     published: true
     volume: 5.0
@@ -176,6 +185,7 @@ items:
     TechLevel: 1
     id: 15126
     marketGroup: 659
+    mass: 20.0
     name: Draclira's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -193,6 +203,7 @@ items:
     TechLevel: 1
     id: 8263
     marketGroup: 659
+    mass: 20.0
     name: Mark I Compact Reactor Control Unit
     published: true
     volume: 5.0
@@ -211,6 +222,7 @@ items:
     TechLevel: 1
     id: 15118
     marketGroup: 659
+    mass: 20.0
     name: Raysere's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -227,6 +239,7 @@ items:
     TechLevel: 1
     id: 1353
     marketGroup: 659
+    mass: 20.0
     name: Reactor Control Unit I
     published: true
     volume: 5.0
@@ -244,6 +257,7 @@ items:
     TechLevel: 2
     id: 1355
     marketGroup: 659
+    mass: 20.0
     name: Reactor Control Unit II
     published: true
     volume: 5.0
@@ -262,6 +276,7 @@ items:
     TechLevel: 1
     id: 15116
     marketGroup: 659
+    mass: 20.0
     name: Selynne's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -280,6 +295,7 @@ items:
     TechLevel: 1
     id: 15304
     marketGroup: 659
+    mass: 20.0
     name: Setele's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -298,6 +314,7 @@ items:
     TechLevel: 1
     id: 14132
     marketGroup: 659
+    mass: 20.0
     name: Shadow Serpentis Reactor Control Unit
     published: true
     volume: 5.0
@@ -316,6 +333,7 @@ items:
     TechLevel: 1
     id: 28776
     marketGroup: 659
+    mass: 20.0
     name: Syndicate Reactor Control Unit
     published: true
     volume: 5.0
@@ -334,6 +352,7 @@ items:
     TechLevel: 1
     id: 15114
     marketGroup: 659
+    mass: 20.0
     name: Tairei's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -352,6 +371,7 @@ items:
     TechLevel: 1
     id: 14130
     marketGroup: 659
+    mass: 20.0
     name: True Sansha Reactor Control Unit
     published: true
     volume: 5.0
@@ -370,6 +390,7 @@ items:
     TechLevel: 1
     id: 15302
     marketGroup: 659
+    mass: 20.0
     name: Tuvan's Modified Reactor Control Unit
     published: true
     volume: 5.0
@@ -388,6 +409,7 @@ items:
     TechLevel: 1
     id: 15120
     marketGroup: 659
+    mass: 20.0
     name: Vizan's Modified Reactor Control Unit
     published: true
     volume: 5.0

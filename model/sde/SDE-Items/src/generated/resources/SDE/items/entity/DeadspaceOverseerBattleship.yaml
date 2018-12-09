@@ -1,441 +1,529 @@
 items:
   '''Screaming'' Dewak Humfry':
     id: 19592
+    mass: 2.1E7
     name: '''Screaming'' Dewak Humfry'
     published: false
     volume: 1040000.0
   Abufyr Joek:
     id: 26119
+    mass: 2.1E7
     name: Abufyr Joek
     published: false
     volume: 100100.0
   Akkeshu Karuan:
     id: 25407
+    mass: 2.1E7
     name: Akkeshu Karuan
     published: false
     volume: 2.2E7
   Angel Cartel Jailor:
     id: 17973
+    mass: 1.9E7
     name: Angel Cartel Jailor
     published: false
     volume: 1.9E7
   Angel Colonel:
     id: 26800
+    mass: 1.9E7
     name: Angel Colonel
     published: false
     volume: 1.9E7
   Baron Haztari Arkhi:
     id: 22759
+    mass: 1.75E7
     name: Baron Haztari Arkhi
     published: false
     volume: 1150000.0
   Black Caesar:
     id: 26797
+    mass: 1.75E7
     name: Black Caesar
     published: false
     volume: 1140000.0
   Black Jack:
     id: 25818
+    mass: 1.9E7
     name: Black Jack
     published: false
     volume: 1.9E7
   Blood Factory Overseer:
     id: 26714
+    mass: 2.05E7
     name: Blood Factory Overseer
     published: false
     volume: 1100000.0
   Captain Blood Raven:
     id: 26832
+    mass: 1.95E7
     name: Captain Blood Raven
     published: false
     volume: 1150000.0
   Captain Rouge:
     id: 17413
+    mass: 1.9E7
     name: Captain Rouge
     published: false
     volume: 1.9E7
   Centus Colony General:
     id: 26716
+    mass: 2.1E7
     name: Centus Colony General
     published: false
     volume: 100100.0
   Colonial Master Diabolus Maytor:
     id: 26793
+    mass: 2.1E7
     name: Colonial Master Diabolus Maytor
     published: false
     volume: 100100.0
   Commander Terachi TashMurkon:
     id: 15413
+    mass: 1.75E7
     name: Commander Terachi TashMurkon
     published: false
     volume: 1150000.0
   Crimson Lord:
     id: 17900
+    mass: 1.95E7
     name: Crimson Lord
     published: false
     volume: 1150000.0
   Dark Blood Colonel:
     id: 26803
+    mass: 2.05E7
     name: Dark Blood Colonel
     published: false
     volume: 1100000.0
   Dark Blood Hunter:
     id: 3825
+    mass: 1.9E7
     name: Dark Blood Hunter
     published: false
     volume: 1.9E7
   Dark Corpus Preacher:
     id: 26683
+    mass: 1.95E7
     name: Dark Corpus Preacher
     published: false
     volume: 1150000.0
   Dark Templar Uthius:
     id: 26881
+    mass: 1.95E7
     name: Dark Templar Uthius
     published: false
     volume: 1150000.0
   Dread Guristas Colonel:
     id: 26799
+    mass: 2.1E7
     name: Dread Guristas Colonel
     published: false
     volume: 2.2E7
   Dread Guristas Commanding Officer:
     id: 3821
+    mass: 1.9E7
     name: Dread Guristas Commanding Officer
     published: false
     volume: 1.9E7
   Dread Pith Protagonist:
     id: 26689
+    mass: 2.1E7
     name: Dread Pith Protagonist
     published: false
     volume: 2.2E7
   Drone Commandeered Battleship:
     id: 19620
+    mass: 2.1E7
     name: Drone Commandeered Battleship
     published: false
     volume: 1010000.0
   Drone Commandeered Battleship Deluxe:
     id: 28506
+    mass: 2.1E7
     name: Drone Commandeered Battleship Deluxe
     published: false
     volume: 1010000.0
   Effotber's Transit Overseer:
     id: 20079
+    mass: 2.1E7
     name: Effotber's Transit Overseer
     published: false
     volume: 100100.0
   Fleet Commander Naiyon Tai:
     id: 15415
+    mass: 2.1E7
     name: Fleet Commander Naiyon Tai
     published: false
     volume: 1080000.0
   General Hixous Puxley:
     id: 17745
+    mass: 1.9E7
     name: General Hixous Puxley
     published: false
     volume: 1.9E7
   General Luther Veron:
     id: 15396
+    mass: 2.1E7
     name: General Luther Veron
     published: false
     volume: 1140000.0
   General Matar Pol:
     id: 22716
+    mass: 2.1E7
     name: General Matar Pol
     published: false
     volume: 850000.0
   Gist Domination Murderer:
     id: 26679
+    mass: 1.9E7
     name: Gist Domination Murderer
     published: false
     volume: 1.9E7
   Hashi Keptzh:
     id: 28863
+    mass: 1.9E7
     name: Hashi Keptzh
     published: false
     volume: 1.9E7
   Hierarchy Hive Queen:
     id: 26772
+    mass: 2.1E7
     name: Hierarchy Hive Queen
     published: false
     volume: 1010000.0
   High Ritualist Padio Atour:
     id: 26745
+    mass: 1.95E7
     name: High Ritualist Padio Atour
     published: false
     volume: 1150000.0
   Independence Queen:
     id: 26770
+    mass: 2.1E7
     name: Independence Queen
     published: false
     volume: 1010000.0
   Jorun 'Red Legs' Greaves:
     id: 26807
+    mass: 1.9E7
     name: Jorun 'Red Legs' Greaves
     published: false
     volume: 1.9E7
   Kalorr Makur:
     id: 25848
+    mass: 1.95E7
     name: Kalorr Makur
     published: false
     volume: 1150000.0
   Lazron Kamon_:
     id: 26264
+    mass: 1.9E7
     name: Lazron Kamon_
     published: false
     volume: 1.9E7
   Martokar Alash:
     id: 26118
+    mass: 1.9E7
     name: Martokar Alash
     published: false
     volume: 1.9E7
   Mutated Drone Parasite:
     id: 25374
+    mass: 2.1E7
     name: Mutated Drone Parasite
     published: false
     volume: 1010000.0
   Naberius Marquis:
     id: 26798
+    mass: 2.1E7
     name: Naberius Marquis
     published: false
     volume: 100100.0
   Overseer Skomener Effotber:
     id: 20080
+    mass: 2.1E7
     name: Overseer Skomener Effotber
     published: false
     volume: 100100.0
   Pashan's Battle-Commander:
     id: 25865
+    mass: 2.1E7
     name: Pashan's Battle-Commander
     published: false
     volume: 100100.0
   Phi-Operation Protector:
     id: 17412
+    mass: 1.75E7
     name: Phi-Operation Protector
     published: false
     volume: 1140000.0
   Piran Ketoisa:
     id: 25873
+    mass: 2.1E7
     name: Piran Ketoisa
     published: false
     volume: 2.2E7
   Privateer Admiral Heysus Sarpati:
     id: 26796
+    mass: 1.75E7
     name: Privateer Admiral Heysus Sarpati
     published: false
     volume: 1140000.0
   Purple Particle Research Patrol:
     id: 17744
+    mass: 1.9E7
     name: Purple Particle Research Patrol
     published: false
     volume: 1.9E7
   Radiant Hive Mother:
     id: 26771
+    mass: 2.1E7
     name: Radiant Hive Mother
     published: false
     volume: 1010000.0
   Rogue Drone Liaisons Captain:
     id: 26769
+    mass: 2.1E7
     name: Rogue Drone Liaisons Captain
     published: false
     volume: 1010000.0
   Rogue Drone Saboteur:
     id: 25886
+    mass: 2.1E7
     name: Rogue Drone Saboteur
     published: false
     volume: 1010000.0
   Rubin Sozar:
     id: 26844
+    mass: 1.9E7
     name: Rubin Sozar
     published: false
     volume: 1.9E7
   Sansha Corpse Collector:
     id: 19731
+    mass: 2.1E7
     name: Sansha Corpse Collector
     published: false
     volume: 100100.0
   Sansha Shipyard Foreman:
     id: 26757
+    mass: 2.1E7
     name: Sansha Shipyard Foreman
     published: false
     volume: 100100.0
   Sansha's Slave Master:
     id: 25995
+    mass: 2.1E7
     name: Sansha's Slave Master
     published: false
     volume: 100100.0
   Security Maintenance Facility Overseer:
     id: 25578
+    mass: 1.9E7
     name: Security Maintenance Facility Overseer
     published: false
     volume: 1.9E7
   Security Mining Facility Overseer:
     id: 25581
+    mass: 1.9E7
     name: Security Mining Facility Overseer
     published: false
     volume: 1.9E7
   Security Overseer:
     id: 25549
+    mass: 1.9E7
     name: Security Overseer
     published: false
     volume: 1.9E7
   Sepentis Regional Baron Arain Percourt:
     id: 26812
+    mass: 1.75E7
     name: Sepentis Regional Baron Arain Percourt
     published: false
     volume: 1140000.0
   Serpentis Deadspace Sergeant:
     id: 20174
+    mass: 1.75E7
     name: Serpentis Deadspace Sergeant
     published: false
     volume: 1140000.0
   Serpentis Executive Officer:
     id: 18565
+    mass: 1.75E7
     name: Serpentis Executive Officer
     published: false
     volume: 1140000.0
   Serpentis Holder:
     id: 26833
+    mass: 1.75E7
     name: Serpentis Holder
     published: false
     volume: 1140000.0
   Serpentis Major:
     id: 20173
+    mass: 1.75E7
     name: Serpentis Major
     published: false
     volume: 1140000.0
   Serpentis Procurer:
     id: 25870
+    mass: 1.9E7
     name: Serpentis Procurer
     published: false
     volume: 1010000.0
   Serpentis Regional Baron - Arain Percourt:
     id: 26818
+    mass: 1.75E7
     name: Serpentis Regional Baron - Arain Percourt
     published: false
     volume: 1140000.0
   Serpentis Shipyard Defender:
     id: 19424
+    mass: 1.75E7
     name: Serpentis Shipyard Defender
     published: false
     volume: 1140000.0
   Serpentis Thief:
     id: 25881
+    mass: 1.75E7
     name: Serpentis Thief
     published: false
     volume: 1140000.0
   Serpentis Tournament Host:
     id: 26810
+    mass: 1.9E7
     name: Serpentis Tournament Host
     published: false
     volume: 1010000.0
   Shadow Grand Admiral:
     id: 26694
+    mass: 1.75E7
     name: Shadow Grand Admiral
     published: false
     volume: 1140000.0
   Shadow Serpentis Big Boss:
     id: 3827
+    mass: 1.9E7
     name: Shadow Serpentis Big Boss
     published: false
     volume: 1.9E7
   Shadow Serpentis Colonel:
     id: 26801
+    mass: 1.75E7
     name: Shadow Serpentis Colonel
     published: false
     volume: 1140000.0
   Shadow Serpentis Thief:
     id: 25884
+    mass: 1.75E7
     name: Shadow Serpentis Thief
     published: false
     volume: 1140000.0
   Supply Headman:
     id: 17746
+    mass: 1.9E7
     name: Supply Headman
     published: false
     volume: 1.9E7
   Supreme Hive Defender:
     id: 19704
+    mass: 2.1E7
     name: Supreme Hive Defender
     published: false
     volume: 1010000.0
   Supreme Hive Defender Deluxe:
     id: 28509
+    mass: 2.1E7
     name: Supreme Hive Defender Deluxe
     published: false
     volume: 1010000.0
   Swarm Parasite Worker:
     id: 19701
+    mass: 2.1E7
     name: Swarm Parasite Worker
     published: false
     volume: 1010000.0
   Swarm Parasite Worker Deluxe:
     id: 28507
+    mass: 2.1E7
     name: Swarm Parasite Worker Deluxe
     published: false
     volume: 1010000.0
   Terrorist Overlord Inzi Kika:
     id: 26749
+    mass: 2.1E7
     name: Terrorist Overlord Inzi Kika
     published: false
     volume: 2.2E7
   TestProphetBlood:
     id: 25808
+    mass: 1.95E7
     name: TestProphetBlood
     published: false
     volume: 1150000.0
   The Antimatter Channeler:
     id: 17749
+    mass: 1.9E7
     name: The Antimatter Channeler
     published: false
     volume: 1.9E7
   The Battlestation Admiral:
     id: 17142
+    mass: 1.9E7
     name: The Battlestation Admiral
     published: false
     volume: 1.9E7
   The Stronghold General:
     id: 17162
+    mass: 1.9E7
     name: The Stronghold General
     published: false
     volume: 1.9E7
   Tritan - The Underground Overseer:
     id: 17141
+    mass: 1.9E7
     name: Tritan - The Underground Overseer
     published: false
     volume: 1.9E7
   True Centus Preacher:
     id: 26692
+    mass: 2.1E7
     name: True Centus Preacher
     published: false
     volume: 100100.0
   True Creation's Park Overseer:
     id: 20078
+    mass: 2.1E7
     name: True Creation's Park Overseer
     published: false
     volume: 100100.0
   True Sansha Archduke:
     id: 3823
+    mass: 1.9E7
     name: True Sansha Archduke
     published: false
     volume: 1.9E7
   True Sansha's Colonel:
     id: 26802
+    mass: 2.1E7
     name: True Sansha's Colonel
     published: false
     volume: 100100.0
   Uehiro Katsen:
     id: 28864
+    mass: 1.75E7
     name: Uehiro Katsen
     published: false
     volume: 1140000.0
   Warlord Shaqil Dragat:
     id: 15414
+    mass: 2.1E7
     name: Warlord Shaqil Dragat
     published: false
     volume: 850000.0
   Watch Officer:
     id: 19423
+    mass: 1.9E7
     name: Watch Officer
     published: false
     volume: 1.9E7

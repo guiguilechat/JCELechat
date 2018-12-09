@@ -3,6 +3,7 @@ items:
     Gender: 1
     id: 34824
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Emergent Threats' T-shirt YC 117
     published: true
     volume: 0.1
@@ -17,6 +18,7 @@ items:
     Gender: 1
     id: 4180
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (black)
     published: true
     volume: 0.1
@@ -24,6 +26,7 @@ items:
     Gender: 1
     id: 4181
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (blue)
     published: true
     volume: 0.1
@@ -31,6 +34,7 @@ items:
     Gender: 1
     id: 4182
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (brown)
     published: true
     volume: 0.1
@@ -38,6 +42,7 @@ items:
     Gender: 1
     id: 4183
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (dark blue)
     published: true
     volume: 0.1
@@ -45,6 +50,7 @@ items:
     Gender: 1
     id: 4188
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (dark camo)
     published: true
     volume: 0.1
@@ -52,6 +58,7 @@ items:
     Gender: 1
     id: 4184
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (dark red)
     published: true
     volume: 0.1
@@ -59,6 +66,7 @@ items:
     Gender: 1
     id: 4189
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (desert camo)
     published: true
     volume: 0.1
@@ -66,6 +74,7 @@ items:
     Gender: 1
     id: 4185
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (khaki)
     published: true
     volume: 0.1
@@ -73,6 +82,7 @@ items:
     Gender: 1
     id: 4186
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (light gray)
     published: true
     volume: 0.1
@@ -80,6 +90,7 @@ items:
     Gender: 1
     id: 4187
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (olive)
     published: true
     volume: 0.1
@@ -87,6 +98,7 @@ items:
     Gender: 1
     id: 4190
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Form' T-shirt (white)
     published: true
     volume: 0.1
@@ -94,6 +106,7 @@ items:
     Gender: 1
     id: 36480
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Hephaestus' Shirt (blue)
     published: true
     volume: 0.1
@@ -101,6 +114,7 @@ items:
     Gender: 1
     id: 36483
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Hephaestus' Shirt (cyan)
     published: true
     volume: 0.1
@@ -108,6 +122,7 @@ items:
     Gender: 1
     id: 36482
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Hephaestus' Shirt (desert)
     published: true
     volume: 0.1
@@ -115,6 +130,7 @@ items:
     Gender: 1
     id: 36485
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Hephaestus' Shirt (gray/orange)
     published: true
     volume: 0.1
@@ -122,6 +138,7 @@ items:
     Gender: 1
     id: 36484
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Hephaestus' Shirt (green)
     published: true
     volume: 0.1
@@ -129,6 +146,7 @@ items:
     Gender: 1
     id: 36481
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Hephaestus' Shirt (white/red)
     published: true
     volume: 0.1
@@ -150,6 +168,7 @@ items:
     Gender: 1
     id: 33488
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Luxury' T-shirt
     published: true
     volume: 0.1
@@ -157,6 +176,7 @@ items:
     Gender: 1
     id: 40526
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Mirelle' T-Shirt (Upwell)
     published: true
     volume: 0.1
@@ -164,6 +184,7 @@ items:
     Gender: 1
     id: 33769
     marketGroup: 1662
+    mass: 0.5
     name: Men's 'New Eden Open I' T-shirt YC 114
     published: true
     volume: 0.1
@@ -171,6 +192,7 @@ items:
     Gender: 1
     id: 33770
     marketGroup: 1662
+    mass: 0.5
     name: Men's 'New Eden Open II' T-shirt YC 116
     published: true
     volume: 0.1
@@ -178,6 +200,7 @@ items:
     Gender: 1
     id: 4067
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Quafe' T-shirt YC 113
     published: true
     volume: 0.1
@@ -185,6 +208,7 @@ items:
     Gender: 1
     id: 4365
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Quafe' T-shirt YC 114
     published: true
     volume: 0.1
@@ -192,6 +216,7 @@ items:
     Gender: 2
     id: 33107
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Quafe' T-shirt YC 115
     published: true
     volume: 0.1
@@ -199,6 +224,7 @@ items:
     Gender: 1
     id: 33812
     marketGroup: 1662
+    mass: 0.5
     name: Men's 'Quafe' T-shirt YC 116
     published: true
     volume: 0.1
@@ -206,6 +232,7 @@ items:
     Gender: 1
     id: 34210
     marketGroup: 1662
+    mass: 0.5
     name: Men's 'Quafethron' T-shirt
     published: true
     volume: 0.1
@@ -213,6 +240,7 @@ items:
     Gender: 1
     id: 33062
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Red Star' T-shirt
     published: true
     volume: 0.1
@@ -220,6 +248,7 @@ items:
     Gender: 1
     id: 37866
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Serpentis' T-shirt (olive/black)
     published: true
     volume: 0.1
@@ -227,6 +256,7 @@ items:
     Gender: 1
     id: 4068
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (Ishukone Special Edition)
     published: true
     volume: 0.1
@@ -234,6 +264,7 @@ items:
     Gender: 1
     id: 4057
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (black)
     published: true
     volume: 0.1
@@ -241,6 +272,7 @@ items:
     Gender: 1
     id: 4059
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (dust)
     published: true
     volume: 0.1
@@ -248,6 +280,7 @@ items:
     Gender: 1
     id: 4240
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (gold leather)
     published: true
     volume: 0.1
@@ -255,6 +288,7 @@ items:
     Gender: 1
     id: 4241
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (gray)
     published: true
     volume: 0.1
@@ -262,6 +296,7 @@ items:
     Gender: 1
     id: 4058
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (navy)
     published: true
     volume: 0.1
@@ -269,6 +304,7 @@ items:
     Gender: 1
     id: 4060
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (olive)
     published: true
     volume: 0.1
@@ -276,6 +312,7 @@ items:
     Gender: 1
     id: 4242
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (red/black leather)
     published: true
     volume: 0.1
@@ -283,6 +320,7 @@ items:
     Gender: 1
     id: 4367
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (white)
     published: true
     volume: 0.1
@@ -290,6 +328,7 @@ items:
     Gender: 1
     id: 4243
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Sterling' Dress Shirt (white/blue)
     published: true
     volume: 0.1
@@ -297,6 +336,7 @@ items:
     Gender: 1
     id: 4191
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (black)
     published: true
     volume: 0.1
@@ -304,6 +344,7 @@ items:
     Gender: 1
     id: 4192
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (blue)
     published: true
     volume: 0.1
@@ -311,6 +352,7 @@ items:
     Gender: 1
     id: 4197
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (brown camo)
     published: true
     volume: 0.1
@@ -318,6 +360,7 @@ items:
     Gender: 1
     id: 4193
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (brown)
     published: true
     volume: 0.1
@@ -325,6 +368,7 @@ items:
     Gender: 1
     id: 4196
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (gray urban camo)
     published: true
     volume: 0.1
@@ -332,6 +376,7 @@ items:
     Gender: 1
     id: 4194
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (gray)
     published: true
     volume: 0.1
@@ -339,6 +384,7 @@ items:
     Gender: 1
     id: 4199
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (green camo)
     published: true
     volume: 0.1
@@ -346,6 +392,7 @@ items:
     Gender: 1
     id: 4195
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (green)
     published: true
     volume: 0.1
@@ -353,6 +400,7 @@ items:
     Gender: 1
     id: 4198
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (urban camo)
     published: true
     volume: 0.1
@@ -360,6 +408,7 @@ items:
     Gender: 1
     id: 4200
     marketGroup: 1398
+    mass: 0.5
     name: Men's 'Street' Shirt (white)
     published: true
     volume: 0.1
@@ -367,6 +416,7 @@ items:
     Gender: 2
     id: 47182
     marketGroup: 1398
+    mass: 0.5
     name: Men's Amarr 'Loyalist' T-Shirt
     published: true
     volume: 0.1
@@ -374,6 +424,7 @@ items:
     Gender: 1
     id: 37809
     marketGroup: 1398
+    mass: 0.5
     name: Men's CONCORD Test Pilot T-Shirt
     published: true
     volume: 0.1
@@ -381,6 +432,7 @@ items:
     Gender: 2
     id: 47188
     marketGroup: 1398
+    mass: 0.5
     name: Men's Caldari 'Patriot' T-Shirt
     published: true
     volume: 0.1
@@ -388,6 +440,7 @@ items:
     Gender: 2
     id: 47190
     marketGroup: 1398
+    mass: 0.5
     name: Men's Capsuleer Elite XV T-Shirt
     published: true
     volume: 0.1
@@ -395,6 +448,7 @@ items:
     Gender: 2
     id: 47480
     marketGroup: 1398
+    mass: 0.5
     name: Men's Capsuleer Networker XV T-Shirt
     published: true
     volume: 0.1
@@ -402,6 +456,7 @@ items:
     Gender: 2
     id: 45743
     marketGroup: 1398
+    mass: 0.5
     name: Men's Exoplanets Hunter T-shirt
     published: true
     volume: 0.1
@@ -409,6 +464,7 @@ items:
     Gender: 2
     id: 47184
     marketGroup: 1398
+    mass: 0.5
     name: Men's Gallente 'Defender' T-Shirt
     published: true
     volume: 0.1
@@ -416,6 +472,7 @@ items:
     Gender: 2
     id: 47183
     marketGroup: 1398
+    mass: 0.5
     name: Men's Minmatar 'Liberator' T-Shirt
     published: true
     volume: 0.1
@@ -423,6 +480,7 @@ items:
     Gender: 1
     id: 44123
     marketGroup: 1398
+    mass: 0.5
     name: Men's YC119 Yoiul Festival T-shirt
     published: true
     volume: 0.1
@@ -430,6 +488,7 @@ items:
     Gender: 3
     id: 4229
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (black and dark red)
     published: true
     volume: 0.1
@@ -437,6 +496,7 @@ items:
     Gender: 3
     id: 4217
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (black leather)
     published: true
     volume: 0.1
@@ -444,6 +504,7 @@ items:
     Gender: 3
     id: 4216
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (black)
     published: true
     volume: 0.1
@@ -451,6 +512,7 @@ items:
     Gender: 3
     id: 4218
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (blue)
     published: true
     volume: 0.1
@@ -458,6 +520,7 @@ items:
     Gender: 3
     id: 4219
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (brown)
     published: true
     volume: 0.1
@@ -465,6 +528,7 @@ items:
     Gender: 3
     id: 4226
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (camo)
     published: true
     volume: 0.1
@@ -472,6 +536,7 @@ items:
     Gender: 3
     id: 4223
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (gray camo)
     published: true
     volume: 0.1
@@ -479,6 +544,7 @@ items:
     Gender: 3
     id: 4220
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (gray)
     published: true
     volume: 0.1
@@ -486,6 +552,7 @@ items:
     Gender: 3
     id: 4221
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (green)
     published: true
     volume: 0.1
@@ -493,6 +560,7 @@ items:
     Gender: 3
     id: 4227
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (lined brown)
     published: true
     volume: 0.1
@@ -500,6 +568,7 @@ items:
     Gender: 3
     id: 4224
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (orange camo)
     published: true
     volume: 0.1
@@ -507,6 +576,7 @@ items:
     Gender: 3
     id: 4222
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (orange)
     published: true
     volume: 0.1
@@ -514,6 +584,7 @@ items:
     Gender: 3
     id: 4230
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (pink camo)
     published: true
     volume: 0.1
@@ -521,6 +592,7 @@ items:
     Gender: 3
     id: 4228
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (purple mesh)
     published: true
     volume: 0.1
@@ -528,6 +600,7 @@ items:
     Gender: 3
     id: 4225
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (red patterned)
     published: true
     volume: 0.1
@@ -535,6 +608,7 @@ items:
     Gender: 3
     id: 4231
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (red)
     published: true
     volume: 0.1
@@ -542,6 +616,7 @@ items:
     Gender: 3
     id: 4232
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Avenue' Shirt (white)
     published: true
     volume: 0.1
@@ -549,6 +624,7 @@ items:
     Gender: 3
     id: 34825
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Emergent Threats' T-shirt YC 117
     published: true
     volume: 0.1
@@ -563,6 +639,7 @@ items:
     Gender: 3
     id: 4201
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (black)
     published: true
     volume: 0.1
@@ -570,6 +647,7 @@ items:
     Gender: 3
     id: 4202
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (blue)
     published: true
     volume: 0.1
@@ -577,6 +655,7 @@ items:
     Gender: 3
     id: 4203
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (brown)
     published: true
     volume: 0.1
@@ -584,6 +663,7 @@ items:
     Gender: 3
     id: 4204
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (cream)
     published: true
     volume: 0.1
@@ -591,6 +671,7 @@ items:
     Gender: 3
     id: 4205
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (dark blue)
     published: true
     volume: 0.1
@@ -598,6 +679,7 @@ items:
     Gender: 3
     id: 4212
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (dark camo)
     published: true
     volume: 0.1
@@ -605,6 +687,7 @@ items:
     Gender: 3
     id: 4206
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (dark red)
     published: true
     volume: 0.1
@@ -612,6 +695,7 @@ items:
     Gender: 3
     id: 4213
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (desert camo)
     published: true
     volume: 0.1
@@ -619,6 +703,7 @@ items:
     Gender: 3
     id: 4207
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (gray)
     published: true
     volume: 0.1
@@ -626,6 +711,7 @@ items:
     Gender: 3
     id: 4208
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (green)
     published: true
     volume: 0.1
@@ -633,6 +719,7 @@ items:
     Gender: 3
     id: 4209
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (khaki)
     published: true
     volume: 0.1
@@ -640,6 +727,7 @@ items:
     Gender: 3
     id: 4210
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (olive)
     published: true
     volume: 0.1
@@ -647,6 +735,7 @@ items:
     Gender: 3
     id: 4211
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (orange)
     published: true
     volume: 0.1
@@ -654,6 +743,7 @@ items:
     Gender: 3
     id: 4214
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (red)
     published: true
     volume: 0.1
@@ -661,6 +751,7 @@ items:
     Gender: 3
     id: 4215
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Function' T-shirt (white)
     published: true
     volume: 0.1
@@ -668,6 +759,7 @@ items:
     Gender: 3
     id: 36486
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Hephaestus' Shirt (blue)
     published: true
     volume: 0.1
@@ -675,6 +767,7 @@ items:
     Gender: 3
     id: 36489
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Hephaestus' Shirt (cyan)
     published: true
     volume: 0.1
@@ -682,6 +775,7 @@ items:
     Gender: 3
     id: 36488
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Hephaestus' Shirt (desert)
     published: true
     volume: 0.1
@@ -689,6 +783,7 @@ items:
     Gender: 3
     id: 36491
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Hephaestus' Shirt (gray/orange)
     published: true
     volume: 0.1
@@ -696,6 +791,7 @@ items:
     Gender: 3
     id: 36490
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Hephaestus' Shirt (green)
     published: true
     volume: 0.1
@@ -703,6 +799,7 @@ items:
     Gender: 3
     id: 36487
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Hephaestus' Shirt (white/red)
     published: true
     volume: 0.1
@@ -724,6 +821,7 @@ items:
     Gender: 3
     id: 33487
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Luxury' T-shirt
     published: true
     volume: 0.1
@@ -731,6 +829,7 @@ items:
     Gender: 3
     id: 40527
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Mirelle' T-Shirt (Upwell)
     published: true
     volume: 0.1
@@ -738,6 +837,7 @@ items:
     Gender: 3
     id: 33767
     marketGroup: 1662
+    mass: 0.5
     name: Women's 'New Eden Open I' T-shirt YC 114
     published: true
     volume: 0.1
@@ -745,6 +845,7 @@ items:
     Gender: 3
     id: 33768
     marketGroup: 1662
+    mass: 0.5
     name: Women's 'New Eden Open II' T-shirt YC 116
     published: true
     volume: 0.1
@@ -752,6 +853,7 @@ items:
     Gender: 3
     id: 4066
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Quafe' T-shirt YC 113
     published: true
     volume: 0.1
@@ -759,6 +861,7 @@ items:
     Gender: 3
     id: 4366
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Quafe' T-shirt YC 114
     published: true
     volume: 0.1
@@ -766,6 +869,7 @@ items:
     Gender: 2
     id: 33109
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Quafe' T-shirt YC 115
     published: true
     volume: 0.1
@@ -773,6 +877,7 @@ items:
     Gender: 3
     id: 33813
     marketGroup: 1662
+    mass: 0.5
     name: Women's 'Quafe' T-shirt YC 116
     published: true
     volume: 0.1
@@ -780,6 +885,7 @@ items:
     Gender: 3
     id: 34211
     marketGroup: 1662
+    mass: 0.5
     name: Women's 'Quafethron' T-shirt
     published: true
     volume: 0.1
@@ -787,6 +893,7 @@ items:
     Gender: 3
     id: 33063
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Red Star' T-shirt
     published: true
     volume: 0.1
@@ -794,6 +901,7 @@ items:
     Gender: 3
     id: 37865
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Serpentis' T-shirt (olive/black)
     published: true
     volume: 0.1
@@ -808,6 +916,7 @@ items:
     Gender: 3
     id: 4155
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black leather)
     published: true
     volume: 0.1
@@ -815,6 +924,7 @@ items:
     Gender: 3
     id: 4061
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black)
     published: true
     volume: 0.1
@@ -822,6 +932,7 @@ items:
     Gender: 3
     id: 4156
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black/white)
     published: true
     volume: 0.1
@@ -829,6 +940,7 @@ items:
     Gender: 3
     id: 4063
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (dust)
     published: true
     volume: 0.1
@@ -836,6 +948,7 @@ items:
     Gender: 3
     id: 4157
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (gold)
     published: true
     volume: 0.1
@@ -843,6 +956,7 @@ items:
     Gender: 3
     id: 4158
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (graphite)
     published: true
     volume: 0.1
@@ -850,6 +964,7 @@ items:
     Gender: 3
     id: 4159
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (green satin)
     published: true
     volume: 0.1
@@ -857,6 +972,7 @@ items:
     Gender: 3
     id: 4160
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte black)
     published: true
     volume: 0.1
@@ -864,6 +980,7 @@ items:
     Gender: 3
     id: 4161
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte blue)
     published: true
     volume: 0.1
@@ -871,6 +988,7 @@ items:
     Gender: 3
     id: 4162
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte olive)
     published: true
     volume: 0.1
@@ -878,6 +996,7 @@ items:
     Gender: 3
     id: 4062
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (navy)
     published: true
     volume: 0.1
@@ -885,6 +1004,7 @@ items:
     Gender: 3
     id: 4064
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (olive)
     published: true
     volume: 0.1
@@ -892,6 +1012,7 @@ items:
     Gender: 3
     id: 4163
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (orange satin)
     published: true
     volume: 0.1
@@ -899,6 +1020,7 @@ items:
     Gender: 3
     id: 4065
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (platinum)
     published: true
     volume: 0.1
@@ -906,6 +1028,7 @@ items:
     Gender: 3
     id: 4164
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (red satin)
     published: true
     volume: 0.1
@@ -913,6 +1036,7 @@ items:
     Gender: 3
     id: 4368
     marketGroup: 1406
+    mass: 0.5
     name: Women's 'Sterling' Dress Blouse (white)
     published: true
     volume: 0.1
@@ -920,6 +1044,7 @@ items:
     Gender: 2
     id: 47186
     marketGroup: 1406
+    mass: 0.5
     name: Women's Amarr 'Loyalist' T-Shirt
     published: true
     volume: 0.1
@@ -927,6 +1052,7 @@ items:
     Gender: 3
     id: 37808
     marketGroup: 1406
+    mass: 0.5
     name: Women's CONCORD Test Pilot T-Shirt
     published: true
     volume: 0.1
@@ -934,6 +1060,7 @@ items:
     Gender: 2
     id: 47189
     marketGroup: 1406
+    mass: 0.5
     name: Women's Caldari 'Patriot' T-Shirt
     published: true
     volume: 0.1
@@ -941,6 +1068,7 @@ items:
     Gender: 2
     id: 47192
     marketGroup: 1406
+    mass: 0.5
     name: Women's Capsuleer Elite XV T-Shirt
     published: true
     volume: 0.1
@@ -948,6 +1076,7 @@ items:
     Gender: 2
     id: 47479
     marketGroup: 1406
+    mass: 0.5
     name: Women's Capsuleer Networker XV T-Shirt
     published: true
     volume: 0.1
@@ -955,6 +1084,7 @@ items:
     Gender: 2
     id: 45734
     marketGroup: 1406
+    mass: 0.5
     name: Women's Exoplanets Hunter T-shirt
     published: true
     volume: 0.1
@@ -962,6 +1092,7 @@ items:
     Gender: 2
     id: 47185
     marketGroup: 1406
+    mass: 0.5
     name: Women's Gallente 'Defender' T-Shirt
     published: true
     volume: 0.1
@@ -969,6 +1100,7 @@ items:
     Gender: 2
     id: 47187
     marketGroup: 1406
+    mass: 0.5
     name: Women's Minmatar 'Liberator' T-Shirt
     published: true
     volume: 0.1
@@ -976,6 +1108,7 @@ items:
     Gender: 3
     id: 44120
     marketGroup: 1406
+    mass: 0.5
     name: Women's YC119 Yoiul Festival T-shirt
     published: true
     volume: 0.1

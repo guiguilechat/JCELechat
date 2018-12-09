@@ -38,6 +38,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     id: 49722
+    mass: 1.0
     name: Abyssal Magnetic Field Stabilizer
     published: true
     volume: 1.0

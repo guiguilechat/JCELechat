@@ -10,6 +10,7 @@ items:
     TechLevel: 1
     id: 35795
     marketGroup: 1094
+    mass: 1.0
     name: Missile Precision Script
     published: true
     volume: 1.0
@@ -24,6 +25,7 @@ items:
     TechLevel: 1
     id: 35794
     marketGroup: 1094
+    mass: 1.0
     name: Missile Range Script
     published: true
     volume: 1.0

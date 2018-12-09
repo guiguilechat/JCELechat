@@ -12,6 +12,7 @@ items:
     WarpScrambleRangeBonus: 50
     id: 29003
     marketGroup: 1094
+    mass: 1.0
     name: Focused Warp Disruption Script
     published: true
     volume: 1.0
@@ -28,6 +29,7 @@ items:
     WarpScrambleRangeBonus: -20
     id: 45010
     marketGroup: 1094
+    mass: 1.0
     name: Focused Warp Scrambling Script
     published: true
     volume: 1.0

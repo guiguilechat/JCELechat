@@ -12,6 +12,7 @@ items:
     TechLevel: 1
     id: 21484
     marketGroup: 645
+    mass: 1.0
     name: '''Full Duplex'' Ballistic Control System'
     published: true
     volume: 5.0
@@ -21,6 +22,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     id: 49738
+    mass: 1.0
     name: Abyssal Ballistic Control System
     published: true
     volume: 1.0
@@ -34,6 +36,7 @@ items:
     TechLevel: 1
     id: 12274
     marketGroup: 645
+    mass: 1.0
     name: Ballistic Control System I
     published: true
     volume: 5.0
@@ -48,6 +51,7 @@ items:
     TechLevel: 2
     id: 22291
     marketGroup: 645
+    mass: 1.0
     name: Ballistic Control System II
     published: true
     volume: 5.0
@@ -67,6 +71,7 @@ items:
     TechLevel: 1
     id: 47447
     marketGroup: 645
+    mass: 1.0
     name: C3-A 'Hivaa Saitsuo' Ballistic Control System
     published: true
     volume: 5.0
@@ -86,6 +91,7 @@ items:
     TechLevel: 1
     id: 47448
     marketGroup: 645
+    mass: 1.0
     name: C3-X 'Hivaa Saitsuo' Ballistic Control System
     published: true
     volume: 5.0
@@ -101,6 +107,7 @@ items:
     TechLevel: 1
     id: 15681
     marketGroup: 645
+    mass: 1.0
     name: Caldari Navy Ballistic Control System
     published: true
     volume: 5.0
@@ -116,6 +123,7 @@ items:
     TechLevel: 1
     id: 16457
     marketGroup: 645
+    mass: 1.0
     name: Crosslink Compact Ballistic Control System
     published: true
     volume: 5.0
@@ -132,6 +140,7 @@ items:
     TechLevel: 1
     id: 13935
     marketGroup: 645
+    mass: 1.0
     name: Domination Ballistic Control System
     published: true
     volume: 5.0
@@ -147,6 +156,7 @@ items:
     TechLevel: 1
     id: 13937
     marketGroup: 645
+    mass: 1.0
     name: Dread Guristas Ballistic Control System
     published: true
     volume: 5.0
@@ -162,6 +172,7 @@ items:
     TechLevel: 1
     id: 14690
     marketGroup: 645
+    mass: 1.0
     name: Estamel's Modified Ballistic Control System
     published: true
     volume: 5.0
@@ -178,6 +189,7 @@ items:
     TechLevel: 1
     id: 14532
     marketGroup: 645
+    mass: 1.0
     name: Gotan's Modified Ballistic Control System
     published: true
     volume: 5.0
@@ -194,6 +206,7 @@ items:
     TechLevel: 1
     id: 14528
     marketGroup: 645
+    mass: 1.0
     name: Hakim's Modified Ballistic Control System
     published: true
     volume: 5.0
@@ -210,6 +223,7 @@ items:
     TechLevel: 1
     id: 46270
     marketGroup: 645
+    mass: 1.0
     name: Kaatara's Custom Ballistic Control System
     published: true
     volume: 5.0
@@ -225,6 +239,7 @@ items:
     TechLevel: 1
     id: 14684
     marketGroup: 645
+    mass: 1.0
     name: Kaikka's Modified Ballistic Control System
     published: true
     volume: 5.0
@@ -240,6 +255,7 @@ items:
     TechLevel: 1
     id: 28563
     marketGroup: 645
+    mass: 1.0
     name: Khanid Navy Ballistic Control System
     published: true
     volume: 5.0
@@ -256,6 +272,7 @@ items:
     TechLevel: 1
     id: 14530
     marketGroup: 645
+    mass: 1.0
     name: Mizuro's Modified Ballistic Control System
     published: true
     volume: 5.0
@@ -272,6 +289,7 @@ items:
     TechLevel: 1
     id: 15683
     marketGroup: 645
+    mass: 1.0
     name: Republic Fleet Ballistic Control System
     published: true
     volume: 5.0
@@ -287,6 +305,7 @@ items:
     TechLevel: 1
     id: 14686
     marketGroup: 645
+    mass: 1.0
     name: Thon's Modified Ballistic Control System
     published: true
     volume: 5.0
@@ -303,6 +322,7 @@ items:
     TechLevel: 1
     id: 14534
     marketGroup: 645
+    mass: 1.0
     name: Tobias' Modified Ballistic Control System
     published: true
     volume: 5.0
@@ -318,6 +338,7 @@ items:
     TechLevel: 1
     id: 14688
     marketGroup: 645
+    mass: 1.0
     name: Vepas' Modified Ballistic Control System
     published: true
     volume: 5.0

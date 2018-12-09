@@ -68,6 +68,7 @@ items:
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35835
     marketGroup: 2327
+    mass: 3.0E9
     name: Athanor
     published: true
     volume: 8000.0
@@ -145,6 +146,7 @@ items:
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35836
     marketGroup: 2327
+    mass: 1.0E10
     name: Tatara
     published: true
     volume: 80000.0

@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     id: 35941
     marketGroup: 2212
+    mass: 500.0
     name: Standup Remote Sensor Dampener I
     published: true
     volume: 4000.0
@@ -39,6 +40,7 @@ items:
     TechLevel: 2
     id: 47368
     marketGroup: 2212
+    mass: 500.0
     name: Standup Remote Sensor Dampener II
     published: true
     volume: 4000.0
@@ -59,6 +61,7 @@ items:
     TechLevel: 1
     id: 35947
     marketGroup: 2214
+    mass: 500.0
     name: Standup Target Painter I
     published: true
     volume: 4000.0
@@ -80,6 +83,7 @@ items:
     TechLevel: 2
     id: 47366
     marketGroup: 2214
+    mass: 500.0
     name: Standup Target Painter II
     published: true
     volume: 4000.0
@@ -105,6 +109,7 @@ items:
     TrackingSpeedBonus: -60.0
     id: 35945
     marketGroup: 2215
+    mass: 500.0
     name: Standup Weapon Disruptor I
     published: true
     volume: 4000.0
@@ -131,6 +136,7 @@ items:
     TrackingSpeedBonus: -66.0
     id: 47364
     marketGroup: 2215
+    mass: 500.0
     name: Standup Weapon Disruptor II
     published: true
     volume: 4000.0

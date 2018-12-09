@@ -12,6 +12,7 @@ items:
     TechLevel: 1
     id: 35770
     marketGroup: 2033
+    mass: 20.0
     name: Missile Guidance Enhancer I
     published: true
     volume: 5.0
@@ -29,6 +30,7 @@ items:
     TechLevel: 2
     id: 35771
     marketGroup: 2033
+    mass: 30.0
     name: Missile Guidance Enhancer II
     published: true
     volume: 5.0
@@ -46,6 +48,7 @@ items:
     TechLevel: 1
     id: 35774
     marketGroup: 2033
+    mass: 20.0
     name: Pro-Nav Compact Missile Guidance Enhancer
     published: true
     volume: 5.0

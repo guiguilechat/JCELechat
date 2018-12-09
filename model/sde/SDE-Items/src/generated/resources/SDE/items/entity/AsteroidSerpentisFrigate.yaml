@@ -1,136 +1,163 @@
 items:
   Crook Agent:
     id: 24362
+    mass: 2250000.0
     name: Crook Agent
     published: false
     volume: 22500.0
   Crook Defender:
     id: 24367
+    mass: 2650000.0
     name: Crook Defender
     published: false
     volume: 26500.0
   Crook Guard:
     id: 24365
+    mass: 2300000.0
     name: Crook Guard
     published: false
     volume: 23000.0
   Crook Patroller:
     id: 24364
+    mass: 2950000.0
     name: Crook Patroller
     published: false
     volume: 29500.0
   Crook Protector:
     id: 24368
+    mass: 2650000.0
     name: Crook Protector
     published: false
     volume: 26500.0
   Crook Safeguard:
     id: 24366
+    mass: 2300000.0
     name: Crook Safeguard
     published: false
     volume: 23000.0
   Crook Spy:
     id: 24361
+    mass: 2500000.0
     name: Crook Spy
     published: false
     volume: 25000.0
   Crook Watchman:
     id: 24363
+    mass: 2950000.0
     name: Crook Watchman
     published: false
     volume: 29500.0
   Guardian Agent:
     id: 13049
+    mass: 2650000.0
     name: Guardian Agent
     published: false
     volume: 26500.0
   Guardian Defender:
     id: 23434
+    mass: 2650000.0
     name: Guardian Defender
     published: false
     volume: 26500.0
   Guardian Guard:
     id: 23431
+    mass: 2300000.0
     name: Guardian Guard
     published: false
     volume: 23000.0
   Guardian Initiate:
     id: 13052
+    mass: 2300000.0
     name: Guardian Initiate
     published: false
     volume: 23000.0
   Guardian Patroller:
     id: 23430
+    mass: 2950000.0
     name: Guardian Patroller
     published: false
     volume: 29500.0
   Guardian Protector:
     id: 23435
+    mass: 2650000.0
     name: Guardian Protector
     published: false
     volume: 26500.0
   Guardian Safeguard:
     id: 23432
+    mass: 2300000.0
     name: Guardian Safeguard
     published: false
     volume: 23000.0
   Guardian Scout:
     id: 13051
+    mass: 2300000.0
     name: Guardian Scout
     published: false
     volume: 23000.0
   Guardian Spy:
     id: 13050
+    mass: 2650000.0
     name: Guardian Spy
     published: false
     volume: 26500.0
   Guardian Watchman:
     id: 23429
+    mass: 2950000.0
     name: Guardian Watchman
     published: false
     volume: 29500.0
   Serpentis Agent:
     id: 11045
+    mass: 2250000.0
     name: Serpentis Agent
     published: false
     volume: 22500.0
   Serpentis Defender:
     id: 10286
+    mass: 2650000.0
     name: Serpentis Defender
     published: false
     volume: 26500.0
   Serpentis Initiate:
     id: 2370
+    mass: 2450000.0
     name: Serpentis Initiate
     published: false
     volume: 24500.0
   Serpentis Patroller:
     id: 11046
+    mass: 2950000.0
     name: Serpentis Patroller
     published: false
     volume: 29500.0
   Serpentis Protector:
     id: 11048
+    mass: 2650000.0
     name: Serpentis Protector
     published: false
     volume: 26500.0
   Serpentis Safeguard:
     id: 11047
+    mass: 2300000.0
     name: Serpentis Safeguard
     published: false
     volume: 23000.0
   Serpentis Scout:
     id: 10283
+    mass: 2250000.0
     name: Serpentis Scout
     published: false
     volume: 22500.0
   Serpentis Spy:
     id: 2379
+    mass: 2500000.0
     name: Serpentis Spy
     published: false
     volume: 25000.0
   Serpentis Watchman:
     id: 10284
+    mass: 2950000.0
     name: Serpentis Watchman
     published: false
     volume: 29500.0

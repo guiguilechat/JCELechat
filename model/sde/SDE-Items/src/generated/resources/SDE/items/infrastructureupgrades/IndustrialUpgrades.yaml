@@ -4,6 +4,7 @@ items:
     DistributionID01: 364
     id: 2040
     marketGroup: 1283
+    mass: 1000.0
     name: Ore Prospecting Array 1
     published: true
     volume: 5000.0
@@ -13,6 +14,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2040
     id: 2041
     marketGroup: 1283
+    mass: 1000.0
     name: Ore Prospecting Array 2
     published: true
     volume: 10000.0
@@ -24,6 +26,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2041
     id: 2042
     marketGroup: 1283
+    mass: 1000.0
     name: Ore Prospecting Array 3
     published: true
     volume: 20000.0
@@ -35,6 +38,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2042
     id: 2043
     marketGroup: 1283
+    mass: 1000.0
     name: Ore Prospecting Array 4
     published: true
     volume: 40000.0
@@ -46,6 +50,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2043
     id: 2044
     marketGroup: 1283
+    mass: 1000.0
     name: Ore Prospecting Array 5
     published: true
     volume: 60000.0
@@ -59,6 +64,7 @@ items:
     DistributionIDSerpentis01: 389
     id: 2053
     marketGroup: 1283
+    mass: 1000.0
     name: Survey Networks 1
     published: true
     volume: 5000.0
@@ -73,6 +79,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2053
     id: 2054
     marketGroup: 1283
+    mass: 1000.0
     name: Survey Networks 2
     published: true
     volume: 10000.0
@@ -87,6 +94,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2054
     id: 2055
     marketGroup: 1283
+    mass: 1000.0
     name: Survey Networks 3
     published: true
     volume: 20000.0
@@ -101,6 +109,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2055
     id: 2056
     marketGroup: 1283
+    mass: 1000.0
     name: Survey Networks 4
     published: true
     volume: 40000.0
@@ -115,6 +124,7 @@ items:
     SovUpgradeRequiredUpgradeID: 2056
     id: 2057
     marketGroup: 1283
+    mass: 1000.0
     name: Survey Networks 5
     published: true
     volume: 60000.0

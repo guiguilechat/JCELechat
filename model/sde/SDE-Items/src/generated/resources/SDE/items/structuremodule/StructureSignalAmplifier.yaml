@@ -13,6 +13,7 @@ items:
     TechLevel: 1
     id: 37532
     marketGroup: 2219
+    mass: 500.0
     name: Standup Signal Amplifier I
     published: true
     volume: 4000.0
@@ -31,6 +32,7 @@ items:
     TechLevel: 2
     id: 47348
     marketGroup: 2219
+    mass: 500.0
     name: Standup Signal Amplifier II
     published: true
     volume: 4000.0

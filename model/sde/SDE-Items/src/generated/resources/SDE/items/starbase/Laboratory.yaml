@@ -25,6 +25,7 @@ items:
     UnanchoringDelay: 5000
     id: 28351
     marketGroup: 933
+    mass: 1.0E8
     name: Design Laboratory
     published: true
     volume: 3000.0
@@ -52,6 +53,7 @@ items:
     UnanchoringDelay: 5000
     id: 24567
     marketGroup: 933
+    mass: 1.0E8
     name: Experimental Laboratory
     published: true
     volume: 3000.0
@@ -82,6 +84,7 @@ items:
     UnanchoringDelay: 5000
     id: 32245
     marketGroup: 933
+    mass: 1.0E8
     name: Hyasyoda Research Laboratory
     published: true
     volume: 3000.0
@@ -111,6 +114,7 @@ items:
     UnanchoringDelay: 5000
     id: 16216
     marketGroup: 933
+    mass: 1.0E8
     name: Research Laboratory
     published: true
     volume: 3000.0

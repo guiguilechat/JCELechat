@@ -18,6 +18,7 @@ items:
     UnfitCapCost: 75
     id: 18036
     marketGroup: 593
+    mass: 1.0
     name: Arkonor Mining Crystal I
     published: true
     volume: 6.0
@@ -41,6 +42,7 @@ items:
     UnfitCapCost: 75
     id: 18590
     marketGroup: 593
+    mass: 1.0
     name: Arkonor Mining Crystal II
     published: true
     volume: 10.0
@@ -63,6 +65,7 @@ items:
     UnfitCapCost: 70
     id: 18038
     marketGroup: 593
+    mass: 1.0
     name: Bistot Mining Crystal I
     published: true
     volume: 6.0
@@ -86,6 +89,7 @@ items:
     UnfitCapCost: 70
     id: 18592
     marketGroup: 593
+    mass: 1.0
     name: Bistot Mining Crystal II
     published: true
     volume: 10.0
@@ -108,6 +112,7 @@ items:
     UnfitCapCost: 60
     id: 46365
     marketGroup: 593
+    mass: 1.0
     name: Common Moon Ore Mining Crystal I
     published: true
     volume: 6.0
@@ -131,6 +136,7 @@ items:
     UnfitCapCost: 60
     id: 46366
     marketGroup: 593
+    mass: 1.0
     name: Common Moon Ore Mining Crystal II
     published: true
     volume: 10.0
@@ -153,6 +159,7 @@ items:
     UnfitCapCost: 60
     id: 18040
     marketGroup: 593
+    mass: 1.0
     name: Crokite Mining Crystal I
     published: true
     volume: 6.0
@@ -176,6 +183,7 @@ items:
     UnfitCapCost: 60
     id: 18594
     marketGroup: 593
+    mass: 1.0
     name: Crokite Mining Crystal II
     published: true
     volume: 10.0
@@ -198,6 +206,7 @@ items:
     UnfitCapCost: 55
     id: 18042
     marketGroup: 593
+    mass: 1.0
     name: Dark Ochre Mining Crystal I
     published: true
     volume: 6.0
@@ -221,6 +230,7 @@ items:
     UnfitCapCost: 55
     id: 18596
     marketGroup: 593
+    mass: 1.0
     name: Dark Ochre Mining Crystal II
     published: true
     volume: 10.0
@@ -243,6 +253,7 @@ items:
     UnfitCapCost: 75
     id: 46371
     marketGroup: 593
+    mass: 1.0
     name: Exceptional Moon Ore Mining Crystal I
     published: true
     volume: 6.0
@@ -266,6 +277,7 @@ items:
     UnfitCapCost: 75
     id: 46372
     marketGroup: 593
+    mass: 1.0
     name: Exceptional Moon Ore Mining Crystal II
     published: true
     volume: 10.0
@@ -288,6 +300,7 @@ items:
     UnfitCapCost: 50
     id: 18044
     marketGroup: 593
+    mass: 1.0
     name: Gneiss Mining Crystal I
     published: true
     volume: 6.0
@@ -311,6 +324,7 @@ items:
     UnfitCapCost: 50
     id: 18598
     marketGroup: 593
+    mass: 1.0
     name: Gneiss Mining Crystal II
     published: true
     volume: 10.0
@@ -333,6 +347,7 @@ items:
     UnfitCapCost: 45
     id: 18046
     marketGroup: 593
+    mass: 1.0
     name: Hedbergite Mining Crystal I
     published: true
     volume: 6.0
@@ -356,6 +371,7 @@ items:
     UnfitCapCost: 45
     id: 18600
     marketGroup: 593
+    mass: 1.0
     name: Hedbergite Mining Crystal II
     published: true
     volume: 10.0
@@ -378,6 +394,7 @@ items:
     UnfitCapCost: 40
     id: 18048
     marketGroup: 593
+    mass: 1.0
     name: Hemorphite Mining Crystal I
     published: true
     volume: 6.0
@@ -401,6 +418,7 @@ items:
     UnfitCapCost: 40
     id: 18602
     marketGroup: 593
+    mass: 1.0
     name: Hemorphite Mining Crystal II
     published: true
     volume: 10.0
@@ -423,6 +441,7 @@ items:
     UnfitCapCost: 35
     id: 18050
     marketGroup: 593
+    mass: 1.0
     name: Jaspet Mining Crystal I
     published: true
     volume: 6.0
@@ -446,6 +465,7 @@ items:
     UnfitCapCost: 35
     id: 18604
     marketGroup: 593
+    mass: 1.0
     name: Jaspet Mining Crystal II
     published: true
     volume: 10.0
@@ -468,6 +488,7 @@ items:
     UnfitCapCost: 30
     id: 18052
     marketGroup: 593
+    mass: 1.0
     name: Kernite Mining Crystal I
     published: true
     volume: 6.0
@@ -491,6 +512,7 @@ items:
     UnfitCapCost: 30
     id: 18606
     marketGroup: 593
+    mass: 1.0
     name: Kernite Mining Crystal II
     published: true
     volume: 10.0
@@ -512,6 +534,7 @@ items:
     UnfitCapCost: 25
     id: 18056
     marketGroup: 593
+    mass: 1.0
     name: Omber Mining Crystal I
     published: true
     volume: 6.0
@@ -534,6 +557,7 @@ items:
     UnfitCapCost: 25
     id: 18610
     marketGroup: 593
+    mass: 1.0
     name: Omber Mining Crystal II
     published: true
     volume: 10.0
@@ -556,6 +580,7 @@ items:
     UnfitCapCost: 20
     id: 18058
     marketGroup: 593
+    mass: 1.0
     name: Plagioclase Mining Crystal I
     published: true
     volume: 6.0
@@ -579,6 +604,7 @@ items:
     UnfitCapCost: 20
     id: 18612
     marketGroup: 593
+    mass: 1.0
     name: Plagioclase Mining Crystal II
     published: true
     volume: 10.0
@@ -601,6 +627,7 @@ items:
     UnfitCapCost: 15
     id: 18060
     marketGroup: 593
+    mass: 1.0
     name: Pyroxeres Mining Crystal I
     published: true
     volume: 6.0
@@ -624,6 +651,7 @@ items:
     UnfitCapCost: 15
     id: 18614
     marketGroup: 593
+    mass: 1.0
     name: Pyroxeres Mining Crystal II
     published: true
     volume: 10.0
@@ -646,6 +674,7 @@ items:
     UnfitCapCost: 70
     id: 46369
     marketGroup: 593
+    mass: 1.0
     name: Rare Moon Ore Mining Crystal I
     published: true
     volume: 6.0
@@ -669,6 +698,7 @@ items:
     UnfitCapCost: 70
     id: 46370
     marketGroup: 593
+    mass: 1.0
     name: Rare Moon Ore Mining Crystal II
     published: true
     volume: 10.0
@@ -691,6 +721,7 @@ items:
     UnfitCapCost: 10
     id: 18062
     marketGroup: 593
+    mass: 1.0
     name: Scordite Mining Crystal I
     published: true
     volume: 6.0
@@ -714,6 +745,7 @@ items:
     UnfitCapCost: 10
     id: 18616
     marketGroup: 593
+    mass: 1.0
     name: Scordite Mining Crystal II
     published: true
     volume: 10.0
@@ -736,6 +768,7 @@ items:
     UnfitCapCost: 65
     id: 18064
     marketGroup: 593
+    mass: 1.0
     name: Spodumain Mining Crystal I
     published: true
     volume: 6.0
@@ -759,6 +792,7 @@ items:
     UnfitCapCost: 65
     id: 18624
     marketGroup: 593
+    mass: 1.0
     name: Spodumain Mining Crystal II
     published: true
     volume: 10.0
@@ -781,6 +815,7 @@ items:
     UnfitCapCost: 55
     id: 46355
     marketGroup: 593
+    mass: 1.0
     name: Ubiquitous Moon Ore Mining Crystal I
     published: true
     volume: 6.0
@@ -804,6 +839,7 @@ items:
     UnfitCapCost: 55
     id: 46356
     marketGroup: 593
+    mass: 1.0
     name: Ubiquitous Moon Ore Mining Crystal II
     published: true
     volume: 10.0
@@ -826,6 +862,7 @@ items:
     UnfitCapCost: 65
     id: 46367
     marketGroup: 593
+    mass: 1.0
     name: Uncommon Moon Ore Mining Crystal I
     published: true
     volume: 6.0
@@ -849,6 +886,7 @@ items:
     UnfitCapCost: 65
     id: 46368
     marketGroup: 593
+    mass: 1.0
     name: Uncommon Moon Ore Mining Crystal II
     published: true
     volume: 10.0
@@ -871,6 +909,7 @@ items:
     UnfitCapCost: 5
     id: 18066
     marketGroup: 593
+    mass: 1.0
     name: Veldspar Mining Crystal I
     published: true
     volume: 6.0
@@ -894,6 +933,7 @@ items:
     UnfitCapCost: 5
     id: 18618
     marketGroup: 593
+    mass: 1.0
     name: Veldspar Mining Crystal II
     published: true
     volume: 10.0

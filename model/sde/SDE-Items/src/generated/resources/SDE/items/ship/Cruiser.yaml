@@ -79,6 +79,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 628
     marketGroup: 74
+    mass: 1.12E7
     name: Arbitrator
     published: true
     volume: 120000.0
@@ -167,6 +168,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17922
     marketGroup: 1371
+    mass: 1.101E7
     name: Ashimmu
     published: true
     volume: 118000.0
@@ -253,6 +255,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 625
     marketGroup: 74
+    mass: 1.287E7
     name: Augoror
     published: true
     volume: 115000.0
@@ -337,6 +340,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 29337
     marketGroup: 1370
+    mass: 1.065E7
     name: Augoror Navy Issue
     published: true
     volume: 101000.0
@@ -419,6 +423,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 630
     marketGroup: 73
+    mass: 1.155E7
     name: Bellicose
     published: true
     volume: 85000.0
@@ -501,6 +506,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 632
     marketGroup: 75
+    mass: 1.319E7
     name: Blackbird
     published: true
     volume: 96000.0
@@ -582,6 +588,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 621
     marketGroup: 75
+    mass: 1.191E7
     name: Caracal
     published: true
     volume: 92000.0
@@ -663,6 +670,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17634
     marketGroup: 1370
+    mass: 9600000.0
     name: Caracal Navy Issue
     published: true
     volume: 101000.0
@@ -745,6 +753,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 633
     marketGroup: 76
+    mass: 1.207E7
     name: Celestis
     published: true
     volume: 116000.0
@@ -832,6 +841,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17720
     marketGroup: 1371
+    mass: 9047000.0
     name: Cynabal
     published: true
     volume: 101000.0
@@ -917,6 +927,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 634
     marketGroup: 76
+    mass: 1.102E7
     name: Exequror
     published: true
     volume: 113000.0
@@ -1000,6 +1011,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 29344
     marketGroup: 1370
+    mass: 1.128E7
     name: Exequror Navy Issue
     published: true
     volume: 112000.0
@@ -1087,6 +1099,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17715
     marketGroup: 1371
+    mass: 9600000.0
     name: Gila
     published: true
     volume: 101000.0
@@ -1170,6 +1183,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 11011
     marketGroup: 1699
+    mass: 1.091E7
     name: Guardian-Vexor
     published: true
     volume: 115000.0
@@ -1252,6 +1266,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 624
     marketGroup: 74
+    mass: 1.315E7
     name: Maller
     published: true
     volume: 118000.0
@@ -1333,6 +1348,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 623
     marketGroup: 75
+    mass: 1.2E7
     name: Moa
     published: true
     volume: 101000.0
@@ -1414,6 +1430,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 2006
     marketGroup: 74
+    mass: 1.3E7
     name: Omen
     published: true
     volume: 118000.0
@@ -1498,6 +1515,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17709
     marketGroup: 1370
+    mass: 1.085E7
     name: Omen Navy Issue
     published: true
     volume: 101000.0
@@ -1578,6 +1596,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 635
     marketGroup: 1699
+    mass: 1.3075E7
     name: Opux Luxury Yacht
     published: true
     volume: 115000.0
@@ -1665,6 +1684,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 33818
     marketGroup: 1371
+    mass: 9362000.0
     name: Orthrus
     published: true
     volume: 101000.0
@@ -1751,6 +1771,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 620
     marketGroup: 75
+    mass: 1.11E7
     name: Osprey
     published: true
     volume: 107000.0
@@ -1837,6 +1858,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 29340
     marketGroup: 1370
+    mass: 1.178E7
     name: Osprey Navy Issue
     published: true
     volume: 107000.0
@@ -1924,6 +1946,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17718
     marketGroup: 1371
+    mass: 9600000.0
     name: Phantasm
     published: true
     volume: 101000.0
@@ -2006,6 +2029,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 629
     marketGroup: 73
+    mass: 1.22E7
     name: Rupture
     published: true
     volume: 96000.0
@@ -2093,6 +2117,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 631
     marketGroup: 73
+    mass: 1.111E7
     name: Scythe
     published: true
     volume: 89000.0
@@ -2179,6 +2204,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 29336
     marketGroup: 1370
+    mass: 1.091E7
     name: Scythe Fleet Issue
     published: true
     volume: 89000.0
@@ -2262,6 +2288,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 622
     marketGroup: 73
+    mass: 1.14E7
     name: Stabber
     published: true
     volume: 80000.0
@@ -2346,6 +2373,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17713
     marketGroup: 1370
+    mass: 1.081E7
     name: Stabber Fleet Issue
     published: true
     volume: 101000.0
@@ -2436,6 +2464,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 33470
     marketGroup: 1371
+    mass: 9350000.0
     name: Stratios
     published: true
     volume: 101000.0
@@ -2525,6 +2554,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 33553
+    mass: 9350000.0
     name: Stratios Emergency Responder
     published: true
     volume: 101000.0
@@ -2605,6 +2635,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 627
     marketGroup: 76
+    mass: 1.128E7
     name: Thorax
     published: true
     volume: 112000.0
@@ -2689,6 +2720,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 47270
     marketGroup: 2428
+    mass: 9530000.0
     name: Vedmak
     published: true
     volume: 118000.0
@@ -2769,6 +2801,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 626
     marketGroup: 76
+    mass: 1.11E7
     name: Vexor
     published: true
     volume: 115000.0
@@ -2851,6 +2884,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17843
     marketGroup: 1370
+    mass: 1.131E7
     name: Vexor Navy Issue
     published: true
     volume: 112000.0
@@ -2933,6 +2967,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 34590
     marketGroup: 1699
+    mass: 1.0E7
     name: Victorieux Luxury Yacht
     published: true
     volume: 115000.0
@@ -3019,6 +3054,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17722
     marketGroup: 1371
+    mass: 9830000.0
     name: Vigilant
     published: true
     volume: 101000.0

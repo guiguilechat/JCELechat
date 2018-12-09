@@ -13,6 +13,7 @@ items:
     StructureItemVisualFlag: 1
     id: 45009
     marketGroup: 2233
+    mass: 500.0
     name: Standup Moon Drill I
     published: true
     volume: 8000.0

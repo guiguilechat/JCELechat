@@ -1,31 +1,37 @@
 items:
   Amarr Sentry Gun:
     id: 1194
+    mass: 1000.0
     name: Amarr Sentry Gun
     published: false
     volume: 1000.0
   Caldari Sentry Gun I:
     id: 3740
+    mass: 1000.0
     name: Caldari Sentry Gun I
     published: false
     volume: 1000.0
   Caldari Sentry Gun II:
     id: 3741
+    mass: 1000.0
     name: Caldari Sentry Gun II
     published: false
     volume: 1000.0
   Caldari Sentry Gun III:
     id: 3739
+    mass: 1000.0
     name: Caldari Sentry Gun III
     published: false
     volume: 1000.0
   Gallente Sentry Gun:
     id: 3742
+    mass: 1000.0
     name: Gallente Sentry Gun
     published: false
     volume: 1000.0
   Minmatar Sentry Gun:
     id: 3743
+    mass: 1000.0
     name: Minmatar Sentry Gun
     published: false
     volume: 1000.0

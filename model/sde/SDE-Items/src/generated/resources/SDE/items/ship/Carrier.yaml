@@ -106,6 +106,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 23757
     marketGroup: 818
+    mass: 1.26E9
     name: Archon
     published: true
     volume: 1.395E7
@@ -216,6 +217,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 23915
     marketGroup: 819
+    mass: 1.24E9
     name: Chimera
     published: true
     volume: 1.1925E7
@@ -327,6 +329,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 24483
     marketGroup: 821
+    mass: 1.23E9
     name: Nidhoggur
     published: true
     volume: 1.125E7
@@ -438,6 +441,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 23911
     marketGroup: 820
+    mass: 1.22E9
     name: Thanatos
     published: true
     volume: 1.3095E7

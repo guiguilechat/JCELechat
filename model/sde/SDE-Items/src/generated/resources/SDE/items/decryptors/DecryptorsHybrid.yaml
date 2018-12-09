@@ -2,24 +2,28 @@ items:
   Amarr Subsystems Data Interface:
     InventionPropabilityMultiplier: 1.0
     id: 30382
+    mass: 1.0
     name: Amarr Subsystems Data Interface
     published: true
     volume: 1.0
   Caldari Subsystems Data Interface:
     InventionPropabilityMultiplier: 1.0
     id: 30383
+    mass: 1.0
     name: Caldari Subsystems Data Interface
     published: true
     volume: 1.0
   Gallente Subsystems Data Interface:
     InventionPropabilityMultiplier: 1.0
     id: 30385
+    mass: 1.0
     name: Gallente Subsystems Data Interface
     published: true
     volume: 1.0
   Minmatar Subsystems Data Interface:
     InventionPropabilityMultiplier: 1.0
     id: 30384
+    mass: 1.0
     name: Minmatar Subsystems Data Interface
     published: true
     volume: 1.0

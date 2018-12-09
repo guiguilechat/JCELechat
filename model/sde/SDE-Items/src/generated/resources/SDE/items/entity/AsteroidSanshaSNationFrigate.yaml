@@ -1,96 +1,115 @@
 items:
   Sansha's Butcher:
     id: 11035
+    mass: 2112000.0
     name: Sansha's Butcher
     published: false
     volume: 21120.0
   Sansha's Enslaver:
     id: 11033
+    mass: 2112000.0
     name: Sansha's Enslaver
     published: false
     volume: 21120.0
   Sansha's Loyal Butcher:
     id: 23365
+    mass: 2112000.0
     name: Sansha's Loyal Butcher
     published: false
     volume: 21120.0
   Sansha's Loyal Enslaver:
     id: 23362
+    mass: 2112000.0
     name: Sansha's Loyal Enslaver
     published: false
     volume: 21120.0
   Sansha's Loyal Manslayer:
     id: 23364
+    mass: 2112000.0
     name: Sansha's Loyal Manslayer
     published: false
     volume: 21120.0
   Sansha's Loyal Minion:
     id: 13047
+    mass: 2112000.0
     name: Sansha's Loyal Minion
     published: false
     volume: 21120.0
   Sansha's Loyal Plague:
     id: 23363
+    mass: 2112000.0
     name: Sansha's Loyal Plague
     published: false
     volume: 21120.0
   Sansha's Loyal Ravener:
     id: 13045
+    mass: 2112000.0
     name: Sansha's Loyal Ravener
     published: false
     volume: 21120.0
   Sansha's Loyal Savage:
     id: 23360
+    mass: 2000000.0
     name: Sansha's Loyal Savage
     published: false
     volume: 20000.0
   Sansha's Loyal Scavanger:
     id: 13046
+    mass: 2112000.0
     name: Sansha's Loyal Scavanger
     published: false
     volume: 21120.0
   Sansha's Loyal Servant:
     id: 13048
+    mass: 2112000.0
     name: Sansha's Loyal Servant
     published: false
     volume: 21120.0
   Sansha's Loyal Slavehunter:
     id: 23361
+    mass: 2000000.0
     name: Sansha's Loyal Slavehunter
     published: false
     volume: 20000.0
   Sansha's Minion:
     id: 10273
+    mass: 2000000.0
     name: Sansha's Minion
     published: false
     volume: 20000.0
   Sansha's Plague:
     id: 10028
+    mass: 2112000.0
     name: Sansha's Plague
     published: false
     volume: 21120.0
   Sansha's Ravener:
     id: 11032
+    mass: 2000000.0
     name: Sansha's Ravener
     published: false
     volume: 20000.0
   Sansha's Savage:
     id: 10027
+    mass: 2000000.0
     name: Sansha's Savage
     published: false
     volume: 20000.0
   Sansha's Scavenger:
     id: 10026
+    mass: 2000000.0
     name: Sansha's Scavenger
     published: false
     volume: 20000.0
   Sansha's Servant:
     id: 10025
+    mass: 2112000.0
     name: Sansha's Servant
     published: false
     volume: 21120.0
   Sansha's Slavehunter:
     id: 11034
+    mass: 2112000.0
     name: Sansha's Slavehunter
     published: false
     volume: 21120.0

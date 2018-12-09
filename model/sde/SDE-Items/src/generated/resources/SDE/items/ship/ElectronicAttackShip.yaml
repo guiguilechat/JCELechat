@@ -76,6 +76,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11387
     marketGroup: 1069
+    mass: 1191300.0
     name: Hyena
     published: true
     volume: 17400.0
@@ -157,6 +158,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11174
     marketGroup: 1068
+    mass: 1204500.0
     name: Keres
     published: true
     volume: 23000.0
@@ -236,6 +238,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11194
     marketGroup: 1067
+    mass: 1228700.0
     name: Kitsune
     published: true
     volume: 19400.0
@@ -317,6 +320,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 11190
     marketGroup: 1066
+    mass: 1223200.0
     name: Sentinel
     published: true
     volume: 28100.0

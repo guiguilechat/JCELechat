@@ -9,6 +9,7 @@ items:
     TrackingSpeedBonusBonus: -100
     id: 29005
     marketGroup: 1094
+    mass: 1.0
     name: Optimal Range Disruption Script
     published: true
     volume: 1.0
@@ -22,6 +23,7 @@ items:
     TrackingSpeedBonusBonus: 100
     id: 29007
     marketGroup: 1094
+    mass: 1.0
     name: Tracking Speed Disruption Script
     published: true
     volume: 1.0

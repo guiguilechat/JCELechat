@@ -80,6 +80,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 29986
     marketGroup: 1139
+    mass: 1.45E7
     name: Legion
     published: true
     volume: 118000.0
@@ -164,6 +165,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 29990
     marketGroup: 1142
+    mass: 1.38E7
     name: Loki
     published: true
     volume: 80000.0
@@ -248,6 +250,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 29988
     marketGroup: 1141
+    mass: 1.33E7
     name: Proteus
     published: true
     volume: 115000.0
@@ -332,6 +335,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 29984
     marketGroup: 1140
+    mass: 1.44E7
     name: Tengu
     published: true
     volume: 92000.0

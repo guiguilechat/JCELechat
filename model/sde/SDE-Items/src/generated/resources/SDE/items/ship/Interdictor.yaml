@@ -80,6 +80,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 22460
     marketGroup: 832
+    mass: 1200000.0
     name: Eris
     published: true
     volume: 55000.0
@@ -164,6 +165,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 22464
     marketGroup: 829
+    mass: 1350000.0
     name: Flycatcher
     published: true
     volume: 52000.0
@@ -248,6 +250,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 22452
     marketGroup: 826
+    mass: 1300000.0
     name: Heretic
     published: true
     volume: 47000.0
@@ -332,6 +335,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 22456
     marketGroup: 835
+    mass: 1285000.0
     name: Sabre
     published: true
     volume: 43000.0

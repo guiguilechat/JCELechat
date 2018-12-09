@@ -79,6 +79,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 22448
     marketGroup: 825
+    mass: 1.33E7
     name: Absolution
     published: true
     volume: 234000.0
@@ -163,6 +164,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 22466
     marketGroup: 831
+    mass: 1.23E7
     name: Astarte
     published: true
     volume: 270000.0
@@ -248,6 +250,7 @@ items:
     WingCommandBonus: 5
     id: 22468
     marketGroup: 834
+    mass: 1.25E7
     name: Claymore
     published: true
     volume: 216000.0
@@ -333,6 +336,7 @@ items:
     WingCommandBonus: 5
     id: 22474
     marketGroup: 825
+    mass: 1.35E7
     name: Damnation
     published: true
     volume: 234000.0
@@ -417,6 +421,7 @@ items:
     WingCommandBonus: 5
     id: 22442
     marketGroup: 831
+    mass: 1.3E7
     name: Eos
     published: true
     volume: 270000.0
@@ -501,6 +506,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 22470
     marketGroup: 828
+    mass: 1.481E7
     name: Nighthawk
     published: true
     volume: 252000.0
@@ -585,6 +591,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 22444
     marketGroup: 834
+    mass: 1.28E7
     name: Sleipnir
     published: true
     volume: 216000.0
@@ -670,6 +677,7 @@ items:
     WingCommandBonus: 5
     id: 22446
     marketGroup: 828
+    mass: 1.4E7
     name: Vulture
     published: true
     volume: 252000.0

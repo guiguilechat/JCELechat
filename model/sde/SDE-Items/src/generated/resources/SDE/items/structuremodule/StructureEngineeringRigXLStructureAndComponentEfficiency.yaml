@@ -19,6 +19,7 @@ items:
     UpgradeCost: 100
     id: 43704
     marketGroup: 2349
+    mass: 200.0
     name: Standup XL-Set Structure and Component Manufacturing Efficiency I
     published: true
     volume: 40.0
@@ -42,6 +43,7 @@ items:
     UpgradeCost: 150
     id: 43705
     marketGroup: 2349
+    mass: 200.0
     name: Standup XL-Set Structure and Component Manufacturing Efficiency II
     published: true
     volume: 40.0
@@ -67,6 +69,7 @@ items:
     UpgradeCost: 100
     id: 45548
     marketGroup: 2349
+    mass: 200.0
     name: Standup XL-Set Thukker Structure and Component Manufacturing Efficiency
     published: true
     volume: 40.0

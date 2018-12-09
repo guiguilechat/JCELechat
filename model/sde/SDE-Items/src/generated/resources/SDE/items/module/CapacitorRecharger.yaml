@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 421
     marketGroup: 665
+    mass: 1.0
     name: '''Basic'' Capacitor Recharger'
     published: true
     volume: 5.0
@@ -25,6 +26,7 @@ items:
     TechLevel: 1
     id: 23813
     marketGroup: 665
+    mass: 1.0
     name: '''Palisade'' Cap Recharger I'
     published: true
     volume: 5.0
@@ -39,6 +41,7 @@ items:
     TechLevel: 1
     id: 21818
     marketGroup: 665
+    mass: 1.0
     name: Ahremen's Modified Cap Recharger
     published: true
     volume: 5.0
@@ -53,6 +56,7 @@ items:
     TechLevel: 1
     id: 15788
     marketGroup: 665
+    mass: 1.0
     name: Ammatar Navy Cap Recharger
     published: true
     volume: 5.0
@@ -67,6 +71,7 @@ items:
     TechLevel: 1
     id: 16599
     marketGroup: 665
+    mass: 1.0
     name: Brokara's Modified Cap Recharger
     published: true
     volume: 5.0
@@ -79,6 +84,7 @@ items:
     TechLevel: 1
     id: 1195
     marketGroup: 665
+    mass: 1.0
     name: Cap Recharger I
     published: true
     volume: 5.0
@@ -92,6 +98,7 @@ items:
     TechLevel: 2
     id: 2032
     marketGroup: 665
+    mass: 1.0
     name: Cap Recharger II
     published: true
     volume: 5.0
@@ -106,6 +113,7 @@ items:
     TechLevel: 1
     id: 16605
     marketGroup: 665
+    mass: 1.0
     name: Chelm's Modified Cap Recharger
     published: true
     volume: 5.0
@@ -120,6 +128,7 @@ items:
     TechLevel: 1
     id: 14142
     marketGroup: 665
+    mass: 1.0
     name: Dark Blood Cap Recharger
     published: true
     volume: 5.0
@@ -134,6 +143,7 @@ items:
     TechLevel: 1
     id: 21819
     marketGroup: 665
+    mass: 1.0
     name: Draclira's Modified Cap Recharger
     published: true
     volume: 5.0
@@ -147,6 +157,7 @@ items:
     TechLevel: 1
     id: 4435
     marketGroup: 665
+    mass: 1.0
     name: Eutectic Compact Cap Recharger
     published: true
     volume: 5.0
@@ -161,6 +172,7 @@ items:
     TechLevel: 1
     id: 17526
     marketGroup: 665
+    mass: 1.0
     name: Imperial Navy Cap Recharger
     published: true
     volume: 5.0
@@ -175,6 +187,7 @@ items:
     TechLevel: 1
     id: 28530
     marketGroup: 665
+    mass: 1.0
     name: Khanid Navy Cap Recharger
     published: true
     volume: 5.0
@@ -189,6 +202,7 @@ items:
     TechLevel: 1
     id: 21817
     marketGroup: 665
+    mass: 1.0
     name: Raysere's Modified Cap Recharger
     published: true
     volume: 5.0
@@ -203,6 +217,7 @@ items:
     TechLevel: 1
     id: 16601
     marketGroup: 665
+    mass: 1.0
     name: Selynne's Modified Cap Recharger
     published: true
     volume: 5.0
@@ -217,6 +232,7 @@ items:
     TechLevel: 1
     id: 21816
     marketGroup: 665
+    mass: 1.0
     name: Tairei's Modified Cap Recharger
     published: true
     volume: 5.0
@@ -231,6 +247,7 @@ items:
     TechLevel: 1
     id: 14140
     marketGroup: 665
+    mass: 1.0
     name: True Sansha Cap Recharger
     published: true
     volume: 5.0
@@ -245,6 +262,7 @@ items:
     TechLevel: 1
     id: 16603
     marketGroup: 665
+    mass: 1.0
     name: Vizan's Modified Cap Recharger
     published: true
     volume: 5.0

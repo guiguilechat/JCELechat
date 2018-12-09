@@ -73,6 +73,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 32872
     marketGroup: 467
+    mass: 1600000.0
     name: Algos
     published: true
     volume: 55000.0
@@ -146,6 +147,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 16240
     marketGroup: 467
+    mass: 1550000.0
     name: Catalyst
     published: true
     volume: 55000.0
@@ -219,6 +221,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 16236
     marketGroup: 465
+    mass: 1650000.0
     name: Coercer
     published: true
     volume: 47000.0
@@ -294,6 +297,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 32876
     marketGroup: 466
+    mass: 1750000.0
     name: Corax
     published: true
     volume: 52000.0
@@ -368,6 +372,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 16238
     marketGroup: 466
+    mass: 1700000.0
     name: Cormorant
     published: true
     volume: 52000.0
@@ -447,6 +452,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 32874
     marketGroup: 465
+    mass: 1700000.0
     name: Dragoon
     published: true
     volume: 47000.0
@@ -525,6 +531,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 49710
     marketGroup: 2523
+    mass: 1350000.0
     name: Kikimora
     published: true
     volume: 43000.0
@@ -602,6 +609,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 42685
     marketGroup: 2350
+    mass: 1500000.0
     name: Sunesis
     published: true
     volume: 55000.0
@@ -677,6 +685,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 32878
     marketGroup: 468
+    mass: 1650000.0
     name: Talwar
     published: true
     volume: 43000.0
@@ -751,6 +760,7 @@ items:
     WarpSpeedMultiplier: 4.5
     id: 16242
     marketGroup: 468
+    mass: 1600000.0
     name: Thrasher
     published: true
     volume: 43000.0

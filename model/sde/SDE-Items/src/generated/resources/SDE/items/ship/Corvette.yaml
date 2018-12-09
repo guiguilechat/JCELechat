@@ -68,6 +68,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 617
     marketGroup: 1619
+    mass: 1157000.0
     name: Echo
     published: true
     volume: 17660.0
@@ -141,6 +142,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 33079
     marketGroup: 1619
+    mass: 1148000.0
     name: Hematos
     published: true
     volume: 28100.0
@@ -214,6 +216,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 601
     marketGroup: 1817
+    mass: 1163000.0
     name: Ibis
     published: true
     volume: 15000.0
@@ -285,6 +288,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 615
     marketGroup: 1619
+    mass: 1148000.0
     name: Immolator
     published: true
     volume: 17400.0
@@ -358,6 +362,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 596
     marketGroup: 1816
+    mass: 1148000.0
     name: Impairor
     published: true
     volume: 28100.0
@@ -431,6 +436,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 588
     marketGroup: 1819
+    mass: 1157000.0
     name: Reaper
     published: true
     volume: 15800.0
@@ -506,6 +512,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 33081
     marketGroup: 1619
+    mass: 1163000.0
     name: Taipan
     published: true
     volume: 15000.0
@@ -579,6 +586,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 606
     marketGroup: 1818
+    mass: 1148000.0
     name: Velator
     published: true
     volume: 24500.0
@@ -651,6 +659,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 33083
     marketGroup: 1619
+    mass: 1148000.0
     name: Violator
     published: true
     volume: 24500.0

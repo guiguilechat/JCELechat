@@ -9,6 +9,7 @@ items:
     WarfareBuff1Multiplier: -8
     id: 42694
     marketGroup: 2301
+    mass: 0.01
     name: Active Shielding Charge
     published: true
     volume: 0.01
@@ -22,6 +23,7 @@ items:
     WarfareBuff1Multiplier: 8
     id: 42696
     marketGroup: 2301
+    mass: 0.01
     name: Shield Extension Charge
     published: true
     volume: 0.01
@@ -35,6 +37,7 @@ items:
     WarfareBuff1Multiplier: -8
     id: 42695
     marketGroup: 2301
+    mass: 0.01
     name: Shield Harmonizing Charge
     published: true
     volume: 0.01

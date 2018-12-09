@@ -17,6 +17,7 @@ items:
     WarpSpeedMultiplier: 22.5
     id: 30028
     marketGroup: 1199
+    mass: 1.0
     name: Combat Scanner Probe I
     published: true
     volume: 1.0
@@ -37,6 +38,7 @@ items:
     WarpSpeedMultiplier: 15.0
     id: 30013
     marketGroup: 1199
+    mass: 1.0
     name: Core Scanner Probe I
     published: true
     volume: 0.1
@@ -58,6 +60,7 @@ items:
     WarpSpeedMultiplier: 15.0
     id: 32246
     marketGroup: 1199
+    mass: 1.0
     name: RSS Core Scanner Probe
     published: true
     volume: 0.1
@@ -80,6 +83,7 @@ items:
     WarpSpeedMultiplier: 22.5
     id: 30486
     marketGroup: 1199
+    mass: 1.0
     name: Sisters Combat Scanner Probe
     published: true
     volume: 1.0
@@ -101,6 +105,7 @@ items:
     WarpSpeedMultiplier: 15.0
     id: 30488
     marketGroup: 1199
+    mass: 1.0
     name: Sisters Core Scanner Probe
     published: true
     volume: 0.1

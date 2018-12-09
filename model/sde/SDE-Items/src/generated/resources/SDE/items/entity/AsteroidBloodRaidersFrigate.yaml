@@ -1,131 +1,157 @@
 items:
   Blood Collector:
     id: 10279
+    mass: 2810000.0
     name: Blood Collector
     published: false
     volume: 28100.0
   Blood Diviner:
     id: 11041
+    mass: 2860000.0
     name: Blood Diviner
     published: false
     volume: 28600.0
   Blood Engraver:
     id: 11042
+    mass: 2860000.0
     name: Blood Engraver
     published: false
     volume: 28600.0
   Blood Follower:
     id: 10275
+    mass: 2810000.0
     name: Blood Follower
     published: false
     volume: 28100.0
   Blood Herald:
     id: 10276
+    mass: 2810000.0
     name: Blood Herald
     published: false
     volume: 28100.0
   Blood Raider:
     id: 11040
+    mass: 2870000.0
     name: Blood Raider
     published: false
     volume: 28700.0
   Blood Reaver:
     id: 10280
+    mass: 2870000.0
     name: Blood Reaver
     published: false
     volume: 28700.0
   Blood Seeker:
     id: 10278
+    mass: 2810000.0
     name: Blood Seeker
     published: false
     volume: 28100.0
   Blood Upholder:
     id: 10277
+    mass: 2810000.0
     name: Blood Upholder
     published: false
     volume: 28100.0
   Blood Worshipper:
     id: 11039
+    mass: 2820000.0
     name: Blood Worshipper
     published: false
     volume: 24398.0
   Elder Blood Collector:
     id: 23260
+    mass: 2810000.0
     name: Elder Blood Collector
     published: false
     volume: 28100.0
   Elder Blood Diviner:
     id: 23262
+    mass: 2860000.0
     name: Elder Blood Diviner
     published: false
     volume: 28600.0
   Elder Blood Engraver:
     id: 23264
+    mass: 2860000.0
     name: Elder Blood Engraver
     published: false
     volume: 28600.0
   Elder Blood Follower:
     id: 13039
+    mass: 2870000.0
     name: Elder Blood Follower
     published: false
     volume: 28700.0
   Elder Blood Herald:
     id: 13040
+    mass: 2870000.0
     name: Elder Blood Herald
     published: false
     volume: 28700.0
   Elder Blood Raider:
     id: 23261
+    mass: 2860000.0
     name: Elder Blood Raider
     published: false
     volume: 28600.0
   Elder Blood Reaver:
     id: 23263
+    mass: 2860000.0
     name: Elder Blood Reaver
     published: false
     volume: 28600.0
   Elder Blood Seeker:
     id: 23259
+    mass: 2810000.0
     name: Elder Blood Seeker
     published: false
     volume: 28100.0
   Elder Blood Upholder:
     id: 13037
+    mass: 2860000.0
     name: Elder Blood Upholder
     published: false
     volume: 28600.0
   Elder Blood Worshipper:
     id: 13038
+    mass: 2860000.0
     name: Elder Blood Worshipper
     published: false
     volume: 28600.0
   Warrior Collector:
     id: 24385
+    mass: 2810000.0
     name: Warrior Collector
     published: false
     volume: 28100.0
   Warrior Diviner:
     id: 24387
+    mass: 2860000.0
     name: Warrior Diviner
     published: false
     volume: 28600.0
   Warrior Engraver:
     id: 24389
+    mass: 2860000.0
     name: Warrior Engraver
     published: false
     volume: 28600.0
   Warrior Raider:
     id: 24386
+    mass: 2870000.0
     name: Warrior Raider
     published: false
     volume: 28700.0
   Warrior Reaver:
     id: 24388
+    mass: 2870000.0
     name: Warrior Reaver
     published: false
     volume: 28700.0
   Warrior Seeker:
     id: 24407
+    mass: 2810000.0
     name: Warrior Seeker
     published: false
     volume: 28100.0

@@ -19,6 +19,7 @@ items:
     UpgradeCost: 100
     id: 37272
     marketGroup: 2346
+    mass: 200.0
     name: Standup XL-Set EW and Emissions Co-ordinator I
     published: true
     volume: 40.0
@@ -42,6 +43,7 @@ items:
     UpgradeCost: 150
     id: 37273
     marketGroup: 2346
+    mass: 200.0
     name: Standup XL-Set EW and Emissions Co-ordinator II
     published: true
     volume: 40.0

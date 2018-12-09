@@ -1,171 +1,205 @@
 items:
   Angel Frigate Vessel:
     id: 32400
+    mass: 1970000.0
     name: Angel Frigate Vessel
     published: false
     volume: 19700.0
   Arch Gistii Ambusher:
     id: 24035
+    mass: 1645000.0
     name: Arch Gistii Ambusher
     published: false
     volume: 16450.0
   Arch Gistii Hijacker:
     id: 16890
+    mass: 1645000.0
     name: Arch Gistii Hijacker
     published: false
     volume: 16450.0
   Arch Gistii Hunter:
     id: 24037
+    mass: 1645000.0
     name: Arch Gistii Hunter
     published: false
     volume: 16450.0
   Arch Gistii Impaler:
     id: 24038
+    mass: 1645000.0
     name: Arch Gistii Impaler
     published: false
     volume: 16450.0
   Arch Gistii Nomad:
     id: 24034
+    mass: 1645000.0
     name: Arch Gistii Nomad
     published: false
     volume: 16450.0
   Arch Gistii Outlaw:
     id: 16895
+    mass: 1645000.0
     name: Arch Gistii Outlaw
     published: false
     volume: 16450.0
   Arch Gistii Raider:
     id: 24036
+    mass: 1645000.0
     name: Arch Gistii Raider
     published: false
     volume: 16450.0
   Arch Gistii Rogue:
     id: 16897
+    mass: 1645000.0
     name: Arch Gistii Rogue
     published: false
     volume: 16450.0
   Arch Gistii Ruffian:
     id: 24033
+    mass: 1645000.0
     name: Arch Gistii Ruffian
     published: false
     volume: 16450.0
   Arch Gistii Thug:
     id: 16894
+    mass: 1645000.0
     name: Arch Gistii Thug
     published: false
     volume: 16450.0
   Gistii Ambusher:
     id: 16874
+    mass: 1910000.0
     name: Gistii Ambusher
     published: false
     volume: 19100.0
   Gistii Domination Ambusher:
     id: 16905
+    mass: 1910000.0
     name: Gistii Domination Ambusher
     published: false
     volume: 19100.0
   Gistii Domination Hijacker:
     id: 16901
+    mass: 2112000.0
     name: Gistii Domination Hijacker
     published: false
     volume: 21120.0
   Gistii Domination Hunter:
     id: 16907
+    mass: 1910000.0
     name: Gistii Domination Hunter
     published: false
     volume: 19100.0
   Gistii Domination Impaler:
     id: 16908
+    mass: 1645000.0
     name: Gistii Domination Impaler
     published: false
     volume: 16450.0
   Gistii Domination Nomad:
     id: 16911
+    mass: 1750000.0
     name: Gistii Domination Nomad
     published: false
     volume: 17500.0
   Gistii Domination Outlaw:
     id: 16903
+    mass: 1740000.0
     name: Gistii Domination Outlaw
     published: false
     volume: 17400.0
   Gistii Domination Raider:
     id: 16913
+    mass: 1645000.0
     name: Gistii Domination Raider
     published: false
     volume: 16450.0
   Gistii Domination Rogue:
     id: 16902
+    mass: 2250000.0
     name: Gistii Domination Rogue
     published: false
     volume: 22500.0
   Gistii Domination Ruffian:
     id: 16914
+    mass: 1766000.0
     name: Gistii Domination Ruffian
     published: false
     volume: 17660.0
   Gistii Domination Thug:
     id: 16904
+    mass: 2600500.0
     name: Gistii Domination Thug
     published: false
     volume: 26005.0
   Gistii Fugitive:
     id: 16876
+    mass: 2112000.0
     name: Gistii Fugitive
     published: false
     volume: 21120.0
   Gistii Hijacker:
     id: 16877
+    mass: 2112000.0
     name: Gistii Hijacker
     published: false
     volume: 21120.0
   Gistii Hunter:
     id: 16878
+    mass: 1910000.0
     name: Gistii Hunter
     published: false
     volume: 19100.0
   Gistii Impaler:
     id: 16879
+    mass: 1645000.0
     name: Gistii Impaler
     published: false
     volume: 16450.0
   Gistii Nomad:
     id: 16882
+    mass: 1750000.0
     name: Gistii Nomad
     published: false
     volume: 17500.0
   Gistii Outlaw:
     id: 16883
+    mass: 1740000.0
     name: Gistii Outlaw
     published: false
     volume: 17400.0
   Gistii Raider:
     id: 16885
+    mass: 1645000.0
     name: Gistii Raider
     published: false
     volume: 16450.0
   Gistii Rogue:
     id: 16886
+    mass: 2250000.0
     name: Gistii Rogue
     published: false
     volume: 22500.0
   Gistii Ruffian:
     id: 16887
+    mass: 1766000.0
     name: Gistii Ruffian
     published: false
     volume: 17660.0
   Gistii Thug:
     id: 16888
+    mass: 2600500.0
     name: Gistii Thug
     published: false
     volume: 26005.0
   Gistii_Defender_Frigate:
     id: 25823
+    mass: 1645000.0
     name: Gistii_Defender_Frigate
     published: false
     volume: 16450.0
   Terrorist Leader:
     id: 2012
+    mass: 1645000.0
     name: Terrorist Leader
     published: false
     volume: 16450.0

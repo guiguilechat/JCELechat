@@ -20,6 +20,7 @@ items:
     ThermalDamage: 3000.0
     id: 37849
     marketGroup: 2198
+    mass: 1500.0
     name: Standup Heavy Guided Bomb
     published: true
     volume: 100.0
@@ -44,6 +45,7 @@ items:
     ThermalDamage: 850.0
     id: 37850
     marketGroup: 2198
+    mass: 1500.0
     name: Standup Light Guided Bomb
     published: true
     volume: 100.0

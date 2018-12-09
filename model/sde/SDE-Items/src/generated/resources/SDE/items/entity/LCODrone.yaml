@@ -1,6 +1,7 @@
 items:
   Test LCO Drone:
     id: 3457
+    mass: 100000.0
     name: Test LCO Drone
     published: false
     volume: 60.0

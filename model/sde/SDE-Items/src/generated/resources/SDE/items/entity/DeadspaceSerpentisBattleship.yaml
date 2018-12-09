@@ -1,101 +1,121 @@
 items:
   Core Admiral:
     id: 24167
+    mass: 1.75E7
     name: Core Admiral
     published: false
     volume: 1140000.0
   Core Baron:
     id: 17038
+    mass: 1.9E7
     name: Core Baron
     published: false
     volume: 1010000.0
   Core Commodore:
     id: 17037
+    mass: 1.75E7
     name: Core Commodore
     published: false
     volume: 1140000.0
   Core Flotilla Admiral:
     id: 24165
+    mass: 1.75E7
     name: Core Flotilla Admiral
     published: false
     volume: 1140000.0
   Core Grand Admiral:
     id: 24169
+    mass: 1.75E7
     name: Core Grand Admiral
     published: false
     volume: 1140000.0
   Core High Admiral:
     id: 24168
+    mass: 1.75E7
     name: Core High Admiral
     published: false
     volume: 1140000.0
   Core Lord Admiral:
     id: 24170
+    mass: 1.75E7
     name: Core Lord Admiral
     published: false
     volume: 1140000.0
   Core Port Admiral:
     id: 17036
+    mass: 1.9E7
     name: Core Port Admiral
     published: false
     volume: 1010000.0
   Core Rear Admiral:
     id: 17034
+    mass: 1.75E7
     name: Core Rear Admiral
     published: false
     volume: 1140000.0
   Core Vice Admiral:
     id: 24166
+    mass: 1.75E7
     name: Core Vice Admiral
     published: false
     volume: 1140000.0
   Shadow Core Admiral:
     id: 24171
+    mass: 1.75E7
     name: Shadow Core Admiral
     published: false
     volume: 1140000.0
   Shadow Core Baron:
     id: 17052
+    mass: 1.9E7
     name: Shadow Core Baron
     published: false
     volume: 1010000.0
   Shadow Core Commodore:
     id: 17051
+    mass: 1.75E7
     name: Shadow Core Commodore
     published: false
     volume: 1140000.0
   Shadow Core Flotilla Admiral:
     id: 17053
+    mass: 1.9E7
     name: Shadow Core Flotilla Admiral
     published: false
     volume: 1010000.0
   Shadow Core Grand Admiral:
     id: 24173
+    mass: 1.75E7
     name: Shadow Core Grand Admiral
     published: false
     volume: 1140000.0
   Shadow Core High Admiral:
     id: 24172
+    mass: 1.75E7
     name: Shadow Core High Admiral
     published: false
     volume: 1140000.0
   Shadow Core Lord Admiral:
     id: 24174
+    mass: 1.75E7
     name: Shadow Core Lord Admiral
     published: false
     volume: 1140000.0
   Shadow Core Port Admiral:
     id: 17049
+    mass: 1.9E7
     name: Shadow Core Port Admiral
     published: false
     volume: 1010000.0
   Shadow Core Rear Admiral:
     id: 17054
+    mass: 1.75E7
     name: Shadow Core Rear Admiral
     published: false
     volume: 1140000.0
   Shadow Core Vice Admiral:
     id: 17050
+    mass: 1.75E7
     name: Shadow Core Vice Admiral
     published: false
     volume: 1140000.0

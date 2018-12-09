@@ -12,6 +12,7 @@ items:
     TechLevel: 1
     id: 6043
     marketGroup: 670
+    mass: 30.0
     name: '''Recusant'' Hostile Targeting Array I'
     published: true
     volume: 5.0
@@ -27,6 +28,7 @@ items:
     TechLevel: 1
     id: 1182
     marketGroup: 670
+    mass: 30.0
     name: Auto Targeting System I
     published: true
     volume: 5.0
@@ -43,6 +45,7 @@ items:
     TechLevel: 2
     id: 1436
     marketGroup: 670
+    mass: 40.0
     name: Auto Targeting System II
     published: true
     volume: 5.0
@@ -59,6 +62,7 @@ items:
     TechLevel: 1
     id: 6047
     marketGroup: 670
+    mass: 30.0
     name: Automated Targeting Unit I
     published: true
     volume: 5.0
@@ -75,6 +79,7 @@ items:
     TechLevel: 1
     id: 6041
     marketGroup: 670
+    mass: 30.0
     name: Hostile Target Acquisition I
     published: true
     volume: 5.0
@@ -91,6 +96,7 @@ items:
     TechLevel: 1
     id: 6045
     marketGroup: 670
+    mass: 30.0
     name: Responsive Auto-Targeting System I
     published: true
     volume: 5.0

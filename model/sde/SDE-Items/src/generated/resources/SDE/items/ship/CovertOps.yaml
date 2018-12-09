@@ -78,6 +78,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11188
     marketGroup: 421
+    mass: 1147000.0
     name: Anathema
     published: true
     volume: 28100.0
@@ -162,6 +163,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11192
     marketGroup: 422
+    mass: 1270000.0
     name: Buzzard
     published: true
     volume: 19400.0
@@ -254,6 +256,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 42246
     marketGroup: 1838
+    mass: 1200000.0
     name: Caedes
     published: true
     volume: 28600.0
@@ -337,6 +340,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11182
     marketGroup: 424
+    mass: 1430000.0
     name: Cheetah
     published: true
     volume: 17400.0
@@ -427,6 +431,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 33397
     marketGroup: 1838
+    mass: 930000.0
     name: Chremoas
     published: true
     volume: 28000.0
@@ -511,6 +516,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 11172
     marketGroup: 423
+    mass: 1271000.0
     name: Helios
     published: true
     volume: 23000.0
@@ -596,6 +602,7 @@ items:
     WarpSpeedMultiplier: 5.0
     id: 48636
     marketGroup: 1838
+    mass: 950000.0
     name: Hydra
     published: true
     volume: 28600.0
@@ -696,6 +703,7 @@ items:
     WarpSpeedMultiplier: 8.0
     id: 44993
     marketGroup: 1838
+    mass: 1400000.0
     name: Pacifier
     published: true
     volume: 20000.0

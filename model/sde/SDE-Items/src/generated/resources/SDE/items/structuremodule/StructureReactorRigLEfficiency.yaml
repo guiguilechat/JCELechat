@@ -17,6 +17,7 @@ items:
     UpgradeCost: 100
     id: 46496
     marketGroup: 2342
+    mass: 200.0
     name: Standup L-Set Reactor Efficiency I
     published: true
     volume: 20.0
@@ -38,6 +39,7 @@ items:
     UpgradeCost: 150
     id: 46497
     marketGroup: 2342
+    mass: 200.0
     name: Standup L-Set Reactor Efficiency II
     published: true
     volume: 20.0

@@ -22,6 +22,7 @@ items:
     ThermalDamage: 5885.0
     id: 29618
     marketGroup: 1194
+    mass: 1500.0
     name: Guristas Inferno XL Torpedo
     published: true
     volume: 0.3
@@ -48,6 +49,7 @@ items:
     TechLevel: 1
     id: 29622
     marketGroup: 1194
+    mass: 1500.0
     name: Guristas Mjolnir XL Torpedo
     published: true
     volume: 0.3
@@ -74,6 +76,7 @@ items:
     TechLevel: 1
     id: 29616
     marketGroup: 1194
+    mass: 1500.0
     name: Guristas Nova XL Torpedo
     published: true
     volume: 0.3
@@ -100,6 +103,7 @@ items:
     TechLevel: 1
     id: 29620
     marketGroup: 1194
+    mass: 1500.0
     name: Guristas Scourge XL Torpedo
     published: true
     volume: 0.3
@@ -124,6 +128,7 @@ items:
     ThermalDamage: 5350.0
     id: 17861
     marketGroup: 1193
+    mass: 1500.0
     name: Inferno XL Torpedo
     published: true
     volume: 0.3
@@ -148,6 +153,7 @@ items:
     TechLevel: 1
     id: 17857
     marketGroup: 1193
+    mass: 1500.0
     name: Mjolnir XL Torpedo
     published: true
     volume: 0.3
@@ -172,6 +178,7 @@ items:
     TechLevel: 1
     id: 17863
     marketGroup: 1193
+    mass: 1500.0
     name: Nova XL Torpedo
     published: true
     volume: 0.3
@@ -196,6 +203,7 @@ items:
     TechLevel: 1
     id: 17859
     marketGroup: 1193
+    mass: 1500.0
     name: Scourge XL Torpedo
     published: true
     volume: 0.3

@@ -23,6 +23,7 @@ items:
     UpgradeCost: 100
     id: 37274
     marketGroup: 2346
+    mass: 200.0
     name: Standup XL-Set Extinction Level Weapons Suite I
     published: true
     volume: 40.0
@@ -50,6 +51,7 @@ items:
     UpgradeCost: 150
     id: 37275
     marketGroup: 2346
+    mass: 200.0
     name: Standup XL-Set Extinction Level Weapons Suite II
     published: true
     volume: 40.0

@@ -1,6 +1,7 @@
 items:
   Sentient Infested Supercarrier:
     id: 37471
+    mass: 1.615625E9
     name: Sentient Infested Supercarrier
     published: false
     volume: 5.82E7

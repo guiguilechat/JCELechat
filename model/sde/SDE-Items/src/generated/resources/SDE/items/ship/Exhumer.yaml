@@ -79,6 +79,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 22544
     marketGroup: 874
+    mass: 3.0E7
     name: Hulk
     published: true
     volume: 200000.0
@@ -161,6 +162,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 22548
     marketGroup: 874
+    mass: 2.0E7
     name: Mackinaw
     published: true
     volume: 150000.0
@@ -245,6 +247,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 22546
     marketGroup: 874
+    mass: 1.0E7
     name: Skiff
     published: true
     volume: 100000.0

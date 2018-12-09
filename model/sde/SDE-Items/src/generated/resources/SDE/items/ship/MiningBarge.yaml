@@ -76,6 +76,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17476
     marketGroup: 494
+    mass: 3.0E7
     name: Covetor
     published: true
     volume: 200000.0
@@ -157,6 +158,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17480
     marketGroup: 494
+    mass: 1.0E7
     name: Procurer
     published: true
     volume: 100000.0
@@ -236,6 +238,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17478
     marketGroup: 494
+    mass: 2.0E7
     name: Retriever
     published: true
     volume: 150000.0

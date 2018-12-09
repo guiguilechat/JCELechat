@@ -2,819 +2,957 @@ items:
   Ahremen Arkah's Tag:
     id: 17300
     marketGroup: 750
+    mass: 1.0
     name: Ahremen Arkah's Tag
     published: true
     volume: 0.1
   Angel Brass Tag:
     id: 12529
     marketGroup: 740
+    mass: 1.0
     name: Angel Brass Tag
     published: true
     volume: 0.1
   Angel Bronze Tag:
     id: 17190
     marketGroup: 740
+    mass: 1.0
     name: Angel Bronze Tag
     published: true
     volume: 0.1
   Angel Copper Tag:
     id: 12304
     marketGroup: 740
+    mass: 1.0
     name: Angel Copper Tag
     published: true
     volume: 0.1
   Angel Crystal Tag:
     id: 12531
     marketGroup: 740
+    mass: 1.0
     name: Angel Crystal Tag
     published: true
     volume: 0.1
   Angel Diamond Tag:
     id: 17192
     marketGroup: 740
+    mass: 1.0
     name: Angel Diamond Tag
     published: true
     volume: 0.1
   Angel Electrum Tag:
     id: 17199
     marketGroup: 740
+    mass: 1.0
     name: Angel Electrum Tag
     published: true
     volume: 0.1
   Angel Gold Tag:
     id: 17194
     marketGroup: 740
+    mass: 1.0
     name: Angel Gold Tag
     published: true
     volume: 0.1
   Angel Palladium Tag:
     id: 12530
     marketGroup: 740
+    mass: 1.0
     name: Angel Palladium Tag
     published: true
     volume: 0.1
   Angel Platinum Tag:
     id: 17196
     marketGroup: 740
+    mass: 1.0
     name: Angel Platinum Tag
     published: true
     volume: 0.1
   Angel Silver Tag:
     id: 12528
     marketGroup: 740
+    mass: 1.0
     name: Angel Silver Tag
     published: true
     volume: 0.1
   Blood Brass Tag:
     id: 17204
     marketGroup: 741
+    mass: 1.0
     name: Blood Brass Tag
     published: true
     volume: 0.1
   Blood Bronze Tag:
     id: 12532
     marketGroup: 741
+    mass: 1.0
     name: Blood Bronze Tag
     published: true
     volume: 0.1
   Blood Copper Tag:
     id: 17200
     marketGroup: 741
+    mass: 1.0
     name: Blood Copper Tag
     published: true
     volume: 0.1
   Blood Crystal Tag:
     id: 12536
     marketGroup: 741
+    mass: 1.0
     name: Blood Crystal Tag
     published: true
     volume: 0.1
   Blood Diamond Tag:
     id: 17201
     marketGroup: 741
+    mass: 1.0
     name: Blood Diamond Tag
     published: true
     volume: 0.1
   Blood Electrum Tag:
     id: 17203
     marketGroup: 741
+    mass: 1.0
     name: Blood Electrum Tag
     published: true
     volume: 0.1
   Blood Gold Tag:
     id: 25239
     marketGroup: 741
+    mass: 1.0
     name: Blood Gold Tag
     published: true
     volume: 0.1
   Blood Grunt Tag:
     id: 23669
+    mass: 1.0
     name: Blood Grunt Tag
     published: true
     volume: 0.1
   Blood Lower-Tier Tag:
     id: 23668
+    mass: 1.0
     name: Blood Lower-Tier Tag
     published: true
     volume: 0.1
   Blood Palladium Tag:
     id: 17202
     marketGroup: 741
+    mass: 1.0
     name: Blood Palladium Tag
     published: true
     volume: 0.1
   Blood Platinum Tag:
     id: 12535
     marketGroup: 741
+    mass: 1.0
     name: Blood Platinum Tag
     published: true
     volume: 0.1
   Blood Silver Tag:
     id: 12533
     marketGroup: 741
+    mass: 1.0
     name: Blood Silver Tag
     published: true
     volume: 0.1
   Blood Upper-Tier Tag:
     id: 12534
     marketGroup: 741
+    mass: 1.0
     name: Blood Upper-Tier Tag
     published: true
     volume: 0.1
   Brokara Ryver's Tag:
     id: 17290
     marketGroup: 750
+    mass: 1.0
     name: Brokara Ryver's Tag
     published: true
     volume: 0.1
   Brynn Jerdola's Tag:
     id: 17294
     marketGroup: 750
+    mass: 1.0
     name: Brynn Jerdola's Tag
     published: true
     volume: 0.1
   Chelm Soran's Tag:
     id: 17287
     marketGroup: 750
+    mass: 1.0
     name: Chelm Soran's Tag
     published: true
     volume: 0.1
   Cormack Vaaja's Tag:
     id: 17291
     marketGroup: 750
+    mass: 1.0
     name: Cormack Vaaja's Tag
     published: true
     volume: 0.1
   Corpum Commander Medallion:
     id: 24285
+    mass: 1.0
     name: Corpum Commander Medallion
     published: true
     volume: 0.1
   Dark Blood Brass Tag:
     id: 17231
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Brass Tag
     published: true
     volume: 0.1
   Dark Blood Bronze Tag:
     id: 17232
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Bronze Tag
     published: true
     volume: 0.1
   Dark Blood Copper Tag:
     id: 17233
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Copper Tag
     published: true
     volume: 0.1
   Dark Blood Crystal Tag:
     id: 17234
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Crystal Tag
     published: true
     volume: 0.1
   Dark Blood Diamond Tag:
     id: 17235
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Diamond Tag
     published: true
     volume: 0.1
   Dark Blood Electrum Tag:
     id: 17236
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Electrum Tag
     published: true
     volume: 0.1
   Dark Blood Gold Tag:
     id: 17238
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Gold Tag
     published: true
     volume: 0.1
   Dark Blood Palladium Tag:
     id: 17237
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Palladium Tag
     published: true
     volume: 0.1
   Dark Blood Platinum Tag:
     id: 17240
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Platinum Tag
     published: true
     volume: 0.1
   Dark Blood Silver Tag:
     id: 17239
     marketGroup: 742
+    mass: 1.0
     name: Dark Blood Silver Tag
     published: true
     volume: 0.1
   Domination Brass Tag:
     id: 17220
     marketGroup: 743
+    mass: 1.0
     name: Domination Brass Tag
     published: true
     volume: 0.1
   Domination Bronze Tag:
     id: 17221
     marketGroup: 743
+    mass: 1.0
     name: Domination Bronze Tag
     published: true
     volume: 0.1
   Domination Copper Tag:
     id: 17222
     marketGroup: 743
+    mass: 1.0
     name: Domination Copper Tag
     published: true
     volume: 0.1
   Domination Crystal Tag:
     id: 17223
     marketGroup: 743
+    mass: 1.0
     name: Domination Crystal Tag
     published: true
     volume: 0.1
   Domination Diamond Tag:
     id: 17224
     marketGroup: 743
+    mass: 1.0
     name: Domination Diamond Tag
     published: true
     volume: 0.1
   Domination Electrum Tag:
     id: 17225
     marketGroup: 743
+    mass: 1.0
     name: Domination Electrum Tag
     published: true
     volume: 0.1
   Domination Gold Tag:
     id: 17226
     marketGroup: 743
+    mass: 1.0
     name: Domination Gold Tag
     published: true
     volume: 0.1
   Domination Palladium Tag:
     id: 17227
     marketGroup: 743
+    mass: 1.0
     name: Domination Palladium Tag
     published: true
     volume: 0.1
   Domination Platinum Tag:
     id: 17229
     marketGroup: 743
+    mass: 1.0
     name: Domination Platinum Tag
     published: true
     volume: 0.1
   Domination Silver Tag:
     id: 17230
     marketGroup: 743
+    mass: 1.0
     name: Domination Silver Tag
     published: true
     volume: 0.1
   Draclira Merlonne's Tag:
     id: 17299
     marketGroup: 750
+    mass: 1.0
     name: Draclira Merlonne's Tag
     published: true
     volume: 0.1
   Dread Guristas Brass Tag:
     id: 17241
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Brass Tag
     published: true
     volume: 0.1
   Dread Guristas Bronze Tag:
     id: 17242
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Bronze Tag
     published: true
     volume: 0.1
   Dread Guristas Copper Tag:
     id: 17243
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Copper Tag
     published: true
     volume: 0.1
   Dread Guristas Crystal Tag:
     id: 17244
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Crystal Tag
     published: true
     volume: 0.1
   Dread Guristas Diamond Tag:
     id: 17245
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Diamond Tag
     published: true
     volume: 0.1
   Dread Guristas Electrum Tag:
     id: 17247
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Electrum Tag
     published: true
     volume: 0.1
   Dread Guristas Gold Tag:
     id: 17248
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Gold Tag
     published: true
     volume: 0.1
   Dread Guristas Palladium Tag:
     id: 17249
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Palladium Tag
     published: true
     volume: 0.1
   Dread Guristas Platinum Tag:
     id: 17250
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Platinum Tag
     published: true
     volume: 0.1
   Dread Guristas Silver Tag:
     id: 17251
     marketGroup: 744
+    mass: 1.0
     name: Dread Guristas Silver Tag
     published: true
     volume: 0.1
   Estamel Tharchon's Tag:
     id: 17295
     marketGroup: 750
+    mass: 1.0
     name: Estamel Tharchon's Tag
     published: true
     volume: 0.1
   Faramon's Tag:
     id: 17852
     marketGroup: 750
+    mass: 1.0
     name: Faramon's Tag
     published: true
     volume: 0.1
   Gotan Kreiss's Tag:
     id: 17304
     marketGroup: 750
+    mass: 1.0
     name: Gotan Kreiss's Tag
     published: true
     volume: 0.1
   Guristas Brass Tag:
     id: 17207
     marketGroup: 745
+    mass: 1.0
     name: Guristas Brass Tag
     published: true
     volume: 0.1
   Guristas Bronze Tag:
     id: 12542
     marketGroup: 745
+    mass: 1.0
     name: Guristas Bronze Tag
     published: true
     volume: 0.1
   Guristas Copper Tag:
     id: 17205
     marketGroup: 745
+    mass: 1.0
     name: Guristas Copper Tag
     published: true
     volume: 0.1
   Guristas Crystal Tag:
     id: 12546
     marketGroup: 745
+    mass: 1.0
     name: Guristas Crystal Tag
     published: true
     volume: 0.1
   Guristas Diamond Tag:
     id: 17206
     marketGroup: 745
+    mass: 1.0
     name: Guristas Diamond Tag
     published: true
     volume: 0.1
   Guristas Electrum Tag:
     id: 17209
     marketGroup: 745
+    mass: 1.0
     name: Guristas Electrum Tag
     published: true
     volume: 0.1
   Guristas Gold Tag:
     id: 12544
     marketGroup: 745
+    mass: 1.0
     name: Guristas Gold Tag
     published: true
     volume: 0.1
   Guristas Palladium Tag:
     id: 17208
     marketGroup: 745
+    mass: 1.0
     name: Guristas Palladium Tag
     published: true
     volume: 0.1
   Guristas Platinum Tag:
     id: 12545
     marketGroup: 745
+    mass: 1.0
     name: Guristas Platinum Tag
     published: true
     volume: 0.1
   Guristas Silver Tag:
     id: 12543
     marketGroup: 745
+    mass: 1.0
     name: Guristas Silver Tag
     published: true
     volume: 0.1
   Hakim Stormare's Tag:
     id: 17305
     marketGroup: 750
+    mass: 1.0
     name: Hakim Stormare's Tag
     published: true
     volume: 0.1
   Imai Kenon's Tag:
     id: 17630
     marketGroup: 750
+    mass: 1.0
     name: Imai Kenon's Tag
     published: true
     volume: 0.1
   Jakon's Tag:
     id: 21104
+    mass: 1.0
     name: Jakon's Tag
     published: true
     volume: 0.1
   Jarkon Puman's Tag:
     id: 19663
     marketGroup: 750
+    mass: 1.0
     name: Jarkon Puman's Tag
     published: true
     volume: 0.1
   Jenmei's Tag:
     id: 17623
     marketGroup: 750
+    mass: 1.0
     name: Jenmei's Tag
     published: true
     volume: 0.1
   Kaikka Peunato's Tag:
     id: 17298
     marketGroup: 750
+    mass: 1.0
     name: Kaikka Peunato's Tag
     published: true
     volume: 0.1
   Kalorr Makur's Tag:
     id: 25849
+    mass: 1.0
     name: Kalorr Makur's Tag
     published: true
     volume: 0.1
   Lazarus's Tag:
     id: 17847
     marketGroup: 750
+    mass: 1.0
     name: Lazarus's Tag
     published: true
     volume: 0.1
   Makele's Tag:
     id: 21062
+    mass: 1.0
     name: Makele's Tag
     published: true
     volume: 0.1
   Manchura's Tag:
     id: 20550
+    mass: 1.0
     name: Manchura's Tag
     published: true
     volume: 0.1
   Mizuro Cybon's Tag:
     id: 17306
     marketGroup: 750
+    mass: 1.0
     name: Mizuro Cybon's Tag
     published: true
     volume: 0.1
   Propel Dynamics Dogtag:
     id: 21626
+    mass: 1.0
     name: Propel Dynamics Dogtag
     published: true
     volume: 0.1
   Raelek's Tag:
     id: 17642
     marketGroup: 750
+    mass: 1.0
     name: Raelek's Tag
     published: true
     volume: 0.1
   Raysere Giant's Tag:
     id: 17301
     marketGroup: 750
+    mass: 1.0
     name: Raysere Giant's Tag
     published: true
     volume: 0.1
   Sansha Brass Tag:
     id: 17212
     marketGroup: 746
+    mass: 1.0
     name: Sansha Brass Tag
     published: true
     volume: 0.1
   Sansha Bronze Tag:
     id: 12547
     marketGroup: 746
+    mass: 1.0
     name: Sansha Bronze Tag
     published: true
     volume: 0.1
   Sansha Copper Tag:
     id: 17210
     marketGroup: 746
+    mass: 1.0
     name: Sansha Copper Tag
     published: true
     volume: 0.1
   Sansha Crystal Tag:
     id: 12551
     marketGroup: 746
+    mass: 1.0
     name: Sansha Crystal Tag
     published: true
     volume: 0.1
   Sansha Diamond Tag:
     id: 17211
     marketGroup: 746
+    mass: 1.0
     name: Sansha Diamond Tag
     published: true
     volume: 0.1
   Sansha Electrum Tag:
     id: 17214
     marketGroup: 746
+    mass: 1.0
     name: Sansha Electrum Tag
     published: true
     volume: 0.1
   Sansha Gold Tag:
     id: 12549
     marketGroup: 746
+    mass: 1.0
     name: Sansha Gold Tag
     published: true
     volume: 0.1
   Sansha Infiltrator Tag:
     id: 26128
+    mass: 1.0
     name: Sansha Infiltrator Tag
     published: true
     volume: 0.1
   Sansha Palladium Tag:
     id: 17213
     marketGroup: 746
+    mass: 1.0
     name: Sansha Palladium Tag
     published: true
     volume: 0.1
   Sansha Platinum Tag:
     id: 12550
     marketGroup: 746
+    mass: 1.0
     name: Sansha Platinum Tag
     published: true
     volume: 0.1
   Sansha Silver Tag:
     id: 12548
     marketGroup: 746
+    mass: 1.0
     name: Sansha Silver Tag
     published: true
     volume: 0.1
   Selynne Mardakar's Tag:
     id: 17289
     marketGroup: 750
+    mass: 1.0
     name: Selynne Mardakar's Tag
     published: true
     volume: 0.1
   Serpentis Brass Tag:
     id: 17217
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Brass Tag
     published: true
     volume: 0.1
   Serpentis Bronze Tag:
     id: 12537
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Bronze Tag
     published: true
     volume: 0.1
   Serpentis Copper Tag:
     id: 17215
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Copper Tag
     published: true
     volume: 0.1
   Serpentis Crystal Tag:
     id: 12541
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Crystal Tag
     published: true
     volume: 0.1
   Serpentis Diamond Tag:
     id: 17216
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Diamond Tag
     published: true
     volume: 0.1
   Serpentis Electrum Tag:
     id: 17219
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Electrum Tag
     published: true
     volume: 0.1
   Serpentis Gold Tag:
     id: 12539
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Gold Tag
     published: true
     volume: 0.1
   Serpentis Palladium Tag:
     id: 17218
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Palladium Tag
     published: true
     volume: 0.1
   Serpentis Platinum Tag:
     id: 12540
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Platinum Tag
     published: true
     volume: 0.1
   Serpentis Silver Tag:
     id: 12538
     marketGroup: 747
+    mass: 1.0
     name: Serpentis Silver Tag
     published: true
     volume: 0.1
   Setele Schellan's Tag:
     id: 17292
     marketGroup: 750
+    mass: 1.0
     name: Setele Schellan's Tag
     published: true
     volume: 0.1
   Shadow Serpentis Brass Tag:
     id: 17262
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Brass Tag
     published: true
     volume: 0.1
   Shadow Serpentis Bronze Tag:
     id: 17263
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Bronze Tag
     published: true
     volume: 0.1
   Shadow Serpentis Copper Tag:
     id: 17264
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Copper Tag
     published: true
     volume: 0.1
   Shadow Serpentis Crystal Tag:
     id: 17266
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Crystal Tag
     published: true
     volume: 0.1
   Shadow Serpentis Diamond Tag:
     id: 17267
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Diamond Tag
     published: true
     volume: 0.1
   Shadow Serpentis Electrum Tag:
     id: 17268
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Electrum Tag
     published: true
     volume: 0.1
   Shadow Serpentis Gold Tag:
     id: 17270
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Gold Tag
     published: true
     volume: 0.1
   Shadow Serpentis Palladium Tag:
     id: 17269
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Palladium Tag
     published: true
     volume: 0.1
   Shadow Serpentis Platinum Tag:
     id: 17271
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Platinum Tag
     published: true
     volume: 0.1
   Shadow Serpentis Silver Tag:
     id: 17272
     marketGroup: 748
+    mass: 1.0
     name: Shadow Serpentis Silver Tag
     published: true
     volume: 0.1
   Tairei Namazoth's Tag:
     id: 17302
     marketGroup: 750
+    mass: 1.0
     name: Tairei Namazoth's Tag
     published: true
     volume: 0.1
   Thon Eney's Tag:
     id: 17297
     marketGroup: 750
+    mass: 1.0
     name: Thon Eney's Tag
     published: true
     volume: 0.1
   Tobias Kruzhor's Tag:
     id: 17303
     marketGroup: 750
+    mass: 1.0
     name: Tobias Kruzhor's Tag
     published: true
     volume: 0.1
   True Sansha Brass Tag:
     id: 17252
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Brass Tag
     published: true
     volume: 0.1
   True Sansha Bronze Tag:
     id: 17253
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Bronze Tag
     published: true
     volume: 0.1
   True Sansha Copper Tag:
     id: 17254
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Copper Tag
     published: true
     volume: 0.1
   True Sansha Crystal Tag:
     id: 17255
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Crystal Tag
     published: true
     volume: 0.1
   True Sansha Diamond Tag:
     id: 17256
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Diamond Tag
     published: true
     volume: 0.1
   True Sansha Electrum Tag:
     id: 17257
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Electrum Tag
     published: true
     volume: 0.1
   True Sansha Gold Tag:
     id: 17258
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Gold Tag
     published: true
     volume: 0.1
   True Sansha Palladium Tag:
     id: 17259
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Palladium Tag
     published: true
     volume: 0.1
   True Sansha Platinum Tag:
     id: 17260
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Platinum Tag
     published: true
     volume: 0.1
   True Sansha Silver Tag:
     id: 17261
     marketGroup: 749
+    mass: 1.0
     name: True Sansha Silver Tag
     published: true
     volume: 0.1
   Tuvan Orth's Tag:
     id: 17293
     marketGroup: 750
+    mass: 1.0
     name: Tuvan Orth's Tag
     published: true
     volume: 0.1
   Uleen Bloodsworn's Tag:
     id: 17743
     marketGroup: 750
+    mass: 1.0
     name: Uleen Bloodsworn's Tag
     published: true
     volume: 0.1
   Vepas Minimala's Tag:
     id: 17296
     marketGroup: 750
+    mass: 1.0
     name: Vepas Minimala's Tag
     published: true
     volume: 0.1
   Vizan Ankonin's Tag:
     id: 17288
     marketGroup: 750
+    mass: 1.0
     name: Vizan Ankonin's Tag
     published: true
     volume: 0.1
   Zelfarios Kashnostramus's Tag:
     id: 18679
     marketGroup: 750
+    mass: 1.0
     name: Zelfarios Kashnostramus's Tag
     published: true
     volume: 0.1

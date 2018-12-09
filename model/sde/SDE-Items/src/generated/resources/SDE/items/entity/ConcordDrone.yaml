@@ -1,31 +1,37 @@
 items:
   CONCORD Police Captain:
     id: 3885
+    mass: 1.01E7
     name: CONCORD Police Captain
     published: false
     volume: 101000.0
   CONCORD Police Commander:
     id: 11125
+    mass: 2.0E7
     name: CONCORD Police Commander
     published: false
     volume: 1080000.0
   CONCORD Police Officer:
     id: 3863
+    mass: 2040000.0
     name: CONCORD Police Officer
     published: false
     volume: 20400.0
   DED Special Operation Captain:
     id: 10038
+    mass: 1.01E7
     name: DED Special Operation Captain
     published: false
     volume: 101000.0
   DED Special Operation Commander:
     id: 11128
+    mass: 2.0E7
     name: DED Special Operation Commander
     published: false
     volume: 1080000.0
   DED Special Operation Officer:
     id: 10037
+    mass: 2040000.0
     name: DED Special Operation Officer
     published: false
     volume: 20400.0

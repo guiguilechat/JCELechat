@@ -17,6 +17,7 @@ items:
     UpgradeCost: 100
     id: 46641
     marketGroup: 2343
+    mass: 200.0
     name: Standup XL-Set Reprocessing Monitor I
     published: true
     volume: 40.0
@@ -38,6 +39,7 @@ items:
     UpgradeCost: 150
     id: 46642
     marketGroup: 2343
+    mass: 200.0
     name: Standup XL-Set Reprocessing Monitor II
     published: true
     volume: 40.0

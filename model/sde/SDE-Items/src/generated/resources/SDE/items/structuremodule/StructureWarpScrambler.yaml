@@ -23,6 +23,7 @@ items:
     WarpScrambleStrength: 100
     id: 35949
     marketGroup: 2216
+    mass: 500.0
     name: Standup Focused Warp Disruptor I
     published: true
     volume: 4000.0
@@ -51,6 +52,7 @@ items:
     WarpScrambleStrength: 100
     id: 47334
     marketGroup: 2216
+    mass: 500.0
     name: Standup Focused Warp Disruptor II
     published: true
     volume: 4000.0

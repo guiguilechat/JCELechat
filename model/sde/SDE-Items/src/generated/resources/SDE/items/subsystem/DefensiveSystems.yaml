@@ -17,6 +17,7 @@ items:
     TechLevel: 3
     id: 45587
     marketGroup: 1126
+    mass: 1400000.0
     name: Legion Defensive - Augmented Plating
     published: true
     volume: 40.0
@@ -44,6 +45,7 @@ items:
     VirusStrengthBonus: 10
     id: 45586
     marketGroup: 1126
+    mass: 1400000.0
     name: Legion Defensive - Covert Reconfiguration
     published: true
     volume: 40.0
@@ -67,6 +69,7 @@ items:
     TechLevel: 3
     id: 45588
     marketGroup: 1126
+    mass: 1400000.0
     name: Legion Defensive - Nanobot Injector
     published: true
     volume: 40.0
@@ -92,6 +95,7 @@ items:
     TechLevel: 3
     id: 45597
     marketGroup: 1128
+    mass: 1400000.0
     name: Loki Defensive - Adaptive Defense Node
     published: true
     volume: 40.0
@@ -114,6 +118,7 @@ items:
     TechLevel: 3
     id: 45596
     marketGroup: 1128
+    mass: 1400000.0
     name: Loki Defensive - Augmented Durability
     published: true
     volume: 40.0
@@ -140,6 +145,7 @@ items:
     VirusStrengthBonus: 10
     id: 45595
     marketGroup: 1128
+    mass: 1400000.0
     name: Loki Defensive - Covert Reconfiguration
     published: true
     volume: 40.0
@@ -161,6 +167,7 @@ items:
     TechLevel: 3
     id: 45593
     marketGroup: 1129
+    mass: 1400000.0
     name: Proteus Defensive - Augmented Plating
     published: true
     volume: 40.0
@@ -188,6 +195,7 @@ items:
     VirusStrengthBonus: 10
     id: 45592
     marketGroup: 1129
+    mass: 1400000.0
     name: Proteus Defensive - Covert Reconfiguration
     published: true
     volume: 40.0
@@ -211,6 +219,7 @@ items:
     TechLevel: 3
     id: 45594
     marketGroup: 1129
+    mass: 1400000.0
     name: Proteus Defensive - Nanobot Injector
     published: true
     volume: 40.0
@@ -234,6 +243,7 @@ items:
     TechLevel: 3
     id: 45591
     marketGroup: 1127
+    mass: 1400000.0
     name: Tengu Defensive - Amplification Node
     published: true
     volume: 40.0
@@ -260,6 +270,7 @@ items:
     VirusStrengthBonus: 10
     id: 45589
     marketGroup: 1127
+    mass: 1400000.0
     name: Tengu Defensive - Covert Reconfiguration
     published: true
     volume: 40.0
@@ -281,6 +292,7 @@ items:
     TechLevel: 3
     id: 45590
     marketGroup: 1127
+    mass: 1400000.0
     name: Tengu Defensive - Supplemental Screening
     published: true
     volume: 40.0

@@ -2,6 +2,7 @@ items:
   Triglavian Survey Database:
     id: 48121
     marketGroup: 2480
+    mass: 1.0
     name: Triglavian Survey Database
     published: true
     volume: 0.1

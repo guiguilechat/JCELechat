@@ -86,6 +86,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 37135
     marketGroup: 1924
+    mass: 1600000.0
     name: Endurance
     published: true
     volume: 50000.0
@@ -172,6 +173,7 @@ items:
     WarpSpeedMultiplier: 5.5
     id: 33697
     marketGroup: 1924
+    mass: 1400000.0
     name: Prospect
     published: true
     volume: 50000.0

@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45494
     marketGroup: 2397
+    mass: 4000.0
     name: Cobaltite
     published: true
     volume: 10.0
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46288
     marketGroup: 2397
+    mass: 4000.0
     name: Copious Cobaltite
     published: true
     volume: 10.0
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46290
     marketGroup: 2397
+    mass: 4000.0
     name: Copious Euxenite
     published: true
     volume: 10.0
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46294
     marketGroup: 2397
+    mass: 4000.0
     name: Copious Scheelite
     published: true
     volume: 10.0
@@ -66,6 +70,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46292
     marketGroup: 2397
+    mass: 4000.0
     name: Copious Titanite
     published: true
     volume: 10.0
@@ -80,6 +85,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45495
     marketGroup: 2397
+    mass: 4000.0
     name: Euxenite
     published: true
     volume: 10.0
@@ -94,6 +100,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45497
     marketGroup: 2397
+    mass: 4000.0
     name: Scheelite
     published: true
     volume: 10.0
@@ -108,6 +115,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 45496
     marketGroup: 2397
+    mass: 4000.0
     name: Titanite
     published: true
     volume: 10.0
@@ -122,6 +130,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46289
     marketGroup: 2397
+    mass: 4000.0
     name: Twinkling Cobaltite
     published: true
     volume: 10.0
@@ -136,6 +145,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46291
     marketGroup: 2397
+    mass: 4000.0
     name: Twinkling Euxenite
     published: true
     volume: 10.0
@@ -150,6 +160,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46295
     marketGroup: 2397
+    mass: 4000.0
     name: Twinkling Scheelite
     published: true
     volume: 10.0
@@ -164,6 +175,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46293
     marketGroup: 2397
+    mass: 4000.0
     name: Twinkling Titanite
     published: true
     volume: 10.0

@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     id: 46575
     marketGroup: 2223
+    mass: 1000.0
     name: Dark Blood Standup Heavy Energy Neutralizer
     published: true
     volume: 8000.0
@@ -42,6 +43,7 @@ items:
     TechLevel: 1
     id: 35925
     marketGroup: 2223
+    mass: 1000.0
     name: Standup Heavy Energy Neutralizer I
     published: true
     volume: 8000.0
@@ -65,6 +67,7 @@ items:
     TechLevel: 2
     id: 47332
     marketGroup: 2223
+    mass: 1000.0
     name: Standup Heavy Energy Neutralizer II
     published: true
     volume: 8000.0
@@ -88,6 +91,7 @@ items:
     TechLevel: 1
     id: 35924
     marketGroup: 2223
+    mass: 1000.0
     name: Standup XL Energy Neutralizer I
     published: true
     volume: 8000.0
@@ -112,6 +116,7 @@ items:
     TechLevel: 2
     id: 47330
     marketGroup: 2223
+    mass: 1000.0
     name: Standup XL Energy Neutralizer II
     published: true
     volume: 8000.0

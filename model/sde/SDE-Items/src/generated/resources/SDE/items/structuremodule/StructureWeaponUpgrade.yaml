@@ -12,6 +12,7 @@ items:
     TechLevel: 1
     id: 35959
     marketGroup: 2234
+    mass: 500.0
     name: Standup Ballistic Control System I
     published: true
     volume: 4000.0
@@ -29,6 +30,7 @@ items:
     TechLevel: 2
     id: 47342
     marketGroup: 2234
+    mass: 500.0
     name: Standup Ballistic Control System II
     published: true
     volume: 4000.0
@@ -48,6 +50,7 @@ items:
     TechLevel: 1
     id: 35962
     marketGroup: 2235
+    mass: 500.0
     name: Standup Missile Guidance Enhancer I
     published: true
     volume: 4000.0
@@ -68,6 +71,7 @@ items:
     TechLevel: 2
     id: 47340
     marketGroup: 2235
+    mass: 500.0
     name: Standup Missile Guidance Enhancer II
     published: true
     volume: 4000.0

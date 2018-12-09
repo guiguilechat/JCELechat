@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28394
     marketGroup: 522
+    mass: 1.0E35
     name: Compressed Dark Ochre
     published: true
     volume: 4.2
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46694
     marketGroup: 522
+    mass: 1.0
     name: Compressed Jet Ochre
     published: true
     volume: 4.2
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28395
     marketGroup: 522
+    mass: 1.0E35
     name: Compressed Obsidian Ochre
     published: true
     volume: 4.2
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28396
     marketGroup: 522
+    mass: 1.0E35
     name: Compressed Onyx Ochre
     published: true
     volume: 4.2
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 1232
     marketGroup: 522
+    mass: 1.0E35
     name: Dark Ochre
     published: true
     volume: 8.0
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46675
     marketGroup: 522
+    mass: 1.0E35
     name: Jet Ochre
     published: true
     volume: 8.0
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17437
     marketGroup: 522
+    mass: 1.0E35
     name: Obsidian Ochre
     published: true
     volume: 8.0
@@ -112,6 +119,7 @@ items:
     RequiredSkill1: 3386
     StasisWebifierResistance: 1.0
     id: 28623
+    mass: 1.0E35
     name: Oeryl
     published: true
     volume: 8.0
@@ -128,6 +136,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17436
     marketGroup: 522
+    mass: 1.0E35
     name: Onyx Ochre
     published: true
     volume: 8.0

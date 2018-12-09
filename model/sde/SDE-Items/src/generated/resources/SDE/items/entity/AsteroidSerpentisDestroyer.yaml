@@ -1,31 +1,37 @@
 items:
   Serpentis Artillery:
     id: 23428
+    mass: 2650000.0
     name: Serpentis Artillery
     published: false
     volume: 26500.0
   Serpentis Cannoneer:
     id: 23427
+    mass: 2650000.0
     name: Serpentis Cannoneer
     published: false
     volume: 26500.0
   Serpentis Infantry:
     id: 23425
+    mass: 2650000.0
     name: Serpentis Infantry
     published: false
     volume: 26500.0
   Serpentis Sentinel:
     id: 23426
+    mass: 2650000.0
     name: Serpentis Sentinel
     published: false
     volume: 26500.0
   Serpentis Soldier:
     id: 23424
+    mass: 2650000.0
     name: Serpentis Soldier
     published: false
     volume: 26500.0
   Serpentis Trooper:
     id: 23423
+    mass: 2650000.0
     name: Serpentis Trooper
     published: false
     volume: 26500.0

@@ -28,6 +28,7 @@ items:
     ThermalDamage: 7.0
     id: 27922
     marketGroup: 1015
+    mass: 1000.0
     name: Lockbreaker Bomb
     published: true
     volume: 75.0

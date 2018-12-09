@@ -1,36 +1,43 @@
 items:
   Minmatar CA Destroyer:
     id: 45468
+    mass: 1645000.0
     name: Minmatar CA Destroyer
     published: false
     volume: 16450.0
   Republic Austri:
     id: 24798
+    mass: 1645000.0
     name: Republic Austri
     published: false
     volume: 16450.0
   Republic Bormin:
     id: 24799
+    mass: 1645000.0
     name: Republic Bormin
     published: false
     volume: 16450.0
   Republic Faxi:
     id: 24797
+    mass: 1645000.0
     name: Republic Faxi
     published: false
     volume: 16450.0
   Republic Tribal Austri:
     id: 24810
+    mass: 1645000.0
     name: Republic Tribal Austri
     published: false
     volume: 16450.0
   Republic Tribal Bormin:
     id: 24805
+    mass: 1645000.0
     name: Republic Tribal Bormin
     published: false
     volume: 16450.0
   Republic Tribal Faxi:
     id: 24801
+    mass: 1645000.0
     name: Republic Tribal Faxi
     published: false
     volume: 16450.0

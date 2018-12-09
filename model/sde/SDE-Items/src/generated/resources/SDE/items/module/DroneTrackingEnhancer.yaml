@@ -15,6 +15,7 @@ items:
     TrackingSpeedBonus: 10.0
     id: 33830
     marketGroup: 938
+    mass: 20.0
     name: Dread Guristas Omnidirectional Tracking Enhancer
     published: true
     volume: 5.0
@@ -34,6 +35,7 @@ items:
     TrackingSpeedBonus: 10.0
     id: 33832
     marketGroup: 938
+    mass: 20.0
     name: Imperial Navy Omnidirectional Tracking Enhancer
     published: true
     volume: 5.0
@@ -52,6 +54,7 @@ items:
     TrackingSpeedBonus: 8.0
     id: 41033
     marketGroup: 938
+    mass: 20.0
     name: N-JM Compact Omnidirectional Tracking Enhancer
     published: true
     volume: 5.0
@@ -69,6 +72,7 @@ items:
     TrackingSpeedBonus: 7.0
     id: 33822
     marketGroup: 938
+    mass: 20.0
     name: Omnidirectional Tracking Enhancer I
     published: true
     volume: 5.0
@@ -87,6 +91,7 @@ items:
     TrackingSpeedBonus: 9.5
     id: 33824
     marketGroup: 938
+    mass: 20.0
     name: Omnidirectional Tracking Enhancer II
     published: true
     volume: 5.0
@@ -106,6 +111,7 @@ items:
     TrackingSpeedBonus: 10.0
     id: 33828
     marketGroup: 938
+    mass: 20.0
     name: Sentient Omnidirectional Tracking Enhancer
     published: true
     volume: 5.0
@@ -125,6 +131,7 @@ items:
     TrackingSpeedBonus: 12.5
     id: 33834
     marketGroup: 938
+    mass: 20.0
     name: Unit D-34343's Modified Omnidirectional Tracking Enhancer
     published: true
     volume: 5.0
@@ -144,6 +151,7 @@ items:
     TrackingSpeedBonus: 15.0
     id: 33836
     marketGroup: 938
+    mass: 20.0
     name: Unit F-435454's Modified Omnidirectional Tracking Enhancer
     published: true
     volume: 5.0
@@ -163,6 +171,7 @@ items:
     TrackingSpeedBonus: 17.5
     id: 33838
     marketGroup: 938
+    mass: 20.0
     name: Unit P-343554's Modified Omnidirectional Tracking Enhancer
     published: true
     volume: 5.0
@@ -182,6 +191,7 @@ items:
     TrackingSpeedBonus: 20.0
     id: 33840
     marketGroup: 938
+    mass: 20.0
     name: Unit W-634's Modified Omnidirectional Tracking Enhancer
     published: true
     volume: 5.0

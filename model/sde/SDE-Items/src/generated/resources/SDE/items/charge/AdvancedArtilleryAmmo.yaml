@@ -14,6 +14,7 @@ items:
     WeaponRangeMultiplier: 0.25
     id: 12761
     marketGroup: 854
+    mass: 0.01
     name: Quake L
     published: true
     volume: 0.025
@@ -32,6 +33,7 @@ items:
     WeaponRangeMultiplier: 0.25
     id: 12767
     marketGroup: 855
+    mass: 0.01
     name: Quake M
     published: true
     volume: 0.0125
@@ -50,6 +52,7 @@ items:
     WeaponRangeMultiplier: 0.25
     id: 12631
     marketGroup: 856
+    mass: 0.01
     name: Quake S
     published: true
     volume: 0.0025
@@ -68,6 +71,7 @@ items:
     WeaponRangeMultiplier: 0.25
     id: 41320
     marketGroup: 2252
+    mass: 1.0
     name: Quake XL
     published: true
     volume: 0.125
@@ -86,6 +90,7 @@ items:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12765
     marketGroup: 854
+    mass: 0.01
     name: Tremor L
     published: true
     volume: 0.025
@@ -104,6 +109,7 @@ items:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12771
     marketGroup: 855
+    mass: 0.01
     name: Tremor M
     published: true
     volume: 0.0125
@@ -122,6 +128,7 @@ items:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12633
     marketGroup: 856
+    mass: 0.01
     name: Tremor S
     published: true
     volume: 0.0025
@@ -140,6 +147,7 @@ items:
     WeaponRangeMultiplier: 1.7999999523162842
     id: 41318
     marketGroup: 2252
+    mass: 1.0
     name: Tremor XL
     published: true
     volume: 0.125

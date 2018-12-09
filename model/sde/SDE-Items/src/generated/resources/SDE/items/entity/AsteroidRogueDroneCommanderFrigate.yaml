@@ -1,51 +1,61 @@
 items:
   Sentient Barracuda Alvi:
     id: 27754
+    mass: 100000.0
     name: Sentient Barracuda Alvi
     published: false
     volume: 60.0
   Sentient Decimator Alvi:
     id: 27755
+    mass: 100000.0
     name: Sentient Decimator Alvi
     published: false
     volume: 60.0
   Sentient Devilfish Alvi:
     id: 27756
+    mass: 100000.0
     name: Sentient Devilfish Alvi
     published: false
     volume: 60.0
   Sentient Hunter Alvi:
     id: 27757
+    mass: 100000.0
     name: Sentient Hunter Alvi
     published: false
     volume: 60.0
   Sentient Infester Alvi:
     id: 27758
+    mass: 100000.0
     name: Sentient Infester Alvi
     published: false
     volume: 60.0
   Sentient Raider Alvi:
     id: 27759
+    mass: 100000.0
     name: Sentient Raider Alvi
     published: false
     volume: 60.0
   Sentient Render Alvi:
     id: 27760
+    mass: 100000.0
     name: Sentient Render Alvi
     published: false
     volume: 60.0
   Sentient Silverfish Alvi:
     id: 27761
+    mass: 100000.0
     name: Sentient Silverfish Alvi
     published: false
     volume: 60.0
   Sentient Splinter Alvi:
     id: 27762
+    mass: 100000.0
     name: Sentient Splinter Alvi
     published: false
     volume: 60.0
   Sentient Sunder Alvi:
     id: 27763
+    mass: 100000.0
     name: Sentient Sunder Alvi
     published: false
     volume: 60.0

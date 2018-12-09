@@ -637,6 +637,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 47820
+    mass: 1.0
     name: Large Abyssal Armor Plates
     published: true
     volume: 20.0

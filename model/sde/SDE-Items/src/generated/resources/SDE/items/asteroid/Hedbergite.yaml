@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28400
     marketGroup: 527
+    mass: 1.0E35
     name: Compressed Glazed Hedbergite
     published: true
     volume: 0.47
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28401
     marketGroup: 527
+    mass: 1.0E35
     name: Compressed Hedbergite
     published: true
     volume: 0.47
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46696
     marketGroup: 527
+    mass: 1.0
     name: Compressed Lustrous Hedbergite
     published: true
     volume: 0.47
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28402
     marketGroup: 527
+    mass: 1.0E35
     name: Compressed Vitric Hedbergite
     published: true
     volume: 0.47
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17441
     marketGroup: 527
+    mass: 1.0E35
     name: Glazed Hedbergite
     published: true
     volume: 3.0
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 21
     marketGroup: 527
+    mass: 1.0E35
     name: Hedbergite
     published: true
     volume: 3.0
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46680
     marketGroup: 527
+    mass: 1.0E35
     name: Lustrous Hedbergite
     published: true
     volume: 3.0
@@ -116,6 +123,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17440
     marketGroup: 527
+    mass: 1.0E35
     name: Vitric Hedbergite
     published: true
     volume: 3.0

@@ -1,121 +1,145 @@
 items:
   Sansha Clone Soldier Negotiator:
     id: 33183
+    mass: 1.001E7
     name: Sansha Clone Soldier Negotiator
     published: false
     volume: 100100.0
   Sansha Clone Soldier Recruiter:
     id: 33142
+    mass: 1.001E7
     name: Sansha Clone Soldier Recruiter
     published: false
     volume: 100100.0
   Sansha Clone Soldier Trainer:
     id: 33136
+    mass: 1.001E7
     name: Sansha Clone Soldier Trainer
     published: false
     volume: 100100.0
   Sansha Clone Soldier Transporter:
     id: 33163
+    mass: 1.001E7
     name: Sansha Clone Soldier Transporter
     published: false
     volume: 100100.0
   Sansha's Beast:
     id: 11037
+    mass: 1.001E7
     name: Sansha's Beast
     published: false
     volume: 100100.0
   Sansha's Execrator:
     id: 11910
+    mass: 1.001E7
     name: Sansha's Execrator
     published: false
     volume: 100100.0
   Sansha's Fiend:
     id: 23381
+    mass: 1.001E7
     name: Sansha's Fiend
     published: false
     volume: 100100.0
   Sansha's Hellhound:
     id: 23382
+    mass: 1.001E7
     name: Sansha's Hellhound
     published: false
     volume: 100100.0
   Sansha's Juggernaut:
     id: 11038
+    mass: 1.001E7
     name: Sansha's Juggernaut
     published: false
     volume: 100100.0
   Sansha's Loyal Beast:
     id: 23651
+    mass: 1.001E7
     name: Sansha's Loyal Beast
     published: false
     volume: 100100.0
   Sansha's Loyal Execrator:
     id: 23654
+    mass: 1.001E7
     name: Sansha's Loyal Execrator
     published: false
     volume: 100100.0
   Sansha's Loyal Fiend:
     id: 23370
+    mass: 1.001E7
     name: Sansha's Loyal Fiend
     published: false
     volume: 100100.0
   Sansha's Loyal Hellhound:
     id: 23371
+    mass: 1.001E7
     name: Sansha's Loyal Hellhound
     published: false
     volume: 100100.0
   Sansha's Loyal Juggernaut:
     id: 23652
+    mass: 1.001E7
     name: Sansha's Loyal Juggernaut
     published: false
     volume: 100100.0
   Sansha's Loyal Mutilator:
     id: 23368
+    mass: 1.001E7
     name: Sansha's Loyal Mutilator
     published: false
     volume: 100100.0
   Sansha's Loyal Ravager:
     id: 23367
+    mass: 1.001E7
     name: Sansha's Loyal Ravager
     published: false
     volume: 100100.0
   Sansha's Loyal Ravisher:
     id: 23366
+    mass: 1.001E7
     name: Sansha's Loyal Ravisher
     published: false
     volume: 100100.0
   Sansha's Loyal Slaughterer:
     id: 23653
+    mass: 1.001E7
     name: Sansha's Loyal Slaughterer
     published: false
     volume: 100100.0
   Sansha's Loyal Torturer:
     id: 23369
+    mass: 1.001E7
     name: Sansha's Loyal Torturer
     published: false
     volume: 100100.0
   Sansha's Mutilator:
     id: 11911
+    mass: 1.001E7
     name: Sansha's Mutilator
     published: false
     volume: 100100.0
   Sansha's Ravager:
     id: 10030
+    mass: 1.001E7
     name: Sansha's Ravager
     published: false
     volume: 100100.0
   Sansha's Ravisher:
     id: 10274
+    mass: 1.001E7
     name: Sansha's Ravisher
     published: false
     volume: 100100.0
   Sansha's Slaughterer:
     id: 11909
+    mass: 1.001E7
     name: Sansha's Slaughterer
     published: false
     volume: 100100.0
   Sansha's Torturer:
     id: 11912
+    mass: 1.001E7
     name: Sansha's Torturer
     published: false
     volume: 100100.0

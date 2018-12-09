@@ -23,6 +23,7 @@ items:
     TechLevel: 1
     id: 33591
     marketGroup: 1844
+    mass: 10000.0
     name: Mobile Micro Jump Unit
     published: true
     volume: 50.0
@@ -47,6 +48,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 33990
+    mass: 10000.0
     name: Tournament Micro Jump Unit
     published: true
     volume: 1.0

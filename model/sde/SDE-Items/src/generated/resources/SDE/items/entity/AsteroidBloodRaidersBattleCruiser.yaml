@@ -1,31 +1,37 @@
 items:
   Blood Bishop:
     id: 23244
+    mass: 1.18E7
     name: Blood Bishop
     published: false
     volume: 118000.0
   Blood Exorcist:
     id: 23256
+    mass: 1.18E7
     name: Blood Exorcist
     published: false
     volume: 118000.0
   Blood Fanatic:
     id: 23254
+    mass: 1.18E7
     name: Blood Fanatic
     published: false
     volume: 118000.0
   Blood Phantom:
     id: 23255
+    mass: 1.18E7
     name: Blood Phantom
     published: false
     volume: 118000.0
   Blood Seer:
     id: 23252
+    mass: 1.18E7
     name: Blood Seer
     published: false
     volume: 118000.0
   Blood Shade:
     id: 23253
+    mass: 1.18E7
     name: Blood Shade
     published: false
     volume: 118000.0

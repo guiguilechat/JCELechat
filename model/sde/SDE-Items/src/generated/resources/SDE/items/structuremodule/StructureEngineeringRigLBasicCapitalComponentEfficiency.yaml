@@ -20,6 +20,7 @@ items:
     UpgradeCost: 100
     id: 43718
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Basic Capital Component Manufacturing Efficiency I
     published: true
     volume: 20.0
@@ -44,6 +45,7 @@ items:
     UpgradeCost: 150
     id: 43719
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Basic Capital Component Manufacturing Efficiency II
     published: true
     volume: 20.0
@@ -69,6 +71,7 @@ items:
     UpgradeCost: 100
     id: 45546
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency
     published: true
     volume: 20.0

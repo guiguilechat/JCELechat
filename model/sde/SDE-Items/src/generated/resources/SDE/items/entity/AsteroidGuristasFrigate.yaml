@@ -1,156 +1,187 @@
 items:
   Dire Guristas Arrogator:
     id: 13044
+    mass: 1970000.0
     name: Dire Guristas Arrogator
     published: false
     volume: 19700.0
   Dire Guristas Demolisher:
     id: 23335
+    mass: 1650000.0
     name: Dire Guristas Demolisher
     published: false
     volume: 16500.0
   Dire Guristas Despoiler:
     id: 23330
+    mass: 2040000.0
     name: Dire Guristas Despoiler
     published: false
     volume: 20400.0
   Dire Guristas Destructor:
     id: 23334
+    mass: 1650000.0
     name: Dire Guristas Destructor
     published: false
     volume: 16500.0
   Dire Guristas Imputor:
     id: 13043
+    mass: 1650000.0
     name: Dire Guristas Imputor
     published: false
     volume: 16500.0
   Dire Guristas Infiltrator:
     id: 13042
+    mass: 1970000.0
     name: Dire Guristas Infiltrator
     published: false
     volume: 19700.0
   Dire Guristas Invader:
     id: 13041
+    mass: 1650000.0
     name: Dire Guristas Invader
     published: false
     volume: 16500.0
   Dire Guristas Plunderer:
     id: 23332
+    mass: 1970000.0
     name: Dire Guristas Plunderer
     published: false
     volume: 19700.0
   Dire Guristas Saboteur:
     id: 23331
+    mass: 2040000.0
     name: Dire Guristas Saboteur
     published: false
     volume: 20400.0
   Dire Guristas Wrecker:
     id: 23333
+    mass: 1970000.0
     name: Dire Guristas Wrecker
     published: false
     volume: 19700.0
   Guristas Arrogator:
     id: 2382
+    mass: 1500100.0
     name: Guristas Arrogator
     published: false
     volume: 15001.0
   Guristas Demolisher:
     id: 11030
+    mass: 1650000.0
     name: Guristas Demolisher
     published: false
     volume: 16500.0
   Guristas Despoiler:
     id: 2385
+    mass: 2040000.0
     name: Guristas Despoiler
     published: false
     volume: 20400.0
   Guristas Destructor:
     id: 11029
+    mass: 1970000.0
     name: Guristas Destructor
     published: false
     volume: 19700.0
   Guristas Imputor:
     id: 2384
+    mass: 1612000.0
     name: Guristas Imputor
     published: false
     volume: 16120.0
   Guristas Infiltrator:
     id: 11027
+    mass: 2025000.0
     name: Guristas Infiltrator
     published: false
     volume: 20250.0
   Guristas Invader:
     id: 2383
+    mass: 2025000.0
     name: Guristas Invader
     published: false
     volume: 20250.0
   Guristas Plunderer:
     id: 2386
+    mass: 1970000.0
     name: Guristas Plunderer
     published: false
     volume: 19700.0
   Guristas Saboteur:
     id: 11028
+    mass: 2040000.0
     name: Guristas Saboteur
     published: false
     volume: 20400.0
   Guristas Wrecker:
     id: 10266
+    mass: 1650000.0
     name: Guristas Wrecker
     published: false
     volume: 16500.0
   Outlaw Arrogator:
     id: 21974
+    mass: 1500100.0
     name: Outlaw Arrogator
     published: false
     volume: 15001.0
   Outlaw Demolisher:
     id: 21983
+    mass: 1650000.0
     name: Outlaw Demolisher
     published: false
     volume: 16500.0
   Outlaw Despoiler:
     id: 21978
+    mass: 2040000.0
     name: Outlaw Despoiler
     published: false
     volume: 20400.0
   Outlaw Destructor:
     id: 21982
+    mass: 1970000.0
     name: Outlaw Destructor
     published: false
     volume: 19700.0
   Outlaw Imputor:
     id: 21975
+    mass: 1612000.0
     name: Outlaw Imputor
     published: false
     volume: 16120.0
   Outlaw Infiltrator:
     id: 21976
+    mass: 2025000.0
     name: Outlaw Infiltrator
     published: false
     volume: 20250.0
   Outlaw Invader:
     id: 21977
+    mass: 2025000.0
     name: Outlaw Invader
     published: false
     volume: 20250.0
   Outlaw Plunderer:
     id: 21980
+    mass: 1970000.0
     name: Outlaw Plunderer
     published: false
     volume: 19700.0
   Outlaw Saboteur:
     id: 21979
+    mass: 2040000.0
     name: Outlaw Saboteur
     published: false
     volume: 20400.0
   Outlaw Wrecker:
     id: 21981
+    mass: 1650000.0
     name: Outlaw Wrecker
     published: false
     volume: 16500.0
   TEST ATTACKER:
     id: 25806
+    mass: 1650000.0
     name: TEST ATTACKER
     published: false
     volume: 16500.0

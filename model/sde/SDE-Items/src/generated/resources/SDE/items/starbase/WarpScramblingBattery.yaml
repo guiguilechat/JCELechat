@@ -44,6 +44,7 @@ items:
     WarpScrambleStrength: 4
     id: 27563
     marketGroup: 481
+    mass: 1.0E8
     name: Serpentis Warp Disruption Battery
     published: true
     volume: 4000.0
@@ -92,6 +93,7 @@ items:
     WarpScrambleStrength: 6
     id: 27567
     marketGroup: 481
+    mass: 1.0E8
     name: Serpentis Warp Scrambling Battery
     published: true
     volume: 4000.0
@@ -140,6 +142,7 @@ items:
     WarpScrambleStrength: 5
     id: 27565
     marketGroup: 481
+    mass: 1.0E8
     name: Shadow Warp Disruption Battery
     published: true
     volume: 4000.0
@@ -188,6 +191,7 @@ items:
     WarpScrambleStrength: 6
     id: 27569
     marketGroup: 481
+    mass: 1.0E8
     name: Shadow Warp Scrambling Battery
     published: true
     volume: 4000.0
@@ -235,6 +239,7 @@ items:
     WarpScrambleStrength: 3
     id: 17181
     marketGroup: 481
+    mass: 1.0E8
     name: Warp Disruption Battery
     published: true
     volume: 4000.0
@@ -282,6 +287,7 @@ items:
     WarpScrambleStrength: 6
     id: 17182
     marketGroup: 481
+    mass: 1.0E8
     name: Warp Scrambling Battery
     published: true
     volume: 4000.0

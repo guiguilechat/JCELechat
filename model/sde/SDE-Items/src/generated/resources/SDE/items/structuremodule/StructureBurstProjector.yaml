@@ -28,6 +28,7 @@ items:
     TechLevel: 1
     id: 47069
     marketGroup: 2408
+    mass: 500.0
     name: Standup ECM Jammer Burst Projector
     published: true
     volume: 4000.0
@@ -57,6 +58,7 @@ items:
     TechLevel: 1
     id: 35944
     marketGroup: 2408
+    mass: 500.0
     name: Standup Energy Neutralization Burst Projector
     published: true
     volume: 4000.0
@@ -87,6 +89,7 @@ items:
     TechLevel: 1
     id: 47070
     marketGroup: 2408
+    mass: 500.0
     name: Standup Sensor Dampening Burst Projector
     published: true
     volume: 4000.0
@@ -115,6 +118,7 @@ items:
     TechLevel: 1
     id: 47071
     marketGroup: 2408
+    mass: 500.0
     name: Standup Stasis Webification Burst Projector
     published: true
     volume: 4000.0
@@ -144,6 +148,7 @@ items:
     TechLevel: 1
     id: 47072
     marketGroup: 2408
+    mass: 500.0
     name: Standup Target Illumination Burst Projector
     published: true
     volume: 4000.0
@@ -172,6 +177,7 @@ items:
     TechLevel: 1
     id: 47073
     marketGroup: 2408
+    mass: 500.0
     name: Standup Warp Disruption Burst Projector
     published: true
     volume: 4000.0
@@ -207,6 +213,7 @@ items:
     TrackingSpeedBonus: -40.0
     id: 47074
     marketGroup: 2408
+    mass: 500.0
     name: Standup Weapon Disruption Burst Projector
     published: true
     volume: 4000.0

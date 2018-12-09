@@ -1,6 +1,7 @@
 items:
   Cleansing Flame Amarr Battleship:
     id: 42817
+    mass: 2.05E7
     name: Cleansing Flame Amarr Battleship
     published: false
     volume: 1100000.0

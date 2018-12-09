@@ -82,6 +82,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 11985
     marketGroup: 439
+    mass: 1.313E7
     name: Basilisk
     published: true
     volume: 107000.0
@@ -170,6 +171,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 32790
     marketGroup: 1624
+    mass: 1.313E7
     name: Etana
     published: true
     volume: 107000.0
@@ -255,6 +257,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 11987
     marketGroup: 438
+    mass: 1.198E7
     name: Guardian
     published: true
     volume: 115000.0
@@ -339,6 +342,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 11989
     marketGroup: 440
+    mass: 1.316E7
     name: Oneiros
     published: true
     volume: 113000.0
@@ -435,6 +439,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 42245
     marketGroup: 1624
+    mass: 1.3E7
     name: Rabisu
     published: true
     volume: 115000.0
@@ -521,6 +526,7 @@ items:
     WarpSpeedMultiplier: 3.299999952316284
     id: 11978
     marketGroup: 441
+    mass: 1.209E7
     name: Scimitar
     published: true
     volume: 89000.0

@@ -1,6 +1,7 @@
 items:
   Angel Cartel Guard:
     id: 42144
+    mass: 2600500.0
     name: Angel Cartel Guard
     published: false
     volume: 26005.0

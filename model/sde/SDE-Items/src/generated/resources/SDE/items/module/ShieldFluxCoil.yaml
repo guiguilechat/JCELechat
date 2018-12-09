@@ -10,6 +10,7 @@ items:
     TechLevel: 1
     id: 508
     marketGroup: 687
+    mass: 20.0
     name: '''Basic'' Shield Flux Coil'
     published: true
     volume: 5.0
@@ -25,6 +26,7 @@ items:
     TechLevel: 1
     id: 37825
     marketGroup: 687
+    mass: 20.0
     name: Dread Guristas Shield Flux Coil
     published: true
     volume: 5.0
@@ -39,6 +41,7 @@ items:
     TechLevel: 1
     id: 8297
     marketGroup: 687
+    mass: 20.0
     name: Mark I Compact Shield Flux Coil
     published: true
     volume: 5.0
@@ -51,6 +54,7 @@ items:
     TechLevel: 1
     id: 1254
     marketGroup: 687
+    mass: 20.0
     name: Shield Flux Coil I
     published: true
     volume: 5.0
@@ -65,6 +69,7 @@ items:
     TechLevel: 2
     id: 1256
     marketGroup: 687
+    mass: 20.0
     name: Shield Flux Coil II
     published: true
     volume: 5.0
@@ -79,6 +84,7 @@ items:
     TechLevel: 1
     id: 8295
     marketGroup: 687
+    mass: 20.0
     name: Type-D Restrained Shield Flux Coil
     published: true
     volume: 5.0

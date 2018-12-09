@@ -23,6 +23,7 @@ items:
     ThermalDamage: 4815.0
     id: 41276
     marketGroup: 2259
+    mass: 1500.0
     name: Inferno Javelin XL Torpedo
     published: true
     volume: 0.3
@@ -50,6 +51,7 @@ items:
     ThermalDamage: 6420.0
     id: 41277
     marketGroup: 2258
+    mass: 1500.0
     name: Inferno Rage XL Torpedo
     published: true
     volume: 0.3
@@ -77,6 +79,7 @@ items:
     TechLevel: 2
     id: 41274
     marketGroup: 2259
+    mass: 1500.0
     name: Mjolnir Javelin XL Torpedo
     published: true
     volume: 0.3
@@ -104,6 +107,7 @@ items:
     TechLevel: 2
     id: 41275
     marketGroup: 2258
+    mass: 1500.0
     name: Mjolnir Rage XL Torpedo
     published: true
     volume: 0.3
@@ -131,6 +135,7 @@ items:
     TechLevel: 2
     id: 41272
     marketGroup: 2259
+    mass: 1500.0
     name: Nova Javelin XL Torpedo
     published: true
     volume: 0.3
@@ -158,6 +163,7 @@ items:
     TechLevel: 2
     id: 41273
     marketGroup: 2258
+    mass: 1500.0
     name: Nova Rage XL Torpedo
     published: true
     volume: 0.3
@@ -185,6 +191,7 @@ items:
     TechLevel: 2
     id: 41270
     marketGroup: 2259
+    mass: 1500.0
     name: Scourge Javelin XL Torpedo
     published: true
     volume: 0.3
@@ -212,6 +219,7 @@ items:
     TechLevel: 2
     id: 41271
     marketGroup: 2258
+    mass: 1500.0
     name: Scourge Rage XL Torpedo
     published: true
     volume: 0.3

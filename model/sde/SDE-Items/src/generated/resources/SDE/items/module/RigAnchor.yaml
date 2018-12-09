@@ -11,6 +11,7 @@ items:
     VelocityBonus: -75.0
     id: 34308
     marketGroup: 1740
+    mass: 200.0
     name: Capital Higgs Anchor I
     published: true
     volume: 40.0
@@ -26,6 +27,7 @@ items:
     VelocityBonus: -75.0
     id: 34306
     marketGroup: 1212
+    mass: 200.0
     name: Large Higgs Anchor I
     published: true
     volume: 20.0
@@ -41,6 +43,7 @@ items:
     VelocityBonus: -75.0
     id: 34268
     marketGroup: 1211
+    mass: 200.0
     name: Medium Higgs Anchor I
     published: true
     volume: 10.0
@@ -56,6 +59,7 @@ items:
     VelocityBonus: -75.0
     id: 34266
     marketGroup: 1210
+    mass: 200.0
     name: Small Higgs Anchor I
     published: true
     volume: 5.0

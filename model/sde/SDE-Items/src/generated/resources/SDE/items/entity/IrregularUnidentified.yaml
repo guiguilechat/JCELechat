@@ -1,6 +1,7 @@
 items:
   November Hulk:
     id: 48969
+    mass: 2.5E8
     name: November Hulk
     published: false
     volume: 100000.0

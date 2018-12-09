@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     id: 35923
     marketGroup: 2229
+    mass: 1000.0
     name: Standup Guided Bomb Launcher I
     published: true
     volume: 8000.0
@@ -45,6 +46,7 @@ items:
     TechLevel: 2
     id: 47325
     marketGroup: 2229
+    mass: 1000.0
     name: Standup Guided Bomb Launcher II
     published: true
     volume: 8000.0

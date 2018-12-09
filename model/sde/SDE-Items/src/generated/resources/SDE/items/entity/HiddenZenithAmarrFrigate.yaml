@@ -1,6 +1,7 @@
 items:
   Cleansing Flame Amarr Frigate:
     id: 42819
+    mass: 2820000.0
     name: Cleansing Flame Amarr Frigate
     published: false
     volume: 24398.0

@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 506
     marketGroup: 667
+    mass: 20.0
     name: '''Basic'' Capacitor Power Relay'
     published: true
     volume: 5.0
@@ -26,6 +27,7 @@ items:
     TechLevel: 1
     id: 23896
     marketGroup: 667
+    mass: 20.0
     name: '''Motte'' Capacitor Power Relay I'
     published: true
     volume: 5.0
@@ -40,6 +42,7 @@ items:
     TechLevel: 1
     id: 15090
     marketGroup: 667
+    mass: 20.0
     name: Ahremen's Modified Capacitor Power Relay
     published: true
     volume: 5.0
@@ -54,6 +57,7 @@ items:
     TechLevel: 1
     id: 17510
     marketGroup: 667
+    mass: 20.0
     name: Ammatar Navy Capacitor Power Relay
     published: true
     volume: 5.0
@@ -68,6 +72,7 @@ items:
     TechLevel: 1
     id: 15080
     marketGroup: 667
+    mass: 20.0
     name: Brokara's Modified Capacitor Power Relay
     published: true
     volume: 5.0
@@ -80,6 +85,7 @@ items:
     TechLevel: 1
     id: 1445
     marketGroup: 667
+    mass: 20.0
     name: Capacitor Power Relay I
     published: true
     volume: 5.0
@@ -93,6 +99,7 @@ items:
     TechLevel: 2
     id: 1447
     marketGroup: 667
+    mass: 20.0
     name: Capacitor Power Relay II
     published: true
     volume: 5.0
@@ -107,6 +114,7 @@ items:
     TechLevel: 1
     id: 15092
     marketGroup: 667
+    mass: 20.0
     name: Chelm's Modified Capacitor Power Relay
     published: true
     volume: 5.0
@@ -121,6 +129,7 @@ items:
     TechLevel: 1
     id: 14144
     marketGroup: 667
+    mass: 20.0
     name: Dark Blood Capacitor Power Relay
     published: true
     volume: 5.0
@@ -135,6 +144,7 @@ items:
     TechLevel: 1
     id: 15094
     marketGroup: 667
+    mass: 20.0
     name: Draclira's Modified Capacitor Power Relay
     published: true
     volume: 5.0
@@ -149,6 +159,7 @@ items:
     TechLevel: 1
     id: 17528
     marketGroup: 667
+    mass: 20.0
     name: Imperial Navy Capacitor Power Relay
     published: true
     volume: 5.0
@@ -163,6 +174,7 @@ items:
     TechLevel: 1
     id: 28532
     marketGroup: 667
+    mass: 20.0
     name: Khanid Navy Capacitor Power Relay
     published: true
     volume: 5.0
@@ -177,6 +189,7 @@ items:
     TechLevel: 1
     id: 15437
     marketGroup: 667
+    mass: 20.0
     name: Makur's Modified Capacitor Power Relay
     published: true
     volume: 5.0
@@ -191,6 +204,7 @@ items:
     TechLevel: 1
     id: 8177
     marketGroup: 667
+    mass: 20.0
     name: Mark I Compact Capacitor Power Relay
     published: true
     volume: 5.0
@@ -205,6 +219,7 @@ items:
     TechLevel: 1
     id: 15086
     marketGroup: 667
+    mass: 20.0
     name: Raysere's Modified Capacitor Power Relay
     published: true
     volume: 5.0
@@ -219,6 +234,7 @@ items:
     TechLevel: 1
     id: 15084
     marketGroup: 667
+    mass: 20.0
     name: Selynne's Modified Capacitor Power Relay
     published: true
     volume: 5.0
@@ -233,6 +249,7 @@ items:
     TechLevel: 1
     id: 15082
     marketGroup: 667
+    mass: 20.0
     name: Tairei's Modified Capacitor Power Relay
     published: true
     volume: 5.0
@@ -247,6 +264,7 @@ items:
     TechLevel: 1
     id: 14146
     marketGroup: 667
+    mass: 20.0
     name: True Sansha Capacitor Power Relay
     published: true
     volume: 5.0
@@ -261,6 +279,7 @@ items:
     TechLevel: 1
     id: 8175
     marketGroup: 667
+    mass: 20.0
     name: Type-D Restrained Capacitor Power Relay
     published: true
     volume: 5.0
@@ -275,6 +294,7 @@ items:
     TechLevel: 1
     id: 15088
     marketGroup: 667
+    mass: 20.0
     name: Vizan's Modified Capacitor Power Relay
     published: true
     volume: 5.0

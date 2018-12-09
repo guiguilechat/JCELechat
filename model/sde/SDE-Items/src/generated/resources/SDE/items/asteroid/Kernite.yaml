@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28409
     marketGroup: 523
+    mass: 1.0E35
     name: Compressed Fiery Kernite
     published: true
     volume: 0.19
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28410
     marketGroup: 523
+    mass: 1.0E35
     name: Compressed Kernite
     published: true
     volume: 0.19
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28411
     marketGroup: 523
+    mass: 1.0E35
     name: Compressed Luminous Kernite
     published: true
     volume: 0.19
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46699
     marketGroup: 523
+    mass: 1.0
     name: Compressed Resplendant Kernite
     published: true
     volume: 0.19
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17453
     marketGroup: 523
+    mass: 1.0E35
     name: Fiery Kernite
     published: true
     volume: 1.2
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 20
     marketGroup: 523
+    mass: 1.0E35
     name: Kernite
     published: true
     volume: 1.2
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17452
     marketGroup: 523
+    mass: 1.0E35
     name: Luminous Kernite
     published: true
     volume: 1.2
@@ -112,6 +119,7 @@ items:
     RequiredSkill1: 3386
     StasisWebifierResistance: 1.0
     id: 28620
+    mass: 1.0E35
     name: Lyavite
     published: true
     volume: 1.2
@@ -128,6 +136,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46683
     marketGroup: 523
+    mass: 1.0E35
     name: Resplendant Kernite
     published: true
     volume: 1.2

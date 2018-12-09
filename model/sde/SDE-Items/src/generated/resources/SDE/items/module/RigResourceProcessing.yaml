@@ -8,6 +8,7 @@ items:
     UpgradeCost: 50
     id: 31087
     marketGroup: 1785
+    mass: 200.0
     name: Capital Salvage Tackle I
     published: true
     volume: 40.0
@@ -21,6 +22,7 @@ items:
     UpgradeCost: 75
     id: 31093
     marketGroup: 1785
+    mass: 200.0
     name: Capital Salvage Tackle II
     published: true
     volume: 40.0
@@ -33,6 +35,7 @@ items:
     UpgradeCost: 50
     id: 25902
     marketGroup: 1784
+    mass: 200.0
     name: Large Salvage Tackle I
     published: true
     volume: 20.0
@@ -46,6 +49,7 @@ items:
     UpgradeCost: 75
     id: 26300
     marketGroup: 1784
+    mass: 200.0
     name: Large Salvage Tackle II
     published: true
     volume: 20.0
@@ -58,6 +62,7 @@ items:
     UpgradeCost: 250
     id: 32819
     marketGroup: 1783
+    mass: 200.0
     name: Medium Ice Harvester Accelerator I
     published: true
     volume: 10.0
@@ -70,6 +75,7 @@ items:
     UpgradeCost: 250
     id: 32817
     marketGroup: 1783
+    mass: 200.0
     name: Medium Mercoxit Mining Crystal Optimization I
     published: true
     volume: 10.0
@@ -82,6 +88,7 @@ items:
     UpgradeCost: 50
     id: 31085
     marketGroup: 1783
+    mass: 200.0
     name: Medium Salvage Tackle I
     published: true
     volume: 10.0
@@ -95,6 +102,7 @@ items:
     UpgradeCost: 75
     id: 31091
     marketGroup: 1783
+    mass: 200.0
     name: Medium Salvage Tackle II
     published: true
     volume: 10.0
@@ -107,6 +115,7 @@ items:
     UpgradeCost: 50
     id: 31083
     marketGroup: 1782
+    mass: 200.0
     name: Small Salvage Tackle I
     published: true
     volume: 5.0
@@ -120,6 +129,7 @@ items:
     UpgradeCost: 75
     id: 31089
     marketGroup: 1782
+    mass: 200.0
     name: Small Salvage Tackle II
     published: true
     volume: 5.0

@@ -1,121 +1,145 @@
 items:
   Auctioneer:
     id: 20718
+    mass: 1.12E8
     name: Auctioneer
     published: false
     volume: 1120000.0
   Bursar:
     id: 20717
+    mass: 1.12E8
     name: Bursar
     published: false
     volume: 1120000.0
   Caravan:
     id: 10117
+    mass: 1.09E8
     name: Caravan
     published: false
     volume: 1090000.0
   Carrier:
     id: 10830
+    mass: 1.12E8
     name: Carrier
     published: false
     volume: 1120000.0
   Chafferer:
     id: 10824
+    mass: 9.6E7
     name: Chafferer
     published: false
     volume: 960000.0
   Chandler:
     id: 10834
+    mass: 1.05E8
     name: Chandler
     published: false
     volume: 1050000.0
   Column:
     id: 10044
+    mass: 1.02E8
     name: Column
     published: false
     volume: 1020000.0
   Courier:
     id: 10828
+    mass: 1.12E8
     name: Courier
     published: false
     volume: 1120000.0
   Flotilla:
     id: 10118
+    mass: 1.105E8
     name: Flotilla
     published: false
     volume: 1105000.0
   Hauler:
     id: 10826
+    mass: 1.02E8
     name: Hauler
     published: false
     volume: 1020000.0
   Hawker:
     id: 10831
+    mass: 8.9E7
     name: Hawker
     published: false
     volume: 890000.0
   Huckster:
     id: 10832
+    mass: 1.12E8
     name: Huckster
     published: false
     volume: 1120000.0
   Marketeer:
     id: 20719
+    mass: 1.105E8
     name: Marketeer
     published: false
     volume: 1105000.0
   Merchant:
     id: 10115
+    mass: 8.5E7
     name: Merchant
     published: false
     volume: 850000.0
   Patronager:
     id: 10833
+    mass: 1.12E8
     name: Patronager
     published: false
     volume: 1120000.0
   Peddler:
     id: 10043
+    mass: 8.9E7
     name: Peddler
     published: false
     volume: 890000.0
   Purveyor:
     id: 10829
+    mass: 1.12E8
     name: Purveyor
     published: false
     volume: 1120000.0
   Retailer:
     id: 10823
+    mass: 9.6E7
     name: Retailer
     published: false
     volume: 960000.0
   Trader:
     id: 10827
+    mass: 1.12E8
     name: Trader
     published: false
     volume: 1120000.0
   Tradesman:
     id: 10114
+    mass: 8.9E7
     name: Tradesman
     published: false
     volume: 890000.0
   Trafficker:
     id: 10116
+    mass: 9.6E7
     name: Trafficker
     published: false
     volume: 960000.0
   Trailer:
     id: 10825
+    mass: 1.02E8
     name: Trailer
     published: false
     volume: 1020000.0
   Vanguard:
     id: 10045
+    mass: 1.12E8
     name: Vanguard
     published: false
     volume: 1120000.0
   Vendor:
     id: 20716
+    mass: 1.02E8
     name: Vendor
     published: false
     volume: 1020000.0

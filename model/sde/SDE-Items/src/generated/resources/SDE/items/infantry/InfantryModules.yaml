@@ -1302,6 +1302,7 @@ items:
     volume: 0.01
   HEP Metabolic Enhancer:
     id: 365200
+    mass: 0.01
     name: HEP Metabolic Enhancer
     published: false
   HP Multiphasic Bolt Array I:

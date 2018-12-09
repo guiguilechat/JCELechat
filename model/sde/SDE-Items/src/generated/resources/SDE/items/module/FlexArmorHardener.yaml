@@ -24,6 +24,7 @@ items:
     ThermalDamageResistanceBonus: -16.0
     id: 41515
     marketGroup: 2245
+    mass: 1.0
     name: Capital Flex Armor Hardener I
     published: true
     volume: 4000.0
@@ -53,6 +54,7 @@ items:
     ThermalDamageResistanceBonus: -19.0
     id: 41525
     marketGroup: 2245
+    mass: 1.0
     name: Capital Flex Armor Hardener II
     published: true
     volume: 4000.0
@@ -83,6 +85,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 41526
     marketGroup: 2245
+    mass: 1.0
     name: Dark Blood Capital Flex Armor Hardener
     published: true
     volume: 4000.0
@@ -113,6 +116,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 41527
     marketGroup: 2245
+    mass: 1.0
     name: Shadow Serpentis Capital Flex Armor Hardener
     published: true
     volume: 4000.0

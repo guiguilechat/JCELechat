@@ -26,6 +26,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27315
     marketGroup: 999
+    mass: 100.0
     name: Caldari Navy Inferno Rocket
     published: true
     volume: 0.005
@@ -56,6 +57,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27321
     marketGroup: 999
+    mass: 100.0
     name: Caldari Navy Mjolnir Rocket
     published: true
     volume: 0.005
@@ -86,6 +88,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27327
     marketGroup: 999
+    mass: 100.0
     name: Caldari Navy Nova Rocket
     published: true
     volume: 0.005
@@ -116,6 +119,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27333
     marketGroup: 999
+    mass: 100.0
     name: Caldari Navy Scourge Rocket
     published: true
     volume: 0.005
@@ -146,6 +150,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27317
     marketGroup: 999
+    mass: 100.0
     name: Dread Guristas Inferno Rocket
     published: true
     volume: 0.005
@@ -176,6 +181,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27323
     marketGroup: 999
+    mass: 100.0
     name: Dread Guristas Mjolnir Rocket
     published: true
     volume: 0.005
@@ -206,6 +212,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27329
     marketGroup: 999
+    mass: 100.0
     name: Dread Guristas Nova Rocket
     published: true
     volume: 0.005
@@ -236,6 +243,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27335
     marketGroup: 999
+    mass: 100.0
     name: Dread Guristas Scourge Rocket
     published: true
     volume: 0.005
@@ -266,6 +274,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27313
     marketGroup: 999
+    mass: 100.0
     name: Guristas Inferno Rocket
     published: true
     volume: 0.005
@@ -296,6 +305,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27319
     marketGroup: 999
+    mass: 100.0
     name: Guristas Mjolnir Rocket
     published: true
     volume: 0.005
@@ -326,6 +336,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27325
     marketGroup: 999
+    mass: 100.0
     name: Guristas Nova Rocket
     published: true
     volume: 0.005
@@ -356,6 +367,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27331
     marketGroup: 999
+    mass: 100.0
     name: Guristas Scourge Rocket
     published: true
     volume: 0.005
@@ -384,6 +396,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 2514
     marketGroup: 922
+    mass: 100.0
     name: Inferno Rocket
     published: true
     volume: 0.005
@@ -412,6 +425,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 2512
     marketGroup: 922
+    mass: 100.0
     name: Mjolnir Rocket
     published: true
     volume: 0.005
@@ -440,6 +454,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 2516
     marketGroup: 922
+    mass: 100.0
     name: Nova Rocket
     published: true
     volume: 0.005
@@ -468,6 +483,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 266
     marketGroup: 922
+    mass: 100.0
     name: Scourge Rocket
     published: true
     volume: 0.005

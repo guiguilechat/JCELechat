@@ -107,6 +107,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 37604
     marketGroup: 2272
+    mass: 1.31E9
     name: Apostle
     published: true
     volume: 1.8135E7
@@ -225,6 +226,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 42242
     marketGroup: 2357
+    mass: 1.31E9
     name: Dagon
     published: true
     volume: 1.8135E7
@@ -336,6 +338,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 37606
     marketGroup: 2275
+    mass: 1.26E9
     name: Lif
     published: true
     volume: 1.4625E7
@@ -449,6 +452,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 45645
     marketGroup: 2357
+    mass: 1.3E9
     name: Loggerhead
     published: true
     volume: 1.55E7
@@ -560,6 +564,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 37605
     marketGroup: 2273
+    mass: 1.3E9
     name: Minokawa
     published: true
     volume: 1.55E7
@@ -671,6 +676,7 @@ items:
     WeaponDisruptionResistance: 1.0
     id: 37607
     marketGroup: 2274
+    mass: 1.25E9
     name: Ninazu
     published: true
     volume: 1.702E7

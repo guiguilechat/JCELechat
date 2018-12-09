@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28403
     marketGroup: 528
+    mass: 1.0E35
     name: Compressed Hemorphite
     published: true
     volume: 0.86
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28404
     marketGroup: 528
+    mass: 1.0E35
     name: Compressed Radiant Hemorphite
     published: true
     volume: 0.86
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46697
     marketGroup: 528
+    mass: 1.0
     name: Compressed Scintillating Hemorphite
     published: true
     volume: 0.86
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28405
     marketGroup: 528
+    mass: 1.0E35
     name: Compressed Vivid Hemorphite
     published: true
     volume: 0.86
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 1231
     marketGroup: 528
+    mass: 1.0E35
     name: Hemorphite
     published: true
     volume: 3.0
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17445
     marketGroup: 528
+    mass: 1.0E35
     name: Radiant Hemorphite
     published: true
     volume: 3.0
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46681
     marketGroup: 528
+    mass: 1.0E35
     name: Scintillating Hemorphite
     published: true
     volume: 3.0
@@ -116,6 +123,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17444
     marketGroup: 528
+    mass: 1.0E35
     name: Vivid Hemorphite
     published: true
     volume: 3.0

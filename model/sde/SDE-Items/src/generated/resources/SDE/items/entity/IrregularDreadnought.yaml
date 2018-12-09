@@ -1,6 +1,7 @@
 items:
   Kazue's Caiman:
     id: 40729
+    mass: 1.27E9
     name: Kazue's Caiman
     published: true
     volume: 1.625E7

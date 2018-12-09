@@ -2,245 +2,286 @@ items:
   Analog Panel:
     id: 23162
     marketGroup: 1899
+    mass: 1.0
     name: Analog Panel
     published: true
     volume: 0.1
   Armor Blocks:
     id: 21590
     marketGroup: 1900
+    mass: 1.0
     name: Armor Blocks
     published: true
     volume: 0.1
   Auxiliary Parts:
     id: 23159
     marketGroup: 1899
+    mass: 1.0
     name: Auxiliary Parts
     published: true
     volume: 0.1
   Computer Chips:
     id: 21591
     marketGroup: 1900
+    mass: 1.0
     name: Computer Chips
     published: true
     volume: 0.1
   Construction Alloy:
     id: 21595
     marketGroup: 1898
+    mass: 1.0
     name: Construction Alloy
     published: true
     volume: 0.1
   Current Amplifier:
     id: 23163
     marketGroup: 1901
+    mass: 1.0
     name: Current Amplifier
     published: true
     volume: 0.1
   Data Processor:
     id: 21596
     marketGroup: 1898
+    mass: 1.0
     name: Data Processor
     published: true
     volume: 0.1
   Electric Conduit:
     id: 21592
     marketGroup: 1898
+    mass: 1.0
     name: Electric Conduit
     published: true
     volume: 0.1
   Electronic Link:
     id: 21587
     marketGroup: 1900
+    mass: 1.0
     name: Electronic Link
     published: true
     volume: 0.1
   Elemental Crux:
     id: 23161
     marketGroup: 1899
+    mass: 1.0
     name: Elemental Crux
     published: true
     volume: 0.1
   Energy Cells:
     id: 21594
     marketGroup: 1898
+    mass: 1.0
     name: Energy Cells
     published: true
     volume: 0.1
   Force Cable:
     id: 23160
     marketGroup: 1899
+    mass: 1.0
     name: Force Cable
     published: true
     volume: 0.1
   Heat Depressor:
     id: 23165
     marketGroup: 1901
+    mass: 1.0
     name: Heat Depressor
     published: true
     volume: 0.1
   Inexplicable Drone Junk:
     id: 28867
+    mass: 150.0
     name: Inexplicable Drone Junk
     published: true
     volume: 20.0
   Internal Bulkhead:
     id: 23166
     marketGroup: 1901
+    mass: 1.0
     name: Internal Bulkhead
     published: true
     volume: 0.1
   Mainframe Bit:
     id: 23167
     marketGroup: 1901
+    mass: 1.0
     name: Mainframe Bit
     published: true
     volume: 0.1
   Mechanic Parts:
     id: 21593
     marketGroup: 1898
+    mass: 1.0
     name: Mechanic Parts
     published: true
     volume: 0.1
   Positron Cord:
     id: 23158
     marketGroup: 1899
+    mass: 1.0
     name: Positron Cord
     published: true
     volume: 0.1
   Power Couplings:
     id: 21589
     marketGroup: 1900
+    mass: 1.0
     name: Power Couplings
     published: true
     volume: 0.1
   Second-hand Parts:
     id: 23164
     marketGroup: 1901
+    mass: 1.0
     name: Second-hand Parts
     published: true
     volume: 0.1
   Sleeper Cryo Batteries:
     id: 21585
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Cryo Batteries
     published: true
     volume: 1.0
   Sleeper Foundation Block:
     id: 20110
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Foundation Block
     published: true
     volume: 1.0
   Sleeper Micro Circuits:
     id: 21584
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Micro Circuits
     published: true
     volume: 1.0
   Sleeper Split Cables:
     id: 21073
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Split Cables
     published: true
     volume: 1.0
   Sleeper Virtual Energizer:
     id: 21586
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Virtual Energizer
     published: true
     volume: 1.0
   Spare Parts:
     id: 21588
     marketGroup: 1900
+    mass: 1.0
     name: Spare Parts
     published: true
     volume: 0.1
   Takmahl Cohere Cord:
     id: 23144
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Cohere Cord
     published: true
     volume: 1.0
   Takmahl Diamond Rod:
     id: 23143
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Diamond Rod
     published: true
     volume: 1.0
   Takmahl Magnetic Slab:
     id: 23146
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Magnetic Slab
     published: true
     volume: 1.0
   Takmahl Solid Mox:
     id: 23145
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Solid Mox
     published: true
     volume: 1.0
   Takmahl Tri-polished Lens:
     id: 23147
     marketGroup: 1905
+    mass: 1.0
     name: Takmahl Tri-polished Lens
     published: true
     volume: 1.0
   Talocan Ignition Device:
     id: 21089
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Ignition Device
     published: true
     volume: 1.0
   Talocan Mechanical Gears:
     id: 21081
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Mechanical Gears
     published: true
     volume: 1.0
   Talocan Molecule Binder:
     id: 21075
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Molecule Binder
     published: true
     volume: 1.0
   Talocan Partition Plates:
     id: 21086
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Partition Plates
     published: true
     volume: 1.0
   Talocan Reflective Sheets:
     id: 21078
     marketGroup: 1903
+    mass: 1.0
     name: Talocan Reflective Sheets
     published: true
     volume: 1.0
   Yan Jung Glass Scale:
     id: 23139
     marketGroup: 1904
+    mass: 1.0
     name: Yan Jung Glass Scale
     published: true
     volume: 1.0
   Yan Jung Nano Fabric:
     id: 23142
     marketGroup: 1904
+    mass: 1.0
     name: Yan Jung Nano Fabric
     published: true
     volume: 1.0
   Yan Jung Null Shell:
     id: 23138
     marketGroup: 1904
+    mass: 1.0
     name: Yan Jung Null Shell
     published: true
     volume: 1.0
   Yan Jung Plenary Wire:
     id: 23140
     marketGroup: 1904
+    mass: 1.0
     name: Yan Jung Plenary Wire
     published: true
     volume: 1.0
   Yan Jung Silk Armor:
     id: 23141
     marketGroup: 1904
+    mass: 1.0
     name: Yan Jung Silk Armor
     published: true
     volume: 1.0

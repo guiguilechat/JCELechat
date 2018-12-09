@@ -19,6 +19,7 @@ items:
     TechLevel: 1
     id: 27934
     marketGroup: 1063
+    mass: 20.0
     name: Capital Remote Hull Repairer I
     published: true
     volume: 4000.0
@@ -43,6 +44,7 @@ items:
     TechLevel: 2
     id: 41475
     marketGroup: 1063
+    mass: 20.0
     name: Capital Remote Hull Repairer II
     published: true
     volume: 4000.0
@@ -63,6 +65,7 @@ items:
     TechLevel: 1
     id: 27904
     marketGroup: 1062
+    mass: 20.0
     name: Large Remote Hull Repairer I
     published: true
     volume: 50.0
@@ -85,6 +88,7 @@ items:
     TechLevel: 2
     id: 3986
     marketGroup: 1062
+    mass: 20.0
     name: Large Remote Hull Repairer II
     published: true
     volume: 50.0
@@ -105,6 +109,7 @@ items:
     TechLevel: 1
     id: 27930
     marketGroup: 1061
+    mass: 20.0
     name: Medium Remote Hull Repairer I
     published: true
     volume: 10.0
@@ -127,6 +132,7 @@ items:
     TechLevel: 2
     id: 4296
     marketGroup: 1061
+    mass: 20.0
     name: Medium Remote Hull Repairer II
     published: true
     volume: 10.0
@@ -147,6 +153,7 @@ items:
     TechLevel: 1
     id: 27932
     marketGroup: 1060
+    mass: 20.0
     name: Small Remote Hull Repairer I
     published: true
     volume: 5.0
@@ -169,6 +176,7 @@ items:
     TechLevel: 2
     id: 4299
     marketGroup: 1060
+    mass: 20.0
     name: Small Remote Hull Repairer II
     published: true
     volume: 5.0

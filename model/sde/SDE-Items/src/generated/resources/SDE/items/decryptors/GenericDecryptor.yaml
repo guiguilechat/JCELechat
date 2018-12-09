@@ -6,6 +6,7 @@ items:
     InventionTEModifier: 10.0
     id: 34201
     marketGroup: 1873
+    mass: 1.0
     name: Accelerant Decryptor
     published: true
     volume: 0.1
@@ -16,6 +17,7 @@ items:
     InventionTEModifier: 4.0
     id: 34202
     marketGroup: 1873
+    mass: 1.0
     name: Attainment Decryptor
     published: true
     volume: 0.1
@@ -26,6 +28,7 @@ items:
     InventionTEModifier: 2.0
     id: 34203
     marketGroup: 1873
+    mass: 1.0
     name: Augmentation Decryptor
     published: true
     volume: 0.1
@@ -36,6 +39,7 @@ items:
     InventionTEModifier: -2.0
     id: 34207
     marketGroup: 1873
+    mass: 1.0
     name: Optimized Attainment Decryptor
     published: true
     volume: 0.1
@@ -45,6 +49,7 @@ items:
     InventionPropabilityMultiplier: 0.8999999761581421
     id: 34208
     marketGroup: 1873
+    mass: 1.0
     name: Optimized Augmentation Decryptor
     published: true
     volume: 0.1
@@ -55,6 +60,7 @@ items:
     InventionTEModifier: -2.0
     id: 34204
     marketGroup: 1873
+    mass: 1.0
     name: Parity Decryptor
     published: true
     volume: 0.1
@@ -64,6 +70,7 @@ items:
     InventionTEModifier: 6.0
     id: 34205
     marketGroup: 1873
+    mass: 1.0
     name: Process Decryptor
     published: true
     volume: 0.1
@@ -74,6 +81,7 @@ items:
     InventionTEModifier: 8.0
     id: 34206
     marketGroup: 1873
+    mass: 1.0
     name: Symmetry Decryptor
     published: true
     volume: 0.1

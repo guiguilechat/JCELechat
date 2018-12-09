@@ -12,6 +12,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17466
     marketGroup: 517
+    mass: 1.0E35
     name: Bright Spodumain
     published: true
     volume: 16.0
@@ -26,6 +27,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28418
     marketGroup: 517
+    mass: 1.0E35
     name: Compressed Bright Spodumain
     published: true
     volume: 28.0
@@ -40,6 +42,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46704
     marketGroup: 517
+    mass: 1.0
     name: Compressed Dazzling Spodumain
     published: true
     volume: 28.0
@@ -54,6 +57,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28419
     marketGroup: 517
+    mass: 1.0E35
     name: Compressed Gleaming Spodumain
     published: true
     volume: 28.0
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28420
     marketGroup: 517
+    mass: 1.0E35
     name: Compressed Spodumain
     published: true
     volume: 28.0
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46688
     marketGroup: 517
+    mass: 1.0E35
     name: Dazzling Spodumain
     published: true
     volume: 16.0
@@ -100,6 +106,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17467
     marketGroup: 517
+    mass: 1.0E35
     name: Gleaming Spodumain
     published: true
     volume: 16.0
@@ -116,6 +123,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 19
     marketGroup: 517
+    mass: 1.0E35
     name: Spodumain
     published: true
     volume: 16.0

@@ -1,6 +1,7 @@
 items:
   Amarr Apostle:
     id: 42844
+    mass: 1.0125E9
     name: Amarr Apostle
     published: false
     volume: 1.395E7

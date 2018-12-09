@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     id: 28652
     marketGroup: 1640
+    mass: 1.0
     name: Covert Jump Portal Generator I
     published: true
     volume: 125.0
@@ -46,6 +47,7 @@ items:
     TechLevel: 1
     id: 23953
     marketGroup: 1640
+    mass: 1.0
     name: Jump Portal Generator I
     published: true
     volume: 10000.0

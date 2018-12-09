@@ -26,6 +26,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27423
     marketGroup: 1001
+    mass: 1250.0
     name: Caldari Navy Inferno Cruise Missile
     published: true
     volume: 0.05
@@ -56,6 +57,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27377
     marketGroup: 1001
+    mass: 1250.0
     name: Caldari Navy Mjolnir Cruise Missile
     published: true
     volume: 0.05
@@ -86,6 +88,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27429
     marketGroup: 1001
+    mass: 1250.0
     name: Caldari Navy Nova Cruise Missile
     published: true
     volume: 0.05
@@ -116,6 +119,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27395
     marketGroup: 1001
+    mass: 1250.0
     name: Caldari Navy Scourge Cruise Missile
     published: true
     volume: 0.05
@@ -146,6 +150,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27425
     marketGroup: 1001
+    mass: 1250.0
     name: Dread Guristas Inferno Cruise Missile
     published: true
     volume: 0.05
@@ -176,6 +181,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27389
     marketGroup: 1001
+    mass: 1250.0
     name: Dread Guristas Mjolnir Cruise Missile
     published: true
     volume: 0.05
@@ -206,6 +212,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27431
     marketGroup: 1001
+    mass: 1250.0
     name: Dread Guristas Nova Cruise Missile
     published: true
     volume: 0.05
@@ -236,6 +243,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27399
     marketGroup: 1001
+    mass: 1250.0
     name: Dread Guristas Scourge Cruise Missile
     published: true
     volume: 0.05
@@ -266,6 +274,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27409
     marketGroup: 1001
+    mass: 1250.0
     name: Guristas Inferno Cruise Missile
     published: true
     volume: 0.05
@@ -296,6 +305,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27373
     marketGroup: 1001
+    mass: 1250.0
     name: Guristas Mjolnir Cruise Missile
     published: true
     volume: 0.05
@@ -326,6 +336,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27427
     marketGroup: 1001
+    mass: 1250.0
     name: Guristas Nova Cruise Missile
     published: true
     volume: 0.05
@@ -356,6 +367,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27391
     marketGroup: 1001
+    mass: 1250.0
     name: Guristas Scourge Cruise Missile
     published: true
     volume: 0.05
@@ -384,6 +396,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 204
     marketGroup: 921
+    mass: 1250.0
     name: Inferno Cruise Missile
     published: true
     volume: 0.05
@@ -412,6 +425,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 202
     marketGroup: 921
+    mass: 1250.0
     name: Mjolnir Cruise Missile
     published: true
     volume: 0.05
@@ -440,6 +454,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 205
     marketGroup: 921
+    mass: 1250.0
     name: Nova Cruise Missile
     published: true
     volume: 0.05
@@ -468,6 +483,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 203
     marketGroup: 921
+    mass: 1250.0
     name: Scourge Cruise Missile
     published: true
     volume: 0.05

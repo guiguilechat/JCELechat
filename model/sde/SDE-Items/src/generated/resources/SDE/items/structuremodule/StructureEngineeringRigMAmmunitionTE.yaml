@@ -21,6 +21,7 @@ items:
     UpgradeCost: 100
     id: 37150
     marketGroup: 2347
+    mass: 200.0
     name: Standup M-Set Ammunition Manufacturing Time Efficiency I
     published: true
     volume: 10.0
@@ -46,6 +47,7 @@ items:
     UpgradeCost: 150
     id: 37151
     marketGroup: 2347
+    mass: 200.0
     name: Standup M-Set Ammunition Manufacturing Time Efficiency II
     published: true
     volume: 10.0

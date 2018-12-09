@@ -4,6 +4,7 @@ items:
     StructureUniformity: 1.0
     id: 3296
     marketGroup: 1657
+    mass: 1000000.0
     name: Large Standard Container
     published: true
     volume: 650.0
@@ -12,6 +13,7 @@ items:
     StructureUniformity: 1.0
     id: 3293
     marketGroup: 1657
+    mass: 100000.0
     name: Medium Standard Container
     published: true
     volume: 325.0
@@ -20,6 +22,7 @@ items:
     StructureUniformity: 1.0
     id: 3297
     marketGroup: 1657
+    mass: 10000.0
     name: Small Standard Container
     published: true
     volume: 100.0

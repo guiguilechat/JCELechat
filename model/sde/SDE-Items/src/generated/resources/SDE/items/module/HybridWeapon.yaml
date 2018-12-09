@@ -30,6 +30,7 @@ items:
     TypeColorScheme: 11323
     id: 22899
     marketGroup: 561
+    mass: 500.0
     name: '''Corporate'' Light Electron Blaster I'
     published: true
     volume: 5.0
@@ -64,6 +65,7 @@ items:
     TypeColorScheme: 11323
     id: 22901
     marketGroup: 561
+    mass: 500.0
     name: '''Dealer'' Light Ion Blaster I'
     published: true
     volume: 5.0
@@ -98,6 +100,7 @@ items:
     TypeColorScheme: 11323
     id: 22913
     marketGroup: 563
+    mass: 2000.0
     name: '''Felon'' Ion Blaster Cannon I'
     published: true
     volume: 20.0
@@ -132,6 +135,7 @@ items:
     TypeColorScheme: 11323
     id: 22907
     marketGroup: 562
+    mass: 1000.0
     name: '''Hooligan'' Heavy Ion Blaster I'
     published: true
     volume: 10.0
@@ -166,6 +170,7 @@ items:
     TypeColorScheme: 11323
     id: 22909
     marketGroup: 562
+    mass: 100.0
     name: '''Hustler'' Heavy Neutron Blaster I'
     published: true
     volume: 10.0
@@ -200,6 +205,7 @@ items:
     TypeColorScheme: 11323
     id: 22903
     marketGroup: 561
+    mass: 500.0
     name: '''Racket'' Light Neutron Blaster I'
     published: true
     volume: 5.0
@@ -234,6 +240,7 @@ items:
     TypeColorScheme: 11323
     id: 22905
     marketGroup: 562
+    mass: 1000.0
     name: '''Slither'' Heavy Electron Blaster I'
     published: true
     volume: 10.0
@@ -268,6 +275,7 @@ items:
     TypeColorScheme: 11323
     id: 22911
     marketGroup: 563
+    mass: 2000.0
     name: '''Swindler'' Electron Blaster Cannon I'
     published: true
     volume: 20.0
@@ -302,6 +310,7 @@ items:
     TypeColorScheme: 11322
     id: 22915
     marketGroup: 563
+    mass: 2000.0
     name: '''Underhand'' Neutron Blaster Cannon I'
     published: true
     volume: 20.0
@@ -335,6 +344,7 @@ items:
     TypeColorScheme: 11324
     id: 10688
     marketGroup: 564
+    mass: 500.0
     name: 125mm 'Scout' Accelerator Cannon
     published: true
     volume: 5.0
@@ -368,6 +378,7 @@ items:
     TypeColorScheme: 11324
     id: 10690
     marketGroup: 564
+    mass: 500.0
     name: 125mm Carbide Railgun I
     published: true
     volume: 5.0
@@ -401,6 +412,7 @@ items:
     TypeColorScheme: 11324
     id: 10692
     marketGroup: 564
+    mass: 500.0
     name: 125mm Compressed Coil Gun I
     published: true
     volume: 5.0
@@ -434,6 +446,7 @@ items:
     TypeColorScheme: 11324
     id: 10694
     marketGroup: 564
+    mass: 500.0
     name: 125mm Prototype Gauss Gun
     published: true
     volume: 5.0
@@ -466,6 +479,7 @@ items:
     TypeColorScheme: 11324
     id: 10678
     marketGroup: 564
+    mass: 500.0
     name: 125mm Railgun I
     published: true
     volume: 5.0
@@ -502,6 +516,7 @@ items:
     TypeColorScheme: 11325
     id: 10680
     marketGroup: 564
+    mass: 500.0
     name: 125mm Railgun II
     published: true
     volume: 5.0
@@ -536,6 +551,7 @@ items:
     TypeColorScheme: 11323
     id: 20587
     marketGroup: 564
+    mass: 500.0
     name: 150mm 'Musket' Railgun
     published: true
     volume: 5.0
@@ -569,6 +585,7 @@ items:
     TypeColorScheme: 11324
     id: 7289
     marketGroup: 564
+    mass: 500.0
     name: 150mm 'Scout' Accelerator Cannon
     published: true
     volume: 5.0
@@ -602,6 +619,7 @@ items:
     TypeColorScheme: 11324
     id: 7291
     marketGroup: 564
+    mass: 500.0
     name: 150mm Carbide Railgun I
     published: true
     volume: 5.0
@@ -635,6 +653,7 @@ items:
     TypeColorScheme: 11324
     id: 7293
     marketGroup: 564
+    mass: 500.0
     name: 150mm Compressed Coil Gun I
     published: true
     volume: 5.0
@@ -668,6 +687,7 @@ items:
     TypeColorScheme: 11324
     id: 7287
     marketGroup: 564
+    mass: 500.0
     name: 150mm Prototype Gauss Gun
     published: true
     volume: 5.0
@@ -700,6 +720,7 @@ items:
     TypeColorScheme: 11324
     id: 565
     marketGroup: 564
+    mass: 500.0
     name: 150mm Railgun I
     published: true
     volume: 5.0
@@ -736,6 +757,7 @@ items:
     TypeColorScheme: 11325
     id: 3074
     marketGroup: 564
+    mass: 500.0
     name: 150mm Railgun II
     published: true
     volume: 5.0
@@ -769,6 +791,7 @@ items:
     TypeColorScheme: 11324
     id: 14274
     marketGroup: 565
+    mass: 1000.0
     name: 200mm 'Scout' Accelerator Cannon
     published: true
     volume: 10.0
@@ -802,6 +825,7 @@ items:
     TypeColorScheme: 11324
     id: 14272
     marketGroup: 565
+    mass: 1000.0
     name: 200mm Carbide Railgun I
     published: true
     volume: 10.0
@@ -835,6 +859,7 @@ items:
     TypeColorScheme: 11324
     id: 14276
     marketGroup: 565
+    mass: 1000.0
     name: 200mm Compressed Coil Gun I
     published: true
     volume: 10.0
@@ -868,6 +893,7 @@ items:
     TypeColorScheme: 11324
     id: 14278
     marketGroup: 565
+    mass: 1000.0
     name: 200mm Prototype Gauss Gun
     published: true
     volume: 10.0
@@ -900,6 +926,7 @@ items:
     TypeColorScheme: 11324
     id: 12344
     marketGroup: 565
+    mass: 1000.0
     name: 200mm Railgun I
     published: true
     volume: 10.0
@@ -936,6 +963,7 @@ items:
     TypeColorScheme: 11325
     id: 12346
     marketGroup: 565
+    mass: 1000.0
     name: 200mm Railgun II
     published: true
     volume: 10.0
@@ -970,6 +998,7 @@ items:
     TypeColorScheme: 11323
     id: 20589
     marketGroup: 565
+    mass: 1000.0
     name: 250mm 'Flintlock' Railgun
     published: true
     volume: 10.0
@@ -1003,6 +1032,7 @@ items:
     TypeColorScheme: 11324
     id: 7369
     marketGroup: 565
+    mass: 1000.0
     name: 250mm 'Scout' Accelerator Cannon
     published: true
     volume: 10.0
@@ -1036,6 +1066,7 @@ items:
     TypeColorScheme: 11324
     id: 7371
     marketGroup: 565
+    mass: 1000.0
     name: 250mm Carbide Railgun I
     published: true
     volume: 10.0
@@ -1069,6 +1100,7 @@ items:
     TypeColorScheme: 11324
     id: 7373
     marketGroup: 565
+    mass: 1000.0
     name: 250mm Compressed Coil Gun I
     published: true
     volume: 10.0
@@ -1102,6 +1134,7 @@ items:
     TypeColorScheme: 11324
     id: 7367
     marketGroup: 565
+    mass: 1000.0
     name: 250mm Prototype Gauss Gun
     published: true
     volume: 10.0
@@ -1134,6 +1167,7 @@ items:
     TypeColorScheme: 11324
     id: 570
     marketGroup: 565
+    mass: 1000.0
     name: 250mm Railgun I
     published: true
     volume: 25.0
@@ -1170,6 +1204,7 @@ items:
     TypeColorScheme: 11325
     id: 3082
     marketGroup: 565
+    mass: 1000.0
     name: 250mm Railgun II
     published: true
     volume: 10.0
@@ -1203,6 +1238,7 @@ items:
     TypeColorScheme: 11324
     id: 14282
     marketGroup: 566
+    mass: 2000.0
     name: 350mm 'Scout' Accelerator Cannon
     published: true
     volume: 20.0
@@ -1236,6 +1272,7 @@ items:
     TypeColorScheme: 11324
     id: 14280
     marketGroup: 566
+    mass: 2000.0
     name: 350mm Carbide Railgun I
     published: true
     volume: 20.0
@@ -1269,6 +1306,7 @@ items:
     TypeColorScheme: 11324
     id: 14284
     marketGroup: 566
+    mass: 2000.0
     name: 350mm Compressed Coil Gun I
     published: true
     volume: 20.0
@@ -1302,6 +1340,7 @@ items:
     TypeColorScheme: 11324
     id: 14286
     marketGroup: 566
+    mass: 2000.0
     name: 350mm Prototype Gauss Gun
     published: true
     volume: 20.0
@@ -1334,6 +1373,7 @@ items:
     TypeColorScheme: 11324
     id: 12354
     marketGroup: 566
+    mass: 2000.0
     name: 350mm Railgun I
     published: true
     volume: 50.0
@@ -1370,6 +1410,7 @@ items:
     TypeColorScheme: 11325
     id: 12356
     marketGroup: 566
+    mass: 2000.0
     name: 350mm Railgun II
     published: true
     volume: 20.0
@@ -1404,6 +1445,7 @@ items:
     TypeColorScheme: 11323
     id: 20591
     marketGroup: 566
+    mass: 2000.0
     name: 425mm 'Popper' Railgun
     published: true
     volume: 20.0
@@ -1437,6 +1479,7 @@ items:
     TypeColorScheme: 11324
     id: 7449
     marketGroup: 566
+    mass: 2000.0
     name: 425mm 'Scout' Accelerator Cannon
     published: true
     volume: 20.0
@@ -1470,6 +1513,7 @@ items:
     TypeColorScheme: 11324
     id: 7451
     marketGroup: 566
+    mass: 2000.0
     name: 425mm Carbide Railgun I
     published: true
     volume: 20.0
@@ -1503,6 +1547,7 @@ items:
     TypeColorScheme: 11324
     id: 7453
     marketGroup: 566
+    mass: 2000.0
     name: 425mm Compressed Coil Gun I
     published: true
     volume: 20.0
@@ -1536,6 +1581,7 @@ items:
     TypeColorScheme: 11324
     id: 7447
     marketGroup: 566
+    mass: 2000.0
     name: 425mm Prototype Gauss Gun
     published: true
     volume: 20.0
@@ -1568,6 +1614,7 @@ items:
     TypeColorScheme: 11324
     id: 574
     marketGroup: 566
+    mass: 2000.0
     name: 425mm Railgun I
     published: true
     volume: 50.0
@@ -1604,6 +1651,7 @@ items:
     TypeColorScheme: 11325
     id: 3090
     marketGroup: 566
+    mass: 2000.0
     name: 425mm Railgun II
     published: true
     volume: 20.0
@@ -1636,6 +1684,7 @@ items:
     TypeColorScheme: 11324
     id: 7249
     marketGroup: 564
+    mass: 500.0
     name: 75mm 'Scout' Accelerator Cannon
     published: true
     volume: 5.0
@@ -1668,6 +1717,7 @@ items:
     TypeColorScheme: 11324
     id: 7251
     marketGroup: 564
+    mass: 500.0
     name: 75mm Carbide Railgun I
     published: true
     volume: 5.0
@@ -1700,6 +1750,7 @@ items:
     TypeColorScheme: 11324
     id: 7253
     marketGroup: 564
+    mass: 500.0
     name: 75mm Compressed Coil Gun I
     published: true
     volume: 5.0
@@ -1731,6 +1782,7 @@ items:
     TypeColorScheme: 11324
     id: 561
     marketGroup: 564
+    mass: 500.0
     name: 75mm Gatling Rail I
     published: true
     volume: 5.0
@@ -1766,6 +1818,7 @@ items:
     TypeColorScheme: 11325
     id: 3098
     marketGroup: 564
+    mass: 500.0
     name: 75mm Gatling Rail II
     published: true
     volume: 5.0
@@ -1798,6 +1851,7 @@ items:
     TypeColorScheme: 11324
     id: 7247
     marketGroup: 564
+    mass: 500.0
     name: 75mm Prototype Gauss Gun
     published: true
     volume: 5.0
@@ -1831,6 +1885,7 @@ items:
     TypeColorScheme: 11331
     id: 7625
     marketGroup: 562
+    mass: 1000.0
     name: Anode Electron Particle Cannon I
     published: true
     volume: 10.0
@@ -1864,6 +1919,7 @@ items:
     TypeColorScheme: 11331
     id: 7669
     marketGroup: 562
+    mass: 1000.0
     name: Anode Ion Particle Cannon I
     published: true
     volume: 10.0
@@ -1897,6 +1953,7 @@ items:
     TypeColorScheme: 11331
     id: 7493
     marketGroup: 561
+    mass: 500.0
     name: Anode Light Electron Particle Cannon I
     published: true
     volume: 5.0
@@ -1930,6 +1987,7 @@ items:
     TypeColorScheme: 11331
     id: 7541
     marketGroup: 561
+    mass: 500.0
     name: Anode Light Ion Particle Cannon I
     published: true
     volume: 5.0
@@ -1963,6 +2021,7 @@ items:
     TypeColorScheme: 11331
     id: 7585
     marketGroup: 561
+    mass: 500.0
     name: Anode Light Neutron Particle Cannon I
     published: true
     volume: 5.0
@@ -1996,6 +2055,7 @@ items:
     TypeColorScheme: 11331
     id: 7749
     marketGroup: 563
+    mass: 2000.0
     name: Anode Mega Electron Particle Cannon I
     published: true
     volume: 20.0
@@ -2029,6 +2089,7 @@ items:
     TypeColorScheme: 11331
     id: 7833
     marketGroup: 563
+    mass: 2000.0
     name: Anode Mega Ion Particle Cannon I
     published: true
     volume: 20.0
@@ -2062,6 +2123,7 @@ items:
     TypeColorScheme: 11331
     id: 7789
     marketGroup: 563
+    mass: 2000.0
     name: Anode Mega Neutron Particle Cannon I
     published: true
     volume: 20.0
@@ -2095,6 +2157,7 @@ items:
     TypeColorScheme: 11331
     id: 7709
     marketGroup: 562
+    mass: 1000.0
     name: Anode Neutron Particle Cannon I
     published: true
     volume: 10.0
@@ -2128,6 +2191,7 @@ items:
     TypeColorScheme: 11331
     id: 41128
     marketGroup: 771
+    mass: 40000.0
     name: Anode Scoped Ion Siege Blaster
     published: true
     volume: 4000.0
@@ -2161,6 +2225,7 @@ items:
     TypeColorScheme: 11331
     id: 41077
     marketGroup: 771
+    mass: 40000.0
     name: Anode Scoped Triple Neutron Blaster Cannon
     published: true
     volume: 4000.0
@@ -2195,6 +2260,7 @@ items:
     TypeColorScheme: 11322
     id: 14387
     marketGroup: 566
+    mass: 2000.0
     name: Brynn's Modified 350mm Railgun
     published: true
     volume: 20.0
@@ -2229,6 +2295,7 @@ items:
     TypeColorScheme: 11322
     id: 14397
     marketGroup: 566
+    mass: 2000.0
     name: Brynn's Modified 425mm Railgun
     published: true
     volume: 20.0
@@ -2263,6 +2330,7 @@ items:
     TypeColorScheme: 11322
     id: 14407
     marketGroup: 566
+    mass: 2000.0
     name: Brynn's Modified Dual 250mm Railgun
     published: true
     volume: 20.0
@@ -2298,6 +2366,7 @@ items:
     TypeColorScheme: 11324
     id: 3550
     marketGroup: 772
+    mass: 40000.0
     name: CONCORD Dual 1000mm Railgun
     published: true
     volume: 4000.0
@@ -2333,6 +2402,7 @@ items:
     TypeColorScheme: 11331
     id: 3546
     marketGroup: 771
+    mass: 40000.0
     name: CONCORD Ion Siege Blaster
     published: true
     volume: 4000.0
@@ -2367,6 +2437,7 @@ items:
     TypeColorScheme: 11321
     id: 15824
     marketGroup: 564
+    mass: 500.0
     name: Caldari Navy 125mm Railgun
     published: true
     volume: 5.0
@@ -2401,6 +2472,7 @@ items:
     TypeColorScheme: 11321
     id: 15823
     marketGroup: 564
+    mass: 500.0
     name: Caldari Navy 150mm Railgun
     published: true
     volume: 5.0
@@ -2435,6 +2507,7 @@ items:
     TypeColorScheme: 11321
     id: 15821
     marketGroup: 565
+    mass: 1000.0
     name: Caldari Navy 200mm Railgun
     published: true
     volume: 10.0
@@ -2469,6 +2542,7 @@ items:
     TypeColorScheme: 11321
     id: 15820
     marketGroup: 565
+    mass: 1000.0
     name: Caldari Navy 250mm Railgun
     published: true
     volume: 10.0
@@ -2503,6 +2577,7 @@ items:
     TypeColorScheme: 11321
     id: 15818
     marketGroup: 566
+    mass: 2000.0
     name: Caldari Navy 350mm Railgun
     published: true
     volume: 20.0
@@ -2537,6 +2612,7 @@ items:
     TypeColorScheme: 11321
     id: 15817
     marketGroup: 566
+    mass: 2000.0
     name: Caldari Navy 425mm Railgun
     published: true
     volume: 20.0
@@ -2571,6 +2647,7 @@ items:
     TypeColorScheme: 11321
     id: 15816
     marketGroup: 564
+    mass: 500.0
     name: Caldari Navy 75mm Railgun
     published: true
     volume: 5.0
@@ -2605,6 +2682,7 @@ items:
     TypeColorScheme: 11321
     id: 15815
     marketGroup: 565
+    mass: 1000.0
     name: Caldari Navy Dual 150mm Railgun
     published: true
     volume: 10.0
@@ -2639,6 +2717,7 @@ items:
     TypeColorScheme: 11321
     id: 15814
     marketGroup: 566
+    mass: 2000.0
     name: Caldari Navy Dual 250mm Railgun
     published: true
     volume: 20.0
@@ -2672,6 +2751,7 @@ items:
     TypeColorScheme: 11324
     id: 41138
     marketGroup: 772
+    mass: 40000.0
     name: Carbide Compact Dual 1000mm Railgun
     published: true
     volume: 4000.0
@@ -2705,6 +2785,7 @@ items:
     TypeColorScheme: 11324
     id: 41139
     marketGroup: 772
+    mass: 40000.0
     name: Compressed Enduring Dual 1000mm Railgun
     published: true
     volume: 4000.0
@@ -2739,6 +2820,7 @@ items:
     TypeColorScheme: 11322
     id: 14377
     marketGroup: 563
+    mass: 2000.0
     name: Cormack's Modified Electron Blaster Cannon
     published: true
     volume: 20.0
@@ -2773,6 +2855,7 @@ items:
     TypeColorScheme: 11322
     id: 14379
     marketGroup: 563
+    mass: 2000.0
     name: Cormack's Modified Ion Blaster Cannon
     published: true
     volume: 20.0
@@ -2807,6 +2890,7 @@ items:
     TypeColorScheme: 11322
     id: 14385
     marketGroup: 563
+    mass: 200.0
     name: Cormack's Modified Neutron Blaster Cannon
     published: true
     volume: 20.0
@@ -2841,6 +2925,7 @@ items:
     TypeColorScheme: 11335
     id: 13865
     marketGroup: 564
+    mass: 500.0
     name: Dread Guristas 125mm Railgun
     published: true
     volume: 5.0
@@ -2875,6 +2960,7 @@ items:
     TypeColorScheme: 11335
     id: 13867
     marketGroup: 564
+    mass: 500.0
     name: Dread Guristas 150mm Railgun
     published: true
     volume: 5.0
@@ -2909,6 +2995,7 @@ items:
     TypeColorScheme: 11335
     id: 13870
     marketGroup: 565
+    mass: 1000.0
     name: Dread Guristas 200mm Railgun
     published: true
     volume: 10.0
@@ -2943,6 +3030,7 @@ items:
     TypeColorScheme: 11335
     id: 13873
     marketGroup: 565
+    mass: 1000.0
     name: Dread Guristas 250mm Railgun
     published: true
     volume: 10.0
@@ -2977,6 +3065,7 @@ items:
     TypeColorScheme: 11335
     id: 13876
     marketGroup: 566
+    mass: 2000.0
     name: Dread Guristas 350mm Railgun
     published: true
     volume: 20.0
@@ -3011,6 +3100,7 @@ items:
     TypeColorScheme: 11335
     id: 13879
     marketGroup: 566
+    mass: 2000.0
     name: Dread Guristas 425mm Railgun
     published: true
     volume: 20.0
@@ -3045,6 +3135,7 @@ items:
     TypeColorScheme: 11335
     id: 13893
     marketGroup: 564
+    mass: 500.0
     name: Dread Guristas 75mm Railgun
     published: true
     volume: 5.0
@@ -3079,6 +3170,7 @@ items:
     TypeColorScheme: 11335
     id: 13881
     marketGroup: 565
+    mass: 1000.0
     name: Dread Guristas Dual 150mm Railgun
     published: true
     volume: 10.0
@@ -3113,6 +3205,7 @@ items:
     TypeColorScheme: 11335
     id: 13883
     marketGroup: 566
+    mass: 2000.0
     name: Dread Guristas Dual 250mm Railgun
     published: true
     volume: 20.0
@@ -3145,6 +3238,7 @@ items:
     TypeColorScheme: 11324
     id: 20448
     marketGroup: 772
+    mass: 40000.0
     name: Dual 1000mm Railgun I
     published: true
     volume: 4000.0
@@ -3181,6 +3275,7 @@ items:
     TypeColorScheme: 11324
     id: 37303
     marketGroup: 772
+    mass: 40000.0
     name: Dual 1000mm Railgun II
     published: true
     volume: 4000.0
@@ -3214,6 +3309,7 @@ items:
     TypeColorScheme: 11324
     id: 7329
     marketGroup: 565
+    mass: 1000.0
     name: Dual 150mm 'Scout' Accelerator Cannon
     published: true
     volume: 10.0
@@ -3247,6 +3343,7 @@ items:
     TypeColorScheme: 11324
     id: 7331
     marketGroup: 565
+    mass: 1000.0
     name: Dual 150mm Carbide Railgun I
     published: true
     volume: 10.0
@@ -3280,6 +3377,7 @@ items:
     TypeColorScheme: 11324
     id: 7333
     marketGroup: 565
+    mass: 1000.0
     name: Dual 150mm Compressed Coil Gun I
     published: true
     volume: 10.0
@@ -3313,6 +3411,7 @@ items:
     TypeColorScheme: 11324
     id: 7327
     marketGroup: 565
+    mass: 1000.0
     name: Dual 150mm Prototype Gauss Gun
     published: true
     volume: 10.0
@@ -3345,6 +3444,7 @@ items:
     TypeColorScheme: 11324
     id: 567
     marketGroup: 565
+    mass: 1000.0
     name: Dual 150mm Railgun I
     published: true
     volume: 10.0
@@ -3381,6 +3481,7 @@ items:
     TypeColorScheme: 11325
     id: 3106
     marketGroup: 565
+    mass: 1000.0
     name: Dual 150mm Railgun II
     published: true
     volume: 10.0
@@ -3414,6 +3515,7 @@ items:
     TypeColorScheme: 11324
     id: 7409
     marketGroup: 566
+    mass: 2000.0
     name: Dual 250mm 'Scout' Accelerator Cannon
     published: true
     volume: 20.0
@@ -3447,6 +3549,7 @@ items:
     TypeColorScheme: 11324
     id: 7411
     marketGroup: 566
+    mass: 2000.0
     name: Dual 250mm Carbide Railgun I
     published: true
     volume: 20.0
@@ -3480,6 +3583,7 @@ items:
     TypeColorScheme: 11324
     id: 7413
     marketGroup: 566
+    mass: 2000.0
     name: Dual 250mm Compressed Coil Gun I
     published: true
     volume: 20.0
@@ -3513,6 +3617,7 @@ items:
     TypeColorScheme: 11324
     id: 7407
     marketGroup: 566
+    mass: 2000.0
     name: Dual 250mm Prototype Gauss Gun
     published: true
     volume: 20.0
@@ -3545,6 +3650,7 @@ items:
     TypeColorScheme: 11324
     id: 572
     marketGroup: 566
+    mass: 2000.0
     name: Dual 250mm Railgun I
     published: true
     volume: 20.0
@@ -3581,6 +3687,7 @@ items:
     TypeColorScheme: 11325
     id: 3114
     marketGroup: 566
+    mass: 2000.0
     name: Dual 250mm Railgun II
     published: true
     volume: 20.0
@@ -3613,6 +3720,7 @@ items:
     TypeColorScheme: 11331
     id: 571
     marketGroup: 563
+    mass: 2000.0
     name: Electron Blaster Cannon I
     published: true
     volume: 50.0
@@ -3649,6 +3757,7 @@ items:
     TypeColorScheme: 11332
     id: 3122
     marketGroup: 563
+    mass: 2000.0
     name: Electron Blaster Cannon II
     published: true
     volume: 20.0
@@ -3683,6 +3792,7 @@ items:
     TypeColorScheme: 11322
     id: 14395
     marketGroup: 566
+    mass: 2000.0
     name: Estamel's Modified 350mm Railgun
     published: true
     volume: 20.0
@@ -3717,6 +3827,7 @@ items:
     TypeColorScheme: 11322
     id: 14405
     marketGroup: 566
+    mass: 2000.0
     name: Estamel's Modified 425mm Railgun
     published: true
     volume: 20.0
@@ -3751,6 +3862,7 @@ items:
     TypeColorScheme: 11322
     id: 14415
     marketGroup: 566
+    mass: 1500.0
     name: Estamel's Modified Dual 250mm Railgun
     published: true
     volume: 20.0
@@ -3785,6 +3897,7 @@ items:
     TypeColorScheme: 11328
     id: 15844
     marketGroup: 564
+    mass: 500.0
     name: Federation Navy 125mm Railgun
     published: true
     volume: 5.0
@@ -3819,6 +3932,7 @@ items:
     TypeColorScheme: 11328
     id: 15843
     marketGroup: 564
+    mass: 500.0
     name: Federation Navy 150mm Railgun
     published: true
     volume: 5.0
@@ -3853,6 +3967,7 @@ items:
     TypeColorScheme: 11328
     id: 15841
     marketGroup: 565
+    mass: 1000.0
     name: Federation Navy 200mm Railgun
     published: true
     volume: 10.0
@@ -3887,6 +4002,7 @@ items:
     TypeColorScheme: 11328
     id: 15840
     marketGroup: 565
+    mass: 1000.0
     name: Federation Navy 250mm Railgun
     published: true
     volume: 10.0
@@ -3921,6 +4037,7 @@ items:
     TypeColorScheme: 11328
     id: 15838
     marketGroup: 566
+    mass: 2000.0
     name: Federation Navy 350mm Railgun
     published: true
     volume: 20.0
@@ -3955,6 +4072,7 @@ items:
     TypeColorScheme: 11328
     id: 15837
     marketGroup: 566
+    mass: 2000.0
     name: Federation Navy 425mm Railgun
     published: true
     volume: 20.0
@@ -3989,6 +4107,7 @@ items:
     TypeColorScheme: 11328
     id: 15836
     marketGroup: 564
+    mass: 500.0
     name: Federation Navy 75mm Railgun
     published: true
     volume: 5.0
@@ -4023,6 +4142,7 @@ items:
     TypeColorScheme: 11328
     id: 15835
     marketGroup: 565
+    mass: 1000.0
     name: Federation Navy Dual 150mm Railgun
     published: true
     volume: 10.0
@@ -4057,6 +4177,7 @@ items:
     TypeColorScheme: 11328
     id: 15834
     marketGroup: 566
+    mass: 2000.0
     name: Federation Navy Dual 250mm Railgun
     published: true
     volume: 20.0
@@ -4091,6 +4212,7 @@ items:
     TypeColorScheme: 11328
     id: 15833
     marketGroup: 563
+    mass: 2000.0
     name: Federation Navy Electron Blaster Cannon
     published: true
     volume: 20.0
@@ -4125,6 +4247,7 @@ items:
     TypeColorScheme: 11328
     id: 15832
     marketGroup: 562
+    mass: 1000.0
     name: Federation Navy Heavy Electron Blaster
     published: true
     volume: 10.0
@@ -4159,6 +4282,7 @@ items:
     TypeColorScheme: 11328
     id: 15831
     marketGroup: 562
+    mass: 1000.0
     name: Federation Navy Heavy Ion Blaster
     published: true
     volume: 10.0
@@ -4193,6 +4317,7 @@ items:
     TypeColorScheme: 11328
     id: 15830
     marketGroup: 562
+    mass: 1000.0
     name: Federation Navy Heavy Neutron Blaster
     published: true
     volume: 10.0
@@ -4227,6 +4352,7 @@ items:
     TypeColorScheme: 11328
     id: 15829
     marketGroup: 563
+    mass: 2000.0
     name: Federation Navy Ion Blaster Cannon
     published: true
     volume: 20.0
@@ -4261,6 +4387,7 @@ items:
     TypeColorScheme: 11328
     id: 15828
     marketGroup: 561
+    mass: 500.0
     name: Federation Navy Light Electron Blaster
     published: true
     volume: 5.0
@@ -4295,6 +4422,7 @@ items:
     TypeColorScheme: 11328
     id: 15827
     marketGroup: 561
+    mass: 500.0
     name: Federation Navy Light Ion Blaster
     published: true
     volume: 5.0
@@ -4329,6 +4457,7 @@ items:
     TypeColorScheme: 11328
     id: 15826
     marketGroup: 561
+    mass: 500.0
     name: Federation Navy Light Neutron Blaster
     published: true
     volume: 5.0
@@ -4363,6 +4492,7 @@ items:
     TypeColorScheme: 11328
     id: 15825
     marketGroup: 563
+    mass: 2000.0
     name: Federation Navy Neutron Blaster Cannon
     published: true
     volume: 20.0
@@ -4395,6 +4525,7 @@ items:
     TypeColorScheme: 11331
     id: 566
     marketGroup: 562
+    mass: 2000.0
     name: Heavy Electron Blaster I
     published: true
     volume: 10.0
@@ -4431,6 +4562,7 @@ items:
     TypeColorScheme: 11332
     id: 3130
     marketGroup: 562
+    mass: 2000.0
     name: Heavy Electron Blaster II
     published: true
     volume: 10.0
@@ -4463,6 +4595,7 @@ items:
     TypeColorScheme: 11331
     id: 569
     marketGroup: 562
+    mass: 1000.0
     name: Heavy Ion Blaster I
     published: true
     volume: 10.0
@@ -4499,6 +4632,7 @@ items:
     TypeColorScheme: 11331
     id: 3138
     marketGroup: 562
+    mass: 1000.0
     name: Heavy Ion Blaster II
     published: true
     volume: 10.0
@@ -4531,6 +4665,7 @@ items:
     TypeColorScheme: 11331
     id: 568
     marketGroup: 562
+    mass: 1000.0
     name: Heavy Neutron Blaster I
     published: true
     volume: 25.0
@@ -4567,6 +4702,7 @@ items:
     TypeColorScheme: 11332
     id: 3146
     marketGroup: 562
+    mass: 1000.0
     name: Heavy Neutron Blaster II
     published: true
     volume: 10.0
@@ -4599,6 +4735,7 @@ items:
     TypeColorScheme: 11331
     id: 575
     marketGroup: 563
+    mass: 2000.0
     name: Ion Blaster Cannon I
     published: true
     volume: 50.0
@@ -4635,6 +4772,7 @@ items:
     TypeColorScheme: 11332
     id: 3154
     marketGroup: 563
+    mass: 2000.0
     name: Ion Blaster Cannon II
     published: true
     volume: 20.0
@@ -4667,6 +4805,7 @@ items:
     TypeColorScheme: 11331
     id: 20450
     marketGroup: 771
+    mass: 40000.0
     name: Ion Siege Blaster I
     published: true
     volume: 4000.0
@@ -4703,6 +4842,7 @@ items:
     TypeColorScheme: 11331
     id: 37302
     marketGroup: 771
+    mass: 40000.0
     name: Ion Siege Blaster II
     published: true
     volume: 4000.0
@@ -4737,6 +4877,7 @@ items:
     TypeColorScheme: 11322
     id: 14391
     marketGroup: 566
+    mass: 2000.0
     name: Kaikka's Modified 350mm Railgun
     published: true
     volume: 20.0
@@ -4771,6 +4912,7 @@ items:
     TypeColorScheme: 11322
     id: 14401
     marketGroup: 566
+    mass: 2000.0
     name: Kaikka's Modified 425mm Railgun
     published: true
     volume: 20.0
@@ -4805,6 +4947,7 @@ items:
     TypeColorScheme: 11322
     id: 14411
     marketGroup: 566
+    mass: 2000.0
     name: Kaikka's Modified Dual 250mm Railgun
     published: true
     volume: 20.0
@@ -4837,6 +4980,7 @@ items:
     TypeColorScheme: 11331
     id: 562
     marketGroup: 561
+    mass: 500.0
     name: Light Electron Blaster I
     published: true
     volume: 5.0
@@ -4873,6 +5017,7 @@ items:
     TypeColorScheme: 11332
     id: 3162
     marketGroup: 561
+    mass: 500.0
     name: Light Electron Blaster II
     published: true
     volume: 5.0
@@ -4905,6 +5050,7 @@ items:
     TypeColorScheme: 11331
     id: 563
     marketGroup: 561
+    mass: 500.0
     name: Light Ion Blaster I
     published: true
     volume: 5.0
@@ -4941,6 +5087,7 @@ items:
     TypeColorScheme: 11332
     id: 3170
     marketGroup: 561
+    mass: 500.0
     name: Light Ion Blaster II
     published: true
     volume: 5.0
@@ -4973,6 +5120,7 @@ items:
     TypeColorScheme: 11331
     id: 564
     marketGroup: 561
+    mass: 500.0
     name: Light Neutron Blaster I
     published: true
     volume: 5.0
@@ -5009,6 +5157,7 @@ items:
     TypeColorScheme: 11332
     id: 3178
     marketGroup: 561
+    mass: 500.0
     name: Light Neutron Blaster II
     published: true
     volume: 5.0
@@ -5042,6 +5191,7 @@ items:
     TypeColorScheme: 11331
     id: 7745
     marketGroup: 563
+    mass: 2000.0
     name: Limited Electron Blaster Cannon I
     published: true
     volume: 20.0
@@ -5075,6 +5225,7 @@ items:
     TypeColorScheme: 11331
     id: 7621
     marketGroup: 562
+    mass: 1000.0
     name: Limited Electron Blaster I
     published: true
     volume: 10.0
@@ -5108,6 +5259,7 @@ items:
     TypeColorScheme: 11331
     id: 7665
     marketGroup: 562
+    mass: 1000.0
     name: Limited Ion Blaster I
     published: true
     volume: 10.0
@@ -5141,6 +5293,7 @@ items:
     TypeColorScheme: 11331
     id: 7489
     marketGroup: 561
+    mass: 500.0
     name: Limited Light Electron Blaster I
     published: true
     volume: 5.0
@@ -5174,6 +5327,7 @@ items:
     TypeColorScheme: 11331
     id: 7537
     marketGroup: 561
+    mass: 500.0
     name: Limited Light Ion Blaster I
     published: true
     volume: 5.0
@@ -5207,6 +5361,7 @@ items:
     TypeColorScheme: 11331
     id: 7581
     marketGroup: 561
+    mass: 500.0
     name: Limited Light Neutron Blaster I
     published: true
     volume: 5.0
@@ -5240,6 +5395,7 @@ items:
     TypeColorScheme: 11331
     id: 7829
     marketGroup: 563
+    mass: 2000.0
     name: Limited Mega Ion Blaster I
     published: true
     volume: 20.0
@@ -5273,6 +5429,7 @@ items:
     TypeColorScheme: 11331
     id: 7785
     marketGroup: 563
+    mass: 2000.0
     name: Limited Mega Neutron Blaster I
     published: true
     volume: 20.0
@@ -5306,6 +5463,7 @@ items:
     TypeColorScheme: 11331
     id: 7705
     marketGroup: 562
+    mass: 1000.0
     name: Limited Neutron Blaster I
     published: true
     volume: 10.0
@@ -5339,6 +5497,7 @@ items:
     TypeColorScheme: 11331
     id: 41129
     marketGroup: 771
+    mass: 40000.0
     name: Limited Precise Ion Siege Blaster
     published: true
     volume: 4000.0
@@ -5372,6 +5531,7 @@ items:
     TypeColorScheme: 11331
     id: 41078
     marketGroup: 771
+    mass: 40000.0
     name: Limited Precise Triple Neutron Blaster Cannon
     published: true
     volume: 4000.0
@@ -5405,6 +5565,7 @@ items:
     TypeColorScheme: 11331
     id: 7619
     marketGroup: 562
+    mass: 1000.0
     name: Modal Electron Particle Accelerator I
     published: true
     volume: 10.0
@@ -5438,6 +5599,7 @@ items:
     TypeColorScheme: 11331
     id: 41127
     marketGroup: 771
+    mass: 40000.0
     name: Modal Enduring Ion Siege Blaster
     published: true
     volume: 4000.0
@@ -5471,6 +5633,7 @@ items:
     TypeColorScheme: 11331
     id: 41076
     marketGroup: 771
+    mass: 40000.0
     name: Modal Enduring Triple Neutron Blaster Cannon
     published: true
     volume: 4000.0
@@ -5504,6 +5667,7 @@ items:
     TypeColorScheme: 11331
     id: 7663
     marketGroup: 562
+    mass: 1000.0
     name: Modal Ion Particle Accelerator I
     published: true
     volume: 10.0
@@ -5537,6 +5701,7 @@ items:
     TypeColorScheme: 11331
     id: 7487
     marketGroup: 561
+    mass: 500.0
     name: Modal Light Electron Particle Accelerator I
     published: true
     volume: 5.0
@@ -5570,6 +5735,7 @@ items:
     TypeColorScheme: 11331
     id: 7535
     marketGroup: 561
+    mass: 500.0
     name: Modal Light Ion Particle Accelerator I
     published: true
     volume: 5.0
@@ -5603,6 +5769,7 @@ items:
     TypeColorScheme: 11331
     id: 7579
     marketGroup: 561
+    mass: 500.0
     name: Modal Light Neutron Particle Accelerator I
     published: true
     volume: 5.0
@@ -5636,6 +5803,7 @@ items:
     TypeColorScheme: 11331
     id: 7743
     marketGroup: 563
+    mass: 2000.0
     name: Modal Mega Electron Particle Accelerator I
     published: true
     volume: 20.0
@@ -5669,6 +5837,7 @@ items:
     TypeColorScheme: 11331
     id: 7827
     marketGroup: 563
+    mass: 2000.0
     name: Modal Mega Ion Particle Accelerator I
     published: true
     volume: 20.0
@@ -5702,6 +5871,7 @@ items:
     TypeColorScheme: 11331
     id: 7783
     marketGroup: 563
+    mass: 2000.0
     name: Modal Mega Neutron Particle Accelerator I
     published: true
     volume: 20.0
@@ -5735,6 +5905,7 @@ items:
     TypeColorScheme: 11331
     id: 7703
     marketGroup: 562
+    mass: 1000.0
     name: Modal Neutron Particle Accelerator I
     published: true
     volume: 10.0
@@ -5767,6 +5938,7 @@ items:
     TypeColorScheme: 11323
     id: 573
     marketGroup: 563
+    mass: 2000.0
     name: Neutron Blaster Cannon I
     published: true
     volume: 50.0
@@ -5803,6 +5975,7 @@ items:
     TypeColorScheme: 11332
     id: 3186
     marketGroup: 563
+    mass: 2000.0
     name: Neutron Blaster Cannon II
     published: true
     volume: 20.0
@@ -5841,6 +6014,7 @@ items:
     TypeColorScheme: 11461
     id: 34280
     marketGroup: 562
+    mass: 1000.0
     name: Polarized Heavy Neutron Blaster
     published: true
     volume: 10.0
@@ -5879,6 +6053,7 @@ items:
     TypeColorScheme: 11461
     id: 34278
     marketGroup: 561
+    mass: 500.0
     name: Polarized Light Neutron Blaster
     published: true
     volume: 5.0
@@ -5917,6 +6092,7 @@ items:
     TypeColorScheme: 11461
     id: 34282
     marketGroup: 563
+    mass: 2000.0
     name: Polarized Neutron Blaster Cannon
     published: true
     volume: 20.0
@@ -5950,6 +6126,7 @@ items:
     TypeColorScheme: 11324
     id: 41141
     marketGroup: 772
+    mass: 40000.0
     name: Prototype Precise Dual 1000mm Railgun
     published: true
     volume: 4000.0
@@ -5983,6 +6160,7 @@ items:
     TypeColorScheme: 11331
     id: 41126
     marketGroup: 771
+    mass: 40000.0
     name: Regulated Compact Ion Siege Blaster
     published: true
     volume: 4000.0
@@ -6016,6 +6194,7 @@ items:
     TypeColorScheme: 11331
     id: 37301
     marketGroup: 771
+    mass: 40000.0
     name: Regulated Compact Triple Neutron Blaster Cannon
     published: true
     volume: 4000.0
@@ -6049,6 +6228,7 @@ items:
     TypeColorScheme: 11331
     id: 7623
     marketGroup: 562
+    mass: 1000.0
     name: Regulated Electron Phase Cannon I
     published: true
     volume: 10.0
@@ -6082,6 +6262,7 @@ items:
     TypeColorScheme: 11331
     id: 7667
     marketGroup: 562
+    mass: 1000.0
     name: Regulated Ion Phase Cannon I
     published: true
     volume: 10.0
@@ -6115,6 +6296,7 @@ items:
     TypeColorScheme: 11331
     id: 7491
     marketGroup: 561
+    mass: 500.0
     name: Regulated Light Electron Phase Cannon I
     published: true
     volume: 5.0
@@ -6148,6 +6330,7 @@ items:
     TypeColorScheme: 11331
     id: 7539
     marketGroup: 561
+    mass: 500.0
     name: Regulated Light Ion Phase Cannon I
     published: true
     volume: 5.0
@@ -6181,6 +6364,7 @@ items:
     TypeColorScheme: 11331
     id: 7583
     marketGroup: 561
+    mass: 500.0
     name: Regulated Light Neutron Phase Cannon I
     published: true
     volume: 5.0
@@ -6214,6 +6398,7 @@ items:
     TypeColorScheme: 11331
     id: 7747
     marketGroup: 563
+    mass: 2000.0
     name: Regulated Mega Electron Phase Cannon I
     published: true
     volume: 20.0
@@ -6247,6 +6432,7 @@ items:
     TypeColorScheme: 11331
     id: 7831
     marketGroup: 563
+    mass: 2000.0
     name: Regulated Mega Ion Phase Cannon I
     published: true
     volume: 20.0
@@ -6280,6 +6466,7 @@ items:
     TypeColorScheme: 11331
     id: 7787
     marketGroup: 563
+    mass: 1000.0
     name: Regulated Mega Neutron Phase Cannon I
     published: true
     volume: 20.0
@@ -6313,6 +6500,7 @@ items:
     TypeColorScheme: 11331
     id: 7707
     marketGroup: 562
+    mass: 1000.0
     name: Regulated Neutron Phase Cannon I
     published: true
     volume: 10.0
@@ -6346,6 +6534,7 @@ items:
     TypeColorScheme: 11324
     id: 41140
     marketGroup: 772
+    mass: 40000.0
     name: Scout Scoped Dual 1000mm Railgun
     published: true
     volume: 4000.0
@@ -6380,6 +6569,7 @@ items:
     TypeColorScheme: 11322
     id: 14389
     marketGroup: 566
+    mass: 2000.0
     name: Setele's Modified 350mm Railgun
     published: true
     volume: 20.0
@@ -6414,6 +6604,7 @@ items:
     TypeColorScheme: 11322
     id: 14399
     marketGroup: 566
+    mass: 2000.0
     name: Setele's Modified 425mm Railgun
     published: true
     volume: 20.0
@@ -6448,6 +6639,7 @@ items:
     TypeColorScheme: 11322
     id: 14409
     marketGroup: 566
+    mass: 2000.0
     name: Setele's Modified Dual 250mm Railgun
     published: true
     volume: 20.0
@@ -6482,6 +6674,7 @@ items:
     TypeColorScheme: 11351
     id: 13864
     marketGroup: 564
+    mass: 500.0
     name: Shadow Serpentis 125mm Railgun
     published: true
     volume: 5.0
@@ -6516,6 +6709,7 @@ items:
     TypeColorScheme: 11351
     id: 13866
     marketGroup: 564
+    mass: 500.0
     name: Shadow Serpentis 150mm Railgun
     published: true
     volume: 5.0
@@ -6550,6 +6744,7 @@ items:
     TypeColorScheme: 11351
     id: 13868
     marketGroup: 565
+    mass: 1000.0
     name: Shadow Serpentis 200mm Railgun
     published: true
     volume: 10.0
@@ -6584,6 +6779,7 @@ items:
     TypeColorScheme: 11351
     id: 13872
     marketGroup: 565
+    mass: 1000.0
     name: Shadow Serpentis 250mm Railgun
     published: true
     volume: 10.0
@@ -6618,6 +6814,7 @@ items:
     TypeColorScheme: 11351
     id: 13874
     marketGroup: 566
+    mass: 2000.0
     name: Shadow Serpentis 350mm Railgun
     published: true
     volume: 20.0
@@ -6652,6 +6849,7 @@ items:
     TypeColorScheme: 11351
     id: 13878
     marketGroup: 566
+    mass: 2000.0
     name: Shadow Serpentis 425mm Railgun
     published: true
     volume: 20.0
@@ -6686,6 +6884,7 @@ items:
     TypeColorScheme: 11351
     id: 13894
     marketGroup: 564
+    mass: 500.0
     name: Shadow Serpentis 75mm Railgun
     published: true
     volume: 5.0
@@ -6721,6 +6920,7 @@ items:
     TypeColorScheme: 11324
     id: 41142
     marketGroup: 772
+    mass: 40000.0
     name: Shadow Serpentis Dual 1000mm Railgun
     published: true
     volume: 4000.0
@@ -6755,6 +6955,7 @@ items:
     TypeColorScheme: 11351
     id: 13880
     marketGroup: 565
+    mass: 1000.0
     name: Shadow Serpentis Dual 150mm Railgun
     published: true
     volume: 10.0
@@ -6789,6 +6990,7 @@ items:
     TypeColorScheme: 11351
     id: 13882
     marketGroup: 566
+    mass: 2000.0
     name: Shadow Serpentis Dual 250mm Railgun
     published: true
     volume: 20.0
@@ -6823,6 +7025,7 @@ items:
     TypeColorScheme: 11351
     id: 13889
     marketGroup: 563
+    mass: 2000.0
     name: Shadow Serpentis Electron Blaster Cannon
     published: true
     volume: 20.0
@@ -6857,6 +7060,7 @@ items:
     TypeColorScheme: 11351
     id: 13884
     marketGroup: 562
+    mass: 1000.0
     name: Shadow Serpentis Heavy Electron Blaster
     published: true
     volume: 10.0
@@ -6891,6 +7095,7 @@ items:
     TypeColorScheme: 11351
     id: 13885
     marketGroup: 562
+    mass: 1000.0
     name: Shadow Serpentis Heavy Ion Blaster
     published: true
     volume: 10.0
@@ -6925,6 +7130,7 @@ items:
     TypeColorScheme: 11351
     id: 13892
     marketGroup: 562
+    mass: 1000.0
     name: Shadow Serpentis Heavy Neutron Blaster
     published: true
     volume: 10.0
@@ -6959,6 +7165,7 @@ items:
     TypeColorScheme: 11351
     id: 13890
     marketGroup: 563
+    mass: 2000.0
     name: Shadow Serpentis Ion Blaster Cannon
     published: true
     volume: 20.0
@@ -6994,6 +7201,7 @@ items:
     TypeColorScheme: 11331
     id: 41130
     marketGroup: 771
+    mass: 40000.0
     name: Shadow Serpentis Ion Siege Blaster
     published: true
     volume: 4000.0
@@ -7028,6 +7236,7 @@ items:
     TypeColorScheme: 11351
     id: 13886
     marketGroup: 561
+    mass: 500.0
     name: Shadow Serpentis Light Electron Blaster
     published: true
     volume: 5.0
@@ -7062,6 +7271,7 @@ items:
     TypeColorScheme: 11351
     id: 13887
     marketGroup: 561
+    mass: 500.0
     name: Shadow Serpentis Light Ion Blaster
     published: true
     volume: 5.0
@@ -7096,6 +7306,7 @@ items:
     TypeColorScheme: 11351
     id: 13888
     marketGroup: 561
+    mass: 500.0
     name: Shadow Serpentis Light Neutron Blaster
     published: true
     volume: 5.0
@@ -7130,6 +7341,7 @@ items:
     TypeColorScheme: 11351
     id: 13891
     marketGroup: 563
+    mass: 2000.0
     name: Shadow Serpentis Neutron Blaster Cannon
     published: true
     volume: 20.0
@@ -7165,6 +7377,7 @@ items:
     TypeColorScheme: 11331
     id: 41079
     marketGroup: 771
+    mass: 40000.0
     name: Shadow Serpentis Triple Neutron Blaster Cannon
     published: true
     volume: 4000.0
@@ -7197,6 +7410,7 @@ items:
     TypeColorScheme: 11331
     id: 37291
     marketGroup: 771
+    mass: 40000.0
     name: Triple Neutron Blaster Cannon I
     published: true
     volume: 4000.0
@@ -7233,6 +7447,7 @@ items:
     TypeColorScheme: 11331
     id: 37300
     marketGroup: 771
+    mass: 40000.0
     name: Triple Neutron Blaster Cannon II
     published: true
     volume: 4000.0
@@ -7267,6 +7482,7 @@ items:
     TypeColorScheme: 11322
     id: 14375
     marketGroup: 563
+    mass: 2000.0
     name: Tuvan's Modified Electron Blaster Cannon
     published: true
     volume: 20.0
@@ -7301,6 +7517,7 @@ items:
     TypeColorScheme: 11322
     id: 14381
     marketGroup: 563
+    mass: 2000.0
     name: Tuvan's Modified Ion Blaster Cannon
     published: true
     volume: 20.0
@@ -7335,6 +7552,7 @@ items:
     TypeColorScheme: 11322
     id: 14383
     marketGroup: 563
+    mass: 2000.0
     name: Tuvan's Modified Neutron Blaster Cannon
     published: true
     volume: 20.0
@@ -7369,6 +7587,7 @@ items:
     TypeColorScheme: 11322
     id: 14393
     marketGroup: 566
+    mass: 2000.0
     name: Vepas' Modified 350mm Railgun
     published: true
     volume: 20.0
@@ -7403,6 +7622,7 @@ items:
     TypeColorScheme: 11322
     id: 14403
     marketGroup: 566
+    mass: 2000.0
     name: Vepas' Modified 425mm Railgun
     published: true
     volume: 20.0
@@ -7437,6 +7657,7 @@ items:
     TypeColorScheme: 11322
     id: 14413
     marketGroup: 566
+    mass: 2000.0
     name: Vepas' Modified Dual 250mm Railgun
     published: true
     volume: 20.0

@@ -6,6 +6,7 @@ items:
     InventionTEModifier: 1.0
     id: 21572
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Data Crystals
     published: true
     volume: 1.0
@@ -16,6 +17,7 @@ items:
     InventionTEModifier: 1.0
     id: 21568
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Data Interface Protocol
     published: true
     volume: 1.0
@@ -26,6 +28,7 @@ items:
     InventionTEModifier: 0.800000011920929
     id: 21570
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Manuscripts
     published: true
     volume: 1.0
@@ -36,6 +39,7 @@ items:
     InventionTEModifier: 2.0
     id: 21569
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Profound Research Notes
     published: true
     volume: 1.0
@@ -46,6 +50,7 @@ items:
     InventionTEModifier: 0.4000000059604645
     id: 21571
     marketGroup: 1902
+    mass: 1.0
     name: Sleeper Technical Schematics
     published: true
     volume: 1.0

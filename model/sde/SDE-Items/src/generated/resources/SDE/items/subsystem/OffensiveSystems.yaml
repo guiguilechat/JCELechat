@@ -20,6 +20,7 @@ items:
     WarfareLinkCPUPenalty: 10000
     id: 45599
     marketGroup: 1130
+    mass: 800000.0
     name: Legion Offensive - Assault Optimization
     published: true
     volume: 40.0
@@ -43,6 +44,7 @@ items:
     WarfareLinkCPUPenalty: 10000
     id: 45598
     marketGroup: 1130
+    mass: 800000.0
     name: Legion Offensive - Liquid Crystal Magnifiers
     published: true
     volume: 40.0
@@ -70,6 +72,7 @@ items:
     TurretHardPointModifier: 4
     id: 45600
     marketGroup: 1130
+    mass: 800000.0
     name: Legion Offensive - Support Processor
     published: true
     volume: 40.0
@@ -95,6 +98,7 @@ items:
     WarfareLinkCPUPenalty: 10000
     id: 45608
     marketGroup: 1133
+    mass: 800000.0
     name: Loki Offensive - Launcher Efficiency Configuration
     published: true
     volume: 40.0
@@ -120,6 +124,7 @@ items:
     WarfareLinkCPUPenalty: 10000
     id: 45607
     marketGroup: 1133
+    mass: 800000.0
     name: Loki Offensive - Projectile Scoping Array
     published: true
     volume: 40.0
@@ -149,6 +154,7 @@ items:
     TurretHardPointModifier: 4
     id: 45609
     marketGroup: 1133
+    mass: 800000.0
     name: Loki Offensive - Support Processor
     published: true
     volume: 40.0
@@ -173,6 +179,7 @@ items:
     WarfareLinkCPUPenalty: 10000
     id: 45605
     marketGroup: 1132
+    mass: 800000.0
     name: Proteus Offensive - Drone Synthesis Projector
     published: true
     volume: 40.0
@@ -198,6 +205,7 @@ items:
     WarfareLinkCPUPenalty: 10000
     id: 45604
     marketGroup: 1132
+    mass: 800000.0
     name: Proteus Offensive - Hybrid Encoding Platform
     published: true
     volume: 40.0
@@ -225,6 +233,7 @@ items:
     TurretHardPointModifier: 4
     id: 45606
     marketGroup: 1132
+    mass: 800000.0
     name: Proteus Offensive - Support Processor
     published: true
     volume: 40.0
@@ -247,6 +256,7 @@ items:
     WarfareLinkCPUPenalty: 10000
     id: 45601
     marketGroup: 1131
+    mass: 800000.0
     name: Tengu Offensive - Accelerated Ejection Bay
     published: true
     volume: 40.0
@@ -269,6 +279,7 @@ items:
     WarfareLinkCPUPenalty: 10000
     id: 45602
     marketGroup: 1131
+    mass: 800000.0
     name: Tengu Offensive - Magnetic Infusion Basin
     published: true
     volume: 40.0
@@ -295,6 +306,7 @@ items:
     TechLevel: 3
     id: 45603
     marketGroup: 1131
+    mass: 800000.0
     name: Tengu Offensive - Support Processor
     published: true
     volume: 40.0

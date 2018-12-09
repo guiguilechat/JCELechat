@@ -32,6 +32,7 @@ items:
     ThermalDamage: 1000000.0
     id: 24554
     marketGroup: 2269
+    mass: 100.0
     name: '''Aurora Ominae'' Thermal Doomsday'
     published: true
     volume: 8000.0
@@ -68,6 +69,7 @@ items:
     TechLevel: 1
     id: 23674
     marketGroup: 2270
+    mass: 100.0
     name: '''Gjallarhorn'' Explosive Doomsday'
     published: true
     volume: 8000.0
@@ -103,6 +105,7 @@ items:
     TechLevel: 1
     id: 24550
     marketGroup: 2267
+    mass: 100.0
     name: '''Judgment'' Electromagnetic Doomsday'
     published: true
     volume: 8000.0
@@ -138,6 +141,7 @@ items:
     TechLevel: 1
     id: 24552
     marketGroup: 2268
+    mass: 100.0
     name: '''Oblivion'' Kinetic Doomsday'
     published: true
     volume: 8000.0
@@ -186,6 +190,7 @@ items:
     ThermalDamage: 10000.0
     id: 40633
     marketGroup: 2276
+    mass: 100.0
     name: Bosonic Field Generator
     published: true
     volume: 8000.0
@@ -227,6 +232,7 @@ items:
     TechLevel: 1
     id: 40634
     marketGroup: 2276
+    mass: 100.0
     name: Gravitational Transportation Field Oscillator
     published: true
     volume: 8000.0
@@ -300,6 +306,7 @@ items:
     TechLevel: 1
     id: 41442
     marketGroup: 2268
+    mass: 100.0
     name: ‘Cold Wind’ Kinetic Reaper
     published: true
     volume: 8000.0
@@ -347,6 +354,7 @@ items:
     TechLevel: 1
     id: 40632
     marketGroup: 2267
+    mass: 100.0
     name: ‘Divine Harvest’ Electromagnetic Reaper
     published: true
     volume: 8000.0
@@ -395,6 +403,7 @@ items:
     TechLevel: 1
     id: 41441
     marketGroup: 2270
+    mass: 100.0
     name: ‘Geiravor’ Explosive Lance
     published: true
     volume: 8000.0
@@ -443,6 +452,7 @@ items:
     ThermalDamage: 100000.0
     id: 41443
     marketGroup: 2269
+    mass: 100.0
     name: ‘Guillotine’ Thermal Reaper
     published: true
     volume: 8000.0
@@ -490,6 +500,7 @@ items:
     TechLevel: 1
     id: 40631
     marketGroup: 2267
+    mass: 100.0
     name: ‘Holy Destiny’ Electromagnetic Lance
     published: true
     volume: 8000.0
@@ -537,6 +548,7 @@ items:
     TechLevel: 1
     id: 41439
     marketGroup: 2268
+    mass: 100.0
     name: ‘Iron Pike’ Kinetic Lance
     published: true
     volume: 8000.0
@@ -585,6 +597,7 @@ items:
     TechLevel: 1
     id: 41444
     marketGroup: 2270
+    mass: 100.0
     name: ‘Jormungandr’ Explosive Reaper
     published: true
     volume: 8000.0
@@ -633,6 +646,7 @@ items:
     ThermalDamage: 50000.0
     id: 41440
     marketGroup: 2269
+    mass: 100.0
     name: ‘Phalarica’ Thermal Lance
     published: true
     volume: 8000.0

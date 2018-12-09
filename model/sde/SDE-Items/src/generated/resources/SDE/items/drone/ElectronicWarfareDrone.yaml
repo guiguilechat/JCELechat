@@ -55,6 +55,7 @@ items:
     Uniformity: 0.75
     id: 23727
     marketGroup: 841
+    mass: 3000.0
     name: Acolyte TD-300
     published: true
     volume: 5.0
@@ -112,6 +113,7 @@ items:
     Uniformity: 0.75
     id: 23512
     marketGroup: 841
+    mass: 3000.0
     name: Berserker TP-900
     published: true
     volume: 25.0
@@ -170,6 +172,7 @@ items:
     Uniformity: 0.75
     id: 23713
     marketGroup: 841
+    mass: 3000.0
     name: Hammerhead SD-600
     published: true
     volume: 10.0
@@ -228,6 +231,7 @@ items:
     Uniformity: 0.75
     id: 23715
     marketGroup: 841
+    mass: 3000.0
     name: Hobgoblin SD-300
     published: true
     volume: 5.0
@@ -286,6 +290,7 @@ items:
     Uniformity: 0.75
     id: 23707
     marketGroup: 841
+    mass: 3000.0
     name: Hornet EC-300
     published: true
     volume: 5.0
@@ -345,6 +350,7 @@ items:
     Uniformity: 0.75
     id: 23725
     marketGroup: 841
+    mass: 3000.0
     name: Infiltrator TD-600
     published: true
     volume: 10.0
@@ -403,6 +409,7 @@ items:
     Uniformity: 0.75
     id: 23506
     marketGroup: 841
+    mass: 3000.0
     name: Ogre SD-900
     published: true
     volume: 25.0
@@ -462,6 +469,7 @@ items:
     Uniformity: 0.75
     id: 23510
     marketGroup: 841
+    mass: 3000.0
     name: Praetor TD-900
     published: true
     volume: 25.0
@@ -519,6 +527,7 @@ items:
     Uniformity: 0.75
     id: 23721
     marketGroup: 841
+    mass: 3000.0
     name: Valkyrie TP-600
     published: true
     volume: 10.0
@@ -579,6 +588,7 @@ items:
     Uniformity: 0.75
     id: 23705
     marketGroup: 841
+    mass: 3000.0
     name: Vespa EC-600
     published: true
     volume: 10.0
@@ -636,6 +646,7 @@ items:
     Uniformity: 0.75
     id: 23723
     marketGroup: 841
+    mass: 3000.0
     name: Warrior TP-300
     published: true
     volume: 5.0
@@ -696,6 +707,7 @@ items:
     Uniformity: 0.75
     id: 23473
     marketGroup: 841
+    mass: 3000.0
     name: Wasp EC-900
     published: true
     volume: 25.0

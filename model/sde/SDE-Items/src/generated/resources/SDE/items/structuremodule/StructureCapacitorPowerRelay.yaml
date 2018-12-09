@@ -8,6 +8,7 @@ items:
     TechLevel: 1
     id: 47356
     marketGroup: 2220
+    mass: 500.0
     name: Standup Capacitor Power Relay I
     published: true
     volume: 4000.0
@@ -21,6 +22,7 @@ items:
     TechLevel: 2
     id: 47358
     marketGroup: 2220
+    mass: 500.0
     name: Standup Capacitor Power Relay II
     published: true
     volume: 4000.0

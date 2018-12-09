@@ -44,6 +44,7 @@ items:
     Uniformity: 1.0
     id: 17180
     marketGroup: 481
+    mass: 1.0E8
     name: Sensor Dampening Battery
     published: true
     volume: 4000.0
@@ -93,6 +94,7 @@ items:
     Uniformity: 1.0
     id: 27778
     marketGroup: 481
+    mass: 1.0E8
     name: Serpentis Sensor Dampening Battery
     published: true
     volume: 4000.0
@@ -142,6 +144,7 @@ items:
     Uniformity: 1.0
     id: 27779
     marketGroup: 481
+    mass: 1.0E8
     name: Shadow Sensor Dampening Battery
     published: true
     volume: 4000.0

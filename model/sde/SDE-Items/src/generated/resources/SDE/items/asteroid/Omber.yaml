@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28415
     marketGroup: 526
+    mass: 1.0E35
     name: Compressed Golden Omber
     published: true
     volume: 0.3
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28416
     marketGroup: 526
+    mass: 1.0E35
     name: Compressed Omber
     published: true
     volume: 0.3
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46700
     marketGroup: 526
+    mass: 1.0
     name: Compressed Platinoid Omber
     published: true
     volume: 0.3
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28417
     marketGroup: 526
+    mass: 1.0E35
     name: Compressed Silvery Omber
     published: true
     volume: 0.3
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17868
     marketGroup: 526
+    mass: 1.0E35
     name: Golden Omber
     published: true
     volume: 0.6
@@ -80,6 +85,7 @@ items:
     RequiredSkill1: 3386
     StasisWebifierResistance: 1.0
     id: 28619
+    mass: 1.0E35
     name: Mercium
     published: true
     volume: 0.6
@@ -96,6 +102,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 1227
     marketGroup: 526
+    mass: 1.0E35
     name: Omber
     published: true
     volume: 0.6
@@ -112,6 +119,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46684
     marketGroup: 526
+    mass: 1.0E35
     name: Platinoid Omber
     published: true
     volume: 0.6
@@ -128,6 +136,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17867
     marketGroup: 526
+    mass: 1.0E35
     name: Silvery Omber
     published: true
     volume: 0.6

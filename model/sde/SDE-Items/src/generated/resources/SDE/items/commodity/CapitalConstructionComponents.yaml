@@ -3,6 +3,7 @@ items:
     MoonMiningAmount: 100
     id: 21017
     marketGroup: 781
+    mass: 10000.0
     name: Capital Armor Plates
     published: true
     volume: 10000.0
@@ -10,6 +11,7 @@ items:
     MoonMiningAmount: 100
     id: 21019
     marketGroup: 781
+    mass: 10000.0
     name: Capital Capacitor Battery
     published: true
     volume: 10000.0
@@ -17,6 +19,7 @@ items:
     MoonMiningAmount: 100
     id: 21027
     marketGroup: 781
+    mass: 10000.0
     name: Capital Cargo Bay
     published: true
     volume: 10000.0
@@ -24,6 +27,7 @@ items:
     MoonMiningAmount: 100
     id: 24547
     marketGroup: 781
+    mass: 10000.0
     name: Capital Clone Vat Bay
     published: true
     volume: 10000.0
@@ -31,6 +35,7 @@ items:
     MoonMiningAmount: 100
     id: 21035
     marketGroup: 781
+    mass: 10000.0
     name: Capital Computer System
     published: true
     volume: 10000.0
@@ -38,6 +43,7 @@ items:
     MoonMiningAmount: 100
     id: 21037
     marketGroup: 781
+    mass: 10000.0
     name: Capital Construction Parts
     published: true
     volume: 10000.0
@@ -45,6 +51,7 @@ items:
     MoonMiningAmount: 100
     id: 24560
     marketGroup: 781
+    mass: 10000.0
     name: Capital Corporate Hangar Bay
     published: true
     volume: 10000.0
@@ -52,6 +59,7 @@ items:
     MoonMiningAmount: 100
     id: 24556
     marketGroup: 781
+    mass: 10000.0
     name: Capital Doomsday Weapon Mount
     published: true
     volume: 10000.0
@@ -59,6 +67,7 @@ items:
     MoonMiningAmount: 100
     id: 21029
     marketGroup: 781
+    mass: 10000.0
     name: Capital Drone Bay
     published: true
     volume: 10000.0
@@ -66,6 +75,7 @@ items:
     MoonMiningAmount: 100
     id: 24545
     marketGroup: 781
+    mass: 10000.0
     name: Capital Jump Bridge Array
     published: true
     volume: 10000.0
@@ -73,6 +83,7 @@ items:
     MoonMiningAmount: 100
     id: 21025
     marketGroup: 781
+    mass: 10000.0
     name: Capital Jump Drive
     published: true
     volume: 10000.0
@@ -80,6 +91,7 @@ items:
     MoonMiningAmount: 100
     id: 21041
     marketGroup: 781
+    mass: 10000.0
     name: Capital Launcher Hardpoint
     published: true
     volume: 10000.0
@@ -87,6 +99,7 @@ items:
     MoonMiningAmount: 100
     id: 21021
     marketGroup: 781
+    mass: 10000.0
     name: Capital Power Generator
     published: true
     volume: 10000.0
@@ -94,6 +107,7 @@ items:
     MoonMiningAmount: 100
     id: 21009
     marketGroup: 781
+    mass: 10000.0
     name: Capital Propulsion Engine
     published: true
     volume: 10000.0
@@ -101,6 +115,7 @@ items:
     MoonMiningAmount: 100
     id: 21013
     marketGroup: 781
+    mass: 10000.0
     name: Capital Sensor Cluster
     published: true
     volume: 10000.0
@@ -108,6 +123,7 @@ items:
     MoonMiningAmount: 100
     id: 21023
     marketGroup: 781
+    mass: 10000.0
     name: Capital Shield Emitter
     published: true
     volume: 10000.0
@@ -115,6 +131,7 @@ items:
     MoonMiningAmount: 100
     id: 24558
     marketGroup: 781
+    mass: 10000.0
     name: Capital Ship Maintenance Bay
     published: true
     volume: 10000.0
@@ -122,6 +139,7 @@ items:
     MoonMiningAmount: 100
     id: 21039
     marketGroup: 781
+    mass: 10000.0
     name: Capital Siege Array
     published: true
     volume: 10000.0
@@ -129,6 +147,7 @@ items:
     MoonMiningAmount: 100
     id: 21011
     marketGroup: 781
+    mass: 10000.0
     name: Capital Turret Hardpoint
     published: true
     volume: 10000.0

@@ -13,6 +13,7 @@ items:
     TrackingSpeedBonusBonus: -100
     id: 28999
     marketGroup: 1094
+    mass: 1.0
     name: Optimal Range Script
     published: true
     volume: 1.0
@@ -30,6 +31,7 @@ items:
     TrackingSpeedBonusBonus: 100
     id: 29001
     marketGroup: 1094
+    mass: 1.0
     name: Tracking Speed Script
     published: true
     volume: 1.0

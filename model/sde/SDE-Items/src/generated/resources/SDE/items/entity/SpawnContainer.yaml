@@ -1,831 +1,997 @@
 items:
   Abandoned Container:
     id: 10167
+    mass: 10000.0
     name: Abandoned Container
     published: false
     volume: 27500.0
   Abandoned Wreck:
     id: 27308
+    mass: 10000.0
     name: Abandoned Wreck
     published: false
     volume: 27500.0
   Amarr Academy Office:
     id: 3629
+    mass: 10000.0
     name: Amarr Academy Office
     published: false
     volume: 27500.0
   Amarr Avatar Titan:
     id: 42862
+    mass: 100000.0
     name: Amarr Avatar Titan
     published: false
     volume: 1.0E8
   Amarr Battleship Wreckage:
     id: 2891
+    mass: 10000.0
     name: Amarr Battleship Wreckage
     published: false
     volume: 27500.0
   Amarr Cargo Rig:
     id: 3845
+    mass: 10000.0
     name: Amarr Cargo Rig
     published: false
     volume: 27500.0
   Amarr Diplomat Quarters:
     id: 2127
+    mass: 100000.0
     name: Amarr Diplomat Quarters
     published: false
     volume: 1.0E8
   Amarr Workers' Quarters:
     id: 22068
+    mass: 100000.0
     name: Amarr Workers' Quarters
     published: false
     volume: 1.0E8
   Amarrian Battleship Wreckage:
     id: 2892
+    mass: 10000.0
     name: Amarrian Battleship Wreckage
     published: false
     volume: 27500.0
   Ammo_Container:
     id: 16720
+    mass: 10000.0
     name: Ammo_Container
     published: false
     volume: 27500.0
   Ancient Starbase Ruins:
     id: 28852
+    mass: 10000.0
     name: Ancient Starbase Ruins
     published: false
     volume: 27500.0
   Ancient Tomb Dig Site:
     id: 30779
+    mass: 10000.0
     name: Ancient Tomb Dig Site
     published: false
     volume: 27500.0
   Angel Derelict:
     id: 26659
+    mass: 10000.0
     name: Angel Derelict
     published: false
     volume: 27500.0
   Angel Hardware Storage:
     id: 22318
+    mass: 10000.0
     name: Angel Hardware Storage
     published: false
     volume: 27500.0
   Angel Hulk:
     id: 26660
+    mass: 10000.0
     name: Angel Hulk
     published: false
     volume: 27500.0
   Angel Network Hub:
     id: 21699
+    mass: 10000.0
     name: Angel Network Hub
     published: false
     volume: 27500.0
   Angel Network Nexus:
     id: 21701
+    mass: 10000.0
     name: Angel Network Nexus
     published: false
     volume: 27500.0
   Angel Network Node:
     id: 21698
+    mass: 10000.0
     name: Angel Network Node
     published: false
     volume: 27500.0
   Angel Network Nucleus:
     id: 21700
+    mass: 10000.0
     name: Angel Network Nucleus
     published: false
     volume: 27500.0
   Angel Officer's Quarters:
     id: 2841
+    mass: 100000.0
     name: Angel Officer's Quarters
     published: false
     volume: 1.0E8
   Angel Ship Debris:
     id: 29740
+    mass: 10000.0
     name: Angel Ship Debris
     published: false
     volume: 27500.0
   Angel Ship Derelict:
     id: 29726
+    mass: 10000.0
     name: Angel Ship Derelict
     published: false
     volume: 27500.0
   Angel Ship Hulk:
     id: 29899
+    mass: 10000.0
     name: Angel Ship Hulk
     published: false
     volume: 27500.0
   Angel Ship Remains:
     id: 29731
+    mass: 10000.0
     name: Angel Ship Remains
     published: false
     volume: 27500.0
   Angel Ship Rubble:
     id: 29716
+    mass: 10000.0
     name: Angel Ship Rubble
     published: false
     volume: 27500.0
   Angel Ship Ruins:
     id: 29894
+    mass: 10000.0
     name: Angel Ship Ruins
     published: false
     volume: 27500.0
   Angel Ship Waste:
     id: 29741
+    mass: 10000.0
     name: Angel Ship Waste
     published: false
     volume: 27500.0
   Angel Ship Wreck:
     id: 29721
+    mass: 10000.0
     name: Angel Ship Wreck
     published: false
     volume: 27500.0
   Angel Stash_Extrava:
     id: 24750
+    mass: 100000.0
     name: Angel Stash_Extrava
     published: false
     volume: 1.0E8
   Angel Waste:
     id: 26657
+    mass: 10000.0
     name: Angel Waste
     published: false
     volume: 27500.0
   Angel Wreck:
     id: 26658
+    mass: 10000.0
     name: Angel Wreck
     published: false
     volume: 27500.0
   Archives:
     id: 32211
+    mass: 10000.0
     name: Archives
     published: false
     volume: 27500.0
   Armor_Container:
     id: 16721
+    mass: 10000.0
     name: Armor_Container
     published: false
     volume: 27500.0
   Army Quarters:
     id: 22755
+    mass: 100000.0
     name: Army Quarters
     published: false
     volume: 1.0E8
   Assembly Station DC105-A:
     id: 32370
+    mass: 100000.0
     name: Assembly Station DC105-A
     published: false
     volume: 1.0E8
   Asteroid Pirate Station:
     id: 2895
+    mass: 10000.0
     name: Asteroid Pirate Station
     published: false
     volume: 27500.0
   Azil's Transport:
     id: 30760
+    mass: 1450000.0
     name: Azil's Transport
     published: false
     volume: 16120.0
   Barbican Alignment Unit 0:
     id: 34525
+    mass: 10000.0
     name: Barbican Alignment Unit 0
     published: false
     volume: 27500.0
   Barbican Alignment Unit 1:
     id: 34526
+    mass: 10000.0
     name: Barbican Alignment Unit 1
     published: false
     volume: 27500.0
   Barbican Alpha Access Unit:
     id: 34509
+    mass: 10000.0
     name: Barbican Alpha Access Unit
     published: false
     volume: 27500.0
   Barbican Beta Access Unit:
     id: 34507
+    mass: 10000.0
     name: Barbican Beta Access Unit
     published: false
     volume: 27500.0
   Barbican Delta Access Unit:
     id: 34508
+    mass: 10000.0
     name: Barbican Delta Access Unit
     published: false
     volume: 27500.0
   Barbican Gamma Access Unit:
     id: 34510
+    mass: 10000.0
     name: Barbican Gamma Access Unit
     published: false
     volume: 27500.0
   Blasted Neon Sign:
     id: 44279
+    mass: 100000.0
     name: Blasted Neon Sign
     published: false
     volume: 1.0E8
   Blood Derelict:
     id: 26664
+    mass: 10000.0
     name: Blood Derelict
     published: false
     volume: 27500.0
   Blood Factory:
     id: 24237
+    mass: 100000.0
     name: Blood Factory
     published: false
     volume: 1.0E8
   Blood Hulk:
     id: 26665
+    mass: 10000.0
     name: Blood Hulk
     published: false
     volume: 27500.0
   Blood Raider Network Hub:
     id: 23213
+    mass: 10000.0
     name: Blood Raider Network Hub
     published: false
     volume: 27500.0
   Blood Raider Network Nexus:
     id: 23215
+    mass: 10000.0
     name: Blood Raider Network Nexus
     published: false
     volume: 27500.0
   Blood Raider Network Node:
     id: 23212
+    mass: 10000.0
     name: Blood Raider Network Node
     published: false
     volume: 27500.0
   Blood Raider Network Nucleus:
     id: 23214
+    mass: 10000.0
     name: Blood Raider Network Nucleus
     published: false
     volume: 27500.0
   Blood Ship Debris:
     id: 29739
+    mass: 10000.0
     name: Blood Ship Debris
     published: false
     volume: 27500.0
   Blood Ship Derelict:
     id: 29727
+    mass: 10000.0
     name: Blood Ship Derelict
     published: false
     volume: 27500.0
   Blood Ship Hulk:
     id: 29900
+    mass: 10000.0
     name: Blood Ship Hulk
     published: false
     volume: 27500.0
   Blood Ship Remains:
     id: 29732
+    mass: 10000.0
     name: Blood Ship Remains
     published: false
     volume: 27500.0
   Blood Ship Rubble:
     id: 29717
+    mass: 10000.0
     name: Blood Ship Rubble
     published: false
     volume: 27500.0
   Blood Ship Ruins:
     id: 29895
+    mass: 10000.0
     name: Blood Ship Ruins
     published: false
     volume: 27500.0
   Blood Ship Waste:
     id: 29742
+    mass: 10000.0
     name: Blood Ship Waste
     published: false
     volume: 27500.0
   Blood Ship Wreck:
     id: 29722
+    mass: 10000.0
     name: Blood Ship Wreck
     published: false
     volume: 27500.0
   Blood Waste:
     id: 26662
+    mass: 10000.0
     name: Blood Waste
     published: false
     volume: 27500.0
   Blood Wreck:
     id: 26663
+    mass: 10000.0
     name: Blood Wreck
     published: false
     volume: 27500.0
   CONCORD MTAC Factory:
     id: 3498
+    mass: 10000.0
     name: CONCORD MTAC Factory
     published: false
     volume: 27500.0
   CPF Habitation Module:
     id: 30969
+    mass: 10000.0
     name: CPF Habitation Module
     published: false
     volume: 27500.0
   Cache Container:
     id: 10263
+    mass: 10000.0
     name: Cache Container
     published: false
     volume: 2750.0
   'Caldari Academy Office  ':
     id: 3792
+    mass: 10000.0
     name: 'Caldari Academy Office  '
     published: false
     volume: 27500.0
   Caldari Cargo Rig:
     id: 3846
+    mass: 10000.0
     name: Caldari Cargo Rig
     published: false
     volume: 27500.0
   Caldari Leviathan Titan:
     id: 42863
+    mass: 100000.0
     name: Caldari Leviathan Titan
     published: false
     volume: 1.0E8
   Caldari Storage Warehouse:
     id: 32406
+    mass: 1000000.0
     name: Caldari Storage Warehouse
     published: false
     volume: 1150.0
   Cargo Container - Ancient Amarrian Relic:
     id: 28859
+    mass: 10000.0
     name: Cargo Container - Ancient Amarrian Relic
     published: false
     volume: 27500.0
   Cargo Container - Broken Mining Equipment:
     id: 29324
+    mass: 10000.0
     name: Cargo Container - Broken Mining Equipment
     published: false
     volume: 27500.0
   Cargo Container - Brutor Tribe Roster:
     id: 28862
+    mass: 10000.0
     name: Cargo Container - Brutor Tribe Roster
     published: false
     volume: 27500.0
   Cargo Container - Dolls:
     id: 29230
+    mass: 10000.0
     name: Cargo Container - Dolls
     published: false
     volume: 27500.0
   Cargo Container - Encoded Data Chip:
     id: 28841
+    mass: 10000.0
     name: Cargo Container - Encoded Data Chip
     published: false
     volume: 27500.0
   Cargo Container - Federation Court Logs:
     id: 28861
+    mass: 10000.0
     name: Cargo Container - Federation Court Logs
     published: false
     volume: 27500.0
   Cargo Container - Ishukone Corporate Records:
     id: 28860
+    mass: 10000.0
     name: Cargo Container - Ishukone Corporate Records
     published: false
     volume: 27500.0
   Cargo Container - Mina Darabi:
     id: 31961
+    mass: 10000.0
     name: Cargo Container - Mina Darabi
     published: false
     volume: 27500.0
   Cargo Container - Physical Samples:
     id: 29445
+    mass: 10000.0
     name: Cargo Container - Physical Samples
     published: false
     volume: 27500.0
   Cargo Container - Tactical Information I:
     id: 29181
+    mass: 10000.0
     name: Cargo Container - Tactical Information I
     published: false
     volume: 27500.0
   Cargo Container - Tactical Information II:
     id: 29182
+    mass: 10000.0
     name: Cargo Container - Tactical Information II
     published: false
     volume: 27500.0
   Cargo Container - Tactical Information III:
     id: 29183
+    mass: 10000.0
     name: Cargo Container - Tactical Information III
     published: false
     volume: 27500.0
   Cargo Container - Tactical Information IV:
     id: 29184
+    mass: 10000.0
     name: Cargo Container - Tactical Information IV
     published: false
     volume: 27500.0
   Cargo Warehouse - Crates of Silicate Glass:
     id: 26977
+    mass: 1000000.0
     name: Cargo Warehouse - Crates of Silicate Glass
     published: false
     volume: 1150.0
   Cargo Warehouse - Crates of Synthetic Oil:
     id: 26975
+    mass: 1000000.0
     name: Cargo Warehouse - Crates of Synthetic Oil
     published: false
     volume: 1150.0
   Cargo Warehouse - Quafe Ultra:
     id: 26978
+    mass: 1000000.0
     name: Cargo Warehouse - Quafe Ultra
     published: false
     volume: 1150.0
   Cargo Warehouse - Spiced Wine:
     id: 26976
+    mass: 1000000.0
     name: Cargo Warehouse - Spiced Wine
     published: false
     volume: 1150.0
   Cartographer's Quarters:
     id: 29532
+    mass: 100000.0
     name: Cartographer's Quarters
     published: false
     volume: 1.0E8
   Cell Block D:
     id: 2918
+    mass: 1000000.0
     name: Cell Block D
     published: false
     volume: 1150.0
   Central Burial Tomb:
     id: 32205
+    mass: 10000.0
     name: Central Burial Tomb
     published: false
     volume: 27500.0
   Central Control Nexus:
     id: 3506
+    mass: 10000.0
     name: Central Control Nexus
     published: false
     volume: 27500.0
   Centrien's Shuttle:
     id: 30758
+    mass: 1450000.0
     name: Centrien's Shuttle
     published: false
     volume: 16120.0
   Cerebrum Maintenance Chamber:
     id: 34447
+    mass: 10000.0
     name: Cerebrum Maintenance Chamber
     published: false
     volume: 27500.0
   'Chapel of the Obsidian ':
     id: 32279
+    mass: 10000.0
     name: 'Chapel of the Obsidian '
     published: false
     volume: 27500.0
   Charge Ammunition Storage:
     id: 12555
+    mass: 10000.0
     name: Charge Ammunition Storage
     published: false
     volume: 1200.0
   Citizen Quarters:
     id: 28138
+    mass: 10000.0
     name: Citizen Quarters
     published: false
     volume: 1200.0
   Civilian Transport Ship Wreck:
     id: 27275
+    mass: 10000.0
     name: Civilian Transport Ship Wreck
     published: false
     volume: 27500.0
   Cloaked Cache:
     id: 2854
+    mass: 10000.0
     name: Cloaked Cache
     published: false
     volume: 27500.0
   Compromised Stasis Vault:
     id: 46335
+    mass: 10000.0
     name: Compromised Stasis Vault
     published: false
     volume: 27500.0
   Conflux Alignment Unit 0:
     id: 34529
+    mass: 10000.0
     name: Conflux Alignment Unit 0
     published: false
     volume: 27500.0
   Conflux Alignment Unit 1:
     id: 34530
+    mass: 10000.0
     name: Conflux Alignment Unit 1
     published: false
     volume: 27500.0
   Conflux Alpha Access Unit:
     id: 34517
+    mass: 10000.0
     name: Conflux Alpha Access Unit
     published: false
     volume: 27500.0
   Conflux Beta Access Unit:
     id: 34515
+    mass: 10000.0
     name: Conflux Beta Access Unit
     published: false
     volume: 27500.0
   Conflux Delta Access Unit:
     id: 34516
+    mass: 10000.0
     name: Conflux Delta Access Unit
     published: false
     volume: 27500.0
   Conflux Gamma Access Unit:
     id: 34518
+    mass: 10000.0
     name: Conflux Gamma Access Unit
     published: false
     volume: 27500.0
   Coordinate Plotting Device:
     id: 34375
+    mass: 10000.0
     name: Coordinate Plotting Device
     published: false
     volume: 27500.0
   Corpse Stash:
     id: 24447
+    mass: 10000.0
     name: Corpse Stash
     published: false
     volume: 1200.0
   Corrupted Drone:
     id: 30781
+    mass: 1450000.0
     name: Corrupted Drone
     published: false
     volume: 16120.0
   Cruise Missile Storage:
     id: 19794
+    mass: 10000.0
     name: Cruise Missile Storage
     published: false
     volume: 1200.0
   Damaged Caldari Shuttle:
     id: 32382
+    mass: 1450000.0
     name: Damaged Caldari Shuttle
     published: false
     volume: 16120.0
   Damaged Escape Pod:
     id: 28823
+    mass: 10000.0
     name: Damaged Escape Pod
     published: false
     volume: 1200.0
   Damaged Heron:
     id: 24765
+    mass: 1450000.0
     name: Damaged Heron
     published: false
     volume: 16120.0
   Damaged Heron_2:
     id: 25255
+    mass: 1450000.0
     name: Damaged Heron_2
     published: false
     volume: 16120.0
   Damaged Prorator:
     id: 25537
+    mass: 1450000.0
     name: Damaged Prorator
     published: false
     volume: 16120.0
   Damaged Radio Telescope:
     id: 32217
+    mass: 10000.0
     name: Damaged Radio Telescope
     published: false
     volume: 27500.0
   Data Bank:
     id: 32240
+    mass: 10000.0
     name: Data Bank
     published: false
     volume: 27500.0
   Data Storage:
     id: 11072
+    mass: 10000.0
     name: Data Storage
     published: false
     volume: 1200.0
   Dented Storage Depot:
     id: 34300
+    mass: 10000.0
     name: Dented Storage Depot
     published: false
     volume: 27500.0
   Destroyed Ship:
     id: 30785
+    mass: 10000.0
     name: Destroyed Ship
     published: false
     volume: 27500.0
   Disabled Badger:
     id: 29438
+    mass: 10000.0
     name: Disabled Badger
     published: false
     volume: 27500.0
   Disabled Swarm Overmind:
     id: 48743
+    mass: 1.05E8
     name: Disabled Swarm Overmind
     published: false
     volume: 1010000.0
   Disposal Unit:
     id: 23220
+    mass: 10000.0
     name: Disposal Unit
     published: false
     volume: 1200.0
   Drifting Cask:
     id: 10261
+    mass: 10000.0
     name: Drifting Cask
     published: false
     volume: 1200.0
   Drifting Cask - Minmatar Training Facility:
     id: 22849
+    mass: 10000.0
     name: Drifting Cask - Minmatar Training Facility
     published: false
     volume: 1200.0
   Drone Hold:
     id: 26605
+    mass: 10000.0
     name: Drone Hold
     published: false
     volume: 1200.0
   Drone Sensor Storage:
     id: 11590
+    mass: 10000.0
     name: Drone Sensor Storage
     published: false
     volume: 2750.0
   Drop-off Container:
     id: 48779
+    mass: 10000.0
     name: Drop-off Container
     published: false
     volume: 27500.0
   Electronic_Container:
     id: 16722
+    mass: 10000.0
     name: Electronic_Container
     published: false
     volume: 27500.0
   Encrypted Communications Array:
     id: 30982
+    mass: 100000.0
     name: Encrypted Communications Array
     published: false
     volume: 27500.0
   Erakki's Storage Bin:
     id: 25471
+    mass: 10000.0
     name: Erakki's Storage Bin
     published: false
     volume: 1200.0
   Exploration Supplies:
     id: 32347
+    mass: 10000.0
     name: Exploration Supplies
     published: false
     volume: 27500.0
   Federation Detention Facility FNSBR-106V.1:
     id: 30981
+    mass: 10000.0
     name: Federation Detention Facility FNSBR-106V.1
     published: false
     volume: 27500.0
   Federation Navy Shipyard:
     id: 30976
+    mass: 100000.0
     name: Federation Navy Shipyard
     published: false
     volume: 1.0E8
   Flotsam:
     id: 10231
+    mass: 10000.0
     name: Flotsam
     published: false
     volume: 1200.0
   Forcefield Array:
     id: 11680
+    mass: 10000.0
     name: Forcefield Array
     published: false
     volume: 100.0
   Forgotten Debris:
     id: 32100
+    mass: 10000.0
     name: Forgotten Debris
     published: false
     volume: 27500.0
   Forsaken Stockpile:
     id: 10262
+    mass: 10000.0
     name: Forsaken Stockpile
     published: false
     volume: 10500.0
   Frequency Crystal Storage:
     id: 12556
+    mass: 10000.0
     name: Frequency Crystal Storage
     published: false
     volume: 1200.0
   Gallente Academy Office:
     id: 3835
+    mass: 10000.0
     name: Gallente Academy Office
     published: false
     volume: 27500.0
   Gallente Cargo Rig:
     id: 3847
+    mass: 10000.0
     name: Gallente Cargo Rig
     published: false
     volume: 27500.0
   Gallente Erebus Titan:
     id: 42864
+    mass: 100000.0
     name: Gallente Erebus Titan
     published: false
     volume: 1.0E8
   Gallente Passenger Liner Damaged:
     id: 2911
+    mass: 1000000.0
     name: Gallente Passenger Liner Damaged
     published: false
     volume: 1.0E8
   Guristas Derelict:
     id: 26668
+    mass: 10000.0
     name: Guristas Derelict
     published: false
     volume: 27500.0
   Guristas Hulk:
     id: 26669
+    mass: 10000.0
     name: Guristas Hulk
     published: false
     volume: 27500.0
   Guristas Network Hub:
     id: 21704
+    mass: 10000.0
     name: Guristas Network Hub
     published: false
     volume: 27500.0
   Guristas Network Nexus:
     id: 21706
+    mass: 10000.0
     name: Guristas Network Nexus
     published: false
     volume: 27500.0
   Guristas Network Node:
     id: 21703
+    mass: 10000.0
     name: Guristas Network Node
     published: false
     volume: 27500.0
   Guristas Network Nucleus:
     id: 21705
+    mass: 10000.0
     name: Guristas Network Nucleus
     published: false
     volume: 27500.0
   Guristas Officer's Quarters Mission Spy Stash:
     id: 22223
+    mass: 100000.0
     name: Guristas Officer's Quarters Mission Spy Stash
     published: false
     volume: 1.0E8
   Guristas Research and Trade Hub:
     id: 33889
+    mass: 100000.0
     name: Guristas Research and Trade Hub
     published: false
     volume: 1.0E8
   Guristas Ship Debris:
     id: 29738
+    mass: 10000.0
     name: Guristas Ship Debris
     published: false
     volume: 27500.0
   Guristas Ship Derelict:
     id: 29728
+    mass: 10000.0
     name: Guristas Ship Derelict
     published: false
     volume: 27500.0
   Guristas Ship Hulk:
     id: 29901
+    mass: 10000.0
     name: Guristas Ship Hulk
     published: false
     volume: 27500.0
   Guristas Ship Remains:
     id: 29733
+    mass: 10000.0
     name: Guristas Ship Remains
     published: false
     volume: 27500.0
   Guristas Ship Rubble:
     id: 29718
+    mass: 10000.0
     name: Guristas Ship Rubble
     published: false
     volume: 27500.0
   Guristas Ship Ruins:
     id: 29896
+    mass: 10000.0
     name: Guristas Ship Ruins
     published: false
     volume: 27500.0
   Guristas Ship Waste:
     id: 29743
+    mass: 10000.0
     name: Guristas Ship Waste
     published: false
     volume: 27500.0
   Guristas Ship Wreck:
     id: 29723
+    mass: 10000.0
     name: Guristas Ship Wreck
     published: false
     volume: 27500.0
   Guristas Stash:
     id: 24713
+    mass: 100000.0
     name: Guristas Stash
     published: false
     volume: 1.0E8
   Guristas Transponder Tower:
     id: 33987
+    mass: 100000.0
     name: Guristas Transponder Tower
     published: false
     volume: 1.0E8
   Guristas Waste:
     id: 26666
+    mass: 10000.0
     name: Guristas Waste
     published: false
     volume: 27500.0
   Guristas Wreck:
     id: 26667
+    mass: 10000.0
     name: Guristas Wreck
     published: false
     volume: 27500.0
   Habitation Module With Encoded Data Chip:
     id: 24459
+    mass: 100000.0
     name: Habitation Module With Encoded Data Chip
     published: false
     volume: 1.0E8
   Habitation Module w/4xScientists:
     id: 29213
+    mass: 100000.0
     name: Habitation Module w/4xScientists
     published: false
     volume: 100000.0
   Habitation Module w/FR Personnel:
     id: 30815
+    mass: 10000.0
     name: Habitation Module w/FR Personnel
     published: false
     volume: 27500.0
   Habitation_Module_Container:
     id: 27288
+    mass: 10000.0
     name: Habitation_Module_Container
     published: false
     volume: 1200.0
   Hidden Treasure Chest:
     id: 25526
+    mass: 10000.0
     name: Hidden Treasure Chest
     published: false
     volume: 1200.0
   Holding Cell:
     id: 3624
+    mass: 10000.0
     name: Holding Cell
     published: false
     volume: 27500.0
@@ -835,856 +1001,1027 @@ items:
     published: false
   Hyasyoda Security Compound:
     id: 30956
+    mass: 100000.0
     name: Hyasyoda Security Compound
     published: false
     volume: 27500.0
   Hyperfluct Generator:
     id: 34315
+    mass: 10000.0
     name: Hyperfluct Generator
     published: false
     volume: 27500.0
   Imperial Armory:
     id: 24577
+    mass: 100000.0
     name: Imperial Armory
     published: false
     volume: 1.0E8
   Inert Capsule:
     id: 47449
+    mass: 10000.0
     name: Inert Capsule
     published: true
     volume: 27500.0
   Info Shard:
     id: 42638
+    mass: 10000.0
     name: Info Shard
     published: false
     volume: 27500.0
   Intact Storage Depot:
     id: 34378
+    mass: 10000.0
     name: Intact Storage Depot
     published: false
     volume: 27500.0
   Kador Bunker:
     id: 23743
+    mass: 100000.0
     name: Kador Bunker
     published: false
     volume: 1.0E8
   Kazka Loot Container:
     id: 21099
+    mass: 10000.0
     name: Kazka Loot Container
     published: false
     volume: 1200.0
   Kutill's Storage Bin:
     id: 21891
+    mass: 10000.0
     name: Kutill's Storage Bin
     published: false
     volume: 27500.0
   Laser-Pistol Stash:
     id: 24124
+    mass: 10000.0
     name: Laser-Pistol Stash
     published: false
     volume: 1200.0
   Life pod:
     id: 2232
+    mass: 10000.0
     name: Life pod
     published: false
     volume: 1200.0
   Locced's Bribe:
     id: 2218
+    mass: 10000.0
     name: Locced's Bribe
     published: false
     volume: 27500.0
   Logistics Control Array:
     id: 3261
+    mass: 10000.0
     name: Logistics Control Array
     published: false
     volume: 27500.0
   Lord Arachnan's Outpost:
     id: 24269
+    mass: 100000.0
     name: Lord Arachnan's Outpost
     published: false
     volume: 1.0E8
   Lord Methros' Outpost:
     id: 24267
+    mass: 100000.0
     name: Lord Methros' Outpost
     published: false
     volume: 1.0E8
   Madcat's Stash:
     id: 26719
+    mass: 100000.0
     name: Madcat's Stash
     published: false
     volume: 1.0E8
   Mangled Storage Depot:
     id: 34299
+    mass: 10000.0
     name: Mangled Storage Depot
     published: false
     volume: 27500.0
   Metadrones - LM-G-2 - B:
     id: 28954
+    mass: 10000.0
     name: Metadrones - LM-G-2 - B
     published: false
     volume: 25000.0
   Metadrones - LM-G-2 - F:
     id: 28980
+    mass: 10000.0
     name: Metadrones - LM-G-2 - F
     published: false
     volume: 25000.0
   Metadrones - LM-M-2 - B:
     id: 28963
+    mass: 10000.0
     name: Metadrones - LM-M-2 - B
     published: false
     volume: 25000.0
   Metadrones - LM-M-2 - F:
     id: 28981
+    mass: 10000.0
     name: Metadrones - LM-M-2 - F
     published: false
     volume: 25000.0
   Mineral Container:
     id: 16723
+    mass: 10000.0
     name: Mineral Container
     published: false
     volume: 27500.0
   Minmatar Academy Office:
     id: 3811
+    mass: 10000.0
     name: Minmatar Academy Office
     published: false
     volume: 27500.0
   Minmatar Bunker_Alliance Barracks:
     id: 22728
+    mass: 100000.0
     name: Minmatar Bunker_Alliance Barracks
     published: false
     volume: 1.0E8
   Minmatar Cargo Rig:
     id: 3848
+    mass: 10000.0
     name: Minmatar Cargo Rig
     published: false
     volume: 27500.0
   Minmatar Diplomat Quarters:
     id: 2181
+    mass: 100000.0
     name: Minmatar Diplomat Quarters
     published: false
     volume: 1.0E8
   Minmatar Prison_Mission:
     id: 22138
+    mass: 100000.0
     name: Minmatar Prison_Mission
     published: false
     volume: 1.0E8
   Minmatar Ragnarok Titan:
     id: 42865
+    mass: 100000.0
     name: Minmatar Ragnarok Titan
     published: false
     volume: 1.0E8
   Missile Storage:
     id: 12602
+    mass: 10000.0
     name: Missile Storage
     published: false
     volume: 1200.0
   Mission Hacking Can:
     id: 27802
+    mass: 10000.0
     name: Mission Hacking Can
     published: false
     volume: 27500.0
   Mission Hacking Can 1:
     id: 27804
+    mass: 10000.0
     name: Mission Hacking Can 1
     published: false
     volume: 27500.0
   Mission Hacking Can 2:
     id: 28224
+    mass: 10000.0
     name: Mission Hacking Can 2
     published: false
     volume: 27500.0
   Munition Storage:
     id: 12554
+    mass: 10000.0
     name: Munition Storage
     published: false
     volume: 1200.0
   Nefantar Debris I:
     id: 22343
+    mass: 10000.0
     name: Nefantar Debris I
     published: false
     volume: 27500.0
   Nefantar Debris II:
     id: 22247
+    mass: 10000.0
     name: Nefantar Debris II
     published: false
     volume: 27500.0
   Nuomo's Scanner:
     id: 25523
+    mass: 1000000.0
     name: Nuomo's Scanner
     published: false
     volume: 1.0E8
   Office Facility:
     id: 32276
+    mass: 100000.0
     name: Office Facility
     published: false
     volume: 27500.0
   Old Storage Container:
     id: 21052
+    mass: 10000.0
     name: Old Storage Container
     published: false
     volume: 27500.0
   Parthus' Malfunctioning Capsule:
     id: 30720
+    mass: 10000.0
     name: Parthus' Malfunctioning Capsule
     published: false
     volume: 1200.0
   Podded Pilot:
     id: 22032
+    mass: 10000.0
     name: Podded Pilot
     published: false
     volume: 1200.0
   Preacher's Quarters:
     id: 2223
+    mass: 100000.0
     name: Preacher's Quarters
     published: false
     volume: 1.0E8
   Prison Facility:
     id: 2011
+    mass: 100000.0
     name: Prison Facility
     published: false
     volume: 1.0E8
   Prison_Mission:
     id: 25845
+    mass: 100000.0
     name: Prison_Mission
     published: false
     volume: 1.0E8
   Pristine Storage Depot:
     id: 34385
+    mass: 10000.0
     name: Pristine Storage Depot
     published: false
     volume: 27500.0
   Quarantine Station Ruins:
     id: 29214
+    mass: 10000.0
     name: Quarantine Station Ruins
     published: false
     volume: 27500.0
   RSS Radio Telescope:
     id: 32256
+    mass: 10000.0
     name: RSS Radio Telescope
     published: false
     volume: 27500.0
   Radio Telescope - Hacking - Encoded Data Chip:
     id: 29608
+    mass: 10000.0
     name: Radio Telescope - Hacking - Encoded Data Chip
     published: false
     volume: 27500.0
   Radio_Telescope_MISSION:
     id: 21662
+    mass: 1000000.0
     name: Radio_Telescope_MISSION
     published: false
     volume: 1.0E8
   Reconnaissance Ship Wreck:
     id: 29549
+    mass: 10000.0
     name: Reconnaissance Ship Wreck
     published: false
     volume: 27500.0
   Redoubt Alignment Unit 0:
     id: 34531
+    mass: 10000.0
     name: Redoubt Alignment Unit 0
     published: false
     volume: 27500.0
   Redoubt Alignment Unit 1:
     id: 34532
+    mass: 10000.0
     name: Redoubt Alignment Unit 1
     published: false
     volume: 27500.0
   Redoubt Alpha Access Unit:
     id: 34521
+    mass: 10000.0
     name: Redoubt Alpha Access Unit
     published: false
     volume: 27500.0
   Redoubt Beta Access Unit:
     id: 34519
+    mass: 10000.0
     name: Redoubt Beta Access Unit
     published: false
     volume: 27500.0
   Redoubt Delta Access Unit:
     id: 34520
+    mass: 10000.0
     name: Redoubt Delta Access Unit
     published: false
     volume: 27500.0
   Redoubt Gamma Access Unit:
     id: 34522
+    mass: 10000.0
     name: Redoubt Gamma Access Unit
     published: false
     volume: 27500.0
   Remote Defense Grid Unit:
     id: 34305
+    mass: 10000.0
     name: Remote Defense Grid Unit
     published: false
     volume: 27500.0
   Remote Pressure Control Unit:
     id: 34301
+    mass: 10000.0
     name: Remote Pressure Control Unit
     published: false
     volume: 27500.0
   Remote Reroute Unit:
     id: 34406
+    mass: 10000.0
     name: Remote Reroute Unit
     published: false
     volume: 27500.0
   Republic Navy Container:
     id: 22168
+    mass: 10000.0
     name: Republic Navy Container
     published: false
     volume: 2750.0
   Research Cache:
     id: 42117
+    mass: 10000.0
     name: Research Cache
     published: false
     volume: 27500.0
   Research Vault:
     id: 42119
+    mass: 10000.0
     name: Research Vault
     published: false
     volume: 27500.0
   Research Warehouse:
     id: 42118
+    mass: 10000.0
     name: Research Warehouse
     published: false
     volume: 27500.0
   Resource Container:
     id: 34330
+    mass: 10000.0
     name: Resource Container
     published: true
     volume: 2750.0
   Resource Crate:
     id: 42814
+    mass: 100000.0
     name: Resource Crate
     published: false
     volume: 1.0E8
   Rogue Drone Container:
     id: 16724
+    mass: 10000.0
     name: Rogue Drone Container
     published: false
     volume: 27500.0
   Rolette Residence:
     id: 24429
+    mass: 100000.0
     name: Rolette Residence
     published: false
     volume: 1.0E8
   Sansha Communications Array:
     id: 3491
+    mass: 100000.0
     name: Sansha Communications Array
     published: false
     volume: 27500.0
   Sansha Derelict:
     id: 26672
+    mass: 10000.0
     name: Sansha Derelict
     published: false
     volume: 27500.0
   Sansha Hulk:
     id: 26673
+    mass: 10000.0
     name: Sansha Hulk
     published: false
     volume: 27500.0
   Sansha Ship Debris:
     id: 29737
+    mass: 10000.0
     name: Sansha Ship Debris
     published: false
     volume: 27500.0
   Sansha Ship Derelict:
     id: 29729
+    mass: 10000.0
     name: Sansha Ship Derelict
     published: false
     volume: 27500.0
   Sansha Ship Hulk:
     id: 29902
+    mass: 10000.0
     name: Sansha Ship Hulk
     published: false
     volume: 27500.0
   Sansha Ship Remains:
     id: 29734
+    mass: 10000.0
     name: Sansha Ship Remains
     published: false
     volume: 27500.0
   Sansha Ship Rubble:
     id: 29719
+    mass: 10000.0
     name: Sansha Ship Rubble
     published: false
     volume: 27500.0
   Sansha Ship Ruins:
     id: 29897
+    mass: 10000.0
     name: Sansha Ship Ruins
     published: false
     volume: 27500.0
   Sansha Ship Waste:
     id: 29744
+    mass: 10000.0
     name: Sansha Ship Waste
     published: false
     volume: 27500.0
   Sansha Ship Wreck:
     id: 29724
+    mass: 10000.0
     name: Sansha Ship Wreck
     published: false
     volume: 27500.0
   Sansha Waste:
     id: 26670
+    mass: 10000.0
     name: Sansha Waste
     published: false
     volume: 27500.0
   Sansha Wreck:
     id: 26671
+    mass: 10000.0
     name: Sansha Wreck
     published: false
     volume: 27500.0
   Science Vessel Wreck:
     id: 2901
+    mass: 10000.0
     name: Science Vessel Wreck
     published: false
     volume: 27500.0
   Scorched Container:
     id: 23595
+    mass: 10000.0
     name: Scorched Container
     published: false
     volume: 1200.0
   Secure Communications Tower:
     id: 32281
+    mass: 100000.0
     name: Secure Communications Tower
     published: false
     volume: 27500.0
   Secure Databank:
     id: 33532
+    mass: 10000.0
     name: Secure Databank
     published: false
     volume: 27500.0
   Secure Depot:
     id: 33530
+    mass: 10000.0
     name: Secure Depot
     published: false
     volume: 27500.0
   Secure Lab:
     id: 33531
+    mass: 10000.0
     name: Secure Lab
     published: false
     volume: 27500.0
   Secure Mainframe:
     id: 33533
+    mass: 10000.0
     name: Secure Mainframe
     published: false
     volume: 27500.0
   Secure Vault:
     id: 33534
+    mass: 10000.0
     name: Secure Vault
     published: false
     volume: 27500.0
   Sentinel Alignment Unit 0:
     id: 34523
+    mass: 10000.0
     name: Sentinel Alignment Unit 0
     published: false
     volume: 27500.0
   Sentinel Alignment Unit 1:
     id: 34524
+    mass: 10000.0
     name: Sentinel Alignment Unit 1
     published: false
     volume: 27500.0
   Sentinel Alpha Access Unit:
     id: 34505
+    mass: 10000.0
     name: Sentinel Alpha Access Unit
     published: false
     volume: 27500.0
   Sentinel Beta Access Unit:
     id: 34503
+    mass: 10000.0
     name: Sentinel Beta Access Unit
     published: false
     volume: 27500.0
   Sentinel Delta Access Unit:
     id: 34504
+    mass: 10000.0
     name: Sentinel Delta Access Unit
     published: false
     volume: 27500.0
   Sentinel Gamma Access Unit:
     id: 34506
+    mass: 10000.0
     name: Sentinel Gamma Access Unit
     published: false
     volume: 27500.0
   Sentry Repair Station:
     id: 34438
+    mass: 10000.0
     name: Sentry Repair Station
     published: false
     volume: 27500.0
   Serpentis Derelict:
     id: 26676
+    mass: 10000.0
     name: Serpentis Derelict
     published: false
     volume: 27500.0
   Serpentis Hulk:
     id: 26677
+    mass: 10000.0
     name: Serpentis Hulk
     published: false
     volume: 27500.0
   Serpentis Network Hub:
     id: 23217
+    mass: 10000.0
     name: Serpentis Network Hub
     published: false
     volume: 27500.0
   Serpentis Network Nexus:
     id: 23219
+    mass: 10000.0
     name: Serpentis Network Nexus
     published: false
     volume: 27500.0
   Serpentis Network Node:
     id: 23216
+    mass: 10000.0
     name: Serpentis Network Node
     published: false
     volume: 27500.0
   Serpentis Network Nucleus:
     id: 23218
+    mass: 10000.0
     name: Serpentis Network Nucleus
     published: false
     volume: 27500.0
   Serpentis Prison_Mission:
     id: 23359
+    mass: 100000.0
     name: Serpentis Prison_Mission
     published: false
     volume: 1.0E8
   Serpentis Ship Debris:
     id: 29736
+    mass: 10000.0
     name: Serpentis Ship Debris
     published: false
     volume: 27500.0
   Serpentis Ship Derelict:
     id: 29730
+    mass: 10000.0
     name: Serpentis Ship Derelict
     published: false
     volume: 27500.0
   Serpentis Ship Hulk:
     id: 29903
+    mass: 10000.0
     name: Serpentis Ship Hulk
     published: false
     volume: 27500.0
   Serpentis Ship Remains:
     id: 29735
+    mass: 10000.0
     name: Serpentis Ship Remains
     published: false
     volume: 27500.0
   Serpentis Ship Rubble:
     id: 29720
+    mass: 10000.0
     name: Serpentis Ship Rubble
     published: false
     volume: 27500.0
   Serpentis Ship Ruins:
     id: 29898
+    mass: 10000.0
     name: Serpentis Ship Ruins
     published: false
     volume: 27500.0
   Serpentis Ship Waste:
     id: 29745
+    mass: 10000.0
     name: Serpentis Ship Waste
     published: false
     volume: 27500.0
   Serpentis Ship Wreck:
     id: 29725
+    mass: 10000.0
     name: Serpentis Ship Wreck
     published: false
     volume: 27500.0
   Serpentis Stash:
     id: 24724
+    mass: 10000.0
     name: Serpentis Stash
     published: false
     volume: 27500.0
   Serpentis Waste:
     id: 26674
+    mass: 10000.0
     name: Serpentis Waste
     published: false
     volume: 27500.0
   Serpentis Wreck:
     id: 26675
+    mass: 10000.0
     name: Serpentis Wreck
     published: false
     volume: 27500.0
   Ship Carcass:
     id: 22084
+    mass: 1000000.0
     name: Ship Carcass
     published: false
     volume: 1.0E8
   Ship Carcass_2:
     id: 25468
+    mass: 1000000.0
     name: Ship Carcass_2
     published: false
     volume: 1.0E8
   Ship Wreckage:
     id: 22061
+    mass: 1000000.0
     name: Ship Wreckage
     published: false
     volume: 1.0E8
   Ship Wreckage2:
     id: 22072
+    mass: 1000000.0
     name: Ship Wreckage2
     published: false
     volume: 1.0E8
   Ship Wreckage3:
     id: 22150
+    mass: 1000000.0
     name: Ship Wreckage3
     published: false
     volume: 1.0E8
   Ship Wreckage4:
     id: 22791
+    mass: 1000000.0
     name: Ship Wreckage4
     published: false
     volume: 1.0E8
   Ship Wreckage5:
     id: 22799
+    mass: 1000000.0
     name: Ship Wreckage5
     published: false
     volume: 1.0E8
   Ship Wreckage6:
     id: 25735
+    mass: 1000000.0
     name: Ship Wreckage6
     published: false
     volume: 1.0E8
   Shuttle Wreck:
     id: 30996
+    mass: 10000.0
     name: Shuttle Wreck
     published: false
     volume: 27500.0
   Slave Pens:
     id: 25841
+    mass: 100000.0
     name: Slave Pens
     published: false
     volume: 1.0E8
   Solray Observational Unit:
     id: 34403
+    mass: 10000.0
     name: Solray Observational Unit
     published: false
     volume: 27500.0
   Storage Bin:
     id: 12028
+    mass: 10000.0
     name: Storage Bin
     published: false
     volume: 1200.0
   Stranded Personnel Transport:
     id: 23701
+    mass: 1.35E7
     name: Stranded Personnel Transport
     published: false
     volume: 260000.0
   Strange Drifting Cask:
     id: 24279
+    mass: 10000.0
     name: Strange Drifting Cask
     published: false
     volume: 1200.0
   Strange Drifting Cask_2:
     id: 24280
+    mass: 10000.0
     name: Strange Drifting Cask_2
     published: false
     volume: 1200.0
   Strange Drifting Cask_3:
     id: 24281
+    mass: 10000.0
     name: Strange Drifting Cask_3
     published: false
     volume: 1200.0
   Suntendi Research Outpost:
     id: 29212
+    mass: 100000.0
     name: Suntendi Research Outpost
     published: false
     volume: 1150.0
   Suspicious Ship Wreck:
     id: 2850
+    mass: 10000.0
     name: Suspicious Ship Wreck
     published: false
     volume: 27500.0
   Temple Stone Storage:
     id: 11589
+    mass: 10000.0
     name: Temple Stone Storage
     published: false
     volume: 2750.0
   The Heartbreak:
     id: 30775
+    mass: 1450000.0
     name: The Heartbreak
     published: false
     volume: 16120.0
   The Scope Storage Container:
     id: 23904
+    mass: 10000.0
     name: The Scope Storage Container
     published: false
     volume: 1200.0
   The Seven Holding Cells:
     id: 2860
+    mass: 10000.0
     name: The Seven Holding Cells
     published: false
     volume: 1200.0
   Tikui's Stash:
     id: 25397
+    mass: 10000.0
     name: Tikui's Stash
     published: false
     volume: 27500.0
   Tili's Brothel:
     id: 32233
+    mass: 100000.0
     name: Tili's Brothel
     published: false
     volume: 1.0E8
   Tomb of the Unknown Soldiers:
     id: 2886
+    mass: 10000.0
     name: Tomb of the Unknown Soldiers
     published: false
     volume: 27500.0
   Training Container - Anomalies:
     id: 32353
+    mass: 10000.0
     name: Training Container - Anomalies
     published: false
     volume: 27500.0
   Training Container - Gas:
     id: 32379
+    mass: 10000.0
     name: Training Container - Gas
     published: false
     volume: 27500.0
   Training Container - Ore:
     id: 32378
+    mass: 10000.0
     name: Training Container - Ore
     published: false
     volume: 27500.0
   Training Container - Salvaging:
     id: 32368
+    mass: 10000.0
     name: Training Container - Salvaging
     published: false
     volume: 27500.0
   Urigamu_Warehouse_MISSION:
     id: 21633
+    mass: 1000000.0
     name: Urigamu_Warehouse_MISSION
     published: false
     volume: 1150.0
   Venal Regional Comms Tower:
     id: 32377
+    mass: 100000.0
     name: Venal Regional Comms Tower
     published: false
     volume: 27500.0
   Vessel Rejuvenation Battery:
     id: 34453
+    mass: 10000.0
     name: Vessel Rejuvenation Battery
     published: false
     volume: 27500.0
   Vidette Alignment Unit 0:
     id: 34527
+    mass: 10000.0
     name: Vidette Alignment Unit 0
     published: false
     volume: 27500.0
   Vidette Alignment Unit 1:
     id: 34528
+    mass: 10000.0
     name: Vidette Alignment Unit 1
     published: false
     volume: 27500.0
   Vidette Alpha Access Unit:
     id: 34513
+    mass: 10000.0
     name: Vidette Alpha Access Unit
     published: false
     volume: 27500.0
   Vidette Beta Access Unit:
     id: 34511
+    mass: 10000.0
     name: Vidette Beta Access Unit
     published: false
     volume: 27500.0
   Vidette Delta Access Unit:
     id: 34512
+    mass: 10000.0
     name: Vidette Delta Access Unit
     published: false
     volume: 27500.0
   Vidette Gamma Access Unit:
     id: 34514
+    mass: 10000.0
     name: Vidette Gamma Access Unit
     published: false
     volume: 27500.0
   Viral Stash:
     id: 26715
+    mass: 100000.0
     name: Viral Stash
     published: false
     volume: 1.0E8
   Warehouse_MISSION:
     id: 19765
+    mass: 1000000.0
     name: Warehouse_MISSION
     published: false
     volume: 1150.0
   Warehouse_MISSION2:
     id: 24721
+    mass: 1000000.0
     name: Warehouse_MISSION2
     published: false
     volume: 1150.0
   Wiyrkomi Warehouse:
     id: 23572
+    mass: 1000000.0
     name: Wiyrkomi Warehouse
     published: false
     volume: 1150.0
   Wreck W/ 23 Survivors:
     id: 29190
+    mass: 10000.0
     name: Wreck W/ 23 Survivors
     published: false
     volume: 27500.0
   Wreckage of Isone's Ship:
     id: 23607
+    mass: 1000000.0
     name: Wreckage of Isone's Ship
     published: false
     volume: 1.0E8
   Wrecked Amarr Apocalypse Battleship:
     id: 42663
+    mass: 100000.0
     name: Wrecked Amarr Apocalypse Battleship
     published: false
     volume: 1.0E8
   Wrecked Amarr Armageddon Battleship:
     id: 42664
+    mass: 100000.0
     name: Wrecked Amarr Armageddon Battleship
     published: false
     volume: 1.0E8
   Wrecked Caldari Raven Battleship:
     id: 42665
+    mass: 100000.0
     name: Wrecked Caldari Raven Battleship
     published: false
     volume: 1.0E8
   Wrecked Caldari Scorpion Battleship:
     id: 42666
+    mass: 100000.0
     name: Wrecked Caldari Scorpion Battleship
     published: false
     volume: 1.0E8
   Wrecked Gallente Dominix Battleship:
     id: 42667
+    mass: 100000.0
     name: Wrecked Gallente Dominix Battleship
     published: false
     volume: 1.0E8
   Wrecked Gallente Megathron Battleship:
     id: 42668
+    mass: 100000.0
     name: Wrecked Gallente Megathron Battleship
     published: false
     volume: 1.0E8
   Wrecked Minmatar Tempest Battleship:
     id: 42670
+    mass: 100000.0
     name: Wrecked Minmatar Tempest Battleship
     published: false
     volume: 1.0E8
   Wrecked Minmatar Typhoon Battleship:
     id: 42669
+    mass: 100000.0
     name: Wrecked Minmatar Typhoon Battleship
     published: false
     volume: 1.0E8
   Wrecked Science Vessel:
     id: 28885
+    mass: 10000.0
     name: Wrecked Science Vessel
     published: false
     volume: 27500.0
   Wrecked Ship:
     id: 30813
+    mass: 10000.0
     name: Wrecked Ship
     published: false
     volume: 27500.0
   Yamia Mida's Residence:
     id: 24301
+    mass: 100000.0
     name: Yamia Mida's Residence
     published: false
     volume: 1.0E8
   Zainou Biotech Convoy Wreck:
     id: 29289
+    mass: 10000.0
     name: Zainou Biotech Convoy Wreck
     published: false
     volume: 27500.0
   colins test Hulk:
     id: 28259
+    mass: 10000.0
     name: colins test Hulk
     published: false
     volume: 27500.0
   unnamed_g306_ic0:
     id: 48085
+    mass: 1.0
     name: unnamed_g306_ic0
     published: false
     volume: 1.0
   weapon_container:
     id: 16725
+    mass: 10000.0
     name: weapon_container
     published: false
     volume: 27500.0

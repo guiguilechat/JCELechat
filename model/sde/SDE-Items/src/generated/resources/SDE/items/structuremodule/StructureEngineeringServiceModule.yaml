@@ -23,6 +23,7 @@ items:
     StructureItemVisualFlag: 1
     id: 35881
     marketGroup: 2332
+    mass: 500.0
     name: Standup Capital Shipyard I
     published: true
     volume: 32000.0
@@ -43,6 +44,7 @@ items:
     StructureItemVisualFlag: 1
     id: 45550
     marketGroup: 2332
+    mass: 500.0
     name: Standup Hyasyoda Research Lab
     published: true
     volume: 4000.0
@@ -62,6 +64,7 @@ items:
     StructureItemVisualFlag: 1
     id: 35886
     marketGroup: 2332
+    mass: 500.0
     name: Standup Invention Lab I
     published: true
     volume: 4000.0
@@ -81,6 +84,7 @@ items:
     StructureItemVisualFlag: 1
     id: 35878
     marketGroup: 2332
+    mass: 500.0
     name: Standup Manufacturing Plant I
     published: true
     volume: 4000.0
@@ -100,6 +104,7 @@ items:
     StructureItemVisualFlag: 1
     id: 35891
     marketGroup: 2332
+    mass: 500.0
     name: Standup Research Lab I
     published: true
     volume: 4000.0
@@ -119,6 +124,7 @@ items:
     StructureItemVisualFlag: 1
     id: 35877
     marketGroup: 2332
+    mass: 4000.0
     name: Standup Supercapital Shipyard I
     published: true
     volume: 64000.0

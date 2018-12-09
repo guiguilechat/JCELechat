@@ -10,6 +10,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46698
     marketGroup: 529
+    mass: 1.0
     name: Compressed Immaculate Jaspet
     published: true
     volume: 0.15
@@ -24,6 +25,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28406
     marketGroup: 529
+    mass: 1.0E35
     name: Compressed Jaspet
     published: true
     volume: 0.15
@@ -38,6 +40,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28407
     marketGroup: 529
+    mass: 1.0E35
     name: Compressed Pristine Jaspet
     published: true
     volume: 0.15
@@ -52,6 +55,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 28408
     marketGroup: 529
+    mass: 1.0E35
     name: Compressed Pure Jaspet
     published: true
     volume: 0.15
@@ -68,6 +72,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 46682
     marketGroup: 529
+    mass: 1.0E35
     name: Immaculate Jaspet
     published: true
     volume: 2.0
@@ -84,6 +89,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 1226
     marketGroup: 529
+    mass: 1.0E35
     name: Jaspet
     published: true
     volume: 2.0
@@ -96,6 +102,7 @@ items:
     RequiredSkill1: 3386
     StasisWebifierResistance: 1.0
     id: 28621
+    mass: 1.0E35
     name: Pithix
     published: true
     volume: 2.0
@@ -112,6 +119,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17449
     marketGroup: 529
+    mass: 1.0E35
     name: Pristine Jaspet
     published: true
     volume: 2.0
@@ -128,6 +136,7 @@ items:
     StasisWebifierResistance: 1.0
     id: 17448
     marketGroup: 529
+    mass: 1.0E35
     name: Pure Jaspet
     published: true
     volume: 2.0

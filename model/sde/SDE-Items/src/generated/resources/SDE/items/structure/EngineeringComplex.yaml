@@ -71,6 +71,7 @@ items:
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35826
     marketGroup: 2324
+    mass: 1.0E10
     name: Azbel
     published: true
     volume: 80000.0
@@ -141,6 +142,7 @@ items:
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35825
     marketGroup: 2324
+    mass: 3.0E9
     name: Raitaru
     published: true
     volume: 8000.0
@@ -217,6 +219,7 @@ items:
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35827
     marketGroup: 2324
+    mass: 5.0E10
     name: Sotiyo
     published: true
     volume: 800000.0

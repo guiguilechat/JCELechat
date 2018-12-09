@@ -15,6 +15,7 @@ items:
     TechLevel: 1
     id: 35921
     marketGroup: 2230
+    mass: 500.0
     name: Standup Anticapital Missile Launcher I
     published: true
     volume: 4000.0
@@ -35,6 +36,7 @@ items:
     TechLevel: 2
     id: 47323
     marketGroup: 2230
+    mass: 500.0
     name: Standup Anticapital Missile Launcher II
     published: true
     volume: 4000.0

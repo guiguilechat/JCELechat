@@ -1,31 +1,37 @@
 items:
   7th Fleet Mobile Command Post:
     id: 29031
+    mass: 100000.0
     name: 7th Fleet Mobile Command Post
     published: false
     volume: 1.0E8
   Abandoned Sleeper Enclave:
     id: 30273
+    mass: 100000.0
     name: Abandoned Sleeper Enclave
     published: false
     volume: 1.0E8
   Amarr Administration Complex:
     id: 23859
+    mass: 100000.0
     name: Amarr Administration Complex
     published: false
     volume: 1.0E8
   Amarr Barricade:
     id: 16753
+    mass: 100000.0
     name: Amarr Barricade
     published: false
     volume: 1.0E8
   Amarr Barrier:
     id: 16755
+    mass: 100000.0
     name: Amarr Barrier
     published: false
     volume: 1.0E8
   Amarr Battery:
     id: 16756
+    mass: 100000.0
     name: Amarr Battery
     published: false
     volume: 1.0E8
@@ -43,16 +49,19 @@ items:
     published: false
   Amarr Bunker:
     id: 23858
+    mass: 100000.0
     name: Amarr Bunker
     published: false
     volume: 1.0E8
   Amarr Cathedral:
     id: 16726
+    mass: 100000.0
     name: Amarr Cathedral
     published: false
     volume: 1.0E8
   Amarr Chapel:
     id: 16730
+    mass: 100000.0
     name: Amarr Chapel
     published: false
     volume: 1.0E8
@@ -62,61 +71,73 @@ items:
     published: false
   Amarr Deadspace Refiner:
     id: 16836
+    mass: 100000.0
     name: Amarr Deadspace Refiner
     published: false
     volume: 1.0E8
   Amarr Deadspace Repair Unit:
     id: 16837
+    mass: 100000.0
     name: Amarr Deadspace Repair Unit
     published: false
     volume: 1.0E8
   Amarr Deadspace Tactical Unit:
     id: 16838
+    mass: 100000.0
     name: Amarr Deadspace Tactical Unit
     published: false
     volume: 1.0E8
   Amarr Drone Mine:
     id: 4357
+    mass: 100000.0
     name: Amarr Drone Mine
     published: false
     volume: 1.0E8
   Amarr Elevator:
     id: 16749
+    mass: 100000.0
     name: Amarr Elevator
     published: false
     volume: 1.0E8
   Amarr Fence:
     id: 16754
+    mass: 100000.0
     name: Amarr Fence
     published: false
     volume: 1.0E8
   Amarr Junction:
     id: 16750
+    mass: 100000.0
     name: Amarr Junction
     published: false
     volume: 1.0E8
   Amarr Lookout:
     id: 16751
+    mass: 100000.0
     name: Amarr Lookout
     published: false
     volume: 1.0E8
   Amarr Starbase Control Tower:
     id: 17777
+    mass: 100000.0
     name: Amarr Starbase Control Tower
     published: false
     volume: 1.0E8
   Amarr Starbase Control Tower Tough:
     id: 29469
+    mass: 100000.0
     name: Amarr Starbase Control Tower Tough
     published: false
     volume: 1.0E8
   Amarr Starbase Control Tower_Tough_Good Loot:
     id: 26732
+    mass: 100000.0
     name: Amarr Starbase Control Tower_Tough_Good Loot
     published: false
     volume: 1150.0
   Amarr Stargate:
     id: 24587
+    mass: 1.0E35
     name: Amarr Stargate
     published: false
     volume: 1.0E8
@@ -126,41 +147,49 @@ items:
     published: false
   Amarr Tactical Command Post:
     id: 29167
+    mass: 100000.0
     name: Amarr Tactical Command Post
     published: false
     volume: 1.0E8
   Amarr Tactical Relay:
     id: 29165
+    mass: 100000.0
     name: Amarr Tactical Relay
     published: false
     volume: 1.0E8
   Amarr Tactical Supply Station:
     id: 29166
+    mass: 100000.0
     name: Amarr Tactical Supply Station
     published: false
     volume: 1.0E8
   Amarr Tactical Support Center:
     id: 29168
+    mass: 100000.0
     name: Amarr Tactical Support Center
     published: false
     volume: 1.0E8
   Amarr Trade Post:
     id: 25819
+    mass: 100000.0
     name: Amarr Trade Post
     published: false
     volume: 1.0E8
   Amarr Wall:
     id: 16752
+    mass: 100000.0
     name: Amarr Wall
     published: false
     volume: 1.0E8
   Amarrian Breeding Facility:
     id: 26895
+    mass: 100000.0
     name: Amarrian Breeding Facility
     published: false
     volume: 1.0E8
   Ammatar Barricade:
     id: 19671
+    mass: 100000.0
     name: Ammatar Barricade
     published: false
     volume: 1.0E8
@@ -170,101 +199,121 @@ items:
     published: false
   Ammatar Cathedral:
     id: 19672
+    mass: 100000.0
     name: Ammatar Cathedral
     published: false
     volume: 1.0E8
   Ammatar Deadspace Tactical Unit:
     id: 19673
+    mass: 100000.0
     name: Ammatar Deadspace Tactical Unit
     published: false
     volume: 1.0E8
   Angel Barricade:
     id: 16763
+    mass: 100000.0
     name: Angel Barricade
     published: false
     volume: 1.0E8
   Angel Barrier:
     id: 16765
+    mass: 100000.0
     name: Angel Barrier
     published: false
     volume: 1.0E8
   Angel Battery:
     id: 16761
+    mass: 100000.0
     name: Angel Battery
     published: false
     volume: 1.0E8
   Angel Battlestation:
     id: 11077
+    mass: 100000.0
     name: Angel Battlestation
     published: false
     volume: 1.0E8
   Angel Battlestation_event:
     id: 28247
+    mass: 100000.0
     name: Angel Battlestation_event
     published: false
     volume: 1.0E8
   Angel Bunker:
     id: 16757
+    mass: 100000.0
     name: Angel Bunker
     published: false
     volume: 1.0E8
   Angel Control Tower:
     id: 3591
+    mass: 100000.0
     name: Angel Control Tower
     published: false
     volume: 1150.0
   Angel Elevator:
     id: 16758
+    mass: 100000.0
     name: Angel Elevator
     published: false
     volume: 1.0E8
   Angel Fence:
     id: 16764
+    mass: 100000.0
     name: Angel Fence
     published: false
     volume: 1.0E8
   Angel Junction:
     id: 16759
+    mass: 100000.0
     name: Angel Junction
     published: false
     volume: 1.0E8
   Angel Lookout:
     id: 16760
+    mass: 100000.0
     name: Angel Lookout
     published: false
     volume: 1.0E8
   Angel Wall:
     id: 16762
+    mass: 100000.0
     name: Angel Wall
     published: false
     volume: 1.0E8
   AoE SmartBomb Test:
     id: 25815
+    mass: 100000.0
     name: AoE SmartBomb Test
     published: false
     volume: 1.0E8
   Asteroid Colony:
     id: 16840
+    mass: 100000.0
     name: Asteroid Colony
     published: false
     volume: 1.0E8
   Asteroid Colony Minor:
     id: 22743
+    mass: 100000.0
     name: Asteroid Colony Minor
     published: false
     volume: 1.0E8
   Asteroid Colony Tower:
     id: 16846
+    mass: 100000.0
     name: Asteroid Colony Tower
     published: false
     volume: 1.0E8
   Asteroid Construct:
     id: 16841
+    mass: 100000.0
     name: Asteroid Construct
     published: false
     volume: 1.0E8
   Asteroid Construct Minor:
     id: 22742
+    mass: 100000.0
     name: Asteroid Construct Minor
     published: false
     volume: 1.0E8
@@ -280,36 +329,43 @@ items:
     volume: 1.0
   Asteroid Factory:
     id: 16839
+    mass: 100000.0
     name: Asteroid Factory
     published: false
     volume: 1.0E8
   Asteroid Installation:
     id: 16728
+    mass: 100000.0
     name: Asteroid Installation
     published: false
     volume: 1.0E8
   Asteroid Micro-Colony:
     id: 16847
+    mass: 100000.0
     name: Asteroid Micro-Colony
     published: false
     volume: 1.0E8
   Asteroid Micro-Colony Minor:
     id: 22744
+    mass: 100000.0
     name: Asteroid Micro-Colony Minor
     published: false
     volume: 1.0E8
   Asteroid Prime Colony:
     id: 16842
+    mass: 100000.0
     name: Asteroid Prime Colony
     published: false
     volume: 1.0E8
   Asteroid Prime Colony_MISSION lvl 3:
     id: 20165
+    mass: 100000.0
     name: Asteroid Prime Colony_MISSION lvl 3
     published: false
     volume: 1.0E8
   Asteroid Secondary Colony:
     id: 16844
+    mass: 100000.0
     name: Asteroid Secondary Colony
     published: false
     volume: 1.0E8
@@ -320,216 +376,259 @@ items:
     volume: 1.0
   Asteroid Station - 1:
     id: 23663
+    mass: 1000000.0
     name: Asteroid Station - 1
     published: false
     volume: 1.0E8
   Asteroid Station - 1 - Strong HP:
     id: 28608
+    mass: 1000000.0
     name: Asteroid Station - 1 - Strong HP
     published: false
     volume: 1.0E8
   Asteroid Structure:
     id: 16843
+    mass: 100000.0
     name: Asteroid Structure
     published: false
     volume: 1.0E8
   AstroFarm:
     id: 19711
+    mass: 100000.0
     name: AstroFarm
     published: false
     volume: 1.0E8
   Augmented Angel Battlestation:
     id: 17138
+    mass: 100000.0
     name: Augmented Angel Battlestation
     published: false
     volume: 1.0E8
   Auxiliary Academic Campus:
     id: 2915
+    mass: 100000.0
     name: Auxiliary Academic Campus
     published: false
     volume: 1.0E8
   Billboard:
     id: 29209
+    mass: 100.0
     name: Billboard
     published: false
     volume: 1.0
   Biodome:
     id: 32238
+    mass: 100000.0
     name: Biodome
     published: false
     volume: 1.0E8
   Blasted Neon Sign:
     id: 16862
+    mass: 100000.0
     name: Blasted Neon Sign
     published: false
     volume: 1.0E8
   Blood Raider Barricade:
     id: 16772
+    mass: 100000.0
     name: Blood Raider Barricade
     published: false
     volume: 1.0E8
   Blood Raider Barrier:
     id: 16774
+    mass: 100000.0
     name: Blood Raider Barrier
     published: false
     volume: 1.0E8
   Blood Raider Battery:
     id: 16770
+    mass: 100000.0
     name: Blood Raider Battery
     published: false
     volume: 1.0E8
   Blood Raider Battlestation:
     id: 11081
+    mass: 100000.0
     name: Blood Raider Battlestation
     published: false
     volume: 1.0E8
   Blood Raider Battlestation_event:
     id: 28248
+    mass: 100000.0
     name: Blood Raider Battlestation_event
     published: false
     volume: 1.0E8
   Blood Raider Bhaalgorn:
     id: 25552
+    mass: 100000.0
     name: Blood Raider Bhaalgorn
     published: false
     volume: 1.0E8
   Blood Raider Bunker:
     id: 16766
+    mass: 100000.0
     name: Blood Raider Bunker
     published: false
     volume: 1.0E8
   Blood Raider Cathedral:
     id: 16727
+    mass: 100000.0
     name: Blood Raider Cathedral
     published: false
     volume: 1.0E8
   Blood Raider Cathedral (weak):
     id: 28839
+    mass: 100000.0
     name: Blood Raider Cathedral (weak)
     published: false
     volume: 1.0E8
   Blood Raider Chapel:
     id: 16731
+    mass: 100000.0
     name: Blood Raider Chapel
     published: false
     volume: 1.0E8
   Blood Raider Deadspace Tactical Unit:
     id: 17380
+    mass: 100000.0
     name: Blood Raider Deadspace Tactical Unit
     published: false
     volume: 1.0E8
   Blood Raider Elevator:
     id: 16767
+    mass: 100000.0
     name: Blood Raider Elevator
     published: false
     volume: 1.0E8
   Blood Raider Fence:
     id: 16773
+    mass: 100000.0
     name: Blood Raider Fence
     published: false
     volume: 1.0E8
   Blood Raider Junction:
     id: 16768
+    mass: 100000.0
     name: Blood Raider Junction
     published: false
     volume: 1.0E8
   Blood Raider Lookout:
     id: 16769
+    mass: 100000.0
     name: Blood Raider Lookout
     published: false
     volume: 1.0E8
   Blood Raider Wall:
     id: 16771
+    mass: 100000.0
     name: Blood Raider Wall
     published: false
     volume: 1.0E8
   Bloodsport Arena:
     id: 17393
+    mass: 100000.0
     name: Bloodsport Arena
     published: false
     volume: 1.0E8
   Boundless Creations Data Center:
     id: 32412
+    mass: 100000.0
     name: Boundless Creations Data Center
     published: false
     volume: 1.0E8
   Broadcast Tower:
     id: 26900
+    mass: 100000.0
     name: Broadcast Tower
     published: false
     volume: 1.0E8
   Broken Talocan Coupling Array:
     id: 30510
+    mass: 100000.0
     name: Broken Talocan Coupling Array
     published: false
     volume: 1.0E8
   Bursar:
     id: 26740
+    mass: 100000.0
     name: Bursar
     published: false
     volume: 1.0E8
   Caldari Barricade:
     id: 16780
+    mass: 100000.0
     name: Caldari Barricade
     published: false
     volume: 1.0E8
   Caldari Barrier:
     id: 16782
+    mass: 100000.0
     name: Caldari Barrier
     published: false
     volume: 1.0E8
   Caldari Battery:
     id: 16778
+    mass: 100000.0
     name: Caldari Battery
     published: false
     volume: 1.0E8
   Caldari Bunker:
     id: 29301
+    mass: 100000.0
     name: Caldari Bunker
     published: false
     volume: 1.0E8
   Caldari Deadspace Refining Outpost:
     id: 16850
+    mass: 100000.0
     name: Caldari Deadspace Refining Outpost
     published: false
     volume: 1.0E8
   Caldari Deadspace Repair Outpost:
     id: 16851
+    mass: 100000.0
     name: Caldari Deadspace Repair Outpost
     published: false
     volume: 1.0E8
   Caldari Deadspace Tactical Outpost:
     id: 16852
+    mass: 100000.0
     name: Caldari Deadspace Tactical Outpost
     published: false
     volume: 1.0E8
   Caldari Elevator:
     id: 16775
+    mass: 100000.0
     name: Caldari Elevator
     published: false
     volume: 1.0E8
   Caldari Fence:
     id: 16781
+    mass: 100000.0
     name: Caldari Fence
     published: false
     volume: 1.0E8
   Caldari Junction:
     id: 16776
+    mass: 100000.0
     name: Caldari Junction
     published: false
     volume: 1.0E8
   Caldari Lookout:
     id: 16777
+    mass: 100000.0
     name: Caldari Lookout
     published: false
     volume: 1.0E8
   Caldari Starbase Control Tower:
     id: 17778
+    mass: 100000.0
     name: Caldari Starbase Control Tower
     published: false
     volume: 1150.0
   Caldari Starbase Control Tower_Tough_Good Loot:
     id: 26734
+    mass: 100000.0
     name: Caldari Starbase Control Tower_Tough_Good Loot
     published: false
     volume: 1150.0
@@ -543,46 +642,55 @@ items:
     published: false
   Caldari Tactical Command Post:
     id: 29169
+    mass: 100000.0
     name: Caldari Tactical Command Post
     published: false
     volume: 1.0E8
   Caldari Tactical Relay:
     id: 29172
+    mass: 100000.0
     name: Caldari Tactical Relay
     published: false
     volume: 1.0E8
   Caldari Tactical Supply Station:
     id: 29178
+    mass: 100000.0
     name: Caldari Tactical Supply Station
     published: false
     volume: 1.0E8
   Caldari Tactical Support Center:
     id: 29175
+    mass: 100000.0
     name: Caldari Tactical Support Center
     published: false
     volume: 1.0E8
   Caldari Wall:
     id: 16779
+    mass: 100000.0
     name: Caldari Wall
     published: false
     volume: 1.0E8
   Cargo Rig:
     id: 16729
+    mass: 100000.0
     name: Cargo Rig
     published: false
     volume: 1.0E8
   Circle Construct:
     id: 16853
+    mass: 100000.0
     name: Circle Construct
     published: false
     volume: 1.0E8
   Collapsed Talocan Observation Dome:
     id: 30279
+    mass: 100000.0
     name: Collapsed Talocan Observation Dome
     published: false
     volume: 1.0E8
   Communications Tower:
     id: 28854
+    mass: 100000.0
     name: Communications Tower
     published: false
     volume: 1.0E8
@@ -600,241 +708,290 @@ items:
     published: false
   Cookhouse Shielding Projector:
     id: 48962
+    mass: 1.0
     name: Cookhouse Shielding Projector
     published: false
     volume: 1.0
   Crippled Sleeper Preservation Conduit:
     id: 30276
+    mass: 100000.0
     name: Crippled Sleeper Preservation Conduit
     published: false
     volume: 1.0E8
   Dark Shipyard:
     id: 18568
+    mass: 100000.0
     name: Dark Shipyard
     published: false
     volume: 1.0E8
   Deactivated Acceleration Gate:
     id: 2902
+    mass: 100000.0
     name: Deactivated Acceleration Gate
     published: false
     volume: 1.0E8
   Deadspace Particle Accelerator:
     id: 16849
+    mass: 100000.0
     name: Deadspace Particle Accelerator
     published: false
     volume: 1.0E8
   Deathglow Harvest Silo:
     id: 48961
+    mass: 1.0E8
     name: Deathglow Harvest Silo
     published: false
     volume: 4000.0
   Decrepit Talocan Outpost Core:
     id: 30278
+    mass: 100000.0
     name: Decrepit Talocan Outpost Core
     published: false
     volume: 1.0E8
   Dirty Shipyard:
     id: 18569
+    mass: 100000.0
     name: Dirty Shipyard
     published: false
     volume: 1.0E8
   Disjointed Talocan Outpost Conduit:
     id: 30807
+    mass: 100000.0
     name: Disjointed Talocan Outpost Conduit
     published: false
     volume: 1.0E8
   Disjointed Talocan Outpost Hub:
     id: 30806
+    mass: 100000.0
     name: Disjointed Talocan Outpost Hub
     published: false
     volume: 1.0E8
   Disrupted Talocan Polestar:
     id: 30509
+    mass: 100000.0
     name: Disrupted Talocan Polestar
     published: false
     volume: 1.0E8
   Docked Bestower:
     id: 23860
+    mass: 100000.0
     name: Docked Bestower
     published: false
     volume: 1.0E8
   Drifter Hive:
     id: 42538
+    mass: 100000.0
     name: Drifter Hive
     published: false
     volume: 1.0E8
   Drone Barricade:
     id: 18018
+    mass: 100000.0
     name: Drone Barricade
     published: false
     volume: 1.0E8
   Drone Barrier:
     id: 18020
+    mass: 100000.0
     name: Drone Barrier
     published: false
     volume: 1.0E8
   Drone Battery:
     id: 18016
+    mass: 100000.0
     name: Drone Battery
     published: false
     volume: 1.0E8
   Drone Bunker:
     id: 18012
+    mass: 100000.0
     name: Drone Bunker
     published: false
     volume: 1.0E8
   Drone Elevator:
     id: 18013
+    mass: 100000.0
     name: Drone Elevator
     published: false
     volume: 1.0E8
   Drone Fence:
     id: 18019
+    mass: 100000.0
     name: Drone Fence
     published: false
     volume: 1.0E8
   Drone Junction:
     id: 18014
+    mass: 100000.0
     name: Drone Junction
     published: false
     volume: 1.0E8
   Drone Lookout:
     id: 18015
+    mass: 100000.0
     name: Drone Lookout
     published: false
     volume: 1.0E8
   Drone Structure I:
     id: 16733
+    mass: 100000.0
     name: Drone Structure I
     published: false
     volume: 1.0E8
   Drone Structure II:
     id: 16732
+    mass: 100000.0
     name: Drone Structure II
     published: false
     volume: 1.0E8
   Drone Wall:
     id: 18017
+    mass: 100000.0
     name: Drone Wall
     published: false
     volume: 1.0E8
   Drug Lab:
     id: 28340
+    mass: 1000000.0
     name: Drug Lab
     published: false
   Drug Lab Crash:
     id: 26853
+    mass: 1000000.0
     name: Drug Lab Crash
     published: false
   Drug Lab Exile:
     id: 26854
+    mass: 1000000.0
     name: Drug Lab Exile
     published: false
   Drug Lab Mindflood:
     id: 26855
+    mass: 1000000.0
     name: Drug Lab Mindflood
     published: false
   Empty Station Battery:
     id: 16848
+    mass: 100000.0
     name: Empty Station Battery
     published: false
     volume: 1.0E8
   Eroded Sleeper Thermoelectric Converter:
     id: 30274
+    mass: 100000.0
     name: Eroded Sleeper Thermoelectric Converter
     published: false
     volume: 1.0E8
   Exposed Sleeper Interlink Hub:
     id: 30275
+    mass: 100000.0
     name: Exposed Sleeper Interlink Hub
     published: false
     volume: 1.0E8
   Extremely Powerful EM Forcefield:
     id: 19743
+    mass: 100000.0
     name: Extremely Powerful EM Forcefield
     published: false
     volume: 1.0E8
   Extremely Powerful EM Forcefield_2:
     id: 22711
+    mass: 100000.0
     name: Extremely Powerful EM Forcefield_2
     published: false
     volume: 1.0E8
   Fortified Drug Lab:
     id: 25828
+    mass: 1000000.0
     name: Fortified Drug Lab
     published: false
   Fragmented Cathedral I:
     id: 11167
+    mass: 100000.0
     name: Fragmented Cathedral I
     published: false
     volume: 1.0E8
   Fragmented Cathedral II:
     id: 11168
+    mass: 100000.0
     name: Fragmented Cathedral II
     published: false
     volume: 1.0E8
   Fragmented Cathedral III:
     id: 11169
+    mass: 100000.0
     name: Fragmented Cathedral III
     published: false
     volume: 1.0E8
   Fragmented Cathedral IV:
     id: 11170
+    mass: 100000.0
     name: Fragmented Cathedral IV
     published: false
     volume: 1.0E8
   Fragmented Cathedral I_Under Construction:
     id: 26751
+    mass: 100000.0
     name: Fragmented Cathedral I_Under Construction
     published: false
     volume: 1.0E8
   Fragmented Cathedral V:
     id: 11171
+    mass: 100000.0
     name: Fragmented Cathedral V
     published: false
     volume: 1.0E8
   Freight Pad:
     id: 16860
+    mass: 100000.0
     name: Freight Pad
     published: false
     volume: 1.0E8
   Fuel Depot:
     id: 29262
+    mass: 100000.0
     name: Fuel Depot
     published: false
     volume: 1.0E8
   Fuel Fump_event:
     id: 28234
+    mass: 100000.0
     name: Fuel Fump_event
     published: false
     volume: 1.0E8
   Gallente Barricade:
     id: 16790
+    mass: 100000.0
     name: Gallente Barricade
     published: false
     volume: 1.0E8
   Gallente Barrier:
     id: 16792
+    mass: 100000.0
     name: Gallente Barrier
     published: false
     volume: 1.0E8
   Gallente Battery:
     id: 16788
+    mass: 100000.0
     name: Gallente Battery
     published: false
     volume: 1.0E8
   Gallente Bunker:
     id: 16784
+    mass: 100000.0
     name: Gallente Bunker
     published: false
     volume: 1.0E8
   Gallente Bunker UDI:
     id: 19729
+    mass: 100000.0
     name: Gallente Bunker UDI
     published: false
     volume: 1.0E8
   Gallente Elevator:
     id: 16785
+    mass: 100000.0
     name: Gallente Elevator
     published: false
     volume: 1.0E8
@@ -844,26 +1001,31 @@ items:
     published: false
   Gallente Fence:
     id: 16791
+    mass: 100000.0
     name: Gallente Fence
     published: false
     volume: 1.0E8
   Gallente Junction:
     id: 16786
+    mass: 100000.0
     name: Gallente Junction
     published: false
     volume: 1.0E8
   Gallente Lookout:
     id: 16787
+    mass: 100000.0
     name: Gallente Lookout
     published: false
     volume: 1.0E8
   Gallente Starbase Control Tower:
     id: 17779
+    mass: 100000.0
     name: Gallente Starbase Control Tower
     published: false
     volume: 1150.0
   Gallente Starbase Control Tower Tough:
     id: 32194
+    mass: 100000.0
     name: Gallente Starbase Control Tower Tough
     published: false
     volume: 1150.0
@@ -889,246 +1051,295 @@ items:
     published: false
   Gallente Tactical Command Post:
     id: 29170
+    mass: 100000.0
     name: Gallente Tactical Command Post
     published: false
     volume: 1.0E8
   Gallente Tactical Relay:
     id: 29173
+    mass: 100000.0
     name: Gallente Tactical Relay
     published: false
     volume: 1.0E8
   Gallente Tactical Supply Station:
     id: 29179
+    mass: 100000.0
     name: Gallente Tactical Supply Station
     published: false
     volume: 1.0E8
   Gallente Tactical Support Center:
     id: 29176
+    mass: 100000.0
     name: Gallente Tactical Support Center
     published: false
     volume: 1.0E8
   Gallente Wall:
     id: 16789
+    mass: 100000.0
     name: Gallente Wall
     published: false
     volume: 1.0E8
   Gallentean Deadspace Mansion:
     id: 32239
+    mass: 100000.0
     name: Gallentean Deadspace Mansion
     published: false
     volume: 1.0E8
   Gallentean Deadspace Outpost:
     id: 16855
+    mass: 100000.0
     name: Gallentean Deadspace Outpost
     published: false
     volume: 1.0E8
   Gallentean Laboratory w/scientists:
     id: 28616
+    mass: 100000.0
     name: Gallentean Laboratory w/scientists
     published: false
     volume: 1.0E8
   Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION:
     id: 19533
+    mass: 100000.0
     name: Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION
     published: false
     volume: 1.0E8
   Guristas Barricade:
     id: 16801
+    mass: 100000.0
     name: Guristas Barricade
     published: false
     volume: 1.0E8
   Guristas Barrier:
     id: 16803
+    mass: 100000.0
     name: Guristas Barrier
     published: false
     volume: 1.0E8
   Guristas Battery:
     id: 16794
+    mass: 100000.0
     name: Guristas Battery
     published: false
     volume: 1.0E8
   Guristas Bunker:
     id: 16796
+    mass: 100000.0
     name: Guristas Bunker
     published: false
     volume: 1.0E8
   Guristas Deadspace Tactical Outpost:
     id: 17382
+    mass: 100000.0
     name: Guristas Deadspace Tactical Outpost
     published: false
     volume: 1.0E8
   Guristas Elevator:
     id: 16797
+    mass: 100000.0
     name: Guristas Elevator
     published: false
     volume: 1.0E8
   Guristas Fence:
     id: 16802
+    mass: 100000.0
     name: Guristas Fence
     published: false
     volume: 1.0E8
   Guristas Great Wall:
     id: 16793
+    mass: 100000.0
     name: Guristas Great Wall
     published: false
     volume: 1.0E8
   Guristas Junction:
     id: 16798
+    mass: 100000.0
     name: Guristas Junction
     published: false
     volume: 1.0E8
   Guristas Lookout:
     id: 16799
+    mass: 100000.0
     name: Guristas Lookout
     published: false
     volume: 1.0E8
   Guristas Starbase Control Tower:
     id: 19505
+    mass: 100000.0
     name: Guristas Starbase Control Tower
     published: false
     volume: 1150.0
   Guristas Starbase Control Tower_Tough:
     id: 25991
+    mass: 100000.0
     name: Guristas Starbase Control Tower_Tough
     published: false
     volume: 1150.0
   Guristas Station_event:
     id: 28254
+    mass: 100000.0
     name: Guristas Station_event
     published: false
     volume: 1.0E8
   Guristas Wall:
     id: 16800
+    mass: 100000.0
     name: Guristas Wall
     published: false
     volume: 1.0E8
   Guristas War Installation:
     id: 11079
+    mass: 100000.0
     name: Guristas War Installation
     published: false
     volume: 1.0E8
   Habitation Module - Breeding Facility:
     id: 26894
+    mass: 100000.0
     name: Habitation Module - Breeding Facility
     published: false
     volume: 1.0E8
   Habitation Module - Brothel:
     id: 17394
+    mass: 100000.0
     name: Habitation Module - Brothel
     published: false
     volume: 1.0E8
   Habitation Module - Casino:
     id: 17397
+    mass: 100000.0
     name: Habitation Module - Casino
     published: false
     volume: 1.0E8
   Habitation Module - Narcotics supermarket:
     id: 17396
+    mass: 100000.0
     name: Habitation Module - Narcotics supermarket
     published: false
     volume: 1.0E8
   Habitation Module - Pleasure hub:
     id: 17398
+    mass: 100000.0
     name: Habitation Module - Pleasure hub
     published: false
     volume: 1.0E8
   Habitation Module - Police base:
     id: 17399
+    mass: 100000.0
     name: Habitation Module - Police base
     published: false
     volume: 1.0E8
   Habitation Module - Prison:
     id: 17400
+    mass: 100000.0
     name: Habitation Module - Prison
     published: false
     volume: 1.0E8
   Habitation Module - Residential:
     id: 17395
+    mass: 100000.0
     name: Habitation Module - Residential
     published: false
     volume: 1.0E8
   Habitation Module - Roadhouse:
     id: 17401
+    mass: 100000.0
     name: Habitation Module - Roadhouse
     published: false
     volume: 1.0E8
   Hollow Talocan Extraction Silo:
     id: 30511
+    mass: 100000.0
     name: Hollow Talocan Extraction Silo
     published: false
     volume: 1.0E8
   HumanFarm:
     id: 19712
+    mass: 100000.0
     name: HumanFarm
     published: false
     volume: 1.0E8
   Hydrochloric Acid Manufacturing Plant:
     id: 28582
+    mass: 1000000.0
     name: Hydrochloric Acid Manufacturing Plant
     published: false
     volume: 150.0
   Imai Kenon's Corpse:
     id: 19593
+    mass: 100000.0
     name: Imai Kenon's Corpse
     published: false
     volume: 1.0E8
   Inactive Drone Sentry:
     id: 18021
+    mass: 100000.0
     name: Inactive Drone Sentry
     published: false
     volume: 1.0E8
   Infested station ruins:
     id: 16736
+    mass: 100000.0
     name: Infested station ruins
     published: false
     volume: 1.0E8
   Inverted Talocan Exchange Depot:
     id: 30508
+    mass: 100000.0
     name: Inverted Talocan Exchange Depot
     published: false
     volume: 1.0E8
   Landing Pad:
     id: 16735
+    mass: 100000.0
     name: Landing Pad
     published: false
     volume: 1.0E8
   Large Container of Explosives:
     id: 29446
+    mass: 100000.0
     name: Large Container of Explosives
     published: false
     volume: 1.0E8
   Large EM Forcefield:
     id: 13200
+    mass: 100000.0
     name: Large EM Forcefield
     published: false
     volume: 1.0E8
   Listening Post_event:
     id: 28228
+    mass: 100000.0
     name: Listening Post_event
     published: false
     volume: 1150.0
   Low-Tech Deadspace Energy Harvester:
     id: 16864
+    mass: 100000.0
     name: Low-Tech Deadspace Energy Harvester
     published: false
     volume: 1.0E8
   Magnetic Retainment Field:
     id: 16866
+    mass: 100000.0
     name: Magnetic Retainment Field
     published: false
     volume: 1.0E8
   Malfunctioning Sleeper Multiplex Forwarder:
     id: 30277
+    mass: 100000.0
     name: Malfunctioning Sleeper Multiplex Forwarder
     published: false
     volume: 1.0E8
   Meat Popsicle:
     id: 16845
+    mass: 100000.0
     name: Meat Popsicle
     published: false
     volume: 1.0E8
   Minas Iksan's Revelation_old:
     id: 22718
+    mass: 1.125E9
     name: Minas Iksan's Revelation_old
     published: false
     volume: 1.85E7
@@ -1139,56 +1350,67 @@ items:
     volume: 1.0
   Minmatar Barricade:
     id: 16811
+    mass: 100000.0
     name: Minmatar Barricade
     published: false
     volume: 1.0E8
   Minmatar Barrier:
     id: 16804
+    mass: 100000.0
     name: Minmatar Barrier
     published: false
     volume: 1.0E8
   Minmatar Battery:
     id: 16809
+    mass: 100000.0
     name: Minmatar Battery
     published: false
     volume: 1.0E8
   Minmatar Bunker:
     id: 16805
+    mass: 100000.0
     name: Minmatar Bunker
     published: false
     volume: 1.0E8
   Minmatar Deadspace Refining Outpost:
     id: 16857
+    mass: 100000.0
     name: Minmatar Deadspace Refining Outpost
     published: false
     volume: 1.0E8
   Minmatar Deadspace Repair Outpost:
     id: 16858
+    mass: 100000.0
     name: Minmatar Deadspace Repair Outpost
     published: false
     volume: 1.0E8
   Minmatar Deadspace Tactical Outpost:
     id: 16859
+    mass: 100000.0
     name: Minmatar Deadspace Tactical Outpost
     published: false
     volume: 1.0E8
   Minmatar Elevator:
     id: 16806
+    mass: 100000.0
     name: Minmatar Elevator
     published: false
     volume: 1.0E8
   Minmatar Fence:
     id: 16812
+    mass: 100000.0
     name: Minmatar Fence
     published: false
     volume: 1.0E8
   Minmatar Junction:
     id: 16807
+    mass: 100000.0
     name: Minmatar Junction
     published: false
     volume: 1.0E8
   Minmatar Lookout:
     id: 16808
+    mass: 100000.0
     name: Minmatar Lookout
     published: false
     volume: 1.0E8
@@ -1198,16 +1420,19 @@ items:
     published: false
   Minmatar Starbase Control Tower:
     id: 17780
+    mass: 100000.0
     name: Minmatar Starbase Control Tower
     published: false
     volume: 1150.0
   Minmatar Starbase Control Tower_Tough_Good Loot:
     id: 26729
+    mass: 100000.0
     name: Minmatar Starbase Control Tower_Tough_Good Loot
     published: false
     volume: 1150.0
   Minmatar Starbase Control Tower_Tough_Good Loot_testing:
     id: 27290
+    mass: 100000.0
     name: Minmatar Starbase Control Tower_Tough_Good Loot_testing
     published: false
     volume: 1150.0
@@ -1221,51 +1446,61 @@ items:
     published: false
   Minmatar Tactical Command Post:
     id: 29171
+    mass: 100000.0
     name: Minmatar Tactical Command Post
     published: false
     volume: 1.0E8
   Minmatar Tactical Relay:
     id: 29174
+    mass: 100000.0
     name: Minmatar Tactical Relay
     published: false
     volume: 1.0E8
   Minmatar Tactical Supply Station:
     id: 29180
+    mass: 100000.0
     name: Minmatar Tactical Supply Station
     published: false
     volume: 1.0E8
   Minmatar Tactical Support Center:
     id: 29177
+    mass: 100000.0
     name: Minmatar Tactical Support Center
     published: false
     volume: 1.0E8
   Minmatar Wall:
     id: 16810
+    mass: 100000.0
     name: Minmatar Wall
     published: false
     volume: 1.0E8
   Mobile Shipping Unit:
     id: 33480
+    mass: 100000.0
     name: Mobile Shipping Unit
     published: false
     volume: 1.0E8
   Occupied Amarr Bunker:
     id: 16748
+    mass: 100000.0
     name: Occupied Amarr Bunker
     published: false
     volume: 1.0E8
   Offline Talocan Reactor Spire:
     id: 30280
+    mass: 100000.0
     name: Offline Talocan Reactor Spire
     published: false
     volume: 1.0E8
   Partially constructed Megathron:
     id: 16734
+    mass: 100000.0
     name: Partially constructed Megathron
     published: false
     volume: 1.0E8
   Patient Zero:
     id: 2896
+    mass: 100000.0
     name: Patient Zero
     published: false
     volume: 1.0E8
@@ -1275,171 +1510,205 @@ items:
     published: false
   Plasma Chamber:
     id: 34303
+    mass: 100000.0
     name: Plasma Chamber
     published: false
     volume: 1.0E8
   Power Generator:
     id: 13034
+    mass: 100000.0
     name: Power Generator
     published: false
     volume: 1.0E8
   Power Generator 250k:
     id: 29467
+    mass: 100000.0
     name: Power Generator 250k
     published: false
     volume: 1.0E8
   Powerful EM Forcefield:
     id: 17763
+    mass: 100000.0
     name: Powerful EM Forcefield
     published: false
     volume: 1.0E8
   Pressure Silo:
     id: 16856
+    mass: 100000.0
     name: Pressure Silo
     published: false
     volume: 1.0E8
   Prison_event:
     id: 28246
+    mass: 100000.0
     name: Prison_event
     published: false
     volume: 1.0E8
   Proximity Charge:
     id: 32349
+    mass: 100000.0
     name: Proximity Charge
     published: false
     volume: 1.0E8
   Pulsating Sensor:
     id: 16854
+    mass: 100000.0
     name: Pulsating Sensor
     published: false
     volume: 1.0E8
   Radio Telescope:
     id: 16831
+    mass: 100000.0
     name: Radio Telescope
     published: false
     volume: 1.0E8
   Radioactive Cargo Rig:
     id: 26706
+    mass: 100000.0
     name: Radioactive Cargo Rig
     published: false
     volume: 1.0E8
   Rapid Pulse Sentry:
     id: 16865
+    mass: 100000.0
     name: Rapid Pulse Sentry
     published: false
     volume: 1.0E8
   Reinforced Drone Bunker:
     id: 4011
+    mass: 100000.0
     name: Reinforced Drone Bunker
     published: false
     volume: 1.0E8
   Reinforced Nation Outpost:
     id: 3500
+    mass: 100000.0
     name: Reinforced Nation Outpost
     published: false
     volume: 1.0E8
   Remote Cloaking Array:
     id: 28065
+    mass: 100.0
     name: Remote Cloaking Array
     published: false
     volume: 100.0
   Rent-A-Dream Pleasure Gardens:
     id: 12989
+    mass: 100000.0
     name: Rent-A-Dream Pleasure Gardens
     published: false
     volume: 1.0E8
   Repair Station:
     id: 27063
+    mass: 100000.0
     name: Repair Station
     published: false
     volume: 1.0E8
   Republic Fleet Naglfar - Under Construction:
     id: 22712
+    mass: 1.025E9
     name: Republic Fleet Naglfar - Under Construction
     published: false
     volume: 1.55E7
   Research Station:
     id: 28258
+    mass: 100000.0
     name: Research Station
     published: false
     volume: 1.0E8
   Revelation - Under Construction:
     id: 22758
+    mass: 1.125E9
     name: Revelation - Under Construction
     published: false
     volume: 1.85E7
   Ruined Stargate:
     id: 16737
+    mass: 100000.0
     name: Ruined Stargate
     published: false
     volume: 1.0E8
   Sansha Barricade:
     id: 16820
+    mass: 100000.0
     name: Sansha Barricade
     published: false
     volume: 1.0E8
   Sansha Barrier:
     id: 16821
+    mass: 100000.0
     name: Sansha Barrier
     published: false
     volume: 1.0E8
   Sansha Battery:
     id: 16818
+    mass: 100000.0
     name: Sansha Battery
     published: false
     volume: 1.0E8
   Sansha Battlestation_event:
     id: 28252
+    mass: 100000.0
     name: Sansha Battlestation_event
     published: false
     volume: 1.0E8
   Sansha Bunker:
     id: 16814
+    mass: 100000.0
     name: Sansha Bunker
     published: false
     volume: 1.0E8
   Sansha Deadspace Outpost I:
     id: 17381
+    mass: 100000.0
     name: Sansha Deadspace Outpost I
     published: false
     volume: 1.0E8
   Sansha Elevator:
     id: 16815
+    mass: 100000.0
     name: Sansha Elevator
     published: false
     volume: 1.0E8
   Sansha Fence:
     id: 16813
+    mass: 100000.0
     name: Sansha Fence
     published: false
     volume: 1.0E8
   Sansha Junction:
     id: 16816
+    mass: 100000.0
     name: Sansha Junction
     published: false
     volume: 1.0E8
   Sansha Lookout:
     id: 16817
+    mass: 100000.0
     name: Sansha Lookout
     published: false
     volume: 1.0E8
   Sansha Starbase Control Tower:
     id: 3499
+    mass: 100000.0
     name: Sansha Starbase Control Tower
     published: false
     volume: 1.0E8
   Sansha Wall:
     id: 16819
+    mass: 100000.0
     name: Sansha Wall
     published: false
     volume: 1.0E8
   Sansha's Battletower:
     id: 11080
+    mass: 100000.0
     name: Sansha's Battletower
     published: false
     volume: 1.0E8
   Scanner Post:
     id: 13106
+    mass: 100000.0
     name: Scanner Post
     published: false
     volume: 1.0E8
@@ -1449,56 +1718,67 @@ items:
     published: false
   Secured Drone Bunker:
     id: 20182
+    mass: 100000.0
     name: Secured Drone Bunker
     published: false
     volume: 1.0E8
   Security Outpost:
     id: 17140
+    mass: 100000.0
     name: Security Outpost
     published: false
     volume: 1.0E8
   Seeker Bunker:
     id: 47401
+    mass: 1000.0
     name: Seeker Bunker
     published: false
     volume: 1000.0
   Serpentis Barricade:
     id: 23222
+    mass: 100000.0
     name: Serpentis Barricade
     published: false
     volume: 1.0E8
   Serpentis Barrier:
     id: 16830
+    mass: 100000.0
     name: Serpentis Barrier
     published: false
     volume: 1.0E8
   Serpentis Battery:
     id: 16826
+    mass: 100000.0
     name: Serpentis Battery
     published: false
     volume: 1.0E8
   Serpentis Bunker:
     id: 16822
+    mass: 100000.0
     name: Serpentis Bunker
     published: false
     volume: 1.0E8
   Serpentis Elevator:
     id: 16823
+    mass: 100000.0
     name: Serpentis Elevator
     published: false
     volume: 1.0E8
   Serpentis Fence:
     id: 16829
+    mass: 100000.0
     name: Serpentis Fence
     published: false
     volume: 1.0E8
   Serpentis Junction:
     id: 16824
+    mass: 100000.0
     name: Serpentis Junction
     published: false
     volume: 1.0E8
   Serpentis Lookout:
     id: 16825
+    mass: 100000.0
     name: Serpentis Lookout
     published: false
     volume: 1.0E8
@@ -1508,201 +1788,241 @@ items:
     published: false
   Serpentis Stronghold:
     id: 11076
+    mass: 100000.0
     name: Serpentis Stronghold
     published: false
     volume: 1.0E8
   Serpentis Wall:
     id: 16827
+    mass: 100000.0
     name: Serpentis Wall
     published: false
     volume: 1.0E8
   Shipyard:
     id: 18567
+    mass: 100000.0
     name: Shipyard
     published: false
     volume: 1.0E8
   Shipyard Tough:
     id: 29468
+    mass: 100000.0
     name: Shipyard Tough
     published: false
     volume: 1.0E8
   Sisters of EVE Aid Station:
     id: 26897
+    mass: 100000.0
     name: Sisters of EVE Aid Station
     published: false
     volume: 1.0E8
   Sleeper Archive Terminal:
     id: 30927
+    mass: 100000.0
     name: Sleeper Archive Terminal
     published: false
     volume: 1.0E8
   Small Armory:
     id: 16215
+    mass: 100000.0
     name: Small Armory
     published: false
     volume: 1.0E8
   Smuggler Stargate:
     id: 24245
+    mass: 1.0E35
     name: Smuggler Stargate
     published: false
     volume: 1.0E8
   Smuggler Stargate Strong:
     id: 24453
+    mass: 1.0E35
     name: Smuggler Stargate Strong
     published: false
     volume: 1.0E8
   Solar Harvester:
     id: 16738
+    mass: 100000.0
     name: Solar Harvester
     published: false
     volume: 1.0E8
   Stabber LCS:
     id: 25725
+    mass: 100000.0
     name: Stabber LCS
     published: false
     volume: 1.0E8
   Starbase Auxiliary Power Array:
     id: 17784
+    mass: 100.0
     name: Starbase Auxiliary Power Array
     published: false
     volume: 100.0
   Starbase Auxiliary Power Array I:
     id: 29437
+    mass: 100.0
     name: Starbase Auxiliary Power Array I
     published: false
     volume: 100.0
   Starbase Auxiliary Power Array II:
     id: 29325
+    mass: 100.0
     name: Starbase Auxiliary Power Array II
     published: false
     volume: 100.0
   Starbase Auxiliary Power Array III:
     id: 29346
+    mass: 100.0
     name: Starbase Auxiliary Power Array III
     published: false
     volume: 100.0
   Starbase Capital Ship Maintenance Array:
     id: 26723
+    mass: 1000000.0
     name: Starbase Capital Ship Maintenance Array
     published: false
     volume: 40000.0
   Starbase Capital Shipyard:
     id: 26724
+    mass: 100000.0
     name: Starbase Capital Shipyard
     published: false
     volume: 4000.0
   Starbase Explosion Dampening Array:
     id: 26727
+    mass: 4000.0
     name: Starbase Explosion Dampening Array
     published: false
     volume: 4000.0
   Starbase Force Field Array:
     id: 17783
+    mass: 100.0
     name: Starbase Force Field Array
     published: false
     volume: 100.0
   Starbase Hangar:
     id: 17781
+    mass: 100000.0
     name: Starbase Hangar
     published: false
     volume: 1150.0
   Starbase Hangar Tough:
     id: 29461
+    mass: 100000.0
     name: Starbase Hangar Tough
     published: false
     volume: 1150.0
   Starbase Ion Field Projection Battery:
     id: 17782
+    mass: 100.0
     name: Starbase Ion Field Projection Battery
     published: false
     volume: 100.0
   Starbase Major Assembly Array:
     id: 17775
+    mass: 100000.0
     name: Starbase Major Assembly Array
     published: false
     volume: 1.0E8
   Starbase Medium Refinery:
     id: 17789
+    mass: 1000000.0
     name: Starbase Medium Refinery
     published: false
     volume: 1150.0
   Starbase Minor Assembly Array:
     id: 17776
+    mass: 100000.0
     name: Starbase Minor Assembly Array
     published: false
     volume: 1.0E8
   Starbase Minor Refinery:
     id: 17790
+    mass: 1000000.0
     name: Starbase Minor Refinery
     published: false
     volume: 1150.0
   Starbase Mobile Factory:
     id: 26726
+    mass: 1000000.0
     name: Starbase Mobile Factory
     published: false
     volume: 150.0
   Starbase Moon Harvester:
     id: 17788
+    mass: 1000000.0
     name: Starbase Moon Harvester
     published: false
     volume: 1150.0
   Starbase Moon Mining Silo:
     id: 26728
+    mass: 1000000.0
     name: Starbase Moon Mining Silo
     published: false
     volume: 4000.0
   Starbase Reactor Array:
     id: 17785
+    mass: 1000000.0
     name: Starbase Reactor Array
     published: false
     volume: 1150.0
   Starbase Shield Generator:
     id: 17786
+    mass: 1.0
     name: Starbase Shield Generator
     published: false
     volume: 1.0
   Starbase Ship-Maintenance Array:
     id: 26722
+    mass: 1000000.0
     name: Starbase Ship-Maintenance Array
     published: false
     volume: 8000.0
   Starbase Silo:
     id: 26720
+    mass: 1000000.0
     name: Starbase Silo
     published: false
     volume: 4000.0
   Starbase Stealth Emitter Array:
     id: 26725
+    mass: 100.0
     name: Starbase Stealth Emitter Array
     published: false
     volume: 100.0
   Starbase Storage Facility:
     id: 17787
+    mass: 1000000.0
     name: Starbase Storage Facility
     published: false
     volume: 1150.0
   Starbase Ultra-Fast Silo:
     id: 26721
+    mass: 1000000.0
     name: Starbase Ultra-Fast Silo
     published: false
     volume: 4000.0
   Stargate - Caldari 1:
     id: 24565
+    mass: 1.0E35
     name: Stargate - Caldari 1
     published: false
     volume: 1.0E8
   Stargate Gallente 1:
     id: 23963
+    mass: 1.0E35
     name: Stargate Gallente 1
     published: false
     volume: 1.0E8
   Stargate Minmatar 1:
     id: 24685
+    mass: 1.0E35
     name: Stargate Minmatar 1
     published: false
     volume: 1.0E8
   Static Caracal Navy Issue:
     id: 25363
+    mass: 1.01E7
     name: Static Caracal Navy Issue
     published: false
     volume: 101000.0
@@ -1736,21 +2056,25 @@ items:
     published: false
   Stationary Bestower:
     id: 17626
+    mass: 100000.0
     name: Stationary Bestower
     published: false
     volume: 1.0E8
   Stationary Iteron V:
     id: 17628
+    mass: 100000.0
     name: Stationary Iteron V
     published: false
     volume: 1.0E8
   Stationary Mammoth:
     id: 17627
+    mass: 100000.0
     name: Stationary Mammoth
     published: false
     volume: 1.0E8
   Stationary Pleasure Yacht:
     id: 29149
+    mass: 1.3075E7
     name: Stationary Pleasure Yacht
     published: false
     volume: 115000.0
@@ -1760,86 +2084,103 @@ items:
     published: false
   Stationary Tayra:
     id: 17629
+    mass: 100000.0
     name: Stationary Tayra
     published: false
     volume: 1.0E8
   Storage Facility - radioactive stuff and small arms:
     id: 26704
+    mass: 1000000.0
     name: Storage Facility - radioactive stuff and small arms
     published: false
     volume: 1150.0
   Subspace Beacon:
     id: 29189
+    mass: 100000.0
     name: Subspace Beacon
     published: false
     volume: 1.0E8
   Subspace Frequency Generator:
     id: 16861
+    mass: 100000.0
     name: Subspace Frequency Generator
     published: false
     volume: 1.0E8
   Supply Depot_event:
     id: 28235
+    mass: 100000.0
     name: Supply Depot_event
     published: false
     volume: 1.0E8
   Tough Gallente Starbase Control Tower:
     id: 26737
+    mass: 100000.0
     name: Tough Gallente Starbase Control Tower
     published: false
     volume: 1150.0
   Tutorial Fuel Depot:
     id: 3858
+    mass: 100000.0
     name: Tutorial Fuel Depot
     published: false
     volume: 1.0E8
   Unlicensed Mindclash Arena:
     id: 26899
+    mass: 100000.0
     name: Unlicensed Mindclash Arena
     published: false
     volume: 1.0E8
   Unstable Signal Disruptor:
     id: 35764
+    mass: 100000.0
     name: Unstable Signal Disruptor
     published: false
     volume: 1.0E8
   Unstable Wreckage:
     id: 48652
+    mass: 1000.0
     name: Unstable Wreckage
     published: false
     volume: 1000.0
   Visera Yanala:
     id: 29391
+    mass: 100000.0
     name: Visera Yanala
     published: false
     volume: 1.0E8
   Warp Core Hotel:
     id: 32264
+    mass: 100000.0
     name: Warp Core Hotel
     published: false
     volume: 1.0E8
   Warp Disruption Generator:
     id: 42690
+    mass: 1000.0
     name: Warp Disruption Generator
     published: false
     volume: 1000.0
   Weakened Sleeper Drone Hangar:
     id: 30512
+    mass: 100000.0
     name: Weakened Sleeper Drone Hangar
     published: false
     volume: 1.0E8
   Weapon's Storage Facility:
     id: 26240
+    mass: 1000000.0
     name: Weapon's Storage Facility
     published: false
     volume: 1150.0
   Wiyrkomi Storage:
     id: 23571
+    mass: 1000000.0
     name: Wiyrkomi Storage
     published: false
     volume: 1150.0
   Worn Talocan Static Gate:
     id: 30507
+    mass: 100000.0
     name: Worn Talocan Static Gate
     published: false
     volume: 1.0E8

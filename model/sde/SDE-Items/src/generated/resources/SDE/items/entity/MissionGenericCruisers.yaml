@@ -1,581 +1,697 @@
 items:
   Akori:
     id: 11677
+    mass: 1.09E7
     name: Akori
     published: false
     volume: 109000.0
   Alena Karyn:
     id: 11708
+    mass: 1.12E7
     name: Alena Karyn
     published: false
     volume: 112000.0
   Borain Doleni:
     id: 16574
+    mass: 1.001E7
     name: Borain Doleni
     published: false
     volume: 100100.0
   Bounty Hunter Ikaruz:
     id: 11668
+    mass: 1.18E7
     name: Bounty Hunter Ikaruz
     published: false
     volume: 118000.0
   Bounty Hunter Jason:
     id: 11670
+    mass: 1.09E7
     name: Bounty Hunter Jason
     published: false
     volume: 109000.0
   Bounty Hunter Obunga:
     id: 11669
+    mass: 1.09E7
     name: Bounty Hunter Obunga
     published: false
     volume: 109000.0
   Bounty Hunter Okochyn:
     id: 11671
+    mass: 1.09E7
     name: Bounty Hunter Okochyn
     published: false
     volume: 109000.0
   Burner Ashimmu:
     id: 34785
+    mass: 1.18E7
     name: Burner Ashimmu
     published: false
     volume: 118000.0
   Burner Talos:
     id: 34783
+    mass: 1.12E7
     name: Burner Talos
     published: false
     volume: 112000.0
   Captain Jerek Zuomi:
     id: 15583
+    mass: 1.225E7
     name: Captain Jerek Zuomi
     published: false
     volume: 115000.0
   Captain Jerome Leman:
     id: 15585
+    mass: 1.225E7
     name: Captain Jerome Leman
     published: false
     volume: 113000.0
   Captain Jym Muntoya:
     id: 16873
+    mass: 1.01E7
     name: Captain Jym Muntoya
     published: false
     volume: 101000.0
   Captain Kali Midez:
     id: 15586
+    mass: 1.025E7
     name: Captain Kali Midez
     published: false
     volume: 89000.0
   Captain Mizuma Gomi:
     id: 15584
+    mass: 1.3E7
     name: Captain Mizuma Gomi
     published: false
     volume: 107000.0
   Captain Yeni Sarum:
     id: 15582
+    mass: 1.225E7
     name: Captain Yeni Sarum
     published: false
     volume: 115000.0
   Cathedral Carrier:
     id: 13268
+    mass: 1.225E7
     name: Cathedral Carrier
     published: false
     volume: 113000.0
   Darkonnen Gang Leader:
     id: 13896
+    mass: 1.18E7
     name: Darkonnen Gang Leader
     published: false
     volume: 118000.0
   Darkonnen Overlord:
     id: 13897
+    mass: 1.18E7
     name: Darkonnen Overlord
     published: false
     volume: 118000.0
   Drazin Jaruk:
     id: 13771
+    mass: 1.09E7
     name: Drazin Jaruk
     published: false
     volume: 109000.0
   Elena Gazky:
     id: 12255
+    mass: 1.001E7
     name: Elena Gazky
     published: false
     volume: 100100.0
   EoM Black Priest:
     id: 16095
+    mass: 1.01E7
     name: EoM Black Priest
     published: false
     volume: 101000.0
   EoM Crusader:
     id: 16096
+    mass: 1.01E7
     name: EoM Crusader
     published: false
     volume: 101000.0
   EoM Death Knight:
     id: 16097
+    mass: 1.01E7
     name: EoM Death Knight
     published: false
     volume: 101000.0
   EoM Priest:
     id: 16093
+    mass: 9600000.0
     name: EoM Priest
     published: false
     volume: 96000.0
   EoM Prophet:
     id: 16094
+    mass: 9200000.0
     name: EoM Prophet
     published: false
     volume: 92000.0
   Ex-Elite Secret Agent:
     id: 16209
+    mass: 1.09E7
     name: Ex-Elite Secret Agent
     published: false
     volume: 109000.0
   Freedom Patriot:
     id: 16251
+    mass: 1.075E7
     name: Freedom Patriot
     published: false
     volume: 85000.0
   Gaabu Moniq:
     id: 16199
+    mass: 1.025E7
     name: Gaabu Moniq
     published: false
     volume: 89000.0
   Grecko:
     id: 12197
+    mass: 1.195E7
     name: Grecko
     published: false
     volume: 118000.0
   Hari Kaimo:
     id: 15390
+    mass: 1.01E7
     name: Hari Kaimo
     published: false
     volume: 101000.0
   Hunter Malbreth:
     id: 19681
+    mass: 1.09E7
     name: Hunter Malbreth
     published: false
     volume: 109000.0
   Ibrahim:
     id: 11676
+    mass: 1.09E7
     name: Ibrahim
     published: false
     volume: 109000.0
   Ixon Reaver:
     id: 19676
+    mass: 1.09E7
     name: Ixon Reaver
     published: false
     volume: 109000.0
   Jabar Kurr:
     id: 16609
+    mass: 1.09E7
     name: Jabar Kurr
     published: false
     volume: 109000.0
   Jaques Klemont:
     id: 16588
+    mass: 1.25E7
     name: Jaques Klemont
     published: false
     volume: 120000.0
   Jarkon Puman:
     id: 19662
+    mass: 1.12E7
     name: Jarkon Puman
     published: false
     volume: 112000.0
   Juddi Temu:
     id: 16584
+    mass: 1.25E7
     name: Juddi Temu
     published: false
     volume: 120000.0
   Kaltoh Kurzon:
     id: 16198
+    mass: 1.09E7
     name: Kaltoh Kurzon
     published: false
     volume: 109000.0
   Karbim Dula:
     id: 16556
+    mass: 1.275E7
     name: Karbim Dula
     published: false
     volume: 118000.0
   Karothas:
     id: 11675
+    mass: 1.09E7
     name: Karothas
     published: false
     volume: 109000.0
   Keizo Veron:
     id: 16581
+    mass: 1.025E7
     name: Keizo Veron
     published: false
     volume: 89000.0
   Kimo Sekuta:
     id: 16585
+    mass: 1.2E7
     name: Kimo Sekuta
     published: false
     volume: 112000.0
   Komni Assassin:
     id: 13905
+    mass: 9200000.0
     name: Komni Assassin
     published: false
     volume: 92000.0
   Komni Honcho:
     id: 13906
+    mass: 1.01E7
     name: Komni Honcho
     published: false
     volume: 101000.0
   Korrani Salemo:
     id: 13670
+    mass: 1.01E7
     name: Korrani Salemo
     published: false
     volume: 101000.0
   Kruul:
     id: 11597
+    mass: 9900000.0
     name: Kruul
     published: false
     volume: 99000.0
   Kungizo Eladar:
     id: 24454
+    mass: 1.12E7
     name: Kungizo Eladar
     published: false
     volume: 112000.0
   Kuran 'Scarface' Lonan:
     id: 13673
+    mass: 1.09E7
     name: Kuran 'Scarface' Lonan
     published: false
     volume: 109000.0
   Kuzak Obliterator:
     id: 16254
+    mass: 1.2155E7
     name: Kuzak Obliterator
     published: false
     volume: 99000.0
   Lephny's Mining Boat:
     id: 20714
+    mass: 9.6E7
     name: Lephny's Mining Boat
     published: false
     volume: 960000.0
   Lieutenant Asitei Ohkunen:
     id: 29912
+    mass: 1.01E7
     name: Lieutenant Asitei Ohkunen
     published: false
     volume: 101000.0
   Lieutenant Elois Ottin:
     id: 29918
+    mass: 1.12E7
     name: Lieutenant Elois Ottin
     published: false
     volume: 112000.0
   Lieutenant Kannen Sumas:
     id: 29926
+    mass: 1.18E7
     name: Lieutenant Kannen Sumas
     published: false
     volume: 118000.0
   Lieutenant Kaura Triat:
     id: 29908
+    mass: 1.09E7
     name: Lieutenant Kaura Triat
     published: false
     volume: 109000.0
   Lieutenant Onuoto TS-08A:
     id: 29923
+    mass: 1.001E7
     name: Lieutenant Onuoto TS-08A
     published: false
     volume: 100100.0
   Lieutenant Rayle Melania:
     id: 29919
+    mass: 1.12E7
     name: Lieutenant Rayle Melania
     published: false
     volume: 112000.0
   Lieutenant Sukkenen Fusura:
     id: 29913
+    mass: 1.01E7
     name: Lieutenant Sukkenen Fusura
     published: false
     volume: 101000.0
   Lieutenant Thora Faband:
     id: 29905
+    mass: 1.09E7
     name: Lieutenant Thora Faband
     published: false
     volume: 109000.0
   Lynk:
     id: 13672
+    mass: 1.09E7
     name: Lynk
     published: false
     volume: 109000.0
   Maccen Aman:
     id: 16580
+    mass: 1.25E7
     name: Maccen Aman
     published: false
     volume: 120000.0
   Malad Dorsin:
     id: 16559
+    mass: 1.25E7
     name: Malad Dorsin
     published: false
     volume: 120000.0
   Maru Harbinger:
     id: 13900
+    mass: 1.001E7
     name: Maru Harbinger
     published: false
     volume: 100100.0
   Maru Raid Leader:
     id: 13899
+    mass: 1.001E7
     name: Maru Raid Leader
     published: false
     volume: 100100.0
   Maryk Ogun:
     id: 12892
+    mass: 1.12E7
     name: Maryk Ogun
     published: false
     volume: 112000.0
   Maylan Falek:
     id: 16250
+    mass: 1.15E7
     name: Maylan Falek
     published: false
     volume: 96000.0
   Mercenary Commander:
     id: 12835
+    mass: 9200000.0
     name: Mercenary Commander
     published: false
     volume: 92000.0
   Mercenary Corporal:
     id: 19768
+    mass: 1.01E7
     name: Mercenary Corporal
     published: false
     volume: 101000.0
   Mercenary Lieutenant:
     id: 19769
+    mass: 1.01E7
     name: Mercenary Lieutenant
     published: false
     volume: 101000.0
   Militia Guardian:
     id: 16626
+    mass: 1200000.0
     name: Militia Guardian
     published: false
     volume: 109000.0
   Mysterious Drone:
     id: 30819
+    mass: 1.09E7
     name: Mysterious Drone
     published: false
     volume: 109000.0
   Nugoeihuvi Agent:
     id: 16256
+    mass: 1.3E7
     name: Nugoeihuvi Agent
     published: false
     volume: 107000.0
   Odamian Master:
     id: 13903
+    mass: 1.12E7
     name: Odamian Master
     published: false
     volume: 112000.0
   Odamian Veteran:
     id: 13902
+    mass: 1.15E7
     name: Odamian Veteran
     published: false
     volume: 115000.0
   Olufami:
     id: 12253
+    mass: 1.09E7
     name: Olufami
     published: false
     volume: 109000.0
   Opux Luxury Yacht - Level 1:
     id: 28826
+    mass: 1.3075E7
     name: Opux Luxury Yacht - Level 1
     published: false
     volume: 115000.0
   Pierre Turon:
     id: 15391
+    mass: 1.2E7
     name: Pierre Turon
     published: false
     volume: 112000.0
   Pirate Transport Ship:
     id: 15333
+    mass: 9.6E7
     name: Pirate Transport Ship
     published: false
     volume: 960000.0
   Pleasure Cruiser:
     id: 16545
+    mass: 1.3075E7
     name: Pleasure Cruiser
     published: false
     volume: 115000.0
   Ratei Jezzor:
     id: 20547
+    mass: 1.01E7
     name: Ratei Jezzor
     published: false
     volume: 101000.0
   Rogue Mercenary Thorn:
     id: 18573
+    mass: 1.09E7
     name: Rogue Mercenary Thorn
     published: false
     volume: 109000.0
   Rogue Pirate:
     id: 13513
+    mass: 1.09E7
     name: Rogue Pirate
     published: false
     volume: 109000.0
   Rogue Pirate Escort:
     id: 11722
+    mass: 1.09E7
     name: Rogue Pirate Escort
     published: false
     volume: 109000.0
   Rogue Pirate Raider:
     id: 20279
+    mass: 1.09E7
     name: Rogue Pirate Raider
     published: false
     volume: 109000.0
   Rogue Pirate Transport Ship:
     id: 11721
+    mass: 9.6E7
     name: Rogue Pirate Transport Ship
     published: false
     volume: 960000.0
   Roland:
     id: 11684
+    mass: 1970000.0
     name: Roland
     published: false
     volume: 19700.0
   Sarrah:
     id: 12251
+    mass: 1.09E7
     name: Sarrah
     published: false
     volume: 109000.0
   Schmidt:
     id: 12252
+    mass: 1.18E7
     name: Schmidt
     published: false
     volume: 118000.0
   Scope Reporter:
     id: 29024
+    mass: 1.13E7
     name: Scope Reporter
     published: false
     volume: 113000.0
   Serpentis Burner Cruiser:
     id: 34592
+    mass: 1.12E7
     name: Serpentis Burner Cruiser
     published: false
     volume: 112000.0
   Seven Assassin:
     id: 18578
+    mass: 1.09E7
     name: Seven Assassin
     published: false
     volume: 109000.0
   Seven Bodyguard:
     id: 18579
+    mass: 1.09E7
     name: Seven Bodyguard
     published: false
     volume: 109000.0
   Seven Thug:
     id: 18577
+    mass: 1.09E7
     name: Seven Thug
     published: false
     volume: 109000.0
   Shakyr Maruk:
     id: 11704
+    mass: 1.09E7
     name: Shakyr Maruk
     published: false
     volume: 109000.0
   Shiez Kuzak:
     id: 11655
+    mass: 1.01E7
     name: Shiez Kuzak
     published: false
     volume: 101000.0
   Shimon Jaen:
     id: 18656
+    mass: 1.225E7
     name: Shimon Jaen
     published: false
     volume: 115000.0
   Shogon:
     id: 11683
+    mass: 1645000.0
     name: Shogon
     published: false
     volume: 16450.0
   Smuggler Freight:
     id: 15334
+    mass: 9.6E7
     name: Smuggler Freight
     published: false
     volume: 960000.0
   Sukuuvestaa Transport Ship:
     id: 20363
+    mass: 9.6E7
     name: Sukuuvestaa Transport Ship
     published: false
     volume: 960000.0
   Tehmi Anieu:
     id: 16611
+    mass: 1.09E7
     name: Tehmi Anieu
     published: false
     volume: 109000.0
   Telhia Hurst:
     id: 16620
+    mass: 1.01E7
     name: Telhia Hurst
     published: false
     volume: 101000.0
   Terrens Glokuir:
     id: 16555
+    mass: 1.25E7
     name: Terrens Glokuir
     published: false
     volume: 120000.0
   Test_NONE:
     id: 12254
+    mass: 1.09E7
     name: Test_NONE
     published: false
     volume: 109000.0
   Testgaur:
     id: 13201
+    mass: 1.09E7
     name: Testgaur
     published: false
     volume: 109000.0
   Thanok Kuggar:
     id: 11699
+    mass: 1.09E7
     name: Thanok Kuggar
     published: false
     volume: 109000.0
   Thoriam Delvar:
     id: 16572
+    mass: 1.15E7
     name: Thoriam Delvar
     published: false
     volume: 96000.0
   Tobi Lafonte:
     id: 16590
+    mass: 1.01E7
     name: Tobi Lafonte
     published: false
     volume: 101000.0
   Tsejani Kulvin:
     id: 16575
+    mass: 1.275E7
     name: Tsejani Kulvin
     published: false
     volume: 100100.0
   Tukkito Usa:
     id: 24455
+    mass: 1.01E7
     name: Tukkito Usa
     published: false
     volume: 101000.0
   UDI Mercenary:
     id: 12996
+    mass: 1.09E7
     name: UDI Mercenary
     published: false
     volume: 109000.0
   Umeni Kurr:
     id: 16560
+    mass: 1.025E7
     name: Umeni Kurr
     published: false
     volume: 89000.0
   University Escort Ship:
     id: 12244
+    mass: 1.01E7
     name: University Escort Ship
     published: false
     volume: 101000.0
   Utori Kumesh:
     id: 19589
+    mass: 1.07E7
     name: Utori Kumesh
     published: false
     volume: 107000.0
   Zenin Mirae:
     id: 16573
+    mass: 1.0E7
     name: Zenin Mirae
     published: false
     volume: 80000.0
   Zerak Cheryn:
     id: 13671
+    mass: 1.16E7
     name: Zerak Cheryn
     published: false
     volume: 116000.0
   Zerim Kurzon:
     id: 11650
+    mass: 1.001E7
     name: Zerim Kurzon
     published: false
     volume: 100100.0
   Zerone Anieu:
     id: 16612
+    mass: 1.09E7
     name: Zerone Anieu
     published: false
     volume: 109000.0

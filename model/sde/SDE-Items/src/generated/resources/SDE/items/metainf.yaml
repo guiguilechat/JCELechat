@@ -458,7 +458,6 @@ group2class:
   entity/AsteroidSerpentisHauler: fr.guiguilechat.jcelechat.model.sde.items.types.entity.AsteroidSerpentisHauler
   entity/AsteroidSerpentisOfficer: fr.guiguilechat.jcelechat.model.sde.items.types.entity.AsteroidSerpentisOfficer
   entity/AsteroidSerpentisTitan: fr.guiguilechat.jcelechat.model.sde.items.types.entity.AsteroidSerpentisTitan
-  entity/Battlecruiser: fr.guiguilechat.jcelechat.model.sde.items.types.entity.Battlecruiser
   entity/Billboard: fr.guiguilechat.jcelechat.model.sde.items.types.entity.Billboard
   entity/CapturePoint: fr.guiguilechat.jcelechat.model.sde.items.types.entity.CapturePoint
   entity/ConcordDrone: fr.guiguilechat.jcelechat.model.sde.items.types.entity.ConcordDrone
@@ -555,7 +554,6 @@ group2class:
   entity/LCODrone: fr.guiguilechat.jcelechat.model.sde.items.types.entity.LCODrone
   entity/LargeCollidableShip: fr.guiguilechat.jcelechat.model.sde.items.types.entity.LargeCollidableShip
   entity/LargeCollidableStructure: fr.guiguilechat.jcelechat.model.sde.items.types.entity.LargeCollidableStructure
-  entity/MiningFrigate: fr.guiguilechat.jcelechat.model.sde.items.types.entity.MiningFrigate
   entity/MinorThreat: fr.guiguilechat.jcelechat.model.sde.items.types.entity.MinorThreat
   entity/MissionAmarrEmpireBattlecruiser: fr.guiguilechat.jcelechat.model.sde.items.types.entity.MissionAmarrEmpireBattlecruiser
   entity/MissionAmarrEmpireBattleship: fr.guiguilechat.jcelechat.model.sde.items.types.entity.MissionAmarrEmpireBattleship
@@ -608,6 +606,7 @@ group2class:
   entity/MissionMorduFrigate: fr.guiguilechat.jcelechat.model.sde.items.types.entity.MissionMorduFrigate
   entity/MissionThukkerCruiser: fr.guiguilechat.jcelechat.model.sde.items.types.entity.MissionThukkerCruiser
   entity/MissionThukkerFrigate: fr.guiguilechat.jcelechat.model.sde.items.types.entity.MissionThukkerFrigate
+  entity/NPCBattlecruiser: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCBattlecruiser
   entity/NPCBattleship: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCBattleship
   entity/NPCCruiser: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCCruiser
   entity/NPCDreadnought: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCDreadnought
@@ -616,6 +615,7 @@ group2class:
   entity/NPCIndustrialCommand: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCIndustrialCommand
   entity/NPCMiningBarge: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCMiningBarge
   entity/NPCMiningExhumer: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCMiningExhumer
+  entity/NPCMiningFrigate: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCMiningFrigate
   entity/NPCMiningHauler: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCMiningHauler
   entity/NPCTitan: fr.guiguilechat.jcelechat.model.sde.items.types.entity.NPCTitan
   entity/PirateDrone: fr.guiguilechat.jcelechat.model.sde.items.types.entity.PirateDrone
@@ -21145,7 +21145,7 @@ id2name:
   34412: Small Intact Hull Section
   34414: Small Malfunctioning Hull Section
   34416: Small Wrecked Hull Section
-  34417: Manufacturing Union���s Placard
+  34417: Manufacturing Union’s Placard
   34418: The Galactic Party Planning Guide
   34419: Jump Fatigue Recovery Agent
   34420: Cooking With Veldspar
@@ -21185,18 +21185,18 @@ id2name:
   34454: Archive Sentry Tower
   34455: Impaired Archive Sentry Tower
   34456: Angel Fence
-  34457: 末日沙场��YC117年特别版
-  34458: 末日���场级YC117年特别版蓝图
+  34457: 末日沙场级YC117年特别版
+  34458: 末日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
-  34460: 地狱天使级YC117年���别版蓝图
+  34460: 地狱天使级YC117年特别版蓝图
   34461: 马克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
   34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
-  34466: 多��尼克斯级YC117年特别版蓝图
-  34467: 万王宝座级YC117年���别版
-  34468: 万王宝座级YC117年特别版蓝图
+  34466: 多米尼克斯级YC117年特别版蓝图
+  34467: 万王宝座级YC117年特别版
+  34468: 万王宝座级YC117年特别版��图
   34469: 乌鸦级YC117年特别版
   34470: 乌鸦级YC117年特别版蓝图
   34471: 灾难级YC117年特别版
@@ -21208,7 +21208,7 @@ id2name:
   34477: 银鹰级YC117年特别版
   34478: 银鹰级YC117年特别版蓝图
   34479: 伊什塔级YC117年特别版
-  34480: 伊什塔级YC117年特���版蓝图
+  34480: 伊什���级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
   34485: ORE Reinforced Bulkheads
@@ -28439,7 +28439,7 @@ id2name:
   42709: Women's ‘Defender’ Beret (Gallente Federation)
   42710: Men's Federation Grand Prix 'Pit Stop' Cap
   42711: Cap Male Green
-  42712: Men's ‘Liberator’ Beret (Minmatar Republic)
+  42712: Men's ‘Liberator�� Beret (Minmatar Republic)
   42713: Cap Male Orange
   42714: Cap Male White/Black
   42715: Women's ‘Liberator’ Cap (Minmatar Republic)
@@ -29194,7 +29194,7 @@ id2name:
   43566: ♦ Merlin
   43567: ♦ Griffin
   43568: ♦ Caracal
-  43569: ♦ Osprey
+  43569: �� Osprey
   43570: ♦ Moa
   43571: ♦ Blackbird
   43572: ♦ Raven
@@ -29221,7 +29221,7 @@ id2name:
   43593: ♦ Stabber
   43594: ♦ Tempest
   43595: ♦ Typhoon
-  43596: ��� Punisher
+  43596: ♦ Punisher
   43597: ♦ Inquisitor
   43598: ♦ Executioner
   43599: ♦ Crucifier
@@ -29252,7 +29252,7 @@ id2name:
   43627: ♦ Rattlesnake
   43630: Mini Skill Injector
   43633: ♦ Dramiel
-  43634: �� Swordspine
+  43634: ♦ Swordspine
   43635: ♦ Fury
   43636: ♦ Medusa
   43638: ♦ Lynx
@@ -29265,7 +29265,7 @@ id2name:
   43646: Infester Drone
   43647: Splinter Drone
   43648: Sunder Drone
-  43649: �� Annihilator Drone
+  43649: ♦ Annihilator Drone
   43650: ♦ Infested Dominix
   43653: ♦ Succubus
   43654: ♦ Ravener
@@ -30524,7 +30524,7 @@ id2name:
   45471: ♦ Molok
   45472: ♦ Molok
   45473: ♦ Dagon
-  45474: ��� Chemosh
+  45474: ♦ Chemosh
   45475: Stratios YC119 SKIN (Permanent)
   45476: Stratios YC119 SKIN (7 Days)
   45477: Stratios YC119 SKIN (30 Days)
@@ -31096,10 +31096,10 @@ id2name:
   46056: ♦ Gila
   46057: ♦ Rattlesnake
   46058: ♦ Daredevil
-  46059: ♦ Vigilant
+  46059: �� Vigilant
   46060: ♦ Vindicator
   46061: ♦ Dramiel
-  46062: �� Cynabal
+  46062: ♦ Cynabal
   46063: ♦ Machariel
   46064: Medium Refinery Placement State Default
   46065: Large Refinery Placement State Default
@@ -51023,7 +51023,7 @@ name2group:
   Mantis II: fighter/HeavyFighter
   Mantis II Blueprint: blueprint/HeavyFighterBlueprint
   Manufacturing Tools: commodity/Miscellaneous
-  Manufacturing Union���s Placard: specialeditionassets/SpecialEditionCommodities
+  Manufacturing Union’s Placard: specialeditionassets/SpecialEditionCommodities
   Manuzivar Slaver: entity/IrregularBattleship
   Maphante Guardian: entity/StorylineBattleship
   Maphante Interceptor: entity/StorylineFrigate
@@ -51986,8 +51986,8 @@ name2group:
   Men's YC119 Yoiul Festival Pants: apparel/Bottoms
   Men's YC119 Yoiul Festival T-shirt: apparel/Tops
   Men's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
-  Men's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Liberator’ Cap (Minmatar Republic): apparel/Headwear
+  Men's ‘Liberator�� Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Protector’ Beret (Caldari State): apparel/Headwear
   Men's “Mirelle” Upwell Executive Spectacles: apparel/Eyewear
   Men’s ‘Crusader’ Beret (Amarr Empire): apparel/Headwear
@@ -62385,6 +62385,7 @@ name2group:
   ‘Phalarica’ Thermal Lance: module/SuperWeapon
   ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
+  ♦ Annihilator Drone: entity/NPCCruiser
   ♦ Apocalypse: entity/NPCBattleship
   ♦ Arbitrator: entity/NPCCruiser
   ♦ Armageddon: entity/NPCBattleship
@@ -62397,7 +62398,7 @@ name2group:
   ♦ Bhaalgorn: entity/NPCBattleship
   ♦ Blackbird: entity/NPCCruiser
   ♦ Breacher: entity/NPCFrigate
-  ♦ Brutix: entity/Battlecruiser
+  ♦ Brutix: entity/NPCBattlecruiser
   ♦ Burst: entity/NPCFrigate
   ♦ Bustard: entity/NPCMiningHauler
   ♦ Caiman: entity/NPCDreadnought
@@ -62412,15 +62413,15 @@ name2group:
   ♦ Dagon: entity/NPCForceAuxiliary
   ♦ Daredevil: entity/NPCFrigate
   ♦ Dominix: entity/NPCBattleship
-  ♦ Drake: entity/Battlecruiser
+  ♦ Drake: entity/NPCBattlecruiser
   ♦ Dramiel: entity/NPCFrigate
   ♦ Executioner: entity/NPCFrigate
   ♦ Exequror: entity/NPCCruiser
   ♦ Fury: entity/NPCFrigate
   ♦ Gila: entity/NPCCruiser
   ♦ Griffin: entity/NPCFrigate
-  ♦ Harbinger: entity/Battlecruiser
-  ♦ Hurricane: entity/Battlecruiser
+  ♦ Harbinger: entity/NPCBattlecruiser
+  ♦ Hurricane: entity/NPCBattlecruiser
   ♦ Imp: entity/NPCFrigate
   ♦ Impel: entity/NPCMiningHauler
   ♦ Incursus: entity/NPCFrigate
@@ -62461,15 +62462,15 @@ name2group:
   ♦ Slasher: entity/NPCFrigate
   ♦ Stabber: entity/NPCCruiser
   ♦ Succubus: entity/NPCFrigate
+  ♦ Swordspine: entity/NPCFrigate
   ♦ Tempest: entity/NPCBattleship
   ♦ Thorax: entity/NPCCruiser
   ♦ Tormentor: entity/NPCFrigate
   ♦ Tristan: entity/NPCFrigate
   ♦ Typhoon: entity/NPCBattleship
-  ♦ Venture: entity/MiningFrigate
+  ♦ Venture: entity/NPCMiningFrigate
   ♦ Vexor: entity/NPCCruiser
   ♦ Vigil: entity/NPCFrigate
-  ♦ Vigilant: entity/NPCCruiser
   ♦ Vindicator: entity/NPCBattleship
   ♦ Worm: entity/NPCFrigate
   ♦ test_boss: entity/NPCBattleship
@@ -62477,21 +62478,18 @@ name2group:
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  万王宝座级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  万王宝座级YC117年特别版��图: blueprint/BattleshipBlueprint
   乌鸦级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  伊什塔级YC117年特���版蓝图: blueprint/CruiserBlueprint
+  伊什���级YC117年特别版蓝图: blueprint/CruiserBlueprint
   响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  地狱天使级YC117年���别版蓝图: blueprint/BattleshipBlueprint
-  多��尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
-  末日���场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
   灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
   马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  �� Annihilator Drone: entity/NPCCruiser
-  �� Cynabal: entity/NPCCruiser
-  �� Swordspine: entity/NPCFrigate
+  �� Osprey: entity/NPCCruiser
+  �� Vigilant: entity/NPCCruiser
   ��� Bellicose: entity/NPCCruiser
-  ��� Chemosh: entity/NPCDreadnought
-  ��� Punisher: entity/NPCFrigate

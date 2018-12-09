@@ -31,6 +31,7 @@ items:
     ThermalDamage: 500.0
     id: 35926
     marketGroup: 2221
+    mass: 1000.0
     name: Standup Point Defense Battery I
     published: true
     volume: 8000.0
@@ -67,6 +68,7 @@ items:
     ThermalDamage: 625.0
     id: 47327
     marketGroup: 2221
+    mass: 1000.0
     name: Standup Point Defense Battery II
     published: true
     volume: 8000.0

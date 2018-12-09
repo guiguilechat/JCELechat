@@ -25,6 +25,7 @@ items:
     TechLevel: 1
     id: 41411
     marketGroup: 671
+    mass: 1000.0
     name: Networked Sensor Array
     published: true
     volume: 4000.0

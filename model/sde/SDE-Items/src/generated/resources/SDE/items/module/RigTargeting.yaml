@@ -8,6 +8,7 @@ items:
     UpgradeCost: 50
     id: 31278
     marketGroup: 1793
+    mass: 200.0
     name: Capital Ionic Field Projector I
     published: true
     volume: 40.0
@@ -21,6 +22,7 @@ items:
     UpgradeCost: 75
     id: 31284
     marketGroup: 1793
+    mass: 200.0
     name: Capital Ionic Field Projector II
     published: true
     volume: 40.0
@@ -33,6 +35,7 @@ items:
     UpgradeCost: 100
     id: 31326
     marketGroup: 1793
+    mass: 200.0
     name: Capital Targeting System Subcontroller I
     published: true
     volume: 40.0
@@ -46,6 +49,7 @@ items:
     UpgradeCost: 150
     id: 31332
     marketGroup: 1793
+    mass: 200.0
     name: Capital Targeting System Subcontroller II
     published: true
     volume: 40.0
@@ -58,6 +62,7 @@ items:
     UpgradeCost: 50
     id: 26102
     marketGroup: 1792
+    mass: 200.0
     name: Large Ionic Field Projector I
     published: true
     volume: 20.0
@@ -71,6 +76,7 @@ items:
     UpgradeCost: 75
     id: 26358
     marketGroup: 1792
+    mass: 200.0
     name: Large Ionic Field Projector II
     published: true
     volume: 20.0
@@ -83,6 +89,7 @@ items:
     UpgradeCost: 100
     id: 26100
     marketGroup: 1792
+    mass: 200.0
     name: Large Targeting System Subcontroller I
     published: true
     volume: 20.0
@@ -96,6 +103,7 @@ items:
     UpgradeCost: 150
     id: 26364
     marketGroup: 1792
+    mass: 200.0
     name: Large Targeting System Subcontroller II
     published: true
     volume: 20.0
@@ -108,6 +116,7 @@ items:
     UpgradeCost: 50
     id: 31276
     marketGroup: 1791
+    mass: 200.0
     name: Medium Ionic Field Projector I
     published: true
     volume: 10.0
@@ -121,6 +130,7 @@ items:
     UpgradeCost: 75
     id: 31282
     marketGroup: 1791
+    mass: 200.0
     name: Medium Ionic Field Projector II
     published: true
     volume: 10.0
@@ -133,6 +143,7 @@ items:
     UpgradeCost: 100
     id: 31324
     marketGroup: 1791
+    mass: 200.0
     name: Medium Targeting System Subcontroller I
     published: true
     volume: 10.0
@@ -146,6 +157,7 @@ items:
     UpgradeCost: 150
     id: 31330
     marketGroup: 1791
+    mass: 200.0
     name: Medium Targeting System Subcontroller II
     published: true
     volume: 10.0
@@ -158,6 +170,7 @@ items:
     UpgradeCost: 50
     id: 31274
     marketGroup: 1790
+    mass: 200.0
     name: Small Ionic Field Projector I
     published: true
     volume: 5.0
@@ -171,6 +184,7 @@ items:
     UpgradeCost: 75
     id: 31280
     marketGroup: 1790
+    mass: 200.0
     name: Small Ionic Field Projector II
     published: true
     volume: 5.0
@@ -183,6 +197,7 @@ items:
     UpgradeCost: 100
     id: 31322
     marketGroup: 1790
+    mass: 200.0
     name: Small Targeting System Subcontroller I
     published: true
     volume: 5.0
@@ -196,6 +211,7 @@ items:
     UpgradeCost: 150
     id: 31328
     marketGroup: 1790
+    mass: 200.0
     name: Small Targeting System Subcontroller II
     published: true
     volume: 5.0

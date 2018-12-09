@@ -23,6 +23,7 @@ items:
     UnanchoringDelay: 600000
     Uniformity: 1.0
     id: 17701
+    mass: 1.0E8
     name: Tracking Array
     published: true
     volume: 4000.0

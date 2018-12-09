@@ -8,6 +8,7 @@ items:
     UpgradeCost: 50
     id: 31001
     marketGroup: 1730
+    mass: 200.0
     name: Capital Anti-EM Pump I
     published: true
     volume: 40.0
@@ -21,6 +22,7 @@ items:
     UpgradeCost: 75
     id: 31007
     marketGroup: 1730
+    mass: 200.0
     name: Capital Anti-EM Pump II
     published: true
     volume: 40.0
@@ -33,6 +35,7 @@ items:
     UpgradeCost: 50
     id: 31013
     marketGroup: 1730
+    mass: 200.0
     name: Capital Anti-Explosive Pump I
     published: true
     volume: 40.0
@@ -46,6 +49,7 @@ items:
     UpgradeCost: 75
     id: 31019
     marketGroup: 1730
+    mass: 200.0
     name: Capital Anti-Explosive Pump II
     published: true
     volume: 40.0
@@ -58,6 +62,7 @@ items:
     UpgradeCost: 50
     id: 31025
     marketGroup: 1730
+    mass: 200.0
     name: Capital Anti-Kinetic Pump I
     published: true
     volume: 40.0
@@ -71,6 +76,7 @@ items:
     UpgradeCost: 75
     id: 31031
     marketGroup: 1730
+    mass: 200.0
     name: Capital Anti-Kinetic Pump II
     published: true
     volume: 40.0
@@ -83,6 +89,7 @@ items:
     UpgradeCost: 50
     id: 31037
     marketGroup: 1730
+    mass: 200.0
     name: Capital Anti-Thermal Pump I
     published: true
     volume: 40.0
@@ -96,6 +103,7 @@ items:
     UpgradeCost: 75
     id: 31043
     marketGroup: 1730
+    mass: 200.0
     name: Capital Anti-Thermal Pump II
     published: true
     volume: 40.0
@@ -108,6 +116,7 @@ items:
     UpgradeCost: 100
     id: 27064
     marketGroup: 1730
+    mass: 200.0
     name: Capital Auxiliary Nano Pump I
     published: true
     volume: 40.0
@@ -121,6 +130,7 @@ items:
     UpgradeCost: 150
     id: 31049
     marketGroup: 1730
+    mass: 200.0
     name: Capital Auxiliary Nano Pump II
     published: true
     volume: 40.0
@@ -133,6 +143,7 @@ items:
     UpgradeCost: 100
     id: 31067
     marketGroup: 1730
+    mass: 200.0
     name: Capital Nanobot Accelerator I
     published: true
     volume: 40.0
@@ -146,6 +157,7 @@ items:
     UpgradeCost: 150
     id: 27066
     marketGroup: 1730
+    mass: 200.0
     name: Capital Nanobot Accelerator II
     published: true
     volume: 40.0
@@ -158,6 +170,7 @@ items:
     UpgradeCost: 50
     id: 31075
     marketGroup: 1730
+    mass: 200.0
     name: Capital Remote Repair Augmentor I
     published: true
     volume: 40.0
@@ -171,6 +184,7 @@ items:
     UpgradeCost: 75
     id: 31081
     marketGroup: 1730
+    mass: 200.0
     name: Capital Remote Repair Augmentor II
     published: true
     volume: 40.0
@@ -183,6 +197,7 @@ items:
     UpgradeCost: 50
     id: 33902
     marketGroup: 1730
+    mass: 200.0
     name: Capital Transverse Bulkhead I
     published: true
     volume: 40.0
@@ -196,6 +211,7 @@ items:
     UpgradeCost: 75
     id: 33904
     marketGroup: 1730
+    mass: 200.0
     name: Capital Transverse Bulkhead II
     published: true
     volume: 40.0
@@ -208,6 +224,7 @@ items:
     UpgradeCost: 50
     id: 30993
     marketGroup: 1730
+    mass: 200.0
     name: Capital Trimark Armor Pump I
     published: true
     volume: 40.0
@@ -221,6 +238,7 @@ items:
     UpgradeCost: 75
     id: 31061
     marketGroup: 1730
+    mass: 200.0
     name: Capital Trimark Armor Pump II
     published: true
     volume: 40.0
@@ -233,6 +251,7 @@ items:
     UpgradeCost: 50
     id: 25736
     marketGroup: 1208
+    mass: 200.0
     name: Large Anti-EM Pump I
     published: true
     volume: 20.0
@@ -246,6 +265,7 @@ items:
     UpgradeCost: 75
     id: 26286
     marketGroup: 1208
+    mass: 200.0
     name: Large Anti-EM Pump II
     published: true
     volume: 20.0
@@ -258,6 +278,7 @@ items:
     UpgradeCost: 50
     id: 25888
     marketGroup: 1208
+    mass: 200.0
     name: Large Anti-Explosive Pump I
     published: true
     volume: 20.0
@@ -271,6 +292,7 @@ items:
     UpgradeCost: 75
     id: 26288
     marketGroup: 1208
+    mass: 200.0
     name: Large Anti-Explosive Pump II
     published: true
     volume: 20.0
@@ -283,6 +305,7 @@ items:
     UpgradeCost: 50
     id: 25890
     marketGroup: 1208
+    mass: 200.0
     name: Large Anti-Kinetic Pump I
     published: true
     volume: 20.0
@@ -296,6 +319,7 @@ items:
     UpgradeCost: 75
     id: 26290
     marketGroup: 1208
+    mass: 200.0
     name: Large Anti-Kinetic Pump II
     published: true
     volume: 20.0
@@ -308,6 +332,7 @@ items:
     UpgradeCost: 50
     id: 25892
     marketGroup: 1208
+    mass: 200.0
     name: Large Anti-Thermal Pump I
     published: true
     volume: 20.0
@@ -321,6 +346,7 @@ items:
     UpgradeCost: 75
     id: 26292
     marketGroup: 1208
+    mass: 200.0
     name: Large Anti-Thermal Pump II
     published: true
     volume: 20.0
@@ -333,6 +359,7 @@ items:
     UpgradeCost: 100
     id: 25896
     marketGroup: 1208
+    mass: 200.0
     name: Large Auxiliary Nano Pump I
     published: true
     volume: 20.0
@@ -346,6 +373,7 @@ items:
     UpgradeCost: 150
     id: 26294
     marketGroup: 1208
+    mass: 200.0
     name: Large Auxiliary Nano Pump II
     published: true
     volume: 20.0
@@ -358,6 +386,7 @@ items:
     UpgradeCost: 100
     id: 25898
     marketGroup: 1208
+    mass: 200.0
     name: Large Nanobot Accelerator I
     published: true
     volume: 20.0
@@ -371,6 +400,7 @@ items:
     UpgradeCost: 150
     id: 26296
     marketGroup: 1208
+    mass: 200.0
     name: Large Nanobot Accelerator II
     published: true
     volume: 20.0
@@ -383,6 +413,7 @@ items:
     UpgradeCost: 50
     id: 25900
     marketGroup: 1208
+    mass: 200.0
     name: Large Remote Repair Augmentor I
     published: true
     volume: 20.0
@@ -396,6 +427,7 @@ items:
     UpgradeCost: 75
     id: 26298
     marketGroup: 1208
+    mass: 200.0
     name: Large Remote Repair Augmentor II
     published: true
     volume: 20.0
@@ -408,6 +440,7 @@ items:
     UpgradeCost: 50
     id: 33898
     marketGroup: 1208
+    mass: 200.0
     name: Large Transverse Bulkhead I
     published: true
     volume: 20.0
@@ -421,6 +454,7 @@ items:
     UpgradeCost: 75
     id: 33900
     marketGroup: 1208
+    mass: 200.0
     name: Large Transverse Bulkhead II
     published: true
     volume: 20.0
@@ -433,6 +467,7 @@ items:
     UpgradeCost: 50
     id: 25894
     marketGroup: 1208
+    mass: 200.0
     name: Large Trimark Armor Pump I
     published: true
     volume: 20.0
@@ -446,6 +481,7 @@ items:
     UpgradeCost: 75
     id: 26302
     marketGroup: 1208
+    mass: 200.0
     name: Large Trimark Armor Pump II
     published: true
     volume: 20.0
@@ -458,6 +494,7 @@ items:
     UpgradeCost: 50
     id: 30999
     marketGroup: 1207
+    mass: 200.0
     name: Medium Anti-EM Pump I
     published: true
     volume: 10.0
@@ -471,6 +508,7 @@ items:
     UpgradeCost: 75
     id: 31005
     marketGroup: 1207
+    mass: 200.0
     name: Medium Anti-EM Pump II
     published: true
     volume: 10.0
@@ -483,6 +521,7 @@ items:
     UpgradeCost: 50
     id: 31011
     marketGroup: 1207
+    mass: 200.0
     name: Medium Anti-Explosive Pump I
     published: true
     volume: 10.0
@@ -496,6 +535,7 @@ items:
     UpgradeCost: 75
     id: 31017
     marketGroup: 1207
+    mass: 200.0
     name: Medium Anti-Explosive Pump II
     published: true
     volume: 10.0
@@ -508,6 +548,7 @@ items:
     UpgradeCost: 50
     id: 31023
     marketGroup: 1207
+    mass: 200.0
     name: Medium Anti-Kinetic Pump I
     published: true
     volume: 10.0
@@ -521,6 +562,7 @@ items:
     UpgradeCost: 75
     id: 31029
     marketGroup: 1207
+    mass: 200.0
     name: Medium Anti-Kinetic Pump II
     published: true
     volume: 10.0
@@ -533,6 +575,7 @@ items:
     UpgradeCost: 50
     id: 31035
     marketGroup: 1207
+    mass: 200.0
     name: Medium Anti-Thermal Pump I
     published: true
     volume: 10.0
@@ -546,6 +589,7 @@ items:
     UpgradeCost: 75
     id: 31041
     marketGroup: 1207
+    mass: 200.0
     name: Medium Anti-Thermal Pump II
     published: true
     volume: 10.0
@@ -558,6 +602,7 @@ items:
     UpgradeCost: 100
     id: 31047
     marketGroup: 1207
+    mass: 200.0
     name: Medium Auxiliary Nano Pump I
     published: true
     volume: 10.0
@@ -571,6 +616,7 @@ items:
     UpgradeCost: 150
     id: 31053
     marketGroup: 1207
+    mass: 200.0
     name: Medium Auxiliary Nano Pump II
     published: true
     volume: 10.0
@@ -583,6 +629,7 @@ items:
     UpgradeCost: 100
     id: 31065
     marketGroup: 1207
+    mass: 200.0
     name: Medium Nanobot Accelerator I
     published: true
     volume: 10.0
@@ -596,6 +643,7 @@ items:
     UpgradeCost: 150
     id: 31071
     marketGroup: 1207
+    mass: 200.0
     name: Medium Nanobot Accelerator II
     published: true
     volume: 10.0
@@ -608,6 +656,7 @@ items:
     UpgradeCost: 50
     id: 31073
     marketGroup: 1207
+    mass: 200.0
     name: Medium Remote Repair Augmentor I
     published: true
     volume: 10.0
@@ -621,6 +670,7 @@ items:
     UpgradeCost: 75
     id: 31079
     marketGroup: 1207
+    mass: 200.0
     name: Medium Remote Repair Augmentor II
     published: true
     volume: 10.0
@@ -633,6 +683,7 @@ items:
     UpgradeCost: 50
     id: 33894
     marketGroup: 1207
+    mass: 200.0
     name: Medium Transverse Bulkhead I
     published: true
     volume: 10.0
@@ -646,6 +697,7 @@ items:
     UpgradeCost: 75
     id: 33896
     marketGroup: 1207
+    mass: 200.0
     name: Medium Transverse Bulkhead II
     published: true
     volume: 10.0
@@ -658,6 +710,7 @@ items:
     UpgradeCost: 50
     id: 31055
     marketGroup: 1207
+    mass: 200.0
     name: Medium Trimark Armor Pump I
     published: true
     volume: 10.0
@@ -671,6 +724,7 @@ items:
     UpgradeCost: 75
     id: 31059
     marketGroup: 1207
+    mass: 200.0
     name: Medium Trimark Armor Pump II
     published: true
     volume: 10.0
@@ -683,6 +737,7 @@ items:
     UpgradeCost: 50
     id: 30997
     marketGroup: 1206
+    mass: 200.0
     name: Small Anti-EM Pump I
     published: true
     volume: 5.0
@@ -696,6 +751,7 @@ items:
     UpgradeCost: 75
     id: 31003
     marketGroup: 1206
+    mass: 200.0
     name: Small Anti-EM Pump II
     published: true
     volume: 5.0
@@ -708,6 +764,7 @@ items:
     UpgradeCost: 50
     id: 31009
     marketGroup: 1206
+    mass: 200.0
     name: Small Anti-Explosive Pump I
     published: true
     volume: 5.0
@@ -721,6 +778,7 @@ items:
     UpgradeCost: 75
     id: 31015
     marketGroup: 1206
+    mass: 200.0
     name: Small Anti-Explosive Pump II
     published: true
     volume: 5.0
@@ -733,6 +791,7 @@ items:
     UpgradeCost: 50
     id: 31021
     marketGroup: 1206
+    mass: 200.0
     name: Small Anti-Kinetic Pump I
     published: true
     volume: 5.0
@@ -746,6 +805,7 @@ items:
     UpgradeCost: 75
     id: 31027
     marketGroup: 1206
+    mass: 200.0
     name: Small Anti-Kinetic Pump II
     published: true
     volume: 5.0
@@ -758,6 +818,7 @@ items:
     UpgradeCost: 50
     id: 31033
     marketGroup: 1206
+    mass: 200.0
     name: Small Anti-Thermal Pump I
     published: true
     volume: 5.0
@@ -771,6 +832,7 @@ items:
     UpgradeCost: 75
     id: 31039
     marketGroup: 1206
+    mass: 200.0
     name: Small Anti-Thermal Pump II
     published: true
     volume: 5.0
@@ -783,6 +845,7 @@ items:
     UpgradeCost: 100
     id: 31045
     marketGroup: 1206
+    mass: 200.0
     name: Small Auxiliary Nano Pump I
     published: true
     volume: 5.0
@@ -796,6 +859,7 @@ items:
     UpgradeCost: 150
     id: 31051
     marketGroup: 1206
+    mass: 200.0
     name: Small Auxiliary Nano Pump II
     published: true
     volume: 5.0
@@ -808,6 +872,7 @@ items:
     UpgradeCost: 100
     id: 31063
     marketGroup: 1206
+    mass: 200.0
     name: Small Nanobot Accelerator I
     published: true
     volume: 5.0
@@ -821,6 +886,7 @@ items:
     UpgradeCost: 150
     id: 31069
     marketGroup: 1206
+    mass: 200.0
     name: Small Nanobot Accelerator II
     published: true
     volume: 5.0
@@ -833,6 +899,7 @@ items:
     UpgradeCost: 50
     id: 27068
     marketGroup: 1206
+    mass: 200.0
     name: Small Remote Repair Augmentor I
     published: true
     volume: 5.0
@@ -846,6 +913,7 @@ items:
     UpgradeCost: 75
     id: 31077
     marketGroup: 1206
+    mass: 200.0
     name: Small Remote Repair Augmentor II
     published: true
     volume: 5.0
@@ -858,6 +926,7 @@ items:
     UpgradeCost: 50
     id: 33890
     marketGroup: 1206
+    mass: 200.0
     name: Small Transverse Bulkhead I
     published: true
     volume: 5.0
@@ -871,6 +940,7 @@ items:
     UpgradeCost: 75
     id: 33892
     marketGroup: 1206
+    mass: 200.0
     name: Small Transverse Bulkhead II
     published: true
     volume: 5.0
@@ -883,6 +953,7 @@ items:
     UpgradeCost: 50
     id: 30987
     marketGroup: 1206
+    mass: 200.0
     name: Small Trimark Armor Pump I
     published: true
     volume: 5.0
@@ -896,6 +967,7 @@ items:
     UpgradeCost: 75
     id: 31057
     marketGroup: 1206
+    mass: 200.0
     name: Small Trimark Armor Pump II
     published: true
     volume: 5.0

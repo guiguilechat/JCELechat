@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 509
     marketGroup: 666
+    mass: 20.0
     name: '''Basic'' Capacitor Flux Coil'
     published: true
     volume: 5.0
@@ -26,6 +27,7 @@ items:
     TechLevel: 1
     id: 23894
     marketGroup: 666
+    mass: 20.0
     name: '''Page'' Capacitor Flux Coil I'
     published: true
     volume: 5.0
@@ -39,6 +41,7 @@ items:
     TechLevel: 1
     id: 1246
     marketGroup: 666
+    mass: 20.0
     name: Capacitor Flux Coil I
     published: true
     volume: 5.0
@@ -53,6 +56,7 @@ items:
     TechLevel: 2
     id: 1248
     marketGroup: 666
+    mass: 20.0
     name: Capacitor Flux Coil II
     published: true
     volume: 5.0
@@ -67,6 +71,7 @@ items:
     TechLevel: 1
     id: 8133
     marketGroup: 666
+    mass: 20.0
     name: Mark I Compact Capacitor Flux Coil
     published: true
     volume: 5.0
@@ -81,6 +86,7 @@ items:
     TechLevel: 1
     id: 8135
     marketGroup: 666
+    mass: 20.0
     name: Type-D Restrained Capacitor Flux Coil
     published: true
     volume: 5.0

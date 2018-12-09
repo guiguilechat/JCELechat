@@ -1,6 +1,7 @@
 items:
   Cleansing Flame Amarr Cruiser:
     id: 42818
+    mass: 1.18E7
     name: Cleansing Flame Amarr Cruiser
     published: false
     volume: 118000.0

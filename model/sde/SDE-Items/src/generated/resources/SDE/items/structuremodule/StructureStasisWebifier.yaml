@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     id: 35943
     marketGroup: 2213
+    mass: 500.0
     name: Standup Stasis Webifier I
     published: true
     volume: 4000.0
@@ -45,6 +46,7 @@ items:
     TechLevel: 2
     id: 47351
     marketGroup: 2213
+    mass: 500.0
     name: Standup Stasis Webifier II
     published: true
     volume: 4000.0

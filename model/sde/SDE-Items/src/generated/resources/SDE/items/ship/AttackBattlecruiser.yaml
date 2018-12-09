@@ -72,6 +72,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 4306
     marketGroup: 471
+    mass: 1.5E7
     name: Naga
     published: true
     volume: 252000.0
@@ -148,6 +149,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 4302
     marketGroup: 470
+    mass: 1.476E7
     name: Oracle
     published: true
     volume: 234000.0
@@ -226,6 +228,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 4308
     marketGroup: 472
+    mass: 1.5552E7
     name: Talos
     published: true
     volume: 270000.0
@@ -302,6 +305,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 4310
     marketGroup: 473
+    mass: 1.5228E7
     name: Tornado
     published: true
     volume: 216000.0

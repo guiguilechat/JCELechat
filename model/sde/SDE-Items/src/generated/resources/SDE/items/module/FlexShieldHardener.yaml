@@ -24,6 +24,7 @@ items:
     ThermalDamageResistanceBonus: -16.0
     id: 41516
     marketGroup: 2246
+    mass: 10000.0
     name: Capital Flex Shield Hardener I
     published: true
     volume: 4000.0
@@ -53,6 +54,7 @@ items:
     ThermalDamageResistanceBonus: -19.0
     id: 41528
     marketGroup: 2246
+    mass: 10000.0
     name: Capital Flex Shield Hardener II
     published: true
     volume: 4000.0
@@ -83,6 +85,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 41531
     marketGroup: 2246
+    mass: 10000.0
     name: Domination Capital Flex Shield Hardener
     published: true
     volume: 4000.0
@@ -113,6 +116,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 41530
     marketGroup: 2246
+    mass: 10000.0
     name: Dread Guristas Capital Flex Shield Hardener
     published: true
     volume: 4000.0
@@ -143,6 +147,7 @@ items:
     ThermalDamageResistanceBonus: -20.0
     id: 41529
     marketGroup: 2246
+    mass: 10000.0
     name: True Sansha Capital Flex Shield Hardener
     published: true
     volume: 4000.0

@@ -22,6 +22,7 @@ items:
     UpgradeCost: 100
     id: 37170
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Equipment Manufacturing Efficiency I
     published: true
     volume: 20.0
@@ -48,6 +49,7 @@ items:
     UpgradeCost: 150
     id: 37171
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Equipment Manufacturing Efficiency II
     published: true
     volume: 20.0

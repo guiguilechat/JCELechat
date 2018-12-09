@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     id: 22947
     marketGroup: 1059
+    mass: 20.0
     name: '''Beatnik'' Small Remote Armor Repairer'
     published: true
     volume: 5.0
@@ -44,6 +45,7 @@ items:
     TechLevel: 1
     id: 22949
     marketGroup: 1058
+    mass: 20.0
     name: '''Love'' Medium Remote Armor Repairer'
     published: true
     volume: 10.0
@@ -68,6 +70,7 @@ items:
     TechLevel: 1
     id: 23416
     marketGroup: 1057
+    mass: 20.0
     name: '''Peace'' Large Remote Armor Repairer'
     published: true
     volume: 25.0
@@ -94,6 +97,7 @@ items:
     TechLevel: 1
     id: 3536
     marketGroup: 1056
+    mass: 20.0
     name: CONCORD Capital Remote Armor Repairer
     published: true
     volume: 4000.0
@@ -119,6 +123,7 @@ items:
     TechLevel: 1
     id: 41464
     marketGroup: 1056
+    mass: 20.0
     name: Capital Coaxial Compact Remote Armor Repairer
     published: true
     volume: 4000.0
@@ -144,6 +149,7 @@ items:
     TechLevel: 1
     id: 41463
     marketGroup: 1056
+    mass: 20.0
     name: Capital I-ax Enduring Remote Armor Repairer
     published: true
     volume: 4000.0
@@ -167,6 +173,7 @@ items:
     TechLevel: 1
     id: 24569
     marketGroup: 1056
+    mass: 20.0
     name: Capital Remote Armor Repairer I
     published: true
     volume: 4000.0
@@ -192,6 +199,7 @@ items:
     TechLevel: 2
     id: 41466
     marketGroup: 1056
+    mass: 20.0
     name: Capital Remote Armor Repairer II
     published: true
     volume: 4000.0
@@ -217,6 +225,7 @@ items:
     TechLevel: 1
     id: 41465
     marketGroup: 1056
+    mass: 20.0
     name: Capital Solace Scoped Remote Armor Repairer
     published: true
     volume: 4000.0
@@ -241,6 +250,7 @@ items:
     TechLevel: 1
     id: 19051
     marketGroup: 1059
+    mass: 20.0
     name: Centii A-Type Small Remote Armor Repairer
     published: true
     volume: 5.0
@@ -265,6 +275,7 @@ items:
     TechLevel: 1
     id: 19049
     marketGroup: 1059
+    mass: 20.0
     name: Centii B-Type Small Remote Armor Repairer
     published: true
     volume: 5.0
@@ -289,6 +300,7 @@ items:
     TechLevel: 1
     id: 19047
     marketGroup: 1059
+    mass: 20.0
     name: Centii C-Type Small Remote Armor Repairer
     published: true
     volume: 5.0
@@ -313,6 +325,7 @@ items:
     TechLevel: 1
     id: 19057
     marketGroup: 1058
+    mass: 20.0
     name: Centum A-Type Medium Remote Armor Repairer
     published: true
     volume: 10.0
@@ -337,6 +350,7 @@ items:
     TechLevel: 1
     id: 19055
     marketGroup: 1058
+    mass: 20.0
     name: Centum B-Type Medium Remote Armor Repairer
     published: true
     volume: 10.0
@@ -361,6 +375,7 @@ items:
     TechLevel: 1
     id: 19053
     marketGroup: 1058
+    mass: 20.0
     name: Centum C-Type Medium Remote Armor Repairer
     published: true
     volume: 10.0
@@ -380,6 +395,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 32469
+    mass: 20.0
     name: Civilian Small Remote Armor Repairer
     published: true
     volume: 5.0
@@ -404,6 +420,7 @@ items:
     TechLevel: 1
     id: 18985
     marketGroup: 1059
+    mass: 20.0
     name: Coreli A-Type Small Remote Armor Repairer
     published: true
     volume: 5.0
@@ -428,6 +445,7 @@ items:
     TechLevel: 1
     id: 18983
     marketGroup: 1059
+    mass: 20.0
     name: Coreli B-Type Small Remote Armor Repairer
     published: true
     volume: 5.0
@@ -452,6 +470,7 @@ items:
     TechLevel: 1
     id: 18981
     marketGroup: 1059
+    mass: 20.0
     name: Coreli C-Type Small Remote Armor Repairer
     published: true
     volume: 5.0
@@ -476,6 +495,7 @@ items:
     TechLevel: 1
     id: 18991
     marketGroup: 1058
+    mass: 20.0
     name: Corelum A-Type Medium Remote Armor Repairer
     published: true
     volume: 10.0
@@ -500,6 +520,7 @@ items:
     TechLevel: 1
     id: 18989
     marketGroup: 1058
+    mass: 20.0
     name: Corelum B-Type Medium Remote Armor Repairer
     published: true
     volume: 10.0
@@ -524,6 +545,7 @@ items:
     TechLevel: 1
     id: 18987
     marketGroup: 1058
+    mass: 20.0
     name: Corelum C-Type Medium Remote Armor Repairer
     published: true
     volume: 10.0
@@ -550,6 +572,7 @@ items:
     TechLevel: 1
     id: 41467
     marketGroup: 1056
+    mass: 20.0
     name: Dark Blood Capital Remote Armor Repairer
     published: true
     volume: 4000.0
@@ -573,6 +596,7 @@ items:
     TechLevel: 1
     id: 16451
     marketGroup: 1057
+    mass: 20.0
     name: Large Coaxial Compact Remote Armor Repairer
     published: true
     volume: 25.0
@@ -596,6 +620,7 @@ items:
     TechLevel: 1
     id: 16449
     marketGroup: 1057
+    mass: 20.0
     name: Large I-ax Enduring Remote Armor Repairer
     published: true
     volume: 25.0
@@ -617,6 +642,7 @@ items:
     TechLevel: 1
     id: 11359
     marketGroup: 1057
+    mass: 20.0
     name: Large Remote Armor Repairer I
     published: true
     volume: 25.0
@@ -639,6 +665,7 @@ items:
     TechLevel: 2
     id: 26914
     marketGroup: 1057
+    mass: 20.0
     name: Large Remote Armor Repairer II
     published: true
     volume: 25.0
@@ -662,6 +689,7 @@ items:
     TechLevel: 1
     id: 16455
     marketGroup: 1057
+    mass: 20.0
     name: Large Solace Scoped Remote Armor Repairer
     published: true
     volume: 25.0
@@ -685,6 +713,7 @@ items:
     TechLevel: 1
     id: 16443
     marketGroup: 1058
+    mass: 20.0
     name: Medium Coaxial Compact Remote Armor Repairer
     published: true
     volume: 10.0
@@ -708,6 +737,7 @@ items:
     TechLevel: 1
     id: 16441
     marketGroup: 1058
+    mass: 20.0
     name: Medium I-ax Enduring Remote Armor Repairer
     published: true
     volume: 10.0
@@ -730,6 +760,7 @@ items:
     TechLevel: 1
     id: 11357
     marketGroup: 1058
+    mass: 20.0
     name: Medium Remote Armor Repairer I
     published: true
     volume: 10.0
@@ -753,6 +784,7 @@ items:
     TechLevel: 2
     id: 26913
     marketGroup: 1058
+    mass: 20.0
     name: Medium Remote Armor Repairer II
     published: true
     volume: 10.0
@@ -776,6 +808,7 @@ items:
     TechLevel: 1
     id: 16447
     marketGroup: 1058
+    mass: 20.0
     name: Medium Solace Scoped Remote Armor Repairer
     published: true
     volume: 10.0
@@ -802,6 +835,7 @@ items:
     TechLevel: 1
     id: 41468
     marketGroup: 1056
+    mass: 20.0
     name: Shadow Serpentis Capital Remote Armor Repairer
     published: true
     volume: 4000.0
@@ -825,6 +859,7 @@ items:
     TechLevel: 1
     id: 16435
     marketGroup: 1059
+    mass: 20.0
     name: Small Coaxial Compact Remote Armor Repairer
     published: true
     volume: 5.0
@@ -848,6 +883,7 @@ items:
     TechLevel: 1
     id: 16433
     marketGroup: 1059
+    mass: 20.0
     name: Small I-ax Enduring Remote Armor Repairer
     published: true
     volume: 5.0
@@ -870,6 +906,7 @@ items:
     TechLevel: 1
     id: 11355
     marketGroup: 1059
+    mass: 20.0
     name: Small Remote Armor Repairer I
     published: true
     volume: 5.0
@@ -893,6 +930,7 @@ items:
     TechLevel: 2
     id: 26912
     marketGroup: 1059
+    mass: 20.0
     name: Small Remote Armor Repairer II
     published: true
     volume: 5.0
@@ -916,6 +954,7 @@ items:
     TechLevel: 1
     id: 16439
     marketGroup: 1059
+    mass: 20.0
     name: Small Solace Scoped Remote Armor Repairer
     published: true
     volume: 5.0

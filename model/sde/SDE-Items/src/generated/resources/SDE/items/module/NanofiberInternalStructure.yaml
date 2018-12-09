@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 1242
     marketGroup: 1196
+    mass: 100.0
     name: '''Basic'' Nanofiber Internal Structure'
     published: true
     volume: 5.0
@@ -26,6 +27,7 @@ items:
     TechLevel: 1
     id: 14127
     marketGroup: 1196
+    mass: 100.0
     name: Domination Nanofiber Structure
     published: true
     volume: 5.0
@@ -39,6 +41,7 @@ items:
     TechLevel: 1
     id: 2603
     marketGroup: 1196
+    mass: 100.0
     name: Nanofiber Internal Structure I
     published: true
     volume: 5.0
@@ -53,6 +56,7 @@ items:
     TechLevel: 2
     id: 2605
     marketGroup: 1196
+    mass: 100.0
     name: Nanofiber Internal Structure II
     published: true
     volume: 5.0
@@ -68,6 +72,7 @@ items:
     TechLevel: 1
     id: 15813
     marketGroup: 1196
+    mass: 100.0
     name: Republic Fleet Nanofiber Structure
     published: true
     volume: 5.0
@@ -83,6 +88,7 @@ items:
     TechLevel: 1
     id: 21500
     marketGroup: 1196
+    mass: 100.0
     name: Synthetic Hull Conversion Nanofiber Structure
     published: true
     volume: 5.0
@@ -97,6 +103,7 @@ items:
     TechLevel: 1
     id: 5599
     marketGroup: 1196
+    mass: 100.0
     name: Type-D Restrained Nanofiber Structure
     published: true
     volume: 5.0

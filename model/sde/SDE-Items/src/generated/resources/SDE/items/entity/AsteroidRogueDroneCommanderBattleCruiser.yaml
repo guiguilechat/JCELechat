@@ -1,31 +1,37 @@
 items:
   Sentient Crippler Alvatis:
     id: 27732
+    mass: 100000.0
     name: Sentient Crippler Alvatis
     published: false
     volume: 60.0
   Sentient Defeater Alvatis:
     id: 27733
+    mass: 100000.0
     name: Sentient Defeater Alvatis
     published: false
     volume: 60.0
   Sentient Enforcer Alvatis:
     id: 27734
+    mass: 100000.0
     name: Sentient Enforcer Alvatis
     published: false
     volume: 60.0
   Sentient Exterminator Alvatis:
     id: 27735
+    mass: 100000.0
     name: Sentient Exterminator Alvatis
     published: false
     volume: 60.0
   Sentient Siege Alvatis:
     id: 27736
+    mass: 100000.0
     name: Sentient Siege Alvatis
     published: false
     volume: 60.0
   Sentient Striker Alvatis:
     id: 27737
+    mass: 100000.0
     name: Sentient Striker Alvatis
     published: false
     volume: 60.0

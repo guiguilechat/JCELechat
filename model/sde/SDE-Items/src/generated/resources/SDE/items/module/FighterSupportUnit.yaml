@@ -16,6 +16,7 @@ items:
     TechLevel: 1
     id: 24283
     marketGroup: 938
+    mass: 200.0
     name: Fighter Support Unit I
     published: true
     volume: 4000.0
@@ -37,6 +38,7 @@ items:
     TechLevel: 2
     id: 41415
     marketGroup: 938
+    mass: 200.0
     name: Fighter Support Unit II
     published: true
     volume: 4000.0
@@ -58,6 +60,7 @@ items:
     TechLevel: 1
     id: 41414
     marketGroup: 938
+    mass: 200.0
     name: Hermes Compact Fighter Support Unit
     published: true
     volume: 4000.0
@@ -80,6 +83,7 @@ items:
     TechLevel: 1
     id: 41417
     marketGroup: 938
+    mass: 200.0
     name: Sentient Fighter Support Unit
     published: true
     volume: 2000.0
@@ -102,6 +106,7 @@ items:
     TechLevel: 1
     id: 32951
     marketGroup: 938
+    mass: 200.0
     name: Unit D-34343's Modified Fighter Support Unit
     published: true
     volume: 800.0
@@ -124,6 +129,7 @@ items:
     TechLevel: 1
     id: 32953
     marketGroup: 938
+    mass: 200.0
     name: Unit F-435454's Modified Fighter Support Unit
     published: true
     volume: 600.0
@@ -146,6 +152,7 @@ items:
     TechLevel: 1
     id: 32955
     marketGroup: 938
+    mass: 200.0
     name: Unit P-343554's Modified Fighter Support Unit
     published: true
     volume: 400.0
@@ -168,6 +175,7 @@ items:
     TechLevel: 1
     id: 32957
     marketGroup: 938
+    mass: 200.0
     name: Unit W-634's Modified Fighter Support Unit
     published: true
     volume: 200.0

@@ -106,6 +106,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 44996
     marketGroup: 1620
+    mass: 1.5E8
     name: Marshal
     published: true
     volume: 450000.0
@@ -202,6 +203,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 22440
     marketGroup: 1079
+    mass: 1.488E8
     name: Panther
     published: true
     volume: 414000.0
@@ -298,6 +300,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 22428
     marketGroup: 1076
+    mass: 1.503E8
     name: Redeemer
     published: true
     volume: 486000.0
@@ -395,6 +398,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 22430
     marketGroup: 1078
+    mass: 1.417E8
     name: Sin
     published: true
     volume: 454500.0
@@ -492,6 +496,7 @@ items:
     WarpSpeedMultiplier: 2.200000047683716
     id: 22436
     marketGroup: 1077
+    mass: 1.511E8
     name: Widow
     published: true
     volume: 468000.0

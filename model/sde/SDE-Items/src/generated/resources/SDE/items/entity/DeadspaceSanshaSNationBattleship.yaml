@@ -1,106 +1,127 @@
 items:
   Centus Beast Lord:
     id: 24156
+    mass: 1.001E7
     name: Centus Beast Lord
     published: false
     volume: 100100.0
   Centus Dark Lord:
     id: 24158
+    mass: 1.001E7
     name: Centus Dark Lord
     published: false
     volume: 100100.0
   Centus Dread Lord:
     id: 24159
+    mass: 1.001E7
     name: Centus Dread Lord
     published: false
     volume: 100100.0
   Centus Lord:
     id: 17058
+    mass: 1.001E7
     name: Centus Lord
     published: false
     volume: 100100.0
   Centus Mutant Lord:
     id: 17071
+    mass: 1.001E7
     name: Centus Mutant Lord
     published: false
     volume: 100100.0
   Centus Overlord:
     id: 24157
+    mass: 1.001E7
     name: Centus Overlord
     published: false
     volume: 100100.0
   Centus Plague Lord:
     id: 24155
+    mass: 1.001E7
     name: Centus Plague Lord
     published: false
     volume: 100100.0
   Centus Savage Lord:
     id: 17082
+    mass: 1.001E7
     name: Centus Savage Lord
     published: false
     volume: 100100.0
   Centus Slave Lord:
     id: 17066
+    mass: 1.001E7
     name: Centus Slave Lord
     published: false
     volume: 100100.0
   Centus Tyrant:
     id: 24160
+    mass: 1.001E7
     name: Centus Tyrant
     published: false
     volume: 100100.0
   Sansha's Tyrant Elite:
     id: 19737
+    mass: 1.001E7
     name: Sansha's Tyrant Elite
     published: false
     volume: 100100.0
   True Centus Beast Lord:
     id: 17107
+    mass: 1.001E7
     name: True Centus Beast Lord
     published: false
     volume: 100100.0
   True Centus Dark Lord:
     id: 24162
+    mass: 1.001E7
     name: True Centus Dark Lord
     published: false
     volume: 100100.0
   True Centus Dread Lord:
     id: 24163
+    mass: 1.001E7
     name: True Centus Dread Lord
     published: false
     volume: 100100.0
   True Centus Lord:
     id: 17085
+    mass: 1.001E7
     name: True Centus Lord
     published: false
     volume: 100100.0
   True Centus Mutant Lord:
     id: 17095
+    mass: 1.001E7
     name: True Centus Mutant Lord
     published: false
     volume: 100100.0
   True Centus Overlord:
     id: 24161
+    mass: 1.001E7
     name: True Centus Overlord
     published: false
     volume: 100100.0
   True Centus Plague Lord:
     id: 17096
+    mass: 1.001E7
     name: True Centus Plague Lord
     published: false
     volume: 100100.0
   True Centus Savage Lord:
     id: 17108
+    mass: 1.001E7
     name: True Centus Savage Lord
     published: false
     volume: 100100.0
   True Centus Slave Lord:
     id: 17090
+    mass: 1.001E7
     name: True Centus Slave Lord
     published: false
     volume: 100100.0
   True Centus Tyrant:
     id: 24164
+    mass: 1.001E7
     name: True Centus Tyrant
     published: false
     volume: 100100.0

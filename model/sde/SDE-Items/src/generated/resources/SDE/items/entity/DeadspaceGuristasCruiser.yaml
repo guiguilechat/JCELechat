@@ -1,171 +1,205 @@
 items:
   Dire Pithum Abolisher:
     id: 24098
+    mass: 1.01E7
     name: Dire Pithum Abolisher
     published: false
     volume: 101000.0
   Dire Pithum Annihilator:
     id: 24093
+    mass: 1.01E7
     name: Dire Pithum Annihilator
     published: false
     volume: 101000.0
   Dire Pithum Ascriber:
     id: 24090
+    mass: 1.01E7
     name: Dire Pithum Ascriber
     published: false
     volume: 101000.0
   Dire Pithum Eraser:
     id: 24097
+    mass: 1.01E7
     name: Dire Pithum Eraser
     published: false
     volume: 101000.0
   Dire Pithum Inferno:
     id: 24096
+    mass: 1.01E7
     name: Dire Pithum Inferno
     published: false
     volume: 101000.0
   Dire Pithum Killer:
     id: 24091
+    mass: 1.01E7
     name: Dire Pithum Killer
     published: false
     volume: 101000.0
   Dire Pithum Mortifier:
     id: 24095
+    mass: 1.01E7
     name: Dire Pithum Mortifier
     published: false
     volume: 101000.0
   Dire Pithum Murderer:
     id: 24092
+    mass: 1.01E7
     name: Dire Pithum Murderer
     published: false
     volume: 101000.0
   Dire Pithum Nullifier:
     id: 24094
+    mass: 1.01E7
     name: Dire Pithum Nullifier
     published: false
     volume: 101000.0
   Dire Pithum Silencer:
     id: 24089
+    mass: 1.01E7
     name: Dire Pithum Silencer
     published: false
     volume: 101000.0
   Dread Pithum Abolisher:
     id: 17017
+    mass: 1.01E7
     name: Dread Pithum Abolisher
     published: false
     volume: 101000.0
   Dread Pithum Annihilator:
     id: 17028
+    mass: 1.01E7
     name: Dread Pithum Annihilator
     published: false
     volume: 101000.0
   Dread Pithum Ascriber:
     id: 17009
+    mass: 9600000.0
     name: Dread Pithum Ascriber
     published: false
     volume: 96000.0
   Dread Pithum Eraser:
     id: 17021
+    mass: 1.01E7
     name: Dread Pithum Eraser
     published: false
     volume: 101000.0
   Dread Pithum Inferno:
     id: 17016
+    mass: 1.01E7
     name: Dread Pithum Inferno
     published: false
     volume: 101000.0
   Dread Pithum Killer:
     id: 17007
+    mass: 9200000.0
     name: Dread Pithum Killer
     published: false
     volume: 92000.0
   Dread Pithum Mortifier:
     id: 17020
+    mass: 1.01E7
     name: Dread Pithum Mortifier
     published: false
     volume: 101000.0
   Dread Pithum Murderer:
     id: 17025
+    mass: 1.01E7
     name: Dread Pithum Murderer
     published: false
     volume: 101000.0
   Dread Pithum Nullifier:
     id: 17024
+    mass: 1.01E7
     name: Dread Pithum Nullifier
     published: false
     volume: 101000.0
   Dread Pithum Silencer:
     id: 17029
+    mass: 1.07E7
     name: Dread Pithum Silencer
     published: false
     volume: 107000.0
   Guristas Emissary:
     id: 11601
+    mass: 1.01E7
     name: Guristas Emissary
     published: false
     volume: 101000.0
   Guristas Personnel Transport:
     id: 16169
+    mass: 9.6E7
     name: Guristas Personnel Transport
     published: false
     volume: 960000.0
   Guristas Transport Ship:
     id: 11718
+    mass: 9.6E7
     name: Guristas Transport Ship
     published: false
     volume: 960000.0
   Pithum Abolisher:
     id: 24088
+    mass: 1.01E7
     name: Pithum Abolisher
     published: false
     volume: 101000.0
   Pithum Annihilator:
     id: 17003
+    mass: 1.01E7
     name: Pithum Annihilator
     published: false
     volume: 101000.0
   Pithum Ascriber:
     id: 16982
+    mass: 9600000.0
     name: Pithum Ascriber
     published: false
     volume: 96000.0
   Pithum Eraser:
     id: 24087
+    mass: 1.01E7
     name: Pithum Eraser
     published: false
     volume: 101000.0
   Pithum Inferno:
     id: 16991
+    mass: 1.01E7
     name: Pithum Inferno
     published: false
     volume: 101000.0
   Pithum Killer:
     id: 16980
+    mass: 9200000.0
     name: Pithum Killer
     published: false
     volume: 92000.0
   Pithum Mortifier:
     id: 16995
+    mass: 1.01E7
     name: Pithum Mortifier
     published: false
     volume: 101000.0
   Pithum Murderer:
     id: 17000
+    mass: 1.01E7
     name: Pithum Murderer
     published: false
     volume: 101000.0
   Pithum Nullifier:
     id: 16998
+    mass: 1.01E7
     name: Pithum Nullifier
     published: false
     volume: 101000.0
   Pithum Silencer:
     id: 17004
+    mass: 1.07E7
     name: Pithum Silencer
     published: false
     volume: 107000.0
   Renegade Guristas Pirate:
     id: 14344
+    mass: 1.01E7
     name: Renegade Guristas Pirate
     published: false
     volume: 101000.0

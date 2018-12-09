@@ -11,6 +11,7 @@ items:
     WarfareBuff2Multiplier: -9
     id: 42837
     marketGroup: 2299
+    mass: 0.01
     name: Electronic Hardening Charge
     published: true
     volume: 0.01
@@ -24,6 +25,7 @@ items:
     WarfareBuff1Multiplier: 9
     id: 42836
     marketGroup: 2299
+    mass: 0.01
     name: Electronic Superiority Charge
     published: true
     volume: 0.01
@@ -39,6 +41,7 @@ items:
     WarfareBuff2Multiplier: 18
     id: 42835
     marketGroup: 2299
+    mass: 0.01
     name: Sensor Optimization Charge
     published: true
     volume: 0.01

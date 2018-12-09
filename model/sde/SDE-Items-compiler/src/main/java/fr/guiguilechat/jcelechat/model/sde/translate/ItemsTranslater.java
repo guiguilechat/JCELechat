@@ -98,6 +98,9 @@ public class ItemsTranslater {
 				Field publishedfield = item.getClass().getField("published");
 				publishedfield.setAccessible(true);
 				publishedfield.set(item, type.published);
+				Field massField = item.getClass().getField("mass");
+				massField.setAccessible(true);
+				massField.set(item, type.mass);
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}

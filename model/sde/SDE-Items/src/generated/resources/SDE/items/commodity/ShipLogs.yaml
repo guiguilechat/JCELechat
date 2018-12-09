@@ -1,6 +1,7 @@
 items:
   Encrypted Ship Log:
     id: 29150
+    mass: 1.0
     name: Encrypted Ship Log
     published: true
     volume: 1.0

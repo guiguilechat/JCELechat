@@ -25,6 +25,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27405
     marketGroup: 1003
+    mass: 1000.0
     name: Caldari Navy Inferno Heavy Assault Missile
     published: true
     volume: 0.015
@@ -54,6 +55,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27419
     marketGroup: 1003
+    mass: 1000.0
     name: Caldari Navy Mjolnir Heavy Assault Missile
     published: true
     volume: 0.015
@@ -83,6 +85,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27401
     marketGroup: 1003
+    mass: 1000.0
     name: Caldari Navy Nova Heavy Assault Missile
     published: true
     volume: 0.015
@@ -112,6 +115,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27413
     marketGroup: 1003
+    mass: 1000.0
     name: Caldari Navy Scourge Heavy Assault Missile
     published: true
     volume: 0.015
@@ -141,6 +145,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27407
     marketGroup: 1003
+    mass: 1000.0
     name: Dread Guristas Inferno Heavy Assault Missile
     published: true
     volume: 0.015
@@ -170,6 +175,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27421
     marketGroup: 1003
+    mass: 1000.0
     name: Dread Guristas Mjolnir Heavy Assault Missile
     published: true
     volume: 0.015
@@ -199,6 +205,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27397
     marketGroup: 1003
+    mass: 1000.0
     name: Dread Guristas Nova Heavy Assault Missile
     published: true
     volume: 0.015
@@ -228,6 +235,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27415
     marketGroup: 1003
+    mass: 1000.0
     name: Dread Guristas Scourge Heavy Assault Missile
     published: true
     volume: 0.015
@@ -257,6 +265,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27403
     marketGroup: 1003
+    mass: 1000.0
     name: Guristas Inferno Heavy Assault Missile
     published: true
     volume: 0.015
@@ -286,6 +295,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27417
     marketGroup: 1003
+    mass: 1000.0
     name: Guristas Mjolnir Heavy Assault Missile
     published: true
     volume: 0.015
@@ -315,6 +325,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27393
     marketGroup: 1003
+    mass: 1000.0
     name: Guristas Nova Heavy Assault Missile
     published: true
     volume: 0.015
@@ -344,6 +355,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27411
     marketGroup: 1003
+    mass: 1000.0
     name: Guristas Scourge Heavy Assault Missile
     published: true
     volume: 0.015
@@ -371,6 +383,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 20308
     marketGroup: 971
+    mass: 1000.0
     name: Inferno Heavy Assault Missile
     published: true
     volume: 0.015
@@ -398,6 +411,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 20306
     marketGroup: 971
+    mass: 1000.0
     name: Mjolnir Heavy Assault Missile
     published: true
     volume: 0.015
@@ -425,6 +439,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 21867
     marketGroup: 971
+    mass: 1000.0
     name: Nova Heavy Assault Missile
     published: true
     volume: 0.015
@@ -452,6 +467,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 20307
     marketGroup: 971
+    mass: 1000.0
     name: Scourge Heavy Assault Missile
     published: true
     volume: 0.015

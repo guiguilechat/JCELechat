@@ -3,6 +3,7 @@ items:
     Gender: 3
     id: 33064
     marketGroup: 1662
+    mass: 0.5
     name: Boots.ini
     published: true
     volume: 0.1
@@ -10,6 +11,7 @@ items:
     Gender: 1
     id: 33780
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Ascend' Boots (brown/gold)
     published: true
     volume: 0.1
@@ -17,6 +19,7 @@ items:
     Gender: 1
     id: 33778
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Ascend' Boots (grey/silver)
     published: true
     volume: 0.1
@@ -24,6 +27,7 @@ items:
     Gender: 1
     id: 33779
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Ascend' Boots (maroon/black)
     published: true
     volume: 0.1
@@ -31,6 +35,7 @@ items:
     Gender: 1
     id: 33777
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Ascend' Boots (royal)
     published: true
     volume: 0.1
@@ -38,6 +43,7 @@ items:
     Gender: 1
     id: 33776
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Ascend' Boots (white/gold)
     published: true
     volume: 0.1
@@ -45,6 +51,7 @@ items:
     Gender: 1
     id: 36505
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Hephaestus' Shoes (blue)
     published: true
     volume: 0.1
@@ -52,6 +59,7 @@ items:
     Gender: 1
     id: 36508
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Hephaestus' Shoes (cyan)
     published: true
     volume: 0.1
@@ -59,6 +67,7 @@ items:
     Gender: 1
     id: 36507
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Hephaestus' Shoes (desert)
     published: true
     volume: 0.1
@@ -66,6 +75,7 @@ items:
     Gender: 1
     id: 36510
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Hephaestus' Shoes (gray/orange)
     published: true
     volume: 0.1
@@ -73,6 +83,7 @@ items:
     Gender: 1
     id: 36509
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Hephaestus' Shoes (green)
     published: true
     volume: 0.1
@@ -80,6 +91,7 @@ items:
     Gender: 1
     id: 36506
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Hephaestus' Shoes (white/red)
     published: true
     volume: 0.1
@@ -87,6 +99,7 @@ items:
     Gender: 1
     id: 4008
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Lockstep' Boots
     published: true
     volume: 0.1
@@ -94,6 +107,7 @@ items:
     Gender: 1
     id: 4172
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Lockstep' Boots (true black)
     published: true
     volume: 0.1
@@ -101,6 +115,7 @@ items:
     Gender: 1
     id: 4173
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Lockstep' Boots (worn brown)
     published: true
     volume: 0.1
@@ -108,6 +123,7 @@ items:
     Gender: 1
     id: 33775
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'March' Boots (Black)
     published: true
     volume: 0.1
@@ -115,6 +131,7 @@ items:
     Gender: 1
     id: 33774
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'March' Boots (Blue)
     published: true
     volume: 0.1
@@ -122,6 +139,7 @@ items:
     Gender: 1
     id: 33773
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'March' Boots (Brown)
     published: true
     volume: 0.1
@@ -129,6 +147,7 @@ items:
     Gender: 1
     id: 33772
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'March' Boots (Graphite)
     published: true
     volume: 0.1
@@ -136,6 +155,7 @@ items:
     Gender: 1
     id: 33771
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'March' Boots (White)
     published: true
     volume: 0.1
@@ -143,6 +163,7 @@ items:
     Gender: 1
     id: 34360
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Outlaw' Boots (Blood Raiders)
     published: true
     volume: 0.1
@@ -150,6 +171,7 @@ items:
     Gender: 1
     id: 34362
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Outlaw' Boots (Guristas)
     published: true
     volume: 0.1
@@ -157,6 +179,7 @@ items:
     Gender: 1
     id: 34361
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Outlaw' Boots (Sansha's Nation)
     published: true
     volume: 0.1
@@ -164,6 +187,7 @@ items:
     Gender: 1
     id: 3966
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Precision' Boots
     published: true
     volume: 0.1
@@ -171,6 +195,7 @@ items:
     Gender: 1
     id: 4174
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Precision' Boots (brown)
     published: true
     volume: 0.1
@@ -178,6 +203,7 @@ items:
     Gender: 1
     id: 4175
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Precision' Boots (gray)
     published: true
     volume: 0.1
@@ -185,6 +211,7 @@ items:
     Gender: 1
     id: 4176
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Precision' Boots (tan)
     published: true
     volume: 0.1
@@ -192,6 +219,7 @@ items:
     Gender: 1
     id: 4001
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Trench' Boots
     published: true
     volume: 0.1
@@ -199,6 +227,7 @@ items:
     Gender: 1
     id: 4177
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Trench' Boots (brown)
     published: true
     volume: 0.1
@@ -206,6 +235,7 @@ items:
     Gender: 1
     id: 4178
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Trench' Boots (gray)
     published: true
     volume: 0.1
@@ -213,6 +243,7 @@ items:
     Gender: 1
     id: 4179
     marketGroup: 1400
+    mass: 0.5
     name: Men's 'Trench' Boots (tan)
     published: true
     volume: 0.1
@@ -220,6 +251,7 @@ items:
     Gender: 3
     id: 33723
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Corsair' Heels (beige)
     published: true
     volume: 0.1
@@ -227,6 +259,7 @@ items:
     Gender: 3
     id: 33720
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Corsair' Heels (black)
     published: true
     volume: 0.1
@@ -234,6 +267,7 @@ items:
     Gender: 3
     id: 33721
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Corsair' Heels (blue)
     published: true
     volume: 0.1
@@ -241,6 +275,7 @@ items:
     Gender: 3
     id: 33722
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Corsair' Heels (brown)
     published: true
     volume: 0.1
@@ -248,6 +283,7 @@ items:
     Gender: 3
     id: 33724
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Corsair' Heels (gray)
     published: true
     volume: 0.1
@@ -255,6 +291,7 @@ items:
     Gender: 3
     id: 33725
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Corsair' Heels (red)
     published: true
     volume: 0.1
@@ -262,6 +299,7 @@ items:
     Gender: 3
     id: 34080
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Eternity' Boots (Black/Gold)
     published: true
     volume: 0.1
@@ -269,6 +307,7 @@ items:
     Gender: 3
     id: 34086
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Eternity' Boots (Black/Red)
     published: true
     volume: 0.1
@@ -276,6 +315,7 @@ items:
     Gender: 3
     id: 34083
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Eternity' Boots (Olive)
     published: true
     volume: 0.1
@@ -283,6 +323,7 @@ items:
     Gender: 3
     id: 34088
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Eternity' Boots (White)
     published: true
     volume: 0.1
@@ -290,6 +331,7 @@ items:
     Gender: 3
     id: 34089
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Eternity' Boots (Yellow)
     published: true
     volume: 0.1
@@ -297,6 +339,7 @@ items:
     Gender: 3
     id: 4127
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Greave' Boots (black/gold)
     published: true
     volume: 0.1
@@ -304,6 +347,7 @@ items:
     Gender: 3
     id: 4128
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Greave' Boots (brown)
     published: true
     volume: 0.1
@@ -311,6 +355,7 @@ items:
     Gender: 3
     id: 4129
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Greave' Boots (matte brown)
     published: true
     volume: 0.1
@@ -318,6 +363,7 @@ items:
     Gender: 3
     id: 4130
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Greave' Boots (matte gray)
     published: true
     volume: 0.1
@@ -325,6 +371,7 @@ items:
     Gender: 3
     id: 4131
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Greave' Boots (red)
     published: true
     volume: 0.1
@@ -332,6 +379,7 @@ items:
     Gender: 3
     id: 4003
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Greave' Knee-Boots
     published: true
     volume: 0.1
@@ -339,6 +387,7 @@ items:
     Gender: 3
     id: 36511
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Hephaestus' Shoes (blue)
     published: true
     volume: 0.1
@@ -346,6 +395,7 @@ items:
     Gender: 3
     id: 36514
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Hephaestus' Shoes (cyan)
     published: true
     volume: 0.1
@@ -353,6 +403,7 @@ items:
     Gender: 3
     id: 36513
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Hephaestus' Shoes (desert)
     published: true
     volume: 0.1
@@ -360,6 +411,7 @@ items:
     Gender: 3
     id: 36516
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Hephaestus' Shoes (gray/orange)
     published: true
     volume: 0.1
@@ -367,6 +419,7 @@ items:
     Gender: 3
     id: 36515
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Hephaestus' Shoes (green)
     published: true
     volume: 0.1
@@ -374,6 +427,7 @@ items:
     Gender: 3
     id: 36512
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Hephaestus' Shoes (white/red)
     published: true
     volume: 0.1
@@ -381,6 +435,7 @@ items:
     Gender: 3
     id: 4002
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels
     published: true
     volume: 0.1
@@ -388,6 +443,7 @@ items:
     Gender: 3
     id: 4116
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (black/gold)
     published: true
     volume: 0.1
@@ -395,6 +451,7 @@ items:
     Gender: 3
     id: 4117
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (black/red)
     published: true
     volume: 0.1
@@ -402,6 +459,7 @@ items:
     Gender: 3
     id: 4118
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (blue)
     published: true
     volume: 0.1
@@ -409,6 +467,7 @@ items:
     Gender: 3
     id: 4119
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (gold)
     published: true
     volume: 0.1
@@ -416,6 +475,7 @@ items:
     Gender: 3
     id: 4120
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (graphite/white)
     published: true
     volume: 0.1
@@ -423,6 +483,7 @@ items:
     Gender: 3
     id: 4121
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (green/black)
     published: true
     volume: 0.1
@@ -430,6 +491,7 @@ items:
     Gender: 3
     id: 4122
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (matte black)
     published: true
     volume: 0.1
@@ -437,6 +499,7 @@ items:
     Gender: 3
     id: 4123
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (matte red)
     published: true
     volume: 0.1
@@ -444,6 +507,7 @@ items:
     Gender: 3
     id: 4124
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (red)
     published: true
     volume: 0.1
@@ -451,6 +515,7 @@ items:
     Gender: 3
     id: 4125
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (silver)
     published: true
     volume: 0.1
@@ -458,6 +523,7 @@ items:
     Gender: 3
     id: 4126
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Minima' Heels (turquoise)
     published: true
     volume: 0.1
@@ -465,6 +531,7 @@ items:
     Gender: 3
     id: 33714
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mitral' Boots (black)
     published: true
     volume: 0.1
@@ -472,6 +539,7 @@ items:
     Gender: 3
     id: 33716
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mitral' Boots (bronze)
     published: true
     volume: 0.1
@@ -479,6 +547,7 @@ items:
     Gender: 3
     id: 33717
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mitral' Boots (cream)
     published: true
     volume: 0.1
@@ -486,6 +555,7 @@ items:
     Gender: 3
     id: 33718
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mitral' Boots (dark blue)
     published: true
     volume: 0.1
@@ -493,6 +563,7 @@ items:
     Gender: 3
     id: 33719
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mitral' Boots (dark red)
     published: true
     volume: 0.1
@@ -500,6 +571,7 @@ items:
     Gender: 3
     id: 4004
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mystrioso' Boots
     published: true
     volume: 0.1
@@ -507,6 +579,7 @@ items:
     Gender: 3
     id: 4132
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mystrioso' Boots (black/white)
     published: true
     volume: 0.1
@@ -514,6 +587,7 @@ items:
     Gender: 3
     id: 4133
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mystrioso' Boots (brown/black)
     published: true
     volume: 0.1
@@ -521,6 +595,7 @@ items:
     Gender: 3
     id: 4134
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mystrioso' Boots (red)
     published: true
     volume: 0.1
@@ -528,6 +603,7 @@ items:
     Gender: 3
     id: 4135
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Mystrioso' Boots (white/black)
     published: true
     volume: 0.1
@@ -535,6 +611,7 @@ items:
     Gender: 3
     id: 34363
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Outlaw' Boots (Blood Raiders)
     published: true
     volume: 0.1
@@ -542,6 +619,7 @@ items:
     Gender: 3
     id: 34365
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Outlaw' Boots (Guristas)
     published: true
     volume: 0.1
@@ -549,6 +627,7 @@ items:
     Gender: 3
     id: 34364
     marketGroup: 1404
+    mass: 0.5
     name: Women's 'Outlaw' Boots (Sansha's Nation)
     published: true
     volume: 0.1

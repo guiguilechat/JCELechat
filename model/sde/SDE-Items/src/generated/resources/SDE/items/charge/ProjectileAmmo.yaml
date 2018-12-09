@@ -12,6 +12,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20721
     marketGroup: 987
+    mass: 0.01
     name: Arch Angel Carbonized Lead L
     published: true
     volume: 0.025
@@ -28,6 +29,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 19994
     marketGroup: 988
+    mass: 1.0
     name: Arch Angel Carbonized Lead M
     published: true
     volume: 0.0125
@@ -44,6 +46,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 19970
     marketGroup: 989
+    mass: 0.01
     name: Arch Angel Carbonized Lead S
     published: true
     volume: 0.0025
@@ -60,6 +63,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20737
     marketGroup: 1006
+    mass: 1.0
     name: Arch Angel Carbonized Lead XL
     published: true
     volume: 0.125
@@ -77,6 +81,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20727
     marketGroup: 987
+    mass: 1.0
     name: Arch Angel Depleted Uranium L
     published: true
     volume: 0.025
@@ -94,6 +99,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20000
     marketGroup: 988
+    mass: 1.0
     name: Arch Angel Depleted Uranium M
     published: true
     volume: 0.0125
@@ -111,6 +117,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 19976
     marketGroup: 989
+    mass: 0.01
     name: Arch Angel Depleted Uranium S
     published: true
     volume: 0.0025
@@ -128,6 +135,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20739
     marketGroup: 1006
+    mass: 1.0
     name: Arch Angel Depleted Uranium XL
     published: true
     volume: 0.125
@@ -145,6 +153,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20735
     marketGroup: 987
+    mass: 1.0
     name: Arch Angel EMP L
     published: true
     volume: 0.025
@@ -162,6 +171,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20008
     marketGroup: 988
+    mass: 1.0
     name: Arch Angel EMP M
     published: true
     volume: 0.0125
@@ -179,6 +189,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 19992
     marketGroup: 989
+    mass: 1.0
     name: Arch Angel EMP S
     published: true
     volume: 0.0025
@@ -196,6 +207,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20741
     marketGroup: 1006
+    mass: 1.0
     name: Arch Angel EMP XL
     published: true
     volume: 0.125
@@ -212,6 +224,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20731
     marketGroup: 987
+    mass: 1.0
     name: Arch Angel Fusion L
     published: true
     volume: 0.025
@@ -228,6 +241,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20004
     marketGroup: 988
+    mass: 1.0
     name: Arch Angel Fusion M
     published: true
     volume: 0.0125
@@ -244,6 +258,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 19988
     marketGroup: 989
+    mass: 1.0
     name: Arch Angel Fusion S
     published: true
     volume: 0.0025
@@ -260,6 +275,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20743
     marketGroup: 1006
+    mass: 1.0
     name: Arch Angel Fusion XL
     published: true
     volume: 0.125
@@ -276,6 +292,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20723
     marketGroup: 987
+    mass: 0.01
     name: Arch Angel Nuclear L
     published: true
     volume: 0.025
@@ -292,6 +309,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 19996
     marketGroup: 988
+    mass: 1.0
     name: Arch Angel Nuclear M
     published: true
     volume: 0.0125
@@ -308,6 +326,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 19972
     marketGroup: 989
+    mass: 0.01
     name: Arch Angel Nuclear S
     published: true
     volume: 0.0025
@@ -324,6 +343,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20745
     marketGroup: 1006
+    mass: 1.0
     name: Arch Angel Nuclear XL
     published: true
     volume: 0.125
@@ -340,6 +360,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20733
     marketGroup: 987
+    mass: 1.0
     name: Arch Angel Phased Plasma L
     published: true
     volume: 0.025
@@ -356,6 +377,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20006
     marketGroup: 988
+    mass: 1.0
     name: Arch Angel Phased Plasma M
     published: true
     volume: 0.0125
@@ -372,6 +394,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 19990
     marketGroup: 989
+    mass: 1.0
     name: Arch Angel Phased Plasma S
     published: true
     volume: 0.0025
@@ -388,6 +411,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20747
     marketGroup: 1006
+    mass: 1.0
     name: Arch Angel Phased Plasma XL
     published: true
     volume: 0.125
@@ -404,6 +428,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20725
     marketGroup: 987
+    mass: 0.01
     name: Arch Angel Proton L
     published: true
     volume: 0.025
@@ -420,6 +445,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 19998
     marketGroup: 988
+    mass: 1.0
     name: Arch Angel Proton M
     published: true
     volume: 0.0125
@@ -436,6 +462,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 19974
     marketGroup: 989
+    mass: 0.01
     name: Arch Angel Proton S
     published: true
     volume: 0.0025
@@ -452,6 +479,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20749
     marketGroup: 1006
+    mass: 1.0
     name: Arch Angel Proton XL
     published: true
     volume: 0.125
@@ -468,6 +496,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20729
     marketGroup: 987
+    mass: 1.0
     name: Arch Angel Titanium Sabot L
     published: true
     volume: 0.025
@@ -484,6 +513,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20002
     marketGroup: 988
+    mass: 1.0
     name: Arch Angel Titanium Sabot M
     published: true
     volume: 0.0125
@@ -500,6 +530,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 19986
     marketGroup: 989
+    mass: 1.0
     name: Arch Angel Titanium Sabot S
     published: true
     volume: 0.0025
@@ -516,6 +547,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20751
     marketGroup: 1006
+    mass: 1.0
     name: Arch Angel Titanium Sabot XL
     published: true
     volume: 0.125
@@ -531,6 +563,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 194
     marketGroup: 109
+    mass: 1.0
     name: Carbonized Lead L
     published: true
     volume: 0.025
@@ -546,6 +579,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 186
     marketGroup: 112
+    mass: 0.05
     name: Carbonized Lead M
     published: true
     volume: 0.0125
@@ -561,6 +595,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 178
     marketGroup: 113
+    mass: 0.01
     name: Carbonized Lead S
     published: true
     volume: 0.0025
@@ -576,6 +611,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 17664
     marketGroup: 502
+    mass: 1.0
     name: Carbonized Lead XL
     published: true
     volume: 0.125
@@ -592,6 +628,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 197
     marketGroup: 109
+    mass: 1.0
     name: Depleted Uranium L
     published: true
     volume: 0.025
@@ -608,6 +645,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 189
     marketGroup: 112
+    mass: 1.0
     name: Depleted Uranium M
     published: true
     volume: 0.0125
@@ -624,6 +662,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 181
     marketGroup: 113
+    mass: 0.01
     name: Depleted Uranium S
     published: true
     volume: 0.0025
@@ -640,6 +679,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 17666
     marketGroup: 502
+    mass: 1.0
     name: Depleted Uranium XL
     published: true
     volume: 0.125
@@ -656,6 +696,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20785
     marketGroup: 987
+    mass: 1.0
     name: Domination Carbonized Lead L
     published: true
     volume: 0.025
@@ -672,6 +713,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20769
     marketGroup: 988
+    mass: 1.0
     name: Domination Carbonized Lead M
     published: true
     volume: 0.0125
@@ -688,6 +730,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20753
     marketGroup: 989
+    mass: 0.01
     name: Domination Carbonized Lead S
     published: true
     volume: 0.0025
@@ -704,6 +747,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20801
     marketGroup: 1006
+    mass: 1.0
     name: Domination Carbonized Lead XL
     published: true
     volume: 0.125
@@ -721,6 +765,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20791
     marketGroup: 987
+    mass: 1.0
     name: Domination Depleted Uranium L
     published: true
     volume: 0.025
@@ -738,6 +783,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20775
     marketGroup: 988
+    mass: 1.0
     name: Domination Depleted Uranium M
     published: true
     volume: 0.0125
@@ -755,6 +801,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20759
     marketGroup: 989
+    mass: 0.01
     name: Domination Depleted Uranium S
     published: true
     volume: 0.0025
@@ -772,6 +819,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20803
     marketGroup: 1006
+    mass: 1.0
     name: Domination Depleted Uranium XL
     published: true
     volume: 0.125
@@ -789,6 +837,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20799
     marketGroup: 987
+    mass: 1.0
     name: Domination EMP L
     published: true
     volume: 0.025
@@ -806,6 +855,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20783
     marketGroup: 988
+    mass: 1.0
     name: Domination EMP M
     published: true
     volume: 0.0125
@@ -823,6 +873,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20767
     marketGroup: 989
+    mass: 0.01
     name: Domination EMP S
     published: true
     volume: 0.0025
@@ -840,6 +891,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20805
     marketGroup: 1006
+    mass: 1.0
     name: Domination EMP XL
     published: true
     volume: 0.125
@@ -856,6 +908,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20795
     marketGroup: 987
+    mass: 1.0
     name: Domination Fusion L
     published: true
     volume: 0.025
@@ -872,6 +925,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20779
     marketGroup: 988
+    mass: 1.0
     name: Domination Fusion M
     published: true
     volume: 0.0125
@@ -888,6 +942,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20763
     marketGroup: 989
+    mass: 0.01
     name: Domination Fusion S
     published: true
     volume: 0.0025
@@ -904,6 +959,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20807
     marketGroup: 1006
+    mass: 1.0
     name: Domination Fusion XL
     published: true
     volume: 0.125
@@ -920,6 +976,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20787
     marketGroup: 987
+    mass: 1.0
     name: Domination Nuclear L
     published: true
     volume: 0.025
@@ -936,6 +993,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20771
     marketGroup: 988
+    mass: 1.0
     name: Domination Nuclear M
     published: true
     volume: 0.0125
@@ -952,6 +1010,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20755
     marketGroup: 989
+    mass: 0.01
     name: Domination Nuclear S
     published: true
     volume: 0.0025
@@ -968,6 +1027,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20809
     marketGroup: 1006
+    mass: 1.0
     name: Domination Nuclear XL
     published: true
     volume: 0.125
@@ -984,6 +1044,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20797
     marketGroup: 987
+    mass: 1.0
     name: Domination Phased Plasma L
     published: true
     volume: 0.025
@@ -1000,6 +1061,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20781
     marketGroup: 988
+    mass: 1.0
     name: Domination Phased Plasma M
     published: true
     volume: 0.0125
@@ -1016,6 +1078,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20765
     marketGroup: 989
+    mass: 0.01
     name: Domination Phased Plasma S
     published: true
     volume: 0.0025
@@ -1032,6 +1095,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20811
     marketGroup: 1006
+    mass: 1.0
     name: Domination Phased Plasma XL
     published: true
     volume: 0.125
@@ -1048,6 +1112,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20789
     marketGroup: 987
+    mass: 1.0
     name: Domination Proton L
     published: true
     volume: 0.025
@@ -1064,6 +1129,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20773
     marketGroup: 988
+    mass: 1.0
     name: Domination Proton M
     published: true
     volume: 0.0125
@@ -1080,6 +1146,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20757
     marketGroup: 989
+    mass: 0.01
     name: Domination Proton S
     published: true
     volume: 0.0025
@@ -1096,6 +1163,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20813
     marketGroup: 1006
+    mass: 1.0
     name: Domination Proton XL
     published: true
     volume: 0.125
@@ -1112,6 +1180,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20793
     marketGroup: 987
+    mass: 1.0
     name: Domination Titanium Sabot L
     published: true
     volume: 0.025
@@ -1128,6 +1197,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20777
     marketGroup: 988
+    mass: 1.0
     name: Domination Titanium Sabot M
     published: true
     volume: 0.0125
@@ -1144,6 +1214,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20761
     marketGroup: 989
+    mass: 0.01
     name: Domination Titanium Sabot S
     published: true
     volume: 0.0025
@@ -1160,6 +1231,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20815
     marketGroup: 1006
+    mass: 1.0
     name: Domination Titanium Sabot XL
     published: true
     volume: 0.125
@@ -1176,6 +1248,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 201
     marketGroup: 109
+    mass: 1.0
     name: EMP L
     published: true
     volume: 0.025
@@ -1192,6 +1265,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 193
     marketGroup: 112
+    mass: 1.0
     name: EMP M
     published: true
     volume: 0.0125
@@ -1208,6 +1282,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 185
     marketGroup: 113
+    mass: 0.01
     name: EMP S
     published: true
     volume: 0.0025
@@ -1224,6 +1299,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 17668
     marketGroup: 502
+    mass: 1.0
     name: EMP XL
     published: true
     volume: 0.125
@@ -1239,6 +1315,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 199
     marketGroup: 109
+    mass: 1.0
     name: Fusion L
     published: true
     volume: 0.025
@@ -1254,6 +1331,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 191
     marketGroup: 112
+    mass: 1.0
     name: Fusion M
     published: true
     volume: 0.0125
@@ -1269,6 +1347,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 183
     marketGroup: 113
+    mass: 0.01
     name: Fusion S
     published: true
     volume: 0.0025
@@ -1284,6 +1363,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 17670
     marketGroup: 502
+    mass: 1.0
     name: Fusion XL
     published: true
     volume: 0.125
@@ -1299,6 +1379,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 195
     marketGroup: 109
+    mass: 1.0
     name: Nuclear L
     published: true
     volume: 0.025
@@ -1314,6 +1395,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 187
     marketGroup: 112
+    mass: 0.05
     name: Nuclear M
     published: true
     volume: 0.0125
@@ -1329,6 +1411,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 179
     marketGroup: 113
+    mass: 0.01
     name: Nuclear S
     published: true
     volume: 0.0025
@@ -1344,6 +1427,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 17672
     marketGroup: 502
+    mass: 1.0
     name: Nuclear XL
     published: true
     volume: 0.125
@@ -1359,6 +1443,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 200
     marketGroup: 109
+    mass: 1.0
     name: Phased Plasma L
     published: true
     volume: 0.025
@@ -1374,6 +1459,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 192
     marketGroup: 112
+    mass: 1.0
     name: Phased Plasma M
     published: true
     volume: 0.0125
@@ -1389,6 +1475,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 184
     marketGroup: 113
+    mass: 0.01
     name: Phased Plasma S
     published: true
     volume: 0.0025
@@ -1404,6 +1491,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 17674
     marketGroup: 502
+    mass: 1.0
     name: Phased Plasma XL
     published: true
     volume: 0.125
@@ -1419,6 +1507,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 196
     marketGroup: 109
+    mass: 1.0
     name: Proton L
     published: true
     volume: 0.025
@@ -1434,6 +1523,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 188
     marketGroup: 112
+    mass: 1.0
     name: Proton M
     published: true
     volume: 0.0125
@@ -1449,6 +1539,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 180
     marketGroup: 113
+    mass: 0.01
     name: Proton S
     published: true
     volume: 0.0025
@@ -1464,6 +1555,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 17676
     marketGroup: 502
+    mass: 1.0
     name: Proton XL
     published: true
     volume: 0.125
@@ -1480,6 +1572,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 28324
     marketGroup: 987
+    mass: 1.0
     name: Republic Fleet Carbonized Lead L
     published: true
     volume: 0.025
@@ -1496,6 +1589,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 28326
     marketGroup: 988
+    mass: 0.05
     name: Republic Fleet Carbonized Lead M
     published: true
     volume: 0.0125
@@ -1512,6 +1606,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 28328
     marketGroup: 989
+    mass: 0.01
     name: Republic Fleet Carbonized Lead S
     published: true
     volume: 0.0025
@@ -1528,6 +1623,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 28330
     marketGroup: 1006
+    mass: 1.0
     name: Republic Fleet Carbonized Lead XL
     published: true
     volume: 0.125
@@ -1545,6 +1641,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 28332
     marketGroup: 987
+    mass: 1.0
     name: Republic Fleet Depleted Uranium L
     published: true
     volume: 0.025
@@ -1562,6 +1659,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 28334
     marketGroup: 988
+    mass: 1.0
     name: Republic Fleet Depleted Uranium M
     published: true
     volume: 0.0125
@@ -1579,6 +1677,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 28336
     marketGroup: 989
+    mass: 0.01
     name: Republic Fleet Depleted Uranium S
     published: true
     volume: 0.0025
@@ -1596,6 +1695,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 28338
     marketGroup: 1006
+    mass: 1.0
     name: Republic Fleet Depleted Uranium XL
     published: true
     volume: 0.125
@@ -1613,6 +1713,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21894
     marketGroup: 987
+    mass: 1.0
     name: Republic Fleet EMP L
     published: true
     volume: 0.025
@@ -1630,6 +1731,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21896
     marketGroup: 988
+    mass: 1.0
     name: Republic Fleet EMP M
     published: true
     volume: 0.0125
@@ -1647,6 +1749,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21898
     marketGroup: 989
+    mass: 0.01
     name: Republic Fleet EMP S
     published: true
     volume: 0.0025
@@ -1664,6 +1767,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21900
     marketGroup: 1006
+    mass: 1.0
     name: Republic Fleet EMP XL
     published: true
     volume: 0.125
@@ -1680,6 +1784,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21902
     marketGroup: 987
+    mass: 1.0
     name: Republic Fleet Fusion L
     published: true
     volume: 0.025
@@ -1696,6 +1801,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21904
     marketGroup: 988
+    mass: 1.0
     name: Republic Fleet Fusion M
     published: true
     volume: 0.0125
@@ -1712,6 +1818,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21906
     marketGroup: 989
+    mass: 0.01
     name: Republic Fleet Fusion S
     published: true
     volume: 0.0025
@@ -1728,6 +1835,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21908
     marketGroup: 1006
+    mass: 1.0
     name: Republic Fleet Fusion XL
     published: true
     volume: 0.125
@@ -1744,6 +1852,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21910
     marketGroup: 987
+    mass: 1.0
     name: Republic Fleet Nuclear L
     published: true
     volume: 0.025
@@ -1760,6 +1869,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21912
     marketGroup: 988
+    mass: 0.05
     name: Republic Fleet Nuclear M
     published: true
     volume: 0.0125
@@ -1776,6 +1886,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21914
     marketGroup: 989
+    mass: 0.01
     name: Republic Fleet Nuclear S
     published: true
     volume: 0.0025
@@ -1792,6 +1903,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21916
     marketGroup: 1006
+    mass: 1.0
     name: Republic Fleet Nuclear XL
     published: true
     volume: 0.125
@@ -1808,6 +1920,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21918
     marketGroup: 987
+    mass: 1.0
     name: Republic Fleet Phased Plasma L
     published: true
     volume: 0.025
@@ -1824,6 +1937,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21922
     marketGroup: 988
+    mass: 1.0
     name: Republic Fleet Phased Plasma M
     published: true
     volume: 0.0125
@@ -1840,6 +1954,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21924
     marketGroup: 989
+    mass: 0.01
     name: Republic Fleet Phased Plasma S
     published: true
     volume: 0.0025
@@ -1856,6 +1971,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21920
     marketGroup: 1006
+    mass: 1.0
     name: Republic Fleet Phased Plasma XL
     published: true
     volume: 0.125
@@ -1872,6 +1988,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21926
     marketGroup: 987
+    mass: 1.0
     name: Republic Fleet Proton L
     published: true
     volume: 0.025
@@ -1888,6 +2005,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21928
     marketGroup: 988
+    mass: 1.0
     name: Republic Fleet Proton M
     published: true
     volume: 0.0125
@@ -1904,6 +2022,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21931
     marketGroup: 989
+    mass: 0.01
     name: Republic Fleet Proton S
     published: true
     volume: 0.0025
@@ -1920,6 +2039,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21933
     marketGroup: 1006
+    mass: 1.0
     name: Republic Fleet Proton XL
     published: true
     volume: 0.125
@@ -1936,6 +2056,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21935
     marketGroup: 987
+    mass: 1.0
     name: Republic Fleet Titanium Sabot L
     published: true
     volume: 0.025
@@ -1952,6 +2073,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21937
     marketGroup: 988
+    mass: 1.0
     name: Republic Fleet Titanium Sabot M
     published: true
     volume: 0.0125
@@ -1968,6 +2090,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21939
     marketGroup: 989
+    mass: 0.01
     name: Republic Fleet Titanium Sabot S
     published: true
     volume: 0.0025
@@ -1984,6 +2107,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21941
     marketGroup: 1006
+    mass: 1.0
     name: Republic Fleet Titanium Sabot XL
     published: true
     volume: 0.125
@@ -1999,6 +2123,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 198
     marketGroup: 109
+    mass: 1.0
     name: Titanium Sabot L
     published: true
     volume: 0.025
@@ -2014,6 +2139,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 190
     marketGroup: 112
+    mass: 1.0
     name: Titanium Sabot M
     published: true
     volume: 0.0125
@@ -2029,6 +2155,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 182
     marketGroup: 113
+    mass: 0.01
     name: Titanium Sabot S
     published: true
     volume: 0.0025
@@ -2044,6 +2171,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 17678
     marketGroup: 502
+    mass: 1.0
     name: Titanium Sabot XL
     published: true
     volume: 0.125

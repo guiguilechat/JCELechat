@@ -9,6 +9,7 @@ items:
     WarfareBuff1Multiplier: -8
     id: 42832
     marketGroup: 2298
+    mass: 0.01
     name: Armor Energizing Charge
     published: true
     volume: 0.01
@@ -22,6 +23,7 @@ items:
     WarfareBuff1Multiplier: 8
     id: 42834
     marketGroup: 2298
+    mass: 0.01
     name: Armor Reinforcement Charge
     published: true
     volume: 0.01
@@ -35,6 +37,7 @@ items:
     WarfareBuff1Multiplier: -8
     id: 42833
     marketGroup: 2298
+    mass: 0.01
     name: Rapid Repair Charge
     published: true
     volume: 0.01

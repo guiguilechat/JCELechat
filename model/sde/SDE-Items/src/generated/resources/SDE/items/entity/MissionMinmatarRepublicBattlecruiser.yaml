@@ -1,41 +1,49 @@
 items:
   Republic Norn:
     id: 24851
+    mass: 1.09E7
     name: Republic Norn
     published: false
     volume: 109000.0
   Republic Nutia:
     id: 24843
+    mass: 1.09E7
     name: Republic Nutia
     published: false
     volume: 109000.0
   Republic Tribal Caluka:
     id: 28179
+    mass: 1.25E7
     name: Republic Tribal Caluka
     published: false
     volume: 120000.0
   Republic Tribal Norn:
     id: 24857
+    mass: 1.09E7
     name: Republic Tribal Norn
     published: false
     volume: 109000.0
   Republic Tribal Nutia:
     id: 24848
+    mass: 1.09E7
     name: Republic Tribal Nutia
     published: false
     volume: 109000.0
   Republic Tribal Venis:
     id: 24855
+    mass: 1.09E7
     name: Republic Tribal Venis
     published: false
     volume: 109000.0
   Republic Tribal Vorshud:
     id: 28180
+    mass: 1.25E7
     name: Republic Tribal Vorshud
     published: false
     volume: 120000.0
   Republic Venis:
     id: 24847
+    mass: 1.09E7
     name: Republic Venis
     published: false
     volume: 109000.0

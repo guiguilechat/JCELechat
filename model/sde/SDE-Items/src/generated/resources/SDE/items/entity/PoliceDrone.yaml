@@ -1,171 +1,205 @@
 items:
   Amarr Surveillance General Major:
     id: 11515
+    mass: 2.0E7
     name: Amarr Surveillance General Major
     published: false
     volume: 1080000.0
   Amarr Surveillance Officer:
     id: 9959
+    mass: 1810000.0
     name: Amarr Surveillance Officer
     published: false
     volume: 18100.0
   Amarr Surveillance Sergeant:
     id: 9962
+    mass: 1.15E7
     name: Amarr Surveillance Sergeant
     published: false
     volume: 115000.0
   Amarr Surveillance Sergeant Major:
     id: 9960
+    mass: 1.18E7
     name: Amarr Surveillance Sergeant Major
     published: false
     volume: 118000.0
   Ammatar Surveillance General Major:
     id: 11517
+    mass: 2.0E7
     name: Ammatar Surveillance General Major
     published: false
     volume: 1080000.0
   Ammatar Surveillance Officer:
     id: 10097
+    mass: 1810000.0
     name: Ammatar Surveillance Officer
     published: false
     volume: 18100.0
   Ammatar Surveillance Sergeant:
     id: 10100
+    mass: 1.15E7
     name: Ammatar Surveillance Sergeant
     published: false
     volume: 115000.0
   Ammatar Surveillance Sergeant Major:
     id: 10099
+    mass: 1.18E7
     name: Ammatar Surveillance Sergeant Major
     published: false
     volume: 118000.0
   CONCORD SWAT Captain:
     id: 10036
+    mass: 1.01E7
     name: CONCORD SWAT Captain
     published: false
     volume: 101000.0
   CONCORD SWAT Commander:
     id: 11126
+    mass: 2000000.0
     name: CONCORD SWAT Commander
     published: false
     volume: 1080000.0
   CONCORD SWAT Officer:
     id: 10035
+    mass: 2040000.0
     name: CONCORD SWAT Officer
     published: false
     volume: 20400.0
   Caldari Police 1st Lieutenant:
     id: 9971
+    mass: 9200000.0
     name: Caldari Police 1st Lieutenant
     published: false
     volume: 92000.0
   Caldari Police 2nd Lieutenant:
     id: 10660
+    mass: 1.07E7
     name: Caldari Police 2nd Lieutenant
     published: false
     volume: 107000.0
   Caldari Police 3rd Lieutenant:
     id: 9970
+    mass: 1650000.0
     name: Caldari Police 3rd Lieutenant
     published: false
     volume: 16500.0
   Caldari Police Commissioner:
     id: 11521
+    mass: 2.0E7
     name: Caldari Police Commissioner
     published: false
     volume: 1080000.0
   Caldari Police Vice Commissioner:
     id: 9965
+    mass: 1.01E7
     name: Caldari Police Vice Commissioner
     published: false
     volume: 101000.0
   Gallente Police Captain:
     id: 9984
+    mass: 1.15E7
     name: Gallente Police Captain
     published: false
     volume: 115000.0
   Gallente Police Major:
     id: 11519
+    mass: 2.0E7
     name: Gallente Police Major
     published: false
     volume: 1080000.0
   Gallente Police Master Sergeant:
     id: 9983
+    mass: 1.13E7
     name: Gallente Police Master Sergeant
     published: false
     volume: 113000.0
   Gallente Police Sergeant:
     id: 9991
+    mass: 2040000.0
     name: Gallente Police Sergeant
     published: false
     volume: 20400.0
   Khanid Surveillance General Major:
     id: 11518
+    mass: 2.0E7
     name: Khanid Surveillance General Major
     published: false
     volume: 1080000.0
   Khanid Surveillance Officer:
     id: 9987
+    mass: 80000.0
     name: Khanid Surveillance Officer
     published: false
     volume: 20400.0
   Khanid Surveillance Sergeant:
     id: 9988
+    mass: 1.15E7
     name: Khanid Surveillance Sergeant
     published: false
     volume: 115000.0
   Khanid Surveillance Sergeant Major:
     id: 10674
+    mass: 1.18E7
     name: Khanid Surveillance Sergeant Major
     published: false
     volume: 118000.0
   Minmatar Security High Captain:
     id: 11520
+    mass: 2.0E7
     name: Minmatar Security High Captain
     published: false
     volume: 1080000.0
   Minmatar Security Officer 1st Rank:
     id: 9978
+    mass: 8000000.0
     name: Minmatar Security Officer 1st Rank
     published: false
     volume: 80000.0
   Minmatar Security Officer 2nd Rank:
     id: 9977
+    mass: 8900000.0
     name: Minmatar Security Officer 2nd Rank
     published: false
     volume: 89000.0
   Minmatar Security Officer 3rd Rank:
     id: 9989
+    mass: 1200000.0
     name: Minmatar Security Officer 3rd Rank
     published: false
     volume: 12000.0
   Roden Police Major:
     id: 32380
+    mass: 2.0E7
     name: Roden Police Major
     published: false
     volume: 1080000.0
   Roden Police Sergeant:
     id: 32381
+    mass: 2040000.0
     name: Roden Police Sergeant
     published: false
     volume: 20400.0
   Sarum Surveillance General Major:
     id: 11516
+    mass: 2.0E7
     name: Sarum Surveillance General Major
     published: false
     volume: 1080000.0
   Sarum Surveillance Officer:
     id: 10102
+    mass: 1810000.0
     name: Sarum Surveillance Officer
     published: false
     volume: 18100.0
   Sarum Surveillance Sergeant:
     id: 10105
+    mass: 1.15E7
     name: Sarum Surveillance Sergeant
     published: false
     volume: 115000.0
   Sarum Surveillance Sergeant Major:
     id: 10104
+    mass: 1.18E7
     name: Sarum Surveillance Sergeant Major
     published: false
     volume: 118000.0

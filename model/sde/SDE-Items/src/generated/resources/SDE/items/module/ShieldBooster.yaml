@@ -848,6 +848,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 47789
+    mass: 1.0
     name: Large Abyssal Shield Booster
     published: true
     volume: 25.0
@@ -996,6 +997,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 47785
+    mass: 1.0
     name: Medium Abyssal Shield Booster
     published: true
     volume: 10.0
@@ -1518,6 +1520,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 47781
+    mass: 1.0
     name: Small Abyssal Shield Booster
     published: true
     volume: 5.0
@@ -1810,6 +1813,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 47793
+    mass: 1.0
     name: X-Large Abyssal Shield Booster
     published: true
     volume: 50.0

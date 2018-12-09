@@ -1,51 +1,61 @@
 items:
   Shadow Serpentis Chief Defender:
     id: 13668
+    mass: 1.12E7
     name: Shadow Serpentis Chief Defender
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Guard:
     id: 13664
+    mass: 1.12E7
     name: Shadow Serpentis Chief Guard
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Infantry:
     id: 13669
+    mass: 1.12E7
     name: Shadow Serpentis Chief Infantry
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Patroller:
     id: 13638
+    mass: 1.12E7
     name: Shadow Serpentis Chief Patroller
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Protector:
     id: 13651
+    mass: 1.12E7
     name: Shadow Serpentis Chief Protector
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Safeguard:
     id: 13663
+    mass: 1.12E7
     name: Shadow Serpentis Chief Safeguard
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Scout:
     id: 13639
+    mass: 1.13E7
     name: Shadow Serpentis Chief Scout
     published: false
     volume: 113000.0
   Shadow Serpentis Chief Sentinel:
     id: 13656
+    mass: 1.12E7
     name: Shadow Serpentis Chief Sentinel
     published: false
     volume: 112000.0
   Shadow Serpentis Chief Spy:
     id: 13641
+    mass: 1.16E7
     name: Shadow Serpentis Chief Spy
     published: false
     volume: 116000.0
   Shadow Serpentis Chief Watchman:
     id: 13637
+    mass: 1.15E7
     name: Shadow Serpentis Chief Watchman
     published: false
     volume: 115000.0

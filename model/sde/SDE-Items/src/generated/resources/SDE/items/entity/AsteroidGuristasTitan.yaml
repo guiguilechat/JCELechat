@@ -1,6 +1,7 @@
 items:
   Dread Guristas Titan:
     id: 37466
+    mass: 2.43E9
     name: Dread Guristas Titan
     published: false
     volume: 1.325E8

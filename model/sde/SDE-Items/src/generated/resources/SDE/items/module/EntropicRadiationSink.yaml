@@ -6,6 +6,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     id: 49734
+    mass: 1.0
     name: Abyssal Entropic Radiation Sink
     published: true
     volume: 1.0
@@ -20,6 +21,7 @@ items:
     TechLevel: 1
     id: 47909
     marketGroup: 2471
+    mass: 1.0
     name: Compact Entropic Radiation Sink
     published: true
     volume: 5.0
@@ -34,6 +36,7 @@ items:
     TechLevel: 1
     id: 47908
     marketGroup: 2471
+    mass: 1.0
     name: Entropic Radiation Sink I
     published: true
     volume: 5.0
@@ -49,6 +52,7 @@ items:
     TechLevel: 2
     id: 47911
     marketGroup: 2471
+    mass: 1.0
     name: Entropic Radiation Sink II
     published: true
     volume: 5.0

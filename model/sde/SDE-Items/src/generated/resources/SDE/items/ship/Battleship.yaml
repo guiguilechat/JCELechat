@@ -74,6 +74,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 24692
     marketGroup: 79
+    mass: 1.032E8
     name: Abaddon
     published: true
     volume: 495000.0
@@ -151,6 +152,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 642
     marketGroup: 79
+    mass: 9.71E7
     name: Apocalypse
     published: true
     volume: 495000.0
@@ -228,6 +230,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 11936
     marketGroup: 1620
+    mass: 9.93E7
     name: Apocalypse Imperial Issue
     published: true
     volume: 495000.0
@@ -307,6 +310,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17726
     marketGroup: 1379
+    mass: 9.71E7
     name: Apocalypse Navy Issue
     published: true
     volume: 495000.0
@@ -385,6 +389,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 643
     marketGroup: 79
+    mass: 1.052E8
     name: Armageddon
     published: true
     volume: 486000.0
@@ -462,6 +467,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 11938
     marketGroup: 1620
+    mass: 9.71E7
     name: Armageddon Imperial Issue
     published: true
     volume: 486000.0
@@ -541,6 +547,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 32305
     marketGroup: 1379
+    mass: 1.052E8
     name: Armageddon Navy Issue
     published: true
     volume: 486000.0
@@ -624,6 +631,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 33820
     marketGroup: 1380
+    mass: 9.8467E7
     name: Barghest
     published: true
     volume: 595000.0
@@ -706,6 +714,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17920
     marketGroup: 1380
+    mass: 9.71E7
     name: Bhaalgorn
     published: true
     volume: 486000.0
@@ -783,6 +792,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 645
     marketGroup: 81
+    mass: 1.0025E8
     name: Dominix
     published: true
     volume: 454500.0
@@ -863,6 +873,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 32307
     marketGroup: 1379
+    mass: 9.71E7
     name: Dominix Navy Issue
     published: true
     volume: 454500.0
@@ -942,6 +953,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 24690
     marketGroup: 81
+    mass: 1.002E8
     name: Hyperion
     published: true
     volume: 495000.0
@@ -1022,6 +1034,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 47271
     marketGroup: 2430
+    mass: 6.3E7
     name: Leshak
     published: true
     volume: 495000.0
@@ -1104,6 +1117,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17738
     marketGroup: 1380
+    mass: 9.468E7
     name: Machariel
     published: true
     volume: 595000.0
@@ -1181,6 +1195,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 24694
     marketGroup: 78
+    mass: 1.036E8
     name: Maelstrom
     published: true
     volume: 472500.0
@@ -1259,6 +1274,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 641
     marketGroup: 81
+    mass: 9.84E7
     name: Megathron
     published: true
     volume: 486000.0
@@ -1340,6 +1356,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 13202
     marketGroup: 1620
+    mass: 1.052E8
     name: Megathron Federate Issue
     published: true
     volume: 486000.0
@@ -1421,6 +1438,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17728
     marketGroup: 1379
+    mass: 9.84E7
     name: Megathron Navy Issue
     published: true
     volume: 486000.0
@@ -1509,6 +1527,7 @@ items:
     WarpSpeedMultiplier: 2.5
     id: 33472
     marketGroup: 1380
+    mass: 2.0E7
     name: Nestor
     published: true
     volume: 486000.0
@@ -1592,6 +1611,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17736
     marketGroup: 1380
+    mass: 9.93E7
     name: Nightmare
     published: true
     volume: 486000.0
@@ -1673,6 +1693,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 47466
     marketGroup: 1620
+    mass: 8.7E7
     name: Praxis
     published: true
     volume: 500000.0
@@ -1756,6 +1777,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17918
     marketGroup: 1380
+    mass: 9.93E7
     name: Rattlesnake
     published: true
     volume: 486000.0
@@ -1835,6 +1857,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 638
     marketGroup: 80
+    mass: 9.93E7
     name: Raven
     published: true
     volume: 486000.0
@@ -1915,6 +1938,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17636
     marketGroup: 1379
+    mass: 9.73E7
     name: Raven Navy Issue
     published: true
     volume: 486000.0
@@ -1996,6 +2020,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 26840
     marketGroup: 1620
+    mass: 9.93E7
     name: Raven State Issue
     published: true
     volume: 486000.0
@@ -2074,6 +2099,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 24688
     marketGroup: 80
+    mass: 1.053E8
     name: Rokh
     published: true
     volume: 486000.0
@@ -2152,6 +2178,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 640
     marketGroup: 80
+    mass: 1.036E8
     name: Scorpion
     published: true
     volume: 468000.0
@@ -2232,6 +2259,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 32309
     marketGroup: 1379
+    mass: 1.036E8
     name: Scorpion Navy Issue
     published: true
     volume: 468000.0
@@ -2309,6 +2337,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 639
     marketGroup: 78
+    mass: 9.95E7
     name: Tempest
     published: true
     volume: 450000.0
@@ -2388,6 +2417,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17732
     marketGroup: 1379
+    mass: 1.033E8
     name: Tempest Fleet Issue
     published: true
     volume: 486000.0
@@ -2467,6 +2497,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 26842
     marketGroup: 1620
+    mass: 1.033E8
     name: Tempest Tribal Issue
     published: true
     volume: 486000.0
@@ -2544,6 +2575,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 644
     marketGroup: 78
+    mass: 1.006E8
     name: Typhoon
     published: true
     volume: 414000.0
@@ -2624,6 +2656,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 32311
     marketGroup: 1379
+    mass: 1.026E8
     name: Typhoon Fleet Issue
     published: true
     volume: 414000.0
@@ -2706,6 +2739,7 @@ items:
     WarpSpeedMultiplier: 2.0
     id: 17740
     marketGroup: 1380
+    mass: 1.052E8
     name: Vindicator
     published: true
     volume: 486000.0

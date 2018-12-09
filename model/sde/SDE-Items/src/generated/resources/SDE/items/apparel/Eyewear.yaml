@@ -10,6 +10,7 @@ items:
     Gender: 2
     id: 4050
     marketGroup: 1408
+    mass: 0.5
     name: Looking Glass Monocle Interface (left/gold)
     published: true
     volume: 0.1
@@ -17,6 +18,7 @@ items:
     Gender: 2
     id: 4052
     marketGroup: 1408
+    mass: 0.5
     name: Looking Glass Monocle Interface (left/gray)
     published: true
     volume: 0.1
@@ -24,6 +26,7 @@ items:
     Gender: 2
     id: 4009
     marketGroup: 1408
+    mass: 0.5
     name: Looking Glass Monocle Interface (right/gold)
     published: true
     volume: 0.1
@@ -31,6 +34,7 @@ items:
     Gender: 2
     id: 4042
     marketGroup: 1408
+    mass: 0.5
     name: Looking Glass Monocle Interface (right/gray)
     published: true
     volume: 0.1
@@ -38,6 +42,7 @@ items:
     Gender: 1
     id: 45745
     marketGroup: 1408
+    mass: 0.5
     name: Men's 'Farsight' Augmented Spectacles
     published: true
     volume: 0.1
@@ -45,6 +50,7 @@ items:
     Gender: 2
     id: 42906
     marketGroup: 1408
+    mass: 0.1
     name: Men's Genolution Tactical Goggles
     published: true
     volume: 0.1
@@ -52,6 +58,7 @@ items:
     Gender: 1
     id: 41576
     marketGroup: 1408
+    mass: 0.5
     name: Men's “Mirelle” Upwell Executive Spectacles
     published: true
     volume: 0.5
@@ -59,6 +66,7 @@ items:
     Gender: 2
     id: 4043
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (left/dark)
     published: true
     volume: 0.1
@@ -66,6 +74,7 @@ items:
     Gender: 2
     id: 4046
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (left/gold)
     published: true
     volume: 0.1
@@ -73,6 +82,7 @@ items:
     Gender: 2
     id: 4048
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (left/gray)
     published: true
     volume: 0.1
@@ -80,6 +90,7 @@ items:
     Gender: 2
     id: 4037
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (right/dark)
     published: true
     volume: 0.1
@@ -87,6 +98,7 @@ items:
     Gender: 2
     id: 4039
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (right/gold)
     published: true
     volume: 0.1
@@ -94,6 +106,7 @@ items:
     Gender: 2
     id: 4038
     marketGroup: 1408
+    mass: 0.5
     name: Odin Synthetic Eye (right/gray)
     published: true
     volume: 0.1
@@ -108,6 +121,7 @@ items:
     Gender: 2
     id: 42905
     marketGroup: 1408
+    mass: 0.1
     name: Women's Genolution Tactical Goggles
     published: true
     volume: 0.1
@@ -115,6 +129,7 @@ items:
     Gender: 3
     id: 41575
     marketGroup: 1408
+    mass: 0.5
     name: 'Women''s “Mirelle” Upwell Executive Spectacles '
     published: true
     volume: 0.1

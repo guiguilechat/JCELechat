@@ -24,6 +24,7 @@ items:
     TechLevel: 1
     id: 46577
     marketGroup: 2211
+    mass: 500.0
     name: Dread Guristas Standup Variable Spectrum ECM
     published: true
     volume: 4000.0
@@ -50,6 +51,7 @@ items:
     TechLevel: 1
     id: 35940
     marketGroup: 2211
+    mass: 500.0
     name: Standup Variable Spectrum ECM I
     published: true
     volume: 4000.0
@@ -77,6 +79,7 @@ items:
     TechLevel: 2
     id: 47338
     marketGroup: 2211
+    mass: 500.0
     name: Standup Variable Spectrum ECM II
     published: true
     volume: 4000.0

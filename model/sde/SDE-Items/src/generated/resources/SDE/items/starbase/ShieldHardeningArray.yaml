@@ -27,6 +27,7 @@ items:
     Uniformity: 1.0
     id: 17184
     marketGroup: 485
+    mass: 1.0E8
     name: Ballistic Deflection Array
     published: true
     volume: 4000.0
@@ -58,6 +59,7 @@ items:
     Uniformity: 1.0
     id: 17185
     marketGroup: 485
+    mass: 1.0E8
     name: Explosion Dampening Array
     published: true
     volume: 4000.0
@@ -89,6 +91,7 @@ items:
     Uniformity: 1.0
     id: 17186
     marketGroup: 485
+    mass: 1.0E8
     name: Heat Dissipation Array
     published: true
     volume: 4000.0
@@ -120,6 +123,7 @@ items:
     Uniformity: 1.0
     id: 17187
     marketGroup: 485
+    mass: 1.0E8
     name: Photon Scattering Array
     published: true
     volume: 4000.0

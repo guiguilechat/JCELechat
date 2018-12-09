@@ -36,6 +36,7 @@ items:
     ImportTaxMultiplier: 60000
     id: 17392
     marketGroup: 1336
+    mass: 1.0
     name: Data Chips
     published: true
     volume: 6.0

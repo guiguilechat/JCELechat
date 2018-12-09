@@ -9,6 +9,7 @@ items:
     TechLevel: 1
     id: 5871
     marketGroup: 672
+    mass: 2000.0
     name: 41F Veiled Targeting Unit
     published: true
     volume: 5.0
@@ -22,6 +23,7 @@ items:
     TechLevel: 1
     id: 5865
     marketGroup: 672
+    mass: 2000.0
     name: Indirect Target Acquisition I
     published: true
     volume: 5.0
@@ -34,6 +36,7 @@ items:
     TechLevel: 1
     id: 581
     marketGroup: 672
+    mass: 2000.0
     name: Passive Targeter I
     published: true
     volume: 25.0
@@ -47,6 +50,7 @@ items:
     TechLevel: 2
     id: 2341
     marketGroup: 672
+    mass: 2000.0
     name: Passive Targeter II
     published: true
     volume: 5.0
@@ -60,6 +64,7 @@ items:
     TechLevel: 1
     id: 5867
     marketGroup: 672
+    mass: 2000.0
     name: Passive Targeting Array I
     published: true
     volume: 5.0
@@ -73,6 +78,7 @@ items:
     TechLevel: 1
     id: 5869
     marketGroup: 672
+    mass: 2000.0
     name: Suppressed Targeting System I
     published: true
     volume: 5.0

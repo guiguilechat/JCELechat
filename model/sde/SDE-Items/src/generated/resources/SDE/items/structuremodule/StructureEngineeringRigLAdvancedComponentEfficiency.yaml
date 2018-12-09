@@ -22,6 +22,7 @@ items:
     UpgradeCost: 100
     id: 37174
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Advanced Component Manufacturing Efficiency I
     published: true
     volume: 20.0
@@ -48,6 +49,7 @@ items:
     UpgradeCost: 150
     id: 37175
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Advanced Component Manufacturing Efficiency II
     published: true
     volume: 20.0
@@ -76,6 +78,7 @@ items:
     UpgradeCost: 100
     id: 45641
     marketGroup: 2348
+    mass: 200.0
     name: Standup L-Set Thukker Advanced Component Manufacturing Efficiency
     published: true
     volume: 20.0

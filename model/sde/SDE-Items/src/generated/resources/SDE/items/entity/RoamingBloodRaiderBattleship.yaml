@@ -1,6 +1,7 @@
 items:
   Blood Raider Patroller:
     id: 42239
+    mass: 1.95E7
     name: Blood Raider Patroller
     published: false
     volume: 1150000.0

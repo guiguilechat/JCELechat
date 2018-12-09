@@ -9,6 +9,7 @@ items:
     WarfareBuff1Multiplier: -15
     id: 42831
     marketGroup: 2300
+    mass: 0.01
     name: Mining Equipment Preservation Charge
     published: true
     volume: 0.01
@@ -22,6 +23,7 @@ items:
     WarfareBuff1Multiplier: 40
     id: 42829
     marketGroup: 2300
+    mass: 0.01
     name: Mining Laser Field Enhancement Charge
     published: true
     volume: 0.01
@@ -35,6 +37,7 @@ items:
     WarfareBuff1Multiplier: -15
     id: 42830
     marketGroup: 2300
+    mass: 0.01
     name: Mining Laser Optimization Charge
     published: true
     volume: 0.01

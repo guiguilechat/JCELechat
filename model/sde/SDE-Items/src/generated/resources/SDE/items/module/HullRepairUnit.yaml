@@ -19,6 +19,7 @@ items:
     TechLevel: 1
     id: 41511
     marketGroup: 2244
+    mass: 1000.0
     name: Capital Hull Repairer I
     published: true
     volume: 4000.0
@@ -43,6 +44,7 @@ items:
     TechLevel: 2
     id: 41514
     marketGroup: 2244
+    mass: 1000.0
     name: Capital Hull Repairer II
     published: true
     volume: 4000.0
@@ -67,6 +69,7 @@ items:
     TechLevel: 1
     id: 41512
     marketGroup: 2244
+    mass: 1000.0
     name: Capital I-b Enduring Hull Repairer
     published: true
     volume: 4000.0
@@ -91,6 +94,7 @@ items:
     TechLevel: 1
     id: 41513
     marketGroup: 2244
+    mass: 1000.0
     name: Capital IEF Compact Hull Repairer
     published: true
     volume: 4000.0
@@ -111,6 +115,7 @@ items:
     TechLevel: 1
     id: 5755
     marketGroup: 1055
+    mass: 1000.0
     name: Large 'Hope' Hull Reconstructor I
     published: true
     volume: 50.0
@@ -133,6 +138,7 @@ items:
     TechLevel: 1
     id: 21508
     marketGroup: 1055
+    mass: 1000.0
     name: Large 'Integrative' Hull Repair Unit
     published: true
     volume: 50.0
@@ -153,6 +159,7 @@ items:
     TechLevel: 1
     id: 5757
     marketGroup: 1055
+    mass: 1000.0
     name: Large Automated Structural Restoration
     published: true
     volume: 50.0
@@ -173,6 +180,7 @@ items:
     TechLevel: 1
     id: 3663
     marketGroup: 1055
+    mass: 1000.0
     name: Large Hull Repairer I
     published: true
     volume: 50.0
@@ -194,6 +202,7 @@ items:
     TechLevel: 2
     id: 3665
     marketGroup: 1055
+    mass: 1000.0
     name: Large Hull Repairer II
     published: true
     volume: 50.0
@@ -214,6 +223,7 @@ items:
     TechLevel: 1
     id: 5759
     marketGroup: 1055
+    mass: 1000.0
     name: Large I-b Polarized Structural Regenerator
     published: true
     volume: 50.0
@@ -235,6 +245,7 @@ items:
     TechLevel: 1
     id: 5697
     marketGroup: 1055
+    mass: 1000.0
     name: Large Inefficient Hull Repair Unit
     published: true
     volume: 50.0
@@ -255,6 +266,7 @@ items:
     TechLevel: 1
     id: 5719
     marketGroup: 1054
+    mass: 1000.0
     name: Medium 'Hope' Hull Reconstructor I
     published: true
     volume: 10.0
@@ -277,6 +289,7 @@ items:
     TechLevel: 1
     id: 21506
     marketGroup: 1054
+    mass: 1000.0
     name: Medium 'Integrative' Hull Repair Unit
     published: true
     volume: 10.0
@@ -297,6 +310,7 @@ items:
     TechLevel: 1
     id: 5721
     marketGroup: 1054
+    mass: 1000.0
     name: Medium Automated Structural Restoration
     published: true
     volume: 10.0
@@ -317,6 +331,7 @@ items:
     TechLevel: 1
     id: 3653
     marketGroup: 1054
+    mass: 1000.0
     name: Medium Hull Repairer I
     published: true
     volume: 25.0
@@ -338,6 +353,7 @@ items:
     TechLevel: 2
     id: 3655
     marketGroup: 1054
+    mass: 1000.0
     name: Medium Hull Repairer II
     published: true
     volume: 10.0
@@ -358,6 +374,7 @@ items:
     TechLevel: 1
     id: 5723
     marketGroup: 1054
+    mass: 1000.0
     name: Medium I-b Polarized Structural Regenerator
     published: true
     volume: 10.0
@@ -379,6 +396,7 @@ items:
     TechLevel: 1
     id: 5683
     marketGroup: 1054
+    mass: 1000.0
     name: Medium Inefficient Hull Repair Unit
     published: true
     volume: 10.0
@@ -399,6 +417,7 @@ items:
     TechLevel: 1
     id: 5743
     marketGroup: 1053
+    mass: 1000.0
     name: Small 'Hope' Hull Reconstructor I
     published: true
     volume: 5.0
@@ -421,6 +440,7 @@ items:
     TechLevel: 1
     id: 21504
     marketGroup: 1053
+    mass: 1000.0
     name: Small 'Integrative' Hull Repair Unit
     published: true
     volume: 5.0
@@ -441,6 +461,7 @@ items:
     TechLevel: 1
     id: 5745
     marketGroup: 1053
+    mass: 1000.0
     name: Small Automated Structural Restoration
     published: true
     volume: 5.0
@@ -461,6 +482,7 @@ items:
     TechLevel: 1
     id: 524
     marketGroup: 1053
+    mass: 1000.0
     name: Small Hull Repairer I
     published: true
     volume: 12.5
@@ -482,6 +504,7 @@ items:
     TechLevel: 2
     id: 2355
     marketGroup: 1053
+    mass: 1000.0
     name: Small Hull Repairer II
     published: true
     volume: 5.0
@@ -502,6 +525,7 @@ items:
     TechLevel: 1
     id: 5747
     marketGroup: 1053
+    mass: 1000.0
     name: Small I-b Polarized Structural Regenerator
     published: true
     volume: 5.0
@@ -523,6 +547,7 @@ items:
     TechLevel: 1
     id: 5693
     marketGroup: 1053
+    mass: 1000.0
     name: Small Inefficient Hull Repair Unit
     published: true
     volume: 5.0

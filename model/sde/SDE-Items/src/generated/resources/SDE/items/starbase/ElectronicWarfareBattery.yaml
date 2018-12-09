@@ -47,6 +47,7 @@ items:
     Uniformity: 1.0
     id: 27576
     marketGroup: 481
+    mass: 1.0E8
     name: Dread Guristas Ion Field Projection Battery
     published: true
     volume: 4000.0
@@ -98,6 +99,7 @@ items:
     Uniformity: 1.0
     id: 27579
     marketGroup: 481
+    mass: 1.0E8
     name: Dread Guristas Phase Inversion Battery
     published: true
     volume: 4000.0
@@ -149,6 +151,7 @@ items:
     Uniformity: 1.0
     id: 27582
     marketGroup: 481
+    mass: 1.0E8
     name: Dread Guristas Spatial Destabilization Battery
     published: true
     volume: 4000.0
@@ -200,6 +203,7 @@ items:
     Uniformity: 1.0
     id: 27585
     marketGroup: 481
+    mass: 1.0E8
     name: Dread Guristas White Noise Generation Battery
     published: true
     volume: 4000.0
@@ -251,6 +255,7 @@ items:
     Uniformity: 1.0
     id: 27574
     marketGroup: 481
+    mass: 1.0E8
     name: Guristas Ion Field Projection Battery
     published: true
     volume: 4000.0
@@ -302,6 +307,7 @@ items:
     Uniformity: 1.0
     id: 27577
     marketGroup: 481
+    mass: 1.0E8
     name: Guristas Phase Inversion Battery
     published: true
     volume: 4000.0
@@ -353,6 +359,7 @@ items:
     Uniformity: 1.0
     id: 27580
     marketGroup: 481
+    mass: 1.0E8
     name: Guristas Spatial Destabilization Battery
     published: true
     volume: 4000.0
@@ -404,6 +411,7 @@ items:
     Uniformity: 1.0
     id: 27583
     marketGroup: 481
+    mass: 1.0E8
     name: Guristas White Noise Generation Battery
     published: true
     volume: 4000.0
@@ -454,6 +462,7 @@ items:
     Uniformity: 1.0
     id: 17174
     marketGroup: 481
+    mass: 1.0E8
     name: Ion Field Projection Battery
     published: true
     volume: 4000.0
@@ -504,6 +513,7 @@ items:
     Uniformity: 1.0
     id: 17175
     marketGroup: 481
+    mass: 1.0E8
     name: Phase Inversion Battery
     published: true
     volume: 4000.0
@@ -554,6 +564,7 @@ items:
     Uniformity: 1.0
     id: 17176
     marketGroup: 481
+    mass: 1.0E8
     name: Spatial Destabilization Battery
     published: true
     volume: 4000.0
@@ -604,6 +615,7 @@ items:
     Uniformity: 1.0
     id: 17177
     marketGroup: 481
+    mass: 1.0E8
     name: White Noise Generation Battery
     published: true
     volume: 4000.0

@@ -25,6 +25,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27351
     marketGroup: 1000
+    mass: 1500.0
     name: Caldari Navy Inferno Torpedo
     published: true
     volume: 0.05
@@ -54,6 +55,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27339
     marketGroup: 1000
+    mass: 1500.0
     name: Caldari Navy Mjolnir Torpedo
     published: true
     volume: 0.05
@@ -83,6 +85,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27359
     marketGroup: 1000
+    mass: 1500.0
     name: Caldari Navy Nova Torpedo
     published: true
     volume: 0.05
@@ -112,6 +115,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27345
     marketGroup: 1000
+    mass: 1500.0
     name: Caldari Navy Scourge Torpedo
     published: true
     volume: 0.05
@@ -141,6 +145,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27355
     marketGroup: 1000
+    mass: 1500.0
     name: Dread Guristas Inferno Torpedo
     published: true
     volume: 0.05
@@ -170,6 +175,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27341
     marketGroup: 1000
+    mass: 1500.0
     name: Dread Guristas Mjolnir Torpedo
     published: true
     volume: 0.05
@@ -199,6 +205,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27363
     marketGroup: 1000
+    mass: 1500.0
     name: Dread Guristas Nova Torpedo
     published: true
     volume: 0.05
@@ -228,6 +235,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27347
     marketGroup: 1000
+    mass: 1500.0
     name: Dread Guristas Scourge Torpedo
     published: true
     volume: 0.05
@@ -257,6 +265,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 27349
     marketGroup: 1000
+    mass: 1500.0
     name: Guristas Inferno Torpedo
     published: true
     volume: 0.05
@@ -286,6 +295,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27337
     marketGroup: 1000
+    mass: 1500.0
     name: Guristas Mjolnir Torpedo
     published: true
     volume: 0.05
@@ -315,6 +325,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27357
     marketGroup: 1000
+    mass: 1500.0
     name: Guristas Nova Torpedo
     published: true
     volume: 0.05
@@ -344,6 +355,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 27343
     marketGroup: 1000
+    mass: 1500.0
     name: Guristas Scourge Torpedo
     published: true
     volume: 0.05
@@ -371,6 +383,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     id: 2510
     marketGroup: 923
+    mass: 1500.0
     name: Inferno Torpedo
     published: true
     volume: 0.05
@@ -398,6 +411,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 2506
     marketGroup: 923
+    mass: 1500.0
     name: Mjolnir Torpedo
     published: true
     volume: 0.05
@@ -425,6 +439,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 2508
     marketGroup: 923
+    mass: 1500.0
     name: Nova Torpedo
     published: true
     volume: 0.05
@@ -452,6 +467,7 @@ items:
     ThermalDamageResonance: 1.0
     id: 267
     marketGroup: 923
+    mass: 1500.0
     name: Scourge Torpedo
     published: true
     volume: 0.05

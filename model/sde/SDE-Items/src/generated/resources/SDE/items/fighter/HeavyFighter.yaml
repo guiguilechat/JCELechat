@@ -48,6 +48,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40362
     marketGroup: 1310
+    mass: 2000.0
     name: Ametat I
     published: true
     volume: 2000.0
@@ -101,6 +102,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40560
     marketGroup: 1310
+    mass: 2000.0
     name: Ametat II
     published: true
     volume: 2000.0
@@ -153,6 +155,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40364
     marketGroup: 1310
+    mass: 2000.0
     name: Antaeus I
     published: true
     volume: 2000.0
@@ -206,6 +209,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40562
     marketGroup: 1310
+    mass: 2000.0
     name: Antaeus II
     published: true
     volume: 2000.0
@@ -265,6 +269,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 32325
     marketGroup: 1310
+    mass: 2000.0
     name: Cyclops I
     published: true
     volume: 1800.0
@@ -325,6 +330,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40563
     marketGroup: 1310
+    mass: 2000.0
     name: Cyclops II
     published: true
     volume: 1800.0
@@ -377,6 +383,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40365
     marketGroup: 1310
+    mass: 2000.0
     name: Gungnir I
     published: true
     volume: 2000.0
@@ -430,6 +437,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40564
     marketGroup: 1310
+    mass: 2000.0
     name: Gungnir II
     published: true
     volume: 2000.0
@@ -489,6 +497,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 32340
     marketGroup: 1310
+    mass: 2000.0
     name: Malleus I
     published: true
     volume: 1800.0
@@ -549,6 +558,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40561
     marketGroup: 1310
+    mass: 2000.0
     name: Malleus II
     published: true
     volume: 1800.0
@@ -608,6 +618,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 32344
     marketGroup: 1310
+    mass: 2000.0
     name: Mantis I
     published: true
     volume: 1800.0
@@ -668,6 +679,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40567
     marketGroup: 1310
+    mass: 2000.0
     name: Mantis II
     published: true
     volume: 1800.0
@@ -725,6 +737,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 2948
     marketGroup: 1310
+    mass: 2000.0
     name: Shadow
     published: true
     volume: 1800.0
@@ -774,6 +787,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47124
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Ametat I
     published: true
     volume: 4000.0
@@ -824,6 +838,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47127
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Ametat II
     published: true
     volume: 4000.0
@@ -873,6 +888,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47126
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Antaeus I
     published: true
     volume: 4000.0
@@ -923,6 +939,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47129
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Antaeus II
     published: true
     volume: 4000.0
@@ -979,6 +996,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47117
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Cyclops I
     published: true
     volume: 3600.0
@@ -1036,6 +1054,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47121
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Cyclops II
     published: true
     volume: 3600.0
@@ -1085,6 +1104,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47039
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Gungnir I
     published: true
     volume: 4000.0
@@ -1135,6 +1155,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47130
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Gungnir II
     published: true
     volume: 4000.0
@@ -1191,6 +1212,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47116
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Malleus I
     published: true
     volume: 3600.0
@@ -1248,6 +1270,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47119
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Malleus II
     published: true
     volume: 3600.0
@@ -1304,6 +1327,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47038
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Mantis I
     published: true
     volume: 3600.0
@@ -1361,6 +1385,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47120
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Mantis II
     published: true
     volume: 3600.0
@@ -1415,6 +1440,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47123
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Shadow
     published: true
     volume: 3600.0
@@ -1464,6 +1490,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47125
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Termite I
     published: true
     volume: 4000.0
@@ -1514,6 +1541,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47128
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Termite II
     published: true
     volume: 4000.0
@@ -1570,6 +1598,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47118
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Tyrfing I
     published: true
     volume: 3600.0
@@ -1627,6 +1656,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 47122
     marketGroup: 2412
+    mass: 2000.0
     name: Standup Tyrfing II
     published: true
     volume: 3600.0
@@ -1679,6 +1709,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40363
     marketGroup: 1310
+    mass: 2000.0
     name: Termite I
     published: true
     volume: 2000.0
@@ -1732,6 +1763,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40566
     marketGroup: 1310
+    mass: 2000.0
     name: Termite II
     published: true
     volume: 2000.0
@@ -1791,6 +1823,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 32342
     marketGroup: 1310
+    mass: 2000.0
     name: Tyrfing I
     published: true
     volume: 1800.0
@@ -1851,6 +1884,7 @@ items:
     WarpSpeedMultiplier: 1.5
     id: 40565
     marketGroup: 1310
+    mass: 2000.0
     name: Tyrfing II
     published: true
     volume: 1800.0

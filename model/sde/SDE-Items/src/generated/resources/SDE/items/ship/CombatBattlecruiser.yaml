@@ -73,6 +73,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 16229
     marketGroup: 472
+    mass: 1.18E7
     name: Brutix
     published: true
     volume: 270000.0
@@ -152,6 +153,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 33151
     marketGroup: 1704
+    mass: 1.18E7
     name: Brutix Navy Issue
     published: true
     volume: 270000.0
@@ -230,6 +232,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 16231
     marketGroup: 473
+    mass: 1.24E7
     name: Cyclone
     published: true
     volume: 216000.0
@@ -307,6 +310,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 24698
     marketGroup: 471
+    mass: 1.35E7
     name: Drake
     published: true
     volume: 252000.0
@@ -386,6 +390,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 33153
     marketGroup: 1704
+    mass: 1.35E7
     name: Drake Navy Issue
     published: true
     volume: 252000.0
@@ -465,6 +470,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 49711
     marketGroup: 2525
+    mass: 9900000.0
     name: Drekavac
     published: true
     volume: 233000.0
@@ -542,6 +548,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 16227
     marketGroup: 471
+    mass: 1.325E7
     name: Ferox
     published: true
     volume: 252000.0
@@ -618,6 +625,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 3756
     marketGroup: 1698
+    mass: 1.0E7
     name: Gnosis
     published: true
     volume: 101000.0
@@ -695,6 +703,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 24696
     marketGroup: 470
+    mass: 1.55E7
     name: Harbinger
     published: true
     volume: 234000.0
@@ -774,6 +783,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 33155
     marketGroup: 1704
+    mass: 1.55E7
     name: Harbinger Navy Issue
     published: true
     volume: 234000.0
@@ -852,6 +862,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 24702
     marketGroup: 473
+    mass: 1.28E7
     name: Hurricane
     published: true
     volume: 216000.0
@@ -932,6 +943,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 33157
     marketGroup: 1704
+    mass: 1.28E7
     name: Hurricane Fleet Issue
     published: true
     volume: 216000.0
@@ -1009,6 +1021,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 24700
     marketGroup: 472
+    mass: 1.27E7
     name: Myrmidon
     published: true
     volume: 270000.0
@@ -1087,6 +1100,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 16233
     marketGroup: 470
+    mass: 1.53E7
     name: Prophecy
     published: true
     volume: 234000.0

@@ -3,6 +3,7 @@ items:
     MoonMiningAmount: 100
     id: 29039
     marketGroup: 1884
+    mass: 1.0
     name: Capital Antimatter Reactor Unit
     published: true
     volume: 10.0
@@ -10,6 +11,7 @@ items:
     MoonMiningAmount: 100
     id: 29041
     marketGroup: 1886
+    mass: 1.0
     name: Capital Crystalline Carbonide Armor Plate
     published: true
     volume: 10.0
@@ -17,6 +19,7 @@ items:
     MoonMiningAmount: 100
     id: 29043
     marketGroup: 1887
+    mass: 1.0
     name: Capital Deflection Shield Emitter
     published: true
     volume: 10.0
@@ -24,6 +27,7 @@ items:
     MoonMiningAmount: 100
     id: 29047
     marketGroup: 1884
+    mass: 1.0
     name: Capital EM Pulse Generator
     published: true
     volume: 10.0
@@ -31,6 +35,7 @@ items:
     MoonMiningAmount: 100
     id: 29045
     marketGroup: 1887
+    mass: 1.0
     name: Capital Electrolytic Capacitor Unit
     published: true
     volume: 10.0
@@ -38,6 +43,7 @@ items:
     MoonMiningAmount: 100
     id: 29049
     marketGroup: 1887
+    mass: 1.0
     name: Capital Fernite Carbide Composite Armor Plate
     published: true
     volume: 10.0
@@ -45,6 +51,7 @@ items:
     MoonMiningAmount: 100
     id: 29051
     marketGroup: 1886
+    mass: 1.0
     name: Capital Fusion Reactor Unit
     published: true
     volume: 10.0
@@ -52,6 +59,7 @@ items:
     MoonMiningAmount: 100
     id: 29053
     marketGroup: 1884
+    mass: 1.0
     name: Capital Fusion Thruster
     published: true
     volume: 10.0
@@ -59,6 +67,7 @@ items:
     MoonMiningAmount: 100
     id: 29055
     marketGroup: 1885
+    mass: 1.0
     name: Capital Gravimetric Sensor Cluster
     published: true
     volume: 10.0
@@ -66,6 +75,7 @@ items:
     MoonMiningAmount: 100
     id: 29057
     marketGroup: 1885
+    mass: 1.0
     name: Capital Graviton Pulse Generator
     published: true
     volume: 10.0
@@ -73,6 +83,7 @@ items:
     MoonMiningAmount: 100
     id: 29059
     marketGroup: 1885
+    mass: 1.0
     name: Capital Graviton Reactor Unit
     published: true
     volume: 10.0
@@ -80,6 +91,7 @@ items:
     MoonMiningAmount: 100
     id: 29061
     marketGroup: 1886
+    mass: 1.0
     name: Capital Ion Thruster
     published: true
     volume: 10.0
@@ -87,6 +99,7 @@ items:
     MoonMiningAmount: 100
     id: 29065
     marketGroup: 1887
+    mass: 1.0
     name: Capital Ladar Sensor Cluster
     published: true
     volume: 10.0
@@ -94,6 +107,7 @@ items:
     MoonMiningAmount: 100
     id: 29063
     marketGroup: 1884
+    mass: 1.0
     name: Capital Laser Focusing Crystals
     published: true
     volume: 10.0
@@ -101,6 +115,7 @@ items:
     MoonMiningAmount: 100
     id: 29067
     marketGroup: 1884
+    mass: 1.0
     name: Capital Linear Shield Emitter
     published: true
     volume: 10.0
@@ -108,6 +123,7 @@ items:
     MoonMiningAmount: 100
     id: 29069
     marketGroup: 1886
+    mass: 1.0
     name: Capital Magnetometric Sensor Cluster
     published: true
     volume: 10.0
@@ -115,6 +131,7 @@ items:
     MoonMiningAmount: 100
     id: 29071
     marketGroup: 1885
+    mass: 1.0
     name: Capital Magpulse Thruster
     published: true
     volume: 10.0
@@ -122,6 +139,7 @@ items:
     MoonMiningAmount: 100
     id: 29073
     marketGroup: 1884
+    mass: 1.0
     name: Capital Nanoelectrical Microprocessor
     published: true
     volume: 10.0
@@ -129,6 +147,7 @@ items:
     MoonMiningAmount: 100
     id: 29075
     marketGroup: 1887
+    mass: 1.0
     name: Capital Nanomechanical Microprocessor
     published: true
     volume: 10.0
@@ -136,6 +155,7 @@ items:
     MoonMiningAmount: 100
     id: 29077
     marketGroup: 1887
+    mass: 1.0
     name: Capital Nuclear Pulse Generator
     published: true
     volume: 10.0
@@ -143,6 +163,7 @@ items:
     MoonMiningAmount: 100
     id: 29079
     marketGroup: 1887
+    mass: 1.0
     name: Capital Nuclear Reactor Unit
     published: true
     volume: 10.0
@@ -150,6 +171,7 @@ items:
     MoonMiningAmount: 100
     id: 29081
     marketGroup: 1886
+    mass: 1.0
     name: Capital Oscillator Capacitor Unit
     published: true
     volume: 10.0
@@ -157,6 +179,7 @@ items:
     MoonMiningAmount: 100
     id: 29083
     marketGroup: 1886
+    mass: 1.0
     name: Capital Particle Accelerator Unit
     published: true
     volume: 10.0
@@ -164,6 +187,7 @@ items:
     MoonMiningAmount: 100
     id: 29085
     marketGroup: 1886
+    mass: 1.0
     name: Capital Photon Microprocessor
     published: true
     volume: 10.0
@@ -171,6 +195,7 @@ items:
     MoonMiningAmount: 100
     id: 29087
     marketGroup: 1886
+    mass: 1.0
     name: Capital Plasma Pulse Generator
     published: true
     volume: 10.0
@@ -178,6 +203,7 @@ items:
     MoonMiningAmount: 100
     id: 29089
     marketGroup: 1887
+    mass: 1.0
     name: Capital Plasma Thruster
     published: true
     volume: 10.0
@@ -185,6 +211,7 @@ items:
     MoonMiningAmount: 100
     id: 29091
     marketGroup: 1886
+    mass: 1.0
     name: Capital Pulse Shield Emitter
     published: true
     volume: 10.0
@@ -192,6 +219,7 @@ items:
     MoonMiningAmount: 100
     id: 29093
     marketGroup: 1885
+    mass: 1.0
     name: Capital Quantum Microprocessor
     published: true
     volume: 10.0
@@ -199,6 +227,7 @@ items:
     MoonMiningAmount: 100
     id: 29095
     marketGroup: 1884
+    mass: 1.0
     name: Capital Radar Sensor Cluster
     published: true
     volume: 10.0
@@ -206,6 +235,7 @@ items:
     MoonMiningAmount: 100
     id: 29097
     marketGroup: 1885
+    mass: 1.0
     name: Capital Scalar Capacitor Unit
     published: true
     volume: 10.0
@@ -213,6 +243,7 @@ items:
     MoonMiningAmount: 100
     id: 29099
     marketGroup: 1885
+    mass: 1.0
     name: Capital Superconductor Rails
     published: true
     volume: 10.0
@@ -220,6 +251,7 @@ items:
     MoonMiningAmount: 100
     id: 29101
     marketGroup: 1885
+    mass: 1.0
     name: Capital Sustained Shield Emitter
     published: true
     volume: 10.0
@@ -227,6 +259,7 @@ items:
     MoonMiningAmount: 100
     id: 29103
     marketGroup: 1884
+    mass: 1.0
     name: Capital Tesseract Capacitor Unit
     published: true
     volume: 10.0
@@ -234,6 +267,7 @@ items:
     MoonMiningAmount: 100
     id: 29105
     marketGroup: 1887
+    mass: 1.0
     name: Capital Thermonuclear Trigger Unit
     published: true
     volume: 10.0
@@ -241,6 +275,7 @@ items:
     MoonMiningAmount: 100
     id: 29107
     marketGroup: 1885
+    mass: 1.0
     name: Capital Titanium Diborite Armor Plate
     published: true
     volume: 10.0
@@ -248,6 +283,7 @@ items:
     MoonMiningAmount: 100
     id: 29109
     marketGroup: 1884
+    mass: 1.0
     name: Capital Tungsten Carbide Armor Plate
     published: true
     volume: 10.0

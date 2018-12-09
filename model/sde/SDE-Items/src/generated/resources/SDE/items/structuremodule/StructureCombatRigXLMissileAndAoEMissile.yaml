@@ -19,6 +19,7 @@ items:
     UpgradeCost: 100
     id: 37268
     marketGroup: 2346
+    mass: 200.0
     name: Standup XL-Set Missile Fire Control Computer I
     published: true
     volume: 40.0
@@ -42,6 +43,7 @@ items:
     UpgradeCost: 150
     id: 37269
     marketGroup: 2346
+    mass: 200.0
     name: Standup XL-Set Missile Fire Control Computer II
     published: true
     volume: 40.0

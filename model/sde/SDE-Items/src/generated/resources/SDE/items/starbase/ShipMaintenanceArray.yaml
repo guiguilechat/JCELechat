@@ -26,6 +26,7 @@ items:
     Uniformity: 1.0
     id: 12237
     marketGroup: 484
+    mass: 1.0E8
     name: Ship Maintenance Array
     published: true
     volume: 8000.0
@@ -56,6 +57,7 @@ items:
     Uniformity: 1.0
     id: 24646
     marketGroup: 484
+    mass: 2.0E9
     name: X-Large Ship Maintenance Array
     published: true
     volume: 40000.0

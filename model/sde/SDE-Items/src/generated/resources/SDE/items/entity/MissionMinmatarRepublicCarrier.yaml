@@ -1,6 +1,7 @@
 items:
   Republic Harkal:
     id: 27721
+    mass: 9.225E8
     name: Republic Harkal
     published: false
     volume: 1.125E7

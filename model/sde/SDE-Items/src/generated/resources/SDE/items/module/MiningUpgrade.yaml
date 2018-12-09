@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 22621
     marketGroup: 935
+    mass: 1.0
     name: '''Anguis'' Ice Harvester Upgrade'
     published: true
     volume: 5.0
@@ -27,6 +28,7 @@ items:
     TechLevel: 1
     id: 22615
     marketGroup: 935
+    mass: 1.0
     name: '''Aoede'' Mining Laser Upgrade'
     published: true
     volume: 5.0
@@ -42,6 +44,7 @@ items:
     TechLevel: 1
     id: 22613
     marketGroup: 935
+    mass: 1.0
     name: '''Carpo'' Mining Laser Upgrade'
     published: true
     volume: 5.0
@@ -58,6 +61,7 @@ items:
     TechLevel: 1
     id: 22623
     marketGroup: 935
+    mass: 1.0
     name: '''Ingenii'' Ice Harvester Upgrade'
     published: true
     volume: 5.0
@@ -73,6 +77,7 @@ items:
     TechLevel: 1
     id: 22611
     marketGroup: 935
+    mass: 1.0
     name: Elara Restrained Mining Laser Upgrade
     published: true
     volume: 5.0
@@ -88,6 +93,7 @@ items:
     TechLevel: 1
     id: 22619
     marketGroup: 935
+    mass: 1.0
     name: Frigoris Restrained Ice Harvester Upgrade
     published: true
     volume: 5.0
@@ -101,6 +107,7 @@ items:
     TechLevel: 1
     id: 22576
     marketGroup: 935
+    mass: 1.0
     name: Ice Harvester Upgrade I
     published: true
     volume: 5.0
@@ -115,6 +122,7 @@ items:
     TechLevel: 2
     id: 28578
     marketGroup: 935
+    mass: 1.0
     name: Ice Harvester Upgrade II
     published: true
     volume: 5.0
@@ -128,6 +136,7 @@ items:
     TechLevel: 1
     id: 22542
     marketGroup: 935
+    mass: 1.0
     name: Mining Laser Upgrade I
     published: true
     volume: 5.0
@@ -142,6 +151,7 @@ items:
     TechLevel: 2
     id: 28576
     marketGroup: 935
+    mass: 1.0
     name: Mining Laser Upgrade II
     published: true
     volume: 5.0

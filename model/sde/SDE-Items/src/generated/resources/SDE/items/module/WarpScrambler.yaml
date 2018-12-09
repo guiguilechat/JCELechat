@@ -55,6 +55,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 47736
+    mass: 1.0
     name: Abyssal Warp Disruptor
     published: true
     volume: 5.0
@@ -66,6 +67,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 47732
+    mass: 1.0
     name: Abyssal Warp Scrambler
     published: true
     volume: 5.0

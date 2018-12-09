@@ -1,66 +1,79 @@
 items:
   Anire Scarlet:
     id: 2072
+    mass: 1.18E7
     name: Anire Scarlet
     published: false
     volume: 118000.0
   Corpatis Bishop:
     id: 24000
+    mass: 1.18E7
     name: Corpatis Bishop
     published: false
     volume: 118000.0
   Corpatis Exorcist:
     id: 24013
+    mass: 1.18E7
     name: Corpatis Exorcist
     published: false
     volume: 118000.0
   Corpatis Fanatic:
     id: 24011
+    mass: 1.18E7
     name: Corpatis Fanatic
     published: false
     volume: 118000.0
   Corpatis Phantom:
     id: 24012
+    mass: 1.18E7
     name: Corpatis Phantom
     published: false
     volume: 118000.0
   Corpatis Seer:
     id: 24009
+    mass: 1.18E7
     name: Corpatis Seer
     published: false
     volume: 118000.0
   Corpatis Shade:
     id: 24010
+    mass: 1.18E7
     name: Corpatis Shade
     published: false
     volume: 118000.0
   Dark Corpatis Bishop:
     id: 24181
+    mass: 1.18E7
     name: Dark Corpatis Bishop
     published: false
     volume: 118000.0
   Dark Corpatis Exorcist:
     id: 24186
+    mass: 1.18E7
     name: Dark Corpatis Exorcist
     published: false
     volume: 118000.0
   Dark Corpatis Fanatic:
     id: 24184
+    mass: 1.18E7
     name: Dark Corpatis Fanatic
     published: false
     volume: 118000.0
   Dark Corpatis Phantom:
     id: 24185
+    mass: 1.18E7
     name: Dark Corpatis Phantom
     published: false
     volume: 118000.0
   Dark Corpatis Seer:
     id: 24182
+    mass: 1.18E7
     name: Dark Corpatis Seer
     published: false
     volume: 118000.0
   Dark Corpatis Shade:
     id: 24183
+    mass: 1.18E7
     name: Dark Corpatis Shade
     published: false
     volume: 118000.0

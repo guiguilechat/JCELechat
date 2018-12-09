@@ -22,6 +22,7 @@ items:
     UpgradeCost: 100
     id: 37156
     marketGroup: 2347
+    mass: 200.0
     name: Standup M-Set Drone and Fighter Manufacturing Material Efficiency I
     published: true
     volume: 10.0
@@ -48,6 +49,7 @@ items:
     UpgradeCost: 150
     id: 37157
     marketGroup: 2347
+    mass: 200.0
     name: Standup M-Set Drone and Fighter Manufacturing Material Efficiency II
     published: true
     volume: 10.0

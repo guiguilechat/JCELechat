@@ -2,132 +2,154 @@ items:
   Antikythera Element:
     id: 34575
     marketGroup: 2013
+    mass: 1.0
     name: Antikythera Element
     published: true
     volume: 0.1
   Barbican Element:
     id: 34557
     marketGroup: 2013
+    mass: 1.0
     name: Barbican Element
     published: true
     volume: 0.1
   Barbican Index:
     id: 34552
     marketGroup: 2013
+    mass: 1.0
     name: Barbican Index
     published: true
     volume: 0.1
   Barbican Sequence 0:
     id: 34542
     marketGroup: 2013
+    mass: 1.0
     name: Barbican Sequence 0
     published: true
     volume: 0.1
   Barbican Sequence 1:
     id: 34543
     marketGroup: 2013
+    mass: 1.0
     name: Barbican Sequence 1
     published: true
     volume: 0.1
   Coalesced Element:
     id: 36902
     marketGroup: 2013
+    mass: 1.0
     name: Coalesced Element
     published: true
     volume: 0.1
   Conflux Element:
     id: 34559
     marketGroup: 2013
+    mass: 1.0
     name: Conflux Element
     published: true
     volume: 0.1
   Conflux Index:
     id: 34554
     marketGroup: 2013
+    mass: 1.0
     name: Conflux Index
     published: true
     volume: 0.1
   Conflux Sequence 0:
     id: 34546
     marketGroup: 2013
+    mass: 1.0
     name: Conflux Sequence 0
     published: true
     volume: 0.1
   Conflux Sequence 1:
     id: 34547
     marketGroup: 2013
+    mass: 1.0
     name: Conflux Sequence 1
     published: true
     volume: 0.1
   Redoubt Element:
     id: 34560
     marketGroup: 2013
+    mass: 1.0
     name: Redoubt Element
     published: true
     volume: 0.1
   Redoubt Index:
     id: 34555
     marketGroup: 2013
+    mass: 1.0
     name: Redoubt Index
     published: true
     volume: 0.1
   Redoubt Sequence 0:
     id: 34548
     marketGroup: 2013
+    mass: 1.0
     name: Redoubt Sequence 0
     published: true
     volume: 0.1
   Redoubt Sequence 1:
     id: 34549
     marketGroup: 2013
+    mass: 1.0
     name: Redoubt Sequence 1
     published: true
     volume: 0.1
   Sentinel Element:
     id: 34556
     marketGroup: 2013
+    mass: 1.0
     name: Sentinel Element
     published: true
     volume: 0.1
   Sentinel Index:
     id: 34551
     marketGroup: 2013
+    mass: 1.0
     name: Sentinel Index
     published: true
     volume: 0.1
   Sentinel Sequence 0:
     id: 34540
     marketGroup: 2013
+    mass: 1.0
     name: Sentinel Sequence 0
     published: true
     volume: 0.1
   Sentinel Sequence 1:
     id: 34541
     marketGroup: 2013
+    mass: 1.0
     name: Sentinel Sequence 1
     published: true
     volume: 0.1
   Vidette Element:
     id: 34558
     marketGroup: 2013
+    mass: 1.0
     name: Vidette Element
     published: true
     volume: 0.1
   Vidette Index:
     id: 34553
     marketGroup: 2013
+    mass: 1.0
     name: Vidette Index
     published: true
     volume: 0.1
   Vidette Sequence 0:
     id: 34544
     marketGroup: 2013
+    mass: 1.0
     name: Vidette Sequence 0
     published: true
     volume: 0.1
   Vidette Sequence 1:
     id: 34545
     marketGroup: 2013
+    mass: 1.0
     name: Vidette Sequence 1
     published: true
     volume: 0.1

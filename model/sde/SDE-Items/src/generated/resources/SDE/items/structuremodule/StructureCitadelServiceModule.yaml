@@ -14,6 +14,7 @@ items:
     StructureItemVisualFlag: 1
     id: 35894
     marketGroup: 2232
+    mass: 500.0
     name: Standup Cloning Center I
     published: true
     volume: 4000.0
@@ -40,6 +41,7 @@ items:
     StructureItemVisualFlag: 1
     id: 35892
     marketGroup: 2232
+    mass: 4000.0
     name: Standup Market Hub I
     published: true
     volume: 32000.0

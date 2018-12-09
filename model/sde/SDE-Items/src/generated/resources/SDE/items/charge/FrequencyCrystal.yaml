@@ -16,6 +16,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21236
     marketGroup: 995
+    mass: 1.0
     name: Blood Gamma L
     published: true
     volume: 1.0
@@ -36,6 +37,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21220
     marketGroup: 996
+    mass: 1.0
     name: Blood Gamma M
     published: true
     volume: 1.0
@@ -56,6 +58,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21206
     marketGroup: 997
+    mass: 1.0
     name: Blood Gamma S
     published: true
     volume: 1.0
@@ -76,6 +79,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21252
     marketGroup: 1007
+    mass: 1.0
     name: Blood Gamma XL
     published: true
     volume: 1.0
@@ -96,6 +100,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21228
     marketGroup: 995
+    mass: 1.0
     name: Blood Infrared L
     published: true
     volume: 1.0
@@ -116,6 +121,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21212
     marketGroup: 996
+    mass: 1.0
     name: Blood Infrared M
     published: true
     volume: 1.0
@@ -136,6 +142,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21198
     marketGroup: 997
+    mass: 1.0
     name: Blood Infrared S
     published: true
     volume: 1.0
@@ -156,6 +163,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21244
     marketGroup: 1007
+    mass: 1.0
     name: Blood Infrared XL
     published: true
     volume: 1.0
@@ -176,6 +184,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21226
     marketGroup: 995
+    mass: 1.0
     name: Blood Microwave L
     published: true
     volume: 1.0
@@ -196,6 +205,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21210
     marketGroup: 996
+    mass: 1.0
     name: Blood Microwave M
     published: true
     volume: 1.0
@@ -216,6 +226,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21196
     marketGroup: 997
+    mass: 1.0
     name: Blood Microwave S
     published: true
     volume: 1.0
@@ -236,6 +247,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21242
     marketGroup: 1007
+    mass: 1.0
     name: Blood Microwave XL
     published: true
     volume: 1.0
@@ -255,6 +267,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21238
     marketGroup: 995
+    mass: 1.0
     name: Blood Multifrequency L
     published: true
     volume: 1.0
@@ -274,6 +287,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21222
     marketGroup: 996
+    mass: 1.0
     name: Blood Multifrequency M
     published: true
     volume: 1.0
@@ -293,6 +307,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21208
     marketGroup: 997
+    mass: 1.0
     name: Blood Multifrequency S
     published: true
     volume: 1.0
@@ -312,6 +327,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21254
     marketGroup: 1007
+    mass: 1.0
     name: Blood Multifrequency XL
     published: true
     volume: 1.0
@@ -331,6 +347,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21224
     marketGroup: 995
+    mass: 1.0
     name: Blood Radio L
     published: true
     volume: 1.0
@@ -350,6 +367,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21450
     marketGroup: 996
+    mass: 1.0
     name: Blood Radio M
     published: true
     volume: 1.0
@@ -369,6 +387,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21194
     marketGroup: 997
+    mass: 1.0
     name: Blood Radio S
     published: true
     volume: 1.0
@@ -388,6 +407,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21240
     marketGroup: 1007
+    mass: 1.0
     name: Blood Radio XL
     published: true
     volume: 1.0
@@ -408,6 +428,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21230
     marketGroup: 995
+    mass: 1.0
     name: Blood Standard L
     published: true
     volume: 1.0
@@ -428,6 +449,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21214
     marketGroup: 996
+    mass: 1.0
     name: Blood Standard M
     published: true
     volume: 1.0
@@ -448,6 +470,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21200
     marketGroup: 997
+    mass: 1.0
     name: Blood Standard S
     published: true
     volume: 1.0
@@ -468,6 +491,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21246
     marketGroup: 1007
+    mass: 1.0
     name: Blood Standard XL
     published: true
     volume: 1.0
@@ -488,6 +512,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21232
     marketGroup: 995
+    mass: 1.0
     name: Blood Ultraviolet L
     published: true
     volume: 1.0
@@ -508,6 +533,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21216
     marketGroup: 996
+    mass: 1.0
     name: Blood Ultraviolet M
     published: true
     volume: 1.0
@@ -528,6 +554,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21202
     marketGroup: 997
+    mass: 1.0
     name: Blood Ultraviolet S
     published: true
     volume: 1.0
@@ -548,6 +575,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21248
     marketGroup: 1007
+    mass: 1.0
     name: Blood Ultraviolet XL
     published: true
     volume: 1.0
@@ -568,6 +596,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21234
     marketGroup: 995
+    mass: 1.0
     name: Blood Xray L
     published: true
     volume: 1.0
@@ -588,6 +617,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21218
     marketGroup: 996
+    mass: 1.0
     name: Blood Xray M
     published: true
     volume: 1.0
@@ -608,6 +638,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21204
     marketGroup: 997
+    mass: 1.0
     name: Blood Xray S
     published: true
     volume: 1.0
@@ -628,6 +659,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21250
     marketGroup: 1007
+    mass: 1.0
     name: Blood Xray XL
     published: true
     volume: 1.0
@@ -648,6 +680,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21300
     marketGroup: 995
+    mass: 1.0
     name: Dark Blood Gamma L
     published: true
     volume: 1.0
@@ -668,6 +701,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21284
     marketGroup: 996
+    mass: 1.0
     name: Dark Blood Gamma M
     published: true
     volume: 1.0
@@ -688,6 +722,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21268
     marketGroup: 997
+    mass: 1.0
     name: Dark Blood Gamma S
     published: true
     volume: 1.0
@@ -708,6 +743,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 21316
     marketGroup: 1007
+    mass: 1.0
     name: Dark Blood Gamma XL
     published: true
     volume: 1.0
@@ -728,6 +764,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21292
     marketGroup: 995
+    mass: 1.0
     name: Dark Blood Infrared L
     published: true
     volume: 1.0
@@ -748,6 +785,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21276
     marketGroup: 996
+    mass: 1.0
     name: Dark Blood Infrared M
     published: true
     volume: 1.0
@@ -768,6 +806,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21260
     marketGroup: 997
+    mass: 1.0
     name: Dark Blood Infrared S
     published: true
     volume: 1.0
@@ -788,6 +827,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21308
     marketGroup: 1007
+    mass: 1.0
     name: Dark Blood Infrared XL
     published: true
     volume: 1.0
@@ -808,6 +848,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21290
     marketGroup: 995
+    mass: 1.0
     name: Dark Blood Microwave L
     published: true
     volume: 1.0
@@ -828,6 +869,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21274
     marketGroup: 996
+    mass: 1.0
     name: Dark Blood Microwave M
     published: true
     volume: 1.0
@@ -848,6 +890,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21258
     marketGroup: 997
+    mass: 1.0
     name: Dark Blood Microwave S
     published: true
     volume: 1.0
@@ -868,6 +911,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 21306
     marketGroup: 1007
+    mass: 1.0
     name: Dark Blood Microwave XL
     published: true
     volume: 1.0
@@ -887,6 +931,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21302
     marketGroup: 995
+    mass: 1.0
     name: Dark Blood Multifrequency L
     published: true
     volume: 1.0
@@ -906,6 +951,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21286
     marketGroup: 996
+    mass: 1.0
     name: Dark Blood Multifrequency M
     published: true
     volume: 1.0
@@ -925,6 +971,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21270
     marketGroup: 997
+    mass: 1.0
     name: Dark Blood Multifrequency S
     published: true
     volume: 1.0
@@ -944,6 +991,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 21318
     marketGroup: 1007
+    mass: 1.0
     name: Dark Blood Multifrequency XL
     published: true
     volume: 1.0
@@ -963,6 +1011,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21288
     marketGroup: 995
+    mass: 1.0
     name: Dark Blood Radio L
     published: true
     volume: 1.0
@@ -982,6 +1031,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21272
     marketGroup: 996
+    mass: 1.0
     name: Dark Blood Radio M
     published: true
     volume: 1.0
@@ -1001,6 +1051,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21256
     marketGroup: 997
+    mass: 1.0
     name: Dark Blood Radio S
     published: true
     volume: 1.0
@@ -1020,6 +1071,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 21304
     marketGroup: 1007
+    mass: 1.0
     name: Dark Blood Radio XL
     published: true
     volume: 1.0
@@ -1040,6 +1092,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21294
     marketGroup: 995
+    mass: 1.0
     name: Dark Blood Standard L
     published: true
     volume: 1.0
@@ -1060,6 +1113,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21278
     marketGroup: 996
+    mass: 1.0
     name: Dark Blood Standard M
     published: true
     volume: 1.0
@@ -1080,6 +1134,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21262
     marketGroup: 997
+    mass: 1.0
     name: Dark Blood Standard S
     published: true
     volume: 1.0
@@ -1100,6 +1155,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 21310
     marketGroup: 1007
+    mass: 1.0
     name: Dark Blood Standard XL
     published: true
     volume: 1.0
@@ -1120,6 +1176,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21296
     marketGroup: 995
+    mass: 1.0
     name: Dark Blood Ultraviolet L
     published: true
     volume: 1.0
@@ -1140,6 +1197,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21280
     marketGroup: 996
+    mass: 1.0
     name: Dark Blood Ultraviolet M
     published: true
     volume: 1.0
@@ -1160,6 +1218,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21264
     marketGroup: 997
+    mass: 1.0
     name: Dark Blood Ultraviolet S
     published: true
     volume: 1.0
@@ -1180,6 +1239,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 21312
     marketGroup: 1007
+    mass: 1.0
     name: Dark Blood Ultraviolet XL
     published: true
     volume: 1.0
@@ -1200,6 +1260,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21298
     marketGroup: 995
+    mass: 1.0
     name: Dark Blood Xray L
     published: true
     volume: 1.0
@@ -1220,6 +1281,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21282
     marketGroup: 996
+    mass: 1.0
     name: Dark Blood Xray M
     published: true
     volume: 1.0
@@ -1240,6 +1302,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21266
     marketGroup: 997
+    mass: 1.0
     name: Dark Blood Xray S
     published: true
     volume: 1.0
@@ -1260,6 +1323,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 21314
     marketGroup: 1007
+    mass: 1.0
     name: Dark Blood Xray XL
     published: true
     volume: 1.0
@@ -1278,6 +1342,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 261
     marketGroup: 105
+    mass: 1.0
     name: Gamma L
     published: true
     volume: 1.0
@@ -1296,6 +1361,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 253
     marketGroup: 103
+    mass: 1.0
     name: Gamma M
     published: true
     volume: 1.0
@@ -1314,6 +1380,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 245
     marketGroup: 102
+    mass: 1.0
     name: Gamma S
     published: true
     volume: 1.0
@@ -1332,6 +1399,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 17680
     marketGroup: 503
+    mass: 1.0
     name: Gamma XL
     published: true
     volume: 1.0
@@ -1352,6 +1420,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 23107
     marketGroup: 995
+    mass: 1.0
     name: Imperial Navy Gamma L
     published: true
     volume: 1.0
@@ -1372,6 +1441,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 23091
     marketGroup: 996
+    mass: 1.0
     name: Imperial Navy Gamma M
     published: true
     volume: 1.0
@@ -1392,6 +1462,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 23073
     marketGroup: 997
+    mass: 1.0
     name: Imperial Navy Gamma S
     published: true
     volume: 1.0
@@ -1412,6 +1483,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23115
     marketGroup: 995
+    mass: 1.0
     name: Imperial Navy Infrared L
     published: true
     volume: 1.0
@@ -1432,6 +1504,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23099
     marketGroup: 996
+    mass: 1.0
     name: Imperial Navy Infrared M
     published: true
     volume: 1.0
@@ -1452,6 +1525,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23081
     marketGroup: 997
+    mass: 1.0
     name: Imperial Navy Infrared S
     published: true
     volume: 1.0
@@ -1472,6 +1546,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 23117
     marketGroup: 995
+    mass: 1.0
     name: Imperial Navy Microwave L
     published: true
     volume: 1.0
@@ -1492,6 +1567,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 23101
     marketGroup: 996
+    mass: 1.0
     name: Imperial Navy Microwave M
     published: true
     volume: 1.0
@@ -1512,6 +1588,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 23083
     marketGroup: 997
+    mass: 1.0
     name: Imperial Navy Microwave S
     published: true
     volume: 1.0
@@ -1531,6 +1608,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 23105
     marketGroup: 995
+    mass: 1.0
     name: Imperial Navy Multifrequency L
     published: true
     volume: 1.0
@@ -1550,6 +1628,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 23089
     marketGroup: 996
+    mass: 1.0
     name: Imperial Navy Multifrequency M
     published: true
     volume: 1.0
@@ -1569,6 +1648,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 23071
     marketGroup: 997
+    mass: 1.0
     name: Imperial Navy Multifrequency S
     published: true
     volume: 1.0
@@ -1588,6 +1668,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 23119
     marketGroup: 995
+    mass: 1.0
     name: Imperial Navy Radio L
     published: true
     volume: 1.0
@@ -1607,6 +1688,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 23103
     marketGroup: 996
+    mass: 1.0
     name: Imperial Navy Radio M
     published: true
     volume: 1.0
@@ -1626,6 +1708,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 23085
     marketGroup: 997
+    mass: 1.0
     name: Imperial Navy Radio S
     published: true
     volume: 1.0
@@ -1646,6 +1729,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 23113
     marketGroup: 995
+    mass: 1.0
     name: Imperial Navy Standard L
     published: true
     volume: 1.0
@@ -1666,6 +1750,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 23097
     marketGroup: 996
+    mass: 1.0
     name: Imperial Navy Standard M
     published: true
     volume: 1.0
@@ -1686,6 +1771,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 23079
     marketGroup: 997
+    mass: 1.0
     name: Imperial Navy Standard S
     published: true
     volume: 1.0
@@ -1706,6 +1792,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 23111
     marketGroup: 995
+    mass: 1.0
     name: Imperial Navy Ultraviolet L
     published: true
     volume: 1.0
@@ -1726,6 +1813,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 23095
     marketGroup: 996
+    mass: 1.0
     name: Imperial Navy Ultraviolet M
     published: true
     volume: 1.0
@@ -1746,6 +1834,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 23077
     marketGroup: 997
+    mass: 1.0
     name: Imperial Navy Ultraviolet S
     published: true
     volume: 1.0
@@ -1766,6 +1855,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 23109
     marketGroup: 995
+    mass: 1.0
     name: Imperial Navy Xray L
     published: true
     volume: 1.0
@@ -1786,6 +1876,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 23093
     marketGroup: 996
+    mass: 1.0
     name: Imperial Navy Xray M
     published: true
     volume: 1.0
@@ -1806,6 +1897,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 23075
     marketGroup: 997
+    mass: 1.0
     name: Imperial Navy Xray S
     published: true
     volume: 1.0
@@ -1824,6 +1916,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 257
     marketGroup: 105
+    mass: 1.0
     name: Infrared L
     published: true
     volume: 1.0
@@ -1842,6 +1935,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 249
     marketGroup: 103
+    mass: 1.0
     name: Infrared M
     published: true
     volume: 1.0
@@ -1860,6 +1954,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 241
     marketGroup: 102
+    mass: 1.0
     name: Infrared S
     published: true
     volume: 1.0
@@ -1878,6 +1973,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 17682
     marketGroup: 503
+    mass: 1.0
     name: Infrared XL
     published: true
     volume: 1.0
@@ -1896,6 +1992,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 256
     marketGroup: 105
+    mass: 1.0
     name: Microwave L
     published: true
     volume: 1.0
@@ -1914,6 +2011,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 248
     marketGroup: 103
+    mass: 1.0
     name: Microwave M
     published: true
     volume: 1.0
@@ -1932,6 +2030,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 240
     marketGroup: 102
+    mass: 1.0
     name: Microwave S
     published: true
     volume: 1.0
@@ -1950,6 +2049,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 17684
     marketGroup: 503
+    mass: 1.0
     name: Microwave XL
     published: true
     volume: 1.0
@@ -1967,6 +2067,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 262
     marketGroup: 105
+    mass: 1.0
     name: Multifrequency L
     published: true
     volume: 1.0
@@ -1984,6 +2085,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 254
     marketGroup: 103
+    mass: 1.0
     name: Multifrequency M
     published: true
     volume: 1.0
@@ -2001,6 +2103,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 246
     marketGroup: 102
+    mass: 1.0
     name: Multifrequency S
     published: true
     volume: 1.0
@@ -2018,6 +2121,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 17686
     marketGroup: 503
+    mass: 1.0
     name: Multifrequency XL
     published: true
     volume: 1.0
@@ -2035,6 +2139,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 255
     marketGroup: 105
+    mass: 1.0
     name: Radio L
     published: true
     volume: 1.0
@@ -2052,6 +2157,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 247
     marketGroup: 103
+    mass: 1.0
     name: Radio M
     published: true
     volume: 1.0
@@ -2069,6 +2175,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 239
     marketGroup: 102
+    mass: 1.0
     name: Radio S
     published: true
     volume: 1.0
@@ -2086,6 +2193,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 17688
     marketGroup: 503
+    mass: 1.0
     name: Radio XL
     published: true
     volume: 1.0
@@ -2106,6 +2214,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20837
     marketGroup: 995
+    mass: 1.0
     name: Sanshas Gamma L
     published: true
     volume: 1.0
@@ -2126,6 +2235,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20829
     marketGroup: 996
+    mass: 1.0
     name: Sanshas Gamma M
     published: true
     volume: 1.0
@@ -2146,6 +2256,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20821
     marketGroup: 997
+    mass: 1.0
     name: Sanshas Gamma S
     published: true
     volume: 1.0
@@ -2166,6 +2277,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20845
     marketGroup: 1007
+    mass: 1.0
     name: Sanshas Gamma XL
     published: true
     volume: 1.0
@@ -2186,6 +2298,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20022
     marketGroup: 995
+    mass: 1.0
     name: Sanshas Infrared L
     published: true
     volume: 1.0
@@ -2206,6 +2319,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20014
     marketGroup: 996
+    mass: 1.0
     name: Sanshas Infrared M
     published: true
     volume: 1.0
@@ -2226,6 +2340,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 19982
     marketGroup: 997
+    mass: 1.0
     name: Sanshas Infrared S
     published: true
     volume: 1.0
@@ -2246,6 +2361,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20030
     marketGroup: 1007
+    mass: 1.0
     name: Sanshas Infrared XL
     published: true
     volume: 1.0
@@ -2266,6 +2382,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20020
     marketGroup: 995
+    mass: 1.0
     name: Sanshas Microwave L
     published: true
     volume: 1.0
@@ -2286,6 +2403,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20012
     marketGroup: 996
+    mass: 1.0
     name: Sanshas Microwave M
     published: true
     volume: 1.0
@@ -2306,6 +2424,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 19980
     marketGroup: 997
+    mass: 1.0
     name: Sanshas Microwave S
     published: true
     volume: 1.0
@@ -2326,6 +2445,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20028
     marketGroup: 1007
+    mass: 1.0
     name: Sanshas Microwave XL
     published: true
     volume: 1.0
@@ -2345,6 +2465,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20839
     marketGroup: 995
+    mass: 1.0
     name: Sanshas Multifrequency L
     published: true
     volume: 1.0
@@ -2364,6 +2485,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20831
     marketGroup: 996
+    mass: 1.0
     name: Sanshas Multifrequency M
     published: true
     volume: 1.0
@@ -2383,6 +2505,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20823
     marketGroup: 997
+    mass: 1.0
     name: Sanshas Multifrequency S
     published: true
     volume: 1.0
@@ -2402,6 +2525,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20847
     marketGroup: 1007
+    mass: 1.0
     name: Sanshas Multifrequency XL
     published: true
     volume: 1.0
@@ -2421,6 +2545,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20018
     marketGroup: 995
+    mass: 1.0
     name: Sanshas Radio L
     published: true
     volume: 1.0
@@ -2440,6 +2565,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20010
     marketGroup: 996
+    mass: 1.0
     name: Sanshas Radio M
     published: true
     volume: 1.0
@@ -2459,6 +2585,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 19978
     marketGroup: 997
+    mass: 1.0
     name: Sanshas Radio S
     published: true
     volume: 1.0
@@ -2478,6 +2605,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20026
     marketGroup: 1007
+    mass: 1.0
     name: Sanshas Radio XL
     published: true
     volume: 1.0
@@ -2498,6 +2626,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20024
     marketGroup: 995
+    mass: 1.0
     name: Sanshas Standard L
     published: true
     volume: 1.0
@@ -2518,6 +2647,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20016
     marketGroup: 996
+    mass: 1.0
     name: Sanshas Standard M
     published: true
     volume: 1.0
@@ -2538,6 +2668,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 19984
     marketGroup: 997
+    mass: 1.0
     name: Sanshas Standard S
     published: true
     volume: 1.0
@@ -2558,6 +2689,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20032
     marketGroup: 1007
+    mass: 1.0
     name: Sanshas Standard XL
     published: true
     volume: 1.0
@@ -2578,6 +2710,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20833
     marketGroup: 995
+    mass: 1.0
     name: Sanshas Ultraviolet L
     published: true
     volume: 1.0
@@ -2598,6 +2731,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20825
     marketGroup: 996
+    mass: 1.0
     name: Sanshas Ultraviolet M
     published: true
     volume: 1.0
@@ -2618,6 +2752,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20817
     marketGroup: 997
+    mass: 1.0
     name: Sanshas Ultraviolet S
     published: true
     volume: 1.0
@@ -2638,6 +2773,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20841
     marketGroup: 1007
+    mass: 1.0
     name: Sanshas Ultraviolet XL
     published: true
     volume: 1.0
@@ -2658,6 +2794,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20835
     marketGroup: 995
+    mass: 1.0
     name: Sanshas Xray L
     published: true
     volume: 1.0
@@ -2678,6 +2815,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20827
     marketGroup: 996
+    mass: 1.0
     name: Sanshas Xray M
     published: true
     volume: 1.0
@@ -2698,6 +2836,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20819
     marketGroup: 997
+    mass: 1.0
     name: Sanshas Xray S
     published: true
     volume: 1.0
@@ -2718,6 +2857,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20843
     marketGroup: 1007
+    mass: 1.0
     name: Sanshas Xray XL
     published: true
     volume: 1.0
@@ -2736,6 +2876,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 258
     marketGroup: 105
+    mass: 1.0
     name: Standard L
     published: true
     volume: 1.0
@@ -2754,6 +2895,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 250
     marketGroup: 103
+    mass: 1.0
     name: Standard M
     published: true
     volume: 1.0
@@ -2772,6 +2914,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 242
     marketGroup: 102
+    mass: 1.0
     name: Standard S
     published: true
     volume: 1.0
@@ -2790,6 +2933,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 17690
     marketGroup: 503
+    mass: 1.0
     name: Standard XL
     published: true
     volume: 1.0
@@ -2810,6 +2954,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20893
     marketGroup: 995
+    mass: 1.0
     name: True Sanshas Gamma L
     published: true
     volume: 1.0
@@ -2830,6 +2975,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20877
     marketGroup: 996
+    mass: 1.0
     name: True Sanshas Gamma M
     published: true
     volume: 1.0
@@ -2850,6 +2996,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20861
     marketGroup: 997
+    mass: 1.0
     name: True Sanshas Gamma S
     published: true
     volume: 1.0
@@ -2870,6 +3017,7 @@ items:
     WeaponRangeMultiplier: 0.625
     id: 20909
     marketGroup: 1007
+    mass: 1.0
     name: True Sanshas Gamma XL
     published: true
     volume: 1.0
@@ -2890,6 +3038,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20885
     marketGroup: 995
+    mass: 1.0
     name: True Sanshas Infrared L
     published: true
     volume: 1.0
@@ -2910,6 +3059,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20869
     marketGroup: 996
+    mass: 1.0
     name: True Sanshas Infrared M
     published: true
     volume: 1.0
@@ -2930,6 +3080,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20853
     marketGroup: 997
+    mass: 1.0
     name: True Sanshas Infrared S
     published: true
     volume: 1.0
@@ -2950,6 +3101,7 @@ items:
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20901
     marketGroup: 1007
+    mass: 1.0
     name: True Sanshas Infrared XL
     published: true
     volume: 1.0
@@ -2970,6 +3122,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20883
     marketGroup: 995
+    mass: 1.0
     name: True Sanshas Microwave L
     published: true
     volume: 1.0
@@ -2990,6 +3143,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20867
     marketGroup: 996
+    mass: 1.0
     name: True Sanshas Microwave M
     published: true
     volume: 1.0
@@ -3010,6 +3164,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20851
     marketGroup: 997
+    mass: 1.0
     name: True Sanshas Microwave S
     published: true
     volume: 1.0
@@ -3030,6 +3185,7 @@ items:
     WeaponRangeMultiplier: 1.399999976158142
     id: 20899
     marketGroup: 1007
+    mass: 1.0
     name: True Sanshas Microwave XL
     published: true
     volume: 1.0
@@ -3049,6 +3205,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20895
     marketGroup: 995
+    mass: 1.0
     name: True Sanshas Multifrequency L
     published: true
     volume: 1.0
@@ -3068,6 +3225,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20879
     marketGroup: 996
+    mass: 1.0
     name: True Sanshas Multifrequency M
     published: true
     volume: 1.0
@@ -3087,6 +3245,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20863
     marketGroup: 997
+    mass: 1.0
     name: True Sanshas Multifrequency S
     published: true
     volume: 1.0
@@ -3106,6 +3265,7 @@ items:
     WeaponRangeMultiplier: 0.5
     id: 20911
     marketGroup: 1007
+    mass: 1.0
     name: True Sanshas Multifrequency XL
     published: true
     volume: 1.0
@@ -3125,6 +3285,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20881
     marketGroup: 995
+    mass: 1.0
     name: True Sanshas Radio L
     published: true
     volume: 1.0
@@ -3144,6 +3305,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20865
     marketGroup: 996
+    mass: 1.0
     name: True Sanshas Radio M
     published: true
     volume: 1.0
@@ -3163,6 +3325,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20849
     marketGroup: 997
+    mass: 1.0
     name: True Sanshas Radio S
     published: true
     volume: 1.0
@@ -3182,6 +3345,7 @@ items:
     WeaponRangeMultiplier: 1.600000023841858
     id: 20897
     marketGroup: 1007
+    mass: 1.0
     name: True Sanshas Radio XL
     published: true
     volume: 1.0
@@ -3202,6 +3366,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20887
     marketGroup: 995
+    mass: 1.0
     name: True Sanshas Standard L
     published: true
     volume: 1.0
@@ -3222,6 +3387,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20871
     marketGroup: 996
+    mass: 1.0
     name: True Sanshas Standard M
     published: true
     volume: 1.0
@@ -3242,6 +3408,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20855
     marketGroup: 997
+    mass: 1.0
     name: True Sanshas Standard S
     published: true
     volume: 1.0
@@ -3262,6 +3429,7 @@ items:
     WeaponRangeMultiplier: 1.0
     id: 20903
     marketGroup: 1007
+    mass: 1.0
     name: True Sanshas Standard XL
     published: true
     volume: 1.0
@@ -3282,6 +3450,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20889
     marketGroup: 995
+    mass: 1.0
     name: True Sanshas Ultraviolet L
     published: true
     volume: 1.0
@@ -3302,6 +3471,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20873
     marketGroup: 996
+    mass: 1.0
     name: True Sanshas Ultraviolet M
     published: true
     volume: 1.0
@@ -3322,6 +3492,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20857
     marketGroup: 997
+    mass: 1.0
     name: True Sanshas Ultraviolet S
     published: true
     volume: 1.0
@@ -3342,6 +3513,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 20905
     marketGroup: 1007
+    mass: 1.0
     name: True Sanshas Ultraviolet XL
     published: true
     volume: 1.0
@@ -3362,6 +3534,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20891
     marketGroup: 995
+    mass: 1.0
     name: True Sanshas Xray L
     published: true
     volume: 1.0
@@ -3382,6 +3555,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20875
     marketGroup: 996
+    mass: 1.0
     name: True Sanshas Xray M
     published: true
     volume: 1.0
@@ -3402,6 +3576,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20859
     marketGroup: 997
+    mass: 1.0
     name: True Sanshas Xray S
     published: true
     volume: 1.0
@@ -3422,6 +3597,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 20907
     marketGroup: 1007
+    mass: 1.0
     name: True Sanshas Xray XL
     published: true
     volume: 1.0
@@ -3440,6 +3616,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 259
     marketGroup: 105
+    mass: 1.0
     name: Ultraviolet L
     published: true
     volume: 1.0
@@ -3458,6 +3635,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 251
     marketGroup: 103
+    mass: 1.0
     name: Ultraviolet M
     published: true
     volume: 1.0
@@ -3476,6 +3654,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 243
     marketGroup: 102
+    mass: 1.0
     name: Ultraviolet S
     published: true
     volume: 1.0
@@ -3494,6 +3673,7 @@ items:
     WeaponRangeMultiplier: 0.875
     id: 17692
     marketGroup: 503
+    mass: 1.0
     name: Ultraviolet XL
     published: true
     volume: 1.0
@@ -3512,6 +3692,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 260
     marketGroup: 105
+    mass: 1.0
     name: Xray L
     published: true
     volume: 1.0
@@ -3530,6 +3711,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 252
     marketGroup: 103
+    mass: 1.0
     name: Xray M
     published: true
     volume: 1.0
@@ -3548,6 +3730,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 244
     marketGroup: 102
+    mass: 1.0
     name: Xray S
     published: true
     volume: 1.0
@@ -3566,6 +3749,7 @@ items:
     WeaponRangeMultiplier: 0.75
     id: 17694
     marketGroup: 503
+    mass: 1.0
     name: Xray XL
     published: true
     volume: 1.0

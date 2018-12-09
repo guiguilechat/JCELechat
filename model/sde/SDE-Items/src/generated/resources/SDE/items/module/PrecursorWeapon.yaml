@@ -32,6 +32,7 @@ items:
     TypeColorScheme: 11313
     id: 47916
     marketGroup: 2434
+    mass: 1000.0
     name: Heavy Compact Entropic Disintegrator
     published: true
     volume: 10.0
@@ -67,6 +68,7 @@ items:
     TypeColorScheme: 11313
     id: 47273
     marketGroup: 2434
+    mass: 1000.0
     name: Heavy Entropic Disintegrator I
     published: true
     volume: 10.0
@@ -107,6 +109,7 @@ items:
     TypeColorScheme: 11313
     id: 47918
     marketGroup: 2434
+    mass: 1000.0
     name: Heavy Entropic Disintegrator II
     published: true
     volume: 10.0
@@ -143,6 +146,7 @@ items:
     TypeColorScheme: 11313
     id: 47917
     marketGroup: 2434
+    mass: 1000.0
     name: Heavy Scoped Entropic Disintegrator
     published: true
     volume: 10.0
@@ -180,6 +184,7 @@ items:
     TypeColorScheme: 11313
     id: 47919
     marketGroup: 2434
+    mass: 1000.0
     name: Heavy Veles Entropic Disintegrator
     published: true
     volume: 10.0
@@ -216,6 +221,7 @@ items:
     TypeColorScheme: 11313
     id: 47912
     marketGroup: 2433
+    mass: 500.0
     name: Light Compact Entropic Disintegrator
     published: true
     volume: 5.0
@@ -251,6 +257,7 @@ items:
     TypeColorScheme: 11313
     id: 47272
     marketGroup: 2433
+    mass: 500.0
     name: Light Entropic Disintegrator I
     published: true
     volume: 5.0
@@ -291,6 +298,7 @@ items:
     TypeColorScheme: 11313
     id: 47914
     marketGroup: 2433
+    mass: 500.0
     name: Light Entropic Disintegrator II
     published: true
     volume: 5.0
@@ -327,6 +335,7 @@ items:
     TypeColorScheme: 11313
     id: 47913
     marketGroup: 2433
+    mass: 500.0
     name: Light Scoped Entropic Disintegrator
     published: true
     volume: 5.0
@@ -364,6 +373,7 @@ items:
     TypeColorScheme: 11313
     id: 47915
     marketGroup: 2433
+    mass: 500.0
     name: Light Veles Entropic Disintegrator
     published: true
     volume: 5.0
@@ -398,6 +408,7 @@ items:
     TypeColorScheme: 11313
     id: 47920
     marketGroup: 2435
+    mass: 2000.0
     name: Supratidal Compact Entropic Disintegrator
     published: true
     volume: 20.0
@@ -431,6 +442,7 @@ items:
     TypeColorScheme: 11313
     id: 47274
     marketGroup: 2435
+    mass: 2000.0
     name: Supratidal Entropic Disintegrator I
     published: true
     volume: 20.0
@@ -469,6 +481,7 @@ items:
     TypeColorScheme: 11313
     id: 47922
     marketGroup: 2435
+    mass: 2000.0
     name: Supratidal Entropic Disintegrator II
     published: true
     volume: 20.0
@@ -503,6 +516,7 @@ items:
     TypeColorScheme: 11313
     id: 47921
     marketGroup: 2435
+    mass: 2000.0
     name: Supratidal Scoped Entropic Disintegrator
     published: true
     volume: 20.0
@@ -538,6 +552,7 @@ items:
     TypeColorScheme: 11313
     id: 47923
     marketGroup: 2435
+    mass: 2000.0
     name: Supratidal Veles Entropic Disintegrator
     published: true
     volume: 20.0

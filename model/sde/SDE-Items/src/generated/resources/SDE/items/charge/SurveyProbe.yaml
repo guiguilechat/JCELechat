@@ -16,6 +16,7 @@ items:
     TechLevel: 1
     id: 18635
     marketGroup: 1200
+    mass: 1.0
     name: Discovery Survey Probe I
     published: true
     volume: 10.0
@@ -36,6 +37,7 @@ items:
     TechLevel: 1
     id: 18637
     marketGroup: 1200
+    mass: 1.0
     name: Gaze Survey Probe I
     published: true
     volume: 5.0
@@ -56,6 +58,7 @@ items:
     TechLevel: 1
     id: 18626
     marketGroup: 1200
+    mass: 1.0
     name: Quest Survey Probe I
     published: true
     volume: 5.0

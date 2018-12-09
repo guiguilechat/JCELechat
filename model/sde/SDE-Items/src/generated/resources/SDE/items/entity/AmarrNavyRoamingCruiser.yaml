@@ -1,9 +1,11 @@
 items:
   Amarr Navy Augoror:
     id: 35815
+    mass: 1.065E7
     name: Amarr Navy Augoror
     published: false
   Amarr Navy Omen:
     id: 35814
+    mass: 1.085E7
     name: Amarr Navy Omen
     published: false

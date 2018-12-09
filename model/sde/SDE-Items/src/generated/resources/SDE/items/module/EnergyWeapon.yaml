@@ -29,6 +29,7 @@ items:
     TypeColorScheme: 11312
     id: 23844
     marketGroup: 568
+    mass: 1000.0
     name: '''Arquebus'' Heavy Beam Laser I'
     published: true
     volume: 10.0
@@ -61,6 +62,7 @@ items:
     TypeColorScheme: 11312
     id: 23850
     marketGroup: 569
+    mass: 1000.0
     name: '''Ballista'' Tachyon Beam Laser I'
     published: true
     volume: 20.0
@@ -93,6 +95,7 @@ items:
     TypeColorScheme: 11312
     id: 23848
     marketGroup: 569
+    mass: 2000.0
     name: '''Catapult'' Mega Beam Laser I'
     published: true
     volume: 20.0
@@ -126,6 +129,7 @@ items:
     TypeColorScheme: 11312
     id: 23840
     marketGroup: 568
+    mass: 1000.0
     name: '''Crossbow'' Focused Medium Beam Laser I'
     published: true
     volume: 10.0
@@ -159,6 +163,7 @@ items:
     TypeColorScheme: 11312
     id: 23838
     marketGroup: 567
+    mass: 500.0
     name: '''Gauntlet'' Small Focused Beam Laser I'
     published: true
     volume: 5.0
@@ -190,6 +195,7 @@ items:
     TypeColorScheme: 11312
     id: 23846
     marketGroup: 573
+    mass: 2000.0
     name: '''Halberd'' Mega Pulse Laser I'
     published: true
     volume: 20.0
@@ -222,6 +228,7 @@ items:
     TypeColorScheme: 11312
     id: 23842
     marketGroup: 572
+    mass: 1000.0
     name: '''Joust'' Heavy Pulse Laser I'
     published: true
     volume: 10.0
@@ -255,6 +262,7 @@ items:
     TypeColorScheme: 11312
     id: 23836
     marketGroup: 570
+    mass: 500.0
     name: '''Longbow'' Small Focused Pulse Laser I'
     published: true
     volume: 5.0
@@ -288,6 +296,7 @@ items:
     TypeColorScheme: 11312
     id: 23834
     marketGroup: 567
+    mass: 500.0
     name: '''Mace'' Dual Light Beam Laser I'
     published: true
     volume: 5.0
@@ -320,6 +329,7 @@ items:
     TypeColorScheme: 11313
     id: 41117
     marketGroup: 773
+    mass: 40000.0
     name: Afocal Precise Dual Giga Beam Laser
     published: true
     volume: 4000.0
@@ -352,6 +362,7 @@ items:
     TypeColorScheme: 11313
     id: 41102
     marketGroup: 774
+    mass: 40000.0
     name: Afocal Precise Dual Giga Pulse Laser
     published: true
     volume: 4000.0
@@ -384,6 +395,7 @@ items:
     TypeColorScheme: 11313
     id: 41065
     marketGroup: 774
+    mass: 40000.0
     name: Afocal Precise Quad Mega Pulse Laser
     published: true
     volume: 4000.0
@@ -416,6 +428,7 @@ items:
     TypeColorScheme: 11311
     id: 14427
     marketGroup: 573
+    mass: 2000.0
     name: Ahremen's Modified Dual Heavy Pulse Laser
     published: true
     volume: 20.0
@@ -448,6 +461,7 @@ items:
     TypeColorScheme: 11311
     id: 14443
     marketGroup: 573
+    mass: 2000.0
     name: Ahremen's Modified Mega Pulse Laser
     published: true
     volume: 20.0
@@ -480,6 +494,7 @@ items:
     TypeColorScheme: 11317
     id: 15859
     marketGroup: 569
+    mass: 2000.0
     name: Ammatar Navy Dual Heavy Beam Laser
     published: true
     volume: 20.0
@@ -512,6 +527,7 @@ items:
     TypeColorScheme: 11317
     id: 15858
     marketGroup: 573
+    mass: 2000.0
     name: Ammatar Navy Dual Heavy Pulse Laser
     published: true
     volume: 20.0
@@ -545,6 +561,7 @@ items:
     TypeColorScheme: 11317
     id: 15857
     marketGroup: 567
+    mass: 500.0
     name: Ammatar Navy Dual Light Beam Laser
     published: true
     volume: 5.0
@@ -577,6 +594,7 @@ items:
     TypeColorScheme: 11317
     id: 15856
     marketGroup: 570
+    mass: 500.0
     name: Ammatar Navy Dual Light Pulse Laser
     published: true
     volume: 5.0
@@ -610,6 +628,7 @@ items:
     TypeColorScheme: 11317
     id: 15855
     marketGroup: 568
+    mass: 1000.0
     name: Ammatar Navy Focused Medium Beam Laser
     published: true
     volume: 10.0
@@ -642,6 +661,7 @@ items:
     TypeColorScheme: 11317
     id: 15854
     marketGroup: 572
+    mass: 1000.0
     name: Ammatar Navy Focused Medium Pulse Laser
     published: true
     volume: 10.0
@@ -674,6 +694,7 @@ items:
     TypeColorScheme: 11317
     id: 15853
     marketGroup: 570
+    mass: 500.0
     name: Ammatar Navy Gatling Pulse Laser
     published: true
     volume: 5.0
@@ -707,6 +728,7 @@ items:
     TypeColorScheme: 11317
     id: 15852
     marketGroup: 568
+    mass: 1000.0
     name: Ammatar Navy Heavy Beam Laser
     published: true
     volume: 10.0
@@ -739,6 +761,7 @@ items:
     TypeColorScheme: 11317
     id: 15851
     marketGroup: 572
+    mass: 1000.0
     name: Ammatar Navy Heavy Pulse Laser
     published: true
     volume: 10.0
@@ -771,6 +794,7 @@ items:
     TypeColorScheme: 11317
     id: 15848
     marketGroup: 569
+    mass: 2000.0
     name: Ammatar Navy Mega Beam Laser
     published: true
     volume: 20.0
@@ -803,6 +827,7 @@ items:
     TypeColorScheme: 11317
     id: 15847
     marketGroup: 573
+    mass: 2000.0
     name: Ammatar Navy Mega Pulse Laser
     published: true
     volume: 20.0
@@ -836,6 +861,7 @@ items:
     TypeColorScheme: 11317
     id: 15846
     marketGroup: 568
+    mass: 1000.0
     name: Ammatar Navy Quad Beam Laser
     published: true
     volume: 10.0
@@ -869,6 +895,7 @@ items:
     TypeColorScheme: 11317
     id: 15850
     marketGroup: 567
+    mass: 500.0
     name: Ammatar Navy Small Focused Beam Laser
     published: true
     volume: 5.0
@@ -902,6 +929,7 @@ items:
     TypeColorScheme: 11317
     id: 15849
     marketGroup: 570
+    mass: 500.0
     name: Ammatar Navy Small Focused Pulse Laser
     published: true
     volume: 5.0
@@ -934,6 +962,7 @@ items:
     TypeColorScheme: 11317
     id: 15845
     marketGroup: 569
+    mass: 2000.0
     name: Ammatar Navy Tachyon Beam Laser
     published: true
     volume: 20.0
@@ -966,6 +995,7 @@ items:
     TypeColorScheme: 11313
     id: 41116
     marketGroup: 773
+    mass: 40000.0
     name: Anode Scoped Dual Giga Beam Laser
     published: true
     volume: 4000.0
@@ -998,6 +1028,7 @@ items:
     TypeColorScheme: 11313
     id: 41101
     marketGroup: 774
+    mass: 40000.0
     name: Anode Scoped Dual Giga Pulse Laser
     published: true
     volume: 4000.0
@@ -1030,6 +1061,7 @@ items:
     TypeColorScheme: 11313
     id: 41064
     marketGroup: 774
+    mass: 40000.0
     name: Anode Scoped Quad Mega Pulse Laser
     published: true
     volume: 4000.0
@@ -1062,6 +1094,7 @@ items:
     TypeColorScheme: 11311
     id: 14429
     marketGroup: 573
+    mass: 2000.0
     name: Brokara's Modified Dual Heavy Pulse Laser
     published: true
     volume: 20.0
@@ -1094,6 +1127,7 @@ items:
     TypeColorScheme: 11311
     id: 14445
     marketGroup: 573
+    mass: 2000.0
     name: Brokara's Modified Mega Pulse Laser
     published: true
     volume: 20.0
@@ -1129,6 +1163,7 @@ items:
     TypeColorScheme: 11313
     id: 3561
     marketGroup: 773
+    mass: 40000.0
     name: CONCORD Dual Giga Beam Laser
     published: true
     volume: 4000.0
@@ -1163,6 +1198,7 @@ items:
     TypeColorScheme: 11313
     id: 3559
     marketGroup: 774
+    mass: 40000.0
     name: CONCORD Dual Giga Pulse Laser
     published: true
     volume: 4000.0
@@ -1195,6 +1231,7 @@ items:
     TypeColorScheme: 11311
     id: 14419
     marketGroup: 569
+    mass: 2000.0
     name: Chelm's Modified Dual Heavy Beam Laser
     published: true
     volume: 20.0
@@ -1227,6 +1264,7 @@ items:
     TypeColorScheme: 11311
     id: 14435
     marketGroup: 569
+    mass: 2000.0
     name: Chelm's Modified Mega Beam Laser
     published: true
     volume: 20.0
@@ -1259,6 +1297,7 @@ items:
     TypeColorScheme: 11311
     id: 14451
     marketGroup: 569
+    mass: 2000.0
     name: Chelm's Modified Tachyon Beam Laser
     published: true
     volume: 20.0
@@ -1293,6 +1332,7 @@ items:
     TypeColorScheme: 11313
     id: 41118
     marketGroup: 773
+    mass: 40000.0
     name: Dark Blood Dual Giga Beam Laser
     published: true
     volume: 4000.0
@@ -1327,6 +1367,7 @@ items:
     TypeColorScheme: 11313
     id: 41103
     marketGroup: 774
+    mass: 40000.0
     name: Dark Blood Dual Giga Pulse Laser
     published: true
     volume: 4000.0
@@ -1359,6 +1400,7 @@ items:
     TypeColorScheme: 11320
     id: 13793
     marketGroup: 569
+    mass: 2000.0
     name: Dark Blood Dual Heavy Beam Laser
     published: true
     volume: 20.0
@@ -1391,6 +1433,7 @@ items:
     TypeColorScheme: 11320
     id: 13791
     marketGroup: 573
+    mass: 2000.0
     name: Dark Blood Dual Heavy Pulse Laser
     published: true
     volume: 20.0
@@ -1424,6 +1467,7 @@ items:
     TypeColorScheme: 11320
     id: 13795
     marketGroup: 567
+    mass: 500.0
     name: Dark Blood Dual Light Beam Laser
     published: true
     volume: 5.0
@@ -1456,6 +1500,7 @@ items:
     TypeColorScheme: 11320
     id: 13797
     marketGroup: 570
+    mass: 500.0
     name: Dark Blood Dual Light Pulse Laser
     published: true
     volume: 5.0
@@ -1489,6 +1534,7 @@ items:
     TypeColorScheme: 11320
     id: 13799
     marketGroup: 568
+    mass: 1000.0
     name: Dark Blood Focused Medium Beam Laser
     published: true
     volume: 10.0
@@ -1521,6 +1567,7 @@ items:
     TypeColorScheme: 11320
     id: 13801
     marketGroup: 572
+    mass: 1000.0
     name: Dark Blood Focused Medium Pulse Laser
     published: true
     volume: 10.0
@@ -1553,6 +1600,7 @@ items:
     TypeColorScheme: 11320
     id: 13803
     marketGroup: 570
+    mass: 500.0
     name: Dark Blood Gatling Pulse Laser
     published: true
     volume: 5.0
@@ -1586,6 +1634,7 @@ items:
     TypeColorScheme: 11320
     id: 13805
     marketGroup: 568
+    mass: 1000.0
     name: Dark Blood Heavy Beam Laser
     published: true
     volume: 10.0
@@ -1618,6 +1667,7 @@ items:
     TypeColorScheme: 11320
     id: 13807
     marketGroup: 572
+    mass: 1000.0
     name: Dark Blood Heavy Pulse Laser
     published: true
     volume: 10.0
@@ -1650,6 +1700,7 @@ items:
     TypeColorScheme: 11320
     id: 13813
     marketGroup: 569
+    mass: 2000.0
     name: Dark Blood Mega Beam Laser
     published: true
     volume: 20.0
@@ -1682,6 +1733,7 @@ items:
     TypeColorScheme: 11320
     id: 13815
     marketGroup: 573
+    mass: 2000.0
     name: Dark Blood Mega Pulse Laser
     published: true
     volume: 20.0
@@ -1715,6 +1767,7 @@ items:
     TypeColorScheme: 11320
     id: 13819
     marketGroup: 568
+    mass: 1000.0
     name: Dark Blood Quad Beam Laser
     published: true
     volume: 10.0
@@ -1749,6 +1802,7 @@ items:
     TypeColorScheme: 11313
     id: 41066
     marketGroup: 774
+    mass: 40000.0
     name: Dark Blood Quad Mega Pulse Laser
     published: true
     volume: 4000.0
@@ -1782,6 +1836,7 @@ items:
     TypeColorScheme: 11320
     id: 13809
     marketGroup: 567
+    mass: 500.0
     name: Dark Blood Small Focused Beam Laser
     published: true
     volume: 5.0
@@ -1815,6 +1870,7 @@ items:
     TypeColorScheme: 11320
     id: 13811
     marketGroup: 570
+    mass: 500.0
     name: Dark Blood Small Focused Pulse Laser
     published: true
     volume: 5.0
@@ -1847,6 +1903,7 @@ items:
     TypeColorScheme: 11320
     id: 13817
     marketGroup: 569
+    mass: 2000.0
     name: Dark Blood Tachyon Beam Laser
     published: true
     volume: 20.0
@@ -1879,6 +1936,7 @@ items:
     TypeColorScheme: 11311
     id: 14423
     marketGroup: 569
+    mass: 2000.0
     name: Draclira's Modified Dual Heavy Beam Laser
     published: true
     volume: 20.0
@@ -1911,6 +1969,7 @@ items:
     TypeColorScheme: 11311
     id: 14439
     marketGroup: 569
+    mass: 2000.0
     name: Draclira's Modified Mega Beam Laser
     published: true
     volume: 20.0
@@ -1943,6 +2002,7 @@ items:
     TypeColorScheme: 11311
     id: 14455
     marketGroup: 569
+    mass: 2000.0
     name: Draclira's Modified Tachyon Beam Laser
     published: true
     volume: 20.0
@@ -1974,6 +2034,7 @@ items:
     TypeColorScheme: 11313
     id: 7045
     marketGroup: 569
+    mass: 2000.0
     name: Dual Afocal Heavy Maser I
     published: true
     volume: 20.0
@@ -2006,6 +2067,7 @@ items:
     TypeColorScheme: 11313
     id: 6633
     marketGroup: 567
+    mass: 500.0
     name: Dual Afocal Light Maser I
     published: true
     volume: 5.0
@@ -2037,6 +2099,7 @@ items:
     TypeColorScheme: 11313
     id: 5217
     marketGroup: 570
+    mass: 500.0
     name: Dual Afocal Pulse Maser I
     published: true
     volume: 5.0
@@ -2068,6 +2131,7 @@ items:
     TypeColorScheme: 11313
     id: 7049
     marketGroup: 569
+    mass: 2000.0
     name: Dual Anode Heavy Particle Stream I
     published: true
     volume: 20.0
@@ -2100,6 +2164,7 @@ items:
     TypeColorScheme: 11313
     id: 6637
     marketGroup: 567
+    mass: 500.0
     name: Dual Anode Light Particle Stream I
     published: true
     volume: 5.0
@@ -2131,6 +2196,7 @@ items:
     TypeColorScheme: 11313
     id: 5221
     marketGroup: 570
+    mass: 500.0
     name: Dual Anode Pulse Particle Stream I
     published: true
     volume: 5.0
@@ -2162,6 +2228,7 @@ items:
     TypeColorScheme: 11313
     id: 20446
     marketGroup: 773
+    mass: 40000.0
     name: Dual Giga Beam Laser I
     published: true
     volume: 4000.0
@@ -2197,6 +2264,7 @@ items:
     TypeColorScheme: 11313
     id: 37299
     marketGroup: 773
+    mass: 40000.0
     name: Dual Giga Beam Laser II
     published: true
     volume: 4000.0
@@ -2228,6 +2296,7 @@ items:
     TypeColorScheme: 11313
     id: 20444
     marketGroup: 774
+    mass: 40000.0
     name: Dual Giga Pulse Laser I
     published: true
     volume: 4000.0
@@ -2263,6 +2332,7 @@ items:
     TypeColorScheme: 11313
     id: 37298
     marketGroup: 774
+    mass: 40000.0
     name: Dual Giga Pulse Laser II
     published: true
     volume: 4000.0
@@ -2294,6 +2364,7 @@ items:
     TypeColorScheme: 11313
     id: 7001
     marketGroup: 573
+    mass: 2000.0
     name: Dual Heavy Afocal Pulse Maser I
     published: true
     volume: 20.0
@@ -2325,6 +2396,7 @@ items:
     TypeColorScheme: 11313
     id: 7005
     marketGroup: 573
+    mass: 2000.0
     name: Dual Heavy Anode Pulse Particle Stream I
     published: true
     volume: 20.0
@@ -2355,6 +2427,7 @@ items:
     TypeColorScheme: 11313
     id: 461
     marketGroup: 569
+    mass: 2000.0
     name: Dual Heavy Beam Laser I
     published: true
     volume: 50.0
@@ -2389,6 +2462,7 @@ items:
     TypeColorScheme: 11314
     id: 2985
     marketGroup: 569
+    mass: 2000.0
     name: Dual Heavy Beam Laser II
     published: true
     volume: 20.0
@@ -2420,6 +2494,7 @@ items:
     TypeColorScheme: 11313
     id: 6999
     marketGroup: 573
+    mass: 2000.0
     name: Dual Heavy Modal Pulse Laser I
     published: true
     volume: 20.0
@@ -2451,6 +2526,7 @@ items:
     TypeColorScheme: 11313
     id: 7003
     marketGroup: 573
+    mass: 2000.0
     name: Dual Heavy Modulated Pulse Energy Beam I
     published: true
     volume: 20.0
@@ -2481,6 +2557,7 @@ items:
     TypeColorScheme: 11313
     id: 460
     marketGroup: 573
+    mass: 2000.0
     name: Dual Heavy Pulse Laser I
     published: true
     volume: 20.0
@@ -2515,6 +2592,7 @@ items:
     TypeColorScheme: 11314
     id: 4147
     marketGroup: 573
+    mass: 2000.0
     name: Dual Heavy Pulse Laser II
     published: true
     volume: 20.0
@@ -2546,6 +2624,7 @@ items:
     TypeColorScheme: 11313
     id: 452
     marketGroup: 567
+    mass: 500.0
     name: Dual Light Beam Laser I
     published: true
     volume: 5.0
@@ -2581,6 +2660,7 @@ items:
     TypeColorScheme: 11314
     id: 2993
     marketGroup: 567
+    mass: 500.0
     name: Dual Light Beam Laser II
     published: true
     volume: 5.0
@@ -2611,6 +2691,7 @@ items:
     TypeColorScheme: 11313
     id: 451
     marketGroup: 570
+    mass: 500.0
     name: Dual Light Pulse Laser I
     published: true
     volume: 5.0
@@ -2645,6 +2726,7 @@ items:
     TypeColorScheme: 11314
     id: 3001
     marketGroup: 570
+    mass: 500.0
     name: Dual Light Pulse Laser II
     published: true
     volume: 5.0
@@ -2676,6 +2758,7 @@ items:
     TypeColorScheme: 11313
     id: 7043
     marketGroup: 569
+    mass: 2000.0
     name: Dual Modal Heavy Laser I
     published: true
     volume: 20.0
@@ -2708,6 +2791,7 @@ items:
     TypeColorScheme: 11313
     id: 6631
     marketGroup: 567
+    mass: 500.0
     name: Dual Modal Light Laser I
     published: true
     volume: 5.0
@@ -2739,6 +2823,7 @@ items:
     TypeColorScheme: 11313
     id: 5215
     marketGroup: 570
+    mass: 500.0
     name: Dual Modal Pulse Laser I
     published: true
     volume: 5.0
@@ -2770,6 +2855,7 @@ items:
     TypeColorScheme: 11313
     id: 7047
     marketGroup: 569
+    mass: 2000.0
     name: Dual Modulated Heavy Energy Beam I
     published: true
     volume: 20.0
@@ -2801,6 +2887,7 @@ items:
     TypeColorScheme: 11313
     id: 6635
     marketGroup: 567
+    mass: 500.0
     name: Dual Modulated Light Energy Beam I
     published: true
     volume: 5.0
@@ -2832,6 +2919,7 @@ items:
     TypeColorScheme: 11313
     id: 5219
     marketGroup: 570
+    mass: 500.0
     name: Dual Modulated Pulse Energy Beam I
     published: true
     volume: 5.0
@@ -2864,6 +2952,7 @@ items:
     TypeColorScheme: 11313
     id: 6861
     marketGroup: 568
+    mass: 1000.0
     name: Focused Afocal Medium Maser I
     published: true
     volume: 10.0
@@ -2895,6 +2984,7 @@ items:
     TypeColorScheme: 11313
     id: 6807
     marketGroup: 572
+    mass: 1000.0
     name: Focused Afocal Pulse Maser I
     published: true
     volume: 10.0
@@ -2927,6 +3017,7 @@ items:
     TypeColorScheme: 11313
     id: 6865
     marketGroup: 568
+    mass: 1000.0
     name: Focused Anode Medium Particle Stream I
     published: true
     volume: 10.0
@@ -2958,6 +3049,7 @@ items:
     TypeColorScheme: 11313
     id: 6811
     marketGroup: 572
+    mass: 1000.0
     name: Focused Anode Pulse Particle Stream I
     published: true
     volume: 10.0
@@ -2989,6 +3081,7 @@ items:
     TypeColorScheme: 11313
     id: 457
     marketGroup: 568
+    mass: 1000.0
     name: Focused Medium Beam Laser I
     published: true
     volume: 10.0
@@ -3024,6 +3117,7 @@ items:
     TypeColorScheme: 11314
     id: 3009
     marketGroup: 568
+    mass: 1000.0
     name: Focused Medium Beam Laser II
     published: true
     volume: 10.0
@@ -3054,6 +3148,7 @@ items:
     TypeColorScheme: 11313
     id: 456
     marketGroup: 572
+    mass: 1000.0
     name: Focused Medium Pulse Laser I
     published: true
     volume: 10.0
@@ -3088,6 +3183,7 @@ items:
     TypeColorScheme: 11314
     id: 3512
     marketGroup: 572
+    mass: 1000.0
     name: Focused Medium Pulse Laser II
     published: true
     volume: 10.0
@@ -3120,6 +3216,7 @@ items:
     TypeColorScheme: 11313
     id: 6859
     marketGroup: 568
+    mass: 1000.0
     name: Focused Modal Medium Laser I
     published: true
     volume: 10.0
@@ -3151,6 +3248,7 @@ items:
     TypeColorScheme: 11313
     id: 6805
     marketGroup: 572
+    mass: 1000.0
     name: Focused Modal Pulse Laser I
     published: true
     volume: 10.0
@@ -3183,6 +3281,7 @@ items:
     TypeColorScheme: 11313
     id: 6863
     marketGroup: 568
+    mass: 1000.0
     name: Focused Modulated Medium Energy Beam I
     published: true
     volume: 10.0
@@ -3214,6 +3313,7 @@ items:
     TypeColorScheme: 11313
     id: 6809
     marketGroup: 572
+    mass: 1000.0
     name: Focused Modulated Pulse Energy Beam I
     published: true
     volume: 10.0
@@ -3245,6 +3345,7 @@ items:
     TypeColorScheme: 11313
     id: 5177
     marketGroup: 570
+    mass: 500.0
     name: Gatling Afocal Maser I
     published: true
     volume: 5.0
@@ -3276,6 +3377,7 @@ items:
     TypeColorScheme: 11313
     id: 5181
     marketGroup: 570
+    mass: 500.0
     name: Gatling Anode Particle Stream I
     published: true
     volume: 5.0
@@ -3307,6 +3409,7 @@ items:
     TypeColorScheme: 11313
     id: 5175
     marketGroup: 570
+    mass: 500.0
     name: Gatling Modal Laser I
     published: true
     volume: 5.0
@@ -3338,6 +3441,7 @@ items:
     TypeColorScheme: 11313
     id: 5179
     marketGroup: 570
+    mass: 500.0
     name: Gatling Modulated Energy Beam I
     published: true
     volume: 5.0
@@ -3368,6 +3472,7 @@ items:
     TypeColorScheme: 11313
     id: 450
     marketGroup: 570
+    mass: 500.0
     name: Gatling Pulse Laser I
     published: true
     volume: 5.0
@@ -3402,6 +3507,7 @@ items:
     TypeColorScheme: 11314
     id: 3017
     marketGroup: 570
+    mass: 500.0
     name: Gatling Pulse Laser II
     published: true
     volume: 5.0
@@ -3434,6 +3540,7 @@ items:
     TypeColorScheme: 11313
     id: 6961
     marketGroup: 568
+    mass: 1000.0
     name: Heavy Afocal Maser I
     published: true
     volume: 10.0
@@ -3465,6 +3572,7 @@ items:
     TypeColorScheme: 11313
     id: 6921
     marketGroup: 572
+    mass: 1000.0
     name: Heavy Afocal Pulse Maser I
     published: true
     volume: 10.0
@@ -3497,6 +3605,7 @@ items:
     TypeColorScheme: 11313
     id: 6965
     marketGroup: 568
+    mass: 1000.0
     name: Heavy Anode Particle Stream I
     published: true
     volume: 10.0
@@ -3528,6 +3637,7 @@ items:
     TypeColorScheme: 11313
     id: 6925
     marketGroup: 572
+    mass: 1000.0
     name: Heavy Anode Pulse Particle Stream I
     published: true
     volume: 10.0
@@ -3559,6 +3669,7 @@ items:
     TypeColorScheme: 11313
     id: 459
     marketGroup: 568
+    mass: 1000.0
     name: Heavy Beam Laser I
     published: true
     volume: 25.0
@@ -3594,6 +3705,7 @@ items:
     TypeColorScheme: 11314
     id: 3025
     marketGroup: 568
+    mass: 1000.0
     name: Heavy Beam Laser II
     published: true
     volume: 10.0
@@ -3626,6 +3738,7 @@ items:
     TypeColorScheme: 11313
     id: 6959
     marketGroup: 568
+    mass: 1000.0
     name: Heavy Modal Laser I
     published: true
     volume: 10.0
@@ -3657,6 +3770,7 @@ items:
     TypeColorScheme: 11313
     id: 6919
     marketGroup: 572
+    mass: 1000.0
     name: Heavy Modal Pulse Laser I
     published: true
     volume: 10.0
@@ -3689,6 +3803,7 @@ items:
     TypeColorScheme: 11313
     id: 6963
     marketGroup: 568
+    mass: 1000.0
     name: Heavy Modulated Energy Beam I
     published: true
     volume: 10.0
@@ -3720,6 +3835,7 @@ items:
     TypeColorScheme: 11313
     id: 6923
     marketGroup: 572
+    mass: 1000.0
     name: Heavy Modulated Pulse Energy Beam I
     published: true
     volume: 10.0
@@ -3750,6 +3866,7 @@ items:
     TypeColorScheme: 11313
     id: 458
     marketGroup: 572
+    mass: 1000.0
     name: Heavy Pulse Laser I
     published: true
     volume: 25.0
@@ -3784,6 +3901,7 @@ items:
     TypeColorScheme: 11314
     id: 3520
     marketGroup: 572
+    mass: 1000.0
     name: Heavy Pulse Laser II
     published: true
     volume: 10.0
@@ -3816,6 +3934,7 @@ items:
     TypeColorScheme: 11310
     id: 15874
     marketGroup: 569
+    mass: 2000.0
     name: Imperial Navy Dual Heavy Beam Laser
     published: true
     volume: 20.0
@@ -3848,6 +3967,7 @@ items:
     TypeColorScheme: 11310
     id: 15873
     marketGroup: 573
+    mass: 2000.0
     name: Imperial Navy Dual Heavy Pulse Laser
     published: true
     volume: 20.0
@@ -3881,6 +4001,7 @@ items:
     TypeColorScheme: 11310
     id: 15872
     marketGroup: 567
+    mass: 500.0
     name: Imperial Navy Dual Light Beam Laser
     published: true
     volume: 5.0
@@ -3913,6 +4034,7 @@ items:
     TypeColorScheme: 11310
     id: 15871
     marketGroup: 570
+    mass: 500.0
     name: Imperial Navy Dual Light Pulse Laser
     published: true
     volume: 5.0
@@ -3946,6 +4068,7 @@ items:
     TypeColorScheme: 11310
     id: 15870
     marketGroup: 568
+    mass: 1000.0
     name: Imperial Navy Focused Medium Beam Laser
     published: true
     volume: 10.0
@@ -3978,6 +4101,7 @@ items:
     TypeColorScheme: 11310
     id: 15869
     marketGroup: 572
+    mass: 1000.0
     name: Imperial Navy Focused Medium Pulse Laser
     published: true
     volume: 10.0
@@ -4010,6 +4134,7 @@ items:
     TypeColorScheme: 11310
     id: 15868
     marketGroup: 570
+    mass: 500.0
     name: Imperial Navy Gatling Pulse Laser
     published: true
     volume: 5.0
@@ -4043,6 +4168,7 @@ items:
     TypeColorScheme: 11310
     id: 15867
     marketGroup: 568
+    mass: 1000.0
     name: Imperial Navy Heavy Beam Laser
     published: true
     volume: 10.0
@@ -4075,6 +4201,7 @@ items:
     TypeColorScheme: 11310
     id: 15866
     marketGroup: 572
+    mass: 1000.0
     name: Imperial Navy Heavy Pulse Laser
     published: true
     volume: 10.0
@@ -4107,6 +4234,7 @@ items:
     TypeColorScheme: 11310
     id: 15863
     marketGroup: 569
+    mass: 2000.0
     name: Imperial Navy Mega Beam Laser
     published: true
     volume: 20.0
@@ -4139,6 +4267,7 @@ items:
     TypeColorScheme: 11310
     id: 15862
     marketGroup: 573
+    mass: 2000.0
     name: Imperial Navy Mega Pulse Laser
     published: true
     volume: 20.0
@@ -4172,6 +4301,7 @@ items:
     TypeColorScheme: 11310
     id: 15861
     marketGroup: 568
+    mass: 1000.0
     name: Imperial Navy Quad Beam Laser
     published: true
     volume: 10.0
@@ -4205,6 +4335,7 @@ items:
     TypeColorScheme: 11310
     id: 15865
     marketGroup: 567
+    mass: 500.0
     name: Imperial Navy Small Focused Beam Laser
     published: true
     volume: 5.0
@@ -4238,6 +4369,7 @@ items:
     TypeColorScheme: 11310
     id: 15864
     marketGroup: 570
+    mass: 500.0
     name: Imperial Navy Small Focused Pulse Laser
     published: true
     volume: 5.0
@@ -4270,6 +4402,7 @@ items:
     TypeColorScheme: 11310
     id: 15860
     marketGroup: 569
+    mass: 2000.0
     name: Imperial Navy Tachyon Beam Laser
     published: true
     volume: 20.0
@@ -4323,6 +4456,7 @@ items:
     TypeColorScheme: 11313
     id: 7125
     marketGroup: 569
+    mass: 2000.0
     name: Mega Afocal Maser I
     published: true
     volume: 20.0
@@ -4354,6 +4488,7 @@ items:
     TypeColorScheme: 11313
     id: 7085
     marketGroup: 573
+    mass: 2000.0
     name: Mega Afocal Pulse Maser I
     published: true
     volume: 20.0
@@ -4385,6 +4520,7 @@ items:
     TypeColorScheme: 11313
     id: 7131
     marketGroup: 569
+    mass: 2000.0
     name: Mega Anode Particle Stream I
     published: true
     volume: 20.0
@@ -4416,6 +4552,7 @@ items:
     TypeColorScheme: 11313
     id: 7089
     marketGroup: 573
+    mass: 2000.0
     name: Mega Anode Pulse Particle Stream I
     published: true
     volume: 20.0
@@ -4446,6 +4583,7 @@ items:
     TypeColorScheme: 11313
     id: 463
     marketGroup: 569
+    mass: 2000.0
     name: Mega Beam Laser I
     published: true
     volume: 50.0
@@ -4480,6 +4618,7 @@ items:
     TypeColorScheme: 11314
     id: 3049
     marketGroup: 569
+    mass: 2000.0
     name: Mega Beam Laser II
     published: true
     volume: 20.0
@@ -4511,6 +4650,7 @@ items:
     TypeColorScheme: 11313
     id: 7123
     marketGroup: 569
+    mass: 2000.0
     name: Mega Modal Laser I
     published: true
     volume: 20.0
@@ -4542,6 +4682,7 @@ items:
     TypeColorScheme: 11313
     id: 7083
     marketGroup: 573
+    mass: 2000.0
     name: Mega Modal Pulse Laser I
     published: true
     volume: 20.0
@@ -4573,6 +4714,7 @@ items:
     TypeColorScheme: 11313
     id: 7127
     marketGroup: 569
+    mass: 2000.0
     name: Mega Modulated Energy Beam I
     published: true
     volume: 20.0
@@ -4604,6 +4746,7 @@ items:
     TypeColorScheme: 11313
     id: 7087
     marketGroup: 573
+    mass: 2000.0
     name: Mega Modulated Pulse Energy Beam I
     published: true
     volume: 20.0
@@ -4634,6 +4777,7 @@ items:
     TypeColorScheme: 11313
     id: 462
     marketGroup: 573
+    mass: 2000.0
     name: Mega Pulse Laser I
     published: true
     volume: 50.0
@@ -4668,6 +4812,7 @@ items:
     TypeColorScheme: 11314
     id: 3057
     marketGroup: 573
+    mass: 2000.0
     name: Mega Pulse Laser II
     published: true
     volume: 20.0
@@ -4700,6 +4845,7 @@ items:
     TypeColorScheme: 11313
     id: 41115
     marketGroup: 773
+    mass: 40000.0
     name: Modal Enduring Dual Giga Beam Laser
     published: true
     volume: 4000.0
@@ -4732,6 +4878,7 @@ items:
     TypeColorScheme: 11313
     id: 41100
     marketGroup: 774
+    mass: 40000.0
     name: Modal Enduring Dual Giga Pulse Laser
     published: true
     volume: 4000.0
@@ -4764,6 +4911,7 @@ items:
     TypeColorScheme: 11313
     id: 41063
     marketGroup: 774
+    mass: 40000.0
     name: Modal Enduring Quad Mega Pulse Laser
     published: true
     volume: 4000.0
@@ -4796,6 +4944,7 @@ items:
     TypeColorScheme: 11313
     id: 41114
     marketGroup: 773
+    mass: 40000.0
     name: Modulated Compact Dual Giga Beam Laser
     published: true
     volume: 4000.0
@@ -4828,6 +4977,7 @@ items:
     TypeColorScheme: 11313
     id: 41099
     marketGroup: 774
+    mass: 40000.0
     name: Modulated Compact Dual Giga Pulse Laser
     published: true
     volume: 4000.0
@@ -4860,6 +5010,7 @@ items:
     TypeColorScheme: 11313
     id: 37297
     marketGroup: 774
+    mass: 40000.0
     name: Modulated Compact Quad Mega Pulse Laser
     published: true
     volume: 4000.0
@@ -4897,6 +5048,7 @@ items:
     TypeColorScheme: 11461
     id: 34274
     marketGroup: 572
+    mass: 1000.0
     name: Polarized Heavy Pulse Laser
     published: true
     volume: 10.0
@@ -4934,6 +5086,7 @@ items:
     TypeColorScheme: 11461
     id: 34276
     marketGroup: 573
+    mass: 2000.0
     name: Polarized Mega Pulse Laser
     published: true
     volume: 20.0
@@ -4971,6 +5124,7 @@ items:
     TypeColorScheme: 11461
     id: 34272
     marketGroup: 570
+    mass: 500.0
     name: Polarized Small Focused Pulse Laser
     published: true
     volume: 5.0
@@ -5003,6 +5157,7 @@ items:
     TypeColorScheme: 11313
     id: 6759
     marketGroup: 568
+    mass: 1000.0
     name: Quad Afocal Light Maser I
     published: true
     volume: 10.0
@@ -5035,6 +5190,7 @@ items:
     TypeColorScheme: 11313
     id: 6763
     marketGroup: 568
+    mass: 1000.0
     name: Quad Anode Light Particle Stream I
     published: true
     volume: 10.0
@@ -5066,6 +5222,7 @@ items:
     TypeColorScheme: 11313
     id: 455
     marketGroup: 568
+    mass: 1000.0
     name: Quad Light Beam Laser I
     published: true
     volume: 10.0
@@ -5101,6 +5258,7 @@ items:
     TypeColorScheme: 11314
     id: 3285
     marketGroup: 568
+    mass: 1000.0
     name: Quad Light Beam Laser II
     published: true
     volume: 10.0
@@ -5132,6 +5290,7 @@ items:
     TypeColorScheme: 11313
     id: 37290
     marketGroup: 774
+    mass: 40000.0
     name: Quad Mega Pulse Laser I
     published: true
     volume: 4000.0
@@ -5167,6 +5326,7 @@ items:
     TypeColorScheme: 11313
     id: 37296
     marketGroup: 774
+    mass: 40000.0
     name: Quad Mega Pulse Laser II
     published: true
     volume: 4000.0
@@ -5199,6 +5359,7 @@ items:
     TypeColorScheme: 11313
     id: 6757
     marketGroup: 568
+    mass: 1000.0
     name: Quad Modal Light Laser I
     published: true
     volume: 10.0
@@ -5231,6 +5392,7 @@ items:
     TypeColorScheme: 11313
     id: 6761
     marketGroup: 568
+    mass: 1000.0
     name: Quad Modulated Light Energy Beam I
     published: true
     volume: 10.0
@@ -5263,6 +5425,7 @@ items:
     TypeColorScheme: 11311
     id: 14421
     marketGroup: 569
+    mass: 2000.0
     name: Raysere's Modified Dual Heavy Beam Laser
     published: true
     volume: 20.0
@@ -5295,6 +5458,7 @@ items:
     TypeColorScheme: 11311
     id: 14437
     marketGroup: 569
+    mass: 2000.0
     name: Raysere's Modified Mega Beam Laser
     published: true
     volume: 20.0
@@ -5326,6 +5490,7 @@ items:
     TrackingSpeed: 1.39205002784729
     id: 14453
     marketGroup: 569
+    mass: 2000.0
     name: Raysere's Modified Tachyon Beam Laser
     published: true
     volume: 20.0
@@ -5358,6 +5523,7 @@ items:
     TypeColorScheme: 11311
     id: 14417
     marketGroup: 569
+    mass: 2000.0
     name: Selynne's Modified Dual Heavy Beam Laser
     published: true
     volume: 20.0
@@ -5390,6 +5556,7 @@ items:
     TypeColorScheme: 11311
     id: 14433
     marketGroup: 569
+    mass: 2000.0
     name: Selynne's Modified Mega Beam Laser
     published: true
     volume: 20.0
@@ -5422,6 +5589,7 @@ items:
     TypeColorScheme: 11311
     id: 14449
     marketGroup: 569
+    mass: 2000.0
     name: Selynne's Modified Tachyon Beam Laser
     published: true
     volume: 20.0
@@ -5454,6 +5622,7 @@ items:
     TypeColorScheme: 11313
     id: 6717
     marketGroup: 567
+    mass: 500.0
     name: Small Focused Afocal Maser I
     published: true
     volume: 5.0
@@ -5486,6 +5655,7 @@ items:
     TypeColorScheme: 11313
     id: 6673
     marketGroup: 570
+    mass: 500.0
     name: Small Focused Afocal Pulse Maser I
     published: true
     volume: 5.0
@@ -5518,6 +5688,7 @@ items:
     TypeColorScheme: 11313
     id: 6721
     marketGroup: 567
+    mass: 500.0
     name: Small Focused Anode Particle Stream I
     published: true
     volume: 5.0
@@ -5550,6 +5721,7 @@ items:
     TypeColorScheme: 11313
     id: 6677
     marketGroup: 570
+    mass: 500.0
     name: Small Focused Anode Pulse Particle Stream I
     published: true
     volume: 5.0
@@ -5581,6 +5753,7 @@ items:
     TypeColorScheme: 11313
     id: 454
     marketGroup: 567
+    mass: 500.0
     name: Small Focused Beam Laser I
     published: true
     volume: 5.0
@@ -5616,6 +5789,7 @@ items:
     TypeColorScheme: 11314
     id: 3033
     marketGroup: 567
+    mass: 500.0
     name: Small Focused Beam Laser II
     published: true
     volume: 5.0
@@ -5648,6 +5822,7 @@ items:
     TypeColorScheme: 11313
     id: 6715
     marketGroup: 567
+    mass: 500.0
     name: Small Focused Modal Laser I
     published: true
     volume: 5.0
@@ -5680,6 +5855,7 @@ items:
     TypeColorScheme: 11313
     id: 6671
     marketGroup: 570
+    mass: 500.0
     name: Small Focused Modal Pulse Laser I
     published: true
     volume: 5.0
@@ -5712,6 +5888,7 @@ items:
     TypeColorScheme: 11313
     id: 6719
     marketGroup: 567
+    mass: 500.0
     name: Small Focused Modulated Energy Beam I
     published: true
     volume: 5.0
@@ -5744,6 +5921,7 @@ items:
     TypeColorScheme: 11313
     id: 6675
     marketGroup: 570
+    mass: 500.0
     name: Small Focused Modulated Pulse Energy Beam I
     published: true
     volume: 5.0
@@ -5775,6 +5953,7 @@ items:
     TypeColorScheme: 11313
     id: 453
     marketGroup: 570
+    mass: 500.0
     name: Small Focused Pulse Laser I
     published: true
     volume: 5.0
@@ -5810,6 +5989,7 @@ items:
     TypeColorScheme: 11314
     id: 3041
     marketGroup: 570
+    mass: 500.0
     name: Small Focused Pulse Laser II
     published: true
     volume: 5.0
@@ -5841,6 +6021,7 @@ items:
     TypeColorScheme: 11313
     id: 7169
     marketGroup: 569
+    mass: 2000.0
     name: Tachyon Afocal Maser I
     published: true
     volume: 20.0
@@ -5872,6 +6053,7 @@ items:
     TypeColorScheme: 11313
     id: 7173
     marketGroup: 569
+    mass: 2000.0
     name: Tachyon Anode Particle Stream I
     published: true
     volume: 20.0
@@ -5902,6 +6084,7 @@ items:
     TypeColorScheme: 11313
     id: 464
     marketGroup: 569
+    mass: 2000.0
     name: Tachyon Beam Laser I
     published: true
     volume: 50.0
@@ -5936,6 +6119,7 @@ items:
     TypeColorScheme: 11314
     id: 3065
     marketGroup: 569
+    mass: 2000.0
     name: Tachyon Beam Laser II
     published: true
     volume: 20.0
@@ -5967,6 +6151,7 @@ items:
     TypeColorScheme: 11313
     id: 7167
     marketGroup: 569
+    mass: 2000.0
     name: Tachyon Modal Laser I
     published: true
     volume: 20.0
@@ -5998,6 +6183,7 @@ items:
     TypeColorScheme: 11313
     id: 7171
     marketGroup: 569
+    mass: 2000.0
     name: Tachyon Modulated Energy Beam I
     published: true
     volume: 20.0
@@ -6030,6 +6216,7 @@ items:
     TypeColorScheme: 11311
     id: 14425
     marketGroup: 573
+    mass: 2000.0
     name: Tairei's Modified Dual Heavy Pulse Laser
     published: true
     volume: 20.0
@@ -6062,6 +6249,7 @@ items:
     TypeColorScheme: 11311
     id: 14441
     marketGroup: 573
+    mass: 2000.0
     name: Tairei's Modified Mega Pulse Laser
     published: true
     volume: 20.0
@@ -6096,6 +6284,7 @@ items:
     TypeColorScheme: 11313
     id: 41119
     marketGroup: 773
+    mass: 40000.0
     name: True Sansha Dual Giga Beam Laser
     published: true
     volume: 4000.0
@@ -6130,6 +6319,7 @@ items:
     TypeColorScheme: 11313
     id: 41104
     marketGroup: 774
+    mass: 40000.0
     name: True Sansha Dual Giga Pulse Laser
     published: true
     volume: 4000.0
@@ -6162,6 +6352,7 @@ items:
     TypeColorScheme: 11349
     id: 13820
     marketGroup: 569
+    mass: 2000.0
     name: True Sansha Dual Heavy Beam Laser
     published: true
     volume: 20.0
@@ -6194,6 +6385,7 @@ items:
     TypeColorScheme: 11349
     id: 13821
     marketGroup: 573
+    mass: 2000.0
     name: True Sansha Dual Heavy Pulse Laser
     published: true
     volume: 20.0
@@ -6227,6 +6419,7 @@ items:
     TypeColorScheme: 11349
     id: 13822
     marketGroup: 567
+    mass: 500.0
     name: True Sansha Dual Light Beam Laser
     published: true
     volume: 5.0
@@ -6259,6 +6452,7 @@ items:
     TypeColorScheme: 11349
     id: 13823
     marketGroup: 570
+    mass: 500.0
     name: True Sansha Dual Light Pulse Laser
     published: true
     volume: 5.0
@@ -6292,6 +6486,7 @@ items:
     TypeColorScheme: 11349
     id: 13824
     marketGroup: 568
+    mass: 1000.0
     name: True Sansha Focused Medium Beam Laser
     published: true
     volume: 10.0
@@ -6324,6 +6519,7 @@ items:
     TypeColorScheme: 11349
     id: 13825
     marketGroup: 572
+    mass: 1000.0
     name: True Sansha Focused Medium Pulse Laser
     published: true
     volume: 10.0
@@ -6356,6 +6552,7 @@ items:
     TypeColorScheme: 11349
     id: 13826
     marketGroup: 570
+    mass: 500.0
     name: True Sansha Gatling Pulse Laser
     published: true
     volume: 5.0
@@ -6389,6 +6586,7 @@ items:
     TypeColorScheme: 11349
     id: 13827
     marketGroup: 568
+    mass: 1000.0
     name: True Sansha Heavy Beam Laser
     published: true
     volume: 10.0
@@ -6421,6 +6619,7 @@ items:
     TypeColorScheme: 11349
     id: 13828
     marketGroup: 572
+    mass: 1000.0
     name: True Sansha Heavy Pulse Laser
     published: true
     volume: 10.0
@@ -6453,6 +6652,7 @@ items:
     TypeColorScheme: 11349
     id: 13831
     marketGroup: 569
+    mass: 2000.0
     name: True Sansha Mega Beam Laser
     published: true
     volume: 20.0
@@ -6485,6 +6685,7 @@ items:
     TypeColorScheme: 11349
     id: 13832
     marketGroup: 573
+    mass: 2000.0
     name: True Sansha Mega Pulse Laser
     published: true
     volume: 20.0
@@ -6518,6 +6719,7 @@ items:
     TypeColorScheme: 11349
     id: 13833
     marketGroup: 568
+    mass: 1000.0
     name: True Sansha Quad Beam Laser
     published: true
     volume: 10.0
@@ -6552,6 +6754,7 @@ items:
     TypeColorScheme: 11313
     id: 41067
     marketGroup: 774
+    mass: 40000.0
     name: True Sansha Quad Mega Pulse Laser
     published: true
     volume: 4000.0
@@ -6585,6 +6788,7 @@ items:
     TypeColorScheme: 11349
     id: 13829
     marketGroup: 567
+    mass: 500.0
     name: True Sansha Small Focused Beam Laser
     published: true
     volume: 5.0
@@ -6618,6 +6822,7 @@ items:
     TypeColorScheme: 11349
     id: 13830
     marketGroup: 570
+    mass: 500.0
     name: True Sansha Small Focused Pulse Laser
     published: true
     volume: 5.0
@@ -6650,6 +6855,7 @@ items:
     TypeColorScheme: 11349
     id: 13834
     marketGroup: 569
+    mass: 2000.0
     name: True Sansha Tachyon Beam Laser
     published: true
     volume: 20.0
@@ -6682,6 +6888,7 @@ items:
     TypeColorScheme: 11311
     id: 14431
     marketGroup: 573
+    mass: 2000.0
     name: Vizan's Modified Dual Heavy Pulse Laser
     published: true
     volume: 20.0
@@ -6714,6 +6921,7 @@ items:
     TypeColorScheme: 11311
     id: 14447
     marketGroup: 573
+    mass: 2000.0
     name: Vizan's Modified Mega Pulse Laser
     published: true
     volume: 20.0

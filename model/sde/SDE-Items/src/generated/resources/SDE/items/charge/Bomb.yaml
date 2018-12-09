@@ -26,6 +26,7 @@ items:
     TechLevel: 1
     id: 27912
     marketGroup: 1015
+    mass: 1000.0
     name: Concussion Bomb
     published: true
     volume: 75.0
@@ -56,6 +57,7 @@ items:
     TechLevel: 1
     id: 27920
     marketGroup: 1015
+    mass: 1000.0
     name: Electron Bomb
     published: true
     volume: 75.0
@@ -86,6 +88,7 @@ items:
     ThermalDamage: 6400.0
     id: 27916
     marketGroup: 1015
+    mass: 1000.0
     name: Scorch Bomb
     published: true
     volume: 75.0
@@ -116,6 +119,7 @@ items:
     TechLevel: 1
     id: 27918
     marketGroup: 1015
+    mass: 1000.0
     name: Shrapnel Bomb
     published: true
     volume: 75.0

@@ -3,6 +3,7 @@ items:
     Gender: 1
     id: 34024
     marketGroup: 1836
+    mass: 0.1
     name: Men's 'Crusher' Cybernetic Arm (black and orange left)
     published: true
     volume: 0.5
@@ -10,6 +11,7 @@ items:
     Gender: 1
     id: 34038
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and orange right)
     published: true
     volume: 0.1
@@ -17,6 +19,7 @@ items:
     Gender: 1
     id: 34025
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and red left)
     published: true
     volume: 0.1
@@ -24,6 +27,7 @@ items:
     Gender: 1
     id: 34039
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and red right)
     published: true
     volume: 0.1
@@ -31,6 +35,7 @@ items:
     Gender: 1
     id: 34026
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and yellow left)
     published: true
     volume: 0.1
@@ -38,6 +43,7 @@ items:
     Gender: 1
     id: 34040
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and yellow right)
     published: true
     volume: 0.1
@@ -45,6 +51,7 @@ items:
     Gender: 1
     id: 34027
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (blue and white left)
     published: true
     volume: 0.1
@@ -52,6 +59,7 @@ items:
     Gender: 1
     id: 34041
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (blue and white right)
     published: true
     volume: 0.1
@@ -59,6 +67,7 @@ items:
     Gender: 1
     id: 34029
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green and yellow left)
     published: true
     volume: 0.1
@@ -66,6 +75,7 @@ items:
     Gender: 1
     id: 34043
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green and yellow right)
     published: true
     volume: 0.1
@@ -73,6 +83,7 @@ items:
     Gender: 1
     id: 34028
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green camo left)
     published: true
     volume: 0.1
@@ -80,6 +91,7 @@ items:
     Gender: 1
     id: 34042
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green camo right)
     published: true
     volume: 0.1
@@ -87,6 +99,7 @@ items:
     Gender: 1
     id: 34030
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (gunmetal left)
     published: true
     volume: 0.1
@@ -94,6 +107,7 @@ items:
     Gender: 1
     id: 34044
     marketGroup: 1836
+    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (gunmetal right)
     published: true
     volume: 0.1
@@ -129,6 +143,7 @@ items:
     Gender: 3
     id: 34018
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and orange ringed left)
     published: true
     volume: 0.1
@@ -136,6 +151,7 @@ items:
     Gender: 3
     id: 34032
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and orange ringed right)
     published: true
     volume: 0.1
@@ -143,6 +159,7 @@ items:
     Gender: 3
     id: 34020
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and yellow left)
     published: true
     volume: 0.1
@@ -150,6 +167,7 @@ items:
     Gender: 3
     id: 34034
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and yellow right)
     published: true
     volume: 0.1
@@ -157,6 +175,7 @@ items:
     Gender: 3
     id: 34019
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black ringed left)
     published: true
     volume: 0.1
@@ -164,6 +183,7 @@ items:
     Gender: 3
     id: 34033
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black ringed right)
     published: true
     volume: 0.1
@@ -171,6 +191,7 @@ items:
     Gender: 3
     id: 34021
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and black ringed left)
     published: true
     volume: 0.1
@@ -178,6 +199,7 @@ items:
     Gender: 3
     id: 34035
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and black ringed right)
     published: true
     volume: 0.1
@@ -185,6 +207,7 @@ items:
     Gender: 3
     id: 34022
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and white left)
     published: true
     volume: 0.1
@@ -192,6 +215,7 @@ items:
     Gender: 3
     id: 34036
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and white right)
     published: true
     volume: 0.1
@@ -199,6 +223,7 @@ items:
     Gender: 3
     id: 34017
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (matte black left)
     published: true
     volume: 0.1
@@ -206,6 +231,7 @@ items:
     Gender: 3
     id: 34031
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (matte black right)
     published: true
     volume: 0.1
@@ -213,6 +239,7 @@ items:
     Gender: 3
     id: 34023
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (white and gray ringed left)
     published: true
     volume: 0.1
@@ -220,6 +247,7 @@ items:
     Gender: 3
     id: 34037
     marketGroup: 1836
+    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (white and gray ringed right)
     published: true
     volume: 0.1
