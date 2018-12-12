@@ -118,17 +118,16 @@ public abstract class ConnectedImpl implements ITransfer {
 			case HttpsURLConnection.HTTP_BAD_GATEWAY:
 			case HttpsURLConnection.HTTP_UNAVAILABLE:
 			case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
+			default:
 				StringBuilder sb = new StringBuilder("[" + method + ":" + responseCode + "]" + url + " data=" + transmit + " ");
 				if (con.getErrorStream() != null) {
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 				}
 				return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
-			default:
-				return null;
 			}
 		} catch (Exception e) {
 			logger.warn("while getting " + url, e);
-			return null;
+			return new RequestedImpl<>(url, HttpsURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
 	}
 
