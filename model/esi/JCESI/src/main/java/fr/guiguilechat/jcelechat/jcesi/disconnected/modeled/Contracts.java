@@ -85,7 +85,7 @@ public class Contracts {
 
 	/**
 	 * fetch the data for a contract when run. the get() method schedules the
-	 * run(), then wiatfor its completion.
+	 * run(), then wait for its completion.
 	 *
 	 */
 	private class ContractFetcher implements Runnable {
