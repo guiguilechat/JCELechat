@@ -12,6 +12,8 @@ public interface Requested<T> {
 
 	public T getOK();
 
+	public T getOKOr(T ifnotok);
+
 	public String getError();
 
 	public String getURL();

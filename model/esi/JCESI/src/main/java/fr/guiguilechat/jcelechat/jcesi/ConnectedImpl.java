@@ -75,6 +75,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			URL target = new URL(url);
 			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
 			con.setRequestMethod(method);
+			con.setConnectTimeout(2000);
 			if (properties == null) {
 				properties =new HashMap<>();
 			}
@@ -488,13 +489,21 @@ public abstract class ConnectedImpl implements ITransfer {
 			String etag = res.getETag();
 			if (etag != null) {
 				if (!etag.equals(lastEtag)) {
-					cacheHandler.accept(res.getOK());
+					if (res.isOk()) {
+						cacheHandler.accept(res.getOK());
+					} else if (res.isClientError()) {
+						logger.debug(res.getError());
+						cacheHandler.accept(Collections.emptyList());
+					}
 				}
 				lastEtag = etag;
 			} else if (res.isOk()) {
 				cacheHandler.accept(res.getOK());
 			} else {
 				logger.debug(res.getError());
+				if (res.isClientError()) {
+					cacheHandler.accept(Collections.emptyList());
+				}
 			}
 			return res.getCacheExpire();
 		}

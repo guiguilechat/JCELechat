@@ -66,7 +66,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 
 	private R_Verify verify;
 
-	private static final R_Verify NULLVERIFY = new R_Verify() {
+	public static final R_Verify NULLVERIFY = new R_Verify() {
 		{
 			CharacterID = 0;
 			CharacterName = "DISCONNECTED";
@@ -83,7 +83,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 			synchronized (this) {
 				if (verify == null) {
 					verify = isNull() ? NULLVERIFY
-							: requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class).getOK();
+							: requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class).getOKOr(null);
 				}
 			}
 		}

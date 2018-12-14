@@ -93,9 +93,9 @@ public class CachedOrdersList {
 		return sellOrders;
 	}
 
-	private HashMap<Integer, DoubleBinding> qttyBuyPrice = new HashMap<>();
+	private HashMap<Long, DoubleBinding> qttyBuyPrice = new HashMap<>();
 
-	private HashMap<Integer, DoubleBinding> qttySellPrice = new HashMap<>();
+	private HashMap<Long, DoubleBinding> qttySellPrice = new HashMap<>();
 
 	/**
 	 * get a double value representing the total sell orders for qtty given
@@ -104,8 +104,8 @@ public class CachedOrdersList {
 	 * @param qtty
 	 * @return
 	 */
-	public ObservableDoubleValue getPrice(boolean buy, int qtty) {
-		HashMap<Integer, DoubleBinding> m = buy ? qttyBuyPrice : qttySellPrice;
+	public ObservableDoubleValue getPrice(boolean buy, long qtty) {
+		HashMap<Long, DoubleBinding> m = buy ? qttyBuyPrice : qttySellPrice;
 		DoubleBinding ret = m.get(qtty);
 		if (ret == null) {
 			synchronized (m) {
@@ -118,14 +118,14 @@ public class CachedOrdersList {
 							// just created this may not be true yet.
 							regionalMarket.ensureFetched();
 							double sumCost = 0;
-							int qttyremain = qtty;
+							long qttyremain = qtty;
 							ObservableList<R_get_markets_region_id_orders> orders = buy ? listBuyOrders() : listSellOrders();
 							synchronized (orders) {
 								for (R_get_markets_region_id_orders r : orders) {
 									if (r.min_volume != 1) {
 										continue;
 									}
-									int qtty = Math.min(qttyremain, r.volume_remain);
+									long qtty = Math.min(qttyremain, r.volume_remain);
 									sumCost += qtty * r.price;
 									qttyremain -= qtty;
 									if (qttyremain == 0) {

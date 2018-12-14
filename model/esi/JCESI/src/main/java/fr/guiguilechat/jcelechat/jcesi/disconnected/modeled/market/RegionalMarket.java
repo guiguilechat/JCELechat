@@ -56,11 +56,11 @@ public class RegionalMarket {
 		return ret;
 	}
 
-	public ObservableDoubleValue getSO(int typeID, int qtty) {
+	public ObservableDoubleValue getSO(int typeID, long qtty) {
 		return getMarketOrders(typeID).getPrice(false, qtty);
 	}
 
-	public ObservableDoubleValue getBO(int typeID, int qtty) {
+	public ObservableDoubleValue getBO(int typeID, long qtty) {
 		return getMarketOrders(typeID).getPrice(true, qtty);
 	}
 
