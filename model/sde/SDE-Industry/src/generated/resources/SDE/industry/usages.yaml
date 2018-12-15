@@ -4940,7 +4940,7 @@ usages:
       Megacyte: 2
   Abaddon:
     materialManuf: !!set
-      地狱天使级YC117年���别版蓝图: null
+      地狱天使级YC117���特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Abaddon Blueprint: null
@@ -5179,10 +5179,6 @@ usages:
       Tritanium: 1466
       Pyerite: 1316
       Mexallon: 48
-  Advanced 'Radiance' Cerebral Accelerator:
-    maxreprocess: 0.55
-    productManuf: !!set
-      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
   Advanced Cerebral Accelerator:
     maxreprocess: 0.55
     productManuf: !!set
@@ -7514,6 +7510,7 @@ usages:
       Standup Malleus II Blueprint: null
       Standup Ametat II Blueprint: null
       Standup Reactor Control Unit II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Antimatter Reactor Unit Blueprint: null
@@ -7977,7 +7974,7 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末日���场级YC117年特别版蓝图: null
+      末日沙场级YC117年特别版��图: null
     maxreprocess: 0.55
     productManuf: !!set
       Armageddon Blueprint: null
@@ -9090,10 +9087,6 @@ usages:
       Tritanium: 27
       Pyerite: 21
       Crystalline Isogen-10: 2
-  Basic 'Radiance' Cerebral Accelerator:
-    maxreprocess: 0.55
-    productManuf: !!set
-      Basic 'Radiance' Cerebral Accelerator Blueprint: null
   Basic Adaptive Nano Plating:
     maxreprocess: 0.55
     reprocess:
@@ -10481,14 +10474,11 @@ usages:
       Minmatar Control Tower Blueprint: null
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
-      Cynosural Generator Array Blueprint: null
-      Cynosural System Jammer Blueprint: null
       Ion Field Projection Battery Blueprint: null
       Phase Inversion Battery Blueprint: null
       Spatial Destabilization Battery Blueprint: null
       White Noise Generation Battery Blueprint: null
       Energy Neutralizing Battery Blueprint: null
-      Jump Bridge Blueprint: null
       Large Blaster Battery Blueprint: null
       Large Railgun Battery Blueprint: null
       Large Artillery Battery Blueprint: null
@@ -14139,9 +14129,6 @@ usages:
       Minmatar Control Tower Blueprint: null
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
-      Cynosural Generator Array Blueprint: null
-      Cynosural System Jammer Blueprint: null
-      Jump Bridge Blueprint: null
       Revenant Blueprint: null
       Leviathan Blueprint: null
       Customs Office Gantry Blueprint: null
@@ -18405,10 +18392,8 @@ usages:
       Hydrocarbons: 10
   Chromodynamic Tricarboxyls:
     materialManuf: !!set
-      Basic 'Radiance' Cerebral Accelerator Blueprint: null
-      Standard 'Radiance' Cerebral Accelerator Blueprint: null
-      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
-      Extended 'Radiance' Cerebral Accelerator Blueprint: null
+      ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
+      Frostline 'Omnivore' Harvester Upgrade Blueprint: null
     maxreprocess: 0.55
   Cinnabar:
     maxreprocess: 0.8934
@@ -20197,6 +20182,7 @@ usages:
       Virtuoso Blueprint: null
       Monitor Blueprint: null
       Assault Damage Control II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
   Construction Tools:
     maxreprocess: 0.55
@@ -20933,6 +20919,8 @@ usages:
       Mystic M Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
+      Zarmazd Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     materialTE: !!set
       Small Shield Extender II Blueprint: null
       Shield Recharger II Blueprint: null
@@ -21623,6 +21611,8 @@ usages:
       Mystic M Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
+      Zarmazd Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
   Contaminated Lorentz Fluid:
     materialManuf: !!set
@@ -23958,7 +23948,12 @@ usages:
       Hydra Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
+      Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
+      Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
+      Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
     maxreprocess: 0.55
   Cthonic Attar:
     maxreprocess: 0.8934
@@ -24006,10 +24001,6 @@ usages:
       Incognito Data Interface Blueprint: null
       Incognito Ship Data Interface Blueprint: null
       Incognito Tuner Data Interface Blueprint: null
-      Basic 'Radiance' Cerebral Accelerator Blueprint: null
-      Standard 'Radiance' Cerebral Accelerator Blueprint: null
-      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
-      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Current Pump:
     materialManuf: !!set
@@ -24291,6 +24282,8 @@ usages:
       Nanotransistors: 1
       Hypersynaptic Fibers: 1
   Cynosural Generator Array:
+    materialManuf: !!set
+      Cynosural Generator Array Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Cynosural Generator Array Blueprint: null
@@ -24331,6 +24324,8 @@ usages:
       Wetware Mainframe: 11
       Capital Construction Parts: 7
   Cynosural System Jammer:
+    materialManuf: !!set
+      Cynosural System Jammer Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Cynosural System Jammer Blueprint: null
@@ -25761,10 +25756,6 @@ usages:
       Cryptic Data Interface Blueprint: null
       Cryptic Ship Data Interface Blueprint: null
       Cryptic Tuner Data Interface Blueprint: null
-      Basic 'Radiance' Cerebral Accelerator Blueprint: null
-      Standard 'Radiance' Cerebral Accelerator Blueprint: null
-      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
-      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Data Sheets:
     materialCopy: !!set
@@ -26588,6 +26579,8 @@ usages:
       Heavy Entropic Disintegrator II Blueprint: null
       Supratidal Entropic Disintegrator II Blueprint: null
       Entropic Radiation Sink II Blueprint: null
+      Zarmazd Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
   Data Subverter I:
     maxreprocess: 0.55
@@ -27559,6 +27552,7 @@ usages:
       Capital Flex Armor Hardener I Blueprint: null
       Capital Flex Shield Hardener I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
     maxreprocess: 0.55
   Datacore - Laser Physics:
     materialInvention: !!set
@@ -27867,6 +27861,7 @@ usages:
       Ice Mining Laser I Blueprint: null
       Quad 800mm Repeating Cannon I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
+      Rodiva Blueprint: null
     maxreprocess: 0.55
   Datacore - Minmatar Starship Engineering:
     materialInvention: !!set
@@ -28145,6 +28140,8 @@ usages:
       Standup M-Set Hybrid Reactor Material Efficiency I Blueprint: null
       Assault Damage Control I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Rodiva Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
     maxreprocess: 0.55
   Datacore - Nuclear Physics:
     materialInvention: !!set
@@ -30106,7 +30103,7 @@ usages:
   Dominix:
     materialManuf: !!set
       Sin Blueprint: null
-      多��尼克斯级YC117年特别版蓝图: null
+      多米尼克斯级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Dominix Blueprint: null
@@ -33516,10 +33513,6 @@ usages:
       Esoteric Data Interface Blueprint: null
       Esoteric Ship Data Interface Blueprint: null
       Esoteric Tuner Data Interface Blueprint: null
-      Basic 'Radiance' Cerebral Accelerator Blueprint: null
-      Standard 'Radiance' Cerebral Accelerator Blueprint: null
-      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
-      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Electronic Parts:
     materialManuf: !!set
@@ -35076,10 +35069,6 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Explosive Plating I Blueprint: null
-  Extended 'Radiance' Cerebral Accelerator:
-    maxreprocess: 0.55
-    productManuf: !!set
-      Extended 'Radiance' Cerebral Accelerator Blueprint: null
   Extra Gravimetric ECCM Scanning Array I:
     maxreprocess: 0.55
     reprocess:
@@ -36886,6 +36875,28 @@ usages:
       Isogen: 2
       Zydrine: 3
       Megacyte: 1
+  Frostline 'Clavicula' Integrated Analyzer:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 912
+      Pyerite: 198
+      Mexallon: 542
+      Isogen: 5
+      Megacyte: 2
+  Frostline 'Omnivore' Harvester Upgrade:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Frostline 'Omnivore' Harvester Upgrade Blueprint: null
+    reprocess:
+      Tritanium: 676
+      Miniature Electronics: 3
+      Mexallon: 318
+      Isogen: 2
+      Zydrine: 6
+      Morphite: 5
+      Megacyte: 2
+      Mechanical Parts: 8
+      Laser Focusing Crystals: 8
   Frozen Food:
     materialManuf: !!set
       Upwell Palatine Keepstar Blueprint: null
@@ -37247,6 +37258,7 @@ usages:
       Standup Equite II Blueprint: null
       Standup Malleus II Blueprint: null
       Standup Ametat II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Fusion Thruster Blueprint: null
@@ -38133,7 +38145,7 @@ usages:
       Zydrine: 72
   Gila:
     materialManuf: !!set
-      毒蜥级YC117年特别版蓝图: null
+      毒蜥级YC117年��别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Gila Blueprint: null
@@ -41854,6 +41866,53 @@ usages:
       Pyerite: 1253
       Mexallon: 1272
       Isogen: 6
+  Heavy Mutadaptive Compact Remote Armor Repairer:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 300
+      Tritanium: 1506
+      Pyerite: 924
+      Mexallon: 108
+      Crystalline Isogen-10: 12
+  Heavy Mutadaptive Remote Armor Repairer I:
+    materialManuf: !!set
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
+    maxreprocess: 0.55
+    productManuf: !!set
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 280
+      Tritanium: 1506
+      Pyerite: 924
+      Mexallon: 108
+      Crystalline Isogen-10: 20
+  Heavy Mutadaptive Remote Armor Repairer II:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
+    reprocess:
+      Tritanium: 1506
+      Pyerite: 924
+      Nanoelectrical Microprocessor: 3
+      Mexallon: 108
+      Morphite: 5
+      Robotics: 12
+  Heavy Mutadaptive Remote Armor Repairer II Blueprint:
+    maxreprocess: 0.55
+    productInvention: !!set
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
+  Heavy Mutadaptive Scoped Remote Armor Repairer:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 300
+      Tritanium: 1506
+      Pyerite: 924
+      Mexallon: 108
+      Crystalline Isogen-10: 12
   Heavy Neutron Blaster I:
     materialManuf: !!set
       Medium Blaster Battery Blueprint: null
@@ -42371,6 +42430,14 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Hexa 2500mm Repeating Cannon I Blueprint: null
+  Hiemal Tricarboxyl Condensate:
+    maxreprocess: 0.8934
+    reprocess:
+      Chromodynamic Tricarboxyls: 3
+  Hiemal Tricarboxyl Vapor:
+    maxreprocess: 0.55
+    reprocess:
+      Chromodynamic Tricarboxyls: 2
   High-Tech Data Chip:
     materialManuf: !!set
       Ligature Integrated Analyzer Blueprint: null
@@ -45895,8 +45962,6 @@ usages:
       Minmatar Control Tower Blueprint: null
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
-      Cynosural System Jammer Blueprint: null
-      Jump Bridge Blueprint: null
       CONCORD Capital Armor Repairer Blueprint: null
       CONCORD Capital Remote Armor Repairer Blueprint: null
       CONCORD Ion Siege Blaster Blueprint: null
@@ -46509,7 +46574,7 @@ usages:
       Incursus Blueprint: null
   Ishtar:
     materialManuf: !!set
-      伊什塔级YC117年特���版蓝图: null
+      伊什塔级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Ishtar Blueprint: null
@@ -47479,7 +47544,10 @@ usages:
       Zero-Point Mass Entangler Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
+      Frostline 'Omnivore' Harvester Upgrade Blueprint: null
     maxreprocess: 0.55
   Iteron Inner Zone Shipping Edition:
     maxreprocess: 0.55
@@ -47658,6 +47726,8 @@ usages:
       Isogen: 1840
       Nocxium: 138
   Jump Bridge:
+    materialManuf: !!set
+      Jump Bridge Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Jump Bridge Blueprint: null
@@ -52646,6 +52716,7 @@ usages:
       Standup Cenobite II Blueprint: null
       Standup Malleus II Blueprint: null
       Standup Ametat II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Linear Shield Emitter Blueprint: null
@@ -53958,9 +54029,19 @@ usages:
     maxreprocess: 0.55
     reprocess:
       Tritanium: 500
+  ML-EKP 'Polybolos' Ballistic Control System:
+    maxreprocess: 0.55
+    productManuf: !!set
+      ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
+    reprocess:
+      Tritanium: 1351
+      Mexallon: 636
+      Isogen: 4
+      Zydrine: 14
+      Megacyte: 4
   Machariel:
     materialManuf: !!set
-      马克瑞级YC117年特别版蓝图: null
+      马克瑞级YC117年特别版���图: null
     maxreprocess: 0.55
     productManuf: !!set
       Machariel Blueprint: null
@@ -58928,7 +59009,10 @@ usages:
       Zero-Point Mass Entangler Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
+      Frostline 'Omnivore' Harvester Upgrade Blueprint: null
     maxreprocess: 0.55
   Megathron:
     materialManuf: !!set
@@ -60206,7 +60290,14 @@ usages:
       Zero-Point Mass Entangler Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
+      Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
+      Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
+      Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
+      ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
+      Frostline 'Omnivore' Harvester Upgrade Blueprint: null
     maxreprocess: 0.55
   Miasmos:
     maxreprocess: 0.55
@@ -64040,6 +64131,8 @@ usages:
       Mystic M Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
+      Zarmazd Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
   Motley Compound:
     maxreprocess: 0.55
@@ -64469,7 +64562,6 @@ usages:
       Minmatar Control Tower Blueprint: null
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
-      Jump Bridge Blueprint: null
       CONCORD Capital Armor Repairer Blueprint: null
       CONCORD Capital Remote Armor Repairer Blueprint: null
       CONCORD Dual Giga Pulse Laser Blueprint: null
@@ -64624,6 +64716,8 @@ usages:
       Standup Capacitor Power Relay II Blueprint: null
       Standup Weapon Disruptor II Blueprint: null
       Entropic Radiation Sink II Blueprint: null
+      Zarmazd Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Nanoelectrical Microprocessor Blueprint: null
@@ -66114,6 +66208,7 @@ usages:
       Zero-Point Mass Entangler Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
     maxreprocess: 0.55
   Noir. Modified Entosis Link:
@@ -68230,10 +68325,7 @@ usages:
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
       Corporate Hangar Array Blueprint: null
-      Cynosural Generator Array Blueprint: null
-      Cynosural System Jammer Blueprint: null
       Energy Neutralizing Battery Blueprint: null
-      Jump Bridge Blueprint: null
       Large Blaster Battery Blueprint: null
       Large Railgun Battery Blueprint: null
       Large Artillery Battery Blueprint: null
@@ -68786,6 +68878,16 @@ usages:
       Self-Harmonizing Power Core: 3
       Megacyte: 334
       Sterile Conduits: 3
+  Perun Heavy Mutadaptive Remote Armor Repairer:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 320
+      Tritanium: 1506
+      Pyerite: 924
+      Mexallon: 108
+      Crystalline Isogen-10: 22
   Phantasm:
     maxreprocess: 0.55
     productManuf: !!set
@@ -70049,10 +70151,6 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
-      Basic 'Radiance' Cerebral Accelerator Blueprint: null
-      Standard 'Radiance' Cerebral Accelerator Blueprint: null
-      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
-      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Poteque 'Prospector' Archaeology AC-905:
     maxreprocess: 0.55
@@ -72885,7 +72983,12 @@ usages:
       Zero-Point Mass Entangler Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
+      Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
+      Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
+      Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
     maxreprocess: 0.55
   Pyroxeres:
     maxreprocess: 0.8934
@@ -73755,6 +73858,7 @@ usages:
       Standup L-Set Structure Manufacturing Efficiency II Blueprint: null
       Assault Damage Control II Blueprint: null
       Standup Layered Armor Plating II Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       R.A.M.- Armor/Hull Tech Blueprint: null
@@ -74444,6 +74548,7 @@ usages:
       Standup Termite II Blueprint: null
       Standup Antaeus II Blueprint: null
       Standup Gungnir II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       R.A.M.- Starship Tech Blueprint: null
@@ -76630,6 +76735,7 @@ usages:
       Medium Semiconductor Memory Cell II Blueprint: null
       Capital Semiconductor Memory Cell II Blueprint: null
       Small Transverse Bulkhead II Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     materialME: !!set
       Small Armor Repairer II Blueprint: null
       EM Plating II Blueprint: null
@@ -76753,6 +76859,7 @@ usages:
       Small Semiconductor Memory Cell II Blueprint: null
       Medium Semiconductor Memory Cell II Blueprint: null
       Capital Semiconductor Memory Cell II Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     materialTE: !!set
       Small Armor Repairer II Blueprint: null
       EM Plating II Blueprint: null
@@ -76843,6 +76950,7 @@ usages:
       Small Energy Metastasis Adjuster II Blueprint: null
       Medium Energy Metastasis Adjuster II Blueprint: null
       Capital Energy Metastasis Adjuster II Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       R.Db - Viziam Blueprint: null
@@ -76855,14 +76963,17 @@ usages:
       Light Entropic Disintegrator II Blueprint: null
       Heavy Entropic Disintegrator II Blueprint: null
       Supratidal Entropic Disintegrator II Blueprint: null
+      Zarmazd Blueprint: null
     materialME: !!set
       Light Entropic Disintegrator II Blueprint: null
       Heavy Entropic Disintegrator II Blueprint: null
       Supratidal Entropic Disintegrator II Blueprint: null
+      Zarmazd Blueprint: null
     materialTE: !!set
       Light Entropic Disintegrator II Blueprint: null
       Heavy Entropic Disintegrator II Blueprint: null
       Supratidal Entropic Disintegrator II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
     reprocess:
       Electric Conduit: 36
@@ -77012,6 +77123,7 @@ usages:
       Standup Variable Spectrum ECM II Blueprint: null
       Standup Signal Amplifier II Blueprint: null
       Standup Weapon Disruptor II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Radar Sensor Cluster Blueprint: null
@@ -77777,9 +77889,6 @@ usages:
       Minmatar Control Tower Blueprint: null
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
-      Cynosural Generator Array Blueprint: null
-      Cynosural System Jammer Blueprint: null
-      Jump Bridge Blueprint: null
       CONCORD XL Cruise Missile Launcher Blueprint: null
       CONCORD XL Torpedo Launcher Blueprint: null
       CONCORD Quad 3500mm Siege Artillery Blueprint: null
@@ -78938,6 +79047,8 @@ usages:
       Mystic M Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
+      Zarmazd Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     materialTE: !!set
       Miner II Blueprint: null
       Small Shield Extender II Blueprint: null
@@ -79635,6 +79746,8 @@ usages:
       Mystic M Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
+      Zarmazd Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
   Reprocessing Array:
     materialManuf: !!set
@@ -80840,6 +80953,7 @@ usages:
       Light Entropic Disintegrator II Blueprint: null
       Heavy Entropic Disintegrator II Blueprint: null
       Supratidal Entropic Disintegrator II Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
   Rock-Scanning Sensor Array I:
     maxreprocess: 0.55
@@ -80943,17 +81057,21 @@ usages:
       Tritanium: 100000
       Pyerite: 50000
   Rodiva:
+    materialManuf: !!set
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
+    productManuf: !!set
+      Rodiva Blueprint: null
     reprocess:
-      Zero-Point Condensate: 400
-      Tritanium: 614356
-      Pyerite: 154233
+      Zero-Point Condensate: 546
+      Tritanium: 514356
+      Pyerite: 184233
       Mexallon: 39907
       Isogen: 9687
       Nocxium: 2387
       Zydrine: 1202
-      Crystalline Isogen-10: 435
-      Megacyte: 356
+      Crystalline Isogen-10: 235
+      Megacyte: 156
   Rokh:
     maxreprocess: 0.55
     productManuf: !!set
@@ -82845,9 +82963,6 @@ usages:
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
       Corporate Hangar Array Blueprint: null
-      Cynosural Generator Array Blueprint: null
-      Cynosural System Jammer Blueprint: null
-      Jump Bridge Blueprint: null
       Large Blaster Battery Blueprint: null
       Large Railgun Battery Blueprint: null
       Large Artillery Battery Blueprint: null
@@ -89546,10 +89661,6 @@ usages:
       Pyerite: 79
       Mexallon: 103
       Nocxium: 1
-  Standard 'Radiance' Cerebral Accelerator:
-    maxreprocess: 0.55
-    productManuf: !!set
-      Standard 'Radiance' Cerebral Accelerator Blueprint: null
   Standard Blue Pill Booster:
     maxreprocess: 0.55
     productManuf: !!set
@@ -94830,8 +94941,6 @@ usages:
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
       Corporate Hangar Array Blueprint: null
-      Cynosural Generator Array Blueprint: null
-      Jump Bridge Blueprint: null
       CONCORD Capital Shield Booster Blueprint: null
       CONCORD Capital Remote Shield Booster Blueprint: null
       CONCORD Ion Siege Blaster Blueprint: null
@@ -97074,10 +97183,6 @@ usages:
       Armor Command Burst I Blueprint: null
       Information Command Burst I Blueprint: null
       Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint: null
-      Basic 'Radiance' Cerebral Accelerator Blueprint: null
-      Standard 'Radiance' Cerebral Accelerator Blueprint: null
-      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
-      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   System Scanner I:
     maxreprocess: 0.55
@@ -98547,6 +98652,7 @@ usages:
       Standup Heavy Energy Neutralizer II Blueprint: null
       Standup Cap Battery II Blueprint: null
       Standup Capacitor Power Relay II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Tesseract Capacitor Unit Blueprint: null
@@ -99669,10 +99775,6 @@ usages:
       Mid-grade Ascendancy Epsilon Blueprint: null
       Mid-grade Ascendancy Gamma Blueprint: null
       Entosis Link II Blueprint: null
-      Basic 'Radiance' Cerebral Accelerator Blueprint: null
-      Standard 'Radiance' Cerebral Accelerator Blueprint: null
-      Advanced 'Radiance' Cerebral Accelerator Blueprint: null
-      Extended 'Radiance' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Transmitter:
     materialManuf: !!set
@@ -101357,7 +101459,14 @@ usages:
       Zero-Point Mass Entangler Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
+      Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
+      Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
+      Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
+      ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
+      Frostline 'Omnivore' Harvester Upgrade Blueprint: null
     maxreprocess: 0.55
   True Sansha Adaptive Nano Plating:
     maxreprocess: 0.55
@@ -102587,6 +102696,7 @@ usages:
       Marshal Blueprint: null
       Monitor Blueprint: null
       Standup Layered Armor Plating II Blueprint: null
+      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Tungsten Carbide Armor Plate Blueprint: null
@@ -105310,13 +105420,10 @@ usages:
       Minmatar Control Tower Blueprint: null
       Minmatar Control Tower Medium Blueprint: null
       Minmatar Control Tower Small Blueprint: null
-      Cynosural Generator Array Blueprint: null
-      Cynosural System Jammer Blueprint: null
       Ion Field Projection Battery Blueprint: null
       Phase Inversion Battery Blueprint: null
       Spatial Destabilization Battery Blueprint: null
       White Noise Generation Battery Blueprint: null
-      Jump Bridge Blueprint: null
       CONCORD Capital Shield Booster Blueprint: null
       CONCORD Capital Remote Shield Booster Blueprint: null
       CONCORD XL Cruise Missile Launcher Blueprint: null
@@ -107469,23 +107576,30 @@ usages:
       Megacyte: 2
   Zarmazd:
     maxreprocess: 0.55
+    productManuf: !!set
+      Zarmazd Blueprint: null
     reprocess:
-      Oscillator Capacitor Unit: 750
-      Tritanium: 566667
-      Pyerite: 134444
-      Mexallon: 32222
-      Pulse Shield Emitter: 150
-      Isogen: 8889
-      Nocxium: 1111
-      Zydrine: 800
+      Tritanium: 514356
+      Tesseract Capacitor Unit: 750
+      Pyerite: 184233
+      Mexallon: 39907
+      Isogen: 9687
+      Linear Shield Emitter: 150
+      Nocxium: 2387
       Morphite: 90
-      Megacyte: 200
-      Ion Thruster: 75
-      Magnetometric Sensor Cluster: 263
+      Zydrine: 1202
+      Megacyte: 156
+      Fusion Thruster: 75
+      Zero-Point Condensate: 546
+      Radar Sensor Cluster: 263
+      Nanoelectrical Microprocessor: 1800
       Construction Blocks: 75
-      Photon Microprocessor: 1800
-      Crystalline Carbonide Armor Plate: 2250
-      Fusion Reactor Unit: 23
+      Tungsten Carbide Armor Plate: 2250
+      Antimatter Reactor Unit: 23
+  Zarmazd Blueprint:
+    maxreprocess: 0.55
+    productInvention: !!set
+      Rodiva Blueprint: null
   Zealot:
     maxreprocess: 0.55
     productManuf: !!set
@@ -107561,7 +107675,12 @@ usages:
       Zero-Point Mass Entangler Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
+      Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
+      Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
+      Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
     maxreprocess: 0.55
   Zero-Point Mass Entangler:
     maxreprocess: 0.55
@@ -108335,7 +108454,10 @@ usages:
       Zero-Point Mass Entangler Blueprint: null
       Kikimora Blueprint: null
       Drekavac Blueprint: null
+      Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
+      Frostline 'Omnivore' Harvester Upgrade Blueprint: null
     maxreprocess: 0.55
   testArmorMod_PLACEHOLDER:
     maxreprocess: 0.55
@@ -108481,7 +108603,7 @@ usages:
       Construction Blocks: 30
       Tungsten Carbide Armor Plate: 300
       Antimatter Reactor Unit: 6
-  万王宝座级YC117年���别版:
+  万王宝座级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       万王宝座级YC117年特别版蓝图: null
@@ -108496,7 +108618,7 @@ usages:
   伊什塔级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      伊什塔级YC117年特���版蓝图: null
+      伊什塔级YC117年特别版蓝图: null
     reprocess:
       Ishtar: 1
   响尾蛇级YC117年特别版:
@@ -108508,13 +108630,13 @@ usages:
   地狱天使级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      地狱天使级YC117年���别版蓝图: null
+      地狱天使级YC117���特别版蓝图: null
     reprocess:
       Abaddon: 1
   多米尼克斯级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      多��尼克斯级YC117年特别版蓝图: null
+      多米尼克斯级YC117年特别版蓝图: null
     reprocess:
       Dominix: 1
   幼龙级YC117年特别版:
@@ -108523,16 +108645,16 @@ usages:
       幼龙级YC117年特别版蓝图: null
     reprocess:
       Drake: 1
-  末日沙场��YC117年特别版:
+  末日沙场级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      末日���场级YC117年特别版蓝图: null
+      末日沙场级YC117年特别版��图: null
     reprocess:
       Armageddon: 1
   毒蜥级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      毒蜥级YC117年特别版蓝图: null
+      毒蜥级YC117年��别版蓝图: null
     reprocess:
       Gila: 1
   灾难级YC117年特别版:
@@ -108550,6 +108672,6 @@ usages:
   马克瑞级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      马克瑞级YC117年特别版蓝图: null
+      马克瑞级YC117年特别版���图: null
     reprocess:
       Machariel: 1
