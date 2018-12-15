@@ -46,6 +46,14 @@ public class ShipScanner
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -87,6 +95,14 @@ public class ShipScanner
     @Stackable(true)
     @DefaultIntValue(1)
     public int Slots;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static ShipScanner.MetaGroup METAGROUP = new ShipScanner.MetaGroup();
 
     @Override
@@ -107,6 +123,10 @@ public class ShipScanner
             case  73 :
             {
                 return Duration;
+            }
+            case  633 :
+            {
+                return MetaLevel;
             }
             case  30 :
             {
@@ -131,6 +151,10 @@ public class ShipScanner
             case  47 :
             {
                 return Slots;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

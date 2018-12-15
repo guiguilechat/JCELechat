@@ -65,7 +65,7 @@ public class Universe {
 	public boolean isPublicStructure(long structureid) {
 		synchronized (publicStructures) {
 			if (publicStructures.isEmpty()) {
-				publicStructures.addAll(con.cache.universe.structures().copy());
+				publicStructures.addAll(con.cache.universe.structures(null).copy());
 			}
 		}
 		return publicStructures.contains(structureid);

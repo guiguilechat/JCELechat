@@ -11,3 +11,9 @@ items:
     name: ♦ Orca
     published: false
     volume: 1.025E7
+  �� Orca:
+    id: 46047
+    mass: 1.5E7
+    name: �� Orca
+    published: false
+    volume: 1.025E7

@@ -64,6 +64,12 @@ items:
     name: Guristas Cruiser
     published: false
     volume: 101000.0
+  Mordu's Decurion:
+    id: 49764
+    mass: 1.01E7
+    name: Mordu's Decurion
+    published: false
+    volume: 101000.0
   Noumenal Silencer:
     id: 47719
     mass: 1.09E7

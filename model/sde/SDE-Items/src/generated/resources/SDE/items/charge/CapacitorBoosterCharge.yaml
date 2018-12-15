@@ -64,6 +64,7 @@ items:
     ChargeSize: 3
     LauncherGroup: 76
     LauncherGroup2: 1156
+    LauncherGroup3: 2013
     id: 11287
     marketGroup: 139
     mass: 40.0
@@ -176,6 +177,7 @@ items:
     ChargeSize: 3
     LauncherGroup: 76
     LauncherGroup2: 1156
+    LauncherGroup3: 2013
     MetaGroupID: 4
     id: 32006
     marketGroup: 139

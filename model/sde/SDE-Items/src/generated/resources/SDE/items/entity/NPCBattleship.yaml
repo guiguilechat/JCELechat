@@ -48,7 +48,7 @@ items:
     published: false
     volume: 486000.0
   ♦ Rattlesnake:
-    id: 46523
+    id: 46057
     mass: 9.93E7
     name: ♦ Rattlesnake
     published: false
@@ -89,3 +89,15 @@ items:
     name: ♦ test_boss
     published: false
     volume: 1010000.0
+  �� Bhaalgorn:
+    id: 45055
+    mass: 1.02725E8
+    name: �� Bhaalgorn
+    published: false
+    volume: 486000.0
+  �� Rattlesnake:
+    id: 46523
+    mass: 9.93E7
+    name: �� Rattlesnake
+    published: false
+    volume: 486000.0

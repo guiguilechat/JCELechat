@@ -47,6 +47,14 @@ public class ShieldExtender
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -74,6 +82,14 @@ public class ShieldExtender
     @Stackable(true)
     @DefaultIntValue(0)
     public int SignatureRadiusAdd;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static ShieldExtender.MetaGroup METAGROUP = new ShieldExtender.MetaGroup();
 
     @Override
@@ -91,6 +107,10 @@ public class ShieldExtender
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -106,6 +126,10 @@ public class ShieldExtender
             case  983 :
             {
                 return SignatureRadiusAdd;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

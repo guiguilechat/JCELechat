@@ -39,6 +39,14 @@ public class PassiveTargetingSystem
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -59,6 +67,14 @@ public class PassiveTargetingSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static PassiveTargetingSystem.MetaGroup METAGROUP = new PassiveTargetingSystem.MetaGroup();
 
     @Override
@@ -76,6 +92,10 @@ public class PassiveTargetingSystem
             {
                 return Duration;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -87,6 +107,10 @@ public class PassiveTargetingSystem
             case  277 :
             {
                 return RequiredSkill1Level;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

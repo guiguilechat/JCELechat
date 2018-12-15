@@ -68,6 +68,14 @@ public class ShieldBooster
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -116,6 +124,14 @@ public class ShieldBooster
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ShieldBonus;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static ShieldBooster.MetaGroup METAGROUP = new ShieldBooster.MetaGroup();
 
     @Override
@@ -145,6 +161,10 @@ public class ShieldBooster
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1206 :
             {
                 return OverloadSelfDurationBonus;
@@ -172,6 +192,10 @@ public class ShieldBooster
             case  68 :
             {
                 return ShieldBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

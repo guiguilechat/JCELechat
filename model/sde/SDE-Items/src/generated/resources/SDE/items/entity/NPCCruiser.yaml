@@ -12,7 +12,7 @@ items:
     published: false
     volume: 120000.0
   ♦ Ashimmu:
-    id: 46054
+    id: 43604
     mass: 1.101E7
     name: ♦ Ashimmu
     published: false
@@ -23,6 +23,12 @@ items:
     name: ♦ Augoror
     published: false
     volume: 115000.0
+  ♦ Bellicose:
+    id: 43592
+    mass: 1.155E7
+    name: ♦ Bellicose
+    published: false
+    volume: 85000.0
   ♦ Blackbird:
     id: 43625
     mass: 1.319E7
@@ -131,21 +137,15 @@ items:
     name: ♦ Vexor
     published: false
     volume: 115000.0
-  �� Osprey:
-    id: 43569
-    mass: 1.11E7
-    name: �� Osprey
-    published: false
-    volume: 107000.0
-  �� Vigilant:
+  ♦ Vigilant:
     id: 46059
     mass: 9830000.0
-    name: �� Vigilant
+    name: ♦ Vigilant
     published: false
     volume: 101000.0
-  ��� Bellicose:
-    id: 43592
-    mass: 1.155E7
-    name: ��� Bellicose
+  �� Ashimmu:
+    id: 46054
+    mass: 1.101E7
+    name: �� Ashimmu
     published: false
-    volume: 85000.0
+    volume: 118000.0

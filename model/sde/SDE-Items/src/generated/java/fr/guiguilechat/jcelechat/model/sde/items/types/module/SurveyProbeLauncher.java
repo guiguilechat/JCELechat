@@ -60,6 +60,14 @@ public class SurveyProbeLauncher
     @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -108,6 +116,14 @@ public class SurveyProbeLauncher
     @Stackable(true)
     @DefaultIntValue(0)
     public int SurveyProbeDurationBonus;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static SurveyProbeLauncher.MetaGroup METAGROUP = new SurveyProbeLauncher.MetaGroup();
 
     @Override
@@ -137,6 +153,10 @@ public class SurveyProbeLauncher
             {
                 return MaxGroupFitted;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -164,6 +184,10 @@ public class SurveyProbeLauncher
             case  2701 :
             {
                 return SurveyProbeDurationBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

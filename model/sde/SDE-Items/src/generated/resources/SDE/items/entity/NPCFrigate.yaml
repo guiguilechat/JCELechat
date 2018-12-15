@@ -197,12 +197,6 @@ items:
     name: ♦ Swordspine
     published: false
     volume: 21120.0
-  ♦ Tormentor:
-    id: 42841
-    mass: 1080000.0
-    name: ♦ Tormentor
-    published: false
-    volume: 24398.0
   ♦ Tristan:
     id: 43578
     mass: 956000.0
@@ -245,3 +239,15 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
+  ��� Merlin:
+    id: 43566
+    mass: 997000.0
+    name: ��� Merlin
+    published: false
+    volume: 16500.0
+  ��� Tormentor:
+    id: 42841
+    mass: 1080000.0
+    name: ��� Tormentor
+    published: false
+    volume: 24398.0

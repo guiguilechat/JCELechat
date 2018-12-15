@@ -86,6 +86,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.MissileLauncherRoc
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.MissileLauncherTorpedo;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.MissileLauncherXLCruise;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.MissileLauncherXLTorpedo;
+import fr.guiguilechat.jcelechat.model.sde.items.types.module.MutadaptiveRemoteArmorRepairer;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.NanofiberInternalStructure;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.OverdriveInjectorSystem;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.PassiveTargetingSystem;
@@ -134,6 +135,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.SiegeModule;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SignalAmplifier;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SmartBomb;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.StasisGrappler;
+import fr.guiguilechat.jcelechat.model.sde.items.types.module.StasisNullifiers;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.StasisWeb;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.StripMiner;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SuperWeapon;
@@ -161,22 +163,6 @@ public abstract class Module
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
-    /**
-     * Authoring has been moved to FSD
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaLevel;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     public final static Module.MetaCat METACAT = new Module.MetaCat();
 
     @Override
@@ -185,14 +171,6 @@ public abstract class Module
             case  9 :
             {
                 return Hp;
-            }
-            case  633 :
-            {
-                return MetaLevel;
-            }
-            case  422 :
-            {
-                return TechLevel;
             }
             default:
             {
@@ -222,7 +200,7 @@ public abstract class Module
 
         @Override
         public Collection<IMetaGroup<? extends Module>> groups() {
-            return Arrays.asList(ShieldExtender.METAGROUP, ShieldRecharger.METAGROUP, ShieldBooster.METAGROUP, RemoteShieldBooster.METAGROUP, CapacitorRecharger.METAGROUP, PropulsionModule.METAGROUP, CargoScanner.METAGROUP, ShipScanner.METAGROUP, SurveyScanner.METAGROUP, WarpScrambler.METAGROUP, EnergyWeapon.METAGROUP, MiningLaser.METAGROUP, ProjectileWeapon.METAGROUP, ShieldPowerRelay.METAGROUP, Gyrostabilizer.METAGROUP, DamageControl.METAGROUP, CapacitorBattery.METAGROUP, ArmorRepairUnit.METAGROUP, HullRepairUnit.METAGROUP, StasisWeb.METAGROUP, RemoteCapacitorTransmitter.METAGROUP, EnergyNosferatu.METAGROUP, EnergyNeutralizer.METAGROUP, SmartBomb.METAGROUP, HybridWeapon.METAGROUP, CapacitorBooster.METAGROUP, ShieldHardener.METAGROUP, ReinforcedBulkhead.METAGROUP, BurstJammer.METAGROUP, PassiveTargetingSystem.METAGROUP, AutomatedTargetingSystem.METAGROUP, ArmorCoating.METAGROUP, ECM.METAGROUP, HeatSink.METAGROUP, SensorDampener.METAGROUP, RemoteTrackingComputer.METAGROUP, SignalAmplifier.METAGROUP, TrackingEnhancer.METAGROUP, SensorBooster.METAGROUP, TrackingComputer.METAGROUP, CPUEnhancer.METAGROUP, RemoteSensorBooster.METAGROUP, WeaponDisruptor.METAGROUP, ShieldResistanceAmplifier.METAGROUP, MagneticFieldStabilizer.METAGROUP, WarpCoreStabilizer.METAGROUP, RemoteArmorRepairer.METAGROUP, ArmorPlatingEnergized.METAGROUP, ArmorHardener.METAGROUP, ArmorReinforcer.METAGROUP, CloakingDevice.METAGROUP, ShieldBoostAmplifier.METAGROUP, AuxiliaryPowerCore.METAGROUP, BallisticControlSystem.METAGROUP, TargetPainter.METAGROUP, FighterSupportUnit.METAGROUP, StripMiner.METAGROUP, ScanProbeLauncher.METAGROUP, FrequencyMiningLaser.METAGROUP, FestivalLauncher.METAGROUP, MissileLauncherCruise.METAGROUP, MissileLauncherRocket.METAGROUP, MissileLauncherTorpedo.METAGROUP, MissileLauncherLight.METAGROUP, MissileLauncherHeavy.METAGROUP, MissileLauncherRapidLight.METAGROUP, MissileLauncherDefender.METAGROUP, ECMStabilizer.METAGROUP, SiegeModule.METAGROUP, MissileLauncherXLTorpedo.METAGROUP, DataMiners.METAGROUP, MiningUpgrade.METAGROUP, RemoteHullRepairer.METAGROUP, SuperWeapon.METAGROUP, InterdictionSphereLauncher.METAGROUP, JumpPortalGenerator.METAGROUP, DroneNavigationComputer.METAGROUP, DroneDamageModules.METAGROUP, DroneTrackingModules.METAGROUP, DroneControlRangeModule.METAGROUP, TractorBeam.METAGROUP, CynosuralField.METAGROUP, GasCloudHarvester.METAGROUP, InertialStabilizer.METAGROUP, NanofiberInternalStructure.METAGROUP, OverdriveInjectorSystem.METAGROUP, ExpandedCargohold.METAGROUP, PowerDiagnosticSystem.METAGROUP, CapacitorPowerRelay.METAGROUP, CapacitorFluxCoil.METAGROUP, ReactorControlUnit.METAGROUP, ShieldFluxCoil.METAGROUP, MissileLauncherHeavyAssault.METAGROUP, RigArmor.METAGROUP, RigShield.METAGROUP, RigEnergyWeapon.METAGROUP, RigHybridWeapon.METAGROUP, RigProjectileWeapon.METAGROUP, RigDrones.METAGROUP, RigLauncher.METAGROUP, RigCore.METAGROUP, RigNavigation.METAGROUP, RigElectronicSystems.METAGROUP, CloneVatBay.METAGROUP, BurstProjectors.METAGROUP, MissileLauncherBomb.METAGROUP, WarpDisruptFieldGenerator.METAGROUP, Salvager.METAGROUP, ArmorResistanceShiftHardener.METAGROUP, TargetBreaker.METAGROUP, AncillaryShieldBooster.METAGROUP, MicroJumpDrive.METAGROUP, AncillaryArmorRepairer.METAGROUP, ScanningUpgrade.METAGROUP, SurveyProbeLauncher.METAGROUP, RigResourceProcessing.METAGROUP, RigScanning.METAGROUP, RigTargeting.METAGROUP, ScanningUpgradeTime.METAGROUP, MissileLauncherRapidHeavy.METAGROUP, WarpAccelerator.METAGROUP, DroneTrackingEnhancer.METAGROUP, JumpDriveEconomizer.METAGROUP, RigAnchor.METAGROUP, EntosisLink.METAGROUP, MissileGuidanceEnhancer.METAGROUP, MissileGuidanceComputer.METAGROUP, MicroJumpFieldGenerators.METAGROUP, StasisGrappler.METAGROUP, MissileLauncherRapidTorpedo.METAGROUP, MissileLauncherXLCruise.METAGROUP, AncillaryRemoteShieldBooster.METAGROUP, AncillaryRemoteArmorRepairer.METAGROUP, FlexArmorHardener.METAGROUP, FlexShieldHardener.METAGROUP, CapitalSensorArray.METAGROUP, CommandBurst.METAGROUP, TitanPhenomenaGenerator.METAGROUP, PrecursorWeapon.METAGROUP, EntropicRadiationSink.METAGROUP, MassEntanglers.METAGROUP);
+            return Arrays.asList(ShieldExtender.METAGROUP, ShieldRecharger.METAGROUP, ShieldBooster.METAGROUP, RemoteShieldBooster.METAGROUP, CapacitorRecharger.METAGROUP, PropulsionModule.METAGROUP, CargoScanner.METAGROUP, ShipScanner.METAGROUP, SurveyScanner.METAGROUP, WarpScrambler.METAGROUP, EnergyWeapon.METAGROUP, MiningLaser.METAGROUP, ProjectileWeapon.METAGROUP, ShieldPowerRelay.METAGROUP, Gyrostabilizer.METAGROUP, DamageControl.METAGROUP, CapacitorBattery.METAGROUP, ArmorRepairUnit.METAGROUP, HullRepairUnit.METAGROUP, StasisWeb.METAGROUP, RemoteCapacitorTransmitter.METAGROUP, EnergyNosferatu.METAGROUP, EnergyNeutralizer.METAGROUP, SmartBomb.METAGROUP, HybridWeapon.METAGROUP, CapacitorBooster.METAGROUP, ShieldHardener.METAGROUP, ReinforcedBulkhead.METAGROUP, BurstJammer.METAGROUP, PassiveTargetingSystem.METAGROUP, AutomatedTargetingSystem.METAGROUP, ArmorCoating.METAGROUP, ECM.METAGROUP, HeatSink.METAGROUP, SensorDampener.METAGROUP, RemoteTrackingComputer.METAGROUP, SignalAmplifier.METAGROUP, TrackingEnhancer.METAGROUP, SensorBooster.METAGROUP, TrackingComputer.METAGROUP, CPUEnhancer.METAGROUP, RemoteSensorBooster.METAGROUP, WeaponDisruptor.METAGROUP, ShieldResistanceAmplifier.METAGROUP, MagneticFieldStabilizer.METAGROUP, WarpCoreStabilizer.METAGROUP, RemoteArmorRepairer.METAGROUP, ArmorPlatingEnergized.METAGROUP, ArmorHardener.METAGROUP, ArmorReinforcer.METAGROUP, CloakingDevice.METAGROUP, ShieldBoostAmplifier.METAGROUP, AuxiliaryPowerCore.METAGROUP, BallisticControlSystem.METAGROUP, TargetPainter.METAGROUP, FighterSupportUnit.METAGROUP, StripMiner.METAGROUP, ScanProbeLauncher.METAGROUP, FrequencyMiningLaser.METAGROUP, FestivalLauncher.METAGROUP, MissileLauncherCruise.METAGROUP, MissileLauncherRocket.METAGROUP, MissileLauncherTorpedo.METAGROUP, MissileLauncherLight.METAGROUP, MissileLauncherHeavy.METAGROUP, MissileLauncherRapidLight.METAGROUP, MissileLauncherDefender.METAGROUP, ECMStabilizer.METAGROUP, SiegeModule.METAGROUP, MissileLauncherXLTorpedo.METAGROUP, DataMiners.METAGROUP, MiningUpgrade.METAGROUP, RemoteHullRepairer.METAGROUP, SuperWeapon.METAGROUP, InterdictionSphereLauncher.METAGROUP, JumpPortalGenerator.METAGROUP, DroneNavigationComputer.METAGROUP, DroneDamageModules.METAGROUP, DroneTrackingModules.METAGROUP, DroneControlRangeModule.METAGROUP, TractorBeam.METAGROUP, CynosuralField.METAGROUP, GasCloudHarvester.METAGROUP, InertialStabilizer.METAGROUP, NanofiberInternalStructure.METAGROUP, OverdriveInjectorSystem.METAGROUP, ExpandedCargohold.METAGROUP, PowerDiagnosticSystem.METAGROUP, CapacitorPowerRelay.METAGROUP, CapacitorFluxCoil.METAGROUP, ReactorControlUnit.METAGROUP, ShieldFluxCoil.METAGROUP, MissileLauncherHeavyAssault.METAGROUP, RigArmor.METAGROUP, RigShield.METAGROUP, RigEnergyWeapon.METAGROUP, RigHybridWeapon.METAGROUP, RigProjectileWeapon.METAGROUP, RigDrones.METAGROUP, RigLauncher.METAGROUP, RigCore.METAGROUP, RigNavigation.METAGROUP, RigElectronicSystems.METAGROUP, CloneVatBay.METAGROUP, BurstProjectors.METAGROUP, MissileLauncherBomb.METAGROUP, WarpDisruptFieldGenerator.METAGROUP, Salvager.METAGROUP, ArmorResistanceShiftHardener.METAGROUP, TargetBreaker.METAGROUP, AncillaryShieldBooster.METAGROUP, MicroJumpDrive.METAGROUP, AncillaryArmorRepairer.METAGROUP, ScanningUpgrade.METAGROUP, SurveyProbeLauncher.METAGROUP, RigResourceProcessing.METAGROUP, RigScanning.METAGROUP, RigTargeting.METAGROUP, ScanningUpgradeTime.METAGROUP, MissileLauncherRapidHeavy.METAGROUP, WarpAccelerator.METAGROUP, DroneTrackingEnhancer.METAGROUP, JumpDriveEconomizer.METAGROUP, RigAnchor.METAGROUP, EntosisLink.METAGROUP, MissileGuidanceEnhancer.METAGROUP, MissileGuidanceComputer.METAGROUP, MicroJumpFieldGenerators.METAGROUP, StasisGrappler.METAGROUP, MissileLauncherRapidTorpedo.METAGROUP, MissileLauncherXLCruise.METAGROUP, AncillaryRemoteShieldBooster.METAGROUP, AncillaryRemoteArmorRepairer.METAGROUP, FlexArmorHardener.METAGROUP, FlexShieldHardener.METAGROUP, CapitalSensorArray.METAGROUP, CommandBurst.METAGROUP, TitanPhenomenaGenerator.METAGROUP, PrecursorWeapon.METAGROUP, EntropicRadiationSink.METAGROUP, MassEntanglers.METAGROUP, StasisNullifiers.METAGROUP, MutadaptiveRemoteArmorRepairer.METAGROUP);
         }
     }
 }

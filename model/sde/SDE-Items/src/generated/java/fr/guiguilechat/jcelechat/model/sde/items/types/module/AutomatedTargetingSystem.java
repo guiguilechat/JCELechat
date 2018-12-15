@@ -46,6 +46,14 @@ public class AutomatedTargetingSystem
     @DefaultIntValue(0)
     public int MaxLockedTargetsBonus;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -73,6 +81,14 @@ public class AutomatedTargetingSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int TargetHostileRange;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static AutomatedTargetingSystem.MetaGroup METAGROUP = new AutomatedTargetingSystem.MetaGroup();
 
     @Override
@@ -94,6 +110,10 @@ public class AutomatedTargetingSystem
             {
                 return MaxLockedTargetsBonus;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -109,6 +129,10 @@ public class AutomatedTargetingSystem
             case  143 :
             {
                 return TargetHostileRange;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

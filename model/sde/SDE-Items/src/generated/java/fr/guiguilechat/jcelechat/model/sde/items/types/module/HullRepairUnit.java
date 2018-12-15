@@ -68,6 +68,14 @@ public class HullRepairUnit
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -137,6 +145,14 @@ public class HullRepairUnit
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureDamageAmount;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static HullRepairUnit.MetaGroup METAGROUP = new HullRepairUnit.MetaGroup();
 
     @Override
@@ -165,6 +181,10 @@ public class HullRepairUnit
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  633 :
+            {
+                return MetaLevel;
             }
             case  1206 :
             {
@@ -205,6 +225,10 @@ public class HullRepairUnit
             case  83 :
             {
                 return StructureDamageAmount;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

@@ -53,6 +53,14 @@ public class Salvager
     @DefaultIntValue(0)
     public int MaxRange;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -73,6 +81,14 @@ public class Salvager
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
@@ -105,6 +121,10 @@ public class Salvager
             {
                 return MaxRange;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -116,6 +136,10 @@ public class Salvager
             case  278 :
             {
                 return RequiredSkill2Level;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  1768 :
             {

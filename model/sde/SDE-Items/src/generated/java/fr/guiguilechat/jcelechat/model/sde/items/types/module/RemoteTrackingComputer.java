@@ -117,6 +117,14 @@ public class RemoteTrackingComputer
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -158,6 +166,14 @@ public class RemoteTrackingComputer
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Tracking Speed Bonus
      */
@@ -222,6 +238,10 @@ public class RemoteTrackingComputer
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1935 :
             {
                 return OverloadTrackingModuleStrengthBonus;
@@ -245,6 +265,10 @@ public class RemoteTrackingComputer
             case  1212 :
             {
                 return RequiredThermoDynamicsSkill;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  767 :
             {

@@ -926,9 +926,12 @@ public interface G_IDCAccess
      * List all public structures<br />
      * This route is cached for up to 3600 seconds
      * </p>
+     * 
+     * @param filter
+     *     Only list public structures that have this service online
      */
-    public default Requested<Long[]> get_universe_structures(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/structures/");
+    public default Requested<Long[]> get_universe_structures(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter filter, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v1/universe/structures/"+"?"+(filter==null?"":"&filter="+flatten(filter)));
         return (requestGet(url, properties,java.lang.Long[].class));
     }
 

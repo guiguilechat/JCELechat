@@ -301,6 +301,14 @@ public class SuperWeapon
     @DefaultIntValue(0)
     public int MaxTypeFitted;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -370,6 +378,14 @@ public class SuperWeapon
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Thermal damage done.
      */
@@ -542,6 +558,10 @@ public class SuperWeapon
             {
                 return MaxTypeFitted;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  669 :
             {
                 return ModuleReactivationDelay;
@@ -581,6 +601,10 @@ public class SuperWeapon
             case  20 :
             {
                 return SpeedFactor;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  118 :
             {

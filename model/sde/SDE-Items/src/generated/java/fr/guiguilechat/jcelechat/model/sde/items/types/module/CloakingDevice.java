@@ -145,6 +145,14 @@ public class CloakingDevice
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -179,6 +187,14 @@ public class CloakingDevice
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static CloakingDevice.MetaGroup METAGROUP = new CloakingDevice.MetaGroup();
 
     @Override
@@ -252,6 +268,10 @@ public class CloakingDevice
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  669 :
             {
                 return ModuleReactivationDelay;
@@ -271,6 +291,10 @@ public class CloakingDevice
             case  565 :
             {
                 return ScanResolutionMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

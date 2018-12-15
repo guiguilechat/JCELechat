@@ -47,6 +47,14 @@ public class OverdriveInjectorSystem
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -60,6 +68,14 @@ public class OverdriveInjectorSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static OverdriveInjectorSystem.MetaGroup METAGROUP = new OverdriveInjectorSystem.MetaGroup();
 
     @Override
@@ -77,6 +93,10 @@ public class OverdriveInjectorSystem
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -84,6 +104,10 @@ public class OverdriveInjectorSystem
             case  277 :
             {
                 return RequiredSkill1Level;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

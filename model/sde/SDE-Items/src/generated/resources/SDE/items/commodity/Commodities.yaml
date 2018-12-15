@@ -5,6 +5,10 @@ items:
     name: 17 Successful Torture Techniques
     published: true
     volume: 0.1
+  50,000 Skillpoints:
+    id: 49809
+    name: 50,000 Skillpoints
+    published: true
   Abufyr Joek's Head:
     id: 26120
     mass: 1.0

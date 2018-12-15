@@ -37,6 +37,27 @@ items:
     name: Data Analyzer II
     published: true
     volume: 5.0
+  Frostline 'Clavicula' Integrated Analyzer:
+    AccessDifficultyBonus: 6
+    CapacitorNeed: 20.0
+    Cpu: 25.0
+    Duration: 10000.0
+    Hp: 40
+    MaxRange: 6000
+    Power: 1
+    RequiredSkill1: 13278
+    RequiredSkill1Level: 3
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 3
+    TechLevel: 1
+    VirusCoherence: 26
+    VirusElementSlots: 2
+    VirusStrength: 26
+    id: 49791
+    marketGroup: 1718
+    name: Frostline 'Clavicula' Integrated Analyzer
+    published: true
+    volume: 5.0
   Ligature Integrated Analyzer:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0

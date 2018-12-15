@@ -95,6 +95,14 @@ public class EntosisLink
     @DefaultIntValue(0)
     public int MaxRange;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -164,6 +172,14 @@ public class EntosisLink
     @Stackable(true)
     @DefaultIntValue(1000000)
     public int SpeedLimit;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static EntosisLink.MetaGroup METAGROUP = new EntosisLink.MetaGroup();
 
     @Override
@@ -213,6 +229,10 @@ public class EntosisLink
             {
                 return MaxRange;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -252,6 +272,10 @@ public class EntosisLink
             case  2033 :
             {
                 return SpeedLimit;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

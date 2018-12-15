@@ -18,6 +18,13 @@ public class BallisticControlSystem
     extends Module
 {
     /**
+     * Increases velocity of missile explosion
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double AoeVelocityBonus;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -46,6 +53,14 @@ public class BallisticControlSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
+    /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * Additional percentage to the characters missile damage multiplier.
      */
@@ -95,11 +110,23 @@ public class BallisticControlSystem
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static BallisticControlSystem.MetaGroup METAGROUP = new BallisticControlSystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  847 :
+            {
+                return AoeVelocityBonus;
+            }
             case  50 :
             {
                 return Cpu;
@@ -111,6 +138,10 @@ public class BallisticControlSystem
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  633 :
+            {
+                return MetaLevel;
             }
             case  213 :
             {
@@ -139,6 +170,10 @@ public class BallisticControlSystem
             case  204 :
             {
                 return SpeedMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

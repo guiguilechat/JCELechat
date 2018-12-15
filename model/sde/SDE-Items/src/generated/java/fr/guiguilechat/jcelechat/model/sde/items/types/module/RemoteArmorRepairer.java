@@ -96,6 +96,14 @@ public class RemoteArmorRepairer
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -114,15 +122,15 @@ public class RemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RepairMultiplierBonusMax;
+    @DefaultDoubleValue(0.0)
+    public double RepairMultiplierBonusMax;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RepairMultiplierBonusPerCycle;
+    @DefaultDoubleValue(0.0)
+    public double RepairMultiplierBonusPerCycle;
     /**
      * The type ID of the skill that is required.
      */
@@ -172,6 +180,14 @@ public class RemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipBonusRole4;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static RemoteArmorRepairer.MetaGroup METAGROUP = new RemoteArmorRepairer.MetaGroup();
 
     @Override
@@ -217,6 +233,10 @@ public class RemoteArmorRepairer
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1206 :
             {
                 return OverloadSelfDurationBonus;
@@ -260,6 +280,10 @@ public class RemoteArmorRepairer
             case  2301 :
             {
                 return ShipBonusRole4;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

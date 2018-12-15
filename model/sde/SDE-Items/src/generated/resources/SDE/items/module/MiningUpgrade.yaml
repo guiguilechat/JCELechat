@@ -97,6 +97,22 @@ items:
     name: Frigoris Restrained Ice Harvester Upgrade
     published: true
     volume: 5.0
+  Frostline 'Omnivore' Harvester Upgrade:
+    Cpu: 38.0
+    CpuPenaltyPercent: 12.5
+    Hp: 40
+    IceHarvestCycleBonus: -9.0
+    MiningAmountBonus: 9
+    Power: 1
+    RequiredSkill1: 22578
+    RequiredSkill1Level: 3
+    RequiredSkill2: 16281
+    RequiredSkill2Level: 3
+    TechLevel: 1
+    id: 49792
+    marketGroup: 935
+    name: Frostline 'Omnivore' Harvester Upgrade
+    published: true
   Ice Harvester Upgrade I:
     CpuPenaltyPercent: 10.0
     Hp: 40

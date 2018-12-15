@@ -216,6 +216,12 @@ items:
     name: Aeon Khanid Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Aeon Lavacore Imperial SKIN (Permanent):
+    id: 49823
+    marketGroup: 1974
+    name: Aeon Lavacore Imperial SKIN (Permanent)
+    published: true
+    volume: 0.01
   Aeon Purity of the Throne SKIN (Permanent):
     id: 42593
     marketGroup: 1974
@@ -514,6 +520,12 @@ items:
     name: Apocalypse Khanid Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Apocalypse Lavacore Imperial SKIN (Permanent):
+    id: 49817
+    marketGroup: 1964
+    name: Apocalypse Lavacore Imperial SKIN (Permanent)
+    published: true
+    volume: 0.01
   Apocalypse Navy Issue Cold Iron SKIN (Permanent):
     id: 42789
     marketGroup: 2108
@@ -542,6 +554,12 @@ items:
     id: 48855
     marketGroup: 2108
     name: Apocalypse Navy Issue Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apocalypse Navy Issue Lavacore Imperial SKIN (Permanent):
+    id: 49820
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Lavacore Imperial SKIN (Permanent)
     published: true
     volume: 0.01
   Apocalypse Navy Issue Purity of the Throne SKIN (Permanent):
@@ -620,6 +638,12 @@ items:
     name: Apostle Imperial Jubilee SKIN (Permanent)
     published: true
     volume: 0.01
+  Apostle Lavacore Imperial SKIN (Permanent):
+    id: 49825
+    marketGroup: 2278
+    name: Apostle Lavacore Imperial SKIN (Permanent)
+    published: true
+    volume: 0.01
   Apostle Purity of the Throne SKIN (Permanent):
     id: 42653
     marketGroup: 2278
@@ -648,6 +672,12 @@ items:
     id: 47011
     marketGroup: 2316
     name: Apotheosis Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apotheosis Icecloud Investigators SKIN (Permanent):
+    id: 49794
+    marketGroup: 2316
+    name: Apotheosis Icecloud Investigators SKIN (Permanent)
     published: true
     volume: 0.01
   Apotheosis Ironblood SKIN (Permanent):
@@ -969,6 +999,12 @@ items:
     name: Ark Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
+  Ark Yoiul Festival YC121 SKIN (Permanent):
+    id: 49948
+    marketGroup: 2095
+    name: Ark Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Armageddon "Blaze" Squadron SKIN (Permanent):
     id: 47102
     marketGroup: 1964
@@ -1027,6 +1063,12 @@ items:
     name: Armageddon Kador Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Armageddon Lavacore Imperial SKIN (Permanent):
+    id: 49818
+    marketGroup: 1964
+    name: Armageddon Lavacore Imperial SKIN (Permanent)
+    published: true
+    volume: 0.01
   Armageddon Navy Issue Cold Iron SKIN (Permanent):
     id: 42790
     marketGroup: 2108
@@ -1055,6 +1097,12 @@ items:
     id: 48856
     marketGroup: 2108
     name: Armageddon Navy Issue Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Armageddon Navy Issue Lavacore Imperial SKIN (Permanent):
+    id: 49821
+    marketGroup: 2108
+    name: Armageddon Navy Issue Lavacore Imperial SKIN (Permanent)
     published: true
     volume: 0.01
   Armageddon Navy Issue Purity of the Throne SKIN (Permanent):
@@ -1218,6 +1266,12 @@ items:
   Astero Spectral Shift Serenity Only SKIN (Permanent):
     id: 49476
     name: Astero Spectral Shift Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Astero Yoiul Festival YC121 SKIN (Permanent):
+    id: 49961
+    marketGroup: 2031
+    name: Astero Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
   Atron Exoplanets Hunter SKIN (Permanent):
@@ -1480,6 +1534,12 @@ items:
   Avatar Khanid Serenity Only SKIN (Permanent):
     id: 37942
     name: Avatar Khanid Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Avatar Lavacore Imperial SKIN (Permanent):
+    id: 49824
+    marketGroup: 1978
+    name: Avatar Lavacore Imperial SKIN (Permanent)
     published: true
     volume: 0.01
   Avatar Purity of the Throne SKIN (Permanent):
@@ -2776,6 +2836,12 @@ items:
     name: Cerberus Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Cerberus Yoiul Festival YC121 SKIN (Permanent):
+    id: 49953
+    marketGroup: 2070
+    name: Cerberus Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Charon Blue Tiger SKIN (Permanent):
     id: 36749
     marketGroup: 1985
@@ -3187,6 +3253,12 @@ items:
     id: 46527
     marketGroup: 2310
     name: Confessor Imperial Jubilee SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Confessor Lavacore Imperial SKIN (Permanent):
+    id: 49816
+    marketGroup: 2310
+    name: Confessor Lavacore Imperial SKIN (Permanent)
     published: true
     volume: 0.01
   Confessor Purity of the Throne SKIN (Permanent):
@@ -3835,6 +3907,12 @@ items:
     name: Dagon Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Damavik Blackfire Steel SKIN (Permanent):
+    id: 49922
+    marketGroup: 2486
+    name: Damavik Blackfire Steel SKIN (Permanent)
+    published: true
+    volume: 0.01
   Damavik Hadean Horror SKIN (Permanent):
     id: 48653
     marketGroup: 2486
@@ -4225,6 +4303,12 @@ items:
     name: Dominix Valkyrie SKIN (Permanent)
     published: true
     volume: 0.01
+  Dominix Yoiul Festival YC121 SKIN (Permanent):
+    id: 49957
+    marketGroup: 1966
+    name: Dominix Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Dragoon Cold Iron SKIN (Permanent):
     id: 42763
     marketGroup: 1994
@@ -4310,6 +4394,12 @@ items:
     id: 47629
     marketGroup: 1957
     name: Drake Capsuleer Day XV SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Drake Chromodynamic Candy SKIN (Permanent):
+    id: 49800
+    marketGroup: 1957
+    name: Drake Chromodynamic Candy SKIN (Permanent)
     published: true
     volume: 0.01
   Drake Exoplanets Hunter SKIN (Permanent):
@@ -4458,6 +4548,18 @@ items:
     id: 44951
     marketGroup: 2031
     name: Dramiel Spirit SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Drekavac Blackfire Steel SKIN (Permanent):
+    id: 49927
+    marketGroup: 2519
+    name: Drekavac Blackfire Steel SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Drekavac Hadean Horror SKIN (Permanent):
+    id: 49936
+    marketGroup: 2519
+    name: Drekavac Hadean Horror SKIN (Permanent)
     published: true
     volume: 0.01
   Eagle Blue Tiger SKIN (Permanent):
@@ -5489,6 +5591,12 @@ items:
     id: 47010
     marketGroup: 2312
     name: Gnosis Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Gnosis Icecloud Investigators SKIN (Permanent):
+    id: 49795
+    marketGroup: 2312
+    name: Gnosis Icecloud Investigators SKIN (Permanent)
     published: true
     volume: 0.01
   Gnosis Ironblood SKIN (Permanent):
@@ -6636,6 +6744,12 @@ items:
     name: Hurricane Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Hurricane Operation Permafrost SKIN (Permanent):
+    id: 49811
+    marketGroup: 1959
+    name: Hurricane Operation Permafrost SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hurricane Sebiestor SKIN (Permanent):
     id: 34620
     marketGroup: 1959
@@ -7383,6 +7497,12 @@ items:
     name: Jackdaw Steel Cardinal SKIN (Permanent)
     published: true
     volume: 0.01
+  Jackdaw Yoiul Festival YC121 SKIN (Permanent):
+    id: 49952
+    marketGroup: 2391
+    name: Jackdaw Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Jaguar Blue Tiger SKIN (Permanent):
     id: 36804
     marketGroup: 2050
@@ -7518,6 +7638,18 @@ items:
   Kestrel Wiyrkomi Serenity Only SKIN (Permanent):
     id: 37973
     name: Kestrel Wiyrkomi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Kikimora Blackfire Steel SKIN (Permanent):
+    id: 49923
+    marketGroup: 2521
+    name: Kikimora Blackfire Steel SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Kikimora Hadean Horror SKIN (Permanent):
+    id: 49933
+    marketGroup: 2521
+    name: Kikimora Hadean Horror SKIN (Permanent)
     published: true
     volume: 0.01
   Kirin Blue Tiger SKIN (Permanent):
@@ -7790,6 +7922,12 @@ items:
     id: 46022
     marketGroup: 2371
     name: Legion Sunburst SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Leshak Blackfire Steel SKIN (Permanent):
+    id: 49928
+    marketGroup: 2482
+    name: Leshak Blackfire Steel SKIN (Permanent)
     published: true
     volume: 0.01
   Leshak Hadean Horror SKIN (Permanent):
@@ -8887,6 +9025,12 @@ items:
     name: Merlin Nugoeihuvi Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Merlin Operation Permafrost SKIN (Permanent):
+    id: 49812
+    marketGroup: 2003
+    name: Merlin Operation Permafrost SKIN (Permanent)
+    published: true
+    volume: 0.01
   Merlin Raata Sunset SKIN (Permanent):
     id: 36638
     marketGroup: 2003
@@ -9027,6 +9171,12 @@ items:
     id: 46276
     marketGroup: 2279
     name: Minokawa Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Minokawa Yoiul Festival YC121 SKIN (Permanent):
+    id: 49954
+    marketGroup: 2279
+    name: Minokawa Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
   Moa Blue Tiger SKIN (Permanent):
@@ -9652,6 +9802,12 @@ items:
     name: Nestor Spectral Shift Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Nestor Yoiul Festival YC121 SKIN (Permanent):
+    id: 49963
+    marketGroup: 1963
+    name: Nestor Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nidhoggur Bloody Hands SKIN (Permanent):
     id: 47177
     marketGroup: 1977
@@ -10215,6 +10371,12 @@ items:
     name: Omen Navy Issue Purity of the Throne SKIN (Permanent)
     published: true
     volume: 0.01
+  Omen Operation Permafrost SKIN (Permanent):
+    id: 49813
+    marketGroup: 1990
+    name: Omen Operation Permafrost SKIN (Permanent)
+    published: true
+    volume: 0.01
   Omen Purity of the Throne SKIN (Permanent):
     id: 42568
     marketGroup: 1990
@@ -10441,6 +10603,12 @@ items:
   Oracle Sarum Serenity Only SKIN (Permanent):
     id: 37947
     name: Oracle Sarum Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Oracle Yoiul Festival YC121 SKIN (Permanent):
+    id: 49946
+    marketGroup: 1956
+    name: Oracle Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
   Orca Amarr Industrial Livery SKIN (Permanent):
@@ -10805,6 +10973,12 @@ items:
     name: Paladin Tash-Murkon SKIN (Permanent)
     published: true
     volume: 0.01
+  Paladin Yoiul Festival YC121 SKIN (Permanent):
+    id: 49947
+    marketGroup: 2024
+    name: Paladin Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Panther Bloody Hands SKIN (Permanent):
     id: 47175
     marketGroup: 2113
@@ -10869,6 +11043,12 @@ items:
     id: 36785
     marketGroup: 2113
     name: Panther Valklear Glory SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Panther Yoiul Festival YC121 SKIN (Permanent):
+    id: 49960
+    marketGroup: 2113
+    name: Panther Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
   Phantasm Glacial Drift SKIN (Permanent):
@@ -11169,6 +11349,12 @@ items:
     id: 47655
     marketGroup: 2421
     name: Praxis Capsuleer Networker XV SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Praxis Icecloud Investigators SKIN (Permanent):
+    id: 49796
+    marketGroup: 2421
+    name: Praxis Icecloud Investigators SKIN (Permanent)
     published: true
     volume: 0.01
   Primae Glacial Drift SKIN (Permanent):
@@ -11698,6 +11884,12 @@ items:
     id: 36794
     marketGroup: 2091
     name: Prowler Valklear Glory SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Punisher Chromodynamic Candy SKIN (Permanent):
+    id: 49798
+    marketGroup: 2002
+    name: Punisher Chromodynamic Candy SKIN (Permanent)
     published: true
     volume: 0.01
   Punisher Cold Iron SKIN (Permanent):
@@ -12231,6 +12423,12 @@ items:
     name: Redeemer Ironblood SKIN (Permanent)
     published: true
     volume: 0.01
+  Redeemer Lavacore Imperial SKIN (Permanent):
+    id: 49819
+    marketGroup: 2110
+    name: Redeemer Lavacore Imperial SKIN (Permanent)
+    published: true
+    volume: 0.01
   Redeemer Purity of the Throne SKIN (Permanent):
     id: 42587
     marketGroup: 2110
@@ -12460,6 +12658,12 @@ items:
     name: Revelation Kador Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Revelation Lavacore Imperial SKIN (Permanent):
+    id: 49822
+    marketGroup: 1980
+    name: Revelation Lavacore Imperial SKIN (Permanent)
+    published: true
+    volume: 0.01
   Revelation Purity of the Throne SKIN (Permanent):
     id: 42591
     marketGroup: 1980
@@ -12623,6 +12827,18 @@ items:
     id: 36754
     marketGroup: 2005
     name: Rifter Valklear Glory SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rodiva Blackfire Steel SKIN (Permanent):
+    id: 49925
+    marketGroup: 2485
+    name: Rodiva Blackfire Steel SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rodiva Hadean Horror SKIN (Permanent):
+    id: 49934
+    marketGroup: 2485
+    name: Rodiva Hadean Horror SKIN (Permanent)
     published: true
     volume: 0.01
   Rokh Blue Tiger SKIN (Permanent):
@@ -12897,6 +13113,12 @@ items:
     id: 36815
     marketGroup: 1993
     name: Rupture Blue Tiger SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rupture Chromodynamic Candy SKIN (Permanent):
+    id: 49801
+    marketGroup: 1993
+    name: Rupture Chromodynamic Candy SKIN (Permanent)
     published: true
     volume: 0.01
   Rupture Dawn of Liberation SKIN (Permanent):
@@ -13713,6 +13935,12 @@ items:
     name: Sleipnir Valklear Glory SKIN (Permanent)
     published: true
     volume: 0.01
+  Sleipnir Yoiul Festival YC121 SKIN (Permanent):
+    id: 49958
+    marketGroup: 2107
+    name: Sleipnir Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Stabber Blue Tiger SKIN (Permanent):
     id: 36817
     marketGroup: 1993
@@ -13960,6 +14188,12 @@ items:
     name: Stratios Spectral Shift Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Stratios Yoiul Festival YC121 SKIN (Permanent):
+    id: 49962
+    marketGroup: 2030
+    name: Stratios Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Succubus Glacial Drift SKIN (Permanent):
     id: 47006
     marketGroup: 2031
@@ -13982,6 +14216,12 @@ items:
     id: 47012
     marketGroup: 2314
     name: Sunesis Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sunesis Icecloud Investigators SKIN (Permanent):
+    id: 49797
+    marketGroup: 2314
+    name: Sunesis Icecloud Investigators SKIN (Permanent)
     published: true
     volume: 0.01
   Sunesis Ironblood SKIN (Permanent):
@@ -14123,6 +14363,12 @@ items:
     id: 37575
     marketGroup: 1958
     name: Talos Valimor Legacy SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Talos Yoiul Festival YC121 SKIN (Permanent):
+    id: 49956
+    marketGroup: 1958
+    name: Talos Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
   Talwar Blue Tiger SKIN (Permanent):
@@ -14860,6 +15106,12 @@ items:
     name: Tornado Valklear Glory SKIN (Permanent)
     published: true
     volume: 0.01
+  Tristan Chromodynamic Candy SKIN (Permanent):
+    id: 49799
+    marketGroup: 2004
+    name: Tristan Chromodynamic Candy SKIN (Permanent)
+    published: true
+    volume: 0.01
   Tristan Exoplanets Hunter SKIN (Permanent):
     id: 45876
     marketGroup: 2004
@@ -15078,6 +15330,12 @@ items:
     name: Typhoon Valkyrie SKIN (Permanent)
     published: true
     volume: 0.01
+  Typhoon Yoiul Festival YC121 SKIN (Permanent):
+    id: 49959
+    marketGroup: 1967
+    name: Typhoon Yoiul Festival YC121 SKIN (Permanent)
+    published: true
+    volume: 0.01
   Vagabond Blue Tiger SKIN (Permanent):
     id: 36819
     marketGroup: 2072
@@ -15215,6 +15473,12 @@ items:
     id: 36786
     marketGroup: 2027
     name: Vargur Valklear Glory SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vedmak Blackfire Steel SKIN (Permanent):
+    id: 49924
+    marketGroup: 2485
+    name: Vedmak Blackfire Steel SKIN (Permanent)
     published: true
     volume: 0.01
   Vedmak Hadean Horror SKIN (Permanent):
@@ -15538,6 +15802,12 @@ items:
     id: 44922
     marketGroup: 2063
     name: Vexor Navy Issue Spirit SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vexor Navy Issue Yoiul Festival YC121 SKIN (Permanent):
+    id: 49955
+    marketGroup: 2063
+    name: Vexor Navy Issue Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
   Vexor Quafe SKIN (Permanent):
@@ -16047,6 +16317,18 @@ items:
   Wyvern Wiyrkomi Serenity Only SKIN (Permanent):
     id: 37970
     name: Wyvern Wiyrkomi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Zarmazd Blackfire Steel SKIN (Permanent):
+    id: 49926
+    marketGroup: 2485
+    name: Zarmazd Blackfire Steel SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Zarmazd Hadean Horror SKIN (Permanent):
+    id: 49935
+    marketGroup: 2485
+    name: Zarmazd Hadean Horror SKIN (Permanent)
     published: true
     volume: 0.01
   Zealot Capsuleer Day XV SKIN (Permanent):

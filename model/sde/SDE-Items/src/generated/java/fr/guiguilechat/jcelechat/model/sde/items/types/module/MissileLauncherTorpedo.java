@@ -82,6 +82,14 @@ public class MissileLauncherTorpedo
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -166,6 +174,14 @@ public class MissileLauncherTorpedo
     @DefaultIntValue(0)
     public int Speed;
     /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
     @HighIsGood(false)
@@ -208,6 +224,10 @@ public class MissileLauncherTorpedo
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  633 :
+            {
+                return MetaLevel;
             }
             case  1205 :
             {
@@ -256,6 +276,10 @@ public class MissileLauncherTorpedo
             case  51 :
             {
                 return Speed;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  1768 :
             {

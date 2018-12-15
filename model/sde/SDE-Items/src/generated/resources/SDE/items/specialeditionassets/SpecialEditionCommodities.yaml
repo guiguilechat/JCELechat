@@ -1,22 +1,34 @@
 items:
-  '''Domino Turqoise'' Augmentation Crate':
+  '''Bitwave Glacier'' Augmentation Crate':
+    CpuMultiplier: 1.0
+    id: 49804
+    marketGroup: 1661
+    name: '''Bitwave Glacier'' Augmentation Crate'
+    published: true
+    volume: 4.0
+  '''Domino Turquoise'' Augmentation Crate':
     CpuMultiplier: 1.0
     id: 49705
-    marketGroup: 2487
-    name: '''Domino Turqoise'' Augmentation Crate'
+    marketGroup: 1661
+    name: '''Domino Turquoise'' Augmentation Crate'
     published: true
     volume: 4.0
   '''Eico Flamjaw'' Augmentation Crate':
     CpuMultiplier: 1.0
     id: 49706
-    marketGroup: 2487
     name: '''Eico Flamjaw'' Augmentation Crate'
+    published: true
+    volume: 4.0
+  '''Mistborne Rime'' Augmentation Crate':
+    CpuMultiplier: 1.0
+    id: 49806
+    name: '''Mistborne Rime'' Augmentation Crate'
     published: true
     volume: 4.0
   '''Subverted'' JVN-UC49 Blueprint Crate':
     CpuMultiplier: 1.0
     id: 48928
-    marketGroup: 2487
+    marketGroup: 1661
     name: '''Subverted'' JVN-UC49 Blueprint Crate'
     published: true
     volume: 4.0
@@ -321,7 +333,7 @@ items:
   Calm Abyssal Filaments Crate:
     CpuMultiplier: 1.0
     id: 49708
-    marketGroup: 2487
+    marketGroup: 1661
     mass: 0.1
     name: Calm Abyssal Filaments Crate
     published: true
@@ -507,6 +519,13 @@ items:
     name: Donut Holder
     published: true
     volume: 0.01
+  Drake & Rupture SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 49805
+    marketGroup: 1661
+    name: Drake & Rupture SKIN Crate
+    published: true
+    volume: 4.0
   Dried Moss:
     CpuMultiplier: 1.0
     id: 48756
@@ -610,7 +629,7 @@ items:
   Fierce Abyssal Filaments Crate:
     CpuMultiplier: 1.0
     id: 49709
-    marketGroup: 2487
+    marketGroup: 1661
     mass: 0.1
     name: Fierce Abyssal Filaments Crate
     published: true
@@ -623,6 +642,20 @@ items:
     name: Forged Frigate Blueprints
     published: true
     volume: 3.0
+  Frostline 'Clavicula' Integrated Analyzer Blueprint Crate:
+    CpuMultiplier: 1.0
+    id: 49975
+    marketGroup: 1661
+    name: Frostline 'Clavicula' Integrated Analyzer Blueprint Crate
+    published: true
+    volume: 4.0
+  Frostline 'Omnivore' Harvester Upgrade Blueprint Crate:
+    CpuMultiplier: 1.0
+    id: 49981
+    marketGroup: 1661
+    name: Frostline 'Omnivore' Harvester Upgrade Blueprint Crate
+    published: true
+    volume: 4.0
   Frozen Droplet of Blood:
     CpuMultiplier: 1.0
     id: 47048
@@ -666,6 +699,14 @@ items:
     name: Glacial Drift Festival Box
     published: true
     volume: 5000.0
+  Gnosis & Punisher SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 49802
+    marketGroup: 1661
+    mass: 0.1
+    name: Gnosis & Punisher SKIN Crate
+    published: true
+    volume: 4.0
   Gold Ouroboros:
     CpuMultiplier: 1.0
     id: 42231
@@ -841,7 +882,7 @@ items:
   Large Faction Ammunition Crate:
     CpuMultiplier: 1.0
     id: 49748
-    marketGroup: 2487
+    marketGroup: 1661
     mass: 0.1
     name: Large Faction Ammunition Crate
     published: true
@@ -883,6 +924,13 @@ items:
     name: Lump of Carbon
     published: true
     volume: 3.0
+  ML-EKP 'Polybolos' Ballistic Control System Blueprint Crate:
+    CpuMultiplier: 1.0
+    id: 49974
+    marketGroup: 1661
+    name: ML-EKP 'Polybolos' Ballistic Control System Blueprint Crate
+    published: true
+    volume: 4.0
   Magic Crystal Ball:
     CpuMultiplier: 1.0
     id: 28840
@@ -932,15 +980,22 @@ items:
   Medium Faction Ammunition Crate:
     CpuMultiplier: 1.0
     id: 49719
-    marketGroup: 2487
+    marketGroup: 1661
     name: Medium Faction Ammunition Crate
     published: true
     volume: 4.0
   Medium Navy Ammunition Crate:
     CpuMultiplier: 1.0
     id: 49718
-    marketGroup: 2487
     name: Medium Navy Ammunition Crate
+    published: true
+    volume: 4.0
+  Men's & Women's Frostline Exploration Suit:
+    CpuMultiplier: 1.0
+    id: 49803
+    marketGroup: 1661
+    mass: 0.1
+    name: Men's & Women's Frostline Exploration Suit
     published: true
     volume: 4.0
   Military Experts and You:
@@ -989,28 +1044,24 @@ items:
   Nov Imp A BPC Crate:
     CpuMultiplier: 1.0
     id: 49531
-    marketGroup: 2487
     name: Nov Imp A BPC Crate
     published: true
     volume: 4.0
   Nov Imp E BPC Crate:
     CpuMultiplier: 1.0
     id: 49532
-    marketGroup: 2487
     name: Nov Imp E BPC Crate
     published: true
     volume: 4.0
   Nov Imp S BPC Crate:
     CpuMultiplier: 1.0
     id: 49533
-    marketGroup: 2487
     name: Nov Imp S BPC Crate
     published: true
     volume: 4.0
   November Module Crate:
     CpuMultiplier: 1.0
     id: 49419
-    marketGroup: 2487
     name: November Module Crate
     published: true
     volume: 4.0
@@ -1313,7 +1364,7 @@ items:
   Small Navy Ammunition Crate:
     CpuMultiplier: 1.0
     id: 49746
-    marketGroup: 2487
+    marketGroup: 1661
     mass: 1.0
     name: Small Navy Ammunition Crate
     published: true
@@ -1570,13 +1621,6 @@ items:
     name: YC118 Succession Trial Champion’s Decree – House Kador
     published: true
     volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Khanid:
-    CpuMultiplier: 1.0
-    id: 37894
-    marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree – House Khanid
-    published: true
-    volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Kor-Azor:
     CpuMultiplier: 1.0
     id: 37895
@@ -1596,6 +1640,13 @@ items:
     id: 37889
     marketGroup: 1661
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
+    published: true
+    volume: 0.01
+  YC118 Succession Trial Champion��s Decree – House Khanid:
+    CpuMultiplier: 1.0
+    id: 37894
+    marketGroup: 1661
+    name: YC118 Succession Trial Champion��s Decree – House Khanid
     published: true
     volume: 0.01
   Yoiul Festival Fireworks Package:

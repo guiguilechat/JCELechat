@@ -1,21 +1,35 @@
 items:
-  Advanced 'Radiance' Cerebral Accelerator:
+  '''Absolute'' Injection Augmentor':
+    BoosterDuration: 57600000
+    BoosterLastInjectionDatetime: 17903.458984375
+    Boosterness: 14
+    FollowsJumpClones: 1
+    NonDiminishingSkillInjectorUses: 3
+    Nondestructible: 1
+    SocialBonus: 100
+    id: 49979
+    marketGroup: 2531
+    name: '''Absolute'' Injection Augmentor'
+    published: true
+    volume: 1.0
+  Advanced 'Brainfreeze' Cerebral Accelerator:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17862.458984375
+    BoosterLastInjectionDatetime: 17911.458984375
     Boosterness: 10
     CharismaBonus: 12
     FollowsJumpClones: 1
     IntelligenceBonus: 12
     MemoryBonus: 12
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 12
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     SocialBonus: 100
     WillpowerBonus: 12
-    id: 48607
+    id: 48615
     marketGroup: 2487
-    name: Advanced 'Radiance' Cerebral Accelerator
+    name: Advanced 'Brainfreeze' Cerebral Accelerator
     published: true
     volume: 1.0
   Advanced Cerebral Accelerator:
@@ -25,6 +39,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 17
     MemoryBonus: 17
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 17
     RequiredSkill1: 3402
@@ -40,6 +55,7 @@ items:
     ArmorDamageAmountBonus: 3
     BoosterDuration: 1800000
     Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
     ShieldBoostMultiplier: 3.0
     SocialBonus: 100
     id: 46001
@@ -52,6 +68,7 @@ items:
     ArmorDamageAmountBonus: 5
     BoosterDuration: 1800000
     Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
     ShieldBoostMultiplier: 5.0
     SocialBonus: 100
     id: 46002
@@ -64,6 +81,7 @@ items:
     ArmorDamageAmountBonus: 7
     BoosterDuration: 1800000
     Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
     ShieldBoostMultiplier: 7.0
     SocialBonus: 100
     id: 46003
@@ -76,6 +94,7 @@ items:
     ArmorDamageAmountBonus: 9
     BoosterDuration: 1800000
     Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
     ShieldBoostMultiplier: 9.0
     SocialBonus: 100
     id: 48113
@@ -87,6 +106,7 @@ items:
   Agency 'Overclocker' SB3 Dose I:
     BoosterDuration: 1800000
     Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
     SocialBonus: 100
     VelocityBonus: 3.0
     id: 46004
@@ -98,6 +118,7 @@ items:
   Agency 'Overclocker' SB5 Dose II:
     BoosterDuration: 1800000
     Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
     SocialBonus: 100
     VelocityBonus: 5.0
     id: 46005
@@ -109,6 +130,7 @@ items:
   Agency 'Overclocker' SB7 Dose III:
     BoosterDuration: 1800000
     Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
     SocialBonus: 100
     VelocityBonus: 7.0
     id: 46006
@@ -120,6 +142,7 @@ items:
   Agency 'Overclocker' SB9 Dose IV:
     BoosterDuration: 1800000
     Boosterness: 11
+    NonDiminishingSkillInjectorUses: 1
     SocialBonus: 100
     VelocityBonus: 9.0
     id: 48114
@@ -132,6 +155,7 @@ items:
     BoosterDuration: 1800000
     Boosterness: 11
     DamageMultiplierBonus: 3
+    NonDiminishingSkillInjectorUses: 1
     SocialBonus: 100
     id: 45998
     marketGroup: 2505
@@ -143,6 +167,7 @@ items:
     BoosterDuration: 1800000
     Boosterness: 11
     DamageMultiplierBonus: 5
+    NonDiminishingSkillInjectorUses: 1
     SocialBonus: 100
     id: 45999
     marketGroup: 2505
@@ -154,6 +179,7 @@ items:
     BoosterDuration: 1800000
     Boosterness: 11
     DamageMultiplierBonus: 7
+    NonDiminishingSkillInjectorUses: 1
     SocialBonus: 100
     id: 46000
     marketGroup: 2505
@@ -165,6 +191,7 @@ items:
     BoosterDuration: 1800000
     Boosterness: 11
     DamageMultiplierBonus: 9
+    NonDiminishingSkillInjectorUses: 1
     SocialBonus: 100
     id: 48115
     marketGroup: 2505
@@ -176,6 +203,7 @@ items:
     BoosterDuration: 1800000
     Boosterness: 1
     CapacitorCapacityBonus: 8.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -188,6 +216,7 @@ items:
   Antipharmakon Iokira:
     BoosterDuration: 1800000
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -202,6 +231,7 @@ items:
     ArmorDamageAmountBonus: 8
     BoosterDuration: 1800000
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -214,6 +244,7 @@ items:
   Antipharmakon Thureo:
     BoosterDuration: 1800000
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 8.0
@@ -228,6 +259,7 @@ items:
     BoosterDuration: 1800000
     Boosterness: 3
     MaxFlightTimeBonus: 8
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -237,23 +269,24 @@ items:
     name: Antipharmakon Toxot
     published: true
     volume: 1.0
-  Basic 'Radiance' Cerebral Accelerator:
+  Basic 'Brainfreeze' Cerebral Accelerator:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17862.458984375
+    BoosterLastInjectionDatetime: 17911.458984375
     Boosterness: 10
     CharismaBonus: 6
     FollowsJumpClones: 1
     IntelligenceBonus: 6
     MemoryBonus: 6
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 6
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     SocialBonus: 100
     WillpowerBonus: 6
-    id: 48605
+    id: 48613
     marketGroup: 2487
-    name: Basic 'Radiance' Cerebral Accelerator
+    name: Basic 'Brainfreeze' Cerebral Accelerator
     published: true
     volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
@@ -264,6 +297,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 12
     MemoryBonus: 12
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 12
     RequiredSkill1: 3402
@@ -283,6 +317,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 12
     MemoryBonus: 12
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 12
     RequiredSkill1: 3402
@@ -302,6 +337,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 10
     MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 10
     RequiredSkill1: 3402
@@ -321,6 +357,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 12
     MemoryBonus: 12
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 12
     RequiredSkill1: 3402
@@ -340,6 +377,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 10
     MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 10
     RequiredSkill1: 3402
@@ -359,6 +397,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 10
     MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 10
     RequiredSkill1: 3402
@@ -378,6 +417,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 10
     MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 10
     RequiredSkill1: 3402
@@ -389,34 +429,36 @@ items:
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
     published: true
     volume: 1.0
-  Extended 'Radiance' Cerebral Accelerator:
+  Extended 'Brainfreeze' Cerebral Accelerator:
     BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17862.458984375
+    BoosterLastInjectionDatetime: 17911.458984375
     Boosterness: 10
     CharismaBonus: 10
     FollowsJumpClones: 1
     IntelligenceBonus: 10
     MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 10
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     SocialBonus: 100
     WillpowerBonus: 10
-    id: 48608
+    id: 48616
     marketGroup: 2487
-    name: Extended 'Radiance' Cerebral Accelerator
+    name: Extended 'Brainfreeze' Cerebral Accelerator
     published: true
     volume: 1.0
   Impetus Potency-50 Glamourex Booster:
     BoosterDuration: 86400000
     Boosterness: 13
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3355
     RequiredSkill1Level: 1
     SocialBonus: 50
     SocialMutator: 50
     id: 49749
-    marketGroup: 2503
+    marketGroup: 2530
     mass: 1.0
     name: Impetus Potency-50 Glamourex Booster
     published: true
@@ -424,12 +466,13 @@ items:
   Impetus Potency-75 Glamourex Booster:
     BoosterDuration: 86400000
     Boosterness: 12
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3355
     RequiredSkill1Level: 1
     SocialBonus: 75
     SocialMutator: 75
     id: 49701
-    marketGroup: 2503
+    marketGroup: 2530
     mass: 1.0
     name: Impetus Potency-75 Glamourex Booster
     published: true
@@ -446,6 +489,7 @@ items:
     BoosterShieldCapacityPenalty: -25
     BoosterTurretOptimalRangePenalty: -25
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 25.0
@@ -469,6 +513,7 @@ items:
     BoosterMissileVelocityPenalty: -25
     BoosterShieldBoostAmountPenalty: -25
     Boosterness: 3
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     SocialBonus: 100
@@ -490,6 +535,7 @@ items:
     BoosterShieldCapacityPenalty: -25
     BoosterTurretFalloffPenalty: -25
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     SocialBonus: 100
@@ -513,6 +559,7 @@ items:
     BoosterMissileAOECloudPenalty: 25
     BoosterTurretTrackingPenalty: -25
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     SocialBonus: 100
@@ -534,6 +581,7 @@ items:
     BoosterShieldBoostAmountPenalty: -25
     BoosterTurretTrackingPenalty: -25
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RangeSkillBonus: 15
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
@@ -557,6 +605,7 @@ items:
     BoosterTurretOptimalRangePenalty: -25
     Boosterness: 1
     CapacitorCapacityBonus: 15.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     SocialBonus: 100
@@ -579,6 +628,7 @@ items:
     BoosterTurretOptimalRangePenalty: -25
     Boosterness: 2
     FalloffBonus: 15.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     SocialBonus: 100
@@ -600,6 +650,7 @@ items:
     BoosterShieldCapacityPenalty: -25
     BoosterTurretFalloffPenalty: -25
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -11.25
@@ -617,6 +668,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 10
     MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 10
     RequiredSkill1: 3402
@@ -628,17 +680,10 @@ items:
     name: Master-at-Arms Cerebral Accelerator
     published: true
     volume: 1.0
-  Mat Boost 2018.11:
-    SocialBonus: 100
-    id: 49702
-    marketGroup: 2504
-    mass: 1.0
-    name: Mat Boost 2018.11
-    published: true
-    volume: 1.0
   Nugoehuvi Synth Blue Pill Booster:
     BoosterDuration: 1980000
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 5.0
@@ -649,6 +694,25 @@ items:
     name: Nugoehuvi Synth Blue Pill Booster
     published: true
     volume: 1.0
+  Onslaught Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17862.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    SocialBonus: 100
+    WillpowerBonus: 10
+    id: 49753
+    name: Onslaught Accelerator
+    published: true
+    volume: 1.0
   Prototype Cerebral Accelerator:
     BoosterMaxCharAgeHours: 336
     Boosterness: 4
@@ -656,6 +720,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 9
     MemoryBonus: 9
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 9
     RequiredSkill1: 3402
@@ -670,6 +735,7 @@ items:
   Quafe Zero:
     BoosterDuration: 3600000
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     ScanResolutionBonus: 5.0
     SocialBonus: 100
     VelocityBonus: 5.0
@@ -679,23 +745,24 @@ items:
     name: Quafe Zero
     published: true
     volume: 1.0
-  Standard 'Radiance' Cerebral Accelerator:
+  Standard 'Brainfreeze' Cerebral Accelerator:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17862.458984375
+    BoosterLastInjectionDatetime: 17911.458984375
     Boosterness: 10
     CharismaBonus: 10
     FollowsJumpClones: 1
     IntelligenceBonus: 10
     MemoryBonus: 10
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 10
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     SocialBonus: 100
     WillpowerBonus: 10
-    id: 48606
+    id: 48614
     marketGroup: 2487
-    name: Standard 'Radiance' Cerebral Accelerator
+    name: Standard 'Brainfreeze' Cerebral Accelerator
     published: true
     volume: 1.0
   Standard Blue Pill Booster:
@@ -710,6 +777,7 @@ items:
     BoosterShieldCapacityPenalty: -20
     BoosterTurretOptimalRangePenalty: -20
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 20.0
@@ -728,6 +796,7 @@ items:
     FollowsJumpClones: 1
     IntelligenceBonus: 3
     MemoryBonus: 3
+    NonDiminishingSkillInjectorUses: 1
     Nondestructible: 1
     PerceptionBonus: 3
     RequiredSkill1: 3402
@@ -753,6 +822,7 @@ items:
     BoosterMissileVelocityPenalty: -20
     BoosterShieldBoostAmountPenalty: -20
     Boosterness: 3
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -774,6 +844,7 @@ items:
     BoosterShieldCapacityPenalty: -20
     BoosterTurretFalloffPenalty: -20
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -797,6 +868,7 @@ items:
     BoosterMissileAOECloudPenalty: 20
     BoosterTurretTrackingPenalty: -20
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -818,6 +890,7 @@ items:
     BoosterShieldBoostAmountPenalty: -20
     BoosterTurretTrackingPenalty: -20
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RangeSkillBonus: 10
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
@@ -841,6 +914,7 @@ items:
     BoosterTurretOptimalRangePenalty: -20
     Boosterness: 1
     CapacitorCapacityBonus: 10.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -863,6 +937,7 @@ items:
     BoosterTurretOptimalRangePenalty: -20
     Boosterness: 2
     FalloffBonus: 10.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -884,6 +959,7 @@ items:
     BoosterShieldCapacityPenalty: -20
     BoosterTurretFalloffPenalty: -20
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SignatureRadiusBonus: -7.5
@@ -906,6 +982,7 @@ items:
     BoosterShieldCapacityPenalty: -30
     BoosterTurretOptimalRangePenalty: -30
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 30.0
@@ -929,6 +1006,7 @@ items:
     BoosterMissileVelocityPenalty: -30
     BoosterShieldBoostAmountPenalty: -30
     Boosterness: 3
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     SocialBonus: 100
@@ -950,6 +1028,7 @@ items:
     BoosterShieldCapacityPenalty: -30
     BoosterTurretFalloffPenalty: -30
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     SocialBonus: 100
@@ -973,6 +1052,7 @@ items:
     BoosterMissileAOECloudPenalty: 30
     BoosterTurretTrackingPenalty: -30
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     SocialBonus: 100
@@ -994,6 +1074,7 @@ items:
     BoosterShieldBoostAmountPenalty: -30
     BoosterTurretTrackingPenalty: -30
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RangeSkillBonus: 20
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
@@ -1017,6 +1098,7 @@ items:
     BoosterTurretOptimalRangePenalty: -30
     Boosterness: 1
     CapacitorCapacityBonus: 20.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     SocialBonus: 100
@@ -1039,6 +1121,7 @@ items:
     BoosterTurretOptimalRangePenalty: -30
     Boosterness: 2
     FalloffBonus: 20.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     SocialBonus: 100
@@ -1060,6 +1143,7 @@ items:
     BoosterShieldCapacityPenalty: -30
     BoosterTurretFalloffPenalty: -30
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -15.0
@@ -1073,6 +1157,7 @@ items:
   Synth Blue Pill Booster:
     BoosterDuration: 1800000
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 3.0
@@ -1087,6 +1172,7 @@ items:
     AoeCloudSizeBonus: -3.0
     BoosterDuration: 1800000
     Boosterness: 3
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -1099,6 +1185,7 @@ items:
   Synth Drop Booster:
     BoosterDuration: 1800000
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -1113,6 +1200,7 @@ items:
     ArmorDamageAmountBonus: 3
     BoosterDuration: 1800000
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -1125,6 +1213,7 @@ items:
   Synth Frentix Booster:
     BoosterDuration: 1800000
     Boosterness: 2
+    NonDiminishingSkillInjectorUses: 1
     RangeSkillBonus: 3
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
@@ -1139,6 +1228,7 @@ items:
     BoosterDuration: 1800000
     Boosterness: 1
     CapacitorCapacityBonus: 3.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -1152,6 +1242,7 @@ items:
     BoosterDuration: 1800000
     Boosterness: 2
     FalloffBonus: 3.0
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SocialBonus: 100
@@ -1164,6 +1255,7 @@ items:
   Synth X-Instinct Booster:
     BoosterDuration: 1800000
     Boosterness: 1
+    NonDiminishingSkillInjectorUses: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SignatureRadiusBonus: -2.25

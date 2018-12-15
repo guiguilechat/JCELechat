@@ -116,6 +116,14 @@ public class JumpPortalGenerator
     @DefaultIntValue(0)
     public int MaxGroupActive;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -157,6 +165,14 @@ public class JumpPortalGenerator
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static JumpPortalGenerator.MetaGroup METAGROUP = new JumpPortalGenerator.MetaGroup();
 
     @Override
@@ -218,6 +234,10 @@ public class JumpPortalGenerator
             {
                 return MaxGroupActive;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -241,6 +261,10 @@ public class JumpPortalGenerator
             case  20 :
             {
                 return SpeedFactor;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

@@ -117,6 +117,14 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */
     @HighIsGood(true)
@@ -236,6 +244,14 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int TargetModule;
     /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
      * Weapon accuracy
      */
     @HighIsGood(true)
@@ -306,6 +322,10 @@ public class EnergyWeapon
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  620 :
             {
                 return OptimalSigRadius;
@@ -373,6 +393,10 @@ public class EnergyWeapon
             case  61 :
             {
                 return TargetModule;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  160 :
             {

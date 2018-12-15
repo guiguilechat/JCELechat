@@ -60,6 +60,14 @@ public class RigEnergyWeapon
     @DefaultDoubleValue(0.0)
     public double MaxRangeBonus;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -73,6 +81,14 @@ public class RigEnergyWeapon
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Tracking Speed Bonus
      */
@@ -123,6 +139,10 @@ public class RigEnergyWeapon
             {
                 return MaxRangeBonus;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1547 :
             {
                 return RigSize;
@@ -130,6 +150,10 @@ public class RigEnergyWeapon
             case  204 :
             {
                 return SpeedMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  767 :
             {

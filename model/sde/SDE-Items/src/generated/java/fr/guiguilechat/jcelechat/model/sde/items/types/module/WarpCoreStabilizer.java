@@ -47,6 +47,14 @@ public class WarpCoreStabilizer
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -75,6 +83,14 @@ public class WarpCoreStabilizer
     @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
     /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
      * Amount to modify ships warp scramble status by.
      */
     @HighIsGood(true)
@@ -98,6 +114,10 @@ public class WarpCoreStabilizer
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -113,6 +133,10 @@ public class WarpCoreStabilizer
             case  565 :
             {
                 return ScanResolutionMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  105 :
             {

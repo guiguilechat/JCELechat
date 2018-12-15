@@ -18,6 +18,13 @@ public class Booster
     extends Implant
 {
     /**
+     * Attribute defining usage count for penaltyless skill injections
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int NonDiminishingSkillInjectorUses;
+    /**
      * Booster attribute to explosion radius of missiles vs. signature radius.
      */
     @HighIsGood(true)
@@ -323,6 +330,10 @@ public class Booster
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  2806 :
+            {
+                return NonDiminishingSkillInjectorUses;
+            }
             case  848 :
             {
                 return AoeCloudSizeBonus;

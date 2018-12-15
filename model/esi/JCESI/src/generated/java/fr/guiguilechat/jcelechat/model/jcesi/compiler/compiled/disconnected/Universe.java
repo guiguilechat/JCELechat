@@ -51,7 +51,7 @@ public class Universe {
     private final Map<Integer, ObsObjHolder<R_get_universe_schematics_schematic_id>> get_universe_schematics_schematic_id_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_universe_stargates_stargate_id>> get_universe_stargates_stargate_id_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_universe_stars_star_id>> get_universe_stars_star_id_holder = new HashMap<>();
-    private ObsListHolder<Long> get_universe_structures_holder;
+    private final Map<fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter, ObsListHolder<Long>> get_universe_structures_holder = new HashMap<>();
     private ObsListHolder<R_get_universe_system_jumps> get_universe_system_jumps_holder;
     private ObsListHolder<Integer> get_universe_systems_holder;
     private ObsListHolder<Integer> get_universe_types_holder;
@@ -740,18 +740,24 @@ public class Universe {
      * List all public structures
      * 
      * cache over {@link Swagger#get_universe_structures}<br />
+     * 
+     * @param filter
+     *     Only list public structures that have this service online
      */
-    public ObsListHolder<Long> structures() {
-        if (get_universe_structures_holder == null) {
-            LockWatchDog.BARKER.tak(this);
-            synchronized (this)
+    public ObsListHolder<Long> structures(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter filter) {
+        ObsListHolder<Long> ret = get_universe_structures_holder.get(filter);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_structures_holder);
+            synchronized (get_universe_structures_holder)
             {
-                LockWatchDog.BARKER.hld(this);
-                if (get_universe_structures_holder == null) {
+                LockWatchDog.BARKER.hld(get_universe_structures_holder);
+                ret = get_universe_structures_holder.get(filter);
+                if (ret == null) {
                     ObservableList<Long> holder = FXCollections.observableArrayList();
-                    get_universe_structures_holder = (cache).toHolder(holder);
-                    ObsListHolder<Long> finalRet = get_universe_structures_holder;
-                    (cache).addFetchCacheArray("get_universe_structures", (page, properties) -> (cache.swagger).get_universe_structures(properties), arr -> {
+                    ret = (cache).toHolder(holder);
+                    get_universe_structures_holder.put(filter, ret);
+                    ObsListHolder<Long> finalRet = ret;
+                    (cache).addFetchCacheArray("get_universe_structures", (page, properties) -> (cache.swagger).get_universe_structures(filter, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
@@ -764,9 +770,9 @@ public class Universe {
                     );
                 }
             }
-            LockWatchDog.BARKER.rel(this);
+            LockWatchDog.BARKER.rel(get_universe_structures_holder);
         }
-        return get_universe_structures_holder;
+        return ret;
     }
 
     /**

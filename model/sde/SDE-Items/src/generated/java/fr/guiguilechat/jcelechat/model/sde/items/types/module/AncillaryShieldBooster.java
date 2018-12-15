@@ -81,6 +81,14 @@ public class AncillaryShieldBooster
     @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -136,6 +144,14 @@ public class AncillaryShieldBooster
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ShieldBonus;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static AncillaryShieldBooster.MetaGroup METAGROUP = new AncillaryShieldBooster.MetaGroup();
 
     @Override
@@ -177,6 +193,10 @@ public class AncillaryShieldBooster
             {
                 return MaxGroupFitted;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1206 :
             {
                 return OverloadSelfDurationBonus;
@@ -208,6 +228,10 @@ public class AncillaryShieldBooster
             case  68 :
             {
                 return ShieldBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

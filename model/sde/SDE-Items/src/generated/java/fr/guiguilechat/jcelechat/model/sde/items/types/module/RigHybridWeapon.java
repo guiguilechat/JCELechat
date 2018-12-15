@@ -67,6 +67,14 @@ public class RigHybridWeapon
     @DefaultIntValue(1)
     public int MaxRangeMultiplier;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -80,6 +88,14 @@ public class RigHybridWeapon
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Tracking Speed Bonus
      */
@@ -134,6 +150,10 @@ public class RigHybridWeapon
             {
                 return MaxRangeMultiplier;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1547 :
             {
                 return RigSize;
@@ -141,6 +161,10 @@ public class RigHybridWeapon
             case  204 :
             {
                 return SpeedMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  767 :
             {

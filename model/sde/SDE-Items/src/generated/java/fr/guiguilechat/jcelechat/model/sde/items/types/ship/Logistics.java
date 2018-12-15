@@ -278,6 +278,27 @@ public class Logistics
     @DefaultDoubleValue(0.0)
     public double ShipBonusMC2;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusPC1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
+    /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
@@ -453,6 +474,18 @@ public class Logistics
             case  659 :
             {
                 return ShipBonusMC2;
+            }
+            case  2764 :
+            {
+                return ShipBonusPC1;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
             }
             case  2301 :
             {

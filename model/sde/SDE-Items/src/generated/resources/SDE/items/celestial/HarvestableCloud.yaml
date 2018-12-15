@@ -111,6 +111,11 @@ items:
     name: Golden Mykoserocin
     published: true
     volume: 10.0
+  Hiemal Tricarboxyl Vapor:
+    id: 49787
+    name: Hiemal Tricarboxyl Vapor
+    published: true
+    volume: 10.0
   Lime Cytoserocin:
     id: 25277
     marketGroup: 983

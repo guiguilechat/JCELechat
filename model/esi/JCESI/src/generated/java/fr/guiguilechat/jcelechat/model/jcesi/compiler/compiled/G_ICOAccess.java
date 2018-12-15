@@ -2274,23 +2274,6 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get character notifications
-     * <p>
-     * Return character notifications<br />
-     * This route is cached for up to 600 seconds<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/notifications/)
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public default Requested<R_get_characters_character_id_notifications[]> get_characters_notifications(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/characters/{character_id}/notifications/".replace("{character_id}", ""+character_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications[].class));
-    }
-
-    /**
      * Get colony layout
      * <p>
      * Returns full details on the layout of a single planetary colony, including links, pins and routes. Note: Planetary information is only recalculated when the colony is viewed through the client. Information will not update until this criteria is met.<br />
@@ -2426,6 +2409,21 @@ public interface G_ICOAccess
         Map<String, Object> content = new HashMap<>();
         content.put("characters", characters);
         return requestPost(url, properties, content, Float.class);
+    }
+
+    /**
+     * Get character notifications
+     * <p>
+     * Return character notifications<br />
+     * This route is cached for up to 600 seconds
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public default Requested<R_get_characters_character_id_notifications[]> get_characters_notifications(int character_id, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v4/characters/{character_id}/notifications/".replace("{character_id}", ""+character_id));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications[].class));
     }
 
     /**

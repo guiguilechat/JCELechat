@@ -81,6 +81,14 @@ public class InterdictionSphereLauncher
     @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -150,6 +158,14 @@ public class InterdictionSphereLauncher
     @Stackable(false)
     @DefaultIntValue(0)
     public int Speed;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static InterdictionSphereLauncher.MetaGroup METAGROUP = new InterdictionSphereLauncher.MetaGroup();
 
     @Override
@@ -191,6 +207,10 @@ public class InterdictionSphereLauncher
             {
                 return MaxGroupFitted;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1205 :
             {
                 return OverloadRofBonus;
@@ -230,6 +250,10 @@ public class InterdictionSphereLauncher
             case  51 :
             {
                 return Speed;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

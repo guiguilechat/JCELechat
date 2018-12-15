@@ -491,6 +491,13 @@ items:
     name: Men's Federal Strategic Materiel Jacket
     published: true
     volume: 0.1
+  Men's Frostline Exploration Suit:
+    Gender: 2
+    id: 49978
+    mass: 0.5
+    name: Men's Frostline Exploration Suit
+    published: true
+    volume: 0.1
   Men's Gallente Federation Command Jacket:
     Gender: 2
     id: 46665
@@ -1375,6 +1382,13 @@ items:
     marketGroup: 1405
     mass: 0.5
     name: Women's Federal Strategic Materiel Jacket
+    published: true
+    volume: 0.1
+  Women's Frostline Exploration Suit:
+    Gender: 2
+    id: 49980
+    mass: 0.5
+    name: Women's Frostline Exploration Suit
     published: true
     volume: 0.1
   Women's Gallente Federation Command Jacket:

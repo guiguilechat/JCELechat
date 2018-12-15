@@ -102,6 +102,14 @@ public class MicroJumpDrive
     @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -136,6 +144,14 @@ public class MicroJumpDrive
     @Stackable(false)
     @DefaultIntValue(0)
     public int SignatureRadiusBonusPercent;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static MicroJumpDrive.MetaGroup METAGROUP = new MicroJumpDrive.MetaGroup();
 
     @Override
@@ -189,6 +205,10 @@ public class MicroJumpDrive
             {
                 return MaxGroupFitted;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  669 :
             {
                 return ModuleReactivationDelay;
@@ -208,6 +228,10 @@ public class MicroJumpDrive
             case  973 :
             {
                 return SignatureRadiusBonusPercent;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

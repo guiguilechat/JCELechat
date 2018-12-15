@@ -32,6 +32,14 @@ public class EntropicRadiationSink
     @DefaultDoubleValue(1.0)
     public double DamageMultiplier;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -59,6 +67,14 @@ public class EntropicRadiationSink
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static EntropicRadiationSink.MetaGroup METAGROUP = new EntropicRadiationSink.MetaGroup();
 
     @Override
@@ -71,6 +87,10 @@ public class EntropicRadiationSink
             case  64 :
             {
                 return DamageMultiplier;
+            }
+            case  633 :
+            {
+                return MetaLevel;
             }
             case  30 :
             {
@@ -87,6 +107,10 @@ public class EntropicRadiationSink
             case  204 :
             {
                 return SpeedMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

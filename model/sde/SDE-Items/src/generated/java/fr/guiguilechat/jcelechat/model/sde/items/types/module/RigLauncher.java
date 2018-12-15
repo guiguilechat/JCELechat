@@ -53,6 +53,14 @@ public class RigLauncher
     @DefaultIntValue(0)
     public int MaxFlightTimeBonus;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Additional percentage to the characters missile damage multiplier.
      */
     @HighIsGood(true)
@@ -80,6 +88,14 @@ public class RigLauncher
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
      */
@@ -112,6 +128,10 @@ public class RigLauncher
             {
                 return MaxFlightTimeBonus;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  213 :
             {
                 return MissileDamageMultiplierBonus;
@@ -127,6 +147,10 @@ public class RigLauncher
             case  204 :
             {
                 return SpeedMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  1153 :
             {

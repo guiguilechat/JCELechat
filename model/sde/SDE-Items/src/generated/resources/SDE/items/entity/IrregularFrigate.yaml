@@ -53,6 +53,18 @@ items:
     name: Infester Alvi
     published: false
     volume: 60.0
+  Mordu's Legionnaire:
+    id: 49763
+    mass: 1650000.0
+    name: Mordu's Legionnaire
+    published: false
+    volume: 16500.0
+  Mordu's Spatha:
+    id: 49807
+    mass: 1650000.0
+    name: Mordu's Spatha
+    published: false
+    volume: 16500.0
   Noumenal Impeder:
     id: 47715
     mass: 1910000.0

@@ -89,6 +89,14 @@ public class SensorBooster
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -165,6 +173,14 @@ public class SensorBooster
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static SensorBooster.MetaGroup METAGROUP = new SensorBooster.MetaGroup();
 
     @Override
@@ -205,6 +221,10 @@ public class SensorBooster
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  633 :
+            {
+                return MetaLevel;
             }
             case  1936 :
             {
@@ -249,6 +269,10 @@ public class SensorBooster
             case  566 :
             {
                 return ScanResolutionBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

@@ -32,6 +32,14 @@ public class ScanningUpgrade
     @DefaultIntValue(0)
     public int MaxScanDeviationModifierModule;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -66,6 +74,14 @@ public class ScanningUpgrade
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanStrengthBonusModule;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static ScanningUpgrade.MetaGroup METAGROUP = new ScanningUpgrade.MetaGroup();
 
     @Override
@@ -78,6 +94,10 @@ public class ScanningUpgrade
             case  1905 :
             {
                 return MaxScanDeviationModifierModule;
+            }
+            case  633 :
+            {
+                return MetaLevel;
             }
             case  30 :
             {
@@ -98,6 +118,10 @@ public class ScanningUpgrade
             case  1907 :
             {
                 return ScanStrengthBonusModule;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

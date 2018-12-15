@@ -1,4 +1,11 @@
 items:
+  Frostline 'Omnivore' Harvester Upgrade Blueprint:
+    TechLevel: 1
+    id: 49973
+    marketGroup: 937
+    name: Frostline 'Omnivore' Harvester Upgrade Blueprint
+    published: true
+    volume: 0.01
   Ice Harvester Upgrade I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1

@@ -35,6 +35,13 @@ items:
     name: Khanid Navy Ballistic Control System Blueprint
     published: true
     volume: 0.01
+  ML-EKP 'Polybolos' Ballistic Control System Blueprint:
+    TechLevel: 1
+    id: 49971
+    marketGroup: 343
+    name: ML-EKP 'Polybolos' Ballistic Control System Blueprint
+    published: true
+    volume: 0.01
   Republic Fleet Ballistic Control System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1

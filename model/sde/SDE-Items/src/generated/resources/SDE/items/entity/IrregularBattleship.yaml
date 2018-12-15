@@ -65,6 +65,12 @@ items:
     name: Megathron Hulk
     published: false
     volume: 486000.0
+  Mordu's Centurion:
+    id: 49765
+    mass: 1.9E7
+    name: Mordu's Centurion
+    published: false
+    volume: 2.2E7
   November Nightmare:
     id: 48936
     mass: 1.001E7

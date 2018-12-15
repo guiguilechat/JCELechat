@@ -75,6 +75,14 @@ public class DataMiners
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -109,6 +117,14 @@ public class DataMiners
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * The coherence of a virus.
      */
@@ -163,6 +179,10 @@ public class DataMiners
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -182,6 +202,10 @@ public class DataMiners
             case  278 :
             {
                 return RequiredSkill2Level;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  1909 :
             {

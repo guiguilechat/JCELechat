@@ -54,6 +54,14 @@ public class CapacitorBattery
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -74,6 +82,14 @@ public class CapacitorBattery
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static CapacitorBattery.MetaGroup METAGROUP = new CapacitorBattery.MetaGroup();
 
     @Override
@@ -95,6 +111,10 @@ public class CapacitorBattery
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -106,6 +126,10 @@ public class CapacitorBattery
             case  277 :
             {
                 return RequiredSkill1Level;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

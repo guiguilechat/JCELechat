@@ -88,6 +88,14 @@ public class TargetBreaker
     @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -129,6 +137,14 @@ public class TargetBreaker
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static TargetBreaker.MetaGroup METAGROUP = new TargetBreaker.MetaGroup();
 
     @Override
@@ -174,6 +190,10 @@ public class TargetBreaker
             {
                 return MaxGroupFitted;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1206 :
             {
                 return OverloadSelfDurationBonus;
@@ -197,6 +217,10 @@ public class TargetBreaker
             case  565 :
             {
                 return ScanResolutionMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

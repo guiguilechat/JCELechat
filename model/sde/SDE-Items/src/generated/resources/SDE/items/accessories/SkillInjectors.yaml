@@ -22,7 +22,6 @@ items:
   OSI 2018.11:
     ContainedSkillPoints: 256000
     id: 49704
-    marketGroup: 2358
     name: OSI 2018.11
     published: true
     volume: 0.002

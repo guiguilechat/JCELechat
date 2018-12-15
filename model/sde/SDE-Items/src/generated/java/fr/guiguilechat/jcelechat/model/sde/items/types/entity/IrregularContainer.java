@@ -9,42 +9,42 @@ import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class IrregularStructure
+public class IrregularContainer
     extends Entity
 {
-    public final static IrregularStructure.MetaGroup METAGROUP = new IrregularStructure.MetaGroup();
+    public final static IrregularContainer.MetaGroup METAGROUP = new IrregularContainer.MetaGroup();
 
     @Override
-    public IMetaGroup<IrregularStructure> getGroup() {
+    public IMetaGroup<IrregularContainer> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<IrregularStructure>
+        implements IMetaGroup<IrregularContainer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/IrregularStructure.yaml";
-        private Map<String, IrregularStructure> cache = (null);
+        public final static String RESOURCE_PATH = "SDE/items/entity/IrregularContainer.yaml";
+        private Map<String, IrregularContainer> cache = (null);
 
         @Override
-        public IMetaCategory<? super IrregularStructure> category() {
+        public IMetaCategory<? super IrregularContainer> category() {
             return Entity.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  1927;
+            return  1928;
         }
 
         @Override
         public String getName() {
-            return "IrregularStructure";
+            return "IrregularContainer";
         }
 
         @Override
-        public synchronized Map<String, IrregularStructure> load() {
+        public synchronized Map<String, IrregularContainer> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(IrregularStructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(IrregularContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -53,7 +53,7 @@ public class IrregularStructure
         }
 
         private static class Container {
-            public LinkedHashMap<String, IrregularStructure> items;
+            public LinkedHashMap<String, IrregularContainer> items;
         }
     }
 }

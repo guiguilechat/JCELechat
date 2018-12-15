@@ -554,6 +554,7 @@ items:
     HeatGenerationMultiplier: 1.0
     HiSlots: 4
     Hp: 550
+    JumpHarmonics: 5
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 4
     MainColor: 16777215

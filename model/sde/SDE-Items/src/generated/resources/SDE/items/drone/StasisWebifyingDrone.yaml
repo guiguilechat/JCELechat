@@ -51,7 +51,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23536
-    marketGroup: 843
+    marketGroup: 841
     mass: 3000.0
     name: Berserker SW-900
     published: true
@@ -108,7 +108,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23729
-    marketGroup: 843
+    marketGroup: 841
     mass: 3000.0
     name: Valkyrie SW-600
     published: true
@@ -165,7 +165,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23731
-    marketGroup: 843
+    marketGroup: 841
     mass: 3000.0
     name: Warrior SW-300
     published: true

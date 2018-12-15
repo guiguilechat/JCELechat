@@ -110,6 +110,14 @@ public class FlexArmorHardener
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -165,6 +173,14 @@ public class FlexArmorHardener
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * 
      */
@@ -225,6 +241,10 @@ public class FlexArmorHardener
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1208 :
             {
                 return OverloadHardeningBonus;
@@ -256,6 +276,10 @@ public class FlexArmorHardener
             case  1212 :
             {
                 return RequiredThermoDynamicsSkill;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  987 :
             {

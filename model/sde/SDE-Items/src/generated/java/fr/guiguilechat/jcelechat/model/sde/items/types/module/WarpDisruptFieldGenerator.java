@@ -124,6 +124,14 @@ public class WarpDisruptFieldGenerator
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -201,6 +209,14 @@ public class WarpDisruptFieldGenerator
     @DefaultIntValue(0)
     public int SpeedFactorBonus;
     /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
      * Maximum range objects can be warp scrambled from.
      */
     @HighIsGood(true)
@@ -275,6 +291,10 @@ public class WarpDisruptFieldGenerator
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1206 :
             {
                 return OverloadSelfDurationBonus;
@@ -318,6 +338,10 @@ public class WarpDisruptFieldGenerator
             case  1164 :
             {
                 return SpeedFactorBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  103 :
             {

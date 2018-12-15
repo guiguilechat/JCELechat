@@ -79,6 +79,8 @@ public enum get_characters_character_id_notifications_type {
     CloneRevokedMsg1("CloneRevokedMsg1"),
     @JsonProperty("CloneRevokedMsg2")
     CloneRevokedMsg2("CloneRevokedMsg2"),
+    @JsonProperty("CombatOperationFinished")
+    CombatOperationFinished("CombatOperationFinished"),
     @JsonProperty("ContactAdd")
     ContactAdd("ContactAdd"),
     @JsonProperty("ContactEdit")
@@ -193,6 +195,8 @@ public enum get_characters_character_id_notifications_type {
     IHubDestroyedByBillFailure("IHubDestroyedByBillFailure"),
     @JsonProperty("IncursionCompletedMsg")
     IncursionCompletedMsg("IncursionCompletedMsg"),
+    @JsonProperty("IndustryOperationFinished")
+    IndustryOperationFinished("IndustryOperationFinished"),
     @JsonProperty("IndustryTeamAuctionLost")
     IndustryTeamAuctionLost("IndustryTeamAuctionLost"),
     @JsonProperty("IndustryTeamAuctionWon")

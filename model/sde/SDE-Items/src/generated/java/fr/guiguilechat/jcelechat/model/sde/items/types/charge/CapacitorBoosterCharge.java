@@ -52,6 +52,13 @@ public class CapacitorBoosterCharge
     @DefaultIntValue(0)
     public int LauncherGroup2;
     /**
+     * One of the groups of launcher this charge can be loaded into.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherGroup3;
+    /**
      * Authoring has been moved to FSD.
      * meta group of type
      * 
@@ -90,6 +97,10 @@ public class CapacitorBoosterCharge
             case  602 :
             {
                 return LauncherGroup2;
+            }
+            case  603 :
+            {
+                return LauncherGroup3;
             }
             case  1692 :
             {

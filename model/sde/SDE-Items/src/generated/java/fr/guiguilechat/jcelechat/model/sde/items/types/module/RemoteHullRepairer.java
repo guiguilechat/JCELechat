@@ -67,6 +67,14 @@ public class RemoteHullRepairer
     @DefaultIntValue(0)
     public int MaxRange;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -122,6 +130,14 @@ public class RemoteHullRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureDamageAmount;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static RemoteHullRepairer.MetaGroup METAGROUP = new RemoteHullRepairer.MetaGroup();
 
     @Override
@@ -155,6 +171,10 @@ public class RemoteHullRepairer
             {
                 return MaxRange;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1206 :
             {
                 return OverloadSelfDurationBonus;
@@ -186,6 +206,10 @@ public class RemoteHullRepairer
             case  83 :
             {
                 return StructureDamageAmount;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

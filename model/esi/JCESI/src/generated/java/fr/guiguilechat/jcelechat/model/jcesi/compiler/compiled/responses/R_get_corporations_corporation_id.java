@@ -53,6 +53,10 @@ public class R_get_corporations_corporation_id {
      * url string
      */
     public String url;
+    /**
+     * war_eligible boolean
+     */
+    public boolean war_eligible;
 
     @Override
     public boolean equals(Object other) {
@@ -102,10 +106,13 @@ public class R_get_corporations_corporation_id {
         if ((url!= othersame.url)&&((url == null)||(!url.equals(othersame.url)))) {
             return false;
         }
+        if (war_eligible!= othersame.war_eligible) {
+            return false;
+        }
         return true;
     }
 
     public int hashCode() {
-        return ((((((((((((alliance_id + ceo_id)+ creator_id)+((date_founded == null)? 0 :date_founded.hashCode()))+((description == null)? 0 :description.hashCode()))+ faction_id)+ home_station_id)+ member_count)+((name == null)? 0 :name.hashCode()))+ Long.hashCode(shares))+ Double.hashCode(tax_rate))+((ticker == null)? 0 :ticker.hashCode()))+((url == null)? 0 :url.hashCode()));
+        return (((((((((((((alliance_id + ceo_id)+ creator_id)+((date_founded == null)? 0 :date_founded.hashCode()))+((description == null)? 0 :description.hashCode()))+ faction_id)+ home_station_id)+ member_count)+((name == null)? 0 :name.hashCode()))+ Long.hashCode(shares))+ Double.hashCode(tax_rate))+((ticker == null)? 0 :ticker.hashCode()))+((url == null)? 0 :url.hashCode()))+ Boolean.hashCode(war_eligible));
     }
 }

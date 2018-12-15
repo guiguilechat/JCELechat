@@ -3,6 +3,10 @@ items:
     mass: 1.0
     name: '#System'
     published: false
+  Winter Event Camera Lock:
+    id: 49782
+    name: Winter Event Camera Lock
+    published: false
   asurface1_f_01:amarrbase:amarr:
     id: 48464
     name: asurface1_f_01:amarrbase:amarr

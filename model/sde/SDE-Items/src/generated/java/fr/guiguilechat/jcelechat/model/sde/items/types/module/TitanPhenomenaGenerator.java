@@ -123,6 +123,14 @@ public class TitanPhenomenaGenerator
     @DefaultIntValue(0)
     public int MaxRange;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -150,6 +158,14 @@ public class TitanPhenomenaGenerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * 
      */
@@ -271,6 +287,10 @@ public class TitanPhenomenaGenerator
             {
                 return MaxRange;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  669 :
             {
                 return ModuleReactivationDelay;
@@ -286,6 +306,10 @@ public class TitanPhenomenaGenerator
             case  277 :
             {
                 return RequiredSkill1Level;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  2468 :
             {

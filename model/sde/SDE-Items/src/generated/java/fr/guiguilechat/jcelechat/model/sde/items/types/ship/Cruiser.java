@@ -313,6 +313,13 @@ public class Cruiser
     @DefaultIntValue(0)
     public int ShipBonusRole2;
     /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole3;
+    /**
      * Fixed Role Bonus on a ship.
      */
     @HighIsGood(true)
@@ -522,6 +529,10 @@ public class Cruiser
             case  2299 :
             {
                 return ShipBonusRole2;
+            }
+            case  2300 :
+            {
+                return ShipBonusRole3;
             }
             case  793 :
             {

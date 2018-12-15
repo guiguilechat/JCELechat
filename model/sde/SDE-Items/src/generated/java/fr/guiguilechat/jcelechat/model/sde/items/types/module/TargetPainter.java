@@ -82,6 +82,14 @@ public class TargetPainter
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -130,6 +138,14 @@ public class TargetPainter
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double SignatureRadiusBonus;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static TargetPainter.MetaGroup METAGROUP = new TargetPainter.MetaGroup();
 
     @Override
@@ -167,6 +183,10 @@ public class TargetPainter
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1937 :
             {
                 return OverloadPainterStrengthBonus;
@@ -194,6 +214,10 @@ public class TargetPainter
             case  554 :
             {
                 return SignatureRadiusBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

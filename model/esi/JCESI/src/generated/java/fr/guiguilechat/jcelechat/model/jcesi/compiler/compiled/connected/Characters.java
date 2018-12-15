@@ -115,9 +115,9 @@ public class Characters {
     private final Map<K_1_int_int, ObsObjHolder<R_get_characters_character_id_calendar_event_id>> get_characters_character_id_calendar_event_id_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolder<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
     private final Map<K_18_int_int, ObsObjHolder<R_get_characters_character_id_planets_planet_id>> get_characters_character_id_planets_planet_id_holder = new HashMap<>();
     private final Map<K_19_String_LString_int_Boolean, ObsObjHolder<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolder<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
     private final Map<Integer, ObsMapHolder<Long, M_get_journal_13>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
 
@@ -1880,45 +1880,6 @@ public class Characters {
     }
 
     /**
-     * Return character notifications
-     * 
-     * cache over {@link Swagger#get_characters_notifications}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_notifications> notifications(int character_id) {
-        ObsListHolder<R_get_characters_character_id_notifications> ret = get_characters_character_id_notifications_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_notifications_holder);
-            synchronized (get_characters_character_id_notifications_holder)
-            {
-                LockWatchDog.BARKER.hld(get_characters_character_id_notifications_holder);
-                ret = get_characters_character_id_notifications_holder.get(character_id);
-                if (ret == null) {
-                    ObservableList<R_get_characters_character_id_notifications> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_characters_character_id_notifications_holder.put(character_id, ret);
-                    ObsListHolder<R_get_characters_character_id_notifications> finalRet = ret;
-                    (cache).addFetchCacheArray("get_characters_character_id_notifications", (page, properties) -> (cache.swagger).get_characters_notifications(character_id, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
-                            finalRet.dataReceived();
-                        }
-                        LockWatchDog.BARKER.rel(holder);
-                    }
-                    );
-                }
-            }
-            LockWatchDog.BARKER.rel(get_characters_character_id_notifications_holder);
-        }
-        return ret;
-    }
-
-    /**
      * Returns full details on the layout of a single planetary colony, including links, pins and routes. Note: Planetary information is only recalculated when the colony is viewed through the client. Information will not update until this criteria is met.
      * 
      * cache over {@link Swagger#get_characters_planets}<br />
@@ -1998,6 +1959,45 @@ public class Characters {
                 }
             }
             LockWatchDog.BARKER.rel(get_characters_character_id_search_holder);
+        }
+        return ret;
+    }
+
+    /**
+     * Return character notifications
+     * 
+     * cache over {@link Swagger#get_characters_notifications}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_notifications> notifications(int character_id) {
+        ObsListHolder<R_get_characters_character_id_notifications> ret = get_characters_character_id_notifications_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_notifications_holder);
+            synchronized (get_characters_character_id_notifications_holder)
+            {
+                LockWatchDog.BARKER.hld(get_characters_character_id_notifications_holder);
+                ret = get_characters_character_id_notifications_holder.get(character_id);
+                if (ret == null) {
+                    ObservableList<R_get_characters_character_id_notifications> holder = FXCollections.observableArrayList();
+                    ret = (cache).toHolder(holder);
+                    get_characters_character_id_notifications_holder.put(character_id, ret);
+                    ObsListHolder<R_get_characters_character_id_notifications> finalRet = ret;
+                    (cache).addFetchCacheArray("get_characters_character_id_notifications", (page, properties) -> (cache.swagger).get_characters_notifications(character_id, properties), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
+                        synchronized (holder)
+                        {
+                            LockWatchDog.BARKER.hld(holder);
+                            holder.setAll(arr);
+                            finalRet.dataReceived();
+                        }
+                        LockWatchDog.BARKER.rel(holder);
+                    }
+                    );
+                }
+            }
+            LockWatchDog.BARKER.rel(get_characters_character_id_notifications_holder);
         }
         return ret;
     }

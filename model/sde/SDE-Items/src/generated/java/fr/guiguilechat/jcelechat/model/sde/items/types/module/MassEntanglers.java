@@ -95,6 +95,14 @@ public class MassEntanglers
     @DefaultDoubleValue(0.0)
     public double MaxVelocityMultiplier;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -129,6 +137,14 @@ public class MassEntanglers
     @Stackable(true)
     @DefaultIntValue(0)
     public int SpeedFactorBonus;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Amount to modify ships warp scramble status by.
      */
@@ -185,6 +201,10 @@ public class MassEntanglers
             {
                 return MaxVelocityMultiplier;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -204,6 +224,10 @@ public class MassEntanglers
             case  1164 :
             {
                 return SpeedFactorBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  105 :
             {

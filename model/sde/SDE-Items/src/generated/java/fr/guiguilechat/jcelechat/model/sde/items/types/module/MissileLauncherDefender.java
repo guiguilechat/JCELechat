@@ -109,6 +109,14 @@ public class MissileLauncherDefender
     @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
@@ -157,6 +165,14 @@ public class MissileLauncherDefender
     @Stackable(false)
     @DefaultIntValue(0)
     public int Speed;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
@@ -221,6 +237,10 @@ public class MissileLauncherDefender
             {
                 return MaxGroupFitted;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  669 :
             {
                 return ModuleReactivationDelay;
@@ -248,6 +268,10 @@ public class MissileLauncherDefender
             case  51 :
             {
                 return Speed;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  1768 :
             {

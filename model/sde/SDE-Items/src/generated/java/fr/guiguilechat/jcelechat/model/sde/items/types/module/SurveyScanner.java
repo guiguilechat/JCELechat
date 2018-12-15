@@ -46,6 +46,14 @@ public class SurveyScanner
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -80,6 +88,14 @@ public class SurveyScanner
     @Stackable(true)
     @DefaultIntValue(0)
     public int TargetGroup;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static SurveyScanner.MetaGroup METAGROUP = new SurveyScanner.MetaGroup();
 
     @Override
@@ -101,6 +117,10 @@ public class SurveyScanner
             {
                 return Duration;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  30 :
             {
                 return Power;
@@ -120,6 +140,10 @@ public class SurveyScanner
             case  189 :
             {
                 return TargetGroup;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

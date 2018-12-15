@@ -259,6 +259,23 @@ items:
     name: Khanid Navy Ballistic Control System
     published: true
     volume: 5.0
+  ML-EKP 'Polybolos' Ballistic Control System:
+    AoeVelocityBonus: 8.0
+    Cpu: 35.0
+    Hp: 40
+    MetaLevel: 1
+    MissileDamageMultiplierBonus: 1.0800000429153442
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.9200000166893005
+    TechLevel: 1
+    id: 49790
+    marketGroup: 645
+    mass: 1.0
+    name: ML-EKP 'Polybolos' Ballistic Control System
+    published: true
+    volume: 5.0
   Mizuro's Modified Ballistic Control System:
     Cpu: 26.0
     Hp: 40

@@ -47,6 +47,14 @@ public class NanofiberInternalStructure
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -67,6 +75,14 @@ public class NanofiberInternalStructure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureHPMultiplier;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static NanofiberInternalStructure.MetaGroup METAGROUP = new NanofiberInternalStructure.MetaGroup();
 
     @Override
@@ -84,6 +100,10 @@ public class NanofiberInternalStructure
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -95,6 +115,10 @@ public class NanofiberInternalStructure
             case  150 :
             {
                 return StructureHPMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

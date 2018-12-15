@@ -110,6 +110,14 @@ public class RemoteSensorBooster
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -193,6 +201,14 @@ public class RemoteSensorBooster
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static RemoteSensorBooster.MetaGroup METAGROUP = new RemoteSensorBooster.MetaGroup();
 
     @Override
@@ -246,6 +262,10 @@ public class RemoteSensorBooster
             {
                 return MetaGroupID;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
             case  1936 :
             {
                 return OverloadSensorModuleStrengthBonus;
@@ -293,6 +313,10 @@ public class RemoteSensorBooster
             case  566 :
             {
                 return ScanResolutionBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             default:
             {

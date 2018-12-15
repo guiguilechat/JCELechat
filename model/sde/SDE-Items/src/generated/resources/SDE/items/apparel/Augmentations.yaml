@@ -7,6 +7,14 @@ items:
     name: Men's 'Barbatus Glimmer' Facial Augmentation
     published: true
     volume: 0.1
+  Men's 'Bitwave Glacier' Augmentation:
+    Gender: 2
+    id: 49987
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'Bitwave Glacier' Augmentation
+    published: true
+    volume: 0.1
   Men's 'Boneweld' Facial Augmentation:
     Gender: 1
     id: 41036
@@ -31,12 +39,12 @@ items:
     name: Men's 'Circuitrun' Facial Augmentation
     published: true
     volume: 0.1
-  Men's 'Domino Turqoise' Facial Augmentation:
+  Men's 'Domino Turquoise' Facial Augmentation:
     Gender: 2
     id: 49682
     marketGroup: 1836
     mass: 0.5
-    name: Men's 'Domino Turqoise' Facial Augmentation
+    name: Men's 'Domino Turquoise' Facial Augmentation
     published: true
     volume: 0.1
   Men's 'Eico Azurbrak' Facial Augmentation:
@@ -87,6 +95,14 @@ items:
     name: Men's 'Grimglam' Facial Augmentation
     published: true
     volume: 0.1
+  Men's 'Mistborne Rime' Augmentation:
+    Gender: 2
+    id: 49986
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'Mistborne Rime' Augmentation
+    published: true
+    volume: 0.1
   Men's 'Rikkadori' Facial Augmentation:
     Gender: 2
     id: 49679
@@ -119,6 +135,14 @@ items:
     name: Men's 'Wirepoise' Facial Augmentation
     published: true
     volume: 0.1
+  Women's 'Bitwave Glacier' Augmentation:
+    Gender: 2
+    id: 49984
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Bitwave Glacier' Augmentation
+    published: true
+    volume: 0.1
   Women's 'Crossgrid' Facial Augmentation:
     Gender: 3
     id: 41049
@@ -143,12 +167,12 @@ items:
     name: Women's 'Domino Bronza' Facial Augmentation
     published: true
     volume: 0.1
-  Women's 'Domino Turqoise' Facial Augmentation:
+  Women's 'Domino Turquoise' Facial Augmentation:
     Gender: 2
     id: 49673
     marketGroup: 1836
     mass: 0.5
-    name: Women's 'Domino Turqoise' Facial Augmentation
+    name: Women's 'Domino Turquoise' Facial Augmentation
     published: true
     volume: 0.1
   Women's 'Eico Azurchev' Facial Augmentation:
@@ -197,6 +221,14 @@ items:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Khalikos Vector' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Mistborne Rime' Augmentation:
+    Gender: 2
+    id: 49985
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Mistborne Rime' Augmentation
     published: true
     volume: 0.1
   Women's 'Openyagi' Facial Augmentation:
