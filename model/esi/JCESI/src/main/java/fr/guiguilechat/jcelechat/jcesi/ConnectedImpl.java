@@ -127,7 +127,6 @@ public abstract class ConnectedImpl implements ITransfer {
 				return new RequestedImpl<>(url, responseCode, sb.toString(), null, headers);
 			}
 		} catch (Exception e) {
-			logger.warn("while getting " + url, e);
 			return new RequestedImpl<>(url, HttpsURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
 	}
