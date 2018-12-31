@@ -114,4 +114,9 @@ public class SolarSystem extends ALocation {
 		return 0 > truesec;
 	}
 
+	@Override
+	public String toString() {
+		return name;
+	}
+
 }
