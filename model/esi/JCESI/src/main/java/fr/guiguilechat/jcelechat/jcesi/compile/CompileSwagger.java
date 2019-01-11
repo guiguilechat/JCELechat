@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.ESICompiler;
 public class CompileSwagger {
 
 	public static void main(String... args) throws IOException, JClassAlreadyExistsException {
-		ESICompiler.main("https://esi.tech.ccp.is/_latest/swagger.json", "src/generated/java/");
+		ESICompiler.main("https://esi.evetech.net/_latest/swagger.json", "src/generated/java/");
 	}
 
 }

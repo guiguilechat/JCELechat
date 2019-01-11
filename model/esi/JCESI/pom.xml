@@ -52,7 +52,7 @@
 				<configuration>
 					<mainClass>fr.guiguilechat.jcelechat.model.jcesi.compiler.ESICompiler</mainClass>
 					<arguments>
-						<argument>https://esi.tech.ccp.is/_latest/swagger.json</argument>
+						<argument>https://esi.evetech.net/_latest/swagger.json</argument>
 						<argument>${project.basedir}/src/generated/java</argument>
 					</arguments>
 				</configuration>

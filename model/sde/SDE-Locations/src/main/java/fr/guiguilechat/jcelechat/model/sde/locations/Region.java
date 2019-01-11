@@ -95,7 +95,7 @@ public class Region extends ALocation {
 	public ArrayList<String> constellations = new ArrayList<>();
 
 	/** stream the systems names in a region */
-	public Stream<String> system() {
+	public Stream<String> systems() {
 		return constellations.stream().map(Constellation.load()::get).flatMap(c -> c.systems.stream());
 	}
 
