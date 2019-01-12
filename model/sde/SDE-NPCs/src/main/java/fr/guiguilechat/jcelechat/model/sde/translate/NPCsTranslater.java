@@ -199,7 +199,8 @@ public class NPCsTranslater {
 		for (get_corporations_corporation_id_starbases_starbase_id_fuels ir : o.required_items) {
 			ItemRef translated = new ItemRef();
 			translated.quantity = ir.quantity;
-			translated.item = typesbyID.get(ir.type_id).enName();
+			translated.itemname = typesbyID.get(ir.type_id).enName();
+			translated.itemid = ir.type_id;
 			lpo.requirements.items.add(translated);
 		}
 
@@ -209,17 +210,20 @@ public class NPCsTranslater {
 			for (Material m : bp.activities.manufacturing.materials) {
 				ItemRef translated = new ItemRef();
 				translated.quantity = m.quantity * o.quantity;
-				translated.item = typesbyID.get(m.typeID).enName();
+				translated.itemname = typesbyID.get(m.typeID).enName();
+				translated.itemid = m.typeID;
 				lpo.requirements.items.add(translated);
 			}
 			Material prod = bp.activities.manufacturing.products.get(0);
-			lpo.product.item = typesbyID.get(prod.typeID).enName();
+			lpo.product.itemname = typesbyID.get(prod.typeID).enName();
+			lpo.product.itemid = prod.typeID;
 			lpo.product.quantity = prod.quantity * o.quantity;
-			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item + "(BPC)";
+			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.itemname + "(BPC)";
 		} else {// the lp offers a non-bpc
 			lpo.product.quantity = o.quantity;
-			lpo.product.item = typesbyID.get(o.type_id).enName();
-			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item;
+			lpo.product.itemname = typesbyID.get(o.type_id).enName();
+			lpo.product.itemid = o.type_id;
+			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.itemname;
 		}
 		return lpo;
 	}

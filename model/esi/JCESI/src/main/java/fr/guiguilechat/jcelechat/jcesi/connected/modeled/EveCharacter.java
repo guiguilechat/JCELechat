@@ -393,6 +393,33 @@ public class EveCharacter {
 
 	//
 
+	private ObsMapHolder<Integer, Integer> marketSOs = null;
+
+	public ObsMapHolder<Integer, Integer> getMarketSOs() {
+		if (marketSOs == null) {
+			synchronized (this) {
+				if (marketSOs == null) {
+					ObservableMap<Integer, Integer> underlying = FXCollections.observableMap(new HashMap<>());
+					marketSOs = new ObsMapHolderImpl<>(underlying);
+					getMarketOrders().addReceivedListener((map) -> {
+						HashMap<Integer, Integer> newMap = new HashMap<>();
+						for (R_get_characters_character_id_orders v : map.values()) {
+							if (!v.is_buy_order) {
+								newMap.put(v.type_id, newMap.getOrDefault(v.type_id, 0) + v.volume_remain);
+							}
+						}
+						synchronized (underlying) {
+							underlying.keySet().retainAll(newMap.keySet());
+							underlying.putAll(newMap);
+						}
+						marketSOs.dataReceived();
+					});
+				}
+			}
+		}
+		return marketSOs;
+	}
+
 	public ObsMapHolder<Long, R_get_characters_character_id_orders> getMarketOrders() {
 		return con.raw.cache.characters.orders(con.characterId());
 	}

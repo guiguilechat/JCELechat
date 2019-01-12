@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.interfaces;
 
 import java.util.Map;
+import java.util.function.Consumer;
 
 import javafx.beans.Observable;
 import javafx.collections.MapChangeListener;
@@ -24,7 +25,7 @@ public interface ObsMapHolder<U, V> {
 
 	/**
 	 * synchronized call to the underlying map get, after the dxata is received.
-	 * 
+	 *
 	 * @param key
 	 * @return
 	 */
@@ -63,6 +64,22 @@ public interface ObsMapHolder<U, V> {
 			callback.run();
 		}).start();
 	}
+
+	/**
+	 * add a callback that will be called everytime the map received a
+	 * dataReceived call. This is useful when you know the modifications are in
+	 * batches and rather recompmute the whole data instead of manage all the
+	 * small modifications
+	 */
+	public void addReceivedListener(Consumer<Map<U, V>> callback);
+
+	/**
+	 * remove a listener added through {@link #addReceivedListener(Runnable)}
+	 *
+	 * @param callback
+	 * @return true if the callback was added.
+	 */
+	public boolean remReceivedListener(Consumer<Map<U, V>> callback);
 
 	/** return an observable to be notified when values are changed */
 	Observable asObservable();

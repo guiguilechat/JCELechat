@@ -1,8 +1,10 @@
 package fr.guiguilechat.jcelechat.jcesi.impl;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
+import java.util.function.Consumer;
 import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
@@ -23,7 +25,17 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 		underlying.addListener(this::mapchangelisten);
 	}
 
-	CountDownLatch waitLatch = new CountDownLatch(1);
+	/**
+	 * cleanest way to add listener with correct type. Otherwise just adding
+	 * c->waitLatch.countDown() is ambiguous
+	 */
+	protected void mapchangelisten(Change<? extends K, ? extends U> change) {
+		waitLatch.countDown();
+	}
+
+	private CountDownLatch waitLatch = new CountDownLatch(1);
+
+	private ArrayList<Consumer<Map<K, U>>> receiveListeners;
 
 	@Override
 	public void waitData() {
@@ -32,14 +44,6 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 		} catch (InterruptedException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
-	}
-
-	/**
-	 * cleanest way to add listener with correct type. Otherwise just adding
-	 * c->waitLatch.countDown() is ambiguous
-	 */
-	protected void mapchangelisten(Change<? extends K, ? extends U> change) {
-		waitLatch.countDown();
 	}
 
 	@Override
@@ -80,8 +84,34 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 	}
 
 	@Override
+	public void addReceivedListener(Consumer<Map<K, U>> callback) {
+		synchronized (underlying) {
+			if (receiveListeners == null) {
+				receiveListeners = new ArrayList<>();
+			}
+			receiveListeners.add(callback);
+			if (waitLatch.getCount() == 0) {
+				callback.accept(underlying);
+			}
+		}
+	}
+
+	@Override
+	public boolean remReceivedListener(Consumer<Map<K, U>> callback) {
+		synchronized (underlying) {
+			return receiveListeners.remove(callback);
+		}
+	}
+
+	@Override
 	public void dataReceived() {
 		waitLatch.countDown();
+		if (receiveListeners != null) {
+			Map<K, U> consumed = copy();
+			for (Consumer<Map<K, U>> r : receiveListeners) {
+				r.accept(consumed);
+			}
+		}
 	}
 
 	@Override

@@ -53,7 +53,8 @@ public class LPOffer {
 	// structure
 
 	public static class ItemRef {
-		public String item;
+		public String itemname;
+		public int itemid;
 		public int quantity;
 	}
 
