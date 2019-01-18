@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialPlanetaryCommoditiesHoldCapacity
     extends IntAttribute
 {
-    public final static SpecialPlanetaryCommoditiesHoldCapacity INSTANCE = new SpecialPlanetaryCommoditiesHoldCapacity();
+    public static final SpecialPlanetaryCommoditiesHoldCapacity INSTANCE = new SpecialPlanetaryCommoditiesHoldCapacity();
 
     @Override
     public int getId() {

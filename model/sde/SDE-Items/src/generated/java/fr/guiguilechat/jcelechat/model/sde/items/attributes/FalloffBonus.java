@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FalloffBonus
     extends DoubleAttribute
 {
-    public final static FalloffBonus INSTANCE = new FalloffBonus();
+    public static final FalloffBonus INSTANCE = new FalloffBonus();
 
     @Override
     public int getId() {

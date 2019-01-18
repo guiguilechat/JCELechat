@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class TradeSession
     extends Trading
 {
-    public final static TradeSession.MetaGroup METAGROUP = new TradeSession.MetaGroup();
+    public static final TradeSession.MetaGroup METAGROUP = new TradeSession.MetaGroup();
 
     @Override
     public IMetaGroup<TradeSession> getGroup() {
@@ -22,7 +22,7 @@ public class TradeSession
     public static class MetaGroup
         implements IMetaGroup<TradeSession>
     {
-        public final static String RESOURCE_PATH = "SDE/items/trading/TradeSession.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/trading/TradeSession.yaml";
         private Map<String, TradeSession> cache = (null);
 
         @Override

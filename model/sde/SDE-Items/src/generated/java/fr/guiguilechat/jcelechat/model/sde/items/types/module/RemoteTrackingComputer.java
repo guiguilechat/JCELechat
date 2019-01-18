@@ -181,7 +181,7 @@ public class RemoteTrackingComputer
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static RemoteTrackingComputer.MetaGroup METAGROUP = new RemoteTrackingComputer.MetaGroup();
+    public static final RemoteTrackingComputer.MetaGroup METAGROUP = new RemoteTrackingComputer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -289,7 +289,7 @@ public class RemoteTrackingComputer
     public static class MetaGroup
         implements IMetaGroup<RemoteTrackingComputer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RemoteTrackingComputer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RemoteTrackingComputer.yaml";
         private Map<String, RemoteTrackingComputer> cache = (null);
 
         @Override

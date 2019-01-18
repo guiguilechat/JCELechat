@@ -174,7 +174,7 @@ public class MissileLauncherCruise
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static MissileLauncherCruise.MetaGroup METAGROUP = new MissileLauncherCruise.MetaGroup();
+    public static final MissileLauncherCruise.MetaGroup METAGROUP = new MissileLauncherCruise.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -278,7 +278,7 @@ public class MissileLauncherCruise
     public static class MetaGroup
         implements IMetaGroup<MissileLauncherCruise>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherCruise.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/MissileLauncherCruise.yaml";
         private Map<String, MissileLauncherCruise> cache = (null);
 
         @Override

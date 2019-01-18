@@ -73,7 +73,7 @@ public class Commodities
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
-    public final static Commodities.MetaGroup METAGROUP = new Commodities.MetaGroup();
+    public static final Commodities.MetaGroup METAGROUP = new Commodities.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -125,7 +125,7 @@ public class Commodities
     public static class MetaGroup
         implements IMetaGroup<Commodities>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Commodities.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Commodities.yaml";
         private Map<String, Commodities> cache = (null);
 
         @Override

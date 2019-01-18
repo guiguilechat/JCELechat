@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowOffensiveModifiers
     extends IntAttribute
 {
-    public final static DisallowOffensiveModifiers INSTANCE = new DisallowOffensiveModifiers();
+    public static final DisallowOffensiveModifiers INSTANCE = new DisallowOffensiveModifiers();
 
     @Override
     public int getId() {

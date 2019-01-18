@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ReactionTimeBonus
     extends IntAttribute
 {
-    public final static ReactionTimeBonus INSTANCE = new ReactionTimeBonus();
+    public static final ReactionTimeBonus INSTANCE = new ReactionTimeBonus();
 
     @Override
     public int getId() {

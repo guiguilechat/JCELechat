@@ -23,7 +23,7 @@ public class DefenderMissileBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static DefenderMissileBlueprint.MetaGroup METAGROUP = new DefenderMissileBlueprint.MetaGroup();
+    public static final DefenderMissileBlueprint.MetaGroup METAGROUP = new DefenderMissileBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class DefenderMissileBlueprint
     public static class MetaGroup
         implements IMetaGroup<DefenderMissileBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/DefenderMissileBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/DefenderMissileBlueprint.yaml";
         private Map<String, DefenderMissileBlueprint> cache = (null);
 
         @Override

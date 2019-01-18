@@ -39,7 +39,7 @@ public class HullModsBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static HullModsBlueprint.MetaGroup METAGROUP = new HullModsBlueprint.MetaGroup();
+    public static final HullModsBlueprint.MetaGroup METAGROUP = new HullModsBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -71,7 +71,7 @@ public class HullModsBlueprint
     public static class MetaGroup
         implements IMetaGroup<HullModsBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/HullModsBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/HullModsBlueprint.yaml";
         private Map<String, HullModsBlueprint> cache = (null);
 
         @Override

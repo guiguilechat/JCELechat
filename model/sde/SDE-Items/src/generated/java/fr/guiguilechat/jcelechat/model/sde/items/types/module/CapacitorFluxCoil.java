@@ -90,7 +90,7 @@ public class CapacitorFluxCoil
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CapacitorFluxCoil.MetaGroup METAGROUP = new CapacitorFluxCoil.MetaGroup();
+    public static final CapacitorFluxCoil.MetaGroup METAGROUP = new CapacitorFluxCoil.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class CapacitorFluxCoil
     public static class MetaGroup
         implements IMetaGroup<CapacitorFluxCoil>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CapacitorFluxCoil.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CapacitorFluxCoil.yaml";
         private Map<String, CapacitorFluxCoil> cache = (null);
 
         @Override

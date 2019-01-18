@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusDroneMiningYield
     extends IntAttribute
 {
-    public final static RoleBonusDroneMiningYield INSTANCE = new RoleBonusDroneMiningYield();
+    public static final RoleBonusDroneMiningYield INSTANCE = new RoleBonusDroneMiningYield();
 
     @Override
     public int getId() {

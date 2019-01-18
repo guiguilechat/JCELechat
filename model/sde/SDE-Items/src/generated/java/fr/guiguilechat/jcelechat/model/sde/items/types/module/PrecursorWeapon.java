@@ -265,7 +265,7 @@ public class PrecursorWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static PrecursorWeapon.MetaGroup METAGROUP = new PrecursorWeapon.MetaGroup();
+    public static final PrecursorWeapon.MetaGroup METAGROUP = new PrecursorWeapon.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -421,7 +421,7 @@ public class PrecursorWeapon
     public static class MetaGroup
         implements IMetaGroup<PrecursorWeapon>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/PrecursorWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/PrecursorWeapon.yaml";
         private Map<String, PrecursorWeapon> cache = (null);
 
         @Override

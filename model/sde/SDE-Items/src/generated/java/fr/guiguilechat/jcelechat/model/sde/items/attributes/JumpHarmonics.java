@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class JumpHarmonics
     extends IntAttribute
 {
-    public final static JumpHarmonics INSTANCE = new JumpHarmonics();
+    public static final JumpHarmonics INSTANCE = new JumpHarmonics();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MiningDurationRoleBonus
     extends IntAttribute
 {
-    public final static MiningDurationRoleBonus INSTANCE = new MiningDurationRoleBonus();
+    public static final MiningDurationRoleBonus INSTANCE = new MiningDurationRoleBonus();
 
     @Override
     public int getId() {

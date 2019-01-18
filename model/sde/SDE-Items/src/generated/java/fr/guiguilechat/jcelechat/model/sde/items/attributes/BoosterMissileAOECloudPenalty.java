@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BoosterMissileAOECloudPenalty
     extends IntAttribute
 {
-    public final static BoosterMissileAOECloudPenalty INSTANCE = new BoosterMissileAOECloudPenalty();
+    public static final BoosterMissileAOECloudPenalty INSTANCE = new BoosterMissileAOECloudPenalty();
 
     @Override
     public int getId() {

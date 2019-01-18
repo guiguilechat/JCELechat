@@ -565,7 +565,7 @@ public class SiegeModule
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double WeaponDisruptionResistanceBonus;
-    public final static SiegeModule.MetaGroup METAGROUP = new SiegeModule.MetaGroup();
+    public static final SiegeModule.MetaGroup METAGROUP = new SiegeModule.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -897,7 +897,7 @@ public class SiegeModule
     public static class MetaGroup
         implements IMetaGroup<SiegeModule>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/SiegeModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/SiegeModule.yaml";
         private Map<String, SiegeModule> cache = (null);
 
         @Override

@@ -66,7 +66,7 @@ public class Silo
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static Silo.MetaGroup METAGROUP = new Silo.MetaGroup();
+    public static final Silo.MetaGroup METAGROUP = new Silo.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -114,7 +114,7 @@ public class Silo
     public static class MetaGroup
         implements IMetaGroup<Silo>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/Silo.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/Silo.yaml";
         private Map<String, Silo> cache = (null);
 
         @Override

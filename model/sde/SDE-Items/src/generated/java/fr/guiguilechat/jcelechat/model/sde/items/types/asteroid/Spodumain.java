@@ -37,7 +37,7 @@ public class Spodumain
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Spodumain.MetaGroup METAGROUP = new Spodumain.MetaGroup();
+    public static final Spodumain.MetaGroup METAGROUP = new Spodumain.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Spodumain
     public static class MetaGroup
         implements IMetaGroup<Spodumain>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Spodumain.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Spodumain.yaml";
         private Map<String, Spodumain> cache = (null);
 
         @Override

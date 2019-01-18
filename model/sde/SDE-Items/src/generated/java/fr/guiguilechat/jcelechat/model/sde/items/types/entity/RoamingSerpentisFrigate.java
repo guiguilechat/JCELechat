@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class RoamingSerpentisFrigate
     extends Entity
 {
-    public final static RoamingSerpentisFrigate.MetaGroup METAGROUP = new RoamingSerpentisFrigate.MetaGroup();
+    public static final RoamingSerpentisFrigate.MetaGroup METAGROUP = new RoamingSerpentisFrigate.MetaGroup();
 
     @Override
     public IMetaGroup<RoamingSerpentisFrigate> getGroup() {
@@ -22,7 +22,7 @@ public class RoamingSerpentisFrigate
     public static class MetaGroup
         implements IMetaGroup<RoamingSerpentisFrigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/RoamingSerpentisFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/RoamingSerpentisFrigate.yaml";
         private Map<String, RoamingSerpentisFrigate> cache = (null);
 
         @Override

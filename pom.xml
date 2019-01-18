@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.guiguilechat</groupId>
 	<artifactId>JCELechat</artifactId>
-	<version>5.1.1</version>
+	<version>5.1.2</version>
 	<licenses>
 		<license>
 			<name>GNU Lesser General Public License v3</name>
@@ -99,12 +99,12 @@
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
-				<version>6.14.3</version>
+				<version>7.0.0-beta3</version>
 			</dependency>
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
-				<version>1.21</version>
+				<version>1.23</version>
 			</dependency>
 			<dependency>
 				<groupId>org.jsoup</groupId>

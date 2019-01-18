@@ -72,7 +72,7 @@ public class Scanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusCoherenceBonus;
-    public final static Scanning.MetaGroup METAGROUP = new Scanning.MetaGroup();
+    public static final Scanning.MetaGroup METAGROUP = new Scanning.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -124,7 +124,7 @@ public class Scanning
     public static class MetaGroup
         implements IMetaGroup<Scanning>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Scanning.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Scanning.yaml";
         private Map<String, Scanning> cache = (null);
 
         @Override

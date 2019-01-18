@@ -23,7 +23,7 @@ public class ShuttleBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static ShuttleBlueprint.MetaGroup METAGROUP = new ShuttleBlueprint.MetaGroup();
+    public static final ShuttleBlueprint.MetaGroup METAGROUP = new ShuttleBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class ShuttleBlueprint
     public static class MetaGroup
         implements IMetaGroup<ShuttleBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShuttleBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ShuttleBlueprint.yaml";
         private Map<String, ShuttleBlueprint> cache = (null);
 
         @Override

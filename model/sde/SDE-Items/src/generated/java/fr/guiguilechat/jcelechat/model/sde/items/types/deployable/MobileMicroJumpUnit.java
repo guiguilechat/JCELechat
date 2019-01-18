@@ -116,7 +116,7 @@ public class MobileMicroJumpUnit
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static MobileMicroJumpUnit.MetaGroup METAGROUP = new MobileMicroJumpUnit.MetaGroup();
+    public static final MobileMicroJumpUnit.MetaGroup METAGROUP = new MobileMicroJumpUnit.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -192,7 +192,7 @@ public class MobileMicroJumpUnit
     public static class MetaGroup
         implements IMetaGroup<MobileMicroJumpUnit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileMicroJumpUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileMicroJumpUnit.yaml";
         private Map<String, MobileMicroJumpUnit> cache = (null);
 
         @Override

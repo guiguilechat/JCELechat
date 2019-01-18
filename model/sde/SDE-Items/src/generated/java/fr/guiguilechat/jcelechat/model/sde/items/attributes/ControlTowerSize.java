@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerSize
     extends IntAttribute
 {
-    public final static ControlTowerSize INSTANCE = new ControlTowerSize();
+    public static final ControlTowerSize INSTANCE = new ControlTowerSize();
 
     @Override
     public int getId() {

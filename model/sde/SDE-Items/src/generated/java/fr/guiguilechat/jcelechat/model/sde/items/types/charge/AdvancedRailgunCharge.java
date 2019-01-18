@@ -138,7 +138,7 @@ public class AdvancedRailgunCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static AdvancedRailgunCharge.MetaGroup METAGROUP = new AdvancedRailgunCharge.MetaGroup();
+    public static final AdvancedRailgunCharge.MetaGroup METAGROUP = new AdvancedRailgunCharge.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -226,7 +226,7 @@ public class AdvancedRailgunCharge
     public static class MetaGroup
         implements IMetaGroup<AdvancedRailgunCharge>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedRailgunCharge.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedRailgunCharge.yaml";
         private Map<String, AdvancedRailgunCharge> cache = (null);
 
         @Override

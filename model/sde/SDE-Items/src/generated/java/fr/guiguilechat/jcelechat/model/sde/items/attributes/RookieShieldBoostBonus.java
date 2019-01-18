@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RookieShieldBoostBonus
     extends DoubleAttribute
 {
-    public final static RookieShieldBoostBonus INSTANCE = new RookieShieldBoostBonus();
+    public static final RookieShieldBoostBonus INSTANCE = new RookieShieldBoostBonus();
 
     @Override
     public int getId() {

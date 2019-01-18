@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SignatureRadiusBonusPercent
     extends IntAttribute
 {
-    public final static SignatureRadiusBonusPercent INSTANCE = new SignatureRadiusBonusPercent();
+    public static final SignatureRadiusBonusPercent INSTANCE = new SignatureRadiusBonusPercent();
 
     @Override
     public int getId() {

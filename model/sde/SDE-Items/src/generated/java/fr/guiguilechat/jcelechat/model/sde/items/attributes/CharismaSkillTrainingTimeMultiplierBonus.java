@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CharismaSkillTrainingTimeMultiplierBonus
     extends DoubleAttribute
 {
-    public final static CharismaSkillTrainingTimeMultiplierBonus INSTANCE = new CharismaSkillTrainingTimeMultiplierBonus();
+    public static final CharismaSkillTrainingTimeMultiplierBonus INSTANCE = new CharismaSkillTrainingTimeMultiplierBonus();
 
     @Override
     public int getId() {

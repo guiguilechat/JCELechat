@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class RefinedCommoditiesTier2
     extends PlanetaryCommodities
 {
-    public final static RefinedCommoditiesTier2 .MetaGroup METAGROUP = new RefinedCommoditiesTier2 .MetaGroup();
+    public static final RefinedCommoditiesTier2 .MetaGroup METAGROUP = new RefinedCommoditiesTier2 .MetaGroup();
 
     @Override
     public IMetaGroup<RefinedCommoditiesTier2> getGroup() {
@@ -22,7 +22,7 @@ public class RefinedCommoditiesTier2
     public static class MetaGroup
         implements IMetaGroup<RefinedCommoditiesTier2>
     {
-        public final static String RESOURCE_PATH = "SDE/items/planetarycommodities/RefinedCommoditiesTier2.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/planetarycommodities/RefinedCommoditiesTier2.yaml";
         private Map<String, RefinedCommoditiesTier2> cache = (null);
 
         @Override

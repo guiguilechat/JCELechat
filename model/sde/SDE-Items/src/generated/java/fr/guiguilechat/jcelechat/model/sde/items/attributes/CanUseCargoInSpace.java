@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CanUseCargoInSpace
     extends IntAttribute
 {
-    public final static CanUseCargoInSpace INSTANCE = new CanUseCargoInSpace();
+    public static final CanUseCargoInSpace INSTANCE = new CanUseCargoInSpace();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ConcordTankBonus
     extends IntAttribute
 {
-    public final static ConcordTankBonus INSTANCE = new ConcordTankBonus();
+    public static final ConcordTankBonus INSTANCE = new ConcordTankBonus();
 
     @Override
     public int getId() {

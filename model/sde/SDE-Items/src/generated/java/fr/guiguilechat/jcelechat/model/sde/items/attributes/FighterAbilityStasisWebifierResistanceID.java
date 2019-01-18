@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityStasisWebifierResistanceID
     extends IntAttribute
 {
-    public final static FighterAbilityStasisWebifierResistanceID INSTANCE = new FighterAbilityStasisWebifierResistanceID();
+    public static final FighterAbilityStasisWebifierResistanceID INSTANCE = new FighterAbilityStasisWebifierResistanceID();
 
     @Override
     public int getId() {

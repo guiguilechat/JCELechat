@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OverloadArmorDamageAmount
     extends IntAttribute
 {
-    public final static OverloadArmorDamageAmount INSTANCE = new OverloadArmorDamageAmount();
+    public static final OverloadArmorDamageAmount INSTANCE = new OverloadArmorDamageAmount();
 
     @Override
     public int getId() {

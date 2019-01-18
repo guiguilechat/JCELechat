@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class ResearchData
     extends Commodity
 {
-    public final static ResearchData.MetaGroup METAGROUP = new ResearchData.MetaGroup();
+    public static final ResearchData.MetaGroup METAGROUP = new ResearchData.MetaGroup();
 
     @Override
     public IMetaGroup<ResearchData> getGroup() {
@@ -22,7 +22,7 @@ public class ResearchData
     public static class MetaGroup
         implements IMetaGroup<ResearchData>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/ResearchData.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/ResearchData.yaml";
         private Map<String, ResearchData> cache = (null);
 
         @Override

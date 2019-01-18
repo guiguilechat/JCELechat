@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ManufactureTimeMultiplier
     extends IntAttribute
 {
-    public final static ManufactureTimeMultiplier INSTANCE = new ManufactureTimeMultiplier();
+    public static final ManufactureTimeMultiplier INSTANCE = new ManufactureTimeMultiplier();
 
     @Override
     public int getId() {

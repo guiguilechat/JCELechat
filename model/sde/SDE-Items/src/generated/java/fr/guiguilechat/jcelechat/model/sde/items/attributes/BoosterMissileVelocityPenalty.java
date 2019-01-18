@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BoosterMissileVelocityPenalty
     extends IntAttribute
 {
-    public final static BoosterMissileVelocityPenalty INSTANCE = new BoosterMissileVelocityPenalty();
+    public static final BoosterMissileVelocityPenalty INSTANCE = new BoosterMissileVelocityPenalty();
 
     @Override
     public int getId() {

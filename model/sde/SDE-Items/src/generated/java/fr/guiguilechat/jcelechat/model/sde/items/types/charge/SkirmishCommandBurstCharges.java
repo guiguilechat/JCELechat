@@ -107,7 +107,7 @@ public class SkirmishCommandBurstCharges
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareBuff4Multiplier;
-    public final static SkirmishCommandBurstCharges.MetaGroup METAGROUP = new SkirmishCommandBurstCharges.MetaGroup();
+    public static final SkirmishCommandBurstCharges.MetaGroup METAGROUP = new SkirmishCommandBurstCharges.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class SkirmishCommandBurstCharges
     public static class MetaGroup
         implements IMetaGroup<SkirmishCommandBurstCharges>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/SkirmishCommandBurstCharges.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/SkirmishCommandBurstCharges.yaml";
         private Map<String, SkirmishCommandBurstCharges> cache = (null);
 
         @Override

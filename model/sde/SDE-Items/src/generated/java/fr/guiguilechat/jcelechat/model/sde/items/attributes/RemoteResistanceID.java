@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RemoteResistanceID
     extends IntAttribute
 {
-    public final static RemoteResistanceID INSTANCE = new RemoteResistanceID();
+    public static final RemoteResistanceID INSTANCE = new RemoteResistanceID();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CloakingCpuNeedBonus
     extends DoubleAttribute
 {
-    public final static CloakingCpuNeedBonus INSTANCE = new CloakingCpuNeedBonus();
+    public static final CloakingCpuNeedBonus INSTANCE = new CloakingCpuNeedBonus();
 
     @Override
     public int getId() {

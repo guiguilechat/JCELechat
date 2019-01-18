@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AimedLaunch
     extends IntAttribute
 {
-    public final static AimedLaunch INSTANCE = new AimedLaunch();
+    public static final AimedLaunch INSTANCE = new AimedLaunch();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BountyMultiplier
     extends IntAttribute
 {
-    public final static BountyMultiplier INSTANCE = new BountyMultiplier();
+    public static final BountyMultiplier INSTANCE = new BountyMultiplier();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OperationalDuration
     extends IntAttribute
 {
-    public final static OperationalDuration INSTANCE = new OperationalDuration();
+    public static final OperationalDuration INSTANCE = new OperationalDuration();
 
     @Override
     public int getId() {

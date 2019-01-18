@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class PowerLoadPerKm
     extends DoubleAttribute
 {
-    public final static PowerLoadPerKm INSTANCE = new PowerLoadPerKm();
+    public static final PowerLoadPerKm INSTANCE = new PowerLoadPerKm();
 
     @Override
     public int getId() {

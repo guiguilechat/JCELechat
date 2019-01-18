@@ -32,7 +32,7 @@ public class ArmorReinforcerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ArmorReinforcerBlueprint.MetaGroup METAGROUP = new ArmorReinforcerBlueprint.MetaGroup();
+    public static final ArmorReinforcerBlueprint.MetaGroup METAGROUP = new ArmorReinforcerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ArmorReinforcerBlueprint
     public static class MetaGroup
         implements IMetaGroup<ArmorReinforcerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ArmorReinforcerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ArmorReinforcerBlueprint.yaml";
         private Map<String, ArmorReinforcerBlueprint> cache = (null);
 
         @Override

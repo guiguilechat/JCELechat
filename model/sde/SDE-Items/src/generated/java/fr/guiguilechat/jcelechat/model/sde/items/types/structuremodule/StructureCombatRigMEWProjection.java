@@ -130,7 +130,7 @@ public class StructureCombatRigMEWProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigMEWProjection.MetaGroup METAGROUP = new StructureCombatRigMEWProjection.MetaGroup();
+    public static final StructureCombatRigMEWProjection.MetaGroup METAGROUP = new StructureCombatRigMEWProjection.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -214,7 +214,7 @@ public class StructureCombatRigMEWProjection
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigMEWProjection>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEWProjection.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEWProjection.yaml";
         private Map<String, StructureCombatRigMEWProjection> cache = (null);
 
         @Override

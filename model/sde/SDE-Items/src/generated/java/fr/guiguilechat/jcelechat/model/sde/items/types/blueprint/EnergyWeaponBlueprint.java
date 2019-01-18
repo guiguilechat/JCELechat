@@ -47,7 +47,7 @@ public class EnergyWeaponBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static EnergyWeaponBlueprint.MetaGroup METAGROUP = new EnergyWeaponBlueprint.MetaGroup();
+    public static final EnergyWeaponBlueprint.MetaGroup METAGROUP = new EnergyWeaponBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,7 +79,7 @@ public class EnergyWeaponBlueprint
     public static class MetaGroup
         implements IMetaGroup<EnergyWeaponBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/EnergyWeaponBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/EnergyWeaponBlueprint.yaml";
         private Map<String, EnergyWeaponBlueprint> cache = (null);
 
         @Override

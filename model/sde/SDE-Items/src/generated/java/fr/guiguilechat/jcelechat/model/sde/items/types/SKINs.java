@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.skins.PermanentSKIN;
 public abstract class SKINs
     extends Item
 {
-    public final static SKINs.MetaCat METACAT = new SKINs.MetaCat();
+    public static final SKINs.MetaCat METACAT = new SKINs.MetaCat();
 
     @Override
     public IMetaCategory<SKINs> getCategory() {

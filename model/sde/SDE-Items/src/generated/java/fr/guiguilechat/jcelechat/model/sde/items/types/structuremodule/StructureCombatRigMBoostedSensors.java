@@ -130,7 +130,7 @@ public class StructureCombatRigMBoostedSensors
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigMBoostedSensors.MetaGroup METAGROUP = new StructureCombatRigMBoostedSensors.MetaGroup();
+    public static final StructureCombatRigMBoostedSensors.MetaGroup METAGROUP = new StructureCombatRigMBoostedSensors.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -214,7 +214,7 @@ public class StructureCombatRigMBoostedSensors
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigMBoostedSensors>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMBoostedSensors.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMBoostedSensors.yaml";
         private Map<String, StructureCombatRigMBoostedSensors> cache = (null);
 
         @Override

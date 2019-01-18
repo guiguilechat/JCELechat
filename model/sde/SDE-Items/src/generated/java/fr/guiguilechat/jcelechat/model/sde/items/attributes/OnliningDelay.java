@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OnliningDelay
     extends IntAttribute
 {
-    public final static OnliningDelay INSTANCE = new OnliningDelay();
+    public static final OnliningDelay INSTANCE = new OnliningDelay();
 
     @Override
     public int getId() {

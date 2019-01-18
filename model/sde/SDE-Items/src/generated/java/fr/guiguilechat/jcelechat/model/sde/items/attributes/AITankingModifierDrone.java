@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AITankingModifierDrone
     extends DoubleAttribute
 {
-    public final static AITankingModifierDrone INSTANCE = new AITankingModifierDrone();
+    public static final AITankingModifierDrone INSTANCE = new AITankingModifierDrone();
 
     @Override
     public int getId() {

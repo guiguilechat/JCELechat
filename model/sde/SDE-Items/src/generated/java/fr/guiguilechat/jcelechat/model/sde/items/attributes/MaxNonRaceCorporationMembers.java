@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxNonRaceCorporationMembers
     extends IntAttribute
 {
-    public final static MaxNonRaceCorporationMembers INSTANCE = new MaxNonRaceCorporationMembers();
+    public static final MaxNonRaceCorporationMembers INSTANCE = new MaxNonRaceCorporationMembers();
 
     @Override
     public int getId() {

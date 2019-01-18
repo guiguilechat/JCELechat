@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Power
     extends IntAttribute
 {
-    public final static Power INSTANCE = new Power();
+    public static final Power INSTANCE = new Power();
 
     @Override
     public int getId() {

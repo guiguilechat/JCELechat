@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntityAttackRange
     extends IntAttribute
 {
-    public final static EntityAttackRange INSTANCE = new EntityAttackRange();
+    public static final EntityAttackRange INSTANCE = new EntityAttackRange();
 
     @Override
     public int getId() {

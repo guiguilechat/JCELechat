@@ -72,7 +72,7 @@ public class NeuralEnhancement
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
-    public final static NeuralEnhancement.MetaGroup METAGROUP = new NeuralEnhancement.MetaGroup();
+    public static final NeuralEnhancement.MetaGroup METAGROUP = new NeuralEnhancement.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -124,7 +124,7 @@ public class NeuralEnhancement
     public static class MetaGroup
         implements IMetaGroup<NeuralEnhancement>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/NeuralEnhancement.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/NeuralEnhancement.yaml";
         private Map<String, NeuralEnhancement> cache = (null);
 
         @Override

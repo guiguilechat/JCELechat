@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EnergyTransferAmountBonus
     extends IntAttribute
 {
-    public final static EnergyTransferAmountBonus INSTANCE = new EnergyTransferAmountBonus();
+    public static final EnergyTransferAmountBonus INSTANCE = new EnergyTransferAmountBonus();
 
     @Override
     public int getId() {

@@ -216,7 +216,7 @@ public class LightMissile
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
-    public final static LightMissile.MetaGroup METAGROUP = new LightMissile.MetaGroup();
+    public static final LightMissile.MetaGroup METAGROUP = new LightMissile.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -344,7 +344,7 @@ public class LightMissile
     public static class MetaGroup
         implements IMetaGroup<LightMissile>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/LightMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/LightMissile.yaml";
         private Map<String, LightMissile> cache = (null);
 
         @Override

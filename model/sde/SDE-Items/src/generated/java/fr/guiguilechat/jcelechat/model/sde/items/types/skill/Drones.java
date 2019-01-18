@@ -129,7 +129,7 @@ public class Drones
     @Stackable(true)
     @DefaultIntValue(0)
     public int SkillBonusFighterHangarSize;
-    public final static Drones.MetaGroup METAGROUP = new Drones.MetaGroup();
+    public static final Drones.MetaGroup METAGROUP = new Drones.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -213,7 +213,7 @@ public class Drones
     public static class MetaGroup
         implements IMetaGroup<Drones>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Drones.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Drones.yaml";
         private Map<String, Drones> cache = (null);
 
         @Override

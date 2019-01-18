@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CompressionQuantityNeeded
     extends IntAttribute
 {
-    public final static CompressionQuantityNeeded INSTANCE = new CompressionQuantityNeeded();
+    public static final CompressionQuantityNeeded INSTANCE = new CompressionQuantityNeeded();
 
     @Override
     public int getId() {

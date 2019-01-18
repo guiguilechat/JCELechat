@@ -123,7 +123,7 @@ public class StructureCombatRigMEWCapReduction
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigMEWCapReduction.MetaGroup METAGROUP = new StructureCombatRigMEWCapReduction.MetaGroup();
+    public static final StructureCombatRigMEWCapReduction.MetaGroup METAGROUP = new StructureCombatRigMEWCapReduction.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -203,7 +203,7 @@ public class StructureCombatRigMEWCapReduction
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigMEWCapReduction>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEWCapReduction.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEWCapReduction.yaml";
         private Map<String, StructureCombatRigMEWCapReduction> cache = (null);
 
         @Override

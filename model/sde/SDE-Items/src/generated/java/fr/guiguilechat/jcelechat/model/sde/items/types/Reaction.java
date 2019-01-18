@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.Item;
 public abstract class Reaction
     extends Item
 {
-    public final static Reaction.MetaCat METACAT = new Reaction.MetaCat();
+    public static final Reaction.MetaCat METACAT = new Reaction.MetaCat();
 
     @Override
     public IMetaCategory<Reaction> getCategory() {

@@ -16,7 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction.Stor
 public abstract class PlanetaryInteraction
     extends Item
 {
-    public final static PlanetaryInteraction.MetaCat METACAT = new PlanetaryInteraction.MetaCat();
+    public static final PlanetaryInteraction.MetaCat METACAT = new PlanetaryInteraction.MetaCat();
 
     @Override
     public IMetaCategory<PlanetaryInteraction> getCategory() {

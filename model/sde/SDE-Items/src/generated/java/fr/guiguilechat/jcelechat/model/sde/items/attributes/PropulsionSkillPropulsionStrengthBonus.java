@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PropulsionSkillPropulsionStrengthBonus
     extends IntAttribute
 {
-    public final static PropulsionSkillPropulsionStrengthBonus INSTANCE = new PropulsionSkillPropulsionStrengthBonus();
+    public static final PropulsionSkillPropulsionStrengthBonus INSTANCE = new PropulsionSkillPropulsionStrengthBonus();
 
     @Override
     public int getId() {

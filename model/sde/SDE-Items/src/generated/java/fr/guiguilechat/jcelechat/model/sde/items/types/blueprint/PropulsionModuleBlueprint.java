@@ -47,7 +47,7 @@ public class PropulsionModuleBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static PropulsionModuleBlueprint.MetaGroup METAGROUP = new PropulsionModuleBlueprint.MetaGroup();
+    public static final PropulsionModuleBlueprint.MetaGroup METAGROUP = new PropulsionModuleBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,7 +79,7 @@ public class PropulsionModuleBlueprint
     public static class MetaGroup
         implements IMetaGroup<PropulsionModuleBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/PropulsionModuleBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/PropulsionModuleBlueprint.yaml";
         private Map<String, PropulsionModuleBlueprint> cache = (null);
 
         @Override

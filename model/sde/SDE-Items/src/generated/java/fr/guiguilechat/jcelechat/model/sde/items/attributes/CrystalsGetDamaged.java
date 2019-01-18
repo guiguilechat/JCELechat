@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CrystalsGetDamaged
     extends IntAttribute
 {
-    public final static CrystalsGetDamaged INSTANCE = new CrystalsGetDamaged();
+    public static final CrystalsGetDamaged INSTANCE = new CrystalsGetDamaged();
 
     @Override
     public int getId() {

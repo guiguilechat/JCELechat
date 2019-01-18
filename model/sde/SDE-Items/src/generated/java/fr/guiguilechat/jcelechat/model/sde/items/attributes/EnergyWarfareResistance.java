@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class EnergyWarfareResistance
     extends DoubleAttribute
 {
-    public final static EnergyWarfareResistance INSTANCE = new EnergyWarfareResistance();
+    public static final EnergyWarfareResistance INSTANCE = new EnergyWarfareResistance();
 
     @Override
     public int getId() {

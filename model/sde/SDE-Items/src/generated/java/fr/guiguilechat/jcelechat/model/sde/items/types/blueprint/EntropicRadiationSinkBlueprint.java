@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class EntropicRadiationSinkBlueprint
     extends Blueprint
 {
-    public final static EntropicRadiationSinkBlueprint.MetaGroup METAGROUP = new EntropicRadiationSinkBlueprint.MetaGroup();
+    public static final EntropicRadiationSinkBlueprint.MetaGroup METAGROUP = new EntropicRadiationSinkBlueprint.MetaGroup();
 
     @Override
     public IMetaGroup<EntropicRadiationSinkBlueprint> getGroup() {
@@ -22,7 +22,7 @@ public class EntropicRadiationSinkBlueprint
     public static class MetaGroup
         implements IMetaGroup<EntropicRadiationSinkBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/EntropicRadiationSinkBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/EntropicRadiationSinkBlueprint.yaml";
         private Map<String, EntropicRadiationSinkBlueprint> cache = (null);
 
         @Override

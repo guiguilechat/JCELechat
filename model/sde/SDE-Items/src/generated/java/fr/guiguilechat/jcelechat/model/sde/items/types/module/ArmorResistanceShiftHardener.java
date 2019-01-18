@@ -152,7 +152,7 @@ public class ArmorResistanceShiftHardener
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ArmorResistanceShiftHardener.MetaGroup METAGROUP = new ArmorResistanceShiftHardener.MetaGroup();
+    public static final ArmorResistanceShiftHardener.MetaGroup METAGROUP = new ArmorResistanceShiftHardener.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -248,7 +248,7 @@ public class ArmorResistanceShiftHardener
     public static class MetaGroup
         implements IMetaGroup<ArmorResistanceShiftHardener>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ArmorResistanceShiftHardener.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ArmorResistanceShiftHardener.yaml";
         private Map<String, ArmorResistanceShiftHardener> cache = (null);
 
         @Override

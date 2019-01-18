@@ -23,7 +23,7 @@ public class MobileScanInhibitorBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static MobileScanInhibitorBlueprint.MetaGroup METAGROUP = new MobileScanInhibitorBlueprint.MetaGroup();
+    public static final MobileScanInhibitorBlueprint.MetaGroup METAGROUP = new MobileScanInhibitorBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MobileScanInhibitorBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileScanInhibitorBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileScanInhibitorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileScanInhibitorBlueprint.yaml";
         private Map<String, MobileScanInhibitorBlueprint> cache = (null);
 
         @Override

@@ -44,7 +44,7 @@ public class DecryptorsTakmahl
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
-    public final static DecryptorsTakmahl.MetaGroup METAGROUP = new DecryptorsTakmahl.MetaGroup();
+    public static final DecryptorsTakmahl.MetaGroup METAGROUP = new DecryptorsTakmahl.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -80,7 +80,7 @@ public class DecryptorsTakmahl
     public static class MetaGroup
         implements IMetaGroup<DecryptorsTakmahl>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/DecryptorsTakmahl.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/DecryptorsTakmahl.yaml";
         private Map<String, DecryptorsTakmahl> cache = (null);
 
         @Override

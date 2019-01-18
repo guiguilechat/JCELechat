@@ -81,7 +81,7 @@ public class MobileCynoInhibitor
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static MobileCynoInhibitor.MetaGroup METAGROUP = new MobileCynoInhibitor.MetaGroup();
+    public static final MobileCynoInhibitor.MetaGroup METAGROUP = new MobileCynoInhibitor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -137,7 +137,7 @@ public class MobileCynoInhibitor
     public static class MetaGroup
         implements IMetaGroup<MobileCynoInhibitor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileCynoInhibitor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileCynoInhibitor.yaml";
         private Map<String, MobileCynoInhibitor> cache = (null);
 
         @Override

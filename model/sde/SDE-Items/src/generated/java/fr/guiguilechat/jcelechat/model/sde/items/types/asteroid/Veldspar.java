@@ -37,7 +37,7 @@ public class Veldspar
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Veldspar.MetaGroup METAGROUP = new Veldspar.MetaGroup();
+    public static final Veldspar.MetaGroup METAGROUP = new Veldspar.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Veldspar
     public static class MetaGroup
         implements IMetaGroup<Veldspar>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Veldspar.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Veldspar.yaml";
         private Map<String, Veldspar> cache = (null);
 
         @Override

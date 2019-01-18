@@ -73,7 +73,7 @@ public class GuidanceDisruptionScript
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static GuidanceDisruptionScript.MetaGroup METAGROUP = new GuidanceDisruptionScript.MetaGroup();
+    public static final GuidanceDisruptionScript.MetaGroup METAGROUP = new GuidanceDisruptionScript.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -125,7 +125,7 @@ public class GuidanceDisruptionScript
     public static class MetaGroup
         implements IMetaGroup<GuidanceDisruptionScript>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/GuidanceDisruptionScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/GuidanceDisruptionScript.yaml";
         private Map<String, GuidanceDisruptionScript> cache = (null);
 
         @Override

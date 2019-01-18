@@ -326,7 +326,7 @@ public class Logistics
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static Logistics.MetaGroup METAGROUP = new Logistics.MetaGroup();
+    public static final Logistics.MetaGroup METAGROUP = new Logistics.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -518,7 +518,7 @@ public class Logistics
     public static class MetaGroup
         implements IMetaGroup<Logistics>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Logistics.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Logistics.yaml";
         private Map<String, Logistics> cache = (null);
 
         @Override

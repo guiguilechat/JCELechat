@@ -82,7 +82,7 @@ public class ScanningUpgradeTime
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ScanningUpgradeTime.MetaGroup METAGROUP = new ScanningUpgradeTime.MetaGroup();
+    public static final ScanningUpgradeTime.MetaGroup METAGROUP = new ScanningUpgradeTime.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -138,7 +138,7 @@ public class ScanningUpgradeTime
     public static class MetaGroup
         implements IMetaGroup<ScanningUpgradeTime>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ScanningUpgradeTime.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ScanningUpgradeTime.yaml";
         private Map<String, ScanningUpgradeTime> cache = (null);
 
         @Override

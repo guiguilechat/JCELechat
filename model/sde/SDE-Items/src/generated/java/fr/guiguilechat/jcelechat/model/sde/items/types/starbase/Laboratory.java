@@ -80,7 +80,7 @@ public class Laboratory
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
-    public final static Laboratory.MetaGroup METAGROUP = new Laboratory.MetaGroup();
+    public static final Laboratory.MetaGroup METAGROUP = new Laboratory.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -136,7 +136,7 @@ public class Laboratory
     public static class MetaGroup
         implements IMetaGroup<Laboratory>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/Laboratory.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/Laboratory.yaml";
         private Map<String, Laboratory> cache = (null);
 
         @Override

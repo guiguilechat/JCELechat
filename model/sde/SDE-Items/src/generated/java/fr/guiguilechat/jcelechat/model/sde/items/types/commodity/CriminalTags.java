@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class CriminalTags
     extends Commodity
 {
-    public final static CriminalTags.MetaGroup METAGROUP = new CriminalTags.MetaGroup();
+    public static final CriminalTags.MetaGroup METAGROUP = new CriminalTags.MetaGroup();
 
     @Override
     public IMetaGroup<CriminalTags> getGroup() {
@@ -22,7 +22,7 @@ public class CriminalTags
     public static class MetaGroup
         implements IMetaGroup<CriminalTags>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/CriminalTags.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/CriminalTags.yaml";
         private Map<String, CriminalTags> cache = (null);
 
         @Override

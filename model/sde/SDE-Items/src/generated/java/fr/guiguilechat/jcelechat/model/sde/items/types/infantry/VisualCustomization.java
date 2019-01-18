@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class VisualCustomization
     extends Infantry
 {
-    public final static VisualCustomization.MetaGroup METAGROUP = new VisualCustomization.MetaGroup();
+    public static final VisualCustomization.MetaGroup METAGROUP = new VisualCustomization.MetaGroup();
 
     @Override
     public IMetaGroup<VisualCustomization> getGroup() {
@@ -22,7 +22,7 @@ public class VisualCustomization
     public static class MetaGroup
         implements IMetaGroup<VisualCustomization>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infantry/VisualCustomization.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infantry/VisualCustomization.yaml";
         private Map<String, VisualCustomization> cache = (null);
 
         @Override

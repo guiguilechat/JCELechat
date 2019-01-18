@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CynosuralFieldSpawnRadius
     extends IntAttribute
 {
-    public final static CynosuralFieldSpawnRadius INSTANCE = new CynosuralFieldSpawnRadius();
+    public static final CynosuralFieldSpawnRadius INSTANCE = new CynosuralFieldSpawnRadius();
 
     @Override
     public int getId() {

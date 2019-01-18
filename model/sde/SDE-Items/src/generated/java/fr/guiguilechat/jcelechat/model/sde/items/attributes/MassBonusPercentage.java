@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MassBonusPercentage
     extends IntAttribute
 {
-    public final static MassBonusPercentage INSTANCE = new MassBonusPercentage();
+    public static final MassBonusPercentage INSTANCE = new MassBonusPercentage();
 
     @Override
     public int getId() {

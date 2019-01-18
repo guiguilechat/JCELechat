@@ -256,7 +256,7 @@ public class ElectronicWarfareBattery
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static ElectronicWarfareBattery.MetaGroup METAGROUP = new ElectronicWarfareBattery.MetaGroup();
+    public static final ElectronicWarfareBattery.MetaGroup METAGROUP = new ElectronicWarfareBattery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -408,7 +408,7 @@ public class ElectronicWarfareBattery
     public static class MetaGroup
         implements IMetaGroup<ElectronicWarfareBattery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/ElectronicWarfareBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/ElectronicWarfareBattery.yaml";
         private Map<String, ElectronicWarfareBattery> cache = (null);
 
         @Override

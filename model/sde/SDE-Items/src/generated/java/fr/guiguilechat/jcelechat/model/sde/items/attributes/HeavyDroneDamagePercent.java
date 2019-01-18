@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class HeavyDroneDamagePercent
     extends IntAttribute
 {
-    public final static HeavyDroneDamagePercent INSTANCE = new HeavyDroneDamagePercent();
+    public static final HeavyDroneDamagePercent INSTANCE = new HeavyDroneDamagePercent();
 
     @Override
     public int getId() {

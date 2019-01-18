@@ -32,7 +32,7 @@ public class WeaponDisruptorBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static WeaponDisruptorBlueprint.MetaGroup METAGROUP = new WeaponDisruptorBlueprint.MetaGroup();
+    public static final WeaponDisruptorBlueprint.MetaGroup METAGROUP = new WeaponDisruptorBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class WeaponDisruptorBlueprint
     public static class MetaGroup
         implements IMetaGroup<WeaponDisruptorBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/WeaponDisruptorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/WeaponDisruptorBlueprint.yaml";
         private Map<String, WeaponDisruptorBlueprint> cache = (null);
 
         @Override

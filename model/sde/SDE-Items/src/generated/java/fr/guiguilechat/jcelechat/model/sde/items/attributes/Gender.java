@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Gender
     extends IntAttribute
 {
-    public final static Gender INSTANCE = new Gender();
+    public static final Gender INSTANCE = new Gender();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxOperationalDistance
     extends IntAttribute
 {
-    public final static MaxOperationalDistance INSTANCE = new MaxOperationalDistance();
+    public static final MaxOperationalDistance INSTANCE = new MaxOperationalDistance();
 
     @Override
     public int getId() {

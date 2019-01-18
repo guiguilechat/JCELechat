@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityEvasiveManeuversSignatureRadiusBonus
     extends IntAttribute
 {
-    public final static FighterAbilityEvasiveManeuversSignatureRadiusBonus INSTANCE = new FighterAbilityEvasiveManeuversSignatureRadiusBonus();
+    public static final FighterAbilityEvasiveManeuversSignatureRadiusBonus INSTANCE = new FighterAbilityEvasiveManeuversSignatureRadiusBonus();
 
     @Override
     public int getId() {

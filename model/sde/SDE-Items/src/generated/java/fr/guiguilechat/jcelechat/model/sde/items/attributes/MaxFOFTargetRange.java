@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxFOFTargetRange
     extends IntAttribute
 {
-    public final static MaxFOFTargetRange INSTANCE = new MaxFOFTargetRange();
+    public static final MaxFOFTargetRange INSTANCE = new MaxFOFTargetRange();
 
     @Override
     public int getId() {

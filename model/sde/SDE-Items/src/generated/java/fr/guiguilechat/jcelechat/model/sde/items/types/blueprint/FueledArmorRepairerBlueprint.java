@@ -23,7 +23,7 @@ public class FueledArmorRepairerBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static FueledArmorRepairerBlueprint.MetaGroup METAGROUP = new FueledArmorRepairerBlueprint.MetaGroup();
+    public static final FueledArmorRepairerBlueprint.MetaGroup METAGROUP = new FueledArmorRepairerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class FueledArmorRepairerBlueprint
     public static class MetaGroup
         implements IMetaGroup<FueledArmorRepairerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/FueledArmorRepairerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/FueledArmorRepairerBlueprint.yaml";
         private Map<String, FueledArmorRepairerBlueprint> cache = (null);
 
         @Override

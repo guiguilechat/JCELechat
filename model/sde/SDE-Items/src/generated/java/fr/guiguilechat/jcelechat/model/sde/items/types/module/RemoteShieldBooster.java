@@ -167,7 +167,7 @@ public class RemoteShieldBooster
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RemoteShieldBooster.MetaGroup METAGROUP = new RemoteShieldBooster.MetaGroup();
+    public static final RemoteShieldBooster.MetaGroup METAGROUP = new RemoteShieldBooster.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -267,7 +267,7 @@ public class RemoteShieldBooster
     public static class MetaGroup
         implements IMetaGroup<RemoteShieldBooster>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RemoteShieldBooster.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RemoteShieldBooster.yaml";
         private Map<String, RemoteShieldBooster> cache = (null);
 
         @Override

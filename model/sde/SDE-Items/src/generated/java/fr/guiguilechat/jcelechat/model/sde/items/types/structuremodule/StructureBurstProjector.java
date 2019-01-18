@@ -341,7 +341,7 @@ public class StructureBurstProjector
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static StructureBurstProjector.MetaGroup METAGROUP = new StructureBurstProjector.MetaGroup();
+    public static final StructureBurstProjector.MetaGroup METAGROUP = new StructureBurstProjector.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -541,7 +541,7 @@ public class StructureBurstProjector
     public static class MetaGroup
         implements IMetaGroup<StructureBurstProjector>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBurstProjector.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureBurstProjector.yaml";
         private Map<String, StructureBurstProjector> cache = (null);
 
         @Override

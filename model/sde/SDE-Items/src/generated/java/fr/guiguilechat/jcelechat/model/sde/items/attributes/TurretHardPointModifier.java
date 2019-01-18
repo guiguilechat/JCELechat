@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TurretHardPointModifier
     extends IntAttribute
 {
-    public final static TurretHardPointModifier INSTANCE = new TurretHardPointModifier();
+    public static final TurretHardPointModifier INSTANCE = new TurretHardPointModifier();
 
     @Override
     public int getId() {

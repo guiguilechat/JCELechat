@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IsPointTargeted
     extends IntAttribute
 {
-    public final static IsPointTargeted INSTANCE = new IsPointTargeted();
+    public static final IsPointTargeted INSTANCE = new IsPointTargeted();
 
     @Override
     public int getId() {

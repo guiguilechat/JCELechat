@@ -181,7 +181,7 @@ public class SensorBooster
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SensorBooster.MetaGroup METAGROUP = new SensorBooster.MetaGroup();
+    public static final SensorBooster.MetaGroup METAGROUP = new SensorBooster.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -289,7 +289,7 @@ public class SensorBooster
     public static class MetaGroup
         implements IMetaGroup<SensorBooster>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/SensorBooster.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/SensorBooster.yaml";
         private Map<String, SensorBooster> cache = (null);
 
         @Override

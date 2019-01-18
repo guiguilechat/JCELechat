@@ -124,7 +124,7 @@ public class HybridCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static HybridCharge.MetaGroup METAGROUP = new HybridCharge.MetaGroup();
+    public static final HybridCharge.MetaGroup METAGROUP = new HybridCharge.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -200,7 +200,7 @@ public class HybridCharge
     public static class MetaGroup
         implements IMetaGroup<HybridCharge>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/HybridCharge.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/HybridCharge.yaml";
         private Map<String, HybridCharge> cache = (null);
 
         @Override

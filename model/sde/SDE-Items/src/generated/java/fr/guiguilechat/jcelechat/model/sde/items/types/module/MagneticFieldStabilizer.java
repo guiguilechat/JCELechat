@@ -90,7 +90,7 @@ public class MagneticFieldStabilizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static MagneticFieldStabilizer.MetaGroup METAGROUP = new MagneticFieldStabilizer.MetaGroup();
+    public static final MagneticFieldStabilizer.MetaGroup METAGROUP = new MagneticFieldStabilizer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class MagneticFieldStabilizer
     public static class MetaGroup
         implements IMetaGroup<MagneticFieldStabilizer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/MagneticFieldStabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/MagneticFieldStabilizer.yaml";
         private Map<String, MagneticFieldStabilizer> cache = (null);
 
         @Override

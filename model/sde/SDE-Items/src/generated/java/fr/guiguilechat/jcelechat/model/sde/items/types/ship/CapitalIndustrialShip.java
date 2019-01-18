@@ -395,7 +395,7 @@ public class CapitalIndustrialShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static CapitalIndustrialShip.MetaGroup METAGROUP = new CapitalIndustrialShip.MetaGroup();
+    public static final CapitalIndustrialShip.MetaGroup METAGROUP = new CapitalIndustrialShip.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -631,7 +631,7 @@ public class CapitalIndustrialShip
     public static class MetaGroup
         implements IMetaGroup<CapitalIndustrialShip>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/CapitalIndustrialShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/CapitalIndustrialShip.yaml";
         private Map<String, CapitalIndustrialShip> cache = (null);
 
         @Override

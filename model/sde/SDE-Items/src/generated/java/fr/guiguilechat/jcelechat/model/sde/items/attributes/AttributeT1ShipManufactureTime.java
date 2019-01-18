@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AttributeT1ShipManufactureTime
     extends IntAttribute
 {
-    public final static AttributeT1ShipManufactureTime INSTANCE = new AttributeT1ShipManufactureTime();
+    public static final AttributeT1ShipManufactureTime INSTANCE = new AttributeT1ShipManufactureTime();
 
     @Override
     public int getId() {

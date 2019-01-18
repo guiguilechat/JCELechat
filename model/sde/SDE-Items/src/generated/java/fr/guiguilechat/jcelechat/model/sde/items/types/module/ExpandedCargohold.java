@@ -83,7 +83,7 @@ public class ExpandedCargohold
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ExpandedCargohold.MetaGroup METAGROUP = new ExpandedCargohold.MetaGroup();
+    public static final ExpandedCargohold.MetaGroup METAGROUP = new ExpandedCargohold.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class ExpandedCargohold
     public static class MetaGroup
         implements IMetaGroup<ExpandedCargohold>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ExpandedCargohold.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ExpandedCargohold.yaml";
         private Map<String, ExpandedCargohold> cache = (null);
 
         @Override

@@ -23,7 +23,7 @@ public class MoonMaterials
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
-    public final static MoonMaterials.MetaGroup METAGROUP = new MoonMaterials.MetaGroup();
+    public static final MoonMaterials.MetaGroup METAGROUP = new MoonMaterials.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MoonMaterials
     public static class MetaGroup
         implements IMetaGroup<MoonMaterials>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/MoonMaterials.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/MoonMaterials.yaml";
         private Map<String, MoonMaterials> cache = (null);
 
         @Override

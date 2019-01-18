@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ModuleRepairRate
     extends IntAttribute
 {
-    public final static ModuleRepairRate INSTANCE = new ModuleRepairRate();
+    public static final ModuleRepairRate INSTANCE = new ModuleRepairRate();
 
     @Override
     public int getId() {

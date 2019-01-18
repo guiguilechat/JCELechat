@@ -23,7 +23,7 @@ public class CargoContainer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static CargoContainer.MetaGroup METAGROUP = new CargoContainer.MetaGroup();
+    public static final CargoContainer.MetaGroup METAGROUP = new CargoContainer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class CargoContainer
     public static class MetaGroup
         implements IMetaGroup<CargoContainer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/celestial/CargoContainer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/celestial/CargoContainer.yaml";
         private Map<String, CargoContainer> cache = (null);
 
         @Override

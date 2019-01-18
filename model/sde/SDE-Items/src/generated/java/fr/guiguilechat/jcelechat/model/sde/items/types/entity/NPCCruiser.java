@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCCruiser
     extends Entity
 {
-    public final static NPCCruiser.MetaGroup METAGROUP = new NPCCruiser.MetaGroup();
+    public static final NPCCruiser.MetaGroup METAGROUP = new NPCCruiser.MetaGroup();
 
     @Override
     public IMetaGroup<NPCCruiser> getGroup() {
@@ -22,7 +22,7 @@ public class NPCCruiser
     public static class MetaGroup
         implements IMetaGroup<NPCCruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/NPCCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/NPCCruiser.yaml";
         private Map<String, NPCCruiser> cache = (null);
 
         @Override

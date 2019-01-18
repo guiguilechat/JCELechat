@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureRigEwarFalloffBonus
     extends IntAttribute
 {
-    public final static StructureRigEwarFalloffBonus INSTANCE = new StructureRigEwarFalloffBonus();
+    public static final StructureRigEwarFalloffBonus INSTANCE = new StructureRigEwarFalloffBonus();
 
     @Override
     public int getId() {

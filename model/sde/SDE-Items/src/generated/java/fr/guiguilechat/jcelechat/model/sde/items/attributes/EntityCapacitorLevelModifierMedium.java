@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class EntityCapacitorLevelModifierMedium
     extends DoubleAttribute
 {
-    public final static EntityCapacitorLevelModifierMedium INSTANCE = new EntityCapacitorLevelModifierMedium();
+    public static final EntityCapacitorLevelModifierMedium INSTANCE = new EntityCapacitorLevelModifierMedium();
 
     @Override
     public int getId() {

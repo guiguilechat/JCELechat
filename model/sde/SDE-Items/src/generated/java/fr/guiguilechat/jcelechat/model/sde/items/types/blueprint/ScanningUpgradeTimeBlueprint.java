@@ -32,7 +32,7 @@ public class ScanningUpgradeTimeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ScanningUpgradeTimeBlueprint.MetaGroup METAGROUP = new ScanningUpgradeTimeBlueprint.MetaGroup();
+    public static final ScanningUpgradeTimeBlueprint.MetaGroup METAGROUP = new ScanningUpgradeTimeBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ScanningUpgradeTimeBlueprint
     public static class MetaGroup
         implements IMetaGroup<ScanningUpgradeTimeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanningUpgradeTimeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ScanningUpgradeTimeBlueprint.yaml";
         private Map<String, ScanningUpgradeTimeBlueprint> cache = (null);
 
         @Override

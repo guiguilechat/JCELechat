@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowInHighSec
     extends IntAttribute
 {
-    public final static DisallowInHighSec INSTANCE = new DisallowInHighSec();
+    public static final DisallowInHighSec INSTANCE = new DisallowInHighSec();
 
     @Override
     public int getId() {

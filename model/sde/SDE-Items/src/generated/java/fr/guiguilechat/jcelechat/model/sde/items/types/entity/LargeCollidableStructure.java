@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class LargeCollidableStructure
     extends Entity
 {
-    public final static LargeCollidableStructure.MetaGroup METAGROUP = new LargeCollidableStructure.MetaGroup();
+    public static final LargeCollidableStructure.MetaGroup METAGROUP = new LargeCollidableStructure.MetaGroup();
 
     @Override
     public IMetaGroup<LargeCollidableStructure> getGroup() {
@@ -22,7 +22,7 @@ public class LargeCollidableStructure
     public static class MetaGroup
         implements IMetaGroup<LargeCollidableStructure>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/LargeCollidableStructure.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/LargeCollidableStructure.yaml";
         private Map<String, LargeCollidableStructure> cache = (null);
 
         @Override

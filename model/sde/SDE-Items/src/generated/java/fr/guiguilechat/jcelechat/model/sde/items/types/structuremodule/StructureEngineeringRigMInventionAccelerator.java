@@ -137,7 +137,7 @@ public class StructureEngineeringRigMInventionAccelerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureEngineeringRigMInventionAccelerator.MetaGroup METAGROUP = new StructureEngineeringRigMInventionAccelerator.MetaGroup();
+    public static final StructureEngineeringRigMInventionAccelerator.MetaGroup METAGROUP = new StructureEngineeringRigMInventionAccelerator.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -225,7 +225,7 @@ public class StructureEngineeringRigMInventionAccelerator
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigMInventionAccelerator>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMInventionAccelerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMInventionAccelerator.yaml";
         private Map<String, StructureEngineeringRigMInventionAccelerator> cache = (null);
 
         @Override

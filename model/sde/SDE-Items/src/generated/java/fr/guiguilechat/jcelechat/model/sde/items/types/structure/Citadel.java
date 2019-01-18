@@ -180,7 +180,7 @@ public class Citadel
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static Citadel.MetaGroup METAGROUP = new Citadel.MetaGroup();
+    public static final Citadel.MetaGroup METAGROUP = new Citadel.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -288,7 +288,7 @@ public class Citadel
     public static class MetaGroup
         implements IMetaGroup<Citadel>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structure/Citadel.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structure/Citadel.yaml";
         private Map<String, Citadel> cache = (null);
 
         @Override

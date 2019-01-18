@@ -32,7 +32,7 @@ public class ScanProbeLauncherBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ScanProbeLauncherBlueprint.MetaGroup METAGROUP = new ScanProbeLauncherBlueprint.MetaGroup();
+    public static final ScanProbeLauncherBlueprint.MetaGroup METAGROUP = new ScanProbeLauncherBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ScanProbeLauncherBlueprint
     public static class MetaGroup
         implements IMetaGroup<ScanProbeLauncherBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanProbeLauncherBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ScanProbeLauncherBlueprint.yaml";
         private Map<String, ScanProbeLauncherBlueprint> cache = (null);
 
         @Override

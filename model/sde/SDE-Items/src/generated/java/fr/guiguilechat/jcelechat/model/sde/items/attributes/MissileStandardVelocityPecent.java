@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MissileStandardVelocityPecent
     extends IntAttribute
 {
-    public final static MissileStandardVelocityPecent INSTANCE = new MissileStandardVelocityPecent();
+    public static final MissileStandardVelocityPecent INSTANCE = new MissileStandardVelocityPecent();
 
     @Override
     public int getId() {

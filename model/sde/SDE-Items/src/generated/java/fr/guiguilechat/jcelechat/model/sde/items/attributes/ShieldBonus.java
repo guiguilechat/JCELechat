@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ShieldBonus
     extends DoubleAttribute
 {
-    public final static ShieldBonus INSTANCE = new ShieldBonus();
+    public static final ShieldBonus INSTANCE = new ShieldBonus();
 
     @Override
     public int getId() {

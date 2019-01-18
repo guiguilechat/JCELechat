@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WillpowerBonus
     extends IntAttribute
 {
-    public final static WillpowerBonus INSTANCE = new WillpowerBonus();
+    public static final WillpowerBonus INSTANCE = new WillpowerBonus();
 
     @Override
     public int getId() {

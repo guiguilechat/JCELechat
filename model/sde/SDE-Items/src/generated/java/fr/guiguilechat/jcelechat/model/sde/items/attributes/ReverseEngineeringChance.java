@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ReverseEngineeringChance
     extends IntAttribute
 {
-    public final static ReverseEngineeringChance INSTANCE = new ReverseEngineeringChance();
+    public static final ReverseEngineeringChance INSTANCE = new ReverseEngineeringChance();
 
     @Override
     public int getId() {

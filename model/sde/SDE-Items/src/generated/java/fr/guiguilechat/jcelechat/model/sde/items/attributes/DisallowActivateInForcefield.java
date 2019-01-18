@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowActivateInForcefield
     extends IntAttribute
 {
-    public final static DisallowActivateInForcefield INSTANCE = new DisallowActivateInForcefield();
+    public static final DisallowActivateInForcefield INSTANCE = new DisallowActivateInForcefield();
 
     @Override
     public int getId() {

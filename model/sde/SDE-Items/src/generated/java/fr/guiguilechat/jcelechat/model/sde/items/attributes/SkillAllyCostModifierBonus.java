@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SkillAllyCostModifierBonus
     extends IntAttribute
 {
-    public final static SkillAllyCostModifierBonus INSTANCE = new SkillAllyCostModifierBonus();
+    public static final SkillAllyCostModifierBonus INSTANCE = new SkillAllyCostModifierBonus();
 
     @Override
     public int getId() {

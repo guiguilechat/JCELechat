@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BoosterDuration
     extends IntAttribute
 {
-    public final static BoosterDuration INSTANCE = new BoosterDuration();
+    public static final BoosterDuration INSTANCE = new BoosterDuration();
 
     @Override
     public int getId() {

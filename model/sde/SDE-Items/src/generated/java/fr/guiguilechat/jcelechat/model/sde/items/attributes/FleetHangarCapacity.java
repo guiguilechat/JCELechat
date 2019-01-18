@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FleetHangarCapacity
     extends IntAttribute
 {
-    public final static FleetHangarCapacity INSTANCE = new FleetHangarCapacity();
+    public static final FleetHangarCapacity INSTANCE = new FleetHangarCapacity();
 
     @Override
     public int getId() {

@@ -145,7 +145,7 @@ public class MercoxitMiningCrystal
     @Stackable(true)
     @DefaultIntValue(0)
     public int UnfitCapCost;
-    public final static MercoxitMiningCrystal.MetaGroup METAGROUP = new MercoxitMiningCrystal.MetaGroup();
+    public static final MercoxitMiningCrystal.MetaGroup METAGROUP = new MercoxitMiningCrystal.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -237,7 +237,7 @@ public class MercoxitMiningCrystal
     public static class MetaGroup
         implements IMetaGroup<MercoxitMiningCrystal>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/MercoxitMiningCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/MercoxitMiningCrystal.yaml";
         private Map<String, MercoxitMiningCrystal> cache = (null);
 
         @Override

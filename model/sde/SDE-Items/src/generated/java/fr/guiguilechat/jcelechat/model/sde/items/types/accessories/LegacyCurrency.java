@@ -23,7 +23,7 @@ public class LegacyCurrency
     @Stackable(true)
     @DefaultIntValue(0)
     public int AurumConversionRate;
-    public final static LegacyCurrency.MetaGroup METAGROUP = new LegacyCurrency.MetaGroup();
+    public static final LegacyCurrency.MetaGroup METAGROUP = new LegacyCurrency.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class LegacyCurrency
     public static class MetaGroup
         implements IMetaGroup<LegacyCurrency>
     {
-        public final static String RESOURCE_PATH = "SDE/items/accessories/LegacyCurrency.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/accessories/LegacyCurrency.yaml";
         private Map<String, LegacyCurrency> cache = (null);
 
         @Override

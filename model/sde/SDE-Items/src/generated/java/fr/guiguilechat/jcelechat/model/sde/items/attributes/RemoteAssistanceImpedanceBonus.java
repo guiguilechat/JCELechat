@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RemoteAssistanceImpedanceBonus
     extends IntAttribute
 {
-    public final static RemoteAssistanceImpedanceBonus INSTANCE = new RemoteAssistanceImpedanceBonus();
+    public static final RemoteAssistanceImpedanceBonus INSTANCE = new RemoteAssistanceImpedanceBonus();
 
     @Override
     public int getId() {

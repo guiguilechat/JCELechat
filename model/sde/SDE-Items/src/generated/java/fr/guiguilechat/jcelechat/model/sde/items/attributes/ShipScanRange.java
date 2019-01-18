@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShipScanRange
     extends IntAttribute
 {
-    public final static ShipScanRange INSTANCE = new ShipScanRange();
+    public static final ShipScanRange INSTANCE = new ShipScanRange();
 
     @Override
     public int getId() {

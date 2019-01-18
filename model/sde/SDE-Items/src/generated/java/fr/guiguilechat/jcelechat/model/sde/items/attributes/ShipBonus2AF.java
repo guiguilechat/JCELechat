@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ShipBonus2AF
     extends DoubleAttribute
 {
-    public final static ShipBonus2AF INSTANCE = new ShipBonus2AF();
+    public static final ShipBonus2AF INSTANCE = new ShipBonus2AF();
 
     @Override
     public int getId() {

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class ParticleSystems
     extends Effects
 {
-    public final static ParticleSystems.MetaGroup METAGROUP = new ParticleSystems.MetaGroup();
+    public static final ParticleSystems.MetaGroup METAGROUP = new ParticleSystems.MetaGroup();
 
     @Override
     public IMetaGroup<ParticleSystems> getGroup() {
@@ -22,7 +22,7 @@ public class ParticleSystems
     public static class MetaGroup
         implements IMetaGroup<ParticleSystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/effects/ParticleSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/effects/ParticleSystems.yaml";
         private Map<String, ParticleSystems> cache = (null);
 
         @Override

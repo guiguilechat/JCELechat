@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class JumpClonesLeft
     extends IntAttribute
 {
-    public final static JumpClonesLeft INSTANCE = new JumpClonesLeft();
+    public static final JumpClonesLeft INSTANCE = new JumpClonesLeft();
 
     @Override
     public int getId() {

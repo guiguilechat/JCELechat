@@ -23,7 +23,7 @@ public class MobileMicroJumpUnitBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static MobileMicroJumpUnitBlueprint.MetaGroup METAGROUP = new MobileMicroJumpUnitBlueprint.MetaGroup();
+    public static final MobileMicroJumpUnitBlueprint.MetaGroup METAGROUP = new MobileMicroJumpUnitBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MobileMicroJumpUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileMicroJumpUnitBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileMicroJumpUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileMicroJumpUnitBlueprint.yaml";
         private Map<String, MobileMicroJumpUnitBlueprint> cache = (null);
 
         @Override

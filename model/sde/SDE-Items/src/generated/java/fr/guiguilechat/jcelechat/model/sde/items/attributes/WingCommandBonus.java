@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WingCommandBonus
     extends IntAttribute
 {
-    public final static WingCommandBonus INSTANCE = new WingCommandBonus();
+    public static final WingCommandBonus INSTANCE = new WingCommandBonus();
 
     @Override
     public int getId() {

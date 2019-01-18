@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SensorDampenerResistanceBonus
     extends IntAttribute
 {
-    public final static SensorDampenerResistanceBonus INSTANCE = new SensorDampenerResistanceBonus();
+    public static final SensorDampenerResistanceBonus INSTANCE = new SensorDampenerResistanceBonus();
 
     @Override
     public int getId() {

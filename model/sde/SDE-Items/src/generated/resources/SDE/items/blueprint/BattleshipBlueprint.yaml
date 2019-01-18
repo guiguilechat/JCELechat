@@ -328,13 +328,6 @@ items:
     name: Widow Blueprint
     published: true
     volume: 0.01
-  万王宝座级YC117年特别版蓝图:
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 34468
-    name: 万王宝座级YC117年特别版蓝图
-    published: true
-    volume: 0.01
   乌鸦级YC117年特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
@@ -342,18 +335,18 @@ items:
     name: 乌鸦级YC117年特别版蓝图
     published: true
     volume: 0.01
-  响尾蛇级YC117年特别版蓝图:
+  响尾蛇级YC117��特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34464
-    name: 响尾蛇级YC117年特别版蓝图
+    name: 响尾蛇级YC117��特别版蓝图
     published: true
     volume: 0.01
-  地狱天使级YC117���特别版蓝图:
+  地狱天使级YC117年特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34460
-    name: 地狱天使级YC117���特别版蓝图
+    name: 地狱天使级YC117年特别版蓝图
     published: true
     volume: 0.01
   多米尼克斯级YC117年特别版蓝图:
@@ -363,11 +356,11 @@ items:
     name: 多米尼克斯级YC117年特别版蓝图
     published: true
     volume: 0.01
-  末日沙场级YC117年特别版��图:
+  末日沙场��YC117年特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34458
-    name: 末日沙场级YC117年特别版��图
+    name: 末日沙场��YC117年特别版蓝图
     published: true
     volume: 0.01
   灾难级YC117年特别版蓝图:
@@ -377,10 +370,17 @@ items:
     name: 灾难级YC117年特别版蓝图
     published: true
     volume: 0.01
-  马克瑞级YC117年特别版���图:
+  马克瑞级YC117年特别版蓝图:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 34462
-    name: 马克瑞级YC117年特别版���图
+    name: 马克瑞级YC117年特别版蓝图
+    published: true
+    volume: 0.01
+  ���王宝座级YC117年特别版蓝图:
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
+    id: 34468
+    name: ���王宝座级YC117年特别版蓝图
     published: true
     volume: 0.01

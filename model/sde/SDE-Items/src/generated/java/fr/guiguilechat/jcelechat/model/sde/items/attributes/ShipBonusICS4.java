@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShipBonusICS4
     extends IntAttribute
 {
-    public final static ShipBonusICS4 INSTANCE = new ShipBonusICS4();
+    public static final ShipBonusICS4 INSTANCE = new ShipBonusICS4();
 
     @Override
     public int getId() {

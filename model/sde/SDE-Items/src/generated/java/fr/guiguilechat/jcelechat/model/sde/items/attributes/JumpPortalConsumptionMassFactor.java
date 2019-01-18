@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class JumpPortalConsumptionMassFactor
     extends DoubleAttribute
 {
-    public final static JumpPortalConsumptionMassFactor INSTANCE = new JumpPortalConsumptionMassFactor();
+    public static final JumpPortalConsumptionMassFactor INSTANCE = new JumpPortalConsumptionMassFactor();
 
     @Override
     public int getId() {

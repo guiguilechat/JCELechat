@@ -23,7 +23,7 @@ public class MobileSiphonUnitBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static MobileSiphonUnitBlueprint.MetaGroup METAGROUP = new MobileSiphonUnitBlueprint.MetaGroup();
+    public static final MobileSiphonUnitBlueprint.MetaGroup METAGROUP = new MobileSiphonUnitBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MobileSiphonUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileSiphonUnitBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileSiphonUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileSiphonUnitBlueprint.yaml";
         private Map<String, MobileSiphonUnitBlueprint> cache = (null);
 
         @Override

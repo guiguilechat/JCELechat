@@ -67,7 +67,7 @@ public class CyberArmor
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CyberArmor.MetaGroup METAGROUP = new CyberArmor.MetaGroup();
+    public static final CyberArmor.MetaGroup METAGROUP = new CyberArmor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -115,7 +115,7 @@ public class CyberArmor
     public static class MetaGroup
         implements IMetaGroup<CyberArmor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberArmor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberArmor.yaml";
         private Map<String, CyberArmor> cache = (null);
 
         @Override

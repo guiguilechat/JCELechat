@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ClothingRemovesCategory2
     extends IntAttribute
 {
-    public final static ClothingRemovesCategory2 INSTANCE = new ClothingRemovesCategory2();
+    public static final ClothingRemovesCategory2 INSTANCE = new ClothingRemovesCategory2();
 
     @Override
     public int getId() {

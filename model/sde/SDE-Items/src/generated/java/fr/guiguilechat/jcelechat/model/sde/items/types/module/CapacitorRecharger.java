@@ -83,7 +83,7 @@ public class CapacitorRecharger
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CapacitorRecharger.MetaGroup METAGROUP = new CapacitorRecharger.MetaGroup();
+    public static final CapacitorRecharger.MetaGroup METAGROUP = new CapacitorRecharger.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class CapacitorRecharger
     public static class MetaGroup
         implements IMetaGroup<CapacitorRecharger>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CapacitorRecharger.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CapacitorRecharger.yaml";
         private Map<String, CapacitorRecharger> cache = (null);
 
         @Override

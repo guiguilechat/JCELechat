@@ -59,7 +59,7 @@ public class CyberDrones
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShieldCapacityBonus;
-    public final static CyberDrones.MetaGroup METAGROUP = new CyberDrones.MetaGroup();
+    public static final CyberDrones.MetaGroup METAGROUP = new CyberDrones.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -103,7 +103,7 @@ public class CyberDrones
     public static class MetaGroup
         implements IMetaGroup<CyberDrones>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberDrones.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberDrones.yaml";
         private Map<String, CyberDrones> cache = (null);
 
         @Override

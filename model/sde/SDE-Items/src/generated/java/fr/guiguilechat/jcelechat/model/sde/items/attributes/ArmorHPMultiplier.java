@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ArmorHPMultiplier
     extends DoubleAttribute
 {
-    public final static ArmorHPMultiplier INSTANCE = new ArmorHPMultiplier();
+    public static final ArmorHPMultiplier INSTANCE = new ArmorHPMultiplier();
 
     @Override
     public int getId() {

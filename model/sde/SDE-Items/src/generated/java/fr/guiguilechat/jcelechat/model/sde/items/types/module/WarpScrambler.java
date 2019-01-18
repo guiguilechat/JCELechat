@@ -167,7 +167,7 @@ public class WarpScrambler
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
-    public final static WarpScrambler.MetaGroup METAGROUP = new WarpScrambler.MetaGroup();
+    public static final WarpScrambler.MetaGroup METAGROUP = new WarpScrambler.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -267,7 +267,7 @@ public class WarpScrambler
     public static class MetaGroup
         implements IMetaGroup<WarpScrambler>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/WarpScrambler.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/WarpScrambler.yaml";
         private Map<String, WarpScrambler> cache = (null);
 
         @Override

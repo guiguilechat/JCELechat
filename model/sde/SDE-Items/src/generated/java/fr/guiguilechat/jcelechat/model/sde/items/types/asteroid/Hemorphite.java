@@ -37,7 +37,7 @@ public class Hemorphite
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Hemorphite.MetaGroup METAGROUP = new Hemorphite.MetaGroup();
+    public static final Hemorphite.MetaGroup METAGROUP = new Hemorphite.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Hemorphite
     public static class MetaGroup
         implements IMetaGroup<Hemorphite>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Hemorphite.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Hemorphite.yaml";
         private Map<String, Hemorphite> cache = (null);
 
         @Override

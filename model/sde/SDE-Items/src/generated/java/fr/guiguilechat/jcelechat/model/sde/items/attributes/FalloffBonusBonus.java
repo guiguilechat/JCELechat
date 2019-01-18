@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FalloffBonusBonus
     extends IntAttribute
 {
-    public final static FalloffBonusBonus INSTANCE = new FalloffBonusBonus();
+    public static final FalloffBonusBonus INSTANCE = new FalloffBonusBonus();
 
     @Override
     public int getId() {

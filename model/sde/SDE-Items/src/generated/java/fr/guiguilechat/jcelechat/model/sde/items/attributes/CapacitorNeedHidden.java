@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CapacitorNeedHidden
     extends IntAttribute
 {
-    public final static CapacitorNeedHidden INSTANCE = new CapacitorNeedHidden();
+    public static final CapacitorNeedHidden INSTANCE = new CapacitorNeedHidden();
 
     @Override
     public int getId() {

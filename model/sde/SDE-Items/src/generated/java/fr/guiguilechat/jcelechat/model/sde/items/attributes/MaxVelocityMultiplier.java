@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class MaxVelocityMultiplier
     extends DoubleAttribute
 {
-    public final static MaxVelocityMultiplier INSTANCE = new MaxVelocityMultiplier();
+    public static final MaxVelocityMultiplier INSTANCE = new MaxVelocityMultiplier();
 
     @Override
     public int getId() {

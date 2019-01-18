@@ -213,7 +213,7 @@ public class BlockadeRunner
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStatus;
-    public final static BlockadeRunner.MetaGroup METAGROUP = new BlockadeRunner.MetaGroup();
+    public static final BlockadeRunner.MetaGroup METAGROUP = new BlockadeRunner.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -345,7 +345,7 @@ public class BlockadeRunner
     public static class MetaGroup
         implements IMetaGroup<BlockadeRunner>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/BlockadeRunner.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/BlockadeRunner.yaml";
         private Map<String, BlockadeRunner> cache = (null);
 
         @Override

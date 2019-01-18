@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FighterBonusROFPercent
     extends DoubleAttribute
 {
-    public final static FighterBonusROFPercent INSTANCE = new FighterBonusROFPercent();
+    public static final FighterBonusROFPercent INSTANCE = new FighterBonusROFPercent();
 
     @Override
     public int getId() {

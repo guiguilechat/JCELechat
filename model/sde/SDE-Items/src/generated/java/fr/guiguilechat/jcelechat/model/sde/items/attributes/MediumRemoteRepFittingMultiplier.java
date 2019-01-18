@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MediumRemoteRepFittingMultiplier
     extends IntAttribute
 {
-    public final static MediumRemoteRepFittingMultiplier INSTANCE = new MediumRemoteRepFittingMultiplier();
+    public static final MediumRemoteRepFittingMultiplier INSTANCE = new MediumRemoteRepFittingMultiplier();
 
     @Override
     public int getId() {

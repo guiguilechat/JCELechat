@@ -508,7 +508,7 @@ public class Dreadnought
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
-    public final static Dreadnought.MetaGroup METAGROUP = new Dreadnought.MetaGroup();
+    public static final Dreadnought.MetaGroup METAGROUP = new Dreadnought.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -804,7 +804,7 @@ public class Dreadnought
     public static class MetaGroup
         implements IMetaGroup<Dreadnought>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Dreadnought.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Dreadnought.yaml";
         private Map<String, Dreadnought> cache = (null);
 
         @Override

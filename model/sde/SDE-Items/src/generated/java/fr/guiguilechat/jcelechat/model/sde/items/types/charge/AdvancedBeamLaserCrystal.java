@@ -159,7 +159,7 @@ public class AdvancedBeamLaserCrystal
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static AdvancedBeamLaserCrystal.MetaGroup METAGROUP = new AdvancedBeamLaserCrystal.MetaGroup();
+    public static final AdvancedBeamLaserCrystal.MetaGroup METAGROUP = new AdvancedBeamLaserCrystal.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -259,7 +259,7 @@ public class AdvancedBeamLaserCrystal
     public static class MetaGroup
         implements IMetaGroup<AdvancedBeamLaserCrystal>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedBeamLaserCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedBeamLaserCrystal.yaml";
         private Map<String, AdvancedBeamLaserCrystal> cache = (null);
 
         @Override

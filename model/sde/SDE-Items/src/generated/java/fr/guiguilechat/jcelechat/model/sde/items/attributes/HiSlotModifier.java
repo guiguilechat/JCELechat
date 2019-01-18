@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class HiSlotModifier
     extends IntAttribute
 {
-    public final static HiSlotModifier INSTANCE = new HiSlotModifier();
+    public static final HiSlotModifier INSTANCE = new HiSlotModifier();
 
     @Override
     public int getId() {

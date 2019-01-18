@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AccuracyMultiplier
     extends DoubleAttribute
 {
-    public final static AccuracyMultiplier INSTANCE = new AccuracyMultiplier();
+    public static final AccuracyMultiplier INSTANCE = new AccuracyMultiplier();
 
     @Override
     public int getId() {

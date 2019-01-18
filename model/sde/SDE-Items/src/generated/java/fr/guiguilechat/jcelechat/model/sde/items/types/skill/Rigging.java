@@ -23,7 +23,7 @@ public class Rigging
     @Stackable(true)
     @DefaultIntValue(10)
     public int RigDrawbackBonus;
-    public final static Rigging.MetaGroup METAGROUP = new Rigging.MetaGroup();
+    public static final Rigging.MetaGroup METAGROUP = new Rigging.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class Rigging
     public static class MetaGroup
         implements IMetaGroup<Rigging>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Rigging.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Rigging.yaml";
         private Map<String, Rigging> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityECMRangeOptimal
     extends IntAttribute
 {
-    public final static FighterAbilityECMRangeOptimal INSTANCE = new FighterAbilityECMRangeOptimal();
+    public static final FighterAbilityECMRangeOptimal INSTANCE = new FighterAbilityECMRangeOptimal();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class GfxBoosterID
     extends IntAttribute
 {
-    public final static GfxBoosterID INSTANCE = new GfxBoosterID();
+    public static final GfxBoosterID INSTANCE = new GfxBoosterID();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RigSize
     extends IntAttribute
 {
-    public final static RigSize INSTANCE = new RigSize();
+    public static final RigSize INSTANCE = new RigSize();
 
     @Override
     public int getId() {

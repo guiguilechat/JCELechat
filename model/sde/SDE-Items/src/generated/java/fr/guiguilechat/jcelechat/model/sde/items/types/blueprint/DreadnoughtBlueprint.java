@@ -23,7 +23,7 @@ public class DreadnoughtBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static DreadnoughtBlueprint.MetaGroup METAGROUP = new DreadnoughtBlueprint.MetaGroup();
+    public static final DreadnoughtBlueprint.MetaGroup METAGROUP = new DreadnoughtBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class DreadnoughtBlueprint
     public static class MetaGroup
         implements IMetaGroup<DreadnoughtBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/DreadnoughtBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/DreadnoughtBlueprint.yaml";
         private Map<String, DreadnoughtBlueprint> cache = (null);
 
         @Override

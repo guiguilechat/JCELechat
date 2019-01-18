@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BaseSensorStrength
     extends IntAttribute
 {
-    public final static BaseSensorStrength INSTANCE = new BaseSensorStrength();
+    public static final BaseSensorStrength INSTANCE = new BaseSensorStrength();
 
     @Override
     public int getId() {

@@ -24,7 +24,7 @@ public class EntosisLinkBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static EntosisLinkBlueprint.MetaGroup METAGROUP = new EntosisLinkBlueprint.MetaGroup();
+    public static final EntosisLinkBlueprint.MetaGroup METAGROUP = new EntosisLinkBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -48,7 +48,7 @@ public class EntosisLinkBlueprint
     public static class MetaGroup
         implements IMetaGroup<EntosisLinkBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/EntosisLinkBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/EntosisLinkBlueprint.yaml";
         private Map<String, EntosisLinkBlueprint> cache = (null);
 
         @Override

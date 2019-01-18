@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ManufactureSlotLimit
     extends IntAttribute
 {
-    public final static ManufactureSlotLimit INSTANCE = new ManufactureSlotLimit();
+    public static final ManufactureSlotLimit INSTANCE = new ManufactureSlotLimit();
 
     @Override
     public int getId() {

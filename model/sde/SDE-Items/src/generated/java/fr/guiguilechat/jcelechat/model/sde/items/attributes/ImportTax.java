@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ImportTax
     extends DoubleAttribute
 {
-    public final static ImportTax INSTANCE = new ImportTax();
+    public static final ImportTax INSTANCE = new ImportTax();
 
     @Override
     public int getId() {

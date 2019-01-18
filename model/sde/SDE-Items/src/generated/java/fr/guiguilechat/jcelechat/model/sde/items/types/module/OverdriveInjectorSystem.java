@@ -76,7 +76,7 @@ public class OverdriveInjectorSystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static OverdriveInjectorSystem.MetaGroup METAGROUP = new OverdriveInjectorSystem.MetaGroup();
+    public static final OverdriveInjectorSystem.MetaGroup METAGROUP = new OverdriveInjectorSystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -124,7 +124,7 @@ public class OverdriveInjectorSystem
     public static class MetaGroup
         implements IMetaGroup<OverdriveInjectorSystem>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/OverdriveInjectorSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/OverdriveInjectorSystem.yaml";
         private Map<String, OverdriveInjectorSystem> cache = (null);
 
         @Override

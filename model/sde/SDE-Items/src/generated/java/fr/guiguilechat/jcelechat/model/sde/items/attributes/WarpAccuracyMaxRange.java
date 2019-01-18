@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarpAccuracyMaxRange
     extends IntAttribute
 {
-    public final static WarpAccuracyMaxRange INSTANCE = new WarpAccuracyMaxRange();
+    public static final WarpAccuracyMaxRange INSTANCE = new WarpAccuracyMaxRange();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class VirusCoherenceBonus
     extends IntAttribute
 {
-    public final static VirusCoherenceBonus INSTANCE = new VirusCoherenceBonus();
+    public static final VirusCoherenceBonus INSTANCE = new VirusCoherenceBonus();
 
     @Override
     public int getId() {

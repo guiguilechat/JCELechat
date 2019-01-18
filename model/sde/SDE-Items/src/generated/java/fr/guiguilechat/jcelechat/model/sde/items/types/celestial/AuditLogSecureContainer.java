@@ -50,7 +50,7 @@ public class AuditLogSecureContainer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static AuditLogSecureContainer.MetaGroup METAGROUP = new AuditLogSecureContainer.MetaGroup();
+    public static final AuditLogSecureContainer.MetaGroup METAGROUP = new AuditLogSecureContainer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -86,7 +86,7 @@ public class AuditLogSecureContainer
     public static class MetaGroup
         implements IMetaGroup<AuditLogSecureContainer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/celestial/AuditLogSecureContainer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/celestial/AuditLogSecureContainer.yaml";
         private Map<String, AuditLogSecureContainer> cache = (null);
 
         @Override

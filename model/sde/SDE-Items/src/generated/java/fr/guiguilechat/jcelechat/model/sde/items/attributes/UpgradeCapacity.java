@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class UpgradeCapacity
     extends IntAttribute
 {
-    public final static UpgradeCapacity INSTANCE = new UpgradeCapacity();
+    public static final UpgradeCapacity INSTANCE = new UpgradeCapacity();
 
     @Override
     public int getId() {

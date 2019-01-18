@@ -109,7 +109,7 @@ public class InterdictionProbe
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleRange;
-    public final static InterdictionProbe.MetaGroup METAGROUP = new InterdictionProbe.MetaGroup();
+    public static final InterdictionProbe.MetaGroup METAGROUP = new InterdictionProbe.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -181,7 +181,7 @@ public class InterdictionProbe
     public static class MetaGroup
         implements IMetaGroup<InterdictionProbe>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/InterdictionProbe.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/InterdictionProbe.yaml";
         private Map<String, InterdictionProbe> cache = (null);
 
         @Override

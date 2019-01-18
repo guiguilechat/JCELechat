@@ -94,7 +94,7 @@ public class ReprocessingArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static ReprocessingArray.MetaGroup METAGROUP = new ReprocessingArray.MetaGroup();
+    public static final ReprocessingArray.MetaGroup METAGROUP = new ReprocessingArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -158,7 +158,7 @@ public class ReprocessingArray
     public static class MetaGroup
         implements IMetaGroup<ReprocessingArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/ReprocessingArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/ReprocessingArray.yaml";
         private Map<String, ReprocessingArray> cache = (null);
 
         @Override

@@ -368,7 +368,7 @@ public class CovertOps
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
-    public final static CovertOps.MetaGroup METAGROUP = new CovertOps.MetaGroup();
+    public static final CovertOps.MetaGroup METAGROUP = new CovertOps.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -584,7 +584,7 @@ public class CovertOps
     public static class MetaGroup
         implements IMetaGroup<CovertOps>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/CovertOps.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/CovertOps.yaml";
         private Map<String, CovertOps> cache = (null);
 
         @Override

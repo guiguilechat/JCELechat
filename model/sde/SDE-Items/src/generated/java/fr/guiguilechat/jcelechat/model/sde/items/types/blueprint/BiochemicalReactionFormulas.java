@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class BiochemicalReactionFormulas
     extends Blueprint
 {
-    public final static BiochemicalReactionFormulas.MetaGroup METAGROUP = new BiochemicalReactionFormulas.MetaGroup();
+    public static final BiochemicalReactionFormulas.MetaGroup METAGROUP = new BiochemicalReactionFormulas.MetaGroup();
 
     @Override
     public IMetaGroup<BiochemicalReactionFormulas> getGroup() {
@@ -22,7 +22,7 @@ public class BiochemicalReactionFormulas
     public static class MetaGroup
         implements IMetaGroup<BiochemicalReactionFormulas>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/BiochemicalReactionFormulas.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/BiochemicalReactionFormulas.yaml";
         private Map<String, BiochemicalReactionFormulas> cache = (null);
 
         @Override

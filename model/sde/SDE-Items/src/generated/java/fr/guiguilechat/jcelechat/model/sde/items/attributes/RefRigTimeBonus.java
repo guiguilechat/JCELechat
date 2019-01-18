@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RefRigTimeBonus
     extends IntAttribute
 {
-    public final static RefRigTimeBonus INSTANCE = new RefRigTimeBonus();
+    public static final RefRigTimeBonus INSTANCE = new RefRigTimeBonus();
 
     @Override
     public int getId() {

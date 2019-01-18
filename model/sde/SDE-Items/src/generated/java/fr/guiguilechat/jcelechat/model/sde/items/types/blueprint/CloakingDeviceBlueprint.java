@@ -32,7 +32,7 @@ public class CloakingDeviceBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CloakingDeviceBlueprint.MetaGroup METAGROUP = new CloakingDeviceBlueprint.MetaGroup();
+    public static final CloakingDeviceBlueprint.MetaGroup METAGROUP = new CloakingDeviceBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class CloakingDeviceBlueprint
     public static class MetaGroup
         implements IMetaGroup<CloakingDeviceBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CloakingDeviceBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CloakingDeviceBlueprint.yaml";
         private Map<String, CloakingDeviceBlueprint> cache = (null);
 
         @Override

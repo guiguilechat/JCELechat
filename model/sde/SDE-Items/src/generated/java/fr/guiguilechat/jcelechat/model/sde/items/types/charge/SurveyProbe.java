@@ -123,7 +123,7 @@ public class SurveyProbe
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SurveyProbe.MetaGroup METAGROUP = new SurveyProbe.MetaGroup();
+    public static final SurveyProbe.MetaGroup METAGROUP = new SurveyProbe.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -203,7 +203,7 @@ public class SurveyProbe
     public static class MetaGroup
         implements IMetaGroup<SurveyProbe>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/SurveyProbe.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/SurveyProbe.yaml";
         private Map<String, SurveyProbe> cache = (null);
 
         @Override

@@ -89,7 +89,7 @@ public abstract class Subsystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static Subsystem.MetaCat METACAT = new Subsystem.MetaCat();
+    public static final Subsystem.MetaCat METACAT = new Subsystem.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

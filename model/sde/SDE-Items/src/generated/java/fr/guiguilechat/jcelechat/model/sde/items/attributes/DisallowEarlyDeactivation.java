@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowEarlyDeactivation
     extends IntAttribute
 {
-    public final static DisallowEarlyDeactivation INSTANCE = new DisallowEarlyDeactivation();
+    public static final DisallowEarlyDeactivation INSTANCE = new DisallowEarlyDeactivation();
 
     @Override
     public int getId() {

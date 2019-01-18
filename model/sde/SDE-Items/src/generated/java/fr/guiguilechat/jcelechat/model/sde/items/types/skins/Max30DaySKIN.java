@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Max30DaySKIN
     extends SKINs
 {
-    public final static Max30DaySKIN.MetaGroup METAGROUP = new Max30DaySKIN.MetaGroup();
+    public static final Max30DaySKIN.MetaGroup METAGROUP = new Max30DaySKIN.MetaGroup();
 
     @Override
     public IMetaGroup<Max30DaySKIN> getGroup() {
@@ -22,7 +22,7 @@ public class Max30DaySKIN
     public static class MetaGroup
         implements IMetaGroup<Max30DaySKIN>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skins/Max30DaySKIN.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skins/Max30DaySKIN.yaml";
         private Map<String, Max30DaySKIN> cache = (null);
 
         @Override

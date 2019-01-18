@@ -111,7 +111,7 @@ public class PowerDiagnosticSystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static PowerDiagnosticSystem.MetaGroup METAGROUP = new PowerDiagnosticSystem.MetaGroup();
+    public static final PowerDiagnosticSystem.MetaGroup METAGROUP = new PowerDiagnosticSystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class PowerDiagnosticSystem
     public static class MetaGroup
         implements IMetaGroup<PowerDiagnosticSystem>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/PowerDiagnosticSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/PowerDiagnosticSystem.yaml";
         private Map<String, PowerDiagnosticSystem> cache = (null);
 
         @Override

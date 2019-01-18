@@ -23,7 +23,7 @@ public class SurveyProbeBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static SurveyProbeBlueprints.MetaGroup METAGROUP = new SurveyProbeBlueprints.MetaGroup();
+    public static final SurveyProbeBlueprints.MetaGroup METAGROUP = new SurveyProbeBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class SurveyProbeBlueprints
     public static class MetaGroup
         implements IMetaGroup<SurveyProbeBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SurveyProbeBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SurveyProbeBlueprints.yaml";
         private Map<String, SurveyProbeBlueprints> cache = (null);
 
         @Override

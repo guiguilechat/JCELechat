@@ -23,7 +23,7 @@ public class ElectronicWarfareDroneBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static ElectronicWarfareDroneBlueprint.MetaGroup METAGROUP = new ElectronicWarfareDroneBlueprint.MetaGroup();
+    public static final ElectronicWarfareDroneBlueprint.MetaGroup METAGROUP = new ElectronicWarfareDroneBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class ElectronicWarfareDroneBlueprint
     public static class MetaGroup
         implements IMetaGroup<ElectronicWarfareDroneBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ElectronicWarfareDroneBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ElectronicWarfareDroneBlueprint.yaml";
         private Map<String, ElectronicWarfareDroneBlueprint> cache = (null);
 
         @Override

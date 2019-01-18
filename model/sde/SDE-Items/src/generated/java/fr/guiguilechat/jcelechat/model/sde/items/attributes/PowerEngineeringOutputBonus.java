@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class PowerEngineeringOutputBonus
     extends DoubleAttribute
 {
-    public final static PowerEngineeringOutputBonus INSTANCE = new PowerEngineeringOutputBonus();
+    public static final PowerEngineeringOutputBonus INSTANCE = new PowerEngineeringOutputBonus();
 
     @Override
     public int getId() {

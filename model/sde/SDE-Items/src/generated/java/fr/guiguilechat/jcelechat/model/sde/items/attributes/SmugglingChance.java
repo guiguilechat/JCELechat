@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class SmugglingChance
     extends DoubleAttribute
 {
-    public final static SmugglingChance INSTANCE = new SmugglingChance();
+    public static final SmugglingChance INSTANCE = new SmugglingChance();
 
     @Override
     public int getId() {

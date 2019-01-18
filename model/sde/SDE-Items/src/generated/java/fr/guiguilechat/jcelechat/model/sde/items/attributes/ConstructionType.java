@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ConstructionType
     extends IntAttribute
 {
-    public final static ConstructionType INSTANCE = new ConstructionType();
+    public static final ConstructionType INSTANCE = new ConstructionType();
 
     @Override
     public int getId() {

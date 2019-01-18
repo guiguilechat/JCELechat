@@ -30,7 +30,7 @@ public class Ice
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Ice.MetaGroup METAGROUP = new Ice.MetaGroup();
+    public static final Ice.MetaGroup METAGROUP = new Ice.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +58,7 @@ public class Ice
     public static class MetaGroup
         implements IMetaGroup<Ice>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Ice.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Ice.yaml";
         private Map<String, Ice> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ResistanceMultiplier
     extends DoubleAttribute
 {
-    public final static ResistanceMultiplier INSTANCE = new ResistanceMultiplier();
+    public static final ResistanceMultiplier INSTANCE = new ResistanceMultiplier();
 
     @Override
     public int getId() {

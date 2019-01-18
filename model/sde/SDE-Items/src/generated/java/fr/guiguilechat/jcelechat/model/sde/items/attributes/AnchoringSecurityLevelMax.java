@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AnchoringSecurityLevelMax
     extends DoubleAttribute
 {
-    public final static AnchoringSecurityLevelMax INSTANCE = new AnchoringSecurityLevelMax();
+    public static final AnchoringSecurityLevelMax INSTANCE = new AnchoringSecurityLevelMax();
 
     @Override
     public int getId() {

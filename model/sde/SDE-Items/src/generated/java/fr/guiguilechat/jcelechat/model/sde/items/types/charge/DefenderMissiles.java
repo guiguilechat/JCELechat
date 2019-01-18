@@ -137,7 +137,7 @@ public class DefenderMissiles
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static DefenderMissiles.MetaGroup METAGROUP = new DefenderMissiles.MetaGroup();
+    public static final DefenderMissiles.MetaGroup METAGROUP = new DefenderMissiles.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -225,7 +225,7 @@ public class DefenderMissiles
     public static class MetaGroup
         implements IMetaGroup<DefenderMissiles>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/DefenderMissiles.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/DefenderMissiles.yaml";
         private Map<String, DefenderMissiles> cache = (null);
 
         @Override

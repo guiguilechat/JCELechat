@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class DamageCloudChance
     extends DoubleAttribute
 {
-    public final static DamageCloudChance INSTANCE = new DamageCloudChance();
+    public static final DamageCloudChance INSTANCE = new DamageCloudChance();
 
     @Override
     public int getId() {

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class AsteroidBloodRaidersCommanderBattleship
     extends Entity
 {
-    public final static AsteroidBloodRaidersCommanderBattleship.MetaGroup METAGROUP = new AsteroidBloodRaidersCommanderBattleship.MetaGroup();
+    public static final AsteroidBloodRaidersCommanderBattleship.MetaGroup METAGROUP = new AsteroidBloodRaidersCommanderBattleship.MetaGroup();
 
     @Override
     public IMetaGroup<AsteroidBloodRaidersCommanderBattleship> getGroup() {
@@ -22,7 +22,7 @@ public class AsteroidBloodRaidersCommanderBattleship
     public static class MetaGroup
         implements IMetaGroup<AsteroidBloodRaidersCommanderBattleship>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/AsteroidBloodRaidersCommanderBattleship.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/AsteroidBloodRaidersCommanderBattleship.yaml";
         private Map<String, AsteroidBloodRaidersCommanderBattleship> cache = (null);
 
         @Override

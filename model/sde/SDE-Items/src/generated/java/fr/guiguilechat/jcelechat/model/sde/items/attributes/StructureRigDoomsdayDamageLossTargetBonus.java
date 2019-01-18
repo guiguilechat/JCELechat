@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StructureRigDoomsdayDamageLossTargetBonus
     extends DoubleAttribute
 {
-    public final static StructureRigDoomsdayDamageLossTargetBonus INSTANCE = new StructureRigDoomsdayDamageLossTargetBonus();
+    public static final StructureRigDoomsdayDamageLossTargetBonus INSTANCE = new StructureRigDoomsdayDamageLossTargetBonus();
 
     @Override
     public int getId() {

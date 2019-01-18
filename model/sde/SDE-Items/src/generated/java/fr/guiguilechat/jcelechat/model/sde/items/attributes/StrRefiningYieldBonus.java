@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StrRefiningYieldBonus
     extends IntAttribute
 {
-    public final static StrRefiningYieldBonus INSTANCE = new StrRefiningYieldBonus();
+    public static final StrRefiningYieldBonus INSTANCE = new StrRefiningYieldBonus();
 
     @Override
     public int getId() {

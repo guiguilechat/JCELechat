@@ -32,7 +32,7 @@ public class RigBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RigBlueprint.MetaGroup METAGROUP = new RigBlueprint.MetaGroup();
+    public static final RigBlueprint.MetaGroup METAGROUP = new RigBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class RigBlueprint
     public static class MetaGroup
         implements IMetaGroup<RigBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/RigBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/RigBlueprint.yaml";
         private Map<String, RigBlueprint> cache = (null);
 
         @Override

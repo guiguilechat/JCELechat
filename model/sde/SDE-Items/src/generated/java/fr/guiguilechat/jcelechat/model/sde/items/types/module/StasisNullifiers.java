@@ -94,7 +94,7 @@ public class StasisNullifiers
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StasisWebifierResistance;
-    public final static StasisNullifiers.MetaGroup METAGROUP = new StasisNullifiers.MetaGroup();
+    public static final StasisNullifiers.MetaGroup METAGROUP = new StasisNullifiers.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -158,7 +158,7 @@ public class StasisNullifiers
     public static class MetaGroup
         implements IMetaGroup<StasisNullifiers>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/StasisNullifiers.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/StasisNullifiers.yaml";
         private Map<String, StasisNullifiers> cache = (null);
 
         @Override

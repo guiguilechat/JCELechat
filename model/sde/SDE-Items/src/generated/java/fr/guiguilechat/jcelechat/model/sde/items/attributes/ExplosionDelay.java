@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ExplosionDelay
     extends IntAttribute
 {
-    public final static ExplosionDelay INSTANCE = new ExplosionDelay();
+    public static final ExplosionDelay INSTANCE = new ExplosionDelay();
 
     @Override
     public int getId() {

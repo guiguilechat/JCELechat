@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class MutadaptiveRemoteArmorRepairerBlueprint
     extends Blueprint
 {
-    public final static MutadaptiveRemoteArmorRepairerBlueprint.MetaGroup METAGROUP = new MutadaptiveRemoteArmorRepairerBlueprint.MetaGroup();
+    public static final MutadaptiveRemoteArmorRepairerBlueprint.MetaGroup METAGROUP = new MutadaptiveRemoteArmorRepairerBlueprint.MetaGroup();
 
     @Override
     public IMetaGroup<MutadaptiveRemoteArmorRepairerBlueprint> getGroup() {
@@ -22,7 +22,7 @@ public class MutadaptiveRemoteArmorRepairerBlueprint
     public static class MetaGroup
         implements IMetaGroup<MutadaptiveRemoteArmorRepairerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MutadaptiveRemoteArmorRepairerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MutadaptiveRemoteArmorRepairerBlueprint.yaml";
         private Map<String, MutadaptiveRemoteArmorRepairerBlueprint> cache = (null);
 
         @Override

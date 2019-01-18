@@ -87,7 +87,7 @@ public class CompressionArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static CompressionArray.MetaGroup METAGROUP = new CompressionArray.MetaGroup();
+    public static final CompressionArray.MetaGroup METAGROUP = new CompressionArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -147,7 +147,7 @@ public class CompressionArray
     public static class MetaGroup
         implements IMetaGroup<CompressionArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/CompressionArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/CompressionArray.yaml";
         private Map<String, CompressionArray> cache = (null);
 
         @Override

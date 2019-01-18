@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class LensFlares
     extends Effects
 {
-    public final static LensFlares.MetaGroup METAGROUP = new LensFlares.MetaGroup();
+    public static final LensFlares.MetaGroup METAGROUP = new LensFlares.MetaGroup();
 
     @Override
     public IMetaGroup<LensFlares> getGroup() {
@@ -22,7 +22,7 @@ public class LensFlares
     public static class MetaGroup
         implements IMetaGroup<LensFlares>
     {
-        public final static String RESOURCE_PATH = "SDE/items/effects/LensFlares.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/effects/LensFlares.yaml";
         private Map<String, LensFlares> cache = (null);
 
         @Override

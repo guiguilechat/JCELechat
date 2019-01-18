@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class HiddenLauncherDamageBonus
     extends IntAttribute
 {
-    public final static HiddenLauncherDamageBonus INSTANCE = new HiddenLauncherDamageBonus();
+    public static final HiddenLauncherDamageBonus INSTANCE = new HiddenLauncherDamageBonus();
 
     @Override
     public int getId() {

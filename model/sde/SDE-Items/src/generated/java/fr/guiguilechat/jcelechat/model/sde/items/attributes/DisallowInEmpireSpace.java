@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowInEmpireSpace
     extends IntAttribute
 {
-    public final static DisallowInEmpireSpace INSTANCE = new DisallowInEmpireSpace();
+    public static final DisallowInEmpireSpace INSTANCE = new DisallowInEmpireSpace();
 
     @Override
     public int getId() {

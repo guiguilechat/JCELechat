@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class BoosterEffectChance4
     extends DoubleAttribute
 {
-    public final static BoosterEffectChance4 INSTANCE = new BoosterEffectChance4();
+    public static final BoosterEffectChance4 INSTANCE = new BoosterEffectChance4();
 
     @Override
     public int getId() {

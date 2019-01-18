@@ -23,7 +23,7 @@ public class SuperWeaponBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static SuperWeaponBlueprint.MetaGroup METAGROUP = new SuperWeaponBlueprint.MetaGroup();
+    public static final SuperWeaponBlueprint.MetaGroup METAGROUP = new SuperWeaponBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class SuperWeaponBlueprint
     public static class MetaGroup
         implements IMetaGroup<SuperWeaponBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SuperWeaponBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SuperWeaponBlueprint.yaml";
         private Map<String, SuperWeaponBlueprint> cache = (null);
 
         @Override

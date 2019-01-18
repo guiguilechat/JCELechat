@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CanBeJettisoned
     extends IntAttribute
 {
-    public final static CanBeJettisoned INSTANCE = new CanBeJettisoned();
+    public static final CanBeJettisoned INSTANCE = new CanBeJettisoned();
 
     @Override
     public int getId() {

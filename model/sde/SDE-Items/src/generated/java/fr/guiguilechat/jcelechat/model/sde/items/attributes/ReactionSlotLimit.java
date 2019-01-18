@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ReactionSlotLimit
     extends IntAttribute
 {
-    public final static ReactionSlotLimit INSTANCE = new ReactionSlotLimit();
+    public static final ReactionSlotLimit INSTANCE = new ReactionSlotLimit();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MoonRigFractureDelayBonus
     extends IntAttribute
 {
-    public final static MoonRigFractureDelayBonus INSTANCE = new MoonRigFractureDelayBonus();
+    public static final MoonRigFractureDelayBonus INSTANCE = new MoonRigFractureDelayBonus();
 
     @Override
     public int getId() {

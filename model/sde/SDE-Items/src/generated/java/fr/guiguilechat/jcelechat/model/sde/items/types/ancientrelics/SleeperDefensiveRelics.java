@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class SleeperDefensiveRelics
     extends AncientRelics
 {
-    public final static SleeperDefensiveRelics.MetaGroup METAGROUP = new SleeperDefensiveRelics.MetaGroup();
+    public static final SleeperDefensiveRelics.MetaGroup METAGROUP = new SleeperDefensiveRelics.MetaGroup();
 
     @Override
     public IMetaGroup<SleeperDefensiveRelics> getGroup() {
@@ -22,7 +22,7 @@ public class SleeperDefensiveRelics
     public static class MetaGroup
         implements IMetaGroup<SleeperDefensiveRelics>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ancientrelics/SleeperDefensiveRelics.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ancientrelics/SleeperDefensiveRelics.yaml";
         private Map<String, SleeperDefensiveRelics> cache = (null);
 
         @Override

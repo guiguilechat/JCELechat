@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Livestock
     extends Commodity
 {
-    public final static Livestock.MetaGroup METAGROUP = new Livestock.MetaGroup();
+    public static final Livestock.MetaGroup METAGROUP = new Livestock.MetaGroup();
 
     @Override
     public IMetaGroup<Livestock> getGroup() {
@@ -22,7 +22,7 @@ public class Livestock
     public static class MetaGroup
         implements IMetaGroup<Livestock>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Livestock.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Livestock.yaml";
         private Map<String, Livestock> cache = (null);
 
         @Override

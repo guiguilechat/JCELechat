@@ -160,7 +160,7 @@ public class TrackingComputer
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static TrackingComputer.MetaGroup METAGROUP = new TrackingComputer.MetaGroup();
+    public static final TrackingComputer.MetaGroup METAGROUP = new TrackingComputer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -256,7 +256,7 @@ public class TrackingComputer
     public static class MetaGroup
         implements IMetaGroup<TrackingComputer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/TrackingComputer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/TrackingComputer.yaml";
         private Map<String, TrackingComputer> cache = (null);
 
         @Override

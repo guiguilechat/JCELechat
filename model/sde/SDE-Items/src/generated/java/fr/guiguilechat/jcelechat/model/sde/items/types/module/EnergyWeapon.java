@@ -265,7 +265,7 @@ public class EnergyWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static EnergyWeapon.MetaGroup METAGROUP = new EnergyWeapon.MetaGroup();
+    public static final EnergyWeapon.MetaGroup METAGROUP = new EnergyWeapon.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -421,7 +421,7 @@ public class EnergyWeapon
     public static class MetaGroup
         implements IMetaGroup<EnergyWeapon>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/EnergyWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/EnergyWeapon.yaml";
         private Map<String, EnergyWeapon> cache = (null);
 
         @Override

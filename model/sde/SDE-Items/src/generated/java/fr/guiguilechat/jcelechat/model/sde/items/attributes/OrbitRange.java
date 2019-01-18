@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OrbitRange
     extends IntAttribute
 {
-    public final static OrbitRange INSTANCE = new OrbitRange();
+    public static final OrbitRange INSTANCE = new OrbitRange();
 
     @Override
     public int getId() {

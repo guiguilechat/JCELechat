@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntityCruiseSpeed
     extends IntAttribute
 {
-    public final static EntityCruiseSpeed INSTANCE = new EntityCruiseSpeed();
+    public static final EntityCruiseSpeed INSTANCE = new EntityCruiseSpeed();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ScanSpeed
     extends IntAttribute
 {
-    public final static ScanSpeed INSTANCE = new ScanSpeed();
+    public static final ScanSpeed INSTANCE = new ScanSpeed();
 
     @Override
     public int getId() {

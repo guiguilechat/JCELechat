@@ -47,7 +47,7 @@ public class HybridWeaponBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static HybridWeaponBlueprint.MetaGroup METAGROUP = new HybridWeaponBlueprint.MetaGroup();
+    public static final HybridWeaponBlueprint.MetaGroup METAGROUP = new HybridWeaponBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,7 +79,7 @@ public class HybridWeaponBlueprint
     public static class MetaGroup
         implements IMetaGroup<HybridWeaponBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/HybridWeaponBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/HybridWeaponBlueprint.yaml";
         private Map<String, HybridWeaponBlueprint> cache = (null);
 
         @Override

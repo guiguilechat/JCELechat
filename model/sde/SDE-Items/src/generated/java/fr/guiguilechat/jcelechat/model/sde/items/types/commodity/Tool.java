@@ -23,7 +23,7 @@ public class Tool
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
-    public final static Tool.MetaGroup METAGROUP = new Tool.MetaGroup();
+    public static final Tool.MetaGroup METAGROUP = new Tool.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class Tool
     public static class MetaGroup
         implements IMetaGroup<Tool>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Tool.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Tool.yaml";
         private Map<String, Tool> cache = (null);
 
         @Override

@@ -66,7 +66,7 @@ public class TrackingDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int TrackingSpeedBonusBonus;
-    public final static TrackingDisruptionScript.MetaGroup METAGROUP = new TrackingDisruptionScript.MetaGroup();
+    public static final TrackingDisruptionScript.MetaGroup METAGROUP = new TrackingDisruptionScript.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -114,7 +114,7 @@ public class TrackingDisruptionScript
     public static class MetaGroup
         implements IMetaGroup<TrackingDisruptionScript>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/TrackingDisruptionScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/TrackingDisruptionScript.yaml";
         private Map<String, TrackingDisruptionScript> cache = (null);
 
         @Override

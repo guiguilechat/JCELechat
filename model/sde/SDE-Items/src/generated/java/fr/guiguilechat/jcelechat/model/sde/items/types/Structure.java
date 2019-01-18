@@ -405,7 +405,7 @@ public abstract class Structure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
-    public final static Structure.MetaCat METACAT = new Structure.MetaCat();
+    public static final Structure.MetaCat METACAT = new Structure.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

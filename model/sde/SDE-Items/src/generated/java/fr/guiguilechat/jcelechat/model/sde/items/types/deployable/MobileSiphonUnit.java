@@ -115,7 +115,7 @@ public class MobileSiphonUnit
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static MobileSiphonUnit.MetaGroup METAGROUP = new MobileSiphonUnit.MetaGroup();
+    public static final MobileSiphonUnit.MetaGroup METAGROUP = new MobileSiphonUnit.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -191,7 +191,7 @@ public class MobileSiphonUnit
     public static class MetaGroup
         implements IMetaGroup<MobileSiphonUnit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileSiphonUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileSiphonUnit.yaml";
         private Map<String, MobileSiphonUnit> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarpSBonus
     extends IntAttribute
 {
-    public final static WarpSBonus INSTANCE = new WarpSBonus();
+    public static final WarpSBonus INSTANCE = new WarpSBonus();
 
     @Override
     public int getId() {

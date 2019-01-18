@@ -241,7 +241,7 @@ public class OffensiveSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareLinkCPUPenalty;
-    public final static OffensiveSystems.MetaGroup METAGROUP = new OffensiveSystems.MetaGroup();
+    public static final OffensiveSystems.MetaGroup METAGROUP = new OffensiveSystems.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -389,7 +389,7 @@ public class OffensiveSystems
     public static class MetaGroup
         implements IMetaGroup<OffensiveSystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
         private Map<String, OffensiveSystems> cache = (null);
 
         @Override

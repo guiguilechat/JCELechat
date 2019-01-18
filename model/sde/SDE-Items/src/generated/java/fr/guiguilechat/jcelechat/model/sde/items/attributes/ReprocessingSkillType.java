@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ReprocessingSkillType
     extends IntAttribute
 {
-    public final static ReprocessingSkillType INSTANCE = new ReprocessingSkillType();
+    public static final ReprocessingSkillType INSTANCE = new ReprocessingSkillType();
 
     @Override
     public int getId() {

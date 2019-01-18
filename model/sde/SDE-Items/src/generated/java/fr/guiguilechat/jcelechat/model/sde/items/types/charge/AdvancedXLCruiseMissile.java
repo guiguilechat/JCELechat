@@ -201,7 +201,7 @@ public class AdvancedXLCruiseMissile
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static AdvancedXLCruiseMissile.MetaGroup METAGROUP = new AdvancedXLCruiseMissile.MetaGroup();
+    public static final AdvancedXLCruiseMissile.MetaGroup METAGROUP = new AdvancedXLCruiseMissile.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -325,7 +325,7 @@ public class AdvancedXLCruiseMissile
     public static class MetaGroup
         implements IMetaGroup<AdvancedXLCruiseMissile>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedXLCruiseMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedXLCruiseMissile.yaml";
         private Map<String, AdvancedXLCruiseMissile> cache = (null);
 
         @Override

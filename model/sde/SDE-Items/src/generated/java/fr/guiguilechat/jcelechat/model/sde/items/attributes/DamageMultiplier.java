@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class DamageMultiplier
     extends DoubleAttribute
 {
-    public final static DamageMultiplier INSTANCE = new DamageMultiplier();
+    public static final DamageMultiplier INSTANCE = new DamageMultiplier();
 
     @Override
     public int getId() {

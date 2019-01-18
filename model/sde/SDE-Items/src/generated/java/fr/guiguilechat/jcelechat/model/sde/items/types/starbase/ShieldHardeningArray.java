@@ -94,7 +94,7 @@ public class ShieldHardeningArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static ShieldHardeningArray.MetaGroup METAGROUP = new ShieldHardeningArray.MetaGroup();
+    public static final ShieldHardeningArray.MetaGroup METAGROUP = new ShieldHardeningArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -158,7 +158,7 @@ public class ShieldHardeningArray
     public static class MetaGroup
         implements IMetaGroup<ShieldHardeningArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/ShieldHardeningArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/ShieldHardeningArray.yaml";
         private Map<String, ShieldHardeningArray> cache = (null);
 
         @Override

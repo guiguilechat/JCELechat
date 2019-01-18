@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class UpgradeSlotsLeft
     extends IntAttribute
 {
-    public final static UpgradeSlotsLeft INSTANCE = new UpgradeSlotsLeft();
+    public static final UpgradeSlotsLeft INSTANCE = new UpgradeSlotsLeft();
 
     @Override
     public int getId() {

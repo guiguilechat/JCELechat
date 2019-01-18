@@ -234,7 +234,7 @@ public class ExpeditionFrigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int VelocityPenaltyReduction;
-    public final static ExpeditionFrigate.MetaGroup METAGROUP = new ExpeditionFrigate.MetaGroup();
+    public static final ExpeditionFrigate.MetaGroup METAGROUP = new ExpeditionFrigate.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -378,7 +378,7 @@ public class ExpeditionFrigate
     public static class MetaGroup
         implements IMetaGroup<ExpeditionFrigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/ExpeditionFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/ExpeditionFrigate.yaml";
         private Map<String, ExpeditionFrigate> cache = (null);
 
         @Override

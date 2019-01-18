@@ -143,7 +143,7 @@ public class Refinery
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static Refinery.MetaGroup METAGROUP = new Refinery.MetaGroup();
+    public static final Refinery.MetaGroup METAGROUP = new Refinery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -235,7 +235,7 @@ public class Refinery
     public static class MetaGroup
         implements IMetaGroup<Refinery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structure/Refinery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structure/Refinery.yaml";
         private Map<String, Refinery> cache = (null);
 
         @Override

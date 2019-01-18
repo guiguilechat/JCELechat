@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCFrigate
     extends Entity
 {
-    public final static NPCFrigate.MetaGroup METAGROUP = new NPCFrigate.MetaGroup();
+    public static final NPCFrigate.MetaGroup METAGROUP = new NPCFrigate.MetaGroup();
 
     @Override
     public IMetaGroup<NPCFrigate> getGroup() {
@@ -22,7 +22,7 @@ public class NPCFrigate
     public static class MetaGroup
         implements IMetaGroup<NPCFrigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/NPCFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/NPCFrigate.yaml";
         private Map<String, NPCFrigate> cache = (null);
 
         @Override

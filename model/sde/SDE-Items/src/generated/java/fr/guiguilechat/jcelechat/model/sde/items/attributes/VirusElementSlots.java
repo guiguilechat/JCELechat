@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class VirusElementSlots
     extends IntAttribute
 {
-    public final static VirusElementSlots INSTANCE = new VirusElementSlots();
+    public static final VirusElementSlots INSTANCE = new VirusElementSlots();
 
     @Override
     public int getId() {

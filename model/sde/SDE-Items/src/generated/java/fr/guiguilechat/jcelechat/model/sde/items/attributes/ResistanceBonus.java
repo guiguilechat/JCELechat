@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ResistanceBonus
     extends IntAttribute
 {
-    public final static ResistanceBonus INSTANCE = new ResistanceBonus();
+    public static final ResistanceBonus INSTANCE = new ResistanceBonus();
 
     @Override
     public int getId() {

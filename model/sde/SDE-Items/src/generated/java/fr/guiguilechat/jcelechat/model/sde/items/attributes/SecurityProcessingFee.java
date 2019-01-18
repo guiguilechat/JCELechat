@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SecurityProcessingFee
     extends IntAttribute
 {
-    public final static SecurityProcessingFee INSTANCE = new SecurityProcessingFee();
+    public static final SecurityProcessingFee INSTANCE = new SecurityProcessingFee();
 
     @Override
     public int getId() {

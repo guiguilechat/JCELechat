@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class WarfareBuff3Value
     extends DoubleAttribute
 {
-    public final static WarfareBuff3Value INSTANCE = new WarfareBuff3Value();
+    public static final WarfareBuff3Value INSTANCE = new WarfareBuff3Value();
 
     @Override
     public int getId() {

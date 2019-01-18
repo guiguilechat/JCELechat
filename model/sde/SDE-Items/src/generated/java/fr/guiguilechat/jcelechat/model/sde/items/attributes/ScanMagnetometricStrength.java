@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ScanMagnetometricStrength
     extends DoubleAttribute
 {
-    public final static ScanMagnetometricStrength INSTANCE = new ScanMagnetometricStrength();
+    public static final ScanMagnetometricStrength INSTANCE = new ScanMagnetometricStrength();
 
     @Override
     public int getId() {

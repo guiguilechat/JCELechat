@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StrReactionTimeMultiplier
     extends DoubleAttribute
 {
-    public final static StrReactionTimeMultiplier INSTANCE = new StrReactionTimeMultiplier();
+    public static final StrReactionTimeMultiplier INSTANCE = new StrReactionTimeMultiplier();
 
     @Override
     public int getId() {

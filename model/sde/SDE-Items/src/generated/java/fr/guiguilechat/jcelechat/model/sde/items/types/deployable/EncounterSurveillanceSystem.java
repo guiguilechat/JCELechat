@@ -101,7 +101,7 @@ public class EncounterSurveillanceSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
-    public final static EncounterSurveillanceSystem.MetaGroup METAGROUP = new EncounterSurveillanceSystem.MetaGroup();
+    public static final EncounterSurveillanceSystem.MetaGroup METAGROUP = new EncounterSurveillanceSystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -169,7 +169,7 @@ public class EncounterSurveillanceSystem
     public static class MetaGroup
         implements IMetaGroup<EncounterSurveillanceSystem>
     {
-        public final static String RESOURCE_PATH = "SDE/items/deployable/EncounterSurveillanceSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/deployable/EncounterSurveillanceSystem.yaml";
         private Map<String, EncounterSurveillanceSystem> cache = (null);
 
         @Override

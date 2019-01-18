@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RoleBonusCBC
     extends DoubleAttribute
 {
-    public final static RoleBonusCBC INSTANCE = new RoleBonusCBC();
+    public static final RoleBonusCBC INSTANCE = new RoleBonusCBC();
 
     @Override
     public int getId() {

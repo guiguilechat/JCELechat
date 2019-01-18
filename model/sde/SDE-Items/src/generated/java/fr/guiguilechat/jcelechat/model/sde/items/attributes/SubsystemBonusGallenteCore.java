@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemBonusGallenteCore
     extends IntAttribute
 {
-    public final static SubsystemBonusGallenteCore INSTANCE = new SubsystemBonusGallenteCore();
+    public static final SubsystemBonusGallenteCore INSTANCE = new SubsystemBonusGallenteCore();
 
     @Override
     public int getId() {

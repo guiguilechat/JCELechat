@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ConcordRoleBonusSecGain
     extends IntAttribute
 {
-    public final static ConcordRoleBonusSecGain INSTANCE = new ConcordRoleBonusSecGain();
+    public static final ConcordRoleBonusSecGain INSTANCE = new ConcordRoleBonusSecGain();
 
     @Override
     public int getId() {

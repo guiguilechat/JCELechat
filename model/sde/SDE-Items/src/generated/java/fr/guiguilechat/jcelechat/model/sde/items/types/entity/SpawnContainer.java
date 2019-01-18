@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class SpawnContainer
     extends Entity
 {
-    public final static SpawnContainer.MetaGroup METAGROUP = new SpawnContainer.MetaGroup();
+    public static final SpawnContainer.MetaGroup METAGROUP = new SpawnContainer.MetaGroup();
 
     @Override
     public IMetaGroup<SpawnContainer> getGroup() {
@@ -22,7 +22,7 @@ public class SpawnContainer
     public static class MetaGroup
         implements IMetaGroup<SpawnContainer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/SpawnContainer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/SpawnContainer.yaml";
         private Map<String, SpawnContainer> cache = (null);
 
         @Override

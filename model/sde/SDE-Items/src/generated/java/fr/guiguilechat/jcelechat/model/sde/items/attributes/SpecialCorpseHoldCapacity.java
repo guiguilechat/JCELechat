@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialCorpseHoldCapacity
     extends IntAttribute
 {
-    public final static SpecialCorpseHoldCapacity INSTANCE = new SpecialCorpseHoldCapacity();
+    public static final SpecialCorpseHoldCapacity INSTANCE = new SpecialCorpseHoldCapacity();
 
     @Override
     public int getId() {

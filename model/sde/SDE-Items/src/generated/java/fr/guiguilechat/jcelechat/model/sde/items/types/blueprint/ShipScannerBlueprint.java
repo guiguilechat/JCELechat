@@ -32,7 +32,7 @@ public class ShipScannerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShipScannerBlueprint.MetaGroup METAGROUP = new ShipScannerBlueprint.MetaGroup();
+    public static final ShipScannerBlueprint.MetaGroup METAGROUP = new ShipScannerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ShipScannerBlueprint
     public static class MetaGroup
         implements IMetaGroup<ShipScannerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShipScannerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ShipScannerBlueprint.yaml";
         private Map<String, ShipScannerBlueprint> cache = (null);
 
         @Override

@@ -424,7 +424,7 @@ public class Frigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStatus;
-    public final static Frigate.MetaGroup METAGROUP = new Frigate.MetaGroup();
+    public static final Frigate.MetaGroup METAGROUP = new Frigate.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -672,7 +672,7 @@ public class Frigate
     public static class MetaGroup
         implements IMetaGroup<Frigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Frigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Frigate.yaml";
         private Map<String, Frigate> cache = (null);
 
         @Override

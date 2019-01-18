@@ -74,7 +74,7 @@ public class JumpDriveEconomizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static JumpDriveEconomizer.MetaGroup METAGROUP = new JumpDriveEconomizer.MetaGroup();
+    public static final JumpDriveEconomizer.MetaGroup METAGROUP = new JumpDriveEconomizer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -126,7 +126,7 @@ public class JumpDriveEconomizer
     public static class MetaGroup
         implements IMetaGroup<JumpDriveEconomizer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/JumpDriveEconomizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/JumpDriveEconomizer.yaml";
         private Map<String, JumpDriveEconomizer> cache = (null);
 
         @Override

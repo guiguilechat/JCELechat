@@ -139,7 +139,7 @@ public class GasCloudHarvester
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static GasCloudHarvester.MetaGroup METAGROUP = new GasCloudHarvester.MetaGroup();
+    public static final GasCloudHarvester.MetaGroup METAGROUP = new GasCloudHarvester.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -223,7 +223,7 @@ public class GasCloudHarvester
     public static class MetaGroup
         implements IMetaGroup<GasCloudHarvester>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/GasCloudHarvester.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/GasCloudHarvester.yaml";
         private Map<String, GasCloudHarvester> cache = (null);
 
         @Override

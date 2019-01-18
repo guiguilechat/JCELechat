@@ -32,7 +32,7 @@ public class GunneryUpgradeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static GunneryUpgradeBlueprint.MetaGroup METAGROUP = new GunneryUpgradeBlueprint.MetaGroup();
+    public static final GunneryUpgradeBlueprint.MetaGroup METAGROUP = new GunneryUpgradeBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class GunneryUpgradeBlueprint
     public static class MetaGroup
         implements IMetaGroup<GunneryUpgradeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/GunneryUpgradeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/GunneryUpgradeBlueprint.yaml";
         private Map<String, GunneryUpgradeBlueprint> cache = (null);
 
         @Override

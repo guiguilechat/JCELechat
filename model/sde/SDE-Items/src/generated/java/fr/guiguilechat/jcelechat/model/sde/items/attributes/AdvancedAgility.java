@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AdvancedAgility
     extends IntAttribute
 {
-    public final static AdvancedAgility INSTANCE = new AdvancedAgility();
+    public static final AdvancedAgility INSTANCE = new AdvancedAgility();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RefiningYieldNormalOres
     extends DoubleAttribute
 {
-    public final static RefiningYieldNormalOres INSTANCE = new RefiningYieldNormalOres();
+    public static final RefiningYieldNormalOres INSTANCE = new RefiningYieldNormalOres();
 
     @Override
     public int getId() {

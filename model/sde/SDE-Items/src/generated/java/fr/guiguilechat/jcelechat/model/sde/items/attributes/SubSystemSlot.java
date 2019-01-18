@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubSystemSlot
     extends IntAttribute
 {
-    public final static SubSystemSlot INSTANCE = new SubSystemSlot();
+    public static final SubSystemSlot INSTANCE = new SubSystemSlot();
 
     @Override
     public int getId() {

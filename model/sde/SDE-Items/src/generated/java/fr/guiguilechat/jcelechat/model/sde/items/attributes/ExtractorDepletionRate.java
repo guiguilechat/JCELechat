@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ExtractorDepletionRate
     extends IntAttribute
 {
-    public final static ExtractorDepletionRate INSTANCE = new ExtractorDepletionRate();
+    public static final ExtractorDepletionRate INSTANCE = new ExtractorDepletionRate();
 
     @Override
     public int getId() {

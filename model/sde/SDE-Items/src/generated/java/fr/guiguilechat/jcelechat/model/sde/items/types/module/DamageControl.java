@@ -251,7 +251,7 @@ public class DamageControl
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static DamageControl.MetaGroup METAGROUP = new DamageControl.MetaGroup();
+    public static final DamageControl.MetaGroup METAGROUP = new DamageControl.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -399,7 +399,7 @@ public class DamageControl
     public static class MetaGroup
         implements IMetaGroup<DamageControl>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/DamageControl.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/DamageControl.yaml";
         private Map<String, DamageControl> cache = (null);
 
         @Override

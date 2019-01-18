@@ -173,7 +173,7 @@ public class JumpPortalGenerator
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static JumpPortalGenerator.MetaGroup METAGROUP = new JumpPortalGenerator.MetaGroup();
+    public static final JumpPortalGenerator.MetaGroup METAGROUP = new JumpPortalGenerator.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -281,7 +281,7 @@ public class JumpPortalGenerator
     public static class MetaGroup
         implements IMetaGroup<JumpPortalGenerator>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/JumpPortalGenerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/JumpPortalGenerator.yaml";
         private Map<String, JumpPortalGenerator> cache = (null);
 
         @Override

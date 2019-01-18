@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class GenericDecryptor
     extends Decryptors
 {
-    public final static GenericDecryptor.MetaGroup METAGROUP = new GenericDecryptor.MetaGroup();
+    public static final GenericDecryptor.MetaGroup METAGROUP = new GenericDecryptor.MetaGroup();
 
     @Override
     public IMetaGroup<GenericDecryptor> getGroup() {
@@ -22,7 +22,7 @@ public class GenericDecryptor
     public static class MetaGroup
         implements IMetaGroup<GenericDecryptor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/decryptors/GenericDecryptor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/decryptors/GenericDecryptor.yaml";
         private Map<String, GenericDecryptor> cache = (null);
 
         @Override

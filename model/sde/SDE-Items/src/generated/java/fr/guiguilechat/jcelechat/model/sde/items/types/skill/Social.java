@@ -73,7 +73,7 @@ public class Social
     @Stackable(true)
     @DefaultIntValue(0)
     public int SocialMutator;
-    public final static Social.MetaGroup METAGROUP = new Social.MetaGroup();
+    public static final Social.MetaGroup METAGROUP = new Social.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -125,7 +125,7 @@ public class Social
     public static class MetaGroup
         implements IMetaGroup<Social>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Social.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Social.yaml";
         private Map<String, Social> cache = (null);
 
         @Override

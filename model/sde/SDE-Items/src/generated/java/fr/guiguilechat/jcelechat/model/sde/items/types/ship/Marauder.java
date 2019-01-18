@@ -227,7 +227,7 @@ public class Marauder
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static Marauder.MetaGroup METAGROUP = new Marauder.MetaGroup();
+    public static final Marauder.MetaGroup METAGROUP = new Marauder.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -367,7 +367,7 @@ public class Marauder
     public static class MetaGroup
         implements IMetaGroup<Marauder>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Marauder.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Marauder.yaml";
         private Map<String, Marauder> cache = (null);
 
         @Override

@@ -75,7 +75,7 @@ public class ECMStabilizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ECMStabilizer.MetaGroup METAGROUP = new ECMStabilizer.MetaGroup();
+    public static final ECMStabilizer.MetaGroup METAGROUP = new ECMStabilizer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -127,7 +127,7 @@ public class ECMStabilizer
     public static class MetaGroup
         implements IMetaGroup<ECMStabilizer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ECMStabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ECMStabilizer.yaml";
         private Map<String, ECMStabilizer> cache = (null);
 
         @Override

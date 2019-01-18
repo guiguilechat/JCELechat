@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DoomsdayNoJumpOrCloakDuration
     extends IntAttribute
 {
-    public final static DoomsdayNoJumpOrCloakDuration INSTANCE = new DoomsdayNoJumpOrCloakDuration();
+    public static final DoomsdayNoJumpOrCloakDuration INSTANCE = new DoomsdayNoJumpOrCloakDuration();
 
     @Override
     public int getId() {

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class HybridPolymers
     extends Material
 {
-    public final static HybridPolymers.MetaGroup METAGROUP = new HybridPolymers.MetaGroup();
+    public static final HybridPolymers.MetaGroup METAGROUP = new HybridPolymers.MetaGroup();
 
     @Override
     public IMetaGroup<HybridPolymers> getGroup() {
@@ -22,7 +22,7 @@ public class HybridPolymers
     public static class MetaGroup
         implements IMetaGroup<HybridPolymers>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/HybridPolymers.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/HybridPolymers.yaml";
         private Map<String, HybridPolymers> cache = (null);
 
         @Override

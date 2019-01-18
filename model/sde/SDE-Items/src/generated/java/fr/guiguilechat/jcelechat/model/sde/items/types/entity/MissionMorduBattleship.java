@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class MissionMorduBattleship
     extends Entity
 {
-    public final static MissionMorduBattleship.MetaGroup METAGROUP = new MissionMorduBattleship.MetaGroup();
+    public static final MissionMorduBattleship.MetaGroup METAGROUP = new MissionMorduBattleship.MetaGroup();
 
     @Override
     public IMetaGroup<MissionMorduBattleship> getGroup() {
@@ -22,7 +22,7 @@ public class MissionMorduBattleship
     public static class MetaGroup
         implements IMetaGroup<MissionMorduBattleship>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/MissionMorduBattleship.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/MissionMorduBattleship.yaml";
         private Map<String, MissionMorduBattleship> cache = (null);
 
         @Override

@@ -23,7 +23,7 @@ public class StarbaseSensorDampeningArrayBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static StarbaseSensorDampeningArrayBlueprints.MetaGroup METAGROUP = new StarbaseSensorDampeningArrayBlueprints.MetaGroup();
+    public static final StarbaseSensorDampeningArrayBlueprints.MetaGroup METAGROUP = new StarbaseSensorDampeningArrayBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class StarbaseSensorDampeningArrayBlueprints
     public static class MetaGroup
         implements IMetaGroup<StarbaseSensorDampeningArrayBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseSensorDampeningArrayBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/StarbaseSensorDampeningArrayBlueprints.yaml";
         private Map<String, StarbaseSensorDampeningArrayBlueprints> cache = (null);
 
         @Override

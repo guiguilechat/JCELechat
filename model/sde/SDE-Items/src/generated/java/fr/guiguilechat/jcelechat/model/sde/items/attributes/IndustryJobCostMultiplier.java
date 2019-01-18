@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IndustryJobCostMultiplier
     extends IntAttribute
 {
-    public final static IndustryJobCostMultiplier INSTANCE = new IndustryJobCostMultiplier();
+    public static final IndustryJobCostMultiplier INSTANCE = new IndustryJobCostMultiplier();
 
     @Override
     public int getId() {

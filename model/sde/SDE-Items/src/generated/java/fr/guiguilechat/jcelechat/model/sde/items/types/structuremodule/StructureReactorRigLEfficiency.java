@@ -116,7 +116,7 @@ public class StructureReactorRigLEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureReactorRigLEfficiency.MetaGroup METAGROUP = new StructureReactorRigLEfficiency.MetaGroup();
+    public static final StructureReactorRigLEfficiency.MetaGroup METAGROUP = new StructureReactorRigLEfficiency.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -192,7 +192,7 @@ public class StructureReactorRigLEfficiency
     public static class MetaGroup
         implements IMetaGroup<StructureReactorRigLEfficiency>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureReactorRigLEfficiency.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureReactorRigLEfficiency.yaml";
         private Map<String, StructureReactorRigLEfficiency> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TypeColorScheme
     extends IntAttribute
 {
-    public final static TypeColorScheme INSTANCE = new TypeColorScheme();
+    public static final TypeColorScheme INSTANCE = new TypeColorScheme();
 
     @Override
     public int getId() {

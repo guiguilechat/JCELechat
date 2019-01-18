@@ -5,12 +5,6 @@ items:
     name: ♦ Badger
     published: false
     volume: 250000.0
-  ♦ Bestower:
-    id: 42654
-    mass: 1.35E7
-    name: ♦ Bestower
-    published: false
-    volume: 260000.0
   ♦ Bustard:
     id: 43613
     mass: 2.0E7
@@ -47,3 +41,9 @@ items:
     name: ♦ Occator
     published: false
     volume: 390000.0
+  ��� Bestower:
+    id: 42654
+    mass: 1.35E7
+    name: ��� Bestower
+    published: false
+    volume: 260000.0

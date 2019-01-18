@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ScanGravimetricStrengthBonus
     extends DoubleAttribute
 {
-    public final static ScanGravimetricStrengthBonus INSTANCE = new ScanGravimetricStrengthBonus();
+    public static final ScanGravimetricStrengthBonus INSTANCE = new ScanGravimetricStrengthBonus();
 
     @Override
     public int getId() {

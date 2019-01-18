@@ -145,7 +145,7 @@ public class MiningDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
-    public final static MiningDrone.MetaGroup METAGROUP = new MiningDrone.MetaGroup();
+    public static final MiningDrone.MetaGroup METAGROUP = new MiningDrone.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -233,7 +233,7 @@ public class MiningDrone
     public static class MetaGroup
         implements IMetaGroup<MiningDrone>
     {
-        public final static String RESOURCE_PATH = "SDE/items/drone/MiningDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/drone/MiningDrone.yaml";
         private Map<String, MiningDrone> cache = (null);
 
         @Override

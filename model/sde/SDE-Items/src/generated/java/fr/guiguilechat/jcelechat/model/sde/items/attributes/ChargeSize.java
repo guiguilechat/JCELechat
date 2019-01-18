@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ChargeSize
     extends IntAttribute
 {
-    public final static ChargeSize INSTANCE = new ChargeSize();
+    public static final ChargeSize INSTANCE = new ChargeSize();
 
     @Override
     public int getId() {

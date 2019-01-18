@@ -32,7 +32,7 @@ public class GangCoordinatorBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static GangCoordinatorBlueprint.MetaGroup METAGROUP = new GangCoordinatorBlueprint.MetaGroup();
+    public static final GangCoordinatorBlueprint.MetaGroup METAGROUP = new GangCoordinatorBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class GangCoordinatorBlueprint
     public static class MetaGroup
         implements IMetaGroup<GangCoordinatorBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/GangCoordinatorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/GangCoordinatorBlueprint.yaml";
         private Map<String, GangCoordinatorBlueprint> cache = (null);
 
         @Override

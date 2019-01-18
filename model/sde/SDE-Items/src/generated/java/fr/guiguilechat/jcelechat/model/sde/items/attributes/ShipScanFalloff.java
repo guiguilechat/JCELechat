@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShipScanFalloff
     extends IntAttribute
 {
-    public final static ShipScanFalloff INSTANCE = new ShipScanFalloff();
+    public static final ShipScanFalloff INSTANCE = new ShipScanFalloff();
 
     @Override
     public int getId() {

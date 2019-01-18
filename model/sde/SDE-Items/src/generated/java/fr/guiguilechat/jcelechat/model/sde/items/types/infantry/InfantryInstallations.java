@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class InfantryInstallations
     extends Infantry
 {
-    public final static InfantryInstallations.MetaGroup METAGROUP = new InfantryInstallations.MetaGroup();
+    public static final InfantryInstallations.MetaGroup METAGROUP = new InfantryInstallations.MetaGroup();
 
     @Override
     public IMetaGroup<InfantryInstallations> getGroup() {
@@ -22,7 +22,7 @@ public class InfantryInstallations
     public static class MetaGroup
         implements IMetaGroup<InfantryInstallations>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infantry/InfantryInstallations.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infantry/InfantryInstallations.yaml";
         private Map<String, InfantryInstallations> cache = (null);
 
         @Override

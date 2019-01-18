@@ -23,7 +23,7 @@ public class EnergyNeutralizerDroneBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static EnergyNeutralizerDroneBlueprint.MetaGroup METAGROUP = new EnergyNeutralizerDroneBlueprint.MetaGroup();
+    public static final EnergyNeutralizerDroneBlueprint.MetaGroup METAGROUP = new EnergyNeutralizerDroneBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class EnergyNeutralizerDroneBlueprint
     public static class MetaGroup
         implements IMetaGroup<EnergyNeutralizerDroneBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/EnergyNeutralizerDroneBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/EnergyNeutralizerDroneBlueprint.yaml";
         private Map<String, EnergyNeutralizerDroneBlueprint> cache = (null);
 
         @Override

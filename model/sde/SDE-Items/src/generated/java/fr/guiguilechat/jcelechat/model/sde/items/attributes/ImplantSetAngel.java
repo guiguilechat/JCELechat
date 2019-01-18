@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ImplantSetAngel
     extends DoubleAttribute
 {
-    public final static ImplantSetAngel INSTANCE = new ImplantSetAngel();
+    public static final ImplantSetAngel INSTANCE = new ImplantSetAngel();
 
     @Override
     public int getId() {

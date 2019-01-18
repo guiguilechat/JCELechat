@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShieldBoostCapacitorBonus
     extends IntAttribute
 {
-    public final static ShieldBoostCapacitorBonus INSTANCE = new ShieldBoostCapacitorBonus();
+    public static final ShieldBoostCapacitorBonus INSTANCE = new ShieldBoostCapacitorBonus();
 
     @Override
     public int getId() {

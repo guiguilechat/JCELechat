@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Drawback
     extends IntAttribute
 {
-    public final static Drawback INSTANCE = new Drawback();
+    public static final Drawback INSTANCE = new Drawback();
 
     @Override
     public int getId() {

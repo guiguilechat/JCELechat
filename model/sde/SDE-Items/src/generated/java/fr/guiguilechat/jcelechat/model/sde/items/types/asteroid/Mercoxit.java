@@ -45,7 +45,7 @@ public class Mercoxit
     @Stackable(true)
     @DefaultIntValue(0)
     public int DamageCloudType;
-    public final static Mercoxit.MetaGroup METAGROUP = new Mercoxit.MetaGroup();
+    public static final Mercoxit.MetaGroup METAGROUP = new Mercoxit.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -81,7 +81,7 @@ public class Mercoxit
     public static class MetaGroup
         implements IMetaGroup<Mercoxit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Mercoxit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Mercoxit.yaml";
         private Map<String, Mercoxit> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AurumConversionRate
     extends IntAttribute
 {
-    public final static AurumConversionRate INSTANCE = new AurumConversionRate();
+    public static final AurumConversionRate INSTANCE = new AurumConversionRate();
 
     @Override
     public int getId() {

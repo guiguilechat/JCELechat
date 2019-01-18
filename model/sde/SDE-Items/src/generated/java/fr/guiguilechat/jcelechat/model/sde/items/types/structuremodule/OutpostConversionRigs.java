@@ -229,7 +229,7 @@ public class OutpostConversionRigs
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static OutpostConversionRigs.MetaGroup METAGROUP = new OutpostConversionRigs.MetaGroup();
+    public static final OutpostConversionRigs.MetaGroup METAGROUP = new OutpostConversionRigs.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -365,7 +365,7 @@ public class OutpostConversionRigs
     public static class MetaGroup
         implements IMetaGroup<OutpostConversionRigs>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/OutpostConversionRigs.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/OutpostConversionRigs.yaml";
         private Map<String, OutpostConversionRigs> cache = (null);
 
         @Override

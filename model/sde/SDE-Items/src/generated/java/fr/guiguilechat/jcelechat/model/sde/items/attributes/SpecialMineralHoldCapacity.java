@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialMineralHoldCapacity
     extends IntAttribute
 {
-    public final static SpecialMineralHoldCapacity INSTANCE = new SpecialMineralHoldCapacity();
+    public static final SpecialMineralHoldCapacity INSTANCE = new SpecialMineralHoldCapacity();
 
     @Override
     public int getId() {

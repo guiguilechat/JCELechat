@@ -216,7 +216,7 @@ public class HeavyAssaultMissile
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
-    public final static HeavyAssaultMissile.MetaGroup METAGROUP = new HeavyAssaultMissile.MetaGroup();
+    public static final HeavyAssaultMissile.MetaGroup METAGROUP = new HeavyAssaultMissile.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -344,7 +344,7 @@ public class HeavyAssaultMissile
     public static class MetaGroup
         implements IMetaGroup<HeavyAssaultMissile>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/HeavyAssaultMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/HeavyAssaultMissile.yaml";
         private Map<String, HeavyAssaultMissile> cache = (null);
 
         @Override

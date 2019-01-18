@@ -72,7 +72,7 @@ public abstract class Deployable
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static Deployable.MetaCat METACAT = new Deployable.MetaCat();
+    public static final Deployable.MetaCat METACAT = new Deployable.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

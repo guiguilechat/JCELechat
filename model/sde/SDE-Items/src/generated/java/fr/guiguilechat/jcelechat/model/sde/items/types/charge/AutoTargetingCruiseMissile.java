@@ -215,7 +215,7 @@ public class AutoTargetingCruiseMissile
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static AutoTargetingCruiseMissile.MetaGroup METAGROUP = new AutoTargetingCruiseMissile.MetaGroup();
+    public static final AutoTargetingCruiseMissile.MetaGroup METAGROUP = new AutoTargetingCruiseMissile.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -343,7 +343,7 @@ public class AutoTargetingCruiseMissile
     public static class MetaGroup
         implements IMetaGroup<AutoTargetingCruiseMissile>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AutoTargetingCruiseMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AutoTargetingCruiseMissile.yaml";
         private Map<String, AutoTargetingCruiseMissile> cache = (null);
 
         @Override

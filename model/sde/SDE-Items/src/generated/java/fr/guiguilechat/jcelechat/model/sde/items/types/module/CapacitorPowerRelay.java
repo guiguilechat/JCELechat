@@ -90,7 +90,7 @@ public class CapacitorPowerRelay
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CapacitorPowerRelay.MetaGroup METAGROUP = new CapacitorPowerRelay.MetaGroup();
+    public static final CapacitorPowerRelay.MetaGroup METAGROUP = new CapacitorPowerRelay.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class CapacitorPowerRelay
     public static class MetaGroup
         implements IMetaGroup<CapacitorPowerRelay>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CapacitorPowerRelay.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CapacitorPowerRelay.yaml";
         private Map<String, CapacitorPowerRelay> cache = (null);
 
         @Override

@@ -65,7 +65,7 @@ public class StructureECMScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
-    public final static StructureECMScript.MetaGroup METAGROUP = new StructureECMScript.MetaGroup();
+    public static final StructureECMScript.MetaGroup METAGROUP = new StructureECMScript.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -113,7 +113,7 @@ public class StructureECMScript
     public static class MetaGroup
         implements IMetaGroup<StructureECMScript>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/StructureECMScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/StructureECMScript.yaml";
         private Map<String, StructureECMScript> cache = (null);
 
         @Override

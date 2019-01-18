@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ReloadTimeBonus
     extends IntAttribute
 {
-    public final static ReloadTimeBonus INSTANCE = new ReloadTimeBonus();
+    public static final ReloadTimeBonus INSTANCE = new ReloadTimeBonus();
 
     @Override
     public int getId() {

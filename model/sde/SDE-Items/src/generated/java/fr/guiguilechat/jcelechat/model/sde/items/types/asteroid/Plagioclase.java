@@ -37,7 +37,7 @@ public class Plagioclase
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Plagioclase.MetaGroup METAGROUP = new Plagioclase.MetaGroup();
+    public static final Plagioclase.MetaGroup METAGROUP = new Plagioclase.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Plagioclase
     public static class MetaGroup
         implements IMetaGroup<Plagioclase>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Plagioclase.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Plagioclase.yaml";
         private Map<String, Plagioclase> cache = (null);
 
         @Override

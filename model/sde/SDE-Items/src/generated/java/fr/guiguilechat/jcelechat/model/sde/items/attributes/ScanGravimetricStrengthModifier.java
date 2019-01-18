@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ScanGravimetricStrengthModifier
     extends IntAttribute
 {
-    public final static ScanGravimetricStrengthModifier INSTANCE = new ScanGravimetricStrengthModifier();
+    public static final ScanGravimetricStrengthModifier INSTANCE = new ScanGravimetricStrengthModifier();
 
     @Override
     public int getId() {

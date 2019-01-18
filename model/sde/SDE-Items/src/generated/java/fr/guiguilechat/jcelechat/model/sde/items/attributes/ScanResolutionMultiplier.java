@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ScanResolutionMultiplier
     extends DoubleAttribute
 {
-    public final static ScanResolutionMultiplier INSTANCE = new ScanResolutionMultiplier();
+    public static final ScanResolutionMultiplier INSTANCE = new ScanResolutionMultiplier();
 
     @Override
     public int getId() {

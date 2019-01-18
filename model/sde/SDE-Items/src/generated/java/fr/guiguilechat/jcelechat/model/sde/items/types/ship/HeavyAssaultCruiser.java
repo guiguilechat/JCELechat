@@ -242,7 +242,7 @@ public class HeavyAssaultCruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static HeavyAssaultCruiser.MetaGroup METAGROUP = new HeavyAssaultCruiser.MetaGroup();
+    public static final HeavyAssaultCruiser.MetaGroup METAGROUP = new HeavyAssaultCruiser.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -386,7 +386,7 @@ public class HeavyAssaultCruiser
     public static class MetaGroup
         implements IMetaGroup<HeavyAssaultCruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/HeavyAssaultCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/HeavyAssaultCruiser.yaml";
         private Map<String, HeavyAssaultCruiser> cache = (null);
 
         @Override

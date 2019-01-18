@@ -51,7 +51,7 @@ public class MinmatarEducation
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
-    public final static MinmatarEducation.MetaGroup METAGROUP = new MinmatarEducation.MetaGroup();
+    public static final MinmatarEducation.MetaGroup METAGROUP = new MinmatarEducation.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -91,7 +91,7 @@ public class MinmatarEducation
     public static class MetaGroup
         implements IMetaGroup<MinmatarEducation>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/MinmatarEducation.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/MinmatarEducation.yaml";
         private Map<String, MinmatarEducation> cache = (null);
 
         @Override

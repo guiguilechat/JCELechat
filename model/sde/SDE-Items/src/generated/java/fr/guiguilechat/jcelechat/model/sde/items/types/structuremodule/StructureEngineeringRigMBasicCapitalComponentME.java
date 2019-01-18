@@ -159,7 +159,7 @@ public class StructureEngineeringRigMBasicCapitalComponentME
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureEngineeringRigMBasicCapitalComponentME.MetaGroup METAGROUP = new StructureEngineeringRigMBasicCapitalComponentME.MetaGroup();
+    public static final StructureEngineeringRigMBasicCapitalComponentME.MetaGroup METAGROUP = new StructureEngineeringRigMBasicCapitalComponentME.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -255,7 +255,7 @@ public class StructureEngineeringRigMBasicCapitalComponentME
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigMBasicCapitalComponentME>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBasicCapitalComponentME.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBasicCapitalComponentME.yaml";
         private Map<String, StructureEngineeringRigMBasicCapitalComponentME> cache = (null);
 
         @Override

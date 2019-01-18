@@ -47,7 +47,7 @@ public class DamageControlBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static DamageControlBlueprint.MetaGroup METAGROUP = new DamageControlBlueprint.MetaGroup();
+    public static final DamageControlBlueprint.MetaGroup METAGROUP = new DamageControlBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,7 +79,7 @@ public class DamageControlBlueprint
     public static class MetaGroup
         implements IMetaGroup<DamageControlBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/DamageControlBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/DamageControlBlueprint.yaml";
         private Map<String, DamageControlBlueprint> cache = (null);
 
         @Override

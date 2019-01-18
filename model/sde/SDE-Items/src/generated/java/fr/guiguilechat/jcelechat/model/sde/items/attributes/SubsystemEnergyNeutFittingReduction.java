@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemEnergyNeutFittingReduction
     extends IntAttribute
 {
-    public final static SubsystemEnergyNeutFittingReduction INSTANCE = new SubsystemEnergyNeutFittingReduction();
+    public static final SubsystemEnergyNeutFittingReduction INSTANCE = new SubsystemEnergyNeutFittingReduction();
 
     @Override
     public int getId() {

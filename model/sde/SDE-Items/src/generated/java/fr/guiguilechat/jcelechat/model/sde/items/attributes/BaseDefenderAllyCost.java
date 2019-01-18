@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BaseDefenderAllyCost
     extends IntAttribute
 {
-    public final static BaseDefenderAllyCost INSTANCE = new BaseDefenderAllyCost();
+    public static final BaseDefenderAllyCost INSTANCE = new BaseDefenderAllyCost();
 
     @Override
     public int getId() {

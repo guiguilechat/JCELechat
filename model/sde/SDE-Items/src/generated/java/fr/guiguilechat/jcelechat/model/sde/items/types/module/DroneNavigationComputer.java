@@ -83,7 +83,7 @@ public class DroneNavigationComputer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static DroneNavigationComputer.MetaGroup METAGROUP = new DroneNavigationComputer.MetaGroup();
+    public static final DroneNavigationComputer.MetaGroup METAGROUP = new DroneNavigationComputer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class DroneNavigationComputer
     public static class MetaGroup
         implements IMetaGroup<DroneNavigationComputer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/DroneNavigationComputer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/DroneNavigationComputer.yaml";
         private Map<String, DroneNavigationComputer> cache = (null);
 
         @Override

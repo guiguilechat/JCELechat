@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class Cpu
     extends DoubleAttribute
 {
-    public final static Cpu INSTANCE = new Cpu();
+    public static final Cpu INSTANCE = new Cpu();
 
     @Override
     public int getId() {

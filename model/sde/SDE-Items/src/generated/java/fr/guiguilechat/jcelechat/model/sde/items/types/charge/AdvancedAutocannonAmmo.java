@@ -145,7 +145,7 @@ public class AdvancedAutocannonAmmo
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static AdvancedAutocannonAmmo.MetaGroup METAGROUP = new AdvancedAutocannonAmmo.MetaGroup();
+    public static final AdvancedAutocannonAmmo.MetaGroup METAGROUP = new AdvancedAutocannonAmmo.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -237,7 +237,7 @@ public class AdvancedAutocannonAmmo
     public static class MetaGroup
         implements IMetaGroup<AdvancedAutocannonAmmo>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedAutocannonAmmo.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedAutocannonAmmo.yaml";
         private Map<String, AdvancedAutocannonAmmo> cache = (null);
 
         @Override

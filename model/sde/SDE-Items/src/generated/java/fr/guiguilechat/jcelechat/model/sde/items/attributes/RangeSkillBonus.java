@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RangeSkillBonus
     extends IntAttribute
 {
-    public final static RangeSkillBonus INSTANCE = new RangeSkillBonus();
+    public static final RangeSkillBonus INSTANCE = new RangeSkillBonus();
 
     @Override
     public int getId() {

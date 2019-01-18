@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Tattoos
     extends Apparel
 {
-    public final static Tattoos.MetaGroup METAGROUP = new Tattoos.MetaGroup();
+    public static final Tattoos.MetaGroup METAGROUP = new Tattoos.MetaGroup();
 
     @Override
     public IMetaGroup<Tattoos> getGroup() {
@@ -22,7 +22,7 @@ public class Tattoos
     public static class MetaGroup
         implements IMetaGroup<Tattoos>
     {
-        public final static String RESOURCE_PATH = "SDE/items/apparel/Tattoos.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/apparel/Tattoos.yaml";
         private Map<String, Tattoos> cache = (null);
 
         @Override

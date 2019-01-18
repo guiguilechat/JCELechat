@@ -32,7 +32,7 @@ public class ArmorCoatingBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ArmorCoatingBlueprint.MetaGroup METAGROUP = new ArmorCoatingBlueprint.MetaGroup();
+    public static final ArmorCoatingBlueprint.MetaGroup METAGROUP = new ArmorCoatingBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ArmorCoatingBlueprint
     public static class MetaGroup
         implements IMetaGroup<ArmorCoatingBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ArmorCoatingBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ArmorCoatingBlueprint.yaml";
         private Map<String, ArmorCoatingBlueprint> cache = (null);
 
         @Override

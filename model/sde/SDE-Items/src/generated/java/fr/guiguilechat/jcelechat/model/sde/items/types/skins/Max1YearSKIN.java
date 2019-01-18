@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Max1YearSKIN
     extends SKINs
 {
-    public final static Max1YearSKIN.MetaGroup METAGROUP = new Max1YearSKIN.MetaGroup();
+    public static final Max1YearSKIN.MetaGroup METAGROUP = new Max1YearSKIN.MetaGroup();
 
     @Override
     public IMetaGroup<Max1YearSKIN> getGroup() {
@@ -22,7 +22,7 @@ public class Max1YearSKIN
     public static class MetaGroup
         implements IMetaGroup<Max1YearSKIN>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skins/Max1YearSKIN.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skins/Max1YearSKIN.yaml";
         private Map<String, Max1YearSKIN> cache = (null);
 
         @Override

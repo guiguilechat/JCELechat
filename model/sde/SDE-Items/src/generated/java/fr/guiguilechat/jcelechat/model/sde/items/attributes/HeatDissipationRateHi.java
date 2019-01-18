@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class HeatDissipationRateHi
     extends DoubleAttribute
 {
-    public final static HeatDissipationRateHi INSTANCE = new HeatDissipationRateHi();
+    public static final HeatDissipationRateHi INSTANCE = new HeatDissipationRateHi();
 
     @Override
     public int getId() {

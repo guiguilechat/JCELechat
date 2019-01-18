@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Eyewear
     extends Apparel
 {
-    public final static Eyewear.MetaGroup METAGROUP = new Eyewear.MetaGroup();
+    public static final Eyewear.MetaGroup METAGROUP = new Eyewear.MetaGroup();
 
     @Override
     public IMetaGroup<Eyewear> getGroup() {
@@ -22,7 +22,7 @@ public class Eyewear
     public static class MetaGroup
         implements IMetaGroup<Eyewear>
     {
-        public final static String RESOURCE_PATH = "SDE/items/apparel/Eyewear.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/apparel/Eyewear.yaml";
         private Map<String, Eyewear> cache = (null);
 
         @Override

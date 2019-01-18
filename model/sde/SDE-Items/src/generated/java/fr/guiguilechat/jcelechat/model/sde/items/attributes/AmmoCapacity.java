@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AmmoCapacity
     extends IntAttribute
 {
-    public final static AmmoCapacity INSTANCE = new AmmoCapacity();
+    public static final AmmoCapacity INSTANCE = new AmmoCapacity();
 
     @Override
     public int getId() {

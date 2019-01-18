@@ -195,7 +195,7 @@ public class CloakingDevice
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CloakingDevice.MetaGroup METAGROUP = new CloakingDevice.MetaGroup();
+    public static final CloakingDevice.MetaGroup METAGROUP = new CloakingDevice.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -311,7 +311,7 @@ public class CloakingDevice
     public static class MetaGroup
         implements IMetaGroup<CloakingDevice>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CloakingDevice.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CloakingDevice.yaml";
         private Map<String, CloakingDevice> cache = (null);
 
         @Override

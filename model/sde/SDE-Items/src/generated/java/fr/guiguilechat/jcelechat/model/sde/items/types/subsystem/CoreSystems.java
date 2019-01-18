@@ -136,7 +136,7 @@ public class CoreSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int SubsystemEnergyNeutFittingReduction;
-    public final static CoreSystems.MetaGroup METAGROUP = new CoreSystems.MetaGroup();
+    public static final CoreSystems.MetaGroup METAGROUP = new CoreSystems.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -224,7 +224,7 @@ public class CoreSystems
     public static class MetaGroup
         implements IMetaGroup<CoreSystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/subsystem/CoreSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/subsystem/CoreSystems.yaml";
         private Map<String, CoreSystems> cache = (null);
 
         @Override

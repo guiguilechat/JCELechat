@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterSquadronIsStandupSupport
     extends IntAttribute
 {
-    public final static FighterSquadronIsStandupSupport INSTANCE = new FighterSquadronIsStandupSupport();
+    public static final FighterSquadronIsStandupSupport INSTANCE = new FighterSquadronIsStandupSupport();
 
     @Override
     public int getId() {

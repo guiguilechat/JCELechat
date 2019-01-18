@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DoomsdayDamageRadius
     extends IntAttribute
 {
-    public final static DoomsdayDamageRadius INSTANCE = new DoomsdayDamageRadius();
+    public static final DoomsdayDamageRadius INSTANCE = new DoomsdayDamageRadius();
 
     @Override
     public int getId() {

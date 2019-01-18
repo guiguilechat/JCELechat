@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EnergyNeutralizerRangeOptimal
     extends IntAttribute
 {
-    public final static EnergyNeutralizerRangeOptimal INSTANCE = new EnergyNeutralizerRangeOptimal();
+    public static final EnergyNeutralizerRangeOptimal INSTANCE = new EnergyNeutralizerRangeOptimal();
 
     @Override
     public int getId() {

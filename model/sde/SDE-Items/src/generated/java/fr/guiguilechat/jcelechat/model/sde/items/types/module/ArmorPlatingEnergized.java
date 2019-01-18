@@ -111,7 +111,7 @@ public class ArmorPlatingEnergized
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
-    public final static ArmorPlatingEnergized.MetaGroup METAGROUP = new ArmorPlatingEnergized.MetaGroup();
+    public static final ArmorPlatingEnergized.MetaGroup METAGROUP = new ArmorPlatingEnergized.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class ArmorPlatingEnergized
     public static class MetaGroup
         implements IMetaGroup<ArmorPlatingEnergized>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ArmorPlatingEnergized.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ArmorPlatingEnergized.yaml";
         private Map<String, ArmorPlatingEnergized> cache = (null);
 
         @Override

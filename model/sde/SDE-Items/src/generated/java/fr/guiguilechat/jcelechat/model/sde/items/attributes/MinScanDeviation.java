@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MinScanDeviation
     extends IntAttribute
 {
-    public final static MinScanDeviation INSTANCE = new MinScanDeviation();
+    public static final MinScanDeviation INSTANCE = new MinScanDeviation();
 
     @Override
     public int getId() {

@@ -115,7 +115,7 @@ public class Shields
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double UniformityBonus;
-    public final static Shields.MetaGroup METAGROUP = new Shields.MetaGroup();
+    public static final Shields.MetaGroup METAGROUP = new Shields.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -191,7 +191,7 @@ public class Shields
     public static class MetaGroup
         implements IMetaGroup<Shields>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Shields.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Shields.yaml";
         private Map<String, Shields> cache = (null);
 
         @Override

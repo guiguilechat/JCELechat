@@ -32,7 +32,7 @@ public class AuxiliaryPowerCoreBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static AuxiliaryPowerCoreBlueprint.MetaGroup METAGROUP = new AuxiliaryPowerCoreBlueprint.MetaGroup();
+    public static final AuxiliaryPowerCoreBlueprint.MetaGroup METAGROUP = new AuxiliaryPowerCoreBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class AuxiliaryPowerCoreBlueprint
     public static class MetaGroup
         implements IMetaGroup<AuxiliaryPowerCoreBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/AuxiliaryPowerCoreBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/AuxiliaryPowerCoreBlueprint.yaml";
         private Map<String, AuxiliaryPowerCoreBlueprint> cache = (null);
 
         @Override

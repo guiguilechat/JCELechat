@@ -115,7 +115,7 @@ public class ScannerArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static ScannerArray.MetaGroup METAGROUP = new ScannerArray.MetaGroup();
+    public static final ScannerArray.MetaGroup METAGROUP = new ScannerArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -191,7 +191,7 @@ public class ScannerArray
     public static class MetaGroup
         implements IMetaGroup<ScannerArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
         private Map<String, ScannerArray> cache = (null);
 
         @Override

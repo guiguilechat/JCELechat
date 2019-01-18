@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShieldDamageLimit
     extends IntAttribute
 {
-    public final static ShieldDamageLimit INSTANCE = new ShieldDamageLimit();
+    public static final ShieldDamageLimit INSTANCE = new ShieldDamageLimit();
 
     @Override
     public int getId() {

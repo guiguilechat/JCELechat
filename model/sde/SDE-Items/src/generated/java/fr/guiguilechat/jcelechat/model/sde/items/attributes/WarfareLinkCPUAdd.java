@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarfareLinkCPUAdd
     extends IntAttribute
 {
-    public final static WarfareLinkCPUAdd INSTANCE = new WarfareLinkCPUAdd();
+    public static final WarfareLinkCPUAdd INSTANCE = new WarfareLinkCPUAdd();
 
     @Override
     public int getId() {

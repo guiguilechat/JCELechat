@@ -23,7 +23,7 @@ public class ForceAuxiliaryBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static ForceAuxiliaryBlueprint.MetaGroup METAGROUP = new ForceAuxiliaryBlueprint.MetaGroup();
+    public static final ForceAuxiliaryBlueprint.MetaGroup METAGROUP = new ForceAuxiliaryBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class ForceAuxiliaryBlueprint
     public static class MetaGroup
         implements IMetaGroup<ForceAuxiliaryBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ForceAuxiliaryBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ForceAuxiliaryBlueprint.yaml";
         private Map<String, ForceAuxiliaryBlueprint> cache = (null);
 
         @Override

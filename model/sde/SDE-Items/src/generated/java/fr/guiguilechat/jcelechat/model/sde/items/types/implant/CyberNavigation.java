@@ -81,7 +81,7 @@ public class CyberNavigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpCapacitorNeedBonus;
-    public final static CyberNavigation.MetaGroup METAGROUP = new CyberNavigation.MetaGroup();
+    public static final CyberNavigation.MetaGroup METAGROUP = new CyberNavigation.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -137,7 +137,7 @@ public class CyberNavigation
     public static class MetaGroup
         implements IMetaGroup<CyberNavigation>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberNavigation.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberNavigation.yaml";
         private Map<String, CyberNavigation> cache = (null);
 
         @Override

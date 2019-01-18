@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class IntelligenceSkillTrainingTimeMultiplierBonus
     extends DoubleAttribute
 {
-    public final static IntelligenceSkillTrainingTimeMultiplierBonus INSTANCE = new IntelligenceSkillTrainingTimeMultiplierBonus();
+    public static final IntelligenceSkillTrainingTimeMultiplierBonus INSTANCE = new IntelligenceSkillTrainingTimeMultiplierBonus();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ResistanceKiller
     extends IntAttribute
 {
-    public final static ResistanceKiller INSTANCE = new ResistanceKiller();
+    public static final ResistanceKiller INSTANCE = new ResistanceKiller();
 
     @Override
     public int getId() {

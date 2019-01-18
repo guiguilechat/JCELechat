@@ -32,7 +32,7 @@ public class RemoteCapacitorTransmitterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RemoteCapacitorTransmitterBlueprint.MetaGroup METAGROUP = new RemoteCapacitorTransmitterBlueprint.MetaGroup();
+    public static final RemoteCapacitorTransmitterBlueprint.MetaGroup METAGROUP = new RemoteCapacitorTransmitterBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class RemoteCapacitorTransmitterBlueprint
     public static class MetaGroup
         implements IMetaGroup<RemoteCapacitorTransmitterBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/RemoteCapacitorTransmitterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/RemoteCapacitorTransmitterBlueprint.yaml";
         private Map<String, RemoteCapacitorTransmitterBlueprint> cache = (null);
 
         @Override

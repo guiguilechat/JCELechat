@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ShieldCapacityMultiplier
     extends DoubleAttribute
 {
-    public final static ShieldCapacityMultiplier INSTANCE = new ShieldCapacityMultiplier();
+    public static final ShieldCapacityMultiplier INSTANCE = new ShieldCapacityMultiplier();
 
     @Override
     public int getId() {

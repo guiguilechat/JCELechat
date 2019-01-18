@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class PowerOutputMultiplier
     extends DoubleAttribute
 {
-    public final static PowerOutputMultiplier INSTANCE = new PowerOutputMultiplier();
+    public static final PowerOutputMultiplier INSTANCE = new PowerOutputMultiplier();
 
     @Override
     public int getId() {

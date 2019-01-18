@@ -312,7 +312,7 @@ public class HeavyFighter
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
-    public final static HeavyFighter.MetaGroup METAGROUP = new HeavyFighter.MetaGroup();
+    public static final HeavyFighter.MetaGroup METAGROUP = new HeavyFighter.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -496,7 +496,7 @@ public class HeavyFighter
     public static class MetaGroup
         implements IMetaGroup<HeavyFighter>
     {
-        public final static String RESOURCE_PATH = "SDE/items/fighter/HeavyFighter.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/fighter/HeavyFighter.yaml";
         private Map<String, HeavyFighter> cache = (null);
 
         @Override

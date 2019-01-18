@@ -103,7 +103,7 @@ public class RigElectronicSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static RigElectronicSystems.MetaGroup METAGROUP = new RigElectronicSystems.MetaGroup();
+    public static final RigElectronicSystems.MetaGroup METAGROUP = new RigElectronicSystems.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -171,7 +171,7 @@ public class RigElectronicSystems
     public static class MetaGroup
         implements IMetaGroup<RigElectronicSystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigElectronicSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigElectronicSystems.yaml";
         private Map<String, RigElectronicSystems> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BoosterChanceBonus
     extends IntAttribute
 {
-    public final static BoosterChanceBonus INSTANCE = new BoosterChanceBonus();
+    public static final BoosterChanceBonus INSTANCE = new BoosterChanceBonus();
 
     @Override
     public int getId() {

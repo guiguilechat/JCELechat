@@ -110,7 +110,7 @@ public class StructureXLMissileLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureXLMissileLauncher.MetaGroup METAGROUP = new StructureXLMissileLauncher.MetaGroup();
+    public static final StructureXLMissileLauncher.MetaGroup METAGROUP = new StructureXLMissileLauncher.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -182,7 +182,7 @@ public class StructureXLMissileLauncher
     public static class MetaGroup
         implements IMetaGroup<StructureXLMissileLauncher>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureXLMissileLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureXLMissileLauncher.yaml";
         private Map<String, StructureXLMissileLauncher> cache = (null);
 
         @Override

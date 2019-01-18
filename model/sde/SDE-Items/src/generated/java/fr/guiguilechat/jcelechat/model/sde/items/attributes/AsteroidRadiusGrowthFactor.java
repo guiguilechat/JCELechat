@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AsteroidRadiusGrowthFactor
     extends DoubleAttribute
 {
-    public final static AsteroidRadiusGrowthFactor INSTANCE = new AsteroidRadiusGrowthFactor();
+    public static final AsteroidRadiusGrowthFactor INSTANCE = new AsteroidRadiusGrowthFactor();
 
     @Override
     public int getId() {

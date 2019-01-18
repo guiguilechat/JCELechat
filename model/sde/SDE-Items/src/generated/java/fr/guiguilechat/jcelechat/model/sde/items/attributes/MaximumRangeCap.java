@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaximumRangeCap
     extends IntAttribute
 {
-    public final static MaximumRangeCap INSTANCE = new MaximumRangeCap();
+    public static final MaximumRangeCap INSTANCE = new MaximumRangeCap();
 
     @Override
     public int getId() {

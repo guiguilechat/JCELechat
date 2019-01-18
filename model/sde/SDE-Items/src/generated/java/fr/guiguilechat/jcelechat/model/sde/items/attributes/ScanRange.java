@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ScanRange
     extends IntAttribute
 {
-    public final static ScanRange INSTANCE = new ScanRange();
+    public static final ScanRange INSTANCE = new ScanRange();
 
     @Override
     public int getId() {

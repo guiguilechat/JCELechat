@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AttributeTEResearchTime
     extends IntAttribute
 {
-    public final static AttributeTEResearchTime INSTANCE = new AttributeTEResearchTime();
+    public static final AttributeTEResearchTime INSTANCE = new AttributeTEResearchTime();
 
     @Override
     public int getId() {

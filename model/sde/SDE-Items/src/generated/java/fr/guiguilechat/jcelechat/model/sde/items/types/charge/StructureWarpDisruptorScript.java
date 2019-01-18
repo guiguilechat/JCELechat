@@ -59,7 +59,7 @@ public class StructureWarpDisruptorScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleRangeBonus;
-    public final static StructureWarpDisruptorScript.MetaGroup METAGROUP = new StructureWarpDisruptorScript.MetaGroup();
+    public static final StructureWarpDisruptorScript.MetaGroup METAGROUP = new StructureWarpDisruptorScript.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -103,7 +103,7 @@ public class StructureWarpDisruptorScript
     public static class MetaGroup
         implements IMetaGroup<StructureWarpDisruptorScript>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/StructureWarpDisruptorScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/StructureWarpDisruptorScript.yaml";
         private Map<String, StructureWarpDisruptorScript> cache = (null);
 
         @Override

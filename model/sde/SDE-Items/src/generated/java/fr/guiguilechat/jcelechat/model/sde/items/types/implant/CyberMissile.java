@@ -88,7 +88,7 @@ public class CyberMissile
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CyberMissile.MetaGroup METAGROUP = new CyberMissile.MetaGroup();
+    public static final CyberMissile.MetaGroup METAGROUP = new CyberMissile.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -148,7 +148,7 @@ public class CyberMissile
     public static class MetaGroup
         implements IMetaGroup<CyberMissile>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberMissile.yaml";
         private Map<String, CyberMissile> cache = (null);
 
         @Override

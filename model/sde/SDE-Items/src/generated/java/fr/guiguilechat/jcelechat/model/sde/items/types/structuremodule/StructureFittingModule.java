@@ -89,7 +89,7 @@ public class StructureFittingModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureFittingModule.MetaGroup METAGROUP = new StructureFittingModule.MetaGroup();
+    public static final StructureFittingModule.MetaGroup METAGROUP = new StructureFittingModule.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -149,7 +149,7 @@ public class StructureFittingModule
     public static class MetaGroup
         implements IMetaGroup<StructureFittingModule>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureFittingModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureFittingModule.yaml";
         private Map<String, StructureFittingModule> cache = (null);
 
         @Override

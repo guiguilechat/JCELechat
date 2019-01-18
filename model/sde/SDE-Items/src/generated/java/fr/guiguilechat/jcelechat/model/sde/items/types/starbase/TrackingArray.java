@@ -73,7 +73,7 @@ public class TrackingArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static TrackingArray.MetaGroup METAGROUP = new TrackingArray.MetaGroup();
+    public static final TrackingArray.MetaGroup METAGROUP = new TrackingArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -125,7 +125,7 @@ public class TrackingArray
     public static class MetaGroup
         implements IMetaGroup<TrackingArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/TrackingArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/TrackingArray.yaml";
         private Map<String, TrackingArray> cache = (null);
 
         @Override

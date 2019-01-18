@@ -23,7 +23,7 @@ public class FueledShieldBoosterBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static FueledShieldBoosterBlueprint.MetaGroup METAGROUP = new FueledShieldBoosterBlueprint.MetaGroup();
+    public static final FueledShieldBoosterBlueprint.MetaGroup METAGROUP = new FueledShieldBoosterBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class FueledShieldBoosterBlueprint
     public static class MetaGroup
         implements IMetaGroup<FueledShieldBoosterBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/FueledShieldBoosterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/FueledShieldBoosterBlueprint.yaml";
         private Map<String, FueledShieldBoosterBlueprint> cache = (null);
 
         @Override

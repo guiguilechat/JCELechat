@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class BcLargeTurretCap
     extends DoubleAttribute
 {
-    public final static BcLargeTurretCap INSTANCE = new BcLargeTurretCap();
+    public static final BcLargeTurretCap INSTANCE = new BcLargeTurretCap();
 
     @Override
     public int getId() {

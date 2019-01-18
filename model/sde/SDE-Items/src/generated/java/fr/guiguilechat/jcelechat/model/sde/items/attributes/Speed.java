@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Speed
     extends IntAttribute
 {
-    public final static Speed INSTANCE = new Speed();
+    public static final Speed INSTANCE = new Speed();
 
     @Override
     public int getId() {

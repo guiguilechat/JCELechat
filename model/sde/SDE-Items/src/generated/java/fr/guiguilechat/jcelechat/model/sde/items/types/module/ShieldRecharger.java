@@ -83,7 +83,7 @@ public class ShieldRecharger
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldRecharger.MetaGroup METAGROUP = new ShieldRecharger.MetaGroup();
+    public static final ShieldRecharger.MetaGroup METAGROUP = new ShieldRecharger.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class ShieldRecharger
     public static class MetaGroup
         implements IMetaGroup<ShieldRecharger>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ShieldRecharger.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ShieldRecharger.yaml";
         private Map<String, ShieldRecharger> cache = (null);
 
         @Override

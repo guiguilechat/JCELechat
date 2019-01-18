@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DamageDelayDuration
     extends IntAttribute
 {
-    public final static DamageDelayDuration INSTANCE = new DamageDelayDuration();
+    public static final DamageDelayDuration INSTANCE = new DamageDelayDuration();
 
     @Override
     public int getId() {

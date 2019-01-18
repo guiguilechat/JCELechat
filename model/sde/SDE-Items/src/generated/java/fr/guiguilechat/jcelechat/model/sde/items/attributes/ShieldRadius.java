@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShieldRadius
     extends IntAttribute
 {
-    public final static ShieldRadius INSTANCE = new ShieldRadius();
+    public static final ShieldRadius INSTANCE = new ShieldRadius();
 
     @Override
     public int getId() {

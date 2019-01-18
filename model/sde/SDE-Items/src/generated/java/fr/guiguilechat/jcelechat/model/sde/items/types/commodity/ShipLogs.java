@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class ShipLogs
     extends Commodity
 {
-    public final static ShipLogs.MetaGroup METAGROUP = new ShipLogs.MetaGroup();
+    public static final ShipLogs.MetaGroup METAGROUP = new ShipLogs.MetaGroup();
 
     @Override
     public IMetaGroup<ShipLogs> getGroup() {
@@ -22,7 +22,7 @@ public class ShipLogs
     public static class MetaGroup
         implements IMetaGroup<ShipLogs>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/ShipLogs.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/ShipLogs.yaml";
         private Map<String, ShipLogs> cache = (null);
 
         @Override

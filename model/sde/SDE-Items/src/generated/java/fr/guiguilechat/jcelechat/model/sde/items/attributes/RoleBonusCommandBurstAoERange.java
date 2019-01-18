@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusCommandBurstAoERange
     extends IntAttribute
 {
-    public final static RoleBonusCommandBurstAoERange INSTANCE = new RoleBonusCommandBurstAoERange();
+    public static final RoleBonusCommandBurstAoERange INSTANCE = new RoleBonusCommandBurstAoERange();
 
     @Override
     public int getId() {

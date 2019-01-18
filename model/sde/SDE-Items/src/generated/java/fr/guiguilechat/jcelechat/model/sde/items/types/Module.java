@@ -163,7 +163,7 @@ public abstract class Module
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
-    public final static Module.MetaCat METACAT = new Module.MetaCat();
+    public static final Module.MetaCat METACAT = new Module.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

@@ -230,7 +230,7 @@ public class WarpDisruptFieldGenerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
-    public final static WarpDisruptFieldGenerator.MetaGroup METAGROUP = new WarpDisruptFieldGenerator.MetaGroup();
+    public static final WarpDisruptFieldGenerator.MetaGroup METAGROUP = new WarpDisruptFieldGenerator.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -366,7 +366,7 @@ public class WarpDisruptFieldGenerator
     public static class MetaGroup
         implements IMetaGroup<WarpDisruptFieldGenerator>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/WarpDisruptFieldGenerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/WarpDisruptFieldGenerator.yaml";
         private Map<String, WarpDisruptFieldGenerator> cache = (null);
 
         @Override

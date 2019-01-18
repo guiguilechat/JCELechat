@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarpFactor
     extends IntAttribute
 {
-    public final static WarpFactor INSTANCE = new WarpFactor();
+    public static final WarpFactor INSTANCE = new WarpFactor();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SiegeModeWarpStatus
     extends IntAttribute
 {
-    public final static SiegeModeWarpStatus INSTANCE = new SiegeModeWarpStatus();
+    public static final SiegeModeWarpStatus INSTANCE = new SiegeModeWarpStatus();
 
     @Override
     public int getId() {

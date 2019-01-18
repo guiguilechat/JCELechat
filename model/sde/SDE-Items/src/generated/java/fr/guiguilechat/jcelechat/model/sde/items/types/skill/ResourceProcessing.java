@@ -102,7 +102,7 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
-    public final static ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
+    public static final ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -170,7 +170,7 @@ public class ResourceProcessing
     public static class MetaGroup
         implements IMetaGroup<ResourceProcessing>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/ResourceProcessing.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/ResourceProcessing.yaml";
         private Map<String, ResourceProcessing> cache = (null);
 
         @Override

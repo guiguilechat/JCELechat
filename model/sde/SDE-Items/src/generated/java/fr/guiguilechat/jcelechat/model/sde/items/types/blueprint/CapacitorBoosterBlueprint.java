@@ -32,7 +32,7 @@ public class CapacitorBoosterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CapacitorBoosterBlueprint.MetaGroup METAGROUP = new CapacitorBoosterBlueprint.MetaGroup();
+    public static final CapacitorBoosterBlueprint.MetaGroup METAGROUP = new CapacitorBoosterBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class CapacitorBoosterBlueprint
     public static class MetaGroup
         implements IMetaGroup<CapacitorBoosterBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CapacitorBoosterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CapacitorBoosterBlueprint.yaml";
         private Map<String, CapacitorBoosterBlueprint> cache = (null);
 
         @Override

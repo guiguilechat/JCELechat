@@ -66,7 +66,7 @@ public class CorporateHangarArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static CorporateHangarArray.MetaGroup METAGROUP = new CorporateHangarArray.MetaGroup();
+    public static final CorporateHangarArray.MetaGroup METAGROUP = new CorporateHangarArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -114,7 +114,7 @@ public class CorporateHangarArray
     public static class MetaGroup
         implements IMetaGroup<CorporateHangarArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/CorporateHangarArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/CorporateHangarArray.yaml";
         private Map<String, CorporateHangarArray> cache = (null);
 
         @Override

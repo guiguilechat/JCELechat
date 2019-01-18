@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ActivationBlockedStrenght
     extends IntAttribute
 {
-    public final static ActivationBlockedStrenght INSTANCE = new ActivationBlockedStrenght();
+    public static final ActivationBlockedStrenght INSTANCE = new ActivationBlockedStrenght();
 
     @Override
     public int getId() {

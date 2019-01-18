@@ -89,7 +89,7 @@ public class FestivalLauncher
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static FestivalLauncher.MetaGroup METAGROUP = new FestivalLauncher.MetaGroup();
+    public static final FestivalLauncher.MetaGroup METAGROUP = new FestivalLauncher.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -149,7 +149,7 @@ public class FestivalLauncher
     public static class MetaGroup
         implements IMetaGroup<FestivalLauncher>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/FestivalLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/FestivalLauncher.yaml";
         private Map<String, FestivalLauncher> cache = (null);
 
         @Override

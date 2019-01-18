@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AdvancedIndustrySkillIndustryJobTimeBonus
     extends IntAttribute
 {
-    public final static AdvancedIndustrySkillIndustryJobTimeBonus INSTANCE = new AdvancedIndustrySkillIndustryJobTimeBonus();
+    public static final AdvancedIndustrySkillIndustryJobTimeBonus INSTANCE = new AdvancedIndustrySkillIndustryJobTimeBonus();
 
     @Override
     public int getId() {

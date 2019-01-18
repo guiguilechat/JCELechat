@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MissileFOFVelocityPercent
     extends IntAttribute
 {
-    public final static MissileFOFVelocityPercent INSTANCE = new MissileFOFVelocityPercent();
+    public static final MissileFOFVelocityPercent INSTANCE = new MissileFOFVelocityPercent();
 
     @Override
     public int getId() {

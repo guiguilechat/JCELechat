@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SiegeTurretDamageBonus
     extends IntAttribute
 {
-    public final static SiegeTurretDamageBonus INSTANCE = new SiegeTurretDamageBonus();
+    public static final SiegeTurretDamageBonus INSTANCE = new SiegeTurretDamageBonus();
 
     @Override
     public int getId() {

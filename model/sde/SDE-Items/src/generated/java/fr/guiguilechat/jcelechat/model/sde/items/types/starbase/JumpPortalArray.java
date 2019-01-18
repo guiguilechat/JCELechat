@@ -150,7 +150,7 @@ public class JumpPortalArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static JumpPortalArray.MetaGroup METAGROUP = new JumpPortalArray.MetaGroup();
+    public static final JumpPortalArray.MetaGroup METAGROUP = new JumpPortalArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -246,7 +246,7 @@ public class JumpPortalArray
     public static class MetaGroup
         implements IMetaGroup<JumpPortalArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/JumpPortalArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/JumpPortalArray.yaml";
         private Map<String, JumpPortalArray> cache = (null);
 
         @Override

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PrecursorCache
     extends Entity
 {
-    public final static PrecursorCache.MetaGroup METAGROUP = new PrecursorCache.MetaGroup();
+    public static final PrecursorCache.MetaGroup METAGROUP = new PrecursorCache.MetaGroup();
 
     @Override
     public IMetaGroup<PrecursorCache> getGroup() {
@@ -22,7 +22,7 @@ public class PrecursorCache
     public static class MetaGroup
         implements IMetaGroup<PrecursorCache>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/PrecursorCache.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/PrecursorCache.yaml";
         private Map<String, PrecursorCache> cache = (null);
 
         @Override

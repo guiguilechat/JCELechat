@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ExplosiveDamageResistanceBonusBonus
     extends IntAttribute
 {
-    public final static ExplosiveDamageResistanceBonusBonus INSTANCE = new ExplosiveDamageResistanceBonusBonus();
+    public static final ExplosiveDamageResistanceBonusBonus INSTANCE = new ExplosiveDamageResistanceBonusBonus();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MiningUpgradeCPUReductionBonus
     extends IntAttribute
 {
-    public final static MiningUpgradeCPUReductionBonus INSTANCE = new MiningUpgradeCPUReductionBonus();
+    public static final MiningUpgradeCPUReductionBonus INSTANCE = new MiningUpgradeCPUReductionBonus();
 
     @Override
     public int getId() {

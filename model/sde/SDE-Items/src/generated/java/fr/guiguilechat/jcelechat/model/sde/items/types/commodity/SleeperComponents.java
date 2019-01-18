@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class SleeperComponents
     extends Commodity
 {
-    public final static SleeperComponents.MetaGroup METAGROUP = new SleeperComponents.MetaGroup();
+    public static final SleeperComponents.MetaGroup METAGROUP = new SleeperComponents.MetaGroup();
 
     @Override
     public IMetaGroup<SleeperComponents> getGroup() {
@@ -22,7 +22,7 @@ public class SleeperComponents
     public static class MetaGroup
         implements IMetaGroup<SleeperComponents>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/SleeperComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/SleeperComponents.yaml";
         private Map<String, SleeperComponents> cache = (null);
 
         @Override

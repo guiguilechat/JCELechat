@@ -23,7 +23,7 @@ public class MicroJumpDriveBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static MicroJumpDriveBlueprint.MetaGroup METAGROUP = new MicroJumpDriveBlueprint.MetaGroup();
+    public static final MicroJumpDriveBlueprint.MetaGroup METAGROUP = new MicroJumpDriveBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MicroJumpDriveBlueprint
     public static class MetaGroup
         implements IMetaGroup<MicroJumpDriveBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MicroJumpDriveBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MicroJumpDriveBlueprint.yaml";
         private Map<String, MicroJumpDriveBlueprint> cache = (null);
 
         @Override

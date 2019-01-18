@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class MaxTargetRangeBonus
     extends DoubleAttribute
 {
-    public final static MaxTargetRangeBonus INSTANCE = new MaxTargetRangeBonus();
+    public static final MaxTargetRangeBonus INSTANCE = new MaxTargetRangeBonus();
 
     @Override
     public int getId() {

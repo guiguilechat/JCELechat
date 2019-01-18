@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EnergyNeutralizerRangeFalloff
     extends IntAttribute
 {
-    public final static EnergyNeutralizerRangeFalloff INSTANCE = new EnergyNeutralizerRangeFalloff();
+    public static final EnergyNeutralizerRangeFalloff INSTANCE = new EnergyNeutralizerRangeFalloff();
 
     @Override
     public int getId() {

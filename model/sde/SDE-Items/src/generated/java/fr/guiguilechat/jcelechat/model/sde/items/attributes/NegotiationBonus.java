@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class NegotiationBonus
     extends IntAttribute
 {
-    public final static NegotiationBonus INSTANCE = new NegotiationBonus();
+    public static final NegotiationBonus INSTANCE = new NegotiationBonus();
 
     @Override
     public int getId() {

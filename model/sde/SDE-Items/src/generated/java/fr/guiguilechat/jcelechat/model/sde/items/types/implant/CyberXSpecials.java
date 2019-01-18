@@ -74,7 +74,7 @@ public class CyberXSpecials
     @Stackable(true)
     @DefaultIntValue(0)
     public int WillpowerBonus;
-    public final static CyberXSpecials.MetaGroup METAGROUP = new CyberXSpecials.MetaGroup();
+    public static final CyberXSpecials.MetaGroup METAGROUP = new CyberXSpecials.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -126,7 +126,7 @@ public class CyberXSpecials
     public static class MetaGroup
         implements IMetaGroup<CyberXSpecials>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberXSpecials.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberXSpecials.yaml";
         private Map<String, CyberXSpecials> cache = (null);
 
         @Override

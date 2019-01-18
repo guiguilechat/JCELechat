@@ -93,7 +93,7 @@ public class IndustrialUpgrades
     @Stackable(true)
     @DefaultIntValue(0)
     public int SovUpgradeRequiredUpgradeID;
-    public final static IndustrialUpgrades.MetaGroup METAGROUP = new IndustrialUpgrades.MetaGroup();
+    public static final IndustrialUpgrades.MetaGroup METAGROUP = new IndustrialUpgrades.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -157,7 +157,7 @@ public class IndustrialUpgrades
     public static class MetaGroup
         implements IMetaGroup<IndustrialUpgrades>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
         private Map<String, IndustrialUpgrades> cache = (null);
 
         @Override

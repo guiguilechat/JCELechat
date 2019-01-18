@@ -185,7 +185,7 @@ public class EnergyNeutralizerDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
-    public final static EnergyNeutralizerDrone.MetaGroup METAGROUP = new EnergyNeutralizerDrone.MetaGroup();
+    public static final EnergyNeutralizerDrone.MetaGroup METAGROUP = new EnergyNeutralizerDrone.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -301,7 +301,7 @@ public class EnergyNeutralizerDrone
     public static class MetaGroup
         implements IMetaGroup<EnergyNeutralizerDrone>
     {
-        public final static String RESOURCE_PATH = "SDE/items/drone/EnergyNeutralizerDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/drone/EnergyNeutralizerDrone.yaml";
         private Map<String, EnergyNeutralizerDrone> cache = (null);
 
         @Override

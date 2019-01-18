@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class JumpFatigueMultiplier
     extends DoubleAttribute
 {
-    public final static JumpFatigueMultiplier INSTANCE = new JumpFatigueMultiplier();
+    public static final JumpFatigueMultiplier INSTANCE = new JumpFatigueMultiplier();
 
     @Override
     public int getId() {

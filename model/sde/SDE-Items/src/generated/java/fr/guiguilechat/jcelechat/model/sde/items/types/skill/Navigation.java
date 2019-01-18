@@ -122,7 +122,7 @@ public class Navigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpCapacitorNeedBonus;
-    public final static Navigation.MetaGroup METAGROUP = new Navigation.MetaGroup();
+    public static final Navigation.MetaGroup METAGROUP = new Navigation.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -202,7 +202,7 @@ public class Navigation
     public static class MetaGroup
         implements IMetaGroup<Navigation>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Navigation.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Navigation.yaml";
         private Map<String, Navigation> cache = (null);
 
         @Override

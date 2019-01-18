@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DoomsdayAOESignatureRadius
     extends IntAttribute
 {
-    public final static DoomsdayAOESignatureRadius INSTANCE = new DoomsdayAOESignatureRadius();
+    public static final DoomsdayAOESignatureRadius INSTANCE = new DoomsdayAOESignatureRadius();
 
     @Override
     public int getId() {

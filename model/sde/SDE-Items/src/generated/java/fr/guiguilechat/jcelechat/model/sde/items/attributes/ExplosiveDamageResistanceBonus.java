@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ExplosiveDamageResistanceBonus
     extends DoubleAttribute
 {
-    public final static ExplosiveDamageResistanceBonus INSTANCE = new ExplosiveDamageResistanceBonus();
+    public static final ExplosiveDamageResistanceBonus INSTANCE = new ExplosiveDamageResistanceBonus();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusDroneIceHarvestingSpeed
     extends IntAttribute
 {
-    public final static RoleBonusDroneIceHarvestingSpeed INSTANCE = new RoleBonusDroneIceHarvestingSpeed();
+    public static final RoleBonusDroneIceHarvestingSpeed INSTANCE = new RoleBonusDroneIceHarvestingSpeed();
 
     @Override
     public int getId() {

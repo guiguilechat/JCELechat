@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ConsumptionQuantityBonusPercentage
     extends IntAttribute
 {
-    public final static ConsumptionQuantityBonusPercentage INSTANCE = new ConsumptionQuantityBonusPercentage();
+    public static final ConsumptionQuantityBonusPercentage INSTANCE = new ConsumptionQuantityBonusPercentage();
 
     @Override
     public int getId() {

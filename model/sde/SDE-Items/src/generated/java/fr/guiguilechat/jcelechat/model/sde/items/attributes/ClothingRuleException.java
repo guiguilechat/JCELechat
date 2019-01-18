@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ClothingRuleException
     extends IntAttribute
 {
-    public final static ClothingRuleException INSTANCE = new ClothingRuleException();
+    public static final ClothingRuleException INSTANCE = new ClothingRuleException();
 
     @Override
     public int getId() {

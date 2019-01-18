@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StasisWebRangeBonus
     extends IntAttribute
 {
-    public final static StasisWebRangeBonus INSTANCE = new StasisWebRangeBonus();
+    public static final StasisWebRangeBonus INSTANCE = new StasisWebRangeBonus();
 
     @Override
     public int getId() {

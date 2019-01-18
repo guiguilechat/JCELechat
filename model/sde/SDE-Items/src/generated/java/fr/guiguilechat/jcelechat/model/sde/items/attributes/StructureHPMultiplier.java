@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StructureHPMultiplier
     extends DoubleAttribute
 {
-    public final static StructureHPMultiplier INSTANCE = new StructureHPMultiplier();
+    public static final StructureHPMultiplier INSTANCE = new StructureHPMultiplier();
 
     @Override
     public int getId() {

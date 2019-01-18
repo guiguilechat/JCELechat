@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class EntityFlyRangeMultiplier
     extends DoubleAttribute
 {
-    public final static EntityFlyRangeMultiplier INSTANCE = new EntityFlyRangeMultiplier();
+    public static final EntityFlyRangeMultiplier INSTANCE = new EntityFlyRangeMultiplier();
 
     @Override
     public int getId() {

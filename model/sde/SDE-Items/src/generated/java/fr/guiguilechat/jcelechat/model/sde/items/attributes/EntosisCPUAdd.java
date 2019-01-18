@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntosisCPUAdd
     extends IntAttribute
 {
-    public final static EntosisCPUAdd INSTANCE = new EntosisCPUAdd();
+    public static final EntosisCPUAdd INSTANCE = new EntosisCPUAdd();
 
     @Override
     public int getId() {

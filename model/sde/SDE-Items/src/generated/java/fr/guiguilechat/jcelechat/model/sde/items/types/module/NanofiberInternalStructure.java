@@ -83,7 +83,7 @@ public class NanofiberInternalStructure
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static NanofiberInternalStructure.MetaGroup METAGROUP = new NanofiberInternalStructure.MetaGroup();
+    public static final NanofiberInternalStructure.MetaGroup METAGROUP = new NanofiberInternalStructure.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class NanofiberInternalStructure
     public static class MetaGroup
         implements IMetaGroup<NanofiberInternalStructure>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/NanofiberInternalStructure.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/NanofiberInternalStructure.yaml";
         private Map<String, NanofiberInternalStructure> cache = (null);
 
         @Override

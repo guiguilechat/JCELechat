@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusRepairRange
     extends IntAttribute
 {
-    public final static RoleBonusRepairRange INSTANCE = new RoleBonusRepairRange();
+    public static final RoleBonusRepairRange INSTANCE = new RoleBonusRepairRange();
 
     @Override
     public int getId() {

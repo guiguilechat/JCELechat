@@ -87,7 +87,7 @@ public class Missiles
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
-    public final static Missiles.MetaGroup METAGROUP = new Missiles.MetaGroup();
+    public static final Missiles.MetaGroup METAGROUP = new Missiles.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -147,7 +147,7 @@ public class Missiles
     public static class MetaGroup
         implements IMetaGroup<Missiles>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Missiles.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Missiles.yaml";
         private Map<String, Missiles> cache = (null);
 
         @Override

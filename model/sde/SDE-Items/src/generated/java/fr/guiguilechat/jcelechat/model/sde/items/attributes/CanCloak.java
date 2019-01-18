@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CanCloak
     extends IntAttribute
 {
-    public final static CanCloak INSTANCE = new CanCloak();
+    public static final CanCloak INSTANCE = new CanCloak();
 
     @Override
     public int getId() {

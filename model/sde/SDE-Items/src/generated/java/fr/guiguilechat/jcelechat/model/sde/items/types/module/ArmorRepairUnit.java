@@ -146,7 +146,7 @@ public class ArmorRepairUnit
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ArmorRepairUnit.MetaGroup METAGROUP = new ArmorRepairUnit.MetaGroup();
+    public static final ArmorRepairUnit.MetaGroup METAGROUP = new ArmorRepairUnit.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -234,7 +234,7 @@ public class ArmorRepairUnit
     public static class MetaGroup
         implements IMetaGroup<ArmorRepairUnit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ArmorRepairUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ArmorRepairUnit.yaml";
         private Map<String, ArmorRepairUnit> cache = (null);
 
         @Override

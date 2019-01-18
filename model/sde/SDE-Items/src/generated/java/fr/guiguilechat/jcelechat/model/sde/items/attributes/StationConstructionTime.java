@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StationConstructionTime
     extends IntAttribute
 {
-    public final static StationConstructionTime INSTANCE = new StationConstructionTime();
+    public static final StationConstructionTime INSTANCE = new StationConstructionTime();
 
     @Override
     public int getId() {

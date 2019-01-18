@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class JumpDriveCapacitorNeedBonus
     extends IntAttribute
 {
-    public final static JumpDriveCapacitorNeedBonus INSTANCE = new JumpDriveCapacitorNeedBonus();
+    public static final JumpDriveCapacitorNeedBonus INSTANCE = new JumpDriveCapacitorNeedBonus();
 
     @Override
     public int getId() {

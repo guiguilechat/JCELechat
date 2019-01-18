@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialCommandCenterHoldCapacity
     extends IntAttribute
 {
-    public final static SpecialCommandCenterHoldCapacity INSTANCE = new SpecialCommandCenterHoldCapacity();
+    public static final SpecialCommandCenterHoldCapacity INSTANCE = new SpecialCommandCenterHoldCapacity();
 
     @Override
     public int getId() {

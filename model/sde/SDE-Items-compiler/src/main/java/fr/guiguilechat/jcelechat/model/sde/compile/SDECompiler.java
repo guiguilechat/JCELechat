@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.compile;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
@@ -44,6 +43,7 @@ import com.helger.jcodemodel.JSwitch;
 import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JTypeVar;
 import com.helger.jcodemodel.JVar;
+import com.helger.jcodemodel.writer.JCMWriter;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
@@ -379,16 +379,16 @@ public class SDECompiler {
 					fr.var().invoke("getAnnotation").arg(getDefaultDoubleValueAnnotation().dotclass()));
 			JConditional ifDoubleBlock = fr.body()._if(JOp.ne(annotDouble, JExpr.direct("null")));
 			JTryBlock tryblock = ifDoubleBlock._then()._try();
-			tryblock.body().invoke(fr.var(), "setAccessible").arg(JExpr.lit(true));
-			tryblock.body().invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotDouble, "value"));
+			tryblock.body().add(JExpr.invoke(fr.var(), "setAccessible").arg(JExpr.lit(true)));
+			tryblock.body().add(JExpr.invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotDouble, "value")));
 			tryblock._catch(cm.ref(Exception.class));
 			JBlock elseDoubleblock = ifDoubleBlock._else();
 			JVar annotLong = elseDoubleblock.decl(getDefaultIntValueAnnotation(), "annotLong",
 					fr.var().invoke("getAnnotation").arg(getDefaultIntValueAnnotation().dotclass()));
 			JConditional ifLongBlock = elseDoubleblock._if(JOp.ne(annotLong, JExpr.direct("null")));
 			tryblock = ifLongBlock._then()._try();
-			tryblock.body().invoke(fr.var(), "setAccessible").arg(JExpr.lit(true));
-			tryblock.body().invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotLong, "value"));
+			tryblock.body().add(JExpr.invoke(fr.var(), "setAccessible").arg(JExpr.lit(true)));
+			tryblock.body().add(JExpr.invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotLong, "value")));
 			tryblock._catch(cm.ref(Exception.class));
 
 			JMethod valueMeth = attributeClass.method(JMod.PUBLIC, cm.ref(Number.class), "value");
@@ -598,7 +598,7 @@ public class SDECompiler {
 
 			// if map is still nul, assing it an empty map
 			createBlock._if(map.eq(JExpr._null()))._then().assign(map, cm.ref(Collections.class).staticInvoke("emptyMap"));
-			createBlock.invoke(groupcache, "put").arg(grp).arg(map);
+			createBlock.add(JExpr.invoke(groupcache, "put").arg(grp).arg(map));
 			getItem.body()._return(map.invoke("get").arg(itemName));
 
 			// create the getItem(int id)
@@ -762,7 +762,7 @@ public class SDECompiler {
 		resTarget.mkdirs();
 		CompiledClassesData data = new SDECompiler().compile();
 		new ItemsTranslater().translate(data, resTarget, args[2]);
-		data.model.build(srcTarget, (PrintStream) null);
+		new JCMWriter(data.model).build(srcTarget);
 	}
 
 }

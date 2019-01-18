@@ -8,8 +8,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.helger.jcodemodel.AbstractCodeWriter;
 import com.helger.jcodemodel.JPackage;
+import com.helger.jcodemodel.writer.AbstractCodeWriter;
 
 /**
  * received code and store it in maps of binary data.

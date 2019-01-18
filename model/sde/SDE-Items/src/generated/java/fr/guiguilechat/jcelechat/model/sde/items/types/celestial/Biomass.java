@@ -23,7 +23,7 @@ public class Biomass
     @Stackable(false)
     @DefaultIntValue(100)
     public int SignatureRadius;
-    public final static Biomass.MetaGroup METAGROUP = new Biomass.MetaGroup();
+    public static final Biomass.MetaGroup METAGROUP = new Biomass.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class Biomass
     public static class MetaGroup
         implements IMetaGroup<Biomass>
     {
-        public final static String RESOURCE_PATH = "SDE/items/celestial/Biomass.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/celestial/Biomass.yaml";
         private Map<String, Biomass> cache = (null);
 
         @Override

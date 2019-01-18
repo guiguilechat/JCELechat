@@ -216,7 +216,7 @@ public class PropulsionModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static PropulsionModule.MetaGroup METAGROUP = new PropulsionModule.MetaGroup();
+    public static final PropulsionModule.MetaGroup METAGROUP = new PropulsionModule.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -344,7 +344,7 @@ public class PropulsionModule
     public static class MetaGroup
         implements IMetaGroup<PropulsionModule>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/PropulsionModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/PropulsionModule.yaml";
         private Map<String, PropulsionModule> cache = (null);
 
         @Override

@@ -32,7 +32,7 @@ public class MiningLaserUpgradeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static MiningLaserUpgradeBlueprint.MetaGroup METAGROUP = new MiningLaserUpgradeBlueprint.MetaGroup();
+    public static final MiningLaserUpgradeBlueprint.MetaGroup METAGROUP = new MiningLaserUpgradeBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class MiningLaserUpgradeBlueprint
     public static class MetaGroup
         implements IMetaGroup<MiningLaserUpgradeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MiningLaserUpgradeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MiningLaserUpgradeBlueprint.yaml";
         private Map<String, MiningLaserUpgradeBlueprint> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class DestroyerROFpenality
     extends DoubleAttribute
 {
-    public final static DestroyerROFpenality INSTANCE = new DestroyerROFpenality();
+    public static final DestroyerROFpenality INSTANCE = new DestroyerROFpenality();
 
     @Override
     public int getId() {

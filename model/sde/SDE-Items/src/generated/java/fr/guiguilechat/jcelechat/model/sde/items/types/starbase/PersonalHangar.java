@@ -66,7 +66,7 @@ public class PersonalHangar
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static PersonalHangar.MetaGroup METAGROUP = new PersonalHangar.MetaGroup();
+    public static final PersonalHangar.MetaGroup METAGROUP = new PersonalHangar.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -114,7 +114,7 @@ public class PersonalHangar
     public static class MetaGroup
         implements IMetaGroup<PersonalHangar>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/PersonalHangar.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/PersonalHangar.yaml";
         private Map<String, PersonalHangar> cache = (null);
 
         @Override

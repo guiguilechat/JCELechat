@@ -180,7 +180,7 @@ public class EntosisLink
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static EntosisLink.MetaGroup METAGROUP = new EntosisLink.MetaGroup();
+    public static final EntosisLink.MetaGroup METAGROUP = new EntosisLink.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -292,7 +292,7 @@ public class EntosisLink
     public static class MetaGroup
         implements IMetaGroup<EntosisLink>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/EntosisLink.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/EntosisLink.yaml";
         private Map<String, EntosisLink> cache = (null);
 
         @Override

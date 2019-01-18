@@ -31,7 +31,7 @@ public class StrongBoxes
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
-    public final static StrongBoxes.MetaGroup METAGROUP = new StrongBoxes.MetaGroup();
+    public static final StrongBoxes.MetaGroup METAGROUP = new StrongBoxes.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,7 +55,7 @@ public class StrongBoxes
     public static class MetaGroup
         implements IMetaGroup<StrongBoxes>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/StrongBoxes.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/StrongBoxes.yaml";
         private Map<String, StrongBoxes> cache = (null);
 
         @Override

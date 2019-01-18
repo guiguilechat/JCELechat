@@ -73,7 +73,7 @@ public class MissileGuidanceScript
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static MissileGuidanceScript.MetaGroup METAGROUP = new MissileGuidanceScript.MetaGroup();
+    public static final MissileGuidanceScript.MetaGroup METAGROUP = new MissileGuidanceScript.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -125,7 +125,7 @@ public class MissileGuidanceScript
     public static class MetaGroup
         implements IMetaGroup<MissileGuidanceScript>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/MissileGuidanceScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/MissileGuidanceScript.yaml";
         private Map<String, MissileGuidanceScript> cache = (null);
 
         @Override

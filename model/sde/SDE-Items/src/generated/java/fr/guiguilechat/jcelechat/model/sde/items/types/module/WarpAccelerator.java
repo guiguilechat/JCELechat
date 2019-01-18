@@ -68,7 +68,7 @@ public class WarpAccelerator
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double WarpSpeedAdd;
-    public final static WarpAccelerator.MetaGroup METAGROUP = new WarpAccelerator.MetaGroup();
+    public static final WarpAccelerator.MetaGroup METAGROUP = new WarpAccelerator.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -116,7 +116,7 @@ public class WarpAccelerator
     public static class MetaGroup
         implements IMetaGroup<WarpAccelerator>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/WarpAccelerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/WarpAccelerator.yaml";
         private Map<String, WarpAccelerator> cache = (null);
 
         @Override

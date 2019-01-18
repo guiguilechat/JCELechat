@@ -239,7 +239,7 @@ public abstract class Drone
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static Drone.MetaCat METACAT = new Drone.MetaCat();
+    public static final Drone.MetaCat METACAT = new Drone.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

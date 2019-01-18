@@ -248,7 +248,7 @@ public class CommandDestroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static CommandDestroyer.MetaGroup METAGROUP = new CommandDestroyer.MetaGroup();
+    public static final CommandDestroyer.MetaGroup METAGROUP = new CommandDestroyer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -400,7 +400,7 @@ public class CommandDestroyer
     public static class MetaGroup
         implements IMetaGroup<CommandDestroyer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/CommandDestroyer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/CommandDestroyer.yaml";
         private Map<String, CommandDestroyer> cache = (null);
 
         @Override

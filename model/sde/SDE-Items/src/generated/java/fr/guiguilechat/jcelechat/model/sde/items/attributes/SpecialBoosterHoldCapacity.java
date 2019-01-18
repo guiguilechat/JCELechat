@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialBoosterHoldCapacity
     extends IntAttribute
 {
-    public final static SpecialBoosterHoldCapacity INSTANCE = new SpecialBoosterHoldCapacity();
+    public static final SpecialBoosterHoldCapacity INSTANCE = new SpecialBoosterHoldCapacity();
 
     @Override
     public int getId() {

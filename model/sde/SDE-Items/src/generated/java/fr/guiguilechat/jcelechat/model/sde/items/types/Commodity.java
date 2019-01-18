@@ -51,7 +51,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.UnknownComponen
 public abstract class Commodity
     extends Item
 {
-    public final static Commodity.MetaCat METACAT = new Commodity.MetaCat();
+    public static final Commodity.MetaCat METACAT = new Commodity.MetaCat();
 
     @Override
     public IMetaCategory<Commodity> getCategory() {

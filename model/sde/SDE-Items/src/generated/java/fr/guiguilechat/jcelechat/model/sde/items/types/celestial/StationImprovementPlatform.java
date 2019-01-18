@@ -59,7 +59,7 @@ public class StationImprovementPlatform
     @Stackable(true)
     @DefaultIntValue(0)
     public int StationTypeID;
-    public final static StationImprovementPlatform.MetaGroup METAGROUP = new StationImprovementPlatform.MetaGroup();
+    public static final StationImprovementPlatform.MetaGroup METAGROUP = new StationImprovementPlatform.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -103,7 +103,7 @@ public class StationImprovementPlatform
     public static class MetaGroup
         implements IMetaGroup<StationImprovementPlatform>
     {
-        public final static String RESOURCE_PATH = "SDE/items/celestial/StationImprovementPlatform.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/celestial/StationImprovementPlatform.yaml";
         private Map<String, StationImprovementPlatform> cache = (null);
 
         @Override

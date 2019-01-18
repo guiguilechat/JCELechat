@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class SensorDampenerResistance
     extends DoubleAttribute
 {
-    public final static SensorDampenerResistance INSTANCE = new SensorDampenerResistance();
+    public static final SensorDampenerResistance INSTANCE = new SensorDampenerResistance();
 
     @Override
     public int getId() {

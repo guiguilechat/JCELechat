@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ArmorDamage
     extends IntAttribute
 {
-    public final static ArmorDamage INSTANCE = new ArmorDamage();
+    public static final ArmorDamage INSTANCE = new ArmorDamage();
 
     @Override
     public int getId() {

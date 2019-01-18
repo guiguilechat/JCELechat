@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Refinables
     extends Commodity
 {
-    public final static Refinables.MetaGroup METAGROUP = new Refinables.MetaGroup();
+    public static final Refinables.MetaGroup METAGROUP = new Refinables.MetaGroup();
 
     @Override
     public IMetaGroup<Refinables> getGroup() {
@@ -22,7 +22,7 @@ public class Refinables
     public static class MetaGroup
         implements IMetaGroup<Refinables>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Refinables.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Refinables.yaml";
         private Map<String, Refinables> cache = (null);
 
         @Override

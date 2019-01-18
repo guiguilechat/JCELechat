@@ -30,7 +30,7 @@ public class SpecialEditionCommodities
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double CpuMultiplier;
-    public final static SpecialEditionCommodities.MetaGroup METAGROUP = new SpecialEditionCommodities.MetaGroup();
+    public static final SpecialEditionCommodities.MetaGroup METAGROUP = new SpecialEditionCommodities.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +58,7 @@ public class SpecialEditionCommodities
     public static class MetaGroup
         implements IMetaGroup<SpecialEditionCommodities>
     {
-        public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/SpecialEditionCommodities.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/specialeditionassets/SpecialEditionCommodities.yaml";
         private Map<String, SpecialEditionCommodities> cache = (null);
 
         @Override

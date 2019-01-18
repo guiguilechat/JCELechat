@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TitanConstructionTime
     extends IntAttribute
 {
-    public final static TitanConstructionTime INSTANCE = new TitanConstructionTime();
+    public static final TitanConstructionTime INSTANCE = new TitanConstructionTime();
 
     @Override
     public int getId() {

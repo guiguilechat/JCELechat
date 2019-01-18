@@ -298,7 +298,7 @@ public class Battleship
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
-    public final static Battleship.MetaGroup METAGROUP = new Battleship.MetaGroup();
+    public static final Battleship.MetaGroup METAGROUP = new Battleship.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -474,7 +474,7 @@ public class Battleship
     public static class MetaGroup
         implements IMetaGroup<Battleship>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Battleship.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Battleship.yaml";
         private Map<String, Battleship> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class NosOverride
     extends IntAttribute
 {
-    public final static NosOverride INSTANCE = new NosOverride();
+    public static final NosOverride INSTANCE = new NosOverride();
 
     @Override
     public int getId() {

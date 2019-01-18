@@ -209,7 +209,7 @@ public class RemoteSensorBooster
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RemoteSensorBooster.MetaGroup METAGROUP = new RemoteSensorBooster.MetaGroup();
+    public static final RemoteSensorBooster.MetaGroup METAGROUP = new RemoteSensorBooster.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -333,7 +333,7 @@ public class RemoteSensorBooster
     public static class MetaGroup
         implements IMetaGroup<RemoteSensorBooster>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RemoteSensorBooster.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RemoteSensorBooster.yaml";
         private Map<String, RemoteSensorBooster> cache = (null);
 
         @Override

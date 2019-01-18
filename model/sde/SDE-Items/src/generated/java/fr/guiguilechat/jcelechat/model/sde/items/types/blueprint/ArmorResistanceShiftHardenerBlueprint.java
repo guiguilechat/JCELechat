@@ -23,7 +23,7 @@ public class ArmorResistanceShiftHardenerBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static ArmorResistanceShiftHardenerBlueprint.MetaGroup METAGROUP = new ArmorResistanceShiftHardenerBlueprint.MetaGroup();
+    public static final ArmorResistanceShiftHardenerBlueprint.MetaGroup METAGROUP = new ArmorResistanceShiftHardenerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class ArmorResistanceShiftHardenerBlueprint
     public static class MetaGroup
         implements IMetaGroup<ArmorResistanceShiftHardenerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ArmorResistanceShiftHardenerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ArmorResistanceShiftHardenerBlueprint.yaml";
         private Map<String, ArmorResistanceShiftHardenerBlueprint> cache = (null);
 
         @Override

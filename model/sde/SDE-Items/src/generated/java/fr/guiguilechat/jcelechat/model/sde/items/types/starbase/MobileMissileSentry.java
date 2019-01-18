@@ -249,7 +249,7 @@ public class MobileMissileSentry
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static MobileMissileSentry.MetaGroup METAGROUP = new MobileMissileSentry.MetaGroup();
+    public static final MobileMissileSentry.MetaGroup METAGROUP = new MobileMissileSentry.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -397,7 +397,7 @@ public class MobileMissileSentry
     public static class MetaGroup
         implements IMetaGroup<MobileMissileSentry>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/MobileMissileSentry.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/MobileMissileSentry.yaml";
         private Map<String, MobileMissileSentry> cache = (null);
 
         @Override

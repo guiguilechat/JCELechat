@@ -23,7 +23,7 @@ public class StarbaseControlTowerBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static StarbaseControlTowerBlueprints.MetaGroup METAGROUP = new StarbaseControlTowerBlueprints.MetaGroup();
+    public static final StarbaseControlTowerBlueprints.MetaGroup METAGROUP = new StarbaseControlTowerBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class StarbaseControlTowerBlueprints
     public static class MetaGroup
         implements IMetaGroup<StarbaseControlTowerBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseControlTowerBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/StarbaseControlTowerBlueprints.yaml";
         private Map<String, StarbaseControlTowerBlueprints> cache = (null);
 
         @Override

@@ -37,7 +37,7 @@ public class Crokite
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Crokite.MetaGroup METAGROUP = new Crokite.MetaGroup();
+    public static final Crokite.MetaGroup METAGROUP = new Crokite.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Crokite
     public static class MetaGroup
         implements IMetaGroup<Crokite>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Crokite.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Crokite.yaml";
         private Map<String, Crokite> cache = (null);
 
         @Override

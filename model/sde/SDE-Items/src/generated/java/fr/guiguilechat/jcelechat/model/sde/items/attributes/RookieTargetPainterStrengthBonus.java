@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RookieTargetPainterStrengthBonus
     extends IntAttribute
 {
-    public final static RookieTargetPainterStrengthBonus INSTANCE = new RookieTargetPainterStrengthBonus();
+    public static final RookieTargetPainterStrengthBonus INSTANCE = new RookieTargetPainterStrengthBonus();
 
     @Override
     public int getId() {

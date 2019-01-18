@@ -32,7 +32,7 @@ public class CommandDestroyerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CommandDestroyerBlueprint.MetaGroup METAGROUP = new CommandDestroyerBlueprint.MetaGroup();
+    public static final CommandDestroyerBlueprint.MetaGroup METAGROUP = new CommandDestroyerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class CommandDestroyerBlueprint
     public static class MetaGroup
         implements IMetaGroup<CommandDestroyerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CommandDestroyerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CommandDestroyerBlueprint.yaml";
         private Map<String, CommandDestroyerBlueprint> cache = (null);
 
         @Override

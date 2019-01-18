@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AnchoringRequiresSovereignty
     extends IntAttribute
 {
-    public final static AnchoringRequiresSovereignty INSTANCE = new AnchoringRequiresSovereignty();
+    public static final AnchoringRequiresSovereignty INSTANCE = new AnchoringRequiresSovereignty();
 
     @Override
     public int getId() {

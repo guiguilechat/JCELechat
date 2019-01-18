@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AnchoringDelay
     extends IntAttribute
 {
-    public final static AnchoringDelay INSTANCE = new AnchoringDelay();
+    public static final AnchoringDelay INSTANCE = new AnchoringDelay();
 
     @Override
     public int getId() {

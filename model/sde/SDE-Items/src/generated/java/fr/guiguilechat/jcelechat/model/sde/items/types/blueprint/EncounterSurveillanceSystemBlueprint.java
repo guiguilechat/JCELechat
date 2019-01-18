@@ -23,7 +23,7 @@ public class EncounterSurveillanceSystemBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static EncounterSurveillanceSystemBlueprint.MetaGroup METAGROUP = new EncounterSurveillanceSystemBlueprint.MetaGroup();
+    public static final EncounterSurveillanceSystemBlueprint.MetaGroup METAGROUP = new EncounterSurveillanceSystemBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class EncounterSurveillanceSystemBlueprint
     public static class MetaGroup
         implements IMetaGroup<EncounterSurveillanceSystemBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/EncounterSurveillanceSystemBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/EncounterSurveillanceSystemBlueprint.yaml";
         private Map<String, EncounterSurveillanceSystemBlueprint> cache = (null);
 
         @Override

@@ -38,7 +38,7 @@ public class CyberProduction
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CyberProduction.MetaGroup METAGROUP = new CyberProduction.MetaGroup();
+    public static final CyberProduction.MetaGroup METAGROUP = new CyberProduction.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -70,7 +70,7 @@ public class CyberProduction
     public static class MetaGroup
         implements IMetaGroup<CyberProduction>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberProduction.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberProduction.yaml";
         private Map<String, CyberProduction> cache = (null);
 
         @Override

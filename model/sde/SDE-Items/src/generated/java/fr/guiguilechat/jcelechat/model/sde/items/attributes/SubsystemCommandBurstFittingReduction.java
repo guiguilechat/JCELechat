@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemCommandBurstFittingReduction
     extends IntAttribute
 {
-    public final static SubsystemCommandBurstFittingReduction INSTANCE = new SubsystemCommandBurstFittingReduction();
+    public static final SubsystemCommandBurstFittingReduction INSTANCE = new SubsystemCommandBurstFittingReduction();
 
     @Override
     public int getId() {

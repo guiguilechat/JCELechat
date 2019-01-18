@@ -227,7 +227,7 @@ public class Interdictor
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static Interdictor.MetaGroup METAGROUP = new Interdictor.MetaGroup();
+    public static final Interdictor.MetaGroup METAGROUP = new Interdictor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -367,7 +367,7 @@ public class Interdictor
     public static class MetaGroup
         implements IMetaGroup<Interdictor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Interdictor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Interdictor.yaml";
         private Map<String, Interdictor> cache = (null);
 
         @Override

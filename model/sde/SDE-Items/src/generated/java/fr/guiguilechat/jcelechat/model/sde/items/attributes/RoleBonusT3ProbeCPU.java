@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusT3ProbeCPU
     extends IntAttribute
 {
-    public final static RoleBonusT3ProbeCPU INSTANCE = new RoleBonusT3ProbeCPU();
+    public static final RoleBonusT3ProbeCPU INSTANCE = new RoleBonusT3ProbeCPU();
 
     @Override
     public int getId() {

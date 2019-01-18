@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemMHTFittingReduction
     extends IntAttribute
 {
-    public final static SubsystemMHTFittingReduction INSTANCE = new SubsystemMHTFittingReduction();
+    public static final SubsystemMHTFittingReduction INSTANCE = new SubsystemMHTFittingReduction();
 
     @Override
     public int getId() {

@@ -23,7 +23,7 @@ public class CapitalConstructionBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static CapitalConstructionBlueprints.MetaGroup METAGROUP = new CapitalConstructionBlueprints.MetaGroup();
+    public static final CapitalConstructionBlueprints.MetaGroup METAGROUP = new CapitalConstructionBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class CapitalConstructionBlueprints
     public static class MetaGroup
         implements IMetaGroup<CapitalConstructionBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CapitalConstructionBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CapitalConstructionBlueprints.yaml";
         private Map<String, CapitalConstructionBlueprints> cache = (null);
 
         @Override

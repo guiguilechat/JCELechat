@@ -234,7 +234,7 @@ public class DeepSpaceTransport
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStatus;
-    public final static DeepSpaceTransport.MetaGroup METAGROUP = new DeepSpaceTransport.MetaGroup();
+    public static final DeepSpaceTransport.MetaGroup METAGROUP = new DeepSpaceTransport.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -378,7 +378,7 @@ public class DeepSpaceTransport
     public static class MetaGroup
         implements IMetaGroup<DeepSpaceTransport>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/DeepSpaceTransport.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/DeepSpaceTransport.yaml";
         private Map<String, DeepSpaceTransport> cache = (null);
 
         @Override

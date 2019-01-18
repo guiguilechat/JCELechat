@@ -216,7 +216,7 @@ public class CruiseMissile
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
-    public final static CruiseMissile.MetaGroup METAGROUP = new CruiseMissile.MetaGroup();
+    public static final CruiseMissile.MetaGroup METAGROUP = new CruiseMissile.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -344,7 +344,7 @@ public class CruiseMissile
     public static class MetaGroup
         implements IMetaGroup<CruiseMissile>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/CruiseMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/CruiseMissile.yaml";
         private Map<String, CruiseMissile> cache = (null);
 
         @Override

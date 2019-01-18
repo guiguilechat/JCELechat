@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EffectDeactivationDelay
     extends IntAttribute
 {
-    public final static EffectDeactivationDelay INSTANCE = new EffectDeactivationDelay();
+    public static final EffectDeactivationDelay INSTANCE = new EffectDeactivationDelay();
 
     @Override
     public int getId() {

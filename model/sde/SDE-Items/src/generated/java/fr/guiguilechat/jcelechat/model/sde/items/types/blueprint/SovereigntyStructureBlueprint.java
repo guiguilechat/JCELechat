@@ -23,7 +23,7 @@ public class SovereigntyStructureBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static SovereigntyStructureBlueprint.MetaGroup METAGROUP = new SovereigntyStructureBlueprint.MetaGroup();
+    public static final SovereigntyStructureBlueprint.MetaGroup METAGROUP = new SovereigntyStructureBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class SovereigntyStructureBlueprint
     public static class MetaGroup
         implements IMetaGroup<SovereigntyStructureBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SovereigntyStructureBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SovereigntyStructureBlueprint.yaml";
         private Map<String, SovereigntyStructureBlueprint> cache = (null);
 
         @Override

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Headwear
     extends Apparel
 {
-    public final static Headwear.MetaGroup METAGROUP = new Headwear.MetaGroup();
+    public static final Headwear.MetaGroup METAGROUP = new Headwear.MetaGroup();
 
     @Override
     public IMetaGroup<Headwear> getGroup() {
@@ -22,7 +22,7 @@ public class Headwear
     public static class MetaGroup
         implements IMetaGroup<Headwear>
     {
-        public final static String RESOURCE_PATH = "SDE/items/apparel/Headwear.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/apparel/Headwear.yaml";
         private Map<String, Headwear> cache = (null);
 
         @Override

@@ -44,7 +44,7 @@ public class DecryptorsYanJung
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
-    public final static DecryptorsYanJung.MetaGroup METAGROUP = new DecryptorsYanJung.MetaGroup();
+    public static final DecryptorsYanJung.MetaGroup METAGROUP = new DecryptorsYanJung.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -80,7 +80,7 @@ public class DecryptorsYanJung
     public static class MetaGroup
         implements IMetaGroup<DecryptorsYanJung>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/DecryptorsYanJung.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/DecryptorsYanJung.yaml";
         private Map<String, DecryptorsYanJung> cache = (null);
 
         @Override

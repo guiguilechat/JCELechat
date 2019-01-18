@@ -31,7 +31,7 @@ public class ScanProbeBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static ScanProbeBlueprint.MetaGroup METAGROUP = new ScanProbeBlueprint.MetaGroup();
+    public static final ScanProbeBlueprint.MetaGroup METAGROUP = new ScanProbeBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -59,7 +59,7 @@ public class ScanProbeBlueprint
     public static class MetaGroup
         implements IMetaGroup<ScanProbeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanProbeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ScanProbeBlueprint.yaml";
         private Map<String, ScanProbeBlueprint> cache = (null);
 
         @Override

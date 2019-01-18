@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ServiceModuleFullPowerStateHitpointMultiplier
     extends IntAttribute
 {
-    public final static ServiceModuleFullPowerStateHitpointMultiplier INSTANCE = new ServiceModuleFullPowerStateHitpointMultiplier();
+    public static final ServiceModuleFullPowerStateHitpointMultiplier INSTANCE = new ServiceModuleFullPowerStateHitpointMultiplier();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class Uniformity
     extends DoubleAttribute
 {
-    public final static Uniformity INSTANCE = new Uniformity();
+    public static final Uniformity INSTANCE = new Uniformity();
 
     @Override
     public int getId() {

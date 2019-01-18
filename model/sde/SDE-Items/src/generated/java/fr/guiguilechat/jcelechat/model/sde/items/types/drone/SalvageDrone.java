@@ -52,7 +52,7 @@ public class SalvageDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int OrbitRange;
-    public final static SalvageDrone.MetaGroup METAGROUP = new SalvageDrone.MetaGroup();
+    public static final SalvageDrone.MetaGroup METAGROUP = new SalvageDrone.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -92,7 +92,7 @@ public class SalvageDrone
     public static class MetaGroup
         implements IMetaGroup<SalvageDrone>
     {
-        public final static String RESOURCE_PATH = "SDE/items/drone/SalvageDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/drone/SalvageDrone.yaml";
         private Map<String, SalvageDrone> cache = (null);
 
         @Override

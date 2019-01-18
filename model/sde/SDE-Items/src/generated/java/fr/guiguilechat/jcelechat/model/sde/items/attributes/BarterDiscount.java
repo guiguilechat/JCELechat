@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BarterDiscount
     extends IntAttribute
 {
-    public final static BarterDiscount INSTANCE = new BarterDiscount();
+    public static final BarterDiscount INSTANCE = new BarterDiscount();
 
     @Override
     public int getId() {

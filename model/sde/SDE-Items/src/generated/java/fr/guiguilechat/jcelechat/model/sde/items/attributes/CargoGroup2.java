@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CargoGroup2
     extends IntAttribute
 {
-    public final static CargoGroup2 INSTANCE = new CargoGroup2();
+    public static final CargoGroup2 INSTANCE = new CargoGroup2();
 
     @Override
     public int getId() {

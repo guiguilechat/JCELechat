@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CpuOutputBonus2
     extends DoubleAttribute
 {
-    public final static CpuOutputBonus2 INSTANCE = new CpuOutputBonus2();
+    public static final CpuOutputBonus2 INSTANCE = new CpuOutputBonus2();
 
     @Override
     public int getId() {

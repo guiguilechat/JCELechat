@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ImplantBonusVelocity
     extends DoubleAttribute
 {
-    public final static ImplantBonusVelocity INSTANCE = new ImplantBonusVelocity();
+    public static final ImplantBonusVelocity INSTANCE = new ImplantBonusVelocity();
 
     @Override
     public int getId() {

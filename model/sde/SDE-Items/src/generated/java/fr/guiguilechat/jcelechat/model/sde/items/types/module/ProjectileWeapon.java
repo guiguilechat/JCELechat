@@ -258,7 +258,7 @@ public class ProjectileWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static ProjectileWeapon.MetaGroup METAGROUP = new ProjectileWeapon.MetaGroup();
+    public static final ProjectileWeapon.MetaGroup METAGROUP = new ProjectileWeapon.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -410,7 +410,7 @@ public class ProjectileWeapon
     public static class MetaGroup
         implements IMetaGroup<ProjectileWeapon>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ProjectileWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ProjectileWeapon.yaml";
         private Map<String, ProjectileWeapon> cache = (null);
 
         @Override

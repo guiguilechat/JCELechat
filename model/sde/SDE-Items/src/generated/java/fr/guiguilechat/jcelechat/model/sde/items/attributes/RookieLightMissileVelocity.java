@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RookieLightMissileVelocity
     extends IntAttribute
 {
-    public final static RookieLightMissileVelocity INSTANCE = new RookieLightMissileVelocity();
+    public static final RookieLightMissileVelocity INSTANCE = new RookieLightMissileVelocity();
 
     @Override
     public int getId() {

@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MetaLevel
     extends IntAttribute
 {
-    public final static MetaLevel INSTANCE = new MetaLevel();
+    public static final MetaLevel INSTANCE = new MetaLevel();
 
     @Override
     public int getId() {

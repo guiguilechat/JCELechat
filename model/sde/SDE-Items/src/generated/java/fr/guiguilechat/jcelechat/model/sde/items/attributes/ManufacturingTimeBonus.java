@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ManufacturingTimeBonus
     extends IntAttribute
 {
-    public final static ManufacturingTimeBonus INSTANCE = new ManufacturingTimeBonus();
+    public static final ManufacturingTimeBonus INSTANCE = new ManufacturingTimeBonus();
 
     @Override
     public int getId() {

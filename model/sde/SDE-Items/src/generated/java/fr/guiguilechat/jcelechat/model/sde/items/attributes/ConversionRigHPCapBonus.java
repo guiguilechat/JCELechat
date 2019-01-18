@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ConversionRigHPCapBonus
     extends IntAttribute
 {
-    public final static ConversionRigHPCapBonus INSTANCE = new ConversionRigHPCapBonus();
+    public static final ConversionRigHPCapBonus INSTANCE = new ConversionRigHPCapBonus();
 
     @Override
     public int getId() {

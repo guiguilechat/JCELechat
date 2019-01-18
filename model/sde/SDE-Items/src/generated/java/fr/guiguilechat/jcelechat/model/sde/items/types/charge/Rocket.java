@@ -237,7 +237,7 @@ public class Rocket
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
-    public final static Rocket.MetaGroup METAGROUP = new Rocket.MetaGroup();
+    public static final Rocket.MetaGroup METAGROUP = new Rocket.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -377,7 +377,7 @@ public class Rocket
     public static class MetaGroup
         implements IMetaGroup<Rocket>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/Rocket.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/Rocket.yaml";
         private Map<String, Rocket> cache = (null);
 
         @Override

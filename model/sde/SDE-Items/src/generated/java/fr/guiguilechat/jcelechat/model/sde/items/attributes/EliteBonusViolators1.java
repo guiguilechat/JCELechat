@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class EliteBonusViolators1
     extends DoubleAttribute
 {
-    public final static EliteBonusViolators1 INSTANCE = new EliteBonusViolators1();
+    public static final EliteBonusViolators1 INSTANCE = new EliteBonusViolators1();
 
     @Override
     public int getId() {

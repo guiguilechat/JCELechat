@@ -146,7 +146,7 @@ public class TargetPainter
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static TargetPainter.MetaGroup METAGROUP = new TargetPainter.MetaGroup();
+    public static final TargetPainter.MetaGroup METAGROUP = new TargetPainter.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -234,7 +234,7 @@ public class TargetPainter
     public static class MetaGroup
         implements IMetaGroup<TargetPainter>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/TargetPainter.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/TargetPainter.yaml";
         private Map<String, TargetPainter> cache = (null);
 
         @Override

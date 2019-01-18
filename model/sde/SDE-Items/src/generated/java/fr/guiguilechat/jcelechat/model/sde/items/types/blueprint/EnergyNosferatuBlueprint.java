@@ -32,7 +32,7 @@ public class EnergyNosferatuBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static EnergyNosferatuBlueprint.MetaGroup METAGROUP = new EnergyNosferatuBlueprint.MetaGroup();
+    public static final EnergyNosferatuBlueprint.MetaGroup METAGROUP = new EnergyNosferatuBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class EnergyNosferatuBlueprint
     public static class MetaGroup
         implements IMetaGroup<EnergyNosferatuBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/EnergyNosferatuBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/EnergyNosferatuBlueprint.yaml";
         private Map<String, EnergyNosferatuBlueprint> cache = (null);
 
         @Override

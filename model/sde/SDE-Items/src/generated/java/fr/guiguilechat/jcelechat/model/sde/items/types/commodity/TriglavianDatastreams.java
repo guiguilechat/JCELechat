@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class TriglavianDatastreams
     extends Commodity
 {
-    public final static TriglavianDatastreams.MetaGroup METAGROUP = new TriglavianDatastreams.MetaGroup();
+    public static final TriglavianDatastreams.MetaGroup METAGROUP = new TriglavianDatastreams.MetaGroup();
 
     @Override
     public IMetaGroup<TriglavianDatastreams> getGroup() {
@@ -22,7 +22,7 @@ public class TriglavianDatastreams
     public static class MetaGroup
         implements IMetaGroup<TriglavianDatastreams>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/TriglavianDatastreams.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/TriglavianDatastreams.yaml";
         private Map<String, TriglavianDatastreams> cache = (null);
 
         @Override

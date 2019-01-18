@@ -564,7 +564,7 @@ public class Supercarrier
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
-    public final static Supercarrier.MetaGroup METAGROUP = new Supercarrier.MetaGroup();
+    public static final Supercarrier.MetaGroup METAGROUP = new Supercarrier.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -892,7 +892,7 @@ public class Supercarrier
     public static class MetaGroup
         implements IMetaGroup<Supercarrier>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Supercarrier.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Supercarrier.yaml";
         private Map<String, Supercarrier> cache = (null);
 
         @Override

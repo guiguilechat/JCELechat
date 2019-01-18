@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StructureUniformity
     extends DoubleAttribute
 {
-    public final static StructureUniformity INSTANCE = new StructureUniformity();
+    public static final StructureUniformity INSTANCE = new StructureUniformity();
 
     @Override
     public int getId() {

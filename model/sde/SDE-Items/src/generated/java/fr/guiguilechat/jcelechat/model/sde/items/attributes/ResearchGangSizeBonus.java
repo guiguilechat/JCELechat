@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ResearchGangSizeBonus
     extends IntAttribute
 {
-    public final static ResearchGangSizeBonus INSTANCE = new ResearchGangSizeBonus();
+    public static final ResearchGangSizeBonus INSTANCE = new ResearchGangSizeBonus();
 
     @Override
     public int getId() {

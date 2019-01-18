@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SiegeMassMultiplier
     extends IntAttribute
 {
-    public final static SiegeMassMultiplier INSTANCE = new SiegeMassMultiplier();
+    public static final SiegeMassMultiplier INSTANCE = new SiegeMassMultiplier();
 
     @Override
     public int getId() {

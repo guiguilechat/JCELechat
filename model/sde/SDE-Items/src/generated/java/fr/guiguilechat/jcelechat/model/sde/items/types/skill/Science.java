@@ -107,7 +107,7 @@ public class Science
     @Stackable(true)
     @DefaultIntValue(0)
     public int ResearchGangSizeBonus;
-    public final static Science.MetaGroup METAGROUP = new Science.MetaGroup();
+    public static final Science.MetaGroup METAGROUP = new Science.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class Science
     public static class MetaGroup
         implements IMetaGroup<Science>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Science.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Science.yaml";
         private Map<String, Science> cache = (null);
 
         @Override

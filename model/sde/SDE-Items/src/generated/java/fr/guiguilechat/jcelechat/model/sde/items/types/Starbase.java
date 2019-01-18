@@ -145,7 +145,7 @@ public abstract class Starbase
     @Stackable(true)
     @DefaultIntValue(60000)
     public int UnanchoringDelay;
-    public final static Starbase.MetaCat METACAT = new Starbase.MetaCat();
+    public static final Starbase.MetaCat METACAT = new Starbase.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

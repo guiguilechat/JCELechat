@@ -87,7 +87,7 @@ public class ShipMaintenanceArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static ShipMaintenanceArray.MetaGroup METAGROUP = new ShipMaintenanceArray.MetaGroup();
+    public static final ShipMaintenanceArray.MetaGroup METAGROUP = new ShipMaintenanceArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -147,7 +147,7 @@ public class ShipMaintenanceArray
     public static class MetaGroup
         implements IMetaGroup<ShipMaintenanceArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/ShipMaintenanceArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/ShipMaintenanceArray.yaml";
         private Map<String, ShipMaintenanceArray> cache = (null);
 
         @Override

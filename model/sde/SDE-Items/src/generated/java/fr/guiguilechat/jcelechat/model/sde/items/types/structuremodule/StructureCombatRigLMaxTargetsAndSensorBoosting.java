@@ -137,7 +137,7 @@ public class StructureCombatRigLMaxTargetsAndSensorBoosting
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigLMaxTargetsAndSensorBoosting.MetaGroup METAGROUP = new StructureCombatRigLMaxTargetsAndSensorBoosting.MetaGroup();
+    public static final StructureCombatRigLMaxTargetsAndSensorBoosting.MetaGroup METAGROUP = new StructureCombatRigLMaxTargetsAndSensorBoosting.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -225,7 +225,7 @@ public class StructureCombatRigLMaxTargetsAndSensorBoosting
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigLMaxTargetsAndSensorBoosting>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLMaxTargetsAndSensorBoosting.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLMaxTargetsAndSensorBoosting.yaml";
         private Map<String, StructureCombatRigLMaxTargetsAndSensorBoosting> cache = (null);
 
         @Override

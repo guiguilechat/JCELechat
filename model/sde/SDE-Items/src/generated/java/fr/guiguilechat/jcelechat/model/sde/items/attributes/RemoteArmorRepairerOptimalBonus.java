@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RemoteArmorRepairerOptimalBonus
     extends IntAttribute
 {
-    public final static RemoteArmorRepairerOptimalBonus INSTANCE = new RemoteArmorRepairerOptimalBonus();
+    public static final RemoteArmorRepairerOptimalBonus INSTANCE = new RemoteArmorRepairerOptimalBonus();
 
     @Override
     public int getId() {

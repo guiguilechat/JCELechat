@@ -37,7 +37,7 @@ public class Jaspet
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Jaspet.MetaGroup METAGROUP = new Jaspet.MetaGroup();
+    public static final Jaspet.MetaGroup METAGROUP = new Jaspet.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Jaspet
     public static class MetaGroup
         implements IMetaGroup<Jaspet>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Jaspet.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Jaspet.yaml";
         private Map<String, Jaspet> cache = (null);
 
         @Override

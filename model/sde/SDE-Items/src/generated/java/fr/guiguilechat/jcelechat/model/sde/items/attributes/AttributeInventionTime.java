@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AttributeInventionTime
     extends IntAttribute
 {
-    public final static AttributeInventionTime INSTANCE = new AttributeInventionTime();
+    public static final AttributeInventionTime INSTANCE = new AttributeInventionTime();
 
     @Override
     public int getId() {

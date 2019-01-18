@@ -136,7 +136,7 @@ public class StructureAntiCapitalMissile
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static StructureAntiCapitalMissile.MetaGroup METAGROUP = new StructureAntiCapitalMissile.MetaGroup();
+    public static final StructureAntiCapitalMissile.MetaGroup METAGROUP = new StructureAntiCapitalMissile.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -224,7 +224,7 @@ public class StructureAntiCapitalMissile
     public static class MetaGroup
         implements IMetaGroup<StructureAntiCapitalMissile>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/StructureAntiCapitalMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/StructureAntiCapitalMissile.yaml";
         private Map<String, StructureAntiCapitalMissile> cache = (null);
 
         @Override

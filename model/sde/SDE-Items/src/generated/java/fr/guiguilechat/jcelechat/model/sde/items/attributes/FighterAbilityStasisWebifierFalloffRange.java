@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityStasisWebifierFalloffRange
     extends IntAttribute
 {
-    public final static FighterAbilityStasisWebifierFalloffRange INSTANCE = new FighterAbilityStasisWebifierFalloffRange();
+    public static final FighterAbilityStasisWebifierFalloffRange INSTANCE = new FighterAbilityStasisWebifierFalloffRange();
 
     @Override
     public int getId() {

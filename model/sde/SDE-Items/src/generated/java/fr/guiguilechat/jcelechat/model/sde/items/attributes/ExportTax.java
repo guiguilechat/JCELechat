@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ExportTax
     extends IntAttribute
 {
-    public final static ExportTax INSTANCE = new ExportTax();
+    public static final ExportTax INSTANCE = new ExportTax();
 
     @Override
     public int getId() {

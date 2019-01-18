@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureFullPowerStateHitpointMultiplier
     extends IntAttribute
 {
-    public final static StructureFullPowerStateHitpointMultiplier INSTANCE = new StructureFullPowerStateHitpointMultiplier();
+    public static final StructureFullPowerStateHitpointMultiplier INSTANCE = new StructureFullPowerStateHitpointMultiplier();
 
     @Override
     public int getId() {

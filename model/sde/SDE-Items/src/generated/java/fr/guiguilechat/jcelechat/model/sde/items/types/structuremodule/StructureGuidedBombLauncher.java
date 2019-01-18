@@ -149,7 +149,7 @@ public class StructureGuidedBombLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureGuidedBombLauncher.MetaGroup METAGROUP = new StructureGuidedBombLauncher.MetaGroup();
+    public static final StructureGuidedBombLauncher.MetaGroup METAGROUP = new StructureGuidedBombLauncher.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -241,7 +241,7 @@ public class StructureGuidedBombLauncher
     public static class MetaGroup
         implements IMetaGroup<StructureGuidedBombLauncher>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureGuidedBombLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureGuidedBombLauncher.yaml";
         private Map<String, StructureGuidedBombLauncher> cache = (null);
 
         @Override

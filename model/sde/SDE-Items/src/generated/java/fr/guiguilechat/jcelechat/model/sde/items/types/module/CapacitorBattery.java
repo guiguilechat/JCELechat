@@ -90,7 +90,7 @@ public class CapacitorBattery
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CapacitorBattery.MetaGroup METAGROUP = new CapacitorBattery.MetaGroup();
+    public static final CapacitorBattery.MetaGroup METAGROUP = new CapacitorBattery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class CapacitorBattery
     public static class MetaGroup
         implements IMetaGroup<CapacitorBattery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CapacitorBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CapacitorBattery.yaml";
         private Map<String, CapacitorBattery> cache = (null);
 
         @Override

@@ -101,7 +101,7 @@ public class PropulsionSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpBubbleImmuneModifier;
-    public final static PropulsionSystems.MetaGroup METAGROUP = new PropulsionSystems.MetaGroup();
+    public static final PropulsionSystems.MetaGroup METAGROUP = new PropulsionSystems.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -169,7 +169,7 @@ public class PropulsionSystems
     public static class MetaGroup
         implements IMetaGroup<PropulsionSystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSystems.yaml";
         private Map<String, PropulsionSystems> cache = (null);
 
         @Override

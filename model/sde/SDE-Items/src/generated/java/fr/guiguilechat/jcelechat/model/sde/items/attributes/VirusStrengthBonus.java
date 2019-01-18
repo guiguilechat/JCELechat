@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class VirusStrengthBonus
     extends IntAttribute
 {
-    public final static VirusStrengthBonus INSTANCE = new VirusStrengthBonus();
+    public static final VirusStrengthBonus INSTANCE = new VirusStrengthBonus();
 
     @Override
     public int getId() {

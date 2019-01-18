@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemBonusAmarrPropulsion2
     extends IntAttribute
 {
-    public final static SubsystemBonusAmarrPropulsion2 INSTANCE = new SubsystemBonusAmarrPropulsion2();
+    public static final SubsystemBonusAmarrPropulsion2 INSTANCE = new SubsystemBonusAmarrPropulsion2();
 
     @Override
     public int getId() {

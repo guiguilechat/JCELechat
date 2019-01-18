@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.specialeditionassets.Tour
 public abstract class SpecialEditionAssets
     extends Item
 {
-    public final static SpecialEditionAssets.MetaCat METACAT = new SpecialEditionAssets.MetaCat();
+    public static final SpecialEditionAssets.MetaCat METACAT = new SpecialEditionAssets.MetaCat();
 
     @Override
     public IMetaCategory<SpecialEditionAssets> getCategory() {

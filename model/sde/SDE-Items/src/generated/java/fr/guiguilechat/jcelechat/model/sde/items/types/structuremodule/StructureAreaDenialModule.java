@@ -226,7 +226,7 @@ public class StructureAreaDenialModule
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static StructureAreaDenialModule.MetaGroup METAGROUP = new StructureAreaDenialModule.MetaGroup();
+    public static final StructureAreaDenialModule.MetaGroup METAGROUP = new StructureAreaDenialModule.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -362,7 +362,7 @@ public class StructureAreaDenialModule
     public static class MetaGroup
         implements IMetaGroup<StructureAreaDenialModule>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
         private Map<String, StructureAreaDenialModule> cache = (null);
 
         @Override

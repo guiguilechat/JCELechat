@@ -153,7 +153,7 @@ public class HullRepairUnit
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static HullRepairUnit.MetaGroup METAGROUP = new HullRepairUnit.MetaGroup();
+    public static final HullRepairUnit.MetaGroup METAGROUP = new HullRepairUnit.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -245,7 +245,7 @@ public class HullRepairUnit
     public static class MetaGroup
         implements IMetaGroup<HullRepairUnit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/HullRepairUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/HullRepairUnit.yaml";
         private Map<String, HullRepairUnit> cache = (null);
 
         @Override

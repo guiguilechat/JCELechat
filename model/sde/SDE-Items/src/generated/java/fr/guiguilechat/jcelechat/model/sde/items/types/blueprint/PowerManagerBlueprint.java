@@ -32,7 +32,7 @@ public class PowerManagerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static PowerManagerBlueprint.MetaGroup METAGROUP = new PowerManagerBlueprint.MetaGroup();
+    public static final PowerManagerBlueprint.MetaGroup METAGROUP = new PowerManagerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class PowerManagerBlueprint
     public static class MetaGroup
         implements IMetaGroup<PowerManagerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/PowerManagerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/PowerManagerBlueprint.yaml";
         private Map<String, PowerManagerBlueprint> cache = (null);
 
         @Override

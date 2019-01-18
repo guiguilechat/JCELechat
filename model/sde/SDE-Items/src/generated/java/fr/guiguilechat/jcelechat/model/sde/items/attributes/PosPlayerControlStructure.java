@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PosPlayerControlStructure
     extends IntAttribute
 {
-    public final static PosPlayerControlStructure INSTANCE = new PosPlayerControlStructure();
+    public static final PosPlayerControlStructure INSTANCE = new PosPlayerControlStructure();
 
     @Override
     public int getId() {

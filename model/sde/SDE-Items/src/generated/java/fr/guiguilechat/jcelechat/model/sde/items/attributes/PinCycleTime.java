@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PinCycleTime
     extends IntAttribute
 {
-    public final static PinCycleTime INSTANCE = new PinCycleTime();
+    public static final PinCycleTime INSTANCE = new PinCycleTime();
 
     @Override
     public int getId() {

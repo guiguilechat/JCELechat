@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RemoteRepairImpedance
     extends DoubleAttribute
 {
-    public final static RemoteRepairImpedance INSTANCE = new RemoteRepairImpedance();
+    public static final RemoteRepairImpedance INSTANCE = new RemoteRepairImpedance();
 
     @Override
     public int getId() {

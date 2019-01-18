@@ -90,7 +90,7 @@ public class ShieldBoostAmplifier
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldBoostAmplifier.MetaGroup METAGROUP = new ShieldBoostAmplifier.MetaGroup();
+    public static final ShieldBoostAmplifier.MetaGroup METAGROUP = new ShieldBoostAmplifier.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class ShieldBoostAmplifier
     public static class MetaGroup
         implements IMetaGroup<ShieldBoostAmplifier>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ShieldBoostAmplifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ShieldBoostAmplifier.yaml";
         private Map<String, ShieldBoostAmplifier> cache = (null);
 
         @Override

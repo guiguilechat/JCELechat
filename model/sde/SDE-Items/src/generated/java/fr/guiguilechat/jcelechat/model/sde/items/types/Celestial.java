@@ -28,7 +28,7 @@ public abstract class Celestial
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
-    public final static Celestial.MetaCat METACAT = new Celestial.MetaCat();
+    public static final Celestial.MetaCat METACAT = new Celestial.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

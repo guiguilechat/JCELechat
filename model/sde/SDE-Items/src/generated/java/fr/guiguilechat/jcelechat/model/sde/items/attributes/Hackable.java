@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Hackable
     extends IntAttribute
 {
-    public final static Hackable INSTANCE = new Hackable();
+    public static final Hackable INSTANCE = new Hackable();
 
     @Override
     public int getId() {

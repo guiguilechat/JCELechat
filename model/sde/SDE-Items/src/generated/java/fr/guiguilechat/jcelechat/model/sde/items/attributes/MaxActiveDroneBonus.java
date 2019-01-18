@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxActiveDroneBonus
     extends IntAttribute
 {
-    public final static MaxActiveDroneBonus INSTANCE = new MaxActiveDroneBonus();
+    public static final MaxActiveDroneBonus INSTANCE = new MaxActiveDroneBonus();
 
     @Override
     public int getId() {

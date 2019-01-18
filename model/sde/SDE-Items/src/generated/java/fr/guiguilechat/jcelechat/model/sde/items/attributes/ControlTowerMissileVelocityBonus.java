@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerMissileVelocityBonus
     extends IntAttribute
 {
-    public final static ControlTowerMissileVelocityBonus INSTANCE = new ControlTowerMissileVelocityBonus();
+    public static final ControlTowerMissileVelocityBonus INSTANCE = new ControlTowerMissileVelocityBonus();
 
     @Override
     public int getId() {

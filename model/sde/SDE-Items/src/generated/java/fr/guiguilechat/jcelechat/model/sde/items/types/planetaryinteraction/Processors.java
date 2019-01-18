@@ -37,7 +37,7 @@ public class Processors
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerLoad;
-    public final static Processors.MetaGroup METAGROUP = new Processors.MetaGroup();
+    public static final Processors.MetaGroup METAGROUP = new Processors.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Processors
     public static class MetaGroup
         implements IMetaGroup<Processors>
     {
-        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Processors.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/Processors.yaml";
         private Map<String, Processors> cache = (null);
 
         @Override

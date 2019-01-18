@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FlagCruiserFittingBonusPropMods
     extends IntAttribute
 {
-    public final static FlagCruiserFittingBonusPropMods INSTANCE = new FlagCruiserFittingBonusPropMods();
+    public static final FlagCruiserFittingBonusPropMods INSTANCE = new FlagCruiserFittingBonusPropMods();
 
     @Override
     public int getId() {

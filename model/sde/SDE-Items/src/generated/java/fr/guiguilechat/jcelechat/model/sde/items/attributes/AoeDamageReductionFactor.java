@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AoeDamageReductionFactor
     extends DoubleAttribute
 {
-    public final static AoeDamageReductionFactor INSTANCE = new AoeDamageReductionFactor();
+    public static final AoeDamageReductionFactor INSTANCE = new AoeDamageReductionFactor();
 
     @Override
     public int getId() {

@@ -32,7 +32,7 @@ public class MiningBargeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static MiningBargeBlueprint.MetaGroup METAGROUP = new MiningBargeBlueprint.MetaGroup();
+    public static final MiningBargeBlueprint.MetaGroup METAGROUP = new MiningBargeBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class MiningBargeBlueprint
     public static class MetaGroup
         implements IMetaGroup<MiningBargeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MiningBargeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MiningBargeBlueprint.yaml";
         private Map<String, MiningBargeBlueprint> cache = (null);
 
         @Override

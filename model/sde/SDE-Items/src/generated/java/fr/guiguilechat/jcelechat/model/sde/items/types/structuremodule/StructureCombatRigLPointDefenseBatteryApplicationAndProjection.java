@@ -130,7 +130,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigLPointDefenseBatteryApplicationAndProjection.MetaGroup METAGROUP = new StructureCombatRigLPointDefenseBatteryApplicationAndProjection.MetaGroup();
+    public static final StructureCombatRigLPointDefenseBatteryApplicationAndProjection.MetaGroup METAGROUP = new StructureCombatRigLPointDefenseBatteryApplicationAndProjection.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -214,7 +214,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigLPointDefenseBatteryApplicationAndProjection>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLPointDefenseBatteryApplicationAndProjection.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLPointDefenseBatteryApplicationAndProjection.yaml";
         private Map<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> cache = (null);
 
         @Override

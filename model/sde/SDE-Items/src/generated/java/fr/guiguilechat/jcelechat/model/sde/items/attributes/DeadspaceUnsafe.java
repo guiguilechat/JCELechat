@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DeadspaceUnsafe
     extends IntAttribute
 {
-    public final static DeadspaceUnsafe INSTANCE = new DeadspaceUnsafe();
+    public static final DeadspaceUnsafe INSTANCE = new DeadspaceUnsafe();
 
     @Override
     public int getId() {

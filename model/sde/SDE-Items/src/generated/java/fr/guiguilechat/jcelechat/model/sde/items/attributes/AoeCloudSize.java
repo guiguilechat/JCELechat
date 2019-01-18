@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AoeCloudSize
     extends IntAttribute
 {
-    public final static AoeCloudSize INSTANCE = new AoeCloudSize();
+    public static final AoeCloudSize INSTANCE = new AoeCloudSize();
 
     @Override
     public int getId() {

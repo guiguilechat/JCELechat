@@ -166,7 +166,7 @@ public class AdvancedPulseLaserCrystal
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static AdvancedPulseLaserCrystal.MetaGroup METAGROUP = new AdvancedPulseLaserCrystal.MetaGroup();
+    public static final AdvancedPulseLaserCrystal.MetaGroup METAGROUP = new AdvancedPulseLaserCrystal.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -270,7 +270,7 @@ public class AdvancedPulseLaserCrystal
     public static class MetaGroup
         implements IMetaGroup<AdvancedPulseLaserCrystal>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedPulseLaserCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedPulseLaserCrystal.yaml";
         private Map<String, AdvancedPulseLaserCrystal> cache = (null);
 
         @Override

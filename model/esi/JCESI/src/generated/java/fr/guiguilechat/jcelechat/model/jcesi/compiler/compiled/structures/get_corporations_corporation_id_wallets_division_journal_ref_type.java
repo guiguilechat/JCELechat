@@ -227,6 +227,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     store_purchase("store_purchase"),
     @JsonProperty("store_purchase_refund")
     store_purchase_refund("store_purchase_refund"),
+    @JsonProperty("structure_gate_jump")
+    structure_gate_jump("structure_gate_jump"),
     @JsonProperty("transaction_tax")
     transaction_tax("transaction_tax"),
     @JsonProperty("upkeep_adjustment_fee")

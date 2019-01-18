@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PlanetAnchorDistance
     extends IntAttribute
 {
-    public final static PlanetAnchorDistance INSTANCE = new PlanetAnchorDistance();
+    public static final PlanetAnchorDistance INSTANCE = new PlanetAnchorDistance();
 
     @Override
     public int getId() {

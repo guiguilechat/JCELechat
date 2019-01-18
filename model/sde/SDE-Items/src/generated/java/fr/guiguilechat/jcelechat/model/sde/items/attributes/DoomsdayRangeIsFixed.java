@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DoomsdayRangeIsFixed
     extends IntAttribute
 {
-    public final static DoomsdayRangeIsFixed INSTANCE = new DoomsdayRangeIsFixed();
+    public static final DoomsdayRangeIsFixed INSTANCE = new DoomsdayRangeIsFixed();
 
     @Override
     public int getId() {

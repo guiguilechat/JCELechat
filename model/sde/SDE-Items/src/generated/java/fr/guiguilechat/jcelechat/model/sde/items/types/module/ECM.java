@@ -174,7 +174,7 @@ public class ECM
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ECM.MetaGroup METAGROUP = new ECM.MetaGroup();
+    public static final ECM.MetaGroup METAGROUP = new ECM.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -278,7 +278,7 @@ public class ECM
     public static class MetaGroup
         implements IMetaGroup<ECM>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ECM.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ECM.yaml";
         private Map<String, ECM> cache = (null);
 
         @Override

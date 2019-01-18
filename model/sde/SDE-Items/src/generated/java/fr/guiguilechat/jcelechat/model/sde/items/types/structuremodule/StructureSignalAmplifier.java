@@ -96,7 +96,7 @@ public class StructureSignalAmplifier
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureSignalAmplifier.MetaGroup METAGROUP = new StructureSignalAmplifier.MetaGroup();
+    public static final StructureSignalAmplifier.MetaGroup METAGROUP = new StructureSignalAmplifier.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -160,7 +160,7 @@ public class StructureSignalAmplifier
     public static class MetaGroup
         implements IMetaGroup<StructureSignalAmplifier>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureSignalAmplifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureSignalAmplifier.yaml";
         private Map<String, StructureSignalAmplifier> cache = (null);
 
         @Override

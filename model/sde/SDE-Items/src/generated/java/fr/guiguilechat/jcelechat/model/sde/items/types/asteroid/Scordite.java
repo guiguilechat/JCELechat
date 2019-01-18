@@ -37,7 +37,7 @@ public class Scordite
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Scordite.MetaGroup METAGROUP = new Scordite.MetaGroup();
+    public static final Scordite.MetaGroup METAGROUP = new Scordite.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Scordite
     public static class MetaGroup
         implements IMetaGroup<Scordite>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Scordite.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Scordite.yaml";
         private Map<String, Scordite> cache = (null);
 
         @Override

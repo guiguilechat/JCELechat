@@ -103,7 +103,7 @@ public class RigProjectileWeapon
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static RigProjectileWeapon.MetaGroup METAGROUP = new RigProjectileWeapon.MetaGroup();
+    public static final RigProjectileWeapon.MetaGroup METAGROUP = new RigProjectileWeapon.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -171,7 +171,7 @@ public class RigProjectileWeapon
     public static class MetaGroup
         implements IMetaGroup<RigProjectileWeapon>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigProjectileWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigProjectileWeapon.yaml";
         private Map<String, RigProjectileWeapon> cache = (null);
 
         @Override

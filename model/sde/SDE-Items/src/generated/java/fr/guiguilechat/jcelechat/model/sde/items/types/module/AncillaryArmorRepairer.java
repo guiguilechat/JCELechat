@@ -173,7 +173,7 @@ public class AncillaryArmorRepairer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static AncillaryArmorRepairer.MetaGroup METAGROUP = new AncillaryArmorRepairer.MetaGroup();
+    public static final AncillaryArmorRepairer.MetaGroup METAGROUP = new AncillaryArmorRepairer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -281,7 +281,7 @@ public class AncillaryArmorRepairer
     public static class MetaGroup
         implements IMetaGroup<AncillaryArmorRepairer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/AncillaryArmorRepairer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/AncillaryArmorRepairer.yaml";
         private Map<String, AncillaryArmorRepairer> cache = (null);
 
         @Override

@@ -108,7 +108,7 @@ public class Gunnery
     @Stackable(true)
     @DefaultIntValue(0)
     public int TurretSpeeBonus;
-    public final static Gunnery.MetaGroup METAGROUP = new Gunnery.MetaGroup();
+    public static final Gunnery.MetaGroup METAGROUP = new Gunnery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -180,7 +180,7 @@ public class Gunnery
     public static class MetaGroup
         implements IMetaGroup<Gunnery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Gunnery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Gunnery.yaml";
         private Map<String, Gunnery> cache = (null);
 
         @Override

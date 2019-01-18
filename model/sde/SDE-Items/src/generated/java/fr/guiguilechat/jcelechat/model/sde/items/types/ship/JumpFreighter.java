@@ -290,7 +290,7 @@ public class JumpFreighter
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static JumpFreighter.MetaGroup METAGROUP = new JumpFreighter.MetaGroup();
+    public static final JumpFreighter.MetaGroup METAGROUP = new JumpFreighter.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -466,7 +466,7 @@ public class JumpFreighter
     public static class MetaGroup
         implements IMetaGroup<JumpFreighter>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/JumpFreighter.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/JumpFreighter.yaml";
         private Map<String, JumpFreighter> cache = (null);
 
         @Override

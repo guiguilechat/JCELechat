@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BoosterArmorHPPenalty
     extends IntAttribute
 {
-    public final static BoosterArmorHPPenalty INSTANCE = new BoosterArmorHPPenalty();
+    public static final BoosterArmorHPPenalty INSTANCE = new BoosterArmorHPPenalty();
 
     @Override
     public int getId() {

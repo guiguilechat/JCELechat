@@ -47,7 +47,7 @@ public abstract class Implant
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
-    public final static Implant.MetaCat METACAT = new Implant.MetaCat();
+    public static final Implant.MetaCat METACAT = new Implant.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

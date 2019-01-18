@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class HiddenZenithMinmatarBattleship
     extends Entity
 {
-    public final static HiddenZenithMinmatarBattleship.MetaGroup METAGROUP = new HiddenZenithMinmatarBattleship.MetaGroup();
+    public static final HiddenZenithMinmatarBattleship.MetaGroup METAGROUP = new HiddenZenithMinmatarBattleship.MetaGroup();
 
     @Override
     public IMetaGroup<HiddenZenithMinmatarBattleship> getGroup() {
@@ -22,7 +22,7 @@ public class HiddenZenithMinmatarBattleship
     public static class MetaGroup
         implements IMetaGroup<HiddenZenithMinmatarBattleship>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/HiddenZenithMinmatarBattleship.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/HiddenZenithMinmatarBattleship.yaml";
         private Map<String, HiddenZenithMinmatarBattleship> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ArmorHPBonusAdd
     extends IntAttribute
 {
-    public final static ArmorHPBonusAdd INSTANCE = new ArmorHPBonusAdd();
+    public static final ArmorHPBonusAdd INSTANCE = new ArmorHPBonusAdd();
 
     @Override
     public int getId() {

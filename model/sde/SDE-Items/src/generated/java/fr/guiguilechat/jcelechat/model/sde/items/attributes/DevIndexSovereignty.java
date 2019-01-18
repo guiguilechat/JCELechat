@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DevIndexSovereignty
     extends IntAttribute
 {
-    public final static DevIndexSovereignty INSTANCE = new DevIndexSovereignty();
+    public static final DevIndexSovereignty INSTANCE = new DevIndexSovereignty();
 
     @Override
     public int getId() {

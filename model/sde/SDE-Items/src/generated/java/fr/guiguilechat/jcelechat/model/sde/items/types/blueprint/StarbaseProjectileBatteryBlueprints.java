@@ -23,7 +23,7 @@ public class StarbaseProjectileBatteryBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static StarbaseProjectileBatteryBlueprints.MetaGroup METAGROUP = new StarbaseProjectileBatteryBlueprints.MetaGroup();
+    public static final StarbaseProjectileBatteryBlueprints.MetaGroup METAGROUP = new StarbaseProjectileBatteryBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class StarbaseProjectileBatteryBlueprints
     public static class MetaGroup
         implements IMetaGroup<StarbaseProjectileBatteryBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseProjectileBatteryBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/StarbaseProjectileBatteryBlueprints.yaml";
         private Map<String, StarbaseProjectileBatteryBlueprints> cache = (null);
 
         @Override

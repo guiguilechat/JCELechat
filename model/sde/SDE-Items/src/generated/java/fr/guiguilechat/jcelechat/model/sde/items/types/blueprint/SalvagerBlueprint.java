@@ -32,7 +32,7 @@ public class SalvagerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SalvagerBlueprint.MetaGroup METAGROUP = new SalvagerBlueprint.MetaGroup();
+    public static final SalvagerBlueprint.MetaGroup METAGROUP = new SalvagerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class SalvagerBlueprint
     public static class MetaGroup
         implements IMetaGroup<SalvagerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SalvagerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SalvagerBlueprint.yaml";
         private Map<String, SalvagerBlueprint> cache = (null);
 
         @Override

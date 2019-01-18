@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class SpeedFactor
     extends DoubleAttribute
 {
-    public final static SpeedFactor INSTANCE = new SpeedFactor();
+    public static final SpeedFactor INSTANCE = new SpeedFactor();
 
     @Override
     public int getId() {

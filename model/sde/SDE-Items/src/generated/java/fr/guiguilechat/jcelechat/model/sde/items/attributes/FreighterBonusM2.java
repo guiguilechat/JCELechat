@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FreighterBonusM2
     extends IntAttribute
 {
-    public final static FreighterBonusM2 INSTANCE = new FreighterBonusM2();
+    public static final FreighterBonusM2 INSTANCE = new FreighterBonusM2();
 
     @Override
     public int getId() {

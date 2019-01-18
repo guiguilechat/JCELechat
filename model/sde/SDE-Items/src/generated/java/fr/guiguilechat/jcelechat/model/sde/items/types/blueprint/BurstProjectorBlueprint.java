@@ -23,7 +23,7 @@ public class BurstProjectorBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static BurstProjectorBlueprint.MetaGroup METAGROUP = new BurstProjectorBlueprint.MetaGroup();
+    public static final BurstProjectorBlueprint.MetaGroup METAGROUP = new BurstProjectorBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class BurstProjectorBlueprint
     public static class MetaGroup
         implements IMetaGroup<BurstProjectorBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/BurstProjectorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/BurstProjectorBlueprint.yaml";
         private Map<String, BurstProjectorBlueprint> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureRigMissileExploVeloBonus
     extends IntAttribute
 {
-    public final static StructureRigMissileExploVeloBonus INSTANCE = new StructureRigMissileExploVeloBonus();
+    public static final StructureRigMissileExploVeloBonus INSTANCE = new StructureRigMissileExploVeloBonus();
 
     @Override
     public int getId() {

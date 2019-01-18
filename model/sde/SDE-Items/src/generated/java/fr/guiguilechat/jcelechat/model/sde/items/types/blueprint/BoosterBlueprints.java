@@ -23,7 +23,7 @@ public class BoosterBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static BoosterBlueprints.MetaGroup METAGROUP = new BoosterBlueprints.MetaGroup();
+    public static final BoosterBlueprints.MetaGroup METAGROUP = new BoosterBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class BoosterBlueprints
     public static class MetaGroup
         implements IMetaGroup<BoosterBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/BoosterBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/BoosterBlueprints.yaml";
         private Map<String, BoosterBlueprints> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class BcLargeTurretPower
     extends DoubleAttribute
 {
-    public final static BcLargeTurretPower INSTANCE = new BcLargeTurretPower();
+    public static final BcLargeTurretPower INSTANCE = new BcLargeTurretPower();
 
     @Override
     public int getId() {

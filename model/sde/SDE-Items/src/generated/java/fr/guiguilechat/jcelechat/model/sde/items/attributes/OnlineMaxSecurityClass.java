@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OnlineMaxSecurityClass
     extends IntAttribute
 {
-    public final static OnlineMaxSecurityClass INSTANCE = new OnlineMaxSecurityClass();
+    public static final OnlineMaxSecurityClass INSTANCE = new OnlineMaxSecurityClass();
 
     @Override
     public int getId() {

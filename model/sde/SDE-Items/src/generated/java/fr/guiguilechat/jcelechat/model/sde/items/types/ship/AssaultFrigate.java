@@ -256,7 +256,7 @@ public class AssaultFrigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static AssaultFrigate.MetaGroup METAGROUP = new AssaultFrigate.MetaGroup();
+    public static final AssaultFrigate.MetaGroup METAGROUP = new AssaultFrigate.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -408,7 +408,7 @@ public class AssaultFrigate
     public static class MetaGroup
         implements IMetaGroup<AssaultFrigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/AssaultFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/AssaultFrigate.yaml";
         private Map<String, AssaultFrigate> cache = (null);
 
         @Override

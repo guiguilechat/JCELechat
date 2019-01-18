@@ -130,7 +130,7 @@ public class StructureCombatRigXLEnergyNeutralizerAndEW
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigXLEnergyNeutralizerAndEW.MetaGroup METAGROUP = new StructureCombatRigXLEnergyNeutralizerAndEW.MetaGroup();
+    public static final StructureCombatRigXLEnergyNeutralizerAndEW.MetaGroup METAGROUP = new StructureCombatRigXLEnergyNeutralizerAndEW.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -214,7 +214,7 @@ public class StructureCombatRigXLEnergyNeutralizerAndEW
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigXLEnergyNeutralizerAndEW>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigXLEnergyNeutralizerAndEW.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigXLEnergyNeutralizerAndEW.yaml";
         private Map<String, StructureCombatRigXLEnergyNeutralizerAndEW> cache = (null);
 
         @Override

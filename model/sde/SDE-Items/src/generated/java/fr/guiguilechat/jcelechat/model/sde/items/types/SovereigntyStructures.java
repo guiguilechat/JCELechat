@@ -51,7 +51,7 @@ public abstract class SovereigntyStructures
     @Stackable(false)
     @DefaultIntValue(100)
     public int SignatureRadius;
-    public final static SovereigntyStructures.MetaCat METACAT = new SovereigntyStructures.MetaCat();
+    public static final SovereigntyStructures.MetaCat METACAT = new SovereigntyStructures.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

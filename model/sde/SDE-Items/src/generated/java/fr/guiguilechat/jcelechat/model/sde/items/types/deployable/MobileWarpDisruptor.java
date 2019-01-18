@@ -88,7 +88,7 @@ public class MobileWarpDisruptor
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleRange;
-    public final static MobileWarpDisruptor.MetaGroup METAGROUP = new MobileWarpDisruptor.MetaGroup();
+    public static final MobileWarpDisruptor.MetaGroup METAGROUP = new MobileWarpDisruptor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -144,7 +144,7 @@ public class MobileWarpDisruptor
     public static class MetaGroup
         implements IMetaGroup<MobileWarpDisruptor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileWarpDisruptor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileWarpDisruptor.yaml";
         private Map<String, MobileWarpDisruptor> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SecurityModifier
     extends IntAttribute
 {
-    public final static SecurityModifier INSTANCE = new SecurityModifier();
+    public static final SecurityModifier INSTANCE = new SecurityModifier();
 
     @Override
     public int getId() {

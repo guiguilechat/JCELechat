@@ -11,7 +11,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Trading
     extends fr.guiguilechat.jcelechat.model.sde.items.types.Trading
 {
-    public final static Trading.MetaGroup METAGROUP = new Trading.MetaGroup();
+    public static final Trading.MetaGroup METAGROUP = new Trading.MetaGroup();
 
     @Override
     public IMetaGroup<Trading> getGroup() {
@@ -21,7 +21,7 @@ public class Trading
     public static class MetaGroup
         implements IMetaGroup<Trading>
     {
-        public final static String RESOURCE_PATH = "SDE/items/trading/Trading.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/trading/Trading.yaml";
         private Map<String, Trading> cache = (null);
 
         @Override

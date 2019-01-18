@@ -23,7 +23,7 @@ public class CommonMoonAsteroids
     @Stackable(true)
     @DefaultIntValue(16255)
     public int AsteroidMaxRadius;
-    public final static CommonMoonAsteroids.MetaGroup METAGROUP = new CommonMoonAsteroids.MetaGroup();
+    public static final CommonMoonAsteroids.MetaGroup METAGROUP = new CommonMoonAsteroids.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class CommonMoonAsteroids
     public static class MetaGroup
         implements IMetaGroup<CommonMoonAsteroids>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/CommonMoonAsteroids.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/CommonMoonAsteroids.yaml";
         private Map<String, CommonMoonAsteroids> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Hp
     extends IntAttribute
 {
-    public final static Hp INSTANCE = new Hp();
+    public static final Hp INSTANCE = new Hp();
 
     @Override
     public int getId() {

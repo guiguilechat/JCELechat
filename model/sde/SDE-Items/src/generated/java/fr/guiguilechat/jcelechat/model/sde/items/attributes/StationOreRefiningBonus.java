@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StationOreRefiningBonus
     extends DoubleAttribute
 {
-    public final static StationOreRefiningBonus INSTANCE = new StationOreRefiningBonus();
+    public static final StationOreRefiningBonus INSTANCE = new StationOreRefiningBonus();
 
     @Override
     public int getId() {

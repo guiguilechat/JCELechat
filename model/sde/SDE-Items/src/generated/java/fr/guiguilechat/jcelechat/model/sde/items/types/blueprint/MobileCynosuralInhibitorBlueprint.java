@@ -23,7 +23,7 @@ public class MobileCynosuralInhibitorBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static MobileCynosuralInhibitorBlueprint.MetaGroup METAGROUP = new MobileCynosuralInhibitorBlueprint.MetaGroup();
+    public static final MobileCynosuralInhibitorBlueprint.MetaGroup METAGROUP = new MobileCynosuralInhibitorBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MobileCynosuralInhibitorBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileCynosuralInhibitorBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileCynosuralInhibitorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileCynosuralInhibitorBlueprint.yaml";
         private Map<String, MobileCynosuralInhibitorBlueprint> cache = (null);
 
         @Override

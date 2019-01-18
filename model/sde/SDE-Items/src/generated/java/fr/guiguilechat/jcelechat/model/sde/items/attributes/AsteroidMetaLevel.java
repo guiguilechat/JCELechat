@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AsteroidMetaLevel
     extends IntAttribute
 {
-    public final static AsteroidMetaLevel INSTANCE = new AsteroidMetaLevel();
+    public static final AsteroidMetaLevel INSTANCE = new AsteroidMetaLevel();
 
     @Override
     public int getId() {

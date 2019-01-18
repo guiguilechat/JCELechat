@@ -51,7 +51,7 @@ public class CaldariEducation
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
-    public final static CaldariEducation.MetaGroup METAGROUP = new CaldariEducation.MetaGroup();
+    public static final CaldariEducation.MetaGroup METAGROUP = new CaldariEducation.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -91,7 +91,7 @@ public class CaldariEducation
     public static class MetaGroup
         implements IMetaGroup<CaldariEducation>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/CaldariEducation.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/CaldariEducation.yaml";
         private Map<String, CaldariEducation> cache = (null);
 
         @Override

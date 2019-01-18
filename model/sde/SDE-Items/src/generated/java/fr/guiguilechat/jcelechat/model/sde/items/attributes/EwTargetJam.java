@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EwTargetJam
     extends IntAttribute
 {
-    public final static EwTargetJam INSTANCE = new EwTargetJam();
+    public static final EwTargetJam INSTANCE = new EwTargetJam();
 
     @Override
     public int getId() {

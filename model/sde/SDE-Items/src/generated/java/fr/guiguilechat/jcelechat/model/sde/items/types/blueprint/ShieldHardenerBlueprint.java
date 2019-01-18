@@ -32,7 +32,7 @@ public class ShieldHardenerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldHardenerBlueprint.MetaGroup METAGROUP = new ShieldHardenerBlueprint.MetaGroup();
+    public static final ShieldHardenerBlueprint.MetaGroup METAGROUP = new ShieldHardenerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ShieldHardenerBlueprint
     public static class MetaGroup
         implements IMetaGroup<ShieldHardenerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldHardenerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ShieldHardenerBlueprint.yaml";
         private Map<String, ShieldHardenerBlueprint> cache = (null);
 
         @Override

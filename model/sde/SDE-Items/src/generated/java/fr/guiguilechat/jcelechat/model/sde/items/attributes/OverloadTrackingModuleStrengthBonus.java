@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OverloadTrackingModuleStrengthBonus
     extends IntAttribute
 {
-    public final static OverloadTrackingModuleStrengthBonus INSTANCE = new OverloadTrackingModuleStrengthBonus();
+    public static final OverloadTrackingModuleStrengthBonus INSTANCE = new OverloadTrackingModuleStrengthBonus();
 
     @Override
     public int getId() {

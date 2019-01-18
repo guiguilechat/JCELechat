@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.infrastructureupgrades.St
 public abstract class InfrastructureUpgrades
     extends Item
 {
-    public final static InfrastructureUpgrades.MetaCat METACAT = new InfrastructureUpgrades.MetaCat();
+    public static final InfrastructureUpgrades.MetaCat METACAT = new InfrastructureUpgrades.MetaCat();
 
     @Override
     public IMetaCategory<InfrastructureUpgrades> getCategory() {

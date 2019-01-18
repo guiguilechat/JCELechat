@@ -90,7 +90,7 @@ public class ShieldFluxCoil
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldFluxCoil.MetaGroup METAGROUP = new ShieldFluxCoil.MetaGroup();
+    public static final ShieldFluxCoil.MetaGroup METAGROUP = new ShieldFluxCoil.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class ShieldFluxCoil
     public static class MetaGroup
         implements IMetaGroup<ShieldFluxCoil>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ShieldFluxCoil.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ShieldFluxCoil.yaml";
         private Map<String, ShieldFluxCoil> cache = (null);
 
         @Override

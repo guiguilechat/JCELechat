@@ -66,7 +66,7 @@ public class PlanetaryLinks
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double PowerLoadPerKm;
-    public final static PlanetaryLinks.MetaGroup METAGROUP = new PlanetaryLinks.MetaGroup();
+    public static final PlanetaryLinks.MetaGroup METAGROUP = new PlanetaryLinks.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -114,7 +114,7 @@ public class PlanetaryLinks
     public static class MetaGroup
         implements IMetaGroup<PlanetaryLinks>
     {
-        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
         private Map<String, PlanetaryLinks> cache = (null);
 
         @Override

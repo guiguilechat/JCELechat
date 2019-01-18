@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxRangeHidden
     extends IntAttribute
 {
-    public final static MaxRangeHidden INSTANCE = new MaxRangeHidden();
+    public static final MaxRangeHidden INSTANCE = new MaxRangeHidden();
 
     @Override
     public int getId() {

@@ -78,7 +78,7 @@ public abstract class Skill
     @Stackable(true)
     @DefaultIntValue(0)
     public int SkillTimeConstant;
-    public final static Skill.MetaCat METACAT = new Skill.MetaCat();
+    public static final Skill.MetaCat METACAT = new Skill.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

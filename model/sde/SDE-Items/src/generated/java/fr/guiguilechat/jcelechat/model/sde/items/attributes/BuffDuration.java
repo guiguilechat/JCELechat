@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BuffDuration
     extends IntAttribute
 {
-    public final static BuffDuration INSTANCE = new BuffDuration();
+    public static final BuffDuration INSTANCE = new BuffDuration();
 
     @Override
     public int getId() {

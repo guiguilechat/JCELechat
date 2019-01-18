@@ -32,7 +32,7 @@ public class StripMinerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StripMinerBlueprint.MetaGroup METAGROUP = new StripMinerBlueprint.MetaGroup();
+    public static final StripMinerBlueprint.MetaGroup METAGROUP = new StripMinerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class StripMinerBlueprint
     public static class MetaGroup
         implements IMetaGroup<StripMinerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/StripMinerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/StripMinerBlueprint.yaml";
         private Map<String, StripMinerBlueprint> cache = (null);
 
         @Override

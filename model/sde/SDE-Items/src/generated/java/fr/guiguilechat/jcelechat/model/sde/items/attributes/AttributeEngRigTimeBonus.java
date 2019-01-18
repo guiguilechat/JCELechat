@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AttributeEngRigTimeBonus
     extends IntAttribute
 {
-    public final static AttributeEngRigTimeBonus INSTANCE = new AttributeEngRigTimeBonus();
+    public static final AttributeEngRigTimeBonus INSTANCE = new AttributeEngRigTimeBonus();
 
     @Override
     public int getId() {

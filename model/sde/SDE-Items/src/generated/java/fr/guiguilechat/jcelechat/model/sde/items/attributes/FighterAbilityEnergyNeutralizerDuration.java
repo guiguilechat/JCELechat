@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityEnergyNeutralizerDuration
     extends IntAttribute
 {
-    public final static FighterAbilityEnergyNeutralizerDuration INSTANCE = new FighterAbilityEnergyNeutralizerDuration();
+    public static final FighterAbilityEnergyNeutralizerDuration INSTANCE = new FighterAbilityEnergyNeutralizerDuration();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntityEquipmentMin
     extends IntAttribute
 {
-    public final static EntityEquipmentMin INSTANCE = new EntityEquipmentMin();
+    public static final EntityEquipmentMin INSTANCE = new EntityEquipmentMin();
 
     @Override
     public int getId() {

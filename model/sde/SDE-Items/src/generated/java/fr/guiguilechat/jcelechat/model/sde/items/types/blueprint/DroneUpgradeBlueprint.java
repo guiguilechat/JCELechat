@@ -47,7 +47,7 @@ public class DroneUpgradeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static DroneUpgradeBlueprint.MetaGroup METAGROUP = new DroneUpgradeBlueprint.MetaGroup();
+    public static final DroneUpgradeBlueprint.MetaGroup METAGROUP = new DroneUpgradeBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,7 +79,7 @@ public class DroneUpgradeBlueprint
     public static class MetaGroup
         implements IMetaGroup<DroneUpgradeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/DroneUpgradeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/DroneUpgradeBlueprint.yaml";
         private Map<String, DroneUpgradeBlueprint> cache = (null);
 
         @Override

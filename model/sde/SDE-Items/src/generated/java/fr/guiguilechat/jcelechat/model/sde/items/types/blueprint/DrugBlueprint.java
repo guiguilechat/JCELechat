@@ -23,7 +23,7 @@ public class DrugBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static DrugBlueprint.MetaGroup METAGROUP = new DrugBlueprint.MetaGroup();
+    public static final DrugBlueprint.MetaGroup METAGROUP = new DrugBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class DrugBlueprint
     public static class MetaGroup
         implements IMetaGroup<DrugBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/DrugBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/DrugBlueprint.yaml";
         private Map<String, DrugBlueprint> cache = (null);
 
         @Override

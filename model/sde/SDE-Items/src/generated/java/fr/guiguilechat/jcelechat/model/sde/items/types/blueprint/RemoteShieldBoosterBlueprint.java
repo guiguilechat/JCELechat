@@ -32,7 +32,7 @@ public class RemoteShieldBoosterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RemoteShieldBoosterBlueprint.MetaGroup METAGROUP = new RemoteShieldBoosterBlueprint.MetaGroup();
+    public static final RemoteShieldBoosterBlueprint.MetaGroup METAGROUP = new RemoteShieldBoosterBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class RemoteShieldBoosterBlueprint
     public static class MetaGroup
         implements IMetaGroup<RemoteShieldBoosterBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/RemoteShieldBoosterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/RemoteShieldBoosterBlueprint.yaml";
         private Map<String, RemoteShieldBoosterBlueprint> cache = (null);
 
         @Override

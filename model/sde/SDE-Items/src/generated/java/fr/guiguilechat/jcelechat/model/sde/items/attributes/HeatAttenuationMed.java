@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class HeatAttenuationMed
     extends DoubleAttribute
 {
-    public final static HeatAttenuationMed INSTANCE = new HeatAttenuationMed();
+    public static final HeatAttenuationMed INSTANCE = new HeatAttenuationMed();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxScanRange
     extends IntAttribute
 {
-    public final static MaxScanRange INSTANCE = new MaxScanRange();
+    public static final MaxScanRange INSTANCE = new MaxScanRange();
 
     @Override
     public int getId() {

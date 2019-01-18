@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class CompositeReactionFormulas
     extends Blueprint
 {
-    public final static CompositeReactionFormulas.MetaGroup METAGROUP = new CompositeReactionFormulas.MetaGroup();
+    public static final CompositeReactionFormulas.MetaGroup METAGROUP = new CompositeReactionFormulas.MetaGroup();
 
     @Override
     public IMetaGroup<CompositeReactionFormulas> getGroup() {
@@ -22,7 +22,7 @@ public class CompositeReactionFormulas
     public static class MetaGroup
         implements IMetaGroup<CompositeReactionFormulas>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CompositeReactionFormulas.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CompositeReactionFormulas.yaml";
         private Map<String, CompositeReactionFormulas> cache = (null);
 
         @Override

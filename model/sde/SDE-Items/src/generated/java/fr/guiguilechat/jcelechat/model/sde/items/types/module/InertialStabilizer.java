@@ -76,7 +76,7 @@ public class InertialStabilizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static InertialStabilizer.MetaGroup METAGROUP = new InertialStabilizer.MetaGroup();
+    public static final InertialStabilizer.MetaGroup METAGROUP = new InertialStabilizer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -124,7 +124,7 @@ public class InertialStabilizer
     public static class MetaGroup
         implements IMetaGroup<InertialStabilizer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/InertialStabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/InertialStabilizer.yaml";
         private Map<String, InertialStabilizer> cache = (null);
 
         @Override

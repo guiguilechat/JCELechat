@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterSquadronOrbitRange
     extends IntAttribute
 {
-    public final static FighterSquadronOrbitRange INSTANCE = new FighterSquadronOrbitRange();
+    public static final FighterSquadronOrbitRange INSTANCE = new FighterSquadronOrbitRange();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StructureRigBonus2
     extends DoubleAttribute
 {
-    public final static StructureRigBonus2 INSTANCE = new StructureRigBonus2();
+    public static final StructureRigBonus2 INSTANCE = new StructureRigBonus2();
 
     @Override
     public int getId() {

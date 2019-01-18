@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CovertOpsAndReconOpsCloakModuleDelay
     extends IntAttribute
 {
-    public final static CovertOpsAndReconOpsCloakModuleDelay INSTANCE = new CovertOpsAndReconOpsCloakModuleDelay();
+    public static final CovertOpsAndReconOpsCloakModuleDelay INSTANCE = new CovertOpsAndReconOpsCloakModuleDelay();
 
     @Override
     public int getId() {

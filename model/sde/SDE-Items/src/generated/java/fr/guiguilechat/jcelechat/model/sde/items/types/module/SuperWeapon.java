@@ -393,7 +393,7 @@ public class SuperWeapon
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static SuperWeapon.MetaGroup METAGROUP = new SuperWeapon.MetaGroup();
+    public static final SuperWeapon.MetaGroup METAGROUP = new SuperWeapon.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -625,7 +625,7 @@ public class SuperWeapon
     public static class MetaGroup
         implements IMetaGroup<SuperWeapon>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/SuperWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/SuperWeapon.yaml";
         private Map<String, SuperWeapon> cache = (null);
 
         @Override

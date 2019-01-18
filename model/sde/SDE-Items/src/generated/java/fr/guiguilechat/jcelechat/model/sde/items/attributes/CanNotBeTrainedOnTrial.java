@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CanNotBeTrainedOnTrial
     extends IntAttribute
 {
-    public final static CanNotBeTrainedOnTrial INSTANCE = new CanNotBeTrainedOnTrial();
+    public static final CanNotBeTrainedOnTrial INSTANCE = new CanNotBeTrainedOnTrial();
 
     @Override
     public int getId() {

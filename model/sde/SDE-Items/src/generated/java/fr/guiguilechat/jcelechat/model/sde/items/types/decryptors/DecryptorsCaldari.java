@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class DecryptorsCaldari
     extends Decryptors
 {
-    public final static DecryptorsCaldari.MetaGroup METAGROUP = new DecryptorsCaldari.MetaGroup();
+    public static final DecryptorsCaldari.MetaGroup METAGROUP = new DecryptorsCaldari.MetaGroup();
 
     @Override
     public IMetaGroup<DecryptorsCaldari> getGroup() {
@@ -22,7 +22,7 @@ public class DecryptorsCaldari
     public static class MetaGroup
         implements IMetaGroup<DecryptorsCaldari>
     {
-        public final static String RESOURCE_PATH = "SDE/items/decryptors/DecryptorsCaldari.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/decryptors/DecryptorsCaldari.yaml";
         private Map<String, DecryptorsCaldari> cache = (null);
 
         @Override

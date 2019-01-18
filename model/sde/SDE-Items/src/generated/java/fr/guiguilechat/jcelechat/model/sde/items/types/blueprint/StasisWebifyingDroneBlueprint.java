@@ -23,7 +23,7 @@ public class StasisWebifyingDroneBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static StasisWebifyingDroneBlueprint.MetaGroup METAGROUP = new StasisWebifyingDroneBlueprint.MetaGroup();
+    public static final StasisWebifyingDroneBlueprint.MetaGroup METAGROUP = new StasisWebifyingDroneBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class StasisWebifyingDroneBlueprint
     public static class MetaGroup
         implements IMetaGroup<StasisWebifyingDroneBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/StasisWebifyingDroneBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/StasisWebifyingDroneBlueprint.yaml";
         private Map<String, StasisWebifyingDroneBlueprint> cache = (null);
 
         @Override

@@ -103,7 +103,7 @@ public class ShipScanner
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShipScanner.MetaGroup METAGROUP = new ShipScanner.MetaGroup();
+    public static final ShipScanner.MetaGroup METAGROUP = new ShipScanner.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -171,7 +171,7 @@ public class ShipScanner
     public static class MetaGroup
         implements IMetaGroup<ShipScanner>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ShipScanner.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ShipScanner.yaml";
         private Map<String, ShipScanner> cache = (null);
 
         @Override

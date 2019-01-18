@@ -290,7 +290,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.entity.TemporaryCloud;
 public abstract class Entity
     extends Item
 {
-    public final static Entity.MetaCat METACAT = new Entity.MetaCat();
+    public static final Entity.MetaCat METACAT = new Entity.MetaCat();
 
     @Override
     public IMetaCategory<Entity> getCategory() {

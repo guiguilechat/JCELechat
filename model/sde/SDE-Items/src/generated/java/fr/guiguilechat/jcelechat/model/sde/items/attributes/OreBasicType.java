@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OreBasicType
     extends IntAttribute
 {
-    public final static OreBasicType INSTANCE = new OreBasicType();
+    public static final OreBasicType INSTANCE = new OreBasicType();
 
     @Override
     public int getId() {

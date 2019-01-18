@@ -59,7 +59,7 @@ public class SensorDampenerScript
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SensorDampenerScript.MetaGroup METAGROUP = new SensorDampenerScript.MetaGroup();
+    public static final SensorDampenerScript.MetaGroup METAGROUP = new SensorDampenerScript.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -103,7 +103,7 @@ public class SensorDampenerScript
     public static class MetaGroup
         implements IMetaGroup<SensorDampenerScript>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/SensorDampenerScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/SensorDampenerScript.yaml";
         private Map<String, SensorDampenerScript> cache = (null);
 
         @Override

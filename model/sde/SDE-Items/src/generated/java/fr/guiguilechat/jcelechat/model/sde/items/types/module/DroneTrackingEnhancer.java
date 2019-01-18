@@ -111,7 +111,7 @@ public class DroneTrackingEnhancer
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static DroneTrackingEnhancer.MetaGroup METAGROUP = new DroneTrackingEnhancer.MetaGroup();
+    public static final DroneTrackingEnhancer.MetaGroup METAGROUP = new DroneTrackingEnhancer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class DroneTrackingEnhancer
     public static class MetaGroup
         implements IMetaGroup<DroneTrackingEnhancer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/DroneTrackingEnhancer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/DroneTrackingEnhancer.yaml";
         private Map<String, DroneTrackingEnhancer> cache = (null);
 
         @Override

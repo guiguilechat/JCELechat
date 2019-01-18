@@ -90,7 +90,7 @@ public class HeatSink
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static HeatSink.MetaGroup METAGROUP = new HeatSink.MetaGroup();
+    public static final HeatSink.MetaGroup METAGROUP = new HeatSink.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class HeatSink
     public static class MetaGroup
         implements IMetaGroup<HeatSink>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/HeatSink.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/HeatSink.yaml";
         private Map<String, HeatSink> cache = (null);
 
         @Override

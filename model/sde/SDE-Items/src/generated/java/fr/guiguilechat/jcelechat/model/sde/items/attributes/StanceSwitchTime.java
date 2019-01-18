@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StanceSwitchTime
     extends IntAttribute
 {
-    public final static StanceSwitchTime INSTANCE = new StanceSwitchTime();
+    public static final StanceSwitchTime INSTANCE = new StanceSwitchTime();
 
     @Override
     public int getId() {

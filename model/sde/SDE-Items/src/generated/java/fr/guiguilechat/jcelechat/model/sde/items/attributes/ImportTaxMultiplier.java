@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ImportTaxMultiplier
     extends IntAttribute
 {
-    public final static ImportTaxMultiplier INSTANCE = new ImportTaxMultiplier();
+    public static final ImportTaxMultiplier INSTANCE = new ImportTaxMultiplier();
 
     @Override
     public int getId() {

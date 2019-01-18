@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxStructureDistance
     extends IntAttribute
 {
-    public final static MaxStructureDistance INSTANCE = new MaxStructureDistance();
+    public static final MaxStructureDistance INSTANCE = new MaxStructureDistance();
 
     @Override
     public int getId() {

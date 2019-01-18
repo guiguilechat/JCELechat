@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BaseWarpSpeed
     extends IntAttribute
 {
-    public final static BaseWarpSpeed INSTANCE = new BaseWarpSpeed();
+    public static final BaseWarpSpeed INSTANCE = new BaseWarpSpeed();
 
     @Override
     public int getId() {

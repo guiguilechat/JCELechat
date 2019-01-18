@@ -11,7 +11,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Station
     extends fr.guiguilechat.jcelechat.model.sde.items.types.Station
 {
-    public final static Station.MetaGroup METAGROUP = new Station.MetaGroup();
+    public static final Station.MetaGroup METAGROUP = new Station.MetaGroup();
 
     @Override
     public IMetaGroup<Station> getGroup() {
@@ -21,7 +21,7 @@ public class Station
     public static class MetaGroup
         implements IMetaGroup<Station>
     {
-        public final static String RESOURCE_PATH = "SDE/items/station/Station.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/station/Station.yaml";
         private Map<String, Station> cache = (null);
 
         @Override

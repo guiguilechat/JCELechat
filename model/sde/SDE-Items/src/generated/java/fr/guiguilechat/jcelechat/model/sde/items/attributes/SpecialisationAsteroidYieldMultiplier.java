@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class SpecialisationAsteroidYieldMultiplier
     extends DoubleAttribute
 {
-    public final static SpecialisationAsteroidYieldMultiplier INSTANCE = new SpecialisationAsteroidYieldMultiplier();
+    public static final SpecialisationAsteroidYieldMultiplier INSTANCE = new SpecialisationAsteroidYieldMultiplier();
 
     @Override
     public int getId() {

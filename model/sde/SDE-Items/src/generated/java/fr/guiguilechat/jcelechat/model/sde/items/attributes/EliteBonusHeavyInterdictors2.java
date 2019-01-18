@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EliteBonusHeavyInterdictors2
     extends IntAttribute
 {
-    public final static EliteBonusHeavyInterdictors2 INSTANCE = new EliteBonusHeavyInterdictors2();
+    public static final EliteBonusHeavyInterdictors2 INSTANCE = new EliteBonusHeavyInterdictors2();
 
     @Override
     public int getId() {

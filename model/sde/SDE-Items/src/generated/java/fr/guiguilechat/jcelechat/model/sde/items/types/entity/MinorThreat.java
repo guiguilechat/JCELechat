@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class MinorThreat
     extends Entity
 {
-    public final static MinorThreat.MetaGroup METAGROUP = new MinorThreat.MetaGroup();
+    public static final MinorThreat.MetaGroup METAGROUP = new MinorThreat.MetaGroup();
 
     @Override
     public IMetaGroup<MinorThreat> getGroup() {
@@ -22,7 +22,7 @@ public class MinorThreat
     public static class MetaGroup
         implements IMetaGroup<MinorThreat>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/MinorThreat.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/MinorThreat.yaml";
         private Map<String, MinorThreat> cache = (null);
 
         @Override

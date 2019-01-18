@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RigDrawbackBonus
     extends IntAttribute
 {
-    public final static RigDrawbackBonus INSTANCE = new RigDrawbackBonus();
+    public static final RigDrawbackBonus INSTANCE = new RigDrawbackBonus();
 
     @Override
     public int getId() {

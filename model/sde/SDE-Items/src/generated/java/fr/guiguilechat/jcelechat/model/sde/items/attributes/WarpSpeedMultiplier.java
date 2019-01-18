@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class WarpSpeedMultiplier
     extends DoubleAttribute
 {
-    public final static WarpSpeedMultiplier INSTANCE = new WarpSpeedMultiplier();
+    public static final WarpSpeedMultiplier INSTANCE = new WarpSpeedMultiplier();
 
     @Override
     public int getId() {

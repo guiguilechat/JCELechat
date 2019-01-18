@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ECMResistance
     extends DoubleAttribute
 {
-    public final static ECMResistance INSTANCE = new ECMResistance();
+    public static final ECMResistance INSTANCE = new ECMResistance();
 
     @Override
     public int getId() {

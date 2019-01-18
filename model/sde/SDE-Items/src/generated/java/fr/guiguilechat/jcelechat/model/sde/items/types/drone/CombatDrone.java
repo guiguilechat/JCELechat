@@ -250,7 +250,7 @@ public class CombatDrone
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeed;
-    public final static CombatDrone.MetaGroup METAGROUP = new CombatDrone.MetaGroup();
+    public static final CombatDrone.MetaGroup METAGROUP = new CombatDrone.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -398,7 +398,7 @@ public class CombatDrone
     public static class MetaGroup
         implements IMetaGroup<CombatDrone>
     {
-        public final static String RESOURCE_PATH = "SDE/items/drone/CombatDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/drone/CombatDrone.yaml";
         private Map<String, CombatDrone> cache = (null);
 
         @Override

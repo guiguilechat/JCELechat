@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerLaserDamageBonus
     extends IntAttribute
 {
-    public final static ControlTowerLaserDamageBonus INSTANCE = new ControlTowerLaserDamageBonus();
+    public static final ControlTowerLaserDamageBonus INSTANCE = new ControlTowerLaserDamageBonus();
 
     @Override
     public int getId() {

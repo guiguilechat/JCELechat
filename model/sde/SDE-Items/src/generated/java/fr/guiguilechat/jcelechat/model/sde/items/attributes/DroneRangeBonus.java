@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DroneRangeBonus
     extends IntAttribute
 {
-    public final static DroneRangeBonus INSTANCE = new DroneRangeBonus();
+    public static final DroneRangeBonus INSTANCE = new DroneRangeBonus();
 
     @Override
     public int getId() {

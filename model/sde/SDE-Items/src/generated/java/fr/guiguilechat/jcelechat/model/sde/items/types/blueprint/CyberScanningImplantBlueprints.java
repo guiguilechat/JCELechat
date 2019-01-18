@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class CyberScanningImplantBlueprints
     extends Blueprint
 {
-    public final static CyberScanningImplantBlueprints.MetaGroup METAGROUP = new CyberScanningImplantBlueprints.MetaGroup();
+    public static final CyberScanningImplantBlueprints.MetaGroup METAGROUP = new CyberScanningImplantBlueprints.MetaGroup();
 
     @Override
     public IMetaGroup<CyberScanningImplantBlueprints> getGroup() {
@@ -22,7 +22,7 @@ public class CyberScanningImplantBlueprints
     public static class MetaGroup
         implements IMetaGroup<CyberScanningImplantBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CyberScanningImplantBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CyberScanningImplantBlueprints.yaml";
         private Map<String, CyberScanningImplantBlueprints> cache = (null);
 
         @Override

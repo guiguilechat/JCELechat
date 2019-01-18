@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RookieSHTOptimalBonus
     extends IntAttribute
 {
-    public final static RookieSHTOptimalBonus INSTANCE = new RookieSHTOptimalBonus();
+    public static final RookieSHTOptimalBonus INSTANCE = new RookieSHTOptimalBonus();
 
     @Override
     public int getId() {

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class TechnicalDataChips
     extends Commodity
 {
-    public final static TechnicalDataChips.MetaGroup METAGROUP = new TechnicalDataChips.MetaGroup();
+    public static final TechnicalDataChips.MetaGroup METAGROUP = new TechnicalDataChips.MetaGroup();
 
     @Override
     public IMetaGroup<TechnicalDataChips> getGroup() {
@@ -22,7 +22,7 @@ public class TechnicalDataChips
     public static class MetaGroup
         implements IMetaGroup<TechnicalDataChips>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/TechnicalDataChips.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/TechnicalDataChips.yaml";
         private Map<String, TechnicalDataChips> cache = (null);
 
         @Override

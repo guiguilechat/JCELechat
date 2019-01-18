@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OptimalSigRadius
     extends IntAttribute
 {
-    public final static OptimalSigRadius INSTANCE = new OptimalSigRadius();
+    public static final OptimalSigRadius INSTANCE = new OptimalSigRadius();
 
     @Override
     public int getId() {

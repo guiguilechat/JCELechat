@@ -228,7 +228,7 @@ public class StasisWebificationBattery
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static StasisWebificationBattery.MetaGroup METAGROUP = new StasisWebificationBattery.MetaGroup();
+    public static final StasisWebificationBattery.MetaGroup METAGROUP = new StasisWebificationBattery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -364,7 +364,7 @@ public class StasisWebificationBattery
     public static class MetaGroup
         implements IMetaGroup<StasisWebificationBattery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/StasisWebificationBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/StasisWebificationBattery.yaml";
         private Map<String, StasisWebificationBattery> cache = (null);
 
         @Override

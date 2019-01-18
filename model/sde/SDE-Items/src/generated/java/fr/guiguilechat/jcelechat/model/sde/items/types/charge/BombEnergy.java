@@ -187,7 +187,7 @@ public class BombEnergy
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static BombEnergy.MetaGroup METAGROUP = new BombEnergy.MetaGroup();
+    public static final BombEnergy.MetaGroup METAGROUP = new BombEnergy.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -303,7 +303,7 @@ public class BombEnergy
     public static class MetaGroup
         implements IMetaGroup<BombEnergy>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/BombEnergy.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/BombEnergy.yaml";
         private Map<String, BombEnergy> cache = (null);
 
         @Override

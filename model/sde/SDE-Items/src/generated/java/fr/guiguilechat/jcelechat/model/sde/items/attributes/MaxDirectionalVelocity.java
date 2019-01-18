@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxDirectionalVelocity
     extends IntAttribute
 {
-    public final static MaxDirectionalVelocity INSTANCE = new MaxDirectionalVelocity();
+    public static final MaxDirectionalVelocity INSTANCE = new MaxDirectionalVelocity();
 
     @Override
     public int getId() {

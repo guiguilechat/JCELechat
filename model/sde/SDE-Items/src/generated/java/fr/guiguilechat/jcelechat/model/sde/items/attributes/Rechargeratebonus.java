@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Rechargeratebonus
     extends IntAttribute
 {
-    public final static Rechargeratebonus INSTANCE = new Rechargeratebonus();
+    public static final Rechargeratebonus INSTANCE = new Rechargeratebonus();
 
     @Override
     public int getId() {

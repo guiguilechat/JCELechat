@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialFuelBayCapacity
     extends IntAttribute
 {
-    public final static SpecialFuelBayCapacity INSTANCE = new SpecialFuelBayCapacity();
+    public static final SpecialFuelBayCapacity INSTANCE = new SpecialFuelBayCapacity();
 
     @Override
     public int getId() {

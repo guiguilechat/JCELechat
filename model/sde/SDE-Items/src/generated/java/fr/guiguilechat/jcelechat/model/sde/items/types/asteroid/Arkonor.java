@@ -37,7 +37,7 @@ public class Arkonor
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Arkonor.MetaGroup METAGROUP = new Arkonor.MetaGroup();
+    public static final Arkonor.MetaGroup METAGROUP = new Arkonor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Arkonor
     public static class MetaGroup
         implements IMetaGroup<Arkonor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Arkonor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Arkonor.yaml";
         private Map<String, Arkonor> cache = (null);
 
         @Override

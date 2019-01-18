@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ConnectionsBonus
     extends IntAttribute
 {
-    public final static ConnectionsBonus INSTANCE = new ConnectionsBonus();
+    public static final ConnectionsBonus INSTANCE = new ConnectionsBonus();
 
     @Override
     public int getId() {

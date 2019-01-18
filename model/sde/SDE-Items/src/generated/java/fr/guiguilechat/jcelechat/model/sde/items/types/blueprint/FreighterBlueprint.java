@@ -32,7 +32,7 @@ public class FreighterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static FreighterBlueprint.MetaGroup METAGROUP = new FreighterBlueprint.MetaGroup();
+    public static final FreighterBlueprint.MetaGroup METAGROUP = new FreighterBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class FreighterBlueprint
     public static class MetaGroup
         implements IMetaGroup<FreighterBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/FreighterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/FreighterBlueprint.yaml";
         private Map<String, FreighterBlueprint> cache = (null);
 
         @Override

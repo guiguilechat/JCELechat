@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Mutaplasmids
     extends Commodity
 {
-    public final static Mutaplasmids.MetaGroup METAGROUP = new Mutaplasmids.MetaGroup();
+    public static final Mutaplasmids.MetaGroup METAGROUP = new Mutaplasmids.MetaGroup();
 
     @Override
     public IMetaGroup<Mutaplasmids> getGroup() {
@@ -22,7 +22,7 @@ public class Mutaplasmids
     public static class MetaGroup
         implements IMetaGroup<Mutaplasmids>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Mutaplasmids.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Mutaplasmids.yaml";
         private Map<String, Mutaplasmids> cache = (null);
 
         @Override

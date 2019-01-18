@@ -32,7 +32,7 @@ public class ArmorRepairUnitBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ArmorRepairUnitBlueprint.MetaGroup METAGROUP = new ArmorRepairUnitBlueprint.MetaGroup();
+    public static final ArmorRepairUnitBlueprint.MetaGroup METAGROUP = new ArmorRepairUnitBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ArmorRepairUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<ArmorRepairUnitBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ArmorRepairUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ArmorRepairUnitBlueprint.yaml";
         private Map<String, ArmorRepairUnitBlueprint> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class VelocityBonus
     extends DoubleAttribute
 {
-    public final static VelocityBonus INSTANCE = new VelocityBonus();
+    public static final VelocityBonus INSTANCE = new VelocityBonus();
 
     @Override
     public int getId() {

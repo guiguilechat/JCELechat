@@ -23,7 +23,7 @@ public class FuelBlockBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static FuelBlockBlueprint.MetaGroup METAGROUP = new FuelBlockBlueprint.MetaGroup();
+    public static final FuelBlockBlueprint.MetaGroup METAGROUP = new FuelBlockBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class FuelBlockBlueprint
     public static class MetaGroup
         implements IMetaGroup<FuelBlockBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/FuelBlockBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/FuelBlockBlueprint.yaml";
         private Map<String, FuelBlockBlueprint> cache = (null);
 
         @Override

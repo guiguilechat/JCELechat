@@ -23,7 +23,7 @@ public class SpecialEditionCommodityBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static SpecialEditionCommodityBlueprints.MetaGroup METAGROUP = new SpecialEditionCommodityBlueprints.MetaGroup();
+    public static final SpecialEditionCommodityBlueprints.MetaGroup METAGROUP = new SpecialEditionCommodityBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class SpecialEditionCommodityBlueprints
     public static class MetaGroup
         implements IMetaGroup<SpecialEditionCommodityBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SpecialEditionCommodityBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SpecialEditionCommodityBlueprints.yaml";
         private Map<String, SpecialEditionCommodityBlueprints> cache = (null);
 
         @Override

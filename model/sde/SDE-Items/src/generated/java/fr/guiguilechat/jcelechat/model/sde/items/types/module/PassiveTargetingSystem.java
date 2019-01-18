@@ -75,7 +75,7 @@ public class PassiveTargetingSystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static PassiveTargetingSystem.MetaGroup METAGROUP = new PassiveTargetingSystem.MetaGroup();
+    public static final PassiveTargetingSystem.MetaGroup METAGROUP = new PassiveTargetingSystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -127,7 +127,7 @@ public class PassiveTargetingSystem
     public static class MetaGroup
         implements IMetaGroup<PassiveTargetingSystem>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/PassiveTargetingSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/PassiveTargetingSystem.yaml";
         private Map<String, PassiveTargetingSystem> cache = (null);
 
         @Override

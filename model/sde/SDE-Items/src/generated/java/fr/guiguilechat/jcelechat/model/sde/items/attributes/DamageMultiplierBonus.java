@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DamageMultiplierBonus
     extends IntAttribute
 {
-    public final static DamageMultiplierBonus INSTANCE = new DamageMultiplierBonus();
+    public static final DamageMultiplierBonus INSTANCE = new DamageMultiplierBonus();
 
     @Override
     public int getId() {

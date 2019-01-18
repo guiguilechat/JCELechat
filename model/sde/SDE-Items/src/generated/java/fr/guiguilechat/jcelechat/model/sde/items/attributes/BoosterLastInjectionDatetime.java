@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class BoosterLastInjectionDatetime
     extends DoubleAttribute
 {
-    public final static BoosterLastInjectionDatetime INSTANCE = new BoosterLastInjectionDatetime();
+    public static final BoosterLastInjectionDatetime INSTANCE = new BoosterLastInjectionDatetime();
 
     @Override
     public int getId() {

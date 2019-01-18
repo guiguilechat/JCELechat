@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CanReceiveCloneJumps
     extends IntAttribute
 {
-    public final static CanReceiveCloneJumps INSTANCE = new CanReceiveCloneJumps();
+    public static final CanReceiveCloneJumps INSTANCE = new CanReceiveCloneJumps();
 
     @Override
     public int getId() {

@@ -257,7 +257,7 @@ public class CynosuralField
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CynosuralField.MetaGroup METAGROUP = new CynosuralField.MetaGroup();
+    public static final CynosuralField.MetaGroup METAGROUP = new CynosuralField.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -413,7 +413,7 @@ public class CynosuralField
     public static class MetaGroup
         implements IMetaGroup<CynosuralField>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CynosuralField.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CynosuralField.yaml";
         private Map<String, CynosuralField> cache = (null);
 
         @Override

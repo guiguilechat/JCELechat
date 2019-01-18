@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AttributeCopyTime
     extends IntAttribute
 {
-    public final static AttributeCopyTime INSTANCE = new AttributeCopyTime();
+    public static final AttributeCopyTime INSTANCE = new AttributeCopyTime();
 
     @Override
     public int getId() {

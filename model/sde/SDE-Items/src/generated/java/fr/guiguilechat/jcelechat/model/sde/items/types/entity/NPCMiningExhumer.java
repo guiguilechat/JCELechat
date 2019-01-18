@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCMiningExhumer
     extends Entity
 {
-    public final static NPCMiningExhumer.MetaGroup METAGROUP = new NPCMiningExhumer.MetaGroup();
+    public static final NPCMiningExhumer.MetaGroup METAGROUP = new NPCMiningExhumer.MetaGroup();
 
     @Override
     public IMetaGroup<NPCMiningExhumer> getGroup() {
@@ -22,7 +22,7 @@ public class NPCMiningExhumer
     public static class MetaGroup
         implements IMetaGroup<NPCMiningExhumer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/NPCMiningExhumer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/NPCMiningExhumer.yaml";
         private Map<String, NPCMiningExhumer> cache = (null);
 
         @Override

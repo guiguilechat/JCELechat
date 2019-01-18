@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AttributeEngRigCostBonus
     extends IntAttribute
 {
-    public final static AttributeEngRigCostBonus INSTANCE = new AttributeEngRigCostBonus();
+    public static final AttributeEngRigCostBonus INSTANCE = new AttributeEngRigCostBonus();
 
     @Override
     public int getId() {

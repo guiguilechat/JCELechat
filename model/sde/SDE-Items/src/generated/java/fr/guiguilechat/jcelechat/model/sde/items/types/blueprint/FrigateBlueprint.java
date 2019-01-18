@@ -32,7 +32,7 @@ public class FrigateBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static FrigateBlueprint.MetaGroup METAGROUP = new FrigateBlueprint.MetaGroup();
+    public static final FrigateBlueprint.MetaGroup METAGROUP = new FrigateBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class FrigateBlueprint
     public static class MetaGroup
         implements IMetaGroup<FrigateBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/FrigateBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/FrigateBlueprint.yaml";
         private Map<String, FrigateBlueprint> cache = (null);
 
         @Override

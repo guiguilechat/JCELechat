@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxLockedTargets
     extends IntAttribute
 {
-    public final static MaxLockedTargets INSTANCE = new MaxLockedTargets();
+    public static final MaxLockedTargets INSTANCE = new MaxLockedTargets();
 
     @Override
     public int getId() {

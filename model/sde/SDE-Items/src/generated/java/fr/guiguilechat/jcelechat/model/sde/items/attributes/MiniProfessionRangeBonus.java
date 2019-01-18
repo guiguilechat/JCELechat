@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MiniProfessionRangeBonus
     extends IntAttribute
 {
-    public final static MiniProfessionRangeBonus INSTANCE = new MiniProfessionRangeBonus();
+    public static final MiniProfessionRangeBonus INSTANCE = new MiniProfessionRangeBonus();
 
     @Override
     public int getId() {

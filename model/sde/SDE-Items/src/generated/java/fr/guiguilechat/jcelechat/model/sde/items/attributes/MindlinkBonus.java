@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MindlinkBonus
     extends IntAttribute
 {
-    public final static MindlinkBonus INSTANCE = new MindlinkBonus();
+    public static final MindlinkBonus INSTANCE = new MindlinkBonus();
 
     @Override
     public int getId() {

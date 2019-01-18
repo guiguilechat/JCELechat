@@ -101,7 +101,7 @@ public class ElectronicSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int ScanSkillTargetPaintStrengthBonus;
-    public final static ElectronicSystems.MetaGroup METAGROUP = new ElectronicSystems.MetaGroup();
+    public static final ElectronicSystems.MetaGroup METAGROUP = new ElectronicSystems.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -169,7 +169,7 @@ public class ElectronicSystems
     public static class MetaGroup
         implements IMetaGroup<ElectronicSystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/ElectronicSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/ElectronicSystems.yaml";
         private Map<String, ElectronicSystems> cache = (null);
 
         @Override

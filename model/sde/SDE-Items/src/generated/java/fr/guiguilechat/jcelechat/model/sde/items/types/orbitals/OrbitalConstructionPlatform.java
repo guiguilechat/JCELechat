@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class OrbitalConstructionPlatform
     extends Orbitals
 {
-    public final static OrbitalConstructionPlatform.MetaGroup METAGROUP = new OrbitalConstructionPlatform.MetaGroup();
+    public static final OrbitalConstructionPlatform.MetaGroup METAGROUP = new OrbitalConstructionPlatform.MetaGroup();
 
     @Override
     public IMetaGroup<OrbitalConstructionPlatform> getGroup() {
@@ -22,7 +22,7 @@ public class OrbitalConstructionPlatform
     public static class MetaGroup
         implements IMetaGroup<OrbitalConstructionPlatform>
     {
-        public final static String RESOURCE_PATH = "SDE/items/orbitals/OrbitalConstructionPlatform.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/orbitals/OrbitalConstructionPlatform.yaml";
         private Map<String, OrbitalConstructionPlatform> cache = (null);
 
         @Override

@@ -44,7 +44,7 @@ public class BloodlineBonus
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
-    public final static BloodlineBonus.MetaGroup METAGROUP = new BloodlineBonus.MetaGroup();
+    public static final BloodlineBonus.MetaGroup METAGROUP = new BloodlineBonus.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -80,7 +80,7 @@ public class BloodlineBonus
     public static class MetaGroup
         implements IMetaGroup<BloodlineBonus>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/BloodlineBonus.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/BloodlineBonus.yaml";
         private Map<String, BloodlineBonus> cache = (null);
 
         @Override

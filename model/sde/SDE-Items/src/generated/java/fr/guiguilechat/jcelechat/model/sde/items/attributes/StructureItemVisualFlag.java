@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureItemVisualFlag
     extends IntAttribute
 {
-    public final static StructureItemVisualFlag INSTANCE = new StructureItemVisualFlag();
+    public static final StructureItemVisualFlag INSTANCE = new StructureItemVisualFlag();
 
     @Override
     public int getId() {

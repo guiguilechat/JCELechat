@@ -32,7 +32,7 @@ public class PassiveTargetingSystemBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static PassiveTargetingSystemBlueprint.MetaGroup METAGROUP = new PassiveTargetingSystemBlueprint.MetaGroup();
+    public static final PassiveTargetingSystemBlueprint.MetaGroup METAGROUP = new PassiveTargetingSystemBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class PassiveTargetingSystemBlueprint
     public static class MetaGroup
         implements IMetaGroup<PassiveTargetingSystemBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/PassiveTargetingSystemBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/PassiveTargetingSystemBlueprint.yaml";
         private Map<String, PassiveTargetingSystemBlueprint> cache = (null);
 
         @Override

@@ -220,7 +220,7 @@ public class CommandShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int WingCommandBonus;
-    public final static CommandShip.MetaGroup METAGROUP = new CommandShip.MetaGroup();
+    public static final CommandShip.MetaGroup METAGROUP = new CommandShip.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -356,7 +356,7 @@ public class CommandShip
     public static class MetaGroup
         implements IMetaGroup<CommandShip>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/CommandShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/CommandShip.yaml";
         private Map<String, CommandShip> cache = (null);
 
         @Override

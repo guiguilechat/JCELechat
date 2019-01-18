@@ -185,7 +185,7 @@ public class MiningBarge
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static MiningBarge.MetaGroup METAGROUP = new MiningBarge.MetaGroup();
+    public static final MiningBarge.MetaGroup METAGROUP = new MiningBarge.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -301,7 +301,7 @@ public class MiningBarge
     public static class MetaGroup
         implements IMetaGroup<MiningBarge>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/MiningBarge.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/MiningBarge.yaml";
         private Map<String, MiningBarge> cache = (null);
 
         @Override

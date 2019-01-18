@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Corporation
     extends Owner
 {
-    public final static Corporation.MetaGroup METAGROUP = new Corporation.MetaGroup();
+    public static final Corporation.MetaGroup METAGROUP = new Corporation.MetaGroup();
 
     @Override
     public IMetaGroup<Corporation> getGroup() {
@@ -22,7 +22,7 @@ public class Corporation
     public static class MetaGroup
         implements IMetaGroup<Corporation>
     {
-        public final static String RESOURCE_PATH = "SDE/items/owner/Corporation.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/owner/Corporation.yaml";
         private Map<String, Corporation> cache = (null);
 
         @Override

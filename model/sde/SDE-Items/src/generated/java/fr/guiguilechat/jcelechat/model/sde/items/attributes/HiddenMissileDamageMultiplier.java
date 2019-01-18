@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class HiddenMissileDamageMultiplier
     extends IntAttribute
 {
-    public final static HiddenMissileDamageMultiplier INSTANCE = new HiddenMissileDamageMultiplier();
+    public static final HiddenMissileDamageMultiplier INSTANCE = new HiddenMissileDamageMultiplier();
 
     @Override
     public int getId() {

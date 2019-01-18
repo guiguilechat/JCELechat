@@ -131,7 +131,7 @@ public class RigScanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusCoherenceBonus;
-    public final static RigScanning.MetaGroup METAGROUP = new RigScanning.MetaGroup();
+    public static final RigScanning.MetaGroup METAGROUP = new RigScanning.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -215,7 +215,7 @@ public class RigScanning
     public static class MetaGroup
         implements IMetaGroup<RigScanning>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigScanning.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigScanning.yaml";
         private Map<String, RigScanning> cache = (null);
 
         @Override

@@ -151,7 +151,7 @@ public class StructureEngineeringRigLCapitalShipEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureEngineeringRigLCapitalShipEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLCapitalShipEfficiency.MetaGroup();
+    public static final StructureEngineeringRigLCapitalShipEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLCapitalShipEfficiency.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -247,7 +247,7 @@ public class StructureEngineeringRigLCapitalShipEfficiency
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigLCapitalShipEfficiency>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLCapitalShipEfficiency.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLCapitalShipEfficiency.yaml";
         private Map<String, StructureEngineeringRigLCapitalShipEfficiency> cache = (null);
 
         @Override

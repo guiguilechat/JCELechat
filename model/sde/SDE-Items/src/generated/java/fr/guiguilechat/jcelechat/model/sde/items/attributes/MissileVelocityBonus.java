@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class MissileVelocityBonus
     extends DoubleAttribute
 {
-    public final static MissileVelocityBonus INSTANCE = new MissileVelocityBonus();
+    public static final MissileVelocityBonus INSTANCE = new MissileVelocityBonus();
 
     @Override
     public int getId() {

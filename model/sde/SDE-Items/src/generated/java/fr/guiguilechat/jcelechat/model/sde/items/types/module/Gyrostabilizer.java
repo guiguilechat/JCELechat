@@ -90,7 +90,7 @@ public class Gyrostabilizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static Gyrostabilizer.MetaGroup METAGROUP = new Gyrostabilizer.MetaGroup();
+    public static final Gyrostabilizer.MetaGroup METAGROUP = new Gyrostabilizer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class Gyrostabilizer
     public static class MetaGroup
         implements IMetaGroup<Gyrostabilizer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/Gyrostabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/Gyrostabilizer.yaml";
         private Map<String, Gyrostabilizer> cache = (null);
 
         @Override

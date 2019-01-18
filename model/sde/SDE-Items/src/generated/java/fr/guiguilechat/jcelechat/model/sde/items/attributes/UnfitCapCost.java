@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class UnfitCapCost
     extends IntAttribute
 {
-    public final static UnfitCapCost INSTANCE = new UnfitCapCost();
+    public static final UnfitCapCost INSTANCE = new UnfitCapCost();
 
     @Override
     public int getId() {

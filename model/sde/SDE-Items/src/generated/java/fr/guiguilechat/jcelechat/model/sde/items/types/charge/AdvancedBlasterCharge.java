@@ -145,7 +145,7 @@ public class AdvancedBlasterCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static AdvancedBlasterCharge.MetaGroup METAGROUP = new AdvancedBlasterCharge.MetaGroup();
+    public static final AdvancedBlasterCharge.MetaGroup METAGROUP = new AdvancedBlasterCharge.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -237,7 +237,7 @@ public class AdvancedBlasterCharge
     public static class MetaGroup
         implements IMetaGroup<AdvancedBlasterCharge>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedBlasterCharge.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedBlasterCharge.yaml";
         private Map<String, AdvancedBlasterCharge> cache = (null);
 
         @Override

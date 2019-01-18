@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IsRAMcompatible
     extends IntAttribute
 {
-    public final static IsRAMcompatible INSTANCE = new IsRAMcompatible();
+    public static final IsRAMcompatible INSTANCE = new IsRAMcompatible();
 
     @Override
     public int getId() {

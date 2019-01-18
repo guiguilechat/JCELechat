@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EcuExtractorHeadCPU
     extends IntAttribute
 {
-    public final static EcuExtractorHeadCPU INSTANCE = new EcuExtractorHeadCPU();
+    public static final EcuExtractorHeadCPU INSTANCE = new EcuExtractorHeadCPU();
 
     @Override
     public int getId() {

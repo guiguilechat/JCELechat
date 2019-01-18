@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IntelligenceBonus
     extends IntAttribute
 {
-    public final static IntelligenceBonus INSTANCE = new IntelligenceBonus();
+    public static final IntelligenceBonus INSTANCE = new IntelligenceBonus();
 
     @Override
     public int getId() {

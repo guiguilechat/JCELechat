@@ -150,7 +150,7 @@ public class CynosuralSystemJammer
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static CynosuralSystemJammer.MetaGroup METAGROUP = new CynosuralSystemJammer.MetaGroup();
+    public static final CynosuralSystemJammer.MetaGroup METAGROUP = new CynosuralSystemJammer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -246,7 +246,7 @@ public class CynosuralSystemJammer
     public static class MetaGroup
         implements IMetaGroup<CynosuralSystemJammer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralSystemJammer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/CynosuralSystemJammer.yaml";
         private Map<String, CynosuralSystemJammer> cache = (null);
 
         @Override

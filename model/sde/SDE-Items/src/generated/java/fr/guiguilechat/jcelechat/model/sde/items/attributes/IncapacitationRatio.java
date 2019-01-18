@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class IncapacitationRatio
     extends DoubleAttribute
 {
-    public final static IncapacitationRatio INSTANCE = new IncapacitationRatio();
+    public static final IncapacitationRatio INSTANCE = new IncapacitationRatio();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class InventionMEModifier
     extends DoubleAttribute
 {
-    public final static InventionMEModifier INSTANCE = new InventionMEModifier();
+    public static final InventionMEModifier INSTANCE = new InventionMEModifier();
 
     @Override
     public int getId() {

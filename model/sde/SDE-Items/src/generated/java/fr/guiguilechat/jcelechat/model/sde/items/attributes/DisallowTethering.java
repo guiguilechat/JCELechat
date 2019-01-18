@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowTethering
     extends IntAttribute
 {
-    public final static DisallowTethering INSTANCE = new DisallowTethering();
+    public static final DisallowTethering INSTANCE = new DisallowTethering();
 
     @Override
     public int getId() {

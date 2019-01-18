@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SkillBonusFighterHangarSize
     extends IntAttribute
 {
-    public final static SkillBonusFighterHangarSize INSTANCE = new SkillBonusFighterHangarSize();
+    public static final SkillBonusFighterHangarSize INSTANCE = new SkillBonusFighterHangarSize();
 
     @Override
     public int getId() {

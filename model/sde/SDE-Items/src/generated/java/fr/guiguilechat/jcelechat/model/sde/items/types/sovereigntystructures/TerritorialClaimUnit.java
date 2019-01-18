@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class TerritorialClaimUnit
     extends SovereigntyStructures
 {
-    public final static TerritorialClaimUnit.MetaGroup METAGROUP = new TerritorialClaimUnit.MetaGroup();
+    public static final TerritorialClaimUnit.MetaGroup METAGROUP = new TerritorialClaimUnit.MetaGroup();
 
     @Override
     public IMetaGroup<TerritorialClaimUnit> getGroup() {
@@ -22,7 +22,7 @@ public class TerritorialClaimUnit
     public static class MetaGroup
         implements IMetaGroup<TerritorialClaimUnit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/TerritorialClaimUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/sovereigntystructures/TerritorialClaimUnit.yaml";
         private Map<String, TerritorialClaimUnit> cache = (null);
 
         @Override

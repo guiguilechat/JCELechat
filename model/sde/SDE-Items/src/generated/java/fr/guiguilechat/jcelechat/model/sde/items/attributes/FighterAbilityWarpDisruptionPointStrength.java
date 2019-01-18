@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityWarpDisruptionPointStrength
     extends IntAttribute
 {
-    public final static FighterAbilityWarpDisruptionPointStrength INSTANCE = new FighterAbilityWarpDisruptionPointStrength();
+    public static final FighterAbilityWarpDisruptionPointStrength INSTANCE = new FighterAbilityWarpDisruptionPointStrength();
 
     @Override
     public int getId() {

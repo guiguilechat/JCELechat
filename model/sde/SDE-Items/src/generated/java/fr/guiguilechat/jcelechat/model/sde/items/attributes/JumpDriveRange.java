@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class JumpDriveRange
     extends DoubleAttribute
 {
-    public final static JumpDriveRange INSTANCE = new JumpDriveRange();
+    public static final JumpDriveRange INSTANCE = new JumpDriveRange();
 
     @Override
     public int getId() {

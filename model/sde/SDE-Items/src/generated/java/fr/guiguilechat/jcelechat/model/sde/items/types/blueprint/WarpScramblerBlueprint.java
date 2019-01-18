@@ -47,7 +47,7 @@ public class WarpScramblerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static WarpScramblerBlueprint.MetaGroup METAGROUP = new WarpScramblerBlueprint.MetaGroup();
+    public static final WarpScramblerBlueprint.MetaGroup METAGROUP = new WarpScramblerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,7 +79,7 @@ public class WarpScramblerBlueprint
     public static class MetaGroup
         implements IMetaGroup<WarpScramblerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/WarpScramblerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/WarpScramblerBlueprint.yaml";
         private Map<String, WarpScramblerBlueprint> cache = (null);
 
         @Override

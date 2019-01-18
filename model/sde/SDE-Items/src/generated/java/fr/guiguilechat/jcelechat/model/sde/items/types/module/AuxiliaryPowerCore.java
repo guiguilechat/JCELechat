@@ -83,7 +83,7 @@ public class AuxiliaryPowerCore
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static AuxiliaryPowerCore.MetaGroup METAGROUP = new AuxiliaryPowerCore.MetaGroup();
+    public static final AuxiliaryPowerCore.MetaGroup METAGROUP = new AuxiliaryPowerCore.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class AuxiliaryPowerCore
     public static class MetaGroup
         implements IMetaGroup<AuxiliaryPowerCore>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/AuxiliaryPowerCore.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/AuxiliaryPowerCore.yaml";
         private Map<String, AuxiliaryPowerCore> cache = (null);
 
         @Override

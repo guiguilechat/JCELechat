@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureHPBonusAdd
     extends IntAttribute
 {
-    public final static StructureHPBonusAdd INSTANCE = new StructureHPBonusAdd();
+    public static final StructureHPBonusAdd INSTANCE = new StructureHPBonusAdd();
 
     @Override
     public int getId() {

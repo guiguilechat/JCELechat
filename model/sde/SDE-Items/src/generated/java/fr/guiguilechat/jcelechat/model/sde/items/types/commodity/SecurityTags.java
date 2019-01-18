@@ -23,7 +23,7 @@ public class SecurityTags
     @Stackable(true)
     @DefaultIntValue(0)
     public int SecurityProcessingFee;
-    public final static SecurityTags.MetaGroup METAGROUP = new SecurityTags.MetaGroup();
+    public static final SecurityTags.MetaGroup METAGROUP = new SecurityTags.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class SecurityTags
     public static class MetaGroup
         implements IMetaGroup<SecurityTags>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/SecurityTags.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/SecurityTags.yaml";
         private Map<String, SecurityTags> cache = (null);
 
         @Override

@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShieldCharge
     extends IntAttribute
 {
-    public final static ShieldCharge INSTANCE = new ShieldCharge();
+    public static final ShieldCharge INSTANCE = new ShieldCharge();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AnchoringSecurityLevelMin
     extends DoubleAttribute
 {
-    public final static AnchoringSecurityLevelMin INSTANCE = new AnchoringSecurityLevelMin();
+    public static final AnchoringSecurityLevelMin INSTANCE = new AnchoringSecurityLevelMin();
 
     @Override
     public int getId() {

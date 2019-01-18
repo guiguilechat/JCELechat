@@ -95,7 +95,7 @@ public class CyberShields
     @Stackable(true)
     @DefaultIntValue(0)
     public int WillpowerBonus;
-    public final static CyberShields.MetaGroup METAGROUP = new CyberShields.MetaGroup();
+    public static final CyberShields.MetaGroup METAGROUP = new CyberShields.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -159,7 +159,7 @@ public class CyberShields
     public static class MetaGroup
         implements IMetaGroup<CyberShields>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberShields.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberShields.yaml";
         private Map<String, CyberShields> cache = (null);
 
         @Override

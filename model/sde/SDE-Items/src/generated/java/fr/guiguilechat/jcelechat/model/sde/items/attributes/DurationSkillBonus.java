@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DurationSkillBonus
     extends IntAttribute
 {
-    public final static DurationSkillBonus INSTANCE = new DurationSkillBonus();
+    public static final DurationSkillBonus INSTANCE = new DurationSkillBonus();
 
     @Override
     public int getId() {

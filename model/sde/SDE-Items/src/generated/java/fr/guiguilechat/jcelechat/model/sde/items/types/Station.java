@@ -71,7 +71,7 @@ public abstract class Station
     @Stackable(false)
     @DefaultIntValue(100)
     public int SignatureRadius;
-    public final static Station.MetaCat METACAT = new Station.MetaCat();
+    public static final Station.MetaCat METACAT = new Station.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

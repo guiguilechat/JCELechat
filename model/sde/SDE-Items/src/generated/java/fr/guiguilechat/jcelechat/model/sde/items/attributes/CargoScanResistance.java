@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CargoScanResistance
     extends IntAttribute
 {
-    public final static CargoScanResistance INSTANCE = new CargoScanResistance();
+    public static final CargoScanResistance INSTANCE = new CargoScanResistance();
 
     @Override
     public int getId() {

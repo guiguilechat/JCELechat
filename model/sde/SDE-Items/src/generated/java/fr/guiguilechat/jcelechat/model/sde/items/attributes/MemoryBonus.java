@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MemoryBonus
     extends IntAttribute
 {
-    public final static MemoryBonus INSTANCE = new MemoryBonus();
+    public static final MemoryBonus INSTANCE = new MemoryBonus();
 
     @Override
     public int getId() {

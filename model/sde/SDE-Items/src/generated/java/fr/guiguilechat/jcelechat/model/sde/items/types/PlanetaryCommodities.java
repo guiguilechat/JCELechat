@@ -31,7 +31,7 @@ public abstract class PlanetaryCommodities
     @Stackable(true)
     @DefaultIntValue(1)
     public int ImportTaxMultiplier;
-    public final static PlanetaryCommodities.MetaCat METACAT = new PlanetaryCommodities.MetaCat();
+    public static final PlanetaryCommodities.MetaCat METACAT = new PlanetaryCommodities.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

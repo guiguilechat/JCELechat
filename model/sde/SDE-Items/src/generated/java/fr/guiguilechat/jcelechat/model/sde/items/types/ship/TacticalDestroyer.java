@@ -220,7 +220,7 @@ public class TacticalDestroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static TacticalDestroyer.MetaGroup METAGROUP = new TacticalDestroyer.MetaGroup();
+    public static final TacticalDestroyer.MetaGroup METAGROUP = new TacticalDestroyer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -356,7 +356,7 @@ public class TacticalDestroyer
     public static class MetaGroup
         implements IMetaGroup<TacticalDestroyer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/TacticalDestroyer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/TacticalDestroyer.yaml";
         private Map<String, TacticalDestroyer> cache = (null);
 
         @Override

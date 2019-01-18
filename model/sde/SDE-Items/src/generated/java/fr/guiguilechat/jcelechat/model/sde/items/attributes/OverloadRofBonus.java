@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OverloadRofBonus
     extends IntAttribute
 {
-    public final static OverloadRofBonus INSTANCE = new OverloadRofBonus();
+    public static final OverloadRofBonus INSTANCE = new OverloadRofBonus();
 
     @Override
     public int getId() {

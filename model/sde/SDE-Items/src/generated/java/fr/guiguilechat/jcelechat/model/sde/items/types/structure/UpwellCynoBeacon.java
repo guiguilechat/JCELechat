@@ -38,7 +38,7 @@ public class UpwellCynoBeacon
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static UpwellCynoBeacon.MetaGroup METAGROUP = new UpwellCynoBeacon.MetaGroup();
+    public static final UpwellCynoBeacon.MetaGroup METAGROUP = new UpwellCynoBeacon.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -70,7 +70,7 @@ public class UpwellCynoBeacon
     public static class MetaGroup
         implements IMetaGroup<UpwellCynoBeacon>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structure/UpwellCynoBeacon.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structure/UpwellCynoBeacon.yaml";
         private Map<String, UpwellCynoBeacon> cache = (null);
 
         @Override

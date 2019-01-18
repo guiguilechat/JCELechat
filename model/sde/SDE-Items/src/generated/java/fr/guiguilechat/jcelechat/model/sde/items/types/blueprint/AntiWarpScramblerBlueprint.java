@@ -32,7 +32,7 @@ public class AntiWarpScramblerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static AntiWarpScramblerBlueprint.MetaGroup METAGROUP = new AntiWarpScramblerBlueprint.MetaGroup();
+    public static final AntiWarpScramblerBlueprint.MetaGroup METAGROUP = new AntiWarpScramblerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class AntiWarpScramblerBlueprint
     public static class MetaGroup
         implements IMetaGroup<AntiWarpScramblerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/AntiWarpScramblerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/AntiWarpScramblerBlueprint.yaml";
         private Map<String, AntiWarpScramblerBlueprint> cache = (null);
 
         @Override

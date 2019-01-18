@@ -17,7 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MetaGroupID
     extends IntAttribute
 {
-    public final static MetaGroupID INSTANCE = new MetaGroupID();
+    public static final MetaGroupID INSTANCE = new MetaGroupID();
 
     @Override
     public int getId() {

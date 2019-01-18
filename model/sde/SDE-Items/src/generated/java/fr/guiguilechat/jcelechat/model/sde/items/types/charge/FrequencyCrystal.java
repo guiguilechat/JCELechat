@@ -159,7 +159,7 @@ public class FrequencyCrystal
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static FrequencyCrystal.MetaGroup METAGROUP = new FrequencyCrystal.MetaGroup();
+    public static final FrequencyCrystal.MetaGroup METAGROUP = new FrequencyCrystal.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -255,7 +255,7 @@ public class FrequencyCrystal
     public static class MetaGroup
         implements IMetaGroup<FrequencyCrystal>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/FrequencyCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/FrequencyCrystal.yaml";
         private Map<String, FrequencyCrystal> cache = (null);
 
         @Override

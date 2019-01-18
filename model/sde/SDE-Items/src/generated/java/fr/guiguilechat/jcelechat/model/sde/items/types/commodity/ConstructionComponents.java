@@ -23,7 +23,7 @@ public class ConstructionComponents
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
-    public final static ConstructionComponents.MetaGroup METAGROUP = new ConstructionComponents.MetaGroup();
+    public static final ConstructionComponents.MetaGroup METAGROUP = new ConstructionComponents.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class ConstructionComponents
     public static class MetaGroup
         implements IMetaGroup<ConstructionComponents>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/ConstructionComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/ConstructionComponents.yaml";
         private Map<String, ConstructionComponents> cache = (null);
 
         @Override

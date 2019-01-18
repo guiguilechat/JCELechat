@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DifficultyTier
     extends IntAttribute
 {
-    public final static DifficultyTier INSTANCE = new DifficultyTier();
+    public static final DifficultyTier INSTANCE = new DifficultyTier();
 
     @Override
     public int getId() {

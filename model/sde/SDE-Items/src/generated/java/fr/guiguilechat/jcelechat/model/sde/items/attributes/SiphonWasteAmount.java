@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SiphonWasteAmount
     extends IntAttribute
 {
-    public final static SiphonWasteAmount INSTANCE = new SiphonWasteAmount();
+    public static final SiphonWasteAmount INSTANCE = new SiphonWasteAmount();
 
     @Override
     public int getId() {

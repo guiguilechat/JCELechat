@@ -30,7 +30,7 @@ public class PhysicalHandicap
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorNeedMultiplier;
-    public final static PhysicalHandicap.MetaGroup METAGROUP = new PhysicalHandicap.MetaGroup();
+    public static final PhysicalHandicap.MetaGroup METAGROUP = new PhysicalHandicap.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +58,7 @@ public class PhysicalHandicap
     public static class MetaGroup
         implements IMetaGroup<PhysicalHandicap>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/PhysicalHandicap.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/PhysicalHandicap.yaml";
         private Map<String, PhysicalHandicap> cache = (null);
 
         @Override

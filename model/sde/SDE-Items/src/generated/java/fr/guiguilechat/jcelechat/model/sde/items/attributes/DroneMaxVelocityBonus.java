@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DroneMaxVelocityBonus
     extends IntAttribute
 {
-    public final static DroneMaxVelocityBonus INSTANCE = new DroneMaxVelocityBonus();
+    public static final DroneMaxVelocityBonus INSTANCE = new DroneMaxVelocityBonus();
 
     @Override
     public int getId() {

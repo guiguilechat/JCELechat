@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PinExtractionQuantity
     extends IntAttribute
 {
-    public final static PinExtractionQuantity INSTANCE = new PinExtractionQuantity();
+    public static final PinExtractionQuantity INSTANCE = new PinExtractionQuantity();
 
     @Override
     public int getId() {

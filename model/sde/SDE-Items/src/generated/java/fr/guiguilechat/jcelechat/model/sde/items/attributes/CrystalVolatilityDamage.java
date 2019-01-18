@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CrystalVolatilityDamage
     extends DoubleAttribute
 {
-    public final static CrystalVolatilityDamage INSTANCE = new CrystalVolatilityDamage();
+    public static final CrystalVolatilityDamage INSTANCE = new CrystalVolatilityDamage();
 
     @Override
     public int getId() {

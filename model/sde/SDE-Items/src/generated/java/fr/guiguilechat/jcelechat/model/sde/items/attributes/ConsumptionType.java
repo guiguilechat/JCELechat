@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ConsumptionType
     extends IntAttribute
 {
-    public final static ConsumptionType INSTANCE = new ConsumptionType();
+    public static final ConsumptionType INSTANCE = new ConsumptionType();
 
     @Override
     public int getId() {

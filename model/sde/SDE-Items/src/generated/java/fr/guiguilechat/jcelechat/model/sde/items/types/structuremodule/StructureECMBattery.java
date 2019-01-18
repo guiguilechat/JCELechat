@@ -174,7 +174,7 @@ public class StructureECMBattery
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureECMBattery.MetaGroup METAGROUP = new StructureECMBattery.MetaGroup();
+    public static final StructureECMBattery.MetaGroup METAGROUP = new StructureECMBattery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -278,7 +278,7 @@ public class StructureECMBattery
     public static class MetaGroup
         implements IMetaGroup<StructureECMBattery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureECMBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureECMBattery.yaml";
         private Map<String, StructureECMBattery> cache = (null);
 
         @Override

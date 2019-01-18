@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class KineticDamageResistanceBonusBonus
     extends IntAttribute
 {
-    public final static KineticDamageResistanceBonusBonus INSTANCE = new KineticDamageResistanceBonusBonus();
+    public static final KineticDamageResistanceBonusBonus INSTANCE = new KineticDamageResistanceBonusBonus();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PowerLoad
     extends IntAttribute
 {
-    public final static PowerLoad INSTANCE = new PowerLoad();
+    public static final PowerLoad INSTANCE = new PowerLoad();
 
     @Override
     public int getId() {

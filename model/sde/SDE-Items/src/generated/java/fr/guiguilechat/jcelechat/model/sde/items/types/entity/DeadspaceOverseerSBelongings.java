@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class DeadspaceOverseerSBelongings
     extends Entity
 {
-    public final static DeadspaceOverseerSBelongings.MetaGroup METAGROUP = new DeadspaceOverseerSBelongings.MetaGroup();
+    public static final DeadspaceOverseerSBelongings.MetaGroup METAGROUP = new DeadspaceOverseerSBelongings.MetaGroup();
 
     @Override
     public IMetaGroup<DeadspaceOverseerSBelongings> getGroup() {
@@ -22,7 +22,7 @@ public class DeadspaceOverseerSBelongings
     public static class MetaGroup
         implements IMetaGroup<DeadspaceOverseerSBelongings>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/DeadspaceOverseerSBelongings.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/DeadspaceOverseerSBelongings.yaml";
         private Map<String, DeadspaceOverseerSBelongings> cache = (null);
 
         @Override

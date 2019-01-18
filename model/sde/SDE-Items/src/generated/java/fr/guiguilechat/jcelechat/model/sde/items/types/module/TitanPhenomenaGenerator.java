@@ -222,7 +222,7 @@ public class TitanPhenomenaGenerator
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double WarfareBuff4Value;
-    public final static TitanPhenomenaGenerator.MetaGroup METAGROUP = new TitanPhenomenaGenerator.MetaGroup();
+    public static final TitanPhenomenaGenerator.MetaGroup METAGROUP = new TitanPhenomenaGenerator.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -358,7 +358,7 @@ public class TitanPhenomenaGenerator
     public static class MetaGroup
         implements IMetaGroup<TitanPhenomenaGenerator>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/TitanPhenomenaGenerator.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/TitanPhenomenaGenerator.yaml";
         private Map<String, TitanPhenomenaGenerator> cache = (null);
 
         @Override

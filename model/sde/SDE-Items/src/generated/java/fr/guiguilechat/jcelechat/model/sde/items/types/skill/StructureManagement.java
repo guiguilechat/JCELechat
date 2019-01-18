@@ -65,7 +65,7 @@ public class StructureManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
-    public final static StructureManagement.MetaGroup METAGROUP = new StructureManagement.MetaGroup();
+    public static final StructureManagement.MetaGroup METAGROUP = new StructureManagement.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -113,7 +113,7 @@ public class StructureManagement
     public static class MetaGroup
         implements IMetaGroup<StructureManagement>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/StructureManagement.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/StructureManagement.yaml";
         private Map<String, StructureManagement> cache = (null);
 
         @Override

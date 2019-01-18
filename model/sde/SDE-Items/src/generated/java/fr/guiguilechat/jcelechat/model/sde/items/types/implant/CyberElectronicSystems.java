@@ -45,7 +45,7 @@ public class CyberElectronicSystems
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CyberElectronicSystems.MetaGroup METAGROUP = new CyberElectronicSystems.MetaGroup();
+    public static final CyberElectronicSystems.MetaGroup METAGROUP = new CyberElectronicSystems.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -81,7 +81,7 @@ public class CyberElectronicSystems
     public static class MetaGroup
         implements IMetaGroup<CyberElectronicSystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberElectronicSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberElectronicSystems.yaml";
         private Map<String, CyberElectronicSystems> cache = (null);
 
         @Override

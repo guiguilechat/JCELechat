@@ -32,7 +32,7 @@ public class TacticalDestroyerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static TacticalDestroyerBlueprint.MetaGroup METAGROUP = new TacticalDestroyerBlueprint.MetaGroup();
+    public static final TacticalDestroyerBlueprint.MetaGroup METAGROUP = new TacticalDestroyerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class TacticalDestroyerBlueprint
     public static class MetaGroup
         implements IMetaGroup<TacticalDestroyerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/TacticalDestroyerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/TacticalDestroyerBlueprint.yaml";
         private Map<String, TacticalDestroyerBlueprint> cache = (null);
 
         @Override

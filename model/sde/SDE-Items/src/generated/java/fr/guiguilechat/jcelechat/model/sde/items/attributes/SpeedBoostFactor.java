@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpeedBoostFactor
     extends IntAttribute
 {
-    public final static SpeedBoostFactor INSTANCE = new SpeedBoostFactor();
+    public static final SpeedBoostFactor INSTANCE = new SpeedBoostFactor();
 
     @Override
     public int getId() {

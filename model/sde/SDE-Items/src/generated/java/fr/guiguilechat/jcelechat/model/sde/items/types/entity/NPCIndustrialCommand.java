@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCIndustrialCommand
     extends Entity
 {
-    public final static NPCIndustrialCommand.MetaGroup METAGROUP = new NPCIndustrialCommand.MetaGroup();
+    public static final NPCIndustrialCommand.MetaGroup METAGROUP = new NPCIndustrialCommand.MetaGroup();
 
     @Override
     public IMetaGroup<NPCIndustrialCommand> getGroup() {
@@ -22,7 +22,7 @@ public class NPCIndustrialCommand
     public static class MetaGroup
         implements IMetaGroup<NPCIndustrialCommand>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/NPCIndustrialCommand.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/NPCIndustrialCommand.yaml";
         private Map<String, NPCIndustrialCommand> cache = (null);
 
         @Override

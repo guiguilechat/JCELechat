@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RequiresSovereigntyDisplayOnly
     extends IntAttribute
 {
-    public final static RequiresSovereigntyDisplayOnly INSTANCE = new RequiresSovereigntyDisplayOnly();
+    public static final RequiresSovereigntyDisplayOnly INSTANCE = new RequiresSovereigntyDisplayOnly();
 
     @Override
     public int getId() {

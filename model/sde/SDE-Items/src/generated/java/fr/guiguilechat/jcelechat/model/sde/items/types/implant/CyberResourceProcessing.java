@@ -67,7 +67,7 @@ public class CyberResourceProcessing
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CyberResourceProcessing.MetaGroup METAGROUP = new CyberResourceProcessing.MetaGroup();
+    public static final CyberResourceProcessing.MetaGroup METAGROUP = new CyberResourceProcessing.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -115,7 +115,7 @@ public class CyberResourceProcessing
     public static class MetaGroup
         implements IMetaGroup<CyberResourceProcessing>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberResourceProcessing.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberResourceProcessing.yaml";
         private Map<String, CyberResourceProcessing> cache = (null);
 
         @Override

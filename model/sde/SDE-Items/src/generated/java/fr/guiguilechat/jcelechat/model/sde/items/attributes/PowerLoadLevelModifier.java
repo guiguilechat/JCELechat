@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class PowerLoadLevelModifier
     extends DoubleAttribute
 {
-    public final static PowerLoadLevelModifier INSTANCE = new PowerLoadLevelModifier();
+    public static final PowerLoadLevelModifier INSTANCE = new PowerLoadLevelModifier();
 
     @Override
     public int getId() {

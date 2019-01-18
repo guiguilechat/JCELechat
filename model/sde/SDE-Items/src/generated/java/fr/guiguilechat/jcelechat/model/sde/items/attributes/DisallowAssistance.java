@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowAssistance
     extends IntAttribute
 {
-    public final static DisallowAssistance INSTANCE = new DisallowAssistance();
+    public static final DisallowAssistance INSTANCE = new DisallowAssistance();
 
     @Override
     public int getId() {

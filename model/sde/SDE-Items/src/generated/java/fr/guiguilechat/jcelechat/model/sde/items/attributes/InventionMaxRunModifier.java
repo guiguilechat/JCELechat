@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class InventionMaxRunModifier
     extends DoubleAttribute
 {
-    public final static InventionMaxRunModifier INSTANCE = new InventionMaxRunModifier();
+    public static final InventionMaxRunModifier INSTANCE = new InventionMaxRunModifier();
 
     @Override
     public int getId() {

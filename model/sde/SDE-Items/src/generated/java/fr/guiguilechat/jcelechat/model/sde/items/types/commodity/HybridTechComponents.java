@@ -23,7 +23,7 @@ public class HybridTechComponents
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
-    public final static HybridTechComponents.MetaGroup METAGROUP = new HybridTechComponents.MetaGroup();
+    public static final HybridTechComponents.MetaGroup METAGROUP = new HybridTechComponents.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class HybridTechComponents
     public static class MetaGroup
         implements IMetaGroup<HybridTechComponents>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/HybridTechComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/HybridTechComponents.yaml";
         private Map<String, HybridTechComponents> cache = (null);
 
         @Override

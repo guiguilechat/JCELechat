@@ -479,7 +479,7 @@ public class Carrier
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
-    public final static Carrier.MetaGroup METAGROUP = new Carrier.MetaGroup();
+    public static final Carrier.MetaGroup METAGROUP = new Carrier.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -763,7 +763,7 @@ public class Carrier
     public static class MetaGroup
         implements IMetaGroup<Carrier>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Carrier.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Carrier.yaml";
         private Map<String, Carrier> cache = (null);
 
         @Override

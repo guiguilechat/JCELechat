@@ -32,7 +32,7 @@ public class ECMBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ECMBlueprint.MetaGroup METAGROUP = new ECMBlueprint.MetaGroup();
+    public static final ECMBlueprint.MetaGroup METAGROUP = new ECMBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ECMBlueprint
     public static class MetaGroup
         implements IMetaGroup<ECMBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ECMBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ECMBlueprint.yaml";
         private Map<String, ECMBlueprint> cache = (null);
 
         @Override

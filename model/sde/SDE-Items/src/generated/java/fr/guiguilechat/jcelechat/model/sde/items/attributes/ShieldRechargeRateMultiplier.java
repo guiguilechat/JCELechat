@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ShieldRechargeRateMultiplier
     extends DoubleAttribute
 {
-    public final static ShieldRechargeRateMultiplier INSTANCE = new ShieldRechargeRateMultiplier();
+    public static final ShieldRechargeRateMultiplier INSTANCE = new ShieldRechargeRateMultiplier();
 
     @Override
     public int getId() {

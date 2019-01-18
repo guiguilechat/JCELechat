@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class HeatAbsorbtionRateModifier
     extends DoubleAttribute
 {
-    public final static HeatAbsorbtionRateModifier INSTANCE = new HeatAbsorbtionRateModifier();
+    public static final HeatAbsorbtionRateModifier INSTANCE = new HeatAbsorbtionRateModifier();
 
     @Override
     public int getId() {

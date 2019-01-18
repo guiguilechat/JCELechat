@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ContrabandFencingChance
     extends DoubleAttribute
 {
-    public final static ContrabandFencingChance INSTANCE = new ContrabandFencingChance();
+    public static final ContrabandFencingChance INSTANCE = new ContrabandFencingChance();
 
     @Override
     public int getId() {

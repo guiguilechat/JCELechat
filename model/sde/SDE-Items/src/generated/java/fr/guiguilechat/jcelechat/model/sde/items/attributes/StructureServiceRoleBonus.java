@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureServiceRoleBonus
     extends IntAttribute
 {
-    public final static StructureServiceRoleBonus INSTANCE = new StructureServiceRoleBonus();
+    public static final StructureServiceRoleBonus INSTANCE = new StructureServiceRoleBonus();
 
     @Override
     public int getId() {

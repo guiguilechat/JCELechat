@@ -23,7 +23,7 @@ public class MobileTractorUnitBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static MobileTractorUnitBlueprint.MetaGroup METAGROUP = new MobileTractorUnitBlueprint.MetaGroup();
+    public static final MobileTractorUnitBlueprint.MetaGroup METAGROUP = new MobileTractorUnitBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MobileTractorUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileTractorUnitBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileTractorUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileTractorUnitBlueprint.yaml";
         private Map<String, MobileTractorUnitBlueprint> cache = (null);
 
         @Override

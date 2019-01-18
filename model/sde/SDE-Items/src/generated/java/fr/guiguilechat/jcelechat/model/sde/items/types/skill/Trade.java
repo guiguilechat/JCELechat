@@ -51,7 +51,7 @@ public class Trade
     @Stackable(true)
     @DefaultIntValue(0)
     public int TradePremiumBonus;
-    public final static Trade.MetaGroup METAGROUP = new Trade.MetaGroup();
+    public static final Trade.MetaGroup METAGROUP = new Trade.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -91,7 +91,7 @@ public class Trade
     public static class MetaGroup
         implements IMetaGroup<Trade>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Trade.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Trade.yaml";
         private Map<String, Trade> cache = (null);
 
         @Override

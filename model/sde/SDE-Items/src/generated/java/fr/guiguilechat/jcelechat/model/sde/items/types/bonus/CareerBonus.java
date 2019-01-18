@@ -51,7 +51,7 @@ public class CareerBonus
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double WillpowerSkillTrainingTimeMultiplierBonus;
-    public final static CareerBonus.MetaGroup METAGROUP = new CareerBonus.MetaGroup();
+    public static final CareerBonus.MetaGroup METAGROUP = new CareerBonus.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -91,7 +91,7 @@ public class CareerBonus
     public static class MetaGroup
         implements IMetaGroup<CareerBonus>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/CareerBonus.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/CareerBonus.yaml";
         private Map<String, CareerBonus> cache = (null);
 
         @Override

@@ -111,8 +111,10 @@ items:
     TechLevel: 1
     id: 49792
     marketGroup: 935
+    mass: 1.0
     name: Frostline 'Omnivore' Harvester Upgrade
     published: true
+    volume: 5.0
   Ice Harvester Upgrade I:
     CpuPenaltyPercent: 10.0
     Hp: 40

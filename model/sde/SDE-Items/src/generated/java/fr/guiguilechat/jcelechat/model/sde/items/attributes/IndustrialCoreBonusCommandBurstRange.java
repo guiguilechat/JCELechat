@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IndustrialCoreBonusCommandBurstRange
     extends IntAttribute
 {
-    public final static IndustrialCoreBonusCommandBurstRange INSTANCE = new IndustrialCoreBonusCommandBurstRange();
+    public static final IndustrialCoreBonusCommandBurstRange INSTANCE = new IndustrialCoreBonusCommandBurstRange();
 
     @Override
     public int getId() {

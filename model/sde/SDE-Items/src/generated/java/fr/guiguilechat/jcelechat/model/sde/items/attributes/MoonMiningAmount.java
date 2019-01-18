@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MoonMiningAmount
     extends IntAttribute
 {
-    public final static MoonMiningAmount INSTANCE = new MoonMiningAmount();
+    public static final MoonMiningAmount INSTANCE = new MoonMiningAmount();
 
     @Override
     public int getId() {

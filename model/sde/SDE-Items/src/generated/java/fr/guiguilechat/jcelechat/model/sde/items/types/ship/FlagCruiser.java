@@ -255,7 +255,7 @@ public class FlagCruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static FlagCruiser.MetaGroup METAGROUP = new FlagCruiser.MetaGroup();
+    public static final FlagCruiser.MetaGroup METAGROUP = new FlagCruiser.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -411,7 +411,7 @@ public class FlagCruiser
     public static class MetaGroup
         implements IMetaGroup<FlagCruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/FlagCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/FlagCruiser.yaml";
         private Map<String, FlagCruiser> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RefiningYieldMoonOres
     extends DoubleAttribute
 {
-    public final static RefiningYieldMoonOres INSTANCE = new RefiningYieldMoonOres();
+    public static final RefiningYieldMoonOres INSTANCE = new RefiningYieldMoonOres();
 
     @Override
     public int getId() {

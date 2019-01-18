@@ -220,7 +220,7 @@ public class LogisticsFrigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static LogisticsFrigate.MetaGroup METAGROUP = new LogisticsFrigate.MetaGroup();
+    public static final LogisticsFrigate.MetaGroup METAGROUP = new LogisticsFrigate.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -356,7 +356,7 @@ public class LogisticsFrigate
     public static class MetaGroup
         implements IMetaGroup<LogisticsFrigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/LogisticsFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/LogisticsFrigate.yaml";
         private Map<String, LogisticsFrigate> cache = (null);
 
         @Override

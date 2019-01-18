@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PowerOutput
     extends IntAttribute
 {
-    public final static PowerOutput INSTANCE = new PowerOutput();
+    public static final PowerOutput INSTANCE = new PowerOutput();
 
     @Override
     public int getId() {

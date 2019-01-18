@@ -37,7 +37,7 @@ public class Bistot
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Bistot.MetaGroup METAGROUP = new Bistot.MetaGroup();
+    public static final Bistot.MetaGroup METAGROUP = new Bistot.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Bistot
     public static class MetaGroup
         implements IMetaGroup<Bistot>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Bistot.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Bistot.yaml";
         private Map<String, Bistot> cache = (null);
 
         @Override

@@ -81,7 +81,7 @@ public class CyberGunnery
     @Stackable(true)
     @DefaultIntValue(0)
     public int TurretSpeeBonus;
-    public final static CyberGunnery.MetaGroup METAGROUP = new CyberGunnery.MetaGroup();
+    public static final CyberGunnery.MetaGroup METAGROUP = new CyberGunnery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -137,7 +137,7 @@ public class CyberGunnery
     public static class MetaGroup
         implements IMetaGroup<CyberGunnery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberGunnery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberGunnery.yaml";
         private Map<String, CyberGunnery> cache = (null);
 
         @Override

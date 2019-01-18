@@ -37,7 +37,7 @@ public class Miscellaneous
     @Stackable(true)
     @DefaultIntValue(1)
     public int ImportTaxMultiplier;
-    public final static Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
+    public static final Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Miscellaneous
     public static class MetaGroup
         implements IMetaGroup<Miscellaneous>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
         private Map<String, Miscellaneous> cache = (null);
 
         @Override

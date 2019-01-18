@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ProximityRange
     extends IntAttribute
 {
-    public final static ProximityRange INSTANCE = new ProximityRange();
+    public static final ProximityRange INSTANCE = new ProximityRange();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ArmorPiercingChance
     extends IntAttribute
 {
-    public final static ArmorPiercingChance INSTANCE = new ArmorPiercingChance();
+    public static final ArmorPiercingChance INSTANCE = new ArmorPiercingChance();
 
     @Override
     public int getId() {

@@ -15,7 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.accessories.SkillInjector
 public abstract class Accessories
     extends Item
 {
-    public final static Accessories.MetaCat METACAT = new Accessories.MetaCat();
+    public static final Accessories.MetaCat METACAT = new Accessories.MetaCat();
 
     @Override
     public IMetaCategory<Accessories> getCategory() {

@@ -108,7 +108,7 @@ public class SpaceshipCommand
     @Stackable(true)
     @DefaultIntValue(0)
     public int SubSystemSlot;
-    public final static SpaceshipCommand.MetaGroup METAGROUP = new SpaceshipCommand.MetaGroup();
+    public static final SpaceshipCommand.MetaGroup METAGROUP = new SpaceshipCommand.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -180,7 +180,7 @@ public class SpaceshipCommand
     public static class MetaGroup
         implements IMetaGroup<SpaceshipCommand>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/SpaceshipCommand.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/SpaceshipCommand.yaml";
         private Map<String, SpaceshipCommand> cache = (null);
 
         @Override

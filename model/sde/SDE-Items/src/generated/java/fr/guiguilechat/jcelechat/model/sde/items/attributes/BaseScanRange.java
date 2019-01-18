@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class BaseScanRange
     extends DoubleAttribute
 {
-    public final static BaseScanRange INSTANCE = new BaseScanRange();
+    public static final BaseScanRange INSTANCE = new BaseScanRange();
 
     @Override
     public int getId() {

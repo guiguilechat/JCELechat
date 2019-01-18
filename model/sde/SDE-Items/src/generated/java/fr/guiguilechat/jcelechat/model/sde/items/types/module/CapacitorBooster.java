@@ -132,7 +132,7 @@ public class CapacitorBooster
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CapacitorBooster.MetaGroup METAGROUP = new CapacitorBooster.MetaGroup();
+    public static final CapacitorBooster.MetaGroup METAGROUP = new CapacitorBooster.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -212,7 +212,7 @@ public class CapacitorBooster
     public static class MetaGroup
         implements IMetaGroup<CapacitorBooster>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CapacitorBooster.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CapacitorBooster.yaml";
         private Map<String, CapacitorBooster> cache = (null);
 
         @Override

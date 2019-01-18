@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class WeaponRangeMultiplier
     extends DoubleAttribute
 {
-    public final static WeaponRangeMultiplier INSTANCE = new WeaponRangeMultiplier();
+    public static final WeaponRangeMultiplier INSTANCE = new WeaponRangeMultiplier();
 
     @Override
     public int getId() {

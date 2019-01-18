@@ -51,7 +51,7 @@ public class GallenteEducation
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
-    public final static GallenteEducation.MetaGroup METAGROUP = new GallenteEducation.MetaGroup();
+    public static final GallenteEducation.MetaGroup METAGROUP = new GallenteEducation.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -91,7 +91,7 @@ public class GallenteEducation
     public static class MetaGroup
         implements IMetaGroup<GallenteEducation>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/GallenteEducation.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/GallenteEducation.yaml";
         private Map<String, GallenteEducation> cache = (null);
 
         @Override

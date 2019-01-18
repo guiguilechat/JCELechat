@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ECMRangeOptimal
     extends IntAttribute
 {
-    public final static ECMRangeOptimal INSTANCE = new ECMRangeOptimal();
+    public static final ECMRangeOptimal INSTANCE = new ECMRangeOptimal();
 
     @Override
     public int getId() {

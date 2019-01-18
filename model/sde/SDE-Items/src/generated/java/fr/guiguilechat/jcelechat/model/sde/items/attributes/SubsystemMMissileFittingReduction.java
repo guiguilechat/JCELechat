@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemMMissileFittingReduction
     extends IntAttribute
 {
-    public final static SubsystemMMissileFittingReduction INSTANCE = new SubsystemMMissileFittingReduction();
+    public static final SubsystemMMissileFittingReduction INSTANCE = new SubsystemMMissileFittingReduction();
 
     @Override
     public int getId() {

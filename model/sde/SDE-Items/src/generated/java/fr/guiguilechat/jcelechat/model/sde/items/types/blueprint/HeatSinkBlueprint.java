@@ -32,7 +32,7 @@ public class HeatSinkBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static HeatSinkBlueprint.MetaGroup METAGROUP = new HeatSinkBlueprint.MetaGroup();
+    public static final HeatSinkBlueprint.MetaGroup METAGROUP = new HeatSinkBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class HeatSinkBlueprint
     public static class MetaGroup
         implements IMetaGroup<HeatSinkBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/HeatSinkBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/HeatSinkBlueprint.yaml";
         private Map<String, HeatSinkBlueprint> cache = (null);
 
         @Override

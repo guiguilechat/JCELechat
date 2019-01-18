@@ -23,7 +23,7 @@ public class BombBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static BombBlueprint.MetaGroup METAGROUP = new BombBlueprint.MetaGroup();
+    public static final BombBlueprint.MetaGroup METAGROUP = new BombBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class BombBlueprint
     public static class MetaGroup
         implements IMetaGroup<BombBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/BombBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/BombBlueprint.yaml";
         private Map<String, BombBlueprint> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowActivateOnWarp
     extends IntAttribute
 {
-    public final static DisallowActivateOnWarp INSTANCE = new DisallowActivateOnWarp();
+    public static final DisallowActivateOnWarp INSTANCE = new DisallowActivateOnWarp();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusTractorBeamVelocity
     extends IntAttribute
 {
-    public final static RoleBonusTractorBeamVelocity INSTANCE = new RoleBonusTractorBeamVelocity();
+    public static final RoleBonusTractorBeamVelocity INSTANCE = new RoleBonusTractorBeamVelocity();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PreFitServiceSlot0
     extends IntAttribute
 {
-    public final static PreFitServiceSlot0 INSTANCE = new PreFitServiceSlot0();
+    public static final PreFitServiceSlot0 INSTANCE = new PreFitServiceSlot0();
 
     @Override
     public int getId() {

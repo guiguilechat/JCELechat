@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarpScrambleRangeBonus
     extends IntAttribute
 {
-    public final static WarpScrambleRangeBonus INSTANCE = new WarpScrambleRangeBonus();
+    public static final WarpScrambleRangeBonus INSTANCE = new WarpScrambleRangeBonus();
 
     @Override
     public int getId() {

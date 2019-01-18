@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ReloadTime
     extends DoubleAttribute
 {
-    public final static ReloadTime INSTANCE = new ReloadTime();
+    public static final ReloadTime INSTANCE = new ReloadTime();
 
     @Override
     public int getId() {

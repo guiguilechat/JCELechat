@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class HiSecModifier
     extends DoubleAttribute
 {
-    public final static HiSecModifier INSTANCE = new HiSecModifier();
+    public static final HiSecModifier INSTANCE = new HiSecModifier();
 
     @Override
     public int getId() {

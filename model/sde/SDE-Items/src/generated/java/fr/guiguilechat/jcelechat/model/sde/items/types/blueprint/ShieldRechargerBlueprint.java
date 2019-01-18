@@ -32,7 +32,7 @@ public class ShieldRechargerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldRechargerBlueprint.MetaGroup METAGROUP = new ShieldRechargerBlueprint.MetaGroup();
+    public static final ShieldRechargerBlueprint.MetaGroup METAGROUP = new ShieldRechargerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ShieldRechargerBlueprint
     public static class MetaGroup
         implements IMetaGroup<ShieldRechargerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldRechargerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ShieldRechargerBlueprint.yaml";
         private Map<String, ShieldRechargerBlueprint> cache = (null);
 
         @Override

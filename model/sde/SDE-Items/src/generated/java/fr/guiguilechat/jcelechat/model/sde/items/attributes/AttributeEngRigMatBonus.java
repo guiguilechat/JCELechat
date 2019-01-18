@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AttributeEngRigMatBonus
     extends DoubleAttribute
 {
-    public final static AttributeEngRigMatBonus INSTANCE = new AttributeEngRigMatBonus();
+    public static final AttributeEngRigMatBonus INSTANCE = new AttributeEngRigMatBonus();
 
     @Override
     public int getId() {

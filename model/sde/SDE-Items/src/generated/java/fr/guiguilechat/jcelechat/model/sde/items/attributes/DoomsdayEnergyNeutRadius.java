@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DoomsdayEnergyNeutRadius
     extends IntAttribute
 {
-    public final static DoomsdayEnergyNeutRadius INSTANCE = new DoomsdayEnergyNeutRadius();
+    public static final DoomsdayEnergyNeutRadius INSTANCE = new DoomsdayEnergyNeutRadius();
 
     @Override
     public int getId() {

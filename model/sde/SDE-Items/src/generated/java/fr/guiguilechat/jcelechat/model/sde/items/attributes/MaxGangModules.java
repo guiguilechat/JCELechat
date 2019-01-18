@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxGangModules
     extends IntAttribute
 {
-    public final static MaxGangModules INSTANCE = new MaxGangModules();
+    public static final MaxGangModules INSTANCE = new MaxGangModules();
 
     @Override
     public int getId() {

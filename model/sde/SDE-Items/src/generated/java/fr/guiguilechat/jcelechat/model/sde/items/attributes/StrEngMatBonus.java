@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StrEngMatBonus
     extends DoubleAttribute
 {
-    public final static StrEngMatBonus INSTANCE = new StrEngMatBonus();
+    public static final StrEngMatBonus INSTANCE = new StrEngMatBonus();
 
     @Override
     public int getId() {

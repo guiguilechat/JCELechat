@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityMicroWarpDriveDuration
     extends IntAttribute
 {
-    public final static FighterAbilityMicroWarpDriveDuration INSTANCE = new FighterAbilityMicroWarpDriveDuration();
+    public static final FighterAbilityMicroWarpDriveDuration INSTANCE = new FighterAbilityMicroWarpDriveDuration();
 
     @Override
     public int getId() {

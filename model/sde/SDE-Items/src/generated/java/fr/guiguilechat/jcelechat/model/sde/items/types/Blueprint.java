@@ -183,7 +183,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.blueprint.WeaponDisruptor
 public abstract class Blueprint
     extends Item
 {
-    public final static Blueprint.MetaCat METACAT = new Blueprint.MetaCat();
+    public static final Blueprint.MetaCat METACAT = new Blueprint.MetaCat();
 
     @Override
     public IMetaCategory<Blueprint> getCategory() {

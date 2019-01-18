@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntityChaseMaxDistance
     extends IntAttribute
 {
-    public final static EntityChaseMaxDistance INSTANCE = new EntityChaseMaxDistance();
+    public static final EntityChaseMaxDistance INSTANCE = new EntityChaseMaxDistance();
 
     @Override
     public int getId() {

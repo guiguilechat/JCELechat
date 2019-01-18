@@ -32,7 +32,7 @@ public class MiningCrystalBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static MiningCrystalBlueprint.MetaGroup METAGROUP = new MiningCrystalBlueprint.MetaGroup();
+    public static final MiningCrystalBlueprint.MetaGroup METAGROUP = new MiningCrystalBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class MiningCrystalBlueprint
     public static class MetaGroup
         implements IMetaGroup<MiningCrystalBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MiningCrystalBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MiningCrystalBlueprint.yaml";
         private Map<String, MiningCrystalBlueprint> cache = (null);
 
         @Override

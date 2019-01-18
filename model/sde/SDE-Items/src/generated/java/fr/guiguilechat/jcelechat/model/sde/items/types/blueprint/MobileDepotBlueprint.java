@@ -23,7 +23,7 @@ public class MobileDepotBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static MobileDepotBlueprint.MetaGroup METAGROUP = new MobileDepotBlueprint.MetaGroup();
+    public static final MobileDepotBlueprint.MetaGroup METAGROUP = new MobileDepotBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MobileDepotBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileDepotBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileDepotBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileDepotBlueprint.yaml";
         private Map<String, MobileDepotBlueprint> cache = (null);
 
         @Override

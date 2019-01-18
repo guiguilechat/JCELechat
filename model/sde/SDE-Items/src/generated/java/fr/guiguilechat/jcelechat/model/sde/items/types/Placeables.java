@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.Item;
 public abstract class Placeables
     extends Item
 {
-    public final static Placeables.MetaCat METACAT = new Placeables.MetaCat();
+    public static final Placeables.MetaCat METACAT = new Placeables.MetaCat();
 
     @Override
     public IMetaCategory<Placeables> getCategory() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class LightningWeaponTargetAmount
     extends IntAttribute
 {
-    public final static LightningWeaponTargetAmount INSTANCE = new LightningWeaponTargetAmount();
+    public static final LightningWeaponTargetAmount INSTANCE = new LightningWeaponTargetAmount();
 
     @Override
     public int getId() {

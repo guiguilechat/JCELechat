@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxLaborotorySlots
     extends IntAttribute
 {
-    public final static MaxLaborotorySlots INSTANCE = new MaxLaborotorySlots();
+    public static final MaxLaborotorySlots INSTANCE = new MaxLaborotorySlots();
 
     @Override
     public int getId() {

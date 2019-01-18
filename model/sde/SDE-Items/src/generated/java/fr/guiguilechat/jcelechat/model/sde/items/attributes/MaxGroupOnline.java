@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxGroupOnline
     extends IntAttribute
 {
-    public final static MaxGroupOnline INSTANCE = new MaxGroupOnline();
+    public static final MaxGroupOnline INSTANCE = new MaxGroupOnline();
 
     @Override
     public int getId() {

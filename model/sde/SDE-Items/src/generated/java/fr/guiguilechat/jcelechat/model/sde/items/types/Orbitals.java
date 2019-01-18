@@ -176,7 +176,7 @@ public abstract class Orbitals
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static Orbitals.MetaCat METACAT = new Orbitals.MetaCat();
+    public static final Orbitals.MetaCat METACAT = new Orbitals.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

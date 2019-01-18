@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class NegotiationPercentage
     extends IntAttribute
 {
-    public final static NegotiationPercentage INSTANCE = new NegotiationPercentage();
+    public static final NegotiationPercentage INSTANCE = new NegotiationPercentage();
 
     @Override
     public int getId() {

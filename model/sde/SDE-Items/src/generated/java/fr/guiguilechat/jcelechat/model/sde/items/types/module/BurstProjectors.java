@@ -358,7 +358,7 @@ public class BurstProjectors
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static BurstProjectors.MetaGroup METAGROUP = new BurstProjectors.MetaGroup();
+    public static final BurstProjectors.MetaGroup METAGROUP = new BurstProjectors.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -570,7 +570,7 @@ public class BurstProjectors
     public static class MetaGroup
         implements IMetaGroup<BurstProjectors>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/BurstProjectors.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/BurstProjectors.yaml";
         private Map<String, BurstProjectors> cache = (null);
 
         @Override

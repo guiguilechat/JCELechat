@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WeatherID
     extends IntAttribute
 {
-    public final static WeatherID INSTANCE = new WeatherID();
+    public static final WeatherID INSTANCE = new WeatherID();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityMicroWarpDriveSpeedBonus
     extends IntAttribute
 {
-    public final static FighterAbilityMicroWarpDriveSpeedBonus INSTANCE = new FighterAbilityMicroWarpDriveSpeedBonus();
+    public static final FighterAbilityMicroWarpDriveSpeedBonus INSTANCE = new FighterAbilityMicroWarpDriveSpeedBonus();
 
     @Override
     public int getId() {

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class CommandBurstBlueprint
     extends Blueprint
 {
-    public final static CommandBurstBlueprint.MetaGroup METAGROUP = new CommandBurstBlueprint.MetaGroup();
+    public static final CommandBurstBlueprint.MetaGroup METAGROUP = new CommandBurstBlueprint.MetaGroup();
 
     @Override
     public IMetaGroup<CommandBurstBlueprint> getGroup() {
@@ -22,7 +22,7 @@ public class CommandBurstBlueprint
     public static class MetaGroup
         implements IMetaGroup<CommandBurstBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CommandBurstBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CommandBurstBlueprint.yaml";
         private Map<String, CommandBurstBlueprint> cache = (null);
 
         @Override

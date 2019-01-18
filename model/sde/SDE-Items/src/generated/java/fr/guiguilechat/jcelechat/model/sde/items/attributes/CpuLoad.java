@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CpuLoad
     extends IntAttribute
 {
-    public final static CpuLoad INSTANCE = new CpuLoad();
+    public static final CpuLoad INSTANCE = new CpuLoad();
 
     @Override
     public int getId() {

@@ -87,7 +87,7 @@ public class MobileReactor
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static MobileReactor.MetaGroup METAGROUP = new MobileReactor.MetaGroup();
+    public static final MobileReactor.MetaGroup METAGROUP = new MobileReactor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -147,7 +147,7 @@ public class MobileReactor
     public static class MetaGroup
         implements IMetaGroup<MobileReactor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/MobileReactor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/MobileReactor.yaml";
         private Map<String, MobileReactor> cache = (null);
 
         @Override

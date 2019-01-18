@@ -32,7 +32,7 @@ public class AdvancedHybridChargeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static AdvancedHybridChargeBlueprint.MetaGroup METAGROUP = new AdvancedHybridChargeBlueprint.MetaGroup();
+    public static final AdvancedHybridChargeBlueprint.MetaGroup METAGROUP = new AdvancedHybridChargeBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class AdvancedHybridChargeBlueprint
     public static class MetaGroup
         implements IMetaGroup<AdvancedHybridChargeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/AdvancedHybridChargeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/AdvancedHybridChargeBlueprint.yaml";
         private Map<String, AdvancedHybridChargeBlueprint> cache = (null);
 
         @Override

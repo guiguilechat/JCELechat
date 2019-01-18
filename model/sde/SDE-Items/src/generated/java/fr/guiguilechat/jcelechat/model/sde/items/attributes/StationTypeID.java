@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StationTypeID
     extends IntAttribute
 {
-    public final static StationTypeID INSTANCE = new StationTypeID();
+    public static final StationTypeID INSTANCE = new StationTypeID();
 
     @Override
     public int getId() {

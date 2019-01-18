@@ -23,7 +23,7 @@ public class SalvageDroneBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static SalvageDroneBlueprint.MetaGroup METAGROUP = new SalvageDroneBlueprint.MetaGroup();
+    public static final SalvageDroneBlueprint.MetaGroup METAGROUP = new SalvageDroneBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class SalvageDroneBlueprint
     public static class MetaGroup
         implements IMetaGroup<SalvageDroneBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SalvageDroneBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SalvageDroneBlueprint.yaml";
         private Map<String, SalvageDroneBlueprint> cache = (null);
 
         @Override

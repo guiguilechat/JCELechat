@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowRepeatingActivation
     extends IntAttribute
 {
-    public final static DisallowRepeatingActivation INSTANCE = new DisallowRepeatingActivation();
+    public static final DisallowRepeatingActivation INSTANCE = new DisallowRepeatingActivation();
 
     @Override
     public int getId() {

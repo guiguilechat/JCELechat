@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PosStructureControlDistanceMax
     extends IntAttribute
 {
-    public final static PosStructureControlDistanceMax INSTANCE = new PosStructureControlDistanceMax();
+    public static final PosStructureControlDistanceMax INSTANCE = new PosStructureControlDistanceMax();
 
     @Override
     public int getId() {

@@ -11,6 +11,8 @@ public enum get_corporations_corporation_id_structures_state {
     armor_reinforce("armor_reinforce"),
     @JsonProperty("armor_vulnerable")
     armor_vulnerable("armor_vulnerable"),
+    @JsonProperty("deploy_vulnerable")
+    deploy_vulnerable("deploy_vulnerable"),
     @JsonProperty("fitting_invulnerable")
     fitting_invulnerable("fitting_invulnerable"),
     @JsonProperty("hull_reinforce")

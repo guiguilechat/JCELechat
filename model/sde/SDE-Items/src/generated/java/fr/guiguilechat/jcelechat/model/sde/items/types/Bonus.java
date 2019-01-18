@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.bonus.PhysicalHandicap;
 public abstract class Bonus
     extends Item
 {
-    public final static Bonus.MetaCat METACAT = new Bonus.MetaCat();
+    public static final Bonus.MetaCat METACAT = new Bonus.MetaCat();
 
     @Override
     public IMetaCategory<Bonus> getCategory() {

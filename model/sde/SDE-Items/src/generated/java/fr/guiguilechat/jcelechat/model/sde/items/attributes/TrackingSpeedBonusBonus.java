@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TrackingSpeedBonusBonus
     extends IntAttribute
 {
-    public final static TrackingSpeedBonusBonus INSTANCE = new TrackingSpeedBonusBonus();
+    public static final TrackingSpeedBonusBonus INSTANCE = new TrackingSpeedBonusBonus();
 
     @Override
     public int getId() {

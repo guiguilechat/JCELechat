@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CpuPenaltyPercent
     extends DoubleAttribute
 {
-    public final static CpuPenaltyPercent INSTANCE = new CpuPenaltyPercent();
+    public static final CpuPenaltyPercent INSTANCE = new CpuPenaltyPercent();
 
     @Override
     public int getId() {

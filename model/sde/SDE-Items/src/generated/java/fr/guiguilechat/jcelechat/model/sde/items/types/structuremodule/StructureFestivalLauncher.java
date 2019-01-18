@@ -94,7 +94,7 @@ public class StructureFestivalLauncher
     @Stackable(false)
     @DefaultIntValue(0)
     public int Speed;
-    public final static StructureFestivalLauncher.MetaGroup METAGROUP = new StructureFestivalLauncher.MetaGroup();
+    public static final StructureFestivalLauncher.MetaGroup METAGROUP = new StructureFestivalLauncher.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -158,7 +158,7 @@ public class StructureFestivalLauncher
     public static class MetaGroup
         implements IMetaGroup<StructureFestivalLauncher>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureFestivalLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureFestivalLauncher.yaml";
         private Map<String, StructureFestivalLauncher> cache = (null);
 
         @Override

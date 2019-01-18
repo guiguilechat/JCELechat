@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FighterAbilityECMStrengthRadar
     extends DoubleAttribute
 {
-    public final static FighterAbilityECMStrengthRadar INSTANCE = new FighterAbilityECMStrengthRadar();
+    public static final FighterAbilityECMStrengthRadar INSTANCE = new FighterAbilityECMStrengthRadar();
 
     @Override
     public int getId() {

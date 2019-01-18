@@ -279,7 +279,7 @@ public class HybridWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static HybridWeapon.MetaGroup METAGROUP = new HybridWeapon.MetaGroup();
+    public static final HybridWeapon.MetaGroup METAGROUP = new HybridWeapon.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -443,7 +443,7 @@ public class HybridWeapon
     public static class MetaGroup
         implements IMetaGroup<HybridWeapon>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/HybridWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/HybridWeapon.yaml";
         private Map<String, HybridWeapon> cache = (null);
 
         @Override

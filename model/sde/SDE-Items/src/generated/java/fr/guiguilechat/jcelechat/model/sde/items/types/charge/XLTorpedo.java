@@ -202,7 +202,7 @@ public class XLTorpedo
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static XLTorpedo.MetaGroup METAGROUP = new XLTorpedo.MetaGroup();
+    public static final XLTorpedo.MetaGroup METAGROUP = new XLTorpedo.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -322,7 +322,7 @@ public class XLTorpedo
     public static class MetaGroup
         implements IMetaGroup<XLTorpedo>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/XLTorpedo.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/XLTorpedo.yaml";
         private Map<String, XLTorpedo> cache = (null);
 
         @Override

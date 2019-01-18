@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OverloadDamageModifier
     extends IntAttribute
 {
-    public final static OverloadDamageModifier INSTANCE = new OverloadDamageModifier();
+    public static final OverloadDamageModifier INSTANCE = new OverloadDamageModifier();
 
     @Override
     public int getId() {

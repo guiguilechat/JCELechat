@@ -199,7 +199,7 @@ public class Exhumer
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static Exhumer.MetaGroup METAGROUP = new Exhumer.MetaGroup();
+    public static final Exhumer.MetaGroup METAGROUP = new Exhumer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -323,7 +323,7 @@ public class Exhumer
     public static class MetaGroup
         implements IMetaGroup<Exhumer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Exhumer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Exhumer.yaml";
         private Map<String, Exhumer> cache = (null);
 
         @Override

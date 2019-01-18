@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class AccelerationGateKeys
     extends Commodity
 {
-    public final static AccelerationGateKeys.MetaGroup METAGROUP = new AccelerationGateKeys.MetaGroup();
+    public static final AccelerationGateKeys.MetaGroup METAGROUP = new AccelerationGateKeys.MetaGroup();
 
     @Override
     public IMetaGroup<AccelerationGateKeys> getGroup() {
@@ -22,7 +22,7 @@ public class AccelerationGateKeys
     public static class MetaGroup
         implements IMetaGroup<AccelerationGateKeys>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/AccelerationGateKeys.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/AccelerationGateKeys.yaml";
         private Map<String, AccelerationGateKeys> cache = (null);
 
         @Override

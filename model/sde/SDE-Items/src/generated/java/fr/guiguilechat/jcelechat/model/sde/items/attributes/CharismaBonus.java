@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CharismaBonus
     extends IntAttribute
 {
-    public final static CharismaBonus INSTANCE = new CharismaBonus();
+    public static final CharismaBonus INSTANCE = new CharismaBonus();
 
     @Override
     public int getId() {

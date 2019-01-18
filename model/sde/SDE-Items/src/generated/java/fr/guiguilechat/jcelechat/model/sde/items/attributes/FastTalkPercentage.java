@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FastTalkPercentage
     extends IntAttribute
 {
-    public final static FastTalkPercentage INSTANCE = new FastTalkPercentage();
+    public static final FastTalkPercentage INSTANCE = new FastTalkPercentage();
 
     @Override
     public int getId() {

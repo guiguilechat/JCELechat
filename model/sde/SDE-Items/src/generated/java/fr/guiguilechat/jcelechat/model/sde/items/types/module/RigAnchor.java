@@ -89,7 +89,7 @@ public class RigAnchor
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpBubbleImmuneModifier;
-    public final static RigAnchor.MetaGroup METAGROUP = new RigAnchor.MetaGroup();
+    public static final RigAnchor.MetaGroup METAGROUP = new RigAnchor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -149,7 +149,7 @@ public class RigAnchor
     public static class MetaGroup
         implements IMetaGroup<RigAnchor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigAnchor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigAnchor.yaml";
         private Map<String, RigAnchor> cache = (null);
 
         @Override

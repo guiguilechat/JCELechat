@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowAgainstEwImmuneTarget
     extends IntAttribute
 {
-    public final static DisallowAgainstEwImmuneTarget INSTANCE = new DisallowAgainstEwImmuneTarget();
+    public static final DisallowAgainstEwImmuneTarget INSTANCE = new DisallowAgainstEwImmuneTarget();
 
     @Override
     public int getId() {

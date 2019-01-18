@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TechLevel
     extends IntAttribute
 {
-    public final static TechLevel INSTANCE = new TechLevel();
+    public static final TechLevel INSTANCE = new TechLevel();
 
     @Override
     public int getId() {

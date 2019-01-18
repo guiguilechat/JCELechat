@@ -30,7 +30,7 @@ public class AbyssalFilaments
     @Stackable(true)
     @DefaultIntValue(0)
     public int WeatherID;
-    public final static AbyssalFilaments.MetaGroup METAGROUP = new AbyssalFilaments.MetaGroup();
+    public static final AbyssalFilaments.MetaGroup METAGROUP = new AbyssalFilaments.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +58,7 @@ public class AbyssalFilaments
     public static class MetaGroup
         implements IMetaGroup<AbyssalFilaments>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/AbyssalFilaments.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/AbyssalFilaments.yaml";
         private Map<String, AbyssalFilaments> cache = (null);
 
         @Override

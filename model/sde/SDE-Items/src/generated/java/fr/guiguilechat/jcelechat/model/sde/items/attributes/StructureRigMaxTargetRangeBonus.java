@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureRigMaxTargetRangeBonus
     extends IntAttribute
 {
-    public final static StructureRigMaxTargetRangeBonus INSTANCE = new StructureRigMaxTargetRangeBonus();
+    public static final StructureRigMaxTargetRangeBonus INSTANCE = new StructureRigMaxTargetRangeBonus();
 
     @Override
     public int getId() {

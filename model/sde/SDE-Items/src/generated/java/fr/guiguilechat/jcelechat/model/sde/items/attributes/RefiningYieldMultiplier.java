@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RefiningYieldMultiplier
     extends DoubleAttribute
 {
-    public final static RefiningYieldMultiplier INSTANCE = new RefiningYieldMultiplier();
+    public static final RefiningYieldMultiplier INSTANCE = new RefiningYieldMultiplier();
 
     @Override
     public int getId() {

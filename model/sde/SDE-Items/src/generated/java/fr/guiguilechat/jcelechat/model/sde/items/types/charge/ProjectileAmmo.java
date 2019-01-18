@@ -124,7 +124,7 @@ public class ProjectileAmmo
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static ProjectileAmmo.MetaGroup METAGROUP = new ProjectileAmmo.MetaGroup();
+    public static final ProjectileAmmo.MetaGroup METAGROUP = new ProjectileAmmo.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -200,7 +200,7 @@ public class ProjectileAmmo
     public static class MetaGroup
         implements IMetaGroup<ProjectileAmmo>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/ProjectileAmmo.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/ProjectileAmmo.yaml";
         private Map<String, ProjectileAmmo> cache = (null);
 
         @Override

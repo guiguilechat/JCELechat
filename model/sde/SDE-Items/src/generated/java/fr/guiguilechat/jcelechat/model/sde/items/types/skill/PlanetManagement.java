@@ -37,7 +37,7 @@ public class PlanetManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
-    public final static PlanetManagement.MetaGroup METAGROUP = new PlanetManagement.MetaGroup();
+    public static final PlanetManagement.MetaGroup METAGROUP = new PlanetManagement.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class PlanetManagement
     public static class MetaGroup
         implements IMetaGroup<PlanetManagement>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/PlanetManagement.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/PlanetManagement.yaml";
         private Map<String, PlanetManagement> cache = (null);
 
         @Override

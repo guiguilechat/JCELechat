@@ -143,7 +143,7 @@ public class StructureGuidedBomb
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static StructureGuidedBomb.MetaGroup METAGROUP = new StructureGuidedBomb.MetaGroup();
+    public static final StructureGuidedBomb.MetaGroup METAGROUP = new StructureGuidedBomb.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -235,7 +235,7 @@ public class StructureGuidedBomb
     public static class MetaGroup
         implements IMetaGroup<StructureGuidedBomb>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/StructureGuidedBomb.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/StructureGuidedBomb.yaml";
         private Map<String, StructureGuidedBomb> cache = (null);
 
         @Override

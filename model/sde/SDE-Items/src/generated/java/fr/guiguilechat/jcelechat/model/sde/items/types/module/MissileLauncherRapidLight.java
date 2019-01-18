@@ -174,7 +174,7 @@ public class MissileLauncherRapidLight
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static MissileLauncherRapidLight.MetaGroup METAGROUP = new MissileLauncherRapidLight.MetaGroup();
+    public static final MissileLauncherRapidLight.MetaGroup METAGROUP = new MissileLauncherRapidLight.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -278,7 +278,7 @@ public class MissileLauncherRapidLight
     public static class MetaGroup
         implements IMetaGroup<MissileLauncherRapidLight>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherRapidLight.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/MissileLauncherRapidLight.yaml";
         private Map<String, MissileLauncherRapidLight> cache = (null);
 
         @Override

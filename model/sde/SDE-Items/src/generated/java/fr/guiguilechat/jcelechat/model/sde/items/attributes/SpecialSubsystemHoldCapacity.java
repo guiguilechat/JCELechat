@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialSubsystemHoldCapacity
     extends IntAttribute
 {
-    public final static SpecialSubsystemHoldCapacity INSTANCE = new SpecialSubsystemHoldCapacity();
+    public static final SpecialSubsystemHoldCapacity INSTANCE = new SpecialSubsystemHoldCapacity();
 
     @Override
     public int getId() {

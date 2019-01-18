@@ -198,10 +198,6 @@ public interface G_ICOAccess
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES = new String[] {"Accountant", "Trader"};
     /**
-     * the roles required for {@link #get_corporations_structures this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES = new String[] {"Station_Manager"};
-    /**
      * the roles required for {@link #get_corporations_assets this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES = new String[] {"Director"};
@@ -209,6 +205,10 @@ public interface G_ICOAccess
      * the roles required for {@link #get_corporations_orders this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES = new String[] {"Accountant", "Trader"};
+    /**
+     * the roles required for {@link #get_corporations_structures this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES = new String[] {"Station_Manager"};
     /**
      * the roles required for {@link #get_corporations_wallets_journal this method}
      */
@@ -2134,29 +2134,6 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get corporation structures
-     * <p>
-     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th Note: this route will not return any flex structures owned by a corporation, use the v3 route to have those included in the response. A list of FLEX structures can be found here: https://support.eveonline.com/hc/en-us/articles/213021829-Upwell-Structures<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Station_Manager<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/structures/)
-     * </p>
-     * <p>
-     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES here}
-     * </p>
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default Requested<R_get_corporations_corporation_id_structures[]> get_corporations_structures(int corporation_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/structures/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures[].class));
-    }
-
-    /**
      * Set Autopilot Waypoint
      * <p>
      * Set a solar system as autopilot waypoint
@@ -2369,28 +2346,24 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get corporation wallet journal
+     * Get corporation structures
      * <p>
-     * Retrieve the given corporation's wallet journal for the given division going 30 days back. Note: any journal records having to do with the new navigation structures from the release of Onslaught will not show up in this version. To see those, use the v4 version of this route.<br />
+     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Accountant, Junior_Accountant<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/wallets/{division}/journal/)
+     * Requires one of the following EVE corporation role(s): Station_Manager
      * </p>
      * <p>
-     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_JOURNAL_ROLES here}
+     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES here}
      * </p>
      * 
      * @param corporation_id
      *     An EVE corporation ID
-     * @param division
-     *     Wallet key of the division to fetch journals from
      * @param page
      *     Which page of results to return
      */
-    public default Requested<M_get_journal_13 []> get_corporations_wallets_journal(int corporation_id, int division, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/wallets/{division}/journal/".replace("{corporation_id}", ""+corporation_id).replace("{division}", ""+division)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13[].class));
+    public default Requested<R_get_corporations_corporation_id_structures[]> get_corporations_structures(int corporation_id, Integer page, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/structures/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures[].class));
     }
 
     /**
@@ -2442,12 +2415,33 @@ public interface G_ICOAccess
     }
 
     /**
+     * Get corporation wallet journal
+     * <p>
+     * Retrieve the given corporation's wallet journal for the given division going 30 days back<br />
+     * This route is cached for up to 3600 seconds<br />
+     * Requires one of the following EVE corporation role(s): Accountant, Junior_Accountant
+     * </p>
+     * <p>
+     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_JOURNAL_ROLES here}
+     * </p>
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     * @param division
+     *     Wallet key of the division to fetch journals from
+     * @param page
+     *     Which page of results to return
+     */
+    public default Requested<M_get_journal_13 []> get_corporations_wallets_journal(int corporation_id, int division, Integer page, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v4/corporations/{corporation_id}/wallets/{division}/journal/".replace("{corporation_id}", ""+corporation_id).replace("{division}", ""+division)+"?"+(page==null?"":"&page="+flatten(page)));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13[].class));
+    }
+
+    /**
      * Get character wallet journal
      * <p>
      * Retrieve the given character's wallet journal going 30 days back<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/wallet/journal/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param character_id
@@ -2456,7 +2450,7 @@ public interface G_ICOAccess
      *     Which page of results to return
      */
     public default Requested<M_get_journal_13 []> get_characters_wallet_journal(int character_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/characters/{character_id}/wallet/journal/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String url = ("https://esi.evetech.net/v5/characters/{character_id}/wallet/journal/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13[].class));
     }
 }

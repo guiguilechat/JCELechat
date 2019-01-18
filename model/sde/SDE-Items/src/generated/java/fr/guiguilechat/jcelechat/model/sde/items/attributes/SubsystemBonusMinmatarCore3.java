@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemBonusMinmatarCore3
     extends IntAttribute
 {
-    public final static SubsystemBonusMinmatarCore3 INSTANCE = new SubsystemBonusMinmatarCore3();
+    public static final SubsystemBonusMinmatarCore3 INSTANCE = new SubsystemBonusMinmatarCore3();
 
     @Override
     public int getId() {

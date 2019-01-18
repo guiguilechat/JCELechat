@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class MicroJumpFieldGeneratorBlueprint
     extends Blueprint
 {
-    public final static MicroJumpFieldGeneratorBlueprint.MetaGroup METAGROUP = new MicroJumpFieldGeneratorBlueprint.MetaGroup();
+    public static final MicroJumpFieldGeneratorBlueprint.MetaGroup METAGROUP = new MicroJumpFieldGeneratorBlueprint.MetaGroup();
 
     @Override
     public IMetaGroup<MicroJumpFieldGeneratorBlueprint> getGroup() {
@@ -22,7 +22,7 @@ public class MicroJumpFieldGeneratorBlueprint
     public static class MetaGroup
         implements IMetaGroup<MicroJumpFieldGeneratorBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MicroJumpFieldGeneratorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MicroJumpFieldGeneratorBlueprint.yaml";
         private Map<String, MicroJumpFieldGeneratorBlueprint> cache = (null);
 
         @Override

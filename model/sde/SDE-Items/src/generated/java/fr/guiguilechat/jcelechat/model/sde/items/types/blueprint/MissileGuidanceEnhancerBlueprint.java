@@ -24,7 +24,7 @@ public class MissileGuidanceEnhancerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static MissileGuidanceEnhancerBlueprint.MetaGroup METAGROUP = new MissileGuidanceEnhancerBlueprint.MetaGroup();
+    public static final MissileGuidanceEnhancerBlueprint.MetaGroup METAGROUP = new MissileGuidanceEnhancerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -48,7 +48,7 @@ public class MissileGuidanceEnhancerBlueprint
     public static class MetaGroup
         implements IMetaGroup<MissileGuidanceEnhancerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MissileGuidanceEnhancerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MissileGuidanceEnhancerBlueprint.yaml";
         private Map<String, MissileGuidanceEnhancerBlueprint> cache = (null);
 
         @Override

@@ -152,7 +152,7 @@ public class RigCore
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static RigCore.MetaGroup METAGROUP = new RigCore.MetaGroup();
+    public static final RigCore.MetaGroup METAGROUP = new RigCore.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -248,7 +248,7 @@ public class RigCore
     public static class MetaGroup
         implements IMetaGroup<RigCore>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigCore.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigCore.yaml";
         private Map<String, RigCore> cache = (null);
 
         @Override

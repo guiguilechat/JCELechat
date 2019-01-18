@@ -151,7 +151,7 @@ public class StructureEngineeringRigMDroneAndFighterTE
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureEngineeringRigMDroneAndFighterTE.MetaGroup METAGROUP = new StructureEngineeringRigMDroneAndFighterTE.MetaGroup();
+    public static final StructureEngineeringRigMDroneAndFighterTE.MetaGroup METAGROUP = new StructureEngineeringRigMDroneAndFighterTE.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -247,7 +247,7 @@ public class StructureEngineeringRigMDroneAndFighterTE
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigMDroneAndFighterTE>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMDroneAndFighterTE.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMDroneAndFighterTE.yaml";
         private Map<String, StructureEngineeringRigMDroneAndFighterTE> cache = (null);
 
         @Override

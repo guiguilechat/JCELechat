@@ -152,7 +152,7 @@ public class CloneVatBay
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CloneVatBay.MetaGroup METAGROUP = new CloneVatBay.MetaGroup();
+    public static final CloneVatBay.MetaGroup METAGROUP = new CloneVatBay.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -248,7 +248,7 @@ public class CloneVatBay
     public static class MetaGroup
         implements IMetaGroup<CloneVatBay>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CloneVatBay.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CloneVatBay.yaml";
         private Map<String, CloneVatBay> cache = (null);
 
         @Override

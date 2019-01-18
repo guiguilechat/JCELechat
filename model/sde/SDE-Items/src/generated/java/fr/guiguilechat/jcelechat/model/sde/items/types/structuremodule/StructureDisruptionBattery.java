@@ -180,7 +180,7 @@ public class StructureDisruptionBattery
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static StructureDisruptionBattery.MetaGroup METAGROUP = new StructureDisruptionBattery.MetaGroup();
+    public static final StructureDisruptionBattery.MetaGroup METAGROUP = new StructureDisruptionBattery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -292,7 +292,7 @@ public class StructureDisruptionBattery
     public static class MetaGroup
         implements IMetaGroup<StructureDisruptionBattery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDisruptionBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureDisruptionBattery.yaml";
         private Map<String, StructureDisruptionBattery> cache = (null);
 
         @Override

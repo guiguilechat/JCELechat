@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntosisDurationMultiplier
     extends IntAttribute
 {
-    public final static EntosisDurationMultiplier INSTANCE = new EntosisDurationMultiplier();
+    public static final EntosisDurationMultiplier INSTANCE = new EntosisDurationMultiplier();
 
     @Override
     public int getId() {

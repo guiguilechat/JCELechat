@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityKamikazeDamageTherm
     extends IntAttribute
 {
-    public final static FighterAbilityKamikazeDamageTherm INSTANCE = new FighterAbilityKamikazeDamageTherm();
+    public static final FighterAbilityKamikazeDamageTherm INSTANCE = new FighterAbilityKamikazeDamageTherm();
 
     @Override
     public int getId() {

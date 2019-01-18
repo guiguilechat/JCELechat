@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class CapturePoint
     extends Entity
 {
-    public final static CapturePoint.MetaGroup METAGROUP = new CapturePoint.MetaGroup();
+    public static final CapturePoint.MetaGroup METAGROUP = new CapturePoint.MetaGroup();
 
     @Override
     public IMetaGroup<CapturePoint> getGroup() {
@@ -22,7 +22,7 @@ public class CapturePoint
     public static class MetaGroup
         implements IMetaGroup<CapturePoint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/CapturePoint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/CapturePoint.yaml";
         private Map<String, CapturePoint> cache = (null);
 
         @Override

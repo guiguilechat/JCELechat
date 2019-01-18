@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Warbarge
     extends Infantry
 {
-    public final static Warbarge.MetaGroup METAGROUP = new Warbarge.MetaGroup();
+    public static final Warbarge.MetaGroup METAGROUP = new Warbarge.MetaGroup();
 
     @Override
     public IMetaGroup<Warbarge> getGroup() {
@@ -22,7 +22,7 @@ public class Warbarge
     public static class MetaGroup
         implements IMetaGroup<Warbarge>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infantry/Warbarge.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infantry/Warbarge.yaml";
         private Map<String, Warbarge> cache = (null);
 
         @Override

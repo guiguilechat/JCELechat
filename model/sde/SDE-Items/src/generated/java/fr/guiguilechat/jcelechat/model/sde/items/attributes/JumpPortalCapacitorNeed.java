@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class JumpPortalCapacitorNeed
     extends IntAttribute
 {
-    public final static JumpPortalCapacitorNeed INSTANCE = new JumpPortalCapacitorNeed();
+    public static final JumpPortalCapacitorNeed INSTANCE = new JumpPortalCapacitorNeed();
 
     @Override
     public int getId() {

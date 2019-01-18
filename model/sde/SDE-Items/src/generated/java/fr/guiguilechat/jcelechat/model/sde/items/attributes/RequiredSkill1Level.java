@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RequiredSkill1Level
     extends IntAttribute
 {
-    public final static RequiredSkill1Level INSTANCE = new RequiredSkill1Level();
+    public static final RequiredSkill1Level INSTANCE = new RequiredSkill1Level();
 
     @Override
     public int getId() {

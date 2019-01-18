@@ -166,7 +166,7 @@ public class InterdictionSphereLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static InterdictionSphereLauncher.MetaGroup METAGROUP = new InterdictionSphereLauncher.MetaGroup();
+    public static final InterdictionSphereLauncher.MetaGroup METAGROUP = new InterdictionSphereLauncher.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -270,7 +270,7 @@ public class InterdictionSphereLauncher
     public static class MetaGroup
         implements IMetaGroup<InterdictionSphereLauncher>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/InterdictionSphereLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/InterdictionSphereLauncher.yaml";
         private Map<String, InterdictionSphereLauncher> cache = (null);
 
         @Override

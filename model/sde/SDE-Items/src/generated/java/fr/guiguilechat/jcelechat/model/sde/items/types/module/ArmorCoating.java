@@ -111,7 +111,7 @@ public class ArmorCoating
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
-    public final static ArmorCoating.MetaGroup METAGROUP = new ArmorCoating.MetaGroup();
+    public static final ArmorCoating.MetaGroup METAGROUP = new ArmorCoating.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class ArmorCoating
     public static class MetaGroup
         implements IMetaGroup<ArmorCoating>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ArmorCoating.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ArmorCoating.yaml";
         private Map<String, ArmorCoating> cache = (null);
 
         @Override

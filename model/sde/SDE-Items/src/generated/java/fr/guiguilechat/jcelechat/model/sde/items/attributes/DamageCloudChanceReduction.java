@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DamageCloudChanceReduction
     extends IntAttribute
 {
-    public final static DamageCloudChanceReduction INSTANCE = new DamageCloudChanceReduction();
+    public static final DamageCloudChanceReduction INSTANCE = new DamageCloudChanceReduction();
 
     @Override
     public int getId() {

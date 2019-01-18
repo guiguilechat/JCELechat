@@ -44,7 +44,7 @@ public class DataInterfaces
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
-    public final static DataInterfaces.MetaGroup METAGROUP = new DataInterfaces.MetaGroup();
+    public static final DataInterfaces.MetaGroup METAGROUP = new DataInterfaces.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -80,7 +80,7 @@ public class DataInterfaces
     public static class MetaGroup
         implements IMetaGroup<DataInterfaces>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
         private Map<String, DataInterfaces> cache = (null);
 
         @Override

@@ -23,7 +23,7 @@ public class SalvagedMaterials
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
-    public final static SalvagedMaterials.MetaGroup METAGROUP = new SalvagedMaterials.MetaGroup();
+    public static final SalvagedMaterials.MetaGroup METAGROUP = new SalvagedMaterials.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class SalvagedMaterials
     public static class MetaGroup
         implements IMetaGroup<SalvagedMaterials>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/SalvagedMaterials.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/SalvagedMaterials.yaml";
         private Map<String, SalvagedMaterials> cache = (null);
 
         @Override

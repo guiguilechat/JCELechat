@@ -81,7 +81,7 @@ public class CyberLeadership
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CyberLeadership.MetaGroup METAGROUP = new CyberLeadership.MetaGroup();
+    public static final CyberLeadership.MetaGroup METAGROUP = new CyberLeadership.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -133,7 +133,7 @@ public class CyberLeadership
     public static class MetaGroup
         implements IMetaGroup<CyberLeadership>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberLeadership.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberLeadership.yaml";
         private Map<String, CyberLeadership> cache = (null);
 
         @Override

@@ -192,7 +192,7 @@ public class SupportFighter
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterSquadronIsSupport;
-    public final static SupportFighter.MetaGroup METAGROUP = new SupportFighter.MetaGroup();
+    public static final SupportFighter.MetaGroup METAGROUP = new SupportFighter.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -312,7 +312,7 @@ public class SupportFighter
     public static class MetaGroup
         implements IMetaGroup<SupportFighter>
     {
-        public final static String RESOURCE_PATH = "SDE/items/fighter/SupportFighter.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/fighter/SupportFighter.yaml";
         private Map<String, SupportFighter> cache = (null);
 
         @Override

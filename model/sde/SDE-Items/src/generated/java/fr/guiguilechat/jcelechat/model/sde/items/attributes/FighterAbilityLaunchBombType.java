@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityLaunchBombType
     extends IntAttribute
 {
-    public final static FighterAbilityLaunchBombType INSTANCE = new FighterAbilityLaunchBombType();
+    public static final FighterAbilityLaunchBombType INSTANCE = new FighterAbilityLaunchBombType();
 
     @Override
     public int getId() {

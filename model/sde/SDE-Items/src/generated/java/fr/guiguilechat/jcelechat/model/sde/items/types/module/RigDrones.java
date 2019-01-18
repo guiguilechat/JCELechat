@@ -123,7 +123,7 @@ public class RigDrones
     @Stackable(true)
     @DefaultIntValue(0)
     public int WebSpeedFactorBonus;
-    public final static RigDrones.MetaGroup METAGROUP = new RigDrones.MetaGroup();
+    public static final RigDrones.MetaGroup METAGROUP = new RigDrones.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -203,7 +203,7 @@ public class RigDrones
     public static class MetaGroup
         implements IMetaGroup<RigDrones>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigDrones.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigDrones.yaml";
         private Map<String, RigDrones> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FallofMultiplier
     extends DoubleAttribute
 {
-    public final static FallofMultiplier INSTANCE = new FallofMultiplier();
+    public static final FallofMultiplier INSTANCE = new FallofMultiplier();
 
     @Override
     public int getId() {

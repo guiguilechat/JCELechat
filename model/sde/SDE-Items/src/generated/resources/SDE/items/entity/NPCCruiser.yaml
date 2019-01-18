@@ -12,7 +12,7 @@ items:
     published: false
     volume: 120000.0
   ♦ Ashimmu:
-    id: 43604
+    id: 46054
     mass: 1.101E7
     name: ♦ Ashimmu
     published: false
@@ -143,9 +143,9 @@ items:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  �� Ashimmu:
-    id: 46054
-    mass: 1.101E7
-    name: �� Ashimmu
+  �� Moa:
+    id: 43570
+    mass: 1.2E7
+    name: �� Moa
     published: false
-    volume: 118000.0
+    volume: 101000.0

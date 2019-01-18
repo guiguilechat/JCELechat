@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterSquadronMaxSize
     extends IntAttribute
 {
-    public final static FighterSquadronMaxSize INSTANCE = new FighterSquadronMaxSize();
+    public static final FighterSquadronMaxSize INSTANCE = new FighterSquadronMaxSize();
 
     @Override
     public int getId() {

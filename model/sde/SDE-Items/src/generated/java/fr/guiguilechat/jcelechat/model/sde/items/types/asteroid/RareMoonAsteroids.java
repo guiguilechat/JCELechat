@@ -23,7 +23,7 @@ public class RareMoonAsteroids
     @Stackable(true)
     @DefaultIntValue(16255)
     public int AsteroidMaxRadius;
-    public final static RareMoonAsteroids.MetaGroup METAGROUP = new RareMoonAsteroids.MetaGroup();
+    public static final RareMoonAsteroids.MetaGroup METAGROUP = new RareMoonAsteroids.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class RareMoonAsteroids
     public static class MetaGroup
         implements IMetaGroup<RareMoonAsteroids>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/RareMoonAsteroids.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/RareMoonAsteroids.yaml";
         private Map<String, RareMoonAsteroids> cache = (null);
 
         @Override

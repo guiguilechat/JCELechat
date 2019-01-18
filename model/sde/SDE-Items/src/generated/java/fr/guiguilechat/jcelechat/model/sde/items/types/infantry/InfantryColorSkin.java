@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class InfantryColorSkin
     extends Infantry
 {
-    public final static InfantryColorSkin.MetaGroup METAGROUP = new InfantryColorSkin.MetaGroup();
+    public static final InfantryColorSkin.MetaGroup METAGROUP = new InfantryColorSkin.MetaGroup();
 
     @Override
     public IMetaGroup<InfantryColorSkin> getGroup() {
@@ -22,7 +22,7 @@ public class InfantryColorSkin
     public static class MetaGroup
         implements IMetaGroup<InfantryColorSkin>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infantry/InfantryColorSkin.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infantry/InfantryColorSkin.yaml";
         private Map<String, InfantryColorSkin> cache = (null);
 
         @Override

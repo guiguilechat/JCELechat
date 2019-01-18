@@ -283,7 +283,7 @@ public abstract class Fighter
     @Stackable(false)
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
-    public final static Fighter.MetaCat METACAT = new Fighter.MetaCat();
+    public static final Fighter.MetaCat METACAT = new Fighter.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class TrackingSpeedMultiplier
     extends DoubleAttribute
 {
-    public final static TrackingSpeedMultiplier INSTANCE = new TrackingSpeedMultiplier();
+    public static final TrackingSpeedMultiplier INSTANCE = new TrackingSpeedMultiplier();
 
     @Override
     public int getId() {

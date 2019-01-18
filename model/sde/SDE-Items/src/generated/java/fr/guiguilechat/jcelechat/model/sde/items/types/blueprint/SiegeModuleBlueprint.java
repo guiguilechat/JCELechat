@@ -32,7 +32,7 @@ public class SiegeModuleBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SiegeModuleBlueprint.MetaGroup METAGROUP = new SiegeModuleBlueprint.MetaGroup();
+    public static final SiegeModuleBlueprint.MetaGroup METAGROUP = new SiegeModuleBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class SiegeModuleBlueprint
     public static class MetaGroup
         implements IMetaGroup<SiegeModuleBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SiegeModuleBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SiegeModuleBlueprint.yaml";
         private Map<String, SiegeModuleBlueprint> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxTractorVelocity
     extends IntAttribute
 {
-    public final static MaxTractorVelocity INSTANCE = new MaxTractorVelocity();
+    public static final MaxTractorVelocity INSTANCE = new MaxTractorVelocity();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MoonRigSpewRadiusBonus
     extends IntAttribute
 {
-    public final static MoonRigSpewRadiusBonus INSTANCE = new MoonRigSpewRadiusBonus();
+    public static final MoonRigSpewRadiusBonus INSTANCE = new MoonRigSpewRadiusBonus();
 
     @Override
     public int getId() {

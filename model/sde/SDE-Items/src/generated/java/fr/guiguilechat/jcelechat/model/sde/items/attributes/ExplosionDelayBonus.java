@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ExplosionDelayBonus
     extends DoubleAttribute
 {
-    public final static ExplosionDelayBonus INSTANCE = new ExplosionDelayBonus();
+    public static final ExplosionDelayBonus INSTANCE = new ExplosionDelayBonus();
 
     @Override
     public int getId() {

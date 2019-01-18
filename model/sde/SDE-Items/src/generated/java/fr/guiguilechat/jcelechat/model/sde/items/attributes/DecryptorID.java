@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DecryptorID
     extends IntAttribute
 {
-    public final static DecryptorID INSTANCE = new DecryptorID();
+    public static final DecryptorID INSTANCE = new DecryptorID();
 
     @Override
     public int getId() {

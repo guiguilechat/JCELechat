@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Implantness
     extends IntAttribute
 {
-    public final static Implantness INSTANCE = new Implantness();
+    public static final Implantness INSTANCE = new Implantness();
 
     @Override
     public int getId() {

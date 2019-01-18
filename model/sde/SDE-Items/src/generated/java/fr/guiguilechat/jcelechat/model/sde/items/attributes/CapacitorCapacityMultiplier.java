@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CapacitorCapacityMultiplier
     extends DoubleAttribute
 {
-    public final static CapacitorCapacityMultiplier INSTANCE = new CapacitorCapacityMultiplier();
+    public static final CapacitorCapacityMultiplier INSTANCE = new CapacitorCapacityMultiplier();
 
     @Override
     public int getId() {

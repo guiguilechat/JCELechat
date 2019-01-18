@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TurretSpeeBonus
     extends IntAttribute
 {
-    public final static TurretSpeeBonus INSTANCE = new TurretSpeeBonus();
+    public static final TurretSpeeBonus INSTANCE = new TurretSpeeBonus();
 
     @Override
     public int getId() {

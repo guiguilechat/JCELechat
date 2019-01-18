@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class OrbitalTarget
     extends Celestial
 {
-    public final static OrbitalTarget.MetaGroup METAGROUP = new OrbitalTarget.MetaGroup();
+    public static final OrbitalTarget.MetaGroup METAGROUP = new OrbitalTarget.MetaGroup();
 
     @Override
     public IMetaGroup<OrbitalTarget> getGroup() {
@@ -22,7 +22,7 @@ public class OrbitalTarget
     public static class MetaGroup
         implements IMetaGroup<OrbitalTarget>
     {
-        public final static String RESOURCE_PATH = "SDE/items/celestial/OrbitalTarget.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/celestial/OrbitalTarget.yaml";
         private Map<String, OrbitalTarget> cache = (null);
 
         @Override

@@ -23,7 +23,7 @@ public class TitanBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static TitanBlueprint.MetaGroup METAGROUP = new TitanBlueprint.MetaGroup();
+    public static final TitanBlueprint.MetaGroup METAGROUP = new TitanBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class TitanBlueprint
     public static class MetaGroup
         implements IMetaGroup<TitanBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/TitanBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/TitanBlueprint.yaml";
         private Map<String, TitanBlueprint> cache = (null);
 
         @Override

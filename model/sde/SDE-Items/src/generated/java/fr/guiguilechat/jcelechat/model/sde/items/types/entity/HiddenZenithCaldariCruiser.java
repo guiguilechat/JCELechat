@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class HiddenZenithCaldariCruiser
     extends Entity
 {
-    public final static HiddenZenithCaldariCruiser.MetaGroup METAGROUP = new HiddenZenithCaldariCruiser.MetaGroup();
+    public static final HiddenZenithCaldariCruiser.MetaGroup METAGROUP = new HiddenZenithCaldariCruiser.MetaGroup();
 
     @Override
     public IMetaGroup<HiddenZenithCaldariCruiser> getGroup() {
@@ -22,7 +22,7 @@ public class HiddenZenithCaldariCruiser
     public static class MetaGroup
         implements IMetaGroup<HiddenZenithCaldariCruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/HiddenZenithCaldariCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/HiddenZenithCaldariCruiser.yaml";
         private Map<String, HiddenZenithCaldariCruiser> cache = (null);
 
         @Override

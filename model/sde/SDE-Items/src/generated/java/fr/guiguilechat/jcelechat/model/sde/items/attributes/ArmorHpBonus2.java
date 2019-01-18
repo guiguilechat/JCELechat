@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ArmorHpBonus2
     extends DoubleAttribute
 {
-    public final static ArmorHpBonus2 INSTANCE = new ArmorHpBonus2();
+    public static final ArmorHpBonus2 INSTANCE = new ArmorHpBonus2();
 
     @Override
     public int getId() {

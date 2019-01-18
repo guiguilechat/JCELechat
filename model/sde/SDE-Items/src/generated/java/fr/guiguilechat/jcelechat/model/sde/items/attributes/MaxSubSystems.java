@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxSubSystems
     extends IntAttribute
 {
-    public final static MaxSubSystems INSTANCE = new MaxSubSystems();
+    public static final MaxSubSystems INSTANCE = new MaxSubSystems();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CanFitShipGroup01
     extends IntAttribute
 {
-    public final static CanFitShipGroup01 INSTANCE = new CanFitShipGroup01();
+    public static final CanFitShipGroup01 INSTANCE = new CanFitShipGroup01();
 
     @Override
     public int getId() {

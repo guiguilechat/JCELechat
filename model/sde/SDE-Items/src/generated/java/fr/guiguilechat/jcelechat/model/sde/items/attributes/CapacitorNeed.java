@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CapacitorNeed
     extends DoubleAttribute
 {
-    public final static CapacitorNeed INSTANCE = new CapacitorNeed();
+    public static final CapacitorNeed INSTANCE = new CapacitorNeed();
 
     @Override
     public int getId() {

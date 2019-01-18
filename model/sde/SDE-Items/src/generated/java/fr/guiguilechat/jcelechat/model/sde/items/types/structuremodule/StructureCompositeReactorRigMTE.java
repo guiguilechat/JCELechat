@@ -109,7 +109,7 @@ public class StructureCompositeReactorRigMTE
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCompositeReactorRigMTE.MetaGroup METAGROUP = new StructureCompositeReactorRigMTE.MetaGroup();
+    public static final StructureCompositeReactorRigMTE.MetaGroup METAGROUP = new StructureCompositeReactorRigMTE.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -181,7 +181,7 @@ public class StructureCompositeReactorRigMTE
     public static class MetaGroup
         implements IMetaGroup<StructureCompositeReactorRigMTE>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCompositeReactorRigMTE.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCompositeReactorRigMTE.yaml";
         private Map<String, StructureCompositeReactorRigMTE> cache = (null);
 
         @Override

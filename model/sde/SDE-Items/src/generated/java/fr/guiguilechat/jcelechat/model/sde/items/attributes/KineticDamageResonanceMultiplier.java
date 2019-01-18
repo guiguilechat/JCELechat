@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class KineticDamageResonanceMultiplier
     extends DoubleAttribute
 {
-    public final static KineticDamageResonanceMultiplier INSTANCE = new KineticDamageResonanceMultiplier();
+    public static final KineticDamageResonanceMultiplier INSTANCE = new KineticDamageResonanceMultiplier();
 
     @Override
     public int getId() {

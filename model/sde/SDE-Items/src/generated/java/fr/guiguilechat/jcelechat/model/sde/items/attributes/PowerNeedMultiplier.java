@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PowerNeedMultiplier
     extends IntAttribute
 {
-    public final static PowerNeedMultiplier INSTANCE = new PowerNeedMultiplier();
+    public static final PowerNeedMultiplier INSTANCE = new PowerNeedMultiplier();
 
     @Override
     public int getId() {

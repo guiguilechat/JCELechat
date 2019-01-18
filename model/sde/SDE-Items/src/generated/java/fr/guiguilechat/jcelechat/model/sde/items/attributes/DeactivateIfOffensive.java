@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DeactivateIfOffensive
     extends IntAttribute
 {
-    public final static DeactivateIfOffensive INSTANCE = new DeactivateIfOffensive();
+    public static final DeactivateIfOffensive INSTANCE = new DeactivateIfOffensive();
 
     @Override
     public int getId() {

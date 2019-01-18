@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DamageHP
     extends IntAttribute
 {
-    public final static DamageHP INSTANCE = new DamageHP();
+    public static final DamageHP INSTANCE = new DamageHP();
 
     @Override
     public int getId() {

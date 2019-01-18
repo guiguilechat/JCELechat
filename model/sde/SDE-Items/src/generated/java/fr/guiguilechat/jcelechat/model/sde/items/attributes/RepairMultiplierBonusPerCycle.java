@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RepairMultiplierBonusPerCycle
     extends DoubleAttribute
 {
-    public final static RepairMultiplierBonusPerCycle INSTANCE = new RepairMultiplierBonusPerCycle();
+    public static final RepairMultiplierBonusPerCycle INSTANCE = new RepairMultiplierBonusPerCycle();
 
     @Override
     public int getId() {

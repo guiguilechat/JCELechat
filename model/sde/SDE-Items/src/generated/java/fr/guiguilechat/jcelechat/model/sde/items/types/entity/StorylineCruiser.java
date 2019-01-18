@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class StorylineCruiser
     extends Entity
 {
-    public final static StorylineCruiser.MetaGroup METAGROUP = new StorylineCruiser.MetaGroup();
+    public static final StorylineCruiser.MetaGroup METAGROUP = new StorylineCruiser.MetaGroup();
 
     @Override
     public IMetaGroup<StorylineCruiser> getGroup() {
@@ -22,7 +22,7 @@ public class StorylineCruiser
     public static class MetaGroup
         implements IMetaGroup<StorylineCruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/StorylineCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/StorylineCruiser.yaml";
         private Map<String, StorylineCruiser> cache = (null);
 
         @Override

@@ -65,7 +65,7 @@ public class FleetSupport
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
-    public final static FleetSupport.MetaGroup METAGROUP = new FleetSupport.MetaGroup();
+    public static final FleetSupport.MetaGroup METAGROUP = new FleetSupport.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -113,7 +113,7 @@ public class FleetSupport
     public static class MetaGroup
         implements IMetaGroup<FleetSupport>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/FleetSupport.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/FleetSupport.yaml";
         private Map<String, FleetSupport> cache = (null);
 
         @Override

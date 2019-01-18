@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MineralNeedResearchSpeed
     extends IntAttribute
 {
-    public final static MineralNeedResearchSpeed INSTANCE = new MineralNeedResearchSpeed();
+    public static final MineralNeedResearchSpeed INSTANCE = new MineralNeedResearchSpeed();
 
     @Override
     public int getId() {

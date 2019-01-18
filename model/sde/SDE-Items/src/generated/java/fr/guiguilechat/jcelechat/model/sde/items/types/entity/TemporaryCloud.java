@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class TemporaryCloud
     extends Entity
 {
-    public final static TemporaryCloud.MetaGroup METAGROUP = new TemporaryCloud.MetaGroup();
+    public static final TemporaryCloud.MetaGroup METAGROUP = new TemporaryCloud.MetaGroup();
 
     @Override
     public IMetaGroup<TemporaryCloud> getGroup() {
@@ -22,7 +22,7 @@ public class TemporaryCloud
     public static class MetaGroup
         implements IMetaGroup<TemporaryCloud>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/TemporaryCloud.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/TemporaryCloud.yaml";
         private Map<String, TemporaryCloud> cache = (null);
 
         @Override

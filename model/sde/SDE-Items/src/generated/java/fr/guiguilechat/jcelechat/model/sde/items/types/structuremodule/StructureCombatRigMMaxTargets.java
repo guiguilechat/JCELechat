@@ -94,7 +94,7 @@ public class StructureCombatRigMMaxTargets
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigMMaxTargets.MetaGroup METAGROUP = new StructureCombatRigMMaxTargets.MetaGroup();
+    public static final StructureCombatRigMMaxTargets.MetaGroup METAGROUP = new StructureCombatRigMMaxTargets.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -158,7 +158,7 @@ public class StructureCombatRigMMaxTargets
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigMMaxTargets>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMaxTargets.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMaxTargets.yaml";
         private Map<String, StructureCombatRigMMaxTargets> cache = (null);
 
         @Override

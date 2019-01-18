@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AttributeResearchCosts
     extends IntAttribute
 {
-    public final static AttributeResearchCosts INSTANCE = new AttributeResearchCosts();
+    public static final AttributeResearchCosts INSTANCE = new AttributeResearchCosts();
 
     @Override
     public int getId() {

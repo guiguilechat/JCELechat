@@ -97,7 +97,7 @@ public class WarpCoreStabilizer
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
-    public final static WarpCoreStabilizer.MetaGroup METAGROUP = new WarpCoreStabilizer.MetaGroup();
+    public static final WarpCoreStabilizer.MetaGroup METAGROUP = new WarpCoreStabilizer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -157,7 +157,7 @@ public class WarpCoreStabilizer
     public static class MetaGroup
         implements IMetaGroup<WarpCoreStabilizer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/WarpCoreStabilizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/WarpCoreStabilizer.yaml";
         private Map<String, WarpCoreStabilizer> cache = (null);
 
         @Override

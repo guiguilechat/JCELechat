@@ -453,7 +453,7 @@ public abstract class Owner
     @Stackable(true)
     @DefaultIntValue(0)
     public int Willpower;
-    public final static Owner.MetaCat METACAT = new Owner.MetaCat();
+    public static final Owner.MetaCat METACAT = new Owner.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

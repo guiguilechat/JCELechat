@@ -93,7 +93,7 @@ public class Armor
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
-    public final static Armor.MetaGroup METAGROUP = new Armor.MetaGroup();
+    public static final Armor.MetaGroup METAGROUP = new Armor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -157,7 +157,7 @@ public class Armor
     public static class MetaGroup
         implements IMetaGroup<Armor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Armor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Armor.yaml";
         private Map<String, Armor> cache = (null);
 
         @Override

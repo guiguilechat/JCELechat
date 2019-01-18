@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.abstrct.Miscellaneous;
 public abstract class Abstrct
     extends Item
 {
-    public final static Abstrct.MetaCat METACAT = new Abstrct.MetaCat();
+    public static final Abstrct.MetaCat METACAT = new Abstrct.MetaCat();
 
     @Override
     public IMetaCategory<Abstrct> getCategory() {

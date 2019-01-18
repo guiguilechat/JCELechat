@@ -82,7 +82,7 @@ public class ScanningUpgrade
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ScanningUpgrade.MetaGroup METAGROUP = new ScanningUpgrade.MetaGroup();
+    public static final ScanningUpgrade.MetaGroup METAGROUP = new ScanningUpgrade.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -138,7 +138,7 @@ public class ScanningUpgrade
     public static class MetaGroup
         implements IMetaGroup<ScanningUpgrade>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ScanningUpgrade.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ScanningUpgrade.yaml";
         private Map<String, ScanningUpgrade> cache = (null);
 
         @Override

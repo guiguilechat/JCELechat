@@ -23,7 +23,7 @@ public class FrequencyCrystalBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static FrequencyCrystalBlueprint.MetaGroup METAGROUP = new FrequencyCrystalBlueprint.MetaGroup();
+    public static final FrequencyCrystalBlueprint.MetaGroup METAGROUP = new FrequencyCrystalBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class FrequencyCrystalBlueprint
     public static class MetaGroup
         implements IMetaGroup<FrequencyCrystalBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/FrequencyCrystalBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/FrequencyCrystalBlueprint.yaml";
         private Map<String, FrequencyCrystalBlueprint> cache = (null);
 
         @Override

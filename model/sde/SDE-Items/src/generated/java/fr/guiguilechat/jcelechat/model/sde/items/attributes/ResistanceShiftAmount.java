@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ResistanceShiftAmount
     extends IntAttribute
 {
-    public final static ResistanceShiftAmount INSTANCE = new ResistanceShiftAmount();
+    public static final ResistanceShiftAmount INSTANCE = new ResistanceShiftAmount();
 
     @Override
     public int getId() {

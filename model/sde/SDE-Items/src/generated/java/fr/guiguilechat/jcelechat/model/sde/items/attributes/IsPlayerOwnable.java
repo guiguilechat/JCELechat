@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IsPlayerOwnable
     extends IntAttribute
 {
-    public final static IsPlayerOwnable INSTANCE = new IsPlayerOwnable();
+    public static final IsPlayerOwnable INSTANCE = new IsPlayerOwnable();
 
     @Override
     public int getId() {

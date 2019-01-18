@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class JumpPortalDuration
     extends IntAttribute
 {
-    public final static JumpPortalDuration INSTANCE = new JumpPortalDuration();
+    public static final JumpPortalDuration INSTANCE = new JumpPortalDuration();
 
     @Override
     public int getId() {

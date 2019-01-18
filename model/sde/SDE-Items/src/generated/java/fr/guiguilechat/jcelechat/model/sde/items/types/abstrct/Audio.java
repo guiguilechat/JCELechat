@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Audio
     extends Abstrct
 {
-    public final static Audio.MetaGroup METAGROUP = new Audio.MetaGroup();
+    public static final Audio.MetaGroup METAGROUP = new Audio.MetaGroup();
 
     @Override
     public IMetaGroup<Audio> getGroup() {
@@ -22,7 +22,7 @@ public class Audio
     public static class MetaGroup
         implements IMetaGroup<Audio>
     {
-        public final static String RESOURCE_PATH = "SDE/items/abstrct/Audio.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/abstrct/Audio.yaml";
         private Map<String, Audio> cache = (null);
 
         @Override

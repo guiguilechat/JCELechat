@@ -32,7 +32,7 @@ public class TargetPainterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static TargetPainterBlueprint.MetaGroup METAGROUP = new TargetPainterBlueprint.MetaGroup();
+    public static final TargetPainterBlueprint.MetaGroup METAGROUP = new TargetPainterBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class TargetPainterBlueprint
     public static class MetaGroup
         implements IMetaGroup<TargetPainterBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/TargetPainterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/TargetPainterBlueprint.yaml";
         private Map<String, TargetPainterBlueprint> cache = (null);
 
         @Override

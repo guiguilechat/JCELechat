@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class SurfaceInfrastructure
     extends Infantry
 {
-    public final static SurfaceInfrastructure.MetaGroup METAGROUP = new SurfaceInfrastructure.MetaGroup();
+    public static final SurfaceInfrastructure.MetaGroup METAGROUP = new SurfaceInfrastructure.MetaGroup();
 
     @Override
     public IMetaGroup<SurfaceInfrastructure> getGroup() {
@@ -22,7 +22,7 @@ public class SurfaceInfrastructure
     public static class MetaGroup
         implements IMetaGroup<SurfaceInfrastructure>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infantry/SurfaceInfrastructure.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infantry/SurfaceInfrastructure.yaml";
         private Map<String, SurfaceInfrastructure> cache = (null);
 
         @Override

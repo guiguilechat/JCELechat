@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CriminalConnectionsMutator
     extends DoubleAttribute
 {
-    public final static CriminalConnectionsMutator INSTANCE = new CriminalConnectionsMutator();
+    public static final CriminalConnectionsMutator INSTANCE = new CriminalConnectionsMutator();
 
     @Override
     public int getId() {

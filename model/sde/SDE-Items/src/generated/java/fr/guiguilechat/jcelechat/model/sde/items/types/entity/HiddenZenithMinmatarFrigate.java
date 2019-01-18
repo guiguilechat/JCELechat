@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class HiddenZenithMinmatarFrigate
     extends Entity
 {
-    public final static HiddenZenithMinmatarFrigate.MetaGroup METAGROUP = new HiddenZenithMinmatarFrigate.MetaGroup();
+    public static final HiddenZenithMinmatarFrigate.MetaGroup METAGROUP = new HiddenZenithMinmatarFrigate.MetaGroup();
 
     @Override
     public IMetaGroup<HiddenZenithMinmatarFrigate> getGroup() {
@@ -22,7 +22,7 @@ public class HiddenZenithMinmatarFrigate
     public static class MetaGroup
         implements IMetaGroup<HiddenZenithMinmatarFrigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/HiddenZenithMinmatarFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/HiddenZenithMinmatarFrigate.yaml";
         private Map<String, HiddenZenithMinmatarFrigate> cache = (null);
 
         @Override

@@ -39,7 +39,7 @@ public class CruiserBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CruiserBlueprint.MetaGroup METAGROUP = new CruiserBlueprint.MetaGroup();
+    public static final CruiserBlueprint.MetaGroup METAGROUP = new CruiserBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -71,7 +71,7 @@ public class CruiserBlueprint
     public static class MetaGroup
         implements IMetaGroup<CruiserBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CruiserBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CruiserBlueprint.yaml";
         private Map<String, CruiserBlueprint> cache = (null);
 
         @Override

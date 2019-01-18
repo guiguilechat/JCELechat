@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TargetModule
     extends IntAttribute
 {
-    public final static TargetModule INSTANCE = new TargetModule();
+    public static final TargetModule INSTANCE = new TargetModule();
 
     @Override
     public int getId() {

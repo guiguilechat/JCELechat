@@ -32,7 +32,7 @@ public class BallisticControlSystemBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static BallisticControlSystemBlueprint.MetaGroup METAGROUP = new BallisticControlSystemBlueprint.MetaGroup();
+    public static final BallisticControlSystemBlueprint.MetaGroup METAGROUP = new BallisticControlSystemBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class BallisticControlSystemBlueprint
     public static class MetaGroup
         implements IMetaGroup<BallisticControlSystemBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/BallisticControlSystemBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/BallisticControlSystemBlueprint.yaml";
         private Map<String, BallisticControlSystemBlueprint> cache = (null);
 
         @Override

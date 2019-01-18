@@ -32,7 +32,7 @@ public class DataMinerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static DataMinerBlueprint.MetaGroup METAGROUP = new DataMinerBlueprint.MetaGroup();
+    public static final DataMinerBlueprint.MetaGroup METAGROUP = new DataMinerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class DataMinerBlueprint
     public static class MetaGroup
         implements IMetaGroup<DataMinerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/DataMinerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/DataMinerBlueprint.yaml";
         private Map<String, DataMinerBlueprint> cache = (null);
 
         @Override

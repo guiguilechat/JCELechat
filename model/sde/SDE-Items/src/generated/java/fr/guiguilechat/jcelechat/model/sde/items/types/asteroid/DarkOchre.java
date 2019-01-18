@@ -37,7 +37,7 @@ public class DarkOchre
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static DarkOchre.MetaGroup METAGROUP = new DarkOchre.MetaGroup();
+    public static final DarkOchre.MetaGroup METAGROUP = new DarkOchre.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class DarkOchre
     public static class MetaGroup
         implements IMetaGroup<DarkOchre>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/DarkOchre.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/DarkOchre.yaml";
         private Map<String, DarkOchre> cache = (null);
 
         @Override

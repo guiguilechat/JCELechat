@@ -283,7 +283,7 @@ public class LightFighter
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterSquadronIsStandupLight;
-    public final static LightFighter.MetaGroup METAGROUP = new LightFighter.MetaGroup();
+    public static final LightFighter.MetaGroup METAGROUP = new LightFighter.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -455,7 +455,7 @@ public class LightFighter
     public static class MetaGroup
         implements IMetaGroup<LightFighter>
     {
-        public final static String RESOURCE_PATH = "SDE/items/fighter/LightFighter.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/fighter/LightFighter.yaml";
         private Map<String, LightFighter> cache = (null);
 
         @Override

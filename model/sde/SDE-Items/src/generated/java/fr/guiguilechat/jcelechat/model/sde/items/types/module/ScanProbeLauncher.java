@@ -146,7 +146,7 @@ public class ScanProbeLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ScanProbeLauncher.MetaGroup METAGROUP = new ScanProbeLauncher.MetaGroup();
+    public static final ScanProbeLauncher.MetaGroup METAGROUP = new ScanProbeLauncher.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -234,7 +234,7 @@ public class ScanProbeLauncher
     public static class MetaGroup
         implements IMetaGroup<ScanProbeLauncher>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ScanProbeLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ScanProbeLauncher.yaml";
         private Map<String, ScanProbeLauncher> cache = (null);
 
         @Override

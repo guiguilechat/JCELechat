@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class BlueprintManufactureTimeMultiplierBonus
     extends DoubleAttribute
 {
-    public final static BlueprintManufactureTimeMultiplierBonus INSTANCE = new BlueprintManufactureTimeMultiplierBonus();
+    public static final BlueprintManufactureTimeMultiplierBonus INSTANCE = new BlueprintManufactureTimeMultiplierBonus();
 
     @Override
     public int getId() {

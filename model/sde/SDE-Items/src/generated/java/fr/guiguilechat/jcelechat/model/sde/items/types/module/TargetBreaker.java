@@ -145,7 +145,7 @@ public class TargetBreaker
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static TargetBreaker.MetaGroup METAGROUP = new TargetBreaker.MetaGroup();
+    public static final TargetBreaker.MetaGroup METAGROUP = new TargetBreaker.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -237,7 +237,7 @@ public class TargetBreaker
     public static class MetaGroup
         implements IMetaGroup<TargetBreaker>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/TargetBreaker.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/TargetBreaker.yaml";
         private Map<String, TargetBreaker> cache = (null);
 
         @Override

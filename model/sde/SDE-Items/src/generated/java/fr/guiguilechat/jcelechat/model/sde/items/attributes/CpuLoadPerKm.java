@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CpuLoadPerKm
     extends DoubleAttribute
 {
-    public final static CpuLoadPerKm INSTANCE = new CpuLoadPerKm();
+    public static final CpuLoadPerKm INSTANCE = new CpuLoadPerKm();
 
     @Override
     public int getId() {

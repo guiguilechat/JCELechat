@@ -158,7 +158,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigXLDoomsdayAndTargeting.MetaGroup METAGROUP = new StructureCombatRigXLDoomsdayAndTargeting.MetaGroup();
+    public static final StructureCombatRigXLDoomsdayAndTargeting.MetaGroup METAGROUP = new StructureCombatRigXLDoomsdayAndTargeting.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -258,7 +258,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigXLDoomsdayAndTargeting>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigXLDoomsdayAndTargeting.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigXLDoomsdayAndTargeting.yaml";
         private Map<String, StructureCombatRigXLDoomsdayAndTargeting> cache = (null);
 
         @Override

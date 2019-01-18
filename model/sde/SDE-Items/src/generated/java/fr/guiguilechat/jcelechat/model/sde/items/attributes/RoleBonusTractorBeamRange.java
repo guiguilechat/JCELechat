@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusTractorBeamRange
     extends IntAttribute
 {
-    public final static RoleBonusTractorBeamRange INSTANCE = new RoleBonusTractorBeamRange();
+    public static final RoleBonusTractorBeamRange INSTANCE = new RoleBonusTractorBeamRange();
 
     @Override
     public int getId() {

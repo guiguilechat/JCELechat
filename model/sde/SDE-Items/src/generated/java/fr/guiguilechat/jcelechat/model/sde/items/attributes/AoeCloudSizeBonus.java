@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AoeCloudSizeBonus
     extends DoubleAttribute
 {
-    public final static AoeCloudSizeBonus INSTANCE = new AoeCloudSizeBonus();
+    public static final AoeCloudSizeBonus INSTANCE = new AoeCloudSizeBonus();
 
     @Override
     public int getId() {

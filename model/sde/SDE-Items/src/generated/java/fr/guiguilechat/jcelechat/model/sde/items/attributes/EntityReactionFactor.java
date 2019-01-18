@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class EntityReactionFactor
     extends DoubleAttribute
 {
-    public final static EntityReactionFactor INSTANCE = new EntityReactionFactor();
+    public static final EntityReactionFactor INSTANCE = new EntityReactionFactor();
 
     @Override
     public int getId() {

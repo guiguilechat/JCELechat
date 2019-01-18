@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AoeVelocityBonusBonus
     extends IntAttribute
 {
-    public final static AoeVelocityBonusBonus INSTANCE = new AoeVelocityBonusBonus();
+    public static final AoeVelocityBonusBonus INSTANCE = new AoeVelocityBonusBonus();
 
     @Override
     public int getId() {

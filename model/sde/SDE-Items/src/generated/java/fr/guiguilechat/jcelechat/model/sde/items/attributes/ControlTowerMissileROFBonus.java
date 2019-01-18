@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerMissileROFBonus
     extends IntAttribute
 {
-    public final static ControlTowerMissileROFBonus INSTANCE = new ControlTowerMissileROFBonus();
+    public static final ControlTowerMissileROFBonus INSTANCE = new ControlTowerMissileROFBonus();
 
     @Override
     public int getId() {

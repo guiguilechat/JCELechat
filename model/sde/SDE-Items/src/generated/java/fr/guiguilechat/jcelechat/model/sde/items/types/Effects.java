@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.effects.ParticleSystems;
 public abstract class Effects
     extends Item
 {
-    public final static Effects.MetaCat METACAT = new Effects.MetaCat();
+    public static final Effects.MetaCat METACAT = new Effects.MetaCat();
 
     @Override
     public IMetaCategory<Effects> getCategory() {

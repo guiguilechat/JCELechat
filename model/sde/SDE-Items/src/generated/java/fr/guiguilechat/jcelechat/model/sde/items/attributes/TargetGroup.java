@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TargetGroup
     extends IntAttribute
 {
-    public final static TargetGroup INSTANCE = new TargetGroup();
+    public static final TargetGroup INSTANCE = new TargetGroup();
 
     @Override
     public int getId() {

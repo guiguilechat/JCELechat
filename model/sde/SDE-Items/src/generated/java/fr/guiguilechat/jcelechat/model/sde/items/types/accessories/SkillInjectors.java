@@ -30,7 +30,7 @@ public class SkillInjectors
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxCharacterSkillPointLimit;
-    public final static SkillInjectors.MetaGroup METAGROUP = new SkillInjectors.MetaGroup();
+    public static final SkillInjectors.MetaGroup METAGROUP = new SkillInjectors.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +58,7 @@ public class SkillInjectors
     public static class MetaGroup
         implements IMetaGroup<SkillInjectors>
     {
-        public final static String RESOURCE_PATH = "SDE/items/accessories/SkillInjectors.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/accessories/SkillInjectors.yaml";
         private Map<String, SkillInjectors> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AIIgnoreDronesBelowSignatureRadius
     extends IntAttribute
 {
-    public final static AIIgnoreDronesBelowSignatureRadius INSTANCE = new AIIgnoreDronesBelowSignatureRadius();
+    public static final AIIgnoreDronesBelowSignatureRadius INSTANCE = new AIIgnoreDronesBelowSignatureRadius();
 
     @Override
     public int getId() {

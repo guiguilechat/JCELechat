@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RefiningYieldMutator
     extends IntAttribute
 {
-    public final static RefiningYieldMutator INSTANCE = new RefiningYieldMutator();
+    public static final RefiningYieldMutator INSTANCE = new RefiningYieldMutator();
 
     @Override
     public int getId() {

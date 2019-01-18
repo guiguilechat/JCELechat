@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DurationSensorDampeningBurstProjector
     extends IntAttribute
 {
-    public final static DurationSensorDampeningBurstProjector INSTANCE = new DurationSensorDampeningBurstProjector();
+    public static final DurationSensorDampeningBurstProjector INSTANCE = new DurationSensorDampeningBurstProjector();
 
     @Override
     public int getId() {

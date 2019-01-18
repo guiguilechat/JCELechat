@@ -202,7 +202,7 @@ public class WeaponDisruptor
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static WeaponDisruptor.MetaGroup METAGROUP = new WeaponDisruptor.MetaGroup();
+    public static final WeaponDisruptor.MetaGroup METAGROUP = new WeaponDisruptor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -322,7 +322,7 @@ public class WeaponDisruptor
     public static class MetaGroup
         implements IMetaGroup<WeaponDisruptor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/WeaponDisruptor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/WeaponDisruptor.yaml";
         private Map<String, WeaponDisruptor> cache = (null);
 
         @Override

@@ -152,7 +152,7 @@ public class MassEntanglers
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
-    public final static MassEntanglers.MetaGroup METAGROUP = new MassEntanglers.MetaGroup();
+    public static final MassEntanglers.MetaGroup METAGROUP = new MassEntanglers.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -248,7 +248,7 @@ public class MassEntanglers
     public static class MetaGroup
         implements IMetaGroup<MassEntanglers>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/MassEntanglers.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/MassEntanglers.yaml";
         private Map<String, MassEntanglers> cache = (null);
 
         @Override

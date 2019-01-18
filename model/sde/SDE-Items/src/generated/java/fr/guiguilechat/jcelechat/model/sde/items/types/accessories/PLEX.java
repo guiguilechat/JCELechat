@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PLEX
     extends Accessories
 {
-    public final static PLEX.MetaGroup METAGROUP = new PLEX.MetaGroup();
+    public static final PLEX.MetaGroup METAGROUP = new PLEX.MetaGroup();
 
     @Override
     public IMetaGroup<PLEX> getGroup() {
@@ -22,7 +22,7 @@ public class PLEX
     public static class MetaGroup
         implements IMetaGroup<PLEX>
     {
-        public final static String RESOURCE_PATH = "SDE/items/accessories/PLEX.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/accessories/PLEX.yaml";
         private Map<String, PLEX> cache = (null);
 
         @Override

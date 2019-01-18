@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OverloadShieldBonus
     extends IntAttribute
 {
-    public final static OverloadShieldBonus INSTANCE = new OverloadShieldBonus();
+    public static final OverloadShieldBonus INSTANCE = new OverloadShieldBonus();
 
     @Override
     public int getId() {

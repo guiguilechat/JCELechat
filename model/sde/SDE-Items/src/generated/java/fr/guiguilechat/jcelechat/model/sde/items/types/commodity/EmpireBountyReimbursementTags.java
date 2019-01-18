@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class EmpireBountyReimbursementTags
     extends Commodity
 {
-    public final static EmpireBountyReimbursementTags.MetaGroup METAGROUP = new EmpireBountyReimbursementTags.MetaGroup();
+    public static final EmpireBountyReimbursementTags.MetaGroup METAGROUP = new EmpireBountyReimbursementTags.MetaGroup();
 
     @Override
     public IMetaGroup<EmpireBountyReimbursementTags> getGroup() {
@@ -22,7 +22,7 @@ public class EmpireBountyReimbursementTags
     public static class MetaGroup
         implements IMetaGroup<EmpireBountyReimbursementTags>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/EmpireBountyReimbursementTags.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/EmpireBountyReimbursementTags.yaml";
         private Map<String, EmpireBountyReimbursementTags> cache = (null);
 
         @Override

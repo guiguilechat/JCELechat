@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxCharacterSkillPointLimit
     extends IntAttribute
 {
-    public final static MaxCharacterSkillPointLimit INSTANCE = new MaxCharacterSkillPointLimit();
+    public static final MaxCharacterSkillPointLimit INSTANCE = new MaxCharacterSkillPointLimit();
 
     @Override
     public int getId() {

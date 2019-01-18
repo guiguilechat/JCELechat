@@ -130,7 +130,7 @@ public class StructureCombatRigLAoELauncherApplicationAndProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigLAoELauncherApplicationAndProjection.MetaGroup METAGROUP = new StructureCombatRigLAoELauncherApplicationAndProjection.MetaGroup();
+    public static final StructureCombatRigLAoELauncherApplicationAndProjection.MetaGroup METAGROUP = new StructureCombatRigLAoELauncherApplicationAndProjection.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -214,7 +214,7 @@ public class StructureCombatRigLAoELauncherApplicationAndProjection
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigLAoELauncherApplicationAndProjection>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLAoELauncherApplicationAndProjection.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLAoELauncherApplicationAndProjection.yaml";
         private Map<String, StructureCombatRigLAoELauncherApplicationAndProjection> cache = (null);
 
         @Override

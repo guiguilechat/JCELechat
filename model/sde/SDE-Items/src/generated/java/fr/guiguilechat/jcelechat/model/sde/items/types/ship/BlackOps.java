@@ -381,7 +381,7 @@ public class BlackOps
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static BlackOps.MetaGroup METAGROUP = new BlackOps.MetaGroup();
+    public static final BlackOps.MetaGroup METAGROUP = new BlackOps.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -609,7 +609,7 @@ public class BlackOps
     public static class MetaGroup
         implements IMetaGroup<BlackOps>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/BlackOps.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/BlackOps.yaml";
         private Map<String, BlackOps> cache = (null);
 
         @Override

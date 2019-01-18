@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class MissileDamageMultiplierBonus
     extends DoubleAttribute
 {
-    public final static MissileDamageMultiplierBonus INSTANCE = new MissileDamageMultiplierBonus();
+    public static final MissileDamageMultiplierBonus INSTANCE = new MissileDamageMultiplierBonus();
 
     @Override
     public int getId() {

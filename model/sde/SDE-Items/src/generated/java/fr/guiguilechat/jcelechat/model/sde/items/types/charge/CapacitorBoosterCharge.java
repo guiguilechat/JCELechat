@@ -73,7 +73,7 @@ public class CapacitorBoosterCharge
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
-    public final static CapacitorBoosterCharge.MetaGroup METAGROUP = new CapacitorBoosterCharge.MetaGroup();
+    public static final CapacitorBoosterCharge.MetaGroup METAGROUP = new CapacitorBoosterCharge.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -121,7 +121,7 @@ public class CapacitorBoosterCharge
     public static class MetaGroup
         implements IMetaGroup<CapacitorBoosterCharge>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/CapacitorBoosterCharge.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/CapacitorBoosterCharge.yaml";
         private Map<String, CapacitorBoosterCharge> cache = (null);
 
         @Override

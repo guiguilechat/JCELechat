@@ -61,7 +61,7 @@ public class StructureArmorReinforcer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureArmorReinforcer.MetaGroup METAGROUP = new StructureArmorReinforcer.MetaGroup();
+    public static final StructureArmorReinforcer.MetaGroup METAGROUP = new StructureArmorReinforcer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -105,7 +105,7 @@ public class StructureArmorReinforcer
     public static class MetaGroup
         implements IMetaGroup<StructureArmorReinforcer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureArmorReinforcer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureArmorReinforcer.yaml";
         private Map<String, StructureArmorReinforcer> cache = (null);
 
         @Override

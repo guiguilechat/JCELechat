@@ -23,7 +23,7 @@ public class Composite
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
-    public final static Composite.MetaGroup METAGROUP = new Composite.MetaGroup();
+    public static final Composite.MetaGroup METAGROUP = new Composite.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class Composite
     public static class MetaGroup
         implements IMetaGroup<Composite>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/Composite.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/Composite.yaml";
         private Map<String, Composite> cache = (null);
 
         @Override

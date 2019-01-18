@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class KineticDamage
     extends DoubleAttribute
 {
-    public final static KineticDamage INSTANCE = new KineticDamage();
+    public static final KineticDamage INSTANCE = new KineticDamage();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CommandBonusEffectiveAdd
     extends IntAttribute
 {
-    public final static CommandBonusEffectiveAdd INSTANCE = new CommandBonusEffectiveAdd();
+    public static final CommandBonusEffectiveAdd INSTANCE = new CommandBonusEffectiveAdd();
 
     @Override
     public int getId() {

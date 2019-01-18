@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class DiplomacyMutator
     extends DoubleAttribute
 {
-    public final static DiplomacyMutator INSTANCE = new DiplomacyMutator();
+    public static final DiplomacyMutator INSTANCE = new DiplomacyMutator();
 
     @Override
     public int getId() {

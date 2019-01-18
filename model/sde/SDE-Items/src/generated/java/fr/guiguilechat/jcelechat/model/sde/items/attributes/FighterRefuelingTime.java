@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterRefuelingTime
     extends IntAttribute
 {
-    public final static FighterRefuelingTime INSTANCE = new FighterRefuelingTime();
+    public static final FighterRefuelingTime INSTANCE = new FighterRefuelingTime();
 
     @Override
     public int getId() {

@@ -228,7 +228,7 @@ public class WarpScramblingBattery
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
-    public final static WarpScramblingBattery.MetaGroup METAGROUP = new WarpScramblingBattery.MetaGroup();
+    public static final WarpScramblingBattery.MetaGroup METAGROUP = new WarpScramblingBattery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -364,7 +364,7 @@ public class WarpScramblingBattery
     public static class MetaGroup
         implements IMetaGroup<WarpScramblingBattery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/WarpScramblingBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/WarpScramblingBattery.yaml";
         private Map<String, WarpScramblingBattery> cache = (null);
 
         @Override

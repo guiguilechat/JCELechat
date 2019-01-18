@@ -37,7 +37,7 @@ public class Omber
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Omber.MetaGroup METAGROUP = new Omber.MetaGroup();
+    public static final Omber.MetaGroup METAGROUP = new Omber.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Omber
     public static class MetaGroup
         implements IMetaGroup<Omber>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Omber.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Omber.yaml";
         private Map<String, Omber> cache = (null);
 
         @Override

@@ -188,7 +188,7 @@ public class RemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RemoteArmorRepairer.MetaGroup METAGROUP = new RemoteArmorRepairer.MetaGroup();
+    public static final RemoteArmorRepairer.MetaGroup METAGROUP = new RemoteArmorRepairer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -300,7 +300,7 @@ public class RemoteArmorRepairer
     public static class MetaGroup
         implements IMetaGroup<RemoteArmorRepairer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RemoteArmorRepairer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RemoteArmorRepairer.yaml";
         private Map<String, RemoteArmorRepairer> cache = (null);
 
         @Override

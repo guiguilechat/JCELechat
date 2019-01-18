@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerProjectileOptimalBonus
     extends IntAttribute
 {
-    public final static ControlTowerProjectileOptimalBonus INSTANCE = new ControlTowerProjectileOptimalBonus();
+    public static final ControlTowerProjectileOptimalBonus INSTANCE = new ControlTowerProjectileOptimalBonus();
 
     @Override
     public int getId() {

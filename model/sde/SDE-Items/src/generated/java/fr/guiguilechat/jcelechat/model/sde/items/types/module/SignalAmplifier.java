@@ -125,7 +125,7 @@ public class SignalAmplifier
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SignalAmplifier.MetaGroup METAGROUP = new SignalAmplifier.MetaGroup();
+    public static final SignalAmplifier.MetaGroup METAGROUP = new SignalAmplifier.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -201,7 +201,7 @@ public class SignalAmplifier
     public static class MetaGroup
         implements IMetaGroup<SignalAmplifier>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/SignalAmplifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/SignalAmplifier.yaml";
         private Map<String, SignalAmplifier> cache = (null);
 
         @Override

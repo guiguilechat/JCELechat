@@ -256,7 +256,7 @@ public class Interceptor
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpBubbleImmune;
-    public final static Interceptor.MetaGroup METAGROUP = new Interceptor.MetaGroup();
+    public static final Interceptor.MetaGroup METAGROUP = new Interceptor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -408,7 +408,7 @@ public class Interceptor
     public static class MetaGroup
         implements IMetaGroup<Interceptor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Interceptor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Interceptor.yaml";
         private Map<String, Interceptor> cache = (null);
 
         @Override

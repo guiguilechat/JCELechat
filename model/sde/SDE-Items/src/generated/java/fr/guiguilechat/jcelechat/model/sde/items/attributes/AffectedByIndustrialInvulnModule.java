@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AffectedByIndustrialInvulnModule
     extends IntAttribute
 {
-    public final static AffectedByIndustrialInvulnModule INSTANCE = new AffectedByIndustrialInvulnModule();
+    public static final AffectedByIndustrialInvulnModule INSTANCE = new AffectedByIndustrialInvulnModule();
 
     @Override
     public int getId() {

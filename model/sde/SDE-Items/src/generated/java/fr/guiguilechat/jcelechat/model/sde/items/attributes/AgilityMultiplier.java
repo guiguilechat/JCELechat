@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AgilityMultiplier
     extends DoubleAttribute
 {
-    public final static AgilityMultiplier INSTANCE = new AgilityMultiplier();
+    public static final AgilityMultiplier INSTANCE = new AgilityMultiplier();
 
     @Override
     public int getId() {

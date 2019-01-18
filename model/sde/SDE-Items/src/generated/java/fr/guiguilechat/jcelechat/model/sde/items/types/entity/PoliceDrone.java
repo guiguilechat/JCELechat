@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PoliceDrone
     extends Entity
 {
-    public final static PoliceDrone.MetaGroup METAGROUP = new PoliceDrone.MetaGroup();
+    public static final PoliceDrone.MetaGroup METAGROUP = new PoliceDrone.MetaGroup();
 
     @Override
     public IMetaGroup<PoliceDrone> getGroup() {
@@ -22,7 +22,7 @@ public class PoliceDrone
     public static class MetaGroup
         implements IMetaGroup<PoliceDrone>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/PoliceDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/PoliceDrone.yaml";
         private Map<String, PoliceDrone> cache = (null);
 
         @Override

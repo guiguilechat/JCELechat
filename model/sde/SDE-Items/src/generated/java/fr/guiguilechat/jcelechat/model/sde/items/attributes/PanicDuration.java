@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PanicDuration
     extends IntAttribute
 {
-    public final static PanicDuration INSTANCE = new PanicDuration();
+    public static final PanicDuration INSTANCE = new PanicDuration();
 
     @Override
     public int getId() {

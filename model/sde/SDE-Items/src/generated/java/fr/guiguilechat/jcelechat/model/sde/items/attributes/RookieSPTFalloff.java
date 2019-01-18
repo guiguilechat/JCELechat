@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RookieSPTFalloff
     extends DoubleAttribute
 {
-    public final static RookieSPTFalloff INSTANCE = new RookieSPTFalloff();
+    public static final RookieSPTFalloff INSTANCE = new RookieSPTFalloff();
 
     @Override
     public int getId() {

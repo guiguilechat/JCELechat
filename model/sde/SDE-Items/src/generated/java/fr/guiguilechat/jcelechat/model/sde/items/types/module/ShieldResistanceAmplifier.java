@@ -111,7 +111,7 @@ public class ShieldResistanceAmplifier
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
-    public final static ShieldResistanceAmplifier.MetaGroup METAGROUP = new ShieldResistanceAmplifier.MetaGroup();
+    public static final ShieldResistanceAmplifier.MetaGroup METAGROUP = new ShieldResistanceAmplifier.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class ShieldResistanceAmplifier
     public static class MetaGroup
         implements IMetaGroup<ShieldResistanceAmplifier>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ShieldResistanceAmplifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ShieldResistanceAmplifier.yaml";
         private Map<String, ShieldResistanceAmplifier> cache = (null);
 
         @Override

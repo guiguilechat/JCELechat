@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class JumpDriveDuration
     extends IntAttribute
 {
-    public final static JumpDriveDuration INSTANCE = new JumpDriveDuration();
+    public static final JumpDriveDuration INSTANCE = new JumpDriveDuration();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.Item;
 public abstract class System
     extends Item
 {
-    public final static System.MetaCat METACAT = new System.MetaCat();
+    public static final System.MetaCat METACAT = new System.MetaCat();
 
     @Override
     public IMetaCategory<System> getCategory() {

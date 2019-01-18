@@ -23,7 +23,7 @@ public class InfrastructureHub
     @Stackable(true)
     @DefaultIntValue(100000)
     public int PlanetAnchorDistance;
-    public final static InfrastructureHub.MetaGroup METAGROUP = new InfrastructureHub.MetaGroup();
+    public static final InfrastructureHub.MetaGroup METAGROUP = new InfrastructureHub.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class InfrastructureHub
     public static class MetaGroup
         implements IMetaGroup<InfrastructureHub>
     {
-        public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/InfrastructureHub.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/sovereigntystructures/InfrastructureHub.yaml";
         private Map<String, InfrastructureHub> cache = (null);
 
         @Override

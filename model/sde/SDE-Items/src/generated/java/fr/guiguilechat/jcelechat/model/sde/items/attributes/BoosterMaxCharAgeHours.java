@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BoosterMaxCharAgeHours
     extends IntAttribute
 {
-    public final static BoosterMaxCharAgeHours INSTANCE = new BoosterMaxCharAgeHours();
+    public static final BoosterMaxCharAgeHours INSTANCE = new BoosterMaxCharAgeHours();
 
     @Override
     public int getId() {

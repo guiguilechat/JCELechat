@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RookieSPTOptimal
     extends DoubleAttribute
 {
-    public final static RookieSPTOptimal INSTANCE = new RookieSPTOptimal();
+    public static final RookieSPTOptimal INSTANCE = new RookieSPTOptimal();
 
     @Override
     public int getId() {

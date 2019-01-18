@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class GfxTurretID
     extends IntAttribute
 {
-    public final static GfxTurretID INSTANCE = new GfxTurretID();
+    public static final GfxTurretID INSTANCE = new GfxTurretID();
 
     @Override
     public int getId() {

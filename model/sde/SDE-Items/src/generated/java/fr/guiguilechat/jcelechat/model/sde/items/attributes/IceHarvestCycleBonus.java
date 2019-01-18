@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class IceHarvestCycleBonus
     extends DoubleAttribute
 {
-    public final static IceHarvestCycleBonus INSTANCE = new IceHarvestCycleBonus();
+    public static final IceHarvestCycleBonus INSTANCE = new IceHarvestCycleBonus();
 
     @Override
     public int getId() {

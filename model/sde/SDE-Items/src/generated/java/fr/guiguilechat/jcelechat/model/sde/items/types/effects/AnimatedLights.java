@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class AnimatedLights
     extends Effects
 {
-    public final static AnimatedLights.MetaGroup METAGROUP = new AnimatedLights.MetaGroup();
+    public static final AnimatedLights.MetaGroup METAGROUP = new AnimatedLights.MetaGroup();
 
     @Override
     public IMetaGroup<AnimatedLights> getGroup() {
@@ -22,7 +22,7 @@ public class AnimatedLights
     public static class MetaGroup
         implements IMetaGroup<AnimatedLights>
     {
-        public final static String RESOURCE_PATH = "SDE/items/effects/AnimatedLights.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/effects/AnimatedLights.yaml";
         private Map<String, AnimatedLights> cache = (null);
 
         @Override

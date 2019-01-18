@@ -32,7 +32,7 @@ public class ECMStabilizerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ECMStabilizerBlueprint.MetaGroup METAGROUP = new ECMStabilizerBlueprint.MetaGroup();
+    public static final ECMStabilizerBlueprint.MetaGroup METAGROUP = new ECMStabilizerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ECMStabilizerBlueprint
     public static class MetaGroup
         implements IMetaGroup<ECMStabilizerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ECMStabilizerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ECMStabilizerBlueprint.yaml";
         private Map<String, ECMStabilizerBlueprint> cache = (null);
 
         @Override

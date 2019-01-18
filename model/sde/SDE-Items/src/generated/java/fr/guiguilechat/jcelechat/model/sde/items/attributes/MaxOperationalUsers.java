@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxOperationalUsers
     extends IntAttribute
 {
-    public final static MaxOperationalUsers INSTANCE = new MaxOperationalUsers();
+    public static final MaxOperationalUsers INSTANCE = new MaxOperationalUsers();
 
     @Override
     public int getId() {

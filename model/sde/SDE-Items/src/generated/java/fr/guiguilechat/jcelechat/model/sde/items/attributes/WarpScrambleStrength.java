@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarpScrambleStrength
     extends IntAttribute
 {
-    public final static WarpScrambleStrength INSTANCE = new WarpScrambleStrength();
+    public static final WarpScrambleStrength INSTANCE = new WarpScrambleStrength();
 
     @Override
     public int getId() {

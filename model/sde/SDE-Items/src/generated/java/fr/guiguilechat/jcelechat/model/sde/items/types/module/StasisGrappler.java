@@ -223,7 +223,7 @@ public class StasisGrappler
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StasisGrappler.MetaGroup METAGROUP = new StasisGrappler.MetaGroup();
+    public static final StasisGrappler.MetaGroup METAGROUP = new StasisGrappler.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -355,7 +355,7 @@ public class StasisGrappler
     public static class MetaGroup
         implements IMetaGroup<StasisGrappler>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/StasisGrappler.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/StasisGrappler.yaml";
         private Map<String, StasisGrappler> cache = (null);
 
         @Override

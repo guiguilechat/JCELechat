@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DisallowDocking
     extends IntAttribute
 {
-    public final static DisallowDocking INSTANCE = new DisallowDocking();
+    public static final DisallowDocking INSTANCE = new DisallowDocking();
 
     @Override
     public int getId() {

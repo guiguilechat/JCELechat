@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ThermodynamicsHeatDamage
     extends IntAttribute
 {
-    public final static ThermodynamicsHeatDamage INSTANCE = new ThermodynamicsHeatDamage();
+    public static final ThermodynamicsHeatDamage INSTANCE = new ThermodynamicsHeatDamage();
 
     @Override
     public int getId() {

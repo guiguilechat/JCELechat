@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Billboard
     extends Entity
 {
-    public final static Billboard.MetaGroup METAGROUP = new Billboard.MetaGroup();
+    public static final Billboard.MetaGroup METAGROUP = new Billboard.MetaGroup();
 
     @Override
     public IMetaGroup<Billboard> getGroup() {
@@ -22,7 +22,7 @@ public class Billboard
     public static class MetaGroup
         implements IMetaGroup<Billboard>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/Billboard.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/Billboard.yaml";
         private Map<String, Billboard> cache = (null);
 
         @Override

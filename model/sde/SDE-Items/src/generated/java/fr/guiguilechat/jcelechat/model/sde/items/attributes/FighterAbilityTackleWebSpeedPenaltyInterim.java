@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityTackleWebSpeedPenaltyInterim
     extends IntAttribute
 {
-    public final static FighterAbilityTackleWebSpeedPenaltyInterim INSTANCE = new FighterAbilityTackleWebSpeedPenaltyInterim();
+    public static final FighterAbilityTackleWebSpeedPenaltyInterim INSTANCE = new FighterAbilityTackleWebSpeedPenaltyInterim();
 
     @Override
     public int getId() {

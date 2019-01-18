@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class EmDamage
     extends DoubleAttribute
 {
-    public final static EmDamage INSTANCE = new EmDamage();
+    public static final EmDamage INSTANCE = new EmDamage();
 
     @Override
     public int getId() {

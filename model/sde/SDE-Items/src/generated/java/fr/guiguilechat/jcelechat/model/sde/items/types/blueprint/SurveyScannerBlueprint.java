@@ -32,7 +32,7 @@ public class SurveyScannerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SurveyScannerBlueprint.MetaGroup METAGROUP = new SurveyScannerBlueprint.MetaGroup();
+    public static final SurveyScannerBlueprint.MetaGroup METAGROUP = new SurveyScannerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class SurveyScannerBlueprint
     public static class MetaGroup
         implements IMetaGroup<SurveyScannerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SurveyScannerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SurveyScannerBlueprint.yaml";
         private Map<String, SurveyScannerBlueprint> cache = (null);
 
         @Override

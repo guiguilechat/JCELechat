@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class BaseMaxScanDeviation
     extends DoubleAttribute
 {
-    public final static BaseMaxScanDeviation INSTANCE = new BaseMaxScanDeviation();
+    public static final BaseMaxScanDeviation INSTANCE = new BaseMaxScanDeviation();
 
     @Override
     public int getId() {

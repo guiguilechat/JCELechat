@@ -23,7 +23,7 @@ public class BiochemicalMaterial
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
-    public final static BiochemicalMaterial.MetaGroup METAGROUP = new BiochemicalMaterial.MetaGroup();
+    public static final BiochemicalMaterial.MetaGroup METAGROUP = new BiochemicalMaterial.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class BiochemicalMaterial
     public static class MetaGroup
         implements IMetaGroup<BiochemicalMaterial>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/BiochemicalMaterial.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/BiochemicalMaterial.yaml";
         private Map<String, BiochemicalMaterial> cache = (null);
 
         @Override

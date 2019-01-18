@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DistributionIDSansha01
     extends IntAttribute
 {
-    public final static DistributionIDSansha01 INSTANCE = new DistributionIDSansha01();
+    public static final DistributionIDSansha01 INSTANCE = new DistributionIDSansha01();
 
     @Override
     public int getId() {

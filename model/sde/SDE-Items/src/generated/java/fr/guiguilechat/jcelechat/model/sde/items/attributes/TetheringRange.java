@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TetheringRange
     extends IntAttribute
 {
-    public final static TetheringRange INSTANCE = new TetheringRange();
+    public static final TetheringRange INSTANCE = new TetheringRange();
 
     @Override
     public int getId() {

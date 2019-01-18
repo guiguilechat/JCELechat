@@ -11,7 +11,7 @@ import org.yaml.snakeyaml.Yaml;
 public class WorldSpace
     extends fr.guiguilechat.jcelechat.model.sde.items.types.WorldSpace
 {
-    public final static WorldSpace.MetaGroup METAGROUP = new WorldSpace.MetaGroup();
+    public static final WorldSpace.MetaGroup METAGROUP = new WorldSpace.MetaGroup();
 
     @Override
     public IMetaGroup<WorldSpace> getGroup() {
@@ -21,7 +21,7 @@ public class WorldSpace
     public static class MetaGroup
         implements IMetaGroup<WorldSpace>
     {
-        public final static String RESOURCE_PATH = "SDE/items/worldspace/WorldSpace.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/worldspace/WorldSpace.yaml";
         private Map<String, WorldSpace> cache = (null);
 
         @Override

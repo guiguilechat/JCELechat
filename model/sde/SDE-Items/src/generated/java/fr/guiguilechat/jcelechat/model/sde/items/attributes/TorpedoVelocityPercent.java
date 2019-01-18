@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TorpedoVelocityPercent
     extends IntAttribute
 {
-    public final static TorpedoVelocityPercent INSTANCE = new TorpedoVelocityPercent();
+    public static final TorpedoVelocityPercent INSTANCE = new TorpedoVelocityPercent();
 
     @Override
     public int getId() {

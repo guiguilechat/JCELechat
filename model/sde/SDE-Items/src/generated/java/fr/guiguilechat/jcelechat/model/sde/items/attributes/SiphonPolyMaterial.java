@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SiphonPolyMaterial
     extends IntAttribute
 {
-    public final static SiphonPolyMaterial INSTANCE = new SiphonPolyMaterial();
+    public static final SiphonPolyMaterial INSTANCE = new SiphonPolyMaterial();
 
     @Override
     public int getId() {

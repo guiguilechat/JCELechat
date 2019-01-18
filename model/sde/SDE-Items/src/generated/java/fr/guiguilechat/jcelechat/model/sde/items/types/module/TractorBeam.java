@@ -131,7 +131,7 @@ public class TractorBeam
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static TractorBeam.MetaGroup METAGROUP = new TractorBeam.MetaGroup();
+    public static final TractorBeam.MetaGroup METAGROUP = new TractorBeam.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -215,7 +215,7 @@ public class TractorBeam
     public static class MetaGroup
         implements IMetaGroup<TractorBeam>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/TractorBeam.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/TractorBeam.yaml";
         private Map<String, TractorBeam> cache = (null);
 
         @Override

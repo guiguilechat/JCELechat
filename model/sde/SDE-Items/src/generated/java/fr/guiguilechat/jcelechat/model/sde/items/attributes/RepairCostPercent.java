@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RepairCostPercent
     extends IntAttribute
 {
-    public final static RepairCostPercent INSTANCE = new RepairCostPercent();
+    public static final RepairCostPercent INSTANCE = new RepairCostPercent();
 
     @Override
     public int getId() {

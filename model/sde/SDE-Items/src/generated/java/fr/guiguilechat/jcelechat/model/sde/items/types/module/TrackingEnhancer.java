@@ -97,7 +97,7 @@ public class TrackingEnhancer
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static TrackingEnhancer.MetaGroup METAGROUP = new TrackingEnhancer.MetaGroup();
+    public static final TrackingEnhancer.MetaGroup METAGROUP = new TrackingEnhancer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -157,7 +157,7 @@ public class TrackingEnhancer
     public static class MetaGroup
         implements IMetaGroup<TrackingEnhancer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/TrackingEnhancer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/TrackingEnhancer.yaml";
         private Map<String, TrackingEnhancer> cache = (null);
 
         @Override

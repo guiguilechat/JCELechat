@@ -67,7 +67,7 @@ public class MobileDepot
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static MobileDepot.MetaGroup METAGROUP = new MobileDepot.MetaGroup();
+    public static final MobileDepot.MetaGroup METAGROUP = new MobileDepot.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -115,7 +115,7 @@ public class MobileDepot
     public static class MetaGroup
         implements IMetaGroup<MobileDepot>
     {
-        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDepot.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileDepot.yaml";
         private Map<String, MobileDepot> cache = (null);
 
         @Override

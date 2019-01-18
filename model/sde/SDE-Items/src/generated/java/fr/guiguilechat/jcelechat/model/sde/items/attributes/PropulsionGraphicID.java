@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PropulsionGraphicID
     extends IntAttribute
 {
-    public final static PropulsionGraphicID INSTANCE = new PropulsionGraphicID();
+    public static final PropulsionGraphicID INSTANCE = new PropulsionGraphicID();
 
     @Override
     public int getId() {

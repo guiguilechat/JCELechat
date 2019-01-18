@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Intelligence
     extends IntAttribute
 {
-    public final static Intelligence INSTANCE = new Intelligence();
+    public static final Intelligence INSTANCE = new Intelligence();
 
     @Override
     public int getId() {

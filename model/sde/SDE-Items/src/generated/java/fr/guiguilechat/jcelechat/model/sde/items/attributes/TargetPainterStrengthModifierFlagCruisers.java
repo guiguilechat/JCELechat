@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TargetPainterStrengthModifierFlagCruisers
     extends IntAttribute
 {
-    public final static TargetPainterStrengthModifierFlagCruisers INSTANCE = new TargetPainterStrengthModifierFlagCruisers();
+    public static final TargetPainterStrengthModifierFlagCruisers INSTANCE = new TargetPainterStrengthModifierFlagCruisers();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemBonusMinmatarPropulsion2
     extends IntAttribute
 {
-    public final static SubsystemBonusMinmatarPropulsion2 INSTANCE = new SubsystemBonusMinmatarPropulsion2();
+    public static final SubsystemBonusMinmatarPropulsion2 INSTANCE = new SubsystemBonusMinmatarPropulsion2();
 
     @Override
     public int getId() {

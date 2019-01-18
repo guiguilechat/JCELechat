@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityAfterburnerDuration
     extends IntAttribute
 {
-    public final static FighterAbilityAfterburnerDuration INSTANCE = new FighterAbilityAfterburnerDuration();
+    public static final FighterAbilityAfterburnerDuration INSTANCE = new FighterAbilityAfterburnerDuration();
 
     @Override
     public int getId() {

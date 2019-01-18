@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusSurveyScannerRange
     extends IntAttribute
 {
-    public final static RoleBonusSurveyScannerRange INSTANCE = new RoleBonusSurveyScannerRange();
+    public static final RoleBonusSurveyScannerRange INSTANCE = new RoleBonusSurveyScannerRange();
 
     @Override
     public int getId() {

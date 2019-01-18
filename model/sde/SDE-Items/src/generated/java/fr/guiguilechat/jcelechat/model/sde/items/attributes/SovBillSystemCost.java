@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SovBillSystemCost
     extends IntAttribute
 {
-    public final static SovBillSystemCost INSTANCE = new SovBillSystemCost();
+    public static final SovBillSystemCost INSTANCE = new SovBillSystemCost();
 
     @Override
     public int getId() {

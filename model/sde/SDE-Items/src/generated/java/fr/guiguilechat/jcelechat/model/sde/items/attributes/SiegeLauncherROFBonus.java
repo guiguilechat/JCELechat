@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SiegeLauncherROFBonus
     extends IntAttribute
 {
-    public final static SiegeLauncherROFBonus INSTANCE = new SiegeLauncherROFBonus();
+    public static final SiegeLauncherROFBonus INSTANCE = new SiegeLauncherROFBonus();
 
     @Override
     public int getId() {

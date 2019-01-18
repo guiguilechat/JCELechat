@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AreaOfEffectBonus
     extends IntAttribute
 {
-    public final static AreaOfEffectBonus INSTANCE = new AreaOfEffectBonus();
+    public static final AreaOfEffectBonus INSTANCE = new AreaOfEffectBonus();
 
     @Override
     public int getId() {

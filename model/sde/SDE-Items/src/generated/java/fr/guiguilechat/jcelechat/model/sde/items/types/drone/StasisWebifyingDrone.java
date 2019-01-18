@@ -185,7 +185,7 @@ public class StasisWebifyingDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
-    public final static StasisWebifyingDrone.MetaGroup METAGROUP = new StasisWebifyingDrone.MetaGroup();
+    public static final StasisWebifyingDrone.MetaGroup METAGROUP = new StasisWebifyingDrone.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -301,7 +301,7 @@ public class StasisWebifyingDrone
     public static class MetaGroup
         implements IMetaGroup<StasisWebifyingDrone>
     {
-        public final static String RESOURCE_PATH = "SDE/items/drone/StasisWebifyingDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/drone/StasisWebifyingDrone.yaml";
         private Map<String, StasisWebifyingDrone> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerMinimumDistance
     extends IntAttribute
 {
-    public final static ControlTowerMinimumDistance INSTANCE = new ControlTowerMinimumDistance();
+    public static final ControlTowerMinimumDistance INSTANCE = new ControlTowerMinimumDistance();
 
     @Override
     public int getId() {

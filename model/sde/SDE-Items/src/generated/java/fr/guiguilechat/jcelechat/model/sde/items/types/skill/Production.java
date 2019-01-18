@@ -86,7 +86,7 @@ public class Production
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
-    public final static Production.MetaGroup METAGROUP = new Production.MetaGroup();
+    public static final Production.MetaGroup METAGROUP = new Production.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class Production
     public static class MetaGroup
         implements IMetaGroup<Production>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Production.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Production.yaml";
         private Map<String, Production> cache = (null);
 
         @Override

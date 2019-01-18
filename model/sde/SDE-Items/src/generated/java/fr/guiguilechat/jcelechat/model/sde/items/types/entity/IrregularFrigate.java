@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class IrregularFrigate
     extends Entity
 {
-    public final static IrregularFrigate.MetaGroup METAGROUP = new IrregularFrigate.MetaGroup();
+    public static final IrregularFrigate.MetaGroup METAGROUP = new IrregularFrigate.MetaGroup();
 
     @Override
     public IMetaGroup<IrregularFrigate> getGroup() {
@@ -22,7 +22,7 @@ public class IrregularFrigate
     public static class MetaGroup
         implements IMetaGroup<IrregularFrigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/IrregularFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/IrregularFrigate.yaml";
         private Map<String, IrregularFrigate> cache = (null);
 
         @Override

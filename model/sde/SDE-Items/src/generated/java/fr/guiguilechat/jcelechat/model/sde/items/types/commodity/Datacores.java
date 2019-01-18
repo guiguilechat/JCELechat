@@ -30,7 +30,7 @@ public class Datacores
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
-    public final static Datacores.MetaGroup METAGROUP = new Datacores.MetaGroup();
+    public static final Datacores.MetaGroup METAGROUP = new Datacores.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +58,7 @@ public class Datacores
     public static class MetaGroup
         implements IMetaGroup<Datacores>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Datacores.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Datacores.yaml";
         private Map<String, Datacores> cache = (null);
 
         @Override

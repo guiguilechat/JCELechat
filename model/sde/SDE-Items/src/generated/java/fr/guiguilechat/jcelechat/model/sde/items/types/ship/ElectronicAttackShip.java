@@ -206,7 +206,7 @@ public class ElectronicAttackShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static ElectronicAttackShip.MetaGroup METAGROUP = new ElectronicAttackShip.MetaGroup();
+    public static final ElectronicAttackShip.MetaGroup METAGROUP = new ElectronicAttackShip.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -334,7 +334,7 @@ public class ElectronicAttackShip
     public static class MetaGroup
         implements IMetaGroup<ElectronicAttackShip>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/ElectronicAttackShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/ElectronicAttackShip.yaml";
         private Map<String, ElectronicAttackShip> cache = (null);
 
         @Override

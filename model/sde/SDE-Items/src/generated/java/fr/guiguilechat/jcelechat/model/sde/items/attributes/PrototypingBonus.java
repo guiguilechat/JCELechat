@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PrototypingBonus
     extends IntAttribute
 {
-    public final static PrototypingBonus INSTANCE = new PrototypingBonus();
+    public static final PrototypingBonus INSTANCE = new PrototypingBonus();
 
     @Override
     public int getId() {

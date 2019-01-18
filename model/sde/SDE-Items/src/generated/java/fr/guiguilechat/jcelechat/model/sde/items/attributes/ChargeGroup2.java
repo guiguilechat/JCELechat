@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ChargeGroup2
     extends IntAttribute
 {
-    public final static ChargeGroup2 INSTANCE = new ChargeGroup2();
+    public static final ChargeGroup2 INSTANCE = new ChargeGroup2();
 
     @Override
     public int getId() {

@@ -66,7 +66,7 @@ public class FlexShieldHardenerScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int ThermalDamageResistanceBonusBonus;
-    public final static FlexShieldHardenerScript.MetaGroup METAGROUP = new FlexShieldHardenerScript.MetaGroup();
+    public static final FlexShieldHardenerScript.MetaGroup METAGROUP = new FlexShieldHardenerScript.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -114,7 +114,7 @@ public class FlexShieldHardenerScript
     public static class MetaGroup
         implements IMetaGroup<FlexShieldHardenerScript>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/FlexShieldHardenerScript.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/FlexShieldHardenerScript.yaml";
         private Map<String, FlexShieldHardenerScript> cache = (null);
 
         @Override

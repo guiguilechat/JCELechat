@@ -235,7 +235,7 @@ public class SensorDampeningBattery
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static SensorDampeningBattery.MetaGroup METAGROUP = new SensorDampeningBattery.MetaGroup();
+    public static final SensorDampeningBattery.MetaGroup METAGROUP = new SensorDampeningBattery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -375,7 +375,7 @@ public class SensorDampeningBattery
     public static class MetaGroup
         implements IMetaGroup<SensorDampeningBattery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/SensorDampeningBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/SensorDampeningBattery.yaml";
         private Map<String, SensorDampeningBattery> cache = (null);
 
         @Override

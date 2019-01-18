@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IsCapitalSize
     extends IntAttribute
 {
-    public final static IsCapitalSize INSTANCE = new IsCapitalSize();
+    public static final IsCapitalSize INSTANCE = new IsCapitalSize();
 
     @Override
     public int getId() {

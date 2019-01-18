@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MassAddition
     extends IntAttribute
 {
-    public final static MassAddition INSTANCE = new MassAddition();
+    public static final MassAddition INSTANCE = new MassAddition();
 
     @Override
     public int getId() {

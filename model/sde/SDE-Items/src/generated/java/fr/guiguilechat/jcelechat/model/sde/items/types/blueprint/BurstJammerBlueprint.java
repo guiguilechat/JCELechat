@@ -32,7 +32,7 @@ public class BurstJammerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static BurstJammerBlueprint.MetaGroup METAGROUP = new BurstJammerBlueprint.MetaGroup();
+    public static final BurstJammerBlueprint.MetaGroup METAGROUP = new BurstJammerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class BurstJammerBlueprint
     public static class MetaGroup
         implements IMetaGroup<BurstJammerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/BurstJammerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/BurstJammerBlueprint.yaml";
         private Map<String, BurstJammerBlueprint> cache = (null);
 
         @Override

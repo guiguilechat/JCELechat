@@ -23,7 +23,7 @@ public class StarbaseECMJammingArrayBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static StarbaseECMJammingArrayBlueprints.MetaGroup METAGROUP = new StarbaseECMJammingArrayBlueprints.MetaGroup();
+    public static final StarbaseECMJammingArrayBlueprints.MetaGroup METAGROUP = new StarbaseECMJammingArrayBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class StarbaseECMJammingArrayBlueprints
     public static class MetaGroup
         implements IMetaGroup<StarbaseECMJammingArrayBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseECMJammingArrayBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/StarbaseECMJammingArrayBlueprints.yaml";
         private Map<String, StarbaseECMJammingArrayBlueprints> cache = (null);
 
         @Override

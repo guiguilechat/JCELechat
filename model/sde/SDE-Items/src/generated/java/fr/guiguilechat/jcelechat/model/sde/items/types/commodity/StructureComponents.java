@@ -23,7 +23,7 @@ public class StructureComponents
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
-    public final static StructureComponents.MetaGroup METAGROUP = new StructureComponents.MetaGroup();
+    public static final StructureComponents.MetaGroup METAGROUP = new StructureComponents.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class StructureComponents
     public static class MetaGroup
         implements IMetaGroup<StructureComponents>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/StructureComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/StructureComponents.yaml";
         private Map<String, StructureComponents> cache = (null);
 
         @Override

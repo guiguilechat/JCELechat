@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ImplantSetThukker
     extends DoubleAttribute
 {
-    public final static ImplantSetThukker INSTANCE = new ImplantSetThukker();
+    public static final ImplantSetThukker INSTANCE = new ImplantSetThukker();
 
     @Override
     public int getId() {

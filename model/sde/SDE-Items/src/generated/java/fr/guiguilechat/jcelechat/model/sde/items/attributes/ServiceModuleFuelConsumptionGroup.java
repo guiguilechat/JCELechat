@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ServiceModuleFuelConsumptionGroup
     extends IntAttribute
 {
-    public final static ServiceModuleFuelConsumptionGroup INSTANCE = new ServiceModuleFuelConsumptionGroup();
+    public static final ServiceModuleFuelConsumptionGroup INSTANCE = new ServiceModuleFuelConsumptionGroup();
 
     @Override
     public int getId() {

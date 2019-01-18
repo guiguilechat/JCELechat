@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CloakingTargetingDelay
     extends IntAttribute
 {
-    public final static CloakingTargetingDelay INSTANCE = new CloakingTargetingDelay();
+    public static final CloakingTargetingDelay INSTANCE = new CloakingTargetingDelay();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MedSlots
     extends IntAttribute
 {
-    public final static MedSlots INSTANCE = new MedSlots();
+    public static final MedSlots INSTANCE = new MedSlots();
 
     @Override
     public int getId() {

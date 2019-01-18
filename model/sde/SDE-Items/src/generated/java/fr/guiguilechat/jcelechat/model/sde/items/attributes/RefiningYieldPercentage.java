@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RefiningYieldPercentage
     extends IntAttribute
 {
-    public final static RefiningYieldPercentage INSTANCE = new RefiningYieldPercentage();
+    public static final RefiningYieldPercentage INSTANCE = new RefiningYieldPercentage();
 
     @Override
     public int getId() {

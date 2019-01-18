@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class MinTargetVelDmgMultiplier
     extends DoubleAttribute
 {
-    public final static MinTargetVelDmgMultiplier INSTANCE = new MinTargetVelDmgMultiplier();
+    public static final MinTargetVelDmgMultiplier INSTANCE = new MinTargetVelDmgMultiplier();
 
     @Override
     public int getId() {

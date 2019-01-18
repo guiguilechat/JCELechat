@@ -32,7 +32,7 @@ public class CoProcessorBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CoProcessorBlueprint.MetaGroup METAGROUP = new CoProcessorBlueprint.MetaGroup();
+    public static final CoProcessorBlueprint.MetaGroup METAGROUP = new CoProcessorBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class CoProcessorBlueprint
     public static class MetaGroup
         implements IMetaGroup<CoProcessorBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CoProcessorBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CoProcessorBlueprint.yaml";
         private Map<String, CoProcessorBlueprint> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RoleBonusOverheatDST
     extends IntAttribute
 {
-    public final static RoleBonusOverheatDST INSTANCE = new RoleBonusOverheatDST();
+    public static final RoleBonusOverheatDST INSTANCE = new RoleBonusOverheatDST();
 
     @Override
     public int getId() {

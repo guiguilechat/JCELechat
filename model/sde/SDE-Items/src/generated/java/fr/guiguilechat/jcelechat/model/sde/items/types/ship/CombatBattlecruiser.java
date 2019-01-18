@@ -242,7 +242,7 @@ public class CombatBattlecruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static CombatBattlecruiser.MetaGroup METAGROUP = new CombatBattlecruiser.MetaGroup();
+    public static final CombatBattlecruiser.MetaGroup METAGROUP = new CombatBattlecruiser.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -386,7 +386,7 @@ public class CombatBattlecruiser
     public static class MetaGroup
         implements IMetaGroup<CombatBattlecruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/CombatBattlecruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/CombatBattlecruiser.yaml";
         private Map<String, CombatBattlecruiser> cache = (null);
 
         @Override

@@ -32,7 +32,7 @@ public class RemoteTrackingComputerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RemoteTrackingComputerBlueprint.MetaGroup METAGROUP = new RemoteTrackingComputerBlueprint.MetaGroup();
+    public static final RemoteTrackingComputerBlueprint.MetaGroup METAGROUP = new RemoteTrackingComputerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class RemoteTrackingComputerBlueprint
     public static class MetaGroup
         implements IMetaGroup<RemoteTrackingComputerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/RemoteTrackingComputerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/RemoteTrackingComputerBlueprint.yaml";
         private Map<String, RemoteTrackingComputerBlueprint> cache = (null);
 
         @Override

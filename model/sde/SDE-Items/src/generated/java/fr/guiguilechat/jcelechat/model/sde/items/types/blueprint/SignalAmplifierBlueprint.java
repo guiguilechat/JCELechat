@@ -32,7 +32,7 @@ public class SignalAmplifierBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SignalAmplifierBlueprint.MetaGroup METAGROUP = new SignalAmplifierBlueprint.MetaGroup();
+    public static final SignalAmplifierBlueprint.MetaGroup METAGROUP = new SignalAmplifierBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class SignalAmplifierBlueprint
     public static class MetaGroup
         implements IMetaGroup<SignalAmplifierBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SignalAmplifierBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SignalAmplifierBlueprint.yaml";
         private Map<String, SignalAmplifierBlueprint> cache = (null);
 
         @Override

@@ -71,12 +71,6 @@ items:
     name: ♦ Cruor
     published: false
     volume: 28600.0
-  ♦ Daredevil:
-    id: 46058
-    mass: 823000.0
-    name: ♦ Daredevil
-    published: false
-    volume: 26500.0
   ♦ Dramiel:
     id: 46061
     mass: 950000.0
@@ -156,7 +150,7 @@ items:
     published: false
     volume: 10000.0
   ♦ Punisher:
-    id: 46066
+    id: 43596
     mass: 1190000.0
     name: ♦ Punisher
     published: false
@@ -186,7 +180,7 @@ items:
     published: false
     volume: 17400.0
   ♦ Succubus:
-    id: 44108
+    id: 44107
     mass: 965000.0
     name: ♦ Succubus
     published: false
@@ -197,6 +191,12 @@ items:
     name: ♦ Swordspine
     published: false
     volume: 21120.0
+  ♦ Tormentor:
+    id: 42841
+    mass: 1080000.0
+    name: ♦ Tormentor
+    published: false
+    volume: 24398.0
   ♦ Tristan:
     id: 43578
     mass: 956000.0
@@ -239,15 +239,21 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  ��� Merlin:
-    id: 43566
-    mass: 997000.0
-    name: ��� Merlin
+  ��� Daredevil:
+    id: 46058
+    mass: 823000.0
+    name: ��� Daredevil
     published: false
-    volume: 16500.0
-  ��� Tormentor:
-    id: 42841
-    mass: 1080000.0
-    name: ��� Tormentor
+    volume: 26500.0
+  ��� Punisher:
+    id: 46066
+    mass: 1190000.0
+    name: ��� Punisher
     published: false
-    volume: 24398.0
+    volume: 28600.0
+  ��� Succubus:
+    id: 44108
+    mass: 965000.0
+    name: ��� Succubus
+    published: false
+    volume: 28600.0

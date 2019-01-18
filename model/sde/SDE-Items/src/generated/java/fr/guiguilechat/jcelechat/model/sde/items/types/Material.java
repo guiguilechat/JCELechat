@@ -22,7 +22,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.material.SalvagedMaterial
 public abstract class Material
     extends Item
 {
-    public final static Material.MetaCat METACAT = new Material.MetaCat();
+    public static final Material.MetaCat METACAT = new Material.MetaCat();
 
     @Override
     public IMetaCategory<Material> getCategory() {

@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.cells.PhysicalPortals;
 public abstract class Cells
     extends Item
 {
-    public final static Cells.MetaCat METACAT = new Cells.MetaCat();
+    public static final Cells.MetaCat METACAT = new Cells.MetaCat();
 
     @Override
     public IMetaCategory<Cells> getCategory() {

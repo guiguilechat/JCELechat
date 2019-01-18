@@ -153,7 +153,7 @@ public class StasisWeb
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StasisWeb.MetaGroup METAGROUP = new StasisWeb.MetaGroup();
+    public static final StasisWeb.MetaGroup METAGROUP = new StasisWeb.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -245,7 +245,7 @@ public class StasisWeb
     public static class MetaGroup
         implements IMetaGroup<StasisWeb>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/StasisWeb.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/StasisWeb.yaml";
         private Map<String, StasisWeb> cache = (null);
 
         @Override

@@ -79,7 +79,7 @@ public class ExtractorControlUnits
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerLoad;
-    public final static ExtractorControlUnits.MetaGroup METAGROUP = new ExtractorControlUnits.MetaGroup();
+    public static final ExtractorControlUnits.MetaGroup METAGROUP = new ExtractorControlUnits.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class ExtractorControlUnits
     public static class MetaGroup
         implements IMetaGroup<ExtractorControlUnits>
     {
-        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/ExtractorControlUnits.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/ExtractorControlUnits.yaml";
         private Map<String, ExtractorControlUnits> cache = (null);
 
         @Override

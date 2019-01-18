@@ -354,7 +354,7 @@ public class ForceReconShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static ForceReconShip.MetaGroup METAGROUP = new ForceReconShip.MetaGroup();
+    public static final ForceReconShip.MetaGroup METAGROUP = new ForceReconShip.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -562,7 +562,7 @@ public class ForceReconShip
     public static class MetaGroup
         implements IMetaGroup<ForceReconShip>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/ForceReconShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/ForceReconShip.yaml";
         private Map<String, ForceReconShip> cache = (null);
 
         @Override

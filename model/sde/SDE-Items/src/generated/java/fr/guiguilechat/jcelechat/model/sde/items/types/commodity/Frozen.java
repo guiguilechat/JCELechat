@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Frozen
     extends Commodity
 {
-    public final static Frozen.MetaGroup METAGROUP = new Frozen.MetaGroup();
+    public static final Frozen.MetaGroup METAGROUP = new Frozen.MetaGroup();
 
     @Override
     public IMetaGroup<Frozen> getGroup() {
@@ -22,7 +22,7 @@ public class Frozen
     public static class MetaGroup
         implements IMetaGroup<Frozen>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Frozen.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Frozen.yaml";
         private Map<String, Frozen> cache = (null);
 
         @Override

@@ -37,7 +37,7 @@ public class Gneiss
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Gneiss.MetaGroup METAGROUP = new Gneiss.MetaGroup();
+    public static final Gneiss.MetaGroup METAGROUP = new Gneiss.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Gneiss
     public static class MetaGroup
         implements IMetaGroup<Gneiss>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Gneiss.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Gneiss.yaml";
         private Map<String, Gneiss> cache = (null);
 
         @Override

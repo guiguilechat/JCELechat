@@ -132,7 +132,7 @@ public class ShieldBooster
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldBooster.MetaGroup METAGROUP = new ShieldBooster.MetaGroup();
+    public static final ShieldBooster.MetaGroup METAGROUP = new ShieldBooster.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -212,7 +212,7 @@ public class ShieldBooster
     public static class MetaGroup
         implements IMetaGroup<ShieldBooster>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ShieldBooster.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ShieldBooster.yaml";
         private Map<String, ShieldBooster> cache = (null);
 
         @Override

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class HiddenZenithGallenteFrigate
     extends Entity
 {
-    public final static HiddenZenithGallenteFrigate.MetaGroup METAGROUP = new HiddenZenithGallenteFrigate.MetaGroup();
+    public static final HiddenZenithGallenteFrigate.MetaGroup METAGROUP = new HiddenZenithGallenteFrigate.MetaGroup();
 
     @Override
     public IMetaGroup<HiddenZenithGallenteFrigate> getGroup() {
@@ -22,7 +22,7 @@ public class HiddenZenithGallenteFrigate
     public static class MetaGroup
         implements IMetaGroup<HiddenZenithGallenteFrigate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/HiddenZenithGallenteFrigate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/HiddenZenithGallenteFrigate.yaml";
         private Map<String, HiddenZenithGallenteFrigate> cache = (null);
 
         @Override

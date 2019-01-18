@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class NonDiminishingSkillInjectorUses
     extends IntAttribute
 {
-    public final static NonDiminishingSkillInjectorUses INSTANCE = new NonDiminishingSkillInjectorUses();
+    public static final NonDiminishingSkillInjectorUses INSTANCE = new NonDiminishingSkillInjectorUses();
 
     @Override
     public int getId() {

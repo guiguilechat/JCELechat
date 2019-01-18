@@ -23,7 +23,7 @@ public class MobileDecoyUnitBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static MobileDecoyUnitBlueprint.MetaGroup METAGROUP = new MobileDecoyUnitBlueprint.MetaGroup();
+    public static final MobileDecoyUnitBlueprint.MetaGroup METAGROUP = new MobileDecoyUnitBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class MobileDecoyUnitBlueprint
     public static class MetaGroup
         implements IMetaGroup<MobileDecoyUnitBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileDecoyUnitBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MobileDecoyUnitBlueprint.yaml";
         private Map<String, MobileDecoyUnitBlueprint> cache = (null);
 
         @Override

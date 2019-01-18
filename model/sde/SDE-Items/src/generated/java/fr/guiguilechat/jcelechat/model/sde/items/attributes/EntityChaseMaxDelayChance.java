@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntityChaseMaxDelayChance
     extends IntAttribute
 {
-    public final static EntityChaseMaxDelayChance INSTANCE = new EntityChaseMaxDelayChance();
+    public static final EntityChaseMaxDelayChance INSTANCE = new EntityChaseMaxDelayChance();
 
     @Override
     public int getId() {

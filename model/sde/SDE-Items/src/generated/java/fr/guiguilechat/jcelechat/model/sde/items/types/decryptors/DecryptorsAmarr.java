@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class DecryptorsAmarr
     extends Decryptors
 {
-    public final static DecryptorsAmarr.MetaGroup METAGROUP = new DecryptorsAmarr.MetaGroup();
+    public static final DecryptorsAmarr.MetaGroup METAGROUP = new DecryptorsAmarr.MetaGroup();
 
     @Override
     public IMetaGroup<DecryptorsAmarr> getGroup() {
@@ -22,7 +22,7 @@ public class DecryptorsAmarr
     public static class MetaGroup
         implements IMetaGroup<DecryptorsAmarr>
     {
-        public final static String RESOURCE_PATH = "SDE/items/decryptors/DecryptorsAmarr.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/decryptors/DecryptorsAmarr.yaml";
         private Map<String, DecryptorsAmarr> cache = (null);
 
         @Override

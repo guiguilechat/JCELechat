@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AoeFalloff
     extends IntAttribute
 {
-    public final static AoeFalloff INSTANCE = new AoeFalloff();
+    public static final AoeFalloff INSTANCE = new AoeFalloff();
 
     @Override
     public int getId() {

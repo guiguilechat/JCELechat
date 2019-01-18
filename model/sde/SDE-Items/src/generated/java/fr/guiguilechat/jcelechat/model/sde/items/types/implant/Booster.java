@@ -325,7 +325,7 @@ public class Booster
     @Stackable(true)
     @DefaultIntValue(0)
     public int WillpowerBonus;
-    public final static Booster.MetaGroup METAGROUP = new Booster.MetaGroup();
+    public static final Booster.MetaGroup METAGROUP = new Booster.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -521,7 +521,7 @@ public class Booster
     public static class MetaGroup
         implements IMetaGroup<Booster>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/Booster.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/Booster.yaml";
         private Map<String, Booster> cache = (null);
 
         @Override

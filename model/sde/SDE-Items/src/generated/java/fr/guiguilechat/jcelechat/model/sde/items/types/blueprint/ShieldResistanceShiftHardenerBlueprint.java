@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class ShieldResistanceShiftHardenerBlueprint
     extends Blueprint
 {
-    public final static ShieldResistanceShiftHardenerBlueprint.MetaGroup METAGROUP = new ShieldResistanceShiftHardenerBlueprint.MetaGroup();
+    public static final ShieldResistanceShiftHardenerBlueprint.MetaGroup METAGROUP = new ShieldResistanceShiftHardenerBlueprint.MetaGroup();
 
     @Override
     public IMetaGroup<ShieldResistanceShiftHardenerBlueprint> getGroup() {
@@ -22,7 +22,7 @@ public class ShieldResistanceShiftHardenerBlueprint
     public static class MetaGroup
         implements IMetaGroup<ShieldResistanceShiftHardenerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldResistanceShiftHardenerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ShieldResistanceShiftHardenerBlueprint.yaml";
         private Map<String, ShieldResistanceShiftHardenerBlueprint> cache = (null);
 
         @Override

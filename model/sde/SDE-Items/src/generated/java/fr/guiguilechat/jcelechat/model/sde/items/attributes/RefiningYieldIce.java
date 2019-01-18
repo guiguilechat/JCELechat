@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RefiningYieldIce
     extends DoubleAttribute
 {
-    public final static RefiningYieldIce INSTANCE = new RefiningYieldIce();
+    public static final RefiningYieldIce INSTANCE = new RefiningYieldIce();
 
     @Override
     public int getId() {

@@ -75,7 +75,7 @@ public class RigResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static RigResourceProcessing.MetaGroup METAGROUP = new RigResourceProcessing.MetaGroup();
+    public static final RigResourceProcessing.MetaGroup METAGROUP = new RigResourceProcessing.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -127,7 +127,7 @@ public class RigResourceProcessing
     public static class MetaGroup
         implements IMetaGroup<RigResourceProcessing>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigResourceProcessing.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigResourceProcessing.yaml";
         private Map<String, RigResourceProcessing> cache = (null);
 
         @Override

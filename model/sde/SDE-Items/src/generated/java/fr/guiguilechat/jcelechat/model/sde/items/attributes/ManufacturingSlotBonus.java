@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ManufacturingSlotBonus
     extends IntAttribute
 {
-    public final static ManufacturingSlotBonus INSTANCE = new ManufacturingSlotBonus();
+    public static final ManufacturingSlotBonus INSTANCE = new ManufacturingSlotBonus();
 
     @Override
     public int getId() {

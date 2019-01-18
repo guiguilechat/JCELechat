@@ -269,7 +269,7 @@ public class StrategicCruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static StrategicCruiser.MetaGroup METAGROUP = new StrategicCruiser.MetaGroup();
+    public static final StrategicCruiser.MetaGroup METAGROUP = new StrategicCruiser.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -433,7 +433,7 @@ public class StrategicCruiser
     public static class MetaGroup
         implements IMetaGroup<StrategicCruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/StrategicCruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/StrategicCruiser.yaml";
         private Map<String, StrategicCruiser> cache = (null);
 
         @Override

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class DrifterReinforcements
     extends Entity
 {
-    public final static DrifterReinforcements.MetaGroup METAGROUP = new DrifterReinforcements.MetaGroup();
+    public static final DrifterReinforcements.MetaGroup METAGROUP = new DrifterReinforcements.MetaGroup();
 
     @Override
     public IMetaGroup<DrifterReinforcements> getGroup() {
@@ -22,7 +22,7 @@ public class DrifterReinforcements
     public static class MetaGroup
         implements IMetaGroup<DrifterReinforcements>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/DrifterReinforcements.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/DrifterReinforcements.yaml";
         private Map<String, DrifterReinforcements> cache = (null);
 
         @Override

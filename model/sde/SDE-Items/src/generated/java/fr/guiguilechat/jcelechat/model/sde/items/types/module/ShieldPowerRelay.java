@@ -90,7 +90,7 @@ public class ShieldPowerRelay
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldPowerRelay.MetaGroup METAGROUP = new ShieldPowerRelay.MetaGroup();
+    public static final ShieldPowerRelay.MetaGroup METAGROUP = new ShieldPowerRelay.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class ShieldPowerRelay
     public static class MetaGroup
         implements IMetaGroup<ShieldPowerRelay>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ShieldPowerRelay.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ShieldPowerRelay.yaml";
         private Map<String, ShieldPowerRelay> cache = (null);
 
         @Override

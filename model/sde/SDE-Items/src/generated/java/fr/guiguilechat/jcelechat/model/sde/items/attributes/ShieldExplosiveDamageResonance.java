@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ShieldExplosiveDamageResonance
     extends DoubleAttribute
 {
-    public final static ShieldExplosiveDamageResonance INSTANCE = new ShieldExplosiveDamageResonance();
+    public static final ShieldExplosiveDamageResonance INSTANCE = new ShieldExplosiveDamageResonance();
 
     @Override
     public int getId() {

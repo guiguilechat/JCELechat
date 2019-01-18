@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AttributeThukkerEngRigMatBonus
     extends DoubleAttribute
 {
-    public final static AttributeThukkerEngRigMatBonus INSTANCE = new AttributeThukkerEngRigMatBonus();
+    public static final AttributeThukkerEngRigMatBonus INSTANCE = new AttributeThukkerEngRigMatBonus();
 
     @Override
     public int getId() {

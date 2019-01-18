@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EnergyNeutralizerEntityChance
     extends IntAttribute
 {
-    public final static EnergyNeutralizerEntityChance INSTANCE = new EnergyNeutralizerEntityChance();
+    public static final EnergyNeutralizerEntityChance INSTANCE = new EnergyNeutralizerEntityChance();
 
     @Override
     public int getId() {

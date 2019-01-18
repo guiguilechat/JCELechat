@@ -39,7 +39,7 @@ public class BattleshipBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static BattleshipBlueprint.MetaGroup METAGROUP = new BattleshipBlueprint.MetaGroup();
+    public static final BattleshipBlueprint.MetaGroup METAGROUP = new BattleshipBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -71,7 +71,7 @@ public class BattleshipBlueprint
     public static class MetaGroup
         implements IMetaGroup<BattleshipBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/BattleshipBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/BattleshipBlueprint.yaml";
         private Map<String, BattleshipBlueprint> cache = (null);
 
         @Override

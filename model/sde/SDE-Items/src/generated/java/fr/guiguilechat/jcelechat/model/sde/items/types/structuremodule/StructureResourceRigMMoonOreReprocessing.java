@@ -123,7 +123,7 @@ public class StructureResourceRigMMoonOreReprocessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureResourceRigMMoonOreReprocessing.MetaGroup METAGROUP = new StructureResourceRigMMoonOreReprocessing.MetaGroup();
+    public static final StructureResourceRigMMoonOreReprocessing.MetaGroup METAGROUP = new StructureResourceRigMMoonOreReprocessing.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -203,7 +203,7 @@ public class StructureResourceRigMMoonOreReprocessing
     public static class MetaGroup
         implements IMetaGroup<StructureResourceRigMMoonOreReprocessing>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceRigMMoonOreReprocessing.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceRigMMoonOreReprocessing.yaml";
         private Map<String, StructureResourceRigMMoonOreReprocessing> cache = (null);
 
         @Override

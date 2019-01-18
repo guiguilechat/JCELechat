@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DoomsdayEnergyNeutAmount
     extends IntAttribute
 {
-    public final static DoomsdayEnergyNeutAmount INSTANCE = new DoomsdayEnergyNeutAmount();
+    public static final DoomsdayEnergyNeutAmount INSTANCE = new DoomsdayEnergyNeutAmount();
 
     @Override
     public int getId() {

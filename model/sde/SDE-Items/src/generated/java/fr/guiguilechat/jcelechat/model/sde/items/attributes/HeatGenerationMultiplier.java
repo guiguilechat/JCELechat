@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class HeatGenerationMultiplier
     extends DoubleAttribute
 {
-    public final static HeatGenerationMultiplier INSTANCE = new HeatGenerationMultiplier();
+    public static final HeatGenerationMultiplier INSTANCE = new HeatGenerationMultiplier();
 
     @Override
     public int getId() {

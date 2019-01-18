@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RechargeRate
     extends DoubleAttribute
 {
-    public final static RechargeRate INSTANCE = new RechargeRate();
+    public static final RechargeRate INSTANCE = new RechargeRate();
 
     @Override
     public int getId() {

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Biohazard
     extends Commodity
 {
-    public final static Biohazard.MetaGroup METAGROUP = new Biohazard.MetaGroup();
+    public static final Biohazard.MetaGroup METAGROUP = new Biohazard.MetaGroup();
 
     @Override
     public IMetaGroup<Biohazard> getGroup() {
@@ -22,7 +22,7 @@ public class Biohazard
     public static class MetaGroup
         implements IMetaGroup<Biohazard>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/Biohazard.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/Biohazard.yaml";
         private Map<String, Biohazard> cache = (null);
 
         @Override

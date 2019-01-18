@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class VelocityPenaltyReduction
     extends IntAttribute
 {
-    public final static VelocityPenaltyReduction INSTANCE = new VelocityPenaltyReduction();
+    public static final VelocityPenaltyReduction INSTANCE = new VelocityPenaltyReduction();
 
     @Override
     public int getId() {

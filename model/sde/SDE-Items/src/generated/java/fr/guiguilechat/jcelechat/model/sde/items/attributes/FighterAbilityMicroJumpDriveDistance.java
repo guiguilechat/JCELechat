@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityMicroJumpDriveDistance
     extends IntAttribute
 {
-    public final static FighterAbilityMicroJumpDriveDistance INSTANCE = new FighterAbilityMicroJumpDriveDistance();
+    public static final FighterAbilityMicroJumpDriveDistance INSTANCE = new FighterAbilityMicroJumpDriveDistance();
 
     @Override
     public int getId() {

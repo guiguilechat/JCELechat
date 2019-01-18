@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCDreadnought
     extends Entity
 {
-    public final static NPCDreadnought.MetaGroup METAGROUP = new NPCDreadnought.MetaGroup();
+    public static final NPCDreadnought.MetaGroup METAGROUP = new NPCDreadnought.MetaGroup();
 
     @Override
     public IMetaGroup<NPCDreadnought> getGroup() {
@@ -22,7 +22,7 @@ public class NPCDreadnought
     public static class MetaGroup
         implements IMetaGroup<NPCDreadnought>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/NPCDreadnought.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/NPCDreadnought.yaml";
         private Map<String, NPCDreadnought> cache = (null);
 
         @Override

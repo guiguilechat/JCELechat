@@ -228,7 +228,7 @@ public class EnergyNeutralizingBattery
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static EnergyNeutralizingBattery.MetaGroup METAGROUP = new EnergyNeutralizingBattery.MetaGroup();
+    public static final EnergyNeutralizingBattery.MetaGroup METAGROUP = new EnergyNeutralizingBattery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -364,7 +364,7 @@ public class EnergyNeutralizingBattery
     public static class MetaGroup
         implements IMetaGroup<EnergyNeutralizingBattery>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/EnergyNeutralizingBattery.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/EnergyNeutralizingBattery.yaml";
         private Map<String, EnergyNeutralizingBattery> cache = (null);
 
         @Override

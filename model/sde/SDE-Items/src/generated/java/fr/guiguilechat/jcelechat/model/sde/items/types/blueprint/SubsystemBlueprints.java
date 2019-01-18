@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class SubsystemBlueprints
     extends Blueprint
 {
-    public final static SubsystemBlueprints.MetaGroup METAGROUP = new SubsystemBlueprints.MetaGroup();
+    public static final SubsystemBlueprints.MetaGroup METAGROUP = new SubsystemBlueprints.MetaGroup();
 
     @Override
     public IMetaGroup<SubsystemBlueprints> getGroup() {
@@ -22,7 +22,7 @@ public class SubsystemBlueprints
     public static class MetaGroup
         implements IMetaGroup<SubsystemBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SubsystemBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SubsystemBlueprints.yaml";
         private Map<String, SubsystemBlueprints> cache = (null);
 
         @Override

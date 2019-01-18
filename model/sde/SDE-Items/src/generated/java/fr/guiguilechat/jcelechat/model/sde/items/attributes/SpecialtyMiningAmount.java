@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialtyMiningAmount
     extends IntAttribute
 {
-    public final static SpecialtyMiningAmount INSTANCE = new SpecialtyMiningAmount();
+    public static final SpecialtyMiningAmount INSTANCE = new SpecialtyMiningAmount();
 
     @Override
     public int getId() {

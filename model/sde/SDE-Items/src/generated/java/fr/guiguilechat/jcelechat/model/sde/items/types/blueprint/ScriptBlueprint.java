@@ -31,7 +31,7 @@ public class ScriptBlueprint
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
-    public final static ScriptBlueprint.MetaGroup METAGROUP = new ScriptBlueprint.MetaGroup();
+    public static final ScriptBlueprint.MetaGroup METAGROUP = new ScriptBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -59,7 +59,7 @@ public class ScriptBlueprint
     public static class MetaGroup
         implements IMetaGroup<ScriptBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ScriptBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ScriptBlueprint.yaml";
         private Map<String, ScriptBlueprint> cache = (null);
 
         @Override

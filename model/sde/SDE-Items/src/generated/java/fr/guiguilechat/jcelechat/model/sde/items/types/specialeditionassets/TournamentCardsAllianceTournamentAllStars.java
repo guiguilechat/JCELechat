@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class TournamentCardsAllianceTournamentAllStars
     extends SpecialEditionAssets
 {
-    public final static TournamentCardsAllianceTournamentAllStars.MetaGroup METAGROUP = new TournamentCardsAllianceTournamentAllStars.MetaGroup();
+    public static final TournamentCardsAllianceTournamentAllStars.MetaGroup METAGROUP = new TournamentCardsAllianceTournamentAllStars.MetaGroup();
 
     @Override
     public IMetaGroup<TournamentCardsAllianceTournamentAllStars> getGroup() {
@@ -22,7 +22,7 @@ public class TournamentCardsAllianceTournamentAllStars
     public static class MetaGroup
         implements IMetaGroup<TournamentCardsAllianceTournamentAllStars>
     {
-        public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/TournamentCardsAllianceTournamentAllStars.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/specialeditionassets/TournamentCardsAllianceTournamentAllStars.yaml";
         private Map<String, TournamentCardsAllianceTournamentAllStars> cache = (null);
 
         @Override

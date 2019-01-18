@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BoosterTurretOptimalRangePenalty
     extends IntAttribute
 {
-    public final static BoosterTurretOptimalRangePenalty INSTANCE = new BoosterTurretOptimalRangePenalty();
+    public static final BoosterTurretOptimalRangePenalty INSTANCE = new BoosterTurretOptimalRangePenalty();
 
     @Override
     public int getId() {

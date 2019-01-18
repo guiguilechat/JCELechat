@@ -23,7 +23,7 @@ public class CarrierBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static CarrierBlueprint.MetaGroup METAGROUP = new CarrierBlueprint.MetaGroup();
+    public static final CarrierBlueprint.MetaGroup METAGROUP = new CarrierBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class CarrierBlueprint
     public static class MetaGroup
         implements IMetaGroup<CarrierBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/CarrierBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/CarrierBlueprint.yaml";
         private Map<String, CarrierBlueprint> cache = (null);
 
         @Override

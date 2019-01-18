@@ -32,7 +32,7 @@ public class SensorBoosterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SensorBoosterBlueprint.MetaGroup METAGROUP = new SensorBoosterBlueprint.MetaGroup();
+    public static final SensorBoosterBlueprint.MetaGroup METAGROUP = new SensorBoosterBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class SensorBoosterBlueprint
     public static class MetaGroup
         implements IMetaGroup<SensorBoosterBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SensorBoosterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SensorBoosterBlueprint.yaml";
         private Map<String, SensorBoosterBlueprint> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StealthBomberLauncherCPU
     extends DoubleAttribute
 {
-    public final static StealthBomberLauncherCPU INSTANCE = new StealthBomberLauncherCPU();
+    public static final StealthBomberLauncherCPU INSTANCE = new StealthBomberLauncherCPU();
 
     @Override
     public int getId() {

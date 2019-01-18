@@ -32,7 +32,7 @@ public class ShieldResistanceAmplifierBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldResistanceAmplifierBlueprint.MetaGroup METAGROUP = new ShieldResistanceAmplifierBlueprint.MetaGroup();
+    public static final ShieldResistanceAmplifierBlueprint.MetaGroup METAGROUP = new ShieldResistanceAmplifierBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class ShieldResistanceAmplifierBlueprint
     public static class MetaGroup
         implements IMetaGroup<ShieldResistanceAmplifierBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldResistanceAmplifierBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ShieldResistanceAmplifierBlueprint.yaml";
         private Map<String, ShieldResistanceAmplifierBlueprint> cache = (null);
 
         @Override

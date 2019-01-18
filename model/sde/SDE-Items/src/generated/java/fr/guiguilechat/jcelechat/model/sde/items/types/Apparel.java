@@ -33,7 +33,7 @@ public abstract class Apparel
     @Stackable(true)
     @DefaultIntValue(2)
     public int Gender;
-    public final static Apparel.MetaCat METACAT = new Apparel.MetaCat();
+    public static final Apparel.MetaCat METACAT = new Apparel.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

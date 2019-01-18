@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PrimaryAttribute
     extends IntAttribute
 {
-    public final static PrimaryAttribute INSTANCE = new PrimaryAttribute();
+    public static final PrimaryAttribute INSTANCE = new PrimaryAttribute();
 
     @Override
     public int getId() {

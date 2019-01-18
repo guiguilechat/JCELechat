@@ -67,7 +67,7 @@ public class Shuttle
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipRoleBonusWarpSpeed;
-    public final static Shuttle.MetaGroup METAGROUP = new Shuttle.MetaGroup();
+    public static final Shuttle.MetaGroup METAGROUP = new Shuttle.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -111,7 +111,7 @@ public class Shuttle
     public static class MetaGroup
         implements IMetaGroup<Shuttle>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Shuttle.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Shuttle.yaml";
         private Map<String, Shuttle> cache = (null);
 
         @Override

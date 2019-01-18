@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class FWInfrastructureHub
     extends Entity
 {
-    public final static FWInfrastructureHub.MetaGroup METAGROUP = new FWInfrastructureHub.MetaGroup();
+    public static final FWInfrastructureHub.MetaGroup METAGROUP = new FWInfrastructureHub.MetaGroup();
 
     @Override
     public IMetaGroup<FWInfrastructureHub> getGroup() {
@@ -22,7 +22,7 @@ public class FWInfrastructureHub
     public static class MetaGroup
         implements IMetaGroup<FWInfrastructureHub>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/FWInfrastructureHub.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/FWInfrastructureHub.yaml";
         private Map<String, FWInfrastructureHub> cache = (null);
 
         @Override

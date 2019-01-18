@@ -144,7 +144,7 @@ public class SpecialEditionImplant
     @Stackable(true)
     @DefaultIntValue(0)
     public int WillpowerBonus;
-    public final static SpecialEditionImplant.MetaGroup METAGROUP = new SpecialEditionImplant.MetaGroup();
+    public static final SpecialEditionImplant.MetaGroup METAGROUP = new SpecialEditionImplant.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -236,7 +236,7 @@ public class SpecialEditionImplant
     public static class MetaGroup
         implements IMetaGroup<SpecialEditionImplant>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/SpecialEditionImplant.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/SpecialEditionImplant.yaml";
         private Map<String, SpecialEditionImplant> cache = (null);
 
         @Override

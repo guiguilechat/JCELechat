@@ -83,7 +83,7 @@ public class DroneControlRangeModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static DroneControlRangeModule.MetaGroup METAGROUP = new DroneControlRangeModule.MetaGroup();
+    public static final DroneControlRangeModule.MetaGroup METAGROUP = new DroneControlRangeModule.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class DroneControlRangeModule
     public static class MetaGroup
         implements IMetaGroup<DroneControlRangeModule>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/DroneControlRangeModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/DroneControlRangeModule.yaml";
         private Map<String, DroneControlRangeModule> cache = (null);
 
         @Override

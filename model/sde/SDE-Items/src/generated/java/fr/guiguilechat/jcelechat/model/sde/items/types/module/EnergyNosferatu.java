@@ -153,7 +153,7 @@ public class EnergyNosferatu
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static EnergyNosferatu.MetaGroup METAGROUP = new EnergyNosferatu.MetaGroup();
+    public static final EnergyNosferatu.MetaGroup METAGROUP = new EnergyNosferatu.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -245,7 +245,7 @@ public class EnergyNosferatu
     public static class MetaGroup
         implements IMetaGroup<EnergyNosferatu>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/EnergyNosferatu.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/EnergyNosferatu.yaml";
         private Map<String, EnergyNosferatu> cache = (null);
 
         @Override

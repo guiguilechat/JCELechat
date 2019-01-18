@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OnliningRequiresSovereigntyLevel
     extends IntAttribute
 {
-    public final static OnliningRequiresSovereigntyLevel INSTANCE = new OnliningRequiresSovereigntyLevel();
+    public static final OnliningRequiresSovereigntyLevel INSTANCE = new OnliningRequiresSovereigntyLevel();
 
     @Override
     public int getId() {

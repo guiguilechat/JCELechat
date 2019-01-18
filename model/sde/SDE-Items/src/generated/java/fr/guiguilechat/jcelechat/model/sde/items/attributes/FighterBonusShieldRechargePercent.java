@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FighterBonusShieldRechargePercent
     extends DoubleAttribute
 {
-    public final static FighterBonusShieldRechargePercent INSTANCE = new FighterBonusShieldRechargePercent();
+    public static final FighterBonusShieldRechargePercent INSTANCE = new FighterBonusShieldRechargePercent();
 
     @Override
     public int getId() {

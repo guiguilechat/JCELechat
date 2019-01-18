@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CommandStrengthBonus
     extends IntAttribute
 {
-    public final static CommandStrengthBonus INSTANCE = new CommandStrengthBonus();
+    public static final CommandStrengthBonus INSTANCE = new CommandStrengthBonus();
 
     @Override
     public int getId() {

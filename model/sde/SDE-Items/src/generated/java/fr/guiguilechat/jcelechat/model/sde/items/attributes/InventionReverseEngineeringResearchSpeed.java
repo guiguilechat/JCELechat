@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class InventionReverseEngineeringResearchSpeed
     extends IntAttribute
 {
-    public final static InventionReverseEngineeringResearchSpeed INSTANCE = new InventionReverseEngineeringResearchSpeed();
+    public static final InventionReverseEngineeringResearchSpeed INSTANCE = new InventionReverseEngineeringResearchSpeed();
 
     @Override
     public int getId() {

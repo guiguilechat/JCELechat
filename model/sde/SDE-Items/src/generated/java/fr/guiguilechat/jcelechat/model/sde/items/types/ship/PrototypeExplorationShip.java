@@ -37,7 +37,7 @@ public class PrototypeExplorationShip
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
-    public final static PrototypeExplorationShip.MetaGroup METAGROUP = new PrototypeExplorationShip.MetaGroup();
+    public static final PrototypeExplorationShip.MetaGroup METAGROUP = new PrototypeExplorationShip.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class PrototypeExplorationShip
     public static class MetaGroup
         implements IMetaGroup<PrototypeExplorationShip>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/PrototypeExplorationShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/PrototypeExplorationShip.yaml";
         private Map<String, PrototypeExplorationShip> cache = (null);
 
         @Override

@@ -51,7 +51,7 @@ public class AmarrEducation
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
-    public final static AmarrEducation.MetaGroup METAGROUP = new AmarrEducation.MetaGroup();
+    public static final AmarrEducation.MetaGroup METAGROUP = new AmarrEducation.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -91,7 +91,7 @@ public class AmarrEducation
     public static class MetaGroup
         implements IMetaGroup<AmarrEducation>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/AmarrEducation.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/AmarrEducation.yaml";
         private Map<String, AmarrEducation> cache = (null);
 
         @Override

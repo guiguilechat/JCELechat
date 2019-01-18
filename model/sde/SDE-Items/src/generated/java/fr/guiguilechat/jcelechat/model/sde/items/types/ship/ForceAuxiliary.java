@@ -522,7 +522,7 @@ public class ForceAuxiliary
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
-    public final static ForceAuxiliary.MetaGroup METAGROUP = new ForceAuxiliary.MetaGroup();
+    public static final ForceAuxiliary.MetaGroup METAGROUP = new ForceAuxiliary.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -826,7 +826,7 @@ public class ForceAuxiliary
     public static class MetaGroup
         implements IMetaGroup<ForceAuxiliary>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/ForceAuxiliary.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/ForceAuxiliary.yaml";
         private Map<String, ForceAuxiliary> cache = (null);
 
         @Override

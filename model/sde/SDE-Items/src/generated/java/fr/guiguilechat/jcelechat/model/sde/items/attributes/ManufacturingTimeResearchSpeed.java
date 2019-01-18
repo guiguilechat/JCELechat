@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ManufacturingTimeResearchSpeed
     extends IntAttribute
 {
-    public final static ManufacturingTimeResearchSpeed INSTANCE = new ManufacturingTimeResearchSpeed();
+    public static final ManufacturingTimeResearchSpeed INSTANCE = new ManufacturingTimeResearchSpeed();
 
     @Override
     public int getId() {

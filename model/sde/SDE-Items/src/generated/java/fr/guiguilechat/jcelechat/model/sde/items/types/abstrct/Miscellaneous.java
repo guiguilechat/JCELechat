@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Miscellaneous
     extends Abstrct
 {
-    public final static Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
+    public static final Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
 
     @Override
     public IMetaGroup<Miscellaneous> getGroup() {
@@ -22,7 +22,7 @@ public class Miscellaneous
     public static class MetaGroup
         implements IMetaGroup<Miscellaneous>
     {
-        public final static String RESOURCE_PATH = "SDE/items/abstrct/Miscellaneous.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/abstrct/Miscellaneous.yaml";
         private Map<String, Miscellaneous> cache = (null);
 
         @Override

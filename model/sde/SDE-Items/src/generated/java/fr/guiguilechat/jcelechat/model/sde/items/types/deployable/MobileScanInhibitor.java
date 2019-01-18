@@ -81,7 +81,7 @@ public class MobileScanInhibitor
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static MobileScanInhibitor.MetaGroup METAGROUP = new MobileScanInhibitor.MetaGroup();
+    public static final MobileScanInhibitor.MetaGroup METAGROUP = new MobileScanInhibitor.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -137,7 +137,7 @@ public class MobileScanInhibitor
     public static class MetaGroup
         implements IMetaGroup<MobileScanInhibitor>
     {
-        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileScanInhibitor.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileScanInhibitor.yaml";
         private Map<String, MobileScanInhibitor> cache = (null);
 
         @Override

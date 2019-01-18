@@ -146,7 +146,7 @@ public class DataMiners
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrength;
-    public final static DataMiners.MetaGroup METAGROUP = new DataMiners.MetaGroup();
+    public static final DataMiners.MetaGroup METAGROUP = new DataMiners.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -234,7 +234,7 @@ public class DataMiners
     public static class MetaGroup
         implements IMetaGroup<DataMiners>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/DataMiners.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/DataMiners.yaml";
         private Map<String, DataMiners> cache = (null);
 
         @Override

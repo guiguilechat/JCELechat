@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AutoFractureDelay
     extends IntAttribute
 {
-    public final static AutoFractureDelay INSTANCE = new AutoFractureDelay();
+    public static final AutoFractureDelay INSTANCE = new AutoFractureDelay();
 
     @Override
     public int getId() {

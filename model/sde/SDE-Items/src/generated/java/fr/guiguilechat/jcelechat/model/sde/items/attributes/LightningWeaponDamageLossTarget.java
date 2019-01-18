@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class LightningWeaponDamageLossTarget
     extends DoubleAttribute
 {
-    public final static LightningWeaponDamageLossTarget INSTANCE = new LightningWeaponDamageLossTarget();
+    public static final LightningWeaponDamageLossTarget INSTANCE = new LightningWeaponDamageLossTarget();
 
     @Override
     public int getId() {

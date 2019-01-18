@@ -145,7 +145,7 @@ public class ScannerProbe
     @Stackable(false)
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
-    public final static ScannerProbe.MetaGroup METAGROUP = new ScannerProbe.MetaGroup();
+    public static final ScannerProbe.MetaGroup METAGROUP = new ScannerProbe.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -233,7 +233,7 @@ public class ScannerProbe
     public static class MetaGroup
         implements IMetaGroup<ScannerProbe>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
         private Map<String, ScannerProbe> cache = (null);
 
         @Override

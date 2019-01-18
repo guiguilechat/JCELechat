@@ -123,7 +123,7 @@ public class StructureCombatRigMMissileApplication
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureCombatRigMMissileApplication.MetaGroup METAGROUP = new StructureCombatRigMMissileApplication.MetaGroup();
+    public static final StructureCombatRigMMissileApplication.MetaGroup METAGROUP = new StructureCombatRigMMissileApplication.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -203,7 +203,7 @@ public class StructureCombatRigMMissileApplication
     public static class MetaGroup
         implements IMetaGroup<StructureCombatRigMMissileApplication>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMissileApplication.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMissileApplication.yaml";
         private Map<String, StructureCombatRigMMissileApplication> cache = (null);
 
         @Override

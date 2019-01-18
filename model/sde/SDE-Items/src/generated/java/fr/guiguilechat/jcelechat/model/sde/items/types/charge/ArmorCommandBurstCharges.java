@@ -107,7 +107,7 @@ public class ArmorCommandBurstCharges
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareBuff4Multiplier;
-    public final static ArmorCommandBurstCharges.MetaGroup METAGROUP = new ArmorCommandBurstCharges.MetaGroup();
+    public static final ArmorCommandBurstCharges.MetaGroup METAGROUP = new ArmorCommandBurstCharges.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class ArmorCommandBurstCharges
     public static class MetaGroup
         implements IMetaGroup<ArmorCommandBurstCharges>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/ArmorCommandBurstCharges.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/ArmorCommandBurstCharges.yaml";
         private Map<String, ArmorCommandBurstCharges> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RigSlots
     extends IntAttribute
 {
-    public final static RigSlots INSTANCE = new RigSlots();
+    public static final RigSlots INSTANCE = new RigSlots();
 
     @Override
     public int getId() {

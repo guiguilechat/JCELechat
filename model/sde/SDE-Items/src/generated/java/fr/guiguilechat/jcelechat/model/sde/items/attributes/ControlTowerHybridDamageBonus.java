@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerHybridDamageBonus
     extends IntAttribute
 {
-    public final static ControlTowerHybridDamageBonus INSTANCE = new ControlTowerHybridDamageBonus();
+    public static final ControlTowerHybridDamageBonus INSTANCE = new ControlTowerHybridDamageBonus();
 
     @Override
     public int getId() {

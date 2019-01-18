@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PiTaxReductionModifer
     extends IntAttribute
 {
-    public final static PiTaxReductionModifer INSTANCE = new PiTaxReductionModifer();
+    public static final PiTaxReductionModifer INSTANCE = new PiTaxReductionModifer();
 
     @Override
     public int getId() {

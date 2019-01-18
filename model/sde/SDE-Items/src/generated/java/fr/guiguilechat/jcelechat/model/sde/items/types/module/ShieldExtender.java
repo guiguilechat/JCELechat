@@ -90,7 +90,7 @@ public class ShieldExtender
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ShieldExtender.MetaGroup METAGROUP = new ShieldExtender.MetaGroup();
+    public static final ShieldExtender.MetaGroup METAGROUP = new ShieldExtender.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +146,7 @@ public class ShieldExtender
     public static class MetaGroup
         implements IMetaGroup<ShieldExtender>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ShieldExtender.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ShieldExtender.yaml";
         private Map<String, ShieldExtender> cache = (null);
 
         @Override

@@ -128,7 +128,7 @@ public abstract class StructureModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
-    public final static StructureModule.MetaCat METACAT = new StructureModule.MetaCat();
+    public static final StructureModule.MetaCat METACAT = new StructureModule.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

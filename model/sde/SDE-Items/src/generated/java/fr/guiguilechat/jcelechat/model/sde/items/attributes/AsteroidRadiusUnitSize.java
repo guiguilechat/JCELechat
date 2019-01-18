@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AsteroidRadiusUnitSize
     extends IntAttribute
 {
-    public final static AsteroidRadiusUnitSize INSTANCE = new AsteroidRadiusUnitSize();
+    public static final AsteroidRadiusUnitSize INSTANCE = new AsteroidRadiusUnitSize();
 
     @Override
     public int getId() {

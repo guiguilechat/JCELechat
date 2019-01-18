@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureRigScanResBonus
     extends IntAttribute
 {
-    public final static StructureRigScanResBonus INSTANCE = new StructureRigScanResBonus();
+    public static final StructureRigScanResBonus INSTANCE = new StructureRigScanResBonus();
 
     @Override
     public int getId() {

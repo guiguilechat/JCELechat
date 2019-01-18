@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarfareBuff4ID
     extends IntAttribute
 {
-    public final static WarfareBuff4ID INSTANCE = new WarfareBuff4ID();
+    public static final WarfareBuff4ID INSTANCE = new WarfareBuff4ID();
 
     @Override
     public int getId() {

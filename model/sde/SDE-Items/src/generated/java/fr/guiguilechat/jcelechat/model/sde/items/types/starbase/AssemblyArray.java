@@ -123,7 +123,7 @@ public class AssemblyArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static AssemblyArray.MetaGroup METAGROUP = new AssemblyArray.MetaGroup();
+    public static final AssemblyArray.MetaGroup METAGROUP = new AssemblyArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -199,7 +199,7 @@ public class AssemblyArray
     public static class MetaGroup
         implements IMetaGroup<AssemblyArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/AssemblyArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/AssemblyArray.yaml";
         private Map<String, AssemblyArray> cache = (null);
 
         @Override

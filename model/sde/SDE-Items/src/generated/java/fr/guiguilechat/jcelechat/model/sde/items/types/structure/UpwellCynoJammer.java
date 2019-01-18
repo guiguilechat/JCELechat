@@ -38,7 +38,7 @@ public class UpwellCynoJammer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static UpwellCynoJammer.MetaGroup METAGROUP = new UpwellCynoJammer.MetaGroup();
+    public static final UpwellCynoJammer.MetaGroup METAGROUP = new UpwellCynoJammer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -70,7 +70,7 @@ public class UpwellCynoJammer
     public static class MetaGroup
         implements IMetaGroup<UpwellCynoJammer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structure/UpwellCynoJammer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structure/UpwellCynoJammer.yaml";
         private Map<String, UpwellCynoJammer> cache = (null);
 
         @Override

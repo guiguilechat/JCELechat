@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class HarvestableCloud
     extends Celestial
 {
-    public final static HarvestableCloud.MetaGroup METAGROUP = new HarvestableCloud.MetaGroup();
+    public static final HarvestableCloud.MetaGroup METAGROUP = new HarvestableCloud.MetaGroup();
 
     @Override
     public IMetaGroup<HarvestableCloud> getGroup() {
@@ -22,7 +22,7 @@ public class HarvestableCloud
     public static class MetaGroup
         implements IMetaGroup<HarvestableCloud>
     {
-        public final static String RESOURCE_PATH = "SDE/items/celestial/HarvestableCloud.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/celestial/HarvestableCloud.yaml";
         private Map<String, HarvestableCloud> cache = (null);
 
         @Override

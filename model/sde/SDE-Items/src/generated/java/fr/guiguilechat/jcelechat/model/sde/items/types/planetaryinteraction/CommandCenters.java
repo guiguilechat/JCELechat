@@ -52,7 +52,7 @@ public class CommandCenters
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerOutput;
-    public final static CommandCenters.MetaGroup METAGROUP = new CommandCenters.MetaGroup();
+    public static final CommandCenters.MetaGroup METAGROUP = new CommandCenters.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -92,7 +92,7 @@ public class CommandCenters
     public static class MetaGroup
         implements IMetaGroup<CommandCenters>
     {
-        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/CommandCenters.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/CommandCenters.yaml";
         private Map<String, CommandCenters> cache = (null);
 
         @Override

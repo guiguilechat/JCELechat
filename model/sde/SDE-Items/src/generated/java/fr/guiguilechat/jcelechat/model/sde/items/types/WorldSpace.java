@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.Item;
 public abstract class WorldSpace
     extends Item
 {
-    public final static WorldSpace.MetaCat METACAT = new WorldSpace.MetaCat();
+    public static final WorldSpace.MetaCat METACAT = new WorldSpace.MetaCat();
 
     @Override
     public IMetaCategory<WorldSpace> getCategory() {

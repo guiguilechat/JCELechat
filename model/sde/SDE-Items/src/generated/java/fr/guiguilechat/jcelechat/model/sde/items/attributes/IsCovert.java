@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IsCovert
     extends IntAttribute
 {
-    public final static IsCovert INSTANCE = new IsCovert();
+    public static final IsCovert INSTANCE = new IsCovert();
 
     @Override
     public int getId() {

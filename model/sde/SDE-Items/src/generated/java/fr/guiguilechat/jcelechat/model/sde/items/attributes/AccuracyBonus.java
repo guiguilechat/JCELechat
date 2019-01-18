@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AccuracyBonus
     extends IntAttribute
 {
-    public final static AccuracyBonus INSTANCE = new AccuracyBonus();
+    public static final AccuracyBonus INSTANCE = new AccuracyBonus();
 
     @Override
     public int getId() {

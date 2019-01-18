@@ -37,7 +37,7 @@ public class Hedbergite
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Hedbergite.MetaGroup METAGROUP = new Hedbergite.MetaGroup();
+    public static final Hedbergite.MetaGroup METAGROUP = new Hedbergite.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Hedbergite
     public static class MetaGroup
         implements IMetaGroup<Hedbergite>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Hedbergite.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Hedbergite.yaml";
         private Map<String, Hedbergite> cache = (null);
 
         @Override

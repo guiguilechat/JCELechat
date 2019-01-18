@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SiegeTorpedoVelocityBonus
     extends IntAttribute
 {
-    public final static SiegeTorpedoVelocityBonus INSTANCE = new SiegeTorpedoVelocityBonus();
+    public static final SiegeTorpedoVelocityBonus INSTANCE = new SiegeTorpedoVelocityBonus();
 
     @Override
     public int getId() {

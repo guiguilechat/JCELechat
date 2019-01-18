@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CargoScannerRangeBonus
     extends IntAttribute
 {
-    public final static CargoScannerRangeBonus INSTANCE = new CargoScannerRangeBonus();
+    public static final CargoScannerRangeBonus INSTANCE = new CargoScannerRangeBonus();
 
     @Override
     public int getId() {

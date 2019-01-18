@@ -45,7 +45,7 @@ public class Targeting
     @Stackable(false)
     @DefaultIntValue(0)
     public int SensorStrengthBonus;
-    public final static Targeting.MetaGroup METAGROUP = new Targeting.MetaGroup();
+    public static final Targeting.MetaGroup METAGROUP = new Targeting.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -81,7 +81,7 @@ public class Targeting
     public static class MetaGroup
         implements IMetaGroup<Targeting>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Targeting.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Targeting.yaml";
         private Map<String, Targeting> cache = (null);
 
         @Override

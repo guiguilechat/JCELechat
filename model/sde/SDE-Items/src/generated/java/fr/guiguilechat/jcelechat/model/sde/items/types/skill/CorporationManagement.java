@@ -58,7 +58,7 @@ public class CorporationManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int SkillAllyCostModifierBonus;
-    public final static CorporationManagement.MetaGroup METAGROUP = new CorporationManagement.MetaGroup();
+    public static final CorporationManagement.MetaGroup METAGROUP = new CorporationManagement.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -102,7 +102,7 @@ public class CorporationManagement
     public static class MetaGroup
         implements IMetaGroup<CorporationManagement>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/CorporationManagement.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/CorporationManagement.yaml";
         private Map<String, CorporationManagement> cache = (null);
 
         @Override

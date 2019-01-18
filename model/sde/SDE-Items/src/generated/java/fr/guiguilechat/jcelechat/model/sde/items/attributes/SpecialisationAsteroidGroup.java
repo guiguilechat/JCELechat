@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialisationAsteroidGroup
     extends IntAttribute
 {
-    public final static SpecialisationAsteroidGroup INSTANCE = new SpecialisationAsteroidGroup();
+    public static final SpecialisationAsteroidGroup INSTANCE = new SpecialisationAsteroidGroup();
 
     @Override
     public int getId() {

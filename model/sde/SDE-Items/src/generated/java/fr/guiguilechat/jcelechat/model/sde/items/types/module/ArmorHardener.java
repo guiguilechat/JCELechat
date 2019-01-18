@@ -146,7 +146,7 @@ public class ArmorHardener
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
-    public final static ArmorHardener.MetaGroup METAGROUP = new ArmorHardener.MetaGroup();
+    public static final ArmorHardener.MetaGroup METAGROUP = new ArmorHardener.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -234,7 +234,7 @@ public class ArmorHardener
     public static class MetaGroup
         implements IMetaGroup<ArmorHardener>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ArmorHardener.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ArmorHardener.yaml";
         private Map<String, ArmorHardener> cache = (null);
 
         @Override

@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Map;
 
@@ -11,6 +10,7 @@ import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
+import com.helger.jcodemodel.writer.JCMWriter;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.PathTranslator.OpType;
 import io.swagger.models.ArrayModel;
@@ -45,7 +45,7 @@ public class ESICompiler {
 		File dir = new File(args[1]);
 		delDir(dir);
 		dir.mkdirs();
-		cm.build(dir, (PrintStream) null);
+		new JCMWriter(cm).build(dir);
 		logger.info("compiled esi in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 

@@ -130,7 +130,7 @@ public class StructureFestivalCharges
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureFestivalCharges.MetaGroup METAGROUP = new StructureFestivalCharges.MetaGroup();
+    public static final StructureFestivalCharges.MetaGroup METAGROUP = new StructureFestivalCharges.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -214,7 +214,7 @@ public class StructureFestivalCharges
     public static class MetaGroup
         implements IMetaGroup<StructureFestivalCharges>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/StructureFestivalCharges.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/StructureFestivalCharges.yaml";
         private Map<String, StructureFestivalCharges> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class LauncherGroup
     extends IntAttribute
 {
-    public final static LauncherGroup INSTANCE = new LauncherGroup();
+    public static final LauncherGroup INSTANCE = new LauncherGroup();
 
     @Override
     public int getId() {

@@ -8914,6 +8914,12 @@ items:
     name: Megathron Navy Issue Spirit SKIN (Permanent)
     published: true
     volume: 0.01
+  Megathron Operation Permafrost SKIN (Permanent):
+    id: 49814
+    marketGroup: 1966
+    name: Megathron Operation Permafrost SKIN (Permanent)
+    published: true
+    volume: 0.01
   Megathron Police SKIN (Permanent):
     id: 34802
     marketGroup: 1966

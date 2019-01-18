@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ChargedArmorDamageMultiplier
     extends IntAttribute
 {
-    public final static ChargedArmorDamageMultiplier INSTANCE = new ChargedArmorDamageMultiplier();
+    public static final ChargedArmorDamageMultiplier INSTANCE = new ChargedArmorDamageMultiplier();
 
     @Override
     public int getId() {

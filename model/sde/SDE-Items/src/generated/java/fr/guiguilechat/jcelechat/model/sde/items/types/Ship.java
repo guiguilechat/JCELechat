@@ -500,7 +500,7 @@ public abstract class Ship
     @Stackable(false)
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
-    public final static Ship.MetaCat METACAT = new Ship.MetaCat();
+    public static final Ship.MetaCat METACAT = new Ship.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

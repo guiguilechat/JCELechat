@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DistributionIDRogueDrone01
     extends IntAttribute
 {
-    public final static DistributionIDRogueDrone01 INSTANCE = new DistributionIDRogueDrone01();
+    public static final DistributionIDRogueDrone01 INSTANCE = new DistributionIDRogueDrone01();
 
     @Override
     public int getId() {

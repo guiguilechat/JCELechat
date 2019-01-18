@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityECMTargetJam
     extends IntAttribute
 {
-    public final static FighterAbilityECMTargetJam INSTANCE = new FighterAbilityECMTargetJam();
+    public static final FighterAbilityECMTargetJam INSTANCE = new FighterAbilityECMTargetJam();
 
     @Override
     public int getId() {

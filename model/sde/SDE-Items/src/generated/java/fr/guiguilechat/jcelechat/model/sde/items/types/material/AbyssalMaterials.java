@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class AbyssalMaterials
     extends Material
 {
-    public final static AbyssalMaterials.MetaGroup METAGROUP = new AbyssalMaterials.MetaGroup();
+    public static final AbyssalMaterials.MetaGroup METAGROUP = new AbyssalMaterials.MetaGroup();
 
     @Override
     public IMetaGroup<AbyssalMaterials> getGroup() {
@@ -22,7 +22,7 @@ public class AbyssalMaterials
     public static class MetaGroup
         implements IMetaGroup<AbyssalMaterials>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/AbyssalMaterials.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/AbyssalMaterials.yaml";
         private Map<String, AbyssalMaterials> cache = (null);
 
         @Override

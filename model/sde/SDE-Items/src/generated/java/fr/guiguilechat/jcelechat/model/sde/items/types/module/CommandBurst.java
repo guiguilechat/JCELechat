@@ -278,7 +278,7 @@ public class CommandBurst
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareLinkCPUAdd;
-    public final static CommandBurst.MetaGroup METAGROUP = new CommandBurst.MetaGroup();
+    public static final CommandBurst.MetaGroup METAGROUP = new CommandBurst.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -446,7 +446,7 @@ public class CommandBurst
     public static class MetaGroup
         implements IMetaGroup<CommandBurst>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CommandBurst.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CommandBurst.yaml";
         private Map<String, CommandBurst> cache = (null);
 
         @Override

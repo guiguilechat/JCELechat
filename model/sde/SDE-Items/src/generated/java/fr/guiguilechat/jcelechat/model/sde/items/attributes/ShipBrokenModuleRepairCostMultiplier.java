@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ShipBrokenModuleRepairCostMultiplier
     extends DoubleAttribute
 {
-    public final static ShipBrokenModuleRepairCostMultiplier INSTANCE = new ShipBrokenModuleRepairCostMultiplier();
+    public static final ShipBrokenModuleRepairCostMultiplier INSTANCE = new ShipBrokenModuleRepairCostMultiplier();
 
     @Override
     public int getId() {

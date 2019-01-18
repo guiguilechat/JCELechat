@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EcmBurstRange
     extends IntAttribute
 {
-    public final static EcmBurstRange INSTANCE = new EcmBurstRange();
+    public static final EcmBurstRange INSTANCE = new EcmBurstRange();
 
     @Override
     public int getId() {

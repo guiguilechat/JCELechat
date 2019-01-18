@@ -180,7 +180,7 @@ public class CapitalSensorArray
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CapitalSensorArray.MetaGroup METAGROUP = new CapitalSensorArray.MetaGroup();
+    public static final CapitalSensorArray.MetaGroup METAGROUP = new CapitalSensorArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -292,7 +292,7 @@ public class CapitalSensorArray
     public static class MetaGroup
         implements IMetaGroup<CapitalSensorArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CapitalSensorArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CapitalSensorArray.yaml";
         private Map<String, CapitalSensorArray> cache = (null);
 
         @Override

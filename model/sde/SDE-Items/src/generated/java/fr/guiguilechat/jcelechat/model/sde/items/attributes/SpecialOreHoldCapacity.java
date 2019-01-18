@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialOreHoldCapacity
     extends IntAttribute
 {
-    public final static SpecialOreHoldCapacity INSTANCE = new SpecialOreHoldCapacity();
+    public static final SpecialOreHoldCapacity INSTANCE = new SpecialOreHoldCapacity();
 
     @Override
     public int getId() {

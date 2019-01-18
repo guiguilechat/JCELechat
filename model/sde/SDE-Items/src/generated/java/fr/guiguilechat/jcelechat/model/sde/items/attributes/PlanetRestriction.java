@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PlanetRestriction
     extends IntAttribute
 {
-    public final static PlanetRestriction INSTANCE = new PlanetRestriction();
+    public static final PlanetRestriction INSTANCE = new PlanetRestriction();
 
     @Override
     public int getId() {

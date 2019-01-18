@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ArmorThermalDamageResonance
     extends DoubleAttribute
 {
-    public final static ArmorThermalDamageResonance INSTANCE = new ArmorThermalDamageResonance();
+    public static final ArmorThermalDamageResonance INSTANCE = new ArmorThermalDamageResonance();
 
     @Override
     public int getId() {

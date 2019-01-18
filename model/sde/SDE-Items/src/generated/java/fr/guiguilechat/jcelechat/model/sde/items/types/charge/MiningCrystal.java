@@ -145,7 +145,7 @@ public class MiningCrystal
     @Stackable(true)
     @DefaultIntValue(0)
     public int UnfitCapCost;
-    public final static MiningCrystal.MetaGroup METAGROUP = new MiningCrystal.MetaGroup();
+    public static final MiningCrystal.MetaGroup METAGROUP = new MiningCrystal.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -237,7 +237,7 @@ public class MiningCrystal
     public static class MetaGroup
         implements IMetaGroup<MiningCrystal>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/MiningCrystal.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/MiningCrystal.yaml";
         private Map<String, MiningCrystal> cache = (null);
 
         @Override

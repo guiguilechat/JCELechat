@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class HarvesterQuality
     extends IntAttribute
 {
-    public final static HarvesterQuality INSTANCE = new HarvesterQuality();
+    public static final HarvesterQuality INSTANCE = new HarvesterQuality();
 
     @Override
     public int getId() {

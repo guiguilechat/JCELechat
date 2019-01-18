@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityEvasiveManeuversSpeedBonus
     extends IntAttribute
 {
-    public final static FighterAbilityEvasiveManeuversSpeedBonus INSTANCE = new FighterAbilityEvasiveManeuversSpeedBonus();
+    public static final FighterAbilityEvasiveManeuversSpeedBonus INSTANCE = new FighterAbilityEvasiveManeuversSpeedBonus();
 
     @Override
     public int getId() {

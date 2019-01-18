@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PosAnchoredPerSolarSystemAmount
     extends IntAttribute
 {
-    public final static PosAnchoredPerSolarSystemAmount INSTANCE = new PosAnchoredPerSolarSystemAmount();
+    public static final PosAnchoredPerSolarSystemAmount INSTANCE = new PosAnchoredPerSolarSystemAmount();
 
     @Override
     public int getId() {

@@ -23,7 +23,7 @@ public class HybridComponentBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static HybridComponentBlueprints.MetaGroup METAGROUP = new HybridComponentBlueprints.MetaGroup();
+    public static final HybridComponentBlueprints.MetaGroup METAGROUP = new HybridComponentBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class HybridComponentBlueprints
     public static class MetaGroup
         implements IMetaGroup<HybridComponentBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/HybridComponentBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/HybridComponentBlueprints.yaml";
         private Map<String, HybridComponentBlueprints> cache = (null);
 
         @Override

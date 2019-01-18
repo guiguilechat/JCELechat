@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StrEngTimeBonus
     extends DoubleAttribute
 {
-    public final static StrEngTimeBonus INSTANCE = new StrEngTimeBonus();
+    public static final StrEngTimeBonus INSTANCE = new StrEngTimeBonus();
 
     @Override
     public int getId() {

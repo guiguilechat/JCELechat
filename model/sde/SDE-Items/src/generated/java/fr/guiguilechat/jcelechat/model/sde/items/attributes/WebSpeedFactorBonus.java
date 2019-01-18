@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WebSpeedFactorBonus
     extends IntAttribute
 {
-    public final static WebSpeedFactorBonus INSTANCE = new WebSpeedFactorBonus();
+    public static final WebSpeedFactorBonus INSTANCE = new WebSpeedFactorBonus();
 
     @Override
     public int getId() {

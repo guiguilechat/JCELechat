@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ThermalDamageResistanceBonus
     extends DoubleAttribute
 {
-    public final static ThermalDamageResistanceBonus INSTANCE = new ThermalDamageResistanceBonus();
+    public static final ThermalDamageResistanceBonus INSTANCE = new ThermalDamageResistanceBonus();
 
     @Override
     public int getId() {

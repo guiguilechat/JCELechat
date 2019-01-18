@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ThermalDamageResistanceBonusBonus
     extends IntAttribute
 {
-    public final static ThermalDamageResistanceBonusBonus INSTANCE = new ThermalDamageResistanceBonusBonus();
+    public static final ThermalDamageResistanceBonusBonus INSTANCE = new ThermalDamageResistanceBonusBonus();
 
     @Override
     public int getId() {

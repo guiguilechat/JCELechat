@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PermanentSKIN
     extends SKINs
 {
-    public final static PermanentSKIN.MetaGroup METAGROUP = new PermanentSKIN.MetaGroup();
+    public static final PermanentSKIN.MetaGroup METAGROUP = new PermanentSKIN.MetaGroup();
 
     @Override
     public IMetaGroup<PermanentSKIN> getGroup() {
@@ -22,7 +22,7 @@ public class PermanentSKIN
     public static class MetaGroup
         implements IMetaGroup<PermanentSKIN>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skins/PermanentSKIN.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skins/PermanentSKIN.yaml";
         private Map<String, PermanentSKIN> cache = (null);
 
         @Override

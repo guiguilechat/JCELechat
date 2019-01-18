@@ -47,7 +47,7 @@ public abstract class Decryptors
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
-    public final static Decryptors.MetaCat METACAT = new Decryptors.MetaCat();
+    public static final Decryptors.MetaCat METACAT = new Decryptors.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

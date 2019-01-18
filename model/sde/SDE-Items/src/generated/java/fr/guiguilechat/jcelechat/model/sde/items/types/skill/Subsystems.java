@@ -37,7 +37,7 @@ public class Subsystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
-    public final static Subsystems.MetaGroup METAGROUP = new Subsystems.MetaGroup();
+    public static final Subsystems.MetaGroup METAGROUP = new Subsystems.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Subsystems
     public static class MetaGroup
         implements IMetaGroup<Subsystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Subsystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Subsystems.yaml";
         private Map<String, Subsystems> cache = (null);
 
         @Override

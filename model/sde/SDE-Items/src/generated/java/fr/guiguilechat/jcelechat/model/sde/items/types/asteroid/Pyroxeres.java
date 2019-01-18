@@ -37,7 +37,7 @@ public class Pyroxeres
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Pyroxeres.MetaGroup METAGROUP = new Pyroxeres.MetaGroup();
+    public static final Pyroxeres.MetaGroup METAGROUP = new Pyroxeres.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Pyroxeres
     public static class MetaGroup
         implements IMetaGroup<Pyroxeres>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Pyroxeres.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Pyroxeres.yaml";
         private Map<String, Pyroxeres> cache = (null);
 
         @Override

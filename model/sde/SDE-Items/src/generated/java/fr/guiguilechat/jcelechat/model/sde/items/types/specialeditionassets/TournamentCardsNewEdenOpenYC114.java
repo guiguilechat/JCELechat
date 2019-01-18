@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class TournamentCardsNewEdenOpenYC114
     extends SpecialEditionAssets
 {
-    public final static TournamentCardsNewEdenOpenYC114 .MetaGroup METAGROUP = new TournamentCardsNewEdenOpenYC114 .MetaGroup();
+    public static final TournamentCardsNewEdenOpenYC114 .MetaGroup METAGROUP = new TournamentCardsNewEdenOpenYC114 .MetaGroup();
 
     @Override
     public IMetaGroup<TournamentCardsNewEdenOpenYC114> getGroup() {
@@ -22,7 +22,7 @@ public class TournamentCardsNewEdenOpenYC114
     public static class MetaGroup
         implements IMetaGroup<TournamentCardsNewEdenOpenYC114>
     {
-        public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/TournamentCardsNewEdenOpenYC114.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/specialeditionassets/TournamentCardsNewEdenOpenYC114.yaml";
         private Map<String, TournamentCardsNewEdenOpenYC114> cache = (null);
 
         @Override

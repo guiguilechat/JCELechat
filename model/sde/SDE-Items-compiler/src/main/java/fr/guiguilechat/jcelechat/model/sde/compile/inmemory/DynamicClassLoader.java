@@ -17,6 +17,7 @@ import org.mdkt.compiler.CompiledCode;
 import org.mdkt.compiler.SourceCode;
 
 import com.helger.jcodemodel.JCodeModel;
+import com.helger.jcodemodel.writer.JCMWriter;
 
 /**
  * class loader that allows dynamic classes.
@@ -70,7 +71,7 @@ public class DynamicClassLoader extends ClassLoader {
 	public static <T extends DynamicClassLoader> T generate(JCodeModel cm, T cl) {
 		MapCodeWriter codeWriter = new MapCodeWriter();
 		try {
-			cm.build(codeWriter);
+			new JCMWriter(cm).build(codeWriter);
 		} catch (IOException e) {
 			throw new UnsupportedOperationException("catch this exception", e);
 		}

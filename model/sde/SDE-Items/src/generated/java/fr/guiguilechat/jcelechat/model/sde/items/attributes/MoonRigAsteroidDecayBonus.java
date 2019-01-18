@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MoonRigAsteroidDecayBonus
     extends IntAttribute
 {
-    public final static MoonRigAsteroidDecayBonus INSTANCE = new MoonRigAsteroidDecayBonus();
+    public static final MoonRigAsteroidDecayBonus INSTANCE = new MoonRigAsteroidDecayBonus();
 
     @Override
     public int getId() {

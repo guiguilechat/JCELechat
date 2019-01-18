@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PhobiaHandicap
     extends Bonus
 {
-    public final static PhobiaHandicap.MetaGroup METAGROUP = new PhobiaHandicap.MetaGroup();
+    public static final PhobiaHandicap.MetaGroup METAGROUP = new PhobiaHandicap.MetaGroup();
 
     @Override
     public IMetaGroup<PhobiaHandicap> getGroup() {
@@ -22,7 +22,7 @@ public class PhobiaHandicap
     public static class MetaGroup
         implements IMetaGroup<PhobiaHandicap>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/PhobiaHandicap.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/PhobiaHandicap.yaml";
         private Map<String, PhobiaHandicap> cache = (null);
 
         @Override

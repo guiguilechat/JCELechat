@@ -211,7 +211,7 @@ public class StructureEngineeringServiceModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int ServiceModuleFullPowerStateHitpointMultiplier;
-    public final static StructureEngineeringServiceModule.MetaGroup METAGROUP = new StructureEngineeringServiceModule.MetaGroup();
+    public static final StructureEngineeringServiceModule.MetaGroup METAGROUP = new StructureEngineeringServiceModule.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -335,7 +335,7 @@ public class StructureEngineeringServiceModule
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringServiceModule>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringServiceModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringServiceModule.yaml";
         private Map<String, StructureEngineeringServiceModule> cache = (null);
 
         @Override

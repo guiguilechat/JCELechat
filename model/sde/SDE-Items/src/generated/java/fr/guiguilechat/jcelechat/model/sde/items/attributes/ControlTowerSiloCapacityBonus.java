@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerSiloCapacityBonus
     extends IntAttribute
 {
-    public final static ControlTowerSiloCapacityBonus INSTANCE = new ControlTowerSiloCapacityBonus();
+    public static final ControlTowerSiloCapacityBonus INSTANCE = new ControlTowerSiloCapacityBonus();
 
     @Override
     public int getId() {

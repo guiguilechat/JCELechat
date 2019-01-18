@@ -65,7 +65,7 @@ public class PhysicalBenefit
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double MissileDamageMultiplierBonus;
-    public final static PhysicalBenefit.MetaGroup METAGROUP = new PhysicalBenefit.MetaGroup();
+    public static final PhysicalBenefit.MetaGroup METAGROUP = new PhysicalBenefit.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -113,7 +113,7 @@ public class PhysicalBenefit
     public static class MetaGroup
         implements IMetaGroup<PhysicalBenefit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/bonus/PhysicalBenefit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/bonus/PhysicalBenefit.yaml";
         private Map<String, PhysicalBenefit> cache = (null);
 
         @Override

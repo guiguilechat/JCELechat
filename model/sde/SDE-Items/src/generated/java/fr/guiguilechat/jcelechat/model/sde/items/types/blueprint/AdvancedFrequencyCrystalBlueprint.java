@@ -32,7 +32,7 @@ public class AdvancedFrequencyCrystalBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static AdvancedFrequencyCrystalBlueprint.MetaGroup METAGROUP = new AdvancedFrequencyCrystalBlueprint.MetaGroup();
+    public static final AdvancedFrequencyCrystalBlueprint.MetaGroup METAGROUP = new AdvancedFrequencyCrystalBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class AdvancedFrequencyCrystalBlueprint
     public static class MetaGroup
         implements IMetaGroup<AdvancedFrequencyCrystalBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/AdvancedFrequencyCrystalBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/AdvancedFrequencyCrystalBlueprint.yaml";
         private Map<String, AdvancedFrequencyCrystalBlueprint> cache = (null);
 
         @Override

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCTitan
     extends Entity
 {
-    public final static NPCTitan.MetaGroup METAGROUP = new NPCTitan.MetaGroup();
+    public static final NPCTitan.MetaGroup METAGROUP = new NPCTitan.MetaGroup();
 
     @Override
     public IMetaGroup<NPCTitan> getGroup() {
@@ -22,7 +22,7 @@ public class NPCTitan
     public static class MetaGroup
         implements IMetaGroup<NPCTitan>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/NPCTitan.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/NPCTitan.yaml";
         private Map<String, NPCTitan> cache = (null);
 
         @Override

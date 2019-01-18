@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TargetHostileRange
     extends IntAttribute
 {
-    public final static TargetHostileRange INSTANCE = new TargetHostileRange();
+    public static final TargetHostileRange INSTANCE = new TargetHostileRange();
 
     @Override
     public int getId() {

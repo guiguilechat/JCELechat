@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class JumpDriveCapacitorNeed
     extends DoubleAttribute
 {
-    public final static JumpDriveCapacitorNeed INSTANCE = new JumpDriveCapacitorNeed();
+    public static final JumpDriveCapacitorNeed INSTANCE = new JumpDriveCapacitorNeed();
 
     @Override
     public int getId() {

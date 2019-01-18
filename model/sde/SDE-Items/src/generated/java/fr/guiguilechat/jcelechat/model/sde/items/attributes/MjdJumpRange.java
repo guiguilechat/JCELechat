@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MjdJumpRange
     extends IntAttribute
 {
-    public final static MjdJumpRange INSTANCE = new MjdJumpRange();
+    public static final MjdJumpRange INSTANCE = new MjdJumpRange();
 
     @Override
     public int getId() {

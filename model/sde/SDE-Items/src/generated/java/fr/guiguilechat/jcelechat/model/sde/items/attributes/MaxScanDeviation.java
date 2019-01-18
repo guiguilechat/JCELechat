@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxScanDeviation
     extends IntAttribute
 {
-    public final static MaxScanDeviation INSTANCE = new MaxScanDeviation();
+    public static final MaxScanDeviation INSTANCE = new MaxScanDeviation();
 
     @Override
     public int getId() {

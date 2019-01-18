@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DoomsdayWarningDuration
     extends IntAttribute
 {
-    public final static DoomsdayWarningDuration INSTANCE = new DoomsdayWarningDuration();
+    public static final DoomsdayWarningDuration INSTANCE = new DoomsdayWarningDuration();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CustomPerceptionBonus
     extends IntAttribute
 {
-    public final static CustomPerceptionBonus INSTANCE = new CustomPerceptionBonus();
+    public static final CustomPerceptionBonus INSTANCE = new CustomPerceptionBonus();
 
     @Override
     public int getId() {

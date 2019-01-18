@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class LargeCollidableShip
     extends Entity
 {
-    public final static LargeCollidableShip.MetaGroup METAGROUP = new LargeCollidableShip.MetaGroup();
+    public static final LargeCollidableShip.MetaGroup METAGROUP = new LargeCollidableShip.MetaGroup();
 
     @Override
     public IMetaGroup<LargeCollidableShip> getGroup() {
@@ -22,7 +22,7 @@ public class LargeCollidableShip
     public static class MetaGroup
         implements IMetaGroup<LargeCollidableShip>
     {
-        public final static String RESOURCE_PATH = "SDE/items/entity/LargeCollidableShip.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/entity/LargeCollidableShip.yaml";
         private Map<String, LargeCollidableShip> cache = (null);
 
         @Override

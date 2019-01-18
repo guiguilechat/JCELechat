@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PlanetSolidRawResource
     extends PlanetaryResources
 {
-    public final static PlanetSolidRawResource.MetaGroup METAGROUP = new PlanetSolidRawResource.MetaGroup();
+    public static final PlanetSolidRawResource.MetaGroup METAGROUP = new PlanetSolidRawResource.MetaGroup();
 
     @Override
     public IMetaGroup<PlanetSolidRawResource> getGroup() {
@@ -22,7 +22,7 @@ public class PlanetSolidRawResource
     public static class MetaGroup
         implements IMetaGroup<PlanetSolidRawResource>
     {
-        public final static String RESOURCE_PATH = "SDE/items/planetaryresources/PlanetSolidRawResource.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/planetaryresources/PlanetSolidRawResource.yaml";
         private Map<String, PlanetSolidRawResource> cache = (null);
 
         @Override

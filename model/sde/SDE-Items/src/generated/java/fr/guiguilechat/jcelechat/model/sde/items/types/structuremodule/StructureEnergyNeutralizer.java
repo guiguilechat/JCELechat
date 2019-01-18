@@ -153,7 +153,7 @@ public class StructureEnergyNeutralizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureEnergyNeutralizer.MetaGroup METAGROUP = new StructureEnergyNeutralizer.MetaGroup();
+    public static final StructureEnergyNeutralizer.MetaGroup METAGROUP = new StructureEnergyNeutralizer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -245,7 +245,7 @@ public class StructureEnergyNeutralizer
     public static class MetaGroup
         implements IMetaGroup<StructureEnergyNeutralizer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEnergyNeutralizer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEnergyNeutralizer.yaml";
         private Map<String, StructureEnergyNeutralizer> cache = (null);
 
         @Override

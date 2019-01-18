@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ImplantSetWarpSpeed
     extends DoubleAttribute
 {
-    public final static ImplantSetWarpSpeed INSTANCE = new ImplantSetWarpSpeed();
+    public static final ImplantSetWarpSpeed INSTANCE = new ImplantSetWarpSpeed();
 
     @Override
     public int getId() {

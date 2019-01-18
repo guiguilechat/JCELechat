@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PrecursorWeaponBlueprint
     extends Blueprint
 {
-    public final static PrecursorWeaponBlueprint.MetaGroup METAGROUP = new PrecursorWeaponBlueprint.MetaGroup();
+    public static final PrecursorWeaponBlueprint.MetaGroup METAGROUP = new PrecursorWeaponBlueprint.MetaGroup();
 
     @Override
     public IMetaGroup<PrecursorWeaponBlueprint> getGroup() {
@@ -22,7 +22,7 @@ public class PrecursorWeaponBlueprint
     public static class MetaGroup
         implements IMetaGroup<PrecursorWeaponBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/PrecursorWeaponBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/PrecursorWeaponBlueprint.yaml";
         private Map<String, PrecursorWeaponBlueprint> cache = (null);
 
         @Override

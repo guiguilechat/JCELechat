@@ -73,7 +73,7 @@ public class UpwellJumpGate
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static UpwellJumpGate.MetaGroup METAGROUP = new UpwellJumpGate.MetaGroup();
+    public static final UpwellJumpGate.MetaGroup METAGROUP = new UpwellJumpGate.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -125,7 +125,7 @@ public class UpwellJumpGate
     public static class MetaGroup
         implements IMetaGroup<UpwellJumpGate>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structure/UpwellJumpGate.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structure/UpwellJumpGate.yaml";
         private Map<String, UpwellJumpGate> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CpuLoadLevelModifier
     extends DoubleAttribute
 {
-    public final static CpuLoadLevelModifier INSTANCE = new CpuLoadLevelModifier();
+    public static final CpuLoadLevelModifier INSTANCE = new CpuLoadLevelModifier();
 
     @Override
     public int getId() {

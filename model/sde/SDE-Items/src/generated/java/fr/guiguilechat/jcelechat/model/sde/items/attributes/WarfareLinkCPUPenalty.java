@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarfareLinkCPUPenalty
     extends IntAttribute
 {
-    public final static WarfareLinkCPUPenalty INSTANCE = new WarfareLinkCPUPenalty();
+    public static final WarfareLinkCPUPenalty INSTANCE = new WarfareLinkCPUPenalty();
 
     @Override
     public int getId() {

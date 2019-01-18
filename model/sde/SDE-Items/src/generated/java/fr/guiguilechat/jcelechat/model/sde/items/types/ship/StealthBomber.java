@@ -326,7 +326,7 @@ public class StealthBomber
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static StealthBomber.MetaGroup METAGROUP = new StealthBomber.MetaGroup();
+    public static final StealthBomber.MetaGroup METAGROUP = new StealthBomber.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -518,7 +518,7 @@ public class StealthBomber
     public static class MetaGroup
         implements IMetaGroup<StealthBomber>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/StealthBomber.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/StealthBomber.yaml";
         private Map<String, StealthBomber> cache = (null);
 
         @Override

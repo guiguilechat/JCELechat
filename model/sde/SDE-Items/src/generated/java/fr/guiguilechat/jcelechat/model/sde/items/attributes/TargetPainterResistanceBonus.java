@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TargetPainterResistanceBonus
     extends IntAttribute
 {
-    public final static TargetPainterResistanceBonus INSTANCE = new TargetPainterResistanceBonus();
+    public static final TargetPainterResistanceBonus INSTANCE = new TargetPainterResistanceBonus();
 
     @Override
     public int getId() {

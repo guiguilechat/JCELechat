@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EwCapacitorNeedBonus
     extends IntAttribute
 {
-    public final static EwCapacitorNeedBonus INSTANCE = new EwCapacitorNeedBonus();
+    public static final EwCapacitorNeedBonus INSTANCE = new EwCapacitorNeedBonus();
 
     @Override
     public int getId() {

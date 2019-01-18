@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialQuafeHoldCapacity
     extends IntAttribute
 {
-    public final static SpecialQuafeHoldCapacity INSTANCE = new SpecialQuafeHoldCapacity();
+    public static final SpecialQuafeHoldCapacity INSTANCE = new SpecialQuafeHoldCapacity();
 
     @Override
     public int getId() {

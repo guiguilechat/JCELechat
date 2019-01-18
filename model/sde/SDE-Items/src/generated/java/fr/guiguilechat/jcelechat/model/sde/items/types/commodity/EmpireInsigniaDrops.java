@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class EmpireInsigniaDrops
     extends Commodity
 {
-    public final static EmpireInsigniaDrops.MetaGroup METAGROUP = new EmpireInsigniaDrops.MetaGroup();
+    public static final EmpireInsigniaDrops.MetaGroup METAGROUP = new EmpireInsigniaDrops.MetaGroup();
 
     @Override
     public IMetaGroup<EmpireInsigniaDrops> getGroup() {
@@ -22,7 +22,7 @@ public class EmpireInsigniaDrops
     public static class MetaGroup
         implements IMetaGroup<EmpireInsigniaDrops>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/EmpireInsigniaDrops.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/EmpireInsigniaDrops.yaml";
         private Map<String, EmpireInsigniaDrops> cache = (null);
 
         @Override

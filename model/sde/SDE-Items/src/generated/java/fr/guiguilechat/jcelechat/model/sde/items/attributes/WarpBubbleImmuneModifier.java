@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class WarpBubbleImmuneModifier
     extends IntAttribute
 {
-    public final static WarpBubbleImmuneModifier INSTANCE = new WarpBubbleImmuneModifier();
+    public static final WarpBubbleImmuneModifier INSTANCE = new WarpBubbleImmuneModifier();
 
     @Override
     public int getId() {

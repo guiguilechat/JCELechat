@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TradePremiumBonus
     extends IntAttribute
 {
-    public final static TradePremiumBonus INSTANCE = new TradePremiumBonus();
+    public static final TradePremiumBonus INSTANCE = new TradePremiumBonus();
 
     @Override
     public int getId() {

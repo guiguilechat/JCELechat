@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SpecialMaterialBayCapacity
     extends IntAttribute
 {
-    public final static SpecialMaterialBayCapacity INSTANCE = new SpecialMaterialBayCapacity();
+    public static final SpecialMaterialBayCapacity INSTANCE = new SpecialMaterialBayCapacity();
 
     @Override
     public int getId() {

@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PointLights
     extends Lights
 {
-    public final static PointLights.MetaGroup METAGROUP = new PointLights.MetaGroup();
+    public static final PointLights.MetaGroup METAGROUP = new PointLights.MetaGroup();
 
     @Override
     public IMetaGroup<PointLights> getGroup() {
@@ -22,7 +22,7 @@ public class PointLights
     public static class MetaGroup
         implements IMetaGroup<PointLights>
     {
-        public final static String RESOURCE_PATH = "SDE/items/lights/PointLights.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/lights/PointLights.yaml";
         private Map<String, PointLights> cache = (null);
 
         @Override

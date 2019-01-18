@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PowerToSpeed
     extends IntAttribute
 {
-    public final static PowerToSpeed INSTANCE = new PowerToSpeed();
+    public static final PowerToSpeed INSTANCE = new PowerToSpeed();
 
     @Override
     public int getId() {

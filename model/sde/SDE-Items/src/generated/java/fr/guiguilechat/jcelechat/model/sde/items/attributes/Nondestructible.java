@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class Nondestructible
     extends IntAttribute
 {
-    public final static Nondestructible INSTANCE = new Nondestructible();
+    public static final Nondestructible INSTANCE = new Nondestructible();
 
     @Override
     public int getId() {

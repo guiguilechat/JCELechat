@@ -32,7 +32,7 @@ public class TractorBeamBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static TractorBeamBlueprint.MetaGroup METAGROUP = new TractorBeamBlueprint.MetaGroup();
+    public static final TractorBeamBlueprint.MetaGroup METAGROUP = new TractorBeamBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class TractorBeamBlueprint
     public static class MetaGroup
         implements IMetaGroup<TractorBeamBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/TractorBeamBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/TractorBeamBlueprint.yaml";
         private Map<String, TractorBeamBlueprint> cache = (null);
 
         @Override

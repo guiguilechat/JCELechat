@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ECMDuration
     extends IntAttribute
 {
-    public final static ECMDuration INSTANCE = new ECMDuration();
+    public static final ECMDuration INSTANCE = new ECMDuration();
 
     @Override
     public int getId() {

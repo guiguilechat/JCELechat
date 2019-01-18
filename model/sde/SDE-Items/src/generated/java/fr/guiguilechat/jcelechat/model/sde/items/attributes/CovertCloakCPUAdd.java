@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CovertCloakCPUAdd
     extends IntAttribute
 {
-    public final static CovertCloakCPUAdd INSTANCE = new CovertCloakCPUAdd();
+    public static final CovertCloakCPUAdd INSTANCE = new CovertCloakCPUAdd();
 
     @Override
     public int getId() {

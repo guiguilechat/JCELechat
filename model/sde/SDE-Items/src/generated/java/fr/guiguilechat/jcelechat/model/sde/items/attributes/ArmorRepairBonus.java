@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ArmorRepairBonus
     extends IntAttribute
 {
-    public final static ArmorRepairBonus INSTANCE = new ArmorRepairBonus();
+    public static final ArmorRepairBonus INSTANCE = new ArmorRepairBonus();
 
     @Override
     public int getId() {

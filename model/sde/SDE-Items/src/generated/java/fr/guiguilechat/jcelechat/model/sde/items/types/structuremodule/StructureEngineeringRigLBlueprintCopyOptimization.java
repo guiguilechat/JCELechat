@@ -137,7 +137,7 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureEngineeringRigLBlueprintCopyOptimization.MetaGroup METAGROUP = new StructureEngineeringRigLBlueprintCopyOptimization.MetaGroup();
+    public static final StructureEngineeringRigLBlueprintCopyOptimization.MetaGroup METAGROUP = new StructureEngineeringRigLBlueprintCopyOptimization.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -225,7 +225,7 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigLBlueprintCopyOptimization>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBlueprintCopyOptimization.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBlueprintCopyOptimization.yaml";
         private Map<String, StructureEngineeringRigLBlueprintCopyOptimization> cache = (null);
 
         @Override

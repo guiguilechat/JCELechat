@@ -23,7 +23,7 @@ public class StructureModuleBlueprint
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
-    public final static StructureModuleBlueprint.MetaGroup METAGROUP = new StructureModuleBlueprint.MetaGroup();
+    public static final StructureModuleBlueprint.MetaGroup METAGROUP = new StructureModuleBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class StructureModuleBlueprint
     public static class MetaGroup
         implements IMetaGroup<StructureModuleBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/StructureModuleBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/StructureModuleBlueprint.yaml";
         private Map<String, StructureModuleBlueprint> cache = (null);
 
         @Override

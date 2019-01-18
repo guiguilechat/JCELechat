@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Mineral
     extends Material
 {
-    public final static Mineral.MetaGroup METAGROUP = new Mineral.MetaGroup();
+    public static final Mineral.MetaGroup METAGROUP = new Mineral.MetaGroup();
 
     @Override
     public IMetaGroup<Mineral> getGroup() {
@@ -22,7 +22,7 @@ public class Mineral
     public static class MetaGroup
         implements IMetaGroup<Mineral>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/Mineral.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/Mineral.yaml";
         private Map<String, Mineral> cache = (null);
 
         @Override

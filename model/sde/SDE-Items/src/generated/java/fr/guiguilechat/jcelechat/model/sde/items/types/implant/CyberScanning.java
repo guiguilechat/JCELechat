@@ -80,7 +80,7 @@ public class CyberScanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
-    public final static CyberScanning.MetaGroup METAGROUP = new CyberScanning.MetaGroup();
+    public static final CyberScanning.MetaGroup METAGROUP = new CyberScanning.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -136,7 +136,7 @@ public class CyberScanning
     public static class MetaGroup
         implements IMetaGroup<CyberScanning>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberScanning.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberScanning.yaml";
         private Map<String, CyberScanning> cache = (null);
 
         @Override

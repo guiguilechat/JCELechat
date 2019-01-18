@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ServiceModuleFullPowerStateArmorPlatingMultiplier
     extends IntAttribute
 {
-    public final static ServiceModuleFullPowerStateArmorPlatingMultiplier INSTANCE = new ServiceModuleFullPowerStateArmorPlatingMultiplier();
+    public static final ServiceModuleFullPowerStateArmorPlatingMultiplier INSTANCE = new ServiceModuleFullPowerStateArmorPlatingMultiplier();
 
     @Override
     public int getId() {

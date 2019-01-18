@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterAbilityMissilesDuration
     extends IntAttribute
 {
-    public final static FighterAbilityMissilesDuration INSTANCE = new FighterAbilityMissilesDuration();
+    public static final FighterAbilityMissilesDuration INSTANCE = new FighterAbilityMissilesDuration();
 
     @Override
     public int getId() {

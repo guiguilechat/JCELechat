@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PhysicalPortals
     extends Cells
 {
-    public final static PhysicalPortals.MetaGroup METAGROUP = new PhysicalPortals.MetaGroup();
+    public static final PhysicalPortals.MetaGroup METAGROUP = new PhysicalPortals.MetaGroup();
 
     @Override
     public IMetaGroup<PhysicalPortals> getGroup() {
@@ -22,7 +22,7 @@ public class PhysicalPortals
     public static class MetaGroup
         implements IMetaGroup<PhysicalPortals>
     {
-        public final static String RESOURCE_PATH = "SDE/items/cells/PhysicalPortals.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/cells/PhysicalPortals.yaml";
         private Map<String, PhysicalPortals> cache = (null);
 
         @Override

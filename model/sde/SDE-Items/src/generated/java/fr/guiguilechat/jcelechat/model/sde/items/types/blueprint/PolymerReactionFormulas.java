@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class PolymerReactionFormulas
     extends Blueprint
 {
-    public final static PolymerReactionFormulas.MetaGroup METAGROUP = new PolymerReactionFormulas.MetaGroup();
+    public static final PolymerReactionFormulas.MetaGroup METAGROUP = new PolymerReactionFormulas.MetaGroup();
 
     @Override
     public IMetaGroup<PolymerReactionFormulas> getGroup() {
@@ -22,7 +22,7 @@ public class PolymerReactionFormulas
     public static class MetaGroup
         implements IMetaGroup<PolymerReactionFormulas>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/PolymerReactionFormulas.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/PolymerReactionFormulas.yaml";
         private Map<String, PolymerReactionFormulas> cache = (null);
 
         @Override

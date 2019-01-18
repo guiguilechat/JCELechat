@@ -32,7 +32,7 @@ public class LogisticDroneBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static LogisticDroneBlueprint.MetaGroup METAGROUP = new LogisticDroneBlueprint.MetaGroup();
+    public static final LogisticDroneBlueprint.MetaGroup METAGROUP = new LogisticDroneBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class LogisticDroneBlueprint
     public static class MetaGroup
         implements IMetaGroup<LogisticDroneBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/LogisticDroneBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/LogisticDroneBlueprint.yaml";
         private Map<String, LogisticDroneBlueprint> cache = (null);
 
         @Override

@@ -188,7 +188,7 @@ public class FlexArmorHardener
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
-    public final static FlexArmorHardener.MetaGroup METAGROUP = new FlexArmorHardener.MetaGroup();
+    public static final FlexArmorHardener.MetaGroup METAGROUP = new FlexArmorHardener.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -300,7 +300,7 @@ public class FlexArmorHardener
     public static class MetaGroup
         implements IMetaGroup<FlexArmorHardener>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/FlexArmorHardener.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/FlexArmorHardener.yaml";
         private Map<String, FlexArmorHardener> cache = (null);
 
         @Override

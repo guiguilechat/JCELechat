@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RequiresSovUpgrade1
     extends IntAttribute
 {
-    public final static RequiresSovUpgrade1 INSTANCE = new RequiresSovUpgrade1();
+    public static final RequiresSovUpgrade1 INSTANCE = new RequiresSovUpgrade1();
 
     @Override
     public int getId() {

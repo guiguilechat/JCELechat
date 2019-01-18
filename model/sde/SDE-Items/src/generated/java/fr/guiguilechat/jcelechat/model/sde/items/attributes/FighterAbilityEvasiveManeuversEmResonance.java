@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FighterAbilityEvasiveManeuversEmResonance
     extends DoubleAttribute
 {
-    public final static FighterAbilityEvasiveManeuversEmResonance INSTANCE = new FighterAbilityEvasiveManeuversEmResonance();
+    public static final FighterAbilityEvasiveManeuversEmResonance INSTANCE = new FighterAbilityEvasiveManeuversEmResonance();
 
     @Override
     public int getId() {

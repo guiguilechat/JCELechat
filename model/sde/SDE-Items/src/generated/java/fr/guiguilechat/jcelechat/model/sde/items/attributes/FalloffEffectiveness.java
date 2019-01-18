@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FalloffEffectiveness
     extends IntAttribute
 {
-    public final static FalloffEffectiveness INSTANCE = new FalloffEffectiveness();
+    public static final FalloffEffectiveness INSTANCE = new FalloffEffectiveness();
 
     @Override
     public int getId() {

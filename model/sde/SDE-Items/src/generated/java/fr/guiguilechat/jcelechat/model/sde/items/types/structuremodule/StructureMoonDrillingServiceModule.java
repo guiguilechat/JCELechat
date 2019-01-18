@@ -87,7 +87,7 @@ public class StructureMoonDrillingServiceModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int ServiceModuleFullPowerStateHitpointMultiplier;
-    public final static StructureMoonDrillingServiceModule.MetaGroup METAGROUP = new StructureMoonDrillingServiceModule.MetaGroup();
+    public static final StructureMoonDrillingServiceModule.MetaGroup METAGROUP = new StructureMoonDrillingServiceModule.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -147,7 +147,7 @@ public class StructureMoonDrillingServiceModule
     public static class MetaGroup
         implements IMetaGroup<StructureMoonDrillingServiceModule>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureMoonDrillingServiceModule.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureMoonDrillingServiceModule.yaml";
         private Map<String, StructureMoonDrillingServiceModule> cache = (null);
 
         @Override

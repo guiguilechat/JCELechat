@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class HeatCapacityMed
     extends IntAttribute
 {
-    public final static HeatCapacityMed INSTANCE = new HeatCapacityMed();
+    public static final HeatCapacityMed INSTANCE = new HeatCapacityMed();
 
     @Override
     public int getId() {

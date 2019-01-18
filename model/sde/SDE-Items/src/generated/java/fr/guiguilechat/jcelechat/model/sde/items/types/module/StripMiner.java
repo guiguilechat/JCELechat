@@ -132,7 +132,7 @@ public class StripMiner
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static StripMiner.MetaGroup METAGROUP = new StripMiner.MetaGroup();
+    public static final StripMiner.MetaGroup METAGROUP = new StripMiner.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -212,7 +212,7 @@ public class StripMiner
     public static class MetaGroup
         implements IMetaGroup<StripMiner>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/StripMiner.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/StripMiner.yaml";
         private Map<String, StripMiner> cache = (null);
 
         @Override

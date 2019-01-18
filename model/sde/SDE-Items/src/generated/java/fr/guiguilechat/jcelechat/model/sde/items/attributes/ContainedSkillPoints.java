@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ContainedSkillPoints
     extends IntAttribute
 {
-    public final static ContainedSkillPoints INSTANCE = new ContainedSkillPoints();
+    public static final ContainedSkillPoints INSTANCE = new ContainedSkillPoints();
 
     @Override
     public int getId() {

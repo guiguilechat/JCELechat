@@ -89,7 +89,7 @@ public class AutomatedTargetingSystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static AutomatedTargetingSystem.MetaGroup METAGROUP = new AutomatedTargetingSystem.MetaGroup();
+    public static final AutomatedTargetingSystem.MetaGroup METAGROUP = new AutomatedTargetingSystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -149,7 +149,7 @@ public class AutomatedTargetingSystem
     public static class MetaGroup
         implements IMetaGroup<AutomatedTargetingSystem>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/AutomatedTargetingSystem.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/AutomatedTargetingSystem.yaml";
         private Map<String, AutomatedTargetingSystem> cache = (null);
 
         @Override

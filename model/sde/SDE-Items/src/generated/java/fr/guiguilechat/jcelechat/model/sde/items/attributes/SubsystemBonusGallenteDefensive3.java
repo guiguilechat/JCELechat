@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class SubsystemBonusGallenteDefensive3
     extends DoubleAttribute
 {
-    public final static SubsystemBonusGallenteDefensive3 INSTANCE = new SubsystemBonusGallenteDefensive3();
+    public static final SubsystemBonusGallenteDefensive3 INSTANCE = new SubsystemBonusGallenteDefensive3();
 
     @Override
     public int getId() {

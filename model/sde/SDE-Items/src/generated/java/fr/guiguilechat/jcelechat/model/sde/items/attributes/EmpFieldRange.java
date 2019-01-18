@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EmpFieldRange
     extends IntAttribute
 {
-    public final static EmpFieldRange INSTANCE = new EmpFieldRange();
+    public static final EmpFieldRange INSTANCE = new EmpFieldRange();
 
     @Override
     public int getId() {

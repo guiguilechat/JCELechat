@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class RookieSHTTracking
     extends DoubleAttribute
 {
-    public final static RookieSHTTracking INSTANCE = new RookieSHTTracking();
+    public static final RookieSHTTracking INSTANCE = new RookieSHTTracking();
 
     @Override
     public int getId() {

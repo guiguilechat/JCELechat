@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PosStructureControlAmount
     extends IntAttribute
 {
-    public final static PosStructureControlAmount INSTANCE = new PosStructureControlAmount();
+    public static final PosStructureControlAmount INSTANCE = new PosStructureControlAmount();
 
     @Override
     public int getId() {

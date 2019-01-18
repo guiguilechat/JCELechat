@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class OverloadSpeedFactorBonus
     extends IntAttribute
 {
-    public final static OverloadSpeedFactorBonus INSTANCE = new OverloadSpeedFactorBonus();
+    public static final OverloadSpeedFactorBonus INSTANCE = new OverloadSpeedFactorBonus();
 
     @Override
     public int getId() {

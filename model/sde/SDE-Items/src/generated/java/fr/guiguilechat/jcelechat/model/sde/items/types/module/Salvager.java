@@ -96,7 +96,7 @@ public class Salvager
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static Salvager.MetaGroup METAGROUP = new Salvager.MetaGroup();
+    public static final Salvager.MetaGroup METAGROUP = new Salvager.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -160,7 +160,7 @@ public class Salvager
     public static class MetaGroup
         implements IMetaGroup<Salvager>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/Salvager.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/Salvager.yaml";
         private Map<String, Salvager> cache = (null);
 
         @Override

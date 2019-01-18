@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class DroneDamageBonus
     extends DoubleAttribute
 {
-    public final static DroneDamageBonus INSTANCE = new DroneDamageBonus();
+    public static final DroneDamageBonus INSTANCE = new DroneDamageBonus();
 
     @Override
     public int getId() {

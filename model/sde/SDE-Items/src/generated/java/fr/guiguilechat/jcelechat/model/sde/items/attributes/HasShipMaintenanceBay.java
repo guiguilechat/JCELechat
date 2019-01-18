@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class HasShipMaintenanceBay
     extends IntAttribute
 {
-    public final static HasShipMaintenanceBay INSTANCE = new HasShipMaintenanceBay();
+    public static final HasShipMaintenanceBay INSTANCE = new HasShipMaintenanceBay();
 
     @Override
     public int getId() {

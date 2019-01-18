@@ -312,7 +312,7 @@ public class Corvette
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static Corvette.MetaGroup METAGROUP = new Corvette.MetaGroup();
+    public static final Corvette.MetaGroup METAGROUP = new Corvette.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -496,7 +496,7 @@ public class Corvette
     public static class MetaGroup
         implements IMetaGroup<Corvette>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Corvette.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Corvette.yaml";
         private Map<String, Corvette> cache = (null);
 
         @Override

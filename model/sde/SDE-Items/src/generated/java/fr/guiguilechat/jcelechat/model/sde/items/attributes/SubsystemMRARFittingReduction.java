@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SubsystemMRARFittingReduction
     extends IntAttribute
 {
-    public final static SubsystemMRARFittingReduction INSTANCE = new SubsystemMRARFittingReduction();
+    public static final SubsystemMRARFittingReduction INSTANCE = new SubsystemMRARFittingReduction();
 
     @Override
     public int getId() {

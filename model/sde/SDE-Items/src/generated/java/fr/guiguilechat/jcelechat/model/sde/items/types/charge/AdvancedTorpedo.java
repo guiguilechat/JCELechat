@@ -229,7 +229,7 @@ public class AdvancedTorpedo
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
-    public final static AdvancedTorpedo.MetaGroup METAGROUP = new AdvancedTorpedo.MetaGroup();
+    public static final AdvancedTorpedo.MetaGroup METAGROUP = new AdvancedTorpedo.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -369,7 +369,7 @@ public class AdvancedTorpedo
     public static class MetaGroup
         implements IMetaGroup<AdvancedTorpedo>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedTorpedo.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedTorpedo.yaml";
         private Map<String, AdvancedTorpedo> cache = (null);
 
         @Override

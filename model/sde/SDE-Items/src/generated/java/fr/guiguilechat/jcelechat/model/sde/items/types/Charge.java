@@ -71,7 +71,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.charge.XLTorpedo;
 public abstract class Charge
     extends Item
 {
-    public final static Charge.MetaCat METACAT = new Charge.MetaCat();
+    public static final Charge.MetaCat METACAT = new Charge.MetaCat();
 
     @Override
     public IMetaCategory<Charge> getCategory() {

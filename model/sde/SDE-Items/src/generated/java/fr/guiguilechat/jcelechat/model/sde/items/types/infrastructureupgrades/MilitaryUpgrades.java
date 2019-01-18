@@ -247,7 +247,7 @@ public class MilitaryUpgrades
     @Stackable(true)
     @DefaultIntValue(0)
     public int SovUpgradeRequiredUpgradeID;
-    public final static MilitaryUpgrades.MetaGroup METAGROUP = new MilitaryUpgrades.MetaGroup();
+    public static final MilitaryUpgrades.MetaGroup METAGROUP = new MilitaryUpgrades.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -399,7 +399,7 @@ public class MilitaryUpgrades
     public static class MetaGroup
         implements IMetaGroup<MilitaryUpgrades>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/MilitaryUpgrades.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infrastructureupgrades/MilitaryUpgrades.yaml";
         private Map<String, MilitaryUpgrades> cache = (null);
 
         @Override

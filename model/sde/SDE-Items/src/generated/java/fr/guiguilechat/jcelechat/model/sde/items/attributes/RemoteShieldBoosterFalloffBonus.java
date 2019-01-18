@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RemoteShieldBoosterFalloffBonus
     extends IntAttribute
 {
-    public final static RemoteShieldBoosterFalloffBonus INSTANCE = new RemoteShieldBoosterFalloffBonus();
+    public static final RemoteShieldBoosterFalloffBonus INSTANCE = new RemoteShieldBoosterFalloffBonus();
 
     @Override
     public int getId() {

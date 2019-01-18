@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FlagCruiserFittingBonusPainterProbes
     extends DoubleAttribute
 {
-    public final static FlagCruiserFittingBonusPainterProbes INSTANCE = new FlagCruiserFittingBonusPainterProbes();
+    public static final FlagCruiserFittingBonusPainterProbes INSTANCE = new FlagCruiserFittingBonusPainterProbes();
 
     @Override
     public int getId() {

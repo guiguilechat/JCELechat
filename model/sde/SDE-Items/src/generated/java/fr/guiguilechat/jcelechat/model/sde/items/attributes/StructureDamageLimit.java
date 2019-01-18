@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureDamageLimit
     extends IntAttribute
 {
-    public final static StructureDamageLimit INSTANCE = new StructureDamageLimit();
+    public static final StructureDamageLimit INSTANCE = new StructureDamageLimit();
 
     @Override
     public int getId() {

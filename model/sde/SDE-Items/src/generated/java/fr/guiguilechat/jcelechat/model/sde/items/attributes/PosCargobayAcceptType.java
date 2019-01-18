@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PosCargobayAcceptType
     extends IntAttribute
 {
-    public final static PosCargobayAcceptType INSTANCE = new PosCargobayAcceptType();
+    public static final PosCargobayAcceptType INSTANCE = new PosCargobayAcceptType();
 
     @Override
     public int getId() {

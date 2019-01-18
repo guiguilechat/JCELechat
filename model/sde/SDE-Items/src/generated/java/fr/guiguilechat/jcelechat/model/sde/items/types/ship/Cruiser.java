@@ -361,7 +361,7 @@ public class Cruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpBubbleImmune;
-    public final static Cruiser.MetaGroup METAGROUP = new Cruiser.MetaGroup();
+    public static final Cruiser.MetaGroup METAGROUP = new Cruiser.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -573,7 +573,7 @@ public class Cruiser
     public static class MetaGroup
         implements IMetaGroup<Cruiser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Cruiser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Cruiser.yaml";
         private Map<String, Cruiser> cache = (null);
 
         @Override

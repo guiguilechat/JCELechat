@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class FuelBlock
     extends Material
 {
-    public final static FuelBlock.MetaGroup METAGROUP = new FuelBlock.MetaGroup();
+    public static final FuelBlock.MetaGroup METAGROUP = new FuelBlock.MetaGroup();
 
     @Override
     public IMetaGroup<FuelBlock> getGroup() {
@@ -22,7 +22,7 @@ public class FuelBlock
     public static class MetaGroup
         implements IMetaGroup<FuelBlock>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/FuelBlock.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/FuelBlock.yaml";
         private Map<String, FuelBlock> cache = (null);
 
         @Override

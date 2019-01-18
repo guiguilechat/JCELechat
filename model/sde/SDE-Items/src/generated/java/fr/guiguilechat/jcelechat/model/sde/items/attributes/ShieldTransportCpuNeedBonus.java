@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShieldTransportCpuNeedBonus
     extends IntAttribute
 {
-    public final static ShieldTransportCpuNeedBonus INSTANCE = new ShieldTransportCpuNeedBonus();
+    public static final ShieldTransportCpuNeedBonus INSTANCE = new ShieldTransportCpuNeedBonus();
 
     @Override
     public int getId() {

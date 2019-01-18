@@ -234,7 +234,7 @@ public class Destroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static Destroyer.MetaGroup METAGROUP = new Destroyer.MetaGroup();
+    public static final Destroyer.MetaGroup METAGROUP = new Destroyer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -378,7 +378,7 @@ public class Destroyer
     public static class MetaGroup
         implements IMetaGroup<Destroyer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Destroyer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Destroyer.yaml";
         private Map<String, Destroyer> cache = (null);
 
         @Override

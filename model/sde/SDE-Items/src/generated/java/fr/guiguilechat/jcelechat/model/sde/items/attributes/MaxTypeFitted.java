@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxTypeFitted
     extends IntAttribute
 {
-    public final static MaxTypeFitted INSTANCE = new MaxTypeFitted();
+    public static final MaxTypeFitted INSTANCE = new MaxTypeFitted();
 
     @Override
     public int getId() {

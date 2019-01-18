@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class OutpostUpgrades
     extends Accessories
 {
-    public final static OutpostUpgrades.MetaGroup METAGROUP = new OutpostUpgrades.MetaGroup();
+    public static final OutpostUpgrades.MetaGroup METAGROUP = new OutpostUpgrades.MetaGroup();
 
     @Override
     public IMetaGroup<OutpostUpgrades> getGroup() {
@@ -22,7 +22,7 @@ public class OutpostUpgrades
     public static class MetaGroup
         implements IMetaGroup<OutpostUpgrades>
     {
-        public final static String RESOURCE_PATH = "SDE/items/accessories/OutpostUpgrades.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/accessories/OutpostUpgrades.yaml";
         private Map<String, OutpostUpgrades> cache = (null);
 
         @Override

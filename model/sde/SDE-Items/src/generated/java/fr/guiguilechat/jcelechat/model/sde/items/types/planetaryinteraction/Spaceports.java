@@ -52,7 +52,7 @@ public class Spaceports
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerLoad;
-    public final static Spaceports.MetaGroup METAGROUP = new Spaceports.MetaGroup();
+    public static final Spaceports.MetaGroup METAGROUP = new Spaceports.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -92,7 +92,7 @@ public class Spaceports
     public static class MetaGroup
         implements IMetaGroup<Spaceports>
     {
-        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Spaceports.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/Spaceports.yaml";
         private Map<String, Spaceports> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CargoCapacityMultiplier
     extends DoubleAttribute
 {
-    public final static CargoCapacityMultiplier INSTANCE = new CargoCapacityMultiplier();
+    public static final CargoCapacityMultiplier INSTANCE = new CargoCapacityMultiplier();
 
     @Override
     public int getId() {

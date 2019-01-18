@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SiegeRemoteLogisticsDurationBonus
     extends IntAttribute
 {
-    public final static SiegeRemoteLogisticsDurationBonus INSTANCE = new SiegeRemoteLogisticsDurationBonus();
+    public static final SiegeRemoteLogisticsDurationBonus INSTANCE = new SiegeRemoteLogisticsDurationBonus();
 
     @Override
     public int getId() {

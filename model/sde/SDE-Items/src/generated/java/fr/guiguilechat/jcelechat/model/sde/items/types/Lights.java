@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.lights.PointLights;
 public abstract class Lights
     extends Item
 {
-    public final static Lights.MetaCat METACAT = new Lights.MetaCat();
+    public static final Lights.MetaCat METACAT = new Lights.MetaCat();
 
     @Override
     public IMetaCategory<Lights> getCategory() {

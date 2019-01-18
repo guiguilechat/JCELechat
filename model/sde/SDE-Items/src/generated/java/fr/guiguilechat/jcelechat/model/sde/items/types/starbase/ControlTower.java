@@ -279,7 +279,7 @@ public class ControlTower
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static ControlTower.MetaGroup METAGROUP = new ControlTower.MetaGroup();
+    public static final ControlTower.MetaGroup METAGROUP = new ControlTower.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -443,7 +443,7 @@ public class ControlTower
     public static class MetaGroup
         implements IMetaGroup<ControlTower>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/ControlTower.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/ControlTower.yaml";
         private Map<String, ControlTower> cache = (null);
 
         @Override

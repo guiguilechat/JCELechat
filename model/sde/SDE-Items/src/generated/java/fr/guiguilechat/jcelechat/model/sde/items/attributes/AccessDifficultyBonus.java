@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AccessDifficultyBonus
     extends IntAttribute
 {
-    public final static AccessDifficultyBonus INSTANCE = new AccessDifficultyBonus();
+    public static final AccessDifficultyBonus INSTANCE = new AccessDifficultyBonus();
 
     @Override
     public int getId() {

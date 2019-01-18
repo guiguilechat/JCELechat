@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class SocialMutator
     extends IntAttribute
 {
-    public final static SocialMutator INSTANCE = new SocialMutator();
+    public static final SocialMutator INSTANCE = new SocialMutator();
 
     @Override
     public int getId() {

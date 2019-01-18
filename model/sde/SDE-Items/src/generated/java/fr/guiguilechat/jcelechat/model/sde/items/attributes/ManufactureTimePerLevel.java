@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ManufactureTimePerLevel
     extends IntAttribute
 {
-    public final static ManufactureTimePerLevel INSTANCE = new ManufactureTimePerLevel();
+    public static final ManufactureTimePerLevel INSTANCE = new ManufactureTimePerLevel();
 
     @Override
     public int getId() {

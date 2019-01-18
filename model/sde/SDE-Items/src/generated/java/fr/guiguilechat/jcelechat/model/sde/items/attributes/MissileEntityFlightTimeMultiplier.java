@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class MissileEntityFlightTimeMultiplier
     extends DoubleAttribute
 {
-    public final static MissileEntityFlightTimeMultiplier INSTANCE = new MissileEntityFlightTimeMultiplier();
+    public static final MissileEntityFlightTimeMultiplier INSTANCE = new MissileEntityFlightTimeMultiplier();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class WeaponDisruptionResistance
     extends DoubleAttribute
 {
-    public final static WeaponDisruptionResistance INSTANCE = new WeaponDisruptionResistance();
+    public static final WeaponDisruptionResistance INSTANCE = new WeaponDisruptionResistance();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class MoonRigSpewVolumeBonus
     extends DoubleAttribute
 {
-    public final static MoonRigSpewVolumeBonus INSTANCE = new MoonRigSpewVolumeBonus();
+    public static final MoonRigSpewVolumeBonus INSTANCE = new MoonRigSpewVolumeBonus();
 
     @Override
     public int getId() {

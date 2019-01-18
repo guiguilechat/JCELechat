@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ExplosionRange
     extends IntAttribute
 {
-    public final static ExplosionRange INSTANCE = new ExplosionRange();
+    public static final ExplosionRange INSTANCE = new ExplosionRange();
 
     @Override
     public int getId() {

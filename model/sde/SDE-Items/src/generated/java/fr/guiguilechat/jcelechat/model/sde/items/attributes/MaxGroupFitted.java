@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxGroupFitted
     extends IntAttribute
 {
-    public final static MaxGroupFitted INSTANCE = new MaxGroupFitted();
+    public static final MaxGroupFitted INSTANCE = new MaxGroupFitted();
 
     @Override
     public int getId() {

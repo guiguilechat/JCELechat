@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class AttributeAdvCompManufactureTime
     extends IntAttribute
 {
-    public final static AttributeAdvCompManufactureTime INSTANCE = new AttributeAdvCompManufactureTime();
+    public static final AttributeAdvCompManufactureTime INSTANCE = new AttributeAdvCompManufactureTime();
 
     @Override
     public int getId() {

@@ -83,7 +83,7 @@ public class CPUEnhancer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CPUEnhancer.MetaGroup METAGROUP = new CPUEnhancer.MetaGroup();
+    public static final CPUEnhancer.MetaGroup METAGROUP = new CPUEnhancer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +135,7 @@ public class CPUEnhancer
     public static class MetaGroup
         implements IMetaGroup<CPUEnhancer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CPUEnhancer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CPUEnhancer.yaml";
         private Map<String, CPUEnhancer> cache = (null);
 
         @Override

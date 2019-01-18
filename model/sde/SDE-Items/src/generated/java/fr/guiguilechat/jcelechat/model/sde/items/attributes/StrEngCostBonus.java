@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StrEngCostBonus
     extends DoubleAttribute
 {
-    public final static StrEngCostBonus INSTANCE = new StrEngCostBonus();
+    public static final StrEngCostBonus INSTANCE = new StrEngCostBonus();
 
     @Override
     public int getId() {

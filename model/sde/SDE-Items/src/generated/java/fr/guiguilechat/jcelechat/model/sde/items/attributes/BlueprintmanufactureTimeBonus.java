@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BlueprintmanufactureTimeBonus
     extends IntAttribute
 {
-    public final static BlueprintmanufactureTimeBonus INSTANCE = new BlueprintmanufactureTimeBonus();
+    public static final BlueprintmanufactureTimeBonus INSTANCE = new BlueprintmanufactureTimeBonus();
 
     @Override
     public int getId() {

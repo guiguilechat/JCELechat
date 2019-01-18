@@ -23,7 +23,7 @@ public class TargetBreakerBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static TargetBreakerBlueprint.MetaGroup METAGROUP = new TargetBreakerBlueprint.MetaGroup();
+    public static final TargetBreakerBlueprint.MetaGroup METAGROUP = new TargetBreakerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class TargetBreakerBlueprint
     public static class MetaGroup
         implements IMetaGroup<TargetBreakerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/TargetBreakerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/TargetBreakerBlueprint.yaml";
         private Map<String, TargetBreakerBlueprint> cache = (null);
 
         @Override

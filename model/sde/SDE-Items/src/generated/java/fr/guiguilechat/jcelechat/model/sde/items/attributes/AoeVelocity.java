@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class AoeVelocity
     extends DoubleAttribute
 {
-    public final static AoeVelocity INSTANCE = new AoeVelocity();
+    public static final AoeVelocity INSTANCE = new AoeVelocity();
 
     @Override
     public int getId() {

@@ -83,10 +83,10 @@ public class Corporations {
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_containers_logs>> get_corporations_corporation_id_containers_logs_holder = new HashMap<>();
     private final Map<Integer, ObsMapHolder<Long, R_get_corporations_corporation_id_orders_history>> get_corporations_corporation_id_orders_history_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_assets>> get_corporations_corporation_id_assets_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<Integer, ObsMapHolder<Long, R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
     private final Map<K_20_int_int, ObsMapHolder<Long, M_get_journal_13>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
 
     public Corporations(SwaggerCOCache<?> parent) {
@@ -1315,45 +1315,6 @@ public class Corporations {
     }
 
     /**
-     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th Note: this route will not return any flex structures owned by a corporation, use the v3 route to have those included in the response. A list of FLEX structures can be found here: https://support.eveonline.com/hc/en-us/articles/213021829-Upwell-Structures
-     * 
-     * cache over {@link Swagger#get_corporations_structures}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_structures> structures(int corporation_id) {
-        ObsListHolder<R_get_corporations_corporation_id_structures> ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_structures_holder);
-            synchronized (get_corporations_corporation_id_structures_holder)
-            {
-                LockWatchDog.BARKER.hld(get_corporations_corporation_id_structures_holder);
-                ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
-                if (ret == null) {
-                    ObservableList<R_get_corporations_corporation_id_structures> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_corporations_corporation_id_structures_holder.put(corporation_id, ret);
-                    ObsListHolder<R_get_corporations_corporation_id_structures> finalRet = ret;
-                    (cache).addFetchCacheArray("get_corporations_corporation_id_structures", (page, properties) -> (cache.swagger).get_corporations_structures(corporation_id, page, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
-                            finalRet.dataReceived();
-                        }
-                        LockWatchDog.BARKER.rel(holder);
-                    }
-                    , new String[] {"Station_Manager"});
-                }
-            }
-            LockWatchDog.BARKER.rel(get_corporations_corporation_id_structures_holder);
-        }
-        return ret;
-    }
-
-    /**
      * Return a list of the corporation assets
      * 
      * cache over {@link Swagger#get_corporations_assets}<br />
@@ -1476,7 +1437,46 @@ public class Corporations {
     }
 
     /**
-     * Retrieve the given corporation's wallet journal for the given division going 30 days back. Note: any journal records having to do with the new navigation structures from the release of Onslaught will not show up in this version. To see those, use the v4 version of this route.
+     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th
+     * 
+     * cache over {@link Swagger#get_corporations_structures}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_structures> structures(int corporation_id) {
+        ObsListHolder<R_get_corporations_corporation_id_structures> ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_structures_holder);
+            synchronized (get_corporations_corporation_id_structures_holder)
+            {
+                LockWatchDog.BARKER.hld(get_corporations_corporation_id_structures_holder);
+                ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
+                if (ret == null) {
+                    ObservableList<R_get_corporations_corporation_id_structures> holder = FXCollections.observableArrayList();
+                    ret = (cache).toHolder(holder);
+                    get_corporations_corporation_id_structures_holder.put(corporation_id, ret);
+                    ObsListHolder<R_get_corporations_corporation_id_structures> finalRet = ret;
+                    (cache).addFetchCacheArray("get_corporations_corporation_id_structures", (page, properties) -> (cache.swagger).get_corporations_structures(corporation_id, page, properties), arr -> {
+                        LockWatchDog.BARKER.tak(holder);
+                        synchronized (holder)
+                        {
+                            LockWatchDog.BARKER.hld(holder);
+                            holder.setAll(arr);
+                            finalRet.dataReceived();
+                        }
+                        LockWatchDog.BARKER.rel(holder);
+                    }
+                    , new String[] {"Station_Manager"});
+                }
+            }
+            LockWatchDog.BARKER.rel(get_corporations_corporation_id_structures_holder);
+        }
+        return ret;
+    }
+
+    /**
+     * Retrieve the given corporation's wallet journal for the given division going 30 days back
      * 
      * cache over {@link Swagger#get_corporations_wallets_journal}<br />
      * 

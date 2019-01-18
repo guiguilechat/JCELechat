@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxRangeBonus2
     extends IntAttribute
 {
-    public final static MaxRangeBonus2 INSTANCE = new MaxRangeBonus2();
+    public static final MaxRangeBonus2 INSTANCE = new MaxRangeBonus2();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ShieldCapacity
     extends IntAttribute
 {
-    public final static ShieldCapacity INSTANCE = new ShieldCapacity();
+    public static final ShieldCapacity INSTANCE = new ShieldCapacity();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxJumpClones
     extends IntAttribute
 {
-    public final static MaxJumpClones INSTANCE = new MaxJumpClones();
+    public static final MaxJumpClones INSTANCE = new MaxJumpClones();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ReactionGroup2
     extends IntAttribute
 {
-    public final static ReactionGroup2 INSTANCE = new ReactionGroup2();
+    public static final ReactionGroup2 INSTANCE = new ReactionGroup2();
 
     @Override
     public int getId() {

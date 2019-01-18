@@ -202,7 +202,7 @@ public class XLCruiseMissile
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static XLCruiseMissile.MetaGroup METAGROUP = new XLCruiseMissile.MetaGroup();
+    public static final XLCruiseMissile.MetaGroup METAGROUP = new XLCruiseMissile.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -322,7 +322,7 @@ public class XLCruiseMissile
     public static class MetaGroup
         implements IMetaGroup<XLCruiseMissile>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/XLCruiseMissile.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/XLCruiseMissile.yaml";
         private Map<String, XLCruiseMissile> cache = (null);
 
         @Override

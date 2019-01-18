@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class StructureRigDoomsdayTargetAmountBonus
     extends IntAttribute
 {
-    public final static StructureRigDoomsdayTargetAmountBonus INSTANCE = new StructureRigDoomsdayTargetAmountBonus();
+    public static final StructureRigDoomsdayTargetAmountBonus INSTANCE = new StructureRigDoomsdayTargetAmountBonus();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class GateMaxJumpMass
     extends IntAttribute
 {
-    public final static GateMaxJumpMass INSTANCE = new GateMaxJumpMass();
+    public static final GateMaxJumpMass INSTANCE = new GateMaxJumpMass();
 
     @Override
     public int getId() {

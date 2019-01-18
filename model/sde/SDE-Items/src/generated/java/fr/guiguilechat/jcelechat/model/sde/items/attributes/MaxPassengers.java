@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxPassengers
     extends IntAttribute
 {
-    public final static MaxPassengers INSTANCE = new MaxPassengers();
+    public static final MaxPassengers INSTANCE = new MaxPassengers();
 
     @Override
     public int getId() {

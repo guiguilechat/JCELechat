@@ -277,7 +277,7 @@ public class MobileHybridSentry
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static MobileHybridSentry.MetaGroup METAGROUP = new MobileHybridSentry.MetaGroup();
+    public static final MobileHybridSentry.MetaGroup METAGROUP = new MobileHybridSentry.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -441,7 +441,7 @@ public class MobileHybridSentry
     public static class MetaGroup
         implements IMetaGroup<MobileHybridSentry>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/MobileHybridSentry.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/MobileHybridSentry.yaml";
         private Map<String, MobileHybridSentry> cache = (null);
 
         @Override

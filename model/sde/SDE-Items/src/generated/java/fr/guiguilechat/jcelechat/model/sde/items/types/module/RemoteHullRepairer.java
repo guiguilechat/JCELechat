@@ -138,7 +138,7 @@ public class RemoteHullRepairer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RemoteHullRepairer.MetaGroup METAGROUP = new RemoteHullRepairer.MetaGroup();
+    public static final RemoteHullRepairer.MetaGroup METAGROUP = new RemoteHullRepairer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -226,7 +226,7 @@ public class RemoteHullRepairer
     public static class MetaGroup
         implements IMetaGroup<RemoteHullRepairer>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RemoteHullRepairer.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RemoteHullRepairer.yaml";
         private Map<String, RemoteHullRepairer> cache = (null);
 
         @Override

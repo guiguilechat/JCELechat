@@ -152,7 +152,7 @@ public class StructureStasisWebifier
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static StructureStasisWebifier.MetaGroup METAGROUP = new StructureStasisWebifier.MetaGroup();
+    public static final StructureStasisWebifier.MetaGroup METAGROUP = new StructureStasisWebifier.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -248,7 +248,7 @@ public class StructureStasisWebifier
     public static class MetaGroup
         implements IMetaGroup<StructureStasisWebifier>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
         private Map<String, StructureStasisWebifier> cache = (null);
 
         @Override

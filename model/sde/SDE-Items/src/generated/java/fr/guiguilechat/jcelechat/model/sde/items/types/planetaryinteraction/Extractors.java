@@ -72,7 +72,7 @@ public class Extractors
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerLoad;
-    public final static Extractors.MetaGroup METAGROUP = new Extractors.MetaGroup();
+    public static final Extractors.MetaGroup METAGROUP = new Extractors.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -124,7 +124,7 @@ public class Extractors
     public static class MetaGroup
         implements IMetaGroup<Extractors>
     {
-        public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Extractors.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/planetaryinteraction/Extractors.yaml";
         private Map<String, Extractors> cache = (null);
 
         @Override

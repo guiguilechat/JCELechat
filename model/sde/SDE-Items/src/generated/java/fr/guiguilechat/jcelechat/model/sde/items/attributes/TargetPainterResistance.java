@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class TargetPainterResistance
     extends DoubleAttribute
 {
-    public final static TargetPainterResistance INSTANCE = new TargetPainterResistance();
+    public static final TargetPainterResistance INSTANCE = new TargetPainterResistance();
 
     @Override
     public int getId() {

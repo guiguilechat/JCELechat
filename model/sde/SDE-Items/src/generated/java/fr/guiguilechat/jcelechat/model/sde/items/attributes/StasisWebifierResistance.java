@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class StasisWebifierResistance
     extends DoubleAttribute
 {
-    public final static StasisWebifierResistance INSTANCE = new StasisWebifierResistance();
+    public static final StasisWebifierResistance INSTANCE = new StasisWebifierResistance();
 
     @Override
     public int getId() {

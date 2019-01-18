@@ -283,7 +283,7 @@ public class ElectronicWarfareDrone
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
-    public final static ElectronicWarfareDrone.MetaGroup METAGROUP = new ElectronicWarfareDrone.MetaGroup();
+    public static final ElectronicWarfareDrone.MetaGroup METAGROUP = new ElectronicWarfareDrone.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -455,7 +455,7 @@ public class ElectronicWarfareDrone
     public static class MetaGroup
         implements IMetaGroup<ElectronicWarfareDrone>
     {
-        public final static String RESOURCE_PATH = "SDE/items/drone/ElectronicWarfareDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/drone/ElectronicWarfareDrone.yaml";
         private Map<String, ElectronicWarfareDrone> cache = (null);
 
         @Override

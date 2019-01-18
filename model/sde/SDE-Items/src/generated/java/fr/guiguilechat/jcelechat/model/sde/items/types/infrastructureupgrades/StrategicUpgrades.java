@@ -30,7 +30,7 @@ public class StrategicUpgrades
     @Stackable(true)
     @DefaultIntValue(0)
     public int SovBillSystemCost;
-    public final static StrategicUpgrades.MetaGroup METAGROUP = new StrategicUpgrades.MetaGroup();
+    public static final StrategicUpgrades.MetaGroup METAGROUP = new StrategicUpgrades.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +58,7 @@ public class StrategicUpgrades
     public static class MetaGroup
         implements IMetaGroup<StrategicUpgrades>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/StrategicUpgrades.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infrastructureupgrades/StrategicUpgrades.yaml";
         private Map<String, StrategicUpgrades> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class InventionPropabilityMultiplier
     extends DoubleAttribute
 {
-    public final static InventionPropabilityMultiplier INSTANCE = new InventionPropabilityMultiplier();
+    public static final InventionPropabilityMultiplier INSTANCE = new InventionPropabilityMultiplier();
 
     @Override
     public int getId() {

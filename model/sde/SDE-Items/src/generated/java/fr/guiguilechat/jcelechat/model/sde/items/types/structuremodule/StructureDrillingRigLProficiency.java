@@ -102,7 +102,7 @@ public class StructureDrillingRigLProficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureDrillingRigLProficiency.MetaGroup METAGROUP = new StructureDrillingRigLProficiency.MetaGroup();
+    public static final StructureDrillingRigLProficiency.MetaGroup METAGROUP = new StructureDrillingRigLProficiency.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -170,7 +170,7 @@ public class StructureDrillingRigLProficiency
     public static class MetaGroup
         implements IMetaGroup<StructureDrillingRigLProficiency>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigLProficiency.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigLProficiency.yaml";
         private Map<String, StructureDrillingRigLProficiency> cache = (null);
 
         @Override

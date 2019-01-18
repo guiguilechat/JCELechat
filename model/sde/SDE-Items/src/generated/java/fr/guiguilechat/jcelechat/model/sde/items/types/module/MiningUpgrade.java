@@ -111,7 +111,7 @@ public class MiningUpgrade
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static MiningUpgrade.MetaGroup METAGROUP = new MiningUpgrade.MetaGroup();
+    public static final MiningUpgrade.MetaGroup METAGROUP = new MiningUpgrade.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class MiningUpgrade
     public static class MetaGroup
         implements IMetaGroup<MiningUpgrade>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/MiningUpgrade.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/MiningUpgrade.yaml";
         private Map<String, MiningUpgrade> cache = (null);
 
         @Override

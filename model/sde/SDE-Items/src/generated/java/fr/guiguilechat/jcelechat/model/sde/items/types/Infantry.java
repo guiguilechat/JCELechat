@@ -26,7 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.infantry.Warbarge;
 public abstract class Infantry
     extends Item
 {
-    public final static Infantry.MetaCat METACAT = new Infantry.MetaCat();
+    public static final Infantry.MetaCat METACAT = new Infantry.MetaCat();
 
     @Override
     public IMetaCategory<Infantry> getCategory() {

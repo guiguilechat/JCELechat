@@ -153,7 +153,7 @@ public class RemoteCapacitorTransmitter
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static RemoteCapacitorTransmitter.MetaGroup METAGROUP = new RemoteCapacitorTransmitter.MetaGroup();
+    public static final RemoteCapacitorTransmitter.MetaGroup METAGROUP = new RemoteCapacitorTransmitter.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -245,7 +245,7 @@ public class RemoteCapacitorTransmitter
     public static class MetaGroup
         implements IMetaGroup<RemoteCapacitorTransmitter>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RemoteCapacitorTransmitter.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RemoteCapacitorTransmitter.yaml";
         private Map<String, RemoteCapacitorTransmitter> cache = (null);
 
         @Override

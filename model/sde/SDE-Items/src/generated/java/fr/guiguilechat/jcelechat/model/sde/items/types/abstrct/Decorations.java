@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Decorations
     extends Abstrct
 {
-    public final static Decorations.MetaGroup METAGROUP = new Decorations.MetaGroup();
+    public static final Decorations.MetaGroup METAGROUP = new Decorations.MetaGroup();
 
     @Override
     public IMetaGroup<Decorations> getGroup() {
@@ -22,7 +22,7 @@ public class Decorations
     public static class MetaGroup
         implements IMetaGroup<Decorations>
     {
-        public final static String RESOURCE_PATH = "SDE/items/abstrct/Decorations.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/abstrct/Decorations.yaml";
         private Map<String, Decorations> cache = (null);
 
         @Override

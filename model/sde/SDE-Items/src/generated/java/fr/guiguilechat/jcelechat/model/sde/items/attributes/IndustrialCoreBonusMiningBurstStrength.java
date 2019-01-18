@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IndustrialCoreBonusMiningBurstStrength
     extends IntAttribute
 {
-    public final static IndustrialCoreBonusMiningBurstStrength INSTANCE = new IndustrialCoreBonusMiningBurstStrength();
+    public static final IndustrialCoreBonusMiningBurstStrength INSTANCE = new IndustrialCoreBonusMiningBurstStrength();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MinVelocityActivationLimit
     extends IntAttribute
 {
-    public final static MinVelocityActivationLimit INSTANCE = new MinVelocityActivationLimit();
+    public static final MinVelocityActivationLimit INSTANCE = new MinVelocityActivationLimit();
 
     @Override
     public int getId() {

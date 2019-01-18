@@ -81,7 +81,7 @@ public class StructureDrillingRigMEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureDrillingRigMEfficiency.MetaGroup METAGROUP = new StructureDrillingRigMEfficiency.MetaGroup();
+    public static final StructureDrillingRigMEfficiency.MetaGroup METAGROUP = new StructureDrillingRigMEfficiency.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -137,7 +137,7 @@ public class StructureDrillingRigMEfficiency
     public static class MetaGroup
         implements IMetaGroup<StructureDrillingRigMEfficiency>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMEfficiency.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMEfficiency.yaml";
         private Map<String, StructureDrillingRigMEfficiency> cache = (null);
 
         @Override

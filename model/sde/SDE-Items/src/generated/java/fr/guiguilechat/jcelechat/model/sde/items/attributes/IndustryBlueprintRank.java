@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class IndustryBlueprintRank
     extends DoubleAttribute
 {
-    public final static IndustryBlueprintRank INSTANCE = new IndustryBlueprintRank();
+    public static final IndustryBlueprintRank INSTANCE = new IndustryBlueprintRank();
 
     @Override
     public int getId() {

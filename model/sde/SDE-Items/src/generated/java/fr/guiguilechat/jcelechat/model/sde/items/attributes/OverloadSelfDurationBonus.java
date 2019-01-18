@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class OverloadSelfDurationBonus
     extends DoubleAttribute
 {
-    public final static OverloadSelfDurationBonus INSTANCE = new OverloadSelfDurationBonus();
+    public static final OverloadSelfDurationBonus INSTANCE = new OverloadSelfDurationBonus();
 
     @Override
     public int getId() {

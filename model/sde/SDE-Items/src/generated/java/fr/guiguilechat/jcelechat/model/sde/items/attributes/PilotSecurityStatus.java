@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PilotSecurityStatus
     extends IntAttribute
 {
-    public final static PilotSecurityStatus INSTANCE = new PilotSecurityStatus();
+    public static final PilotSecurityStatus INSTANCE = new PilotSecurityStatus();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FighterTubes
     extends IntAttribute
 {
-    public final static FighterTubes INSTANCE = new FighterTubes();
+    public static final FighterTubes INSTANCE = new FighterTubes();
 
     @Override
     public int getId() {

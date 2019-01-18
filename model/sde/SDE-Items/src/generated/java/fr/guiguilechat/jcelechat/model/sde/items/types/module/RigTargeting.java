@@ -89,7 +89,7 @@ public class RigTargeting
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static RigTargeting.MetaGroup METAGROUP = new RigTargeting.MetaGroup();
+    public static final RigTargeting.MetaGroup METAGROUP = new RigTargeting.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -149,7 +149,7 @@ public class RigTargeting
     public static class MetaGroup
         implements IMetaGroup<RigTargeting>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigTargeting.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigTargeting.yaml";
         private Map<String, RigTargeting> cache = (null);
 
         @Override

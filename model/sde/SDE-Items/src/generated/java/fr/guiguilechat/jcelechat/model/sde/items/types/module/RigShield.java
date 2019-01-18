@@ -117,7 +117,7 @@ public class RigShield
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static RigShield.MetaGroup METAGROUP = new RigShield.MetaGroup();
+    public static final RigShield.MetaGroup METAGROUP = new RigShield.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -193,7 +193,7 @@ public class RigShield
     public static class MetaGroup
         implements IMetaGroup<RigShield>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigShield.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigShield.yaml";
         private Map<String, RigShield> cache = (null);
 
         @Override

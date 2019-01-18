@@ -129,7 +129,7 @@ public class EngineeringComplex
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
-    public final static EngineeringComplex.MetaGroup METAGROUP = new EngineeringComplex.MetaGroup();
+    public static final EngineeringComplex.MetaGroup METAGROUP = new EngineeringComplex.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -213,7 +213,7 @@ public class EngineeringComplex
     public static class MetaGroup
         implements IMetaGroup<EngineeringComplex>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structure/EngineeringComplex.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structure/EngineeringComplex.yaml";
         private Map<String, EngineeringComplex> cache = (null);
 
         @Override

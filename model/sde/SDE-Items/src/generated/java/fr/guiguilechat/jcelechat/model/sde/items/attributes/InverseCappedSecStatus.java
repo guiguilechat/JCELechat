@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class InverseCappedSecStatus
     extends IntAttribute
 {
-    public final static InverseCappedSecStatus INSTANCE = new InverseCappedSecStatus();
+    public static final InverseCappedSecStatus INSTANCE = new InverseCappedSecStatus();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CorporationMemberBonus
     extends IntAttribute
 {
-    public final static CorporationMemberBonus INSTANCE = new CorporationMemberBonus();
+    public static final CorporationMemberBonus INSTANCE = new CorporationMemberBonus();
 
     @Override
     public int getId() {

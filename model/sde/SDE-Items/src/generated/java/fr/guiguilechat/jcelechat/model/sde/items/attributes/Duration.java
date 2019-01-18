@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class Duration
     extends DoubleAttribute
 {
-    public final static Duration INSTANCE = new Duration();
+    public static final Duration INSTANCE = new Duration();
 
     @Override
     public int getId() {

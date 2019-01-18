@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class HiddenArmorHPMultiplier
     extends IntAttribute
 {
-    public final static HiddenArmorHPMultiplier INSTANCE = new HiddenArmorHPMultiplier();
+    public static final HiddenArmorHPMultiplier INSTANCE = new HiddenArmorHPMultiplier();
 
     @Override
     public int getId() {

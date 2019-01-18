@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.trading.TradeSession;
 public abstract class Trading
     extends Item
 {
-    public final static Trading.MetaCat METACAT = new Trading.MetaCat();
+    public static final Trading.MetaCat METACAT = new Trading.MetaCat();
 
     @Override
     public IMetaCategory<Trading> getCategory() {

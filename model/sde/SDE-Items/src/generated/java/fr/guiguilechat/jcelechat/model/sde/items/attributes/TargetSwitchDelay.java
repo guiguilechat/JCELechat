@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class TargetSwitchDelay
     extends IntAttribute
 {
-    public final static TargetSwitchDelay INSTANCE = new TargetSwitchDelay();
+    public static final TargetSwitchDelay INSTANCE = new TargetSwitchDelay();
 
     @Override
     public int getId() {

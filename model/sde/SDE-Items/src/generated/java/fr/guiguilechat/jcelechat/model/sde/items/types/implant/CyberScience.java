@@ -52,7 +52,7 @@ public class CyberScience
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CyberScience.MetaGroup METAGROUP = new CyberScience.MetaGroup();
+    public static final CyberScience.MetaGroup METAGROUP = new CyberScience.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -92,7 +92,7 @@ public class CyberScience
     public static class MetaGroup
         implements IMetaGroup<CyberScience>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/CyberScience.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/CyberScience.yaml";
         private Map<String, CyberScience> cache = (null);
 
         @Override

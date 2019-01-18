@@ -178,7 +178,7 @@ public class DefensiveSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
-    public final static DefensiveSystems.MetaGroup METAGROUP = new DefensiveSystems.MetaGroup();
+    public static final DefensiveSystems.MetaGroup METAGROUP = new DefensiveSystems.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -290,7 +290,7 @@ public class DefensiveSystems
     public static class MetaGroup
         implements IMetaGroup<DefensiveSystems>
     {
-        public final static String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
         private Map<String, DefensiveSystems> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FighterAbilityECMStrengthMagnetometric
     extends DoubleAttribute
 {
-    public final static FighterAbilityECMStrengthMagnetometric INSTANCE = new FighterAbilityECMStrengthMagnetometric();
+    public static final FighterAbilityECMStrengthMagnetometric INSTANCE = new FighterAbilityECMStrengthMagnetometric();
 
     @Override
     public int getId() {

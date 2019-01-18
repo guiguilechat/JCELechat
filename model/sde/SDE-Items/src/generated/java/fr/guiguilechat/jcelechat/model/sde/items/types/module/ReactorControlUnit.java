@@ -111,7 +111,7 @@ public class ReactorControlUnit
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ReactorControlUnit.MetaGroup METAGROUP = new ReactorControlUnit.MetaGroup();
+    public static final ReactorControlUnit.MetaGroup METAGROUP = new ReactorControlUnit.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +179,7 @@ public class ReactorControlUnit
     public static class MetaGroup
         implements IMetaGroup<ReactorControlUnit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ReactorControlUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ReactorControlUnit.yaml";
         private Map<String, ReactorControlUnit> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class PosControlTowerPeriod
     extends IntAttribute
 {
-    public final static PosControlTowerPeriod INSTANCE = new PosControlTowerPeriod();
+    public static final PosControlTowerPeriod INSTANCE = new PosControlTowerPeriod();
 
     @Override
     public int getId() {

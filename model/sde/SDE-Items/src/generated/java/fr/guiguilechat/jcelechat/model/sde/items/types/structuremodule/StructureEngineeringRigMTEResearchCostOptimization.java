@@ -137,7 +137,7 @@ public class StructureEngineeringRigMTEResearchCostOptimization
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
-    public final static StructureEngineeringRigMTEResearchCostOptimization.MetaGroup METAGROUP = new StructureEngineeringRigMTEResearchCostOptimization.MetaGroup();
+    public static final StructureEngineeringRigMTEResearchCostOptimization.MetaGroup METAGROUP = new StructureEngineeringRigMTEResearchCostOptimization.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -225,7 +225,7 @@ public class StructureEngineeringRigMTEResearchCostOptimization
     public static class MetaGroup
         implements IMetaGroup<StructureEngineeringRigMTEResearchCostOptimization>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMTEResearchCostOptimization.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMTEResearchCostOptimization.yaml";
         private Map<String, StructureEngineeringRigMTEResearchCostOptimization> cache = (null);
 
         @Override

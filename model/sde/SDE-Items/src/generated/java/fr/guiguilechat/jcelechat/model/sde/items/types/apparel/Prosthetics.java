@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Prosthetics
     extends Apparel
 {
-    public final static Prosthetics.MetaGroup METAGROUP = new Prosthetics.MetaGroup();
+    public static final Prosthetics.MetaGroup METAGROUP = new Prosthetics.MetaGroup();
 
     @Override
     public IMetaGroup<Prosthetics> getGroup() {
@@ -22,7 +22,7 @@ public class Prosthetics
     public static class MetaGroup
         implements IMetaGroup<Prosthetics>
     {
-        public final static String RESOURCE_PATH = "SDE/items/apparel/Prosthetics.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/apparel/Prosthetics.yaml";
         private Map<String, Prosthetics> cache = (null);
 
         @Override

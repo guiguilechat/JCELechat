@@ -124,7 +124,7 @@ public class SurveyProbeLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SurveyProbeLauncher.MetaGroup METAGROUP = new SurveyProbeLauncher.MetaGroup();
+    public static final SurveyProbeLauncher.MetaGroup METAGROUP = new SurveyProbeLauncher.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -204,7 +204,7 @@ public class SurveyProbeLauncher
     public static class MetaGroup
         implements IMetaGroup<SurveyProbeLauncher>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/SurveyProbeLauncher.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/SurveyProbeLauncher.yaml";
         private Map<String, SurveyProbeLauncher> cache = (null);
 
         @Override

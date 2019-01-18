@@ -37,7 +37,7 @@ public class Kernite
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
-    public final static Kernite.MetaGroup METAGROUP = new Kernite.MetaGroup();
+    public static final Kernite.MetaGroup METAGROUP = new Kernite.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -69,7 +69,7 @@ public class Kernite
     public static class MetaGroup
         implements IMetaGroup<Kernite>
     {
-        public final static String RESOURCE_PATH = "SDE/items/asteroid/Kernite.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/asteroid/Kernite.yaml";
         private Map<String, Kernite> cache = (null);
 
         @Override

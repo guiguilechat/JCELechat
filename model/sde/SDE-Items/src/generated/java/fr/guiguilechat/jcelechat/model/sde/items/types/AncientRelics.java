@@ -25,7 +25,7 @@ public abstract class AncientRelics
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static AncientRelics.MetaCat METACAT = new AncientRelics.MetaCat();
+    public static final AncientRelics.MetaCat METACAT = new AncientRelics.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

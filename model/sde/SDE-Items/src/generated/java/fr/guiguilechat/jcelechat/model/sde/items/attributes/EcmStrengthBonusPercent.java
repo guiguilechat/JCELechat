@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EcmStrengthBonusPercent
     extends IntAttribute
 {
-    public final static EcmStrengthBonusPercent INSTANCE = new EcmStrengthBonusPercent();
+    public static final EcmStrengthBonusPercent INSTANCE = new EcmStrengthBonusPercent();
 
     @Override
     public int getId() {

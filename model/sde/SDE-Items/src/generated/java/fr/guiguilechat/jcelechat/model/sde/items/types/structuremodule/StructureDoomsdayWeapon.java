@@ -182,7 +182,7 @@ public class StructureDoomsdayWeapon
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static StructureDoomsdayWeapon.MetaGroup METAGROUP = new StructureDoomsdayWeapon.MetaGroup();
+    public static final StructureDoomsdayWeapon.MetaGroup METAGROUP = new StructureDoomsdayWeapon.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -294,7 +294,7 @@ public class StructureDoomsdayWeapon
     public static class MetaGroup
         implements IMetaGroup<StructureDoomsdayWeapon>
     {
-        public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDoomsdayWeapon.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/structuremodule/StructureDoomsdayWeapon.yaml";
         private Map<String, StructureDoomsdayWeapon> cache = (null);
 
         @Override

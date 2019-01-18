@@ -23,7 +23,7 @@ public class StarbaseMobileLaboratoryBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static StarbaseMobileLaboratoryBlueprints.MetaGroup METAGROUP = new StarbaseMobileLaboratoryBlueprints.MetaGroup();
+    public static final StarbaseMobileLaboratoryBlueprints.MetaGroup METAGROUP = new StarbaseMobileLaboratoryBlueprints.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class StarbaseMobileLaboratoryBlueprints
     public static class MetaGroup
         implements IMetaGroup<StarbaseMobileLaboratoryBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseMobileLaboratoryBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/StarbaseMobileLaboratoryBlueprints.yaml";
         private Map<String, StarbaseMobileLaboratoryBlueprints> cache = (null);
 
         @Override

@@ -12,7 +12,7 @@ public class ItemIndex {
     public LinkedHashMap<String, String> name2group = new LinkedHashMap<>();
     public LinkedHashMap<String, String> group2class = new LinkedHashMap<>();
     private static Map<String, Map<String, ? extends Item>> groupcache = new HashMap<>();
-    public final static String RESOURCE_PATH = "SDE/items/metainf.yaml";
+    public static final String RESOURCE_PATH = "SDE/items/metainf.yaml";
     private static ItemIndex cache = (null);
 
     @SuppressWarnings("unchecked")

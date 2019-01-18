@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ProjECMDurationBonus
     extends IntAttribute
 {
-    public final static ProjECMDurationBonus INSTANCE = new ProjECMDurationBonus();
+    public static final ProjECMDurationBonus INSTANCE = new ProjECMDurationBonus();
 
     @Override
     public int getId() {

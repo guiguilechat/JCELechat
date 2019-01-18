@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class FastTalkMutator
     extends IntAttribute
 {
-    public final static FastTalkMutator INSTANCE = new FastTalkMutator();
+    public static final FastTalkMutator INSTANCE = new FastTalkMutator();
 
     @Override
     public int getId() {

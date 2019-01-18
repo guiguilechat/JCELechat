@@ -90,7 +90,7 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StasisWebifierResistance;
-    public final static Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
+    public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {

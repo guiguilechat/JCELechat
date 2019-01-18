@@ -31,7 +31,7 @@ public class IndustrialBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int IndustryJobCostMultiplier;
-    public final static IndustrialBlueprint.MetaGroup METAGROUP = new IndustrialBlueprint.MetaGroup();
+    public static final IndustrialBlueprint.MetaGroup METAGROUP = new IndustrialBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -59,7 +59,7 @@ public class IndustrialBlueprint
     public static class MetaGroup
         implements IMetaGroup<IndustrialBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/IndustrialBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/IndustrialBlueprint.yaml";
         private Map<String, IndustrialBlueprint> cache = (null);
 
         @Override

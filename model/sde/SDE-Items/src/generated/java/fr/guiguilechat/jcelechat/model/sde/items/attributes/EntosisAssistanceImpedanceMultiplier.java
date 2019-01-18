@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class EntosisAssistanceImpedanceMultiplier
     extends DoubleAttribute
 {
-    public final static EntosisAssistanceImpedanceMultiplier INSTANCE = new EntosisAssistanceImpedanceMultiplier();
+    public static final EntosisAssistanceImpedanceMultiplier INSTANCE = new EntosisAssistanceImpedanceMultiplier();
 
     @Override
     public int getId() {

@@ -131,7 +131,7 @@ public class RigNavigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpCapacitorNeedBonus;
-    public final static RigNavigation.MetaGroup METAGROUP = new RigNavigation.MetaGroup();
+    public static final RigNavigation.MetaGroup METAGROUP = new RigNavigation.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -215,7 +215,7 @@ public class RigNavigation
     public static class MetaGroup
         implements IMetaGroup<RigNavigation>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/RigNavigation.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/RigNavigation.yaml";
         private Map<String, RigNavigation> cache = (null);
 
         @Override

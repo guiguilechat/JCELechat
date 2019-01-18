@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MaxRangeMultiplier
     extends IntAttribute
 {
-    public final static MaxRangeMultiplier INSTANCE = new MaxRangeMultiplier();
+    public static final MaxRangeMultiplier INSTANCE = new MaxRangeMultiplier();
 
     @Override
     public int getId() {

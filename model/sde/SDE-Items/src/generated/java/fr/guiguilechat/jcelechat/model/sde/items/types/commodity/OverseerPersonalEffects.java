@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class OverseerPersonalEffects
     extends Commodity
 {
-    public final static OverseerPersonalEffects.MetaGroup METAGROUP = new OverseerPersonalEffects.MetaGroup();
+    public static final OverseerPersonalEffects.MetaGroup METAGROUP = new OverseerPersonalEffects.MetaGroup();
 
     @Override
     public IMetaGroup<OverseerPersonalEffects> getGroup() {
@@ -22,7 +22,7 @@ public class OverseerPersonalEffects
     public static class MetaGroup
         implements IMetaGroup<OverseerPersonalEffects>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/OverseerPersonalEffects.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/OverseerPersonalEffects.yaml";
         private Map<String, OverseerPersonalEffects> cache = (null);
 
         @Override

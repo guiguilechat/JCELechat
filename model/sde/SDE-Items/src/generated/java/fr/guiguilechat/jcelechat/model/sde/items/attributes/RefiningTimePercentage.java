@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RefiningTimePercentage
     extends IntAttribute
 {
-    public final static RefiningTimePercentage INSTANCE = new RefiningTimePercentage();
+    public static final RefiningTimePercentage INSTANCE = new RefiningTimePercentage();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ConnectionBonusMutator
     extends DoubleAttribute
 {
-    public final static ConnectionBonusMutator INSTANCE = new ConnectionBonusMutator();
+    public static final ConnectionBonusMutator INSTANCE = new ConnectionBonusMutator();
 
     @Override
     public int getId() {

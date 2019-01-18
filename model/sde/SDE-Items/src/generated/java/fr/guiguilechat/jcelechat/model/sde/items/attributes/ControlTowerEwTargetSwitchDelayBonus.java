@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ControlTowerEwTargetSwitchDelayBonus
     extends IntAttribute
 {
-    public final static ControlTowerEwTargetSwitchDelayBonus INSTANCE = new ControlTowerEwTargetSwitchDelayBonus();
+    public static final ControlTowerEwTargetSwitchDelayBonus INSTANCE = new ControlTowerEwTargetSwitchDelayBonus();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DscanImmune
     extends IntAttribute
 {
-    public final static DscanImmune INSTANCE = new DscanImmune();
+    public static final DscanImmune INSTANCE = new DscanImmune();
 
     @Override
     public int getId() {

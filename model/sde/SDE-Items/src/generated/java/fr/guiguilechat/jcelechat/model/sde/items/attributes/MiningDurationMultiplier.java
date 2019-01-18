@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class MiningDurationMultiplier
     extends DoubleAttribute
 {
-    public final static MiningDurationMultiplier INSTANCE = new MiningDurationMultiplier();
+    public static final MiningDurationMultiplier INSTANCE = new MiningDurationMultiplier();
 
     @Override
     public int getId() {

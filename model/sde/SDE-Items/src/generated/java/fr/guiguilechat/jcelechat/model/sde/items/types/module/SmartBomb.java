@@ -153,7 +153,7 @@ public class SmartBomb
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static SmartBomb.MetaGroup METAGROUP = new SmartBomb.MetaGroup();
+    public static final SmartBomb.MetaGroup METAGROUP = new SmartBomb.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -245,7 +245,7 @@ public class SmartBomb
     public static class MetaGroup
         implements IMetaGroup<SmartBomb>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/SmartBomb.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/SmartBomb.yaml";
         private Map<String, SmartBomb> cache = (null);
 
         @Override

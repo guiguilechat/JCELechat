@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CpuOutput
     extends IntAttribute
 {
-    public final static CpuOutput INSTANCE = new CpuOutput();
+    public static final CpuOutput INSTANCE = new CpuOutput();
 
     @Override
     public int getId() {

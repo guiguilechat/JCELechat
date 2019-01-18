@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class FighterAbilityAttackMissileReductionSensitivity
     extends DoubleAttribute
 {
-    public final static FighterAbilityAttackMissileReductionSensitivity INSTANCE = new FighterAbilityAttackMissileReductionSensitivity();
+    public static final FighterAbilityAttackMissileReductionSensitivity INSTANCE = new FighterAbilityAttackMissileReductionSensitivity();
 
     @Override
     public int getId() {

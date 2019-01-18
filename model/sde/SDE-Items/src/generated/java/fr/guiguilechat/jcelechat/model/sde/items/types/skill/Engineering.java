@@ -129,7 +129,7 @@ public class Engineering
     @Stackable(true)
     @DefaultIntValue(0)
     public int ThermodynamicsHeatDamage;
-    public final static Engineering.MetaGroup METAGROUP = new Engineering.MetaGroup();
+    public static final Engineering.MetaGroup METAGROUP = new Engineering.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -213,7 +213,7 @@ public class Engineering
     public static class MetaGroup
         implements IMetaGroup<Engineering>
     {
-        public final static String RESOURCE_PATH = "SDE/items/skill/Engineering.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/skill/Engineering.yaml";
         private Map<String, Engineering> cache = (null);
 
         @Override

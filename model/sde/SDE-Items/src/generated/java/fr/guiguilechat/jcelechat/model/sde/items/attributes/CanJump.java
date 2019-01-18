@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CanJump
     extends IntAttribute
 {
-    public final static CanJump INSTANCE = new CanJump();
+    public static final CanJump INSTANCE = new CanJump();
 
     @Override
     public int getId() {

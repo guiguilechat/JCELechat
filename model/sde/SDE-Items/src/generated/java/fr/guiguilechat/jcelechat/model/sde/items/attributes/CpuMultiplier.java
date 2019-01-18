@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CpuMultiplier
     extends DoubleAttribute
 {
-    public final static CpuMultiplier INSTANCE = new CpuMultiplier();
+    public static final CpuMultiplier INSTANCE = new CpuMultiplier();
 
     @Override
     public int getId() {

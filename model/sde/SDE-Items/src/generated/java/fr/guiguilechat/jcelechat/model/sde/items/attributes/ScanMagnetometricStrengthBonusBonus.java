@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ScanMagnetometricStrengthBonusBonus
     extends IntAttribute
 {
-    public final static ScanMagnetometricStrengthBonusBonus INSTANCE = new ScanMagnetometricStrengthBonusBonus();
+    public static final ScanMagnetometricStrengthBonusBonus INSTANCE = new ScanMagnetometricStrengthBonusBonus();
 
     @Override
     public int getId() {

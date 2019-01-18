@@ -354,7 +354,7 @@ public class Cyberimplant
     @Stackable(true)
     @DefaultIntValue(0)
     public int WillpowerBonus;
-    public final static Cyberimplant.MetaGroup METAGROUP = new Cyberimplant.MetaGroup();
+    public static final Cyberimplant.MetaGroup METAGROUP = new Cyberimplant.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -566,7 +566,7 @@ public class Cyberimplant
     public static class MetaGroup
         implements IMetaGroup<Cyberimplant>
     {
-        public final static String RESOURCE_PATH = "SDE/items/implant/Cyberimplant.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/implant/Cyberimplant.yaml";
         private Map<String, Cyberimplant> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ScanRadarStrengthModifier
     extends IntAttribute
 {
-    public final static ScanRadarStrengthModifier INSTANCE = new ScanRadarStrengthModifier();
+    public static final ScanRadarStrengthModifier INSTANCE = new ScanRadarStrengthModifier();
 
     @Override
     public int getId() {

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ProbesInGroup
     extends IntAttribute
 {
-    public final static ProbesInGroup INSTANCE = new ProbesInGroup();
+    public static final ProbesInGroup INSTANCE = new ProbesInGroup();
 
     @Override
     public int getId() {

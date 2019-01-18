@@ -32,7 +32,7 @@ public class TrackingEnhancerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static TrackingEnhancerBlueprint.MetaGroup METAGROUP = new TrackingEnhancerBlueprint.MetaGroup();
+    public static final TrackingEnhancerBlueprint.MetaGroup METAGROUP = new TrackingEnhancerBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -60,7 +60,7 @@ public class TrackingEnhancerBlueprint
     public static class MetaGroup
         implements IMetaGroup<TrackingEnhancerBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/TrackingEnhancerBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/TrackingEnhancerBlueprint.yaml";
         private Map<String, TrackingEnhancerBlueprint> cache = (null);
 
         @Override

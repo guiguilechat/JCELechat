@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class BoosterAttributeModifier
     extends IntAttribute
 {
-    public final static BoosterAttributeModifier INSTANCE = new BoosterAttributeModifier();
+    public static final BoosterAttributeModifier INSTANCE = new BoosterAttributeModifier();
 
     @Override
     public int getId() {

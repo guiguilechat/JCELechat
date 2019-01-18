@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class UnknownComponents
     extends Commodity
 {
-    public final static UnknownComponents.MetaGroup METAGROUP = new UnknownComponents.MetaGroup();
+    public static final UnknownComponents.MetaGroup METAGROUP = new UnknownComponents.MetaGroup();
 
     @Override
     public IMetaGroup<UnknownComponents> getGroup() {
@@ -22,7 +22,7 @@ public class UnknownComponents
     public static class MetaGroup
         implements IMetaGroup<UnknownComponents>
     {
-        public final static String RESOURCE_PATH = "SDE/items/commodity/UnknownComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/commodity/UnknownComponents.yaml";
         private Map<String, UnknownComponents> cache = (null);
 
         @Override

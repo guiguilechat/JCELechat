@@ -31,7 +31,7 @@ public class ToolBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static ToolBlueprint.MetaGroup METAGROUP = new ToolBlueprint.MetaGroup();
+    public static final ToolBlueprint.MetaGroup METAGROUP = new ToolBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -59,7 +59,7 @@ public class ToolBlueprint
     public static class MetaGroup
         implements IMetaGroup<ToolBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/ToolBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/ToolBlueprint.yaml";
         private Map<String, ToolBlueprint> cache = (null);
 
         @Override

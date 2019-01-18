@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class RogueDroneComponents
     extends Material
 {
-    public final static RogueDroneComponents.MetaGroup METAGROUP = new RogueDroneComponents.MetaGroup();
+    public static final RogueDroneComponents.MetaGroup METAGROUP = new RogueDroneComponents.MetaGroup();
 
     @Override
     public IMetaGroup<RogueDroneComponents> getGroup() {
@@ -22,7 +22,7 @@ public class RogueDroneComponents
     public static class MetaGroup
         implements IMetaGroup<RogueDroneComponents>
     {
-        public final static String RESOURCE_PATH = "SDE/items/material/RogueDroneComponents.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/material/RogueDroneComponents.yaml";
         private Map<String, RogueDroneComponents> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntityAttackDelayMin
     extends IntAttribute
 {
-    public final static EntityAttackDelayMin INSTANCE = new EntityAttackDelayMin();
+    public static final EntityAttackDelayMin INSTANCE = new EntityAttackDelayMin();
 
     @Override
     public int getId() {

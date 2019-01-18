@@ -200,7 +200,7 @@ public class LogisticDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureDamageAmount;
-    public final static LogisticDrone.MetaGroup METAGROUP = new LogisticDrone.MetaGroup();
+    public static final LogisticDrone.MetaGroup METAGROUP = new LogisticDrone.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -324,7 +324,7 @@ public class LogisticDrone
     public static class MetaGroup
         implements IMetaGroup<LogisticDrone>
     {
-        public final static String RESOURCE_PATH = "SDE/items/drone/LogisticDrone.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/drone/LogisticDrone.yaml";
         private Map<String, LogisticDrone> cache = (null);
 
         @Override

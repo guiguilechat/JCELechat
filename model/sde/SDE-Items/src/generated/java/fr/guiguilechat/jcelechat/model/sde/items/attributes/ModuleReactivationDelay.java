@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ModuleReactivationDelay
     extends IntAttribute
 {
-    public final static ModuleReactivationDelay INSTANCE = new ModuleReactivationDelay();
+    public static final ModuleReactivationDelay INSTANCE = new ModuleReactivationDelay();
 
     @Override
     public int getId() {

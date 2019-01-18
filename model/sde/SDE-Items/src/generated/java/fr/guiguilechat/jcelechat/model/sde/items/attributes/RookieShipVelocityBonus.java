@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class RookieShipVelocityBonus
     extends IntAttribute
 {
-    public final static RookieShipVelocityBonus INSTANCE = new RookieShipVelocityBonus();
+    public static final RookieShipVelocityBonus INSTANCE = new RookieShipVelocityBonus();
 
     @Override
     public int getId() {

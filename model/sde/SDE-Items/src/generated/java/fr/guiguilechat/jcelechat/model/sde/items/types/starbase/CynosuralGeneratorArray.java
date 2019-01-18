@@ -136,7 +136,7 @@ public class CynosuralGeneratorArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static CynosuralGeneratorArray.MetaGroup METAGROUP = new CynosuralGeneratorArray.MetaGroup();
+    public static final CynosuralGeneratorArray.MetaGroup METAGROUP = new CynosuralGeneratorArray.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -224,7 +224,7 @@ public class CynosuralGeneratorArray
     public static class MetaGroup
         implements IMetaGroup<CynosuralGeneratorArray>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralGeneratorArray.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/CynosuralGeneratorArray.yaml";
         private Map<String, CynosuralGeneratorArray> cache = (null);
 
         @Override

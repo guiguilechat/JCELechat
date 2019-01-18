@@ -173,7 +173,7 @@ public class FrequencyMiningLaser
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static FrequencyMiningLaser.MetaGroup METAGROUP = new FrequencyMiningLaser.MetaGroup();
+    public static final FrequencyMiningLaser.MetaGroup METAGROUP = new FrequencyMiningLaser.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -281,7 +281,7 @@ public class FrequencyMiningLaser
     public static class MetaGroup
         implements IMetaGroup<FrequencyMiningLaser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/FrequencyMiningLaser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/FrequencyMiningLaser.yaml";
         private Map<String, FrequencyMiningLaser> cache = (null);
 
         @Override

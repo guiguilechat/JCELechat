@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class AdvancedExoticPlasmaChargeBlueprint
     extends Blueprint
 {
-    public final static AdvancedExoticPlasmaChargeBlueprint.MetaGroup METAGROUP = new AdvancedExoticPlasmaChargeBlueprint.MetaGroup();
+    public static final AdvancedExoticPlasmaChargeBlueprint.MetaGroup METAGROUP = new AdvancedExoticPlasmaChargeBlueprint.MetaGroup();
 
     @Override
     public IMetaGroup<AdvancedExoticPlasmaChargeBlueprint> getGroup() {
@@ -22,7 +22,7 @@ public class AdvancedExoticPlasmaChargeBlueprint
     public static class MetaGroup
         implements IMetaGroup<AdvancedExoticPlasmaChargeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/AdvancedExoticPlasmaChargeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/AdvancedExoticPlasmaChargeBlueprint.yaml";
         private Map<String, AdvancedExoticPlasmaChargeBlueprint> cache = (null);
 
         @Override

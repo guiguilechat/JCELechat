@@ -159,7 +159,7 @@ public class AdvancedExoticPlasmaCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
-    public final static AdvancedExoticPlasmaCharge.MetaGroup METAGROUP = new AdvancedExoticPlasmaCharge.MetaGroup();
+    public static final AdvancedExoticPlasmaCharge.MetaGroup METAGROUP = new AdvancedExoticPlasmaCharge.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -255,7 +255,7 @@ public class AdvancedExoticPlasmaCharge
     public static class MetaGroup
         implements IMetaGroup<AdvancedExoticPlasmaCharge>
     {
-        public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedExoticPlasmaCharge.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/charge/AdvancedExoticPlasmaCharge.yaml";
         private Map<String, AdvancedExoticPlasmaCharge> cache = (null);
 
         @Override

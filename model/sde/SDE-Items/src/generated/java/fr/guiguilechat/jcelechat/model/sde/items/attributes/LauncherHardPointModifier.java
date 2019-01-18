@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class LauncherHardPointModifier
     extends IntAttribute
 {
-    public final static LauncherHardPointModifier INSTANCE = new LauncherHardPointModifier();
+    public static final LauncherHardPointModifier INSTANCE = new LauncherHardPointModifier();
 
     @Override
     public int getId() {

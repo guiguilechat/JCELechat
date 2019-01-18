@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class NullSecModifier
     extends DoubleAttribute
 {
-    public final static NullSecModifier INSTANCE = new NullSecModifier();
+    public static final NullSecModifier INSTANCE = new NullSecModifier();
 
     @Override
     public int getId() {

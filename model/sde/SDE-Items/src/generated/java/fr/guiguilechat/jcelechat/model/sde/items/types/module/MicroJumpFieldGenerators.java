@@ -152,7 +152,7 @@ public class MicroJumpFieldGenerators
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static MicroJumpFieldGenerators.MetaGroup METAGROUP = new MicroJumpFieldGenerators.MetaGroup();
+    public static final MicroJumpFieldGenerators.MetaGroup METAGROUP = new MicroJumpFieldGenerators.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -248,7 +248,7 @@ public class MicroJumpFieldGenerators
     public static class MetaGroup
         implements IMetaGroup<MicroJumpFieldGenerators>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/MicroJumpFieldGenerators.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/MicroJumpFieldGenerators.yaml";
         private Map<String, MicroJumpFieldGenerators> cache = (null);
 
         @Override

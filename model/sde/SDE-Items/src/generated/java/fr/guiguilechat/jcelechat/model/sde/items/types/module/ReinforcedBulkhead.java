@@ -97,7 +97,7 @@ public class ReinforcedBulkhead
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static ReinforcedBulkhead.MetaGroup METAGROUP = new ReinforcedBulkhead.MetaGroup();
+    public static final ReinforcedBulkhead.MetaGroup METAGROUP = new ReinforcedBulkhead.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -157,7 +157,7 @@ public class ReinforcedBulkhead
     public static class MetaGroup
         implements IMetaGroup<ReinforcedBulkhead>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/ReinforcedBulkhead.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/ReinforcedBulkhead.yaml";
         private Map<String, ReinforcedBulkhead> cache = (null);
 
         @Override

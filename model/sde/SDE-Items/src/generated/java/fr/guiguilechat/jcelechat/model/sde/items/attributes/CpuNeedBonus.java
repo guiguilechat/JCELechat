@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class CpuNeedBonus
     extends IntAttribute
 {
-    public final static CpuNeedBonus INSTANCE = new CpuNeedBonus();
+    public static final CpuNeedBonus INSTANCE = new CpuNeedBonus();
 
     @Override
     public int getId() {

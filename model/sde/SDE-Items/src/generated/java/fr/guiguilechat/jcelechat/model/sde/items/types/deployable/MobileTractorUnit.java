@@ -102,7 +102,7 @@ public class MobileTractorUnit
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
-    public final static MobileTractorUnit.MetaGroup METAGROUP = new MobileTractorUnit.MetaGroup();
+    public static final MobileTractorUnit.MetaGroup METAGROUP = new MobileTractorUnit.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -170,7 +170,7 @@ public class MobileTractorUnit
     public static class MetaGroup
         implements IMetaGroup<MobileTractorUnit>
     {
-        public final static String RESOURCE_PATH = "SDE/items/deployable/MobileTractorUnit.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/deployable/MobileTractorUnit.yaml";
         private Map<String, MobileTractorUnit> cache = (null);
 
         @Override

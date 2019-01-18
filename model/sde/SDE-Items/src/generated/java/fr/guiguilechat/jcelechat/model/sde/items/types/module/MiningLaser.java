@@ -160,7 +160,7 @@ public class MiningLaser
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    public final static MiningLaser.MetaGroup METAGROUP = new MiningLaser.MetaGroup();
+    public static final MiningLaser.MetaGroup METAGROUP = new MiningLaser.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -256,7 +256,7 @@ public class MiningLaser
     public static class MetaGroup
         implements IMetaGroup<MiningLaser>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/MiningLaser.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/MiningLaser.yaml";
         private Map<String, MiningLaser> cache = (null);
 
         @Override

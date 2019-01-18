@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class MassEntanglerBlueprints
     extends Blueprint
 {
-    public final static MassEntanglerBlueprints.MetaGroup METAGROUP = new MassEntanglerBlueprints.MetaGroup();
+    public static final MassEntanglerBlueprints.MetaGroup METAGROUP = new MassEntanglerBlueprints.MetaGroup();
 
     @Override
     public IMetaGroup<MassEntanglerBlueprints> getGroup() {
@@ -22,7 +22,7 @@ public class MassEntanglerBlueprints
     public static class MetaGroup
         implements IMetaGroup<MassEntanglerBlueprints>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/MassEntanglerBlueprints.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/MassEntanglerBlueprints.yaml";
         private Map<String, MassEntanglerBlueprints> cache = (null);
 
         @Override

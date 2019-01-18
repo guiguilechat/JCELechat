@@ -75,7 +75,7 @@ public class EntropicRadiationSink
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static EntropicRadiationSink.MetaGroup METAGROUP = new EntropicRadiationSink.MetaGroup();
+    public static final EntropicRadiationSink.MetaGroup METAGROUP = new EntropicRadiationSink.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -127,7 +127,7 @@ public class EntropicRadiationSink
     public static class MetaGroup
         implements IMetaGroup<EntropicRadiationSink>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/EntropicRadiationSink.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/EntropicRadiationSink.yaml";
         private Map<String, EntropicRadiationSink> cache = (null);
 
         @Override

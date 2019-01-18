@@ -24,7 +24,7 @@ public class SupportFighterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static SupportFighterBlueprint.MetaGroup METAGROUP = new SupportFighterBlueprint.MetaGroup();
+    public static final SupportFighterBlueprint.MetaGroup METAGROUP = new SupportFighterBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -48,7 +48,7 @@ public class SupportFighterBlueprint
     public static class MetaGroup
         implements IMetaGroup<SupportFighterBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/SupportFighterBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/SupportFighterBlueprint.yaml";
         private Map<String, SupportFighterBlueprint> cache = (null);
 
         @Override

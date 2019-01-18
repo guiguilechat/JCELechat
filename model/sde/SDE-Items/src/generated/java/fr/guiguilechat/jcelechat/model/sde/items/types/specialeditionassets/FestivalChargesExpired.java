@@ -137,7 +137,7 @@ public class FestivalChargesExpired
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    public final static FestivalChargesExpired.MetaGroup METAGROUP = new FestivalChargesExpired.MetaGroup();
+    public static final FestivalChargesExpired.MetaGroup METAGROUP = new FestivalChargesExpired.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -225,7 +225,7 @@ public class FestivalChargesExpired
     public static class MetaGroup
         implements IMetaGroup<FestivalChargesExpired>
     {
-        public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/FestivalChargesExpired.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/specialeditionassets/FestivalChargesExpired.yaml";
         private Map<String, FestivalChargesExpired> cache = (null);
 
         @Override

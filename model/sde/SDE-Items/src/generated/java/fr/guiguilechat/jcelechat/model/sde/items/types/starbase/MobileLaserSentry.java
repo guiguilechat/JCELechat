@@ -277,7 +277,7 @@ public class MobileLaserSentry
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static MobileLaserSentry.MetaGroup METAGROUP = new MobileLaserSentry.MetaGroup();
+    public static final MobileLaserSentry.MetaGroup METAGROUP = new MobileLaserSentry.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -441,7 +441,7 @@ public class MobileLaserSentry
     public static class MetaGroup
         implements IMetaGroup<MobileLaserSentry>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/MobileLaserSentry.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/MobileLaserSentry.yaml";
         private Map<String, MobileLaserSentry> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class IndustrialConstructionCost
     extends IntAttribute
 {
-    public final static IndustrialConstructionCost INSTANCE = new IndustrialConstructionCost();
+    public static final IndustrialConstructionCost INSTANCE = new IndustrialConstructionCost();
 
     @Override
     public int getId() {

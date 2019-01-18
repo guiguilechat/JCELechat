@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class EntityEquipmentMax
     extends IntAttribute
 {
-    public final static EntityEquipmentMax INSTANCE = new EntityEquipmentMax();
+    public static final EntityEquipmentMax INSTANCE = new EntityEquipmentMax();
 
     @Override
     public int getId() {

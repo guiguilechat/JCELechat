@@ -73,7 +73,7 @@ public class MoonMining
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    public final static MoonMining.MetaGroup METAGROUP = new MoonMining.MetaGroup();
+    public static final MoonMining.MetaGroup METAGROUP = new MoonMining.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -125,7 +125,7 @@ public class MoonMining
     public static class MetaGroup
         implements IMetaGroup<MoonMining>
     {
-        public final static String RESOURCE_PATH = "SDE/items/starbase/MoonMining.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/starbase/MoonMining.yaml";
         private Map<String, MoonMining> cache = (null);
 
         @Override

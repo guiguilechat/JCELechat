@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MjfgRadius
     extends IntAttribute
 {
-    public final static MjfgRadius INSTANCE = new MjfgRadius();
+    public static final MjfgRadius INSTANCE = new MjfgRadius();
 
     @Override
     public int getId() {

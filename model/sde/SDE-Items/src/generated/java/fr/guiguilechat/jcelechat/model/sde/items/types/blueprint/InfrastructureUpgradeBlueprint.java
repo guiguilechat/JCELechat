@@ -23,7 +23,7 @@ public class InfrastructureUpgradeBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    public final static InfrastructureUpgradeBlueprint.MetaGroup METAGROUP = new InfrastructureUpgradeBlueprint.MetaGroup();
+    public static final InfrastructureUpgradeBlueprint.MetaGroup METAGROUP = new InfrastructureUpgradeBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +47,7 @@ public class InfrastructureUpgradeBlueprint
     public static class MetaGroup
         implements IMetaGroup<InfrastructureUpgradeBlueprint>
     {
-        public final static String RESOURCE_PATH = "SDE/items/blueprint/InfrastructureUpgradeBlueprint.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/blueprint/InfrastructureUpgradeBlueprint.yaml";
         private Map<String, InfrastructureUpgradeBlueprint> cache = (null);
 
         @Override

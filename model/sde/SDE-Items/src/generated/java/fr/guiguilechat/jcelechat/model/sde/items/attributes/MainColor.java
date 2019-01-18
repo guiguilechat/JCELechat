@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class MainColor
     extends IntAttribute
 {
-    public final static MainColor INSTANCE = new MainColor();
+    public static final MainColor INSTANCE = new MainColor();
 
     @Override
     public int getId() {

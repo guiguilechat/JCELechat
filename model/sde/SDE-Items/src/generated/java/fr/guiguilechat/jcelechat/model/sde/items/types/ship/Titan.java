@@ -557,7 +557,7 @@ public class Titan
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
-    public final static Titan.MetaGroup METAGROUP = new Titan.MetaGroup();
+    public static final Titan.MetaGroup METAGROUP = new Titan.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -881,7 +881,7 @@ public class Titan
     public static class MetaGroup
         implements IMetaGroup<Titan>
     {
-        public final static String RESOURCE_PATH = "SDE/items/ship/Titan.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/ship/Titan.yaml";
         private Map<String, Titan> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class ScanRadarStrength
     extends DoubleAttribute
 {
-    public final static ScanRadarStrength INSTANCE = new ScanRadarStrength();
+    public static final ScanRadarStrength INSTANCE = new ScanRadarStrength();
 
     @Override
     public int getId() {

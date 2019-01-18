@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class ECMEntityChance
     extends IntAttribute
 {
-    public final static ECMEntityChance INSTANCE = new ECMEntityChance();
+    public static final ECMEntityChance INSTANCE = new ECMEntityChance();
 
     @Override
     public int getId() {

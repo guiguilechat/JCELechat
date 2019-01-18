@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class SalvageDecryptors
     extends Infantry
 {
-    public final static SalvageDecryptors.MetaGroup METAGROUP = new SalvageDecryptors.MetaGroup();
+    public static final SalvageDecryptors.MetaGroup METAGROUP = new SalvageDecryptors.MetaGroup();
 
     @Override
     public IMetaGroup<SalvageDecryptors> getGroup() {
@@ -22,7 +22,7 @@ public class SalvageDecryptors
     public static class MetaGroup
         implements IMetaGroup<SalvageDecryptors>
     {
-        public final static String RESOURCE_PATH = "SDE/items/infantry/SalvageDecryptors.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/infantry/SalvageDecryptors.yaml";
         private Map<String, SalvageDecryptors> cache = (null);
 
         @Override

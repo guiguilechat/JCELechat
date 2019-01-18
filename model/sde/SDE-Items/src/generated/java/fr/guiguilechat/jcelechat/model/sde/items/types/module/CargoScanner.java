@@ -89,7 +89,7 @@ public class CargoScanner
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public final static CargoScanner.MetaGroup METAGROUP = new CargoScanner.MetaGroup();
+    public static final CargoScanner.MetaGroup METAGROUP = new CargoScanner.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -149,7 +149,7 @@ public class CargoScanner
     public static class MetaGroup
         implements IMetaGroup<CargoScanner>
     {
-        public final static String RESOURCE_PATH = "SDE/items/module/CargoScanner.yaml";
+        public static final String RESOURCE_PATH = "SDE/items/module/CargoScanner.yaml";
         private Map<String, CargoScanner> cache = (null);
 
         @Override

@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class LauncherSlotsLeft
     extends IntAttribute
 {
-    public final static LauncherSlotsLeft INSTANCE = new LauncherSlotsLeft();
+    public static final LauncherSlotsLeft INSTANCE = new LauncherSlotsLeft();
 
     @Override
     public int getId() {

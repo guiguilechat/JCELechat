@@ -12,7 +12,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 public class DoomsdayAOEShape
     extends IntAttribute
 {
-    public final static DoomsdayAOEShape INSTANCE = new DoomsdayAOEShape();
+    public static final DoomsdayAOEShape INSTANCE = new DoomsdayAOEShape();
 
     @Override
     public int getId() {

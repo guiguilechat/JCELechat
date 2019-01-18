@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 public class CapRechargeBonus
     extends DoubleAttribute
 {
-    public final static CapRechargeBonus INSTANCE = new CapRechargeBonus();
+    public static final CapRechargeBonus INSTANCE = new CapRechargeBonus();
 
     @Override
     public int getId() {
