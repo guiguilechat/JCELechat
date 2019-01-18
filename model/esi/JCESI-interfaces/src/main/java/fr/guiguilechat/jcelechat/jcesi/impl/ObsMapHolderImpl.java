@@ -107,7 +107,7 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 	public void dataReceived() {
 		waitLatch.countDown();
 		if (receiveListeners != null) {
-			Map<K, U> consumed = copy();
+			Map<K, U> consumed = underlying;
 			for (Consumer<Map<K, U>> r : receiveListeners) {
 				r.accept(consumed);
 			}

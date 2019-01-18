@@ -27,27 +27,27 @@ public class Universe {
 			if (locationid < Integer.MAX_VALUE) {
 				switch ((int) locationid / 1000000) {
 				case 1://region
-					ret = ESIStatic.INSTANCE.get_universe_regions((int) locationid, null).getOK().name;
+					ret = ESIStatic.INSTANCE.cache.universe.regions((int) locationid).get().name;
 					break;
 				case 2://constellation
-					ret = ESIStatic.INSTANCE.get_universe_constellations((int) locationid, null).getOK().name;
+					ret = ESIStatic.INSTANCE.cache.universe.constellations((int) locationid).get().name;
 					break;
 				case 30:
 				case 31:
 				case 32:// system
-					ret = ESIStatic.INSTANCE.get_universe_systems((int) locationid, null).getOK().name;
+					ret = ESIStatic.INSTANCE.cache.universe.systems((int) locationid).get().name;
 					break;
 				case 60:
 				case 61:
 				case 62:
 				case 63:
 				case 64:// station
-					ret = ESIStatic.INSTANCE.get_universe_stations((int) locationid, null).getOK().name;
+					ret = ESIStatic.INSTANCE.cache.universe.stations((int) locationid).get().name;
 					break;
 				case 66:// office id
-					ret = ESIStatic.INSTANCE.get_universe_stations((int) locationid - 6000001, null).getOK().name;
+					ret = ESIStatic.INSTANCE.cache.universe.stations((int) locationid - 6000001).get().name;
 				case 67:// conquerable office
-					ret = ESIStatic.INSTANCE.get_universe_stations((int) locationid - 6000000, null).getOK().name;
+					ret = ESIStatic.INSTANCE.cache.universe.stations((int) locationid - 6000000).get().name;
 				}
 			} else {
 				Requested<R_get_universe_structures_structure_id> req = parent.raw.get_universe_structures(locationid, null);

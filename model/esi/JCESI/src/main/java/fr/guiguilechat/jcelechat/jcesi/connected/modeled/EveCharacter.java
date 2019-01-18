@@ -392,32 +392,57 @@ public class EveCharacter {
 	}
 
 	//
+	// market orders
+	//
 
 	private ObsMapHolder<Integer, Integer> marketSOs = null;
 
-	public ObsMapHolder<Integer, Integer> getMarketSOs() {
-		if (marketSOs == null) {
+	private ObsMapHolder<Integer, Integer> marketBOs = null;
+
+	private void makeBOSOs() {
+		if (marketSOs == null || marketBOs == null) {
 			synchronized (this) {
-				if (marketSOs == null) {
-					ObservableMap<Integer, Integer> underlying = FXCollections.observableMap(new HashMap<>());
-					marketSOs = new ObsMapHolderImpl<>(underlying);
+				if (marketSOs == null || marketBOs == null) {
+					ObservableMap<Integer, Integer> underlyingsos = FXCollections.observableMap(new HashMap<>());
+					ObsMapHolderImpl<Integer, Integer> newmarketSOs = new ObsMapHolderImpl<>(underlyingsos);
+					ObservableMap<Integer, Integer> underlyingbos = FXCollections.observableMap(new HashMap<>());
+					ObsMapHolderImpl<Integer, Integer> newmarketBOs = new ObsMapHolderImpl<>(underlyingbos);
 					getMarketOrders().addReceivedListener((map) -> {
-						HashMap<Integer, Integer> newMap = new HashMap<>();
+						HashMap<Integer, Integer> newMapsos = new HashMap<>();
+						HashMap<Integer, Integer> newMapbos = new HashMap<>();
 						for (R_get_characters_character_id_orders v : map.values()) {
 							if (!v.is_buy_order) {
-								newMap.put(v.type_id, newMap.getOrDefault(v.type_id, 0) + v.volume_remain);
+								newMapsos.put(v.type_id, newMapsos.getOrDefault(v.type_id, 0) + v.volume_remain);
+							} else {
+								newMapbos.put(v.type_id, newMapbos.getOrDefault(v.type_id, 0) + v.volume_remain);
 							}
 						}
-						synchronized (underlying) {
-							underlying.keySet().retainAll(newMap.keySet());
-							underlying.putAll(newMap);
+						synchronized (underlyingsos) {
+							underlyingsos.keySet().retainAll(newMapsos.keySet());
+							underlyingsos.putAll(newMapsos);
 						}
-						marketSOs.dataReceived();
+						newmarketSOs.dataReceived();
+						synchronized (underlyingbos) {
+							underlyingbos.keySet().retainAll(newMapbos.keySet());
+							underlyingbos.putAll(newMapbos);
+						}
+						newmarketBOs.dataReceived();
 					});
+					marketSOs = newmarketSOs;
+					marketBOs = newmarketBOs;
 				}
 			}
 		}
+	}
+
+	public ObsMapHolder<Integer, Integer> getMarketSOs() {
+		makeBOSOs();
 		return marketSOs;
+	}
+
+	public ObsMapHolder<Integer, Integer> getMarketBOs() {
+		makeBOSOs();
+		return marketBOs;
 	}
 
 	public ObsMapHolder<Long, R_get_characters_character_id_orders> getMarketOrders() {
