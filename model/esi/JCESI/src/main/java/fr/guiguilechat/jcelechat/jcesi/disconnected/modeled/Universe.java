@@ -196,6 +196,10 @@ public class Universe {
 		return ret;
 	}
 
+	public boolean correctRegionID(int regionID) {
+		return cache.regions().copy().contains(regionID);
+	}
+
 	// default 0;0;0 pos
 	public static final M_3_xnumber_ynumber_znumber SUN_POS = new M_3_xnumber_ynumber_znumber();
 

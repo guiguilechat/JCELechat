@@ -2,6 +2,9 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import java.util.HashMap;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
@@ -9,6 +12,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import javafx.collections.ObservableList;
 
 public class Markets {
+
+	public static final Logger logger = LoggerFactory.getLogger(Markets.class);
 
 	public final ESIStatic esiConnection;
 
@@ -28,6 +33,10 @@ public class Markets {
 	public RegionalMarket getMarket(int regionID) {
 		RegionalMarket rm = regionMarkets.get(regionID);
 		if (rm == null) {
+			if (!esiConnection.cache.universe.regions().copy().contains(regionID)) {
+				logger.warn("requested inexisting region id " + regionID, new NullPointerException());
+				return null;
+			}
 			synchronized (regionMarkets) {
 				if (regionMarkets.get(regionID) == null) {
 					rm = new RegionalMarket(esiConnection.cache, regionID);

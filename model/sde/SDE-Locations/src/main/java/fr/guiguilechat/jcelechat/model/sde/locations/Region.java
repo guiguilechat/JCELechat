@@ -36,14 +36,28 @@ public class Region extends ALocation {
 		return cache;
 	}
 
-	private static Map<Integer, String> loadById = null;
+	private static Map<Integer, String> loadNameById = null;
 
-	public static Map<Integer, String> loadById() {
+	public static Map<Integer, String> loadNameById() {
+		if (loadNameById == null) {
+			LinkedHashMap<String, Region> mcache = load();
+			synchronized (mcache) {
+				if (loadNameById == null) {
+					loadNameById = mcache.entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getKey()));
+				}
+			}
+		}
+		return loadNameById;
+	}
+
+	private static Map<Integer, Region> loadById = null;
+
+	public static Map<Integer, Region> loadById() {
 		if (loadById == null) {
 			LinkedHashMap<String, Region> mcache = load();
 			synchronized (mcache) {
 				if (loadById == null) {
-					loadById = mcache.entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getKey()));
+					loadById = mcache.values().stream().collect(Collectors.toMap(e -> e.id, e -> e));
 				}
 			}
 		}

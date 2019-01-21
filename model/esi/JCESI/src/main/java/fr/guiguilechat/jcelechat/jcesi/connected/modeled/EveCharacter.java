@@ -321,6 +321,23 @@ public class EveCharacter {
 	}
 
 	/**
+	 * get the assets and production of a character
+	 *
+	 * @param account
+	 *          the account of a character
+	 * @return the map of itemid to qtty for each assets this character owns.
+	 */
+	public Map<Integer, Integer> getAssetsProd() {
+		Map<Integer, Integer> assets = getAssets().copy().values().parallelStream().flatMap(m -> m.entrySet().stream())
+				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Integer::sum));
+		Map<Integer, Integer> prod = getIndustryJobs().copy().values().stream().parallel()
+				.filter(EveCharacter::isManufacture)
+				.collect(Collectors.toMap(e -> e.product_type_id, e -> e.runs, Integer::sum));
+		return Stream.concat(assets.entrySet().stream(), prod.entrySet().stream())
+				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Integer::sum));
+	}
+
+	/**
 	 * called when a change happens to the list of assets. When this happens, we
 	 * recreate the whole map and put it back .
 	 *
