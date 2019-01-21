@@ -40,7 +40,7 @@ public class ESIAccountHelper {
 
 	public static final String LOCAL_CALLBACK = "http://localhost/callback/";
 
-	// acess flow to the sso
+	// access flow to the sso
 	public static void main(String[] args) {
 		// 1 we need app id and app secret.
 		String appID = null, appSecret = null;
