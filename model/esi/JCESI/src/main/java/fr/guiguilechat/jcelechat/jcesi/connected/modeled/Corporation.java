@@ -129,4 +129,9 @@ public class Corporation {
 		return structures;
 	}
 
+	public double getWallet() {
+		return con.raw.cache.corporations.wallets(con.character.infos.corporationId().get()).copy().stream()
+				.mapToDouble(wallet -> wallet.balance).sum();
+	}
+
 }
