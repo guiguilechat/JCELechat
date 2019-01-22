@@ -266,7 +266,7 @@ public interface G_ICOAccess
      * Get character attributes
      * <p>
      * Return attributes of a character<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 120 seconds
      * </p>
      * 
      * @param character_id
@@ -484,7 +484,7 @@ public interface G_ICOAccess
      * Get active implants
      * <p>
      * Return implants on the active clone of a character<br />
-     * This route is cached for up to 300 seconds
+     * This route is cached for up to 120 seconds
      * </p>
      * 
      * @param character_id

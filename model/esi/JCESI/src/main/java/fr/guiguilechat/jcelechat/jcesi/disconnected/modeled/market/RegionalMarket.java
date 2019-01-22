@@ -18,6 +18,7 @@ import javafx.beans.value.ObservableDoubleValue;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ListChangeListener.Change;
 
+/** represents a market in a region */
 public class RegionalMarket {
 
 	@SuppressWarnings("unused")
