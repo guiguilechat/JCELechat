@@ -466,6 +466,7 @@ public class EveCharacter {
 		return con.raw.cache.characters.orders(con.characterId());
 	}
 
+	/** get total isk balance */
 	public ObsObjHolder<Double> getWallet() {
 		return con.raw.cache.characters.wallet(con.characterId());
 	}

@@ -9,12 +9,15 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
+import fr.guiguilechat.jcelechat.jcesi.impl.ObsObjHolderImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 
@@ -129,9 +132,26 @@ public class Corporation {
 		return structures;
 	}
 
-	public double getWallet() {
-		return con.raw.cache.corporations.wallets(con.character.infos.corporationId().get()).copy().stream()
-				.mapToDouble(wallet -> wallet.balance).sum();
-	}
+	ObsObjHolderImpl<Double> wallet = null;
 
+	/** get the total sum of all the wallets */
+	public ObsObjHolder<Double> getWallet() {
+		if (wallet == null) {
+			synchronized (this) {
+				if (wallet == null) {
+					SimpleObjectProperty<Double> underlying = new SimpleObjectProperty<>();
+					wallet = new ObsObjHolderImpl<>(underlying);
+					con.raw.cache.corporations.wallets(con.character.infos.corporationId().get()).follow(c -> {
+						double delta = 0;
+						while (c.next()) {
+							delta += c.getAddedSubList().stream().mapToDouble(w1 -> w1.balance).sum()
+									- c.getRemoved().stream().mapToDouble(w2 -> w2.balance).sum();
+						}
+						underlying.set(underlying.get() == null ? delta : underlying.get() + delta);
+					});
+				}
+			}
+		}
+		return wallet;
+	}
 }
