@@ -431,21 +431,21 @@ public class PathTranslator {
 			cacheRetTransform = RETURNTYPE.OBJECT;
 		}
 
-		String methName = operation.getOperationId().replaceAll("^get_", "").replaceAll("^" + cacheFieldName + "_", "");
+		String cacheMethName = operation.getOperationId().replaceAll("^get_", "").replaceAll("^" + cacheFieldName + "_", "");
 
 		for (JVar v : allParams) {
-			methName = methName.replaceAll(v.name(), "");
+			cacheMethName = cacheMethName.replaceAll(v.name(), "");
 		}
-		methName = methName.replaceAll("__", "_").replaceAll("^_", "").replaceAll("_$", "");
-		if (methName.length() < 2) {
-			methName = "get";
-		}
-
-		if (keywords.contains(methName)) {
-			methName = "get" + methName;
+		cacheMethName = cacheMethName.replaceAll("__", "_").replaceAll("^_", "").replaceAll("_$", "");
+		if (cacheMethName.length() < 2) {
+			cacheMethName = "get";
 		}
 
-		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetType, methName);
+		if (keywords.contains(cacheMethName)) {
+			cacheMethName = "get" + cacheMethName;
+		}
+
+		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetType, cacheMethName);
 		cacheMeth.javadoc().add(operation.getDescription().split("---")[0]);
 		cacheMeth.javadoc().add("cache over {@link Swagger#" + fetchMeth.name() + "}<br />");
 

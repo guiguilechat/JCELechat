@@ -23,6 +23,7 @@ public interface ISwaggerCacheHelper {
 
 	public <U> ObsListHolder<U> toHolder(ObservableList<U> list);
 
+	/** create an observableholder on an obersvable variable */
 	public <U> ObsObjHolder<U> toHolder(ObservableValue<U> obj);
 
 	public interface Pausable {
