@@ -402,7 +402,7 @@ public class EveCharacter {
 
 	public synchronized Map<Integer, Integer> getSkills() {
 		if (skills == null) {
-			skills = Stream.of(con.raw.get_characters_skills(con.characterId(), null).getOK().skills)
+			skills = Stream.of(con.raw.cache.characters.skills(con.characterId()).get().skills)
 					.collect(Collectors.toMap(s -> s.skill_id, s -> s.active_skill_level));
 		}
 		return skills;
