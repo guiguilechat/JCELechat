@@ -7974,7 +7974,7 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末日沙场级YC117年特别版蓝图: null
+      末日沙场��YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Armageddon Blueprint: null
@@ -38145,7 +38145,7 @@ usages:
       Zydrine: 72
   Gila:
     materialManuf: !!set
-      毒蜥级YC117��特别版蓝图: null
+      毒蜥级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Gila Blueprint: null
@@ -54041,7 +54041,7 @@ usages:
       Megacyte: 4
   Machariel:
     materialManuf: !!set
-      马克瑞级YC117年特别版���图: null
+      马克瑞级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Machariel Blueprint: null
@@ -59017,7 +59017,7 @@ usages:
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
-      万王宝座级YC117年特别版蓝图: null
+      ���王宝座级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Megathron Blueprint: null
@@ -77513,7 +77513,7 @@ usages:
       Megacyte: 1
   Rattlesnake:
     materialManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
+      响尾蛇级YC117��特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Rattlesnake Blueprint: null
@@ -108606,10 +108606,10 @@ usages:
   万王宝座级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      万王宝座级YC117年特别版蓝图: null
+      ���王宝座级YC117年特别版蓝图: null
     reprocess:
       Megathron: 1
-  乌鸦级YC117年特别版:
+  乌鸦级YC117��特别版:
     maxreprocess: 0.55
     productManuf: !!set
       乌鸦级YC117年特别版蓝图: null
@@ -108624,7 +108624,7 @@ usages:
   响尾蛇级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
+      响尾蛇级YC117��特别版蓝图: null
     reprocess:
       Rattlesnake: 1
   地狱天使级YC117年特别版:
@@ -108645,16 +108645,16 @@ usages:
       幼龙级YC117年特别版蓝图: null
     reprocess:
       Drake: 1
-  末日沙场��YC117年特别版:
+  末日沙场级YC117年特��版:
     maxreprocess: 0.55
     productManuf: !!set
-      末日沙场级YC117年特别版蓝图: null
+      末日沙场��YC117年特别版蓝图: null
     reprocess:
       Armageddon: 1
   毒蜥级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      毒蜥级YC117��特别版蓝图: null
+      毒蜥级YC117年特别版蓝图: null
     reprocess:
       Gila: 1
   灾难级YC117年特别版:
@@ -108663,7 +108663,7 @@ usages:
       灾难级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
-  银鹰级YC117���特别版:
+  银鹰级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
       银鹰级YC117年特别版蓝图: null
@@ -108672,6 +108672,6 @@ usages:
   马克瑞级YC117年特别版:
     maxreprocess: 0.55
     productManuf: !!set
-      马克瑞级YC117年特别版���图: null
+      马克瑞级YC117年特别版蓝图: null
     reprocess:
       Machariel: 1
