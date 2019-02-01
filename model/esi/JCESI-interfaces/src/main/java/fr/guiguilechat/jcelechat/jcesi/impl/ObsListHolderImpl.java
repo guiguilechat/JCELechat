@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.function.BiConsumer;
+import java.util.function.Consumer;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
@@ -23,6 +24,8 @@ public class ObsListHolderImpl<U> implements ObsListHolder<U> {
 	}
 
 	CountDownLatch waitLatch = new CountDownLatch(1);
+
+	private ArrayList<Consumer<List<U>>> receiveListeners;
 
 	@Override
 	public void waitData() {
@@ -82,8 +85,34 @@ public class ObsListHolderImpl<U> implements ObsListHolder<U> {
 	}
 
 	@Override
+	public void addReceivedListener(Consumer<List<U>> callback) {
+		synchronized (underlying) {
+			if (receiveListeners == null) {
+				receiveListeners = new ArrayList<>();
+			}
+			receiveListeners.add(callback);
+			if (waitLatch.getCount() == 0) {
+				callback.accept(underlying);
+			}
+		}
+	}
+
+	@Override
+	public boolean remReceivedListener(Consumer<List<U>> callback) {
+		synchronized (underlying) {
+			return receiveListeners.remove(callback);
+		}
+	}
+
+	@Override
 	public void dataReceived() {
 		waitLatch.countDown();
+		if (receiveListeners != null) {
+			List<U> consumed = underlying;
+			for (Consumer<List<U>> r : receiveListeners) {
+				r.accept(consumed);
+			}
+		}
 	}
 
 	@Override

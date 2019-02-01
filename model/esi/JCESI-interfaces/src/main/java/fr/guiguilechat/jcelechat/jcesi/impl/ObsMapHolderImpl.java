@@ -176,16 +176,21 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 					}
 				}
 			}
+			ret.dataReceived();
 		});
+		list.addReceivedListener(l -> ret.dataReceived());
 		return ret;
 	}
 
 	/**
 	 * transforms an observable list into a map, by extracting the key from the
-	 * new elements.
+	 * new elements and remapping them to a new type.
 	 *
 	 * @param list
 	 * @param keyExtractor
+	 *          function to create the new keys of the map
+	 * @param remapper
+	 *          function to create the new values of the map
 	 * @return
 	 */
 	public static <K, V, L> ObsMapHolderImpl<K, L> toMap(ObsListHolder<V> list, Function<V, K> keyExtractor,
@@ -207,7 +212,9 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 					}
 				}
 			}
+			ret.dataReceived();
 		});
+		list.addReceivedListener(l -> ret.dataReceived());
 		return ret;
 	}
 

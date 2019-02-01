@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.jcesi.interfaces;
 
 import java.util.List;
 import java.util.function.BiConsumer;
+import java.util.function.Consumer;
 
 import javafx.beans.Observable;
 import javafx.collections.ListChangeListener;
@@ -63,6 +64,22 @@ public interface ObsListHolder<U> {
 	 * call this method. Typically this should never be used by the user.
 	 */
 	void dataReceived();
+
+	/**
+	 * add a callback that will be called everytime the map received a
+	 * dataReceived call. This is useful when you know the modifications are in
+	 * batches and rather recompmute the whole data instead of manage all the
+	 * small modifications
+	 */
+	public void addReceivedListener(Consumer<List<U>> callback);
+
+	/**
+	 * remove a listener added through {@link #addReceivedListener(Runnable)}
+	 *
+	 * @param callback
+	 * @return true if the callback was added.
+	 */
+	public boolean remReceivedListener(Consumer<List<U>> callback);
 
 	/** return an observable to be notified when values are changed */
 	Observable asObservable();
