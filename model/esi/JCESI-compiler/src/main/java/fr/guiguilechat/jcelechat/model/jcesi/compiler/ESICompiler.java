@@ -12,7 +12,7 @@ import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.writer.JCMWriter;
 
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.PathTranslator.OpType;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.FetchTranslator.OpType;
 import io.swagger.models.ArrayModel;
 import io.swagger.models.Model;
 import io.swagger.models.Operation;
@@ -79,10 +79,13 @@ public class ESICompiler {
 		swagger.getPaths().entrySet().forEach(e -> {
 			String resource = e.getKey();
 			Path p = e.getValue();
-			new PathTranslator(p.getGet(), OpType.get, baseURL + resource, cltrans).apply();
-			new PathTranslator(p.getPut(), OpType.put, baseURL + resource, cltrans).apply();
-			new PathTranslator(p.getDelete(), OpType.delete, baseURL + resource, cltrans).apply();
-			new PathTranslator(p.getPost(), OpType.post, baseURL + resource, cltrans).apply();
+
+			FetchTranslator f = new FetchTranslator(p.getGet(), OpType.get, baseURL + resource, cltrans);
+			f.apply();
+			new CacheTranslator(f).apply();
+			new FetchTranslator(p.getPut(), OpType.put, baseURL + resource, cltrans).apply();
+			new FetchTranslator(p.getDelete(), OpType.delete, baseURL + resource, cltrans).apply();
+			new FetchTranslator(p.getPost(), OpType.post, baseURL + resource, cltrans).apply();
 		});
 		return cm;
 	}

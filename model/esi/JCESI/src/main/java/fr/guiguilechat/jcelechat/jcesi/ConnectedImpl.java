@@ -8,7 +8,6 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -77,7 +76,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			con.setRequestMethod(method);
 			con.setConnectTimeout(2000);
 			if (properties == null) {
-				properties =new HashMap<>();
+				properties = new HashMap<>();
 			}
 			addConnection(properties);
 			for (Entry<String, String> e : properties.entrySet()) {
@@ -153,8 +152,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	@Override
-	public <T> Requested<List<T>> requestGetPages(
-			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
+	public <T> Requested<List<T>> requestGetPages(BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters) {
 		RequestedImpl<List<T>> res = convertToList(resourceAccess.apply(1, parameters));
 		if (res == null) {
@@ -176,8 +174,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	protected <T> RequestedImpl<List<T>> convertToList(Requested<T[]> apply) {
 		RequestedImpl<List<T>> ret = new RequestedImpl<>(apply.getURL(), apply.getResponseCode(), apply.getError(),
-				new ArrayList<>(),
-				apply.getHeaders());
+				new ArrayList<>(), apply.getHeaders());
 		if (apply.isOk() && apply.getOK() != null) {
 			ret.getOK().addAll(Arrays.asList(apply.getOK()));
 		}
@@ -296,9 +293,25 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * It can also be paused. Pausing it prevents execution until resume is
 	 * called. Paused and started are two different states,
 	 * </p>
+	 * <p>
+	 * this abstract class role is to fetch data on a repeated pattern. The
+	 * handler can receive null data in several occasions :
+	 * <ul>
+	 * <li>the data is not accessible (404)</li>
+	 * <li>there are too many errors in the network(repeated 50x)</li>
+	 * <li>the scheduler is bound to role it does not have
+	 * <li>
+	 * </ul>
+	 * </p>
 	 *
 	 */
-	public abstract class SelfExecutable implements Runnable, Pausable {
+	public abstract class SelfExecutableFetcher<T> implements Runnable, Pausable {
+
+		protected final Consumer<T> cacheHandler;
+
+		public SelfExecutableFetcher(Consumer<T> cacheHandler) {
+			this.cacheHandler = cacheHandler;
+		}
 
 		/**
 		 * is true when it is set to execute later on the executor
@@ -339,6 +352,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 			paused = true;
 			logState();
+			cacheHandler.accept(null);
 		}
 
 		@Override
@@ -362,7 +376,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		public String loggingName = "";
 
-		public SelfExecutable withName(String name) {
+		public SelfExecutableFetcher<T> withName(String name) {
 			loggingName = name;
 			return this;
 		}
@@ -376,6 +390,8 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		private int count_shortdelay = 0;
 
+		private String lastEtag = null;
+
 		@Override
 		public void run() {
 			synchronized (exec) {
@@ -387,7 +403,39 @@ public abstract class ConnectedImpl implements ITransfer {
 			logState();
 			long delay_ms = 1000;
 			try {
-				delay_ms = do_execute();
+				Map<String, String> headerHandler = new HashMap<>();
+				if (lastEtag != null) {
+					headerHandler.put(IFNONEMATCH, lastEtag);
+				}
+				Requested<T> res = fetch(headerHandler);
+
+				if (res == null) {
+					delay_ms = 0;
+				} else {
+					String etag = res.getETag();
+					if (etag != null) {
+						if (!etag.equals(lastEtag)) {
+							if (res.isOk()) {
+								cacheHandler.accept(res.getOK());
+							} else if (res.isClientError()) {
+								logger.debug(res.getError());
+								cacheHandler.accept(null);
+							}
+						}
+						lastEtag = etag;
+					} else if (res.isOk()) {
+						lastEtag = res.getETag();
+						cacheHandler.accept(res.getOK());
+					} else if (res.isRedirect() && res.getResponseCode() == 304) {
+						lastEtag = res.getETag();
+					} else if (res.isClientError()) {
+						logger.debug(res.getError());
+						cacheHandler.accept(null);
+					} else {
+						logger.debug("" + res.getResponseCode() + " : " + res.getError());
+					}
+				}
+				delay_ms = res.getCacheExpire();
 			} catch (Throwable e) {
 				logger.warn("while fetching " + loggingName, e);
 			} finally {
@@ -404,12 +452,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 		}
 
-		/**
-		 * execute the real method and return time before next execution, in ms
-		 *
-		 * @return
-		 */
-		protected abstract long do_execute() throws Exception;
+		protected abstract Requested<T> fetch(Map<String, String> parameters);
 
 		/**
 		 * bind this retrieval state to the roles that are required by this
@@ -458,59 +501,22 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T>
 	 *          the inner type of the array.
 	 */
-	public class ArrayCacheUpdaterTask<T> extends SelfExecutable {
+	public class ArrayCacheUpdaterTask<T> extends SelfExecutableFetcher<List<T>> {
 
 		private final BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher;
 
-		private final Consumer<List<T>> cacheHandler;
-
-		private String lastEtag = null;
-
 		public ArrayCacheUpdaterTask(BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher,
 				Consumer<List<T>> cacheHandler) {
+			super(cacheHandler);
 			this.fetcher = fetcher;
-			this.cacheHandler = cacheHandler;
 			if (cacheHandler == null || fetcher == null) {
 				throw new NullPointerException();
 			}
 		}
 
 		@Override
-		protected long do_execute() {
-			HashMap<String, String> parameters = new HashMap<>();
-			if (lastEtag != null) {
-				parameters.put(IFNONEMATCH, lastEtag);
-			}
-			Requested<List<T>> res = requestGetPages(fetcher, parameters);
-			if (res == null) {
-				return 0;
-			}
-			String etag = res.getETag();
-			if (etag != null) {
-				if (!etag.equals(lastEtag)) {
-					if (res.isOk()) {
-						cacheHandler.accept(res.getOK());
-					} else if (res.isClientError()) {
-						logger.debug(res.getError());
-						cacheHandler.accept(Collections.emptyList());
-					}
-				}
-				lastEtag = etag;
-			} else if (res.isOk()) {
-				cacheHandler.accept(res.getOK());
-			} else {
-				logger.debug(res.getError());
-				if (res.isClientError()) {
-					cacheHandler.accept(Collections.emptyList());
-				}
-			}
-			return res.getCacheExpire();
-		}
-
-		@Override
-		public void pause() {
-			super.pause();
-			cacheHandler.accept(Collections.emptyList());
+		protected Requested<List<T>> fetch(Map<String, String> parameters) {
+			return requestGetPages(fetcher, parameters);
 		}
 	}
 
@@ -534,10 +540,10 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T>
 	 *          the type of object the fetched array contains.
 	 */
-	public <T> SelfExecutable addFetchCacheArray(String name,
-			BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher,
-			Consumer<List<T>> cacheHandler, String... requiredRoles) {
-		SelfExecutable t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
+	public <T> SelfExecutableFetcher<List<T>> addFetchCacheArray(String name,
+			BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher, Consumer<List<T>> cacheHandler,
+			String... requiredRoles) {
+		SelfExecutableFetcher<List<T>> t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
 			t.bindToRoles(requiredRoles);
 		}
@@ -553,46 +559,21 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T>
 	 *          the type of the object to fetch
 	 */
-	public class ObjectCacheUpdaterTask<T> extends SelfExecutable {
+	public class ObjectCacheUpdaterTask<T> extends SelfExecutableFetcher<T> {
 
 		private final Function<Map<String, String>, Requested<T>> fetcher;
 
-		private final Consumer<T> cacheHandler;
-
-		private String lastEtag = null;
-
 		public ObjectCacheUpdaterTask(Function<Map<String, String>, Requested<T>> fetcher, Consumer<T> cacheHandler) {
+			super(cacheHandler);
 			this.fetcher = fetcher;
-			this.cacheHandler = cacheHandler;
 			if (cacheHandler == null || fetcher == null) {
 				throw new NullPointerException();
 			}
 		}
 
 		@Override
-		protected long do_execute() throws Exception {
-			Map<String, String> headerHandler = new HashMap<>();
-			if (lastEtag != null) {
-				headerHandler.put(IFNONEMATCH, lastEtag);
-			}
-			Requested<T> res = fetcher.apply(headerHandler);
-			if (res == null) {
-				return 0;
-			} else if (res.isOk()) {
-				lastEtag = res.getETag();
-				cacheHandler.accept(res.getOK());
-			} else if (res.isRedirect() && res.getResponseCode() == 304) {
-				lastEtag = res.getETag();
-			} else {
-				logger.debug("" + res.getResponseCode() + " : " + res.getError());
-			}
-			return res.getCacheExpire();
-		}
-
-		@Override
-		public void pause() {
-			super.pause();
-			cacheHandler.accept(null);
+		protected Requested<T> fetch(Map<String, String> parameters) {
+			return fetcher.apply(parameters);
 		}
 	}
 
@@ -615,9 +596,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T>
 	 *          the type of object that represents the cache.
 	 */
-	public <T> SelfExecutable addFetchCacheObject(String name, Function<Map<String, String>, Requested<T>> fetcher,
+	public <T> SelfExecutableFetcher<T> addFetchCacheObject(String name, Function<Map<String, String>, Requested<T>> fetcher,
 			Consumer<T> cacheHandler, String... requiredRoles) {
-		SelfExecutable t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
+		SelfExecutableFetcher<T> t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
 			t.bindToRoles(requiredRoles);
 		}

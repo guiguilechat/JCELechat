@@ -137,7 +137,7 @@ public class EveCharacter {
 	 *
 	 */
 	public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> getIndustryJobs() {
-		return con.raw.cache.characters.industry_jobs(con.characterId(), false);
+		return ObsMapHolderImpl.toMap(con.raw.cache.characters.industry_jobs(con.characterId(), false), j -> j.job_id);
 	}
 
 	public static boolean isManufacture(R_get_characters_character_id_industry_jobs job) {
@@ -208,7 +208,7 @@ public class EveCharacter {
 		if(blueprints ==null) {
 			synchronized (this) {
 				if (blueprints == null) {
-					blueprints = ObsMapHolderImpl.map(con.raw.cache.characters.blueprints(con.characterId()),
+					blueprints = ObsMapHolderImpl.toMap(con.raw.cache.characters.blueprints(con.characterId()), b -> b.item_id,
 							this::convertBlueprint);
 				}
 			}
@@ -463,7 +463,7 @@ public class EveCharacter {
 	}
 
 	public ObsMapHolder<Long, R_get_characters_character_id_orders> getMarketOrders() {
-		return con.raw.cache.characters.orders(con.characterId());
+		return ObsMapHolderImpl.toMap(con.raw.cache.characters.orders(con.characterId()), o -> o.order_id);
 	}
 
 	/** get total isk balance */

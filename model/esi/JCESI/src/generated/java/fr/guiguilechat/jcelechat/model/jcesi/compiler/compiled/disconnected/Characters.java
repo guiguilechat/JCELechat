@@ -49,7 +49,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);

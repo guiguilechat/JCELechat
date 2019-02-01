@@ -1,22 +1,19 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
-import java.util.LinkedHashMap;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.collections.ObservableMap;
 
 public class Sovereignty {
     public final SwaggerDCCache<?> cache;
-    private ObsMapHolder<Integer, R_get_sovereignty_campaigns> get_sovereignty_campaigns_holder;
+    private ObsListHolder<R_get_sovereignty_campaigns> get_sovereignty_campaigns_holder;
     private ObsListHolder<R_get_sovereignty_map> get_sovereignty_map_holder;
-    private ObsMapHolder<Long, R_get_sovereignty_structures> get_sovereignty_structures_holder;
+    private ObsListHolder<R_get_sovereignty_structures> get_sovereignty_structures_holder;
 
     public Sovereignty(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -27,27 +24,25 @@ public class Sovereignty {
      * 
      * cache over {@link Swagger#get_sovereignty_campaigns}<br />
      */
-    public ObsMapHolder<Integer, R_get_sovereignty_campaigns> campaigns() {
+    public ObsListHolder<R_get_sovereignty_campaigns> campaigns() {
         if (get_sovereignty_campaigns_holder == null) {
             LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
                 LockWatchDog.BARKER.hld(this);
                 if (get_sovereignty_campaigns_holder == null) {
-                    ObservableMap<Integer, R_get_sovereignty_campaigns> holder = FXCollections.observableHashMap();
+                    ObservableList<R_get_sovereignty_campaigns> holder = FXCollections.observableArrayList();
                     get_sovereignty_campaigns_holder = (cache).toHolder(holder);
-                    ObsMapHolder<Integer, R_get_sovereignty_campaigns> finalRet = get_sovereignty_campaigns_holder;
+                    ObsListHolder<R_get_sovereignty_campaigns> finalRet = get_sovereignty_campaigns_holder;
                     (cache).addFetchCacheArray("get_sovereignty_campaigns", (page, properties) -> (cache.swagger).get_sovereignty_campaigns(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Integer, R_get_sovereignty_campaigns> newmap = new LinkedHashMap<>();
-                            for (R_get_sovereignty_campaigns val: arr) {
-                                newmap.put((val.campaign_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -80,7 +75,10 @@ public class Sovereignty {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -98,27 +96,25 @@ public class Sovereignty {
      * 
      * cache over {@link Swagger#get_sovereignty_structures}<br />
      */
-    public ObsMapHolder<Long, R_get_sovereignty_structures> structures() {
+    public ObsListHolder<R_get_sovereignty_structures> structures() {
         if (get_sovereignty_structures_holder == null) {
             LockWatchDog.BARKER.tak(this);
             synchronized (this)
             {
                 LockWatchDog.BARKER.hld(this);
                 if (get_sovereignty_structures_holder == null) {
-                    ObservableMap<Long, R_get_sovereignty_structures> holder = FXCollections.observableHashMap();
+                    ObservableList<R_get_sovereignty_structures> holder = FXCollections.observableArrayList();
                     get_sovereignty_structures_holder = (cache).toHolder(holder);
-                    ObsMapHolder<Long, R_get_sovereignty_structures> finalRet = get_sovereignty_structures_holder;
+                    ObsListHolder<R_get_sovereignty_structures> finalRet = get_sovereignty_structures_holder;
                     (cache).addFetchCacheArray("get_sovereignty_structures", (page, properties) -> (cache.swagger).get_sovereignty_structures(properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Long, R_get_sovereignty_structures> newmap = new LinkedHashMap<>();
-                            for (R_get_sovereignty_structures val: arr) {
-                                newmap.put((val.structure_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);

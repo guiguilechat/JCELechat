@@ -396,7 +396,9 @@ public interface G_ICOAccess
      * Get fittings
      * <p>
      * Return fittings of a character<br />
-     * This route is cached for up to 300 seconds
+     * This route is cached for up to 300 seconds<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/fittings/)
      * </p>
      * 
      * @param character_id
@@ -410,7 +412,9 @@ public interface G_ICOAccess
     /**
      * Create fitting
      * <p>
-     * Save a new fitting for a character
+     * Save a new fitting for a character<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#POST-/characters/{character_id}/fittings/)
      * </p>
      * 
      * @param character_id

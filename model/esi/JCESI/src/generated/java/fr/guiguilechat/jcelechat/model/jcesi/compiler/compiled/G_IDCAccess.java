@@ -1110,9 +1110,11 @@ public interface G_IDCAccess
     }
 
     /**
-     * Get names and categories for a set of ID's
+     * Get names and categories for a set of IDs
      * <p>
-     * Resolve a set of IDs to names and categories. Supported ID's for resolving are: Characters, Corporations, Alliances, Stations, Solar Systems, Constellations, Regions, Types
+     * Resolve a set of IDs to names and categories. Supported ID's for resolving are: Characters, Corporations, Alliances, Stations, Solar Systems, Constellations, Regions, Types<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#POST-/universe/names/)
      * </p>
      * 
      * @param ids

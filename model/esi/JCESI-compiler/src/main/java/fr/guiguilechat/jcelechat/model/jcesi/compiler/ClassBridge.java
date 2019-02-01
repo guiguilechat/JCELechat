@@ -359,7 +359,7 @@ public class ClassBridge {
 	}
 
 	public static String sanitizeEnumName(String s) {
-		if (PathTranslator.keywords.contains(s)) {
+		if (CacheTranslator.keywords.contains(s)) {
 			return "_" + s;
 		}
 		String ret = s.replaceAll("[- #]", "_");
@@ -520,6 +520,10 @@ public class ClassBridge {
 
 	public String methFetchCacheArray() {
 		return "addFetchCacheArray";
+	}
+
+	public String methFetchCacheMap() {
+		return "addFetchCacheMap";
 	}
 
 	public void createCacheMethods() throws JClassAlreadyExistsException {

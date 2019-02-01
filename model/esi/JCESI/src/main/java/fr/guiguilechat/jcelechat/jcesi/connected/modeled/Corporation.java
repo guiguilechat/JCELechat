@@ -35,8 +35,8 @@ public class Corporation {
 	// industry jobs
 
 	public ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
-		return con.raw.cache.corporations
-				.industry_jobs(con.character.infos.corporationId().get(), false);
+		return ObsMapHolderImpl.toMap(
+				con.raw.cache.corporations.industry_jobs(con.character.infos.corporationId().get(), false), j -> j.job_id);
 	}
 
 	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
@@ -113,8 +113,8 @@ public class Corporation {
 	}
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
-		return con.raw.cache.corporations
-				.blueprints(con.character.infos.corporationId().get());
+		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.blueprints(con.character.infos.corporationId().get()),
+				bp -> bp.item_id);
 	}
 
 	private ObsMapHolder<Long, R_get_corporations_corporation_id_structures> structures = null;

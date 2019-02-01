@@ -1,11 +1,9 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_0_int_Integer;
@@ -67,7 +65,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.collections.ObservableMap;
 
 public class Characters {
     public final SwaggerCOCache<?> cache;
@@ -77,14 +74,14 @@ public class Characters {
     private final Map<K_1_int_int, ObsListHolder<R_get_characters_character_id_calendar_event_id_attendees>> get_characters_character_id_calendar_event_id_attendees_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<M_get_contacts_labels_2>> get_characters_character_id_contacts_labels_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<M_get_contracts_22>> get_characters_character_id_contracts_holder = new HashMap<>();
-    private final Map<K_2_int_int, ObsMapHolder<Integer, M_get_contracts_contract_bids_4>> get_characters_character_id_contracts_contract_id_bids_holder = new HashMap<>();
-    private final Map<K_2_int_int, ObsMapHolder<Long, M_get_contracts_contract_items_6>> get_characters_character_id_contracts_contract_id_items_holder = new HashMap<>();
+    private final Map<K_2_int_int, ObsListHolder<M_get_contracts_contract_bids_4>> get_characters_character_id_contracts_contract_id_bids_holder = new HashMap<>();
+    private final Map<K_2_int_int, ObsListHolder<M_get_contracts_contract_items_6>> get_characters_character_id_contracts_contract_id_items_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_fittings>> get_characters_character_id_fittings_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_fleet>> get_characters_character_id_fleet_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_fw_stats>> get_characters_character_id_fw_stats_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<Integer>> get_characters_character_id_implants_holder = new HashMap<>();
-    private final Map<K_3_Boolean_int, ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs>> get_characters_character_id_industry_jobs_holder = new HashMap<>();
+    private final Map<K_3_Boolean_int, ObsListHolder<R_get_characters_character_id_industry_jobs>> get_characters_character_id_industry_jobs_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<M_get_killmails_2>> get_characters_character_id_killmails_recent_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_location>> get_characters_character_id_location_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_loyalty_points>> get_characters_character_id_loyalty_points_holder = new HashMap<>();
@@ -95,19 +92,19 @@ public class Characters {
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_mining>> get_characters_character_id_mining_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_notifications_contacts>> get_characters_character_id_notifications_contacts_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_opportunities>> get_characters_character_id_opportunities_holder = new HashMap<>();
-    private final Map<Integer, ObsMapHolder<Long, R_get_characters_character_id_orders_history>> get_characters_character_id_orders_history_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolder<R_get_characters_character_id_orders_history>> get_characters_character_id_orders_history_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_planets>> get_characters_character_id_planets_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_ship>> get_characters_character_id_ship_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<M_get_standings_3>> get_characters_character_id_standings_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_titles>> get_characters_character_id_titles_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<Double>> get_characters_character_id_wallet_holder = new HashMap<>();
-    private final Map<K_6_Long_int, ObsMapHolder<Long, R_get_characters_character_id_wallet_transactions>> get_characters_character_id_wallet_transactions_holder = new HashMap<>();
-    private final Map<Integer, ObsMapHolder<Long, R_get_characters_character_id_blueprints>> get_characters_character_id_blueprints_holder = new HashMap<>();
+    private final Map<K_6_Long_int, ObsListHolder<R_get_characters_character_id_wallet_transactions>> get_characters_character_id_wallet_transactions_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolder<R_get_characters_character_id_blueprints>> get_characters_character_id_blueprints_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<M_get_bookmarks_9>> get_characters_character_id_bookmarks_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_bookmarks_folders>> get_characters_character_id_bookmarks_folders_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_contacts>> get_characters_character_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_online>> get_characters_character_id_online_holder = new HashMap<>();
-    private final Map<Integer, ObsMapHolder<Long, R_get_characters_character_id_orders>> get_characters_character_id_orders_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolder<R_get_characters_character_id_orders>> get_characters_character_id_orders_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_roles>> get_characters_character_id_roles_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_skillqueue>> get_characters_character_id_skillqueue_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_stats>> get_characters_character_id_stats_holder = new HashMap<>();
@@ -119,7 +116,7 @@ public class Characters {
     private final Map<K_19_String_LString_int_Boolean, ObsObjHolder<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolder<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
-    private final Map<Integer, ObsMapHolder<Long, M_get_journal_13>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolder<M_get_journal_13>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
 
     public Characters(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -151,7 +148,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -230,7 +230,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -272,7 +275,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -311,7 +317,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -350,7 +359,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -373,9 +385,9 @@ public class Characters {
      * @param contract_id
      *     ID of a contract
      */
-    public ObsMapHolder<Integer, M_get_contracts_contract_bids_4> contracts_bids(int character_id, int contract_id) {
+    public ObsListHolder<M_get_contracts_contract_bids_4> contracts_bids(int character_id, int contract_id) {
         K_2_int_int param = new K_2_int_int(contract_id, character_id);
-        ObsMapHolder<Integer, M_get_contracts_contract_bids_4> ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
+        ObsListHolder<M_get_contracts_contract_bids_4> ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_contracts_contract_id_bids_holder);
             synchronized (get_characters_character_id_contracts_contract_id_bids_holder)
@@ -383,21 +395,19 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_contracts_contract_id_bids_holder);
                 ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
                 if (ret == null) {
-                    ObservableMap<Integer, M_get_contracts_contract_bids_4> holder = FXCollections.observableHashMap();
+                    ObservableList<M_get_contracts_contract_bids_4> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_contracts_contract_id_bids_holder.put(param, ret);
-                    ObsMapHolder<Integer, M_get_contracts_contract_bids_4> finalRet = ret;
+                    ObsListHolder<M_get_contracts_contract_bids_4> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_contracts_contract_id_bids", (page, properties) -> (cache.swagger).get_characters_contracts_bids(character_id, contract_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Integer, M_get_contracts_contract_bids_4> newmap = new LinkedHashMap<>();
-                            for (M_get_contracts_contract_bids_4 val: arr) {
-                                newmap.put((val.bid_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -420,9 +430,9 @@ public class Characters {
      * @param contract_id
      *     ID of a contract
      */
-    public ObsMapHolder<Long, M_get_contracts_contract_items_6> contracts_items(int character_id, int contract_id) {
+    public ObsListHolder<M_get_contracts_contract_items_6> contracts_items(int character_id, int contract_id) {
         K_2_int_int param = new K_2_int_int(contract_id, character_id);
-        ObsMapHolder<Long, M_get_contracts_contract_items_6> ret = get_characters_character_id_contracts_contract_id_items_holder.get(param);
+        ObsListHolder<M_get_contracts_contract_items_6> ret = get_characters_character_id_contracts_contract_id_items_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_contracts_contract_id_items_holder);
             synchronized (get_characters_character_id_contracts_contract_id_items_holder)
@@ -430,21 +440,19 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_contracts_contract_id_items_holder);
                 ret = get_characters_character_id_contracts_contract_id_items_holder.get(param);
                 if (ret == null) {
-                    ObservableMap<Long, M_get_contracts_contract_items_6> holder = FXCollections.observableHashMap();
+                    ObservableList<M_get_contracts_contract_items_6> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_contracts_contract_id_items_holder.put(param, ret);
-                    ObsMapHolder<Long, M_get_contracts_contract_items_6> finalRet = ret;
+                    ObsListHolder<M_get_contracts_contract_items_6> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_contracts_contract_id_items", (page, properties) -> (cache.swagger).get_characters_contracts_items(character_id, contract_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Long, M_get_contracts_contract_items_6> newmap = new LinkedHashMap<>();
-                            for (M_get_contracts_contract_items_6 val: arr) {
-                                newmap.put((val.record_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -520,7 +528,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -633,7 +644,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -656,9 +670,9 @@ public class Characters {
      * @param include_completed
      *     Whether to retrieve completed character industry jobs. Only includes jobs from the past 90 days
      */
-    public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> industry_jobs(int character_id, Boolean include_completed) {
+    public ObsListHolder<R_get_characters_character_id_industry_jobs> industry_jobs(int character_id, Boolean include_completed) {
         K_3_Boolean_int param = new K_3_Boolean_int(include_completed, character_id);
-        ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> ret = get_characters_character_id_industry_jobs_holder.get(param);
+        ObsListHolder<R_get_characters_character_id_industry_jobs> ret = get_characters_character_id_industry_jobs_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_industry_jobs_holder);
             synchronized (get_characters_character_id_industry_jobs_holder)
@@ -666,21 +680,19 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_industry_jobs_holder);
                 ret = get_characters_character_id_industry_jobs_holder.get(param);
                 if (ret == null) {
-                    ObservableMap<Integer, R_get_characters_character_id_industry_jobs> holder = FXCollections.observableHashMap();
+                    ObservableList<R_get_characters_character_id_industry_jobs> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_industry_jobs_holder.put(param, ret);
-                    ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> finalRet = ret;
+                    ObsListHolder<R_get_characters_character_id_industry_jobs> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_industry_jobs", (page, properties) -> (cache.swagger).get_characters_industry_jobs(character_id, include_completed, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Integer, R_get_characters_character_id_industry_jobs> newmap = new LinkedHashMap<>();
-                            for (R_get_characters_character_id_industry_jobs val: arr) {
-                                newmap.put((val.job_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -719,7 +731,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -795,7 +810,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -839,7 +857,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -878,7 +899,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -957,7 +981,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -996,7 +1023,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1035,7 +1065,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1074,7 +1107,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1095,8 +1131,8 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      */
-    public ObsMapHolder<Long, R_get_characters_character_id_orders_history> orders_history(int character_id) {
-        ObsMapHolder<Long, R_get_characters_character_id_orders_history> ret = get_characters_character_id_orders_history_holder.get(character_id);
+    public ObsListHolder<R_get_characters_character_id_orders_history> orders_history(int character_id) {
+        ObsListHolder<R_get_characters_character_id_orders_history> ret = get_characters_character_id_orders_history_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_orders_history_holder);
             synchronized (get_characters_character_id_orders_history_holder)
@@ -1104,21 +1140,19 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_orders_history_holder);
                 ret = get_characters_character_id_orders_history_holder.get(character_id);
                 if (ret == null) {
-                    ObservableMap<Long, R_get_characters_character_id_orders_history> holder = FXCollections.observableHashMap();
+                    ObservableList<R_get_characters_character_id_orders_history> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_orders_history_holder.put(character_id, ret);
-                    ObsMapHolder<Long, R_get_characters_character_id_orders_history> finalRet = ret;
+                    ObsListHolder<R_get_characters_character_id_orders_history> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_orders_history", (page, properties) -> (cache.swagger).get_characters_orders_history(character_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Long, R_get_characters_character_id_orders_history> newmap = new LinkedHashMap<>();
-                            for (R_get_characters_character_id_orders_history val: arr) {
-                                newmap.put((val.order_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1157,7 +1191,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1233,7 +1270,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1272,7 +1312,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1332,9 +1375,9 @@ public class Characters {
      * @param from_id
      *     Only show transactions happened before the one referenced by this id
      */
-    public ObsMapHolder<Long, R_get_characters_character_id_wallet_transactions> wallet_transactions(int character_id, Long from_id) {
+    public ObsListHolder<R_get_characters_character_id_wallet_transactions> wallet_transactions(int character_id, Long from_id) {
         K_6_Long_int param = new K_6_Long_int(from_id, character_id);
-        ObsMapHolder<Long, R_get_characters_character_id_wallet_transactions> ret = get_characters_character_id_wallet_transactions_holder.get(param);
+        ObsListHolder<R_get_characters_character_id_wallet_transactions> ret = get_characters_character_id_wallet_transactions_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_wallet_transactions_holder);
             synchronized (get_characters_character_id_wallet_transactions_holder)
@@ -1342,21 +1385,19 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_wallet_transactions_holder);
                 ret = get_characters_character_id_wallet_transactions_holder.get(param);
                 if (ret == null) {
-                    ObservableMap<Long, R_get_characters_character_id_wallet_transactions> holder = FXCollections.observableHashMap();
+                    ObservableList<R_get_characters_character_id_wallet_transactions> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_wallet_transactions_holder.put(param, ret);
-                    ObsMapHolder<Long, R_get_characters_character_id_wallet_transactions> finalRet = ret;
+                    ObsListHolder<R_get_characters_character_id_wallet_transactions> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_wallet_transactions", (page, properties) -> (cache.swagger).get_characters_wallet_transactions(character_id, from_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Long, R_get_characters_character_id_wallet_transactions> newmap = new LinkedHashMap<>();
-                            for (R_get_characters_character_id_wallet_transactions val: arr) {
-                                newmap.put((val.transaction_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1377,8 +1418,8 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      */
-    public ObsMapHolder<Long, R_get_characters_character_id_blueprints> blueprints(int character_id) {
-        ObsMapHolder<Long, R_get_characters_character_id_blueprints> ret = get_characters_character_id_blueprints_holder.get(character_id);
+    public ObsListHolder<R_get_characters_character_id_blueprints> blueprints(int character_id) {
+        ObsListHolder<R_get_characters_character_id_blueprints> ret = get_characters_character_id_blueprints_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_blueprints_holder);
             synchronized (get_characters_character_id_blueprints_holder)
@@ -1386,21 +1427,19 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_blueprints_holder);
                 ret = get_characters_character_id_blueprints_holder.get(character_id);
                 if (ret == null) {
-                    ObservableMap<Long, R_get_characters_character_id_blueprints> holder = FXCollections.observableHashMap();
+                    ObservableList<R_get_characters_character_id_blueprints> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_blueprints_holder.put(character_id, ret);
-                    ObsMapHolder<Long, R_get_characters_character_id_blueprints> finalRet = ret;
+                    ObsListHolder<R_get_characters_character_id_blueprints> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_blueprints", (page, properties) -> (cache.swagger).get_characters_blueprints(character_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Long, R_get_characters_character_id_blueprints> newmap = new LinkedHashMap<>();
-                            for (R_get_characters_character_id_blueprints val: arr) {
-                                newmap.put((val.item_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1439,7 +1478,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1478,7 +1520,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1517,7 +1562,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1575,8 +1623,8 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      */
-    public ObsMapHolder<Long, R_get_characters_character_id_orders> orders(int character_id) {
-        ObsMapHolder<Long, R_get_characters_character_id_orders> ret = get_characters_character_id_orders_holder.get(character_id);
+    public ObsListHolder<R_get_characters_character_id_orders> orders(int character_id) {
+        ObsListHolder<R_get_characters_character_id_orders> ret = get_characters_character_id_orders_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_orders_holder);
             synchronized (get_characters_character_id_orders_holder)
@@ -1584,21 +1632,19 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_orders_holder);
                 ret = get_characters_character_id_orders_holder.get(character_id);
                 if (ret == null) {
-                    ObservableMap<Long, R_get_characters_character_id_orders> holder = FXCollections.observableHashMap();
+                    ObservableList<R_get_characters_character_id_orders> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_orders_holder.put(character_id, ret);
-                    ObsMapHolder<Long, R_get_characters_character_id_orders> finalRet = ret;
+                    ObsListHolder<R_get_characters_character_id_orders> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_orders", (page, properties) -> (cache.swagger).get_characters_orders(character_id, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Long, R_get_characters_character_id_orders> newmap = new LinkedHashMap<>();
-                            for (R_get_characters_character_id_orders val: arr) {
-                                newmap.put((val.order_id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1674,7 +1720,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1713,7 +1762,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1752,7 +1804,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -1989,7 +2044,10 @@ public class Characters {
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            holder.setAll(arr);
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
+                            }
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
@@ -2047,8 +2105,8 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      */
-    public ObsMapHolder<Long, M_get_journal_13> wallet_journal(int character_id) {
-        ObsMapHolder<Long, M_get_journal_13> ret = get_characters_character_id_wallet_journal_holder.get(character_id);
+    public ObsListHolder<M_get_journal_13> wallet_journal(int character_id) {
+        ObsListHolder<M_get_journal_13> ret = get_characters_character_id_wallet_journal_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_wallet_journal_holder);
             synchronized (get_characters_character_id_wallet_journal_holder)
@@ -2056,21 +2114,19 @@ public class Characters {
                 LockWatchDog.BARKER.hld(get_characters_character_id_wallet_journal_holder);
                 ret = get_characters_character_id_wallet_journal_holder.get(character_id);
                 if (ret == null) {
-                    ObservableMap<Long, M_get_journal_13> holder = FXCollections.observableHashMap();
+                    ObservableList<M_get_journal_13> holder = FXCollections.observableArrayList();
                     ret = (cache).toHolder(holder);
                     get_characters_character_id_wallet_journal_holder.put(character_id, ret);
-                    ObsMapHolder<Long, M_get_journal_13> finalRet = ret;
+                    ObsListHolder<M_get_journal_13> finalRet = ret;
                     (cache).addFetchCacheArray("get_characters_character_id_wallet_journal", (page, properties) -> (cache.swagger).get_characters_wallet_journal(character_id, page, properties), arr -> {
                         LockWatchDog.BARKER.tak(holder);
                         synchronized (holder)
                         {
                             LockWatchDog.BARKER.hld(holder);
-                            LinkedHashMap<Long, M_get_journal_13> newmap = new LinkedHashMap<>();
-                            for (M_get_journal_13 val: arr) {
-                                newmap.put((val.id), (val));
+                            holder.clear();
+                            if (arr!= null) {
+                                holder.addAll(arr);
                             }
-                            holder.keySet().retainAll(newmap.keySet());
-                            holder.putAll(newmap);
                             finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
