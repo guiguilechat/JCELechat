@@ -114,6 +114,9 @@ public class Informations {
 	}
 
 	public synchronized void handleData(R_get_characters_character_id info) {
+		if (info == null) {
+			return;
+		}
 		allianceId.set(info.alliance_id);
 		ancestryId.set(info.ancestry_id);
 		birthday.set(info.birthday);

@@ -409,33 +409,37 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 				Requested<T> res = fetch(headerHandler);
 
-				if (res == null) {
-					delay_ms = 0;
-				} else {
-					String etag = res.getETag();
-					if (etag != null) {
-						if (!etag.equals(lastEtag)) {
-							if (res.isOk()) {
-								cacheHandler.accept(res.getOK());
-							} else if (res.isClientError()) {
-								logger.debug(res.getError());
-								cacheHandler.accept(null);
-							}
+				if (res != null) {
+					if (res.getResponseCode() == 420) {
+						if (res.getRemainingErrors() < 40) {
+							delay_ms=res.getErrorsReset()*1000;
 						}
-						lastEtag = etag;
-					} else if (res.isOk()) {
-						lastEtag = res.getETag();
-						cacheHandler.accept(res.getOK());
-					} else if (res.isRedirect() && res.getResponseCode() == 304) {
-						lastEtag = res.getETag();
-					} else if (res.isClientError()) {
-						logger.debug(res.getError());
-						cacheHandler.accept(null);
 					} else {
-						logger.debug("" + res.getResponseCode() + " : " + res.getError());
+						String etag = res.getETag();
+						if (etag != null) {
+							if (!etag.equals(lastEtag)) {
+								if (res.isOk()) {
+									cacheHandler.accept(res.getOK());
+								} else if (res.isClientError() && res.getResponseCode() != 420) {
+									logger.debug(res.getError());
+									cacheHandler.accept(null);
+								}
+							}
+							lastEtag = etag;
+						} else if (res.isOk()) {
+							lastEtag = res.getETag();
+							cacheHandler.accept(res.getOK());
+						} else if (res.isRedirect() && res.getResponseCode() == 304) {
+							lastEtag = res.getETag();
+						} else if (res.isClientError() && res.getResponseCode() != 420) {
+							logger.debug(res.getError());
+							cacheHandler.accept(null);
+						} else {
+							logger.debug("" + res.getResponseCode() + " : " + res.getError());
+						}
+						delay_ms = res.getCacheExpire();
 					}
 				}
-				delay_ms = res.getCacheExpire();
 			} catch (Throwable e) {
 				logger.warn("while fetching " + loggingName, e);
 			} finally {
@@ -596,8 +600,8 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T>
 	 *          the type of object that represents the cache.
 	 */
-	public <T> SelfExecutableFetcher<T> addFetchCacheObject(String name, Function<Map<String, String>, Requested<T>> fetcher,
-			Consumer<T> cacheHandler, String... requiredRoles) {
+	public <T> SelfExecutableFetcher<T> addFetchCacheObject(String name,
+			Function<Map<String, String>, Requested<T>> fetcher, Consumer<T> cacheHandler, String... requiredRoles) {
 		SelfExecutableFetcher<T> t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
 			t.bindToRoles(requiredRoles);

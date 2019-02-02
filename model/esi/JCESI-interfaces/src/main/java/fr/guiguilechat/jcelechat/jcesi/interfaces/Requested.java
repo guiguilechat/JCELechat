@@ -65,6 +65,31 @@ public interface Requested<T> {
 	}
 
 	/**
+	 * get the number of errors remaining until prevented access. If this is 0 or
+	 * lower we must wait {@link #getErrorsReset()} seconds
+	 */
+	public default int getRemainingErrors() {
+		List<String> errorsl = getHeaders().get("X-ESI-Error-Limit-Remain");
+		if (errorsl == null) {
+			return 0;
+		} else {
+			return Integer.parseInt(errorsl.get(0));
+		}
+	}
+
+	/**
+	 * get the number of seconds until the error window resets.
+	 */
+	public default int getErrorsReset() {
+		List<String> resetl = getHeaders().get("X-ESI-Error-Limit-Reset");
+		if (resetl == null) {
+			return 0;
+		} else {
+			return Integer.parseInt(resetl.get(0));
+		}
+	}
+
+	/**
 	 * get the number of pages for a request.
 	 *
 	 * @return the number of pages specified by the header
