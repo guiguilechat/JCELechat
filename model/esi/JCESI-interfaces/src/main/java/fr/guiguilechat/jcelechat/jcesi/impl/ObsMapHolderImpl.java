@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.MapChangeListener;
-import javafx.collections.MapChangeListener.Change;
 import javafx.collections.ObservableMap;
 
 public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
@@ -22,25 +21,16 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 
 	public ObsMapHolderImpl(ObservableMap<K, U> underlying) {
 		this.underlying = underlying;
-		underlying.addListener(this::mapchangelisten);
 	}
 
-	/**
-	 * cleanest way to add listener with correct type. Otherwise just adding
-	 * c->waitLatch.countDown() is ambiguous
-	 */
-	protected void mapchangelisten(Change<? extends K, ? extends U> change) {
-		waitLatch.countDown();
-	}
-
-	private CountDownLatch waitLatch = new CountDownLatch(1);
+	private CountDownLatch dataReceivedLatch = new CountDownLatch(1);
 
 	private ArrayList<Consumer<Map<K, U>>> receiveListeners;
 
 	@Override
 	public void waitData() {
 		try {
-			waitLatch.await();
+			dataReceivedLatch.await();
 		} catch (InterruptedException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
@@ -90,7 +80,7 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 				receiveListeners = new ArrayList<>();
 			}
 			receiveListeners.add(callback);
-			if (waitLatch.getCount() == 0) {
+			if (dataReceivedLatch.getCount() == 0) {
 				callback.accept(underlying);
 			}
 		}
@@ -105,7 +95,7 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 
 	@Override
 	public void dataReceived() {
-		waitLatch.countDown();
+		dataReceivedLatch.countDown();
 		if (receiveListeners != null) {
 			Map<K, U> consumed = underlying;
 			for (Consumer<Map<K, U>> r : receiveListeners) {
@@ -146,7 +136,7 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 				}
 			}
 		});
-		source.onWaitEnd(() -> ret.dataReceived());
+		source.addReceivedListener(l -> ret.dataReceived());
 		return ret;
 	}
 
@@ -159,27 +149,7 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 	 * @return
 	 */
 	public static <K, V> ObsMapHolderImpl<K, V> toMap(ObsListHolder<V> list, Function<V, K> keyExtractor) {
-		ObservableMap<K, V> internal = FXCollections.observableHashMap();
-		ObsMapHolderImpl<K, V> ret = new ObsMapHolderImpl<>(internal);
-		list.follow(c -> {
-			while (c.next()) {
-				synchronized (internal) {
-					if (c.wasRemoved()) {
-						for (V removed : c.getRemoved()) {
-							internal.remove(keyExtractor.apply(removed));
-						}
-					}
-					if (c.wasAdded()) {
-						for (V added : c.getAddedSubList()) {
-							internal.put(keyExtractor.apply(added), added);
-						}
-					}
-				}
-			}
-			ret.dataReceived();
-		});
-		list.addReceivedListener(l -> ret.dataReceived());
-		return ret;
+		return toMap(list, keyExtractor, o -> o);
 	}
 
 	/**
@@ -212,9 +182,10 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 					}
 				}
 			}
+		});
+		list.addReceivedListener(l -> {
 			ret.dataReceived();
 		});
-		list.addReceivedListener(l -> ret.dataReceived());
 		return ret;
 	}
 

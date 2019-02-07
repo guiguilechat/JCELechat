@@ -99,6 +99,7 @@ public class PI {
 							});
 						}
 					});
+					acc.raw.cache.characters.planets(acc.characterId()).addReceivedListener(l -> planets.dataReceived());
 				}
 			}
 		}

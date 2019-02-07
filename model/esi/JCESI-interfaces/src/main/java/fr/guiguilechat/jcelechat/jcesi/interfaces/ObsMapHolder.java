@@ -24,7 +24,7 @@ public interface ObsMapHolder<U, V> {
 	Map<U, V> copy();
 
 	/**
-	 * synchronized call to the underlying map get, after the dxata is received.
+	 * synchronized call to the underlying map get, after the data is received.
 	 *
 	 * @param key
 	 * @return

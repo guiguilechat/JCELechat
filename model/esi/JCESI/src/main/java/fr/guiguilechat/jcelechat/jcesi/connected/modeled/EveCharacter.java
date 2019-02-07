@@ -312,6 +312,7 @@ public class EveCharacter {
 					cachedAssets = con.raw.cache.toHolder(map);
 					synchronized (assets) {
 						assets.follow(c -> applyNewAssets(c, map));
+						assets.addReceivedListener(ass -> cachedAssets.dataReceived());
 					}
 
 				}
