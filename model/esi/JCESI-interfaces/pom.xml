@@ -19,5 +19,9 @@
   		<artifactId>logback-classic</artifactId>
   		<scope>test</scope>
   	</dependency>
+  	<dependency>
+  		<groupId>org.openjfx</groupId>
+  		<artifactId>javafx-graphics</artifactId>
+  	</dependency>
   </dependencies>
 </project>

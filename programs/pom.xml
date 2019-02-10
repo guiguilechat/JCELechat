@@ -1,42 +1,49 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>fr.guiguilechat</groupId>
-    <artifactId>JCELechat</artifactId>
-    <version>5.3.0</version>
-  </parent>
-  <artifactId>programs</artifactId>
-  <packaging>pom</packaging>
-  <name>Programs</name>
-  <description>pom for all main programs</description>
-  <modules>
-  	
-  	
-  	<module>StatsBurnerDest</module>
-  	<module>LootStats</module>
-  	
-  	
-  	
-  	
-  	
-  	<module>GUIMutaplasmids</module>
-  	<module>OreWorth</module>
-  	<module>SoBoPlace</module>
-  	
-  	<module>Praisal</module>
-  	<module>MoonWorth</module>
-  	<module>InsuranceFraud</module>
-  </modules>
-  <dependencies>
-  	<dependency>
-  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-  		<artifactId>SDE-Full</artifactId>
-  	</dependency>
-  	<dependency>
-  		<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-  		<artifactId>JCESI</artifactId>
-  	</dependency>
-  </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.guiguilechat</groupId>
+		<artifactId>JCELechat</artifactId>
+		<version>5.3.0</version>
+	</parent>
+	<artifactId>programs</artifactId>
+	<packaging>pom</packaging>
+	<name>Programs</name>
+	<description>pom for all main programs</description>
+	<modules>
+		<module>StatsBurnerDest</module>
+		<module>LootStats</module>
+		<module>GUIMutaplasmids</module>
+		<module>OreWorth</module>
+		<module>SoBoPlace</module>
+
+		<module>Praisal</module>
+		<module>MoonWorth</module>
+		<module>InsuranceFraud</module>
+	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>SDE-Full</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>JCESI</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-graphics</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+		</dependency>
+	</dependencies>
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
 		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>

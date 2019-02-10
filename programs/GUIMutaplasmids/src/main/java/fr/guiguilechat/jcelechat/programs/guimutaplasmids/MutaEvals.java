@@ -43,7 +43,7 @@ import javafx.util.Duration;
 
 public class MutaEvals extends Application {
 
-	public static void main(String[] args) {
+	public static void start(String[] args) {
 		MutaplasmidFamily.searchESI();
 
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 50;

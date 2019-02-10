@@ -130,6 +130,11 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 	}
 
+	public <T> Requested<T> requestNIO(String url, String method, Map<String, String> properties,
+			Map<String, Object> transmit, Class<T> expectedClass) {
+		return null;
+	}
+
 	@Override
 	public Requested<Void> requestDel(String url, Map<String, String> properties) {
 		return request(url, "DELETE", properties, null, null);
