@@ -20,7 +20,25 @@ public class ObsMapHolderImpl<K, U> implements ObsMapHolder<K, U> {
 	private ObservableMap<K, U> underlying;
 
 	public ObsMapHolderImpl(ObservableMap<K, U> underlying) {
+		this(underlying, false);
+	}
+
+	/**
+	 * crate a new {@link ObsMapHolderImpl} backing on an underlying
+	 * {@link ObservableMap}
+	 *
+	 * @param underlying
+	 *          the map to back to
+	 * @param datareceived
+	 *          whether the map already contains all the information possible. if
+	 *          not, call to synchronized method will wait until the data is
+	 *          received
+	 */
+	public ObsMapHolderImpl(ObservableMap<K, U> underlying, boolean datareceived) {
 		this.underlying = underlying;
+		if (datareceived) {
+			dataReceived();
+		}
 	}
 
 	private CountDownLatch dataReceivedLatch = new CountDownLatch(1);

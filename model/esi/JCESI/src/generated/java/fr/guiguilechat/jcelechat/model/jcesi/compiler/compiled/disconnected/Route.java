@@ -33,7 +33,11 @@ public class Route {
      * @param origin
      *     origin solar system ID
      */
-    public ObsListHolder<Integer> get(int[] avoid, int[][] connections, int destination, fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag, int origin) {
+    public ObsListHolder<Integer> get(int[] avoid,
+        int[][] connections,
+        int destination,
+        fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
+        int origin) {
         K_16_flag_int_int_Lint_LLint param = new K_16_flag_int_int_Lint_LLint(flag, origin, destination, avoid, connections);
         ObsListHolder<Integer> ret = get_route_origin_destination_holder.get(param);
         if (ret == null) {

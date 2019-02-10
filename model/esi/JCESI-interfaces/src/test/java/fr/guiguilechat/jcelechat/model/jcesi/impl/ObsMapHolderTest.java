@@ -16,7 +16,7 @@ public class ObsMapHolderTest {
 	@Test
 	public void testMap() {
 		ObservableMap<String, String> source = FXCollections.observableHashMap();
-		ObsMapHolderImpl<String, String> sourceimpl = new ObsMapHolderImpl<>(source);
+		ObsMapHolderImpl<String, String> sourceimpl = new ObsMapHolderImpl<>(source, true);
 		source.put("a", "aa");
 		source.put("b", "bb");
 		ObsMapHolderImpl<String, String> mapped = ObsMapHolderImpl.map(sourceimpl, s -> "+" + s);

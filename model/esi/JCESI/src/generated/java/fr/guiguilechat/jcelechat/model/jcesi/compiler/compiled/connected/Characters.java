@@ -1988,7 +1988,10 @@ public class Characters {
      * @param strict
      *     Whether the search should be a strict match
      */
-    public ObsObjHolder<R_get_characters_character_id_search> get(String[] categories, int character_id, String search, Boolean strict) {
+    public ObsObjHolder<R_get_characters_character_id_search> get(String[] categories,
+        int character_id,
+        String search,
+        Boolean strict) {
         K_19_String_LString_int_Boolean param = new K_19_String_LString_int_Boolean(search, categories, character_id, strict);
         ObsObjHolder<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
         if (ret == null) {

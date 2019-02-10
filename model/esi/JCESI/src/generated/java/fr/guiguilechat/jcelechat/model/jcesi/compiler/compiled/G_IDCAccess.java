@@ -493,7 +493,11 @@ public interface G_IDCAccess
      * @param type_id
      *     Return orders only for this type
      */
-    public default Requested<R_get_markets_region_id_orders[]> get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type order_type, Integer page, int region_id, Integer type_id, Map<String, String> properties) {
+    public default Requested<R_get_markets_region_id_orders[]> get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type order_type,
+        Integer page,
+        int region_id,
+        Integer type_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/markets/{region_id}/orders/".replace("{region_id}", ""+region_id)+"?"+(order_type==null?"":"&order_type="+flatten(order_type))+(page==null?"":"&page="+flatten(page))+(type_id==null?"":"&type_id="+flatten(type_id)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders[].class));
     }
@@ -587,7 +591,12 @@ public interface G_IDCAccess
      * @param origin
      *     origin solar system ID
      */
-    public default Requested<Integer[]> get_route(int[] avoid, int[][] connections, int destination, fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag, int origin, Map<String, String> properties) {
+    public default Requested<Integer[]> get_route(int[] avoid,
+        int[][] connections,
+        int destination,
+        fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
+        int origin,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/route/{origin}/{destination}/".replace("{destination}", ""+destination).replace("{origin}", ""+origin)+"?"+(avoid==null?"":"&avoid="+flatten(avoid))+(connections==null?"":"&connections="+flatten(connections))+(flag==null?"":"&flag="+flatten(flag)));
         return (requestGet(url, properties,java.lang.Integer[].class));
     }
@@ -1092,7 +1101,10 @@ public interface G_IDCAccess
      * @param strict
      *     Whether the search should be a strict match
      */
-    public default Requested<R_get_search> get(String[] categories, String search, Boolean strict, Map<String, String> properties) {
+    public default Requested<R_get_search> get(String[] categories,
+        String search,
+        Boolean strict,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/search/"+"?"+(categories==null?"":"&categories="+flatten(categories))+(search==null?"":"&search="+flatten(search))+(strict==null?"":"&strict="+flatten(strict)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_search.class));
     }

@@ -11,7 +11,10 @@ public class K_19_String_LString_int_Boolean {
     public final int character_id;
     public final Boolean strict;
 
-    public K_19_String_LString_int_Boolean(String search, String[] categories, int character_id, Boolean strict) {
+    public K_19_String_LString_int_Boolean(String search,
+        String[] categories,
+        int character_id,
+        Boolean strict) {
         this.search = search;
         this.categories = categories;
         this.character_id = character_id;

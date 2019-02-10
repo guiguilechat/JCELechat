@@ -12,7 +12,11 @@ public class K_16_flag_int_int_Lint_LLint {
     public final int[] avoid;
     public final int[][] connections;
 
-    public K_16_flag_int_int_Lint_LLint(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag, int origin, int destination, int[] avoid, int[][] connections) {
+    public K_16_flag_int_int_Lint_LLint(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
+        int origin,
+        int destination,
+        int[] avoid,
+        int[][] connections) {
         this.flag = flag;
         this.origin = origin;
         this.destination = destination;

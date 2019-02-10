@@ -428,7 +428,12 @@ public interface G_ICOAccess
      * @param ship_type_id
      *     ship_type_id integer
      */
-    public default Requested<R_post_characters_character_id_fittings_created> post_characters_s(int character_id, String description, R_get_characters_character_id_fittings_items[] items, String name, int ship_type_id, Map<String, String> properties) {
+    public default Requested<R_post_characters_character_id_fittings_created> post_characters_s(int character_id,
+        String description,
+        R_get_characters_character_id_fittings_items[] items,
+        String name,
+        int ship_type_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/fittings/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("description", description);
@@ -577,7 +582,10 @@ public interface G_ICOAccess
      * @param last_mail_id
      *     List only mail with an ID lower than the given ID, if present
      */
-    public default Requested<R_get_characters_character_id_mail[]> get_characters_mail(int character_id, int[] labels, Integer last_mail_id, Map<String, String> properties) {
+    public default Requested<R_get_characters_character_id_mail[]> get_characters_mail(int character_id,
+        int[] labels,
+        Integer last_mail_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/mail/".replace("{character_id}", ""+character_id)+"?"+(labels==null?"":"&labels="+flatten(labels))+(last_mail_id==null?"":"&last_mail_id="+flatten(last_mail_id)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_mail[].class));
     }
@@ -599,7 +607,12 @@ public interface G_ICOAccess
      * @param subject
      *     subject string
      */
-    public default Requested<Integer> post_characters(int character_id, long approved_cost, String body, R_get_characters_character_id_mail_recipients[] recipients, String subject, Map<String, String> properties) {
+    public default Requested<Integer> post_characters(int character_id,
+        long approved_cost,
+        String body,
+        R_get_characters_character_id_mail_recipients[] recipients,
+        String subject,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/mail/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("approved_cost", approved_cost);
@@ -672,7 +685,11 @@ public interface G_ICOAccess
      * @param mail_id
      *     An EVE mail ID
      */
-    public default Requested<Void> put_characters_mail(int character_id, int[] labels, boolean read, int mail_id, Map<String, String> properties) {
+    public default Requested<Void> put_characters_mail(int character_id,
+        int[] labels,
+        boolean read,
+        int mail_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/mail/{mail_id}/".replace("{character_id}", ""+character_id).replace("{mail_id}", ""+mail_id));
         Map<String, Object> content = new HashMap<>();
         content.put("labels", labels);
@@ -927,7 +944,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default Requested<R_get_corporation_corporation_id_mining_observers_observer_id[]> get_corporation_mining_observers(int corporation_id, long observer_id, Integer page, Map<String, String> properties) {
+    public default Requested<R_get_corporation_corporation_id_mining_observers_observer_id[]> get_corporation_mining_observers(int corporation_id,
+        long observer_id,
+        Integer page,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/corporation/{corporation_id}/mining/observers/{observer_id}/".replace("{corporation_id}", ""+corporation_id).replace("{observer_id}", ""+observer_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_observers_observer_id[].class));
     }
@@ -1034,7 +1054,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default Requested<M_get_contracts_contract_bids_4 []> get_corporations_contracts_bids(int contract_id, int corporation_id, Integer page, Map<String, String> properties) {
+    public default Requested<M_get_contracts_contract_bids_4 []> get_corporations_contracts_bids(int contract_id,
+        int corporation_id,
+        Integer page,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/contracts/{contract_id}/bids/".replace("{contract_id}", ""+contract_id).replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_bids_4[].class));
     }
@@ -1148,7 +1171,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default Requested<R_get_corporations_corporation_id_industry_jobs[]> get_corporations_industry_jobs(int corporation_id, Boolean include_completed, Integer page, Map<String, String> properties) {
+    public default Requested<R_get_corporations_corporation_id_industry_jobs[]> get_corporations_industry_jobs(int corporation_id,
+        Boolean include_completed,
+        Integer page,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/industry/jobs/".replace("{corporation_id}", ""+corporation_id)+"?"+(include_completed==null?"":"&include_completed="+flatten(include_completed))+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs[].class));
     }
@@ -1382,7 +1408,10 @@ public interface G_ICOAccess
      * @param system_id
      *     The solar system this starbase (POS) is located in,
      */
-    public default Requested<R_get_corporations_corporation_id_starbases_starbase_id> get_corporations_starbases(int corporation_id, long starbase_id, int system_id, Map<String, String> properties) {
+    public default Requested<R_get_corporations_corporation_id_starbases_starbase_id> get_corporations_starbases(int corporation_id,
+        long starbase_id,
+        int system_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/starbases/{starbase_id}/".replace("{corporation_id}", ""+corporation_id).replace("{starbase_id}", ""+starbase_id)+"?"+"&system_id="+flatten(system_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_starbases_starbase_id.class));
     }
@@ -1443,7 +1472,10 @@ public interface G_ICOAccess
      * @param from_id
      *     Only show journal entries happened before the transaction referenced by this id
      */
-    public default Requested<R_get_corporations_corporation_id_wallets_division_transactions[]> get_corporations_wallets_transactions(int corporation_id, int division, Long from_id, Map<String, String> properties) {
+    public default Requested<R_get_corporations_corporation_id_wallets_division_transactions[]> get_corporations_wallets_transactions(int corporation_id,
+        int division,
+        Long from_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/wallets/{division}/transactions/".replace("{corporation_id}", ""+corporation_id).replace("{division}", ""+division)+"?"+(from_id==null?"":"&from_id="+flatten(from_id)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions[].class));
     }
@@ -1476,7 +1508,10 @@ public interface G_ICOAccess
      * @param motd
      *     New fleet MOTD in CCP flavoured HTML
      */
-    public default Requested<Void> put_fleets(long fleet_id, boolean is_free_move, String motd, Map<String, String> properties) {
+    public default Requested<Void> put_fleets(long fleet_id,
+        boolean is_free_move,
+        String motd,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/".replace("{fleet_id}", ""+fleet_id));
         Map<String, Object> content = new HashMap<>();
         content.put("is_free_move", is_free_move);
@@ -1516,7 +1551,12 @@ public interface G_ICOAccess
      * @param wing_id
      *     wing_id integer
      */
-    public default Requested<Void> post_fleets_members(long fleet_id, int character_id, fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.role role, long squad_id, long wing_id, Map<String, String> properties) {
+    public default Requested<Void> post_fleets_members(long fleet_id,
+        int character_id,
+        fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.role role,
+        long squad_id,
+        long wing_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/members/".replace("{fleet_id}", ""+fleet_id));
         Map<String, Object> content = new HashMap<>();
         content.put("character_id", character_id);
@@ -1543,7 +1583,12 @@ public interface G_ICOAccess
      * @param wing_id
      *     wing_id integer
      */
-    public default Requested<Void> put_fleets_members(long fleet_id, int member_id, fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.role role, long squad_id, long wing_id, Map<String, String> properties) {
+    public default Requested<Void> put_fleets_members(long fleet_id,
+        int member_id,
+        fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.role role,
+        long squad_id,
+        long wing_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/members/{member_id}/".replace("{fleet_id}", ""+fleet_id).replace("{member_id}", ""+member_id));
         Map<String, Object> content = new HashMap<>();
         content.put("role", role);
@@ -1581,7 +1626,10 @@ public interface G_ICOAccess
      * @param squad_id
      *     The squad to rename
      */
-    public default Requested<Void> put_fleets_squads(long fleet_id, String name, long squad_id, Map<String, String> properties) {
+    public default Requested<Void> put_fleets_squads(long fleet_id,
+        String name,
+        long squad_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/squads/{squad_id}/".replace("{fleet_id}", ""+fleet_id).replace("{squad_id}", ""+squad_id));
         Map<String, Object> content = new HashMap<>();
         content.put("name", name);
@@ -1646,7 +1694,10 @@ public interface G_ICOAccess
      * @param wing_id
      *     The wing to rename
      */
-    public default Requested<Void> put_fleets_wings(long fleet_id, String name, long wing_id, Map<String, String> properties) {
+    public default Requested<Void> put_fleets_wings(long fleet_id,
+        String name,
+        long wing_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/wings/{wing_id}/".replace("{fleet_id}", ""+fleet_id).replace("{wing_id}", ""+wing_id));
         Map<String, Object> content = new HashMap<>();
         content.put("name", name);
@@ -1761,7 +1812,12 @@ public interface G_ICOAccess
      * @param to_mailing_list_id
      *     Corporations, alliances and mailing lists are all types of mailing groups. You may only send to one mailing group, at a time, so you may fill out either this field or the to_corp_or_alliance_ids field
      */
-    public default Requested<Void> post_ui_openwindow_newmail(String body, int[] recipients, String subject, int to_corp_or_alliance_id, int to_mailing_list_id, Map<String, String> properties) {
+    public default Requested<Void> post_ui_openwindow_newmail(String body,
+        int[] recipients,
+        String subject,
+        int to_corp_or_alliance_id,
+        int to_mailing_list_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v1/ui/openwindow/newmail/");
         Map<String, Object> content = new HashMap<>();
         content.put("body", body);
@@ -1892,7 +1948,12 @@ public interface G_ICOAccess
      * @param watched
      *     Whether the contact should be watched, note this is only effective on characters
      */
-    public default Requested<Void> put_characters_contacts(int character_id, int[] contact_ids, long[] label_ids, float standing, Boolean watched, Map<String, String> properties) {
+    public default Requested<Void> put_characters_contacts(int character_id,
+        int[] contact_ids,
+        long[] label_ids,
+        float standing,
+        Boolean watched,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/contacts/".replace("{character_id}", ""+character_id)+"?"+(label_ids==null?"":"&label_ids="+flatten(label_ids))+"&standing="+flatten(standing)+(watched==null?"":"&watched="+flatten(watched)));
         Map<String, Object> content = new HashMap<>();
         content.put("contact_ids", contact_ids);
@@ -1932,7 +1993,12 @@ public interface G_ICOAccess
      * @param watched
      *     Whether the contact should be watched, note this is only effective on characters
      */
-    public default Requested<Integer[]> post_characters_contacts(int character_id, int[] contact_ids, long[] label_ids, float standing, Boolean watched, Map<String, String> properties) {
+    public default Requested<Integer[]> post_characters_contacts(int character_id,
+        int[] contact_ids,
+        long[] label_ids,
+        float standing,
+        Boolean watched,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/contacts/".replace("{character_id}", ""+character_id)+"?"+(label_ids==null?"":"&label_ids="+flatten(label_ids))+"&standing="+flatten(standing)+(watched==null?"":"&watched="+flatten(watched)));
         Map<String, Object> content = new HashMap<>();
         content.put("contact_ids", contact_ids);
@@ -1952,7 +2018,10 @@ public interface G_ICOAccess
      * @param name
      *     name string
      */
-    public default Requested<Integer> post_characters_mail_s(int character_id, fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.color color, String name, Map<String, String> properties) {
+    public default Requested<Integer> post_characters_mail_s(int character_id,
+        fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.color color,
+        String name,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/mail/labels/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("color", color);
@@ -2150,7 +2219,10 @@ public interface G_ICOAccess
      * @param destination_id
      *     The destination to travel to, can be solar system, station or structure's id
      */
-    public default Requested<Void> post_ui_autopilot_waypoint(boolean add_to_beginning, boolean clear_other_waypoints, long destination_id, Map<String, String> properties) {
+    public default Requested<Void> post_ui_autopilot_waypoint(boolean add_to_beginning,
+        boolean clear_other_waypoints,
+        long destination_id,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v2/ui/autopilot/waypoint/"+"?"+"&add_to_beginning="+flatten(add_to_beginning)+"&clear_other_waypoints="+flatten(clear_other_waypoints)+"&destination_id="+flatten(destination_id));
         return requestPost(url, properties, null, Void.class);
     }
@@ -2217,7 +2289,10 @@ public interface G_ICOAccess
      * @param response
      *     response string
      */
-    public default Requested<Void> put_characters_calendar(int character_id, int event_id, fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.response response, Map<String, String> properties) {
+    public default Requested<Void> put_characters_calendar(int character_id,
+        int event_id,
+        fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.response response,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v3/characters/{character_id}/calendar/{event_id}/".replace("{character_id}", ""+character_id).replace("{event_id}", ""+event_id));
         Map<String, Object> content = new HashMap<>();
         content.put("response", response);
@@ -2287,7 +2362,11 @@ public interface G_ICOAccess
      * @param strict
      *     Whether the search should be a strict match
      */
-    public default Requested<R_get_characters_character_id_search> get_characters(String[] categories, int character_id, String search, Boolean strict, Map<String, String> properties) {
+    public default Requested<R_get_characters_character_id_search> get_characters(String[] categories,
+        int character_id,
+        String search,
+        Boolean strict,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v3/characters/{character_id}/search/".replace("{character_id}", ""+character_id)+"?"+(categories==null?"":"&categories="+flatten(categories))+(search==null?"":"&search="+flatten(search))+(strict==null?"":"&strict="+flatten(strict)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_search.class));
     }
@@ -2436,7 +2515,10 @@ public interface G_ICOAccess
      * @param page
      *     Which page of results to return
      */
-    public default Requested<M_get_journal_13 []> get_corporations_wallets_journal(int corporation_id, int division, Integer page, Map<String, String> properties) {
+    public default Requested<M_get_journal_13 []> get_corporations_wallets_journal(int corporation_id,
+        int division,
+        Integer page,
+        Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v4/corporations/{corporation_id}/wallets/{division}/journal/".replace("{corporation_id}", ""+corporation_id).replace("{division}", ""+division)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13[].class));
     }
