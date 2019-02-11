@@ -9,9 +9,13 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.impl.ObsObjHolderImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_3_xnumber_ynumber_znumber;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
@@ -22,6 +26,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Universe {
+
+	private static final Logger logger = LoggerFactory.getLogger(Universe.class);
 
 	protected final ESIStatic con;
 	private final fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe cache;
@@ -53,8 +59,20 @@ public class Universe {
 					fullbuffer = new int[missingIds.length - start];
 				}
 				System.arraycopy(missingIds, start, fullbuffer, 0, fullbuffer.length);
-				Stream.of(ESIStatic.INSTANCE.post_universe_names(fullbuffer, null).getOK())
-				.forEachOrdered(n -> cachedNames.put(n.id, n));
+				Requested<R_post_universe_names[]> newreq;
+
+				do {
+					newreq = ESIStatic.INSTANCE.post_universe_names(fullbuffer, null);
+				} while (newreq == null || newreq.isServerError());
+
+				if (newreq.isOk()) {
+					for (R_post_universe_names n : newreq.getOK()) {
+						cachedNames.put(n.id, n);
+					}
+				} else {
+					logger
+					.error("could not load names for ids" + IntStream.of(ids).mapToObj(i -> i).collect(Collectors.toList()));
+				}
 			}
 			return IntStream.of(ids).mapToObj(cachedNames::get).toArray(R_post_universe_names[]::new);
 		}
