@@ -7,6 +7,9 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices;
@@ -34,6 +37,8 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
 public class InsuranceFraudController {
+
+	private static final Logger logger = LoggerFactory.getLogger(InsuranceFraudController.class);
 
 	public static class CraftCost {
 		public HashMap<String, Double> materials = new HashMap<>();
@@ -195,7 +200,12 @@ public class InsuranceFraudController {
 	}
 
 	protected InsuranceAnalyzis analyze(R_get_insurance_prices prices) {
-		return new InsuranceAnalyzis(prices);
+		try {
+			return new InsuranceAnalyzis(prices);
+		} catch (ClassCastException cce) {
+			logger.error("insurance price refers to type " + prices.type_id + " which is not a ship");
+			return null;
+		}
 	}
 
 	protected Double[][] reproc = null;

@@ -122,7 +122,7 @@ public class FetchTranslator {
 				}
 			}
 			fetchMeth.body()._return(JExpr.invoke("requestPost").arg(url).arg(propsParam)
-					.arg(content == null ? JExpr._null() : content).arg(JExpr.dotclass(resourceType.boxify())));
+					.arg(content == null ? JExpr._null() : content).arg(JExpr.dotClass(resourceType.boxify())));
 			break;
 		case put:
 			content = null;
