@@ -25,7 +25,9 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 
 	private static final Logger logger = LoggerFactory.getLogger(ESIConnected.class);
 
-	private final String basicAuth, refreshToken;
+	private final String basicAuth;
+
+	private final String refreshToken;
 
 	protected AccessToken accessToken = null;
 
