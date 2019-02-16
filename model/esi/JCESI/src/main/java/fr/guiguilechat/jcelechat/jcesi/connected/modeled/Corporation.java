@@ -72,8 +72,7 @@ public class Corporation {
 				.filter(asset -> !get_corporations_corporation_id_assets_location_flag.AutoFit.equals(asset.location_flag))
 				.toArray(R_get_corporations_corporation_id_assets[]::new);
 		// we make the map of itemid->locations. if a location is actually an
-		// asset, we
-		// iterally map it to this asset's location instead
+		// asset, we iterally map it to this asset's location instead
 		Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
 				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id));
 		Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream()

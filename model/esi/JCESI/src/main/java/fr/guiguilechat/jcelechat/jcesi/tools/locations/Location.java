@@ -1,5 +1,8 @@
 package fr.guiguilechat.jcelechat.jcesi.tools.locations;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
@@ -10,6 +13,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 
 public class Location {
+
+	private static Logger logger = LoggerFactory.getLogger(Location.class);
 
 	public static enum LOCTYPE {
 		REGION, CONSTEL, SYSTEM, STATION, STRUCTURE, OFFICE, CONQSTATION;
@@ -38,6 +43,9 @@ public class Location {
 		return obj != null && obj.getClass() == this.getClass() && ((Location) obj).id == id;
 	}
 
+	/**
+	 * @see https://docs.esi.evetech.net/docs/asset_location_id
+	 */
 	public static Location resolve(ESIAccount account, long locationid) {
 		if (locationid < Integer.MAX_VALUE) {
 			R_get_universe_stations_station_id office;
@@ -69,7 +77,8 @@ public class Location {
 				.stations((int) locationid - 6000000).get();
 				return new Location(conqstat, locationid, conqstat.name, LOCTYPE.CONQSTATION);
 			default:
-				throw new UnsupportedOperationException("case not handled " + locationid);
+				logger.warn("locationid not handled " + locationid);
+				return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
 			}
 		} else {
 			Requested<R_get_universe_structures_structure_id> req = account.raw.get_universe_structures(locationid, null);
