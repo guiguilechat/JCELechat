@@ -44,7 +44,9 @@ public class CorpBookmarks {
 					bookmarks = FXCollections.observableHashMap();
 					bookmarksHolder = new ObsMapHolderImpl<>(bookmarks);
 					bookmarksFolders().follow(this::onFolderChange);
+					bookmarksFolders().onWaitEnd(this::dataReceveidFolders);
 					bookmarks().follow(this::onBmChange);
+					bookmarks().onWaitEnd(this::dataReceveidBM);
 				}
 			}
 			LockWatchDog.BARKER.rel(this);
@@ -146,6 +148,28 @@ public class CorpBookmarks {
 			cacheFolders = ObsMapHolderImpl.toMap(
 					con.raw.cache.corporations.bookmarks_folders(con.character.infos.corporationId().get()),
 					m -> "" + m.folder_id);
+		}
+	}
+
+	private boolean datareceivedBM = false;
+
+	protected void dataReceveidBM() {
+		datareceivedBM = true;
+		synchronized (bookmarks) {
+			if (dataReceveidFolders) {
+				bookmarksHolder.dataReceived();
+			}
+		}
+	}
+
+	private boolean dataReceveidFolders = false;
+
+	protected void dataReceveidFolders() {
+		dataReceveidFolders = true;
+		synchronized (bookmarks) {
+			if (datareceivedBM) {
+				bookmarksHolder.dataReceived();
+			}
 		}
 	}
 
