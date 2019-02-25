@@ -8,10 +8,12 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
 import fr.guiguilechat.jcelechat.jcesi.impl.ObsObjHolderImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
@@ -152,5 +154,9 @@ public class Corporation {
 			}
 		}
 		return wallet;
+	}
+
+	public R_get_corporations_corporation_id getInformations() {
+		return ESIStatic.INSTANCE.cache.corporations.get(con.character.infos.corporationId().intValue()).get();
 	}
 }
