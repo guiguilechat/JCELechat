@@ -38,7 +38,7 @@ public class AnalyzeBurnersDest {
 
 	protected DecimalFormat df = new DecimalFormat("#.##");
 	protected String separator = ";";
-	protected String offsetTypeData = separator + separator + separator + separator + separator;
+	protected String offsetTypeData = separator + separator + separator;
 
 	public static void main(String[] args) throws FileNotFoundException {
 		new AnalyzeBurnersDest().analyze(args);
@@ -55,6 +55,9 @@ public class AnalyzeBurnersDest {
 		outputDir.mkdirs();
 		LinkedHashMap<String, SolarSystem> systems = SolarSystem.load();
 		LinkedHashMap<String, Constellation> constels = Constellation.load();
+		if (constels == null) {
+			System.err.println("constels null");
+		}
 
 		for (File textFile : inDir.listFiles()) {
 			if (!textFile.isFile()) {
@@ -66,18 +69,26 @@ public class AnalyzeBurnersDest {
 			PrintStream ps = new PrintStream(new File(outputDir, an.system + ".csv"));
 			System.out.println(an.system);
 
-			SolarSystem origin = systems.get(system);
+			SolarSystem origin = systems.get(an.system);
+			if (origin == null) {
+				System.err.println("can't load system " + an.system);
+			}
 
 			ArrayList<String> possibleSystemNames = new ArrayList<>();
 			ArrayList<Integer> possibleSystemCJumps = new ArrayList<>();
 			ArrayList<Integer> possibleSystemJumps = new ArrayList<>();
 			// for each system of the constellation
-			for (String sname : constels.get(origin.constellation).systems) {
+			Constellation cst = constels.get(origin.constellation);
+			if (cst == null) {
+				System.err.println("constel "+origin.constellation+" can't be loaded");
+			}
+			for (String sname : cst
+					.systems) {
 				possibleSystemNames.add(sname);
 				possibleSystemCJumps.add(0);
 				possibleSystemJumps.add(d.distJumps(origin, systems.get(sname)));
 			}
-			// for each neighbourgh constellation
+			// for each neighborgh constellation
 			for (String cname : constels.get(origin.constellation).adjacentConstellations) {
 				for (String sname : constels.get(cname).systems) {
 					possibleSystemNames.add(sname);
@@ -101,11 +112,13 @@ public class AnalyzeBurnersDest {
 				ps.print(separator + dst);
 			}
 			ps.println();
+			if (an.dest2counts.size() > systemDistances.length) {
+				System.err.println("invalid number (" + an.dest2counts.size() + ")of systems : " + an.dest2counts.keySet());
+			}
 
 
 			ps.println();
-			ps.println("type" + separator + "count" + separator + "avgdst" + separator + "maxdst" + separator + "constels"
-					+ separator);
+			ps.println("type" + separator + "count" + separator + "avgdst");
 			for (String type : types) {
 				int idx = types2index.get(type);
 				printDestData(ps, type, an.dest2counts.values().stream(), t -> t[idx], systemDistances, constelDistances);
@@ -140,6 +153,9 @@ public class AnalyzeBurnersDest {
 			ToIntFunction<int[]> mapper, int[] systemDistances, int[] constelDistances) {
 		ps.print(name);
 		int[] systemCount = system2typeIdxCount.mapToInt(mapper).toArray();
+		if (systemCount.length != systemDistances.length) {
+			System.err.println(""+systemCount.length+" system counts but "+systemDistances.length+" system distances");
+		}
 		int total = 0, totaldst = 0, maxdst = 0;
 		for (int i = 0; i < systemCount.length; i++) {
 			total += systemCount[i];
