@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
+package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
 import java.text.ParseException;
 

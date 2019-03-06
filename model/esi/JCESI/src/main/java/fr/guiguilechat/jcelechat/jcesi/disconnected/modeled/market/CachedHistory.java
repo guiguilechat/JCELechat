@@ -1,11 +1,19 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
+import java.util.HashMap;
+import java.util.List;
 import java.util.concurrent.CountDownLatch;
+import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
+import fr.guiguilechat.jcelechat.jcesi.impl.ObsListHolderImpl;
+import fr.guiguilechat.jcelechat.jcesi.impl.ObsObjHolderImpl;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleLongProperty;
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableLongValue;
 import javafx.collections.FXCollections;
@@ -36,6 +44,7 @@ public class CachedHistory {
 	public ObservableList<R_get_markets_region_id_history> getData() {
 		return cache;
 	}
+
 
 	protected void handleHistory(Change<? extends R_get_markets_region_id_history> change) {
 		// we should only have new values
@@ -102,6 +111,59 @@ public class CachedHistory {
 		return monthlyVolume;
 	}
 
+	private ObservableList<Long> sortedVolumesUnderlying = FXCollections.observableArrayList();
+
+	private ObsListHolderImpl<Long> sortedVolumes = new ObsListHolderImpl<>(sortedVolumesUnderlying);
+
+	/** get the list of volumes over last 90 days, sorted by volume descending */
+	public ObsListHolder<Long> getSortedVolumes() {
+		return sortedVolumes;
+	}
+
+	/** cached days => offsetpct => volume */
+	private HashMap<Integer, HashMap<Integer, ObsObjHolder<Long>>> cachedBestVolumes = new HashMap<>();
+
+	/**
+	 * get the total volume for given number of days, excluding the first percent
+	 * of the highest volume days.
+	 *
+	 * @param days number of days to sum up the volume
+	 * @param offsetPct percent of the best days we skip to start summing up
+	 * @return
+	 */
+	public ObsObjHolder<Long> getBestVolume(int days, int offsetPct) {
+		HashMap<Integer, ObsObjHolder<Long>> intermediateMap = cachedBestVolumes.get(days);
+		if (intermediateMap == null) {
+			synchronized (cachedBestVolumes) {
+				intermediateMap = cachedBestVolumes.get(days);
+				if (intermediateMap == null) {
+					intermediateMap = new HashMap<>();
+					cachedBestVolumes.put(days, intermediateMap);
+				}
+			}
+		}
+		ObsObjHolder<Long> ret = intermediateMap.get(offsetPct);
+		if (ret == null) {
+			synchronized (intermediateMap) {
+				ret = intermediateMap.get(offsetPct);
+				if (ret == null) {
+					SimpleObjectProperty<Long> underlying = new SimpleObjectProperty<>();
+					ret = new ObsObjHolderImpl<>(underlying);
+					getSortedVolumes().addReceivedListener(
+							l -> {
+								int start = Math.min(offsetPct * l.size() / 100, l.size());
+								int end = Math.min(start + days, l.size());
+								underlying
+										.set(l.subList(start, end).stream()
+										.collect(Collectors.reducing(0L, Long::sum)));
+							});
+					intermediateMap.put(offsetPct, ret);
+				}
+			}
+		}
+		return ret;
+	}
+
 	protected void updateAggregates() {
 		R_get_markets_region_id_history daily = cache.get(0);
 		dailyAverage.set(daily.average);
@@ -122,5 +184,12 @@ public class CachedHistory {
 		}
 		monthlyVolume.set(volume);
 		monthlyAverage.set(isks / volume);
+		synchronized (sortedVolumesUnderlying) {
+			List<Long> newList = cache.stream().map(data -> data.volume).sorted((l1, l2) -> Long.compare(l2, l1))
+					.collect(Collectors.toList());
+			sortedVolumesUnderlying.clear();
+			sortedVolumesUnderlying.addAll(newList);
+			sortedVolumes.dataReceived();
+		}
 	}
 }
