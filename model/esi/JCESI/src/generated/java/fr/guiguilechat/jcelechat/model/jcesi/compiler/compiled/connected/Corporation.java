@@ -52,9 +52,9 @@ public class Corporation {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Station_Manager"});
                 }
@@ -94,9 +94,9 @@ public class Corporation {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Accountant"});
                 }
@@ -139,9 +139,9 @@ public class Corporation {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Accountant"});
                 }

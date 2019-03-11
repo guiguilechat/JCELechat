@@ -47,9 +47,9 @@ public class Loyalty {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }

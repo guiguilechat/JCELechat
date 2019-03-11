@@ -120,9 +120,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -162,9 +162,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -204,9 +204,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -246,9 +246,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -291,9 +291,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -336,9 +336,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -378,9 +378,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -457,9 +457,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Factory_Manager"});
                 }
@@ -539,9 +539,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Factory_Manager"});
                 }
@@ -581,9 +581,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -623,9 +623,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -665,9 +665,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -744,9 +744,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -786,9 +786,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -828,9 +828,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -870,9 +870,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -912,9 +912,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -954,9 +954,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -996,9 +996,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -1080,9 +1080,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -1122,9 +1122,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Accountant", "Junior_Accountant"});
                 }
@@ -1169,9 +1169,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Accountant", "Junior_Accountant"});
                 }
@@ -1211,9 +1211,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -1253,9 +1253,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -1295,9 +1295,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -1337,9 +1337,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Accountant", "Trader"});
                 }
@@ -1379,9 +1379,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Director"});
                 }
@@ -1421,9 +1421,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -1463,9 +1463,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Accountant", "Trader"});
                 }
@@ -1505,9 +1505,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Station_Manager"});
                 }
@@ -1550,9 +1550,9 @@ public class Corporations {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     , new String[] {"Accountant", "Junior_Accountant"});
                 }

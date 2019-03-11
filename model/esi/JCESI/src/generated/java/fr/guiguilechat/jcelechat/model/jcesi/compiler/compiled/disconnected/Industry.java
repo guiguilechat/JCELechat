@@ -41,9 +41,9 @@ public class Industry {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -77,9 +77,9 @@ public class Industry {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }

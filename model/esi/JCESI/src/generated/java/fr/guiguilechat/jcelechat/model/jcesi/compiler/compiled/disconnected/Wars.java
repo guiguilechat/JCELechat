@@ -52,9 +52,9 @@ public class Wars {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }
@@ -131,9 +131,9 @@ public class Wars {
                             if (arr!= null) {
                                 holder.addAll(arr);
                             }
-                            finalRet.dataReceived();
                         }
                         LockWatchDog.BARKER.rel(holder);
+                        finalRet.dataReceived();
                     }
                     );
                 }

@@ -58,6 +58,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	private final HttpClient client = HttpClient.newBuilder().build();
 
+	/** trying with nw java http */
 	public <T> void request(String url, String method, Map<String, String> properties, Map<String, Object> transmit,
 			Class<T> expectedClass, Consumer<HttpResponse<T>> consumer) {
 		if (properties == null) {
@@ -420,6 +421,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		private int count_shortdelay = 0;
 
 		private String lastEtag = null;
+		private long default_wait_ms = 500;
 
 		@Override
 		public void run() {
@@ -430,18 +432,17 @@ public abstract class ConnectedImpl implements ITransfer {
 				return;
 			}
 			logState();
-			long delay_ms = 1000;
+			long delay_ms = default_wait_ms;
 			try {
 				Map<String, String> headerHandler = new HashMap<>();
 				if (lastEtag != null) {
 					headerHandler.put(IFNONEMATCH, lastEtag);
 				}
 				Requested<T> res = fetch(headerHandler);
-
 				if (res != null) {
 					if (res.getResponseCode() == 420) {
 						if (res.getRemainingErrors() < 40) {
-							delay_ms = res.getErrorsReset() * 1000;
+							delay_ms = res.getErrorsReset() * default_wait_ms;
 						}
 					} else {
 						String etag = res.getETag();
@@ -472,13 +473,14 @@ public abstract class ConnectedImpl implements ITransfer {
 			} catch (Throwable e) {
 				logger.warn("while fetching " + loggingName, e);
 			} finally {
-				if (delay_ms < 500) {
+				if (delay_ms < default_wait_ms) {
 					count_shortdelay++;
-					delay_ms = count_shortdelay * 1000;
+					delay_ms = count_shortdelay * default_wait_ms;
 					logger.trace(loggingName + " sleep for (corrected)"
-							+ (delay_ms < 1000 ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
+							+ (delay_ms < default_wait_ms ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
 				} else {
-					logger.trace(loggingName + " sleep for " + (delay_ms < 1000 ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
+					logger.trace(loggingName + " sleep for "
+							+ (delay_ms < default_wait_ms ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
 					count_shortdelay = 0;
 				}
 				schedule(delay_ms);

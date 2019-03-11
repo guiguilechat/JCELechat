@@ -329,7 +329,7 @@ public class CacheTranslator {
 		JBlock setBody = sync(lambdaSet.body(), holder).body();
 		setBody.add(JExpr.invoke(holder, "clear"));
 		setBody._if(arr.neNull())._then().add(JExpr.invoke(holder, "addAll").arg(arr));
-		setBody.invoke(finalRet, "dataReceived");
+		lambdaSet.body().invoke(finalRet, "dataReceived");
 		invoke.arg(lambdaSet);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -367,7 +367,7 @@ public class CacheTranslator {
 		JBlock setBody = sync(lambdaSet.body(), holder).body();
 		setBody.add(JExpr.invoke(holder, "clear"));
 		setBody._if(arr.neNull())._then().add(JExpr.invoke(holder, "addAll").arg(arr));
-		setBody.invoke(finalRet, "dataReceived");
+		lambdaSet.body().invoke(finalRet, "dataReceived");
 		invoke.arg(lambdaSet);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -406,7 +406,7 @@ public class CacheTranslator {
 		ifnotnull.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
 		// container.putAll(newmap)
 		ifnotnull.add(JExpr.invoke(holder, "putAll").arg(newmap));
-		setBody.invoke(finalRet, "dataReceived");
+		lambdaSet.body().invoke(finalRet, "dataReceived");
 		invoke.arg(lambdaSet);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -444,7 +444,7 @@ public class CacheTranslator {
 		ifnotnull.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
 		// container.putAll(newmap)
 		ifnotnull.add(JExpr.invoke(holder, "putAll").arg(newmap));
-		setBody.invoke(finalRet, "dataReceived");
+		lambdaSet.body().invoke(finalRet, "dataReceived");
 		invoke.arg(lambdaSet);
 
 		if (!parent.requiredRoles.isEmpty()) {

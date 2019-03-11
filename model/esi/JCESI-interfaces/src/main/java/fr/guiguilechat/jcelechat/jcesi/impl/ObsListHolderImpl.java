@@ -86,7 +86,9 @@ public class ObsListHolderImpl<U> implements ObsListHolder<U> {
 
 	@Override
 	public void addReceivedListener(Consumer<List<U>> callback) {
+		LockWatchDog.BARKER.tak(underlying);
 		synchronized (underlying) {
+			LockWatchDog.BARKER.hld(underlying);
 			if (receiveListeners == null) {
 				receiveListeners = new ArrayList<>();
 			}
@@ -95,6 +97,7 @@ public class ObsListHolderImpl<U> implements ObsListHolder<U> {
 				callback.accept(underlying);
 			}
 		}
+		LockWatchDog.BARKER.rel(underlying);
 	}
 
 	@Override
@@ -106,13 +109,18 @@ public class ObsListHolderImpl<U> implements ObsListHolder<U> {
 
 	@Override
 	public void dataReceived() {
-		waitLatch.countDown();
-		if (receiveListeners != null) {
-			List<U> consumed = underlying;
-			for (Consumer<List<U>> r : receiveListeners) {
-				r.accept(consumed);
+		LockWatchDog.BARKER.tak(underlying);
+		synchronized (underlying) {
+			LockWatchDog.BARKER.hld(underlying);
+			waitLatch.countDown();
+			if (receiveListeners != null) {
+				List<U> consumed = underlying;
+				for (Consumer<List<U>> r : receiveListeners) {
+					r.accept(consumed);
+				}
 			}
 		}
+		LockWatchDog.BARKER.rel(underlying);
 	}
 
 	@Override
