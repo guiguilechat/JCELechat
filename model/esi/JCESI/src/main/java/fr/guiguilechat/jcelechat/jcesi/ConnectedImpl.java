@@ -451,7 +451,7 @@ public abstract class ConnectedImpl implements ITransfer {
 								if (res.isOk()) {
 									cacheHandler.accept(res.getOK());
 								} else if (res.isClientError() && res.getResponseCode() != 420) {
-									logger.debug(res.getError());
+									logger.debug("setting null in cache for request response type " + res.getError());
 									cacheHandler.accept(null);
 								}
 							}
