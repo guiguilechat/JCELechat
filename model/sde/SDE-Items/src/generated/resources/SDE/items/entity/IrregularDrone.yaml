@@ -1,23 +1,47 @@
 items:
   Dragonfly Apis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48930
     mass: 2000000.0
     name: Dragonfly Apis
     published: false
     volume: 20000.0
   Moth Apis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48929
     mass: 2000000.0
     name: Moth Apis
     published: false
     volume: 20000.0
   Scorpionfly Apis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48932
     mass: 2000000.0
     name: Scorpionfly Apis
     published: false
     volume: 20000.0
   Termite Apis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48931
     mass: 2000000.0
     name: Termite Apis

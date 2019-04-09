@@ -1,683 +1,1367 @@
 items:
   Aiko Temura:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16583
     mass: 2040000.0
     name: Aiko Temura
     published: false
     volume: 20400.0
   Andres Sikvatsen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15412
     mass: 1200000.0
     name: Andres Sikvatsen
     published: false
     volume: 19100.0
   Bandit Saboteur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3960
     mass: 2450000.0
     name: Bandit Saboteur
     published: false
     volume: 24500.0
   Bounty Hunter Rookie:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11672
     mass: 1910000.0
     name: Bounty Hunter Rookie
     published: false
     volume: 19100.0
   Burner Bantam:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34182
     mass: 1480000.0
     name: Burner Bantam
     published: false
     volume: 17100.0
   Burner Burst:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34154
     mass: 1420000.0
     name: Burner Burst
     published: false
     volume: 17100.0
   Burner Cruor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34144
     mass: 1203000.0
     name: Burner Cruor
     published: false
     volume: 19700.0
   Burner Daredevil:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34143
     mass: 823000.0
     name: Burner Daredevil
     published: false
     volume: 19700.0
   Burner Dramiel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34141
     mass: 750000.0
     name: Burner Dramiel
     published: false
     volume: 19700.0
   Burner Enyo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34187
     mass: 1171000.0
     name: Burner Enyo
     published: false
     volume: 27289.0
   Burner Escort Dramiel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 35689
     mass: 750000.0
     name: Burner Escort Dramiel
     published: false
     volume: 19700.0
   Burner Hawk:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34183
     mass: 1217000.0
     name: Burner Hawk
     published: false
     volume: 27289.0
   Burner Inquisitor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34184
     mass: 1630000.0
     name: Burner Inquisitor
     published: false
     volume: 28600.0
   Burner Jaguar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34155
     mass: 1366000.0
     name: Burner Jaguar
     published: false
     volume: 27289.0
   Burner Navitas:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34186
     mass: 1450000.0
     name: Burner Navitas
     published: false
     volume: 28600.0
   Burner Sentinel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 35646
     mass: 2860000.0
     name: Burner Sentinel
     published: false
     volume: 28600.0
   Burner Succubus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34145
     mass: 965000.0
     name: Burner Succubus
     published: false
     volume: 19700.0
   Burner Vengeance:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34185
     mass: 1163000.0
     name: Burner Vengeance
     published: false
     volume: 27289.0
   Burner Worm:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 34142
     mass: 1480000.0
     name: Burner Worm
     published: false
     volume: 19700.0
   COSMOS Caldari B1:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 20324
     mass: 1300000.0
     name: COSMOS Caldari B1
     published: false
     volume: 18000.0
   Captain Numek Kradin:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16870
     mass: 1650000.0
     name: Captain Numek Kradin
     published: false
     volume: 16500.0
   Claudius:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16192
     mass: 1000000.0
     name: Claudius
     published: false
     volume: 28100.0
   Criminal Saboteur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3959
     mass: 2450000.0
     name: Criminal Saboteur
     published: false
     volume: 24500.0
   DED Scout Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15354
     mass: 2600500.0
     name: DED Scout Drone
     published: false
     volume: 26005.0
   Dari Akell's Maulus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24759
     mass: 1400000.0
     name: Dari Akell's Maulus
     published: false
     volume: 23000.0
   Darkonnen Grunt:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13914
     mass: 2810000.0
     name: Darkonnen Grunt
     published: false
     volume: 28100.0
   Darkonnen Veteran:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13895
     mass: 2860000.0
     name: Darkonnen Veteran
     published: false
     volume: 28600.0
   Drezins Capsule:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13772
     mass: 32000.0
     name: Drezins Capsule
     published: false
     volume: 1000.0
   Durim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11685
     mass: 1970000.0
     name: Durim
     published: false
     volume: 19700.0
   EoM Demon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16091
     mass: 1650000.0
     name: EoM Demon
     published: false
     volume: 16500.0
   EoM Fiend:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16088
     mass: 2025000.0
     name: EoM Fiend
     published: false
     volume: 20250.0
   EoM Imp:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16087
     mass: 1612000.0
     name: EoM Imp
     published: false
     volume: 16120.0
   EoM Incubus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16089
     mass: 2040000.0
     name: EoM Incubus
     published: false
     volume: 20400.0
   EoM Saboteur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16092
     mass: 1650000.0
     name: EoM Saboteur
     published: false
     volume: 16500.0
   EoM Succubus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16090
     mass: 1650000.0
     name: EoM Succubus
     published: false
     volume: 16500.0
   Ex-Secret Agent:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16208
     mass: 2250000.0
     name: Ex-Secret Agent
     published: false
     volume: 22500.0
   Guemo Kajinn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16619
     mass: 1200000.0
     name: Guemo Kajinn
     published: false
     volume: 17400.0
   Guerin Marduke:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16557
     mass: 1200000.0
     name: Guerin Marduke
     published: false
     volume: 12000.0
   Havatiah Kiin:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24718
     mass: 1300000.0
     name: Havatiah Kiin
     published: false
     volume: 18000.0
   Horak Mane:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16607
     mass: 1740000.0
     name: Horak Mane
     published: false
     volume: 17400.0
   Imai Kenon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17625
     mass: 1970000.0
     name: Imai Kenon
     published: false
     volume: 19700.0
   Ivan Minelli:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16586
     mass: 1970000.0
     name: Ivan Minelli
     published: false
     volume: 19700.0
   Jade Lebache:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16195
     mass: 1600000.0
     name: Jade Lebache
     published: false
     volume: 10000.0
   Javvyn Bloodsworn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16701
     mass: 2860000.0
     name: Javvyn Bloodsworn
     published: false
     volume: 28600.0
   Jenai Taen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16570
     mass: 1200000.0
     name: Jenai Taen
     published: false
     volume: 28700.0
   Jenmai Hirokan:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17622
     mass: 1650000.0
     name: Jenmai Hirokan
     published: false
     volume: 16500.0
   Jhelom Marek:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16558
     mass: 1200000.0
     name: Jhelom Marek
     published: false
     volume: 12000.0
   Kaphyr:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16191
     mass: 1200000.0
     name: Kaphyr
     published: false
     volume: 21120.0
   Komni Grunt:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13917
     mass: 2040000.0
     name: Komni Grunt
     published: false
     volume: 20400.0
   Komni Smuggler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13904
     mass: 1650000.0
     name: Komni Smuggler
     published: false
     volume: 16500.0
   Kruul's Capsule:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 14294
     mass: 32000.0
     name: Kruul's Capsule
     published: false
     volume: 1000.0
   Kruul's Henchman:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11598
     mass: 1766000.0
     name: Kruul's Henchman
     published: false
     volume: 17660.0
   Kurzon Mercenary:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11652
     mass: 2810000.0
     name: Kurzon Mercenary
     published: false
     volume: 28100.0
   Kuzak Mercenary Fighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11656
     mass: 1970000.0
     name: Kuzak Mercenary Fighter
     published: false
     volume: 19700.0
   Kyani Torrin:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16582
     mass: 2650000.0
     name: Kyani Torrin
     published: false
     volume: 26500.0
   Lazarus Trezun:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17846
     mass: 2650000.0
     name: Lazarus Trezun
     published: false
     volume: 26500.0
   Lemonn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16193
     mass: 1000000.0
     name: Lemonn
     published: false
     volume: 28100.0
   Lieutenant Anton Rideux:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29927
     mass: 2860000.0
     name: Lieutenant Anton Rideux
     published: false
     volume: 28600.0
   Lieutenant Irrie Carlan:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29921
     mass: 2650000.0
     name: Lieutenant Irrie Carlan
     published: false
     volume: 26500.0
   Lieutenant Onoki Ekala:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29915
     mass: 1650000.0
     name: Lieutenant Onoki Ekala
     published: false
     volume: 16500.0
   Lieutenant Onuoto TS-08B:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29924
     mass: 2112000.0
     name: Lieutenant Onuoto TS-08B
     published: false
     volume: 21120.0
   Lieutenant Orien Hakk:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29904
     mass: 1645000.0
     name: Lieutenant Orien Hakk
     published: false
     volume: 16450.0
   Lieutenant Raute Viriette:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29920
     mass: 2650000.0
     name: Lieutenant Raute Viriette
     published: false
     volume: 26500.0
   Lieutenant Rodani Mihra:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29914
     mass: 1650000.0
     name: Lieutenant Rodani Mihra
     published: false
     volume: 16500.0
   Lieutenant Tolen Akochi:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29909
     mass: 1645000.0
     name: Lieutenant Tolen Akochi
     published: false
     volume: 16450.0
   Lori Tzen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16608
     mass: 1645000.0
     name: Lori Tzen
     published: false
     volume: 16450.0
   Maru Grunt:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13915
     mass: 1750000.0
     name: Maru Grunt
     published: false
     volume: 17500.0
   Maru Raider:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13898
     mass: 2112000.0
     name: Maru Raider
     published: false
     volume: 21120.0
   Mercenary Elite Fighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13163
     mass: 1650000.0
     name: Mercenary Elite Fighter
     published: false
     volume: 16500.0
   Mercenary Fighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11673
     mass: 1970000.0
     name: Mercenary Fighter
     published: false
     volume: 19700.0
   Mercenary Rookie:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11679
     mass: 1200000.0
     name: Mercenary Rookie
     published: false
     volume: 17400.0
   Mercenary Wingman:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16010
     mass: 1645000.0
     name: Mercenary Wingman
     published: false
     volume: 16450.0
   Militia Leader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16628
     mass: 1645000.0
     name: Militia Leader
     published: false
     volume: 16450.0
   Militia Protector:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16627
     mass: 1200000.0
     name: Militia Protector
     published: false
     volume: 16450.0
   Mullok Bloodsworn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16700
     mass: 2810000.0
     name: Mullok Bloodsworn
     published: false
     volume: 28100.0
   Odamian Guard:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13916
     mass: 2950000.0
     name: Odamian Guard
     published: false
     volume: 29500.0
   Odamian Privateer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13901
     mass: 2650000.0
     name: Odamian Privateer
     published: false
     volume: 26500.0
   Oggenon Shafi:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16576
     mass: 2870000.0
     name: Oggenon Shafi
     published: false
     volume: 28700.0
   Pirate Capsule:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 27287
     mass: 32000.0
     name: Pirate Capsule
     published: false
     volume: 1000.0
   Pirate Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11600
     mass: 100000.0
     name: Pirate Drone
     published: false
     volume: 60.0
   Pirate Saboteur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3921
     mass: 2450000.0
     name: Pirate Saboteur
     published: false
     volume: 24500.0
   Ralek Schult:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16571
     mass: 1200000.0
     name: Ralek Schult
     published: false
     volume: 28700.0
   Rogue Agent:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16190
     mass: 1650000.0
     name: Rogue Agent
     published: false
     volume: 24500.0
   Rogue Pirate Grunt:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17917
     mass: 1740000.0
     name: Rogue Pirate Grunt
     published: false
     volume: 17400.0
   Rogue Saboteur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3961
     mass: 2450000.0
     name: Rogue Saboteur
     published: false
     volume: 24500.0
   Saboteur Mercenary:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24757
     mass: 2450000.0
     name: Saboteur Mercenary
     published: false
     volume: 24500.0
   Sagacious Path Fighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29019
     mass: 2025000.0
     name: Sagacious Path Fighter
     published: false
     volume: 20250.0
   Sami Kurzon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16197
     mass: 1450000.0
     name: Sami Kurzon
     published: false
     volume: 16500.0
   Sangrel Minn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11596
     mass: 2810000.0
     name: Sangrel Minn
     published: false
     volume: 28100.0
   Seven Death Dealer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18575
     mass: 1910000.0
     name: Seven Death Dealer
     published: false
     volume: 19100.0
   Seven Deathguard:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18576
     mass: 1910000.0
     name: Seven Deathguard
     published: false
     volume: 19100.0
   Seven Grunt:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18574
     mass: 1740000.0
     name: Seven Grunt
     published: false
     volume: 17400.0
   Shakyr Personal Guard:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11705
     mass: 1645000.0
     name: Shakyr Personal Guard
     published: false
     volume: 16450.0
   Shark Kurzon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11651
     mass: 2870000.0
     name: Shark Kurzon
     published: false
     volume: 28700.0
   Shazzyr:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11681
     mass: 1970000.0
     name: Shazzyr
     published: false
     volume: 19700.0
   Tazmyr:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16288
     mass: 1000000.0
     name: Tazmyr
     published: false
     volume: 12000.0
   Tazmyr's Capsule:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16287
     mass: 32000.0
     name: Tazmyr's Capsule
     published: false
     volume: 1000.0
   Terror Bloodsworn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16702
     mass: 2860000.0
     name: Terror Bloodsworn
     published: false
     volume: 28600.0
   The Ex-Employee:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11594
     mass: 2250000.0
     name: The Ex-Employee
     published: false
     volume: 22500.0
   The Thief:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11593
     mass: 1645000.0
     name: The Thief
     published: false
     volume: 16450.0
   Thomas Pulver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16577
     mass: 2870000.0
     name: Thomas Pulver
     published: false
     volume: 28700.0
   Tom's Shuttle:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 40574
     mass: 1600000.0
     name: Tom's Shuttle
     published: false
     volume: 5000.0
   Torstan Kreoman:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16587
     mass: 1680000.0
     name: Torstan Kreoman
     published: false
     volume: 17400.0
   Tudor Brem:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16579
     mass: 1200000.0
     name: Tudor Brem
     published: false
     volume: 12000.0
   Uenia Khann:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16699
     mass: 1200000.0
     name: Uenia Khann
     published: false
     volume: 12000.0
   Uleen Bloodsworn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17742
     mass: 2860000.0
     name: Uleen Bloodsworn
     published: false
     volume: 28600.0
   Velzion Drekin:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16554
     mass: 1265000.0
     name: Velzion Drekin
     published: false
     volume: 18100.0
   Veri Monnani:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16618
     mass: 1200000.0
     name: Veri Monnani
     published: false
     volume: 19400.0
   Vivian Menure:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16698
     mass: 1200000.0
     name: Vivian Menure
     published: false
     volume: 17400.0
   Wallekon Nezmar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16553
     mass: 1265000.0
     name: Wallekon Nezmar
     published: false
     volume: 18100.0
   Xulan Anieu:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16610
     mass: 1766000.0
     name: Xulan Anieu
     published: false
     volume: 17660.0
   Yuki Tamaru:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16196
     mass: 1650000.0
     name: Yuki Tamaru
     published: false
     volume: 16500.0
   Zack Mead:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15392
     mass: 1680000.0
     name: Zack Mead
     published: false
     volume: 17400.0
   Zidan Kloveni:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16578
     mass: 1200000.0
     name: Zidan Kloveni

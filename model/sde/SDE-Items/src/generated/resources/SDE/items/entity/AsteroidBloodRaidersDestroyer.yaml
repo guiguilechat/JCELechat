@@ -1,35 +1,71 @@
 items:
   Blood Cleric:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23250
     mass: 2860000.0
     name: Blood Cleric
     published: false
     volume: 28600.0
   Blood Converter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23246
     mass: 2860000.0
     name: Blood Converter
     published: false
     volume: 28600.0
   Blood Devoter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23248
     mass: 2860000.0
     name: Blood Devoter
     published: false
     volume: 28600.0
   Blood Friar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23249
     mass: 2860000.0
     name: Blood Friar
     published: false
     volume: 28600.0
   Blood Templar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23247
     mass: 2860000.0
     name: Blood Templar
     published: false
     volume: 28600.0
   Blood Visionary:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23245
     mass: 2860000.0
     name: Blood Visionary

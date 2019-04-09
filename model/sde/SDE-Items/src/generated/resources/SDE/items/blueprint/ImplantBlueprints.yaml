@@ -12,30 +12,35 @@ items:
     id: 33543
     name: High-grade Ascendancy Beta Blueprint
     published: true
+    volume: 0.01
   High-grade Ascendancy Delta Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
     id: 33547
     name: High-grade Ascendancy Delta Blueprint
     published: true
+    volume: 0.01
   High-grade Ascendancy Epsilon Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
     id: 33546
     name: High-grade Ascendancy Epsilon Blueprint
     published: true
+    volume: 0.01
   High-grade Ascendancy Gamma Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
     id: 33545
     name: High-grade Ascendancy Gamma Blueprint
     published: true
+    volume: 0.01
   High-grade Ascendancy Omega Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
     id: 33548
     name: High-grade Ascendancy Omega Blueprint
     published: true
+    volume: 0.01
   Mid-grade Ascendancy Alpha Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
@@ -49,27 +54,32 @@ items:
     id: 33558
     name: Mid-grade Ascendancy Beta Blueprint
     published: true
+    volume: 0.01
   Mid-grade Ascendancy Delta Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
     id: 33560
     name: Mid-grade Ascendancy Delta Blueprint
     published: true
+    volume: 0.01
   Mid-grade Ascendancy Epsilon Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
     id: 33562
     name: Mid-grade Ascendancy Epsilon Blueprint
     published: true
+    volume: 0.01
   Mid-grade Ascendancy Gamma Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
     id: 33564
     name: Mid-grade Ascendancy Gamma Blueprint
     published: true
+    volume: 0.01
   Mid-grade Ascendancy Omega Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
     id: 33566
     name: Mid-grade Ascendancy Omega Blueprint
     published: true
+    volume: 0.01

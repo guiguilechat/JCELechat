@@ -1,11 +1,23 @@
 items:
   Thukker Mercenary Captain:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23956
     mass: 1.15E7
     name: Thukker Mercenary Captain
     published: false
     volume: 96000.0
   Thukker Mercenary Eliminator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23957
     mass: 1.0E7
     name: Thukker Mercenary Eliminator

@@ -1,7 +1,6 @@
 items:
   Absolution Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22449
     marketGroup: 896
@@ -10,7 +9,6 @@ items:
     volume: 0.01
   Astarte Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22467
     marketGroup: 898
@@ -19,7 +17,6 @@ items:
     volume: 0.01
   Brutix Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16230
     marketGroup: 591
@@ -28,7 +25,6 @@ items:
     volume: 0.01
   Brutix Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33152
     name: Brutix Navy Issue Blueprint
@@ -36,7 +32,6 @@ items:
     volume: 0.01
   Claymore Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22469
     marketGroup: 899
@@ -45,7 +40,6 @@ items:
     volume: 0.01
   Cyclone Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16232
     marketGroup: 592
@@ -54,7 +48,6 @@ items:
     volume: 0.01
   Damnation Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22475
     marketGroup: 896
@@ -63,7 +56,6 @@ items:
     volume: 0.01
   Drake Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24699
     marketGroup: 590
@@ -72,14 +64,12 @@ items:
     volume: 0.01
   Drake Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33154
     name: Drake Navy Issue Blueprint
     published: true
     volume: 0.01
   Drekavac Blueprint:
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 49715
     name: Drekavac Blueprint
@@ -87,7 +77,6 @@ items:
     volume: 0.01
   Eos Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22443
     marketGroup: 898
@@ -96,7 +85,6 @@ items:
     volume: 0.01
   Ferox Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16228
     marketGroup: 590
@@ -105,7 +93,6 @@ items:
     volume: 0.01
   Gnosis Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33327
     name: Gnosis Blueprint
@@ -113,7 +100,6 @@ items:
     volume: 0.01
   Harbinger Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24697
     marketGroup: 589
@@ -122,7 +108,6 @@ items:
     volume: 0.01
   Harbinger Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33156
     name: Harbinger Navy Issue Blueprint
@@ -130,7 +115,6 @@ items:
     volume: 0.01
   Hurricane Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24703
     marketGroup: 592
@@ -139,7 +123,6 @@ items:
     volume: 0.01
   Hurricane Fleet Issue Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33158
     name: Hurricane Fleet Issue Blueprint
@@ -147,7 +130,6 @@ items:
     volume: 0.01
   Myrmidon Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24701
     marketGroup: 591
@@ -156,7 +138,6 @@ items:
     volume: 0.01
   Naga Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 4307
     marketGroup: 590
@@ -165,7 +146,6 @@ items:
     volume: 0.01
   Nighthawk Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22471
     marketGroup: 897
@@ -174,7 +154,6 @@ items:
     volume: 0.01
   Oracle Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 4305
     marketGroup: 589
@@ -183,7 +162,6 @@ items:
     volume: 0.01
   Prophecy Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16234
     marketGroup: 589
@@ -192,7 +170,6 @@ items:
     volume: 0.01
   Sleipnir Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22445
     marketGroup: 899
@@ -201,7 +178,6 @@ items:
     volume: 0.01
   Talos Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 4309
     marketGroup: 591
@@ -210,7 +186,6 @@ items:
     volume: 0.01
   Tornado Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 4311
     marketGroup: 592
@@ -219,17 +194,9 @@ items:
     volume: 0.01
   Vulture Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22447
     marketGroup: 897
     name: Vulture Blueprint
-    published: true
-    volume: 0.01
-  幼龙级YC117年特别版蓝图:
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 34474
-    name: 幼龙级YC117年特别版蓝图
     published: true
     volume: 0.01

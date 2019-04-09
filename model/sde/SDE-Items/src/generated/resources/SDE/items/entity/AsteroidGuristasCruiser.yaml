@@ -1,167 +1,335 @@
 items:
   Dire Guristas Abolisher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23310
     mass: 1.01E7
     name: Dire Guristas Abolisher
     published: false
     volume: 101000.0
   Dire Guristas Annihilator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23649
     mass: 1.01E7
     name: Dire Guristas Annihilator
     published: false
     volume: 101000.0
   Dire Guristas Ascriber:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23306
     mass: 1.01E7
     name: Dire Guristas Ascriber
     published: false
     volume: 101000.0
   Dire Guristas Eraser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23309
     mass: 1.01E7
     name: Dire Guristas Eraser
     published: false
     volume: 101000.0
   Dire Guristas Inferno:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23308
     mass: 1.01E7
     name: Dire Guristas Inferno
     published: false
     volume: 101000.0
   Dire Guristas Killer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23647
     mass: 1.01E7
     name: Dire Guristas Killer
     published: false
     volume: 101000.0
   Dire Guristas Mortifier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23307
     mass: 1.01E7
     name: Dire Guristas Mortifier
     published: false
     volume: 101000.0
   Dire Guristas Murderer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23648
     mass: 1.01E7
     name: Dire Guristas Murderer
     published: false
     volume: 101000.0
   Dire Guristas Nullifier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23650
     mass: 1.01E7
     name: Dire Guristas Nullifier
     published: false
     volume: 101000.0
   Dire Guristas Silencer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23305
     mass: 1.01E7
     name: Dire Guristas Silencer
     published: false
     volume: 101000.0
   Gunslinger Ascriber:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21985
     mass: 9600000.0
     name: Gunslinger Ascriber
     published: false
     volume: 96000.0
   Gunslinger Killer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21986
     mass: 9200000.0
     name: Gunslinger Killer
     published: false
     volume: 92000.0
   Gunslinger Murderer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21987
     mass: 1.01E7
     name: Gunslinger Murderer
     published: false
     volume: 101000.0
   Gunslinger Silencer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21984
     mass: 1.07E7
     name: Gunslinger Silencer
     published: false
     volume: 107000.0
   Guristas Abolisher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23320
     mass: 1.01E7
     name: Guristas Abolisher
     published: false
     volume: 101000.0
   Guristas Annihilator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11928
     mass: 1.01E7
     name: Guristas Annihilator
     published: false
     volume: 101000.0
   Guristas Ascriber:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 10265
     mass: 9600000.0
     name: Guristas Ascriber
     published: false
     volume: 96000.0
   Guristas Clone Soldier Negotiator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33189
     mass: 1.01E7
     name: Guristas Clone Soldier Negotiator
     published: false
     volume: 101000.0
   Guristas Clone Soldier Recruiter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33145
     mass: 1.01E7
     name: Guristas Clone Soldier Recruiter
     published: false
     volume: 101000.0
   Guristas Clone Soldier Trainer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33134
     mass: 1.01E7
     name: Guristas Clone Soldier Trainer
     published: false
     volume: 101000.0
   Guristas Clone Soldier Transporter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33174
     mass: 1.01E7
     name: Guristas Clone Soldier Transporter
     published: false
     volume: 101000.0
   Guristas Eraser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23319
     mass: 1.01E7
     name: Guristas Eraser
     published: false
     volume: 101000.0
   Guristas Inferno:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11931
     mass: 1.01E7
     name: Guristas Inferno
     published: false
     volume: 101000.0
   Guristas Killer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11036
     mass: 9200000.0
     name: Guristas Killer
     published: false
     volume: 92000.0
   Guristas Mortifier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11930
     mass: 1.01E7
     name: Guristas Mortifier
     published: false
     volume: 101000.0
   Guristas Murderer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11031
     mass: 1.01E7
     name: Guristas Murderer
     published: false
     volume: 101000.0
   Guristas Nullifier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11929
     mass: 1.01E7
     name: Guristas Nullifier
     published: false
     volume: 101000.0
   Guristas Silencer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2387
     mass: 1.07E7
     name: Guristas Silencer

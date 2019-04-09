@@ -486,6 +486,9 @@ items:
     published: true
     volume: 20.0
   Upwell A3FPR Outpost Rig:
+    AttributeEngRigMatBonus: -5.0
+    AttributeT1ShipManufactureTime: -60
+    AttributeT2ShipManufactureTime: -50
     CanFitShipGroup01: 1657
     ConversionRigHPCapBonus: 25
     Hp: 40
@@ -828,7 +831,9 @@ items:
     published: true
     volume: 20.0
   Upwell C2LF Outpost Rig:
+    AttributeAdvCompManufactureTime: -40
     AttributeCopyTime: -50
+    AttributeEngRigMatBonus: -1.0
     AttributeInventionCosts: -23
     AttributeMEResearchTime: -50
     AttributeResearchCosts: -23

@@ -1,5 +1,11 @@
 items:
   Black Edge Caldari Battleship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 42820
     mass: 2.05E7
     name: Black Edge Caldari Battleship

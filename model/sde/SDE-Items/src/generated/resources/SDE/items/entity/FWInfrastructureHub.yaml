@@ -1,20 +1,44 @@
 items:
   Amarr Infrastructure Hub:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29286
     mass: 1000000.0
     name: Amarr Infrastructure Hub
     published: false
   Caldari Infrastructure Hub:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29302
     mass: 1000000.0
     name: Caldari Infrastructure Hub
     published: false
   Gallente Infrastructure Hub:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29303
     mass: 1000000.0
     name: Gallente Infrastructure Hub
     published: false
   Minmatar Infrastructure Hub:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29304
     mass: 1000000.0
     name: Minmatar Infrastructure Hub

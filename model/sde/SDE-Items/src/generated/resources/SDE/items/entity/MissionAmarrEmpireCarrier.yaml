@@ -1,5 +1,11 @@
 items:
   Imperial Redeemer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 27717
     mass: 1.0125E9
     name: Imperial Redeemer

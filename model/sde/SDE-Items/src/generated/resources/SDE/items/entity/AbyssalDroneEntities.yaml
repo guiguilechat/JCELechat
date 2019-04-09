@@ -1,113 +1,227 @@
 items:
   Blastgrip Tessera:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48265
     mass: 100000.0
     name: Blastgrip Tessera
     published: false
     volume: 60.0
   Blastlance Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47859
     mass: 5000.0
     name: Blastlance Tessella
     published: false
     volume: 10.0
   Blastneedle Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47855
     mass: 5000.0
     name: Blastneedle Tessella
     published: false
     volume: 10.0
   Embergrip Tessera:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48263
     mass: 100000.0
     name: Embergrip Tessera
     published: false
     volume: 60.0
   Emberlance Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47857
     mass: 5000.0
     name: Emberlance Tessella
     published: false
     volume: 10.0
   Emberneedle Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47848
     mass: 5000.0
     name: Emberneedle Tessella
     published: false
     volume: 10.0
   Fieldweaver Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47850
     mass: 5000.0
     name: Fieldweaver Tessella
     published: false
     volume: 10.0
   Fogcaster Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47852
     mass: 5000.0
     name: Fogcaster Tessella
     published: false
     volume: 10.0
   Gazedimmer Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47853
     mass: 5000.0
     name: Gazedimmer Tessella
     published: false
     volume: 10.0
   Plateforger Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47860
     mass: 5000.0
     name: Plateforger Tessella
     published: false
     volume: 10.0
   Snarecaster Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47851
     mass: 5000.0
     name: Snarecaster Tessella
     published: false
     volume: 10.0
   Sparkgrip Tessera:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48262
     mass: 100000.0
     name: Sparkgrip Tessera
     published: false
     volume: 60.0
   Sparklance Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47856
     mass: 5000.0
     name: Sparklance Tessella
     published: false
     volume: 10.0
   Sparkneedle Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47847
     mass: 5000.0
     name: Sparkneedle Tessella
     published: false
     volume: 10.0
   Spotlighter Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47854
     mass: 5000.0
     name: Spotlighter Tessella
     published: false
     volume: 10.0
   Strikegrip Tessera:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48264
     mass: 100000.0
     name: Strikegrip Tessera
     published: false
     volume: 60.0
   Strikelance Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47858
     mass: 5000.0
     name: Strikelance Tessella
     published: false
     volume: 10.0
   Strikeneedle Tessella:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47849
     mass: 5000.0
     name: Strikeneedle Tessella
     published: false
     volume: 10.0
   Vila Swarmer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48253
     mass: 5000.0
     name: Vila Swarmer

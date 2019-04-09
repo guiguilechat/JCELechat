@@ -1,35 +1,71 @@
 items:
   True Sansha's Behemoth:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23399
     mass: 1.001E7
     name: True Sansha's Behemoth
     published: false
     volume: 100100.0
   True Sansha's Daemon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23398
     mass: 1.001E7
     name: True Sansha's Daemon
     published: false
     volume: 100100.0
   True Sansha's Devil:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23397
     mass: 1.001E7
     name: True Sansha's Devil
     published: false
     volume: 100100.0
   True Sansha's Phantasm:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23394
     mass: 1.001E7
     name: True Sansha's Phantasm
     published: false
     volume: 100100.0
   True Sansha's Specter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23395
     mass: 1.001E7
     name: True Sansha's Specter
     published: false
     volume: 100100.0
   True Sansha's Wraith:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23396
     mass: 1.001E7
     name: True Sansha's Wraith

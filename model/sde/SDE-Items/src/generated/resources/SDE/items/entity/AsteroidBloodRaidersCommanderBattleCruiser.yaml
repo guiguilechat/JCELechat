@@ -1,35 +1,71 @@
 items:
   Dark Blood Bishop:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23293
     mass: 1.18E7
     name: Dark Blood Bishop
     published: false
     volume: 118000.0
   Dark Blood Exorcist:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23298
     mass: 1.18E7
     name: Dark Blood Exorcist
     published: false
     volume: 118000.0
   Dark Blood Fanatic:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23296
     mass: 1.18E7
     name: Dark Blood Fanatic
     published: false
     volume: 118000.0
   Dark Blood Phantom:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23297
     mass: 1.18E7
     name: Dark Blood Phantom
     published: false
     volume: 118000.0
   Dark Blood Seer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23294
     mass: 1.18E7
     name: Dark Blood Seer
     published: false
     volume: 118000.0
   Dark Blood Shade:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23295
     mass: 1.18E7
     name: Dark Blood Shade

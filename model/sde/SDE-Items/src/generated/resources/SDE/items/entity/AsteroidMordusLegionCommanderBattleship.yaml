@@ -1,5 +1,11 @@
 items:
   Mordu’s Special Warfare Unit Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33866
     mass: 9.93E7
     name: Mordu’s Special Warfare Unit Commander

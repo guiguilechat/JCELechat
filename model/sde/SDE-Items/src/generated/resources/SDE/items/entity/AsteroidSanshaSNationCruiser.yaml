@@ -1,143 +1,287 @@
 items:
   Sansha Clone Soldier Negotiator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33183
     mass: 1.001E7
     name: Sansha Clone Soldier Negotiator
     published: false
     volume: 100100.0
   Sansha Clone Soldier Recruiter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33142
     mass: 1.001E7
     name: Sansha Clone Soldier Recruiter
     published: false
     volume: 100100.0
   Sansha Clone Soldier Trainer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33136
     mass: 1.001E7
     name: Sansha Clone Soldier Trainer
     published: false
     volume: 100100.0
   Sansha Clone Soldier Transporter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33163
     mass: 1.001E7
     name: Sansha Clone Soldier Transporter
     published: false
     volume: 100100.0
   Sansha's Beast:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11037
     mass: 1.001E7
     name: Sansha's Beast
     published: false
     volume: 100100.0
   Sansha's Execrator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11910
     mass: 1.001E7
     name: Sansha's Execrator
     published: false
     volume: 100100.0
   Sansha's Fiend:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23381
     mass: 1.001E7
     name: Sansha's Fiend
     published: false
     volume: 100100.0
   Sansha's Hellhound:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23382
     mass: 1.001E7
     name: Sansha's Hellhound
     published: false
     volume: 100100.0
   Sansha's Juggernaut:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11038
     mass: 1.001E7
     name: Sansha's Juggernaut
     published: false
     volume: 100100.0
   Sansha's Loyal Beast:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23651
     mass: 1.001E7
     name: Sansha's Loyal Beast
     published: false
     volume: 100100.0
   Sansha's Loyal Execrator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23654
     mass: 1.001E7
     name: Sansha's Loyal Execrator
     published: false
     volume: 100100.0
   Sansha's Loyal Fiend:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23370
     mass: 1.001E7
     name: Sansha's Loyal Fiend
     published: false
     volume: 100100.0
   Sansha's Loyal Hellhound:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23371
     mass: 1.001E7
     name: Sansha's Loyal Hellhound
     published: false
     volume: 100100.0
   Sansha's Loyal Juggernaut:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23652
     mass: 1.001E7
     name: Sansha's Loyal Juggernaut
     published: false
     volume: 100100.0
   Sansha's Loyal Mutilator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23368
     mass: 1.001E7
     name: Sansha's Loyal Mutilator
     published: false
     volume: 100100.0
   Sansha's Loyal Ravager:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23367
     mass: 1.001E7
     name: Sansha's Loyal Ravager
     published: false
     volume: 100100.0
   Sansha's Loyal Ravisher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23366
     mass: 1.001E7
     name: Sansha's Loyal Ravisher
     published: false
     volume: 100100.0
   Sansha's Loyal Slaughterer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23653
     mass: 1.001E7
     name: Sansha's Loyal Slaughterer
     published: false
     volume: 100100.0
   Sansha's Loyal Torturer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23369
     mass: 1.001E7
     name: Sansha's Loyal Torturer
     published: false
     volume: 100100.0
   Sansha's Mutilator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11911
     mass: 1.001E7
     name: Sansha's Mutilator
     published: false
     volume: 100100.0
   Sansha's Ravager:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 10030
     mass: 1.001E7
     name: Sansha's Ravager
     published: false
     volume: 100100.0
   Sansha's Ravisher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 10274
     mass: 1.001E7
     name: Sansha's Ravisher
     published: false
     volume: 100100.0
   Sansha's Slaughterer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11909
     mass: 1.001E7
     name: Sansha's Slaughterer
     published: false
     volume: 100100.0
   Sansha's Torturer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11912
     mass: 1.001E7
     name: Sansha's Torturer

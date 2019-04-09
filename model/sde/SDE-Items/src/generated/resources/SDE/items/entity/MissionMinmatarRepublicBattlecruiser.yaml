@@ -1,47 +1,95 @@
 items:
   Republic Norn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24851
     mass: 1.09E7
     name: Republic Norn
     published: false
     volume: 109000.0
   Republic Nutia:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24843
     mass: 1.09E7
     name: Republic Nutia
     published: false
     volume: 109000.0
   Republic Tribal Caluka:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28179
     mass: 1.25E7
     name: Republic Tribal Caluka
     published: false
     volume: 120000.0
   Republic Tribal Norn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24857
     mass: 1.09E7
     name: Republic Tribal Norn
     published: false
     volume: 109000.0
   Republic Tribal Nutia:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24848
     mass: 1.09E7
     name: Republic Tribal Nutia
     published: false
     volume: 109000.0
   Republic Tribal Venis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24855
     mass: 1.09E7
     name: Republic Tribal Venis
     published: false
     volume: 109000.0
   Republic Tribal Vorshud:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28180
     mass: 1.25E7
     name: Republic Tribal Vorshud
     published: false
     volume: 120000.0
   Republic Venis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24847
     mass: 1.09E7
     name: Republic Venis

@@ -1,101 +1,203 @@
 items:
   Angel Bulker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13682
     mass: 1.09E7
     name: Angel Bulker
     published: false
     volume: 109000.0
   Angel Carrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13678
     mass: 1.9E7
     name: Angel Carrier
     published: false
     volume: 1.9E7
   Angel Convoy:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13679
     mass: 1.9E7
     name: Angel Convoy
     published: false
     volume: 1.9E7
   Angel Courier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13685
     mass: 1.09E7
     name: Angel Courier
     published: false
     volume: 109000.0
   Angel Ferrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13687
     mass: 1910000.0
     name: Angel Ferrier
     published: false
     volume: 19100.0
   Angel Gatherer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13688
     mass: 1645000.0
     name: Angel Gatherer
     published: false
     volume: 16450.0
   Angel Harvester:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13689
     mass: 1910000.0
     name: Angel Harvester
     published: false
     volume: 19100.0
   Angel Hauler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13681
     mass: 1.9E7
     name: Angel Hauler
     published: false
     volume: 1.9E7
   Angel Loader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13686
     mass: 1645000.0
     name: Angel Loader
     published: false
     volume: 16450.0
   Angel Trailer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13680
     mass: 1.9E7
     name: Angel Trailer
     published: false
     volume: 1.9E7
   Angel Transporter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13683
     mass: 1.09E7
     name: Angel Transporter
     published: false
     volume: 109000.0
   Angel Trucker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13684
     mass: 1.09E7
     name: Angel Trucker
     published: false
     volume: 109000.0
   Burner Clone Soldier Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 35679
     mass: 8.9E7
     name: Burner Clone Soldier Transport
     published: false
     volume: 890000.0
   Degenerate Ferrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22027
     mass: 1910000.0
     name: Degenerate Ferrier
     published: false
     volume: 19100.0
   Degenerate Gatherer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22026
     mass: 1645000.0
     name: Degenerate Gatherer
     published: false
     volume: 16450.0
   Degenerate Harvester:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22025
     mass: 1910000.0
     name: Degenerate Harvester
     published: false
     volume: 19100.0
   Degenerate Loader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22028
     mass: 1645000.0
     name: Degenerate Loader

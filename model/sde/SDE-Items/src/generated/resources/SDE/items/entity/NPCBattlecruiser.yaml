@@ -1,23 +1,47 @@
 items:
   ♦ Brutix:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 46076
     mass: 1.18E7
     name: ♦ Brutix
     published: false
     volume: 270000.0
   ♦ Drake:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 46072
     mass: 1.35E7
     name: ♦ Drake
     published: false
     volume: 252000.0
   ♦ Harbinger:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 46068
     mass: 1.53E7
     name: ♦ Harbinger
     published: false
     volume: 234000.0
   ♦ Hurricane:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 46080
     mass: 1.28E7
     name: ♦ Hurricane

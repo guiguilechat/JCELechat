@@ -1,35 +1,71 @@
 items:
   Triglavian Bioadaptive Cache:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47951
     mass: 100000.0
     name: Triglavian Bioadaptive Cache
     published: false
     volume: 1.0E8
   Triglavian Biocombinative Cache:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 49689
     mass: 100000.0
     name: Triglavian Biocombinative Cache
     published: false
     volume: 1.0E8
   Triglavian Cladistic Cache:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 49690
     mass: 100000.0
     name: Triglavian Cladistic Cache
     published: false
     volume: 1.0E8
   Triglavian Extraction Nexus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 49663
     mass: 100000.0
     name: Triglavian Extraction Nexus
     published: false
     volume: 1.0E8
   Triglavian Extraction Node:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 49662
     mass: 100000.0
     name: Triglavian Extraction Node
     published: false
     volume: 1.0E8
   Triglavian Extraction SubNode:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 49661
     mass: 100000.0
     name: Triglavian Extraction SubNode

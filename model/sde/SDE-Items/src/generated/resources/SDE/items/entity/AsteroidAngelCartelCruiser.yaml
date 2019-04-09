@@ -1,143 +1,287 @@
 items:
   Angel Breaker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11894
     mass: 1.09E7
     name: Angel Breaker
     published: false
     volume: 109000.0
   Angel Centurion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22821
     mass: 1.09E7
     name: Angel Centurion
     published: false
     volume: 109000.0
   Angel Clone Soldier Negotiator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33175
     mass: 1.09E7
     name: Angel Clone Soldier Negotiator
     published: false
     volume: 109000.0
   Angel Clone Soldier Recruiter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33143
     mass: 1.09E7
     name: Angel Clone Soldier Recruiter
     published: false
     volume: 109000.0
   'Angel Clone Soldier Trainer ':
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33132
     mass: 1.09E7
     name: 'Angel Clone Soldier Trainer '
     published: false
     volume: 109000.0
   Angel Clone Soldier Transporter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33173
     mass: 1.09E7
     name: Angel Clone Soldier Transporter
     published: false
     volume: 109000.0
   Angel Crusher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11026
     mass: 1.09E7
     name: Angel Crusher
     published: false
     volume: 109000.0
   Angel Defeater:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11895
     mass: 1.09E7
     name: Angel Defeater
     published: false
     volume: 109000.0
   Angel Depredator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 10017
     mass: 9900000.0
     name: Angel Depredator
     published: false
     volume: 99000.0
   Angel Liquidator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11897
     mass: 1.09E7
     name: Angel Liquidator
     published: false
     volume: 109000.0
   Angel Marauder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11896
     mass: 1.09E7
     name: Angel Marauder
     published: false
     volume: 109000.0
   Angel Phalanx:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22820
     mass: 1.09E7
     name: Angel Phalanx
     published: false
     volume: 109000.0
   Angel Predator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11025
     mass: 9900000.0
     name: Angel Predator
     published: false
     volume: 99000.0
   Angel Smasher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 10018
     mass: 1.09E7
     name: Angel Smasher
     published: false
     volume: 109000.0
   Arch Angel Breaker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23640
     mass: 9900000.0
     name: Arch Angel Breaker
     published: false
     volume: 99000.0
   Arch Angel Centurion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22833
     mass: 1.09E7
     name: Arch Angel Centurion
     published: false
     volume: 109000.0
   Arch Angel Crusher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23639
     mass: 9900000.0
     name: Arch Angel Crusher
     published: false
     volume: 99000.0
   Arch Angel Defeater:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23641
     mass: 9900000.0
     name: Arch Angel Defeater
     published: false
     volume: 99000.0
   Arch Angel Depredator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22828
     mass: 9900000.0
     name: Arch Angel Depredator
     published: false
     volume: 99000.0
   Arch Angel Liquidator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22831
     mass: 1.09E7
     name: Arch Angel Liquidator
     published: false
     volume: 109000.0
   Arch Angel Marauder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22830
     mass: 1.09E7
     name: Arch Angel Marauder
     published: false
     volume: 109000.0
   Arch Angel Phalanx:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22832
     mass: 1.09E7
     name: Arch Angel Phalanx
     published: false
     volume: 109000.0
   Arch Angel Predator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22829
     mass: 9900000.0
     name: Arch Angel Predator
     published: false
     volume: 99000.0
   Arch Angel Smasher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23638
     mass: 9900000.0
     name: Arch Angel Smasher

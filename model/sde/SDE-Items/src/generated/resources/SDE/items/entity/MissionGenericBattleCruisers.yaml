@@ -1,5 +1,11 @@
 items:
   testing group:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26959
     mass: 100000.0
     name: testing group

@@ -1,29 +1,59 @@
 items:
   Amarr Frigate Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29234
     mass: 2820000.0
     name: Amarr Frigate Vessel
     published: false
     volume: 24398.0
   Caldari Frigate Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29239
     mass: 1500100.0
     name: Caldari Frigate Vessel
     published: false
     volume: 15001.0
   Gallente Frigate Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29242
     mass: 2450000.0
     name: Gallente Frigate Vessel
     published: false
     volume: 24500.0
   Minmatar Frigate Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29245
     mass: 2112000.0
     name: Minmatar Frigate Vessel
     published: false
     volume: 21120.0
   Patrikia Noirild's Reaper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32786
     mass: 2112000.0
     name: Patrikia Noirild's Reaper

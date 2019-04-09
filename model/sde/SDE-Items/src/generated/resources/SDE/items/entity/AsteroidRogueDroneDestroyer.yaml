@@ -1,35 +1,71 @@
 items:
   Dismantler Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25647
     mass: 100000.0
     name: Dismantler Drone
     published: false
     volume: 60.0
   Marauder Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25661
     mass: 100000.0
     name: Marauder Drone
     published: false
     volume: 60.0
   Predator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25666
     mass: 100000.0
     name: Predator Drone
     published: false
     volume: 60.0
   Ripper Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25669
     mass: 100000.0
     name: Ripper Drone
     published: false
     volume: 60.0
   Shatter Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25671
     mass: 100000.0
     name: Shatter Drone
     published: false
     volume: 60.0
   Shredder Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25672
     mass: 100000.0
     name: Shredder Drone

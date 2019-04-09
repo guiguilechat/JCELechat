@@ -1,197 +1,395 @@
 items:
   Blood Disciple:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16564
     mass: 2870000.0
     name: Blood Disciple
     published: false
     volume: 28700.0
   Blood Wraith:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16563
     mass: 2860000.0
     name: Blood Wraith
     published: false
     volume: 28600.0
   Corpii Collector:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16935
     mass: 2810000.0
     name: Corpii Collector
     published: false
     volume: 28100.0
   Corpii Diviner:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16932
     mass: 2860000.0
     name: Corpii Diviner
     published: false
     volume: 28600.0
   Corpii Engraver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16953
     mass: 2860000.0
     name: Corpii Engraver
     published: false
     volume: 28600.0
   Corpii Follower:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16936
     mass: 2810000.0
     name: Corpii Follower
     published: false
     volume: 28100.0
   Corpii Fugitive:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16937
     mass: 2810000.0
     name: Corpii Fugitive
     published: false
     volume: 28100.0
   Corpii Herald:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16946
     mass: 2810000.0
     name: Corpii Herald
     published: false
     volume: 28100.0
   Corpii Raider:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16945
     mass: 2870000.0
     name: Corpii Raider
     published: false
     volume: 28700.0
   Corpii Reaver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16940
     mass: 2870000.0
     name: Corpii Reaver
     published: false
     volume: 28700.0
   Corpii Seeker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16947
     mass: 2810000.0
     name: Corpii Seeker
     published: false
     volume: 28100.0
   Corpii Upholder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16933
     mass: 2810000.0
     name: Corpii Upholder
     published: false
     volume: 28100.0
   Corpii Worshipper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16950
     mass: 2820000.0
     name: Corpii Worshipper
     published: false
     volume: 24398.0
   Dark Corpii Collector:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16966
     mass: 2810000.0
     name: Dark Corpii Collector
     published: false
     volume: 28100.0
   Dark Corpii Diviner:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16963
     mass: 2860000.0
     name: Dark Corpii Diviner
     published: false
     volume: 28600.0
   Dark Corpii Engraver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16979
     mass: 2860000.0
     name: Dark Corpii Engraver
     published: false
     volume: 28600.0
   Dark Corpii Follower:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16955
     mass: 2810000.0
     name: Dark Corpii Follower
     published: false
     volume: 28100.0
   Dark Corpii Herald:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16973
     mass: 2810000.0
     name: Dark Corpii Herald
     published: false
     volume: 28100.0
   Dark Corpii Raider:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16972
     mass: 2870000.0
     name: Dark Corpii Raider
     published: false
     volume: 28700.0
   Dark Corpii Reaver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16954
     mass: 2870000.0
     name: Dark Corpii Reaver
     published: false
     volume: 28700.0
   Dark Corpii Seeker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16974
     mass: 2810000.0
     name: Dark Corpii Seeker
     published: false
     volume: 28100.0
   Dark Corpii Upholder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16964
     mass: 2810000.0
     name: Dark Corpii Upholder
     published: false
     volume: 28100.0
   Dark Corpii Worshipper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16977
     mass: 2820000.0
     name: Dark Corpii Worshipper
     published: false
     volume: 24398.0
   Elder Corpii Collector:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24040
     mass: 2860000.0
     name: Elder Corpii Collector
     published: false
     volume: 28600.0
   Elder Corpii Diviner:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24042
     mass: 2860000.0
     name: Elder Corpii Diviner
     published: false
     volume: 28600.0
   Elder Corpii Engraver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24044
     mass: 2860000.0
     name: Elder Corpii Engraver
     published: false
     volume: 28600.0
   Elder Corpii Follower:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16943
     mass: 2870000.0
     name: Elder Corpii Follower
     published: false
     volume: 28700.0
   Elder Corpii Herald:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16939
     mass: 2870000.0
     name: Elder Corpii Herald
     published: false
     volume: 28700.0
   Elder Corpii Raider:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24041
     mass: 2860000.0
     name: Elder Corpii Raider
     published: false
     volume: 28600.0
   Elder Corpii Reaver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24043
     mass: 2860000.0
     name: Elder Corpii Reaver
     published: false
     volume: 28600.0
   Elder Corpii Seeker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24039
     mass: 2860000.0
     name: Elder Corpii Seeker
     published: false
     volume: 28600.0
   Elder Corpii Upholder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16942
     mass: 2860000.0
     name: Elder Corpii Upholder
     published: false
     volume: 28600.0
   Elder Corpii Worshiper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16951
     mass: 2860000.0
     name: Elder Corpii Worshiper

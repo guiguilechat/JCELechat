@@ -1,257 +1,515 @@
 items:
   Caldari CA Cruiser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 45463
     mass: 1.01E7
     name: Caldari CA Cruiser
     published: false
     volume: 101000.0
   Caldari Military Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22800
     mass: 9.6E7
     name: Caldari Military Transport
     published: false
     volume: 960000.0
   Caldari Navy Blackbird:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 12394
     mass: 1.4E7
     name: Caldari Navy Blackbird
     published: false
     volume: 96000.0
   Caldari Navy Moa:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15320
     mass: 1.01E7
     name: Caldari Navy Moa
     published: false
     volume: 101000.0
   Caldari Navy Raid Leader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15349
     mass: 1.3E7
     name: Caldari Navy Raid Leader
     published: false
     volume: 107000.0
   Caldari Personnel Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16162
     mass: 9.6E7
     name: Caldari Personnel Transport
     published: false
     volume: 960000.0
   Caldari Transport Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11712
     mass: 9.6E7
     name: Caldari Transport Ship
     published: false
     volume: 960000.0
   Civilian Caldari Cruiser Blackbird:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30729
     mass: 9600000.0
     name: Civilian Caldari Cruiser Blackbird
     published: false
     volume: 96000.0
   Civilian Caldari Cruiser Caracal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30730
     mass: 9600000.0
     name: Civilian Caldari Cruiser Caracal
     published: false
     volume: 96000.0
   Civilian Caldari Cruiser Moa:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30731
     mass: 9600000.0
     name: Civilian Caldari Cruiser Moa
     published: false
     volume: 96000.0
   Civilian Caldari Cruiser Osprey:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30732
     mass: 9600000.0
     name: Civilian Caldari Cruiser Osprey
     published: false
     volume: 96000.0
   Corporate Liaison:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30950
     mass: 9600000.0
     name: Corporate Liaison
     published: false
     volume: 96000.0
   Independent Blackbird:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29765
     mass: 1.01E7
     name: Independent Blackbird
     published: false
     volume: 101000.0
   Independent Caracal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29766
     mass: 1.01E7
     name: Independent Caracal
     published: false
     volume: 101000.0
   Independent Green-Crewed Blackbird:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29761
     mass: 9600000.0
     name: Independent Green-Crewed Blackbird
     published: false
     volume: 96000.0
   Independent Green-Crewed Caracal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29762
     mass: 9600000.0
     name: Independent Green-Crewed Caracal
     published: false
     volume: 96000.0
   Independent Green-Crewed Moa:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29763
     mass: 9600000.0
     name: Independent Green-Crewed Moa
     published: false
     volume: 96000.0
   Independent Green-Crewed Osprey:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29764
     mass: 9600000.0
     name: Independent Green-Crewed Osprey
     published: false
     volume: 96000.0
   Independent Moa:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29767
     mass: 1.01E7
     name: Independent Moa
     published: false
     volume: 101000.0
   Independent Osprey:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29768
     mass: 1.01E7
     name: Independent Osprey
     published: false
     volume: 101000.0
   Independent Veteran Blackbird:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29769
     mass: 1.4E7
     name: Independent Veteran Blackbird
     published: false
     volume: 140000.0
   Independent Veteran Caracal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29770
     mass: 1.4E7
     name: Independent Veteran Caracal
     published: false
     volume: 140000.0
   Independent Veteran Moa:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29771
     mass: 1.4E7
     name: Independent Veteran Moa
     published: false
     volume: 140000.0
   Independent Veteran Osprey:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29772
     mass: 1.4E7
     name: Independent Veteran Osprey
     published: false
     volume: 140000.0
   Scions of the Superior Gene:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2222
     mass: 1.01E7
     name: Scions of the Superior Gene
     published: false
     volume: 101000.0
   State Ashigaru:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25048
     mass: 1.01E7
     name: State Ashigaru
     published: false
     volume: 101000.0
   State Buke:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25052
     mass: 1.01E7
     name: State Buke
     published: false
     volume: 101000.0
   State Bushi:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25043
     mass: 1.07E7
     name: State Bushi
     published: false
     volume: 107000.0
   State Chugen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25050
     mass: 1.01E7
     name: State Chugen
     published: false
     volume: 101000.0
   State Dogo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25045
     mass: 9600000.0
     name: State Dogo
     published: false
     volume: 96000.0
   State Fudai:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25046
     mass: 9200000.0
     name: State Fudai
     published: false
     volume: 92000.0
   State Shukuro Ashigaru:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25054
     mass: 1.01E7
     name: State Shukuro Ashigaru
     published: false
     volume: 101000.0
   State Shukuro Ashura:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25058
     mass: 1.01E7
     name: State Shukuro Ashura
     published: false
     volume: 101000.0
   State Shukuro Buke:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25057
     mass: 1.01E7
     name: State Shukuro Buke
     published: false
     volume: 101000.0
   State Shukuro Chugen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25056
     mass: 1.01E7
     name: State Shukuro Chugen
     published: false
     volume: 101000.0
   Taibu State Bajo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25081
     mass: 1.01E7
     name: Taibu State Bajo
     published: false
     volume: 101000.0
   Taibu State Daimyo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25078
     mass: 1.01E7
     name: Taibu State Daimyo
     published: false
     volume: 101000.0
   Taibu State Kanpaku:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25080
     mass: 1.01E7
     name: Taibu State Kanpaku
     published: false
     volume: 101000.0
   Taibu State Oni:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25079
     mass: 1.01E7
     name: Taibu State Oni
     published: false
     volume: 101000.0
   Taibu State Samurai:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25082
     mass: 1.01E7
     name: Taibu State Samurai
     published: false
     volume: 101000.0
   Taibu State Shugo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25077
     mass: 1.01E7
     name: Taibu State Shugo
     published: false
     volume: 101000.0
   Taibu State Sohei:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25076
     mass: 1.01E7
     name: Taibu State Sohei
     published: false
     volume: 101000.0
   Taibu State Tendai:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25075
     mass: 1.01E7
     name: Taibu State Tendai

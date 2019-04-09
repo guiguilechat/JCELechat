@@ -1,71 +1,143 @@
 items:
   Dread Pithatis Assassin:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24190
     mass: 1.01E7
     name: Dread Pithatis Assassin
     published: false
     volume: 101000.0
   Dread Pithatis Assaulter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24189
     mass: 1.01E7
     name: Dread Pithatis Assaulter
     published: false
     volume: 101000.0
   Dread Pithatis Death Dealer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24191
     mass: 1.01E7
     name: Dread Pithatis Death Dealer
     published: false
     volume: 101000.0
   Dread Pithatis Enforcer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24188
     mass: 1.01E7
     name: Dread Pithatis Enforcer
     published: false
     volume: 101000.0
   Dread Pithatis Executor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24187
     mass: 1.01E7
     name: Dread Pithatis Executor
     published: false
     volume: 101000.0
   Dread Pithatis Revolter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24192
     mass: 1.01E7
     name: Dread Pithatis Revolter
     published: false
     volume: 101000.0
   Pithatis Assassin:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24016
     mass: 1.01E7
     name: Pithatis Assassin
     published: false
     volume: 101000.0
   Pithatis Assaulter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24015
     mass: 1.01E7
     name: Pithatis Assaulter
     published: false
     volume: 101000.0
   Pithatis Death Dealer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24017
     mass: 1.01E7
     name: Pithatis Death Dealer
     published: false
     volume: 101000.0
   Pithatis Enforcer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24014
     mass: 1.01E7
     name: Pithatis Enforcer
     published: false
     volume: 101000.0
   Pithatis Executor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24001
     mass: 1.01E7
     name: Pithatis Executor
     published: false
     volume: 101000.0
   Pithatis Revolter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24018
     mass: 1.01E7
     name: Pithatis Revolter

@@ -1,11 +1,23 @@
 items:
   Amarr Navy Apocalypse:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 35812
     mass: 9.71E7
     name: Amarr Navy Apocalypse
     published: false
     volume: 495000.0
   Amarr Navy Armageddon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 35816
     mass: 2.05E7
     name: Amarr Navy Armageddon

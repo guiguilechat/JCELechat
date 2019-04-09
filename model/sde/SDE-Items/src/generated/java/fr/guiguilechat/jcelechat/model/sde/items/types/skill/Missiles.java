@@ -60,6 +60,13 @@ public class Missiles
     @DefaultDoubleValue(0.0)
     public double MissileVelocityBonus;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ReactivationDelayBonus;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -115,6 +122,10 @@ public class Missiles
             case  547 :
             {
                 return MissileVelocityBonus;
+            }
+            case  2807 :
+            {
+                return ReactivationDelayBonus;
             }
             case  183 :
             {

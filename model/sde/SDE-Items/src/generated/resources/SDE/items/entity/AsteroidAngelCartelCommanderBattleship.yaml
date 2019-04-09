@@ -1,59 +1,119 @@
 items:
   Domination Cherubim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22873
     mass: 1.9E7
     name: Domination Cherubim
     published: false
     volume: 1.9E7
   Domination Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13535
     mass: 1.9E7
     name: Domination Commander
     published: false
     volume: 1.9E7
   Domination General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13537
     mass: 1.9E7
     name: Domination General
     published: false
     volume: 1.9E7
   Domination Malakim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22871
     mass: 1.9E7
     name: Domination Malakim
     published: false
     volume: 1.9E7
   Domination Nephilim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13542
     mass: 1.9E7
     name: Domination Nephilim
     published: false
     volume: 1.9E7
   Domination Saint:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13540
     mass: 1.9E7
     name: Domination Saint
     published: false
     volume: 1.9E7
   Domination Seraphim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22874
     mass: 1.9E7
     name: Domination Seraphim
     published: false
     volume: 1.9E7
   Domination Throne:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22872
     mass: 1.9E7
     name: Domination Throne
     published: false
     volume: 1.9E7
   Domination War General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13539
     mass: 1.9E7
     name: Domination War General
     published: false
     volume: 1.9E7
   Domination Warlord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13543
     mass: 1.9E7
     name: Domination Warlord

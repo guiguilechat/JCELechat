@@ -1,41 +1,83 @@
 items:
   Dismantler Alvior:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23480
     mass: 100000.0
     name: Dismantler Alvior
     published: false
     volume: 60.0
   Marauder Alvior:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23479
     mass: 100000.0
     name: Marauder Alvior
     published: false
     volume: 60.0
   Predator Alvior:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23478
     mass: 100000.0
     name: Predator Alvior
     published: false
     volume: 60.0
   Ripper Alvior:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23476
     mass: 100000.0
     name: Ripper Alvior
     published: false
     volume: 60.0
   Shatter Alvior:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23475
     mass: 100000.0
     name: Shatter Alvior
     published: false
     volume: 60.0
   Shredder Alvior:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23477
     mass: 100000.0
     name: Shredder Alvior
     published: false
     volume: 60.0
   Unidentified Spacecraft:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29215
     mass: 100000.0
     name: Unidentified Spacecraft

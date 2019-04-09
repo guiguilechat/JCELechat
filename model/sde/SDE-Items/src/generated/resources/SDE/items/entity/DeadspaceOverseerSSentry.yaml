@@ -1,145 +1,295 @@
 items:
   '''True Power'' Assembly Security HQ':
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 19955
     mass: 1000.0
     name: '''True Power'' Assembly Security HQ'
     published: false
     volume: 1000.0
   Angel Central Command:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25524
     name: Angel Central Command
     published: false
   Angel Fleet Outpost:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28998
     name: Angel Fleet Outpost
     published: false
   Angel Retention Facility:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18631
     mass: 1000.0
     name: Angel Retention Facility
     published: false
     volume: 1000.0
   Blood Raider Central Bastion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3795
     mass: 1000.0
     name: Blood Raider Central Bastion
     published: false
     volume: 1000.0
   Blood Raider Fleet Outpost:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29022
     mass: 1000.0
     name: Blood Raider Fleet Outpost
     published: false
     volume: 1000.0
   Blood Raider Fleet Stronghold:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25559
     mass: 1000.0
     name: Blood Raider Fleet Stronghold
     published: false
     volume: 1000.0
   Crimson Sentinel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17993
     mass: 1000.0
     name: Crimson Sentinel
     published: false
     volume: 1000.0
   Drone Creation Compound:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25472
     mass: 100000.0
     name: Drone Creation Compound
     published: false
     volume: 1.0E8
   Guristas Fleet Outpost:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29021
     mass: 1000.0
     name: Guristas Fleet Outpost
     published: false
     volume: 1000.0
   Guristas Fleet Stronghold:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25528
     mass: 1000.0
     name: Guristas Fleet Stronghold
     published: false
     volume: 1000.0
   Hive mother 2_Complex:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26275
     mass: 1000.0
     name: Hive mother 2_Complex
     published: false
     volume: 1000.0
   Kois City:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25809
     mass: 1000.0
     name: Kois City
     published: false
     volume: 1000.0
   Kuari Strain Mother:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28510
     mass: 1000.0
     name: Kuari Strain Mother
     published: false
     volume: 1000.0
   Outgrowth Strain Mother:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 19707
     mass: 1000.0
     name: Outgrowth Strain Mother
     published: false
     volume: 1000.0
   Outgrowth Strain Mother_00COSMOS:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25805
     mass: 1000.0
     name: Outgrowth Strain Mother_00COSMOS
     published: false
     volume: 1000.0
   Rakogh Citadel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25866
     mass: 1000.0
     name: Rakogh Citadel
     published: false
     volume: 1000.0
   Sansha Fleet Outpost:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29023
     mass: 1000.0
     name: Sansha Fleet Outpost
     published: false
     volume: 1000.0
   Sansha's Nation Central Bastion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3805
     mass: 1000.0
     name: Sansha's Nation Central Bastion
     published: false
     volume: 1000.0
   Serpentis Administration Facility:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3809
     mass: 1000.0
     name: Serpentis Administration Facility
     published: false
     volume: 1000.0
   Serpentis Fleet Outpost:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29020
     mass: 1000.0
     name: Serpentis Fleet Outpost
     published: false
     volume: 1000.0
   Serpentis Fleet Stronghold:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18630
     mass: 1000.0
     name: Serpentis Fleet Stronghold
     published: false
     volume: 1000.0
   Station Ultima:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 19961
     mass: 1000.0
     name: Station Ultima
     published: false
     volume: 1000.0
   Swarm Defense Battery:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 19703
     mass: 1000.0
     name: Swarm Defense Battery
     published: false
     volume: 1000.0
   Swarm Defense Battery Deluxe:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28508
     mass: 1000.0
     name: Swarm Defense Battery Deluxe

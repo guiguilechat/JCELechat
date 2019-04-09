@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses;
 
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_fittings_flag;
+
 public class R_get_characters_character_id_fittings_items {
     /**
-     * flag integer
+     * flag string
      */
-    public int flag;
+    public get_characters_character_id_fittings_flag flag;
     /**
      * quantity integer
      */
@@ -23,7 +25,7 @@ public class R_get_characters_character_id_fittings_items {
             return false;
         }
         R_get_characters_character_id_fittings_items othersame = ((R_get_characters_character_id_fittings_items) other);
-        if (flag!= othersame.flag) {
+        if ((flag!= othersame.flag)&&((flag == null)||(!flag.equals(othersame.flag)))) {
             return false;
         }
         if (quantity!= othersame.quantity) {
@@ -36,6 +38,6 @@ public class R_get_characters_character_id_fittings_items {
     }
 
     public int hashCode() {
-        return ((flag + quantity)+ type_id);
+        return ((((flag == null)? 0 :flag.hashCode())+ quantity)+ type_id);
     }
 }

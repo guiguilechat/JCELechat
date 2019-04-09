@@ -1,35 +1,71 @@
 items:
   Serpentis Artillery:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23428
     mass: 2650000.0
     name: Serpentis Artillery
     published: false
     volume: 26500.0
   Serpentis Cannoneer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23427
     mass: 2650000.0
     name: Serpentis Cannoneer
     published: false
     volume: 26500.0
   Serpentis Infantry:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23425
     mass: 2650000.0
     name: Serpentis Infantry
     published: false
     volume: 26500.0
   Serpentis Sentinel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23426
     mass: 2650000.0
     name: Serpentis Sentinel
     published: false
     volume: 26500.0
   Serpentis Soldier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23424
     mass: 2650000.0
     name: Serpentis Soldier
     published: false
     volume: 26500.0
   Serpentis Trooper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23423
     mass: 2650000.0
     name: Serpentis Trooper

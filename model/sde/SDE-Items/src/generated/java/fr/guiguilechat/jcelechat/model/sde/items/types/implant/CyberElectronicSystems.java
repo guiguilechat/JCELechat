@@ -45,6 +45,13 @@ public class CyberElectronicSystems
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    /**
+     * Warp Scramble Range Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int WarpScrambleRangeBonus;
     public static final CyberElectronicSystems.MetaGroup METAGROUP = new CyberElectronicSystems.MetaGroup();
 
     @Override
@@ -65,6 +72,10 @@ public class CyberElectronicSystems
             case  422 :
             {
                 return TechLevel;
+            }
+            case  1327 :
+            {
+                return WarpScrambleRangeBonus;
             }
             default:
             {

@@ -1,5 +1,11 @@
 items:
   November Hulk:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48969
     mass: 2.5E8
     name: November Hulk

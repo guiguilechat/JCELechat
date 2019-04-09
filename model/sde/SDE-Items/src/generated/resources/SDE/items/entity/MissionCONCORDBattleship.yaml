@@ -1,35 +1,71 @@
 items:
   CONCORD Starship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16615
     mass: 2.05E7
     name: CONCORD Starship
     published: false
     volume: 1080000.0
   CONCORD Starship Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 33806
     mass: 2.05E7
     name: CONCORD Starship Vessel
     published: false
     volume: 1080000.0
   CONCORD ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16616
     mass: 2.05E7
     name: CONCORD ship
     published: false
     volume: 1080000.0
   Concord Battleship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29228
     mass: 2.05E7
     name: Concord Battleship
     published: false
     volume: 1080000.0
   DED Army Colonel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16116
     mass: 2.05E7
     name: DED Army Colonel
     published: false
     volume: 1080000.0
   DED Army General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16117
     mass: 2.05E7
     name: DED Army General

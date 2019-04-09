@@ -113,6 +113,7 @@ items:
     volume: 10.0
   Hiemal Tricarboxyl Vapor:
     id: 49787
+    marketGroup: 518
     name: Hiemal Tricarboxyl Vapor
     published: true
     volume: 10.0

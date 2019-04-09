@@ -1,20 +1,7 @@
 items:
-  '''Absolute'' Injection Augmentor':
-    BoosterDuration: 57600000
-    BoosterLastInjectionDatetime: 17903.458984375
-    Boosterness: 14
-    FollowsJumpClones: 1
-    NonDiminishingSkillInjectorUses: 3
-    Nondestructible: 1
-    SocialBonus: 100
-    id: 49979
-    marketGroup: 2531
-    name: '''Absolute'' Injection Augmentor'
-    published: true
-    volume: 1.0
-  Advanced 'Brainfreeze' Cerebral Accelerator:
+  Advanced 'Ardour' Cerebral Accelerator:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17911.458984375
+    BoosterLastInjectionDatetime: 17967.458984375
     Boosterness: 10
     CharismaBonus: 12
     FollowsJumpClones: 1
@@ -27,9 +14,9 @@ items:
     RequiredSkill1Level: 1
     SocialBonus: 100
     WillpowerBonus: 12
-    id: 48615
+    id: 50009
     marketGroup: 2487
-    name: Advanced 'Brainfreeze' Cerebral Accelerator
+    name: Advanced 'Ardour' Cerebral Accelerator
     published: true
     volume: 1.0
   Advanced Cerebral Accelerator:
@@ -269,9 +256,9 @@ items:
     name: Antipharmakon Toxot
     published: true
     volume: 1.0
-  Basic 'Brainfreeze' Cerebral Accelerator:
+  Basic 'Ardour' Cerebral Accelerator:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17911.458984375
+    BoosterLastInjectionDatetime: 17967.458984375
     Boosterness: 10
     CharismaBonus: 6
     FollowsJumpClones: 1
@@ -284,9 +271,21 @@ items:
     RequiredSkill1Level: 1
     SocialBonus: 100
     WillpowerBonus: 6
-    id: 48613
+    id: 50007
     marketGroup: 2487
-    name: Basic 'Brainfreeze' Cerebral Accelerator
+    name: Basic 'Ardour' Cerebral Accelerator
+    published: true
+    volume: 1.0
+  Expired 'Absolute' Injection Augmentor:
+    BoosterDuration: 57600000
+    BoosterLastInjectionDatetime: 17903.458984375
+    Boosterness: 14
+    FollowsJumpClones: 1
+    NonDiminishingSkillInjectorUses: 3
+    Nondestructible: 1
+    SocialBonus: 100
+    id: 49979
+    name: Expired 'Absolute' Injection Augmentor
     published: true
     volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
@@ -429,9 +428,9 @@ items:
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
     published: true
     volume: 1.0
-  Extended 'Brainfreeze' Cerebral Accelerator:
+  Extended 'Ardour' Cerebral Accelerator:
     BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17911.458984375
+    BoosterLastInjectionDatetime: 17967.458984375
     Boosterness: 10
     CharismaBonus: 10
     FollowsJumpClones: 1
@@ -444,9 +443,9 @@ items:
     RequiredSkill1Level: 1
     SocialBonus: 100
     WillpowerBonus: 10
-    id: 48616
+    id: 50010
     marketGroup: 2487
-    name: Extended 'Brainfreeze' Cerebral Accelerator
+    name: Extended 'Ardour' Cerebral Accelerator
     published: true
     volume: 1.0
   Impetus Potency-50 Glamourex Booster:
@@ -745,9 +744,9 @@ items:
     name: Quafe Zero
     published: true
     volume: 1.0
-  Standard 'Brainfreeze' Cerebral Accelerator:
+  Standard 'Ardour' Cerebral Accelerator:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17911.458984375
+    BoosterLastInjectionDatetime: 17967.458984375
     Boosterness: 10
     CharismaBonus: 10
     FollowsJumpClones: 1
@@ -760,9 +759,9 @@ items:
     RequiredSkill1Level: 1
     SocialBonus: 100
     WillpowerBonus: 10
-    id: 48614
+    id: 50008
     marketGroup: 2487
-    name: Standard 'Brainfreeze' Cerebral Accelerator
+    name: Standard 'Ardour' Cerebral Accelerator
     published: true
     volume: 1.0
   Standard Blue Pill Booster:

@@ -1484,6 +1484,12 @@ items:
     name: Avatar EoM SKIN (Permanent)
     published: true
     volume: 0.01
+  Avatar Eros Blossom SKIN (Permanent):
+    id: 50071
+    marketGroup: 1978
+    name: Avatar Eros Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Avatar Exoplanets Hunter SKIN (Permanent):
     id: 45803
     marketGroup: 1978
@@ -1700,6 +1706,12 @@ items:
     id: 48724
     marketGroup: 2078
     name: Basilisk Emergency Response Squad SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Basilisk Eros Blossom SKIN (Permanent):
+    id: 50075
+    marketGroup: 2078
+    name: Basilisk Eros Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Basilisk Exoplanets Hunter SKIN (Permanent):
@@ -3237,6 +3249,12 @@ items:
     name: Confessor Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Confessor Eros Blossom SKIN (Permanent):
+    id: 50069
+    marketGroup: 2310
+    name: Confessor Eros Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Confessor Exoplanets Hunter SKIN (Permanent):
     id: 45773
     marketGroup: 2310
@@ -4050,6 +4068,12 @@ items:
     name: Deacon Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Deimos Eros Blossom SKIN (Permanent):
+    id: 50077
+    marketGroup: 2071
+    name: Deimos Eros Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Deimos Exoplanets Hunter SKIN (Permanent):
     id: 45896
     marketGroup: 2071
@@ -4574,6 +4598,12 @@ items:
     name: Eagle Cordite Blossom SKIN (Permanent)
     published: true
     volume: 0.01
+  Eagle Eros Blossom SKIN (Permanent):
+    id: 50074
+    marketGroup: 2070
+    name: Eagle Eros Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Eagle Exoplanets Hunter SKIN (Permanent):
     id: 45838
     marketGroup: 2070
@@ -4907,6 +4937,12 @@ items:
   Erebus Duvolle Serenity Only SKIN (Permanent):
     id: 38140
     name: Erebus Duvolle Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Erebus Eros Blossom SKIN (Permanent):
+    id: 50079
+    marketGroup: 1979
+    name: Erebus Eros Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Erebus Exoplanets Hunter SKIN (Permanent):
@@ -7345,6 +7381,12 @@ items:
     name: Ishtar Kopis Edge SKIN (Permanent)
     published: true
     volume: 0.01
+  Ishtar Police SKIN (Permanent):
+    id: 50003
+    marketGroup: 2071
+    name: Ishtar Police SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ishtar Ruby Sungrazer SKIN (Permanent):
     id: 45567
     marketGroup: 2071
@@ -7965,6 +8007,12 @@ items:
     name: Leviathan Capsuleer Elite XV SKIN (Permanent)
     published: true
     volume: 0.01
+  Leviathan Eros Blossom SKIN (Permanent):
+    id: 50076
+    marketGroup: 2092
+    name: Leviathan Eros Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Leviathan Exoplanets Hunter SKIN (Permanent):
     id: 45862
     marketGroup: 2092
@@ -8083,6 +8131,12 @@ items:
     id: 46901
     marketGroup: 2373
     name: Loki Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Machariel Amaranthine Mantle SKIN (Permanent):
+    id: 50035
+    marketGroup: 1963
+    name: Machariel Amaranthine Mantle SKIN (Permanent)
     published: true
     volume: 0.01
   Machariel Angel's Hex SKIN (Permanent):
@@ -10053,6 +10107,12 @@ items:
     name: Nyx Dos Rouvenor's Bequest SKIN (Permanent)
     published: true
     volume: 0.01
+  Nyx Eros Blossom SKIN (Permanent):
+    id: 50078
+    marketGroup: 1976
+    name: Nyx Eros Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nyx Exoplanets Hunter SKIN (Permanent):
     id: 45920
     marketGroup: 1976
@@ -10098,6 +10158,12 @@ items:
     id: 46432
     marketGroup: 1976
     name: Nyx Kopis Edge SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Nyx Police SKIN (Permanent):
+    id: 50004
+    marketGroup: 1976
+    name: Nyx Police SKIN (Permanent)
     published: true
     volume: 0.01
   Nyx Quafe SKIN (Permanent):
@@ -11007,6 +11073,12 @@ items:
     id: 48517
     marketGroup: 2113
     name: Panther Dawn of Liberation SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Panther Eros Blossom SKIN (Permanent):
+    id: 50084
+    marketGroup: 2113
+    name: Panther Eros Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Panther Exoplanets Hunter SKIN (Permanent):
@@ -12039,6 +12111,12 @@ items:
     name: Ragnarok Chainbreaker Khumaak SKIN (Permanent)
     published: true
     volume: 0.01
+  Ragnarok Eros Blossom SKIN (Permanent):
+    id: 50085
+    marketGroup: 2093
+    name: Ragnarok Eros Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ragnarok Exoplanets Hunter SKIN (Permanent):
     id: 45983
     marketGroup: 2093
@@ -12397,6 +12475,12 @@ items:
     id: 36311
     marketGroup: 2110
     name: Redeemer EoM SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Redeemer Eros Blossom SKIN (Permanent):
+    id: 50070
+    marketGroup: 2110
+    name: Redeemer Eros Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Redeemer Exoplanets Hunter SKIN (Permanent):
@@ -13189,6 +13273,12 @@ items:
     id: 48838
     marketGroup: 2041
     name: Sabre Cordite Blossom SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sabre Eros Blossom SKIN (Permanent):
+    id: 50083
+    marketGroup: 2041
+    name: Sabre Eros Blossom SKIN (Permanent)
     published: true
     volume: 0.01
   Sabre Exoplanets Hunter SKIN (Permanent):
@@ -14284,6 +14374,12 @@ items:
     name: Taipan Hostile Takeover SKIN (Permanent)
     published: true
     volume: 0.01
+  Talos Amaranthine Mantle SKIN (Permanent):
+    id: 50031
+    marketGroup: 1958
+    name: Talos Amaranthine Mantle SKIN (Permanent)
+    published: true
+    volume: 0.01
   Talos Duvolle SKIN (Permanent):
     id: 34616
     marketGroup: 1958
@@ -15047,6 +15143,12 @@ items:
   Tormentor Sarum Serenity Only SKIN (Permanent):
     id: 37952
     name: Tormentor Sarum Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Tornado Amaranthine Mantle SKIN (Permanent):
+    id: 50033
+    marketGroup: 1959
+    name: Tornado Amaranthine Mantle SKIN (Permanent)
     published: true
     volume: 0.01
   Tornado Bloody Hands SKIN (Permanent):
@@ -15816,6 +15918,12 @@ items:
     name: Vexor Navy Issue Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
+  Vexor Police SKIN (Permanent):
+    id: 50002
+    marketGroup: 1992
+    name: Vexor Police SKIN (Permanent)
+    published: true
+    volume: 0.01
   Vexor Quafe SKIN (Permanent):
     id: 34696
     marketGroup: 1992
@@ -16019,6 +16127,12 @@ items:
   Vigilant Serenity Splatter (Thorax) SKIN (Permanent):
     id: 49456
     name: Vigilant Serenity Splatter (Thorax) SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vindicator Amaranthine Mantle SKIN (Permanent):
+    id: 50034
+    marketGroup: 1963
+    name: Vindicator Amaranthine Mantle SKIN (Permanent)
     published: true
     volume: 0.01
   Vindicator Angel's Hex SKIN (Permanent):

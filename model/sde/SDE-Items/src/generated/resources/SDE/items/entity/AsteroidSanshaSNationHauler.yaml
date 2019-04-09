@@ -1,71 +1,143 @@
 items:
   Sansha's Bulker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13730
     mass: 1.001E7
     name: Sansha's Bulker
     published: false
     volume: 100100.0
   Sansha's Carrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13726
     mass: 1.001E7
     name: Sansha's Carrier
     published: false
     volume: 100100.0
   Sansha's Convoy:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13727
     mass: 1.001E7
     name: Sansha's Convoy
     published: false
     volume: 100100.0
   Sansha's Courier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13733
     mass: 1.001E7
     name: Sansha's Courier
     published: false
     volume: 100100.0
   Sansha's Ferrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13735
     mass: 2112000.0
     name: Sansha's Ferrier
     published: false
     volume: 21120.0
   Sansha's Gatherer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13736
     mass: 2112000.0
     name: Sansha's Gatherer
     published: false
     volume: 21120.0
   Sansha's Harvester:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13737
     mass: 2112000.0
     name: Sansha's Harvester
     published: false
     volume: 21120.0
   Sansha's Hauler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13729
     mass: 1.001E7
     name: Sansha's Hauler
     published: false
     volume: 100100.0
   Sansha's Loader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13734
     mass: 2112000.0
     name: Sansha's Loader
     published: false
     volume: 21120.0
   Sansha's Trailer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13728
     mass: 1.001E7
     name: Sansha's Trailer
     published: false
     volume: 100100.0
   Sansha's Transporter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13731
     mass: 1.001E7
     name: Sansha's Transporter
     published: false
     volume: 100100.0
   Sansha's Trucker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13732
     mass: 1.001E7
     name: Sansha's Trucker

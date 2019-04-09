@@ -1,215 +1,431 @@
 items:
   Angel Cartel Personnel Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16165
     mass: 8.9E7
     name: Angel Cartel Personnel Transport
     published: false
     volume: 890000.0
   Angel Cartel Transport Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11719
     mass: 8.9E7
     name: Angel Cartel Transport Ship
     published: false
     volume: 890000.0
   Angel Cruiser Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32401
     mass: 1.01E7
     name: Angel Cruiser Vessel
     published: false
     volume: 101000.0
   Angel Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26752
     mass: 1.09E7
     name: Angel Transport
     published: false
     volume: 109000.0
   Arch Gistum Breaker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24117
     mass: 1.09E7
     name: Arch Gistum Breaker
     published: false
     volume: 109000.0
   Arch Gistum Centurion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24122
     mass: 1.09E7
     name: Arch Gistum Centurion
     published: false
     volume: 109000.0
   Arch Gistum Crusher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24116
     mass: 1.09E7
     name: Arch Gistum Crusher
     published: false
     volume: 109000.0
   Arch Gistum Defeater:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24118
     mass: 1.09E7
     name: Arch Gistum Defeater
     published: false
     volume: 109000.0
   Arch Gistum Depredator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24113
     mass: 1.09E7
     name: Arch Gistum Depredator
     published: false
     volume: 109000.0
   Arch Gistum Liquidator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24120
     mass: 1.09E7
     name: Arch Gistum Liquidator
     published: false
     volume: 109000.0
   Arch Gistum Marauder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24119
     mass: 1.09E7
     name: Arch Gistum Marauder
     published: false
     volume: 109000.0
   Arch Gistum Phalanx:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24121
     mass: 1.09E7
     name: Arch Gistum Phalanx
     published: false
     volume: 109000.0
   Arch Gistum Predator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24114
     mass: 1.09E7
     name: Arch Gistum Predator
     published: false
     volume: 109000.0
   Arch Gistum Smasher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24115
     mass: 1.09E7
     name: Arch Gistum Smasher
     published: false
     volume: 109000.0
   Gistum Breaker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16889
     mass: 1.09E7
     name: Gistum Breaker
     published: false
     volume: 109000.0
   Gistum Centurion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24112
     mass: 1.09E7
     name: Gistum Centurion
     published: false
     volume: 109000.0
   Gistum Crusher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16880
     mass: 1.09E7
     name: Gistum Crusher
     published: false
     volume: 109000.0
   Gistum Defeater:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16898
     mass: 1.09E7
     name: Gistum Defeater
     published: false
     volume: 109000.0
   Gistum Depredator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16875
     mass: 9900000.0
     name: Gistum Depredator
     published: false
     volume: 99000.0
   Gistum Domination Breaker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16915
     mass: 1.09E7
     name: Gistum Domination Breaker
     published: false
     volume: 109000.0
   Gistum Domination Centurion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16920
     mass: 1.09E7
     name: Gistum Domination Centurion
     published: false
     volume: 109000.0
   Gistum Domination Crusher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16909
     mass: 1.09E7
     name: Gistum Domination Crusher
     published: false
     volume: 109000.0
   Gistum Domination Defeater:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16916
     mass: 1.09E7
     name: Gistum Domination Defeater
     published: false
     volume: 109000.0
   Gistum Domination Depredator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16906
     mass: 9900000.0
     name: Gistum Domination Depredator
     published: false
     volume: 99000.0
   Gistum Domination Liquidator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16919
     mass: 1.09E7
     name: Gistum Domination Liquidator
     published: false
     volume: 109000.0
   Gistum Domination Marauder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16917
     mass: 1.09E7
     name: Gistum Domination Marauder
     published: false
     volume: 109000.0
   Gistum Domination Phalanx:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16918
     mass: 1.09E7
     name: Gistum Domination Phalanx
     published: false
     volume: 109000.0
   Gistum Domination Predator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16912
     mass: 9900000.0
     name: Gistum Domination Predator
     published: false
     volume: 99000.0
   Gistum Domination Smasher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16910
     mass: 1.09E7
     name: Gistum Domination Smasher
     published: false
     volume: 109000.0
   Gistum Liquidator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16896
     mass: 1.09E7
     name: Gistum Liquidator
     published: false
     volume: 109000.0
   Gistum Marauder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16891
     mass: 1.09E7
     name: Gistum Marauder
     published: false
     volume: 109000.0
   Gistum Phalanx:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24111
     mass: 1.09E7
     name: Gistum Phalanx
     published: false
     volume: 109000.0
   Gistum Predator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16884
     mass: 9900000.0
     name: Gistum Predator
     published: false
     volume: 99000.0
   Gistum Smasher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16881
     mass: 1.09E7
     name: Gistum Smasher
     published: false
     volume: 109000.0
   Renegade Angel Goon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 14345
     mass: 1.09E7
     name: Renegade Angel Goon
     published: false
     volume: 109000.0
   Society of Conscious Thought Cruiser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30743
     mass: 1.09E7
     name: Society of Conscious Thought Cruiser

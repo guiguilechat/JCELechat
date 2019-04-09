@@ -1,4 +1,20 @@
 items:
+  GalaFacAugF:
+    Gender: 2
+    id: 50038
+    marketGroup: 1836
+    mass: 0.5
+    name: GalaFacAugF
+    published: true
+    volume: 0.1
+  GalaFacAugM:
+    Gender: 2
+    id: 50037
+    marketGroup: 1836
+    mass: 0.5
+    name: GalaFacAugM
+    published: true
+    volume: 0.1
   Men's 'Barbatus Glimmer' Facial Augmentation:
     Gender: 2
     id: 49683
@@ -135,6 +151,14 @@ items:
     name: Men's 'Wirepoise' Facial Augmentation
     published: true
     volume: 0.1
+  Men's Amaranthine Divide Facial Augmentation:
+    Gender: 2
+    id: 50051
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's Amaranthine Divide Facial Augmentation
+    published: true
+    volume: 0.1
   Women's 'Bitwave Glacier' Augmentation:
     Gender: 2
     id: 49984
@@ -269,5 +293,13 @@ items:
     marketGroup: 1836
     mass: 0.1
     name: Women's 'Waveform' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's Amaranthine Divide Facial Augmentation:
+    Gender: 2
+    id: 50052
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's Amaranthine Divide Facial Augmentation
     published: true
     volume: 0.1

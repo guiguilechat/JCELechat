@@ -1,299 +1,599 @@
 items:
   Elite Federation Arcus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25143
     mass: 2650000.0
     name: Elite Federation Arcus
     published: false
     volume: 26500.0
   Elite Federation Insidiator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25141
     mass: 2650000.0
     name: Elite Federation Insidiator
     published: false
     volume: 26500.0
   Elite Federation Libertus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25140
     mass: 2650000.0
     name: Elite Federation Libertus
     published: false
     volume: 26500.0
   Elite Federation Lixa:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25137
     mass: 2300000.0
     name: Elite Federation Lixa
     published: false
     volume: 23000.0
   Elite Federation Lochos:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25138
     mass: 2300000.0
     name: Elite Federation Lochos
     published: false
     volume: 23000.0
   Elite Federation Machina:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25146
     mass: 2650000.0
     name: Elite Federation Machina
     published: false
     volume: 26500.0
   Elite Federation Manica:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25139
     mass: 2650000.0
     name: Elite Federation Manica
     published: false
     volume: 26500.0
   Elite Federation Matara:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25142
     mass: 2650000.0
     name: Elite Federation Matara
     published: false
     volume: 26500.0
   Elite Federation Pelekus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25144
     mass: 2650000.0
     name: Elite Federation Pelekus
     published: false
     volume: 26500.0
   Elite Federation Phalarica:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25145
     mass: 2650000.0
     name: Elite Federation Phalarica
     published: false
     volume: 26500.0
   Federation Clavis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25103
     mass: 2450000.0
     name: Federation Clavis
     published: false
     volume: 24500.0
   Federation Hastile:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25105
     mass: 2250000.0
     name: Federation Hastile
     published: false
     volume: 22500.0
   Federation Hoplon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25107
     mass: 2250000.0
     name: Federation Hoplon
     published: false
     volume: 22500.0
   Federation Insidiator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25116
     mass: 2300000.0
     name: Federation Insidiator
     published: false
     volume: 23000.0
   Federation Kontos:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25106
     mass: 2500000.0
     name: Federation Kontos
     published: false
     volume: 25000.0
   Federation Kopis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25124
     mass: 2250000.0
     name: Federation Kopis
     published: false
     volume: 22500.0
   Federation Libertus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25112
     mass: 2950000.0
     name: Federation Libertus
     published: false
     volume: 29500.0
   Federation Manica:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25110
     mass: 2950000.0
     name: Federation Manica
     published: false
     volume: 29500.0
   Federation Navy Atron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 14361
     mass: 1200000.0
     name: Federation Navy Atron
     published: false
     volume: 22500.0
   Federation Navy Delta I Support Frigate:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15991
     mass: 2300000.0
     name: Federation Navy Delta I Support Frigate
     published: false
     volume: 23000.0
   Federation Navy Delta II Support Frigate:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15989
     mass: 2300000.0
     name: Federation Navy Delta II Support Frigate
     published: false
     volume: 23000.0
   Federation Navy Elite Soldier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15580
     mass: 2040000.0
     name: Federation Navy Elite Soldier
     published: false
     volume: 20400.0
   Federation Navy Gamma I Support Frigate:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15990
     mass: 2650000.0
     name: Federation Navy Gamma I Support Frigate
     published: false
     volume: 26500.0
   Federation Navy Gamma II Support Frigate:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15988
     mass: 2300000.0
     name: Federation Navy Gamma II Support Frigate
     published: false
     volume: 23000.0
   Federation Navy Maulus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 14481
     mass: 1400000.0
     name: Federation Navy Maulus
     published: false
     volume: 23000.0
   Federation Navy Officer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13112
     mass: 1.09E7
     name: Federation Navy Officer
     published: false
     volume: 109000.0
   Federation Navy Scout:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11666
     mass: 1910000.0
     name: Federation Navy Scout
     published: false
     volume: 19100.0
   Federation Navy Soldier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 14353
     mass: 2040000.0
     name: Federation Navy Soldier
     published: false
     volume: 20400.0
   Federation Navy Squad Leader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15345
     mass: 1250000.0
     name: Federation Navy Squad Leader
     published: false
     volume: 26500.0
   Federation Praktor Balra:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25117
     mass: 2300000.0
     name: Federation Praktor Balra
     published: false
     volume: 23000.0
   Federation Praktor Belos:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25118
     mass: 2650000.0
     name: Federation Praktor Belos
     published: false
     volume: 26500.0
   Federation Praktor Harpago:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25120
     mass: 2650000.0
     name: Federation Praktor Harpago
     published: false
     volume: 26500.0
   Gallente CA Frigate:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 45464
     mass: 1028000.0
     name: Gallente CA Frigate
     published: false
     volume: 29500.0
   Gallente Miner:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21840
     mass: 1200000.0
     name: Gallente Miner
     published: false
     volume: 22500.0
   Gallente Spy Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22706
     mass: 100000.0
     name: Gallente Spy Drone
     published: false
     volume: 60.0
   Independent Atron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29866
     mass: 2650000.0
     name: Independent Atron
     published: false
     volume: 26500.0
   Independent Green-Crewed Atron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29831
     mass: 2250000.0
     name: Independent Green-Crewed Atron
     published: false
     volume: 22500.0
   Independent Green-Crewed Imicus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29859
     mass: 2250000.0
     name: Independent Green-Crewed Imicus
     published: false
     volume: 22500.0
   Independent Green-Crewed Incursus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29863
     mass: 2250000.0
     name: Independent Green-Crewed Incursus
     published: false
     volume: 22500.0
   Independent Green-Crewed Maulus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29864
     mass: 2250000.0
     name: Independent Green-Crewed Maulus
     published: false
     volume: 22500.0
   Independent Green-Crewed Tristan:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29865
     mass: 2250000.0
     name: Independent Green-Crewed Tristan
     published: false
     volume: 22500.0
   Independent Imicus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29867
     mass: 2650000.0
     name: Independent Imicus
     published: false
     volume: 26500.0
   Independent Incursus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29868
     mass: 2650000.0
     name: Independent Incursus
     published: false
     volume: 26500.0
   Independent Maulus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29869
     mass: 2650000.0
     name: Independent Maulus
     published: false
     volume: 26500.0
   Independent Tristan:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29870
     mass: 2650000.0
     name: Independent Tristan
     published: false
     volume: 26500.0
   Independent Veteran Atron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29871
     mass: 2650000.0
     name: Independent Veteran Atron
     published: false
     volume: 26500.0
   Independent Veteran Imicus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29872
     mass: 2650000.0
     name: Independent Veteran Imicus
     published: false
     volume: 26500.0
   Independent Veteran Incursus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29873
     mass: 2650000.0
     name: Independent Veteran Incursus
     published: false
     volume: 26500.0
   Independent Veteran Maulus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29874
     mass: 2650000.0
     name: Independent Veteran Maulus
     published: false
     volume: 26500.0
   Independent Veteran Tristan:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29875
     mass: 2650000.0
     name: Independent Veteran Tristan

@@ -18,7 +18,7 @@ public class WarpScrambleRangeBonus
 
     @Override
     public int getCatId() {
-        return  7;
+        return  27;
     }
 
     @Override

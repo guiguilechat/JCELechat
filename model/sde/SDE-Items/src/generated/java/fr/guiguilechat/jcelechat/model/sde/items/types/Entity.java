@@ -2,9 +2,14 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
+import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
+import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.AbyssalDroneEntities;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.AbyssalSpaceshipEntities;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.AmarrNavyRoamingBattleship;
@@ -290,7 +295,215 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.entity.TemporaryCloud;
 public abstract class Entity
     extends Item
 {
+    /**
+     * The number of hit points on the entities armor.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ArmorHP;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
+    /**
+     * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowAssistance;
+    /**
+     * The distance from a target an entity starts using its weapons.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(15000)
+    public int EntityAttackRange;
+    /**
+     * The distance outside of which the entity activates their MWD equivalent.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(2500)
+    public int EntityChaseMaxDistance;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityEquipmentMax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityEquipmentMin;
+    /**
+     * The distance at which the entity orbits, follows.. and more.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(500.0)
+    public double EntityFlyRange;
+    /**
+     * The maximum number of pieces of loot dropped by this entity.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityLootCountMax;
+    /**
+     * Deprecated. The minimum number of pieces of loot dropped by this entity.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityLootCountMin;
+    /**
+     * distance from maximum range at which accuracy has fallen by half
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int Falloff;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * Distance below which range does not affect the to-hit equation.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int MaxRange;
+    /**
+     * Amount of maximum shield HP on the item.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
+    /**
+     * Amount of time taken to fully recharge the shield.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldRechargeRate;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * Weapon accuracy
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double TrackingSpeed;
     public static final Entity.MetaCat METACAT = new Entity.MetaCat();
+
+    @Override
+    public Number attribute(Attribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  854 :
+            {
+                return DisallowAssistance;
+            }
+            case  247 :
+            {
+                return EntityAttackRange;
+            }
+            case  665 :
+            {
+                return EntityChaseMaxDistance;
+            }
+            case  457 :
+            {
+                return EntityEquipmentMax;
+            }
+            case  456 :
+            {
+                return EntityEquipmentMin;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  251 :
+            {
+                return EntityLootCountMax;
+            }
+            case  250 :
+            {
+                return EntityLootCountMin;
+            }
+            case  158 :
+            {
+                return Falloff;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            case  160 :
+            {
+                return TrackingSpeed;
+            }
+            default:
+            {
+                return super.attribute((attribute));
+            }
+        }
+    }
 
     @Override
     public IMetaCategory<Entity> getCategory() {

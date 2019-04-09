@@ -1,311 +1,623 @@
 items:
   Amarr CA Cruiser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 45057
     mass: 1.2E7
     name: Amarr CA Cruiser
     published: false
     volume: 120000.0
   Amarr Personnel Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16161
     mass: 1.12E8
     name: Amarr Personnel Transport
     published: false
     volume: 1120000.0
   Amarr Slave Trader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 12048
     mass: 1.18E7
     name: Amarr Slave Trader
     published: false
     volume: 118000.0
   Amarr Slave Transport Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26970
     mass: 1.12E8
     name: Amarr Slave Transport Ship
     published: false
     volume: 1120000.0
   Amarr Slaver Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26969
     mass: 1.12E8
     name: Amarr Slaver Ship
     published: false
     volume: 1120000.0
   Amarr Transport Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11711
     mass: 1.12E8
     name: Amarr Transport Ship
     published: false
     volume: 1120000.0
   Ammatar Navy Augoror:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 12999
     mass: 1.225E7
     name: Ammatar Navy Augoror
     published: false
     volume: 115000.0
   Ammatar Navy Maller:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15323
     mass: 1.275E7
     name: Ammatar Navy Maller
     published: false
     volume: 118000.0
   Ammatar Navy Raid Leader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15352
     mass: 1.225E7
     name: Ammatar Navy Raid Leader
     published: false
     volume: 115000.0
   Ammatar Personnel Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16164
     mass: 1.12E8
     name: Ammatar Personnel Transport
     published: false
     volume: 1120000.0
   Ammatar Slave Trader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 12046
     mass: 1.2E7
     name: Ammatar Slave Trader
     published: false
     volume: 120000.0
   Ammatar Transport Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11713
     mass: 1.12E8
     name: Ammatar Transport Ship
     published: false
     volume: 1120000.0
   Civilian Amarr Cruiser Arbitrator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30733
     mass: 1.2E7
     name: Civilian Amarr Cruiser Arbitrator
     published: false
     volume: 120000.0
   Civilian Amarr Cruiser Augoror:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30734
     mass: 1.2E7
     name: Civilian Amarr Cruiser Augoror
     published: false
     volume: 120000.0
   Civilian Amarr Cruiser Maller:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30735
     mass: 1.2E7
     name: Civilian Amarr Cruiser Maller
     published: false
     volume: 120000.0
   Civilian Amarr Cruiser Omen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30736
     mass: 1.2E7
     name: Civilian Amarr Cruiser Omen
     published: false
     volume: 120000.0
   Divine Imperial Ambrose:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24970
     mass: 1.18E7
     name: Divine Imperial Ambrose
     published: false
     volume: 118000.0
   Divine Imperial Avenger:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24973
     mass: 1.18E7
     name: Divine Imperial Avenger
     published: false
     volume: 118000.0
   Divine Imperial Basil:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24971
     mass: 1.18E7
     name: Divine Imperial Basil
     published: false
     volume: 118000.0
   Divine Imperial Champion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24975
     mass: 1.18E7
     name: Divine Imperial Champion
     published: false
     volume: 118000.0
   Divine Imperial Equalizer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24972
     mass: 1.18E7
     name: Divine Imperial Equalizer
     published: false
     volume: 118000.0
   Divine Imperial Justicar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24974
     mass: 1.18E7
     name: Divine Imperial Justicar
     published: false
     volume: 118000.0
   Divine Imperial Tamir:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24969
     mass: 1.18E7
     name: Divine Imperial Tamir
     published: false
     volume: 118000.0
   Divine Imperial Wrath:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24968
     mass: 1.18E7
     name: Divine Imperial Wrath
     published: false
     volume: 118000.0
   Imperial Agatho:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24941
     mass: 1.18E7
     name: Imperial Agatho
     published: false
     volume: 118000.0
   Imperial Donus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24938
     mass: 1.18E7
     name: Imperial Donus
     published: false
     volume: 118000.0
   Imperial Mathura:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24935
     mass: 1.2E7
     name: Imperial Mathura
     published: false
     volume: 120000.0
   Imperial Muzakir:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24933
     mass: 1.15E7
     name: Imperial Muzakir
     published: false
     volume: 115000.0
   Imperial Navy Maller:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15322
     mass: 1.275E7
     name: Imperial Navy Maller
     published: false
     volume: 118000.0
   Imperial Navy Officer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13107
     mass: 1.09E7
     name: Imperial Navy Officer
     published: false
     volume: 109000.0
   Imperial Navy Omen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 12439
     mass: 1.195E7
     name: Imperial Navy Omen
     published: false
     volume: 118000.0
   Imperial Navy Raid Leader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15350
     mass: 1.225E7
     name: Imperial Navy Raid Leader
     published: false
     volume: 115000.0
   Imperial Tamir:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24940
     mass: 1.18E7
     name: Imperial Tamir
     published: false
     volume: 118000.0
   Imperial Templar Agatho:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24952
     mass: 1.18E7
     name: Imperial Templar Agatho
     published: false
     volume: 118000.0
   Imperial Templar Donus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24947
     mass: 1.18E7
     name: Imperial Templar Donus
     published: false
     volume: 118000.0
   Imperial Templar Mathura:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24944
     mass: 1.18E7
     name: Imperial Templar Mathura
     published: false
     volume: 118000.0
   Imperial Templar Muzakir:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24942
     mass: 1.18E7
     name: Imperial Templar Muzakir
     published: false
     volume: 118000.0
   Imperial Templar Tamir:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24949
     mass: 1.18E7
     name: Imperial Templar Tamir
     published: false
     volume: 118000.0
   Independent Arbitrator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29753
     mass: 1.18E7
     name: Independent Arbitrator
     published: false
     volume: 118000.0
   Independent Augoror:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29754
     mass: 1.18E7
     name: Independent Augoror
     published: false
     volume: 118000.0
   Independent Green-Crewed Arbitrator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29747
     mass: 1.2E7
     name: Independent Green-Crewed Arbitrator
     published: false
     volume: 120000.0
   Independent Green-Crewed Augoror:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29746
     mass: 1.2E7
     name: Independent Green-Crewed Augoror
     published: false
     volume: 120000.0
   Independent Green-Crewed Maller:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29748
     mass: 1.2E7
     name: Independent Green-Crewed Maller
     published: false
     volume: 120000.0
   Independent Green-Crewed Omen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29749
     mass: 1.2E7
     name: Independent Green-Crewed Omen
     published: false
     volume: 120000.0
   Independent Maller:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29755
     mass: 1.18E7
     name: Independent Maller
     published: false
     volume: 118000.0
   Independent Omen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29756
     mass: 1.18E7
     name: Independent Omen
     published: false
     volume: 118000.0
   Independent Veteran Arbitrator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29757
     mass: 1.35E7
     name: Independent Veteran Arbitrator
     published: false
     volume: 130000.0
   Independent Veteran Augoror:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29758
     mass: 1.35E7
     name: Independent Veteran Augoror
     published: false
     volume: 130000.0
   Independent Veteran Maller:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29759
     mass: 1.35E7
     name: Independent Veteran Maller
     published: false
     volume: 130000.0
   Independent Veteran Omen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29760
     mass: 1.35E7
     name: Independent Veteran Omen
     published: false
     volume: 130000.0
   Lord Miyan:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32269
     mass: 1.18E7
     name: Lord Miyan
     published: false
     volume: 118000.0
   Sarum Maller:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 14349
     mass: 1.275E7
     name: Sarum Maller

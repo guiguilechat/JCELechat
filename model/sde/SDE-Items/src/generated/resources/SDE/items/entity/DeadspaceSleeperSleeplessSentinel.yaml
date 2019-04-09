@@ -1,23 +1,47 @@
 items:
   Sleepless Guardian:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30199
     mass: 1.9E7
     name: Sleepless Guardian
     published: false
     volume: 1.9E7
   Sleepless Keeper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30197
     mass: 1.9E7
     name: Sleepless Keeper
     published: false
     volume: 1.9E7
   Sleepless Sentinel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30196
     mass: 1.9E7
     name: Sleepless Sentinel
     published: false
     volume: 1.9E7
   Sleepless Warden:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30198
     mass: 1.9E7
     name: Sleepless Warden

@@ -1,95 +1,191 @@
 items:
   Mule Ferrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24379
     mass: 2650000.0
     name: Mule Ferrier
     published: false
     volume: 26500.0
   Mule Gatherer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24378
     mass: 2300000.0
     name: Mule Gatherer
     published: false
     volume: 23000.0
   Mule Harvester:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24377
     mass: 2300000.0
     name: Mule Harvester
     published: false
     volume: 23000.0
   Mule Loader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24380
     mass: 2650000.0
     name: Mule Loader
     published: false
     volume: 26500.0
   Serpentis Bulker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13706
     mass: 1.12E7
     name: Serpentis Bulker
     published: false
     volume: 112000.0
   Serpentis Carrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13702
     mass: 1.75E7
     name: Serpentis Carrier
     published: false
     volume: 1140000.0
   Serpentis Convoy:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13703
     mass: 1.9E7
     name: Serpentis Convoy
     published: false
     volume: 1010000.0
   Serpentis Courier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13709
     mass: 1.12E7
     name: Serpentis Courier
     published: false
     volume: 112000.0
   Serpentis Ferrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13711
     mass: 2650000.0
     name: Serpentis Ferrier
     published: false
     volume: 26500.0
   Serpentis Gatherer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13712
     mass: 2300000.0
     name: Serpentis Gatherer
     published: false
     volume: 23000.0
   Serpentis Harvester:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13713
     mass: 2300000.0
     name: Serpentis Harvester
     published: false
     volume: 23000.0
   Serpentis Hauler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13705
     mass: 1.9E7
     name: Serpentis Hauler
     published: false
     volume: 1010000.0
   Serpentis Loader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13710
     mass: 2650000.0
     name: Serpentis Loader
     published: false
     volume: 26500.0
   Serpentis Trailer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13704
     mass: 1.75E7
     name: Serpentis Trailer
     published: false
     volume: 1140000.0
   Serpentis Transporter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13707
     mass: 1.12E7
     name: Serpentis Transporter
     published: false
     volume: 112000.0
   Serpentis Trucker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13708
     mass: 1.12E7
     name: Serpentis Trucker

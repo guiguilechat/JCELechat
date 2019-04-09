@@ -85,6 +85,12 @@ items:
     name: Sabre Blueprint
     published: true
     volume: 0.01
+  Sunesis Blueprint:
+    TechLevel: 1
+    id: 44106
+    name: Sunesis Blueprint
+    published: true
+    volume: 0.01
   Talwar Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1

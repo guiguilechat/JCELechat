@@ -1,13 +1,31 @@
 items:
   Argon Gas Environment_Damage:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25860
     name: Argon Gas Environment_Damage
     published: false
   Mining Pollution Cloud:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11546
     name: Mining Pollution Cloud
     published: false
   TEST Triggered Damage Cloud:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25816
     name: TEST Triggered Damage Cloud
     published: false

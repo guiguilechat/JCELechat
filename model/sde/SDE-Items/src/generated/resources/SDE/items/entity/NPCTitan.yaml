@@ -1,7 +1,25 @@
 items:
   ♦ Molok:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 45472
     mass: 2.4E9
     name: ♦ Molok
+    published: false
+    volume: 1.55E8
+  �� Molok:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 45471
+    mass: 2.4E9
+    name: �� Molok
     published: false
     volume: 1.55E8

@@ -1,17 +1,35 @@
 items:
   Enhanced Training Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16693
     mass: 100000.0
     name: Enhanced Training Drone
     published: false
     volume: 60.0
   Rogue Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13323
     mass: 100000.0
     name: Rogue Drone
     published: false
     volume: 60.0
   Training Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 10649
     mass: 100000.0
     name: Training Drone

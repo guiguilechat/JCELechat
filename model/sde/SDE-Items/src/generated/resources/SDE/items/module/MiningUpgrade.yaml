@@ -101,8 +101,9 @@ items:
     Cpu: 38.0
     CpuPenaltyPercent: 12.5
     Hp: 40
-    IceHarvestCycleBonus: -9.0
-    MiningAmountBonus: 9
+    IceHarvestCycleBonus: -8.0
+    MiningAmountBonus: 7
+    MiningDurationMultiplier: 0.9599999785423279
     Power: 1
     RequiredSkill1: 22578
     RequiredSkill1Level: 3

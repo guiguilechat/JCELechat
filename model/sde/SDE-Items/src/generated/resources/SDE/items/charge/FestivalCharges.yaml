@@ -83,6 +83,27 @@ items:
     name: Blood Dagger Firework
     published: true
     volume: 0.1
+  Cherubic Heartburst Firework:
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 56
+    MaxVelocity: 2000.0
+    MissileNeverDoesDamage: 1
+    RequiredSkill1Level: 1
+    RequiredSkill2Level: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 49992
+    marketGroup: 1663
+    mass: 100.0
+    name: Cherubic Heartburst Firework
+    published: true
+    volume: 0.1
   Copper Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -421,6 +442,27 @@ items:
     name: Spacetime Singularity Firework
     published: true
     volume: 0.1
+  Stargazer Lantern Firework:
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 1974
+    MaxVelocity: 2000.0
+    MissileNeverDoesDamage: 1
+    RequiredSkill1Level: 1
+    RequiredSkill2Level: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 49991
+    marketGroup: 1663
+    mass: 100.0
+    name: Stargazer Lantern Firework
+    published: true
+    volume: 0.1
   Wheel of Prosperity Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -470,7 +512,7 @@ items:
     DetonationRange: 35
     ExplosionDelay: 100000
     Hp: 10
-    LauncherGroup: 1974
+    LauncherGroup: 56
     MaxVelocity: 2000.0
     MissileNeverDoesDamage: 1
     RequiredSkill1Level: 1

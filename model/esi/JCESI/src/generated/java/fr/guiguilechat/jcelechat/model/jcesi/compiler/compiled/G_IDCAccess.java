@@ -1122,24 +1122,6 @@ public interface G_IDCAccess
     }
 
     /**
-     * Get names and categories for a set of IDs
-     * <p>
-     * Resolve a set of IDs to names and categories. Supported ID's for resolving are: Characters, Corporations, Alliances, Stations, Solar Systems, Constellations, Regions, Types<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#POST-/universe/names/)
-     * </p>
-     * 
-     * @param ids
-     *     The ids to resolve
-     */
-    public default Requested<R_post_universe_names[]> post_universe_names(int[] ids, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/universe/names/");
-        Map<String, Object> content = new HashMap<>();
-        content.put("ids", ids);
-        return requestPost(url, properties, content, R_post_universe_names[].class);
-    }
-
-    /**
      * Get station information
      * <p>
      * Get information on a station<br />
@@ -1179,6 +1161,22 @@ public interface G_IDCAccess
     public default Requested<R_get_alliances_alliance_id> get_alliances(int alliance_id, Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v3/alliances/{alliance_id}/".replace("{alliance_id}", ""+alliance_id));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id.class));
+    }
+
+    /**
+     * Get names and categories for a set of IDs
+     * <p>
+     * Resolve a set of IDs to names and categories. Supported ID's for resolving are: Characters, Corporations, Alliances, Stations, Solar Systems, Constellations, Regions, Types, Factions
+     * </p>
+     * 
+     * @param ids
+     *     The ids to resolve
+     */
+    public default Requested<R_post_universe_names[]> post_universe_names(int[] ids, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v3/universe/names/");
+        Map<String, Object> content = new HashMap<>();
+        content.put("ids", ids);
+        return requestPost(url, properties, content, R_post_universe_names[].class);
     }
 
     /**

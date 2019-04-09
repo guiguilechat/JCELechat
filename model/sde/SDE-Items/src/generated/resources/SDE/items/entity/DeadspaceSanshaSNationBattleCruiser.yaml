@@ -1,71 +1,143 @@
 items:
   Centatis Behemoth:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24023
     mass: 1.001E7
     name: Centatis Behemoth
     published: false
     volume: 100100.0
   Centatis Daemon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24022
     mass: 1.001E7
     name: Centatis Daemon
     published: false
     volume: 100100.0
   Centatis Devil:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24021
     mass: 1.001E7
     name: Centatis Devil
     published: false
     volume: 100100.0
   Centatis Phantasm:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24002
     mass: 1.001E7
     name: Centatis Phantasm
     published: false
     volume: 100100.0
   Centatis Specter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24019
     mass: 1.001E7
     name: Centatis Specter
     published: false
     volume: 100100.0
   Centatis Wraith:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24020
     mass: 1.001E7
     name: Centatis Wraith
     published: false
     volume: 100100.0
   True Centatis Behemoth:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24198
     mass: 1.001E7
     name: True Centatis Behemoth
     published: false
     volume: 100100.0
   True Centatis Daemon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24197
     mass: 1.001E7
     name: True Centatis Daemon
     published: false
     volume: 100100.0
   True Centatis Devil:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24196
     mass: 1.001E7
     name: True Centatis Devil
     published: false
     volume: 100100.0
   True Centatis Phantasm:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24193
     mass: 1.001E7
     name: True Centatis Phantasm
     published: false
     volume: 100100.0
   True Centatis Specter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24194
     mass: 1.001E7
     name: True Centatis Specter
     published: false
     volume: 100100.0
   True Centatis Wraith:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24195
     mass: 1.001E7
     name: True Centatis Wraith

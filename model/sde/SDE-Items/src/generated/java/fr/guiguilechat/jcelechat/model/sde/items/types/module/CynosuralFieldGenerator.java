@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
-public class CynosuralField
+public class CynosuralFieldGenerator
     extends Module
 {
     /**
@@ -257,7 +257,7 @@ public class CynosuralField
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    public static final CynosuralField.MetaGroup METAGROUP = new CynosuralField.MetaGroup();
+    public static final CynosuralFieldGenerator.MetaGroup METAGROUP = new CynosuralFieldGenerator.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -406,18 +406,18 @@ public class CynosuralField
     }
 
     @Override
-    public IMetaGroup<CynosuralField> getGroup() {
+    public IMetaGroup<CynosuralFieldGenerator> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<CynosuralField>
+        implements IMetaGroup<CynosuralFieldGenerator>
     {
-        public static final String RESOURCE_PATH = "SDE/items/module/CynosuralField.yaml";
-        private Map<String, CynosuralField> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/items/module/CynosuralFieldGenerator.yaml";
+        private Map<String, CynosuralFieldGenerator> cache = (null);
 
         @Override
-        public IMetaCategory<? super CynosuralField> category() {
+        public IMetaCategory<? super CynosuralFieldGenerator> category() {
             return Module.METACAT;
         }
 
@@ -428,14 +428,14 @@ public class CynosuralField
 
         @Override
         public String getName() {
-            return "CynosuralField";
+            return "CynosuralFieldGenerator";
         }
 
         @Override
-        public synchronized Map<String, CynosuralField> load() {
+        public synchronized Map<String, CynosuralFieldGenerator> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CynosuralField.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(CynosuralFieldGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -444,7 +444,7 @@ public class CynosuralField
         }
 
         private static class Container {
-            public LinkedHashMap<String, CynosuralField> items;
+            public LinkedHashMap<String, CynosuralFieldGenerator> items;
         }
     }
 }

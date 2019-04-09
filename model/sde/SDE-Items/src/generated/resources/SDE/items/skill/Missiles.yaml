@@ -14,9 +14,9 @@ items:
     volume: 0.01
   Bomb Deployment:
     PrimaryAttribute: 167
+    ReactivationDelayBonus: -10
     RequiredSkill1: 12441
     RequiredSkill1Level: 4
-    RofBonus: -10
     SecondaryAttribute: 168
     SkillTimeConstant: 4
     SpeedFactor: 1.0

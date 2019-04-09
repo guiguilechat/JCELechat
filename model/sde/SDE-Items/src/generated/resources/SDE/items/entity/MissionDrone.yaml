@@ -1,23 +1,47 @@
 items:
   A Hired Saboteur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24754
     mass: 80000.0
     name: A Hired Saboteur
     published: false
     volume: 20400.0
   CONCORD Surveillance Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16104
     mass: 100000.0
     name: CONCORD Surveillance Drone
     published: false
     volume: 60.0
   Construction Freight:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15395
     mass: 1.105E8
     name: Construction Freight
     published: false
     volume: 1105000.0
   Ore Supply Freight:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16102
     mass: 1.35E7
     name: Ore Supply Freight

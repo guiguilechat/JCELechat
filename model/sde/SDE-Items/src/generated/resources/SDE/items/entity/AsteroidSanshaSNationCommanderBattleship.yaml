@@ -1,59 +1,119 @@
 items:
   True Sansha's Beast Lord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13633
     mass: 1.001E7
     name: True Sansha's Beast Lord
     published: false
     volume: 100100.0
   True Sansha's Dark Lord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23401
     mass: 1.001E7
     name: True Sansha's Dark Lord
     published: false
     volume: 100100.0
   True Sansha's Dread Lord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23402
     mass: 1.001E7
     name: True Sansha's Dread Lord
     published: false
     volume: 100100.0
   True Sansha's Lord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13606
     mass: 1.001E7
     name: True Sansha's Lord
     published: false
     volume: 100100.0
   True Sansha's Mutant Lord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13620
     mass: 1.001E7
     name: True Sansha's Mutant Lord
     published: false
     volume: 100100.0
   True Sansha's Overlord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23400
     mass: 1.001E7
     name: True Sansha's Overlord
     published: false
     volume: 100100.0
   True Sansha's Plague Lord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13621
     mass: 1.001E7
     name: True Sansha's Plague Lord
     published: false
     volume: 100100.0
   True Sansha's Savage Lord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13634
     mass: 1.001E7
     name: True Sansha's Savage Lord
     published: false
     volume: 100100.0
   True Sansha's Slave Lord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13614
     mass: 1.001E7
     name: True Sansha's Slave Lord
     published: false
     volume: 100100.0
   True Sansha's Tyrant:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23403
     mass: 1.001E7
     name: True Sansha's Tyrant

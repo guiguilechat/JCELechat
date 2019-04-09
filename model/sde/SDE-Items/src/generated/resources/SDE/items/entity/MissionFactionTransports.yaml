@@ -1,71 +1,143 @@
 items:
   Civilian Orca:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32449
     mass: 2.5E8
     name: Civilian Orca
     published: false
     volume: 1.025E7
   Federation Freighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28160
     mass: 1.175E9
     name: Federation Freighter
     published: false
     volume: 1.755E7
   Federation Freighter Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2877
     mass: 1.175E9
     name: Federation Freighter Vessel
     published: false
     volume: 1.755E7
   Hostile Orca:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32448
     mass: 2.5E8
     name: Hostile Orca
     published: false
     volume: 1.025E7
   Imperial Freighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28163
     mass: 1.125E9
     name: Imperial Freighter
     published: false
     volume: 1.85E7
   Imperial Freighter Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2879
     mass: 1.125E9
     name: Imperial Freighter Vessel
     published: false
     volume: 1.85E7
   Orca Civilian:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3070
     mass: 2.5E8
     name: Orca Civilian
     published: false
     volume: 1.025E7
   Republic Freighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28162
     mass: 1.025E9
     name: Republic Freighter
     published: false
     volume: 1.55E7
   Republic Freighter Vessels:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32230
     mass: 1.025E9
     name: Republic Freighter Vessels
     published: false
     volume: 1.55E7
   State Freighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28161
     mass: 1.2E9
     name: State Freighter
     published: false
     volume: 1.625E7
   State Freighter Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2882
     mass: 1.2E9
     name: State Freighter Vessel
     published: false
     volume: 1.625E7
   State Transport Freighter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30970
     mass: 1.2E9
     name: State Transport Freighter

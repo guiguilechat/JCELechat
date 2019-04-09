@@ -494,6 +494,7 @@ items:
   Men's Frostline Exploration Suit:
     Gender: 2
     id: 49978
+    marketGroup: 1399
     mass: 0.5
     name: Men's Frostline Exploration Suit
     published: true
@@ -1387,6 +1388,7 @@ items:
   Women's Frostline Exploration Suit:
     Gender: 2
     id: 49980
+    marketGroup: 1405
     mass: 0.5
     name: Women's Frostline Exploration Suit
     published: true

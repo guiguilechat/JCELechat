@@ -32,6 +32,42 @@ items:
     name: Inquest 'Eros' Stasis Webifier MR-807
     published: true
     volume: 1.0
+  Inquest 'Hedone' Entanglement Optimizer WS-802:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    StasisWebRangeBonus: 2
+    TechLevel: 1
+    WarpScrambleRangeBonus: 2
+    id: 50053
+    marketGroup: 1512
+    name: Inquest 'Hedone' Entanglement Optimizer WS-802
+    published: true
+    volume: 1.0
+  Inquest 'Hedone' Entanglement Optimizer WS-803:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    StasisWebRangeBonus: 3
+    TechLevel: 1
+    WarpScrambleRangeBonus: 3
+    id: 50066
+    marketGroup: 1512
+    name: Inquest 'Hedone' Entanglement Optimizer WS-803
+    published: true
+    volume: 1.0
+  Inquest 'Hedone' Entanglement Optimizer WS-804:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    StasisWebRangeBonus: 4
+    TechLevel: 1
+    WarpScrambleRangeBonus: 4
+    id: 50067
+    marketGroup: 1512
+    name: Inquest 'Hedone' Entanglement Optimizer WS-804
+    published: true
+    volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-901:
     CapNeedBonus: -1
     Implantness: 9

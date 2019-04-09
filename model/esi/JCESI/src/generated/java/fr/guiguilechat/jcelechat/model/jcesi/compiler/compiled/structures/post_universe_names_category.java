@@ -18,7 +18,9 @@ public enum post_universe_names_category {
     @JsonProperty("solar_system")
     solar_system("solar_system"),
     @JsonProperty("station")
-    station("station");
+    station("station"),
+    @JsonProperty("faction")
+    faction("faction");
     public final String toString;
 
     post_universe_names_category(String toString) {

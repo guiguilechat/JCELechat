@@ -1,35 +1,71 @@
 items:
   CONCORD Police Captain:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3885
     mass: 1.01E7
     name: CONCORD Police Captain
     published: false
     volume: 101000.0
   CONCORD Police Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11125
     mass: 2.0E7
     name: CONCORD Police Commander
     published: false
     volume: 1080000.0
   CONCORD Police Officer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3863
     mass: 2040000.0
     name: CONCORD Police Officer
     published: false
     volume: 20400.0
   DED Special Operation Captain:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 10038
     mass: 1.01E7
     name: DED Special Operation Captain
     published: false
     volume: 101000.0
   DED Special Operation Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11128
     mass: 2.0E7
     name: DED Special Operation Commander
     published: false
     volume: 1080000.0
   DED Special Operation Officer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 10037
     mass: 2040000.0
     name: DED Special Operation Officer

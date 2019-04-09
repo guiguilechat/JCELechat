@@ -1,59 +1,119 @@
 items:
   True Sansha's Beast:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13605
     mass: 1.001E7
     name: True Sansha's Beast
     published: false
     volume: 100100.0
   True Sansha's Execrator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13636
     mass: 1.001E7
     name: True Sansha's Execrator
     published: false
     volume: 100100.0
   True Sansha's Fiend:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13631
     mass: 1.001E7
     name: True Sansha's Fiend
     published: false
     volume: 100100.0
   True Sansha's Hellhound:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13619
     mass: 1.001E7
     name: True Sansha's Hellhound
     published: false
     volume: 100100.0
   True Sansha's Juggernaut:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13613
     mass: 1.001E7
     name: True Sansha's Juggernaut
     published: false
     volume: 100100.0
   True Sansha's Mutilator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13630
     mass: 1.001E7
     name: True Sansha's Mutilator
     published: false
     volume: 100100.0
   True Sansha's Ravager:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13624
     mass: 1.001E7
     name: True Sansha's Ravager
     published: false
     volume: 100100.0
   True Sansha's Ravisher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13626
     mass: 1.001E7
     name: True Sansha's Ravisher
     published: false
     volume: 100100.0
   True Sansha's Slaughterer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13611
     mass: 1.001E7
     name: True Sansha's Slaughterer
     published: false
     volume: 100100.0
   True Sansha's Torturer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13618
     mass: 1.001E7
     name: True Sansha's Torturer

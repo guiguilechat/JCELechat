@@ -9,7 +9,7 @@ items:
     DetonationRange: 35
     ExplosionDelay: 11250
     Hp: 1920
-    LauncherGroup: 524
+    LauncherGroup: 1674
     MaxVelocity: 7000.0
     MetaLevel: 5
     RequiredSkill1: 41410
@@ -37,7 +37,7 @@ items:
     DetonationRange: 35
     ExplosionDelay: 7500
     Hp: 1920
-    LauncherGroup: 524
+    LauncherGroup: 1674
     MaxVelocity: 7000.0
     MetaLevel: 5
     RequiredSkill1: 41410
@@ -66,7 +66,7 @@ items:
     EmDamage: 5700.0
     ExplosionDelay: 11250
     Hp: 1920
-    LauncherGroup: 524
+    LauncherGroup: 1674
     MaxVelocity: 7000.0
     MetaLevel: 5
     RequiredSkill1: 41410
@@ -94,7 +94,7 @@ items:
     EmDamage: 4750.0
     ExplosionDelay: 7500
     Hp: 1920
-    LauncherGroup: 524
+    LauncherGroup: 1674
     MaxVelocity: 7000.0
     MetaLevel: 5
     RequiredSkill1: 41410
@@ -122,7 +122,7 @@ items:
     ExplosionDelay: 11250
     ExplosiveDamage: 5700.0
     Hp: 1920
-    LauncherGroup: 524
+    LauncherGroup: 1674
     MaxVelocity: 7000.0
     MetaLevel: 5
     RequiredSkill1: 41410
@@ -150,7 +150,7 @@ items:
     ExplosionDelay: 7500
     ExplosiveDamage: 4750.0
     Hp: 1920
-    LauncherGroup: 524
+    LauncherGroup: 1674
     MaxVelocity: 7000.0
     MetaLevel: 5
     RequiredSkill1: 41410
@@ -178,7 +178,7 @@ items:
     ExplosionDelay: 11250
     Hp: 1920
     KineticDamage: 5700.0
-    LauncherGroup: 524
+    LauncherGroup: 1674
     MaxVelocity: 7000.0
     MetaLevel: 5
     RequiredSkill1: 41410
@@ -206,7 +206,7 @@ items:
     ExplosionDelay: 7500
     Hp: 1920
     KineticDamage: 4750.0
-    LauncherGroup: 524
+    LauncherGroup: 1674
     MaxVelocity: 7000.0
     MetaLevel: 5
     RequiredSkill1: 41410

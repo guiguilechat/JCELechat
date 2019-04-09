@@ -1,11 +1,23 @@
 items:
   Guardian Angels Cherubim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47276
     mass: 12000.0
     name: Guardian Angels Cherubim
     published: false
     volume: 5000.0
   Serpentis Inquest Viper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47277
     mass: 12000.0
     name: Serpentis Inquest Viper

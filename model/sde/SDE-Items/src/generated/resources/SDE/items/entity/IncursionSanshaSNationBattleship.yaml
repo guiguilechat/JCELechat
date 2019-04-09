@@ -1,59 +1,119 @@
 items:
   Citizen Astur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3484
     mass: 1.001E7
     name: Citizen Astur
     published: false
     volume: 100100.0
   Deltole Tegmentum:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2933
     mass: 1.001E7
     name: Deltole Tegmentum
     published: false
     volume: 100100.0
   Intaki Colliculus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2855
     mass: 1.001E7
     name: Intaki Colliculus
     published: false
     volume: 100100.0
   Ostingele Tectum:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2932
     mass: 1.001E7
     name: Ostingele Tectum
     published: false
     volume: 100100.0
   Outuni Mesen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2845
     mass: 1.001E7
     name: Outuni Mesen
     published: false
     volume: 100100.0
   Slave 32152:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3485
     mass: 1.001E7
     name: Slave 32152
     published: false
     volume: 100100.0
   Slave Endoma01:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3490
     mass: 1.001E7
     name: Slave Endoma01
     published: false
     volume: 100100.0
   Slave Heavenbound02:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3487
     mass: 1.001E7
     name: Slave Heavenbound02
     published: false
     volume: 100100.0
   Slave Tama01:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3486
     mass: 1.001E7
     name: Slave Tama01
     published: false
     volume: 100100.0
   Yulai Crus Cerebi:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2935
     mass: 1.001E7
     name: Yulai Crus Cerebi

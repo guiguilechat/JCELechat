@@ -1,125 +1,251 @@
 items:
   Domination Ambusher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13519
     mass: 1910000.0
     name: Domination Ambusher
     published: false
     volume: 19100.0
   Domination Hijacker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13515
     mass: 2112000.0
     name: Domination Hijacker
     published: false
     volume: 21120.0
   Domination Hunter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13521
     mass: 1910000.0
     name: Domination Hunter
     published: false
     volume: 19100.0
   Domination Impaler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13522
     mass: 1645000.0
     name: Domination Impaler
     published: false
     volume: 16450.0
   Domination Nomad:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13525
     mass: 1750000.0
     name: Domination Nomad
     published: false
     volume: 17500.0
   Domination Outlaw:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13517
     mass: 1740000.0
     name: Domination Outlaw
     published: false
     volume: 17400.0
   Domination Raider:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13527
     mass: 1645000.0
     name: Domination Raider
     published: false
     volume: 16450.0
   Domination Rogue:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13516
     mass: 2250000.0
     name: Domination Rogue
     published: false
     volume: 22500.0
   Domination Ruffian:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13528
     mass: 1766000.0
     name: Domination Ruffian
     published: false
     volume: 17660.0
   Domination Thug:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13518
     mass: 2600500.0
     name: Domination Thug
     published: false
     volume: 26005.0
   Domination Wang Chunger:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26973
     mass: 1910000.0
     name: Domination Wang Chunger
     published: false
     volume: 19100.0
   Psycho Ambusher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22021
     mass: 1910000.0
     name: Psycho Ambusher
     published: false
     volume: 19100.0
   Psycho Hijacker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22015
     mass: 2112000.0
     name: Psycho Hijacker
     published: false
     volume: 21120.0
   Psycho Hunter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22023
     mass: 1910000.0
     name: Psycho Hunter
     published: false
     volume: 19100.0
   Psycho Impaler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22024
     mass: 1645000.0
     name: Psycho Impaler
     published: false
     volume: 16450.0
   Psycho Nomad:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22020
     mass: 1750000.0
     name: Psycho Nomad
     published: false
     volume: 17500.0
   Psycho Outlaw:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22017
     mass: 1740000.0
     name: Psycho Outlaw
     published: false
     volume: 17400.0
   Psycho Raider:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22022
     mass: 1645000.0
     name: Psycho Raider
     published: false
     volume: 16450.0
   Psycho Rogue:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22016
     mass: 2250000.0
     name: Psycho Rogue
     published: false
     volume: 22500.0
   Psycho Ruffian:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22019
     mass: 1766000.0
     name: Psycho Ruffian
     published: false
     volume: 17660.0
   Psycho Thug:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22018
     mass: 2600500.0
     name: Psycho Thug

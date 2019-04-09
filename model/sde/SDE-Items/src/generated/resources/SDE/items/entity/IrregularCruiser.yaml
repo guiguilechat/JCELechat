@@ -1,118 +1,238 @@
 items:
   Auspex Slaver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48130
     mass: 1.3E7
     name: Auspex Slaver
     published: false
     volume: 118000.0
   Blood Raider Cruiser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 36940
     mass: 1.18E7
     name: Blood Raider Cruiser
     published: false
     volume: 118000.0
   Deathglow Filthraker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48956
     mass: 1.18E7
     name: Deathglow Filthraker
     published: false
     volume: 118000.0
   Destructor Alvum:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48901
     mass: 100000.0
     name: Destructor Alvum
     published: false
     volume: 60.0
   Drifter Strike Cruiser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47722
     mass: 1000000.0
     name: Drifter Strike Cruiser
     published: false
     volume: 100000.0
   Eosian Inquisitor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 46347
     mass: 2000000.0
     name: Eosian Inquisitor
     published: false
   Eosian Preserver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 46343
     mass: 1910000.0
     name: Eosian Preserver
     published: false
     volume: 19100.0
   Eosian Sentinel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 46346
     mass: 1.09E7
     name: Eosian Sentinel
     published: false
     volume: 109000.0
   Guardian Angels Jehoel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 42128
     mass: 1.09E7
     name: Guardian Angels Jehoel
     published: false
     volume: 109000.0
   Guri Hivaa Assassin:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 40726
     mass: 9600000.0
     name: Guri Hivaa Assassin
     published: true
     volume: 101000.0
   Guristas Cruiser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 49536
     mass: 1.01E7
     name: Guristas Cruiser
     published: false
     volume: 101000.0
   Mordu's Decurion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 49764
     mass: 1.01E7
     name: Mordu's Decurion
     published: false
     volume: 101000.0
   Noumenal Silencer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47719
     mass: 1.09E7
     name: Noumenal Silencer
     published: false
     volume: 109000.0
   Noumenal Suppressor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47720
     mass: 1.09E7
     name: Noumenal Suppressor
     published: false
     volume: 109000.0
   November Cruiser Fast:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48937
     mass: 1.001E7
     name: November Cruiser Fast
     published: false
     volume: 100100.0
   November Cruiser Strong:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48938
     mass: 1.001E7
     name: November Cruiser Strong
     published: false
     volume: 100100.0
   November Cruiser Weak:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48939
     mass: 1.001E7
     name: November Cruiser Weak
     published: false
     volume: 100100.0
   Purist Papal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 42513
     mass: 1.275E7
     name: Purist Papal
     published: false
     volume: 118000.0
   Serpentis Cruiser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 38658
     mass: 1.12E7
     name: Serpentis Cruiser
     published: false
     volume: 112000.0
   Wrecker Alvum:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48900
     mass: 100000.0
     name: Wrecker Alvum

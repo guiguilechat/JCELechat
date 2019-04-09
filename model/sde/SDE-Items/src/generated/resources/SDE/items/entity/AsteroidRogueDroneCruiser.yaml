@@ -1,119 +1,239 @@
 items:
   Annihilator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25632
     mass: 100000.0
     name: Annihilator Drone
     published: false
     volume: 60.0
   Atomizer Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25635
     mass: 100000.0
     name: Atomizer Drone
     published: false
     volume: 60.0
   Bomber Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25639
     mass: 100000.0
     name: Bomber Drone
     published: false
     volume: 60.0
   Destructor Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25643
     mass: 100000.0
     name: Destructor Drone
     published: false
     volume: 60.0
   Devastator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25644
     mass: 100000.0
     name: Devastator Drone
     published: false
     volume: 60.0
   Disintegrator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25646
     mass: 100000.0
     name: Disintegrator Drone
     published: false
     volume: 60.0
   Nuker Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25664
     mass: 100000.0
     name: Nuker Drone
     published: false
     volume: 60.0
   Strain Annihilator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25677
     mass: 100000.0
     name: Strain Annihilator Drone
     published: false
     volume: 60.0
   Strain Atomizer Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25678
     mass: 100000.0
     name: Strain Atomizer Drone
     published: false
     volume: 60.0
   Strain Bomber Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25680
     mass: 100000.0
     name: Strain Bomber Drone
     published: false
     volume: 60.0
   Strain Destructor Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25682
     mass: 100000.0
     name: Strain Destructor Drone
     published: false
     volume: 60.0
   Strain Devastator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25683
     mass: 100000.0
     name: Strain Devastator Drone
     published: false
     volume: 60.0
   Strain Disintegrator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25685
     mass: 100000.0
     name: Strain Disintegrator Drone
     published: false
     volume: 60.0
   Strain Nuker Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25688
     mass: 100000.0
     name: Strain Nuker Drone
     published: false
     volume: 60.0
   Strain Violator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25694
     mass: 100000.0
     name: Strain Violator Drone
     published: false
     volume: 60.0
   Strain Viral Infector Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25695
     mass: 100000.0
     name: Strain Viral Infector Drone
     published: false
     volume: 60.0
   Strain Wrecker Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25696
     mass: 100000.0
     name: Strain Wrecker Drone
     published: false
     volume: 60.0
   Violator Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25703
     mass: 100000.0
     name: Violator Drone
     published: false
     volume: 60.0
   Viral Infector Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25704
     mass: 100000.0
     name: Viral Infector Drone
     published: false
     volume: 60.0
   Wrecker Drone:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25705
     mass: 100000.0
     name: Wrecker Drone

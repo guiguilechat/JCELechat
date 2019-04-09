@@ -1,17 +1,35 @@
 items:
   Awakened Defender:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30203
     mass: 1.09E7
     name: Awakened Defender
     published: false
     volume: 109000.0
   Awakened Preserver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30205
     mass: 1.09E7
     name: Awakened Preserver
     published: false
     volume: 109000.0
   Awakened Upholder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30204
     mass: 1.09E7
     name: Awakened Upholder

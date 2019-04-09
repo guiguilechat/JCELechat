@@ -1,59 +1,119 @@
 items:
   Antem Neo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2191
     mass: 1.001E7
     name: Antem Neo
     published: false
     volume: 100100.0
   Arnon Epithalamus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2209
     mass: 1.001E7
     name: Arnon Epithalamus
     published: false
     volume: 100100.0
   Auga Hypophysis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2936
     mass: 1.001E7
     name: Auga Hypophysis
     published: false
     volume: 100100.0
   Gang booster test NPC:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3511
     mass: 1.001E7
     name: Gang booster test NPC
     published: false
     volume: 100100.0
   Lirsautton Parichaya:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2950
     mass: 12000.0
     name: Lirsautton Parichaya
     published: false
     volume: 5000.0
   Mara Paleo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2931
     mass: 1.001E7
     name: Mara Paleo
     published: false
     volume: 100100.0
   Raa Thalamus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3527
     mass: 1.001E7
     name: Raa Thalamus
     published: false
     volume: 100100.0
   Romi Thalamus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2859
     mass: 1.001E7
     name: Romi Thalamus
     published: false
     volume: 100100.0
   Uitra Telen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2208
     mass: 1.001E7
     name: Uitra Telen
     published: false
     volume: 100100.0
   Vylade Dien:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2207
     mass: 1.001E7
     name: Vylade Dien

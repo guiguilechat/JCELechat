@@ -1,185 +1,371 @@
 items:
   Amarr Luxury Yacht:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15411
     mass: 1.3075E7
     name: Amarr Luxury Yacht
     published: false
     volume: 115000.0
   Ammatar Navy Apocalypse:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 14356
     mass: 2.05E7
     name: Ammatar Navy Apocalypse
     published: false
     volume: 1150000.0
   Ammatar Navy Armageddon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15329
     mass: 2.05E7
     name: Ammatar Navy Armageddon
     published: false
     volume: 1100000.0
   Ammatar Navy Fleet Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15336
     mass: 2.05E7
     name: Ammatar Navy Fleet Commander
     published: false
     volume: 1150000.0
   Harkan's Behemoth:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32268
     mass: 2.05E7
     name: Harkan's Behemoth
     published: false
     volume: 1100000.0
   ISHAEKA Monalaz Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2594
     mass: 2.05E7
     name: ISHAEKA Monalaz Commander
     published: false
     volume: 1150000.0
   Imperial Bataivah:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24977
     mass: 1.95E7
     name: Imperial Bataivah
     published: false
     volume: 1150000.0
   Imperial Dominator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24982
     mass: 1.95E7
     name: Imperial Dominator
     published: false
     volume: 1150000.0
   Imperial Martyr:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24983
     mass: 1.95E7
     name: Imperial Martyr
     published: false
     volume: 1150000.0
   Imperial Navy Apocalypse:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 12388
     mass: 2.05E7
     name: Imperial Navy Apocalypse
     published: false
     volume: 1150000.0
   Imperial Navy Armageddon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15328
     mass: 2.05E7
     name: Imperial Navy Armageddon
     published: false
     volume: 1100000.0
   Imperial Navy Fleet Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15335
     mass: 2.05E7
     name: Imperial Navy Fleet Commander
     published: false
     volume: 1150000.0
   Imperial Navy Jakar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 20330
     mass: 2.05E7
     name: Imperial Navy Jakar
     published: false
     volume: 1150000.0
   Imperial Origen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24976
     mass: 2.05E7
     name: Imperial Origen
     published: false
     volume: 1100000.0
   Imperial Tanakh:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24978
     mass: 2.05E7
     name: Imperial Tanakh
     published: false
     volume: 1100000.0
   Imperial Templar Diviner:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28168
     mass: 2.05E7
     name: Imperial Templar Diviner
     published: false
     volume: 1100000.0
   Imperial Templar Dominator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24991
     mass: 1.95E7
     name: Imperial Templar Dominator
     published: false
     volume: 1150000.0
   Imperial Templar Judgment:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28167
     mass: 2.05E7
     name: Imperial Templar Judgment
     published: false
     volume: 1100000.0
   Imperial Templar Martyr:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24992
     mass: 1.95E7
     name: Imperial Templar Martyr
     published: false
     volume: 1150000.0
   Imperial Templar Torah:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24985
     mass: 1.95E7
     name: Imperial Templar Torah
     published: false
     volume: 1150000.0
   Imperial Templar Ultara:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24988
     mass: 1.95E7
     name: Imperial Templar Ultara
     published: false
     volume: 1150000.0
   Imperial Ultara:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24979
     mass: 1.95E7
     name: Imperial Ultara
     published: false
     volume: 1150000.0
   Independent Abaddon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29675
     mass: 1.95E7
     name: Independent Abaddon
     published: false
     volume: 1150000.0
   'Independent Apocalypse ':
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29674
     mass: 1.95E7
     name: 'Independent Apocalypse '
     published: false
     volume: 1150000.0
   'Independent Armageddon ':
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29673
     mass: 1.95E7
     name: 'Independent Armageddon '
     published: false
     volume: 1150000.0
   'Independent Green-Crewed Abaddon ':
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29671
     mass: 2.05E7
     name: 'Independent Green-Crewed Abaddon '
     published: false
     volume: 1100000.0
   Independent Green-Crewed Apocalypse:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29667
     mass: 1.95E7
     name: Independent Green-Crewed Apocalypse
     published: false
     volume: 1150000.0
   Independent Green-Crewed Armageddon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29665
     mass: 2.05E7
     name: Independent Green-Crewed Armageddon
     published: false
     volume: 1100000.0
   Independent Veteran Abaddon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29678
     mass: 2.05E7
     name: Independent Veteran Abaddon
     published: false
     volume: 1100000.0
   Independent Veteran Apocalypse:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29677
     mass: 2.05E7
     name: Independent Veteran Apocalypse
     published: false
     volume: 1100000.0
   Independent Veteran Armageddon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29676
     mass: 2.05E7
     name: Independent Veteran Armageddon

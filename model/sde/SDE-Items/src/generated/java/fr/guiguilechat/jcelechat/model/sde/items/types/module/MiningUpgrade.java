@@ -69,6 +69,13 @@ public class MiningUpgrade
     @DefaultIntValue(0)
     public int MiningAmountBonus;
     /**
+     * Factor to scale mining laser durations by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double MiningDurationMultiplier;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -139,6 +146,10 @@ public class MiningUpgrade
             case  434 :
             {
                 return MiningAmountBonus;
+            }
+            case  203 :
+            {
+                return MiningDurationMultiplier;
             }
             case  30 :
             {

@@ -1,35 +1,71 @@
 items:
   True Sansha's Abomination:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23410
     mass: 2112000.0
     name: True Sansha's Abomination
     published: false
     volume: 21120.0
   True Sansha's Cannibal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23392
     mass: 2112000.0
     name: True Sansha's Cannibal
     published: false
     volume: 21120.0
   True Sansha's Devourer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23409
     mass: 2112000.0
     name: True Sansha's Devourer
     published: false
     volume: 21120.0
   True Sansha's Horror:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23412
     mass: 2112000.0
     name: True Sansha's Horror
     published: false
     volume: 21120.0
   True Sansha's Misshape:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23391
     mass: 2112000.0
     name: True Sansha's Misshape
     published: false
     volume: 21120.0
   True Sansha's Monster:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23411
     mass: 2112000.0
     name: True Sansha's Monster

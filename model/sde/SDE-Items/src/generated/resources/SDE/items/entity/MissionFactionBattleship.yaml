@@ -1,29 +1,59 @@
 items:
   Amarr Battleship Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29236
     mass: 2.05E7
     name: Amarr Battleship Vessel
     published: false
     volume: 1100000.0
   Caldari Battleship Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29237
     mass: 2.1E7
     name: Caldari Battleship Vessel
     published: false
     volume: 1040000.0
   Gallente Battleship Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29240
     mass: 1.9E7
     name: Gallente Battleship Vessel
     published: false
     volume: 1010000.0
   Karsten Lundham's Typhoon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32784
     mass: 1.9E7
     name: Karsten Lundham's Typhoon
     published: false
     volume: 1.9E7
   Minmatar Battleship Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29243
     mass: 1.9E7
     name: Minmatar Battleship Vessel

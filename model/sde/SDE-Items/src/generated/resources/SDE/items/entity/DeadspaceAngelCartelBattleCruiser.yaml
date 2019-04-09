@@ -1,71 +1,143 @@
 items:
   Gistatis Domination Legatus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24180
     mass: 1.09E7
     name: Gistatis Domination Legatus
     published: false
     volume: 109000.0
   Gistatis Domination Legionnaire:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24175
     mass: 1.09E7
     name: Gistatis Domination Legionnaire
     published: false
     volume: 109000.0
   Gistatis Domination Praefectus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24178
     mass: 1.09E7
     name: Gistatis Domination Praefectus
     published: false
     volume: 109000.0
   Gistatis Domination Primus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24176
     mass: 1.09E7
     name: Gistatis Domination Primus
     published: false
     volume: 109000.0
   Gistatis Domination Tribuni:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24177
     mass: 1.09E7
     name: Gistatis Domination Tribuni
     published: false
     volume: 109000.0
   Gistatis Domination Tribunus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24179
     mass: 1.09E7
     name: Gistatis Domination Tribunus
     published: false
     volume: 109000.0
   Gistatis Legatus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24008
     mass: 1.09E7
     name: Gistatis Legatus
     published: false
     volume: 109000.0
   Gistatis Legionnaire:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23999
     mass: 1.09E7
     name: Gistatis Legionnaire
     published: false
     volume: 109000.0
   Gistatis Praefectus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24006
     mass: 1.09E7
     name: Gistatis Praefectus
     published: false
     volume: 109000.0
   Gistatis Primus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24004
     mass: 1.09E7
     name: Gistatis Primus
     published: false
     volume: 109000.0
   Gistatis Tribuni:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24005
     mass: 1.09E7
     name: Gistatis Tribuni
     published: false
     volume: 109000.0
   Gistatis Tribunus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24007
     mass: 1.09E7
     name: Gistatis Tribunus

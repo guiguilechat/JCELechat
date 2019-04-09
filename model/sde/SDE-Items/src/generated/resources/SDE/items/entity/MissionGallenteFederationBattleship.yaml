@@ -1,161 +1,323 @@
 items:
   Federation Covinus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25190
     mass: 1.75E7
     name: Federation Covinus
     published: false
     volume: 1140000.0
   Federation Helepolis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25189
     mass: 1.9E7
     name: Federation Helepolis
     published: false
     volume: 1010000.0
   Federation Navis Longa:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25193
     mass: 1.75E7
     name: Federation Navis Longa
     published: false
     volume: 1140000.0
   Federation Navy Dominix:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15330
     mass: 1.9E7
     name: Federation Navy Dominix
     published: false
     volume: 1010000.0
   Federation Navy Fleet Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15337
     mass: 1.9E7
     name: Federation Navy Fleet Commander
     published: false
     volume: 1140000.0
   Federation Navy Megathron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 12390
     mass: 1.9E7
     name: Federation Navy Megathron
     published: false
     volume: 1140000.0
   Federation Navy Orion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 20335
     mass: 1.9E7
     name: Federation Navy Orion
     published: false
     volume: 1140000.0
   Federation Navy Raid Leader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15351
     mass: 1.225E7
     name: Federation Navy Raid Leader
     published: false
     volume: 113000.0
   Federation Praktor Dionia:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28178
     mass: 1.9E7
     name: Federation Praktor Dionia
     published: false
     volume: 1140000.0
   Federation Praktor Hexeris:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25196
     mass: 1.75E7
     name: Federation Praktor Hexeris
     published: false
     volume: 1140000.0
   Federation Praktor Magister:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25202
     mass: 1.75E7
     name: Federation Praktor Magister
     published: false
     volume: 1140000.0
   Federation Praktor Navis Praetoria:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25194
     mass: 1.75E7
     name: Federation Praktor Navis Praetoria
     published: false
     volume: 1140000.0
   Federation Praktor Phanix:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25201
     mass: 1.75E7
     name: Federation Praktor Phanix
     published: false
     volume: 1140000.0
   Federation Praktor Polemo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28177
     mass: 1.9E7
     name: Federation Praktor Polemo
     published: false
     volume: 1140000.0
   Federation Praktor Praeses:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25198
     mass: 1.75E7
     name: Federation Praktor Praeses
     published: false
     volume: 1140000.0
   Federation Triarius:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25187
     mass: 1.9E7
     name: Federation Triarius
     published: false
     volume: 1010000.0
   Federation Xenan:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25188
     mass: 1.75E7
     name: Federation Xenan
     published: false
     volume: 1140000.0
   Gallentean Luxury Yacht:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15355
     mass: 1.3075E7
     name: Gallentean Luxury Yacht
     published: false
     volume: 115000.0
   Independent Dominix:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29692
     mass: 1.75E7
     name: Independent Dominix
     published: false
     volume: 1140000.0
   Independent Green-Crewed Dominix:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29689
     mass: 1.75E7
     name: Independent Green-Crewed Dominix
     published: false
     volume: 1140000.0
   Independent Green-Crewed Hyperion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29690
     mass: 1.75E7
     name: Independent Green-Crewed Hyperion
     published: false
     volume: 1140000.0
   Independent Green-Crewed Megathron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29691
     mass: 1.75E7
     name: Independent Green-Crewed Megathron
     published: false
     volume: 1140000.0
   Independent Hyperion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29693
     mass: 1.75E7
     name: Independent Hyperion
     published: false
     volume: 1140000.0
   Independent Megathron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29694
     mass: 1.75E7
     name: Independent Megathron
     published: false
     volume: 1140000.0
   Independent Veteran Dominix:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29695
     mass: 1.9E7
     name: Independent Veteran Dominix
     published: false
     volume: 1140000.0
   Independent Veteran Hyperion:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29696
     mass: 1.9E7
     name: Independent Veteran Hyperion
     published: false
     volume: 1140000.0
   Independent Veteran Megathron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29697
     mass: 1.9E7
     name: Independent Veteran Megathron

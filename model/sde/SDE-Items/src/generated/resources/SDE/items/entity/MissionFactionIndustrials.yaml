@@ -1,125 +1,251 @@
 items:
   Agent Rulie Isoryn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32348
     mass: 1.175E7
     name: Agent Rulie Isoryn
     published: false
     volume: 275000.0
   Angel Recovery Team:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32388
     mass: 1.25E7
     name: Angel Recovery Team
     published: false
     volume: 255000.0
   Civilian Hulk:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32447
     mass: 4.0E7
     name: Civilian Hulk
     published: false
     volume: 200000.0
   Federation Courier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29292
     mass: 1.175E7
     name: Federation Courier
     published: false
     volume: 275000.0
   Federation Industrial:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29144
     mass: 1.175E7
     name: Federation Industrial
     published: false
     volume: 275000.0
   Federation Industrial Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2878
     mass: 1.175E7
     name: Federation Industrial Vessel
     published: false
     volume: 275000.0
   Gallente Personnel Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16160
     mass: 1.09E8
     name: Gallente Personnel Transport
     published: false
     volume: 1090000.0
   Gallente Transport Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11714
     mass: 1.105E8
     name: Gallente Transport Ship
     published: false
     volume: 1105000.0
   Hostile Hulk:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32446
     mass: 4.0E7
     name: Hostile Hulk
     published: false
     volume: 200000.0
   Imperial Courier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29290
     mass: 1.35E7
     name: Imperial Courier
     published: false
     volume: 260000.0
   Imperial Industrial:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29145
     mass: 1.35E7
     name: Imperial Industrial
     published: false
     volume: 260000.0
   Imperial Industrial Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2885
     mass: 1.35E7
     name: Imperial Industrial Vessel
     published: false
     volume: 260000.0
   Ishukone Hauler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32455
     mass: 1.35E7
     name: Ishukone Hauler
     published: false
     volume: 270000.0
   Republic Courier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29293
     mass: 1.25E7
     name: Republic Courier
     published: false
     volume: 255000.0
   Republic Industrial:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29146
     mass: 1.25E7
     name: Republic Industrial
     published: false
     volume: 255000.0
   Republic Industrial Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2884
     mass: 1.25E7
     name: Republic Industrial Vessel
     published: false
     volume: 255000.0
   State Courier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29291
     mass: 1.35E7
     name: State Courier
     published: false
     volume: 270000.0
   State Industrial:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29147
     mass: 1.35E7
     name: State Industrial
     published: false
     volume: 270000.0
   State Industrial Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2883
     mass: 1.35E7
     name: State Industrial Vessel
     published: false
     volume: 270000.0
   State Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30948
     mass: 1.35E7
     name: State Transport
     published: false
     volume: 270000.0
   The Incredible Hulk:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29466
     mass: 4.0E7
     name: The Incredible Hulk

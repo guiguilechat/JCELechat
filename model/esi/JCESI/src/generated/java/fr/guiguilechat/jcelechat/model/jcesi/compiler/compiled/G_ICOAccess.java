@@ -393,57 +393,6 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get fittings
-     * <p>
-     * Return fittings of a character<br />
-     * This route is cached for up to 300 seconds<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/fittings/)
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public default Requested<R_get_characters_character_id_fittings[]> get_characters_fittings(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/fittings/".replace("{character_id}", ""+character_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_fittings[].class));
-    }
-
-    /**
-     * Create fitting
-     * <p>
-     * Save a new fitting for a character<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#POST-/characters/{character_id}/fittings/)
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param description
-     *     description string
-     * @param items
-     *     items array
-     * @param name
-     *     name string
-     * @param ship_type_id
-     *     ship_type_id integer
-     */
-    public default Requested<R_post_characters_character_id_fittings_created> post_characters_s(int character_id,
-        String description,
-        R_get_characters_character_id_fittings_items[] items,
-        String name,
-        int ship_type_id,
-        Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/fittings/".replace("{character_id}", ""+character_id));
-        Map<String, Object> content = new HashMap<>();
-        content.put("description", description);
-        content.put("items", items);
-        content.put("name", name);
-        content.put("ship_type_id", ship_type_id);
-        return requestPost(url, properties, content, R_post_characters_character_id_fittings_created.class);
-    }
-
-    /**
      * Delete fitting
      * <p>
      * Delete a fitting from a character
@@ -2006,6 +1955,53 @@ public interface G_ICOAccess
     }
 
     /**
+     * Get fittings
+     * <p>
+     * Return fittings of a character<br />
+     * This route is cached for up to 300 seconds
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public default Requested<R_get_characters_character_id_fittings[]> get_characters_fittings(int character_id, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/fittings/".replace("{character_id}", ""+character_id));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_fittings[].class));
+    }
+
+    /**
+     * Create fitting
+     * <p>
+     * Save a new fitting for a character
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     * @param description
+     *     description string
+     * @param items
+     *     items array
+     * @param name
+     *     name string
+     * @param ship_type_id
+     *     ship_type_id integer
+     */
+    public default Requested<R_post_characters_character_id_fittings_created> post_characters_s(int character_id,
+        String description,
+        R_get_characters_character_id_fittings_items[] items,
+        String name,
+        int ship_type_id,
+        Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/fittings/".replace("{character_id}", ""+character_id));
+        Map<String, Object> content = new HashMap<>();
+        content.put("description", description);
+        content.put("items", items);
+        content.put("name", name);
+        content.put("ship_type_id", ship_type_id);
+        return requestPost(url, properties, content, R_post_characters_character_id_fittings_created.class);
+    }
+
+    /**
      * Create a mail label
      * <p>
      * Create a mail label
@@ -2527,7 +2523,9 @@ public interface G_ICOAccess
      * Get character wallet journal
      * <p>
      * Retrieve the given character's wallet journal going 30 days back<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 3600 seconds<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/wallet/journal/)
      * </p>
      * 
      * @param character_id

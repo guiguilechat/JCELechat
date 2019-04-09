@@ -1,11 +1,23 @@
 items:
   Civilian Amarr Bestower:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30974
     mass: 1.35E7
     name: Civilian Amarr Bestower
     published: false
     volume: 260000.0
   Jamur Fatimar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25557
     mass: 1.95E7
     name: Jamur Fatimar

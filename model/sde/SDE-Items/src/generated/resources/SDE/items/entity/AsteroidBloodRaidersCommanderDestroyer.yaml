@@ -1,35 +1,71 @@
 items:
   Dark Blood Cleric:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23292
     mass: 2860000.0
     name: Dark Blood Cleric
     published: false
     volume: 28600.0
   Dark Blood Converter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23288
     mass: 2860000.0
     name: Dark Blood Converter
     published: false
     volume: 28600.0
   Dark Blood Devoter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23290
     mass: 2860000.0
     name: Dark Blood Devoter
     published: false
     volume: 28600.0
   Dark Blood Friar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23291
     mass: 2860000.0
     name: Dark Blood Friar
     published: false
     volume: 28600.0
   Dark Blood Templar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23289
     mass: 2860000.0
     name: Dark Blood Templar
     published: false
     volume: 28600.0
   Dark Blood Visionary:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23287
     mass: 2860000.0
     name: Dark Blood Visionary

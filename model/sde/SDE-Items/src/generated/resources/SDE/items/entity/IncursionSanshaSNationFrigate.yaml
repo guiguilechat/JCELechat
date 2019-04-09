@@ -1,59 +1,119 @@
 items:
   Eystur Rhomben:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2966
     mass: 2000000.0
     name: Eystur Rhomben
     published: false
     volume: 20000.0
   Jel Rhomben:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3524
     mass: 2000000.0
     name: Jel Rhomben
     published: false
     volume: 20000.0
   Niarja Myelen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2909
     mass: 2000000.0
     name: Niarja Myelen
     published: false
     volume: 20000.0
   Orkashu Myelen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3526
     mass: 2000000.0
     name: Orkashu Myelen
     published: false
     volume: 20000.0
   Orkashu Pontine:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3259
     mass: 2000000.0
     name: Orkashu Pontine
     published: false
     volume: 20000.0
   Renyn Meten:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2190
     mass: 2000000.0
     name: Renyn Meten
     published: false
     volume: 20000.0
   Sansha's Nation Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3492
     mass: 2000000.0
     name: Sansha's Nation Commander
     published: false
     volume: 20000.0
   Schmaeel Medulla:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2907
     mass: 2000000.0
     name: Schmaeel Medulla
     published: false
     volume: 20000.0
   Tama Cerebellum:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2939
     mass: 2000000.0
     name: Tama Cerebellum
     published: false
     volume: 20000.0
   Youl Meten:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3525
     mass: 2000000.0
     name: Youl Meten

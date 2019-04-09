@@ -1,143 +1,287 @@
 items:
   Angel Battleship Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32402
     mass: 1.9E7
     name: Angel Battleship Vessel
     published: false
     volume: 1.9E7
   Arch Angel Raelek:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17641
     mass: 1.9E7
     name: Arch Angel Raelek
     published: false
     volume: 1.9E7
   Gist Cherubim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24129
     mass: 1.9E7
     name: Gist Cherubim
     published: false
     volume: 1.9E7
   Gist Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16892
     mass: 1.9E7
     name: Gist Commander
     published: false
     volume: 1.9E7
   Gist Domination Cherubim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24133
     mass: 1.9E7
     name: Gist Domination Cherubim
     published: false
     volume: 1.9E7
   Gist Domination Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16921
     mass: 1.9E7
     name: Gist Domination Commander
     published: false
     volume: 1.9E7
   Gist Domination General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16922
     mass: 1.9E7
     name: Gist Domination General
     published: false
     volume: 1.9E7
   Gist Domination Malakim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24131
     mass: 1.9E7
     name: Gist Domination Malakim
     published: false
     volume: 1.9E7
   Gist Domination Nephilim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16925
     mass: 1.9E7
     name: Gist Domination Nephilim
     published: false
     volume: 1.9E7
   Gist Domination Saint:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16924
     mass: 1.9E7
     name: Gist Domination Saint
     published: false
     volume: 1.9E7
   Gist Domination Seraphim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24134
     mass: 1.9E7
     name: Gist Domination Seraphim
     published: false
     volume: 1.9E7
   Gist Domination Throne:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24132
     mass: 1.9E7
     name: Gist Domination Throne
     published: false
     volume: 1.9E7
   Gist Domination War General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16923
     mass: 1.9E7
     name: Gist Domination War General
     published: false
     volume: 1.9E7
   Gist Domination Warlord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16926
     mass: 1.9E7
     name: Gist Domination Warlord
     published: false
     volume: 1.9E7
   Gist General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16893
     mass: 1.9E7
     name: Gist General
     published: false
     volume: 1.9E7
   Gist Malakim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24127
     mass: 1.9E7
     name: Gist Malakim
     published: false
     volume: 1.9E7
   Gist Nephilim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24126
     mass: 1.9E7
     name: Gist Nephilim
     published: false
     volume: 1.9E7
   Gist Saint:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24125
     mass: 1.9E7
     name: Gist Saint
     published: false
     volume: 1.9E7
   Gist Seraphim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24130
     mass: 1.9E7
     name: Gist Seraphim
     published: false
     volume: 1.9E7
   Gist Throne:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24128
     mass: 1.9E7
     name: Gist Throne
     published: false
     volume: 1.9E7
   Gist War General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16900
     mass: 1.9E7
     name: Gist War General
     published: false
     volume: 1.9E7
   Gist Warlord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16899
     mass: 1.9E7
     name: Gist Warlord
     published: false
     volume: 1.9E7
   Gist_Defender Battleship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25822
     mass: 1.9E7
     name: Gist_Defender Battleship
     published: false
     volume: 1.9E7
   Karkoti Rend:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32298
     mass: 1.9E7
     name: Karkoti Rend

@@ -1,17 +1,35 @@
 items:
   Awakened Escort:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30202
     mass: 1.09E7
     name: Awakened Escort
     published: false
     volume: 109000.0
   Awakened Patroller:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30200
     mass: 1.09E7
     name: Awakened Patroller
     published: false
     volume: 109000.0
   Awakened Watchman:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30201
     mass: 1.09E7
     name: Awakened Watchman

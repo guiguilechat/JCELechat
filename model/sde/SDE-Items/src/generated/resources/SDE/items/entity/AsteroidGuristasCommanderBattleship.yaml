@@ -1,59 +1,119 @@
 items:
   Dread Guristas Conquistador:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23356
     mass: 1.9E7
     name: Dread Guristas Conquistador
     published: false
     volume: 2.2E7
   Dread Guristas Destroyer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23355
     mass: 1.9E7
     name: Dread Guristas Destroyer
     published: false
     volume: 2.2E7
   Dread Guristas Dismantler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13578
     mass: 2.1E7
     name: Dread Guristas Dismantler
     published: false
     volume: 1040000.0
   Dread Guristas Eliminator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13579
     mass: 2.1E7
     name: Dread Guristas Eliminator
     published: false
     volume: 1040000.0
   Dread Guristas Eradicator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13588
     mass: 2.1E7
     name: Dread Guristas Eradicator
     published: false
     volume: 1040000.0
   Dread Guristas Exterminator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13602
     mass: 1.9E7
     name: Dread Guristas Exterminator
     published: false
     volume: 2.2E7
   Dread Guristas Extinguisher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13601
     mass: 1.9E7
     name: Dread Guristas Extinguisher
     published: false
     volume: 2.2E7
   Dread Guristas Massacrer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23357
     mass: 1.9E7
     name: Dread Guristas Massacrer
     published: false
     volume: 2.2E7
   Dread Guristas Obliterator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13583
     mass: 2.2E7
     name: Dread Guristas Obliterator
     published: false
     volume: 1080000.0
   Dread Guristas Usurper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23358
     mass: 1.9E7
     name: Dread Guristas Usurper

@@ -1,95 +1,191 @@
 items:
   Dark Blood Collector:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13558
     mass: 2810000.0
     name: Dark Blood Collector
     published: false
     volume: 28100.0
   Dark Blood Diviner:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13554
     mass: 2860000.0
     name: Dark Blood Diviner
     published: false
     volume: 28600.0
   Dark Blood Engraver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13574
     mass: 2860000.0
     name: Dark Blood Engraver
     published: false
     volume: 28600.0
   Dark Blood Follower:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13546
     mass: 2810000.0
     name: Dark Blood Follower
     published: false
     volume: 28100.0
   Dark Blood Herald:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13567
     mass: 2810000.0
     name: Dark Blood Herald
     published: false
     volume: 28100.0
   Dark Blood Raider:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13566
     mass: 2870000.0
     name: Dark Blood Raider
     published: false
     volume: 28700.0
   Dark Blood Reaver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13545
     mass: 2870000.0
     name: Dark Blood Reaver
     published: false
     volume: 28700.0
   Dark Blood Seeker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13568
     mass: 2810000.0
     name: Dark Blood Seeker
     published: false
     volume: 28100.0
   Dark Blood Upholder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13555
     mass: 2810000.0
     name: Dark Blood Upholder
     published: false
     volume: 28100.0
   Dark Blood Worshipper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 13571
     mass: 2820000.0
     name: Dark Blood Worshipper
     published: false
     volume: 24398.0
   Sellsword Collector:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24390
     mass: 2810000.0
     name: Sellsword Collector
     published: false
     volume: 28100.0
   Sellsword Diviner:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24392
     mass: 2860000.0
     name: Sellsword Diviner
     published: false
     volume: 28600.0
   Sellsword Engraver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24394
     mass: 2860000.0
     name: Sellsword Engraver
     published: false
     volume: 28600.0
   Sellsword Raider:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24391
     mass: 2870000.0
     name: Sellsword Raider
     published: false
     volume: 28700.0
   Sellsword Reaver:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24393
     mass: 2870000.0
     name: Sellsword Reaver
     published: false
     volume: 28700.0
   Sellsword Seeker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24408
     mass: 2810000.0
     name: Sellsword Seeker

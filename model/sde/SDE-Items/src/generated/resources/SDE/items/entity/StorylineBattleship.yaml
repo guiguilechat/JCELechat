@@ -1,149 +1,299 @@
 items:
   Blood Raider Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23879
     mass: 1.95E7
     name: Blood Raider Commander
     published: false
     volume: 1150000.0
   COSMOS Amarr Dark Priest:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22267
     mass: 1.95E7
     name: COSMOS Amarr Dark Priest
     published: false
     volume: 1150000.0
   COSMOS Amarr Harbinger:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22268
     mass: 2.05E7
     name: COSMOS Amarr Harbinger
     published: false
     volume: 1100000.0
   COSMOS Amarr Jakar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22271
     mass: 1.9E7
     name: COSMOS Amarr Jakar
     published: false
     volume: 1150000.0
   COSMOS Amarr NON-Pirate Battleship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23221
     mass: 1.9E7
     name: COSMOS Amarr NON-Pirate Battleship
     published: false
     volume: 1150000.0
   COSMOS Amarr Patriarch:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22269
     mass: 1.95E7
     name: COSMOS Amarr Patriarch
     published: false
     volume: 1150000.0
   COSMOS Amarr Shadow Sage:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22266
     mass: 2.05E7
     name: COSMOS Amarr Shadow Sage
     published: false
     volume: 1100000.0
   COSMOS Caldari Conquistador:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 20490
     mass: 2.1E7
     name: COSMOS Caldari Conquistador
     published: false
     volume: 1040000.0
   COSMOS Caldari Destroyer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 20491
     mass: 2.2E7
     name: COSMOS Caldari Destroyer
     published: false
     volume: 1080000.0
   COSMOS Caldari Extinguisher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 20492
     mass: 2.1E7
     name: COSMOS Caldari Extinguisher
     published: false
     volume: 1040000.0
   COSMOS Caldari Non-Pirate Battleship 4:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21058
     mass: 1.9E7
     name: COSMOS Caldari Non-Pirate Battleship 4
     published: false
     volume: 2.2E7
   COSMOS Caldari Usurper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 20493
     mass: 1.9E7
     name: COSMOS Caldari Usurper
     published: false
     volume: 2.2E7
   COSMOS Gallente Commodore:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22672
     mass: 1.75E7
     name: COSMOS Gallente Commodore
     published: false
     volume: 1140000.0
   COSMOS Gallente Enforcer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22671
     mass: 1.75E7
     name: COSMOS Gallente Enforcer
     published: false
     volume: 1140000.0
   COSMOS Gallente Non-Pirate Battleship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22675
     mass: 1.9E7
     name: COSMOS Gallente Non-Pirate Battleship
     published: false
     volume: 1140000.0
   COSMOS Minmatar Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21754
     mass: 1.9E7
     name: COSMOS Minmatar Commander
     published: false
     volume: 1.9E7
   COSMOS Minmatar Gist General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21755
     mass: 1.9E7
     name: COSMOS Minmatar Gist General
     published: false
     volume: 1.9E7
   COSMOS Minmatar Gist Seraphim:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21756
     mass: 1.9E7
     name: COSMOS Minmatar Gist Seraphim
     published: false
     volume: 1.9E7
   COSMOS Minmatar Non-Pirate Battleship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21777
     mass: 1.9E7
     name: COSMOS Minmatar Non-Pirate Battleship
     published: false
     volume: 1080000.0
   COSMOS Minmatar Warlord:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 21757
     mass: 1.9E7
     name: COSMOS Minmatar Warlord
     published: false
     volume: 1.9E7
   FON Battleship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23279
     mass: 1.9E7
     name: FON Battleship
     published: false
     volume: 1010000.0
   FON Battleship_OLD:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23278
     mass: 1.75E7
     name: FON Battleship_OLD
     published: false
     volume: 1140000.0
   Kador Surveillance General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23664
     mass: 1.9E7
     name: Kador Surveillance General
     published: false
     volume: 1150000.0
   Maphante Guardian:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24682
     mass: 1.9E7
     name: Maphante Guardian
     published: false
     volume: 1150000.0
   Temko Megathron:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23241
     mass: 1.9E7
     name: Temko Megathron

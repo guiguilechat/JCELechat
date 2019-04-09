@@ -1,71 +1,143 @@
 items:
   Gistior Defacer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23974
     mass: 1645000.0
     name: Gistior Defacer
     published: false
     volume: 16450.0
   Gistior Defiler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23976
     mass: 1645000.0
     name: Gistior Defiler
     published: false
     volume: 16450.0
   Gistior Domination Defacer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24230
     mass: 1645000.0
     name: Gistior Domination Defacer
     published: false
     volume: 16450.0
   Gistior Domination Defiler:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24232
     mass: 1645000.0
     name: Gistior Domination Defiler
     published: false
     volume: 16450.0
   Gistior Domination Haunter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24231
     mass: 1645000.0
     name: Gistior Domination Haunter
     published: false
     volume: 16450.0
   Gistior Domination Seizer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24233
     mass: 1645000.0
     name: Gistior Domination Seizer
     published: false
     volume: 16450.0
   Gistior Domination Shatterer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24229
     mass: 1645000.0
     name: Gistior Domination Shatterer
     published: false
     volume: 16450.0
   Gistior Domination Trasher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24234
     mass: 1645000.0
     name: Gistior Domination Trasher
     published: false
     volume: 16450.0
   Gistior Haunter:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23975
     mass: 1645000.0
     name: Gistior Haunter
     published: false
     volume: 16450.0
   Gistior Seizer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23977
     mass: 1645000.0
     name: Gistior Seizer
     published: false
     volume: 16450.0
   Gistior Shatterer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23969
     mass: 1645000.0
     name: Gistior Shatterer
     published: false
     volume: 16450.0
   Gistior Trasher:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23978
     mass: 1645000.0
     name: Gistior Trasher

@@ -147,6 +147,13 @@ items:
     name: Alliance Tournament XV Meta
     published: true
     volume: 3.0
+  Amaranthine Divide Facial Augmentation Package:
+    CpuMultiplier: 1.0
+    id: 50036
+    marketGroup: 1661
+    name: Amaranthine Divide Facial Augmentation Package
+    published: true
+    volume: 4.0
   Amarr Inception Package:
     CpuMultiplier: 1.0
     id: 43930
@@ -199,6 +206,13 @@ items:
     name: Band of Brothers Director Access Key
     published: true
     volume: 0.01
+  Basic 'Ardour' Cerebral Accelerator Blueprint Crate:
+    CpuMultiplier: 1.0
+    id: 50029
+    marketGroup: 1661
+    name: Basic 'Ardour' Cerebral Accelerator Blueprint Crate
+    published: true
+    volume: 4.0
   Black Dagger:
     CpuMultiplier: 1.0
     id: 49644
@@ -729,6 +743,34 @@ items:
     name: Grand Teigjon Casino Chip
     published: true
     volume: 0.01
+  Guardian's Gala Surprise Gift:
+    CpuMultiplier: 1.0
+    id: 50045
+    marketGroup: 1661
+    name: Guardian's Gala Surprise Gift
+    published: true
+    volume: 4.0
+  Guardian's Gala Surprise Gift, Damaged:
+    CpuMultiplier: 1.0
+    id: 50047
+    marketGroup: 1661
+    name: Guardian's Gala Surprise Gift, Damaged
+    published: true
+    volume: 4.0
+  Guardian's Gala VIP Surprise Gift:
+    CpuMultiplier: 1.0
+    id: 50046
+    marketGroup: 1661
+    name: Guardian's Gala VIP Surprise Gift
+    published: true
+    volume: 4.0
+  Guardian's Gala VIP Surprise Gift, Damaged:
+    CpuMultiplier: 1.0
+    id: 50048
+    marketGroup: 1661
+    name: Guardian's Gala VIP Surprise Gift, Damaged
+    published: true
+    volume: 4.0
   Guillome Renard’s Sleeper Loot Stash:
     CpuMultiplier: 1.0
     id: 34431
@@ -907,6 +949,70 @@ items:
     id: 33028
     marketGroup: 1661
     name: Little Helper, Male
+    published: true
+    volume: 0.01
+  Log Fragment 1 (Gala YC121):
+    CpuMultiplier: 1.0
+    id: 48950
+    marketGroup: 1661
+    mass: 0.01
+    name: Log Fragment 1 (Gala YC121)
+    published: true
+    volume: 0.1
+  Log Fragment 2 (Gala YC121):
+    CpuMultiplier: 1.0
+    id: 48951
+    marketGroup: 1661
+    mass: 0.01
+    name: Log Fragment 2 (Gala YC121)
+    published: true
+    volume: 0.01
+  Log Fragment 3 (Gala YC121):
+    CpuMultiplier: 1.0
+    id: 48952
+    marketGroup: 1661
+    mass: 0.01
+    name: Log Fragment 3 (Gala YC121)
+    published: true
+    volume: 0.01
+  Log Fragment 4 (Gala YC121):
+    CpuMultiplier: 1.0
+    id: 48953
+    marketGroup: 1661
+    mass: 0.01
+    name: Log Fragment 4 (Gala YC121)
+    published: true
+    volume: 0.01
+  Log Fragment 5 (Gala YC121):
+    CpuMultiplier: 1.0
+    id: 48954
+    marketGroup: 1661
+    mass: 0.01
+    name: Log Fragment 5 (Gala YC121)
+    published: true
+    volume: 0.01
+  Log Fragment 6 (Gala YC121):
+    CpuMultiplier: 1.0
+    id: 50040
+    marketGroup: 1661
+    mass: 0.01
+    name: Log Fragment 6 (Gala YC121)
+    published: true
+    volume: 0.01
+  Log Fragment 7 (Gala YC121):
+    CpuMultiplier: 1.0
+    id: 50041
+    marketGroup: 1661
+    mass: 0.01
+    name: Log Fragment 7 (Gala YC121)
+    published: true
+    volume: 0.01
+  Log Fragment 8 (Gala YC121):
+    CpuMultiplier: 1.0
+    id: 50042
+    marketGroup: 1661
+    mass: 0.01
+    name: Log Fragment 8 (Gala YC121)
     published: true
     volume: 0.01
   Lost reminder to pay sov bill:
@@ -1393,6 +1499,13 @@ items:
     name: St. Tetrimon's Finger
     published: true
     volume: 1.0
+  Standard 'Ardour' Cerebral Accelerator Blueprint Crate:
+    CpuMultiplier: 1.0
+    id: 50030
+    marketGroup: 1661
+    name: Standard 'Ardour' Cerebral Accelerator Blueprint Crate
+    published: true
+    volume: 4.0
   Starsi:
     CpuMultiplier: 1.0
     id: 37888
@@ -1647,6 +1760,13 @@ items:
     id: 37889
     marketGroup: 1661
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
+    published: true
+    volume: 0.01
+  YC121 Guardian's Gala Ticket:
+    CpuMultiplier: 1.0
+    id: 50039
+    marketGroup: 1661
+    name: YC121 Guardian's Gala Ticket
     published: true
     volume: 0.01
   Yoiul Festival Fireworks Package:

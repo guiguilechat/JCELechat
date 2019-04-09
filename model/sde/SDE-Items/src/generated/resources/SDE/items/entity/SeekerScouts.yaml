@@ -1,85 +1,187 @@
 items:
   Circadian Seeker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48567
     mass: 2000000.0
     name: Circadian Seeker
     published: false
   Circadian Seeker Basal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48572
     mass: 2000000.0
     name: Circadian Seeker Basal
     published: false
   Circadian Seeker Resister:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48571
     mass: 2000000.0
     name: Circadian Seeker Resister
     published: false
   Circadian Seeker Sniper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48640
     mass: 2000000.0
     name: Circadian Seeker Sniper
     published: false
   Seeker Aurora:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47542
     mass: 2000000.0
     name: Seeker Aurora
     published: false
   Seeker Elite Interceptor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48569
     mass: 2000000.0
     name: Seeker Elite Interceptor
     published: false
   Seeker Eluder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47489
     mass: 2000000.0
     name: Seeker Eluder
     published: false
   Seeker Escort:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48568
     mass: 2000000.0
     name: Seeker Escort
     published: false
   Seeker Flare:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47490
     mass: 2000000.0
     name: Seeker Flare
     published: false
   Seeker Guardian:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48575
     mass: 2000000.0
     name: Seeker Guardian
     published: false
   Seeker Interceptor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48570
     mass: 2000000.0
     name: Seeker Interceptor
     published: false
   Seeker Nova:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47543
     mass: 2000000.0
     name: Seeker Nova
     published: false
   Seeker Pacekeeper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47492
     mass: 2000000.0
     name: Seeker Pacekeeper
     published: false
   Seeker Retainer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48545
     mass: 2000000.0
     name: Seeker Retainer
     published: false
   Seeker Safeguard:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48573
     mass: 2000000.0
     name: Seeker Safeguard
     published: false
   Seeker Trauma:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47491
     mass: 2000000.0
     name: Seeker Trauma
     published: false
   Seeker Upholder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 48647
     mass: 2000000.0
     name: Seeker Upholder

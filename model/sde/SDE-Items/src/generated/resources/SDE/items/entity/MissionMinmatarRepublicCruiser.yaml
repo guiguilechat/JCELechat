@@ -1,269 +1,539 @@
 items:
   Chief Republic Jarpur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24866
     mass: 1.09E7
     name: Chief Republic Jarpur
     published: false
     volume: 109000.0
   Chief Republic Klaki:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24859
     mass: 1.09E7
     name: Chief Republic Klaki
     published: false
     volume: 109000.0
   Chief Republic Manadis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24864
     mass: 1.09E7
     name: Chief Republic Manadis
     published: false
     volume: 109000.0
   Chief Republic Orka:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24865
     mass: 1.09E7
     name: Chief Republic Orka
     published: false
     volume: 109000.0
   Chief Republic Orsin:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24860
     mass: 1.09E7
     name: Chief Republic Orsin
     published: false
     volume: 109000.0
   Chief Republic Pafi:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24861
     mass: 1.09E7
     name: Chief Republic Pafi
     published: false
     volume: 109000.0
   Chief Republic Rodul:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24863
     mass: 1.09E7
     name: Chief Republic Rodul
     published: false
     volume: 109000.0
   Chief Republic Tenar:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24862
     mass: 1.09E7
     name: Chief Republic Tenar
     published: false
     volume: 109000.0
   Civilian Minmatar Cruiser Bellicose:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30739
     mass: 9900000.0
     name: Civilian Minmatar Cruiser Bellicose
     published: false
     volume: 99000.0
   Civilian Minmatar Cruiser Rupture:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30740
     mass: 9900000.0
     name: Civilian Minmatar Cruiser Rupture
     published: false
     volume: 99000.0
   Civilian Minmatar Cruiser Scythe:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30741
     mass: 9900000.0
     name: Civilian Minmatar Cruiser Scythe
     published: false
     volume: 99000.0
   Civilian Minmatar Cruiser Stabber:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 30742
     mass: 9900000.0
     name: Civilian Minmatar Cruiser Stabber
     published: false
     volume: 99000.0
   Independent Bellicose:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29791
     mass: 1.09E7
     name: Independent Bellicose
     published: false
     volume: 109000.0
   Independent Green-Crewed Bellicose:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29787
     mass: 9900000.0
     name: Independent Green-Crewed Bellicose
     published: false
     volume: 99000.0
   Independent Green-Crewed Rupture:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29788
     mass: 9900000.0
     name: Independent Green-Crewed Rupture
     published: false
     volume: 99000.0
   Independent Green-Crewed Scythe:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29789
     mass: 9900000.0
     name: Independent Green-Crewed Scythe
     published: false
     volume: 99000.0
   Independent Green-Crewed Stabber:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29790
     mass: 9900000.0
     name: Independent Green-Crewed Stabber
     published: false
     volume: 99000.0
   Independent Rupture:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29792
     mass: 1.09E7
     name: Independent Rupture
     published: false
     volume: 109000.0
   Independent Scythe:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29793
     mass: 1.09E7
     name: Independent Scythe
     published: false
     volume: 109000.0
   Independent Stabber:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29794
     mass: 1.09E7
     name: Independent Stabber
     published: false
     volume: 109000.0
   Independent Veteran Bellicose:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29795
     mass: 1.25E7
     name: Independent Veteran Bellicose
     published: false
     volume: 120000.0
   Independent Veteran Rupture:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29796
     mass: 1.25E7
     name: Independent Veteran Rupture
     published: false
     volume: 120000.0
   Independent Veteran Scythe:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29797
     mass: 1.25E7
     name: Independent Veteran Scythe
     published: false
     volume: 120000.0
   Independent Veteran Stabber:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 29798
     mass: 1.25E7
     name: Independent Veteran Stabber
     published: false
     volume: 120000.0
   Minmatar CA Cruiser:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 45469
     mass: 1.0E7
     name: Minmatar CA Cruiser
     published: false
     volume: 80000.0
   Minmatar Harvester Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25883
     mass: 8.9E7
     name: Minmatar Harvester Ship
     published: false
     volume: 890000.0
   Minmatar Mercenary Warship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11636
     mass: 1.12E7
     name: Minmatar Mercenary Warship
     published: false
     volume: 112000.0
   Minmatar Personnel Transport:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 16163
     mass: 8.9E7
     name: Minmatar Personnel Transport
     published: false
     volume: 890000.0
   Minmatar Transport Ship:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11710
     mass: 8.9E7
     name: Minmatar Transport Ship
     published: false
     volume: 890000.0
   Minmatar Transport Ship_2:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 22789
     mass: 8.9E7
     name: Minmatar Transport Ship_2
     published: false
     volume: 890000.0
   Republic Fleet Detective:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 11660
     mass: 1.09E7
     name: Republic Fleet Detective
     published: false
     volume: 109000.0
   Republic Fleet Raid Leader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15343
     mass: 1.025E7
     name: Republic Fleet Raid Leader
     published: false
     volume: 89000.0
   Republic Fleet Rupture:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 15324
     mass: 1.15E7
     name: Republic Fleet Rupture
     published: false
     volume: 96000.0
   Republic Fleet Stabber:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 12438
     mass: 1.0E7
     name: Republic Fleet Stabber
     published: false
     volume: 80000.0
   Republic Jarpur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24828
     mass: 1.09E7
     name: Republic Jarpur
     published: false
     volume: 109000.0
   Republic Manadis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24826
     mass: 1.09E7
     name: Republic Manadis
     published: false
     volume: 109000.0
   Republic Ormur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24823
     mass: 9900000.0
     name: Republic Ormur
     published: false
     volume: 99000.0
   Republic Rodul:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24824
     mass: 1.09E7
     name: Republic Rodul
     published: false
     volume: 109000.0
   Republic Solon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24821
     mass: 9900000.0
     name: Republic Solon
     published: false
     volume: 99000.0
   Republic Tribal Jarpur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24836
     mass: 1.09E7
     name: Republic Tribal Jarpur
     published: false
     volume: 109000.0
   Republic Tribal Manadis:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24835
     mass: 1.09E7
     name: Republic Tribal Manadis
     published: false
     volume: 109000.0
   Republic Tribal Ormur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24832
     mass: 1.09E7
     name: Republic Tribal Ormur
     published: false
     volume: 109000.0
   Republic Tribal Rodul:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24834
     mass: 1.09E7
     name: Republic Tribal Rodul
     published: false
     volume: 109000.0
   Republic Tribal Solon:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24830
     mass: 1.09E7
     name: Republic Tribal Solon
     published: false
     volume: 109000.0
   The Elder:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 32190
     mass: 1.09E7
     name: The Elder

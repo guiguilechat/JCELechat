@@ -1,155 +1,311 @@
 items:
   Blockade General Sade:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17997
     mass: 1612000.0
     name: Blockade General Sade
     published: false
     volume: 16120.0
   Centus Black Ops Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17285
     mass: 2000000.0
     name: Centus Black Ops Commander
     published: false
     volume: 20000.0
   Corpii Monk:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26680
     mass: 2810000.0
     name: Corpii Monk
     published: false
     volume: 28100.0
   Dark Blood Alpha:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 4015
     mass: 2870000.0
     name: Dark Blood Alpha
     published: false
     volume: 28700.0
   Dark Blood Keeper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 4355
     mass: 2860000.0
     name: Dark Blood Keeper
     published: false
     volume: 28600.0
   Domination Grigori:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 4010
     mass: 1910000.0
     name: Domination Grigori
     published: false
     volume: 19100.0
   Dread Guristas Irregular:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 4012
     mass: 1650000.0
     name: Dread Guristas Irregular
     published: false
     volume: 16500.0
   Dread Pithi Terminator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26684
     mass: 1970000.0
     name: Dread Pithi Terminator
     published: false
     volume: 19700.0
   Eha Hidaiki:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26864
     mass: 1970000.0
     name: Eha Hidaiki
     published: false
     volume: 19700.0
   Elgur Erinn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26866
     mass: 2650000.0
     name: Elgur Erinn
     published: false
     volume: 26500.0
   Gamat Hakoot:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26865
     mass: 2112000.0
     name: Gamat Hakoot
     published: false
     volume: 21120.0
   Gistii Domination Scavenger:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26661
     mass: 1766000.0
     name: Gistii Domination Scavenger
     published: false
     volume: 17660.0
   Jols Eytur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26862
     mass: 1910000.0
     name: Jols Eytur
     published: false
     volume: 19100.0
   Outpost Security Officer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17903
     mass: 2000000.0
     name: Outpost Security Officer
     published: false
     volume: 20000.0
   Retired Mining Veteran:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17800
     mass: 1612000.0
     name: Retired Mining Veteran
     published: false
     volume: 16120.0
   Rogue Harvesting Vessel:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26142
     mass: 1645000.0
     name: Rogue Harvesting Vessel
     published: false
     volume: 16450.0
   Sansha Black Ops Squad Leader:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17283
     mass: 2000000.0
     name: Sansha Black Ops Squad Leader
     published: false
     volume: 20000.0
   Sansha Tenebrus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 4354
     mass: 2112000.0
     name: Sansha Tenebrus
     published: false
     volume: 21120.0
   Serpentis Drugstore Overseer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17890
     mass: 2500000.0
     name: Serpentis Drugstore Overseer
     published: false
     volume: 25000.0
   Shadow Coreli Antagonist:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26688
     mass: 2650000.0
     name: Shadow Coreli Antagonist
     published: false
     volume: 26500.0
   Shadow Serpentis Warden:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 4356
     mass: 2650000.0
     name: Shadow Serpentis Warden
     published: false
     volume: 26500.0
   Supply Station Manager:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18004
     mass: 1612000.0
     name: Supply Station Manager
     published: false
     volume: 16120.0
   The Superintendent:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18024
     mass: 1612000.0
     name: The Superintendent
     published: false
     volume: 16120.0
   True Centii Revelator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26687
     mass: 2112000.0
     name: True Centii Revelator
     published: false
     volume: 21120.0
   Vlye Cadille:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26863
     mass: 2870000.0
     name: Vlye Cadille
     published: false
     volume: 28700.0
   chantal testing thingy:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26753
     mass: 100000.0
     name: chantal testing thingy

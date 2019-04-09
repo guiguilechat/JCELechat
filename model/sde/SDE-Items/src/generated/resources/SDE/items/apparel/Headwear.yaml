@@ -1,4 +1,18 @@
 items:
+  Cap Female Guristas:
+    Gender: 2
+    id: 42722
+    marketGroup: 1943
+    name: Cap Female Guristas
+    published: true
+    volume: 0.1
+  Cap Male Guristas:
+    Gender: 2
+    id: 42743
+    marketGroup: 1943
+    name: Cap Male Guristas
+    published: true
+    volume: 0.1
   Men's 'Boarder' Cap (Digital Camo):
     Gender: 1
     id: 42732
@@ -399,10 +413,10 @@ items:
     name: Women's ‘Liberator’ Cap (Minmatar Republic)
     published: true
     volume: 0.1
-  Women's ‘Protector’ Beret (Caldari State):
+  Women's ��Protector’ Beret (Caldari State):
     Gender: 3
     id: 42740
     marketGroup: 1943
-    name: Women's ‘Protector’ Beret (Caldari State)
+    name: Women's ��Protector’ Beret (Caldari State)
     published: true
     volume: 0.1

@@ -1,47 +1,95 @@
 items:
   Federation Calo:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25169
     mass: 1.12E7
     name: Federation Calo
     published: false
     volume: 112000.0
   Federation Pezos:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25167
     mass: 1.12E7
     name: Federation Pezos
     published: false
     volume: 112000.0
   Federation Praeco:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25168
     mass: 1.12E7
     name: Federation Praeco
     published: false
     volume: 112000.0
   Federation Praktor Arx:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25171
     mass: 1.12E7
     name: Federation Praktor Arx
     published: false
     volume: 112000.0
   Federation Praktor Auxilia:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25173
     mass: 1.12E7
     name: Federation Praktor Auxilia
     published: false
     volume: 112000.0
   Federation Praktor Bearcus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25170
     mass: 1.12E7
     name: Federation Praktor Bearcus
     published: false
     volume: 112000.0
   Federation Praktor Diablic:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28175
     mass: 1.325E7
     name: Federation Praktor Diablic
     published: false
     volume: 150000.0
   Federation Praktor Erenus:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 28176
     mass: 1.325E7
     name: Federation Praktor Erenus

@@ -1,209 +1,419 @@
 items:
   5/10 DED Angel Big Boss:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3891
     mass: 1.09E7
     name: 5/10 DED Angel Big Boss
     published: false
     volume: 109000.0
   Colony Captain:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26768
     mass: 100000.0
     name: Colony Captain
     published: false
     volume: 60.0
   Control Headquarters:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17165
     mass: 1.09E7
     name: Control Headquarters
     published: false
     volume: 109000.0
   Corpus Crimson Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17615
     mass: 1.18E7
     name: Corpus Crimson Commander
     published: false
     volume: 118000.0
   Dark Corpum Believer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26682
     mass: 1.18E7
     name: Dark Corpum Believer
     published: false
     volume: 118000.0
   Domination Excavator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2846
     mass: 1.09E7
     name: Domination Excavator
     published: false
     volume: 109000.0
   Dread Pithum Vindicator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26686
     mass: 1.01E7
     name: Dread Pithum Vindicator
     published: false
     volume: 101000.0
   'Exsanguinator ':
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3882
     mass: 1.18E7
     name: 'Exsanguinator '
     published: false
     volume: 118000.0
   Gistum Domination Racer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26678
     mass: 1.09E7
     name: Gistum Domination Racer
     published: false
     volume: 109000.0
   Gurista Special Acquirement Captain:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26756
     mass: 1.01E7
     name: Gurista Special Acquirement Captain
     published: false
     volume: 101000.0
   Guristas Distributor:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3884
     mass: 1.01E7
     name: Guristas Distributor
     published: false
     volume: 101000.0
   Guristas Harlot Procurer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18641
     mass: 1.01E7
     name: Guristas Harlot Procurer
     published: false
     volume: 101000.0
   Guristas Scout Officer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17284
     mass: 9200000.0
     name: Guristas Scout Officer
     published: false
     volume: 92000.0
   Hive Logistic Captain:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26766
     mass: 100000.0
     name: Hive Logistic Captain
     published: false
     volume: 60.0
   Hive Overseer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26765
     mass: 100000.0
     name: Hive Overseer
     published: false
     volume: 60.0
   Intoxicated Commander:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 18584
     mass: 1.01E7
     name: Intoxicated Commander
     published: false
     volume: 101000.0
   Mul-Zatah Gatekeeper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17616
     mass: 1.18E7
     name: Mul-Zatah Gatekeeper
     published: false
     volume: 118000.0
   Pithatis Speaker:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25306
     mass: 1.01E7
     name: Pithatis Speaker
     published: false
     volume: 101000.0
   Republic Fleet Keeper:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25990
     mass: 1.09E7
     name: Republic Fleet Keeper
     published: false
     volume: 109000.0
   Rogue Drone Logistic Overseer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26763
     mass: 100000.0
     name: Rogue Drone Logistic Overseer
     published: false
     volume: 60.0
   Rogue Production Captain:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26764
     mass: 100000.0
     name: Rogue Production Captain
     published: false
     volume: 60.0
   Sansha Infiltrator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26130
     mass: 1.001E7
     name: Sansha Infiltrator
     published: false
     volume: 100100.0
   Sarpati Family Enforcer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3890
     mass: 1.12E7
     name: Sarpati Family Enforcer
     published: false
     volume: 112000.0
   Security Coordinator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17166
     mass: 1.09E7
     name: Security Coordinator
     published: false
     volume: 109000.0
   Serpentis Chief of Security:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17823
     mass: 1.12E7
     name: Serpentis Chief of Security
     published: false
     volume: 112000.0
   Serpentis Drug Carrier:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26758
     mass: 1.12E7
     name: Serpentis Drug Carrier
     published: false
     volume: 112000.0
   Serpentis Refinery Headmaster:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 17824
     mass: 1.16E7
     name: Serpentis Refinery Headmaster
     published: false
     volume: 116000.0
   Shadow Corelum Infantry:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26691
     mass: 1.12E7
     name: Shadow Corelum Infantry
     published: false
     volume: 112000.0
   Slave Ation09:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 3889
     mass: 1.001E7
     name: Slave Ation09
     published: false
     volume: 100100.0
   TestNPC001:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 25877
     mass: 1.01E7
     name: TestNPC001
     published: false
     volume: 101000.0
   The Negotiator:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24582
     mass: 1.16E7
     name: The Negotiator
     published: false
     volume: 116000.0
   Thukker Informant:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26117
     mass: 1.09E7
     name: Thukker Informant
     published: false
     volume: 109000.0
   True Centum General:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 26690
     mass: 1.001E7
     name: True Centum General
     published: false
     volume: 100100.0
   True Sansha Foreman:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 2847
     mass: 1.001E7
     name: True Sansha Foreman
     published: false
     volume: 100100.0
   Wiyrkomi Head Engineer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24584
     mass: 1.12E7
     name: Wiyrkomi Head Engineer

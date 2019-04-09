@@ -1,71 +1,143 @@
 items:
   Centior Abomination:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23991
     mass: 2112000.0
     name: Centior Abomination
     published: false
     volume: 21120.0
   Centior Cannibal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23989
     mass: 2112000.0
     name: Centior Cannibal
     published: false
     volume: 21120.0
   Centior Devourer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23990
     mass: 2112000.0
     name: Centior Devourer
     published: false
     volume: 21120.0
   Centior Horror:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23993
     mass: 2112000.0
     name: Centior Horror
     published: false
     volume: 21120.0
   Centior Misshape:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23972
     mass: 2112000.0
     name: Centior Misshape
     published: false
     volume: 21120.0
   Centior Monster:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 23992
     mass: 2112000.0
     name: Centior Monster
     published: false
     volume: 21120.0
   True Centior Abomination:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24214
     mass: 2112000.0
     name: True Centior Abomination
     published: false
     volume: 21120.0
   True Centior Cannibal:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24212
     mass: 2112000.0
     name: True Centior Cannibal
     published: false
     volume: 21120.0
   True Centior Devourer:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24213
     mass: 2112000.0
     name: True Centior Devourer
     published: false
     volume: 21120.0
   True Centior Horror:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24216
     mass: 2112000.0
     name: True Centior Horror
     published: false
     volume: 21120.0
   True Centior Misshape:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24211
     mass: 2112000.0
     name: True Centior Misshape
     published: false
     volume: 21120.0
   True Centior Monster:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 24215
     mass: 2112000.0
     name: True Centior Monster

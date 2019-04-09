@@ -1,11 +1,23 @@
 items:
   Khaitetha's Nidhoggur:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47180
     mass: 1.65E9
     name: Khaitetha's Nidhoggur
     published: false
     volume: 5.3E7
   Otuwiri's Thanatos:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
     id: 47181
     mass: 1.65E9
     name: Otuwiri's Thanatos
