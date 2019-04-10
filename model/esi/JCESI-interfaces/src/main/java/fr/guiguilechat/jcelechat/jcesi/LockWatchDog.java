@@ -131,20 +131,30 @@ public class LockWatchDog {
 					continue;
 				}
 				nolock = false;
-				logger.debug("" + val.takerTraces.size());
+				debugLine("" + val.takerTraces.size());
 				Date firstdate = val.dates.stream().sorted((d1, d2) -> (int) Math.signum(d2.getTime() - d1.getTime()))
 						.findFirst().orElse(null);
-				logger.debug("  acquired " + (now.getTime() - firstdate.getTime()) / 1000 + " s ago, hold by " + val.holder);
+				debugLine("  acquired " + (now.getTime() - firstdate.getTime()) / 1000 + " s ago, hold by " + val.holder);
 				for (Entry<Thread, List<StackTraceElement>> l : val.takerTraces.entrySet()) {
-					logger.debug("    " + l.getKey());
+					debugLine("    " + l.getKey());
 					for (StackTraceElement v : l.getValue()) {
-						logger.debug("      " + v.toString().replace('[', ' '));
+						debugLine("      " + v.toString().replace('[', ' '));
 					}
 				}
 			}
 			if (nolock) {
 				logger.trace("watchdog no lock");
 			}
+		}
+	}
+
+	boolean toLogger = false;
+
+	protected void debugLine(String line) {
+		if (toLogger) {
+			logger.debug(line);
+		} else {
+			System.err.println(line);
 		}
 	}
 

@@ -1,8 +1,12 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
@@ -65,7 +69,6 @@ public class CachedHistory {
 
 	protected void handleReceived(List<R_get_markets_region_id_history> l) {
 		updateAggregates();
-		getSortedVolumes().dataReceived();
 		dataLatch.countDown();
 	}
 
@@ -119,13 +122,13 @@ public class CachedHistory {
 
 	private ObsListHolderImpl<Long> sortedVolumes = new ObsListHolderImpl<>(sortedVolumesUnderlying);
 
-	/** get the list of volumes over last 90 days, sorted by volume descending */
+	/** get the list of volumes over last 365 days, sorted by volume descending */
 	public ObsListHolder<Long> getSortedVolumes() {
 		return sortedVolumes;
 	}
 
-	/** cached days => offsetpct => volume */
-	private HashMap<Integer, HashMap<Integer, ObsObjHolder<Long>>> cachedBestVolumes = new HashMap<>();
+	/** cached offsetpct => volume */
+	private HashMap<Integer, ObsObjHolder<Long>> cachedBestVolumes = new HashMap<>();
 
 	/**
 	 * get the total volume for given number of days, excluding the first percent
@@ -137,38 +140,28 @@ public class CachedHistory {
 	 *          percent of the best days we skip to start summing up
 	 * @return
 	 */
-	public ObsObjHolder<Long> getBestVolume(int days, int offsetPct) {
-		HashMap<Integer, ObsObjHolder<Long>> intermediateMap = cachedBestVolumes.get(days);
-		if (intermediateMap == null) {
+	public ObsObjHolder<Long> getBestVolume(int offsetPct) {
+		ObsObjHolder<Long> ret = cachedBestVolumes.get(offsetPct);
+		if (ret == null) {
 			LockWatchDog.BARKER.tak(cachedBestVolumes);
 			synchronized (cachedBestVolumes) {
 				LockWatchDog.BARKER.hld(cachedBestVolumes);
-				intermediateMap = cachedBestVolumes.get(days);
-				if (intermediateMap == null) {
-					intermediateMap = new HashMap<>();
-					cachedBestVolumes.put(days, intermediateMap);
-				}
-			}
-			LockWatchDog.BARKER.rel(cachedBestVolumes);
-		}
-		ObsObjHolder<Long> ret = intermediateMap.get(offsetPct);
-		if (ret == null) {
-			LockWatchDog.BARKER.tak(intermediateMap);
-			synchronized (intermediateMap) {
-				LockWatchDog.BARKER.hld(intermediateMap);
-				ret = intermediateMap.get(offsetPct);
+				ret = cachedBestVolumes.get(offsetPct);
 				if (ret == null) {
 					SimpleObjectProperty<Long> underlying = new SimpleObjectProperty<>();
 					ret = new ObsObjHolderImpl<>(underlying);
 					getSortedVolumes().addReceivedListener(l -> {
-						int start = Math.min(offsetPct * l.size() / 100, l.size());
-						int end = Math.min(start + days, l.size());
-						underlying.set(l.subList(start, end).stream().collect(Collectors.reducing(0L, Long::sum)));
+						if (l.size() > 0) {
+							int idx = Math.min(offsetPct * (l.size() - 1) / 100, l.size() - 1);
+							underlying.set(l.get(idx));
+						} else {
+							underlying.set(0l);
+						}
 					});
-					intermediateMap.put(offsetPct, ret);
+					cachedBestVolumes.put(offsetPct, ret);
 				}
 			}
-			LockWatchDog.BARKER.rel(intermediateMap);
+			LockWatchDog.BARKER.rel(cachedBestVolumes);
 		}
 		return ret;
 	}
@@ -195,14 +188,25 @@ public class CachedHistory {
 		}
 		monthlyVolume.set(volume);
 		monthlyAverage.set(isks / volume);
-		LockWatchDog.BARKER.tak(sortedVolumesUnderlying);
-		synchronized (sortedVolumesUnderlying) {
-			LockWatchDog.BARKER.hld(sortedVolumesUnderlying);
-			List<Long> newList = cache.stream().map(data -> data.volume).sorted((l1, l2) -> Long.compare(l2, l1))
-					.collect(Collectors.toList());
-			sortedVolumesUnderlying.clear();
-			sortedVolumesUnderlying.addAll(newList);
+
+		List<Long> newList = cache.stream().map(data -> data.volume).sorted((l1, l2) -> Long.compare(l2, l1))
+				.collect(Collectors.toList());
+		// pad with 0 for the days that do not appear.
+		if (cache.size() > 1) {
+			SimpleDateFormat myFormat = new SimpleDateFormat("yyyy-MM-dd");
+			try {
+				Date date1 = myFormat.parse(cache.get(cache.size() - 1).date);
+				Date date2 = myFormat.parse(cache.get(0).date);
+				long periodDays = TimeUnit.DAYS.convert(date2.getTime() - date1.getTime(), TimeUnit.MILLISECONDS);
+				for (int i = newList.size(); i < periodDays + 1; i++) {
+					newList.add(0l);
+				}
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
 		}
-		LockWatchDog.BARKER.rel(sortedVolumesUnderlying);
+		sortedVolumesUnderlying.clear();
+		sortedVolumesUnderlying.addAll(newList);
+		sortedVolumes.dataReceived();
 	}
 }
