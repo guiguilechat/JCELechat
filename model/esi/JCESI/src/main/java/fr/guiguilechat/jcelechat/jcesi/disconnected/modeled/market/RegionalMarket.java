@@ -11,6 +11,7 @@ import java.util.concurrent.CountDownLatch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
@@ -40,19 +41,25 @@ public class RegionalMarket {
 	public CachedOrdersList getMarketOrders(int typeID) {
 		CachedOrdersList ret = cachedOrders.get(typeID);
 		if (ret == null) {
+			LockWatchDog.BARKER.tak(cachedOrders);
 			synchronized (cachedOrders) {
+				LockWatchDog.BARKER.hld(cachedOrders);
 				ret = cachedOrders.get(typeID);
 				if (ret == null) {
 					ret = new CachedOrdersList(this, typeID);
+					LockWatchDog.BARKER.tak(lastOrders);
 					synchronized (lastOrders) {
+						LockWatchDog.BARKER.hld(lastOrders);
 						if (lastOrders != null) {
 							ret.handleNewOrders(lastOrders);
 						}
 					}
+					LockWatchDog.BARKER.rel(lastOrders);
 					// ret.addFetcher();
 					cachedOrders.put(typeID, ret);
 				}
 			}
+			LockWatchDog.BARKER.rel(cachedOrders);
 		}
 		return ret;
 	}
@@ -80,27 +87,36 @@ public class RegionalMarket {
 
 		// put all the orders in specific buy/sell maps
 		HashMap<Integer, List<R_get_markets_region_id_orders>> newItemLists = new HashMap<>();
+		LockWatchDog.BARKER.tak(cachedOrders);
 		synchronized (cachedOrders) {
+			LockWatchDog.BARKER.hld(cachedOrders);
 			for (Integer e : cachedOrders.keySet()) {
 				newItemLists.put(e, new ArrayList<>());
 			}
 		}
+		LockWatchDog.BARKER.rel(cachedOrders);
 		change.getAddedSubList().forEach(order -> {
 			List<R_get_markets_region_id_orders> l = newItemLists.get(order.type_id);
 			if (l != null) {
 				l.add(order);
 			}
 		});
+		LockWatchDog.BARKER.tak(lastOrders);
 		synchronized (lastOrders) {
+			LockWatchDog.BARKER.hld(lastOrders);
 			lastOrders.clear();
 			lastOrders.addAll(change.getAddedSubList());
 		}
+		LockWatchDog.BARKER.rel(lastOrders);
 		// here we synchronize to be the only one updating the values
+		LockWatchDog.BARKER.tak(cachedOrders);
 		synchronized (cachedOrders) {
+			LockWatchDog.BARKER.hld(cachedOrders);
 			for (Entry<Integer, CachedOrdersList> e : cachedOrders.entrySet()) {
 				e.getValue().handleNewOrders(newItemLists.getOrDefault(e.getKey(), Collections.emptyList()));
 			}
 		}
+		LockWatchDog.BARKER.rel(cachedOrders);
 		lastOrdersAccess.countDown();
 	}
 
@@ -124,12 +140,16 @@ public class RegionalMarket {
 	public CachedHistory getHistory(int typeID) {
 		CachedHistory ret = historiesByTypeID.get(typeID);
 		if (ret == null) {
+			LockWatchDog.BARKER.tak(historiesByTypeID);
 			synchronized (historiesByTypeID) {
+				LockWatchDog.BARKER.hld(historiesByTypeID);
+				ret = historiesByTypeID.get(typeID);
 				if (ret == null) {
 					ret = new CachedHistory(cache, regionID, typeID);
 					historiesByTypeID.put(typeID, ret);
 				}
 			}
+			LockWatchDog.BARKER.rel(historiesByTypeID);
 		}
 		return ret;
 	}

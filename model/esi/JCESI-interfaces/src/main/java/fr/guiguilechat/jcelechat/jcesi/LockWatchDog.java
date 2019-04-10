@@ -62,7 +62,7 @@ public class LockWatchDog {
 						if (otherLockHold == lock) {
 							logLocks();
 							data.takerTraces.remove(th);
-							throw new NullPointerException("deadlock");
+							throw new NullPointerException("deadlock while acquiring " + lock);
 						}
 						AquireData ad = aquisitions.get(otherLockHold);
 						for (Thread toAdd : ad.takerTraces.keySet()) {

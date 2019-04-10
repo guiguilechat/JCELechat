@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
@@ -32,17 +31,11 @@ public class CachedHistory {
 	public final CacheStatic caches;
 	public final int regionalID;
 	public final int typeID;
-	private String debugName;
-	private static final HashSet<String> waitingData = new HashSet<>();
 
 	public CachedHistory(CacheStatic cache, int regionID, int typeID) {
 		caches = cache;
 		regionalID = regionID;
 		this.typeID = typeID;
-		debugName = "reg=" + regionID + "_typ=" + typeID;
-		synchronized (waitingData) {
-			waitingData.add(debugName);
-		}
 		caches.markets.history(regionID, typeID)
 		.follow((ListChangeListener<R_get_markets_region_id_history>) this::handleHistory);
 		caches.markets.history(regionID, typeID).addReceivedListener(this::handleReceived);
@@ -57,22 +50,20 @@ public class CachedHistory {
 	protected void handleHistory(Change<? extends R_get_markets_region_id_history> change) {
 		while (change.next()) {
 			for (R_get_markets_region_id_history it : change.getAddedSubList()) {
-				if (cache.isEmpty() || cache.get(0).date.compareTo(it.date) < 0) {
-					// synchronized to avoid concurrent modification and iteration
-					synchronized (cache) {
+				// synchronized to avoid concurrent modification and iteration
+				LockWatchDog.BARKER.tak(cache);
+				synchronized (cache) {
+					LockWatchDog.BARKER.hld(cache);
+					if (cache.isEmpty() || cache.get(0).date.compareTo(it.date) < 0) {
 						cache.add(0, it);
 					}
+					LockWatchDog.BARKER.rel(cache);
 				}
 			}
 		}
 	}
 
 	protected void handleReceived(List<R_get_markets_region_id_history> l) {
-		synchronized (waitingData) {
-			waitingData.remove(debugName);
-			// System.err.println("receiced history for " + debugName + " remaining="
-			// + waitingData);
-		}
 		updateAggregates();
 		getSortedVolumes().dataReceived();
 		dataLatch.countDown();
@@ -136,7 +127,6 @@ public class CachedHistory {
 	/** cached days => offsetpct => volume */
 	private HashMap<Integer, HashMap<Integer, ObsObjHolder<Long>>> cachedBestVolumes = new HashMap<>();
 
-
 	/**
 	 * get the total volume for given number of days, excluding the first percent
 	 * of the highest volume days.
@@ -150,17 +140,22 @@ public class CachedHistory {
 	public ObsObjHolder<Long> getBestVolume(int days, int offsetPct) {
 		HashMap<Integer, ObsObjHolder<Long>> intermediateMap = cachedBestVolumes.get(days);
 		if (intermediateMap == null) {
+			LockWatchDog.BARKER.tak(cachedBestVolumes);
 			synchronized (cachedBestVolumes) {
+				LockWatchDog.BARKER.hld(cachedBestVolumes);
 				intermediateMap = cachedBestVolumes.get(days);
 				if (intermediateMap == null) {
 					intermediateMap = new HashMap<>();
 					cachedBestVolumes.put(days, intermediateMap);
 				}
 			}
+			LockWatchDog.BARKER.rel(cachedBestVolumes);
 		}
 		ObsObjHolder<Long> ret = intermediateMap.get(offsetPct);
 		if (ret == null) {
+			LockWatchDog.BARKER.tak(intermediateMap);
 			synchronized (intermediateMap) {
+				LockWatchDog.BARKER.hld(intermediateMap);
 				ret = intermediateMap.get(offsetPct);
 				if (ret == null) {
 					SimpleObjectProperty<Long> underlying = new SimpleObjectProperty<>();
@@ -173,6 +168,7 @@ public class CachedHistory {
 					intermediateMap.put(offsetPct, ret);
 				}
 			}
+			LockWatchDog.BARKER.rel(intermediateMap);
 		}
 		return ret;
 	}
