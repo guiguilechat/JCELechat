@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.Executors;
+import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
@@ -307,7 +308,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	// TODO why set to 200 ? it seems lower value make deadlock
 	// we set daemon otherwise the thread will prevent jvm from dying.
-	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(1000, r -> {
+	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(500, r -> {
 		Thread t = Executors.defaultThreadFactory().newThread(r);
 		t.setDaemon(true);
 		return t;
@@ -394,7 +395,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			schedule(0);
 		}
 
-		public void schedule(long delay_ms) {
+		public void schedule(long delay_ms) throws RejectedExecutionException {
 			synchronized (exec) {
 				if (!scheduled && !stop && !paused) {
 					exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
@@ -470,6 +471,7 @@ public abstract class ConnectedImpl implements ITransfer {
 						delay_ms = res.getCacheExpire();
 					}
 				}
+				schedule(delay_ms);
 			} catch (Throwable e) {
 				logger.warn("while fetching " + loggingName, e);
 			} finally {
@@ -483,7 +485,6 @@ public abstract class ConnectedImpl implements ITransfer {
 							+ (delay_ms < default_wait_ms ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
 					count_shortdelay = 0;
 				}
-				schedule(delay_ms);
 			}
 		}
 
