@@ -2,10 +2,10 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected;
 
 import java.util.HashMap;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
+import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.syncbarker.LockWatchDog;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Universe {

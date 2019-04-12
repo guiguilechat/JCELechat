@@ -2,11 +2,11 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import java.util.HashMap;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsObjHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_17_String_LString_Boolean;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_search;
+import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.syncbarker.LockWatchDog;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Search {

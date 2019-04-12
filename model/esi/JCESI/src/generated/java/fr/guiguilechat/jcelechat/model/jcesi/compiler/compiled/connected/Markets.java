@@ -2,10 +2,10 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected;
 
 import java.util.HashMap;
 import java.util.Map;
-import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_structures_structure_id;
+import fr.lelouet.collectionholders.interfaces.ObsListHolder;
+import fr.lelouet.syncbarker.LockWatchDog;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

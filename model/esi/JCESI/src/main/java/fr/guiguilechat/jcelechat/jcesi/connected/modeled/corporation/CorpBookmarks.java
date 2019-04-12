@@ -3,12 +3,12 @@ package fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation;
 import java.util.HashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsMapHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders;
+import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
+import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
+import fr.lelouet.syncbarker.LockWatchDog;
 import javafx.collections.FXCollections;
 import javafx.collections.MapChangeListener.Change;
 import javafx.collections.ObservableMap;

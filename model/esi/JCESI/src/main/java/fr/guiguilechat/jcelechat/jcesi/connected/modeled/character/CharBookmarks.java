@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.impl.ObsMapHolderImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_bookmarks_folders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders;
+import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
 
 /** Manage the bookmarks of a character */
 public class CharBookmarks extends fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks {

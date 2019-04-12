@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
-import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ObsListHolder;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_incursions;
+import fr.lelouet.collectionholders.interfaces.ObsListHolder;
+import fr.lelouet.syncbarker.LockWatchDog;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
