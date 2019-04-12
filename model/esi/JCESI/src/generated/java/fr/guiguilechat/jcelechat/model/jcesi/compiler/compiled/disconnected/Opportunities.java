@@ -31,30 +31,36 @@ public class Opportunities {
     public ObsListHolder<Integer> groups() {
         if (get_opportunities_groups_holder == null) {
             LockWatchDog.BARKER.tak(this);
-            synchronized (this)
-            {
-                LockWatchDog.BARKER.hld(this);
-                if (get_opportunities_groups_holder == null) {
-                    ObservableList<Integer> holder = FXCollections.observableArrayList();
-                    get_opportunities_groups_holder = (cache).toHolder(holder);
-                    ObsListHolder<Integer> finalRet = get_opportunities_groups_holder;
-                    (cache).addFetchCacheArray("get_opportunities_groups", (page, properties) -> (cache.swagger).get_opportunities_groups(properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    if (get_opportunities_groups_holder == null) {
+                        ObservableList<Integer> holder = FXCollections.observableArrayList();
+                        get_opportunities_groups_holder = (cache).toHolder(holder);
+                        ObsListHolder<Integer> finalRet = get_opportunities_groups_holder;
+                        (cache).addFetchCacheArray("get_opportunities_groups", (page, properties) -> (cache.swagger).get_opportunities_groups(properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
             }
-            LockWatchDog.BARKER.rel(this);
         }
         return get_opportunities_groups_holder;
     }
@@ -71,27 +77,33 @@ public class Opportunities {
         ObsObjHolder<R_get_opportunities_groups_group_id> ret = get_opportunities_groups_group_id_holder.get(group_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_opportunities_groups_group_id_holder);
-            synchronized (get_opportunities_groups_group_id_holder)
-            {
-                LockWatchDog.BARKER.hld(get_opportunities_groups_group_id_holder);
-                ret = get_opportunities_groups_group_id_holder.get(group_id);
-                if (ret == null) {
-                    SimpleObjectProperty<R_get_opportunities_groups_group_id> holder = new SimpleObjectProperty<>();
-                    ret = (cache).toHolder(holder);
-                    get_opportunities_groups_group_id_holder.put(group_id, ret);
-                    (cache).addFetchCacheObject("get_opportunities_groups_group_id", properties -> (cache.swagger).get_opportunities_groups(group_id, properties), item -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.set(item);
+            try {
+                synchronized (get_opportunities_groups_group_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_opportunities_groups_group_id_holder);
+                    ret = get_opportunities_groups_group_id_holder.get(group_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_opportunities_groups_group_id> holder = new SimpleObjectProperty<>();
+                        ret = (cache).toHolder(holder);
+                        get_opportunities_groups_group_id_holder.put(group_id, ret);
+                        (cache).addFetchCacheObject("get_opportunities_groups_group_id", properties -> (cache.swagger).get_opportunities_groups(group_id, properties), item -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.set(item);
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
+                            }
                         }
-                        LockWatchDog.BARKER.rel(holder);
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_opportunities_groups_group_id_holder);
             }
-            LockWatchDog.BARKER.rel(get_opportunities_groups_group_id_holder);
         }
         return ret;
     }
@@ -104,30 +116,36 @@ public class Opportunities {
     public ObsListHolder<Integer> tasks() {
         if (get_opportunities_tasks_holder == null) {
             LockWatchDog.BARKER.tak(this);
-            synchronized (this)
-            {
-                LockWatchDog.BARKER.hld(this);
-                if (get_opportunities_tasks_holder == null) {
-                    ObservableList<Integer> holder = FXCollections.observableArrayList();
-                    get_opportunities_tasks_holder = (cache).toHolder(holder);
-                    ObsListHolder<Integer> finalRet = get_opportunities_tasks_holder;
-                    (cache).addFetchCacheArray("get_opportunities_tasks", (page, properties) -> (cache.swagger).get_opportunities_tasks(properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    if (get_opportunities_tasks_holder == null) {
+                        ObservableList<Integer> holder = FXCollections.observableArrayList();
+                        get_opportunities_tasks_holder = (cache).toHolder(holder);
+                        ObsListHolder<Integer> finalRet = get_opportunities_tasks_holder;
+                        (cache).addFetchCacheArray("get_opportunities_tasks", (page, properties) -> (cache.swagger).get_opportunities_tasks(properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
             }
-            LockWatchDog.BARKER.rel(this);
         }
         return get_opportunities_tasks_holder;
     }
@@ -144,27 +162,33 @@ public class Opportunities {
         ObsObjHolder<R_get_opportunities_tasks_task_id> ret = get_opportunities_tasks_task_id_holder.get(task_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_opportunities_tasks_task_id_holder);
-            synchronized (get_opportunities_tasks_task_id_holder)
-            {
-                LockWatchDog.BARKER.hld(get_opportunities_tasks_task_id_holder);
-                ret = get_opportunities_tasks_task_id_holder.get(task_id);
-                if (ret == null) {
-                    SimpleObjectProperty<R_get_opportunities_tasks_task_id> holder = new SimpleObjectProperty<>();
-                    ret = (cache).toHolder(holder);
-                    get_opportunities_tasks_task_id_holder.put(task_id, ret);
-                    (cache).addFetchCacheObject("get_opportunities_tasks_task_id", properties -> (cache.swagger).get_opportunities_tasks(task_id, properties), item -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.set(item);
+            try {
+                synchronized (get_opportunities_tasks_task_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_opportunities_tasks_task_id_holder);
+                    ret = get_opportunities_tasks_task_id_holder.get(task_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_opportunities_tasks_task_id> holder = new SimpleObjectProperty<>();
+                        ret = (cache).toHolder(holder);
+                        get_opportunities_tasks_task_id_holder.put(task_id, ret);
+                        (cache).addFetchCacheObject("get_opportunities_tasks_task_id", properties -> (cache.swagger).get_opportunities_tasks(task_id, properties), item -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.set(item);
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
+                            }
                         }
-                        LockWatchDog.BARKER.rel(holder);
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_opportunities_tasks_task_id_holder);
             }
-            LockWatchDog.BARKER.rel(get_opportunities_tasks_task_id_holder);
         }
         return ret;
     }

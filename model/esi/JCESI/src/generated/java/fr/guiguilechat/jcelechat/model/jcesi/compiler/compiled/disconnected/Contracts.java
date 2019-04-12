@@ -33,32 +33,38 @@ public class Contracts {
         ObsListHolder<R_get_contracts_public_bids_contract_id> ret = get_contracts_public_bids_contract_id_holder.get(contract_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_contracts_public_bids_contract_id_holder);
-            synchronized (get_contracts_public_bids_contract_id_holder)
-            {
-                LockWatchDog.BARKER.hld(get_contracts_public_bids_contract_id_holder);
-                ret = get_contracts_public_bids_contract_id_holder.get(contract_id);
-                if (ret == null) {
-                    ObservableList<R_get_contracts_public_bids_contract_id> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_contracts_public_bids_contract_id_holder.put(contract_id, ret);
-                    ObsListHolder<R_get_contracts_public_bids_contract_id> finalRet = ret;
-                    (cache).addFetchCacheArray("get_contracts_public_bids_contract_id", (page, properties) -> (cache.swagger).get_contracts_public_bids(contract_id, page, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_contracts_public_bids_contract_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_contracts_public_bids_contract_id_holder);
+                    ret = get_contracts_public_bids_contract_id_holder.get(contract_id);
+                    if (ret == null) {
+                        ObservableList<R_get_contracts_public_bids_contract_id> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_contracts_public_bids_contract_id_holder.put(contract_id, ret);
+                        ObsListHolder<R_get_contracts_public_bids_contract_id> finalRet = ret;
+                        (cache).addFetchCacheArray("get_contracts_public_bids_contract_id", (page, properties) -> (cache.swagger).get_contracts_public_bids(contract_id, page, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_contracts_public_bids_contract_id_holder);
             }
-            LockWatchDog.BARKER.rel(get_contracts_public_bids_contract_id_holder);
         }
         return ret;
     }
@@ -75,32 +81,38 @@ public class Contracts {
         ObsListHolder<R_get_contracts_public_items_contract_id> ret = get_contracts_public_items_contract_id_holder.get(contract_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_contracts_public_items_contract_id_holder);
-            synchronized (get_contracts_public_items_contract_id_holder)
-            {
-                LockWatchDog.BARKER.hld(get_contracts_public_items_contract_id_holder);
-                ret = get_contracts_public_items_contract_id_holder.get(contract_id);
-                if (ret == null) {
-                    ObservableList<R_get_contracts_public_items_contract_id> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_contracts_public_items_contract_id_holder.put(contract_id, ret);
-                    ObsListHolder<R_get_contracts_public_items_contract_id> finalRet = ret;
-                    (cache).addFetchCacheArray("get_contracts_public_items_contract_id", (page, properties) -> (cache.swagger).get_contracts_public_items(contract_id, page, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_contracts_public_items_contract_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_contracts_public_items_contract_id_holder);
+                    ret = get_contracts_public_items_contract_id_holder.get(contract_id);
+                    if (ret == null) {
+                        ObservableList<R_get_contracts_public_items_contract_id> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_contracts_public_items_contract_id_holder.put(contract_id, ret);
+                        ObsListHolder<R_get_contracts_public_items_contract_id> finalRet = ret;
+                        (cache).addFetchCacheArray("get_contracts_public_items_contract_id", (page, properties) -> (cache.swagger).get_contracts_public_items(contract_id, page, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_contracts_public_items_contract_id_holder);
             }
-            LockWatchDog.BARKER.rel(get_contracts_public_items_contract_id_holder);
         }
         return ret;
     }
@@ -117,32 +129,38 @@ public class Contracts {
         ObsListHolder<R_get_contracts_public_region_id> ret = get_contracts_public_region_id_holder.get(region_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_contracts_public_region_id_holder);
-            synchronized (get_contracts_public_region_id_holder)
-            {
-                LockWatchDog.BARKER.hld(get_contracts_public_region_id_holder);
-                ret = get_contracts_public_region_id_holder.get(region_id);
-                if (ret == null) {
-                    ObservableList<R_get_contracts_public_region_id> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_contracts_public_region_id_holder.put(region_id, ret);
-                    ObsListHolder<R_get_contracts_public_region_id> finalRet = ret;
-                    (cache).addFetchCacheArray("get_contracts_public_region_id", (page, properties) -> (cache.swagger).get_contracts_public(page, region_id, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_contracts_public_region_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_contracts_public_region_id_holder);
+                    ret = get_contracts_public_region_id_holder.get(region_id);
+                    if (ret == null) {
+                        ObservableList<R_get_contracts_public_region_id> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_contracts_public_region_id_holder.put(region_id, ret);
+                        ObsListHolder<R_get_contracts_public_region_id> finalRet = ret;
+                        (cache).addFetchCacheArray("get_contracts_public_region_id", (page, properties) -> (cache.swagger).get_contracts_public(page, region_id, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_contracts_public_region_id_holder);
             }
-            LockWatchDog.BARKER.rel(get_contracts_public_region_id_holder);
         }
         return ret;
     }

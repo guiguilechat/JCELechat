@@ -23,6 +23,7 @@ import com.helger.jcodemodel.JLambdaParam;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JSynchronizedBlock;
+import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.jcesi.LockWatchDog;
@@ -265,9 +266,10 @@ public class CacheTranslator {
 	 */
 	protected JSynchronizedBlock sync(JBlock parent, IJExpression expr) {
 		parent.add(JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "tak").arg(expr));
-		JSynchronizedBlock ret = parent.synchronizedBlock(expr);
+		JTryBlock tryblock = parent._try();
+		JSynchronizedBlock ret = tryblock.body().synchronizedBlock(expr);
 		ret.body().add(JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "hld").arg(expr));
-		parent.add(JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "rel").arg(expr));
+		tryblock._finally().add(JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "rel").arg(expr));
 		return ret;
 	}
 

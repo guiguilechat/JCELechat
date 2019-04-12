@@ -42,32 +42,38 @@ public class Route {
         ObsListHolder<Integer> ret = get_route_origin_destination_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_route_origin_destination_holder);
-            synchronized (get_route_origin_destination_holder)
-            {
-                LockWatchDog.BARKER.hld(get_route_origin_destination_holder);
-                ret = get_route_origin_destination_holder.get(param);
-                if (ret == null) {
-                    ObservableList<Integer> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_route_origin_destination_holder.put(param, ret);
-                    ObsListHolder<Integer> finalRet = ret;
-                    (cache).addFetchCacheArray("get_route_origin_destination", (page, properties) -> (cache.swagger).get_route(avoid, connections, destination, flag, origin, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_route_origin_destination_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_route_origin_destination_holder);
+                    ret = get_route_origin_destination_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<Integer> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_route_origin_destination_holder.put(param, ret);
+                        ObsListHolder<Integer> finalRet = ret;
+                        (cache).addFetchCacheArray("get_route_origin_destination", (page, properties) -> (cache.swagger).get_route(avoid, connections, destination, flag, origin, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_route_origin_destination_holder);
             }
-            LockWatchDog.BARKER.rel(get_route_origin_destination_holder);
         }
         return ret;
     }

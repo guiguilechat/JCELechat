@@ -23,30 +23,36 @@ public class Insurance {
     public ObsListHolder<R_get_insurance_prices> prices() {
         if (get_insurance_prices_holder == null) {
             LockWatchDog.BARKER.tak(this);
-            synchronized (this)
-            {
-                LockWatchDog.BARKER.hld(this);
-                if (get_insurance_prices_holder == null) {
-                    ObservableList<R_get_insurance_prices> holder = FXCollections.observableArrayList();
-                    get_insurance_prices_holder = (cache).toHolder(holder);
-                    ObsListHolder<R_get_insurance_prices> finalRet = get_insurance_prices_holder;
-                    (cache).addFetchCacheArray("get_insurance_prices", (page, properties) -> (cache.swagger).get_insurance_prices(properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    if (get_insurance_prices_holder == null) {
+                        ObservableList<R_get_insurance_prices> holder = FXCollections.observableArrayList();
+                        get_insurance_prices_holder = (cache).toHolder(holder);
+                        ObsListHolder<R_get_insurance_prices> finalRet = get_insurance_prices_holder;
+                        (cache).addFetchCacheArray("get_insurance_prices", (page, properties) -> (cache.swagger).get_insurance_prices(properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
             }
-            LockWatchDog.BARKER.rel(this);
         }
         return get_insurance_prices_holder;
     }

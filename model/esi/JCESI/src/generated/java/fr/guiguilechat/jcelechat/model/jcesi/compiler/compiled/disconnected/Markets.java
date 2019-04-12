@@ -37,30 +37,36 @@ public class Markets {
     public ObsListHolder<Integer> groups() {
         if (get_markets_groups_holder == null) {
             LockWatchDog.BARKER.tak(this);
-            synchronized (this)
-            {
-                LockWatchDog.BARKER.hld(this);
-                if (get_markets_groups_holder == null) {
-                    ObservableList<Integer> holder = FXCollections.observableArrayList();
-                    get_markets_groups_holder = (cache).toHolder(holder);
-                    ObsListHolder<Integer> finalRet = get_markets_groups_holder;
-                    (cache).addFetchCacheArray("get_markets_groups", (page, properties) -> (cache.swagger).get_markets_groups(properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    if (get_markets_groups_holder == null) {
+                        ObservableList<Integer> holder = FXCollections.observableArrayList();
+                        get_markets_groups_holder = (cache).toHolder(holder);
+                        ObsListHolder<Integer> finalRet = get_markets_groups_holder;
+                        (cache).addFetchCacheArray("get_markets_groups", (page, properties) -> (cache.swagger).get_markets_groups(properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
             }
-            LockWatchDog.BARKER.rel(this);
         }
         return get_markets_groups_holder;
     }
@@ -77,27 +83,33 @@ public class Markets {
         ObsObjHolder<R_get_markets_groups_market_group_id> ret = get_markets_groups_market_group_id_holder.get(market_group_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_groups_market_group_id_holder);
-            synchronized (get_markets_groups_market_group_id_holder)
-            {
-                LockWatchDog.BARKER.hld(get_markets_groups_market_group_id_holder);
-                ret = get_markets_groups_market_group_id_holder.get(market_group_id);
-                if (ret == null) {
-                    SimpleObjectProperty<R_get_markets_groups_market_group_id> holder = new SimpleObjectProperty<>();
-                    ret = (cache).toHolder(holder);
-                    get_markets_groups_market_group_id_holder.put(market_group_id, ret);
-                    (cache).addFetchCacheObject("get_markets_groups_market_group_id", properties -> (cache.swagger).get_markets_groups(market_group_id, properties), item -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.set(item);
+            try {
+                synchronized (get_markets_groups_market_group_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_markets_groups_market_group_id_holder);
+                    ret = get_markets_groups_market_group_id_holder.get(market_group_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_markets_groups_market_group_id> holder = new SimpleObjectProperty<>();
+                        ret = (cache).toHolder(holder);
+                        get_markets_groups_market_group_id_holder.put(market_group_id, ret);
+                        (cache).addFetchCacheObject("get_markets_groups_market_group_id", properties -> (cache.swagger).get_markets_groups(market_group_id, properties), item -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.set(item);
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
+                            }
                         }
-                        LockWatchDog.BARKER.rel(holder);
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_markets_groups_market_group_id_holder);
             }
-            LockWatchDog.BARKER.rel(get_markets_groups_market_group_id_holder);
         }
         return ret;
     }
@@ -110,30 +122,36 @@ public class Markets {
     public ObsListHolder<R_get_markets_prices> prices() {
         if (get_markets_prices_holder == null) {
             LockWatchDog.BARKER.tak(this);
-            synchronized (this)
-            {
-                LockWatchDog.BARKER.hld(this);
-                if (get_markets_prices_holder == null) {
-                    ObservableList<R_get_markets_prices> holder = FXCollections.observableArrayList();
-                    get_markets_prices_holder = (cache).toHolder(holder);
-                    ObsListHolder<R_get_markets_prices> finalRet = get_markets_prices_holder;
-                    (cache).addFetchCacheArray("get_markets_prices", (page, properties) -> (cache.swagger).get_markets_prices(properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    if (get_markets_prices_holder == null) {
+                        ObservableList<R_get_markets_prices> holder = FXCollections.observableArrayList();
+                        get_markets_prices_holder = (cache).toHolder(holder);
+                        ObsListHolder<R_get_markets_prices> finalRet = get_markets_prices_holder;
+                        (cache).addFetchCacheArray("get_markets_prices", (page, properties) -> (cache.swagger).get_markets_prices(properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
             }
-            LockWatchDog.BARKER.rel(this);
         }
         return get_markets_prices_holder;
     }
@@ -153,32 +171,38 @@ public class Markets {
         ObsListHolder<R_get_markets_region_id_history> ret = get_markets_region_id_history_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_region_id_history_holder);
-            synchronized (get_markets_region_id_history_holder)
-            {
-                LockWatchDog.BARKER.hld(get_markets_region_id_history_holder);
-                ret = get_markets_region_id_history_holder.get(param);
-                if (ret == null) {
-                    ObservableList<R_get_markets_region_id_history> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_markets_region_id_history_holder.put(param, ret);
-                    ObsListHolder<R_get_markets_region_id_history> finalRet = ret;
-                    (cache).addFetchCacheArray("get_markets_region_id_history", (page, properties) -> (cache.swagger).get_markets_history(region_id, type_id, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_markets_region_id_history_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_markets_region_id_history_holder);
+                    ret = get_markets_region_id_history_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<R_get_markets_region_id_history> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_markets_region_id_history_holder.put(param, ret);
+                        ObsListHolder<R_get_markets_region_id_history> finalRet = ret;
+                        (cache).addFetchCacheArray("get_markets_region_id_history", (page, properties) -> (cache.swagger).get_markets_history(region_id, type_id, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_markets_region_id_history_holder);
             }
-            LockWatchDog.BARKER.rel(get_markets_region_id_history_holder);
         }
         return ret;
     }
@@ -200,32 +224,38 @@ public class Markets {
         ObsListHolder<R_get_markets_region_id_orders> ret = get_markets_region_id_orders_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_region_id_orders_holder);
-            synchronized (get_markets_region_id_orders_holder)
-            {
-                LockWatchDog.BARKER.hld(get_markets_region_id_orders_holder);
-                ret = get_markets_region_id_orders_holder.get(param);
-                if (ret == null) {
-                    ObservableList<R_get_markets_region_id_orders> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_markets_region_id_orders_holder.put(param, ret);
-                    ObsListHolder<R_get_markets_region_id_orders> finalRet = ret;
-                    (cache).addFetchCacheArray("get_markets_region_id_orders", (page, properties) -> (cache.swagger).get_markets_orders(order_type, page, region_id, type_id, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_markets_region_id_orders_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_markets_region_id_orders_holder);
+                    ret = get_markets_region_id_orders_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<R_get_markets_region_id_orders> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_markets_region_id_orders_holder.put(param, ret);
+                        ObsListHolder<R_get_markets_region_id_orders> finalRet = ret;
+                        (cache).addFetchCacheArray("get_markets_region_id_orders", (page, properties) -> (cache.swagger).get_markets_orders(order_type, page, region_id, type_id, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_markets_region_id_orders_holder);
             }
-            LockWatchDog.BARKER.rel(get_markets_region_id_orders_holder);
         }
         return ret;
     }
@@ -242,32 +272,38 @@ public class Markets {
         ObsListHolder<Integer> ret = get_markets_region_id_types_holder.get(region_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_region_id_types_holder);
-            synchronized (get_markets_region_id_types_holder)
-            {
-                LockWatchDog.BARKER.hld(get_markets_region_id_types_holder);
-                ret = get_markets_region_id_types_holder.get(region_id);
-                if (ret == null) {
-                    ObservableList<Integer> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_markets_region_id_types_holder.put(region_id, ret);
-                    ObsListHolder<Integer> finalRet = ret;
-                    (cache).addFetchCacheArray("get_markets_region_id_types", (page, properties) -> (cache.swagger).get_markets_types(page, region_id, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_markets_region_id_types_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_markets_region_id_types_holder);
+                    ret = get_markets_region_id_types_holder.get(region_id);
+                    if (ret == null) {
+                        ObservableList<Integer> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_markets_region_id_types_holder.put(region_id, ret);
+                        ObsListHolder<Integer> finalRet = ret;
+                        (cache).addFetchCacheArray("get_markets_region_id_types", (page, properties) -> (cache.swagger).get_markets_types(page, region_id, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_markets_region_id_types_holder);
             }
-            LockWatchDog.BARKER.rel(get_markets_region_id_types_holder);
         }
         return ret;
     }

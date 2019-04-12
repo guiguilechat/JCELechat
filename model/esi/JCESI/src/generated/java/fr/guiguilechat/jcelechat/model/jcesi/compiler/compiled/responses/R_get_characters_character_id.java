@@ -47,6 +47,10 @@ public class R_get_characters_character_id {
      * security_status number
      */
     public float security_status;
+    /**
+     * The individual title of the character
+     */
+    public String title;
 
     @Override
     public boolean equals(Object other) {
@@ -90,10 +94,13 @@ public class R_get_characters_character_id {
         if (security_status!= othersame.security_status) {
             return false;
         }
+        if ((title!= othersame.title)&&((title == null)||(!title.equals(othersame.title)))) {
+            return false;
+        }
         return true;
     }
 
     public int hashCode() {
-        return ((((((((((alliance_id + ancestry_id)+((birthday == null)? 0 :birthday.hashCode()))+ bloodline_id)+ corporation_id)+((description == null)? 0 :description.hashCode()))+ faction_id)+((gender == null)? 0 :gender.hashCode()))+((name == null)? 0 :name.hashCode()))+ race_id)+ Double.hashCode(security_status));
+        return (((((((((((alliance_id + ancestry_id)+((birthday == null)? 0 :birthday.hashCode()))+ bloodline_id)+ corporation_id)+((description == null)? 0 :description.hashCode()))+ faction_id)+((gender == null)? 0 :gender.hashCode()))+((name == null)? 0 :name.hashCode()))+ race_id)+ Double.hashCode(security_status))+((title == null)? 0 :title.hashCode()));
     }
 }

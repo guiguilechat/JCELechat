@@ -412,7 +412,9 @@ public interface G_ICOAccess
      * Get character fleet info
      * <p>
      * Return the fleet ID the character is in, if any.<br />
-     * This route is cached for up to 60 seconds
+     * This route is cached for up to 60 seconds<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/fleet/)
      * </p>
      * 
      * @param character_id

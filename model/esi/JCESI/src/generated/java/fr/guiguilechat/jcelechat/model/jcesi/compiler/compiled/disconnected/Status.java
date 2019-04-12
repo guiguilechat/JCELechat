@@ -22,25 +22,31 @@ public class Status {
     public ObsObjHolder<R_get_status> status() {
         if (get_status_holder == null) {
             LockWatchDog.BARKER.tak(this);
-            synchronized (this)
-            {
-                LockWatchDog.BARKER.hld(this);
-                if (get_status_holder == null) {
-                    SimpleObjectProperty<R_get_status> holder = new SimpleObjectProperty<>();
-                    get_status_holder = (cache).toHolder(holder);
-                    (cache).addFetchCacheObject("get_status", properties -> (cache.swagger).get_status(properties), item -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.set(item);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    if (get_status_holder == null) {
+                        SimpleObjectProperty<R_get_status> holder = new SimpleObjectProperty<>();
+                        get_status_holder = (cache).toHolder(holder);
+                        (cache).addFetchCacheObject("get_status", properties -> (cache.swagger).get_status(properties), item -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.set(item);
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
+                            }
                         }
-                        LockWatchDog.BARKER.rel(holder);
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
             }
-            LockWatchDog.BARKER.rel(this);
         }
         return get_status_holder;
     }

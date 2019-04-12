@@ -34,32 +34,38 @@ public class Wars {
         ObsListHolder<Integer> ret = get_wars_holder.get(max_war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_holder);
-            synchronized (get_wars_holder)
-            {
-                LockWatchDog.BARKER.hld(get_wars_holder);
-                ret = get_wars_holder.get(max_war_id);
-                if (ret == null) {
-                    ObservableList<Integer> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_wars_holder.put(max_war_id, ret);
-                    ObsListHolder<Integer> finalRet = ret;
-                    (cache).addFetchCacheArray("get_wars", (page, properties) -> (cache.swagger).get_wars(max_war_id, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_wars_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_wars_holder);
+                    ret = get_wars_holder.get(max_war_id);
+                    if (ret == null) {
+                        ObservableList<Integer> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_wars_holder.put(max_war_id, ret);
+                        ObsListHolder<Integer> finalRet = ret;
+                        (cache).addFetchCacheArray("get_wars", (page, properties) -> (cache.swagger).get_wars(max_war_id, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_wars_holder);
             }
-            LockWatchDog.BARKER.rel(get_wars_holder);
         }
         return ret;
     }
@@ -76,27 +82,33 @@ public class Wars {
         ObsObjHolder<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_war_id_holder);
-            synchronized (get_wars_war_id_holder)
-            {
-                LockWatchDog.BARKER.hld(get_wars_war_id_holder);
-                ret = get_wars_war_id_holder.get(war_id);
-                if (ret == null) {
-                    SimpleObjectProperty<R_get_wars_war_id> holder = new SimpleObjectProperty<>();
-                    ret = (cache).toHolder(holder);
-                    get_wars_war_id_holder.put(war_id, ret);
-                    (cache).addFetchCacheObject("get_wars_war_id", properties -> (cache.swagger).get_wars(war_id, properties), item -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.set(item);
+            try {
+                synchronized (get_wars_war_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_wars_war_id_holder);
+                    ret = get_wars_war_id_holder.get(war_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_wars_war_id> holder = new SimpleObjectProperty<>();
+                        ret = (cache).toHolder(holder);
+                        get_wars_war_id_holder.put(war_id, ret);
+                        (cache).addFetchCacheObject("get_wars_war_id", properties -> (cache.swagger).get_wars(war_id, properties), item -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.set(item);
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
+                            }
                         }
-                        LockWatchDog.BARKER.rel(holder);
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_wars_war_id_holder);
             }
-            LockWatchDog.BARKER.rel(get_wars_war_id_holder);
         }
         return ret;
     }
@@ -113,32 +125,38 @@ public class Wars {
         ObsListHolder<M_get_killmails_2> ret = get_wars_war_id_killmails_holder.get(war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_war_id_killmails_holder);
-            synchronized (get_wars_war_id_killmails_holder)
-            {
-                LockWatchDog.BARKER.hld(get_wars_war_id_killmails_holder);
-                ret = get_wars_war_id_killmails_holder.get(war_id);
-                if (ret == null) {
-                    ObservableList<M_get_killmails_2> holder = FXCollections.observableArrayList();
-                    ret = (cache).toHolder(holder);
-                    get_wars_war_id_killmails_holder.put(war_id, ret);
-                    ObsListHolder<M_get_killmails_2> finalRet = ret;
-                    (cache).addFetchCacheArray("get_wars_war_id_killmails", (page, properties) -> (cache.swagger).get_wars_killmails(page, war_id, properties), arr -> {
-                        LockWatchDog.BARKER.tak(holder);
-                        synchronized (holder)
-                        {
-                            LockWatchDog.BARKER.hld(holder);
-                            holder.clear();
-                            if (arr!= null) {
-                                holder.addAll(arr);
+            try {
+                synchronized (get_wars_war_id_killmails_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_wars_war_id_killmails_holder);
+                    ret = get_wars_war_id_killmails_holder.get(war_id);
+                    if (ret == null) {
+                        ObservableList<M_get_killmails_2> holder = FXCollections.observableArrayList();
+                        ret = (cache).toHolder(holder);
+                        get_wars_war_id_killmails_holder.put(war_id, ret);
+                        ObsListHolder<M_get_killmails_2> finalRet = ret;
+                        (cache).addFetchCacheArray("get_wars_war_id_killmails", (page, properties) -> (cache.swagger).get_wars_killmails(page, war_id, properties), arr -> {
+                            LockWatchDog.BARKER.tak(holder);
+                            try {
+                                synchronized (holder)
+                                {
+                                    LockWatchDog.BARKER.hld(holder);
+                                    holder.clear();
+                                    if (arr!= null) {
+                                        holder.addAll(arr);
+                                    }
+                                }
+                            } finally {
+                                LockWatchDog.BARKER.rel(holder);
                             }
+                            finalRet.dataReceived();
                         }
-                        LockWatchDog.BARKER.rel(holder);
-                        finalRet.dataReceived();
+                        );
                     }
-                    );
                 }
+            } finally {
+                LockWatchDog.BARKER.rel(get_wars_war_id_killmails_holder);
             }
-            LockWatchDog.BARKER.rel(get_wars_war_id_killmails_holder);
         }
         return ret;
     }
