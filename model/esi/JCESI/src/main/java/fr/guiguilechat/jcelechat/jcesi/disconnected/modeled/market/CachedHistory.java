@@ -205,8 +205,13 @@ public class CachedHistory {
 				e.printStackTrace();
 			}
 		}
-		sortedVolumesUnderlying.clear();
-		sortedVolumesUnderlying.addAll(newList);
+		LockWatchDog.BARKER.tak(sortedVolumesUnderlying);
+		synchronized (sortedVolumesUnderlying) {
+			LockWatchDog.BARKER.hld(sortedVolumesUnderlying);
+			sortedVolumesUnderlying.clear();
+			sortedVolumesUnderlying.addAll(newList);
+		}
+		LockWatchDog.BARKER.rel(sortedVolumesUnderlying);
 		sortedVolumes.dataReceived();
 	}
 }

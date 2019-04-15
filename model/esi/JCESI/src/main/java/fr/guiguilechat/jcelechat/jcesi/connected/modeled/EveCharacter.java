@@ -366,6 +366,7 @@ public class EveCharacter {
 			}
 			return ret;
 		}));
+
 		Map<Long, Map<Integer, Integer>> newitems = Stream.of(itemsArr)
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), EveCharacter::makeMap, EveCharacter::mergeMap));
 		synchronized (map) {
