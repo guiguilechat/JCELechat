@@ -32,13 +32,13 @@ import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler.CompiledClassesData;
-import fr.guiguilechat.jcelechat.model.sde.compile.inmemory.DynamicClassLoader;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.yaml.CleanRepresenter;
 import fr.guiguilechat.jcelechat.model.sde.yaml.YAMLTools;
+import fr.lelouet.tools.compilation.inmemory.DynamicClassLoader;
 
 /**
  * translates sde into yaml files using compiled data. Also modifies the
