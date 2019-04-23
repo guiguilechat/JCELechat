@@ -32,6 +32,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: '''Corporate'' Light Electron Blaster I'
+    price: 6000.0
     published: true
     volume: 5.0
   '''Dealer'' Light Ion Blaster I':
@@ -67,6 +68,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: '''Dealer'' Light Ion Blaster I'
+    price: 9000.0
     published: true
     volume: 5.0
   '''Felon'' Ion Blaster Cannon I':
@@ -102,6 +104,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: '''Felon'' Ion Blaster Cannon I'
+    price: 900000.0
     published: true
     volume: 20.0
   '''Hooligan'' Heavy Ion Blaster I':
@@ -137,6 +140,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: '''Hooligan'' Heavy Ion Blaster I'
+    price: 90000.0
     published: true
     volume: 10.0
   '''Hustler'' Heavy Neutron Blaster I':
@@ -172,6 +176,7 @@ items:
     marketGroup: 562
     mass: 100.0
     name: '''Hustler'' Heavy Neutron Blaster I'
+    price: 120000.0
     published: true
     volume: 10.0
   '''Racket'' Light Neutron Blaster I':
@@ -207,6 +212,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: '''Racket'' Light Neutron Blaster I'
+    price: 12000.0
     published: true
     volume: 5.0
   '''Slither'' Heavy Electron Blaster I':
@@ -242,6 +248,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: '''Slither'' Heavy Electron Blaster I'
+    price: 60000.0
     published: true
     volume: 10.0
   '''Swindler'' Electron Blaster Cannon I':
@@ -277,6 +284,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: '''Swindler'' Electron Blaster Cannon I'
+    price: 600000.0
     published: true
     volume: 20.0
   '''Underhand'' Neutron Blaster Cannon I':
@@ -312,6 +320,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: '''Underhand'' Neutron Blaster Cannon I'
+    price: 1200000.0
     published: true
     volume: 20.0
   125mm 'Scout' Accelerator Cannon:
@@ -346,6 +355,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 125mm 'Scout' Accelerator Cannon
+    price: 4484.0
     published: true
     volume: 5.0
   125mm Carbide Railgun I:
@@ -380,6 +390,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 125mm Carbide Railgun I
+    price: 4484.0
     published: true
     volume: 5.0
   125mm Compressed Coil Gun I:
@@ -414,6 +425,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 125mm Compressed Coil Gun I
+    price: 4484.0
     published: true
     volume: 5.0
   125mm Prototype Gauss Gun:
@@ -448,6 +460,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 125mm Prototype Gauss Gun
+    price: 4484.0
     published: true
     volume: 5.0
   125mm Railgun I:
@@ -481,6 +494,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 125mm Railgun I
+    price: 9000.0
     published: true
     volume: 5.0
   125mm Railgun II:
@@ -518,6 +532,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 125mm Railgun II
+    price: 110528.0
     published: true
     volume: 5.0
   150mm 'Musket' Railgun:
@@ -553,6 +568,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 150mm 'Musket' Railgun
+    price: 15000.0
     published: true
     volume: 5.0
   150mm 'Scout' Accelerator Cannon:
@@ -587,6 +603,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 150mm 'Scout' Accelerator Cannon
+    price: 7496.0
     published: true
     volume: 5.0
   150mm Carbide Railgun I:
@@ -621,6 +638,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 150mm Carbide Railgun I
+    price: 7496.0
     published: true
     volume: 5.0
   150mm Compressed Coil Gun I:
@@ -655,6 +673,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 150mm Compressed Coil Gun I
+    price: 7496.0
     published: true
     volume: 5.0
   150mm Prototype Gauss Gun:
@@ -689,6 +708,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 150mm Prototype Gauss Gun
+    price: 7496.0
     published: true
     volume: 5.0
   150mm Railgun I:
@@ -722,6 +742,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 150mm Railgun I
+    price: 15000.0
     published: true
     volume: 5.0
   150mm Railgun II:
@@ -759,6 +780,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 150mm Railgun II
+    price: 183136.0
     published: true
     volume: 5.0
   200mm 'Scout' Accelerator Cannon:
@@ -793,6 +815,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 200mm 'Scout' Accelerator Cannon
+    price: 100000.0
     published: true
     volume: 10.0
   200mm Carbide Railgun I:
@@ -827,6 +850,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Carbide Railgun I
+    price: 100000.0
     published: true
     volume: 10.0
   200mm Compressed Coil Gun I:
@@ -861,6 +885,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Compressed Coil Gun I
+    price: 100000.0
     published: true
     volume: 10.0
   200mm Prototype Gauss Gun:
@@ -895,6 +920,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Prototype Gauss Gun
+    price: 100000.0
     published: true
     volume: 10.0
   200mm Railgun I:
@@ -928,6 +954,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Railgun I
+    price: 100000.0
     published: true
     volume: 10.0
   200mm Railgun II:
@@ -965,6 +992,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 200mm Railgun II
+    price: 243088.0
     published: true
     volume: 10.0
   250mm 'Flintlock' Railgun:
@@ -1000,6 +1028,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 250mm 'Flintlock' Railgun
+    price: 150000.0
     published: true
     volume: 10.0
   250mm 'Scout' Accelerator Cannon:
@@ -1034,6 +1063,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 250mm 'Scout' Accelerator Cannon
+    price: 74980.0
     published: true
     volume: 10.0
   250mm Carbide Railgun I:
@@ -1068,6 +1098,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Carbide Railgun I
+    price: 74980.0
     published: true
     volume: 10.0
   250mm Compressed Coil Gun I:
@@ -1102,6 +1133,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Compressed Coil Gun I
+    price: 74980.0
     published: true
     volume: 10.0
   250mm Prototype Gauss Gun:
@@ -1136,6 +1168,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Prototype Gauss Gun
+    price: 74980.0
     published: true
     volume: 10.0
   250mm Railgun I:
@@ -1169,6 +1202,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Railgun I
+    price: 150000.0
     published: true
     volume: 25.0
   250mm Railgun II:
@@ -1206,6 +1240,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: 250mm Railgun II
+    price: 505832.0
     published: true
     volume: 10.0
   350mm 'Scout' Accelerator Cannon:
@@ -1240,6 +1275,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 350mm 'Scout' Accelerator Cannon
+    price: 1000000.0
     published: true
     volume: 20.0
   350mm Carbide Railgun I:
@@ -1274,6 +1310,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Carbide Railgun I
+    price: 1000000.0
     published: true
     volume: 20.0
   350mm Compressed Coil Gun I:
@@ -1308,6 +1345,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Compressed Coil Gun I
+    price: 1000000.0
     published: true
     volume: 20.0
   350mm Prototype Gauss Gun:
@@ -1342,6 +1380,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Prototype Gauss Gun
+    price: 1000000.0
     published: true
     volume: 20.0
   350mm Railgun I:
@@ -1375,6 +1414,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Railgun I
+    price: 1000000.0
     published: true
     volume: 50.0
   350mm Railgun II:
@@ -1412,6 +1452,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 350mm Railgun II
+    price: 1172256.0
     published: true
     volume: 20.0
   425mm 'Popper' Railgun:
@@ -1447,6 +1488,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 425mm 'Popper' Railgun
+    price: 1500000.0
     published: true
     volume: 20.0
   425mm 'Scout' Accelerator Cannon:
@@ -1481,6 +1523,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 425mm 'Scout' Accelerator Cannon
+    price: 744812.0
     published: true
     volume: 20.0
   425mm Carbide Railgun I:
@@ -1515,6 +1558,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Carbide Railgun I
+    price: 744812.0
     published: true
     volume: 20.0
   425mm Compressed Coil Gun I:
@@ -1549,6 +1593,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Compressed Coil Gun I
+    price: 744812.0
     published: true
     volume: 20.0
   425mm Prototype Gauss Gun:
@@ -1583,6 +1628,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Prototype Gauss Gun
+    price: 744812.0
     published: true
     volume: 20.0
   425mm Railgun I:
@@ -1616,6 +1662,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Railgun I
+    price: 1500000.0
     published: true
     volume: 50.0
   425mm Railgun II:
@@ -1653,6 +1700,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: 425mm Railgun II
+    price: 930592.0
     published: true
     volume: 20.0
   75mm 'Scout' Accelerator Cannon:
@@ -1686,6 +1734,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 75mm 'Scout' Accelerator Cannon
+    price: 1000.0
     published: true
     volume: 5.0
   75mm Carbide Railgun I:
@@ -1719,6 +1768,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 75mm Carbide Railgun I
+    price: 1000.0
     published: true
     volume: 5.0
   75mm Compressed Coil Gun I:
@@ -1752,6 +1802,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 75mm Compressed Coil Gun I
+    price: 1000.0
     published: true
     volume: 5.0
   75mm Gatling Rail I:
@@ -1784,6 +1835,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 75mm Gatling Rail I
+    price: 2000.0
     published: true
     volume: 5.0
   75mm Gatling Rail II:
@@ -1820,6 +1872,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 75mm Gatling Rail II
+    price: 35028.0
     published: true
     volume: 5.0
   75mm Prototype Gauss Gun:
@@ -1853,6 +1906,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: 75mm Prototype Gauss Gun
+    price: 1000.0
     published: true
     volume: 5.0
   Anode Electron Particle Cannon I:
@@ -1887,6 +1941,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Anode Electron Particle Cannon I
+    price: 25888.0
     published: true
     volume: 10.0
   Anode Ion Particle Cannon I:
@@ -1921,6 +1976,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Anode Ion Particle Cannon I
+    price: 44740.0
     published: true
     volume: 10.0
   Anode Light Electron Particle Cannon I:
@@ -1955,6 +2011,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Anode Light Electron Particle Cannon I
+    price: 1976.0
     published: true
     volume: 5.0
   Anode Light Ion Particle Cannon I:
@@ -1989,6 +2046,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Anode Light Ion Particle Cannon I
+    price: 4484.0
     published: true
     volume: 5.0
   Anode Light Neutron Particle Cannon I:
@@ -2023,6 +2081,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Anode Light Neutron Particle Cannon I
+    price: 5996.0
     published: true
     volume: 5.0
   Anode Mega Electron Particle Cannon I:
@@ -2057,6 +2116,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Anode Mega Electron Particle Cannon I
+    price: 298716.0
     published: true
     volume: 20.0
   Anode Mega Ion Particle Cannon I:
@@ -2091,6 +2151,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Anode Mega Ion Particle Cannon I
+    price: 448700.0
     published: true
     volume: 20.0
   Anode Mega Neutron Particle Cannon I:
@@ -2125,6 +2186,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Anode Mega Neutron Particle Cannon I
+    price: 595840.0
     published: true
     volume: 20.0
   Anode Neutron Particle Cannon I:
@@ -2159,6 +2221,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Anode Neutron Particle Cannon I
+    price: 59676.0
     published: true
     volume: 10.0
   Anode Scoped Ion Siege Blaster:
@@ -2193,6 +2256,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Anode Scoped Ion Siege Blaster
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Anode Scoped Triple Neutron Blaster Cannon:
@@ -2227,6 +2291,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Anode Scoped Triple Neutron Blaster Cannon
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Brynn's Modified 350mm Railgun:
@@ -2262,6 +2327,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Brynn's Modified 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Brynn's Modified 425mm Railgun:
@@ -2297,6 +2363,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Brynn's Modified 425mm Railgun
+    price: 1500000.0
     published: true
     volume: 20.0
   Brynn's Modified Dual 250mm Railgun:
@@ -2332,6 +2399,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Brynn's Modified Dual 250mm Railgun
+    price: 200000.0
     published: true
     volume: 20.0
   CONCORD Dual 1000mm Railgun:
@@ -2368,6 +2436,7 @@ items:
     marketGroup: 772
     mass: 40000.0
     name: CONCORD Dual 1000mm Railgun
+    price: 4.6052412E7
     published: true
     volume: 4000.0
   CONCORD Ion Siege Blaster:
@@ -2404,6 +2473,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: CONCORD Ion Siege Blaster
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Caldari Navy 125mm Railgun:
@@ -2439,6 +2509,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Caldari Navy 125mm Railgun
+    price: 4484.0
     published: true
     volume: 5.0
   Caldari Navy 150mm Railgun:
@@ -2474,6 +2545,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Caldari Navy 150mm Railgun
+    price: 7496.0
     published: true
     volume: 5.0
   Caldari Navy 200mm Railgun:
@@ -2509,6 +2581,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Caldari Navy 200mm Railgun
+    price: 100000.0
     published: true
     volume: 10.0
   Caldari Navy 250mm Railgun:
@@ -2544,6 +2617,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Caldari Navy 250mm Railgun
+    price: 74980.0
     published: true
     volume: 10.0
   Caldari Navy 350mm Railgun:
@@ -2579,6 +2653,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Caldari Navy 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Caldari Navy 425mm Railgun:
@@ -2614,6 +2689,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Caldari Navy 425mm Railgun
+    price: 744812.0
     published: true
     volume: 20.0
   Caldari Navy 75mm Railgun:
@@ -2649,6 +2725,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Caldari Navy 75mm Railgun
+    price: 1000.0
     published: true
     volume: 5.0
   Caldari Navy Dual 150mm Railgun:
@@ -2684,6 +2761,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Caldari Navy Dual 150mm Railgun
+    price: 10000.0
     published: true
     volume: 10.0
   Caldari Navy Dual 250mm Railgun:
@@ -2719,6 +2797,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Caldari Navy Dual 250mm Railgun
+    price: 98972.0
     published: true
     volume: 20.0
   Carbide Compact Dual 1000mm Railgun:
@@ -2753,6 +2832,7 @@ items:
     marketGroup: 772
     mass: 40000.0
     name: Carbide Compact Dual 1000mm Railgun
+    price: 4.6052412E7
     published: true
     volume: 4000.0
   Compressed Enduring Dual 1000mm Railgun:
@@ -2787,6 +2867,7 @@ items:
     marketGroup: 772
     mass: 40000.0
     name: Compressed Enduring Dual 1000mm Railgun
+    price: 4.6052412E7
     published: true
     volume: 4000.0
   Cormack's Modified Electron Blaster Cannon:
@@ -2822,6 +2903,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Cormack's Modified Electron Blaster Cannon
+    price: 600000.0
     published: true
     volume: 20.0
   Cormack's Modified Ion Blaster Cannon:
@@ -2857,6 +2939,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Cormack's Modified Ion Blaster Cannon
+    price: 900000.0
     published: true
     volume: 20.0
   Cormack's Modified Neutron Blaster Cannon:
@@ -2892,6 +2975,7 @@ items:
     marketGroup: 563
     mass: 200.0
     name: Cormack's Modified Neutron Blaster Cannon
+    price: 1200000.0
     published: true
     volume: 20.0
   Dread Guristas 125mm Railgun:
@@ -2927,6 +3011,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Dread Guristas 125mm Railgun
+    price: 4484.0
     published: true
     volume: 5.0
   Dread Guristas 150mm Railgun:
@@ -2962,6 +3047,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Dread Guristas 150mm Railgun
+    price: 7496.0
     published: true
     volume: 5.0
   Dread Guristas 200mm Railgun:
@@ -2997,6 +3083,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dread Guristas 200mm Railgun
+    price: 100000.0
     published: true
     volume: 10.0
   Dread Guristas 250mm Railgun:
@@ -3032,6 +3119,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dread Guristas 250mm Railgun
+    price: 74980.0
     published: true
     volume: 10.0
   Dread Guristas 350mm Railgun:
@@ -3067,6 +3155,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dread Guristas 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Dread Guristas 425mm Railgun:
@@ -3102,6 +3191,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dread Guristas 425mm Railgun
+    price: 744812.0
     published: true
     volume: 20.0
   Dread Guristas 75mm Railgun:
@@ -3137,6 +3227,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Dread Guristas 75mm Railgun
+    price: 1000.0
     published: true
     volume: 5.0
   Dread Guristas Dual 150mm Railgun:
@@ -3172,6 +3263,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dread Guristas Dual 150mm Railgun
+    price: 10000.0
     published: true
     volume: 10.0
   Dread Guristas Dual 250mm Railgun:
@@ -3207,6 +3299,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dread Guristas Dual 250mm Railgun
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 1000mm Railgun I:
@@ -3240,6 +3333,7 @@ items:
     marketGroup: 772
     mass: 40000.0
     name: Dual 1000mm Railgun I
+    price: 4.6052412E7
     published: true
     volume: 4000.0
   Dual 1000mm Railgun II:
@@ -3277,6 +3371,7 @@ items:
     marketGroup: 772
     mass: 40000.0
     name: Dual 1000mm Railgun II
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Dual 150mm 'Scout' Accelerator Cannon:
@@ -3311,6 +3406,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm 'Scout' Accelerator Cannon
+    price: 10000.0
     published: true
     volume: 10.0
   Dual 150mm Carbide Railgun I:
@@ -3345,6 +3441,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Carbide Railgun I
+    price: 10000.0
     published: true
     volume: 10.0
   Dual 150mm Compressed Coil Gun I:
@@ -3379,6 +3476,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Compressed Coil Gun I
+    price: 10000.0
     published: true
     volume: 10.0
   Dual 150mm Prototype Gauss Gun:
@@ -3413,6 +3511,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Prototype Gauss Gun
+    price: 10000.0
     published: true
     volume: 10.0
   Dual 150mm Railgun I:
@@ -3446,6 +3545,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Railgun I
+    price: 20000.0
     published: true
     volume: 10.0
   Dual 150mm Railgun II:
@@ -3483,6 +3583,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Dual 150mm Railgun II
+    price: 253296.0
     published: true
     volume: 10.0
   Dual 250mm 'Scout' Accelerator Cannon:
@@ -3517,6 +3618,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm 'Scout' Accelerator Cannon
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 250mm Carbide Railgun I:
@@ -3551,6 +3653,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Carbide Railgun I
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 250mm Compressed Coil Gun I:
@@ -3585,6 +3688,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Compressed Coil Gun I
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 250mm Prototype Gauss Gun:
@@ -3619,6 +3723,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Prototype Gauss Gun
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 250mm Railgun I:
@@ -3652,6 +3757,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Railgun I
+    price: 200000.0
     published: true
     volume: 20.0
   Dual 250mm Railgun II:
@@ -3689,6 +3795,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Dual 250mm Railgun II
+    price: 583032.0
     published: true
     volume: 20.0
   Electron Blaster Cannon I:
@@ -3722,6 +3829,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Electron Blaster Cannon I
+    price: 600000.0
     published: true
     volume: 50.0
   Electron Blaster Cannon II:
@@ -3759,6 +3867,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Electron Blaster Cannon II
+    price: 1147680.0
     published: true
     volume: 20.0
   Estamel's Modified 350mm Railgun:
@@ -3794,6 +3903,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Estamel's Modified 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Estamel's Modified 425mm Railgun:
@@ -3829,6 +3939,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Estamel's Modified 425mm Railgun
+    price: 1500000.0
     published: true
     volume: 20.0
   Estamel's Modified Dual 250mm Railgun:
@@ -3864,6 +3975,7 @@ items:
     marketGroup: 566
     mass: 1500.0
     name: Estamel's Modified Dual 250mm Railgun
+    price: 200000.0
     published: true
     volume: 20.0
   Federation Navy 125mm Railgun:
@@ -3899,6 +4011,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Federation Navy 125mm Railgun
+    price: 4484.0
     published: true
     volume: 5.0
   Federation Navy 150mm Railgun:
@@ -3934,6 +4047,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Federation Navy 150mm Railgun
+    price: 7496.0
     published: true
     volume: 5.0
   Federation Navy 200mm Railgun:
@@ -3969,6 +4083,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Federation Navy 200mm Railgun
+    price: 100000.0
     published: true
     volume: 10.0
   Federation Navy 250mm Railgun:
@@ -4004,6 +4119,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Federation Navy 250mm Railgun
+    price: 74980.0
     published: true
     volume: 10.0
   Federation Navy 350mm Railgun:
@@ -4039,6 +4155,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Federation Navy 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Federation Navy 425mm Railgun:
@@ -4074,6 +4191,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Federation Navy 425mm Railgun
+    price: 744812.0
     published: true
     volume: 20.0
   Federation Navy 75mm Railgun:
@@ -4109,6 +4227,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Federation Navy 75mm Railgun
+    price: 1000.0
     published: true
     volume: 5.0
   Federation Navy Dual 150mm Railgun:
@@ -4144,6 +4263,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Federation Navy Dual 150mm Railgun
+    price: 10000.0
     published: true
     volume: 10.0
   Federation Navy Dual 250mm Railgun:
@@ -4179,6 +4299,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Federation Navy Dual 250mm Railgun
+    price: 98972.0
     published: true
     volume: 20.0
   Federation Navy Electron Blaster Cannon:
@@ -4214,6 +4335,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Federation Navy Electron Blaster Cannon
+    price: 298716.0
     published: true
     volume: 20.0
   Federation Navy Heavy Electron Blaster:
@@ -4249,6 +4371,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Federation Navy Heavy Electron Blaster
+    price: 25888.0
     published: true
     volume: 10.0
   Federation Navy Heavy Ion Blaster:
@@ -4284,6 +4407,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Federation Navy Heavy Ion Blaster
+    price: 44740.0
     published: true
     volume: 10.0
   Federation Navy Heavy Neutron Blaster:
@@ -4319,6 +4443,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Federation Navy Heavy Neutron Blaster
+    price: 59676.0
     published: true
     volume: 10.0
   Federation Navy Ion Blaster Cannon:
@@ -4354,6 +4479,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Federation Navy Ion Blaster Cannon
+    price: 448700.0
     published: true
     volume: 20.0
   Federation Navy Light Electron Blaster:
@@ -4389,6 +4515,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Federation Navy Light Electron Blaster
+    price: 1976.0
     published: true
     volume: 5.0
   Federation Navy Light Ion Blaster:
@@ -4424,6 +4551,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Federation Navy Light Ion Blaster
+    price: 4484.0
     published: true
     volume: 5.0
   Federation Navy Light Neutron Blaster:
@@ -4459,6 +4587,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Federation Navy Light Neutron Blaster
+    price: 5996.0
     published: true
     volume: 5.0
   Federation Navy Neutron Blaster Cannon:
@@ -4494,6 +4623,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Federation Navy Neutron Blaster Cannon
+    price: 595840.0
     published: true
     volume: 20.0
   Heavy Electron Blaster I:
@@ -4527,6 +4657,7 @@ items:
     marketGroup: 562
     mass: 2000.0
     name: Heavy Electron Blaster I
+    price: 60000.0
     published: true
     volume: 10.0
   Heavy Electron Blaster II:
@@ -4564,6 +4695,7 @@ items:
     marketGroup: 562
     mass: 2000.0
     name: Heavy Electron Blaster II
+    price: 262752.0
     published: true
     volume: 10.0
   Heavy Ion Blaster I:
@@ -4597,6 +4729,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Heavy Ion Blaster I
+    price: 90000.0
     published: true
     volume: 10.0
   Heavy Ion Blaster II:
@@ -4634,6 +4767,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Heavy Ion Blaster II
+    price: 370268.0
     published: true
     volume: 10.0
   Heavy Neutron Blaster I:
@@ -4667,6 +4801,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Heavy Neutron Blaster I
+    price: 120000.0
     published: true
     volume: 25.0
   Heavy Neutron Blaster II:
@@ -4704,6 +4839,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Heavy Neutron Blaster II
+    price: 443112.0
     published: true
     volume: 10.0
   Ion Blaster Cannon I:
@@ -4737,6 +4873,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Ion Blaster Cannon I
+    price: 900000.0
     published: true
     volume: 50.0
   Ion Blaster Cannon II:
@@ -4774,6 +4911,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Ion Blaster Cannon II
+    price: 1475200.0
     published: true
     volume: 20.0
   Ion Siege Blaster I:
@@ -4807,6 +4945,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Ion Siege Blaster I
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Ion Siege Blaster II:
@@ -4844,6 +4983,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Ion Siege Blaster II
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Kaikka's Modified 350mm Railgun:
@@ -4879,6 +5019,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Kaikka's Modified 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Kaikka's Modified 425mm Railgun:
@@ -4914,6 +5055,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Kaikka's Modified 425mm Railgun
+    price: 1500000.0
     published: true
     volume: 20.0
   Kaikka's Modified Dual 250mm Railgun:
@@ -4949,6 +5091,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Kaikka's Modified Dual 250mm Railgun
+    price: 200000.0
     published: true
     volume: 20.0
   Light Electron Blaster I:
@@ -4982,6 +5125,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Light Electron Blaster I
+    price: 6000.0
     published: true
     volume: 5.0
   Light Electron Blaster II:
@@ -5019,6 +5163,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Light Electron Blaster II
+    price: 74064.0
     published: true
     volume: 5.0
   Light Ion Blaster I:
@@ -5052,6 +5197,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Light Ion Blaster I
+    price: 9000.0
     published: true
     volume: 5.0
   Light Ion Blaster II:
@@ -5089,6 +5235,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Light Ion Blaster II
+    price: 109676.0
     published: true
     volume: 5.0
   Light Neutron Blaster I:
@@ -5122,6 +5269,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Light Neutron Blaster I
+    price: 12000.0
     published: true
     volume: 5.0
   Light Neutron Blaster II:
@@ -5159,6 +5307,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Light Neutron Blaster II
+    price: 148538.0
     published: true
     volume: 5.0
   Limited Electron Blaster Cannon I:
@@ -5193,6 +5342,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Limited Electron Blaster Cannon I
+    price: 298716.0
     published: true
     volume: 20.0
   Limited Electron Blaster I:
@@ -5227,6 +5377,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Limited Electron Blaster I
+    price: 25888.0
     published: true
     volume: 10.0
   Limited Ion Blaster I:
@@ -5261,6 +5412,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Limited Ion Blaster I
+    price: 44740.0
     published: true
     volume: 10.0
   Limited Light Electron Blaster I:
@@ -5295,6 +5447,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Limited Light Electron Blaster I
+    price: 1976.0
     published: true
     volume: 5.0
   Limited Light Ion Blaster I:
@@ -5329,6 +5482,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Limited Light Ion Blaster I
+    price: 4484.0
     published: true
     volume: 5.0
   Limited Light Neutron Blaster I:
@@ -5363,6 +5517,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Limited Light Neutron Blaster I
+    price: 5996.0
     published: true
     volume: 5.0
   Limited Mega Ion Blaster I:
@@ -5397,6 +5552,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Limited Mega Ion Blaster I
+    price: 448700.0
     published: true
     volume: 20.0
   Limited Mega Neutron Blaster I:
@@ -5431,6 +5587,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Limited Mega Neutron Blaster I
+    price: 595840.0
     published: true
     volume: 20.0
   Limited Neutron Blaster I:
@@ -5465,6 +5622,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Limited Neutron Blaster I
+    price: 59676.0
     published: true
     volume: 10.0
   Limited Precise Ion Siege Blaster:
@@ -5499,6 +5657,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Limited Precise Ion Siege Blaster
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Limited Precise Triple Neutron Blaster Cannon:
@@ -5533,6 +5692,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Limited Precise Triple Neutron Blaster Cannon
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Modal Electron Particle Accelerator I:
@@ -5567,6 +5727,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Modal Electron Particle Accelerator I
+    price: 25888.0
     published: true
     volume: 10.0
   Modal Enduring Ion Siege Blaster:
@@ -5601,6 +5762,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Modal Enduring Ion Siege Blaster
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Modal Enduring Triple Neutron Blaster Cannon:
@@ -5635,6 +5797,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Modal Enduring Triple Neutron Blaster Cannon
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Modal Ion Particle Accelerator I:
@@ -5669,6 +5832,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Modal Ion Particle Accelerator I
+    price: 44740.0
     published: true
     volume: 10.0
   Modal Light Electron Particle Accelerator I:
@@ -5703,6 +5867,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Modal Light Electron Particle Accelerator I
+    price: 1976.0
     published: true
     volume: 5.0
   Modal Light Ion Particle Accelerator I:
@@ -5737,6 +5902,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Modal Light Ion Particle Accelerator I
+    price: 4484.0
     published: true
     volume: 5.0
   Modal Light Neutron Particle Accelerator I:
@@ -5771,6 +5937,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Modal Light Neutron Particle Accelerator I
+    price: 5996.0
     published: true
     volume: 5.0
   Modal Mega Electron Particle Accelerator I:
@@ -5805,6 +5972,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Modal Mega Electron Particle Accelerator I
+    price: 298716.0
     published: true
     volume: 20.0
   Modal Mega Ion Particle Accelerator I:
@@ -5839,6 +6007,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Modal Mega Ion Particle Accelerator I
+    price: 448700.0
     published: true
     volume: 20.0
   Modal Mega Neutron Particle Accelerator I:
@@ -5873,6 +6042,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Modal Mega Neutron Particle Accelerator I
+    price: 595840.0
     published: true
     volume: 20.0
   Modal Neutron Particle Accelerator I:
@@ -5907,6 +6077,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Modal Neutron Particle Accelerator I
+    price: 59676.0
     published: true
     volume: 10.0
   Neutron Blaster Cannon I:
@@ -5940,6 +6111,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Neutron Blaster Cannon I
+    price: 1200000.0
     published: true
     volume: 50.0
   Neutron Blaster Cannon II:
@@ -5977,6 +6149,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Neutron Blaster Cannon II
+    price: 1446592.0
     published: true
     volume: 20.0
   Polarized Heavy Neutron Blaster:
@@ -6016,6 +6189,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Polarized Heavy Neutron Blaster
+    price: 443112.0
     published: true
     volume: 10.0
   Polarized Light Neutron Blaster:
@@ -6055,6 +6229,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Polarized Light Neutron Blaster
+    price: 148538.0
     published: true
     volume: 5.0
   Polarized Neutron Blaster Cannon:
@@ -6094,6 +6269,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Polarized Neutron Blaster Cannon
+    price: 1446592.0
     published: true
     volume: 20.0
   Prototype Precise Dual 1000mm Railgun:
@@ -6128,6 +6304,7 @@ items:
     marketGroup: 772
     mass: 40000.0
     name: Prototype Precise Dual 1000mm Railgun
+    price: 4.6052412E7
     published: true
     volume: 4000.0
   Regulated Compact Ion Siege Blaster:
@@ -6162,6 +6339,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Regulated Compact Ion Siege Blaster
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Regulated Compact Triple Neutron Blaster Cannon:
@@ -6196,6 +6374,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Regulated Compact Triple Neutron Blaster Cannon
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Regulated Electron Phase Cannon I:
@@ -6230,6 +6409,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Regulated Electron Phase Cannon I
+    price: 25888.0
     published: true
     volume: 10.0
   Regulated Ion Phase Cannon I:
@@ -6264,6 +6444,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Regulated Ion Phase Cannon I
+    price: 44740.0
     published: true
     volume: 10.0
   Regulated Light Electron Phase Cannon I:
@@ -6298,6 +6479,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Regulated Light Electron Phase Cannon I
+    price: 1976.0
     published: true
     volume: 5.0
   Regulated Light Ion Phase Cannon I:
@@ -6332,6 +6514,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Regulated Light Ion Phase Cannon I
+    price: 4484.0
     published: true
     volume: 5.0
   Regulated Light Neutron Phase Cannon I:
@@ -6366,6 +6549,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Regulated Light Neutron Phase Cannon I
+    price: 5996.0
     published: true
     volume: 5.0
   Regulated Mega Electron Phase Cannon I:
@@ -6400,6 +6584,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Regulated Mega Electron Phase Cannon I
+    price: 298716.0
     published: true
     volume: 20.0
   Regulated Mega Ion Phase Cannon I:
@@ -6434,6 +6619,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Regulated Mega Ion Phase Cannon I
+    price: 448700.0
     published: true
     volume: 20.0
   Regulated Mega Neutron Phase Cannon I:
@@ -6468,6 +6654,7 @@ items:
     marketGroup: 563
     mass: 1000.0
     name: Regulated Mega Neutron Phase Cannon I
+    price: 595840.0
     published: true
     volume: 20.0
   Regulated Neutron Phase Cannon I:
@@ -6502,6 +6689,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Regulated Neutron Phase Cannon I
+    price: 59676.0
     published: true
     volume: 10.0
   Scout Scoped Dual 1000mm Railgun:
@@ -6536,6 +6724,7 @@ items:
     marketGroup: 772
     mass: 40000.0
     name: Scout Scoped Dual 1000mm Railgun
+    price: 4.6052412E7
     published: true
     volume: 4000.0
   Setele's Modified 350mm Railgun:
@@ -6571,6 +6760,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Setele's Modified 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Setele's Modified 425mm Railgun:
@@ -6606,6 +6796,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Setele's Modified 425mm Railgun
+    price: 1500000.0
     published: true
     volume: 20.0
   Setele's Modified Dual 250mm Railgun:
@@ -6641,6 +6832,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Setele's Modified Dual 250mm Railgun
+    price: 200000.0
     published: true
     volume: 20.0
   Shadow Serpentis 125mm Railgun:
@@ -6676,6 +6868,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Shadow Serpentis 125mm Railgun
+    price: 4484.0
     published: true
     volume: 5.0
   Shadow Serpentis 150mm Railgun:
@@ -6711,6 +6904,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Shadow Serpentis 150mm Railgun
+    price: 7496.0
     published: true
     volume: 5.0
   Shadow Serpentis 200mm Railgun:
@@ -6746,6 +6940,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Shadow Serpentis 200mm Railgun
+    price: 100000.0
     published: true
     volume: 10.0
   Shadow Serpentis 250mm Railgun:
@@ -6781,6 +6976,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Shadow Serpentis 250mm Railgun
+    price: 74980.0
     published: true
     volume: 10.0
   Shadow Serpentis 350mm Railgun:
@@ -6816,6 +7012,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Shadow Serpentis 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Shadow Serpentis 425mm Railgun:
@@ -6851,6 +7048,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Shadow Serpentis 425mm Railgun
+    price: 744812.0
     published: true
     volume: 20.0
   Shadow Serpentis 75mm Railgun:
@@ -6886,6 +7084,7 @@ items:
     marketGroup: 564
     mass: 500.0
     name: Shadow Serpentis 75mm Railgun
+    price: 1000.0
     published: true
     volume: 5.0
   Shadow Serpentis Dual 1000mm Railgun:
@@ -6922,6 +7121,7 @@ items:
     marketGroup: 772
     mass: 40000.0
     name: Shadow Serpentis Dual 1000mm Railgun
+    price: 4.6052412E7
     published: true
     volume: 4000.0
   Shadow Serpentis Dual 150mm Railgun:
@@ -6957,6 +7157,7 @@ items:
     marketGroup: 565
     mass: 1000.0
     name: Shadow Serpentis Dual 150mm Railgun
+    price: 10000.0
     published: true
     volume: 10.0
   Shadow Serpentis Dual 250mm Railgun:
@@ -6992,6 +7193,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Shadow Serpentis Dual 250mm Railgun
+    price: 98972.0
     published: true
     volume: 20.0
   Shadow Serpentis Electron Blaster Cannon:
@@ -7027,6 +7229,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Shadow Serpentis Electron Blaster Cannon
+    price: 298716.0
     published: true
     volume: 20.0
   Shadow Serpentis Heavy Electron Blaster:
@@ -7062,6 +7265,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Shadow Serpentis Heavy Electron Blaster
+    price: 25888.0
     published: true
     volume: 10.0
   Shadow Serpentis Heavy Ion Blaster:
@@ -7097,6 +7301,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Shadow Serpentis Heavy Ion Blaster
+    price: 44740.0
     published: true
     volume: 10.0
   Shadow Serpentis Heavy Neutron Blaster:
@@ -7132,6 +7337,7 @@ items:
     marketGroup: 562
     mass: 1000.0
     name: Shadow Serpentis Heavy Neutron Blaster
+    price: 59676.0
     published: true
     volume: 10.0
   Shadow Serpentis Ion Blaster Cannon:
@@ -7167,6 +7373,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Shadow Serpentis Ion Blaster Cannon
+    price: 448700.0
     published: true
     volume: 20.0
   Shadow Serpentis Ion Siege Blaster:
@@ -7203,6 +7410,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Shadow Serpentis Ion Siege Blaster
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Shadow Serpentis Light Electron Blaster:
@@ -7238,6 +7446,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Shadow Serpentis Light Electron Blaster
+    price: 1976.0
     published: true
     volume: 5.0
   Shadow Serpentis Light Ion Blaster:
@@ -7273,6 +7482,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Shadow Serpentis Light Ion Blaster
+    price: 4484.0
     published: true
     volume: 5.0
   Shadow Serpentis Light Neutron Blaster:
@@ -7308,6 +7518,7 @@ items:
     marketGroup: 561
     mass: 500.0
     name: Shadow Serpentis Light Neutron Blaster
+    price: 5996.0
     published: true
     volume: 5.0
   Shadow Serpentis Neutron Blaster Cannon:
@@ -7343,6 +7554,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Shadow Serpentis Neutron Blaster Cannon
+    price: 595840.0
     published: true
     volume: 20.0
   Shadow Serpentis Triple Neutron Blaster Cannon:
@@ -7379,6 +7591,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Shadow Serpentis Triple Neutron Blaster Cannon
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Triple Neutron Blaster Cannon I:
@@ -7412,6 +7625,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Triple Neutron Blaster Cannon I
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Triple Neutron Blaster Cannon II:
@@ -7449,6 +7663,7 @@ items:
     marketGroup: 771
     mass: 40000.0
     name: Triple Neutron Blaster Cannon II
+    price: 3.6286548E7
     published: true
     volume: 4000.0
   Tuvan's Modified Electron Blaster Cannon:
@@ -7484,6 +7699,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Tuvan's Modified Electron Blaster Cannon
+    price: 600000.0
     published: true
     volume: 20.0
   Tuvan's Modified Ion Blaster Cannon:
@@ -7519,6 +7735,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Tuvan's Modified Ion Blaster Cannon
+    price: 900000.0
     published: true
     volume: 20.0
   Tuvan's Modified Neutron Blaster Cannon:
@@ -7554,6 +7771,7 @@ items:
     marketGroup: 563
     mass: 2000.0
     name: Tuvan's Modified Neutron Blaster Cannon
+    price: 1200000.0
     published: true
     volume: 20.0
   Vepas' Modified 350mm Railgun:
@@ -7589,6 +7807,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Vepas' Modified 350mm Railgun
+    price: 1000000.0
     published: true
     volume: 20.0
   Vepas' Modified 425mm Railgun:
@@ -7624,6 +7843,7 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Vepas' Modified 425mm Railgun
+    price: 1500000.0
     published: true
     volume: 20.0
   Vepas' Modified Dual 250mm Railgun:
@@ -7659,5 +7879,6 @@ items:
     marketGroup: 566
     mass: 2000.0
     name: Vepas' Modified Dual 250mm Railgun
+    price: 200000.0
     published: true
     volume: 20.0

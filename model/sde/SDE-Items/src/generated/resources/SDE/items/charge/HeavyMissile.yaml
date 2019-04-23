@@ -28,6 +28,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Caldari Navy Inferno Heavy Missile
+    price: 3000.0
     published: true
     volume: 0.03
   Caldari Navy Mjolnir Heavy Missile:
@@ -59,6 +60,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Caldari Navy Mjolnir Heavy Missile
+    price: 3500.0
     published: true
     volume: 0.03
   Caldari Navy Nova Heavy Missile:
@@ -90,6 +92,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Caldari Navy Nova Heavy Missile
+    price: 2000.0
     published: true
     volume: 0.03
   Caldari Navy Scourge Heavy Missile:
@@ -121,6 +124,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Caldari Navy Scourge Heavy Missile
+    price: 2500.0
     published: true
     volume: 0.03
   Dread Guristas Inferno Heavy Missile:
@@ -152,6 +156,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Dread Guristas Inferno Heavy Missile
+    price: 3000.0
     published: true
     volume: 0.03
   Dread Guristas Mjolnir Heavy Missile:
@@ -183,6 +188,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Dread Guristas Mjolnir Heavy Missile
+    price: 3500.0
     published: true
     volume: 0.03
   Dread Guristas Nova Heavy Missile:
@@ -214,6 +220,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Dread Guristas Nova Heavy Missile
+    price: 2000.0
     published: true
     volume: 0.03
   Dread Guristas Scourge Heavy Missile:
@@ -245,6 +252,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Dread Guristas Scourge Heavy Missile
+    price: 2500.0
     published: true
     volume: 0.03
   Guristas Inferno Heavy Missile:
@@ -276,6 +284,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Guristas Inferno Heavy Missile
+    price: 3000.0
     published: true
     volume: 0.03
   Guristas Mjolnir Heavy Missile:
@@ -307,6 +316,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Guristas Mjolnir Heavy Missile
+    price: 3500.0
     published: true
     volume: 0.03
   Guristas Nova Heavy Missile:
@@ -338,6 +348,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Guristas Nova Heavy Missile
+    price: 2000.0
     published: true
     volume: 0.03
   Guristas Scourge Heavy Missile:
@@ -369,6 +380,7 @@ items:
     marketGroup: 1002
     mass: 1000.0
     name: Guristas Scourge Heavy Missile
+    price: 2500.0
     published: true
     volume: 0.03
   Inferno Heavy Missile:
@@ -398,6 +410,7 @@ items:
     marketGroup: 924
     mass: 1000.0
     name: Inferno Heavy Missile
+    price: 3000.0
     published: true
     volume: 0.03
   Mjolnir Heavy Missile:
@@ -427,6 +440,7 @@ items:
     marketGroup: 924
     mass: 1000.0
     name: Mjolnir Heavy Missile
+    price: 3500.0
     published: true
     volume: 0.03
   Nova Heavy Missile:
@@ -456,6 +470,7 @@ items:
     marketGroup: 924
     mass: 1000.0
     name: Nova Heavy Missile
+    price: 2000.0
     published: true
     volume: 0.03
   Scourge Heavy Missile:
@@ -485,5 +500,6 @@ items:
     marketGroup: 924
     mass: 1000.0
     name: Scourge Heavy Missile
+    price: 2500.0
     published: true
     volume: 0.03

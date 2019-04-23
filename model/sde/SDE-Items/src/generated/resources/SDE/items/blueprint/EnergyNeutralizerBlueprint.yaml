@@ -26,6 +26,7 @@ items:
     id: 40672
     marketGroup: 1565
     name: Capital Energy Neutralizer I Blueprint
+    price: 1.8E7
     published: true
     volume: 0.01
   Capital Energy Neutralizer II Blueprint:
@@ -33,6 +34,7 @@ items:
     TechLevel: 2
     id: 40675
     name: Capital Energy Neutralizer II Blueprint
+    price: 4.0E7
     published: true
     volume: 0.01
   Capital Gremlin Compact Energy Neutralizer Blueprint:
@@ -41,6 +43,7 @@ items:
     id: 40673
     marketGroup: 1565
     name: Capital Gremlin Compact Energy Neutralizer Blueprint
+    price: 3.6E7
     published: true
     volume: 0.01
   Capital Infectious Scoped Energy Neutralizer Blueprint:
@@ -49,6 +52,7 @@ items:
     id: 40674
     marketGroup: 1565
     name: Capital Infectious Scoped Energy Neutralizer Blueprint
+    price: 3.6E7
     published: true
     volume: 0.01
   Dark Blood Capital Energy Neutralizer Blueprint:
@@ -56,6 +60,7 @@ items:
     TechLevel: 1
     id: 40677
     name: Dark Blood Capital Energy Neutralizer Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01
   Heavy 'Moat' Energy Neutralizer Blueprint:
@@ -71,6 +76,7 @@ items:
     id: 12270
     marketGroup: 1565
     name: Heavy Energy Neutralizer I Blueprint
+    price: 4996740.0
     published: true
     volume: 0.01
   Heavy Energy Neutralizer II Blueprint:
@@ -78,6 +84,7 @@ items:
     TechLevel: 2
     id: 12272
     name: Heavy Energy Neutralizer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Imperial Navy Heavy Energy Neutralizer Blueprint:
@@ -114,6 +121,7 @@ items:
     id: 12266
     marketGroup: 1565
     name: Medium Energy Neutralizer I Blueprint
+    price: 998400.0
     published: true
     volume: 0.01
   Medium Energy Neutralizer II Blueprint:
@@ -121,6 +129,7 @@ items:
     TechLevel: 2
     id: 12268
     name: Medium Energy Neutralizer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Small 'Caltrop' Energy Neutralizer Blueprint:
@@ -136,6 +145,7 @@ items:
     id: 1109
     marketGroup: 1565
     name: Small Energy Neutralizer I Blueprint
+    price: 199680.0
     published: true
     volume: 0.01
   Small Energy Neutralizer II Blueprint:
@@ -143,6 +153,7 @@ items:
     TechLevel: 2
     id: 13004
     name: Small Energy Neutralizer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   True Sansha Capital Energy Neutralizer Blueprint:
@@ -150,5 +161,6 @@ items:
     TechLevel: 1
     id: 40676
     name: True Sansha Capital Energy Neutralizer Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01

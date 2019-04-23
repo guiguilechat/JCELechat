@@ -61,6 +61,7 @@ items:
     id: 1809
     marketGroup: 1554
     name: EM Ward Amplifier I Blueprint
+    price: 187420.0
     published: true
     volume: 0.01
   EM Ward Amplifier II Blueprint:
@@ -68,6 +69,7 @@ items:
     TechLevel: 2
     id: 2554
     name: EM Ward Amplifier II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Explosive Deflection Amplifier I Blueprint:
@@ -76,6 +78,7 @@ items:
     id: 2530
     marketGroup: 1554
     name: Explosive Deflection Amplifier I Blueprint
+    price: 187420.0
     published: true
     volume: 0.01
   Explosive Deflection Amplifier II Blueprint:
@@ -83,6 +86,7 @@ items:
     TechLevel: 2
     id: 2532
     name: Explosive Deflection Amplifier II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Kinetic Deflection Amplifier I Blueprint:
@@ -91,6 +95,7 @@ items:
     id: 2546
     marketGroup: 1554
     name: Kinetic Deflection Amplifier I Blueprint
+    price: 187420.0
     published: true
     volume: 0.01
   Kinetic Deflection Amplifier II Blueprint:
@@ -98,6 +103,7 @@ items:
     TechLevel: 2
     id: 2548
     name: Kinetic Deflection Amplifier II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Republic Fleet EM Ward Amplifier Blueprint:
@@ -134,6 +140,7 @@ items:
     id: 2538
     marketGroup: 1554
     name: Thermal Dissipation Amplifier I Blueprint
+    price: 187420.0
     published: true
     volume: 0.01
   Thermal Dissipation Amplifier II Blueprint:
@@ -141,5 +148,6 @@ items:
     TechLevel: 2
     id: 2540
     name: Thermal Dissipation Amplifier II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

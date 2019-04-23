@@ -12,6 +12,7 @@ items:
     marketGroup: 521
     mass: 1.0E35
     name: Compressed Crokite
+    price: 7639790.0
     published: true
     volume: 7.81
   Compressed Crystalline Crokite:
@@ -27,6 +28,7 @@ items:
     marketGroup: 521
     mass: 1.0E35
     name: Compressed Crystalline Crokite
+    price: 8400440.0
     published: true
     volume: 7.81
   Compressed Pellucid Crokite:
@@ -42,6 +44,7 @@ items:
     marketGroup: 521
     mass: 1.0
     name: Compressed Pellucid Crokite
+    price: 384500.0
     published: true
     volume: 7.81
   Compressed Sharp Crokite:
@@ -57,6 +60,7 @@ items:
     marketGroup: 521
     mass: 1.0E35
     name: Compressed Sharp Crokite
+    price: 8021400.0
     published: true
     volume: 7.81
   Crokite:
@@ -74,6 +78,7 @@ items:
     marketGroup: 521
     mass: 1.0E35
     name: Crokite
+    price: 1527958.0
     published: true
     volume: 16.0
   Crystalline Crokite:
@@ -91,6 +96,7 @@ items:
     marketGroup: 521
     mass: 1.0E35
     name: Crystalline Crokite
+    price: 1680088.0
     published: true
     volume: 16.0
   Geodite:
@@ -104,6 +110,7 @@ items:
     id: 28624
     mass: 1.0E35
     name: Geodite
+    price: 2000.0
     published: true
     volume: 16.0
   Pellucid Crokite:
@@ -121,6 +128,7 @@ items:
     marketGroup: 521
     mass: 1.0E35
     name: Pellucid Crokite
+    price: 3500.0
     published: true
     volume: 16.0
   Sharp Crokite:
@@ -138,5 +146,6 @@ items:
     marketGroup: 521
     mass: 1.0E35
     name: Sharp Crokite
+    price: 1604280.0
     published: true
     volume: 16.0

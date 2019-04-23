@@ -40,6 +40,7 @@ items:
     id: 49722
     mass: 1.0
     name: Abyssal Magnetic Field Stabilizer
+    price: 1000.0
     published: true
     volume: 1.0
   Brynn's Modified Magnetic Field Stabilizer:

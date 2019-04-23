@@ -10,6 +10,7 @@ items:
     id: 33178
     marketGroup: 1709
     name: Scan Pinpointing Array I
+    price: 9870.0
     published: true
     volume: 5.0
   Scan Pinpointing Array II:
@@ -24,6 +25,7 @@ items:
     id: 33199
     marketGroup: 1709
     name: Scan Pinpointing Array II
+    price: 9870.0
     published: true
     volume: 5.0
   Scan Rangefinding Array I:
@@ -37,6 +39,7 @@ items:
     id: 33180
     marketGroup: 1709
     name: Scan Rangefinding Array I
+    price: 9870.0
     published: true
     volume: 5.0
   Scan Rangefinding Array II:
@@ -52,5 +55,6 @@ items:
     id: 33201
     marketGroup: 1709
     name: Scan Rangefinding Array II
+    price: 9870.0
     published: true
     volume: 5.0

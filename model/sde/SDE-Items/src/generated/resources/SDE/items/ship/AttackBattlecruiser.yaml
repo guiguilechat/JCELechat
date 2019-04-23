@@ -74,6 +74,7 @@ items:
     marketGroup: 471
     mass: 1.5E7
     name: Naga
+    price: 6.15E7
     published: true
     volume: 252000.0
   Oracle:
@@ -151,6 +152,7 @@ items:
     marketGroup: 470
     mass: 1.476E7
     name: Oracle
+    price: 6.25E7
     published: true
     volume: 234000.0
   Talos:
@@ -230,6 +232,7 @@ items:
     marketGroup: 472
     mass: 1.5552E7
     name: Talos
+    price: 6.5E7
     published: true
     volume: 270000.0
   Tornado:
@@ -307,5 +310,6 @@ items:
     marketGroup: 473
     mass: 1.5228E7
     name: Tornado
+    price: 5.92E7
     published: true
     volume: 216000.0

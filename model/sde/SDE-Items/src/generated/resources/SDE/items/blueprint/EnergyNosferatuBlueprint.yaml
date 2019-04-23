@@ -26,6 +26,7 @@ items:
     id: 40684
     marketGroup: 1564
     name: Capital Energy Nosferatu I Blueprint
+    price: 2.9E7
     published: true
     volume: 0.01
   Capital Energy Nosferatu II Blueprint:
@@ -33,6 +34,7 @@ items:
     TechLevel: 2
     id: 40687
     name: Capital Energy Nosferatu II Blueprint
+    price: 4.0E7
     published: true
     volume: 0.01
   Capital Ghoul Compact Energy Nosferatu Blueprint:
@@ -41,6 +43,7 @@ items:
     id: 40685
     marketGroup: 1564
     name: Capital Ghoul Compact Energy Nosferatu Blueprint
+    price: 5.8E7
     published: true
     volume: 0.01
   Capital Knave Scoped Energy Nosferatu Blueprint:
@@ -49,6 +52,7 @@ items:
     id: 40686
     marketGroup: 1564
     name: Capital Knave Scoped Energy Nosferatu Blueprint
+    price: 5.8E7
     published: true
     volume: 0.01
   Dark Blood Capital Energy Nosferatu Blueprint:
@@ -56,6 +60,7 @@ items:
     TechLevel: 1
     id: 40689
     name: Dark Blood Capital Energy Nosferatu Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01
   Heavy 'Vrykolakas' Energy Nosferatu Blueprint:
@@ -71,6 +76,7 @@ items:
     id: 12262
     marketGroup: 1564
     name: Heavy Energy Nosferatu I Blueprint
+    price: 9876000.0
     published: true
     volume: 0.01
   Heavy Energy Nosferatu II Blueprint:
@@ -78,6 +84,7 @@ items:
     TechLevel: 2
     id: 12264
     name: Heavy Energy Nosferatu II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Imperial Navy Heavy Energy Nosferatu Blueprint:
@@ -114,6 +121,7 @@ items:
     id: 12258
     marketGroup: 1564
     name: Medium Energy Nosferatu I Blueprint
+    price: 1975200.0
     published: true
     volume: 0.01
   Medium Energy Nosferatu II Blueprint:
@@ -121,6 +129,7 @@ items:
     TechLevel: 2
     id: 12260
     name: Medium Energy Nosferatu II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Small 'Upir' Energy Nosferatu Blueprint:
@@ -136,6 +145,7 @@ items:
     id: 1106
     marketGroup: 1564
     name: Small Energy Nosferatu I Blueprint
+    price: 395040.0
     published: true
     volume: 0.01
   Small Energy Nosferatu II Blueprint:
@@ -150,5 +160,6 @@ items:
     TechLevel: 1
     id: 40688
     name: True Sansha Capital Energy Nosferatu Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01

@@ -12,6 +12,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Bitumens
+    price: 1500.0
     published: true
     volume: 10.0
   Brimful Bitumens:
@@ -27,6 +28,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Brimful Bitumens
+    price: 1500.0
     published: true
     volume: 10.0
   Brimful Coesite:
@@ -42,6 +44,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Brimful Coesite
+    price: 1500.0
     published: true
     volume: 10.0
   Brimful Sylvite:
@@ -57,6 +60,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Brimful Sylvite
+    price: 1500.0
     published: true
     volume: 10.0
   Brimful Zeolites:
@@ -72,6 +76,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Brimful Zeolites
+    price: 1500.0
     published: true
     volume: 10.0
   Coesite:
@@ -87,6 +92,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Coesite
+    price: 1500.0
     published: true
     volume: 10.0
   Glistening Bitumens:
@@ -102,6 +108,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Glistening Bitumens
+    price: 1500.0
     published: true
     volume: 10.0
   Glistening Coesite:
@@ -117,6 +124,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Glistening Coesite
+    price: 1500.0
     published: true
     volume: 10.0
   Glistening Sylvite:
@@ -132,6 +140,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Glistening Sylvite
+    price: 3000.0
     published: true
     volume: 10.0
   Glistening Zeolites:
@@ -147,6 +156,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Glistening Zeolites
+    price: 3000.0
     published: true
     volume: 10.0
   Sylvite:
@@ -162,6 +172,7 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Sylvite
+    price: 1500.0
     published: true
     volume: 10.0
   Zeolites:
@@ -177,5 +188,6 @@ items:
     marketGroup: 2396
     mass: 4000.0
     name: Zeolites
+    price: 1500.0
     published: true
     volume: 10.0

@@ -17,6 +17,7 @@ items:
     marketGroup: 872
     mass: 50.0
     name: Capital Tractor Beam I
+    price: 1555840.0
     published: true
     volume: 4000.0
   Capital Tractor Beam II:
@@ -39,6 +40,7 @@ items:
     marketGroup: 872
     mass: 50.0
     name: Capital Tractor Beam II
+    price: 1555840.0
     published: true
     volume: 4000.0
   Small Tractor Beam I:
@@ -58,6 +60,7 @@ items:
     marketGroup: 872
     mass: 50.0
     name: Small Tractor Beam I
+    price: 1308176.0
     published: true
     volume: 50.0
   Small Tractor Beam II:
@@ -79,5 +82,6 @@ items:
     marketGroup: 872
     mass: 50.0
     name: Small Tractor Beam II
+    price: 1308176.0
     published: true
     volume: 50.0

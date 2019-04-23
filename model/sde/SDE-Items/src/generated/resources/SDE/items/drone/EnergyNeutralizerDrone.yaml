@@ -54,6 +54,7 @@ items:
     marketGroup: 843
     mass: 3000.0
     name: Acolyte EV-300
+    price: 2000.0
     published: true
     volume: 5.0
   Infiltrator EV-600:
@@ -111,6 +112,7 @@ items:
     marketGroup: 843
     mass: 3000.0
     name: Infiltrator EV-600
+    price: 17000.0
     published: true
     volume: 10.0
   Praetor EV-900:
@@ -168,5 +170,6 @@ items:
     marketGroup: 843
     mass: 3000.0
     name: Praetor EV-900
+    price: 60000.0
     published: true
     volume: 25.0

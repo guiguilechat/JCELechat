@@ -28,6 +28,7 @@ items:
     marketGroup: 484
     mass: 1.0E8
     name: Ship Maintenance Array
+    price: 2.0E7
     published: true
     volume: 8000.0
   X-Large Ship Maintenance Array:
@@ -59,5 +60,6 @@ items:
     marketGroup: 484
     mass: 2.0E9
     name: X-Large Ship Maintenance Array
+    price: 1.0E9
     published: true
     volume: 40000.0

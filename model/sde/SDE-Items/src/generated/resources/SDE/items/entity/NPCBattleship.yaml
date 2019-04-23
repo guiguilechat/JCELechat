@@ -30,8 +30,8 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
-    id: 46055
-    mass: 9.71E7
+    id: 45055
+    mass: 1.02725E8
     name: ♦ Bhaalgorn
     published: false
     volume: 486000.0
@@ -179,3 +179,27 @@ items:
     name: ♦ test_boss
     published: false
     volume: 1010000.0
+  ��� Apocalypse:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 45056
+    mass: 1.0235E8
+    name: ��� Apocalypse
+    published: false
+    volume: 495000.0
+  ��� Bhaalgorn:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 46055
+    mass: 9.71E7
+    name: ��� Bhaalgorn
+    published: false
+    volume: 486000.0

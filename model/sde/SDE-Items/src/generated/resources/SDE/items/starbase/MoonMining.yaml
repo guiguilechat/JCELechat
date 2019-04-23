@@ -25,5 +25,6 @@ items:
     marketGroup: 488
     mass: 2.0E8
     name: Moon Harvesting Array
+    price: 5000000.0
     published: true
     volume: 4000.0

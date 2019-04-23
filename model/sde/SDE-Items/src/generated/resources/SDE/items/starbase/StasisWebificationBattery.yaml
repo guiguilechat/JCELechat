@@ -45,6 +45,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Angel Stasis Webification Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   Domination Stasis Webification Battery:
@@ -93,6 +94,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Domination Stasis Webification Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   Stasis Webification Battery:
@@ -140,5 +142,6 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Stasis Webification Battery
+    price: 5000000.0
     published: true
     volume: 4000.0

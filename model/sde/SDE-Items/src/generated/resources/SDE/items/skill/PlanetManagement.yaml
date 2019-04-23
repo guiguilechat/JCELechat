@@ -9,6 +9,7 @@ items:
     id: 2403
     marketGroup: 1823
     name: Advanced Planetology
+    price: 7500000.0
     published: true
     volume: 0.01
   Command Center Upgrades:
@@ -18,6 +19,7 @@ items:
     id: 2505
     marketGroup: 1823
     name: Command Center Upgrades
+    price: 500000.0
     published: true
     volume: 0.01
   Interplanetary Consolidation:
@@ -27,6 +29,7 @@ items:
     id: 2495
     marketGroup: 1823
     name: Interplanetary Consolidation
+    price: 500000.0
     published: true
     volume: 0.01
   Planetology:
@@ -40,6 +43,7 @@ items:
     id: 2406
     marketGroup: 1823
     name: Planetology
+    price: 1000000.0
     published: true
     volume: 0.01
   Remote Sensing:
@@ -51,5 +55,6 @@ items:
     id: 13279
     marketGroup: 1823
     name: Remote Sensing
+    price: 250000.0
     published: true
     volume: 0.01

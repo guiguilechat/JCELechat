@@ -5,6 +5,7 @@ items:
     marketGroup: 1016
     mass: 1.0
     name: Concussion Bomb Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Electron Bomb Blueprint:
@@ -13,6 +14,7 @@ items:
     marketGroup: 1016
     mass: 1.0
     name: Electron Bomb Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Lockbreaker Bomb Blueprint:
@@ -21,6 +23,7 @@ items:
     marketGroup: 1016
     mass: 1.0
     name: Lockbreaker Bomb Blueprint
+    price: 1.5E8
     published: true
     volume: 0.01
   Scorch Bomb Blueprint:
@@ -29,6 +32,7 @@ items:
     marketGroup: 1016
     mass: 1.0
     name: Scorch Bomb Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Shrapnel Bomb Blueprint:
@@ -37,6 +41,7 @@ items:
     marketGroup: 1016
     mass: 1.0
     name: Shrapnel Bomb Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Void Bomb Blueprint:
@@ -45,5 +50,6 @@ items:
     marketGroup: 1016
     mass: 1.0
     name: Void Bomb Blueprint
+    price: 1.5E8
     published: true
     volume: 0.01

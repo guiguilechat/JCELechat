@@ -26,6 +26,7 @@ items:
     id: 1096
     marketGroup: 343
     name: Gyrostabilizer I Blueprint
+    price: 243200.0
     published: true
     volume: 0.01
   Gyrostabilizer II Blueprint:
@@ -33,12 +34,14 @@ items:
     TechLevel: 2
     id: 1095
     name: Gyrostabilizer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Kaatara's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
     id: 44116
     name: Kaatara's Custom Magnetic Field Stabilizer Blueprint
+    price: 249940.0
     published: true
     volume: 0.01
   Magnetic Field Stabilizer I Blueprint:
@@ -47,6 +50,7 @@ items:
     id: 9945
     marketGroup: 343
     name: Magnetic Field Stabilizer I Blueprint
+    price: 249940.0
     published: true
     volume: 0.01
   Magnetic Field Stabilizer II Blueprint:
@@ -54,6 +58,7 @@ items:
     TechLevel: 2
     id: 10191
     name: Magnetic Field Stabilizer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Republic Fleet Gyrostabilizer Blueprint:
@@ -67,11 +72,13 @@ items:
     TechLevel: 1
     id: 44115
     name: Torelle's Custom Magnetic Field Stabilizer Blueprint
+    price: 249940.0
     published: true
     volume: 0.01
   Vadari's Custom Gyrostabilizer Blueprint:
     TechLevel: 1
     id: 44117
     name: Vadari's Custom Gyrostabilizer Blueprint
+    price: 243200.0
     published: true
     volume: 0.01

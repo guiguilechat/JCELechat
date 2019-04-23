@@ -10,6 +10,7 @@ items:
     marketGroup: 106
     mass: 0.1
     name: Antimatter Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Antimatter Charge M:
@@ -23,6 +24,7 @@ items:
     marketGroup: 108
     mass: 0.05
     name: Antimatter Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Antimatter Charge S:
@@ -36,6 +38,7 @@ items:
     marketGroup: 107
     mass: 0.01
     name: Antimatter Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Antimatter Charge XL:
@@ -49,6 +52,7 @@ items:
     marketGroup: 504
     mass: 0.5
     name: Antimatter Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Caldari Navy Antimatter Charge L:
@@ -65,6 +69,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Caldari Navy Antimatter Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Caldari Navy Antimatter Charge M:
@@ -81,6 +86,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Caldari Navy Antimatter Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Caldari Navy Antimatter Charge S:
@@ -97,6 +103,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Caldari Navy Antimatter Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Caldari Navy Iridium Charge L:
@@ -114,6 +121,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Caldari Navy Iridium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Caldari Navy Iridium Charge M:
@@ -131,6 +139,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Caldari Navy Iridium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Caldari Navy Iridium Charge S:
@@ -148,6 +157,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Caldari Navy Iridium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Caldari Navy Iron Charge L:
@@ -165,6 +175,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Caldari Navy Iron Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Caldari Navy Iron Charge M:
@@ -182,6 +193,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Caldari Navy Iron Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Caldari Navy Iron Charge S:
@@ -199,6 +211,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Caldari Navy Iron Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Caldari Navy Lead Charge L:
@@ -216,6 +229,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Caldari Navy Lead Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Caldari Navy Lead Charge M:
@@ -233,6 +247,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Caldari Navy Lead Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Caldari Navy Lead Charge S:
@@ -250,6 +265,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Caldari Navy Lead Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Caldari Navy Plutonium Charge L:
@@ -267,6 +283,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Caldari Navy Plutonium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Caldari Navy Plutonium Charge M:
@@ -284,6 +301,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Caldari Navy Plutonium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Caldari Navy Plutonium Charge S:
@@ -301,6 +319,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Caldari Navy Plutonium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Caldari Navy Thorium Charge L:
@@ -318,6 +337,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Caldari Navy Thorium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Caldari Navy Thorium Charge M:
@@ -335,6 +355,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Caldari Navy Thorium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Caldari Navy Thorium Charge S:
@@ -352,6 +373,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Caldari Navy Thorium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Caldari Navy Tungsten Charge L:
@@ -369,6 +391,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Caldari Navy Tungsten Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Caldari Navy Tungsten Charge M:
@@ -386,6 +409,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Caldari Navy Tungsten Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Caldari Navy Tungsten Charge S:
@@ -403,6 +427,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Caldari Navy Tungsten Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Caldari Navy Uranium Charge L:
@@ -420,6 +445,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Caldari Navy Uranium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Caldari Navy Uranium Charge M:
@@ -437,6 +463,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Caldari Navy Uranium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Caldari Navy Uranium Charge S:
@@ -454,6 +481,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Caldari Navy Uranium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Antimatter Charge L:
@@ -470,6 +498,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Dread Guristas Antimatter Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Dread Guristas Antimatter Charge M:
@@ -486,6 +515,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Dread Guristas Antimatter Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Dread Guristas Antimatter Charge S:
@@ -502,6 +532,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Dread Guristas Antimatter Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Antimatter Charge XL:
@@ -518,6 +549,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Dread Guristas Antimatter Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Dread Guristas Iridium Charge L:
@@ -535,6 +567,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Dread Guristas Iridium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Dread Guristas Iridium Charge M:
@@ -552,6 +585,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Dread Guristas Iridium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Dread Guristas Iridium Charge S:
@@ -569,6 +603,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Dread Guristas Iridium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Iridium Charge XL:
@@ -586,6 +621,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Dread Guristas Iridium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Dread Guristas Iron Charge L:
@@ -603,6 +639,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Dread Guristas Iron Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Dread Guristas Iron Charge M:
@@ -620,6 +657,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Dread Guristas Iron Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Dread Guristas Iron Charge S:
@@ -637,6 +675,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Dread Guristas Iron Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Iron Charge XL:
@@ -654,6 +693,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Dread Guristas Iron Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Dread Guristas Lead Charge L:
@@ -671,6 +711,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Dread Guristas Lead Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Dread Guristas Lead Charge M:
@@ -688,6 +729,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Dread Guristas Lead Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Dread Guristas Lead Charge S:
@@ -705,6 +747,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Dread Guristas Lead Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Lead Charge XL:
@@ -722,6 +765,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Dread Guristas Lead Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Dread Guristas Plutonium Charge L:
@@ -739,6 +783,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Dread Guristas Plutonium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Dread Guristas Plutonium Charge M:
@@ -756,6 +801,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Dread Guristas Plutonium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Dread Guristas Plutonium Charge S:
@@ -773,6 +819,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Dread Guristas Plutonium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Plutonium Charge XL:
@@ -790,6 +837,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Dread Guristas Plutonium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Dread Guristas Thorium Charge L:
@@ -807,6 +855,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Dread Guristas Thorium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Dread Guristas Thorium Charge M:
@@ -824,6 +873,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Dread Guristas Thorium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Dread Guristas Thorium Charge S:
@@ -841,6 +891,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Dread Guristas Thorium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Thorium Charge XL:
@@ -858,6 +909,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Dread Guristas Thorium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Dread Guristas Tungsten Charge L:
@@ -875,6 +927,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Dread Guristas Tungsten Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Dread Guristas Tungsten Charge M:
@@ -892,6 +945,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Dread Guristas Tungsten Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Dread Guristas Tungsten Charge S:
@@ -909,6 +963,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Dread Guristas Tungsten Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Tungsten Charge XL:
@@ -926,6 +981,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Dread Guristas Tungsten Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Dread Guristas Uranium Charge L:
@@ -943,6 +999,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Dread Guristas Uranium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Dread Guristas Uranium Charge M:
@@ -960,6 +1017,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Dread Guristas Uranium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Dread Guristas Uranium Charge S:
@@ -977,6 +1035,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Dread Guristas Uranium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Dread Guristas Uranium Charge XL:
@@ -994,6 +1053,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Dread Guristas Uranium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Federation Navy Antimatter Charge L:
@@ -1010,6 +1070,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Federation Navy Antimatter Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Federation Navy Antimatter Charge M:
@@ -1026,6 +1087,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Federation Navy Antimatter Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Federation Navy Antimatter Charge S:
@@ -1042,6 +1104,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Federation Navy Antimatter Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Federation Navy Iridium Charge L:
@@ -1059,6 +1122,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Federation Navy Iridium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Federation Navy Iridium Charge M:
@@ -1076,6 +1140,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Federation Navy Iridium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Federation Navy Iridium Charge S:
@@ -1093,6 +1158,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Federation Navy Iridium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Federation Navy Iron Charge L:
@@ -1110,6 +1176,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Federation Navy Iron Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Federation Navy Iron Charge M:
@@ -1127,6 +1194,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Federation Navy Iron Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Federation Navy Iron Charge S:
@@ -1144,6 +1212,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Federation Navy Iron Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Federation Navy Lead Charge L:
@@ -1161,6 +1230,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Federation Navy Lead Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Federation Navy Lead Charge M:
@@ -1178,6 +1248,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Federation Navy Lead Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Federation Navy Lead Charge S:
@@ -1195,6 +1266,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Federation Navy Lead Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Federation Navy Plutonium Charge L:
@@ -1212,6 +1284,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Federation Navy Plutonium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Federation Navy Plutonium Charge M:
@@ -1229,6 +1302,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Federation Navy Plutonium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Federation Navy Plutonium Charge S:
@@ -1246,6 +1320,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Federation Navy Plutonium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Federation Navy Thorium Charge L:
@@ -1263,6 +1338,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Federation Navy Thorium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Federation Navy Thorium Charge M:
@@ -1280,6 +1356,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Federation Navy Thorium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Federation Navy Thorium Charge S:
@@ -1297,6 +1374,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Federation Navy Thorium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Federation Navy Tungsten Charge L:
@@ -1314,6 +1392,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Federation Navy Tungsten Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Federation Navy Tungsten Charge M:
@@ -1331,6 +1410,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Federation Navy Tungsten Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Federation Navy Tungsten Charge S:
@@ -1348,6 +1428,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Federation Navy Tungsten Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Federation Navy Uranium Charge L:
@@ -1365,6 +1446,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Federation Navy Uranium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Federation Navy Uranium Charge M:
@@ -1382,6 +1464,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Federation Navy Uranium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Federation Navy Uranium Charge S:
@@ -1399,6 +1482,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Federation Navy Uranium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Antimatter Charge L:
@@ -1415,6 +1499,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Guardian Antimatter Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Guardian Antimatter Charge M:
@@ -1431,6 +1516,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Guardian Antimatter Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Guardian Antimatter Charge S:
@@ -1447,6 +1533,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guardian Antimatter Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Antimatter Charge XL:
@@ -1463,6 +1550,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guardian Antimatter Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guardian Iridium Charge L:
@@ -1480,6 +1568,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Guardian Iridium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Guardian Iridium Charge M:
@@ -1497,6 +1586,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Guardian Iridium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Guardian Iridium Charge S:
@@ -1514,6 +1604,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guardian Iridium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Iridium Charge XL:
@@ -1531,6 +1622,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guardian Iridium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guardian Iron Charge L:
@@ -1548,6 +1640,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Guardian Iron Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Guardian Iron Charge M:
@@ -1565,6 +1658,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Guardian Iron Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Guardian Iron Charge S:
@@ -1582,6 +1676,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guardian Iron Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Iron Charge XL:
@@ -1599,6 +1694,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guardian Iron Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guardian Lead Charge L:
@@ -1616,6 +1712,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Guardian Lead Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Guardian Lead Charge M:
@@ -1633,6 +1730,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Guardian Lead Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Guardian Lead Charge S:
@@ -1650,6 +1748,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guardian Lead Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Lead Charge XL:
@@ -1667,6 +1766,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guardian Lead Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guardian Plutonium Charge L:
@@ -1684,6 +1784,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Guardian Plutonium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Guardian Plutonium Charge M:
@@ -1701,6 +1802,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Guardian Plutonium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Guardian Plutonium Charge S:
@@ -1718,6 +1820,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guardian Plutonium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Plutonium Charge XL:
@@ -1735,6 +1838,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guardian Plutonium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guardian Thorium Charge L:
@@ -1752,6 +1856,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Guardian Thorium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Guardian Thorium Charge M:
@@ -1769,6 +1874,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Guardian Thorium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Guardian Thorium Charge S:
@@ -1786,6 +1892,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guardian Thorium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Thorium Charge XL:
@@ -1803,6 +1910,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guardian Thorium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guardian Tungsten Charge L:
@@ -1820,6 +1928,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Guardian Tungsten Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Guardian Tungsten Charge M:
@@ -1837,6 +1946,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Guardian Tungsten Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Guardian Tungsten Charge S:
@@ -1854,6 +1964,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guardian Tungsten Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Tungsten Charge XL:
@@ -1871,6 +1982,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guardian Tungsten Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guardian Uranium Charge L:
@@ -1888,6 +2000,7 @@ items:
     marketGroup: 991
     mass: 0.1
     name: Guardian Uranium Charge L
+    price: 10000.0
     published: true
     volume: 0.025
   Guardian Uranium Charge M:
@@ -1905,6 +2018,7 @@ items:
     marketGroup: 992
     mass: 0.05
     name: Guardian Uranium Charge M
+    price: 4000.0
     published: true
     volume: 0.0125
   Guardian Uranium Charge S:
@@ -1922,6 +2036,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guardian Uranium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guardian Uranium Charge XL:
@@ -1939,6 +2054,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guardian Uranium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guristas Antimatter Charge L:
@@ -1955,6 +2071,7 @@ items:
     marketGroup: 991
     mass: 0.05
     name: Guristas Antimatter Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Guristas Antimatter Charge M:
@@ -1971,6 +2088,7 @@ items:
     marketGroup: 992
     mass: 0.5
     name: Guristas Antimatter Charge M
+    price: 100000.0
     published: true
     volume: 0.0125
   Guristas Antimatter Charge S:
@@ -1987,6 +2105,7 @@ items:
     marketGroup: 993
     mass: 0.05
     name: Guristas Antimatter Charge S
+    price: 4000.0
     published: true
     volume: 0.0025
   Guristas Antimatter Charge XL:
@@ -2003,6 +2122,7 @@ items:
     marketGroup: 1004
     mass: 0.1
     name: Guristas Antimatter Charge XL
+    price: 10000.0
     published: true
     volume: 0.125
   Guristas Iridium Charge L:
@@ -2020,6 +2140,7 @@ items:
     marketGroup: 991
     mass: 0.01
     name: Guristas Iridium Charge L
+    price: 1000.0
     published: true
     volume: 0.025
   Guristas Iridium Charge M:
@@ -2037,6 +2158,7 @@ items:
     marketGroup: 992
     mass: 0.1
     name: Guristas Iridium Charge M
+    price: 10000.0
     published: true
     volume: 0.0125
   Guristas Iridium Charge S:
@@ -2054,6 +2176,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guristas Iridium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guristas Iridium Charge XL:
@@ -2071,6 +2194,7 @@ items:
     marketGroup: 1004
     mass: 0.1
     name: Guristas Iridium Charge XL
+    price: 10000.0
     published: true
     volume: 0.125
   Guristas Iron Charge L:
@@ -2088,6 +2212,7 @@ items:
     marketGroup: 991
     mass: 0.01
     name: Guristas Iron Charge L
+    price: 1000.0
     published: true
     volume: 0.025
   Guristas Iron Charge M:
@@ -2105,6 +2230,7 @@ items:
     marketGroup: 992
     mass: 0.1
     name: Guristas Iron Charge M
+    price: 10000.0
     published: true
     volume: 0.0125
   Guristas Iron Charge S:
@@ -2122,6 +2248,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guristas Iron Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guristas Iron Charge XL:
@@ -2139,6 +2266,7 @@ items:
     marketGroup: 1004
     mass: 0.1
     name: Guristas Iron Charge XL
+    price: 10000.0
     published: true
     volume: 0.125
   Guristas Lead Charge L:
@@ -2156,6 +2284,7 @@ items:
     marketGroup: 991
     mass: 0.01
     name: Guristas Lead Charge L
+    price: 1000.0
     published: true
     volume: 0.025
   Guristas Lead Charge M:
@@ -2173,6 +2302,7 @@ items:
     marketGroup: 992
     mass: 0.1
     name: Guristas Lead Charge M
+    price: 10000.0
     published: true
     volume: 0.0125
   Guristas Lead Charge S:
@@ -2190,6 +2320,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guristas Lead Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guristas Lead Charge XL:
@@ -2207,6 +2338,7 @@ items:
     marketGroup: 1004
     mass: 0.1
     name: Guristas Lead Charge XL
+    price: 10000.0
     published: true
     volume: 0.125
   Guristas Plutonium Charge L:
@@ -2224,6 +2356,7 @@ items:
     marketGroup: 991
     mass: 0.05
     name: Guristas Plutonium Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Guristas Plutonium Charge M:
@@ -2241,6 +2374,7 @@ items:
     marketGroup: 992
     mass: 0.5
     name: Guristas Plutonium Charge M
+    price: 100000.0
     published: true
     volume: 0.0125
   Guristas Plutonium Charge S:
@@ -2258,6 +2392,7 @@ items:
     marketGroup: 993
     mass: 0.05
     name: Guristas Plutonium Charge S
+    price: 4000.0
     published: true
     volume: 0.0025
   Guristas Plutonium Charge XL:
@@ -2275,6 +2410,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guristas Plutonium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guristas Thorium Charge L:
@@ -2292,6 +2428,7 @@ items:
     marketGroup: 991
     mass: 0.05
     name: Guristas Thorium Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Guristas Thorium Charge M:
@@ -2309,6 +2446,7 @@ items:
     marketGroup: 992
     mass: 0.5
     name: Guristas Thorium Charge M
+    price: 100000.0
     published: true
     volume: 0.0125
   Guristas Thorium Charge S:
@@ -2326,6 +2464,7 @@ items:
     marketGroup: 993
     mass: 0.05
     name: Guristas Thorium Charge S
+    price: 4000.0
     published: true
     volume: 0.0025
   Guristas Thorium Charge XL:
@@ -2343,6 +2482,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guristas Thorium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guristas Tungsten Charge L:
@@ -2360,6 +2500,7 @@ items:
     marketGroup: 991
     mass: 0.01
     name: Guristas Tungsten Charge L
+    price: 1000.0
     published: true
     volume: 0.025
   Guristas Tungsten Charge M:
@@ -2377,6 +2518,7 @@ items:
     marketGroup: 992
     mass: 0.1
     name: Guristas Tungsten Charge M
+    price: 10000.0
     published: true
     volume: 0.0125
   Guristas Tungsten Charge S:
@@ -2394,6 +2536,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Guristas Tungsten Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Guristas Tungsten Charge XL:
@@ -2411,6 +2554,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guristas Tungsten Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Guristas Uranium Charge L:
@@ -2428,6 +2572,7 @@ items:
     marketGroup: 991
     mass: 0.05
     name: Guristas Uranium Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Guristas Uranium Charge M:
@@ -2445,6 +2590,7 @@ items:
     marketGroup: 992
     mass: 0.5
     name: Guristas Uranium Charge M
+    price: 100000.0
     published: true
     volume: 0.0125
   Guristas Uranium Charge S:
@@ -2462,6 +2608,7 @@ items:
     marketGroup: 993
     mass: 0.05
     name: Guristas Uranium Charge S
+    price: 4000.0
     published: true
     volume: 0.0025
   Guristas Uranium Charge XL:
@@ -2479,6 +2626,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Guristas Uranium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Iridium Charge L:
@@ -2493,6 +2641,7 @@ items:
     marketGroup: 106
     mass: 0.1
     name: Iridium Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Iridium Charge M:
@@ -2507,6 +2656,7 @@ items:
     marketGroup: 108
     mass: 0.05
     name: Iridium Charge M
+    price: 1500.0
     published: true
     volume: 0.0125
   Iridium Charge S:
@@ -2521,6 +2671,7 @@ items:
     marketGroup: 107
     mass: 0.01
     name: Iridium Charge S
+    price: 400.0
     published: true
     volume: 0.0025
   Iridium Charge XL:
@@ -2535,6 +2686,7 @@ items:
     marketGroup: 504
     mass: 0.5
     name: Iridium Charge XL
+    price: 40000.0
     published: true
     volume: 0.125
   Iron Charge L:
@@ -2549,6 +2701,7 @@ items:
     marketGroup: 106
     mass: 0.1
     name: Iron Charge L
+    price: 2000.0
     published: true
     volume: 0.025
   Iron Charge M:
@@ -2563,6 +2716,7 @@ items:
     marketGroup: 108
     mass: 0.05
     name: Iron Charge M
+    price: 800.0
     published: true
     volume: 0.0125
   Iron Charge S:
@@ -2577,6 +2731,7 @@ items:
     marketGroup: 107
     mass: 0.01
     name: Iron Charge S
+    price: 200.0
     published: true
     volume: 0.0025
   Iron Charge XL:
@@ -2591,6 +2746,7 @@ items:
     marketGroup: 504
     mass: 0.5
     name: Iron Charge XL
+    price: 20000.0
     published: true
     volume: 0.125
   Lead Charge L:
@@ -2605,6 +2761,7 @@ items:
     marketGroup: 106
     mass: 0.1
     name: Lead Charge L
+    price: 5000.0
     published: true
     volume: 0.025
   Lead Charge M:
@@ -2619,6 +2776,7 @@ items:
     marketGroup: 108
     mass: 0.05
     name: Lead Charge M
+    price: 1750.0
     published: true
     volume: 0.0125
   Lead Charge S:
@@ -2633,6 +2791,7 @@ items:
     marketGroup: 107
     mass: 0.01
     name: Lead Charge S
+    price: 500.0
     published: true
     volume: 0.0025
   Lead Charge XL:
@@ -2647,6 +2806,7 @@ items:
     marketGroup: 504
     mass: 0.5
     name: Lead Charge XL
+    price: 50000.0
     published: true
     volume: 0.125
   Plutonium Charge L:
@@ -2661,6 +2821,7 @@ items:
     marketGroup: 106
     mass: 0.1
     name: Plutonium Charge L
+    price: 8000.0
     published: true
     volume: 0.025
   Plutonium Charge M:
@@ -2675,6 +2836,7 @@ items:
     marketGroup: 108
     mass: 0.05
     name: Plutonium Charge M
+    price: 3250.0
     published: true
     volume: 0.0125
   Plutonium Charge S:
@@ -2689,6 +2851,7 @@ items:
     marketGroup: 107
     mass: 0.01
     name: Plutonium Charge S
+    price: 800.0
     published: true
     volume: 0.0025
   Plutonium Charge XL:
@@ -2703,6 +2866,7 @@ items:
     marketGroup: 504
     mass: 0.5
     name: Plutonium Charge XL
+    price: 80000.0
     published: true
     volume: 0.125
   Shadow Antimatter Charge L:
@@ -2719,6 +2883,7 @@ items:
     marketGroup: 991
     mass: 0.05
     name: Shadow Antimatter Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Shadow Antimatter Charge M:
@@ -2735,6 +2900,7 @@ items:
     marketGroup: 992
     mass: 0.5
     name: Shadow Antimatter Charge M
+    price: 100000.0
     published: true
     volume: 0.0125
   Shadow Antimatter Charge S:
@@ -2751,6 +2917,7 @@ items:
     marketGroup: 993
     mass: 0.05
     name: Shadow Antimatter Charge S
+    price: 4000.0
     published: true
     volume: 0.0025
   Shadow Antimatter Charge XL:
@@ -2767,6 +2934,7 @@ items:
     marketGroup: 1004
     mass: 0.1
     name: Shadow Antimatter Charge XL
+    price: 10000.0
     published: true
     volume: 0.125
   Shadow Iridium Charge L:
@@ -2784,6 +2952,7 @@ items:
     marketGroup: 991
     mass: 0.01
     name: Shadow Iridium Charge L
+    price: 1000.0
     published: true
     volume: 0.025
   Shadow Iridium Charge M:
@@ -2801,6 +2970,7 @@ items:
     marketGroup: 992
     mass: 0.1
     name: Shadow Iridium Charge M
+    price: 10000.0
     published: true
     volume: 0.0125
   Shadow Iridium Charge S:
@@ -2818,6 +2988,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Shadow Iridium Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Shadow Iridium Charge XL:
@@ -2835,6 +3006,7 @@ items:
     marketGroup: 1004
     mass: 0.1
     name: Shadow Iridium Charge XL
+    price: 10000.0
     published: true
     volume: 0.125
   Shadow Iron Charge L:
@@ -2852,6 +3024,7 @@ items:
     marketGroup: 991
     mass: 0.01
     name: Shadow Iron Charge L
+    price: 1000.0
     published: true
     volume: 0.025
   Shadow Iron Charge M:
@@ -2869,6 +3042,7 @@ items:
     marketGroup: 992
     mass: 0.1
     name: Shadow Iron Charge M
+    price: 10000.0
     published: true
     volume: 0.0125
   Shadow Iron Charge S:
@@ -2886,6 +3060,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Shadow Iron Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Shadow Iron Charge XL:
@@ -2903,6 +3078,7 @@ items:
     marketGroup: 1004
     mass: 0.1
     name: Shadow Iron Charge XL
+    price: 10000.0
     published: true
     volume: 0.125
   Shadow Lead Charge L:
@@ -2920,6 +3096,7 @@ items:
     marketGroup: 991
     mass: 0.01
     name: Shadow Lead Charge L
+    price: 1000.0
     published: true
     volume: 0.025
   Shadow Lead Charge M:
@@ -2937,6 +3114,7 @@ items:
     marketGroup: 992
     mass: 0.1
     name: Shadow Lead Charge M
+    price: 10000.0
     published: true
     volume: 0.0125
   Shadow Lead Charge S:
@@ -2954,6 +3132,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Shadow Lead Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Shadow Lead Charge XL:
@@ -2971,6 +3150,7 @@ items:
     marketGroup: 1004
     mass: 0.1
     name: Shadow Lead Charge XL
+    price: 10000.0
     published: true
     volume: 0.125
   Shadow Plutonium Charge L:
@@ -2988,6 +3168,7 @@ items:
     marketGroup: 991
     mass: 0.05
     name: Shadow Plutonium Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Shadow Plutonium Charge M:
@@ -3005,6 +3186,7 @@ items:
     marketGroup: 992
     mass: 0.5
     name: Shadow Plutonium Charge M
+    price: 100000.0
     published: true
     volume: 0.0125
   Shadow Plutonium Charge S:
@@ -3022,6 +3204,7 @@ items:
     marketGroup: 993
     mass: 0.05
     name: Shadow Plutonium Charge S
+    price: 4000.0
     published: true
     volume: 0.0025
   Shadow Plutonium Charge XL:
@@ -3039,6 +3222,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Shadow Plutonium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Shadow Thorium Charge L:
@@ -3056,6 +3240,7 @@ items:
     marketGroup: 991
     mass: 0.05
     name: Shadow Thorium Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Shadow Thorium Charge M:
@@ -3073,6 +3258,7 @@ items:
     marketGroup: 992
     mass: 0.5
     name: Shadow Thorium Charge M
+    price: 100000.0
     published: true
     volume: 0.0125
   Shadow Thorium Charge S:
@@ -3090,6 +3276,7 @@ items:
     marketGroup: 993
     mass: 0.05
     name: Shadow Thorium Charge S
+    price: 4000.0
     published: true
     volume: 0.0025
   Shadow Thorium Charge XL:
@@ -3107,6 +3294,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Shadow Thorium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Shadow Tungsten Charge L:
@@ -3124,6 +3312,7 @@ items:
     marketGroup: 991
     mass: 0.01
     name: Shadow Tungsten Charge L
+    price: 1000.0
     published: true
     volume: 0.025
   Shadow Tungsten Charge M:
@@ -3141,6 +3330,7 @@ items:
     marketGroup: 992
     mass: 0.1
     name: Shadow Tungsten Charge M
+    price: 10000.0
     published: true
     volume: 0.0125
   Shadow Tungsten Charge S:
@@ -3158,6 +3348,7 @@ items:
     marketGroup: 993
     mass: 0.01
     name: Shadow Tungsten Charge S
+    price: 1000.0
     published: true
     volume: 0.0025
   Shadow Tungsten Charge XL:
@@ -3175,6 +3366,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Shadow Tungsten Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Shadow Uranium Charge L:
@@ -3192,6 +3384,7 @@ items:
     marketGroup: 991
     mass: 0.05
     name: Shadow Uranium Charge L
+    price: 4000.0
     published: true
     volume: 0.025
   Shadow Uranium Charge M:
@@ -3209,6 +3402,7 @@ items:
     marketGroup: 992
     mass: 0.5
     name: Shadow Uranium Charge M
+    price: 100000.0
     published: true
     volume: 0.0125
   Shadow Uranium Charge S:
@@ -3226,6 +3420,7 @@ items:
     marketGroup: 993
     mass: 0.05
     name: Shadow Uranium Charge S
+    price: 4000.0
     published: true
     volume: 0.0025
   Shadow Uranium Charge XL:
@@ -3243,6 +3438,7 @@ items:
     marketGroup: 1004
     mass: 0.5
     name: Shadow Uranium Charge XL
+    price: 100000.0
     published: true
     volume: 0.125
   Thorium Charge L:
@@ -3257,6 +3453,7 @@ items:
     marketGroup: 106
     mass: 0.1
     name: Thorium Charge L
+    price: 6000.0
     published: true
     volume: 0.025
   Thorium Charge M:
@@ -3271,6 +3468,7 @@ items:
     marketGroup: 108
     mass: 0.05
     name: Thorium Charge M
+    price: 2250.0
     published: true
     volume: 0.0125
   Thorium Charge S:
@@ -3285,6 +3483,7 @@ items:
     marketGroup: 107
     mass: 0.01
     name: Thorium Charge S
+    price: 600.0
     published: true
     volume: 0.0025
   Thorium Charge XL:
@@ -3299,6 +3498,7 @@ items:
     marketGroup: 504
     mass: 0.5
     name: Thorium Charge XL
+    price: 60000.0
     published: true
     volume: 0.125
   Tungsten Charge L:
@@ -3313,6 +3513,7 @@ items:
     marketGroup: 106
     mass: 0.1
     name: Tungsten Charge L
+    price: 3000.0
     published: true
     volume: 0.025
   Tungsten Charge M:
@@ -3327,6 +3528,7 @@ items:
     marketGroup: 108
     mass: 0.05
     name: Tungsten Charge M
+    price: 1100.0
     published: true
     volume: 0.0125
   Tungsten Charge S:
@@ -3341,6 +3543,7 @@ items:
     marketGroup: 107
     mass: 0.01
     name: Tungsten Charge S
+    price: 300.0
     published: true
     volume: 0.0025
   Tungsten Charge XL:
@@ -3355,6 +3558,7 @@ items:
     marketGroup: 504
     mass: 0.5
     name: Tungsten Charge XL
+    price: 30000.0
     published: true
     volume: 0.125
   Uranium Charge L:
@@ -3369,6 +3573,7 @@ items:
     marketGroup: 106
     mass: 0.1
     name: Uranium Charge L
+    price: 7000.0
     published: true
     volume: 0.025
   Uranium Charge M:
@@ -3383,6 +3588,7 @@ items:
     marketGroup: 108
     mass: 0.05
     name: Uranium Charge M
+    price: 2750.0
     published: true
     volume: 0.0125
   Uranium Charge S:
@@ -3397,6 +3603,7 @@ items:
     marketGroup: 107
     mass: 0.01
     name: Uranium Charge S
+    price: 700.0
     published: true
     volume: 0.0025
   Uranium Charge XL:
@@ -3411,5 +3618,6 @@ items:
     marketGroup: 504
     mass: 0.5
     name: Uranium Charge XL
+    price: 70000.0
     published: true
     volume: 0.125

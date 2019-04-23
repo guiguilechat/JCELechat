@@ -4,5 +4,6 @@ items:
     id: 28353
     marketGroup: 1046
     name: Rorqual Blueprint
+    price: 3.0E9
     published: true
     volume: 0.01

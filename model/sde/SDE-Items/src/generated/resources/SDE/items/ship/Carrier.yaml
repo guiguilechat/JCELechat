@@ -108,6 +108,7 @@ items:
     marketGroup: 818
     mass: 1.26E9
     name: Archon
+    price: 7.6856838E8
     published: true
     volume: 1.395E7
   Chimera:
@@ -219,6 +220,7 @@ items:
     marketGroup: 819
     mass: 1.24E9
     name: Chimera
+    price: 7.3382659E8
     published: true
     volume: 1.1925E7
   Nidhoggur:
@@ -331,6 +333,7 @@ items:
     marketGroup: 821
     mass: 1.23E9
     name: Nidhoggur
+    price: 7.71957982E8
     published: true
     volume: 1.125E7
   Thanatos:
@@ -443,5 +446,6 @@ items:
     marketGroup: 820
     mass: 1.22E9
     name: Thanatos
+    price: 8.44884708E8
     published: true
     volume: 1.3095E7

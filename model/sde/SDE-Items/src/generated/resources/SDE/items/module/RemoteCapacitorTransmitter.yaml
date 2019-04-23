@@ -20,6 +20,7 @@ items:
     marketGroup: 697
     mass: 1000.0
     name: '''Chivalry'' Large Remote Capacitor Transmitter'
+    price: 78840.0
     published: true
     volume: 5.0
   '''Knight'' Medium Remote Capacitor Transmitter':
@@ -43,6 +44,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: '''Knight'' Medium Remote Capacitor Transmitter'
+    price: 30000.0
     published: true
     volume: 5.0
   '''Squire'' Small Remote Capacitor Transmitter':
@@ -66,6 +68,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: '''Squire'' Small Remote Capacitor Transmitter'
+    price: 30000.0
     published: true
     volume: 5.0
   CONCORD Capital Remote Capacitor Transmitter:
@@ -92,6 +95,7 @@ items:
     marketGroup: 910
     mass: 1000.0
     name: CONCORD Capital Remote Capacitor Transmitter
+    price: 2.677384E7
     published: true
     volume: 4000.0
   Capital Inductive Compact Remote Capacitor Transmitter:
@@ -117,6 +121,7 @@ items:
     marketGroup: 910
     mass: 1000.0
     name: Capital Inductive Compact Remote Capacitor Transmitter
+    price: 2.677384E7
     published: true
     volume: 4000.0
   Capital Radiative Scoped Remote Capacitor Transmitter:
@@ -142,6 +147,7 @@ items:
     marketGroup: 910
     mass: 1000.0
     name: Capital Radiative Scoped Remote Capacitor Transmitter
+    price: 2.677384E7
     published: true
     volume: 4000.0
   Capital Remote Capacitor Transmitter I:
@@ -165,6 +171,7 @@ items:
     marketGroup: 910
     mass: 1000.0
     name: Capital Remote Capacitor Transmitter I
+    price: 2.677384E7
     published: true
     volume: 4000.0
   Capital Remote Capacitor Transmitter II:
@@ -190,6 +197,7 @@ items:
     marketGroup: 910
     mass: 1000.0
     name: Capital Remote Capacitor Transmitter II
+    price: 30000.0
     published: true
     volume: 4000.0
   Centii A-Type Small Remote Capacitor Transmitter:
@@ -213,6 +221,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Centii A-Type Small Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Centii B-Type Small Remote Capacitor Transmitter:
@@ -236,6 +245,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Centii B-Type Small Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Centii C-Type Small Remote Capacitor Transmitter:
@@ -259,6 +269,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Centii C-Type Small Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Centum A-Type Medium Remote Capacitor Transmitter:
@@ -282,6 +293,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Centum A-Type Medium Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Centum B-Type Medium Remote Capacitor Transmitter:
@@ -305,6 +317,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Centum B-Type Medium Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Centum C-Type Medium Remote Capacitor Transmitter:
@@ -328,6 +341,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Centum C-Type Medium Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Corpii A-Type Small Remote Capacitor Transmitter:
@@ -351,6 +365,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Corpii A-Type Small Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Corpii B-Type Small Remote Capacitor Transmitter:
@@ -374,6 +389,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Corpii B-Type Small Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Corpii C-Type Small Remote Capacitor Transmitter:
@@ -397,6 +413,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Corpii C-Type Small Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Corpum A-Type Medium Remote Capacitor Transmitter:
@@ -420,6 +437,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Corpum A-Type Medium Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Corpum B-Type Medium Remote Capacitor Transmitter:
@@ -443,6 +461,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Corpum B-Type Medium Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Corpum C-Type Medium Remote Capacitor Transmitter:
@@ -466,6 +485,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Corpum C-Type Medium Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Imperial Navy Large Remote Capacitor Transmitter:
@@ -490,6 +510,7 @@ items:
     marketGroup: 697
     mass: 1000.0
     name: Imperial Navy Large Remote Capacitor Transmitter
+    price: 78840.0
     published: true
     volume: 5.0
   Imperial Navy Medium Remote Capacitor Transmitter:
@@ -514,6 +535,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Imperial Navy Medium Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 25.0
   Imperial Navy Small Remote Capacitor Transmitter:
@@ -538,6 +560,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Imperial Navy Small Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 25.0
   Large 'Regard' Remote Capacitor Transmitter:
@@ -560,6 +583,7 @@ items:
     marketGroup: 697
     mass: 1000.0
     name: Large 'Regard' Remote Capacitor Transmitter
+    price: 78840.0
     published: true
     volume: 5.0
   Large Asymmetric Remote Capacitor Transmitter:
@@ -582,6 +606,7 @@ items:
     marketGroup: 697
     mass: 1000.0
     name: Large Asymmetric Remote Capacitor Transmitter
+    price: 78840.0
     published: true
     volume: 5.0
   Large Murky Remote Capacitor Transmitter:
@@ -604,6 +629,7 @@ items:
     marketGroup: 697
     mass: 1000.0
     name: Large Murky Remote Capacitor Transmitter
+    price: 78840.0
     published: true
     volume: 5.0
   Large Partial E95c Remote Capacitor Transmitter:
@@ -626,6 +652,7 @@ items:
     marketGroup: 697
     mass: 1000.0
     name: Large Partial E95c Remote Capacitor Transmitter
+    price: 78840.0
     published: true
     volume: 5.0
   Large Remote Capacitor Transmitter I:
@@ -647,6 +674,7 @@ items:
     marketGroup: 697
     mass: 1000.0
     name: Large Remote Capacitor Transmitter I
+    price: 78840.0
     published: true
     volume: 5.0
   Large Remote Capacitor Transmitter II:
@@ -669,6 +697,7 @@ items:
     marketGroup: 697
     mass: 1000.0
     name: Large Remote Capacitor Transmitter II
+    price: 147840.0
     published: true
     volume: 5.0
   Medium 'Regard' Remote Capacitor Transmitter:
@@ -691,6 +720,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Medium 'Regard' Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Medium Asymmetric Remote Capacitor Transmitter:
@@ -713,6 +743,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Medium Asymmetric Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Medium Murky Remote Capacitor Transmitter:
@@ -735,6 +766,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Medium Murky Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Medium Partial E95b Remote Capacitor Transmitter:
@@ -757,6 +789,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Medium Partial E95b Remote Capacitor Transmitter
+    price: 30000.0
     published: true
     volume: 5.0
   Medium Remote Capacitor Transmitter I:
@@ -778,6 +811,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Medium Remote Capacitor Transmitter I
+    price: 30000.0
     published: true
     volume: 25.0
   Medium Remote Capacitor Transmitter II:
@@ -800,6 +834,7 @@ items:
     marketGroup: 696
     mass: 1000.0
     name: Medium Remote Capacitor Transmitter II
+    price: 30000.0
     published: true
     volume: 5.0
   Small 'Regard' Remote Capacitor Transmitter:
@@ -822,6 +857,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Small 'Regard' Remote Capacitor Transmitter
+    price: 9840.0
     published: true
     volume: 5.0
   Small Asymmetric Remote Capacitor Transmitter:
@@ -844,6 +880,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Small Asymmetric Remote Capacitor Transmitter
+    price: 9840.0
     published: true
     volume: 5.0
   Small Murky Remote Capacitor Transmitter:
@@ -866,6 +903,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Small Murky Remote Capacitor Transmitter
+    price: 9840.0
     published: true
     volume: 5.0
   Small Partial E95a Remote Capacitor Transmitter:
@@ -888,6 +926,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Small Partial E95a Remote Capacitor Transmitter
+    price: 9840.0
     published: true
     volume: 5.0
   Small Remote Capacitor Transmitter I:
@@ -909,6 +948,7 @@ items:
     marketGroup: 695
     mass: 1000.0
     name: Small Remote Capacitor Transmitter I
+    price: 30000.0
     published: true
     volume: 25.0
   Small Remote Capacitor Transmitter II:
@@ -931,5 +971,6 @@ items:
     marketGroup: 695
     mass: 10000.0
     name: Small Remote Capacitor Transmitter II
+    price: 140108.0
     published: true
     volume: 5.0

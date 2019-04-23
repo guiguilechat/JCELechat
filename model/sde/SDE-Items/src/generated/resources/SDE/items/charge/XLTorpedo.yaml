@@ -24,6 +24,7 @@ items:
     marketGroup: 1194
     mass: 1500.0
     name: Guristas Inferno XL Torpedo
+    price: 325000.0
     published: true
     volume: 0.3
   Guristas Mjolnir XL Torpedo:
@@ -51,6 +52,7 @@ items:
     marketGroup: 1194
     mass: 1500.0
     name: Guristas Mjolnir XL Torpedo
+    price: 350000.0
     published: true
     volume: 0.3
   Guristas Nova XL Torpedo:
@@ -78,6 +80,7 @@ items:
     marketGroup: 1194
     mass: 1500.0
     name: Guristas Nova XL Torpedo
+    price: 250000.0
     published: true
     volume: 0.3
   Guristas Scourge XL Torpedo:
@@ -105,6 +108,7 @@ items:
     marketGroup: 1194
     mass: 1500.0
     name: Guristas Scourge XL Torpedo
+    price: 300000.0
     published: true
     volume: 0.3
   Inferno XL Torpedo:
@@ -130,6 +134,7 @@ items:
     marketGroup: 1193
     mass: 1500.0
     name: Inferno XL Torpedo
+    price: 325000.0
     published: true
     volume: 0.3
   Mjolnir XL Torpedo:
@@ -155,6 +160,7 @@ items:
     marketGroup: 1193
     mass: 1500.0
     name: Mjolnir XL Torpedo
+    price: 350000.0
     published: true
     volume: 0.3
   Nova XL Torpedo:
@@ -180,6 +186,7 @@ items:
     marketGroup: 1193
     mass: 1500.0
     name: Nova XL Torpedo
+    price: 250000.0
     published: true
     volume: 0.3
   Scourge XL Torpedo:
@@ -205,5 +212,6 @@ items:
     marketGroup: 1193
     mass: 1500.0
     name: Scourge XL Torpedo
+    price: 300000.0
     published: true
     volume: 0.3

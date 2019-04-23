@@ -88,6 +88,7 @@ items:
     marketGroup: 1924
     mass: 1600000.0
     name: Endurance
+    price: 1000000.0
     published: true
     volume: 50000.0
   Prospect:

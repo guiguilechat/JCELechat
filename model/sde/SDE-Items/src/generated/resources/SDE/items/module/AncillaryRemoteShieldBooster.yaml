@@ -27,6 +27,7 @@ items:
     id: 41483
     marketGroup: 600
     name: Capital Ancillary Remote Shield Booster
+    price: 2.465951E7
     published: true
     volume: 4000.0
   Large Ancillary Remote Shield Booster:
@@ -55,6 +56,7 @@ items:
     id: 41482
     marketGroup: 601
     name: Large Ancillary Remote Shield Booster
+    price: 31244.0
     published: true
     volume: 25.0
   Medium Ancillary Remote Shield Booster:
@@ -83,6 +85,7 @@ items:
     id: 41481
     marketGroup: 602
     name: Medium Ancillary Remote Shield Booster
+    price: 12470.0
     published: true
     volume: 10.0
   Small Ancillary Remote Shield Booster:
@@ -110,5 +113,6 @@ items:
     id: 41480
     marketGroup: 603
     name: Small Ancillary Remote Shield Booster
+    price: 4996.0
     published: true
     volume: 5.0

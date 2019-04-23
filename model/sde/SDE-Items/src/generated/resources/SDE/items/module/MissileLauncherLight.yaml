@@ -24,6 +24,7 @@ items:
     id: 20595
     marketGroup: 640
     name: '''Gallows'' Light Missile Launcher'
+    price: 6000.0
     published: true
     volume: 5.0
   Arbalest Compact Light Missile Launcher:
@@ -50,6 +51,7 @@ items:
     id: 8089
     marketGroup: 640
     name: Arbalest Compact Light Missile Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Caldari Navy Light Missile Launcher:
@@ -77,6 +79,7 @@ items:
     id: 16068
     marketGroup: 640
     name: Caldari Navy Light Missile Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Civilian Light Missile Launcher:
@@ -94,6 +97,7 @@ items:
     TypeColorScheme: 11324
     id: 32461
     name: Civilian Light Missile Launcher
+    price: 6000.0
     published: true
     volume: 5.0
   Domination Light Missile Launcher:
@@ -121,6 +125,7 @@ items:
     id: 13925
     marketGroup: 640
     name: Domination Light Missile Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Dread Guristas Light Missile Launcher:
@@ -148,6 +153,7 @@ items:
     id: 13926
     marketGroup: 640
     name: Dread Guristas Light Missile Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Light Missile Launcher I:
@@ -173,6 +179,7 @@ items:
     id: 499
     marketGroup: 640
     name: Light Missile Launcher I
+    price: 6000.0
     published: true
     volume: 5.0
   Light Missile Launcher II:
@@ -200,6 +207,7 @@ items:
     id: 2404
     marketGroup: 640
     name: Light Missile Launcher II
+    price: 72806.0
     published: true
     volume: 5.0
   Republic Fleet Light Missile Launcher:
@@ -227,6 +235,7 @@ items:
     id: 17491
     marketGroup: 640
     name: Republic Fleet Light Missile Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   TE-2100 Ample Light Missile Launcher:
@@ -253,6 +262,7 @@ items:
     id: 8091
     marketGroup: 640
     name: TE-2100 Ample Light Missile Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   True Sansha Light Missile Launcher:
@@ -280,5 +290,6 @@ items:
     id: 22565
     marketGroup: 640
     name: True Sansha Light Missile Launcher
+    price: 3000.0
     published: true
     volume: 5.0

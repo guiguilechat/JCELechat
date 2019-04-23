@@ -5,6 +5,7 @@ items:
     id: 24645
     marketGroup: 905
     name: Capital Tractor Beam I Blueprint
+    price: 4.0E8
     published: true
     volume: 0.01
   Capital Tractor Beam II Blueprint:
@@ -12,6 +13,7 @@ items:
     TechLevel: 2
     id: 4253
     name: Capital Tractor Beam II Blueprint
+    price: 4.0E8
     published: true
     volume: 0.01
   Small Tractor Beam I Blueprint:
@@ -20,6 +22,7 @@ items:
     id: 24349
     marketGroup: 905
     name: Small Tractor Beam I Blueprint
+    price: 90000.0
     published: true
     volume: 0.01
   Small Tractor Beam II Blueprint:
@@ -27,5 +30,6 @@ items:
     TechLevel: 2
     id: 4251
     name: Small Tractor Beam II Blueprint
+    price: 90000.0
     published: true
     volume: 0.01

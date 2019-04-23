@@ -4,6 +4,7 @@ items:
     id: 2803
     marketGroup: 1347
     name: Large Blaster Battery Blueprint
+    price: 7.5E7
     published: true
     volume: 0.01
   Large Railgun Battery Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 2804
     marketGroup: 1347
     name: Large Railgun Battery Blueprint
+    price: 7.5E7
     published: true
     volume: 0.01
   Medium Blaster Battery Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 2806
     marketGroup: 1347
     name: Medium Blaster Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Medium Railgun Battery Blueprint:
@@ -25,6 +28,7 @@ items:
     id: 2808
     marketGroup: 1347
     name: Medium Railgun Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Serpentis Large Blaster Battery Blueprint:
@@ -104,6 +108,7 @@ items:
     id: 2813
     marketGroup: 1347
     name: Small Blaster Battery Blueprint
+    price: 2.5E7
     published: true
     volume: 0.01
   Small Railgun Battery Blueprint:
@@ -111,5 +116,6 @@ items:
     id: 2815
     marketGroup: 1347
     name: Small Railgun Battery Blueprint
+    price: 2.5E7
     published: true
     volume: 0.01

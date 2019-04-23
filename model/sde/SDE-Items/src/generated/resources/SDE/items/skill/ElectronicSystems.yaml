@@ -10,6 +10,7 @@ items:
     id: 27911
     marketGroup: 367
     name: Burst Projector Operation
+    price: 1.2E7
     published: true
     volume: 0.01
   Cloaking:
@@ -23,6 +24,7 @@ items:
     id: 11579
     marketGroup: 367
     name: Cloaking
+    price: 3500000.0
     published: true
     volume: 0.01
   Electronic Warfare:
@@ -35,6 +37,7 @@ items:
     id: 3427
     marketGroup: 367
     name: Electronic Warfare
+    price: 120000.0
     published: true
     volume: 0.01
   Frequency Modulation:
@@ -48,6 +51,7 @@ items:
     id: 19760
     marketGroup: 367
     name: Frequency Modulation
+    price: 160000.0
     published: true
     volume: 0.01
   Long Distance Jamming:
@@ -62,6 +66,7 @@ items:
     id: 19759
     marketGroup: 367
     name: Long Distance Jamming
+    price: 200000.0
     published: true
     volume: 0.01
   Propulsion Jamming:
@@ -76,6 +81,7 @@ items:
     id: 3435
     marketGroup: 367
     name: Propulsion Jamming
+    price: 150000.0
     published: true
     volume: 0.01
   Sensor Linking:
@@ -88,6 +94,7 @@ items:
     id: 3433
     marketGroup: 367
     name: Sensor Linking
+    price: 100000.0
     published: true
     volume: 0.01
   Signal Dispersion:
@@ -102,6 +109,7 @@ items:
     id: 19761
     marketGroup: 367
     name: Signal Dispersion
+    price: 1000000.0
     published: true
     volume: 0.01
   Signal Suppression:
@@ -116,6 +124,7 @@ items:
     id: 19766
     marketGroup: 367
     name: Signal Suppression
+    price: 800000.0
     published: true
     volume: 0.01
   Signature Focusing:
@@ -130,6 +139,7 @@ items:
     id: 19922
     marketGroup: 367
     name: Signature Focusing
+    price: 600000.0
     published: true
     volume: 0.01
   Tactical Logistics Reconfiguration:
@@ -143,6 +153,7 @@ items:
     id: 27906
     marketGroup: 367
     name: Tactical Logistics Reconfiguration
+    price: 2.5E7
     published: true
     volume: 0.01
   Target Breaker Amplification:
@@ -156,6 +167,7 @@ items:
     id: 4411
     marketGroup: 367
     name: Target Breaker Amplification
+    price: 600000.0
     published: true
     volume: 0.01
   Target Painting:
@@ -168,6 +180,7 @@ items:
     id: 19921
     marketGroup: 367
     name: Target Painting
+    price: 90000.0
     published: true
     volume: 0.01
   Weapon Destabilization:
@@ -182,6 +195,7 @@ items:
     id: 19767
     marketGroup: 367
     name: Weapon Destabilization
+    price: 400000.0
     published: true
     volume: 0.01
   Weapon Disruption:
@@ -194,5 +208,6 @@ items:
     id: 3434
     marketGroup: 367
     name: Weapon Disruption
+    price: 80000.0
     published: true
     volume: 0.01

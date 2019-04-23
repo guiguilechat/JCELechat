@@ -12,6 +12,7 @@ items:
     marketGroup: 527
     mass: 1.0E35
     name: Compressed Glazed Hedbergite
+    price: 3705600.0
     published: true
     volume: 0.47
   Compressed Hedbergite:
@@ -27,6 +28,7 @@ items:
     marketGroup: 527
     mass: 1.0E35
     name: Compressed Hedbergite
+    price: 3374080.0
     published: true
     volume: 0.47
   Compressed Lustrous Hedbergite:
@@ -42,6 +44,7 @@ items:
     marketGroup: 527
     mass: 1.0
     name: Compressed Lustrous Hedbergite
+    price: 56000.0
     published: true
     volume: 0.47
   Compressed Vitric Hedbergite:
@@ -57,6 +60,7 @@ items:
     marketGroup: 527
     mass: 1.0E35
     name: Compressed Vitric Hedbergite
+    price: 3552000.0
     published: true
     volume: 0.47
   Glazed Hedbergite:
@@ -74,6 +78,7 @@ items:
     marketGroup: 527
     mass: 1.0E35
     name: Glazed Hedbergite
+    price: 370560.0
     published: true
     volume: 3.0
   Hedbergite:
@@ -91,6 +96,7 @@ items:
     marketGroup: 527
     mass: 1.0E35
     name: Hedbergite
+    price: 337408.0
     published: true
     volume: 3.0
   Lustrous Hedbergite:
@@ -108,6 +114,7 @@ items:
     marketGroup: 527
     mass: 1.0E35
     name: Lustrous Hedbergite
+    price: 510.0
     published: true
     volume: 3.0
   Vitric Hedbergite:
@@ -125,5 +132,6 @@ items:
     marketGroup: 527
     mass: 1.0E35
     name: Vitric Hedbergite
+    price: 355200.0
     published: true
     volume: 3.0

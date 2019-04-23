@@ -22,6 +22,7 @@ items:
     marketGroup: 1640
     mass: 1.0
     name: Covert Jump Portal Generator I
+    price: 5.1299712E7
     published: true
     volume: 125.0
   Jump Portal Generator I:
@@ -49,5 +50,6 @@ items:
     marketGroup: 1640
     mass: 1.0
     name: Jump Portal Generator I
+    price: 4.8145576E8
     published: true
     volume: 10000.0

@@ -10,6 +10,7 @@ items:
     id: 13209
     marketGroup: 1505
     name: Armored Command Mindlink
+    price: 200000.0
     published: true
     volume: 1.0
   Caldari Navy Command Mindlink:
@@ -42,6 +43,7 @@ items:
     id: 33404
     marketGroup: 1505
     name: Federation Navy Command Mindlink
+    price: 200000.0
     published: true
     volume: 1.0
   Imperial Navy Command Mindlink:
@@ -58,6 +60,7 @@ items:
     id: 33403
     marketGroup: 1505
     name: Imperial Navy Command Mindlink
+    price: 200000.0
     published: true
     volume: 1.0
   Information Command Mindlink:
@@ -100,6 +103,7 @@ items:
     id: 43775
     marketGroup: 1505
     name: ORE Mining Director Mindlink
+    price: 200000.0
     published: true
     volume: 1.0
   Republic Fleet Command Mindlink:

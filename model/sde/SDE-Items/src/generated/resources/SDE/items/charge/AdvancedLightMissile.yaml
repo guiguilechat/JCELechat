@@ -29,6 +29,7 @@ items:
     marketGroup: 927
     mass: 700.0
     name: Inferno Fury Light Missile
+    price: 101160.0
     published: true
     volume: 0.015
   Inferno Precision Light Missile:
@@ -61,6 +62,7 @@ items:
     marketGroup: 917
     mass: 700.0
     name: Inferno Precision Light Missile
+    price: 101160.0
     published: true
     volume: 0.015
   Mjolnir Fury Light Missile:
@@ -93,6 +95,7 @@ items:
     marketGroup: 927
     mass: 700.0
     name: Mjolnir Fury Light Missile
+    price: 101160.0
     published: true
     volume: 0.015
   Mjolnir Precision Light Missile:
@@ -125,6 +128,7 @@ items:
     marketGroup: 917
     mass: 700.0
     name: Mjolnir Precision Light Missile
+    price: 101160.0
     published: true
     volume: 0.015
   Nova Fury Light Missile:
@@ -157,6 +161,7 @@ items:
     marketGroup: 927
     mass: 700.0
     name: Nova Fury Light Missile
+    price: 101160.0
     published: true
     volume: 0.015
   Nova Precision Light Missile:
@@ -189,6 +194,7 @@ items:
     marketGroup: 917
     mass: 700.0
     name: Nova Precision Light Missile
+    price: 101160.0
     published: true
     volume: 0.015
   Scourge Fury Light Missile:
@@ -221,6 +227,7 @@ items:
     marketGroup: 927
     mass: 700.0
     name: Scourge Fury Light Missile
+    price: 101160.0
     published: true
     volume: 0.015
   Scourge Precision Light Missile:
@@ -253,5 +260,6 @@ items:
     marketGroup: 917
     mass: 700.0
     name: Scourge Precision Light Missile
+    price: 101160.0
     published: true
     volume: 0.015

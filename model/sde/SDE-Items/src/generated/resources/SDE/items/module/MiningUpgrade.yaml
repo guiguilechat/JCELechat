@@ -13,6 +13,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: '''Anguis'' Ice Harvester Upgrade'
+    price: 24960.0
     published: true
     volume: 5.0
   '''Aoede'' Mining Laser Upgrade':
@@ -30,6 +31,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: '''Aoede'' Mining Laser Upgrade'
+    price: 24960.0
     published: true
     volume: 5.0
   '''Carpo'' Mining Laser Upgrade':
@@ -46,6 +48,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: '''Carpo'' Mining Laser Upgrade'
+    price: 24960.0
     published: true
     volume: 5.0
   '''Ingenii'' Ice Harvester Upgrade':
@@ -63,6 +66,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: '''Ingenii'' Ice Harvester Upgrade'
+    price: 24960.0
     published: true
     volume: 5.0
   Elara Restrained Mining Laser Upgrade:
@@ -79,6 +83,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: Elara Restrained Mining Laser Upgrade
+    price: 24960.0
     published: true
     volume: 5.0
   Frigoris Restrained Ice Harvester Upgrade:
@@ -95,6 +100,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: Frigoris Restrained Ice Harvester Upgrade
+    price: 24960.0
     published: true
     volume: 5.0
   Frostline 'Omnivore' Harvester Upgrade:
@@ -128,6 +134,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: Ice Harvester Upgrade I
+    price: 24960.0
     published: true
     volume: 5.0
   Ice Harvester Upgrade II:
@@ -143,6 +150,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: Ice Harvester Upgrade II
+    price: 24960.0
     published: true
     volume: 5.0
   Mining Laser Upgrade I:
@@ -157,6 +165,7 @@ items:
     marketGroup: 935
     mass: 1.0
     name: Mining Laser Upgrade I
+    price: 24960.0
     published: true
     volume: 5.0
   Mining Laser Upgrade II:
@@ -172,5 +181,6 @@ items:
     marketGroup: 935
     mass: 1.0
     name: Mining Laser Upgrade II
+    price: 24960.0
     published: true
     volume: 5.0

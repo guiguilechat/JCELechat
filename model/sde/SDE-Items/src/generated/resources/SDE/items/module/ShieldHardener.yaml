@@ -17,6 +17,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: '''Desert Heat'' Thermal Dissipation Field'
+    price: 75000.0
     published: true
     volume: 5.0
   '''Nugget'' Kinetic Deflection Field':
@@ -37,6 +38,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: '''Nugget'' Kinetic Deflection Field'
+    price: 75000.0
     published: true
     volume: 5.0
   '''Poacher'' EM Ward Field':
@@ -57,6 +59,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: '''Poacher'' EM Ward Field'
+    price: 75000.0
     published: true
     volume: 5.0
   '''Posse'' Adaptive Invulnerability Field':
@@ -81,6 +84,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: '''Posse'' Adaptive Invulnerability Field'
+    price: 75000.0
     published: true
     volume: 5.0
   '''Snake Eyes'' Explosive Deflection Field':
@@ -101,6 +105,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: '''Snake Eyes'' Explosive Deflection Field'
+    price: 75000.0
     published: true
     volume: 5.0
   Adaptive Invulnerability Field I:
@@ -123,6 +128,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Adaptive Invulnerability Field I
+    price: 75000.0
     published: true
     volume: 20.0
   Adaptive Invulnerability Field II:
@@ -146,6 +152,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Adaptive Invulnerability Field II
+    price: 362408.0
     published: true
     volume: 5.0
   Caldari Navy Adaptive Invulnerability Field:
@@ -170,6 +177,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Caldari Navy Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Caldari Navy EM Ward Field:
@@ -190,6 +198,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Caldari Navy EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Caldari Navy Explosive Deflection Field:
@@ -210,6 +219,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Caldari Navy Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Caldari Navy Kinetic Deflection Field:
@@ -230,6 +240,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Caldari Navy Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Caldari Navy Thermal Dissipation Field:
@@ -250,6 +261,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Caldari Navy Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Civilian EM Ward Field:
@@ -270,6 +282,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Civilian EM Ward Field
+    price: 75000.0
     published: true
     volume: 20.0
   Civilian Explosive Deflection Field:
@@ -290,6 +303,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Civilian Explosive Deflection Field
+    price: 75000.0
     published: true
     volume: 20.0
   Civilian Kinetic Deflection Field:
@@ -310,6 +324,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Civilian Kinetic Deflection Field
+    price: 75000.0
     published: true
     volume: 20.0
   Civilian Thermal Dissipation Field:
@@ -330,6 +345,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Civilian Thermal Dissipation Field
+    price: 1800.0
     published: true
     volume: 20.0
   Domination Adaptive Invulnerability Field:
@@ -354,6 +370,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Domination Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Domination EM Ward Field:
@@ -374,6 +391,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Domination EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Domination Explosive Deflection Field:
@@ -394,6 +412,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Domination Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Domination Kinetic Deflection Field:
@@ -414,6 +433,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Domination Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Domination Thermal Dissipation Field:
@@ -434,6 +454,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Domination Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Dread Guristas Adaptive Invulnerability Field:
@@ -458,6 +479,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Dread Guristas Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Dread Guristas EM Ward Field:
@@ -478,6 +500,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Dread Guristas EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Dread Guristas Explosive Deflection Field:
@@ -498,6 +521,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Dread Guristas Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Dread Guristas Kinetic Deflection Field:
@@ -518,6 +542,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Dread Guristas Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Dread Guristas Thermal Dissipation Field:
@@ -538,6 +563,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Dread Guristas Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   EM Ward Field I:
@@ -556,6 +582,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: EM Ward Field I
+    price: 75000.0
     published: true
     volume: 20.0
   EM Ward Field II:
@@ -575,6 +602,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: EM Ward Field II
+    price: 261376.0
     published: true
     volume: 5.0
   Estamel's Modified Adaptive Invulnerability Field:
@@ -599,6 +627,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Estamel's Modified Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Estamel's Modified EM Ward Field:
@@ -619,6 +648,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Estamel's Modified EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Estamel's Modified Explosive Deflection Field:
@@ -639,6 +669,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Estamel's Modified Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Estamel's Modified Kinetic Deflection Field:
@@ -659,6 +690,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Estamel's Modified Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Estamel's Modified Thermal Dissipation Field:
@@ -679,6 +711,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Estamel's Modified Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Explosive Deflection Field I:
@@ -697,6 +730,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Explosive Deflection Field I
+    price: 75000.0
     published: true
     volume: 20.0
   Explosive Deflection Field II:
@@ -716,6 +750,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Explosive Deflection Field II
+    price: 271744.0
     published: true
     volume: 5.0
   Gist A-Type EM Ward Field:
@@ -737,6 +772,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Gist A-Type EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist A-Type Explosive Deflection Field:
@@ -758,6 +794,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Gist A-Type Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist A-Type Kinetic Deflection Field:
@@ -779,6 +816,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Gist A-Type Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Gist A-Type Thermal Dissipation Field:
@@ -800,6 +838,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Gist A-Type Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist B-Type EM Ward Field:
@@ -821,6 +860,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Gist B-Type EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist B-Type Explosive Deflection Field:
@@ -842,6 +882,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Gist B-Type Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist B-Type Kinetic Deflection Field:
@@ -863,6 +904,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Gist B-Type Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Gist B-Type Thermal Dissipation Field:
@@ -884,6 +926,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Gist B-Type Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist C-Type EM Ward Field:
@@ -905,6 +948,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Gist C-Type EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist C-Type Explosive Deflection Field:
@@ -926,6 +970,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Gist C-Type Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist C-Type Kinetic Deflection Field:
@@ -947,6 +992,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Gist C-Type Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Gist C-Type Thermal Dissipation Field:
@@ -968,6 +1014,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Gist C-Type Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist X-Type EM Ward Field:
@@ -989,6 +1036,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Gist X-Type EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist X-Type Explosive Deflection Field:
@@ -1010,6 +1058,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Gist X-Type Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gist X-Type Kinetic Deflection Field:
@@ -1031,6 +1080,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Gist X-Type Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Gist X-Type Thermal Dissipation Field:
@@ -1052,6 +1102,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Gist X-Type Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Gistum A-Type Adaptive Invulnerability Field:
@@ -1077,6 +1128,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Gistum A-Type Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Gistum B-Type Adaptive Invulnerability Field:
@@ -1102,6 +1154,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Gistum B-Type Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Gistum C-Type Adaptive Invulnerability Field:
@@ -1127,6 +1180,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Gistum C-Type Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Kaikka's Modified Adaptive Invulnerability Field:
@@ -1151,6 +1205,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Kaikka's Modified Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Kaikka's Modified EM Ward Field:
@@ -1171,6 +1226,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Kaikka's Modified EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Kaikka's Modified Explosive Deflection Field:
@@ -1191,6 +1247,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Kaikka's Modified Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Kaikka's Modified Kinetic Deflection Field:
@@ -1211,6 +1268,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Kaikka's Modified Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Kaikka's Modified Thermal Dissipation Field:
@@ -1231,6 +1289,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Kaikka's Modified Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Kinetic Deflection Field I:
@@ -1249,6 +1308,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Kinetic Deflection Field I
+    price: 75000.0
     published: true
     volume: 20.0
   Kinetic Deflection Field II:
@@ -1268,6 +1328,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Kinetic Deflection Field II
+    price: 269248.0
     published: true
     volume: 5.0
   Limited 'Anointed' EM Ward Field:
@@ -1287,6 +1348,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Limited 'Anointed' EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Limited Adaptive Invulnerability Field I:
@@ -1310,6 +1372,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Limited Adaptive Invulnerability Field I
+    price: 63062.0
     published: true
     volume: 5.0
   Limited Explosive Deflection Field I:
@@ -1329,6 +1392,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Limited Explosive Deflection Field I
+    price: 45412.0
     published: true
     volume: 5.0
   Limited Kinetic Deflection Field I:
@@ -1348,6 +1412,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Limited Kinetic Deflection Field I
+    price: 5808.0
     published: true
     volume: 5.0
   Limited Thermal Dissipation Field I:
@@ -1367,6 +1432,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Limited Thermal Dissipation Field I
+    price: 45412.0
     published: true
     volume: 5.0
   Pith A-Type EM Ward Field:
@@ -1387,6 +1453,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Pith A-Type EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith A-Type Explosive Deflection Field:
@@ -1407,6 +1474,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Pith A-Type Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith A-Type Kinetic Deflection Field:
@@ -1427,6 +1495,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Pith A-Type Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Pith A-Type Thermal Dissipation Field:
@@ -1447,6 +1516,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Pith A-Type Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith B-Type EM Ward Field:
@@ -1467,6 +1537,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Pith B-Type EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith B-Type Explosive Deflection Field:
@@ -1487,6 +1558,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Pith B-Type Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith B-Type Kinetic Deflection Field:
@@ -1507,6 +1579,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Pith B-Type Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Pith B-Type Thermal Dissipation Field:
@@ -1527,6 +1600,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Pith B-Type Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith C-Type EM Ward Field:
@@ -1547,6 +1621,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Pith C-Type EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith C-Type Explosive Deflection Field:
@@ -1567,6 +1642,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Pith C-Type Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith C-Type Kinetic Deflection Field:
@@ -1587,6 +1663,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Pith C-Type Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Pith C-Type Thermal Dissipation Field:
@@ -1607,6 +1684,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Pith C-Type Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith X-Type EM Ward Field:
@@ -1627,6 +1705,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Pith X-Type EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith X-Type Explosive Deflection Field:
@@ -1647,6 +1726,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Pith X-Type Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pith X-Type Kinetic Deflection Field:
@@ -1667,6 +1747,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Pith X-Type Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Pith X-Type Thermal Dissipation Field:
@@ -1687,6 +1768,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Pith X-Type Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Pithum A-Type Adaptive Invulnerability Field:
@@ -1712,6 +1794,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Pithum A-Type Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Pithum B-Type Adaptive Invulnerability Field:
@@ -1737,6 +1820,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Pithum B-Type Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Pithum C-Type Adaptive Invulnerability Field:
@@ -1762,6 +1846,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Pithum C-Type Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Thermal Dissipation Field I:
@@ -1780,6 +1865,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Thermal Dissipation Field I
+    price: 75000.0
     published: true
     volume: 20.0
   Thermal Dissipation Field II:
@@ -1799,6 +1885,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Thermal Dissipation Field II
+    price: 273696.0
     published: true
     volume: 5.0
   Thon's Modified Adaptive Invulnerability Field:
@@ -1823,6 +1910,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Thon's Modified Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Thon's Modified EM Ward Field:
@@ -1843,6 +1931,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Thon's Modified EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Thon's Modified Explosive Deflection Field:
@@ -1863,6 +1952,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Thon's Modified Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Thon's Modified Kinetic Deflection Field:
@@ -1883,6 +1973,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Thon's Modified Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Thon's Modified Thermal Dissipation Field:
@@ -1903,6 +1994,7 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Thon's Modified Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0
   Vepas's Modified Adaptive Invulnerability Field:
@@ -1927,6 +2019,7 @@ items:
     marketGroup: 1696
     mass: 10000.0
     name: Vepas's Modified Adaptive Invulnerability Field
+    price: 63062.0
     published: true
     volume: 5.0
   Vepas's Modified EM Ward Field:
@@ -1947,6 +2040,7 @@ items:
     marketGroup: 1695
     mass: 10000.0
     name: Vepas's Modified EM Ward Field
+    price: 45412.0
     published: true
     volume: 5.0
   Vepas's Modified Explosive Deflection Field:
@@ -1967,6 +2061,7 @@ items:
     marketGroup: 1694
     mass: 10000.0
     name: Vepas's Modified Explosive Deflection Field
+    price: 45412.0
     published: true
     volume: 5.0
   Vepas's Modified Kinetic Deflection Field:
@@ -1987,6 +2082,7 @@ items:
     marketGroup: 1693
     mass: 10000.0
     name: Vepas's Modified Kinetic Deflection Field
+    price: 5808.0
     published: true
     volume: 5.0
   Vepas's Modified Thermal Dissipation Field:
@@ -2007,5 +2103,6 @@ items:
     marketGroup: 1692
     mass: 10000.0
     name: Vepas's Modified Thermal Dissipation Field
+    price: 45412.0
     published: true
     volume: 5.0

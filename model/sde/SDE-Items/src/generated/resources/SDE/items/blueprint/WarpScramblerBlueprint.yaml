@@ -32,6 +32,7 @@ items:
     TechLevel: 1
     id: 40747
     name: Domination Heavy Warp Disruptor Blueprint
+    price: 394240.0
     published: true
     volume: 0.01
   Domination Heavy Warp Scrambler Blueprint:
@@ -39,6 +40,7 @@ items:
     TechLevel: 1
     id: 40765
     name: Domination Heavy Warp Scrambler Blueprint
+    price: 394240.0
     published: true
     volume: 0.01
   Heavy Faint Epsilon Scoped Warp Scrambler Blueprint:
@@ -46,6 +48,7 @@ items:
     id: 40757
     marketGroup: 1939
     name: Heavy Faint Epsilon Scoped Warp Scrambler Blueprint
+    price: 2400000.0
     published: true
     volume: 0.01
   Heavy Faint Scoped Warp Disruptor Blueprint:
@@ -53,6 +56,7 @@ items:
     id: 40743
     marketGroup: 1938
     name: Heavy Faint Scoped Warp Disruptor Blueprint
+    price: 2400000.0
     published: true
     volume: 0.01
   Heavy Fleeting Compact Warp Disruptor Blueprint:
@@ -60,6 +64,7 @@ items:
     id: 40741
     marketGroup: 1938
     name: Heavy Fleeting Compact Warp Disruptor Blueprint
+    price: 2400000.0
     published: true
     volume: 0.01
   Heavy Initiated Compact Warp Scrambler Blueprint:
@@ -67,6 +72,7 @@ items:
     id: 40753
     marketGroup: 1939
     name: Heavy Initiated Compact Warp Scrambler Blueprint
+    price: 2400000.0
     published: true
     volume: 0.01
   Heavy J5 Enduring Warp Disruptor Blueprint:
@@ -74,6 +80,7 @@ items:
     id: 40742
     marketGroup: 1938
     name: Heavy J5 Enduring Warp Disruptor Blueprint
+    price: 2400000.0
     published: true
     volume: 0.01
   Heavy J5b Enduring Warp Scrambler Blueprint:
@@ -81,6 +88,7 @@ items:
     id: 40755
     marketGroup: 1939
     name: Heavy J5b Enduring Warp Scrambler Blueprint
+    price: 2400000.0
     published: true
     volume: 0.01
   Heavy Warp Disruptor I Blueprint:
@@ -88,12 +96,14 @@ items:
     id: 40740
     marketGroup: 1938
     name: Heavy Warp Disruptor I Blueprint
+    price: 1200000.0
     published: true
     volume: 0.01
   Heavy Warp Disruptor II Blueprint:
     TechLevel: 2
     id: 40744
     name: Heavy Warp Disruptor II Blueprint
+    price: 394240.0
     published: true
     volume: 0.01
   Heavy Warp Scrambler I Blueprint:
@@ -101,12 +111,14 @@ items:
     id: 40751
     marketGroup: 1939
     name: Heavy Warp Scrambler I Blueprint
+    price: 1200000.0
     published: true
     volume: 0.01
   Heavy Warp Scrambler II Blueprint:
     TechLevel: 2
     id: 40759
     name: Heavy Warp Scrambler II Blueprint
+    price: 394240.0
     published: true
     volume: 0.01
   Khanid Navy Warp Disruptor Blueprint:
@@ -142,6 +154,7 @@ items:
     TechLevel: 1
     id: 40746
     name: Shadow Serpentis Heavy Warp Disruptor Blueprint
+    price: 394240.0
     published: true
     volume: 0.01
   Shadow Serpentis Heavy Warp Scrambler Blueprint:
@@ -149,6 +162,7 @@ items:
     TechLevel: 1
     id: 40763
     name: Shadow Serpentis Heavy Warp Scrambler Blueprint
+    price: 394240.0
     published: true
     volume: 0.01
   Warp Disruption Field Generator I Blueprint:
@@ -157,6 +171,7 @@ items:
     id: 28655
     marketGroup: 1572
     name: Warp Disruption Field Generator I Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Warp Disruption Field Generator II Blueprint:
@@ -164,6 +179,7 @@ items:
     TechLevel: 2
     id: 4249
     name: Warp Disruption Field Generator II Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Warp Disruptor I Blueprint:
@@ -172,6 +188,7 @@ items:
     id: 3243
     marketGroup: 1938
     name: Warp Disruptor I Blueprint
+    price: 394240.0
     published: true
     volume: 0.01
   Warp Disruptor II Blueprint:
@@ -179,6 +196,7 @@ items:
     TechLevel: 2
     id: 3245
     name: Warp Disruptor II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Warp Scrambler I Blueprint:
@@ -187,6 +205,7 @@ items:
     id: 1079
     marketGroup: 1939
     name: Warp Scrambler I Blueprint
+    price: 394240.0
     published: true
     volume: 0.01
   Warp Scrambler II Blueprint:
@@ -194,5 +213,6 @@ items:
     TechLevel: 2
     id: 1080
     name: Warp Scrambler II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01

@@ -12,6 +12,7 @@ items:
     marketGroup: 528
     mass: 1.0E35
     name: Compressed Hemorphite
+    price: 3019920.0
     published: true
     volume: 0.86
   Compressed Radiant Hemorphite:
@@ -27,6 +28,7 @@ items:
     marketGroup: 528
     mass: 1.0E35
     name: Compressed Radiant Hemorphite
+    price: 3323700.0
     published: true
     volume: 0.86
   Compressed Scintillating Hemorphite:
@@ -42,6 +44,7 @@ items:
     marketGroup: 528
     mass: 1.0
     name: Compressed Scintillating Hemorphite
+    price: 122000.0
     published: true
     volume: 0.86
   Compressed Vivid Hemorphite:
@@ -57,6 +60,7 @@ items:
     marketGroup: 528
     mass: 1.0E35
     name: Compressed Vivid Hemorphite
+    price: 3162220.0
     published: true
     volume: 0.86
   Hemorphite:
@@ -74,6 +78,7 @@ items:
     marketGroup: 528
     mass: 1.0E35
     name: Hemorphite
+    price: 301992.0
     published: true
     volume: 3.0
   Radiant Hemorphite:
@@ -91,6 +96,7 @@ items:
     marketGroup: 528
     mass: 1.0E35
     name: Radiant Hemorphite
+    price: 332370.0
     published: true
     volume: 3.0
   Scintillating Hemorphite:
@@ -108,6 +114,7 @@ items:
     marketGroup: 528
     mass: 1.0E35
     name: Scintillating Hemorphite
+    price: 1100.0
     published: true
     volume: 3.0
   Vivid Hemorphite:
@@ -125,5 +132,6 @@ items:
     marketGroup: 528
     mass: 1.0E35
     name: Vivid Hemorphite
+    price: 316222.0
     published: true
     volume: 3.0

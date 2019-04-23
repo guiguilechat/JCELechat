@@ -4,6 +4,7 @@ items:
     TechLevel: 2
     id: 12804
     name: Javelin L Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Javelin M Blueprint:
@@ -11,6 +12,7 @@ items:
     TechLevel: 2
     id: 12802
     name: Javelin M Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Javelin S Blueprint:
@@ -18,12 +20,14 @@ items:
     TechLevel: 2
     id: 12621
     name: Javelin S Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Javelin XL Blueprint:
     TechLevel: 2
     id: 41327
     name: Javelin XL Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Null L Blueprint:
@@ -31,6 +35,7 @@ items:
     TechLevel: 2
     id: 12788
     name: Null L Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Null M Blueprint:
@@ -38,6 +43,7 @@ items:
     TechLevel: 2
     id: 12786
     name: Null M Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Null S Blueprint:
@@ -45,12 +51,14 @@ items:
     TechLevel: 2
     id: 12615
     name: Null S Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Null XL Blueprint:
     TechLevel: 2
     id: 41325
     name: Null XL Blueprint
+    price: 6000000.0
     published: true
     volume: 0.01
   Spike L Blueprint:
@@ -58,6 +66,7 @@ items:
     TechLevel: 2
     id: 12808
     name: Spike L Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Spike M Blueprint:
@@ -65,6 +74,7 @@ items:
     TechLevel: 2
     id: 12806
     name: Spike M Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Spike S Blueprint:
@@ -72,12 +82,14 @@ items:
     TechLevel: 2
     id: 12619
     name: Spike S Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Spike XL Blueprint:
     TechLevel: 2
     id: 41329
     name: Spike XL Blueprint
+    price: 8000000.0
     published: true
     volume: 0.01
   Void L Blueprint:
@@ -85,6 +97,7 @@ items:
     TechLevel: 2
     id: 12792
     name: Void L Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Void M Blueprint:
@@ -92,6 +105,7 @@ items:
     TechLevel: 2
     id: 12790
     name: Void M Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Void S Blueprint:
@@ -99,11 +113,13 @@ items:
     TechLevel: 2
     id: 12613
     name: Void S Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Void XL Blueprint:
     TechLevel: 2
     id: 41323
     name: Void XL Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01

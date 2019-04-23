@@ -25,6 +25,7 @@ items:
     id: 41639
     marketGroup: 1558
     name: Capital Cap Battery I Blueprint
+    price: 2.4E7
     published: true
     volume: 0.01
   Capital Cap Battery II Blueprint:
@@ -38,6 +39,7 @@ items:
     id: 41640
     marketGroup: 1558
     name: Capital Compact Pb-Acid Cap Battery Blueprint
+    price: 4.8E7
     published: true
     volume: 0.01
   Dark Blood Capital Cap Battery Blueprint:
@@ -58,6 +60,7 @@ items:
     id: 2021
     marketGroup: 1558
     name: Large Cap Battery I Blueprint
+    price: 624500.0
     published: true
     volume: 0.01
   Large Cap Battery II Blueprint:
@@ -65,6 +68,7 @@ items:
     TechLevel: 2
     id: 3505
     name: Large Cap Battery II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Medium Cap Battery I Blueprint:
@@ -73,6 +77,7 @@ items:
     id: 2019
     marketGroup: 1558
     name: Medium Cap Battery I Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Medium Cap Battery II Blueprint:
@@ -80,6 +85,7 @@ items:
     TechLevel: 2
     id: 3497
     name: Medium Cap Battery II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Small Cap Battery I Blueprint:
@@ -88,6 +94,7 @@ items:
     id: 1186
     marketGroup: 1558
     name: Small Cap Battery I Blueprint
+    price: 100000.0
     published: true
     volume: 0.01
   Small Cap Battery II Blueprint:
@@ -95,5 +102,6 @@ items:
     TechLevel: 2
     id: 3489
     name: Small Cap Battery II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

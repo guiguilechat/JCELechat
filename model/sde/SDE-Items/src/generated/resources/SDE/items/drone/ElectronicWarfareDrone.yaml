@@ -57,6 +57,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Acolyte TD-300
+    price: 2000.0
     published: true
     volume: 5.0
   Berserker TP-900:
@@ -115,6 +116,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Berserker TP-900
+    price: 40000.0
     published: true
     volume: 25.0
   Hammerhead SD-600:
@@ -174,6 +176,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Hammerhead SD-600
+    price: 18000.0
     published: true
     volume: 10.0
   Hobgoblin SD-300:
@@ -233,6 +236,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Hobgoblin SD-300
+    price: 2500.0
     published: true
     volume: 5.0
   Hornet EC-300:
@@ -292,6 +296,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Hornet EC-300
+    price: 3000.0
     published: true
     volume: 5.0
   Infiltrator TD-600:
@@ -352,6 +357,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Infiltrator TD-600
+    price: 17000.0
     published: true
     volume: 10.0
   Ogre SD-900:
@@ -411,6 +417,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Ogre SD-900
+    price: 70000.0
     published: true
     volume: 25.0
   Praetor TD-900:
@@ -471,6 +478,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Praetor TD-900
+    price: 60000.0
     published: true
     volume: 25.0
   Valkyrie TP-600:
@@ -529,6 +537,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Valkyrie TP-600
+    price: 15000.0
     published: true
     volume: 10.0
   Vespa EC-600:
@@ -590,6 +599,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Vespa EC-600
+    price: 16000.0
     published: true
     volume: 10.0
   Warrior TP-300:
@@ -648,6 +658,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Warrior TP-300
+    price: 4000.0
     published: true
     volume: 5.0
   Wasp EC-900:
@@ -709,5 +720,6 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Wasp EC-900
+    price: 50000.0
     published: true
     volume: 25.0

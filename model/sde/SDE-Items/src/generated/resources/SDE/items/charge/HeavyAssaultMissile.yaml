@@ -27,6 +27,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Caldari Navy Inferno Heavy Assault Missile
+    price: 3000.0
     published: true
     volume: 0.015
   Caldari Navy Mjolnir Heavy Assault Missile:
@@ -57,6 +58,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Caldari Navy Mjolnir Heavy Assault Missile
+    price: 3500.0
     published: true
     volume: 0.015
   Caldari Navy Nova Heavy Assault Missile:
@@ -87,6 +89,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Caldari Navy Nova Heavy Assault Missile
+    price: 2000.0
     published: true
     volume: 0.015
   Caldari Navy Scourge Heavy Assault Missile:
@@ -117,6 +120,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Caldari Navy Scourge Heavy Assault Missile
+    price: 2516.0
     published: true
     volume: 0.015
   Dread Guristas Inferno Heavy Assault Missile:
@@ -147,6 +151,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Dread Guristas Inferno Heavy Assault Missile
+    price: 3000.0
     published: true
     volume: 0.015
   Dread Guristas Mjolnir Heavy Assault Missile:
@@ -177,6 +182,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Dread Guristas Mjolnir Heavy Assault Missile
+    price: 3500.0
     published: true
     volume: 0.015
   Dread Guristas Nova Heavy Assault Missile:
@@ -207,6 +213,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Dread Guristas Nova Heavy Assault Missile
+    price: 2000.0
     published: true
     volume: 0.015
   Dread Guristas Scourge Heavy Assault Missile:
@@ -237,6 +244,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Dread Guristas Scourge Heavy Assault Missile
+    price: 2516.0
     published: true
     volume: 0.015
   Guristas Inferno Heavy Assault Missile:
@@ -267,6 +275,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Guristas Inferno Heavy Assault Missile
+    price: 3000.0
     published: true
     volume: 0.015
   Guristas Mjolnir Heavy Assault Missile:
@@ -297,6 +306,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Guristas Mjolnir Heavy Assault Missile
+    price: 3500.0
     published: true
     volume: 0.015
   Guristas Nova Heavy Assault Missile:
@@ -327,6 +337,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Guristas Nova Heavy Assault Missile
+    price: 2000.0
     published: true
     volume: 0.015
   Guristas Scourge Heavy Assault Missile:
@@ -357,6 +368,7 @@ items:
     marketGroup: 1003
     mass: 1000.0
     name: Guristas Scourge Heavy Assault Missile
+    price: 2516.0
     published: true
     volume: 0.015
   Inferno Heavy Assault Missile:
@@ -385,6 +397,7 @@ items:
     marketGroup: 971
     mass: 1000.0
     name: Inferno Heavy Assault Missile
+    price: 3000.0
     published: true
     volume: 0.015
   Mjolnir Heavy Assault Missile:
@@ -413,6 +426,7 @@ items:
     marketGroup: 971
     mass: 1000.0
     name: Mjolnir Heavy Assault Missile
+    price: 3500.0
     published: true
     volume: 0.015
   Nova Heavy Assault Missile:
@@ -441,6 +455,7 @@ items:
     marketGroup: 971
     mass: 1000.0
     name: Nova Heavy Assault Missile
+    price: 2000.0
     published: true
     volume: 0.015
   Scourge Heavy Assault Missile:
@@ -469,5 +484,6 @@ items:
     marketGroup: 971
     mass: 1000.0
     name: Scourge Heavy Assault Missile
+    price: 2516.0
     published: true
     volume: 0.015

@@ -11,6 +11,7 @@ items:
     marketGroup: 2298
     mass: 0.01
     name: Armor Energizing Charge
+    price: 1000.0
     published: true
     volume: 0.01
   Armor Reinforcement Charge:
@@ -25,6 +26,7 @@ items:
     marketGroup: 2298
     mass: 0.01
     name: Armor Reinforcement Charge
+    price: 1000.0
     published: true
     volume: 0.01
   Rapid Repair Charge:
@@ -39,5 +41,6 @@ items:
     marketGroup: 2298
     mass: 0.01
     name: Rapid Repair Charge
+    price: 1000.0
     published: true
     volume: 0.01

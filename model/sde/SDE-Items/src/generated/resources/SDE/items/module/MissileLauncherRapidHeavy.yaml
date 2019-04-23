@@ -23,6 +23,7 @@ items:
     id: 33440
     marketGroup: 1827
     name: '''Arbalest'' Rapid Heavy Missile Launcher I'
+    price: 80118.0
     published: true
     volume: 20.0
   '''Limos'' Rapid Heavy Missile Launcher I':
@@ -49,6 +50,7 @@ items:
     id: 33441
     marketGroup: 1827
     name: '''Limos'' Rapid Heavy Missile Launcher I'
+    price: 80118.0
     published: true
     volume: 20.0
   '''Malkuth'' Rapid Heavy Missile Launcher I':
@@ -75,6 +77,7 @@ items:
     id: 33442
     marketGroup: 1827
     name: '''Malkuth'' Rapid Heavy Missile Launcher I'
+    price: 80118.0
     published: true
     volume: 20.0
   Caldari Navy Rapid Heavy Missile Launcher:
@@ -102,6 +105,7 @@ items:
     id: 33446
     marketGroup: 1827
     name: Caldari Navy Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Domination Rapid Heavy Missile Launcher:
@@ -129,6 +133,7 @@ items:
     id: 33452
     marketGroup: 1827
     name: Domination Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Dread Guristas Rapid Heavy Missile Launcher:
@@ -156,6 +161,7 @@ items:
     id: 33453
     marketGroup: 1827
     name: Dread Guristas Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Estamel's Modified Rapid Heavy Missile Launcher:
@@ -183,6 +189,7 @@ items:
     id: 33454
     marketGroup: 1827
     name: Estamel's Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Gotan's Modified Rapid Heavy Missile Launcher:
@@ -210,6 +217,7 @@ items:
     id: 33455
     marketGroup: 1827
     name: Gotan's Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Hakim's Modified Rapid Heavy Missile Launcher:
@@ -237,6 +245,7 @@ items:
     id: 33456
     marketGroup: 1827
     name: Hakim's Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Kaikka's Modified Rapid Heavy Missile Launcher:
@@ -264,6 +273,7 @@ items:
     id: 33457
     marketGroup: 1827
     name: Kaikka's Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Mizuro's Modified Rapid Heavy Missile Launcher:
@@ -291,6 +301,7 @@ items:
     id: 33458
     marketGroup: 1827
     name: Mizuro's Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Rapid Heavy Missile Launcher I:
@@ -316,6 +327,7 @@ items:
     id: 33448
     marketGroup: 1827
     name: Rapid Heavy Missile Launcher I
+    price: 80118.0
     published: true
     volume: 20.0
   Rapid Heavy Missile Launcher II:
@@ -343,6 +355,7 @@ items:
     id: 33450
     marketGroup: 1827
     name: Rapid Heavy Missile Launcher II
+    price: 342262.0
     published: true
     volume: 20.0
   Republic Fleet Rapid Heavy Missile Launcher:
@@ -370,6 +383,7 @@ items:
     id: 33459
     marketGroup: 1827
     name: Republic Fleet Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Shaqil's Modified Rapid Heavy Missile Launcher:
@@ -397,6 +411,7 @@ items:
     id: 33461
     marketGroup: 1827
     name: Shaqil's Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Thon's Modified Rapid Heavy Missile Launcher:
@@ -424,6 +439,7 @@ items:
     id: 33462
     marketGroup: 1827
     name: Thon's Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Tobias' Modified Rapid Heavy Missile Launcher:
@@ -451,6 +467,7 @@ items:
     id: 33463
     marketGroup: 1827
     name: Tobias' Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   True Sansha Rapid Heavy Missile Launcher:
@@ -478,6 +495,7 @@ items:
     id: 33464
     marketGroup: 1827
     name: True Sansha Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Vepas' Modified Rapid Heavy Missile Launcher:
@@ -505,6 +523,7 @@ items:
     id: 33465
     marketGroup: 1827
     name: Vepas' Modified Rapid Heavy Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   YO-5000 Rapid Heavy Missile Launcher:
@@ -531,5 +550,6 @@ items:
     id: 33466
     marketGroup: 1827
     name: YO-5000 Rapid Heavy Missile Launcher
+    price: 80118.0
     published: true
     volume: 20.0

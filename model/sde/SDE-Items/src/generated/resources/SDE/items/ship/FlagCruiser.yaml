@@ -85,5 +85,6 @@ items:
     marketGroup: 2417
     mass: 1.6E7
     name: Monitor
+    price: 2.0E8
     published: true
     volume: 100000.0

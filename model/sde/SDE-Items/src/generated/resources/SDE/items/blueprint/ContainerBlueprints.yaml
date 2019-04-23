@@ -4,6 +4,7 @@ items:
     id: 33004
     marketGroup: 1008
     name: Enormous Freight Container Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Giant Freight Container Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 32862
     marketGroup: 1008
     name: Giant Freight Container Blueprint
+    price: 2000000.0
     published: true
     volume: 0.01
   Giant Secure Container Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 32863
     marketGroup: 1008
     name: Giant Secure Container Blueprint
+    price: 2500000.0
     published: true
     volume: 0.01
   Huge Freight Container Blueprint:
@@ -25,6 +28,7 @@ items:
     id: 33006
     marketGroup: 1008
     name: Huge Freight Container Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Huge Secure Container Blueprint:
@@ -32,6 +36,7 @@ items:
     id: 32864
     marketGroup: 1008
     name: Huge Secure Container Blueprint
+    price: 1200000.0
     published: true
     volume: 0.01
   Large Audit Log Secure Container Blueprint:
@@ -39,6 +44,7 @@ items:
     id: 32870
     marketGroup: 1008
     name: Large Audit Log Secure Container Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Large Freight Container Blueprint:
@@ -46,6 +52,7 @@ items:
     id: 33008
     marketGroup: 1008
     name: Large Freight Container Blueprint
+    price: 500000.0
     published: true
     volume: 0.01
   Large Secure Container Blueprint:
@@ -53,6 +60,7 @@ items:
     id: 32865
     marketGroup: 1008
     name: Large Secure Container Blueprint
+    price: 500000.0
     published: true
     volume: 0.01
   Large Standard Container Blueprint:
@@ -60,6 +68,7 @@ items:
     id: 32861
     marketGroup: 1008
     name: Large Standard Container Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Medium Audit Log Secure Container Blueprint:
@@ -67,6 +76,7 @@ items:
     id: 32869
     marketGroup: 1008
     name: Medium Audit Log Secure Container Blueprint
+    price: 2000000.0
     published: true
     volume: 0.01
   Medium Freight Container Blueprint:
@@ -74,6 +84,7 @@ items:
     id: 33010
     marketGroup: 1008
     name: Medium Freight Container Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Medium Secure Container Blueprint:
@@ -81,6 +92,7 @@ items:
     id: 32866
     marketGroup: 1008
     name: Medium Secure Container Blueprint
+    price: 230000.0
     published: true
     volume: 0.01
   Medium Standard Container Blueprint:
@@ -88,6 +100,7 @@ items:
     id: 32860
     marketGroup: 1008
     name: Medium Standard Container Blueprint
+    price: 120000.0
     published: true
     volume: 0.01
   Small Audit Log Secure Container Blueprint:
@@ -95,6 +108,7 @@ items:
     id: 32868
     marketGroup: 1008
     name: Small Audit Log Secure Container Blueprint
+    price: 180000.0
     published: true
     volume: 0.01
   Small Freight Container Blueprint:
@@ -102,6 +116,7 @@ items:
     id: 33012
     marketGroup: 1008
     name: Small Freight Container Blueprint
+    price: 125000.0
     published: true
     volume: 0.01
   Small Secure Container Blueprint:
@@ -109,6 +124,7 @@ items:
     id: 32867
     marketGroup: 1008
     name: Small Secure Container Blueprint
+    price: 80000.0
     published: true
     volume: 0.01
   Small Standard Container Blueprint:
@@ -116,6 +132,7 @@ items:
     id: 32859
     marketGroup: 1008
     name: Small Standard Container Blueprint
+    price: 50000.0
     published: true
     volume: 0.01
   Station Container Blueprint:
@@ -123,6 +140,7 @@ items:
     id: 32858
     marketGroup: 1008
     name: Station Container Blueprint
+    price: 180000.0
     published: true
     volume: 0.01
   Station Vault Container Blueprint:
@@ -130,6 +148,7 @@ items:
     id: 32871
     marketGroup: 1008
     name: Station Vault Container Blueprint
+    price: 1800000.0
     published: true
     volume: 0.01
   Station Warehouse Container Blueprint:
@@ -137,5 +156,6 @@ items:
     id: 27309
     marketGroup: 1008
     name: Station Warehouse Container Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01

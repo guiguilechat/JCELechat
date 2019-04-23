@@ -12,6 +12,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Cobaltite
+    price: 2000.0
     published: true
     volume: 10.0
   Copious Cobaltite:
@@ -27,6 +28,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Cobaltite
+    price: 2000.0
     published: true
     volume: 10.0
   Copious Euxenite:
@@ -42,6 +44,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Euxenite
+    price: 2000.0
     published: true
     volume: 10.0
   Copious Scheelite:
@@ -57,6 +60,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Scheelite
+    price: 2000.0
     published: true
     volume: 10.0
   Copious Titanite:
@@ -72,6 +76,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Copious Titanite
+    price: 2000.0
     published: true
     volume: 10.0
   Euxenite:
@@ -87,6 +92,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Euxenite
+    price: 2000.0
     published: true
     volume: 10.0
   Scheelite:
@@ -102,6 +108,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Scheelite
+    price: 2000.0
     published: true
     volume: 10.0
   Titanite:
@@ -117,6 +124,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Titanite
+    price: 2000.0
     published: true
     volume: 10.0
   Twinkling Cobaltite:
@@ -132,6 +140,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Cobaltite
+    price: 4000.0
     published: true
     volume: 10.0
   Twinkling Euxenite:
@@ -147,6 +156,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Euxenite
+    price: 4000.0
     published: true
     volume: 10.0
   Twinkling Scheelite:
@@ -162,6 +172,7 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Scheelite
+    price: 4000.0
     published: true
     volume: 10.0
   Twinkling Titanite:
@@ -177,5 +188,6 @@ items:
     marketGroup: 2397
     mass: 4000.0
     name: Twinkling Titanite
+    price: 4000.0
     published: true
     volume: 10.0

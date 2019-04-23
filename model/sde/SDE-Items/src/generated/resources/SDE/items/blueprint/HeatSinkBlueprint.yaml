@@ -19,6 +19,7 @@ items:
     id: 11612
     marketGroup: 343
     name: Heat Sink I Blueprint
+    price: 249600.0
     published: true
     volume: 0.01
   Heat Sink II Blueprint:
@@ -26,6 +27,7 @@ items:
     TechLevel: 2
     id: 11795
     name: Heat Sink II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Imperial Navy Heat Sink Blueprint:
@@ -39,5 +41,6 @@ items:
     TechLevel: 1
     id: 44118
     name: Tahron's Custom Heat Sink Blueprint
+    price: 249600.0
     published: true
     volume: 0.01

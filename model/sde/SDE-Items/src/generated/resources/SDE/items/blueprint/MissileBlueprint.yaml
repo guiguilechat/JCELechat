@@ -6,6 +6,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Inferno Auto-Targeting Cruise Missile I Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Inferno Auto-Targeting Heavy Missile I Blueprint:
@@ -15,6 +16,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Inferno Auto-Targeting Heavy Missile I Blueprint
+    price: 800000.0
     published: true
     volume: 0.01
   Inferno Auto-Targeting Light Missile I Blueprint:
@@ -24,6 +26,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Inferno Auto-Targeting Light Missile I Blueprint
+    price: 160000.0
     published: true
     volume: 0.01
   Inferno Cruise Missile Blueprint:
@@ -33,6 +36,7 @@ items:
     marketGroup: 1526
     mass: 1.0
     name: Inferno Cruise Missile Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Inferno Fury Cruise Missile Blueprint:
@@ -41,6 +45,7 @@ items:
     id: 2622
     mass: 1.0
     name: Inferno Fury Cruise Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Fury Heavy Missile Blueprint:
@@ -49,6 +54,7 @@ items:
     id: 24512
     mass: 1.0
     name: Inferno Fury Heavy Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Fury Light Missile Blueprint:
@@ -57,6 +63,7 @@ items:
     id: 24500
     mass: 1.0
     name: Inferno Fury Light Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Fury XL Cruise Missile Blueprint:
@@ -64,6 +71,7 @@ items:
     id: 41289
     mass: 1.0
     name: Inferno Fury XL Cruise Missile Blueprint
+    price: 9.0E7
     published: true
     volume: 0.01
   Inferno Heavy Assault Missile Blueprint:
@@ -73,6 +81,7 @@ items:
     marketGroup: 975
     mass: 1.0
     name: Inferno Heavy Assault Missile Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Inferno Heavy Missile Blueprint:
@@ -82,6 +91,7 @@ items:
     marketGroup: 1527
     mass: 1.0
     name: Inferno Heavy Missile Blueprint
+    price: 800000.0
     published: true
     volume: 0.01
   Inferno Javelin Heavy Assault Missile Blueprint:
@@ -90,6 +100,7 @@ items:
     id: 24615
     mass: 1.0
     name: Inferno Javelin Heavy Assault Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Javelin Rocket Blueprint:
@@ -98,6 +109,7 @@ items:
     id: 24543
     mass: 1.0
     name: Inferno Javelin Rocket Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Javelin Torpedo Blueprint:
@@ -106,6 +118,7 @@ items:
     id: 24526
     mass: 1.0
     name: Inferno Javelin Torpedo Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Javelin XL Torpedo Blueprint:
@@ -113,6 +126,7 @@ items:
     id: 41284
     mass: 1.0
     name: Inferno Javelin XL Torpedo Blueprint
+    price: 9.0E7
     published: true
     volume: 0.01
   Inferno Light Missile Blueprint:
@@ -122,6 +136,7 @@ items:
     marketGroup: 1528
     mass: 1.0
     name: Inferno Light Missile Blueprint
+    price: 160000.0
     published: true
     volume: 0.01
   Inferno Precision Cruise Missile Blueprint:
@@ -130,6 +145,7 @@ items:
     id: 2638
     mass: 1.0
     name: Inferno Precision Cruise Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Precision Heavy Missile Blueprint:
@@ -138,6 +154,7 @@ items:
     id: 24516
     mass: 1.0
     name: Inferno Precision Heavy Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Precision Light Missile Blueprint:
@@ -146,6 +163,7 @@ items:
     id: 2648
     mass: 1.0
     name: Inferno Precision Light Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Precision XL Cruise Missile Blueprint:
@@ -153,6 +171,7 @@ items:
     id: 41288
     mass: 1.0
     name: Inferno Precision XL Cruise Missile Blueprint
+    price: 9.0E7
     published: true
     volume: 0.01
   Inferno Rage Heavy Assault Missile Blueprint:
@@ -161,6 +180,7 @@ items:
     id: 24487
     mass: 1.0
     name: Inferno Rage Heavy Assault Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Rage Rocket Blueprint:
@@ -169,6 +189,7 @@ items:
     id: 24476
     mass: 1.0
     name: Inferno Rage Rocket Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Rage Torpedo Blueprint:
@@ -177,6 +198,7 @@ items:
     id: 2812
     mass: 1.0
     name: Inferno Rage Torpedo Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Inferno Rage XL Torpedo Blueprint:
@@ -184,6 +206,7 @@ items:
     id: 41285
     mass: 1.0
     name: Inferno Rage XL Torpedo Blueprint
+    price: 9.0E7
     published: true
     volume: 0.01
   Inferno Rocket Blueprint:
@@ -193,6 +216,7 @@ items:
     marketGroup: 318
     mass: 1.0
     name: Inferno Rocket Blueprint
+    price: 40000.0
     published: true
     volume: 0.01
   Inferno Torpedo Blueprint:
@@ -202,6 +226,7 @@ items:
     marketGroup: 390
     mass: 1.0
     name: Inferno Torpedo Blueprint
+    price: 8000000.0
     published: true
     volume: 0.01
   Inferno XL Cruise Missile Blueprint:
@@ -211,6 +236,7 @@ items:
     marketGroup: 1286
     mass: 1.0
     name: Inferno XL Cruise Missile Blueprint
+    price: 9.0E7
     published: true
     volume: 0.01
   Inferno XL Torpedo Blueprint:
@@ -220,6 +246,7 @@ items:
     marketGroup: 617
     mass: 1.0
     name: Inferno XL Torpedo Blueprint
+    price: 9.0E7
     published: true
     volume: 0.01
   Mjolnir Auto-Targeting Cruise Missile I Blueprint:
@@ -229,6 +256,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Mjolnir Auto-Targeting Cruise Missile I Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Mjolnir Auto-Targeting Heavy Missile I Blueprint:
@@ -238,6 +266,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Mjolnir Auto-Targeting Heavy Missile I Blueprint
+    price: 900000.0
     published: true
     volume: 0.01
   Mjolnir Auto-Targeting Light Missile I Blueprint:
@@ -247,6 +276,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Mjolnir Auto-Targeting Light Missile I Blueprint
+    price: 180000.0
     published: true
     volume: 0.01
   Mjolnir Cruise Missile Blueprint:
@@ -256,6 +286,7 @@ items:
     marketGroup: 1526
     mass: 1.0
     name: Mjolnir Cruise Missile Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Mjolnir Fury Cruise Missile Blueprint:
@@ -264,6 +295,7 @@ items:
     id: 24536
     mass: 1.0
     name: Mjolnir Fury Cruise Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Fury Heavy Missile Blueprint:
@@ -272,6 +304,7 @@ items:
     id: 24510
     mass: 1.0
     name: Mjolnir Fury Heavy Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Fury Light Missile Blueprint:
@@ -280,6 +313,7 @@ items:
     id: 2614
     mass: 1.0
     name: Mjolnir Fury Light Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Fury XL Cruise Missile Blueprint:
@@ -287,6 +321,7 @@ items:
     id: 41301
     mass: 1.0
     name: Mjolnir Fury XL Cruise Missile Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Mjolnir Heavy Assault Missile Blueprint:
@@ -296,6 +331,7 @@ items:
     marketGroup: 975
     mass: 1.0
     name: Mjolnir Heavy Assault Missile Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Mjolnir Heavy Missile Blueprint:
@@ -305,6 +341,7 @@ items:
     marketGroup: 1527
     mass: 1.0
     name: Mjolnir Heavy Missile Blueprint
+    price: 900000.0
     published: true
     volume: 0.01
   Mjolnir Javelin Heavy Assault Missile Blueprint:
@@ -313,6 +350,7 @@ items:
     id: 24617
     mass: 1.0
     name: Mjolnir Javelin Heavy Assault Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Javelin Rocket Blueprint:
@@ -321,6 +359,7 @@ items:
     id: 24544
     mass: 1.0
     name: Mjolnir Javelin Rocket Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Javelin Torpedo Blueprint:
@@ -329,6 +368,7 @@ items:
     id: 24528
     mass: 1.0
     name: Mjolnir Javelin Torpedo Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Javelin XL Torpedo Blueprint:
@@ -336,6 +376,7 @@ items:
     id: 41282
     mass: 1.0
     name: Mjolnir Javelin XL Torpedo Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Mjolnir Light Missile Blueprint:
@@ -345,6 +386,7 @@ items:
     marketGroup: 1528
     mass: 1.0
     name: Mjolnir Light Missile Blueprint
+    price: 180000.0
     published: true
     volume: 0.01
   Mjolnir Precision Cruise Missile Blueprint:
@@ -353,6 +395,7 @@ items:
     id: 24540
     mass: 1.0
     name: Mjolnir Precision Cruise Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Precision Heavy Missile Blueprint:
@@ -361,6 +404,7 @@ items:
     id: 24518
     mass: 1.0
     name: Mjolnir Precision Heavy Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Precision Light Missile Blueprint:
@@ -369,6 +413,7 @@ items:
     id: 24506
     mass: 1.0
     name: Mjolnir Precision Light Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Precision XL Cruise Missile Blueprint:
@@ -376,6 +421,7 @@ items:
     id: 41300
     mass: 1.0
     name: Mjolnir Precision XL Cruise Missile Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Mjolnir Rage Heavy Assault Missile Blueprint:
@@ -384,6 +430,7 @@ items:
     id: 24491
     mass: 1.0
     name: Mjolnir Rage Heavy Assault Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Rage Rocket Blueprint:
@@ -392,6 +439,7 @@ items:
     id: 2818
     mass: 1.0
     name: Mjolnir Rage Rocket Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Rage Torpedo Blueprint:
@@ -400,6 +448,7 @@ items:
     id: 24524
     mass: 1.0
     name: Mjolnir Rage Torpedo Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mjolnir Rage XL Torpedo Blueprint:
@@ -407,6 +456,7 @@ items:
     id: 41283
     mass: 1.0
     name: Mjolnir Rage XL Torpedo Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Mjolnir Rocket Blueprint:
@@ -416,6 +466,7 @@ items:
     marketGroup: 318
     mass: 1.0
     name: Mjolnir Rocket Blueprint
+    price: 35000.0
     published: true
     volume: 0.01
   Mjolnir Torpedo Blueprint:
@@ -425,6 +476,7 @@ items:
     marketGroup: 390
     mass: 1.0
     name: Mjolnir Torpedo Blueprint
+    price: 7000000.0
     published: true
     volume: 0.01
   Mjolnir XL Cruise Missile Blueprint:
@@ -434,6 +486,7 @@ items:
     marketGroup: 1286
     mass: 1.0
     name: Mjolnir XL Cruise Missile Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Mjolnir XL Torpedo Blueprint:
@@ -443,6 +496,7 @@ items:
     marketGroup: 617
     mass: 1.0
     name: Mjolnir XL Torpedo Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Nova Auto-Targeting Cruise Missile I Blueprint:
@@ -452,6 +506,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Nova Auto-Targeting Cruise Missile I Blueprint
+    price: 2500000.0
     published: true
     volume: 0.01
   Nova Auto-Targeting Heavy Missile I Blueprint:
@@ -461,6 +516,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Nova Auto-Targeting Heavy Missile I Blueprint
+    price: 700000.0
     published: true
     volume: 0.01
   Nova Auto-Targeting Light Missile I Blueprint:
@@ -470,6 +526,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Nova Auto-Targeting Light Missile I Blueprint
+    price: 140000.0
     published: true
     volume: 0.01
   Nova Cruise Missile Blueprint:
@@ -479,6 +536,7 @@ items:
     marketGroup: 1526
     mass: 1.0
     name: Nova Cruise Missile Blueprint
+    price: 2500000.0
     published: true
     volume: 0.01
   Nova Fury Cruise Missile Blueprint:
@@ -487,6 +545,7 @@ items:
     id: 24532
     mass: 1.0
     name: Nova Fury Cruise Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Fury Heavy Missile Blueprint:
@@ -495,6 +554,7 @@ items:
     id: 24508
     mass: 1.0
     name: Nova Fury Heavy Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Fury Light Missile Blueprint:
@@ -503,6 +563,7 @@ items:
     id: 24498
     mass: 1.0
     name: Nova Fury Light Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Fury XL Cruise Missile Blueprint:
@@ -510,6 +571,7 @@ items:
     id: 41296
     mass: 1.0
     name: Nova Fury XL Cruise Missile Blueprint
+    price: 7.0E7
     published: true
     volume: 0.01
   Nova Heavy Assault Missile Blueprint:
@@ -519,6 +581,7 @@ items:
     marketGroup: 975
     mass: 1.0
     name: Nova Heavy Assault Missile Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Nova Heavy Missile Blueprint:
@@ -528,6 +591,7 @@ items:
     marketGroup: 1527
     mass: 1.0
     name: Nova Heavy Missile Blueprint
+    price: 700000.0
     published: true
     volume: 0.01
   Nova Javelin Heavy Assault Missile Blueprint:
@@ -536,6 +600,7 @@ items:
     id: 24616
     mass: 1.0
     name: Nova Javelin Heavy Assault Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Javelin Rocket Blueprint:
@@ -544,6 +609,7 @@ items:
     id: 24604
     mass: 1.0
     name: Nova Javelin Rocket Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Javelin Torpedo Blueprint:
@@ -552,6 +618,7 @@ items:
     id: 2802
     mass: 1.0
     name: Nova Javelin Torpedo Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Javelin XL Torpedo Blueprint:
@@ -559,6 +626,7 @@ items:
     id: 41280
     mass: 1.0
     name: Nova Javelin XL Torpedo Blueprint
+    price: 7.0E7
     published: true
     volume: 0.01
   Nova Light Missile Blueprint:
@@ -568,6 +636,7 @@ items:
     marketGroup: 1528
     mass: 1.0
     name: Nova Light Missile Blueprint
+    price: 140000.0
     published: true
     volume: 0.01
   Nova Precision Cruise Missile Blueprint:
@@ -576,6 +645,7 @@ items:
     id: 24538
     mass: 1.0
     name: Nova Precision Cruise Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Precision Heavy Missile Blueprint:
@@ -584,6 +654,7 @@ items:
     id: 2656
     mass: 1.0
     name: Nova Precision Heavy Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Precision Light Missile Blueprint:
@@ -592,6 +663,7 @@ items:
     id: 24504
     mass: 1.0
     name: Nova Precision Light Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Precision XL Cruise Missile Blueprint:
@@ -599,6 +671,7 @@ items:
     id: 41297
     mass: 1.0
     name: Nova Precision XL Cruise Missile Blueprint
+    price: 7.0E7
     published: true
     volume: 0.01
   Nova Rage Heavy Assault Missile Blueprint:
@@ -607,6 +680,7 @@ items:
     id: 24489
     mass: 1.0
     name: Nova Rage Heavy Assault Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Rage Rocket Blueprint:
@@ -615,6 +689,7 @@ items:
     id: 24474
     mass: 1.0
     name: Nova Rage Rocket Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Rage Torpedo Blueprint:
@@ -623,6 +698,7 @@ items:
     id: 24520
     mass: 1.0
     name: Nova Rage Torpedo Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Nova Rage XL Torpedo Blueprint:
@@ -630,6 +706,7 @@ items:
     id: 41281
     mass: 1.0
     name: Nova Rage XL Torpedo Blueprint
+    price: 7.0E7
     published: true
     volume: 0.01
   Nova Rocket Blueprint:
@@ -639,6 +716,7 @@ items:
     marketGroup: 318
     mass: 1.0
     name: Nova Rocket Blueprint
+    price: 50000.0
     published: true
     volume: 0.01
   Nova Torpedo Blueprint:
@@ -648,6 +726,7 @@ items:
     marketGroup: 390
     mass: 1.0
     name: Nova Torpedo Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Nova XL Cruise Missile Blueprint:
@@ -657,6 +736,7 @@ items:
     marketGroup: 1286
     mass: 1.0
     name: Nova XL Cruise Missile Blueprint
+    price: 7.0E7
     published: true
     volume: 0.01
   Nova XL Torpedo Blueprint:
@@ -666,6 +746,7 @@ items:
     marketGroup: 617
     mass: 1.0
     name: Nova XL Torpedo Blueprint
+    price: 7.0E7
     published: true
     volume: 0.01
   Sansha Juggernaut Torpedo Blueprint:
@@ -674,6 +755,7 @@ items:
     id: 2211
     mass: 1.0
     name: Sansha Juggernaut Torpedo Blueprint
+    price: 9000000.0
     published: true
     volume: 0.01
   Sansha Wrath Cruise Missile Blueprint:
@@ -682,6 +764,7 @@ items:
     id: 2179
     mass: 1.0
     name: Sansha Wrath Cruise Missile Blueprint
+    price: 3000000.0
     published: true
     volume: 0.01
   Scourge Auto-Targeting Cruise Missile I Blueprint:
@@ -691,6 +774,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Scourge Auto-Targeting Cruise Missile I Blueprint
+    price: 3000000.0
     published: true
     volume: 0.01
   Scourge Auto-Targeting Heavy Missile I Blueprint:
@@ -700,6 +784,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Scourge Auto-Targeting Heavy Missile I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Scourge Auto-Targeting Light Missile I Blueprint:
@@ -709,6 +794,7 @@ items:
     marketGroup: 315
     mass: 1.0
     name: Scourge Auto-Targeting Light Missile I Blueprint
+    price: 150000.0
     published: true
     volume: 0.01
   Scourge Cruise Missile Blueprint:
@@ -718,6 +804,7 @@ items:
     marketGroup: 1526
     mass: 1.0
     name: Scourge Cruise Missile Blueprint
+    price: 3000000.0
     published: true
     volume: 0.01
   Scourge Fury Cruise Missile Blueprint:
@@ -726,6 +813,7 @@ items:
     id: 24534
     mass: 1.0
     name: Scourge Fury Cruise Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Fury Heavy Missile Blueprint:
@@ -734,6 +822,7 @@ items:
     id: 2630
     mass: 1.0
     name: Scourge Fury Heavy Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Fury Light Missile Blueprint:
@@ -742,6 +831,7 @@ items:
     id: 24496
     mass: 1.0
     name: Scourge Fury Light Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Fury XL Cruise Missile Blueprint:
@@ -749,6 +839,7 @@ items:
     id: 41293
     mass: 1.0
     name: Scourge Fury XL Cruise Missile Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01
   Scourge Heavy Assault Missile Blueprint:
@@ -758,6 +849,7 @@ items:
     marketGroup: 975
     mass: 1.0
     name: Scourge Heavy Assault Missile Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Scourge Heavy Missile Blueprint:
@@ -767,6 +859,7 @@ items:
     marketGroup: 1527
     mass: 1.0
     name: Scourge Heavy Missile Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Scourge Javelin Heavy Assault Missile Blueprint:
@@ -775,6 +868,7 @@ items:
     id: 24614
     mass: 1.0
     name: Scourge Javelin Heavy Assault Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Javelin Rocket Blueprint:
@@ -783,6 +877,7 @@ items:
     id: 24605
     mass: 1.0
     name: Scourge Javelin Rocket Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Javelin Torpedo Blueprint:
@@ -791,6 +886,7 @@ items:
     id: 24530
     mass: 1.0
     name: Scourge Javelin Torpedo Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Javelin XL Torpedo Blueprint:
@@ -798,6 +894,7 @@ items:
     id: 41278
     mass: 1.0
     name: Scourge Javelin XL Torpedo Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01
   Scourge Light Missile Blueprint:
@@ -807,6 +904,7 @@ items:
     marketGroup: 1528
     mass: 1.0
     name: Scourge Light Missile Blueprint
+    price: 150000.0
     published: true
     volume: 0.01
   Scourge Precision Cruise Missile Blueprint:
@@ -815,6 +913,7 @@ items:
     id: 24542
     mass: 1.0
     name: Scourge Precision Cruise Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Precision Heavy Missile Blueprint:
@@ -823,6 +922,7 @@ items:
     id: 24514
     mass: 1.0
     name: Scourge Precision Heavy Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Precision Light Missile Blueprint:
@@ -831,6 +931,7 @@ items:
     id: 24502
     mass: 1.0
     name: Scourge Precision Light Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Precision XL Cruise Missile Blueprint:
@@ -838,6 +939,7 @@ items:
     id: 41292
     mass: 1.0
     name: Scourge Precision XL Cruise Missile Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01
   Scourge Rage Heavy Assault Missile Blueprint:
@@ -846,6 +948,7 @@ items:
     id: 2680
     mass: 1.0
     name: Scourge Rage Heavy Assault Missile Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Rage Rocket Blueprint:
@@ -854,6 +957,7 @@ items:
     id: 24472
     mass: 1.0
     name: Scourge Rage Rocket Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Rage Torpedo Blueprint:
@@ -862,6 +966,7 @@ items:
     id: 24522
     mass: 1.0
     name: Scourge Rage Torpedo Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Scourge Rage XL Torpedo Blueprint:
@@ -869,6 +974,7 @@ items:
     id: 41279
     mass: 1.0
     name: Scourge Rage XL Torpedo Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01
   Scourge Rocket Blueprint:
@@ -878,6 +984,7 @@ items:
     marketGroup: 318
     mass: 1.0
     name: Scourge Rocket Blueprint
+    price: 45000.0
     published: true
     volume: 0.01
   Scourge Torpedo Blueprint:
@@ -887,6 +994,7 @@ items:
     marketGroup: 390
     mass: 1.0
     name: Scourge Torpedo Blueprint
+    price: 9000000.0
     published: true
     volume: 0.01
   Scourge XL Cruise Missile Blueprint:
@@ -896,6 +1004,7 @@ items:
     marketGroup: 1286
     mass: 1.0
     name: Scourge XL Cruise Missile Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01
   Scourge XL Torpedo Blueprint:
@@ -905,6 +1014,7 @@ items:
     marketGroup: 617
     mass: 1.0
     name: Scourge XL Torpedo Blueprint
+    price: 8.0E7
     published: true
     volume: 0.01
   Standup Cruise Missile Blueprint:
@@ -914,6 +1024,7 @@ items:
     marketGroup: 2192
     mass: 1.0
     name: Standup Cruise Missile Blueprint
+    price: 8000000.0
     published: true
     volume: 0.01
   Standup Heavy Guided Bomb Blueprint:
@@ -923,6 +1034,7 @@ items:
     marketGroup: 2193
     mass: 1.0
     name: Standup Heavy Guided Bomb Blueprint
+    price: 2.0E7
     published: true
     volume: 0.01
   Standup Heavy Missile Blueprint:
@@ -932,6 +1044,7 @@ items:
     marketGroup: 2192
     mass: 1.0
     name: Standup Heavy Missile Blueprint
+    price: 8000000.0
     published: true
     volume: 0.01
   Standup Light Guided Bomb Blueprint:
@@ -941,6 +1054,7 @@ items:
     marketGroup: 2193
     mass: 1.0
     name: Standup Light Guided Bomb Blueprint
+    price: 2.0E7
     published: true
     volume: 0.01
   Standup Light Missile Blueprint:
@@ -950,6 +1064,7 @@ items:
     marketGroup: 2192
     mass: 1.0
     name: Standup Light Missile Blueprint
+    price: 8000000.0
     published: true
     volume: 0.01
   Standup Super-heavy Torpedo Blueprint:
@@ -959,6 +1074,7 @@ items:
     marketGroup: 2191
     mass: 1.0
     name: Standup Super-heavy Torpedo Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Standup XL Cruise Missile Blueprint:
@@ -968,5 +1084,6 @@ items:
     marketGroup: 2191
     mass: 1.0
     name: Standup XL Cruise Missile Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01

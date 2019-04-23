@@ -21,6 +21,7 @@ items:
     marketGroup: 869
     mass: 1.0
     name: Conflagration L
+    price: 800000.0
     published: true
     volume: 1.0
   Conflagration M:
@@ -45,6 +46,7 @@ items:
     marketGroup: 870
     mass: 1.0
     name: Conflagration M
+    price: 320000.0
     published: true
     volume: 1.0
   Conflagration S:
@@ -69,6 +71,7 @@ items:
     marketGroup: 871
     mass: 1.0
     name: Conflagration S
+    price: 80000.0
     published: true
     volume: 1.0
   Conflagration XL:
@@ -116,6 +119,7 @@ items:
     marketGroup: 869
     mass: 1.0
     name: Scorch L
+    price: 800000.0
     published: true
     volume: 1.0
   Scorch M:
@@ -139,6 +143,7 @@ items:
     marketGroup: 870
     mass: 1.0
     name: Scorch M
+    price: 320000.0
     published: true
     volume: 1.0
   Scorch S:
@@ -162,6 +167,7 @@ items:
     marketGroup: 871
     mass: 1.0
     name: Scorch S
+    price: 80000.0
     published: true
     volume: 1.0
   Scorch XL:

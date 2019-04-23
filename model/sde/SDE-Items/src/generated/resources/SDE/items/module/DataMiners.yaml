@@ -15,6 +15,7 @@ items:
     id: 22175
     marketGroup: 1718
     name: Data Analyzer I
+    price: 33264.0
     published: true
     volume: 5.0
   Data Analyzer II:
@@ -35,6 +36,7 @@ items:
     id: 30834
     marketGroup: 1718
     name: Data Analyzer II
+    price: 33264.0
     published: true
     volume: 5.0
   Frostline 'Clavicula' Integrated Analyzer:
@@ -56,6 +58,7 @@ items:
     id: 49791
     marketGroup: 1718
     name: Frostline 'Clavicula' Integrated Analyzer
+    price: 33264.0
     published: true
     volume: 5.0
   Ligature Integrated Analyzer:
@@ -79,6 +82,7 @@ items:
     id: 41533
     marketGroup: 1718
     name: Ligature Integrated Analyzer
+    price: 33264.0
     published: true
     volume: 5.0
   Purloined Sansha Data Analyzer:
@@ -99,6 +103,7 @@ items:
     marketGroup: 1718
     mass: 1800.0
     name: Purloined Sansha Data Analyzer
+    price: 33264.0
     published: true
     volume: 5.0
   Relic Analyzer I:
@@ -117,6 +122,7 @@ items:
     id: 22177
     marketGroup: 1718
     name: Relic Analyzer I
+    price: 33264.0
     published: true
     volume: 5.0
   Relic Analyzer II:
@@ -137,6 +143,7 @@ items:
     id: 30832
     marketGroup: 1718
     name: Relic Analyzer II
+    price: 33264.0
     published: true
     volume: 5.0
   Zeugma Integrated Analyzer:
@@ -160,5 +167,6 @@ items:
     id: 41534
     marketGroup: 1718
     name: Zeugma Integrated Analyzer
+    price: 33264.0
     published: true
     volume: 5.0

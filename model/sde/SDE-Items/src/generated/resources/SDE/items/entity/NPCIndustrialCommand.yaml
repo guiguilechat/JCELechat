@@ -23,3 +23,15 @@ items:
     name: ♦ Orca
     published: false
     volume: 1.025E7
+  ��� Orca:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 46046
+    mass: 1.5E7
+    name: ��� Orca
+    published: false
+    volume: 1.025E7

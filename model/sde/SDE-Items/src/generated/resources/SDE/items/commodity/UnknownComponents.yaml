@@ -4,6 +4,7 @@ items:
     marketGroup: 2013
     mass: 1.0
     name: Antikythera Element
+    price: 5000000.0
     published: true
     volume: 0.1
   Barbican Element:

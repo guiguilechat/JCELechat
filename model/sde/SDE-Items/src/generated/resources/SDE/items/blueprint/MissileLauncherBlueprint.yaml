@@ -47,6 +47,7 @@ items:
     id: 41226
     marketGroup: 340
     name: Arbalest Compact Rapid Torpedo Launcher Blueprint
+    price: 9740000.0
     published: true
     volume: 0.01
   Arbalest Compact XL Cruise Missile Launcher Blueprint:
@@ -55,6 +56,7 @@ items:
     id: 41177
     marketGroup: 340
     name: Arbalest Compact XL Cruise Missile Launcher Blueprint
+    price: 1.087E8
     published: true
     volume: 0.01
   Arbalest Compact XL Torpedo Launcher Blueprint:
@@ -63,6 +65,7 @@ items:
     id: 41183
     marketGroup: 340
     name: Arbalest Compact XL Torpedo Launcher Blueprint
+    price: 1.0874E8
     published: true
     volume: 0.01
   Bomb Launcher I Blueprint:
@@ -71,6 +74,7 @@ items:
     id: 27915
     marketGroup: 1019
     name: Bomb Launcher I Blueprint
+    price: 1.9E7
     published: true
     volume: 0.01
   Bomb Launcher II Blueprint:
@@ -78,6 +82,7 @@ items:
     TechLevel: 2
     id: 4257
     name: Bomb Launcher II Blueprint
+    price: 1.9E7
     published: true
     volume: 0.01
   CONCORD XL Cruise Missile Launcher Blueprint:
@@ -86,6 +91,7 @@ items:
     TechLevel: 1
     id: 3564
     name: CONCORD XL Cruise Missile Launcher Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   CONCORD XL Torpedo Launcher Blueprint:
@@ -94,6 +100,7 @@ items:
     TechLevel: 1
     id: 3570
     name: CONCORD XL Torpedo Launcher Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   Caldari Navy Cruise Missile Launcher Blueprint:
@@ -108,6 +115,7 @@ items:
     TechLevel: 1
     id: 28378
     name: Caldari Navy Heavy Assault Missile Launcher Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Caldari Navy Rapid Heavy Missile Launcher Blueprint:
@@ -130,6 +138,7 @@ items:
     id: 13321
     marketGroup: 340
     name: Cruise Missile Launcher I Blueprint
+    price: 749970.0
     published: true
     volume: 0.01
   Cruise Missile Launcher II Blueprint:
@@ -137,6 +146,7 @@ items:
     TechLevel: 2
     id: 19740
     name: Cruise Missile Launcher II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Defender Launcher I Blueprint:
@@ -144,6 +154,7 @@ items:
     id: 44103
     marketGroup: 340
     name: Defender Launcher I Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Dread Guristas Rapid Torpedo Launcher Blueprint:
@@ -152,6 +163,7 @@ items:
     TechLevel: 1
     id: 41229
     name: Dread Guristas Rapid Torpedo Launcher Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   Dread Guristas XL Cruise Missile Launcher Blueprint:
@@ -160,6 +172,7 @@ items:
     TechLevel: 1
     id: 41179
     name: Dread Guristas XL Cruise Missile Launcher Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   Dread Guristas XL Torpedo Launcher Blueprint:
@@ -168,6 +181,7 @@ items:
     TechLevel: 1
     id: 41185
     name: Dread Guristas XL Torpedo Launcher Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   Heavy Assault Missile Launcher I Blueprint:
@@ -176,6 +190,7 @@ items:
     id: 26759
     marketGroup: 340
     name: Heavy Assault Missile Launcher I Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Heavy Assault Missile Launcher II Blueprint:
@@ -183,6 +198,7 @@ items:
     TechLevel: 2
     id: 25716
     name: Heavy Assault Missile Launcher II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Heavy Missile Launcher I Blueprint:
@@ -191,6 +207,7 @@ items:
     id: 788
     marketGroup: 340
     name: Heavy Missile Launcher I Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Heavy Missile Launcher II Blueprint:
@@ -198,6 +215,7 @@ items:
     TechLevel: 2
     id: 2411
     name: Heavy Missile Launcher II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Interdiction Sphere Launcher I Blueprint:
@@ -206,6 +224,7 @@ items:
     id: 22783
     marketGroup: 1940
     name: Interdiction Sphere Launcher I Blueprint
+    price: 1.732868E7
     published: true
     volume: 0.01
   Khanid Navy Heavy Assault Missile Launcher Blueprint:
@@ -213,6 +232,7 @@ items:
     TechLevel: 1
     id: 28566
     name: Khanid Navy Heavy Assault Missile Launcher Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Khanid Navy Rocket Launcher Blueprint:
@@ -228,6 +248,7 @@ items:
     id: 786
     marketGroup: 340
     name: Light Missile Launcher I Blueprint
+    price: 60000.0
     published: true
     volume: 0.01
   Light Missile Launcher II Blueprint:
@@ -235,6 +256,7 @@ items:
     TechLevel: 2
     id: 2405
     name: Light Missile Launcher II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   N-1 Neon Type Rocket Bay Blueprint:
@@ -254,12 +276,14 @@ items:
     TechLevel: 2
     id: 34291
     name: Polarized Rocket Launcher Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Polarized Torpedo Launcher Blueprint:
     TechLevel: 2
     id: 34295
     name: Polarized Torpedo Launcher Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Rapid Heavy Missile Launcher I Blueprint:
@@ -268,6 +292,7 @@ items:
     id: 33449
     marketGroup: 340
     name: Rapid Heavy Missile Launcher I Blueprint
+    price: 749970.0
     published: true
     volume: 0.01
   Rapid Heavy Missile Launcher II Blueprint:
@@ -283,6 +308,7 @@ items:
     id: 1876
     marketGroup: 340
     name: Rapid Light Missile Launcher I Blueprint
+    price: 90000.0
     published: true
     volume: 0.01
   Rapid Light Missile Launcher II Blueprint:
@@ -290,6 +316,7 @@ items:
     TechLevel: 2
     id: 1878
     name: Rapid Light Missile Launcher II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Rapid Torpedo Launcher I Blueprint:
@@ -298,6 +325,7 @@ items:
     id: 41225
     marketGroup: 340
     name: Rapid Torpedo Launcher I Blueprint
+    price: 4.837E7
     published: true
     volume: 0.01
   Rapid Torpedo Launcher II Blueprint:
@@ -305,6 +333,7 @@ items:
     TechLevel: 2
     id: 41228
     name: Rapid Torpedo Launcher II Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   Republic Fleet Cruise Missile Launcher Blueprint:
@@ -319,6 +348,7 @@ items:
     TechLevel: 1
     id: 28376
     name: Republic Fleet Heavy Assault Missile Launcher Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Republic Fleet Rapid Heavy Missile Launcher Blueprint:
@@ -341,6 +371,7 @@ items:
     id: 10630
     marketGroup: 340
     name: Rocket Launcher I Blueprint
+    price: 30000.0
     published: true
     volume: 0.01
   Rocket Launcher II Blueprint:
@@ -348,6 +379,7 @@ items:
     TechLevel: 2
     id: 10632
     name: Rocket Launcher II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   TE-2100 Ample Rapid Torpedo Launcher Blueprint:
@@ -356,6 +388,7 @@ items:
     id: 41227
     marketGroup: 340
     name: TE-2100 Ample Rapid Torpedo Launcher Blueprint
+    price: 9740000.0
     published: true
     volume: 0.01
   TE-2100 Ample XL Cruise Missile Launcher Blueprint:
@@ -364,6 +397,7 @@ items:
     id: 41178
     marketGroup: 340
     name: TE-2100 Ample XL Cruise Missile Launcher Blueprint
+    price: 1.087E8
     published: true
     volume: 0.01
   TE-2100 Ample XL Torpedo Launcher Blueprint:
@@ -372,6 +406,7 @@ items:
     id: 41184
     marketGroup: 340
     name: TE-2100 Ample XL Torpedo Launcher Blueprint
+    price: 1.0874E8
     published: true
     volume: 0.01
   Torpedo Launcher I Blueprint:
@@ -380,6 +415,7 @@ items:
     id: 790
     marketGroup: 340
     name: Torpedo Launcher I Blueprint
+    price: 999960.0
     published: true
     volume: 0.01
   Torpedo Launcher II Blueprint:
@@ -387,6 +423,7 @@ items:
     TechLevel: 2
     id: 2421
     name: Torpedo Launcher II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   XL Cruise Missile Launcher I Blueprint:
@@ -395,6 +432,7 @@ items:
     id: 32445
     marketGroup: 340
     name: XL Cruise Missile Launcher I Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   XL Cruise Missile Launcher II Blueprint:
@@ -402,6 +440,7 @@ items:
     TechLevel: 2
     id: 41187
     name: XL Cruise Missile Launcher II Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   XL Torpedo Launcher I Blueprint:
@@ -410,6 +449,7 @@ items:
     id: 20540
     marketGroup: 340
     name: XL Torpedo Launcher I Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01
   XL Torpedo Launcher II Blueprint:
@@ -417,5 +457,6 @@ items:
     TechLevel: 2
     id: 41190
     name: XL Torpedo Launcher II Blueprint
+    price: 5.4371388E7
     published: true
     volume: 0.01

@@ -34,6 +34,7 @@ items:
     marketGroup: 2269
     mass: 100.0
     name: '''Aurora Ominae'' Thermal Doomsday'
+    price: 2.40950758E8
     published: true
     volume: 8000.0
   '''Gjallarhorn'' Explosive Doomsday':
@@ -71,6 +72,7 @@ items:
     marketGroup: 2270
     mass: 100.0
     name: '''Gjallarhorn'' Explosive Doomsday'
+    price: 2.40435272E8
     published: true
     volume: 8000.0
   '''Judgment'' Electromagnetic Doomsday':
@@ -107,6 +109,7 @@ items:
     marketGroup: 2267
     mass: 100.0
     name: '''Judgment'' Electromagnetic Doomsday'
+    price: 2.4072788E8
     published: true
     volume: 8000.0
   '''Oblivion'' Kinetic Doomsday':
@@ -143,6 +146,7 @@ items:
     marketGroup: 2268
     mass: 100.0
     name: '''Oblivion'' Kinetic Doomsday'
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   Bosonic Field Generator:
@@ -192,6 +196,7 @@ items:
     marketGroup: 2276
     mass: 100.0
     name: Bosonic Field Generator
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   Gravitational Transportation Field Oscillator:
@@ -234,6 +239,7 @@ items:
     marketGroup: 2276
     mass: 100.0
     name: Gravitational Transportation Field Oscillator
+    price: 5.0E8
     published: true
     volume: 8000.0
   Pulse Activated Nexus Invulnerability Core:
@@ -260,6 +266,7 @@ items:
     id: 42522
     marketGroup: 2325
     name: Pulse Activated Nexus Invulnerability Core
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   ‘Cold Wind’ Kinetic Reaper:
@@ -308,6 +315,7 @@ items:
     marketGroup: 2268
     mass: 100.0
     name: ‘Cold Wind’ Kinetic Reaper
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   ‘Divine Harvest’ Electromagnetic Reaper:
@@ -356,6 +364,7 @@ items:
     marketGroup: 2267
     mass: 100.0
     name: ‘Divine Harvest’ Electromagnetic Reaper
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   ‘Geiravor’ Explosive Lance:
@@ -405,6 +414,7 @@ items:
     marketGroup: 2270
     mass: 100.0
     name: ‘Geiravor’ Explosive Lance
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   ‘Guillotine’ Thermal Reaper:
@@ -454,6 +464,7 @@ items:
     marketGroup: 2269
     mass: 100.0
     name: ‘Guillotine’ Thermal Reaper
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   ‘Holy Destiny’ Electromagnetic Lance:
@@ -502,6 +513,7 @@ items:
     marketGroup: 2267
     mass: 100.0
     name: ‘Holy Destiny’ Electromagnetic Lance
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   ‘Iron Pike’ Kinetic Lance:
@@ -550,6 +562,7 @@ items:
     marketGroup: 2268
     mass: 100.0
     name: ‘Iron Pike’ Kinetic Lance
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   ‘Jormungandr’ Explosive Reaper:
@@ -599,6 +612,7 @@ items:
     marketGroup: 2270
     mass: 100.0
     name: ‘Jormungandr’ Explosive Reaper
+    price: 2.40947786E8
     published: true
     volume: 8000.0
   ‘Phalarica’ Thermal Lance:
@@ -648,5 +662,6 @@ items:
     marketGroup: 2269
     mass: 100.0
     name: ‘Phalarica’ Thermal Lance
+    price: 2.40947786E8
     published: true
     volume: 8000.0

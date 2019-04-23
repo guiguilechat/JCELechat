@@ -29,6 +29,7 @@ items:
     id: 37613
     marketGroup: 1085
     name: CONCORD Warp Disruption Field Generator
+    price: 3964874.0
     published: true
     volume: 50.0
   Clutch Restrained Warp Disruption Field Generator:
@@ -60,6 +61,7 @@ items:
     id: 37610
     marketGroup: 1085
     name: Clutch Restrained Warp Disruption Field Generator
+    price: 3964874.0
     published: true
     volume: 50.0
   M-36 Enduring Warp Disruption Field Generator:
@@ -91,6 +93,7 @@ items:
     id: 37611
     marketGroup: 1085
     name: M-36 Enduring Warp Disruption Field Generator
+    price: 3964874.0
     published: true
     volume: 50.0
   Pitfall Compact Warp Disruption Field Generator:
@@ -122,6 +125,7 @@ items:
     id: 37608
     marketGroup: 1085
     name: Pitfall Compact Warp Disruption Field Generator
+    price: 3964874.0
     published: true
     volume: 50.0
   True Sansha Warp Disruption Field Generator:
@@ -154,6 +158,7 @@ items:
     id: 37612
     marketGroup: 1085
     name: True Sansha Warp Disruption Field Generator
+    price: 3964874.0
     published: true
     volume: 50.0
   Warp Disruption Field Generator I:
@@ -183,6 +188,7 @@ items:
     id: 28654
     marketGroup: 1085
     name: Warp Disruption Field Generator I
+    price: 3964874.0
     published: true
     volume: 50.0
   Warp Disruption Field Generator II:
@@ -214,5 +220,6 @@ items:
     id: 4248
     marketGroup: 1085
     name: Warp Disruption Field Generator II
+    price: 3964874.0
     published: true
     volume: 50.0

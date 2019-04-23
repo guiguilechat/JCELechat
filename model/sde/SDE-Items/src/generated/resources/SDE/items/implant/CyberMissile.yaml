@@ -8,6 +8,7 @@ items:
     TechLevel: 1
     id: 27206
     name: Hardwiring - Zainou 'Sharpshooter' ZMX10
+    price: 200000.0
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX100:
@@ -19,6 +20,7 @@ items:
     TechLevel: 1
     id: 27204
     name: Hardwiring - Zainou 'Sharpshooter' ZMX100
+    price: 200000.0
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1000:
@@ -30,6 +32,7 @@ items:
     TechLevel: 1
     id: 27205
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1000
+    price: 200000.0
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX11:
@@ -42,6 +45,7 @@ items:
     id: 3149
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX11
+    price: 200000.0
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX110:
@@ -54,6 +58,7 @@ items:
     id: 3150
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX110
+    price: 200000.0
     published: true
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1100:
@@ -66,6 +71,7 @@ items:
     id: 3151
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1100
+    price: 200000.0
     published: true
     volume: 1.0
   Whelan Machorin's Ballistic Smartlink:
@@ -90,6 +96,7 @@ items:
     id: 27094
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-801
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-802:
@@ -102,6 +109,7 @@ items:
     id: 3125
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-802
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-803:
@@ -114,6 +122,7 @@ items:
     id: 24632
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-803
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-804:
@@ -126,6 +135,7 @@ items:
     id: 3126
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-804
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-805:
@@ -138,6 +148,7 @@ items:
     id: 24640
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-805
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-806:
@@ -150,6 +161,7 @@ items:
     id: 3127
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-806
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-701:
@@ -162,6 +174,7 @@ items:
     id: 27092
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-701
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-702:
@@ -174,6 +187,7 @@ items:
     id: 3128
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-702
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-703:
@@ -186,6 +200,7 @@ items:
     id: 13247
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-703
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-704:
@@ -198,6 +213,7 @@ items:
     id: 3129
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-704
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-705:
@@ -210,6 +226,7 @@ items:
     id: 24636
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-705
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-706:
@@ -222,6 +239,7 @@ items:
     id: 3132
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Bombardment MB-706
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-701:
@@ -233,6 +251,7 @@ items:
     id: 27093
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-701
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-702:
@@ -244,6 +263,7 @@ items:
     id: 3133
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-702
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-703:
@@ -255,6 +275,7 @@ items:
     id: 13248
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-703
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-704:
@@ -266,6 +287,7 @@ items:
     id: 3134
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-704
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-705:
@@ -277,6 +299,7 @@ items:
     id: 24637
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-705
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-706:
@@ -288,6 +311,7 @@ items:
     id: 3135
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-706
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1001:
@@ -300,6 +324,7 @@ items:
     id: 27096
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1001
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1002:
@@ -312,6 +337,7 @@ items:
     id: 3136
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1002
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1003:
@@ -324,6 +350,7 @@ items:
     id: 13249
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1003
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1004:
@@ -336,6 +363,7 @@ items:
     id: 3137
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1004
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1005:
@@ -348,6 +376,7 @@ items:
     id: 24638
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1005
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1006:
@@ -360,6 +389,7 @@ items:
     id: 3140
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1006
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-901:
@@ -372,6 +402,7 @@ items:
     id: 27095
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-901
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-902:
@@ -384,6 +415,7 @@ items:
     id: 3141
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-902
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-903:
@@ -396,6 +428,7 @@ items:
     id: 13250
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-903
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-904:
@@ -408,6 +441,7 @@ items:
     id: 3142
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-904
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-905:
@@ -420,6 +454,7 @@ items:
     id: 24639
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-905
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-906:
@@ -432,6 +467,7 @@ items:
     id: 3143
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-906
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-601:
@@ -516,6 +552,7 @@ items:
     id: 27249
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002:
@@ -528,6 +565,7 @@ items:
     id: 3160
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003:
@@ -540,6 +578,7 @@ items:
     id: 13228
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004:
@@ -552,6 +591,7 @@ items:
     id: 3161
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005:
@@ -564,6 +604,7 @@ items:
     id: 27247
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006:
@@ -576,6 +617,7 @@ items:
     id: 3164
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-601:
@@ -588,6 +630,7 @@ items:
     id: 27259
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-601
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-602:
@@ -600,6 +643,7 @@ items:
     id: 3181
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-602
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-603:
@@ -612,6 +656,7 @@ items:
     id: 13226
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-603
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-604:
@@ -624,6 +669,7 @@ items:
     id: 3182
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-604
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-605:
@@ -636,6 +682,7 @@ items:
     id: 27258
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-605
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-606:
@@ -648,6 +695,7 @@ items:
     id: 3183
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-606
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-801:
@@ -659,6 +707,7 @@ items:
     id: 27244
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-801
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-802:
@@ -671,6 +720,7 @@ items:
     id: 3152
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-802
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-803:
@@ -682,6 +732,7 @@ items:
     id: 13227
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-803
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-804:
@@ -694,6 +745,7 @@ items:
     id: 3153
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-804
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-805:
@@ -705,6 +757,7 @@ items:
     id: 27243
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-805
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-806:
@@ -717,6 +770,7 @@ items:
     id: 3156
     marketGroup: 1495
     name: Zainou 'Snapshot' Defender Missiles DM-806
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-701:
@@ -729,6 +783,7 @@ items:
     id: 27246
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-701
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-702:
@@ -741,6 +796,7 @@ items:
     id: 3157
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-702
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-703:
@@ -753,6 +809,7 @@ items:
     id: 27109
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-703
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-704:
@@ -765,6 +822,7 @@ items:
     id: 3158
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-704
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-705:
@@ -777,6 +835,7 @@ items:
     id: 27245
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-705
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-706:
@@ -789,6 +848,7 @@ items:
     id: 3159
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-706
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-701:
@@ -801,6 +861,7 @@ items:
     id: 27251
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-701
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-702:
@@ -813,6 +874,7 @@ items:
     id: 3165
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-702
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-703:
@@ -825,6 +887,7 @@ items:
     id: 13229
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-703
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-704:
@@ -837,6 +900,7 @@ items:
     id: 3166
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-704
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-705:
@@ -849,6 +913,7 @@ items:
     id: 27250
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-705
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-706:
@@ -861,6 +926,7 @@ items:
     id: 3167
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-706
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-901:
@@ -873,6 +939,7 @@ items:
     id: 27253
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-901
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-902:
@@ -885,6 +952,7 @@ items:
     id: 3168
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-902
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-903:
@@ -897,6 +965,7 @@ items:
     id: 27108
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-903
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-904:
@@ -909,6 +978,7 @@ items:
     id: 3169
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-904
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-905:
@@ -921,6 +991,7 @@ items:
     id: 27252
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-905
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-906:
@@ -933,6 +1004,7 @@ items:
     id: 3172
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-906
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-901:
@@ -945,6 +1017,7 @@ items:
     id: 27255
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-901
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-902:
@@ -957,6 +1030,7 @@ items:
     id: 3173
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-902
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-903:
@@ -969,6 +1043,7 @@ items:
     id: 13230
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-903
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-904:
@@ -981,6 +1056,7 @@ items:
     id: 3174
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-904
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-905:
@@ -993,6 +1069,7 @@ items:
     id: 27254
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-905
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-906:
@@ -1005,6 +1082,7 @@ items:
     id: 3175
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-906
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-601:
@@ -1017,6 +1095,7 @@ items:
     id: 27257
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-601
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-602:
@@ -1029,6 +1108,7 @@ items:
     id: 3176
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-602
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-603:
@@ -1041,6 +1121,7 @@ items:
     id: 13231
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-603
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-604:
@@ -1053,6 +1134,7 @@ items:
     id: 3177
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-604
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-605:
@@ -1065,6 +1147,7 @@ items:
     id: 27256
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-605
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-606:
@@ -1077,5 +1160,6 @@ items:
     id: 3180
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-606
+    price: 200000.0
     published: true
     volume: 1.0

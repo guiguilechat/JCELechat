@@ -17,6 +17,7 @@ items:
     id: 33270
     marketGroup: 1717
     name: Survey Probe Launcher I
+    price: 6000.0
     published: true
     volume: 5.0
   Survey Probe Launcher II:
@@ -39,5 +40,6 @@ items:
     id: 33272
     marketGroup: 1717
     name: Survey Probe Launcher II
+    price: 6000.0
     published: true
     volume: 5.0

@@ -21,6 +21,7 @@ items:
     marketGroup: 2196
     mass: 1000.0
     name: Standup Cruise Missile
+    price: 325000.0
     published: true
     volume: 0.5
   Standup Heavy Missile:
@@ -45,6 +46,7 @@ items:
     marketGroup: 2196
     mass: 1000.0
     name: Standup Heavy Missile
+    price: 325000.0
     published: true
     volume: 0.5
   Standup Light Missile:
@@ -69,5 +71,6 @@ items:
     marketGroup: 2196
     mass: 1000.0
     name: Standup Light Missile
+    price: 325000.0
     published: true
     volume: 0.5

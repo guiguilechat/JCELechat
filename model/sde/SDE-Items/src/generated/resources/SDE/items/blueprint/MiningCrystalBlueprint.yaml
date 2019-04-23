@@ -5,6 +5,7 @@ items:
     id: 18037
     marketGroup: 753
     name: Arkonor Mining Crystal I Blueprint
+    price: 800000.0
     published: true
     volume: 0.01
   Arkonor Mining Crystal II Blueprint:
@@ -12,6 +13,7 @@ items:
     TechLevel: 2
     id: 18591
     name: Arkonor Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Bistot Mining Crystal I Blueprint:
@@ -20,6 +22,7 @@ items:
     id: 18039
     marketGroup: 753
     name: Bistot Mining Crystal I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Bistot Mining Crystal II Blueprint:
@@ -27,6 +30,7 @@ items:
     TechLevel: 2
     id: 18593
     name: Bistot Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Common Moon Ore Mining Crystal I Blueprint:
@@ -34,6 +38,7 @@ items:
     id: 46352
     marketGroup: 753
     name: Common Moon Ore Mining Crystal I Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Common Moon Ore Mining Crystal II Blueprint:
@@ -48,6 +53,7 @@ items:
     id: 18041
     marketGroup: 753
     name: Crokite Mining Crystal I Blueprint
+    price: 700000.0
     published: true
     volume: 0.01
   Crokite Mining Crystal II Blueprint:
@@ -55,6 +61,7 @@ items:
     TechLevel: 2
     id: 18595
     name: Crokite Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Dark Ochre Mining Crystal I Blueprint:
@@ -63,6 +70,7 @@ items:
     id: 18043
     marketGroup: 753
     name: Dark Ochre Mining Crystal I Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Dark Ochre Mining Crystal II Blueprint:
@@ -70,6 +78,7 @@ items:
     TechLevel: 2
     id: 18597
     name: Dark Ochre Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Exceptional Moon Ore Mining Crystal I Blueprint:
@@ -77,6 +86,7 @@ items:
     id: 46361
     marketGroup: 753
     name: Exceptional Moon Ore Mining Crystal I Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Exceptional Moon Ore Mining Crystal II Blueprint:
@@ -91,6 +101,7 @@ items:
     id: 18045
     marketGroup: 753
     name: Gneiss Mining Crystal I Blueprint
+    price: 550000.0
     published: true
     volume: 0.01
   Gneiss Mining Crystal II Blueprint:
@@ -98,6 +109,7 @@ items:
     TechLevel: 2
     id: 18599
     name: Gneiss Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Hedbergite Mining Crystal I Blueprint:
@@ -106,6 +118,7 @@ items:
     id: 18047
     marketGroup: 753
     name: Hedbergite Mining Crystal I Blueprint
+    price: 500000.0
     published: true
     volume: 0.01
   Hedbergite Mining Crystal II Blueprint:
@@ -113,6 +126,7 @@ items:
     TechLevel: 2
     id: 18601
     name: Hedbergite Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Hemorphite Mining Crystal I Blueprint:
@@ -121,6 +135,7 @@ items:
     id: 18049
     marketGroup: 753
     name: Hemorphite Mining Crystal I Blueprint
+    price: 450000.0
     published: true
     volume: 0.01
   Hemorphite Mining Crystal II Blueprint:
@@ -128,6 +143,7 @@ items:
     TechLevel: 2
     id: 18603
     name: Hemorphite Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Jaspet Mining Crystal I Blueprint:
@@ -136,6 +152,7 @@ items:
     id: 18051
     marketGroup: 753
     name: Jaspet Mining Crystal I Blueprint
+    price: 400000.0
     published: true
     volume: 0.01
   Jaspet Mining Crystal II Blueprint:
@@ -143,6 +160,7 @@ items:
     TechLevel: 2
     id: 18605
     name: Jaspet Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Kernite Mining Crystal I Blueprint:
@@ -151,6 +169,7 @@ items:
     id: 18053
     marketGroup: 753
     name: Kernite Mining Crystal I Blueprint
+    price: 350000.0
     published: true
     volume: 0.01
   Kernite Mining Crystal II Blueprint:
@@ -158,6 +177,7 @@ items:
     TechLevel: 2
     id: 18607
     name: Kernite Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Mercoxit Mining Crystal I Blueprint:
@@ -166,6 +186,7 @@ items:
     id: 18055
     marketGroup: 753
     name: Mercoxit Mining Crystal I Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Mercoxit Mining Crystal II Blueprint:
@@ -173,6 +194,7 @@ items:
     TechLevel: 2
     id: 18609
     name: Mercoxit Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Omber Mining Crystal I Blueprint:
@@ -181,6 +203,7 @@ items:
     id: 18057
     marketGroup: 753
     name: Omber Mining Crystal I Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Omber Mining Crystal II Blueprint:
@@ -188,6 +211,7 @@ items:
     TechLevel: 2
     id: 18611
     name: Omber Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Plagioclase Mining Crystal I Blueprint:
@@ -196,6 +220,7 @@ items:
     id: 18059
     marketGroup: 753
     name: Plagioclase Mining Crystal I Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Plagioclase Mining Crystal II Blueprint:
@@ -203,6 +228,7 @@ items:
     TechLevel: 2
     id: 18613
     name: Plagioclase Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Pyroxeres Mining Crystal I Blueprint:
@@ -211,6 +237,7 @@ items:
     id: 18061
     marketGroup: 753
     name: Pyroxeres Mining Crystal I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Pyroxeres Mining Crystal II Blueprint:
@@ -218,6 +245,7 @@ items:
     TechLevel: 2
     id: 18615
     name: Pyroxeres Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Rare Moon Ore Mining Crystal I Blueprint:
@@ -225,6 +253,7 @@ items:
     id: 46359
     marketGroup: 753
     name: Rare Moon Ore Mining Crystal I Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Rare Moon Ore Mining Crystal II Blueprint:
@@ -239,6 +268,7 @@ items:
     id: 18063
     marketGroup: 753
     name: Scordite Mining Crystal I Blueprint
+    price: 150000.0
     published: true
     volume: 0.01
   Scordite Mining Crystal II Blueprint:
@@ -246,6 +276,7 @@ items:
     TechLevel: 2
     id: 18617
     name: Scordite Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Spodumain Mining Crystal I Blueprint:
@@ -254,6 +285,7 @@ items:
     id: 18065
     marketGroup: 753
     name: Spodumain Mining Crystal I Blueprint
+    price: 650000.0
     published: true
     volume: 0.01
   Spodumain Mining Crystal II Blueprint:
@@ -261,6 +293,7 @@ items:
     TechLevel: 2
     id: 18625
     name: Spodumain Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Ubiquitous Moon Ore Mining Crystal I Blueprint:
@@ -268,6 +301,7 @@ items:
     id: 46350
     marketGroup: 753
     name: Ubiquitous Moon Ore Mining Crystal I Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Ubiquitous Moon Ore Mining Crystal II Blueprint:
@@ -281,6 +315,7 @@ items:
     id: 46357
     marketGroup: 753
     name: Uncommon Moon Ore Mining Crystal I Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Uncommon Moon Ore Mining Crystal II Blueprint:
@@ -295,6 +330,7 @@ items:
     id: 18067
     marketGroup: 753
     name: Veldspar Mining Crystal I Blueprint
+    price: 100000.0
     published: true
     volume: 0.01
   Veldspar Mining Crystal II Blueprint:
@@ -302,5 +338,6 @@ items:
     TechLevel: 2
     id: 18619
     name: Veldspar Mining Crystal II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

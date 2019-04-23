@@ -287,3 +287,15 @@ items:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
+  �� Omen:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 43557
+    mass: 1.3E7
+    name: �� Omen
+    published: false
+    volume: 118000.0

@@ -52,6 +52,7 @@ items:
     id: 2792
     marketGroup: 1344
     name: Ion Field Projection Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Phase Inversion Battery Blueprint:
@@ -59,6 +60,7 @@ items:
     id: 2794
     marketGroup: 1344
     name: Phase Inversion Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Spatial Destabilization Battery Blueprint:
@@ -66,6 +68,7 @@ items:
     id: 2796
     marketGroup: 1344
     name: Spatial Destabilization Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   White Noise Generation Battery Blueprint:
@@ -73,5 +76,6 @@ items:
     id: 2798
     marketGroup: 1344
     name: White Noise Generation Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01

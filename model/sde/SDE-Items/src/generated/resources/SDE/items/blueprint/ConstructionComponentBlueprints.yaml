@@ -4,6 +4,7 @@ items:
     id: 17338
     marketGroup: 1592
     name: Antimatter Reactor Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Crystalline Carbonide Armor Plate Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 17323
     marketGroup: 1594
     name: Crystalline Carbonide Armor Plate Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Deflection Shield Emitter Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 17346
     marketGroup: 1595
     name: Deflection Shield Emitter Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   EM Pulse Generator Blueprint:
@@ -25,6 +28,7 @@ items:
     id: 17335
     marketGroup: 1592
     name: EM Pulse Generator Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Electrolytic Capacitor Unit Blueprint:
@@ -32,6 +36,7 @@ items:
     id: 17347
     marketGroup: 1595
     name: Electrolytic Capacitor Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Fernite Carbide Composite Armor Plate Blueprint:
@@ -39,6 +44,7 @@ items:
     id: 17355
     marketGroup: 1595
     name: Fernite Carbide Composite Armor Plate Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Fusion Reactor Unit Blueprint:
@@ -46,6 +52,7 @@ items:
     id: 17331
     marketGroup: 1594
     name: Fusion Reactor Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Fusion Thruster Blueprint:
@@ -53,6 +60,7 @@ items:
     id: 17349
     marketGroup: 1592
     name: Fusion Thruster Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Gravimetric Sensor Cluster Blueprint:
@@ -60,6 +68,7 @@ items:
     id: 17340
     marketGroup: 1593
     name: Gravimetric Sensor Cluster Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Graviton Pulse Generator Blueprint:
@@ -67,6 +76,7 @@ items:
     id: 17332
     marketGroup: 1593
     name: Graviton Pulse Generator Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Graviton Reactor Unit Blueprint:
@@ -74,6 +84,7 @@ items:
     id: 17353
     marketGroup: 1593
     name: Graviton Reactor Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Ion Thruster Blueprint:
@@ -81,6 +92,7 @@ items:
     id: 17329
     marketGroup: 1594
     name: Ion Thruster Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Ladar Sensor Cluster Blueprint:
@@ -88,6 +100,7 @@ items:
     id: 17333
     marketGroup: 1595
     name: Ladar Sensor Cluster Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Laser Focusing Crystals Blueprint:
@@ -95,6 +108,7 @@ items:
     id: 17348
     marketGroup: 1592
     name: Laser Focusing Crystals Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Linear Shield Emitter Blueprint:
@@ -102,6 +116,7 @@ items:
     id: 17359
     marketGroup: 1592
     name: Linear Shield Emitter Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Magnetometric Sensor Cluster Blueprint:
@@ -109,6 +124,7 @@ items:
     id: 17345
     marketGroup: 1594
     name: Magnetometric Sensor Cluster Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Magpulse Thruster Blueprint:
@@ -116,6 +132,7 @@ items:
     id: 17356
     marketGroup: 1593
     name: Magpulse Thruster Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Nanoelectrical Microprocessor Blueprint:
@@ -123,6 +140,7 @@ items:
     id: 17330
     marketGroup: 1592
     name: Nanoelectrical Microprocessor Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Nanomechanical Microprocessor Blueprint:
@@ -130,6 +148,7 @@ items:
     id: 17325
     marketGroup: 1595
     name: Nanomechanical Microprocessor Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Nuclear Pulse Generator Blueprint:
@@ -137,6 +156,7 @@ items:
     id: 17326
     marketGroup: 1595
     name: Nuclear Pulse Generator Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Nuclear Reactor Unit Blueprint:
@@ -144,6 +164,7 @@ items:
     id: 17342
     marketGroup: 1595
     name: Nuclear Reactor Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Oscillator Capacitor Unit Blueprint:
@@ -151,6 +172,7 @@ items:
     id: 17337
     marketGroup: 1594
     name: Oscillator Capacitor Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Particle Accelerator Unit Blueprint:
@@ -158,6 +180,7 @@ items:
     id: 17344
     marketGroup: 1594
     name: Particle Accelerator Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Photon Microprocessor Blueprint:
@@ -165,6 +188,7 @@ items:
     id: 17357
     marketGroup: 1594
     name: Photon Microprocessor Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Plasma Pulse Generator Blueprint:
@@ -172,6 +196,7 @@ items:
     id: 17339
     marketGroup: 1594
     name: Plasma Pulse Generator Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Plasma Thruster Blueprint:
@@ -179,6 +204,7 @@ items:
     id: 17324
     marketGroup: 1595
     name: Plasma Thruster Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Pulse Shield Emitter Blueprint:
@@ -186,6 +212,7 @@ items:
     id: 17341
     marketGroup: 1594
     name: Pulse Shield Emitter Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Quantum Microprocessor Blueprint:
@@ -193,6 +220,7 @@ items:
     id: 17351
     marketGroup: 1593
     name: Quantum Microprocessor Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Radar Sensor Cluster Blueprint:
@@ -200,6 +228,7 @@ items:
     id: 17336
     marketGroup: 1592
     name: Radar Sensor Cluster Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Scalar Capacitor Unit Blueprint:
@@ -207,24 +236,28 @@ items:
     id: 17327
     marketGroup: 1593
     name: Scalar Capacitor Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Spatial Attunement Unit Blueprint:
     IndustryBlueprintRank: 2.0
     id: 33196
     name: Spatial Attunement Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Structure Acceleration Coils Blueprint:
     id: 36954
     marketGroup: 1913
     name: Structure Acceleration Coils Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Advertisement Nexus Blueprint:
     id: 36955
     marketGroup: 1913
     name: Structure Advertisement Nexus Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Construction Parts Blueprint:
@@ -232,6 +265,7 @@ items:
     id: 21948
     marketGroup: 1913
     name: Structure Construction Parts Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Docking Bay Blueprint:
@@ -239,18 +273,21 @@ items:
     id: 21962
     marketGroup: 1913
     name: Structure Docking Bay Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure EXERT Conduit Coupler Blueprint:
     id: 49721
     marketGroup: 1913
     name: Structure EXERT Conduit Coupler Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Electromagnetic Sensor Blueprint:
     id: 36953
     marketGroup: 1913
     name: Structure Electromagnetic Sensor Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Factory Blueprint:
@@ -258,6 +295,7 @@ items:
     id: 21956
     marketGroup: 1913
     name: Structure Factory Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Hangar Array Blueprint:
@@ -265,6 +303,7 @@ items:
     id: 21950
     marketGroup: 1913
     name: Structure Hangar Array Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Laboratory Blueprint:
@@ -272,6 +311,7 @@ items:
     id: 21954
     marketGroup: 1913
     name: Structure Laboratory Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Market Network Blueprint:
@@ -279,6 +319,7 @@ items:
     id: 21964
     marketGroup: 1913
     name: Structure Market Network Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Medical Center Blueprint:
@@ -286,6 +327,7 @@ items:
     id: 21966
     marketGroup: 1913
     name: Structure Medical Center Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Mission Network Blueprint:
@@ -293,6 +335,7 @@ items:
     id: 21970
     marketGroup: 1913
     name: Structure Mission Network Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Office Center Blueprint:
@@ -300,6 +343,7 @@ items:
     id: 21968
     marketGroup: 1913
     name: Structure Office Center Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Repair Facility Blueprint:
@@ -307,6 +351,7 @@ items:
     id: 21958
     marketGroup: 1913
     name: Structure Repair Facility Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Reprocessing Plant Blueprint:
@@ -314,6 +359,7 @@ items:
     id: 21960
     marketGroup: 1913
     name: Structure Reprocessing Plant Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Structure Storage Bay Blueprint:
@@ -321,6 +367,7 @@ items:
     id: 21952
     marketGroup: 1913
     name: Structure Storage Bay Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Superconductor Rails Blueprint:
@@ -328,6 +375,7 @@ items:
     id: 17354
     marketGroup: 1593
     name: Superconductor Rails Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Sustained Shield Emitter Blueprint:
@@ -335,6 +383,7 @@ items:
     id: 17352
     marketGroup: 1593
     name: Sustained Shield Emitter Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Tesseract Capacitor Unit Blueprint:
@@ -342,6 +391,7 @@ items:
     id: 17334
     marketGroup: 1592
     name: Tesseract Capacitor Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Thermonuclear Trigger Unit Blueprint:
@@ -349,6 +399,7 @@ items:
     id: 17322
     marketGroup: 1595
     name: Thermonuclear Trigger Unit Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Titanium Diborite Armor Plate Blueprint:
@@ -356,6 +407,7 @@ items:
     id: 17328
     marketGroup: 1593
     name: Titanium Diborite Armor Plate Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Tungsten Carbide Armor Plate Blueprint:
@@ -363,5 +415,6 @@ items:
     id: 17350
     marketGroup: 1592
     name: Tungsten Carbide Armor Plate Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01

@@ -4,6 +4,7 @@ items:
     id: 21018
     marketGroup: 796
     name: Capital Armor Plates Blueprint
+    price: 1.2912108E9
     published: true
     volume: 0.01
   Capital Capacitor Battery Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 21020
     marketGroup: 796
     name: Capital Capacitor Battery Blueprint
+    price: 1.146936E9
     published: true
     volume: 0.01
   Capital Cargo Bay Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 21028
     marketGroup: 796
     name: Capital Cargo Bay Blueprint
+    price: 8.337024E8
     published: true
     volume: 0.01
   Capital Clone Vat Bay Blueprint:
@@ -25,6 +28,7 @@ items:
     id: 24548
     marketGroup: 796
     name: Capital Clone Vat Bay Blueprint
+    price: 1.6834184E9
     published: true
     volume: 0.01
   Capital Computer System Blueprint:
@@ -32,6 +36,7 @@ items:
     id: 21036
     marketGroup: 796
     name: Capital Computer System Blueprint
+    price: 1.2283988E9
     published: true
     volume: 0.01
   Capital Construction Parts Blueprint:
@@ -39,6 +44,7 @@ items:
     id: 21038
     marketGroup: 796
     name: Capital Construction Parts Blueprint
+    price: 1.005494E9
     published: true
     volume: 0.01
   Capital Corporate Hangar Bay Blueprint:
@@ -46,6 +52,7 @@ items:
     id: 24561
     marketGroup: 796
     name: Capital Corporate Hangar Bay Blueprint
+    price: 1.6707848E9
     published: true
     volume: 0.01
   Capital Doomsday Weapon Mount Blueprint:
@@ -53,6 +60,7 @@ items:
     id: 24557
     marketGroup: 796
     name: Capital Doomsday Weapon Mount Blueprint
+    price: 2.1468868E9
     published: true
     volume: 0.01
   Capital Drone Bay Blueprint:
@@ -60,6 +68,7 @@ items:
     id: 21030
     marketGroup: 796
     name: Capital Drone Bay Blueprint
+    price: 8.722796E8
     published: true
     volume: 0.01
   Capital Jump Bridge Array Blueprint:
@@ -67,6 +76,7 @@ items:
     id: 24546
     marketGroup: 796
     name: Capital Jump Bridge Array Blueprint
+    price: 3.1413428E9
     published: true
     volume: 0.01
   Capital Jump Drive Blueprint:
@@ -74,6 +84,7 @@ items:
     id: 21026
     marketGroup: 796
     name: Capital Jump Drive Blueprint
+    price: 1.6639648E9
     published: true
     volume: 0.01
   Capital Launcher Hardpoint Blueprint:
@@ -81,6 +92,7 @@ items:
     id: 21042
     marketGroup: 796
     name: Capital Launcher Hardpoint Blueprint
+    price: 1.393368E9
     published: true
     volume: 0.01
   Capital Power Generator Blueprint:
@@ -88,6 +100,7 @@ items:
     id: 21022
     marketGroup: 796
     name: Capital Power Generator Blueprint
+    price: 1.3600632E9
     published: true
     volume: 0.01
   Capital Propulsion Engine Blueprint:
@@ -95,6 +108,7 @@ items:
     id: 21010
     marketGroup: 796
     name: Capital Propulsion Engine Blueprint
+    price: 1.253962E9
     published: true
     volume: 0.01
   Capital Sensor Cluster Blueprint:
@@ -102,6 +116,7 @@ items:
     id: 21014
     marketGroup: 796
     name: Capital Sensor Cluster Blueprint
+    price: 1.2027632E9
     published: true
     volume: 0.01
   Capital Shield Emitter Blueprint:
@@ -109,6 +124,7 @@ items:
     id: 21024
     marketGroup: 796
     name: Capital Shield Emitter Blueprint
+    price: 1.306728E9
     published: true
     volume: 0.01
   Capital Ship Maintenance Bay Blueprint:
@@ -116,6 +132,7 @@ items:
     id: 24559
     marketGroup: 796
     name: Capital Ship Maintenance Bay Blueprint
+    price: 1.6973612E9
     published: true
     volume: 0.01
   Capital Siege Array Blueprint:
@@ -123,6 +140,7 @@ items:
     id: 21040
     marketGroup: 796
     name: Capital Siege Array Blueprint
+    price: 1.5433664E9
     published: true
     volume: 0.01
   Capital Turret Hardpoint Blueprint:
@@ -130,5 +148,6 @@ items:
     id: 21012
     marketGroup: 796
     name: Capital Turret Hardpoint Blueprint
+    price: 1.462602E9
     published: true
     volume: 0.01

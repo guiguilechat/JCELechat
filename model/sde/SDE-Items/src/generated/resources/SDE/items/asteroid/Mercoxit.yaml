@@ -13,6 +13,7 @@ items:
     marketGroup: 530
     mass: 1.0E35
     name: Compressed Magma Mercoxit
+    price: 3.6503552E7
     published: true
     volume: 0.1
   Compressed Mercoxit:
@@ -29,6 +30,7 @@ items:
     marketGroup: 530
     mass: 1.0E35
     name: Compressed Mercoxit
+    price: 3.473408E7
     published: true
     volume: 0.1
   Compressed Vitreous Mercoxit:
@@ -45,6 +47,7 @@ items:
     marketGroup: 530
     mass: 1.0E35
     name: Compressed Vitreous Mercoxit
+    price: 3.8207488E7
     published: true
     volume: 0.1
   Magma Mercoxit:
@@ -63,6 +66,7 @@ items:
     marketGroup: 530
     mass: 1.0E35
     name: Magma Mercoxit
+    price: 1.8251776E7
     published: true
     volume: 40.0
   Mercoxit:
@@ -81,6 +85,7 @@ items:
     marketGroup: 530
     mass: 1.0E35
     name: Mercoxit
+    price: 1.736704E7
     published: true
     volume: 40.0
   Vitreous Mercoxit:
@@ -99,6 +104,7 @@ items:
     marketGroup: 530
     mass: 1.0E35
     name: Vitreous Mercoxit
+    price: 1.9103744E7
     published: true
     volume: 40.0
   Zuthrine:
@@ -113,5 +119,6 @@ items:
     id: 28626
     mass: 1.0E35
     name: Zuthrine
+    price: 1.736704E7
     published: true
     volume: 40.0

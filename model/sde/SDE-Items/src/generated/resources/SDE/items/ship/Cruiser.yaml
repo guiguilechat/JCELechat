@@ -2033,6 +2033,7 @@ items:
     marketGroup: 2428
     mass: 1.012E7
     name: Rodiva
+    price: 7500000.0
     published: true
     volume: 118000.0
   Rupture:
@@ -2807,6 +2808,7 @@ items:
     marketGroup: 2428
     mass: 9530000.0
     name: Vedmak
+    price: 7500000.0
     published: true
     volume: 118000.0
   Vexor:

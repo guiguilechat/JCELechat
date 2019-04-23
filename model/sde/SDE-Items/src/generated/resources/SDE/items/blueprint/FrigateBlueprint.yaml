@@ -5,6 +5,7 @@ items:
     id: 11189
     marketGroup: 425
     name: Anathema Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Ares Blueprint:
@@ -13,6 +14,7 @@ items:
     id: 11203
     marketGroup: 412
     name: Ares Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Astero Blueprint:
@@ -28,6 +30,7 @@ items:
     id: 955
     marketGroup: 277
     name: Atron Blueprint
+    price: 2125000.0
     published: true
     volume: 0.01
   Bantam Blueprint:
@@ -36,6 +39,7 @@ items:
     id: 683
     marketGroup: 261
     name: Bantam Blueprint
+    price: 2550000.0
     published: true
     volume: 0.01
   Breacher Blueprint:
@@ -44,6 +48,7 @@ items:
     id: 945
     marketGroup: 264
     name: Breacher Blueprint
+    price: 2800000.0
     published: true
     volume: 0.01
   Burst Blueprint:
@@ -52,6 +57,7 @@ items:
     id: 946
     marketGroup: 264
     name: Burst Blueprint
+    price: 2500000.0
     published: true
     volume: 0.01
   Buzzard Blueprint:
@@ -60,12 +66,14 @@ items:
     id: 11193
     marketGroup: 427
     name: Buzzard Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Caedes Blueprint:
     TechLevel: 1
     id: 42525
     name: Caedes Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   Caldari Navy Hookbill Blueprint:
@@ -80,6 +88,7 @@ items:
     TechLevel: 1
     id: 32789
     name: Cambion Blueprint
+    price: 2850000.0
     published: true
     volume: 0.01
   Cheetah Blueprint:
@@ -88,6 +97,7 @@ items:
     id: 11183
     marketGroup: 429
     name: Cheetah Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Chremoas Blueprint:
@@ -103,6 +113,7 @@ items:
     id: 11197
     marketGroup: 413
     name: Claw Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Condor Blueprint:
@@ -111,6 +122,7 @@ items:
     id: 684
     marketGroup: 261
     name: Condor Blueprint
+    price: 2150000.0
     published: true
     volume: 0.01
   Crow Blueprint:
@@ -119,6 +131,7 @@ items:
     id: 11177
     marketGroup: 411
     name: Crow Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Crucifier Blueprint:
@@ -127,6 +140,7 @@ items:
     id: 2162
     marketGroup: 272
     name: Crucifier Blueprint
+    price: 2375000.0
     published: true
     volume: 0.01
   Crucifier Navy Issue Blueprint:
@@ -148,6 +162,7 @@ items:
     id: 11185
     marketGroup: 410
     name: Crusader Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Damavik Blueprint:
@@ -182,6 +197,7 @@ items:
     TechLevel: 1
     id: 3533
     name: Echelon Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Endurance Blueprint:
@@ -189,6 +205,7 @@ items:
     TechLevel: 2
     id: 39583
     name: Endurance Blueprint
+    price: 2825000.0
     published: true
     volume: 0.01
   Enyo Blueprint:
@@ -197,6 +214,7 @@ items:
     id: 12045
     marketGroup: 462
     name: Enyo Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Executioner Blueprint:
@@ -205,6 +223,7 @@ items:
     id: 936
     marketGroup: 272
     name: Executioner Blueprint
+    price: 2175000.0
     published: true
     volume: 0.01
   Federation Navy Comet Blueprint:
@@ -227,6 +246,7 @@ items:
     id: 685
     marketGroup: 261
     name: Griffin Blueprint
+    price: 2350000.0
     published: true
     volume: 0.01
   Griffin Navy Issue Blueprint:
@@ -241,6 +261,7 @@ items:
     id: 11382
     marketGroup: 461
     name: Harpy Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Hawk Blueprint:
@@ -249,6 +270,7 @@ items:
     id: 11380
     marketGroup: 461
     name: Hawk Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Helios Blueprint:
@@ -257,6 +279,7 @@ items:
     id: 11173
     marketGroup: 428
     name: Helios Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Heron Blueprint:
@@ -265,6 +288,7 @@ items:
     id: 952
     marketGroup: 261
     name: Heron Blueprint
+    price: 2750000.0
     published: true
     volume: 0.01
   Hound Blueprint:
@@ -273,6 +297,7 @@ items:
     id: 12035
     marketGroup: 429
     name: Hound Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Hydra Blueprint:
@@ -286,6 +311,7 @@ items:
     TechLevel: 2
     id: 11388
     name: Hyena Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   Imicus Blueprint:
@@ -294,6 +320,7 @@ items:
     id: 954
     marketGroup: 277
     name: Imicus Blueprint
+    price: 2725000.0
     published: true
     volume: 0.01
   Imp Blueprint:
@@ -315,6 +342,7 @@ items:
     id: 941
     marketGroup: 277
     name: Incursus Blueprint
+    price: 2825000.0
     published: true
     volume: 0.01
   Inquisitor Blueprint:
@@ -323,6 +351,7 @@ items:
     id: 937
     marketGroup: 272
     name: Inquisitor Blueprint
+    price: 2575000.0
     published: true
     volume: 0.01
   Ishkur Blueprint:
@@ -331,6 +360,7 @@ items:
     id: 12043
     marketGroup: 462
     name: Ishkur Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Jaguar Blueprint:
@@ -339,6 +369,7 @@ items:
     id: 11401
     marketGroup: 463
     name: Jaguar Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Keres Blueprint:
@@ -346,6 +377,7 @@ items:
     TechLevel: 2
     id: 11175
     name: Keres Blueprint
+    price: 1800000.0
     published: true
     volume: 0.01
   Kestrel Blueprint:
@@ -354,6 +386,7 @@ items:
     id: 949
     marketGroup: 261
     name: Kestrel Blueprint
+    price: 2850000.0
     published: true
     volume: 0.01
   Kirin Blueprint:
@@ -368,6 +401,7 @@ items:
     TechLevel: 2
     id: 11195
     name: Kitsune Blueprint
+    price: 1600000.0
     published: true
     volume: 0.01
   Magnate Blueprint:
@@ -376,6 +410,7 @@ items:
     id: 29249
     marketGroup: 272
     name: Magnate Blueprint
+    price: 2775000.0
     published: true
     volume: 0.01
   Malediction Blueprint:
@@ -384,6 +419,7 @@ items:
     id: 11187
     marketGroup: 410
     name: Malediction Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Malice Blueprint:
@@ -391,6 +427,7 @@ items:
     TechLevel: 1
     id: 3517
     name: Malice Blueprint
+    price: 2875000.0
     published: true
     volume: 0.01
   Manticore Blueprint:
@@ -399,6 +436,7 @@ items:
     id: 12031
     marketGroup: 427
     name: Manticore Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Maulus Blueprint:
@@ -407,6 +445,7 @@ items:
     id: 956
     marketGroup: 277
     name: Maulus Blueprint
+    price: 2325000.0
     published: true
     volume: 0.01
   Maulus Navy Issue Blueprint:
@@ -421,6 +460,7 @@ items:
     id: 950
     marketGroup: 261
     name: Merlin Blueprint
+    price: 2850000.0
     published: true
     volume: 0.01
   Navitas Blueprint:
@@ -429,6 +469,7 @@ items:
     id: 939
     marketGroup: 277
     name: Navitas Blueprint
+    price: 2525000.0
     published: true
     volume: 0.01
   Nemesis Blueprint:
@@ -437,12 +478,14 @@ items:
     id: 11378
     marketGroup: 428
     name: Nemesis Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Pacifier Blueprint:
     TechLevel: 1
     id: 45486
     name: Pacifier Blueprint
+    price: 1600000.0
     published: true
     volume: 0.01
   Probe Blueprint:
@@ -451,6 +494,7 @@ items:
     id: 690
     marketGroup: 264
     name: Probe Blueprint
+    price: 2700000.0
     published: true
     volume: 0.01
   Prospect Blueprint:
@@ -458,6 +502,7 @@ items:
     TechLevel: 2
     id: 33698
     name: Prospect Blueprint
+    price: 2825000.0
     published: true
     volume: 0.01
   Punisher Blueprint:
@@ -466,6 +511,7 @@ items:
     id: 944
     marketGroup: 272
     name: Punisher Blueprint
+    price: 2875000.0
     published: true
     volume: 0.01
   Purifier Blueprint:
@@ -474,6 +520,7 @@ items:
     id: 12041
     marketGroup: 425
     name: Purifier Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Raptor Blueprint:
@@ -482,6 +529,7 @@ items:
     id: 11179
     marketGroup: 411
     name: Raptor Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Republic Fleet Firetail Blueprint:
@@ -497,6 +545,7 @@ items:
     id: 11394
     marketGroup: 459
     name: Retribution Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Rifter Blueprint:
@@ -505,6 +554,7 @@ items:
     id: 691
     marketGroup: 264
     name: Rifter Blueprint
+    price: 2800000.0
     published: true
     volume: 0.01
   Scalpel Blueprint:
@@ -519,6 +569,7 @@ items:
     TechLevel: 2
     id: 11191
     name: Sentinel Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   Slasher Blueprint:
@@ -527,6 +578,7 @@ items:
     id: 689
     marketGroup: 264
     name: Slasher Blueprint
+    price: 2100000.0
     published: true
     volume: 0.01
   Stiletto Blueprint:
@@ -535,6 +587,7 @@ items:
     id: 11199
     marketGroup: 413
     name: Stiletto Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Succubus Blueprint:
@@ -550,6 +603,7 @@ items:
     id: 11201
     marketGroup: 412
     name: Taranis Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Thalia Blueprint:
@@ -565,6 +619,7 @@ items:
     id: 938
     marketGroup: 272
     name: Tormentor Blueprint
+    price: 2875000.0
     published: true
     volume: 0.01
   Tristan Blueprint:
@@ -573,6 +628,7 @@ items:
     id: 940
     marketGroup: 277
     name: Tristan Blueprint
+    price: 2825000.0
     published: true
     volume: 0.01
   Vengeance Blueprint:
@@ -581,6 +637,7 @@ items:
     id: 11366
     marketGroup: 459
     name: Vengeance Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Venture Blueprint:
@@ -589,6 +646,7 @@ items:
     id: 32881
     marketGroup: 1617
     name: Venture Blueprint
+    price: 2825000.0
     published: true
     volume: 0.01
   Vigil Blueprint:
@@ -597,6 +655,7 @@ items:
     id: 3767
     marketGroup: 264
     name: Vigil Blueprint
+    price: 2300000.0
     published: true
     volume: 0.01
   Vigil Fleet Issue Blueprint:
@@ -616,6 +675,7 @@ items:
     TechLevel: 1
     id: 33674
     name: Whiptail Blueprint
+    price: 287500.0
     published: true
     volume: 0.01
   Wolf Blueprint:
@@ -624,6 +684,7 @@ items:
     id: 11372
     marketGroup: 463
     name: Wolf Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Worm Blueprint:

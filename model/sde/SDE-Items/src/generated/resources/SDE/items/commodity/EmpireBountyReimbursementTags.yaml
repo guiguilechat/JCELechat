@@ -4,6 +4,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: 'Amarr 100K Bounty Reimbursement Tag '
+    price: 100000.0
     published: true
     volume: 0.01
   'Amarr 10K Bounty Reimbursement Tag ':
@@ -11,6 +12,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: 'Amarr 10K Bounty Reimbursement Tag '
+    price: 10000.0
     published: true
     volume: 0.01
   'Amarr 10M Bounty Reimbursement Tag ':
@@ -18,6 +20,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: 'Amarr 10M Bounty Reimbursement Tag '
+    price: 1.0E7
     published: true
     volume: 0.01
   'Amarr 1M Bounty Reimbursement Tag ':
@@ -25,6 +28,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: 'Amarr 1M Bounty Reimbursement Tag '
+    price: 1000000.0
     published: true
     volume: 0.01
   Caldari 100K Bounty Reimbursement Tag:
@@ -32,6 +36,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Caldari 100K Bounty Reimbursement Tag
+    price: 100000.0
     published: true
     volume: 0.01
   Caldari 10K Bounty Reimbursement Tag:
@@ -39,6 +44,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Caldari 10K Bounty Reimbursement Tag
+    price: 10000.0
     published: true
     volume: 0.01
   Caldari 10M Bounty Reimbursement Tag:
@@ -46,6 +52,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Caldari 10M Bounty Reimbursement Tag
+    price: 1.0E7
     published: true
     volume: 0.01
   Caldari 1M Bounty Reimbursement Tag:
@@ -53,6 +60,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Caldari 1M Bounty Reimbursement Tag
+    price: 1000000.0
     published: true
     volume: 0.01
   Gallente 100K Bounty Reimbursement Tag:
@@ -60,6 +68,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Gallente 100K Bounty Reimbursement Tag
+    price: 100000.0
     published: true
     volume: 0.01
   Gallente 10K Bounty Reimbursement Tag:
@@ -67,6 +76,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Gallente 10K Bounty Reimbursement Tag
+    price: 10000.0
     published: true
     volume: 0.01
   Gallente 10M Bounty Reimbursement Tag:
@@ -74,6 +84,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Gallente 10M Bounty Reimbursement Tag
+    price: 1.0E7
     published: true
     volume: 0.01
   Gallente 1M Bounty Reimbursement Tag:
@@ -81,6 +92,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Gallente 1M Bounty Reimbursement Tag
+    price: 1000000.0
     published: true
     volume: 0.01
   Minmatar 100K Bounty Reimbursement Tag:
@@ -88,6 +100,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Minmatar 100K Bounty Reimbursement Tag
+    price: 100000.0
     published: true
     volume: 0.01
   Minmatar 10K Bounty Reimbursement Tag:
@@ -95,6 +108,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Minmatar 10K Bounty Reimbursement Tag
+    price: 10000.0
     published: true
     volume: 0.01
   Minmatar 10M Bounty Reimbursement Tag:
@@ -102,6 +116,7 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Minmatar 10M Bounty Reimbursement Tag
+    price: 1.0E7
     published: true
     volume: 0.01
   Minmatar 1M Bounty Reimbursement Tag:
@@ -109,5 +124,6 @@ items:
     marketGroup: 1846
     mass: 0.1
     name: Minmatar 1M Bounty Reimbursement Tag
+    price: 1000000.0
     published: true
     volume: 0.01

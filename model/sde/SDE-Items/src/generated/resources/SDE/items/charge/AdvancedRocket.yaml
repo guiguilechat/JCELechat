@@ -29,6 +29,7 @@ items:
     marketGroup: 928
     mass: 100.0
     name: Inferno Javelin Rocket
+    price: 62340.0
     published: true
     volume: 0.005
   Inferno Rage Rocket:
@@ -62,6 +63,7 @@ items:
     marketGroup: 930
     mass: 100.0
     name: Inferno Rage Rocket
+    price: 62340.0
     published: true
     volume: 0.005
   Mjolnir Javelin Rocket:
@@ -94,6 +96,7 @@ items:
     marketGroup: 928
     mass: 100.0
     name: Mjolnir Javelin Rocket
+    price: 62340.0
     published: true
     volume: 0.005
   Mjolnir Rage Rocket:
@@ -127,6 +130,7 @@ items:
     marketGroup: 930
     mass: 100.0
     name: Mjolnir Rage Rocket
+    price: 62340.0
     published: true
     volume: 0.005
   Nova Javelin Rocket:
@@ -159,6 +163,7 @@ items:
     marketGroup: 928
     mass: 100.0
     name: Nova Javelin Rocket
+    price: 62340.0
     published: true
     volume: 0.005
   Nova Rage Rocket:
@@ -192,6 +197,7 @@ items:
     marketGroup: 930
     mass: 100.0
     name: Nova Rage Rocket
+    price: 62340.0
     published: true
     volume: 0.005
   Scourge Javelin Rocket:
@@ -224,6 +230,7 @@ items:
     marketGroup: 928
     mass: 100.0
     name: Scourge Javelin Rocket
+    price: 62340.0
     published: true
     volume: 0.005
   Scourge Rage Rocket:
@@ -257,5 +264,6 @@ items:
     marketGroup: 930
     mass: 100.0
     name: Scourge Rage Rocket
+    price: 62340.0
     published: true
     volume: 0.005

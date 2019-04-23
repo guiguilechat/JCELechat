@@ -112,6 +112,7 @@ items:
     marketGroup: 818
     mass: 1.78E9
     name: Aeon
+    price: 1.45738724E10
     published: true
     volume: 6.2E7
   Hel:
@@ -228,6 +229,7 @@ items:
     marketGroup: 821
     mass: 1.65E9
     name: Hel
+    price: 1.43315076E10
     published: true
     volume: 5.1E7
   Nyx:
@@ -343,6 +345,7 @@ items:
     marketGroup: 820
     mass: 1.6E9
     name: Nyx
+    price: 1.58275709E10
     published: true
     volume: 5.82E7
   Revenant:
@@ -464,6 +467,7 @@ items:
     marketGroup: 1392
     mass: 1.6E9
     name: Revenant
+    price: 1.45738724E10
     published: true
     volume: 6.2E7
   Vendetta:
@@ -584,6 +588,7 @@ items:
     marketGroup: 1392
     mass: 1.6E9
     name: Vendetta
+    price: 1.58275709E10
     published: true
     volume: 5.82E7
   Wyvern:
@@ -699,5 +704,6 @@ items:
     marketGroup: 819
     mass: 1.7E9
     name: Wyvern
+    price: 1.40324325E10
     published: true
     volume: 5.3E7

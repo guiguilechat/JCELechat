@@ -5,6 +5,7 @@ items:
     id: 17939
     marketGroup: 1198
     name: Core Probe Launcher I Blueprint
+    price: 60000.0
     published: true
     volume: 0.01
   Core Probe Launcher II Blueprint:
@@ -12,6 +13,7 @@ items:
     TechLevel: 2
     id: 4259
     name: Core Probe Launcher II Blueprint
+    price: 60000.0
     published: true
     volume: 0.01
   Expanded Probe Launcher I Blueprint:
@@ -20,6 +22,7 @@ items:
     id: 18640
     marketGroup: 1198
     name: Expanded Probe Launcher I Blueprint
+    price: 60000.0
     published: true
     volume: 0.01
   Expanded Probe Launcher II Blueprint:
@@ -27,5 +30,6 @@ items:
     TechLevel: 2
     id: 4261
     name: Expanded Probe Launcher II Blueprint
+    price: 60000.0
     published: true
     volume: 0.01

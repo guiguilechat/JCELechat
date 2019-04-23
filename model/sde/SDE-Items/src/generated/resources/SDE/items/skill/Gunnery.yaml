@@ -12,6 +12,7 @@ items:
     id: 41404
     marketGroup: 364
     name: Capital Artillery Specialization
+    price: 2.7E7
     published: true
     volume: 0.01
   Capital Autocannon Specialization:
@@ -27,6 +28,7 @@ items:
     id: 41403
     marketGroup: 364
     name: Capital Autocannon Specialization
+    price: 2.7E7
     published: true
     volume: 0.01
   Capital Beam Laser Specialization:
@@ -42,6 +44,7 @@ items:
     id: 41408
     marketGroup: 364
     name: Capital Beam Laser Specialization
+    price: 2.7E7
     published: true
     volume: 0.01
   Capital Blaster Specialization:
@@ -57,6 +60,7 @@ items:
     id: 41405
     marketGroup: 364
     name: Capital Blaster Specialization
+    price: 2.7E7
     published: true
     volume: 0.01
   Capital Energy Turret:
@@ -72,6 +76,7 @@ items:
     id: 20327
     marketGroup: 364
     name: Capital Energy Turret
+    price: 1.5E7
     published: true
     volume: 0.01
   Capital Hybrid Turret:
@@ -87,6 +92,7 @@ items:
     id: 21666
     marketGroup: 364
     name: Capital Hybrid Turret
+    price: 1.5E7
     published: true
     volume: 0.01
   Capital Projectile Turret:
@@ -102,6 +108,7 @@ items:
     id: 21667
     marketGroup: 364
     name: Capital Projectile Turret
+    price: 1.5E7
     published: true
     volume: 0.01
   Capital Pulse Laser Specialization:
@@ -117,6 +124,7 @@ items:
     id: 41407
     marketGroup: 364
     name: Capital Pulse Laser Specialization
+    price: 2.7E7
     published: true
     volume: 0.01
   Capital Railgun Specialization:
@@ -132,6 +140,7 @@ items:
     id: 41406
     marketGroup: 364
     name: Capital Railgun Specialization
+    price: 2.7E7
     published: true
     volume: 0.01
   Controlled Bursts:
@@ -144,6 +153,7 @@ items:
     id: 3316
     marketGroup: 364
     name: Controlled Bursts
+    price: 70000.0
     published: true
     volume: 0.01
   Doomsday Operation:
@@ -161,6 +171,7 @@ items:
     id: 24563
     marketGroup: 364
     name: Doomsday Operation
+    price: 2.5E8
     published: true
     volume: 0.01
   Doomsday Rapid Firing:
@@ -174,6 +185,7 @@ items:
     id: 41537
     marketGroup: 364
     name: Doomsday Rapid Firing
+    price: 2.5E8
     published: true
     volume: 0.01
   Gunnery:
@@ -184,6 +196,7 @@ items:
     id: 3300
     marketGroup: 364
     name: Gunnery
+    price: 20000.0
     published: true
     volume: 0.01
   Large Artillery Specialization:
@@ -199,6 +212,7 @@ items:
     id: 12203
     marketGroup: 364
     name: Large Artillery Specialization
+    price: 9000000.0
     published: true
     volume: 0.01
   Large Autocannon Specialization:
@@ -214,6 +228,7 @@ items:
     id: 12209
     marketGroup: 364
     name: Large Autocannon Specialization
+    price: 9000000.0
     published: true
     volume: 0.01
   Large Beam Laser Specialization:
@@ -229,6 +244,7 @@ items:
     id: 12205
     marketGroup: 364
     name: Large Beam Laser Specialization
+    price: 9000000.0
     published: true
     volume: 0.01
   Large Blaster Specialization:
@@ -244,6 +260,7 @@ items:
     id: 12212
     marketGroup: 364
     name: Large Blaster Specialization
+    price: 9000000.0
     published: true
     volume: 0.01
   Large Disintegrator Specialization:
@@ -259,6 +276,7 @@ items:
     id: 47875
     marketGroup: 364
     name: Large Disintegrator Specialization
+    price: 1.8E7
     published: true
     volume: 0.01
   Large Energy Turret:
@@ -273,6 +291,7 @@ items:
     id: 3309
     marketGroup: 364
     name: Large Energy Turret
+    price: 2000000.0
     published: true
     volume: 0.01
   Large Hybrid Turret:
@@ -287,6 +306,7 @@ items:
     id: 3307
     marketGroup: 364
     name: Large Hybrid Turret
+    price: 2000000.0
     published: true
     volume: 0.01
   Large Precursor Weapon:
@@ -301,6 +321,7 @@ items:
     id: 47872
     marketGroup: 364
     name: Large Precursor Weapon
+    price: 1.8E7
     published: true
     volume: 0.01
   Large Projectile Turret:
@@ -315,6 +336,7 @@ items:
     id: 3308
     marketGroup: 364
     name: Large Projectile Turret
+    price: 2000000.0
     published: true
     volume: 0.01
   Large Pulse Laser Specialization:
@@ -330,6 +352,7 @@ items:
     id: 12215
     marketGroup: 364
     name: Large Pulse Laser Specialization
+    price: 9000000.0
     published: true
     volume: 0.01
   Large Railgun Specialization:
@@ -345,6 +368,7 @@ items:
     id: 12207
     marketGroup: 364
     name: Large Railgun Specialization
+    price: 9000000.0
     published: true
     volume: 0.01
   Medium Artillery Specialization:
@@ -360,6 +384,7 @@ items:
     id: 12202
     marketGroup: 364
     name: Medium Artillery Specialization
+    price: 3000000.0
     published: true
     volume: 0.01
   Medium Autocannon Specialization:
@@ -375,6 +400,7 @@ items:
     id: 12208
     marketGroup: 364
     name: Medium Autocannon Specialization
+    price: 3000000.0
     published: true
     volume: 0.01
   Medium Beam Laser Specialization:
@@ -390,6 +416,7 @@ items:
     id: 12204
     marketGroup: 364
     name: Medium Beam Laser Specialization
+    price: 3000000.0
     published: true
     volume: 0.01
   Medium Blaster Specialization:
@@ -405,6 +432,7 @@ items:
     id: 12211
     marketGroup: 364
     name: Medium Blaster Specialization
+    price: 3000000.0
     published: true
     volume: 0.01
   Medium Disintegrator Specialization:
@@ -420,6 +448,7 @@ items:
     id: 47874
     marketGroup: 364
     name: Medium Disintegrator Specialization
+    price: 9000000.0
     published: true
     volume: 0.01
   Medium Energy Turret:
@@ -434,6 +463,7 @@ items:
     id: 3306
     marketGroup: 364
     name: Medium Energy Turret
+    price: 100000.0
     published: true
     volume: 0.01
   Medium Hybrid Turret:
@@ -448,6 +478,7 @@ items:
     id: 3304
     marketGroup: 364
     name: Medium Hybrid Turret
+    price: 100000.0
     published: true
     volume: 0.01
   Medium Precursor Weapon:
@@ -462,6 +493,7 @@ items:
     id: 47871
     marketGroup: 364
     name: Medium Precursor Weapon
+    price: 900000.0
     published: true
     volume: 0.01
   Medium Projectile Turret:
@@ -476,6 +508,7 @@ items:
     id: 3305
     marketGroup: 364
     name: Medium Projectile Turret
+    price: 100000.0
     published: true
     volume: 0.01
   Medium Pulse Laser Specialization:
@@ -491,6 +524,7 @@ items:
     id: 12214
     marketGroup: 364
     name: Medium Pulse Laser Specialization
+    price: 3000000.0
     published: true
     volume: 0.01
   Medium Railgun Specialization:
@@ -506,6 +540,7 @@ items:
     id: 12206
     marketGroup: 364
     name: Medium Railgun Specialization
+    price: 3000000.0
     published: true
     volume: 0.01
   Motion Prediction:
@@ -518,6 +553,7 @@ items:
     id: 3312
     marketGroup: 364
     name: Motion Prediction
+    price: 60000.0
     published: true
     volume: 0.01
   Rapid Firing:
@@ -530,6 +566,7 @@ items:
     id: 3310
     marketGroup: 364
     name: Rapid Firing
+    price: 40000.0
     published: true
     volume: 0.01
   Sharpshooter:
@@ -542,6 +579,7 @@ items:
     id: 3311
     marketGroup: 364
     name: Sharpshooter
+    price: 80000.0
     published: true
     volume: 0.01
   Small Artillery Specialization:
@@ -557,6 +595,7 @@ items:
     id: 12201
     marketGroup: 364
     name: Small Artillery Specialization
+    price: 1000000.0
     published: true
     volume: 0.01
   Small Autocannon Specialization:
@@ -572,6 +611,7 @@ items:
     id: 11084
     marketGroup: 364
     name: Small Autocannon Specialization
+    price: 1000000.0
     published: true
     volume: 0.01
   Small Beam Laser Specialization:
@@ -587,6 +627,7 @@ items:
     id: 11083
     marketGroup: 364
     name: Small Beam Laser Specialization
+    price: 1000000.0
     published: true
     volume: 0.01
   Small Blaster Specialization:
@@ -602,6 +643,7 @@ items:
     id: 12210
     marketGroup: 364
     name: Small Blaster Specialization
+    price: 1000000.0
     published: true
     volume: 0.01
   Small Disintegrator Specialization:
@@ -617,6 +659,7 @@ items:
     id: 47873
     marketGroup: 364
     name: Small Disintegrator Specialization
+    price: 6000000.0
     published: true
     volume: 0.01
   Small Energy Turret:
@@ -629,6 +672,7 @@ items:
     id: 3303
     marketGroup: 364
     name: Small Energy Turret
+    price: 20000.0
     published: true
     volume: 0.01
   Small Hybrid Turret:
@@ -641,6 +685,7 @@ items:
     id: 3301
     marketGroup: 364
     name: Small Hybrid Turret
+    price: 20000.0
     published: true
     volume: 0.01
   Small Precursor Weapon:
@@ -653,6 +698,7 @@ items:
     id: 47870
     marketGroup: 364
     name: Small Precursor Weapon
+    price: 320000.0
     published: true
     volume: 0.01
   Small Projectile Turret:
@@ -665,6 +711,7 @@ items:
     id: 3302
     marketGroup: 364
     name: Small Projectile Turret
+    price: 20000.0
     published: true
     volume: 0.01
   Small Pulse Laser Specialization:
@@ -680,6 +727,7 @@ items:
     id: 12213
     marketGroup: 364
     name: Small Pulse Laser Specialization
+    price: 1000000.0
     published: true
     volume: 0.01
   Small Railgun Specialization:
@@ -695,6 +743,7 @@ items:
     id: 11082
     marketGroup: 364
     name: Small Railgun Specialization
+    price: 1000000.0
     published: true
     volume: 0.01
   Surgical Strike:
@@ -707,6 +756,7 @@ items:
     id: 3315
     marketGroup: 364
     name: Surgical Strike
+    price: 1000000.0
     published: true
     volume: 0.01
   Tactical Weapon Reconfiguration:
@@ -720,6 +770,7 @@ items:
     id: 22043
     marketGroup: 364
     name: Tactical Weapon Reconfiguration
+    price: 2.5E7
     published: true
     volume: 0.01
   Trajectory Analysis:
@@ -731,5 +782,6 @@ items:
     id: 3317
     marketGroup: 364
     name: Trajectory Analysis
+    price: 100000.0
     published: true
     volume: 0.01

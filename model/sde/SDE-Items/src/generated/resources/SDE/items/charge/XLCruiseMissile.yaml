@@ -24,6 +24,7 @@ items:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Inferno XL Cruise Missile
+    price: 325000.0
     published: true
     volume: 0.3
   Guristas Mjolnir XL Cruise Missile:
@@ -51,6 +52,7 @@ items:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Mjolnir XL Cruise Missile
+    price: 350000.0
     published: true
     volume: 0.3
   Guristas Nova XL Cruise Missile:
@@ -78,6 +80,7 @@ items:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Nova XL Cruise Missile
+    price: 250000.0
     published: true
     volume: 0.3
   Guristas Scourge XL Cruise Missile:
@@ -105,6 +108,7 @@ items:
     marketGroup: 1317
     mass: 1500.0
     name: Guristas Scourge XL Cruise Missile
+    price: 300000.0
     published: true
     volume: 0.3
   Inferno XL Cruise Missile:
@@ -130,6 +134,7 @@ items:
     marketGroup: 1287
     mass: 1500.0
     name: Inferno XL Cruise Missile
+    price: 325000.0
     published: true
     volume: 0.3
   Mjolnir XL Cruise Missile:
@@ -155,6 +160,7 @@ items:
     marketGroup: 1287
     mass: 1500.0
     name: Mjolnir XL Cruise Missile
+    price: 350000.0
     published: true
     volume: 0.3
   Nova XL Cruise Missile:
@@ -180,6 +186,7 @@ items:
     marketGroup: 1287
     mass: 1500.0
     name: Nova XL Cruise Missile
+    price: 250000.0
     published: true
     volume: 0.3
   Scourge XL Cruise Missile:
@@ -205,5 +212,6 @@ items:
     marketGroup: 1287
     mass: 1500.0
     name: Scourge XL Cruise Missile
+    price: 300000.0
     published: true
     volume: 0.3

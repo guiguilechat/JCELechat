@@ -14,6 +14,7 @@ items:
     id: 19725
     marketGroup: 785
     name: Moros Blueprint
+    price: 1.9E9
     published: true
     volume: 0.01
   Naglfar Blueprint:
@@ -21,6 +22,7 @@ items:
     id: 19723
     marketGroup: 786
     name: Naglfar Blueprint
+    price: 1.85E9
     published: true
     volume: 0.01
   Phoenix Blueprint:
@@ -28,6 +30,7 @@ items:
     id: 19727
     marketGroup: 784
     name: Phoenix Blueprint
+    price: 1.95E9
     published: true
     volume: 0.01
   Revelation Blueprint:
@@ -35,6 +38,7 @@ items:
     id: 19721
     marketGroup: 783
     name: Revelation Blueprint
+    price: 2.0E9
     published: true
     volume: 0.01
   Vehement Blueprint:

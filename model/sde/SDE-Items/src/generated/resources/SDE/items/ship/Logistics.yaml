@@ -84,6 +84,7 @@ items:
     marketGroup: 439
     mass: 1.313E7
     name: Basilisk
+    price: 1.3340104E7
     published: true
     volume: 107000.0
   Etana:
@@ -173,6 +174,7 @@ items:
     marketGroup: 1624
     mass: 1.313E7
     name: Etana
+    price: 1.3340104E7
     published: true
     volume: 107000.0
   Guardian:
@@ -259,6 +261,7 @@ items:
     marketGroup: 438
     mass: 1.198E7
     name: Guardian
+    price: 1.2567518E7
     published: true
     volume: 115000.0
   Oneiros:
@@ -344,6 +347,7 @@ items:
     marketGroup: 440
     mass: 1.316E7
     name: Oneiros
+    price: 1.2691246E7
     published: true
     volume: 113000.0
   Rabisu:
@@ -441,6 +445,7 @@ items:
     marketGroup: 1624
     mass: 1.3E7
     name: Rabisu
+    price: 1.2567518E7
     published: true
     volume: 115000.0
   Scimitar:
@@ -528,6 +533,7 @@ items:
     marketGroup: 441
     mass: 1.209E7
     name: Scimitar
+    price: 1.2450072E7
     published: true
     volume: 89000.0
   Zarmazd:
@@ -614,5 +620,6 @@ items:
     marketGroup: 2526
     mass: 1.024E7
     name: Zarmazd
+    price: 2.05E7
     published: true
     volume: 118000.0

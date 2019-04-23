@@ -34,5 +34,6 @@ items:
     marketGroup: 1013
     mass: 1.0E8
     name: Cynosural Generator Array
+    price: 2.0E7
     published: true
     volume: 4000.0

@@ -10,6 +10,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Scan Resolution Dampening Script
+    price: 4000.0
     published: true
     volume: 1.0
   Targeting Range Dampening Script:
@@ -23,5 +24,6 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Targeting Range Dampening Script
+    price: 4000.0
     published: true
     volume: 1.0

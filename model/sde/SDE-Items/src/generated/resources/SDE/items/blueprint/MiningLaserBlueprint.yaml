@@ -12,6 +12,7 @@ items:
     id: 12109
     marketGroup: 338
     name: Deep Core Mining Laser I Blueprint
+    price: 3500000.0
     published: true
     volume: 0.01
   Gas Cloud Harvester I Blueprint:
@@ -20,6 +21,7 @@ items:
     id: 25267
     marketGroup: 338
     name: Gas Cloud Harvester I Blueprint
+    price: 1.65E7
     published: true
     volume: 0.01
   Gas Cloud Harvester II Blueprint:
@@ -27,6 +29,7 @@ items:
     TechLevel: 2
     id: 25813
     name: Gas Cloud Harvester II Blueprint
+    price: 92720.0
     published: true
     volume: 0.01
   Ice Mining Laser I Blueprint:
@@ -34,12 +37,14 @@ items:
     id: 38660
     marketGroup: 338
     name: Ice Mining Laser I Blueprint
+    price: 3500000.0
     published: true
     volume: 0.01
   Ice Mining Laser II Blueprint:
     TechLevel: 1
     id: 38661
     name: Ice Mining Laser II Blueprint
+    price: 92720.0
     published: true
     volume: 0.01
   Miner I Blueprint:
@@ -48,6 +53,7 @@ items:
     id: 785
     marketGroup: 338
     name: Miner I Blueprint
+    price: 92720.0
     published: true
     volume: 0.01
   Miner II Blueprint:
@@ -55,6 +61,7 @@ items:
     TechLevel: 2
     id: 784
     name: Miner II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Modulated Deep Core Miner II Blueprint:
@@ -62,5 +69,6 @@ items:
     TechLevel: 2
     id: 18069
     name: Modulated Deep Core Miner II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

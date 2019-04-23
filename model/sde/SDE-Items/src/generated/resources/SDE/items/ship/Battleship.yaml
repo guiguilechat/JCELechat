@@ -76,6 +76,7 @@ items:
     marketGroup: 79
     mass: 1.032E8
     name: Abaddon
+    price: 1.8E8
     published: true
     volume: 495000.0
   Apocalypse:
@@ -154,6 +155,7 @@ items:
     marketGroup: 79
     mass: 9.71E7
     name: Apocalypse
+    price: 1.125E8
     published: true
     volume: 495000.0
   Apocalypse Imperial Issue:
@@ -232,6 +234,7 @@ items:
     marketGroup: 1620
     mass: 9.93E7
     name: Apocalypse Imperial Issue
+    price: 1.125E8
     published: true
     volume: 495000.0
   Apocalypse Navy Issue:
@@ -312,6 +315,7 @@ items:
     marketGroup: 1379
     mass: 9.71E7
     name: Apocalypse Navy Issue
+    price: 1.0875E8
     published: true
     volume: 495000.0
   Armageddon:
@@ -391,6 +395,7 @@ items:
     marketGroup: 79
     mass: 1.052E8
     name: Armageddon
+    price: 6.625E7
     published: true
     volume: 486000.0
   Armageddon Imperial Issue:
@@ -469,6 +474,7 @@ items:
     marketGroup: 1620
     mass: 9.71E7
     name: Armageddon Imperial Issue
+    price: 6.625E7
     published: true
     volume: 486000.0
   Armageddon Navy Issue:
@@ -549,6 +555,7 @@ items:
     marketGroup: 1379
     mass: 1.052E8
     name: Armageddon Navy Issue
+    price: 6.625E7
     published: true
     volume: 486000.0
   Barghest:
@@ -633,6 +640,7 @@ items:
     marketGroup: 1380
     mass: 9.8467E7
     name: Barghest
+    price: 1.0875E8
     published: true
     volume: 595000.0
   Bhaalgorn:
@@ -716,6 +724,7 @@ items:
     marketGroup: 1380
     mass: 9.71E7
     name: Bhaalgorn
+    price: 1.125E8
     published: true
     volume: 486000.0
   Dominix:
@@ -794,6 +803,7 @@ items:
     marketGroup: 81
     mass: 1.0025E8
     name: Dominix
+    price: 6.25E7
     published: true
     volume: 454500.0
   Dominix Navy Issue:
@@ -875,6 +885,7 @@ items:
     marketGroup: 1379
     mass: 9.71E7
     name: Dominix Navy Issue
+    price: 6.25E7
     published: true
     volume: 454500.0
   Hyperion:
@@ -955,6 +966,7 @@ items:
     marketGroup: 81
     mass: 1.002E8
     name: Hyperion
+    price: 1.76E8
     published: true
     volume: 495000.0
   Leshak:
@@ -1036,6 +1048,7 @@ items:
     marketGroup: 2430
     mass: 6.3E7
     name: Leshak
+    price: 8.5E7
     published: true
     volume: 495000.0
   Machariel:
@@ -1119,6 +1132,7 @@ items:
     marketGroup: 1380
     mass: 9.468E7
     name: Machariel
+    price: 1.0875E8
     published: true
     volume: 595000.0
   Maelstrom:
@@ -1197,6 +1211,7 @@ items:
     marketGroup: 78
     mass: 1.036E8
     name: Maelstrom
+    price: 1.45E8
     published: true
     volume: 472500.0
   Megathron:
@@ -1276,6 +1291,7 @@ items:
     marketGroup: 81
     mass: 9.84E7
     name: Megathron
+    price: 1.05E8
     published: true
     volume: 486000.0
   Megathron Federate Issue:
@@ -1358,6 +1374,7 @@ items:
     marketGroup: 1620
     mass: 1.052E8
     name: Megathron Federate Issue
+    price: 1.05E8
     published: true
     volume: 486000.0
   Megathron Navy Issue:
@@ -1440,6 +1457,7 @@ items:
     marketGroup: 1379
     mass: 9.84E7
     name: Megathron Navy Issue
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Nestor:
@@ -1529,6 +1547,7 @@ items:
     marketGroup: 1380
     mass: 2.0E7
     name: Nestor
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Nightmare:
@@ -1613,6 +1632,7 @@ items:
     marketGroup: 1380
     mass: 9.93E7
     name: Nightmare
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Praxis:
@@ -1695,6 +1715,7 @@ items:
     marketGroup: 1620
     mass: 8.7E7
     name: Praxis
+    price: 1.8E8
     published: true
     volume: 500000.0
   Rattlesnake:
@@ -1779,6 +1800,7 @@ items:
     marketGroup: 1380
     mass: 9.93E7
     name: Rattlesnake
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Raven:
@@ -1859,6 +1881,7 @@ items:
     marketGroup: 80
     mass: 9.93E7
     name: Raven
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Raven Navy Issue:
@@ -1940,6 +1963,7 @@ items:
     marketGroup: 1379
     mass: 9.73E7
     name: Raven Navy Issue
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Raven State Issue:
@@ -2022,6 +2046,7 @@ items:
     marketGroup: 1620
     mass: 9.93E7
     name: Raven State Issue
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Rokh:
@@ -2101,6 +2126,7 @@ items:
     marketGroup: 80
     mass: 1.053E8
     name: Rokh
+    price: 1.65E8
     published: true
     volume: 486000.0
   Scorpion:
@@ -2180,6 +2206,7 @@ items:
     marketGroup: 80
     mass: 1.036E8
     name: Scorpion
+    price: 7.125E7
     published: true
     volume: 468000.0
   Scorpion Navy Issue:
@@ -2261,6 +2288,7 @@ items:
     marketGroup: 1379
     mass: 1.036E8
     name: Scorpion Navy Issue
+    price: 7.125E7
     published: true
     volume: 468000.0
   Tempest:
@@ -2339,6 +2367,7 @@ items:
     marketGroup: 78
     mass: 9.95E7
     name: Tempest
+    price: 1.0375E8
     published: true
     volume: 450000.0
   Tempest Fleet Issue:
@@ -2419,6 +2448,7 @@ items:
     marketGroup: 1379
     mass: 1.033E8
     name: Tempest Fleet Issue
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Tempest Tribal Issue:
@@ -2499,6 +2529,7 @@ items:
     marketGroup: 1620
     mass: 1.033E8
     name: Tempest Tribal Issue
+    price: 1.0875E8
     published: true
     volume: 486000.0
   Typhoon:
@@ -2577,6 +2608,7 @@ items:
     marketGroup: 78
     mass: 1.006E8
     name: Typhoon
+    price: 7.5E7
     published: true
     volume: 414000.0
   Typhoon Fleet Issue:
@@ -2658,6 +2690,7 @@ items:
     marketGroup: 1379
     mass: 1.026E8
     name: Typhoon Fleet Issue
+    price: 7.5E7
     published: true
     volume: 414000.0
   Vindicator:
@@ -2741,5 +2774,6 @@ items:
     marketGroup: 1380
     mass: 1.052E8
     name: Vindicator
+    price: 1.0875E8
     published: true
     volume: 486000.0

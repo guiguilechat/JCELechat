@@ -11,6 +11,7 @@ public abstract class Item {
     public int marketGroup;
     public boolean published;
     public double mass;
+    public double price;
 
     public abstract IMetaGroup<?> getGroup();
 

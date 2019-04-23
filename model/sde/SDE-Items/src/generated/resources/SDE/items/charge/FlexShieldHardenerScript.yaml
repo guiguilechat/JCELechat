@@ -11,6 +11,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Shield EM Resistance Script
+    price: 4000.0
     published: true
     volume: 1.0
   Shield Explosive Resistance Script:
@@ -25,6 +26,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Shield Explosive Resistance Script
+    price: 4000.0
     published: true
     volume: 1.0
   Shield Kinetic Resistance Script:
@@ -39,6 +41,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Shield Kinetic Resistance Script
+    price: 4000.0
     published: true
     volume: 1.0
   Shield Thermal Resistance Script:
@@ -53,5 +56,6 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Shield Thermal Resistance Script
+    price: 4000.0
     published: true
     volume: 1.0

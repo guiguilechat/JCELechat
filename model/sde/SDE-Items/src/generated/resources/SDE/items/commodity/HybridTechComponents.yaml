@@ -5,6 +5,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Electromechanical Interface Nexus
+    price: 400000.0
     published: true
     volume: 10.0
   Emergent Neurovisual Interface:
@@ -13,6 +14,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Emergent Neurovisual Interface
+    price: 400000.0
     published: true
     volume: 20.0
   Fullerene Intercalated Sheets:
@@ -21,6 +23,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Fullerene Intercalated Sheets
+    price: 400000.0
     published: true
     volume: 5.0
   Fulleroferrocene Power Conduits:
@@ -29,6 +32,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Fulleroferrocene Power Conduits
+    price: 400000.0
     published: true
     volume: 5.0
   Metallofullerene Plating:
@@ -37,6 +41,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Metallofullerene Plating
+    price: 400000.0
     published: true
     volume: 5.0
   Nanowire Composites:
@@ -45,6 +50,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Nanowire Composites
+    price: 400000.0
     published: true
     volume: 5.0
   Neurovisual Output Analyzer:
@@ -53,6 +59,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Neurovisual Output Analyzer
+    price: 400000.0
     published: true
     volume: 5.0
   Optimized Nano-Engines:
@@ -61,6 +68,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Optimized Nano-Engines
+    price: 400000.0
     published: true
     volume: 10.0
   Reconfigured Subspace Calibrator:
@@ -69,6 +77,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Reconfigured Subspace Calibrator
+    price: 400000.0
     published: true
     volume: 10.0
   Reinforced Metallofullerene Alloys:
@@ -77,6 +86,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Reinforced Metallofullerene Alloys
+    price: 400000.0
     published: true
     volume: 10.0
   Self-Assembling Nanolattice:
@@ -85,6 +95,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Self-Assembling Nanolattice
+    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Gravimetric Amplifier:
@@ -93,6 +104,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Gravimetric Amplifier
+    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Ladar Amplifier:
@@ -101,6 +113,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Ladar Amplifier
+    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Magnetometric Amplifier:
@@ -109,6 +122,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Magnetometric Amplifier
+    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Radar Amplifier:
@@ -117,6 +131,7 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Superconducting Radar Amplifier
+    price: 400000.0
     published: true
     volume: 5.0
   Warfare Computation Core:
@@ -125,5 +140,6 @@ items:
     marketGroup: 1147
     mass: 1.0
     name: Warfare Computation Core
+    price: 400000.0
     published: true
     volume: 10.0

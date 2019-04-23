@@ -26,5 +26,6 @@ items:
     marketGroup: 1702
     mass: 1.0E8
     name: Personal Hangar Array
+    price: 1.0E7
     published: true
     volume: 4000.0

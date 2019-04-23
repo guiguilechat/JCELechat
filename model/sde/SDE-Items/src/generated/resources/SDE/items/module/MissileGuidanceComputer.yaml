@@ -23,6 +23,7 @@ items:
     id: 35789
     marketGroup: 2032
     name: Astro-Inertial Compact Missile Guidance Computer
+    price: 9900.0
     published: true
     volume: 5.0
   Missile Guidance Computer I:
@@ -48,6 +49,7 @@ items:
     id: 35788
     marketGroup: 2032
     name: Missile Guidance Computer I
+    price: 9900.0
     published: true
     volume: 5.0
   Missile Guidance Computer II:
@@ -74,5 +76,6 @@ items:
     id: 35790
     marketGroup: 2032
     name: Missile Guidance Computer II
+    price: 9900.0
     published: true
     volume: 5.0

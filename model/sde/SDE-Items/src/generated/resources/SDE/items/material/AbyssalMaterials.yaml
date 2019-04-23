@@ -3,11 +3,13 @@ items:
     id: 47975
     marketGroup: 2479
     name: Crystalline Isogen-10
+    price: 32768.0
     published: true
     volume: 0.35
   Zero-Point Condensate:
     id: 48112
     marketGroup: 2479
     name: Zero-Point Condensate
+    price: 100000.0
     published: true
     volume: 0.25

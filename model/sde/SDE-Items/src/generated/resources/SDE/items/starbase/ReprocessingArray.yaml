@@ -30,6 +30,7 @@ items:
     marketGroup: 482
     mass: 5.0E7
     name: Intensive Reprocessing Array
+    price: 7.5E7
     published: true
     volume: 6000.0
   Reprocessing Array:
@@ -63,5 +64,6 @@ items:
     marketGroup: 482
     mass: 5.0E7
     name: Reprocessing Array
+    price: 2.5E7
     published: true
     volume: 6000.0

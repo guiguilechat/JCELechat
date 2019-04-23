@@ -12,6 +12,7 @@ items:
     marketGroup: 529
     mass: 1.0
     name: Compressed Immaculate Jaspet
+    price: 48300.0
     published: true
     volume: 0.15
   Compressed Jaspet:
@@ -27,6 +28,7 @@ items:
     marketGroup: 529
     mass: 1.0E35
     name: Compressed Jaspet
+    price: 2522370.0
     published: true
     volume: 0.15
   Compressed Pristine Jaspet:
@@ -42,6 +44,7 @@ items:
     marketGroup: 529
     mass: 1.0E35
     name: Compressed Pristine Jaspet
+    price: 2781630.0
     published: true
     volume: 0.15
   Compressed Pure Jaspet:
@@ -57,6 +60,7 @@ items:
     marketGroup: 529
     mass: 1.0E35
     name: Compressed Pure Jaspet
+    price: 2636640.0
     published: true
     volume: 0.15
   Immaculate Jaspet:
@@ -74,6 +78,7 @@ items:
     marketGroup: 529
     mass: 1.0E35
     name: Immaculate Jaspet
+    price: 440.0
     published: true
     volume: 2.0
   Jaspet:
@@ -91,6 +96,7 @@ items:
     marketGroup: 529
     mass: 1.0E35
     name: Jaspet
+    price: 168158.0
     published: true
     volume: 2.0
   Pithix:
@@ -104,6 +110,7 @@ items:
     id: 28621
     mass: 1.0E35
     name: Pithix
+    price: 168158.0
     published: true
     volume: 2.0
   Pristine Jaspet:
@@ -121,6 +128,7 @@ items:
     marketGroup: 529
     mass: 1.0E35
     name: Pristine Jaspet
+    price: 185442.0
     published: true
     volume: 2.0
   Pure Jaspet:
@@ -138,5 +146,6 @@ items:
     marketGroup: 529
     mass: 1.0E35
     name: Pure Jaspet
+    price: 175776.0
     published: true
     volume: 2.0

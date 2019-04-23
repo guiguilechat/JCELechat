@@ -29,6 +29,7 @@ items:
     marketGroup: 929
     mass: 1500.0
     name: Inferno Javelin Torpedo
+    price: 1500245.0
     published: true
     volume: 0.05
   Inferno Rage Torpedo:
@@ -60,6 +61,7 @@ items:
     marketGroup: 931
     mass: 1000.0
     name: Inferno Rage Torpedo
+    price: 1500245.0
     published: true
     volume: 0.05
   Mjolnir Javelin Torpedo:
@@ -92,6 +94,7 @@ items:
     marketGroup: 929
     mass: 1500.0
     name: Mjolnir Javelin Torpedo
+    price: 1500245.0
     published: true
     volume: 0.05
   Mjolnir Rage Torpedo:
@@ -123,6 +126,7 @@ items:
     marketGroup: 931
     mass: 1000.0
     name: Mjolnir Rage Torpedo
+    price: 1500245.0
     published: true
     volume: 0.05
   Nova Javelin Torpedo:
@@ -155,6 +159,7 @@ items:
     marketGroup: 929
     mass: 1500.0
     name: Nova Javelin Torpedo
+    price: 1500245.0
     published: true
     volume: 0.05
   Nova Rage Torpedo:
@@ -186,6 +191,7 @@ items:
     marketGroup: 931
     mass: 1000.0
     name: Nova Rage Torpedo
+    price: 1500245.0
     published: true
     volume: 0.05
   Scourge Javelin Torpedo:
@@ -218,6 +224,7 @@ items:
     marketGroup: 929
     mass: 1500.0
     name: Scourge Javelin Torpedo
+    price: 1500245.0
     published: true
     volume: 0.05
   Scourge Rage Torpedo:
@@ -249,5 +256,6 @@ items:
     marketGroup: 931
     mass: 1000.0
     name: Scourge Rage Torpedo
+    price: 1500245.0
     published: true
     volume: 0.05

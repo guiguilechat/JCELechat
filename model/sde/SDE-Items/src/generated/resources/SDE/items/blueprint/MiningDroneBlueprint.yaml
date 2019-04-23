@@ -3,24 +3,28 @@ items:
     TechLevel: 1
     id: 43913
     name: '''Augmented'' Ice Harvesting Drone Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Mining Drone Blueprint':
     TechLevel: 1
     id: 43914
     name: '''Augmented'' Mining Drone Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Excavator'' Ice Harvesting Drone Blueprint':
     TechLevel: 1
     id: 43916
     name: '''Excavator'' Ice Harvesting Drone Blueprint'
+    price: 2.0E8
     published: true
     volume: 0.01
   '''Excavator'' Mining Drone Blueprint':
     TechLevel: 1
     id: 43915
     name: '''Excavator'' Mining Drone Blueprint'
+    price: 2.0E8
     published: true
     volume: 0.01
   Civilian Mining Drone Blueprint:
@@ -29,12 +33,14 @@ items:
     id: 1218
     marketGroup: 358
     name: Civilian Mining Drone Blueprint
+    price: 1498600.0
     published: true
     volume: 0.01
   Harvester Mining Drone Blueprint:
     TechLevel: 1
     id: 43934
     name: Harvester Mining Drone Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Ice Harvesting Drone I Blueprint:
@@ -42,12 +48,14 @@ items:
     id: 43911
     marketGroup: 358
     name: Ice Harvesting Drone I Blueprint
+    price: 3.0E7
     published: true
     volume: 0.01
   Ice Harvesting Drone II Blueprint:
     TechLevel: 2
     id: 43912
     name: Ice Harvesting Drone II Blueprint
+    price: 3.0E7
     published: true
     volume: 0.01
   Mining Drone I Blueprint:
@@ -56,6 +64,7 @@ items:
     id: 10247
     marketGroup: 358
     name: Mining Drone I Blueprint
+    price: 1.9986E7
     published: true
     volume: 0.01
   Mining Drone II Blueprint:
@@ -63,5 +72,6 @@ items:
     TechLevel: 2
     id: 10251
     name: Mining Drone II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01

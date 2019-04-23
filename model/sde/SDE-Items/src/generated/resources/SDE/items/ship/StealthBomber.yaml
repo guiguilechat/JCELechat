@@ -443,5 +443,6 @@ items:
     marketGroup: 1838
     mass: 1410000.0
     name: Virtuoso
+    price: 5.0E7
     published: true
     volume: 28100.0

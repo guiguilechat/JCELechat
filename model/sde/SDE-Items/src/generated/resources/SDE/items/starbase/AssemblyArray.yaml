@@ -30,6 +30,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Advanced Large Ship Assembly Array
+    price: 1.0E8
     published: true
     volume: 25000.0
   Advanced Medium Ship Assembly Array:
@@ -63,6 +64,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Advanced Medium Ship Assembly Array
+    price: 1.0E8
     published: true
     volume: 17000.0
   Advanced Small Ship Assembly Array:
@@ -96,6 +98,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Advanced Small Ship Assembly Array
+    price: 1.0E8
     published: true
     volume: 10000.0
   Ammunition Assembly Array:
@@ -129,6 +132,7 @@ items:
     marketGroup: 932
     mass: 1.0E8
     name: Ammunition Assembly Array
+    price: 1.0E7
     published: true
     volume: 1250.0
   Capital Ship Assembly Array:
@@ -162,6 +166,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Capital Ship Assembly Array
+    price: 1.0E8
     published: true
     volume: 25000.0
   Component Assembly Array:
@@ -195,6 +200,7 @@ items:
     marketGroup: 932
     mass: 1.0E8
     name: Component Assembly Array
+    price: 1.0E7
     published: true
     volume: 12500.0
   Drone Assembly Array:
@@ -228,6 +234,7 @@ items:
     marketGroup: 932
     mass: 1.0E8
     name: Drone Assembly Array
+    price: 1.0E7
     published: true
     volume: 1250.0
   Drug Lab:
@@ -261,6 +268,7 @@ items:
     marketGroup: 933
     mass: 1.0E8
     name: Drug Lab
+    price: 7.5E7
     published: true
     volume: 1250.0
   Equipment Assembly Array:
@@ -294,6 +302,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Equipment Assembly Array
+    price: 6.0E7
     published: true
     volume: 6250.0
   Large Ship Assembly Array:
@@ -328,6 +337,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Large Ship Assembly Array
+    price: 9.0E7
     published: true
     volume: 25000.0
   Medium Ship Assembly Array:
@@ -361,6 +371,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Medium Ship Assembly Array
+    price: 1.0E8
     published: true
     volume: 17000.0
   Rapid Equipment Assembly Array:
@@ -394,6 +405,7 @@ items:
     marketGroup: 932
     mass: 1.0E8
     name: Rapid Equipment Assembly Array
+    price: 1.0E7
     published: true
     volume: 6250.0
   Small Ship Assembly Array:
@@ -427,6 +439,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Small Ship Assembly Array
+    price: 1.0E8
     published: true
     volume: 10000.0
   Subsystem Assembly Array:
@@ -461,6 +474,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Subsystem Assembly Array
+    price: 1.0E8
     published: true
     volume: 17000.0
   Supercapital Ship Assembly Array:
@@ -495,6 +509,7 @@ items:
     marketGroup: 932
     mass: 2.0E8
     name: Supercapital Ship Assembly Array
+    price: 2.0E9
     published: true
     volume: 850000.0
   Thukker Component Assembly Array:
@@ -530,5 +545,6 @@ items:
     marketGroup: 932
     mass: 1.0E8
     name: Thukker Component Assembly Array
+    price: 1.0E7
     published: true
     volume: 12500.0

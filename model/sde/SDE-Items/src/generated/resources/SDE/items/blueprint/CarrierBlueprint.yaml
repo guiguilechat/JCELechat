@@ -4,6 +4,7 @@ items:
     id: 23758
     marketGroup: 888
     name: Archon Blueprint
+    price: 1.1E9
     published: true
     volume: 0.01
   Chimera Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 23916
     marketGroup: 889
     name: Chimera Blueprint
+    price: 1.05E9
     published: true
     volume: 0.01
   Nidhoggur Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 24484
     marketGroup: 891
     name: Nidhoggur Blueprint
+    price: 1.15E9
     published: true
     volume: 0.01
   Thanatos Blueprint:
@@ -25,5 +28,6 @@ items:
     id: 23912
     marketGroup: 890
     name: Thanatos Blueprint
+    price: 1.25E9
     published: true
     volume: 0.01

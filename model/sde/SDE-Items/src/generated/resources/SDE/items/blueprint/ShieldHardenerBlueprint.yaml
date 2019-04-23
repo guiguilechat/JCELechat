@@ -40,6 +40,7 @@ items:
     id: 1129
     marketGroup: 1548
     name: Adaptive Invulnerability Field I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Adaptive Invulnerability Field II Blueprint:
@@ -47,6 +48,7 @@ items:
     TechLevel: 2
     id: 2282
     name: Adaptive Invulnerability Field II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Civilian EM Ward Field Blueprint:
@@ -54,6 +56,7 @@ items:
     TechLevel: 1
     id: 30421
     name: Civilian EM Ward Field Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Civilian Explosive Deflection Field Blueprint:
@@ -61,6 +64,7 @@ items:
     TechLevel: 1
     id: 30423
     name: Civilian Explosive Deflection Field Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Civilian Kinetic Deflection Field Blueprint:
@@ -68,6 +72,7 @@ items:
     TechLevel: 1
     id: 30425
     name: Civilian Kinetic Deflection Field Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Civilian Thermal Dissipation Field Blueprint:
@@ -75,6 +80,7 @@ items:
     TechLevel: 1
     id: 30343
     name: Civilian Thermal Dissipation Field Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   EM Ward Field I Blueprint:
@@ -83,6 +89,7 @@ items:
     id: 2294
     marketGroup: 1548
     name: EM Ward Field I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   EM Ward Field II Blueprint:
@@ -90,6 +97,7 @@ items:
     TechLevel: 2
     id: 2302
     name: EM Ward Field II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Explosive Deflection Field I Blueprint:
@@ -98,6 +106,7 @@ items:
     id: 2290
     marketGroup: 1548
     name: Explosive Deflection Field I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Explosive Deflection Field II Blueprint:
@@ -105,6 +114,7 @@ items:
     TechLevel: 2
     id: 2298
     name: Explosive Deflection Field II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Kinetic Deflection Field I Blueprint:
@@ -113,6 +123,7 @@ items:
     id: 2292
     marketGroup: 1548
     name: Kinetic Deflection Field I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Kinetic Deflection Field II Blueprint:
@@ -120,6 +131,7 @@ items:
     TechLevel: 2
     id: 2300
     name: Kinetic Deflection Field II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Thermal Dissipation Field I Blueprint:
@@ -128,6 +140,7 @@ items:
     id: 2296
     marketGroup: 1548
     name: Thermal Dissipation Field I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Thermal Dissipation Field II Blueprint:
@@ -135,5 +148,6 @@ items:
     TechLevel: 2
     id: 2304
     name: Thermal Dissipation Field II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

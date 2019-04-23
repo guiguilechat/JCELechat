@@ -24,6 +24,7 @@ items:
     marketGroup: 483
     mass: 1.0E8
     name: Biochemical Silo
+    price: 2.0E7
     published: true
     volume: 4000.0
   Catalyst Silo:
@@ -51,6 +52,7 @@ items:
     marketGroup: 483
     mass: 1.0E8
     name: Catalyst Silo
+    price: 7500000.0
     published: true
     volume: 4000.0
   Coupling Array:
@@ -77,6 +79,7 @@ items:
     marketGroup: 483
     mass: 1.0E8
     name: Coupling Array
+    price: 2500000.0
     published: true
     volume: 4000.0
   General Storage:
@@ -105,6 +108,7 @@ items:
     marketGroup: 483
     mass: 1.0E8
     name: General Storage
+    price: 7500000.0
     published: true
     volume: 4000.0
   Hazardous Chemical Silo:
@@ -132,6 +136,7 @@ items:
     marketGroup: 483
     mass: 1.0E8
     name: Hazardous Chemical Silo
+    price: 2.5E7
     published: true
     volume: 4000.0
   Hybrid Polymer Silo:
@@ -160,6 +165,7 @@ items:
     marketGroup: 483
     mass: 1.0E8
     name: Hybrid Polymer Silo
+    price: 7500000.0
     published: true
     volume: 4000.0
   Silo:
@@ -186,5 +192,6 @@ items:
     marketGroup: 483
     mass: 1.0E8
     name: Silo
+    price: 1.5E7
     published: true
     volume: 4000.0

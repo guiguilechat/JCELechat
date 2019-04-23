@@ -57,6 +57,7 @@ items:
     id: 48127
     mass: 6.3E7
     name: Blinding Leshak
+    price: 1.125E8
     published: false
     volume: 495000.0
   Blinding Vila Damavik:
@@ -434,6 +435,7 @@ items:
     id: 48123
     mass: 6.3E7
     name: Renewing Leshak
+    price: 1.125E8
     published: false
     volume: 495000.0
   Shining Vila Damavik:
@@ -470,6 +472,7 @@ items:
     id: 48125
     mass: 6.3E7
     name: Starving Leshak
+    price: 1.125E8
     published: false
     volume: 495000.0
   Starving Vedmak:
@@ -506,6 +509,7 @@ items:
     id: 48122
     mass: 6.3E7
     name: Striking Leshak
+    price: 1.125E8
     published: false
     volume: 495000.0
   Striking Vila Damavik:
@@ -542,6 +546,7 @@ items:
     id: 48124
     mass: 6.3E7
     name: Tangling Leshak
+    price: 1.125E8
     published: false
     volume: 495000.0
   Tangling Vila Damavik:
@@ -578,5 +583,6 @@ items:
     id: 48126
     mass: 6.3E7
     name: Warding Leshak
+    price: 1.125E8
     published: false
     volume: 495000.0

@@ -10,6 +10,7 @@ items:
     id: 45749
     marketGroup: 1323
     name: Advanced Mass Reactions
+    price: 2.5E7
     published: true
     volume: 0.01
   Arkonor Processing:
@@ -24,6 +25,7 @@ items:
     id: 12180
     marketGroup: 1323
     name: Arkonor Processing
+    price: 375000.0
     published: true
     volume: 0.01
   Astrogeology:
@@ -38,6 +40,7 @@ items:
     id: 3410
     marketGroup: 1323
     name: Astrogeology
+    price: 450000.0
     published: true
     volume: 0.01
   Bistot Processing:
@@ -52,6 +55,7 @@ items:
     id: 12181
     marketGroup: 1323
     name: Bistot Processing
+    price: 350000.0
     published: true
     volume: 0.01
   Common Moon Ore Processing:
@@ -66,6 +70,7 @@ items:
     id: 46153
     marketGroup: 1323
     name: Common Moon Ore Processing
+    price: 1.5E7
     published: true
     volume: 0.01
   Crokite Processing:
@@ -80,6 +85,7 @@ items:
     id: 12182
     marketGroup: 1323
     name: Crokite Processing
+    price: 325000.0
     published: true
     volume: 0.01
   Dark Ochre Processing:
@@ -94,6 +100,7 @@ items:
     id: 12183
     marketGroup: 1323
     name: Dark Ochre Processing
+    price: 275000.0
     published: true
     volume: 0.01
   Deep Core Mining:
@@ -109,6 +116,7 @@ items:
     id: 11395
     marketGroup: 1323
     name: Deep Core Mining
+    price: 500000.0
     published: true
     volume: 0.01
   Exceptional Moon Ore Processing:
@@ -123,6 +131,7 @@ items:
     id: 46156
     marketGroup: 1323
     name: Exceptional Moon Ore Processing
+    price: 3.0E7
     published: true
     volume: 0.01
   Gas Cloud Harvesting:
@@ -134,6 +143,7 @@ items:
     id: 25544
     marketGroup: 1323
     name: Gas Cloud Harvesting
+    price: 2.4E7
     published: true
     volume: 0.01
   Gneiss Processing:
@@ -148,6 +158,7 @@ items:
     id: 12184
     marketGroup: 1323
     name: Gneiss Processing
+    price: 250000.0
     published: true
     volume: 0.01
   Hedbergite Processing:
@@ -162,6 +173,7 @@ items:
     id: 12185
     marketGroup: 1323
     name: Hedbergite Processing
+    price: 225000.0
     published: true
     volume: 0.01
   Hemorphite Processing:
@@ -176,6 +188,7 @@ items:
     id: 12186
     marketGroup: 1323
     name: Hemorphite Processing
+    price: 200000.0
     published: true
     volume: 0.01
   Ice Harvesting:
@@ -188,6 +201,7 @@ items:
     id: 16281
     marketGroup: 1323
     name: Ice Harvesting
+    price: 375000.0
     published: true
     volume: 0.01
   Ice Processing:
@@ -202,6 +216,7 @@ items:
     id: 18025
     marketGroup: 1323
     name: Ice Processing
+    price: 400000.0
     published: true
     volume: 0.01
   Industrial Reconfiguration:
@@ -214,6 +229,7 @@ items:
     id: 28585
     marketGroup: 1323
     name: Industrial Reconfiguration
+    price: 2.5E7
     published: true
     volume: 0.01
   Jaspet Processing:
@@ -228,6 +244,7 @@ items:
     id: 12187
     marketGroup: 1323
     name: Jaspet Processing
+    price: 175000.0
     published: true
     volume: 0.01
   Kernite Processing:
@@ -242,6 +259,7 @@ items:
     id: 12188
     marketGroup: 1323
     name: Kernite Processing
+    price: 150000.0
     published: true
     volume: 0.01
   Mass Reactions:
@@ -255,6 +273,7 @@ items:
     id: 45748
     marketGroup: 1323
     name: Mass Reactions
+    price: 5000000.0
     published: true
     volume: 0.01
   Mercoxit Processing:
@@ -269,6 +288,7 @@ items:
     id: 12189
     marketGroup: 1323
     name: Mercoxit Processing
+    price: 400000.0
     published: true
     volume: 0.01
   Mining:
@@ -279,6 +299,7 @@ items:
     id: 3386
     marketGroup: 1323
     name: Mining
+    price: 20000.0
     published: true
     volume: 0.01
   Mining Upgrades:
@@ -291,6 +312,7 @@ items:
     id: 22578
     marketGroup: 1323
     name: Mining Upgrades
+    price: 80000.0
     published: true
     volume: 0.01
   Omber Processing:
@@ -305,6 +327,7 @@ items:
     id: 12190
     marketGroup: 1323
     name: Omber Processing
+    price: 125000.0
     published: true
     volume: 0.01
   Plagioclase Processing:
@@ -319,6 +342,7 @@ items:
     id: 12191
     marketGroup: 1323
     name: Plagioclase Processing
+    price: 75000.0
     published: true
     volume: 0.01
   Pyroxeres Processing:
@@ -333,6 +357,7 @@ items:
     id: 12192
     marketGroup: 1323
     name: Pyroxeres Processing
+    price: 100000.0
     published: true
     volume: 0.01
   Rare Moon Ore Processing:
@@ -347,6 +372,7 @@ items:
     id: 46155
     marketGroup: 1323
     name: Rare Moon Ore Processing
+    price: 2.5E7
     published: true
     volume: 0.01
   Reactions:
@@ -357,6 +383,7 @@ items:
     id: 45746
     marketGroup: 1323
     name: Reactions
+    price: 1000000.0
     published: true
     volume: 0.01
   Remote Reactions:
@@ -369,6 +396,7 @@ items:
     id: 45750
     marketGroup: 1323
     name: Remote Reactions
+    price: 1.5E7
     published: true
     volume: 0.01
   Reprocessing:
@@ -381,6 +409,7 @@ items:
     id: 3385
     marketGroup: 1323
     name: Reprocessing
+    price: 50000.0
     published: true
     volume: 0.01
   Reprocessing Efficiency:
@@ -393,6 +422,7 @@ items:
     id: 3389
     marketGroup: 1323
     name: Reprocessing Efficiency
+    price: 280000.0
     published: true
     volume: 0.01
   Salvaging:
@@ -407,6 +437,7 @@ items:
     id: 25863
     marketGroup: 1323
     name: Salvaging
+    price: 1000000.0
     published: true
     volume: 0.01
   Scordite Processing:
@@ -421,6 +452,7 @@ items:
     id: 12193
     marketGroup: 1323
     name: Scordite Processing
+    price: 50000.0
     published: true
     volume: 0.01
   Scrapmetal Processing:
@@ -435,6 +467,7 @@ items:
     id: 12196
     marketGroup: 1323
     name: Scrapmetal Processing
+    price: 300000.0
     published: true
     volume: 0.01
   Spodumain Processing:
@@ -449,6 +482,7 @@ items:
     id: 12194
     marketGroup: 1323
     name: Spodumain Processing
+    price: 300000.0
     published: true
     volume: 0.01
   Ubiquitous Moon Ore Processing:
@@ -463,6 +497,7 @@ items:
     id: 46152
     marketGroup: 1323
     name: Ubiquitous Moon Ore Processing
+    price: 1.0E7
     published: true
     volume: 0.01
   Uncommon Moon Ore Processing:
@@ -477,6 +512,7 @@ items:
     id: 46154
     marketGroup: 1323
     name: Uncommon Moon Ore Processing
+    price: 2.0E7
     published: true
     volume: 0.01
   Veldspar Processing:
@@ -491,5 +527,6 @@ items:
     id: 12195
     marketGroup: 1323
     name: Veldspar Processing
+    price: 25000.0
     published: true
     volume: 0.01

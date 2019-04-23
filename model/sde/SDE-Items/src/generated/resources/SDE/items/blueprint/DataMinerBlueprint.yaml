@@ -5,6 +5,7 @@ items:
     id: 27015
     marketGroup: 1809
     name: Civilian Data Analyzer Blueprint
+    price: 20000.0
     published: true
     volume: 0.01
   Data Analyzer I Blueprint:
@@ -13,6 +14,7 @@ items:
     id: 22176
     marketGroup: 1809
     name: Data Analyzer I Blueprint
+    price: 332640.0
     published: true
     volume: 0.01
   Data Analyzer II Blueprint:
@@ -20,6 +22,7 @@ items:
     TechLevel: 2
     id: 30835
     name: Data Analyzer II Blueprint
+    price: 332640.0
     published: true
     volume: 0.01
   Frostline 'Clavicula' Integrated Analyzer Blueprint:
@@ -33,6 +36,7 @@ items:
     TechLevel: 1
     id: 41535
     name: Ligature Integrated Analyzer Blueprint
+    price: 332640.0
     published: true
     volume: 0.01
   Mangled Sansha Data Analyzer Blueprint:
@@ -40,6 +44,7 @@ items:
     TechLevel: 1
     id: 3590
     name: Mangled Sansha Data Analyzer Blueprint
+    price: 332640.0
     published: true
     volume: 0.01
   Purloined Sansha Data Analyzer Blueprint:
@@ -47,6 +52,7 @@ items:
     TechLevel: 1
     id: 3582
     name: Purloined Sansha Data Analyzer Blueprint
+    price: 332640.0
     published: true
     volume: 0.01
   Relic Analyzer I Blueprint:
@@ -55,6 +61,7 @@ items:
     id: 22178
     marketGroup: 1809
     name: Relic Analyzer I Blueprint
+    price: 332640.0
     published: true
     volume: 0.01
   Relic Analyzer II Blueprint:
@@ -62,6 +69,7 @@ items:
     TechLevel: 2
     id: 30833
     name: Relic Analyzer II Blueprint
+    price: 332640.0
     published: true
     volume: 0.01
   Zeugma Integrated Analyzer Blueprint:
@@ -69,5 +77,6 @@ items:
     TechLevel: 1
     id: 41536
     name: Zeugma Integrated Analyzer Blueprint
+    price: 332640.0
     published: true
     volume: 0.01

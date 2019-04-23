@@ -19,6 +19,7 @@ items:
     marketGroup: 1199
     mass: 1.0
     name: Combat Scanner Probe I
+    price: 23442.0
     published: true
     volume: 1.0
   Core Scanner Probe I:
@@ -40,6 +41,7 @@ items:
     marketGroup: 1199
     mass: 1.0
     name: Core Scanner Probe I
+    price: 23442.0
     published: true
     volume: 0.1
   RSS Core Scanner Probe:
@@ -62,6 +64,7 @@ items:
     marketGroup: 1199
     mass: 1.0
     name: RSS Core Scanner Probe
+    price: 23442.0
     published: true
     volume: 0.1
   Sisters Combat Scanner Probe:
@@ -85,6 +88,7 @@ items:
     marketGroup: 1199
     mass: 1.0
     name: Sisters Combat Scanner Probe
+    price: 23442.0
     published: true
     volume: 1.0
   Sisters Core Scanner Probe:
@@ -107,5 +111,6 @@ items:
     marketGroup: 1199
     mass: 1.0
     name: Sisters Core Scanner Probe
+    price: 23442.0
     published: true
     volume: 0.1

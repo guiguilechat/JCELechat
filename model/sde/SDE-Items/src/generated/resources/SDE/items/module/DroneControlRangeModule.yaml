@@ -13,6 +13,7 @@ items:
     marketGroup: 938
     mass: 200.0
     name: Black Eagle Drone Link Augmentor
+    price: 213360.0
     published: true
     volume: 25.0
   Drone Link Augmentor I:
@@ -26,6 +27,7 @@ items:
     marketGroup: 938
     mass: 200.0
     name: Drone Link Augmentor I
+    price: 213360.0
     published: true
     volume: 25.0
   Drone Link Augmentor II:
@@ -56,6 +58,7 @@ items:
     marketGroup: 938
     mass: 200.0
     name: Unit D-34343's Modified Drone Link Augmentor
+    price: 213360.0
     published: true
     volume: 25.0
   Unit F-435454's Modified Drone Link Augmentor:
@@ -72,6 +75,7 @@ items:
     marketGroup: 938
     mass: 200.0
     name: Unit F-435454's Modified Drone Link Augmentor
+    price: 213360.0
     published: true
     volume: 25.0
   Unit P-343554's Modified Drone Link Augmentor:
@@ -88,6 +92,7 @@ items:
     marketGroup: 938
     mass: 200.0
     name: Unit P-343554's Modified Drone Link Augmentor
+    price: 213360.0
     published: true
     volume: 25.0
   Unit W-634's Modified Drone Link Augmentor:
@@ -104,5 +109,6 @@ items:
     marketGroup: 938
     mass: 200.0
     name: Unit W-634's Modified Drone Link Augmentor
+    price: 213360.0
     published: true
     volume: 25.0

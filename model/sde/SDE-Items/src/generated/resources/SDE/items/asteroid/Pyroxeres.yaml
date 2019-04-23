@@ -10,6 +10,7 @@ items:
     id: 28618
     mass: 1.0E35
     name: Augumene
+    price: 11632.0
     published: true
     volume: 0.3
   Compressed Opulent Pyroxeres:
@@ -25,6 +26,7 @@ items:
     marketGroup: 515
     mass: 1.0
     name: Compressed Opulent Pyroxeres
+    price: 6100.0
     published: true
     volume: 0.16
   Compressed Pyroxeres:
@@ -40,6 +42,7 @@ items:
     marketGroup: 515
     mass: 1.0E35
     name: Compressed Pyroxeres
+    price: 290800.0
     published: true
     volume: 0.16
   Compressed Solid Pyroxeres:
@@ -55,6 +58,7 @@ items:
     marketGroup: 515
     mass: 1.0E35
     name: Compressed Solid Pyroxeres
+    price: 311100.0
     published: true
     volume: 0.16
   Compressed Viscous Pyroxeres:
@@ -70,6 +74,7 @@ items:
     marketGroup: 515
     mass: 1.0E35
     name: Compressed Viscous Pyroxeres
+    price: 318600.0
     published: true
     volume: 0.16
   Opulent Pyroxeres:
@@ -87,6 +92,7 @@ items:
     marketGroup: 515
     mass: 1.0E35
     name: Opulent Pyroxeres
+    price: 55.0
     published: true
     volume: 0.3
   Pyroxeres:
@@ -104,6 +110,7 @@ items:
     marketGroup: 515
     mass: 1.0E35
     name: Pyroxeres
+    price: 11632.0
     published: true
     volume: 0.3
   Solid Pyroxeres:
@@ -121,6 +128,7 @@ items:
     marketGroup: 515
     mass: 1.0E35
     name: Solid Pyroxeres
+    price: 12444.0
     published: true
     volume: 0.3
   Viscous Pyroxeres:
@@ -138,5 +146,6 @@ items:
     marketGroup: 515
     mass: 1.0E35
     name: Viscous Pyroxeres
+    price: 12744.0
     published: true
     volume: 0.3

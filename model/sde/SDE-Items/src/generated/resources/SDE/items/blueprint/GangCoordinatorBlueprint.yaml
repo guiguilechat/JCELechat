@@ -5,6 +5,7 @@ items:
     id: 23736
     marketGroup: 799
     name: Clone Vat Bay I Blueprint
+    price: 5.983288E8
     published: true
     volume: 0.01
   Covert Cynosural Field Generator I Blueprint:
@@ -13,6 +14,7 @@ items:
     id: 28647
     marketGroup: 799
     name: Covert Cynosural Field Generator I Blueprint
+    price: 3.137264E7
     published: true
     volume: 0.01
   Cynosural Field Generator I Blueprint:
@@ -21,6 +23,7 @@ items:
     id: 21604
     marketGroup: 799
     name: Cynosural Field Generator I Blueprint
+    price: 3.137264E7
     published: true
     volume: 0.01
   Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint:
@@ -28,6 +31,7 @@ items:
     TechLevel: 1
     id: 22554
     name: Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint
+    price: 1732280.0
     published: true
     volume: 0.01
   Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint:
@@ -35,6 +39,7 @@ items:
     TechLevel: 2
     id: 4275
     name: Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint
+    price: 1732280.0
     published: true
     volume: 0.01
   Mining Foreman Link - Laser Optimization I Blueprint:
@@ -42,6 +47,7 @@ items:
     TechLevel: 1
     id: 22558
     name: Mining Foreman Link - Laser Optimization I Blueprint
+    price: 1732280.0
     published: true
     volume: 0.01
   Mining Foreman Link - Laser Optimization II Blueprint:
@@ -49,6 +55,7 @@ items:
     TechLevel: 2
     id: 4277
     name: Mining Foreman Link - Laser Optimization II Blueprint
+    price: 1732280.0
     published: true
     volume: 0.01
   Mining Foreman Link - Mining Laser Field Enhancement I Blueprint:
@@ -56,6 +63,7 @@ items:
     TechLevel: 1
     id: 22556
     name: Mining Foreman Link - Mining Laser Field Enhancement I Blueprint
+    price: 1732280.0
     published: true
     volume: 0.01
   Mining Foreman Link - Mining Laser Field Enhancement II Blueprint:
@@ -63,5 +71,6 @@ items:
     TechLevel: 2
     id: 4279
     name: Mining Foreman Link - Mining Laser Field Enhancement II Blueprint
+    price: 1732280.0
     published: true
     volume: 0.01

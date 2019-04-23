@@ -4,6 +4,7 @@ items:
     id: 1176
     marketGroup: 305
     name: Gamma L Blueprint
+    price: 3500000.0
     published: true
     volume: 0.01
   Gamma M Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 1168
     marketGroup: 303
     name: Gamma M Blueprint
+    price: 350000.0
     published: true
     volume: 0.01
   Gamma S Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 1160
     marketGroup: 302
     name: Gamma S Blueprint
+    price: 35000.0
     published: true
     volume: 0.01
   Gamma XL Blueprint:
@@ -25,6 +28,7 @@ items:
     id: 17681
     marketGroup: 599
     name: Gamma XL Blueprint
+    price: 3.5E7
     published: true
     volume: 0.01
   Infrared L Blueprint:
@@ -32,6 +36,7 @@ items:
     id: 1172
     marketGroup: 305
     name: Infrared L Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Infrared M Blueprint:
@@ -39,6 +44,7 @@ items:
     id: 1164
     marketGroup: 303
     name: Infrared M Blueprint
+    price: 100000.0
     published: true
     volume: 0.01
   Infrared S Blueprint:
@@ -46,6 +52,7 @@ items:
     id: 1156
     marketGroup: 302
     name: Infrared S Blueprint
+    price: 10000.0
     published: true
     volume: 0.01
   Infrared XL Blueprint:
@@ -53,6 +60,7 @@ items:
     id: 17683
     marketGroup: 599
     name: Infrared XL Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Microwave L Blueprint:
@@ -60,6 +68,7 @@ items:
     id: 1171
     marketGroup: 305
     name: Microwave L Blueprint
+    price: 2000000.0
     published: true
     volume: 0.01
   Microwave M Blueprint:
@@ -67,6 +76,7 @@ items:
     id: 1163
     marketGroup: 303
     name: Microwave M Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Microwave S Blueprint:
@@ -74,6 +84,7 @@ items:
     id: 1155
     marketGroup: 302
     name: Microwave S Blueprint
+    price: 20000.0
     published: true
     volume: 0.01
   Microwave XL Blueprint:
@@ -81,6 +92,7 @@ items:
     id: 17685
     marketGroup: 599
     name: Microwave XL Blueprint
+    price: 2.0E7
     published: true
     volume: 0.01
   Multifrequency L Blueprint:
@@ -88,6 +100,7 @@ items:
     id: 1177
     marketGroup: 305
     name: Multifrequency L Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Multifrequency M Blueprint:
@@ -95,6 +108,7 @@ items:
     id: 1169
     marketGroup: 303
     name: Multifrequency M Blueprint
+    price: 400000.0
     published: true
     volume: 0.01
   Multifrequency S Blueprint:
@@ -102,6 +116,7 @@ items:
     id: 1161
     marketGroup: 302
     name: Multifrequency S Blueprint
+    price: 40000.0
     published: true
     volume: 0.01
   Multifrequency XL Blueprint:
@@ -109,6 +124,7 @@ items:
     id: 17687
     marketGroup: 599
     name: Multifrequency XL Blueprint
+    price: 4.0E7
     published: true
     volume: 0.01
   Radio L Blueprint:
@@ -116,6 +132,7 @@ items:
     id: 1170
     marketGroup: 305
     name: Radio L Blueprint
+    price: 3000000.0
     published: true
     volume: 0.01
   Radio M Blueprint:
@@ -123,6 +140,7 @@ items:
     id: 1162
     marketGroup: 303
     name: Radio M Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Radio S Blueprint:
@@ -130,6 +148,7 @@ items:
     id: 1154
     marketGroup: 302
     name: Radio S Blueprint
+    price: 30000.0
     published: true
     volume: 0.01
   Radio XL Blueprint:
@@ -137,6 +156,7 @@ items:
     id: 17689
     marketGroup: 599
     name: Radio XL Blueprint
+    price: 3.0E7
     published: true
     volume: 0.01
   Standard L Blueprint:
@@ -144,6 +164,7 @@ items:
     id: 1173
     marketGroup: 305
     name: Standard L Blueprint
+    price: 1250000.0
     published: true
     volume: 0.01
   Standard M Blueprint:
@@ -151,6 +172,7 @@ items:
     id: 1165
     marketGroup: 303
     name: Standard M Blueprint
+    price: 125000.0
     published: true
     volume: 0.01
   Standard S Blueprint:
@@ -158,6 +180,7 @@ items:
     id: 1157
     marketGroup: 302
     name: Standard S Blueprint
+    price: 12500.0
     published: true
     volume: 0.01
   Standard XL Blueprint:
@@ -165,6 +188,7 @@ items:
     id: 17691
     marketGroup: 599
     name: Standard XL Blueprint
+    price: 1.25E7
     published: true
     volume: 0.01
   Ultraviolet L Blueprint:
@@ -172,6 +196,7 @@ items:
     id: 1174
     marketGroup: 305
     name: Ultraviolet L Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   Ultraviolet M Blueprint:
@@ -179,6 +204,7 @@ items:
     id: 1166
     marketGroup: 303
     name: Ultraviolet M Blueprint
+    price: 150000.0
     published: true
     volume: 0.01
   Ultraviolet S Blueprint:
@@ -186,6 +212,7 @@ items:
     id: 1158
     marketGroup: 302
     name: Ultraviolet S Blueprint
+    price: 15000.0
     published: true
     volume: 0.01
   Ultraviolet XL Blueprint:
@@ -193,6 +220,7 @@ items:
     id: 17693
     marketGroup: 599
     name: Ultraviolet XL Blueprint
+    price: 1.5E7
     published: true
     volume: 0.01
   Xray L Blueprint:
@@ -200,6 +228,7 @@ items:
     id: 1175
     marketGroup: 305
     name: Xray L Blueprint
+    price: 2500000.0
     published: true
     volume: 0.01
   Xray M Blueprint:
@@ -207,6 +236,7 @@ items:
     id: 1167
     marketGroup: 303
     name: Xray M Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Xray S Blueprint:
@@ -214,6 +244,7 @@ items:
     id: 1159
     marketGroup: 302
     name: Xray S Blueprint
+    price: 25000.0
     published: true
     volume: 0.01
   Xray XL Blueprint:
@@ -221,5 +252,6 @@ items:
     id: 17695
     marketGroup: 599
     name: Xray XL Blueprint
+    price: 2.5E7
     published: true
     volume: 0.01

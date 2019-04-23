@@ -11,6 +11,7 @@ items:
     PowerLoad: 2600
     id: 2848
     name: Barren Extractor Control Unit
+    price: 45000.0
     published: true
   Gas Extractor Control Unit:
     CpuLoad: 400
@@ -24,6 +25,7 @@ items:
     PowerLoad: 2600
     id: 3060
     name: Gas Extractor Control Unit
+    price: 45000.0
     published: true
   Ice Extractor Control Unit:
     CpuLoad: 400
@@ -37,6 +39,7 @@ items:
     PowerLoad: 2600
     id: 3061
     name: Ice Extractor Control Unit
+    price: 45000.0
     published: true
   Lava Extractor Control Unit:
     CpuLoad: 400
@@ -50,6 +53,7 @@ items:
     PowerLoad: 2600
     id: 3062
     name: Lava Extractor Control Unit
+    price: 45000.0
     published: true
   Oceanic Extractor Control Unit:
     CpuLoad: 400
@@ -63,6 +67,7 @@ items:
     PowerLoad: 2600
     id: 3063
     name: Oceanic Extractor Control Unit
+    price: 45000.0
     published: true
   Plasma Extractor Control Unit:
     CpuLoad: 400
@@ -76,6 +81,7 @@ items:
     PowerLoad: 2600
     id: 3064
     name: Plasma Extractor Control Unit
+    price: 45000.0
     published: true
   Storm Extractor Control Unit:
     CpuLoad: 400
@@ -89,6 +95,7 @@ items:
     PowerLoad: 2600
     id: 3067
     name: Storm Extractor Control Unit
+    price: 45000.0
     published: true
   Temperate Extractor Control Unit:
     CpuLoad: 400
@@ -102,4 +109,5 @@ items:
     PowerLoad: 2600
     id: 3068
     name: Temperate Extractor Control Unit
+    price: 45000.0
     published: true

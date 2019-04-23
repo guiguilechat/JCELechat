@@ -9,6 +9,7 @@ items:
     id: 28627
     mass: 1000.0
     name: Azure Ice
+    price: 2000.0
     published: true
     volume: 1000.0
   Blue Ice:
@@ -25,6 +26,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Blue Ice
+    price: 76000.0
     published: true
     volume: 1000.0
   Clear Icicle:
@@ -41,6 +43,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Clear Icicle
+    price: 376000.0
     published: true
     volume: 1000.0
   Compressed Blue Ice:
@@ -55,6 +58,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Blue Ice
+    price: 760000.0
     published: true
     volume: 100.0
   Compressed Clear Icicle:
@@ -69,6 +73,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Clear Icicle
+    price: 3760000.0
     published: true
     volume: 100.0
   Compressed Dark Glitter:
@@ -83,6 +88,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Dark Glitter
+    price: 1.55E7
     published: true
     volume: 100.0
   Compressed Enriched Clear Icicle:
@@ -97,6 +103,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Enriched Clear Icicle
+    price: 4660000.0
     published: true
     volume: 100.0
   Compressed Gelidus:
@@ -111,6 +118,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Gelidus
+    price: 8250000.0
     published: true
     volume: 100.0
   Compressed Glacial Mass:
@@ -125,6 +133,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Glacial Mass
+    price: 760000.0
     published: true
     volume: 100.0
   Compressed Glare Crust:
@@ -139,6 +148,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Glare Crust
+    price: 1.525E7
     published: true
     volume: 100.0
   Compressed Krystallos:
@@ -153,6 +163,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Krystallos
+    price: 4500000.0
     published: true
     volume: 100.0
   Compressed Pristine White Glaze:
@@ -167,6 +178,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Pristine White Glaze
+    price: 1160000.0
     published: true
     volume: 100.0
   Compressed Smooth Glacial Mass:
@@ -181,6 +193,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Smooth Glacial Mass
+    price: 1160000.0
     published: true
     volume: 100.0
   Compressed Thick Blue Ice:
@@ -195,6 +208,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed Thick Blue Ice
+    price: 1160000.0
     published: true
     volume: 100.0
   Compressed White Glaze:
@@ -209,6 +223,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Compressed White Glaze
+    price: 760000.0
     published: true
     volume: 100.0
   Crystalline Icicle:
@@ -237,6 +252,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Dark Glitter
+    price: 1550000.0
     published: true
     volume: 1000.0
   Enriched Clear Icicle:
@@ -253,6 +269,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Enriched Clear Icicle
+    price: 466000.0
     published: true
     volume: 1000.0
   Gelidus:
@@ -269,6 +286,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Gelidus
+    price: 825000.0
     published: true
     volume: 1000.0
   Glacial Mass:
@@ -285,6 +303,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Glacial Mass
+    price: 76000.0
     published: true
     volume: 1000.0
   Glare Crust:
@@ -301,6 +320,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Glare Crust
+    price: 1525000.0
     published: true
     volume: 1000.0
   Krystallos:
@@ -317,6 +337,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Krystallos
+    price: 450000.0
     published: true
     volume: 1000.0
   Pristine White Glaze:
@@ -333,6 +354,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Pristine White Glaze
+    price: 116000.0
     published: true
     volume: 1000.0
   Smooth Glacial Mass:
@@ -349,6 +371,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Smooth Glacial Mass
+    price: 116000.0
     published: true
     volume: 1000.0
   Thick Blue Ice:
@@ -365,6 +388,7 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: Thick Blue Ice
+    price: 116000.0
     published: true
     volume: 1000.0
   White Glaze:
@@ -381,5 +405,6 @@ items:
     marketGroup: 1855
     mass: 1000.0
     name: White Glaze
+    price: 76000.0
     published: true
     volume: 1000.0

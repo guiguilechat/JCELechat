@@ -26,6 +26,7 @@ items:
     id: 11619
     marketGroup: 1584
     name: Co-Processor I Blueprint
+    price: 149960.0
     published: true
     volume: 0.01
   Co-Processor II Blueprint:
@@ -33,6 +34,7 @@ items:
     TechLevel: 2
     id: 11747
     name: Co-Processor II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Federation Navy Co-Processor Blueprint:

@@ -33,6 +33,7 @@ items:
     id: 11302
     marketGroup: 1540
     name: Armor EM Hardener I Blueprint
+    price: 2000000.0
     published: true
     volume: 0.01
   Armor EM Hardener II Blueprint:
@@ -40,6 +41,7 @@ items:
     TechLevel: 2
     id: 11643
     name: Armor EM Hardener II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Armor Explosive Hardener I Blueprint:
@@ -48,6 +50,7 @@ items:
     id: 11304
     marketGroup: 1540
     name: Armor Explosive Hardener I Blueprint
+    price: 3500000.0
     published: true
     volume: 0.01
   Armor Explosive Hardener II Blueprint:
@@ -55,6 +58,7 @@ items:
     TechLevel: 2
     id: 11647
     name: Armor Explosive Hardener II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Armor Kinetic Hardener I Blueprint:
@@ -63,6 +67,7 @@ items:
     id: 11306
     marketGroup: 1540
     name: Armor Kinetic Hardener I Blueprint
+    price: 3000000.0
     published: true
     volume: 0.01
   Armor Kinetic Hardener II Blueprint:
@@ -70,6 +75,7 @@ items:
     TechLevel: 2
     id: 11645
     name: Armor Kinetic Hardener II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Armor Thermal Hardener I Blueprint:
@@ -78,6 +84,7 @@ items:
     id: 11278
     marketGroup: 1540
     name: Armor Thermal Hardener I Blueprint
+    price: 2500000.0
     published: true
     volume: 0.01
   Armor Thermal Hardener II Blueprint:
@@ -85,6 +92,7 @@ items:
     TechLevel: 2
     id: 11649
     name: Armor Thermal Hardener II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Federation Navy Armor EM Hardener Blueprint:

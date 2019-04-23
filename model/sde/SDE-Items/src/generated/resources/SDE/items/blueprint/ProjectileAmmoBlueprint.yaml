@@ -4,6 +4,7 @@ items:
     id: 895
     marketGroup: 309
     name: Carbonized Lead L Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Carbonized Lead M Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 887
     marketGroup: 312
     name: Carbonized Lead M Blueprint
+    price: 80000.0
     published: true
     volume: 0.01
   Carbonized Lead S Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 879
     marketGroup: 313
     name: Carbonized Lead S Blueprint
+    price: 20000.0
     published: true
     volume: 0.01
   Carbonized Lead XL Blueprint:
@@ -25,6 +28,7 @@ items:
     id: 17665
     marketGroup: 597
     name: Carbonized Lead XL Blueprint
+    price: 2000000.0
     published: true
     volume: 0.01
   Depleted Uranium L Blueprint:
@@ -32,6 +36,7 @@ items:
     id: 898
     marketGroup: 309
     name: Depleted Uranium L Blueprint
+    price: 500000.0
     published: true
     volume: 0.01
   Depleted Uranium M Blueprint:
@@ -39,6 +44,7 @@ items:
     id: 890
     marketGroup: 312
     name: Depleted Uranium M Blueprint
+    price: 205000.0
     published: true
     volume: 0.01
   Depleted Uranium S Blueprint:
@@ -46,6 +52,7 @@ items:
     id: 882
     marketGroup: 313
     name: Depleted Uranium S Blueprint
+    price: 50000.0
     published: true
     volume: 0.01
   Depleted Uranium XL Blueprint:
@@ -53,6 +60,7 @@ items:
     id: 17667
     marketGroup: 597
     name: Depleted Uranium XL Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   EMP L Blueprint:
@@ -60,6 +68,7 @@ items:
     id: 902
     marketGroup: 309
     name: EMP L Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   EMP M Blueprint:
@@ -67,6 +76,7 @@ items:
     id: 894
     marketGroup: 312
     name: EMP M Blueprint
+    price: 400000.0
     published: true
     volume: 0.01
   EMP S Blueprint:
@@ -74,6 +84,7 @@ items:
     id: 886
     marketGroup: 313
     name: EMP S Blueprint
+    price: 100000.0
     published: true
     volume: 0.01
   EMP XL Blueprint:
@@ -81,6 +92,7 @@ items:
     id: 17669
     marketGroup: 597
     name: EMP XL Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Fusion L Blueprint:
@@ -88,6 +100,7 @@ items:
     id: 900
     marketGroup: 309
     name: Fusion L Blueprint
+    price: 700000.0
     published: true
     volume: 0.01
   Fusion M Blueprint:
@@ -95,6 +108,7 @@ items:
     id: 892
     marketGroup: 312
     name: Fusion M Blueprint
+    price: 275000.0
     published: true
     volume: 0.01
   Fusion S Blueprint:
@@ -102,6 +116,7 @@ items:
     id: 884
     marketGroup: 313
     name: Fusion S Blueprint
+    price: 70000.0
     published: true
     volume: 0.01
   Fusion XL Blueprint:
@@ -109,6 +124,7 @@ items:
     id: 17671
     marketGroup: 597
     name: Fusion XL Blueprint
+    price: 7000000.0
     published: true
     volume: 0.01
   Nuclear L Blueprint:
@@ -116,6 +132,7 @@ items:
     id: 896
     marketGroup: 309
     name: Nuclear L Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Nuclear M Blueprint:
@@ -123,6 +140,7 @@ items:
     id: 888
     marketGroup: 312
     name: Nuclear M Blueprint
+    price: 120000.0
     published: true
     volume: 0.01
   Nuclear S Blueprint:
@@ -130,6 +148,7 @@ items:
     id: 880
     marketGroup: 313
     name: Nuclear S Blueprint
+    price: 30000.0
     published: true
     volume: 0.01
   Nuclear XL Blueprint:
@@ -137,6 +156,7 @@ items:
     id: 17673
     marketGroup: 597
     name: Nuclear XL Blueprint
+    price: 3000000.0
     published: true
     volume: 0.01
   Phased Plasma L Blueprint:
@@ -144,6 +164,7 @@ items:
     id: 901
     marketGroup: 309
     name: Phased Plasma L Blueprint
+    price: 800000.0
     published: true
     volume: 0.01
   Phased Plasma M Blueprint:
@@ -151,6 +172,7 @@ items:
     id: 893
     marketGroup: 312
     name: Phased Plasma M Blueprint
+    price: 325000.0
     published: true
     volume: 0.01
   Phased Plasma S Blueprint:
@@ -158,6 +180,7 @@ items:
     id: 885
     marketGroup: 313
     name: Phased Plasma S Blueprint
+    price: 80000.0
     published: true
     volume: 0.01
   Phased Plasma XL Blueprint:
@@ -165,6 +188,7 @@ items:
     id: 17675
     marketGroup: 597
     name: Phased Plasma XL Blueprint
+    price: 8000000.0
     published: true
     volume: 0.01
   Proton L Blueprint:
@@ -172,6 +196,7 @@ items:
     id: 897
     marketGroup: 309
     name: Proton L Blueprint
+    price: 400000.0
     published: true
     volume: 0.01
   Proton M Blueprint:
@@ -179,6 +204,7 @@ items:
     id: 889
     marketGroup: 312
     name: Proton M Blueprint
+    price: 165000.0
     published: true
     volume: 0.01
   Proton S Blueprint:
@@ -186,6 +212,7 @@ items:
     id: 881
     marketGroup: 313
     name: Proton S Blueprint
+    price: 40000.0
     published: true
     volume: 0.01
   Proton XL Blueprint:
@@ -193,6 +220,7 @@ items:
     id: 17677
     marketGroup: 597
     name: Proton XL Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Titanium Sabot L Blueprint:
@@ -200,6 +228,7 @@ items:
     id: 899
     marketGroup: 309
     name: Titanium Sabot L Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Titanium Sabot M Blueprint:
@@ -207,6 +236,7 @@ items:
     id: 891
     marketGroup: 312
     name: Titanium Sabot M Blueprint
+    price: 235000.0
     published: true
     volume: 0.01
   Titanium Sabot S Blueprint:
@@ -214,6 +244,7 @@ items:
     id: 883
     marketGroup: 313
     name: Titanium Sabot S Blueprint
+    price: 60000.0
     published: true
     volume: 0.01
   Titanium Sabot XL Blueprint:
@@ -221,5 +252,6 @@ items:
     id: 17679
     marketGroup: 597
     name: Titanium Sabot XL Blueprint
+    price: 6000000.0
     published: true
     volume: 0.01

@@ -36,6 +36,7 @@ items:
     id: 33087
     mass: 1.0
     name: Advanced Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Hardshell' TB3 Dose I:
@@ -49,6 +50,7 @@ items:
     marketGroup: 2503
     mass: 1.0
     name: Agency 'Hardshell' TB3 Dose I
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Hardshell' TB5 Dose II:
@@ -62,6 +64,7 @@ items:
     marketGroup: 2503
     mass: 1.0
     name: Agency 'Hardshell' TB5 Dose II
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Hardshell' TB7 Dose III:
@@ -75,6 +78,7 @@ items:
     marketGroup: 2503
     mass: 1.0
     name: Agency 'Hardshell' TB7 Dose III
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Hardshell' TB9 Dose IV:
@@ -88,6 +92,7 @@ items:
     marketGroup: 2503
     mass: 1.0
     name: Agency 'Hardshell' TB9 Dose IV
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Overclocker' SB3 Dose I:
@@ -100,6 +105,7 @@ items:
     marketGroup: 2504
     mass: 1.0
     name: Agency 'Overclocker' SB3 Dose I
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Overclocker' SB5 Dose II:
@@ -112,6 +118,7 @@ items:
     marketGroup: 2504
     mass: 1.0
     name: Agency 'Overclocker' SB5 Dose II
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Overclocker' SB7 Dose III:
@@ -124,6 +131,7 @@ items:
     marketGroup: 2504
     mass: 1.0
     name: Agency 'Overclocker' SB7 Dose III
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Overclocker' SB9 Dose IV:
@@ -136,6 +144,7 @@ items:
     marketGroup: 2504
     mass: 1.0
     name: Agency 'Overclocker' SB9 Dose IV
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Pyrolancea' DB3 Dose I:
@@ -148,6 +157,7 @@ items:
     marketGroup: 2505
     mass: 1.0
     name: Agency 'Pyrolancea' DB3 Dose I
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Pyrolancea' DB5 Dose II:
@@ -160,6 +170,7 @@ items:
     marketGroup: 2505
     mass: 1.0
     name: Agency 'Pyrolancea' DB5 Dose II
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Pyrolancea' DB7 Dose III:
@@ -172,6 +183,7 @@ items:
     marketGroup: 2505
     mass: 1.0
     name: Agency 'Pyrolancea' DB7 Dose III
+    price: 32768.0
     published: true
     volume: 1.0
   Agency 'Pyrolancea' DB9 Dose IV:
@@ -184,6 +196,7 @@ items:
     marketGroup: 2505
     mass: 1.0
     name: Agency 'Pyrolancea' DB9 Dose IV
+    price: 32768.0
     published: true
     volume: 1.0
   Antipharmakon Aeolis:
@@ -198,6 +211,7 @@ items:
     marketGroup: 2495
     mass: 1.0
     name: Antipharmakon Aeolis
+    price: 8192.0
     published: true
     volume: 1.0
   Antipharmakon Iokira:
@@ -212,6 +226,7 @@ items:
     marketGroup: 2499
     mass: 1.0
     name: Antipharmakon Iokira
+    price: 8192.0
     published: true
     volume: 1.0
   Antipharmakon Kosybo:
@@ -226,6 +241,7 @@ items:
     marketGroup: 2495
     mass: 1.0
     name: Antipharmakon Kosybo
+    price: 8192.0
     published: true
     volume: 1.0
   Antipharmakon Thureo:
@@ -240,6 +256,7 @@ items:
     marketGroup: 2495
     mass: 1.0
     name: Antipharmakon Thureo
+    price: 8192.0
     published: true
     volume: 1.0
   Antipharmakon Toxot:
@@ -254,6 +271,7 @@ items:
     marketGroup: 2501
     mass: 1.0
     name: Antipharmakon Toxot
+    price: 8192.0
     published: true
     volume: 1.0
   Basic 'Ardour' Cerebral Accelerator:
@@ -306,6 +324,7 @@ items:
     id: 47396
     mass: 1.0
     name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Expired CDIA SPACE Cerebral Accelerator:
@@ -326,6 +345,7 @@ items:
     id: 47481
     mass: 1.0
     name: Expired CDIA SPACE Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Expired Extended 'Guri Hivaa' Cerebral Accelerator:
@@ -346,6 +366,7 @@ items:
     id: 47397
     mass: 1.0
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Expired Guardian Angels 'Advanced' Cerebral Accelerator:
@@ -366,6 +387,7 @@ items:
     id: 47266
     mass: 1.0
     name: Expired Guardian Angels 'Advanced' Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Expired Guardian Angels 'Standard' Cerebral Accelerator:
@@ -386,6 +408,7 @@ items:
     id: 47265
     mass: 1.0
     name: Expired Guardian Angels 'Standard' Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
@@ -406,6 +429,7 @@ items:
     id: 47267
     mass: 1.0
     name: Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Expired Standard 'Guri Hivaa' Cerebral Accelerator:
@@ -426,6 +450,7 @@ items:
     id: 47395
     mass: 1.0
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Extended 'Ardour' Cerebral Accelerator:
@@ -460,6 +485,7 @@ items:
     marketGroup: 2530
     mass: 1.0
     name: Impetus Potency-50 Glamourex Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Impetus Potency-75 Glamourex Booster:
@@ -474,6 +500,7 @@ items:
     marketGroup: 2530
     mass: 1.0
     name: Impetus Potency-75 Glamourex Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Improved Blue Pill Booster:
@@ -497,6 +524,7 @@ items:
     marketGroup: 2491
     mass: 1.0
     name: Improved Blue Pill Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Improved Crash Booster:
@@ -520,6 +548,7 @@ items:
     marketGroup: 2500
     mass: 1.0
     name: Improved Crash Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Improved Drop Booster:
@@ -543,6 +572,7 @@ items:
     marketGroup: 2496
     mass: 1.0
     name: Improved Drop Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Improved Exile Booster:
@@ -566,6 +596,7 @@ items:
     marketGroup: 2492
     mass: 1.0
     name: Improved Exile Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Improved Frentix Booster:
@@ -589,6 +620,7 @@ items:
     marketGroup: 2497
     mass: 1.0
     name: Improved Frentix Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Improved Mindflood Booster:
@@ -612,6 +644,7 @@ items:
     marketGroup: 2493
     mass: 1.0
     name: Improved Mindflood Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Improved Sooth Sayer Booster:
@@ -635,6 +668,7 @@ items:
     marketGroup: 2498
     mass: 1.0
     name: Improved Sooth Sayer Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Improved X-Instinct Booster:
@@ -658,6 +692,7 @@ items:
     marketGroup: 2494
     mass: 1.0
     name: Improved X-Instinct Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Master-at-Arms Cerebral Accelerator:
@@ -691,6 +726,7 @@ items:
     marketGroup: 2491
     mass: 1.0
     name: Nugoehuvi Synth Blue Pill Booster
+    price: 8192.0
     published: true
     volume: 1.0
   Onslaught Accelerator:
@@ -729,6 +765,7 @@ items:
     id: 33111
     mass: 1.0
     name: Prototype Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Quafe Zero:
@@ -742,6 +779,7 @@ items:
     marketGroup: 2506
     mass: 1.0
     name: Quafe Zero
+    price: 8192.0
     published: true
     volume: 1.0
   Standard 'Ardour' Cerebral Accelerator:
@@ -785,6 +823,7 @@ items:
     marketGroup: 2491
     mass: 1.0
     name: Standard Blue Pill Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Standard Cerebral Accelerator:
@@ -806,6 +845,7 @@ items:
     id: 2838
     mass: 1.0
     name: Standard Cerebral Accelerator
+    price: 32768.0
     published: true
     volume: 1.0
   Standard Crash Booster:
@@ -829,6 +869,7 @@ items:
     marketGroup: 2500
     mass: 1.0
     name: Standard Crash Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Standard Drop Booster:
@@ -852,6 +893,7 @@ items:
     marketGroup: 2496
     mass: 1.0
     name: Standard Drop Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Standard Exile Booster:
@@ -875,6 +917,7 @@ items:
     marketGroup: 2492
     mass: 1.0
     name: Standard Exile Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Standard Frentix Booster:
@@ -898,6 +941,7 @@ items:
     marketGroup: 2497
     mass: 1.0
     name: Standard Frentix Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Standard Mindflood Booster:
@@ -921,6 +965,7 @@ items:
     marketGroup: 2493
     mass: 1.0
     name: Standard Mindflood Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Standard Sooth Sayer Booster:
@@ -944,6 +989,7 @@ items:
     marketGroup: 2498
     mass: 1.0
     name: Standard Sooth Sayer Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Standard X-Instinct Booster:
@@ -967,6 +1013,7 @@ items:
     marketGroup: 2494
     mass: 1.0
     name: Standard X-Instinct Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Strong Blue Pill Booster:
@@ -990,6 +1037,7 @@ items:
     marketGroup: 2491
     mass: 1.0
     name: Strong Blue Pill Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Strong Crash Booster:
@@ -1013,6 +1061,7 @@ items:
     marketGroup: 2500
     mass: 1.0
     name: Strong Crash Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Strong Drop Booster:
@@ -1036,6 +1085,7 @@ items:
     marketGroup: 2496
     mass: 1.0
     name: Strong Drop Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Strong Exile Booster:
@@ -1059,6 +1109,7 @@ items:
     marketGroup: 2492
     mass: 1.0
     name: Strong Exile Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Strong Frentix Booster:
@@ -1082,6 +1133,7 @@ items:
     marketGroup: 2497
     mass: 1.0
     name: Strong Frentix Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Strong Mindflood Booster:
@@ -1105,6 +1157,7 @@ items:
     marketGroup: 2493
     mass: 1.0
     name: Strong Mindflood Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Strong Sooth Sayer Booster:
@@ -1128,6 +1181,7 @@ items:
     marketGroup: 2498
     mass: 1.0
     name: Strong Sooth Sayer Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Strong X-Instinct Booster:
@@ -1151,6 +1205,7 @@ items:
     marketGroup: 2494
     mass: 1.0
     name: Strong X-Instinct Booster
+    price: 32768.0
     published: true
     volume: 1.0
   Synth Blue Pill Booster:
@@ -1165,6 +1220,7 @@ items:
     marketGroup: 2491
     mass: 1.0
     name: Synth Blue Pill Booster
+    price: 8192.0
     published: true
     volume: 1.0
   Synth Crash Booster:
@@ -1179,6 +1235,7 @@ items:
     marketGroup: 2500
     mass: 1.0
     name: Synth Crash Booster
+    price: 8192.0
     published: true
     volume: 1.0
   Synth Drop Booster:
@@ -1193,6 +1250,7 @@ items:
     marketGroup: 2496
     mass: 1.0
     name: Synth Drop Booster
+    price: 8192.0
     published: true
     volume: 1.0
   Synth Exile Booster:
@@ -1207,6 +1265,7 @@ items:
     marketGroup: 2492
     mass: 1.0
     name: Synth Exile Booster
+    price: 8192.0
     published: true
     volume: 1.0
   Synth Frentix Booster:
@@ -1221,6 +1280,7 @@ items:
     marketGroup: 2497
     mass: 1.0
     name: Synth Frentix Booster
+    price: 8192.0
     published: true
     volume: 1.0
   Synth Mindflood Booster:
@@ -1235,6 +1295,7 @@ items:
     marketGroup: 2493
     mass: 1.0
     name: Synth Mindflood Booster
+    price: 8192.0
     published: true
     volume: 1.0
   Synth Sooth Sayer Booster:
@@ -1249,6 +1310,7 @@ items:
     marketGroup: 2498
     mass: 1.0
     name: Synth Sooth Sayer Booster
+    price: 8192.0
     published: true
     volume: 1.0
   Synth X-Instinct Booster:
@@ -1263,5 +1325,6 @@ items:
     marketGroup: 2494
     mass: 1.0
     name: Synth X-Instinct Booster
+    price: 8192.0
     published: true
     volume: 1.0

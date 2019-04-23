@@ -26,5 +26,6 @@ items:
     id: 44102
     marketGroup: 2351
     name: Defender Launcher I
+    price: 200000.0
     published: true
     volume: 5.0

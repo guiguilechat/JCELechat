@@ -101,6 +101,9 @@ public class ItemsTranslater {
 				Field massField = item.getClass().getField("mass");
 				massField.setAccessible(true);
 				massField.set(item, type.mass);
+				Field priceField = item.getClass().getField("price");
+				priceField.setAccessible(true);
+				priceField.set(item, type.basePrice);
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}

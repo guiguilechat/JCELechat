@@ -121,6 +121,7 @@ items:
     id: 22248
     mass: 100.0
     name: Ancient Nefantar Sculpture
+    price: 2000.0
     published: true
     volume: 5.0
   Ancient Treasure Map:
@@ -253,6 +254,7 @@ items:
     id: 29226
     mass: 2500.0
     name: Basic Robotics
+    price: 6500.0
     published: true
     volume: 2.0
   Binary Transpositional Code:
@@ -271,6 +273,7 @@ items:
     id: 21742
     mass: 1.0
     name: Black Mask
+    price: 3328.0
     published: true
     volume: 0.1
   Blood Fund:
@@ -403,6 +406,7 @@ items:
     id: 29472
     mass: 0.5
     name: Ceremonial Brush
+    price: 150.0
     published: true
     volume: 0.1
   Chanounian Wine:
@@ -433,6 +437,7 @@ items:
     id: 27038
     mass: 50.0
     name: Clay Pigeon
+    price: 2000.0
     published: true
     volume: 1.0
   Cognitive Hive Mind:
@@ -466,6 +471,7 @@ items:
     marketGroup: 614
     mass: 1.0
     name: Compressed Capsule Shell
+    price: 150000.0
     published: true
     volume: 0.1
   Construction Tools:
@@ -473,6 +479,7 @@ items:
     id: 21632
     mass: 10.0
     name: Construction Tools
+    price: 58624.0
     published: true
     volume: 10.0
   Corpse of Enlil Bel:
@@ -503,6 +510,7 @@ items:
     id: 21054
     mass: 100.0
     name: Crude Sculpture
+    price: 320000.0
     published: true
     volume: 5.0
   Custom-built Guidance System:
@@ -551,6 +559,7 @@ items:
     id: 29206
     mass: 1.0
     name: Device
+    price: 58624.0
     published: true
     volume: 1.0
   Divine Opium:
@@ -804,6 +813,7 @@ items:
     id: 29479
     mass: 100.0
     name: Firecrackers
+    price: 750.0
     published: true
     volume: 1.0
   Firewater:
@@ -924,6 +934,7 @@ items:
     id: 21669
     mass: 1.0
     name: Guristas Communications Logs
+    price: 3328.0
     published: true
     volume: 0.1
   Guristas Data Sequence:
@@ -937,18 +948,21 @@ items:
     id: 21520
     mass: 1.0
     name: Guristas Outlaw Dogtag
+    price: 3328.0
     published: true
     volume: 0.1
   Guristas Outlaw Leader Insignia:
     id: 21565
     mass: 1.0
     name: Guristas Outlaw Leader Insignia
+    price: 3328.0
     published: true
     volume: 0.1
   Guristas Patrol Routes:
     id: 21671
     mass: 1.0
     name: Guristas Patrol Routes
+    price: 3328.0
     published: true
     volume: 0.1
   Hacker's Keycard:
@@ -985,6 +999,7 @@ items:
     id: 24581
     mass: 100.0
     name: Holy Statue
+    price: 2000.0
     published: true
     volume: 5.0
   Homemade Sansha Beacon:
@@ -1009,6 +1024,7 @@ items:
     id: 22096
     mass: 100.0
     name: Hraldar's Sculpture
+    price: 2000.0
     published: true
     volume: 5.0
   Hybrid Weapon Assembly Instructions:
@@ -1171,6 +1187,7 @@ items:
     id: 29485
     mass: 50.0
     name: Kuashi
+    price: 150.0
     published: true
     volume: 0.5
   Kusan Niemenen's Missile Launcher:
@@ -1195,6 +1212,7 @@ items:
     id: 22249
     mass: 1.0
     name: Lagaster Malotoff's Tag
+    price: 3328.0
     published: true
     volume: 0.1
   Latent Submission Tapes:
@@ -1207,6 +1225,7 @@ items:
     id: 30906
     mass: 0.5
     name: Letter of Recommendation
+    price: 150.0
     published: true
     volume: 0.1
   Liberation Elixir:
@@ -1243,6 +1262,7 @@ items:
     id: 23874
     mass: 1.0
     name: Lord Methros' Encrypted Data Burst
+    price: 12800.0
     published: true
     volume: 50.0
   Machul's Head:
@@ -1279,6 +1299,7 @@ items:
     id: 29473
     mass: 5.0
     name: Medicinal Herbs
+    price: 325.0
     published: true
     volume: 0.2
   Metal Scraps:
@@ -1286,6 +1307,7 @@ items:
     marketGroup: 20
     mass: 10000.0
     name: Metal Scraps
+    price: 20.0
     published: true
     volume: 0.01
   Methros Enhanced Decoding Device:
@@ -1382,6 +1404,7 @@ items:
     id: 30966
     mass: 1.0
     name: NOH Signal Operators
+    price: 58624.0
     published: true
     volume: 1.0
   Namian's Artifacts:
@@ -1436,6 +1459,7 @@ items:
     id: 21616
     mass: 1.0
     name: Nugoeihuvi Dogtag
+    price: 3328.0
     published: true
     volume: 0.1
   Nugoeihuvi Rifles:
@@ -1695,6 +1719,7 @@ items:
     marketGroup: 20
     mass: 10000.0
     name: Reinforced Metal Scraps
+    price: 20.0
     published: true
     volume: 0.01
   Rekker's Keycard:
@@ -1972,6 +1997,7 @@ items:
     id: 23680
     mass: 1.0
     name: Smuggler Tag
+    price: 3328.0
     published: true
     volume: 0.1
   Speedometer:
@@ -2062,24 +2088,28 @@ items:
     id: 29185
     mass: 1.0
     name: Tactical Information I
+    price: 150.0
     published: true
     volume: 10.0
   Tactical Information II:
     id: 29186
     mass: 1.0
     name: Tactical Information II
+    price: 150.0
     published: true
     volume: 20.0
   Tactical Information III:
     id: 29187
     mass: 1.0
     name: Tactical Information III
+    price: 150.0
     published: true
     volume: 40.0
   Tactical Information IV:
     id: 29188
     mass: 1.0
     name: Tactical Information IV
+    price: 150.0
     published: true
     volume: 80.0
   Tactical Response Transmitter:
@@ -2140,6 +2170,7 @@ items:
     id: 22054
     mass: 10.0
     name: Thukker Loot
+    price: 58624.0
     published: true
     volume: 10.0
   Thyram Arachnan's Dossier:
@@ -2290,11 +2321,13 @@ items:
     id: 29484
     mass: 400.0
     name: Zydrine Burn
+    price: 1500.0
     published: true
     volume: 1.0
   Zydrine Wine:
     id: 29483
     mass: 500.0
     name: Zydrine Wine
+    price: 1500.0
     published: true
     volume: 1.0

@@ -17,6 +17,7 @@ items:
     marketGroup: 860
     mass: 0.01
     name: Null L
+    price: 1000000.0
     published: true
     volume: 0.025
   Null M:
@@ -37,6 +38,7 @@ items:
     marketGroup: 861
     mass: 0.01
     name: Null M
+    price: 400000.0
     published: true
     volume: 0.0125
   Null S:
@@ -57,6 +59,7 @@ items:
     marketGroup: 862
     mass: 0.01
     name: Null S
+    price: 100000.0
     published: true
     volume: 0.0025
   Null XL:
@@ -77,6 +80,7 @@ items:
     marketGroup: 2254
     mass: 0.5
     name: Null XL
+    price: 60000.0
     published: true
     volume: 0.125
   Void L:
@@ -98,6 +102,7 @@ items:
     marketGroup: 860
     mass: 0.01
     name: Void L
+    price: 1000000.0
     published: true
     volume: 0.025
   Void M:
@@ -119,6 +124,7 @@ items:
     marketGroup: 861
     mass: 0.01
     name: Void M
+    price: 400000.0
     published: true
     volume: 0.0125
   Void S:
@@ -140,6 +146,7 @@ items:
     marketGroup: 862
     mass: 0.01
     name: Void S
+    price: 100000.0
     published: true
     volume: 0.0025
   Void XL:
@@ -161,5 +168,6 @@ items:
     marketGroup: 2254
     mass: 0.5
     name: Void XL
+    price: 100000.0
     published: true
     volume: 0.125

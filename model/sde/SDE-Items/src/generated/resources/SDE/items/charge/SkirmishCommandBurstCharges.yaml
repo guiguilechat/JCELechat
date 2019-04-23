@@ -13,6 +13,7 @@ items:
     marketGroup: 2302
     mass: 0.01
     name: Evasive Maneuvers Charge
+    price: 1000.0
     published: true
     volume: 0.01
   Interdiction Maneuvers Charge:
@@ -27,6 +28,7 @@ items:
     marketGroup: 2302
     mass: 0.01
     name: Interdiction Maneuvers Charge
+    price: 1000.0
     published: true
     volume: 0.01
   Rapid Deployment Charge:
@@ -41,5 +43,6 @@ items:
     marketGroup: 2302
     mass: 0.01
     name: Rapid Deployment Charge
+    price: 1000.0
     published: true
     volume: 0.01

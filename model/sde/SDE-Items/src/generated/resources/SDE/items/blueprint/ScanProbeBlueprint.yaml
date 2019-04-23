@@ -4,6 +4,7 @@ items:
     id: 30029
     marketGroup: 320
     name: Combat Scanner Probe I Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Core Scanner Probe I Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 30014
     marketGroup: 320
     name: Core Scanner Probe I Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Warp Disrupt Probe Blueprint:
@@ -19,5 +21,6 @@ items:
     id: 22779
     marketGroup: 1529
     name: Warp Disrupt Probe Blueprint
+    price: 2344200.0
     published: true
     volume: 0.01

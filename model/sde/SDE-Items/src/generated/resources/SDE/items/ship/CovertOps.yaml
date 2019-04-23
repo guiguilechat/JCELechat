@@ -605,6 +605,7 @@ items:
     marketGroup: 1838
     mass: 950000.0
     name: Hydra
+    price: 1500000.0
     published: true
     volume: 28600.0
   Pacifier:
@@ -706,5 +707,6 @@ items:
     marketGroup: 1838
     mass: 1400000.0
     name: Pacifier
+    price: 3.0E7
     published: true
     volume: 20000.0

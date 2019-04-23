@@ -6,6 +6,7 @@ items:
     marketGroup: 1653
     mass: 1000000.0
     name: Enormous Freight Container
+    price: 110000.0
     published: true
     volume: 250000.0
   Giant Freight Container:
@@ -15,6 +16,7 @@ items:
     marketGroup: 1653
     mass: 1000000.0
     name: Giant Freight Container
+    price: 110000.0
     published: true
     volume: 120000.0
   Huge Freight Container:
@@ -24,6 +26,7 @@ items:
     marketGroup: 1653
     mass: 1000000.0
     name: Huge Freight Container
+    price: 110000.0
     published: true
     volume: 50000.0
   Large Freight Container:
@@ -33,6 +36,7 @@ items:
     marketGroup: 1653
     mass: 1000000.0
     name: Large Freight Container
+    price: 110000.0
     published: true
     volume: 10000.0
   Medium Freight Container:
@@ -42,6 +46,7 @@ items:
     marketGroup: 1653
     mass: 1000000.0
     name: Medium Freight Container
+    price: 110000.0
     published: true
     volume: 5000.0
   Small Freight Container:
@@ -51,5 +56,6 @@ items:
     marketGroup: 1653
     mass: 1000000.0
     name: Small Freight Container
+    price: 110000.0
     published: true
     volume: 1000.0

@@ -49,6 +49,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Dread Guristas Ion Field Projection Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Dread Guristas Phase Inversion Battery:
@@ -101,6 +102,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Dread Guristas Phase Inversion Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Dread Guristas Spatial Destabilization Battery:
@@ -153,6 +155,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Dread Guristas Spatial Destabilization Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Dread Guristas White Noise Generation Battery:
@@ -205,6 +208,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Dread Guristas White Noise Generation Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Guristas Ion Field Projection Battery:
@@ -257,6 +261,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Guristas Ion Field Projection Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Guristas Phase Inversion Battery:
@@ -309,6 +314,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Guristas Phase Inversion Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Guristas Spatial Destabilization Battery:
@@ -361,6 +367,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Guristas Spatial Destabilization Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Guristas White Noise Generation Battery:
@@ -413,6 +420,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Guristas White Noise Generation Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Ion Field Projection Battery:
@@ -464,6 +472,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Ion Field Projection Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Phase Inversion Battery:
@@ -515,6 +524,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Phase Inversion Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Spatial Destabilization Battery:
@@ -566,6 +576,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Spatial Destabilization Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   White Noise Generation Battery:
@@ -617,5 +628,6 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: White Noise Generation Battery
+    price: 2500000.0
     published: true
     volume: 4000.0

@@ -145,6 +145,7 @@ items:
     id: 3994
     marketGroup: 341
     name: Large EMP Smartbomb I Blueprint
+    price: 3600000.0
     published: true
     volume: 0.01
   Large EMP Smartbomb II Blueprint:
@@ -152,6 +153,7 @@ items:
     TechLevel: 2
     id: 3996
     name: Large EMP Smartbomb II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Large Graviton Smartbomb I Blueprint:
@@ -160,6 +162,7 @@ items:
     id: 3982
     marketGroup: 341
     name: Large Graviton Smartbomb I Blueprint
+    price: 3200000.0
     published: true
     volume: 0.01
   Large Graviton Smartbomb II Blueprint:
@@ -167,6 +170,7 @@ items:
     TechLevel: 2
     id: 3984
     name: Large Graviton Smartbomb II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Large Plasma Smartbomb I Blueprint:
@@ -175,6 +179,7 @@ items:
     id: 3988
     marketGroup: 341
     name: Large Plasma Smartbomb I Blueprint
+    price: 3400000.0
     published: true
     volume: 0.01
   Large Plasma Smartbomb II Blueprint:
@@ -182,6 +187,7 @@ items:
     TechLevel: 2
     id: 3990
     name: Large Plasma Smartbomb II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Large Proton Smartbomb I Blueprint:
@@ -190,6 +196,7 @@ items:
     id: 3978
     marketGroup: 341
     name: Large Proton Smartbomb I Blueprint
+    price: 3000000.0
     published: true
     volume: 0.01
   Large Proton Smartbomb II Blueprint:
@@ -197,6 +204,7 @@ items:
     TechLevel: 2
     id: 3980
     name: Large Proton Smartbomb II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Medium Degenerative Concussion Bomb I Blueprint:
@@ -212,6 +220,7 @@ items:
     id: 3954
     marketGroup: 341
     name: Medium EMP Smartbomb I Blueprint
+    price: 1800000.0
     published: true
     volume: 0.01
   Medium EMP Smartbomb II Blueprint:
@@ -219,6 +228,7 @@ items:
     TechLevel: 2
     id: 3956
     name: Medium EMP Smartbomb II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Medium Graviton Smartbomb I Blueprint:
@@ -227,6 +237,7 @@ items:
     id: 3942
     marketGroup: 341
     name: Medium Graviton Smartbomb I Blueprint
+    price: 1600000.0
     published: true
     volume: 0.01
   Medium Graviton Smartbomb II Blueprint:
@@ -234,6 +245,7 @@ items:
     TechLevel: 2
     id: 3944
     name: Medium Graviton Smartbomb II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Medium Plasma Smartbomb I Blueprint:
@@ -242,6 +254,7 @@ items:
     id: 3948
     marketGroup: 341
     name: Medium Plasma Smartbomb I Blueprint
+    price: 1700000.0
     published: true
     volume: 0.01
   Medium Plasma Smartbomb II Blueprint:
@@ -249,6 +262,7 @@ items:
     TechLevel: 2
     id: 3950
     name: Medium Plasma Smartbomb II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Medium Proton Smartbomb I Blueprint:
@@ -257,6 +271,7 @@ items:
     id: 3938
     marketGroup: 341
     name: Medium Proton Smartbomb I Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   Medium Proton Smartbomb II Blueprint:
@@ -264,6 +279,7 @@ items:
     TechLevel: 2
     id: 3940
     name: Medium Proton Smartbomb II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Republic Fleet Large Proton Smartbomb Blueprint:
@@ -300,6 +316,7 @@ items:
     id: 1564
     marketGroup: 341
     name: Small EMP Smartbomb I Blueprint
+    price: 650000.0
     published: true
     volume: 0.01
   Small EMP Smartbomb II Blueprint:
@@ -307,6 +324,7 @@ items:
     TechLevel: 2
     id: 1566
     name: Small EMP Smartbomb II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Small Graviton Smartbomb I Blueprint:
@@ -315,6 +333,7 @@ items:
     id: 1552
     marketGroup: 341
     name: Small Graviton Smartbomb I Blueprint
+    price: 550000.0
     published: true
     volume: 0.01
   Small Graviton Smartbomb II Blueprint:
@@ -322,6 +341,7 @@ items:
     TechLevel: 2
     id: 1554
     name: Small Graviton Smartbomb II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Small Plasma Smartbomb I Blueprint:
@@ -330,6 +350,7 @@ items:
     id: 1558
     marketGroup: 341
     name: Small Plasma Smartbomb I Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Small Plasma Smartbomb II Blueprint:
@@ -337,6 +358,7 @@ items:
     TechLevel: 2
     id: 1560
     name: Small Plasma Smartbomb II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Small Proton Smartbomb I Blueprint:
@@ -345,6 +367,7 @@ items:
     id: 1548
     marketGroup: 341
     name: Small Proton Smartbomb I Blueprint
+    price: 500000.0
     published: true
     volume: 0.01
   Small Proton Smartbomb II Blueprint:
@@ -352,5 +375,6 @@ items:
     TechLevel: 2
     id: 1550
     name: Small Proton Smartbomb II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

@@ -24,6 +24,7 @@ items:
     id: 20575
     marketGroup: 716
     name: '''Gambler'' Ladar ECM'
+    price: 20000.0
     published: true
     volume: 5.0
   '''Heist'' Radar ECM':
@@ -51,6 +52,7 @@ items:
     id: 20579
     marketGroup: 718
     name: '''Heist'' Radar ECM'
+    price: 20000.0
     published: true
     volume: 5.0
   '''Marshall'' Magnetometric ECM':
@@ -78,6 +80,7 @@ items:
     id: 20573
     marketGroup: 715
     name: '''Marshall'' Magnetometric ECM'
+    price: 20000.0
     published: true
     volume: 5.0
   '''Plunderer'' Gravimetric ECM':
@@ -105,6 +108,7 @@ items:
     id: 20577
     marketGroup: 717
     name: '''Plunderer'' Gravimetric ECM'
+    price: 20000.0
     published: true
     volume: 5.0
   Aergia Compact Magnetometric ECM:
@@ -131,6 +135,7 @@ items:
     id: 19925
     marketGroup: 715
     name: Aergia Compact Magnetometric ECM
+    price: 20000.0
     published: true
     volume: 5.0
   BZ-5 Scoped Gravimetric ECM:
@@ -157,6 +162,7 @@ items:
     id: 19946
     marketGroup: 717
     name: BZ-5 Scoped Gravimetric ECM
+    price: 20000.0
     published: true
     volume: 5.0
   CZ-4 Compact Gravimetric ECM:
@@ -183,6 +189,7 @@ items:
     id: 19944
     marketGroup: 717
     name: CZ-4 Compact Gravimetric ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Compulsive Scoped Multispectral ECM:
@@ -209,6 +216,7 @@ items:
     id: 19931
     marketGroup: 719
     name: Compulsive Scoped Multispectral ECM
+    price: 29696.0
     published: true
     volume: 5.0
   Dread Guristas Multispectral ECM:
@@ -236,6 +244,7 @@ items:
     id: 20199
     marketGroup: 719
     name: Dread Guristas Multispectral ECM
+    price: 29696.0
     published: true
     volume: 5.0
   Enfeebling Scoped Ladar ECM:
@@ -262,6 +271,7 @@ items:
     id: 19939
     marketGroup: 716
     name: Enfeebling Scoped Ladar ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Estamel's Modified Multispectral ECM:
@@ -288,6 +298,7 @@ items:
     id: 20207
     marketGroup: 719
     name: Estamel's Modified Multispectral ECM
+    price: 29696.0
     published: true
     volume: 5.0
   FZ-3a Enduring Gravimetric ECM:
@@ -314,6 +325,7 @@ items:
     id: 19942
     marketGroup: 717
     name: FZ-3a Enduring Gravimetric ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Gloom Enduring Radar ECM:
@@ -340,6 +352,7 @@ items:
     id: 19948
     marketGroup: 718
     name: Gloom Enduring Radar ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Gravimetric ECM I:
@@ -364,6 +377,7 @@ items:
     id: 1955
     marketGroup: 717
     name: Gravimetric ECM I
+    price: 20000.0
     published: true
     volume: 5.0
   Gravimetric ECM II:
@@ -389,6 +403,7 @@ items:
     id: 2571
     marketGroup: 717
     name: Gravimetric ECM II
+    price: 184600.0
     published: true
     volume: 5.0
   Halting Compact Ladar ECM:
@@ -415,6 +430,7 @@ items:
     id: 19937
     marketGroup: 716
     name: Halting Compact Ladar ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Hypnos Scoped Magnetometric ECM:
@@ -441,6 +457,7 @@ items:
     id: 19927
     marketGroup: 715
     name: Hypnos Scoped Magnetometric ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Induced Compact Multispectral ECM:
@@ -467,6 +484,7 @@ items:
     id: 19929
     marketGroup: 719
     name: Induced Compact Multispectral ECM
+    price: 29696.0
     published: true
     volume: 5.0
   Initiated Enduring Multispectral ECM:
@@ -493,6 +511,7 @@ items:
     id: 9521
     marketGroup: 719
     name: Initiated Enduring Multispectral ECM
+    price: 14848.0
     published: true
     volume: 5.0
   Kaikka's Modified Multispectral ECM:
@@ -519,6 +538,7 @@ items:
     id: 20201
     marketGroup: 719
     name: Kaikka's Modified Multispectral ECM
+    price: 29696.0
     published: true
     volume: 5.0
   Ladar ECM I:
@@ -543,6 +563,7 @@ items:
     id: 1958
     marketGroup: 716
     name: Ladar ECM I
+    price: 20000.0
     published: true
     volume: 5.0
   Ladar ECM II:
@@ -568,6 +589,7 @@ items:
     id: 2559
     marketGroup: 716
     name: Ladar ECM II
+    price: 193826.0
     published: true
     volume: 5.0
   Languid Enduring Ladar ECM:
@@ -594,6 +616,7 @@ items:
     id: 19935
     marketGroup: 716
     name: Languid Enduring Ladar ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Legion Gravimetric ECM:
@@ -620,6 +643,7 @@ items:
     id: 28735
     marketGroup: 717
     name: Legion Gravimetric ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Legion Ladar ECM:
@@ -646,6 +670,7 @@ items:
     id: 28733
     marketGroup: 716
     name: Legion Ladar ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Legion Magnetometric ECM:
@@ -672,6 +697,7 @@ items:
     id: 28729
     marketGroup: 715
     name: Legion Magnetometric ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Legion Multispectral ECM:
@@ -698,6 +724,7 @@ items:
     id: 28731
     marketGroup: 719
     name: Legion Multispectral ECM
+    price: 29696.0
     published: true
     volume: 5.0
   Legion Radar ECM:
@@ -724,6 +751,7 @@ items:
     id: 28737
     marketGroup: 718
     name: Legion Radar ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Magnetometric ECM I:
@@ -748,6 +776,7 @@ items:
     id: 1948
     marketGroup: 715
     name: Magnetometric ECM I
+    price: 20000.0
     published: true
     volume: 5.0
   Magnetometric ECM II:
@@ -773,6 +802,7 @@ items:
     id: 2563
     marketGroup: 715
     name: Magnetometric ECM II
+    price: 194778.0
     published: true
     volume: 5.0
   Morpheus Enduring Magnetometric ECM:
@@ -799,6 +829,7 @@ items:
     id: 19923
     marketGroup: 715
     name: Morpheus Enduring Magnetometric ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Multispectral ECM I:
@@ -823,6 +854,7 @@ items:
     id: 1957
     marketGroup: 719
     name: Multispectral ECM I
+    price: 29696.0
     published: true
     volume: 5.0
   Multispectral ECM II:
@@ -849,6 +881,7 @@ items:
     id: 2567
     marketGroup: 719
     name: Multispectral ECM II
+    price: 232064.0
     published: true
     volume: 5.0
   Radar ECM I:
@@ -873,6 +906,7 @@ items:
     id: 1956
     marketGroup: 718
     name: Radar ECM I
+    price: 20000.0
     published: true
     volume: 5.0
   Radar ECM II:
@@ -898,6 +932,7 @@ items:
     id: 2575
     marketGroup: 718
     name: Radar ECM II
+    price: 192450.0
     published: true
     volume: 5.0
   Shade Compact Radar ECM:
@@ -924,6 +959,7 @@ items:
     id: 19950
     marketGroup: 718
     name: Shade Compact Radar ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Thon's Modified Multispectral ECM:
@@ -950,6 +986,7 @@ items:
     id: 20203
     marketGroup: 719
     name: Thon's Modified Multispectral ECM
+    price: 29696.0
     published: true
     volume: 5.0
   Umbra Scoped Radar ECM:
@@ -976,6 +1013,7 @@ items:
     id: 19952
     marketGroup: 718
     name: Umbra Scoped Radar ECM
+    price: 20000.0
     published: true
     volume: 5.0
   Vepas' Modified Multispectral ECM:
@@ -1002,5 +1040,6 @@ items:
     id: 20205
     marketGroup: 719
     name: Vepas' Modified Multispectral ECM
+    price: 29696.0
     published: true
     volume: 5.0

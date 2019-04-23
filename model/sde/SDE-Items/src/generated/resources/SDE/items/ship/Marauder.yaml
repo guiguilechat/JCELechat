@@ -85,6 +85,7 @@ items:
     marketGroup: 1082
     mass: 9.4335E7
     name: Golem
+    price: 2.84750534E8
     published: true
     volume: 486000.0
   Kronos:
@@ -173,6 +174,7 @@ items:
     marketGroup: 1083
     mass: 9.348E7
     name: Kronos
+    price: 2.80626304E8
     published: true
     volume: 486000.0
   Paladin:
@@ -260,6 +262,7 @@ items:
     marketGroup: 1081
     mass: 9.2245E7
     name: Paladin
+    price: 2.88874934E8
     published: true
     volume: 495000.0
   Vargur:
@@ -347,5 +350,6 @@ items:
     marketGroup: 1084
     mass: 9.652E7
     name: Vargur
+    price: 2.79247122E8
     published: true
     volume: 450000.0

@@ -81,6 +81,7 @@ items:
     marketGroup: 1074
     mass: 1.5E7
     name: Broadsword
+    price: 1.5858382E7
     published: true
     volume: 96000.0
   Devoter:
@@ -166,6 +167,7 @@ items:
     marketGroup: 1071
     mass: 1.62E7
     name: Devoter
+    price: 1.5918776E7
     published: true
     volume: 118000.0
   Fiend:
@@ -334,6 +336,7 @@ items:
     marketGroup: 1072
     mass: 1.54E7
     name: Onyx
+    price: 1.4494924E7
     published: true
     volume: 92000.0
   Phobos:
@@ -416,5 +419,6 @@ items:
     marketGroup: 1073
     mass: 1.4E7
     name: Phobos
+    price: 1.5894674E7
     published: true
     volume: 112000.0

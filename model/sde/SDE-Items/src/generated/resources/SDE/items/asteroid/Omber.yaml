@@ -12,6 +12,7 @@ items:
     marketGroup: 526
     mass: 1.0E35
     name: Compressed Golden Omber
+    price: 675300.0
     published: true
     volume: 0.3
   Compressed Omber:
@@ -27,6 +28,7 @@ items:
     marketGroup: 526
     mass: 1.0E35
     name: Compressed Omber
+    price: 613410.0
     published: true
     volume: 0.3
   Compressed Platinoid Omber:
@@ -42,6 +44,7 @@ items:
     marketGroup: 526
     mass: 1.0
     name: Compressed Platinoid Omber
+    price: 11000.0
     published: true
     volume: 0.3
   Compressed Silvery Omber:
@@ -57,6 +60,7 @@ items:
     marketGroup: 526
     mass: 1.0E35
     name: Compressed Silvery Omber
+    price: 643380.0
     published: true
     volume: 0.3
   Golden Omber:
@@ -74,6 +78,7 @@ items:
     marketGroup: 526
     mass: 1.0E35
     name: Golden Omber
+    price: 45020.0
     published: true
     volume: 0.6
   Mercium:
@@ -87,6 +92,7 @@ items:
     id: 28619
     mass: 1.0E35
     name: Mercium
+    price: 40894.0
     published: true
     volume: 0.6
   Omber:
@@ -104,6 +110,7 @@ items:
     marketGroup: 526
     mass: 1.0E35
     name: Omber
+    price: 40894.0
     published: true
     volume: 0.6
   Platinoid Omber:
@@ -121,6 +128,7 @@ items:
     marketGroup: 526
     mass: 1.0E35
     name: Platinoid Omber
+    price: 100.0
     published: true
     volume: 0.6
   Silvery Omber:
@@ -138,5 +146,6 @@ items:
     marketGroup: 526
     mass: 1.0E35
     name: Silvery Omber
+    price: 42892.0
     published: true
     volume: 0.6

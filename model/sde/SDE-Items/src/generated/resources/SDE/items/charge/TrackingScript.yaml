@@ -15,6 +15,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Optimal Range Script
+    price: 4000.0
     published: true
     volume: 1.0
   Tracking Speed Script:
@@ -33,5 +34,6 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Tracking Speed Script
+    price: 4000.0
     published: true
     volume: 1.0

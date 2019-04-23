@@ -2,43 +2,52 @@ items:
   Active Armor Enhancement:
     id: 353378
     name: Active Armor Enhancement
+    price: 99000.0
     published: false
     volume: 0.01
   Active Scanner Operation:
     id: 364920
     name: Active Scanner Operation
+    price: 149000.0
     published: false
   Active Shield Enhancement:
     id: 353369
     name: Active Shield Enhancement
+    price: 99000.0
     published: false
     volume: 0.01
   Amarr Assault Dropsuits:
     id: 364609
     name: Amarr Assault Dropsuits
+    price: 787000.0
     published: false
   Amarr Commando Dropsuits:
     id: 364602
     name: Amarr Commando Dropsuits
+    price: 787000.0
     published: false
     volume: 0.01
   Amarr Heavy Dropsuits:
     id: 353685
     name: Amarr Heavy Dropsuits
+    price: 229000.0
     published: false
     volume: 0.01
   Amarr Light Dropsuits:
     id: 364570
     name: Amarr Light Dropsuits
+    price: 229000.0
     published: false
     volume: 0.01
   Amarr Logistics Dropsuits:
     id: 364610
     name: Amarr Logistics Dropsuits
+    price: 787000.0
     published: false
   Amarr Medium Dropsuits:
     id: 364571
     name: Amarr Medium Dropsuits
+    price: 229000.0
     published: false
   Amarr Pilot Dropsuits:
     id: 364595
@@ -47,129 +56,157 @@ items:
   Amarr Scout Dropsuits:
     id: 364594
     name: Amarr Scout Dropsuits
+    price: 787000.0
     published: false
   Amarr Sentinel Dropsuits:
     id: 364601
     name: Amarr Sentinel Dropsuits
+    price: 787000.0
     published: false
   Armor Fitting Optimization:
     id: 365832
     name: Armor Fitting Optimization
+    price: 567000.0
     published: false
     volume: 0.01
   Armor Plating:
     id: 353379
     name: Armor Plating
+    price: 149000.0
     published: false
     volume: 0.01
   Armor Repair Systems:
     id: 353376
     name: Armor Repair Systems
+    price: 149000.0
     published: false
     volume: 0.01
   Assault Dropships:
     id: 366228
     name: Assault Dropships
+    price: 567000.0
     published: false
     volume: 0.01
   Assault Rifle Ammo Capacity:
     id: 364656
     name: Assault Rifle Ammo Capacity
+    price: 203000.0
     published: false
   Assault Rifle Fitting Optimization:
     id: 364661
     name: Assault Rifle Fitting Optimization
+    price: 774000.0
     published: false
   Assault Rifle Operation:
     id: 353461
     name: Assault Rifle Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Assault Rifle Proficiency:
     id: 353462
     name: Assault Rifle Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Assault Rifle Rapid Reload:
     id: 364658
     name: Assault Rifle Rapid Reload
+    price: 203000.0
     published: false
   Assault Rifle Sharpshooter:
     id: 364659
     name: Assault Rifle Sharpshooter
+    price: 203000.0
     published: false
   Bolt Pistol Ammo Capacity:
     id: 366589
     name: Bolt Pistol Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Bolt Pistol Fitting Optimization:
     id: 366587
     name: Bolt Pistol Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Bolt Pistol Operation:
     id: 366592
     name: Bolt Pistol Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Bolt Pistol Proficiency:
     id: 366590
     name: Bolt Pistol Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Bolt Pistol Rapid Reload:
     id: 366591
     name: Bolt Pistol Rapid Reload
+    price: 203000.0
     published: false
     volume: 0.01
   Caldari Assault Dropship:
     id: 364943
     name: Caldari Assault Dropship
+    price: 1772000.0
     published: false
   Caldari Assault Dropsuits:
     id: 364611
     name: Caldari Assault Dropsuits
+    price: 787000.0
     published: false
   Caldari Commando Dropsuits:
     id: 364603
     name: Caldari Commando Dropsuits
+    price: 787000.0
     published: false
   Caldari Enforcer HAV:
     id: 364921
     name: Caldari Enforcer HAV
+    price: 3279000.0
     published: false
   Caldari Heavy Dropsuits:
     id: 364575
     name: Caldari Heavy Dropsuits
+    price: 229000.0
     published: false
   Caldari Light Dropsuits:
     id: 364573
     name: Caldari Light Dropsuits
+    price: 229000.0
     published: false
     volume: 0.01
   Caldari Logistics Dropship:
     id: 364751
     name: Caldari Logistics Dropship
+    price: 1772000.0
     published: false
     volume: 0.01
   Caldari Logistics Dropsuits:
     id: 364612
     name: Caldari Logistics Dropsuits
+    price: 787000.0
     published: false
   Caldari Logistics LAV:
     id: 364748
     name: Caldari Logistics LAV
+    price: 638000.0
     published: false
     volume: 0.01
   Caldari Marauder:
     id: 353399
     name: Caldari Marauder
+    price: 4919000.0
     published: false
     volume: 0.01
   Caldari Medium Dropsuits:
     id: 353686
     name: Caldari Medium Dropsuits
+    price: 229000.0
     published: false
     volume: 0.01
   Caldari Pilot Dropsuits:
@@ -179,125 +216,151 @@ items:
   Caldari Scout Dropsuits:
     id: 364597
     name: Caldari Scout Dropsuits
+    price: 787000.0
     published: false
   Caldari Scout LAV:
     id: 364933
     name: Caldari Scout LAV
+    price: 638000.0
     published: false
   Caldari Sentinel Dropsuits:
     id: 364604
     name: Caldari Sentinel Dropsuits
+    price: 787000.0
     published: false
   Cardiac Regulation:
     id: 353427
     name: Cardiac Regulation
+    price: 149000.0
     published: false
     volume: 0.01
   Chassis Modification:
     id: 364775
     name: Chassis Modification
+    price: 149000.0
     published: false
   Cloak Field  Operation:
     id: 366760
     name: Cloak Field  Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Combat Rifle Ammo Capacity:
     id: 365396
     name: Combat Rifle Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Combat Rifle Fitting Optimization:
     id: 365399
     name: Combat Rifle Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Combat Rifle Operation:
     id: 365393
     name: Combat Rifle Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Combat Rifle Proficiency:
     id: 365397
     name: Combat Rifle Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Combat Rifle Rapid Reload:
     id: 365400
     name: Combat Rifle Rapid Reload
+    price: 203000.0
     published: false
     volume: 0.01
   Combat Rifle Sharpshooter:
     id: 365395
     name: Combat Rifle Sharpshooter
+    price: 203000.0
     published: false
     volume: 0.01
   Core Grid Management:
     id: 353405
     name: Core Grid Management
+    price: 567000.0
     published: false
     volume: 0.01
   Corporations:
     id: 352887
     name: Corporations
+    price: 20000.0
     published: false
     volume: 0.01
   Damage Amplifier Fitting Optimization:
     id: 365893
     name: Damage Amplifier Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Demolitions:
     id: 353482
     name: Demolitions
+    price: 72000.0
     published: false
     volume: 0.01
   Drop Uplink Deployment:
     id: 353363
     name: Drop Uplink Deployment
+    price: 149000.0
     published: false
     volume: 0.01
   Dropship Operation:
     id: 353388
     name: Dropship Operation
+    price: 229000.0
     published: false
     volume: 0.01
   Dropsuit Armor Upgrades:
     id: 353375
     name: Dropsuit Armor Upgrades
+    price: 66000.0
     published: false
     volume: 0.01
   Dropsuit Biotic Upgrades:
     id: 364521
     name: Dropsuit Biotic Upgrades
+    price: 66000.0
     published: false
   Dropsuit Command:
     id: 353408
     name: Dropsuit Command
+    price: 48000.0
     published: false
     volume: 0.01
   Dropsuit Core Upgrades:
     id: 364520
     name: Dropsuit Core Upgrades
+    price: 66000.0
     published: false
   Dropsuit Electronics:
     id: 353352
     name: Dropsuit Electronics
+    price: 567000.0
     published: false
     volume: 0.01
   Dropsuit Engineering:
     id: 353366
     name: Dropsuit Engineering
+    price: 567000.0
     published: false
     volume: 0.01
   Dropsuit Shield Upgrades:
     id: 353370
     name: Dropsuit Shield Upgrades
+    price: 66000.0
     published: false
     volume: 0.01
   Dropsuit Upgrades:
     id: 364519
     name: Dropsuit Upgrades
+    price: 48000.0
     published: false
   Duplicate skill?:
     id: 364579
@@ -306,124 +369,152 @@ items:
   Engine Core Calibration:
     id: 364773
     name: Engine Core Calibration
+    price: 567000.0
     published: false
     volume: 0.01
   Explosives:
     id: 364531
     name: Explosives
+    price: 66000.0
     published: false
   Flaylock Pistol Ammo Capacity:
     id: 364690
     name: Flaylock Pistol Ammo Capacity
+    price: 203000.0
     published: false
   Flaylock Pistol Fitting Optimization:
     id: 364691
     name: Flaylock Pistol Fitting Optimization
+    price: 774000.0
     published: false
   Flaylock Pistol Operation:
     id: 363788
     name: Flaylock Pistol Operation
+    price: 149000.0
     published: false
   Flaylock Pistol Proficiency:
     id: 363789
     name: Flaylock Pistol Proficiency
+    price: 567000.0
     published: false
   Flaylock Pistol Rapid Reload:
     id: 364692
     name: Flaylock Pistol Rapid Reload
+    price: 203000.0
     published: false
   Flaylock Pistol Sharpshooter:
     id: 364693
     name: Flaylock Pistol Sharpshooter
+    price: 149000.0
     published: false
   Forge Gun Ammo Capacity:
     id: 364702
     name: Forge Gun Ammo Capacity
+    price: 203000.0
     published: false
   Forge Gun Fitting Optimization:
     id: 364703
     name: Forge Gun Fitting Optimization
+    price: 774000.0
     published: false
   Forge Gun Operation:
     id: 353463
     name: Forge Gun Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Forge Gun Proficiency:
     id: 353464
     name: Forge Gun Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Forge Gun Rapid Reload:
     id: 364704
     name: Forge Gun Rapid Reload
+    price: 203000.0
     published: false
   Forge Gun Sharpshooter:
     id: 364705
     name: Forge Gun Sharpshooter
+    price: 203000.0
     published: false
   Gallente Assault Dropship:
     id: 364945
     name: Gallente Assault Dropship
+    price: 1772000.0
     published: false
   Gallente Assault Dropsuits:
     id: 364613
     name: Gallente Assault Dropsuits
+    price: 787000.0
     published: false
   Gallente Commando Dropsuits:
     id: 364606
     name: Gallente Commando Dropsuits
+    price: 787000.0
     published: false
     volume: 0.01
   Gallente Dropship:
     id: 353390
     name: Gallente Dropship
+    price: 957000.0
     published: false
     volume: 0.01
   Gallente Enforcer HAV:
     id: 364922
     name: Gallente Enforcer HAV
+    price: 3279000.0
     published: false
   Gallente HAV:
     id: 353389
     name: Gallente HAV
+    price: 957000.0
     published: false
     volume: 0.01
   Gallente Heavy Dropsuits:
     id: 364581
     name: Gallente Heavy Dropsuits
+    price: 229000.0
     published: false
   Gallente LAV:
     id: 353391
     name: Gallente LAV
+    price: 123000.0
     published: false
     volume: 0.01
   Gallente Light Dropsuits:
     id: 353687
     name: Gallente Light Dropsuits
+    price: 229000.0
     published: false
     volume: 0.01
   Gallente Logistics Dropship:
     id: 364750
     name: Gallente Logistics Dropship
+    price: 1772000.0
     published: false
     volume: 0.01
   Gallente Logistics Dropsuit:
     id: 364614
     name: Gallente Logistics Dropsuit
+    price: 787000.0
     published: false
   Gallente Logistics LAV:
     id: 364749
     name: Gallente Logistics LAV
+    price: 638000.0
     published: false
     volume: 0.01
   Gallente Marauder:
     id: 364747
     name: Gallente Marauder
+    price: 4919000.0
     published: false
   Gallente Medium Dropsuits:
     id: 364580
     name: Gallente Medium Dropsuits
+    price: 229000.0
     published: false
   Gallente Pilot Dropsuits:
     id: 364598
@@ -432,389 +523,471 @@ items:
   Gallente Scout Dropsuits:
     id: 364617
     name: Gallente Scout Dropsuits
+    price: 787000.0
     published: false
   Gallente Scout LAV:
     id: 364935
     name: Gallente Scout LAV
+    price: 638000.0
     published: false
   Gallente Sentinel Dropsuits:
     id: 364605
     name: Gallente Sentinel Dropsuits
+    price: 787000.0
     published: false
   Grenadier:
     id: 353484
     name: Grenadier
+    price: 378000.0
     published: false
     volume: 0.01
   HAV Operation:
     id: 353387
     name: HAV Operation
+    price: 229000.0
     published: false
     volume: 0.01
   Hand-to-Hand Combat:
     id: 353479
     name: Hand-to-Hand Combat
+    price: 149000.0
     published: false
     volume: 0.01
   Handheld Weapon Upgrades:
     id: 364618
     name: Handheld Weapon Upgrades
+    price: 99000.0
     published: false
   Heavy Machine Gun Ammo Capacity:
     id: 364706
     name: Heavy Machine Gun Ammo Capacity
+    price: 203000.0
     published: false
   Heavy Machine Gun Fitting Optimization:
     id: 364709
     name: Heavy Machine Gun Fitting Optimization
+    price: 774000.0
     published: false
   Heavy Machine Gun Operation:
     id: 353467
     name: Heavy Machine Gun Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Heavy Machine Gun Proficiency:
     id: 353468
     name: Heavy Machine Gun Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Heavy Machine Gun Rapid Reload:
     id: 364707
     name: Heavy Machine Gun Rapid Reload
+    price: 203000.0
     published: false
   Heavy Machine Gun Sharpshooter:
     id: 364708
     name: Heavy Machine Gun Sharpshooter
+    price: 203000.0
     published: false
   Heavy Weapon Capacity:
     id: 353459
     name: Heavy Weapon Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Heavy Weapon Capacity Proficiency:
     id: 353460
     name: Heavy Weapon Capacity Proficiency
+    price: 1161000.0
     published: false
     volume: 0.01
   Heavy Weapon Operation:
     id: 364532
     name: Heavy Weapon Operation
+    price: 66000.0
     published: false
   Heavy Weapon Rapid Reload:
     id: 353447
     name: Heavy Weapon Rapid Reload
+    price: 203000.0
     published: false
     volume: 0.01
   Heavy Weapon Rapid Reload Proficiency:
     id: 353448
     name: Heavy Weapon Rapid Reload Proficiency
+    price: 1161000.0
     published: false
     volume: 0.01
   Heavy Weapon Sharpshooter:
     id: 353453
     name: Heavy Weapon Sharpshooter
+    price: 203000.0
     published: false
     volume: 0.01
   Heavy Weapon Sharpshooting Proficiency:
     id: 353454
     name: Heavy Weapon Sharpshooting Proficiency
+    price: 1161000.0
     published: false
     volume: 0.01
   Heavy Weapon Upgrade:
     id: 353441
     name: Heavy Weapon Upgrade
+    price: 378000.0
     published: false
     volume: 0.01
   Heavy Weapon Upgrade Proficiency:
     id: 353485
     name: Heavy Weapon Upgrade Proficiency
+    price: 1560000.0
     published: false
     volume: 0.01
   Infantry Skill Endurance:
     id: 353428
     name: Infantry Skill Endurance
+    price: 203000.0
     published: false
     volume: 0.01
   Ion Pistol Ammo Capacity:
     id: 366597
     name: Ion Pistol Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Ion Pistol Fitting Optimization:
     id: 366595
     name: Ion Pistol Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Ion Pistol Operation:
     id: 366600
     name: Ion Pistol Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Ion Pistol Proficiency:
     id: 366598
     name: Ion Pistol Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Ion Pistol Rapid Reload:
     id: 366599
     name: Ion Pistol Rapid Reload
+    price: 203000.0
     published: false
     volume: 0.01
   Ion Pistol Sharpshooter:
     id: 366596
     name: Ion Pistol Sharpshooter
+    price: 203000.0
     published: false
     volume: 0.01
   Kinetic Catalyzation:
     id: 353426
     name: Kinetic Catalyzation
+    price: 149000.0
     published: false
     volume: 0.01
   LAV Operation:
     id: 353386
     name: LAV Operation
+    price: 229000.0
     published: false
     volume: 0.01
   Large Blaster Ammo Capacity:
     id: 365873
     name: Large Blaster Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Large Blaster Fitting Optimization:
     id: 365870
     name: Large Blaster Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Large Blaster Operation:
     id: 353317
     name: Large Blaster Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Large Blaster Proficiency:
     id: 353318
     name: Large Blaster Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Large Blaster Reload Systems:
     id: 365872
     name: Large Blaster Reload Systems
+    price: 203000.0
     published: false
     volume: 0.01
   Large Missile Launcher Ammo Capacity:
     id: 365876
     name: Large Missile Launcher Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Large Missile Launcher Fitting Optimization:
     id: 365875
     name: Large Missile Launcher Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Large Missile Launcher Operation:
     id: 353322
     name: Large Missile Launcher Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Large Missile Launcher Proficiency:
     id: 353323
     name: Large Missile Launcher Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Large Missile Launcher Reload Systems:
     id: 365877
     name: Large Missile Launcher Reload Systems
+    price: 203000.0
     published: false
     volume: 0.01
   Large Railgun Ammo Capacity:
     id: 365864
     name: Large Railgun Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Large Railgun Fitting Optimization:
     id: 365866
     name: Large Railgun Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Large Railgun Operation:
     id: 365844
     name: Large Railgun Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Large Railgun Proficiency:
     id: 365868
     name: Large Railgun Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Large Railgun Reload Systems:
     id: 365865
     name: Large Railgun Reload Systems
+    price: 203000.0
     published: false
     volume: 0.01
   Large Turret Operation:
     id: 365878
     name: Large Turret Operation
+    price: 72000.0
     published: false
     volume: 0.01
   Laser Rifle Ammo Capacity:
     id: 364663
     name: Laser Rifle Ammo Capacity
+    price: 203000.0
     published: false
   Laser Rifle Fitting Optimization:
     id: 364662
     name: Laser Rifle Fitting Optimization
+    price: 774000.0
     published: false
   Laser Rifle Operation:
     id: 353465
     name: Laser Rifle Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Laser Rifle Proficiency:
     id: 353466
     name: Laser Rifle Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Laser Rifle Rapid Reload:
     id: 364665
     name: Laser Rifle Rapid Reload
+    price: 203000.0
     published: false
   Laser Rifle Sharpshooter:
     id: 364664
     name: Laser Rifle Sharpshooter
+    price: 203000.0
     published: false
   Light Weapon Capacity:
     id: 353457
     name: Light Weapon Capacity
+    price: 149000.0
     published: false
     volume: 0.01
   Light Weapon Capacity Proficiency:
     id: 353458
     name: Light Weapon Capacity Proficiency
+    price: 851000.0
     published: false
     volume: 0.01
   Light Weapon Operation:
     id: 364533
     name: Light Weapon Operation
+    price: 66000.0
     published: false
   Light Weapon Rapid Reload:
     id: 353445
     name: Light Weapon Rapid Reload
+    price: 149000.0
     published: false
     volume: 0.01
   Light Weapon Rapid Reload Proficiency:
     id: 353446
     name: Light Weapon Rapid Reload Proficiency
+    price: 851000.0
     published: false
     volume: 0.01
   Light Weapon Sharpshooter:
     id: 353451
     name: Light Weapon Sharpshooter
+    price: 149000.0
     published: false
     volume: 0.01
   Light Weapon Sharpshooter Proficiency:
     id: 353452
     name: Light Weapon Sharpshooter Proficiency
+    price: 851000.0
     published: false
     volume: 0.01
   Light Weapon Upgrade:
     id: 353438
     name: Light Weapon Upgrade
+    price: 270000.0
     published: false
     volume: 0.01
   Light Weapon Upgrade Proficiency:
     id: 353440
     name: Light Weapon Upgrade Proficiency
+    price: 1115000.0
     published: false
     volume: 0.01
   Long Range Scanning:
     id: 353365
     name: Long Range Scanning
+    price: 99000.0
     published: false
     volume: 0.01
   Magsec SMG Ammo Capacity:
     id: 365405
     name: Magsec SMG Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Magsec SMG Fitting Optimization:
     id: 365407
     name: Magsec SMG Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Magsec SMG Operation:
     id: 365401
     name: Magsec SMG Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Magsec SMG Proficiency:
     id: 365406
     name: Magsec SMG Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Magsec SMG Rapid Reload:
     id: 365408
     name: Magsec SMG Rapid Reload
+    price: 203000.0
     published: false
     volume: 0.01
   Magsec SMG Sharpshooter:
     id: 365404
     name: Magsec SMG Sharpshooter
+    price: 203000.0
     published: false
     volume: 0.01
   Mass Driver Ammo Capacity:
     id: 364666
     name: Mass Driver Ammo Capacity
+    price: 203000.0
     published: false
   Mass Driver Fitting Optimization:
     id: 364668
     name: Mass Driver Fitting Optimization
+    price: 774000.0
     published: false
   Mass Driver Operation:
     id: 353469
     name: Mass Driver Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Mass Driver Proficiency:
     id: 353470
     name: Mass Driver Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Mass Driver Rapid Reload:
     id: 364667
     name: Mass Driver Rapid Reload
+    price: 203000.0
     published: false
   Mass Driver Sharpshooter:
     id: 364669
     name: Mass Driver Sharpshooter
+    price: 203000.0
     published: false
   Megacorp Control:
     id: 352888
     name: Megacorp Control
+    price: 400000.0
     published: false
     volume: 0.01
   Minmatar Assault Dropsuits:
     id: 364615
     name: Minmatar Assault Dropsuits
+    price: 787000.0
     published: false
   Minmatar Commando Dropsuits:
     id: 364608
     name: Minmatar Commando Dropsuits
+    price: 787000.0
     published: false
     volume: 0.01
   Minmatar Heavy Dropsuits:
     id: 364578
     name: Minmatar Heavy Dropsuits
+    price: 229000.0
     published: false
   Minmatar Light Dropsuits:
     id: 364576
     name: Minmatar Light Dropsuits
+    price: 229000.0
     published: false
   Minmatar Logistics Dropsuit:
     id: 364616
     name: Minmatar Logistics Dropsuit
+    price: 787000.0
     published: false
   Minmatar Medium Dropsuits:
     id: 353413
     name: Minmatar Medium Dropsuits
+    price: 229000.0
     published: false
     volume: 0.01
   Minmatar Pilot Dropsuits:
@@ -824,501 +997,610 @@ items:
   Minmatar Scout Dropsuits:
     id: 364599
     name: Minmatar Scout Dropsuits
+    price: 787000.0
     published: false
   Minmatar Sentinel Dropsuits:
     id: 364607
     name: Minmatar Sentinel Dropsuits
+    price: 787000.0
     published: false
   Nanocircuitry:
     id: 355280
     name: Nanocircuitry
+    price: 149000.0
     published: false
     volume: 0.01
   Neural Trainer:
     id: 356915
     name: Neural Trainer
+    price: 1.0
     published: false
     volume: 0.01
   Nova Knife Fitting Optimization:
     id: 367382
     name: Nova Knife Fitting Optimization
+    price: 774000.0
     published: false
   Nova Knife Operation:
     id: 356658
     name: Nova Knife Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Nova Knife Proficiency:
     id: 356701
     name: Nova Knife Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Piloting:
     id: 353382
     name: Piloting
+    price: 90000.0
     published: false
     volume: 0.01
   Plasma Cannon Ammo Capacity:
     id: 364670
     name: Plasma Cannon Ammo Capacity
+    price: 203000.0
     published: false
   Plasma Cannon Fitting Optimization:
     id: 364671
     name: Plasma Cannon Fitting Optimization
+    price: 774000.0
     published: false
   Plasma Cannon Operation:
     id: 363360
     name: Plasma Cannon Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Plasma Cannon Proficiency:
     id: 363362
     name: Plasma Cannon Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Plasma Cannon Rapid Reload:
     id: 364672
     name: Plasma Cannon Rapid Reload
+    price: 203000.0
     published: false
   Plasma Cannon Sharpshooter:
     id: 364673
     name: Plasma Cannon Sharpshooter
+    price: 203000.0
     published: false
   Precision Enhancement:
     id: 364918
     name: Precision Enhancement
+    price: 149000.0
     published: false
   Profile Analysis:
     id: 353357
     name: Profile Analysis
+    price: 203000.0
     published: false
     volume: 0.01
   Profile Dampening:
     id: 356724
     name: Profile Dampening
+    price: 149000.0
     published: false
     volume: 0.01
   Rail Rifle Ammo Capacity:
     id: 365388
     name: Rail Rifle Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Rail Rifle Fitting Optimization:
     id: 365391
     name: Rail Rifle Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Rail Rifle Operation:
     id: 365386
     name: Rail Rifle Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Rail Rifle Proficiency:
     id: 365389
     name: Rail Rifle Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Rail Rifle Rapid Reload:
     id: 365392
     name: Rail Rifle Rapid Reload
+    price: 203000.0
     published: false
     volume: 0.01
   Range Amplification:
     id: 364916
     name: Range Amplification
+    price: 149000.0
     published: false
   Remote Armor Repair:
     id: 353377
     name: Remote Armor Repair
+    price: 99000.0
     published: false
     volume: 0.01
   Remote Shield Modulation:
     id: 353372
     name: Remote Shield Modulation
+    price: 99000.0
     published: false
     volume: 0.01
   Repair Tool Operation:
     id: 364919
     name: Repair Tool Operation
+    price: 149000.0
     published: false
   Scrambler Pistol Ammo Capacity:
     id: 364694
     name: Scrambler Pistol Ammo Capacity
+    price: 203000.0
     published: false
   Scrambler Pistol Fitting Optimization:
     id: 364696
     name: Scrambler Pistol Fitting Optimization
+    price: 774000.0
     published: false
   Scrambler Pistol Operation:
     id: 353473
     name: Scrambler Pistol Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Scrambler Pistol Proficiency:
     id: 353474
     name: Scrambler Pistol Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Scrambler Pistol Rapid Reload:
     id: 364695
     name: Scrambler Pistol Rapid Reload
+    price: 203000.0
     published: false
   Scrambler Pistol Sharpshooter:
     id: 364697
     name: Scrambler Pistol Sharpshooter
+    price: 149000.0
     published: false
   Scrambler Rifle Ammo Capacity:
     id: 364674
     name: Scrambler Rifle Ammo Capacity
+    price: 203000.0
     published: false
   Scrambler Rifle Fitting Optimization:
     id: 364677
     name: Scrambler Rifle Fitting Optimization
+    price: 774000.0
     published: false
   Scrambler Rifle Operation:
     id: 363861
     name: Scrambler Rifle Operation
+    price: 149000.0
     published: false
   Scrambler Rifle Proficiency:
     id: 363862
     name: Scrambler Rifle Proficiency
+    price: 567000.0
     published: false
   Scrambler Rifle Rapid Reload:
     id: 364675
     name: Scrambler Rifle Rapid Reload
+    price: 203000.0
     published: false
   Scrambler Rifle Sharpshooter:
     id: 364676
     name: Scrambler Rifle Sharpshooter
+    price: 203000.0
     published: false
   Sensor Upgrades:
     id: 356725
     name: Sensor Upgrades
+    price: 66000.0
     published: false
     volume: 0.01
   Shield Boost Systems:
     id: 353371
     name: Shield Boost Systems
+    price: 149000.0
     published: false
     volume: 0.01
   Shield Extension:
     id: 364555
     name: Shield Extension
+    price: 149000.0
     published: false
   Shield Fitting Optimization:
     id: 364776
     name: Shield Fitting Optimization
+    price: 567000.0
     published: false
     volume: 0.01
   Shield Recharging:
     id: 353373
     name: Shield Recharging
+    price: 149000.0
     published: false
     volume: 0.01
   Shield Regulation:
     id: 364556
     name: Shield Regulation
+    price: 149000.0
     published: false
   Shotgun Ammo Capacity:
     id: 364678
     name: Shotgun Ammo Capacity
+    price: 203000.0
     published: false
   Shotgun Fitting Optimization:
     id: 364680
     name: Shotgun Fitting Optimization
+    price: 774000.0
     published: false
   Shotgun Operation:
     id: 355212
     name: Shotgun Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Shotgun Proficiency:
     id: 355213
     name: Shotgun Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Shotgun Rapid Reload:
     id: 364679
     name: Shotgun Rapid Reload
+    price: 203000.0
     published: false
   Shotgun Sharpshooter:
     id: 364681
     name: Shotgun Sharpshooter
+    price: 203000.0
     published: false
   Sidearm Operation:
     id: 364534
     name: Sidearm Operation
+    price: 66000.0
     published: false
   Sidearm Weapon Capacity:
     id: 353455
     name: Sidearm Weapon Capacity
+    price: 72000.0
     published: false
     volume: 0.01
   Sidearm Weapon Capacity Proficiency:
     id: 353456
     name: Sidearm Weapon Capacity Proficiency
+    price: 417000.0
     published: false
     volume: 0.01
   Sidearm Weapon Rapid Reload:
     id: 353443
     name: Sidearm Weapon Rapid Reload
+    price: 72000.0
     published: false
     volume: 0.01
   Sidearm Weapon Rapid Reload Proficiency:
     id: 353444
     name: Sidearm Weapon Rapid Reload Proficiency
+    price: 417000.0
     published: false
     volume: 0.01
   Sidearm Weapon Sharpshooter:
     id: 353449
     name: Sidearm Weapon Sharpshooter
+    price: 72000.0
     published: false
     volume: 0.01
   Sidearm Weapon Sharpshooter Proficiency:
     id: 353450
     name: Sidearm Weapon Sharpshooter Proficiency
+    price: 417000.0
     published: false
     volume: 0.01
   Sidearm Weapon Upgrade:
     id: 353436
     name: Sidearm Weapon Upgrade
+    price: 192000.0
     published: false
     volume: 0.01
   Sidearm Weapon Upgrade Proficiency:
     id: 353437
     name: Sidearm Weapon Upgrade Proficiency
+    price: 795000.0
     published: false
     volume: 0.01
   Small Blaster Ammo Capacity:
     id: 365850
     name: Small Blaster Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Small Blaster Fitting Optimization:
     id: 365848
     name: Small Blaster Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Small Blaster Operation:
     id: 353326
     name: Small Blaster Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Small Blaster Proficiency:
     id: 353327
     name: Small Blaster Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Small Blaster Reload Systems:
     id: 365851
     name: Small Blaster Reload Systems
+    price: 203000.0
     published: false
     volume: 0.01
   Small Missile Launcher Ammo Capacity:
     id: 365855
     name: Small Missile Launcher Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Small Missile Launcher Fitting Optimization:
     id: 365853
     name: Small Missile Launcher Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Small Missile Launcher Operation:
     id: 353330
     name: Small Missile Launcher Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Small Missile Launcher Proficiency:
     id: 353331
     name: Small Missile Launcher Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Small Missile Launcher Reload Systems:
     id: 365854
     name: Small Missile Launcher Reload Systems
+    price: 203000.0
     published: false
     volume: 0.01
   Small Railgun Ammo Capacity:
     id: 365859
     name: Small Railgun Ammo Capacity
+    price: 203000.0
     published: false
     volume: 0.01
   Small Railgun Fitting Optimization:
     id: 365857
     name: Small Railgun Fitting Optimization
+    price: 774000.0
     published: false
     volume: 0.01
   Small Railgun Operation:
     id: 365845
     name: Small Railgun Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Small Railgun Proficiency:
     id: 365861
     name: Small Railgun Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Small Railgun Reload Systems:
     id: 365860
     name: Small Railgun Reload Systems
+    price: 203000.0
     published: false
     volume: 0.01
   Small Turret Operation:
     id: 365879
     name: Small Turret Operation
+    price: 72000.0
     published: false
     volume: 0.01
   Sniper Rifle Ammo Capacity:
     id: 364682
     name: Sniper Rifle Ammo Capacity
+    price: 203000.0
     published: false
   Sniper Rifle Fitting Optimization:
     id: 364683
     name: Sniper Rifle Fitting Optimization
+    price: 774000.0
     published: false
   Sniper Rifle Operation:
     id: 353475
     name: Sniper Rifle Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Sniper Rifle Proficiency:
     id: 353476
     name: Sniper Rifle Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Sniper Rifle Rapid Reload:
     id: 364685
     name: Sniper Rifle Rapid Reload
+    price: 203000.0
     published: false
   Sniper Rifle Sharpshooter:
     id: 364684
     name: Sniper Rifle Sharpshooter
+    price: 203000.0
     published: false
   Submachine Gun Ammo Capacity:
     id: 364698
     name: Submachine Gun Ammo Capacity
+    price: 203000.0
     published: false
   Submachine Gun Fitting Optimization:
     id: 364699
     name: Submachine Gun Fitting Optimization
+    price: 774000.0
     published: false
   Submachine Gun Operation:
     id: 353477
     name: Submachine Gun Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Submachine Gun Proficiency:
     id: 353478
     name: Submachine Gun Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Submachine Gun Rapid Reload:
     id: 364701
     name: Submachine Gun Rapid Reload
+    price: 203000.0
     published: false
   Submachine Gun Sharpshooter:
     id: 364700
     name: Submachine Gun Sharpshooter
+    price: 203000.0
     published: false
   Swarm Launcher Ammo Capacity:
     id: 364686
     name: Swarm Launcher Ammo Capacity
+    price: 203000.0
     published: false
   Swarm Launcher Fitting Optimization:
     id: 364688
     name: Swarm Launcher Fitting Optimization
+    price: 774000.0
     published: false
   Swarm Launcher Operation:
     id: 353471
     name: Swarm Launcher Operation
+    price: 149000.0
     published: false
     volume: 0.01
   Swarm Launcher Proficiency:
     id: 353472
     name: Swarm Launcher Proficiency
+    price: 567000.0
     published: false
     volume: 0.01
   Swarm Launcher Rapid Reload:
     id: 364687
     name: Swarm Launcher Rapid Reload
+    price: 203000.0
     published: false
   Swarm Launcher Sharpshooter:
     id: 364689
     name: Swarm Launcher Sharpshooter
+    price: 567000.0
     published: false
   Systems Hacking:
     id: 355932
     name: Systems Hacking
+    price: 567000.0
     published: false
     volume: 0.01
   Transstellar Empire Control:
     id: 352890
     name: Transstellar Empire Control
+    price: 8000000.0
     published: false
     volume: 0.01
   Turret Operation:
     id: 353335
     name: Turret Operation
+    price: 48000.0
     published: false
     volume: 0.01
   Vehicle Active Hardening:
     id: 364763
     name: Vehicle Active Hardening
+    price: 203000.0
     published: false
   Vehicle Armor Composition:
     id: 364769
     name: Vehicle Armor Composition
+    price: 99000.0
     published: false
     volume: 0.01
   Vehicle Armor Repair Systems:
     id: 364761
     name: Vehicle Armor Repair Systems
+    price: 99000.0
     published: false
   Vehicle Armor Upgrades:
     id: 364639
     name: Vehicle Armor Upgrades
+    price: 66000.0
     published: false
   Vehicle Command:
     id: 353381
     name: Vehicle Command
+    price: 48000.0
     published: false
     volume: 0.01
   Vehicle Core Upgrades:
     id: 364640
     name: Vehicle Core Upgrades
+    price: 66000.0
     published: false
   Vehicle Electronics:
     id: 353353
     name: Vehicle Electronics
+    price: 66000.0
     published: false
     volume: 0.01
   Vehicle Engineering:
     id: 353368
     name: Vehicle Engineering
+    price: 66000.0
     published: false
     volume: 0.01
   Vehicle Shield Regeneration:
     id: 364777
     name: Vehicle Shield Regeneration
+    price: 99000.0
     published: false
     volume: 0.01
   Vehicle Shield Upgrades:
     id: 364641
     name: Vehicle Shield Upgrades
+    price: 66000.0
     published: false
     volume: 0.01
   Vehicle Turret Upgrades:
     id: 353336
     name: Vehicle Turret Upgrades
+    price: 66000.0
     published: false
     volume: 0.01
   Vehicle Upgrades:
     id: 364633
     name: Vehicle Upgrades
+    price: 48000.0
     published: false
   Weaponry:
     id: 353435
     name: Weaponry
+    price: 48000.0
     published: false
     volume: 0.01

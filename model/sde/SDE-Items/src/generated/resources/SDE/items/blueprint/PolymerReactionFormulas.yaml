@@ -3,53 +3,62 @@ items:
     id: 46165
     marketGroup: 2404
     name: C3-FTM Acid Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01
   Carbon-86 Epoxy Resin Reaction Formula:
     id: 46164
     marketGroup: 2404
     name: Carbon-86 Epoxy Resin Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01
   Fullerene Intercalated Graphite Reaction Formula:
     id: 46160
     marketGroup: 2404
     name: Fullerene Intercalated Graphite Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01
   Fulleroferrocene Reaction Formula:
     id: 46158
     marketGroup: 2404
     name: Fulleroferrocene Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01
   Graphene Nanoribbons Reaction Formula:
     id: 46163
     marketGroup: 2404
     name: Graphene Nanoribbons Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01
   Lanthanum Metallofullerene Reaction Formula:
     id: 46161
     marketGroup: 2404
     name: Lanthanum Metallofullerene Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01
   Methanofullerene Reaction Formula:
     id: 46157
     marketGroup: 2404
     name: Methanofullerene Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01
   PPD Fullerene Fibers Reaction Formula:
     id: 46159
     marketGroup: 2404
     name: PPD Fullerene Fibers Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01
   Scandium Metallofullerene Reaction Formula:
     id: 46162
     marketGroup: 2404
     name: Scandium Metallofullerene Reaction Formula
+    price: 1.5E7
     published: true
     volume: 0.01

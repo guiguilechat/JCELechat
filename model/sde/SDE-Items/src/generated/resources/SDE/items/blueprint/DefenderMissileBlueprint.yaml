@@ -4,5 +4,6 @@ items:
     id: 32783
     marketGroup: 316
     name: Defender Missile I Blueprint
+    price: 120000.0
     published: true
     volume: 0.01

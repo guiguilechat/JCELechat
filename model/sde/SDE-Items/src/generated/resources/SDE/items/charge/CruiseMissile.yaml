@@ -28,6 +28,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Caldari Navy Inferno Cruise Missile
+    price: 12500.0
     published: true
     volume: 0.05
   Caldari Navy Mjolnir Cruise Missile:
@@ -59,6 +60,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Caldari Navy Mjolnir Cruise Missile
+    price: 15000.0
     published: true
     volume: 0.05
   Caldari Navy Nova Cruise Missile:
@@ -90,6 +92,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Caldari Navy Nova Cruise Missile
+    price: 7500.0
     published: true
     volume: 0.05
   Caldari Navy Scourge Cruise Missile:
@@ -121,6 +124,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Caldari Navy Scourge Cruise Missile
+    price: 10000.0
     published: true
     volume: 0.05
   Dread Guristas Inferno Cruise Missile:
@@ -152,6 +156,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Dread Guristas Inferno Cruise Missile
+    price: 12500.0
     published: true
     volume: 0.05
   Dread Guristas Mjolnir Cruise Missile:
@@ -183,6 +188,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Dread Guristas Mjolnir Cruise Missile
+    price: 15000.0
     published: true
     volume: 0.05
   Dread Guristas Nova Cruise Missile:
@@ -214,6 +220,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Dread Guristas Nova Cruise Missile
+    price: 7500.0
     published: true
     volume: 0.05
   Dread Guristas Scourge Cruise Missile:
@@ -245,6 +252,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Dread Guristas Scourge Cruise Missile
+    price: 10000.0
     published: true
     volume: 0.05
   Guristas Inferno Cruise Missile:
@@ -276,6 +284,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Guristas Inferno Cruise Missile
+    price: 12500.0
     published: true
     volume: 0.05
   Guristas Mjolnir Cruise Missile:
@@ -307,6 +316,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Guristas Mjolnir Cruise Missile
+    price: 15000.0
     published: true
     volume: 0.05
   Guristas Nova Cruise Missile:
@@ -338,6 +348,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Guristas Nova Cruise Missile
+    price: 7500.0
     published: true
     volume: 0.05
   Guristas Scourge Cruise Missile:
@@ -369,6 +380,7 @@ items:
     marketGroup: 1001
     mass: 1250.0
     name: Guristas Scourge Cruise Missile
+    price: 10000.0
     published: true
     volume: 0.05
   Inferno Cruise Missile:
@@ -398,6 +410,7 @@ items:
     marketGroup: 921
     mass: 1250.0
     name: Inferno Cruise Missile
+    price: 12500.0
     published: true
     volume: 0.05
   Mjolnir Cruise Missile:
@@ -427,6 +440,7 @@ items:
     marketGroup: 921
     mass: 1250.0
     name: Mjolnir Cruise Missile
+    price: 15000.0
     published: true
     volume: 0.05
   Nova Cruise Missile:
@@ -456,6 +470,7 @@ items:
     marketGroup: 921
     mass: 1250.0
     name: Nova Cruise Missile
+    price: 7500.0
     published: true
     volume: 0.05
   Scourge Cruise Missile:
@@ -485,5 +500,6 @@ items:
     marketGroup: 921
     mass: 1250.0
     name: Scourge Cruise Missile
+    price: 10000.0
     published: true
     volume: 0.05

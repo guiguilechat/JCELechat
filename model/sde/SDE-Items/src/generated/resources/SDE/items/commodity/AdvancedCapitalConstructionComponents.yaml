@@ -5,6 +5,7 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital Antimatter Reactor Unit
+    price: 217600.0
     published: true
     volume: 10.0
   Capital Crystalline Carbonide Armor Plate:
@@ -13,6 +14,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Crystalline Carbonide Armor Plate
+    price: 400000.0
     published: true
     volume: 10.0
   Capital Deflection Shield Emitter:
@@ -21,6 +23,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Deflection Shield Emitter
+    price: 339200.0
     published: true
     volume: 10.0
   Capital EM Pulse Generator:
@@ -29,6 +32,7 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital EM Pulse Generator
+    price: 224000.0
     published: true
     volume: 10.0
   Capital Electrolytic Capacitor Unit:
@@ -37,6 +41,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Electrolytic Capacitor Unit
+    price: 492800.0
     published: true
     volume: 10.0
   Capital Fernite Carbide Composite Armor Plate:
@@ -45,6 +50,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Fernite Carbide Composite Armor Plate
+    price: 400000.0
     published: true
     volume: 10.0
   Capital Fusion Reactor Unit:
@@ -53,6 +59,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Fusion Reactor Unit
+    price: 217600.0
     published: true
     volume: 10.0
   Capital Fusion Thruster:
@@ -61,6 +68,7 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital Fusion Thruster
+    price: 166400.0
     published: true
     volume: 10.0
   Capital Gravimetric Sensor Cluster:
@@ -69,6 +77,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Gravimetric Sensor Cluster
+    price: 224000.0
     published: true
     volume: 10.0
   Capital Graviton Pulse Generator:
@@ -77,6 +86,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Graviton Pulse Generator
+    price: 224000.0
     published: true
     volume: 10.0
   Capital Graviton Reactor Unit:
@@ -85,6 +95,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Graviton Reactor Unit
+    price: 217600.0
     published: true
     volume: 10.0
   Capital Ion Thruster:
@@ -93,6 +104,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Ion Thruster
+    price: 166400.0
     published: true
     volume: 10.0
   Capital Ladar Sensor Cluster:
@@ -101,6 +113,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Ladar Sensor Cluster
+    price: 224000.0
     published: true
     volume: 10.0
   Capital Laser Focusing Crystals:
@@ -109,6 +122,7 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital Laser Focusing Crystals
+    price: 433600.0
     published: true
     volume: 10.0
   Capital Linear Shield Emitter:
@@ -117,6 +131,7 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital Linear Shield Emitter
+    price: 339200.0
     published: true
     volume: 10.0
   Capital Magnetometric Sensor Cluster:
@@ -125,6 +140,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Magnetometric Sensor Cluster
+    price: 224000.0
     published: true
     volume: 10.0
   Capital Magpulse Thruster:
@@ -133,6 +149,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Magpulse Thruster
+    price: 166400.0
     published: true
     volume: 10.0
   Capital Nanoelectrical Microprocessor:
@@ -141,6 +158,7 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital Nanoelectrical Microprocessor
+    price: 166400.0
     published: true
     volume: 10.0
   Capital Nanomechanical Microprocessor:
@@ -149,6 +167,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Nanomechanical Microprocessor
+    price: 166400.0
     published: true
     volume: 10.0
   Capital Nuclear Pulse Generator:
@@ -157,6 +176,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Nuclear Pulse Generator
+    price: 224000.0
     published: true
     volume: 10.0
   Capital Nuclear Reactor Unit:
@@ -165,6 +185,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Nuclear Reactor Unit
+    price: 217600.0
     published: true
     volume: 10.0
   Capital Oscillator Capacitor Unit:
@@ -173,6 +194,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Oscillator Capacitor Unit
+    price: 492800.0
     published: true
     volume: 10.0
   Capital Particle Accelerator Unit:
@@ -181,6 +203,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Particle Accelerator Unit
+    price: 433600.0
     published: true
     volume: 10.0
   Capital Photon Microprocessor:
@@ -189,6 +212,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Photon Microprocessor
+    price: 166400.0
     published: true
     volume: 10.0
   Capital Plasma Pulse Generator:
@@ -197,6 +221,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Plasma Pulse Generator
+    price: 224000.0
     published: true
     volume: 10.0
   Capital Plasma Thruster:
@@ -205,6 +230,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Plasma Thruster
+    price: 166400.0
     published: true
     volume: 10.0
   Capital Pulse Shield Emitter:
@@ -213,6 +239,7 @@ items:
     marketGroup: 1886
     mass: 1.0
     name: Capital Pulse Shield Emitter
+    price: 339200.0
     published: true
     volume: 10.0
   Capital Quantum Microprocessor:
@@ -221,6 +248,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Quantum Microprocessor
+    price: 166400.0
     published: true
     volume: 10.0
   Capital Radar Sensor Cluster:
@@ -229,6 +257,7 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital Radar Sensor Cluster
+    price: 224000.0
     published: true
     volume: 10.0
   Capital Scalar Capacitor Unit:
@@ -237,6 +266,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Scalar Capacitor Unit
+    price: 492800.0
     published: true
     volume: 10.0
   Capital Superconductor Rails:
@@ -245,6 +275,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Superconductor Rails
+    price: 433600.0
     published: true
     volume: 10.0
   Capital Sustained Shield Emitter:
@@ -253,6 +284,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Sustained Shield Emitter
+    price: 339200.0
     published: true
     volume: 10.0
   Capital Tesseract Capacitor Unit:
@@ -261,6 +293,7 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital Tesseract Capacitor Unit
+    price: 492800.0
     published: true
     volume: 10.0
   Capital Thermonuclear Trigger Unit:
@@ -269,6 +302,7 @@ items:
     marketGroup: 1887
     mass: 1.0
     name: Capital Thermonuclear Trigger Unit
+    price: 433600.0
     published: true
     volume: 10.0
   Capital Titanium Diborite Armor Plate:
@@ -277,6 +311,7 @@ items:
     marketGroup: 1885
     mass: 1.0
     name: Capital Titanium Diborite Armor Plate
+    price: 400000.0
     published: true
     volume: 10.0
   Capital Tungsten Carbide Armor Plate:
@@ -285,5 +320,6 @@ items:
     marketGroup: 1884
     mass: 1.0
     name: Capital Tungsten Carbide Armor Plate
+    price: 400000.0
     published: true
     volume: 10.0

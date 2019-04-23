@@ -4,6 +4,7 @@ items:
     id: 34865
     marketGroup: 2017
     name: Advanced Logistics Network Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Cynosural Navigation Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 34866
     marketGroup: 2017
     name: Cynosural Navigation Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Cynosural Suppression Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 34867
     marketGroup: 2017
     name: Cynosural Suppression Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Entrapment Array 1 Blueprint:
@@ -25,6 +28,7 @@ items:
     id: 34869
     marketGroup: 2016
     name: Entrapment Array 1 Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Entrapment Array 2 Blueprint:
@@ -32,6 +36,7 @@ items:
     id: 34841
     marketGroup: 2016
     name: Entrapment Array 2 Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Entrapment Array 3 Blueprint:
@@ -39,6 +44,7 @@ items:
     id: 34842
     marketGroup: 2016
     name: Entrapment Array 3 Blueprint
+    price: 1.5E9
     published: true
     volume: 0.01
   Entrapment Array 4 Blueprint:
@@ -46,6 +52,7 @@ items:
     id: 34843
     marketGroup: 2016
     name: Entrapment Array 4 Blueprint
+    price: 2.0E9
     published: true
     volume: 0.01
   Entrapment Array 5 Blueprint:
@@ -53,6 +60,7 @@ items:
     id: 34844
     marketGroup: 2016
     name: Entrapment Array 5 Blueprint
+    price: 2.5E9
     published: true
     volume: 0.01
   Ore Prospecting Array 1 Blueprint:
@@ -60,6 +68,7 @@ items:
     id: 34855
     marketGroup: 2014
     name: Ore Prospecting Array 1 Blueprint
+    price: 2.5E8
     published: true
     volume: 0.01
   Ore Prospecting Array 2 Blueprint:
@@ -67,6 +76,7 @@ items:
     id: 34856
     marketGroup: 2014
     name: Ore Prospecting Array 2 Blueprint
+    price: 3.75E8
     published: true
     volume: 0.01
   Ore Prospecting Array 3 Blueprint:
@@ -74,6 +84,7 @@ items:
     id: 34857
     marketGroup: 2014
     name: Ore Prospecting Array 3 Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Ore Prospecting Array 4 Blueprint:
@@ -81,6 +92,7 @@ items:
     id: 34858
     marketGroup: 2014
     name: Ore Prospecting Array 4 Blueprint
+    price: 6.25E8
     published: true
     volume: 0.01
   Ore Prospecting Array 5 Blueprint:
@@ -88,6 +100,7 @@ items:
     id: 34859
     marketGroup: 2014
     name: Ore Prospecting Array 5 Blueprint
+    price: 1.25E9
     published: true
     volume: 0.01
   Pirate Detection Array 1 Blueprint:
@@ -95,6 +108,7 @@ items:
     id: 34845
     marketGroup: 2016
     name: Pirate Detection Array 1 Blueprint
+    price: 2.5E8
     published: true
     volume: 0.01
   Pirate Detection Array 2 Blueprint:
@@ -102,6 +116,7 @@ items:
     id: 34846
     marketGroup: 2016
     name: Pirate Detection Array 2 Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Pirate Detection Array 3 Blueprint:
@@ -109,6 +124,7 @@ items:
     id: 34847
     marketGroup: 2016
     name: Pirate Detection Array 3 Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Pirate Detection Array 4 Blueprint:
@@ -116,6 +132,7 @@ items:
     id: 34848
     marketGroup: 2016
     name: Pirate Detection Array 4 Blueprint
+    price: 1.25E9
     published: true
     volume: 0.01
   Pirate Detection Array 5 Blueprint:
@@ -123,6 +140,7 @@ items:
     id: 34849
     marketGroup: 2016
     name: Pirate Detection Array 5 Blueprint
+    price: 1.5E9
     published: true
     volume: 0.01
   Quantum Flux Generator 1 Blueprint:
@@ -130,6 +148,7 @@ items:
     id: 34850
     marketGroup: 2016
     name: Quantum Flux Generator 1 Blueprint
+    price: 2.5E8
     published: true
     volume: 0.01
   Quantum Flux Generator 2 Blueprint:
@@ -137,6 +156,7 @@ items:
     id: 34851
     marketGroup: 2016
     name: Quantum Flux Generator 2 Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Quantum Flux Generator 3 Blueprint:
@@ -144,6 +164,7 @@ items:
     id: 34852
     marketGroup: 2016
     name: Quantum Flux Generator 3 Blueprint
+    price: 7.5E8
     published: true
     volume: 0.01
   Quantum Flux Generator 4 Blueprint:
@@ -151,6 +172,7 @@ items:
     id: 34853
     marketGroup: 2016
     name: Quantum Flux Generator 4 Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Quantum Flux Generator 5 Blueprint:
@@ -158,6 +180,7 @@ items:
     id: 34854
     marketGroup: 2016
     name: Quantum Flux Generator 5 Blueprint
+    price: 1.25E9
     published: true
     volume: 0.01
   Supercapital Construction Facilities Blueprint:
@@ -165,6 +188,7 @@ items:
     id: 34868
     marketGroup: 2017
     name: Supercapital Construction Facilities Blueprint
+    price: 3.75E8
     published: true
     volume: 0.01
   Survey Networks 1 Blueprint:
@@ -172,6 +196,7 @@ items:
     id: 34860
     marketGroup: 2014
     name: Survey Networks 1 Blueprint
+    price: 2.5E8
     published: true
     volume: 0.01
   Survey Networks 2 Blueprint:
@@ -179,6 +204,7 @@ items:
     id: 34861
     marketGroup: 2014
     name: Survey Networks 2 Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Survey Networks 3 Blueprint:
@@ -186,6 +212,7 @@ items:
     id: 34862
     marketGroup: 2014
     name: Survey Networks 3 Blueprint
+    price: 7.5E8
     published: true
     volume: 0.01
   Survey Networks 4 Blueprint:
@@ -193,6 +220,7 @@ items:
     id: 34863
     marketGroup: 2014
     name: Survey Networks 4 Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Survey Networks 5 Blueprint:
@@ -200,5 +228,6 @@ items:
     id: 34864
     marketGroup: 2014
     name: Survey Networks 5 Blueprint
+    price: 1.25E9
     published: true
     volume: 0.01

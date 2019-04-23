@@ -28,6 +28,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Caldari Navy Inferno Rocket
+    price: 260.0
     published: true
     volume: 0.005
   Caldari Navy Mjolnir Rocket:
@@ -59,6 +60,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Caldari Navy Mjolnir Rocket
+    price: 350.0
     published: true
     volume: 0.005
   Caldari Navy Nova Rocket:
@@ -90,6 +92,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Caldari Navy Nova Rocket
+    price: 180.0
     published: true
     volume: 0.005
   Caldari Navy Scourge Rocket:
@@ -121,6 +124,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Caldari Navy Scourge Rocket
+    price: 240.0
     published: true
     volume: 0.005
   Dread Guristas Inferno Rocket:
@@ -152,6 +156,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Dread Guristas Inferno Rocket
+    price: 260.0
     published: true
     volume: 0.005
   Dread Guristas Mjolnir Rocket:
@@ -183,6 +188,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Dread Guristas Mjolnir Rocket
+    price: 350.0
     published: true
     volume: 0.005
   Dread Guristas Nova Rocket:
@@ -214,6 +220,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Dread Guristas Nova Rocket
+    price: 180.0
     published: true
     volume: 0.005
   Dread Guristas Scourge Rocket:
@@ -245,6 +252,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Dread Guristas Scourge Rocket
+    price: 240.0
     published: true
     volume: 0.005
   Guristas Inferno Rocket:
@@ -276,6 +284,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Guristas Inferno Rocket
+    price: 260.0
     published: true
     volume: 0.005
   Guristas Mjolnir Rocket:
@@ -307,6 +316,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Guristas Mjolnir Rocket
+    price: 350.0
     published: true
     volume: 0.005
   Guristas Nova Rocket:
@@ -338,6 +348,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Guristas Nova Rocket
+    price: 180.0
     published: true
     volume: 0.005
   Guristas Scourge Rocket:
@@ -369,6 +380,7 @@ items:
     marketGroup: 999
     mass: 100.0
     name: Guristas Scourge Rocket
+    price: 240.0
     published: true
     volume: 0.005
   Inferno Rocket:
@@ -398,6 +410,7 @@ items:
     marketGroup: 922
     mass: 100.0
     name: Inferno Rocket
+    price: 260.0
     published: true
     volume: 0.005
   Mjolnir Rocket:
@@ -427,6 +440,7 @@ items:
     marketGroup: 922
     mass: 100.0
     name: Mjolnir Rocket
+    price: 350.0
     published: true
     volume: 0.005
   Nova Rocket:
@@ -456,6 +470,7 @@ items:
     marketGroup: 922
     mass: 100.0
     name: Nova Rocket
+    price: 180.0
     published: true
     volume: 0.005
   Scourge Rocket:
@@ -485,5 +500,6 @@ items:
     marketGroup: 922
     mass: 100.0
     name: Scourge Rocket
+    price: 240.0
     published: true
     volume: 0.005

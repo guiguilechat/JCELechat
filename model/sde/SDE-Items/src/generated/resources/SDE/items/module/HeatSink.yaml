@@ -42,6 +42,7 @@ items:
     id: 49726
     mass: 1.0
     name: Abyssal Heat Sink
+    price: 1000.0
     published: true
     volume: 1.0
   Ahremen's Modified Heat Sink:

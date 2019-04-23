@@ -5,6 +5,7 @@ items:
     id: 24693
     marketGroup: 279
     name: Abaddon Blueprint
+    price: 1.8E9
     published: true
     volume: 0.01
   Apocalypse Blueprint:
@@ -13,6 +14,7 @@ items:
     id: 996
     marketGroup: 279
     name: Apocalypse Blueprint
+    price: 1.265E9
     published: true
     volume: 0.01
   Apocalypse Imperial Issue Blueprint:
@@ -35,6 +37,7 @@ items:
     id: 997
     marketGroup: 279
     name: Armageddon Blueprint
+    price: 1.565E9
     published: true
     volume: 0.01
   Armageddon Navy Issue Blueprint:
@@ -42,6 +45,7 @@ items:
     TechLevel: 1
     id: 32306
     name: Armageddon Navy Issue Blueprint
+    price: 6.625E8
     published: true
     volume: 0.01
   Barghest Blueprint:
@@ -64,6 +68,7 @@ items:
     id: 999
     marketGroup: 281
     name: Dominix Blueprint
+    price: 1.66E9
     published: true
     volume: 0.01
   Dominix Navy Issue Blueprint:
@@ -71,6 +76,7 @@ items:
     TechLevel: 1
     id: 32308
     name: Dominix Navy Issue Blueprint
+    price: 6.25E8
     published: true
     volume: 0.01
   Golem Blueprint:
@@ -78,6 +84,7 @@ items:
     TechLevel: 2
     id: 28711
     name: Golem Blueprint
+    price: 1.65E9
     published: true
     volume: 0.01
   Hyperion Blueprint:
@@ -86,6 +93,7 @@ items:
     id: 24691
     marketGroup: 281
     name: Hyperion Blueprint
+    price: 1.76E9
     published: true
     volume: 0.01
   Kronos Blueprint:
@@ -93,6 +101,7 @@ items:
     TechLevel: 2
     id: 28662
     name: Kronos Blueprint
+    price: 1.76E9
     published: true
     volume: 0.01
   Leshak Blueprint:
@@ -114,6 +123,7 @@ items:
     id: 24695
     marketGroup: 278
     name: Maelstrom Blueprint
+    price: 1.45E9
     published: true
     volume: 0.01
   Marshal Blueprint:
@@ -128,6 +138,7 @@ items:
     id: 995
     marketGroup: 281
     name: Megathron Blueprint
+    price: 1.25E9
     published: true
     volume: 0.01
   Megathron Federate Issue Blueprint:
@@ -163,6 +174,7 @@ items:
     TechLevel: 2
     id: 28660
     name: Paladin Blueprint
+    price: 1.8E9
     published: true
     volume: 0.01
   Panther Blueprint:
@@ -176,6 +188,7 @@ items:
     TechLevel: 1
     id: 47716
     name: Praxis Blueprint
+    price: 1.8E9
     published: true
     volume: 0.01
   Rattlesnake Blueprint:
@@ -191,6 +204,7 @@ items:
     id: 688
     marketGroup: 280
     name: Raven Blueprint
+    price: 1.135E9
     published: true
     volume: 0.01
   Raven Navy Issue Blueprint:
@@ -213,6 +227,7 @@ items:
     id: 24689
     marketGroup: 280
     name: Rokh Blueprint
+    price: 1.65E9
     published: true
     volume: 0.01
   Scorpion Blueprint:
@@ -221,6 +236,7 @@ items:
     id: 994
     marketGroup: 280
     name: Scorpion Blueprint
+    price: 1.075E9
     published: true
     volume: 0.01
   Scorpion Navy Issue Blueprint:
@@ -228,6 +244,7 @@ items:
     TechLevel: 1
     id: 32310
     name: Scorpion Navy Issue Blueprint
+    price: 7.125E8
     published: true
     volume: 0.01
   Sin Blueprint:
@@ -243,6 +260,7 @@ items:
     id: 693
     marketGroup: 278
     name: Tempest Blueprint
+    price: 1.055E9
     published: true
     volume: 0.01
   Tempest Fleet Issue Blueprint:
@@ -258,6 +276,7 @@ items:
     id: 998
     marketGroup: 278
     name: Typhoon Blueprint
+    price: 9.75E8
     published: true
     volume: 0.01
   Typhoon Fleet Issue Blueprint:
@@ -265,6 +284,7 @@ items:
     TechLevel: 1
     id: 32312
     name: Typhoon Fleet Issue Blueprint
+    price: 7.5E8
     published: true
     volume: 0.01
   Vargur Blueprint:
@@ -272,6 +292,7 @@ items:
     TechLevel: 2
     id: 28666
     name: Vargur Blueprint
+    price: 1.45E9
     published: true
     volume: 0.01
   Vindicator Blueprint:

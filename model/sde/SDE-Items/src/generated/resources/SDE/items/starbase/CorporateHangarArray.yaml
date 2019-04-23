@@ -25,5 +25,6 @@ items:
     marketGroup: 506
     mass: 1.0E7
     name: Corporate Hangar Array
+    price: 1.0E7
     published: true
     volume: 4000.0

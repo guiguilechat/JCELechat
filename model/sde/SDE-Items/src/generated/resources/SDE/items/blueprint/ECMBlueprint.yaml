@@ -33,6 +33,7 @@ items:
     id: 11631
     marketGroup: 1567
     name: Gravimetric ECM I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Gravimetric ECM II Blueprint:
@@ -40,6 +41,7 @@ items:
     TechLevel: 2
     id: 11787
     name: Gravimetric ECM II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Ladar ECM I Blueprint:
@@ -48,6 +50,7 @@ items:
     id: 11630
     marketGroup: 1567
     name: Ladar ECM I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Ladar ECM II Blueprint:
@@ -55,6 +58,7 @@ items:
     TechLevel: 2
     id: 11783
     name: Ladar ECM II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Magnetometric ECM I Blueprint:
@@ -63,6 +67,7 @@ items:
     id: 11628
     marketGroup: 1567
     name: Magnetometric ECM I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Magnetometric ECM II Blueprint:
@@ -70,6 +75,7 @@ items:
     TechLevel: 2
     id: 11775
     name: Magnetometric ECM II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Multispectral ECM I Blueprint:
@@ -78,6 +84,7 @@ items:
     id: 11629
     marketGroup: 1567
     name: Multispectral ECM I Blueprint
+    price: 296960.0
     published: true
     volume: 0.01
   Multispectral ECM II Blueprint:
@@ -85,6 +92,7 @@ items:
     TechLevel: 2
     id: 11779
     name: Multispectral ECM II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Radar ECM I Blueprint:
@@ -93,6 +101,7 @@ items:
     id: 11632
     marketGroup: 1567
     name: Radar ECM I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Radar ECM II Blueprint:
@@ -100,5 +109,6 @@ items:
     TechLevel: 2
     id: 11791
     name: Radar ECM II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

@@ -26,6 +26,7 @@ items:
     id: 22931
     marketGroup: 680
     name: '''Distributor'' Guidance Disruptor'
+    price: 29824.0
     published: true
     volume: 5.0
   '''Investor'' Tracking Disruptor I':
@@ -54,6 +55,7 @@ items:
     id: 22933
     marketGroup: 680
     name: '''Investor'' Tracking Disruptor I'
+    price: 29824.0
     published: true
     volume: 5.0
   A-211 Enduring Guidance Disruptor:
@@ -82,6 +84,7 @@ items:
     id: 37545
     marketGroup: 680
     name: A-211 Enduring Guidance Disruptor
+    price: 14828.0
     published: true
     volume: 5.0
   Baker Nunn Enduring Tracking Disruptor I:
@@ -109,6 +112,7 @@ items:
     id: 5319
     marketGroup: 680
     name: Baker Nunn Enduring Tracking Disruptor I
+    price: 14828.0
     published: true
     volume: 5.0
   Balmer Series Compact Tracking Disruptor I:
@@ -135,6 +139,7 @@ items:
     id: 5320
     marketGroup: 680
     name: Balmer Series Compact Tracking Disruptor I
+    price: 14828.0
     published: true
     volume: 5.0
   C-IR Compact Guidance Disruptor:
@@ -163,6 +168,7 @@ items:
     id: 5321
     marketGroup: 680
     name: C-IR Compact Guidance Disruptor
+    price: 14828.0
     published: true
     volume: 5.0
   DDO Scoped Tracking Disruptor I:
@@ -190,6 +196,7 @@ items:
     id: 5322
     marketGroup: 680
     name: DDO Scoped Tracking Disruptor I
+    price: 14828.0
     published: true
     volume: 5.0
   Guidance Disruptor I:
@@ -217,6 +224,7 @@ items:
     id: 37543
     marketGroup: 680
     name: Guidance Disruptor I
+    price: 14828.0
     published: true
     volume: 5.0
   Guidance Disruptor II:
@@ -245,6 +253,7 @@ items:
     id: 37546
     marketGroup: 680
     name: Guidance Disruptor II
+    price: 29824.0
     published: true
     volume: 5.0
   Highstroke Scoped Guidance Disruptor:
@@ -273,6 +282,7 @@ items:
     id: 37544
     marketGroup: 680
     name: Highstroke Scoped Guidance Disruptor
+    price: 14828.0
     published: true
     volume: 5.0
   Tracking Disruptor I:
@@ -298,6 +308,7 @@ items:
     id: 2108
     marketGroup: 680
     name: Tracking Disruptor I
+    price: 29824.0
     published: true
     volume: 5.0
   Tracking Disruptor II:
@@ -324,5 +335,6 @@ items:
     id: 2109
     marketGroup: 680
     name: Tracking Disruptor II
+    price: 205296.0
     published: true
     volume: 5.0

@@ -84,6 +84,7 @@ items:
     marketGroup: 833
     mass: 1.165E7
     name: Arazu
+    price: 1.4962526E7
     published: true
     volume: 116000.0
   Chameleon:
@@ -173,6 +174,7 @@ items:
     marketGroup: 1837
     mass: 1.2E7
     name: Chameleon
+    price: 1.4871496E7
     published: true
     volume: 96000.0
   Enforcer:
@@ -274,6 +276,7 @@ items:
     marketGroup: 1837
     mass: 1.25E7
     name: Enforcer
+    price: 2.0E8
     published: true
     volume: 100000.0
   Falcon:
@@ -361,6 +364,7 @@ items:
     marketGroup: 830
     mass: 1.223E7
     name: Falcon
+    price: 1.4871496E7
     published: true
     volume: 96000.0
   Moracha:
@@ -538,6 +542,7 @@ items:
     marketGroup: 827
     mass: 1.137E7
     name: Pilgrim
+    price: 1.5013042E7
     published: true
     volume: 120000.0
   Rapier:
@@ -626,6 +631,7 @@ items:
     marketGroup: 836
     mass: 1.104E7
     name: Rapier
+    price: 1.4990532E7
     published: true
     volume: 85000.0
   Tiamat:
@@ -715,6 +721,7 @@ items:
     marketGroup: 1837
     mass: 9530000.0
     name: Tiamat
+    price: 7500000.0
     published: true
     volume: 118000.0
   Victor:
@@ -810,5 +817,6 @@ items:
     marketGroup: 1837
     mass: 1.165E7
     name: Victor
+    price: 1.0E8
     published: true
     volume: 116000.0

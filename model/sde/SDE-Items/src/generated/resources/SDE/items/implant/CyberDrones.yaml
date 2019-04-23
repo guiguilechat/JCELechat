@@ -10,6 +10,7 @@ items:
     id: 48149
     marketGroup: 2477
     name: CreoDron 'Bumblebee' Drone Tuner T10-5D
+    price: 200000.0
     published: true
     volume: 1.0
   CreoDron 'Yellowjacket' Drone Tuner D5-10T:
@@ -23,6 +24,7 @@ items:
     id: 48148
     marketGroup: 2477
     name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
+    price: 200000.0
     published: true
     volume: 1.0
   Overmind 'Goliath' Drone Tuner T25-10S:
@@ -36,6 +38,7 @@ items:
     id: 48746
     marketGroup: 2475
     name: Overmind 'Goliath' Drone Tuner T25-10S
+    price: 200000.0
     published: true
     volume: 1.0
   Overmind 'Hawkmoth' Drone Tuner S10-25T:
@@ -49,5 +52,6 @@ items:
     id: 48747
     marketGroup: 2475
     name: Overmind 'Hawkmoth' Drone Tuner S10-25T
+    price: 200000.0
     published: true
     volume: 1.0

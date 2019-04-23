@@ -10,5 +10,6 @@ items:
     marketGroup: 1275
     mass: 1000000.0
     name: Infrastructure Hub
+    price: 5.0E8
     published: true
     volume: 60000.0

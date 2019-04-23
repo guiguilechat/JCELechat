@@ -12,6 +12,7 @@ items:
     id: 11616
     marketGroup: 343
     name: Tracking Enhancer I Blueprint
+    price: 144000.0
     published: true
     volume: 0.01
   Tracking Enhancer II Blueprint:
@@ -19,5 +20,6 @@ items:
     TechLevel: 2
     id: 11848
     name: Tracking Enhancer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

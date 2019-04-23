@@ -27,6 +27,7 @@ items:
     marketGroup: 1015
     mass: 1000.0
     name: Focused Void Bomb
+    price: 2500.0
     published: true
     volume: 75.0
   Void Bomb:
@@ -57,5 +58,6 @@ items:
     marketGroup: 1015
     mass: 1000.0
     name: Void Bomb
+    price: 2500.0
     published: true
     volume: 75.0

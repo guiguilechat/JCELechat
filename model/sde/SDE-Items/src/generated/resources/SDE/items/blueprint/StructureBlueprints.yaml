@@ -3,70 +3,82 @@ items:
     id: 36961
     marketGroup: 2510
     name: Ansiblex Jump Gate Blueprint
+    price: 1.2E10
     published: true
     volume: 0.01
   Astrahus Blueprint:
     id: 36966
     marketGroup: 2156
     name: Astrahus Blueprint
+    price: 6.0E9
     published: true
     volume: 0.01
   Athanor Blueprint:
     id: 36977
     marketGroup: 2393
     name: Athanor Blueprint
+    price: 5.5E9
     published: true
     volume: 0.01
   Azbel Blueprint:
     id: 36972
     marketGroup: 2322
     name: Azbel Blueprint
+    price: 2.5E10
     published: true
     volume: 0.01
   Fortizar Blueprint:
     id: 36967
     marketGroup: 2156
     name: Fortizar Blueprint
+    price: 7.0E10
     published: true
     volume: 0.01
   Keepstar Blueprint:
     id: 36968
     marketGroup: 2156
     name: Keepstar Blueprint
+    price: 7.0E11
     published: true
     volume: 0.01
   Pharolux Cyno Beacon Blueprint:
     id: 36960
     marketGroup: 2510
     name: Pharolux Cyno Beacon Blueprint
+    price: 6.0E9
     published: true
     volume: 0.01
   Raitaru Blueprint:
     id: 36971
     marketGroup: 2322
     name: Raitaru Blueprint
+    price: 4.0E9
     published: true
     volume: 0.01
   Sotiyo Blueprint:
     id: 36973
     marketGroup: 2322
     name: Sotiyo Blueprint
+    price: 1.0E11
     published: true
     volume: 0.01
   Tatara Blueprint:
     id: 36978
     marketGroup: 2393
     name: Tatara Blueprint
+    price: 4.0E10
     published: true
     volume: 0.01
   Tenebrex Cyno Jammer Blueprint:
     id: 37538
     marketGroup: 2510
     name: Tenebrex Cyno Jammer Blueprint
+    price: 1.2E10
     published: true
     volume: 0.01
   Upwell Palatine Keepstar Blueprint:
     id: 40521
     name: Upwell Palatine Keepstar Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01

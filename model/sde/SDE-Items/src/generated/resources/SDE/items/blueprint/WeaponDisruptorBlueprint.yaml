@@ -18,6 +18,7 @@ items:
     id: 40338
     marketGroup: 1574
     name: Guidance Disruptor I Blueprint
+    price: 298240.0
     published: true
     volume: 0.01
   Guidance Disruptor II Blueprint:
@@ -32,6 +33,7 @@ items:
     id: 11614
     marketGroup: 1574
     name: Tracking Disruptor I Blueprint
+    price: 298240.0
     published: true
     volume: 0.01
   Tracking Disruptor II Blueprint:
@@ -39,5 +41,6 @@ items:
     TechLevel: 2
     id: 11844
     name: Tracking Disruptor II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

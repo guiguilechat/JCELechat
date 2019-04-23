@@ -4,6 +4,7 @@ items:
     id: 23537
     marketGroup: 1029
     name: Berserker SW-900 Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Valkyrie SW-600 Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 23730
     marketGroup: 1029
     name: Valkyrie SW-600 Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   Warrior SW-300 Blueprint:
@@ -18,5 +20,6 @@ items:
     id: 23732
     marketGroup: 1029
     name: Warrior SW-300 Blueprint
+    price: 400000.0
     published: true
     volume: 0.01

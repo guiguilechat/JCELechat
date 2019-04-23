@@ -3,6 +3,7 @@ items:
     id: 25847
     mass: 200.0
     name: A Really REALLY Clueless Tourist
+    price: 100.0
     published: true
     volume: 1.0
   Activists:
@@ -22,6 +23,7 @@ items:
     id: 29229
     mass: 90.0
     name: Amarr Diplomat
+    price: 100.0
     published: true
     volume: 1.0
   Amarr Forensic Investigative Deployment:
@@ -46,12 +48,14 @@ items:
     id: 3004
     mass: 900.0
     name: Amarr Marine Counter-Boarding Company
+    price: 50000.0
     published: true
     volume: 300.0
   Amarr Marine Counter-Boarding Team:
     id: 2999
     mass: 90.0
     name: Amarr Marine Counter-Boarding Team
+    price: 50000.0
     published: true
     volume: 30.0
   Amarr Reporter:
@@ -106,12 +110,14 @@ items:
     id: 2976
     mass: 320.0
     name: Arctic Warfare Marine Squads
+    price: 50000.0
     published: true
     volume: 320.0
   Arctic Warfare Marines:
     id: 2975
     mass: 32.0
     name: Arctic Warfare Marines
+    price: 50000.0
     published: true
     volume: 32.0
   Artificial Miyan:
@@ -184,6 +190,7 @@ items:
     id: 2942
     mass: 130.0
     name: Captured CEO
+    price: 1000.0
     published: true
     volume: 3.0
   Captured Civilians:
@@ -238,6 +245,7 @@ items:
     id: 3006
     mass: 300.0
     name: Conditioned House Slaves
+    price: 4000.0
     published: true
     volume: 30.0
   Construction Workers:
@@ -256,6 +264,7 @@ items:
     id: 2983
     mass: 200.0
     name: Corporate Assassin
+    price: 100.0
     published: true
     volume: 30.0
   Dagan:
@@ -280,6 +289,7 @@ items:
     id: 2984
     mass: 200.0
     name: Deep Cover Corporate Assassin
+    price: 100.0
     published: true
     volume: 300.0
   Doctor Luija Elban:
@@ -299,6 +309,7 @@ items:
     marketGroup: 23
     mass: 300.0
     name: Elite Slaves
+    price: 4000.0
     published: true
     volume: 1.0
   Engineer Tahaki Karin:
@@ -542,6 +553,7 @@ items:
     id: 3008
     mass: 3000.0
     name: Herd of Conditioned House Slaves
+    price: 4000.0
     published: true
     volume: 300.0
   Homeless:
@@ -611,6 +623,7 @@ items:
     marketGroup: 23
     mass: 90.0
     name: Kameiras
+    price: 50000.0
     published: true
     volume: 1.0
   Kardimo Palettan:
@@ -743,6 +756,7 @@ items:
     id: 32398
     mass: 80.0
     name: Lieutenant Kipo “Foxfire” Tekira
+    price: 100.0
     published: true
     volume: 1.0
   Lieutenant Kirus:
@@ -786,6 +800,7 @@ items:
     marketGroup: 23
     mass: 1000.0
     name: Marines
+    price: 1000.0
     published: true
     volume: 2.0
   Mercenary Pilot:
@@ -798,6 +813,7 @@ items:
     id: 25373
     mass: 1000.0
     name: Militants
+    price: 1000.0
     published: true
     volume: 2.0
   Mina Darabi:
@@ -828,6 +844,7 @@ items:
     id: 29219
     mass: 2.0
     name: Miniature Slaver
+    price: 3000.0
     published: true
     volume: 0.01
   Minmatar Civilians:
@@ -900,12 +917,14 @@ items:
     id: 28886
     mass: 80.0
     name: Prisoner
+    price: 100.0
     published: true
     volume: 1.0
   Prisoners:
     id: 3808
     mass: 560.0
     name: Prisoners
+    price: 100.0
     published: true
     volume: 7.5
   Production Assistant:
@@ -967,6 +986,7 @@ items:
     id: 26773
     mass: 1000000.0
     name: Regiment of Marines
+    price: 1000.0
     published: true
     volume: 2000.0
   Rogue Harvester:
@@ -1042,6 +1062,7 @@ items:
     marketGroup: 23
     mass: 30.0
     name: Slaver Hound
+    price: 3000.0
     published: true
     volume: 1.0
   Slaves:
@@ -1049,6 +1070,7 @@ items:
     marketGroup: 23
     mass: 450.0
     name: Slaves
+    price: 750.0
     published: true
     volume: 5.0
   Smugglers:
@@ -1085,6 +1107,7 @@ items:
     id: 30716
     mass: 80.0
     name: Tahaki Karin
+    price: 1000.0
     published: true
     volume: 3.0
   Tantima Areki:
@@ -1146,6 +1169,7 @@ items:
     marketGroup: 23
     mass: 200.0
     name: Tourists
+    price: 100.0
     published: true
     volume: 1.0
   Troubled Miner:
@@ -1158,12 +1182,14 @@ items:
     id: 3804
     mass: 130.0
     name: VIPs
+    price: 1000.0
     published: true
     volume: 3.0
   Valkears:
     id: 26908
     mass: 90.0
     name: Valkears
+    price: 50000.0
     published: true
     volume: 1.0
   Vira Mikano:

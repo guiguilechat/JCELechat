@@ -75,6 +75,7 @@ items:
     marketGroup: 472
     mass: 1.18E7
     name: Brutix
+    price: 2.7E7
     published: true
     volume: 270000.0
   Brutix Navy Issue:
@@ -155,6 +156,7 @@ items:
     marketGroup: 1704
     mass: 1.18E7
     name: Brutix Navy Issue
+    price: 2.7E7
     published: true
     volume: 270000.0
   Cyclone:
@@ -234,6 +236,7 @@ items:
     marketGroup: 473
     mass: 1.24E7
     name: Cyclone
+    price: 2.25E7
     published: true
     volume: 216000.0
   Drake:
@@ -312,6 +315,7 @@ items:
     marketGroup: 471
     mass: 1.35E7
     name: Drake
+    price: 3.8E7
     published: true
     volume: 252000.0
   Drake Navy Issue:
@@ -392,6 +396,7 @@ items:
     marketGroup: 1704
     mass: 1.35E7
     name: Drake Navy Issue
+    price: 3.8E7
     published: true
     volume: 252000.0
   Drekavac:
@@ -472,6 +477,7 @@ items:
     marketGroup: 2525
     mass: 9900000.0
     name: Drekavac
+    price: 1.65E8
     published: true
     volume: 233000.0
   Ferox:
@@ -550,6 +556,7 @@ items:
     marketGroup: 471
     mass: 1.325E7
     name: Ferox
+    price: 2.4E7
     published: true
     volume: 252000.0
   Gnosis:
@@ -705,6 +712,7 @@ items:
     marketGroup: 470
     mass: 1.55E7
     name: Harbinger
+    price: 3.85E7
     published: true
     volume: 234000.0
   Harbinger Navy Issue:
@@ -785,6 +793,7 @@ items:
     marketGroup: 1704
     mass: 1.55E7
     name: Harbinger Navy Issue
+    price: 3.85E7
     published: true
     volume: 234000.0
   Hurricane:
@@ -864,6 +873,7 @@ items:
     marketGroup: 473
     mass: 1.28E7
     name: Hurricane
+    price: 3.65E7
     published: true
     volume: 216000.0
   Hurricane Fleet Issue:
@@ -945,6 +955,7 @@ items:
     marketGroup: 1704
     mass: 1.28E7
     name: Hurricane Fleet Issue
+    price: 3.65E7
     published: true
     volume: 216000.0
   Myrmidon:
@@ -1023,6 +1034,7 @@ items:
     marketGroup: 472
     mass: 1.27E7
     name: Myrmidon
+    price: 4.0E7
     published: true
     volume: 270000.0
   Prophecy:
@@ -1102,5 +1114,6 @@ items:
     marketGroup: 470
     mass: 1.53E7
     name: Prophecy
+    price: 2.55E7
     published: true
     volume: 234000.0

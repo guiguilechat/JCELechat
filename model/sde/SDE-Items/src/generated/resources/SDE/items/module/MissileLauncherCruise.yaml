@@ -22,6 +22,7 @@ items:
     id: 16519
     marketGroup: 643
     name: '''Arbalest'' Cruise Launcher I'
+    price: 80118.0
     published: true
     volume: 20.0
   '''Limos'' Cruise Launcher I':
@@ -47,6 +48,7 @@ items:
     id: 16515
     marketGroup: 643
     name: '''Limos'' Cruise Launcher I'
+    price: 80118.0
     published: true
     volume: 20.0
   '''Malkuth'' Cruise Launcher I':
@@ -72,6 +74,7 @@ items:
     id: 16513
     marketGroup: 643
     name: '''Malkuth'' Cruise Launcher I'
+    price: 80118.0
     published: true
     volume: 20.0
   '''Noose'' Cruise Missile Launcher':
@@ -98,6 +101,7 @@ items:
     id: 20601
     marketGroup: 643
     name: '''Noose'' Cruise Missile Launcher'
+    price: 80118.0
     published: true
     volume: 20.0
   Caldari Navy Cruise Missile Launcher:
@@ -124,6 +128,7 @@ items:
     id: 16062
     marketGroup: 643
     name: Caldari Navy Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Cruise Missile Launcher I:
@@ -148,6 +153,7 @@ items:
     id: 13320
     marketGroup: 643
     name: Cruise Missile Launcher I
+    price: 80118.0
     published: true
     volume: 20.0
   Cruise Missile Launcher II:
@@ -174,6 +180,7 @@ items:
     id: 19739
     marketGroup: 643
     name: Cruise Missile Launcher II
+    price: 342262.0
     published: true
     volume: 20.0
   Domination Cruise Missile Launcher:
@@ -200,6 +207,7 @@ items:
     id: 13927
     marketGroup: 643
     name: Domination Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Dread Guristas Cruise Missile Launcher:
@@ -226,6 +234,7 @@ items:
     id: 13929
     marketGroup: 643
     name: Dread Guristas Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Estamel's Modified Cruise Missile Launcher:
@@ -252,6 +261,7 @@ items:
     id: 14678
     marketGroup: 643
     name: Estamel's Modified Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Gotan's Modified Cruise Missile Launcher:
@@ -278,6 +288,7 @@ items:
     id: 14520
     marketGroup: 643
     name: Gotan's Modified Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Hakim's Modified Cruise Missile Launcher:
@@ -304,6 +315,7 @@ items:
     id: 14518
     marketGroup: 643
     name: Hakim's Modified Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Kaikka's Modified Cruise Missile Launcher:
@@ -330,6 +342,7 @@ items:
     id: 14672
     marketGroup: 643
     name: Kaikka's Modified Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Mizuro's Modified Cruise Missile Launcher:
@@ -356,6 +369,7 @@ items:
     id: 14516
     marketGroup: 643
     name: Mizuro's Modified Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Republic Fleet Cruise Missile Launcher:
@@ -382,6 +396,7 @@ items:
     id: 17485
     marketGroup: 643
     name: Republic Fleet Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Thon's Modified Cruise Missile Launcher:
@@ -408,6 +423,7 @@ items:
     id: 14674
     marketGroup: 643
     name: Thon's Modified Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Tobias' Modified Cruise Missile Launcher:
@@ -434,6 +450,7 @@ items:
     id: 14522
     marketGroup: 643
     name: Tobias' Modified Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   True Sansha Cruise Missile Launcher:
@@ -460,6 +477,7 @@ items:
     id: 22568
     marketGroup: 643
     name: True Sansha Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   Vepas' Modified Cruise Missile Launcher:
@@ -486,6 +504,7 @@ items:
     id: 14676
     marketGroup: 643
     name: Vepas' Modified Cruise Missile Launcher
+    price: 99996.0
     published: true
     volume: 20.0
   XT-9000 Cruise Launcher:
@@ -511,5 +530,6 @@ items:
     id: 16517
     marketGroup: 643
     name: XT-9000 Cruise Launcher
+    price: 80118.0
     published: true
     volume: 20.0

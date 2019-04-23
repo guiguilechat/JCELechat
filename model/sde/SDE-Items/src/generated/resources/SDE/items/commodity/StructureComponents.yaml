@@ -5,6 +5,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Acceleration Coils
+    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Advertisement Nexus:
@@ -13,6 +14,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Advertisement Nexus
+    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Construction Parts:
@@ -21,6 +23,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Construction Parts
+    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Docking Bay:
@@ -29,6 +32,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Docking Bay
+    price: 8.4375E7
     published: true
     volume: 3000.0
   Structure EXERT Conduit Coupler:
@@ -37,6 +41,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure EXERT Conduit Coupler
+    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Electromagnetic Sensor:
@@ -45,6 +50,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Electromagnetic Sensor
+    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Factory:
@@ -53,6 +59,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Factory
+    price: 8.4375E7
     published: true
     volume: 3000.0
   Structure Hangar Array:
@@ -61,6 +68,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Hangar Array
+    price: 3.9375E7
     published: true
     volume: 3000.0
   Structure Laboratory:
@@ -69,6 +77,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Laboratory
+    price: 9.0E7
     published: true
     volume: 3000.0
   Structure Market Network:
@@ -77,6 +86,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Market Network
+    price: 1.425E8
     published: true
     volume: 3000.0
   Structure Medical Center:
@@ -85,6 +95,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Medical Center
+    price: 5.625E7
     published: true
     volume: 3000.0
   Structure Mission Network:
@@ -93,6 +104,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Mission Network
+    price: 7.25E7
     published: true
     volume: 3000.0
   Structure Office Center:
@@ -101,6 +113,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Office Center
+    price: 8.875E7
     published: true
     volume: 3000.0
   Structure Repair Facility:
@@ -109,6 +122,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Repair Facility
+    price: 9.5625E7
     published: true
     volume: 3000.0
   Structure Reprocessing Plant:
@@ -117,6 +131,7 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Reprocessing Plant
+    price: 9.5625E7
     published: true
     volume: 3000.0
   Structure Storage Bay:
@@ -125,5 +140,6 @@ items:
     marketGroup: 1865
     mass: 10000.0
     name: Structure Storage Bay
+    price: 2.25E7
     published: true
     volume: 3000.0

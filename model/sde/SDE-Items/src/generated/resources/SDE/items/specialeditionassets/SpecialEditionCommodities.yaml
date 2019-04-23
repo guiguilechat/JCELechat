@@ -1382,12 +1382,12 @@ items:
     name: Rules of Engagement
     published: true
     volume: 0.01
-  SCC Guidelines – Lotteries For Dummies:
+  SCC Guidelines �� Lotteries For Dummies:
     CpuMultiplier: 1.0
     id: 34425
     marketGroup: 1661
     mass: 10.0
-    name: SCC Guidelines – Lotteries For Dummies
+    name: SCC Guidelines �� Lotteries For Dummies
     published: true
     volume: 3.0
   Sani Sabik Murder Security Tapes:
@@ -1767,6 +1767,7 @@ items:
     id: 50039
     marketGroup: 1661
     name: YC121 Guardian's Gala Ticket
+    price: 2500000.0
     published: true
     volume: 0.01
   Yoiul Festival Fireworks Package:

@@ -12,6 +12,7 @@ items:
     marketGroup: 523
     mass: 1.0E35
     name: Compressed Fiery Kernite
+    price: 1236750.0
     published: true
     volume: 0.19
   Compressed Kernite:
@@ -27,6 +28,7 @@ items:
     marketGroup: 523
     mass: 1.0E35
     name: Compressed Kernite
+    price: 1123740.0
     published: true
     volume: 0.19
   Compressed Luminous Kernite:
@@ -42,6 +44,7 @@ items:
     marketGroup: 523
     mass: 1.0E35
     name: Compressed Luminous Kernite
+    price: 1179510.0
     published: true
     volume: 0.19
   Compressed Resplendant Kernite:
@@ -57,6 +60,7 @@ items:
     marketGroup: 523
     mass: 1.0
     name: Compressed Resplendant Kernite
+    price: 34200.0
     published: true
     volume: 0.19
   Fiery Kernite:
@@ -74,6 +78,7 @@ items:
     marketGroup: 523
     mass: 1.0E35
     name: Fiery Kernite
+    price: 82450.0
     published: true
     volume: 1.2
   Kernite:
@@ -91,6 +96,7 @@ items:
     marketGroup: 523
     mass: 1.0E35
     name: Kernite
+    price: 74916.0
     published: true
     volume: 1.2
   Luminous Kernite:
@@ -108,6 +114,7 @@ items:
     marketGroup: 523
     mass: 1.0E35
     name: Luminous Kernite
+    price: 78634.0
     published: true
     volume: 1.2
   Lyavite:
@@ -121,6 +128,7 @@ items:
     id: 28620
     mass: 1.0E35
     name: Lyavite
+    price: 74916.0
     published: true
     volume: 1.2
   Resplendant Kernite:
@@ -138,5 +146,6 @@ items:
     marketGroup: 523
     mass: 1.0E35
     name: Resplendant Kernite
+    price: 310.0
     published: true
     volume: 1.2

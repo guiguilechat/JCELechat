@@ -78,6 +78,7 @@ items:
     marketGroup: 1069
     mass: 1191300.0
     name: Hyena
+    price: 2084040.0
     published: true
     volume: 17400.0
   Keres:
@@ -160,6 +161,7 @@ items:
     marketGroup: 1068
     mass: 1204500.0
     name: Keres
+    price: 2428948.0
     published: true
     volume: 23000.0
   Kitsune:
@@ -240,6 +242,7 @@ items:
     marketGroup: 1067
     mass: 1228700.0
     name: Kitsune
+    price: 2426356.0
     published: true
     volume: 19400.0
   Sentinel:
@@ -322,5 +325,6 @@ items:
     marketGroup: 1066
     mass: 1223200.0
     name: Sentinel
+    price: 2401508.0
     published: true
     volume: 28100.0

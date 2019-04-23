@@ -53,6 +53,7 @@ items:
     marketGroup: 801
     mass: 1.0
     name: Bastion Module I
+    price: 5000000.0
     published: true
     volume: 200.0
   Industrial Core I:
@@ -107,6 +108,7 @@ items:
     marketGroup: 801
     mass: 1.0
     name: Industrial Core I
+    price: 3.7609578E7
     published: true
     volume: 4000.0
   Industrial Core II:
@@ -163,6 +165,7 @@ items:
     marketGroup: 801
     mass: 1.0
     name: Industrial Core II
+    price: 3.7609578E7
     published: true
     volume: 4000.0
   Siege Module I:
@@ -213,6 +216,7 @@ items:
     marketGroup: 801
     mass: 1.0
     name: Siege Module I
+    price: 4.7022756E7
     published: true
     volume: 4000.0
   Siege Module II:
@@ -264,6 +268,7 @@ items:
     marketGroup: 801
     mass: 1.0
     name: Siege Module II
+    price: 4.7022756E7
     published: true
     volume: 4000.0
   Triage Module I:
@@ -316,6 +321,7 @@ items:
     marketGroup: 801
     mass: 1.0
     name: Triage Module I
+    price: 4.7022756E7
     published: true
     volume: 4000.0
   Triage Module II:
@@ -368,5 +374,6 @@ items:
     marketGroup: 801
     mass: 1.0
     name: Triage Module II
+    price: 4.7022756E7
     published: true
     volume: 4000.0

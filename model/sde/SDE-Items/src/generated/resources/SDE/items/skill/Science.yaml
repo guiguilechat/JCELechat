@@ -10,6 +10,7 @@ items:
     id: 24624
     marketGroup: 375
     name: Advanced Laboratory Operation
+    price: 2.0E7
     published: true
     volume: 0.01
   Amarr Encryption Methods:
@@ -35,6 +36,7 @@ items:
     id: 11444
     marketGroup: 375
     name: Amarr Starship Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Astronautic Engineering:
@@ -49,6 +51,7 @@ items:
     id: 11487
     marketGroup: 375
     name: Astronautic Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Caldari Encryption Methods:
@@ -74,6 +77,7 @@ items:
     id: 11454
     marketGroup: 375
     name: Caldari Starship Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Core Subsystem Technology:
@@ -87,6 +91,7 @@ items:
     id: 30325
     marketGroup: 375
     name: Core Subsystem Technology
+    price: 1.0E7
     published: true
     volume: 0.01
   Defensive Subsystem Technology:
@@ -100,6 +105,7 @@ items:
     id: 30324
     marketGroup: 375
     name: Defensive Subsystem Technology
+    price: 1.0E7
     published: true
     volume: 0.01
   Electromagnetic Physics:
@@ -114,6 +120,7 @@ items:
     id: 11448
     marketGroup: 375
     name: Electromagnetic Physics
+    price: 1.0E7
     published: true
     volume: 0.01
   Electronic Engineering:
@@ -128,6 +135,7 @@ items:
     id: 11453
     marketGroup: 375
     name: Electronic Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Gallente Encryption Methods:
@@ -153,6 +161,7 @@ items:
     id: 11450
     marketGroup: 375
     name: Gallente Starship Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Graviton Physics:
@@ -167,6 +176,7 @@ items:
     id: 11446
     marketGroup: 375
     name: Graviton Physics
+    price: 1.0E7
     published: true
     volume: 0.01
   High Energy Physics:
@@ -181,6 +191,7 @@ items:
     id: 11433
     marketGroup: 375
     name: High Energy Physics
+    price: 1.0E7
     published: true
     volume: 0.01
   Hydromagnetic Physics:
@@ -195,6 +206,7 @@ items:
     id: 11443
     marketGroup: 375
     name: Hydromagnetic Physics
+    price: 1.0E7
     published: true
     volume: 0.01
   Laboratory Operation:
@@ -208,6 +220,7 @@ items:
     id: 3406
     marketGroup: 375
     name: Laboratory Operation
+    price: 300000.0
     published: true
     volume: 0.01
   Laser Physics:
@@ -222,6 +235,7 @@ items:
     id: 11447
     marketGroup: 375
     name: Laser Physics
+    price: 1.0E7
     published: true
     volume: 0.01
   Mechanical Engineering:
@@ -236,6 +250,7 @@ items:
     id: 11452
     marketGroup: 375
     name: Mechanical Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Metallurgy:
@@ -248,6 +263,7 @@ items:
     id: 3409
     marketGroup: 375
     name: Metallurgy
+    price: 350000.0
     published: true
     volume: 0.01
   Minmatar Encryption Methods:
@@ -273,6 +289,7 @@ items:
     id: 11445
     marketGroup: 375
     name: Minmatar Starship Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Molecular Engineering:
@@ -287,6 +304,7 @@ items:
     id: 11529
     marketGroup: 375
     name: Molecular Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Nanite Engineering:
@@ -301,6 +319,7 @@ items:
     id: 11442
     marketGroup: 375
     name: Nanite Engineering
+    price: 1.0E7
     published: true
     volume: 0.01
   Nuclear Physics:
@@ -315,6 +334,7 @@ items:
     id: 11451
     marketGroup: 375
     name: Nuclear Physics
+    price: 1.0E7
     published: true
     volume: 0.01
   Offensive Subsystem Technology:
@@ -328,6 +348,7 @@ items:
     id: 30327
     marketGroup: 375
     name: Offensive Subsystem Technology
+    price: 1.0E7
     published: true
     volume: 0.01
   Plasma Physics:
@@ -342,6 +363,7 @@ items:
     id: 11441
     marketGroup: 375
     name: Plasma Physics
+    price: 1.0E7
     published: true
     volume: 0.01
   Propulsion Subsystem Technology:
@@ -355,6 +377,7 @@ items:
     id: 30788
     marketGroup: 375
     name: Propulsion Subsystem Technology
+    price: 1.0E7
     published: true
     volume: 0.01
   Quantum Physics:
@@ -369,6 +392,7 @@ items:
     id: 11455
     marketGroup: 375
     name: Quantum Physics
+    price: 1.0E7
     published: true
     volume: 0.01
   Research:
@@ -381,6 +405,7 @@ items:
     id: 3403
     marketGroup: 375
     name: Research
+    price: 300000.0
     published: true
     volume: 0.01
   Research Project Management:
@@ -396,6 +421,7 @@ items:
     id: 12179
     marketGroup: 375
     name: Research Project Management
+    price: 4.0E7
     published: true
     volume: 0.01
   Rocket Science:
@@ -410,6 +436,7 @@ items:
     id: 11449
     marketGroup: 375
     name: Rocket Science
+    price: 1.0E7
     published: true
     volume: 0.01
   Science:
@@ -420,6 +447,7 @@ items:
     id: 3402
     marketGroup: 375
     name: Science
+    price: 20000.0
     published: true
     volume: 0.01
   Scientific Networking:
@@ -431,6 +459,7 @@ items:
     id: 24270
     marketGroup: 375
     name: Scientific Networking
+    price: 7500000.0
     published: true
     volume: 0.01
   Sleeper Encryption Methods:
@@ -447,6 +476,7 @@ items:
     id: 3408
     marketGroup: 375
     name: Sleeper Encryption Methods
+    price: 1.5E7
     published: true
     volume: 0.01
   Sleeper Technology:

@@ -2,1462 +2,1756 @@ items:
   '''Agema'' Basic-M gk.0':
     id: 369482
     name: '''Agema'' Basic-M gk.0'
+    price: 48000.0
     published: false
   '''Alcyon'' Basic-H G/I+':
     id: 369546
     name: '''Alcyon'' Basic-H G/I+'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Anasoma'' Sentinel A-I':
     id: 354271
     name: '''Anasoma'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Anasoma'' Sentinel A/1-Series':
     id: 354272
     name: '''Anasoma'' Sentinel A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Anasoma'' Sentinel ak.0':
     id: 354273
     name: '''Anasoma'' Sentinel ak.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Aoide'' Basic-L G/I':
     id: 369514
     name: '''Aoide'' Basic-L G/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Aventail'' Basic-H A-I':
     id: 369539
     name: '''Aventail'' Basic-H A-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Basilo'' Basic-H M-I':
     id: 369548
     name: '''Basilo'' Basic-H M-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Behemoth'' Sentinel A-I+':
     id: 367453
     name: '''Behemoth'' Sentinel A-I+'
+    price: 6800.0
     published: false
     volume: 0.01
   '''Black Eagle'' Scout G/1-Series':
     id: 364178
     name: '''Black Eagle'' Scout G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Brutor'' Commando M-I':
     id: 368581
     name: '''Brutor'' Commando M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Brutor'' Logistics M-I':
     id: 368576
     name: '''Brutor'' Logistics M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''CQC'' Scout G-I':
     id: 364096
     name: '''CQC'' Scout G-I'
+    price: 610.0
     published: false
     volume: 0.01
   '''Calliope'' Basic-L gk.0':
     id: 369515
     name: '''Calliope'' Basic-L gk.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Carbon'' Assault C-I':
     id: 353959
     name: '''Carbon'' Assault C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Carbon'' Assault C/1-Series':
     id: 353960
     name: '''Carbon'' Assault C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Carbon'' Assault ck.0':
     id: 353962
     name: '''Carbon'' Assault ck.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Celeus'' Assault gk.0':
     id: 369479
     name: '''Celeus'' Assault gk.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Colossus'' Sentinel A-I':
     id: 354192
     name: '''Colossus'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Colossus'' Sentinel A/1-Series':
     id: 354251
     name: '''Colossus'' Sentinel A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Colossus'' Sentinel ak.0':
     id: 354252
     name: '''Colossus'' Sentinel ak.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Covenant'' Assault C-I':
     id: 356840
     name: '''Covenant'' Assault C-I'
+    price: 610.0
     published: false
     volume: 0.01
   '''Cuirass'' Basic-H ak.0':
     id: 369541
     name: '''Cuirass'' Basic-H ak.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Dorudon'' Basic-H M/I':
     id: 369549
     name: '''Dorudon'' Basic-H M/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Dragonfly'' Assault [nSv]':
     id: 363397
     name: '''Dragonfly'' Assault [nSv]'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Dragonfly'' Scout [nSv]':
     id: 355430
     name: '''Dragonfly'' Scout [nSv]'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Dren'' Assault C-I':
     id: 356827
     name: '''Dren'' Assault C-I'
+    price: 610.0
     published: false
     volume: 0.01
   '''Dren'' Logistics M-I':
     id: 356829
     name: '''Dren'' Logistics M-I'
+    price: 610.0
     published: false
     volume: 0.01
   '''Dren'' Scout G-I':
     id: 356830
     name: '''Dren'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Dren'' Sentinel A-I':
     id: 356828
     name: '''Dren'' Sentinel A-I'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Egil'' Basic-M mk.0':
     id: 369438
     name: '''Egil'' Basic-M mk.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Enkidu'' Sentinel G-I+':
     id: 367457
     name: '''Enkidu'' Sentinel G-I+'
+    price: 6800.0
     published: false
     volume: 0.01
   '''Eon'' Militia Amarr Heavy Frame':
     id: 356023
     name: '''Eon'' Militia Amarr Heavy Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Eon'' Sentinel A-I':
     id: 356034
     name: '''Eon'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Federal Marine'' Assault G/1-Series':
     id: 366342
     name: '''Federal Marine'' Assault G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Federal Marine'' Assault gk.0':
     id: 366343
     name: '''Federal Marine'' Assault gk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Firebrand'' Assault C-I':
     id: 353963
     name: '''Firebrand'' Assault C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Firebrand'' Assault C/1-Series':
     id: 353964
     name: '''Firebrand'' Assault C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Firebrand'' Assault ck.0':
     id: 353965
     name: '''Firebrand'' Assault ck.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Flying Scotsman'' Assault ck.0':
     id: 365928
     name: '''Flying Scotsman'' Assault ck.0'
+    price: 57690.0
     published: false
     volume: 0.01
   '''Forseti'' Assault mk.0':
     id: 369441
     name: '''Forseti'' Assault mk.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Fossil'' Logistics M-I':
     id: 356038
     name: '''Fossil'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Fossil'' Militia Minmatar Medium Frame':
     id: 356022
     name: '''Fossil'' Militia Minmatar Medium Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Foxfour'' Assault G-I':
     id: 365940
     name: '''Foxfour'' Assault G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Grettir'' Basic-M M-I':
     id: 368066
     name: '''Grettir'' Basic-M M-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Guruwa'' Basic-H C-I':
     id: 369542
     name: '''Guruwa'' Basic-H C-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Halberd'' Basic-L A-I':
     id: 369507
     name: '''Halberd'' Basic-L A-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Harbinger'' Amarr Medium Frame A-I':
     id: 365421
     name: '''Harbinger'' Amarr Medium Frame A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Hastati'' Basic-M A-I':
     id: 368061
     name: '''Hastati'' Basic-M A-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Hazard'' Logistics M-I':
     id: 354007
     name: '''Hazard'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Hazard'' Logistics M/1-Series':
     id: 354317
     name: '''Hazard'' Logistics M/1-Series'
+    price: 12160.0
     published: false
     volume: 0.01
   '''Hazard'' Logistics mk.0':
     id: 354277
     name: '''Hazard'' Logistics mk.0'
+    price: 53640.0
     published: false
     volume: 0.01
   '''Hecaton'' Basic-H G-I':
     id: 369545
     name: '''Hecaton'' Basic-H G-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Hellmar'' Sentinel ak.0':
     id: 365930
     name: '''Hellmar'' Sentinel ak.0'
+    price: 57690.0
     published: false
   '''Hermod'' Assault mk.0+':
     id: 369443
     name: '''Hermod'' Assault mk.0+'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Hunter'' Scout G-I':
     id: 364097
     name: '''Hunter'' Scout G-I'
+    price: 610.0
     published: false
     volume: 0.01
   '''Imperial Guard'' Assault A/1-Series':
     id: 366340
     name: '''Imperial Guard'' Assault A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Imperial Guard'' Assault ak.0':
     id: 366341
     name: '''Imperial Guard'' Assault ak.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Izanami'' Sentinel C-I+':
     id: 367455
     name: '''Izanami'' Sentinel C-I+'
+    price: 6800.0
     published: false
     volume: 0.01
   '''Jokul'' Basic-M M-I':
     id: 369451
     name: '''Jokul'' Basic-M M-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Jord'' Basic-L M/I':
     id: 369517
     name: '''Jord'' Basic-L M/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Jotunn'' Sentinel M-I+':
     id: 367456
     name: '''Jotunn'' Sentinel M-I+'
+    price: 6800.0
     published: false
     volume: 0.01
   '''Kaalakiota'' Assault C-I':
     id: 368582
     name: '''Kaalakiota'' Assault C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Kaalakiota'' Scout C-I':
     id: 368583
     name: '''Kaalakiota'' Scout C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Kakali'' Basic-M mk.0+':
     id: 369453
     name: '''Kakali'' Basic-M mk.0+'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Kari'' Basic-M M/I':
     id: 368067
     name: '''Kari'' Basic-M M/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Kindred'' Scout G-I':
     id: 353961
     name: '''Kindred'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Kindred'' Scout G/1-Series':
     id: 353966
     name: '''Kindred'' Scout G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Kindred'' Scout gk.0':
     id: 353967
     name: '''Kindred'' Scout gk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Kote'' Basic-H C/I':
     id: 369543
     name: '''Kote'' Basic-H C/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Kullervo'' Basic-M C-I':
     id: 368069
     name: '''Kullervo'' Basic-M C-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Legio'' Basic-M ak.0':
     id: 369470
     name: '''Legio'' Basic-M ak.0'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Lempo'' Basic-L C/I':
     id: 369511
     name: '''Lempo'' Basic-L C/I'
+    price: 16000.0
     published: false
   '''Loceros'' Basic-H mk.0':
     id: 369550
     name: '''Loceros'' Basic-H mk.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Logicloop'' Scout M-I':
     id: 365938
     name: '''Logicloop'' Scout M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Magni'' Assault M-I+':
     id: 367450
     name: '''Magni'' Assault M-I+'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Malik'' Assault ak.0+':
     id: 369476
     name: '''Malik'' Assault ak.0+'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Marras'' Basic-M ck.0':
     id: 369481
     name: '''Marras'' Basic-M ck.0'
+    price: 48000.0
     published: false
   '''Mauler'' Sentinel A-I':
     id: 364099
     name: '''Mauler'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Melete'' Basic-L G-I':
     id: 369513
     name: '''Melete'' Basic-L G-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Memnon'' Assault G-I+':
     id: 367451
     name: '''Memnon'' Assault G-I+'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Menpo'' Basic-H ck.0':
     id: 369544
     name: '''Menpo'' Basic-H ck.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Mimas'' Basic-H G/I':
     id: 369547
     name: '''Mimas'' Basic-H G/I'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Modi'' Assault M/I+':
     id: 369442
     name: '''Modi'' Assault M/I+'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Nakir'' Assault ak.0':
     id: 369475
     name: '''Nakir'' Assault ak.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Neo'' Assault A-I':
     id: 365315
     name: '''Neo'' Assault A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Assault A/1-Series':
     id: 365316
     name: '''Neo'' Assault A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Assault C-I':
     id: 356619
     name: '''Neo'' Assault C-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Assault C/1-Series':
     id: 356617
     name: '''Neo'' Assault C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Assault G-I':
     id: 365318
     name: '''Neo'' Assault G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Assault G/1-Series':
     id: 365319
     name: '''Neo'' Assault G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Assault M-I':
     id: 365321
     name: '''Neo'' Assault M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Assault M/1-Series':
     id: 365322
     name: '''Neo'' Assault M/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Assault ak.0':
     id: 365317
     name: '''Neo'' Assault ak.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Assault ck.0':
     id: 356618
     name: '''Neo'' Assault ck.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Assault gk.0':
     id: 365320
     name: '''Neo'' Assault gk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Assault mk.0':
     id: 365323
     name: '''Neo'' Assault mk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Commando A-I':
     id: 365297
     name: '''Neo'' Commando A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Commando A/1-Series':
     id: 365298
     name: '''Neo'' Commando A/1-Series'
+    price: 13155.0
     published: false
     volume: 0.01
   '''Neo'' Commando C-I':
     id: 366716
     name: '''Neo'' Commando C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Commando C/1-Series':
     id: 366717
     name: '''Neo'' Commando C/1-Series'
+    price: 13155.0
     published: false
     volume: 0.01
   '''Neo'' Commando G-I':
     id: 366719
     name: '''Neo'' Commando G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Commando G/1-Series':
     id: 366720
     name: '''Neo'' Commando G/1-Series'
+    price: 13155.0
     published: false
     volume: 0.01
   '''Neo'' Commando M-I':
     id: 366722
     name: '''Neo'' Commando M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Commando M/1-Series':
     id: 366723
     name: '''Neo'' Commando M/1-Series'
+    price: 13155.0
     published: false
   '''Neo'' Commando ak.0':
     id: 365299
     name: '''Neo'' Commando ak.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Commando ck.0':
     id: 366718
     name: '''Neo'' Commando ck.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Commando gk.0':
     id: 366721
     name: '''Neo'' Commando gk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Commando mk.0':
     id: 366724
     name: '''Neo'' Commando mk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Logistics A-I':
     id: 365306
     name: '''Neo'' Logistics A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Logistics A/1-Series':
     id: 365307
     name: '''Neo'' Logistics A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Logistics C-I':
     id: 365312
     name: '''Neo'' Logistics C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Logistics C/1-Series':
     id: 365313
     name: '''Neo'' Logistics C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Logistics G-I':
     id: 365309
     name: '''Neo'' Logistics G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Logistics G/1-Series':
     id: 365310
     name: '''Neo'' Logistics G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Logistics M-I':
     id: 356628
     name: '''Neo'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Logistics M/1-Series':
     id: 356626
     name: '''Neo'' Logistics M/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Logistics ak.0':
     id: 365308
     name: '''Neo'' Logistics ak.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Logistics ck.0':
     id: 365314
     name: '''Neo'' Logistics ck.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Logistics gk.0':
     id: 365311
     name: '''Neo'' Logistics gk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Logistics mk.0':
     id: 356627
     name: '''Neo'' Logistics mk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Pilot G-I':
     id: 365300
     name: '''Neo'' Pilot G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Pilot G/1-Series':
     id: 365301
     name: '''Neo'' Pilot G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Pilot M-I':
     id: 365303
     name: '''Neo'' Pilot M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Pilot M/1-Series':
     id: 365304
     name: '''Neo'' Pilot M/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Pilot gk.0':
     id: 365302
     name: '''Neo'' Pilot gk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Pilot mk.0':
     id: 365305
     name: '''Neo'' Pilot mk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Scout A-I':
     id: 365971
     name: '''Neo'' Scout A-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Scout A/1-Series':
     id: 365972
     name: '''Neo'' Scout A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Scout C-I':
     id: 365974
     name: '''Neo'' Scout C-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Scout C/1-Series':
     id: 365975
     name: '''Neo'' Scout C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Scout G-I':
     id: 356622
     name: '''Neo'' Scout G-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Scout G/1-Series':
     id: 356620
     name: '''Neo'' Scout G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Scout M-I':
     id: 365324
     name: '''Neo'' Scout M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Neo'' Scout M/1-Series':
     id: 365325
     name: '''Neo'' Scout M/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Neo'' Scout ak.0':
     id: 365973
     name: '''Neo'' Scout ak.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Scout ck.0':
     id: 365976
     name: '''Neo'' Scout ck.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Scout gk.0':
     id: 356621
     name: '''Neo'' Scout gk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Scout mk.0':
     id: 365326
     name: '''Neo'' Scout mk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel A-I':
     id: 356625
     name: '''Neo'' Sentinel A-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel A/1-Series':
     id: 356623
     name: '''Neo'' Sentinel A/1-Series'
+    price: 13155.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel C-I':
     id: 366683
     name: '''Neo'' Sentinel C-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel C/1-Series':
     id: 366684
     name: '''Neo'' Sentinel C/1-Series'
+    price: 13155.0
     published: false
   '''Neo'' Sentinel G-I':
     id: 366680
     name: '''Neo'' Sentinel G-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel G/1-Series':
     id: 366681
     name: '''Neo'' Sentinel G/1-Series'
+    price: 13155.0
     published: false
   '''Neo'' Sentinel M-I':
     id: 366677
     name: '''Neo'' Sentinel M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel M/1-Series':
     id: 366678
     name: '''Neo'' Sentinel M/1-Series'
+    price: 13155.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel ak.0':
     id: 356624
     name: '''Neo'' Sentinel ak.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel ck.0':
     id: 366685
     name: '''Neo'' Sentinel ck.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel gk.0':
     id: 366682
     name: '''Neo'' Sentinel gk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Neo'' Sentinel mk.0':
     id: 366679
     name: '''Neo'' Sentinel mk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Numeri'' Basic-M A-I':
     id: 369469
     name: '''Numeri'' Basic-M A-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Oblivion'' Logistics M-I':
     id: 354237
     name: '''Oblivion'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Oblivion'' Logistics M/1-Series':
     id: 354274
     name: '''Oblivion'' Logistics M/1-Series'
+    price: 12160.0
     published: false
     volume: 0.01
   '''Oblivion'' Logistics mk.0':
     id: 354275
     name: '''Oblivion'' Logistics mk.0'
+    price: 53640.0
     published: false
     volume: 0.01
   '''Orchid'' Assault C-I':
     id: 353975
     name: '''Orchid'' Assault C-I'
+    price: 6800.0
     published: false
     volume: 0.01
   '''Origin'' Assault C-I':
     id: 365993
     name: '''Origin'' Assault C-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Origin'' Logistics M-I':
     id: 365994
     name: '''Origin'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Partisan'' Basic-L A/I':
     id: 369508
     name: '''Partisan'' Basic-L A/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Perkele'' Basic-L ck.0':
     id: 369512
     name: '''Perkele'' Basic-L ck.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Phalanx'' Basic-M G/I':
     id: 368065
     name: '''Phalanx'' Basic-M G/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Piru'' Basic-L C-I':
     id: 369510
     name: '''Piru'' Basic-L C-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Primordial'' Assault C-I':
     id: 356032
     name: '''Primordial'' Assault C-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Primordial'' Militia Caldari Medium Frame':
     id: 356015
     name: '''Primordial'' Militia Caldari Medium Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Principe'' Basic-M A/I':
     id: 368062
     name: '''Principe'' Basic-M A/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault A-I':
     id: 365700
     name: '''Pyrus'' Assault A-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault A/1-Series':
     id: 365701
     name: '''Pyrus'' Assault A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault C-I':
     id: 365703
     name: '''Pyrus'' Assault C-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault C/1-Series':
     id: 365704
     name: '''Pyrus'' Assault C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault G-I':
     id: 365706
     name: '''Pyrus'' Assault G-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault G/1-Series':
     id: 365707
     name: '''Pyrus'' Assault G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault M-I':
     id: 365709
     name: '''Pyrus'' Assault M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault M/1-Series':
     id: 365710
     name: '''Pyrus'' Assault M/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault ak.0':
     id: 365702
     name: '''Pyrus'' Assault ak.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault ck.0':
     id: 365705
     name: '''Pyrus'' Assault ck.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault gk.0':
     id: 365708
     name: '''Pyrus'' Assault gk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Assault mk.0':
     id: 365711
     name: '''Pyrus'' Assault mk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Commando A-I':
     id: 365727
     name: '''Pyrus'' Commando A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Pyrus'' Commando A/1-Series':
     id: 365728
     name: '''Pyrus'' Commando A/1-Series'
+    price: 13155.0
     published: false
     volume: 0.01
   '''Pyrus'' Commando ak.0':
     id: 365729
     name: '''Pyrus'' Commando ak.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics A-I':
     id: 365712
     name: '''Pyrus'' Logistics A-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics A/1-Series':
     id: 365713
     name: '''Pyrus'' Logistics A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics C-I':
     id: 365715
     name: '''Pyrus'' Logistics C-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics C/1-Series':
     id: 365716
     name: '''Pyrus'' Logistics C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics G-I':
     id: 365718
     name: '''Pyrus'' Logistics G-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics G/1-Series':
     id: 365719
     name: '''Pyrus'' Logistics G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics M-I':
     id: 365721
     name: '''Pyrus'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics M/1-Series':
     id: 365722
     name: '''Pyrus'' Logistics M/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics ak.0':
     id: 365714
     name: '''Pyrus'' Logistics ak.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics ck.0':
     id: 365717
     name: '''Pyrus'' Logistics ck.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics gk.0':
     id: 365720
     name: '''Pyrus'' Logistics gk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Logistics mk.0':
     id: 365723
     name: '''Pyrus'' Logistics mk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Scout G-I':
     id: 365694
     name: '''Pyrus'' Scout G-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Scout G/1-Series':
     id: 365695
     name: '''Pyrus'' Scout G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Scout M-I':
     id: 365697
     name: '''Pyrus'' Scout M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Scout M/1-Series':
     id: 365698
     name: '''Pyrus'' Scout M/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Pyrus'' Scout gk.0':
     id: 365696
     name: '''Pyrus'' Scout gk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Scout mk.0':
     id: 365699
     name: '''Pyrus'' Scout mk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Pyrus'' Sentinel A-I':
     id: 365724
     name: '''Pyrus'' Sentinel A-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Pyrus'' Sentinel A/1-Series':
     id: 365725
     name: '''Pyrus'' Sentinel A/1-Series'
+    price: 13155.0
     published: false
     volume: 0.01
   '''Pyrus'' Sentinel ak.0':
     id: 365726
     name: '''Pyrus'' Sentinel ak.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Quafe'' Assault A-I':
     id: 367654
     name: '''Quafe'' Assault A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Assault C-I':
     id: 356053
     name: '''Quafe'' Assault C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Assault C/1-Series':
     id: 356056
     name: '''Quafe'' Assault C/1-Series'
+    price: 14280.0
     published: false
     volume: 0.01
   '''Quafe'' Assault G-I':
     id: 367653
     name: '''Quafe'' Assault G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Assault M-I':
     id: 367655
     name: '''Quafe'' Assault M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Assault ck.0':
     id: 356058
     name: '''Quafe'' Assault ck.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Quafe'' Commando A-I':
     id: 368552
     name: '''Quafe'' Commando A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Commando C-I':
     id: 368553
     name: '''Quafe'' Commando C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Commando G-I':
     id: 368554
     name: '''Quafe'' Commando G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Commando M-I':
     id: 368555
     name: '''Quafe'' Commando M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Logistics A-I':
     id: 368548
     name: '''Quafe'' Logistics A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Logistics C-I':
     id: 368549
     name: '''Quafe'' Logistics C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Logistics G-I':
     id: 368550
     name: '''Quafe'' Logistics G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Logistics M-I':
     id: 368551
     name: '''Quafe'' Logistics M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Scout A-I':
     id: 367657
     name: '''Quafe'' Scout A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Scout C-I':
     id: 367656
     name: '''Quafe'' Scout C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Scout G-I':
     id: 356059
     name: '''Quafe'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Scout M-I':
     id: 367658
     name: '''Quafe'' Scout M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Scout gk.0':
     id: 356065
     name: '''Quafe'' Scout gk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Quafe'' Sentinel A-I':
     id: 367651
     name: '''Quafe'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Sentinel C-I':
     id: 367650
     name: '''Quafe'' Sentinel C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Sentinel G-I':
     id: 367634
     name: '''Quafe'' Sentinel G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Quafe'' Sentinel M-I':
     id: 367652
     name: '''Quafe'' Sentinel M-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Raider'' Scout G-I':
     id: 364095
     name: '''Raider'' Scout G-I'
+    price: 610.0
     published: false
     volume: 0.01
   '''Ranseur'' Basic-L ak.0':
     id: 369509
     name: '''Ranseur'' Basic-L ak.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Rattati'' Assault G/1-Series':
     id: 365936
     name: '''Rattati'' Assault G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Raven'' Assault C-I':
     id: 356031
     name: '''Raven'' Assault C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Raven'' Logistics M-I':
     id: 356112
     name: '''Raven'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Raven'' Scout G-I':
     id: 356113
     name: '''Raven'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Raven'' Sentinel A-I':
     id: 356109
     name: '''Raven'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Relic'' Assault C-I':
     id: 353994
     name: '''Relic'' Assault C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Relic'' Assault C/1-Series':
     id: 354003
     name: '''Relic'' Assault C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Relic'' Assault ck.0':
     id: 354005
     name: '''Relic'' Assault ck.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Remnant IX'' Logistics mk.0':
     id: 365932
     name: '''Remnant IX'' Logistics mk.0'
+    price: 57690.0
     published: false
   '''Republic Command'' Assault M/1-Series':
     id: 366338
     name: '''Republic Command'' Assault M/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Republic Command'' Assault mk.0':
     id: 366339
     name: '''Republic Command'' Assault mk.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Roden'' Commando G-I':
     id: 368585
     name: '''Roden'' Commando G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Roden'' Scout G-I':
     id: 368584
     name: '''Roden'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Sarak'' Assault A-I+':
     id: 367442
     name: '''Sarak'' Assault A-I+'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Sever'' Assault C-I':
     id: 356107
     name: '''Sever'' Assault C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Sever'' Logistics M-I':
     id: 356037
     name: '''Sever'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Sever'' Scout G-I':
     id: 356114
     name: '''Sever'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Sever'' Sentinel A-I':
     id: 356110
     name: '''Sever'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Skadi'' Basic-L M-I':
     id: 369516
     name: '''Skadi'' Basic-L M-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Skinweave'' Militia Amarr Heavy Frame':
     id: 355771
     name: '''Skinweave'' Militia Amarr Heavy Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Skinweave'' Militia Caldari Medium Frame':
     id: 355720
     name: '''Skinweave'' Militia Caldari Medium Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Skinweave'' Militia Gallente Light Frame':
     id: 355767
     name: '''Skinweave'' Militia Gallente Light Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Skinweave'' Militia Minmatar Medium Frame':
     id: 355768
     name: '''Skinweave'' Militia Minmatar Medium Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Sol'' Basic-L mk.0':
     id: 369518
     name: '''Sol'' Basic-L mk.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Solstice'' Scout G-I':
     id: 353974
     name: '''Solstice'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Solstice'' Scout G/1-Series':
     id: 354234
     name: '''Solstice'' Scout G/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''Solstice'' Scout gk.0':
     id: 354235
     name: '''Solstice'' Scout gk.0'
+    price: 21540.0
     published: false
     volume: 0.01
   '''Stahl'' Assault C-I':
     id: 366346
     name: '''Stahl'' Assault C-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Stallo'' Assault ck.0+':
     id: 369478
     name: '''Stallo'' Assault ck.0+'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Starkad'' Basic-M M/I+':
     id: 369452
     name: '''Starkad'' Basic-M M/I+'
+    price: 16000.0
     published: false
     volume: 0.01
   '''State Peacekeeper'' Assault C/1-Series':
     id: 366336
     name: '''State Peacekeeper'' Assault C/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   '''State Peacekeeper'' Assault ck.0':
     id: 366337
     name: '''State Peacekeeper'' Assault ck.0'
+    price: 35250.0
     published: false
     volume: 0.01
   '''Tarapitha'' Basic-M C/I':
     id: 368071
     name: '''Tarapitha'' Basic-M C/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Tash Murkon'' Logistics A-I':
     id: 368577
     name: '''Tash Murkon'' Logistics A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Tash Murkon'' Sentinel A-I':
     id: 368580
     name: '''Tash Murkon'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Templar'' Assault A-I':
     id: 364565
     name: '''Templar'' Assault A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Templar'' Logistics A-I':
     id: 364566
     name: '''Templar'' Logistics A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Templar'' Sentinel A-I':
     id: 364567
     name: '''Templar'' Sentinel A-I'
+    price: 610.0
     published: false
     volume: 0.01
   '''Thale'' Militia Gallente Light Frame':
     id: 356020
     name: '''Thale'' Militia Gallente Light Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Thale'' Scout G-I':
     id: 356041
     name: '''Thale'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Theseus'' Assault gk.0+':
     id: 369480
     name: '''Theseus'' Assault gk.0+'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Thrud'' Assault M-I':
     id: 369439
     name: '''Thrud'' Assault M-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Tigris'' Sentinel A-I':
     id: 365942
     name: '''Tigris'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Toxotai'' Basic-M G-I':
     id: 368064
     name: '''Toxotai'' Basic-M G-I'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Triari'' Basic-M ak.0':
     id: 369472
     name: '''Triari'' Basic-M ak.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Tuoni'' Assault ck.0':
     id: 369477
     name: '''Tuoni'' Assault ck.0'
+    price: 48000.0
     published: false
     volume: 0.01
   '''Ukko'' Assault C-I+':
     id: 367443
     name: '''Ukko'' Assault C-I+'
+    price: 6000.0
     published: false
     volume: 0.01
   '''Valor'' Assault C-I':
     id: 356106
     name: '''Valor'' Assault C-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Valor'' Logistics M-I':
     id: 356111
     name: '''Valor'' Logistics M-I'
+    price: 4905.0
     published: false
     volume: 0.01
   '''Valor'' Scout G-I':
     id: 356040
     name: '''Valor'' Scout G-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Valor'' Sentinel A-I':
     id: 356108
     name: '''Valor'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Vambrace'' Basic-H A/I':
     id: 369540
     name: '''Vambrace'' Basic-H A/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Venom'' Militia Amarr Heavy Frame':
     id: 356024
     name: '''Venom'' Militia Amarr Heavy Frame'
+    price: 610.0
     published: false
     volume: 0.01
   '''Venom'' Sentinel A-I':
     id: 356035
     name: '''Venom'' Sentinel A-I'
+    price: 3000.0
     published: false
     volume: 0.01
   '''Vexillatio'' Basic-M A/I':
     id: 369471
     name: '''Vexillatio'' Basic-M A/I'
+    price: 48000.0
     published: false
   '''Vidir'' Assault M/I':
     id: 369440
     name: '''Vidir'' Assault M/I'
+    price: 16000.0
     published: false
     volume: 0.01
   '''Wolfman'' Assault A/1-Series':
     id: 365934
     name: '''Wolfman'' Assault A/1-Series'
+    price: 8040.0
     published: false
     volume: 0.01
   Amarr Heavy Frame A-I:
     id: 364818
     name: Amarr Heavy Frame A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Amarr Heavy Frame A/1-Series:
     id: 364883
     name: Amarr Heavy Frame A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Amarr Heavy Frame ak.0:
     id: 364884
     name: Amarr Heavy Frame ak.0
+    price: 34614.0
     published: false
     volume: 0.01
   Amarr Light Frame A-I:
     id: 364810
     name: Amarr Light Frame A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Amarr Light Frame A/1-Series:
     id: 366732
     name: Amarr Light Frame A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Amarr Light Frame ak.0:
     id: 366733
     name: Amarr Light Frame ak.0
+    price: 34614.0
     published: false
     volume: 0.01
   Amarr Medium Frame A-I:
     id: 364814
     name: Amarr Medium Frame A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Amarr Medium Frame A/1-Series:
     id: 364881
     name: Amarr Medium Frame A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Amarr Medium Frame ak.0:
     id: 364882
     name: Amarr Medium Frame ak.0
+    price: 34614.0
     published: false
     volume: 0.01
   Arbiter:
     id: 355426
     name: Arbiter
+    price: 5240.0
     published: false
     volume: 0.01
   Archduke's Modified Sentinel mk.0:
     id: 367716
     name: Archduke's Modified Sentinel mk.0
+    price: 94425.0
     published: false
     volume: 0.01
   Archduke's Modified Sentinel mk.0 (Master):
@@ -1468,310 +1762,372 @@ items:
   Armor AV - AM:
     id: 364726
     name: Armor AV - AM
+    price: 6800.0
     published: false
     volume: 0.01
   Armor AV - CA:
     id: 354935
     name: Armor AV - CA
+    price: 4680.0
     published: false
     volume: 0.01
   Armor AV - GA:
     id: 364732
     name: Armor AV - GA
+    price: 6800.0
     published: false
     volume: 0.01
   Armor AV - MN:
     id: 364736
     name: Armor AV - MN
+    price: 6800.0
     published: false
     volume: 0.01
   Artificer:
     id: 355427
     name: Artificer
+    price: 5800.0
     published: false
     volume: 0.01
   Assault A-I:
     id: 363934
     name: Assault A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Assault A/1-Series:
     id: 364020
     name: Assault A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Assault B-Series:
     id: 352934
     name: Assault B-Series
+    price: 13155.0
     published: false
     volume: 0.01
   Assault C-I:
     id: 351071
     name: Assault C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Assault C/1-Series:
     id: 353763
     name: Assault C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Assault G-I:
     id: 363935
     name: Assault G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Assault G/1-Series:
     id: 364019
     name: Assault G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Assault M-I:
     id: 363936
     name: Assault M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Assault M/1-Series:
     id: 364018
     name: Assault M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Assault Type-II:
     id: 352938
     name: Assault Type-II
+    price: 4905.0
     published: false
     volume: 0.01
   Assault ak.0:
     id: 364022
     name: Assault ak.0
+    price: 57690.0
     published: false
     volume: 0.01
   Assault ck.0:
     id: 353764
     name: Assault ck.0
+    price: 57690.0
     published: false
     volume: 0.01
   Assault gk.0:
     id: 364023
     name: Assault gk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Assault mk.0:
     id: 364021
     name: Assault mk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Assault vk.1:
     id: 352937
     name: Assault vk.1
+    price: 94425.0
     published: false
     volume: 0.01
   Balac's Modified Assault ck.0:
     id: 363349
     name: Balac's Modified Assault ck.0
+    price: 94425.0
     published: false
     volume: 0.01
   Caldari Heavy Frame C-I:
     id: 364819
     name: Caldari Heavy Frame C-I
+    price: 3000.0
     published: false
   Caldari Heavy Frame C/1-Series:
     id: 366690
     name: Caldari Heavy Frame C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Caldari Heavy Frame ck.0:
     id: 366691
     name: Caldari Heavy Frame ck.0
+    price: 34614.0
     published: false
     volume: 0.01
   Caldari Light Frame C-I:
     id: 364811
     name: Caldari Light Frame C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Caldari Light Frame C/1-Series:
     id: 366734
     name: Caldari Light Frame C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Caldari Light Frame ck.0:
     id: 366735
     name: Caldari Light Frame ck.0
+    price: 34614.0
     published: false
     volume: 0.01
   Caldari Medium Frame C-I:
     id: 364815
     name: Caldari Medium Frame C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Caldari Medium Frame C/1-Series:
     id: 364879
     name: Caldari Medium Frame C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Caldari Medium Frame ck.0:
     id: 364880
     name: Caldari Medium Frame ck.0
+    price: 34614.0
     published: false
     volume: 0.01
   Coming Soon:
     id: 364050
     name: Coming Soon
+    price: 3000.0
     published: false
     volume: 0.01
   Commando A-I:
     id: 356401
     name: Commando A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Commando A/1-Series:
     id: 365262
     name: Commando A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Commando C-I:
     id: 366698
     name: Commando C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Commando C/1-Series:
     id: 366710
     name: Commando C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Commando G-I:
     id: 366699
     name: Commando G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Commando G/1-Series:
     id: 366712
     name: Commando G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Commando M-I:
     id: 366700
     name: Commando M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Commando M/1-Series:
     id: 366714
     name: Commando M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Commando ak.0:
     id: 365263
     name: Commando ak.0
+    price: 57690.0
     published: false
     volume: 0.01
   Commando ck.0:
     id: 366711
     name: Commando ck.0
+    price: 57690.0
     published: false
     volume: 0.01
   Commando gk.0:
     id: 366713
     name: Commando gk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Commando mk.0:
     id: 366715
     name: Commando mk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Dire Sentinel:
     id: 355425
     name: Dire Sentinel
+    price: 795.0
     published: false
     volume: 0.01
   Dropsuit Enforcer:
     id: 363310
     name: Dropsuit Enforcer
+    price: 4680.0
     published: false
     volume: 0.01
   Federal Defense Union Scout G-I:
     id: 364242
     name: Federal Defense Union Scout G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Federation Assault G-I:
     id: 366363
     name: Federation Assault G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Federation Assault G/1-Series:
     id: 366364
     name: Federation Assault G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Federation Assault gk.0:
     id: 366365
     name: Federation Assault gk.0
+    price: 21540.0
     published: false
     volume: 0.01
   Federation Commando G-I:
     id: 368631
     name: Federation Commando G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Federation Commando G/1-Series:
     id: 368632
     name: Federation Commando G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Federation Commando gk.0:
     id: 368633
     name: Federation Commando gk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Federation Logistics G-I:
     id: 366366
     name: Federation Logistics G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Federation Logistics G/1-Series:
     id: 366367
     name: Federation Logistics G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Federation Logistics gk.0:
     id: 366368
     name: Federation Logistics gk.0
+    price: 21540.0
     published: false
     volume: 0.01
   Federation Scout G-I:
     id: 366369
     name: Federation Scout G-I
+    price: 4905.0
     published: false
     volume: 0.01
   Federation Scout G/1-Series:
     id: 366370
     name: Federation Scout G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Federation Scout gk.0:
     id: 366371
     name: Federation Scout gk.0
+    price: 35250.0
     published: false
     volume: 0.01
   Federation Sentinel G-I:
     id: 368634
     name: Federation Sentinel G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Federation Sentinel G/1-Series:
     id: 368635
     name: Federation Sentinel G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Federation Sentinel gk.0:
     id: 368636
     name: Federation Sentinel gk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Frame's Modified Assault ck.0:
     id: 367738
     name: Frame's Modified Assault ck.0
+    price: 94425.0
     published: false
     volume: 0.01
   Frame's Modified Assault ck.0 (Master):
@@ -1782,161 +2138,193 @@ items:
   Frontline - AM:
     id: 364740
     name: Frontline - AM
+    price: 6800.0
     published: false
     volume: 0.01
   Frontline - CA:
     id: 352591
     name: Frontline - CA
+    price: 610.0
     published: false
     volume: 0.01
   Frontline - GA:
     id: 364743
     name: Frontline - GA
+    price: 6800.0
     published: false
     volume: 0.01
   Frontline - MN:
     id: 364745
     name: Frontline - MN
+    price: 6800.0
     published: false
     volume: 0.01
   Gallente Heavy Frame G-I:
     id: 364820
     name: Gallente Heavy Frame G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Gallente Heavy Frame G/1-Series:
     id: 366686
     name: Gallente Heavy Frame G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Gallente Heavy Frame gk.0:
     id: 366687
     name: Gallente Heavy Frame gk.0
+    price: 34614.0
     published: false
     volume: 0.01
   Gallente Light Frame G-I:
     id: 364812
     name: Gallente Light Frame G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Gallente Light Frame G/1-Series:
     id: 364873
     name: Gallente Light Frame G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Gallente Light Frame gk.0:
     id: 364874
     name: Gallente Light Frame gk.0
+    price: 34614.0
     published: false
     volume: 0.01
   Gallente Medium Frame G-I:
     id: 364816
     name: Gallente Medium Frame G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Gallente Medium Frame G/1-Series:
     id: 364877
     name: Gallente Medium Frame G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Gallente Medium Frame gk.0:
     id: 364878
     name: Gallente Medium Frame gk.0
+    price: 34614.0
     published: false
     volume: 0.01
   Heavy B-Series:
     id: 356569
     name: Heavy B-Series
+    price: 21540.0
     published: false
     volume: 0.01
   Heavy Type-II:
     id: 352944
     name: Heavy Type-II
+    price: 4905.0
     published: false
     volume: 0.01
   Heavy vk.1:
     id: 356570
     name: Heavy vk.1
+    price: 94425.0
     published: false
     volume: 0.01
   Imperial Assault A-I:
     id: 366412
     name: Imperial Assault A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Imperial Assault A/1-Series:
     id: 366413
     name: Imperial Assault A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Imperial Assault ak.0:
     id: 366414
     name: Imperial Assault ak.0
+    price: 21540.0
     published: false
     volume: 0.01
   Imperial Commando A-I:
     id: 366415
     name: Imperial Commando A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Imperial Commando A/1-Series:
     id: 366416
     name: Imperial Commando A/1-Series
+    price: 13155.0
     published: false
     volume: 0.01
   Imperial Commando ak.0:
     id: 366417
     name: Imperial Commando ak.0
+    price: 35250.0
     published: false
     volume: 0.01
   Imperial Logistics A-I:
     id: 366418
     name: Imperial Logistics A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Imperial Logistics A/1-Series:
     id: 366419
     name: Imperial Logistics A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Imperial Logistics ak.0:
     id: 366420
     name: Imperial Logistics ak.0
+    price: 21540.0
     published: false
     volume: 0.01
   Imperial Scout A-I:
     id: 368524
     name: Imperial Scout A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Imperial Scout A/1-Series:
     id: 368574
     name: Imperial Scout A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Imperial Scout ak.0:
     id: 368579
     name: Imperial Scout ak.0
+    price: 35250.0
     published: false
     volume: 0.01
   Imperial Sentinel A-I:
     id: 366421
     name: Imperial Sentinel A-I
+    price: 4905.0
     published: false
     volume: 0.01
   Imperial Sentinel A/1-Series:
     id: 366422
     name: Imperial Sentinel A/1-Series
+    price: 13155.0
     published: false
     volume: 0.01
   Imperial Sentinel ak.0:
     id: 366423
     name: Imperial Sentinel ak.0
+    price: 35250.0
     published: false
     volume: 0.01
   Logibro's Modified Logistics mk.0:
     id: 367751
     name: Logibro's Modified Logistics mk.0
+    price: 94425.0
     published: false
     volume: 0.01
   Logibro's Modified Logistics mk.0 (Master):
@@ -1947,251 +2335,301 @@ items:
   Logistics A-I:
     id: 363984
     name: Logistics A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Logistics A/1-Series:
     id: 364032
     name: Logistics A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Logistics B-Series:
     id: 356571
     name: Logistics B-Series
+    price: 13155.0
     published: false
     volume: 0.01
   Logistics C-I:
     id: 363982
     name: Logistics C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Logistics C/1-Series:
     id: 364030
     name: Logistics C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Logistics G-I:
     id: 363983
     name: Logistics G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Logistics G/1-Series:
     id: 364031
     name: Logistics G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Logistics M-I:
     id: 352588
     name: Logistics M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Logistics M/1-Series:
     id: 353768
     name: Logistics M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Logistics Type-II:
     id: 355516
     name: Logistics Type-II
+    price: 4905.0
     published: false
     volume: 0.01
   Logistics ak.0:
     id: 364035
     name: Logistics ak.0
+    price: 57690.0
     published: false
     volume: 0.01
   Logistics ck.0:
     id: 364033
     name: Logistics ck.0
+    price: 57690.0
     published: false
     volume: 0.01
   Logistics gk.0:
     id: 364034
     name: Logistics gk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Logistics mk.0:
     id: 353769
     name: Logistics mk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Logistics vk.1:
     id: 356572
     name: Logistics vk.1
+    price: 94425.0
     published: false
     volume: 0.01
   Master Recruiter Assault C-II:
     id: 364322
     name: Master Recruiter Assault C-II
+    price: 4905.0
     published: false
     volume: 0.01
   Medic - AM:
     id: 364738
     name: Medic - AM
+    price: 6800.0
     published: false
     volume: 0.01
   Medic - CA:
     id: 356559
     name: Medic - CA
+    price: 4680.0
     published: false
     volume: 0.01
   Medic - GA:
     id: 364741
     name: Medic - GA
+    price: 6800.0
     published: false
     volume: 0.01
   Medic - MN:
     id: 364744
     name: Medic - MN
+    price: 6800.0
     published: false
     volume: 0.01
   Militia Amarr Heavy Frame:
     id: 352592
     name: Militia Amarr Heavy Frame
+    price: 610.0
     published: false
     volume: 0.01
   Militia Amarr Light Frame:
     id: 366737
     name: Militia Amarr Light Frame
+    price: 610.0
     published: false
     volume: 0.01
   Militia Amarr Medium Frame:
     id: 364955
     name: Militia Amarr Medium Frame
+    price: 585.0
     published: false
     volume: 0.01
   Militia Caldari Heavy Frame:
     id: 366695
     name: Militia Caldari Heavy Frame
+    price: 610.0
     published: false
     volume: 0.01
   Militia Caldari Light Frame:
     id: 366736
     name: Militia Caldari Light Frame
+    price: 610.0
     published: false
     volume: 0.01
   Militia Caldari Medium Frame:
     id: 354941
     name: Militia Caldari Medium Frame
+    price: 585.0
     published: false
     volume: 0.01
   Militia Gallente Heavy Frame:
     id: 366696
     name: Militia Gallente Heavy Frame
+    price: 610.0
     published: false
     volume: 0.01
   Militia Gallente Light Frame:
     id: 352596
     name: Militia Gallente Light Frame
+    price: 610.0
     published: false
     volume: 0.01
   Militia Gallente Medium Frame:
     id: 364956
     name: Militia Gallente Medium Frame
+    price: 585.0
     published: false
     volume: 0.01
   Militia Minmatar Heavy Frame:
     id: 366697
     name: Militia Minmatar Heavy Frame
+    price: 610.0
     published: false
     volume: 0.01
   Militia Minmatar Light Frame:
     id: 364952
     name: Militia Minmatar Light Frame
+    price: 655.0
     published: false
     volume: 0.01
   Militia Minmatar Medium Frame:
     id: 352593
     name: Militia Minmatar Medium Frame
+    price: 610.0
     published: false
     volume: 0.01
   Militia Pilot Dropsuit:
     id: 352595
     name: Militia Pilot Dropsuit
+    price: 6080.0
     published: false
     volume: 0.01
   Minmatar Heavy Frame M-I:
     id: 364821
     name: Minmatar Heavy Frame M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Minmatar Heavy Frame M/1-Series:
     id: 366688
     name: Minmatar Heavy Frame M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Minmatar Heavy Frame mk.0:
     id: 366689
     name: Minmatar Heavy Frame mk.0
+    price: 34614.0
     published: false
     volume: 0.01
   Minmatar Light Frame M-I:
     id: 364813
     name: Minmatar Light Frame M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Minmatar Light Frame M/1-Series:
     id: 364863
     name: Minmatar Light Frame M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Minmatar Light Frame mk.0:
     id: 364872
     name: Minmatar Light Frame mk.0
+    price: 34614.0
     published: false
     volume: 0.01
   Minmatar Medium Frame M-I:
     id: 364817
     name: Minmatar Medium Frame M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Minmatar Medium Frame M/1-Series:
     id: 364875
     name: Minmatar Medium Frame M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Minmatar Medium Frame mk.0:
     id: 364876
     name: Minmatar Medium Frame mk.0
+    price: 34614.0
     published: false
     volume: 0.01
   Pilot G-I:
     id: 352594
     name: Pilot G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Pilot G/1-Series:
     id: 365289
     name: Pilot G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Pilot M-I:
     id: 365291
     name: Pilot M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Pilot M/1-Series:
     id: 365292
     name: Pilot M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Pilot gk.0:
     id: 365290
     name: Pilot gk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Pilot mk.0:
     id: 365293
     name: Pilot mk.0
+    price: 57690.0
     published: false
     volume: 0.01
   QA God Suit:
     id: 355445
     name: QA God Suit
+    price: 9400.0
     published: false
     volume: 0.01
   Rattati's Modified Assault gk.0:
     id: 367760
     name: Rattati's Modified Assault gk.0
+    price: 94425.0
     published: false
     volume: 0.01
   Rattati's Modified Assault gk.0 (Master):
@@ -2202,106 +2640,127 @@ items:
   Recon - AM:
     id: 368909
     name: Recon - AM
+    price: 6800.0
     published: false
     volume: 0.01
   Recon - CA:
     id: 368911
     name: Recon - CA
+    price: 6800.0
     published: false
     volume: 0.01
   Recon - GA:
     id: 368913
     name: Recon - GA
+    price: 6800.0
     published: false
     volume: 0.01
   Recon - MN:
     id: 368915
     name: Recon - MN
+    price: 6800.0
     published: false
     volume: 0.01
   Recruit Militia Frame:
     id: 364105
     name: Recruit Militia Frame
+    price: 610.0
     published: false
     volume: 0.01
   Republic Assault M-I:
     id: 366443
     name: Republic Assault M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Republic Assault M/1-Series:
     id: 366444
     name: Republic Assault M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Republic Assault mk.0:
     id: 366445
     name: Republic Assault mk.0
+    price: 21540.0
     published: false
     volume: 0.01
   Republic Commando M-I:
     id: 368638
     name: Republic Commando M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Republic Commando M/1-Series:
     id: 368640
     name: Republic Commando M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Republic Commando mk.0:
     id: 368647
     name: Republic Commando mk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Republic Logistics M-I:
     id: 366446
     name: Republic Logistics M-I
+    price: 4905.0
     published: false
     volume: 0.01
   Republic Logistics M/1-Series:
     id: 366447
     name: Republic Logistics M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Republic Logistics mk.0:
     id: 366448
     name: Republic Logistics mk.0
+    price: 35250.0
     published: false
     volume: 0.01
   Republic Scout M-I:
     id: 366449
     name: Republic Scout M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Republic Scout M/1-Series:
     id: 366450
     name: Republic Scout M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Republic Scout mk.0:
     id: 366451
     name: Republic Scout mk.0
+    price: 21540.0
     published: false
     volume: 0.01
   Republic Sentinel M-I:
     id: 368649
     name: Republic Sentinel M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Republic Sentinel M/1-Series:
     id: 368650
     name: Republic Sentinel M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Republic Sentinel mk.0:
     id: 368651
     name: Republic Sentinel mk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Scotsman's Modified Scout gk.0:
     id: 367742
     name: Scotsman's Modified Scout gk.0
+    price: 94425.0
     published: false
     volume: 0.01
   Scotsman's Modified Scout gk.0 (Master):
@@ -2312,153 +2771,184 @@ items:
   Scout A-I:
     id: 363956
     name: Scout A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Scout A/1-Series:
     id: 364025
     name: Scout A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Scout B-Series:
     id: 352940
     name: Scout B-Series
+    price: 13155.0
     published: false
     volume: 0.01
   Scout C-I:
     id: 363955
     name: Scout C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Scout C/1-Series:
     id: 364024
     name: Scout C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Scout G-I:
     id: 352587
     name: Scout G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Scout G/1-Series:
     id: 353759
     name: Scout G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Scout M-I:
     id: 363957
     name: Scout M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Scout M/1-Series:
     id: 364026
     name: Scout M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Scout Type-II:
     id: 352939
     name: Scout Type-II
+    price: 4905.0
     published: false
     volume: 0.01
   Scout ak.0:
     id: 364029
     name: Scout ak.0
+    price: 57690.0
     published: false
     volume: 0.01
   Scout ck.0:
     id: 364027
     name: Scout ck.0
+    price: 57690.0
     published: false
     volume: 0.01
   Scout gk.0:
     id: 353760
     name: Scout gk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Scout mk.0:
     id: 364028
     name: Scout mk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Scout vk.1:
     id: 352942
     name: Scout vk.1
+    price: 94425.0
     published: false
     volume: 0.01
   Senior Recruiter Assault C-I:
     id: 364319
     name: Senior Recruiter Assault C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Sentinel A-I:
     id: 352415
     name: Sentinel A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Sentinel A/1-Series:
     id: 353766
     name: Sentinel A/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Sentinel C-I:
     id: 364009
     name: Sentinel C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Sentinel C/1-Series:
     id: 364037
     name: Sentinel C/1-Series
+    price: 8040.0
     published: false
   Sentinel G-I:
     id: 364010
     name: Sentinel G-I
+    price: 3000.0
     published: false
   Sentinel G/1-Series:
     id: 364038
     name: Sentinel G/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Sentinel M-I:
     id: 364011
     name: Sentinel M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Sentinel M/1-Series:
     id: 364036
     name: Sentinel M/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   Sentinel ak.0:
     id: 353767
     name: Sentinel ak.0
+    price: 57690.0
     published: false
     volume: 0.01
   Sentinel ck.0:
     id: 364040
     name: Sentinel ck.0
+    price: 57690.0
     published: false
   Sentinel gk.0:
     id: 364041
     name: Sentinel gk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Sentinel mk.0:
     id: 364039
     name: Sentinel mk.0
+    price: 57690.0
     published: false
     volume: 0.01
   Shield AV - AM:
     id: 368908
     name: Shield AV - AM
+    price: 6800.0
     published: false
     volume: 0.01
   Shield AV - CA:
     id: 368910
     name: Shield AV - CA
+    price: 6800.0
     published: false
     volume: 0.01
   Shield AV - GA:
     id: 368912
     name: Shield AV - GA
+    price: 6800.0
     published: false
     volume: 0.01
   Shield AV - MN:
@@ -2474,211 +2964,253 @@ items:
   Sniper - AM:
     id: 364739
     name: Sniper - AM
+    price: 6800.0
     published: false
     volume: 0.01
   Sniper - CA:
     id: 354934
     name: Sniper - CA
+    price: 4680.0
     published: false
     volume: 0.01
   Sniper - GA:
     id: 364742
     name: Sniper - GA
+    price: 6800.0
     published: false
     volume: 0.01
   Sniper - MN:
     id: 364746
     name: Sniper - MN
+    price: 6800.0
     published: false
     volume: 0.01
   Staff Recruiter Militia Frame:
     id: 364317
     name: Staff Recruiter Militia Frame
+    price: 610.0
     published: false
     volume: 0.01
   Standard Assault A-I:
     id: 369408
     name: Standard Assault A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Assault C-I:
     id: 369409
     name: Standard Assault C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Assault G-I:
     id: 369410
     name: Standard Assault G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Assault M-I:
     id: 369411
     name: Standard Assault M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Commando A-I:
     id: 369412
     name: Standard Commando A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Commando C-I:
     id: 369413
     name: Standard Commando C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Commando G-I:
     id: 369414
     name: Standard Commando G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Commando M-I:
     id: 369415
     name: Standard Commando M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Logistics A-I:
     id: 369416
     name: Standard Logistics A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Logistics C-I:
     id: 369417
     name: Standard Logistics C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Logistics G-I:
     id: 369418
     name: Standard Logistics G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Logistics M-I:
     id: 369419
     name: Standard Logistics M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Scout A-I:
     id: 369420
     name: Standard Scout A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Scout C-I:
     id: 369421
     name: Standard Scout C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Scout G-I:
     id: 369422
     name: Standard Scout G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Scout M-I:
     id: 369423
     name: Standard Scout M-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Sentinel A-I:
     id: 369424
     name: Standard Sentinel A-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Sentinel C-I:
     id: 369425
     name: Standard Sentinel C-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Sentinel G-I:
     id: 369426
     name: Standard Sentinel G-I
+    price: 3000.0
     published: false
     volume: 0.01
   Standard Sentinel M-I:
     id: 369427
     name: Standard Sentinel M-I
+    price: 3000.0
     published: false
     volume: 0.01
   State Assault C-I:
     id: 366489
     name: State Assault C-I
+    price: 4905.0
     published: false
     volume: 0.01
   State Assault C/1-Series:
     id: 366491
     name: State Assault C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   State Assault ck.0:
     id: 366493
     name: State Assault ck.0
+    price: 35250.0
     published: false
     volume: 0.01
   State Commando C-I:
     id: 368615
     name: State Commando C-I
+    price: 3000.0
     published: false
     volume: 0.01
   State Commando C/1-Series:
     id: 368616
     name: State Commando C/1-Series
+    price: 13155.0
     published: false
     volume: 0.01
   State Commando ck.0:
     id: 368617
     name: State Commando ck.0
+    price: 57690.0
     published: false
     volume: 0.01
   State Logistics C-I:
     id: 366490
     name: State Logistics C-I
+    price: 3000.0
     published: false
     volume: 0.01
   State Logistics C/1-Series:
     id: 366492
     name: State Logistics C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   State Logistics ck.0:
     id: 366494
     name: State Logistics ck.0
+    price: 21540.0
     published: false
     volume: 0.01
   State Protectorate Assault C-I:
     id: 364243
     name: State Protectorate Assault C-I
+    price: 3000.0
     published: false
     volume: 0.01
   State Scout C-I:
     id: 368586
     name: State Scout C-I
+    price: 4905.0
     published: false
     volume: 0.01
   State Scout C/1-Series:
     id: 368594
     name: State Scout C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   State Scout ck.0:
     id: 368614
     name: State Scout ck.0
+    price: 35250.0
     published: false
     volume: 0.01
   State Sentinel C-I:
     id: 368618
     name: State Sentinel C-I
+    price: 3000.0
     published: false
     volume: 0.01
   State Sentinel C/1-Series:
     id: 368619
     name: State Sentinel C/1-Series
+    price: 8040.0
     published: false
     volume: 0.01
   State Sentinel ck.0:
     id: 368620
     name: State Sentinel ck.0
+    price: 57690.0
     published: false
     volume: 0.01
   Storm Raider's Modified Commando ak.0:
     id: 367885
     name: Storm Raider's Modified Commando ak.0
+    price: 94425.0
     published: false
     volume: 0.01
   Storm Raider's Modified Commando ak.0 (Master):
@@ -2693,11 +3225,13 @@ items:
   '[DEV] Amarr Crusader Dropsuit':
     id: 352598
     name: '[DEV] Amarr Crusader Dropsuit'
+    price: 1105.0
     published: false
     volume: 0.01
   '[DEV] Offline Dropsuit':
     id: 352928
     name: '[DEV] Offline Dropsuit'
+    price: 4680.0
     published: false
     volume: 0.01
   '[TEST] Dropsuit missing CATMA data':
@@ -2707,5 +3241,6 @@ items:
   '[TEST] QA Dropsuit':
     id: 353257
     name: '[TEST] QA Dropsuit'
+    price: 4680.0
     published: false
     volume: 0.01

@@ -11,6 +11,7 @@ items:
     marketGroup: 2300
     mass: 0.01
     name: Mining Equipment Preservation Charge
+    price: 1000.0
     published: true
     volume: 0.01
   Mining Laser Field Enhancement Charge:
@@ -25,6 +26,7 @@ items:
     marketGroup: 2300
     mass: 0.01
     name: Mining Laser Field Enhancement Charge
+    price: 1000.0
     published: true
     volume: 0.01
   Mining Laser Optimization Charge:
@@ -39,5 +41,6 @@ items:
     marketGroup: 2300
     mass: 0.01
     name: Mining Laser Optimization Charge
+    price: 1000.0
     published: true
     volume: 0.01

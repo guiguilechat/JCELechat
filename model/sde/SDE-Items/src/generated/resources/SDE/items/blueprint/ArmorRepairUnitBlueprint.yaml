@@ -46,6 +46,7 @@ items:
     TechLevel: 1
     id: 3535
     name: CONCORD Capital Armor Repairer Blueprint
+    price: 4.7022756E7
     published: true
     volume: 0.01
   Capital ACM Compact Armor Repairer Blueprint:
@@ -53,6 +54,7 @@ items:
     id: 41615
     marketGroup: 1536
     name: Capital ACM Compact Armor Repairer Blueprint
+    price: 9.4E7
     published: true
     volume: 0.01
   Capital Armor Repairer I Blueprint:
@@ -61,6 +63,7 @@ items:
     id: 20702
     marketGroup: 1536
     name: Capital Armor Repairer I Blueprint
+    price: 4.7022756E7
     published: true
     volume: 0.01
   Capital Armor Repairer II Blueprint:
@@ -74,6 +77,7 @@ items:
     id: 41614
     marketGroup: 1536
     name: Capital I-a Enduring Armor Repairer Blueprint
+    price: 9.4E7
     published: true
     volume: 0.01
   Civilian Armor Repairer Blueprint:
@@ -96,6 +100,7 @@ items:
     id: 3539
     marketGroup: 1536
     name: Large Armor Repairer I Blueprint
+    price: 800000.0
     published: true
     volume: 0.01
   Large Armor Repairer II Blueprint:
@@ -103,6 +108,7 @@ items:
     TechLevel: 2
     id: 3541
     name: Large Armor Repairer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Medium Armor Repairer I Blueprint:
@@ -111,6 +117,7 @@ items:
     id: 3529
     marketGroup: 1536
     name: Medium Armor Repairer I Blueprint
+    price: 400000.0
     published: true
     volume: 0.01
   Medium Armor Repairer II Blueprint:
@@ -118,6 +125,7 @@ items:
     TechLevel: 2
     id: 3531
     name: Medium Armor Repairer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Shadow Serpentis Capital Armor Repairer Blueprint:
@@ -132,6 +140,7 @@ items:
     id: 1099
     marketGroup: 1536
     name: Small Armor Repairer I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Small Armor Repairer II Blueprint:
@@ -139,5 +148,6 @@ items:
     TechLevel: 2
     id: 1184
     name: Small Armor Repairer II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

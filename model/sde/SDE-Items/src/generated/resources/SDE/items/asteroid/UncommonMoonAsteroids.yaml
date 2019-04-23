@@ -12,6 +12,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Chromite
+    price: 3500.0
     published: true
     volume: 10.0
   Lavish Chromite:
@@ -27,6 +28,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Chromite
+    price: 3500.0
     published: true
     volume: 10.0
   Lavish Otavite:
@@ -42,6 +44,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Otavite
+    price: 3500.0
     published: true
     volume: 10.0
   Lavish Sperrylite:
@@ -57,6 +60,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Sperrylite
+    price: 3500.0
     published: true
     volume: 10.0
   Lavish Vanadinite:
@@ -72,6 +76,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Lavish Vanadinite
+    price: 3500.0
     published: true
     volume: 10.0
   Otavite:
@@ -87,6 +92,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Otavite
+    price: 3500.0
     published: true
     volume: 10.0
   Shimmering Chromite:
@@ -102,6 +108,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Chromite
+    price: 7000.0
     published: true
     volume: 10.0
   Shimmering Otavite:
@@ -117,6 +124,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Otavite
+    price: 7000.0
     published: true
     volume: 10.0
   Shimmering Sperrylite:
@@ -132,6 +140,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Sperrylite
+    price: 7000.0
     published: true
     volume: 10.0
   Shimmering Vanadinite:
@@ -147,6 +156,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Shimmering Vanadinite
+    price: 7000.0
     published: true
     volume: 10.0
   Sperrylite:
@@ -162,6 +172,7 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Sperrylite
+    price: 3500.0
     published: true
     volume: 10.0
   Vanadinite:
@@ -177,5 +188,6 @@ items:
     marketGroup: 2398
     mass: 4000.0
     name: Vanadinite
+    price: 3500.0
     published: true
     volume: 10.0

@@ -17,6 +17,7 @@ items:
     id: 25540
     marketGroup: 1037
     name: '''Crop'' Gas Cloud Harvester'
+    price: 9272.0
     published: true
     volume: 5.0
   '''Plow'' Gas Cloud Harvester':
@@ -37,6 +38,7 @@ items:
     id: 25542
     marketGroup: 1037
     name: '''Plow'' Gas Cloud Harvester'
+    price: 9272.0
     published: true
     volume: 5.0
   Gas Cloud Harvester I:
@@ -56,6 +58,7 @@ items:
     id: 25266
     marketGroup: 1037
     name: Gas Cloud Harvester I
+    price: 9272.0
     published: true
     volume: 5.0
   Gas Cloud Harvester II:
@@ -77,6 +80,7 @@ items:
     id: 25812
     marketGroup: 1037
     name: Gas Cloud Harvester II
+    price: 9272.0
     published: true
     volume: 5.0
   Syndicate Gas Cloud Harvester:
@@ -98,5 +102,6 @@ items:
     id: 28788
     marketGroup: 1037
     name: Syndicate Gas Cloud Harvester
+    price: 9272.0
     published: true
     volume: 5.0

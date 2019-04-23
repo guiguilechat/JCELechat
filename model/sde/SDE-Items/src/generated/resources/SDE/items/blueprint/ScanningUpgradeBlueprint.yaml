@@ -5,6 +5,7 @@ items:
     id: 33179
     marketGroup: 1707
     name: Scan Pinpointing Array I Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Scan Pinpointing Array II Blueprint:
@@ -12,6 +13,7 @@ items:
     TechLevel: 2
     id: 33200
     name: Scan Pinpointing Array II Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Scan Rangefinding Array I Blueprint:
@@ -20,6 +22,7 @@ items:
     id: 33181
     marketGroup: 1707
     name: Scan Rangefinding Array I Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Scan Rangefinding Array II Blueprint:
@@ -27,5 +30,6 @@ items:
     TechLevel: 2
     id: 33202
     name: Scan Rangefinding Array II Blueprint
+    price: 600000.0
     published: true
     volume: 0.01

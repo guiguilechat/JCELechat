@@ -37,5 +37,6 @@ items:
     marketGroup: 1011
     mass: 2.5E7
     name: Jump Bridge
+    price: 1.0E8
     published: true
     volume: 100000.0

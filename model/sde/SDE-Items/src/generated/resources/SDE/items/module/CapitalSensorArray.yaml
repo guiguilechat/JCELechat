@@ -27,5 +27,6 @@ items:
     marketGroup: 671
     mass: 1000.0
     name: Networked Sensor Array
+    price: 3.0E7
     published: true
     volume: 4000.0

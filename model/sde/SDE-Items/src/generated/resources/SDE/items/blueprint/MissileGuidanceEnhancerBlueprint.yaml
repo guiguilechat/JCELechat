@@ -4,6 +4,7 @@ items:
     id: 35772
     marketGroup: 343
     name: Missile Guidance Enhancer I Blueprint
+    price: 144000.0
     published: true
     volume: 0.01
   Missile Guidance Enhancer II Blueprint:

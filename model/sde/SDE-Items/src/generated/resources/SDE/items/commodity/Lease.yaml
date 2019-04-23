@@ -4,6 +4,7 @@ items:
     marketGroup: 940
     mass: 1.0
     name: Amarr Empire Starbase Charter
+    price: 50000.0
     published: true
     volume: 0.1
   Ammatar Mandate Starbase Charter:
@@ -11,6 +12,7 @@ items:
     marketGroup: 940
     mass: 1.0
     name: Ammatar Mandate Starbase Charter
+    price: 50000.0
     published: true
     volume: 0.1
   Caldari State Starbase Charter:
@@ -18,6 +20,7 @@ items:
     marketGroup: 940
     mass: 1.0
     name: Caldari State Starbase Charter
+    price: 50000.0
     published: true
     volume: 0.1
   Gallente Federation Starbase Charter:
@@ -25,6 +28,7 @@ items:
     marketGroup: 940
     mass: 1.0
     name: Gallente Federation Starbase Charter
+    price: 50000.0
     published: true
     volume: 0.1
   Khanid Kingdom Starbase Charter:
@@ -32,6 +36,7 @@ items:
     marketGroup: 940
     mass: 1.0
     name: Khanid Kingdom Starbase Charter
+    price: 50000.0
     published: true
     volume: 0.1
   Minmatar Republic Starbase Charter:
@@ -39,5 +44,6 @@ items:
     marketGroup: 940
     mass: 1.0
     name: Minmatar Republic Starbase Charter
+    price: 50000.0
     published: true
     volume: 0.1

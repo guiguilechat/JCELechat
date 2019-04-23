@@ -12,6 +12,7 @@ items:
     marketGroup: 522
     mass: 1.0E35
     name: Compressed Dark Ochre
+    price: 3842500.0
     published: true
     volume: 4.2
   Compressed Jet Ochre:
@@ -27,6 +28,7 @@ items:
     marketGroup: 522
     mass: 1.0
     name: Compressed Jet Ochre
+    price: 147000.0
     published: true
     volume: 4.2
   Compressed Obsidian Ochre:
@@ -42,6 +44,7 @@ items:
     marketGroup: 522
     mass: 1.0E35
     name: Compressed Obsidian Ochre
+    price: 4226750.0
     published: true
     volume: 4.2
   Compressed Onyx Ochre:
@@ -57,6 +60,7 @@ items:
     marketGroup: 522
     mass: 1.0E35
     name: Compressed Onyx Ochre
+    price: 4039750.0
     published: true
     volume: 4.2
   Dark Ochre:
@@ -74,6 +78,7 @@ items:
     marketGroup: 522
     mass: 1.0E35
     name: Dark Ochre
+    price: 768500.0
     published: true
     volume: 8.0
   Jet Ochre:
@@ -91,6 +96,7 @@ items:
     marketGroup: 522
     mass: 1.0E35
     name: Jet Ochre
+    price: 1350.0
     published: true
     volume: 8.0
   Obsidian Ochre:
@@ -108,6 +114,7 @@ items:
     marketGroup: 522
     mass: 1.0E35
     name: Obsidian Ochre
+    price: 845350.0
     published: true
     volume: 8.0
   Oeryl:
@@ -121,6 +128,7 @@ items:
     id: 28623
     mass: 1.0E35
     name: Oeryl
+    price: 2000.0
     published: true
     volume: 8.0
   Onyx Ochre:
@@ -138,5 +146,6 @@ items:
     marketGroup: 522
     mass: 1.0E35
     name: Onyx Ochre
+    price: 807950.0
     published: true
     volume: 8.0

@@ -17,6 +17,7 @@ items:
     id: 17938
     marketGroup: 712
     name: Core Probe Launcher I
+    price: 6000.0
     published: true
     volume: 5.0
   Core Probe Launcher II:
@@ -39,6 +40,7 @@ items:
     id: 4258
     marketGroup: 712
     name: Core Probe Launcher II
+    price: 6000.0
     published: true
     volume: 5.0
   Expanded Probe Launcher I:
@@ -58,6 +60,7 @@ items:
     id: 18639
     marketGroup: 712
     name: Expanded Probe Launcher I
+    price: 6000.0
     published: true
     volume: 5.0
   Expanded Probe Launcher II:
@@ -80,6 +83,7 @@ items:
     id: 4260
     marketGroup: 712
     name: Expanded Probe Launcher II
+    price: 6000.0
     published: true
     volume: 5.0
   Prototype Iris Probe Launcher:
@@ -100,6 +104,7 @@ items:
     id: 2083
     mass: 5.0
     name: Prototype Iris Probe Launcher
+    price: 6000.0
     published: true
     volume: 5.0
   Sisters Core Probe Launcher:
@@ -123,6 +128,7 @@ items:
     id: 28758
     marketGroup: 712
     name: Sisters Core Probe Launcher
+    price: 6000.0
     published: true
     volume: 5.0
   Sisters Expanded Probe Launcher:
@@ -145,5 +151,6 @@ items:
     id: 28756
     marketGroup: 712
     name: Sisters Expanded Probe Launcher
+    price: 6000.0
     published: true
     volume: 5.0

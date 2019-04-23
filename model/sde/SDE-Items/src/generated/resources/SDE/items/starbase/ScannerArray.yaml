@@ -32,5 +32,6 @@ items:
     marketGroup: 1010
     mass: 1.0E8
     name: System Scanning Array
+    price: 2500000.0
     published: true
     volume: 4000.0

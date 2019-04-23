@@ -21,6 +21,7 @@ items:
     marketGroup: 1063
     mass: 20.0
     name: Capital Remote Hull Repairer I
+    price: 1.3359116E7
     published: true
     volume: 4000.0
   Capital Remote Hull Repairer II:
@@ -46,6 +47,7 @@ items:
     marketGroup: 1063
     mass: 20.0
     name: Capital Remote Hull Repairer II
+    price: 1.3359116E7
     published: true
     volume: 4000.0
   Large Remote Hull Repairer I:
@@ -67,6 +69,7 @@ items:
     marketGroup: 1062
     mass: 20.0
     name: Large Remote Hull Repairer I
+    price: 31244.0
     published: true
     volume: 50.0
   Large Remote Hull Repairer II:
@@ -90,6 +93,7 @@ items:
     marketGroup: 1062
     mass: 20.0
     name: Large Remote Hull Repairer II
+    price: 31244.0
     published: true
     volume: 50.0
   Medium Remote Hull Repairer I:
@@ -111,6 +115,7 @@ items:
     marketGroup: 1061
     mass: 20.0
     name: Medium Remote Hull Repairer I
+    price: 31244.0
     published: true
     volume: 10.0
   Medium Remote Hull Repairer II:
@@ -134,6 +139,7 @@ items:
     marketGroup: 1061
     mass: 20.0
     name: Medium Remote Hull Repairer II
+    price: 31244.0
     published: true
     volume: 10.0
   Small Remote Hull Repairer I:
@@ -155,6 +161,7 @@ items:
     marketGroup: 1060
     mass: 20.0
     name: Small Remote Hull Repairer I
+    price: 31244.0
     published: true
     volume: 5.0
   Small Remote Hull Repairer II:
@@ -178,5 +185,6 @@ items:
     marketGroup: 1060
     mass: 20.0
     name: Small Remote Hull Repairer II
+    price: 31244.0
     published: true
     volume: 5.0

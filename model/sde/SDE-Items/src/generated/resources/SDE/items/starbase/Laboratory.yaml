@@ -27,6 +27,7 @@ items:
     marketGroup: 933
     mass: 1.0E8
     name: Design Laboratory
+    price: 1.5E8
     published: true
     volume: 3000.0
   Experimental Laboratory:
@@ -55,6 +56,7 @@ items:
     marketGroup: 933
     mass: 1.0E8
     name: Experimental Laboratory
+    price: 1.0E8
     published: true
     volume: 3000.0
   Hyasyoda Research Laboratory:
@@ -86,6 +88,7 @@ items:
     marketGroup: 933
     mass: 1.0E8
     name: Hyasyoda Research Laboratory
+    price: 1.0E8
     published: true
     volume: 3000.0
   Research Laboratory:
@@ -116,5 +119,6 @@ items:
     marketGroup: 933
     mass: 1.0E8
     name: Research Laboratory
+    price: 1.0E8
     published: true
     volume: 3000.0

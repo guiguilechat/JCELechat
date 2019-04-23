@@ -47,6 +47,7 @@ items:
     id: 11294
     marketGroup: 1541
     name: 100mm Steel Plates I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   100mm Steel Plates II Blueprint:
@@ -54,6 +55,7 @@ items:
     TechLevel: 2
     id: 20346
     name: 100mm Steel Plates II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   1600mm Steel Plates I Blueprint:
@@ -62,6 +64,7 @@ items:
     id: 11280
     marketGroup: 1541
     name: 1600mm Steel Plates I Blueprint
+    price: 7000000.0
     published: true
     volume: 0.01
   1600mm Steel Plates II Blueprint:
@@ -69,6 +72,7 @@ items:
     TechLevel: 2
     id: 20354
     name: 1600mm Steel Plates II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   200mm Steel Plates I Blueprint:
@@ -77,6 +81,7 @@ items:
     id: 11296
     marketGroup: 1541
     name: 200mm Steel Plates I Blueprint
+    price: 800000.0
     published: true
     volume: 0.01
   200mm Steel Plates II Blueprint:
@@ -84,6 +89,7 @@ items:
     TechLevel: 2
     id: 20348
     name: 200mm Steel Plates II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   25000mm Crystalline Carbonide Restrained Plates Blueprint:
@@ -91,6 +97,7 @@ items:
     id: 41609
     marketGroup: 1541
     name: 25000mm Crystalline Carbonide Restrained Plates Blueprint
+    price: 4.3484E7
     published: true
     volume: 0.01
   25000mm Rolled Tungsten Compact Plates Blueprint:
@@ -98,6 +105,7 @@ items:
     id: 41608
     marketGroup: 1541
     name: 25000mm Rolled Tungsten Compact Plates Blueprint
+    price: 4.3484E7
     published: true
     volume: 0.01
   25000mm Steel Plates I Blueprint:
@@ -105,6 +113,7 @@ items:
     id: 41607
     marketGroup: 1541
     name: 25000mm Steel Plates I Blueprint
+    price: 2.1742E7
     published: true
     volume: 0.01
   25000mm Steel Plates II Blueprint:
@@ -119,6 +128,7 @@ items:
     id: 11298
     marketGroup: 1541
     name: 400mm Steel Plates I Blueprint
+    price: 1600000.0
     published: true
     volume: 0.01
   400mm Steel Plates II Blueprint:
@@ -126,6 +136,7 @@ items:
     TechLevel: 2
     id: 20350
     name: 400mm Steel Plates II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   800mm Steel Plates I Blueprint:
@@ -134,6 +145,7 @@ items:
     id: 11300
     marketGroup: 1541
     name: 800mm Steel Plates I Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   800mm Steel Plates II Blueprint:
@@ -141,6 +153,7 @@ items:
     TechLevel: 2
     id: 20352
     name: 800mm Steel Plates II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   CONCORD 25000mm Steel Plates Blueprint:

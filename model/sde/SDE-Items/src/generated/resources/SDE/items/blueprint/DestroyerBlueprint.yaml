@@ -5,6 +5,7 @@ items:
     id: 32873
     marketGroup: 585
     name: Algos Blueprint
+    price: 8242751.0
     published: true
     volume: 0.01
   Catalyst Blueprint:
@@ -13,6 +14,7 @@ items:
     id: 16241
     marketGroup: 585
     name: Catalyst Blueprint
+    price: 7887800.0
     published: true
     volume: 0.01
   Coercer Blueprint:
@@ -21,6 +23,7 @@ items:
     id: 16237
     marketGroup: 583
     name: Coercer Blueprint
+    price: 8635240.0
     published: true
     volume: 0.01
   Corax Blueprint:
@@ -29,6 +32,7 @@ items:
     id: 32877
     marketGroup: 584
     name: Corax Blueprint
+    price: 8795138.0
     published: true
     volume: 0.01
   Cormorant Blueprint:
@@ -37,6 +41,7 @@ items:
     id: 16239
     marketGroup: 584
     name: Cormorant Blueprint
+    price: 8416400.0
     published: true
     volume: 0.01
   Dragoon Blueprint:
@@ -45,6 +50,7 @@ items:
     id: 32875
     marketGroup: 583
     name: Dragoon Blueprint
+    price: 9023825.0
     published: true
     volume: 0.01
   Eris Blueprint:
@@ -53,6 +59,7 @@ items:
     id: 22461
     marketGroup: 894
     name: Eris Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Flycatcher Blueprint:
@@ -61,6 +68,7 @@ items:
     id: 22465
     marketGroup: 893
     name: Flycatcher Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Heretic Blueprint:
@@ -69,6 +77,7 @@ items:
     id: 22453
     marketGroup: 892
     name: Heretic Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Kikimora Blueprint:
@@ -83,6 +92,7 @@ items:
     id: 22457
     marketGroup: 895
     name: Sabre Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Sunesis Blueprint:
@@ -97,6 +107,7 @@ items:
     id: 32879
     marketGroup: 586
     name: Talwar Blueprint
+    price: 7837500.0
     published: true
     volume: 0.01
   Thrasher Blueprint:
@@ -105,5 +116,6 @@ items:
     id: 16243
     marketGroup: 586
     name: Thrasher Blueprint
+    price: 7500000.0
     published: true
     volume: 0.01

@@ -35,6 +35,7 @@ items:
     id: 28646
     marketGroup: 1641
     name: Covert Cynosural Field Generator I
+    price: 1.5626524E7
     published: true
     volume: 25.0
   Cynosural Field Generator I:
@@ -63,5 +64,6 @@ items:
     id: 21096
     marketGroup: 1641
     name: Cynosural Field Generator I
+    price: 3137264.0
     published: true
     volume: 50.0

@@ -4,6 +4,7 @@ items:
     TechLevel: 3
     id: 29987
     name: Legion Blueprint
+    price: 4.5275E7
     published: true
     volume: 0.01
   Loki Blueprint:
@@ -11,6 +12,7 @@ items:
     TechLevel: 3
     id: 29991
     name: Loki Blueprint
+    price: 4.45E7
     published: true
     volume: 0.01
   Proteus Blueprint:
@@ -18,6 +20,7 @@ items:
     TechLevel: 3
     id: 29989
     name: Proteus Blueprint
+    price: 4.3775E7
     published: true
     volume: 0.01
   Tengu Blueprint:
@@ -25,5 +28,6 @@ items:
     TechLevel: 3
     id: 29985
     name: Tengu Blueprint
+    price: 4.56E7
     published: true
     volume: 0.01

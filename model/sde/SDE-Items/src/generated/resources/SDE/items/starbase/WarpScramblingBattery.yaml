@@ -46,6 +46,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Serpentis Warp Disruption Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   Serpentis Warp Scrambling Battery:
@@ -95,6 +96,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Serpentis Warp Scrambling Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Shadow Warp Disruption Battery:
@@ -144,6 +146,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Shadow Warp Disruption Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   Shadow Warp Scrambling Battery:
@@ -193,6 +196,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Shadow Warp Scrambling Battery
+    price: 2500000.0
     published: true
     volume: 4000.0
   Warp Disruption Battery:
@@ -241,6 +245,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Warp Disruption Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   Warp Scrambling Battery:
@@ -289,5 +294,6 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Warp Scrambling Battery
+    price: 2500000.0
     published: true
     volume: 4000.0

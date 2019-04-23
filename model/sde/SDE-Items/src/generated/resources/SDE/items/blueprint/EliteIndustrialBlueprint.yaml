@@ -5,6 +5,7 @@ items:
     id: 12732
     marketGroup: 636
     name: Bustard Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Crane Blueprint:
@@ -13,6 +14,7 @@ items:
     id: 12730
     marketGroup: 636
     name: Crane Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Impel Blueprint:
@@ -21,6 +23,7 @@ items:
     id: 12754
     marketGroup: 635
     name: Impel Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Mastodon Blueprint:
@@ -29,6 +32,7 @@ items:
     id: 12748
     marketGroup: 638
     name: Mastodon Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Occator Blueprint:
@@ -37,6 +41,7 @@ items:
     id: 12746
     marketGroup: 637
     name: Occator Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Prorator Blueprint:
@@ -45,6 +50,7 @@ items:
     id: 12734
     marketGroup: 635
     name: Prorator Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Prowler Blueprint:
@@ -53,6 +59,7 @@ items:
     id: 12736
     marketGroup: 638
     name: Prowler Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01
   Viator Blueprint:
@@ -61,5 +68,6 @@ items:
     id: 12744
     marketGroup: 637
     name: Viator Blueprint
+    price: 5.0E10
     published: true
     volume: 0.01

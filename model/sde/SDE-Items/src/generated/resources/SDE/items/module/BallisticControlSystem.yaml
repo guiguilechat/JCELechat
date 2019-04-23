@@ -24,6 +24,7 @@ items:
     id: 49738
     mass: 1.0
     name: Abyssal Ballistic Control System
+    price: 1000.0
     published: true
     volume: 1.0
   Ballistic Control System I:

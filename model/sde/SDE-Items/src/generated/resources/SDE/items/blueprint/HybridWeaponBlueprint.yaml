@@ -61,6 +61,7 @@ items:
     id: 10679
     marketGroup: 291
     name: 125mm Railgun I Blueprint
+    price: 90000.0
     published: true
     volume: 0.01
   125mm Railgun II Blueprint:
@@ -68,6 +69,7 @@ items:
     TechLevel: 2
     id: 10681
     name: 125mm Railgun II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   150mm 'Musket' Railgun Blueprint:
@@ -83,6 +85,7 @@ items:
     id: 1116
     marketGroup: 291
     name: 150mm Railgun I Blueprint
+    price: 150000.0
     published: true
     volume: 0.01
   150mm Railgun II Blueprint:
@@ -90,6 +93,7 @@ items:
     TechLevel: 2
     id: 3075
     name: 150mm Railgun II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   200mm Railgun I Blueprint:
@@ -98,6 +102,7 @@ items:
     id: 12345
     marketGroup: 290
     name: 200mm Railgun I Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   200mm Railgun II Blueprint:
@@ -105,6 +110,7 @@ items:
     TechLevel: 2
     id: 12347
     name: 200mm Railgun II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   250mm 'Flintlock' Railgun Blueprint:
@@ -120,6 +126,7 @@ items:
     id: 1121
     marketGroup: 290
     name: 250mm Railgun I Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   250mm Railgun II Blueprint:
@@ -127,6 +134,7 @@ items:
     TechLevel: 2
     id: 3083
     name: 250mm Railgun II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   350mm Railgun I Blueprint:
@@ -135,6 +143,7 @@ items:
     id: 12355
     marketGroup: 289
     name: 350mm Railgun I Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   350mm Railgun II Blueprint:
@@ -142,6 +151,7 @@ items:
     TechLevel: 2
     id: 12357
     name: 350mm Railgun II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   425mm 'Popper' Railgun Blueprint:
@@ -157,6 +167,7 @@ items:
     id: 1125
     marketGroup: 289
     name: 425mm Railgun I Blueprint
+    price: 1.5E7
     published: true
     volume: 0.01
   425mm Railgun II Blueprint:
@@ -164,6 +175,7 @@ items:
     TechLevel: 2
     id: 3091
     name: 425mm Railgun II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   75mm Gatling Rail I Blueprint:
@@ -172,6 +184,7 @@ items:
     id: 1112
     marketGroup: 291
     name: 75mm Gatling Rail I Blueprint
+    price: 20000.0
     published: true
     volume: 0.01
   75mm Gatling Rail II Blueprint:
@@ -179,6 +192,7 @@ items:
     TechLevel: 2
     id: 3099
     name: 75mm Gatling Rail II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Anode Scoped Ion Siege Blaster Blueprint:
@@ -187,6 +201,7 @@ items:
     id: 41134
     marketGroup: 792
     name: Anode Scoped Ion Siege Blaster Blueprint
+    price: 7.228E7
     published: true
     volume: 0.01
   Anode Scoped Triple Neutron Blaster Cannon Blueprint:
@@ -195,6 +210,7 @@ items:
     id: 41088
     marketGroup: 792
     name: Anode Scoped Triple Neutron Blaster Cannon Blueprint
+    price: 7.68E7
     published: true
     volume: 0.01
   CONCORD Dual 1000mm Railgun Blueprint:
@@ -203,6 +219,7 @@ items:
     TechLevel: 1
     id: 3557
     name: CONCORD Dual 1000mm Railgun Blueprint
+    price: 4.6052412E7
     published: true
     volume: 0.01
   CONCORD Ion Siege Blaster Blueprint:
@@ -211,6 +228,7 @@ items:
     TechLevel: 1
     id: 3547
     name: CONCORD Ion Siege Blaster Blueprint
+    price: 3.6286548E7
     published: true
     volume: 0.01
   Caldari Navy 200mm Railgun Blueprint:
@@ -233,6 +251,7 @@ items:
     id: 41143
     marketGroup: 792
     name: Carbide Compact Dual 1000mm Railgun Blueprint
+    price: 9.205E7
     published: true
     volume: 0.01
   Compressed Enduring Dual 1000mm Railgun Blueprint:
@@ -241,6 +260,7 @@ items:
     id: 41144
     marketGroup: 792
     name: Compressed Enduring Dual 1000mm Railgun Blueprint
+    price: 9.205E7
     published: true
     volume: 0.01
   Dual 1000mm Railgun I Blueprint:
@@ -249,6 +269,7 @@ items:
     id: 20449
     marketGroup: 792
     name: Dual 1000mm Railgun I Blueprint
+    price: 4.6052412E7
     published: true
     volume: 0.01
   Dual 1000mm Railgun II Blueprint:
@@ -256,6 +277,7 @@ items:
     TechLevel: 2
     id: 41145
     name: Dual 1000mm Railgun II Blueprint
+    price: 4.6052412E7
     published: true
     volume: 0.01
   Dual 150mm Railgun I Blueprint:
@@ -264,6 +286,7 @@ items:
     id: 1118
     marketGroup: 290
     name: Dual 150mm Railgun I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Dual 150mm Railgun II Blueprint:
@@ -271,6 +294,7 @@ items:
     TechLevel: 2
     id: 3107
     name: Dual 150mm Railgun II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Dual 250mm Railgun I Blueprint:
@@ -279,6 +303,7 @@ items:
     id: 1123
     marketGroup: 289
     name: Dual 250mm Railgun I Blueprint
+    price: 2000000.0
     published: true
     volume: 0.01
   Dual 250mm Railgun II Blueprint:
@@ -286,6 +311,7 @@ items:
     TechLevel: 2
     id: 3115
     name: Dual 250mm Railgun II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Electron Blaster Cannon I Blueprint:
@@ -294,6 +320,7 @@ items:
     id: 1122
     marketGroup: 289
     name: Electron Blaster Cannon I Blueprint
+    price: 6000000.0
     published: true
     volume: 0.01
   Electron Blaster Cannon II Blueprint:
@@ -301,6 +328,7 @@ items:
     TechLevel: 2
     id: 3123
     name: Electron Blaster Cannon II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Federation Navy 200mm Railgun Blueprint:
@@ -323,6 +351,7 @@ items:
     id: 1117
     marketGroup: 290
     name: Heavy Electron Blaster I Blueprint
+    price: 600000.0
     published: true
     volume: 0.01
   Heavy Electron Blaster II Blueprint:
@@ -330,6 +359,7 @@ items:
     TechLevel: 2
     id: 3131
     name: Heavy Electron Blaster II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Heavy Ion Blaster I Blueprint:
@@ -338,6 +368,7 @@ items:
     id: 1120
     marketGroup: 290
     name: Heavy Ion Blaster I Blueprint
+    price: 900000.0
     published: true
     volume: 0.01
   Heavy Ion Blaster II Blueprint:
@@ -345,6 +376,7 @@ items:
     TechLevel: 2
     id: 3139
     name: Heavy Ion Blaster II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Heavy Neutron Blaster I Blueprint:
@@ -353,6 +385,7 @@ items:
     id: 1119
     marketGroup: 290
     name: Heavy Neutron Blaster I Blueprint
+    price: 1200000.0
     published: true
     volume: 0.01
   Heavy Neutron Blaster II Blueprint:
@@ -360,6 +393,7 @@ items:
     TechLevel: 2
     id: 3147
     name: Heavy Neutron Blaster II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Ion Blaster Cannon I Blueprint:
@@ -368,6 +402,7 @@ items:
     id: 1126
     marketGroup: 289
     name: Ion Blaster Cannon I Blueprint
+    price: 9000000.0
     published: true
     volume: 0.01
   Ion Blaster Cannon II Blueprint:
@@ -375,6 +410,7 @@ items:
     TechLevel: 2
     id: 3155
     name: Ion Blaster Cannon II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Ion Siege Blaster I Blueprint:
@@ -383,6 +419,7 @@ items:
     id: 20451
     marketGroup: 792
     name: Ion Siege Blaster I Blueprint
+    price: 3.6286548E7
     published: true
     volume: 0.01
   Ion Siege Blaster II Blueprint:
@@ -390,6 +427,7 @@ items:
     TechLevel: 2
     id: 41136
     name: Ion Siege Blaster II Blueprint
+    price: 3.6286548E7
     published: true
     volume: 0.01
   Light Electron Blaster I Blueprint:
@@ -398,6 +436,7 @@ items:
     id: 1113
     marketGroup: 291
     name: Light Electron Blaster I Blueprint
+    price: 60000.0
     published: true
     volume: 0.01
   Light Electron Blaster II Blueprint:
@@ -405,6 +444,7 @@ items:
     TechLevel: 2
     id: 3163
     name: Light Electron Blaster II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Light Ion Blaster I Blueprint:
@@ -413,6 +453,7 @@ items:
     id: 1114
     marketGroup: 291
     name: Light Ion Blaster I Blueprint
+    price: 90000.0
     published: true
     volume: 0.01
   Light Ion Blaster II Blueprint:
@@ -420,6 +461,7 @@ items:
     TechLevel: 2
     id: 3171
     name: Light Ion Blaster II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Light Neutron Blaster I Blueprint:
@@ -428,6 +470,7 @@ items:
     id: 1115
     marketGroup: 291
     name: Light Neutron Blaster I Blueprint
+    price: 120000.0
     published: true
     volume: 0.01
   Light Neutron Blaster II Blueprint:
@@ -435,6 +478,7 @@ items:
     TechLevel: 2
     id: 3179
     name: Light Neutron Blaster II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Limited Precise Ion Siege Blaster Blueprint:
@@ -443,6 +487,7 @@ items:
     id: 41135
     marketGroup: 792
     name: Limited Precise Ion Siege Blaster Blueprint
+    price: 7.228E7
     published: true
     volume: 0.01
   Limited Precise Triple Neutron Blaster Cannon Blueprint:
@@ -451,6 +496,7 @@ items:
     id: 41089
     marketGroup: 792
     name: Limited Precise Triple Neutron Blaster Cannon Blueprint
+    price: 7.68E7
     published: true
     volume: 0.01
   Modal Enduring Ion Siege Blaster Blueprint:
@@ -459,6 +505,7 @@ items:
     id: 41133
     marketGroup: 792
     name: Modal Enduring Ion Siege Blaster Blueprint
+    price: 7.228E7
     published: true
     volume: 0.01
   Modal Enduring Triple Neutron Blaster Cannon Blueprint:
@@ -467,6 +514,7 @@ items:
     id: 41087
     marketGroup: 792
     name: Modal Enduring Triple Neutron Blaster Cannon Blueprint
+    price: 7.68E7
     published: true
     volume: 0.01
   Neutron Blaster Cannon I Blueprint:
@@ -475,6 +523,7 @@ items:
     id: 1124
     marketGroup: 289
     name: Neutron Blaster Cannon I Blueprint
+    price: 1.2E7
     published: true
     volume: 0.01
   Neutron Blaster Cannon II Blueprint:
@@ -482,24 +531,28 @@ items:
     TechLevel: 2
     id: 3187
     name: Neutron Blaster Cannon II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Polarized Heavy Neutron Blaster Blueprint:
     TechLevel: 2
     id: 34281
     name: Polarized Heavy Neutron Blaster Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Polarized Light Neutron Blaster Blueprint:
     TechLevel: 2
     id: 34279
     name: Polarized Light Neutron Blaster Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Polarized Neutron Blaster Cannon Blueprint:
     TechLevel: 2
     id: 34283
     name: Polarized Neutron Blaster Cannon Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Prototype Precise Dual 1000mm Railgun Blueprint:
@@ -508,6 +561,7 @@ items:
     id: 41148
     marketGroup: 792
     name: Prototype Precise Dual 1000mm Railgun Blueprint
+    price: 9.205E7
     published: true
     volume: 0.01
   Regulated Compact Ion Siege Blaster Blueprint:
@@ -516,6 +570,7 @@ items:
     id: 41132
     marketGroup: 792
     name: Regulated Compact Ion Siege Blaster Blueprint
+    price: 7.228E7
     published: true
     volume: 0.01
   Regulated Compact Triple Neutron Blaster Cannon Blueprint:
@@ -524,6 +579,7 @@ items:
     id: 41086
     marketGroup: 792
     name: Regulated Compact Triple Neutron Blaster Cannon Blueprint
+    price: 7.68E7
     published: true
     volume: 0.01
   Scout Scoped Dual 1000mm Railgun Blueprint:
@@ -532,6 +588,7 @@ items:
     id: 41146
     marketGroup: 792
     name: Scout Scoped Dual 1000mm Railgun Blueprint
+    price: 9.205E7
     published: true
     volume: 0.01
   Shadow Serpentis Dual 1000mm Railgun Blueprint:
@@ -540,6 +597,7 @@ items:
     TechLevel: 1
     id: 41147
     name: Shadow Serpentis Dual 1000mm Railgun Blueprint
+    price: 4.6052412E7
     published: true
     volume: 0.01
   Shadow Serpentis Ion Siege Blaster Blueprint:
@@ -548,6 +606,7 @@ items:
     TechLevel: 1
     id: 41137
     name: Shadow Serpentis Ion Siege Blaster Blueprint
+    price: 3.6286548E7
     published: true
     volume: 0.01
   Shadow Serpentis Triple Neutron Blaster Cannon Blueprint:
@@ -556,6 +615,7 @@ items:
     TechLevel: 1
     id: 41091
     name: Shadow Serpentis Triple Neutron Blaster Cannon Blueprint
+    price: 3.6286548E7
     published: true
     volume: 0.01
   Triple Neutron Blaster Cannon I Blueprint:
@@ -564,6 +624,7 @@ items:
     id: 41085
     marketGroup: 792
     name: Triple Neutron Blaster Cannon I Blueprint
+    price: 3.84E7
     published: true
     volume: 0.01
   Triple Neutron Blaster Cannon II Blueprint:
@@ -571,5 +632,6 @@ items:
     TechLevel: 2
     id: 41090
     name: Triple Neutron Blaster Cannon II Blueprint
+    price: 3.6286548E7
     published: true
     volume: 0.01

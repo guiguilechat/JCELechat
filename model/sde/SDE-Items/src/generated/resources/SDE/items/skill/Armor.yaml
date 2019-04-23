@@ -9,6 +9,7 @@ items:
     id: 33078
     marketGroup: 1745
     name: Armor Layering
+    price: 1000000.0
     published: true
     volume: 0.01
   Capital Remote Armor Repair Systems:
@@ -22,6 +23,7 @@ items:
     id: 24568
     marketGroup: 1745
     name: Capital Remote Armor Repair Systems
+    price: 1.0E7
     published: true
     volume: 0.01
   Capital Remote Hull Repair Systems:
@@ -35,6 +37,7 @@ items:
     id: 27936
     marketGroup: 1745
     name: Capital Remote Hull Repair Systems
+    price: 1.0E7
     published: true
     volume: 0.01
   Capital Repair Systems:
@@ -52,6 +55,7 @@ items:
     id: 21803
     marketGroup: 1745
     name: Capital Repair Systems
+    price: 1.75E7
     published: true
     volume: 0.01
   EM Armor Compensation:
@@ -64,6 +68,7 @@ items:
     id: 22806
     marketGroup: 1745
     name: EM Armor Compensation
+    price: 120000.0
     published: true
     volume: 0.01
   Explosive Armor Compensation:
@@ -76,6 +81,7 @@ items:
     id: 22807
     marketGroup: 1745
     name: Explosive Armor Compensation
+    price: 120000.0
     published: true
     volume: 0.01
   Hull Upgrades:
@@ -88,6 +94,7 @@ items:
     id: 3394
     marketGroup: 1745
     name: Hull Upgrades
+    price: 60000.0
     published: true
     volume: 0.01
   Kinetic Armor Compensation:
@@ -100,6 +107,7 @@ items:
     id: 22808
     marketGroup: 1745
     name: Kinetic Armor Compensation
+    price: 120000.0
     published: true
     volume: 0.01
   Mechanics:
@@ -110,6 +118,7 @@ items:
     id: 3392
     marketGroup: 1745
     name: Mechanics
+    price: 20000.0
     published: true
     volume: 0.01
   Remote Armor Repair Systems:
@@ -124,6 +133,7 @@ items:
     id: 16069
     marketGroup: 1745
     name: Remote Armor Repair Systems
+    price: 85000.0
     published: true
     volume: 0.01
   Remote Hull Repair Systems:
@@ -136,6 +146,7 @@ items:
     id: 27902
     marketGroup: 1745
     name: Remote Hull Repair Systems
+    price: 100000.0
     published: true
     volume: 0.01
   Repair Systems:
@@ -148,6 +159,7 @@ items:
     id: 3393
     marketGroup: 1745
     name: Repair Systems
+    price: 30000.0
     published: true
     volume: 0.01
   Thermal Armor Compensation:
@@ -160,5 +172,6 @@ items:
     id: 22809
     marketGroup: 1745
     name: Thermal Armor Compensation
+    price: 120000.0
     published: true
     volume: 0.01

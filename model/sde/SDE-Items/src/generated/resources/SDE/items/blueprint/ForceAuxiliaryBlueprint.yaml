@@ -4,6 +4,7 @@ items:
     id: 41582
     marketGroup: 2263
     name: Apostle Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Dagon Blueprint:
@@ -16,6 +17,7 @@ items:
     id: 41585
     marketGroup: 2266
     name: Lif Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Loggerhead Blueprint:
@@ -28,6 +30,7 @@ items:
     id: 41583
     marketGroup: 2264
     name: Minokawa Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Ninazu Blueprint:
@@ -35,5 +38,6 @@ items:
     id: 41584
     marketGroup: 2265
     name: Ninazu Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01

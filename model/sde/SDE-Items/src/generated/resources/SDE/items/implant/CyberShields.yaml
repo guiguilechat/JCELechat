@@ -9,6 +9,7 @@ items:
     id: 32255
     marketGroup: 1481
     name: Sansha Modified 'Gnome' Implant
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-801:
@@ -20,6 +21,7 @@ items:
     id: 27106
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-801
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-802:
@@ -31,6 +33,7 @@ items:
     id: 3085
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-802
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-803:
@@ -42,6 +45,7 @@ items:
     id: 13262
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-803
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-804:
@@ -53,6 +57,7 @@ items:
     id: 3086
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-804
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-805:
@@ -75,6 +80,7 @@ items:
     id: 3087
     marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-806
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-701:
@@ -85,6 +91,7 @@ items:
     id: 27105
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-701
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-702:
@@ -96,6 +103,7 @@ items:
     id: 3080
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-702
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-703:
@@ -106,6 +114,7 @@ items:
     id: 10228
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-703
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-704:
@@ -117,6 +126,7 @@ items:
     id: 3081
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-704
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-705:
@@ -138,6 +148,7 @@ items:
     id: 3084
     marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-706
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-901:
@@ -149,6 +160,7 @@ items:
     id: 27107
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-901
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-902:
@@ -160,6 +172,7 @@ items:
     id: 3088
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-902
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-903:
@@ -171,6 +184,7 @@ items:
     id: 13263
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-903
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-904:
@@ -182,6 +196,7 @@ items:
     id: 3089
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-904
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-905:
@@ -204,6 +219,7 @@ items:
     id: 3092
     marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-906
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-601:
@@ -215,6 +231,7 @@ items:
     id: 27104
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-601
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-602:
@@ -226,6 +243,7 @@ items:
     id: 3077
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-602
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-603:
@@ -237,6 +255,7 @@ items:
     id: 13253
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-603
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-604:
@@ -248,6 +267,7 @@ items:
     id: 3078
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-604
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-605:
@@ -270,5 +290,6 @@ items:
     id: 3079
     marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-606
+    price: 200000.0
     published: true
     volume: 1.0

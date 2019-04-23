@@ -4,6 +4,7 @@ items:
     id: 23660
     marketGroup: 1586
     name: Acolyte EV-300 Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Infiltrator EV-600 Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 23703
     marketGroup: 1586
     name: Infiltrator EV-600 Blueprint
+    price: 1700000.0
     published: true
     volume: 0.01
   Praetor EV-900 Blueprint:
@@ -18,5 +20,6 @@ items:
     id: 22573
     marketGroup: 1586
     name: Praetor EV-900 Blueprint
+    price: 6000000.0
     published: true
     volume: 0.01

@@ -10,6 +10,7 @@ items:
     id: 11207
     marketGroup: 368
     name: Advanced Weapon Upgrades
+    price: 500000.0
     published: true
     volume: 0.01
   CPU Management:
@@ -19,6 +20,7 @@ items:
     id: 3426
     marketGroup: 368
     name: CPU Management
+    price: 20000.0
     published: true
     volume: 0.01
   Capacitor Emission Systems:
@@ -33,6 +35,7 @@ items:
     id: 3423
     marketGroup: 368
     name: Capacitor Emission Systems
+    price: 75000.0
     published: true
     volume: 0.01
   Capacitor Management:
@@ -44,6 +47,7 @@ items:
     id: 3418
     marketGroup: 368
     name: Capacitor Management
+    price: 170000.0
     published: true
     volume: 0.01
   Capacitor Systems Operation:
@@ -55,6 +59,7 @@ items:
     id: 3417
     marketGroup: 368
     name: Capacitor Systems Operation
+    price: 40000.0
     published: true
     volume: 0.01
   Capital Capacitor Emission Systems:
@@ -70,6 +75,7 @@ items:
     id: 24572
     marketGroup: 368
     name: Capital Capacitor Emission Systems
+    price: 1.0E7
     published: true
     volume: 0.01
   Electronics Upgrades:
@@ -84,6 +90,7 @@ items:
     id: 3432
     marketGroup: 368
     name: Electronics Upgrades
+    price: 100000.0
     published: true
     volume: 0.01
   Energy Grid Upgrades:
@@ -98,6 +105,7 @@ items:
     id: 3424
     marketGroup: 368
     name: Energy Grid Upgrades
+    price: 79000.0
     published: true
     volume: 0.01
   Energy Pulse Weapons:
@@ -112,6 +120,7 @@ items:
     id: 3421
     marketGroup: 368
     name: Energy Pulse Weapons
+    price: 130000.0
     published: true
     volume: 0.01
   Nanite Interfacing:
@@ -124,6 +133,7 @@ items:
     id: 28880
     marketGroup: 368
     name: Nanite Interfacing
+    price: 5000000.0
     published: true
     volume: 0.01
   Nanite Operation:
@@ -136,6 +146,7 @@ items:
     id: 28879
     marketGroup: 368
     name: Nanite Operation
+    price: 1000000.0
     published: true
     volume: 0.01
   Power Grid Management:
@@ -145,6 +156,7 @@ items:
     id: 3413
     marketGroup: 368
     name: Power Grid Management
+    price: 20000.0
     published: true
     volume: 0.01
   Resistance Phasing:
@@ -158,6 +170,7 @@ items:
     id: 32797
     marketGroup: 368
     name: Resistance Phasing
+    price: 500000.0
     published: true
     volume: 0.01
   Thermodynamics:
@@ -174,6 +187,7 @@ items:
     id: 28164
     marketGroup: 368
     name: Thermodynamics
+    price: 4500000.0
     published: true
     volume: 0.01
   Weapon Upgrades:
@@ -186,5 +200,6 @@ items:
     id: 3318
     marketGroup: 368
     name: Weapon Upgrades
+    price: 80000.0
     published: true
     volume: 0.01

@@ -45,6 +45,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Amarr Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Amarr Control Tower Medium:
@@ -93,6 +94,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Amarr Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Amarr Control Tower Small:
@@ -141,6 +143,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Amarr Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Angel Control Tower:
@@ -190,6 +193,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Angel Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Angel Control Tower Medium:
@@ -239,6 +243,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Angel Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Angel Control Tower Small:
@@ -288,6 +293,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Angel Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Blood Control Tower:
@@ -337,6 +343,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Blood Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Blood Control Tower Medium:
@@ -386,6 +393,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Blood Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Blood Control Tower Small:
@@ -435,6 +443,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Blood Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Caldari Control Tower:
@@ -483,6 +492,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Caldari Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Caldari Control Tower Medium:
@@ -531,6 +541,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Caldari Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Caldari Control Tower Small:
@@ -579,6 +590,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Caldari Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Dark Blood Control Tower:
@@ -628,6 +640,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Dark Blood Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Dark Blood Control Tower Medium:
@@ -677,6 +690,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Dark Blood Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Dark Blood Control Tower Small:
@@ -726,6 +740,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Dark Blood Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Domination Control Tower:
@@ -775,6 +790,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Domination Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Domination Control Tower Medium:
@@ -824,6 +840,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Domination Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Domination Control Tower Small:
@@ -873,6 +890,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Domination Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Dread Guristas Control Tower:
@@ -922,6 +940,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Dread Guristas Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Dread Guristas Control Tower Medium:
@@ -971,6 +990,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Dread Guristas Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Dread Guristas Control Tower Small:
@@ -1020,6 +1040,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Dread Guristas Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Gallente Control Tower:
@@ -1067,6 +1088,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Gallente Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Gallente Control Tower Medium:
@@ -1114,6 +1136,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Gallente Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Gallente Control Tower Small:
@@ -1161,6 +1184,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Gallente Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Guristas Control Tower:
@@ -1210,6 +1234,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Guristas Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Guristas Control Tower Medium:
@@ -1259,6 +1284,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Guristas Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Guristas Control Tower Small:
@@ -1308,6 +1334,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Guristas Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Minmatar Control Tower:
@@ -1356,6 +1383,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Minmatar Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Minmatar Control Tower Medium:
@@ -1404,6 +1432,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Minmatar Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Minmatar Control Tower Small:
@@ -1452,6 +1481,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Minmatar Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Sansha Control Tower:
@@ -1501,6 +1531,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Sansha Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Sansha Control Tower Medium:
@@ -1550,6 +1581,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Sansha Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Sansha Control Tower Small:
@@ -1599,6 +1631,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Sansha Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Serpentis Control Tower:
@@ -1647,6 +1680,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Serpentis Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Serpentis Control Tower Medium:
@@ -1695,6 +1729,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Serpentis Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Serpentis Control Tower Small:
@@ -1743,6 +1778,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Serpentis Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   Shadow Control Tower:
@@ -1791,6 +1827,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Shadow Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   Shadow Control Tower Medium:
@@ -1839,6 +1876,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Shadow Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   Shadow Control Tower Small:
@@ -1887,6 +1925,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: Shadow Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0
   True Sansha Control Tower:
@@ -1936,6 +1975,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: True Sansha Control Tower
+    price: 4.0E8
     published: true
     volume: 8000.0
   True Sansha Control Tower Medium:
@@ -1985,6 +2025,7 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: True Sansha Control Tower Medium
+    price: 2.0E8
     published: true
     volume: 4000.0
   True Sansha Control Tower Small:
@@ -2034,5 +2075,6 @@ items:
     marketGroup: 478
     mass: 2.0E8
     name: True Sansha Control Tower Small
+    price: 1.0E8
     published: true
     volume: 2000.0

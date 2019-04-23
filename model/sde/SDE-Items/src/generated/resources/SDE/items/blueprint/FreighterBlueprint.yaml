@@ -4,6 +4,7 @@ items:
     TechLevel: 2
     id: 28849
     name: Anshar Blueprint
+    price: 1.95E9
     published: true
     volume: 0.01
   Ark Blueprint:
@@ -11,6 +12,7 @@ items:
     TechLevel: 2
     id: 28851
     name: Ark Blueprint
+    price: 1.9E9
     published: true
     volume: 0.01
   Bowhead Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 34329
     marketGroup: 1949
     name: Bowhead Blueprint
+    price: 1.55E9
     published: true
     volume: 0.01
   Charon Blueprint:
@@ -26,6 +29,7 @@ items:
     id: 20186
     marketGroup: 789
     name: Charon Blueprint
+    price: 2.0E9
     published: true
     volume: 0.01
   Fenrir Blueprint:
@@ -34,6 +38,7 @@ items:
     id: 20190
     marketGroup: 791
     name: Fenrir Blueprint
+    price: 1.85E9
     published: true
     volume: 0.01
   Nomad Blueprint:
@@ -41,6 +46,7 @@ items:
     TechLevel: 2
     id: 28847
     name: Nomad Blueprint
+    price: 1.85E9
     published: true
     volume: 0.01
   Obelisk Blueprint:
@@ -49,6 +55,7 @@ items:
     id: 20188
     marketGroup: 790
     name: Obelisk Blueprint
+    price: 1.95E9
     published: true
     volume: 0.01
   Providence Blueprint:
@@ -57,6 +64,7 @@ items:
     id: 20184
     marketGroup: 788
     name: Providence Blueprint
+    price: 1.9E9
     published: true
     volume: 0.01
   Rhea Blueprint:
@@ -64,5 +72,6 @@ items:
     TechLevel: 2
     id: 28845
     name: Rhea Blueprint
+    price: 2.0E9
     published: true
     volume: 0.01

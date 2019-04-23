@@ -95,6 +95,7 @@ items:
     id: 11872
     marketGroup: 1918
     name: R.A.M.- Ammunition Tech Blueprint
+    price: 364560.0
     published: true
     volume: 0.01
   R.A.M.- Armor/Hull Tech Blueprint:
@@ -103,6 +104,7 @@ items:
     id: 11873
     marketGroup: 1918
     name: R.A.M.- Armor/Hull Tech Blueprint
+    price: 364560.0
     published: true
     volume: 0.01
   R.A.M.- Cybernetics Blueprint:
@@ -118,6 +120,7 @@ items:
     id: 11870
     marketGroup: 1918
     name: R.A.M.- Electronics Blueprint
+    price: 282640.0
     published: true
     volume: 0.01
   R.A.M.- Energy Tech Blueprint:
@@ -126,6 +129,7 @@ items:
     id: 11859
     marketGroup: 1918
     name: R.A.M.- Energy Tech Blueprint
+    price: 282640.0
     published: true
     volume: 0.01
   R.A.M.- Robotics Blueprint:
@@ -134,6 +138,7 @@ items:
     id: 11887
     marketGroup: 1918
     name: R.A.M.- Robotics Blueprint
+    price: 282640.0
     published: true
     volume: 0.01
   R.A.M.- Shield Tech Blueprint:
@@ -142,6 +147,7 @@ items:
     id: 11889
     marketGroup: 1918
     name: R.A.M.- Shield Tech Blueprint
+    price: 282640.0
     published: true
     volume: 0.01
   R.A.M.- Starship Tech Blueprint:
@@ -150,6 +156,7 @@ items:
     id: 11890
     marketGroup: 1918
     name: R.A.M.- Starship Tech Blueprint
+    price: 282640.0
     published: true
     volume: 0.01
   R.A.M.- Weapon Tech Blueprint:
@@ -158,6 +165,7 @@ items:
     id: 11891
     marketGroup: 1918
     name: R.A.M.- Weapon Tech Blueprint
+    price: 282640.0
     published: true
     volume: 0.01
   R.Db - Boundless Creations Blueprint:
@@ -166,6 +174,7 @@ items:
     id: 11876
     marketGroup: 1919
     name: R.Db - Boundless Creations Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Carthum Conglomerate Blueprint:
@@ -174,6 +183,7 @@ items:
     id: 11880
     marketGroup: 1919
     name: R.Db - Carthum Conglomerate Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Core Complexion Blueprint:
@@ -182,6 +192,7 @@ items:
     id: 11877
     marketGroup: 1919
     name: R.Db - Core Complexion Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - CreoDron Blueprint:
@@ -190,6 +201,7 @@ items:
     id: 11878
     marketGroup: 1919
     name: R.Db - CreoDron Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Duvolle Labs Blueprint:
@@ -198,6 +210,7 @@ items:
     id: 11879
     marketGroup: 1919
     name: R.Db - Duvolle Labs Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Ishukone Blueprint:
@@ -206,6 +219,7 @@ items:
     id: 11885
     marketGroup: 1919
     name: R.Db - Ishukone Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Kaalakiota Blueprint:
@@ -214,6 +228,7 @@ items:
     id: 11881
     marketGroup: 1919
     name: R.Db - Kaalakiota Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Khanid Innovation Blueprint:
@@ -222,6 +237,7 @@ items:
     id: 11882
     marketGroup: 1919
     name: R.Db - Khanid Innovation Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Lai Dai Blueprint:
@@ -230,6 +246,7 @@ items:
     id: 11886
     marketGroup: 1919
     name: R.Db - Lai Dai Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Roden Shipyards Blueprint:
@@ -238,6 +255,7 @@ items:
     id: 11857
     marketGroup: 1919
     name: R.Db - Roden Shipyards Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Thukker Mix Blueprint:
@@ -246,6 +264,7 @@ items:
     id: 11883
     marketGroup: 1919
     name: R.Db - Thukker Mix Blueprint
+    price: 586240.0
     published: true
     volume: 0.01
   R.Db - Viziam Blueprint:
@@ -254,5 +273,6 @@ items:
     id: 11884
     marketGroup: 1919
     name: R.Db - Viziam Blueprint
+    price: 586240.0
     published: true
     volume: 0.01

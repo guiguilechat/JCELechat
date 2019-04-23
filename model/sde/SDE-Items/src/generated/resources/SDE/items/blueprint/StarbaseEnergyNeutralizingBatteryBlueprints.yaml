@@ -16,6 +16,7 @@ items:
     id: 2799
     marketGroup: 1345
     name: Energy Neutralizing Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Sansha Energy Neutralizing Battery Blueprint:

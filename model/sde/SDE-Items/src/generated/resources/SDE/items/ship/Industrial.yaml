@@ -1020,6 +1020,7 @@ items:
     marketGroup: 1390
     mass: 1.464E7
     name: Noctis
+    price: 1000.0
     published: true
     volume: 270000.0
   Primae:
@@ -1088,6 +1089,7 @@ items:
     marketGroup: 1614
     mass: 1.5E7
     name: Primae
+    price: 1000.0
     published: true
     volume: 270000.0
   Sigil:

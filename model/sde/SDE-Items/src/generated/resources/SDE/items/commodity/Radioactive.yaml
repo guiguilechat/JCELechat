@@ -4,6 +4,7 @@ items:
     marketGroup: 22
     mass: 2000.0
     name: Plutonium
+    price: 12000.0
     published: true
     volume: 1.0
   Radioactive Waste:
@@ -17,5 +18,6 @@ items:
     marketGroup: 22
     mass: 2000.0
     name: Toxic Waste
+    price: 150.0
     published: true
     volume: 1.0

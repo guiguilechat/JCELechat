@@ -44,6 +44,7 @@ items:
     marketGroup: 1009
     mass: 1.0E8
     name: Blood Energy Neutralizing Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   Dark Blood Energy Neutralizing Battery:
@@ -91,6 +92,7 @@ items:
     marketGroup: 1009
     mass: 1.0E8
     name: Dark Blood Energy Neutralizing Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   Energy Neutralizing Battery:
@@ -137,6 +139,7 @@ items:
     marketGroup: 1009
     mass: 1.0E8
     name: Energy Neutralizing Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   Sansha Energy Neutralizing Battery:
@@ -184,6 +187,7 @@ items:
     marketGroup: 1009
     mass: 1.0E8
     name: Sansha Energy Neutralizing Battery
+    price: 5000000.0
     published: true
     volume: 4000.0
   True Sansha Energy Neutralizing Battery:
@@ -231,5 +235,6 @@ items:
     marketGroup: 1009
     mass: 1.0E8
     name: True Sansha Energy Neutralizing Battery
+    price: 5000000.0
     published: true
     volume: 4000.0

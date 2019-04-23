@@ -8,6 +8,7 @@ items:
     id: 16622
     marketGroup: 378
     name: Accounting
+    price: 5000000.0
     published: true
     volume: 0.01
   Broker Relations:
@@ -19,6 +20,7 @@ items:
     id: 3446
     marketGroup: 378
     name: Broker Relations
+    price: 100000.0
     published: true
     volume: 0.01
   Contracting:
@@ -31,6 +33,7 @@ items:
     id: 25235
     marketGroup: 378
     name: Contracting
+    price: 150000.0
     published: true
     volume: 0.01
   Corporation Contracting:
@@ -43,6 +46,7 @@ items:
     id: 25233
     marketGroup: 378
     name: Corporation Contracting
+    price: 150000.0
     published: true
     volume: 0.01
   Customs Code Expertise:
@@ -55,6 +59,7 @@ items:
     id: 33467
     marketGroup: 378
     name: Customs Code Expertise
+    price: 3000000.0
     published: true
     volume: 0.01
   Daytrading:
@@ -66,6 +71,7 @@ items:
     id: 16595
     marketGroup: 378
     name: Daytrading
+    price: 1.25E7
     published: true
     volume: 0.01
   Margin Trading:
@@ -78,6 +84,7 @@ items:
     id: 16597
     marketGroup: 378
     name: Margin Trading
+    price: 2.0E7
     published: true
     volume: 0.01
   Marketing:
@@ -89,6 +96,7 @@ items:
     id: 16598
     marketGroup: 378
     name: Marketing
+    price: 3500000.0
     published: true
     volume: 0.01
   Procurement:
@@ -100,6 +108,7 @@ items:
     id: 16594
     marketGroup: 378
     name: Procurement
+    price: 1500000.0
     published: true
     volume: 0.01
   Retail:
@@ -112,6 +121,7 @@ items:
     id: 3444
     marketGroup: 378
     name: Retail
+    price: 100000.0
     published: true
     volume: 0.01
   Trade:
@@ -122,6 +132,7 @@ items:
     id: 3443
     marketGroup: 378
     name: Trade
+    price: 20000.0
     published: true
     volume: 0.01
   Tycoon:
@@ -136,6 +147,7 @@ items:
     id: 18580
     marketGroup: 378
     name: Tycoon
+    price: 1.0E8
     published: true
     volume: 0.01
   Visibility:
@@ -147,6 +159,7 @@ items:
     id: 3447
     marketGroup: 378
     name: Visibility
+    price: 7500000.0
     published: true
     volume: 0.01
   Wholesale:
@@ -161,5 +174,6 @@ items:
     id: 16596
     marketGroup: 378
     name: Wholesale
+    price: 3.5E7
     published: true
     volume: 0.01

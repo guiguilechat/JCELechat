@@ -14,6 +14,7 @@ items:
     marketGroup: 512
     mass: 1.0E35
     name: Arkonor
+    price: 3068504.0
     published: true
     volume: 16.0
   Compressed Arkonor:
@@ -29,6 +30,7 @@ items:
     marketGroup: 512
     mass: 1.0E35
     name: Compressed Arkonor
+    price: 1.568047E7
     published: true
     volume: 8.8
   Compressed Crimson Arkonor:
@@ -44,6 +46,7 @@ items:
     marketGroup: 512
     mass: 1.0E35
     name: Compressed Crimson Arkonor
+    price: 1.612091E7
     published: true
     volume: 8.8
   Compressed Flawless Arkonor:
@@ -59,6 +62,7 @@ items:
     marketGroup: 512
     mass: 1.0
     name: Compressed Flawless Arkonor
+    price: 564000.0
     published: true
     volume: 8.8
   Compressed Prime Arkonor:
@@ -74,6 +78,7 @@ items:
     marketGroup: 512
     mass: 1.0E35
     name: Compressed Prime Arkonor
+    price: 1.686858E7
     published: true
     volume: 8.8
   Crimson Arkonor:
@@ -91,6 +96,7 @@ items:
     marketGroup: 512
     mass: 1.0E35
     name: Crimson Arkonor
+    price: 3224182.0
     published: true
     volume: 16.0
   Flawless Arkonor:
@@ -108,6 +114,7 @@ items:
     marketGroup: 512
     mass: 1.0E35
     name: Flawless Arkonor
+    price: 5100.0
     published: true
     volume: 16.0
   Polygypsum:
@@ -121,6 +128,7 @@ items:
     id: 28625
     mass: 1.0E35
     name: Polygypsum
+    price: 2000.0
     published: true
     volume: 16.0
   Prime Arkonor:
@@ -138,5 +146,6 @@ items:
     marketGroup: 512
     mass: 1.0E35
     name: Prime Arkonor
+    price: 3373716.0
     published: true
     volume: 16.0

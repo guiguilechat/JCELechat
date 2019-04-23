@@ -156,6 +156,7 @@ items:
     marketGroup: 2034
     mass: 1050000.0
     name: Hecate
+    price: 3.0E7
     published: true
     volume: 47000.0
   Jackdaw:

@@ -22,6 +22,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: '''Beatnik'' Small Remote Armor Repairer'
+    price: 4996.0
     published: true
     volume: 5.0
   '''Love'' Medium Remote Armor Repairer':
@@ -47,6 +48,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: '''Love'' Medium Remote Armor Repairer'
+    price: 12470.0
     published: true
     volume: 10.0
   '''Peace'' Large Remote Armor Repairer':
@@ -99,6 +101,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: CONCORD Capital Remote Armor Repairer
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital Coaxial Compact Remote Armor Repairer:
@@ -125,6 +128,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: Capital Coaxial Compact Remote Armor Repairer
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital I-ax Enduring Remote Armor Repairer:
@@ -151,6 +155,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: Capital I-ax Enduring Remote Armor Repairer
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital Remote Armor Repairer I:
@@ -175,6 +180,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: Capital Remote Armor Repairer I
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital Remote Armor Repairer II:
@@ -201,6 +207,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: Capital Remote Armor Repairer II
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Capital Solace Scoped Remote Armor Repairer:
@@ -227,6 +234,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: Capital Solace Scoped Remote Armor Repairer
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Centii A-Type Small Remote Armor Repairer:
@@ -252,6 +260,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Centii A-Type Small Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Centii B-Type Small Remote Armor Repairer:
@@ -277,6 +286,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Centii B-Type Small Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Centii C-Type Small Remote Armor Repairer:
@@ -302,6 +312,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Centii C-Type Small Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Centum A-Type Medium Remote Armor Repairer:
@@ -327,6 +338,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Centum A-Type Medium Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Centum B-Type Medium Remote Armor Repairer:
@@ -352,6 +364,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Centum B-Type Medium Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Centum C-Type Medium Remote Armor Repairer:
@@ -377,6 +390,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Centum C-Type Medium Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Civilian Small Remote Armor Repairer:
@@ -397,6 +411,7 @@ items:
     id: 32469
     mass: 20.0
     name: Civilian Small Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Coreli A-Type Small Remote Armor Repairer:
@@ -422,6 +437,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Coreli A-Type Small Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Coreli B-Type Small Remote Armor Repairer:
@@ -447,6 +463,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Coreli B-Type Small Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Coreli C-Type Small Remote Armor Repairer:
@@ -472,6 +489,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Coreli C-Type Small Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Corelum A-Type Medium Remote Armor Repairer:
@@ -497,6 +515,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Corelum A-Type Medium Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Corelum B-Type Medium Remote Armor Repairer:
@@ -522,6 +541,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Corelum B-Type Medium Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Corelum C-Type Medium Remote Armor Repairer:
@@ -547,6 +567,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Corelum C-Type Medium Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Dark Blood Capital Remote Armor Repairer:
@@ -574,6 +595,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: Dark Blood Capital Remote Armor Repairer
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Large Coaxial Compact Remote Armor Repairer:
@@ -598,6 +620,7 @@ items:
     marketGroup: 1057
     mass: 20.0
     name: Large Coaxial Compact Remote Armor Repairer
+    price: 31244.0
     published: true
     volume: 25.0
   Large I-ax Enduring Remote Armor Repairer:
@@ -622,6 +645,7 @@ items:
     marketGroup: 1057
     mass: 20.0
     name: Large I-ax Enduring Remote Armor Repairer
+    price: 31244.0
     published: true
     volume: 25.0
   Large Remote Armor Repairer I:
@@ -644,6 +668,7 @@ items:
     marketGroup: 1057
     mass: 20.0
     name: Large Remote Armor Repairer I
+    price: 31244.0
     published: true
     volume: 25.0
   Large Remote Armor Repairer II:
@@ -667,6 +692,7 @@ items:
     marketGroup: 1057
     mass: 20.0
     name: Large Remote Armor Repairer II
+    price: 31244.0
     published: true
     volume: 25.0
   Large Solace Scoped Remote Armor Repairer:
@@ -691,6 +717,7 @@ items:
     marketGroup: 1057
     mass: 20.0
     name: Large Solace Scoped Remote Armor Repairer
+    price: 31244.0
     published: true
     volume: 25.0
   Medium Coaxial Compact Remote Armor Repairer:
@@ -715,6 +742,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Medium Coaxial Compact Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Medium I-ax Enduring Remote Armor Repairer:
@@ -739,6 +767,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Medium I-ax Enduring Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Medium Remote Armor Repairer I:
@@ -762,6 +791,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Medium Remote Armor Repairer I
+    price: 12470.0
     published: true
     volume: 10.0
   Medium Remote Armor Repairer II:
@@ -786,6 +816,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Medium Remote Armor Repairer II
+    price: 12470.0
     published: true
     volume: 10.0
   Medium Solace Scoped Remote Armor Repairer:
@@ -810,6 +841,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Medium Solace Scoped Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Shadow Serpentis Capital Remote Armor Repairer:
@@ -837,6 +869,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: Shadow Serpentis Capital Remote Armor Repairer
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Small Coaxial Compact Remote Armor Repairer:
@@ -861,6 +894,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Small Coaxial Compact Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Small I-ax Enduring Remote Armor Repairer:
@@ -885,6 +919,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Small I-ax Enduring Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0
   Small Remote Armor Repairer I:
@@ -908,6 +943,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Small Remote Armor Repairer I
+    price: 4996.0
     published: true
     volume: 5.0
   Small Remote Armor Repairer II:
@@ -932,6 +968,7 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Small Remote Armor Repairer II
+    price: 4996.0
     published: true
     volume: 5.0
   Small Solace Scoped Remote Armor Repairer:
@@ -956,5 +993,6 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Small Solace Scoped Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0

@@ -8,6 +8,7 @@ items:
     id: 49734
     mass: 1.0
     name: Abyssal Entropic Radiation Sink
+    price: 1000.0
     published: true
     volume: 1.0
   Compact Entropic Radiation Sink:

@@ -78,6 +78,7 @@ items:
     marketGroup: 494
     mass: 3.0E7
     name: Covetor
+    price: 2.0E7
     published: true
     volume: 200000.0
   Procurer:
@@ -160,6 +161,7 @@ items:
     marketGroup: 494
     mass: 1.0E7
     name: Procurer
+    price: 1000000.0
     published: true
     volume: 100000.0
   Retriever:
@@ -240,5 +242,6 @@ items:
     marketGroup: 494
     mass: 2.0E7
     name: Retriever
+    price: 5000000.0
     published: true
     volume: 150000.0

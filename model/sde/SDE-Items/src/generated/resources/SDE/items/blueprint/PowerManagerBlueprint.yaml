@@ -54,6 +54,7 @@ items:
     id: 1247
     marketGroup: 1556
     name: Capacitor Flux Coil I Blueprint
+    price: 41600.0
     published: true
     volume: 0.01
   Capacitor Flux Coil II Blueprint:
@@ -61,6 +62,7 @@ items:
     TechLevel: 2
     id: 1249
     name: Capacitor Flux Coil II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Capacitor Power Relay I Blueprint:
@@ -69,6 +71,7 @@ items:
     id: 1446
     marketGroup: 1557
     name: Capacitor Power Relay I Blueprint
+    price: 97440.0
     published: true
     volume: 0.01
   Capacitor Power Relay II Blueprint:
@@ -76,6 +79,7 @@ items:
     TechLevel: 2
     id: 1448
     name: Capacitor Power Relay II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Imperial Navy Capacitor Power Relay Blueprint:
@@ -98,6 +102,7 @@ items:
     id: 1540
     marketGroup: 1560
     name: Power Diagnostic System I Blueprint
+    price: 99200.0
     published: true
     volume: 0.01
   Power Diagnostic System II Blueprint:
@@ -105,6 +110,7 @@ items:
     TechLevel: 2
     id: 1542
     name: Power Diagnostic System II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Reactor Control Unit I Blueprint:
@@ -113,6 +119,7 @@ items:
     id: 1354
     marketGroup: 1561
     name: Reactor Control Unit I Blueprint
+    price: 99200.0
     published: true
     volume: 0.01
   Reactor Control Unit II Blueprint:
@@ -120,6 +127,7 @@ items:
     TechLevel: 2
     id: 1356
     name: Reactor Control Unit II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Shield Flux Coil I Blueprint:
@@ -128,6 +136,7 @@ items:
     id: 1255
     marketGroup: 1547
     name: Shield Flux Coil I Blueprint
+    price: 41600.0
     published: true
     volume: 0.01
   Shield Flux Coil II Blueprint:
@@ -135,6 +144,7 @@ items:
     TechLevel: 2
     id: 1257
     name: Shield Flux Coil II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
   Shield Power Relay I Blueprint:
@@ -143,6 +153,7 @@ items:
     id: 2332
     marketGroup: 1550
     name: Shield Power Relay I Blueprint
+    price: 97440.0
     published: true
     volume: 0.01
   Shield Power Relay II Blueprint:
@@ -150,5 +161,6 @@ items:
     TechLevel: 2
     id: 1423
     name: Shield Power Relay II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01

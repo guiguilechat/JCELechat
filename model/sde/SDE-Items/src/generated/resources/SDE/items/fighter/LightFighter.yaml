@@ -58,6 +58,7 @@ items:
     marketGroup: 840
     mass: 1000.0
     name: Dragonfly I
+    price: 2.0336332E7
     published: true
     volume: 1000.0
   Dragonfly II:
@@ -181,6 +182,7 @@ items:
     marketGroup: 840
     mass: 1000.0
     name: Einherji I
+    price: 2.000134E7
     published: true
     volume: 1000.0
   Einherji II:
@@ -419,6 +421,7 @@ items:
     marketGroup: 840
     mass: 1000.0
     name: Firbolg I
+    price: 2.1394992E7
     published: true
     volume: 1000.0
   Firbolg II:
@@ -884,6 +887,7 @@ items:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Dragonfly I
+    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Dragonfly II:
@@ -943,6 +947,7 @@ items:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Dragonfly II
+    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Einherji I:
@@ -1001,6 +1006,7 @@ items:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Einherji I
+    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Einherji II:
@@ -1060,6 +1066,7 @@ items:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Einherji II
+    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Equite I:
@@ -1227,6 +1234,7 @@ items:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Firbolg I
+    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Firbolg II:
@@ -1286,6 +1294,7 @@ items:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Firbolg II
+    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Gram I:
@@ -1671,6 +1680,7 @@ items:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Templar I
+    price: 2.004734E7
     published: true
     volume: 2000.0
   Standup Templar II:
@@ -1730,6 +1740,7 @@ items:
     marketGroup: 2411
     mass: 1000.0
     name: Standup Templar II
+    price: 2.004734E7
     published: true
     volume: 2000.0
   Templar I:
@@ -1791,6 +1802,7 @@ items:
     marketGroup: 840
     mass: 1000.0
     name: Templar I
+    price: 2.004734E7
     published: true
     volume: 1000.0
   Templar II:

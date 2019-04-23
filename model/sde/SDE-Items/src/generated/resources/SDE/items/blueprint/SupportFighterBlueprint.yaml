@@ -4,12 +4,14 @@ items:
     id: 41367
     marketGroup: 2238
     name: Cenobite I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Cenobite II Blueprint:
     TechLevel: 2
     id: 41368
     name: Cenobite II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Dromi I Blueprint:
@@ -17,12 +19,14 @@ items:
     id: 41373
     marketGroup: 2238
     name: Dromi I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Dromi II Blueprint:
     TechLevel: 2
     id: 41374
     name: Dromi II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Scarab I Blueprint:
@@ -30,12 +34,14 @@ items:
     id: 41369
     marketGroup: 2238
     name: Scarab I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Scarab II Blueprint:
     TechLevel: 2
     id: 41370
     name: Scarab II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Siren I Blueprint:
@@ -43,12 +49,14 @@ items:
     id: 41371
     marketGroup: 2238
     name: Siren I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Siren II Blueprint:
     TechLevel: 2
     id: 41372
     name: Siren II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Cenobite I Blueprint:
@@ -56,12 +64,14 @@ items:
     id: 47224
     marketGroup: 2238
     name: Standup Cenobite I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Cenobite II Blueprint:
     TechLevel: 1
     id: 47225
     name: Standup Cenobite II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Dromi I Blueprint:
@@ -69,12 +79,14 @@ items:
     id: 47230
     marketGroup: 2238
     name: Standup Dromi I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Dromi II Blueprint:
     TechLevel: 1
     id: 47231
     name: Standup Dromi II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Scarab I Blueprint:
@@ -82,12 +94,14 @@ items:
     id: 47226
     marketGroup: 2238
     name: Standup Scarab I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Scarab II Blueprint:
     TechLevel: 1
     id: 47227
     name: Standup Scarab II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Siren I Blueprint:
@@ -95,11 +109,13 @@ items:
     id: 47228
     marketGroup: 2238
     name: Standup Siren I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Siren II Blueprint:
     TechLevel: 1
     id: 47229
     name: Standup Siren II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01

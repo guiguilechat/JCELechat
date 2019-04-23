@@ -25,6 +25,7 @@ items:
     marketGroup: 2259
     mass: 1500.0
     name: Inferno Javelin XL Torpedo
+    price: 325000.0
     published: true
     volume: 0.3
   Inferno Rage XL Torpedo:
@@ -53,6 +54,7 @@ items:
     marketGroup: 2258
     mass: 1500.0
     name: Inferno Rage XL Torpedo
+    price: 325000.0
     published: true
     volume: 0.3
   Mjolnir Javelin XL Torpedo:
@@ -81,6 +83,7 @@ items:
     marketGroup: 2259
     mass: 1500.0
     name: Mjolnir Javelin XL Torpedo
+    price: 350000.0
     published: true
     volume: 0.3
   Mjolnir Rage XL Torpedo:
@@ -109,6 +112,7 @@ items:
     marketGroup: 2258
     mass: 1500.0
     name: Mjolnir Rage XL Torpedo
+    price: 350000.0
     published: true
     volume: 0.3
   Nova Javelin XL Torpedo:
@@ -137,6 +141,7 @@ items:
     marketGroup: 2259
     mass: 1500.0
     name: Nova Javelin XL Torpedo
+    price: 250000.0
     published: true
     volume: 0.3
   Nova Rage XL Torpedo:
@@ -165,6 +170,7 @@ items:
     marketGroup: 2258
     mass: 1500.0
     name: Nova Rage XL Torpedo
+    price: 250000.0
     published: true
     volume: 0.3
   Scourge Javelin XL Torpedo:
@@ -193,6 +199,7 @@ items:
     marketGroup: 2259
     mass: 1500.0
     name: Scourge Javelin XL Torpedo
+    price: 300000.0
     published: true
     volume: 0.3
   Scourge Rage XL Torpedo:
@@ -221,5 +228,6 @@ items:
     marketGroup: 2258
     mass: 1500.0
     name: Scourge Rage XL Torpedo
+    price: 300000.0
     published: true
     volume: 0.3

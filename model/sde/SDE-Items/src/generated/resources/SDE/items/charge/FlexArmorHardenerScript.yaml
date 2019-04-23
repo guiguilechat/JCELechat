@@ -11,6 +11,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Armor EM Resistance Script
+    price: 4000.0
     published: true
     volume: 1.0
   Armor Explosive Resistance Script:
@@ -25,6 +26,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Armor Explosive Resistance Script
+    price: 4000.0
     published: true
     volume: 1.0
   Armor Kinetic Resistance Script:
@@ -39,6 +41,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Armor Kinetic Resistance Script
+    price: 4000.0
     published: true
     volume: 1.0
   Armor Thermal Resistance Script:
@@ -53,5 +56,6 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Armor Thermal Resistance Script
+    price: 4000.0
     published: true
     volume: 1.0

@@ -4,6 +4,7 @@ items:
     id: 4315
     marketGroup: 1920
     name: Helium Fuel Block Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Hydrogen Fuel Block Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 4316
     marketGroup: 1920
     name: Hydrogen Fuel Block Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Nitrogen Fuel Block Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 4314
     marketGroup: 1920
     name: Nitrogen Fuel Block Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01
   Oxygen Fuel Block Blueprint:
@@ -25,5 +28,6 @@ items:
     id: 4313
     marketGroup: 1920
     name: Oxygen Fuel Block Blueprint
+    price: 1.0E7
     published: true
     volume: 0.01

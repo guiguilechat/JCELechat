@@ -2,6 +2,7 @@ items:
   Advanced 'Ardour' Cerebral Accelerator Blueprint:
     id: 50013
     name: Advanced 'Ardour' Cerebral Accelerator Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Advanced Cerebral Accelerator Blueprint:
@@ -13,11 +14,13 @@ items:
   Basic 'Ardour' Cerebral Accelerator Blueprint:
     id: 50011
     name: Basic 'Ardour' Cerebral Accelerator Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Extended 'Ardour' Cerebral Accelerator Blueprint:
     id: 50014
     name: Extended 'Ardour' Cerebral Accelerator Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Improved Blue Pill Booster Blueprint:
@@ -77,6 +80,7 @@ items:
   Standard 'Ardour' Cerebral Accelerator Blueprint:
     id: 50012
     name: Standard 'Ardour' Cerebral Accelerator Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Standard Blue Pill Booster Blueprint:
@@ -179,47 +183,55 @@ items:
     IndustryBlueprintRank: 1.0
     id: 28671
     name: Synth Blue Pill Booster Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Synth Crash Booster Blueprint:
     IndustryBlueprintRank: 1.0
     id: 28673
     name: Synth Crash Booster Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Synth Drop Booster Blueprint:
     IndustryBlueprintRank: 1.0
     id: 28675
     name: Synth Drop Booster Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Synth Exile Booster Blueprint:
     IndustryBlueprintRank: 1.0
     id: 28677
     name: Synth Exile Booster Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Synth Frentix Booster Blueprint:
     IndustryBlueprintRank: 1.0
     id: 28679
     name: Synth Frentix Booster Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Synth Mindflood Booster Blueprint:
     IndustryBlueprintRank: 1.0
     id: 28681
     name: Synth Mindflood Booster Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Synth Sooth Sayer Booster Blueprint:
     IndustryBlueprintRank: 1.0
     id: 28685
     name: Synth Sooth Sayer Booster Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Synth X-Instinct Booster Blueprint:
     IndustryBlueprintRank: 1.0
     id: 28683
     name: Synth X-Instinct Booster Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01

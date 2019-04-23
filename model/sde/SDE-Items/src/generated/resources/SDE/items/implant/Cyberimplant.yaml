@@ -55,6 +55,7 @@ items:
     id: 33525
     marketGroup: 619
     name: High-grade Ascendancy Beta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Ascendancy Delta:
@@ -84,6 +85,7 @@ items:
     id: 33526
     marketGroup: 621
     name: High-grade Ascendancy Delta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Ascendancy Epsilon:
@@ -113,6 +115,7 @@ items:
     id: 33527
     marketGroup: 622
     name: High-grade Ascendancy Epsilon
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Ascendancy Gamma:
@@ -142,6 +145,7 @@ items:
     id: 33528
     marketGroup: 620
     name: High-grade Ascendancy Gamma
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Ascendancy Omega:
@@ -169,6 +173,7 @@ items:
     id: 33529
     marketGroup: 1506
     name: High-grade Ascendancy Omega
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Asklepian Alpha:
@@ -199,6 +204,7 @@ items:
     id: 42210
     marketGroup: 618
     name: High-grade Asklepian Alpha
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Asklepian Beta:
@@ -229,6 +235,7 @@ items:
     id: 42211
     marketGroup: 619
     name: High-grade Asklepian Beta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Asklepian Delta:
@@ -259,6 +266,7 @@ items:
     id: 42213
     marketGroup: 621
     name: High-grade Asklepian Delta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Asklepian Epsilon:
@@ -289,6 +297,7 @@ items:
     id: 42214
     marketGroup: 622
     name: High-grade Asklepian Epsilon
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Asklepian Gamma:
@@ -319,6 +328,7 @@ items:
     id: 42212
     marketGroup: 620
     name: High-grade Asklepian Gamma
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Asklepian Omega:
@@ -347,6 +357,7 @@ items:
     id: 42215
     marketGroup: 1506
     name: High-grade Asklepian Omega
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Crystal Alpha:
@@ -376,6 +387,7 @@ items:
     id: 20121
     marketGroup: 618
     name: High-grade Crystal Alpha
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Crystal Beta:
@@ -405,6 +417,7 @@ items:
     id: 20157
     marketGroup: 619
     name: High-grade Crystal Beta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Crystal Delta:
@@ -434,6 +447,7 @@ items:
     id: 20159
     marketGroup: 621
     name: High-grade Crystal Delta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Crystal Epsilon:
@@ -463,6 +477,7 @@ items:
     id: 20160
     marketGroup: 622
     name: High-grade Crystal Epsilon
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Crystal Gamma:
@@ -492,6 +507,7 @@ items:
     id: 20158
     marketGroup: 620
     name: High-grade Crystal Gamma
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Crystal Omega:
@@ -519,6 +535,7 @@ items:
     id: 20161
     marketGroup: 1506
     name: High-grade Crystal Omega
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Grail Alpha:
@@ -1244,6 +1261,7 @@ items:
     id: 19540
     marketGroup: 618
     name: High-grade Snake Alpha
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Snake Beta:
@@ -1275,6 +1293,7 @@ items:
     id: 19551
     marketGroup: 619
     name: High-grade Snake Beta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Snake Delta:
@@ -1306,6 +1325,7 @@ items:
     id: 19554
     marketGroup: 621
     name: High-grade Snake Delta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Snake Epsilon:
@@ -1337,6 +1357,7 @@ items:
     id: 19555
     marketGroup: 622
     name: High-grade Snake Epsilon
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Snake Gamma:
@@ -1368,6 +1389,7 @@ items:
     id: 19553
     marketGroup: 620
     name: High-grade Snake Gamma
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Snake Omega:
@@ -1396,6 +1418,7 @@ items:
     id: 19556
     marketGroup: 1506
     name: High-grade Snake Omega
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Spur Alpha:
@@ -1597,6 +1620,7 @@ items:
     id: 19534
     marketGroup: 618
     name: High-grade Talisman Alpha
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Talisman Beta:
@@ -1626,6 +1650,7 @@ items:
     id: 19535
     marketGroup: 619
     name: High-grade Talisman Beta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Talisman Delta:
@@ -1655,6 +1680,7 @@ items:
     id: 19537
     marketGroup: 621
     name: High-grade Talisman Delta
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Talisman Epsilon:
@@ -1684,6 +1710,7 @@ items:
     id: 19538
     marketGroup: 622
     name: High-grade Talisman Epsilon
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Talisman Gamma:
@@ -1713,6 +1740,7 @@ items:
     id: 19536
     marketGroup: 620
     name: High-grade Talisman Gamma
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Talisman Omega:
@@ -1740,6 +1768,7 @@ items:
     id: 19539
     marketGroup: 1506
     name: High-grade Talisman Omega
+    price: 800000.0
     published: true
     volume: 1.0
   High-grade Talon Alpha:
@@ -4573,6 +4602,7 @@ items:
     id: 33557
     marketGroup: 619
     name: Mid-grade Ascendancy Beta
+    price: 800000.0
     published: true
     volume: 1.0
   Mid-grade Ascendancy Delta:
@@ -4602,6 +4632,7 @@ items:
     id: 33559
     marketGroup: 621
     name: Mid-grade Ascendancy Delta
+    price: 800000.0
     published: true
     volume: 1.0
   Mid-grade Ascendancy Epsilon:
@@ -4631,6 +4662,7 @@ items:
     id: 33561
     marketGroup: 622
     name: Mid-grade Ascendancy Epsilon
+    price: 800000.0
     published: true
     volume: 1.0
   Mid-grade Ascendancy Gamma:
@@ -4660,6 +4692,7 @@ items:
     id: 33563
     marketGroup: 620
     name: Mid-grade Ascendancy Gamma
+    price: 800000.0
     published: true
     volume: 1.0
   Mid-grade Ascendancy Omega:
@@ -4687,6 +4720,7 @@ items:
     id: 33565
     marketGroup: 1506
     name: Mid-grade Ascendancy Omega
+    price: 800000.0
     published: true
     volume: 1.0
   Mid-grade Asklepian Alpha:

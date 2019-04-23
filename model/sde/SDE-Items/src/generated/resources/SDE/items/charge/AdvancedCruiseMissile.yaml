@@ -29,6 +29,7 @@ items:
     marketGroup: 925
     mass: 1250.0
     name: Inferno Fury Cruise Missile
+    price: 837360.0
     published: true
     volume: 0.05
   Inferno Precision Cruise Missile:
@@ -61,6 +62,7 @@ items:
     marketGroup: 918
     mass: 1250.0
     name: Inferno Precision Cruise Missile
+    price: 837360.0
     published: true
     volume: 0.05
   Mjolnir Fury Cruise Missile:
@@ -93,6 +95,7 @@ items:
     marketGroup: 925
     mass: 1250.0
     name: Mjolnir Fury Cruise Missile
+    price: 837360.0
     published: true
     volume: 0.05
   Mjolnir Precision Cruise Missile:
@@ -125,6 +128,7 @@ items:
     marketGroup: 918
     mass: 1250.0
     name: Mjolnir Precision Cruise Missile
+    price: 837360.0
     published: true
     volume: 0.05
   Nova Fury Cruise Missile:
@@ -157,6 +161,7 @@ items:
     marketGroup: 925
     mass: 1250.0
     name: Nova Fury Cruise Missile
+    price: 837360.0
     published: true
     volume: 0.05
   Nova Precision Cruise Missile:
@@ -189,6 +194,7 @@ items:
     marketGroup: 918
     mass: 1250.0
     name: Nova Precision Cruise Missile
+    price: 837360.0
     published: true
     volume: 0.05
   Scourge Fury Cruise Missile:
@@ -221,6 +227,7 @@ items:
     marketGroup: 925
     mass: 1250.0
     name: Scourge Fury Cruise Missile
+    price: 837360.0
     published: true
     volume: 0.05
   Scourge Precision Cruise Missile:
@@ -253,5 +260,6 @@ items:
     marketGroup: 918
     mass: 1250.0
     name: Scourge Precision Cruise Missile
+    price: 837360.0
     published: true
     volume: 0.05

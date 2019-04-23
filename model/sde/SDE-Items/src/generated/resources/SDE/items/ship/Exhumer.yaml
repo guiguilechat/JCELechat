@@ -81,6 +81,7 @@ items:
     marketGroup: 874
     mass: 3.0E7
     name: Hulk
+    price: 2.9184296E7
     published: true
     volume: 200000.0
   Mackinaw:
@@ -164,6 +165,7 @@ items:
     marketGroup: 874
     mass: 2.0E7
     name: Mackinaw
+    price: 1.2634472E7
     published: true
     volume: 150000.0
   Skiff:
@@ -249,5 +251,6 @@ items:
     marketGroup: 874
     mass: 1.0E7
     name: Skiff
+    price: 7124648.0
     published: true
     volume: 100000.0

@@ -28,6 +28,7 @@ items:
     id: 2736
     marketGroup: 1344
     name: Warp Disruption Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Warp Scrambling Battery Blueprint:
@@ -35,5 +36,6 @@ items:
     id: 2740
     marketGroup: 1344
     name: Warp Scrambling Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01

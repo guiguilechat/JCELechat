@@ -8,6 +8,7 @@ items:
     id: 27120
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-701
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-702:
@@ -19,6 +20,7 @@ items:
     id: 3247
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-702
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-703:
@@ -30,6 +32,7 @@ items:
     id: 13265
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-703
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-704:
@@ -41,6 +44,7 @@ items:
     id: 3248
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-704
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-705:
@@ -52,6 +56,7 @@ items:
     id: 27121
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-705
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-706:
@@ -63,6 +68,7 @@ items:
     id: 3249
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-706
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-801:
@@ -73,6 +79,7 @@ items:
     id: 27117
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-801
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-802:
@@ -84,6 +91,7 @@ items:
     id: 3237
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-802
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-803:
@@ -94,6 +102,7 @@ items:
     id: 13259
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-803
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-804:
@@ -105,6 +114,7 @@ items:
     id: 3238
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-804
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-805:
@@ -115,6 +125,7 @@ items:
     id: 27116
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-805
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-806:
@@ -126,6 +137,7 @@ items:
     id: 3239
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-806
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-601:
@@ -136,6 +148,7 @@ items:
     id: 27119
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-601
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-602:
@@ -147,6 +160,7 @@ items:
     id: 3240
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-602
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-603:
@@ -157,6 +171,7 @@ items:
     id: 13260
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-603
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-604:
@@ -168,6 +183,7 @@ items:
     id: 3241
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-604
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-605:
@@ -178,6 +194,7 @@ items:
     id: 27118
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-605
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-606:
@@ -189,6 +206,7 @@ items:
     id: 3246
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-606
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-701:
@@ -200,6 +218,7 @@ items:
     id: 27125
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-701
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-702:
@@ -211,6 +230,7 @@ items:
     id: 3253
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-702
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-703:
@@ -222,6 +242,7 @@ items:
     id: 13255
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-703
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-704:
@@ -233,6 +254,7 @@ items:
     id: 3254
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-704
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-705:
@@ -244,6 +266,7 @@ items:
     id: 27124
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-705
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-706:
@@ -255,6 +278,7 @@ items:
     id: 3255
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-706
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-701:
@@ -266,6 +290,7 @@ items:
     id: 27123
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-701
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-702:
@@ -277,6 +302,7 @@ items:
     id: 3250
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-702
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-703:
@@ -288,6 +314,7 @@ items:
     id: 13251
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-703
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-704:
@@ -299,6 +326,7 @@ items:
     id: 3251
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-704
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-705:
@@ -310,6 +338,7 @@ items:
     id: 27122
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-705
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-706:
@@ -321,6 +350,7 @@ items:
     id: 3252
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-706
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-601:
@@ -331,6 +361,7 @@ items:
     id: 27127
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-601
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-602:
@@ -342,6 +373,7 @@ items:
     id: 3256
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-602
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-603:
@@ -352,6 +384,7 @@ items:
     id: 13261
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-603
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-604:
@@ -363,6 +396,7 @@ items:
     id: 3257
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-604
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-605:
@@ -373,6 +407,7 @@ items:
     id: 27126
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-605
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-606:
@@ -384,6 +419,7 @@ items:
     id: 3258
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-606
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-601:
@@ -394,6 +430,7 @@ items:
     id: 27143
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-601
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-602:
@@ -405,6 +442,7 @@ items:
     id: 3265
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-602
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-603:
@@ -415,6 +453,7 @@ items:
     id: 13216
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-603
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-604:
@@ -426,6 +465,7 @@ items:
     id: 3266
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-604
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-605:
@@ -436,6 +476,7 @@ items:
     id: 27142
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-605
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-606:
@@ -447,6 +488,7 @@ items:
     id: 3267
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-606
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-601:
@@ -458,6 +500,7 @@ items:
     id: 27129
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-601
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-602:
@@ -469,6 +512,7 @@ items:
     id: 3262
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-602
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-603:
@@ -480,6 +524,7 @@ items:
     id: 13254
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-603
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-604:
@@ -491,6 +536,7 @@ items:
     id: 3263
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-604
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-605:
@@ -502,6 +548,7 @@ items:
     id: 27128
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-605
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-606:
@@ -513,5 +560,6 @@ items:
     id: 3264
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-606
+    price: 200000.0
     published: true
     volume: 1.0

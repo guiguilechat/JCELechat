@@ -1508,6 +1508,7 @@ items:
     id: 48961
     mass: 1.0E8
     name: Deathglow Harvest Silo
+    price: 2.0E7
     published: false
     volume: 4000.0
   Decrepit Talocan Outpost Core:

@@ -34,6 +34,7 @@ items:
     marketGroup: 2249
     mass: 1000.0
     name: ECM Jammer Burst Projector
+    price: 5.1E7
     published: true
     volume: 8000.0
   Energy Neutralization Burst Projector:
@@ -67,6 +68,7 @@ items:
     marketGroup: 2249
     mass: 1000.0
     name: Energy Neutralization Burst Projector
+    price: 4.0E8
     published: true
     volume: 8000.0
   Sensor Dampening Burst Projector:
@@ -101,6 +103,7 @@ items:
     marketGroup: 2249
     mass: 1000.0
     name: Sensor Dampening Burst Projector
+    price: 4.0E8
     published: true
     volume: 8000.0
   Stasis Webification Burst Projector:
@@ -133,6 +136,7 @@ items:
     marketGroup: 2249
     mass: 1000.0
     name: Stasis Webification Burst Projector
+    price: 4.0E8
     published: true
     volume: 8000.0
   Target Illumination Burst Projector:
@@ -166,6 +170,7 @@ items:
     marketGroup: 2249
     mass: 1000.0
     name: Target Illumination Burst Projector
+    price: 4.0E8
     published: true
     volume: 8000.0
   Warp Disruption Burst Projector:
@@ -198,6 +203,7 @@ items:
     marketGroup: 2249
     mass: 1000.0
     name: Warp Disruption Burst Projector
+    price: 4.0E8
     published: true
     volume: 8000.0
   Weapon Disruption Burst Projector:
@@ -237,5 +243,6 @@ items:
     marketGroup: 2249
     mass: 1000.0
     name: Weapon Disruption Burst Projector
+    price: 4.0E8
     published: true
     volume: 8000.0

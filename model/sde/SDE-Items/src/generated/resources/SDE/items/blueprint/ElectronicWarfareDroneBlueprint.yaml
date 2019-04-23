@@ -4,6 +4,7 @@ items:
     id: 23728
     marketGroup: 1029
     name: Acolyte TD-300 Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Berserker TP-900 Blueprint:
@@ -11,6 +12,7 @@ items:
     id: 23513
     marketGroup: 1029
     name: Berserker TP-900 Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Hammerhead SD-600 Blueprint:
@@ -18,6 +20,7 @@ items:
     id: 23714
     marketGroup: 1029
     name: Hammerhead SD-600 Blueprint
+    price: 1800000.0
     published: true
     volume: 0.01
   Hobgoblin SD-300 Blueprint:
@@ -25,6 +28,7 @@ items:
     id: 23716
     marketGroup: 1029
     name: Hobgoblin SD-300 Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Hornet EC-300 Blueprint:
@@ -32,6 +36,7 @@ items:
     id: 23708
     marketGroup: 1029
     name: Hornet EC-300 Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Infiltrator TD-600 Blueprint:
@@ -39,6 +44,7 @@ items:
     id: 23726
     marketGroup: 1029
     name: Infiltrator TD-600 Blueprint
+    price: 1700000.0
     published: true
     volume: 0.01
   Ogre SD-900 Blueprint:
@@ -46,6 +52,7 @@ items:
     id: 23507
     marketGroup: 1029
     name: Ogre SD-900 Blueprint
+    price: 7000000.0
     published: true
     volume: 0.01
   Praetor TD-900 Blueprint:
@@ -53,6 +60,7 @@ items:
     id: 23511
     marketGroup: 1029
     name: Praetor TD-900 Blueprint
+    price: 6000000.0
     published: true
     volume: 0.01
   Valkyrie TP-600 Blueprint:
@@ -60,6 +68,7 @@ items:
     id: 23722
     marketGroup: 1029
     name: Valkyrie TP-600 Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   Vespa EC-600 Blueprint:
@@ -67,6 +76,7 @@ items:
     id: 23706
     marketGroup: 1029
     name: Vespa EC-600 Blueprint
+    price: 1600000.0
     published: true
     volume: 0.01
   Warrior TP-300 Blueprint:
@@ -74,6 +84,7 @@ items:
     id: 23724
     marketGroup: 1029
     name: Warrior TP-300 Blueprint
+    price: 400000.0
     published: true
     volume: 0.01
   Wasp EC-900 Blueprint:
@@ -81,5 +92,6 @@ items:
     id: 23474
     marketGroup: 1029
     name: Wasp EC-900 Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01

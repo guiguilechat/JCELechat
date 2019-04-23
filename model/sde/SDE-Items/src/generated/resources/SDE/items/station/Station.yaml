@@ -4,18 +4,21 @@ items:
     SignatureRadius: 100
     id: 3864
     name: Amarr Citadel
+    price: 600000.0
     published: false
   Amarr Class A Starport:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 9856
     name: Amarr Class A Starport
+    price: 600000.0
     published: false
   Amarr Class B Starport:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 9857
     name: Amarr Class B Starport
+    price: 600000.0
     published: false
   Amarr Factory Outpost:
     ArmorUniformity: 1.0
@@ -23,6 +26,7 @@ items:
     SignatureRadius: 10000
     id: 21644
     name: Amarr Factory Outpost
+    price: 1.702171823E9
     published: false
     volume: 1.0
   Amarr Industrial Station:
@@ -30,66 +34,77 @@ items:
     SignatureRadius: 100
     id: 1928
     name: Amarr Industrial Station
+    price: 600000.0
     published: false
   Amarr Mining Station:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 1930
     name: Amarr Mining Station
+    price: 600000.0
     published: false
   Amarr Research Station:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 1931
     name: Amarr Research Station
+    price: 600000.0
     published: false
   Amarr Standard Station:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 1929
     name: Amarr Standard Station
+    price: 600000.0
     published: false
   Amarr Station Hub:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 1926
     name: Amarr Station Hub
+    price: 600000.0
     published: false
   Amarr Station Military:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 1927
     name: Amarr Station Military
+    price: 600000.0
     published: false
   Amarr Trade Post:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 1932
     name: Amarr Trade Post
+    price: 600000.0
     published: false
   Blood Raider Logistics Outpost:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 22296
     name: Blood Raider Logistics Outpost
+    price: 600000.0
     published: false
   Blood Raider Military Outpost:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 22297
     name: Blood Raider Military Outpost
+    price: 600000.0
     published: false
   Blood Raider Trading Outpost:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 22298
     name: Blood Raider Trading Outpost
+    price: 600000.0
     published: false
   C-O-1:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 58
     name: C-O-1
+    price: 600000.0
     published: false
     volume: 1.0
   C-O-2:
@@ -97,6 +112,7 @@ items:
     SignatureRadius: 100
     id: 59
     name: C-O-2
+    price: 600000.0
     published: false
     volume: 1.0
   Caldari Administrative Station:
@@ -105,6 +121,7 @@ items:
     SignatureRadius: 100
     id: 1529
     name: Caldari Administrative Station
+    price: 600000.0
     published: false
     volume: 1.0
   Caldari Food Processing Plant Station:
@@ -113,6 +130,7 @@ items:
     SignatureRadius: 100
     id: 4024
     name: Caldari Food Processing Plant Station
+    price: 600000.0
     published: false
     volume: 1.0
   Caldari Logistics Station:
@@ -121,6 +139,7 @@ items:
     SignatureRadius: 100
     id: 54
     name: Caldari Logistics Station
+    price: 600000.0
     published: false
     volume: 1.0
   Caldari Military Station:
@@ -129,6 +148,7 @@ items:
     SignatureRadius: 100
     id: 3872
     name: Caldari Military Station
+    price: 600000.0
     published: false
     volume: 1.0
   Caldari Mining Station:
@@ -137,6 +157,7 @@ items:
     SignatureRadius: 100
     id: 4023
     name: Caldari Mining Station
+    price: 600000.0
     published: false
     volume: 1.0
   Caldari Research Outpost:
@@ -145,6 +166,7 @@ items:
     SignatureRadius: 10000
     id: 21642
     name: Caldari Research Outpost
+    price: 1.683617576E9
     published: false
     volume: 1.0
   Caldari Research Station:
@@ -153,6 +175,7 @@ items:
     SignatureRadius: 100
     id: 1530
     name: Caldari Research Station
+    price: 600000.0
     published: false
     volume: 1.0
   Caldari Station Hub:
@@ -161,6 +184,7 @@ items:
     SignatureRadius: 100
     id: 3871
     name: Caldari Station Hub
+    price: 600000.0
     published: false
     volume: 1.0
   Caldari Trading Station:
@@ -169,6 +193,7 @@ items:
     SignatureRadius: 100
     id: 1531
     name: Caldari Trading Station
+    price: 600000.0
     published: false
     volume: 1.0
   Concord Starbase:
@@ -176,18 +201,21 @@ items:
     SignatureRadius: 100
     id: 9868
     name: Concord Starbase
+    price: 600000.0
     published: false
   Damaged CONCORD Station:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 29390
     name: Damaged CONCORD Station
+    price: 600000.0
     published: false
   Dark Amarr Station O:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 9873
     name: Dark Amarr Station O
+    price: 600000.0
     published: false
   Gallente Administrative Outpost:
     ArmorUniformity: 1.0
@@ -195,6 +223,7 @@ items:
     SignatureRadius: 10000
     id: 21645
     name: Gallente Administrative Outpost
+    price: 1.403018549E9
     published: false
     volume: 1.0
   Gallente Administrative Station:
@@ -203,6 +232,7 @@ items:
     SignatureRadius: 100
     id: 3868
     name: Gallente Administrative Station
+    price: 600000.0
     published: false
     volume: 1.0
   Gallente Industrial Station:
@@ -211,6 +241,7 @@ items:
     SignatureRadius: 100
     id: 3867
     name: Gallente Industrial Station
+    price: 600000.0
     published: false
     volume: 1.0
   Gallente Logistics Station:
@@ -219,6 +250,7 @@ items:
     SignatureRadius: 100
     id: 3869
     name: Gallente Logistics Station
+    price: 600000.0
     published: false
     volume: 1.0
   Gallente Military Station:
@@ -227,6 +259,7 @@ items:
     SignatureRadius: 100
     id: 56
     name: Gallente Military Station
+    price: 600000.0
     published: false
     volume: 1.0
   Gallente Mining Station:
@@ -235,6 +268,7 @@ items:
     SignatureRadius: 100
     id: 3870
     name: Gallente Mining Station
+    price: 600000.0
     published: false
     volume: 1.0
   Gallente Research Station:
@@ -243,6 +277,7 @@ items:
     SignatureRadius: 100
     id: 3865
     name: Gallente Research Station
+    price: 600000.0
     published: false
     volume: 1.0
   'Gallente Station Hub ':
@@ -251,6 +286,7 @@ items:
     SignatureRadius: 100
     id: 57
     name: 'Gallente Station Hub '
+    price: 600000.0
     published: false
     volume: 1.0
   Gallente Trading Hub:
@@ -259,6 +295,7 @@ items:
     SignatureRadius: 100
     id: 3866
     name: Gallente Trading Hub
+    price: 600000.0
     published: false
     volume: 1.0
   Heaven:
@@ -266,6 +303,7 @@ items:
     SignatureRadius: 100
     id: 9867
     name: Heaven
+    price: 600000.0
     published: false
   Ishukone Corporation Headquarters:
     ArmorUniformity: 1.0
@@ -273,6 +311,7 @@ items:
     SignatureRadius: 100
     id: 29323
     name: Ishukone Corporation Headquarters
+    price: 600000.0
     published: false
     volume: 1.0
   Jovian Construct:
@@ -280,6 +319,7 @@ items:
     SignatureRadius: 100
     id: 10795
     name: Jovian Construct
+    price: 600000.0
     published: false
   Minmatar Hub:
     ArmorUniformity: 1.0
@@ -287,6 +327,7 @@ items:
     SignatureRadius: 100
     id: 2496
     name: Minmatar Hub
+    price: 600000.0
     published: false
     volume: 1.0
   Minmatar Industrial Station:
@@ -295,6 +336,7 @@ items:
     SignatureRadius: 100
     id: 2497
     name: Minmatar Industrial Station
+    price: 600000.0
     published: false
     volume: 1.0
   Minmatar Military Station:
@@ -303,6 +345,7 @@ items:
     SignatureRadius: 100
     id: 2498
     name: Minmatar Military Station
+    price: 600000.0
     published: false
     volume: 1.0
   Minmatar Mining Station:
@@ -311,6 +354,7 @@ items:
     SignatureRadius: 100
     id: 2499
     name: Minmatar Mining Station
+    price: 600000.0
     published: false
     volume: 1.0
   Minmatar Research Station:
@@ -319,6 +363,7 @@ items:
     SignatureRadius: 100
     id: 2500
     name: Minmatar Research Station
+    price: 600000.0
     published: false
     volume: 1.0
   Minmatar Service Outpost:
@@ -327,6 +372,7 @@ items:
     SignatureRadius: 10000
     id: 21646
     name: Minmatar Service Outpost
+    price: 1.983932072E9
     published: false
     volume: 1.0
   Minmatar Station:
@@ -335,6 +381,7 @@ items:
     SignatureRadius: 100
     id: 2501
     name: Minmatar Station
+    price: 600000.0
     published: false
     volume: 1.0
   Minmatar Trade Post:
@@ -343,6 +390,7 @@ items:
     SignatureRadius: 100
     id: 2502
     name: Minmatar Trade Post
+    price: 600000.0
     published: false
     volume: 1.0
   'Repaired Amarr Military Station ':
@@ -350,18 +398,21 @@ items:
     SignatureRadius: 100
     id: 29388
     name: 'Repaired Amarr Military Station '
+    price: 600000.0
     published: false
   Repaired Amarr Station Hub:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 29387
     name: Repaired Amarr Station Hub
+    price: 600000.0
     published: false
   Repaired Amarr Trading Post:
     ArmorUniformity: 1.0
     SignatureRadius: 100
     id: 29389
     name: Repaired Amarr Trading Post
+    price: 600000.0
     published: false
   Research Outpost:
     ArmorHP: 80000000
@@ -382,6 +433,7 @@ items:
     SignatureRadius: 100
     id: 34326
     name: Sisters of EVE Industrial Station
+    price: 600000.0
     published: false
     volume: 1.0
   Sisters of EVE Logistics Station:
@@ -390,6 +442,7 @@ items:
     SignatureRadius: 100
     id: 34325
     name: Sisters of EVE Logistics Station
+    price: 600000.0
     published: false
     volume: 1.0
   Station (Conquerable 1):
@@ -398,6 +451,7 @@ items:
     SignatureRadius: 10000
     id: 12242
     name: Station (Conquerable 1)
+    price: 600000.0
     published: false
     volume: 1.0
   Station (Conquerable 2):
@@ -406,6 +460,7 @@ items:
     SignatureRadius: 10000
     id: 12294
     name: Station (Conquerable 2)
+    price: 600000.0
     published: false
     volume: 1.0
   Station (Conquerable 3):
@@ -414,6 +469,7 @@ items:
     SignatureRadius: 10000
     id: 12295
     name: Station (Conquerable 3)
+    price: 600000.0
     published: false
     volume: 1.0
   Station (InterBus):
@@ -422,5 +478,6 @@ items:
     SignatureRadius: 100
     id: 2071
     name: Station (InterBus)
+    price: 600000.0
     published: false
     volume: 1.0

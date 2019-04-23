@@ -271,6 +271,7 @@ items:
     marketGroup: 1310
     mass: 2000.0
     name: Cyclops I
+    price: 2.1394992E7
     published: true
     volume: 1800.0
   Cyclops II:
@@ -499,6 +500,7 @@ items:
     marketGroup: 1310
     mass: 2000.0
     name: Malleus I
+    price: 2.004734E7
     published: true
     volume: 1800.0
   Malleus II:
@@ -620,6 +622,7 @@ items:
     marketGroup: 1310
     mass: 2000.0
     name: Mantis I
+    price: 2.0336332E7
     published: true
     volume: 1800.0
   Mantis II:
@@ -739,6 +742,7 @@ items:
     marketGroup: 1310
     mass: 2000.0
     name: Shadow
+    price: 2.0336332E7
     published: true
     volume: 1800.0
   Standup Ametat I:
@@ -1329,6 +1333,7 @@ items:
     marketGroup: 2412
     mass: 2000.0
     name: Standup Mantis I
+    price: 2.0336332E7
     published: true
     volume: 3600.0
   Standup Mantis II:
@@ -1825,6 +1830,7 @@ items:
     marketGroup: 1310
     mass: 2000.0
     name: Tyrfing I
+    price: 2.000134E7
     published: true
     volume: 1800.0
   Tyrfing II:

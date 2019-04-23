@@ -5,6 +5,7 @@ items:
     id: 41242
     marketGroup: 1525
     name: 10000MN Afterburner I Blueprint
+    price: 1.6E7
     published: true
     volume: 0.01
   10000MN Afterburner II Blueprint:
@@ -20,6 +21,7 @@ items:
     id: 41244
     marketGroup: 1525
     name: 10000MN Monopropellant Enduring Afterburner Blueprint
+    price: 3.2E7
     published: true
     volume: 0.01
   10000MN Y-S8 Compact Afterburner Blueprint:
@@ -28,6 +30,7 @@ items:
     id: 41243
     marketGroup: 1525
     name: 10000MN Y-S8 Compact Afterburner Blueprint
+    price: 3.2E7
     published: true
     volume: 0.01
   100MN Afterburner I Blueprint:
@@ -36,6 +39,7 @@ items:
     id: 12067
     marketGroup: 1525
     name: 100MN Afterburner I Blueprint
+    price: 1612800.0
     published: true
     volume: 0.01
   100MN Afterburner II Blueprint:
@@ -43,6 +47,7 @@ items:
     TechLevel: 2
     id: 12069
     name: 100MN Afterburner II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   100MN Analog Booster Afterburner Blueprint:
@@ -58,6 +63,7 @@ items:
     id: 12057
     marketGroup: 1525
     name: 10MN Afterburner I Blueprint
+    price: 322560.0
     published: true
     volume: 0.01
   10MN Afterburner II Blueprint:
@@ -65,6 +71,7 @@ items:
     TechLevel: 2
     id: 12059
     name: 10MN Afterburner II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   10MN Analog Booster Afterburner Blueprint:
@@ -80,6 +87,7 @@ items:
     id: 1072
     marketGroup: 1525
     name: 1MN Afterburner I Blueprint
+    price: 64500.0
     published: true
     volume: 0.01
   1MN Afterburner II Blueprint:
@@ -87,6 +95,7 @@ items:
     TechLevel: 2
     id: 1071
     name: 1MN Afterburner II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   1MN Analog Booster Afterburner Blueprint:
@@ -109,6 +118,7 @@ items:
     id: 41313
     marketGroup: 331
     name: 50000MN Cold-Gas Enduring Microwarpdrive Blueprint
+    price: 1.58E8
     published: true
     volume: 0.01
   50000MN Microwarpdrive I Blueprint:
@@ -117,6 +127,7 @@ items:
     id: 41256
     marketGroup: 331
     name: 50000MN Microwarpdrive I Blueprint
+    price: 7.9E7
     published: true
     volume: 0.01
   50000MN Microwarpdrive II Blueprint:
@@ -124,6 +135,7 @@ items:
     TechLevel: 2
     id: 41261
     name: 50000MN Microwarpdrive II Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   50000MN Quad LiF Restrained Microwarpdrive Blueprint:
@@ -132,6 +144,7 @@ items:
     id: 41258
     marketGroup: 331
     name: 50000MN Quad LiF Restrained Microwarpdrive Blueprint
+    price: 1.58E8
     published: true
     volume: 0.01
   50000MN Y-T8 Compact Microwarpdrive Blueprint:
@@ -140,6 +153,7 @@ items:
     id: 41257
     marketGroup: 331
     name: 50000MN Y-T8 Compact Microwarpdrive Blueprint
+    price: 1.58E8
     published: true
     volume: 0.01
   500MN Digital Booster Microwarpdrive Blueprint:
@@ -155,6 +169,7 @@ items:
     id: 12055
     marketGroup: 331
     name: 500MN Microwarpdrive I Blueprint
+    price: 7909400.0
     published: true
     volume: 0.01
   500MN Microwarpdrive II Blueprint:
@@ -162,6 +177,7 @@ items:
     TechLevel: 2
     id: 12085
     name: 500MN Microwarpdrive II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   50MN Digital Booster Microwarpdrive Blueprint:
@@ -177,6 +193,7 @@ items:
     id: 12053
     marketGroup: 331
     name: 50MN Microwarpdrive I Blueprint
+    price: 1581880.0
     published: true
     volume: 0.01
   50MN Microwarpdrive II Blueprint:
@@ -184,6 +201,7 @@ items:
     TechLevel: 2
     id: 12077
     name: 50MN Microwarpdrive II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   5MN Digital Booster Microwarpdrive Blueprint:
@@ -199,6 +217,7 @@ items:
     id: 1067
     marketGroup: 331
     name: 5MN Microwarpdrive I Blueprint
+    price: 316360.0
     published: true
     volume: 0.01
   5MN Microwarpdrive II Blueprint:
@@ -206,6 +225,7 @@ items:
     TechLevel: 2
     id: 1073
     name: 5MN Microwarpdrive II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Domination 10000MN Afterburner Blueprint:
@@ -214,6 +234,7 @@ items:
     TechLevel: 1
     id: 41246
     name: Domination 10000MN Afterburner Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Domination 50000MN Microwarpdrive Blueprint:
@@ -222,6 +243,7 @@ items:
     TechLevel: 1
     id: 41262
     name: Domination 50000MN Microwarpdrive Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Federation Navy 100MN Afterburner Blueprint:
@@ -314,6 +336,7 @@ items:
     TechLevel: 1
     id: 41248
     name: Shadow Serpentis 10000MN Afterburner Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Shadow Serpentis 50000MN Microwarpdrive Blueprint:
@@ -322,5 +345,6 @@ items:
     TechLevel: 1
     id: 41260
     name: Shadow Serpentis 50000MN Microwarpdrive Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01

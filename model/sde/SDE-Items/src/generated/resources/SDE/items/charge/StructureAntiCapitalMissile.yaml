@@ -21,6 +21,7 @@ items:
     marketGroup: 2197
     mass: 1000.0
     name: Standup Super-heavy Torpedo
+    price: 325000.0
     published: true
     volume: 0.5
   Standup XL Cruise Missile:
@@ -45,5 +46,6 @@ items:
     marketGroup: 2197
     mass: 1000.0
     name: Standup XL Cruise Missile
+    price: 325000.0
     published: true
     volume: 0.5

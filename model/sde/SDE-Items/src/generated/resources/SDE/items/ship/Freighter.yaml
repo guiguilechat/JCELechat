@@ -77,6 +77,7 @@ items:
     marketGroup: 1950
     mass: 4.0E8
     name: Bowhead
+    price: 7.69286366E8
     published: true
     volume: 1.755E7
   Charon:
@@ -148,6 +149,7 @@ items:
     marketGroup: 768
     mass: 9.6E8
     name: Charon
+    price: 7.73899062E8
     published: true
     volume: 1.625E7
   Fenrir:
@@ -219,6 +221,7 @@ items:
     marketGroup: 770
     mass: 8.2E8
     name: Fenrir
+    price: 7.68064978E8
     published: true
     volume: 1.55E7
   Obelisk:
@@ -290,6 +293,7 @@ items:
     marketGroup: 769
     mass: 9.4E8
     name: Obelisk
+    price: 7.69286366E8
     published: true
     volume: 1.755E7
   Providence:
@@ -361,5 +365,6 @@ items:
     marketGroup: 767
     mass: 9.0E8
     name: Providence
+    price: 7.7619397E8
     published: true
     volume: 1.85E7

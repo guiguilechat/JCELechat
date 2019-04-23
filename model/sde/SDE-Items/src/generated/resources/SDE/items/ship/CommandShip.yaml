@@ -81,6 +81,7 @@ items:
     marketGroup: 825
     mass: 1.33E7
     name: Absolution
+    price: 5.69536E7
     published: true
     volume: 234000.0
   Astarte:
@@ -166,6 +167,7 @@ items:
     marketGroup: 831
     mass: 1.23E7
     name: Astarte
+    price: 5.90626E7
     published: true
     volume: 270000.0
   Claymore:
@@ -252,6 +254,7 @@ items:
     marketGroup: 834
     mass: 1.25E7
     name: Claymore
+    price: 5.13546E7
     published: true
     volume: 216000.0
   Damnation:
@@ -338,6 +341,7 @@ items:
     marketGroup: 825
     mass: 1.35E7
     name: Damnation
+    price: 5.89866E7
     published: true
     volume: 234000.0
   Eos:
@@ -423,6 +427,7 @@ items:
     marketGroup: 831
     mass: 1.3E7
     name: Eos
+    price: 5.99656E7
     published: true
     volume: 270000.0
   Nighthawk:
@@ -508,6 +513,7 @@ items:
     marketGroup: 828
     mass: 1.481E7
     name: Nighthawk
+    price: 5.85336E7
     published: true
     volume: 252000.0
   Sleipnir:
@@ -593,6 +599,7 @@ items:
     marketGroup: 834
     mass: 1.28E7
     name: Sleipnir
+    price: 5.36736E7
     published: true
     volume: 216000.0
   Vulture:
@@ -679,5 +686,6 @@ items:
     marketGroup: 828
     mass: 1.4E7
     name: Vulture
+    price: 5.71826E7
     published: true
     volume: 252000.0

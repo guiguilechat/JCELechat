@@ -203,18 +203,6 @@ items:
     name: ♦ Griffin
     published: false
     volume: 19400.0
-  ♦ Imp:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 43655
-    mass: 900000.0
-    name: ♦ Imp
-    published: false
-    volume: 28600.0
   ♦ Incursus:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -438,7 +426,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
-    id: 46053
+    id: 43617
     mass: 981000.0
     name: ♦ Worm
     published: false
@@ -491,3 +479,27 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
+  �� Imp:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 43655
+    mass: 900000.0
+    name: �� Imp
+    published: false
+    volume: 28600.0
+  �� Worm:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 46053
+    mass: 981000.0
+    name: �� Worm
+    published: false
+    volume: 16500.0

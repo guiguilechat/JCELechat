@@ -76,6 +76,7 @@ items:
     id: 2805
     marketGroup: 1350
     name: Large Artillery Battery Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Large AutoCannon Battery Blueprint:
@@ -83,6 +84,7 @@ items:
     id: 2807
     marketGroup: 1350
     name: Large AutoCannon Battery Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Medium Artillery Battery Blueprint:
@@ -90,6 +92,7 @@ items:
     id: 2810
     marketGroup: 1350
     name: Medium Artillery Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Medium AutoCannon Battery Blueprint:
@@ -97,6 +100,7 @@ items:
     id: 2814
     marketGroup: 1350
     name: Medium AutoCannon Battery Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Small Artillery Battery Blueprint:
@@ -104,6 +108,7 @@ items:
     id: 2816
     marketGroup: 1350
     name: Small Artillery Battery Blueprint
+    price: 2.5E7
     published: true
     volume: 0.01
   Small AutoCannon Battery Blueprint:
@@ -111,5 +116,6 @@ items:
     id: 2819
     marketGroup: 1350
     name: Small AutoCannon Battery Blueprint
+    price: 2.5E7
     published: true
     volume: 0.01

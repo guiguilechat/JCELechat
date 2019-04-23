@@ -12,6 +12,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Missile Precision Disruption Script
+    price: 4000.0
     published: true
     volume: 1.0
   Missile Range Disruption Script:
@@ -27,5 +28,6 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Missile Range Disruption Script
+    price: 4000.0
     published: true
     volume: 1.0

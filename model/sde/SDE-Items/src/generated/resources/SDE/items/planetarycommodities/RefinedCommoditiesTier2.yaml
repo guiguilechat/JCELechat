@@ -5,6 +5,7 @@ items:
     id: 2329
     marketGroup: 1335
     name: Biocells
+    price: 1.0
     published: true
     volume: 1.5
   Construction Blocks:
@@ -13,6 +14,7 @@ items:
     id: 3828
     marketGroup: 1335
     name: Construction Blocks
+    price: 500.0
     published: true
     volume: 1.5
   Consumer Electronics:
@@ -21,6 +23,7 @@ items:
     id: 9836
     marketGroup: 1335
     name: Consumer Electronics
+    price: 230.0
     published: true
     volume: 1.5
   Coolant:
@@ -29,6 +32,7 @@ items:
     id: 9832
     marketGroup: 1335
     name: Coolant
+    price: 1000.0
     published: true
     volume: 1.5
   Enriched Uranium:
@@ -37,6 +41,7 @@ items:
     id: 44
     marketGroup: 1335
     name: Enriched Uranium
+    price: 5000.0
     published: true
     volume: 1.5
   Fertilizer:
@@ -45,6 +50,7 @@ items:
     id: 3693
     marketGroup: 1335
     name: Fertilizer
+    price: 200.0
     published: true
     volume: 1.5
   Genetically Enhanced Livestock:
@@ -53,6 +59,7 @@ items:
     id: 15317
     marketGroup: 1335
     name: Genetically Enhanced Livestock
+    price: 100.0
     published: true
     volume: 1.5
   Livestock:
@@ -62,6 +69,7 @@ items:
     marketGroup: 1335
     mass: 900.0
     name: Livestock
+    price: 850.0
     published: true
     volume: 1.5
   Mechanical Parts:
@@ -70,6 +78,7 @@ items:
     id: 3689
     marketGroup: 1335
     name: Mechanical Parts
+    price: 600.0
     published: true
     volume: 1.5
   Microfiber Shielding:
@@ -78,6 +87,7 @@ items:
     id: 2327
     marketGroup: 1335
     name: Microfiber Shielding
+    price: 1.0
     published: true
     volume: 1.5
   Miniature Electronics:
@@ -86,6 +96,7 @@ items:
     id: 9842
     marketGroup: 1335
     name: Miniature Electronics
+    price: 400.0
     published: true
     volume: 1.5
   Nanites:
@@ -94,6 +105,7 @@ items:
     id: 2463
     marketGroup: 1335
     name: Nanites
+    price: 1.0
     published: true
     volume: 1.5
   Oxides:
@@ -102,6 +114,7 @@ items:
     id: 2317
     marketGroup: 1335
     name: Oxides
+    price: 1.0
     published: true
     volume: 1.5
   Polyaramids:
@@ -110,6 +123,7 @@ items:
     id: 2321
     marketGroup: 1335
     name: Polyaramids
+    price: 1.0
     published: true
     volume: 1.5
   Polytextiles:
@@ -119,6 +133,7 @@ items:
     marketGroup: 1335
     mass: 200.0
     name: Polytextiles
+    price: 400.0
     published: true
     volume: 1.5
   Rocket Fuel:
@@ -127,6 +142,7 @@ items:
     id: 9830
     marketGroup: 1335
     name: Rocket Fuel
+    price: 505.0
     published: true
     volume: 1.5
   Silicate Glass:
@@ -135,6 +151,7 @@ items:
     id: 3697
     marketGroup: 1335
     name: Silicate Glass
+    price: 185.0
     published: true
     volume: 1.5
   Superconductors:
@@ -143,6 +160,7 @@ items:
     id: 9838
     marketGroup: 1335
     name: Superconductors
+    price: 850.0
     published: true
     volume: 1.5
   Supertensile Plastics:
@@ -151,6 +169,7 @@ items:
     id: 2312
     marketGroup: 1335
     name: Supertensile Plastics
+    price: 1.0
     published: true
     volume: 1.5
   Synthetic Oil:
@@ -159,6 +178,7 @@ items:
     id: 3691
     marketGroup: 1335
     name: Synthetic Oil
+    price: 320.0
     published: true
     volume: 1.5
   Test Cultures:
@@ -167,6 +187,7 @@ items:
     id: 2319
     marketGroup: 1335
     name: Test Cultures
+    price: 1.0
     published: true
     volume: 1.5
   Transmitter:
@@ -175,6 +196,7 @@ items:
     id: 9840
     marketGroup: 1335
     name: Transmitter
+    price: 313.0
     published: true
     volume: 1.5
   Viral Agent:
@@ -183,6 +205,7 @@ items:
     id: 3775
     marketGroup: 1335
     name: Viral Agent
+    price: 850.0
     published: true
     volume: 1.5
   Water-Cooled CPU:
@@ -191,5 +214,6 @@ items:
     id: 2328
     marketGroup: 1335
     name: Water-Cooled CPU
+    price: 1.0
     published: true
     volume: 1.5

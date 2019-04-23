@@ -23,6 +23,7 @@ items:
     id: 20603
     marketGroup: 644
     name: '''Barrage'' Torpedo Launcher'
+    price: 99996.0
     published: true
     volume: 20.0
   Caldari Navy Torpedo Launcher:
@@ -49,6 +50,7 @@ items:
     id: 16067
     marketGroup: 644
     name: Caldari Navy Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Domination Torpedo Launcher:
@@ -75,6 +77,7 @@ items:
     id: 13923
     marketGroup: 644
     name: Domination Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Dread Guristas Torpedo Launcher:
@@ -101,6 +104,7 @@ items:
     id: 13924
     marketGroup: 644
     name: Dread Guristas Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Estamel's Modified Torpedo Launcher:
@@ -127,6 +131,7 @@ items:
     id: 14683
     marketGroup: 644
     name: Estamel's Modified Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Experimental ZW-4100 Torpedo Launcher:
@@ -152,6 +157,7 @@ items:
     id: 8001
     marketGroup: 644
     name: Experimental ZW-4100 Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Gotan's Modified Torpedo Launcher:
@@ -178,6 +184,7 @@ items:
     id: 14526
     marketGroup: 644
     name: Gotan's Modified Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Hakim's Modified Torpedo Launcher:
@@ -204,6 +211,7 @@ items:
     id: 14525
     marketGroup: 644
     name: Hakim's Modified Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Kaikka's Modified Torpedo Launcher:
@@ -230,6 +238,7 @@ items:
     id: 14680
     marketGroup: 644
     name: Kaikka's Modified Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Khanid Navy Torpedo Launcher:
@@ -254,6 +263,7 @@ items:
     TypeColorScheme: 11337
     id: 28513
     name: Khanid Navy Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Limited 'Limos' Torpedo Launcher:
@@ -279,6 +289,7 @@ items:
     id: 8115
     marketGroup: 644
     name: Limited 'Limos' Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Mizuro's Modified Torpedo Launcher:
@@ -305,6 +316,7 @@ items:
     id: 14524
     marketGroup: 644
     name: Mizuro's Modified Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Polarized Torpedo Launcher:
@@ -334,6 +346,7 @@ items:
     id: 34294
     marketGroup: 644
     name: Polarized Torpedo Launcher
+    price: 655792.0
     published: true
     volume: 20.0
   Prototype 'Arbalest' Torpedo Launcher:
@@ -359,6 +372,7 @@ items:
     id: 8117
     marketGroup: 644
     name: Prototype 'Arbalest' Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Republic Fleet Torpedo Launcher:
@@ -385,6 +399,7 @@ items:
     id: 17490
     marketGroup: 644
     name: Republic Fleet Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Thon's Modified Torpedo Launcher:
@@ -411,6 +426,7 @@ items:
     id: 14681
     marketGroup: 644
     name: Thon's Modified Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Tobias's Modified Torpedo Launcher:
@@ -437,6 +453,7 @@ items:
     id: 14527
     marketGroup: 644
     name: Tobias's Modified Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Torpedo Launcher I:
@@ -461,6 +478,7 @@ items:
     id: 503
     marketGroup: 644
     name: Torpedo Launcher I
+    price: 99996.0
     published: true
     volume: 20.0
   Torpedo Launcher II:
@@ -487,6 +505,7 @@ items:
     id: 2420
     marketGroup: 644
     name: Torpedo Launcher II
+    price: 655792.0
     published: true
     volume: 20.0
   True Sansha Torpedo Launcher:
@@ -513,6 +532,7 @@ items:
     id: 22569
     marketGroup: 644
     name: True Sansha Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Upgraded 'Malkuth' Torpedo Launcher:
@@ -538,6 +558,7 @@ items:
     id: 8113
     marketGroup: 644
     name: Upgraded 'Malkuth' Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0
   Vepas's Modified Torpedo Launcher:
@@ -564,5 +585,6 @@ items:
     id: 14682
     marketGroup: 644
     name: Vepas's Modified Torpedo Launcher
+    price: 20580.0
     published: true
     volume: 20.0

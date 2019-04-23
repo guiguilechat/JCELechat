@@ -27,6 +27,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Inferno Torpedo
+    price: 32500.0
     published: true
     volume: 0.05
   Caldari Navy Mjolnir Torpedo:
@@ -57,6 +58,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Mjolnir Torpedo
+    price: 35000.0
     published: true
     volume: 0.05
   Caldari Navy Nova Torpedo:
@@ -87,6 +89,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Nova Torpedo
+    price: 25000.0
     published: true
     volume: 0.05
   Caldari Navy Scourge Torpedo:
@@ -117,6 +120,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Caldari Navy Scourge Torpedo
+    price: 30000.0
     published: true
     volume: 0.05
   Dread Guristas Inferno Torpedo:
@@ -147,6 +151,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Inferno Torpedo
+    price: 32500.0
     published: true
     volume: 0.05
   Dread Guristas Mjolnir Torpedo:
@@ -177,6 +182,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Mjolnir Torpedo
+    price: 35000.0
     published: true
     volume: 0.05
   Dread Guristas Nova Torpedo:
@@ -207,6 +213,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Nova Torpedo
+    price: 25000.0
     published: true
     volume: 0.05
   Dread Guristas Scourge Torpedo:
@@ -237,6 +244,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Dread Guristas Scourge Torpedo
+    price: 30000.0
     published: true
     volume: 0.05
   Guristas Inferno Torpedo:
@@ -267,6 +275,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Inferno Torpedo
+    price: 32500.0
     published: true
     volume: 0.05
   Guristas Mjolnir Torpedo:
@@ -297,6 +306,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Mjolnir Torpedo
+    price: 35000.0
     published: true
     volume: 0.05
   Guristas Nova Torpedo:
@@ -327,6 +337,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Nova Torpedo
+    price: 25000.0
     published: true
     volume: 0.05
   Guristas Scourge Torpedo:
@@ -357,6 +368,7 @@ items:
     marketGroup: 1000
     mass: 1500.0
     name: Guristas Scourge Torpedo
+    price: 30000.0
     published: true
     volume: 0.05
   Inferno Torpedo:
@@ -385,6 +397,7 @@ items:
     marketGroup: 923
     mass: 1500.0
     name: Inferno Torpedo
+    price: 32500.0
     published: true
     volume: 0.05
   Mjolnir Torpedo:
@@ -413,6 +426,7 @@ items:
     marketGroup: 923
     mass: 1500.0
     name: Mjolnir Torpedo
+    price: 35000.0
     published: true
     volume: 0.05
   Nova Torpedo:
@@ -441,6 +455,7 @@ items:
     marketGroup: 923
     mass: 1500.0
     name: Nova Torpedo
+    price: 25000.0
     published: true
     volume: 0.05
   Scourge Torpedo:
@@ -469,5 +484,6 @@ items:
     marketGroup: 923
     mass: 1500.0
     name: Scourge Torpedo
+    price: 30000.0
     published: true
     volume: 0.05

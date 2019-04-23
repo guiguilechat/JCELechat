@@ -29,6 +29,7 @@ items:
     marketGroup: 972
     mass: 625.0
     name: Inferno Javelin Heavy Assault Missile
+    price: 126160.0
     published: true
     volume: 0.015
   Inferno Rage Heavy Assault Missile:
@@ -61,6 +62,7 @@ items:
     marketGroup: 973
     mass: 700.0
     name: Inferno Rage Heavy Assault Missile
+    price: 126160.0
     published: true
     volume: 0.015
   Mjolnir Javelin Heavy Assault Missile:
@@ -93,6 +95,7 @@ items:
     marketGroup: 972
     mass: 625.0
     name: Mjolnir Javelin Heavy Assault Missile
+    price: 126160.0
     published: true
     volume: 0.015
   Mjolnir Rage Heavy Assault Missile:
@@ -125,6 +128,7 @@ items:
     marketGroup: 973
     mass: 700.0
     name: Mjolnir Rage Heavy Assault Missile
+    price: 126160.0
     published: true
     volume: 0.015
   Nova Javelin Heavy Assault Missile:
@@ -157,6 +161,7 @@ items:
     marketGroup: 972
     mass: 625.0
     name: Nova Javelin Heavy Assault Missile
+    price: 126160.0
     published: true
     volume: 0.015
   Nova Rage Heavy Assault Missile:
@@ -189,6 +194,7 @@ items:
     marketGroup: 973
     mass: 700.0
     name: Nova Rage Heavy Assault Missile
+    price: 126160.0
     published: true
     volume: 0.015
   Scourge Javelin Heavy Assault Missile:
@@ -221,6 +227,7 @@ items:
     marketGroup: 972
     mass: 625.0
     name: Scourge Javelin Heavy Assault Missile
+    price: 126160.0
     published: true
     volume: 0.015
   Scourge Rage Heavy Assault Missile:
@@ -253,5 +260,6 @@ items:
     marketGroup: 973
     mass: 700.0
     name: Scourge Rage Heavy Assault Missile
+    price: 126160.0
     published: true
     volume: 0.015

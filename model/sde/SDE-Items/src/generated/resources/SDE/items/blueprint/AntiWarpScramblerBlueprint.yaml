@@ -19,6 +19,7 @@ items:
     id: 11613
     marketGroup: 332
     name: Warp Core Stabilizer I Blueprint
+    price: 99940.0
     published: true
     volume: 0.01
   Warp Core Stabilizer II Blueprint:

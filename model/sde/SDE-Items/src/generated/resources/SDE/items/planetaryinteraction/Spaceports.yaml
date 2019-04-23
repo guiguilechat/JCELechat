@@ -7,6 +7,7 @@ items:
     PowerLoad: 700
     id: 2544
     name: Barren Launchpad
+    price: 900000.0
     published: true
   Gas Launchpad:
     CpuLoad: 3600
@@ -16,6 +17,7 @@ items:
     PowerLoad: 700
     id: 2543
     name: Gas Launchpad
+    price: 900000.0
     published: true
   Ice Launchpad:
     CpuLoad: 3600
@@ -25,6 +27,7 @@ items:
     PowerLoad: 700
     id: 2552
     name: Ice Launchpad
+    price: 900000.0
     published: true
   Lava Launchpad:
     CpuLoad: 3600
@@ -34,6 +37,7 @@ items:
     PowerLoad: 700
     id: 2555
     name: Lava Launchpad
+    price: 900000.0
     published: true
   Oceanic Launchpad:
     CpuLoad: 3600
@@ -43,6 +47,7 @@ items:
     PowerLoad: 700
     id: 2542
     name: Oceanic Launchpad
+    price: 900000.0
     published: true
   Plasma Launchpad:
     CpuLoad: 3600
@@ -52,6 +57,7 @@ items:
     PowerLoad: 700
     id: 2556
     name: Plasma Launchpad
+    price: 900000.0
     published: true
   Storm Launchpad:
     CpuLoad: 3600
@@ -61,6 +67,7 @@ items:
     PowerLoad: 700
     id: 2557
     name: Storm Launchpad
+    price: 900000.0
     published: true
   Temperate Launchpad:
     CpuLoad: 3600
@@ -70,4 +77,5 @@ items:
     PowerLoad: 700
     id: 2256
     name: Temperate Launchpad
+    price: 900000.0
     published: true

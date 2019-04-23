@@ -28,6 +28,7 @@ items:
     marketGroup: 1056
     mass: 20.0
     name: Capital Ancillary Remote Armor Repairer
+    price: 2.4200788E7
     published: true
     volume: 4000.0
   Large Ancillary Remote Armor Repairer:
@@ -57,6 +58,7 @@ items:
     marketGroup: 1057
     mass: 20.0
     name: Large Ancillary Remote Armor Repairer
+    price: 31244.0
     published: true
     volume: 25.0
   Medium Ancillary Remote Armor Repairer:
@@ -86,6 +88,7 @@ items:
     marketGroup: 1058
     mass: 20.0
     name: Medium Ancillary Remote Armor Repairer
+    price: 12470.0
     published: true
     volume: 10.0
   Small Ancillary Remote Armor Repairer:
@@ -115,5 +118,6 @@ items:
     marketGroup: 1059
     mass: 20.0
     name: Small Ancillary Remote Armor Repairer
+    price: 4996.0
     published: true
     volume: 5.0

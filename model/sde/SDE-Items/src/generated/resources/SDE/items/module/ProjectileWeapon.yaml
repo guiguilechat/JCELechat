@@ -28,6 +28,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Artillery Cannon I
+    price: 1200000.0
     published: true
     volume: 50.0
   1200mm Artillery Cannon II:
@@ -63,6 +64,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Artillery Cannon II
+    price: 1987540.0
     published: true
     volume: 20.0
   1200mm Heavy 'Jolt' Artillery I:
@@ -95,6 +97,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy 'Jolt' Artillery I
+    price: 1200000.0
     published: true
     volume: 20.0
   1200mm Heavy 'Scout' Artillery I:
@@ -127,6 +130,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy 'Scout' Artillery I
+    price: 595840.0
     published: true
     volume: 20.0
   1200mm Heavy Carbine Howitzer I:
@@ -159,6 +163,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Carbine Howitzer I
+    price: 595840.0
     published: true
     volume: 20.0
   1200mm Heavy Gallium Cannon:
@@ -191,6 +196,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Gallium Cannon
+    price: 595840.0
     published: true
     volume: 20.0
   1200mm Heavy Prototype Siege Cannon:
@@ -223,6 +229,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1200mm Heavy Prototype Siege Cannon
+    price: 595840.0
     published: true
     volume: 20.0
   125mm Gatling AutoCannon I:
@@ -254,6 +261,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 125mm Gatling AutoCannon I
+    price: 2000.0
     published: true
     volume: 5.0
   125mm Gatling AutoCannon II:
@@ -289,6 +297,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 125mm Gatling AutoCannon II
+    price: 35400.0
     published: true
     volume: 5.0
   125mm Light 'Scout' Autocannon I:
@@ -321,6 +330,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light 'Scout' Autocannon I
+    price: 1000.0
     published: true
     volume: 5.0
   125mm Light Carbine Repeating Cannon I:
@@ -353,6 +363,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Carbine Repeating Cannon I
+    price: 1000.0
     published: true
     volume: 5.0
   125mm Light Gallium Machine Gun:
@@ -385,6 +396,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Gallium Machine Gun
+    price: 1000.0
     published: true
     volume: 5.0
   125mm Light Prototype Automatic Cannon:
@@ -417,6 +429,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 125mm Light Prototype Automatic Cannon
+    price: 1000.0
     published: true
     volume: 5.0
   1400mm 'Jolt' Artillery I:
@@ -450,6 +463,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm 'Jolt' Artillery I
+    price: 1500000.0
     published: true
     volume: 20.0
   1400mm 'Scout' Artillery I:
@@ -482,6 +496,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm 'Scout' Artillery I
+    price: 744812.0
     published: true
     volume: 20.0
   1400mm Carbine Howitzer I:
@@ -514,6 +529,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Carbine Howitzer I
+    price: 744812.0
     published: true
     volume: 20.0
   1400mm Gallium Cannon:
@@ -546,6 +562,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Gallium Cannon
+    price: 744812.0
     published: true
     volume: 20.0
   1400mm Howitzer Artillery I:
@@ -577,6 +594,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Howitzer Artillery I
+    price: 1500000.0
     published: true
     volume: 50.0
   1400mm Howitzer Artillery II:
@@ -612,6 +630,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Howitzer Artillery II
+    price: 2320888.0
     published: true
     volume: 20.0
   1400mm Prototype Siege Cannon:
@@ -644,6 +663,7 @@ items:
     marketGroup: 579
     mass: 2000.0
     name: 1400mm Prototype Siege Cannon
+    price: 744812.0
     published: true
     volume: 20.0
   150mm Light 'Scout' Autocannon I:
@@ -676,6 +696,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light 'Scout' Autocannon I
+    price: 1976.0
     published: true
     volume: 5.0
   150mm Light AutoCannon I:
@@ -707,6 +728,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light AutoCannon I
+    price: 6000.0
     published: true
     volume: 5.0
   150mm Light AutoCannon II:
@@ -742,6 +764,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light AutoCannon II
+    price: 74212.0
     published: true
     volume: 5.0
   150mm Light Carbine Repeating Cannon I:
@@ -774,6 +797,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Carbine Repeating Cannon I
+    price: 1976.0
     published: true
     volume: 5.0
   150mm Light Gallium Machine Gun:
@@ -806,6 +830,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Gallium Machine Gun
+    price: 1976.0
     published: true
     volume: 5.0
   150mm Light Prototype Automatic Cannon:
@@ -838,6 +863,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 150mm Light Prototype Automatic Cannon
+    price: 1976.0
     published: true
     volume: 5.0
   200mm AutoCannon I:
@@ -869,6 +895,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 200mm AutoCannon I
+    price: 9000.0
     published: true
     volume: 5.0
   200mm AutoCannon II:
@@ -904,6 +931,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 200mm AutoCannon II
+    price: 109744.0
     published: true
     volume: 5.0
   200mm Light 'Jolt' Autocannon I:
@@ -937,6 +965,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light 'Jolt' Autocannon I
+    price: 9000.0
     published: true
     volume: 5.0
   200mm Light 'Scout' Autocannon I:
@@ -969,6 +998,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light 'Scout' Autocannon I
+    price: 4484.0
     published: true
     volume: 5.0
   200mm Light Carbine Repeating Cannon I:
@@ -1001,6 +1031,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Carbine Repeating Cannon I
+    price: 4484.0
     published: true
     volume: 5.0
   200mm Light Gallium Machine Gun:
@@ -1033,6 +1064,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Gallium Machine Gun
+    price: 4484.0
     published: true
     volume: 5.0
   200mm Light Prototype Automatic Cannon:
@@ -1065,6 +1097,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: 200mm Light Prototype Automatic Cannon
+    price: 4484.0
     published: true
     volume: 5.0
   220mm Medium 'Scout' Autocannon I:
@@ -1097,6 +1130,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium 'Scout' Autocannon I
+    price: 25888.0
     published: true
     volume: 10.0
   220mm Medium Carbine Repeating Cannon I:
@@ -1129,6 +1163,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Carbine Repeating Cannon I
+    price: 25888.0
     published: true
     volume: 10.0
   220mm Medium Gallium Machine Gun:
@@ -1161,6 +1196,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Gallium Machine Gun
+    price: 25888.0
     published: true
     volume: 10.0
   220mm Medium Prototype Automatic Cannon:
@@ -1193,6 +1229,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Medium Prototype Automatic Cannon
+    price: 25888.0
     published: true
     volume: 10.0
   220mm Vulcan AutoCannon I:
@@ -1224,6 +1261,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Vulcan AutoCannon I
+    price: 60000.0
     published: true
     volume: 10.0
   220mm Vulcan AutoCannon II:
@@ -1259,6 +1297,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 220mm Vulcan AutoCannon II
+    price: 305136.0
     published: true
     volume: 10.0
   250mm Light 'Jolt' Artillery I:
@@ -1292,6 +1331,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light 'Jolt' Artillery I
+    price: 12000.0
     published: true
     volume: 5.0
   250mm Light 'Scout' Artillery I:
@@ -1324,6 +1364,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light 'Scout' Artillery I
+    price: 5996.0
     published: true
     volume: 5.0
   250mm Light Artillery Cannon I:
@@ -1355,6 +1396,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Artillery Cannon I
+    price: 12000.0
     published: true
     volume: 5.0
   250mm Light Artillery Cannon II:
@@ -1390,6 +1432,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Artillery Cannon II
+    price: 132664.0
     published: true
     volume: 5.0
   250mm Light Carbine Howitzer I:
@@ -1422,6 +1465,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Carbine Howitzer I
+    price: 5996.0
     published: true
     volume: 5.0
   250mm Light Gallium Cannon:
@@ -1454,6 +1498,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Gallium Cannon
+    price: 5996.0
     published: true
     volume: 5.0
   250mm Light Prototype Siege Cannon:
@@ -1486,6 +1531,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 250mm Light Prototype Siege Cannon
+    price: 5996.0
     published: true
     volume: 5.0
   280mm 'Jolt' Artillery I:
@@ -1519,6 +1565,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 280mm 'Jolt' Artillery I
+    price: 15000.0
     published: true
     volume: 5.0
   280mm 'Scout' Artillery I:
@@ -1551,6 +1598,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 280mm 'Scout' Artillery I
+    price: 7496.0
     published: true
     volume: 5.0
   280mm Carbine Howitzer I:
@@ -1583,6 +1631,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 280mm Carbine Howitzer I
+    price: 7496.0
     published: true
     volume: 5.0
   280mm Gallium Cannon:
@@ -1615,6 +1664,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 280mm Gallium Cannon
+    price: 7496.0
     published: true
     volume: 5.0
   280mm Howitzer Artillery I:
@@ -1646,6 +1696,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 280mm Howitzer Artillery I
+    price: 15000.0
     published: true
     volume: 5.0
   280mm Howitzer Artillery II:
@@ -1681,6 +1732,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 280mm Howitzer Artillery II
+    price: 1976.0
     published: true
     volume: 5.0
   280mm Prototype Siege Cannon:
@@ -1713,6 +1765,7 @@ items:
     marketGroup: 577
     mass: 500.0
     name: 280mm Prototype Siege Cannon
+    price: 7496.0
     published: true
     volume: 5.0
   425mm AutoCannon I:
@@ -1744,6 +1797,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 425mm AutoCannon I
+    price: 90000.0
     published: true
     volume: 10.0
   425mm AutoCannon II:
@@ -1779,6 +1833,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 425mm AutoCannon II
+    price: 373210.0
     published: true
     volume: 10.0
   425mm Medium 'Jolt' Autocannon I:
@@ -1812,6 +1867,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium 'Jolt' Autocannon I
+    price: 90000.0
     published: true
     volume: 10.0
   425mm Medium 'Scout' Autocannon I:
@@ -1844,6 +1900,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium 'Scout' Autocannon I
+    price: 44740.0
     published: true
     volume: 10.0
   425mm Medium Carbine Repeating Cannon I:
@@ -1876,6 +1933,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Carbine Repeating Cannon I
+    price: 44740.0
     published: true
     volume: 10.0
   425mm Medium Gallium Machine Gun:
@@ -1908,6 +1966,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Gallium Machine Gun
+    price: 44740.0
     published: true
     volume: 10.0
   425mm Medium Prototype Automatic Cannon:
@@ -1940,6 +1999,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: 425mm Medium Prototype Automatic Cannon
+    price: 44740.0
     published: true
     volume: 10.0
   650mm Artillery Cannon I:
@@ -1971,6 +2031,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: 650mm Artillery Cannon I
+    price: 120000.0
     published: true
     volume: 25.0
   650mm Artillery Cannon II:
@@ -2006,6 +2067,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: 650mm Artillery Cannon II
+    price: 436976.0
     published: true
     volume: 10.0
   650mm Medium 'Jolt' Artillery I:
@@ -2039,6 +2101,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium 'Jolt' Artillery I
+    price: 120000.0
     published: true
     volume: 10.0
   650mm Medium 'Scout' Artillery I:
@@ -2071,6 +2134,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium 'Scout' Artillery I
+    price: 59676.0
     published: true
     volume: 10.0
   650mm Medium Carbine Howitzer I:
@@ -2103,6 +2167,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Carbine Howitzer I
+    price: 59676.0
     published: true
     volume: 10.0
   650mm Medium Gallium Cannon:
@@ -2135,6 +2200,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Gallium Cannon
+    price: 59676.0
     published: true
     volume: 10.0
   650mm Medium Prototype Siege Cannon:
@@ -2167,6 +2233,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: 650mm Medium Prototype Siege Cannon
+    price: 59676.0
     published: true
     volume: 10.0
   720mm 'Jolt' Artillery I:
@@ -2200,6 +2267,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: 720mm 'Jolt' Artillery I
+    price: 150000.0
     published: true
     volume: 10.0
   720mm 'Scout' Artillery I:
@@ -2232,6 +2300,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: 720mm 'Scout' Artillery I
+    price: 74980.0
     published: true
     volume: 10.0
   720mm Carbine Howitzer I:
@@ -2264,6 +2333,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: 720mm Carbine Howitzer I
+    price: 74980.0
     published: true
     volume: 10.0
   720mm Gallium Cannon:
@@ -2296,6 +2366,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: 720mm Gallium Cannon
+    price: 74980.0
     published: true
     volume: 10.0
   720mm Howitzer Artillery I:
@@ -2327,6 +2398,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: 720mm Howitzer Artillery I
+    price: 150000.0
     published: true
     volume: 25.0
   720mm Howitzer Artillery II:
@@ -2362,6 +2434,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: 720mm Howitzer Artillery II
+    price: 517456.0
     published: true
     volume: 10.0
   720mm Prototype Siege Cannon:
@@ -2394,6 +2467,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: 720mm Prototype Siege Cannon
+    price: 74980.0
     published: true
     volume: 10.0
   800mm Heavy 'Jolt' Repeating Cannon I:
@@ -2427,6 +2501,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy 'Jolt' Repeating Cannon I
+    price: 900000.0
     published: true
     volume: 20.0
   800mm Heavy 'Scout' Repeating Cannon I:
@@ -2459,6 +2534,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy 'Scout' Repeating Cannon I
+    price: 448700.0
     published: true
     volume: 20.0
   800mm Heavy Carbine Repeating Cannon I:
@@ -2491,6 +2567,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Carbine Repeating Cannon I
+    price: 448700.0
     published: true
     volume: 20.0
   800mm Heavy Gallium Repeating Cannon:
@@ -2523,6 +2600,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Gallium Repeating Cannon
+    price: 448700.0
     published: true
     volume: 20.0
   800mm Heavy Prototype Automatic Cannon:
@@ -2555,6 +2633,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: 800mm Heavy Prototype Automatic Cannon
+    price: 448700.0
     published: true
     volume: 20.0
   800mm Repeating Cannon I:
@@ -2586,6 +2665,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: 800mm Repeating Cannon I
+    price: 900000.0
     published: true
     volume: 25.0
   800mm Repeating Cannon II:
@@ -2621,6 +2701,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: 800mm Repeating Cannon II
+    price: 1484776.0
     published: true
     volume: 20.0
   Ample Gallium Quad 800mm Repeating Cannon:
@@ -2653,6 +2734,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Ample Gallium Quad 800mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   CONCORD Hexa 2500mm Repeating Cannon:
@@ -2687,6 +2769,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: CONCORD Hexa 2500mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   CONCORD Quad 3500mm Siege Artillery:
@@ -2721,6 +2804,7 @@ items:
     marketGroup: 775
     mass: 750.0
     name: CONCORD Quad 3500mm Siege Artillery
+    price: 3.7692954E7
     published: true
     volume: 4000.0
   Carbide Compact Quad 3500mm Siege Artillery:
@@ -2753,6 +2837,7 @@ items:
     marketGroup: 775
     mass: 750.0
     name: Carbide Compact Quad 3500mm Siege Artillery
+    price: 3.7692954E7
     published: true
     volume: 4000.0
   Carbine Compact Hexa 2500mm Repeating Cannon:
@@ -2785,6 +2870,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Carbine Compact Hexa 2500mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Compact Carbine Quad 800mm Repeating Cannon:
@@ -2817,6 +2903,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Compact Carbine Quad 800mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Domination 1200mm Artillery:
@@ -2850,6 +2937,7 @@ items:
     marketGroup: 579
     mass: 750.0
     name: Domination 1200mm Artillery
+    price: 595840.0
     published: true
     volume: 20.0
   Domination 125mm Autocannon:
@@ -2883,6 +2971,7 @@ items:
     marketGroup: 574
     mass: 750.0
     name: Domination 125mm Autocannon
+    price: 1000.0
     published: true
     volume: 5.0
   Domination 1400mm Howitzer Artillery:
@@ -2916,6 +3005,7 @@ items:
     marketGroup: 579
     mass: 1500.0
     name: Domination 1400mm Howitzer Artillery
+    price: 744812.0
     published: true
     volume: 20.0
   Domination 150mm Autocannon:
@@ -2949,6 +3039,7 @@ items:
     marketGroup: 574
     mass: 20.0
     name: Domination 150mm Autocannon
+    price: 1976.0
     published: true
     volume: 5.0
   Domination 200mm Autocannon:
@@ -2982,6 +3073,7 @@ items:
     marketGroup: 574
     mass: 15.0
     name: Domination 200mm Autocannon
+    price: 4484.0
     published: true
     volume: 5.0
   Domination 220mm Autocannon:
@@ -3015,6 +3107,7 @@ items:
     marketGroup: 575
     mass: 12.0
     name: Domination 220mm Autocannon
+    price: 25888.0
     published: true
     volume: 10.0
   Domination 250mm Artillery:
@@ -3048,6 +3141,7 @@ items:
     marketGroup: 577
     mass: 150.0
     name: Domination 250mm Artillery
+    price: 5996.0
     published: true
     volume: 5.0
   Domination 280mm Howitzer Artillery:
@@ -3081,6 +3175,7 @@ items:
     marketGroup: 577
     mass: 5.0
     name: Domination 280mm Howitzer Artillery
+    price: 7496.0
     published: true
     volume: 5.0
   Domination 425mm Autocannon:
@@ -3114,6 +3209,7 @@ items:
     marketGroup: 575
     mass: 8.0
     name: Domination 425mm Autocannon
+    price: 44740.0
     published: true
     volume: 10.0
   Domination 650mm Artillery:
@@ -3147,6 +3243,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: Domination 650mm Artillery
+    price: 59676.0
     published: true
     volume: 10.0
   Domination 720mm Howitzer Artillery:
@@ -3180,6 +3277,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: Domination 720mm Howitzer Artillery
+    price: 74980.0
     published: true
     volume: 10.0
   Domination 800mm Repeating Cannon:
@@ -3213,6 +3311,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: Domination 800mm Repeating Cannon
+    price: 448700.0
     published: true
     volume: 20.0
   Domination Dual 180mm Autocannon:
@@ -3246,6 +3345,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Domination Dual 180mm Autocannon
+    price: 10000.0
     published: true
     volume: 10.0
   Domination Dual 425mm Autocannon:
@@ -3279,6 +3379,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Domination Dual 425mm Autocannon
+    price: 98972.0
     published: true
     volume: 20.0
   Domination Dual 650mm Repeating Cannon:
@@ -3312,6 +3413,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Domination Dual 650mm Repeating Cannon
+    price: 298716.0
     published: true
     volume: 20.0
   Domination Hexa 2500mm Repeating Cannon:
@@ -3346,6 +3448,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Domination Hexa 2500mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Domination Quad 3500mm Siege Artillery:
@@ -3380,6 +3483,7 @@ items:
     marketGroup: 775
     mass: 750.0
     name: Domination Quad 3500mm Siege Artillery
+    price: 3.7692954E7
     published: true
     volume: 4000.0
   Domination Quad 800mm Repeating Cannon:
@@ -3414,6 +3518,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Domination Quad 800mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Dual 180mm 'Scout' Autocannon I:
@@ -3446,6 +3551,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm 'Scout' Autocannon I
+    price: 10000.0
     published: true
     volume: 10.0
   Dual 180mm AutoCannon I:
@@ -3477,6 +3583,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm AutoCannon I
+    price: 20000.0
     published: true
     volume: 10.0
   Dual 180mm AutoCannon II:
@@ -3512,6 +3619,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm AutoCannon II
+    price: 220508.0
     published: true
     volume: 10.0
   Dual 180mm Carbine Repeating Cannon I:
@@ -3544,6 +3652,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Carbine Repeating Cannon I
+    price: 10000.0
     published: true
     volume: 10.0
   Dual 180mm Gallium Machine Gun:
@@ -3576,6 +3685,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Gallium Machine Gun
+    price: 10000.0
     published: true
     volume: 10.0
   Dual 180mm Prototype Automatic Cannon:
@@ -3608,6 +3718,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Dual 180mm Prototype Automatic Cannon
+    price: 10000.0
     published: true
     volume: 10.0
   Dual 425mm 'Scout' Autocannon I:
@@ -3640,6 +3751,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm 'Scout' Autocannon I
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 425mm AutoCannon I:
@@ -3671,6 +3783,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm AutoCannon I
+    price: 200000.0
     published: true
     volume: 20.0
   Dual 425mm AutoCannon II:
@@ -3706,6 +3819,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm AutoCannon II
+    price: 605200.0
     published: true
     volume: 20.0
   Dual 425mm Carbine Repeating Cannon I:
@@ -3738,6 +3852,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Carbine Repeating Cannon I
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 425mm Gallium Machine Gun:
@@ -3770,6 +3885,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Gallium Machine Gun
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 425mm Prototype Automatic Cannon:
@@ -3802,6 +3918,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Dual 425mm Prototype Automatic Cannon
+    price: 98972.0
     published: true
     volume: 20.0
   Dual 650mm 'Scout' Repeating Cannon I:
@@ -3834,6 +3951,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm 'Scout' Repeating Cannon I
+    price: 298716.0
     published: true
     volume: 20.0
   Dual 650mm Carbine Repeating Cannon I:
@@ -3866,6 +3984,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Carbine Repeating Cannon I
+    price: 298716.0
     published: true
     volume: 20.0
   Dual 650mm Gallium Repeating Cannon:
@@ -3898,6 +4017,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Gallium Repeating Cannon
+    price: 298716.0
     published: true
     volume: 20.0
   Dual 650mm Prototype Automatic Cannon:
@@ -3930,6 +4050,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Prototype Automatic Cannon
+    price: 298716.0
     published: true
     volume: 20.0
   Dual 650mm Repeating Cannon I:
@@ -3961,6 +4082,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Repeating Cannon I
+    price: 600000.0
     published: true
     volume: 50.0
   Dual 650mm Repeating Cannon II:
@@ -3996,6 +4118,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Dual 650mm Repeating Cannon II
+    price: 1109234.0
     published: true
     volume: 20.0
   Gallium Ample Hexa 2500mm Repeating Cannon:
@@ -4028,6 +4151,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Gallium Ample Hexa 2500mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Gallium Ample Quad 3500mm Siege Artillery:
@@ -4060,6 +4184,7 @@ items:
     marketGroup: 775
     mass: 750.0
     name: Gallium Ample Quad 3500mm Siege Artillery
+    price: 3.7692954E7
     published: true
     volume: 4000.0
   Gotan's Modified 800mm Repeating Cannon:
@@ -4093,6 +4218,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: Gotan's Modified 800mm Repeating Cannon
+    price: 900000.0
     published: true
     volume: 20.0
   Gotan's Modified Dual 425mm AutoCannon:
@@ -4126,6 +4252,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Gotan's Modified Dual 425mm AutoCannon
+    price: 200000.0
     published: true
     volume: 20.0
   Gotan's Modified Dual 650mm Repeating Cannon:
@@ -4159,6 +4286,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Gotan's Modified Dual 650mm Repeating Cannon
+    price: 600000.0
     published: true
     volume: 20.0
   Hakim's Modified 1200mm Artillery Cannon:
@@ -4192,6 +4320,7 @@ items:
     marketGroup: 579
     mass: 750.0
     name: Hakim's Modified 1200mm Artillery Cannon
+    price: 1200000.0
     published: true
     volume: 20.0
   Hakim's Modified 1400mm Howitzer Artillery:
@@ -4225,6 +4354,7 @@ items:
     marketGroup: 579
     mass: 1500.0
     name: Hakim's Modified 1400mm Howitzer Artillery
+    price: 1500000.0
     published: true
     volume: 20.0
   Hexa 2500mm Repeating Cannon I:
@@ -4256,6 +4386,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Hexa 2500mm Repeating Cannon I
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Hexa 2500mm Repeating Cannon II:
@@ -4291,6 +4422,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Hexa 2500mm Repeating Cannon II
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Mizuro's Modified 800mm Repeating Cannon:
@@ -4324,6 +4456,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: Mizuro's Modified 800mm Repeating Cannon
+    price: 900000.0
     published: true
     volume: 20.0
   Mizuro's Modified Dual 425mm AutoCannon:
@@ -4357,6 +4490,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Mizuro's Modified Dual 425mm AutoCannon
+    price: 200000.0
     published: true
     volume: 20.0
   Mizuro's Modified Dual 650mm Repeating Cannon:
@@ -4390,6 +4524,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Mizuro's Modified Dual 650mm Repeating Cannon
+    price: 600000.0
     published: true
     volume: 20.0
   Polarized 200mm AutoCannon:
@@ -4427,6 +4562,7 @@ items:
     marketGroup: 574
     mass: 500.0
     name: Polarized 200mm AutoCannon
+    price: 109744.0
     published: true
     volume: 5.0
   Polarized 425mm AutoCannon:
@@ -4464,6 +4600,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Polarized 425mm AutoCannon
+    price: 373210.0
     published: true
     volume: 10.0
   Polarized 800mm Repeating Cannon:
@@ -4501,6 +4638,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: Polarized 800mm Repeating Cannon
+    price: 1484776.0
     published: true
     volume: 20.0
   Prototype Precise Hexa 2500mm Repeating Cannon:
@@ -4533,6 +4671,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Prototype Precise Hexa 2500mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Prototype Precise Quad 3500mm Siege Artillery:
@@ -4565,6 +4704,7 @@ items:
     marketGroup: 775
     mass: 750.0
     name: Prototype Precise Quad 3500mm Siege Artillery
+    price: 3.7692954E7
     published: true
     volume: 4000.0
   Prototype Precise Quad 800mm Repeating Cannon:
@@ -4597,6 +4737,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Prototype Precise Quad 800mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Quad 3500mm Siege Artillery I:
@@ -4628,6 +4769,7 @@ items:
     marketGroup: 775
     mass: 750.0
     name: Quad 3500mm Siege Artillery I
+    price: 3.7692954E7
     published: true
     volume: 4000.0
   Quad 3500mm Siege Artillery II:
@@ -4663,6 +4805,7 @@ items:
     marketGroup: 775
     mass: 75.0
     name: Quad 3500mm Siege Artillery II
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Quad 800mm Repeating Cannon I:
@@ -4694,6 +4837,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Quad 800mm Repeating Cannon I
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Quad 800mm Repeating Cannon II:
@@ -4729,6 +4873,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Quad 800mm Repeating Cannon II
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Republic Fleet 1200mm Artillery:
@@ -4762,6 +4907,7 @@ items:
     marketGroup: 579
     mass: 750.0
     name: Republic Fleet 1200mm Artillery
+    price: 595840.0
     published: true
     volume: 20.0
   Republic Fleet 125mm Autocannon:
@@ -4795,6 +4941,7 @@ items:
     marketGroup: 574
     mass: 750.0
     name: Republic Fleet 125mm Autocannon
+    price: 1000.0
     published: true
     volume: 5.0
   Republic Fleet 1400mm Howitzer Artillery:
@@ -4828,6 +4975,7 @@ items:
     marketGroup: 579
     mass: 1500.0
     name: Republic Fleet 1400mm Howitzer Artillery
+    price: 744812.0
     published: true
     volume: 20.0
   Republic Fleet 150mm Autocannon:
@@ -4861,6 +5009,7 @@ items:
     marketGroup: 574
     mass: 20.0
     name: Republic Fleet 150mm Autocannon
+    price: 1976.0
     published: true
     volume: 5.0
   Republic Fleet 200mm Autocannon:
@@ -4894,6 +5043,7 @@ items:
     marketGroup: 574
     mass: 15.0
     name: Republic Fleet 200mm Autocannon
+    price: 4484.0
     published: true
     volume: 5.0
   Republic Fleet 220mm Autocannon:
@@ -4927,6 +5077,7 @@ items:
     marketGroup: 575
     mass: 12.0
     name: Republic Fleet 220mm Autocannon
+    price: 25888.0
     published: true
     volume: 10.0
   Republic Fleet 250mm Artillery:
@@ -4960,6 +5111,7 @@ items:
     marketGroup: 577
     mass: 150.0
     name: Republic Fleet 250mm Artillery
+    price: 5996.0
     published: true
     volume: 5.0
   Republic Fleet 280mm Howitzer Artillery:
@@ -4993,6 +5145,7 @@ items:
     marketGroup: 577
     mass: 5.0
     name: Republic Fleet 280mm Howitzer Artillery
+    price: 7496.0
     published: true
     volume: 5.0
   Republic Fleet 425mm Autocannon:
@@ -5026,6 +5179,7 @@ items:
     marketGroup: 575
     mass: 8.0
     name: Republic Fleet 425mm Autocannon
+    price: 44740.0
     published: true
     volume: 10.0
   Republic Fleet 650mm Artillery:
@@ -5059,6 +5213,7 @@ items:
     marketGroup: 578
     mass: 125.0
     name: Republic Fleet 650mm Artillery
+    price: 59676.0
     published: true
     volume: 10.0
   Republic Fleet 720mm Howitzer Artillery:
@@ -5092,6 +5247,7 @@ items:
     marketGroup: 578
     mass: 50.0
     name: Republic Fleet 720mm Howitzer Artillery
+    price: 74980.0
     published: true
     volume: 10.0
   Republic Fleet 800mm Repeating Cannon:
@@ -5125,6 +5281,7 @@ items:
     marketGroup: 576
     mass: 75.0
     name: Republic Fleet 800mm Repeating Cannon
+    price: 448700.0
     published: true
     volume: 20.0
   Republic Fleet Dual 180mm Autocannon:
@@ -5158,6 +5315,7 @@ items:
     marketGroup: 575
     mass: 1000.0
     name: Republic Fleet Dual 180mm Autocannon
+    price: 10000.0
     published: true
     volume: 10.0
   Republic Fleet Dual 425mm Autocannon:
@@ -5191,6 +5349,7 @@ items:
     marketGroup: 576
     mass: 200.0
     name: Republic Fleet Dual 425mm Autocannon
+    price: 98972.0
     published: true
     volume: 20.0
   Republic Fleet Dual 650mm Repeating Cannon:
@@ -5224,6 +5383,7 @@ items:
     marketGroup: 576
     mass: 2000.0
     name: Republic Fleet Dual 650mm Repeating Cannon
+    price: 298716.0
     published: true
     volume: 20.0
   Scout Scoped Hexa 2500mm Repeating Cannon:
@@ -5256,6 +5416,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Scout Scoped Hexa 2500mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Scout Scoped Quad 3500mm Siege Artillery:
@@ -5288,6 +5449,7 @@ items:
     marketGroup: 775
     mass: 750.0
     name: Scout Scoped Quad 3500mm Siege Artillery
+    price: 3.7692954E7
     published: true
     volume: 4000.0
   Scout Scoped Quad 800mm Repeating Cannon:
@@ -5320,6 +5482,7 @@ items:
     marketGroup: 776
     mass: 75.0
     name: Scout Scoped Quad 800mm Repeating Cannon
+    price: 3.269487E7
     published: true
     volume: 4000.0
   Tobias' Modified 1200mm Artillery Cannon:
@@ -5353,6 +5516,7 @@ items:
     marketGroup: 579
     mass: 750.0
     name: Tobias' Modified 1200mm Artillery Cannon
+    price: 1200000.0
     published: true
     volume: 20.0
   Tobias' Modified 1400mm Howitzer Artillery:
@@ -5386,5 +5550,6 @@ items:
     marketGroup: 579
     mass: 1500.0
     name: Tobias' Modified 1400mm Howitzer Artillery
+    price: 1500000.0
     published: true
     volume: 20.0

@@ -3,17 +3,20 @@ items:
     IndustryBlueprintRank: 60.0
     id: 28605
     name: Design Laboratory Blueprint
+    price: 1.0E8
     published: true
     volume: 0.01
   Experimental Laboratory Blueprint:
     IndustryBlueprintRank: 60.0
     id: 2820
     name: Experimental Laboratory Blueprint
+    price: 7.5E7
     published: true
     volume: 0.01
   Research Laboratory Blueprint:
     IndustryBlueprintRank: 60.0
     id: 2821
     name: Research Laboratory Blueprint
+    price: 7.5E7
     published: true
     volume: 0.01

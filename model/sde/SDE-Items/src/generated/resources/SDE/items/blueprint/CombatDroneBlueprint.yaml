@@ -4,6 +4,7 @@ items:
     TechLevel: 2
     id: 28265
     name: '''Augmented'' Acolyte Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Berserker Blueprint':
@@ -11,6 +12,7 @@ items:
     TechLevel: 2
     id: 28269
     name: '''Augmented'' Berserker Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Hammerhead Blueprint':
@@ -18,6 +20,7 @@ items:
     TechLevel: 2
     id: 28273
     name: '''Augmented'' Hammerhead Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Hobgoblin Blueprint':
@@ -25,6 +28,7 @@ items:
     TechLevel: 2
     id: 28277
     name: '''Augmented'' Hobgoblin Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Hornet Blueprint':
@@ -32,6 +36,7 @@ items:
     TechLevel: 2
     id: 28281
     name: '''Augmented'' Hornet Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Infiltrator Blueprint':
@@ -39,6 +44,7 @@ items:
     TechLevel: 2
     id: 28285
     name: '''Augmented'' Infiltrator Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Ogre Blueprint':
@@ -46,6 +52,7 @@ items:
     TechLevel: 2
     id: 28289
     name: '''Augmented'' Ogre Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Praetor Blueprint':
@@ -53,6 +60,7 @@ items:
     TechLevel: 2
     id: 28293
     name: '''Augmented'' Praetor Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Valkyrie Blueprint':
@@ -74,6 +82,7 @@ items:
     TechLevel: 2
     id: 28305
     name: '''Augmented'' Warrior Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Augmented'' Wasp Blueprint':
@@ -81,6 +90,7 @@ items:
     TechLevel: 2
     id: 28309
     name: '''Augmented'' Wasp Blueprint'
+    price: 9999999.0
     published: true
     volume: 0.01
   '''Integrated'' Acolyte Blueprint':
@@ -88,6 +98,7 @@ items:
     TechLevel: 1
     id: 28263
     name: '''Integrated'' Acolyte Blueprint'
+    price: 200000.0
     published: true
     volume: 0.01
   '''Integrated'' Berserker Blueprint':
@@ -95,6 +106,7 @@ items:
     TechLevel: 1
     id: 28267
     name: '''Integrated'' Berserker Blueprint'
+    price: 4000000.0
     published: true
     volume: 0.01
   '''Integrated'' Hammerhead Blueprint':
@@ -102,6 +114,7 @@ items:
     TechLevel: 1
     id: 28271
     name: '''Integrated'' Hammerhead Blueprint'
+    price: 1800000.0
     published: true
     volume: 0.01
   '''Integrated'' Hobgoblin Blueprint':
@@ -109,6 +122,7 @@ items:
     TechLevel: 1
     id: 28275
     name: '''Integrated'' Hobgoblin Blueprint'
+    price: 250000.0
     published: true
     volume: 0.01
   '''Integrated'' Hornet Blueprint':
@@ -116,6 +130,7 @@ items:
     TechLevel: 1
     id: 28279
     name: '''Integrated'' Hornet Blueprint'
+    price: 300000.0
     published: true
     volume: 0.01
   '''Integrated'' Infiltrator Blueprint':
@@ -123,6 +138,7 @@ items:
     TechLevel: 1
     id: 28283
     name: '''Integrated'' Infiltrator Blueprint'
+    price: 1700000.0
     published: true
     volume: 0.01
   '''Integrated'' Ogre Blueprint':
@@ -130,6 +146,7 @@ items:
     TechLevel: 1
     id: 28287
     name: '''Integrated'' Ogre Blueprint'
+    price: 7000000.0
     published: true
     volume: 0.01
   '''Integrated'' Praetor Blueprint':
@@ -137,6 +154,7 @@ items:
     TechLevel: 1
     id: 28291
     name: '''Integrated'' Praetor Blueprint'
+    price: 6000000.0
     published: true
     volume: 0.01
   '''Integrated'' Valkyrie Blueprint':
@@ -144,6 +162,7 @@ items:
     TechLevel: 1
     id: 28295
     name: '''Integrated'' Valkyrie Blueprint'
+    price: 1500000.0
     published: true
     volume: 0.01
   '''Integrated'' Vespa Blueprint':
@@ -151,6 +170,7 @@ items:
     TechLevel: 1
     id: 28299
     name: '''Integrated'' Vespa Blueprint'
+    price: 1600000.0
     published: true
     volume: 0.01
   '''Integrated'' Warrior Blueprint':
@@ -158,6 +178,7 @@ items:
     TechLevel: 1
     id: 28303
     name: '''Integrated'' Warrior Blueprint'
+    price: 400000.0
     published: true
     volume: 0.01
   '''Integrated'' Wasp Blueprint':
@@ -165,6 +186,7 @@ items:
     TechLevel: 1
     id: 28307
     name: '''Integrated'' Wasp Blueprint'
+    price: 5000000.0
     published: true
     volume: 0.01
   '''Subverted'' JVN-UC49 Blueprint':
@@ -173,6 +195,7 @@ items:
     id: 48745
     marketGroup: 1532
     name: '''Subverted'' JVN-UC49 Blueprint'
+    price: 5000000.0
     published: true
     volume: 0.01
   Acolyte I Blueprint:
@@ -181,6 +204,7 @@ items:
     id: 2204
     marketGroup: 1531
     name: Acolyte I Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Acolyte II Blueprint:
@@ -188,6 +212,7 @@ items:
     TechLevel: 2
     id: 2206
     name: Acolyte II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Berserker I Blueprint:
@@ -196,6 +221,7 @@ items:
     id: 2477
     marketGroup: 359
     name: Berserker I Blueprint
+    price: 4000000.0
     published: true
     volume: 0.01
   Berserker II Blueprint:
@@ -203,6 +229,7 @@ items:
     TechLevel: 2
     id: 2479
     name: Berserker II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Bouncer I Blueprint:
@@ -211,6 +238,7 @@ items:
     id: 23564
     marketGroup: 1533
     name: Bouncer I Blueprint
+    price: 1.4E7
     published: true
     volume: 0.01
   Bouncer II Blueprint:
@@ -218,6 +246,7 @@ items:
     TechLevel: 2
     id: 28216
     name: Bouncer II Blueprint
+    price: 1.4E7
     published: true
     volume: 0.01
   Curator I Blueprint:
@@ -226,6 +255,7 @@ items:
     id: 23526
     marketGroup: 1533
     name: Curator I Blueprint
+    price: 1.4E7
     published: true
     volume: 0.01
   Curator II Blueprint:
@@ -233,6 +263,7 @@ items:
     TechLevel: 2
     id: 28214
     name: Curator II Blueprint
+    price: 1.4E7
     published: true
     volume: 0.01
   Garde I Blueprint:
@@ -241,6 +272,7 @@ items:
     id: 23562
     marketGroup: 1533
     name: Garde I Blueprint
+    price: 1.4E7
     published: true
     volume: 0.01
   Garde II Blueprint:
@@ -248,6 +280,7 @@ items:
     TechLevel: 2
     id: 28212
     name: Garde II Blueprint
+    price: 1.4E7
     published: true
     volume: 0.01
   Gecko Blueprint:
@@ -255,6 +288,7 @@ items:
     TechLevel: 1
     id: 33682
     name: Gecko Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Hammerhead I Blueprint:
@@ -263,6 +297,7 @@ items:
     id: 2184
     marketGroup: 1532
     name: Hammerhead I Blueprint
+    price: 1800000.0
     published: true
     volume: 0.01
   Hammerhead II Blueprint:
@@ -270,6 +305,7 @@ items:
     TechLevel: 2
     id: 2186
     name: Hammerhead II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Hobgoblin I Blueprint:
@@ -278,6 +314,7 @@ items:
     id: 2455
     marketGroup: 1531
     name: Hobgoblin I Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Hobgoblin II Blueprint:
@@ -285,6 +322,7 @@ items:
     TechLevel: 2
     id: 2457
     name: Hobgoblin II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Hornet I Blueprint:
@@ -293,6 +331,7 @@ items:
     id: 2465
     marketGroup: 1531
     name: Hornet I Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Hornet II Blueprint:
@@ -300,6 +339,7 @@ items:
     TechLevel: 2
     id: 2467
     name: Hornet II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Infiltrator I Blueprint:
@@ -308,6 +348,7 @@ items:
     id: 2174
     marketGroup: 1532
     name: Infiltrator I Blueprint
+    price: 1700000.0
     published: true
     volume: 0.01
   Infiltrator II Blueprint:
@@ -315,6 +356,7 @@ items:
     TechLevel: 2
     id: 2176
     name: Infiltrator II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Ogre I Blueprint:
@@ -323,6 +365,7 @@ items:
     id: 2445
     marketGroup: 359
     name: Ogre I Blueprint
+    price: 7000000.0
     published: true
     volume: 0.01
   Ogre II Blueprint:
@@ -330,6 +373,7 @@ items:
     TechLevel: 2
     id: 2447
     name: Ogre II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Praetor I Blueprint:
@@ -338,6 +382,7 @@ items:
     id: 2194
     marketGroup: 359
     name: Praetor I Blueprint
+    price: 6000000.0
     published: true
     volume: 0.01
   Praetor II Blueprint:
@@ -345,6 +390,7 @@ items:
     TechLevel: 2
     id: 2196
     name: Praetor II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Valkyrie I Blueprint:
@@ -353,6 +399,7 @@ items:
     id: 15511
     marketGroup: 1532
     name: Valkyrie I Blueprint
+    price: 1500000.0
     published: true
     volume: 0.01
   Valkyrie II Blueprint:
@@ -360,6 +407,7 @@ items:
     TechLevel: 2
     id: 21641
     name: Valkyrie II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Vespa I Blueprint:
@@ -368,6 +416,7 @@ items:
     id: 15509
     marketGroup: 1532
     name: Vespa I Blueprint
+    price: 1600000.0
     published: true
     volume: 0.01
   Vespa II Blueprint:
@@ -375,6 +424,7 @@ items:
     TechLevel: 2
     id: 21639
     name: Vespa II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Warden I Blueprint:
@@ -383,6 +433,7 @@ items:
     id: 23560
     marketGroup: 1533
     name: Warden I Blueprint
+    price: 1.4E7
     published: true
     volume: 0.01
   Warden II Blueprint:
@@ -390,6 +441,7 @@ items:
     TechLevel: 2
     id: 28210
     name: Warden II Blueprint
+    price: 1.4E7
     published: true
     volume: 0.01
   Warrior I Blueprint:
@@ -398,6 +450,7 @@ items:
     id: 2487
     marketGroup: 1531
     name: Warrior I Blueprint
+    price: 400000.0
     published: true
     volume: 0.01
   Warrior II Blueprint:
@@ -405,6 +458,7 @@ items:
     TechLevel: 2
     id: 2489
     name: Warrior II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01
   Wasp I Blueprint:
@@ -413,6 +467,7 @@ items:
     id: 1214
     marketGroup: 359
     name: Wasp I Blueprint
+    price: 5000000.0
     published: true
     volume: 0.01
   Wasp II Blueprint:
@@ -420,5 +475,6 @@ items:
     TechLevel: 2
     id: 2437
     name: Wasp II Blueprint
+    price: 2.0E10
     published: true
     volume: 0.01

@@ -108,6 +108,7 @@ items:
     marketGroup: 813
     mass: 2.4E9
     name: Avatar
+    price: 5.03831826E10
     published: true
     volume: 1.55E8
   Erebus:
@@ -219,6 +220,7 @@ items:
     marketGroup: 815
     mass: 2.1E9
     name: Erebus
+    price: 5.06998058E10
     published: true
     volume: 1.455E8
   Komodo:
@@ -457,6 +459,7 @@ items:
     marketGroup: 814
     mass: 2.3E9
     name: Leviathan
+    price: 4.91005502E10
     published: true
     volume: 1.325E8
   Molok:
@@ -687,6 +690,7 @@ items:
     marketGroup: 816
     mass: 2.2E9
     name: Ragnarok
+    price: 4.8678402E10
     published: true
     volume: 1.0E8
   Vanquisher:

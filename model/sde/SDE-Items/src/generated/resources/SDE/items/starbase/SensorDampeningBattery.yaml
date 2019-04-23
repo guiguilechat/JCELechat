@@ -46,6 +46,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Sensor Dampening Battery
+    price: 1250000.0
     published: true
     volume: 4000.0
   Serpentis Sensor Dampening Battery:
@@ -96,6 +97,7 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Serpentis Sensor Dampening Battery
+    price: 1250000.0
     published: true
     volume: 4000.0
   Shadow Sensor Dampening Battery:
@@ -146,5 +148,6 @@ items:
     marketGroup: 481
     mass: 1.0E8
     name: Shadow Sensor Dampening Battery
+    price: 1250000.0
     published: true
     volume: 4000.0

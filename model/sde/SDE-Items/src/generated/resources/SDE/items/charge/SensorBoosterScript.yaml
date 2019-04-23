@@ -12,6 +12,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: ECCM Script
+    price: 4000.0
     published: true
     volume: 1.0
   Scan Resolution Script:
@@ -27,6 +28,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Scan Resolution Script
+    price: 4000.0
     published: true
     volume: 1.0
   Targeting Range Script:
@@ -42,5 +44,6 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Targeting Range Script
+    price: 4000.0
     published: true
     volume: 1.0

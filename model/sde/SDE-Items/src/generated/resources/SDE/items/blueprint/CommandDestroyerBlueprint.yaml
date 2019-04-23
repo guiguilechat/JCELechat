@@ -4,22 +4,26 @@ items:
     TechLevel: 2
     id: 37620
     name: Bifrost Blueprint
+    price: 4000000.0
     published: true
   Magus Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 2
     id: 37619
     name: Magus Blueprint
+    price: 4000000.0
     published: true
   Pontifex Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 2
     id: 37618
     name: Pontifex Blueprint
+    price: 4000000.0
     published: true
   Stork Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 2
     id: 37617
     name: Stork Blueprint
+    price: 4000000.0
     published: true

@@ -54,6 +54,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Berserker SW-900
+    price: 40000.0
     published: true
     volume: 25.0
   Valkyrie SW-600:
@@ -111,6 +112,7 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Valkyrie SW-600
+    price: 15000.0
     published: true
     volume: 10.0
   Warrior SW-300:
@@ -168,5 +170,6 @@ items:
     marketGroup: 841
     mass: 3000.0
     name: Warrior SW-300
+    price: 4000.0
     published: true
     volume: 5.0

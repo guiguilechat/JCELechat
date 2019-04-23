@@ -8,6 +8,7 @@ items:
     id: 9943
     marketGroup: 621
     name: Cybernetic Subprocessor - Basic
+    price: 200000.0
     published: true
     volume: 1.0
   Cybernetic Subprocessor - Improved:
@@ -19,6 +20,7 @@ items:
     id: 10222
     marketGroup: 621
     name: Cybernetic Subprocessor - Improved
+    price: 800000.0
     published: true
     volume: 1.0
   Cybernetic Subprocessor - Standard:
@@ -30,6 +32,7 @@ items:
     id: 10221
     marketGroup: 621
     name: Cybernetic Subprocessor - Standard
+    price: 400000.0
     published: true
     volume: 1.0
   Limited Cybernetic Subprocessor:
@@ -41,6 +44,7 @@ items:
     id: 13287
     marketGroup: 621
     name: Limited Cybernetic Subprocessor
+    price: 10000.0
     published: true
     volume: 1.0
   Limited Cybernetic Subprocessor - Beta:
@@ -63,6 +67,7 @@ items:
     id: 13284
     marketGroup: 619
     name: Limited Memory Augmentation
+    price: 10000.0
     published: true
     volume: 1.0
   Limited Memory Augmentation - Beta:
@@ -85,6 +90,7 @@ items:
     id: 13285
     marketGroup: 620
     name: Limited Neural Boost
+    price: 10000.0
     published: true
     volume: 1.0
   Limited Neural Boost - Beta:
@@ -107,6 +113,7 @@ items:
     id: 13283
     marketGroup: 618
     name: Limited Ocular Filter
+    price: 10000.0
     published: true
     volume: 1.0
   Limited Ocular Filter - Beta:
@@ -129,6 +136,7 @@ items:
     id: 13286
     marketGroup: 622
     name: Limited Social Adaptation Chip
+    price: 10000.0
     published: true
     volume: 1.0
   Limited Social Adaptation Chip - Beta:
@@ -151,6 +159,7 @@ items:
     id: 9941
     marketGroup: 619
     name: Memory Augmentation - Basic
+    price: 200000.0
     published: true
     volume: 1.0
   Memory Augmentation - Improved:
@@ -162,6 +171,7 @@ items:
     id: 10209
     marketGroup: 619
     name: Memory Augmentation - Improved
+    price: 800000.0
     published: true
     volume: 1.0
   Memory Augmentation - Standard:
@@ -173,6 +183,7 @@ items:
     id: 10208
     marketGroup: 619
     name: Memory Augmentation - Standard
+    price: 400000.0
     published: true
     volume: 1.0
   Neural Boost - Basic:
@@ -184,6 +195,7 @@ items:
     id: 9942
     marketGroup: 620
     name: Neural Boost - Basic
+    price: 200000.0
     published: true
     volume: 1.0
   Neural Boost - Improved:
@@ -195,6 +207,7 @@ items:
     id: 10213
     marketGroup: 620
     name: Neural Boost - Improved
+    price: 800000.0
     published: true
     volume: 1.0
   Neural Boost - Standard:
@@ -206,6 +219,7 @@ items:
     id: 10212
     marketGroup: 620
     name: Neural Boost - Standard
+    price: 400000.0
     published: true
     volume: 1.0
   Ocular Filter - Basic:
@@ -217,6 +231,7 @@ items:
     id: 9899
     marketGroup: 618
     name: Ocular Filter - Basic
+    price: 200000.0
     published: true
     volume: 1.0
   Ocular Filter - Improved:
@@ -228,6 +243,7 @@ items:
     id: 10217
     marketGroup: 618
     name: Ocular Filter - Improved
+    price: 800000.0
     published: true
     volume: 1.0
   Ocular Filter - Standard:
@@ -239,6 +255,7 @@ items:
     id: 10216
     marketGroup: 618
     name: Ocular Filter - Standard
+    price: 400000.0
     published: true
     volume: 1.0
   Social Adaptation Chip - Basic:
@@ -250,6 +267,7 @@ items:
     id: 9956
     marketGroup: 622
     name: Social Adaptation Chip - Basic
+    price: 200000.0
     published: true
     volume: 1.0
   Social Adaptation Chip - Improved:
@@ -261,6 +279,7 @@ items:
     id: 10226
     marketGroup: 622
     name: Social Adaptation Chip - Improved
+    price: 800000.0
     published: true
     volume: 1.0
   Social Adaptation Chip - Standard:
@@ -272,5 +291,6 @@ items:
     id: 10225
     marketGroup: 622
     name: Social Adaptation Chip - Standard
+    price: 400000.0
     published: true
     volume: 1.0

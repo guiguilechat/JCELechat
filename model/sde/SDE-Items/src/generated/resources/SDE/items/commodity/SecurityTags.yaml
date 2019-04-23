@@ -5,6 +5,7 @@ items:
     marketGroup: 1700
     mass: 0.1
     name: Clone Soldier Negotiator Tag
+    price: 3000000.0
     published: true
     volume: 0.1
   Clone Soldier Recruiter Tag:
@@ -13,6 +14,7 @@ items:
     marketGroup: 1700
     mass: 0.1
     name: Clone Soldier Recruiter Tag
+    price: 2000000.0
     published: true
     volume: 0.1
   Clone Soldier Trainer Tag:
@@ -21,6 +23,7 @@ items:
     marketGroup: 1700
     mass: 0.1
     name: Clone Soldier Trainer Tag
+    price: 1500000.0
     published: true
     volume: 0.1
   Clone Soldier Transporter Tag:
@@ -29,5 +32,6 @@ items:
     marketGroup: 1700
     mass: 0.1
     name: Clone Soldier Transporter Tag
+    price: 2500000.0
     published: true
     volume: 0.1

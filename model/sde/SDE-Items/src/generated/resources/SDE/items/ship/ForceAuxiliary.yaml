@@ -109,6 +109,7 @@ items:
     marketGroup: 2272
     mass: 1.31E9
     name: Apostle
+    price: 1.7E9
     published: true
     volume: 1.8135E7
   Dagon:
@@ -340,6 +341,7 @@ items:
     marketGroup: 2275
     mass: 1.26E9
     name: Lif
+    price: 1.7E9
     published: true
     volume: 1.4625E7
   Loggerhead:
@@ -566,6 +568,7 @@ items:
     marketGroup: 2273
     mass: 1.3E9
     name: Minokawa
+    price: 1.7E9
     published: true
     volume: 1.55E7
   Ninazu:
@@ -678,5 +681,6 @@ items:
     marketGroup: 2274
     mass: 1.25E9
     name: Ninazu
+    price: 1.7E9
     published: true
     volume: 1.702E7

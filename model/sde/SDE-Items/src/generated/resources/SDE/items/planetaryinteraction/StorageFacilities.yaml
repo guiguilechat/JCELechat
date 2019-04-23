@@ -5,6 +5,7 @@ items:
     PowerLoad: 700
     id: 2541
     name: Barren Storage Facility
+    price: 250000.0
     published: true
   Gas Storage Facility:
     CpuLoad: 500
@@ -12,6 +13,7 @@ items:
     PowerLoad: 700
     id: 2536
     name: Gas Storage Facility
+    price: 250000.0
     published: true
   Ice Storage Facility:
     CpuLoad: 500
@@ -19,6 +21,7 @@ items:
     PowerLoad: 700
     id: 2257
     name: Ice Storage Facility
+    price: 250000.0
     published: true
   Lava Storage Facility:
     CpuLoad: 500
@@ -26,6 +29,7 @@ items:
     PowerLoad: 700
     id: 2558
     name: Lava Storage Facility
+    price: 250000.0
     published: true
   Oceanic Storage Facility:
     CpuLoad: 500
@@ -33,6 +37,7 @@ items:
     PowerLoad: 700
     id: 2535
     name: Oceanic Storage Facility
+    price: 250000.0
     published: true
   Plasma Storage Facility:
     CpuLoad: 500
@@ -40,6 +45,7 @@ items:
     PowerLoad: 700
     id: 2560
     name: Plasma Storage Facility
+    price: 250000.0
     published: true
   Storm Storage Facility:
     CpuLoad: 500
@@ -47,6 +53,7 @@ items:
     PowerLoad: 700
     id: 2561
     name: Storm Storage Facility
+    price: 250000.0
     published: true
   Temperate Storage Facility:
     CpuLoad: 500
@@ -54,4 +61,5 @@ items:
     PowerLoad: 700
     id: 2562
     name: Temperate Storage Facility
+    price: 250000.0
     published: true

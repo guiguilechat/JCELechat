@@ -5,6 +5,7 @@ items:
     id: 2393
     marketGroup: 1334
     name: Bacteria
+    price: 1.0
     published: true
     volume: 0.38
   Biofuels:
@@ -13,6 +14,7 @@ items:
     id: 2396
     marketGroup: 1334
     name: Biofuels
+    price: 1.0
     published: true
     volume: 0.38
   Biomass:
@@ -21,6 +23,7 @@ items:
     id: 3779
     marketGroup: 1334
     name: Biomass
+    price: 1.0
     published: true
     volume: 0.38
   Chiral Structures:
@@ -29,6 +32,7 @@ items:
     id: 2401
     marketGroup: 1334
     name: Chiral Structures
+    price: 1.0
     published: true
     volume: 0.38
   Electrolytes:
@@ -37,6 +41,7 @@ items:
     id: 2390
     marketGroup: 1334
     name: Electrolytes
+    price: 1.0
     published: true
     volume: 0.38
   Industrial Fibers:
@@ -45,6 +50,7 @@ items:
     id: 2397
     marketGroup: 1334
     name: Industrial Fibers
+    price: 1.0
     published: true
     volume: 0.38
   Oxidizing Compound:
@@ -53,6 +59,7 @@ items:
     id: 2392
     marketGroup: 1334
     name: Oxidizing Compound
+    price: 1.0
     published: true
     volume: 0.38
   Oxygen:
@@ -61,6 +68,7 @@ items:
     id: 3683
     marketGroup: 1334
     name: Oxygen
+    price: 95.0
     published: true
     volume: 0.38
   Plasmoids:
@@ -69,6 +77,7 @@ items:
     id: 2389
     marketGroup: 1334
     name: Plasmoids
+    price: 1.0
     published: true
     volume: 0.38
   Precious Metals:
@@ -77,6 +86,7 @@ items:
     id: 2399
     marketGroup: 1334
     name: Precious Metals
+    price: 1.0
     published: true
     volume: 0.38
   Proteins:
@@ -85,6 +95,7 @@ items:
     id: 2395
     marketGroup: 1334
     name: Proteins
+    price: 1.0
     published: true
     volume: 0.38
   Reactive Metals:
@@ -93,6 +104,7 @@ items:
     id: 2398
     marketGroup: 1334
     name: Reactive Metals
+    price: 1.0
     published: true
     volume: 0.38
   Silicon:
@@ -101,6 +113,7 @@ items:
     id: 9828
     marketGroup: 1334
     name: Silicon
+    price: 266.0
     published: true
     volume: 0.38
   Toxic Metals:
@@ -109,6 +122,7 @@ items:
     id: 2400
     marketGroup: 1334
     name: Toxic Metals
+    price: 1.0
     published: true
     volume: 0.38
   Water:
@@ -117,5 +131,6 @@ items:
     id: 3645
     marketGroup: 1334
     name: Water
+    price: 35.0
     published: true
     volume: 0.38

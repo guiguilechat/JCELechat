@@ -18,11 +18,13 @@ items:
     id: 37047
     marketGroup: 2183
     name: Standup Anticapital Missile Launcher I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Anticapital Missile Launcher II Blueprint:
     id: 47324
     name: Standup Anticapital Missile Launcher II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Arcing Vorton Projector I Blueprint:
@@ -30,6 +32,7 @@ items:
     id: 37030
     marketGroup: 2180
     name: Standup Arcing Vorton Projector I Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Standup Ballistic Control System I Blueprint:
@@ -37,11 +40,13 @@ items:
     id: 37020
     marketGroup: 2189
     name: Standup Ballistic Control System I Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Ballistic Control System II Blueprint:
     id: 47343
     name: Standup Ballistic Control System II Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Biochemical Reactor I Blueprint:
@@ -49,28 +54,33 @@ items:
     id: 45542
     marketGroup: 2182
     name: Standup Biochemical Reactor I Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Cap Battery I Blueprint:
     id: 47354
     marketGroup: 2175
     name: Standup Cap Battery I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Cap Battery II Blueprint:
     id: 47355
     name: Standup Cap Battery II Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Capacitor Power Relay I Blueprint:
     id: 47357
     marketGroup: 2188
     name: Standup Capacitor Power Relay I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Capacitor Power Relay II Blueprint:
     id: 47359
     name: Standup Capacitor Power Relay II Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Capital Shipyard I Blueprint:
@@ -78,6 +88,7 @@ items:
     id: 43925
     marketGroup: 2323
     name: Standup Capital Shipyard I Blueprint
+    price: 4.0E9
     published: true
     volume: 0.01
   Standup Cloning Center I Blueprint:
@@ -85,6 +96,7 @@ items:
     id: 37023
     marketGroup: 2181
     name: Standup Cloning Center I Blueprint
+    price: 1.6E9
     published: true
     volume: 0.01
   Standup Co-Processor Array I Blueprint:
@@ -92,11 +104,13 @@ items:
     id: 37028
     marketGroup: 2173
     name: Standup Co-Processor Array I Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Co-Processor Array II Blueprint:
     id: 47345
     name: Standup Co-Processor Array II Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Composite Reactor I Blueprint:
@@ -104,18 +118,21 @@ items:
     id: 45540
     marketGroup: 2182
     name: Standup Composite Reactor I Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup ECM Jammer Burst Projector Blueprint:
     id: 47110
     marketGroup: 2407
     name: Standup ECM Jammer Burst Projector Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Energy Neutralization Burst Projector Blueprint:
     id: 47114
     marketGroup: 2407
     name: Standup Energy Neutralization Burst Projector Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Focused Warp Disruptor I Blueprint:
@@ -123,11 +140,13 @@ items:
     id: 37087
     marketGroup: 2172
     name: Standup Focused Warp Disruptor I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Focused Warp Disruptor II Blueprint:
     id: 47335
     name: Standup Focused Warp Disruptor II Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Guided Bomb Launcher I Blueprint:
@@ -135,11 +154,13 @@ items:
     id: 37008
     marketGroup: 2185
     name: Standup Guided Bomb Launcher I Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Guided Bomb Launcher II Blueprint:
     id: 47326
     name: Standup Guided Bomb Launcher II Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Heavy Energy Neutralizer I Blueprint:
@@ -147,17 +168,20 @@ items:
     id: 37044
     marketGroup: 2176
     name: Standup Heavy Energy Neutralizer I Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Heavy Energy Neutralizer II Blueprint:
     id: 47333
     name: Standup Heavy Energy Neutralizer II Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Hyasyoda Research Lab Blueprint:
     StructureItemVisualFlag: 1
     id: 45551
     name: Standup Hyasyoda Research Lab Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Hybrid Reactor I Blueprint:
@@ -165,6 +189,7 @@ items:
     id: 45541
     marketGroup: 2182
     name: Standup Hybrid Reactor I Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Invention Lab I Blueprint:
@@ -172,17 +197,20 @@ items:
     id: 43926
     marketGroup: 2323
     name: Standup Invention Lab I Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Layered Armor Plating I Blueprint:
     id: 47361
     marketGroup: 2415
     name: Standup Layered Armor Plating I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Layered Armor Plating II Blueprint:
     id: 47363
     name: Standup Layered Armor Plating II Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Manufacturing Plant I Blueprint:
@@ -190,6 +218,7 @@ items:
     id: 43927
     marketGroup: 2323
     name: Standup Manufacturing Plant I Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Market Hub I Blueprint:
@@ -197,23 +226,27 @@ items:
     id: 37022
     marketGroup: 2181
     name: Standup Market Hub I Blueprint
+    price: 7.0E9
     published: true
     volume: 0.01
   Standup Missile Guidance Enhancer I Blueprint:
     id: 37045
     marketGroup: 2190
     name: Standup Missile Guidance Enhancer I Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Missile Guidance Enhancer II Blueprint:
     id: 47341
     name: Standup Missile Guidance Enhancer II Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Moon Drill I Blueprint:
     id: 37034
     marketGroup: 2182
     name: Standup Moon Drill I Blueprint
+    price: 1.6E9
     published: true
     volume: 0.01
   Standup Multirole Missile Launcher I Blueprint:
@@ -221,11 +254,13 @@ items:
     id: 37048
     marketGroup: 2184
     name: Standup Multirole Missile Launcher I Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Multirole Missile Launcher II Blueprint:
     id: 47322
     name: Standup Multirole Missile Launcher II Blueprint
+    price: 3.0E8
     published: true
     volume: 0.01
   Standup Point Defense Battery I Blueprint:
@@ -233,11 +268,13 @@ items:
     id: 37029
     marketGroup: 2186
     name: Standup Point Defense Battery I Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Point Defense Battery II Blueprint:
     id: 47328
     name: Standup Point Defense Battery II Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Reactor Control Unit I Blueprint:
@@ -245,11 +282,13 @@ items:
     id: 37060
     marketGroup: 2177
     name: Standup Reactor Control Unit I Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Reactor Control Unit II Blueprint:
     id: 47346
     name: Standup Reactor Control Unit II Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Remote Sensor Dampener I Blueprint:
@@ -257,11 +296,13 @@ items:
     id: 37066
     marketGroup: 2168
     name: Standup Remote Sensor Dampener I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Remote Sensor Dampener II Blueprint:
     id: 47369
     name: Standup Remote Sensor Dampener II Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Reprocessing Facility I Blueprint:
@@ -269,6 +310,7 @@ items:
     id: 37032
     marketGroup: 2182
     name: Standup Reprocessing Facility I Blueprint
+    price: 1.6E8
     published: true
     volume: 0.01
   Standup Research Lab I Blueprint:
@@ -276,12 +318,14 @@ items:
     id: 43928
     marketGroup: 2323
     name: Standup Research Lab I Blueprint
+    price: 1.0E9
     published: true
     volume: 0.01
   Standup Sensor Dampening Burst Projector Blueprint:
     id: 47111
     marketGroup: 2407
     name: Standup Sensor Dampening Burst Projector Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Signal Amplifier I Blueprint:
@@ -289,17 +333,20 @@ items:
     id: 37541
     marketGroup: 2174
     name: Standup Signal Amplifier I Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Signal Amplifier II Blueprint:
     id: 47349
     name: Standup Signal Amplifier II Blueprint
+    price: 6.0E7
     published: true
     volume: 0.01
   Standup Stasis Webification Burst Projector Blueprint:
     id: 47112
     marketGroup: 2407
     name: Standup Stasis Webification Burst Projector Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Stasis Webifier I Blueprint:
@@ -307,11 +354,13 @@ items:
     id: 37080
     marketGroup: 2169
     name: Standup Stasis Webifier I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Stasis Webifier II Blueprint:
     id: 47350
     name: Standup Stasis Webifier II Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Supercapital Shipyard I Blueprint:
@@ -319,12 +368,14 @@ items:
     id: 43929
     marketGroup: 2323
     name: Standup Supercapital Shipyard I Blueprint
+    price: 9.0E9
     published: true
     volume: 0.01
   Standup Target Illumination Burst Projector Blueprint:
     id: 47107
     marketGroup: 2407
     name: Standup Target Illumination Burst Projector Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Target Painter I Blueprint:
@@ -332,11 +383,13 @@ items:
     id: 37081
     marketGroup: 2170
     name: Standup Target Painter I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Target Painter II Blueprint:
     id: 47367
     name: Standup Target Painter II Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Variable Spectrum ECM I Blueprint:
@@ -344,23 +397,27 @@ items:
     id: 37041
     marketGroup: 2167
     name: Standup Variable Spectrum ECM I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Variable Spectrum ECM II Blueprint:
     id: 47339
     name: Standup Variable Spectrum ECM II Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Warp Disruption Burst Projector Blueprint:
     id: 47113
     marketGroup: 2407
     name: Standup Warp Disruption Burst Projector Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Weapon Disruption Burst Projector Blueprint:
     id: 47109
     marketGroup: 2407
     name: Standup Weapon Disruption Burst Projector Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup Weapon Disruptor I Blueprint:
@@ -368,11 +425,13 @@ items:
     id: 37083
     marketGroup: 2171
     name: Standup Weapon Disruptor I Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup Weapon Disruptor II Blueprint:
     id: 47365
     name: Standup Weapon Disruptor II Blueprint
+    price: 2.0E8
     published: true
     volume: 0.01
   Standup XL Energy Neutralizer I Blueprint:
@@ -380,10 +439,12 @@ items:
     id: 37043
     marketGroup: 2176
     name: Standup XL Energy Neutralizer I Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01
   Standup XL Energy Neutralizer II Blueprint:
     id: 47331
     name: Standup XL Energy Neutralizer II Blueprint
+    price: 5.0E8
     published: true
     volume: 0.01

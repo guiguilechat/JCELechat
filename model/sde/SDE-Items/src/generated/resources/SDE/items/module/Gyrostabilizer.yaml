@@ -40,6 +40,7 @@ items:
     id: 49730
     mass: 1.0
     name: Abyssal Gyrostabilizer
+    price: 1000.0
     published: true
     volume: 1.0
   Counterbalanced Compact Gyrostabilizer:

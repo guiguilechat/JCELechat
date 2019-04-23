@@ -21,6 +21,7 @@ items:
     id: 16527
     marketGroup: 639
     name: '''Arbalest'' Rocket Launcher I'
+    price: 3000.0
     published: true
     volume: 5.0
   '''Balefire'' Rocket Launcher':
@@ -46,6 +47,7 @@ items:
     id: 20593
     marketGroup: 639
     name: '''Balefire'' Rocket Launcher'
+    price: 3000.0
     published: true
     volume: 5.0
   '''Limos'' Rocket Launcher I':
@@ -70,6 +72,7 @@ items:
     id: 16523
     marketGroup: 639
     name: '''Limos'' Rocket Launcher I'
+    price: 3000.0
     published: true
     volume: 5.0
   '''Malkuth'' Rocket Launcher I':
@@ -94,6 +97,7 @@ items:
     id: 16521
     marketGroup: 639
     name: '''Malkuth'' Rocket Launcher I'
+    price: 3000.0
     published: true
     volume: 5.0
   Caldari Navy Rocket Launcher:
@@ -119,6 +123,7 @@ items:
     id: 16065
     marketGroup: 639
     name: Caldari Navy Rocket Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Domination Rocket Launcher:
@@ -144,6 +149,7 @@ items:
     id: 13931
     marketGroup: 639
     name: Domination Rocket Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Dread Guristas Rocket Launcher:
@@ -169,6 +175,7 @@ items:
     id: 13933
     marketGroup: 639
     name: Dread Guristas Rocket Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Khanid Navy Rocket Launcher:
@@ -194,6 +201,7 @@ items:
     id: 28511
     marketGroup: 639
     name: Khanid Navy Rocket Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   N-1 Neon Type Rocket Bay:
@@ -219,6 +227,7 @@ items:
     id: 21542
     marketGroup: 639
     name: N-1 Neon Type Rocket Bay
+    price: 3000.0
     published: true
     volume: 5.0
   OE-5200 Rocket Launcher:
@@ -243,6 +252,7 @@ items:
     id: 16525
     marketGroup: 639
     name: OE-5200 Rocket Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Polarized Rocket Launcher:
@@ -271,6 +281,7 @@ items:
     id: 34290
     marketGroup: 639
     name: Polarized Rocket Launcher
+    price: 36040.0
     published: true
     volume: 5.0
   Republic Fleet Rocket Launcher:
@@ -296,6 +307,7 @@ items:
     id: 17488
     marketGroup: 639
     name: Republic Fleet Rocket Launcher
+    price: 3000.0
     published: true
     volume: 5.0
   Rocket Launcher I:
@@ -319,6 +331,7 @@ items:
     id: 10629
     marketGroup: 639
     name: Rocket Launcher I
+    price: 3000.0
     published: true
     volume: 5.0
   Rocket Launcher II:
@@ -344,6 +357,7 @@ items:
     id: 10631
     marketGroup: 639
     name: Rocket Launcher II
+    price: 36040.0
     published: true
     volume: 5.0
   True Sansha Rocket Launcher:
@@ -369,5 +383,6 @@ items:
     id: 22564
     marketGroup: 639
     name: True Sansha Rocket Launcher
+    price: 3000.0
     published: true
     volume: 5.0

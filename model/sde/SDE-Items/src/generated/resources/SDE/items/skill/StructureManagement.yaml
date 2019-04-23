@@ -6,6 +6,7 @@ items:
     id: 11584
     marketGroup: 2152
     name: Anchoring
+    price: 75000.0
     published: true
     volume: 0.01
   Starbase Defense Management:
@@ -18,6 +19,7 @@ items:
     id: 3373
     marketGroup: 2152
     name: Starbase Defense Management
+    price: 1000000.0
     published: true
     volume: 0.01
   Structure Doomsday Operation:
@@ -32,6 +34,7 @@ items:
     id: 37797
     marketGroup: 2152
     name: Structure Doomsday Operation
+    price: 5000000.0
     published: true
     volume: 0.01
   Structure Electronic Systems:
@@ -46,6 +49,7 @@ items:
     id: 37798
     marketGroup: 2152
     name: Structure Electronic Systems
+    price: 5000000.0
     published: true
     volume: 0.01
   Structure Engineering Systems:
@@ -60,6 +64,7 @@ items:
     id: 37799
     marketGroup: 2152
     name: Structure Engineering Systems
+    price: 5000000.0
     published: true
     volume: 0.01
   Structure Missile Systems:
@@ -74,5 +79,6 @@ items:
     id: 37796
     marketGroup: 2152
     name: Structure Missile Systems
+    price: 5000000.0
     published: true
     volume: 0.01

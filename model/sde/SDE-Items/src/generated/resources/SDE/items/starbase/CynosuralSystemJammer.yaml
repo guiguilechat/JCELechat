@@ -36,5 +36,6 @@ items:
     marketGroup: 1012
     mass: 1.0E8
     name: Cynosural System Jammer
+    price: 8000000.0
     published: true
     volume: 4000.0

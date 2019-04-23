@@ -11,6 +11,7 @@ items:
     marketGroup: 740
     mass: 1.0
     name: Angel Brass Tag
+    price: 4500.0
     published: true
     volume: 0.1
   Angel Bronze Tag:
@@ -25,6 +26,7 @@ items:
     marketGroup: 740
     mass: 1.0
     name: Angel Copper Tag
+    price: 1000.0
     published: true
     volume: 0.1
   Angel Crystal Tag:
@@ -32,6 +34,7 @@ items:
     marketGroup: 740
     mass: 1.0
     name: Angel Crystal Tag
+    price: 8250.0
     published: true
     volume: 0.1
   Angel Diamond Tag:
@@ -60,6 +63,7 @@ items:
     marketGroup: 740
     mass: 1.0
     name: Angel Palladium Tag
+    price: 6000.0
     published: true
     volume: 0.1
   Angel Platinum Tag:
@@ -74,6 +78,7 @@ items:
     marketGroup: 740
     mass: 1.0
     name: Angel Silver Tag
+    price: 2250.0
     published: true
     volume: 0.1
   Blood Brass Tag:
@@ -88,6 +93,7 @@ items:
     marketGroup: 741
     mass: 1.0
     name: Blood Bronze Tag
+    price: 1000.0
     published: true
     volume: 0.1
   Blood Copper Tag:
@@ -102,6 +108,7 @@ items:
     marketGroup: 741
     mass: 1.0
     name: Blood Crystal Tag
+    price: 8250.0
     published: true
     volume: 0.1
   Blood Diamond Tag:
@@ -123,6 +130,7 @@ items:
     marketGroup: 741
     mass: 1.0
     name: Blood Gold Tag
+    price: 4500.0
     published: true
     volume: 0.1
   Blood Grunt Tag:
@@ -149,6 +157,7 @@ items:
     marketGroup: 741
     mass: 1.0
     name: Blood Platinum Tag
+    price: 6000.0
     published: true
     volume: 0.1
   Blood Silver Tag:
@@ -156,6 +165,7 @@ items:
     marketGroup: 741
     mass: 1.0
     name: Blood Silver Tag
+    price: 2250.0
     published: true
     volume: 0.1
   Blood Upper-Tier Tag:
@@ -163,6 +173,7 @@ items:
     marketGroup: 741
     mass: 1.0
     name: Blood Upper-Tier Tag
+    price: 4500.0
     published: true
     volume: 0.1
   Brokara Ryver's Tag:
@@ -449,6 +460,7 @@ items:
     marketGroup: 745
     mass: 1.0
     name: Guristas Bronze Tag
+    price: 1000.0
     published: true
     volume: 0.1
   Guristas Copper Tag:
@@ -463,6 +475,7 @@ items:
     marketGroup: 745
     mass: 1.0
     name: Guristas Crystal Tag
+    price: 8250.0
     published: true
     volume: 0.1
   Guristas Diamond Tag:
@@ -484,6 +497,7 @@ items:
     marketGroup: 745
     mass: 1.0
     name: Guristas Gold Tag
+    price: 4500.0
     published: true
     volume: 0.1
   Guristas Palladium Tag:
@@ -498,6 +512,7 @@ items:
     marketGroup: 745
     mass: 1.0
     name: Guristas Platinum Tag
+    price: 6000.0
     published: true
     volume: 0.1
   Guristas Silver Tag:
@@ -505,6 +520,7 @@ items:
     marketGroup: 745
     mass: 1.0
     name: Guristas Silver Tag
+    price: 2250.0
     published: true
     volume: 0.1
   Hakim Stormare's Tag:
@@ -612,6 +628,7 @@ items:
     marketGroup: 746
     mass: 1.0
     name: Sansha Bronze Tag
+    price: 1000.0
     published: true
     volume: 0.1
   Sansha Copper Tag:
@@ -626,6 +643,7 @@ items:
     marketGroup: 746
     mass: 1.0
     name: Sansha Crystal Tag
+    price: 8250.0
     published: true
     volume: 0.1
   Sansha Diamond Tag:
@@ -647,6 +665,7 @@ items:
     marketGroup: 746
     mass: 1.0
     name: Sansha Gold Tag
+    price: 4500.0
     published: true
     volume: 0.1
   Sansha Infiltrator Tag:
@@ -667,6 +686,7 @@ items:
     marketGroup: 746
     mass: 1.0
     name: Sansha Platinum Tag
+    price: 6000.0
     published: true
     volume: 0.1
   Sansha Silver Tag:
@@ -674,6 +694,7 @@ items:
     marketGroup: 746
     mass: 1.0
     name: Sansha Silver Tag
+    price: 2250.0
     published: true
     volume: 0.1
   Selynne Mardakar's Tag:
@@ -695,6 +716,7 @@ items:
     marketGroup: 747
     mass: 1.0
     name: Serpentis Bronze Tag
+    price: 1000.0
     published: true
     volume: 0.1
   Serpentis Copper Tag:
@@ -709,6 +731,7 @@ items:
     marketGroup: 747
     mass: 1.0
     name: Serpentis Crystal Tag
+    price: 8250.0
     published: true
     volume: 0.1
   Serpentis Diamond Tag:
@@ -730,6 +753,7 @@ items:
     marketGroup: 747
     mass: 1.0
     name: Serpentis Gold Tag
+    price: 4500.0
     published: true
     volume: 0.1
   Serpentis Palladium Tag:
@@ -744,6 +768,7 @@ items:
     marketGroup: 747
     mass: 1.0
     name: Serpentis Platinum Tag
+    price: 6000.0
     published: true
     volume: 0.1
   Serpentis Silver Tag:
@@ -751,6 +776,7 @@ items:
     marketGroup: 747
     mass: 1.0
     name: Serpentis Silver Tag
+    price: 8250.0
     published: true
     volume: 0.1
   Setele Schellan's Tag:

@@ -54,6 +54,7 @@ items:
     id: 6159
     marketGroup: 671
     name: Alumel-Wired Enduring Sensor Booster
+    price: 2460.0
     published: true
     volume: 5.0
   Brynn's Modified Sensor Booster:
@@ -83,6 +84,7 @@ items:
     id: 15276
     marketGroup: 671
     name: Brynn's Modified Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Cormack's Modified Sensor Booster:
@@ -112,6 +114,7 @@ items:
     id: 15282
     marketGroup: 671
     name: Cormack's Modified Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   F-90 Compact Sensor Booster:
@@ -140,6 +143,7 @@ items:
     id: 6160
     marketGroup: 671
     name: F-90 Compact Sensor Booster
+    price: 2460.0
     published: true
     volume: 5.0
   Federation Navy Sensor Booster:
@@ -169,6 +173,7 @@ items:
     id: 17520
     marketGroup: 671
     name: Federation Navy Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Sensor Booster I:
@@ -196,6 +201,7 @@ items:
     id: 1973
     marketGroup: 671
     name: Sensor Booster I
+    price: 9870.0
     published: true
     volume: 5.0
   Sensor Booster II:
@@ -224,6 +230,7 @@ items:
     id: 1952
     marketGroup: 671
     name: Sensor Booster II
+    price: 76244.0
     published: true
     volume: 5.0
   Sentient Sensor Booster:
@@ -253,6 +260,7 @@ items:
     id: 41191
     marketGroup: 671
     name: Sentient Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Setele's Modified Sensor Booster:
@@ -281,6 +289,7 @@ items:
     id: 15280
     marketGroup: 671
     name: Setele's Modified Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Shadow Serpentis Sensor Booster:
@@ -310,6 +319,7 @@ items:
     id: 14236
     marketGroup: 671
     name: Shadow Serpentis Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Tuvan's Modified Sensor Booster:
@@ -338,6 +348,7 @@ items:
     id: 15278
     marketGroup: 671
     name: Tuvan's Modified Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Unit D-34343's Modified Sensor Booster:
@@ -367,6 +378,7 @@ items:
     id: 41192
     marketGroup: 671
     name: Unit D-34343's Modified Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Unit F-435454's Modified Sensor Booster:
@@ -396,6 +408,7 @@ items:
     id: 41193
     marketGroup: 671
     name: Unit F-435454's Modified Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Unit P-343554's Modified Sensor Booster:
@@ -425,6 +438,7 @@ items:
     id: 41194
     marketGroup: 671
     name: Unit P-343554's Modified Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0
   Unit W-634's Modified Sensor Booster:
@@ -454,5 +468,6 @@ items:
     id: 41195
     marketGroup: 671
     name: Unit W-634's Modified Sensor Booster
+    price: 9870.0
     published: true
     volume: 5.0

@@ -29,6 +29,7 @@ items:
     marketGroup: 926
     mass: 1000.0
     name: Inferno Fury Heavy Missile
+    price: 600080.0
     published: true
     volume: 0.03
   Inferno Precision Heavy Missile:
@@ -61,6 +62,7 @@ items:
     marketGroup: 919
     mass: 1000.0
     name: Inferno Precision Heavy Missile
+    price: 600080.0
     published: true
     volume: 0.03
   Mjolnir Fury Heavy Missile:
@@ -93,6 +95,7 @@ items:
     marketGroup: 926
     mass: 1000.0
     name: Mjolnir Fury Heavy Missile
+    price: 600080.0
     published: true
     volume: 0.03
   Mjolnir Precision Heavy Missile:
@@ -125,6 +128,7 @@ items:
     marketGroup: 919
     mass: 1000.0
     name: Mjolnir Precision Heavy Missile
+    price: 600080.0
     published: true
     volume: 0.03
   Nova Fury Heavy Missile:
@@ -157,6 +161,7 @@ items:
     marketGroup: 926
     mass: 1000.0
     name: Nova Fury Heavy Missile
+    price: 600080.0
     published: true
     volume: 0.03
   Nova Precision Heavy Missile:
@@ -189,6 +194,7 @@ items:
     marketGroup: 919
     mass: 1000.0
     name: Nova Precision Heavy Missile
+    price: 600080.0
     published: true
     volume: 0.03
   Scourge Fury Heavy Missile:
@@ -221,6 +227,7 @@ items:
     marketGroup: 926
     mass: 1000.0
     name: Scourge Fury Heavy Missile
+    price: 600080.0
     published: true
     volume: 0.03
   Scourge Precision Heavy Missile:
@@ -253,5 +260,6 @@ items:
     marketGroup: 919
     mass: 1000.0
     name: Scourge Precision Heavy Missile
+    price: 600080.0
     published: true
     volume: 0.03

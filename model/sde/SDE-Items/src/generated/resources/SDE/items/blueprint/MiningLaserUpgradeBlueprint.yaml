@@ -4,6 +4,7 @@ items:
     id: 49973
     marketGroup: 937
     name: Frostline 'Omnivore' Harvester Upgrade Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Ice Harvester Upgrade I Blueprint:
@@ -12,6 +13,7 @@ items:
     id: 22577
     marketGroup: 937
     name: Ice Harvester Upgrade I Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Ice Harvester Upgrade II Blueprint:
@@ -19,6 +21,7 @@ items:
     TechLevel: 2
     id: 28579
     name: Ice Harvester Upgrade II Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Mining Laser Upgrade I Blueprint:
@@ -27,6 +30,7 @@ items:
     id: 22543
     marketGroup: 937
     name: Mining Laser Upgrade I Blueprint
+    price: 250000.0
     published: true
     volume: 0.01
   Mining Laser Upgrade II Blueprint:
@@ -34,5 +38,6 @@ items:
     TechLevel: 2
     id: 28577
     name: Mining Laser Upgrade II Blueprint
+    price: 250000.0
     published: true
     volume: 0.01

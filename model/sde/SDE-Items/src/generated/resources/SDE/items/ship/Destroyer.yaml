@@ -533,6 +533,7 @@ items:
     marketGroup: 2523
     mass: 1350000.0
     name: Kikimora
+    price: 3.35E7
     published: true
     volume: 43000.0
   Sunesis:
@@ -611,6 +612,7 @@ items:
     marketGroup: 2350
     mass: 1500000.0
     name: Sunesis
+    price: 100.0
     published: true
     volume: 55000.0
   Talwar:

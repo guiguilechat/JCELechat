@@ -12,6 +12,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Bountiful Loparite
+    price: 10000.0
     published: true
     volume: 10.0
   Bountiful Monazite:
@@ -27,6 +28,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Bountiful Monazite
+    price: 10000.0
     published: true
     volume: 10.0
   Bountiful Xenotime:
@@ -42,6 +44,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Bountiful Xenotime
+    price: 10000.0
     published: true
     volume: 10.0
   Bountiful Ytterbite:
@@ -57,6 +60,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Bountiful Ytterbite
+    price: 10000.0
     published: true
     volume: 10.0
   Loparite:
@@ -72,6 +76,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Loparite
+    price: 10000.0
     published: true
     volume: 10.0
   Monazite:
@@ -87,6 +92,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Monazite
+    price: 10000.0
     published: true
     volume: 10.0
   Shining Loparite:
@@ -102,6 +108,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Shining Loparite
+    price: 10000.0
     published: true
     volume: 10.0
   Shining Monazite:
@@ -117,6 +124,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Shining Monazite
+    price: 20000.0
     published: true
     volume: 10.0
   Shining Xenotime:
@@ -132,6 +140,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Shining Xenotime
+    price: 20000.0
     published: true
     volume: 10.0
   Shining Ytterbite:
@@ -147,6 +156,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Shining Ytterbite
+    price: 20000.0
     published: true
     volume: 10.0
   Xenotime:
@@ -162,6 +172,7 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Xenotime
+    price: 10000.0
     published: true
     volume: 10.0
   Ytterbite:
@@ -177,5 +188,6 @@ items:
     marketGroup: 2401
     mass: 4000.0
     name: Ytterbite
+    price: 10000.0
     published: true
     volume: 10.0

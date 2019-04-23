@@ -26,6 +26,7 @@ items:
     id: 27914
     marketGroup: 1014
     name: Bomb Launcher I
+    price: 80118.0
     published: true
     volume: 50.0
   Bomb Launcher II:
@@ -56,5 +57,6 @@ items:
     id: 4256
     marketGroup: 1014
     name: Bomb Launcher II
+    price: 80118.0
     published: true
     volume: 50.0

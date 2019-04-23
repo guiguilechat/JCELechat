@@ -25,12 +25,14 @@ items:
     TechLevel: 1
     id: 3537
     name: CONCORD Capital Remote Armor Repairer Blueprint
+    price: 2.4200788E7
     published: true
     volume: 0.01
   Capital Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41656
     name: Capital Ancillary Remote Armor Repairer Blueprint
+    price: 3.68E7
     published: true
     volume: 0.01
   Capital Coaxial Compact Remote Armor Repairer Blueprint:
@@ -38,6 +40,7 @@ items:
     id: 41622
     marketGroup: 1539
     name: Capital Coaxial Compact Remote Armor Repairer Blueprint
+    price: 4.9E7
     published: true
     volume: 0.01
   Capital I-ax Enduring Remote Armor Repairer Blueprint:
@@ -45,6 +48,7 @@ items:
     id: 41621
     marketGroup: 1539
     name: Capital I-ax Enduring Remote Armor Repairer Blueprint
+    price: 4.9E7
     published: true
     volume: 0.01
   Capital Remote Armor Repairer I Blueprint:
@@ -53,6 +57,7 @@ items:
     id: 24570
     marketGroup: 1539
     name: Capital Remote Armor Repairer I Blueprint
+    price: 2.4200788E7
     published: true
     volume: 0.01
   Capital Remote Armor Repairer II Blueprint:
@@ -66,6 +71,7 @@ items:
     id: 41624
     marketGroup: 1539
     name: Capital Solace Scoped Remote Armor Repairer Blueprint
+    price: 4.9E7
     published: true
     volume: 0.01
   Dark Blood Capital Remote Armor Repairer Blueprint:
@@ -78,6 +84,7 @@ items:
     TechLevel: 1
     id: 41655
     name: Large Ancillary Remote Armor Repairer Blueprint
+    price: 800000.0
     published: true
     volume: 0.01
   Large Remote Armor Repairer I Blueprint:
@@ -86,6 +93,7 @@ items:
     id: 11360
     marketGroup: 1539
     name: Large Remote Armor Repairer I Blueprint
+    price: 312440.0
     published: true
     volume: 0.01
   Large Remote Armor Repairer II Blueprint:
@@ -99,6 +107,7 @@ items:
     TechLevel: 1
     id: 41654
     name: Medium Ancillary Remote Armor Repairer Blueprint
+    price: 200000.0
     published: true
     volume: 0.01
   Medium Remote Armor Repairer I Blueprint:
@@ -107,6 +116,7 @@ items:
     id: 11358
     marketGroup: 1539
     name: Medium Remote Armor Repairer I Blueprint
+    price: 124700.0
     published: true
     volume: 0.01
   Medium Remote Armor Repairer II Blueprint:
@@ -126,6 +136,7 @@ items:
     TechLevel: 1
     id: 41653
     name: Small Ancillary Remote Armor Repairer Blueprint
+    price: 75000.0
     published: true
     volume: 0.01
   Small Remote Armor Repairer I Blueprint:
@@ -134,6 +145,7 @@ items:
     id: 11356
     marketGroup: 1539
     name: Small Remote Armor Repairer I Blueprint
+    price: 49960.0
     published: true
     volume: 0.01
   Small Remote Armor Repairer II Blueprint:

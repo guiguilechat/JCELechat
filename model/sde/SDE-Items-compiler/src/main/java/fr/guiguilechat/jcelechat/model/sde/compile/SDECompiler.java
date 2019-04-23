@@ -357,6 +357,7 @@ public class SDECompiler {
 			typeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
 			typeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
+			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "price");
 
 			JMethod attrMeth = typeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
 			JVar att = attrMeth.param(attributeClass, "attribute");

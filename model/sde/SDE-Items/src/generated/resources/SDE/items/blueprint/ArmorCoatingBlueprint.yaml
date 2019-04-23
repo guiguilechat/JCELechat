@@ -26,6 +26,7 @@ items:
     id: 1305
     marketGroup: 1544
     name: Adaptive Nano Plating I Blueprint
+    price: 74680.0
     published: true
     volume: 0.01
   Adaptive Nano Plating II Blueprint:
@@ -33,6 +34,7 @@ items:
     TechLevel: 2
     id: 1307
     name: Adaptive Nano Plating II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Ammatar Navy Adaptive Nano Plating Blueprint:
@@ -110,6 +112,7 @@ items:
     TechLevel: 1
     id: 11266
     name: Basic Energized Adaptive Nano Membrane Blueprint
+    price: 500000.0
     published: true
     volume: 0.01
   Basic Energized Armor Layering Membrane Blueprint:
@@ -117,6 +120,7 @@ items:
     TechLevel: 1
     id: 11236
     name: Basic Energized Armor Layering Membrane Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Basic Energized EM Membrane Blueprint:
@@ -124,6 +128,7 @@ items:
     TechLevel: 1
     id: 11216
     name: Basic Energized EM Membrane Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Basic Energized Explosive Membrane Blueprint:
@@ -131,6 +136,7 @@ items:
     TechLevel: 1
     id: 11226
     name: Basic Energized Explosive Membrane Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Basic Energized Kinetic Membrane Blueprint:
@@ -138,6 +144,7 @@ items:
     TechLevel: 1
     id: 11246
     name: Basic Energized Kinetic Membrane Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   Basic Energized Thermal Membrane Blueprint:
@@ -145,6 +152,7 @@ items:
     TechLevel: 1
     id: 11256
     name: Basic Energized Thermal Membrane Blueprint
+    price: 300000.0
     published: true
     volume: 0.01
   EM Plating I Blueprint:
@@ -153,6 +161,7 @@ items:
     id: 1204
     marketGroup: 1544
     name: EM Plating I Blueprint
+    price: 49740.0
     published: true
     volume: 0.01
   EM Plating II Blueprint:
@@ -160,6 +169,7 @@ items:
     TechLevel: 2
     id: 1205
     name: EM Plating II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Energized Adaptive Nano Membrane I Blueprint:
@@ -168,6 +178,7 @@ items:
     id: 11268
     marketGroup: 1543
     name: Energized Adaptive Nano Membrane I Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01
   Energized Adaptive Nano Membrane II Blueprint:
@@ -175,6 +186,7 @@ items:
     TechLevel: 2
     id: 11270
     name: Energized Adaptive Nano Membrane II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Energized Armor Layering Membrane I Blueprint:
@@ -183,6 +195,7 @@ items:
     id: 11238
     marketGroup: 1543
     name: Energized Armor Layering Membrane I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Energized Armor Layering Membrane II Blueprint:
@@ -190,6 +203,7 @@ items:
     TechLevel: 2
     id: 11240
     name: Energized Armor Layering Membrane II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Energized EM Membrane I Blueprint:
@@ -198,6 +212,7 @@ items:
     id: 11218
     marketGroup: 1543
     name: Energized EM Membrane I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Energized EM Membrane II Blueprint:
@@ -205,6 +220,7 @@ items:
     TechLevel: 2
     id: 11220
     name: Energized EM Membrane II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Energized Explosive Membrane I Blueprint:
@@ -213,6 +229,7 @@ items:
     id: 11228
     marketGroup: 1543
     name: Energized Explosive Membrane I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Energized Explosive Membrane II Blueprint:
@@ -220,6 +237,7 @@ items:
     TechLevel: 2
     id: 11230
     name: Energized Explosive Membrane II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Energized Kinetic Membrane I Blueprint:
@@ -228,6 +246,7 @@ items:
     id: 11248
     marketGroup: 1543
     name: Energized Kinetic Membrane I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Energized Kinetic Membrane II Blueprint:
@@ -235,6 +254,7 @@ items:
     TechLevel: 2
     id: 11250
     name: Energized Kinetic Membrane II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Energized Thermal Membrane I Blueprint:
@@ -243,6 +263,7 @@ items:
     id: 11258
     marketGroup: 1543
     name: Energized Thermal Membrane I Blueprint
+    price: 750000.0
     published: true
     volume: 0.01
   Energized Thermal Membrane II Blueprint:
@@ -250,6 +271,7 @@ items:
     TechLevel: 2
     id: 11260
     name: Energized Thermal Membrane II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Explosive Plating I Blueprint:
@@ -258,6 +280,7 @@ items:
     id: 1265
     marketGroup: 1544
     name: Explosive Plating I Blueprint
+    price: 49740.0
     published: true
     volume: 0.01
   Explosive Plating II Blueprint:
@@ -265,6 +288,7 @@ items:
     TechLevel: 2
     id: 1267
     name: Explosive Plating II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Federation Navy Adaptive Nano Plating Blueprint:
@@ -483,6 +507,7 @@ items:
     id: 1285
     marketGroup: 1544
     name: Kinetic Plating I Blueprint
+    price: 49740.0
     published: true
     volume: 0.01
   Kinetic Plating II Blueprint:
@@ -490,6 +515,7 @@ items:
     TechLevel: 2
     id: 1287
     name: Kinetic Plating II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Layered Plating I Blueprint:
@@ -498,6 +524,7 @@ items:
     id: 1275
     marketGroup: 1544
     name: Layered Plating I Blueprint
+    price: 49740.0
     published: true
     volume: 0.01
   Layered Plating II Blueprint:
@@ -505,6 +532,7 @@ items:
     TechLevel: 2
     id: 1277
     name: Layered Plating II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01
   Republic Fleet Adaptive Nano Plating Blueprint:
@@ -548,6 +576,7 @@ items:
     id: 1295
     marketGroup: 1544
     name: Thermal Plating I Blueprint
+    price: 49740.0
     published: true
     volume: 0.01
   Thermal Plating II Blueprint:
@@ -555,5 +584,6 @@ items:
     TechLevel: 2
     id: 1297
     name: Thermal Plating II Blueprint
+    price: 1.0E10
     published: true
     volume: 0.01

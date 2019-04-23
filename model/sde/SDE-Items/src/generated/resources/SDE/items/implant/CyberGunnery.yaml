@@ -8,6 +8,7 @@ items:
     id: 27090
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002:
@@ -19,6 +20,7 @@ items:
     id: 3196
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003:
@@ -30,6 +32,7 @@ items:
     id: 13219
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004:
@@ -41,6 +44,7 @@ items:
     id: 3197
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005:
@@ -63,6 +67,7 @@ items:
     id: 3198
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801:
@@ -74,6 +79,7 @@ items:
     id: 27087
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802:
@@ -96,6 +102,7 @@ items:
     id: 13222
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804:
@@ -140,6 +147,7 @@ items:
     id: 27075
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-701
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-702:
@@ -151,6 +159,7 @@ items:
     id: 3190
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-702
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-703:
@@ -162,6 +171,7 @@ items:
     id: 9957
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-703
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-704:
@@ -173,6 +183,7 @@ items:
     id: 3191
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-704
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-705:
@@ -195,6 +206,7 @@ items:
     id: 3192
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-706
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601:
@@ -206,6 +218,7 @@ items:
     id: 27084
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602:
@@ -217,6 +230,7 @@ items:
     id: 3199
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603:
@@ -228,6 +242,7 @@ items:
     id: 13225
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604:
@@ -239,6 +254,7 @@ items:
     id: 3200
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605:
@@ -261,6 +277,7 @@ items:
     id: 3201
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-901:
@@ -272,6 +289,7 @@ items:
     id: 27081
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-901
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-902:
@@ -283,6 +301,7 @@ items:
     id: 3193
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-902
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-903:
@@ -294,6 +313,7 @@ items:
     id: 13244
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-903
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-904:
@@ -305,6 +325,7 @@ items:
     id: 3194
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-904
+    price: 200000.0
     published: true
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-905:
@@ -327,6 +348,7 @@ items:
     id: 3195
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-906
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-701:
@@ -338,6 +360,7 @@ items:
     id: 27079
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-701
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-702:
@@ -349,6 +372,7 @@ items:
     id: 3203
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-702
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-703:
@@ -360,6 +384,7 @@ items:
     id: 13246
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-703
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-704:
@@ -371,6 +396,7 @@ items:
     id: 3208
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-704
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-705:
@@ -404,6 +430,7 @@ items:
     id: 27077
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-901
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-902:
@@ -415,6 +442,7 @@ items:
     id: 3204
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-902
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-903:
@@ -426,6 +454,7 @@ items:
     id: 13166
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-903
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-904:
@@ -437,6 +466,7 @@ items:
     id: 3209
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-904
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-905:
@@ -470,6 +500,7 @@ items:
     id: 27088
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1001
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1002:
@@ -481,6 +512,7 @@ items:
     id: 3205
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1002
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1003:
@@ -492,6 +524,7 @@ items:
     id: 13217
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1003
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1004:
@@ -503,6 +536,7 @@ items:
     id: 3210
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1004
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1005:
@@ -536,6 +570,7 @@ items:
     id: 27085
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-801
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-802:
@@ -547,6 +582,7 @@ items:
     id: 3206
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-802
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-803:
@@ -558,6 +594,7 @@ items:
     id: 13220
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-803
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-804:
@@ -569,6 +606,7 @@ items:
     id: 3211
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-804
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-805:
@@ -602,6 +640,7 @@ items:
     id: 27082
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-601
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-602:
@@ -613,6 +652,7 @@ items:
     id: 3202
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-602
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-603:
@@ -624,6 +664,7 @@ items:
     id: 13223
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-603
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-604:
@@ -635,6 +676,7 @@ items:
     id: 3207
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-604
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-605:
@@ -701,6 +743,7 @@ items:
     id: 27089
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1001
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1002:
@@ -712,6 +755,7 @@ items:
     id: 3222
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1002
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1003:
@@ -723,6 +767,7 @@ items:
     id: 13218
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1003
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1004:
@@ -734,6 +779,7 @@ items:
     id: 3223
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1004
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1005:
@@ -767,6 +813,7 @@ items:
     id: 27086
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-801
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-802:
@@ -778,6 +825,7 @@ items:
     id: 3231
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-802
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-803:
@@ -789,6 +837,7 @@ items:
     id: 13221
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-803
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-804:
@@ -800,6 +849,7 @@ items:
     id: 3232
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-804
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-805:
@@ -833,6 +883,7 @@ items:
     id: 27076
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-901
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-902:
@@ -844,6 +895,7 @@ items:
     id: 3217
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-902
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-903:
@@ -855,6 +907,7 @@ items:
     id: 10204
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-903
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-904:
@@ -866,6 +919,7 @@ items:
     id: 3234
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-904
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-905:
@@ -899,6 +953,7 @@ items:
     id: 27083
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-601
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-602:
@@ -910,6 +965,7 @@ items:
     id: 3225
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-602
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-603:
@@ -921,6 +977,7 @@ items:
     id: 13224
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-603
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-604:
@@ -932,6 +989,7 @@ items:
     id: 3226
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-604
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-605:
@@ -964,6 +1022,7 @@ items:
     id: 27078
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-701
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-702:
@@ -975,6 +1034,7 @@ items:
     id: 3236
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-702
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-703:
@@ -985,6 +1045,7 @@ items:
     id: 13245
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-703
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-704:
@@ -996,6 +1057,7 @@ items:
     id: 3220
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-704
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-705:
@@ -1028,6 +1090,7 @@ items:
     id: 27080
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1001
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1002:
@@ -1039,6 +1102,7 @@ items:
     id: 3228
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1002
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1003:
@@ -1050,6 +1114,7 @@ items:
     id: 13252
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1003
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1004:
@@ -1061,6 +1126,7 @@ items:
     id: 3229
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1004
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1005:

@@ -8,6 +8,7 @@ items:
     id: 3363
     marketGroup: 365
     name: Corporation Management
+    price: 20000.0
     published: true
     volume: 0.01
   Diplomatic Relations:
@@ -23,6 +24,7 @@ items:
     id: 3368
     marketGroup: 365
     name: Diplomatic Relations
+    price: 40000.0
     published: true
     volume: 0.01
   Empire Control:
@@ -37,6 +39,7 @@ items:
     id: 3732
     marketGroup: 365
     name: Empire Control
+    price: 8000000.0
     published: true
     volume: 0.01
   Megacorp Management:
@@ -51,6 +54,7 @@ items:
     id: 3731
     marketGroup: 365
     name: Megacorp Management
+    price: 400000.0
     published: true
     volume: 0.01
   Sovereignty:
@@ -65,5 +69,6 @@ items:
     id: 12241
     marketGroup: 365
     name: Sovereignty
+    price: 5.0E8
     published: true
     volume: 0.01

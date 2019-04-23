@@ -22,6 +22,7 @@ items:
     id: 27196
     marketGroup: 1773
     name: Poteque 'Prospector' Archaeology AC-905
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-702:
@@ -33,6 +34,7 @@ items:
     id: 27193
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-702
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-706:
@@ -44,6 +46,7 @@ items:
     id: 27187
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-706
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-710:
@@ -55,6 +58,7 @@ items:
     id: 27192
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-710
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-602:
@@ -66,6 +70,7 @@ items:
     id: 27191
     marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-602
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-606:
@@ -77,6 +82,7 @@ items:
     id: 27186
     marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-606
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-610:
@@ -88,6 +94,7 @@ items:
     id: 27190
     marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-610
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-802:
@@ -99,6 +106,7 @@ items:
     id: 27195
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-802
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-806:
@@ -110,6 +118,7 @@ items:
     id: 27188
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-806
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-810:
@@ -121,6 +130,7 @@ items:
     id: 27194
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-810
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Environmental Analysis EY-1005:
@@ -134,6 +144,7 @@ items:
     id: 27260
     marketGroup: 1774
     name: Poteque 'Prospector' Environmental Analysis EY-1005
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Hacking HC-905:
@@ -146,6 +157,7 @@ items:
     id: 27197
     marketGroup: 1773
     name: Poteque 'Prospector' Hacking HC-905
+    price: 200000.0
     published: true
     volume: 1.0
   Poteque 'Prospector' Salvaging SV-905:
@@ -157,5 +169,6 @@ items:
     id: 27198
     marketGroup: 1773
     name: Poteque 'Prospector' Salvaging SV-905
+    price: 200000.0
     published: true
     volume: 1.0

@@ -5,6 +5,7 @@ items:
     PowerLoad: 700
     id: 2474
     name: Barren Advanced Industry Facility
+    price: 250000.0
     published: true
   Barren Basic Industry Facility:
     CpuLoad: 200
@@ -12,6 +13,7 @@ items:
     PowerLoad: 800
     id: 2473
     name: Barren Basic Industry Facility
+    price: 75000.0
     published: true
   Barren High-Tech Production Plant:
     CpuLoad: 1100
@@ -19,6 +21,7 @@ items:
     PowerLoad: 400
     id: 2475
     name: Barren High-Tech Production Plant
+    price: 525000.0
     published: true
   Gas Advanced Industry Facility:
     CpuLoad: 500
@@ -26,6 +29,7 @@ items:
     PowerLoad: 700
     id: 2494
     name: Gas Advanced Industry Facility
+    price: 250000.0
     published: true
   Gas Basic Industry Facility:
     CpuLoad: 200
@@ -33,6 +37,7 @@ items:
     PowerLoad: 800
     id: 2492
     name: Gas Basic Industry Facility
+    price: 75000.0
     published: true
   Ice Advanced Industry Facility:
     CpuLoad: 500
@@ -40,6 +45,7 @@ items:
     PowerLoad: 700
     id: 2491
     name: Ice Advanced Industry Facility
+    price: 250000.0
     published: true
   Ice Basic Industry Facility:
     CpuLoad: 200
@@ -47,6 +53,7 @@ items:
     PowerLoad: 800
     id: 2493
     name: Ice Basic Industry Facility
+    price: 75000.0
     published: true
   Lava Advanced Industry Facility:
     CpuLoad: 500
@@ -54,6 +61,7 @@ items:
     PowerLoad: 700
     id: 2470
     name: Lava Advanced Industry Facility
+    price: 250000.0
     published: true
   Lava Basic Industry Facility:
     CpuLoad: 200
@@ -61,6 +69,7 @@ items:
     PowerLoad: 800
     id: 2469
     name: Lava Basic Industry Facility
+    price: 75000.0
     published: true
   Oceanic Advanced Industry Facility:
     CpuLoad: 500
@@ -68,6 +77,7 @@ items:
     PowerLoad: 700
     id: 2485
     name: Oceanic Advanced Industry Facility
+    price: 250000.0
     published: true
   Oceanic Basic Industry Facility:
     CpuLoad: 200
@@ -75,6 +85,7 @@ items:
     PowerLoad: 800
     id: 2490
     name: Oceanic Basic Industry Facility
+    price: 75000.0
     published: true
   Plasma Advanced Industry Facility:
     CpuLoad: 500
@@ -82,6 +93,7 @@ items:
     PowerLoad: 700
     id: 2472
     name: Plasma Advanced Industry Facility
+    price: 250000.0
     published: true
   Plasma Basic Industry Facility:
     CpuLoad: 200
@@ -89,6 +101,7 @@ items:
     PowerLoad: 800
     id: 2471
     name: Plasma Basic Industry Facility
+    price: 75000.0
     published: true
   Storm Advanced Industry Facility:
     CpuLoad: 500
@@ -96,6 +109,7 @@ items:
     PowerLoad: 700
     id: 2484
     name: Storm Advanced Industry Facility
+    price: 250000.0
     published: true
   Storm Basic Industry Facility:
     CpuLoad: 200
@@ -103,6 +117,7 @@ items:
     PowerLoad: 800
     id: 2483
     name: Storm Basic Industry Facility
+    price: 75000.0
     published: true
   Temperate Advanced Industry Facility:
     CpuLoad: 500
@@ -110,6 +125,7 @@ items:
     PowerLoad: 700
     id: 2480
     name: Temperate Advanced Industry Facility
+    price: 250000.0
     published: true
   Temperate Basic Industry Facility:
     CpuLoad: 200
@@ -117,6 +133,7 @@ items:
     PowerLoad: 800
     id: 2481
     name: Temperate Basic Industry Facility
+    price: 75000.0
     published: true
   Temperate High-Tech Production Plant:
     CpuLoad: 1100
@@ -124,4 +141,5 @@ items:
     PowerLoad: 400
     id: 2482
     name: Temperate High-Tech Production Plant
+    price: 525000.0
     published: true

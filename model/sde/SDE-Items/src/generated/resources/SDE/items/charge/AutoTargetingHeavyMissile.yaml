@@ -25,6 +25,7 @@ items:
     marketGroup: 1192
     mass: 1000.0
     name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
+    price: 2500.0
     published: true
     volume: 0.03
   Federation Navy Inferno Auto-Targeting Heavy Missile I:
@@ -53,6 +54,7 @@ items:
     marketGroup: 1192
     mass: 1000.0
     name: Federation Navy Inferno Auto-Targeting Heavy Missile I
+    price: 3000.0
     published: true
     volume: 0.03
   Imperial Navy Mjolnir Auto-Targeting Heavy Missile I:
@@ -81,6 +83,7 @@ items:
     marketGroup: 1192
     mass: 1000.0
     name: Imperial Navy Mjolnir Auto-Targeting Heavy Missile I
+    price: 3500.0
     published: true
     volume: 0.03
   Inferno Auto-Targeting Heavy Missile I:
@@ -108,6 +111,7 @@ items:
     marketGroup: 914
     mass: 1000.0
     name: Inferno Auto-Targeting Heavy Missile I
+    price: 3000.0
     published: true
     volume: 0.03
   Mjolnir Auto-Targeting Heavy Missile I:
@@ -135,6 +139,7 @@ items:
     marketGroup: 914
     mass: 1000.0
     name: Mjolnir Auto-Targeting Heavy Missile I
+    price: 3500.0
     published: true
     volume: 0.03
   Nova Auto-Targeting Heavy Missile I:
@@ -162,6 +167,7 @@ items:
     marketGroup: 914
     mass: 1000.0
     name: Nova Auto-Targeting Heavy Missile I
+    price: 2000.0
     published: true
     volume: 0.03
   Republic Fleet Nova Auto-Targeting Heavy Missile I:
@@ -190,6 +196,7 @@ items:
     marketGroup: 1192
     mass: 1000.0
     name: Republic Fleet Nova Auto-Targeting Heavy Missile I
+    price: 2000.0
     published: true
     volume: 0.03
   Scourge Auto-Targeting Heavy Missile I:
@@ -217,5 +224,6 @@ items:
     marketGroup: 914
     mass: 1000.0
     name: Scourge Auto-Targeting Heavy Missile I
+    price: 2500.0
     published: true
     volume: 0.03

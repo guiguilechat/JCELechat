@@ -5,6 +5,7 @@ items:
     id: 33401
     marketGroup: 343
     name: Bastion Module I Blueprint
+    price: 5.0E7
     published: true
     volume: 0.01
   Covert Jump Portal Generator I Blueprint:
@@ -13,6 +14,7 @@ items:
     id: 28653
     marketGroup: 799
     name: Covert Jump Portal Generator I Blueprint
+    price: 4.8145576E8
     published: true
     volume: 0.01
   Industrial Core I Blueprint:
@@ -21,12 +23,14 @@ items:
     id: 28584
     marketGroup: 343
     name: Industrial Core I Blueprint
+    price: 5.2234968E8
     published: true
     volume: 0.01
   Industrial Core II Blueprint:
     TechLevel: 1
     id: 42891
     name: Industrial Core II Blueprint
+    price: 5.2234968E8
     published: true
     volume: 0.01
   Jump Portal Generator I Blueprint:
@@ -35,6 +39,7 @@ items:
     id: 23954
     marketGroup: 799
     name: Jump Portal Generator I Blueprint
+    price: 4.8145576E8
     published: true
     volume: 0.01
   Siege Module I Blueprint:
@@ -43,6 +48,7 @@ items:
     id: 20281
     marketGroup: 343
     name: Siege Module I Blueprint
+    price: 5.2234968E8
     published: true
     volume: 0.01
   Siege Module II Blueprint:
@@ -50,6 +56,7 @@ items:
     TechLevel: 2
     id: 4293
     name: Siege Module II Blueprint
+    price: 5.2234968E8
     published: true
     volume: 0.01
   Triage Module I Blueprint:
@@ -58,6 +65,7 @@ items:
     id: 27952
     marketGroup: 343
     name: Triage Module I Blueprint
+    price: 5.2234968E8
     published: true
     volume: 0.01
   Triage Module II Blueprint:
@@ -65,5 +73,6 @@ items:
     TechLevel: 2
     id: 4295
     name: Triage Module II Blueprint
+    price: 5.2234968E8
     published: true
     volume: 0.01

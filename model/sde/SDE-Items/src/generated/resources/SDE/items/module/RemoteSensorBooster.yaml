@@ -62,6 +62,7 @@ items:
     id: 5281
     marketGroup: 673
     name: Coadjunct Scoped Remote Sensor Booster
+    price: 9664.0
     published: true
     volume: 5.0
   F-23 Compact Remote Sensor Booster:
@@ -94,6 +95,7 @@ items:
     id: 5279
     marketGroup: 673
     name: F-23 Compact Remote Sensor Booster
+    price: 9664.0
     published: true
     volume: 5.0
   Linked Enduring Remote Sensor Booster:
@@ -126,6 +128,7 @@ items:
     id: 5282
     marketGroup: 673
     name: Linked Enduring Remote Sensor Booster
+    price: 9664.0
     published: true
     volume: 5.0
   Remote Sensor Booster I:
@@ -157,6 +160,7 @@ items:
     id: 1963
     marketGroup: 673
     name: Remote Sensor Booster I
+    price: 39968.0
     published: true
     volume: 25.0
   Remote Sensor Booster II:
@@ -189,6 +193,7 @@ items:
     id: 1964
     marketGroup: 673
     name: Remote Sensor Booster II
+    price: 176196.0
     published: true
     volume: 5.0
   Sentient Remote Sensor Booster:
@@ -222,6 +227,7 @@ items:
     id: 41198
     marketGroup: 673
     name: Sentient Remote Sensor Booster
+    price: 39968.0
     published: true
     volume: 25.0
   Shadow Serpentis Remote Sensor Booster:
@@ -255,5 +261,6 @@ items:
     id: 41199
     marketGroup: 673
     name: Shadow Serpentis Remote Sensor Booster
+    price: 39968.0
     published: true
     volume: 25.0

@@ -6,6 +6,7 @@ items:
     marketGroup: 1282
     mass: 1000.0
     name: Advanced Logistics Network
+    price: 1.5E8
     published: true
     volume: 200000.0
   Cynosural Navigation:
@@ -15,6 +16,7 @@ items:
     marketGroup: 1282
     mass: 1000.0
     name: Cynosural Navigation
+    price: 1.0E8
     published: true
     volume: 200000.0
   Cynosural Suppression:
@@ -24,6 +26,7 @@ items:
     marketGroup: 1282
     mass: 1000.0
     name: Cynosural Suppression
+    price: 2.0E8
     published: true
     volume: 200000.0
   Supercapital Construction Facilities:
@@ -33,5 +36,6 @@ items:
     marketGroup: 1282
     mass: 1000.0
     name: Supercapital Construction Facilities
+    price: 5.0E7
     published: true
     volume: 200000.0

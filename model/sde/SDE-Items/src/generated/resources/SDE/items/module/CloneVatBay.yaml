@@ -22,5 +22,6 @@ items:
     id: 23735
     marketGroup: 1642
     name: Clone Vat Bay I
+    price: 5.983288E7
     published: true
     volume: 4000.0

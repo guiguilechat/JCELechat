@@ -8,6 +8,7 @@ items:
     id: 27182
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-701
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-703:
@@ -19,6 +20,7 @@ items:
     id: 27176
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-703
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-705:
@@ -30,6 +32,7 @@ items:
     id: 27181
     marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-705
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-601:
@@ -41,6 +44,7 @@ items:
     id: 27180
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-601
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-603:
@@ -52,6 +56,7 @@ items:
     id: 27177
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-603
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Research RR-605:
@@ -63,6 +68,7 @@ items:
     id: 27179
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-605
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-801:
@@ -74,6 +80,7 @@ items:
     id: 27185
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-801
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-803:
@@ -85,6 +92,7 @@ items:
     id: 27178
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-803
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Science SC-805:
@@ -96,5 +104,6 @@ items:
     id: 27184
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-805
+    price: 200000.0
     published: true
     volume: 1.0

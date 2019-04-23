@@ -162,6 +162,7 @@ items:
     marketGroup: 450
     mass: 1.272E7
     name: Cerberus
+    price: 1.795095E7
     published: true
     volume: 92000.0
   Deimos:
@@ -244,6 +245,7 @@ items:
     marketGroup: 451
     mass: 1.146E7
     name: Deimos
+    price: 1.7062588E7
     published: true
     volume: 112000.0
   Eagle:
@@ -328,6 +330,7 @@ items:
     marketGroup: 450
     mass: 1.172E7
     name: Eagle
+    price: 1.7062524E7
     published: true
     volume: 101000.0
   Ishtar:
@@ -412,6 +415,7 @@ items:
     marketGroup: 451
     mass: 1.06E7
     name: Ishtar
+    price: 1.7949992E7
     published: true
     volume: 115000.0
   Mimir:
@@ -582,6 +586,7 @@ items:
     marketGroup: 452
     mass: 1.1E7
     name: Muninn
+    price: 1.7062768E7
     published: true
     volume: 96000.0
   Sacrilege:
@@ -666,6 +671,7 @@ items:
     marketGroup: 449
     mass: 1.175E7
     name: Sacrilege
+    price: 1.70626E7
     published: true
     volume: 118000.0
   Vagabond:
@@ -750,6 +756,7 @@ items:
     marketGroup: 452
     mass: 1.159E7
     name: Vagabond
+    price: 1.7944848E7
     published: true
     volume: 80000.0
   Vangel:
@@ -835,6 +842,7 @@ items:
     marketGroup: 1621
     mass: 1.189E7
     name: Vangel
+    price: 1.70626E7
     published: true
     volume: 118000.0
   Zealot:
@@ -918,5 +926,6 @@ items:
     marketGroup: 449
     mass: 1.258E7
     name: Zealot
+    price: 1.7956216E7
     published: true
     volume: 118000.0

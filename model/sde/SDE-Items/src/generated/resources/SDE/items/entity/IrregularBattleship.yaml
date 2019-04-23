@@ -9,6 +9,7 @@ items:
     id: 49124
     mass: 1.052E8
     name: Armageddon Hulk
+    price: 6.625E7
     published: false
     volume: 486000.0
   Blood Raider Battleship:
@@ -129,6 +130,7 @@ items:
     id: 49122
     mass: 9.84E7
     name: Megathron Hulk
+    price: 1.05E8
     published: false
     volume: 486000.0
   Mordu's Centurion:
@@ -177,6 +179,7 @@ items:
     id: 49118
     mass: 9.93E7
     name: Raven Hulk
+    price: 1.0875E8
     published: false
     volume: 486000.0
   Swarm Overmind Primus x01:
@@ -225,5 +228,6 @@ items:
     id: 49120
     mass: 1.006E8
     name: Typhoon Hulk
+    price: 7.5E7
     published: false
     volume: 414000.0

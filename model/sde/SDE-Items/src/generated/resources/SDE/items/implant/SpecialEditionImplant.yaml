@@ -9,6 +9,7 @@ items:
     id: 33807
     marketGroup: 621
     name: Cybernetic 'Source' Subprocessor
+    price: 400000.0
     published: true
     volume: 1.0
   Genolution 'Auroral' AU-79:
@@ -20,6 +21,7 @@ items:
     id: 33329
     marketGroup: 1814
     name: Genolution 'Auroral' AU-79
+    price: 800000.0
     published: true
     volume: 1.0
   Genolution Core Augmentation CA-1:
@@ -34,6 +36,7 @@ items:
     id: 2082
     marketGroup: 618
     name: Genolution Core Augmentation CA-1
+    price: 800000.0
     published: true
     volume: 1.0
   Genolution Core Augmentation CA-2:
@@ -48,6 +51,7 @@ items:
     id: 2589
     marketGroup: 621
     name: Genolution Core Augmentation CA-2
+    price: 800000.0
     published: true
     volume: 1.0
   Genolution Core Augmentation CA-3:
@@ -62,6 +66,7 @@ items:
     id: 33393
     marketGroup: 620
     name: Genolution Core Augmentation CA-3
+    price: 800000.0
     published: true
     volume: 1.0
   Genolution Core Augmentation CA-4:
@@ -76,6 +81,7 @@ items:
     id: 33394
     marketGroup: 619
     name: Genolution Core Augmentation CA-4
+    price: 800000.0
     published: true
     volume: 1.0
   Neural 'Source' Boost:
@@ -88,5 +94,6 @@ items:
     id: 33808
     marketGroup: 620
     name: Neural 'Source' Boost
+    price: 400000.0
     published: true
     volume: 1.0

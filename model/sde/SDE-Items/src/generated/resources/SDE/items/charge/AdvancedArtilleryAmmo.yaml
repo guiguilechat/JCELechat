@@ -16,6 +16,7 @@ items:
     marketGroup: 854
     mass: 0.01
     name: Quake L
+    price: 1500000.0
     published: true
     volume: 0.025
   Quake M:
@@ -35,6 +36,7 @@ items:
     marketGroup: 855
     mass: 0.01
     name: Quake M
+    price: 600000.0
     published: true
     volume: 0.0125
   Quake S:
@@ -54,6 +56,7 @@ items:
     marketGroup: 856
     mass: 0.01
     name: Quake S
+    price: 150000.0
     published: true
     volume: 0.0025
   Quake XL:
@@ -73,6 +76,7 @@ items:
     marketGroup: 2252
     mass: 1.0
     name: Quake XL
+    price: 60000.0
     published: true
     volume: 0.125
   Tremor L:
@@ -92,6 +96,7 @@ items:
     marketGroup: 854
     mass: 0.01
     name: Tremor L
+    price: 1500000.0
     published: true
     volume: 0.025
   Tremor M:
@@ -111,6 +116,7 @@ items:
     marketGroup: 855
     mass: 0.01
     name: Tremor M
+    price: 600000.0
     published: true
     volume: 0.0125
   Tremor S:
@@ -130,6 +136,7 @@ items:
     marketGroup: 856
     mass: 0.01
     name: Tremor S
+    price: 150000.0
     published: true
     volume: 0.0025
   Tremor XL:
@@ -149,5 +156,6 @@ items:
     marketGroup: 2252
     mass: 1.0
     name: Tremor XL
+    price: 20000.0
     published: true
     volume: 0.125

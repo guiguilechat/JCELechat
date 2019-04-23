@@ -4,6 +4,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Ample Compounds
+    price: 250000.0
     published: true
     volume: 0.001
   Ample Conductors:
@@ -11,6 +12,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Ample Conductors
+    price: 250000.0
     published: true
     volume: 0.001
   Ample Electronics:
@@ -18,6 +20,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Ample Electronics
+    price: 250000.0
     published: true
     volume: 0.001
   Compact Compounds:
@@ -25,6 +28,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Compact Compounds
+    price: 250000.0
     published: true
     volume: 0.001
   Compact Conductors:
@@ -32,6 +36,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Compact Conductors
+    price: 250000.0
     published: true
     volume: 0.001
   Compact Electronics:
@@ -39,6 +44,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Compact Electronics
+    price: 250000.0
     published: true
     volume: 0.001
   Enduring Compounds:
@@ -46,6 +52,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Enduring Compounds
+    price: 250000.0
     published: true
     volume: 0.001
   Enduring Conductors:
@@ -53,6 +60,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Enduring Conductors
+    price: 250000.0
     published: true
     volume: 0.001
   Enduring Electronics:
@@ -60,6 +68,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Enduring Electronics
+    price: 250000.0
     published: true
     volume: 0.001
   Precise Compounds:
@@ -67,6 +76,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Precise Compounds
+    price: 250000.0
     published: true
     volume: 0.001
   Precise Conductors:
@@ -74,6 +84,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Precise Conductors
+    price: 250000.0
     published: true
     volume: 0.001
   Precise Electronics:
@@ -81,6 +92,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Precise Electronics
+    price: 250000.0
     published: true
     volume: 0.001
   Restrained Compounds:
@@ -88,6 +100,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Restrained Compounds
+    price: 250000.0
     published: true
     volume: 0.001
   Restrained Conductors:
@@ -95,6 +108,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Restrained Conductors
+    price: 250000.0
     published: true
     volume: 0.001
   Restrained Electronics:
@@ -102,6 +116,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Restrained Electronics
+    price: 250000.0
     published: true
     volume: 0.001
   Scoped Compounds:
@@ -109,6 +124,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Scoped Compounds
+    price: 250000.0
     published: true
     volume: 0.001
   Scoped Conductors:
@@ -116,6 +132,7 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Scoped Conductors
+    price: 250000.0
     published: true
     volume: 0.001
   Scoped Electronics:
@@ -123,5 +140,6 @@ items:
     marketGroup: 2155
     mass: 0.001
     name: Scoped Electronics
+    price: 250000.0
     published: true
     volume: 0.001

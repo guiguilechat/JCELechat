@@ -55,5 +55,6 @@ items:
     marketGroup: 1619
     mass: 5000.0
     name: Zephyr
+    price: 7500.0
     published: true
     volume: 5000.0

@@ -48,6 +48,7 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: Cruise Missile Battery
+    price: 500000.0
     published: true
     volume: 500.0
   Dread Guristas Cruise Missile Battery:
@@ -100,6 +101,7 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: Dread Guristas Cruise Missile Battery
+    price: 500000.0
     published: true
     volume: 500.0
   Dread Guristas Torpedo Battery:
@@ -152,6 +154,7 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: Dread Guristas Torpedo Battery
+    price: 2500000.0
     published: true
     volume: 1000.0
   Dread Guristas XL Torpedo Battery:
@@ -204,6 +207,7 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: Dread Guristas XL Torpedo Battery
+    price: 1.25E7
     published: true
     volume: 5000.0
   Guristas Cruise Missile Battery:
@@ -256,6 +260,7 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: Guristas Cruise Missile Battery
+    price: 500000.0
     published: true
     volume: 500.0
   Guristas Torpedo Battery:
@@ -308,6 +313,7 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: Guristas Torpedo Battery
+    price: 2500000.0
     published: true
     volume: 1000.0
   Guristas XL Torpedo Battery:
@@ -360,6 +366,7 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: Guristas XL Torpedo Battery
+    price: 1.25E7
     published: true
     volume: 5000.0
   Torpedo Battery:
@@ -411,6 +418,7 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: Torpedo Battery
+    price: 2500000.0
     published: true
     volume: 1000.0
   XL Torpedo Battery:
@@ -462,5 +470,6 @@ items:
     marketGroup: 479
     mass: 5.0E7
     name: XL Torpedo Battery
+    price: 1.25E7
     published: true
     volume: 5000.0

@@ -5,6 +5,7 @@ items:
     id: 35791
     marketGroup: 343
     name: Missile Guidance Computer I Blueprint
+    price: 99000.0
     published: true
     volume: 0.01
   Missile Guidance Computer II Blueprint:

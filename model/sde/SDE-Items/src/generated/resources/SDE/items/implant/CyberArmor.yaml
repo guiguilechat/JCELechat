@@ -9,6 +9,7 @@ items:
     id: 32254
     marketGroup: 1518
     name: Imperial Navy Modified 'Noble' Implant
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1001:
@@ -19,6 +20,7 @@ items:
     id: 27074
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1001
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1002:
@@ -30,6 +32,7 @@ items:
     id: 3479
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1002
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1003:
@@ -40,6 +43,7 @@ items:
     id: 13256
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1003
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1004:
@@ -51,6 +55,7 @@ items:
     id: 3481
     marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1004
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1005:
@@ -93,6 +98,7 @@ items:
     id: 27072
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-801
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-802:
@@ -104,6 +110,7 @@ items:
     id: 3471
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-802
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-803:
@@ -115,6 +122,7 @@ items:
     id: 13257
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-803
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-804:
@@ -126,6 +134,7 @@ items:
     id: 3474
     marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-804
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-805:
@@ -291,6 +300,7 @@ items:
     id: 27070
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-601
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-602:
@@ -302,6 +312,7 @@ items:
     id: 3291
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-602
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-603:
@@ -313,6 +324,7 @@ items:
     id: 13258
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-603
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-604:
@@ -324,6 +336,7 @@ items:
     id: 3292
     marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-604
+    price: 200000.0
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-605:

@@ -53,6 +53,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Angel Large Artillery Battery
+    price: 1.25E7
     published: true
     volume: 5000.0
   Angel Large AutoCannon Battery:
@@ -109,6 +110,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Angel Large AutoCannon Battery
+    price: 1.0E7
     published: true
     volume: 5000.0
   Angel Medium Artillery Battery:
@@ -165,6 +167,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Angel Medium Artillery Battery
+    price: 2500000.0
     published: true
     volume: 1000.0
   Angel Medium AutoCannon Battery:
@@ -221,6 +224,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Angel Medium AutoCannon Battery
+    price: 2000000.0
     published: true
     volume: 1000.0
   Angel Small Artillery Battery:
@@ -277,6 +281,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Angel Small Artillery Battery
+    price: 500000.0
     published: true
     volume: 500.0
   Angel Small AutoCannon Battery:
@@ -333,6 +338,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Angel Small AutoCannon Battery
+    price: 400000.0
     published: true
     volume: 500.0
   Domination Large Artillery Battery:
@@ -389,6 +395,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Domination Large Artillery Battery
+    price: 1.25E7
     published: true
     volume: 5000.0
   Domination Large AutoCannon Battery:
@@ -445,6 +452,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Domination Large AutoCannon Battery
+    price: 1.0E7
     published: true
     volume: 5000.0
   Domination Medium Artillery Battery:
@@ -501,6 +509,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Domination Medium Artillery Battery
+    price: 2500000.0
     published: true
     volume: 1000.0
   Domination Medium AutoCannon Battery:
@@ -557,6 +566,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Domination Medium AutoCannon Battery
+    price: 2000000.0
     published: true
     volume: 1000.0
   Domination Small Artillery Battery:
@@ -613,6 +623,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Domination Small Artillery Battery
+    price: 500000.0
     published: true
     volume: 500.0
   Domination Small AutoCannon Battery:
@@ -669,6 +680,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Domination Small AutoCannon Battery
+    price: 400000.0
     published: true
     volume: 500.0
   Large Artillery Battery:
@@ -724,6 +736,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Large Artillery Battery
+    price: 1.25E7
     published: true
     volume: 5000.0
   Large AutoCannon Battery:
@@ -779,6 +792,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Large AutoCannon Battery
+    price: 1.0E7
     published: true
     volume: 5000.0
   Medium Artillery Battery:
@@ -834,6 +848,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Medium Artillery Battery
+    price: 2500000.0
     published: true
     volume: 1000.0
   Medium AutoCannon Battery:
@@ -889,6 +904,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Medium AutoCannon Battery
+    price: 2000000.0
     published: true
     volume: 1000.0
   Small Artillery Battery:
@@ -944,6 +960,7 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Small Artillery Battery
+    price: 500000.0
     published: true
     volume: 500.0
   Small AutoCannon Battery:
@@ -999,5 +1016,6 @@ items:
     marketGroup: 594
     mass: 5.0E7
     name: Small AutoCannon Battery
+    price: 400000.0
     published: true
     volume: 500.0

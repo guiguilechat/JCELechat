@@ -151,6 +151,7 @@ items:
     id: 27175
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-801
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Reprocessing RX-802:
@@ -162,6 +163,7 @@ items:
     id: 27169
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-802
+    price: 200000.0
     published: true
     volume: 1.0
   Zainou 'Beancounter' Reprocessing RX-804:
@@ -173,5 +175,6 @@ items:
     id: 27174
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-804
+    price: 200000.0
     published: true
     volume: 1.0

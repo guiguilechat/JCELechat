@@ -4,6 +4,7 @@ items:
     id: 16663
     marketGroup: 500
     name: Caesarium Cadmide
+    price: 80.0
     published: true
     volume: 0.2
   Carbon Polymers:
@@ -11,6 +12,7 @@ items:
     id: 16659
     marketGroup: 500
     name: Carbon Polymers
+    price: 8.0
     published: true
     volume: 0.2
   Ceramic Powder:
@@ -18,6 +20,7 @@ items:
     id: 16660
     marketGroup: 500
     name: Ceramic Powder
+    price: 8.0
     published: true
     volume: 0.2
   Crystallite Alloy:
@@ -25,6 +28,7 @@ items:
     id: 16655
     marketGroup: 500
     name: Crystallite Alloy
+    price: 40.0
     published: true
     volume: 0.2
   Dysporite:
@@ -32,6 +36,7 @@ items:
     id: 16668
     marketGroup: 500
     name: Dysporite
+    price: 320.0
     published: true
     volume: 0.2
   Fernite Alloy:
@@ -39,6 +44,7 @@ items:
     id: 16656
     marketGroup: 500
     name: Fernite Alloy
+    price: 40.0
     published: true
     volume: 0.2
   Ferrofluid:
@@ -46,6 +52,7 @@ items:
     id: 16669
     marketGroup: 500
     name: Ferrofluid
+    price: 512.0
     published: true
     volume: 0.2
   Fluxed Condensates:
@@ -53,6 +60,7 @@ items:
     id: 17769
     marketGroup: 500
     name: Fluxed Condensates
+    price: 512.0
     published: true
     volume: 0.2
   Hexite:
@@ -60,6 +68,7 @@ items:
     id: 16665
     marketGroup: 500
     name: Hexite
+    price: 120.0
     published: true
     volume: 0.2
   Hyperflurite:
@@ -67,6 +76,7 @@ items:
     id: 16666
     marketGroup: 500
     name: Hyperflurite
+    price: 320.0
     published: true
     volume: 0.2
   Neo Mercurite:
@@ -74,6 +84,7 @@ items:
     id: 16667
     marketGroup: 500
     name: Neo Mercurite
+    price: 320.0
     published: true
     volume: 0.2
   Platinum Technite:
@@ -81,6 +92,7 @@ items:
     id: 16662
     marketGroup: 500
     name: Platinum Technite
+    price: 80.0
     published: true
     volume: 0.2
   Promethium Mercurite:
@@ -88,6 +100,7 @@ items:
     id: 33337
     marketGroup: 500
     name: Promethium Mercurite
+    price: 320.0
     published: true
     volume: 0.2
   Prometium:
@@ -95,6 +108,7 @@ items:
     id: 17960
     marketGroup: 500
     name: Prometium
+    price: 320.0
     published: true
     volume: 0.2
   Rolled Tungsten Alloy:
@@ -102,6 +116,7 @@ items:
     id: 16657
     marketGroup: 500
     name: Rolled Tungsten Alloy
+    price: 40.0
     published: true
     volume: 0.2
   Silicon Diborite:
@@ -109,6 +124,7 @@ items:
     id: 16658
     marketGroup: 500
     name: Silicon Diborite
+    price: 8.0
     published: true
     volume: 0.2
   Solerium:
@@ -116,6 +132,7 @@ items:
     id: 16664
     marketGroup: 500
     name: Solerium
+    price: 120.0
     published: true
     volume: 0.2
   Sulfuric Acid:
@@ -123,6 +140,7 @@ items:
     id: 16661
     marketGroup: 500
     name: Sulfuric Acid
+    price: 8.0
     published: true
     volume: 0.2
   Thulium Hafnite:
@@ -130,6 +148,7 @@ items:
     id: 33336
     marketGroup: 500
     name: Thulium Hafnite
+    price: 320.0
     published: true
     volume: 0.2
   Titanium Chromide:
@@ -137,6 +156,7 @@ items:
     id: 16654
     marketGroup: 500
     name: Titanium Chromide
+    price: 40.0
     published: true
     volume: 0.2
   Unrefined Caesarium Cadmide:
@@ -144,6 +164,7 @@ items:
     id: 32824
     marketGroup: 500
     name: Unrefined Caesarium Cadmide
+    price: 80.0
     published: true
     volume: 1.0
   Unrefined Crystallite Alloy:
@@ -151,6 +172,7 @@ items:
     id: 32829
     marketGroup: 500
     name: Unrefined Crystallite Alloy
+    price: 40.0
     published: true
     volume: 1.0
   Unrefined Dysporite:
@@ -158,6 +180,7 @@ items:
     id: 29660
     marketGroup: 500
     name: Unrefined Dysporite
+    price: 320.0
     published: true
     volume: 1.0
   Unrefined Fernite Alloy:
@@ -165,6 +188,7 @@ items:
     id: 32828
     marketGroup: 500
     name: Unrefined Fernite Alloy
+    price: 40.0
     published: true
     volume: 1.0
   Unrefined Ferrofluid:
@@ -172,6 +196,7 @@ items:
     id: 29663
     marketGroup: 500
     name: Unrefined Ferrofluid
+    price: 512.0
     published: true
     volume: 1.0
   Unrefined Fluxed Condensates:
@@ -179,6 +204,7 @@ items:
     id: 29659
     marketGroup: 500
     name: Unrefined Fluxed Condensates
+    price: 512.0
     published: true
     volume: 1.0
   Unrefined Hexite:
@@ -186,6 +212,7 @@ items:
     id: 32825
     marketGroup: 500
     name: Unrefined Hexite
+    price: 120.0
     published: true
     volume: 1.0
   Unrefined Hyperflurite:
@@ -193,6 +220,7 @@ items:
     id: 29664
     marketGroup: 500
     name: Unrefined Hyperflurite
+    price: 320.0
     published: true
     volume: 1.0
   Unrefined Neo Mercurite:
@@ -200,6 +228,7 @@ items:
     id: 29661
     marketGroup: 500
     name: Unrefined Neo Mercurite
+    price: 320.0
     published: true
     volume: 1.0
   Unrefined Platinum Technite:
@@ -207,6 +236,7 @@ items:
     id: 32822
     marketGroup: 500
     name: Unrefined Platinum Technite
+    price: 80.0
     published: true
     volume: 1.0
   Unrefined Promethium Mercurite:
@@ -214,6 +244,7 @@ items:
     id: 33338
     marketGroup: 500
     name: Unrefined Promethium Mercurite
+    price: 320.0
     published: true
     volume: 1.0
   Unrefined Prometium:
@@ -221,6 +252,7 @@ items:
     id: 29662
     marketGroup: 500
     name: Unrefined Prometium
+    price: 320.0
     published: true
     volume: 1.0
   Unrefined Rolled Tungsten Alloy:
@@ -228,6 +260,7 @@ items:
     id: 32826
     marketGroup: 500
     name: Unrefined Rolled Tungsten Alloy
+    price: 40.0
     published: true
     volume: 1.0
   Unrefined Solerium:
@@ -235,6 +268,7 @@ items:
     id: 32823
     marketGroup: 500
     name: Unrefined Solerium
+    price: 120.0
     published: true
     volume: 1.0
   Unrefined Thulium Hafnite:
@@ -242,6 +276,7 @@ items:
     id: 33339
     marketGroup: 500
     name: Unrefined Thulium Hafnite
+    price: 320.0
     published: true
     volume: 1.0
   Unrefined Titanium Chromide:
@@ -249,6 +284,7 @@ items:
     id: 32827
     marketGroup: 500
     name: Unrefined Titanium Chromide
+    price: 40.0
     published: true
     volume: 1.0
   Unrefined Vanadium Hafnite:
@@ -256,6 +292,7 @@ items:
     id: 32821
     marketGroup: 500
     name: Unrefined Vanadium Hafnite
+    price: 320.0
     published: true
     volume: 1.0
   Vanadium Hafnite:
@@ -263,5 +300,6 @@ items:
     id: 17959
     marketGroup: 500
     name: Vanadium Hafnite
+    price: 80.0
     published: true
     volume: 0.2

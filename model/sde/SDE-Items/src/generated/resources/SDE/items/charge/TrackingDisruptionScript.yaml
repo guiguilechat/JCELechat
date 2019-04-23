@@ -11,6 +11,7 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Optimal Range Disruption Script
+    price: 4000.0
     published: true
     volume: 1.0
   Tracking Speed Disruption Script:
@@ -25,5 +26,6 @@ items:
     marketGroup: 1094
     mass: 1.0
     name: Tracking Speed Disruption Script
+    price: 4000.0
     published: true
     volume: 1.0

@@ -5,6 +5,7 @@ items:
     id: 23528
     marketGroup: 939
     name: Drone Link Augmentor I Blueprint
+    price: 2130000.0
     published: true
     volume: 0.01
   Drone Link Augmentor II Blueprint:
@@ -20,6 +21,7 @@ items:
     id: 24396
     marketGroup: 939
     name: Drone Navigation Computer I Blueprint
+    price: 1400000.0
     published: true
     volume: 0.01
   Drone Navigation Computer II Blueprint:
@@ -35,6 +37,7 @@ items:
     id: 24284
     marketGroup: 939
     name: Fighter Support Unit I Blueprint
+    price: 5.5E7
     published: true
     volume: 0.01
   Fighter Support Unit II Blueprint:
@@ -48,6 +51,7 @@ items:
     id: 41413
     marketGroup: 939
     name: Hermes Compact Fighter Support Unit Blueprint
+    price: 5.5E7
     published: true
     volume: 0.01
   Omnidirectional Tracking Enhancer I Blueprint:
@@ -56,6 +60,7 @@ items:
     id: 33823
     marketGroup: 939
     name: Omnidirectional Tracking Enhancer I Blueprint
+    price: 144000.0
     published: true
     volume: 0.01
   Omnidirectional Tracking Enhancer II Blueprint:
@@ -63,6 +68,7 @@ items:
     TechLevel: 2
     id: 33825
     name: Omnidirectional Tracking Enhancer II Blueprint
+    price: 144000.0
     published: true
     volume: 0.01
   Omnidirectional Tracking Link I Blueprint:
@@ -71,6 +77,7 @@ items:
     id: 23534
     marketGroup: 939
     name: Omnidirectional Tracking Link I Blueprint
+    price: 99000.0
     published: true
     volume: 0.01
   Omnidirectional Tracking Link II Blueprint:
@@ -85,5 +92,6 @@ items:
     TechLevel: 1
     id: 41418
     name: Sentient Fighter Support Unit Blueprint
+    price: 5.5E7
     published: true
     volume: 0.01

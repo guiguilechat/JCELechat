@@ -12,6 +12,7 @@ items:
     id: 33176
     marketGroup: 1709
     name: Scan Acquisition Array I
+    price: 9870.0
     published: true
     volume: 5.0
   Scan Acquisition Array II:
@@ -28,5 +29,6 @@ items:
     id: 33197
     marketGroup: 1709
     name: Scan Acquisition Array II
+    price: 9870.0
     published: true
     volume: 5.0

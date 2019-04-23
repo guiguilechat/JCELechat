@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     id: 30329
     name: Civilian Stasis Webifier Blueprint
+    price: 224880.0
     published: true
     volume: 0.01
   Federation Navy Stasis Webifier Blueprint:
@@ -25,12 +26,14 @@ items:
     id: 41221
     marketGroup: 2153
     name: Heavy Stasis Grappler I Blueprint
+    price: 1.5E7
     published: true
     volume: 0.01
   Heavy Stasis Grappler II Blueprint:
     TechLevel: 1
     id: 41222
     name: Heavy Stasis Grappler II Blueprint
+    price: 224880.0
     published: true
     volume: 0.01
   Khanid Navy Stasis Webifier Blueprint:
@@ -46,6 +49,7 @@ items:
     id: 1102
     marketGroup: 1570
     name: Stasis Webifier I Blueprint
+    price: 224880.0
     published: true
     volume: 0.01
   Stasis Webifier II Blueprint:
@@ -53,5 +57,6 @@ items:
     TechLevel: 2
     id: 1103
     name: Stasis Webifier II Blueprint
+    price: 9999999.0
     published: true
     volume: 0.01
