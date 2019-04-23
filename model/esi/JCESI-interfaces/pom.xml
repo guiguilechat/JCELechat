@@ -24,9 +24,9 @@
   		<artifactId>javafx-graphics</artifactId>
   	</dependency>
   	<dependency>
-  		<groupId>fr.lelouet</groupId>
+  		<groupId>fr.lelouet.tools</groupId>
   		<artifactId>CollectionsHolders</artifactId>
-  		<version>0.0.3</version>
+  		<version>0.3.13-SNAPSHOT</version>
   	</dependency>
   </dependencies>
 </project>

@@ -4939,8 +4939,6 @@ usages:
       Pyerite: 111
       Megacyte: 2
   Abaddon:
-    materialManuf: !!set
-      地狱天使级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Abaddon Blueprint: null
@@ -5173,6 +5171,10 @@ usages:
       Nocxium: 2261
       Zydrine: 1134
       Megacyte: 288
+  Advanced 'Ardour' Cerebral Accelerator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
   Advanced 'Limos' Heavy Missile Bay I:
     maxreprocess: 0.55
     reprocess:
@@ -6279,6 +6281,10 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Ametat I Blueprint: null
+  Amethystic Crystallite:
+    maxreprocess: 0.8934
+    reprocess:
+      Chromodynamic Tricarboxyls: 2
   Ammatar Navy Adaptive Nano Plating:
     maxreprocess: 0.55
     productManuf: !!set
@@ -7520,7 +7526,6 @@ usages:
   Apocalypse:
     materialManuf: !!set
       Paladin Blueprint: null
-      灾难级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Apocalypse Blueprint: null
@@ -7974,7 +7979,6 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末日沙场��YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Armageddon Blueprint: null
@@ -9087,6 +9091,10 @@ usages:
       Tritanium: 27
       Pyerite: 21
       Crystalline Isogen-10: 2
+  Basic 'Ardour' Cerebral Accelerator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Basic 'Ardour' Cerebral Accelerator Blueprint: null
   Basic Adaptive Nano Plating:
     maxreprocess: 0.55
     reprocess:
@@ -18393,7 +18401,15 @@ usages:
   Chromodynamic Tricarboxyls:
     materialManuf: !!set
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
+      Frostline 'Clavicula' Integrated Analyzer Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
+      Basic 'Ardour' Cerebral Accelerator Blueprint: null
+      Standard 'Ardour' Cerebral Accelerator Blueprint: null
+      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
+      Extended 'Ardour' Cerebral Accelerator Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
     maxreprocess: 0.55
   Cinnabar:
     maxreprocess: 0.8934
@@ -20827,7 +20843,6 @@ usages:
       Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Ship Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Laboratory Optimization II Blueprint: null
-      Standup XL-Set Laboratory Optimization I Blueprint: null
       Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint: null
       Standup M-Set Missile Precision II Blueprint: null
       Standup M-Set Missile Projection II Blueprint: null
@@ -21520,7 +21535,6 @@ usages:
       Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Ship Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Laboratory Optimization II Blueprint: null
-      Standup XL-Set Laboratory Optimization I Blueprint: null
       Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint: null
       Standup M-Set Missile Precision II Blueprint: null
       Standup M-Set Missile Projection II Blueprint: null
@@ -24001,6 +24015,13 @@ usages:
       Incognito Data Interface Blueprint: null
       Incognito Ship Data Interface Blueprint: null
       Incognito Tuner Data Interface Blueprint: null
+      Basic 'Ardour' Cerebral Accelerator Blueprint: null
+      Standard 'Ardour' Cerebral Accelerator Blueprint: null
+      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
+      Extended 'Ardour' Cerebral Accelerator Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
     maxreprocess: 0.55
   Current Pump:
     materialManuf: !!set
@@ -25716,6 +25737,7 @@ usages:
       Mangled Sansha Data Analyzer Blueprint: null
       Data Analyzer II Blueprint: null
       Ligature Integrated Analyzer Blueprint: null
+      Frostline 'Clavicula' Integrated Analyzer Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Data Analyzer I Blueprint: null
@@ -25756,6 +25778,10 @@ usages:
       Cryptic Data Interface Blueprint: null
       Cryptic Ship Data Interface Blueprint: null
       Cryptic Tuner Data Interface Blueprint: null
+      Basic 'Ardour' Cerebral Accelerator Blueprint: null
+      Standard 'Ardour' Cerebral Accelerator Blueprint: null
+      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
+      Extended 'Ardour' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Data Sheets:
     materialCopy: !!set
@@ -26492,7 +26518,6 @@ usages:
       Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Ship Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Laboratory Optimization II Blueprint: null
-      Standup XL-Set Laboratory Optimization I Blueprint: null
       Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint: null
       Standup M-Set Missile Precision II Blueprint: null
       Standup M-Set Missile Projection II Blueprint: null
@@ -30103,7 +30128,6 @@ usages:
   Dominix:
     materialManuf: !!set
       Sin Blueprint: null
-      多米尼克斯级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Dominix Blueprint: null
@@ -30400,7 +30424,6 @@ usages:
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
-      幼龙级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Drake Blueprint: null
@@ -32769,8 +32792,6 @@ usages:
       Mexallon: 18
       Isogen: 2
   Eagle:
-    materialManuf: !!set
-      银鹰级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Eagle Blueprint: null
@@ -33513,6 +33534,10 @@ usages:
       Esoteric Data Interface Blueprint: null
       Esoteric Ship Data Interface Blueprint: null
       Esoteric Tuner Data Interface Blueprint: null
+      Basic 'Ardour' Cerebral Accelerator Blueprint: null
+      Standard 'Ardour' Cerebral Accelerator Blueprint: null
+      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
+      Extended 'Ardour' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Electronic Parts:
     materialManuf: !!set
@@ -35069,6 +35094,10 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Explosive Plating I Blueprint: null
+  Extended 'Ardour' Cerebral Accelerator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Extended 'Ardour' Cerebral Accelerator Blueprint: null
   Extra Gravimetric ECCM Scanning Array I:
     maxreprocess: 0.55
     reprocess:
@@ -36877,6 +36906,8 @@ usages:
       Megacyte: 1
   Frostline 'Clavicula' Integrated Analyzer:
     maxreprocess: 0.55
+    productManuf: !!set
+      Frostline 'Clavicula' Integrated Analyzer Blueprint: null
     reprocess:
       Tritanium: 912
       Pyerite: 198
@@ -38144,8 +38175,6 @@ usages:
       Tritanium: 35556
       Zydrine: 72
   Gila:
-    materialManuf: !!set
-      毒蜥级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Gila Blueprint: null
@@ -42442,11 +42471,13 @@ usages:
     materialManuf: !!set
       Ligature Integrated Analyzer Blueprint: null
       Zeugma Integrated Analyzer Blueprint: null
+      Frostline 'Clavicula' Integrated Analyzer Blueprint: null
     maxreprocess: 0.55
   High-Tech Manufacturing Tools:
     materialManuf: !!set
       Ligature Integrated Analyzer Blueprint: null
       Zeugma Integrated Analyzer Blueprint: null
+      Frostline 'Clavicula' Integrated Analyzer Blueprint: null
     maxreprocess: 0.55
     reprocess:
       Mexallon: 25
@@ -42456,6 +42487,7 @@ usages:
     materialManuf: !!set
       Ligature Integrated Analyzer Blueprint: null
       Zeugma Integrated Analyzer Blueprint: null
+      Frostline 'Clavicula' Integrated Analyzer Blueprint: null
     maxreprocess: 0.55
   High-Tech Transmitters:
     materialManuf: !!set
@@ -45811,6 +45843,39 @@ usages:
     maxreprocess: 0.55
     reprocess:
       Tritanium: 1
+  Inquest 'Eros' Stasis Webifier MR-803:
+    materialManuf: !!set
+      Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
+    maxreprocess: 0.55
+  Inquest 'Eros' Stasis Webifier MR-805:
+    materialManuf: !!set
+      Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
+    maxreprocess: 0.55
+  Inquest 'Eros' Stasis Webifier MR-807:
+    materialManuf: !!set
+      Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
+    maxreprocess: 0.55
+  Inquest 'Hedone' Entanglement Optimizer WS-802:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
+    reprocess:
+      Transcranial Microcontrollers: 3
+      Current Amplifier: 312
+  Inquest 'Hedone' Entanglement Optimizer WS-803:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
+    reprocess:
+      Transcranial Microcontrollers: 3
+      Current Amplifier: 312
+  Inquest 'Hedone' Entanglement Optimizer WS-804:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
+    reprocess:
+      Transcranial Microcontrollers: 3
+      Current Amplifier: 312
   Inquisitor:
     materialManuf: !!set
       Purifier Blueprint: null
@@ -46573,8 +46638,6 @@ usages:
     productInvention: !!set
       Incursus Blueprint: null
   Ishtar:
-    materialManuf: !!set
-      伊什塔级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Ishtar Blueprint: null
@@ -54040,8 +54103,6 @@ usages:
       Zydrine: 14
       Megacyte: 4
   Machariel:
-    materialManuf: !!set
-      马克瑞级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Machariel Blueprint: null
@@ -59017,7 +59078,6 @@ usages:
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
-      ���王宝座级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Megathron Blueprint: null
@@ -70151,6 +70211,10 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
+      Basic 'Ardour' Cerebral Accelerator Blueprint: null
+      Standard 'Ardour' Cerebral Accelerator Blueprint: null
+      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
+      Extended 'Ardour' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Poteque 'Prospector' Archaeology AC-905:
     maxreprocess: 0.55
@@ -76315,7 +76379,6 @@ usages:
       Scan Acquisition Array II Blueprint: null
       Scan Pinpointing Array II Blueprint: null
       Scan Rangefinding Array II Blueprint: null
-      Standup XL-Set Laboratory Optimization I Blueprint: null
       Kirin Blueprint: null
       Occult M Blueprint: null
       Mystic L Blueprint: null
@@ -76336,7 +76399,6 @@ usages:
       Scan Acquisition Array II Blueprint: null
       Scan Pinpointing Array II Blueprint: null
       Scan Rangefinding Array II Blueprint: null
-      Standup XL-Set Laboratory Optimization I Blueprint: null
       Kirin Blueprint: null
     materialTE: !!set
       Auto Targeting System II Blueprint: null
@@ -76355,7 +76417,6 @@ usages:
       Scan Acquisition Array II Blueprint: null
       Scan Pinpointing Array II Blueprint: null
       Scan Rangefinding Array II Blueprint: null
-      Standup XL-Set Laboratory Optimization I Blueprint: null
       Kirin Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -77512,8 +77573,6 @@ usages:
       Zydrine: 1
       Megacyte: 1
   Rattlesnake:
-    materialManuf: !!set
-      响尾蛇级YC117��特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Rattlesnake Blueprint: null
@@ -77532,7 +77591,6 @@ usages:
   Raven:
     materialManuf: !!set
       Golem Blueprint: null
-      乌鸦级YC117年特别版蓝图: null
     maxreprocess: 0.55
     productManuf: !!set
       Raven Blueprint: null
@@ -78159,6 +78217,7 @@ usages:
     materialManuf: !!set
       Relic Analyzer II Blueprint: null
       Ligature Integrated Analyzer Blueprint: null
+      Frostline 'Clavicula' Integrated Analyzer Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Relic Analyzer I Blueprint: null
@@ -78956,7 +79015,6 @@ usages:
       Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Ship Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Laboratory Optimization II Blueprint: null
-      Standup XL-Set Laboratory Optimization I Blueprint: null
       Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint: null
       Standup M-Set Missile Precision II Blueprint: null
       Standup M-Set Missile Projection II Blueprint: null
@@ -79654,7 +79712,6 @@ usages:
       Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Ship Manufacturing Efficiency II Blueprint: null
       Standup XL-Set Laboratory Optimization II Blueprint: null
-      Standup XL-Set Laboratory Optimization I Blueprint: null
       Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint: null
       Standup M-Set Missile Precision II Blueprint: null
       Standup M-Set Missile Projection II Blueprint: null
@@ -86477,7 +86534,6 @@ usages:
       Tritanium: 858
       Pyerite: 288
       Megacyte: 4
-      Robotics: 3
   Small Abyssal Cap Battery:
     maxreprocess: 0.55
     reprocess:
@@ -89661,6 +89717,10 @@ usages:
       Pyerite: 79
       Mexallon: 103
       Nocxium: 1
+  Standard 'Ardour' Cerebral Accelerator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Standard 'Ardour' Cerebral Accelerator Blueprint: null
   Standard Blue Pill Booster:
     maxreprocess: 0.55
     productManuf: !!set
@@ -96313,6 +96373,8 @@ usages:
       Tritanium: 1
   Sunesis:
     maxreprocess: 0.55
+    productManuf: !!set
+      Sunesis Blueprint: null
     reprocess:
       Tritanium: 1
   Supercapital Construction Facilities:
@@ -97183,6 +97245,10 @@ usages:
       Armor Command Burst I Blueprint: null
       Information Command Burst I Blueprint: null
       Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint: null
+      Basic 'Ardour' Cerebral Accelerator Blueprint: null
+      Standard 'Ardour' Cerebral Accelerator Blueprint: null
+      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
+      Extended 'Ardour' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   System Scanner I:
     maxreprocess: 0.55
@@ -99775,6 +99841,13 @@ usages:
       Mid-grade Ascendancy Epsilon Blueprint: null
       Mid-grade Ascendancy Gamma Blueprint: null
       Entosis Link II Blueprint: null
+      Basic 'Ardour' Cerebral Accelerator Blueprint: null
+      Standard 'Ardour' Cerebral Accelerator Blueprint: null
+      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
+      Extended 'Ardour' Cerebral Accelerator Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
+      Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
     maxreprocess: 0.55
   Transmitter:
     materialManuf: !!set
@@ -101389,6 +101462,7 @@ usages:
       Standup Research Lab I Blueprint: null
       Standup Supercapital Shipyard I Blueprint: null
       Defender Launcher I Blueprint: null
+      Sunesis Blueprint: null
       Focused Warp Scrambling Script Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
@@ -108605,73 +108679,49 @@ usages:
       Antimatter Reactor Unit: 6
   万王宝座级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      ���王宝座级YC117年特别版蓝图: null
     reprocess:
       Megathron: 1
-  乌鸦级YC117��特别版:
+  乌鸦级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      乌鸦级YC117年特别版蓝图: null
     reprocess:
       Raven: 1
-  伊什塔级YC117年特别版:
+  伊什塔级YC117年特���版:
     maxreprocess: 0.55
-    productManuf: !!set
-      伊什塔级YC117年特别版蓝图: null
     reprocess:
       Ishtar: 1
   响尾蛇级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      响尾蛇级YC117��特别版蓝图: null
     reprocess:
       Rattlesnake: 1
   地狱天使级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      地狱天使级YC117年特别版蓝图: null
     reprocess:
       Abaddon: 1
   多米尼克斯级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      多米尼克斯级YC117年特别版蓝图: null
     reprocess:
       Dominix: 1
   幼龙级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      幼龙级YC117年特别版蓝图: null
     reprocess:
       Drake: 1
-  末日沙场级YC117年特��版:
+  末日沙场级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      末日沙场��YC117年特别版蓝图: null
     reprocess:
       Armageddon: 1
   毒蜥级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      毒蜥级YC117年特别版蓝图: null
     reprocess:
       Gila: 1
   灾难级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      灾难级YC117年特别版蓝图: null
     reprocess:
       Apocalypse: 1
   银鹰级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      银鹰级YC117年特别版蓝图: null
     reprocess:
       Eagle: 1
   马克瑞级YC117年特别版:
     maxreprocess: 0.55
-    productManuf: !!set
-      马克瑞级YC117年特别版蓝图: null
     reprocess:
       Machariel: 1

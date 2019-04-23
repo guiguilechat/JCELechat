@@ -16,7 +16,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_co
 import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
-import fr.lelouet.syncbarker.LockWatchDog;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 

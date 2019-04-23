@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.syncbarker.LockWatchDog;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Status {

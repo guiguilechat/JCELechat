@@ -30,7 +30,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.FetchTranslator.RETURNTYPE
 import fr.lelouet.collectionholders.interfaces.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.syncbarker.LockWatchDog;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 import io.swagger.models.Operation;
 import io.swagger.models.parameters.Parameter;
 import javafx.beans.property.SimpleObjectProperty;
