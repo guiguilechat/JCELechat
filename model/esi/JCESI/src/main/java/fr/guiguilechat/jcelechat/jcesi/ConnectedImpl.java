@@ -398,7 +398,12 @@ public abstract class ConnectedImpl implements ITransfer {
 		public void schedule(long delay_ms) throws RejectedExecutionException {
 			synchronized (exec) {
 				if (!scheduled && !stop && !paused) {
-					exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
+					try {
+						exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
+					} catch (Exception e) {
+						logger.warn("can't schedule self", e);
+						throw new UnsupportedOperationException(e);
+					}
 					scheduled = true;
 					logState();
 				}

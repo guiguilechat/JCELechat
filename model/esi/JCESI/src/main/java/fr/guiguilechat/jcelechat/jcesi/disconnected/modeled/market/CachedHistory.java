@@ -40,9 +40,9 @@ public class CachedHistory {
 		caches = cache;
 		regionalID = regionID;
 		this.typeID = typeID;
-		caches.markets.history(regionID, typeID)
-		.follow((ListChangeListener<R_get_markets_region_id_history>) this::handleHistory);
-		caches.markets.history(regionID, typeID).addReceivedListener(this::handleReceived);
+		ObsListHolder<R_get_markets_region_id_history> history = caches.markets.history(regionID, typeID);
+		history.follow((ListChangeListener<R_get_markets_region_id_history>) this::handleHistory);
+		history.addReceivedListener(this::handleReceived);
 	}
 
 	private final ObservableList<R_get_markets_region_id_history> cache = FXCollections.observableArrayList();
