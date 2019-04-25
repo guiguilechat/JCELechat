@@ -27,28 +27,34 @@ public class Insurance {
                 synchronized (this)
                 {
                     LockWatchDog.BARKER.hld(this);
-                    if (get_insurance_prices_holder == null) {
-                        ObservableList<R_get_insurance_prices> holder = FXCollections.observableArrayList();
-                        get_insurance_prices_holder = (cache).toHolder(holder);
-                        ObsListHolder<R_get_insurance_prices> finalRet = get_insurance_prices_holder;
-                        (cache).addFetchCacheArray("get_insurance_prices", (page, properties) -> (cache.swagger).get_insurance_prices(properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        if (get_insurance_prices_holder == null) {
+                            ObservableList<R_get_insurance_prices> holder = FXCollections.observableArrayList();
+                            get_insurance_prices_holder = (cache).toHolder(holder);
+                            ObsListHolder<R_get_insurance_prices> finalRet = get_insurance_prices_holder;
+                            (cache).addFetchCacheArray("get_insurance_prices", (page, properties) -> (cache.swagger).get_insurance_prices(properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(this);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(this);

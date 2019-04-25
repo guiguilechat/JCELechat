@@ -35,28 +35,34 @@ public class Alliances {
                 synchronized (this)
                 {
                     LockWatchDog.BARKER.hld(this);
-                    if (get_alliances_holder == null) {
-                        ObservableList<Integer> holder = FXCollections.observableArrayList();
-                        get_alliances_holder = (cache).toHolder(holder);
-                        ObsListHolder<Integer> finalRet = get_alliances_holder;
-                        (cache).addFetchCacheArray("get_alliances", (page, properties) -> (cache.swagger).get_alliances(properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        if (get_alliances_holder == null) {
+                            ObservableList<Integer> holder = FXCollections.observableArrayList();
+                            get_alliances_holder = (cache).toHolder(holder);
+                            ObsListHolder<Integer> finalRet = get_alliances_holder;
+                            (cache).addFetchCacheArray("get_alliances", (page, properties) -> (cache.swagger).get_alliances(properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(this);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(this);
@@ -81,30 +87,36 @@ public class Alliances {
                 synchronized (get_alliances_alliance_id_corporations_holder)
                 {
                     LockWatchDog.BARKER.hld(get_alliances_alliance_id_corporations_holder);
-                    ret = get_alliances_alliance_id_corporations_holder.get(alliance_id);
-                    if (ret == null) {
-                        ObservableList<Integer> holder = FXCollections.observableArrayList();
-                        ret = (cache).toHolder(holder);
-                        get_alliances_alliance_id_corporations_holder.put(alliance_id, ret);
-                        ObsListHolder<Integer> finalRet = ret;
-                        (cache).addFetchCacheArray("get_alliances_alliance_id_corporations", (page, properties) -> (cache.swagger).get_alliances_corporations(alliance_id, properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        ret = get_alliances_alliance_id_corporations_holder.get(alliance_id);
+                        if (ret == null) {
+                            ObservableList<Integer> holder = FXCollections.observableArrayList();
+                            ret = (cache).toHolder(holder);
+                            get_alliances_alliance_id_corporations_holder.put(alliance_id, ret);
+                            ObsListHolder<Integer> finalRet = ret;
+                            (cache).addFetchCacheArray("get_alliances_alliance_id_corporations", (page, properties) -> (cache.swagger).get_alliances_corporations(alliance_id, properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_alliances_alliance_id_corporations_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_alliances_alliance_id_corporations_holder);
@@ -129,25 +141,31 @@ public class Alliances {
                 synchronized (get_alliances_alliance_id_icons_holder)
                 {
                     LockWatchDog.BARKER.hld(get_alliances_alliance_id_icons_holder);
-                    ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
-                    if (ret == null) {
-                        SimpleObjectProperty<R_get_alliances_alliance_id_icons> holder = new SimpleObjectProperty<>();
-                        ret = (cache).toHolder(holder);
-                        get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
-                        (cache).addFetchCacheObject("get_alliances_alliance_id_icons", properties -> (cache.swagger).get_alliances_icons(alliance_id, properties), item -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.set(item);
+                    {
+                        ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
+                        if (ret == null) {
+                            SimpleObjectProperty<R_get_alliances_alliance_id_icons> holder = new SimpleObjectProperty<>();
+                            ret = (cache).toHolder(holder);
+                            get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
+                            (cache).addFetchCacheObject("get_alliances_alliance_id_icons", properties -> (cache.swagger).get_alliances_icons(alliance_id, properties), item -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.set(item);
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
                             }
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_alliances_alliance_id_icons_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_alliances_alliance_id_icons_holder);
@@ -172,25 +190,31 @@ public class Alliances {
                 synchronized (get_alliances_alliance_id_holder)
                 {
                     LockWatchDog.BARKER.hld(get_alliances_alliance_id_holder);
-                    ret = get_alliances_alliance_id_holder.get(alliance_id);
-                    if (ret == null) {
-                        SimpleObjectProperty<R_get_alliances_alliance_id> holder = new SimpleObjectProperty<>();
-                        ret = (cache).toHolder(holder);
-                        get_alliances_alliance_id_holder.put(alliance_id, ret);
-                        (cache).addFetchCacheObject("get_alliances_alliance_id", properties -> (cache.swagger).get_alliances(alliance_id, properties), item -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.set(item);
+                    {
+                        ret = get_alliances_alliance_id_holder.get(alliance_id);
+                        if (ret == null) {
+                            SimpleObjectProperty<R_get_alliances_alliance_id> holder = new SimpleObjectProperty<>();
+                            ret = (cache).toHolder(holder);
+                            get_alliances_alliance_id_holder.put(alliance_id, ret);
+                            (cache).addFetchCacheObject("get_alliances_alliance_id", properties -> (cache.swagger).get_alliances(alliance_id, properties), item -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.set(item);
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
                             }
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_alliances_alliance_id_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_alliances_alliance_id_holder);

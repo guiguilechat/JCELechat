@@ -38,30 +38,36 @@ public class Corporation {
                 synchronized (get_corporation_corporation_id_mining_extractions_holder)
                 {
                     LockWatchDog.BARKER.hld(get_corporation_corporation_id_mining_extractions_holder);
-                    ret = get_corporation_corporation_id_mining_extractions_holder.get(corporation_id);
-                    if (ret == null) {
-                        ObservableList<R_get_corporation_corporation_id_mining_extractions> holder = FXCollections.observableArrayList();
-                        ret = (cache).toHolder(holder);
-                        get_corporation_corporation_id_mining_extractions_holder.put(corporation_id, ret);
-                        ObsListHolder<R_get_corporation_corporation_id_mining_extractions> finalRet = ret;
-                        (cache).addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, properties) -> (cache.swagger).get_corporation_mining_extractions(corporation_id, page, properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        ret = get_corporation_corporation_id_mining_extractions_holder.get(corporation_id);
+                        if (ret == null) {
+                            ObservableList<R_get_corporation_corporation_id_mining_extractions> holder = FXCollections.observableArrayList();
+                            ret = (cache).toHolder(holder);
+                            get_corporation_corporation_id_mining_extractions_holder.put(corporation_id, ret);
+                            ObsListHolder<R_get_corporation_corporation_id_mining_extractions> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, properties) -> (cache.swagger).get_corporation_mining_extractions(corporation_id, page, properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            , new String[] {"Station_Manager"});
                         }
-                        , new String[] {"Station_Manager"});
                     }
+                    LockWatchDog.BARKER.rel(get_corporation_corporation_id_mining_extractions_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporation_corporation_id_mining_extractions_holder);
@@ -86,30 +92,36 @@ public class Corporation {
                 synchronized (get_corporation_corporation_id_mining_observers_holder)
                 {
                     LockWatchDog.BARKER.hld(get_corporation_corporation_id_mining_observers_holder);
-                    ret = get_corporation_corporation_id_mining_observers_holder.get(corporation_id);
-                    if (ret == null) {
-                        ObservableList<R_get_corporation_corporation_id_mining_observers> holder = FXCollections.observableArrayList();
-                        ret = (cache).toHolder(holder);
-                        get_corporation_corporation_id_mining_observers_holder.put(corporation_id, ret);
-                        ObsListHolder<R_get_corporation_corporation_id_mining_observers> finalRet = ret;
-                        (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, properties) -> (cache.swagger).get_corporation_mining_observers(corporation_id, page, properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        ret = get_corporation_corporation_id_mining_observers_holder.get(corporation_id);
+                        if (ret == null) {
+                            ObservableList<R_get_corporation_corporation_id_mining_observers> holder = FXCollections.observableArrayList();
+                            ret = (cache).toHolder(holder);
+                            get_corporation_corporation_id_mining_observers_holder.put(corporation_id, ret);
+                            ObsListHolder<R_get_corporation_corporation_id_mining_observers> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, properties) -> (cache.swagger).get_corporation_mining_observers(corporation_id, page, properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            , new String[] {"Accountant"});
                         }
-                        , new String[] {"Accountant"});
                     }
+                    LockWatchDog.BARKER.rel(get_corporation_corporation_id_mining_observers_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporation_corporation_id_mining_observers_holder);
@@ -137,30 +149,36 @@ public class Corporation {
                 synchronized (get_corporation_corporation_id_mining_observers_observer_id_holder)
                 {
                     LockWatchDog.BARKER.hld(get_corporation_corporation_id_mining_observers_observer_id_holder);
-                    ret = get_corporation_corporation_id_mining_observers_observer_id_holder.get(param);
-                    if (ret == null) {
-                        ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> holder = FXCollections.observableArrayList();
-                        ret = (cache).toHolder(holder);
-                        get_corporation_corporation_id_mining_observers_observer_id_holder.put(param, ret);
-                        ObsListHolder<R_get_corporation_corporation_id_mining_observers_observer_id> finalRet = ret;
-                        (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, properties) -> (cache.swagger).get_corporation_mining_observers(corporation_id, observer_id, page, properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        ret = get_corporation_corporation_id_mining_observers_observer_id_holder.get(param);
+                        if (ret == null) {
+                            ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> holder = FXCollections.observableArrayList();
+                            ret = (cache).toHolder(holder);
+                            get_corporation_corporation_id_mining_observers_observer_id_holder.put(param, ret);
+                            ObsListHolder<R_get_corporation_corporation_id_mining_observers_observer_id> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, properties) -> (cache.swagger).get_corporation_mining_observers(corporation_id, observer_id, page, properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            , new String[] {"Accountant"});
                         }
-                        , new String[] {"Accountant"});
                     }
+                    LockWatchDog.BARKER.rel(get_corporation_corporation_id_mining_observers_observer_id_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporation_corporation_id_mining_observers_observer_id_holder);

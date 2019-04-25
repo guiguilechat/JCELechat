@@ -308,7 +308,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	// TODO why set to 200 ? it seems lower value make deadlock
 	// we set daemon otherwise the thread will prevent jvm from dying.
-	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(500, r -> {
+	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(1000, r -> {
 		Thread t = Executors.defaultThreadFactory().newThread(r);
 		t.setDaemon(true);
 		return t;

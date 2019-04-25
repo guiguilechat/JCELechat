@@ -53,11 +53,13 @@ public class RegionalMarket {
 						if (lastOrders != null) {
 							ret.handleNewOrders(lastOrders);
 						}
+						LockWatchDog.BARKER.rel(lastOrders);
 					}
 					LockWatchDog.BARKER.rel(lastOrders);
 					// ret.addFetcher();
 					cachedOrders.put(typeID, ret);
 				}
+				LockWatchDog.BARKER.rel(cachedOrders);
 			}
 			LockWatchDog.BARKER.rel(cachedOrders);
 		}
@@ -87,36 +89,27 @@ public class RegionalMarket {
 
 		// put all the orders in specific buy/sell maps
 		HashMap<Integer, List<R_get_markets_region_id_orders>> newItemLists = new HashMap<>();
-		LockWatchDog.BARKER.tak(cachedOrders);
-		synchronized (cachedOrders) {
-			LockWatchDog.BARKER.hld(cachedOrders);
+		LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
 			for (Integer e : cachedOrders.keySet()) {
 				newItemLists.put(e, new ArrayList<>());
 			}
-		}
-		LockWatchDog.BARKER.rel(cachedOrders);
+		});
 		change.getAddedSubList().forEach(order -> {
 			List<R_get_markets_region_id_orders> l = newItemLists.get(order.type_id);
 			if (l != null) {
 				l.add(order);
 			}
 		});
-		LockWatchDog.BARKER.tak(lastOrders);
-		synchronized (lastOrders) {
-			LockWatchDog.BARKER.hld(lastOrders);
+		LockWatchDog.BARKER.syncExecute(lastOrders, () -> {
 			lastOrders.clear();
 			lastOrders.addAll(change.getAddedSubList());
-		}
-		LockWatchDog.BARKER.rel(lastOrders);
+		});
 		// here we synchronize to be the only one updating the values
-		LockWatchDog.BARKER.tak(cachedOrders);
-		synchronized (cachedOrders) {
-			LockWatchDog.BARKER.hld(cachedOrders);
+		LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
 			for (Entry<Integer, CachedOrdersList> e : cachedOrders.entrySet()) {
 				e.getValue().handleNewOrders(newItemLists.getOrDefault(e.getKey(), Collections.emptyList()));
 			}
-		}
-		LockWatchDog.BARKER.rel(cachedOrders);
+		});
 		lastOrdersAccess.countDown();
 	}
 
@@ -140,16 +133,14 @@ public class RegionalMarket {
 	public CachedHistory getHistory(int typeID) {
 		CachedHistory ret = historiesByTypeID.get(typeID);
 		if (ret == null) {
-			LockWatchDog.BARKER.tak(historiesByTypeID);
-			synchronized (historiesByTypeID) {
-				LockWatchDog.BARKER.hld(historiesByTypeID);
-				ret = historiesByTypeID.get(typeID);
-				if (ret == null) {
-					ret = new CachedHistory(cache, regionID, typeID);
-					historiesByTypeID.put(typeID, ret);
+			ret = LockWatchDog.BARKER.syncExecute(historiesByTypeID, () -> {
+				CachedHistory ret2 = historiesByTypeID.get(typeID);
+				if (ret2 == null) {
+					ret2 = new CachedHistory(cache, regionID, typeID);
+					historiesByTypeID.put(typeID, ret2);
 				}
-			}
-			LockWatchDog.BARKER.rel(historiesByTypeID);
+				return ret2;
+			});
 		}
 		return ret;
 	}

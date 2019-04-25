@@ -36,25 +36,31 @@ public class Killmails {
                 synchronized (get_killmails_killmail_id_killmail_hash_holder)
                 {
                     LockWatchDog.BARKER.hld(get_killmails_killmail_id_killmail_hash_holder);
-                    ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
-                    if (ret == null) {
-                        SimpleObjectProperty<R_get_killmails_killmail_id_killmail_hash> holder = new SimpleObjectProperty<>();
-                        ret = (cache).toHolder(holder);
-                        get_killmails_killmail_id_killmail_hash_holder.put(param, ret);
-                        (cache).addFetchCacheObject("get_killmails_killmail_id_killmail_hash", properties -> (cache.swagger).get_killmails(killmail_hash, killmail_id, properties), item -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.set(item);
+                    {
+                        ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
+                        if (ret == null) {
+                            SimpleObjectProperty<R_get_killmails_killmail_id_killmail_hash> holder = new SimpleObjectProperty<>();
+                            ret = (cache).toHolder(holder);
+                            get_killmails_killmail_id_killmail_hash_holder.put(param, ret);
+                            (cache).addFetchCacheObject("get_killmails_killmail_id_killmail_hash", properties -> (cache.swagger).get_killmails(killmail_hash, killmail_id, properties), item -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.set(item);
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
                             }
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_killmails_killmail_id_killmail_hash_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_killmails_killmail_id_killmail_hash_holder);

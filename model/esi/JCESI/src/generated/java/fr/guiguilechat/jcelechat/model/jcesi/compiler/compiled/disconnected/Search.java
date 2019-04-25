@@ -38,25 +38,31 @@ public class Search {
                 synchronized (get_search_holder)
                 {
                     LockWatchDog.BARKER.hld(get_search_holder);
-                    ret = get_search_holder.get(param);
-                    if (ret == null) {
-                        SimpleObjectProperty<R_get_search> holder = new SimpleObjectProperty<>();
-                        ret = (cache).toHolder(holder);
-                        get_search_holder.put(param, ret);
-                        (cache).addFetchCacheObject("get_search", properties -> (cache.swagger).get(categories, search, strict, properties), item -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.set(item);
+                    {
+                        ret = get_search_holder.get(param);
+                        if (ret == null) {
+                            SimpleObjectProperty<R_get_search> holder = new SimpleObjectProperty<>();
+                            ret = (cache).toHolder(holder);
+                            get_search_holder.put(param, ret);
+                            (cache).addFetchCacheObject("get_search", properties -> (cache.swagger).get(categories, search, strict, properties), item -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.set(item);
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
                             }
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_search_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_search_holder);

@@ -36,28 +36,34 @@ public class Corporations {
                 synchronized (this)
                 {
                     LockWatchDog.BARKER.hld(this);
-                    if (get_corporations_npccorps_holder == null) {
-                        ObservableList<Integer> holder = FXCollections.observableArrayList();
-                        get_corporations_npccorps_holder = (cache).toHolder(holder);
-                        ObsListHolder<Integer> finalRet = get_corporations_npccorps_holder;
-                        (cache).addFetchCacheArray("get_corporations_npccorps", (page, properties) -> (cache.swagger).get_corporations_npccorps(properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        if (get_corporations_npccorps_holder == null) {
+                            ObservableList<Integer> holder = FXCollections.observableArrayList();
+                            get_corporations_npccorps_holder = (cache).toHolder(holder);
+                            ObsListHolder<Integer> finalRet = get_corporations_npccorps_holder;
+                            (cache).addFetchCacheArray("get_corporations_npccorps", (page, properties) -> (cache.swagger).get_corporations_npccorps(properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(this);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(this);
@@ -82,25 +88,31 @@ public class Corporations {
                 synchronized (get_corporations_corporation_id_icons_holder)
                 {
                     LockWatchDog.BARKER.hld(get_corporations_corporation_id_icons_holder);
-                    ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
-                    if (ret == null) {
-                        SimpleObjectProperty<R_get_corporations_corporation_id_icons> holder = new SimpleObjectProperty<>();
-                        ret = (cache).toHolder(holder);
-                        get_corporations_corporation_id_icons_holder.put(corporation_id, ret);
-                        (cache).addFetchCacheObject("get_corporations_corporation_id_icons", properties -> (cache.swagger).get_corporations_icons(corporation_id, properties), item -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.set(item);
+                    {
+                        ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
+                        if (ret == null) {
+                            SimpleObjectProperty<R_get_corporations_corporation_id_icons> holder = new SimpleObjectProperty<>();
+                            ret = (cache).toHolder(holder);
+                            get_corporations_corporation_id_icons_holder.put(corporation_id, ret);
+                            (cache).addFetchCacheObject("get_corporations_corporation_id_icons", properties -> (cache.swagger).get_corporations_icons(corporation_id, properties), item -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.set(item);
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
                             }
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_icons_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporations_corporation_id_icons_holder);
@@ -125,30 +137,36 @@ public class Corporations {
                 synchronized (get_corporations_corporation_id_alliancehistory_holder)
                 {
                     LockWatchDog.BARKER.hld(get_corporations_corporation_id_alliancehistory_holder);
-                    ret = get_corporations_corporation_id_alliancehistory_holder.get(corporation_id);
-                    if (ret == null) {
-                        ObservableList<R_get_corporations_corporation_id_alliancehistory> holder = FXCollections.observableArrayList();
-                        ret = (cache).toHolder(holder);
-                        get_corporations_corporation_id_alliancehistory_holder.put(corporation_id, ret);
-                        ObsListHolder<R_get_corporations_corporation_id_alliancehistory> finalRet = ret;
-                        (cache).addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, properties) -> (cache.swagger).get_corporations_alliancehistory(corporation_id, properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        ret = get_corporations_corporation_id_alliancehistory_holder.get(corporation_id);
+                        if (ret == null) {
+                            ObservableList<R_get_corporations_corporation_id_alliancehistory> holder = FXCollections.observableArrayList();
+                            ret = (cache).toHolder(holder);
+                            get_corporations_corporation_id_alliancehistory_holder.put(corporation_id, ret);
+                            ObsListHolder<R_get_corporations_corporation_id_alliancehistory> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, properties) -> (cache.swagger).get_corporations_alliancehistory(corporation_id, properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_alliancehistory_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporations_corporation_id_alliancehistory_holder);
@@ -173,25 +191,31 @@ public class Corporations {
                 synchronized (get_corporations_corporation_id_holder)
                 {
                     LockWatchDog.BARKER.hld(get_corporations_corporation_id_holder);
-                    ret = get_corporations_corporation_id_holder.get(corporation_id);
-                    if (ret == null) {
-                        SimpleObjectProperty<R_get_corporations_corporation_id> holder = new SimpleObjectProperty<>();
-                        ret = (cache).toHolder(holder);
-                        get_corporations_corporation_id_holder.put(corporation_id, ret);
-                        (cache).addFetchCacheObject("get_corporations_corporation_id", properties -> (cache.swagger).get_corporations(corporation_id, properties), item -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.set(item);
+                    {
+                        ret = get_corporations_corporation_id_holder.get(corporation_id);
+                        if (ret == null) {
+                            SimpleObjectProperty<R_get_corporations_corporation_id> holder = new SimpleObjectProperty<>();
+                            ret = (cache).toHolder(holder);
+                            get_corporations_corporation_id_holder.put(corporation_id, ret);
+                            (cache).addFetchCacheObject("get_corporations_corporation_id", properties -> (cache.swagger).get_corporations(corporation_id, properties), item -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.set(item);
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
                             }
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporations_corporation_id_holder);

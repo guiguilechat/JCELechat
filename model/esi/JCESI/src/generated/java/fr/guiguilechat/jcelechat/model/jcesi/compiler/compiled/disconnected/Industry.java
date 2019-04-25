@@ -29,28 +29,34 @@ public class Industry {
                 synchronized (this)
                 {
                     LockWatchDog.BARKER.hld(this);
-                    if (get_industry_facilities_holder == null) {
-                        ObservableList<R_get_industry_facilities> holder = FXCollections.observableArrayList();
-                        get_industry_facilities_holder = (cache).toHolder(holder);
-                        ObsListHolder<R_get_industry_facilities> finalRet = get_industry_facilities_holder;
-                        (cache).addFetchCacheArray("get_industry_facilities", (page, properties) -> (cache.swagger).get_industry_facilities(properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        if (get_industry_facilities_holder == null) {
+                            ObservableList<R_get_industry_facilities> holder = FXCollections.observableArrayList();
+                            get_industry_facilities_holder = (cache).toHolder(holder);
+                            ObsListHolder<R_get_industry_facilities> finalRet = get_industry_facilities_holder;
+                            (cache).addFetchCacheArray("get_industry_facilities", (page, properties) -> (cache.swagger).get_industry_facilities(properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(this);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(this);
@@ -71,28 +77,34 @@ public class Industry {
                 synchronized (this)
                 {
                     LockWatchDog.BARKER.hld(this);
-                    if (get_industry_systems_holder == null) {
-                        ObservableList<R_get_industry_systems> holder = FXCollections.observableArrayList();
-                        get_industry_systems_holder = (cache).toHolder(holder);
-                        ObsListHolder<R_get_industry_systems> finalRet = get_industry_systems_holder;
-                        (cache).addFetchCacheArray("get_industry_systems", (page, properties) -> (cache.swagger).get_industry_systems(properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        if (get_industry_systems_holder == null) {
+                            ObservableList<R_get_industry_systems> holder = FXCollections.observableArrayList();
+                            get_industry_systems_holder = (cache).toHolder(holder);
+                            ObsListHolder<R_get_industry_systems> finalRet = get_industry_systems_holder;
+                            (cache).addFetchCacheArray("get_industry_systems", (page, properties) -> (cache.swagger).get_industry_systems(properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(this);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(this);

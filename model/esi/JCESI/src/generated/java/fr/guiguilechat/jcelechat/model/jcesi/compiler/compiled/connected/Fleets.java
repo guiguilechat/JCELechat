@@ -39,25 +39,31 @@ public class Fleets {
                 synchronized (get_fleets_fleet_id_holder)
                 {
                     LockWatchDog.BARKER.hld(get_fleets_fleet_id_holder);
-                    ret = get_fleets_fleet_id_holder.get(fleet_id);
-                    if (ret == null) {
-                        SimpleObjectProperty<R_get_fleets_fleet_id> holder = new SimpleObjectProperty<>();
-                        ret = (cache).toHolder(holder);
-                        get_fleets_fleet_id_holder.put(fleet_id, ret);
-                        (cache).addFetchCacheObject("get_fleets_fleet_id", properties -> (cache.swagger).get_fleets(fleet_id, properties), item -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.set(item);
+                    {
+                        ret = get_fleets_fleet_id_holder.get(fleet_id);
+                        if (ret == null) {
+                            SimpleObjectProperty<R_get_fleets_fleet_id> holder = new SimpleObjectProperty<>();
+                            ret = (cache).toHolder(holder);
+                            get_fleets_fleet_id_holder.put(fleet_id, ret);
+                            (cache).addFetchCacheObject("get_fleets_fleet_id", properties -> (cache.swagger).get_fleets(fleet_id, properties), item -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.set(item);
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
+                                    }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
                             }
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_fleets_fleet_id_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_fleets_fleet_id_holder);
@@ -82,30 +88,36 @@ public class Fleets {
                 synchronized (get_fleets_fleet_id_members_holder)
                 {
                     LockWatchDog.BARKER.hld(get_fleets_fleet_id_members_holder);
-                    ret = get_fleets_fleet_id_members_holder.get(fleet_id);
-                    if (ret == null) {
-                        ObservableList<R_get_fleets_fleet_id_members> holder = FXCollections.observableArrayList();
-                        ret = (cache).toHolder(holder);
-                        get_fleets_fleet_id_members_holder.put(fleet_id, ret);
-                        ObsListHolder<R_get_fleets_fleet_id_members> finalRet = ret;
-                        (cache).addFetchCacheArray("get_fleets_fleet_id_members", (page, properties) -> (cache.swagger).get_fleets_members(fleet_id, properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        ret = get_fleets_fleet_id_members_holder.get(fleet_id);
+                        if (ret == null) {
+                            ObservableList<R_get_fleets_fleet_id_members> holder = FXCollections.observableArrayList();
+                            ret = (cache).toHolder(holder);
+                            get_fleets_fleet_id_members_holder.put(fleet_id, ret);
+                            ObsListHolder<R_get_fleets_fleet_id_members> finalRet = ret;
+                            (cache).addFetchCacheArray("get_fleets_fleet_id_members", (page, properties) -> (cache.swagger).get_fleets_members(fleet_id, properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_fleets_fleet_id_members_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_fleets_fleet_id_members_holder);
@@ -130,30 +142,36 @@ public class Fleets {
                 synchronized (get_fleets_fleet_id_wings_holder)
                 {
                     LockWatchDog.BARKER.hld(get_fleets_fleet_id_wings_holder);
-                    ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
-                    if (ret == null) {
-                        ObservableList<R_get_fleets_fleet_id_wings> holder = FXCollections.observableArrayList();
-                        ret = (cache).toHolder(holder);
-                        get_fleets_fleet_id_wings_holder.put(fleet_id, ret);
-                        ObsListHolder<R_get_fleets_fleet_id_wings> finalRet = ret;
-                        (cache).addFetchCacheArray("get_fleets_fleet_id_wings", (page, properties) -> (cache.swagger).get_fleets_wings(fleet_id, properties), arr -> {
-                            LockWatchDog.BARKER.tak(holder);
-                            try {
-                                synchronized (holder)
-                                {
-                                    LockWatchDog.BARKER.hld(holder);
-                                    holder.clear();
-                                    if (arr!= null) {
-                                        holder.addAll(arr);
+                    {
+                        ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
+                        if (ret == null) {
+                            ObservableList<R_get_fleets_fleet_id_wings> holder = FXCollections.observableArrayList();
+                            ret = (cache).toHolder(holder);
+                            get_fleets_fleet_id_wings_holder.put(fleet_id, ret);
+                            ObsListHolder<R_get_fleets_fleet_id_wings> finalRet = ret;
+                            (cache).addFetchCacheArray("get_fleets_fleet_id_wings", (page, properties) -> (cache.swagger).get_fleets_wings(fleet_id, properties), arr -> {
+                                LockWatchDog.BARKER.tak(holder);
+                                try {
+                                    synchronized (holder)
+                                    {
+                                        LockWatchDog.BARKER.hld(holder);
+                                        {
+                                            holder.clear();
+                                            if (arr!= null) {
+                                                holder.addAll(arr);
+                                            }
+                                        }
+                                        LockWatchDog.BARKER.rel(holder);
                                     }
+                                } finally {
+                                    LockWatchDog.BARKER.rel(holder);
                                 }
-                            } finally {
-                                LockWatchDog.BARKER.rel(holder);
+                                finalRet.dataReceived();
                             }
-                            finalRet.dataReceived();
+                            );
                         }
-                        );
                     }
+                    LockWatchDog.BARKER.rel(get_fleets_fleet_id_wings_holder);
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_fleets_fleet_id_wings_holder);

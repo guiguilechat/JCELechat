@@ -252,7 +252,7 @@ public class CacheTranslator {
 	 */
 	protected JBlock createTestNullCase(JBlock outBlock, JVar ret, IJExpression getter, JVar lock) {
 		ret.init(getter);
-		return sync(outBlock._if(ret.eqNull())._then(), lock).body().add(JExpr.assign(ret, getter))._if(ret.eqNull())
+		return sync(outBlock._if(ret.eqNull())._then(), lock).add(JExpr.assign(ret, getter))._if(ret.eqNull())
 				._then();
 	}
 
@@ -264,12 +264,15 @@ public class CacheTranslator {
 	 * @param expr
 	 * @return
 	 */
-	protected JSynchronizedBlock sync(JBlock parent, IJExpression expr) {
+	protected JBlock sync(JBlock parent, IJExpression expr) {
 		parent.add(JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "tak").arg(expr));
 		JTryBlock tryblock = parent._try();
-		JSynchronizedBlock ret = tryblock.body().synchronizedBlock(expr);
-		ret.body().add(JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "hld").arg(expr));
-		tryblock._finally().add(JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "rel").arg(expr));
+		JSynchronizedBlock syncblock = tryblock.body().synchronizedBlock(expr);
+		syncblock.body().add(JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "hld").arg(expr));
+		JBlock ret = syncblock.body().block();
+		JInvocation releaseexpr = JExpr.invoke(cm.ref(LockWatchDog.class).staticRef("BARKER"), "rel").arg(expr);
+		syncblock.body().add(releaseexpr);
+		tryblock._finally().add(releaseexpr);
 		return ret;
 	}
 
@@ -284,7 +287,7 @@ public class CacheTranslator {
 	protected void createCache_NoParam_Container() {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE, cm.ref(ObsObjHolder.class).narrow(parent.resourceFlatType.boxify()),
 				operation.getOperationId() + "_holder");
-		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this()).body()
+		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this())
 				._if(cacheContainer.eqNull())._then();
 		JVar holder = instanceBlock
 				.decl(cacheHolderType, "holder")
@@ -296,7 +299,7 @@ public class CacheTranslator {
 		instanceBlock.add(invoke);
 		JLambda lambdaset = new JLambda();
 		JLambdaParam item = lambdaset.addParam("item");
-		sync(lambdaset.body(), holder).body().add(JExpr.invoke(holder, "set").arg(item));
+		sync(lambdaset.body(), holder).add(JExpr.invoke(holder, "set").arg(item));
 		invoke.arg(lambdaset);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -314,7 +317,7 @@ public class CacheTranslator {
 	 */
 	protected void createCache_NoParam_List() {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
-		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this()).body()
+		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this())
 				._if(cacheContainer.eqNull())._then();
 		// _holder = FXCollections.observableArrayList();
 		JVar holder = instanceBlock.decl(cacheHolderType, "holder")
@@ -328,7 +331,7 @@ public class CacheTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		JBlock setBody = sync(lambdaSet.body(), holder).body();
+		JBlock setBody = sync(lambdaSet.body(), holder);
 		setBody.add(JExpr.invoke(holder, "clear"));
 		setBody._if(arr.neNull())._then().add(JExpr.invoke(holder, "addAll").arg(arr));
 		lambdaSet.body().invoke(finalRet, "dataReceived");
@@ -366,7 +369,7 @@ public class CacheTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		JBlock setBody = sync(lambdaSet.body(), holder).body();
+		JBlock setBody = sync(lambdaSet.body(), holder);
 		setBody.add(JExpr.invoke(holder, "clear"));
 		setBody._if(arr.neNull())._then().add(JExpr.invoke(holder, "addAll").arg(arr));
 		lambdaSet.body().invoke(finalRet, "dataReceived");
@@ -402,7 +405,7 @@ public class CacheTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam newmap = lambdaSet.addParam("newmap");
-		JBlock setBody = sync(lambdaSet.body(), holder).body();
+		JBlock setBody = sync(lambdaSet.body(), holder);
 		JBlock ifnotnull = setBody._if(newmap.neNull())._then();
 		// container.entrySet().retainAll(newMap.entrySet())
 		ifnotnull.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
@@ -423,7 +426,7 @@ public class CacheTranslator {
 	/** method is fetch()-> map (param, rettype) */
 	protected void createCache_NoParam_Map() {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
-		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this()).body()
+		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this())
 				._if(cacheContainer.eqNull())._then();
 		// _holder = FXCollections.observableHashMap();
 		JVar holder = instanceBlock
@@ -440,7 +443,7 @@ public class CacheTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam newmap = lambdaSet.addParam("newmap");
-		JBlock setBody = sync(lambdaSet.body(), holder).body();
+		JBlock setBody = sync(lambdaSet.body(), holder);
 		// container.entrySet().retainAll(newMap.entrySet())
 		JBlock ifnotnull = setBody._if(newmap.neNull())._then();
 		ifnotnull.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
@@ -481,7 +484,7 @@ public class CacheTranslator {
 
 		JLambda lambdaset = new JLambda();
 		JLambdaParam item = lambdaset.addParam("item");
-		sync(lambdaset.body(), holder).body().add(JExpr.invoke(holder, "set").arg(item));
+		sync(lambdaset.body(), holder).add(JExpr.invoke(holder, "set").arg(item));
 		invoke.arg(lambdaset);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
