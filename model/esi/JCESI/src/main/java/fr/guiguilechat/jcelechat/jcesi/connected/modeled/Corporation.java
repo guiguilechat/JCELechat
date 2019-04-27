@@ -12,8 +12,10 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_divisions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
 import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.impl.ObsObjHolderImpl;
@@ -32,13 +34,17 @@ public class Corporation {
 		bms = new CorpBookmarks(con);
 	}
 
+	public int getId() {
+		return con.character.infos.corporationId().get();
+	}
+
 	public final CorpBookmarks bms;
 
 	// industry jobs
 
 	public ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
 		return ObsMapHolderImpl.toMap(
-				con.raw.cache.corporations.industry_jobs(con.character.infos.corporationId().get(), false), j -> j.job_id);
+				con.raw.cache.corporations.industry_jobs(getId(), false), j -> j.job_id);
 	}
 
 	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
@@ -69,7 +75,7 @@ public class Corporation {
 		ObservableMap<Long, ObservableMap<Integer, Integer>> assets = FXCollections
 				.observableMap(new LinkedHashMap<>());
 		R_get_corporations_corporation_id_assets[] itemsArr = con.raw.cache.corporations
-				.assets(con.character.infos.corporationId().get()).copy()
+				.assets(getId()).copy()
 				.stream()
 				.filter(asset -> !get_corporations_corporation_id_assets_location_flag.AutoFit.equals(asset.location_flag))
 				.toArray(R_get_corporations_corporation_id_assets[]::new);
@@ -114,7 +120,7 @@ public class Corporation {
 	}
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
-		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.blueprints(con.character.infos.corporationId().get()),
+		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.blueprints(getId()),
 				bp -> bp.item_id);
 	}
 
@@ -125,7 +131,7 @@ public class Corporation {
 			synchronized (this) {
 				if(structures==null) {
 					structures = ObsMapHolderImpl.toMap(
-							con.raw.cache.corporations.structures(con.character.infos.corporationId().get()),
+							con.raw.cache.corporations.structures(getId()),
 							str -> str.structure_id);
 				}
 			}
@@ -142,7 +148,7 @@ public class Corporation {
 				if (wallet == null) {
 					SimpleObjectProperty<Double> underlying = new SimpleObjectProperty<>();
 					wallet = new ObsObjHolderImpl<>(underlying);
-					con.raw.cache.corporations.wallets(con.character.infos.corporationId().get()).follow(c -> {
+					con.raw.cache.corporations.wallets(getId()).follow(c -> {
 						double delta = 0;
 						while (c.next()) {
 							delta += c.getAddedSubList().stream().mapToDouble(w1 -> w1.balance).sum()
@@ -156,7 +162,26 @@ public class Corporation {
 		return wallet;
 	}
 
+	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
+		return con.raw.cache.corporations.divisions(getId());
+	}
+
+	ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> wallethistory = null;
+
+	public Stream<R_get_corporations_corporation_id_wallets_division_transactions> getWalletHistory() {
+		if (wallethistory == null) {
+			synchronized (this) {
+				if (wallethistory == null) {
+
+				}
+			}
+		}
+		return Stream.of(getDivisions().get().wallet)
+				.flatMap(division -> con.raw.cache.corporations.wallets_transactions(getId(), division.division, null).copy()
+						.stream());
+	}
+
 	public R_get_corporations_corporation_id getInformations() {
-		return ESIStatic.INSTANCE.cache.corporations.get(con.character.infos.corporationId().intValue()).get();
+		return ESIStatic.INSTANCE.cache.corporations.get(getId()).get();
 	}
 }

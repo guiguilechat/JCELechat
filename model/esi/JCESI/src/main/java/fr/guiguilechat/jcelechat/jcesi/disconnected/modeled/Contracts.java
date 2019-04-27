@@ -77,15 +77,12 @@ public class Contracts {
 								.collect(Collectors.toList());
 						Map<Integer, ContractDesc> newContracts = tmplist.stream().map(ItemContractFetcher::get)
 								.collect(Collectors.toMap(o -> o.details.contract_id, o -> o));
-						LockWatchDog.BARKER.tak(underlying);
-						synchronized (underlying) {
-							LockWatchDog.BARKER.hld(underlying);
+						LockWatchDog.BARKER.syncExecute(underlying, () -> {
 							for (Integer i : removedIndexes) {
 								underlying.remove(i);
 							}
 							underlying.putAll(newContracts);
-						}
-						LockWatchDog.BARKER.rel(underlying);
+						});
 					});
 					ObsMapHolder<Integer, ContractDesc> finalRet = ret;
 					CHolder.addReceivedListener(c -> finalRet.dataReceived());

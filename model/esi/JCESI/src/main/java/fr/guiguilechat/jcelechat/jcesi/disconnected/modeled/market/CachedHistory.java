@@ -52,19 +52,16 @@ public class CachedHistory {
 	}
 
 	protected void handleHistory(Change<? extends R_get_markets_region_id_history> change) {
-		while (change.next()) {
-			for (R_get_markets_region_id_history it : change.getAddedSubList()) {
-				// synchronized to avoid concurrent modification and iteration
-				LockWatchDog.BARKER.tak(cache);
-				synchronized (cache) {
-					LockWatchDog.BARKER.hld(cache);
+		LockWatchDog.BARKER.syncExecute(cache, () -> {
+			while (change.next()) {
+				for (R_get_markets_region_id_history it : change.getAddedSubList()) {
+					// synchronized to avoid concurrent modification and iteration
 					if (cache.isEmpty() || cache.get(0).date.compareTo(it.date) < 0) {
 						cache.add(0, it);
 					}
-					LockWatchDog.BARKER.rel(cache);
 				}
 			}
-		}
+		});
 	}
 
 	protected void handleReceived(List<R_get_markets_region_id_history> l) {
@@ -143,13 +140,11 @@ public class CachedHistory {
 	public ObsObjHolder<Long> getBestVolume(int offsetPct) {
 		ObsObjHolder<Long> ret = cachedBestVolumes.get(offsetPct);
 		if (ret == null) {
-			LockWatchDog.BARKER.tak(cachedBestVolumes);
-			synchronized (cachedBestVolumes) {
-				LockWatchDog.BARKER.hld(cachedBestVolumes);
-				ret = cachedBestVolumes.get(offsetPct);
-				if (ret == null) {
+			ret = LockWatchDog.BARKER.syncExecute(cachedBestVolumes, () -> {
+				ObsObjHolder<Long> ret2 = cachedBestVolumes.get(offsetPct);
+				if (ret2 == null) {
 					SimpleObjectProperty<Long> underlying = new SimpleObjectProperty<>();
-					ret = new ObsObjHolderImpl<>(underlying);
+					ret2 = new ObsObjHolderImpl<>(underlying);
 					getSortedVolumes().addReceivedListener(l -> {
 						if (l.size() > 0) {
 							int idx = Math.min(offsetPct * (l.size() - 1) / 100, l.size() - 1);
@@ -158,10 +153,10 @@ public class CachedHistory {
 							underlying.set(0l);
 						}
 					});
-					cachedBestVolumes.put(offsetPct, ret);
+					cachedBestVolumes.put(offsetPct, ret2);
 				}
-			}
-			LockWatchDog.BARKER.rel(cachedBestVolumes);
+				return ret2;
+			});
 		}
 		return ret;
 	}
@@ -205,13 +200,10 @@ public class CachedHistory {
 				e.printStackTrace();
 			}
 		}
-		LockWatchDog.BARKER.tak(sortedVolumesUnderlying);
-		synchronized (sortedVolumesUnderlying) {
-			LockWatchDog.BARKER.hld(sortedVolumesUnderlying);
+		LockWatchDog.BARKER.syncExecute(sortedVolumesUnderlying, () -> {
 			sortedVolumesUnderlying.clear();
 			sortedVolumesUnderlying.addAll(newList);
-		}
-		LockWatchDog.BARKER.rel(sortedVolumesUnderlying);
+		});
 		sortedVolumes.dataReceived();
 	}
 }

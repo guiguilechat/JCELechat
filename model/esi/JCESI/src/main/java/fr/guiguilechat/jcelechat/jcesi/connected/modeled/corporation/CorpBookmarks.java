@@ -36,20 +36,16 @@ public class CorpBookmarks {
 	 */
 	public ObsMapHolder<String, ObservableMap<String, M_get_bookmarks_9>> getBookmarks() {
 		if (bookmarksHolder == null) {
-			LockWatchDog.BARKER.tak(this);
-			synchronized (this) {
-				LockWatchDog.BARKER.hld(this);
+			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (bookmarksHolder == null) {
-					LockWatchDog.BARKER.hld(this);
 					bookmarks = FXCollections.observableHashMap();
 					bookmarksHolder = new ObsMapHolderImpl<>(bookmarks);
 					bookmarksFolders().follow(this::onFolderChange);
-					bookmarksFolders().onWaitEnd(this::dataReceveidFolders);
+					bookmarksFolders().addReceivedListener(this::dataReceveidFolders);
 					bookmarks().follow(this::onBmChange);
-					bookmarks().onWaitEnd(this::dataReceveidBM);
+					bookmarks().addReceivedListener(this::dataReceveidBM);
 				}
-			}
-			LockWatchDog.BARKER.rel(this);
+			});
 		}
 		return bookmarksHolder;
 	}
@@ -59,9 +55,7 @@ public class CorpBookmarks {
 	/** listener when a folder name is modified */
 	private void onFolderChange(
 			Change<? extends String, ? extends R_get_corporations_corporation_id_bookmarks_folders> change) {
-		LockWatchDog.BARKER.tak(bookmarks);
-		synchronized (bookmarks) {
-			LockWatchDog.BARKER.hld(bookmarks);
+		LockWatchDog.BARKER.syncExecute(bookmarks, () -> {
 			if (change.wasRemoved() && change.wasAdded()) {
 				// folder was changed
 				bookmarks.remove(change.getValueRemoved().name);
@@ -79,17 +73,14 @@ public class CorpBookmarks {
 					bookmarks.remove(change.getValueRemoved().name);
 				}
 			}
-		}
-		LockWatchDog.BARKER.rel(bookmarks);
+		});
 	}
 
 	private Map<String, M_get_bookmarks_9> knownBMByRef = new HashMap<>();
 
 	/** listener when a bm is modified */
 	private void onBmChange(Change<? extends String, ? extends M_get_bookmarks_9> c) {
-		LockWatchDog.BARKER.tak(bookmarks);
-		synchronized (bookmarks) {
-			LockWatchDog.BARKER.hld(bookmarks);
+		LockWatchDog.BARKER.syncExecute(bookmarks, () -> {
 			if (c.wasRemoved()) {
 				M_get_bookmarks_9 removed = c.getValueRemoved();
 				bookmarks.values().forEach(om -> om.entrySet().removeIf(e -> e.getValue().bookmark_id == removed.bookmark_id));
@@ -104,8 +95,7 @@ public class CorpBookmarks {
 					bookmarks.get(name).put(c.getKey(), c.getValueAdded());
 				}
 			}
-		}
-		LockWatchDog.BARKER.rel(bookmarks);
+		});
 	}
 
 	protected ObsMapHolder<String, M_get_bookmarks_9> cacheBookmarks = null;
@@ -153,7 +143,7 @@ public class CorpBookmarks {
 
 	private boolean datareceivedBM = false;
 
-	protected void dataReceveidBM() {
+	protected void dataReceveidBM(Map<String, M_get_bookmarks_9> data) {
 		datareceivedBM = true;
 		synchronized (bookmarks) {
 			if (dataReceveidFolders) {
@@ -164,7 +154,7 @@ public class CorpBookmarks {
 
 	private boolean dataReceveidFolders = false;
 
-	protected void dataReceveidFolders() {
+	protected void dataReceveidFolders(Map<String, R_get_corporations_corporation_id_bookmarks_folders> data) {
 		dataReceveidFolders = true;
 		synchronized (bookmarks) {
 			if (datareceivedBM) {

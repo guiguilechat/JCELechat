@@ -41,27 +41,20 @@ public class RegionalMarket {
 	public CachedOrdersList getMarketOrders(int typeID) {
 		CachedOrdersList ret = cachedOrders.get(typeID);
 		if (ret == null) {
-			LockWatchDog.BARKER.tak(cachedOrders);
-			synchronized (cachedOrders) {
-				LockWatchDog.BARKER.hld(cachedOrders);
-				ret = cachedOrders.get(typeID);
-				if (ret == null) {
-					ret = new CachedOrdersList(this, typeID);
-					LockWatchDog.BARKER.tak(lastOrders);
-					synchronized (lastOrders) {
-						LockWatchDog.BARKER.hld(lastOrders);
+			ret = LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
+				CachedOrdersList ret2 = cachedOrders.get(typeID);
+				if (ret2 == null) {
+					ret2 = LockWatchDog.BARKER.syncExecute(lastOrders, () -> {
+						CachedOrdersList ret3 = new CachedOrdersList(this, typeID);
 						if (lastOrders != null) {
-							ret.handleNewOrders(lastOrders);
+							ret3.handleNewOrders(lastOrders);
 						}
-						LockWatchDog.BARKER.rel(lastOrders);
-					}
-					LockWatchDog.BARKER.rel(lastOrders);
-					// ret.addFetcher();
-					cachedOrders.put(typeID, ret);
+						return ret3;
+					});
+					cachedOrders.put(typeID, ret2);
 				}
-				LockWatchDog.BARKER.rel(cachedOrders);
-			}
-			LockWatchDog.BARKER.rel(cachedOrders);
+				return ret2;
+			});
 		}
 		return ret;
 	}

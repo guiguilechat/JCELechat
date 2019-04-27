@@ -31,9 +31,7 @@ public class CachedOrdersList {
 	}
 
 	protected void handleNewOrders(List<R_get_markets_region_id_orders> neworders) {
-		LockWatchDog.BARKER.tak(buyOrders);
-		synchronized (buyOrders) {
-			LockWatchDog.BARKER.hld(buyOrders);
+		LockWatchDog.BARKER.syncExecute(buyOrders, () -> {
 			buyOrders.clear();
 			if (neworders != null) {
 				for (R_get_markets_region_id_orders o : neworders) {
@@ -43,11 +41,8 @@ public class CachedOrdersList {
 				}
 				Collections.sort(buyOrders, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
 			}
-		}
-		LockWatchDog.BARKER.rel(buyOrders);
-		LockWatchDog.BARKER.tak(sellOrders);
-		synchronized (sellOrders) {
-			LockWatchDog.BARKER.hld(sellOrders);
+		});
+		LockWatchDog.BARKER.syncExecute(sellOrders, () -> {
 			sellOrders.clear();
 			if (neworders != null) {
 				for (R_get_markets_region_id_orders o : neworders) {
@@ -57,8 +52,7 @@ public class CachedOrdersList {
 				}
 				Collections.sort(sellOrders, (o1, o2) -> (int) Math.signum(o1.price - o2.price));
 			}
-		}
-		LockWatchDog.BARKER.rel(sellOrders);
+		});
 	}
 
 	protected void handleNewCache(List<R_get_markets_region_id_orders> newCache) {
@@ -111,23 +105,19 @@ public class CachedOrdersList {
 		HashMap<Long, DoubleBinding> m = buy ? qttyBuyPrice : qttySellPrice;
 		DoubleBinding ret = m.get(qtty);
 		if (ret == null) {
-			LockWatchDog.BARKER.tak(m);
-			synchronized (m) {
-				LockWatchDog.BARKER.hld(m);
-				ret = m.get(qtty);
-				if (ret == null) {
-					ret = new DoubleBinding() {
+			ret = LockWatchDog.BARKER.syncExecute(m, () -> {
+				DoubleBinding ret2 = m.get(qtty);
+				if (ret2 == null) {
+					ret2 = new DoubleBinding() {
 						@Override
 						protected double computeValue() {
 							// ensure the regional market got its last orders, in case we are
 							// just created this may not be true yet.
 							regionalMarket.ensureFetched();
-							double sumCost = 0;
-							long qttyremain = qtty;
 							ObservableList<R_get_markets_region_id_orders> orders = buy ? listBuyOrders() : listSellOrders();
-							LockWatchDog.BARKER.tak(orders);
-							synchronized (orders) {
-								LockWatchDog.BARKER.hld(orders);
+							return LockWatchDog.BARKER.syncExecute(orders, () -> {
+								double sumCost = 0;
+								long qttyremain = qtty;
 								for (R_get_markets_region_id_orders r : orders) {
 									if (r.min_volume != 1) {
 										continue;
@@ -136,29 +126,25 @@ public class CachedOrdersList {
 									sumCost += qtty * r.price;
 									qttyremain -= qtty;
 									if (qttyremain == 0) {
-										LockWatchDog.BARKER.rel(orders);
 										return sumCost;
 									}
 								}
-							}
-							LockWatchDog.BARKER.rel(orders);
-							return buy ? sumCost : Double.POSITIVE_INFINITY;
+								// if there was not enough orders to fulfill the qtty
+								return buy ? sumCost : Double.POSITIVE_INFINITY;
+							});
 						}
 
 						{
 							ObservableList<R_get_markets_region_id_orders> orders = buy ? listBuyOrders() : listSellOrders();
-							LockWatchDog.BARKER.tak(orders);
-							synchronized (orders) {
-								LockWatchDog.BARKER.hld(orders);
+							LockWatchDog.BARKER.syncExecute(orders, () -> {
 								bind(orders);
-							}
-							LockWatchDog.BARKER.rel(orders);
+							});
 						}
 					};
-					m.put(qtty, ret);
+					m.put(qtty, ret2);
 				}
-			}
-			LockWatchDog.BARKER.rel(m);
+				return ret2;
+			});
 		}
 		return ret;
 	}

@@ -147,6 +147,7 @@ public class Universe {
 		return constelsHolders.parallelStream().map(ch -> ch.get());
 	}
 
+	/** number of meter in an AU */
 	public static final long M_PER_AU = 149597870700l;
 
 	/**
