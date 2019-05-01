@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
@@ -29,6 +30,7 @@ import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
 import javafx.beans.property.SimpleIntegerProperty;
@@ -471,6 +473,23 @@ public class EveCharacter {
 	/** get total isk balance */
 	public ObsObjHolder<Double> getWallet() {
 		return con.raw.cache.characters.wallet(con.characterId());
+	}
+
+	private ObsMapHolderImpl<String, R_get_characters_character_id_wallet_transactions> walletTransactions;
+
+	/**
+	 * get wallet history.<br />
+	 * The key is String because a transaction can appear in the corporation and
+	 * character wallets, with same id.
+	 */
+	public ObsMapHolderImpl<String, R_get_characters_character_id_wallet_transactions> getWalletTransactions() {
+		if (walletTransactions == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				walletTransactions = ObsMapHolderImpl.toMap(con.raw.cache.characters.wallet_transactions(con.characterId(), null),
+						h -> "" + con.characterId() + h.transaction_id);
+			});
+		}
+		return walletTransactions;
 	}
 
 }

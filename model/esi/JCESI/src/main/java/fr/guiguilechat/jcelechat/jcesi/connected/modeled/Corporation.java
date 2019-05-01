@@ -21,6 +21,7 @@ import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.impl.ObsObjHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
@@ -166,19 +167,28 @@ public class Corporation {
 		return con.raw.cache.corporations.divisions(getId());
 	}
 
-	ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> wallethistory = null;
+	ObsMapHolder<String, R_get_corporations_corporation_id_wallets_division_transactions> walletTransactions = null;
 
-	public Stream<R_get_corporations_corporation_id_wallets_division_transactions> getWalletHistory() {
-		if (wallethistory == null) {
-			synchronized (this) {
-				if (wallethistory == null) {
-
+	/**
+	 * get wallet history.<br />
+	 * The key is String because a transaction can appear in the corporation and
+	 * character wallets, with same id.
+	 */
+	public ObsMapHolder<String, R_get_corporations_corporation_id_wallets_division_transactions> getWalletTransactions() {
+		if (walletTransactions == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (walletTransactions == null) {
+					@SuppressWarnings("unchecked")
+					ObsMapHolderImpl<String, R_get_corporations_corporation_id_wallets_division_transactions>[] wallets = Stream
+					.of(getDivisions().get().wallet)
+					.map(division -> con.raw.cache.corporations.wallets_transactions(getId(), division.division, null)).map(l->
+					ObsMapHolderImpl.toMap(l, k -> "" + getId() + k.transaction_id)).collect(Collectors.toList())
+					.toArray(new ObsMapHolderImpl[] {});
+					walletTransactions = ObsMapHolderImpl.merge(wallets);
 				}
-			}
+			});
 		}
-		return Stream.of(getDivisions().get().wallet)
-				.flatMap(division -> con.raw.cache.corporations.wallets_transactions(getId(), division.division, null).copy()
-						.stream());
+		return walletTransactions;
 	}
 
 	public R_get_corporations_corporation_id getInformations() {
