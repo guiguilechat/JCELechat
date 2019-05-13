@@ -54,6 +54,16 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	private static final Logger logger = LoggerFactory.getLogger(ConnectedImpl.class);
 
+	public ConnectedImpl() {
+		// TODO why set to 200 ? it seems lower value make deadlock
+		// we set daemon otherwise the thread will prevent jvm from dying.
+		exec = Executors.newScheduledThreadPool(1000, r -> {
+			Thread t = Executors.defaultThreadFactory().newThread(r);
+			t.setDaemon(true);
+			return t;
+		});
+	}
+
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
 
@@ -99,7 +109,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @return a new response holding the result of the request, or null if
 	 *         connection issue
 	 */
-	public <T> Requested<T> request(String url, String method, Map<String, String> properties,
+	protected <T> Requested<T> request(String url, String method, Map<String, String> properties,
 			Map<String, Object> transmit, Class<T> expectedClass) {
 		if (properties == null) {
 			properties = new HashMap<>();
@@ -168,7 +178,11 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	@Override
 	public <T> Requested<T> requestGet(String url, Map<String, String> properties, Class<T> expectedClass) {
-		return request(url, "GET", properties, null, expectedClass);
+		Requested<T> ret = request(url, "GET", properties, null, expectedClass);
+		if (ret.getResponseCode() / 100 != 2 && ret.getResponseCode() != 304) {
+			logger.debug("url=" + url + " resp=" + ret.getResponseCode());
+		}
+		return ret;
 	}
 
 	@Override
@@ -306,13 +320,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	// scheduling
 	////
 
-	// TODO why set to 200 ? it seems lower value make deadlock
-	// we set daemon otherwise the thread will prevent jvm from dying.
-	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(1000, r -> {
-		Thread t = Executors.defaultThreadFactory().newThread(r);
-		t.setDaemon(true);
-		return t;
-	});
+	public final ScheduledExecutorService exec;
 
 	/**
 	 * class that uses the executor to schedule itself.
@@ -400,8 +408,10 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (!scheduled && !stop && !paused) {
 					try {
 						exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
+					} catch (RejectedExecutionException e) {
+						logger.warn("can't schedule " + this, e);
 					} catch (Exception e) {
-						logger.warn("can't schedule self", e);
+						logger.warn("can't schedule " + this, e);
 						throw new UnsupportedOperationException(e);
 					}
 					scheduled = true;
