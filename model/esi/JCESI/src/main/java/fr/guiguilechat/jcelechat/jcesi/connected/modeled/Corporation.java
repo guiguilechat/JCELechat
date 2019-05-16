@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_divisions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
@@ -189,6 +190,19 @@ public class Corporation {
 			});
 		}
 		return walletTransactions;
+	}
+
+	private ObsMapHolderImpl<Long, R_get_corporations_corporation_id_orders> cacheOrders = null;
+
+	public ObsMapHolderImpl<Long, R_get_corporations_corporation_id_orders> getMarketOrders() {
+		if (cacheOrders == null) {
+			synchronized (this) {
+				if (cacheOrders == null) {
+					cacheOrders = ObsMapHolderImpl.toMap(con.raw.cache.corporations.orders(getId()), o -> o.order_id);
+				}
+			}
+		}
+		return cacheOrders;
 	}
 
 	public R_get_corporations_corporation_id getInformations() {

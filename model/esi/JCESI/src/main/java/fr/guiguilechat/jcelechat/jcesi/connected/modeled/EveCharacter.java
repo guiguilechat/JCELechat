@@ -466,8 +466,17 @@ public class EveCharacter {
 		return marketBOs;
 	}
 
+	private ObsMapHolder<Long, R_get_characters_character_id_orders> cacheOrders = null;
+
 	public ObsMapHolder<Long, R_get_characters_character_id_orders> getMarketOrders() {
-		return ObsMapHolderImpl.toMap(con.raw.cache.characters.orders(con.characterId()), o -> o.order_id);
+		if (cacheOrders == null) {
+			synchronized (this) {
+				if (cacheOrders == null) {
+					cacheOrders=ObsMapHolderImpl.toMap(con.raw.cache.characters.orders(con.characterId()), o -> o.order_id);
+				}
+			}
+		}
+		return cacheOrders;
 	}
 
 	/** get total isk balance */
