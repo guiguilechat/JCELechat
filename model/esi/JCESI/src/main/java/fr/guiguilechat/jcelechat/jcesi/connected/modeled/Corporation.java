@@ -196,11 +196,11 @@ public class Corporation {
 
 	public ObsMapHolderImpl<Long, R_get_corporations_corporation_id_orders> getMarketOrders() {
 		if (cacheOrders == null) {
-			synchronized (this) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cacheOrders == null) {
 					cacheOrders = ObsMapHolderImpl.toMap(con.raw.cache.corporations.orders(getId()), o -> o.order_id);
 				}
-			}
+			});
 		}
 		return cacheOrders;
 	}

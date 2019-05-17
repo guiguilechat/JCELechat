@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
@@ -88,8 +89,7 @@ public class EveCharacter {
 		Set<String> roles = Arrays.asList(newroles.roles).stream().map(r -> r.toString).collect(Collectors.toSet());
 		rolesCache.retainAll(roles);
 		rolesCache.addAll(roles);
-		Set<String> rolesHQ = Arrays.asList(newroles.roles_at_hq).stream().map(r -> r.toString)
-				.collect(Collectors.toSet());
+		Set<String> rolesHQ = Arrays.asList(newroles.roles_at_hq).stream().map(r -> r.toString).collect(Collectors.toSet());
 		rolesHQCache.retainAll(rolesHQ);
 		rolesHQCache.addAll(rolesHQ);
 		Set<String> rolesBase = Arrays.asList(newroles.roles_at_base).stream().map(r -> r.toString)
@@ -207,7 +207,7 @@ public class EveCharacter {
 	private ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> blueprints = null;
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
-		if(blueprints ==null) {
+		if (blueprints == null) {
 			synchronized (this) {
 				if (blueprints == null) {
 					blueprints = ObsMapHolderImpl.toMap(con.raw.cache.characters.blueprints(con.characterId()), b -> b.item_id,
@@ -307,7 +307,7 @@ public class EveCharacter {
 	public ObsMapHolder<Long, ObservableMap<Integer, Integer>> getAssets() {
 		if (cachedAssets == null) {
 			synchronized (this) {
-				if (cachedAssets==null) {
+				if (cachedAssets == null) {
 					ObsListHolder<R_get_characters_character_id_assets> assets = con.raw.cache.characters
 							.assets(con.characterId());
 					ObservableMap<Long, ObservableMap<Integer, Integer>> map = FXCollections.observableHashMap();
@@ -412,6 +412,10 @@ public class EveCharacter {
 		return skills;
 	}
 
+	public ObsListHolder<R_get_characters_character_id_skillqueue> getSkillQueue() {
+		return con.raw.cache.characters.skillqueue(con.characterId());
+	}
+
 	//
 	// market orders
 	//
@@ -470,11 +474,11 @@ public class EveCharacter {
 
 	public ObsMapHolder<Long, R_get_characters_character_id_orders> getMarketOrders() {
 		if (cacheOrders == null) {
-			synchronized (this) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cacheOrders == null) {
-					cacheOrders=ObsMapHolderImpl.toMap(con.raw.cache.characters.orders(con.characterId()), o -> o.order_id);
+					cacheOrders = ObsMapHolderImpl.toMap(con.raw.cache.characters.orders(con.characterId()), o -> o.order_id);
 				}
-			}
+			});
 		}
 		return cacheOrders;
 	}
@@ -494,7 +498,8 @@ public class EveCharacter {
 	public ObsMapHolderImpl<String, R_get_characters_character_id_wallet_transactions> getWalletTransactions() {
 		if (walletTransactions == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				walletTransactions = ObsMapHolderImpl.toMap(con.raw.cache.characters.wallet_transactions(con.characterId(), null),
+				walletTransactions = ObsMapHolderImpl.toMap(
+						con.raw.cache.characters.wallet_transactions(con.characterId(), null),
 						h -> "" + con.characterId() + h.transaction_id);
 			});
 		}
