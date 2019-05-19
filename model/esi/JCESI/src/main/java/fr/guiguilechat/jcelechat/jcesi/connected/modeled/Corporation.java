@@ -2,13 +2,17 @@ package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpAssetFolder;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.SystemAsset;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
@@ -17,9 +21,12 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
 import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.impl.ObsObjHolderImpl;
+import fr.lelouet.collectionholders.interfaces.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -67,6 +74,68 @@ public class Corporation {
 
 	public static boolean isInvetion(R_get_corporations_corporation_id_industry_jobs job) {
 		return job.activity_id == 8;
+	}
+
+	//
+	// assets
+	//
+
+	public ObsListHolder<R_get_corporations_corporation_id_assets> getAssetsList() {
+		return con.raw.cache.corporations.assets(getId());
+	}
+
+	public Map<String, SystemAsset> getAssetTree() {
+		List<R_get_corporations_corporation_id_assets> assets = getAssetsList().copy();
+		Map<String, SystemAsset> ret = new HashMap<>();
+		Map<Long, CorpAssetFolder> idToFolder = assets.stream()
+				.collect(Collectors.toMap(asset -> asset.item_id, asset -> new CorpAssetFolder(asset)));
+		for (CorpAssetFolder folder : idToFolder.values()) {
+			CorpAssetFolder parent = idToFolder.get(folder.asset.location_id);
+			if (parent != null) {
+				parent.addAsset(folder);
+			} else {
+				Location resolved = Location.resolve(con, folder.asset.location_id);
+				SystemAsset sysasset = null;
+				switch (resolved.type) {
+				case SYSTEM:
+					// the location_id is a system :
+					// this is our structure
+					sysasset = getSystemAsset(ret, resolved.name);
+					sysasset.owned.put(Location.resolve(con, folder.asset.item_id).name, folder);
+					break;
+				case STRUCTURE:
+					// location_id is a structure, that we don't own
+					if (resolved.ref == null) {
+						// we can't resolved the structure. it's in system "unresolved"
+						sysasset = getSystemAsset(ret, "unresolved");
+					} else {
+						// structure is resolved. get its system.
+						sysasset = getSystemAsset(ret,
+								Location.resolve(con, ((R_get_universe_structures_structure_id) resolved.ref).solar_system_id).name);
+					}
+					sysasset.rent.put(resolved.name, folder);
+					break;
+				case STATION:
+					// this is a hangar we rent in a station
+					R_get_universe_stations_station_id station = (R_get_universe_stations_station_id) resolved.ref;
+					sysasset = getSystemAsset(ret, Location.resolve(con, station.system_id).name);
+					sysasset.rent.put(resolved.name, folder);
+					break;
+				default:
+					throw new UnsupportedOperationException("case not handled " + resolved.type);
+				}
+			}
+		}
+		return ret;
+	}
+
+	protected static SystemAsset getSystemAsset(Map<String, SystemAsset> data, String name) {
+		SystemAsset ret = data.get(name);
+		if (ret == null) {
+			ret = new SystemAsset();
+			data.put(name, ret);
+		}
+		return ret;
 	}
 
 	/**
