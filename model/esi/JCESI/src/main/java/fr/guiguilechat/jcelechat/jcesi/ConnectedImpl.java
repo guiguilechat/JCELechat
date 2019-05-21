@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionException;
-import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
@@ -57,11 +57,22 @@ public abstract class ConnectedImpl implements ITransfer {
 	public ConnectedImpl() {
 		// TODO why set to 200 ? it seems lower value make deadlock
 		// we set daemon otherwise the thread will prevent jvm from dying.
-		exec = Executors.newScheduledThreadPool(1000, r -> {
+		exec = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(100, r -> {
+			logExecutorState();
 			Thread t = Executors.defaultThreadFactory().newThread(r);
 			t.setDaemon(true);
 			return t;
 		});
+	}
+
+	private static HashMap<ScheduledThreadPoolExecutor, Long> threadsCreated = new HashMap<>();
+
+	private void logExecutorState() {
+		synchronized (threadsCreated) {
+			long oldvalue = threadsCreated.getOrDefault(exec, 0l);
+			threadsCreated.put(exec, oldvalue + 1);
+			logger.debug("threads created [" + threadsCreated.size() + " executors]" + threadsCreated.values());
+		}
 	}
 
 	public static final String IFNONEMATCH = "If-None-Match";
@@ -320,7 +331,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	// scheduling
 	////
 
-	public final ScheduledExecutorService exec;
+	public final ScheduledThreadPoolExecutor exec;
 
 	/**
 	 * class that uses the executor to schedule itself.
