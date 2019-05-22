@@ -54,27 +54,6 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	private static final Logger logger = LoggerFactory.getLogger(ConnectedImpl.class);
 
-	public ConnectedImpl() {
-		// TODO why set to 200 ? it seems lower value make deadlock
-		// we set daemon otherwise the thread will prevent jvm from dying.
-		exec = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(100, r -> {
-			logExecutorState();
-			Thread t = Executors.defaultThreadFactory().newThread(r);
-			t.setDaemon(true);
-			return t;
-		});
-	}
-
-	private static HashMap<ScheduledThreadPoolExecutor, Long> threadsCreated = new HashMap<>();
-
-	private void logExecutorState() {
-		synchronized (threadsCreated) {
-			long oldvalue = threadsCreated.getOrDefault(exec, 0l);
-			threadsCreated.put(exec, oldvalue + 1);
-			logger.debug("threads created [" + threadsCreated.size() + " executors]" + threadsCreated.values());
-		}
-	}
-
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
 
@@ -331,7 +310,29 @@ public abstract class ConnectedImpl implements ITransfer {
 	// scheduling
 	////
 
-	public final ScheduledThreadPoolExecutor exec;
+	private final ScheduledThreadPoolExecutor exec = _exec();
+
+	private static ScheduledThreadPoolExecutor _exec = null;
+
+	private final static synchronized ScheduledThreadPoolExecutor _exec() {
+		if (_exec == null) {
+			// TODO why set to 200 ? it seems lower value make deadlock
+			// we set daemon otherwise the thread will prevent jvm from dying.
+			_exec = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(200, r -> {
+				Thread t = Executors.defaultThreadFactory().newThread(r);
+				t.setDaemon(true);
+				return t;
+			});
+		}
+		return _exec;
+	}
+
+	public static synchronized void shutDown() {
+		if (_exec != null) {
+			_exec.shutdownNow();
+			_exec = null;
+		}
+	}
 
 	/**
 	 * class that uses the executor to schedule itself.
