@@ -1,23 +1,11 @@
 items:
   Dread Guristas Dreadnought:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 41398
     mass: 1.32E9
     name: Dread Guristas Dreadnought
     published: false
     volume: 1.625E7
   Guristas Dreadnought:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 37465
     mass: 1.32E9
     name: Guristas Dreadnought

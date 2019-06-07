@@ -1,95 +1,47 @@
 items:
   Burner Dragonfly:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 36846
     mass: 12000.0
     name: Burner Dragonfly
     published: false
     volume: 5000.0
   Burner Mantis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 36847
     mass: 12000.0
     name: Burner Mantis
     published: false
     volume: 5000.0
   Federation Fighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27900
     mass: 12000.0
     name: Federation Fighter
     published: false
     volume: 5000.0
   Gallente Federation Civilians:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30995
     mass: 1600000.0
     name: Gallente Federation Civilians
     published: false
     volume: 5000.0
   Imperial Fighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27898
     mass: 12000.0
     name: Imperial Fighter
     published: false
     volume: 5000.0
   Outpost Defender:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29025
     mass: 12000.0
     name: Outpost Defender
     published: false
     volume: 5000.0
   Republic Fighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27901
     mass: 12000.0
     name: Republic Fighter
     published: false
     volume: 5000.0
   State Fighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27899
     mass: 12000.0
     name: State Fighter

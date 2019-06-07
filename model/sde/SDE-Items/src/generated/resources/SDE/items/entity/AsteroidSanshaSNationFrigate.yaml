@@ -1,227 +1,113 @@
 items:
   Sansha's Butcher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11035
     mass: 2112000.0
     name: Sansha's Butcher
     published: false
     volume: 21120.0
   Sansha's Enslaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11033
     mass: 2112000.0
     name: Sansha's Enslaver
     published: false
     volume: 21120.0
   Sansha's Loyal Butcher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23365
     mass: 2112000.0
     name: Sansha's Loyal Butcher
     published: false
     volume: 21120.0
   Sansha's Loyal Enslaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23362
     mass: 2112000.0
     name: Sansha's Loyal Enslaver
     published: false
     volume: 21120.0
   Sansha's Loyal Manslayer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23364
     mass: 2112000.0
     name: Sansha's Loyal Manslayer
     published: false
     volume: 21120.0
   Sansha's Loyal Minion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13047
     mass: 2112000.0
     name: Sansha's Loyal Minion
     published: false
     volume: 21120.0
   Sansha's Loyal Plague:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23363
     mass: 2112000.0
     name: Sansha's Loyal Plague
     published: false
     volume: 21120.0
   Sansha's Loyal Ravener:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13045
     mass: 2112000.0
     name: Sansha's Loyal Ravener
     published: false
     volume: 21120.0
   Sansha's Loyal Savage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23360
     mass: 2000000.0
     name: Sansha's Loyal Savage
     published: false
     volume: 20000.0
-  Sansha's Loyal Scavanger:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
+  Sansha's Loyal Scavenger:
     id: 13046
     mass: 2112000.0
-    name: Sansha's Loyal Scavanger
+    name: Sansha's Loyal Scavenger
     published: false
     volume: 21120.0
   Sansha's Loyal Servant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13048
     mass: 2112000.0
     name: Sansha's Loyal Servant
     published: false
     volume: 21120.0
   Sansha's Loyal Slavehunter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23361
     mass: 2000000.0
     name: Sansha's Loyal Slavehunter
     published: false
     volume: 20000.0
   Sansha's Minion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10273
     mass: 2000000.0
     name: Sansha's Minion
     published: false
     volume: 20000.0
   Sansha's Plague:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10028
     mass: 2112000.0
     name: Sansha's Plague
     published: false
     volume: 21120.0
   Sansha's Ravener:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11032
     mass: 2000000.0
     name: Sansha's Ravener
     published: false
     volume: 20000.0
   Sansha's Savage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10027
     mass: 2000000.0
     name: Sansha's Savage
     published: false
     volume: 20000.0
   Sansha's Scavenger:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10026
     mass: 2000000.0
     name: Sansha's Scavenger
     published: false
     volume: 20000.0
   Sansha's Servant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10025
     mass: 2112000.0
     name: Sansha's Servant
     published: false
     volume: 21120.0
   Sansha's Slavehunter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11034
     mass: 2112000.0
     name: Sansha's Slavehunter

@@ -4,21 +4,21 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 
 
 /**
- * Deprecated. The minimum number of pieces of loot dropped by this entity.
+ * Bonus to HAW turret damage
  */
-public class EntityLootCountMin
+public class SiegeHAWTurretDamageBonus
     extends IntAttribute
 {
-    public static final EntityLootCountMin INSTANCE = new EntityLootCountMin();
+    public static final SiegeHAWTurretDamageBonus INSTANCE = new SiegeHAWTurretDamageBonus();
 
     @Override
     public int getId() {
-        return  250;
+        return  2820;
     }
 
     @Override
     public int getCatId() {
-        return  19;
+        return  37;
     }
 
     @Override
@@ -33,7 +33,7 @@ public class EntityLootCountMin
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -43,6 +43,6 @@ public class EntityLootCountMin
 
     @Override
     public String toString() {
-        return "EntityLootCountMin";
+        return "SiegeHAWTurretDamageBonus";
     }
 }

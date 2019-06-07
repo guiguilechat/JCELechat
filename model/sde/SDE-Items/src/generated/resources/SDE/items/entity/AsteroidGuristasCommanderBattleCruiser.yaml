@@ -1,71 +1,35 @@
 items:
   Dread Guristas Assassin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23352
     mass: 1.01E7
     name: Dread Guristas Assassin
     published: false
     volume: 101000.0
   Dread Guristas Assaulter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23351
     mass: 1.01E7
     name: Dread Guristas Assaulter
     published: false
     volume: 101000.0
   Dread Guristas Death Dealer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23353
     mass: 1.01E7
     name: Dread Guristas Death Dealer
     published: false
     volume: 101000.0
   Dread Guristas Enforcer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23350
     mass: 1.01E7
     name: Dread Guristas Enforcer
     published: false
     volume: 101000.0
   Dread Guristas Executor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23349
     mass: 1.01E7
     name: Dread Guristas Executor
     published: false
     volume: 101000.0
   Dread Guristas Revolter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23354
     mass: 1.01E7
     name: Dread Guristas Revolter

@@ -1,23 +1,11 @@
 items:
   Blood Dreadnought:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 37463
     mass: 1.2375E9
     name: Blood Dreadnought
     published: false
     volume: 1.85E7
   Dark Blood Dreadnought:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 41397
     mass: 1.2375E9
     name: Dark Blood Dreadnought

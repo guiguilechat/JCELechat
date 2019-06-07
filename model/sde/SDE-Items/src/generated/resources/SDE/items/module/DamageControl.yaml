@@ -55,6 +55,50 @@ items:
     name: '''Radical'' Damage Control'
     published: true
     volume: 5.0
+  Abyssal Assault Damage Control:
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    CanFitShipGroup01: 324
+    CanFitShipGroup02: 358
+    HullEmDamageResonance: 1.0
+    HullExplosiveDamageResonance: 1.0
+    HullKineticDamageResonance: 1.0
+    HullThermalDamageResonance: 1.0
+    MaxGroupFitted: 1
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 5
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    TechLevel: 1
+    id: 52230
+    name: Abyssal Assault Damage Control
+    published: true
+    volume: 5.0
+  Abyssal Damage Control:
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    HullEmDamageResonance: 1.0
+    HullExplosiveDamageResonance: 1.0
+    HullKineticDamageResonance: 1.0
+    HullThermalDamageResonance: 1.0
+    MaxGroupFitted: 1
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 4
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    TechLevel: 1
+    id: 52227
+    name: Abyssal Damage Control
+    published: true
+    volume: 5.0
   Assault Damage Control I:
     ArmorEmDamageResonance: 0.925000011920929
     ArmorExplosiveDamageResonance: 0.925000011920929

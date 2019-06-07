@@ -188,6 +188,27 @@ items:
     name: Crown Imperial Firework
     published: true
     volume: 0.1
+  Easter Firework:
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 56
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1
+    RequiredSkill1Level: 1
+    RequiredSkill2Level: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 50138
+    marketGroup: 1663
+    mass: 100.0
+    name: Easter Firework
+    published: true
+    volume: 0.1
   Eros Blossom Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -270,6 +291,27 @@ items:
     marketGroup: 1663
     mass: 100.0
     name: Four Freedoms Firework
+    published: true
+    volume: 0.1
+  Halloween 2019 Firework:
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 56
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1
+    RequiredSkill1Level: 1
+    RequiredSkill2Level: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 52219
+    marketGroup: 1663
+    mass: 100.0
+    name: Halloween 2019 Firework
     published: true
     volume: 0.1
   Nation Uplifts Firework:

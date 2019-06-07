@@ -1,119 +1,59 @@
 items:
   Shadow Serpentis Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23469
     mass: 1.75E7
     name: Shadow Serpentis Admiral
     published: false
     volume: 1140000.0
   Shadow Serpentis Baron:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13660
     mass: 1.9E7
     name: Shadow Serpentis Baron
     published: false
     volume: 1010000.0
   Shadow Serpentis Commodore:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13658
     mass: 1.75E7
     name: Shadow Serpentis Commodore
     published: false
     volume: 1140000.0
   Shadow Serpentis Flotilla Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13666
     mass: 1.9E7
     name: Shadow Serpentis Flotilla Admiral
     published: false
     volume: 1010000.0
   Shadow Serpentis Grand Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23471
     mass: 1.75E7
     name: Shadow Serpentis Grand Admiral
     published: false
     volume: 1140000.0
   Shadow Serpentis High Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23470
     mass: 1.75E7
     name: Shadow Serpentis High Admiral
     published: false
     volume: 1140000.0
   Shadow Serpentis Lord Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23472
     mass: 1.75E7
     name: Shadow Serpentis Lord Admiral
     published: false
     volume: 1140000.0
   Shadow Serpentis Port Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13665
     mass: 1.9E7
     name: Shadow Serpentis Port Admiral
     published: false
     volume: 1010000.0
   Shadow Serpentis Rear Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13653
     mass: 1.75E7
     name: Shadow Serpentis Rear Admiral
     published: false
     volume: 1140000.0
   Shadow Serpentis Vice Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13652
     mass: 1.75E7
     name: Shadow Serpentis Vice Admiral

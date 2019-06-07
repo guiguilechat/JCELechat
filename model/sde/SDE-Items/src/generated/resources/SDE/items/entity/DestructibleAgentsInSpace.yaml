@@ -1,161 +1,71 @@
 items:
   Dorim Fatimar's Punisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25531
     name: Dorim Fatimar's Punisher
     published: false
   Gue Mouey Vindicator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25396
     name: Gue Mouey Vindicator
     published: false
   Gue Mouey's Vindicator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30908
     name: Gue Mouey's Vindicator
     published: false
   Isana Dagin's Machariel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25351
     mass: 100000.0
     name: Isana Dagin's Machariel
     published: false
     volume: 1.0E8
   Karo Zulak's Bestower:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23952
     name: Karo Zulak's Bestower
     published: false
   Knaaninn Aranuri's Rattlesnake:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25392
     mass: 100000.0
     name: Knaaninn Aranuri's Rattlesnake
     published: false
     volume: 1.0E8
   Kushan Horeat's Arbitrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25533
     name: Kushan Horeat's Arbitrator
     published: false
   Kutill's Hoarder:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21161
     name: Kutill's Hoarder
     published: false
   Nimpor Fatimar's Omen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25535
     name: Nimpor Fatimar's Omen
     published: false
   Oronata Vion's Caracal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25365
     mass: 1.01E7
     name: Oronata Vion's Caracal
     published: false
     volume: 101000.0
   Ragot Parah's Maller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25534
     name: Ragot Parah's Maller
     published: false
   Rakka's Rattlesnake:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25409
     mass: 100000.0
     name: Rakka's Rattlesnake
     published: false
     volume: 1.0E8
   Rattlesnake_Airkio Yanjulen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25368
     mass: 100000.0
     name: Rattlesnake_Airkio Yanjulen
     published: false
     volume: 1.0E8
   Reqqa Bratesch's Vengeance:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25532
     name: Reqqa Bratesch's Vengeance
     published: false
   Tomi_Hakiro Caracal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25371
     mass: 100000.0
     name: Tomi_Hakiro Caracal

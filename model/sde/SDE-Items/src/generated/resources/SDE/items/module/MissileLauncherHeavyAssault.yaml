@@ -1,6 +1,7 @@
 items:
   Caldari Navy Heavy Assault Missile Launcher:
     ChargeGroup1: 772
+    ChargeGroup2: 654
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8500000238418579
@@ -27,6 +28,7 @@ items:
     volume: 10.0
   Domination Heavy Assault Missile Launcher:
     ChargeGroup1: 772
+    ChargeGroup2: 654
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
@@ -53,6 +55,7 @@ items:
     volume: 10.0
   Dread Guristas Heavy Assault Missile Launcher:
     ChargeGroup1: 772
+    ChargeGroup2: 654
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8500000238418579
@@ -154,6 +157,7 @@ items:
     volume: 10.0
   Khanid Navy Heavy Assault Missile Launcher:
     ChargeGroup1: 772
+    ChargeGroup2: 654
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8500000238418579
@@ -259,6 +263,7 @@ items:
     volume: 10.0
   Republic Fleet Heavy Assault Missile Launcher:
     ChargeGroup1: 772
+    ChargeGroup2: 654
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
@@ -285,6 +290,7 @@ items:
     volume: 10.0
   True Sansha Heavy Assault Missile Launcher:
     ChargeGroup1: 772
+    ChargeGroup2: 654
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421

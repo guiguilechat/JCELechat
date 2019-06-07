@@ -1,239 +1,119 @@
 items:
   Barracuda Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25636
     mass: 100000.0
     name: Barracuda Drone
     published: false
     volume: 60.0
   Decimator Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25641
     mass: 100000.0
     name: Decimator Drone
     published: false
     volume: 60.0
   Devilfish Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25645
     mass: 100000.0
     name: Devilfish Drone
     published: false
     volume: 60.0
   Hunter Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25656
     mass: 100000.0
     name: Hunter Drone
     published: false
     volume: 60.0
   Infester Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25658
     mass: 100000.0
     name: Infester Drone
     published: false
     volume: 60.0
   Raider Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25667
     mass: 100000.0
     name: Raider Drone
     published: false
     volume: 60.0
   Render Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25668
     mass: 100000.0
     name: Render Drone
     published: false
     volume: 60.0
   Silverfish Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25674
     mass: 100000.0
     name: Silverfish Drone
     published: false
     volume: 60.0
   Splinter Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25676
     mass: 100000.0
     name: Splinter Drone
     published: false
     volume: 60.0
   Strain Barracuda Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25679
     mass: 100000.0
     name: Strain Barracuda Drone
     published: false
     volume: 60.0
   Strain Decimator Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25681
     mass: 100000.0
     name: Strain Decimator Drone
     published: false
     volume: 60.0
   Strain Devilfish Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25684
     mass: 100000.0
     name: Strain Devilfish Drone
     published: false
     volume: 60.0
   Strain Hunter Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25686
     mass: 100000.0
     name: Strain Hunter Drone
     published: false
     volume: 60.0
   Strain Infester Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25687
     mass: 100000.0
     name: Strain Infester Drone
     published: false
     volume: 60.0
   Strain Raider Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25689
     mass: 100000.0
     name: Strain Raider Drone
     published: false
     volume: 60.0
   Strain Render Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25690
     mass: 100000.0
     name: Strain Render Drone
     published: false
     volume: 60.0
   Strain Silverfish Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25691
     mass: 100000.0
     name: Strain Silverfish Drone
     published: false
     volume: 60.0
   Strain Splinter Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25692
     mass: 100000.0
     name: Strain Splinter Drone
     published: false
     volume: 60.0
   Strain Sunder Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25693
     mass: 100000.0
     name: Strain Sunder Drone
     published: false
     volume: 60.0
   Sunder Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25698
     mass: 100000.0
     name: Sunder Drone

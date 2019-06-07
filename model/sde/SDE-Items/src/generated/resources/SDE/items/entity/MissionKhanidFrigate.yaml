@@ -1,95 +1,47 @@
 items:
   Athran Agent:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29200
     mass: 1740000.0
     name: Athran Agent
     published: false
     volume: 17400.0
   Athran Operative:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29201
     mass: 1000000.0
     name: Athran Operative
     published: false
     volume: 28100.0
   Khanid Elite Fighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 12029
     mass: 2870000.0
     name: Khanid Elite Fighter
     published: false
     volume: 28700.0
   Khanid Fighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11947
     mass: 1810000.0
     name: Khanid Fighter
     published: false
     volume: 18100.0
   Khanid Rookie:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16171
     mass: 1740000.0
     name: Khanid Rookie
     published: false
     volume: 17400.0
   Khanid Scout:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16178
     mass: 1000000.0
     name: Khanid Scout
     published: false
     volume: 28100.0
   Khanid Sparrow:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16172
     mass: 2870000.0
     name: Khanid Sparrow
     published: false
     volume: 28700.0
   Khanid Wingman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16212
     mass: 1425000.0
     name: Khanid Wingman

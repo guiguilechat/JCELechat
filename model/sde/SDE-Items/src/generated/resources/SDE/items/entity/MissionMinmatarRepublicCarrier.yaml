@@ -1,11 +1,5 @@
 items:
   Republic Harkal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27721
     mass: 9.225E8
     name: Republic Harkal

@@ -1,143 +1,71 @@
 items:
   Arachula Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10990
     mass: 2000000.0
     name: Arachula Apis
     published: false
     volume: 20000.0
   Asmodeus Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10994
     mass: 2000000.0
     name: Asmodeus Apis
     published: false
     volume: 20000.0
   Beelzebub Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10992
     mass: 2000000.0
     name: Beelzebub Apis
     published: false
     volume: 20000.0
   Belphegor Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10995
     mass: 2000000.0
     name: Belphegor Apis
     published: false
     volume: 20000.0
   Dragonfly Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10987
     mass: 2000000.0
     name: Dragonfly Apis
     published: false
     volume: 20000.0
   Incubus Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 18113
     mass: 2000000.0
     name: Incubus Apis
     published: false
     volume: 20000.0
   Malphas Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 18114
     mass: 2000000.0
     name: Malphas Apis
     published: false
     volume: 20000.0
   Mammon Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10993
     mass: 2000000.0
     name: Mammon Apis
     published: false
     volume: 20000.0
   Moth Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10986
     mass: 2000000.0
     name: Moth Apis
     published: false
     volume: 20000.0
   Scorpionfly Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10989
     mass: 2000000.0
     name: Scorpionfly Apis
     published: false
     volume: 20000.0
   Tarantula Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10991
     mass: 2000000.0
     name: Tarantula Apis
     published: false
     volume: 20000.0
   Termite Apis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10988
     mass: 2000000.0
     name: Termite Apis

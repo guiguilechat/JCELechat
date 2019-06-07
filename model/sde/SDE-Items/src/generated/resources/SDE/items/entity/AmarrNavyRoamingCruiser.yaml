@@ -1,22 +1,10 @@
 items:
   Amarr Navy Augoror:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 35815
     mass: 1.065E7
     name: Amarr Navy Augoror
     published: false
   Amarr Navy Omen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 35814
     mass: 1.085E7
     name: Amarr Navy Omen

@@ -1,47 +1,23 @@
 items:
   Ahremen Arkah:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13561
     mass: 2.05E7
     name: Ahremen Arkah
     published: false
     volume: 1100000.0
   Draclira Merlonne:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13564
     mass: 1.95E7
     name: Draclira Merlonne
     published: false
     volume: 1150000.0
   Raysere Giant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13557
     mass: 1.95E7
     name: Raysere Giant
     published: false
     volume: 1150000.0
   Tairei Namazoth:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13573
     mass: 2.05E7
     name: Tairei Namazoth

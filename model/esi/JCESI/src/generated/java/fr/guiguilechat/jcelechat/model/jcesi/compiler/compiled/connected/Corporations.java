@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_22;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_bids_4;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_items_6;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
@@ -40,6 +39,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_titles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
 import fr.lelouet.collectionholders.interfaces.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
@@ -84,7 +84,7 @@ public class Corporations {
     private final Map<Integer, ObsListHolder<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
     private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
-    private final Map<K_20_int_int, ObsListHolder<M_get_journal_13>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
+    private final Map<K_20_int_int, ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
 
     public Corporations(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -1935,9 +1935,9 @@ public class Corporations {
      * @param division
      *     Wallet key of the division to fetch journals from
      */
-    public ObsListHolder<M_get_journal_13> wallets_journal(int corporation_id, int division) {
+    public ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> wallets_journal(int corporation_id, int division) {
         K_20_int_int param = new K_20_int_int(division, corporation_id);
-        ObsListHolder<M_get_journal_13> ret = get_corporations_corporation_id_wallets_division_journal_holder.get(param);
+        ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> ret = get_corporations_corporation_id_wallets_division_journal_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_wallets_division_journal_holder);
             try {
@@ -1947,10 +1947,10 @@ public class Corporations {
                     {
                         ret = get_corporations_corporation_id_wallets_division_journal_holder.get(param);
                         if (ret == null) {
-                            ObservableList<M_get_journal_13> holder = FXCollections.observableArrayList();
+                            ObservableList<R_get_corporations_corporation_id_wallets_division_journal> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_corporations_corporation_id_wallets_division_journal_holder.put(param, ret);
-                            ObsListHolder<M_get_journal_13> finalRet = ret;
+                            ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> finalRet = ret;
                             (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_journal", (page, properties) -> (cache.swagger).get_corporations_wallets_journal(corporation_id, division, page, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

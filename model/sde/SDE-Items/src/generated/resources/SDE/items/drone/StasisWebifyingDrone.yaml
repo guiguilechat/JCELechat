@@ -102,7 +102,7 @@ items:
     ShieldRechargeRate: 200000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 52
     SpeedFactor: -10.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -160,7 +160,7 @@ items:
     ShieldRechargeRate: 125000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    SignatureRadius: 110
+    SignatureRadius: 26
     SpeedFactor: -5.0
     StructureUniformity: 1.0
     TechLevel: 1

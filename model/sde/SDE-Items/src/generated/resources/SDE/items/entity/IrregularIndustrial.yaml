@@ -1,35 +1,17 @@
 items:
   Bestower Livestock Transport:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48132
     mass: 1.35E7
     name: Bestower Livestock Transport
     published: false
     volume: 260000.0
   Frostline Transporter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49793
     mass: 1.35E7
     name: Frostline Transporter
     published: false
     volume: 275000.0
   Official Federation Grand Prix Transport Ship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48119
     mass: 1.105E8
     name: Official Federation Grand Prix Transport Ship

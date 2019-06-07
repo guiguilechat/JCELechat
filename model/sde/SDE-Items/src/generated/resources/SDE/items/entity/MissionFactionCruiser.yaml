@@ -1,83 +1,41 @@
 items:
   Amarr Cruiser Vessel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29235
     mass: 1.15E7
     name: Amarr Cruiser Vessel
     published: false
     volume: 115000.0
   Caldari Cruiser Vessel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29238
     mass: 1.07E7
     name: Caldari Cruiser Vessel
     published: false
     volume: 107000.0
   Gallente Cruiser Vessel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29241
     mass: 1.13E7
     name: Gallente Cruiser Vessel
     published: false
     volume: 113000.0
   Ishukone Escort:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32457
     mass: 1.01E7
     name: Ishukone Escort
     published: false
     volume: 101000.0
   Minmatar Cruiser Vessel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29244
     mass: 9900000.0
     name: Minmatar Cruiser Vessel
     published: false
     volume: 99000.0
   Rohan Shadrak's Scythe:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32785
     mass: 9900000.0
     name: Rohan Shadrak's Scythe
     published: false
     volume: 99000.0
   Tolmak's Zealots:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2224
     mass: 1.15E7
     name: Tolmak's Zealots

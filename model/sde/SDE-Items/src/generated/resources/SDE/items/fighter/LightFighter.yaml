@@ -5,8 +5,8 @@ items:
     FighterAbilityAttackMissileDamageKin: 72
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 5000
-    FighterAbilityAttackMissileExplosionRadius: 160
-    FighterAbilityAttackMissileExplosionVelocity: 150
+    FighterAbilityAttackMissileExplosionRadius: 185
+    FighterAbilityAttackMissileExplosionVelocity: 105
     FighterAbilityAttackMissileRangeFalloff: 5000
     FighterAbilityAttackMissileRangeOptimal: 4000
     FighterAbilityAttackMissileReductionFactor: 3.0
@@ -23,8 +23,8 @@ items:
     FighterAbilityMissilesDamageReductionFactor: 5.0
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDuration: 14000
-    FighterAbilityMissilesExplosionRadius: 350
-    FighterAbilityMissilesExplosionVelocity: 100
+    FighterAbilityMissilesExplosionRadius: 400
+    FighterAbilityMissilesExplosionVelocity: 70
     FighterAbilityMissilesRange: 10000
     FighterRefuelingTime: 5000
     FighterSquadronIsLight: 1
@@ -67,8 +67,8 @@ items:
     FighterAbilityAttackMissileDamageKin: 79
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 5000
-    FighterAbilityAttackMissileExplosionRadius: 160
-    FighterAbilityAttackMissileExplosionVelocity: 150
+    FighterAbilityAttackMissileExplosionRadius: 185
+    FighterAbilityAttackMissileExplosionVelocity: 105
     FighterAbilityAttackMissileRangeFalloff: 5000
     FighterAbilityAttackMissileRangeOptimal: 4800
     FighterAbilityAttackMissileReductionFactor: 3.0
@@ -85,8 +85,8 @@ items:
     FighterAbilityMissilesDamageReductionFactor: 5.0
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDuration: 14000
-    FighterAbilityMissilesExplosionRadius: 350
-    FighterAbilityMissilesExplosionVelocity: 100
+    FighterAbilityMissilesExplosionRadius: 400
+    FighterAbilityMissilesExplosionVelocity: 70
     FighterAbilityMissilesRange: 10000
     FighterRefuelingTime: 5000
     FighterSquadronIsLight: 1
@@ -129,8 +129,8 @@ items:
     FighterAbilityAttackMissileDamageExp: 62
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 5000
-    FighterAbilityAttackMissileExplosionRadius: 160
-    FighterAbilityAttackMissileExplosionVelocity: 150
+    FighterAbilityAttackMissileExplosionRadius: 185
+    FighterAbilityAttackMissileExplosionVelocity: 105
     FighterAbilityAttackMissileRangeFalloff: 10000
     FighterAbilityAttackMissileRangeOptimal: 4000
     FighterAbilityAttackMissileReductionFactor: 3.0
@@ -147,8 +147,8 @@ items:
     FighterAbilityMissilesDamageReductionFactor: 5.0
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDuration: 14000
-    FighterAbilityMissilesExplosionRadius: 350
-    FighterAbilityMissilesExplosionVelocity: 100
+    FighterAbilityMissilesExplosionRadius: 400
+    FighterAbilityMissilesExplosionVelocity: 70
     FighterAbilityMissilesRange: 10000
     FighterRefuelingTime: 5000
     FighterSquadronIsLight: 1
@@ -191,8 +191,8 @@ items:
     FighterAbilityAttackMissileDamageExp: 68
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 5000
-    FighterAbilityAttackMissileExplosionRadius: 160
-    FighterAbilityAttackMissileExplosionVelocity: 150
+    FighterAbilityAttackMissileExplosionRadius: 185
+    FighterAbilityAttackMissileExplosionVelocity: 105
     FighterAbilityAttackMissileRangeFalloff: 10000
     FighterAbilityAttackMissileRangeOptimal: 4800
     FighterAbilityAttackMissileReductionFactor: 3.0
@@ -209,8 +209,8 @@ items:
     FighterAbilityMissilesDamageReductionFactor: 5.0
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDuration: 14000
-    FighterAbilityMissilesExplosionRadius: 350
-    FighterAbilityMissilesExplosionVelocity: 100
+    FighterAbilityMissilesExplosionRadius: 400
+    FighterAbilityMissilesExplosionVelocity: 70
     FighterAbilityMissilesRange: 10000
     FighterRefuelingTime: 5000
     FighterSquadronIsLight: 1
@@ -368,8 +368,8 @@ items:
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 75
     FighterAbilityAttackMissileDuration: 5000
-    FighterAbilityAttackMissileExplosionRadius: 160
-    FighterAbilityAttackMissileExplosionVelocity: 150
+    FighterAbilityAttackMissileExplosionRadius: 185
+    FighterAbilityAttackMissileExplosionVelocity: 105
     FighterAbilityAttackMissileRangeFalloff: 5000
     FighterAbilityAttackMissileRangeOptimal: 4000
     FighterAbilityAttackMissileReductionFactor: 3.0
@@ -386,8 +386,8 @@ items:
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDamageTherm: 138
     FighterAbilityMissilesDuration: 14000
-    FighterAbilityMissilesExplosionRadius: 350
-    FighterAbilityMissilesExplosionVelocity: 100
+    FighterAbilityMissilesExplosionRadius: 400
+    FighterAbilityMissilesExplosionVelocity: 70
     FighterAbilityMissilesRange: 10000
     FighterRefuelingTime: 5000
     FighterSquadronIsLight: 1
@@ -430,8 +430,8 @@ items:
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 83
     FighterAbilityAttackMissileDuration: 5000
-    FighterAbilityAttackMissileExplosionRadius: 160
-    FighterAbilityAttackMissileExplosionVelocity: 150
+    FighterAbilityAttackMissileExplosionRadius: 185
+    FighterAbilityAttackMissileExplosionVelocity: 105
     FighterAbilityAttackMissileRangeFalloff: 5000
     FighterAbilityAttackMissileRangeOptimal: 4800
     FighterAbilityAttackMissileReductionFactor: 3.0
@@ -448,8 +448,8 @@ items:
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDamageTherm: 152
     FighterAbilityMissilesDuration: 14000
-    FighterAbilityMissilesExplosionRadius: 350
-    FighterAbilityMissilesExplosionVelocity: 100
+    FighterAbilityMissilesExplosionRadius: 400
+    FighterAbilityMissilesExplosionVelocity: 70
     FighterAbilityMissilesRange: 10000
     FighterRefuelingTime: 5000
     FighterSquadronIsLight: 1
@@ -1749,8 +1749,8 @@ items:
     FighterAbilityAttackMissileDamageEM: 65
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 5000
-    FighterAbilityAttackMissileExplosionRadius: 160
-    FighterAbilityAttackMissileExplosionVelocity: 150
+    FighterAbilityAttackMissileExplosionRadius: 185
+    FighterAbilityAttackMissileExplosionVelocity: 105
     FighterAbilityAttackMissileRangeFalloff: 5000
     FighterAbilityAttackMissileRangeOptimal: 8000
     FighterAbilityAttackMissileReductionFactor: 3.0
@@ -1767,8 +1767,8 @@ items:
     FighterAbilityMissilesDamageReductionFactor: 5.0
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDuration: 14000
-    FighterAbilityMissilesExplosionRadius: 350
-    FighterAbilityMissilesExplosionVelocity: 100
+    FighterAbilityMissilesExplosionRadius: 400
+    FighterAbilityMissilesExplosionVelocity: 70
     FighterAbilityMissilesRange: 10000
     FighterRefuelingTime: 5000
     FighterSquadronIsLight: 1
@@ -1811,8 +1811,8 @@ items:
     FighterAbilityAttackMissileDamageEM: 72
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 5000
-    FighterAbilityAttackMissileExplosionRadius: 160
-    FighterAbilityAttackMissileExplosionVelocity: 150
+    FighterAbilityAttackMissileExplosionRadius: 185
+    FighterAbilityAttackMissileExplosionVelocity: 105
     FighterAbilityAttackMissileRangeFalloff: 5000
     FighterAbilityAttackMissileRangeOptimal: 9600
     FighterAbilityAttackMissileReductionFactor: 3.0
@@ -1829,8 +1829,8 @@ items:
     FighterAbilityMissilesDamageReductionFactor: 5.0
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDuration: 14000
-    FighterAbilityMissilesExplosionRadius: 350
-    FighterAbilityMissilesExplosionVelocity: 100
+    FighterAbilityMissilesExplosionRadius: 400
+    FighterAbilityMissilesExplosionVelocity: 70
     FighterAbilityMissilesRange: 10000
     FighterRefuelingTime: 5000
     FighterSquadronIsLight: 1

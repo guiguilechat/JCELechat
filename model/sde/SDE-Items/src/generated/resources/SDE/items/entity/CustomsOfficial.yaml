@@ -1,203 +1,101 @@
 items:
   Amarr Customs Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17286
     mass: 2870000.0
     name: Amarr Customs Captain
     published: false
     volume: 28700.0
   Amarr Customs General:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19371
     mass: 2.0E7
     name: Amarr Customs General
     published: false
     volume: 1080000.0
   Amarr Customs Surveillance Officer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19372
     mass: 1810000.0
     name: Amarr Customs Surveillance Officer
     published: false
     volume: 18100.0
   Ammatar Customs General:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19366
     mass: 2.0E7
     name: Ammatar Customs General
     published: false
     volume: 1080000.0
   Ammatar Customs Surveillance Officer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19387
     mass: 1810000.0
     name: Ammatar Customs Surveillance Officer
     published: false
     volume: 18100.0
   CONCORD Customs Commander:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19563
     mass: 2.0E7
     name: CONCORD Customs Commander
     published: false
     volume: 1080000.0
   CONCORD Customs Official:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19564
     mass: 2040000.0
     name: CONCORD Customs Official
     published: false
     volume: 20400.0
   Caldari Customs Agent:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19385
     mass: 1650000.0
     name: Caldari Customs Agent
     published: false
     volume: 16500.0
   Caldari Customs Commissioner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19367
     mass: 2.0E7
     name: Caldari Customs Commissioner
     published: false
     volume: 1080000.0
   Gallente Customs Major:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19369
     mass: 2.0E7
     name: Gallente Customs Major
     published: false
     volume: 1080000.0
   Gallente Customs Official:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19383
     mass: 2040000.0
     name: Gallente Customs Official
     published: false
     volume: 20400.0
   Khanid Customs General Major:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19368
     mass: 2.0E7
     name: Khanid Customs General Major
     published: false
     volume: 1080000.0
   Khanid Customs Surveillance Officer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19386
     mass: 80000.0
     name: Khanid Customs Surveillance Officer
     published: false
     volume: 20400.0
   Minmatar Customs Commander:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19370
     mass: 2.0E7
     name: Minmatar Customs Commander
     published: false
     volume: 1080000.0
   Minmatar Customs Patroller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19388
     mass: 1200000.0
     name: Minmatar Customs Patroller
     published: false
     volume: 12000.0
   Sarum Customs General:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19365
     mass: 2.0E7
     name: Sarum Customs General
     published: false
     volume: 1080000.0
   Sarum Customs Surveillance Officer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19384
     mass: 1810000.0
     name: Sarum Customs Surveillance Officer

@@ -12,7 +12,7 @@ items:
     id: 13278
     marketGroup: 1110
     name: Archaeology
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Astrometric Acquisition:
@@ -25,7 +25,7 @@ items:
     id: 25811
     marketGroup: 1110
     name: Astrometric Acquisition
-    price: 450000.0
+    price: 1000000.0
     published: true
     volume: 0.01
   Astrometric Pinpointing:
@@ -38,7 +38,7 @@ items:
     id: 25810
     marketGroup: 1110
     name: Astrometric Pinpointing
-    price: 450000.0
+    price: 1000000.0
     published: true
     volume: 0.01
   Astrometric Rangefinding:
@@ -51,7 +51,7 @@ items:
     id: 25739
     marketGroup: 1110
     name: Astrometric Rangefinding
-    price: 450000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Astrometrics:
@@ -66,7 +66,7 @@ items:
     id: 3412
     marketGroup: 1110
     name: Astrometrics
-    price: 450000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Hacking:
@@ -82,7 +82,7 @@ items:
     id: 21718
     marketGroup: 1110
     name: Hacking
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Survey:
@@ -95,6 +95,6 @@ items:
     id: 3551
     marketGroup: 1110
     name: Survey
-    price: 36000.0
+    price: 55000.0
     published: true
     volume: 0.01

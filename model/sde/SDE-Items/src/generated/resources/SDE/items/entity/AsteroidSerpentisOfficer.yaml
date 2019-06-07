@@ -1,47 +1,23 @@
 items:
   Brynn Jerdola:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13661
     mass: 1.9E7
     name: Brynn Jerdola
     published: false
     volume: 1010000.0
   Cormack Vaaja:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13654
     mass: 1.75E7
     name: Cormack Vaaja
     published: false
     volume: 1140000.0
   Setele Schellan:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13667
     mass: 1.9E7
     name: Setele Schellan
     published: false
     volume: 1010000.0
   Tuvan Orth:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13659
     mass: 1.75E7
     name: Tuvan Orth

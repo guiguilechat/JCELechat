@@ -236,6 +236,34 @@ public class HeavyAssaultCruiser
     @DefaultDoubleValue(0.0)
     public double ShipBonusMC2;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusPC1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPC2;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
+    /**
      * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
@@ -366,6 +394,22 @@ public class HeavyAssaultCruiser
             case  659 :
             {
                 return ShipBonusMC2;
+            }
+            case  2764 :
+            {
+                return ShipBonusPC1;
+            }
+            case  2765 :
+            {
+                return ShipBonusPC2;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
             }
             case  1154 :
             {

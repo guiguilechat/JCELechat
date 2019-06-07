@@ -1,47 +1,23 @@
 items:
   Estamel Tharchon:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13603
     mass: 1080000.0
     name: Estamel Tharchon
     published: false
     volume: 2.2E7
   Kaikka Peunato:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13589
     mass: 2.1E7
     name: Kaikka Peunato
     published: false
     volume: 1040000.0
   Thon Eney:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13584
     mass: 2.2E7
     name: Thon Eney
     published: false
     volume: 1080000.0
   Vepas Minimala:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13580
     mass: 2.1E7
     name: Vepas Minimala

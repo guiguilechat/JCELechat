@@ -1,863 +1,431 @@
 items:
   Amarr CA Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 45050
     mass: 1265000.0
     name: Amarr CA Frigate
     published: false
     volume: 18100.0
   Ammatar Navy Delta I Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15982
     mass: 2810000.0
     name: Ammatar Navy Delta I Support Frigate
     published: false
     volume: 28100.0
   Ammatar Navy Delta II Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15983
     mass: 2810000.0
     name: Ammatar Navy Delta II Support Frigate
     published: false
     volume: 28100.0
   Ammatar Navy Detective:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11658
     mass: 1.09E7
     name: Ammatar Navy Detective
     published: false
     volume: 109000.0
   Ammatar Navy Elite Soldier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15578
     mass: 1265000.0
     name: Ammatar Navy Elite Soldier
     published: false
     volume: 18100.0
   Ammatar Navy Executioner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 14363
     mass: 1000000.0
     name: Ammatar Navy Executioner
     published: false
     volume: 28100.0
   Ammatar Navy Gamma I Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15978
     mass: 2870000.0
     name: Ammatar Navy Gamma I Support Frigate
     published: false
     volume: 28700.0
   Ammatar Navy Gamma II Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15977
     mass: 2870000.0
     name: Ammatar Navy Gamma II Support Frigate
     published: false
     volume: 28700.0
   Ammatar Navy Inquisitor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 14482
     mass: 1525000.0
     name: Ammatar Navy Inquisitor
     published: false
     volume: 28700.0
   Ammatar Navy Officer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 14364
     mass: 1.09E7
     name: Ammatar Navy Officer
     published: false
     volume: 109000.0
   Ammatar Navy Scout:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11663
     mass: 1910000.0
     name: Ammatar Navy Scout
     published: false
     volume: 19100.0
   Ammatar Navy Soldier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 14352
     mass: 1265000.0
     name: Ammatar Navy Soldier
     published: false
     volume: 18100.0
   Ammatar Navy Squad Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15347
     mass: 1425000.0
     name: Ammatar Navy Squad Leader
     published: false
     volume: 28600.0
   Civilian Amarr Frigate Crucifier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30763
     mass: 2820000.0
     name: Civilian Amarr Frigate Crucifier
     published: false
     volume: 24398.0
   Civilian Amarr Frigate Executioner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30764
     mass: 2820000.0
     name: Civilian Amarr Frigate Executioner
     published: false
     volume: 24398.0
   Civilian Amarr Frigate Inquisitor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30765
     mass: 2820000.0
     name: Civilian Amarr Frigate Inquisitor
     published: false
     volume: 24398.0
   Civilian Amarr Frigate Punisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30766
     mass: 2820000.0
     name: Civilian Amarr Frigate Punisher
     published: false
     volume: 24398.0
   Divine Imperial Bahir:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24927
     mass: 2860000.0
     name: Divine Imperial Bahir
     published: false
     volume: 28600.0
   Divine Imperial Felix:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24924
     mass: 2860000.0
     name: Divine Imperial Felix
     published: false
     volume: 28600.0
   Divine Imperial Forian:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24930
     mass: 2860000.0
     name: Divine Imperial Forian
     published: false
     volume: 28600.0
   Divine Imperial Imran:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24925
     mass: 2870000.0
     name: Divine Imperial Imran
     published: false
     volume: 28700.0
   Divine Imperial Nabih:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24923
     mass: 2870000.0
     name: Divine Imperial Nabih
     published: false
     volume: 28700.0
   Divine Imperial Napat:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24928
     mass: 2860000.0
     name: Divine Imperial Napat
     published: false
     volume: 28600.0
   Divine Imperial Paladin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24932
     mass: 2860000.0
     name: Divine Imperial Paladin
     published: false
     volume: 28600.0
   Divine Imperial Sixtus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24926
     mass: 2860000.0
     name: Divine Imperial Sixtus
     published: false
     volume: 28600.0
   Divine Imperial Sprite:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24929
     mass: 2860000.0
     name: Divine Imperial Sprite
     published: false
     volume: 28600.0
   Divine Imperial Valok:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24931
     mass: 2860000.0
     name: Divine Imperial Valok
     published: false
     volume: 28600.0
   Imperial Bahir:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24899
     mass: 2810000.0
     name: Imperial Bahir
     published: false
     volume: 28100.0
   Imperial Disciple:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24891
     mass: 2810000.0
     name: Imperial Disciple
     published: false
     volume: 28100.0
   Imperial Dopa:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24892
     mass: 2810000.0
     name: Imperial Dopa
     published: false
     volume: 28100.0
   Imperial Felix:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24905
     mass: 2870000.0
     name: Imperial Felix
     published: false
     volume: 28700.0
   Imperial Felix_old:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24897
     mass: 2810000.0
     name: Imperial Felix_old
     published: false
     volume: 28100.0
   Imperial Forian:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24901
     mass: 2810000.0
     name: Imperial Forian
     published: false
     volume: 28100.0
   Imperial Forian_old:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24903
     mass: 2870000.0
     name: Imperial Forian_old
     published: false
     volume: 28700.0
   Imperial Haran:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24893
     mass: 2820000.0
     name: Imperial Haran
     published: false
     volume: 24398.0
   Imperial Iezaz:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24894
     mass: 2820000.0
     name: Imperial Iezaz
     published: false
     volume: 24398.0
   Imperial Matendi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24895
     mass: 2810000.0
     name: Imperial Matendi
     published: false
     volume: 28100.0
   Imperial Nabih:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24896
     mass: 2810000.0
     name: Imperial Nabih
     published: false
     volume: 28100.0
   Imperial Navy Crucifer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 14479
     mass: 1525000.0
     name: Imperial Navy Crucifer
     published: false
     volume: 28100.0
   Imperial Navy Delta I Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15987
     mass: 2810000.0
     name: Imperial Navy Delta I Support Frigate
     published: false
     volume: 28100.0
   Imperial Navy Delta II Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15986
     mass: 2810000.0
     name: Imperial Navy Delta II Support Frigate
     published: false
     volume: 28100.0
   Imperial Navy Detective:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11657
     mass: 1.09E7
     name: Imperial Navy Detective
     published: false
     volume: 109000.0
   Imperial Navy Elite Soldier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15577
     mass: 1265000.0
     name: Imperial Navy Elite Soldier
     published: false
     volume: 18100.0
   Imperial Navy Executioner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 14362
     mass: 1000000.0
     name: Imperial Navy Executioner
     published: false
     volume: 28100.0
   Imperial Navy Gamma I Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15985
     mass: 2870000.0
     name: Imperial Navy Gamma I Support Frigate
     published: false
     volume: 28700.0
   Imperial Navy Gamma II Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15984
     mass: 2870000.0
     name: Imperial Navy Gamma II Support Frigate
     published: false
     volume: 28700.0
   Imperial Navy Scout:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11662
     mass: 1910000.0
     name: Imperial Navy Scout
     published: false
     volume: 19100.0
   Imperial Navy Soldier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 14351
     mass: 1265000.0
     name: Imperial Navy Soldier
     published: false
     volume: 18100.0
   Imperial Navy Squad Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15344
     mass: 1425000.0
     name: Imperial Navy Squad Leader
     published: false
     volume: 28600.0
   Imperial Paladin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24904
     mass: 2860000.0
     name: Imperial Paladin
     published: false
     volume: 28600.0
   Imperial Sixtus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24898
     mass: 2810000.0
     name: Imperial Sixtus
     published: false
     volume: 28100.0
   Imperial Sprite:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24902
     mass: 2810000.0
     name: Imperial Sprite
     published: false
     volume: 28100.0
   Imperial Templar Forian:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24900
     mass: 2810000.0
     name: Imperial Templar Forian
     published: false
     volume: 28100.0
   Imperial Templar Forian_old:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24908
     mass: 2860000.0
     name: Imperial Templar Forian_old
     published: false
     volume: 28600.0
   Imperial Templar Napat:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24906
     mass: 2870000.0
     name: Imperial Templar Napat
     published: false
     volume: 28700.0
   Imperial Templar Paladin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24907
     mass: 2860000.0
     name: Imperial Templar Paladin
     published: false
     volume: 28600.0
   Imperial Templar Paladin_old:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24910
     mass: 2860000.0
     name: Imperial Templar Paladin_old
     published: false
     volume: 28600.0
   Imperial Templar Valok:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24909
     mass: 2870000.0
     name: Imperial Templar Valok
     published: false
     volume: 28700.0
   Independent Crucifier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29808
     mass: 2860000.0
     name: Independent Crucifier
     published: false
     volume: 28600.0
   Independent Executioner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29809
     mass: 2860000.0
     name: Independent Executioner
     published: false
     volume: 28600.0
   Independent Green-Crewed Crucifier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29807
     mass: 2820000.0
     name: Independent Green-Crewed Crucifier
     published: false
     volume: 24398.0
   Independent Green-Crewed Executioner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29804
     mass: 2820000.0
     name: Independent Green-Crewed Executioner
     published: false
     volume: 24398.0
   Independent Green-Crewed Inquisitor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29805
     mass: 2820000.0
     name: Independent Green-Crewed Inquisitor
     published: false
     volume: 24398.0
   Independent Green-Crewed Punisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29806
     mass: 2820000.0
     name: Independent Green-Crewed Punisher
     published: false
     volume: 24398.0
   Independent Inquisitor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29810
     mass: 2860000.0
     name: Independent Inquisitor
     published: false
     volume: 28600.0
   Independent Punisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29811
     mass: 2860000.0
     name: Independent Punisher
     published: false
     volume: 28600.0
   Independent Veteran Crucifier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29812
     mass: 2860000.0
     name: Independent Veteran Crucifier
     published: false
     volume: 28600.0
   Independent Veteran Executioner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29813
     mass: 2860000.0
     name: Independent Veteran Executioner
     published: false
     volume: 28600.0
   Independent Veteran Inquisitor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29814
     mass: 2860000.0
     name: Independent Veteran Inquisitor
     published: false
     volume: 28600.0
   Independent Veteran Punisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29815
     mass: 2860000.0
     name: Independent Veteran Punisher
     published: false
     volume: 28600.0
   Izia Tabar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30818
     mass: 2860000.0
     name: Izia Tabar
     published: false
     volume: 28600.0
   Sarum Spider:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16244
     mass: 2870000.0
     name: Sarum Spider

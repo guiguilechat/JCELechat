@@ -1,119 +1,59 @@
 items:
   Angel Cherubim:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22842
     mass: 1.9E7
     name: Angel Cherubim
     published: false
     volume: 1.9E7
   Angel Commander:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11898
     mass: 1.9E7
     name: Angel Commander
     published: false
     volume: 1.9E7
   Angel General:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11899
     mass: 1.9E7
     name: Angel General
     published: false
     volume: 1.9E7
   Angel Malakim:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22840
     mass: 1.9E7
     name: Angel Malakim
     published: false
     volume: 1.9E7
   Angel Nephilim:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22839
     mass: 1.9E7
     name: Angel Nephilim
     published: false
     volume: 1.9E7
   Angel Saint:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22838
     mass: 1.9E7
     name: Angel Saint
     published: false
     volume: 1.9E7
   Angel Seraphim:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22843
     mass: 1.9E7
     name: Angel Seraphim
     published: false
     volume: 1.9E7
   Angel Throne:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22841
     mass: 1.9E7
     name: Angel Throne
     published: false
     volume: 1.9E7
   Angel War General:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11927
     mass: 1.9E7
     name: Angel War General
     published: false
     volume: 1.9E7
   Angel Warlord:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11900
     mass: 1.9E7
     name: Angel Warlord

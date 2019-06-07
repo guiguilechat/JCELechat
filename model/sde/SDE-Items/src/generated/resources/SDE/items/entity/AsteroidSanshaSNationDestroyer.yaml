@@ -1,71 +1,35 @@
 items:
   Sansha's Abomination:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23406
     mass: 2112000.0
     name: Sansha's Abomination
     published: false
     volume: 21120.0
   Sansha's Cannibal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23379
     mass: 2112000.0
     name: Sansha's Cannibal
     published: false
     volume: 21120.0
   Sansha's Devourer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23405
     mass: 2112000.0
     name: Sansha's Devourer
     published: false
     volume: 21120.0
   Sansha's Horror:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23408
     mass: 2112000.0
     name: Sansha's Horror
     published: false
     volume: 21120.0
   Sansha's Misshape:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23378
     mass: 2112000.0
     name: Sansha's Misshape
     published: false
     volume: 21120.0
   Sansha's Monster:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23407
     mass: 2112000.0
     name: Sansha's Monster

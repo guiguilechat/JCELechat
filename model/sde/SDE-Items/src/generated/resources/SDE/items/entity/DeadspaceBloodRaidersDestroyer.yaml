@@ -1,143 +1,71 @@
 items:
   Corpior Cleric:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23983
     mass: 2860000.0
     name: Corpior Cleric
     published: false
     volume: 28600.0
   Corpior Converter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23979
     mass: 2860000.0
     name: Corpior Converter
     published: false
     volume: 28600.0
   Corpior Devoter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23981
     mass: 2860000.0
     name: Corpior Devoter
     published: false
     volume: 28600.0
   Corpior Friar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23982
     mass: 2860000.0
     name: Corpior Friar
     published: false
     volume: 28600.0
   Corpior Templar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23980
     mass: 2860000.0
     name: Corpior Templar
     published: false
     volume: 28600.0
   Corpior Visionary:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23970
     mass: 2860000.0
     name: Corpior Visionary
     published: false
     volume: 28600.0
   Dark Corpior Cleric:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24228
     mass: 2860000.0
     name: Dark Corpior Cleric
     published: false
     volume: 28600.0
   Dark Corpior Converter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24224
     mass: 2860000.0
     name: Dark Corpior Converter
     published: false
     volume: 28600.0
   Dark Corpior Devoter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24226
     mass: 2860000.0
     name: Dark Corpior Devoter
     published: false
     volume: 28600.0
   Dark Corpior Friar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24227
     mass: 2860000.0
     name: Dark Corpior Friar
     published: false
     volume: 28600.0
   Dark Corpior Templar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24225
     mass: 2860000.0
     name: Dark Corpior Templar
     published: false
     volume: 28600.0
   Dark Corpior Visioner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24223
     mass: 2860000.0
     name: Dark Corpior Visioner

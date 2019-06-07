@@ -1,83 +1,41 @@
 items:
   Mordus Bobcat:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16027
     mass: 9600000.0
     name: Mordus Bobcat
     published: false
     volume: 96000.0
   Mordus Cheetah:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16028
     mass: 9200000.0
     name: Mordus Cheetah
     published: false
     volume: 92000.0
   Mordus Escort:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32456
     mass: 9600000.0
     name: Mordus Escort
     published: false
     volume: 96000.0
   Mordus Leopard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16031
     mass: 1.01E7
     name: Mordus Leopard
     published: false
     volume: 101000.0
   Mordus Lion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16033
     mass: 1.01E7
     name: Mordus Lion
     published: false
     volume: 101000.0
   Mordus Puma:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16030
     mass: 1.01E7
     name: Mordus Puma
     published: false
     volume: 101000.0
   Mordus Raid Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16038
     mass: 1.01E7
     name: Mordus Raid Leader

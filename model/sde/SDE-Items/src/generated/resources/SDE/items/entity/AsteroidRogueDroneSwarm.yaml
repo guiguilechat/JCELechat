@@ -1,143 +1,71 @@
 items:
   Arachula Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25633
     mass: 2000000.0
     name: Arachula Drone
     published: false
     volume: 20000.0
   Asmodeus Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25634
     mass: 2000000.0
     name: Asmodeus Drone
     published: false
     volume: 20000.0
   Beelzebub Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25637
     mass: 2000000.0
     name: Beelzebub Drone
     published: false
     volume: 20000.0
   Belphegor Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25638
     mass: 2000000.0
     name: Belphegor Drone
     published: false
     volume: 20000.0
   Dragonfly Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25649
     mass: 2000000.0
     name: Dragonfly Drone
     published: false
     volume: 20000.0
   Incubus Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25657
     mass: 2000000.0
     name: Incubus Drone
     published: false
     volume: 20000.0
   Malphas Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25659
     mass: 2000000.0
     name: Malphas Drone
     published: false
     volume: 20000.0
   Mammon Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25660
     mass: 2000000.0
     name: Mammon Drone
     published: false
     volume: 20000.0
   Moth Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25663
     mass: 2000000.0
     name: Moth Drone
     published: false
     volume: 20000.0
   Scorpionfly Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25670
     mass: 2000000.0
     name: Scorpionfly Drone
     published: false
     volume: 20000.0
   Tarantula Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25701
     mass: 2000000.0
     name: Tarantula Drone
     published: false
     volume: 20000.0
   Termite Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25702
     mass: 2000000.0
     name: Termite Drone

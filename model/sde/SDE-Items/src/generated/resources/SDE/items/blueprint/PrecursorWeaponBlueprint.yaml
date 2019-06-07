@@ -80,3 +80,45 @@ items:
     price: 9000000.0
     published: true
     volume: 0.01
+  Veles Heavy Entropic Disintegrator Blueprint:
+    id: 52349
+    marketGroup: 293
+    name: Veles Heavy Entropic Disintegrator Blueprint
+    price: 1200000.0
+    published: true
+    volume: 0.01
+  Veles Light Entropic Disintegrator Blueprint:
+    id: 52348
+    marketGroup: 292
+    name: Veles Light Entropic Disintegrator Blueprint
+    price: 120000.0
+    published: true
+    volume: 0.01
+  Veles Supratidal Entropic Disintegrator Blueprint:
+    id: 52350
+    marketGroup: 295
+    name: Veles Supratidal Entropic Disintegrator Blueprint
+    price: 9000000.0
+    published: true
+    volume: 0.01
+  Zorya's Heavy Entropic Disintegrator Blueprint:
+    id: 52239
+    marketGroup: 293
+    name: Zorya's Heavy Entropic Disintegrator Blueprint
+    price: 1200000.0
+    published: true
+    volume: 0.01
+  Zorya's Light Entropic Disintegrator Blueprint:
+    id: 52237
+    marketGroup: 292
+    name: Zorya's Light Entropic Disintegrator Blueprint
+    price: 120000.0
+    published: true
+    volume: 0.01
+  Zorya's Supratidal Entropic Disintegrator Blueprint:
+    id: 52241
+    marketGroup: 295
+    name: Zorya's Supratidal Entropic Disintegrator Blueprint
+    price: 9000000.0
+    published: true
+    volume: 0.01

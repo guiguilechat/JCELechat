@@ -1,71 +1,35 @@
 items:
   Angel Defacer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22813
     mass: 1645000.0
     name: Angel Defacer
     published: false
     volume: 16450.0
   Angel Defiler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22815
     mass: 1645000.0
     name: Angel Defiler
     published: false
     volume: 16450.0
   Angel Haunter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22814
     mass: 1645000.0
     name: Angel Haunter
     published: false
     volume: 16450.0
   Angel Seizer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22816
     mass: 1645000.0
     name: Angel Seizer
     published: false
     volume: 16450.0
   Angel Shatterer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22812
     mass: 1645000.0
     name: Angel Shatterer
     published: false
     volume: 16450.0
   Angel Trasher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22817
     mass: 1645000.0
     name: Angel Trasher

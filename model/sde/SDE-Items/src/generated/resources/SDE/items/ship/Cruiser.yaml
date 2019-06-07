@@ -604,6 +604,8 @@ items:
     CapacitorCapacity: 1450.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 465
+    DroneBandwidth: 25
+    DroneCapacity: 25
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 150
@@ -1087,6 +1089,7 @@ items:
     ShipBonusGC: 5.0
     ShipBonusGC2: 10.0
     ShipBonusRole7: 500.0
+    ShipBonusRole8: 250.0
     SignatureRadius: 145
     StructureUniformity: 1.0
     TechLevel: 1
@@ -2958,7 +2961,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusCC: 5
     ShipBonusGC2: 10.0
-    SignatureRadius: 135
+    SignatureRadius: 145
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005

@@ -111,6 +111,14 @@ items:
     name: Laser Focusing Crystals
     published: true
     volume: 1.0
+  Lattice Locked Dekaisogen:
+    MoonMiningAmount: 1
+    id: 52314
+    marketGroup: 802
+    mass: 1.0
+    name: Lattice Locked Dekaisogen
+    published: true
+    volume: 1.0
   Linear Shield Emitter:
     MoonMiningAmount: 100
     id: 11557
@@ -231,12 +239,28 @@ items:
     name: Radar Sensor Cluster
     published: true
     volume: 1.0
+  Radiation Absorption Thruster:
+    MoonMiningAmount: 1
+    id: 52310
+    marketGroup: 802
+    mass: 1.0
+    name: Radiation Absorption Thruster
+    published: true
+    volume: 1.0
   Scalar Capacitor Unit:
     MoonMiningAmount: 100
     id: 11552
     marketGroup: 803
     mass: 1.0
     name: Scalar Capacitor Unit
+    published: true
+    volume: 1.0
+  'Singularity Radiation Convertor ':
+    MoonMiningAmount: 1
+    id: 52311
+    marketGroup: 802
+    mass: 1.0
+    name: 'Singularity Radiation Convertor '
     published: true
     volume: 1.0
   Spatial Attunement Unit:
@@ -287,11 +311,27 @@ items:
     name: Titanium Diborite Armor Plate
     published: true
     volume: 1.0
+  Trinary State Processor:
+    MoonMiningAmount: 1
+    id: 52313
+    marketGroup: 802
+    mass: 1.0
+    name: Trinary State Processor
+    published: true
+    volume: 1.0
   Tungsten Carbide Armor Plate:
     MoonMiningAmount: 100
     id: 11543
     marketGroup: 802
     mass: 1.0
     name: Tungsten Carbide Armor Plate
+    published: true
+    volume: 1.0
+  Zero-Point Field Manipulator:
+    MoonMiningAmount: 1
+    id: 52312
+    marketGroup: 802
+    mass: 1.0
+    name: Zero-Point Field Manipulator
     published: true
     volume: 1.0

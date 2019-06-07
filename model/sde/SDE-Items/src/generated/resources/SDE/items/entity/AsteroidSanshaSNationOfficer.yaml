@@ -1,47 +1,23 @@
 items:
   Brokara Ryver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13609
     mass: 1.001E7
     name: Brokara Ryver
     published: false
     volume: 100100.0
   Chelm Soran:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13635
     mass: 1.001E7
     name: Chelm Soran
     published: false
     volume: 100100.0
   Selynne Mardakar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13615
     mass: 1.001E7
     name: Selynne Mardakar
     published: false
     volume: 100100.0
   Vizan Ankonin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13622
     mass: 1.001E7
     name: Vizan Ankonin

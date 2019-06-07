@@ -1,301 +1,145 @@
 items:
   ♦ Annihilator Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43649
     mass: 100000.0
     name: ♦ Annihilator Drone
     published: false
     volume: 60.0
   ♦ Arbitrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43603
     mass: 1.12E7
     name: ♦ Arbitrator
     published: false
     volume: 120000.0
   ♦ Ashimmu:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46054
     mass: 1.101E7
     name: ♦ Ashimmu
     published: false
     volume: 118000.0
   ♦ Augoror:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43602
     mass: 1.287E7
     name: ♦ Augoror
     published: false
     volume: 115000.0
   ♦ Bellicose:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43592
     mass: 1.155E7
     name: ♦ Bellicose
     published: false
     volume: 85000.0
   ♦ Blackbird:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43625
     mass: 1.319E7
     name: ♦ Blackbird
     published: false
     volume: 96000.0
   ♦ Caracal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46581
     mass: 1.191E7
     name: ♦ Caracal
     published: false
     volume: 92000.0
   ♦ Celestis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43581
     mass: 1.207E7
     name: ♦ Celestis
     published: false
     volume: 116000.0
   ♦ Cynabal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46062
     mass: 9047000.0
     name: ♦ Cynabal
     published: false
     volume: 101000.0
   ♦ DED Special Operation Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48583
     mass: 1.01E7
     name: ♦ DED Special Operation Captain
     published: false
     volume: 101000.0
   ♦ Exequror:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43580
     mass: 1.102E7
     name: ♦ Exequror
     published: false
     volume: 113000.0
   ♦ Gila:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46056
     mass: 9600000.0
     name: ♦ Gila
     published: false
     volume: 101000.0
   ♦ Ixion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43642
     mass: 9900000.0
     name: ♦ Ixion
     published: false
     volume: 99000.0
   ♦ Maller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43560
     mass: 1.315E7
     name: ♦ Maller
     published: false
     volume: 118000.0
   ♦ Moa:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46760
     mass: 1.2E7
     name: ♦ Moa
     published: false
     volume: 101000.0
   ♦ Omen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46067
     mass: 1.3E7
     name: ♦ Omen
     published: false
     volume: 118000.0
   ♦ Osprey:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43623
     mass: 1.11E7
     name: ♦ Osprey
     published: false
     volume: 107000.0
   ♦ Phantasm:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43656
     mass: 9600000.0
     name: ♦ Phantasm
     published: false
     volume: 101000.0
   ♦ Rupture:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46079
     mass: 1.22E7
     name: ♦ Rupture
     published: false
     volume: 96000.0
   ♦ Scythe:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43591
     mass: 1.111E7
     name: ♦ Scythe
     published: false
     volume: 89000.0
   ♦ Stabber:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43593
     mass: 1.14E7
     name: ♦ Stabber
     published: false
     volume: 80000.0
   ♦ Thorax:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46075
     mass: 1.128E7
     name: ♦ Thorax
     published: false
     volume: 112000.0
   ♦ Vexor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43582
     mass: 1.11E7
     name: ♦ Vexor
     published: false
     volume: 115000.0
   ♦ Vigilant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46059
     mass: 9830000.0
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  �� Omen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 43557
-    mass: 1.3E7
-    name: �� Omen
-    published: false
-    volume: 118000.0

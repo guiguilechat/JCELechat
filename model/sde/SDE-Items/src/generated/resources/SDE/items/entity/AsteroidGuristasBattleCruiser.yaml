@@ -1,71 +1,35 @@
 items:
   Guristas Assassin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23324
     mass: 1.01E7
     name: Guristas Assassin
     published: false
     volume: 101000.0
   Guristas Assaulter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23323
     mass: 1.01E7
     name: Guristas Assaulter
     published: false
     volume: 101000.0
   Guristas Death Dealer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23325
     mass: 1.01E7
     name: Guristas Death Dealer
     published: false
     volume: 101000.0
   Guristas Enforcer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23322
     mass: 1.01E7
     name: Guristas Enforcer
     published: false
     volume: 101000.0
   Guristas Executor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23321
     mass: 1.01E7
     name: Guristas Executor
     published: false
     volume: 101000.0
   Guristas Revolter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23326
     mass: 1.01E7
     name: Guristas Revolter

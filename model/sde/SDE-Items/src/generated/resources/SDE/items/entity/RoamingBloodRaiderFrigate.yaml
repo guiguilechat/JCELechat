@@ -1,11 +1,5 @@
 items:
   Blood Raider Patroller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42236
     mass: 2860000.0
     name: Blood Raider Patroller

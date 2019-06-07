@@ -1,23 +1,11 @@
 items:
   Infested Carrier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 37470
     mass: 1.16325E9
     name: Infested Carrier
     published: false
     volume: 1.3095E7
   Sentient Infested Carrier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 41401
     mass: 1.16325E9
     name: Sentient Infested Carrier

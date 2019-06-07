@@ -57,3 +57,33 @@ items:
     name: Entropic Radiation Sink II
     published: true
     volume: 5.0
+  Veles Entropic Radiation Sink:
+    Cpu: 23.0
+    DamageMultiplier: 1.1399999856948853
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.9300000071525574
+    TechLevel: 1
+    id: 52244
+    marketGroup: 2471
+    mass: 1.0
+    name: Veles Entropic Radiation Sink
+    published: true
+    volume: 5.0
+  Zorya's Entropic Radiation Sink:
+    Cpu: 25.0
+    DamageMultiplier: 1.149999976158142
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 1
+    SpeedMultiplier: 0.9200000166893005
+    TechLevel: 1
+    id: 52242
+    marketGroup: 2471
+    mass: 1.0
+    name: Zorya's Entropic Radiation Sink
+    published: true
+    volume: 5.0

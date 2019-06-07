@@ -17,7 +17,7 @@ items:
     CpuOutput: 1200
     DisallowInHighSec: 1
     DroneBandwidth: 125
-    DroneCapacity: 6000
+    DroneCapacity: 8800
     EmDamageResonance: 0.6700000166893005
     EntosisAssistanceImpedanceMultiplier: 9.999999747378752E-6
     EntosisDurationMultiplier: 5

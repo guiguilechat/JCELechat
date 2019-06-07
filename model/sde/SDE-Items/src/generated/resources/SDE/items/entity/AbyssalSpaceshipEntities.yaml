@@ -1,59 +1,29 @@
 items:
   Anchoring Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48089
     mass: 950000.0
     name: Anchoring Damavik
     published: false
     volume: 28600.0
   Anchoring Vila Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48258
     mass: 950000.0
     name: Anchoring Vila Damavik
     published: false
     volume: 28600.0
   Bathyic Abyssal Overmind:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47878
     mass: 1.0025E8
     name: Bathyic Abyssal Overmind
     published: false
     volume: 454500.0
   Benthic Abyssal Overmind:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47880
     mass: 1.0025E8
     name: Benthic Abyssal Overmind
     published: false
     volume: 454500.0
   Blinding Leshak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48127
     mass: 6.3E7
     name: Blinding Leshak
@@ -61,377 +31,185 @@ items:
     published: false
     volume: 495000.0
   Blinding Vila Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48260
     mass: 950000.0
     name: Blinding Vila Damavik
     published: false
     volume: 28600.0
   Drifter Assault Battleship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47957
     mass: 1.09E7
     name: Drifter Assault Battleship
     published: false
     volume: 109000.0
   Drifter Entanglement Cruiser:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47958
     mass: 1000000.0
     name: Drifter Entanglement Cruiser
     published: false
     volume: 100000.0
   Drifter Foothold Battleship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47953
     mass: 1.09E7
     name: Drifter Foothold Battleship
     published: false
     volume: 109000.0
   Drifter Frontline Battleship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47955
     mass: 1.09E7
     name: Drifter Frontline Battleship
     published: false
     volume: 109000.0
   Drifter Nullcharge Cruiser:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47960
     mass: 1000000.0
     name: Drifter Nullcharge Cruiser
     published: false
     volume: 100000.0
   Drifter Nullwarp Cruiser:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47959
     mass: 1000000.0
     name: Drifter Nullwarp Cruiser
     published: false
     volume: 100000.0
   Drifter Rearguard Battleship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47954
     mass: 1.09E7
     name: Drifter Rearguard Battleship
     published: false
     volume: 109000.0
   Drifter Vanguard Battleship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47956
     mass: 1.09E7
     name: Drifter Vanguard Battleship
     published: false
     volume: 109000.0
   'Ephialtes Confuser ':
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48240
     mass: 2000000.0
     name: 'Ephialtes Confuser '
     published: false
   Ephialtes Dissipator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48238
     mass: 2000000.0
     name: Ephialtes Dissipator
     published: false
   Ephialtes Entangler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48235
     mass: 2000000.0
     name: Ephialtes Entangler
     published: false
   Ephialtes Illuminator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48237
     mass: 2000000.0
     name: Ephialtes Illuminator
     published: false
   Ephialtes Lancer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48234
     mass: 2000000.0
     name: Ephialtes Lancer
     published: false
   Ephialtes Obfuscator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48239
     mass: 2000000.0
     name: Ephialtes Obfuscator
     published: false
   Ephialtes Spearfisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48236
     mass: 2000000.0
     name: Ephialtes Spearfisher
     published: false
   Ghosting Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48086
     mass: 950000.0
     name: Ghosting Damavik
     published: false
     volume: 28600.0
   Ghosting Vila Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48261
     mass: 950000.0
     name: Ghosting Vila Damavik
     published: false
     volume: 28600.0
   Hadal Abyssal Overmind:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47879
     mass: 1.0025E8
     name: Hadal Abyssal Overmind
     published: false
     volume: 454500.0
   Harrowing Vedmak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48091
     mass: 9530000.0
     name: Harrowing Vedmak
     published: false
     volume: 118000.0
   Harrowing Vila Vedmak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48255
     mass: 9530000.0
     name: Harrowing Vila Vedmak
     published: false
     volume: 118000.0
   Lucid Aegis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48245
     mass: 1910000.0
     name: Lucid Aegis
     published: false
     volume: 19100.0
   Lucid Deepwatcher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48252
     mass: 1.9E7
     name: Lucid Deepwatcher
     published: false
     volume: 1.9E7
   Lucid Escort:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48241
     mass: 1910000.0
     name: Lucid Escort
     published: false
     volume: 19100.0
   Lucid Firewatcher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48247
     mass: 1910000.0
     name: Lucid Firewatcher
     published: false
     volume: 19100.0
   Lucid Preserver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48251
     mass: 1910000.0
     name: Lucid Preserver
     published: false
     volume: 19100.0
   Lucid Sentinel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48250
     mass: 1.09E7
     name: Lucid Sentinel
     published: false
     volume: 109000.0
   Lucid Upholder:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48249
     mass: 1.09E7
     name: Lucid Upholder
     published: false
     volume: 109000.0
   Lucid Warden:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48246
     mass: 1910000.0
     name: Lucid Warden
     published: false
     volume: 19100.0
   Lucid Watchman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48248
     mass: 1.09E7
     name: Lucid Watchman
     published: false
     volume: 109000.0
   Photic Abyssal Overmind:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47876
     mass: 1.0025E8
     name: Photic Abyssal Overmind
     published: false
     volume: 454500.0
   Renewing Leshak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48123
     mass: 6.3E7
     name: Renewing Leshak
@@ -439,36 +217,18 @@ items:
     published: false
     volume: 495000.0
   Shining Vila Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48259
     mass: 950000.0
     name: Shining Vila Damavik
     published: false
     volume: 28600.0
   Starving Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48090
     mass: 950000.0
     name: Starving Damavik
     published: false
     volume: 28600.0
   Starving Leshak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48125
     mass: 6.3E7
     name: Starving Leshak
@@ -476,36 +236,18 @@ items:
     published: false
     volume: 495000.0
   Starving Vedmak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48087
     mass: 9530000.0
     name: Starving Vedmak
     published: false
     volume: 118000.0
   Striking Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48092
     mass: 950000.0
     name: Striking Damavik
     published: false
     volume: 28600.0
   Striking Leshak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48122
     mass: 6.3E7
     name: Striking Leshak
@@ -513,36 +255,18 @@ items:
     published: false
     volume: 495000.0
   Striking Vila Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48256
     mass: 950000.0
     name: Striking Vila Damavik
     published: false
     volume: 28600.0
   Tangling Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48088
     mass: 950000.0
     name: Tangling Damavik
     published: false
     volume: 28600.0
   Tangling Leshak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48124
     mass: 6.3E7
     name: Tangling Leshak
@@ -550,36 +274,18 @@ items:
     published: false
     volume: 495000.0
   Tangling Vila Damavik:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48257
     mass: 950000.0
     name: Tangling Vila Damavik
     published: false
     volume: 28600.0
   Twilit Abyssal Overmind:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47877
     mass: 1.0025E8
     name: Twilit Abyssal Overmind
     published: false
     volume: 454500.0
   Warding Leshak:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48126
     mass: 6.3E7
     name: Warding Leshak

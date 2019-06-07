@@ -1,155 +1,77 @@
 items:
   Anire Scarlet:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2072
     mass: 1.18E7
     name: Anire Scarlet
     published: false
     volume: 118000.0
   Corpatis Bishop:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24000
     mass: 1.18E7
     name: Corpatis Bishop
     published: false
     volume: 118000.0
   Corpatis Exorcist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24013
     mass: 1.18E7
     name: Corpatis Exorcist
     published: false
     volume: 118000.0
   Corpatis Fanatic:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24011
     mass: 1.18E7
     name: Corpatis Fanatic
     published: false
     volume: 118000.0
   Corpatis Phantom:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24012
     mass: 1.18E7
     name: Corpatis Phantom
     published: false
     volume: 118000.0
   Corpatis Seer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24009
     mass: 1.18E7
     name: Corpatis Seer
     published: false
     volume: 118000.0
   Corpatis Shade:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24010
     mass: 1.18E7
     name: Corpatis Shade
     published: false
     volume: 118000.0
   Dark Corpatis Bishop:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24181
     mass: 1.18E7
     name: Dark Corpatis Bishop
     published: false
     volume: 118000.0
   Dark Corpatis Exorcist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24186
     mass: 1.18E7
     name: Dark Corpatis Exorcist
     published: false
     volume: 118000.0
   Dark Corpatis Fanatic:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24184
     mass: 1.18E7
     name: Dark Corpatis Fanatic
     published: false
     volume: 118000.0
   Dark Corpatis Phantom:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24185
     mass: 1.18E7
     name: Dark Corpatis Phantom
     published: false
     volume: 118000.0
   Dark Corpatis Seer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24182
     mass: 1.18E7
     name: Dark Corpatis Seer
     published: false
     volume: 118000.0
   Dark Corpatis Shade:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24183
     mass: 1.18E7
     name: Dark Corpatis Shade

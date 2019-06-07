@@ -1,287 +1,143 @@
 items:
   Auctioneer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20718
     mass: 1.12E8
     name: Auctioneer
     published: false
     volume: 1120000.0
   Bursar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20717
     mass: 1.12E8
     name: Bursar
     published: false
     volume: 1120000.0
   Caravan:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10117
     mass: 1.09E8
     name: Caravan
     published: false
     volume: 1090000.0
   Carrier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10830
     mass: 1.12E8
     name: Carrier
     published: false
     volume: 1120000.0
   Chafferer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10824
     mass: 9.6E7
     name: Chafferer
     published: false
     volume: 960000.0
   Chandler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10834
     mass: 1.05E8
     name: Chandler
     published: false
     volume: 1050000.0
   Column:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10044
     mass: 1.02E8
     name: Column
     published: false
     volume: 1020000.0
   Courier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10828
     mass: 1.12E8
     name: Courier
     published: false
     volume: 1120000.0
   Flotilla:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10118
     mass: 1.105E8
     name: Flotilla
     published: false
     volume: 1105000.0
   Hauler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10826
     mass: 1.02E8
     name: Hauler
     published: false
     volume: 1020000.0
   Hawker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10831
     mass: 8.9E7
     name: Hawker
     published: false
     volume: 890000.0
   Huckster:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10832
     mass: 1.12E8
     name: Huckster
     published: false
     volume: 1120000.0
   Marketeer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20719
     mass: 1.105E8
     name: Marketeer
     published: false
     volume: 1105000.0
   Merchant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10115
     mass: 8.5E7
     name: Merchant
     published: false
     volume: 850000.0
   Patronager:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10833
     mass: 1.12E8
     name: Patronager
     published: false
     volume: 1120000.0
   Peddler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10043
     mass: 8.9E7
     name: Peddler
     published: false
     volume: 890000.0
   Purveyor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10829
     mass: 1.12E8
     name: Purveyor
     published: false
     volume: 1120000.0
   Retailer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10823
     mass: 9.6E7
     name: Retailer
     published: false
     volume: 960000.0
   Trader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10827
     mass: 1.12E8
     name: Trader
     published: false
     volume: 1120000.0
   Tradesman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10114
     mass: 8.9E7
     name: Tradesman
     published: false
     volume: 890000.0
   Trafficker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10116
     mass: 9.6E7
     name: Trafficker
     published: false
     volume: 960000.0
   Trailer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10825
     mass: 1.02E8
     name: Trailer
     published: false
     volume: 1020000.0
   Vanguard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10045
     mass: 1.12E8
     name: Vanguard
     published: false
     volume: 1120000.0
   Vendor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20716
     mass: 1.02E8
     name: Vendor

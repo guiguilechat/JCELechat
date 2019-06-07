@@ -253,6 +253,7 @@ items:
     ECMDuration: 20000
     ECMEntityChance: 1
     ECMRangeOptimal: 7500
+    EcmJamDuration: 5000
     EmDamageResonance: 1.0
     EntityAttackRange: 15000
     EntityChaseMaxDelay: 1
@@ -554,6 +555,7 @@ items:
     ECMDuration: 20000
     ECMEntityChance: 1
     ECMRangeOptimal: 11250
+    EcmJamDuration: 5000
     EmDamageResonance: 1.0
     EntityAttackRange: 22500
     EntityChaseMaxDelay: 1
@@ -675,6 +677,7 @@ items:
     ECMDuration: 20000
     ECMEntityChance: 1
     ECMRangeOptimal: 15000
+    EcmJamDuration: 5000
     EmDamageResonance: 1.0
     EntityAttackRange: 30000
     EntityChaseMaxDelay: 1

@@ -264,7 +264,7 @@ items:
     MaxVelocity: 235.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.25
-    PowerOutput: 48
+    PowerOutput: 53
     PowerToSpeed: 1
     PropulsionGraphicID: 395
     RechargeRate: 320000.0
@@ -467,8 +467,6 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 750.0
     CpuOutput: 174
-    DroneBandwidth: 10
-    DroneCapacity: 20
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 25
@@ -496,7 +494,7 @@ items:
     MaxVelocity: 320.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    PowerOutput: 58
+    PowerOutput: 55
     PowerToSpeed: 1
     PropulsionGraphicID: 394
     RechargeRate: 340000.0

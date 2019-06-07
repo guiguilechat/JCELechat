@@ -1,695 +1,347 @@
 items:
   COSMOS Amarr Archon:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22258
     mass: 2860000.0
     name: COSMOS Amarr Archon
     published: false
     volume: 28600.0
   COSMOS Amarr Collector:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22256
     mass: 2810000.0
     name: COSMOS Amarr Collector
     published: false
     volume: 28100.0
   COSMOS Amarr Engraver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22257
     mass: 2810000.0
     name: COSMOS Amarr Engraver
     published: false
     volume: 28100.0
   COSMOS Amarr Gamma II Support Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22270
     mass: 1050000.0
     name: COSMOS Amarr Gamma II Support Frigate
     published: false
     volume: 28100.0
   COSMOS Amarr Phantom:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22261
     mass: 2860000.0
     name: COSMOS Amarr Phantom
     published: false
     volume: 28600.0
   COSMOS Amarr Seeker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22255
     mass: 2820000.0
     name: COSMOS Amarr Seeker
     published: false
     volume: 24398.0
   COSMOS Amarr Shade:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22260
     mass: 2860000.0
     name: COSMOS Amarr Shade
     published: false
     volume: 28600.0
   COSMOS Amarr Templar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22259
     mass: 2860000.0
     name: COSMOS Amarr Templar
     published: false
     volume: 28600.0
   COSMOS Caldari Arrogator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20462
     mass: 1500100.0
     name: COSMOS Caldari Arrogator
     published: false
     volume: 15001.0
   COSMOS Caldari Assassin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20463
     mass: 1970000.0
     name: COSMOS Caldari Assassin
     published: false
     volume: 19700.0
   COSMOS Caldari Death Dealer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20464
     mass: 1650000.0
     name: COSMOS Caldari Death Dealer
     published: false
     volume: 16500.0
   COSMOS Caldari Demolisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20465
     mass: 1650000.0
     name: COSMOS Caldari Demolisher
     published: false
     volume: 16500.0
   COSMOS Caldari Despoiler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20466
     mass: 2040000.0
     name: COSMOS Caldari Despoiler
     published: false
     volume: 20400.0
   COSMOS Caldari Destructor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20467
     mass: 1970000.0
     name: COSMOS Caldari Destructor
     published: false
     volume: 19700.0
   COSMOS Caldari Eliminator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20468
     mass: 1650000.0
     name: COSMOS Caldari Eliminator
     published: false
     volume: 16500.0
   COSMOS Caldari Imputor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20469
     mass: 1612000.0
     name: COSMOS Caldari Imputor
     published: false
     volume: 16120.0
   COSMOS Caldari Infiltrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20470
     mass: 2025000.0
     name: COSMOS Caldari Infiltrator
     published: false
     volume: 20250.0
   COSMOS Caldari Invader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20471
     mass: 2025000.0
     name: COSMOS Caldari Invader
     published: false
     volume: 20250.0
   COSMOS Caldari Nihilist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20472
     mass: 1970000.0
     name: COSMOS Caldari Nihilist
     published: false
     volume: 19700.0
   COSMOS Caldari Non-Pirate Frigate Elite 4:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21060
     mass: 1650000.0
     name: COSMOS Caldari Non-Pirate Frigate Elite 4
     published: false
     volume: 16500.0
   COSMOS Caldari Plunderer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20473
     mass: 1970000.0
     name: COSMOS Caldari Plunderer
     published: false
     volume: 19700.0
   COSMOS Caldari Saboteur:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20474
     mass: 2040000.0
     name: COSMOS Caldari Saboteur
     published: false
     volume: 20400.0
   COSMOS Caldari Wrecker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20475
     mass: 1650000.0
     name: COSMOS Caldari Wrecker
     published: false
     volume: 16500.0
   COSMOS Gallente Defender:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22664
     mass: 2300000.0
     name: COSMOS Gallente Defender
     published: false
     volume: 23000.0
   COSMOS Gallente Elite Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22666
     mass: 2650000.0
     name: COSMOS Gallente Elite Frigate
     published: false
     volume: 26500.0
   COSMOS Gallente Mercenary:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22661
     mass: 2250000.0
     name: COSMOS Gallente Mercenary
     published: false
     volume: 22500.0
   COSMOS Gallente Non-Pirate Elite Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22673
     mass: 2650000.0
     name: COSMOS Gallente Non-Pirate Elite Frigate
     published: false
     volume: 26500.0
   COSMOS Gallente Patroller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22662
     mass: 2250000.0
     name: COSMOS Gallente Patroller
     published: false
     volume: 22500.0
   COSMOS Gallente Sentinel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22663
     mass: 2950000.0
     name: COSMOS Gallente Sentinel
     published: false
     volume: 29500.0
   COSMOS Gallente Soldier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22665
     mass: 2650000.0
     name: COSMOS Gallente Soldier
     published: false
     volume: 26500.0
   COSMOS Magye Death Dealer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21130
     mass: 1650000.0
     name: COSMOS Magye Death Dealer
     published: false
     volume: 16500.0
   COSMOS Magye Wrecker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21131
     mass: 1650000.0
     name: COSMOS Magye Wrecker
     published: false
     volume: 16500.0
   COSMOS Minmatar Arch Ambusher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21779
     mass: 1645000.0
     name: COSMOS Minmatar Arch Ambusher
     published: false
     volume: 16450.0
   COSMOS Minmatar Arch Hunter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21780
     mass: 1645000.0
     name: COSMOS Minmatar Arch Hunter
     published: false
     volume: 16450.0
   COSMOS Minmatar Arch Impaler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21781
     mass: 1645000.0
     name: COSMOS Minmatar Arch Impaler
     published: false
     volume: 16450.0
   COSMOS Minmatar Arch Raider:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21782
     mass: 1645000.0
     name: COSMOS Minmatar Arch Raider
     published: false
     volume: 16450.0
   COSMOS Minmatar Hijacker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21767
     mass: 2112000.0
     name: COSMOS Minmatar Hijacker
     published: false
     volume: 21120.0
   COSMOS Minmatar Hunter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21769
     mass: 1910000.0
     name: COSMOS Minmatar Hunter
     published: false
     volume: 19100.0
   COSMOS Minmatar Impaler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21768
     mass: 1645000.0
     name: COSMOS Minmatar Impaler
     published: false
     volume: 16450.0
   COSMOS Minmatar Nomad:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21770
     mass: 1750000.0
     name: COSMOS Minmatar Nomad
     published: false
     volume: 17500.0
   COSMOS Minmatar Non-Pirate Elite Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21776
     mass: 1125000.0
     name: COSMOS Minmatar Non-Pirate Elite Frigate
     published: false
     volume: 17400.0
   COSMOS Minmatar Outlaw:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21771
     mass: 1740000.0
     name: COSMOS Minmatar Outlaw
     published: false
     volume: 17400.0
   COSMOS Minmatar Raider:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21772
     mass: 1645000.0
     name: COSMOS Minmatar Raider
     published: false
     volume: 16450.0
   COSMOS Minmatar Rogue:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21773
     mass: 2250000.0
     name: COSMOS Minmatar Rogue
     published: false
     volume: 22500.0
   COSMOS Minmatar Ruffian:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21774
     mass: 1766000.0
     name: COSMOS Minmatar Ruffian
     published: false
     volume: 17660.0
   COSMOS Minmatar Thug:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21775
     mass: 2600500.0
     name: COSMOS Minmatar Thug
     published: false
     volume: 26005.0
   Corpii Phantom_COSMOS:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23671
     mass: 2860000.0
     name: Corpii Phantom_COSMOS
     published: false
     volume: 28600.0
   Corpii Templar_COSMOS:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23672
     mass: 2860000.0
     name: Corpii Templar_COSMOS
     published: false
     volume: 28600.0
   FON Frigate 1:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23277
     mass: 2250000.0
     name: FON Frigate 1
     published: false
     volume: 22500.0
   FON Frigate 2:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23280
     mass: 2650000.0
     name: FON Frigate 2
     published: false
     volume: 26500.0
   Kador Surveillance Sergeant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23665
     mass: 1050000.0
     name: Kador Surveillance Sergeant
     published: false
     volume: 28100.0
   Maphante Interceptor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24683
     mass: 1050000.0
     name: Maphante Interceptor
     published: false
     volume: 28100.0
   Mourmarie Mone's Covert Ops Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32222
     mass: 2650000.0
     name: Mourmarie Mone's Covert Ops Frigate
     published: false
     volume: 26500.0
   Scope Interceptor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32199
     mass: 2650000.0
     name: Scope Interceptor
     published: false
     volume: 26500.0
   Serpentis Prankster:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26717
     mass: 2950000.0
     name: Serpentis Prankster
     published: false
     volume: 29500.0
   Serpentis Prankster_2:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26718
     mass: 2950000.0
     name: Serpentis Prankster_2
     published: false
     volume: 29500.0
   Temko Grunt:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23242
     mass: 2650000.0
     name: Temko Grunt
     published: false
     volume: 26500.0
   Temko Interceptor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23243
     mass: 2650000.0
     name: Temko Interceptor

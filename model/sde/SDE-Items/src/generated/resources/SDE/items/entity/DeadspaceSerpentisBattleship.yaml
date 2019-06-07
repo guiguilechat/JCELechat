@@ -1,239 +1,119 @@
 items:
   Core Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24167
     mass: 1.75E7
     name: Core Admiral
     published: false
     volume: 1140000.0
   Core Baron:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17038
     mass: 1.9E7
     name: Core Baron
     published: false
     volume: 1010000.0
   Core Commodore:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17037
     mass: 1.75E7
     name: Core Commodore
     published: false
     volume: 1140000.0
   Core Flotilla Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24165
     mass: 1.75E7
     name: Core Flotilla Admiral
     published: false
     volume: 1140000.0
   Core Grand Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24169
     mass: 1.75E7
     name: Core Grand Admiral
     published: false
     volume: 1140000.0
   Core High Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24168
     mass: 1.75E7
     name: Core High Admiral
     published: false
     volume: 1140000.0
   Core Lord Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24170
     mass: 1.75E7
     name: Core Lord Admiral
     published: false
     volume: 1140000.0
   Core Port Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17036
     mass: 1.9E7
     name: Core Port Admiral
     published: false
     volume: 1010000.0
   Core Rear Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17034
     mass: 1.75E7
     name: Core Rear Admiral
     published: false
     volume: 1140000.0
   Core Vice Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24166
     mass: 1.75E7
     name: Core Vice Admiral
     published: false
     volume: 1140000.0
   Shadow Core Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24171
     mass: 1.75E7
     name: Shadow Core Admiral
     published: false
     volume: 1140000.0
   Shadow Core Baron:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17052
     mass: 1.9E7
     name: Shadow Core Baron
     published: false
     volume: 1010000.0
   Shadow Core Commodore:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17051
     mass: 1.75E7
     name: Shadow Core Commodore
     published: false
     volume: 1140000.0
   Shadow Core Flotilla Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17053
     mass: 1.9E7
     name: Shadow Core Flotilla Admiral
     published: false
     volume: 1010000.0
   Shadow Core Grand Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24173
     mass: 1.75E7
     name: Shadow Core Grand Admiral
     published: false
     volume: 1140000.0
   Shadow Core High Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24172
     mass: 1.75E7
     name: Shadow Core High Admiral
     published: false
     volume: 1140000.0
   Shadow Core Lord Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24174
     mass: 1.75E7
     name: Shadow Core Lord Admiral
     published: false
     volume: 1140000.0
   Shadow Core Port Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17049
     mass: 1.9E7
     name: Shadow Core Port Admiral
     published: false
     volume: 1010000.0
   Shadow Core Rear Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17054
     mass: 1.75E7
     name: Shadow Core Rear Admiral
     published: false
     volume: 1140000.0
   Shadow Core Vice Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17050
     mass: 1.75E7
     name: Shadow Core Vice Admiral

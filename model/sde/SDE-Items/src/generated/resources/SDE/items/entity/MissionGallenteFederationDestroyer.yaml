@@ -1,83 +1,41 @@
 items:
   Federation Arcus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25127
     mass: 2650000.0
     name: Federation Arcus
     published: false
     volume: 26500.0
   Federation Machaira:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25125
     mass: 2650000.0
     name: Federation Machaira
     published: false
     volume: 26500.0
   Federation Matara:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25126
     mass: 2650000.0
     name: Federation Matara
     published: false
     volume: 26500.0
   Federation Pelekus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25129
     mass: 2650000.0
     name: Federation Pelekus
     published: false
     volume: 26500.0
   Federation Praktor Machina:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25133
     mass: 2650000.0
     name: Federation Praktor Machina
     published: false
     volume: 26500.0
   Federation Praktor Phalarica:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25131
     mass: 2650000.0
     name: Federation Praktor Phalarica
     published: false
     volume: 26500.0
   Gallente CA Destroyer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 45465
     mass: 2650000.0
     name: Gallente CA Destroyer

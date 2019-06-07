@@ -30,12 +30,12 @@ items:
     name: Looking Glass Monocle Interface (right/gold)
     published: true
     volume: 0.1
-  Looking Glass Monocle Interface (right/gray):
+  Looking Glass Monocle Interface (right/silver):
     Gender: 2
     id: 4042
     marketGroup: 1408
     mass: 0.5
-    name: Looking Glass Monocle Interface (right/gray)
+    name: Looking Glass Monocle Interface (right/silver)
     published: true
     volume: 0.1
   Men's 'Farsight' Augmented Spectacles:

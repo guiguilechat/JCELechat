@@ -23,6 +23,7 @@ items:
     ScanRadarStrengthPercent: 50
     ScanResolutionBonus: 500.0
     TechLevel: 1
+    WarpScrambleStrength: 100
     id: 41411
     marketGroup: 671
     mass: 1000.0

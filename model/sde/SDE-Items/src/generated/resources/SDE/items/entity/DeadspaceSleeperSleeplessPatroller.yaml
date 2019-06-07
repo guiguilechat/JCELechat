@@ -1,47 +1,23 @@
 items:
   Sleepless Escort:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30190
     mass: 1.9E7
     name: Sleepless Escort
     published: false
     volume: 1.9E7
   Sleepless Outguard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30191
     mass: 1.9E7
     name: Sleepless Outguard
     published: false
     volume: 1.9E7
   Sleepless Patroller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30188
     mass: 1.9E7
     name: Sleepless Patroller
     published: false
     volume: 1.9E7
   Sleepless Watchman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30189
     mass: 1.9E7
     name: Sleepless Watchman

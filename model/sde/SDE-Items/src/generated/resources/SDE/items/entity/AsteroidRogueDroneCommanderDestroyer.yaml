@@ -1,71 +1,35 @@
 items:
   Sentient Dismantler Alvior:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27748
     mass: 100000.0
     name: Sentient Dismantler Alvior
     published: false
     volume: 60.0
   Sentient Marauder Alvior:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27749
     mass: 100000.0
     name: Sentient Marauder Alvior
     published: false
     volume: 60.0
   Sentient Predator Alvior:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27750
     mass: 100000.0
     name: Sentient Predator Alvior
     published: false
     volume: 60.0
   Sentient Ripper Alvior:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27751
     mass: 100000.0
     name: Sentient Ripper Alvior
     published: false
     volume: 60.0
   Sentient Shatter Alvior:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27752
     mass: 100000.0
     name: Sentient Shatter Alvior
     published: false
     volume: 60.0
   Sentient Shredder Alvior:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27753
     mass: 100000.0
     name: Sentient Shredder Alvior

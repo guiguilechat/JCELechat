@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses;
 
 public class R_get_characters_character_id_skillqueue {
     /**
-     * finish_date string
+     * Date on which training of the skill will complete. Omitted if the skill queue is paused.
      */
     public String finish_date;
     /**

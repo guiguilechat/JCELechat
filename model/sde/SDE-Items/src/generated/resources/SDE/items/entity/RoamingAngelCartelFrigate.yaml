@@ -1,11 +1,5 @@
 items:
   Angel Cartel Guard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42144
     mass: 2600500.0
     name: Angel Cartel Guard

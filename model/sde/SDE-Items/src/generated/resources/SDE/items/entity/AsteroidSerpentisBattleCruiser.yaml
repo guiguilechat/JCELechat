@@ -1,71 +1,35 @@
 items:
   Serpentis Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23441
     mass: 1.12E7
     name: Serpentis Captain
     published: false
     volume: 112000.0
   Serpentis Captain Sentry:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23442
     mass: 1.12E7
     name: Serpentis Captain Sentry
     published: false
     volume: 112000.0
   Serpentis High Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23443
     mass: 1.12E7
     name: Serpentis High Captain
     published: false
     volume: 112000.0
   Serpentis Platoon Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23440
     mass: 1.12E7
     name: Serpentis Platoon Leader
     published: false
     volume: 112000.0
   Serpentis Squad Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23439
     mass: 1.12E7
     name: Serpentis Squad Leader
     published: false
     volume: 112000.0
   Serpentis Wing Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23438
     mass: 1.12E7
     name: Serpentis Wing Leader

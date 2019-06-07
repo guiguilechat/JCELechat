@@ -1,251 +1,125 @@
 items:
   Corpus Apostle:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16941
     mass: 1.95E7
     name: Corpus Apostle
     published: false
     volume: 1150000.0
   Corpus Archbishop:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24135
     mass: 1.95E7
     name: Corpus Archbishop
     published: false
     volume: 1150000.0
   Corpus Archon:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16952
     mass: 2.05E7
     name: Corpus Archon
     published: false
     volume: 1100000.0
   Corpus Cardinal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24138
     mass: 1.95E7
     name: Corpus Cardinal
     published: false
     volume: 1150000.0
   Corpus Harbinger:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24136
     mass: 1.95E7
     name: Corpus Harbinger
     published: false
     volume: 1150000.0
   Corpus Messiah:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26754
     mass: 1.95E7
     name: Corpus Messiah
     published: false
     volume: 1150000.0
   Corpus Monsignor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24137
     mass: 1.95E7
     name: Corpus Monsignor
     published: false
     volume: 1150000.0
   Corpus Oracle:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16938
     mass: 2.05E7
     name: Corpus Oracle
     published: false
     volume: 1100000.0
   Corpus Patriarch:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24139
     mass: 1.95E7
     name: Corpus Patriarch
     published: false
     volume: 1150000.0
   Corpus Pope:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24140
     mass: 1.95E7
     name: Corpus Pope
     published: false
     volume: 1150000.0
   Corpus Prophet:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16934
     mass: 1.95E7
     name: Corpus Prophet
     published: false
     volume: 1150000.0
   Dark Corpus Apostle:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16969
     mass: 1.95E7
     name: Dark Corpus Apostle
     published: false
     volume: 1150000.0
   Dark Corpus Archbishop:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16968
     mass: 2.05E7
     name: Dark Corpus Archbishop
     published: false
     volume: 1100000.0
   Dark Corpus Archon:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16978
     mass: 2.05E7
     name: Dark Corpus Archon
     published: false
     volume: 1100000.0
   Dark Corpus Cardinal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24142
     mass: 1.95E7
     name: Dark Corpus Cardinal
     published: false
     volume: 1150000.0
   Dark Corpus Harbinger:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16970
     mass: 1.95E7
     name: Dark Corpus Harbinger
     published: false
     volume: 1150000.0
   Dark Corpus Monsignor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24141
     mass: 1.95E7
     name: Dark Corpus Monsignor
     published: false
     volume: 1150000.0
   Dark Corpus Oracle:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16967
     mass: 2.05E7
     name: Dark Corpus Oracle
     published: false
     volume: 1100000.0
   Dark Corpus Patriarch:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24143
     mass: 1.95E7
     name: Dark Corpus Patriarch
     published: false
     volume: 1150000.0
   Dark Corpus Pope:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24144
     mass: 1.95E7
     name: Dark Corpus Pope
     published: false
     volume: 1150000.0
   Dark Corpus Prophet:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16965
     mass: 1.95E7
     name: Dark Corpus Prophet

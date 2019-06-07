@@ -1,11 +1,5 @@
 items:
   Vengeful Blade Minmatar Battleship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42826
     mass: 1.9E7
     name: Vengeful Blade Minmatar Battleship

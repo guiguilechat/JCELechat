@@ -88,6 +88,13 @@ public class ElectronicWarfareDrone
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
+     * Length of jam duration
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EcmJamDuration;
+    /**
      * The distance from a target an entity starts using its weapons.
      */
     @HighIsGood(true)
@@ -327,6 +334,10 @@ public class ElectronicWarfareDrone
             case  73 :
             {
                 return Duration;
+            }
+            case  2822 :
+            {
+                return EcmJamDuration;
             }
             case  247 :
             {

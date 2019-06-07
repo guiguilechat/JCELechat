@@ -9,7 +9,7 @@ items:
     id: 2403
     marketGroup: 1823
     name: Advanced Planetology
-    price: 7500000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Command Center Upgrades:
@@ -55,6 +55,6 @@ items:
     id: 13279
     marketGroup: 1823
     name: Remote Sensing
-    price: 250000.0
+    price: 300000.0
     published: true
     volume: 0.01

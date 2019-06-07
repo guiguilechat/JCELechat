@@ -1,299 +1,149 @@
 items:
   Blood Arch Engraver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10282
     mass: 1.2E7
     name: Blood Arch Engraver
     published: false
     volume: 120000.0
   Blood Arch Priest:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11904
     mass: 1.18E7
     name: Blood Arch Priest
     published: false
     volume: 118000.0
   Blood Arch Reaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10281
     mass: 1.15E7
     name: Blood Arch Reaver
     published: false
     volume: 115000.0
   Blood Arch Sage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11903
     mass: 1.18E7
     name: Blood Arch Sage
     published: false
     volume: 118000.0
   Blood Arch Templar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11043
     mass: 1.18E7
     name: Blood Arch Templar
     published: false
     volume: 118000.0
   Blood Clone Soldier Negotiator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 33182
     mass: 1.18E7
     name: Blood Clone Soldier Negotiator
     published: false
     volume: 118000.0
   'Blood Clone Soldier Recruiter ':
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 33144
     mass: 1.18E7
     name: 'Blood Clone Soldier Recruiter '
     published: false
     volume: 118000.0
   Blood Clone Soldier Trainer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 33135
     mass: 1.18E7
     name: Blood Clone Soldier Trainer
     published: false
     volume: 118000.0
   Blood Clone Soldier Transporter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 33172
     mass: 1.18E7
     name: Blood Clone Soldier Transporter
     published: false
     volume: 118000.0
   Blood Dark Priest:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23258
     mass: 1.18E7
     name: Blood Dark Priest
     published: false
     volume: 118000.0
   Blood Priest:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11902
     mass: 1.18E7
     name: Blood Priest
     published: false
     volume: 118000.0
   Blood Revenant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11044
     mass: 1.18E7
     name: Blood Revenant
     published: false
     volume: 118000.0
   Blood Sage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11901
     mass: 1.18E7
     name: Blood Sage
     published: false
     volume: 118000.0
   Blood Shadow Sage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23257
     mass: 1.18E7
     name: Blood Shadow Sage
     published: false
     volume: 118000.0
   Elder Blood Arch Engraver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23282
     mass: 1.18E7
     name: Elder Blood Arch Engraver
     published: false
     volume: 118000.0
   Elder Blood Arch Priest:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23284
     mass: 1.18E7
     name: Elder Blood Arch Priest
     published: false
     volume: 118000.0
   Elder Blood Arch Reaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23281
     mass: 1.18E7
     name: Elder Blood Arch Reaver
     published: false
     volume: 118000.0
   Elder Blood Arch Sage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23283
     mass: 1.18E7
     name: Elder Blood Arch Sage
     published: false
     volume: 118000.0
   Elder Blood Arch Templar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23643
     mass: 1.18E7
     name: Elder Blood Arch Templar
     published: false
     volume: 118000.0
   Elder Blood Dark Priest:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23286
     mass: 1.18E7
     name: Elder Blood Dark Priest
     published: false
     volume: 118000.0
   Elder Blood Priest:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23646
     mass: 1.18E7
     name: Elder Blood Priest
     published: false
     volume: 118000.0
   Elder Blood Revenant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23644
     mass: 1.18E7
     name: Elder Blood Revenant
     published: false
     volume: 118000.0
   Elder Blood Sage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23645
     mass: 1.18E7
     name: Elder Blood Sage
     published: false
     volume: 118000.0
   Elder Blood Shadow Sage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23285
     mass: 1.18E7
     name: Elder Blood Shadow Sage
     published: false
     volume: 118000.0
   TEST DRAINER:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24630
     mass: 1.18E7
     name: TEST DRAINER

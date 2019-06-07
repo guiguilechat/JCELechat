@@ -453,6 +453,20 @@ public class SiegeModule
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
+     * Bonus to HAW Missile Launcher Rate of Fire
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SiegeHAWMissileROFBonus;
+    /**
+     * Bonus to HAW turret damage
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SiegeHAWTurretDamageBonus;
+    /**
      * XL Launcher ROF Bonus Percentage
      */
     @HighIsGood(true)
@@ -817,6 +831,14 @@ public class SiegeModule
             case  274 :
             {
                 return ShieldThermalDamageResonance;
+            }
+            case  2821 :
+            {
+                return SiegeHAWMissileROFBonus;
+            }
+            case  2820 :
+            {
+                return SiegeHAWTurretDamageBonus;
             }
             case  2305 :
             {

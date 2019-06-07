@@ -1,47 +1,23 @@
 items:
-  Concord Billboard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
+  CONCORD Billboard:
     id: 11136
     mass: 100.0
-    name: Concord Billboard
+    name: CONCORD Billboard
     published: false
     volume: 1.0
   Large CONCORD Billboard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 41341
     mass: 100.0
     name: Large CONCORD Billboard
     published: false
     volume: 1.0
   Medium CONCORD Billboard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 41340
     mass: 100.0
     name: Medium CONCORD Billboard
     published: false
     volume: 1.0
   'Small CONCORD Billboard ':
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 41339
     mass: 100.0
     name: 'Small CONCORD Billboard '

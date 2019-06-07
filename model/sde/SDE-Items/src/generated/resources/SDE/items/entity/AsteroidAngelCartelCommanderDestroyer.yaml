@@ -1,71 +1,35 @@
 items:
   Domination Defacer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22858
     mass: 1645000.0
     name: Domination Defacer
     published: false
     volume: 16450.0
   Domination Defiler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22860
     mass: 1645000.0
     name: Domination Defiler
     published: false
     volume: 16450.0
   Domination Haunter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22859
     mass: 1645000.0
     name: Domination Haunter
     published: false
     volume: 16450.0
   Domination Seizer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22861
     mass: 1645000.0
     name: Domination Seizer
     published: false
     volume: 16450.0
   Domination Shatterer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22857
     mass: 1645000.0
     name: Domination Shatterer
     published: false
     volume: 16450.0
   Domination Trasher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22862
     mass: 1645000.0
     name: Domination Trasher

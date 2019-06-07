@@ -188,3 +188,10 @@ items:
     name: Datacore - Rocket Science
     published: true
     volume: 0.1
+  Datacore - Triglavian Quantum Engineering:
+    id: 52309
+    marketGroup: 1880
+    mass: 1.0
+    name: Datacore - Triglavian Quantum Engineering
+    published: true
+    volume: 0.1

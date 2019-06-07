@@ -2,6 +2,7 @@ items:
   '''Corporate'' Light Electron Blaster I':
     CapacitorNeed: 0.6565999984741211
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
@@ -38,6 +39,7 @@ items:
   '''Dealer'' Light Ion Blaster I':
     CapacitorNeed: 1.0927000045776367
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 9.0
@@ -74,6 +76,7 @@ items:
   '''Felon'' Ion Blaster Cannon I':
     CapacitorNeed: 9.800000190734863
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 38.0
@@ -110,6 +113,7 @@ items:
   '''Hooligan'' Heavy Ion Blaster I':
     CapacitorNeed: 3.2683000564575195
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 22.0
@@ -146,6 +150,7 @@ items:
   '''Hustler'' Heavy Neutron Blaster I':
     CapacitorNeed: 4.248300075531006
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 24.0
@@ -182,6 +187,7 @@ items:
   '''Racket'' Light Neutron Blaster I':
     CapacitorNeed: 1.416100025177002
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
@@ -218,6 +224,7 @@ items:
   '''Slither'' Heavy Electron Blaster I':
     CapacitorNeed: 1.9600000381469727
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 18.0
@@ -254,6 +261,7 @@ items:
   '''Swindler'' Electron Blaster Cannon I':
     CapacitorNeed: 5.880000114440918
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 31.0
@@ -290,6 +298,7 @@ items:
   '''Underhand'' Neutron Blaster Cannon I':
     CapacitorNeed: 12.739999771118164
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 41.0
@@ -538,6 +547,7 @@ items:
   150mm 'Musket' Railgun:
     CapacitorNeed: 2.0999999046325684
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 20.0
@@ -998,6 +1008,7 @@ items:
   250mm 'Flintlock' Railgun:
     CapacitorNeed: 6.300000190734863
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 32.0
@@ -1458,6 +1469,7 @@ items:
   425mm 'Popper' Railgun:
     CapacitorNeed: 18.899999618530273
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 57.0
@@ -2265,7 +2277,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 95.0
-    DamageMultiplier: 0.8770809173583984
+    DamageMultiplier: 0.4385404586791992
     Falloff: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -2281,6 +2293,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 5000
@@ -2297,6 +2311,7 @@ items:
   Brynn's Modified 350mm Railgun:
     CapacitorNeed: 12.704999923706055
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 63.0
@@ -2333,6 +2348,7 @@ items:
   Brynn's Modified 425mm Railgun:
     CapacitorNeed: 17.325000762939453
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 74.0
@@ -2369,6 +2385,7 @@ items:
   Brynn's Modified Dual 250mm Railgun:
     CapacitorNeed: 8.666000366210938
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -2479,6 +2496,7 @@ items:
   Caldari Navy 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 16.0
@@ -2515,6 +2533,7 @@ items:
   Caldari Navy 150mm Railgun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 27.0
@@ -2551,6 +2570,7 @@ items:
   Caldari Navy 200mm Railgun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 37.0
@@ -2587,6 +2607,7 @@ items:
   Caldari Navy 250mm Railgun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 42.0
@@ -2623,6 +2644,7 @@ items:
   Caldari Navy 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 63.0
@@ -2659,6 +2681,7 @@ items:
   Caldari Navy 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 74.0
@@ -2695,6 +2718,7 @@ items:
   Caldari Navy 75mm Railgun:
     CapacitorNeed: 0.8259999752044678
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
@@ -2731,6 +2755,7 @@ items:
   Caldari Navy Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 33.0
@@ -2767,6 +2792,7 @@ items:
   Caldari Navy Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -2873,6 +2899,7 @@ items:
   Cormack's Modified Electron Blaster Cannon:
     CapacitorNeed: 5.291999816894531
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 44.0
@@ -2909,6 +2936,7 @@ items:
   Cormack's Modified Ion Blaster Cannon:
     CapacitorNeed: 8.819999694824219
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 53.0
@@ -2945,6 +2973,7 @@ items:
   Cormack's Modified Neutron Blaster Cannon:
     CapacitorNeed: 11.465999603271484
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -2981,6 +3010,7 @@ items:
   Dread Guristas 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 16.0
@@ -3017,6 +3047,7 @@ items:
   Dread Guristas 150mm Railgun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 27.0
@@ -3053,6 +3084,7 @@ items:
   Dread Guristas 200mm Railgun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 37.0
@@ -3089,6 +3121,7 @@ items:
   Dread Guristas 250mm Railgun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 42.0
@@ -3125,6 +3158,7 @@ items:
   Dread Guristas 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 63.0
@@ -3161,6 +3195,7 @@ items:
   Dread Guristas 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 74.0
@@ -3197,6 +3232,7 @@ items:
   Dread Guristas 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
@@ -3233,6 +3269,7 @@ items:
   Dread Guristas Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 33.0
@@ -3269,6 +3306,7 @@ items:
   Dread Guristas Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -3873,6 +3911,7 @@ items:
   Estamel's Modified 350mm Railgun:
     CapacitorNeed: 13.859999656677246
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 77.0
@@ -3909,6 +3948,7 @@ items:
   Estamel's Modified 425mm Railgun:
     CapacitorNeed: 18.899999618530273
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 91.0
@@ -3945,6 +3985,7 @@ items:
   Estamel's Modified Dual 250mm Railgun:
     CapacitorNeed: 9.449999809265137
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 70.0
@@ -3981,6 +4022,7 @@ items:
   Federation Navy 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 16.0
@@ -4017,6 +4059,7 @@ items:
   Federation Navy 150mm Railgun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 27.0
@@ -4053,6 +4096,7 @@ items:
   Federation Navy 200mm Railgun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 37.0
@@ -4089,6 +4133,7 @@ items:
   Federation Navy 250mm Railgun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 42.0
@@ -4125,6 +4170,7 @@ items:
   Federation Navy 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 63.0
@@ -4161,6 +4207,7 @@ items:
   Federation Navy 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 74.0
@@ -4197,6 +4244,7 @@ items:
   Federation Navy 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
@@ -4233,6 +4281,7 @@ items:
   Federation Navy Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 33.0
@@ -4269,6 +4318,7 @@ items:
   Federation Navy Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -4305,6 +4355,7 @@ items:
   Federation Navy Electron Blaster Cannon:
     CapacitorNeed: 4.703999996185303
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 44.0
@@ -4341,6 +4392,7 @@ items:
   Federation Navy Heavy Electron Blaster:
     CapacitorNeed: 1.5679999589920044
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 26.0
@@ -4377,6 +4429,7 @@ items:
   Federation Navy Heavy Ion Blaster:
     CapacitorNeed: 2.6166000366210938
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 31.0
@@ -4413,6 +4466,7 @@ items:
   Federation Navy Heavy Neutron Blaster:
     CapacitorNeed: 3.395699977874756
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 33.0
@@ -4449,6 +4503,7 @@ items:
   Federation Navy Ion Blaster Cannon:
     CapacitorNeed: 7.840000152587891
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 53.0
@@ -4485,6 +4540,7 @@ items:
   Federation Navy Light Electron Blaster:
     CapacitorNeed: 0.5242999792098999
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 8.0
@@ -4521,6 +4577,7 @@ items:
   Federation Navy Light Ion Blaster:
     CapacitorNeed: 0.8722000122070312
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
@@ -4557,6 +4614,7 @@ items:
   Federation Navy Light Neutron Blaster:
     CapacitorNeed: 1.1318999528884888
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 18.0
@@ -4593,6 +4651,7 @@ items:
   Federation Navy Neutron Blaster Cannon:
     CapacitorNeed: 10.192000389099121
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -4989,6 +5048,7 @@ items:
   Kaikka's Modified 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 63.0
@@ -5025,6 +5085,7 @@ items:
   Kaikka's Modified 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 74.0
@@ -5061,6 +5122,7 @@ items:
   Kaikka's Modified Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -5666,7 +5728,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 95.0
-    DamageMultiplier: 0.8770809173583984
+    DamageMultiplier: 0.4385404586791992
     Falloff: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -5682,6 +5744,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 5000
@@ -5771,7 +5835,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 95.0
-    DamageMultiplier: 0.8770809173583984
+    DamageMultiplier: 0.4385404586791992
     Falloff: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -5787,6 +5851,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 5000
@@ -6348,7 +6414,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 85.0
-    DamageMultiplier: 0.8770809173583984
+    DamageMultiplier: 0.4385404586791992
     Falloff: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -6364,6 +6430,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 5000
@@ -6730,6 +6798,7 @@ items:
   Setele's Modified 350mm Railgun:
     CapacitorNeed: 13.859999656677246
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 63.0
@@ -6766,6 +6835,7 @@ items:
   Setele's Modified 425mm Railgun:
     CapacitorNeed: 18.899999618530273
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 74.0
@@ -6802,6 +6872,7 @@ items:
   Setele's Modified Dual 250mm Railgun:
     CapacitorNeed: 9.449999809265137
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -6838,6 +6909,7 @@ items:
   Shadow Serpentis 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 16.0
@@ -6874,6 +6946,7 @@ items:
   Shadow Serpentis 150mm Railgun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 27.0
@@ -6910,6 +6983,7 @@ items:
   Shadow Serpentis 200mm Railgun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 37.0
@@ -6946,6 +7020,7 @@ items:
   Shadow Serpentis 250mm Railgun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 42.0
@@ -6982,6 +7057,7 @@ items:
   Shadow Serpentis 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 63.0
@@ -7018,6 +7094,7 @@ items:
   Shadow Serpentis 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 74.0
@@ -7054,6 +7131,7 @@ items:
   Shadow Serpentis 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
@@ -7127,6 +7205,7 @@ items:
   Shadow Serpentis Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 33.0
@@ -7163,6 +7242,7 @@ items:
   Shadow Serpentis Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -7199,6 +7279,7 @@ items:
   Shadow Serpentis Electron Blaster Cannon:
     CapacitorNeed: 4.703999996185303
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 44.0
@@ -7235,6 +7316,7 @@ items:
   Shadow Serpentis Heavy Electron Blaster:
     CapacitorNeed: 1.5679999589920044
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 26.0
@@ -7271,6 +7353,7 @@ items:
   Shadow Serpentis Heavy Ion Blaster:
     CapacitorNeed: 2.6166000366210938
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 31.0
@@ -7307,6 +7390,7 @@ items:
   Shadow Serpentis Heavy Neutron Blaster:
     CapacitorNeed: 3.395699977874756
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 33.0
@@ -7343,6 +7427,7 @@ items:
   Shadow Serpentis Ion Blaster Cannon:
     CapacitorNeed: 7.840000152587891
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 53.0
@@ -7416,6 +7501,7 @@ items:
   Shadow Serpentis Light Electron Blaster:
     CapacitorNeed: 0.5242999792098999
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 8.0
@@ -7452,6 +7538,7 @@ items:
   Shadow Serpentis Light Ion Blaster:
     CapacitorNeed: 0.8722000122070312
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
@@ -7488,6 +7575,7 @@ items:
   Shadow Serpentis Light Neutron Blaster:
     CapacitorNeed: 1.1318999528884888
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 18.0
@@ -7524,6 +7612,7 @@ items:
   Shadow Serpentis Neutron Blaster Cannon:
     CapacitorNeed: 10.192000389099121
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -7564,7 +7653,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 85.0
-    DamageMultiplier: 0.9606124758720398
+    DamageMultiplier: 0.4803062379360199
     Falloff: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -7581,6 +7670,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 5000
@@ -7600,7 +7691,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 95.0
-    DamageMultiplier: 0.8353151679039001
+    DamageMultiplier: 0.4176575839519501
     Falloff: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -7615,6 +7706,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 5000
@@ -7635,7 +7728,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 104.0
-    DamageMultiplier: 0.9188466668128967
+    DamageMultiplier: 0.45942333340644836
     Falloff: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -7651,8 +7744,10 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 21666
     RequiredSkill2Level: 5
-    RequiredSkill3: 3300
-    RequiredSkill3Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
+    RequiredSkill4: 3300
+    RequiredSkill4Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 5000
@@ -7669,6 +7764,7 @@ items:
   Tuvan's Modified Electron Blaster Cannon:
     CapacitorNeed: 4.85099983215332
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 44.0
@@ -7705,6 +7801,7 @@ items:
   Tuvan's Modified Ion Blaster Cannon:
     CapacitorNeed: 8.085000038146973
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 53.0
@@ -7741,6 +7838,7 @@ items:
   Tuvan's Modified Neutron Blaster Cannon:
     CapacitorNeed: 10.510499954223633
     ChargeGroup1: 85
+    ChargeGroup2: 377
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 58.0
@@ -7777,6 +7875,7 @@ items:
   Vepas' Modified 350mm Railgun:
     CapacitorNeed: 13.09000015258789
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 74.0
@@ -7813,6 +7912,7 @@ items:
   Vepas' Modified 425mm Railgun:
     CapacitorNeed: 17.850000381469727
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 86.0
@@ -7849,6 +7949,7 @@ items:
   Vepas' Modified Dual 250mm Railgun:
     CapacitorNeed: 8.925000190734863
     ChargeGroup1: 85
+    ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 66.0

@@ -1,119 +1,59 @@
 items:
   Guristas Conquistador:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23340
     mass: 2.1E7
     name: Guristas Conquistador
     published: false
     volume: 2.2E7
   Guristas Destroyer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23339
     mass: 2.1E7
     name: Guristas Destroyer
     published: false
     volume: 2.2E7
   Guristas Dismantler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11934
     mass: 2.1E7
     name: Guristas Dismantler
     published: false
     volume: 1040000.0
   Guristas Eliminator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23337
     mass: 2.1E7
     name: Guristas Eliminator
     published: false
     volume: 2.2E7
   Guristas Eradicator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11932
     mass: 2.1E7
     name: Guristas Eradicator
     published: false
     volume: 1040000.0
   Guristas Exterminator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23338
     mass: 2.1E7
     name: Guristas Exterminator
     published: false
     volume: 2.2E7
   Guristas Extinguisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11935
     mass: 2.1E7
     name: Guristas Extinguisher
     published: false
     volume: 2.2E7
   Guristas Massacrer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23341
     mass: 2.1E7
     name: Guristas Massacrer
     published: false
     volume: 2.2E7
   Guristas Obliterator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11933
     mass: 2.2E7
     name: Guristas Obliterator
     published: false
     volume: 1080000.0
   Guristas Usurper:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23342
     mass: 2.1E7
     name: Guristas Usurper

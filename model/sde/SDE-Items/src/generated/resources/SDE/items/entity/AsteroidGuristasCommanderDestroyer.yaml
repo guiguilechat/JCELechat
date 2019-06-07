@@ -1,95 +1,47 @@
 items:
   Desperado Anarchist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23943
     mass: 1650000.0
     name: Desperado Anarchist
     published: false
     volume: 16500.0
   Desperado Nihilist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23942
     mass: 1650000.0
     name: Desperado Nihilist
     published: false
     volume: 16500.0
   Dread Guristas Anarchist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23344
     mass: 1650000.0
     name: Dread Guristas Anarchist
     published: false
     volume: 16500.0
   Dread Guristas Guerilla:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23346
     mass: 1650000.0
     name: Dread Guristas Guerilla
     published: false
     volume: 16500.0
   Dread Guristas Nihilist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23343
     mass: 1650000.0
     name: Dread Guristas Nihilist
     published: false
     volume: 16500.0
   Dread Guristas Renegade:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23345
     mass: 1650000.0
     name: Dread Guristas Renegade
     published: false
     volume: 16500.0
   Dread Guristas Supremacist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23348
     mass: 1650000.0
     name: Dread Guristas Supremacist
     published: false
     volume: 16500.0
   Dread Guristas Terrorist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23347
     mass: 1650000.0
     name: Dread Guristas Terrorist

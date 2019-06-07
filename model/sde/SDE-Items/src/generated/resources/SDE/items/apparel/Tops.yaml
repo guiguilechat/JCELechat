@@ -436,6 +436,14 @@ items:
     name: Men's Caldari 'Patriot' T-Shirt
     published: true
     volume: 0.1
+  Men's Capsuleer Day XVI T-Shirt:
+    Gender: 2
+    id: 52200
+    marketGroup: 1398
+    mass: 0.5
+    name: Men's Capsuleer Day XVI T-Shirt
+    published: true
+    volume: 0.1
   Men's Capsuleer Elite XV T-Shirt:
     Gender: 2
     id: 47190
@@ -474,6 +482,14 @@ items:
     marketGroup: 1398
     mass: 0.5
     name: Men's Minmatar 'Liberator' T-Shirt
+    published: true
+    volume: 0.1
+  Men's Permaband Tour T-Shirt:
+    Gender: 2
+    id: 50131
+    marketGroup: 1398
+    mass: 0.5
+    name: Men's Permaband Tour T-Shirt
     published: true
     volume: 0.1
   Men's YC119 Yoiul Festival T-shirt:
@@ -1064,6 +1080,14 @@ items:
     name: Women's Caldari 'Patriot' T-Shirt
     published: true
     volume: 0.1
+  Women's Capsuleer Day XVI T-Shirt:
+    Gender: 2
+    id: 52198
+    marketGroup: 1406
+    mass: 0.5
+    name: Women's Capsuleer Day XVI T-Shirt
+    published: true
+    volume: 0.1
   Women's Capsuleer Elite XV T-Shirt:
     Gender: 2
     id: 47192
@@ -1102,6 +1126,14 @@ items:
     marketGroup: 1406
     mass: 0.5
     name: Women's Minmatar 'Liberator' T-Shirt
+    published: true
+    volume: 0.1
+  Women's Permaband Tour T-Shirt:
+    Gender: 2
+    id: 50130
+    marketGroup: 1406
+    mass: 0.5
+    name: Women's Permaband Tour T-Shirt
     published: true
     volume: 0.1
   Women's YC119 Yoiul Festival T-shirt:

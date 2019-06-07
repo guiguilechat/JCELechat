@@ -1,26 +1,8 @@
 items:
-  Advanced 'Ardour' Cerebral Accelerator Blueprint:
-    id: 50013
-    name: Advanced 'Ardour' Cerebral Accelerator Blueprint
-    price: 1000000.0
-    published: true
-    volume: 0.01
   Advanced Cerebral Accelerator Blueprint:
     IndustryBlueprintRank: 2.0
     id: 33088
     name: Advanced Cerebral Accelerator Blueprint
-    published: true
-    volume: 0.01
-  Basic 'Ardour' Cerebral Accelerator Blueprint:
-    id: 50011
-    name: Basic 'Ardour' Cerebral Accelerator Blueprint
-    price: 1000000.0
-    published: true
-    volume: 0.01
-  Extended 'Ardour' Cerebral Accelerator Blueprint:
-    id: 50014
-    name: Extended 'Ardour' Cerebral Accelerator Blueprint
-    price: 1000000.0
     published: true
     volume: 0.01
   Improved Blue Pill Booster Blueprint:
@@ -75,12 +57,6 @@ items:
     IndustryBlueprintRank: 2.0
     id: 33112
     name: Prototype Cerebral Accelerator Blueprint
-    published: true
-    volume: 0.01
-  Standard 'Ardour' Cerebral Accelerator Blueprint:
-    id: 50012
-    name: Standard 'Ardour' Cerebral Accelerator Blueprint
-    price: 1000000.0
     published: true
     volume: 0.01
   Standard Blue Pill Booster Blueprint:

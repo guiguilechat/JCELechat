@@ -1,11 +1,5 @@
 items:
   Mordu’s Special Warfare Unit Operative:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 33864
     mass: 1970000.0
     name: Mordu’s Special Warfare Unit Operative

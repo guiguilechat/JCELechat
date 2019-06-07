@@ -1,20 +1,4 @@
 items:
-  GalaFacAugF:
-    Gender: 2
-    id: 50038
-    marketGroup: 1836
-    mass: 0.5
-    name: GalaFacAugF
-    published: true
-    volume: 0.1
-  GalaFacAugM:
-    Gender: 2
-    id: 50037
-    marketGroup: 1836
-    mass: 0.5
-    name: GalaFacAugM
-    published: true
-    volume: 0.1
   Men's 'Barbatus Glimmer' Facial Augmentation:
     Gender: 2
     id: 49683
@@ -85,6 +69,14 @@ items:
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Eico Hexarc' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'Eico Redarc XVI' Facial Augmentation:
+    Gender: 2
+    id: 52189
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'Eico Redarc XVI' Facial Augmentation
     published: true
     volume: 0.1
   Men's 'Eico Zygomandiba' Facial Augmentation:
@@ -213,6 +205,14 @@ items:
     marketGroup: 1836
     mass: 0.5
     name: Women's 'Eico Flamjaw' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'Eico Redwire XVI' Facial Augmentation:
+    Gender: 2
+    id: 52188
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Eico Redwire XVI' Facial Augmentation
     published: true
     volume: 0.1
   Women's 'Eico Sunstrip' Facial Augmentation:

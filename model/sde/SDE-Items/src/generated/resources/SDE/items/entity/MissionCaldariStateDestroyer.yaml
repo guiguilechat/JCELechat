@@ -1,83 +1,41 @@
 items:
   Caldari CA Destroyer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 45462
     mass: 1650000.0
     name: Caldari CA Destroyer
     published: false
     volume: 16500.0
   State Kai Gunto:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25020
     mass: 1650000.0
     name: State Kai Gunto
     published: false
     volume: 16500.0
   State Kissaki:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25022
     mass: 1650000.0
     name: State Kissaki
     published: false
     volume: 16500.0
   State Shukuro Choji:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25026
     mass: 1650000.0
     name: State Shukuro Choji
     published: false
     volume: 16500.0
   State Shukuro Kamikazi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25028
     mass: 1650000.0
     name: State Shukuro Kamikazi
     published: false
     volume: 16500.0
   State Tsuba:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25024
     mass: 1650000.0
     name: State Tsuba
     published: false
     volume: 16500.0
   State Yumi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25021
     mass: 1650000.0
     name: State Yumi

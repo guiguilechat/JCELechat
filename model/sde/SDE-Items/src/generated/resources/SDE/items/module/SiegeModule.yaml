@@ -82,8 +82,8 @@ items:
     IndustrialCoreBonusDroneIceHarvesting: -75
     IndustrialCoreBonusDroneMining: 400
     IndustrialCoreBonusDroneVelocity: 25
-    IndustrialCoreBonusMiningBurstStrength: 25
-    IndustrialCoreLocalLogisticsAmountBonus: 120
+    IndustrialCoreBonusMiningBurstStrength: 30
+    IndustrialCoreLocalLogisticsAmountBonus: 60
     IndustrialCoreLocalLogisticsDurationBonus: -60
     IndustrialCoreRemoteLogisticsDurationBonus: -75
     IndustrialCoreRemoteLogisticsRangeBonus: 100
@@ -138,8 +138,8 @@ items:
     IndustrialCoreBonusDroneIceHarvesting: -80
     IndustrialCoreBonusDroneMining: 500
     IndustrialCoreBonusDroneVelocity: 30
-    IndustrialCoreBonusMiningBurstStrength: 30
-    IndustrialCoreLocalLogisticsAmountBonus: 140
+    IndustrialCoreBonusMiningBurstStrength: 36
+    IndustrialCoreLocalLogisticsAmountBonus: 75
     IndustrialCoreLocalLogisticsDurationBonus: -60
     IndustrialCoreRemoteLogisticsDurationBonus: -75
     IndustrialCoreRemoteLogisticsRangeBonus: 120
@@ -201,6 +201,8 @@ items:
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
+    SiegeHAWMissileROFBonus: -90
+    SiegeHAWTurretDamageBonus: 2
     SiegeLauncherROFBonus: -80
     SiegeLocalLogisticsAmountBonus: 100
     SiegeLocalLogisticsDurationBonus: -50
@@ -253,6 +255,8 @@ items:
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
+    SiegeHAWMissileROFBonus: -90
+    SiegeHAWTurretDamageBonus: 2
     SiegeLauncherROFBonus: -80
     SiegeLocalLogisticsAmountBonus: 100
     SiegeLocalLogisticsDurationBonus: -50

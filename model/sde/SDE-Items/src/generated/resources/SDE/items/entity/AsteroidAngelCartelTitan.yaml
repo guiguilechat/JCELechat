@@ -1,11 +1,5 @@
 items:
   Domination Titan:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 37462
     mass: 2.075625E9
     name: Domination Titan

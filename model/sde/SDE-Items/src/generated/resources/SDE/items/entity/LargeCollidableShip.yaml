@@ -1,11 +1,5 @@
 items:
   Angel Chaos Frigate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25829
     mass: 1200000.0
     name: Angel Chaos Frigate

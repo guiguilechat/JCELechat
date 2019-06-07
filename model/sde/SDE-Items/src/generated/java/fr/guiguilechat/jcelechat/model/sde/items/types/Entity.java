@@ -2,14 +2,9 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
-import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
-import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
-import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.AbyssalDroneEntities;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.AbyssalSpaceshipEntities;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.AmarrNavyRoamingBattleship;
@@ -185,6 +180,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.entity.IncursionSanshaSNa
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.IncursionSanshaSNationCapital;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.IncursionSanshaSNationCruiser;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.IncursionSanshaSNationFrigate;
+import fr.guiguilechat.jcelechat.model.sde.items.types.entity.InvadingPrecursorEntities;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.IrregularBattlecruiser;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.IrregularBattleship;
 import fr.guiguilechat.jcelechat.model.sde.items.types.entity.IrregularCarrier;
@@ -295,215 +291,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.entity.TemporaryCloud;
 public abstract class Entity
     extends Item
 {
-    /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
-    /**
-     * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowAssistance;
-    /**
-     * The distance from a target an entity starts using its weapons.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(15000)
-    public int EntityAttackRange;
-    /**
-     * The distance outside of which the entity activates their MWD equivalent.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(2500)
-    public int EntityChaseMaxDistance;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityEquipmentMax;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityEquipmentMin;
-    /**
-     * The distance at which the entity orbits, follows.. and more.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(500.0)
-    public double EntityFlyRange;
-    /**
-     * The maximum number of pieces of loot dropped by this entity.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityLootCountMax;
-    /**
-     * Deprecated. The minimum number of pieces of loot dropped by this entity.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityLootCountMin;
-    /**
-     * distance from maximum range at which accuracy has fallen by half
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(1)
-    public int Falloff;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * Distance below which range does not affect the to-hit equation.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
-     * Amount of time taken to fully recharge the shield.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
-    /**
-     * Weapon accuracy
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double TrackingSpeed;
     public static final Entity.MetaCat METACAT = new Entity.MetaCat();
-
-    @Override
-    public Number attribute(Attribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
-            }
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
-            case  854 :
-            {
-                return DisallowAssistance;
-            }
-            case  247 :
-            {
-                return EntityAttackRange;
-            }
-            case  665 :
-            {
-                return EntityChaseMaxDistance;
-            }
-            case  457 :
-            {
-                return EntityEquipmentMax;
-            }
-            case  456 :
-            {
-                return EntityEquipmentMin;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  251 :
-            {
-                return EntityLootCountMax;
-            }
-            case  250 :
-            {
-                return EntityLootCountMin;
-            }
-            case  158 :
-            {
-                return Falloff;
-            }
-            case  9 :
-            {
-                return Hp;
-            }
-            case  54 :
-            {
-                return MaxRange;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  525 :
-            {
-                return StructureUniformity;
-            }
-            case  160 :
-            {
-                return TrackingSpeed;
-            }
-            default:
-            {
-                return super.attribute((attribute));
-            }
-        }
-    }
 
     @Override
     public IMetaCategory<Entity> getCategory() {
@@ -526,7 +314,7 @@ public abstract class Entity
 
         @Override
         public Collection<IMetaGroup<? extends Entity>> groups() {
-            return Arrays.asList(SentryGun.METAGROUP, PoliceDrone.METAGROUP, PirateDrone.METAGROUP, LCODrone.METAGROUP, MinorThreat.METAGROUP, RogueDrone.METAGROUP, FactionDrone.METAGROUP, Convoy.METAGROUP, ConvoyDrone.METAGROUP, ConcordDrone.METAGROUP, SpawnContainer.METAGROUP, LargeCollidableStructure.METAGROUP, Billboard.METAGROUP, TemporaryCloud.METAGROUP, MissionDrone.METAGROUP, DestructibleSentryGun.METAGROUP, CustomsOfficial.METAGROUP, DeadspaceOverseerSStructure.METAGROUP, DeadspaceOverseerSSentry.METAGROUP, DeadspaceOverseerSBelongings.METAGROUP, StorylineFrigate.METAGROUP, StorylineCruiser.METAGROUP, StorylineBattleship.METAGROUP, StorylineMissionFrigate.METAGROUP, StorylineMissionCruiser.METAGROUP, StorylineMissionBattleship.METAGROUP, AsteroidAngelCartelFrigate.METAGROUP, AsteroidAngelCartelCruiser.METAGROUP, AsteroidAngelCartelBattleship.METAGROUP, AsteroidAngelCartelOfficer.METAGROUP, AsteroidAngelCartelHauler.METAGROUP, AsteroidBloodRaidersCruiser.METAGROUP, AsteroidBloodRaidersBattleship.METAGROUP, AsteroidBloodRaidersFrigate.METAGROUP, AsteroidBloodRaidersHauler.METAGROUP, AsteroidBloodRaidersOfficer.METAGROUP, AsteroidGuristasBattleship.METAGROUP, AsteroidGuristasCruiser.METAGROUP, AsteroidGuristasFrigate.METAGROUP, AsteroidGuristasHauler.METAGROUP, AsteroidGuristasOfficer.METAGROUP, AsteroidSanshaSNationBattleship.METAGROUP, AsteroidSanshaSNationCruiser.METAGROUP, AsteroidSanshaSNationFrigate.METAGROUP, AsteroidSanshaSNationHauler.METAGROUP, AsteroidSanshaSNationOfficer.METAGROUP, AsteroidSerpentisBattleship.METAGROUP, AsteroidSerpentisCruiser.METAGROUP, AsteroidSerpentisFrigate.METAGROUP, AsteroidSerpentisHauler.METAGROUP, AsteroidSerpentisOfficer.METAGROUP, AsteroidAngelCartelDestroyer.METAGROUP, AsteroidAngelCartelBattleCruiser.METAGROUP, AsteroidBloodRaidersDestroyer.METAGROUP, AsteroidBloodRaidersBattleCruiser.METAGROUP, AsteroidGuristasDestroyer.METAGROUP, AsteroidGuristasBattleCruiser.METAGROUP, AsteroidSanshaSNationDestroyer.METAGROUP, AsteroidSanshaSNationBattleCruiser.METAGROUP, AsteroidSerpentisDestroyer.METAGROUP, AsteroidSerpentisBattleCruiser.METAGROUP, DeadspaceAngelCartelBattleCruiser.METAGROUP, DeadspaceAngelCartelBattleship.METAGROUP, DeadspaceAngelCartelCruiser.METAGROUP, DeadspaceAngelCartelDestroyer.METAGROUP, DeadspaceAngelCartelFrigate.METAGROUP, DeadspaceBloodRaidersBattleCruiser.METAGROUP, DeadspaceBloodRaidersBattleship.METAGROUP, DeadspaceBloodRaidersCruiser.METAGROUP, DeadspaceBloodRaidersDestroyer.METAGROUP, DeadspaceBloodRaidersFrigate.METAGROUP, DeadspaceGuristasBattleCruiser.METAGROUP, DeadspaceGuristasBattleship.METAGROUP, DeadspaceGuristasCruiser.METAGROUP, DeadspaceGuristasDestroyer.METAGROUP, DeadspaceGuristasFrigate.METAGROUP, DeadspaceSanshaSNationBattleCruiser.METAGROUP, DeadspaceSanshaSNationBattleship.METAGROUP, DeadspaceSanshaSNationCruiser.METAGROUP, DeadspaceSanshaSNationDestroyer.METAGROUP, DeadspaceSanshaSNationFrigate.METAGROUP, DeadspaceSerpentisBattleCruiser.METAGROUP, DeadspaceSerpentisBattleship.METAGROUP, DeadspaceSerpentisCruiser.METAGROUP, DeadspaceSerpentisDestroyer.METAGROUP, DeadspaceSerpentisFrigate.METAGROUP, MissionAmarrEmpireFrigate.METAGROUP, MissionAmarrEmpireBattlecruiser.METAGROUP, MissionAmarrEmpireBattleship.METAGROUP, MissionAmarrEmpireCruiser.METAGROUP, MissionAmarrEmpireDestroyer.METAGROUP, MissionAmarrEmpireOther.METAGROUP, MissionCaldariStateFrigate.METAGROUP, MissionCaldariStateBattlecruiser.METAGROUP, MissionCaldariStateCruiser.METAGROUP, MissionCaldariStateBattleship.METAGROUP, MissionCaldariStateOther.METAGROUP, MissionCaldariStateDestroyer.METAGROUP, MissionGallenteFederationFrigate.METAGROUP, MissionGallenteFederationCruiser.METAGROUP, MissionGallenteFederationDestroyer.METAGROUP, MissionGallenteFederationBattleship.METAGROUP, MissionGallenteFederationBattlecruiser.METAGROUP, MissionMinmatarRepublicFrigate.METAGROUP, MissionMinmatarRepublicDestroyer.METAGROUP, MissionMinmatarRepublicBattlecruiser.METAGROUP, MissionKhanidFrigate.METAGROUP, MissionKhanidCruiser.METAGROUP, MissionKhanidBattleship.METAGROUP, MissionCONCORDFrigate.METAGROUP, MissionCONCORDCruiser.METAGROUP, MissionCONCORDBattleship.METAGROUP, MissionMorduFrigate.METAGROUP, MissionMorduCruiser.METAGROUP, MissionMorduBattleship.METAGROUP, MissionMinmatarRepublicCruiser.METAGROUP, MissionMinmatarRepublicBattleship.METAGROUP, DestructibleAgentsInSpace.METAGROUP, AsteroidRogueDroneBattleCruiser.METAGROUP, AsteroidRogueDroneBattleship.METAGROUP, AsteroidRogueDroneCruiser.METAGROUP, AsteroidRogueDroneDestroyer.METAGROUP, AsteroidRogueDroneFrigate.METAGROUP, AsteroidRogueDroneHauler.METAGROUP, AsteroidRogueDroneSwarm.METAGROUP, LargeCollidableShip.METAGROUP, AsteroidAngelCartelCommanderFrigate.METAGROUP, AsteroidAngelCartelCommanderCruiser.METAGROUP, AsteroidBloodRaidersCommanderCruiser.METAGROUP, AsteroidBloodRaidersCommanderFrigate.METAGROUP, AsteroidAngelCartelCommanderBattleCruiser.METAGROUP, AsteroidAngelCartelCommanderDestroyer.METAGROUP, AsteroidBloodRaidersCommanderBattleCruiser.METAGROUP, AsteroidBloodRaidersCommanderDestroyer.METAGROUP, AsteroidGuristasCommanderBattleCruiser.METAGROUP, AsteroidGuristasCommanderCruiser.METAGROUP, AsteroidGuristasCommanderDestroyer.METAGROUP, AsteroidGuristasCommanderFrigate.METAGROUP, DeadspaceRogueDroneBattleCruiser.METAGROUP, DeadspaceRogueDroneBattleship.METAGROUP, DeadspaceRogueDroneCruiser.METAGROUP, DeadspaceRogueDroneDestroyer.METAGROUP, DeadspaceRogueDroneFrigate.METAGROUP, DeadspaceRogueDroneSwarm.METAGROUP, AsteroidSanshaSNationCommanderBattleCruiser.METAGROUP, AsteroidSanshaSNationCommanderCruiser.METAGROUP, AsteroidSanshaSNationCommanderDestroyer.METAGROUP, AsteroidSanshaSNationCommanderFrigate.METAGROUP, AsteroidSerpentisCommanderBattleCruiser.METAGROUP, AsteroidSerpentisCommanderCruiser.METAGROUP, AsteroidSerpentisCommanderDestroyer.METAGROUP, AsteroidSerpentisCommanderFrigate.METAGROUP, MissionGenericBattleships.METAGROUP, MissionGenericCruisers.METAGROUP, MissionGenericFrigates.METAGROUP, DeadspaceOverseerFrigate.METAGROUP, DeadspaceOverseerCruiser.METAGROUP, DeadspaceOverseerBattleship.METAGROUP, MissionThukkerCruiser.METAGROUP, MissionThukkerFrigate.METAGROUP, MissionGenericBattleCruisers.METAGROUP, MissionGenericDestroyers.METAGROUP, AsteroidRogueDroneCommanderBattleCruiser.METAGROUP, AsteroidRogueDroneCommanderBattleship.METAGROUP, AsteroidRogueDroneCommanderCruiser.METAGROUP, AsteroidRogueDroneCommanderDestroyer.METAGROUP, AsteroidRogueDroneCommanderFrigate.METAGROUP, AsteroidAngelCartelCommanderBattleship.METAGROUP, AsteroidBloodRaidersCommanderBattleship.METAGROUP, AsteroidGuristasCommanderBattleship.METAGROUP, AsteroidSanshaSNationCommanderBattleship.METAGROUP, AsteroidSerpentisCommanderBattleship.METAGROUP, MissionFighterDrone.METAGROUP, MissionAmarrEmpireCarrier.METAGROUP, MissionCaldariStateCarrier.METAGROUP, MissionGallenteFederationCarrier.METAGROUP, MissionMinmatarRepublicCarrier.METAGROUP, MissionFactionTransports.METAGROUP, CapturePoint.METAGROUP, MissionFactionBattleship.METAGROUP, FWInfrastructureHub.METAGROUP, MissionFactionIndustrials.METAGROUP, MissionContainer.METAGROUP, DeadspaceSleeperSleeplessSentinel.METAGROUP, DeadspaceSleeperAwakenedSentinel.METAGROUP, DeadspaceSleeperEmergentSentinel.METAGROUP, DeadspaceSleeperSleeplessDefender.METAGROUP, DeadspaceSleeperSleeplessPatroller.METAGROUP, DeadspaceSleeperAwakenedDefender.METAGROUP, DeadspaceSleeperAwakenedPatroller.METAGROUP, DeadspaceSleeperEmergentDefender.METAGROUP, DeadspaceSleeperEmergentPatroller.METAGROUP, MissionFactionCruiser.METAGROUP, MissionFactionFrigate.METAGROUP, IncursionSanshaSNationCapital.METAGROUP, IncursionSanshaSNationFrigate.METAGROUP, IncursionSanshaSNationCruiser.METAGROUP, IncursionSanshaSNationBattleship.METAGROUP, AsteroidRogueDroneOfficer.METAGROUP, AsteroidMordusLegionCommanderFrigate.METAGROUP, AsteroidMordusLegionCommanderCruiser.METAGROUP, AsteroidMordusLegionCommanderBattleship.METAGROUP, AmarrNavyRoamingBattleship.METAGROUP, AmarrNavyRoamingCruiser.METAGROUP, AmarrNavyRoamingCapital.METAGROUP, AmarrNavyRoamingLogistics.METAGROUP, AmarrNavyRoamingFrigate.METAGROUP, IrregularDrone.METAGROUP, IrregularFighter.METAGROUP, MissionGenericSupercarrier.METAGROUP, DeadspaceSleeperUpgradedAvenger.METAGROUP, DrifterResponseBattleship.METAGROUP, IrregularShuttle.METAGROUP, IrregularFrigate.METAGROUP, IrregularDestroyer.METAGROUP, IrregularCruiser.METAGROUP, IrregularBattlecruiser.METAGROUP, IrregularBattleship.METAGROUP, AsteroidAngelCartelDreadnought.METAGROUP, AsteroidAngelCartelTitan.METAGROUP, AsteroidBloodRaiderDreadnought.METAGROUP, AsteroidBloodRaiderTitan.METAGROUP, AsteroidGuristasDreadnought.METAGROUP, AsteroidGuristasTitan.METAGROUP, AsteroidSanshaSNationDreadnought.METAGROUP, AsteroidSanshaSNationSupercarrier.METAGROUP, AsteroidSerpentisDreadnought.METAGROUP, AsteroidSerpentisTitan.METAGROUP, AsteroidRogueDroneCarrier.METAGROUP, AsteroidRogueDroneSupercarrier.METAGROUP, RoamingSerpentisBattleship.METAGROUP, RoamingSerpentisCruiser.METAGROUP, RoamingSerpentisFrigate.METAGROUP, IrregularDreadnought.METAGROUP, IrregularCarrier.METAGROUP, RoamingAngelCartelBattleship.METAGROUP, RoamingAngelCartelCruiser.METAGROUP, RoamingAngelCartelFrigate.METAGROUP, RoamingBloodRaiderFrigate.METAGROUP, RoamingBloodRaiderCruiser.METAGROUP, RoamingBloodRaiderBattlecruiser.METAGROUP, RoamingBloodRaiderBattleship.METAGROUP, NPCMiningFrigate.METAGROUP, NPCMiningBarge.METAGROUP, NPCMiningExhumer.METAGROUP, NPCMiningHauler.METAGROUP, SeekerScouts.METAGROUP, HiddenZenithDrifters.METAGROUP, HiddenZenithAmarrBattleship.METAGROUP, HiddenZenithAmarrCruiser.METAGROUP, HiddenZenithAmarrFrigate.METAGROUP, HiddenZenithCaldariBattleship.METAGROUP, HiddenZenithCaldariCruiser.METAGROUP, HiddenZenithCaldariFrigate.METAGROUP, HiddenZenithGallenteBattleship.METAGROUP, HiddenZenithGallenteCruiser.METAGROUP, HiddenZenithGallenteFrigate.METAGROUP, HiddenZenithMinmatarBattleship.METAGROUP, HiddenZenithMinmatarCruiser.METAGROUP, HiddenZenithMinmatarFrigate.METAGROUP, NPCFrigate.METAGROUP, HiddenZenithAmarrCapital.METAGROUP, HiddenZenithCaldariCapital.METAGROUP, HiddenZenithGallenteCapital.METAGROUP, HiddenZenithMinmatarCapital.METAGROUP, NPCCruiser.METAGROUP, NPCBattleship.METAGROUP, StructureEntities.METAGROUP, NPCTitan.METAGROUP, NPCForceAuxiliary.METAGROUP, NPCDreadnought.METAGROUP, IrregularIndustrial.METAGROUP, NPCIndustrialCommand.METAGROUP, NPCBattlecruiser.METAGROUP, IrregularFreighter.METAGROUP, IrregularContainer.METAGROUP, IrregularUnidentified.METAGROUP, DrifterReinforcements.METAGROUP, AbyssalSpaceshipEntities.METAGROUP, AbyssalDroneEntities.METAGROUP, PrecursorCache.METAGROUP);
+            return Arrays.asList(SentryGun.METAGROUP, PoliceDrone.METAGROUP, PirateDrone.METAGROUP, LCODrone.METAGROUP, MinorThreat.METAGROUP, RogueDrone.METAGROUP, FactionDrone.METAGROUP, Convoy.METAGROUP, ConvoyDrone.METAGROUP, ConcordDrone.METAGROUP, SpawnContainer.METAGROUP, LargeCollidableStructure.METAGROUP, Billboard.METAGROUP, TemporaryCloud.METAGROUP, MissionDrone.METAGROUP, DestructibleSentryGun.METAGROUP, CustomsOfficial.METAGROUP, DeadspaceOverseerSStructure.METAGROUP, DeadspaceOverseerSSentry.METAGROUP, DeadspaceOverseerSBelongings.METAGROUP, StorylineFrigate.METAGROUP, StorylineCruiser.METAGROUP, StorylineBattleship.METAGROUP, StorylineMissionFrigate.METAGROUP, StorylineMissionCruiser.METAGROUP, StorylineMissionBattleship.METAGROUP, AsteroidAngelCartelFrigate.METAGROUP, AsteroidAngelCartelCruiser.METAGROUP, AsteroidAngelCartelBattleship.METAGROUP, AsteroidAngelCartelOfficer.METAGROUP, AsteroidAngelCartelHauler.METAGROUP, AsteroidBloodRaidersCruiser.METAGROUP, AsteroidBloodRaidersBattleship.METAGROUP, AsteroidBloodRaidersFrigate.METAGROUP, AsteroidBloodRaidersHauler.METAGROUP, AsteroidBloodRaidersOfficer.METAGROUP, AsteroidGuristasBattleship.METAGROUP, AsteroidGuristasCruiser.METAGROUP, AsteroidGuristasFrigate.METAGROUP, AsteroidGuristasHauler.METAGROUP, AsteroidGuristasOfficer.METAGROUP, AsteroidSanshaSNationBattleship.METAGROUP, AsteroidSanshaSNationCruiser.METAGROUP, AsteroidSanshaSNationFrigate.METAGROUP, AsteroidSanshaSNationHauler.METAGROUP, AsteroidSanshaSNationOfficer.METAGROUP, AsteroidSerpentisBattleship.METAGROUP, AsteroidSerpentisCruiser.METAGROUP, AsteroidSerpentisFrigate.METAGROUP, AsteroidSerpentisHauler.METAGROUP, AsteroidSerpentisOfficer.METAGROUP, AsteroidAngelCartelDestroyer.METAGROUP, AsteroidAngelCartelBattleCruiser.METAGROUP, AsteroidBloodRaidersDestroyer.METAGROUP, AsteroidBloodRaidersBattleCruiser.METAGROUP, AsteroidGuristasDestroyer.METAGROUP, AsteroidGuristasBattleCruiser.METAGROUP, AsteroidSanshaSNationDestroyer.METAGROUP, AsteroidSanshaSNationBattleCruiser.METAGROUP, AsteroidSerpentisDestroyer.METAGROUP, AsteroidSerpentisBattleCruiser.METAGROUP, DeadspaceAngelCartelBattleCruiser.METAGROUP, DeadspaceAngelCartelBattleship.METAGROUP, DeadspaceAngelCartelCruiser.METAGROUP, DeadspaceAngelCartelDestroyer.METAGROUP, DeadspaceAngelCartelFrigate.METAGROUP, DeadspaceBloodRaidersBattleCruiser.METAGROUP, DeadspaceBloodRaidersBattleship.METAGROUP, DeadspaceBloodRaidersCruiser.METAGROUP, DeadspaceBloodRaidersDestroyer.METAGROUP, DeadspaceBloodRaidersFrigate.METAGROUP, DeadspaceGuristasBattleCruiser.METAGROUP, DeadspaceGuristasBattleship.METAGROUP, DeadspaceGuristasCruiser.METAGROUP, DeadspaceGuristasDestroyer.METAGROUP, DeadspaceGuristasFrigate.METAGROUP, DeadspaceSanshaSNationBattleCruiser.METAGROUP, DeadspaceSanshaSNationBattleship.METAGROUP, DeadspaceSanshaSNationCruiser.METAGROUP, DeadspaceSanshaSNationDestroyer.METAGROUP, DeadspaceSanshaSNationFrigate.METAGROUP, DeadspaceSerpentisBattleCruiser.METAGROUP, DeadspaceSerpentisBattleship.METAGROUP, DeadspaceSerpentisCruiser.METAGROUP, DeadspaceSerpentisDestroyer.METAGROUP, DeadspaceSerpentisFrigate.METAGROUP, MissionAmarrEmpireFrigate.METAGROUP, MissionAmarrEmpireBattlecruiser.METAGROUP, MissionAmarrEmpireBattleship.METAGROUP, MissionAmarrEmpireCruiser.METAGROUP, MissionAmarrEmpireDestroyer.METAGROUP, MissionAmarrEmpireOther.METAGROUP, MissionCaldariStateFrigate.METAGROUP, MissionCaldariStateBattlecruiser.METAGROUP, MissionCaldariStateCruiser.METAGROUP, MissionCaldariStateBattleship.METAGROUP, MissionCaldariStateOther.METAGROUP, MissionCaldariStateDestroyer.METAGROUP, MissionGallenteFederationFrigate.METAGROUP, MissionGallenteFederationCruiser.METAGROUP, MissionGallenteFederationDestroyer.METAGROUP, MissionGallenteFederationBattleship.METAGROUP, MissionGallenteFederationBattlecruiser.METAGROUP, MissionMinmatarRepublicFrigate.METAGROUP, MissionMinmatarRepublicDestroyer.METAGROUP, MissionMinmatarRepublicBattlecruiser.METAGROUP, MissionKhanidFrigate.METAGROUP, MissionKhanidCruiser.METAGROUP, MissionKhanidBattleship.METAGROUP, MissionCONCORDFrigate.METAGROUP, MissionCONCORDCruiser.METAGROUP, MissionCONCORDBattleship.METAGROUP, MissionMorduFrigate.METAGROUP, MissionMorduCruiser.METAGROUP, MissionMorduBattleship.METAGROUP, MissionMinmatarRepublicCruiser.METAGROUP, MissionMinmatarRepublicBattleship.METAGROUP, DestructibleAgentsInSpace.METAGROUP, AsteroidRogueDroneBattleCruiser.METAGROUP, AsteroidRogueDroneBattleship.METAGROUP, AsteroidRogueDroneCruiser.METAGROUP, AsteroidRogueDroneDestroyer.METAGROUP, AsteroidRogueDroneFrigate.METAGROUP, AsteroidRogueDroneHauler.METAGROUP, AsteroidRogueDroneSwarm.METAGROUP, LargeCollidableShip.METAGROUP, AsteroidAngelCartelCommanderFrigate.METAGROUP, AsteroidAngelCartelCommanderCruiser.METAGROUP, AsteroidBloodRaidersCommanderCruiser.METAGROUP, AsteroidBloodRaidersCommanderFrigate.METAGROUP, AsteroidAngelCartelCommanderBattleCruiser.METAGROUP, AsteroidAngelCartelCommanderDestroyer.METAGROUP, AsteroidBloodRaidersCommanderBattleCruiser.METAGROUP, AsteroidBloodRaidersCommanderDestroyer.METAGROUP, AsteroidGuristasCommanderBattleCruiser.METAGROUP, AsteroidGuristasCommanderCruiser.METAGROUP, AsteroidGuristasCommanderDestroyer.METAGROUP, AsteroidGuristasCommanderFrigate.METAGROUP, DeadspaceRogueDroneBattleCruiser.METAGROUP, DeadspaceRogueDroneBattleship.METAGROUP, DeadspaceRogueDroneCruiser.METAGROUP, DeadspaceRogueDroneDestroyer.METAGROUP, DeadspaceRogueDroneFrigate.METAGROUP, DeadspaceRogueDroneSwarm.METAGROUP, AsteroidSanshaSNationCommanderBattleCruiser.METAGROUP, AsteroidSanshaSNationCommanderCruiser.METAGROUP, AsteroidSanshaSNationCommanderDestroyer.METAGROUP, AsteroidSanshaSNationCommanderFrigate.METAGROUP, AsteroidSerpentisCommanderBattleCruiser.METAGROUP, AsteroidSerpentisCommanderCruiser.METAGROUP, AsteroidSerpentisCommanderDestroyer.METAGROUP, AsteroidSerpentisCommanderFrigate.METAGROUP, MissionGenericBattleships.METAGROUP, MissionGenericCruisers.METAGROUP, MissionGenericFrigates.METAGROUP, DeadspaceOverseerFrigate.METAGROUP, DeadspaceOverseerCruiser.METAGROUP, DeadspaceOverseerBattleship.METAGROUP, MissionThukkerCruiser.METAGROUP, MissionThukkerFrigate.METAGROUP, MissionGenericBattleCruisers.METAGROUP, MissionGenericDestroyers.METAGROUP, AsteroidRogueDroneCommanderBattleCruiser.METAGROUP, AsteroidRogueDroneCommanderBattleship.METAGROUP, AsteroidRogueDroneCommanderCruiser.METAGROUP, AsteroidRogueDroneCommanderDestroyer.METAGROUP, AsteroidRogueDroneCommanderFrigate.METAGROUP, AsteroidAngelCartelCommanderBattleship.METAGROUP, AsteroidBloodRaidersCommanderBattleship.METAGROUP, AsteroidGuristasCommanderBattleship.METAGROUP, AsteroidSanshaSNationCommanderBattleship.METAGROUP, AsteroidSerpentisCommanderBattleship.METAGROUP, MissionFighterDrone.METAGROUP, MissionAmarrEmpireCarrier.METAGROUP, MissionCaldariStateCarrier.METAGROUP, MissionGallenteFederationCarrier.METAGROUP, MissionMinmatarRepublicCarrier.METAGROUP, MissionFactionTransports.METAGROUP, CapturePoint.METAGROUP, MissionFactionBattleship.METAGROUP, FWInfrastructureHub.METAGROUP, MissionFactionIndustrials.METAGROUP, MissionContainer.METAGROUP, DeadspaceSleeperSleeplessSentinel.METAGROUP, DeadspaceSleeperAwakenedSentinel.METAGROUP, DeadspaceSleeperEmergentSentinel.METAGROUP, DeadspaceSleeperSleeplessDefender.METAGROUP, DeadspaceSleeperSleeplessPatroller.METAGROUP, DeadspaceSleeperAwakenedDefender.METAGROUP, DeadspaceSleeperAwakenedPatroller.METAGROUP, DeadspaceSleeperEmergentDefender.METAGROUP, DeadspaceSleeperEmergentPatroller.METAGROUP, MissionFactionCruiser.METAGROUP, MissionFactionFrigate.METAGROUP, IncursionSanshaSNationCapital.METAGROUP, IncursionSanshaSNationFrigate.METAGROUP, IncursionSanshaSNationCruiser.METAGROUP, IncursionSanshaSNationBattleship.METAGROUP, AsteroidRogueDroneOfficer.METAGROUP, AsteroidMordusLegionCommanderFrigate.METAGROUP, AsteroidMordusLegionCommanderCruiser.METAGROUP, AsteroidMordusLegionCommanderBattleship.METAGROUP, AmarrNavyRoamingBattleship.METAGROUP, AmarrNavyRoamingCruiser.METAGROUP, AmarrNavyRoamingCapital.METAGROUP, AmarrNavyRoamingLogistics.METAGROUP, AmarrNavyRoamingFrigate.METAGROUP, IrregularDrone.METAGROUP, IrregularFighter.METAGROUP, MissionGenericSupercarrier.METAGROUP, DeadspaceSleeperUpgradedAvenger.METAGROUP, DrifterResponseBattleship.METAGROUP, IrregularShuttle.METAGROUP, IrregularFrigate.METAGROUP, IrregularDestroyer.METAGROUP, IrregularCruiser.METAGROUP, IrregularBattlecruiser.METAGROUP, IrregularBattleship.METAGROUP, AsteroidAngelCartelDreadnought.METAGROUP, AsteroidAngelCartelTitan.METAGROUP, AsteroidBloodRaiderDreadnought.METAGROUP, AsteroidBloodRaiderTitan.METAGROUP, AsteroidGuristasDreadnought.METAGROUP, AsteroidGuristasTitan.METAGROUP, AsteroidSanshaSNationDreadnought.METAGROUP, AsteroidSanshaSNationSupercarrier.METAGROUP, AsteroidSerpentisDreadnought.METAGROUP, AsteroidSerpentisTitan.METAGROUP, AsteroidRogueDroneCarrier.METAGROUP, AsteroidRogueDroneSupercarrier.METAGROUP, RoamingSerpentisBattleship.METAGROUP, RoamingSerpentisCruiser.METAGROUP, RoamingSerpentisFrigate.METAGROUP, IrregularDreadnought.METAGROUP, IrregularCarrier.METAGROUP, RoamingAngelCartelBattleship.METAGROUP, RoamingAngelCartelCruiser.METAGROUP, RoamingAngelCartelFrigate.METAGROUP, RoamingBloodRaiderFrigate.METAGROUP, RoamingBloodRaiderCruiser.METAGROUP, RoamingBloodRaiderBattlecruiser.METAGROUP, RoamingBloodRaiderBattleship.METAGROUP, NPCMiningFrigate.METAGROUP, NPCMiningBarge.METAGROUP, NPCMiningExhumer.METAGROUP, NPCMiningHauler.METAGROUP, SeekerScouts.METAGROUP, HiddenZenithDrifters.METAGROUP, HiddenZenithAmarrBattleship.METAGROUP, HiddenZenithAmarrCruiser.METAGROUP, HiddenZenithAmarrFrigate.METAGROUP, HiddenZenithCaldariBattleship.METAGROUP, HiddenZenithCaldariCruiser.METAGROUP, HiddenZenithCaldariFrigate.METAGROUP, HiddenZenithGallenteBattleship.METAGROUP, HiddenZenithGallenteCruiser.METAGROUP, HiddenZenithGallenteFrigate.METAGROUP, HiddenZenithMinmatarBattleship.METAGROUP, HiddenZenithMinmatarCruiser.METAGROUP, HiddenZenithMinmatarFrigate.METAGROUP, NPCFrigate.METAGROUP, HiddenZenithAmarrCapital.METAGROUP, HiddenZenithCaldariCapital.METAGROUP, HiddenZenithGallenteCapital.METAGROUP, HiddenZenithMinmatarCapital.METAGROUP, NPCCruiser.METAGROUP, NPCBattleship.METAGROUP, StructureEntities.METAGROUP, NPCTitan.METAGROUP, NPCForceAuxiliary.METAGROUP, NPCDreadnought.METAGROUP, IrregularIndustrial.METAGROUP, NPCIndustrialCommand.METAGROUP, NPCBattlecruiser.METAGROUP, IrregularFreighter.METAGROUP, IrregularContainer.METAGROUP, IrregularUnidentified.METAGROUP, DrifterReinforcements.METAGROUP, AbyssalSpaceshipEntities.METAGROUP, AbyssalDroneEntities.METAGROUP, PrecursorCache.METAGROUP, InvadingPrecursorEntities.METAGROUP);
         }
     }
 }

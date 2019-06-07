@@ -1,83 +1,41 @@
 items:
   Crippler Alvatis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 18074
     mass: 100000.0
     name: Crippler Alvatis
     published: false
     volume: 60.0
   Defeater Alvatis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 18073
     mass: 100000.0
     name: Defeater Alvatis
     published: false
     volume: 60.0
   Enforcer Alvatis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3747
     mass: 100000.0
     name: Enforcer Alvatis
     published: false
     volume: 60.0
   Exterminator Alvatis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23490
     mass: 100000.0
     name: Exterminator Alvatis
     published: false
     volume: 60.0
   Siege Alvatis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23489
     mass: 100000.0
     name: Siege Alvatis
     published: false
     volume: 60.0
   Striker Alvatis:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 18075
     mass: 100000.0
     name: Striker Alvatis
     published: false
     volume: 60.0
   Swarm Overmind Secundus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 45637
     mass: 2.1E7
     name: Swarm Overmind Secundus

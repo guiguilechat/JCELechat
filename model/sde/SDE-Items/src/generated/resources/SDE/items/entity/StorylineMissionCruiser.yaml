@@ -1,911 +1,455 @@
 items:
   Angel Scavenger:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22171
     mass: 1.09E7
     name: Angel Scavenger
     published: false
     volume: 109000.0
   Angel Thief:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22237
     mass: 1.09E7
     name: Angel Thief
     published: false
     volume: 109000.0
   Apte Donie:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23233
     mass: 1.12E7
     name: Apte Donie
     published: false
     volume: 112000.0
   Aradim Arachnan:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23951
     mass: 1.195E7
     name: Aradim Arachnan
     published: false
     volume: 118000.0
   Arms Dealer Incognito:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21787
     mass: 1.01E7
     name: Arms Dealer Incognito
     published: false
     volume: 101000.0
   Bai Tarziiki:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21090
     mass: 1.01E7
     name: Bai Tarziiki
     published: false
     volume: 101000.0
   Blood Raider Foreman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23965
     mass: 1.18E7
     name: Blood Raider Foreman
     published: false
     volume: 118000.0
   Bounty Hunter Drukhar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21630
     mass: 1.01E7
     name: Bounty Hunter Drukhar
     published: false
     volume: 101000.0
   Corpse Harvester:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24261
     mass: 1.18E7
     name: Corpse Harvester
     published: false
     volume: 118000.0
   Cura Gigno:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26744
     mass: 1.075E7
     name: Cura Gigno
     published: false
     volume: 200000.0
   Cybertron:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21859
     mass: 1.09E7
     name: Cybertron
     published: false
     volume: 109000.0
   Daubs Louel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23235
     mass: 1.12E7
     name: Daubs Louel
     published: false
     volume: 112000.0
   Don Rico's Henchman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23609
     mass: 1.12E7
     name: Don Rico's Henchman
     published: false
     volume: 112000.0
   Don Rico's Pleasure Yacht:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23614
     mass: 1.3075E7
     name: Don Rico's Pleasure Yacht
     published: false
     volume: 115000.0
   Eule Vitrauze:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23422
     mass: 1.2E7
     name: Eule Vitrauze
     published: false
     volume: 112000.0
   Famon Gurch:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22160
     mass: 1.09E7
     name: Famon Gurch
     published: false
     volume: 109000.0
   Garp Soolim:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22094
     mass: 9200000.0
     name: Garp Soolim
     published: false
     volume: 92000.0
   Gerno Babalu:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22322
     mass: 1.15E7
     name: Gerno Babalu
     published: false
     volume: 96000.0
   Guristas Maniac:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21648
     mass: 1.01E7
     name: Guristas Maniac
     published: false
     volume: 101000.0
   Guristas Outlaw:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21643
     mass: 9200000.0
     name: Guristas Outlaw
     published: false
     volume: 92000.0
   Guristas Robber:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21647
     mass: 9600000.0
     name: Guristas Robber
     published: false
     volume: 96000.0
   Hodura Amaba:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26859
     mass: 1.18E7
     name: Hodura Amaba
     published: false
     volume: 118000.0
   Huriki Vunau:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22076
     mass: 1.01E7
     name: Huriki Vunau
     published: false
     volume: 101000.0
   Jakon Tooka:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21103
     mass: 1.18E7
     name: Jakon Tooka
     published: false
     volume: 118000.0
   Jerpam Hollek:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22082
     mass: 1.01E7
     name: Jerpam Hollek
     published: false
     volume: 101000.0
   Jihar Okham:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21881
     mass: 1.09E7
     name: Jihar Okham
     published: false
     volume: 109000.0
   Kaerleiks Bjorn:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26741
     mass: 1.12E8
     name: Kaerleiks Bjorn
     published: false
     volume: 1120000.0
   Kazah Durn:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26878
     mass: 1.001E7
     name: Kazah Durn
     published: false
     volume: 100100.0
   Ketta Tomin2:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25576
     mass: 1.09E7
     name: Ketta Tomin2
     published: false
     volume: 109000.0
   Lagaster Malotoff:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22250
     mass: 1.09E7
     name: Lagaster Malotoff
     published: false
     volume: 109000.0
   Machul Mu'Shabba:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21972
     mass: 1.15E7
     name: Machul Mu'Shabba
     published: false
     volume: 96000.0
   Makele Kordonii:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21061
     mass: 1.09E7
     name: Makele Kordonii
     published: false
     volume: 109000.0
   Malfunctioned Pleasure Cruiser:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23628
     mass: 1.3075E7
     name: Malfunctioned Pleasure Cruiser
     published: false
     volume: 115000.0
   Manchura Todaki:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20549
     mass: 1.01E7
     name: Manchura Todaki
     published: false
     volume: 101000.0
   Maqeri Camcen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23601
     mass: 1.01E7
     name: Maqeri Camcen
     published: false
     volume: 101000.0
   Marin Matola:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26879
     mass: 1.12E7
     name: Marin Matola
     published: false
     volume: 112000.0
   Minmatar Republic Narcotics Officer 2nd Rank:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22239
     mass: 9900000.0
     name: Minmatar Republic Narcotics Officer 2nd Rank
     published: false
     volume: 99000.0
   Motani Ihura:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21092
     mass: 1.01E7
     name: Motani Ihura
     published: false
     volume: 101000.0
   Motoh Olin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26880
     mass: 1.18E7
     name: Motoh Olin
     published: false
     volume: 118000.0
   Nefantar Pilgrim:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21887
     mass: 1.09E7
     name: Nefantar Pilgrim
     published: false
     volume: 109000.0
   Nikmar Eitan:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26867
     mass: 1.09E7
     name: Nikmar Eitan
     published: false
     volume: 109000.0
   Nugoeihuvi Excavator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21649
     mass: 9200000.0
     name: Nugoeihuvi Excavator
     published: false
     volume: 92000.0
   Nugoeihuvi Operative:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21786
     mass: 1.01E7
     name: Nugoeihuvi Operative
     published: false
     volume: 101000.0
   Nugoeihuvi Propagandist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21650
     mass: 1.01E7
     name: Nugoeihuvi Propagandist
     published: false
     volume: 101000.0
   Okham's Cyber Thrall:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21882
     mass: 1.09E7
     name: Okham's Cyber Thrall
     published: false
     volume: 109000.0
   Ours De Soin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26795
     mass: 1.115E7
     name: Ours De Soin
     published: false
     volume: 190000.0
   Pakkul's Thugs:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22042
     mass: 1.09E7
     name: Pakkul's Thugs
     published: false
     volume: 109000.0
   Pourpas Aunten:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23598
     mass: 1.12E7
     name: Pourpas Aunten
     published: false
     volume: 112000.0
   Propel Dynamics Excavator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21651
     mass: 9600000.0
     name: Propel Dynamics Excavator
     published: false
     volume: 96000.0
   Propel Dynamics Propagandist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21652
     mass: 1.01E7
     name: Propel Dynamics Propagandist
     published: false
     volume: 101000.0
   Quao Kale:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21670
     mass: 9600000.0
     name: Quao Kale
     published: false
     volume: 96000.0
   REF Pilot:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22052
     mass: 1.15E7
     name: REF Pilot
     published: false
     volume: 96000.0
   RabaRaba ChooChoo:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21101
     mass: 1.01E7
     name: RabaRaba ChooChoo
     published: false
     volume: 101000.0
   Rekker Malkun:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22253
     mass: 1.275E7
     name: Rekker Malkun
     published: false
     volume: 118000.0
   Roaming Rebel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22057
     mass: 1.15E7
     name: Roaming Rebel
     published: false
     volume: 96000.0
   Roark:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22088
     mass: 9200000.0
     name: Roark
     published: false
     volume: 92000.0
   Ryoke Laika:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21065
     mass: 1.01E7
     name: Ryoke Laika
     published: false
     volume: 101000.0
   ST 59:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22105
     mass: 100000.0
     name: ST 59
     published: false
     volume: 60.0
   ST 60:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22104
     mass: 100000.0
     name: ST 60
     published: false
     volume: 60.0
   Serpentis Drug Runner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23685
     mass: 1.12E7
     name: Serpentis Drug Runner
     published: false
     volume: 112000.0
   Serpentis Surveyor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24307
     mass: 1.12E7
     name: Serpentis Surveyor
     published: false
     volume: 112000.0
   Sheriff Togany_:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21068
     mass: 1.01E7
     name: Sheriff Togany_
     published: false
     volume: 101000.0
   Sleeban Iratur:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22091
     mass: 9600000.0
     name: Sleeban Iratur
     published: false
     volume: 96000.0
   Splinter Smuggler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23596
     mass: 1.16E7
     name: Splinter Smuggler
     published: false
     volume: 116000.0
   Suard Fish:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26883
     mass: 1.001E7
     name: Suard Fish
     published: false
     volume: 100100.0
   Tao Pai Motow:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21049
     mass: 1.01E7
     name: Tao Pai Motow
     published: false
     volume: 101000.0
   Tara Buquet:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21056
     mass: 1.2E7
     name: Tara Buquet
     published: false
     volume: 112000.0
   Teinei Kuma:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26748
     mass: 1.15E7
     name: Teinei Kuma
     published: false
     volume: 195000.0
   The Duke:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21515
     mass: 1.07E7
     name: The Duke
     published: false
     volume: 107000.0
   Thukker Scavenger:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22058
     mass: 1.15E7
     name: Thukker Scavenger
     published: false
     volume: 96000.0
   Vanir Makono:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22233
     mass: 1.09E7
     name: Vanir Makono
     published: false
     volume: 109000.0
   Wei Todaki_:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20552
     mass: 1.01E7
     name: Wei Todaki_
     published: false
     volume: 101000.0
   Wolf Skarkert:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21597
     mass: 1.01E7
     name: Wolf Skarkert
     published: false
     volume: 101000.0
   Ytari Niaga:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24661
     mass: 1.01E7
     name: Ytari Niaga
     published: false
     volume: 101000.0
   Zaphiria Oddin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21675
     mass: 1.01E7
     name: Zaphiria Oddin
     published: false
     volume: 101000.0
   Zvarin Karsha_:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21063
     mass: 9.6E7
     name: Zvarin Karsha_

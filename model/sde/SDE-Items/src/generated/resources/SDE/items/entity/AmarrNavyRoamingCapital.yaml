@@ -1,12 +1,11 @@
 items:
   Amarr Navy Archon:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 35819
     mass: 1.0125E9
     name: Amarr Navy Archon
+    published: false
+  Imperial Escort Aeon:
+    id: 50100
+    mass: 1.0125E9
+    name: Imperial Escort Aeon
     published: false

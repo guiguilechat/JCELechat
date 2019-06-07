@@ -1,23 +1,11 @@
 items:
   Serpentis Dreadnought:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 37468
     mass: 1.2925E9
     name: Serpentis Dreadnought
     published: false
     volume: 1.755E7
   Shadow Serpentis Dreadnought:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 41400
     mass: 1.2925E9
     name: Shadow Serpentis Dreadnought

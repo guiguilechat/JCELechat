@@ -1,407 +1,203 @@
 items:
   Centum Beast:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17057
     mass: 1.001E7
     name: Centum Beast
     published: false
     volume: 100100.0
   Centum Execrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17083
     mass: 1.001E7
     name: Centum Execrator
     published: false
     volume: 100100.0
   Centum Fiend:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24075
     mass: 1.001E7
     name: Centum Fiend
     published: false
     volume: 100100.0
   Centum Hellhound:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24076
     mass: 1.001E7
     name: Centum Hellhound
     published: false
     volume: 100100.0
   Centum Juggernaut:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17065
     mass: 1.001E7
     name: Centum Juggernaut
     published: false
     volume: 100100.0
   Centum Loyal Beast:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24079
     mass: 1.001E7
     name: Centum Loyal Beast
     published: false
     volume: 100100.0
   Centum Loyal Execrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24082
     mass: 1.001E7
     name: Centum Loyal Execrator
     published: false
     volume: 100100.0
   Centum Loyal Fiend:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24085
     mass: 1.001E7
     name: Centum Loyal Fiend
     published: false
     volume: 100100.0
   Centum Loyal Hellhound:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24086
     mass: 1.001E7
     name: Centum Loyal Hellhound
     published: false
     volume: 100100.0
   Centum Loyal Juggernaut:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24080
     mass: 1.001E7
     name: Centum Loyal Juggernaut
     published: false
     volume: 100100.0
   Centum Loyal Mutilator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24083
     mass: 1.001E7
     name: Centum Loyal Mutilator
     published: false
     volume: 100100.0
   Centum Loyal Ravager:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24078
     mass: 1.001E7
     name: Centum Loyal Ravager
     published: false
     volume: 100100.0
   Centum Loyal Ravisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24077
     mass: 1.001E7
     name: Centum Loyal Ravisher
     published: false
     volume: 100100.0
   Centum Loyal Slaughterer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24081
     mass: 1.001E7
     name: Centum Loyal Slaughterer
     published: false
     volume: 100100.0
   Centum Loyal Torturer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24084
     mass: 1.001E7
     name: Centum Loyal Torturer
     published: false
     volume: 100100.0
   Centum Mutilator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17080
     mass: 1.001E7
     name: Centum Mutilator
     published: false
     volume: 100100.0
   Centum Ravager:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17073
     mass: 1.001E7
     name: Centum Ravager
     published: false
     volume: 100100.0
   Centum Ravisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17075
     mass: 1.001E7
     name: Centum Ravisher
     published: false
     volume: 100100.0
   Centum Slaughterer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17062
     mass: 1.001E7
     name: Centum Slaughterer
     published: false
     volume: 100100.0
   Centum Torturer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17070
     mass: 1.001E7
     name: Centum Torturer
     published: false
     volume: 100100.0
   Renegade Sanshas Slaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 14348
     mass: 1.001E7
     name: Renegade Sanshas Slaver
     published: false
     volume: 100100.0
   Sansha Miner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26750
     mass: 1.12E8
     name: Sansha Miner
     published: false
     volume: 1120000.0
   Sanshas Personnel Transport:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16167
     mass: 1.12E8
     name: Sanshas Personnel Transport
     published: false
     volume: 1120000.0
   Sanshas Transport Ship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11717
     mass: 1.12E8
     name: Sanshas Transport Ship
     published: false
     volume: 1120000.0
   True Centum Beast:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17084
     mass: 1.001E7
     name: True Centum Beast
     published: false
     volume: 100100.0
   True Centum Execrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17109
     mass: 1.001E7
     name: True Centum Execrator
     published: false
     volume: 100100.0
   True Centum Fiend:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17105
     mass: 1.001E7
     name: True Centum Fiend
     published: false
     volume: 100100.0
   True Centum Hellhound:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17094
     mass: 1.001E7
     name: True Centum Hellhound
     published: false
     volume: 100100.0
   True Centum Juggernaut:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17089
     mass: 1.001E7
     name: True Centum Juggernaut
     published: false
     volume: 100100.0
   True Centum Mutilator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17104
     mass: 1.001E7
     name: True Centum Mutilator
     published: false
     volume: 100100.0
   True Centum Ravager:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17098
     mass: 1.001E7
     name: True Centum Ravager
     published: false
     volume: 100100.0
   True Centum Ravisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17100
     mass: 1.001E7
     name: True Centum Ravisher
     published: false
     volume: 100100.0
   True Centum Slaughterer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17087
     mass: 1.001E7
     name: True Centum Slaughterer
     published: false
     volume: 100100.0
   True Centum Torturer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17093
     mass: 1.001E7
     name: True Centum Torturer

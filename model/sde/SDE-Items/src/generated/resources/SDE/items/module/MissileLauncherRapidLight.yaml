@@ -2,6 +2,7 @@ items:
   '''Pickaxe'' Rapid Light Missile Launcher':
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
@@ -29,6 +30,7 @@ items:
   Caldari Navy Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2999999523162842
@@ -56,6 +58,7 @@ items:
   Domination Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
@@ -83,6 +86,7 @@ items:
   Dread Guristas Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2999999523162842
@@ -240,6 +244,7 @@ items:
   Republic Fleet Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
@@ -267,6 +272,7 @@ items:
   True Sansha Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142

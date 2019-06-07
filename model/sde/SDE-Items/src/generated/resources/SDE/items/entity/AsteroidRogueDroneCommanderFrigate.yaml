@@ -1,119 +1,59 @@
 items:
   Sentient Barracuda Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27754
     mass: 100000.0
     name: Sentient Barracuda Alvi
     published: false
     volume: 60.0
   Sentient Decimator Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27755
     mass: 100000.0
     name: Sentient Decimator Alvi
     published: false
     volume: 60.0
   Sentient Devilfish Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27756
     mass: 100000.0
     name: Sentient Devilfish Alvi
     published: false
     volume: 60.0
   Sentient Hunter Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27757
     mass: 100000.0
     name: Sentient Hunter Alvi
     published: false
     volume: 60.0
   Sentient Infester Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27758
     mass: 100000.0
     name: Sentient Infester Alvi
     published: false
     volume: 60.0
   Sentient Raider Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27759
     mass: 100000.0
     name: Sentient Raider Alvi
     published: false
     volume: 60.0
   Sentient Render Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27760
     mass: 100000.0
     name: Sentient Render Alvi
     published: false
     volume: 60.0
   Sentient Silverfish Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27761
     mass: 100000.0
     name: Sentient Silverfish Alvi
     published: false
     volume: 60.0
   Sentient Splinter Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27762
     mass: 100000.0
     name: Sentient Splinter Alvi
     published: false
     volume: 60.0
   Sentient Sunder Alvi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27763
     mass: 100000.0
     name: Sentient Sunder Alvi

@@ -20,7 +20,7 @@ items:
     id: 3446
     marketGroup: 378
     name: Broker Relations
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Contracting:
@@ -33,7 +33,7 @@ items:
     id: 25235
     marketGroup: 378
     name: Contracting
-    price: 150000.0
+    price: 175000.0
     published: true
     volume: 0.01
   Corporation Contracting:
@@ -71,7 +71,7 @@ items:
     id: 16595
     marketGroup: 378
     name: Daytrading
-    price: 1.25E7
+    price: 1.5E7
     published: true
     volume: 0.01
   Margin Trading:
@@ -121,7 +121,7 @@ items:
     id: 3444
     marketGroup: 378
     name: Retail
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Trade:
@@ -132,7 +132,7 @@ items:
     id: 3443
     marketGroup: 378
     name: Trade
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Tycoon:
@@ -147,7 +147,7 @@ items:
     id: 18580
     marketGroup: 378
     name: Tycoon
-    price: 1.0E8
+    price: 1.25E8
     published: true
     volume: 0.01
   Visibility:

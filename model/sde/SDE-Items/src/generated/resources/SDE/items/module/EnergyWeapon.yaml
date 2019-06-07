@@ -3,6 +3,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.670000076293945
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 28.0
     DamageMultiplier: 4.5
@@ -10,7 +11,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 20000
+    MaxRange: 22000
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
@@ -37,6 +38,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 76.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 5.400000095367432
     Falloff: 24000
@@ -70,6 +72,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 52.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 3.5999999046325684
     Falloff: 19200
@@ -103,6 +106,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 11.670000076293945
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 3.0
@@ -110,7 +114,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 17500
+    MaxRange: 19250
     MetaGroupID: 3
     MetaLevel: 6
     OptimalSigRadius: 40000
@@ -137,6 +141,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.024999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 14.0
     DamageMultiplier: 5.400000095367432
@@ -171,6 +176,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 36.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 3.5999999046325684
     Falloff: 12000
@@ -203,6 +209,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 13.329999923706055
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 3.5999999046325684
     Falloff: 6000
@@ -236,6 +243,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.440000057220459
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     Cpu: 12.0
     DamageMultiplier: 3.5999999046325684
@@ -270,6 +278,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.862500190734863
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 9.0
     DamageMultiplier: 3.5999999046325684
@@ -372,7 +381,7 @@ items:
     ChargeGroup1: 86
     ChargeSize: 4
     Cpu: 72.0
-    DamageMultiplier: 1.2048749923706055
+    DamageMultiplier: 0.6024374961853027
     Falloff: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
@@ -387,6 +396,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 6000
@@ -403,6 +414,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 18.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 3.0
     Falloff: 8000
@@ -436,6 +448,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 28.799999237060547
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 4.5
     Falloff: 10000
@@ -469,6 +482,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 2.5
     Falloff: 12000
@@ -502,6 +516,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 2.5
     Falloff: 8000
@@ -535,6 +550,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.6468749046325684
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 8.0
     DamageMultiplier: 3.75
@@ -569,6 +585,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.002500057220459
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     DamageMultiplier: 2.5
     Falloff: 2000
@@ -602,6 +619,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.7524995803833
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 3.130000114440918
@@ -609,7 +627,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 21875
+    MaxRange: 24063
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -636,6 +654,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 2.5
     Falloff: 4000
@@ -669,6 +688,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.3650000095367432
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     DamageMultiplier: 1.875
     Falloff: 1000
@@ -702,6 +722,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.252500534057617
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 28.0
     DamageMultiplier: 4.690000057220459
@@ -709,7 +730,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 25000
+    MaxRange: 27500
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -736,6 +757,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 3.75
     Falloff: 5000
@@ -769,6 +791,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 3.75
     Falloff: 16000
@@ -802,6 +825,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 3.75
     Falloff: 10000
@@ -835,6 +859,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.087500095367432
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 2.3399999141693115
@@ -842,7 +867,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 10000
+    MaxRange: 11000
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -869,6 +894,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.768750190734863
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 14.0
     DamageMultiplier: 5.625
@@ -903,6 +929,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     Cpu: 11.0
     DamageMultiplier: 3.75
@@ -937,6 +964,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 5.625
     Falloff: 20000
@@ -1038,7 +1066,7 @@ items:
     ChargeGroup1: 86
     ChargeSize: 4
     Cpu: 72.0
-    DamageMultiplier: 1.2048749923706055
+    DamageMultiplier: 0.6024374961853027
     Falloff: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
@@ -1053,6 +1081,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 6000
@@ -1069,6 +1099,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 2.75
     Falloff: 8000
@@ -1102,6 +1133,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 4.125
     Falloff: 10000
@@ -1206,6 +1238,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.399999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 3.0
     Falloff: 12000
@@ -1239,6 +1272,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 41.599998474121094
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 4.5
     Falloff: 16000
@@ -1272,6 +1306,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 60.79999923706055
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 6.75
     Falloff: 20000
@@ -1375,6 +1410,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 2.5
     Falloff: 12000
@@ -1408,6 +1444,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 2.5
     Falloff: 8000
@@ -1441,6 +1478,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.6468749046325684
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 8.0
     DamageMultiplier: 3.75
@@ -1475,6 +1513,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.002500057220459
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     DamageMultiplier: 2.5
     Falloff: 2000
@@ -1508,6 +1547,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.7524995803833
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 3.130000114440918
@@ -1515,7 +1555,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 21875
+    MaxRange: 24063
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -1542,6 +1582,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 2.5
     Falloff: 4000
@@ -1575,6 +1616,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.3650000095367432
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     DamageMultiplier: 1.875
     Falloff: 1000
@@ -1608,6 +1650,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.252500534057617
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 28.0
     DamageMultiplier: 4.690000057220459
@@ -1615,7 +1658,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 25000
+    MaxRange: 27500
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -1642,6 +1685,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 3.75
     Falloff: 5000
@@ -1675,6 +1719,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 3.75
     Falloff: 16000
@@ -1708,6 +1753,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 3.75
     Falloff: 10000
@@ -1741,6 +1787,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.087500095367432
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 2.3399999141693115
@@ -1748,7 +1795,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 10000
+    MaxRange: 11000
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -1778,7 +1825,7 @@ items:
     ChargeGroup2: 375
     ChargeSize: 4
     Cpu: 65.0
-    DamageMultiplier: 1.3196250200271606
+    DamageMultiplier: 0.6598125100135803
     Falloff: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
@@ -1794,6 +1841,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 6000
@@ -1810,6 +1859,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.768750190734863
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 14.0
     DamageMultiplier: 5.625
@@ -1844,6 +1894,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     Cpu: 11.0
     DamageMultiplier: 3.75
@@ -1878,6 +1929,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 5.625
     Falloff: 20000
@@ -1911,6 +1963,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.399999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 3.0
     Falloff: 12000
@@ -1944,6 +1997,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 41.599998474121094
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 4.5
     Falloff: 16000
@@ -1977,6 +2031,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 60.79999923706055
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 6.75
     Falloff: 20000
@@ -2934,7 +2989,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 18375
+    MaxRange: 20213
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -2999,7 +3054,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 20125
+    MaxRange: 22138
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3064,7 +3119,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 17500
+    MaxRange: 19250
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 135
@@ -3097,7 +3152,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 21000
+    MaxRange: 23100
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3198,7 +3253,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 19250
+    MaxRange: 21175
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3263,7 +3318,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 21000
+    MaxRange: 23100
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3522,7 +3577,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 21000
+    MaxRange: 23100
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3587,7 +3642,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 23000
+    MaxRange: 25300
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3652,7 +3707,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 20000
+    MaxRange: 22000
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 225
@@ -3685,7 +3740,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 26400
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3720,7 +3775,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 22000
+    MaxRange: 24200
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3785,7 +3840,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 24000
+    MaxRange: 26400
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -3909,6 +3964,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 2.5
     Falloff: 12000
@@ -3942,6 +3998,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 2.5
     Falloff: 8000
@@ -3975,6 +4032,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.6468749046325684
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 8.0
     DamageMultiplier: 3.75
@@ -4009,6 +4067,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.002500057220459
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     DamageMultiplier: 2.5
     Falloff: 2000
@@ -4042,6 +4101,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.7524995803833
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 3.130000114440918
@@ -4049,7 +4109,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 21875
+    MaxRange: 24063
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -4076,6 +4136,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 2.5
     Falloff: 4000
@@ -4109,6 +4170,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.3650000095367432
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     DamageMultiplier: 1.875
     Falloff: 1000
@@ -4142,6 +4204,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.252500534057617
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 28.0
     DamageMultiplier: 4.690000057220459
@@ -4149,7 +4212,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 25000
+    MaxRange: 27500
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -4176,6 +4239,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 3.75
     Falloff: 5000
@@ -4209,6 +4273,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 3.75
     Falloff: 16000
@@ -4242,6 +4307,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 3.75
     Falloff: 10000
@@ -4275,6 +4341,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.087500095367432
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 2.3399999141693115
@@ -4282,7 +4349,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 10000
+    MaxRange: 11000
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -4309,6 +4376,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.768750190734863
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 14.0
     DamageMultiplier: 5.625
@@ -4343,6 +4411,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     Cpu: 11.0
     DamageMultiplier: 3.75
@@ -4377,6 +4446,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 5.625
     Falloff: 20000
@@ -4888,7 +4958,7 @@ items:
     ChargeGroup1: 86
     ChargeSize: 4
     Cpu: 72.0
-    DamageMultiplier: 1.2048749923706055
+    DamageMultiplier: 0.6024374961853027
     Falloff: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
@@ -4903,6 +4973,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 6000
@@ -4987,7 +5059,7 @@ items:
     ChargeGroup1: 86
     ChargeSize: 4
     Cpu: 65.0
-    DamageMultiplier: 1.2048749923706055
+    DamageMultiplier: 0.6024374961853027
     Falloff: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
@@ -5002,6 +5074,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 6000
@@ -5139,7 +5213,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 8400
+    MaxRange: 9240
     MetaLevel: 1
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -5172,7 +5246,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 9200
+    MaxRange: 10120
     MetaLevel: 3
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -5205,7 +5279,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 8000
+    MaxRange: 8800
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
     Power: 81
@@ -5238,7 +5312,7 @@ items:
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 9600
+    MaxRange: 10560
     MetaLevel: 5
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -5268,7 +5342,7 @@ items:
     ChargeGroup1: 86
     ChargeSize: 4
     Cpu: 72.0
-    DamageMultiplier: 1.1475000381469727
+    DamageMultiplier: 0.5737500190734863
     Falloff: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
@@ -5282,6 +5356,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 6000
@@ -5301,7 +5377,7 @@ items:
     ChargeGroup2: 375
     ChargeSize: 4
     Cpu: 80.0
-    DamageMultiplier: 1.2622499465942383
+    DamageMultiplier: 0.6311249732971191
     Falloff: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
@@ -5316,8 +5392,10 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 20327
     RequiredSkill2Level: 5
-    RequiredSkill3: 3300
-    RequiredSkill3Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
+    RequiredSkill4: 3300
+    RequiredSkill4Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 6000
@@ -5341,7 +5419,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 8800
+    MaxRange: 9680
     MetaLevel: 2
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -5374,7 +5452,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 9600
+    MaxRange: 10560
     MetaLevel: 4
     OptimalSigRadius: 40000
     OverloadRofBonus: -15
@@ -5400,6 +5478,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 2.75
     Falloff: 12000
@@ -5433,6 +5512,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 4.125
     Falloff: 16000
@@ -5466,6 +5546,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 6.1875
     Falloff: 20000
@@ -5498,6 +5579,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 2.75
     Falloff: 12000
@@ -5531,6 +5613,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 4.125
     Falloff: 16000
@@ -5564,6 +5647,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 6.1875
     Falloff: 20000
@@ -6191,6 +6275,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 2.75
     Falloff: 8000
@@ -6224,6 +6309,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 4.125
     Falloff: 10000
@@ -6327,6 +6413,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 2.5
     Falloff: 12000
@@ -6360,6 +6447,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 2.5
     Falloff: 8000
@@ -6393,6 +6481,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.6468749046325684
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 8.0
     DamageMultiplier: 3.75
@@ -6427,6 +6516,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.002500057220459
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     DamageMultiplier: 2.5
     Falloff: 2000
@@ -6460,6 +6550,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.7524995803833
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 3.130000114440918
@@ -6467,7 +6558,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
-    MaxRange: 21875
+    MaxRange: 24063
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -6494,6 +6585,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 2.5
     Falloff: 4000
@@ -6527,6 +6619,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.3650000095367432
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     DamageMultiplier: 1.875
     Falloff: 1000
@@ -6560,6 +6653,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.252500534057617
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 28.0
     DamageMultiplier: 4.690000057220459
@@ -6567,7 +6661,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
-    MaxRange: 25000
+    MaxRange: 27500
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -6594,6 +6688,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 2
     DamageMultiplier: 3.75
     Falloff: 5000
@@ -6627,6 +6722,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 3.75
     Falloff: 16000
@@ -6660,6 +6756,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 3.75
     Falloff: 10000
@@ -6693,6 +6790,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.087500095367432
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 2.3399999141693115
@@ -6700,7 +6798,7 @@ items:
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.5
     Hp: 40
-    MaxRange: 10000
+    MaxRange: 11000
     MetaGroupID: 4
     MetaLevel: 8
     OptimalSigRadius: 40000
@@ -6730,7 +6828,7 @@ items:
     ChargeGroup2: 375
     ChargeSize: 4
     Cpu: 65.0
-    DamageMultiplier: 1.3196250200271606
+    DamageMultiplier: 0.6598125100135803
     Falloff: 16000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
@@ -6746,6 +6844,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 6000
@@ -6762,6 +6862,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.768750190734863
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 1
     Cpu: 14.0
     DamageMultiplier: 5.625
@@ -6796,6 +6897,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 1
     Cpu: 11.0
     DamageMultiplier: 3.75
@@ -6830,6 +6932,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
     ChargeGroup1: 86
+    ChargeGroup2: 374
     ChargeSize: 3
     DamageMultiplier: 5.625
     Falloff: 20000
@@ -6863,6 +6966,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 18.0
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 3.0
     Falloff: 8000
@@ -6896,6 +7000,7 @@ items:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 28.799999237060547
     ChargeGroup1: 86
+    ChargeGroup2: 375
     ChargeSize: 3
     DamageMultiplier: 4.5
     Falloff: 10000

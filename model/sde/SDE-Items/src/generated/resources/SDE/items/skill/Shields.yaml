@@ -12,7 +12,7 @@ items:
     id: 24571
     marketGroup: 1747
     name: Capital Shield Emission Systems
-    price: 1.0E7
+    price: 1.5E7
     published: true
     volume: 0.01
   Capital Shield Operation:
@@ -43,7 +43,7 @@ items:
     id: 12365
     marketGroup: 1747
     name: EM Shield Compensation
-    price: 120000.0
+    price: 150000.0
     published: true
     volume: 0.01
   Explosive Shield Compensation:
@@ -56,7 +56,7 @@ items:
     id: 12367
     marketGroup: 1747
     name: Explosive Shield Compensation
-    price: 120000.0
+    price: 150000.0
     published: true
     volume: 0.01
   Invulnerability Core Operation:
@@ -84,7 +84,7 @@ items:
     id: 12366
     marketGroup: 1747
     name: Kinetic Shield Compensation
-    price: 120000.0
+    price: 150000.0
     published: true
     volume: 0.01
   Shield Compensation:
@@ -97,7 +97,7 @@ items:
     id: 21059
     marketGroup: 1747
     name: Shield Compensation
-    price: 120000.0
+    price: 150000.0
     published: true
     volume: 0.01
   Shield Emission Systems:
@@ -112,7 +112,7 @@ items:
     id: 3422
     marketGroup: 1747
     name: Shield Emission Systems
-    price: 80000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Shield Management:
@@ -137,7 +137,7 @@ items:
     id: 3416
     marketGroup: 1747
     name: Shield Operation
-    price: 35000.0
+    price: 55000.0
     published: true
     volume: 0.01
   Shield Upgrades:
@@ -152,7 +152,7 @@ items:
     id: 3425
     marketGroup: 1747
     name: Shield Upgrades
-    price: 84000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Tactical Shield Manipulation:
@@ -178,6 +178,6 @@ items:
     id: 11566
     marketGroup: 1747
     name: Thermal Shield Compensation
-    price: 120000.0
+    price: 150000.0
     published: true
     volume: 0.01

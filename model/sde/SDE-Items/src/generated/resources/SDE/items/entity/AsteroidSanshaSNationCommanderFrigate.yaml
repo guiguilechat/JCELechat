@@ -1,119 +1,59 @@
 items:
   True Sansha's Butcher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13610
     mass: 2112000.0
     name: True Sansha's Butcher
     published: false
     volume: 21120.0
   True Sansha's Enslaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13612
     mass: 2112000.0
     name: True Sansha's Enslaver
     published: false
     volume: 21120.0
   True Sansha's Manslayer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13616
     mass: 2112000.0
     name: True Sansha's Manslayer
     published: false
     volume: 21120.0
   True Sansha's Minion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13617
     mass: 2112000.0
     name: True Sansha's Minion
     published: false
     volume: 21120.0
   True Sansha's Plague:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13623
     mass: 2112000.0
     name: True Sansha's Plague
     published: false
     volume: 21120.0
   True Sansha's Ravener:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13625
     mass: 2000000.0
     name: True Sansha's Ravener
     published: false
     volume: 20000.0
   True Sansha's Savage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13627
     mass: 2000000.0
     name: True Sansha's Savage
     published: false
     volume: 20000.0
   True Sansha's Scavenger:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13628
     mass: 2000000.0
     name: True Sansha's Scavenger
     published: false
     volume: 20000.0
   True Sansha's Servant:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13629
     mass: 2000000.0
     name: True Sansha's Servant
     published: false
     volume: 20000.0
   True Sansha's Slavehunter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13632
     mass: 2112000.0
     name: True Sansha's Slavehunter

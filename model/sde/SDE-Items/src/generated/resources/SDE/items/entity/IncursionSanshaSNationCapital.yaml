@@ -1,23 +1,11 @@
 items:
   The Kundalini Manifest:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2192
     mass: 1.546875E9
     name: The Kundalini Manifest
     published: false
     volume: 6.2E7
   Uroborus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3071
     mass: 1.546875E9
     name: Uroborus

@@ -10,7 +10,7 @@ items:
     id: 3322
     marketGroup: 373
     name: Auto-Targeting Missiles
-    price: 25000.0
+    price: 37500.0
     published: true
     volume: 0.01
   Bomb Deployment:
@@ -24,7 +24,7 @@ items:
     id: 28073
     marketGroup: 373
     name: Bomb Deployment
-    price: 8000000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Cruise Missile Specialization:
@@ -41,7 +41,7 @@ items:
     id: 20212
     marketGroup: 373
     name: Cruise Missile Specialization
-    price: 9000000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Cruise Missiles:
@@ -57,7 +57,7 @@ items:
     id: 3326
     marketGroup: 373
     name: Cruise Missiles
-    price: 350000.0
+    price: 750000.0
     published: true
     volume: 0.01
   Defender Missiles:
@@ -69,7 +69,7 @@ items:
     id: 3323
     marketGroup: 373
     name: Defender Missiles
-    price: 30000.0
+    price: 45000.0
     published: true
     volume: 0.01
   Guided Missile Precision:
@@ -83,7 +83,7 @@ items:
     id: 20312
     marketGroup: 373
     name: Guided Missile Precision
-    price: 500000.0
+    price: 1000000.0
     published: true
     volume: 0.01
   Heavy Assault Missile Specialization:
@@ -116,7 +116,7 @@ items:
     id: 25719
     marketGroup: 373
     name: Heavy Assault Missiles
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Heavy Missile Specialization:
@@ -149,7 +149,7 @@ items:
     id: 3324
     marketGroup: 373
     name: Heavy Missiles
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Light Missile Specialization:
@@ -180,7 +180,7 @@ items:
     id: 3321
     marketGroup: 373
     name: Light Missiles
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Missile Bombardment:
@@ -194,7 +194,7 @@ items:
     id: 12441
     marketGroup: 373
     name: Missile Bombardment
-    price: 80000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Missile Launcher Operation:
@@ -206,7 +206,7 @@ items:
     id: 3319
     marketGroup: 373
     name: Missile Launcher Operation
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Missile Projection:
@@ -219,7 +219,7 @@ items:
     id: 12442
     marketGroup: 373
     name: Missile Projection
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Rapid Launch:
@@ -233,7 +233,7 @@ items:
     id: 21071
     marketGroup: 373
     name: Rapid Launch
-    price: 40000.0
+    price: 60000.0
     published: true
     volume: 0.01
   Rocket Specialization:
@@ -264,7 +264,7 @@ items:
     id: 3320
     marketGroup: 373
     name: Rockets
-    price: 10000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Target Navigation Prediction:
@@ -278,7 +278,7 @@ items:
     id: 20314
     marketGroup: 373
     name: Target Navigation Prediction
-    price: 60000.0
+    price: 90000.0
     published: true
     volume: 0.01
   Torpedo Specialization:
@@ -295,7 +295,7 @@ items:
     id: 20213
     marketGroup: 373
     name: Torpedo Specialization
-    price: 9000000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Torpedoes:
@@ -311,7 +311,7 @@ items:
     id: 3325
     marketGroup: 373
     name: Torpedoes
-    price: 400000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Warhead Upgrades:
@@ -325,7 +325,7 @@ items:
     id: 20315
     marketGroup: 373
     name: Warhead Upgrades
-    price: 1000000.0
+    price: 2000000.0
     published: true
     volume: 0.01
   XL Cruise Missile Specialization:
@@ -342,7 +342,7 @@ items:
     id: 41410
     marketGroup: 373
     name: XL Cruise Missile Specialization
-    price: 2.7E7
+    price: 3.0E7
     published: true
     volume: 0.01
   XL Cruise Missiles:
@@ -376,7 +376,7 @@ items:
     id: 41409
     marketGroup: 373
     name: XL Torpedo Specialization
-    price: 2.7E7
+    price: 3.0E7
     published: true
     volume: 0.01
   XL Torpedoes:

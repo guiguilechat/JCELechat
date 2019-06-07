@@ -58,7 +58,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusAB: -4.0
-    ShipBonusAB2: 5.0
+    ShipBonusAB2: 7.5
     ShipBonusCB: 5
     ShipBonusMB: 5.0
     SignatureRadius: 470

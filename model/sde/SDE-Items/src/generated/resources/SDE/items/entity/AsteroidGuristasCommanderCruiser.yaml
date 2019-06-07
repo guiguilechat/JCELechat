@@ -1,179 +1,89 @@
 items:
   Deuce Ascriber:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21999
     mass: 9600000.0
     name: Deuce Ascriber
     published: false
     volume: 96000.0
   Deuce Killer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22000
     mass: 9200000.0
     name: Deuce Killer
     published: false
     volume: 92000.0
   Deuce Murderer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23939
     mass: 1.01E7
     name: Deuce Murderer
     published: false
     volume: 101000.0
   Deuce Silencer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21998
     mass: 1.07E7
     name: Deuce Silencer
     published: false
     volume: 107000.0
   Dini Mator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 26871
     mass: 1.01E7
     name: Dini Mator
     published: false
     volume: 101000.0
   Dread Guristas Abolisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13587
     mass: 1.01E7
     name: Dread Guristas Abolisher
     published: false
     volume: 101000.0
   Dread Guristas Annihilator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13599
     mass: 1.01E7
     name: Dread Guristas Annihilator
     published: false
     volume: 101000.0
   Dread Guristas Ascriber:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13577
     mass: 9600000.0
     name: Dread Guristas Ascriber
     published: false
     volume: 96000.0
   Dread Guristas Eraser:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13592
     mass: 1.01E7
     name: Dread Guristas Eraser
     published: false
     volume: 101000.0
   Dread Guristas Inferno:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13586
     mass: 1.01E7
     name: Dread Guristas Inferno
     published: false
     volume: 101000.0
   Dread Guristas Killer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13575
     mass: 9200000.0
     name: Dread Guristas Killer
     published: false
     volume: 92000.0
   Dread Guristas Mortifier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13591
     mass: 1.01E7
     name: Dread Guristas Mortifier
     published: false
     volume: 101000.0
   Dread Guristas Murderer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13596
     mass: 1.01E7
     name: Dread Guristas Murderer
     published: false
     volume: 101000.0
   Dread Guristas Nullifier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13595
     mass: 1.01E7
     name: Dread Guristas Nullifier
     published: false
     volume: 101000.0
   Dread Guristas Silencer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13600
     mass: 1.07E7
     name: Dread Guristas Silencer

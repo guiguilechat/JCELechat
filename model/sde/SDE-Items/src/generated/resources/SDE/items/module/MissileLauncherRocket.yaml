@@ -26,6 +26,7 @@ items:
     volume: 5.0
   '''Balefire'' Rocket Launcher':
     ChargeGroup1: 387
+    ChargeGroup3: 648
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -102,6 +103,7 @@ items:
     volume: 5.0
   Caldari Navy Rocket Launcher:
     ChargeGroup1: 387
+    ChargeGroup3: 648
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -128,6 +130,7 @@ items:
     volume: 5.0
   Domination Rocket Launcher:
     ChargeGroup1: 387
+    ChargeGroup3: 648
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -154,6 +157,7 @@ items:
     volume: 5.0
   Dread Guristas Rocket Launcher:
     ChargeGroup1: 387
+    ChargeGroup3: 648
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -180,6 +184,7 @@ items:
     volume: 5.0
   Khanid Navy Rocket Launcher:
     ChargeGroup1: 387
+    ChargeGroup3: 648
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -206,6 +211,7 @@ items:
     volume: 5.0
   N-1 Neon Type Rocket Bay:
     ChargeGroup1: 387
+    ChargeGroup3: 648
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
@@ -286,6 +292,7 @@ items:
     volume: 5.0
   Republic Fleet Rocket Launcher:
     ChargeGroup1: 387
+    ChargeGroup3: 648
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -362,6 +369,7 @@ items:
     volume: 5.0
   True Sansha Rocket Launcher:
     ChargeGroup1: 387
+    ChargeGroup3: 648
     ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929

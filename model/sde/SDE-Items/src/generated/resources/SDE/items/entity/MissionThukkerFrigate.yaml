@@ -1,47 +1,23 @@
 items:
   Thukker Follower:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10110
     mass: 1580000.0
     name: Thukker Follower
     published: false
     volume: 15800.0
   Thukker Mercenary Elite Fighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23959
     mass: 1200000.0
     name: Thukker Mercenary Elite Fighter
     published: false
     volume: 22500.0
   Thukker Mercenary Fighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23955
     mass: 1100000.0
     name: Thukker Mercenary Fighter
     published: false
     volume: 27289.0
   Thukker Mercenary Rookie:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23958
     mass: 1000000.0
     name: Thukker Mercenary Rookie

@@ -1,23 +1,11 @@
 items:
   ♦ Caiman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46654
     mass: 1.27E9
     name: ♦ Caiman
     published: false
     volume: 1.625E7
   ♦ Chemosh:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 45474
     mass: 1.29E9
     name: ♦ Chemosh

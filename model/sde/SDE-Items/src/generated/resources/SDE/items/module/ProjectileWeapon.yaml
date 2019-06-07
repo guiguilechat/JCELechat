@@ -69,6 +69,7 @@ items:
     volume: 20.0
   1200mm Heavy 'Jolt' Artillery I:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 36.0
@@ -434,6 +435,7 @@ items:
     volume: 5.0
   1400mm 'Jolt' Artillery I:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 38.0
@@ -936,6 +938,7 @@ items:
     volume: 5.0
   200mm Light 'Jolt' Autocannon I:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 8.0
@@ -1302,6 +1305,7 @@ items:
     volume: 10.0
   250mm Light 'Jolt' Artillery I:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 10.0
@@ -1536,6 +1540,7 @@ items:
     volume: 5.0
   280mm 'Jolt' Artillery I:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
@@ -1838,6 +1843,7 @@ items:
     volume: 10.0
   425mm Medium 'Jolt' Autocannon I:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 20.0
@@ -2072,6 +2078,7 @@ items:
     volume: 10.0
   650mm Medium 'Jolt' Artillery I:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 23.0
@@ -2238,6 +2245,7 @@ items:
     volume: 10.0
   720mm 'Jolt' Artillery I:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 26.0
@@ -2472,6 +2480,7 @@ items:
     volume: 10.0
   800mm Heavy 'Jolt' Repeating Cannon I:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 33.0
@@ -2709,7 +2718,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
-    DamageMultiplier: 0.6496849060058594
+    DamageMultiplier: 0.3248424530029297
     Falloff: 23000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -2724,6 +2733,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 4000
@@ -2878,7 +2889,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 45.0
-    DamageMultiplier: 0.6496849060058594
+    DamageMultiplier: 0.3248424530029297
     Falloff: 23000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -2893,6 +2904,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 4000
@@ -2908,6 +2921,7 @@ items:
     volume: 4000.0
   Domination 1200mm Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
@@ -2942,6 +2956,7 @@ items:
     volume: 20.0
   Domination 125mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 1.0
@@ -2976,6 +2991,7 @@ items:
     volume: 5.0
   Domination 1400mm Howitzer Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0
@@ -3010,6 +3026,7 @@ items:
     volume: 20.0
   Domination 150mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 4.0
@@ -3044,6 +3061,7 @@ items:
     volume: 5.0
   Domination 200mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
@@ -3078,6 +3096,7 @@ items:
     volume: 5.0
   Domination 220mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 14.0
@@ -3112,6 +3131,7 @@ items:
     volume: 10.0
   Domination 250mm Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 10.0
@@ -3146,6 +3166,7 @@ items:
     volume: 5.0
   Domination 280mm Howitzer Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
@@ -3180,6 +3201,7 @@ items:
     volume: 5.0
   Domination 425mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 17.0
@@ -3214,6 +3236,7 @@ items:
     volume: 10.0
   Domination 650mm Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 24.0
@@ -3248,6 +3271,7 @@ items:
     volume: 10.0
   Domination 720mm Howitzer Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 27.0
@@ -3282,6 +3306,7 @@ items:
     volume: 10.0
   Domination 800mm Repeating Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
@@ -3316,6 +3341,7 @@ items:
     volume: 20.0
   Domination Dual 180mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 13.0
@@ -3350,6 +3376,7 @@ items:
     volume: 10.0
   Domination Dual 425mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 23.0
@@ -3384,6 +3411,7 @@ items:
     volume: 20.0
   Domination Dual 650mm Repeating Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
@@ -3492,7 +3520,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 45.0
-    DamageMultiplier: 0.7115596532821655
+    DamageMultiplier: 0.35577982664108276
     Falloff: 23000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -3508,6 +3536,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 4000
@@ -4189,6 +4219,7 @@ items:
     volume: 4000.0
   Gotan's Modified 800mm Repeating Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
@@ -4223,6 +4254,7 @@ items:
     volume: 20.0
   Gotan's Modified Dual 425mm AutoCannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 23.0
@@ -4257,6 +4289,7 @@ items:
     volume: 20.0
   Gotan's Modified Dual 650mm Repeating Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
@@ -4291,6 +4324,7 @@ items:
     volume: 20.0
   Hakim's Modified 1200mm Artillery Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
@@ -4325,6 +4359,7 @@ items:
     volume: 20.0
   Hakim's Modified 1400mm Howitzer Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0
@@ -4427,6 +4462,7 @@ items:
     volume: 4000.0
   Mizuro's Modified 800mm Repeating Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
@@ -4461,6 +4497,7 @@ items:
     volume: 20.0
   Mizuro's Modified Dual 425mm AutoCannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 23.0
@@ -4495,6 +4532,7 @@ items:
     volume: 20.0
   Mizuro's Modified Dual 650mm Repeating Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
@@ -4712,7 +4750,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
-    DamageMultiplier: 0.6496849060058594
+    DamageMultiplier: 0.3248424530029297
     Falloff: 23000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -4727,6 +4765,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 4000
@@ -4813,7 +4853,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
-    DamageMultiplier: 0.6187475323677063
+    DamageMultiplier: 0.30937376618385315
     Falloff: 23000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -4827,6 +4867,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 4000
@@ -4846,7 +4888,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 54.0
-    DamageMultiplier: 0.6806222796440125
+    DamageMultiplier: 0.3403111398220062
     Falloff: 23000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -4861,8 +4903,10 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 21667
     RequiredSkill2Level: 5
-    RequiredSkill3: 3300
-    RequiredSkill3Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
+    RequiredSkill4: 3300
+    RequiredSkill4Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 4000
@@ -4878,6 +4922,7 @@ items:
     volume: 4000.0
   Republic Fleet 1200mm Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
@@ -4912,6 +4957,7 @@ items:
     volume: 20.0
   Republic Fleet 125mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 1.0
@@ -4946,6 +4992,7 @@ items:
     volume: 5.0
   Republic Fleet 1400mm Howitzer Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0
@@ -4980,6 +5027,7 @@ items:
     volume: 20.0
   Republic Fleet 150mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 4.0
@@ -5014,6 +5062,7 @@ items:
     volume: 5.0
   Republic Fleet 200mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 6.0
@@ -5048,6 +5097,7 @@ items:
     volume: 5.0
   Republic Fleet 220mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 14.0
@@ -5082,6 +5132,7 @@ items:
     volume: 10.0
   Republic Fleet 250mm Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 10.0
@@ -5116,6 +5167,7 @@ items:
     volume: 5.0
   Republic Fleet 280mm Howitzer Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 1
     Cpu: 13.0
@@ -5150,6 +5202,7 @@ items:
     volume: 5.0
   Republic Fleet 425mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 17.0
@@ -5184,6 +5237,7 @@ items:
     volume: 10.0
   Republic Fleet 650mm Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 24.0
@@ -5218,6 +5272,7 @@ items:
     volume: 10.0
   Republic Fleet 720mm Howitzer Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 27.0
@@ -5252,6 +5307,7 @@ items:
     volume: 10.0
   Republic Fleet 800mm Repeating Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 28.0
@@ -5286,6 +5342,7 @@ items:
     volume: 20.0
   Republic Fleet Dual 180mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 2
     Cpu: 13.0
@@ -5320,6 +5377,7 @@ items:
     volume: 10.0
   Republic Fleet Dual 425mm Autocannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 23.0
@@ -5354,6 +5412,7 @@ items:
     volume: 20.0
   Republic Fleet Dual 650mm Repeating Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 372
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 26.0
@@ -5457,7 +5516,7 @@ items:
     ChargeRate: 1
     ChargeSize: 4
     Cpu: 50.0
-    DamageMultiplier: 0.6496849060058594
+    DamageMultiplier: 0.3248424530029297
     Falloff: 23000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
@@ -5472,6 +5531,8 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3300
     RequiredSkill2Level: 5
+    RequiredSkill3: 3312
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
     Speed: 4000
@@ -5487,6 +5548,7 @@ items:
     volume: 4000.0
   Tobias' Modified 1200mm Artillery Cannon:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 37.0
@@ -5521,6 +5583,7 @@ items:
     volume: 20.0
   Tobias' Modified 1400mm Howitzer Artillery:
     ChargeGroup1: 83
+    ChargeGroup2: 376
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 40.0

@@ -1,11 +1,5 @@
 items:
   Kazue's Caiman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 40729
     mass: 1.27E9
     name: Kazue's Caiman

@@ -1,47 +1,23 @@
 items:
   Gotan Kreiss:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13541
     mass: 1.9E7
     name: Gotan Kreiss
     published: false
     volume: 1.9E7
   Hakim Stormare:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13538
     mass: 1.9E7
     name: Hakim Stormare
     published: false
     volume: 1.9E7
   Mizuro Cybon:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13536
     mass: 1.9E7
     name: Mizuro Cybon
     published: false
     volume: 1.9E7
   Tobias Kruzhor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13544
     mass: 1.9E7
     name: Tobias Kruzhor

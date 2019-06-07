@@ -235,12 +235,40 @@ public class CommandDestroyer
     @DefaultIntValue(0)
     public int ShipBonusMD2;
     /**
+     * Precursor Destroyer Skill Attribute
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPD1;
+    /**
+     * Precursor Destroyer Skill Attribute
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPD2;
+    /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
+    /**
+     * Chance of being able to resist a ship scan.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipScanResistance;
     /**
      * How many rigs can by fitted to this ship.
      */
@@ -377,9 +405,25 @@ public class CommandDestroyer
             {
                 return ShipBonusMD2;
             }
+            case  2799 :
+            {
+                return ShipBonusPD1;
+            }
+            case  2800 :
+            {
+                return ShipBonusPD2;
+            }
             case  2298 :
             {
                 return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
+            }
+            case  511 :
+            {
+                return ShipScanResistance;
             }
             case  1154 :
             {

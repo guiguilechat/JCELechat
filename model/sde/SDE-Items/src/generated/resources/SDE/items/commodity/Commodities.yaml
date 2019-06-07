@@ -5,9 +5,9 @@ items:
     name: 17 Successful Torture Techniques
     published: true
     volume: 0.1
-  50,000 Skillpoints:
+  50,000 Skill Points:
     id: 49809
-    name: 50,000 Skillpoints
+    name: 50,000 Skill Points
     published: true
   Abufyr Joek's Head:
     id: 26120
@@ -1287,6 +1287,12 @@ items:
     id: 23602
     mass: 1.0
     name: Maqeri Camcen's DNA
+    published: true
+    volume: 0.1
+  McGuffin:
+    id: 50088
+    mass: 1.0
+    name: McGuffin
     published: true
     volume: 0.1
   Me, Myself and Plunder:

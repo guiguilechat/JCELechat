@@ -39,6 +39,20 @@ public class PrecursorWeapon
     @DefaultIntValue(0)
     public int CanFitShipType3;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipType4;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipType5;
+    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -281,6 +295,14 @@ public class PrecursorWeapon
             case  1304 :
             {
                 return CanFitShipType3;
+            }
+            case  1305 :
+            {
+                return CanFitShipType4;
+            }
+            case  1944 :
+            {
+                return CanFitShipType5;
             }
             case  6 :
             {

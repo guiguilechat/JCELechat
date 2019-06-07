@@ -111,7 +111,7 @@ items:
     CapacitorCapacity: 1.0
     DamageMultiplier: 1.0
     DroneBandwidthUsed: 25
-    Duration: 250000.0
+    Duration: 310000.0
     EmDamageResonance: 1.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -151,7 +151,7 @@ items:
     marketGroup: 158
     name: '''Excavator'' Ice Harvesting Drone'
     published: true
-    volume: 750.0
+    volume: 1100.0
   '''Excavator'' Mining Drone':
     ArmorEmDamageResonance: 0.3199999928474426
     ArmorExplosiveDamageResonance: 0.7200000286102295
@@ -173,7 +173,7 @@ items:
     MaxVelocity: 175.0
     MetaGroupID: 4
     MetaLevel: 8
-    MiningAmount: 100
+    MiningAmount: 80
     OrbitRange: 200
     ProximityRange: 250
     RechargeRate: 2500000.0
@@ -202,7 +202,7 @@ items:
     marketGroup: 158
     name: '''Excavator'' Mining Drone'
     published: true
-    volume: 750.0
+    volume: 1100.0
   Civilian Mining Drone:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0

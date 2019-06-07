@@ -4,21 +4,21 @@ import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 
 
 /**
- * The maximum number of pieces of loot dropped by this entity.
+ * Length of jam duration
  */
-public class EntityLootCountMax
+public class EcmJamDuration
     extends IntAttribute
 {
-    public static final EntityLootCountMax INSTANCE = new EntityLootCountMax();
+    public static final EcmJamDuration INSTANCE = new EcmJamDuration();
 
     @Override
     public int getId() {
-        return  251;
+        return  2822;
     }
 
     @Override
     public int getCatId() {
-        return  19;
+        return  7;
     }
 
     @Override
@@ -33,7 +33,7 @@ public class EntityLootCountMax
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -43,6 +43,6 @@ public class EntityLootCountMax
 
     @Override
     public String toString() {
-        return "EntityLootCountMax";
+        return "EcmJamDuration";
     }
 }

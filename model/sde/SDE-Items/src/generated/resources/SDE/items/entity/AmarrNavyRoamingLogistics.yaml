@@ -1,11 +1,5 @@
 items:
   Amarr Navy Guardian:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 35813
     mass: 1.09E7
     name: Amarr Navy Guardian

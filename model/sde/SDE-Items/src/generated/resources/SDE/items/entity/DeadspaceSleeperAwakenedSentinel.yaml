@@ -1,35 +1,17 @@
 items:
   Awakened Keeper:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30207
     mass: 1.09E7
     name: Awakened Keeper
     published: false
     volume: 109000.0
   Awakened Sentinel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30206
     mass: 1.09E7
     name: Awakened Sentinel
     published: false
     volume: 109000.0
   Awakened Warden:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30208
     mass: 1.09E7
     name: Awakened Warden

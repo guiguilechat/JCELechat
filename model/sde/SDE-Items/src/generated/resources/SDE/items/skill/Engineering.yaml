@@ -10,7 +10,7 @@ items:
     id: 11207
     marketGroup: 368
     name: Advanced Weapon Upgrades
-    price: 500000.0
+    price: 1000000.0
     published: true
     volume: 0.01
   CPU Management:
@@ -20,7 +20,7 @@ items:
     id: 3426
     marketGroup: 368
     name: CPU Management
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Capacitor Emission Systems:
@@ -47,7 +47,7 @@ items:
     id: 3418
     marketGroup: 368
     name: Capacitor Management
-    price: 170000.0
+    price: 200000.0
     published: true
     volume: 0.01
   Capacitor Systems Operation:
@@ -59,7 +59,7 @@ items:
     id: 3417
     marketGroup: 368
     name: Capacitor Systems Operation
-    price: 40000.0
+    price: 60000.0
     published: true
     volume: 0.01
   Capital Capacitor Emission Systems:
@@ -156,7 +156,7 @@ items:
     id: 3413
     marketGroup: 368
     name: Power Grid Management
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Resistance Phasing:

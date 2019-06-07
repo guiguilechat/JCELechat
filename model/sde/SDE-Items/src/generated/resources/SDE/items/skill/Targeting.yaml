@@ -22,7 +22,7 @@ items:
     id: 33000
     marketGroup: 1748
     name: Gravimetric Sensor Compensation
-    price: 200000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Ladar Sensor Compensation:
@@ -35,7 +35,7 @@ items:
     id: 33001
     marketGroup: 1748
     name: Ladar Sensor Compensation
-    price: 200000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Long Range Targeting:
@@ -47,7 +47,7 @@ items:
     id: 3428
     marketGroup: 1748
     name: Long Range Targeting
-    price: 88000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Magnetometric Sensor Compensation:
@@ -60,7 +60,7 @@ items:
     id: 32999
     marketGroup: 1748
     name: Magnetometric Sensor Compensation
-    price: 200000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Radar Sensor Compensation:
@@ -73,7 +73,7 @@ items:
     id: 33002
     marketGroup: 1748
     name: Radar Sensor Compensation
-    price: 200000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Signature Analysis:
@@ -85,7 +85,7 @@ items:
     id: 3431
     marketGroup: 1748
     name: Signature Analysis
-    price: 75000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Target Management:
@@ -98,6 +98,6 @@ items:
     id: 3429
     marketGroup: 1748
     name: Target Management
-    price: 100000.0
+    price: 150000.0
     published: true
     volume: 0.01

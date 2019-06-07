@@ -10,7 +10,7 @@ items:
     id: 27911
     marketGroup: 367
     name: Burst Projector Operation
-    price: 1.2E7
+    price: 2.0E7
     published: true
     volume: 0.01
   Cloaking:
@@ -24,7 +24,7 @@ items:
     id: 11579
     marketGroup: 367
     name: Cloaking
-    price: 3500000.0
+    price: 5000000.0
     published: true
     volume: 0.01
   Electronic Warfare:
@@ -37,7 +37,7 @@ items:
     id: 3427
     marketGroup: 367
     name: Electronic Warfare
-    price: 120000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Frequency Modulation:
@@ -51,7 +51,7 @@ items:
     id: 19760
     marketGroup: 367
     name: Frequency Modulation
-    price: 160000.0
+    price: 200000.0
     published: true
     volume: 0.01
   Long Distance Jamming:
@@ -66,7 +66,7 @@ items:
     id: 19759
     marketGroup: 367
     name: Long Distance Jamming
-    price: 200000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Propulsion Jamming:
@@ -81,7 +81,7 @@ items:
     id: 3435
     marketGroup: 367
     name: Propulsion Jamming
-    price: 150000.0
+    price: 175000.0
     published: true
     volume: 0.01
   Sensor Linking:
@@ -94,7 +94,7 @@ items:
     id: 3433
     marketGroup: 367
     name: Sensor Linking
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Signal Dispersion:
@@ -180,7 +180,7 @@ items:
     id: 19921
     marketGroup: 367
     name: Target Painting
-    price: 90000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Weapon Destabilization:
@@ -208,6 +208,6 @@ items:
     id: 3434
     marketGroup: 367
     name: Weapon Disruption
-    price: 80000.0
+    price: 100000.0
     published: true
     volume: 0.01

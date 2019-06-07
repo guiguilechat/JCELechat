@@ -14,9 +14,11 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 5
+    RequiredSkill3: 20314
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 27093
+    Speed: 54186
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41223
@@ -41,9 +43,11 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 5
+    RequiredSkill3: 20314
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 24738
+    Speed: 49476
     TechLevel: 1
     TypeColorScheme: 11324
     id: 37293
@@ -65,9 +69,11 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 5
+    RequiredSkill3: 20314
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 28450
+    Speed: 56900
     TechLevel: 1
     TypeColorScheme: 11324
     id: 37288
@@ -91,11 +97,13 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3325
     RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 4
+    RequiredSkill3: 20314
+    RequiredSkill3Level: 1
+    RequiredSkill4: 3319
+    RequiredSkill4Level: 5
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 25861
+    Speed: 51722
     TechLevel: 2
     TypeColorScheme: 11324
     id: 37292
@@ -118,9 +126,11 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
     RequiredSkill2Level: 5
+    RequiredSkill3: 20314
+    RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 27093
+    Speed: 54186
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41224

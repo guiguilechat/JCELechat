@@ -1,59 +1,29 @@
 items:
   Convoy Escort:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10999
     mass: 1800000.0
     name: Convoy Escort
     published: false
     volume: 18000.0
   Convoy Guard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11001
     mass: 1970000.0
     name: Convoy Guard
     published: false
     volume: 19700.0
   Convoy Protector:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11000
     mass: 1940000.0
     name: Convoy Protector
     published: false
     volume: 19400.0
   Convoy Sentry:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11002
     mass: 1650000.0
     name: Convoy Sentry
     published: false
     volume: 16500.0
   Loiterer I:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 9869
     mass: 100000.0
     name: Loiterer I

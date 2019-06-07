@@ -1,11 +1,5 @@
 items:
   Armageddon Hulk:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49124
     mass: 1.052E8
     name: Armageddon Hulk
@@ -13,120 +7,60 @@ items:
     published: false
     volume: 486000.0
   Blood Raider Battleship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42238
     mass: 1.95E7
     name: Blood Raider Battleship
     published: false
     volume: 1150000.0
   Deathglow Scumlord:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48957
     mass: 1.95E7
     name: Deathglow Scumlord
     published: false
     volume: 1150000.0
   Drifter Strike Battleship:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47723
     mass: 1.09E7
     name: Drifter Strike Battleship
     published: false
     volume: 109000.0
   Drifter Strike Commander:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47724
     mass: 1.09E7
     name: Drifter Strike Commander
     published: false
     volume: 109000.0
   Eosian Safeguard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46348
     mass: 1.9E7
     name: Eosian Safeguard
     published: false
     volume: 1.9E7
   Eosian Upholder:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46349
     mass: 1.9E7
     name: Eosian Upholder
     published: false
     volume: 1.9E7
   Guardian Angels Barachael:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47275
     mass: 9.468E7
     name: Guardian Angels Barachael
     published: false
     volume: 595000.0
   Guri Hivaa Rokosabai:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 40727
     mass: 9.93E7
     name: Guri Hivaa Rokosabai
     published: true
     volume: 486000.0
   Manuzivar Slaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48131
     mass: 1.032E8
     name: Manuzivar Slaver
     published: false
     volume: 495000.0
   Megathron Hulk:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49122
     mass: 9.84E7
     name: Megathron Hulk
@@ -134,48 +68,24 @@ items:
     published: false
     volume: 486000.0
   Mordu's Centurion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49765
     mass: 1.9E7
     name: Mordu's Centurion
     published: false
     volume: 2.2E7
   November Nightmare:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48936
     mass: 1.001E7
     name: November Nightmare
     published: false
     volume: 100100.0
   Rakka's Rattlesnake:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 40728
     mass: 9.93E7
     name: Rakka's Rattlesnake
     published: true
     volume: 486000.0
   Raven Hulk:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49118
     mass: 9.93E7
     name: Raven Hulk
@@ -183,48 +93,24 @@ items:
     published: false
     volume: 486000.0
   Swarm Overmind Primus x01:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48800
     mass: 2.1E7
     name: Swarm Overmind Primus x01
     published: false
     volume: 1010000.0
   Swarm Overmind Secundus x01:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48801
     mass: 2.1E7
     name: Swarm Overmind Secundus x01
     published: false
     volume: 1010000.0
   Swarm Overmind Tertius x01:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48799
     mass: 2.1E7
     name: Swarm Overmind Tertius x01
     published: false
     volume: 1010000.0
   Typhoon Hulk:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49120
     mass: 1.006E8
     name: Typhoon Hulk

@@ -83,6 +83,7 @@ items:
   Caldari Navy Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 59.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -111,6 +112,7 @@ items:
   Domination Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -139,6 +141,7 @@ items:
   Dread Guristas Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 59.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -167,6 +170,7 @@ items:
   Estamel's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 72.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -195,6 +199,7 @@ items:
   Gotan's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -223,6 +228,7 @@ items:
   Hakim's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 48.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -251,6 +257,7 @@ items:
   Kaikka's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 62.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -279,6 +286,7 @@ items:
   Mizuro's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 45.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -361,6 +369,7 @@ items:
   Republic Fleet Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -389,6 +398,7 @@ items:
   Shaqil's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -417,6 +427,7 @@ items:
   Thon's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 66.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -445,6 +456,7 @@ items:
   Tobias' Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 52.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -473,6 +485,7 @@ items:
   True Sansha Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -501,6 +514,7 @@ items:
   Vepas' Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
+    ChargeGroup4: 655
     ChargeRate: 1
     Cpu: 68.0
     HeatAbsorbtionRateModifier: 0.009999999776482582

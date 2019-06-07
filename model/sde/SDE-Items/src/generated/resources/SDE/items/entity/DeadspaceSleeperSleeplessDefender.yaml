@@ -1,47 +1,23 @@
 items:
   Sleepless Defender:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30192
     mass: 1.9E7
     name: Sleepless Defender
     published: false
     volume: 1.9E7
   Sleepless Preserver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30194
     mass: 1.9E7
     name: Sleepless Preserver
     published: false
     volume: 1.9E7
   Sleepless Safeguard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30195
     mass: 1.9E7
     name: Sleepless Safeguard
     published: false
     volume: 1.9E7
   Sleepless Upholder:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30193
     mass: 1.9E7
     name: Sleepless Upholder

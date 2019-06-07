@@ -47,11 +47,27 @@ items:
     price: 1000.0
     published: true
     volume: 1.0
+  Decayed Assault Damage Control Mutaplasmid:
+    id: 52228
+    marketGroup: 2534
+    mass: 1.0
+    name: Decayed Assault Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
   Decayed Ballistic Control System Mutaplasmid:
     id: 49739
     marketGroup: 2517
     mass: 1.0
     name: Decayed Ballistic Control System Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Decayed Damage Control Mutaplasmid:
+    id: 52224
+    marketGroup: 2533
+    mass: 1.0
+    name: Decayed Damage Control Mutaplasmid
     price: 1000.0
     published: true
     volume: 1.0
@@ -335,11 +351,27 @@ items:
     price: 1000.0
     published: true
     volume: 1.0
+  Gravid Assault Damage Control Mutaplasmid:
+    id: 52229
+    marketGroup: 2534
+    mass: 1.0
+    name: Gravid Assault Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
   Gravid Ballistic Control System Mutaplasmid:
     id: 49740
     marketGroup: 2517
     mass: 1.0
     name: Gravid Ballistic Control System Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Gravid Damage Control Mutaplasmid:
+    id: 52225
+    marketGroup: 2533
+    mass: 1.0
+    name: Gravid Damage Control Mutaplasmid
     price: 1000.0
     published: true
     volume: 1.0
@@ -623,11 +655,27 @@ items:
     price: 1000.0
     published: true
     volume: 1.0
+  Unstable Assault Damage Control Mutaplasmid:
+    id: 52231
+    marketGroup: 2534
+    mass: 1.0
+    name: Unstable Assault Damage Control Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
   Unstable Ballistic Control System Mutaplasmid:
     id: 49741
     marketGroup: 2517
     mass: 1.0
     name: Unstable Ballistic Control System Mutaplasmid
+    price: 1000.0
+    published: true
+    volume: 1.0
+  Unstable Damage Control Mutaplasmid:
+    id: 52226
+    marketGroup: 2533
+    mass: 1.0
+    name: Unstable Damage Control Mutaplasmid
     price: 1000.0
     published: true
     volume: 1.0

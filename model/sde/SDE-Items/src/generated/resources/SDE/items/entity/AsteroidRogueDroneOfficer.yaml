@@ -1,47 +1,23 @@
 items:
   Unit D-34343:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32959
     mass: 1.9E7
     name: Unit D-34343
     published: false
     volume: 1.9E7
   Unit F-435454:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32960
     mass: 1.9E7
     name: Unit F-435454
     published: false
     volume: 1.9E7
   Unit P-343554:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32961
     mass: 1.9E7
     name: Unit P-343554
     published: false
     volume: 1.9E7
   Unit W-634:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32962
     mass: 1.9E7
     name: Unit W-634

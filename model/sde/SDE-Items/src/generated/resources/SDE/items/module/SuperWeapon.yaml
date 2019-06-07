@@ -243,7 +243,7 @@ items:
     published: true
     volume: 8000.0
   Pulse Activated Nexus Invulnerability Core:
-    BuffDuration: 300000
+    BuffDuration: 240000
     CanCloak: 1
     CanFitShipGroup01: 883
     Cpu: 75.0
@@ -256,7 +256,7 @@ items:
     MaxRange: 200000
     MaxTypeFitted: 1
     ModuleReactivationDelay: 600000
-    PanicDuration: 300000
+    PanicDuration: 240000
     Power: 50000
     RequiredSkill1: 44067
     RequiredSkill1Level: 1

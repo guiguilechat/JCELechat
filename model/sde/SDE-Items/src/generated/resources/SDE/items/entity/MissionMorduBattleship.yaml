@@ -1,59 +1,29 @@
 items:
   Mordus Fleet Commander:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16039
     mass: 1.9E7
     name: Mordus Fleet Commander
     published: false
     volume: 2.2E7
   Mordus Gigamar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16036
     mass: 2.1E7
     name: Mordus Gigamar
     published: false
     volume: 1040000.0
   Mordus Mammoth:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16037
     mass: 1.9E7
     name: Mordus Mammoth
     published: false
     volume: 2.2E7
   Mordus Phanti:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16034
     mass: 2.1E7
     name: Mordus Phanti
     published: false
     volume: 1040000.0
   Mordus Sequestor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16035
     mass: 2.2E7
     name: Mordus Sequestor

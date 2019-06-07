@@ -9,7 +9,7 @@ items:
     id: 26253
     marketGroup: 372
     name: Armor Rigging
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Astronautics Rigging:
@@ -22,7 +22,7 @@ items:
     id: 26254
     marketGroup: 372
     name: Astronautics Rigging
-    price: 20000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Drones Rigging:
@@ -35,7 +35,7 @@ items:
     id: 26255
     marketGroup: 372
     name: Drones Rigging
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Electronic Superiority Rigging:
@@ -48,7 +48,7 @@ items:
     id: 26256
     marketGroup: 372
     name: Electronic Superiority Rigging
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Energy Weapon Rigging:
@@ -61,7 +61,7 @@ items:
     id: 26258
     marketGroup: 372
     name: Energy Weapon Rigging
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Hybrid Weapon Rigging:
@@ -74,7 +74,7 @@ items:
     id: 26259
     marketGroup: 372
     name: Hybrid Weapon Rigging
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Jury Rigging:
@@ -87,7 +87,7 @@ items:
     id: 26252
     marketGroup: 372
     name: Jury Rigging
-    price: 60000.0
+    price: 75000.0
     published: true
     volume: 0.01
   Launcher Rigging:
@@ -100,7 +100,7 @@ items:
     id: 26260
     marketGroup: 372
     name: Launcher Rigging
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Projectile Weapon Rigging:
@@ -113,7 +113,7 @@ items:
     id: 26257
     marketGroup: 372
     name: Projectile Weapon Rigging
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01
   Shield Rigging:
@@ -126,6 +126,6 @@ items:
     id: 26261
     marketGroup: 372
     name: Shield Rigging
-    price: 100000.0
+    price: 250000.0
     published: true
     volume: 0.01

@@ -359,6 +359,48 @@ items:
     name: Capital Parking Ticket
     published: true
     volume: 0.01
+  Capsuleer Day XVI Apotheosis & SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 52296
+    marketGroup: 1661
+    name: Capsuleer Day XVI Apotheosis & SKIN Crate
+    published: true
+    volume: 4.0
+  Capsuleer Day XVI Cap Crate:
+    CpuMultiplier: 1.0
+    id: 52294
+    marketGroup: 1661
+    name: Capsuleer Day XVI Cap Crate
+    published: true
+    volume: 4.0
+  Capsuleer Day XVI Gnosis & SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 52291
+    marketGroup: 1661
+    name: Capsuleer Day XVI Gnosis & SKIN Crate
+    published: true
+    volume: 4.0
+  Capsuleer Day XVI Praxis & SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 52298
+    marketGroup: 1661
+    name: Capsuleer Day XVI Praxis & SKIN Crate
+    published: true
+    volume: 4.0
+  Capsuleer Day XVI Sunesis & SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 52295
+    marketGroup: 1661
+    name: Capsuleer Day XVI Sunesis & SKIN Crate
+    published: true
+    volume: 4.0
+  Capsuleer Day XVI T-Shirt Crate:
+    CpuMultiplier: 1.0
+    id: 52290
+    marketGroup: 1661
+    name: Capsuleer Day XVI T-Shirt Crate
+    published: true
+    volume: 4.0
   Cerebrum In A Container:
     CpuMultiplier: 1.0
     id: 37877
@@ -533,6 +575,13 @@ items:
     name: Donut Holder
     published: true
     volume: 0.01
+  Drake & Oracle Argyros SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 52297
+    marketGroup: 1661
+    name: Drake & Oracle Argyros SKIN Crate
+    published: true
+    volume: 4.0
   Drake & Rupture SKIN Crate:
     CpuMultiplier: 1.0
     id: 49805
@@ -548,6 +597,14 @@ items:
     name: Dried Moss
     published: true
     volume: 1.0
+  Drone Regions YC109:
+    CpuMultiplier: 1.0
+    id: 52274
+    marketGroup: 1661
+    mass: 1.0
+    name: Drone Regions YC109
+    published: true
+    volume: 1.0
   Dropsuit Fragment:
     CpuMultiplier: 1.0
     id: 48757
@@ -556,6 +613,13 @@ items:
     name: Dropsuit Fragment
     published: true
     volume: 1.0
+  Eico Redarc/Redwire XVI Augmentations Crate:
+    CpuMultiplier: 1.0
+    id: 52299
+    marketGroup: 1661
+    name: Eico Redarc/Redwire XVI Augmentations Crate
+    published: true
+    volume: 4.0
   Empire Civilian Container:
     CpuMultiplier: 1.0
     id: 43640
@@ -577,6 +641,14 @@ items:
     name: Experimental Mutaplasmid Repository
     published: true
     volume: 100.0
+  Fall of Fort Knocks YC120:
+    CpuMultiplier: 1.0
+    id: 52277
+    marketGroup: 1661
+    mass: 1.0
+    name: Fall of Fort Knocks YC120
+    published: true
+    volume: 1.0
   Feawen's Approval Documentation:
     CpuMultiplier: 1.0
     id: 37884
@@ -865,6 +937,14 @@ items:
     name: Jin-Mei Silk Cord
     published: true
     volume: 1.0
+  Jita Protest YC113:
+    CpuMultiplier: 1.0
+    id: 52275
+    marketGroup: 1661
+    mass: 1.0
+    name: Jita Protest YC113
+    published: true
+    volume: 1.0
   Jump Fatigue Recovery Agent:
     CpuMultiplier: 1.0
     id: 34419
@@ -1133,6 +1213,13 @@ items:
     name: My God, It’s Full Of Holes!
     published: true
     volume: 3.0
+  Myrmidon & Tornado Argyros SKIN Crate:
+    CpuMultiplier: 1.0
+    id: 52293
+    marketGroup: 1661
+    name: Myrmidon & Tornado Argyros SKIN Crate
+    published: true
+    volume: 4.0
   New Eden Soundbox:
     CpuMultiplier: 1.0
     id: 33066
@@ -1179,6 +1266,20 @@ items:
     name: Offensive Content Reports, Jan. YC120, vol. I
     published: true
     volume: 1.0
+  Permaband Tour Cap Crate:
+    CpuMultiplier: 1.0
+    id: 52292
+    marketGroup: 1661
+    name: Permaband Tour Cap Crate
+    published: true
+    volume: 4.0
+  Permaband Tour T-Shirt Crate:
+    CpuMultiplier: 1.0
+    id: 52300
+    marketGroup: 1661
+    name: Permaband Tour T-Shirt Crate
+    published: true
+    volume: 4.0
   Polaris Eviction Notice:
     CpuMultiplier: 1.0
     id: 34427
@@ -1382,12 +1483,12 @@ items:
     name: Rules of Engagement
     published: true
     volume: 0.01
-  SCC Guidelines �� Lotteries For Dummies:
+  SCC Guidelines – Lotteries For Dummies:
     CpuMultiplier: 1.0
     id: 34425
     marketGroup: 1661
     mass: 10.0
-    name: SCC Guidelines �� Lotteries For Dummies
+    name: SCC Guidelines – Lotteries For Dummies
     published: true
     volume: 3.0
   Sani Sabik Murder Security Tapes:
@@ -1444,6 +1545,13 @@ items:
     name: Shuttle Piloting For Dummies
     published: true
     volume: 0.01
+  Silver Monocle Interface Crate:
+    CpuMultiplier: 1.0
+    id: 52301
+    marketGroup: 1661
+    name: Silver Monocle Interface Crate
+    published: true
+    volume: 4.0
   Silver Ouroboros:
     CpuMultiplier: 1.0
     id: 42230
@@ -1605,6 +1713,14 @@ items:
     name: The Policy Enforcer
     published: true
     volume: 1.0
+  The Yulai Siege YC106:
+    CpuMultiplier: 1.0
+    id: 52273
+    marketGroup: 1661
+    mass: 1.0
+    name: The Yulai Siege YC106
+    published: true
+    volume: 1.0
   Titanium Plated Cranial Shielding:
     CpuMultiplier: 1.0
     id: 34424
@@ -1613,6 +1729,14 @@ items:
     name: Titanium Plated Cranial Shielding
     published: true
     volume: 3.0
+  Titanomachy YC116:
+    CpuMultiplier: 1.0
+    id: 52276
+    marketGroup: 1661
+    mass: 1.0
+    name: Titanomachy YC116
+    published: true
+    volume: 1.0
   To Kill the Risen Dead:
     CpuMultiplier: 1.0
     id: 47059

@@ -1,25 +1,13 @@
 items:
   Frostline Gatherer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49964
     mass: 1.0E7
     name: Frostline Gatherer
     published: false
     volume: 100000.0
-  ♦ Skiff:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
+  �� Skiff:
     id: 42535
     mass: 1.0E7
-    name: ♦ Skiff
+    name: �� Skiff
     published: false
     volume: 100000.0

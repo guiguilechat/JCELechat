@@ -9,7 +9,7 @@ items:
     id: 20494
     marketGroup: 370
     name: Armored Command
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Armored Command Specialist:
@@ -24,7 +24,7 @@ items:
     id: 11569
     marketGroup: 370
     name: Armored Command Specialist
-    price: 400000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Command Burst Specialist:
@@ -51,7 +51,7 @@ items:
     id: 24764
     marketGroup: 370
     name: Fleet Command
-    price: 2.0E7
+    price: 3.5E7
     published: true
     volume: 0.01
   Information Command:
@@ -64,7 +64,7 @@ items:
     id: 20495
     marketGroup: 370
     name: Information Command
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Information Command Specialist:
@@ -79,7 +79,7 @@ items:
     id: 3352
     marketGroup: 370
     name: Information Command Specialist
-    price: 400000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Leadership:
@@ -90,7 +90,7 @@ items:
     id: 3348
     marketGroup: 370
     name: Leadership
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Mining Director:
@@ -105,7 +105,7 @@ items:
     id: 22552
     marketGroup: 370
     name: Mining Director
-    price: 400000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Mining Foreman:
@@ -118,7 +118,7 @@ items:
     id: 22536
     marketGroup: 370
     name: Mining Foreman
-    price: 75000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Shield Command:
@@ -131,7 +131,7 @@ items:
     id: 3350
     marketGroup: 370
     name: Shield Command
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Shield Command Specialist:
@@ -146,7 +146,7 @@ items:
     id: 3351
     marketGroup: 370
     name: Shield Command Specialist
-    price: 400000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Skirmish Command:
@@ -159,7 +159,7 @@ items:
     id: 3349
     marketGroup: 370
     name: Skirmish Command
-    price: 75000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Skirmish Command Specialist:
@@ -174,7 +174,7 @@ items:
     id: 11572
     marketGroup: 370
     name: Skirmish Command Specialist
-    price: 400000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Spatial Phenomena Generation:
@@ -204,6 +204,6 @@ items:
     id: 11574
     marketGroup: 370
     name: Wing Command
-    price: 2000000.0
+    price: 4000000.0
     published: true
     volume: 0.01

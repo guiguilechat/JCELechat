@@ -1,35 +1,17 @@
 items:
   Emergent Escort:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30211
     mass: 1910000.0
     name: Emergent Escort
     published: false
     volume: 19100.0
   Emergent Patroller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30209
     mass: 1910000.0
     name: Emergent Patroller
     published: false
     volume: 19100.0
   Emergent Watchman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30210
     mass: 1910000.0
     name: Emergent Watchman

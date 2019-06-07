@@ -2,6 +2,7 @@ items:
   '''Gallows'' Light Missile Launcher':
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     Cpu: 14.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -57,6 +58,7 @@ items:
   Caldari Navy Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     Cpu: 20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -103,6 +105,7 @@ items:
   Domination Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     Cpu: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -131,6 +134,7 @@ items:
   Dread Guristas Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     Cpu: 20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -213,6 +217,7 @@ items:
   Republic Fleet Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     Cpu: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -268,6 +273,7 @@ items:
   True Sansha Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
+    ChargeGroup4: 653
     ChargeRate: 1
     Cpu: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582

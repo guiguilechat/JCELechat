@@ -180,6 +180,13 @@ public class CapitalSensorArray
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    /**
+     * Amount to modify ships warp scramble status by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int WarpScrambleStrength;
     public static final CapitalSensorArray.MetaGroup METAGROUP = new CapitalSensorArray.MetaGroup();
 
     @Override
@@ -276,6 +283,10 @@ public class CapitalSensorArray
             case  422 :
             {
                 return TechLevel;
+            }
+            case  105 :
+            {
+                return WarpScrambleStrength;
             }
             default:
             {

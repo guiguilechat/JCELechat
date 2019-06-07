@@ -1,119 +1,59 @@
 items:
   Domination Breaker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13529
     mass: 1.09E7
     name: Domination Breaker
     published: false
     volume: 109000.0
   Domination Centurion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13534
     mass: 1.09E7
     name: Domination Centurion
     published: false
     volume: 109000.0
   Domination Crusher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13523
     mass: 1.09E7
     name: Domination Crusher
     published: false
     volume: 109000.0
   Domination Defeater:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13530
     mass: 1.09E7
     name: Domination Defeater
     published: false
     volume: 109000.0
   Domination Depredator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13520
     mass: 9900000.0
     name: Domination Depredator
     published: false
     volume: 99000.0
   Domination Liquidator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13533
     mass: 1.09E7
     name: Domination Liquidator
     published: false
     volume: 109000.0
   Domination Marauder:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13531
     mass: 1.09E7
     name: Domination Marauder
     published: false
     volume: 109000.0
   Domination Phalanx:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13532
     mass: 1.09E7
     name: Domination Phalanx
     published: false
     volume: 109000.0
   Domination Predator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13526
     mass: 9900000.0
     name: Domination Predator
     published: false
     volume: 99000.0
   Domination Smasher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13524
     mass: 1.09E7
     name: Domination Smasher

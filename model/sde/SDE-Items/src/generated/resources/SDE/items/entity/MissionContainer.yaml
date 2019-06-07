@@ -1,577 +1,283 @@
 items:
   Amarr Frigate Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2077
     name: Amarr Frigate Container
     published: false
   Barbican Repository:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 36904
     mass: 10000.0
     name: Barbican Repository
     published: false
     volume: 27500.0
   Barbican Vault:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34499
     mass: 10000.0
     name: Barbican Vault
     published: false
     volume: 27500.0
   Business Associate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32271
     mass: 1.35E7
     name: Business Associate
     published: false
     volume: 27500.0
   CONCORD Collection Vessel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2163
     name: CONCORD Collection Vessel
     published: false
   Cargo Facility 7A-21:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30953
     mass: 100000.0
     name: Cargo Facility 7A-21
     published: false
     volume: 27500.0
   Cargo Wreathe:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30899
     name: Cargo Wreathe
     published: false
   Central Archive Cerebrum:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34449
     mass: 10000.0
     name: Central Archive Cerebrum
     published: false
     volume: 27500.0
   Chapel Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32291
     mass: 10000.0
     name: Chapel Container
     published: false
     volume: 27500.0
   Cilis Leglise's Headquarters:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32404
     mass: 100000.0
     name: Cilis Leglise's Headquarters
     published: false
     volume: 27500.0
   Colonial Supply Depot:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30783
     mass: 10000.0
     name: Colonial Supply Depot
     published: false
     volume: 27500.0
   Communications Array:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30965
     mass: 100000.0
     name: Communications Array
     published: false
     volume: 27500.0
   'Conference Center ':
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32224
     mass: 10000.0
     name: 'Conference Center '
     published: false
     volume: 27500.0
   Conflux Repository:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 36906
     mass: 10000.0
     name: Conflux Repository
     published: false
     volume: 27500.0
   Conflux Vault:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34501
     mass: 10000.0
     name: Conflux Vault
     published: false
     volume: 27500.0
   Dead Drop:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30762
     mass: 10000.0
     name: Dead Drop
     published: false
     volume: 27500.0
   Defiants Storage Facility:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32206
     mass: 100000.0
     name: Defiants Storage Facility
     published: false
     volume: 27500.0
   Drone Infested Dominix:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2189
     mass: 1.05E8
     name: Drone Infested Dominix
     published: false
     volume: 1010000.0
   Emergency Evacuation Freighter:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3503
     mass: 10000.0
     name: Emergency Evacuation Freighter
     published: false
     volume: 27500.0
   Generic Cargo Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30820
     mass: 10000.0
     name: Generic Cargo Container
     published: false
     volume: 27500.0
   Guard Post:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2214
     mass: 100000.0
     name: Guard Post
     published: false
     volume: 27500.0
   Josameto Verification Center:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30949
     mass: 10000.0
     name: Josameto Verification Center
     published: false
     volume: 27500.0
   Linked Broadcast Array Hub:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32127
     mass: 100.0
     name: Linked Broadcast Array Hub
     published: false
     volume: 27500.0
   Luxury Spaceliner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30654
     mass: 10000.0
     name: Luxury Spaceliner
     published: false
     volume: 27500.0
   Manager's Station:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2903
     mass: 10000.0
     name: Manager's Station
     published: false
     volume: 27500.0
   Mizara Family Hovel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30777
     mass: 10000.0
     name: Mizara Family Hovel
     published: false
     volume: 27500.0
   Nation Ore Refinery:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3502
     mass: 10000.0
     name: Nation Ore Refinery
     published: false
     volume: 27500.0
   Orca Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2187
     name: Orca Container
     published: false
   Redoubt Repository:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 36907
     mass: 10000.0
     name: Redoubt Repository
     published: false
     volume: 27500.0
   Redoubt Vault:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34502
     mass: 10000.0
     name: Redoubt Vault
     published: false
     volume: 27500.0
   Remote Calibration Device - High Power:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34374
     mass: 10000.0
     name: Remote Calibration Device - High Power
     published: false
     volume: 27500.0
   Remote Calibration Device - Low Power:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34373
     mass: 10000.0
     name: Remote Calibration Device - Low Power
     published: false
     volume: 27500.0
   Safe House Ruins:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32273
     mass: 10000.0
     name: Safe House Ruins
     published: false
     volume: 27500.0
   Sansha Control Relay:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3508
     mass: 100000.0
     name: Sansha Control Relay
     published: false
     volume: 1.0E8
   Sansha Territorial Reclamation Outpost:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3054
     mass: 100000.0
     name: Sansha Territorial Reclamation Outpost
     published: false
     volume: 1.0E8
   Senator Pillius Ardanne:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32299
     mass: 1.35E7
     name: Senator Pillius Ardanne
     published: false
     volume: 27500.0
   Sentinel Repository:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 36903
     mass: 10000.0
     name: Sentinel Repository
     published: false
     volume: 27500.0
   Sentinel Vault:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34498
     mass: 10000.0
     name: Sentinel Vault
     published: false
     volume: 27500.0
   Serpentis Transport Hub:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32394
     mass: 10000.0
     name: Serpentis Transport Hub
     published: false
     volume: 27500.0
   Shield Transfer Control Tower:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3495
     mass: 100000.0
     name: Shield Transfer Control Tower
     published: true
     volume: 1150.0
   Sisters of EVE Cold Storage Unit:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 40542
     mass: 10000.0
     name: Sisters of EVE Cold Storage Unit
     published: false
     volume: 27500.0
   Solray Gamma Alignment Unit:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34391
     mass: 10000.0
     name: Solray Gamma Alignment Unit
     published: false
     volume: 27500.0
   Solray Infrared Alignment Unit:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34398
     mass: 10000.0
     name: Solray Infrared Alignment Unit
     published: false
     volume: 27500.0
   Solray Radio Alignment Unit:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34399
     mass: 10000.0
     name: Solray Radio Alignment Unit
     published: false
     volume: 27500.0
   Storage Warehouse Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30793
     mass: 10000.0
     name: Storage Warehouse Container
     published: false
     volume: 27500.0
   The Quartermaster:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46279
     name: The Quartermaster
     published: false
   Vidette Repository:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 36905
     mass: 10000.0
     name: Vidette Repository
     published: false
     volume: 27500.0
   Vidette Vault:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 34500
     mass: 10000.0
     name: Vidette Vault
     published: false
     volume: 27500.0
   Wolf Burgan's Hideout:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30805
     mass: 10000.0
     name: Wolf Burgan's Hideout

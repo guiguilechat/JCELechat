@@ -9,7 +9,7 @@ items:
     id: 3452
     marketGroup: 374
     name: Acceleration Control
-    price: 40000.0
+    price: 50000.0
     published: true
     volume: 0.01
   Afterburner:
@@ -23,7 +23,7 @@ items:
     id: 3450
     marketGroup: 374
     name: Afterburner
-    price: 22500.0
+    price: 35000.0
     published: true
     volume: 0.01
   Cynosural Field Theory:
@@ -50,7 +50,7 @@ items:
     id: 3453
     marketGroup: 374
     name: Evasive Maneuvering
-    price: 25000.0
+    price: 35000.0
     published: true
     volume: 0.01
   Fuel Conservation:
@@ -65,7 +65,7 @@ items:
     id: 3451
     marketGroup: 374
     name: Fuel Conservation
-    price: 30000.0
+    price: 37500.0
     published: true
     volume: 0.01
   High Speed Maneuvering:
@@ -80,7 +80,7 @@ items:
     id: 3454
     marketGroup: 374
     name: High Speed Maneuvering
-    price: 340000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Jump Drive Calibration:
@@ -144,7 +144,7 @@ items:
     id: 24562
     marketGroup: 374
     name: Jump Portal Generation
-    price: 5.0E7
+    price: 7.5E7
     published: true
     volume: 0.01
   Micro Jump Drive Operation:
@@ -159,7 +159,7 @@ items:
     id: 4385
     marketGroup: 374
     name: Micro Jump Drive Operation
-    price: 4500000.0
+    price: 5000000.0
     published: true
     volume: 0.01
   Navigation:
@@ -169,7 +169,7 @@ items:
     id: 3449
     marketGroup: 374
     name: Navigation
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Warp Drive Operation:
@@ -182,6 +182,6 @@ items:
     id: 3455
     marketGroup: 374
     name: Warp Drive Operation
-    price: 30000.0
+    price: 45000.0
     published: true
     volume: 0.01

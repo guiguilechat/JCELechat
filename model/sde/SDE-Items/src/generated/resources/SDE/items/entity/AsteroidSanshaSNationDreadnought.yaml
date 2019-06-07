@@ -1,23 +1,11 @@
 items:
   Sansha's Dreadnought:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 37467
     mass: 1.2375E9
     name: Sansha's Dreadnought
     published: false
     volume: 1.85E7
   True Sansha's Dreadnought:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 41399
     mass: 1.2375E9
     name: True Sansha's Dreadnought

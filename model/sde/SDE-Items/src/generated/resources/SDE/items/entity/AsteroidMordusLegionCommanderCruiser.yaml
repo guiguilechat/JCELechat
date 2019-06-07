@@ -1,11 +1,5 @@
 items:
   Mordu’s Special Warfare Unit Specialist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 33865
     mass: 1.191E7
     name: Mordu’s Special Warfare Unit Specialist

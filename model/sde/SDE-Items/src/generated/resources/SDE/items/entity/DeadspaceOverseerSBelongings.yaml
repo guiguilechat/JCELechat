@@ -1,155 +1,77 @@
 items:
   Assembled Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 18629
     mass: 10000.0
     name: Assembled Container
     published: false
     volume: 27500.0
   Black Drone Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19425
     mass: 10000.0
     name: Black Drone Container
     published: false
     volume: 27500.0
   Container with blast marks:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17276
     mass: 10000.0
     name: Container with blast marks
     published: false
     volume: 1200.0
   Crimson Hand Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17996
     mass: 10000.0
     name: Crimson Hand Container
     published: false
     volume: 27500.0
   Dented Cask:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17798
     mass: 10000.0
     name: Dented Cask
     published: false
     volume: 1200.0
   Dewak's Dot:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19591
     mass: 10000.0
     name: Dewak's Dot
     published: false
     volume: 1200.0
   Electronically Sealed Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17277
     mass: 10000.0
     name: Electronically Sealed Container
     published: false
     volume: 27500.0
   Main Supply Storage:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20077
     mass: 10000.0
     name: Main Supply Storage
     published: false
     volume: 1200.0
   Scratched Cask:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 18628
     mass: 10000.0
     name: Scratched Cask
     published: false
     volume: 27500.0
   Special Products:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19960
     mass: 10000.0
     name: Special Products
     published: false
     volume: 2750.0
   Storage Taxes:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 18582
     mass: 10000.0
     name: Storage Taxes
     published: false
     volume: 10500.0
   Stuffed Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 17274
     mass: 10000.0
     name: Stuffed Container
     published: false
     volume: 2750.0
   The Prize Container:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 19373
     mass: 10000.0
     name: The Prize Container

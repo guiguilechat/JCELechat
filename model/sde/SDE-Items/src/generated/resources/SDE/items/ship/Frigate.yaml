@@ -887,7 +887,7 @@ items:
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiningAmountMultiplier: 1.0
-    PowerOutput: 50
+    PowerOutput: 55
     PowerToSpeed: 1
     PropulsionGraphicID: 394
     RechargeRate: 212500.0
@@ -907,7 +907,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
     ShipBonusPF1: 5.0
-    ShipBonusPF2: 7.5
+    ShipBonusPF2: -4.0
     ShipBonusRole1: 100.0
     ShipBonusRole2: -50
     SignatureRadius: 32

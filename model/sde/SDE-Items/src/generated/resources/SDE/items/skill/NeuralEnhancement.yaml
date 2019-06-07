@@ -22,7 +22,7 @@ items:
     id: 3405
     marketGroup: 1746
     name: Biology
-    price: 25000.0
+    price: 37500.0
     published: true
     volume: 0.01
   Cloning Facility Operation:
@@ -49,7 +49,7 @@ items:
     id: 3411
     marketGroup: 1746
     name: Cybernetics
-    price: 75000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Infomorph Psychology:

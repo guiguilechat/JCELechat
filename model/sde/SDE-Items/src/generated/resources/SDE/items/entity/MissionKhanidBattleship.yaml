@@ -1,59 +1,29 @@
 items:
   Khanid High Commander:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16176
     mass: 1.9E7
     name: Khanid High Commander
     published: false
     volume: 1100000.0
   Khanid Kazmaar:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16177
     mass: 1.9E7
     name: Khanid Kazmaar
     published: false
     volume: 1150000.0
   Khanid Kazmaar_2:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 22753
     mass: 1.9E7
     name: Khanid Kazmaar_2
     published: false
     volume: 1150000.0
   Khanid Mashtori:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 12392
     mass: 1.2E7
     name: Khanid Mashtori
     published: false
     volume: 120000.0
   Khanid Personnel Transport:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16170
     mass: 1.9E7
     name: Khanid Personnel Transport

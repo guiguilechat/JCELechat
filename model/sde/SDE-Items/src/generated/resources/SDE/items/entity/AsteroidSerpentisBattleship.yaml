@@ -1,119 +1,59 @@
 items:
   Serpentis Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23452
     mass: 1.75E7
     name: Serpentis Admiral
     published: false
     volume: 1140000.0
   Serpentis Baron:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11921
     mass: 1.9E7
     name: Serpentis Baron
     published: false
     volume: 1010000.0
   Serpentis Commodore:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11922
     mass: 1.75E7
     name: Serpentis Commodore
     published: false
     volume: 1140000.0
   Serpentis Flotilla Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23450
     mass: 1.75E7
     name: Serpentis Flotilla Admiral
     published: false
     volume: 1140000.0
   Serpentis Grand Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23454
     mass: 1.75E7
     name: Serpentis Grand Admiral
     published: false
     volume: 1140000.0
   Serpentis High Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23453
     mass: 1.75E7
     name: Serpentis High Admiral
     published: false
     volume: 1140000.0
   Serpentis Lord Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23455
     mass: 1.75E7
     name: Serpentis Lord Admiral
     published: false
     volume: 1140000.0
   Serpentis Port Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11923
     mass: 1.9E7
     name: Serpentis Port Admiral
     published: false
     volume: 1010000.0
   Serpentis Rear Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11924
     mass: 1.75E7
     name: Serpentis Rear Admiral
     published: false
     volume: 1140000.0
   Serpentis Vice Admiral:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23451
     mass: 1.75E7
     name: Serpentis Vice Admiral

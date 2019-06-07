@@ -169,7 +169,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 2900.0
-    CpuOutput: 525
+    CpuOutput: 550
     DroneBandwidth: 50
     DroneCapacity: 50
     EmDamageResonance: 0.6700000166893005
@@ -481,7 +481,7 @@ items:
     published: true
     volume: 233000.0
   Ferox:
-    Agility: 0.6299999952316284
+    Agility: 0.6600000262260437
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
     ArmorHP: 3500
@@ -516,7 +516,7 @@ items:
     MaxLockedTargets: 8
     MaxPassengers: 450
     MaxTargetRange: 75000
-    MaxVelocity: 150.0
+    MaxVelocity: 145.0
     MedSlots: 6
     MinTargetVelDmgMultiplier: 0.25
     PowerOutput: 1150
@@ -541,7 +541,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusCBC1: 10.0
     ShipBonusCBC2: 5
-    SignatureRadius: 295
+    SignatureRadius: 325
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -554,7 +554,7 @@ items:
     WarpSpeedMultiplier: 2.700000047683716
     id: 16227
     marketGroup: 471
-    mass: 1.325E7
+    mass: 1.425E7
     name: Ferox
     price: 2.4E7
     published: true
@@ -675,7 +675,7 @@ items:
     MaxVelocity: 175.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.25
-    PowerOutput: 1425
+    PowerOutput: 1550
     PowerToSpeed: 1
     PropulsionGraphicID: 394
     RechargeRate: 875000.0

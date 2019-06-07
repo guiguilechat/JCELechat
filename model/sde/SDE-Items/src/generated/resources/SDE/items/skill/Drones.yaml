@@ -11,7 +11,7 @@ items:
     id: 23566
     marketGroup: 366
     name: Advanced Drone Avionics
-    price: 400000.0
+    price: 600000.0
     published: true
     volume: 0.01
   Amarr Drone Specialization:
@@ -25,7 +25,7 @@ items:
     id: 12484
     marketGroup: 366
     name: Amarr Drone Specialization
-    price: 9000000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Caldari Drone Specialization:
@@ -39,7 +39,7 @@ items:
     id: 12487
     marketGroup: 366
     name: Caldari Drone Specialization
-    price: 9000000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Drone Avionics:
@@ -52,7 +52,7 @@ items:
     id: 3437
     marketGroup: 366
     name: Drone Avionics
-    price: 40000.0
+    price: 60000.0
     published: true
     volume: 0.01
   Drone Durability:
@@ -66,7 +66,7 @@ items:
     id: 23618
     marketGroup: 366
     name: Drone Durability
-    price: 50000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Drone Interfacing:
@@ -80,7 +80,7 @@ items:
     id: 3442
     marketGroup: 366
     name: Drone Interfacing
-    price: 500000.0
+    price: 750000.0
     published: true
     volume: 0.01
   Drone Navigation:
@@ -117,7 +117,7 @@ items:
     id: 3436
     marketGroup: 366
     name: Drones
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01
   Fighter Hangar Management:
@@ -130,7 +130,7 @@ items:
     id: 24613
     marketGroup: 366
     name: Fighter Hangar Management
-    price: 1.5E7
+    price: 2.0E7
     published: true
     volume: 0.01
   Fighters:
@@ -146,7 +146,7 @@ items:
     id: 23069
     marketGroup: 366
     name: Fighters
-    price: 5.0E7
+    price: 7.5E7
     published: true
     volume: 0.01
   Gallente Drone Specialization:
@@ -160,7 +160,7 @@ items:
     id: 12486
     marketGroup: 366
     name: Gallente Drone Specialization
-    price: 9000000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Heavy Drone Operation:
@@ -173,7 +173,7 @@ items:
     id: 3441
     marketGroup: 366
     name: Heavy Drone Operation
-    price: 380000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Heavy Fighters:
@@ -187,7 +187,7 @@ items:
     id: 32339
     marketGroup: 366
     name: Heavy Fighters
-    price: 1.0E8
+    price: 1.1E8
     published: true
     volume: 0.01
   Ice Harvesting Drone Operation:
@@ -202,7 +202,7 @@ items:
     id: 43702
     marketGroup: 366
     name: Ice Harvesting Drone Operation
-    price: 80000.0
+    price: 100000.0
     published: true
     volume: 0.01
   Ice Harvesting Drone Specialization:
@@ -231,7 +231,7 @@ items:
     id: 24241
     marketGroup: 366
     name: Light Drone Operation
-    price: 50000.0
+    price: 75000.0
     published: true
     volume: 0.01
   Light Fighters:
@@ -245,7 +245,7 @@ items:
     id: 40572
     marketGroup: 366
     name: Light Fighters
-    price: 1.0E8
+    price: 1.1E8
     published: true
     volume: 0.01
   Medium Drone Operation:
@@ -258,7 +258,7 @@ items:
     id: 33699
     marketGroup: 366
     name: Medium Drone Operation
-    price: 100000.0
+    price: 125000.0
     published: true
     volume: 0.01
   Mining Drone Operation:
@@ -273,7 +273,7 @@ items:
     id: 3438
     marketGroup: 366
     name: Mining Drone Operation
-    price: 40000.0
+    price: 50000.0
     published: true
     volume: 0.01
   Mining Drone Specialization:
@@ -289,7 +289,7 @@ items:
     id: 22541
     marketGroup: 366
     name: Mining Drone Specialization
-    price: 9000000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Minmatar Drone Specialization:
@@ -303,7 +303,7 @@ items:
     id: 12485
     marketGroup: 366
     name: Minmatar Drone Specialization
-    price: 9000000.0
+    price: 1.0E7
     published: true
     volume: 0.01
   Repair Drone Operation:
@@ -333,7 +333,7 @@ items:
     id: 3440
     marketGroup: 366
     name: Salvage Drone Operation
-    price: 220000.0
+    price: 500000.0
     published: true
     volume: 0.01
   Sentry Drone Interfacing:
@@ -348,7 +348,7 @@ items:
     id: 23594
     marketGroup: 366
     name: Sentry Drone Interfacing
-    price: 450000.0
+    price: 650000.0
     published: true
     volume: 0.01
   Support Fighters:
@@ -362,6 +362,6 @@ items:
     id: 40573
     marketGroup: 366
     name: Support Fighters
-    price: 1.0E8
+    price: 1.1E8
     published: true
     volume: 0.01

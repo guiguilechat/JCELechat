@@ -1,71 +1,35 @@
 items:
   Blood Bishop:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23244
     mass: 1.18E7
     name: Blood Bishop
     published: false
     volume: 118000.0
   Blood Exorcist:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23256
     mass: 1.18E7
     name: Blood Exorcist
     published: false
     volume: 118000.0
   Blood Fanatic:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23254
     mass: 1.18E7
     name: Blood Fanatic
     published: false
     volume: 118000.0
   Blood Phantom:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23255
     mass: 1.18E7
     name: Blood Phantom
     published: false
     volume: 118000.0
   Blood Seer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23252
     mass: 1.18E7
     name: Blood Seer
     published: false
     volume: 118000.0
   Blood Shade:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23253
     mass: 1.18E7
     name: Blood Shade

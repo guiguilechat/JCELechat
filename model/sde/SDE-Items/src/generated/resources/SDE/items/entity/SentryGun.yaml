@@ -1,71 +1,35 @@
 items:
   Amarr Sentry Gun:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 1194
     mass: 1000.0
     name: Amarr Sentry Gun
     published: false
     volume: 1000.0
   Caldari Sentry Gun I:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3740
     mass: 1000.0
     name: Caldari Sentry Gun I
     published: false
     volume: 1000.0
   Caldari Sentry Gun II:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3741
     mass: 1000.0
     name: Caldari Sentry Gun II
     published: false
     volume: 1000.0
   Caldari Sentry Gun III:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3739
     mass: 1000.0
     name: Caldari Sentry Gun III
     published: false
     volume: 1000.0
   Gallente Sentry Gun:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3742
     mass: 1000.0
     name: Gallente Sentry Gun
     published: false
     volume: 1000.0
   Minmatar Sentry Gun:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 3743
     mass: 1000.0
     name: Minmatar Sentry Gun

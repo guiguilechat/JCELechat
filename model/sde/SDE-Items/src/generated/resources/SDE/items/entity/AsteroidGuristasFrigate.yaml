@@ -1,371 +1,185 @@
 items:
   Dire Guristas Arrogator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13044
     mass: 1970000.0
     name: Dire Guristas Arrogator
     published: false
     volume: 19700.0
   Dire Guristas Demolisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23335
     mass: 1650000.0
     name: Dire Guristas Demolisher
     published: false
     volume: 16500.0
   Dire Guristas Despoiler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23330
     mass: 2040000.0
     name: Dire Guristas Despoiler
     published: false
     volume: 20400.0
   Dire Guristas Destructor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23334
     mass: 1650000.0
     name: Dire Guristas Destructor
     published: false
     volume: 16500.0
   Dire Guristas Imputor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13043
     mass: 1650000.0
     name: Dire Guristas Imputor
     published: false
     volume: 16500.0
   Dire Guristas Infiltrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13042
     mass: 1970000.0
     name: Dire Guristas Infiltrator
     published: false
     volume: 19700.0
   Dire Guristas Invader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13041
     mass: 1650000.0
     name: Dire Guristas Invader
     published: false
     volume: 16500.0
   Dire Guristas Plunderer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23332
     mass: 1970000.0
     name: Dire Guristas Plunderer
     published: false
     volume: 19700.0
   Dire Guristas Saboteur:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23331
     mass: 2040000.0
     name: Dire Guristas Saboteur
     published: false
     volume: 20400.0
   Dire Guristas Wrecker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23333
     mass: 1970000.0
     name: Dire Guristas Wrecker
     published: false
     volume: 19700.0
   Guristas Arrogator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2382
     mass: 1500100.0
     name: Guristas Arrogator
     published: false
     volume: 15001.0
   Guristas Demolisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11030
     mass: 1650000.0
     name: Guristas Demolisher
     published: false
     volume: 16500.0
   Guristas Despoiler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2385
     mass: 2040000.0
     name: Guristas Despoiler
     published: false
     volume: 20400.0
   Guristas Destructor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11029
     mass: 1970000.0
     name: Guristas Destructor
     published: false
     volume: 19700.0
   Guristas Imputor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2384
     mass: 1612000.0
     name: Guristas Imputor
     published: false
     volume: 16120.0
   Guristas Infiltrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11027
     mass: 2025000.0
     name: Guristas Infiltrator
     published: false
     volume: 20250.0
   Guristas Invader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2383
     mass: 2025000.0
     name: Guristas Invader
     published: false
     volume: 20250.0
   Guristas Plunderer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2386
     mass: 1970000.0
     name: Guristas Plunderer
     published: false
     volume: 19700.0
   Guristas Saboteur:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11028
     mass: 2040000.0
     name: Guristas Saboteur
     published: false
     volume: 20400.0
   Guristas Wrecker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10266
     mass: 1650000.0
     name: Guristas Wrecker
     published: false
     volume: 16500.0
   Outlaw Arrogator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21974
     mass: 1500100.0
     name: Outlaw Arrogator
     published: false
     volume: 15001.0
   Outlaw Demolisher:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21983
     mass: 1650000.0
     name: Outlaw Demolisher
     published: false
     volume: 16500.0
   Outlaw Despoiler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21978
     mass: 2040000.0
     name: Outlaw Despoiler
     published: false
     volume: 20400.0
   Outlaw Destructor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21982
     mass: 1970000.0
     name: Outlaw Destructor
     published: false
     volume: 19700.0
   Outlaw Imputor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21975
     mass: 1612000.0
     name: Outlaw Imputor
     published: false
     volume: 16120.0
   Outlaw Infiltrator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21976
     mass: 2025000.0
     name: Outlaw Infiltrator
     published: false
     volume: 20250.0
   Outlaw Invader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21977
     mass: 2025000.0
     name: Outlaw Invader
     published: false
     volume: 20250.0
   Outlaw Plunderer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21980
     mass: 1970000.0
     name: Outlaw Plunderer
     published: false
     volume: 19700.0
   Outlaw Saboteur:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21979
     mass: 2040000.0
     name: Outlaw Saboteur
     published: false
     volume: 20400.0
   Outlaw Wrecker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21981
     mass: 1650000.0
     name: Outlaw Wrecker
     published: false
     volume: 16500.0
   TEST ATTACKER:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25806
     mass: 1650000.0
     name: TEST ATTACKER

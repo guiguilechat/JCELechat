@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_context_id_type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_ref_type;
 
-public class M_get_journal_13 {
+public class R_get_corporations_corporation_id_wallets_division_journal {
     /**
      * The amount of ISK given or taken from the wallet as a result of the given transaction. Positive when ISK is deposited into the wallet and negative when ISK is withdrawn
      */
@@ -65,7 +65,7 @@ public class M_get_journal_13 {
         if ((other == null)||(other.getClass()!= getClass())) {
             return false;
         }
-        M_get_journal_13 othersame = ((M_get_journal_13) other);
+        R_get_corporations_corporation_id_wallets_division_journal othersame = ((R_get_corporations_corporation_id_wallets_division_journal) other);
         if (amount!= othersame.amount) {
             return false;
         }

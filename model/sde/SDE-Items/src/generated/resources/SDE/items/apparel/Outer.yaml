@@ -627,6 +627,18 @@ items:
     name: Men's Scope Network Special Correspondent Suit
     published: true
     volume: 0.1
+  Men's Sisters of EVE Advanced Combat Suit:
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
+    id: 37815
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Sisters of EVE Advanced Combat Suit
+    published: true
+    volume: 0.1
   Men's State Military Stockpile Jacket:
     Gender: 2
     id: 46672
@@ -1519,6 +1531,18 @@ items:
     marketGroup: 1405
     mass: 0.5
     name: Women's Scope Network Special Correspondent Suit
+    published: true
+    volume: 0.1
+  Women's Sisters of EVE Advanced Combat Suit:
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
+    id: 37603
+    marketGroup: 1399
+    mass: 0.5
+    name: Women's Sisters of EVE Advanced Combat Suit
     published: true
     volume: 0.1
   Women's State Military Stockpile Jacket:

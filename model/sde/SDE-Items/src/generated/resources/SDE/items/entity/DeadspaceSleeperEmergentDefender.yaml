@@ -1,35 +1,17 @@
 items:
   Emergent Defender:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30212
     mass: 1910000.0
     name: Emergent Defender
     published: false
     volume: 19100.0
   Emergent Preserver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30214
     mass: 1910000.0
     name: Emergent Preserver
     published: false
     volume: 19100.0
   Emergent Upholder:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30213
     mass: 1910000.0
     name: Emergent Upholder

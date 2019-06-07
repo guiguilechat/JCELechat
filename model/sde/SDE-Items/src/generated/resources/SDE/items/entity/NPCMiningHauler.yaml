@@ -1,95 +1,47 @@
 items:
   ♦ Badger:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43612
     mass: 1.065E7
     name: ♦ Badger
     published: false
     volume: 250000.0
   ♦ Bestower:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42654
     mass: 1.35E7
     name: ♦ Bestower
     published: false
     volume: 260000.0
   ♦ Bustard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 43613
     mass: 2.0E7
     name: ♦ Bustard
     published: false
     volume: 390000.0
   ♦ Impel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42655
     mass: 1.95E7
     name: ♦ Impel
     published: false
     volume: 400000.0
   ♦ Iteron Mark V:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42658
     mass: 1.35E7
     name: ♦ Iteron Mark V
     published: false
     volume: 275000.0
   ♦ Mammoth:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42660
     mass: 1.15E7
     name: ♦ Mammoth
     published: false
     volume: 255000.0
   ♦ Mastodon:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42661
     mass: 1.92E7
     name: ♦ Mastodon
     published: false
     volume: 385000.0
   ♦ Occator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42659
     mass: 1.9E7
     name: ♦ Occator

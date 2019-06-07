@@ -3,6 +3,7 @@ items:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
     CanFitShipType3: 49711
+    CanFitShipType4: 52252
     CapacitorNeed: 22.100000381469727
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -40,6 +41,7 @@ items:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
     CanFitShipType3: 49711
+    CanFitShipType4: 52252
     CapacitorNeed: 20.399999618530273
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -76,6 +78,7 @@ items:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
     CanFitShipType3: 49711
+    CanFitShipType4: 52252
     CapacitorNeed: 20.399999618530273
     ChargeGroup1: 1987
     ChargeGroup2: 1989
@@ -117,6 +120,7 @@ items:
     CanFitShipType1: 47270
     CanFitShipType2: 48635
     CanFitShipType3: 49711
+    CanFitShipType4: 52252
     CapacitorNeed: 22.100000381469727
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -150,48 +154,12 @@ items:
     name: Heavy Scoped Entropic Disintegrator
     published: true
     volume: 10.0
-  Heavy Veles Entropic Disintegrator:
-    CanFitShipType1: 47270
-    CanFitShipType2: 48635
-    CanFitShipType3: 49711
-    CapacitorNeed: 19.200000762939453
-    ChargeGroup1: 1987
-    ChargeRate: 1
-    ChargeSize: 2
-    Cpu: 140.0
-    DamageMultiplier: 1.2999999523162842
-    DamageMultiplierBonusMax: 1.5
-    DamageMultiplierBonusPerCycle: 0.05000000074505806
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 18000
-    MetaGroupID: 4
-    MetaLevel: 8
-    OptimalSigRadius: 40000
-    OverloadDamageModifier: 15
-    Power: 800
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 47871
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 3
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 5500
-    TechLevel: 1
-    TrackingSpeed: 42.0
-    TypeColorScheme: 11313
-    id: 47919
-    marketGroup: 2434
-    mass: 1000.0
-    name: Heavy Veles Entropic Disintegrator
-    published: true
-    volume: 10.0
   Light Compact Entropic Disintegrator:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
     CanFitShipType3: 49710
+    CanFitShipType4: 52250
+    CanFitShipType5: 52254
     CapacitorNeed: 5.199999809265137
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -229,6 +197,8 @@ items:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
     CanFitShipType3: 49710
+    CanFitShipType4: 52250
+    CanFitShipType5: 52254
     CapacitorNeed: 4.5
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -265,6 +235,8 @@ items:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
     CanFitShipType3: 49710
+    CanFitShipType4: 52250
+    CanFitShipType5: 52254
     CapacitorNeed: 4.5
     ChargeGroup1: 1987
     ChargeGroup2: 1989
@@ -306,6 +278,8 @@ items:
     CanFitShipType1: 47269
     CanFitShipType2: 48636
     CanFitShipType3: 49710
+    CanFitShipType4: 52250
+    CanFitShipType5: 52254
     CapacitorNeed: 5.199999809265137
     ChargeGroup1: 1987
     ChargeRate: 1
@@ -337,44 +311,6 @@ items:
     marketGroup: 2433
     mass: 500.0
     name: Light Scoped Entropic Disintegrator
-    published: true
-    volume: 5.0
-  Light Veles Entropic Disintegrator:
-    CanFitShipType1: 47269
-    CanFitShipType2: 48636
-    CanFitShipType3: 49710
-    CapacitorNeed: 4.0
-    ChargeGroup1: 1987
-    ChargeRate: 1
-    ChargeSize: 1
-    Cpu: 42.0
-    DamageMultiplier: 1.2999999523162842
-    DamageMultiplierBonusMax: 1.5
-    DamageMultiplierBonusPerCycle: 0.05000000074505806
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 7150
-    MetaGroupID: 4
-    MetaLevel: 8
-    OptimalSigRadius: 40000
-    OverloadDamageModifier: 15
-    Power: 27
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 1
-    RequiredSkill2: 47870
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 3500
-    TechLevel: 1
-    TrackingSpeed: 410.0
-    TypeColorScheme: 11313
-    id: 47915
-    marketGroup: 2433
-    mass: 500.0
-    name: Light Veles Entropic Disintegrator
     published: true
     volume: 5.0
   Supratidal Compact Entropic Disintegrator:
@@ -520,10 +456,92 @@ items:
     name: Supratidal Scoped Entropic Disintegrator
     published: true
     volume: 20.0
-  Supratidal Veles Entropic Disintegrator:
+  Veles Heavy Entropic Disintegrator:
+    CanFitShipType1: 47270
+    CanFitShipType2: 48635
+    CanFitShipType3: 49711
+    CanFitShipType4: 52252
+    CapacitorNeed: 19.200000762939453
+    ChargeGroup1: 1987
+    ChargeGroup2: 1989
+    ChargeRate: 1
+    ChargeSize: 2
+    Cpu: 140.0
+    DamageMultiplier: 1.2999999523162842
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.05000000074505806
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.5999999046325684
+    Hp: 40
+    MaxRange: 18000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OptimalSigRadius: 40000
+    OverloadDamageModifier: 15
+    Power: 800
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 47871
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3300
+    RequiredSkill2Level: 3
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5500
+    TechLevel: 1
+    TrackingSpeed: 42.0
+    TypeColorScheme: 11313
+    id: 47919
+    marketGroup: 2434
+    mass: 1000.0
+    name: Veles Heavy Entropic Disintegrator
+    published: true
+    volume: 10.0
+  Veles Light Entropic Disintegrator:
+    CanFitShipType1: 47269
+    CanFitShipType2: 48636
+    CanFitShipType3: 49710
+    CanFitShipType4: 52250
+    CanFitShipType5: 52254
+    CapacitorNeed: 4.0
+    ChargeGroup1: 1987
+    ChargeGroup2: 1989
+    ChargeRate: 1
+    ChargeSize: 1
+    Cpu: 42.0
+    DamageMultiplier: 1.2999999523162842
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.05000000074505806
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.5999999046325684
+    Hp: 40
+    MaxRange: 7150
+    MetaGroupID: 4
+    MetaLevel: 8
+    OptimalSigRadius: 40000
+    OverloadDamageModifier: 15
+    Power: 27
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3300
+    RequiredSkill1Level: 1
+    RequiredSkill2: 47870
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 3500
+    TechLevel: 1
+    TrackingSpeed: 410.0
+    TypeColorScheme: 11313
+    id: 47915
+    marketGroup: 2433
+    mass: 500.0
+    name: Veles Light Entropic Disintegrator
+    published: true
+    volume: 5.0
+  Veles Supratidal Entropic Disintegrator:
     CanFitShipType1: 47271
     CapacitorNeed: 54.0
     ChargeGroup1: 1987
+    ChargeGroup2: 1989
     ChargeRate: 1
     ChargeSize: 3
     Cpu: 270.0
@@ -553,6 +571,124 @@ items:
     id: 47923
     marketGroup: 2435
     mass: 2000.0
-    name: Supratidal Veles Entropic Disintegrator
+    name: Veles Supratidal Entropic Disintegrator
+    published: true
+    volume: 20.0
+  Zorya's Heavy Entropic Disintegrator:
+    CanFitShipType1: 47270
+    CanFitShipType2: 48635
+    CanFitShipType3: 49711
+    CanFitShipType4: 52252
+    CapacitorNeed: 18.0
+    ChargeGroup1: 1987
+    ChargeGroup2: 1989
+    ChargeRate: 1
+    ChargeSize: 2
+    Cpu: 160.0
+    DamageMultiplier: 1.399999976158142
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.05000000074505806
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.5999999046325684
+    Hp: 40
+    MaxRange: 17000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OptimalSigRadius: 40000
+    OverloadDamageModifier: 15
+    Power: 750
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 47871
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3300
+    RequiredSkill2Level: 3
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5500
+    TechLevel: 1
+    TrackingSpeed: 42.0
+    TypeColorScheme: 11313
+    id: 52238
+    marketGroup: 2434
+    mass: 1000.0
+    name: Zorya's Heavy Entropic Disintegrator
+    published: true
+    volume: 10.0
+  Zorya's Light Entropic Disintegrator:
+    CanFitShipType1: 47269
+    CanFitShipType2: 48636
+    CanFitShipType3: 49710
+    CanFitShipType4: 52250
+    CanFitShipType5: 52254
+    CapacitorNeed: 3.799999952316284
+    ChargeGroup1: 1987
+    ChargeGroup2: 1989
+    ChargeRate: 1
+    ChargeSize: 1
+    Cpu: 45.0
+    DamageMultiplier: 1.399999976158142
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.05000000074505806
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.5999999046325684
+    Hp: 40
+    MaxRange: 7000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OptimalSigRadius: 40000
+    OverloadDamageModifier: 15
+    Power: 25
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3300
+    RequiredSkill1Level: 1
+    RequiredSkill2: 47870
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 3500
+    TechLevel: 1
+    TrackingSpeed: 410.0
+    TypeColorScheme: 11313
+    id: 52236
+    marketGroup: 2433
+    mass: 500.0
+    name: Zorya's Light Entropic Disintegrator
+    published: true
+    volume: 5.0
+  Zorya's Supratidal Entropic Disintegrator:
+    CanFitShipType1: 47271
+    CapacitorNeed: 50.0
+    ChargeGroup1: 1987
+    ChargeGroup2: 1989
+    ChargeRate: 1
+    ChargeSize: 3
+    Cpu: 342.0
+    DamageMultiplier: 1.399999976158142
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.05000000074505806
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.5999999046325684
+    Hp: 40
+    MaxRange: 28000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OptimalSigRadius: 40000
+    OverloadDamageModifier: 15
+    Power: 15000
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 47872
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3300
+    RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 8000
+    TechLevel: 1
+    TrackingSpeed: 5.449999809265137
+    TypeColorScheme: 11313
+    id: 52240
+    marketGroup: 2435
+    mass: 2000.0
+    name: Zorya's Supratidal Entropic Disintegrator
     published: true
     volume: 20.0

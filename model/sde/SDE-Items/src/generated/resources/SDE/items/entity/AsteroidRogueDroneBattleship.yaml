@@ -1,119 +1,59 @@
 items:
   Domination Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25648
     mass: 2.1E7
     name: Domination Drone
     published: false
     volume: 1010000.0
   Drone Controller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25650
     mass: 2.1E7
     name: Drone Controller
     published: false
     volume: 1010000.0
   Drone Creator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25651
     mass: 2.1E7
     name: Drone Creator
     published: false
     volume: 1010000.0
   Drone Queen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25652
     mass: 2.1E7
     name: Drone Queen
     published: false
     volume: 1010000.0
   Drone Ruler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25653
     mass: 2.1E7
     name: Drone Ruler
     published: false
     volume: 1010000.0
   Matriarch Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25662
     mass: 2.1E7
     name: Matriarch Drone
     published: false
     volume: 1010000.0
   Patriarch Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25665
     mass: 2.1E7
     name: Patriarch Drone
     published: false
     volume: 1010000.0
   Spearhead Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25675
     mass: 2.1E7
     name: Spearhead Drone
     published: false
     volume: 1010000.0
   Supreme Drone Parasite:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25699
     mass: 2.1E7
     name: Supreme Drone Parasite
     published: false
     volume: 1010000.0
   Swarm Preserver Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25700
     mass: 2.1E7
     name: Swarm Preserver Drone

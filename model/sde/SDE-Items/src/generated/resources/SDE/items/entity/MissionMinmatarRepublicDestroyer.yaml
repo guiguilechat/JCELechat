@@ -1,83 +1,41 @@
 items:
   Minmatar CA Destroyer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 45468
     mass: 1645000.0
     name: Minmatar CA Destroyer
     published: false
     volume: 16450.0
   Republic Austri:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24798
     mass: 1645000.0
     name: Republic Austri
     published: false
     volume: 16450.0
   Republic Bormin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24799
     mass: 1645000.0
     name: Republic Bormin
     published: false
     volume: 16450.0
   Republic Faxi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24797
     mass: 1645000.0
     name: Republic Faxi
     published: false
     volume: 16450.0
   Republic Tribal Austri:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24810
     mass: 1645000.0
     name: Republic Tribal Austri
     published: false
     volume: 16450.0
   Republic Tribal Bormin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24805
     mass: 1645000.0
     name: Republic Tribal Bormin
     published: false
     volume: 16450.0
   Republic Tribal Faxi:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24801
     mass: 1645000.0
     name: Republic Tribal Faxi

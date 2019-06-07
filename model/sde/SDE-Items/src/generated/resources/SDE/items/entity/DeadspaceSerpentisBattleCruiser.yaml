@@ -1,143 +1,71 @@
 items:
   Corelatis Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24026
     mass: 1.12E7
     name: Corelatis Captain
     published: false
     volume: 112000.0
   Corelatis Captain Sentry:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24027
     mass: 1.12E7
     name: Corelatis Captain Sentry
     published: false
     volume: 112000.0
   Corelatis High Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24028
     mass: 1.12E7
     name: Corelatis High Captain
     published: false
     volume: 112000.0
   Corelatis Platoon Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24025
     mass: 1.12E7
     name: Corelatis Platoon Leader
     published: false
     volume: 112000.0
   Corelatis Squad Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24024
     mass: 1.12E7
     name: Corelatis Squad Leader
     published: false
     volume: 112000.0
   Corelatis Wing Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24003
     mass: 1.12E7
     name: Corelatis Wing Leader
     published: false
     volume: 112000.0
   Shadow Corelatis Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24202
     mass: 1.12E7
     name: Shadow Corelatis Captain
     published: false
     volume: 112000.0
   Shadow Corelatis Captain Sentry:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24203
     mass: 1.12E7
     name: Shadow Corelatis Captain Sentry
     published: false
     volume: 112000.0
   Shadow Corelatis High Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24204
     mass: 1.12E7
     name: Shadow Corelatis High Captain
     published: false
     volume: 112000.0
   Shadow Corelatis Platoon Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24201
     mass: 1.12E7
     name: Shadow Corelatis Platoon Leader
     published: false
     volume: 112000.0
   Shadow Corelatis Squad Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24200
     mass: 1.12E7
     name: Shadow Corelatis Squad Leader
     published: false
     volume: 112000.0
   Shadow Corelatis Wing Leader:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24199
     mass: 1.12E7
     name: Shadow Corelatis Wing Leader

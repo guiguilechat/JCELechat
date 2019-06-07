@@ -1,167 +1,83 @@
 items:
   Corelior Artillery:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23998
     mass: 2650000.0
     name: Corelior Artillery
     published: false
     volume: 26500.0
   Corelior Cannoneer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23997
     mass: 2650000.0
     name: Corelior Cannoneer
     published: false
     volume: 26500.0
   Corelior Infantry:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23995
     mass: 2650000.0
     name: Corelior Infantry
     published: false
     volume: 26500.0
   Corelior Sentinel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23996
     mass: 2650000.0
     name: Corelior Sentinel
     published: false
     volume: 26500.0
   Corelior Soldier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23994
     mass: 2650000.0
     name: Corelior Soldier
     published: false
     volume: 26500.0
   Corelior Trooper:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23973
     mass: 2650000.0
     name: Corelior Trooper
     published: false
     volume: 26500.0
   Locced's Destroyer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2128
     mass: 2650000.0
     name: Locced's Destroyer
     published: false
     volume: 26500.0
   Phenod's Broke-Ass Destroyer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 2098
     mass: 2650000.0
     name: Phenod's Broke-Ass Destroyer
     published: false
     volume: 26500.0
   Shadow Corelior Artillery:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24210
     mass: 2650000.0
     name: Shadow Corelior Artillery
     published: false
     volume: 26500.0
   Shadow Corelior Cannoneer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24209
     mass: 2650000.0
     name: Shadow Corelior Cannoneer
     published: false
     volume: 26500.0
   Shadow Corelior Infantry:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24207
     mass: 2650000.0
     name: Shadow Corelior Infantry
     published: false
     volume: 26500.0
   Shadow Corelior Sentinel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24208
     mass: 2650000.0
     name: Shadow Corelior Sentinel
     published: false
     volume: 26500.0
   Shadow Corelior Soldier:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24206
     mass: 2650000.0
     name: Shadow Corelior Soldier
     published: false
     volume: 26500.0
   Shadow Corelior Trooper:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24205
     mass: 2650000.0
     name: Shadow Corelior Trooper

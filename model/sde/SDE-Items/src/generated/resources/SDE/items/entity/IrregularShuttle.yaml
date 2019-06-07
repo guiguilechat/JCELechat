@@ -1,11 +1,5 @@
 items:
   Official Federation Grand Prix Passenger Yacht:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48128
     mass: 1.3075E7
     name: Official Federation Grand Prix Passenger Yacht

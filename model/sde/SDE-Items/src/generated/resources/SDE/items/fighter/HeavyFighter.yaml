@@ -6,8 +6,8 @@ items:
     FighterAbilityAttackMissileDamageEM: 253
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
-    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 8000
     FighterAbilityAttackMissileRangeOptimal: 34000
     FighterAbilityAttackMissileReductionFactor: 5.0
@@ -59,8 +59,8 @@ items:
     FighterAbilityAttackMissileDamageEM: 279
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
-    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 8000
     FighterAbilityAttackMissileRangeOptimal: 40800
     FighterAbilityAttackMissileReductionFactor: 5.0
@@ -113,8 +113,8 @@ items:
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 293
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
-    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 30000
     FighterAbilityAttackMissileReductionFactor: 5.0
@@ -166,8 +166,8 @@ items:
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDamageTherm: 323
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
-    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 36000
     FighterAbilityAttackMissileReductionFactor: 5.0
@@ -342,8 +342,8 @@ items:
     FighterAbilityAttackMissileDamageExp: 239
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
-    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 16000
     FighterAbilityAttackMissileRangeOptimal: 26000
     FighterAbilityAttackMissileReductionFactor: 5.0
@@ -395,8 +395,8 @@ items:
     FighterAbilityAttackMissileDamageExp: 265
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
-    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 16000
     FighterAbilityAttackMissileRangeOptimal: 31200
     FighterAbilityAttackMissileReductionFactor: 5.0
@@ -1672,8 +1672,8 @@ items:
     FighterAbilityAttackMissileDamageKin: 279
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
-    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 30000
     FighterAbilityAttackMissileReductionFactor: 5.0
@@ -1725,8 +1725,8 @@ items:
     FighterAbilityAttackMissileDamageKin: 309
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
-    FighterAbilityAttackMissileExplosionRadius: 330
-    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileExplosionRadius: 380
+    FighterAbilityAttackMissileExplosionVelocity: 80
     FighterAbilityAttackMissileRangeFalloff: 12000
     FighterAbilityAttackMissileRangeOptimal: 36000
     FighterAbilityAttackMissileReductionFactor: 5.0

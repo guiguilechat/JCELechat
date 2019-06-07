@@ -1,167 +1,83 @@
 items:
   Alvus Controller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10299
     mass: 2.1E7
     name: Alvus Controller
     published: false
     volume: 1010000.0
   Alvus Creator:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23502
     mass: 2.1E7
     name: Alvus Creator
     published: false
     volume: 1010000.0
   Alvus Queen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23505
     mass: 2.1E7
     name: Alvus Queen
     published: false
     volume: 1010000.0
   Alvus Ruler:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23501
     mass: 2.1E7
     name: Alvus Ruler
     published: false
     volume: 1010000.0
   Anti-Stabilizer Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25379
     mass: 2.1E7
     name: Anti-Stabilizer Drone
     published: false
     volume: 1010000.0
   Domination Alvus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23499
     mass: 2.1E7
     name: Domination Alvus
     published: false
     volume: 1010000.0
   Drone Battleship Boss lvl5:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 28136
     mass: 2.1E7
     name: Drone Battleship Boss lvl5
     published: false
     volume: 1010000.0
   Elite Drone Parasite:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 21814
     mass: 2.1E7
     name: Elite Drone Parasite
     published: false
     volume: 1010000.0
   Matriarch Alvus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23504
     mass: 2.1E7
     name: Matriarch Alvus
     published: false
     volume: 1010000.0
   Patriarch Alvus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23503
     mass: 2.1E7
     name: Patriarch Alvus
     published: false
     volume: 1010000.0
   Spearhead Alvus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23498
     mass: 2.1E7
     name: Spearhead Alvus
     published: false
     volume: 1010000.0
   Supreme Alvus Parasite:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23500
     mass: 2.1E7
     name: Supreme Alvus Parasite
     published: false
     volume: 1010000.0
   Swarm Overmind Primus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 45638
     mass: 2.1E7
     name: Swarm Overmind Primus
     published: false
     volume: 1010000.0
   Swarm Preserver Alvus:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23497
     mass: 2.1E7
     name: Swarm Preserver Alvus

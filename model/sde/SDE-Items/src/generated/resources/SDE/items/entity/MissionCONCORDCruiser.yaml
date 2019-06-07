@@ -1,71 +1,35 @@
 items:
   DED Captain:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16114
     mass: 1.2155E7
     name: DED Captain
     published: false
     volume: 101000.0
   DED Officer 1st Class:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16112
     mass: 1.2155E7
     name: DED Officer 1st Class
     published: false
     volume: 101000.0
   DED Officer 1st Class Vessel:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 33805
     mass: 1.2155E7
     name: DED Officer 1st Class Vessel
     published: false
     volume: 101000.0
   DED Officer 2nd Class:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16111
     mass: 1.2155E7
     name: DED Officer 2nd Class
     published: false
     volume: 101000.0
   DED Officer 3rd Class:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16110
     mass: 1.2155E7
     name: DED Officer 3rd Class
     published: false
     volume: 101000.0
   DED Special Ops Raptor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 16115
     mass: 1.01E7
     name: DED Special Ops Raptor

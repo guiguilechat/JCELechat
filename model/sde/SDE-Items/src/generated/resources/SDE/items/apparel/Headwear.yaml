@@ -119,6 +119,14 @@ items:
     name: Men's Cap (Blood Raiders)
     published: true
     volume: 0.1
+  Men's Capsuleer Day XVI Cap:
+    Gender: 2
+    id: 52202
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Capsuleer Day XVI Cap
+    published: true
+    volume: 0.1
   Men's Capsuleer Elite XV Cap:
     Gender: 2
     id: 47191
@@ -148,6 +156,14 @@ items:
     id: 42710
     marketGroup: 1943
     name: Men's Federation Grand Prix 'Pit Stop' Cap
+    published: true
+    volume: 0.1
+  Men's Permaband Tour Cap:
+    Gender: 2
+    id: 50133
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Permaband Tour Cap
     published: true
     volume: 0.1
   Men's YC119 Yoiul Festival Cap:
@@ -353,6 +369,14 @@ items:
     name: Women's Cap (Blood Raiders)
     published: true
     volume: 0.1
+  Women's Capsuleer Day XVI Cap:
+    Gender: 2
+    id: 52201
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Capsuleer Day XVI Cap
+    published: true
+    volume: 0.1
   Women's Capsuleer Elite XV Cap:
     Gender: 2
     id: 47193
@@ -382,6 +406,14 @@ items:
     id: 42745
     marketGroup: 1943
     name: Women's Federation Grand Prix 'Pit Stop' Cap
+    published: true
+    volume: 0.1
+  Women's Permaband Tour Cap:
+    Gender: 2
+    id: 50132
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Permaband Tour Cap
     published: true
     volume: 0.1
   Women's YC119 Yoiul Festival Cap:

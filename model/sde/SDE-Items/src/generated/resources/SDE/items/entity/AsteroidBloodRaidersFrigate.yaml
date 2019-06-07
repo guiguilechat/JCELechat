@@ -1,311 +1,155 @@
 items:
   Blood Collector:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10279
     mass: 2810000.0
     name: Blood Collector
     published: false
     volume: 28100.0
   Blood Diviner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11041
     mass: 2860000.0
     name: Blood Diviner
     published: false
     volume: 28600.0
   Blood Engraver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11042
     mass: 2860000.0
     name: Blood Engraver
     published: false
     volume: 28600.0
   Blood Follower:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10275
     mass: 2810000.0
     name: Blood Follower
     published: false
     volume: 28100.0
   Blood Herald:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10276
     mass: 2810000.0
     name: Blood Herald
     published: false
     volume: 28100.0
   Blood Raider:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11040
     mass: 2870000.0
     name: Blood Raider
     published: false
     volume: 28700.0
   Blood Reaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10280
     mass: 2870000.0
     name: Blood Reaver
     published: false
     volume: 28700.0
   Blood Seeker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10278
     mass: 2810000.0
     name: Blood Seeker
     published: false
     volume: 28100.0
   Blood Upholder:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 10277
     mass: 2810000.0
     name: Blood Upholder
     published: false
     volume: 28100.0
   Blood Worshipper:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 11039
     mass: 2820000.0
     name: Blood Worshipper
     published: false
     volume: 24398.0
   Elder Blood Collector:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23260
     mass: 2810000.0
     name: Elder Blood Collector
     published: false
     volume: 28100.0
   Elder Blood Diviner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23262
     mass: 2860000.0
     name: Elder Blood Diviner
     published: false
     volume: 28600.0
   Elder Blood Engraver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23264
     mass: 2860000.0
     name: Elder Blood Engraver
     published: false
     volume: 28600.0
   Elder Blood Follower:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13039
     mass: 2870000.0
     name: Elder Blood Follower
     published: false
     volume: 28700.0
   Elder Blood Herald:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13040
     mass: 2870000.0
     name: Elder Blood Herald
     published: false
     volume: 28700.0
   Elder Blood Raider:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23261
     mass: 2860000.0
     name: Elder Blood Raider
     published: false
     volume: 28600.0
   Elder Blood Reaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23263
     mass: 2860000.0
     name: Elder Blood Reaver
     published: false
     volume: 28600.0
   Elder Blood Seeker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 23259
     mass: 2810000.0
     name: Elder Blood Seeker
     published: false
     volume: 28100.0
   Elder Blood Upholder:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13037
     mass: 2860000.0
     name: Elder Blood Upholder
     published: false
     volume: 28600.0
   Elder Blood Worshipper:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13038
     mass: 2860000.0
     name: Elder Blood Worshipper
     published: false
     volume: 28600.0
   Warrior Collector:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24385
     mass: 2810000.0
     name: Warrior Collector
     published: false
     volume: 28100.0
   Warrior Diviner:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24387
     mass: 2860000.0
     name: Warrior Diviner
     published: false
     volume: 28600.0
   Warrior Engraver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24389
     mass: 2860000.0
     name: Warrior Engraver
     published: false
     volume: 28600.0
   Warrior Raider:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24386
     mass: 2870000.0
     name: Warrior Raider
     published: false
     volume: 28700.0
   Warrior Reaver:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24388
     mass: 2870000.0
     name: Warrior Reaver
     published: false
     volume: 28700.0
   Warrior Seeker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24407
     mass: 2810000.0
     name: Warrior Seeker

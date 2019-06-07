@@ -327,6 +327,12 @@ items:
     name: Algos Spirit SKIN (Permanent)
     published: true
     volume: 0.01
+  Algos Triglavian Twilight SKIN (Permanent):
+    id: 52398
+    marketGroup: 1996
+    name: Algos Triglavian Twilight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Algos Valimor Legacy SKIN (Permanent):
     id: 37560
     marketGroup: 1996
@@ -602,6 +608,12 @@ items:
     name: Apocalypse Tash-Murkon Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Apocalypse Triglavian Twilight SKIN (Permanent):
+    id: 52392
+    marketGroup: 1964
+    name: Apocalypse Triglavian Twilight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Apostle Capsuleer Elite XV SKIN (Permanent):
     id: 47640
     marketGroup: 2278
@@ -656,6 +668,12 @@ items:
     name: Apostle Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Apotheosis Capsuleer Day XVI SKIN (Permanent):
+    id: 52281
+    marketGroup: 2316
+    name: Apotheosis Capsuleer Day XVI SKIN (Permanent)
+    published: true
+    volume: 0.01
   Apotheosis Capsuleer Elite XV SKIN (Permanent):
     id: 47647
     marketGroup: 2316
@@ -698,10 +716,10 @@ items:
     name: Apotheosis Silver Racer SKIN (Permanent)
     published: true
     volume: 0.01
-  Apotheosis Versus Blueforce  SKIN (Permanent):
+  Apotheosis Versus Blueforce SKIN (Permanent):
     id: 47547
     marketGroup: 2316
-    name: Apotheosis Versus Blueforce  SKIN (Permanent)
+    name: Apotheosis Versus Blueforce SKIN (Permanent)
     published: true
     volume: 0.01
   Apotheosis Versus Redforce SKIN (Permanent):
@@ -819,6 +837,12 @@ items:
     id: 37500
     marketGroup: 1990
     name: Arbitrator Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Arbitrator Triglavian Twilight SKIN (Permanent):
+    id: 52407
+    marketGroup: 1964
+    name: Arbitrator Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Archon Cold Iron SKIN (Permanent):
@@ -2213,6 +2237,12 @@ items:
     name: Brutix Navy Issue Kopis Edge SKIN (Permanent)
     published: true
     volume: 0.01
+  Brutix Navy Issue Police SKIN (Permanent):
+    id: 52437
+    marketGroup: 2103
+    name: Brutix Navy Issue Police SKIN (Permanent)
+    published: true
+    volume: 0.01
   Brutix Navy Issue Sapphire Sungrazer SKIN (Permanent):
     id: 45025
     marketGroup: 2103
@@ -2223,6 +2253,12 @@ items:
     id: 44928
     marketGroup: 2103
     name: Brutix Navy Issue Spirit SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Brutix Police SKIN (Permanent):
+    id: 52436
+    marketGroup: 1958
+    name: Brutix Police SKIN (Permanent)
     published: true
     volume: 0.01
   Brutix Roden SKIN (Permanent):
@@ -2246,6 +2282,12 @@ items:
     id: 44923
     marketGroup: 1958
     name: Brutix Spirit SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Brutix Triglavian Twilight SKIN (Permanent):
+    id: 52397
+    marketGroup: 1958
+    name: Brutix Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Brutix Valimor Legacy SKIN (Permanent):
@@ -2597,6 +2639,12 @@ items:
     id: 46111
     marketGroup: 1991
     name: Caracal Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Caracal Triglavian Twilight SKIN (Permanent):
+    id: 52399
+    marketGroup: 1991
+    name: Caracal Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Caracal Wiyrkomi SKIN (Permanent):
@@ -3196,6 +3244,12 @@ items:
     name: Coercer Sarum Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Coercer Triglavian Twilight SKIN (Permanent):
+    id: 52394
+    marketGroup: 1994
+    name: Coercer Triglavian Twilight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Condor Blue Tiger SKIN (Permanent):
     id: 36706
     marketGroup: 2003
@@ -3414,6 +3468,12 @@ items:
     id: 46106
     marketGroup: 1995
     name: Cormorant Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Cormorant Triglavian Twilight SKIN (Permanent):
+    id: 52402
+    marketGroup: 1995
+    name: Cormorant Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Cormorant Wiyrkomi SKIN (Permanent):
@@ -3931,6 +3991,12 @@ items:
     name: Damavik Blackfire Steel SKIN (Permanent)
     published: true
     volume: 0.01
+  Damavik Deadspace Dreamtime SKIN (Permanent):
+    id: 52417
+    marketGroup: 2486
+    name: Damavik Deadspace Dreamtime SKIN (Permanent)
+    published: true
+    volume: 0.01
   Damavik Hadean Horror SKIN (Permanent):
     id: 48653
     marketGroup: 2486
@@ -3942,10 +4008,22 @@ items:
     name: Damavik Hadean Horror Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Damavik Metamateria Exotica SKIN (Permanent):
+    id: 50139
+    marketGroup: 2486
+    name: Damavik Metamateria Exotica SKIN (Permanent)
+    published: true
+    volume: 0.01
   Damavik Singularity Storm SKIN (Permanent):
     id: 48649
     marketGroup: 2486
     name: Damavik Singularity Storm SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Damavik Trig Beat 04 SKIN (Permanent):
+    id: 52442
+    marketGroup: 2486
+    name: Damavik Trig Beat 04 SKIN (Permanent)
     published: true
     volume: 0.01
   Damavik Triglavian Victory SKIN (Permanent):
@@ -4066,6 +4144,12 @@ items:
     id: 40320
     marketGroup: 2137
     name: Deacon Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Deimos Caille Neon SKIN (Permanent):
+    id: 50147
+    marketGroup: 2071
+    name: Deimos Caille Neon SKIN (Permanent)
     published: true
     volume: 0.01
   Deimos Eros Blossom SKIN (Permanent):
@@ -4402,6 +4486,12 @@ items:
     name: Dragoon Tash-Murkon Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Drake Argyros Elite XVI SKIN (Permanent):
+    id: 52285
+    marketGroup: 1957
+    name: Drake Argyros Elite XVI SKIN (Permanent)
+    published: true
+    volume: 0.01
   Drake Blue Tiger SKIN (Permanent):
     id: 36731
     marketGroup: 1957
@@ -4539,6 +4629,12 @@ items:
     name: Drake Steel Cardinal SKIN (Permanent)
     published: true
     volume: 0.01
+  Drake Triglavian Twilight SKIN (Permanent):
+    id: 52401
+    marketGroup: 1957
+    name: Drake Triglavian Twilight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Drake Wiyrkomi SKIN (Permanent):
     id: 36360
     name: Drake Wiyrkomi SKIN (Permanent)
@@ -4574,16 +4670,39 @@ items:
     name: Dramiel Spirit SKIN (Permanent)
     published: true
     volume: 0.01
+  Draugur Singularity Storm SKIN (Permanent):
+    id: 52352
+    name: Draugur Singularity Storm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Drekavac Blackfire Steel SKIN (Permanent):
     id: 49927
     marketGroup: 2519
     name: Drekavac Blackfire Steel SKIN (Permanent)
     published: true
     volume: 0.01
+  Drekavac Deadspace Dreamtime SKIN (Permanent):
+    id: 52419
+    marketGroup: 2519
+    name: Drekavac Deadspace Dreamtime SKIN (Permanent)
+    published: true
+    volume: 0.01
   Drekavac Hadean Horror SKIN (Permanent):
     id: 49936
     marketGroup: 2519
     name: Drekavac Hadean Horror SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Drekavac Metamateria Exotica SKIN (Permanent):
+    id: 50144
+    marketGroup: 2519
+    name: Drekavac Metamateria Exotica SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Drekavac Trig Beat 04 SKIN (Permanent):
+    id: 52444
+    marketGroup: 2519
+    name: Drekavac Trig Beat 04 SKIN (Permanent)
     published: true
     volume: 0.01
   Eagle Blue Tiger SKIN (Permanent):
@@ -4922,6 +5041,12 @@ items:
     name: Epithal Valimor Legacy SKIN (Permanent)
     published: true
     volume: 0.01
+  Erebus Caille Neon SKIN (Permanent):
+    id: 50152
+    marketGroup: 1979
+    name: Erebus Caille Neon SKIN (Permanent)
+    published: true
+    volume: 0.01
   Erebus Capsuleer Elite XV SKIN (Permanent):
     id: 47643
     marketGroup: 1979
@@ -4990,6 +5115,12 @@ items:
     id: 46433
     marketGroup: 1979
     name: Erebus Kopis Edge SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Erebus Police SKIN (Permanent):
+    id: 52440
+    marketGroup: 1979
+    name: Erebus Police SKIN (Permanent)
     published: true
     volume: 0.01
   Erebus Ruby Sungrazer SKIN (Permanent):
@@ -5577,6 +5708,12 @@ items:
     name: Gila Deathglow Hunters SKIN (Permanent)
     published: true
     volume: 0.01
+  Gila Emperor Bear SKIN (Permanent):
+    id: 52302
+    marketGroup: 2030
+    name: Gila Emperor Bear SKIN (Permanent)
+    published: true
+    volume: 0.01
   Gila Glacial Drift SKIN (Permanent):
     id: 46874
     marketGroup: 2030
@@ -5609,6 +5746,12 @@ items:
     id: 48817
     marketGroup: 2030
     name: Gila Storm Bear SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Gnosis Capsuleer Day XVI SKIN (Permanent):
+    id: 52280
+    marketGroup: 2312
+    name: Gnosis Capsuleer Day XVI SKIN (Permanent)
     published: true
     volume: 0.01
   Gnosis Capsuleer Elite XV SKIN (Permanent):
@@ -5653,10 +5796,10 @@ items:
     name: Gnosis Silver Racer SKIN (Permanent)
     published: true
     volume: 0.01
-  Gnosis Versus Blueforce  SKIN (Permanent):
+  Gnosis Versus Blueforce SKIN (Permanent):
     id: 47549
     marketGroup: 2312
-    name: Gnosis Versus Blueforce  SKIN (Permanent)
+    name: Gnosis Versus Blueforce SKIN (Permanent)
     published: true
     volume: 0.01
   Gnosis Versus Redforce SKIN (Permanent):
@@ -6154,6 +6297,12 @@ items:
     name: Hawk Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Hecate Caille Neon SKIN (Permanent):
+    id: 50146
+    marketGroup: 2356
+    name: Hecate Caille Neon SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hecate Exoplanets Hunter SKIN (Permanent):
     id: 45891
     marketGroup: 2356
@@ -6254,6 +6403,12 @@ items:
     id: 47508
     marketGroup: 1977
     name: Hel Hunter's Quiver SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hel In Rust We Trust SKIN (Permanent):
+    id: 52434
+    marketGroup: 1977
+    name: Hel In Rust We Trust SKIN (Permanent)
     published: true
     volume: 0.01
   Hel Justice SKIN (Permanent):
@@ -6745,6 +6900,12 @@ items:
     name: Hurricane Fleet Issue IGC SKIN (Permanent)
     published: true
     volume: 0.01
+  Hurricane Fleet Issue In Rust We Trust SKIN (Permanent):
+    id: 52430
+    marketGroup: 2103
+    name: Hurricane Fleet Issue In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hurricane Fleet Issue Justice SKIN (Permanent):
     id: 36458
     marketGroup: 2103
@@ -6775,6 +6936,12 @@ items:
     name: Hurricane IGC SKIN (Permanent)
     published: true
     volume: 0.01
+  Hurricane In Rust We Trust SKIN (Permanent):
+    id: 52429
+    marketGroup: 1959
+    name: Hurricane In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hurricane Justice SKIN (Permanent):
     id: 36453
     name: Hurricane Justice SKIN (Permanent)
@@ -6801,6 +6968,12 @@ items:
     id: 47318
     marketGroup: 1959
     name: Hurricane Spirit SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hurricane Triglavian Twilight SKIN (Permanent):
+    id: 52405
+    marketGroup: 1959
+    name: Hurricane Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Hurricane Tronhadar Ink SKIN (Permanent):
@@ -6915,6 +7088,12 @@ items:
     name: Hyperion Kopis Edge SKIN (Permanent)
     published: true
     volume: 0.01
+  Hyperion Police SKIN (Permanent):
+    id: 52438
+    marketGroup: 1966
+    name: Hyperion Police SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hyperion Quafe SKIN (Permanent):
     id: 37056
     marketGroup: 1966
@@ -6955,6 +7134,11 @@ items:
     id: 44147
     marketGroup: 2353
     name: Ibis Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Ikitursa Singularity Storm SKIN (Permanent):
+    id: 52353
+    name: Ikitursa Singularity Storm SKIN (Permanent)
     published: true
     volume: 0.01
   Imicus Exoplanets Hunter SKIN (Permanent):
@@ -7334,6 +7518,12 @@ items:
     name: Ishtar "Blaze" Squadron SKIN (Permanent)
     published: true
     volume: 0.01
+  Ishtar Caille Neon SKIN (Permanent):
+    id: 50148
+    marketGroup: 2071
+    name: Ishtar Caille Neon SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ishtar Capsuleer Day XV SKIN (Permanent):
     id: 47632
     marketGroup: 2071
@@ -7569,6 +7759,12 @@ items:
     name: Jaguar Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Jaguar In Rust We Trust SKIN (Permanent):
+    id: 52423
+    marketGroup: 2050
+    name: Jaguar In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
   Jaguar Justice SKIN (Permanent):
     id: 36429
     marketGroup: 2050
@@ -7694,6 +7890,24 @@ items:
     name: Kikimora Hadean Horror SKIN (Permanent)
     published: true
     volume: 0.01
+  Kikimora Metamateria Exotica SKIN (Permanent):
+    id: 50140
+    marketGroup: 2521
+    name: Kikimora Metamateria Exotica SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Kikimora Netherworld Striker SKIN (Permanent):
+    id: 50158
+    marketGroup: 2521
+    name: Kikimora Netherworld Striker SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Kikimora Red Meatgrinder SKIN (Permanent):
+    id: 52321
+    marketGroup: 2521
+    name: Kikimora Red Meatgrinder SKIN (Permanent)
+    published: true
+    volume: 0.01
   Kirin Blue Tiger SKIN (Permanent):
     id: 40321
     marketGroup: 2138
@@ -7782,6 +7996,12 @@ items:
     id: 46878
     marketGroup: 2383
     name: Komodo Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Kronos Caille Neon SKIN (Permanent):
+    id: 50149
+    marketGroup: 2026
+    name: Kronos Caille Neon SKIN (Permanent)
     published: true
     volume: 0.01
   Kronos Exoplanets Hunter SKIN (Permanent):
@@ -7983,6 +8203,24 @@ items:
     name: Leshak Hadean Horror Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Leshak Metamateria Exotica SKIN (Permanent):
+    id: 50145
+    marketGroup: 2482
+    name: Leshak Metamateria Exotica SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Leshak Netherworld Striker SKIN (Permanent):
+    id: 50156
+    marketGroup: 2482
+    name: Leshak Netherworld Striker SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Leshak Red Meatgrinder SKIN (Permanent):
+    id: 52323
+    marketGroup: 2482
+    name: Leshak Red Meatgrinder SKIN (Permanent)
+    published: true
+    volume: 0.01
   Leshak Singularity Storm SKIN (Permanent):
     id: 48651
     marketGroup: 2482
@@ -8131,6 +8369,12 @@ items:
     id: 46901
     marketGroup: 2373
     name: Loki Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Loki In Rust We Trust SKIN (Permanent):
+    id: 52428
+    marketGroup: 2373
+    name: Loki In Rust We Trust SKIN (Permanent)
     published: true
     volume: 0.01
   Machariel Amaranthine Mantle SKIN (Permanent):
@@ -9020,6 +9264,12 @@ items:
     name: Megathron Spirit SKIN (Permanent)
     published: true
     volume: 0.01
+  Megathron Triglavian Twilight SKIN (Permanent):
+    id: 52396
+    marketGroup: 1966
+    name: Megathron Triglavian Twilight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Megathron Valimor Legacy SKIN (Permanent):
     id: 37580
     marketGroup: 1966
@@ -9439,6 +9689,12 @@ items:
     name: Muninn Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Muninn In Rust We Trust SKIN (Permanent):
+    id: 52427
+    marketGroup: 2072
+    name: Muninn In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
   Muninn Justice SKIN (Permanent):
     id: 36435
     marketGroup: 2072
@@ -9455,6 +9711,12 @@ items:
     id: 36771
     marketGroup: 2072
     name: Muninn Valklear Glory SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Myrmidon Argyros Elite XVI SKIN (Permanent):
+    id: 52283
+    marketGroup: 1958
+    name: Myrmidon Argyros Elite XVI SKIN (Permanent)
     published: true
     volume: 0.01
   Myrmidon Capsuleer Day XV SKIN (Permanent):
@@ -9639,6 +9901,12 @@ items:
     name: Naglfar Hazard Control SKIN (Permanent)
     published: true
     volume: 0.01
+  Naglfar In Rust We Trust SKIN (Permanent):
+    id: 52433
+    marketGroup: 1983
+    name: Naglfar In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
   Naglfar Justice SKIN (Permanent):
     id: 34665
     marketGroup: 1983
@@ -9713,6 +9981,12 @@ items:
     id: 37551
     marketGroup: 2004
     name: Navitas Valimor Legacy SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Nemesis Caille Neon SKIN (Permanent):
+    id: 50153
+    marketGroup: 2053
+    name: Nemesis Caille Neon SKIN (Permanent)
     published: true
     volume: 0.01
   Nemesis Exoplanets Hunter SKIN (Permanent):
@@ -9802,6 +10076,11 @@ items:
     id: 37591
     marketGroup: 2009
     name: Nereus Valimor Legacy SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Nergal Singularity Storm SKIN (Permanent):
+    id: 52351
+    name: Nergal Singularity Storm SKIN (Permanent)
     published: true
     volume: 0.01
   Nestor Crystal Blast SKIN (Permanent):
@@ -10041,6 +10320,12 @@ items:
     name: Ninazu Kopis Edge SKIN (Permanent)
     published: true
     volume: 0.01
+  Ninazu Police SKIN (Permanent):
+    id: 52439
+    marketGroup: 2280
+    name: Ninazu Police SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ninazu Valimor Legacy SKIN (Permanent):
     id: 41684
     marketGroup: 2280
@@ -10099,6 +10384,12 @@ items:
     id: 36797
     marketGroup: 2098
     name: Nomad Valklear Glory SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Nyx Caille Neon SKIN (Permanent):
+    id: 50151
+    marketGroup: 1976
+    name: Nyx Caille Neon SKIN (Permanent)
     published: true
     volume: 0.01
   Nyx Dos Rouvenor's Bequest SKIN (Permanent):
@@ -10588,6 +10879,12 @@ items:
     id: 47101
     marketGroup: 1956
     name: Oracle "Blaze" Squadron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Oracle Argyros Elite XVI SKIN (Permanent):
+    id: 52282
+    marketGroup: 1956
+    name: Oracle Argyros Elite XVI SKIN (Permanent)
     published: true
     volume: 0.01
   Oracle Capsuleer Day XV SKIN (Permanent):
@@ -11417,6 +11714,12 @@ items:
     name: Porpoise Sansha Industrial Livery SKIN (Permanent)
     published: true
     volume: 0.01
+  Praxis Capsuleer Day XVI SKIN (Permanent):
+    id: 52278
+    marketGroup: 2421
+    name: Praxis Capsuleer Day XVI SKIN (Permanent)
+    published: true
+    volume: 0.01
   Praxis Capsuleer Elite XV SKIN (Permanent):
     id: 47650
     marketGroup: 2421
@@ -11681,6 +11984,12 @@ items:
   Prophecy Tash-Murkon Serenity Only SKIN (Permanent):
     id: 37953
     name: Prophecy Tash-Murkon Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Prophecy Triglavian Twilight SKIN (Permanent):
+    id: 52393
+    marketGroup: 1956
+    name: Prophecy Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Prorator Cold Iron SKIN (Permanent):
@@ -12925,10 +13234,28 @@ items:
     name: Rodiva Blackfire Steel SKIN (Permanent)
     published: true
     volume: 0.01
+  Rodiva Deadspace Dreamtime SKIN (Permanent):
+    id: 52418
+    marketGroup: 2485
+    name: Rodiva Deadspace Dreamtime SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rodiva Hadean Horror SKIN (Permanent):
     id: 49934
     marketGroup: 2485
     name: Rodiva Hadean Horror SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rodiva Metamateria Exotica SKIN (Permanent):
+    id: 50142
+    marketGroup: 2485
+    name: Rodiva Metamateria Exotica SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rodiva Trig Beat 04 SKIN (Permanent):
+    id: 52443
+    marketGroup: 2485
+    name: Rodiva Trig Beat 04 SKIN (Permanent)
     published: true
     volume: 0.01
   Rokh Blue Tiger SKIN (Permanent):
@@ -12976,6 +13303,12 @@ items:
   Rokh Nugoeihuvi Serenity Only SKIN (Permanent):
     id: 37109
     name: Rokh Nugoeihuvi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rokh Permaband - Wrecking Machine SKIN (Permanent):
+    id: 52286
+    marketGroup: 1965
+    name: Rokh Permaband - Wrecking Machine SKIN (Permanent)
     published: true
     volume: 0.01
   Rokh Raata Sunset SKIN (Permanent):
@@ -13299,10 +13632,22 @@ items:
     name: Sabre Hazard Control SKIN (Permanent)
     published: true
     volume: 0.01
+  Sabre In Rust We Trust SKIN (Permanent):
+    id: 52425
+    marketGroup: 2041
+    name: Sabre In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
   Sabre Justice SKIN (Permanent):
     id: 36447
     marketGroup: 2041
     name: Sabre Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sabre Permaband - Warp to the Dance Floor SKIN (Permanent):
+    id: 52287
+    marketGroup: 2041
+    name: Sabre Permaband - Warp to the Dance Floor SKIN (Permanent)
     published: true
     volume: 0.01
   Sabre Tronhadar Ink SKIN (Permanent):
@@ -13536,6 +13881,12 @@ items:
     id: 46131
     marketGroup: 1965
     name: Scorpion Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Scorpion Triglavian Twilight SKIN (Permanent):
+    id: 52400
+    marketGroup: 1965
+    name: Scorpion Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Scorpion Valkyrie SKIN (Permanent):
@@ -13995,6 +14346,12 @@ items:
     name: Sleipnir Blue Tiger SKIN (Permanent)
     published: true
     volume: 0.01
+  Sleipnir Emperor Bear SKIN (Permanent):
+    id: 52304
+    marketGroup: 2107
+    name: Sleipnir Emperor Bear SKIN (Permanent)
+    published: true
+    volume: 0.01
   Sleipnir Exoplanets Hunter SKIN (Permanent):
     id: 45971
     marketGroup: 2107
@@ -14005,6 +14362,12 @@ items:
     id: 46908
     marketGroup: 2107
     name: Sleipnir Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sleipnir In Rust We Trust SKIN (Permanent):
+    id: 52431
+    marketGroup: 2107
+    name: Sleipnir In Rust We Trust SKIN (Permanent)
     published: true
     volume: 0.01
   Sleipnir Justice SKIN (Permanent):
@@ -14128,6 +14491,12 @@ items:
     id: 47317
     marketGroup: 1993
     name: Stabber Spirit SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Stabber Triglavian Twilight SKIN (Permanent):
+    id: 52403
+    marketGroup: 1993
+    name: Stabber Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Stabber Tronhadar Ink SKIN (Permanent):
@@ -14296,6 +14665,12 @@ items:
     name: Succubus Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Sunesis Capsuleer Day XVI SKIN (Permanent):
+    id: 52279
+    marketGroup: 2314
+    name: Sunesis Capsuleer Day XVI SKIN (Permanent)
+    published: true
+    volume: 0.01
   Sunesis Capsuleer Elite XV SKIN (Permanent):
     id: 47648
     marketGroup: 2314
@@ -14338,16 +14713,22 @@ items:
     name: Sunesis Silver Racer SKIN (Permanent)
     published: true
     volume: 0.01
-  Sunesis Versus Blueforce  SKIN (Permanent):
+  Sunesis Versus Blueforce SKIN (Permanent):
     id: 47548
     marketGroup: 2314
-    name: Sunesis Versus Blueforce  SKIN (Permanent)
+    name: Sunesis Versus Blueforce SKIN (Permanent)
     published: true
     volume: 0.01
   Sunesis Versus Redforce SKIN (Permanent):
     id: 47545
     marketGroup: 2314
     name: Sunesis Versus Redforce SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sunesis Violet Vellication SKIN (Permanent):
+    id: 52420
+    marketGroup: 2314
+    name: Sunesis Violet Vellication SKIN (Permanent)
     published: true
     volume: 0.01
   Svipul Exoplanets Hunter SKIN (Permanent):
@@ -14366,6 +14747,12 @@ items:
     id: 46892
     marketGroup: 2392
     name: Svipul Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Svipul In Rust We Trust SKIN (Permanent):
+    id: 52426
+    marketGroup: 2392
+    name: Svipul In Rust We Trust SKIN (Permanent)
     published: true
     volume: 0.01
   Taipan Hostile Takeover SKIN (Permanent):
@@ -14505,6 +14892,12 @@ items:
   Talwar Sebiestor Serenity Only SKIN (Permanent):
     id: 38629
     name: Talwar Sebiestor Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Talwar Triglavian Twilight SKIN (Permanent):
+    id: 52406
+    marketGroup: 1997
+    name: Talwar Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Talwar Tronhadar Ink SKIN (Permanent):
@@ -14730,6 +15123,12 @@ items:
     name: Tempest Valklear Glory SKIN (Permanent)
     published: true
     volume: 0.01
+  Tengu Emperor Bear SKIN (Permanent):
+    id: 52303
+    marketGroup: 2370
+    name: Tengu Emperor Bear SKIN (Permanent)
+    published: true
+    volume: 0.01
   Tengu Exoplanets Hunter SKIN (Permanent):
     id: 45843
     marketGroup: 2370
@@ -14823,6 +15222,12 @@ items:
     id: 40323
     marketGroup: 2139
     name: Thalia Valimor Legacy SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Thanatos Caille Neon SKIN (Permanent):
+    id: 50150
+    marketGroup: 1976
+    name: Thanatos Caille Neon SKIN (Permanent)
     published: true
     volume: 0.01
   Thanatos Eros Blossom SKIN (Permanent):
@@ -14983,6 +15388,12 @@ items:
     name: Thorax Luminaire Zenith SKIN (Permanent)
     published: true
     volume: 0.01
+  Thorax Police SKIN (Permanent):
+    id: 52435
+    marketGroup: 1992
+    name: Thorax Police SKIN (Permanent)
+    published: true
+    volume: 0.01
   Thorax Quafe SKIN (Permanent):
     id: 37057
     marketGroup: 1992
@@ -15011,6 +15422,12 @@ items:
     id: 44912
     marketGroup: 1992
     name: Thorax Spirit SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Thorax Triglavian Twilight SKIN (Permanent):
+    id: 52395
+    marketGroup: 1992
+    name: Thorax Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
   Thorax Valimor Legacy SKIN (Permanent):
@@ -15149,6 +15566,12 @@ items:
     id: 50033
     marketGroup: 1959
     name: Tornado Amaranthine Mantle SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Tornado Argyros Elite XVI SKIN (Permanent):
+    id: 52284
+    marketGroup: 1959
+    name: Tornado Argyros Elite XVI SKIN (Permanent)
     published: true
     volume: 0.01
   Tornado Bloody Hands SKIN (Permanent):
@@ -15420,6 +15843,12 @@ items:
     name: Typhoon Krusual Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Typhoon Triglavian Twilight SKIN (Permanent):
+    id: 52404
+    marketGroup: 1967
+    name: Typhoon Triglavian Twilight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Typhoon Tronhadar Ink SKIN (Permanent):
     id: 40502
     marketGroup: 1967
@@ -15545,6 +15974,12 @@ items:
     name: Vargur Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Vargur In Rust We Trust SKIN (Permanent):
+    id: 52432
+    marketGroup: 2027
+    name: Vargur In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
   Vargur Justice SKIN (Permanent):
     id: 34819
     name: Vargur Justice SKIN (Permanent)
@@ -15598,6 +16033,24 @@ items:
   Vedmak Hadean Horror Serenity Only SKIN (Permanent):
     id: 49516
     name: Vedmak Hadean Horror Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vedmak Metamateria Exotica SKIN (Permanent):
+    id: 50141
+    marketGroup: 2485
+    name: Vedmak Metamateria Exotica SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vedmak Netherworld Striker SKIN (Permanent):
+    id: 50157
+    marketGroup: 2485
+    name: Vedmak Netherworld Striker SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vedmak Red Meatgrinder SKIN (Permanent):
+    id: 52322
+    marketGroup: 2485
+    name: Vedmak Red Meatgrinder SKIN (Permanent)
     published: true
     volume: 0.01
   Vedmak Singularity Storm SKIN (Permanent):
@@ -16291,6 +16744,12 @@ items:
     name: Wolf Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Wolf In Rust We Trust SKIN (Permanent):
+    id: 52424
+    marketGroup: 2050
+    name: Wolf In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
   Wolf Justice SKIN (Permanent):
     id: 36427
     marketGroup: 2050
@@ -16449,6 +16908,12 @@ items:
     id: 49935
     marketGroup: 2485
     name: Zarmazd Hadean Horror SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Zarmazd Metamateria Exotica SKIN (Permanent):
+    id: 50143
+    marketGroup: 2485
+    name: Zarmazd Metamateria Exotica SKIN (Permanent)
     published: true
     volume: 0.01
   Zealot Capsuleer Day XV SKIN (Permanent):

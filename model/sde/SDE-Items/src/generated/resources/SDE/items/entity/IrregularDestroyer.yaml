@@ -1,83 +1,41 @@
 items:
   Deathglow Brainjuicer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48958
     mass: 2860000.0
     name: Deathglow Brainjuicer
     published: false
     volume: 28600.0
   Eosian Warden:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 46345
     mass: 1.09E7
     name: Eosian Warden
     published: false
     volume: 109000.0
   Guristas Destroyer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49535
     mass: 1650000.0
     name: Guristas Destroyer
     published: false
     volume: 16500.0
   Noumenal Divider:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47718
     mass: 1.09E7
     name: Noumenal Divider
     published: false
     volume: 109000.0
   November Destroyer:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48943
     mass: 2112000.0
     name: November Destroyer
     published: false
     volume: 21120.0
   Ripper Alvior:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48903
     mass: 100000.0
     name: Ripper Alvior
     published: false
     volume: 60.0
   Shatter Alvior:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48902
     mass: 100000.0
     name: Shatter Alvior

@@ -1,71 +1,35 @@
 items:
   Crippler Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25640
     mass: 100000.0
     name: Crippler Drone
     published: false
     volume: 60.0
   Defeater Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25642
     mass: 100000.0
     name: Defeater Drone
     published: false
     volume: 60.0
   Enforcer Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25654
     mass: 100000.0
     name: Enforcer Drone
     published: false
     volume: 60.0
   Exterminator Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25655
     mass: 100000.0
     name: Exterminator Drone
     published: false
     volume: 60.0
   Siege Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25673
     mass: 100000.0
     name: Siege Drone
     published: false
     volume: 60.0
   Striker Drone:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25697
     mass: 100000.0
     name: Striker Drone

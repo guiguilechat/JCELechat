@@ -1,11 +1,5 @@
 items:
   State Izanaki:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 27719
     mass: 1.08E9
     name: State Izanaki

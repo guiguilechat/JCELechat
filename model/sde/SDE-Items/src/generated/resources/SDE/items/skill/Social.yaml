@@ -35,7 +35,7 @@ items:
     id: 3357
     marketGroup: 376
     name: Diplomacy
-    price: 180000.0
+    price: 200000.0
     published: true
     volume: 0.01
   Distribution Connections:
@@ -114,6 +114,6 @@ items:
     id: 3355
     marketGroup: 376
     name: Social
-    price: 20000.0
+    price: 30000.0
     published: true
     volume: 0.01

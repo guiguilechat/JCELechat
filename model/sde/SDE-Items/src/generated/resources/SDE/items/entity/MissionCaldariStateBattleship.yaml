@@ -1,383 +1,191 @@
 items:
   Admiral Aurobe Kois:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25814
     mass: 2.05E7
     name: Admiral Aurobe Kois
     published: false
     volume: 2.2E7
   Caldari Navy Fleet Commander:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15338
     mass: 2.05E7
     name: Caldari Navy Fleet Commander
     published: false
     volume: 1080000.0
   Caldari Navy Raven:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 12391
     mass: 2.1E7
     name: Caldari Navy Raven
     published: false
     volume: 1040000.0
   Caldari Navy Scorpion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 15326
     mass: 2.05E7
     name: Caldari Navy Scorpion
     published: false
     volume: 1040000.0
   Caldari Navy Temura:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 20334
     mass: 2.05E7
     name: Caldari Navy Temura
     published: false
     volume: 1080000.0
   Civilian Caldari Battleship Raven:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30792
     mass: 2.2E7
     name: Civilian Caldari Battleship Raven
     published: false
     volume: 1080000.0
   Civilian Caldari Battleship Rokh:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30791
     mass: 2.2E7
     name: Civilian Caldari Battleship Rokh
     published: false
     volume: 1080000.0
   Civilian Caldari Battleship Scorpion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 30790
     mass: 2.2E7
     name: Civilian Caldari Battleship Scorpion
     published: false
     volume: 1080000.0
   Independent Green-Crewed Raven:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29679
     mass: 2.2E7
     name: Independent Green-Crewed Raven
     published: false
     volume: 1080000.0
   Independent Green-Crewed Rokh:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29680
     mass: 2.2E7
     name: Independent Green-Crewed Rokh
     published: false
     volume: 1080000.0
   Independent Green-Crewed Scorpion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29681
     mass: 2.2E7
     name: Independent Green-Crewed Scorpion
     published: false
     volume: 1080000.0
   Independent Raven:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29682
     mass: 2.05E7
     name: Independent Raven
     published: false
     volume: 2.2E7
   Independent Rokh:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29683
     mass: 2.05E7
     name: Independent Rokh
     published: false
     volume: 2.2E7
   Independent Scorpion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29684
     mass: 2.05E7
     name: Independent Scorpion
     published: false
     volume: 2.2E7
   Independent Veteran Raven:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29685
     mass: 2.05E7
     name: Independent Veteran Raven
     published: false
     volume: 2.2E7
   Independent Veteran Rokh:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29686
     mass: 2.05E7
     name: Independent Veteran Rokh
     published: false
     volume: 2.2E7
   Independent Veteran Scorpion:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 29687
     mass: 2.05E7
     name: Independent Veteran Scorpion
     published: false
     volume: 2.2E7
   Ishukone Watch Commander:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32296
     mass: 1080000.0
     name: Ishukone Watch Commander
     published: false
     volume: 2.2E7
   Nugoeihuvi Caretaker:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 32297
     mass: 1080000.0
     name: Nugoeihuvi Caretaker
     published: false
     volume: 2.2E7
   State Oshiro:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25089
     mass: 2.05E7
     name: State Oshiro
     published: false
     volume: 2.2E7
   State Shukuro Bishamon:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25097
     mass: 2.05E7
     name: State Shukuro Bishamon
     published: false
     volume: 2.2E7
   State Shukuro Daijo:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25094
     mass: 2.05E7
     name: State Shukuro Daijo
     published: false
     volume: 2.2E7
   State Shukuro Nagashin:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 28171
     mass: 2.05E7
     name: State Shukuro Nagashin
     published: false
     volume: 1080000.0
   State Shukuro Shogun:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25098
     mass: 2.05E7
     name: State Shukuro Shogun
     published: false
     volume: 2.2E7
   State Shukuro Taisho:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25092
     mass: 2.05E7
     name: State Shukuro Taisho
     published: false
     volume: 2.2E7
   State Shukuro Tenno:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25090
     mass: 2.05E7
     name: State Shukuro Tenno
     published: false
     volume: 2.2E7
   State Shukuro Turushima:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 28174
     mass: 2.05E7
     name: State Shukuro Turushima
     published: false
     volume: 1080000.0
   State Tenkyu:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25083
     mass: 2.1E7
     name: State Tenkyu
     published: false
     volume: 1040000.0
   State Utaisho:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25084
     mass: 2.2E7
     name: State Utaisho
     published: false
     volume: 1080000.0
   State Yojimbo:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25085
     mass: 2.1E7
     name: State Yojimbo
     published: false
     volume: 1040000.0
   State Zen:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25086
     mass: 2.05E7
     name: State Zen
     published: false
     volume: 2.2E7
   Tantima Areki's Raven:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 25389
     mass: 2.05E7
     name: Tantima Areki's Raven

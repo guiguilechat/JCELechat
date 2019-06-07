@@ -1,215 +1,107 @@
 items:
   Marauder Agent:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24370
     mass: 2250000.0
     name: Marauder Agent
     published: false
     volume: 22500.0
   Marauder Defender:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24375
     mass: 2650000.0
     name: Marauder Defender
     published: false
     volume: 26500.0
   Marauder Guard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24373
     mass: 2300000.0
     name: Marauder Guard
     published: false
     volume: 23000.0
   Marauder Patroller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24372
     mass: 2950000.0
     name: Marauder Patroller
     published: false
     volume: 29500.0
   Marauder Protector:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24376
     mass: 2650000.0
     name: Marauder Protector
     published: false
     volume: 26500.0
   Marauder Safeguard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24374
     mass: 2300000.0
     name: Marauder Safeguard
     published: false
     volume: 23000.0
   Marauder Spy:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24369
     mass: 2500000.0
     name: Marauder Spy
     published: false
     volume: 25000.0
   Marauder Watchman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 24371
     mass: 2950000.0
     name: Marauder Watchman
     published: false
     volume: 29500.0
   Shadow Serpentis Agent:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13646
     mass: 2250000.0
     name: Shadow Serpentis Agent
     published: false
     volume: 22500.0
   Shadow Serpentis Defender:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13647
     mass: 2650000.0
     name: Shadow Serpentis Defender
     published: false
     volume: 26500.0
   Shadow Serpentis Guard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13642
     mass: 2300000.0
     name: Shadow Serpentis Guard
     published: false
     volume: 23000.0
   Shadow Serpentis Initiate:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13649
     mass: 2450000.0
     name: Shadow Serpentis Initiate
     published: false
     volume: 24500.0
   Shadow Serpentis Patroller:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13648
     mass: 2950000.0
     name: Shadow Serpentis Patroller
     published: false
     volume: 29500.0
   Shadow Serpentis Protector:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13650
     mass: 2650000.0
     name: Shadow Serpentis Protector
     published: false
     volume: 26500.0
   Shadow Serpentis Safeguard:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13640
     mass: 2300000.0
     name: Shadow Serpentis Safeguard
     published: false
     volume: 23000.0
   Shadow Serpentis Scout:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13645
     mass: 2250000.0
     name: Shadow Serpentis Scout
     published: false
     volume: 22500.0
   Shadow Serpentis Spy:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13643
     mass: 2500000.0
     name: Shadow Serpentis Spy
     published: false
     volume: 25000.0
   Shadow Serpentis Watchman:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 13644
     mass: 2950000.0
     name: Shadow Serpentis Watchman

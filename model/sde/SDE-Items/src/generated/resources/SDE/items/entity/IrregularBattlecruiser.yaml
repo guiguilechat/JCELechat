@@ -1,83 +1,41 @@
 items:
   Blood Raider Battlecruiser:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 36941
     mass: 1.18E7
     name: Blood Raider Battlecruiser
     published: false
     volume: 118000.0
   Deathglow Splendorcook:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 48959
     mass: 1.18E7
     name: Deathglow Splendorcook
     published: false
     volume: 118000.0
   Guardian Angels Hanael:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42129
     mass: 1.09E7
     name: Guardian Angels Hanael
     published: false
     volume: 109000.0
   Guristas Battlecruiser:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 49537
     mass: 1.01E7
     name: Guristas Battlecruiser
     published: false
     volume: 101000.0
   Noumenal Interruptor:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 47721
     mass: 1.09E7
     name: Noumenal Interruptor
     published: false
     volume: 109000.0
   Purist Cardinal:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 42514
     mass: 1.18E7
     name: Purist Cardinal
     published: false
     volume: 118000.0
   Serpentis Battlecruiser:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
     id: 38657
     mass: 1.12E7
     name: Serpentis Battlecruiser
