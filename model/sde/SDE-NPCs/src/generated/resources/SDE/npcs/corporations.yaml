@@ -7057,6 +7057,29 @@ corporations:
     concordRate: 1.0
     faction: CONCORD Assembly
     id: 1000137
+    lpoffers:
+    - 16348
+    - 16349
+    - 16350
+    - 16351
+    - 16352
+    - 16353
+    - 16354
+    - 16355
+    - 16356
+    - 16357
+    - 16358
+    - 16359
+    - 16360
+    - 16361
+    - 16362
+    - 16363
+    - 16364
+    - 16365
+    - 16366
+    - 16367
+    - 16368
+    - 16369
     name: DED
   Deep Core Mining Inc.:
     concordRate: 0.8

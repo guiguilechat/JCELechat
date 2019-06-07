@@ -30306,3 +30306,311 @@ offers:
         itemname: Megacyte
         quantity: 6688
       lp: 250000
+  16348:
+    id: 16348
+    name: Algos Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52398
+      itemname: Algos Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 100
+      lp: 10000
+  16349:
+    id: 16349
+    name: Apocalypse Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52392
+      itemname: Apocalypse Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 75000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 300
+      lp: 30000
+  16350:
+    id: 16350
+    name: Arbitrator Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52407
+      itemname: Arbitrator Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 37500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 150
+      lp: 15000
+  16351:
+    id: 16351
+    name: Brutix Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52397
+      itemname: Brutix Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 200
+      lp: 20000
+  16352:
+    id: 16352
+    name: Caracal Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52399
+      itemname: Caracal Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 37500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 150
+      lp: 15000
+  16353:
+    id: 16353
+    name: Coercer Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52394
+      itemname: Coercer Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 100
+      lp: 10000
+  16354:
+    id: 16354
+    name: Cormorant Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52402
+      itemname: Cormorant Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 100
+      lp: 10000
+  16355:
+    id: 16355
+    name: Drake Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52401
+      itemname: Drake Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 200
+      lp: 20000
+  16356:
+    id: 16356
+    name: Hurricane Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52405
+      itemname: Hurricane Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 200
+      lp: 20000
+  16357:
+    id: 16357
+    name: Megathron Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52396
+      itemname: Megathron Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 75000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 300
+      lp: 30000
+  16358:
+    id: 16358
+    name: Prophecy Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52393
+      itemname: Prophecy Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 200
+      lp: 20000
+  16359:
+    id: 16359
+    name: Scorpion Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52400
+      itemname: Scorpion Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 75000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 300
+      lp: 30000
+  16360:
+    id: 16360
+    name: Stabber Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52403
+      itemname: Stabber Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 37500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 150
+      lp: 15000
+  16361:
+    id: 16361
+    name: Talwar Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52406
+      itemname: Talwar Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 100
+      lp: 10000
+  16362:
+    id: 16362
+    name: Thorax Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52395
+      itemname: Thorax Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 37500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 150
+      lp: 15000
+  16363:
+    id: 16363
+    name: Typhoon Triglavian Twilight SKIN (Permanent)
+    product:
+      itemid: 52404
+      itemname: Typhoon Triglavian Twilight SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 75000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 300
+      lp: 30000
+  16364:
+    id: 16364
+    name: Ikitursa Singularity Storm SKIN (Permanent)
+    product:
+      itemid: 52353
+      itemname: Ikitursa Singularity Storm SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 100000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 400
+      lp: 40000
+  16365:
+    id: 16365
+    name: Draugur Singularity Storm SKIN (Permanent)
+    product:
+      itemid: 52352
+      itemname: Draugur Singularity Storm SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 75000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 300
+      lp: 30000
+  16366:
+    id: 16366
+    name: Nergal Singularity Storm SKIN (Permanent)
+    product:
+      itemid: 52351
+      itemname: Nergal Singularity Storm SKIN (Permanent)
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 200
+      lp: 20000
+  16367:
+    id: 16367
+    name: Triglavian Encryption Methods
+    product:
+      itemid: 52308
+      itemname: Triglavian Encryption Methods
+      quantity: 1
+    requirements:
+      isk: 30000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 300
+      lp: 30000
+  16368:
+    id: 16368
+    name: Triglavian Quantum Engineering
+    product:
+      itemid: 52307
+      itemname: Triglavian Quantum Engineering
+      quantity: 1
+    requirements:
+      isk: 40000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 400
+      lp: 40000
+  16369:
+    id: 16369
+    name: 5* Datacore - Triglavian Quantum Engineering
+    product:
+      itemid: 52309
+      itemname: Datacore - Triglavian Quantum Engineering
+      quantity: 5
+    requirements:
+      isk: 1000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 10
+      lp: 1000
