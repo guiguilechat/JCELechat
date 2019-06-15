@@ -16,8 +16,15 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dog
 public class ShowAttributes {
 
 	public static void main(String[] args) {
+		// invading entities
 		// showGroup(4028, "armor", "Resonance");
-		tableGroup(4028);
+		// tableGroup(4028);
+
+		// hobgoblin
+		// showEntity(2454);
+
+		// starving leshak
+		showEntity(48125);
 	}
 
 	public static void showEntity(int typeId, String... filters) {
