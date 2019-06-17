@@ -53,3 +53,6 @@ decryptors:
     name: Symmetry Decryptor
     probmult: 1.0
     te: 8
+  no decryptor:
+    name: no decryptor
+    probmult: 1.0

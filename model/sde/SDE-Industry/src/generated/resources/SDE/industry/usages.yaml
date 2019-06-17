@@ -4982,6 +4982,12 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Harbinger Blueprint: null
+  Abyssal Assault Damage Control:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 1462
+      Pyerite: 3
+      Mexallon: 62
   Abyssal Ballistic Control System:
     maxreprocess: 0.55
     reprocess:
@@ -4994,6 +5000,12 @@ usages:
       Morphite: 5
       Megacyte: 4
       Mechanical Parts: 1
+  Abyssal Damage Control:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 1062
+      Pyerite: 2
+      Mexallon: 53
   Abyssal Entropic Radiation Sink:
     maxreprocess: 0.55
     reprocess:
@@ -5171,10 +5183,6 @@ usages:
       Nocxium: 2261
       Zydrine: 1134
       Megacyte: 288
-  Advanced 'Ardour' Cerebral Accelerator:
-    maxreprocess: 0.55
-    productManuf: !!set
-      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
   Advanced 'Limos' Heavy Missile Bay I:
     maxreprocess: 0.55
     reprocess:
@@ -7516,7 +7524,6 @@ usages:
       Standup Malleus II Blueprint: null
       Standup Ametat II Blueprint: null
       Standup Reactor Control Unit II Blueprint: null
-      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Antimatter Reactor Unit Blueprint: null
@@ -9091,10 +9098,6 @@ usages:
       Tritanium: 27
       Pyerite: 21
       Crystalline Isogen-10: 2
-  Basic 'Ardour' Cerebral Accelerator:
-    maxreprocess: 0.55
-    productManuf: !!set
-      Basic 'Ardour' Cerebral Accelerator Blueprint: null
   Basic Adaptive Nano Plating:
     maxreprocess: 0.55
     reprocess:
@@ -9462,6 +9465,15 @@ usages:
       Pyerite: 187
       Mexallon: 32
       Isogen: 1
+  Bezdnacine:
+    maxreprocess: 0.8934
+    reprocess:
+      Tritanium: 13200
+      Pyerite: 2200
+      Mexallon: 3780
+      Isogen: 1100
+      Morphite: 10
+      Megacyte: 185
   Bhaalgorn:
     maxreprocess: 0.55
     productManuf: !!set
@@ -18403,10 +18415,6 @@ usages:
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Clavicula' Integrated Analyzer Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
-      Basic 'Ardour' Cerebral Accelerator Blueprint: null
-      Standard 'Ardour' Cerebral Accelerator Blueprint: null
-      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
-      Extended 'Ardour' Cerebral Accelerator Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
@@ -20198,7 +20206,6 @@ usages:
       Virtuoso Blueprint: null
       Monitor Blueprint: null
       Assault Damage Control II Blueprint: null
-      Zarmazd Blueprint: null
     maxreprocess: 0.55
   Construction Tools:
     maxreprocess: 0.55
@@ -20936,6 +20943,9 @@ usages:
       Mystic L Blueprint: null
       Zarmazd Blueprint: null
       Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     materialTE: !!set
       Small Shield Extender II Blueprint: null
       Shield Recharger II Blueprint: null
@@ -21627,6 +21637,9 @@ usages:
       Mystic L Blueprint: null
       Zarmazd Blueprint: null
       Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
   Contaminated Lorentz Fluid:
     materialManuf: !!set
@@ -23917,6 +23930,7 @@ usages:
       Victor Blueprint: null
       Virtuoso Blueprint: null
       Standup Layered Armor Plating II Blueprint: null
+      Nergal Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Crystalline Carbonide Armor Plate Blueprint: null
@@ -23968,6 +23982,14 @@ usages:
       Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
       Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
       Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
+      Zorya's Light Entropic Disintegrator Blueprint: null
+      Zorya's Heavy Entropic Disintegrator Blueprint: null
+      Zorya's Supratidal Entropic Disintegrator Blueprint: null
+      Zorya's Entropic Radiation Sink Blueprint: null
+      Veles Entropic Radiation Sink Blueprint: null
+      Veles Light Entropic Disintegrator Blueprint: null
+      Veles Heavy Entropic Disintegrator Blueprint: null
+      Veles Supratidal Entropic Disintegrator Blueprint: null
     maxreprocess: 0.55
   Cthonic Attar:
     maxreprocess: 0.8934
@@ -24015,10 +24037,6 @@ usages:
       Incognito Data Interface Blueprint: null
       Incognito Ship Data Interface Blueprint: null
       Incognito Tuner Data Interface Blueprint: null
-      Basic 'Ardour' Cerebral Accelerator Blueprint: null
-      Standard 'Ardour' Cerebral Accelerator Blueprint: null
-      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
-      Extended 'Ardour' Cerebral Accelerator Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
@@ -24569,6 +24587,8 @@ usages:
       Standup M-Set Moon Drilling Efficiency I Blueprint: null
     maxreprocess: 0.55
   Damavik:
+    materialManuf: !!set
+      Nergal Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Damavik Blueprint: null
@@ -25778,10 +25798,6 @@ usages:
       Cryptic Data Interface Blueprint: null
       Cryptic Ship Data Interface Blueprint: null
       Cryptic Tuner Data Interface Blueprint: null
-      Basic 'Ardour' Cerebral Accelerator Blueprint: null
-      Standard 'Ardour' Cerebral Accelerator Blueprint: null
-      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
-      Extended 'Ardour' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Data Sheets:
     materialCopy: !!set
@@ -26606,6 +26622,9 @@ usages:
       Entropic Radiation Sink II Blueprint: null
       Zarmazd Blueprint: null
       Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
   Data Subverter I:
     maxreprocess: 0.55
@@ -26635,6 +26654,7 @@ usages:
       Harbinger Blueprint: null
       Magnate Blueprint: null
       Dragoon Blueprint: null
+      Rodiva Blueprint: null
     maxreprocess: 0.55
   Datacore - Caldari Starship Engineering:
     materialInvention: !!set
@@ -26657,6 +26677,7 @@ usages:
       Charon Blueprint: null
       Drake Blueprint: null
       Corax Blueprint: null
+      Vedmak Blueprint: null
     maxreprocess: 0.55
   Datacore - Core Subsystems Engineering:
     materialInvention: !!set
@@ -27122,6 +27143,7 @@ usages:
       Myrmidon Blueprint: null
       Algos Blueprint: null
       Venture Blueprint: null
+      Damavik Blueprint: null
     maxreprocess: 0.55
   Datacore - Graviton Physics:
     materialInvention: !!set
@@ -27886,7 +27908,6 @@ usages:
       Ice Mining Laser I Blueprint: null
       Quad 800mm Repeating Cannon I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
-      Rodiva Blueprint: null
     maxreprocess: 0.55
   Datacore - Minmatar Starship Engineering:
     materialInvention: !!set
@@ -27909,6 +27930,7 @@ usages:
       Fenrir Blueprint: null
       Hurricane Blueprint: null
       Talwar Blueprint: null
+      Kikimora Blueprint: null
     maxreprocess: 0.55
   Datacore - Molecular Engineering:
     materialInvention: !!set
@@ -28165,7 +28187,6 @@ usages:
       Standup M-Set Hybrid Reactor Material Efficiency I Blueprint: null
       Assault Damage Control I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
-      Rodiva Blueprint: null
       Heavy Mutadaptive Remote Armor Repairer I Blueprint: null
     maxreprocess: 0.55
   Datacore - Nuclear Physics:
@@ -28612,6 +28633,13 @@ usages:
       10000MN Afterburner I Blueprint: null
       50000MN Microwarpdrive I Blueprint: null
     maxreprocess: 0.55
+  Datacore - Triglavian Quantum Engineering:
+    materialInvention: !!set
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Kikimora Blueprint: null
+      Rodiva Blueprint: null
+    maxreprocess: 0.55
   Dazzling Spodumain:
     maxreprocess: 0.8934
     reprocess:
@@ -28841,6 +28869,7 @@ usages:
       Standup Dromi II Blueprint: null
       Standup Tyrfing II Blueprint: null
       Standup Gungnir II Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Deflection Shield Emitter Blueprint: null
@@ -30459,6 +30488,25 @@ usages:
       Nocxium: 131
       Zydrine: 28
       Megacyte: 2
+  Draugur:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Draugur Blueprint: null
+    reprocess:
+      Radar Sensor Cluster: 210
+      Deflection Shield Emitter: 95
+      R.A.M.- Starship Tech: 10
+      Fernite Carbide Composite Armor Plate: 1400
+      Radiation Absorption Thruster: 65
+      'Singularity Radiation Convertor ': 18
+      Morphite: 65
+      Zero-Point Field Manipulator: 550
+      Trinary State Processor: 1050
+      Lattice Locked Dekaisogen: 55
+  Draugur Blueprint:
+    maxreprocess: 0.55
+    productInvention: !!set
+      Kikimora Blueprint: null
   Dread Guristas 125mm Railgun:
     maxreprocess: 0.55
     reprocess:
@@ -33534,10 +33582,6 @@ usages:
       Esoteric Data Interface Blueprint: null
       Esoteric Ship Data Interface Blueprint: null
       Esoteric Tuner Data Interface Blueprint: null
-      Basic 'Ardour' Cerebral Accelerator Blueprint: null
-      Standard 'Ardour' Cerebral Accelerator Blueprint: null
-      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
-      Extended 'Ardour' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Electronic Parts:
     materialManuf: !!set
@@ -34267,6 +34311,9 @@ usages:
       Zydrine: 6
       Megacyte: 2
   Entropic Radiation Sink II:
+    materialManuf: !!set
+      Zorya's Entropic Radiation Sink Blueprint: null
+      Veles Entropic Radiation Sink Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Entropic Radiation Sink II Blueprint: null
@@ -35094,10 +35141,6 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Explosive Plating I Blueprint: null
-  Extended 'Ardour' Cerebral Accelerator:
-    maxreprocess: 0.55
-    productManuf: !!set
-      Extended 'Ardour' Cerebral Accelerator Blueprint: null
   Extra Gravimetric ECCM Scanning Array I:
     maxreprocess: 0.55
     reprocess:
@@ -36195,6 +36238,7 @@ usages:
       Gungnir II Blueprint: null
       Assault Damage Control II Blueprint: null
       Standup Layered Armor Plating II Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Fernite Carbide Composite Armor Plate Blueprint: null
@@ -37289,7 +37333,6 @@ usages:
       Standup Equite II Blueprint: null
       Standup Malleus II Blueprint: null
       Standup Ametat II Blueprint: null
-      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Fusion Thruster Blueprint: null
@@ -41619,6 +41662,9 @@ usages:
       Nocxium: 6
       Crystalline Isogen-10: 25
   Heavy Entropic Disintegrator II:
+    materialManuf: !!set
+      Zorya's Heavy Entropic Disintegrator Blueprint: null
+      Veles Heavy Entropic Disintegrator Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Heavy Entropic Disintegrator II Blueprint: null
@@ -42104,13 +42150,6 @@ usages:
       Isogen: 1337
       Zydrine: 45
       Megacyte: 22
-  Heavy Veles Entropic Disintegrator:
-    maxreprocess: 0.55
-    reprocess:
-      Tritanium: 4453
-      Pyerite: 1287
-      Mexallon: 1199
-      Megacyte: 2
   Heavy Warp Disruptor I:
     materialManuf: !!set
       Heavy Fleeting Compact Warp Disruptor Blueprint: null
@@ -43482,6 +43521,24 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Ice Mining Laser I Blueprint: null
+  Ikitursa:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Ikitursa Blueprint: null
+    reprocess:
+      Radar Sensor Cluster: 278
+      R.A.M.- Starship Tech: 12
+      Sustained Shield Emitter: 125
+      Radiation Absorption Thruster: 75
+      'Singularity Radiation Convertor ': 800
+      Morphite: 80
+      Titanium Diborite Armor Plate: 2550
+      Trinary State Processor: 1600
+      Lattice Locked Dekaisogen: 80
+  Ikitursa Blueprint:
+    maxreprocess: 0.55
+    productInvention: !!set
+      Vedmak Blueprint: null
   Imai Kenon's Tag:
     maxreprocess: 0.55
     reprocess:
@@ -47485,7 +47542,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ��Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -48383,6 +48440,8 @@ usages:
       Isogen: 197
       Zydrine: 4
   Kikimora:
+    materialManuf: !!set
+      Draugur Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Kikimora Blueprint: null
@@ -51660,6 +51719,13 @@ usages:
       Pyerite: 44
       Mexallon: 107
       Nocxium: 1
+  Lattice Locked Dekaisogen:
+    materialManuf: !!set
+      Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
+    maxreprocess: 0.55
   Launcher Processor Rig I:
     maxreprocess: 0.55
     reprocess:
@@ -52172,6 +52238,9 @@ usages:
       Isogen: 20
       Crystalline Isogen-10: 15
   Light Entropic Disintegrator II:
+    materialManuf: !!set
+      Zorya's Light Entropic Disintegrator Blueprint: null
+      Veles Light Entropic Disintegrator Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Light Entropic Disintegrator II Blueprint: null
@@ -52343,14 +52412,6 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Light Shield Maintenance Bot I Blueprint: null
-  Light Veles Entropic Disintegrator:
-    maxreprocess: 0.55
-    reprocess:
-      Tritanium: 1102
-      Pyerite: 113
-      Mexallon: 4
-      Nocxium: 2
-      Zydrine: 2
   Limited 'Anointed' EM Ward Field:
     maxreprocess: 0.55
     reprocess:
@@ -58970,7 +59031,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ��Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -60251,7 +60312,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ��Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -64193,6 +64254,9 @@ usages:
       Mystic L Blueprint: null
       Zarmazd Blueprint: null
       Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
   Motley Compound:
     maxreprocess: 0.55
@@ -64776,7 +64840,6 @@ usages:
       Standup Capacitor Power Relay II Blueprint: null
       Standup Weapon Disruptor II Blueprint: null
       Entropic Radiation Sink II Blueprint: null
-      Zarmazd Blueprint: null
       Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
@@ -65128,6 +65191,25 @@ usages:
       Nocxium: 244
       Zydrine: 56
       Megacyte: 22
+  Nergal:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Nergal Blueprint: null
+    reprocess:
+      Radar Sensor Cluster: 280
+      Pulse Shield Emitter: 50
+      R.A.M.- Starship Tech: 8
+      Radiation Absorption Thruster: 42
+      'Singularity Radiation Convertor ': 16
+      Morphite: 34
+      Zero-Point Field Manipulator: 328
+      Trinary State Processor: 650
+      Crystalline Carbonide Armor Plate: 800
+      Lattice Locked Dekaisogen: 48
+  Nergal Blueprint:
+    maxreprocess: 0.55
+    productInvention: !!set
+      Damavik Blueprint: null
   Nestor:
     maxreprocess: 0.55
     productManuf: !!set
@@ -66155,7 +66237,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ��Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -70211,10 +70293,6 @@ usages:
       Occult Data Interface Blueprint: null
       Occult Ship Data Interface Blueprint: null
       Occult Tuner Data Interface Blueprint: null
-      Basic 'Ardour' Cerebral Accelerator Blueprint: null
-      Standard 'Ardour' Cerebral Accelerator Blueprint: null
-      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
-      Extended 'Ardour' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   Poteque 'Prospector' Archaeology AC-905:
     maxreprocess: 0.55
@@ -71653,6 +71731,7 @@ usages:
       Standup Siren II Blueprint: null
       Standup Cyclops II Blueprint: null
       Standup Antaeus II Blueprint: null
+      Nergal Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Pulse Shield Emitter Blueprint: null
@@ -72935,7 +73014,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ��Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -74613,6 +74692,9 @@ usages:
       Standup Antaeus II Blueprint: null
       Standup Gungnir II Blueprint: null
       Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       R.A.M.- Starship Tech Blueprint: null
@@ -77025,16 +77107,25 @@ usages:
       Heavy Entropic Disintegrator II Blueprint: null
       Supratidal Entropic Disintegrator II Blueprint: null
       Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     materialME: !!set
       Light Entropic Disintegrator II Blueprint: null
       Heavy Entropic Disintegrator II Blueprint: null
       Supratidal Entropic Disintegrator II Blueprint: null
       Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     materialTE: !!set
       Light Entropic Disintegrator II Blueprint: null
       Heavy Entropic Disintegrator II Blueprint: null
       Supratidal Entropic Disintegrator II Blueprint: null
       Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
     reprocess:
       Electric Conduit: 36
@@ -77185,6 +77276,9 @@ usages:
       Standup Signal Amplifier II Blueprint: null
       Standup Weapon Disruptor II Blueprint: null
       Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Radar Sensor Cluster Blueprint: null
@@ -77199,6 +77293,13 @@ usages:
       Isogen: 110
       Nocxium: 132
       Zydrine: 17
+  Radiation Absorption Thruster:
+    materialManuf: !!set
+      Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
+    maxreprocess: 0.55
   Radio L:
     maxreprocess: 0.55
     productManuf: !!set
@@ -77284,6 +77385,16 @@ usages:
       Structure Hangar Array: 1
       Structure Storage Bay: 1
       Structure Office Center: 1
+  Rakovene:
+    maxreprocess: 0.8934
+    reprocess:
+      Tritanium: 2200
+      Pyerite: 7200
+      Mexallon: 855
+      Nocxium: 450
+      Zydrine: 270
+      Morphite: 2
+      Megacyte: 83
   Rank 1 Upgrade:
     maxreprocess: 0.55
     reprocess:
@@ -79107,6 +79218,9 @@ usages:
       Mystic L Blueprint: null
       Zarmazd Blueprint: null
       Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     materialTE: !!set
       Miner II Blueprint: null
       Small Shield Extender II Blueprint: null
@@ -79805,6 +79919,9 @@ usages:
       Mystic L Blueprint: null
       Zarmazd Blueprint: null
       Heavy Mutadaptive Remote Armor Repairer II Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
   Reprocessing Array:
     materialManuf: !!set
@@ -85934,6 +86051,13 @@ usages:
       Standup L-Set Reprocessing Monitor II Blueprint: null
       Standup XL-Set Reprocessing Monitor II Blueprint: null
     maxreprocess: 0.55
+  'Singularity Radiation Convertor ':
+    materialManuf: !!set
+      Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
+    maxreprocess: 0.55
   Siren I:
     materialManuf: !!set
       Siren II Blueprint: null
@@ -89717,10 +89841,6 @@ usages:
       Pyerite: 79
       Mexallon: 103
       Nocxium: 1
-  Standard 'Ardour' Cerebral Accelerator:
-    maxreprocess: 0.55
-    productManuf: !!set
-      Standard 'Ardour' Cerebral Accelerator Blueprint: null
   Standard Blue Pill Booster:
     maxreprocess: 0.55
     productManuf: !!set
@@ -96667,6 +96787,9 @@ usages:
       Zydrine: 62
       Megacyte: 126
   Supratidal Entropic Disintegrator II:
+    materialManuf: !!set
+      Zorya's Supratidal Entropic Disintegrator Blueprint: null
+      Veles Supratidal Entropic Disintegrator Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Supratidal Entropic Disintegrator II Blueprint: null
@@ -96691,14 +96814,6 @@ usages:
     maxreprocess: 0.55
     productManuf: !!set
       Supratidal Scoped Entropic Disintegrator Blueprint: null
-    reprocess:
-      Tritanium: 13684
-      Pyerite: 4117
-      Mexallon: 3851
-      Zydrine: 2
-      Megacyte: 8
-  Supratidal Veles Entropic Disintegrator:
-    maxreprocess: 0.55
     reprocess:
       Tritanium: 13684
       Pyerite: 4117
@@ -96949,6 +97064,7 @@ usages:
       Standup Scarab II Blueprint: null
       Standup Mantis II Blueprint: null
       Standup Termite II Blueprint: null
+      Ikitursa Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Sustained Shield Emitter Blueprint: null
@@ -97245,10 +97361,6 @@ usages:
       Armor Command Burst I Blueprint: null
       Information Command Burst I Blueprint: null
       Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint: null
-      Basic 'Ardour' Cerebral Accelerator Blueprint: null
-      Standard 'Ardour' Cerebral Accelerator Blueprint: null
-      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
-      Extended 'Ardour' Cerebral Accelerator Blueprint: null
     maxreprocess: 0.55
   System Scanner I:
     maxreprocess: 0.55
@@ -97744,6 +97856,13 @@ usages:
       '''Chivalry'' Large Remote Capacitor Transmitter Blueprint': null
       '''Motte'' Capacitor Power Relay I Blueprint': null
     maxreprocess: 0.55
+  Talassonite:
+    maxreprocess: 0.8934
+    reprocess:
+      Tritanium: 12600
+      Nocxium: 456
+      Zydrine: 81
+      Megacyte: 13
   Talocan Automation Accounts:
     materialManuf: !!set
       '''Glycerine'' Shield Boost Amplifier Blueprint': null
@@ -98718,7 +98837,6 @@ usages:
       Standup Heavy Energy Neutralizer II Blueprint: null
       Standup Cap Battery II Blueprint: null
       Standup Capacitor Power Relay II Blueprint: null
-      Zarmazd Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Tesseract Capacitor Unit Blueprint: null
@@ -98740,6 +98858,27 @@ usages:
       Tritanium: 100000
       Isogen: 10
       Megacyte: 100
+  Test Site Armor Repair:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 858
+      Pyerite: 288
+      Megacyte: 4
+  Test Site Gatling Pulse Laser:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 231
+      Pyerite: 220
+  Test Site Maller:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 633333
+      Pyerite: 144444
+      Mexallon: 42222
+      Isogen: 10000
+      Nocxium: 2556
+      Zydrine: 1222
+      Megacyte: 322
   Tetrimon Data Analyzer I:
     maxreprocess: 0.55
     reprocess:
@@ -99426,6 +99565,7 @@ usages:
       Mantis II Blueprint: null
       Termite II Blueprint: null
       Standup Layered Armor Plating II Blueprint: null
+      Ikitursa Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Titanium Diborite Armor Plate Blueprint: null
@@ -99841,10 +99981,6 @@ usages:
       Mid-grade Ascendancy Epsilon Blueprint: null
       Mid-grade Ascendancy Gamma Blueprint: null
       Entosis Link II Blueprint: null
-      Basic 'Ardour' Cerebral Accelerator Blueprint: null
-      Standard 'Ardour' Cerebral Accelerator Blueprint: null
-      Advanced 'Ardour' Cerebral Accelerator Blueprint: null
-      Extended 'Ardour' Cerebral Accelerator Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
@@ -100088,6 +100224,13 @@ usages:
       Standup M-Set Moon Ore Grading Processor II Blueprint: null
       Standup L-Set Reprocessing Monitor II Blueprint: null
       Standup XL-Set Reprocessing Monitor II Blueprint: null
+    maxreprocess: 0.55
+  Trinary State Processor:
+    materialManuf: !!set
+      Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
   Triple Neutron Blaster Cannon I:
     materialManuf: !!set
@@ -101401,7 +101544,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ��Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -104210,6 +104353,8 @@ usages:
     reprocess:
       Vargur: 1
   Vedmak:
+    materialManuf: !!set
+      Ikitursa Blueprint: null
     maxreprocess: 0.55
     productManuf: !!set
       Vedmak Blueprint: null
@@ -104264,6 +104409,51 @@ usages:
     maxreprocess: 0.55
     productInvention: !!set
       Veldspar Mining Crystal I Blueprint: null
+  Veles Entropic Radiation Sink:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Veles Entropic Radiation Sink Blueprint: null
+    reprocess:
+      Tritanium: 676
+      Mexallon: 318
+      Isogen: 2
+      Zydrine: 6
+      Megacyte: 2
+  Veles Heavy Entropic Disintegrator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Veles Heavy Entropic Disintegrator Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 62
+      Tritanium: 4453
+      Pyerite: 1287
+      Mexallon: 1199
+      Crystalline Isogen-10: 14
+      Megacyte: 2
+  Veles Light Entropic Disintegrator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Veles Light Entropic Disintegrator Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 28
+      Tritanium: 1102
+      Pyerite: 113
+      Mexallon: 4
+      Nocxium: 2
+      Zydrine: 2
+      Crystalline Isogen-10: 8
+  Veles Supratidal Entropic Disintegrator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Veles Supratidal Entropic Disintegrator Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 64
+      Tritanium: 13684
+      Pyerite: 4117
+      Mexallon: 3851
+      Zydrine: 2
+      Crystalline Isogen-10: 22
+      Megacyte: 8
   Vendetta:
     maxreprocess: 0.55
     productManuf: !!set
@@ -107653,23 +107843,16 @@ usages:
     productManuf: !!set
       Zarmazd Blueprint: null
     reprocess:
-      Tritanium: 514356
-      Tesseract Capacitor Unit: 750
-      Pyerite: 184233
-      Mexallon: 39907
-      Isogen: 9687
-      Linear Shield Emitter: 150
-      Nocxium: 2387
-      Morphite: 90
-      Zydrine: 1202
-      Megacyte: 156
-      Fusion Thruster: 75
-      Zero-Point Condensate: 546
       Radar Sensor Cluster: 263
-      Nanoelectrical Microprocessor: 1800
-      Construction Blocks: 75
+      Linear Shield Emitter: 150
+      R.A.M.- Starship Tech: 12
+      Radiation Absorption Thruster: 71
+      Morphite: 90
       Tungsten Carbide Armor Plate: 2250
-      Antimatter Reactor Unit: 23
+      'Singularity Radiation Convertor ': 20
+      Zero-Point Field Manipulator: 750
+      Trinary State Processor: 1800
+      Lattice Locked Dekaisogen: 80
   Zarmazd Blueprint:
     maxreprocess: 0.55
     productInvention: !!set
@@ -107755,6 +107938,21 @@ usages:
       Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
       Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
       Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
+      Zorya's Light Entropic Disintegrator Blueprint: null
+      Zorya's Heavy Entropic Disintegrator Blueprint: null
+      Zorya's Supratidal Entropic Disintegrator Blueprint: null
+      Zorya's Entropic Radiation Sink Blueprint: null
+      Veles Entropic Radiation Sink Blueprint: null
+      Veles Light Entropic Disintegrator Blueprint: null
+      Veles Heavy Entropic Disintegrator Blueprint: null
+      Veles Supratidal Entropic Disintegrator Blueprint: null
+    maxreprocess: 0.55
+  Zero-Point Field Manipulator:
+    materialManuf: !!set
+      Zarmazd Blueprint: null
+      Nergal Blueprint: null
+      Ikitursa Blueprint: null
+      Draugur Blueprint: null
     maxreprocess: 0.55
   Zero-Point Mass Entangler:
     maxreprocess: 0.55
@@ -107799,6 +107997,55 @@ usages:
       Nocxium: 2
       Zydrine: 2
       Megacyte: 2
+  Zorya's Entropic Radiation Sink:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Zorya's Entropic Radiation Sink Blueprint: null
+    reprocess:
+      Tritanium: 676
+      Miniature Electronics: 3
+      Nanoelectrical Microprocessor: 8
+      Mexallon: 318
+      Isogen: 2
+      Zydrine: 6
+      Morphite: 8
+      Megacyte: 2
+      Mechanical Parts: 8
+  Zorya's Heavy Entropic Disintegrator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Zorya's Heavy Entropic Disintegrator Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 52
+      Tritanium: 4453
+      Pyerite: 1287
+      Mexallon: 1199
+      Crystalline Isogen-10: 14
+      Megacyte: 2
+  Zorya's Light Entropic Disintegrator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Zorya's Light Entropic Disintegrator Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 28
+      Tritanium: 1102
+      Pyerite: 113
+      Mexallon: 4
+      Nocxium: 2
+      Zydrine: 2
+      Crystalline Isogen-10: 8
+  Zorya's Supratidal Entropic Disintegrator:
+    maxreprocess: 0.55
+    productManuf: !!set
+      Zorya's Supratidal Entropic Disintegrator Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 64
+      Tritanium: 13684
+      Pyerite: 4117
+      Mexallon: 3851
+      Zydrine: 2
+      Crystalline Isogen-10: 22
+      Megacyte: 8
   Zydrine:
     materialManuf: !!set
       Bantam Blueprint: null
@@ -108427,7 +108674,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ��Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -108637,7 +108884,7 @@ usages:
   ‘Jormungandr’ Explosive Reaper:
     maxreprocess: 0.55
     productManuf: !!set
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ��Jormungandr’ Explosive Reaper Blueprint: null
     reprocess:
       Tritanium: 1650078
       Pyerite: 1360078
@@ -108685,7 +108932,7 @@ usages:
     maxreprocess: 0.55
     reprocess:
       Raven: 1
-  伊什塔级YC117年特���版:
+  伊什塔级YC117年特别版:
     maxreprocess: 0.55
     reprocess:
       Ishtar: 1
@@ -108693,7 +108940,7 @@ usages:
     maxreprocess: 0.55
     reprocess:
       Rattlesnake: 1
-  地狱天使级YC117年特别版:
+  地狱天使级YC117年特别��:
     maxreprocess: 0.55
     reprocess:
       Abaddon: 1
@@ -108717,7 +108964,7 @@ usages:
     maxreprocess: 0.55
     reprocess:
       Apocalypse: 1
-  银鹰级YC117年特别版:
+  银鹰���YC117年特别版:
     maxreprocess: 0.55
     reprocess:
       Eagle: 1

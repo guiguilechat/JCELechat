@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import org.yaml.snakeyaml.Yaml;
@@ -103,5 +104,13 @@ public class Blueprint {
 	public int maxCopyRuns;
 
 	public boolean seeded;
+
+	public double makeEIV(Function<Integer, Double> getAdjusted) {
+		if (manufacturing == null || manufacturing.materials == null) {
+			return 0.0;
+		}
+		return manufacturing.materials.parallelStream()
+				.mapToDouble(mat -> mat == null ? 0 : mat.quantity * getAdjusted.apply(mat.id)).sum();
+	}
 
 }

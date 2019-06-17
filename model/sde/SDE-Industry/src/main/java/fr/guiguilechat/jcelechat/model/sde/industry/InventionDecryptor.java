@@ -5,9 +5,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.yaml.CleanRepresenter;
 import fr.guiguilechat.jcelechat.model.sde.yaml.YAMLTools;
 
@@ -61,6 +63,65 @@ public class InventionDecryptor {
 	public int me = 0;
 	public int te = 0;
 	public String name;
+
+	////
+	// interaction with invention
+	////
+
+	/**
+	 * get the effective ME of an invented blueprint from a copy of given one
+	 *
+	 * @param target
+	 *          the blueprint copy
+	 * @return the effective ME, if success
+	 */
+	public int getMe(Blueprint target) {
+		return 2 + me;
+	}
+
+	/**
+	 * get the effective TE of an invented blueprint from a copy of given one
+	 *
+	 * @param target
+	 *          the blueprint copy
+	 * @return the effective TE, if success
+	 */
+	public int getTe(Blueprint target) {
+		return 4 + me;
+	}
+
+	/**
+	 * get the effective number of runs of an invented blueprint from a copy of
+	 * given one
+	 *
+	 * @param target
+	 *          the blueprint copy
+	 * @return the effective number of runs, if success
+	 */
+	public int getMaxRuns(Blueprint target) {
+		return target.invention.products.get(0).quantity + maxrun;
+	}
+
+	/**
+	 * get the probability of success of inventing a product bpc from a copy of a
+	 * blueprint
+	 *
+	 * @param target
+	 *          the blueprint copy
+	 * @param invented
+	 *          one of the products of the invention from target
+	 * @param skills
+	 *          the skills of the inventer
+	 * @return the probability (base 1) to success based only on the parameters
+	 *         given.
+	 */
+	public double getProbability(Blueprint target, MaterialProd invented, Map<String, Integer> skills) {
+		int engSkills = target.invention.skills.keySet().stream().filter(s -> !s.contains("Encryption"))
+				.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
+		int encSkill = target.invention.skills.keySet().stream().filter(s -> s.contains("Encryption"))
+				.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
+		return Math.min(1.0, invented.probability * (1.0 + engSkills * 1.0 / 30 + encSkill * 1.0 / 40) * probmult);
+	}
 
 	@Override
 	public String toString() {

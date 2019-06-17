@@ -127,6 +127,10 @@ public class IndustryTranslater {
 			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
 		}
 
+		InventionDecryptor nullDecryptor = new InventionDecryptor();
+		nullDecryptor.name = "no decryptor";
+		decryptors.put(nullDecryptor.name, nullDecryptor);
+
 		// sort the usages by item name
 		ArrayList<Entry<String, IndustryUsage>> l = new ArrayList<>(usages.entrySet());
 		Collections.sort(l, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));

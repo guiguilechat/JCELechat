@@ -43,6 +43,11 @@ public class Location {
 		return obj != null && obj.getClass() == this.getClass() && ((Location) obj).id == id;
 	}
 
+	@Override
+	public String toString() {
+		return "" + type + ":" + name + "(" + id + ")";
+	}
+
 	/**
 	 * @see https://docs.esi.evetech.net/docs/asset_location_id
 	 */
