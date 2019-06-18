@@ -87,7 +87,7 @@ public class InventionDecryptor {
 	 * @return the effective TE, if success
 	 */
 	public int getTe(Blueprint target) {
-		return 4 + me;
+		return 4 + te;
 	}
 
 	/**
@@ -116,6 +116,10 @@ public class InventionDecryptor {
 	 *         given.
 	 */
 	public double getProbability(Blueprint target, MaterialProd invented, Map<String, Integer> skills) {
+		if (skills == null) {
+			System.err.println("skills are null, throwing exception");
+			throw new NullPointerException("skills null");
+		}
 		int engSkills = target.invention.skills.keySet().stream().filter(s -> !s.contains("Encryption"))
 				.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
 		int encSkill = target.invention.skills.keySet().stream().filter(s -> s.contains("Encryption"))
