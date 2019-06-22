@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -254,7 +255,7 @@ public class Corporation {
 					.map(division -> con.raw.cache.corporations.wallets_transactions(getId(), division.division, null)).map(l->
 					ObsMapHolderImpl.toMap(l, k -> "" + getId() + k.transaction_id)).collect(Collectors.toList())
 					.toArray(new ObsMapHolderImpl[] {});
-					walletTransactions = ObsMapHolderImpl.merge(wallets);
+					walletTransactions = wallets[0].merge(Arrays.copyOfRange(wallets, 1, wallets.length));
 				}
 			});
 		}
