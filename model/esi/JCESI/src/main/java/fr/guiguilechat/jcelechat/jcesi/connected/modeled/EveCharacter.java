@@ -15,6 +15,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.LocationCache;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
@@ -25,12 +26,13 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_characters_character_id_skills_skills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_blueprints_location_flag;
-import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
@@ -138,8 +140,32 @@ public class EveCharacter {
 	 *         will return the same value.
 	 *
 	 */
+
+	private ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> industryJobs = null;
+
 	public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> getIndustryJobs() {
-		return ObsMapHolderImpl.toMap(con.raw.cache.characters.industry_jobs(con.characterId(), false), j -> j.job_id);
+		if (industryJobs == null) {
+			synchronized (this) {
+				if (industryJobs == null) {
+					industryJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false).map(j -> j.job_id);
+				}
+			}
+		}
+		return industryJobs;
+	}
+
+	private ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> researchJobs = null;
+
+	public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> getResearchJobs() {
+		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> industryJobs = getIndustryJobs();
+		if (researchJobs == null) {
+			synchronized (industryJobs) {
+				if (researchJobs == null) {
+					researchJobs = industryJobs.filter(null, j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j));
+				}
+			}
+		}
+		return researchJobs;
 	}
 
 	public static boolean isManufacture(R_get_characters_character_id_industry_jobs job) {
@@ -162,11 +188,12 @@ public class EveCharacter {
 		return job.activity_id == 8;
 	}
 
+
 	public ObservableNumberValue availableResearchSlots() {
-		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> jobs = getIndustryJobs();
+		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> jobs = getResearchJobs();
 		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
 			synchronized (jobs) {
-				return jobs.copy().values().stream().filter(j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j)).count();
+				return (long) jobs.size().get();
 			}
 		}, jobs.asObservable());
 		ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation.getIndustryJobs();
@@ -178,12 +205,14 @@ public class EveCharacter {
 						.count();
 			}
 		}, corpJobs.asObservable());
-		return new SimpleIntegerProperty(1 + getSkills().getOrDefault(3406, 0) + getSkills().getOrDefault(24624, 0))
+		return new SimpleIntegerProperty(
+				1 + getSkillsID2Level().getOrDefault(3406, 0) + getSkillsID2Level().getOrDefault(24624, 0))
 				.subtract(charJobsVar).subtract(corpJobsVar);
 	}
 
 	public ObservableNumberValue availableManufSlots() {
 		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> charjobs = getIndustryJobs();
+		charjobs.values().filter(j -> isManufacture(j)).size();
 		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
 			synchronized (charjobs) {
 				return charjobs.copy().values().stream().filter(j -> isManufacture(j)).count();
@@ -196,7 +225,8 @@ public class EveCharacter {
 						.filter(j -> Corporation.isManufacture(j)).count();
 			}
 		}, corpJobs.asObservable());
-		return new SimpleIntegerProperty(1 + getSkills().getOrDefault(3387, 0) + getSkills().getOrDefault(24625, 0))
+		return new SimpleIntegerProperty(
+				1 + getSkillsID2Level().getOrDefault(3387, 0) + getSkillsID2Level().getOrDefault(24625, 0))
 				.subtract(charJobsVar).subtract(corpJobsVar);
 	}
 
@@ -402,14 +432,38 @@ public class EveCharacter {
 	// skills
 	//
 
-	private Map<Integer, Integer> skills = null;
+	private ObsListHolder<get_characters_character_id_skills_skills> skills = null;
 
-	public synchronized Map<Integer, Integer> getSkills() {
+	public synchronized ObsListHolder<get_characters_character_id_skills_skills> getSkills() {
 		if (skills == null) {
-			skills = Stream.of(con.raw.cache.characters.skills(con.characterId()).get().skills)
-					.collect(Collectors.toMap(s -> s.skill_id, s -> s.active_skill_level));
+			skills = con.raw.cache.characters.skills(con.characterId()).toList(c -> Arrays.asList(c.skills));
 		}
 		return skills;
+	}
+
+	private ObsMapHolder<Integer, Integer> skillsID2Level = null;
+
+	public ObsMapHolder<Integer, Integer> getSkillsID2Level() {
+		ObsListHolder<get_characters_character_id_skills_skills> skills = getSkills();
+		if (skillsID2Level == null) {
+			synchronized (skills) {
+				skillsID2Level = skills.map(s -> s.skill_id, s -> s.active_skill_level);
+			}
+		}
+		return skillsID2Level;
+	}
+
+	private ObsMapHolder<String, Integer> skillsName2Level = null;
+
+	public ObsMapHolder<String, Integer> getskillsName2Level() {
+		ObsListHolder<get_characters_character_id_skills_skills> skills = getSkills();
+		if (skillsName2Level == null) {
+			synchronized (skills) {
+				skillsName2Level = skills.map(s -> ESIStatic.INSTANCE.cache.universe.types(s.skill_id).get().name,
+						s -> s.active_skill_level);
+			}
+		}
+		return skillsName2Level;
 	}
 
 	public ObsListHolder<R_get_characters_character_id_skillqueue> getSkillQueue() {

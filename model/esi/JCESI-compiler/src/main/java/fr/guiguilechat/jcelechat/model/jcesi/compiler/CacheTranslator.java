@@ -27,9 +27,9 @@ import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.FetchTranslator.RETURNTYPE;
-import fr.lelouet.collectionholders.interfaces.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import io.swagger.models.Operation;
 import io.swagger.models.parameters.Parameter;

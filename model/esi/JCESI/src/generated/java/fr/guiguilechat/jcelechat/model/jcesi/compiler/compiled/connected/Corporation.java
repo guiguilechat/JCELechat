@@ -7,7 +7,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_7_int_long
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_extractions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_observers;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_observers_observer_id;
-import fr.lelouet.collectionholders.interfaces.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

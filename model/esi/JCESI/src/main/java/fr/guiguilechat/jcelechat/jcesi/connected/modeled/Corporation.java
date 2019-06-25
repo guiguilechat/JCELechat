@@ -25,11 +25,11 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
-import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.impl.ObsObjHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;

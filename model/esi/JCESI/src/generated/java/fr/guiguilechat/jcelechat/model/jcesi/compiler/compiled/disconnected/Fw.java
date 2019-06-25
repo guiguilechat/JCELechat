@@ -5,8 +5,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_f
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars;
-import fr.lelouet.collectionholders.interfaces.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;

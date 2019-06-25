@@ -7,7 +7,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems_cost_indices;
-import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 
 public class Industry {
 

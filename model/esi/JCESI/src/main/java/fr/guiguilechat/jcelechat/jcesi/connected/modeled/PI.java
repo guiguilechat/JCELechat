@@ -7,8 +7,8 @@ import java.util.List;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets_planet_id;
-import fr.lelouet.collectionholders.impl.ObsMapHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsMapHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 
