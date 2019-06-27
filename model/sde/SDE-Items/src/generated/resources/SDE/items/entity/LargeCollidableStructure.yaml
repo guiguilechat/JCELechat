@@ -2143,10 +2143,10 @@ items:
     name: Tough Gallente Starbase Control Tower
     published: false
     volume: 1150.0
-  Transport Field Effect Sublyon:
+  Transport Field Effect Subpylon:
     id: 50180
     mass: 1000.0
-    name: Transport Field Effect Sublyon
+    name: Transport Field Effect Subpylon
     published: false
     volume: 1000.0
   Triglavian Entropic Monitor:

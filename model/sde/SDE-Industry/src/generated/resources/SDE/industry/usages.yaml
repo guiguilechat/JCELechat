@@ -43530,9 +43530,10 @@ usages:
       R.A.M.- Starship Tech: 12
       Sustained Shield Emitter: 125
       Radiation Absorption Thruster: 75
-      'Singularity Radiation Convertor ': 800
       Morphite: 80
+      'Singularity Radiation Convertor ': 22
       Titanium Diborite Armor Plate: 2550
+      Zero-Point Field Manipulator: 800
       Trinary State Processor: 1600
       Lattice Locked Dekaisogen: 80
   Ikitursa Blueprint:
@@ -47542,7 +47543,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ��Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -54509,6 +54510,18 @@ usages:
       Incognito Ship Data Interface Blueprint: null
       Incognito Tuner Data Interface Blueprint: null
     maxreprocess: 0.55
+  Majorana Heavy Missile:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 496
+      Pyerite: 220
+      Nocxium: 2
+  Majorana Light Missile:
+    maxreprocess: 0.55
+    reprocess:
+      Tritanium: 150
+      Pyerite: 18
+      Mexallon: 12
   Makele's Tag:
     maxreprocess: 0.55
     reprocess:
@@ -59031,7 +59044,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ��Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -60312,7 +60325,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ��Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -66237,7 +66250,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ��Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -73014,7 +73027,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ��Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -101544,7 +101557,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ��Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -108674,7 +108687,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ��Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -108884,7 +108897,7 @@ usages:
   ‘Jormungandr’ Explosive Reaper:
     maxreprocess: 0.55
     productManuf: !!set
-      ��Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
     reprocess:
       Tritanium: 1650078
       Pyerite: 1360078
@@ -108924,7 +108937,7 @@ usages:
       Construction Blocks: 30
       Tungsten Carbide Armor Plate: 300
       Antimatter Reactor Unit: 6
-  万王宝座级YC117年特别版:
+  万王宝座级YC117年特���版:
     maxreprocess: 0.55
     reprocess:
       Megathron: 1
@@ -108932,7 +108945,7 @@ usages:
     maxreprocess: 0.55
     reprocess:
       Raven: 1
-  伊什塔级YC117年特别版:
+  伊什塔级YC117��特别版:
     maxreprocess: 0.55
     reprocess:
       Ishtar: 1
@@ -108940,7 +108953,7 @@ usages:
     maxreprocess: 0.55
     reprocess:
       Rattlesnake: 1
-  地狱天使级YC117年特别��:
+  地狱天使级YC117年特别版:
     maxreprocess: 0.55
     reprocess:
       Abaddon: 1
@@ -108964,7 +108977,7 @@ usages:
     maxreprocess: 0.55
     reprocess:
       Apocalypse: 1
-  银鹰���YC117年特别版:
+  银鹰级YC117年特别版:
     maxreprocess: 0.55
     reprocess:
       Eagle: 1

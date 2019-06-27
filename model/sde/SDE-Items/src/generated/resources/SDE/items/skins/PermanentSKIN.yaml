@@ -399,6 +399,12 @@ items:
     name: Anathema Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Anathema Star Captain SKIN (Permanent):
+    id: 52573
+    marketGroup: 2051
+    name: Anathema Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Anshar Exoplanets Hunter SKIN (Permanent):
     id: 45930
     marketGroup: 2097
@@ -574,6 +580,12 @@ items:
     name: Apocalypse Navy Issue Purity of the Throne SKIN (Permanent)
     published: true
     volume: 0.01
+  Apocalypse Navy Issue Star Captain SKIN (Permanent):
+    id: 52583
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Apocalypse Purity of the Throne SKIN (Permanent):
     id: 42585
     marketGroup: 1964
@@ -666,6 +678,12 @@ items:
     id: 41680
     marketGroup: 2278
     name: Apostle Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apostle Star Captain SKIN (Permanent):
+    id: 52588
+    marketGroup: 2278
+    name: Apostle Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
   Apotheosis Capsuleer Day XVI SKIN (Permanent):
@@ -916,6 +934,12 @@ items:
     name: Archon Spirit SKIN (Permanent)
     published: true
     volume: 0.01
+  Archon Star Captain SKIN (Permanent):
+    id: 52589
+    marketGroup: 1974
+    name: Archon Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Archon Tash-Murkon SKIN (Permanent):
     id: 34648
     marketGroup: 1974
@@ -1133,6 +1157,12 @@ items:
     id: 42590
     marketGroup: 2108
     name: Armageddon Navy Issue Purity of the Throne SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Armageddon Navy Issue Star Captain SKIN (Permanent):
+    id: 52584
+    marketGroup: 2108
+    name: Armageddon Navy Issue Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
   Armageddon Purity of the Throne SKIN (Permanent):
@@ -1466,6 +1496,12 @@ items:
     name: Augoror Navy Issue Serenity YC119 SKIN (Permanent)
     published: true
     volume: 0.01
+  Augoror Navy Issue Star Captain SKIN (Permanent):
+    id: 52576
+    marketGroup: 2063
+    name: Augoror Navy Issue Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Augoror Purity of the Throne SKIN (Permanent):
     id: 42566
     marketGroup: 1990
@@ -1772,6 +1808,12 @@ items:
     id: 46117
     marketGroup: 2078
     name: Basilisk Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Basilisk Vitalshift EGO SKIN (Permanent):
+    id: 52557
+    marketGroup: 2078
+    name: Basilisk Vitalshift EGO SKIN (Permanent)
     published: true
     volume: 0.01
   Basilisk Wiyrkomi SKIN (Permanent):
@@ -2385,6 +2427,12 @@ items:
     name: Bustard Steel Cardinal SKIN (Permanent)
     published: true
     volume: 0.01
+  Bustard Vitalshift EGO SKIN (Permanent):
+    id: 52561
+    marketGroup: 2089
+    name: Bustard Vitalshift EGO SKIN (Permanent)
+    published: true
+    volume: 0.01
   Bustard Wiyrkomi SKIN (Permanent):
     id: 36349
     marketGroup: 2089
@@ -2890,6 +2938,12 @@ items:
     name: Cerberus Steel Cardinal SKIN (Permanent)
     published: true
     volume: 0.01
+  Cerberus Vitalshift EGO SKIN (Permanent):
+    id: 52555
+    marketGroup: 2070
+    name: Cerberus Vitalshift EGO SKIN (Permanent)
+    published: true
+    volume: 0.01
   Cerberus Wiyrkomi SKIN (Permanent):
     id: 36344
     marketGroup: 2070
@@ -2942,6 +2996,12 @@ items:
     id: 46144
     marketGroup: 1985
     name: Charon Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Charon Vitalshift EGO SKIN (Permanent):
+    id: 52562
+    marketGroup: 1985
+    name: Charon Vitalshift EGO SKIN (Permanent)
     published: true
     volume: 0.01
   Charon Wiyrkomi SKIN (Permanent):
@@ -3476,6 +3536,12 @@ items:
     name: Cormorant Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
+  Cormorant Vitalshift EGO SKIN (Permanent):
+    id: 52553
+    marketGroup: 1995
+    name: Cormorant Vitalshift EGO SKIN (Permanent)
+    published: true
+    volume: 0.01
   Cormorant Wiyrkomi SKIN (Permanent):
     id: 36351
     name: Cormorant Wiyrkomi SKIN (Permanent)
@@ -3834,6 +3900,12 @@ items:
     name: Crusader Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Crusader Star Captain SKIN (Permanent):
+    id: 52569
+    marketGroup: 2059
+    name: Crusader Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Curse Cold Iron SKIN (Permanent):
     id: 42774
     marketGroup: 2081
@@ -3880,6 +3952,12 @@ items:
     id: 37508
     marketGroup: 2081
     name: Curse Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Curse Star Captain SKIN (Permanent):
+    id: 52578
+    marketGroup: 2081
+    name: Curse Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
   Cyclone Blue Tiger SKIN (Permanent):
@@ -4014,16 +4092,16 @@ items:
     name: Damavik Metamateria Exotica SKIN (Permanent)
     published: true
     volume: 0.01
+  Damavik Red Forests Thunderbird SKIN (Permanent):
+    id: 52442
+    marketGroup: 2486
+    name: Damavik Red Forests Thunderbird SKIN (Permanent)
+    published: true
+    volume: 0.01
   Damavik Singularity Storm SKIN (Permanent):
     id: 48649
     marketGroup: 2486
     name: Damavik Singularity Storm SKIN (Permanent)
-    published: true
-    volume: 0.01
-  Damavik Trig Beat 04 SKIN (Permanent):
-    id: 52442
-    marketGroup: 2486
-    name: Damavik Trig Beat 04 SKIN (Permanent)
     published: true
     volume: 0.01
   Damavik Triglavian Victory SKIN (Permanent):
@@ -4699,10 +4777,10 @@ items:
     name: Drekavac Metamateria Exotica SKIN (Permanent)
     published: true
     volume: 0.01
-  Drekavac Trig Beat 04 SKIN (Permanent):
+  Drekavac Red Forests Thunderbird SKIN (Permanent):
     id: 52444
     marketGroup: 2519
-    name: Drekavac Trig Beat 04 SKIN (Permanent)
+    name: Drekavac Red Forests Thunderbird SKIN (Permanent)
     published: true
     volume: 0.01
   Eagle Blue Tiger SKIN (Permanent):
@@ -4762,6 +4840,12 @@ items:
     id: 46115
     marketGroup: 2070
     name: Eagle Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Eagle Vitalshift EGO SKIN (Permanent):
+    id: 52558
+    marketGroup: 2070
+    name: Eagle Vitalshift EGO SKIN (Permanent)
     published: true
     volume: 0.01
   Eagle Wiyrkomi SKIN (Permanent):
@@ -5583,6 +5667,12 @@ items:
     name: Ferox Steel Cardinal SKIN (Permanent)
     published: true
     volume: 0.01
+  Ferox Vitalshift EGO SKIN (Permanent):
+    id: 52559
+    marketGroup: 1957
+    name: Ferox Vitalshift EGO SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ferox Wiyrkomi SKIN (Permanent):
     id: 36350
     name: Ferox Wiyrkomi SKIN (Permanent)
@@ -5903,6 +5993,12 @@ items:
     id: 46133
     marketGroup: 2025
     name: Golem Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Golem Vitalshift EGO SKIN (Permanent):
+    id: 52560
+    marketGroup: 2025
+    name: Golem Vitalshift EGO SKIN (Permanent)
     published: true
     volume: 0.01
   Golem Wiyrkomi SKIN (Permanent):
@@ -7277,6 +7373,12 @@ items:
     name: Impel Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Impel Star Captain SKIN (Permanent):
+    id: 52587
+    marketGroup: 2088
+    name: Impel Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Imperial Navy Slicer Cold Iron SKIN (Permanent):
     id: 42760
     marketGroup: 2000
@@ -7727,6 +7829,11 @@ items:
     id: 46109
     marketGroup: 2391
     name: Jackdaw Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Jackdaw Vitalshift EGO SKIN (Permanent):
+    id: 52554
+    name: Jackdaw Vitalshift EGO SKIN (Permanent)
     published: true
     volume: 0.01
   Jackdaw Yoiul Festival YC121 SKIN (Permanent):
@@ -8795,6 +8902,12 @@ items:
     name: Malediction Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Malediction Star Captain SKIN (Permanent):
+    id: 52570
+    marketGroup: 2059
+    name: Malediction Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Maller Cold Iron SKIN (Permanent):
     id: 42768
     marketGroup: 1990
@@ -8956,6 +9069,12 @@ items:
     id: 46098
     marketGroup: 2052
     name: Manticore Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Manticore Vitalshift EGO SKIN (Permanent):
+    id: 52552
+    marketGroup: 2052
+    name: Manticore Vitalshift EGO SKIN (Permanent)
     published: true
     volume: 0.01
   Manticore Wiyrkomi SKIN (Permanent):
@@ -10290,6 +10409,12 @@ items:
     name: Nightmare Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Nightmare True Deliverance SKIN (Permanent):
+    id: 52596
+    marketGroup: 1963
+    name: Nightmare True Deliverance SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ninazu Capsuleer Elite XV SKIN (Permanent):
     id: 47644
     marketGroup: 2280
@@ -10734,6 +10859,12 @@ items:
     name: Omen Navy Issue Purity of the Throne SKIN (Permanent)
     published: true
     volume: 0.01
+  Omen Navy Issue Star Captain SKIN (Permanent):
+    id: 52577
+    marketGroup: 2063
+    name: Omen Navy Issue Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Omen Operation Permafrost SKIN (Permanent):
     id: 49813
     marketGroup: 1990
@@ -10974,6 +11105,12 @@ items:
     name: Oracle Sarum Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Oracle Star Captain SKIN (Permanent):
+    id: 52582
+    marketGroup: 1956
+    name: Oracle Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Oracle Yoiul Festival YC121 SKIN (Permanent):
     id: 49946
     marketGroup: 1956
@@ -11183,6 +11320,12 @@ items:
     id: 46122
     marketGroup: 2063
     name: Osprey Navy Issue Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Osprey Navy Issue Vitalshift EGO SKIN (Permanent):
+    id: 52556
+    marketGroup: 2063
+    name: Osprey Navy Issue Vitalshift EGO SKIN (Permanent)
     published: true
     volume: 0.01
   Osprey Navy Issue Wiyrkomi SKIN (Permanent):
@@ -11432,6 +11575,12 @@ items:
     name: Phantasm Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Phantasm True Deliverance SKIN (Permanent):
+    id: 52597
+    marketGroup: 2030
+    name: Phantasm True Deliverance SKIN (Permanent)
+    published: true
+    volume: 0.01
   Phobos Exoplanets Hunter SKIN (Permanent):
     id: 45898
     marketGroup: 2075
@@ -11545,6 +11694,12 @@ items:
     name: Phoenix Steel Cardinal SKIN (Permanent)
     published: true
     volume: 0.01
+  Phoenix Vitalshift EGO SKIN (Permanent):
+    id: 52563
+    marketGroup: 1981
+    name: Phoenix Vitalshift EGO SKIN (Permanent)
+    published: true
+    volume: 0.01
   Phoenix Wiyrkomi SKIN (Permanent):
     id: 34662
     marketGroup: 1981
@@ -11604,6 +11759,12 @@ items:
     name: Pilgrim Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Pilgrim Star Captain SKIN (Permanent):
+    id: 52579
+    marketGroup: 2081
+    name: Pilgrim Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Pontifex Cold Iron SKIN (Permanent):
     id: 42764
     marketGroup: 2142
@@ -11638,6 +11799,12 @@ items:
     id: 40319
     marketGroup: 2142
     name: Pontifex Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Pontifex Star Captain SKIN (Permanent):
+    id: 52575
+    marketGroup: 2142
+    name: Pontifex Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
   Porpoise Amarr Industrial Livery SKIN (Permanent):
@@ -12046,6 +12213,12 @@ items:
     name: Prorator Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Prorator Star Captain SKIN (Permanent):
+    id: 52586
+    marketGroup: 2088
+    name: Prorator Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Prospect Amarr Industrial Livery SKIN (Permanent):
     id: 43751
     marketGroup: 2320
@@ -12400,6 +12573,12 @@ items:
     id: 37493
     marketGroup: 2051
     name: Purifier Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Purifier Star Captain SKIN (Permanent):
+    id: 52574
+    marketGroup: 2051
+    name: Purifier Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
   Ragnarok Blue Tiger SKIN (Permanent):
@@ -12840,6 +13019,12 @@ items:
     name: Redeemer Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Redeemer Star Captain SKIN (Permanent):
+    id: 52585
+    marketGroup: 2110
+    name: Redeemer Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Republic Fleet Firetail Dawn of Liberation SKIN (Permanent):
     id: 48499
     marketGroup: 2000
@@ -12904,6 +13089,12 @@ items:
     id: 37490
     marketGroup: 2047
     name: Retribution Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Retribution Star Captain SKIN (Permanent):
+    id: 52571
+    marketGroup: 2047
+    name: Retribution Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
   Retriever Amarr Industrial Livery SKIN (Permanent):
@@ -13104,6 +13295,12 @@ items:
     name: Revenant Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Revenant True Deliverance SKIN (Permanent):
+    id: 52598
+    marketGroup: 2376
+    name: Revenant True Deliverance SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rhea Blue Tiger SKIN (Permanent):
     id: 36750
     marketGroup: 2096
@@ -13252,10 +13449,10 @@ items:
     name: Rodiva Metamateria Exotica SKIN (Permanent)
     published: true
     volume: 0.01
-  Rodiva Trig Beat 04 SKIN (Permanent):
+  Rodiva Red Forests Thunderbird SKIN (Permanent):
     id: 52443
     marketGroup: 2485
-    name: Rodiva Trig Beat 04 SKIN (Permanent)
+    name: Rodiva Red Forests Thunderbird SKIN (Permanent)
     published: true
     volume: 0.01
   Rokh Blue Tiger SKIN (Permanent):
@@ -13708,6 +13905,12 @@ items:
     id: 37504
     marketGroup: 2069
     name: Sacrilege Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sacrilege Star Captain SKIN (Permanent):
+    id: 52581
+    marketGroup: 2069
+    name: Sacrilege Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
   Sansha Victory SKIN (Permanent):
@@ -14663,6 +14866,12 @@ items:
     id: 47006
     marketGroup: 2031
     name: Succubus Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Succubus True Deliverance SKIN (Permanent):
+    id: 52595
+    marketGroup: 2031
+    name: Succubus True Deliverance SKIN (Permanent)
     published: true
     volume: 0.01
   Sunesis Capsuleer Day XVI SKIN (Permanent):
@@ -16149,6 +16358,12 @@ items:
     name: Vengeance Raata Sunset SKIN (Permanent)
     published: true
     volume: 0.01
+  Vengeance Star Captain SKIN (Permanent):
+    id: 52572
+    marketGroup: 2047
+    name: Vengeance Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
   Venture Amarr Industrial Livery SKIN (Permanent):
     id: 43749
     marketGroup: 2321
@@ -16974,5 +17189,17 @@ items:
     id: 37505
     marketGroup: 2069
     name: Zealot Raata Sunset SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Zealot Star Captain SKIN (Permanent):
+    id: 52580
+    marketGroup: 2069
+    name: Zealot Star Captain SKIN (Permanent)
+    published: true
+    volume: 0.01
+  unnamed_g1950_ic0:
+    id: 52542
+    marketGroup: 2391
+    name: unnamed_g1950_ic0
     published: true
     volume: 0.01

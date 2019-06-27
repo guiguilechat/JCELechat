@@ -1,172 +1,212 @@
 items:
   Anchoring Damavik:
-    id: 52207
+    id: 52484
     mass: 950000.0
     name: Anchoring Damavik
     published: false
     volume: 28600.0
   Anchoring Kikimora:
-    id: 52213
+    id: 52485
     mass: 1350000.0
     name: Anchoring Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
   Blinding Damavik:
-    id: 52209
+    id: 52493
     mass: 950000.0
     name: Blinding Damavik
     published: false
     volume: 28600.0
   Blinding Kikimora:
-    id: 52217
+    id: 52497
     mass: 1350000.0
     name: Blinding Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
   Blinding Leshak:
-    id: 52216
+    id: 52494
     mass: 6.3E7
     name: Blinding Leshak
     price: 1.125E8
     published: false
     volume: 495000.0
   Ghosting Damavik:
-    id: 52210
+    id: 52486
     mass: 950000.0
     name: Ghosting Damavik
     published: false
     volume: 28600.0
   Ghosting Drekavac:
-    id: 52218
+    id: 52487
     mass: 9900000.0
     name: Ghosting Drekavac
     price: 1.65E8
     published: false
     volume: 233000.0
   Harrowing Damavik:
-    id: 52206
+    id: 52498
     mass: 950000.0
     name: Harrowing Damavik
     published: false
     volume: 28600.0
   Harrowing Kikimora:
-    id: 52212
+    id: 52499
     mass: 1350000.0
     name: Harrowing Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
   Harrowing Vedmak:
-    id: 52211
+    id: 52500
     mass: 9530000.0
     name: Harrowing Vedmak
     published: false
     volume: 118000.0
   Liminal Damavik:
-    id: 52182
+    id: 52478
     mass: 950000.0
     name: Liminal Damavik
     published: false
     volume: 28600.0
   Liminal Drekavac:
-    id: 52187
+    id: 52482
     mass: 9900000.0
     name: Liminal Drekavac
     price: 1.65E8
     published: false
     volume: 233000.0
   Liminal Kikimora:
-    id: 52185
+    id: 52479
     mass: 1350000.0
     name: Liminal Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
   Liminal Leshak:
-    id: 52184
+    id: 52483
     mass: 6.3E7
     name: Liminal Leshak
     price: 1.125E8
     published: false
     volume: 495000.0
   Liminal Rodiva:
-    id: 52186
+    id: 52481
     mass: 1.012E7
     name: Liminal Rodiva
     price: 7500000.0
     published: false
     volume: 118000.0
   Liminal Vedmak:
-    id: 52183
+    id: 52480
     mass: 9530000.0
     name: Liminal Vedmak
     published: false
     volume: 118000.0
   Renewing Damavik:
-    id: 52208
+    id: 52490
     mass: 950000.0
     name: Renewing Damavik
     published: false
     volume: 28600.0
   Renewing Leshak:
-    id: 52215
+    id: 52492
     mass: 6.3E7
     name: Renewing Leshak
     price: 1.125E8
     published: false
     volume: 495000.0
   Renewing Rodiva:
-    id: 52214
+    id: 52491
     mass: 1.012E7
     name: Renewing Rodiva
     price: 7500000.0
     published: false
     volume: 118000.0
   Starving Damavik:
-    id: 52205
+    id: 52488
     mass: 950000.0
     name: Starving Damavik
     published: false
     volume: 28600.0
   Starving Drekavac:
-    id: 52234
+    id: 52489
     mass: 9900000.0
     name: Starving Drekavac
     price: 1.65E8
     published: false
     volume: 233000.0
   Tangling Damavik:
-    id: 52232
+    id: 52495
     mass: 950000.0
     name: Tangling Damavik
     published: false
     volume: 28600.0
   Tangling Kikimora:
-    id: 52233
+    id: 52496
     mass: 1350000.0
     name: Tangling Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
   Zorya's Damavik:
-    id: 52336
+    id: 52474
     mass: 950000.0
     name: Zorya's Damavik
     published: false
     volume: 28600.0
   Zorya's Drekavac:
-    id: 52337
+    id: 52473
     mass: 9900000.0
     name: Zorya's Drekavac
     price: 1.65E8
     published: false
     volume: 233000.0
-  Zorya's Leshak:
+  Zorya's Hospodar TTC-243:
+    id: 52337
+    mass: 9900000.0
+    name: Zorya's Hospodar TTC-243
+    price: 1.65E8
+    published: false
+    volume: 233000.0
+  Zorya's Hospodar TTC-3:
+    id: 52336
+    mass: 950000.0
+    name: Zorya's Hospodar TTC-3
+    published: false
+    volume: 28600.0
+  Zorya's Hospodar TTC-729:
     id: 52338
     mass: 6.3E7
+    name: Zorya's Hospodar TTC-729
+    price: 1.125E8
+    published: false
+    volume: 495000.0
+  Zorya's Leshak:
+    id: 52475
+    mass: 6.3E7
     name: Zorya's Leshak
+    price: 1.125E8
+    published: false
+    volume: 495000.0
+  Zorya's Voivode TTC-243:
+    id: 52501
+    mass: 9900000.0
+    name: Zorya's Voivode TTC-243
+    price: 1.65E8
+    published: false
+    volume: 233000.0
+  Zorya's Voivode TTC-3:
+    id: 52502
+    mass: 950000.0
+    name: Zorya's Voivode TTC-3
+    published: false
+    volume: 28600.0
+  Zorya's Voivode TTC-729:
+    id: 52503
+    mass: 6.3E7
+    name: Zorya's Voivode TTC-729
     price: 1.125E8
     published: false
     volume: 495000.0

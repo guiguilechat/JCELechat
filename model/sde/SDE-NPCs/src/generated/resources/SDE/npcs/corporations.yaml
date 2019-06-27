@@ -28000,6 +28000,10 @@ corporations:
     faction: Caldari State
     id: 1000197
     name: Templis Dragonaurs
+  The Convocation of Triglav:
+    faction: Triglavian Collective
+    id: 1000298
+    name: The Convocation of Triglav
   The Leisure Group:
     concordRate: 0.8
     faction: Minmatar Republic
