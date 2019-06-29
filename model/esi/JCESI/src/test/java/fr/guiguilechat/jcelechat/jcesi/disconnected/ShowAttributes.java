@@ -9,6 +9,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
@@ -24,17 +25,26 @@ public class ShowAttributes {
 		// showEntity(2454);
 
 		// starving leshak
-		showEntity(48125);
+		// showEntity(48125);
+
+		// rakovene
+		// showEntity(52315);
+		// showGroup(4030);
+		// showEntity(18036);
+		showGroup(482, "asteroidgroup");
 	}
 
 	public static void showEntity(int typeId, String... filters) {
 		R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache.universe.types(typeId).get();
-		System.out.println(type.name);
+		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(type.group_id).get();
+		R_get_universe_categories_category_id cat = ESIStatic.INSTANCE.cache.universe.categories(group.category_id).get();
+		System.out.println(type.name + "(" + typeId + ") group=" + group.name + "(" + group.group_id + ") category="
+				+ cat.name + "(" + cat.category_id + ")");
 		Stream.of(type.dogma_attributes).sorted((a1, a2) -> a1.attribute_id - a2.attribute_id).parallel().map(att -> {
 			R_get_dogma_attributes_attribute_id dogattr = ESIStatic.INSTANCE.cache.dogma.attributes(att.attribute_id).get();
 			if (filters != null) {
 				for (String filter : filters) {
-					if (filter != null && !dogattr.name.contains(filter)) {
+					if (filter != null && !dogattr.name.toLowerCase().contains(filter.toLowerCase())) {
 						return null;
 					}
 				}

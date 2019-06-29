@@ -9,6 +9,8 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpAssetFolder;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.SystemAsset;
@@ -37,6 +39,8 @@ import javafx.collections.ObservableMap;
 
 public class Corporation {
 
+	private static final Logger logger = org.slf4j.LoggerFactory.getLogger(Corporation.class);
+
 	protected final ESIAccount con;
 
 	public Corporation(ESIAccount con) {
@@ -53,8 +57,7 @@ public class Corporation {
 	// industry jobs
 
 	public ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
-		return ObsMapHolderImpl.toMap(
-				con.raw.cache.corporations.industry_jobs(getId(), false), j -> j.job_id);
+		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.industry_jobs(getId(), false), j -> j.job_id);
 	}
 
 	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
@@ -144,36 +147,36 @@ public class Corporation {
 	 * @return the location->typeid->quantity
 	 */
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
-		ObservableMap<Long, ObservableMap<Integer, Integer>> assets = FXCollections
-				.observableMap(new LinkedHashMap<>());
-		R_get_corporations_corporation_id_assets[] itemsArr = con.raw.cache.corporations
-				.assets(getId()).copy()
-				.stream()
+		ObservableMap<Long, ObservableMap<Integer, Integer>> assets = FXCollections.observableMap(new LinkedHashMap<>());
+		R_get_corporations_corporation_id_assets[] itemsArr = con.raw.cache.corporations.assets(getId()).copy().stream()
 				.filter(asset -> !get_corporations_corporation_id_assets_location_flag.AutoFit.equals(asset.location_flag))
 				.toArray(R_get_corporations_corporation_id_assets[]::new);
-		// we make the map of itemid->locations. if a location is actually an
-		// asset, we iterally map it to this asset's location instead
-		Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
-				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id));
-		Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream()
-				.collect(Collectors.toMap(Entry::getKey, e -> {
-					Long ret = e.getValue();
-					while (baseLocationMap.containsKey(ret)) {
-						ret = baseLocationMap.get(ret);
-					}
-					return ret;
-				}));
-		Map<Long, Map<Integer, Integer>> newitems = Stream.of(itemsArr)
-				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
+		try {
+			// we make the map of itemid->locations. if a location is actually an
+			// asset, we iterally map it to this asset's location instead
+			Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
+					.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id));
+			Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
+				Long ret = e.getValue();
+				while (baseLocationMap.containsKey(ret)) {
+					ret = baseLocationMap.get(ret);
+				}
+				return ret;
+			}));
+			Map<Long, Map<Integer, Integer>> newitems = Stream.of(itemsArr)
+					.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
 
-		for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
-			ObservableMap<Integer, Integer> om = assets.get(e.getKey());
-			if (om == null) {
-				om = FXCollections.observableHashMap();
-				assets.put(e.getKey(), om);
+			for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
+				ObservableMap<Integer, Integer> om = assets.get(e.getKey());
+				if (om == null) {
+					om = FXCollections.observableHashMap();
+					assets.put(e.getKey(), om);
+				}
+				om.keySet().retainAll(e.getValue().keySet());
+				om.putAll(e.getValue());
 			}
-			om.keySet().retainAll(e.getValue().keySet());
-			om.putAll(e.getValue());
+		} catch (Exception e) {
+			logger.warn("while getting assets", e);
 		}
 		return assets;
 	}
@@ -192,19 +195,16 @@ public class Corporation {
 	}
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
-		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.blueprints(getId()),
-				bp -> bp.item_id);
+		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.blueprints(getId()), bp -> bp.item_id);
 	}
 
 	private ObsMapHolder<Long, R_get_corporations_corporation_id_structures> structures = null;
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_structures> getStructures() {
-		if(structures==null) {
+		if (structures == null) {
 			synchronized (this) {
-				if(structures==null) {
-					structures = ObsMapHolderImpl.toMap(
-							con.raw.cache.corporations.structures(getId()),
-							str -> str.structure_id);
+				if (structures == null) {
+					structures = ObsMapHolderImpl.toMap(con.raw.cache.corporations.structures(getId()), str -> str.structure_id);
 				}
 			}
 		}
@@ -252,8 +252,8 @@ public class Corporation {
 					@SuppressWarnings("unchecked")
 					ObsMapHolderImpl<String, R_get_corporations_corporation_id_wallets_division_transactions>[] wallets = Stream
 					.of(getDivisions().get().wallet)
-					.map(division -> con.raw.cache.corporations.wallets_transactions(getId(), division.division, null)).map(l->
-					ObsMapHolderImpl.toMap(l, k -> "" + getId() + k.transaction_id)).collect(Collectors.toList())
+					.map(division -> con.raw.cache.corporations.wallets_transactions(getId(), division.division, null))
+					.map(l -> ObsMapHolderImpl.toMap(l, k -> "" + getId() + k.transaction_id)).collect(Collectors.toList())
 					.toArray(new ObsMapHolderImpl[] {});
 					walletTransactions = wallets[0].merge(Arrays.copyOfRange(wallets, 1, wallets.length));
 				}

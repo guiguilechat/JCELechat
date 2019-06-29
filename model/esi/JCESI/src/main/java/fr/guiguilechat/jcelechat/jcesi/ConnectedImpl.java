@@ -204,6 +204,9 @@ public abstract class ConnectedImpl implements ITransfer {
 					}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr))
 					.collect(Collectors.toList()));
 		}
+		if (res.responseCode != 200 && res.responseCode != 304) {
+			logger.debug("request pages received responsecode=" + res.responseCode + " error=" + res.error);
+		}
 		return res;
 	}
 
@@ -489,16 +492,19 @@ public abstract class ConnectedImpl implements ITransfer {
 							cacheHandler.accept(res.getOK());
 						} else if (res.isRedirect() && res.getResponseCode() == 304) {
 							lastEtag = res.getETag();
-						} else if (res.isClientError() && res.getResponseCode() != 420) {
+						} else if (res.isClientError() || res.isRedirect()) {
 							logger.debug(res.getError());
 							cacheHandler.accept(null);
 						} else {
 							logger.debug("" + res.getResponseCode() + " : " + res.getError());
 						}
 						delay_ms = res.getCacheExpire();
+						if (res.isServerError()) {
+							logger.debug("waiting 10s " + res.getError());
+							delay_ms = 0;
+						}
 					}
 				}
-				schedule(delay_ms);
 			} catch (Throwable e) {
 				logger.warn("while fetching " + loggingName, e);
 			} finally {
@@ -506,12 +512,13 @@ public abstract class ConnectedImpl implements ITransfer {
 					count_shortdelay++;
 					delay_ms = count_shortdelay * default_wait_ms;
 					logger.trace(loggingName + " sleep for (corrected)"
-							+ (delay_ms < default_wait_ms ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
+							+ "" + delay_ms / 1000 + "s");
 				} else {
 					logger.trace(loggingName + " sleep for "
-							+ (delay_ms < default_wait_ms ? delay_ms + "ms" : "" + delay_ms / 1000 + "s"));
+							+ "" + delay_ms / 1000 + "s");
 					count_shortdelay = 0;
 				}
+				schedule(delay_ms);
 			}
 		}
 
@@ -579,7 +586,8 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		@Override
 		protected Requested<List<T>> fetch(Map<String, String> parameters) {
-			return requestGetPages(fetcher, parameters);
+			Requested<List<T>> ret = requestGetPages(fetcher, parameters);
+			return ret;
 		}
 	}
 
