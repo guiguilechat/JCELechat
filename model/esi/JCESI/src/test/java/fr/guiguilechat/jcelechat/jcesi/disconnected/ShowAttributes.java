@@ -31,7 +31,10 @@ public class ShowAttributes {
 		// showEntity(52315);
 		// showGroup(4030);
 		// showEntity(18036);
-		showGroup(482, "asteroidgroup");
+		// showGroup(482, "asteroidgroup");
+
+		// drifter bs
+		showGroup(1310);
 	}
 
 	public static void showEntity(int typeId, String... filters) {
@@ -40,17 +43,22 @@ public class ShowAttributes {
 		R_get_universe_categories_category_id cat = ESIStatic.INSTANCE.cache.universe.categories(group.category_id).get();
 		System.out.println(type.name + "(" + typeId + ") group=" + group.name + "(" + group.group_id + ") category="
 				+ cat.name + "(" + cat.category_id + ")");
-		Stream.of(type.dogma_attributes).sorted((a1, a2) -> a1.attribute_id - a2.attribute_id).parallel().map(att -> {
-			R_get_dogma_attributes_attribute_id dogattr = ESIStatic.INSTANCE.cache.dogma.attributes(att.attribute_id).get();
-			if (filters != null) {
-				for (String filter : filters) {
-					if (filter != null && !dogattr.name.toLowerCase().contains(filter.toLowerCase())) {
-						return null;
+		if (type.dogma_attributes != null) {
+			Stream.of(type.dogma_attributes)
+			.sorted((a1, a2) -> a1.attribute_id - a2.attribute_id)
+			.parallel()
+			.map(att -> {
+				R_get_dogma_attributes_attribute_id dogattr = ESIStatic.INSTANCE.cache.dogma.attributes(att.attribute_id).get();
+				if (filters != null) {
+					for (String filter : filters) {
+						if (filter != null && !dogattr.name.toLowerCase().contains(filter.toLowerCase())) {
+							return null;
+						}
 					}
 				}
-			}
-			return "\t" + dogattr.name + " (" + att.attribute_id + ") " + att.value;
-		}).filter(s -> s != null).forEachOrdered(System.out::println);
+				return "\t" + dogattr.name + " (" + att.attribute_id + ") " + att.value;
+			}).filter(s -> s != null).forEachOrdered(System.out::println);
+		}
 	}
 
 	public static void showGroup(int groupId, String... filters) {

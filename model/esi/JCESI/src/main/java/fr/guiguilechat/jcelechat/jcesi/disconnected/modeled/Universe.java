@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_3_xnumber_ynumber_znumber;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
@@ -30,7 +31,7 @@ public class Universe {
 	private static final Logger logger = LoggerFactory.getLogger(Universe.class);
 
 	protected final ESIStatic con;
-	private final fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe cache;
+	public final fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe cache;
 
 	public Universe(ESIStatic connection) {
 		con = connection;
@@ -121,8 +122,7 @@ public class Universe {
 	public Stream<R_get_universe_systems_system_id> systemsWithinOneConstelJump(R_get_universe_systems_system_id system) {
 		R_get_universe_constellations_constellation_id constel = cache.constellations(system.constellation_id).get();
 		List<ObsObjHolder<R_get_universe_systems_system_id>> systemsholders = adjacentConstels(constel)
-				.flatMapToInt(co -> IntStream.of(co.systems))
-				.mapToObj(cache::systems).collect(Collectors.toList());
+				.flatMapToInt(co -> IntStream.of(co.systems)).mapToObj(cache::systems).collect(Collectors.toList());
 		return systemsholders.parallelStream().map(sh -> sh.get());
 	}
 
@@ -177,8 +177,8 @@ public class Universe {
 			// System.err.println("dist to " + nextSys.name + " is " + dist_AU);
 			ret.AU += dist_AU;
 			ret.jumps++;
-			lastSys=nextSys;
-			lastPos=cache.stargates(nextGate.destination.stargate_id).get().position;
+			lastSys = nextSys;
+			lastPos = cache.stargates(nextGate.destination.stargate_id).get().position;
 		}
 		double dist_AU = distance(lastPos, SUN_POS) / M_PER_AU;
 		// System.err.println("dist to sun is " + dist_AU);
@@ -240,6 +240,53 @@ public class Universe {
 		// time_accel + " ,time decel " + time_decel);
 		return (int) (time_per_jump * nbjumps + align + Math.ceil(time_accel + time_decel)
 		+ Math.ceil(cruise_distance / warpseed));
+	}
+
+	@SuppressWarnings("unchecked")
+	public double systemRadiusGates(R_get_universe_systems_system_id system) {
+		double maxdist = 0;
+		if (system.stargates == null || system.stargates.length == 0) {
+			return 0.0;
+		}
+		ObsObjHolder<R_get_universe_stargates_stargate_id>[] gates = IntStream.of(system.stargates)
+				.mapToObj(stargate -> cache.stargates(stargate)).toArray(ObsObjHolder[]::new);
+		for (int i = 0; i < gates.length; i++) {
+			for (int j = i + 1; j < gates.length; j++) {
+				double distance = distance(gates[i].get().position, gates[j].get().position) / M_PER_AU;
+				if (maxdist < distance) {
+					maxdist = distance;
+				}
+			}
+		}
+		return maxdist;
+	}
+
+	@SuppressWarnings("unchecked")
+	public double systemRadiusCelestials(R_get_universe_systems_system_id system) {
+		double maxdist = 0;
+		ObsObjHolder<R_get_universe_stargates_stargate_id>[] gates = new ObsObjHolder[0];
+		if (system.stargates != null) {
+			gates = IntStream.of(system.stargates).mapToObj(stargate -> cache.stargates(stargate))
+					.toArray(ObsObjHolder[]::new);
+		}
+		ObsObjHolder<R_get_universe_planets_planet_id>[] planets = new ObsObjHolder[0];
+		if (system.planets != null) {
+			planets =
+					Stream.of(system.planets)
+					.map(planet -> cache.planets(planet.planet_id)).toArray(ObsObjHolder[]::new);
+		}
+		M_3_xnumber_ynumber_znumber[] positions = Stream
+				.concat(Stream.of(gates).map(gate -> gate.get().position), Stream.of(planets).map(plan -> plan.get().position))
+				.toArray(M_3_xnumber_ynumber_znumber[]::new);
+		for (int i = 0; i < positions.length; i++) {
+			for (int j = i + 1; j < positions.length; j++) {
+				double distance = distance(positions[i], positions[j]) / M_PER_AU;
+				if (maxdist < distance) {
+					maxdist = distance;
+				}
+			}
+		}
+		return maxdist;
 	}
 
 }
