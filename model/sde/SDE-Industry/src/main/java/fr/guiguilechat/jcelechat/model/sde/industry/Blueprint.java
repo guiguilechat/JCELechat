@@ -69,7 +69,6 @@ public class Blueprint {
 
 	// structure
 
-
 	/**
 	 * used in the blueprints as requirement, or products
 	 */
@@ -79,6 +78,11 @@ public class Blueprint {
 		public int id;
 		public String group;
 		public String category;
+
+		@Override
+		public String toString() {
+			return "" + quantity + "x" + name;
+		}
 	}
 
 	public static class MaterialProd extends MaterialReq {
@@ -92,6 +96,11 @@ public class Blueprint {
 		public int time;
 
 		public Activity() {
+		}
+
+		@Override
+		public String toString() {
+			return "products" + products + " from " + materials;
 		}
 	}
 
@@ -111,6 +120,106 @@ public class Blueprint {
 		}
 		return manufacturing.materials.parallelStream()
 				.mapToDouble(mat -> mat == null ? 0 : mat.quantity * getAdjusted.apply(mat.id)).sum();
+	}
+
+	/**
+	 * get the number of runs that can be started for this blueprint, with given
+	 * ME mult.
+	 *
+	 * @param teMult
+	 *          the time efficiency multiplier applied. depends on skill,
+	 *          structure, research, implants.
+	 * @return
+	 */
+	public int maxProdRuns(double teMult) {
+		if (manufacturing == null) {
+			return 0;
+		}
+		return (int) Math.ceil(30 * 24 * 3600 / teMult / manufacturing.time);
+	}
+
+	/**
+	 * get the lowest TE mult achievable for this blueprint for a given structure
+	 * mult
+	 *
+	 * @return the te mult achieved with best implants, skills, given structure,
+	 *         and researched bp.
+	 */
+	public double bestTeMult(double structMult) {
+		if (manufacturing == null) {
+			return 0;
+		}
+		double temult =
+				// 20 TE
+				0.8 * structMult
+				// industry and advanced industry give -32%
+				* 0.78
+				// bx-804 reduces by 4%
+				* 0.96;
+		// all engineering and physics skills have a 5% te bonus
+		for (String s : manufacturing.skills.keySet()) {
+			if (s.contains("Engineering") || s.contains("Physics")) {
+				temult *= 0.95;
+			}
+		}
+		return temult;
+	}
+
+	/**
+	 * get the lowest TE mult achievable for this blueprint in NS
+	 *
+	 * @return the te mult achieved with best implants, skills, structure, and
+	 *         researched bp.
+	 */
+	public double bestTeMultNS() {
+		return bestTeMult(
+				// sotiyo rig is -50.4
+				0.496
+				// sotiyo bonus is -30%
+				* 0.7);
+	}
+
+	/**
+	 * get the lowest TE mult achievable for this blueprint in LS
+	 *
+	 * @return the te mult achieved with best implants, skills, structure, and
+	 *         researched bp.
+	 */
+	public double bestTeMultLS() {
+		return bestTeMult(
+				// sotiyo rig is -45.6
+				0.544
+				// sotiyo bonus is -30%
+				* 0.7);
+	}
+
+	/**
+	 * get the lowest TE mult achievable for this blueprint in HS
+	 *
+	 * @return the te mult achieved with best implants, skills, structure, and
+	 *         researched bp.
+	 */
+	public double bestTeMultHS() {
+		return bestTeMult(
+				// sotiyo rig is -24
+				0.76
+				// sotiyo bonus is -30%
+				* 0.7);
+	}
+
+	public int maxProdRuns() {
+		return maxProdRuns(bestTeMultNS());
+	}
+
+	public boolean isMEUseless() {
+		if (manufacturing == null) {
+			return true;
+		}
+		int maxruns = maxProdRuns();
+		return manufacturing.materials.stream()
+				.filter(
+						mat -> mat.quantity > 1 && Math.ceil(0.9 * 0.99 * 0.9496 * mat.quantity * maxruns) < mat.quantity * maxruns)
+				.findAny().isEmpty();
 	}
 
 }
