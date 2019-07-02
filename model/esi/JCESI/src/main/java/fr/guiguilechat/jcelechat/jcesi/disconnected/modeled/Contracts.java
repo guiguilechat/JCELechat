@@ -76,7 +76,7 @@ public class Contracts {
 						List<ItemContractFetcher> tmplist = added.stream().map(ItemContractFetcher::new)
 								.collect(Collectors.toList());
 						Map<Integer, ContractDesc> newContracts = tmplist.stream().map(ItemContractFetcher::get)
-								.collect(Collectors.toMap(o -> o.details.contract_id, o -> o));
+								.collect(Collectors.toMap(o -> o.details.contract_id, o -> o, (a, b) -> b));
 						LockWatchDog.BARKER.syncExecute(underlying, () -> {
 							for (Integer i : removedIndexes) {
 								underlying.remove(i);
