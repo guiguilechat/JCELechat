@@ -1,150 +1,67 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
-import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.binding.DoubleBinding;
-import javafx.beans.value.ObservableDoubleValue;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 
 public class CachedOrdersList {
 
-	/**
-	 *
-	 */
-	public final RegionalMarket regionalMarket;
-	public final int typeID;
+	private final ObsListHolder<R_get_markets_region_id_orders> sellOrders;
+	private final ObsListHolder<R_get_markets_region_id_orders> buyOrders;
 
-	private ObservableList<R_get_markets_region_id_orders> buyOrders = FXCollections.observableArrayList();
-	private ObservableList<R_get_markets_region_id_orders> sellOrders = FXCollections.observableArrayList();
-
-	public CachedOrdersList(RegionalMarket regionalMarket, int order_type) {
-		this.regionalMarket = regionalMarket;
-		typeID = order_type;
+	public CachedOrdersList(ObsListHolder<R_get_markets_region_id_orders> orders, int typeID) {
+		sellOrders = orders.filter(order -> order.type_id == typeID && !order.is_buy_order && order.min_volume == 1)
+				.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
+		buyOrders = orders.filter(order -> order.type_id == typeID && order.is_buy_order && order.min_volume == 1)
+				.sorted((o1, o2) -> -Double.compare(o1.price, o2.price));
 	}
 
-	protected void handleNewOrders(List<R_get_markets_region_id_orders> neworders) {
-		LockWatchDog.BARKER.syncExecute(buyOrders, () -> {
-			buyOrders.clear();
-			if (neworders != null) {
-				for (R_get_markets_region_id_orders o : neworders) {
-					if (o.type_id == typeID && o.is_buy_order) {
-						buyOrders.add(o);
-					}
-				}
-				Collections.sort(buyOrders, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
-			}
-		});
-		LockWatchDog.BARKER.syncExecute(sellOrders, () -> {
-			sellOrders.clear();
-			if (neworders != null) {
-				for (R_get_markets_region_id_orders o : neworders) {
-					if (o.type_id == typeID && !o.is_buy_order) {
-						sellOrders.add(o);
-					}
-				}
-				Collections.sort(sellOrders, (o1, o2) -> (int) Math.signum(o1.price - o2.price));
-			}
-		});
-	}
-
-	protected void handleNewCache(List<R_get_markets_region_id_orders> newCache) {
-		handleNewOrders(newCache);
-	}
-
-	private Runnable selfOrdersStop = null;
-
-	/**
-	 * add a specific fetcher for this. this will increase the rate of fetches
-	 */
-	public synchronized void addFetcher() {
-		if (selfOrdersStop != null) {
-			return;
-		}
-		Pausable exec = ESIStatic.INSTANCE.cache.addFetchCacheArray("orders_type" + typeID,
-				(p, h) -> ESIStatic.INSTANCE.get_markets_orders(order_type.all, p, regionalMarket.regionID, typeID, h),
-				this::handleNewCache);
-		selfOrdersStop = exec::pause;
-	}
-
-	public synchronized void remFetcher() {
-		if (selfOrdersStop == null) {
-			return;
-		}
-		selfOrdersStop.run();
-		selfOrdersStop = null;
-	}
-
-	public ObservableList<R_get_markets_region_id_orders> listBuyOrders() {
+	public ObsListHolder<R_get_markets_region_id_orders> listBuyOrders() {
 		return buyOrders;
 	}
 
-	public ObservableList<R_get_markets_region_id_orders> listSellOrders() {
+	public ObsListHolder<R_get_markets_region_id_orders> listSellOrders() {
 		return sellOrders;
 	}
 
-	private HashMap<Long, DoubleBinding> qttyBuyPrice = new HashMap<>();
+	private HashMap<Long, ObsDoubleHolder> qttyBuyPrice = new HashMap<>();
 
-	private HashMap<Long, DoubleBinding> qttySellPrice = new HashMap<>();
+	private HashMap<Long, ObsDoubleHolder> qttySellPrice = new HashMap<>();
 
-	/**
-	 * get a double value representing the total sell orders for qtty given qtty.
-	 * missing orders are represented with +infinity.
-	 *
-	 * @param qtty
-	 * @return
-	 */
-	public ObservableDoubleValue getPrice(boolean buy, long qtty) {
-		HashMap<Long, DoubleBinding> m = buy ? qttyBuyPrice : qttySellPrice;
-		DoubleBinding ret = m.get(qtty);
+	public ObsDoubleHolder getBuyPrice(long qtty) {
+		return getPrice(true, qtty);
+	}
+
+	public ObsDoubleHolder getSellPrice(long qtty) {
+		return getPrice(false, qtty);
+	}
+
+	public ObsDoubleHolder getPrice(boolean buy, long qtty) {
+		HashMap<Long, ObsDoubleHolder> map = buy ? qttyBuyPrice : qttySellPrice;
+		ObsDoubleHolder ret = map.get(qtty);
 		if (ret == null) {
-			ret = LockWatchDog.BARKER.syncExecute(m, () -> {
-				DoubleBinding ret2 = m.get(qtty);
-				if (ret2 == null) {
-					ret2 = new DoubleBinding() {
-						@Override
-						protected double computeValue() {
-							// ensure the regional market got its last orders, in case we are
-							// just created this may not be true yet.
-							regionalMarket.ensureFetched();
-							ObservableList<R_get_markets_region_id_orders> orders = buy ? listBuyOrders() : listSellOrders();
-							return LockWatchDog.BARKER.syncExecute(orders, () -> {
-								double sumCost = 0;
-								long qttyremain = qtty;
-								for (R_get_markets_region_id_orders r : orders) {
-									if (r.min_volume != 1) {
-										continue;
-									}
-									long qtty = Math.min(qttyremain, r.volume_remain);
-									sumCost += qtty * r.price;
-									qttyremain -= qtty;
-									if (qttyremain == 0) {
-										return sumCost;
-									}
-								}
-								// if there was not enough orders to fulfill the qtty
-								return buy ? sumCost : Double.POSITIVE_INFINITY;
-							});
+			synchronized (map) {
+				if (ret == null) {
+					ObsListHolder<R_get_markets_region_id_orders> source = buy ? buyOrders : sellOrders;
+					ret = source.reduceDouble(l -> {
+						double total = 0.0;
+						long remain = qtty;
+						for (R_get_markets_region_id_orders o : l) {
+							if (o.volume_remain >= remain) {
+								total += remain * o.price;
+								return total;
+							} else {
+								total += o.price * o.volume_remain;
+								remain -= o.volume_remain;
+							}
 						}
-
-						{
-							ObservableList<R_get_markets_region_id_orders> orders = buy ? listBuyOrders() : listSellOrders();
-							LockWatchDog.BARKER.syncExecute(orders, () -> {
-								bind(orders);
-							});
-						}
-					};
-					m.put(qtty, ret2);
+						return buy ? total : Double.POSITIVE_INFINITY;
+					});
+					map.put(qtty, ret);
 				}
-				return ret2;
-			});
+			}
 		}
 		return ret;
 	}

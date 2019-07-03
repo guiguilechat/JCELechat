@@ -221,7 +221,8 @@ public class MutaEvals extends Application {
 	}
 
 	protected class ModifiedItemCost {
-		public ModifiedItemCost(ModifiedItem item2, RegionalMarket market2, Map<Attribute, ObservableDoubleValue> attValues,
+		public ModifiedItemCost(ModifiedItem item2, RegionalMarket market2,
+				Map<Attribute, ObservableDoubleValue> attValues,
 				ObservableIntegerValue qttyVal2, Function<MutaStr, ObservableDoubleValue> strengthPrice) {
 			item = item2;
 			market = market2;

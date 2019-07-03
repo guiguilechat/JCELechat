@@ -8,8 +8,6 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import javafx.collections.ObservableList;
 
 public class Markets {
 
@@ -47,11 +45,6 @@ public class Markets {
 			}
 		}
 		return rm;
-	}
-
-	public ObservableList<R_get_markets_region_id_orders> getOrders(boolean buy, int regionID, int typeID) {
-		return buy ? getMarket(regionID).getMarketOrders(typeID).listBuyOrders()
-				: getMarket(regionID).getMarketOrders(typeID).listSellOrders();
 	}
 
 	//
