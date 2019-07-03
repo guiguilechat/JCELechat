@@ -20,12 +20,15 @@ public class ShowDeathPerShipRatio {
 		ObsMapHolder<Integer, R_get_universe_system_jumps> jumps_m = cache.universe.system_jumps()
 				.map(sys -> sys.system_id);
 		// useless because wh are not given their kill statistics
-		Set<Integer> whconstels = IntStream.range(11000001, 11000033).parallel()
+		Set<Integer> whconstels = IntStream.range(11000001, 11000033 + 1).parallel()
+				.mapToObj(r_i -> cache.universe.regions(r_i)).flatMapToInt(h -> IntStream.of(h.get().constellations))
+				.mapToObj(i -> i).collect(Collectors.toSet());
+		Set<Integer> abyssConstels = IntStream.range(12000001, 12000005 + 1).parallel()
 				.mapToObj(r_i -> cache.universe.regions(r_i)).flatMapToInt(h -> IntStream.of(h.get().constellations))
 				.mapToObj(i -> i).collect(Collectors.toSet());
 		// System.err.println("constel ids=" + whconstels);
-		// HS, LS, NS, WH
-		String[] indexNames = { "HS", "LS", "NS", "WS" };
+		// HS, LS, NS, WH, abyssal
+		String[] indexNames = { "HS", "LS", "NS", "WS", "abyss" };
 		long[] npc_kills = new long[indexNames.length];
 		long[] ship_kills = new long[indexNames.length];
 		long[] jumps = new long[indexNames.length];
@@ -38,6 +41,8 @@ public class ShowDeathPerShipRatio {
 			int index = 0;
 			if (whconstels.contains(system.constellation_id)) {
 				index=3;
+			} else if (abyssConstels.contains(system.constellation_id)) {
+				index = 4;
 			} else {
 				index= system.security_status > 0.45 ? 0 : system.security_status > 0.0 ? 1 : 2;
 			}
@@ -69,9 +74,8 @@ public class ShowDeathPerShipRatio {
 				"space\tship kills\tnpc kills\tjumps\tnpc / ship\tnpc / jumps\t#systems\tnokilldata\tnojumpdata\tnok&j");
 		for (int i = 0; i < indexNames.length; i++) {
 			System.out.println(indexNames[i] + "\t" + ship_kills[i] + "\t" + npc_kills[i] + "\t" + jumps[i] + "\t"
-					+ (ship_kills[i] == 0 ? Float.POSITIVE_INFINITY : 1.0f * npc_kills[i] / ship_kills[i]) + "\t"
-					+ (jumps[i] == 0 ? Float.POSITIVE_INFINITY : 1.0f * npc_kills[i] / jumps[i])
-					+ "\t" + totalsystems[i] + "\t" + nokills[i] + "\t" + nojumps[i] + "\t" + nokilljump[i]);
+					+ 1.0f * npc_kills[i] / ship_kills[i] + "\t" + 1.0f * npc_kills[i] / jumps[i]
+							+ "\t" + totalsystems[i] + "\t" + nokills[i] + "\t" + nojumps[i] + "\t" + nokilljump[i]);
 		}
 	}
 

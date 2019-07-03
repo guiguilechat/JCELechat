@@ -155,7 +155,12 @@ public class Corporation {
 			// we make the map of itemid->locations. if a location is actually an
 			// asset, we iterally map it to this asset's location instead
 			Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
-					.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id));
+					.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (a, b) -> {
+						logger.warn("double item location when fetching corporation assets " + Stream.of(itemsArr).map(asset -> ""
+								+ asset.item_id + " : loc=" + asset.location_id + " type=" + asset.type_id + " x" + asset.quantity)
+								.collect(Collectors.toList()));
+						return b;
+					}));
 			Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
 				Long ret = e.getValue();
 				while (baseLocationMap.containsKey(ret)) {
