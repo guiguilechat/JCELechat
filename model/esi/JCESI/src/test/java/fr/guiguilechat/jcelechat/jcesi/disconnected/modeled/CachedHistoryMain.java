@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.CachedHistory;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionTypeHistory;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 
 public class CachedHistoryMain {
@@ -12,16 +12,14 @@ public class CachedHistoryMain {
 	}
 
 	protected static void printhistorydate() {
-		CachedHistory h = new CachedHistory(ESIStatic.INSTANCE.cache, 10000002, 527);
-		h.waitData();
-		for (R_get_markets_region_id_history l : h.getData()) {
+		RegionTypeHistory h = new RegionTypeHistory(ESIStatic.INSTANCE.cache, 10000002, 527);
+		for (R_get_markets_region_id_history l : h.getData().copy()) {
 			System.err.println(l.date);
 		}
 	}
 
 	protected static void showAverageWebII() {
-		CachedHistory h = new CachedHistory(ESIStatic.INSTANCE.cache, 10000002, 527);
-		h.waitData();
+		RegionTypeHistory h = new RegionTypeHistory(ESIStatic.INSTANCE.cache, 10000002, 527);
 		System.err.println("average=" + h.dailyAverage().get());
 	}
 

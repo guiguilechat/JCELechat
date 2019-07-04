@@ -24,15 +24,15 @@ public class RegionalMarket {
 	}
 
 	// typeid-> cached orders
-	private Map<Integer, CachedOrdersList> cachedOrders = new HashMap<>();
+	private Map<Integer, RegionTypeOrders> cachedOrders = new HashMap<>();
 
-	public CachedOrdersList getMarketOrders(int typeID) {
-		CachedOrdersList ret = cachedOrders.get(typeID);
+	public RegionTypeOrders getMarketOrders(int typeID) {
+		RegionTypeOrders ret = cachedOrders.get(typeID);
 		if (ret == null) {
 			ret = LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
-				CachedOrdersList ret2 = cachedOrders.get(typeID);
+				RegionTypeOrders ret2 = cachedOrders.get(typeID);
 				if (ret2 == null) {
-					ret2 = new CachedOrdersList(orders, typeID);
+					ret2 = new RegionTypeOrders(orders, typeID);
 					cachedOrders.put(typeID, ret2);
 				}
 				return ret2;
@@ -61,15 +61,15 @@ public class RegionalMarket {
 	// history
 	//
 
-	private final HashMap<Integer, CachedHistory> historiesByTypeID = new HashMap<>();
+	private final HashMap<Integer, RegionTypeHistory> historiesByTypeID = new HashMap<>();
 
-	public CachedHistory getHistory(int typeID) {
-		CachedHistory ret = historiesByTypeID.get(typeID);
+	public RegionTypeHistory getHistory(int typeID) {
+		RegionTypeHistory ret = historiesByTypeID.get(typeID);
 		if (ret == null) {
 			ret = LockWatchDog.BARKER.syncExecute(historiesByTypeID, () -> {
-				CachedHistory ret2 = historiesByTypeID.get(typeID);
+				RegionTypeHistory ret2 = historiesByTypeID.get(typeID);
 				if (ret2 == null) {
-					ret2 = new CachedHistory(cache, regionID, typeID);
+					ret2 = new RegionTypeHistory(cache, regionID, typeID);
 					historiesByTypeID.put(typeID, ret2);
 				}
 				return ret2;

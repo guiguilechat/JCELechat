@@ -6,12 +6,15 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 
-public class CachedOrdersList {
+/**
+ * holds the regional orders for a type. Caches the price of items.
+ */
+public class RegionTypeOrders {
 
 	private final ObsListHolder<R_get_markets_region_id_orders> sellOrders;
 	private final ObsListHolder<R_get_markets_region_id_orders> buyOrders;
 
-	public CachedOrdersList(ObsListHolder<R_get_markets_region_id_orders> orders, int typeID) {
+	public RegionTypeOrders(ObsListHolder<R_get_markets_region_id_orders> orders, int typeID) {
 		sellOrders = orders.filter(order -> order.type_id == typeID && !order.is_buy_order && order.min_volume == 1)
 				.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
 		buyOrders = orders.filter(order -> order.type_id == typeID && order.is_buy_order && order.min_volume == 1)
