@@ -9103,7 +9103,7 @@ agents:
     isLocator: false
     level: 1
     name: Anareri Acon
-    station: Yulai IX - CONCORD Bureau
+    station: Yulai IX (Kjarval) - CONCORD Bureau
     stationId: 60012256
     system: Yulai
     type: BasicAgent
@@ -101231,7 +101231,7 @@ agents:
     isLocator: false
     level: 1
     name: Songilo Kytitta
-    station: Yulai IX - CONCORD Bureau
+    station: Yulai IX (Kjarval) - CONCORD Bureau
     stationId: 60012256
     system: Yulai
     type: CONCORDAgent
