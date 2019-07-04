@@ -72,10 +72,6 @@
 				<version>3.7.0</version>
 				<configuration>
 					<release>${java.version}</release>
-					<!-- <compilerArgs> -->
-					<!-- <arg>- -add-modules</arg> -->
-					<!-- <arg>javafx.graphics,javafx.fxml,javafx.controls,jdk.incubator.httpclient</arg> -->
-					<!-- </compilerArgs> -->
 				</configuration>
 			</plugin>
 		</plugins>
