@@ -13,12 +13,12 @@ public class ShowDeathPerShipRatio {
 
 	public static void main(String[] args) {
 		CacheStatic cache = ESIStatic.INSTANCE.cache;
-		for (Integer r : cache.universe.systems().copy()) {
+		for (Integer r : cache.universe.systems().get()) {
 			cache.universe.systems(r);
 		}
-		ObsMapHolder<Integer, R_get_universe_system_kills> kills = cache.universe.system_kills().map(sys -> sys.system_id);
+		ObsMapHolder<Integer, R_get_universe_system_kills> kills = cache.universe.system_kills().mapItems(sys -> sys.system_id);
 		ObsMapHolder<Integer, R_get_universe_system_jumps> jumps_m = cache.universe.system_jumps()
-				.map(sys -> sys.system_id);
+				.mapItems(sys -> sys.system_id);
 		// useless because wh are not given their kill statistics
 		Set<Integer> whconstels = IntStream.range(11000001, 11000033 + 1).parallel()
 				.mapToObj(r_i -> cache.universe.regions(r_i)).flatMapToInt(h -> IntStream.of(h.get().constellations))
@@ -36,7 +36,7 @@ public class ShowDeathPerShipRatio {
 		int[] nokills = new int[indexNames.length];
 		int[] nojumps = new int[indexNames.length];
 		int[] nokilljump = new int[indexNames.length];
-		for (Integer sys_id : cache.universe.systems().copy()) {
+		for (Integer sys_id : cache.universe.systems().get()) {
 			R_get_universe_systems_system_id system = cache.universe.systems(sys_id).get();
 			int index = 0;
 			if (whconstels.contains(system.constellation_id)) {

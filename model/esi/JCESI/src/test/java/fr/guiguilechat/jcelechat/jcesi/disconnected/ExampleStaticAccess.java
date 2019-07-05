@@ -62,13 +62,13 @@ public class ExampleStaticAccess {
 		 * corruption
 		 */
 		synchronized (cachebos) {
-			maxbo = cachebos.copy().stream().mapToDouble(bo -> bo.price).max().getAsDouble();
+			maxbo = cachebos.get().stream().mapToDouble(bo -> bo.price).max().getAsDouble();
 		}
 
 		/** you can create bindings to keep extracted data in sync */
 		DoubleBinding maxBOBinding = Bindings.createDoubleBinding(() -> {
 			synchronized (cachebos) {
-				return cachebos.copy().stream().mapToDouble(bo -> bo.price).max().getAsDouble();
+				return cachebos.get().stream().mapToDouble(bo -> bo.price).max().getAsDouble();
 			}
 		}, cachebos.asObservable());
 

@@ -11,7 +11,7 @@ public class ShowAllShipsNames {
 		boolean cached = false;
 		if (cached) {
 			CacheStatic cache = ESIStatic.INSTANCE.cache;
-			cache.insurance.prices().copy().parallelStream().map(price -> cache.universe.types(price.type_id).get())
+			cache.insurance.prices().get().parallelStream().map(price -> cache.universe.types(price.type_id).get())
 			.forEachOrdered(t -> System.err.println(t.name + "\t" + t.type_id));
 		} else {
 			ESIStatic esi = ESIStatic.INSTANCE;

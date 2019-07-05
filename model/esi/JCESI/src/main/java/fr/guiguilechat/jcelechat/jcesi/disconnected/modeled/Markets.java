@@ -31,7 +31,7 @@ public class Markets {
 	public RegionalMarket getMarket(int regionID) {
 		RegionalMarket rm = regionMarkets.get(regionID);
 		if (rm == null) {
-			if (!esiConnection.cache.universe.regions().copy().contains(regionID)) {
+			if (!esiConnection.cache.universe.regions().get().contains(regionID)) {
 				logger.warn("requested inexisting region id " + regionID, new NullPointerException());
 				return null;
 			}

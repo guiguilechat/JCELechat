@@ -24,7 +24,7 @@ public class CacheTester {
 		// noparam-> list
 		System.out.println("noparam->list started");
 		ObsListHolder<Integer> attributes = con.dogma.attributes();
-		attributes.follow(li -> System.out.println("noparam->list " + li.next() + " added " + li.getAddedSubList()
+		attributes.followItems(li -> System.out.println("noparam->list " + li.next() + " added " + li.getAddedSubList()
 		+ " ; removed " + li.getRemoved() + " hasnext" + li.next()));
 		attributes.waitData();
 
@@ -35,10 +35,10 @@ public class CacheTester {
 		System.out.println("params->list started");
 		// vni sell orders in sinq laison
 		ObsListHolder<R_get_markets_region_id_orders> orders = con.markets.orders(order_type.sell, 10000032, 17843);
-		orders.follow((ListChangeListener<R_get_markets_region_id_orders>) li -> System.out.println("params->list "
+		orders.followItems((ListChangeListener<R_get_markets_region_id_orders>) li -> System.out.println("params->list "
 				+ li.next() + " added " + li.getAddedSubList().stream().map(order -> order.price).collect(Collectors.toList())
 				+ " ; removed " + li.getRemoved() + " hasnext" + li.next()));
 		orders.waitData();
-		System.err.println("after wait we have " + orders.copy().size() + " orders");
+		System.err.println("after wait we have " + orders.get().size() + " orders");
 	}
 }

@@ -84,7 +84,7 @@ public class Universe {
 	public boolean isPublicStructure(long structureid) {
 		synchronized (publicStructures) {
 			if (publicStructures.isEmpty()) {
-				publicStructures.addAll(con.cache.universe.structures(null).copy());
+				publicStructures.addAll(con.cache.universe.structures(null).get());
 			}
 		}
 		return publicStructures.contains(structureid);
@@ -161,7 +161,7 @@ public class Universe {
 			R_get_universe_systems_system_id destination) {
 		TripDistance ret = new TripDistance();
 		List<R_get_universe_systems_system_id> systems = con.cache.route
-				.get(null, null, destination.system_id, flag.secure, station.system_id).copy().parallelStream()
+				.get(null, null, destination.system_id, flag.secure, station.system_id).get().parallelStream()
 				.map(si -> cache.systems(si).get()).collect(Collectors.toList());
 		M_3_xnumber_ynumber_znumber lastPos = station.position;
 		R_get_universe_systems_system_id lastSys = cache.systems(station.system_id).get();
@@ -216,7 +216,7 @@ public class Universe {
 	}
 
 	public boolean correctRegionID(int regionID) {
-		return cache.regions().copy().contains(regionID);
+		return cache.regions().get().contains(regionID);
 	}
 
 	// default 0;0;0 pos

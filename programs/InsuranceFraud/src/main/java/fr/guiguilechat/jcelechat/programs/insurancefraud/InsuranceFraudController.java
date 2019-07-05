@@ -187,7 +187,7 @@ public class InsuranceFraudController {
 		minerYield = Double.parseDouble(optYield.getText());
 		reprocMult = Double.parseDouble(optReproc.getText());
 		table.getItems().clear();
-		ESIStatic.INSTANCE.cache.insurance.prices().copy().parallelStream().map(this::analyze)
+		ESIStatic.INSTANCE.cache.insurance.prices().get().parallelStream().map(this::analyze)
 		.filter(ana -> ana.published && ana.techLevel == 1)
 		.forEachOrdered(table.getItems()::add);
 		table.sort();

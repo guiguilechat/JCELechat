@@ -89,7 +89,7 @@ public class Corporation {
 	}
 
 	public Map<String, SystemAsset> getAssetTree() {
-		List<R_get_corporations_corporation_id_assets> assets = getAssetsList().copy();
+		List<R_get_corporations_corporation_id_assets> assets = getAssetsList().get();
 		Map<String, SystemAsset> ret = new HashMap<>();
 		Map<Long, CorpAssetFolder> idToFolder = assets.stream()
 				.collect(Collectors.toMap(asset -> asset.item_id, asset -> new CorpAssetFolder(asset)));
@@ -148,7 +148,7 @@ public class Corporation {
 	 */
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
 		ObservableMap<Long, ObservableMap<Integer, Integer>> assets = FXCollections.observableMap(new LinkedHashMap<>());
-		R_get_corporations_corporation_id_assets[] itemsArr = con.raw.cache.corporations.assets(getId()).copy().stream()
+		R_get_corporations_corporation_id_assets[] itemsArr = con.raw.cache.corporations.assets(getId()).get().stream()
 				.filter(asset -> !get_corporations_corporation_id_assets_location_flag.AutoFit.equals(asset.location_flag))
 				.toArray(R_get_corporations_corporation_id_assets[]::new);
 		try {
@@ -228,7 +228,7 @@ public class Corporation {
 				if (wallet == null) {
 					SimpleObjectProperty<Double> underlying = new SimpleObjectProperty<>();
 					wallet = new ObsObjHolderImpl<>(underlying);
-					con.raw.cache.corporations.wallets(getId()).follow(c -> {
+					con.raw.cache.corporations.wallets(getId()).followItems(c -> {
 						double delta = 0;
 						while (c.next()) {
 							delta += c.getAddedSubList().stream().mapToDouble(w1 -> w1.balance).sum()

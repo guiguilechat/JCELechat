@@ -147,7 +147,7 @@ public class EveCharacter {
 		if (industryJobs == null) {
 			synchronized (this) {
 				if (industryJobs == null) {
-					industryJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false).map(j -> j.job_id);
+					industryJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false).mapItems(j -> j.job_id);
 				}
 			}
 		}
@@ -343,8 +343,8 @@ public class EveCharacter {
 					ObservableMap<Long, ObservableMap<Integer, Integer>> map = FXCollections.observableHashMap();
 					cachedAssets = con.raw.cache.toHolder(map);
 					synchronized (assets) {
-						assets.follow(c -> applyNewAssets(c, map));
-						assets.addReceivedListener(ass -> cachedAssets.dataReceived());
+						assets.followItems(c -> applyNewAssets(c, map));
+						assets.follow((obj, old, ass) -> cachedAssets.dataReceived());
 					}
 
 				}
@@ -447,7 +447,7 @@ public class EveCharacter {
 		ObsListHolder<get_characters_character_id_skills_skills> skills = getSkills();
 		if (skillsID2Level == null) {
 			synchronized (skills) {
-				skillsID2Level = skills.map(s -> s.skill_id, s -> s.active_skill_level);
+				skillsID2Level = skills.mapItems(s -> s.skill_id, s -> s.active_skill_level);
 			}
 		}
 		return skillsID2Level;
@@ -459,7 +459,7 @@ public class EveCharacter {
 		ObsListHolder<get_characters_character_id_skills_skills> skills = getSkills();
 		if (skillsName2Level == null) {
 			synchronized (skills) {
-				skillsName2Level = skills.map(s -> ESIStatic.INSTANCE.cache.universe.types(s.skill_id).get().name,
+				skillsName2Level = skills.mapItems(s -> ESIStatic.INSTANCE.cache.universe.types(s.skill_id).get().name,
 						s -> s.active_skill_level);
 			}
 		}

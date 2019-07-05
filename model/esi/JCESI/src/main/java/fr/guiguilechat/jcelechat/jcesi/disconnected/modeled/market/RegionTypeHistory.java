@@ -61,7 +61,7 @@ public class RegionTypeHistory {
 	private ObsListHolder<R_get_markets_region_id_history> limitData(int maxDays) {
 		ObservableList<R_get_markets_region_id_history> internal = FXCollections.observableArrayList();
 		ObsListHolderImpl<R_get_markets_region_id_history> ret = new ObsListHolderImpl<>(internal);
-		history.addReceivedListener(l -> {
+		history.follow((obj, old, l) -> {
 			internal.clear();
 			withinDays(l, maxDays).forEach(internal::add);
 			ret.dataReceived();
@@ -186,7 +186,7 @@ public class RegionTypeHistory {
 				if (sortedVolumes == null) {
 					ObservableList<Long> internal = FXCollections.observableArrayList();
 					ObsListHolderImpl<Long> ret = new ObsListHolderImpl<>(internal);
-					history.addReceivedListener(l -> {
+					history.follow((obj, old, l) -> {
 						internal.clear();
 						if (l.size() > 0) {
 							R_get_markets_region_id_history first = l.get(l.size() - 1);

@@ -51,7 +51,7 @@ public class Contracts {
 					ObservableMap<Integer, ContractDesc> underlying = FXCollections.observableHashMap();
 					ret = new ObsMapHolderImpl<>(underlying);
 					ObsListHolder<R_get_contracts_public_region_id> CHolder = esiConnection.cache.contracts.getpublic(regionId);
-					CHolder.follow(change -> {
+					CHolder.followItems(change -> {
 						Set<Integer> removedIndexes = new HashSet<>();
 						List<R_get_contracts_public_region_id> added = new ArrayList<>();
 						while (change.next()) {
@@ -85,7 +85,7 @@ public class Contracts {
 						});
 					});
 					ObsMapHolder<Integer, ContractDesc> finalRet = ret;
-					CHolder.addReceivedListener(c -> finalRet.dataReceived());
+					CHolder.follow((obj, old, l) -> finalRet.dataReceived());
 					caches.put(regionId, ret);
 				}
 			}
@@ -110,7 +110,7 @@ public class Contracts {
 
 		ObsListHolder<R_get_contracts_public_items_contract_id> holder;
 		public ContractDesc get() {
-			ret.items = holder.copy();
+			ret.items = holder.get();
 			return ret;
 		}
 
