@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmar
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.SystemAsset;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
@@ -27,13 +28,12 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
-import fr.lelouet.collectionholders.impl.ObsObjHolderImpl;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 
@@ -56,7 +56,17 @@ public class Corporation {
 
 	// industry jobs
 
+	private ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> industryJobs = null;
+
 	public ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
+		if (industryJobs == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (industryJobs == null) {
+					industryJobs = ObsMapHolderImpl.toMap(con.raw.cache.corporations.industry_jobs(getId(), false),
+							j -> j.job_id);
+				}
+			});
+		}
 		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.industry_jobs(getId(), false), j -> j.job_id);
 	}
 
@@ -85,6 +95,7 @@ public class Corporation {
 	//
 
 	public ObsListHolder<R_get_corporations_corporation_id_assets> getAssetsList() {
+		// caching is already present at the cache level.
 		return con.raw.cache.corporations.assets(getId());
 	}
 
@@ -210,34 +221,27 @@ public class Corporation {
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_structures> getStructures() {
 		if (structures == null) {
-			synchronized (this) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (structures == null) {
 					structures = ObsMapHolderImpl.toMap(con.raw.cache.corporations.structures(getId()), str -> str.structure_id);
 				}
-			}
+			});
 		}
 		return structures;
 	}
 
-	ObsObjHolderImpl<Double> wallet = null;
+	ObsDoubleHolder wallet = null;
 
 	/** get the total sum of all the wallets */
-	public ObsObjHolder<Double> getWallet() {
+	public ObsDoubleHolder getWallet() {
 		if (wallet == null) {
-			synchronized (this) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (wallet == null) {
-					SimpleObjectProperty<Double> underlying = new SimpleObjectProperty<>();
-					wallet = new ObsObjHolderImpl<>(underlying);
-					con.raw.cache.corporations.wallets(getId()).followItems(c -> {
-						double delta = 0;
-						while (c.next()) {
-							delta += c.getAddedSubList().stream().mapToDouble(w1 -> w1.balance).sum()
-									- c.getRemoved().stream().mapToDouble(w2 -> w2.balance).sum();
-						}
-						underlying.set(underlying.get() == null ? delta : underlying.get() + delta);
-					});
+					wallet = 
+							con.raw.cache.corporations.wallets(getId())
+							.reduceDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
 				}
-			}
+			});
 		}
 		return wallet;
 	}
@@ -270,13 +274,13 @@ public class Corporation {
 		return walletTransactions;
 	}
 
-	private ObsMapHolderImpl<Long, R_get_corporations_corporation_id_orders> cacheOrders = null;
+	private ObsMapHolder<Long, R_get_corporations_corporation_id_orders> cacheOrders = null;
 
-	public ObsMapHolderImpl<Long, R_get_corporations_corporation_id_orders> getMarketOrders() {
+	public ObsMapHolder<Long, R_get_corporations_corporation_id_orders> getMarketOrders() {
 		if (cacheOrders == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cacheOrders == null) {
-					cacheOrders = ObsMapHolderImpl.toMap(con.raw.cache.corporations.orders(getId()), o -> o.order_id);
+					cacheOrders = con.raw.cache.corporations.orders(getId()).mapItems(o -> o.order_id);
 				}
 			});
 		}
@@ -285,5 +289,42 @@ public class Corporation {
 
 	public R_get_corporations_corporation_id getInformations() {
 		return ESIStatic.INSTANCE.cache.corporations.get(getId()).get();
+	}
+
+	//
+	// journal
+	//
+
+	// private ObsMapHolder<Long, R_get_characters_character_id_wallet_journal>
+	// journal;
+	//
+	// public ObsMapHolder<Long, R_get_characters_character_id_wallet_journal>
+	// getJournal() {
+	// if (journal == null) {
+	// LockWatchDog.BARKER.syncExecute(this, () -> {
+	// if (journal == null) {
+	// journal = con.raw.cache.corporations.wallet_journal(getId()).mapItems(j ->
+	// j.id);
+	// }
+	// });
+	// }
+	// return journal;
+	// }
+
+	//
+	// standings
+	//
+
+	private ObsMapHolder<Integer, M_get_standings_3> standings;
+
+	public ObsMapHolder<Integer, M_get_standings_3> getStandings() {
+		if (standings == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (standings == null) {
+					standings = con.raw.cache.corporations.standings(getId()).mapItems(std -> std.from_id);
+				}
+			});
+		}
+		return standings;
 	}
 }
