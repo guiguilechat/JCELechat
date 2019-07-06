@@ -40,10 +40,10 @@ public class CorpBookmarks {
 				if (bookmarksHolder == null) {
 					bookmarks = FXCollections.observableHashMap();
 					bookmarksHolder = new ObsMapHolderImpl<>(bookmarks);
-					bookmarksFolders().follow(this::onFolderChange);
-					bookmarksFolders().addReceivedListener(this::dataReceveidFolders);
-					bookmarks().follow(this::onBmChange);
-					bookmarks().addReceivedListener(this::dataReceveidBM);
+					bookmarksFolders().followEntries(this::onFolderChange);
+					bookmarksFolders().follow(this::dataReceveidFolders);
+					bookmarks().followEntries(this::onBmChange);
+					bookmarks().follow(this::dataReceveidBM);
 				}
 			});
 		}

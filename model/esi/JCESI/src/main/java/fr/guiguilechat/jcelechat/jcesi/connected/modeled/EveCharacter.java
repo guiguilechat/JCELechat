@@ -202,7 +202,7 @@ public class EveCharacter {
 		ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation.getIndustryJobs();
 		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
 			synchronized (corpJobs) {
-				return corpJobs.copy().values().stream().filter(j -> j.installer_id == con.characterId())
+				return corpJobs.get().values().stream().filter(j -> j.installer_id == con.characterId())
 						.filter(
 								j -> Corporation.isCopy(j) || Corporation.isInvetion(j) || Corporation.isME(j) || Corporation.isTE(j))
 						.count();
@@ -218,13 +218,13 @@ public class EveCharacter {
 		charjobs.values().filter(j -> isManufacture(j)).size();
 		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
 			synchronized (charjobs) {
-				return charjobs.copy().values().stream().filter(j -> isManufacture(j)).count();
+				return charjobs.get().values().stream().filter(j -> isManufacture(j)).count();
 			}
 		}, charjobs.asObservable());
 		ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation.getIndustryJobs();
 		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
 			synchronized (corpJobs) {
-				return corpJobs.copy().values().stream().filter(j -> j.installer_id == con.characterId())
+				return corpJobs.get().values().stream().filter(j -> j.installer_id == con.characterId())
 						.filter(j -> Corporation.isManufacture(j)).count();
 			}
 		}, corpJobs.asObservable());
@@ -422,9 +422,9 @@ public class EveCharacter {
 	 * @return the map of itemid to qtty for each assets this character owns.
 	 */
 	public Map<Integer, Integer> getAssetsProd() {
-		Map<Integer, Integer> assets = getAssets().copy().values().parallelStream().flatMap(m -> m.entrySet().stream())
+		Map<Integer, Integer> assets = getAssets().get().values().parallelStream().flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Integer::sum));
-		Map<Integer, Integer> prod = getIndustryJobs().copy().values().stream().parallel()
+		Map<Integer, Integer> prod = getIndustryJobs().get().values().stream().parallel()
 				.filter(EveCharacter::isManufacture)
 				.collect(Collectors.toMap(e -> e.product_type_id, e -> e.runs, Integer::sum));
 		return Stream.concat(assets.entrySet().stream(), prod.entrySet().stream())
@@ -555,7 +555,7 @@ public class EveCharacter {
 					ObsMapHolderImpl<Integer, Integer> newmarketSOs = new ObsMapHolderImpl<>(underlyingsos);
 					ObservableMap<Integer, Integer> underlyingbos = FXCollections.observableMap(new HashMap<>());
 					ObsMapHolderImpl<Integer, Integer> newmarketBOs = new ObsMapHolderImpl<>(underlyingbos);
-					getMarketOrders().addReceivedListener((map) -> {
+					getMarketOrders().follow((map) -> {
 						HashMap<Integer, Integer> newMapsos = new HashMap<>();
 						HashMap<Integer, Integer> newMapbos = new HashMap<>();
 						for (R_get_characters_character_id_orders v : map.values()) {
