@@ -1,28 +1,29 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-import java.util.TimeZone;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.LocationCache;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_location;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_loyalty_points;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
@@ -33,6 +34,9 @@ import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
@@ -188,7 +192,6 @@ public class EveCharacter {
 		return job.activity_id == 8;
 	}
 
-
 	public ObservableNumberValue availableResearchSlots() {
 		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> jobs = getResearchJobs();
 		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
@@ -269,58 +272,116 @@ public class EveCharacter {
 	}
 
 	//
-	// online state and position
+	// online state
 	//
 
+	private ObsObjHolder<R_get_characters_character_id_online> online = null;
+
 	protected ObsObjHolder<R_get_characters_character_id_online> getOnline() {
-		return con.raw.cache.characters.online(con.characterId());
-	}
-
-	public boolean isOnline() {
-		return getOnline().get().online;
-	}
-
-	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
-	static {
-		sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
-	}
-
-	public Date lastLogin() {
-		try {
-			synchronized (sdf) {
-				return sdf.parse(getOnline().get().last_login);
-			}
-		} catch (ParseException ex) {
-			throw new UnsupportedOperationException("catch this", ex);
-		}
-	}
-
-	public Date lastLogout() {
-		try {
-			synchronized (sdf) {
-				return sdf.parse(getOnline().get().last_logout);
-			}
-		} catch (ParseException ex) {
-			throw new UnsupportedOperationException("catch this", ex);
-		}
-	}
-
-	private LocationCache location = null;
-
-	public LocationCache getLocation() {
-		if (location == null) {
-			synchronized (this) {
-				if (location == null) {
-					location = new LocationCache(con);
-					try {
-						location.waitData();
-					} catch (InterruptedException e) {
-						throw new UnsupportedOperationException("catch this", e);
-					}
+		if (online == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (online == null) {
+					online = con.raw.cache.characters.online(con.characterId());
 				}
-			}
+			});
+		}
+		return online;
+	}
+
+	private ObsBoolHolder isonline = null;
+
+	public ObsBoolHolder isOnline() {
+		if (isonline == null) {
+			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
+				if (isonline == null) {
+					isonline = getOnline().test(onl -> onl.online);
+				}
+			});
+		}
+		return isonline;
+	}
+
+	private ObsObjHolder<ZonedDateTime> lastlogin = null;
+
+	public ObsObjHolder<ZonedDateTime> getLastLogin() {
+		if (lastlogin == null) {
+			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
+				if (lastlogin == null) {
+					lastlogin = getOnline().map(onl->DateTimeFormatter.ISO_DATE_TIME.parse(onl.last_login, ZonedDateTime::from));
+				}
+			});
+		}
+		return lastlogin;
+	}
+
+	private ObsObjHolder<ZonedDateTime> lastlogout = null;
+
+	public ObsObjHolder<ZonedDateTime> getLastlogout() {
+		if (lastlogout == null) {
+			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
+				if (lastlogout == null) {
+					lastlogout = getOnline()
+							.map(onl -> DateTimeFormatter.ISO_DATE_TIME.parse(onl.last_logout, ZonedDateTime::from));
+				}
+			});
+		}
+		return lastlogout;
+	}
+
+	//
+	// location
+	//
+
+	private ObsObjHolder<R_get_characters_character_id_location> location = null;
+
+	public ObsObjHolder<R_get_characters_character_id_location> getLocation() {
+		if (location == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (location == null) {
+					location = con.raw.cache.characters.location(con.characterId());
+				}
+			});
 		}
 		return location;
+	}
+
+	private ObsIntHolder solarSystemId = null;
+
+	public ObsIntHolder getSolarSystemId() {
+		if (solarSystemId == null) {
+			LockWatchDog.BARKER.syncExecute(getLocation(), () -> {
+				if (solarSystemId == null) {
+					solarSystemId = getLocation().mapInt(loc -> loc.solar_system_id);
+				}
+			});
+		}
+		return solarSystemId;
+	}
+
+	private ObsIntHolder stationId = null;
+
+	public ObsIntHolder getStationId() {
+		if (stationId == null) {
+			LockWatchDog.BARKER.syncExecute(getLocation(), () -> {
+				if (stationId == null) {
+					stationId = getLocation().mapInt(loc -> loc.station_id);
+				}
+			});
+		}
+		return stationId;
+	}
+
+	private ObsLongHolder structureId = null;
+
+	public ObsLongHolder getStructureId() {
+		if (structureId == null) {
+			LockWatchDog.BARKER.syncExecute(getLocation(), () -> {
+				if (structureId == null) {
+					structureId = getLocation().mapLong(loc -> loc.structure_id);
+				}
+			});
+		}
+		return structureId;
 	}
 
 	//
@@ -434,9 +495,13 @@ public class EveCharacter {
 
 	private ObsListHolder<get_characters_character_id_skills_skills> skills = null;
 
-	public synchronized ObsListHolder<get_characters_character_id_skills_skills> getSkills() {
+	public ObsListHolder<get_characters_character_id_skills_skills> getSkills() {
 		if (skills == null) {
-			skills = con.raw.cache.characters.skills(con.characterId()).toList(c -> Arrays.asList(c.skills));
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (skills == null) {
+					skills = con.raw.cache.characters.skills(con.characterId()).toList(c -> Arrays.asList(c.skills));
+				}
+			});
 		}
 		return skills;
 	}
@@ -446,9 +511,11 @@ public class EveCharacter {
 	public ObsMapHolder<Integer, Integer> getSkillsID2Level() {
 		ObsListHolder<get_characters_character_id_skills_skills> skills = getSkills();
 		if (skillsID2Level == null) {
-			synchronized (skills) {
-				skillsID2Level = skills.mapItems(s -> s.skill_id, s -> s.active_skill_level);
-			}
+			LockWatchDog.BARKER.syncExecute(skills, () -> {
+				if (skillsID2Level == null) {
+					skillsID2Level = skills.mapItems(s -> s.skill_id, s -> s.active_skill_level);
+				}
+			});
 		}
 		return skillsID2Level;
 	}
@@ -458,10 +525,12 @@ public class EveCharacter {
 	public ObsMapHolder<String, Integer> getskillsName2Level() {
 		ObsListHolder<get_characters_character_id_skills_skills> skills = getSkills();
 		if (skillsName2Level == null) {
-			synchronized (skills) {
-				skillsName2Level = skills.mapItems(s -> ESIStatic.INSTANCE.cache.universe.types(s.skill_id).get().name,
-						s -> s.active_skill_level);
-			}
+			LockWatchDog.BARKER.syncExecute(skills, () -> {
+				if (skillsName2Level == null) {
+					skillsName2Level = skills.mapItems(s -> ESIStatic.INSTANCE.cache.universe.types(s.skill_id).get().name,
+							s -> s.active_skill_level);
+				}
+			});
 		}
 		return skillsName2Level;
 	}
@@ -480,7 +549,7 @@ public class EveCharacter {
 
 	private void makeBOSOs() {
 		if (marketSOs == null || marketBOs == null) {
-			synchronized (this) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (marketSOs == null || marketBOs == null) {
 					ObservableMap<Integer, Integer> underlyingsos = FXCollections.observableMap(new HashMap<>());
 					ObsMapHolderImpl<Integer, Integer> newmarketSOs = new ObsMapHolderImpl<>(underlyingsos);
@@ -510,7 +579,7 @@ public class EveCharacter {
 					marketSOs = newmarketSOs;
 					marketBOs = newmarketBOs;
 				}
-			}
+			});
 		}
 	}
 
@@ -537,27 +606,81 @@ public class EveCharacter {
 		return cacheOrders;
 	}
 
+	//
+	// wallet
+	//
 	/** get total isk balance */
 	public ObsObjHolder<Double> getWallet() {
 		return con.raw.cache.characters.wallet(con.characterId());
 	}
 
-	private ObsMapHolderImpl<String, R_get_characters_character_id_wallet_transactions> walletTransactions;
+	private ObsMapHolder<String, R_get_characters_character_id_wallet_transactions> walletTransactions;
 
 	/**
 	 * get wallet history.<br />
 	 * The key is String because a transaction can appear in the corporation and
 	 * character wallets, with same id.
 	 */
-	public ObsMapHolderImpl<String, R_get_characters_character_id_wallet_transactions> getWalletTransactions() {
+	public ObsMapHolder<String, R_get_characters_character_id_wallet_transactions> getWalletTransactions() {
 		if (walletTransactions == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				walletTransactions = ObsMapHolderImpl.toMap(
-						con.raw.cache.characters.wallet_transactions(con.characterId(), null),
-						h -> "" + con.characterId() + h.transaction_id);
+				if (walletTransactions == null) {
+					walletTransactions = con.raw.cache.characters.wallet_transactions(con.characterId(), null)
+							.mapItems(h -> "" + con.characterId() + h.transaction_id);
+				}
 			});
 		}
 		return walletTransactions;
 	}
 
+	//
+	// journal
+	//
+
+	private ObsMapHolder<Long, R_get_characters_character_id_wallet_journal> journal;
+
+	public ObsMapHolder<Long, R_get_characters_character_id_wallet_journal> getJournal() {
+		if (journal == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (journal == null) {
+					journal = con.raw.cache.characters.wallet_journal(con.characterId()).mapItems(j -> j.id);
+				}
+			});
+		}
+		return journal;
+	}
+
+	//
+	// standings
+	//
+
+	private ObsMapHolder<Integer, M_get_standings_3> standings;
+
+	public ObsMapHolder<Integer, M_get_standings_3> getStandings() {
+		if (standings == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (standings == null) {
+					standings = con.raw.cache.characters.standings(con.characterId()).mapItems(std -> std.from_id);
+				}
+			});
+		}
+		return standings;
+	}
+
+	//
+	// LP
+	//
+
+	private ObsMapHolder<Integer, R_get_characters_character_id_loyalty_points> lps;
+
+	public ObsMapHolder<Integer, R_get_characters_character_id_loyalty_points> getLPs() {
+		if (lps == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (lps == null) {
+					lps = con.raw.cache.characters.loyalty_points(con.characterId()).mapItems(lp -> lp.corporation_id);
+				}
+			});
+		}
+		return lps;
+	}
 }
