@@ -17,7 +17,7 @@ public class CharBookmarks extends fr.guiguilechat.jcelechat.jcesi.connected.mod
 	protected synchronized void makeCacheBookmarks() {
 		if (cacheBookmarks == null) {
 			cacheBookmarks = ObsMapHolderImpl.toMap(con.raw.cache.characters.bookmarks(con.characterId()),
-					m -> "" + m.bookmark_id);
+					m -> m.bookmark_id);
 		}
 	}
 
@@ -25,7 +25,7 @@ public class CharBookmarks extends fr.guiguilechat.jcelechat.jcesi.connected.mod
 	protected synchronized void makeCacheFolders() {
 		if (cacheFolders == null) {
 			cacheFolders = ObsMapHolderImpl.map(
-					ObsMapHolderImpl.toMap(con.raw.cache.characters.bookmarks_folders(con.characterId()), m -> "" + m.folder_id),
+					ObsMapHolderImpl.toMap(con.raw.cache.characters.bookmarks_folders(con.characterId()), m -> m.folder_id),
 					this::convert);
 		}
 	}

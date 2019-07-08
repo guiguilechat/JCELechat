@@ -52,6 +52,9 @@ public class Corporation {
 		return con.character.infos.corporationId().get();
 	}
 
+	//
+	// bm are delegated to a specific class
+	//
 	public final CorpBookmarks bms;
 
 	// industry jobs
@@ -237,7 +240,7 @@ public class Corporation {
 		if (wallet == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (wallet == null) {
-					wallet = 
+					wallet =
 							con.raw.cache.corporations.wallets(getId())
 							.reduceDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
 				}

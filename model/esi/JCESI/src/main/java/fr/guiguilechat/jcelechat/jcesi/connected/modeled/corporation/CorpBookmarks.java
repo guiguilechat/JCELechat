@@ -25,16 +25,19 @@ public class CorpBookmarks {
 		this.con = con;
 	}
 
-	private ObservableMap<String, ObservableMap<String, M_get_bookmarks_9>> bookmarks = null;
+	/**
+	 * folder name-> bm id-> bm data
+	 */
+	private ObservableMap<String, ObservableMap<Integer, M_get_bookmarks_9>> bookmarks = null;
 
-	private ObsMapHolder<String, ObservableMap<String, M_get_bookmarks_9>> bookmarksHolder = null;
+	private ObsMapHolder<String, ObservableMap<Integer, M_get_bookmarks_9>> bookmarksHolder = null;
 
 	/**
 	 *
 	 * @return the cached list of observable bookmarks, by folder
 	 *         name->id->bookmark.
 	 */
-	public ObsMapHolder<String, ObservableMap<String, M_get_bookmarks_9>> getBookmarks() {
+	public ObsMapHolder<String, ObservableMap<Integer, M_get_bookmarks_9>> getBookmarks() {
 		if (bookmarksHolder == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (bookmarksHolder == null) {
@@ -50,11 +53,11 @@ public class CorpBookmarks {
 		return bookmarksHolder;
 	}
 
-	private Map<String, R_get_corporations_corporation_id_bookmarks_folders> knownFoldersByRef = new HashMap<>();
+	private Map<Integer, R_get_corporations_corporation_id_bookmarks_folders> knownFoldersByRef = new HashMap<>();
 
 	/** listener when a folder name is modified */
 	private void onFolderChange(
-			Change<? extends String, ? extends R_get_corporations_corporation_id_bookmarks_folders> change) {
+			Change<? extends Integer, ? extends R_get_corporations_corporation_id_bookmarks_folders> change) {
 		LockWatchDog.BARKER.syncExecute(bookmarks, () -> {
 			if (change.wasRemoved() && change.wasAdded()) {
 				// folder was changed
@@ -64,7 +67,7 @@ public class CorpBookmarks {
 			} else {
 				if (change.wasAdded()) {
 					knownFoldersByRef.put(change.getKey(), change.getValueAdded());
-					ObservableMap<String, M_get_bookmarks_9> add = FXCollections.observableHashMap();
+					ObservableMap<Integer, M_get_bookmarks_9> add = FXCollections.observableHashMap();
 					knownBMByRef.entrySet().stream().filter(e -> e.getValue().folder_id == change.getValueAdded().folder_id)
 					.forEachOrdered(e -> add.put(e.getKey(), e.getValue()));
 					bookmarks.put(change.getValueAdded().name, add);
@@ -76,10 +79,10 @@ public class CorpBookmarks {
 		});
 	}
 
-	private Map<String, M_get_bookmarks_9> knownBMByRef = new HashMap<>();
+	private Map<Integer, M_get_bookmarks_9> knownBMByRef = new HashMap<>();
 
 	/** listener when a bm is modified */
-	private void onBmChange(Change<? extends String, ? extends M_get_bookmarks_9> c) {
+	private void onBmChange(Change<? extends Integer, ? extends M_get_bookmarks_9> c) {
 		LockWatchDog.BARKER.syncExecute(bookmarks, () -> {
 			if (c.wasRemoved()) {
 				M_get_bookmarks_9 removed = c.getValueRemoved();
@@ -89,7 +92,7 @@ public class CorpBookmarks {
 			if (c.wasAdded()) {
 				M_get_bookmarks_9 added = c.getValueAdded();
 				knownBMByRef.put(c.getKey(), added);
-				R_get_corporations_corporation_id_bookmarks_folders folder = knownFoldersByRef.get("" + added.folder_id);
+				R_get_corporations_corporation_id_bookmarks_folders folder = knownFoldersByRef.get(added.folder_id);
 				if (folder != null) {
 					String name = folder.name;
 					bookmarks.get(name).put(c.getKey(), c.getValueAdded());
@@ -98,52 +101,58 @@ public class CorpBookmarks {
 		});
 	}
 
-	protected ObsMapHolder<String, M_get_bookmarks_9> cacheBookmarks = null;
+	protected ObsMapHolder<Integer, M_get_bookmarks_9> cacheBookmarks = null;
 
 	/**
 	 * get the corp id-> bm raw data
 	 *
 	 * @return a new map if not cached, or the one cached if already called.
 	 */
-	protected ObsMapHolder<String, M_get_bookmarks_9> bookmarks() {
+	protected ObsMapHolder<Integer, M_get_bookmarks_9> bookmarks() {
 		if (cacheBookmarks == null) {
 			makeCacheBookmarks();
 		}
 		return cacheBookmarks;
 	}
 
+	/**
+	 * only preent to be overloaded in character bookmark
+	 */
 	protected synchronized void makeCacheBookmarks() {
 		if (cacheBookmarks == null) {
-			cacheBookmarks = ObsMapHolderImpl.toMap(
-					con.raw.cache.corporations.bookmarks(con.character.infos.corporationId().get()), m -> "" + m.bookmark_id);
+			cacheBookmarks = ObsMapHolderImpl
+					.toMap(con.raw.cache.corporations.bookmarks(con.character.infos.corporationId().get()), m -> m.bookmark_id);
 		}
 	}
 
-	protected ObsMapHolder<String, R_get_corporations_corporation_id_bookmarks_folders> cacheFolders = null;
+	protected ObsMapHolder<Integer, R_get_corporations_corporation_id_bookmarks_folders> cacheFolders = null;
 
 	/**
-	 * get the corp id-> bm_folder raw data
+	 * get the corporation's id-> bm_folder raw data
 	 *
 	 * @return a new map if not cached, or the one cached if already called.
 	 */
-	protected ObsMapHolder<String, R_get_corporations_corporation_id_bookmarks_folders> bookmarksFolders() {
+	protected ObsMapHolder<Integer, R_get_corporations_corporation_id_bookmarks_folders> bookmarksFolders() {
 		if (cacheFolders == null) {
 			makeCacheFolders();
 		}
 		return cacheFolders;
 	}
 
+	/**
+	 * only preent to be overloaded in character bookmark
+	 */
 	protected synchronized void makeCacheFolders() {
 		if (cacheFolders == null) {
 			cacheFolders = ObsMapHolderImpl.toMap(
 					con.raw.cache.corporations.bookmarks_folders(con.character.infos.corporationId().get()),
-					m -> "" + m.folder_id);
+					m -> m.folder_id);
 		}
 	}
 
 	private boolean datareceivedBM = false;
 
-	protected void dataReceveidBM(Map<String, M_get_bookmarks_9> data) {
+	protected void dataReceveidBM(Map<Integer, M_get_bookmarks_9> data) {
 		datareceivedBM = true;
 		synchronized (bookmarks) {
 			if (dataReceveidFolders) {
@@ -154,7 +163,7 @@ public class CorpBookmarks {
 
 	private boolean dataReceveidFolders = false;
 
-	protected void dataReceveidFolders(Map<String, R_get_corporations_corporation_id_bookmarks_folders> data) {
+	protected void dataReceveidFolders(Map<Integer, R_get_corporations_corporation_id_bookmarks_folders> data) {
 		dataReceveidFolders = true;
 		synchronized (bookmarks) {
 			if (datareceivedBM) {
