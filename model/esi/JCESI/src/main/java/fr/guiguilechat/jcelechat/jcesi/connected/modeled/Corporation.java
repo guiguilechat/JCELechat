@@ -16,14 +16,23 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmar
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.SystemAsset;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_divisions;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_facilities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_membertracking;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders_history;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_titles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
@@ -52,20 +61,30 @@ public class Corporation {
 		return con.character.infos.corporationId().get();
 	}
 
+	public ObsObjHolder<R_get_corporations_corporation_id> getInformations() {
+		return ESIStatic.INSTANCE.cache.corporations.get(getId());
+	}
+
+	public String getName() {
+		return getInformations().get().name;
+	}
+
 	//
 	// bm are delegated to a specific class
 	//
 	public final CorpBookmarks bms;
 
+	//
 	// industry jobs
+	//
 
-	private ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> industryJobs = null;
+	private ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> cachedIndustryJobs = null;
 
 	public ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
-		if (industryJobs == null) {
+		if (cachedIndustryJobs == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (industryJobs == null) {
-					industryJobs = ObsMapHolderImpl.toMap(con.raw.cache.corporations.industry_jobs(getId(), false),
+				if (cachedIndustryJobs == null) {
+					cachedIndustryJobs = con.raw.cache.corporations.industry_jobs(getId(), false).mapItems(
 							j -> j.job_id);
 				}
 			});
@@ -220,40 +239,61 @@ public class Corporation {
 		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.blueprints(getId()), bp -> bp.item_id);
 	}
 
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_structures> structures = null;
+	//
+	// structures and facilities
+	//
+
+	private ObsMapHolder<Long, R_get_corporations_corporation_id_structures> cachedStructures = null;
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_structures> getStructures() {
-		if (structures == null) {
+		if (cachedStructures == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (structures == null) {
-					structures = ObsMapHolderImpl.toMap(con.raw.cache.corporations.structures(getId()), str -> str.structure_id);
+				if (cachedStructures == null) {
+					cachedStructures = con.raw.cache.corporations.structures(getId()).mapItems(str -> str.structure_id);
 				}
 			});
 		}
-		return structures;
+		return cachedStructures;
 	}
 
-	ObsDoubleHolder wallet = null;
+	private ObsMapHolder<Long, R_get_corporations_corporation_id_facilities> cachedFacilities;
+
+	public ObsMapHolder<Long, R_get_corporations_corporation_id_facilities> getFacilities() {
+		if (cachedFacilities == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedFacilities == null) {
+					cachedFacilities = con.raw.cache.corporations.facilities(getId()).mapItems(str -> str.facility_id);
+				}
+			});
+		}
+		return cachedFacilities;
+	}
+
+	//
+	// wallet
+	//
+
+	private ObsDoubleHolder cachedWallet = null;
 
 	/** get the total sum of all the wallets */
 	public ObsDoubleHolder getWallet() {
-		if (wallet == null) {
+		if (cachedWallet == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (wallet == null) {
-					wallet =
+				if (cachedWallet == null) {
+					cachedWallet =
 							con.raw.cache.corporations.wallets(getId())
 							.reduceDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
 				}
 			});
 		}
-		return wallet;
+		return cachedWallet;
 	}
 
 	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
 		return con.raw.cache.corporations.divisions(getId());
 	}
 
-	ObsMapHolder<String, R_get_corporations_corporation_id_wallets_division_transactions> walletTransactions = null;
+	private ObsMapHolder<String, R_get_corporations_corporation_id_wallets_division_transactions> cachedWalletTransactions = null;
 
 	/**
 	 * get wallet history.<br />
@@ -261,73 +301,187 @@ public class Corporation {
 	 * character wallets, with same id.
 	 */
 	public ObsMapHolder<String, R_get_corporations_corporation_id_wallets_division_transactions> getWalletTransactions() {
-		if (walletTransactions == null) {
+		if (cachedWalletTransactions == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (walletTransactions == null) {
+				if (cachedWalletTransactions == null) {
 					@SuppressWarnings("unchecked")
 					ObsMapHolderImpl<String, R_get_corporations_corporation_id_wallets_division_transactions>[] wallets = Stream
 					.of(getDivisions().get().wallet)
 					.map(division -> con.raw.cache.corporations.wallets_transactions(getId(), division.division, null))
 					.map(l -> ObsMapHolderImpl.toMap(l, k -> "" + getId() + k.transaction_id)).collect(Collectors.toList())
 					.toArray(new ObsMapHolderImpl[] {});
-					walletTransactions = wallets[0].merge(Arrays.copyOfRange(wallets, 1, wallets.length));
+					cachedWalletTransactions = wallets[0].merge(Arrays.copyOfRange(wallets, 1, wallets.length));
 				}
 			});
 		}
-		return walletTransactions;
+		return cachedWalletTransactions;
 	}
 
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_orders> cacheOrders = null;
+	private ObsMapHolder<Long, R_get_corporations_corporation_id_orders> cachedOrders = null;
 
 	public ObsMapHolder<Long, R_get_corporations_corporation_id_orders> getMarketOrders() {
-		if (cacheOrders == null) {
+		if (cachedOrders == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cacheOrders == null) {
-					cacheOrders = con.raw.cache.corporations.orders(getId()).mapItems(o -> o.order_id);
+				if (cachedOrders == null) {
+					cachedOrders = con.raw.cache.corporations.orders(getId()).mapItems(o -> o.order_id);
 				}
 			});
 		}
-		return cacheOrders;
+		return cachedOrders;
 	}
 
-	public R_get_corporations_corporation_id getInformations() {
-		return ESIStatic.INSTANCE.cache.corporations.get(getId()).get();
+	private ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> cachedOrdersHistory = null;
+
+	public ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> getOrdersHistory() {
+		if (cachedOrdersHistory == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if(cachedOrdersHistory==null) {
+					cachedOrdersHistory = con.raw.cache.corporations
+							.orders_history(getId()).mapItems(order -> order.order_id);
+				}
+			});
+		}
+		return cachedOrdersHistory;
 	}
 
 	//
 	// journal
 	//
 
-	// private ObsMapHolder<Long, R_get_characters_character_id_wallet_journal>
-	// journal;
-	//
-	// public ObsMapHolder<Long, R_get_characters_character_id_wallet_journal>
-	// getJournal() {
-	// if (journal == null) {
-	// LockWatchDog.BARKER.syncExecute(this, () -> {
-	// if (journal == null) {
-	// journal = con.raw.cache.corporations.wallet_journal(getId()).mapItems(j ->
-	// j.id);
-	// }
-	// });
-	// }
-	// return journal;
-	// }
+	private Map<Integer, ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal>> cachedJournals = new HashMap<>();
 
-	//
-	// standings
-	//
-
-	private ObsMapHolder<Integer, M_get_standings_3> standings;
-
-	public ObsMapHolder<Integer, M_get_standings_3> getStandings() {
-		if (standings == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (standings == null) {
-					standings = con.raw.cache.corporations.standings(getId()).mapItems(std -> std.from_id);
+	public ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal> getJournal(int division_id) {
+		if (cachedJournals.get(division_id) == null) {
+			LockWatchDog.BARKER.syncExecute(cachedJournals, () -> {
+				if (cachedJournals.get(division_id) == null) {
+					cachedJournals.put(division_id,
+							con.raw.cache.corporations.wallets_journal(getId(), division_id).mapItems(j -> j.id));
 				}
 			});
 		}
-		return standings;
+		return cachedJournals.get(division_id);
 	}
+
+	//
+	// standings, contacts, labels
+	//
+
+	private ObsMapHolder<Integer, M_get_standings_3> cachedStandings;
+
+	public ObsMapHolder<Integer, M_get_standings_3> getStandings() {
+		if (cachedStandings == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedStandings == null) {
+					cachedStandings = con.raw.cache.corporations.standings(getId()).mapItems(std -> std.from_id);
+				}
+			});
+		}
+		return cachedStandings;
+	}
+
+	private ObsMapHolder<Integer, R_get_corporations_corporation_id_contacts> cachedContacts = null;
+
+	public ObsMapHolder<Integer, R_get_corporations_corporation_id_contacts> contacts() {
+		if (cachedContacts == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedContacts == null) {
+					cachedContacts = con.raw.cache.corporations.contacts(getId()).mapItems(contact -> contact.contact_id);
+				}
+			});
+		}
+		return cachedContacts;
+	}
+
+	private ObsMapHolder<Object, Object> cachedContacts_labels = null;
+
+	public ObsMapHolder<Object, Object> contact_labels() {
+		if (cachedContacts_labels == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedContacts_labels == null) {
+					cachedContacts_labels = con.raw.cache.corporations.contacts_labels(getId()).mapItems(l -> l.label_id,
+							l -> l.label_name);
+				}
+			});
+		}
+		return cachedContacts_labels;
+	}
+
+	//
+	// members, titles, roles
+	//
+
+	public ObsListHolder<Integer> getMembers() {
+		return con.raw.cache.corporations.members(getId());
+	}
+
+	public ObsObjHolder<Integer> getMembersLimit() {
+		return con.raw.cache.corporations.members_limit(getId());
+	}
+
+	private ObsMapHolder<Integer, int[]> cachedMembersTitles = null;
+
+	public ObsMapHolder<Integer, int[]> getMemberTitles() {
+		if (cachedMembersTitles == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedMembersTitles == null) {
+					cachedMembersTitles = con.raw.cache.corporations.members_titles(getId()).mapItems(title -> title.character_id,
+							title -> title.titles);
+				}});
+		}
+		return cachedMembersTitles;
+	}
+
+	private ObsMapHolder<Integer, R_get_corporations_corporation_id_titles> cachedTitles = null;
+
+	public ObsMapHolder<Integer, R_get_corporations_corporation_id_titles> getTitles() {
+		if (cachedTitles == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedTitles == null) {
+					cachedTitles = con.raw.cache.corporations.titles(getId()).mapItems(title -> title.title_id);
+				}
+			});
+		}
+		return cachedTitles;
+	}
+
+	private ObsMapHolder<Integer, R_get_corporations_corporation_id_membertracking> cachedMemberstracking = null;
+
+	public ObsMapHolder<Integer, R_get_corporations_corporation_id_membertracking> getMembersTracking() {
+		if (cachedMemberstracking == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedMemberstracking == null) {
+					cachedMemberstracking = con.raw.cache.corporations.membertracking(getId())
+							.mapItems(track -> track.character_id);
+				}
+			});
+		}
+		return cachedMemberstracking;
+	}
+
+	private ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> cachedRoles;
+
+	/**
+	 * @see G_ICOAccess#get_corporations_roles(int, Map)
+	 * @return
+	 */
+	public ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> getRoles() {
+		if(cachedRoles==null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedRoles == null) {
+					cachedRoles = con.raw.cache.corporations.roles(getId()).mapItems(roles -> roles.character_id);
+				}
+			});
+		}
+		return cachedRoles;
+	}
+
+	/**
+	 * @see G_ICOAccess#get_corporations_roles_history(int, Integer, Map)
+	 * @return
+	 */
+	public ObsListHolder<R_get_corporations_corporation_id_roles_history> getRolesHistory() {
+		// already cached for direct resource
+		return con.raw.cache.corporations.roles_history(getId());
+	}
+
 }
