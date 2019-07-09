@@ -189,9 +189,10 @@ public class Corporation {
 			// asset, we iterally map it to this asset's location instead
 			Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
 					.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (a, b) -> {
-						Arrays.sort(itemsArr, (o1, o2) -> (int) Math.signum(o1.item_id - o2.item_id));
+						var sortedItemsArray = Arrays.copyOf(itemsArr, itemsArr.length);
+						Arrays.sort(sortedItemsArray, (o1, o2) -> (int) Math.signum(o1.item_id - o2.item_id));
 						logger.warn("double item location when fetching corporation assets " + a + ";" + b);
-						for (R_get_corporations_corporation_id_assets asset : itemsArr) {
+						for (R_get_corporations_corporation_id_assets asset : sortedItemsArray) {
 							logger.warn("" + asset.item_id + " : loc=" + asset.location_id + " type=" + asset.type_id + " x"
 									+ asset.quantity);
 						}
