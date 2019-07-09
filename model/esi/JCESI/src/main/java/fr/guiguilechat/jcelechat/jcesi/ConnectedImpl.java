@@ -202,10 +202,15 @@ public abstract class ConnectedImpl implements ITransfer {
 							ret = resourceAccess.apply(page, parameters);
 						}
 						return ret;
-					}).peek(req -> {
-						if (!req.isOk()) {
-							res.responseCode = req.getResponseCode();
-							res.error = req.getError();
+					}).peek(pageRes -> {
+						if (!pageRes.isOk()) {
+							res.responseCode = pageRes.getResponseCode();
+							res.error = pageRes.getError();
+						}
+						if (!pageRes.getHeaders().get("Expires").equals(res.getHeaders().get("Expires"))) {
+							logger.warn(
+									"mismatching page cache data [url=" + pageRes.getURL() + " Expires=" + pageRes.getHeaders().get("Expires")
+									+ "] with first page [url=" + res.getURL() + " Expires=" + res.getHeaders().get("Expires") + "]");
 						}
 					}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr))
 					.collect(Collectors.toList()));
