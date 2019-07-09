@@ -196,7 +196,13 @@ public abstract class ConnectedImpl implements ITransfer {
 		int nbPages = res.getNbPages();
 		if (res.isOk() && nbPages > 1) {
 			res.getOK().addAll(IntStream.rangeClosed(2, nbPages).parallel()
-					.mapToObj(page -> resourceAccess.apply(page, parameters)).peek(req -> {
+					.mapToObj(page -> {
+						var ret = resourceAccess.apply(page, parameters);
+						while (ret.isServerError()) {
+							ret = resourceAccess.apply(page, parameters);
+						}
+						return ret;
+					}).peek(req -> {
 						if (!req.isOk()) {
 							res.responseCode = req.getResponseCode();
 							res.error = req.getError();
