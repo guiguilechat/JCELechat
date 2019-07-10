@@ -151,7 +151,7 @@ public class EveCharacter {
 		if (industryJobs == null) {
 			synchronized (this) {
 				if (industryJobs == null) {
-					industryJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false).mapItems(j -> j.job_id);
+					industryJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false).toMap(j -> j.job_id);
 				}
 			}
 		}
@@ -513,7 +513,7 @@ public class EveCharacter {
 		if (skillsID2Level == null) {
 			LockWatchDog.BARKER.syncExecute(skills, () -> {
 				if (skillsID2Level == null) {
-					skillsID2Level = skills.mapItems(s -> s.skill_id, s -> s.active_skill_level);
+					skillsID2Level = skills.toMap(s -> s.skill_id, s -> s.active_skill_level);
 				}
 			});
 		}
@@ -527,7 +527,7 @@ public class EveCharacter {
 		if (skillsName2Level == null) {
 			LockWatchDog.BARKER.syncExecute(skills, () -> {
 				if (skillsName2Level == null) {
-					skillsName2Level = skills.mapItems(s -> ESIStatic.INSTANCE.cache.universe.types(s.skill_id).get().name,
+					skillsName2Level = skills.toMap(s -> ESIStatic.INSTANCE.cache.universe.types(s.skill_id).get().name,
 							s -> s.active_skill_level);
 				}
 			});
@@ -626,7 +626,7 @@ public class EveCharacter {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (walletTransactions == null) {
 					walletTransactions = con.raw.cache.characters.wallet_transactions(con.characterId(), null)
-							.mapItems(h -> "" + con.characterId() + h.transaction_id);
+							.toMap(h -> "" + con.characterId() + h.transaction_id);
 				}
 			});
 		}
@@ -643,7 +643,7 @@ public class EveCharacter {
 		if (journal == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (journal == null) {
-					journal = con.raw.cache.characters.wallet_journal(con.characterId()).mapItems(j -> j.id);
+					journal = con.raw.cache.characters.wallet_journal(con.characterId()).toMap(j -> j.id);
 				}
 			});
 		}
@@ -660,7 +660,7 @@ public class EveCharacter {
 		if (standings == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (standings == null) {
-					standings = con.raw.cache.characters.standings(con.characterId()).mapItems(std -> std.from_id);
+					standings = con.raw.cache.characters.standings(con.characterId()).toMap(std -> std.from_id);
 				}
 			});
 		}
@@ -677,7 +677,7 @@ public class EveCharacter {
 		if (lps == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (lps == null) {
-					lps = con.raw.cache.characters.loyalty_points(con.characterId()).mapItems(lp -> lp.corporation_id);
+					lps = con.raw.cache.characters.loyalty_points(con.characterId()).toMap(lp -> lp.corporation_id);
 				}
 			});
 		}

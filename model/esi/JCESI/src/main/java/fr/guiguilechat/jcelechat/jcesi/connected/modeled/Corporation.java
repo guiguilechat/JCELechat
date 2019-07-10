@@ -41,6 +41,7 @@ import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
@@ -84,12 +85,26 @@ public class Corporation {
 		if (cachedIndustryJobs == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedIndustryJobs == null) {
-					cachedIndustryJobs = con.raw.cache.corporations.industry_jobs(getId(), false).mapItems(
+					cachedIndustryJobs = con.raw.cache.corporations.industry_jobs(getId(), false).toMap(
 							j -> j.job_id);
 				}
 			});
 		}
-		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.industry_jobs(getId(), false), j -> j.job_id);
+		return cachedIndustryJobs;
+	}
+
+	private ObsSetHolder<Long> cachedUsedBPs = null;
+
+	public ObsSetHolder<Long> getUsedBPs() {
+		if (cachedUsedBPs == null) {
+			ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> jobs = getIndustryJobs();
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedUsedBPs == null) {
+					cachedUsedBPs = jobs.values().mapItems(j -> j.blueprint_id).distinct();
+				}
+			});
+		}
+		return cachedUsedBPs;
 	}
 
 	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
@@ -250,7 +265,7 @@ public class Corporation {
 		if (cachedStructures == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedStructures == null) {
-					cachedStructures = con.raw.cache.corporations.structures(getId()).mapItems(str -> str.structure_id);
+					cachedStructures = con.raw.cache.corporations.structures(getId()).toMap(str -> str.structure_id);
 				}
 			});
 		}
@@ -263,7 +278,7 @@ public class Corporation {
 		if (cachedFacilities == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedFacilities == null) {
-					cachedFacilities = con.raw.cache.corporations.facilities(getId()).mapItems(str -> str.facility_id);
+					cachedFacilities = con.raw.cache.corporations.facilities(getId()).toMap(str -> str.facility_id);
 				}
 			});
 		}
@@ -324,7 +339,7 @@ public class Corporation {
 		if (cachedOrders == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedOrders == null) {
-					cachedOrders = con.raw.cache.corporations.orders(getId()).mapItems(o -> o.order_id);
+					cachedOrders = con.raw.cache.corporations.orders(getId()).toMap(o -> o.order_id);
 				}
 			});
 		}
@@ -338,7 +353,7 @@ public class Corporation {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if(cachedOrdersHistory==null) {
 					cachedOrdersHistory = con.raw.cache.corporations
-							.orders_history(getId()).mapItems(order -> order.order_id);
+							.orders_history(getId()).toMap(order -> order.order_id);
 				}
 			});
 		}
@@ -356,7 +371,7 @@ public class Corporation {
 			LockWatchDog.BARKER.syncExecute(cachedJournals, () -> {
 				if (cachedJournals.get(division_id) == null) {
 					cachedJournals.put(division_id,
-							con.raw.cache.corporations.wallets_journal(getId(), division_id).mapItems(j -> j.id));
+							con.raw.cache.corporations.wallets_journal(getId(), division_id).toMap(j -> j.id));
 				}
 			});
 		}
@@ -373,7 +388,7 @@ public class Corporation {
 		if (cachedStandings == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedStandings == null) {
-					cachedStandings = con.raw.cache.corporations.standings(getId()).mapItems(std -> std.from_id);
+					cachedStandings = con.raw.cache.corporations.standings(getId()).toMap(std -> std.from_id);
 				}
 			});
 		}
@@ -386,7 +401,7 @@ public class Corporation {
 		if (cachedContacts == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedContacts == null) {
-					cachedContacts = con.raw.cache.corporations.contacts(getId()).mapItems(contact -> contact.contact_id);
+					cachedContacts = con.raw.cache.corporations.contacts(getId()).toMap(contact -> contact.contact_id);
 				}
 			});
 		}
@@ -399,7 +414,7 @@ public class Corporation {
 		if (cachedContacts_labels == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedContacts_labels == null) {
-					cachedContacts_labels = con.raw.cache.corporations.contacts_labels(getId()).mapItems(l -> l.label_id,
+					cachedContacts_labels = con.raw.cache.corporations.contacts_labels(getId()).toMap(l -> l.label_id,
 							l -> l.label_name);
 				}
 			});
@@ -425,7 +440,7 @@ public class Corporation {
 		if (cachedMembersTitles == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedMembersTitles == null) {
-					cachedMembersTitles = con.raw.cache.corporations.members_titles(getId()).mapItems(title -> title.character_id,
+					cachedMembersTitles = con.raw.cache.corporations.members_titles(getId()).toMap(title -> title.character_id,
 							title -> title.titles);
 				}});
 		}
@@ -438,7 +453,7 @@ public class Corporation {
 		if (cachedTitles == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedTitles == null) {
-					cachedTitles = con.raw.cache.corporations.titles(getId()).mapItems(title -> title.title_id);
+					cachedTitles = con.raw.cache.corporations.titles(getId()).toMap(title -> title.title_id);
 				}
 			});
 		}
@@ -452,7 +467,7 @@ public class Corporation {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedMemberstracking == null) {
 					cachedMemberstracking = con.raw.cache.corporations.membertracking(getId())
-							.mapItems(track -> track.character_id);
+							.toMap(track -> track.character_id);
 				}
 			});
 		}
@@ -469,7 +484,7 @@ public class Corporation {
 		if(cachedRoles==null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedRoles == null) {
-					cachedRoles = con.raw.cache.corporations.roles(getId()).mapItems(roles -> roles.character_id);
+					cachedRoles = con.raw.cache.corporations.roles(getId()).toMap(roles -> roles.character_id);
 				}
 			});
 		}
