@@ -509,7 +509,8 @@ public abstract class ConnectedImpl implements ITransfer {
 						} else {
 							logger.debug("" + res.getResponseCode() + " : " + res.getError());
 						}
-						delay_ms = res.getCacheExpire();
+						// add a delay to avoid refetching the data too fast
+						delay_ms = res.getCacheExpire() + 500;
 						if (res.isServerError()) {
 							logger.debug("waiting 10s " + res.getError());
 							delay_ms = 0;
