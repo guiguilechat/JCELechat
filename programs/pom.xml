@@ -21,7 +21,7 @@
 		<module>Praisal</module>
 		<module>MoonWorth</module>
 		<module>InsuranceFraud</module>
-		<module>NPCDamages</module>
+		
 	</modules>
 	<dependencies>
 		<dependency>

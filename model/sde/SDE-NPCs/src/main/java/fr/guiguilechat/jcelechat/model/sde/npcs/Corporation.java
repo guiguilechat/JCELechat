@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -20,17 +22,34 @@ public class Corporation {
 
 	public static final String RESOURCE_PATH = "SDE/npcs/corporations.yaml";
 
-	public static synchronized LinkedHashMap<String, Corporation> load() {
+	public static LinkedHashMap<String, Corporation> load() {
 		if (cache == null) {
-			try {
-				cache = new Yaml().loadAs(
-						new InputStreamReader(Corporation.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-						Container.class).corporations;
-			} catch (Exception exception) {
-				throw new UnsupportedOperationException("catch this", exception);
+			synchronized (Corporation.class) {
+				if (cache == null) {
+					try {
+						cache = new Yaml().loadAs(
+								new InputStreamReader(Corporation.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
+								Container.class).corporations;
+					} catch (Exception exception) {
+						throw new UnsupportedOperationException("catch this", exception);
+					}
+				}
 			}
 		}
 		return cache;
+	}
+
+	private static Map<Integer, Corporation> loadById = null;
+
+	public static Map<Integer, Corporation> loadById() {
+		if (loadById == null) {
+			synchronized (load()) {
+				if (loadById == null) {
+					loadById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getValue()));
+				}
+			}
+		}
+		return loadById;
 	}
 
 	public static void export(LinkedHashMap<String, Corporation> data, File folderout) {
