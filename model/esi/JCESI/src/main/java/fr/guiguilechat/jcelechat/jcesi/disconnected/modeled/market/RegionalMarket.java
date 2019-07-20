@@ -1,17 +1,28 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.value.ObservableDoubleValue;
 
-public class RegionalMarket {
+public class RegionalMarket implements IPricing {
+
+	private static final Logger logger = LoggerFactory.getLogger(RegionalMarket.class);
 
 	private final ObsListHolder<R_get_markets_region_id_orders> orders;
 	private final CacheStatic cache;
@@ -26,6 +37,7 @@ public class RegionalMarket {
 	// typeid-> cached orders
 	private Map<Integer, RegionTypeOrders> cachedOrders = new HashMap<>();
 
+	@Override
 	public RegionTypeOrders getMarketOrders(int typeID) {
 		RegionTypeOrders ret = cachedOrders.get(typeID);
 		if (ret == null) {
@@ -41,28 +53,13 @@ public class RegionalMarket {
 		return ret;
 	}
 
-	public ObsDoubleHolder getPrice(int typeID, long qtty, boolean buy) {
-		return getMarketOrders(typeID).getPrice(buy, qtty);
-	}
-
-	public ObservableDoubleValue getSO(int typeID, long qtty) {
-		ObsDoubleHolder var = getMarketOrders(typeID).getPrice(false, qtty);
-		var.get();
-		return var.asObservableNumber();
-	}
-
-	public ObservableDoubleValue getBO(int typeID, long qtty) {
-		ObsDoubleHolder var = getMarketOrders(typeID).getPrice(true, qtty);
-		var.get();
-		return var.asObservableNumber();
-	}
-
 	//
 	// history
 	//
 
 	private final HashMap<Integer, RegionTypeHistory> historiesByTypeID = new HashMap<>();
 
+	@Override
 	public RegionTypeHistory getHistory(int typeID) {
 		RegionTypeHistory ret = historiesByTypeID.get(typeID);
 		if (ret == null) {
@@ -72,6 +69,83 @@ public class RegionalMarket {
 					ret2 = new RegionTypeHistory(cache, regionID, typeID);
 					historiesByTypeID.put(typeID, ret2);
 				}
+				return ret2;
+			});
+		}
+		return ret;
+	}
+
+	//
+	// filtering
+	//
+
+	private static class OrderFilterParams {
+
+		public final int centerId;
+		public final int distance;
+		public final boolean onlyHS;
+
+		public OrderFilterParams(int centerId, int distance, boolean onlyHS) {
+			this.centerId = centerId;
+			this.distance = distance;
+			this.onlyHS = onlyHS;
+		}
+
+		@Override
+		public int hashCode() {
+			return centerId + distance + (onlyHS ? 30 : 0);
+		}
+
+		@Override
+		public boolean equals(Object o) {
+			if (o == null || o.getClass() != OrderFilterParams.class) {
+				return false;
+			}
+			OrderFilterParams other = (OrderFilterParams) o;
+			return other.centerId == centerId && other.distance == distance && onlyHS == other.onlyHS;
+		}
+
+		@Override
+		public String toString() {
+			return "center=" + centerId + " range=" + distance + " hsonly=" + onlyHS;
+		}
+	}
+
+	private HashMap<OrderFilterParams, ProxyRegionalMarket> filtered = new HashMap<>();
+
+	public IPricing filter(int centerId, int distance, boolean onlyHS) {
+		if (!onlyHS && (centerId == 0 || distance < 0 || distance > 40)) {
+			return this;
+		}
+		OrderFilterParams key = new OrderFilterParams(centerId, distance, onlyHS);
+		ProxyRegionalMarket ret = filtered.get(key);
+		if (ret == null) {
+			ret = LockWatchDog.BARKER.syncExecute(filtered, () -> {
+				ProxyRegionalMarket ret2 = filtered.get(key);
+				if (ret2 == null) {
+					// generate all the systems in range first
+					List<Integer> systemsInRange = new ArrayList<>();
+					systemsInRange.add(centerId);
+					if (distance > 0) {
+						R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache.universe.regions(regionID).get();
+						IntStream.of(region.constellations).parallel()
+						.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache.universe.constellations(ci).get().systems))
+						.filter(
+								si -> si != centerId && ESIStatic.INSTANCE.cache.route.get(null, null, centerId, flag.shortest, si)
+								.get().size() <= distance)
+						.forEach(systemsInRange::add);
+					}
+					logger.debug("allowed systems in region " + regionID + " filter " + key + " are " + systemsInRange);
+					// then get all the stations in those systems
+					Set<Long> stationIds = systemsInRange.parallelStream()
+							.map(si -> ESIStatic.INSTANCE.cache.universe.systems(si).get())
+							.filter(sys -> !onlyHS || sys.security_status >= 0.45)
+							.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
+							.mapToObj(i -> (Long) i).collect(Collectors.toSet());
+					logger.debug(" corresponding stations are " + stationIds);
+					ret2 = new ProxyRegionalMarket(this, orders.filter(order -> stationIds.contains(order.location_id)));
+				}
+				filtered.put(key, ret2);
 				return ret2;
 			});
 		}
