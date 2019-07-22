@@ -17,11 +17,11 @@ import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
-public class CharSkills {
+public class Skills {
 
 	private final ESIAccount con;
 
-	public CharSkills(ESIAccount con) {
+	public Skills(ESIAccount con) {
 		this.con = con;
 	}
 

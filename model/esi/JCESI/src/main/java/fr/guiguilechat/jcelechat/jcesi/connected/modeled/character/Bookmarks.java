@@ -6,9 +6,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 
 /** Manage the bookmarks of a character */
-public class CharBookmarks extends fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks {
+public class Bookmarks extends fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks {
 
-	public CharBookmarks(ESIAccount con) {
+	public Bookmarks(ESIAccount con) {
 		super(con);
 	}
 

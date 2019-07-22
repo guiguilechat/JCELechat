@@ -10,14 +10,14 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharSkills;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Bookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Location;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Skills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_loyalty_points;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
@@ -33,8 +33,6 @@ import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
@@ -49,18 +47,21 @@ public class EveCharacter {
 
 	protected final ESIAccount con;
 
+	public final Informations infos;
+
+	public final Bookmarks bms;
+
+	public final Skills skills;
+
+	public final Location location;
+
 	public EveCharacter(ESIAccount con) {
 		this.con = con;
 		infos = new Informations(con);
-		bms = new CharBookmarks(con);
-		skills = new CharSkills(con);
+		bms = new Bookmarks(con);
+		skills = new Skills(con);
+		location = new Location(con);
 	}
-
-	public final Informations infos;
-
-	public final CharBookmarks bms;
-
-	public final CharSkills skills;
 
 	//
 	// roles
@@ -327,62 +328,6 @@ public class EveCharacter {
 			});
 		}
 		return lastlogout;
-	}
-
-	//
-	// location
-	//
-
-	private ObsObjHolder<R_get_characters_character_id_location> location = null;
-
-	public ObsObjHolder<R_get_characters_character_id_location> getLocation() {
-		if (location == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (location == null) {
-					location = con.raw.cache.characters.location(con.characterId());
-				}
-			});
-		}
-		return location;
-	}
-
-	private ObsIntHolder solarSystemId = null;
-
-	public ObsIntHolder getSolarSystemId() {
-		if (solarSystemId == null) {
-			LockWatchDog.BARKER.syncExecute(getLocation(), () -> {
-				if (solarSystemId == null) {
-					solarSystemId = getLocation().mapInt(loc -> loc.solar_system_id);
-				}
-			});
-		}
-		return solarSystemId;
-	}
-
-	private ObsIntHolder stationId = null;
-
-	public ObsIntHolder getStationId() {
-		if (stationId == null) {
-			LockWatchDog.BARKER.syncExecute(getLocation(), () -> {
-				if (stationId == null) {
-					stationId = getLocation().mapInt(loc -> loc.station_id);
-				}
-			});
-		}
-		return stationId;
-	}
-
-	private ObsLongHolder structureId = null;
-
-	public ObsLongHolder getStructureId() {
-		if (structureId == null) {
-			LockWatchDog.BARKER.syncExecute(getLocation(), () -> {
-				if (structureId == null) {
-					structureId = getLocation().mapLong(loc -> loc.structure_id);
-				}
-			});
-		}
-		return structureId;
 	}
 
 	//
