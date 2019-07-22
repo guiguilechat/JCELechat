@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.lootstats;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.HashMap;
 
 public class LootEntry {
@@ -8,7 +8,7 @@ public class LootEntry {
 	/**
 	 * date of loot
 	 */
-	public Date date;
+	public LocalDate date;
 
 	/**
 	 * team | base | agent | damsel4

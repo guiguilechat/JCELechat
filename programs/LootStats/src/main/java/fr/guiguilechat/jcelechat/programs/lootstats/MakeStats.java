@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -90,14 +90,17 @@ public class MakeStats {
 					ps.println("  " + e.getKey() + ": " + df.format(e.getValue() * 100));
 				}
 
-				makeChart(outDir, list.stream(), cost, le -> new String[] { "" + le.sec }, "ss value per week", Week::new);
+				Function<LocalDate, RegularTimePeriod> weekMaker = date -> new Week(date.getDayOfYear() / 7 + 1,
+						date.getYear());
+				makeChart(outDir, list.stream(), cost, le -> new String[] { "" + le.sec }, "ss value per week",
+						weekMaker);
 				makeChart(outDir, list.stream(), cost, le -> new String[] { "all", "" + le.type }, "type value per week",
-						Week::new);
+						weekMaker);
 				makeChart(outDir, list.stream(), cost, le -> new String[] { "all", "" + le.type }, "type value per month",
-						Month::new);
+						date -> new Month(date.getMonthValue(), date.getYear()));
 				makeChart(outDir, list.stream(), cost,
 						le -> new String[] { "all", le.type.substring(0, 1) + "-" + le.race.substring(0, 2) },
-						"type-race value per week", Week::new);
+						"type-race value per week", weekMaker);
 			} catch (FileNotFoundException e3) {
 				logger.warn("while analyzing directory " + dirname, e3);
 			}
@@ -142,7 +145,8 @@ public class MakeStats {
 	}
 
 	public static Map<String, Map<RegularTimePeriod, Double>> makeGroupToPeriodToValues(Stream<LootEntry> loots,
-			IntToDoubleFunction cost, Function<LootEntry, String[]> grouper, Function<Date, RegularTimePeriod> dateGrouper) {
+			IntToDoubleFunction cost, Function<LootEntry, String[]> grouper,
+			Function<LocalDate, RegularTimePeriod> dateGrouper) {
 		Map<String, Map<RegularTimePeriod, List<LootEntry>>> groupToDateToLoots = new HashMap<>();
 		// for each week
 		loots.forEach(le -> {
@@ -187,7 +191,7 @@ public class MakeStats {
 	 *          translates the dates to their period (eg {@link Week}::new)
 	 */
 	public static void makeChart(File dir, Stream<LootEntry> loots, IntToDoubleFunction cost,
-			Function<LootEntry, String[]> grouper, String name, Function<Date, RegularTimePeriod> dateGrouper) {
+			Function<LootEntry, String[]> grouper, String name, Function<LocalDate, RegularTimePeriod> dateGrouper) {
 
 		TimeSeriesCollection dataset = new TimeSeriesCollection();
 

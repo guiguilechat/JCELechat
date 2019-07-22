@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharSkills;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints;
@@ -22,12 +22,10 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_characters_character_id_skills_skills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_blueprints_location_flag;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
@@ -55,11 +53,14 @@ public class EveCharacter {
 		this.con = con;
 		infos = new Informations(con);
 		bms = new CharBookmarks(con);
+		skills = new CharSkills(con);
 	}
 
 	public final Informations infos;
 
 	public final CharBookmarks bms;
+
+	public final CharSkills skills;
 
 	//
 	// roles
@@ -209,7 +210,7 @@ public class EveCharacter {
 			}
 		}, corpJobs.asObservable());
 		return new SimpleIntegerProperty(
-				1 + getSkillsID2Level().getOrDefault(3406, 0) + getSkillsID2Level().getOrDefault(24624, 0))
+				1 + skills.ID2Level().getOrDefault(3406, 0) + skills.ID2Level().getOrDefault(24624, 0))
 				.subtract(charJobsVar).subtract(corpJobsVar);
 	}
 
@@ -229,7 +230,7 @@ public class EveCharacter {
 			}
 		}, corpJobs.asObservable());
 		return new SimpleIntegerProperty(
-				1 + getSkillsID2Level().getOrDefault(3387, 0) + getSkillsID2Level().getOrDefault(24625, 0))
+				1 + skills.ID2Level().getOrDefault(3387, 0) + skills.ID2Level().getOrDefault(24625, 0))
 				.subtract(charJobsVar).subtract(corpJobsVar);
 	}
 
@@ -487,56 +488,6 @@ public class EveCharacter {
 			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
 		}
 		return m1;
-	}
-
-	//
-	// skills
-	//
-
-	private ObsListHolder<get_characters_character_id_skills_skills> skills = null;
-
-	public ObsListHolder<get_characters_character_id_skills_skills> getSkills() {
-		if (skills == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (skills == null) {
-					skills = con.raw.cache.characters.skills(con.characterId()).toList(c -> Arrays.asList(c.skills));
-				}
-			});
-		}
-		return skills;
-	}
-
-	private ObsMapHolder<Integer, Integer> skillsID2Level = null;
-
-	public ObsMapHolder<Integer, Integer> getSkillsID2Level() {
-		ObsListHolder<get_characters_character_id_skills_skills> skills = getSkills();
-		if (skillsID2Level == null) {
-			LockWatchDog.BARKER.syncExecute(skills, () -> {
-				if (skillsID2Level == null) {
-					skillsID2Level = skills.toMap(s -> s.skill_id, s -> s.active_skill_level);
-				}
-			});
-		}
-		return skillsID2Level;
-	}
-
-	private ObsMapHolder<String, Integer> skillsName2Level = null;
-
-	public ObsMapHolder<String, Integer> getskillsName2Level() {
-		ObsListHolder<get_characters_character_id_skills_skills> skills = getSkills();
-		if (skillsName2Level == null) {
-			LockWatchDog.BARKER.syncExecute(skills, () -> {
-				if (skillsName2Level == null) {
-					skillsName2Level = skills.toMap(s -> ESIStatic.INSTANCE.cache.universe.types(s.skill_id).get().name,
-							s -> s.active_skill_level);
-				}
-			});
-		}
-		return skillsName2Level;
-	}
-
-	public ObsListHolder<R_get_characters_character_id_skillqueue> getSkillQueue() {
-		return con.raw.cache.characters.skillqueue(con.characterId());
 	}
 
 	//

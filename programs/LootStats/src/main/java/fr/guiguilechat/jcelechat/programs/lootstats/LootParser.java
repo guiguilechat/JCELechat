@@ -4,11 +4,10 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -37,14 +36,12 @@ public class LootParser {
 		return ret;
 	}
 
-	DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-
 	protected HashSet<String> undecoded = new HashSet<>();
 
 	public void loadFile(File lootFile, ArrayList<LootEntry> list) throws IOException, ParseException {
 		boolean isFilenamePrinted = false;
 		// logger.debug("name is " + lootFile.getName());
-		Date date = df.parse(lootFile.getName().split("\\.")[0]);
+		LocalDate date = LocalDate.parse(lootFile.getName().split("\\.")[0], DateTimeFormatter.ISO_LOCAL_DATE);
 		// 0 = wait for new entry
 		// 1 = writing an entry
 		int state = 0;

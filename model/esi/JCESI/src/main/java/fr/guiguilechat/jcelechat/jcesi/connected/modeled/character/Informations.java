@@ -1,134 +1,181 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 
-import java.util.concurrent.CountDownLatch;
+import java.time.LocalDateTime;
 
+import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
-import javafx.beans.property.SimpleDoubleProperty;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleObjectProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.value.ObservableDoubleValue;
-import javafx.beans.value.ObservableIntegerValue;
-import javafx.beans.value.ObservableObjectValue;
-import javafx.beans.value.ObservableStringValue;
+import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Informations {
 
 	private final ESIAccount con;
 
-	private SimpleIntegerProperty allianceId = new SimpleIntegerProperty();
-
-	public ObservableIntegerValue alliance_id() {
-		waitData();
-		return allianceId;
-	}
-
-	private SimpleIntegerProperty ancestryId = new SimpleIntegerProperty();
-
-	public ObservableIntegerValue ancestryId() {
-		waitData();
-		return ancestryId;
-	}
-
-	private SimpleStringProperty birthday = new SimpleStringProperty();
-
-	public ObservableStringValue birthday() {
-		waitData();
-		return birthday;
-	}
-	private SimpleIntegerProperty bloodlineId = new SimpleIntegerProperty();
-
-	public ObservableIntegerValue bloodlineId() {
-		waitData();
-		return bloodlineId;
-	}
-	private SimpleIntegerProperty corporationId = new SimpleIntegerProperty();
-
-	public ObservableIntegerValue corporationId() {
-		waitData();
-		return corporationId;
-	}
-	private SimpleStringProperty description = new SimpleStringProperty();
-
-	public ObservableStringValue description() {
-		waitData();
-		return description;
-	}
-	private SimpleIntegerProperty factionId = new SimpleIntegerProperty();
-
-	public ObservableIntegerValue factionId() {
-		waitData();
-		return factionId;
-	}
-
-	private SimpleObjectProperty<get_characters_character_id_gender> gender = new SimpleObjectProperty<>();
-
-	public ObservableObjectValue<get_characters_character_id_gender> gender() {
-		waitData();
-		return gender;
-	}
-	private SimpleStringProperty name = new SimpleStringProperty();
-
-	public ObservableStringValue name() {
-		waitData();
-		return name;
-	}
-	private SimpleIntegerProperty raceId = new SimpleIntegerProperty();
-
-	public ObservableIntegerValue raceId() {
-		waitData();
-		return raceId;
-	}
-	private SimpleDoubleProperty securityStatus = new SimpleDoubleProperty();
-
-	public ObservableDoubleValue securityStatus() {
-		waitData();
-		return securityStatus;
-	}
-
 	public Informations(ESIAccount con) {
 		this.con = con;
 	}
 
-	boolean connected = false;
-	CountDownLatch dataLatch = null;
-
-	protected void waitData() {
-		if (!connected) {
-			synchronized (this) {
-				if (!connected) {
-					dataLatch = new CountDownLatch(1);
-					ESIStatic.INSTANCE.cache.characters.get(con.characterId()).follow((o, old, now) -> handleData(now));
-					connected = true;
-				}
-			}
-		}
-		try {
-			dataLatch.await();
-		} catch (InterruptedException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
+	protected ObsObjHolder<R_get_characters_character_id> fetch() {
+		return ESIStatic.INSTANCE.cache.characters.get(con.characterId());
 	}
 
-	public synchronized void handleData(R_get_characters_character_id info) {
-		if (info == null) {
-			return;
+	private ObsIntHolder allianceId = null;
+
+	public ObsIntHolder alliance_id() {
+		if (allianceId == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (allianceId == null) {
+					allianceId = fetch.mapInt(info -> info.alliance_id);
+				}
+			});
 		}
-		allianceId.set(info.alliance_id);
-		ancestryId.set(info.ancestry_id);
-		birthday.set(info.birthday);
-		bloodlineId.set(info.bloodline_id);
-		corporationId.set(info.corporation_id);
-		description.set(info.description);
-		factionId.set(info.faction_id);
-		gender.set(info.gender);
-		name.set(info.name);
-		raceId.set(info.race_id);
-		securityStatus.set(info.security_status);
-		dataLatch.countDown();
+		return allianceId;
+	}
+
+	private ObsIntHolder ancestryId = null;
+
+	public ObsIntHolder ancestryId() {
+		if (ancestryId == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (ancestryId == null) {
+					ancestryId = fetch.mapInt(info -> info.ancestry_id);
+				}
+			});
+		}
+		return ancestryId;
+	}
+
+	private ObsObjHolder<LocalDateTime> birthday = null;
+
+	public ObsObjHolder<LocalDateTime> birthday() {
+		if (birthday == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (birthday == null) {
+					birthday = fetch.map(info -> ESITools.convertDateLocal(info.birthday));
+				}
+			});
+		}
+		return birthday;
+	}
+
+	private ObsIntHolder bloodlineId = null;
+
+	public ObsIntHolder bloodlineId() {
+		if (bloodlineId == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (bloodlineId == null) {
+					bloodlineId = fetch.mapInt(info -> info.bloodline_id);
+				}
+			});
+		}
+		return bloodlineId;
+	}
+
+	private ObsIntHolder corporationId = null;
+
+	public ObsIntHolder corporationId() {
+		if (corporationId == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (corporationId == null) {
+					corporationId = fetch.mapInt(info -> info.corporation_id);
+				}
+			});
+		}
+		return corporationId;
+	}
+
+	private ObsObjHolder<String> description = null;
+
+	public ObsObjHolder<String> description() {
+		if (description == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (description == null) {
+					description = fetch.map(info -> info.description);
+				}
+			});
+		}
+		return description;
+	}
+
+	private ObsIntHolder factionId = null;
+
+	public ObsIntHolder factionId() {
+		if (factionId == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (factionId == null) {
+					factionId = fetch.mapInt(info -> info.faction_id);
+				}
+			});
+		}
+		return factionId;
+	}
+
+	private ObsObjHolder<get_characters_character_id_gender> gender = null;
+
+	public ObsObjHolder<get_characters_character_id_gender> gender() {
+		if (gender == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (gender == null) {
+					gender = fetch.map(info -> info.gender);
+				}
+			});
+		}
+		return gender;
+	}
+
+	private ObsObjHolder<String> name = null;
+
+	public ObsObjHolder<String> name() {
+		if (name == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (name == null) {
+					name = fetch.map(info -> info.name);
+				}
+			});
+		}
+		return name;
+	}
+
+	private ObsIntHolder raceId = null;
+
+	public ObsIntHolder raceId() {
+		if (raceId == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (raceId == null) {
+					raceId = fetch.mapInt(info -> info.race_id);
+				}
+			});
+		}
+		return raceId;
+	}
+
+	private ObsDoubleHolder securityStatus = null;
+
+	public ObsDoubleHolder securityStatus() {
+		if (securityStatus == null) {
+			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (securityStatus == null) {
+					securityStatus = fetch.mapDouble(info -> info.security_status);
+				}
+			});
+		}
+		return securityStatus;
 	}
 
 }
