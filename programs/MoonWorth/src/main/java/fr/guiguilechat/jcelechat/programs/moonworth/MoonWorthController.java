@@ -52,7 +52,7 @@ public class MoonWorthController {
 		BO {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
-				ObservableDoubleValue var = controller.market().getBO(typeID, 1);
+				ObservableDoubleValue var = controller.market().getBO(typeID, 1).asObservableNumber();
 				// System.err.println("bo value of " + typeID + " is " +
 				// var.doubleValue());
 				return var.doubleValue();

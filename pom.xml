@@ -166,7 +166,7 @@
 			<dependency>
 				<groupId>fr.lelouet.tools</groupId>
 				<artifactId>CollectionsHolders</artifactId>
-				<version>0.0.6-SNAPSHOT</version>
+				<version>0.1.2-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

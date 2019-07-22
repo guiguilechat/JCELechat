@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
-import javafx.beans.value.ObservableDoubleValue;
 
 public interface IPricing {
 
@@ -11,16 +10,12 @@ public interface IPricing {
 		return getMarketOrders(typeID).getPrice(buy, qtty);
 	}
 
-	public default ObservableDoubleValue getSO(int typeID, long qtty) {
-		ObsDoubleHolder var = getMarketOrders(typeID).getPrice(false, qtty);
-		var.get();
-		return var.asObservableNumber();
+	public default ObsDoubleHolder getSO(int typeID, long qtty) {
+		return getPrice(typeID, qtty, false);
 	}
 
-	public default ObservableDoubleValue getBO(int typeID, long qtty) {
-		ObsDoubleHolder var = getMarketOrders(typeID).getPrice(true, qtty);
-		var.get();
-		return var.asObservableNumber();
+	public default ObsDoubleHolder getBO(int typeID, long qtty) {
+		return getPrice(typeID, qtty, true);
 	}
 
 	public RegionTypeHistory getHistory(int typeID);

@@ -123,7 +123,7 @@ public class Corporation {
 		return job.activity_id == 5;
 	}
 
-	public static boolean isInvetion(R_get_corporations_corporation_id_industry_jobs job) {
+	public static boolean isInvention(R_get_corporations_corporation_id_industry_jobs job) {
 		return job.activity_id == 8;
 	}
 

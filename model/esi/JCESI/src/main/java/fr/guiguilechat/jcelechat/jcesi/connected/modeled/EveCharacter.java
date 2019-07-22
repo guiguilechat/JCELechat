@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
+import java.time.OffsetDateTime;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,13 +9,15 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.jcelechat.jcesi.ESITools;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Attributes;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Bookmarks;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Industry;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Location;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Skills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_loyalty_points;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
@@ -24,15 +25,14 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_blueprints_location_flag;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
@@ -55,12 +55,18 @@ public class EveCharacter {
 
 	public final Location location;
 
+	public final Industry industry;
+
+	public final Attributes attributes;
+
 	public EveCharacter(ESIAccount con) {
 		this.con = con;
 		infos = new Informations(con);
 		bms = new Bookmarks(con);
 		skills = new Skills(con);
 		location = new Location(con);
+		industry = new Industry(con);
+		attributes = new Attributes(con);
 	}
 
 	//
@@ -135,145 +141,6 @@ public class EveCharacter {
 	}
 
 	//
-	// industry jobs
-	//
-
-	/**
-	 * fetch the list of industry jobs for this character. Completed jobs are
-	 * ignored.
-	 *
-	 * @return the internal cache of the jobs for this character. successive calls
-	 *         will return the same value.
-	 *
-	 */
-
-	private ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> industryJobs = null;
-
-	public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> getIndustryJobs() {
-		if (industryJobs == null) {
-			synchronized (this) {
-				if (industryJobs == null) {
-					industryJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false).toMap(j -> j.job_id);
-				}
-			}
-		}
-		return industryJobs;
-	}
-
-	private ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> researchJobs = null;
-
-	public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> getResearchJobs() {
-		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> industryJobs = getIndustryJobs();
-		if (researchJobs == null) {
-			synchronized (industryJobs) {
-				if (researchJobs == null) {
-					researchJobs = industryJobs.filter(null, j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j));
-				}
-			}
-		}
-		return researchJobs;
-	}
-
-	public static boolean isManufacture(R_get_characters_character_id_industry_jobs job) {
-		return job.activity_id == 1;
-	}
-
-	public static boolean isTE(R_get_characters_character_id_industry_jobs job) {
-		return job.activity_id == 3;
-	}
-
-	public static boolean isME(R_get_characters_character_id_industry_jobs job) {
-		return job.activity_id == 4;
-	}
-
-	public static boolean isCopy(R_get_characters_character_id_industry_jobs job) {
-		return job.activity_id == 5;
-	}
-
-	public static boolean isInvention(R_get_characters_character_id_industry_jobs job) {
-		return job.activity_id == 8;
-	}
-
-	public ObservableNumberValue availableResearchSlots() {
-		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> jobs = getResearchJobs();
-		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (jobs) {
-				return (long) jobs.size().get();
-			}
-		}, jobs.asObservable());
-		ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation.getIndustryJobs();
-		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (corpJobs) {
-				return corpJobs.get().values().stream().filter(j -> j.installer_id == con.characterId())
-						.filter(
-								j -> Corporation.isCopy(j) || Corporation.isInvetion(j) || Corporation.isME(j) || Corporation.isTE(j))
-						.count();
-			}
-		}, corpJobs.asObservable());
-		return new SimpleIntegerProperty(
-				1 + skills.ID2Level().getOrDefault(3406, 0) + skills.ID2Level().getOrDefault(24624, 0))
-				.subtract(charJobsVar).subtract(corpJobsVar);
-	}
-
-	public ObservableNumberValue availableManufSlots() {
-		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> charjobs = getIndustryJobs();
-		charjobs.values().filter(j -> isManufacture(j)).size();
-		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (charjobs) {
-				return charjobs.get().values().stream().filter(j -> isManufacture(j)).count();
-			}
-		}, charjobs.asObservable());
-		ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation.getIndustryJobs();
-		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (corpJobs) {
-				return corpJobs.get().values().stream().filter(j -> j.installer_id == con.characterId())
-						.filter(j -> Corporation.isManufacture(j)).count();
-			}
-		}, corpJobs.asObservable());
-		return new SimpleIntegerProperty(
-				1 + skills.ID2Level().getOrDefault(3387, 0) + skills.ID2Level().getOrDefault(24625, 0))
-				.subtract(charJobsVar).subtract(corpJobsVar);
-	}
-
-	//
-	// blueprints
-	//
-
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> blueprints = null;
-
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
-		if (blueprints == null) {
-			synchronized (this) {
-				if (blueprints == null) {
-					blueprints = ObsMapHolderImpl.toMap(con.raw.cache.characters.blueprints(con.characterId()), b -> b.item_id,
-							this::convertBlueprint);
-				}
-			}
-		}
-		return blueprints;
-	}
-
-	/**
-	 * copy the structure of a character bp to a corporation bp.
-	 *
-	 * @param source
-	 * @return
-	 */
-	protected R_get_corporations_corporation_id_blueprints convertBlueprint(
-			R_get_characters_character_id_blueprints source) {
-		R_get_corporations_corporation_id_blueprints ret = new R_get_corporations_corporation_id_blueprints();
-		ret.item_id = source.item_id;
-		ret.location_flag = get_corporations_corporation_id_blueprints_location_flag.valueOf(source.location_flag.name());
-		ret.location_id = source.location_id;
-		ret.material_efficiency = source.material_efficiency;
-		ret.quantity = source.quantity;
-		ret.runs = source.runs;
-		ret.time_efficiency = source.time_efficiency;
-		ret.type_id = source.type_id;
-		return ret;
-	}
-
-	//
 	// online state
 	//
 
@@ -303,31 +170,75 @@ public class EveCharacter {
 		return isonline;
 	}
 
-	private ObsObjHolder<ZonedDateTime> lastlogin = null;
+	private ObsObjHolder<OffsetDateTime> lastlogin = null;
 
-	public ObsObjHolder<ZonedDateTime> getLastLogin() {
+	public ObsObjHolder<OffsetDateTime> getLastLogin() {
 		if (lastlogin == null) {
 			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
 				if (lastlogin == null) {
-					lastlogin = getOnline().map(onl->DateTimeFormatter.ISO_DATE_TIME.parse(onl.last_login, ZonedDateTime::from));
+					lastlogin = getOnline().map(onl -> ESITools.convertDate(onl.last_login));
 				}
 			});
 		}
 		return lastlogin;
 	}
 
-	private ObsObjHolder<ZonedDateTime> lastlogout = null;
+	private ObsObjHolder<OffsetDateTime> lastlogout = null;
 
-	public ObsObjHolder<ZonedDateTime> getLastlogout() {
+	public ObsObjHolder<OffsetDateTime> getLastlogout() {
 		if (lastlogout == null) {
 			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
 				if (lastlogout == null) {
 					lastlogout = getOnline()
-							.map(onl -> DateTimeFormatter.ISO_DATE_TIME.parse(onl.last_logout, ZonedDateTime::from));
+							.map(onl -> ESITools.convertDate(onl.last_logout));
 				}
 			});
 		}
 		return lastlogout;
+	}
+
+	// slots for industry jobs
+
+	private ObsIntHolder researchSlots = null;
+
+	public ObsIntHolder availableResearchSlots() {
+		if(researchSlots==null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (researchSlots == null) {
+					ObsIntHolder jobs = industry.getResearchJobs().size();
+					ObsIntHolder corpJobs = con.corporation.getIndustryJobs().values()
+							.filter(j -> j.installer_id == con.characterId() && (Corporation.isCopy(j) || Corporation.isInvention(j)
+									|| Corporation.isME(j) || Corporation.isTE(j)))
+							.size();
+					ObsIntHolder skill1 = skills.ID2Level().at(3406, 0).mapInt(i -> i);
+					ObsIntHolder skill2 = skills.ID2Level().at(24624, 0).mapInt(i -> i);
+					ObsIntHolder totalSlots = skill1.add(skill2).add(1);
+					ObsIntHolder totalJobs = jobs.add(corpJobs);
+					researchSlots = totalSlots.sub(totalJobs);
+				}
+			});
+		}
+		return researchSlots;
+	}
+
+	public ObservableNumberValue availableManufSlots() {
+		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> charjobs = industry.getIndustryJobs();
+		charjobs.values().filter(Industry::isManufacture).size();
+		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
+			synchronized (charjobs) {
+				return charjobs.get().values().stream().filter(Industry::isManufacture).count();
+			}
+		}, charjobs.asObservable());
+		ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation.getIndustryJobs();
+		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
+			synchronized (corpJobs) {
+				return corpJobs.get().values().stream().filter(j -> j.installer_id == con.characterId())
+						.filter(j -> Corporation.isManufacture(j)).count();
+			}
+		}, corpJobs.asObservable());
+		return new SimpleIntegerProperty(
+				1 + skills.ID2Level().getOrDefault(3387, 0) + skills.ID2Level().getOrDefault(24625, 0)).subtract(charJobsVar)
+				.subtract(corpJobsVar);
 	}
 
 	//
@@ -370,8 +281,8 @@ public class EveCharacter {
 	public Map<Integer, Integer> getAssetsProd() {
 		Map<Integer, Integer> assets = getAssets().get().values().parallelStream().flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Integer::sum));
-		Map<Integer, Integer> prod = getIndustryJobs().get().values().stream().parallel()
-				.filter(EveCharacter::isManufacture)
+		Map<Integer, Integer> prod = industry.getIndustryJobs().get().values().stream().parallel()
+				.filter(Industry::isManufacture)
 				.collect(Collectors.toMap(e -> e.product_type_id, e -> e.runs, Integer::sum));
 		return Stream.concat(assets.entrySet().stream(), prod.entrySet().stream())
 				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Integer::sum));
