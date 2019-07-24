@@ -11,13 +11,15 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Attributes;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Bookmarks;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Industry;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Location;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Notifications;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Skills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_loyalty_points;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
@@ -26,16 +28,21 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
+import fr.lelouet.collectionholders.impl.numbers.ObsDoubleHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
+import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.value.ObservableNumberValue;
 import javafx.collections.FXCollections;
@@ -49,7 +56,7 @@ public class EveCharacter {
 
 	public final Informations infos;
 
-	public final Bookmarks bms;
+	public final CharBookmarks bms;
 
 	public final Skills skills;
 
@@ -59,14 +66,17 @@ public class EveCharacter {
 
 	public final Attributes attributes;
 
+	public final Notifications notifications;
+
 	public EveCharacter(ESIAccount con) {
 		this.con = con;
 		infos = new Informations(con);
-		bms = new Bookmarks(con);
+		bms = new CharBookmarks(con);
 		skills = new Skills(con);
 		location = new Location(con);
 		industry = new Industry(con);
 		attributes = new Attributes(con);
+		notifications = new Notifications(con);
 	}
 
 	//
@@ -490,4 +500,71 @@ public class EveCharacter {
 		}
 		return lps;
 	}
+
+	//
+	// skills and training
+	//
+
+	ObsDoubleHolder currentAcquisitionRate = null;
+
+	public ObsDoubleHolder getCurrentHourlySPRate() {
+		if(currentAcquisitionRate==null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (currentAcquisitionRate == null) {
+					SimpleDoubleProperty underlying = new SimpleDoubleProperty();
+					ObsDoubleHolderImpl ret = new ObsDoubleHolderImpl(underlying.asObject());
+					R_get_universe_types_type_id[] holdSkil = new 	R_get_universe_types_type_id[1];
+					R_get_characters_character_id_attributes[] holdAtt = new R_get_characters_character_id_attributes[1];
+					Runnable apply = () -> {
+						if (holdSkil[0] != null && holdAtt[0] != null) {
+							underlying.set(getHourlySPRate(holdSkil[0], holdAtt[0]));
+						}
+					};
+					skills.getTrainingSkill().follow((observable, oldValue, newValue) -> {
+						holdSkil[0] = newValue;
+						apply.run();
+					});
+					attributes.get().follow((observable, oldValue, newValue) -> {
+						holdAtt[0] = newValue;
+						apply.run();
+					});
+					currentAcquisitionRate = ret;
+				}
+			});
+		}
+		return currentAcquisitionRate;
+	}
+
+	public static double getHourlySPRate(R_get_universe_types_type_id skill,
+			R_get_characters_character_id_attributes attributes) {
+		if (skill.type_id == 0) {
+			return 0.0;
+		}
+		get_dogma_dynamic_items_type_id_item_id_dogma_attributes dogma_primary = Stream.of(skill.dogma_attributes)
+				.filter(att -> att.attribute_id == 180).findAny().orElse(null);
+		get_dogma_dynamic_items_type_id_item_id_dogma_attributes dogma_secondary = Stream.of(skill.dogma_attributes)
+				.filter(att -> att.attribute_id == 181).findAny().orElse(null);
+		return 60 * (dogma_primary != null ? Attributes.getAttribute((int) dogma_primary.value, attributes) : 0)
+				+ 30 * (dogma_secondary != null ? Attributes.getAttribute((int) dogma_secondary.value, attributes) : 0);
+	}
+
+	//
+	// alpha state
+	//
+
+	ObsBoolHolder isAlpha = null;
+
+	public ObsBoolHolder isAlpha() {
+		if (isAlpha == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				ObsBoolHolder limited = skills.hasLimitedskill();
+				ObsBoolHolder training = skills.getCurrentSkillAvgAcquisitionRate().test(d -> d > 0);
+				ObsDoubleHolder theoretical = getCurrentHourlySPRate();
+				ObsDoubleHolder effective = skills.getCurrentSkillAvgAcquisitionRate();
+				isAlpha = limited.or(training.and(effective.div(theoretical).test(d -> d < 0.55)));
+			});
+		}
+		return isAlpha;
+	}
+
 }

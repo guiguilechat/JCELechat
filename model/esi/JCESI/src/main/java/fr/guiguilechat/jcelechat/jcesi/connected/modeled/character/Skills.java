@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_cha
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
@@ -127,15 +128,18 @@ public class Skills {
 		return trainingSkill;
 	}
 
-	private ObsDoubleHolder acquisitionRate = null;
+	private ObsDoubleHolder currentSkillAvgAcquisitionRate = null;
 
-	/** get the acquisition rate, in SP/hour */
-	public ObsDoubleHolder getAcquisitionRate() {
+	/**
+	 * get the acquisition rate, in SP/hour , for the current skill using
+	 * estimated completion
+	 */
+	public ObsDoubleHolder getCurrentSkillAvgAcquisitionRate() {
 		ObsObjHolder<R_get_characters_character_id_skillqueue> train = getTraining();
-		if (acquisitionRate == null) {
+		if (currentSkillAvgAcquisitionRate == null) {
 			LockWatchDog.BARKER.syncExecute(train, () -> {
-				if (acquisitionRate == null) {
-					acquisitionRate = train.mapDouble(sk -> {
+				if (currentSkillAvgAcquisitionRate == null) {
+					currentSkillAvgAcquisitionRate = train.mapDouble(sk -> {
 						if (sk.start_date == null || sk.finish_date == null) {
 							return 0.0;
 						}
@@ -143,17 +147,30 @@ public class Skills {
 						LocalDateTime end = ESITools.convertDateLocal(sk.finish_date);
 						long deltaTime = ChronoUnit.MINUTES.between(start, end);
 						double ret = 60.0 * (sk.level_end_sp - sk.training_start_sp) / deltaTime;
-						// System.err.println("training skill " + sk.skill_id + " started on
-						// " + sk.start_date + " with "
-						// + sk.training_start_sp + "SP, finish on " + sk.finish_date + "
-						// with " + sk.level_end_sp
-						// + " time in hours is " + deltaTime + " SP/h is " + ret);
 						return ret;
 					});
 				}
 			});
 		}
-		return acquisitionRate;
+		return currentSkillAvgAcquisitionRate;
+	}
+
+	private ObsBoolHolder hasLimitedskill = null;
+
+	/**
+	 *
+	 * @return a variable that is set to true if the character contains at least
+	 *         one skill with a different active and trained level
+	 */
+	public ObsBoolHolder hasLimitedskill() {
+		if (hasLimitedskill == null) {
+			ObsListHolder<get_characters_character_id_skills_skills> list = list();
+			LockWatchDog.BARKER.syncExecute(list, () -> {
+				hasLimitedskill = list
+						.test(l -> l.stream().filter(s -> s.active_skill_level != s.trained_skill_level).findAny().isPresent());
+			});
+		}
+		return hasLimitedskill;
 	}
 
 }

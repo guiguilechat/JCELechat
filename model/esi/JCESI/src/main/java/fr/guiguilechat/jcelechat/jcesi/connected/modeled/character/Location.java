@@ -19,7 +19,7 @@ public class Location {
 		con = acc;
 	}
 
-	protected ObsObjHolder<R_get_characters_character_id_location> fetch(){
+	public ObsObjHolder<R_get_characters_character_id_location> get() {
 		return con.raw.cache.characters.location(con.characterId());
 	}
 
@@ -27,12 +27,12 @@ public class Location {
 
 	public ObsIntHolder getSolarSystemID() {
 		if (solarSystem == null) {
-			ObsObjHolder<R_get_characters_character_id_location> fetch = fetch();
-		LockWatchDog.BARKER.syncExecute(fetch, () -> {
-			if (solarSystem == null) {
-				solarSystem = fetch.mapInt(info -> info.solar_system_id);
-			}
-		});
+			ObsObjHolder<R_get_characters_character_id_location> fetch = get();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (solarSystem == null) {
+					solarSystem = fetch.mapInt(info -> info.solar_system_id);
+				}
+			});
 		}
 		return solarSystem;
 	}
@@ -41,12 +41,12 @@ public class Location {
 
 	public ObsIntHolder getStationID() {
 		if (stationID == null) {
-			ObsObjHolder<R_get_characters_character_id_location> fetch = fetch();
-		LockWatchDog.BARKER.syncExecute(fetch, () -> {
-			if (stationID == null) {
-				stationID = fetch.mapInt(info -> info.solar_system_id);
-			}
-		});
+			ObsObjHolder<R_get_characters_character_id_location> fetch = get();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (stationID == null) {
+					stationID = fetch.mapInt(info -> info.solar_system_id);
+				}
+			});
 		}
 		return stationID;
 	}
@@ -55,12 +55,12 @@ public class Location {
 
 	public ObsLongHolder getStructureID() {
 		if (structureID == null) {
-			ObsObjHolder<R_get_characters_character_id_location> fetch = fetch();
-		LockWatchDog.BARKER.syncExecute(fetch, () -> {
-			if (structureID == null) {
-				structureID = fetch.mapLong(info -> info.structure_id);
-			}
-		});
+			ObsObjHolder<R_get_characters_character_id_location> fetch = get();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
+				if (structureID == null) {
+					structureID = fetch.mapLong(info -> info.structure_id);
+				}
+			});
 		}
 		return structureID;
 	}

@@ -20,7 +20,7 @@ public class Attributes {
 		this.con = con;
 	}
 
-	public ObsObjHolder<R_get_characters_character_id_attributes> fetch() {
+	public ObsObjHolder<R_get_characters_character_id_attributes> get() {
 		return con.raw.cache.characters.attributes(con.characterId());
 	}
 
@@ -28,7 +28,7 @@ public class Attributes {
 
 	public ObsIntHolder charisma() {
 		if (charisma == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (charisma == null) {
 					charisma = fetch.mapInt(att->att.charisma);
@@ -42,7 +42,7 @@ public class Attributes {
 
 	public ObsIntHolder intelligence() {
 		if (intelligence == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (intelligence == null) {
 					intelligence = fetch.mapInt(att -> att.intelligence);
@@ -56,7 +56,7 @@ public class Attributes {
 
 	public ObsIntHolder memory() {
 		if (memory == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (memory == null) {
 					memory = fetch.mapInt(att -> att.memory);
@@ -70,7 +70,7 @@ public class Attributes {
 
 	public ObsIntHolder perception() {
 		if (perception == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (perception == null) {
 					perception = fetch.mapInt(att -> att.perception);
@@ -84,7 +84,7 @@ public class Attributes {
 
 	public ObsIntHolder willpower() {
 		if (willpower == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (willpower == null) {
 					willpower = fetch.mapInt(att -> att.willpower);
@@ -98,7 +98,7 @@ public class Attributes {
 
 	public ObsListHolder<Integer> sorted() {
 		if (sorted == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				sorted = fetch
 						.toList(att -> Arrays.asList(att.charisma, att.intelligence, att.memory, att.perception, att.willpower))
@@ -126,14 +126,14 @@ public class Attributes {
 
 	public ObsIntHolder sum() {
 		if (sum == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
-			LockWatchDog.BARKER.syncExecute(sorted, () -> {
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
+			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (sum == null) {
 					sum = fetch.mapInt(li -> li.charisma + li.intelligence + li.memory + li.perception + li.willpower);
 				}
 			});
 		}
-		return highest;
+		return sum;
 	}
 
 	private ObsBoolHolder accelerated = null;
@@ -141,7 +141,7 @@ public class Attributes {
 	public ObsBoolHolder isAccelerated() {
 		if (accelerated == null) {
 			ObsIntHolder sum = sum();
-			LockWatchDog.BARKER.syncExecute(sorted, () -> {
+			LockWatchDog.BARKER.syncExecute(sum, () -> {
 				if (accelerated == null) {
 					accelerated = sum.test(i -> i > 149);
 				}
@@ -154,7 +154,7 @@ public class Attributes {
 
 	public ObsIntHolder bonusRemaps() {
 		if (bonusRemaps == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (bonusRemaps == null) {
 					bonusRemaps = fetch.mapInt(att -> att.bonus_remaps);
@@ -168,7 +168,7 @@ public class Attributes {
 
 	public ObsObjHolder<LocalDateTime> lastRemap() {
 		if (lastRemap == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (lastRemap == null) {
 					lastRemap = fetch.map(att -> ESITools.convertDateLocal(att.last_remap_date));
@@ -182,7 +182,7 @@ public class Attributes {
 
 	public ObsObjHolder<LocalDateTime> remapCoolDown() {
 		if (remapCoolDown == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (remapCoolDown == null) {
 					remapCoolDown = fetch.map(att -> ESITools.convertDateLocal(att.accrued_remap_cooldown_date));
@@ -190,6 +190,23 @@ public class Attributes {
 			});
 		}
 		return remapCoolDown;
+	}
+
+	public static int getAttribute(int attID, R_get_characters_character_id_attributes attributes) {
+		switch (attID) {
+		case 164:
+			return attributes.charisma;
+		case 165:
+			return attributes.intelligence;
+		case 166:
+			return attributes.memory;
+		case 167:
+			return attributes.perception;
+		case 168:
+			return attributes.willpower;
+		default:
+			return 0;
+		}
 	}
 
 

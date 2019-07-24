@@ -20,7 +20,7 @@ public class Informations {
 		this.con = con;
 	}
 
-	protected ObsObjHolder<R_get_characters_character_id> fetch() {
+	public ObsObjHolder<R_get_characters_character_id> get() {
 		return ESIStatic.INSTANCE.cache.characters.get(con.characterId());
 	}
 
@@ -28,7 +28,7 @@ public class Informations {
 
 	public ObsIntHolder alliance_id() {
 		if (allianceId == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (allianceId == null) {
 					allianceId = fetch.mapInt(info -> info.alliance_id);
@@ -42,7 +42,7 @@ public class Informations {
 
 	public ObsIntHolder ancestryId() {
 		if (ancestryId == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (ancestryId == null) {
 					ancestryId = fetch.mapInt(info -> info.ancestry_id);
@@ -56,7 +56,7 @@ public class Informations {
 
 	public ObsObjHolder<LocalDateTime> birthday() {
 		if (birthday == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (birthday == null) {
 					birthday = fetch.map(info -> ESITools.convertDateLocal(info.birthday));
@@ -70,7 +70,7 @@ public class Informations {
 
 	public ObsIntHolder bloodlineId() {
 		if (bloodlineId == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (bloodlineId == null) {
 					bloodlineId = fetch.mapInt(info -> info.bloodline_id);
@@ -84,7 +84,7 @@ public class Informations {
 
 	public ObsIntHolder corporationId() {
 		if (corporationId == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (corporationId == null) {
 					corporationId = fetch.mapInt(info -> info.corporation_id);
@@ -98,7 +98,7 @@ public class Informations {
 
 	public ObsObjHolder<String> description() {
 		if (description == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (description == null) {
 					description = fetch.map(info -> info.description);
@@ -112,7 +112,7 @@ public class Informations {
 
 	public ObsIntHolder factionId() {
 		if (factionId == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (factionId == null) {
 					factionId = fetch.mapInt(info -> info.faction_id);
@@ -126,7 +126,7 @@ public class Informations {
 
 	public ObsObjHolder<get_characters_character_id_gender> gender() {
 		if (gender == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (gender == null) {
 					gender = fetch.map(info -> info.gender);
@@ -140,7 +140,7 @@ public class Informations {
 
 	public ObsObjHolder<String> name() {
 		if (name == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (name == null) {
 					name = fetch.map(info -> info.name);
@@ -154,7 +154,7 @@ public class Informations {
 
 	public ObsIntHolder raceId() {
 		if (raceId == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (raceId == null) {
 					raceId = fetch.mapInt(info -> info.race_id);
@@ -168,7 +168,7 @@ public class Informations {
 
 	public ObsDoubleHolder securityStatus() {
 		if (securityStatus == null) {
-			ObsObjHolder<R_get_characters_character_id> fetch = fetch();
+			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (securityStatus == null) {
 					securityStatus = fetch.mapDouble(info -> info.security_status);
