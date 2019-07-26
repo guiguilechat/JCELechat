@@ -96,7 +96,7 @@ public class Skills {
 					training = trainlist.map(l -> {
 						LocalDateTime now = LocalDateTime.now();
 						R_get_characters_character_id_skillqueue ret = l.stream()
-								.filter(sq -> sq.finish_date != null && now.isBefore(ESITools.convertDateLocal(sq.finish_date)))
+								.filter(sq -> sq.finish_date != null && now.isBefore(ESITools.convertLocalDateTime(sq.finish_date)))
 								.findFirst().orElse(null);
 						if (ret == null) {
 							ret= new R_get_characters_character_id_skillqueue();
@@ -143,8 +143,8 @@ public class Skills {
 						if (sk.start_date == null || sk.finish_date == null) {
 							return 0.0;
 						}
-						LocalDateTime start = ESITools.convertDateLocal(sk.start_date);
-						LocalDateTime end = ESITools.convertDateLocal(sk.finish_date);
+						LocalDateTime start = ESITools.convertLocalDateTime(sk.start_date);
+						LocalDateTime end = ESITools.convertLocalDateTime(sk.finish_date);
 						long deltaTime = ChronoUnit.MINUTES.between(start, end);
 						double ret = 60.0 * (sk.level_end_sp - sk.training_start_sp) / deltaTime;
 						return ret;

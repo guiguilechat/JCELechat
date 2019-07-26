@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Location;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Notifications;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Skills;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Wallet;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
@@ -26,7 +27,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
@@ -54,29 +54,32 @@ public class EveCharacter {
 
 	protected final ESIAccount con;
 
-	public final Informations infos;
+	public final Attributes attributes;
 
 	public final CharBookmarks bms;
 
-	public final Skills skills;
+	public final Industry industry;
+
+	public final Informations infos;
 
 	public final Location location;
 
-	public final Industry industry;
-
-	public final Attributes attributes;
-
 	public final Notifications notifications;
+
+	public final Skills skills;
+
+	public final Wallet wallet;
 
 	public EveCharacter(ESIAccount con) {
 		this.con = con;
-		infos = new Informations(con);
-		bms = new CharBookmarks(con);
-		skills = new Skills(con);
-		location = new Location(con);
-		industry = new Industry(con);
 		attributes = new Attributes(con);
+		bms = new CharBookmarks(con);
+		industry = new Industry(con);
+		infos = new Informations(con);
+		location = new Location(con);
 		notifications = new Notifications(con);
+		skills = new Skills(con);
+		wallet = new Wallet(con);
 	}
 
 	//
@@ -421,33 +424,6 @@ public class EveCharacter {
 			});
 		}
 		return cacheOrders;
-	}
-
-	//
-	// wallet
-	//
-	/** get total isk balance */
-	public ObsObjHolder<Double> getWallet() {
-		return con.raw.cache.characters.wallet(con.characterId());
-	}
-
-	private ObsMapHolder<String, R_get_characters_character_id_wallet_transactions> walletTransactions;
-
-	/**
-	 * get wallet history.<br />
-	 * The key is String because a transaction can appear in the corporation and
-	 * character wallets, with same id.
-	 */
-	public ObsMapHolder<String, R_get_characters_character_id_wallet_transactions> getWalletTransactions() {
-		if (walletTransactions == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (walletTransactions == null) {
-					walletTransactions = con.raw.cache.characters.wallet_transactions(con.characterId(), null)
-							.toMap(h -> "" + con.characterId() + h.transaction_id);
-				}
-			});
-		}
-		return walletTransactions;
 	}
 
 	//

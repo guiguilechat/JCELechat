@@ -32,6 +32,9 @@ public class ShowAttributes {
 		// starving leshak
 		// showEntity(48125);
 
+		// agent cruor
+		showEntity(34144);
+
 		// rakovene
 		// showEntity(52315);
 		// showGroup(4030);
@@ -39,7 +42,7 @@ public class ShowAttributes {
 		// showGroup(482, "asteroidgroup");
 
 		// drifter bs
-		showGroup(1310);
+		// showGroup(1310);
 	}
 
 	public static void showEntity(int typeId, String... filters) {
@@ -68,7 +71,7 @@ public class ShowAttributes {
 					}
 				}
 				System.out
-						.print("\t" + e.name + "(" + e.effect_id + ")" + "category=" + e.effect_category + " " + e.description);
+				.print("\t" + e.name + "(" + e.effect_id + ")" + "category=" + e.effect_category + " " + e.description);
 				List<String> booleans = new ArrayList<>();
 				if (e.disallow_auto_repeat) {
 					booleans.add("disallow_auto_repeat");

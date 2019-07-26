@@ -18,7 +18,7 @@ public class ESITools {
 	 * parse an ESI date to a local date time (that is, converted from UTC offset
 	 * to local offset)
 	 */
-	public static LocalDateTime convertDateLocal(String date) {
+	public static LocalDateTime convertLocalDateTime(String date) {
 		return convertDate(date).atZoneSameInstant(ZoneId.systemDefault()).toLocalDateTime();
 	}
 }

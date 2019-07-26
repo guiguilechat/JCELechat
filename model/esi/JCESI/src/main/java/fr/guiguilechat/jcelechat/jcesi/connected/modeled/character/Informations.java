@@ -59,7 +59,7 @@ public class Informations {
 			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (birthday == null) {
-					birthday = fetch.map(info -> ESITools.convertDateLocal(info.birthday));
+					birthday = fetch.map(info -> ESITools.convertLocalDateTime(info.birthday));
 				}
 			});
 		}

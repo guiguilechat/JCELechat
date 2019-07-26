@@ -171,7 +171,7 @@ public class Attributes {
 			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (lastRemap == null) {
-					lastRemap = fetch.map(att -> ESITools.convertDateLocal(att.last_remap_date));
+					lastRemap = fetch.map(att -> ESITools.convertLocalDateTime(att.last_remap_date));
 				}
 			});
 		}
@@ -185,7 +185,7 @@ public class Attributes {
 			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (remapCoolDown == null) {
-					remapCoolDown = fetch.map(att -> ESITools.convertDateLocal(att.accrued_remap_cooldown_date));
+					remapCoolDown = fetch.map(att -> ESITools.convertLocalDateTime(att.accrued_remap_cooldown_date));
 				}
 			});
 		}
