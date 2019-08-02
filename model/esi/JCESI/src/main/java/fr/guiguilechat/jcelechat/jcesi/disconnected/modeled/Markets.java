@@ -8,6 +8,9 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Markets {
 
@@ -36,7 +39,8 @@ public class Markets {
 				return null;
 			}
 			synchronized (regionMarkets) {
-				if (regionMarkets.get(regionID) == null) {
+				rm = regionMarkets.get(regionID);
+				if (rm == null) {
 					rm = new RegionalMarket(esiConnection.cache, regionID);
 					regionMarkets.put(regionID, rm);
 				} else {
@@ -51,36 +55,43 @@ public class Markets {
 	// prices : adjusted and average
 	//
 
-	private HashMap<Integer, Double> cachedAverage = null;
-	private HashMap<Integer, Double> cachedAdjusted = null;
+	public ObsListHolder<R_get_markets_prices> marketPrices() {
+		return esiConnection.cache.markets.prices();
+	}
 
-	private void dl() {
-		if (cachedAdjusted == null || cachedAverage == null) {
-			synchronized (Markets.class) {
-				if (cachedAdjusted != null && cachedAverage != null) {
-					return;
+	private ObsMapHolder<Integer, Double> adjusteds = null;
+
+	public ObsMapHolder<Integer, Double> getAdjusteds() {
+		if (adjusteds == null) {
+			ObsListHolder<R_get_markets_prices> prices = marketPrices();
+			LockWatchDog.BARKER.syncExecute(prices, () -> {
+				if (adjusteds == null) {
+					adjusteds = prices.toMap(p -> p.type_id, p -> p.adjusted_price);
 				}
-				HashMap<Integer, Double> fcachedAverage = new HashMap<>();
-				HashMap<Integer, Double> fcachedAdjusted = new HashMap<>();
-				for (R_get_markets_prices p : esiConnection.get_markets_prices(null).getOK()) {
-					int id = p.type_id;
-					fcachedAverage.put(id, p.average_price);
-					fcachedAdjusted.put(id, p.adjusted_price);
-				}
-				cachedAverage = fcachedAverage;
-				cachedAdjusted = fcachedAdjusted;
-			}
+			});
 		}
+		return adjusteds;
 	}
 
 	public double getAdjusted(int itemId) {
-		dl();
-		return cachedAdjusted.getOrDefault(itemId, Double.POSITIVE_INFINITY);
+		return getAdjusteds().getOrDefault(itemId, Double.POSITIVE_INFINITY);
+	}
+
+	private ObsMapHolder<Integer, Double> averages = null;
+
+	public ObsMapHolder<Integer, Double> getAverages() {
+		if (averages == null) {
+			ObsListHolder<R_get_markets_prices> prices = marketPrices();
+			LockWatchDog.BARKER.syncExecute(prices, () -> {
+				if (averages == null) {
+					averages = prices.toMap(p -> p.type_id, p -> p.average_price);
+				}
+			});
+		}
+		return averages;
 	}
 
 	public double getAverage(int itemId) {
-		dl();
-		return cachedAverage.getOrDefault(itemId, Double.POSITIVE_INFINITY);
+		return getAverages().getOrDefault(itemId, Double.POSITIVE_INFINITY);
 	}
-
 }
