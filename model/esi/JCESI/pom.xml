@@ -25,11 +25,6 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>JCESI-interfaces</artifactId>
 			<version>${project.version}</version>
@@ -37,6 +32,11 @@
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 	<build>

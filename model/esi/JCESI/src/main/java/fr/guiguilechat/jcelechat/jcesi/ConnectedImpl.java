@@ -504,7 +504,7 @@ public abstract class ConnectedImpl implements ITransfer {
 						} else if (res.isRedirect() && res.getResponseCode() == 304) {
 							lastEtag = res.getETag();
 						} else if (res.isClientError() || res.isRedirect()) {
-							logger.debug(res.getError());
+							logger.debug(res.getError() + " : setting data to null");
 							cacheHandler.accept(null);
 						} else {
 							logger.debug("" + res.getResponseCode() + " : " + res.getError());

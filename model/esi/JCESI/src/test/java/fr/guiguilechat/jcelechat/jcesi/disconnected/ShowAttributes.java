@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -28,12 +27,23 @@ public class ShowAttributes {
 
 		// hobgoblin
 		// showEntity(2454);
+		// 250mm railgun II
+		// showEntity(3082);
+		// ADC II
+		// showEntity(47257);
+		// domination heavy statsi grappler
+		// showEntity(41059);
+		// CN web
+		showEntity(17500);
 
 		// starving leshak
 		// showEntity(48125);
 
 		// agent cruor
-		showEntity(34144);
+		// showEntity(34144);
+
+		// diamond arbitrator
+		// showEntity(43559);
 
 		// rakovene
 		// showEntity(52315);
@@ -52,11 +62,11 @@ public class ShowAttributes {
 		System.out.println(type.name + "(" + typeId + ") group=" + group.name + "(" + group.group_id + ") category="
 				+ cat.name + "(" + cat.category_id + ")");
 		Set<Integer> usedAttIds = new HashSet<>();
-		Map<Integer, Float> attIdToValue = Collections.emptyMap();
-		if (type.dogma_attributes != null) {
-			attIdToValue = Stream.of(type.dogma_attributes)
-					.collect(Collectors.toMap(att -> att.attribute_id, att -> att.value));
-		}
+		Map<Integer, Float> attIdToValue = Stream
+				.of(type.dogma_attributes != null ? type.dogma_attributes
+						: new get_dogma_dynamic_items_type_id_item_id_dogma_attributes[0])
+				.collect(Collectors.toMap(att -> att.attribute_id, att -> att.value));
+
 		if (type.dogma_effects != null) {
 			List<ObsObjHolder<R_get_dogma_effects_effect_id>> effects = Stream.of(type.dogma_effects)
 					.map(eff -> ESIStatic.INSTANCE.cache.dogma.effects(eff.effect_id)).collect(Collectors.toList());
@@ -72,60 +82,71 @@ public class ShowAttributes {
 				}
 				System.out
 				.print("\t" + e.name + "(" + e.effect_id + ")" + "category=" + e.effect_category + " " + e.description);
-				List<String> booleans = new ArrayList<>();
+				List<String> flags = new ArrayList<>();
 				if (e.disallow_auto_repeat) {
-					booleans.add("disallow_auto_repeat");
+					flags.add("disallow_auto_repeat");
 				}
 				if (e.electronic_chance) {
-					booleans.add("electronic_chance");
+					flags.add("electronic_chance");
 				}
 				if (e.is_assistance) {
-					booleans.add("is_assistance");
+					flags.add("is_assistance");
 				}
 				if (e.is_offensive) {
-					booleans.add("is_offensive");
+					flags.add("is_offensive");
 				}
 				if (e.is_warp_safe) {
-					booleans.add("is_warp_safe");
+					flags.add("is_warp_safe");
 				}
 				if (e.range_chance) {
-					booleans.add("range_chance");
+					flags.add("range_chance");
 				}
-				if (!booleans.isEmpty()) {
-					System.out.println("[" + booleans.stream().collect(Collectors.joining("|")) + "]");
+				if (!flags.isEmpty()) {
+					System.out.println("[" + flags.stream().collect(Collectors.joining("|")) + "]");
 				} else {
 					System.out.println();
 				}
 				if (e.modifiers != null) {
 					for (get_dogma_effects_effect_id_modifiers m : e.modifiers) {
-						System.out.println("\t\t" + m.func + "|" + m.domain);
+						if (m.modified_attribute_id != 0 && m.modifying_attribute_id != 0) {
+							R_get_dogma_attributes_attribute_id modified = ESIStatic.INSTANCE.cache.dogma
+									.attributes(m.modified_attribute_id).get();
+							usedAttIds.add(m.modifying_attribute_id);
+							System.out.println("\t\t " + m.func + " : " + m.domain + "." + modified.display_name + " "
+									+ getOperator(m.operator) + " " + getAttValue(attIdToValue, m.modifying_attribute_id)
+									);
+						} else {
+							System.out.println("\t\t" + m.func + " " + m.domain);
+						}
 					}
 				}
 				if (e.range_attribute_id != 0) {
 					usedAttIds.add(e.range_attribute_id);
-					System.out.println(
-							"\t\trange(" + e.range_attribute_id + ")=" + attIdToValue.get(e.range_attribute_id));
+					System.out
+					.println("\t\trange(" + e.range_attribute_id + ")=" + printAttValue(attIdToValue, e.range_attribute_id));
 				}
 				if (e.falloff_attribute_id != 0) {
 					usedAttIds.add(e.falloff_attribute_id);
 					System.out.println(
-							"\t\tfalloff(" + e.falloff_attribute_id + ")=" + attIdToValue.get(e.falloff_attribute_id));
+							"\t\tfalloff(" + e.falloff_attribute_id + ")=" + printAttValue(attIdToValue, e.falloff_attribute_id));
 				}
 				if (e.tracking_speed_attribute_id != 0) {
 					usedAttIds.add(e.tracking_speed_attribute_id);
-					System.out.println("\t\ttracking(" + e.tracking_speed_attribute_id + ")="
-							+ attIdToValue.get(e.tracking_speed_attribute_id));
+					System.out.println("\t\ttracking speed(" + e.tracking_speed_attribute_id + ")="
+							+ printAttValue(attIdToValue, e.tracking_speed_attribute_id));
 				}
 				if (e.duration_attribute_id != 0) {
 					usedAttIds.add(e.duration_attribute_id);
-					System.out.println("\t\tduration(" + e.duration_attribute_id + ")="
-							+ attIdToValue.get(e.duration_attribute_id));
+					System.out.println(
+							"\t\tduration(" + e.duration_attribute_id + ")=" + printAttValue(attIdToValue, e.duration_attribute_id));
 				}
 				if (e.discharge_attribute_id != 0) {
 					usedAttIds.add(e.discharge_attribute_id);
-					System.out
-					.println("\t\tdischarge(" + e.discharge_attribute_id + ")=" + attIdToValue.get(e.discharge_attribute_id));
+					System.out.println(
+							"\t\tdischarge(" + e.discharge_attribute_id + ")=" + printAttValue(attIdToValue, e.discharge_attribute_id));
 				}
+				System.out.println("\t\tpre=" + e.pre_expression);
+				System.out.println("\t\tpost=" + e.post_expression);
 			}
 		}
 		if (type.dogma_attributes != null) {
@@ -141,8 +162,89 @@ public class ShowAttributes {
 				if (usedAttIds.contains(att.attribute_id)) {
 					return null;
 				}
-				return "\t" + dogattr.name + "(" + att.attribute_id + ")=" + att.value;
+				return "\t" + dogattr.name + "(" + att.attribute_id + ")=" + printAttValue(attIdToValue, att.attribute_id);
 			}).filter(s -> s != null).forEachOrdered(System.out::println);
+		}
+	}
+
+	public static String printAttValue(Map<Integer, Float> attIdToValue, int attId) {
+		R_get_dogma_attributes_attribute_id attribute = ESIStatic.INSTANCE.cache.dogma.attributes(attId).get();
+		return "" + attIdToValue.getOrDefault(attId, attribute.default_value) + " " + getUnit(attribute.unit_id);
+	}
+
+	public static float getAttValue(Map<Integer, Float> attIdToValue, int attId) {
+		R_get_dogma_attributes_attribute_id attribute = ESIStatic.INSTANCE.cache.dogma.attributes(attId).get();
+		return attIdToValue.getOrDefault(attId, attribute.default_value);
+	}
+
+	public static String getUnit(int unit_id) {
+		switch (unit_id) {
+		case 0:
+			return "ø";
+		case 1:
+			return "m";
+		case 2: // mass
+			return "kg";
+		case 3: // duration
+			return "ms";
+		case 9:
+			return "m³";
+		case 10: // cruise speed
+		case 11:// velocity
+			return "m/s";
+		case 101: // seconds
+			return "s";
+		case 102: // scan res
+			return "mm";
+		case 104: // mult
+			return "×";
+		case 105:// percentage
+			return "%";
+		case 106:// CPU
+			return "tf";
+		case 107: // powergrid
+			return "MW";
+		case 108: // resonance = reduction of damage
+			return "×";
+		case 109: // missileentityXmultiplier
+			return "×";
+		case 113:
+			return "hp";
+		case 114: // capacitor capacity
+			return "GJ";
+		case 115: // charge group
+			return "group";
+		case 116:
+			return "id";
+		case 117: //
+			return "size";
+		case 120: // sensor strength
+			return "points";
+		case 121:
+			return "%";
+		case 124: // speed factor
+			return "%";
+		case 127:// damage increase for trig guns
+			return "×";
+		case 128: // drone bandwidth
+			return "Mbit/s";
+		case 137: // disallow assistance
+			return "bool";
+		case 140:// tech/meta level
+			return "L";
+		default:
+			return "?u" + unit_id;
+		}
+	}
+
+	public static String getOperator(int opId) {
+		switch (opId) {
+		case 0:
+			return "MULT";
+		case 7:
+			return "MULT";
+		default:
+			return "?op" + opId;
 		}
 	}
 
