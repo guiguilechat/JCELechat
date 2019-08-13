@@ -88,6 +88,10 @@ public class SolarSystem extends ALocation {
 		return cache.get(lowerCased.get(name));
 	}
 
+	public static SolarSystem getSystem(int id) {
+		return getSystem(loadById().get(id));
+	}
+
 	// structure
 
 	public double truesec;

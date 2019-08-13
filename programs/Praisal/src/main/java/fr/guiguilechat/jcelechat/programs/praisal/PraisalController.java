@@ -189,7 +189,7 @@ public class PraisalController {
 					System.err.println("can't find item " + e.getKey());
 					continue;
 				}
-				int qttyProduct = (int) Math.floor(e.getValue() * usage.maxreprocess);
+				int qttyProduct = (int) Math.floor(e.getValue() * 0.5);
 				// System.err.println(
 				// item.name + " * " + qtty + " reprocess into " + qttyProduct + " of "
 				// + product.name + " for "
