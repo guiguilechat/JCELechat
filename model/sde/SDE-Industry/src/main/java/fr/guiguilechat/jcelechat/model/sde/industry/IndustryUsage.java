@@ -66,6 +66,6 @@ public class IndustryUsage {
 
 	public LinkedHashSet<String> materialTE = new LinkedHashSet<>();
 
-	public LinkedHashMap<String, Integer> reprocess = new LinkedHashMap<>();
+	public LinkedHashMap<String, Double> reprocess = new LinkedHashMap<>();
 
 }

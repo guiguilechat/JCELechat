@@ -228,7 +228,7 @@ public class InsuranceFraudController {
 			Asteroid astero = asteroids.get(i);
 			IndustryUsage u = IndustryUsage.load().get(astero.name);
 			for (int j = 0; j < minerals.length; j++) {
-				reproc2[i][j] = u.reprocess.getOrDefault(minerals[j], 0) / astero.volume;
+				reproc2[i][j] = u.reprocess.getOrDefault(minerals[j], 0.0) / astero.volume;
 			}
 			System.err.println(astero.name + java.util.Arrays.asList(reproc2[i]));
 		}

@@ -102,6 +102,9 @@ public class IndustryTranslater {
 				System.err.println("can't find item " + e.getKey() + " that reprocess in " + e.getValue());
 				continue;
 			}
+			int portionSize = inputMat.portionSize;
+			// System.err.println("portionSize for " + inputMat.enName() + " : " +
+			// portionSize);
 			IndustryUsage usage = usages.get(inputMat.enName());
 			if (usage == null) {
 				usage = new IndustryUsage();
@@ -110,7 +113,7 @@ public class IndustryTranslater {
 			for (Entry<Integer, Integer> r : e.getValue().entrySet()) {
 				EtypeIDs outputmat = types.get(r.getKey());
 				if (outputmat != null) {
-					usage.reprocess.put(types.get(r.getKey()).enName(), r.getValue());
+					usage.reprocess.put(types.get(r.getKey()).enName(), 1.0 * r.getValue() / portionSize);
 				} else {
 					System.err.println("can't find type id " + r.getKey() + " reprocessed from " + inputMat.enName());
 				}

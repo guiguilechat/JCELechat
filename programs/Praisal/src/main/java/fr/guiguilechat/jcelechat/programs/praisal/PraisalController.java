@@ -183,7 +183,7 @@ public class PraisalController {
 			}
 		};
 		if (usage != null) {
-			for (Entry<String, Integer> e : usage.reprocess.entrySet()) {
+			for (Entry<String, Double> e : usage.reprocess.entrySet()) {
 				Item product = ItemIndex.getItem(e.getKey());
 				if (product == null) {
 					System.err.println("can't find item " + e.getKey());
