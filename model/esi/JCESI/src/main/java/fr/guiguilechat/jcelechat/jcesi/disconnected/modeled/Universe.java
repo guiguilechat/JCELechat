@@ -72,7 +72,8 @@ public class Universe {
 					}
 				} else {
 					logger
-					.error("could not load names for ids" + IntStream.of(ids).mapToObj(i -> i).collect(Collectors.toList()));
+					.error("could not load names for ids" + IntStream.of(ids).mapToObj(i -> i).collect(Collectors.toList())
+							+ " resp=" + newreq.getResponseCode() + " err=" + newreq.getError());
 				}
 			}
 			return IntStream.of(ids).mapToObj(cachedNames::get).toArray(R_post_universe_names[]::new);

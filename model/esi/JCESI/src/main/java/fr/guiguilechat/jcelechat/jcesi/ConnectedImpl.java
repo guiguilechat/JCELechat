@@ -113,11 +113,13 @@ public abstract class ConnectedImpl implements ITransfer {
 			for (Entry<String, String> e : properties.entrySet()) {
 				con.setRequestProperty(e.getKey(), e.getValue());
 			}
+			String transmitStr = null;
 			if (transmit != null && !transmit.isEmpty()) {
 				con.setRequestProperty("Content-Type", "application/json");
 				con.setDoOutput(true);
 				DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-				wr.write(mapToJSON(transmit).getBytes(StandardCharsets.UTF_8));
+				transmitStr = mapToJSON(transmit);
+				wr.write(transmitStr.getBytes(StandardCharsets.UTF_8));
 				wr.flush();
 				wr.close();
 			}
@@ -150,7 +152,8 @@ public abstract class ConnectedImpl implements ITransfer {
 			case HttpsURLConnection.HTTP_UNAVAILABLE:
 			case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
 			default:
-				StringBuilder sb = new StringBuilder("[" + method + ":" + responseCode + "]" + url + " data=" + transmit + " ");
+				StringBuilder sb = new StringBuilder(
+						"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
 				if (con.getErrorStream() != null) {
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 				}
