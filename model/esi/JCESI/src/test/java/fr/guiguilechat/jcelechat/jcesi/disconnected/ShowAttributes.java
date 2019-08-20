@@ -22,7 +22,7 @@ public class ShowAttributes {
 
 	public static void main(String[] args) {
 		// invading entities
-		// showGroup(4028, "armor", "Resonance");
+		showGroup(4028);
 		// tableGroup(4028);
 
 		// hobgoblin
@@ -34,7 +34,7 @@ public class ShowAttributes {
 		// domination heavy statsi grappler
 		// showEntity(41059);
 		// CN web
-		showEntity(17500);
+		// showEntity(17500);
 
 		// starving leshak
 		// showEntity(48125);
@@ -193,7 +193,7 @@ public class ShowAttributes {
 		case 11:// velocity
 			return "m/s";
 		case 101: // seconds
-			return "s";
+			return "ms";
 		case 102: // scan res
 			return "mm";
 		case 104: // mult
