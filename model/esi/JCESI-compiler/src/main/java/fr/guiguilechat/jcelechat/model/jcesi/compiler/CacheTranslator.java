@@ -27,6 +27,9 @@ import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.FetchTranslator.RETURNTYPE;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
@@ -38,6 +41,13 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 
+/**
+ * create a cache information over the result of a {@link FetchTranslator}.
+ * Basically holds all the ifnormations used when calling the {@link #apply()}
+ * methods, because this methods can make a lot of things and this avoids
+ * guessing data several times.
+ *
+ */
 public class CacheTranslator {
 
 	final FetchTranslator parent;
@@ -57,6 +67,12 @@ public class CacheTranslator {
 
 	protected List<JVar> cacheParams = new ArrayList<>();
 
+	/** type returned by the cache method */
+	protected AbstractJType cacheRetItf;
+	/**
+	 * type constructed in the cache method, must be a subtype of
+	 * {@link #cacheRetItf}
+	 */
 	protected AbstractJType cacheRetType;
 	/**
 	 * type of the object we transmit to the scheduled fetcher to hold the data
@@ -74,7 +90,8 @@ public class CacheTranslator {
 			return;
 		}
 
-		// create the correct names, method
+		// create the correct names, method, the group to hold the cache class in,
+		// etc.
 
 		cacheFieldName = operation.getOperationId().split("_")[1];
 		cacheGroup = bridge.getCacheGroupClass(cacheFieldName, parent.connected);
@@ -93,19 +110,24 @@ public class CacheTranslator {
 			cacheMethName = "get" + cacheMethName;
 		}
 
+		// create the cache init according to the resource structure.
+
 		switch (parent.resourceStructure) {
 		case NONE:
 			return;
 		case OBJECT:
-			cacheRetType = cm.ref(ObsObjHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetItf = cm.ref(ObsObjHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetType = cm.ref(AObsObjHolder.class).narrow(parent.resourceFlatType.boxify());
 			cacheHolderType = cm.ref(SimpleObjectProperty.class).narrow(parent.resourceFlatType.boxify());
 			break;
 		case LIST:
-			cacheRetType = cm.ref(ObsListHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetItf = cm.ref(ObsListHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetType = cm.ref(ObsListHolderImpl.class).narrow(parent.resourceFlatType.boxify());
 			cacheHolderType = cm.ref(ObservableList.class).narrow(parent.resourceFlatType.boxify());
 			break;
 		case MAP:
-			cacheRetType = cm.ref(ObsMapHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetItf = cm.ref(ObsMapHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetType = cm.ref(ObsMapHolderImpl.class).narrow(parent.resourceFlatType.boxify());
 			cacheHolderType = cm.ref(ObservableMap.class).narrow(cm.ref(String.class))
 					.narrow(parent.resourceFlatType.boxify());
 			break;
@@ -113,11 +135,12 @@ public class CacheTranslator {
 			throw new UnsupportedOperationException("can't handle case " + parent.resourceStructure);
 		}
 
-		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetType, cacheMethName);
+		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetItf, cacheMethName);
 		cacheMeth.javadoc().add(operation.getDescription().split("---")[0]);
 		cacheMeth.javadoc().add("cache over {@link Swagger#" + parent.fetchMeth.name() + "}<br />");
 
 		// after that we need to know the parameters for the method
+		// some params are not kept in the cache.
 
 		for (JVar v : parent.allParams) {
 			if (!v.name().equals(parent.propsParamName) && !v.name().equals("page")) {
@@ -130,6 +153,9 @@ public class CacheTranslator {
 			}
 		}
 
+		// according to the number of params, we either have one entry that is
+		// cached, a map of entry to the cached value, or a complex type that holds
+		// all the cache params.
 
 		switch (cacheParams.size()) {
 		case 0:

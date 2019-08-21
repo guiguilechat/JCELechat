@@ -11,12 +11,10 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
-import fr.lelouet.collectionholders.impl.ObsObjHolderImpl;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.ObsObjHolderBack;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
@@ -55,18 +53,18 @@ public class CacheConnected extends SwaggerCOCache<ESIConnected> {
 	}
 
 	@Override
-	public <U> ObsListHolder<U> toHolder(ObservableList<U> list) {
+	public <U> ObsListHolderImpl<U> toHolder(ObservableList<U> list) {
 		return new ObsListHolderImpl<>(list);
 	}
 
 	@Override
-	public <U, V> ObsMapHolder<U, V> toHolder(ObservableMap<U, V> map) {
+	public <U, V> ObsMapHolderImpl<U, V> toHolder(ObservableMap<U, V> map) {
 		return new ObsMapHolderImpl<>(map);
 	}
 
 	@Override
-	public <U> ObsObjHolder<U> toHolder(ObservableValue<U> obj) {
-		return new ObsObjHolderImpl<>(obj);
+	public <U> AObsObjHolder<U> toHolder(ObservableValue<U> obj) {
+		return new ObsObjHolderBack<>(obj);
 	}
 
 }

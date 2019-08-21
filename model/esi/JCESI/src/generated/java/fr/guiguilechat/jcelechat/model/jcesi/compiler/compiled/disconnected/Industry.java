@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
@@ -10,8 +11,8 @@ import javafx.collections.ObservableList;
 
 public class Industry {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolder<R_get_industry_facilities> get_industry_facilities_holder;
-    private ObsListHolder<R_get_industry_systems> get_industry_systems_holder;
+    private ObsListHolderImpl<R_get_industry_facilities> get_industry_facilities_holder;
+    private ObsListHolderImpl<R_get_industry_systems> get_industry_systems_holder;
 
     public Industry(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -33,7 +34,7 @@ public class Industry {
                         if (get_industry_facilities_holder == null) {
                             ObservableList<R_get_industry_facilities> holder = FXCollections.observableArrayList();
                             get_industry_facilities_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_industry_facilities> finalRet = get_industry_facilities_holder;
+                            ObsListHolderImpl<R_get_industry_facilities> finalRet = get_industry_facilities_holder;
                             (cache).addFetchCacheArray("get_industry_facilities", (page, properties) -> (cache.swagger).get_industry_facilities(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -81,7 +82,7 @@ public class Industry {
                         if (get_industry_systems_holder == null) {
                             ObservableList<R_get_industry_systems> holder = FXCollections.observableArrayList();
                             get_industry_systems_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_industry_systems> finalRet = get_industry_systems_holder;
+                            ObsListHolderImpl<R_get_industry_systems> finalRet = get_industry_systems_holder;
                             (cache).addFetchCacheArray("get_industry_systems", (page, properties) -> (cache.swagger).get_industry_systems(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

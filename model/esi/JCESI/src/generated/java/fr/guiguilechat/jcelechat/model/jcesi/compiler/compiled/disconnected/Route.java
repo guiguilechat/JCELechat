@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_16_flag_int_int_Lint_LLint;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
@@ -11,7 +12,7 @@ import javafx.collections.ObservableList;
 
 public class Route {
     public final SwaggerDCCache<?> cache;
-    private final Map<K_16_flag_int_int_Lint_LLint, ObsListHolder<Integer>> get_route_origin_destination_holder = new HashMap<>();
+    private final Map<K_16_flag_int_int_Lint_LLint, ObsListHolderImpl<Integer>> get_route_origin_destination_holder = new HashMap<>();
 
     public Route(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -39,7 +40,7 @@ public class Route {
         fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
         int origin) {
         K_16_flag_int_int_Lint_LLint param = new K_16_flag_int_int_Lint_LLint(flag, origin, destination, avoid, connections);
-        ObsListHolder<Integer> ret = get_route_origin_destination_holder.get(param);
+        ObsListHolderImpl<Integer> ret = get_route_origin_destination_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_route_origin_destination_holder);
             try {
@@ -52,7 +53,7 @@ public class Route {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_route_origin_destination_holder.put(param, ret);
-                            ObsListHolder<Integer> finalRet = ret;
+                            ObsListHolderImpl<Integer> finalRet = ret;
                             (cache).addFetchCacheArray("get_route_origin_destination", (page, properties) -> (cache.swagger).get_route(avoid, connections, destination, flag, origin, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

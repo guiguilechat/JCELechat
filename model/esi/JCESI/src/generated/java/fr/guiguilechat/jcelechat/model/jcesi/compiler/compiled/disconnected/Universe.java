@@ -23,6 +23,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -32,34 +34,34 @@ import javafx.collections.ObservableList;
 
 public class Universe {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolder<R_get_universe_ancestries> get_universe_ancestries_holder;
-    private final Map<Integer, ObsObjHolder<R_get_universe_asteroid_belts_asteroid_belt_id>> get_universe_asteroid_belts_asteroid_belt_id_holder = new HashMap<>();
-    private ObsListHolder<R_get_universe_bloodlines> get_universe_bloodlines_holder;
-    private ObsListHolder<Integer> get_universe_categories_holder;
-    private final Map<Integer, ObsObjHolder<R_get_universe_categories_category_id>> get_universe_categories_category_id_holder = new HashMap<>();
-    private ObsListHolder<Integer> get_universe_constellations_holder;
-    private final Map<Integer, ObsObjHolder<R_get_universe_constellations_constellation_id>> get_universe_constellations_constellation_id_holder = new HashMap<>();
-    private ObsListHolder<Integer> get_universe_graphics_holder;
-    private final Map<Integer, ObsObjHolder<R_get_universe_graphics_graphic_id>> get_universe_graphics_graphic_id_holder = new HashMap<>();
-    private ObsListHolder<Integer> get_universe_groups_holder;
-    private final Map<Integer, ObsObjHolder<R_get_universe_groups_group_id>> get_universe_groups_group_id_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolder<R_get_universe_moons_moon_id>> get_universe_moons_moon_id_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolder<R_get_universe_planets_planet_id>> get_universe_planets_planet_id_holder = new HashMap<>();
-    private ObsListHolder<R_get_universe_races> get_universe_races_holder;
-    private ObsListHolder<Integer> get_universe_regions_holder;
-    private final Map<Integer, ObsObjHolder<R_get_universe_regions_region_id>> get_universe_regions_region_id_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolder<R_get_universe_schematics_schematic_id>> get_universe_schematics_schematic_id_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolder<R_get_universe_stargates_stargate_id>> get_universe_stargates_stargate_id_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolder<R_get_universe_stars_star_id>> get_universe_stars_star_id_holder = new HashMap<>();
-    private final Map<fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter, ObsListHolder<Long>> get_universe_structures_holder = new HashMap<>();
-    private ObsListHolder<R_get_universe_system_jumps> get_universe_system_jumps_holder;
-    private ObsListHolder<Integer> get_universe_systems_holder;
-    private ObsListHolder<Integer> get_universe_types_holder;
-    private ObsListHolder<R_get_universe_factions> get_universe_factions_holder;
-    private final Map<Integer, ObsObjHolder<R_get_universe_stations_station_id>> get_universe_stations_station_id_holder = new HashMap<>();
-    private ObsListHolder<R_get_universe_system_kills> get_universe_system_kills_holder;
-    private final Map<Integer, ObsObjHolder<R_get_universe_types_type_id>> get_universe_types_type_id_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolder<R_get_universe_systems_system_id>> get_universe_systems_system_id_holder = new HashMap<>();
+    private ObsListHolderImpl<R_get_universe_ancestries> get_universe_ancestries_holder;
+    private final Map<Integer, AObsObjHolder<R_get_universe_asteroid_belts_asteroid_belt_id>> get_universe_asteroid_belts_asteroid_belt_id_holder = new HashMap<>();
+    private ObsListHolderImpl<R_get_universe_bloodlines> get_universe_bloodlines_holder;
+    private ObsListHolderImpl<Integer> get_universe_categories_holder;
+    private final Map<Integer, AObsObjHolder<R_get_universe_categories_category_id>> get_universe_categories_category_id_holder = new HashMap<>();
+    private ObsListHolderImpl<Integer> get_universe_constellations_holder;
+    private final Map<Integer, AObsObjHolder<R_get_universe_constellations_constellation_id>> get_universe_constellations_constellation_id_holder = new HashMap<>();
+    private ObsListHolderImpl<Integer> get_universe_graphics_holder;
+    private final Map<Integer, AObsObjHolder<R_get_universe_graphics_graphic_id>> get_universe_graphics_graphic_id_holder = new HashMap<>();
+    private ObsListHolderImpl<Integer> get_universe_groups_holder;
+    private final Map<Integer, AObsObjHolder<R_get_universe_groups_group_id>> get_universe_groups_group_id_holder = new HashMap<>();
+    private final Map<Integer, AObsObjHolder<R_get_universe_moons_moon_id>> get_universe_moons_moon_id_holder = new HashMap<>();
+    private final Map<Integer, AObsObjHolder<R_get_universe_planets_planet_id>> get_universe_planets_planet_id_holder = new HashMap<>();
+    private ObsListHolderImpl<R_get_universe_races> get_universe_races_holder;
+    private ObsListHolderImpl<Integer> get_universe_regions_holder;
+    private final Map<Integer, AObsObjHolder<R_get_universe_regions_region_id>> get_universe_regions_region_id_holder = new HashMap<>();
+    private final Map<Integer, AObsObjHolder<R_get_universe_schematics_schematic_id>> get_universe_schematics_schematic_id_holder = new HashMap<>();
+    private final Map<Integer, AObsObjHolder<R_get_universe_stargates_stargate_id>> get_universe_stargates_stargate_id_holder = new HashMap<>();
+    private final Map<Integer, AObsObjHolder<R_get_universe_stars_star_id>> get_universe_stars_star_id_holder = new HashMap<>();
+    private final Map<fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter, ObsListHolderImpl<Long>> get_universe_structures_holder = new HashMap<>();
+    private ObsListHolderImpl<R_get_universe_system_jumps> get_universe_system_jumps_holder;
+    private ObsListHolderImpl<Integer> get_universe_systems_holder;
+    private ObsListHolderImpl<Integer> get_universe_types_holder;
+    private ObsListHolderImpl<R_get_universe_factions> get_universe_factions_holder;
+    private final Map<Integer, AObsObjHolder<R_get_universe_stations_station_id>> get_universe_stations_station_id_holder = new HashMap<>();
+    private ObsListHolderImpl<R_get_universe_system_kills> get_universe_system_kills_holder;
+    private final Map<Integer, AObsObjHolder<R_get_universe_types_type_id>> get_universe_types_type_id_holder = new HashMap<>();
+    private final Map<Integer, AObsObjHolder<R_get_universe_systems_system_id>> get_universe_systems_system_id_holder = new HashMap<>();
 
     public Universe(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -81,7 +83,7 @@ public class Universe {
                         if (get_universe_ancestries_holder == null) {
                             ObservableList<R_get_universe_ancestries> holder = FXCollections.observableArrayList();
                             get_universe_ancestries_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_universe_ancestries> finalRet = get_universe_ancestries_holder;
+                            ObsListHolderImpl<R_get_universe_ancestries> finalRet = get_universe_ancestries_holder;
                             (cache).addFetchCacheArray("get_universe_ancestries", (page, properties) -> (cache.swagger).get_universe_ancestries(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -122,7 +124,7 @@ public class Universe {
      *     asteroid_belt_id integer
      */
     public ObsObjHolder<R_get_universe_asteroid_belts_asteroid_belt_id> asteroid_belts(int asteroid_belt_id) {
-        ObsObjHolder<R_get_universe_asteroid_belts_asteroid_belt_id> ret = get_universe_asteroid_belts_asteroid_belt_id_holder.get(asteroid_belt_id);
+        AObsObjHolder<R_get_universe_asteroid_belts_asteroid_belt_id> ret = get_universe_asteroid_belts_asteroid_belt_id_holder.get(asteroid_belt_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_asteroid_belts_asteroid_belt_id_holder);
             try {
@@ -178,7 +180,7 @@ public class Universe {
                         if (get_universe_bloodlines_holder == null) {
                             ObservableList<R_get_universe_bloodlines> holder = FXCollections.observableArrayList();
                             get_universe_bloodlines_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_universe_bloodlines> finalRet = get_universe_bloodlines_holder;
+                            ObsListHolderImpl<R_get_universe_bloodlines> finalRet = get_universe_bloodlines_holder;
                             (cache).addFetchCacheArray("get_universe_bloodlines", (page, properties) -> (cache.swagger).get_universe_bloodlines(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -226,7 +228,7 @@ public class Universe {
                         if (get_universe_categories_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_universe_categories_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_universe_categories_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_universe_categories_holder;
                             (cache).addFetchCacheArray("get_universe_categories", (page, properties) -> (cache.swagger).get_universe_categories(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -267,7 +269,7 @@ public class Universe {
      *     An Eve item category ID
      */
     public ObsObjHolder<R_get_universe_categories_category_id> categories(int category_id) {
-        ObsObjHolder<R_get_universe_categories_category_id> ret = get_universe_categories_category_id_holder.get(category_id);
+        AObsObjHolder<R_get_universe_categories_category_id> ret = get_universe_categories_category_id_holder.get(category_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_categories_category_id_holder);
             try {
@@ -323,7 +325,7 @@ public class Universe {
                         if (get_universe_constellations_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_universe_constellations_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_universe_constellations_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_universe_constellations_holder;
                             (cache).addFetchCacheArray("get_universe_constellations", (page, properties) -> (cache.swagger).get_universe_constellations(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -364,7 +366,7 @@ public class Universe {
      *     constellation_id integer
      */
     public ObsObjHolder<R_get_universe_constellations_constellation_id> constellations(int constellation_id) {
-        ObsObjHolder<R_get_universe_constellations_constellation_id> ret = get_universe_constellations_constellation_id_holder.get(constellation_id);
+        AObsObjHolder<R_get_universe_constellations_constellation_id> ret = get_universe_constellations_constellation_id_holder.get(constellation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_constellations_constellation_id_holder);
             try {
@@ -420,7 +422,7 @@ public class Universe {
                         if (get_universe_graphics_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_universe_graphics_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_universe_graphics_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_universe_graphics_holder;
                             (cache).addFetchCacheArray("get_universe_graphics", (page, properties) -> (cache.swagger).get_universe_graphics(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -461,7 +463,7 @@ public class Universe {
      *     graphic_id integer
      */
     public ObsObjHolder<R_get_universe_graphics_graphic_id> graphics(int graphic_id) {
-        ObsObjHolder<R_get_universe_graphics_graphic_id> ret = get_universe_graphics_graphic_id_holder.get(graphic_id);
+        AObsObjHolder<R_get_universe_graphics_graphic_id> ret = get_universe_graphics_graphic_id_holder.get(graphic_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_graphics_graphic_id_holder);
             try {
@@ -517,7 +519,7 @@ public class Universe {
                         if (get_universe_groups_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_universe_groups_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_universe_groups_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_universe_groups_holder;
                             (cache).addFetchCacheArray("get_universe_groups", (page, properties) -> (cache.swagger).get_universe_groups(page, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -558,7 +560,7 @@ public class Universe {
      *     An Eve item group ID
      */
     public ObsObjHolder<R_get_universe_groups_group_id> groups(int group_id) {
-        ObsObjHolder<R_get_universe_groups_group_id> ret = get_universe_groups_group_id_holder.get(group_id);
+        AObsObjHolder<R_get_universe_groups_group_id> ret = get_universe_groups_group_id_holder.get(group_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_groups_group_id_holder);
             try {
@@ -607,7 +609,7 @@ public class Universe {
      *     moon_id integer
      */
     public ObsObjHolder<R_get_universe_moons_moon_id> moons(int moon_id) {
-        ObsObjHolder<R_get_universe_moons_moon_id> ret = get_universe_moons_moon_id_holder.get(moon_id);
+        AObsObjHolder<R_get_universe_moons_moon_id> ret = get_universe_moons_moon_id_holder.get(moon_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_moons_moon_id_holder);
             try {
@@ -656,7 +658,7 @@ public class Universe {
      *     planet_id integer
      */
     public ObsObjHolder<R_get_universe_planets_planet_id> planets(int planet_id) {
-        ObsObjHolder<R_get_universe_planets_planet_id> ret = get_universe_planets_planet_id_holder.get(planet_id);
+        AObsObjHolder<R_get_universe_planets_planet_id> ret = get_universe_planets_planet_id_holder.get(planet_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_planets_planet_id_holder);
             try {
@@ -712,7 +714,7 @@ public class Universe {
                         if (get_universe_races_holder == null) {
                             ObservableList<R_get_universe_races> holder = FXCollections.observableArrayList();
                             get_universe_races_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_universe_races> finalRet = get_universe_races_holder;
+                            ObsListHolderImpl<R_get_universe_races> finalRet = get_universe_races_holder;
                             (cache).addFetchCacheArray("get_universe_races", (page, properties) -> (cache.swagger).get_universe_races(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -760,7 +762,7 @@ public class Universe {
                         if (get_universe_regions_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_universe_regions_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_universe_regions_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_universe_regions_holder;
                             (cache).addFetchCacheArray("get_universe_regions", (page, properties) -> (cache.swagger).get_universe_regions(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -801,7 +803,7 @@ public class Universe {
      *     region_id integer
      */
     public ObsObjHolder<R_get_universe_regions_region_id> regions(int region_id) {
-        ObsObjHolder<R_get_universe_regions_region_id> ret = get_universe_regions_region_id_holder.get(region_id);
+        AObsObjHolder<R_get_universe_regions_region_id> ret = get_universe_regions_region_id_holder.get(region_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_regions_region_id_holder);
             try {
@@ -850,7 +852,7 @@ public class Universe {
      *     A PI schematic ID
      */
     public ObsObjHolder<R_get_universe_schematics_schematic_id> schematics(int schematic_id) {
-        ObsObjHolder<R_get_universe_schematics_schematic_id> ret = get_universe_schematics_schematic_id_holder.get(schematic_id);
+        AObsObjHolder<R_get_universe_schematics_schematic_id> ret = get_universe_schematics_schematic_id_holder.get(schematic_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_schematics_schematic_id_holder);
             try {
@@ -899,7 +901,7 @@ public class Universe {
      *     stargate_id integer
      */
     public ObsObjHolder<R_get_universe_stargates_stargate_id> stargates(int stargate_id) {
-        ObsObjHolder<R_get_universe_stargates_stargate_id> ret = get_universe_stargates_stargate_id_holder.get(stargate_id);
+        AObsObjHolder<R_get_universe_stargates_stargate_id> ret = get_universe_stargates_stargate_id_holder.get(stargate_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_stargates_stargate_id_holder);
             try {
@@ -948,7 +950,7 @@ public class Universe {
      *     star_id integer
      */
     public ObsObjHolder<R_get_universe_stars_star_id> stars(int star_id) {
-        ObsObjHolder<R_get_universe_stars_star_id> ret = get_universe_stars_star_id_holder.get(star_id);
+        AObsObjHolder<R_get_universe_stars_star_id> ret = get_universe_stars_star_id_holder.get(star_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_stars_star_id_holder);
             try {
@@ -997,7 +999,7 @@ public class Universe {
      *     Only list public structures that have this service online
      */
     public ObsListHolder<Long> structures(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter filter) {
-        ObsListHolder<Long> ret = get_universe_structures_holder.get(filter);
+        ObsListHolderImpl<Long> ret = get_universe_structures_holder.get(filter);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_structures_holder);
             try {
@@ -1010,7 +1012,7 @@ public class Universe {
                             ObservableList<Long> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_universe_structures_holder.put(filter, ret);
-                            ObsListHolder<Long> finalRet = ret;
+                            ObsListHolderImpl<Long> finalRet = ret;
                             (cache).addFetchCacheArray("get_universe_structures", (page, properties) -> (cache.swagger).get_universe_structures(filter, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -1058,7 +1060,7 @@ public class Universe {
                         if (get_universe_system_jumps_holder == null) {
                             ObservableList<R_get_universe_system_jumps> holder = FXCollections.observableArrayList();
                             get_universe_system_jumps_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_universe_system_jumps> finalRet = get_universe_system_jumps_holder;
+                            ObsListHolderImpl<R_get_universe_system_jumps> finalRet = get_universe_system_jumps_holder;
                             (cache).addFetchCacheArray("get_universe_system_jumps", (page, properties) -> (cache.swagger).get_universe_system_jumps(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -1106,7 +1108,7 @@ public class Universe {
                         if (get_universe_systems_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_universe_systems_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_universe_systems_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_universe_systems_holder;
                             (cache).addFetchCacheArray("get_universe_systems", (page, properties) -> (cache.swagger).get_universe_systems(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -1154,7 +1156,7 @@ public class Universe {
                         if (get_universe_types_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_universe_types_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_universe_types_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_universe_types_holder;
                             (cache).addFetchCacheArray("get_universe_types", (page, properties) -> (cache.swagger).get_universe_types(page, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -1202,7 +1204,7 @@ public class Universe {
                         if (get_universe_factions_holder == null) {
                             ObservableList<R_get_universe_factions> holder = FXCollections.observableArrayList();
                             get_universe_factions_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_universe_factions> finalRet = get_universe_factions_holder;
+                            ObsListHolderImpl<R_get_universe_factions> finalRet = get_universe_factions_holder;
                             (cache).addFetchCacheArray("get_universe_factions", (page, properties) -> (cache.swagger).get_universe_factions(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -1243,7 +1245,7 @@ public class Universe {
      *     station_id integer
      */
     public ObsObjHolder<R_get_universe_stations_station_id> stations(int station_id) {
-        ObsObjHolder<R_get_universe_stations_station_id> ret = get_universe_stations_station_id_holder.get(station_id);
+        AObsObjHolder<R_get_universe_stations_station_id> ret = get_universe_stations_station_id_holder.get(station_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_stations_station_id_holder);
             try {
@@ -1299,7 +1301,7 @@ public class Universe {
                         if (get_universe_system_kills_holder == null) {
                             ObservableList<R_get_universe_system_kills> holder = FXCollections.observableArrayList();
                             get_universe_system_kills_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_universe_system_kills> finalRet = get_universe_system_kills_holder;
+                            ObsListHolderImpl<R_get_universe_system_kills> finalRet = get_universe_system_kills_holder;
                             (cache).addFetchCacheArray("get_universe_system_kills", (page, properties) -> (cache.swagger).get_universe_system_kills(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -1340,7 +1342,7 @@ public class Universe {
      *     An Eve item type ID
      */
     public ObsObjHolder<R_get_universe_types_type_id> types(int type_id) {
-        ObsObjHolder<R_get_universe_types_type_id> ret = get_universe_types_type_id_holder.get(type_id);
+        AObsObjHolder<R_get_universe_types_type_id> ret = get_universe_types_type_id_holder.get(type_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_types_type_id_holder);
             try {
@@ -1389,7 +1391,7 @@ public class Universe {
      *     system_id integer
      */
     public ObsObjHolder<R_get_universe_systems_system_id> systems(int system_id) {
-        ObsObjHolder<R_get_universe_systems_system_id> ret = get_universe_systems_system_id_holder.get(system_id);
+        AObsObjHolder<R_get_universe_systems_system_id> ret = get_universe_systems_system_id_holder.get(system_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_systems_system_id_holder);
             try {

@@ -27,6 +27,8 @@ public enum get_characters_character_id_notifications_type {
     AllWarSurrenderMsg("AllWarSurrenderMsg"),
     @JsonProperty("AllianceCapitalChanged")
     AllianceCapitalChanged("AllianceCapitalChanged"),
+    @JsonProperty("AllianceWarDeclaredV2")
+    AllianceWarDeclaredV2("AllianceWarDeclaredV2"),
     @JsonProperty("AllyContractCancelled")
     AllyContractCancelled("AllyContractCancelled"),
     @JsonProperty("AllyJoinedWarAggressorMsg")
@@ -99,6 +101,8 @@ public enum get_characters_character_id_notifications_type {
     CorpAppRejectCustomMsg("CorpAppRejectCustomMsg"),
     @JsonProperty("CorpAppRejectMsg")
     CorpAppRejectMsg("CorpAppRejectMsg"),
+    @JsonProperty("CorpBecameWarEligible")
+    CorpBecameWarEligible("CorpBecameWarEligible"),
     @JsonProperty("CorpDividendMsg")
     CorpDividendMsg("CorpDividendMsg"),
     @JsonProperty("CorpFriendlyFireDisableTimerCompleted")
@@ -117,6 +121,8 @@ public enum get_characters_character_id_notifications_type {
     CorpNewCEOMsg("CorpNewCEOMsg"),
     @JsonProperty("CorpNewsMsg")
     CorpNewsMsg("CorpNewsMsg"),
+    @JsonProperty("CorpNoLongerWarEligible")
+    CorpNoLongerWarEligible("CorpNoLongerWarEligible"),
     @JsonProperty("CorpOfficeExpirationMsg")
     CorpOfficeExpirationMsg("CorpOfficeExpirationMsg"),
     @JsonProperty("CorpStructLostMsg")
@@ -129,6 +135,8 @@ public enum get_characters_character_id_notifications_type {
     CorpVoteMsg("CorpVoteMsg"),
     @JsonProperty("CorpWarDeclaredMsg")
     CorpWarDeclaredMsg("CorpWarDeclaredMsg"),
+    @JsonProperty("CorpWarDeclaredV2")
+    CorpWarDeclaredV2("CorpWarDeclaredV2"),
     @JsonProperty("CorpWarFightingLegalMsg")
     CorpWarFightingLegalMsg("CorpWarFightingLegalMsg"),
     @JsonProperty("CorpWarInvalidatedMsg")
@@ -213,6 +221,8 @@ public enum get_characters_character_id_notifications_type {
     InsuranceIssuedMsg("InsuranceIssuedMsg"),
     @JsonProperty("InsurancePayoutMsg")
     InsurancePayoutMsg("InsurancePayoutMsg"),
+    @JsonProperty("InvasionSystemLogin")
+    InvasionSystemLogin("InvasionSystemLogin"),
     @JsonProperty("JumpCloneDeletedMsg1")
     JumpCloneDeletedMsg1("JumpCloneDeletedMsg1"),
     @JsonProperty("JumpCloneDeletedMsg2")
@@ -237,6 +247,8 @@ public enum get_characters_character_id_notifications_type {
     LocateCharMsg("LocateCharMsg"),
     @JsonProperty("MadeWarMutual")
     MadeWarMutual("MadeWarMutual"),
+    @JsonProperty("MercOfferRetractedMsg")
+    MercOfferRetractedMsg("MercOfferRetractedMsg"),
     @JsonProperty("MercOfferedNegotiationMsg")
     MercOfferedNegotiationMsg("MercOfferedNegotiationMsg"),
     @JsonProperty("MissionOfferExpirationMsg")
@@ -253,10 +265,20 @@ public enum get_characters_character_id_notifications_type {
     MoonminingExtractionStarted("MoonminingExtractionStarted"),
     @JsonProperty("MoonminingLaserFired")
     MoonminingLaserFired("MoonminingLaserFired"),
+    @JsonProperty("MutualWarExpired")
+    MutualWarExpired("MutualWarExpired"),
+    @JsonProperty("MutualWarInviteAccepted")
+    MutualWarInviteAccepted("MutualWarInviteAccepted"),
+    @JsonProperty("MutualWarInviteRejected")
+    MutualWarInviteRejected("MutualWarInviteRejected"),
+    @JsonProperty("MutualWarInviteSent")
+    MutualWarInviteSent("MutualWarInviteSent"),
     @JsonProperty("NPCStandingsGained")
     NPCStandingsGained("NPCStandingsGained"),
     @JsonProperty("NPCStandingsLost")
     NPCStandingsLost("NPCStandingsLost"),
+    @JsonProperty("OfferToAllyRetracted")
+    OfferToAllyRetracted("OfferToAllyRetracted"),
     @JsonProperty("OfferedSurrender")
     OfferedSurrender("OfferedSurrender"),
     @JsonProperty("OfferedToAlly")
@@ -365,8 +387,26 @@ public enum get_characters_character_id_notifications_type {
     TransactionReversalMsg("TransactionReversalMsg"),
     @JsonProperty("TutorialMsg")
     TutorialMsg("TutorialMsg"),
+    @JsonProperty("WarAdopted ")
+    WarAdopted_("WarAdopted "),
+    @JsonProperty("WarAllyInherited")
+    WarAllyInherited("WarAllyInherited"),
     @JsonProperty("WarAllyOfferDeclinedMsg")
     WarAllyOfferDeclinedMsg("WarAllyOfferDeclinedMsg"),
+    @JsonProperty("WarConcordInvalidates")
+    WarConcordInvalidates("WarConcordInvalidates"),
+    @JsonProperty("WarDeclared")
+    WarDeclared("WarDeclared"),
+    @JsonProperty("WarHQRemovedFromSpace")
+    WarHQRemovedFromSpace("WarHQRemovedFromSpace"),
+    @JsonProperty("WarInherited")
+    WarInherited("WarInherited"),
+    @JsonProperty("WarInvalid")
+    WarInvalid("WarInvalid"),
+    @JsonProperty("WarRetracted")
+    WarRetracted("WarRetracted"),
+    @JsonProperty("WarRetractedByConcord")
+    WarRetractedByConcord("WarRetractedByConcord"),
     @JsonProperty("WarSurrenderDeclinedMsg")
     WarSurrenderDeclinedMsg("WarSurrenderDeclinedMsg"),
     @JsonProperty("WarSurrenderOfferMsg")

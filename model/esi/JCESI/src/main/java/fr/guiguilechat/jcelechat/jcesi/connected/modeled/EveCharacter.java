@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -31,11 +30,16 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_base;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_hq;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_other;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.impl.numbers.ObsDoubleHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
@@ -48,7 +52,6 @@ import javafx.beans.value.ObservableNumberValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener.Change;
 import javafx.collections.ObservableMap;
-import javafx.collections.ObservableSet;
 
 public class EveCharacter {
 
@@ -86,70 +89,63 @@ public class EveCharacter {
 	// roles
 	//
 
-	private ObservableSet<String> rolesCache = null;
-	private ObservableSet<String> rolesHQCache = null;
-	private ObservableSet<String> rolesBaseCache = null;
-	private ObservableSet<String> rolesOtherCache = null;
-
-	private ObsObjHolder<R_get_characters_character_id_roles> rolesobs;
-
-	private void makeRoleRetrieve() {
-		if (rolesobs != null) {
-			return;
-		}
-		synchronized (this) {
-			if (rolesobs == null) {
-				rolesobs = con.raw.cache.characters.roles(con.characterId());
-				rolesCache = FXCollections.observableSet();
-				rolesHQCache = FXCollections.observableSet();
-				rolesBaseCache = FXCollections.observableSet();
-				rolesOtherCache = FXCollections.observableSet();
-				rolesobs.follow((o, old, now) -> handleNewRoles(now));
-			}
-		}
+	public ObsObjHolder<R_get_characters_character_id_roles> getRolesData() {
+		return con.raw.cache.characters.roles(con.characterId());
 	}
 
-	public void handleNewRoles(R_get_characters_character_id_roles newroles) {
-		if (newroles == null) {
-			return;
-		}
-		Set<String> roles = Arrays.asList(newroles.roles).stream().map(r -> r.toString).collect(Collectors.toSet());
-		rolesCache.retainAll(roles);
-		rolesCache.addAll(roles);
-		Set<String> rolesHQ = Arrays.asList(newroles.roles_at_hq).stream().map(r -> r.toString).collect(Collectors.toSet());
-		rolesHQCache.retainAll(rolesHQ);
-		rolesHQCache.addAll(rolesHQ);
-		Set<String> rolesBase = Arrays.asList(newroles.roles_at_base).stream().map(r -> r.toString)
-				.collect(Collectors.toSet());
-		rolesBaseCache.retainAll(rolesBase);
-		rolesBaseCache.addAll(rolesBase);
-		Set<String> rolesOther = Arrays.asList(newroles.roles_at_other).stream().map(r -> r.toString)
-				.collect(Collectors.toSet());
-		rolesOtherCache.retainAll(rolesOther);
-		rolesOtherCache.addAll(rolesOther);
-	}
+	private ObsSetHolder<get_characters_character_id_roles_roles> rolesCache = null;
 
-	public ObservableSet<String> getRoles() {
-		makeRoleRetrieve();
-		rolesobs.waitData();
+	public ObsSetHolder<get_characters_character_id_roles_roles> getRoles() {
+		if (rolesCache == null) {
+			ObsObjHolder<R_get_characters_character_id_roles> data = getRolesData();
+			LockWatchDog.BARKER.syncExecute(data, () -> {
+				if (rolesCache == null) {
+					rolesCache = data.toList(roles -> Arrays.asList(roles.roles)).distinct();
+				}
+			});
+		}
 		return rolesCache;
 	}
 
-	public ObservableSet<String> getRolesHQ() {
-		makeRoleRetrieve();
-		rolesobs.waitData();
+	private ObsSetHolder<get_characters_character_id_roles_roles_at_hq> rolesHQCache = null;
+
+	public ObsSetHolder<get_characters_character_id_roles_roles_at_hq> getRolesHQ() {
+		if (rolesHQCache == null) {
+			ObsObjHolder<R_get_characters_character_id_roles> data = getRolesData();
+			LockWatchDog.BARKER.syncExecute(data, () -> {
+				if (rolesHQCache == null) {
+					rolesHQCache = data.toList(roles -> Arrays.asList(roles.roles_at_hq)).distinct();
+				}
+			});
+		}
 		return rolesHQCache;
 	}
 
-	public ObservableSet<String> getRolesBase() {
-		makeRoleRetrieve();
-		rolesobs.waitData();
+	private ObsSetHolder<get_characters_character_id_roles_roles_at_base> rolesBaseCache = null;
+
+	public ObsSetHolder<get_characters_character_id_roles_roles_at_base> getRolesBase() {
+		if (rolesBaseCache == null) {
+			ObsObjHolder<R_get_characters_character_id_roles> data = getRolesData();
+			LockWatchDog.BARKER.syncExecute(data, () -> {
+				if (rolesBaseCache == null) {
+					rolesBaseCache = data.toList(roles -> Arrays.asList(roles.roles_at_base)).distinct();
+				}
+			});
+		}
 		return rolesBaseCache;
 	}
 
-	public ObservableSet<String> getRolesOther() {
-		makeRoleRetrieve();
-		rolesobs.waitData();
+	private ObsSetHolder<get_characters_character_id_roles_roles_at_other> rolesOtherCache = null;
+
+	public ObsSetHolder<get_characters_character_id_roles_roles_at_other> getRolesOthers() {
+		if (rolesOtherCache == null) {
+			ObsObjHolder<R_get_characters_character_id_roles> data = getRolesData();
+			LockWatchDog.BARKER.syncExecute(data, () -> {
+				if (rolesOtherCache == null) {
+					rolesOtherCache = data.toList(roles -> Arrays.asList(roles.roles_at_other)).distinct();
+				}
+			});
+		}
 		return rolesOtherCache;
 	}
 

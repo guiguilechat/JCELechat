@@ -7,6 +7,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_12_long_in
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -16,11 +18,11 @@ import javafx.collections.ObservableList;
 
 public class Dogma {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolder<Integer> get_dogma_attributes_holder;
-    private final Map<Integer, ObsObjHolder<R_get_dogma_attributes_attribute_id>> get_dogma_attributes_attribute_id_holder = new HashMap<>();
-    private final Map<K_12_long_int, ObsObjHolder<R_get_dogma_dynamic_items_type_id_item_id>> get_dogma_dynamic_items_type_id_item_id_holder = new HashMap<>();
-    private ObsListHolder<Integer> get_dogma_effects_holder;
-    private final Map<Integer, ObsObjHolder<R_get_dogma_effects_effect_id>> get_dogma_effects_effect_id_holder = new HashMap<>();
+    private ObsListHolderImpl<Integer> get_dogma_attributes_holder;
+    private final Map<Integer, AObsObjHolder<R_get_dogma_attributes_attribute_id>> get_dogma_attributes_attribute_id_holder = new HashMap<>();
+    private final Map<K_12_long_int, AObsObjHolder<R_get_dogma_dynamic_items_type_id_item_id>> get_dogma_dynamic_items_type_id_item_id_holder = new HashMap<>();
+    private ObsListHolderImpl<Integer> get_dogma_effects_holder;
+    private final Map<Integer, AObsObjHolder<R_get_dogma_effects_effect_id>> get_dogma_effects_effect_id_holder = new HashMap<>();
 
     public Dogma(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -42,7 +44,7 @@ public class Dogma {
                         if (get_dogma_attributes_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_dogma_attributes_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_dogma_attributes_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_dogma_attributes_holder;
                             (cache).addFetchCacheArray("get_dogma_attributes", (page, properties) -> (cache.swagger).get_dogma_attributes(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -83,7 +85,7 @@ public class Dogma {
      *     A dogma attribute ID
      */
     public ObsObjHolder<R_get_dogma_attributes_attribute_id> attributes(int attribute_id) {
-        ObsObjHolder<R_get_dogma_attributes_attribute_id> ret = get_dogma_attributes_attribute_id_holder.get(attribute_id);
+        AObsObjHolder<R_get_dogma_attributes_attribute_id> ret = get_dogma_attributes_attribute_id_holder.get(attribute_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_dogma_attributes_attribute_id_holder);
             try {
@@ -135,7 +137,7 @@ public class Dogma {
      */
     public ObsObjHolder<R_get_dogma_dynamic_items_type_id_item_id> dynamic_items(long item_id, int type_id) {
         K_12_long_int param = new K_12_long_int(item_id, type_id);
-        ObsObjHolder<R_get_dogma_dynamic_items_type_id_item_id> ret = get_dogma_dynamic_items_type_id_item_id_holder.get(param);
+        AObsObjHolder<R_get_dogma_dynamic_items_type_id_item_id> ret = get_dogma_dynamic_items_type_id_item_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_dogma_dynamic_items_type_id_item_id_holder);
             try {
@@ -191,7 +193,7 @@ public class Dogma {
                         if (get_dogma_effects_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_dogma_effects_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_dogma_effects_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_dogma_effects_holder;
                             (cache).addFetchCacheArray("get_dogma_effects", (page, properties) -> (cache.swagger).get_dogma_effects(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -232,7 +234,7 @@ public class Dogma {
      *     A dogma effect ID
      */
     public ObsObjHolder<R_get_dogma_effects_effect_id> effects(int effect_id) {
-        ObsObjHolder<R_get_dogma_effects_effect_id> ret = get_dogma_effects_effect_id_holder.get(effect_id);
+        AObsObjHolder<R_get_dogma_effects_effect_id> ret = get_dogma_effects_effect_id_holder.get(effect_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_dogma_effects_effect_id_holder);
             try {

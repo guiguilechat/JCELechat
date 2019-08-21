@@ -6,9 +6,9 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
@@ -22,12 +22,12 @@ public interface ISwaggerCacheHelper {
 	public <U> Pausable addFetchCacheObject(String name, Function<Map<String, String>, Requested<U>> fetcher,
 			Consumer<U> cacheHandler, String... requiredRoles);
 
-	public <U, V> ObsMapHolder<U, V> toHolder(ObservableMap<U, V> map);
+	public <U, V> ObsMapHolderImpl<U, V> toHolder(ObservableMap<U, V> map);
 
-	public <U> ObsListHolder<U> toHolder(ObservableList<U> list);
+	public <U> ObsListHolderImpl<U> toHolder(ObservableList<U> list);
 
 	/** create an observableholder on an obersvable variable */
-	public <U> ObsObjHolder<U> toHolder(ObservableValue<U> obj);
+	public <U> AObsObjHolder<U> toHolder(ObservableValue<U> obj);
 
 	public interface Pausable {
 

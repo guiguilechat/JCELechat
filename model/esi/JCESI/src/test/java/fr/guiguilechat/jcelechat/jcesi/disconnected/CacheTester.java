@@ -19,14 +19,14 @@ public class CacheTester {
 		System.out.println("noparam->container started");
 		ObsObjHolder<R_get_status> status = con.status.status();
 		status.follow((o, old, now) -> System.out.println("noparam->container new number of players " + now.players));
-		status.waitData();
+		status.get();
 
 		// noparam-> list
 		System.out.println("noparam->list started");
 		ObsListHolder<Integer> attributes = con.dogma.attributes();
 		attributes.followItems(li -> System.out.println("noparam->list " + li.next() + " added " + li.getAddedSubList()
 		+ " ; removed " + li.getRemoved() + " hasnext" + li.next()));
-		attributes.waitData();
+		attributes.get();
 
 		// noparam-> map
 		// can't find any
@@ -38,7 +38,7 @@ public class CacheTester {
 		orders.followItems((ListChangeListener<R_get_markets_region_id_orders>) li -> System.out.println("params->list "
 				+ li.next() + " added " + li.getAddedSubList().stream().map(order -> order.price).collect(Collectors.toList())
 				+ " ; removed " + li.getRemoved() + " hasnext" + li.next()));
-		orders.waitData();
+		orders.get();
 		System.err.println("after wait we have " + orders.get().size() + " orders");
 	}
 }

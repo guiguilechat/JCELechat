@@ -5,6 +5,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_f
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -17,9 +18,9 @@ public class Fw {
     private ObsObjHolder<M_get_fw_leaderboards_2> get_fw_leaderboards_holder;
     private ObsObjHolder<M_get_fw_leaderboards_2> get_fw_leaderboards_characters_holder;
     private ObsObjHolder<M_get_fw_leaderboards_2> get_fw_leaderboards_corporations_holder;
-    private ObsListHolder<R_get_fw_stats> get_fw_stats_holder;
-    private ObsListHolder<R_get_fw_wars> get_fw_wars_holder;
-    private ObsListHolder<R_get_fw_systems> get_fw_systems_holder;
+    private ObsListHolderImpl<R_get_fw_stats> get_fw_stats_holder;
+    private ObsListHolderImpl<R_get_fw_wars> get_fw_wars_holder;
+    private ObsListHolderImpl<R_get_fw_systems> get_fw_systems_holder;
 
     public Fw(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -170,7 +171,7 @@ public class Fw {
                         if (get_fw_stats_holder == null) {
                             ObservableList<R_get_fw_stats> holder = FXCollections.observableArrayList();
                             get_fw_stats_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_fw_stats> finalRet = get_fw_stats_holder;
+                            ObsListHolderImpl<R_get_fw_stats> finalRet = get_fw_stats_holder;
                             (cache).addFetchCacheArray("get_fw_stats", (page, properties) -> (cache.swagger).get_fw_stats(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -218,7 +219,7 @@ public class Fw {
                         if (get_fw_wars_holder == null) {
                             ObservableList<R_get_fw_wars> holder = FXCollections.observableArrayList();
                             get_fw_wars_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_fw_wars> finalRet = get_fw_wars_holder;
+                            ObsListHolderImpl<R_get_fw_wars> finalRet = get_fw_wars_holder;
                             (cache).addFetchCacheArray("get_fw_wars", (page, properties) -> (cache.swagger).get_fw_wars(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -266,7 +267,7 @@ public class Fw {
                         if (get_fw_systems_holder == null) {
                             ObservableList<R_get_fw_systems> holder = FXCollections.observableArrayList();
                             get_fw_systems_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_fw_systems> finalRet = get_fw_systems_holder;
+                            ObsListHolderImpl<R_get_fw_systems> finalRet = get_fw_systems_holder;
                             (cache).addFetchCacheArray("get_fw_systems", (page, properties) -> (cache.swagger).get_fw_systems(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

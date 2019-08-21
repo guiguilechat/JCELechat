@@ -5,6 +5,8 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -14,9 +16,9 @@ import javafx.collections.ObservableList;
 
 public class Wars {
     public final SwaggerDCCache<?> cache;
-    private final Map<Integer, ObsListHolder<Integer>> get_wars_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolder<R_get_wars_war_id>> get_wars_war_id_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolder<M_get_killmails_2>> get_wars_war_id_killmails_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<Integer>> get_wars_holder = new HashMap<>();
+    private final Map<Integer, AObsObjHolder<R_get_wars_war_id>> get_wars_war_id_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<M_get_killmails_2>> get_wars_war_id_killmails_holder = new HashMap<>();
 
     public Wars(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -31,7 +33,7 @@ public class Wars {
      *     Only return wars with ID smaller than this
      */
     public ObsListHolder<Integer> wars(Integer max_war_id) {
-        ObsListHolder<Integer> ret = get_wars_holder.get(max_war_id);
+        ObsListHolderImpl<Integer> ret = get_wars_holder.get(max_war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_holder);
             try {
@@ -44,7 +46,7 @@ public class Wars {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_wars_holder.put(max_war_id, ret);
-                            ObsListHolder<Integer> finalRet = ret;
+                            ObsListHolderImpl<Integer> finalRet = ret;
                             (cache).addFetchCacheArray("get_wars", (page, properties) -> (cache.swagger).get_wars(max_war_id, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -85,7 +87,7 @@ public class Wars {
      *     ID for a war
      */
     public ObsObjHolder<R_get_wars_war_id> get(int war_id) {
-        ObsObjHolder<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
+        AObsObjHolder<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_war_id_holder);
             try {
@@ -134,7 +136,7 @@ public class Wars {
      *     A valid war ID
      */
     public ObsListHolder<M_get_killmails_2> killmails(int war_id) {
-        ObsListHolder<M_get_killmails_2> ret = get_wars_war_id_killmails_holder.get(war_id);
+        ObsListHolderImpl<M_get_killmails_2> ret = get_wars_war_id_killmails_holder.get(war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_war_id_killmails_holder);
             try {
@@ -147,7 +149,7 @@ public class Wars {
                             ObservableList<M_get_killmails_2> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_wars_war_id_killmails_holder.put(war_id, ret);
-                            ObsListHolder<M_get_killmails_2> finalRet = ret;
+                            ObsListHolderImpl<M_get_killmails_2> finalRet = ret;
                             (cache).addFetchCacheArray("get_wars_war_id_killmails", (page, properties) -> (cache.swagger).get_wars_killmails(page, war_id, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

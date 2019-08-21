@@ -6,6 +6,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id_members;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id_wings;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -15,9 +17,9 @@ import javafx.collections.ObservableList;
 
 public class Fleets {
     public final SwaggerCOCache<?> cache;
-    private final Map<Long, ObsObjHolder<R_get_fleets_fleet_id>> get_fleets_fleet_id_holder = new HashMap<>();
-    private final Map<Long, ObsListHolder<R_get_fleets_fleet_id_members>> get_fleets_fleet_id_members_holder = new HashMap<>();
-    private final Map<Long, ObsListHolder<R_get_fleets_fleet_id_wings>> get_fleets_fleet_id_wings_holder = new HashMap<>();
+    private final Map<Long, AObsObjHolder<R_get_fleets_fleet_id>> get_fleets_fleet_id_holder = new HashMap<>();
+    private final Map<Long, ObsListHolderImpl<R_get_fleets_fleet_id_members>> get_fleets_fleet_id_members_holder = new HashMap<>();
+    private final Map<Long, ObsListHolderImpl<R_get_fleets_fleet_id_wings>> get_fleets_fleet_id_wings_holder = new HashMap<>();
 
     public Fleets(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -32,7 +34,7 @@ public class Fleets {
      *     ID for a fleet
      */
     public ObsObjHolder<R_get_fleets_fleet_id> get(long fleet_id) {
-        ObsObjHolder<R_get_fleets_fleet_id> ret = get_fleets_fleet_id_holder.get(fleet_id);
+        AObsObjHolder<R_get_fleets_fleet_id> ret = get_fleets_fleet_id_holder.get(fleet_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_fleets_fleet_id_holder);
             try {
@@ -81,7 +83,7 @@ public class Fleets {
      *     ID for a fleet
      */
     public ObsListHolder<R_get_fleets_fleet_id_members> members(long fleet_id) {
-        ObsListHolder<R_get_fleets_fleet_id_members> ret = get_fleets_fleet_id_members_holder.get(fleet_id);
+        ObsListHolderImpl<R_get_fleets_fleet_id_members> ret = get_fleets_fleet_id_members_holder.get(fleet_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_fleets_fleet_id_members_holder);
             try {
@@ -94,7 +96,7 @@ public class Fleets {
                             ObservableList<R_get_fleets_fleet_id_members> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_fleets_fleet_id_members_holder.put(fleet_id, ret);
-                            ObsListHolder<R_get_fleets_fleet_id_members> finalRet = ret;
+                            ObsListHolderImpl<R_get_fleets_fleet_id_members> finalRet = ret;
                             (cache).addFetchCacheArray("get_fleets_fleet_id_members", (page, properties) -> (cache.swagger).get_fleets_members(fleet_id, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -135,7 +137,7 @@ public class Fleets {
      *     ID for a fleet
      */
     public ObsListHolder<R_get_fleets_fleet_id_wings> wings(long fleet_id) {
-        ObsListHolder<R_get_fleets_fleet_id_wings> ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
+        ObsListHolderImpl<R_get_fleets_fleet_id_wings> ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_fleets_fleet_id_wings_holder);
             try {
@@ -148,7 +150,7 @@ public class Fleets {
                             ObservableList<R_get_fleets_fleet_id_wings> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_fleets_fleet_id_wings_holder.put(fleet_id, ret);
-                            ObsListHolder<R_get_fleets_fleet_id_wings> finalRet = ret;
+                            ObsListHolderImpl<R_get_fleets_fleet_id_wings> finalRet = ret;
                             (cache).addFetchCacheArray("get_fleets_fleet_id_wings", (page, properties) -> (cache.swagger).get_fleets_wings(fleet_id, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

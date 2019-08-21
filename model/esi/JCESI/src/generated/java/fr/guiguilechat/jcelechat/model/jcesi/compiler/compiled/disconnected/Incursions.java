@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_incursions;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
@@ -9,7 +10,7 @@ import javafx.collections.ObservableList;
 
 public class Incursions {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolder<R_get_incursions> get_incursions_holder;
+    private ObsListHolderImpl<R_get_incursions> get_incursions_holder;
 
     public Incursions(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -31,7 +32,7 @@ public class Incursions {
                         if (get_incursions_holder == null) {
                             ObservableList<R_get_incursions> holder = FXCollections.observableArrayList();
                             get_incursions_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_incursions> finalRet = get_incursions_holder;
+                            ObsListHolderImpl<R_get_incursions> finalRet = get_incursions_holder;
                             (cache).addFetchCacheArray("get_incursions", (page, properties) -> (cache.swagger).get_incursions(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

@@ -5,6 +5,8 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_tasks_task_id;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -14,10 +16,10 @@ import javafx.collections.ObservableList;
 
 public class Opportunities {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolder<Integer> get_opportunities_groups_holder;
-    private final Map<Integer, ObsObjHolder<R_get_opportunities_groups_group_id>> get_opportunities_groups_group_id_holder = new HashMap<>();
-    private ObsListHolder<Integer> get_opportunities_tasks_holder;
-    private final Map<Integer, ObsObjHolder<R_get_opportunities_tasks_task_id>> get_opportunities_tasks_task_id_holder = new HashMap<>();
+    private ObsListHolderImpl<Integer> get_opportunities_groups_holder;
+    private final Map<Integer, AObsObjHolder<R_get_opportunities_groups_group_id>> get_opportunities_groups_group_id_holder = new HashMap<>();
+    private ObsListHolderImpl<Integer> get_opportunities_tasks_holder;
+    private final Map<Integer, AObsObjHolder<R_get_opportunities_tasks_task_id>> get_opportunities_tasks_task_id_holder = new HashMap<>();
 
     public Opportunities(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -39,7 +41,7 @@ public class Opportunities {
                         if (get_opportunities_groups_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_opportunities_groups_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_opportunities_groups_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_opportunities_groups_holder;
                             (cache).addFetchCacheArray("get_opportunities_groups", (page, properties) -> (cache.swagger).get_opportunities_groups(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -80,7 +82,7 @@ public class Opportunities {
      *     ID of an opportunities group
      */
     public ObsObjHolder<R_get_opportunities_groups_group_id> groups(int group_id) {
-        ObsObjHolder<R_get_opportunities_groups_group_id> ret = get_opportunities_groups_group_id_holder.get(group_id);
+        AObsObjHolder<R_get_opportunities_groups_group_id> ret = get_opportunities_groups_group_id_holder.get(group_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_opportunities_groups_group_id_holder);
             try {
@@ -136,7 +138,7 @@ public class Opportunities {
                         if (get_opportunities_tasks_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_opportunities_tasks_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_opportunities_tasks_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_opportunities_tasks_holder;
                             (cache).addFetchCacheArray("get_opportunities_tasks", (page, properties) -> (cache.swagger).get_opportunities_tasks(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -177,7 +179,7 @@ public class Opportunities {
      *     ID of an opportunities task
      */
     public ObsObjHolder<R_get_opportunities_tasks_task_id> tasks(int task_id) {
-        ObsObjHolder<R_get_opportunities_tasks_task_id> ret = get_opportunities_tasks_task_id_holder.get(task_id);
+        AObsObjHolder<R_get_opportunities_tasks_task_id> ret = get_opportunities_tasks_task_id_holder.get(task_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_opportunities_tasks_task_id_holder);
             try {

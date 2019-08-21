@@ -763,7 +763,8 @@ public interface G_ICOAccess
      * Get current ship
      * <p>
      * Get the current ship type, name and id<br />
-     * This route is cached for up to 5 seconds
+     * This route is cached for up to 5 seconds<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/ship/)
      * </p>
      * 
      * @param character_id
@@ -2467,23 +2468,6 @@ public interface G_ICOAccess
     }
 
     /**
-     * Get character notifications
-     * <p>
-     * Return character notifications<br />
-     * This route is cached for up to 600 seconds<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/notifications/)
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public default Requested<R_get_characters_character_id_notifications[]> get_characters_notifications(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/characters/{character_id}/notifications/".replace("{character_id}", ""+character_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications[].class));
-    }
-
-    /**
      * Get character skills
      * <p>
      * List all trained skills for the given character<br />
@@ -2522,6 +2506,21 @@ public interface G_ICOAccess
         Map<String, String> properties) {
         String url = ("https://esi.evetech.net/v4/corporations/{corporation_id}/wallets/{division}/journal/".replace("{corporation_id}", ""+corporation_id).replace("{division}", ""+division)+"?"+(page==null?"":"&page="+flatten(page)));
         return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal[].class));
+    }
+
+    /**
+     * Get character notifications
+     * <p>
+     * Return character notifications<br />
+     * This route is cached for up to 600 seconds
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public default Requested<R_get_characters_character_id_notifications[]> get_characters_notifications(int character_id, Map<String, String> properties) {
+        String url = ("https://esi.evetech.net/v5/characters/{character_id}/notifications/".replace("{character_id}", ""+character_id));
+        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications[].class));
     }
 
     /**

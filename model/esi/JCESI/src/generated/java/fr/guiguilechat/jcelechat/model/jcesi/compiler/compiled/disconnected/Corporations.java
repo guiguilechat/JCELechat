@@ -6,6 +6,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_alliancehistory;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_icons;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -15,10 +17,10 @@ import javafx.collections.ObservableList;
 
 public class Corporations {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolder<Integer> get_corporations_npccorps_holder;
-    private final Map<Integer, ObsObjHolder<R_get_corporations_corporation_id_icons>> get_corporations_corporation_id_icons_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolder<R_get_corporations_corporation_id_alliancehistory>> get_corporations_corporation_id_alliancehistory_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolder<R_get_corporations_corporation_id>> get_corporations_corporation_id_holder = new HashMap<>();
+    private ObsListHolderImpl<Integer> get_corporations_npccorps_holder;
+    private final Map<Integer, AObsObjHolder<R_get_corporations_corporation_id_icons>> get_corporations_corporation_id_icons_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_alliancehistory>> get_corporations_corporation_id_alliancehistory_holder = new HashMap<>();
+    private final Map<Integer, AObsObjHolder<R_get_corporations_corporation_id>> get_corporations_corporation_id_holder = new HashMap<>();
 
     public Corporations(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -40,7 +42,7 @@ public class Corporations {
                         if (get_corporations_npccorps_holder == null) {
                             ObservableList<Integer> holder = FXCollections.observableArrayList();
                             get_corporations_npccorps_holder = (cache).toHolder(holder);
-                            ObsListHolder<Integer> finalRet = get_corporations_npccorps_holder;
+                            ObsListHolderImpl<Integer> finalRet = get_corporations_npccorps_holder;
                             (cache).addFetchCacheArray("get_corporations_npccorps", (page, properties) -> (cache.swagger).get_corporations_npccorps(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -81,7 +83,7 @@ public class Corporations {
      *     An EVE corporation ID
      */
     public ObsObjHolder<R_get_corporations_corporation_id_icons> icons(int corporation_id) {
-        ObsObjHolder<R_get_corporations_corporation_id_icons> ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
+        AObsObjHolder<R_get_corporations_corporation_id_icons> ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_icons_holder);
             try {
@@ -130,7 +132,7 @@ public class Corporations {
      *     An EVE corporation ID
      */
     public ObsListHolder<R_get_corporations_corporation_id_alliancehistory> alliancehistory(int corporation_id) {
-        ObsListHolder<R_get_corporations_corporation_id_alliancehistory> ret = get_corporations_corporation_id_alliancehistory_holder.get(corporation_id);
+        ObsListHolderImpl<R_get_corporations_corporation_id_alliancehistory> ret = get_corporations_corporation_id_alliancehistory_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_alliancehistory_holder);
             try {
@@ -143,7 +145,7 @@ public class Corporations {
                             ObservableList<R_get_corporations_corporation_id_alliancehistory> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_corporations_corporation_id_alliancehistory_holder.put(corporation_id, ret);
-                            ObsListHolder<R_get_corporations_corporation_id_alliancehistory> finalRet = ret;
+                            ObsListHolderImpl<R_get_corporations_corporation_id_alliancehistory> finalRet = ret;
                             (cache).addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, properties) -> (cache.swagger).get_corporations_alliancehistory(corporation_id, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -184,7 +186,7 @@ public class Corporations {
      *     An EVE corporation ID
      */
     public ObsObjHolder<R_get_corporations_corporation_id> get(int corporation_id) {
-        ObsObjHolder<R_get_corporations_corporation_id> ret = get_corporations_corporation_id_holder.get(corporation_id);
+        AObsObjHolder<R_get_corporations_corporation_id> ret = get_corporations_corporation_id_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_holder);
             try {

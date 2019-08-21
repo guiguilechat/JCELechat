@@ -4,13 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Universe {
     public final SwaggerCOCache<?> cache;
-    private final Map<Long, ObsObjHolder<R_get_universe_structures_structure_id>> get_universe_structures_structure_id_holder = new HashMap<>();
+    private final Map<Long, AObsObjHolder<R_get_universe_structures_structure_id>> get_universe_structures_structure_id_holder = new HashMap<>();
 
     public Universe(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -25,7 +26,7 @@ public class Universe {
      *     An Eve structure ID
      */
     public ObsObjHolder<R_get_universe_structures_structure_id> structures(long structure_id) {
-        ObsObjHolder<R_get_universe_structures_structure_id> ret = get_universe_structures_structure_id_holder.get(structure_id);
+        AObsObjHolder<R_get_universe_structures_structure_id> ret = get_universe_structures_structure_id_holder.get(structure_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_structures_structure_id_holder);
             try {

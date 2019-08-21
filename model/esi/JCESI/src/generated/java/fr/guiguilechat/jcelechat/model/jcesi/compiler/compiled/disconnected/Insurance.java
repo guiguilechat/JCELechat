@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
@@ -9,7 +10,7 @@ import javafx.collections.ObservableList;
 
 public class Insurance {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolder<R_get_insurance_prices> get_insurance_prices_holder;
+    private ObsListHolderImpl<R_get_insurance_prices> get_insurance_prices_holder;
 
     public Insurance(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -31,7 +32,7 @@ public class Insurance {
                         if (get_insurance_prices_holder == null) {
                             ObservableList<R_get_insurance_prices> holder = FXCollections.observableArrayList();
                             get_insurance_prices_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_insurance_prices> finalRet = get_insurance_prices_holder;
+                            ObsListHolderImpl<R_get_insurance_prices> finalRet = get_insurance_prices_holder;
                             (cache).addFetchCacheArray("get_insurance_prices", (page, properties) -> (cache.swagger).get_insurance_prices(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

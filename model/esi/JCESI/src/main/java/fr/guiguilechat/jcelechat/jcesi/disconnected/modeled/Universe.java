@@ -22,9 +22,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
-import fr.lelouet.collectionholders.impl.ObsObjHolderImpl;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import javafx.beans.property.SimpleObjectProperty;
 
 public class Universe {
 
@@ -206,10 +205,10 @@ public class Universe {
 			synchronized (cachedDistances) {
 				ret = cachedDistances.get(key);
 				if (ret == null) {
-					SimpleObjectProperty<TripDistance> underlying = new SimpleObjectProperty<>();
-					ret = new ObsObjHolderImpl<>(underlying);
+					ObsObjHolderSimple<TripDistance> fret = new ObsObjHolderSimple<>();
+					ret = fret;
 					cachedDistances.put(key, ret);
-					new Thread(() -> underlying.set(computeDistance(station, destination))).start();
+					new Thread(() -> fret.set(computeDistance(station, destination))).start();
 				}
 			}
 		}

@@ -5,13 +5,14 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_17_String_LString_Boolean;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_search;
+import fr.lelouet.collectionholders.impl.AObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Search {
     public final SwaggerDCCache<?> cache;
-    private final Map<K_17_String_LString_Boolean, ObsObjHolder<R_get_search>> get_search_holder = new HashMap<>();
+    private final Map<K_17_String_LString_Boolean, AObsObjHolder<R_get_search>> get_search_holder = new HashMap<>();
 
     public Search(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -31,7 +32,7 @@ public class Search {
      */
     public ObsObjHolder<R_get_search> get(String[] categories, String search, Boolean strict) {
         K_17_String_LString_Boolean param = new K_17_String_LString_Boolean(search, categories, strict);
-        ObsObjHolder<R_get_search> ret = get_search_holder.get(param);
+        AObsObjHolder<R_get_search> ret = get_search_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_search_holder);
             try {

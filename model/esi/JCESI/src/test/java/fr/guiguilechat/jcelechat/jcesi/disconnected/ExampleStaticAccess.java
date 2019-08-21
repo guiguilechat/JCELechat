@@ -6,8 +6,6 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import javafx.beans.binding.Bindings;
-import javafx.beans.binding.DoubleBinding;
 import javafx.beans.value.ObservableDoubleValue;
 
 public class ExampleStaticAccess {
@@ -54,7 +52,7 @@ public class ExampleStaticAccess {
 		 * wait for the data to be fetched at least once. This is actually not
 		 * needed unless you are in a main
 		 */
-		cachebos.waitData();
+		cachebos.get();
 
 		/**
 		 * Cache data are refreshed as soon as the expiry date is reached. When
@@ -64,13 +62,6 @@ public class ExampleStaticAccess {
 		synchronized (cachebos) {
 			maxbo = cachebos.get().stream().mapToDouble(bo -> bo.price).max().getAsDouble();
 		}
-
-		/** you can create bindings to keep extracted data in sync */
-		DoubleBinding maxBOBinding = Bindings.createDoubleBinding(() -> {
-			synchronized (cachebos) {
-				return cachebos.get().stream().mapToDouble(bo -> bo.price).max().getAsDouble();
-			}
-		}, cachebos.asObservable());
 
 		/**
 		 * since this is tedious and error prone I bring some in the modeled class

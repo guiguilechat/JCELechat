@@ -4,6 +4,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
@@ -11,9 +12,9 @@ import javafx.collections.ObservableList;
 
 public class Sovereignty {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolder<R_get_sovereignty_campaigns> get_sovereignty_campaigns_holder;
-    private ObsListHolder<R_get_sovereignty_map> get_sovereignty_map_holder;
-    private ObsListHolder<R_get_sovereignty_structures> get_sovereignty_structures_holder;
+    private ObsListHolderImpl<R_get_sovereignty_campaigns> get_sovereignty_campaigns_holder;
+    private ObsListHolderImpl<R_get_sovereignty_map> get_sovereignty_map_holder;
+    private ObsListHolderImpl<R_get_sovereignty_structures> get_sovereignty_structures_holder;
 
     public Sovereignty(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -35,7 +36,7 @@ public class Sovereignty {
                         if (get_sovereignty_campaigns_holder == null) {
                             ObservableList<R_get_sovereignty_campaigns> holder = FXCollections.observableArrayList();
                             get_sovereignty_campaigns_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_sovereignty_campaigns> finalRet = get_sovereignty_campaigns_holder;
+                            ObsListHolderImpl<R_get_sovereignty_campaigns> finalRet = get_sovereignty_campaigns_holder;
                             (cache).addFetchCacheArray("get_sovereignty_campaigns", (page, properties) -> (cache.swagger).get_sovereignty_campaigns(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -83,7 +84,7 @@ public class Sovereignty {
                         if (get_sovereignty_map_holder == null) {
                             ObservableList<R_get_sovereignty_map> holder = FXCollections.observableArrayList();
                             get_sovereignty_map_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_sovereignty_map> finalRet = get_sovereignty_map_holder;
+                            ObsListHolderImpl<R_get_sovereignty_map> finalRet = get_sovereignty_map_holder;
                             (cache).addFetchCacheArray("get_sovereignty_map", (page, properties) -> (cache.swagger).get_sovereignty_map(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -131,7 +132,7 @@ public class Sovereignty {
                         if (get_sovereignty_structures_holder == null) {
                             ObservableList<R_get_sovereignty_structures> holder = FXCollections.observableArrayList();
                             get_sovereignty_structures_holder = (cache).toHolder(holder);
-                            ObsListHolder<R_get_sovereignty_structures> finalRet = get_sovereignty_structures_holder;
+                            ObsListHolderImpl<R_get_sovereignty_structures> finalRet = get_sovereignty_structures_holder;
                             (cache).addFetchCacheArray("get_sovereignty_structures", (page, properties) -> (cache.swagger).get_sovereignty_structures(properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

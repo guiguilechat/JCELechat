@@ -97,10 +97,6 @@ public enum get_corporations_corporation_id_titles_roles_at_other {
     Starbase_Fuel_Technician("Starbase_Fuel_Technician"),
     @JsonProperty("Station_Manager")
     Station_Manager("Station_Manager"),
-    @JsonProperty("Terrestrial_Combat_Officer")
-    Terrestrial_Combat_Officer("Terrestrial_Combat_Officer"),
-    @JsonProperty("Terrestrial_Logistics_Officer")
-    Terrestrial_Logistics_Officer("Terrestrial_Logistics_Officer"),
     @JsonProperty("Trader")
     Trader("Trader");
     public final String toString;
