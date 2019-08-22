@@ -125,7 +125,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 				if (roles == null) {
 					ObsObjHolder<R_get_characters_character_id_roles> r = cache.characters.roles(verify().CharacterID);
 					roles = FXCollections.observableSet();
-					r.follow((o, old, newroles) -> {
+					r.follow((newroles) -> {
 						synchronized (roles) {
 							Set<String> roleslist = Arrays.asList(newroles.roles).stream().map(role -> role.toString)
 									.collect(Collectors.toSet());

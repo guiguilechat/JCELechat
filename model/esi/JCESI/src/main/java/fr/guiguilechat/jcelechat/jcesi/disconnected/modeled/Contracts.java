@@ -85,7 +85,7 @@ public class Contracts {
 						});
 					});
 					ObsMapHolder<Integer, ContractDesc> finalRet = ret;
-					CHolder.follow((obj, old, l) -> finalRet.dataReceived());
+					CHolder.follow((l) -> finalRet.dataReceived());
 					caches.put(regionId, ret);
 				}
 			}

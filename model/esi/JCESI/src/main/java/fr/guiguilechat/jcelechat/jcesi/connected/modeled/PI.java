@@ -84,7 +84,7 @@ public class PI {
 						mcol.keySet().removeAll(removed);
 						for (R_get_characters_character_id_planets a : added) {
 							acc.raw.cache.characters.planets(acc.characterId(), a.planet_id)
-							.follow((observable, oldValue, newValue) -> {
+							.follow((newValue) -> {
 								if (newValue == null) {
 									synchronized (mcol) {
 										mcol.remove(a.planet_id);
@@ -99,7 +99,7 @@ public class PI {
 							});
 						}
 					});
-					acc.raw.cache.characters.planets(acc.characterId()).follow((obj, old, l) -> planets.dataReceived());
+					acc.raw.cache.characters.planets(acc.characterId()).follow((l) -> planets.dataReceived());
 				}
 			}
 		}

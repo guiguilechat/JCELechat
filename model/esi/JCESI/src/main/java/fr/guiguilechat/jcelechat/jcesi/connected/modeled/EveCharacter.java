@@ -46,7 +46,6 @@ import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
-import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.value.ObservableNumberValue;
 import javafx.collections.FXCollections;
@@ -271,7 +270,7 @@ public class EveCharacter {
 					cachedAssets = con.raw.cache.toHolder(map);
 					synchronized (assets) {
 						assets.followItems(c -> applyNewAssets(c, map));
-						assets.follow((obj, old, ass) -> cachedAssets.dataReceived());
+						assets.follow((ass) -> cachedAssets.dataReceived());
 					}
 
 				}
@@ -483,20 +482,19 @@ public class EveCharacter {
 		if(currentAcquisitionRate==null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (currentAcquisitionRate == null) {
-					SimpleDoubleProperty underlying = new SimpleDoubleProperty();
-					ObsDoubleHolderImpl ret = new ObsDoubleHolderImpl(underlying.asObject());
+					ObsDoubleHolderImpl ret = new ObsDoubleHolderImpl();
 					R_get_universe_types_type_id[] holdSkil = new 	R_get_universe_types_type_id[1];
 					R_get_characters_character_id_attributes[] holdAtt = new R_get_characters_character_id_attributes[1];
 					Runnable apply = () -> {
 						if (holdSkil[0] != null && holdAtt[0] != null) {
-							underlying.set(getHourlySPRate(holdSkil[0], holdAtt[0]));
+							ret.set(getHourlySPRate(holdSkil[0], holdAtt[0]));
 						}
 					};
-					skills.getTrainingSkill().follow((observable, oldValue, newValue) -> {
+					skills.getTrainingSkill().follow((newValue) -> {
 						holdSkil[0] = newValue;
 						apply.run();
 					});
-					attributes.get().follow((observable, oldValue, newValue) -> {
+					attributes.get().follow((newValue) -> {
 						holdAtt[0] = newValue;
 						apply.run();
 					});

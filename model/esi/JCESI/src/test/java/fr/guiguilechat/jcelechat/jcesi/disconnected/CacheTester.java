@@ -1,5 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected
-;
+package fr.guiguilechat.jcelechat.jcesi.disconnected;
 
 import java.util.stream.Collectors;
 
@@ -18,7 +17,7 @@ public class CacheTester {
 		// noparam-> container
 		System.out.println("noparam->container started");
 		ObsObjHolder<R_get_status> status = con.status.status();
-		status.follow((o, old, now) -> System.out.println("noparam->container new number of players " + now.players));
+		status.follow((now) -> System.out.println("noparam->container new number of players " + now.players));
 		status.get();
 
 		// noparam-> list
