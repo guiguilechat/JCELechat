@@ -11,11 +11,8 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
-import fr.lelouet.collectionholders.impl.AObsObjHolder;
-import fr.lelouet.collectionholders.impl.ObsObjHolderBack;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 
@@ -60,11 +57,6 @@ public class CacheConnected extends SwaggerCOCache<ESIConnected> {
 	@Override
 	public <U, V> ObsMapHolderImpl<U, V> toHolder(ObservableMap<U, V> map) {
 		return new ObsMapHolderImpl<>(map);
-	}
-
-	@Override
-	public <U> AObsObjHolder<U> toHolder(ObservableValue<U> obj) {
-		return new ObsObjHolderBack<>(obj);
 	}
 
 }

@@ -41,12 +41,11 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
-import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -59,14 +58,14 @@ public class Corporations {
     private final Map<K_8_int_int, ObsListHolderImpl<M_get_contracts_contract_bids_4>> get_corporations_corporation_id_contracts_contract_id_bids_holder = new HashMap<>();
     private final Map<K_8_int_int, ObsListHolderImpl<M_get_contracts_contract_items_6>> get_corporations_corporation_id_contracts_contract_id_items_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_customs_offices>> get_corporations_corporation_id_customs_offices_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_facilities>> get_corporations_corporation_id_facilities_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_holder = new HashMap<>();
     private final Map<K_9_int_Boolean, ObsListHolderImpl<R_get_corporations_corporation_id_industry_jobs>> get_corporations_corporation_id_industry_jobs_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_killmails_2>> get_corporations_corporation_id_killmails_recent_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_medals>> get_corporations_corporation_id_medals_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_medals_issued>> get_corporations_corporation_id_medals_issued_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<Integer>> get_corporations_corporation_id_members_limit_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<Integer>> get_corporations_corporation_id_members_limit_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_members_titles>> get_corporations_corporation_id_members_titles_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_membertracking>> get_corporations_corporation_id_membertracking_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_roles>> get_corporations_corporation_id_roles_holder = new HashMap<>();
@@ -74,7 +73,7 @@ public class Corporations {
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_shareholders>> get_corporations_corporation_id_shareholders_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_standings_3>> get_corporations_corporation_id_standings_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_starbases>> get_corporations_corporation_id_starbases_holder = new HashMap<>();
-    private final Map<K_10_int_long_int, AObsObjHolder<R_get_corporations_corporation_id_starbases_starbase_id>> get_corporations_corporation_id_starbases_starbase_id_holder = new HashMap<>();
+    private final Map<K_10_int_long_int, ObsObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id>> get_corporations_corporation_id_starbases_starbase_id_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_titles>> get_corporations_corporation_id_titles_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_wallets>> get_corporations_corporation_id_wallets_holder = new HashMap<>();
     private final Map<K_11_int_int_Long, ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions>> get_corporations_corporation_id_wallets_division_transactions_holder = new HashMap<>();
@@ -485,7 +484,7 @@ public class Corporations {
      *     An EVE corporation ID
      */
     public ObsObjHolder<R_get_corporations_corporation_id_divisions> divisions(int corporation_id) {
-        AObsObjHolder<R_get_corporations_corporation_id_divisions> ret = get_corporations_corporation_id_divisions_holder.get(corporation_id);
+        ObsObjHolderSimple<R_get_corporations_corporation_id_divisions> ret = get_corporations_corporation_id_divisions_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_divisions_holder);
             try {
@@ -495,8 +494,8 @@ public class Corporations {
                     {
                         ret = get_corporations_corporation_id_divisions_holder.get(corporation_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_corporations_corporation_id_divisions> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_corporations_corporation_id_divisions> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_corporations_corporation_id_divisions_holder.put(corporation_id, ret);
                             (cache).addFetchCacheObject("get_corporations_corporation_id_divisions", properties -> (cache.swagger).get_corporations_divisions(corporation_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -588,7 +587,7 @@ public class Corporations {
      *     An EVE corporation ID
      */
     public ObsObjHolder<R_get_corporations_corporation_id_fw_stats> fw_stats(int corporation_id) {
-        AObsObjHolder<R_get_corporations_corporation_id_fw_stats> ret = get_corporations_corporation_id_fw_stats_holder.get(corporation_id);
+        ObsObjHolderSimple<R_get_corporations_corporation_id_fw_stats> ret = get_corporations_corporation_id_fw_stats_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_fw_stats_holder);
             try {
@@ -598,8 +597,8 @@ public class Corporations {
                     {
                         ret = get_corporations_corporation_id_fw_stats_holder.get(corporation_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_corporations_corporation_id_fw_stats> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_corporations_corporation_id_fw_stats_holder.put(corporation_id, ret);
                             (cache).addFetchCacheObject("get_corporations_corporation_id_fw_stats", properties -> (cache.swagger).get_corporations_fw_stats(corporation_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -856,7 +855,7 @@ public class Corporations {
      *     An EVE corporation ID
      */
     public ObsObjHolder<Integer> members_limit(int corporation_id) {
-        AObsObjHolder<Integer> ret = get_corporations_corporation_id_members_limit_holder.get(corporation_id);
+        ObsObjHolderSimple<Integer> ret = get_corporations_corporation_id_members_limit_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_members_limit_holder);
             try {
@@ -866,8 +865,8 @@ public class Corporations {
                     {
                         ret = get_corporations_corporation_id_members_limit_holder.get(corporation_id);
                         if (ret == null) {
-                            SimpleObjectProperty<Integer> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<Integer> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_corporations_corporation_id_members_limit_holder.put(corporation_id, ret);
                             (cache).addFetchCacheObject("get_corporations_corporation_id_members_limit", properties -> (cache.swagger).get_corporations_members_limit(corporation_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -1288,7 +1287,7 @@ public class Corporations {
      */
     public ObsObjHolder<R_get_corporations_corporation_id_starbases_starbase_id> starbases(int corporation_id, long starbase_id, int system_id) {
         K_10_int_long_int param = new K_10_int_long_int(corporation_id, starbase_id, system_id);
-        AObsObjHolder<R_get_corporations_corporation_id_starbases_starbase_id> ret = get_corporations_corporation_id_starbases_starbase_id_holder.get(param);
+        ObsObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id> ret = get_corporations_corporation_id_starbases_starbase_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_starbases_starbase_id_holder);
             try {
@@ -1298,8 +1297,8 @@ public class Corporations {
                     {
                         ret = get_corporations_corporation_id_starbases_starbase_id_holder.get(param);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_corporations_corporation_id_starbases_starbase_id> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_corporations_corporation_id_starbases_starbase_id_holder.put(param, ret);
                             (cache).addFetchCacheObject("get_corporations_corporation_id_starbases_starbase_id", properties -> (cache.swagger).get_corporations_starbases(corporation_id, starbase_id, system_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);

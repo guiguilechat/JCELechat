@@ -9,19 +9,18 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class Markets {
     public final SwaggerDCCache<?> cache;
     private ObsListHolderImpl<Integer> get_markets_groups_holder;
-    private final Map<Integer, AObsObjHolder<R_get_markets_groups_market_group_id>> get_markets_groups_market_group_id_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_markets_groups_market_group_id>> get_markets_groups_market_group_id_holder = new HashMap<>();
     private ObsListHolderImpl<R_get_markets_prices> get_markets_prices_holder;
     private final Map<K_14_int_int, ObsListHolderImpl<R_get_markets_region_id_history>> get_markets_region_id_history_holder = new HashMap<>();
     private final Map<K_15_Integer_int_order_type, ObsListHolderImpl<R_get_markets_region_id_orders>> get_markets_region_id_orders_holder = new HashMap<>();
@@ -88,7 +87,7 @@ public class Markets {
      *     An Eve item group ID
      */
     public ObsObjHolder<R_get_markets_groups_market_group_id> groups(int market_group_id) {
-        AObsObjHolder<R_get_markets_groups_market_group_id> ret = get_markets_groups_market_group_id_holder.get(market_group_id);
+        ObsObjHolderSimple<R_get_markets_groups_market_group_id> ret = get_markets_groups_market_group_id_holder.get(market_group_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_groups_market_group_id_holder);
             try {
@@ -98,8 +97,8 @@ public class Markets {
                     {
                         ret = get_markets_groups_market_group_id_holder.get(market_group_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_markets_groups_market_group_id> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_markets_groups_market_group_id> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_markets_groups_market_group_id_holder.put(market_group_id, ret);
                             (cache).addFetchCacheObject("get_markets_groups_market_group_id", properties -> (cache.swagger).get_markets_groups(market_group_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);

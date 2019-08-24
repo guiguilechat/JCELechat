@@ -87,7 +87,9 @@ public class Informations {
 			ObsObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (corporationId == null) {
-					corporationId = fetch.mapInt(info -> info.corporation_id);
+					corporationId = fetch.mapInt(info -> {
+						return info.corporation_id;
+					});
 				}
 			});
 		}

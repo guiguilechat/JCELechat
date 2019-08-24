@@ -5,11 +5,11 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_f
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -40,8 +40,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_leaderboards_holder == null) {
-                            SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
-                            get_fw_leaderboards_holder = (cache).toHolder(holder);
+                            ObsObjHolderSimple<M_get_fw_leaderboards_2> holder = new ObsObjHolderSimple<>();
+                            get_fw_leaderboards_holder = holder;
                             (cache).addFetchCacheObject("get_fw_leaderboards", properties -> (cache.swagger).get_fw_leaderboards(properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -83,8 +83,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_leaderboards_characters_holder == null) {
-                            SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
-                            get_fw_leaderboards_characters_holder = (cache).toHolder(holder);
+                            ObsObjHolderSimple<M_get_fw_leaderboards_2> holder = new ObsObjHolderSimple<>();
+                            get_fw_leaderboards_characters_holder = holder;
                             (cache).addFetchCacheObject("get_fw_leaderboards_characters", properties -> (cache.swagger).get_fw_leaderboards_characters(properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {
@@ -126,8 +126,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_leaderboards_corporations_holder == null) {
-                            SimpleObjectProperty<M_get_fw_leaderboards_2> holder = new SimpleObjectProperty<>();
-                            get_fw_leaderboards_corporations_holder = (cache).toHolder(holder);
+                            ObsObjHolderSimple<M_get_fw_leaderboards_2> holder = new ObsObjHolderSimple<>();
+                            get_fw_leaderboards_corporations_holder = holder;
                             (cache).addFetchCacheObject("get_fw_leaderboards_corporations", properties -> (cache.swagger).get_fw_leaderboards_corporations(properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

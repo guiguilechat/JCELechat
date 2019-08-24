@@ -59,64 +59,63 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_titles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
-import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class Characters {
     public final SwaggerCOCache<?> cache;
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_agents_research>> get_characters_character_id_agents_research_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_attributes>> get_characters_character_id_attributes_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_attributes>> get_characters_character_id_attributes_holder = new HashMap<>();
     private final Map<K_0_int_Integer, ObsListHolderImpl<R_get_characters_character_id_calendar>> get_characters_character_id_calendar_holder = new HashMap<>();
     private final Map<K_1_int_int, ObsListHolderImpl<R_get_characters_character_id_calendar_event_id_attendees>> get_characters_character_id_calendar_event_id_attendees_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_contacts_labels_2>> get_characters_character_id_contacts_labels_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_contracts_22>> get_characters_character_id_contracts_holder = new HashMap<>();
     private final Map<K_2_int_int, ObsListHolderImpl<M_get_contracts_contract_bids_4>> get_characters_character_id_contracts_contract_id_bids_holder = new HashMap<>();
     private final Map<K_2_int_int, ObsListHolderImpl<M_get_contracts_contract_items_6>> get_characters_character_id_contracts_contract_id_items_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_fleet>> get_characters_character_id_fleet_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_fw_stats>> get_characters_character_id_fw_stats_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_fleet>> get_characters_character_id_fleet_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_fw_stats>> get_characters_character_id_fw_stats_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<Integer>> get_characters_character_id_implants_holder = new HashMap<>();
     private final Map<K_3_Boolean_int, ObsListHolderImpl<R_get_characters_character_id_industry_jobs>> get_characters_character_id_industry_jobs_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_killmails_2>> get_characters_character_id_killmails_recent_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_location>> get_characters_character_id_location_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_location>> get_characters_character_id_location_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_loyalty_points>> get_characters_character_id_loyalty_points_holder = new HashMap<>();
     private final Map<K_4_Integer_int_Lint, ObsListHolderImpl<R_get_characters_character_id_mail>> get_characters_character_id_mail_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_mail_lists>> get_characters_character_id_mail_lists_holder = new HashMap<>();
-    private final Map<K_5_int_int, AObsObjHolder<R_get_characters_character_id_mail_mail_id>> get_characters_character_id_mail_mail_id_holder = new HashMap<>();
+    private final Map<K_5_int_int, ObsObjHolderSimple<R_get_characters_character_id_mail_mail_id>> get_characters_character_id_mail_mail_id_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_medals>> get_characters_character_id_medals_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_mining>> get_characters_character_id_mining_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_notifications_contacts>> get_characters_character_id_notifications_contacts_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_opportunities>> get_characters_character_id_opportunities_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_orders_history>> get_characters_character_id_orders_history_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_planets>> get_characters_character_id_planets_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_ship>> get_characters_character_id_ship_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_ship>> get_characters_character_id_ship_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_standings_3>> get_characters_character_id_standings_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_titles>> get_characters_character_id_titles_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<Double>> get_characters_character_id_wallet_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<Double>> get_characters_character_id_wallet_holder = new HashMap<>();
     private final Map<K_6_Long_int, ObsListHolderImpl<R_get_characters_character_id_wallet_transactions>> get_characters_character_id_wallet_transactions_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_blueprints>> get_characters_character_id_blueprints_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_bookmarks_9>> get_characters_character_id_bookmarks_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_bookmarks_folders>> get_characters_character_id_bookmarks_folders_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_contacts>> get_characters_character_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_fittings>> get_characters_character_id_fittings_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_online>> get_characters_character_id_online_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_online>> get_characters_character_id_online_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_orders>> get_characters_character_id_orders_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_roles>> get_characters_character_id_roles_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_roles>> get_characters_character_id_roles_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_skillqueue>> get_characters_character_id_skillqueue_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_stats>> get_characters_character_id_stats_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_assets>> get_characters_character_id_assets_holder = new HashMap<>();
-    private final Map<K_1_int_int, AObsObjHolder<R_get_characters_character_id_calendar_event_id>> get_characters_character_id_calendar_event_id_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
-    private final Map<K_18_int_int, AObsObjHolder<R_get_characters_character_id_planets_planet_id>> get_characters_character_id_planets_planet_id_holder = new HashMap<>();
-    private final Map<K_19_String_LString_int_Boolean, AObsObjHolder<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
+    private final Map<K_1_int_int, ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id>> get_characters_character_id_calendar_event_id_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
+    private final Map<K_18_int_int, ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id>> get_characters_character_id_planets_planet_id_holder = new HashMap<>();
+    private final Map<K_19_String_LString_int_Boolean, ObsObjHolderSimple<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_wallet_journal>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
 
@@ -187,7 +186,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_attributes> attributes(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_attributes> ret = get_characters_character_id_attributes_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_attributes> ret = get_characters_character_id_attributes_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_attributes_holder);
             try {
@@ -197,8 +196,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_attributes_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_attributes> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_attributes> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_attributes_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_attributes", properties -> (cache.swagger).get_characters_attributes(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -572,7 +571,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_fatigue> fatigue(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_fatigue> ret = get_characters_character_id_fatigue_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_fatigue> ret = get_characters_character_id_fatigue_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_fatigue_holder);
             try {
@@ -582,8 +581,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_fatigue_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_fatigue> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_fatigue> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_fatigue_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_fatigue", properties -> (cache.swagger).get_characters_fatigue(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -621,7 +620,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_fleet> fleet(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_fleet> ret = get_characters_character_id_fleet_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_fleet> ret = get_characters_character_id_fleet_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_fleet_holder);
             try {
@@ -631,8 +630,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_fleet_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_fleet> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_fleet> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_fleet_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_fleet", properties -> (cache.swagger).get_characters_fleet(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -670,7 +669,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_fw_stats> fw_stats(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_fw_stats> ret = get_characters_character_id_fw_stats_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_fw_stats> ret = get_characters_character_id_fw_stats_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_fw_stats_holder);
             try {
@@ -680,8 +679,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_fw_stats_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_fw_stats> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_fw_stats> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_fw_stats_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_fw_stats", properties -> (cache.swagger).get_characters_fw_stats(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -884,7 +883,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_location> location(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_location> ret = get_characters_character_id_location_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_location> ret = get_characters_character_id_location_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_location_holder);
             try {
@@ -894,8 +893,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_location_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_location> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_location> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_location_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_location", properties -> (cache.swagger).get_characters_location(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -1103,7 +1102,7 @@ public class Characters {
      */
     public ObsObjHolder<R_get_characters_character_id_mail_mail_id> mail(int character_id, int mail_id) {
         K_5_int_int param = new K_5_int_int(mail_id, character_id);
-        AObsObjHolder<R_get_characters_character_id_mail_mail_id> ret = get_characters_character_id_mail_mail_id_holder.get(param);
+        ObsObjHolderSimple<R_get_characters_character_id_mail_mail_id> ret = get_characters_character_id_mail_mail_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_mail_mail_id_holder);
             try {
@@ -1113,8 +1112,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_mail_mail_id_holder.get(param);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_mail_mail_id> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_mail_mail_id> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_mail_mail_id_holder.put(param, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_mail_mail_id", properties -> (cache.swagger).get_characters_mail(character_id, mail_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -1476,7 +1475,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_ship> ship(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_ship> ret = get_characters_character_id_ship_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_ship> ret = get_characters_character_id_ship_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_ship_holder);
             try {
@@ -1486,8 +1485,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_ship_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_ship> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_ship> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_ship_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_ship", properties -> (cache.swagger).get_characters_ship(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -1633,7 +1632,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<Double> wallet(int character_id) {
-        AObsObjHolder<Double> ret = get_characters_character_id_wallet_holder.get(character_id);
+        ObsObjHolderSimple<Double> ret = get_characters_character_id_wallet_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_wallet_holder);
             try {
@@ -1643,8 +1642,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_wallet_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<Double> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<Double> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_wallet_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_wallet", properties -> (cache.swagger).get_characters_wallet(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -2009,7 +2008,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_online> online(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_online> ret = get_characters_character_id_online_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_online> ret = get_characters_character_id_online_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_online_holder);
             try {
@@ -2019,8 +2018,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_online_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_online> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_online> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_online_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_online", properties -> (cache.swagger).get_characters_online(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -2112,7 +2111,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_roles> roles(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_roles> ret = get_characters_character_id_roles_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_roles> ret = get_characters_character_id_roles_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_roles_holder);
             try {
@@ -2122,8 +2121,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_roles_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_roles> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_roles> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_roles_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_roles", properties -> (cache.swagger).get_characters_roles(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -2326,7 +2325,7 @@ public class Characters {
      */
     public ObsObjHolder<R_get_characters_character_id_calendar_event_id> calendar(int character_id, int event_id) {
         K_1_int_int param = new K_1_int_int(event_id, character_id);
-        AObsObjHolder<R_get_characters_character_id_calendar_event_id> ret = get_characters_character_id_calendar_event_id_holder.get(param);
+        ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id> ret = get_characters_character_id_calendar_event_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_calendar_event_id_holder);
             try {
@@ -2336,8 +2335,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_calendar_event_id_holder.get(param);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_calendar_event_id> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_calendar_event_id_holder.put(param, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_calendar_event_id", properties -> (cache.swagger).get_characters_calendar(character_id, event_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -2375,7 +2374,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_clones> clones(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_clones> ret = get_characters_character_id_clones_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_clones> ret = get_characters_character_id_clones_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_clones_holder);
             try {
@@ -2385,8 +2384,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_clones_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_clones> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_clones> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_clones_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_clones", properties -> (cache.swagger).get_characters_clones(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -2424,7 +2423,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_mail_labels> mail_labels(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_mail_labels> ret = get_characters_character_id_mail_labels_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_mail_labels> ret = get_characters_character_id_mail_labels_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_mail_labels_holder);
             try {
@@ -2434,8 +2433,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_mail_labels_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_mail_labels> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_mail_labels> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_mail_labels_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_mail_labels", properties -> (cache.swagger).get_characters_mail_labels(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -2476,7 +2475,7 @@ public class Characters {
      */
     public ObsObjHolder<R_get_characters_character_id_planets_planet_id> planets(int character_id, int planet_id) {
         K_18_int_int param = new K_18_int_int(planet_id, character_id);
-        AObsObjHolder<R_get_characters_character_id_planets_planet_id> ret = get_characters_character_id_planets_planet_id_holder.get(param);
+        ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id> ret = get_characters_character_id_planets_planet_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_planets_planet_id_holder);
             try {
@@ -2486,8 +2485,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_planets_planet_id_holder.get(param);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_planets_planet_id> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_planets_planet_id_holder.put(param, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_planets_planet_id", properties -> (cache.swagger).get_characters_planets(character_id, planet_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -2535,7 +2534,7 @@ public class Characters {
         String search,
         Boolean strict) {
         K_19_String_LString_int_Boolean param = new K_19_String_LString_int_Boolean(search, categories, character_id, strict);
-        AObsObjHolder<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
+        ObsObjHolderSimple<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_search_holder);
             try {
@@ -2545,8 +2544,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_search_holder.get(param);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_search> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_search> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_search_holder.put(param, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_search", properties -> (cache.swagger).get_characters(categories, character_id, search, strict, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -2584,7 +2583,7 @@ public class Characters {
      *     An EVE character ID
      */
     public ObsObjHolder<R_get_characters_character_id_skills> skills(int character_id) {
-        AObsObjHolder<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_skills_holder);
             try {
@@ -2594,8 +2593,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_skills_holder.get(character_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_characters_character_id_skills> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_characters_character_id_skills> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_characters_character_id_skills_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_skills", properties -> (cache.swagger).get_characters_skills(character_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);

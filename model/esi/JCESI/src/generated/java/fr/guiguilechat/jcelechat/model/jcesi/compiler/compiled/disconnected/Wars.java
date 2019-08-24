@@ -5,19 +5,18 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
-import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class Wars {
     public final SwaggerDCCache<?> cache;
     private final Map<Integer, ObsListHolderImpl<Integer>> get_wars_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_wars_war_id>> get_wars_war_id_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_wars_war_id>> get_wars_war_id_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_killmails_2>> get_wars_war_id_killmails_holder = new HashMap<>();
 
     public Wars(SwaggerDCCache<?> parent) {
@@ -87,7 +86,7 @@ public class Wars {
      *     ID for a war
      */
     public ObsObjHolder<R_get_wars_war_id> get(int war_id) {
-        AObsObjHolder<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
+        ObsObjHolderSimple<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_war_id_holder);
             try {
@@ -97,8 +96,8 @@ public class Wars {
                     {
                         ret = get_wars_war_id_holder.get(war_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_wars_war_id> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_wars_war_id> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_wars_war_id_holder.put(war_id, ret);
                             (cache).addFetchCacheObject("get_wars_war_id", properties -> (cache.swagger).get_wars(war_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);

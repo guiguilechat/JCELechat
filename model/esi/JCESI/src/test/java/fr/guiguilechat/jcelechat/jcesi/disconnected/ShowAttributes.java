@@ -22,7 +22,7 @@ public class ShowAttributes {
 
 	public static void main(String[] args) {
 		// invading entities
-		showGroup(4028);
+		// showGroup(4028);
 		// tableGroup(4028);
 
 		// hobgoblin
@@ -41,6 +41,8 @@ public class ShowAttributes {
 
 		// agent cruor
 		// showEntity(34144);
+		// base angel escort dramiel
+		showEntity(35689);
 
 		// diamond arbitrator
 		// showEntity(43559);
@@ -241,6 +243,8 @@ public class ShowAttributes {
 		switch (opId) {
 		case 0:
 			return "MULT";
+		case 2:
+			return "ADD";
 		case 7:
 			return "MULT";
 		default:

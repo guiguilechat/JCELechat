@@ -213,16 +213,25 @@ public class EveCharacter {
 		if(researchSlots==null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (researchSlots == null) {
+					// System.err.println("making research slots for " +
+					// con.characterName());
 					ObsIntHolder jobs = industry.getResearchJobs().size();
+					// System.err.println("indus jobs is " + jobs.get());
 					ObsIntHolder corpJobs = con.corporation.getIndustryJobs().values()
 							.filter(j -> j.installer_id == con.characterId() && (Corporation.isCopy(j) || Corporation.isInvention(j)
 									|| Corporation.isME(j) || Corporation.isTE(j)))
 							.size();
+					// System.err.println("corps jobs is " + corpJobs.get());
 					ObsIntHolder skill1 = skills.ID2Level().at(3406, 0).mapInt(i -> i);
+					// System.err.println("skill 3406 is " + skill1.get());
 					ObsIntHolder skill2 = skills.ID2Level().at(24624, 0).mapInt(i -> i);
+					// System.err.println("skill 24624 is " + skill2.get());
 					ObsIntHolder totalSlots = skill1.add(skill2).add(1);
+					// System.err.println("total slots is " + totalSlots.get());
 					ObsIntHolder totalJobs = jobs.add(corpJobs);
+					// System.err.println("total jobs is " + totalJobs.get());
 					researchSlots = totalSlots.sub(totalJobs);
+					// System.err.println("research slots is " + researchSlots.get());
 				}
 			});
 		}

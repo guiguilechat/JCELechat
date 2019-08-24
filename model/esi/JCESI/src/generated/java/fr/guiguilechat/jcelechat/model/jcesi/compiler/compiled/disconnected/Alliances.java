@@ -5,12 +5,11 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id_icons;
-import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
@@ -18,8 +17,8 @@ public class Alliances {
     public final SwaggerDCCache<?> cache;
     private ObsListHolderImpl<Integer> get_alliances_holder;
     private final Map<Integer, ObsListHolderImpl<Integer>> get_alliances_alliance_id_corporations_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_alliances_alliance_id_icons>> get_alliances_alliance_id_icons_holder = new HashMap<>();
-    private final Map<Integer, AObsObjHolder<R_get_alliances_alliance_id>> get_alliances_alliance_id_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_alliances_alliance_id_icons>> get_alliances_alliance_id_icons_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_alliances_alliance_id>> get_alliances_alliance_id_holder = new HashMap<>();
 
     public Alliances(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -136,7 +135,7 @@ public class Alliances {
      *     An EVE alliance ID
      */
     public ObsObjHolder<R_get_alliances_alliance_id_icons> icons(int alliance_id) {
-        AObsObjHolder<R_get_alliances_alliance_id_icons> ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
+        ObsObjHolderSimple<R_get_alliances_alliance_id_icons> ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_alliances_alliance_id_icons_holder);
             try {
@@ -146,8 +145,8 @@ public class Alliances {
                     {
                         ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_alliances_alliance_id_icons> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_alliances_alliance_id_icons> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
                             (cache).addFetchCacheObject("get_alliances_alliance_id_icons", properties -> (cache.swagger).get_alliances_icons(alliance_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
@@ -185,7 +184,7 @@ public class Alliances {
      *     An EVE alliance ID
      */
     public ObsObjHolder<R_get_alliances_alliance_id> get(int alliance_id) {
-        AObsObjHolder<R_get_alliances_alliance_id> ret = get_alliances_alliance_id_holder.get(alliance_id);
+        ObsObjHolderSimple<R_get_alliances_alliance_id> ret = get_alliances_alliance_id_holder.get(alliance_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_alliances_alliance_id_holder);
             try {
@@ -195,8 +194,8 @@ public class Alliances {
                     {
                         ret = get_alliances_alliance_id_holder.get(alliance_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_alliances_alliance_id> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_alliances_alliance_id> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_alliances_alliance_id_holder.put(alliance_id, ret);
                             (cache).addFetchCacheObject("get_alliances_alliance_id", properties -> (cache.swagger).get_alliances(alliance_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);

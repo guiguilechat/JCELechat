@@ -27,7 +27,7 @@ import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.FetchTranslator.RETURNTYPE;
-import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
@@ -36,7 +36,6 @@ import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import io.swagger.models.Operation;
 import io.swagger.models.parameters.Parameter;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
@@ -117,8 +116,7 @@ public class CacheTranslator {
 			return;
 		case OBJECT:
 			cacheRetItf = cm.ref(ObsObjHolder.class).narrow(parent.resourceFlatType.boxify());
-			cacheRetType = cm.ref(AObsObjHolder.class).narrow(parent.resourceFlatType.boxify());
-			cacheHolderType = cm.ref(SimpleObjectProperty.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetType = cacheHolderType = cm.ref(ObsObjHolderSimple.class).narrow(parent.resourceFlatType.boxify());
 			break;
 		case LIST:
 			cacheRetItf = cm.ref(ObsListHolder.class).narrow(parent.resourceFlatType.boxify());
@@ -317,8 +315,8 @@ public class CacheTranslator {
 				._if(cacheContainer.eqNull())._then();
 		JVar holder = instanceBlock
 				.decl(cacheHolderType, "holder")
-				.init(JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
-		instanceBlock.assign(cacheContainer, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
+				.init(JExpr._new(cm.ref(ObsObjHolderSimple.class).narrowEmpty()));
+		instanceBlock.assign(cacheContainer, holder);
 		JInvocation invoke = JExpr.invoke(JExpr.direct("cache"), bridge.methFetchCacheObject())
 				.arg(operation.getOperationId());
 		invoke.arg(lambdaFetch());
@@ -499,8 +497,8 @@ public class CacheTranslator {
 		JBlock instanceBlock = createTestNullCase(cacheMeth.body(), ret, cacheContainer.invoke("get").arg(cacheParam),
 				cacheContainer);
 		JVar holder = instanceBlock.decl(cacheHolderType, "holder")
-				.init(JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
-		instanceBlock.assign(ret, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
+				.init(JExpr._new(cm.ref(ObsObjHolderSimple.class).narrowEmpty()));
+		instanceBlock.assign(ret, holder);
 		instanceBlock.add(JExpr.invoke(cacheContainer, "put").arg(cacheParam).arg(ret));
 		JInvocation invoke = JExpr.invoke(JExpr.direct("cache"), bridge.methFetchCacheObject())
 				.arg(operation.getOperationId());

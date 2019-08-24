@@ -2,9 +2,9 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 
 public class Status {
     public final SwaggerDCCache<?> cache;
@@ -28,8 +28,8 @@ public class Status {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_status_holder == null) {
-                            SimpleObjectProperty<R_get_status> holder = new SimpleObjectProperty<>();
-                            get_status_holder = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_status> holder = new ObsObjHolderSimple<>();
+                            get_status_holder = holder;
                             (cache).addFetchCacheObject("get_status", properties -> (cache.swagger).get_status(properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

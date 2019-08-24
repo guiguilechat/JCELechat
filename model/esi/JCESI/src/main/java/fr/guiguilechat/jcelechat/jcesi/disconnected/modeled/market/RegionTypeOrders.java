@@ -46,6 +46,7 @@ public class RegionTypeOrders {
 		ObsDoubleHolder ret = map.get(qtty);
 		if (ret == null) {
 			synchronized (map) {
+				ret = map.get(qtty);
 				if (ret == null) {
 					ObsListHolder<R_get_markets_region_id_orders> source = buy ? buyOrders : sellOrders;
 					ret = source.reduceDouble(l -> {

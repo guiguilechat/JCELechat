@@ -6,18 +6,17 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id_members;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id_wings;
-import fr.lelouet.collectionholders.impl.AObsObjHolder;
+import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class Fleets {
     public final SwaggerCOCache<?> cache;
-    private final Map<Long, AObsObjHolder<R_get_fleets_fleet_id>> get_fleets_fleet_id_holder = new HashMap<>();
+    private final Map<Long, ObsObjHolderSimple<R_get_fleets_fleet_id>> get_fleets_fleet_id_holder = new HashMap<>();
     private final Map<Long, ObsListHolderImpl<R_get_fleets_fleet_id_members>> get_fleets_fleet_id_members_holder = new HashMap<>();
     private final Map<Long, ObsListHolderImpl<R_get_fleets_fleet_id_wings>> get_fleets_fleet_id_wings_holder = new HashMap<>();
 
@@ -34,7 +33,7 @@ public class Fleets {
      *     ID for a fleet
      */
     public ObsObjHolder<R_get_fleets_fleet_id> get(long fleet_id) {
-        AObsObjHolder<R_get_fleets_fleet_id> ret = get_fleets_fleet_id_holder.get(fleet_id);
+        ObsObjHolderSimple<R_get_fleets_fleet_id> ret = get_fleets_fleet_id_holder.get(fleet_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_fleets_fleet_id_holder);
             try {
@@ -44,8 +43,8 @@ public class Fleets {
                     {
                         ret = get_fleets_fleet_id_holder.get(fleet_id);
                         if (ret == null) {
-                            SimpleObjectProperty<R_get_fleets_fleet_id> holder = new SimpleObjectProperty<>();
-                            ret = (cache).toHolder(holder);
+                            ObsObjHolderSimple<R_get_fleets_fleet_id> holder = new ObsObjHolderSimple<>();
+                            ret = holder;
                             get_fleets_fleet_id_holder.put(fleet_id, ret);
                             (cache).addFetchCacheObject("get_fleets_fleet_id", properties -> (cache.swagger).get_fleets(fleet_id, properties), item -> {
                                 LockWatchDog.BARKER.tak(holder);

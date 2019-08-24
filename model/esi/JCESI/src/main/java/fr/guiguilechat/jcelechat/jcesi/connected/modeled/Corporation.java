@@ -59,7 +59,8 @@ public class Corporation {
 	}
 
 	public int getId() {
-		return con.character.infos.corporationId().get();
+		int ret = con.character.infos.corporationId().get();
+		return ret;
 	}
 
 	public ObsObjHolder<R_get_corporations_corporation_id> getInformations() {
