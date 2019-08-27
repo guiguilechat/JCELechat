@@ -1,10 +1,11 @@
-package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
+package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets_planet_id;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;

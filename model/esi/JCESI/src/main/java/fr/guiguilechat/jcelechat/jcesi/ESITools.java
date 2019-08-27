@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneId;
@@ -20,5 +21,13 @@ public class ESITools {
 	 */
 	public static LocalDateTime convertLocalDateTime(String date) {
 		return convertDate(date).atZoneSameInstant(ZoneId.systemDefault()).toLocalDateTime();
+	}
+
+	/**
+	 * parse an ESI date to a local date time (that is, converted from UTC offset
+	 * to local offset)
+	 */
+	public static LocalDate convertLocalDate(String date) {
+		return convertDate(date).atZoneSameInstant(ZoneId.systemDefault()).toLocalDate();
 	}
 }

@@ -40,10 +40,6 @@ public class ESIAccount {
 
 	public final Verify verify;
 
-	public final PI pi = new PI(this);
-
-	public final Route route = new Route(this);
-
 	public final Corporation corporation = new Corporation(this);
 
 	public final Universe universe = new Universe(this);

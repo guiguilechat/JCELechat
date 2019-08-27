@@ -1,4 +1,6 @@
-package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
+package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
+
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 
 public class Route {
 

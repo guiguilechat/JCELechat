@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.PI.ColonyInfo;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.PI.ColonyInfo;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets_planet_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_characters_character_id_planets_planet_id_pins;

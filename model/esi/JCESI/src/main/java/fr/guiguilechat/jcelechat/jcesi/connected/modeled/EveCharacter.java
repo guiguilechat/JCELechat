@@ -15,6 +15,8 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Industry;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Location;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Notifications;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.PI;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Route;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Skills;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Wallet;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
@@ -72,6 +74,10 @@ public class EveCharacter {
 
 	public final Wallet wallet;
 
+	public final PI pi;
+
+	public final Route route;
+
 	public EveCharacter(ESIAccount con) {
 		this.con = con;
 		attributes = new Attributes(con);
@@ -82,6 +88,8 @@ public class EveCharacter {
 		notifications = new Notifications(con);
 		skills = new Skills(con);
 		wallet = new Wallet(con);
+		pi = new PI(con);
+		route = new Route(con);
 	}
 
 	//

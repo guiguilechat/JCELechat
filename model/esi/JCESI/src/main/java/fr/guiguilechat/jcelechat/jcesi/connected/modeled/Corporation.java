@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -15,6 +16,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpAssetFo
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.SystemAsset;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
@@ -86,8 +88,7 @@ public class Corporation {
 		if (cachedIndustryJobs == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedIndustryJobs == null) {
-					cachedIndustryJobs = con.raw.cache.corporations.industry_jobs(getId(), false).toMap(
-							j -> j.job_id);
+					cachedIndustryJobs = con.raw.cache.corporations.industry_jobs(getId(), false).toMap(j -> j.job_id);
 				}
 			});
 		}
@@ -297,8 +298,7 @@ public class Corporation {
 		if (cachedWallet == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedWallet == null) {
-					cachedWallet =
-							con.raw.cache.corporations.wallets(getId())
+					cachedWallet = con.raw.cache.corporations.wallets(getId())
 							.reduceDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
 				}
 			});
@@ -315,7 +315,9 @@ public class Corporation {
 	/**
 	 * get wallet history.<br />
 	 * The key is String because a transaction can appear in the corporation and
-	 * character wallets, with same id.
+	 * character wallets, with same id.<br />
+	 * This is effectively a merge of the wallets of the several divisions.
+	 *
 	 */
 	public ObsMapHolder<String, R_get_corporations_corporation_id_wallets_division_transactions> getWalletTransactions() {
 		if (cachedWalletTransactions == null) {
@@ -324,7 +326,7 @@ public class Corporation {
 					@SuppressWarnings("unchecked")
 					ObsMapHolderImpl<String, R_get_corporations_corporation_id_wallets_division_transactions>[] wallets = Stream
 					.of(getDivisions().get().wallet)
-					.map(division -> con.raw.cache.corporations.wallets_transactions(getId(), division.division, null))
+					.map(div -> getWholeWalletTransactions(div.division))
 					.map(l -> ObsMapHolderImpl.toMap(l, k -> "" + getId() + k.transaction_id)).collect(Collectors.toList())
 					.toArray(new ObsMapHolderImpl[] {});
 					cachedWalletTransactions = wallets[0].merge(Arrays.copyOfRange(wallets, 1, wallets.length));
@@ -332,6 +334,67 @@ public class Corporation {
 			});
 		}
 		return cachedWalletTransactions;
+	}
+
+	private Map<Integer, ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> wholeWalletTransactionsCache = new HashMap<>();
+
+	protected ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> getWholeWalletTransactions(
+			int division_id) {
+		ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret = wholeWalletTransactionsCache
+				.get(division_id);
+		if (ret == null) {
+			ret = LockWatchDog.BARKER.syncExecute(wholeWalletTransactionsCache, () -> {
+				ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret2 = wholeWalletTransactionsCache
+						.get(division_id);
+				if (ret2 == null) {
+					ret2 = con.raw.cache.corporations.wallets_transactions(getId(), division_id, null)
+							.toList(l -> expandWholeTransactions(division_id, l));
+				}
+				return ret2;
+			});
+		}
+		return ret;
+
+	}
+
+	protected List<R_get_corporations_corporation_id_wallets_division_transactions> expandWholeTransactions(int divid,
+			List<R_get_corporations_corporation_id_wallets_division_transactions> firstPage) {
+		if (firstPage.size() == 0) {
+			return firstPage;
+		}
+		List<R_get_corporations_corporation_id_wallets_division_transactions> ret = new ArrayList<>(firstPage);
+		Long firstId = ret.get(ret.size() - 1).transaction_id-1;
+		do {
+			// System.err.println("call corp:" + getId() + " division:" + divid + "
+			// transaction up to id " + firstId);
+			Requested<R_get_corporations_corporation_id_wallets_division_transactions[]> req = con.raw
+					.get_corporations_wallets_transactions(getId(), divid, firstId, null);
+			// System.err.println(" response code is " + req.getResponseCode());
+			if (req.getResponseCode() == 200) {
+				R_get_corporations_corporation_id_wallets_division_transactions[] added = req.getOK();
+				if (added != null && added.length > 0) {
+					// System.err.println("received " + added.length + " new
+					// transactions");
+					long newfirstId = added[added.length - 1].transaction_id-1;
+					ret.addAll(Arrays.asList(added));
+					if (newfirstId != firstId) {
+						firstId= newfirstId;
+					} else {
+						// System.err.println(" new first id is same as sold, stop
+						// walking");
+						firstId= null;
+					}
+				} else {
+					// System.err.println("no more transaction");
+					firstId = null;
+				}
+			} else {
+				// System.err.println("received response " + req.getResponseCode() + ",
+				// stop walking");
+				firstId = null;
+			}
+		} while (firstId != null);
+		return ret;
 	}
 
 	private ObsMapHolder<Long, R_get_corporations_corporation_id_orders> cachedOrders = null;
@@ -352,9 +415,8 @@ public class Corporation {
 	public ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> getOrdersHistory() {
 		if (cachedOrdersHistory == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if(cachedOrdersHistory==null) {
-					cachedOrdersHistory = con.raw.cache.corporations
-							.orders_history(getId()).toMap(order -> order.order_id);
+				if (cachedOrdersHistory == null) {
+					cachedOrdersHistory = con.raw.cache.corporations.orders_history(getId()).toMap(order -> order.order_id);
 				}
 			});
 		}
@@ -443,7 +505,8 @@ public class Corporation {
 				if (cachedMembersTitles == null) {
 					cachedMembersTitles = con.raw.cache.corporations.members_titles(getId()).toMap(title -> title.character_id,
 							title -> title.titles);
-				}});
+				}
+			});
 		}
 		return cachedMembersTitles;
 	}
@@ -467,8 +530,7 @@ public class Corporation {
 		if (cachedMemberstracking == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedMemberstracking == null) {
-					cachedMemberstracking = con.raw.cache.corporations.membertracking(getId())
-							.toMap(track -> track.character_id);
+					cachedMemberstracking = con.raw.cache.corporations.membertracking(getId()).toMap(track -> track.character_id);
 				}
 			});
 		}
@@ -482,7 +544,7 @@ public class Corporation {
 	 * @return
 	 */
 	public ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> getRoles() {
-		if(cachedRoles==null) {
+		if (cachedRoles == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedRoles == null) {
 					cachedRoles = con.raw.cache.corporations.roles(getId()).toMap(roles -> roles.character_id);
