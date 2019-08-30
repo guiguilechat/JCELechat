@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.CharBookmarks
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Industry;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Informations;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Location;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Market;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Notifications;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.PI;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Route;
@@ -25,7 +26,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_loyalty_points;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
@@ -36,7 +36,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_base;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_hq;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_other;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.impl.numbers.ObsDoubleHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
@@ -68,6 +67,8 @@ public class EveCharacter {
 
 	public final Location location;
 
+	public final Market market;
+
 	public final Notifications notifications;
 
 	public final Skills skills;
@@ -85,6 +86,7 @@ public class EveCharacter {
 		industry = new Industry(con);
 		infos = new Informations(con);
 		location = new Location(con);
+		market = new Market(con);
 		notifications = new Notifications(con);
 		skills = new Skills(con);
 		wallet = new Wallet(con);
@@ -369,73 +371,6 @@ public class EveCharacter {
 			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
 		}
 		return m1;
-	}
-
-	//
-	// market orders
-	//
-
-	private ObsMapHolder<Integer, Integer> marketSOs = null;
-
-	private ObsMapHolder<Integer, Integer> marketBOs = null;
-
-	private void makeBOSOs() {
-		if (marketSOs == null || marketBOs == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (marketSOs == null || marketBOs == null) {
-					ObservableMap<Integer, Integer> underlyingsos = FXCollections.observableMap(new HashMap<>());
-					ObsMapHolderImpl<Integer, Integer> newmarketSOs = new ObsMapHolderImpl<>(underlyingsos);
-					ObservableMap<Integer, Integer> underlyingbos = FXCollections.observableMap(new HashMap<>());
-					ObsMapHolderImpl<Integer, Integer> newmarketBOs = new ObsMapHolderImpl<>(underlyingbos);
-					getMarketOrders().follow((map) -> {
-						HashMap<Integer, Integer> newMapsos = new HashMap<>();
-						HashMap<Integer, Integer> newMapbos = new HashMap<>();
-						for (R_get_characters_character_id_orders v : map.values()) {
-							if (!v.is_buy_order) {
-								newMapsos.put(v.type_id, newMapsos.getOrDefault(v.type_id, 0) + v.volume_remain);
-							} else {
-								newMapbos.put(v.type_id, newMapbos.getOrDefault(v.type_id, 0) + v.volume_remain);
-							}
-						}
-						synchronized (underlyingsos) {
-							underlyingsos.keySet().retainAll(newMapsos.keySet());
-							underlyingsos.putAll(newMapsos);
-						}
-						newmarketSOs.dataReceived();
-						synchronized (underlyingbos) {
-							underlyingbos.keySet().retainAll(newMapbos.keySet());
-							underlyingbos.putAll(newMapbos);
-						}
-						newmarketBOs.dataReceived();
-					});
-					marketSOs = newmarketSOs;
-					marketBOs = newmarketBOs;
-				}
-			});
-		}
-	}
-
-	public ObsMapHolder<Integer, Integer> getMarketSOs() {
-		makeBOSOs();
-		return marketSOs;
-	}
-
-	public ObsMapHolder<Integer, Integer> getMarketBOs() {
-		makeBOSOs();
-		return marketBOs;
-	}
-
-	private ObsMapHolder<Long, R_get_characters_character_id_orders> cacheOrders = null;
-
-	public ObsMapHolder<Long, R_get_characters_character_id_orders> getMarketOrders() {
-		if (cacheOrders == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cacheOrders == null) {
-					cacheOrders = ObsMapHolderImpl.toMap(con.raw.cache.characters.orders(con.characterId()), o -> o.order_id);
-				}
-			});
-		}
-		return cacheOrders;
 	}
 
 	//
