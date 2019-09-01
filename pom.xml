@@ -41,10 +41,10 @@
 	</distributionManagement>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>12</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.javadoc.skip>true</maven.javadoc.skip>
-		<openjfx-version>11.0.2</openjfx-version>
+		<openjfx-version>12.0.2</openjfx-version>
 	</properties>
 	<build>
 		<plugins>

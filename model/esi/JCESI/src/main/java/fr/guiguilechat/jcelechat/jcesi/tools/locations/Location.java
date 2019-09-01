@@ -33,6 +33,57 @@ public class Location {
 		this.type = type;
 	}
 
+	/**
+	 *
+	 * @return the system is the ref is not null, or null.
+	 */
+	public R_get_universe_systems_system_id system() {
+		if (ref == null) {
+			return null;
+		}
+		return switch (type) {
+		case REGION, CONSTEL -> null;
+		case SYSTEM -> (R_get_universe_systems_system_id) ref;
+		case CONQSTATION, OFFICE, STATION -> ESIStatic.INSTANCE.cache.universe
+		.systems(((R_get_universe_stations_station_id) ref).system_id).get();
+		case STRUCTURE -> ESIStatic.INSTANCE.cache.universe
+		.systems(((R_get_universe_structures_structure_id) ref).solar_system_id).get();
+		default -> throw new IllegalArgumentException("Unexpected value: " + type);
+		};
+	}
+
+	/**
+	 *
+	 * @return the constellation is the ref is not null, or null.
+	 */
+	public R_get_universe_constellations_constellation_id constel() {
+		if (ref == null) {
+			return null;
+		}
+		return switch (type) {
+		case REGION -> null;
+		case CONSTEL -> (R_get_universe_constellations_constellation_id) ref;
+		case SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIStatic.INSTANCE.cache.universe
+		.constellations(system().constellation_id).get();
+		default -> throw new IllegalArgumentException("Unexpected value: " + type);
+		};
+	}
+
+	/**
+	 * @return the region if the ref is not null; otherwise return null
+	 */
+	public R_get_universe_regions_region_id region() {
+		if (ref == null) {
+			return null;
+		}
+		return switch (type) {
+		case REGION -> (R_get_universe_regions_region_id) ref;
+		case CONSTEL, SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIStatic.INSTANCE.cache.universe
+		.regions(constel().region_id).get();
+		default -> throw new IllegalArgumentException("Unexpected value: " + type);
+		};
+	}
+
 	@Override
 	public int hashCode() {
 		return (int) id;
@@ -53,7 +104,7 @@ public class Location {
 	 */
 	public static Location resolve(ESIAccount account, long locationid) {
 		if (locationid < Integer.MAX_VALUE) {
-			R_get_universe_stations_station_id office;
+			R_get_universe_stations_station_id station;
 			switch ((int) locationid / 1000000) {
 			case 1:// region
 				R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache.universe.regions((int) locationid).get();
@@ -72,15 +123,14 @@ public class Location {
 			case 62:
 			case 63:
 			case 64:// station
-				R_get_universe_stations_station_id station = ESIStatic.INSTANCE.cache.universe.stations((int) locationid).get();
+				station = ESIStatic.INSTANCE.cache.universe.stations((int) locationid).get();
 				return new Location(station, locationid, station.name, LOCTYPE.STATION);
 			case 66:// office id
-				office = ESIStatic.INSTANCE.cache.universe.stations((int) locationid - 6000001).get();
-				return new Location(office, locationid, office.name, LOCTYPE.OFFICE);
+				station = ESIStatic.INSTANCE.cache.universe.stations((int) locationid - 6000001).get();
+				return new Location(station, locationid, station.name, LOCTYPE.OFFICE);
 			case 67:// conquerable office
-				R_get_universe_stations_station_id conqstat = ESIStatic.INSTANCE.cache.universe
-				.stations((int) locationid - 6000000).get();
-				return new Location(conqstat, locationid, conqstat.name, LOCTYPE.CONQSTATION);
+				station = ESIStatic.INSTANCE.cache.universe.stations((int) locationid - 6000000).get();
+				return new Location(station, locationid, station.name, LOCTYPE.CONQSTATION);
 			default:
 				logger.warn("locationid not handled " + locationid);
 				return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
