@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -14,9 +13,10 @@ import org.slf4j.Logger;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpAssetFolder;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Market;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.SystemAsset;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
@@ -28,14 +28,11 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_facilities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_membertracking;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_titles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
@@ -44,7 +41,6 @@ import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
@@ -53,11 +49,17 @@ public class Corporation {
 
 	private static final Logger logger = org.slf4j.LoggerFactory.getLogger(Corporation.class);
 
-	protected final ESIAccount con;
+	public final ESIAccount con;
+
+	public final CorpBookmarks bms;
+	public final Wallet wallet;
+	public final Market market;
 
 	public Corporation(ESIAccount con) {
 		this.con = con;
 		bms = new CorpBookmarks(con);
+		wallet = new Wallet(this);
+		market = new Market(this);
 	}
 
 	public int getId() {
@@ -73,10 +75,9 @@ public class Corporation {
 		return getInformations().get().name;
 	}
 
-	//
-	// bm are delegated to a specific class
-	//
-	public final CorpBookmarks bms;
+	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
+		return con.raw.cache.corporations.divisions(getId());
+	}
 
 	//
 	// industry jobs
@@ -285,142 +286,6 @@ public class Corporation {
 			});
 		}
 		return cachedFacilities;
-	}
-
-	//
-	// wallet
-	//
-
-	private ObsDoubleHolder cachedWallet = null;
-
-	/** get the total sum of all the wallets */
-	public ObsDoubleHolder getWallet() {
-		if (cachedWallet == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedWallet == null) {
-					cachedWallet = con.raw.cache.corporations.wallets(getId())
-							.reduceDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
-				}
-			});
-		}
-		return cachedWallet;
-	}
-
-	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
-		return con.raw.cache.corporations.divisions(getId());
-	}
-
-	private ObsMapHolder<String, R_get_corporations_corporation_id_wallets_division_transactions> cachedWalletTransactions = null;
-
-	/**
-	 * get wallet history.<br />
-	 * The key is String because a transaction can appear in the corporation and
-	 * character wallets, with same id.<br />
-	 * This is effectively a merge of the wallets of the several divisions.
-	 *
-	 */
-	public ObsMapHolder<String, R_get_corporations_corporation_id_wallets_division_transactions> getWalletTransactions() {
-		if (cachedWalletTransactions == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedWalletTransactions == null) {
-					@SuppressWarnings("unchecked")
-					ObsMapHolderImpl<String, R_get_corporations_corporation_id_wallets_division_transactions>[] wallets = Stream
-					.of(getDivisions().get().wallet)
-					.map(div -> getWholeWalletTransactions(div.division))
-					.map(l -> ObsMapHolderImpl.toMap(l, k -> "" + getId() + k.transaction_id)).collect(Collectors.toList())
-					.toArray(new ObsMapHolderImpl[] {});
-					cachedWalletTransactions = wallets[0].merge(Arrays.copyOfRange(wallets, 1, wallets.length));
-				}
-			});
-		}
-		return cachedWalletTransactions;
-	}
-
-	private Map<Integer, ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> wholeWalletTransactionsCache = new HashMap<>();
-
-	protected ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> getWholeWalletTransactions(
-			int division_id) {
-		ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret = wholeWalletTransactionsCache
-				.get(division_id);
-		if (ret == null) {
-			ret = LockWatchDog.BARKER.syncExecute(wholeWalletTransactionsCache, () -> {
-				ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret2 = wholeWalletTransactionsCache
-						.get(division_id);
-				if (ret2 == null) {
-					ret2 = con.raw.cache.corporations.wallets_transactions(getId(), division_id, null)
-							.toList(l -> expandWholeTransactions(division_id, l));
-				}
-				return ret2;
-			});
-		}
-		return ret;
-
-	}
-
-	protected List<R_get_corporations_corporation_id_wallets_division_transactions> expandWholeTransactions(int divid,
-			List<R_get_corporations_corporation_id_wallets_division_transactions> firstPage) {
-		if (firstPage.size() == 0) {
-			return firstPage;
-		}
-		List<R_get_corporations_corporation_id_wallets_division_transactions> ret = new ArrayList<>(firstPage);
-		Long firstId = ret.get(ret.size() - 1).transaction_id-1;
-		do {
-			// System.err.println("call corp:" + getId() + " division:" + divid + "
-			// transaction up to id " + firstId);
-			Requested<R_get_corporations_corporation_id_wallets_division_transactions[]> req = con.raw
-					.get_corporations_wallets_transactions(getId(), divid, firstId, null);
-			// System.err.println(" response code is " + req.getResponseCode());
-			if (req.getResponseCode() == 200) {
-				R_get_corporations_corporation_id_wallets_division_transactions[] added = req.getOK();
-				if (added != null && added.length > 0) {
-					// System.err.println("received " + added.length + " new
-					// transactions");
-					long newfirstId = added[added.length - 1].transaction_id-1;
-					ret.addAll(Arrays.asList(added));
-					if (newfirstId != firstId) {
-						firstId= newfirstId;
-					} else {
-						// System.err.println(" new first id is same as sold, stop
-						// walking");
-						firstId= null;
-					}
-				} else {
-					// System.err.println("no more transaction");
-					firstId = null;
-				}
-			} else {
-				// System.err.println("received response " + req.getResponseCode() + ",
-				// stop walking");
-				firstId = null;
-			}
-		} while (firstId != null);
-		return ret;
-	}
-
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_orders> cachedOrders = null;
-
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_orders> getMarketOrders() {
-		if (cachedOrders == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedOrders == null) {
-					cachedOrders = con.raw.cache.corporations.orders(getId()).toMap(o -> o.order_id);
-				}
-			});
-		}
-		return cachedOrders;
-	}
-
-	private ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> cachedOrdersHistory = null;
-
-	public ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> getOrdersHistory() {
-		if (cachedOrdersHistory == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedOrdersHistory == null) {
-					cachedOrdersHistory = con.raw.cache.corporations.orders_history(getId()).toMap(order -> order.order_id);
-				}
-			});
-		}
-		return cachedOrdersHistory;
 	}
 
 	//
