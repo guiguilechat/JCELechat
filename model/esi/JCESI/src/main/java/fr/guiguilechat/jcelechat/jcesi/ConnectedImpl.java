@@ -192,36 +192,42 @@ public abstract class ConnectedImpl implements ITransfer {
 	@Override
 	public <T> Requested<List<T>> requestGetPages(BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters) {
-		RequestedImpl<List<T>> res = convertToList(resourceAccess.apply(1, parameters));
-		if (res == null) {
-			return null;
+		for (int retry = 3; retry > 0; retry--) {
+			RequestedImpl<List<T>> res = convertToList(resourceAccess.apply(1, parameters));
+			if (res == null) {
+				return null;
+			}
+			int nbPages = res.getNbPages();
+			boolean[] mismatch = new boolean[] { false };
+			if (res.isOk() && nbPages > 1) {
+				res.getOK().addAll(IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
+					var ret = resourceAccess.apply(page, parameters);
+					while (ret.isServerError()) {
+						ret = resourceAccess.apply(page, parameters);
+					}
+					return ret;
+				}).peek(pageRes -> {
+					if (!pageRes.isOk()) {
+						res.responseCode = pageRes.getResponseCode();
+						res.error = pageRes.getError();
+					}
+					if (!pageRes.getHeaders().get("Expires").equals(res.getHeaders().get("Expires"))) {
+						logger.warn("mismatching page cache data [url=" + pageRes.getURL() + " Expires="
+								+ pageRes.getHeaders().get("Expires") + "] with first page [url=" + res.getURL() + " Expires="
+								+ res.getHeaders().get("Expires") + "]");
+						mismatch[0] = true;
+					}
+				}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr)).collect(Collectors.toList()));
+			}
+			if (!mismatch[0]) {
+				if (res.responseCode != 200 && res.responseCode != 304) {
+					logger
+							.debug(res.getURL() + " request pages received responsecode=" + res.responseCode + " error=" + res.error);
+				}
+				return res;
+			}
 		}
-		int nbPages = res.getNbPages();
-		if (res.isOk() && nbPages > 1) {
-			res.getOK().addAll(IntStream.rangeClosed(2, nbPages).parallel()
-					.mapToObj(page -> {
-						var ret = resourceAccess.apply(page, parameters);
-						while (ret.isServerError()) {
-							ret = resourceAccess.apply(page, parameters);
-						}
-						return ret;
-					}).peek(pageRes -> {
-						if (!pageRes.isOk()) {
-							res.responseCode = pageRes.getResponseCode();
-							res.error = pageRes.getError();
-						}
-						if (!pageRes.getHeaders().get("Expires").equals(res.getHeaders().get("Expires"))) {
-							logger.warn(
-									"mismatching page cache data [url=" + pageRes.getURL() + " Expires=" + pageRes.getHeaders().get("Expires")
-									+ "] with first page [url=" + res.getURL() + " Expires=" + res.getHeaders().get("Expires") + "]");
-						}
-					}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr))
-					.collect(Collectors.toList()));
-		}
-		if (res.responseCode != 200 && res.responseCode != 304) {
-			logger.debug("request pages received responsecode=" + res.responseCode + " error=" + res.error);
-		}
-		return res;
+		return null;
 	}
 
 	protected <T> RequestedImpl<List<T>> convertToList(Requested<T[]> apply) {
@@ -438,9 +444,9 @@ public abstract class ConnectedImpl implements ITransfer {
 					try {
 						exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
 					} catch (RejectedExecutionException e) {
-						logger.warn("can't schedule " + this, e);
+						logger.warn(loggingName + " can't schedule " + this, e);
 					} catch (Exception e) {
-						logger.warn("can't schedule " + this, e);
+						logger.warn(loggingName + " can't schedule " + this, e);
 						throw new UnsupportedOperationException(e);
 					}
 					scheduled = true;
@@ -458,9 +464,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 		protected void logState() {
 			logger.debug("state of executable " + loggingName + " : " + (stop ? "stopped" : "started") + "|"
-					+ (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled")
-					// , new Exception()
-					);
+					+ (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled"));
 		}
 
 		private int count_shortdelay = 0;
@@ -496,7 +500,7 @@ public abstract class ConnectedImpl implements ITransfer {
 								if (res.isOk()) {
 									cacheHandler.accept(res.getOK());
 								} else if (res.isClientError() && res.getResponseCode() != 420) {
-									logger.debug("setting null in cache for request response type " + res.getError());
+									logger.debug(loggingName + " setting null in cache for request response type " + res.getError());
 									cacheHandler.accept(null);
 								}
 							}
@@ -507,16 +511,16 @@ public abstract class ConnectedImpl implements ITransfer {
 						} else if (res.isRedirect() && res.getResponseCode() == 304) {
 							lastEtag = res.getETag();
 						} else if (res.isClientError() || res.isRedirect()) {
-							logger.debug(res.getError() + " : setting data to null");
+							logger.debug(loggingName + " " + res.getError() + " : setting data to null");
 							cacheHandler.accept(null);
 						} else {
-							logger.debug("" + res.getResponseCode() + " : " + res.getError());
+							logger.debug(loggingName + res.getResponseCode() + " : " + res.getError());
 						}
 						// add a delay to avoid refetching the data too fast
-						delay_ms = res.getCacheExpire() + 500;
+						delay_ms = res.getCacheExpire() + 1000;
 						if (res.isServerError()) {
-							logger.debug("waiting 10s " + res.getError());
-							delay_ms = 0;
+							logger.debug(loggingName + " waiting 5s " + res.getError());
+							delay_ms = 5000;
 						}
 					}
 				}
@@ -526,11 +530,9 @@ public abstract class ConnectedImpl implements ITransfer {
 				if (delay_ms < default_wait_ms) {
 					count_shortdelay++;
 					delay_ms = count_shortdelay * default_wait_ms;
-					logger.trace(loggingName + " sleep for (corrected)"
-							+ "" + delay_ms / 1000 + "s");
+					logger.trace(loggingName + " sleep for (corrected)" + "" + delay_ms / 1000 + "s");
 				} else {
-					logger.trace(loggingName + " sleep for "
-							+ "" + delay_ms / 1000 + "s");
+					logger.trace(loggingName + " sleep for " + "" + delay_ms / 1000 + "s");
 					count_shortdelay = 0;
 				}
 				schedule(delay_ms);
