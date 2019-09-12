@@ -22,10 +22,13 @@ public class ShowAttributes {
 
 	public static void main(String[] args) {
 		// invading entities
-		showGroup(4028);
+		// showGroup(4028);
 		// tableGroup(4028);
 		// starving leshak
 		// showEntity(48125);
+
+		// covetor
+		showEntity(17476);
 
 		// hobgoblin
 		// showEntity(2454);
