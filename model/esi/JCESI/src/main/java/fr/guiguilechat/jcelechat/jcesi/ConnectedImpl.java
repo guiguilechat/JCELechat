@@ -193,8 +193,10 @@ public abstract class ConnectedImpl implements ITransfer {
 	public <T> Requested<List<T>> requestGetPages(BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters) {
 		for (int retry = 3; retry > 0; retry--) {
-			RequestedImpl<List<T>> res = convertToList(resourceAccess.apply(1, parameters));
+			Requested<T[]> applied = resourceAccess.apply(1, parameters);
+			RequestedImpl<List<T>> res = convertToList(applied);
 			if (res == null) {
+				logger.debug("received null for " + applied.getURL());
 				return null;
 			}
 			int nbPages = res.getNbPages();
@@ -202,8 +204,12 @@ public abstract class ConnectedImpl implements ITransfer {
 			if (res.isOk() && nbPages > 1) {
 				res.getOK().addAll(IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
 					var ret = resourceAccess.apply(page, parameters);
-					while (ret.isServerError()) {
-						ret = resourceAccess.apply(page, parameters);
+					if (ret.isServerError()) {
+						for (int pageretry = 0; ret.isServerError() && pageretry < 3; pageretry++) {
+							logger.debug("fetching " + ret.getURL() + " again because error " + ret.getResponseCode() + " : "
+									+ ret.getError());
+							ret = resourceAccess.apply(page, parameters);
+						}
 					}
 					return ret;
 				}).peek(pageRes -> {
@@ -222,10 +228,11 @@ public abstract class ConnectedImpl implements ITransfer {
 			if (!mismatch[0]) {
 				if (res.responseCode != 200 && res.responseCode != 304) {
 					logger
-							.debug(res.getURL() + " request pages received responsecode=" + res.responseCode + " error=" + res.error);
+					.debug(res.getURL() + " request pages received responsecode=" + res.responseCode + " error=" + res.error);
 				}
 				return res;
 			}
+			logger.debug("mismatch, fetching again " + res.getURL());
 		}
 		return null;
 	}
@@ -463,7 +470,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 
 		protected void logState() {
-			logger.debug("state of executable " + loggingName + " : " + (stop ? "stopped" : "started") + "|"
+			logger.trace("state of executable " + loggingName + " : " + (stop ? "stopped" : "started") + "|"
 					+ (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled"));
 		}
 
@@ -494,6 +501,7 @@ public abstract class ConnectedImpl implements ITransfer {
 							delay_ms = res.getErrorsReset() * default_wait_ms;
 						}
 					} else {
+						// manage the etag
 						String etag = res.getETag();
 						if (etag != null) {
 							if (!etag.equals(lastEtag)) {
@@ -523,6 +531,8 @@ public abstract class ConnectedImpl implements ITransfer {
 							delay_ms = 5000;
 						}
 					}
+				} else {
+					logger.debug("return is null for fetch pages " + loggingName);
 				}
 			} catch (Throwable e) {
 				logger.warn("while fetching " + loggingName, e);
