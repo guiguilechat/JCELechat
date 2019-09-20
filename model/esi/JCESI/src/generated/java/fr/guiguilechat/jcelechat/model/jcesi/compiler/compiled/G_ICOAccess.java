@@ -1095,7 +1095,8 @@ public interface G_ICOAccess
      * Overview of a corporation involved in faction warfare
      * <p>
      * Statistics about a corporation involved in faction warfare<br />
-     * This route expires daily at 11:05
+     * This route expires daily at 11:05<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/fw/stats/)
      * </p>
      * 
      * @param corporation_id

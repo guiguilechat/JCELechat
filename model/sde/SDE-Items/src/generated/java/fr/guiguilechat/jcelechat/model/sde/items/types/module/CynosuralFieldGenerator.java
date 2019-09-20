@@ -177,6 +177,13 @@ public class CynosuralFieldGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int IsIndustrialCyno;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int JumpHarmonics;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
@@ -349,6 +356,10 @@ public class CynosuralFieldGenerator
             case  1252 :
             {
                 return IsCovert;
+            }
+            case  2826 :
+            {
+                return IsIndustrialCyno;
             }
             case  1253 :
             {

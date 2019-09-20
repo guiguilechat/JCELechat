@@ -41,15 +41,23 @@ public class Location {
 		if (ref == null) {
 			return null;
 		}
-		return switch (type) {
-		case REGION, CONSTEL -> null;
-		case SYSTEM -> (R_get_universe_systems_system_id) ref;
-		case CONQSTATION, OFFICE, STATION -> ESIStatic.INSTANCE.cache.universe
-		.systems(((R_get_universe_stations_station_id) ref).system_id).get();
-		case STRUCTURE -> ESIStatic.INSTANCE.cache.universe
-		.systems(((R_get_universe_structures_structure_id) ref).solar_system_id).get();
-		default -> throw new IllegalArgumentException("Unexpected value: " + type);
-		};
+		switch (type) {
+		case REGION:
+		case CONSTEL:
+			return null;
+		case SYSTEM:
+			return (R_get_universe_systems_system_id) ref;
+		case CONQSTATION:
+		case OFFICE:
+		case STATION:
+			return ESIStatic.INSTANCE.cache.universe
+					.systems(((R_get_universe_stations_station_id) ref).system_id).get();
+		case STRUCTURE:
+			return ESIStatic.INSTANCE.cache.universe
+					.systems(((R_get_universe_structures_structure_id) ref).solar_system_id).get();
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + type);
+		}
 	}
 
 	/**
@@ -60,13 +68,21 @@ public class Location {
 		if (ref == null) {
 			return null;
 		}
-		return switch (type) {
-		case REGION -> null;
-		case CONSTEL -> (R_get_universe_constellations_constellation_id) ref;
-		case SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIStatic.INSTANCE.cache.universe
-		.constellations(system().constellation_id).get();
-		default -> throw new IllegalArgumentException("Unexpected value: " + type);
-		};
+		switch (type) {
+		case REGION:
+			return null;
+		case CONSTEL:
+			return (R_get_universe_constellations_constellation_id) ref;
+		case SYSTEM:
+		case CONQSTATION:
+		case OFFICE:
+		case STATION:
+		case STRUCTURE:
+			return ESIStatic.INSTANCE.cache.universe
+					.constellations(system().constellation_id).get();
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + type);
+		}
 	}
 
 	/**
@@ -76,12 +92,18 @@ public class Location {
 		if (ref == null) {
 			return null;
 		}
-		return switch (type) {
-		case REGION -> (R_get_universe_regions_region_id) ref;
-		case CONSTEL, SYSTEM, CONQSTATION, OFFICE, STATION, STRUCTURE -> ESIStatic.INSTANCE.cache.universe
-		.regions(constel().region_id).get();
-		default -> throw new IllegalArgumentException("Unexpected value: " + type);
-		};
+		switch (type) {
+		case REGION : return  (R_get_universe_regions_region_id) ref;
+		case CONSTEL:
+		case SYSTEM:
+		case CONQSTATION:
+		case OFFICE:
+		case STATION:
+		case STRUCTURE:
+			return ESIStatic.INSTANCE.cache.universe
+				.regions(constel().region_id).get();
+		default : throw new IllegalArgumentException("Unexpected value: " + type);
+		}
 	}
 
 	@Override

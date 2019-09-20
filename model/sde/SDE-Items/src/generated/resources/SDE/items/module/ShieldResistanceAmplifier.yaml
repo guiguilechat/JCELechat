@@ -1161,6 +1161,7 @@ items:
     published: true
     volume: 5.0
   Upgraded Explosive Deflection Amplifier I:
+    Cpu: 20.0
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 1
@@ -1174,6 +1175,7 @@ items:
     published: true
     volume: 5.0
   Upgraded Kinetic Deflection Amplifier I:
+    Cpu: 20.0
     Hp: 40
     KineticDamageResistanceBonus: -32.5
     MetaLevel: 1
@@ -1187,6 +1189,7 @@ items:
     published: true
     volume: 5.0
   Upgraded Thermal Dissipation Amplifier I:
+    Cpu: 20.0
     Hp: 40
     MetaLevel: 1
     Power: 1

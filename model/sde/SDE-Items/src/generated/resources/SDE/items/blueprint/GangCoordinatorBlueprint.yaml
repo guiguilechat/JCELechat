@@ -26,6 +26,14 @@ items:
     price: 3.137264E7
     published: true
     volume: 0.01
+  Industrial Cynosural Field Generator Blueprint:
+    TechLevel: 1
+    id: 52695
+    marketGroup: 799
+    name: Industrial Cynosural Field Generator Blueprint
+    price: 3.137264E7
+    published: true
+    volume: 0.01
   Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1

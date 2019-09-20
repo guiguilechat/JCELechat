@@ -615,6 +615,7 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
+    WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 49713
     marketGroup: 2526

@@ -60,12 +60,33 @@ public class Cyberimplant
     @DefaultIntValue(0)
     public int CharismaBonus;
     /**
+     * Modifier for damageMultiplierBonusMax used by Triglavians
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double DamageMultiplierBonusMaxModifier;
+    /**
+     * Modifier for Triglavian ramp-up value
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double DamageMultiplierBonusPerCycleModifier;
+    /**
      * Bonus to duration.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DurationBonus;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ImplantSetAmulet;
     /**
      * 
      */
@@ -157,13 +178,6 @@ public class Cyberimplant
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double ImplantSetRepublicFleet;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ImplantSetSansha;
     /**
      * 
      */
@@ -316,6 +330,13 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double SetBonusMimesis;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShieldBoostMultiplier;
     /**
@@ -383,9 +404,21 @@ public class Cyberimplant
             {
                 return CharismaBonus;
             }
+            case  2823 :
+            {
+                return DamageMultiplierBonusMaxModifier;
+            }
+            case  2824 :
+            {
+                return DamageMultiplierBonusPerCycleModifier;
+            }
             case  66 :
             {
                 return DurationBonus;
+            }
+            case  864 :
+            {
+                return ImplantSetAmulet;
             }
             case  863 :
             {
@@ -438,10 +471,6 @@ public class Cyberimplant
             case  1554 :
             {
                 return ImplantSetRepublicFleet;
-            }
-            case  864 :
-            {
-                return ImplantSetSansha;
             }
             case  802 :
             {
@@ -526,6 +555,10 @@ public class Cyberimplant
             case  846 :
             {
                 return ScanStrengthBonus;
+            }
+            case  2825 :
+            {
+                return SetBonusMimesis;
             }
             case  548 :
             {

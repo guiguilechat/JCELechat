@@ -6,19 +6,19 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 /**
  * 
  */
-public class ShipBonusGC3
+public class ImplantSetAmulet
     extends DoubleAttribute
 {
-    public static final ShipBonusGC3 INSTANCE = new ShipBonusGC3();
+    public static final ImplantSetAmulet INSTANCE = new ImplantSetAmulet();
 
     @Override
     public int getId() {
-        return  2014;
+        return  864;
     }
 
     @Override
     public int getCatId() {
-        return  9;
+        return  7;
     }
 
     @Override
@@ -33,7 +33,7 @@ public class ShipBonusGC3
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -43,6 +43,6 @@ public class ShipBonusGC3
 
     @Override
     public String toString() {
-        return "ShipBonusGC3";
+        return "ImplantSetAmulet";
     }
 }

@@ -123,6 +123,13 @@ public class AutoTargetingHeavyMissile
     @DefaultIntValue(0)
     public int LauncherGroup;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(200000)
+    public int MaxFOFTargetRange;
+    /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
@@ -272,6 +279,10 @@ public class AutoTargetingHeavyMissile
             case  137 :
             {
                 return LauncherGroup;
+            }
+            case  2700 :
+            {
+                return MaxFOFTargetRange;
             }
             case  37 :
             {

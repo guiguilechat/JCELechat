@@ -41,7 +41,7 @@ items:
     JumpDriveDuration: 300000
     JumpDriveRange: 5.0
     JumpFatigueMultiplier: 0.10000000149011612
-    JumpHarmonics: -5
+    JumpHarmonics: 1
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
@@ -126,7 +126,7 @@ items:
     JumpDriveDuration: 300000
     JumpDriveRange: 5.0
     JumpFatigueMultiplier: 0.10000000149011612
-    JumpHarmonics: -5
+    JumpHarmonics: 1
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
@@ -211,7 +211,7 @@ items:
     JumpDriveDuration: 300000
     JumpDriveRange: 5.0
     JumpFatigueMultiplier: 0.10000000149011612
-    JumpHarmonics: -5
+    JumpHarmonics: 1
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215
@@ -296,7 +296,7 @@ items:
     JumpDriveDuration: 300000
     JumpDriveRange: 5.0
     JumpFatigueMultiplier: 0.10000000149011612
-    JumpHarmonics: -5
+    JumpHarmonics: 1
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 3
     MainColor: 16777215

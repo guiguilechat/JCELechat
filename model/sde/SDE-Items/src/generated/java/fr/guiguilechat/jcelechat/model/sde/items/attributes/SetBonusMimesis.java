@@ -6,14 +6,14 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 /**
  * 
  */
-public class ImplantSetSansha
+public class SetBonusMimesis
     extends DoubleAttribute
 {
-    public static final ImplantSetSansha INSTANCE = new ImplantSetSansha();
+    public static final SetBonusMimesis INSTANCE = new SetBonusMimesis();
 
     @Override
     public int getId() {
-        return  864;
+        return  2825;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class ImplantSetSansha
 
     @Override
     public double getDefaultValue() {
-        return  0.0;
+        return  1.0;
     }
 
     @Override
@@ -43,6 +43,6 @@ public class ImplantSetSansha
 
     @Override
     public String toString() {
-        return "ImplantSetSansha";
+        return "SetBonusMimesis";
     }
 }

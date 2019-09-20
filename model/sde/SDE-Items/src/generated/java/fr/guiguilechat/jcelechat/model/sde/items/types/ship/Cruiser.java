@@ -276,6 +276,13 @@ public class Cruiser
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
+    public double ShipBonusGC3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMC;
     /**
      * 
@@ -505,6 +512,10 @@ public class Cruiser
             case  658 :
             {
                 return ShipBonusGC2;
+            }
+            case  2014 :
+            {
+                return ShipBonusGC3;
             }
             case  489 :
             {

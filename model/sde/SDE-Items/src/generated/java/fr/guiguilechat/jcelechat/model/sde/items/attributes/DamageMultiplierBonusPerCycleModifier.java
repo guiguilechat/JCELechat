@@ -4,21 +4,21 @@ import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
 
 
 /**
- * 
+ * Modifier for Triglavian ramp-up value
  */
-public class ShipBonusGC3
+public class DamageMultiplierBonusPerCycleModifier
     extends DoubleAttribute
 {
-    public static final ShipBonusGC3 INSTANCE = new ShipBonusGC3();
+    public static final DamageMultiplierBonusPerCycleModifier INSTANCE = new DamageMultiplierBonusPerCycleModifier();
 
     @Override
     public int getId() {
-        return  2014;
+        return  2824;
     }
 
     @Override
     public int getCatId() {
-        return  9;
+        return  29;
     }
 
     @Override
@@ -28,12 +28,12 @@ public class ShipBonusGC3
 
     @Override
     public double getDefaultValue() {
-        return  0.0;
+        return  1.0;
     }
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -43,6 +43,6 @@ public class ShipBonusGC3
 
     @Override
     public String toString() {
-        return "ShipBonusGC3";
+        return "DamageMultiplierBonusPerCycleModifier";
     }
 }

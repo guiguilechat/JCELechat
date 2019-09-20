@@ -219,8 +219,8 @@ public class HeavyAssaultCruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShipBonusGC3;
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusGC3;
     /**
      * 
      */

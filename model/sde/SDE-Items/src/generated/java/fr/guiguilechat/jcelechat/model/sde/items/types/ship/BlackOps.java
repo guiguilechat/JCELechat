@@ -60,6 +60,13 @@ public class BlackOps
     @DefaultIntValue(0)
     public int CpuNeedBonus;
     /**
+     * Bonus to duration.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DurationBonus;
+    /**
      * eliteBonusBlackOps1
      */
     @HighIsGood(true)
@@ -409,6 +416,10 @@ public class BlackOps
             case  310 :
             {
                 return CpuNeedBonus;
+            }
+            case  66 :
+            {
+                return DurationBonus;
             }
             case  1257 :
             {

@@ -319,11 +319,11 @@ items:
     price: 1000.0
     published: true
     volume: 1.0
-  Gravid 1MN Afterburner MutaPlasmid:
+  Gravid 1MN Afterburner Mutaplasmid:
     id: 47748
     marketGroup: 2450
     mass: 1.0
-    name: Gravid 1MN Afterburner MutaPlasmid
+    name: Gravid 1MN Afterburner Mutaplasmid
     price: 1000.0
     published: true
     volume: 1.0

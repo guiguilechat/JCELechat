@@ -9580,10 +9580,10 @@ offers:
       lp: 800000
   4008:
     id: 4008
-    name: Mid-grade Slave Alpha
+    name: Mid-grade Amulet Alpha
     product:
       itemid: 22119
-      itemname: Mid-grade Slave Alpha
+      itemname: Mid-grade Amulet Alpha
       quantity: 1
     requirements:
       isk: 7500000
@@ -9594,10 +9594,10 @@ offers:
       lp: 7500
   4009:
     id: 4009
-    name: Mid-grade Slave Beta
+    name: Mid-grade Amulet Beta
     product:
       itemid: 22120
-      itemname: Mid-grade Slave Beta
+      itemname: Mid-grade Amulet Beta
       quantity: 1
     requirements:
       isk: 10000000
@@ -9608,10 +9608,10 @@ offers:
       lp: 10000
   4010:
     id: 4010
-    name: Mid-grade Slave Delta
+    name: Mid-grade Amulet Delta
     product:
       itemid: 22121
-      itemname: Mid-grade Slave Delta
+      itemname: Mid-grade Amulet Delta
       quantity: 1
     requirements:
       isk: 25000000
@@ -9622,10 +9622,10 @@ offers:
       lp: 25000
   4011:
     id: 4011
-    name: Mid-grade Slave Epsilon
+    name: Mid-grade Amulet Epsilon
     product:
       itemid: 22122
-      itemname: Mid-grade Slave Epsilon
+      itemname: Mid-grade Amulet Epsilon
       quantity: 1
     requirements:
       isk: 45000000
@@ -9636,10 +9636,10 @@ offers:
       lp: 45000
   4012:
     id: 4012
-    name: Mid-grade Slave Gamma
+    name: Mid-grade Amulet Gamma
     product:
       itemid: 22123
-      itemname: Mid-grade Slave Gamma
+      itemname: Mid-grade Amulet Gamma
       quantity: 1
     requirements:
       isk: 15000000
@@ -9650,10 +9650,10 @@ offers:
       lp: 15000
   4013:
     id: 4013
-    name: Mid-grade Slave Omega
+    name: Mid-grade Amulet Omega
     product:
       itemid: 22124
-      itemname: Mid-grade Slave Omega
+      itemname: Mid-grade Amulet Omega
       quantity: 1
     requirements:
       isk: 85000000
@@ -9664,10 +9664,10 @@ offers:
       lp: 85000
   4014:
     id: 4014
-    name: High-grade Slave Alpha
+    name: High-grade Amulet Alpha
     product:
       itemid: 20499
-      itemname: High-grade Slave Alpha
+      itemname: High-grade Amulet Alpha
       quantity: 1
     requirements:
       isk: 23625000
@@ -9678,10 +9678,10 @@ offers:
       lp: 23625
   4015:
     id: 4015
-    name: High-grade Slave Beta
+    name: High-grade Amulet Beta
     product:
       itemid: 20501
-      itemname: High-grade Slave Beta
+      itemname: High-grade Amulet Beta
       quantity: 1
     requirements:
       isk: 31500000
@@ -9692,10 +9692,10 @@ offers:
       lp: 31500
   4016:
     id: 4016
-    name: High-grade Slave Delta
+    name: High-grade Amulet Delta
     product:
       itemid: 20503
-      itemname: High-grade Slave Delta
+      itemname: High-grade Amulet Delta
       quantity: 1
     requirements:
       isk: 78750000
@@ -9706,10 +9706,10 @@ offers:
       lp: 78750
   4017:
     id: 4017
-    name: High-grade Slave Epsilon
+    name: High-grade Amulet Epsilon
     product:
       itemid: 20505
-      itemname: High-grade Slave Epsilon
+      itemname: High-grade Amulet Epsilon
       quantity: 1
     requirements:
       isk: 141750000
@@ -9720,10 +9720,10 @@ offers:
       lp: 141750
   4018:
     id: 4018
-    name: High-grade Slave Gamma
+    name: High-grade Amulet Gamma
     product:
       itemid: 20507
-      itemname: High-grade Slave Gamma
+      itemname: High-grade Amulet Gamma
       quantity: 1
     requirements:
       isk: 47250000
@@ -9734,10 +9734,10 @@ offers:
       lp: 47250
   4019:
     id: 4019
-    name: High-grade Slave Omega
+    name: High-grade Amulet Omega
     product:
       itemid: 20509
-      itemname: High-grade Slave Omega
+      itemname: High-grade Amulet Omega
       quantity: 1
     requirements:
       isk: 267750000
@@ -30614,3 +30614,219 @@ offers:
         itemname: Triglavian Survey Database
         quantity: 10
       lp: 1000
+  16370:
+    id: 16370
+    name: 3* Agency 'Hardshell' TB5 Dose II
+    product:
+      itemid: 46002
+      itemname: Agency 'Hardshell' TB5 Dose II
+      quantity: 3
+    requirements:
+      isk: 1000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 12
+      lp: 500
+  16371:
+    id: 16371
+    name: 3* Agency 'Overclocker' SB5 Dose II
+    product:
+      itemid: 46005
+      itemname: Agency 'Overclocker' SB5 Dose II
+      quantity: 3
+    requirements:
+      isk: 1000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 12
+      lp: 500
+  16372:
+    id: 16372
+    name: 3* Agency 'Pyrolancea' DB5 Dose II
+    product:
+      itemid: 45999
+      itemname: Agency 'Pyrolancea' DB5 Dose II
+      quantity: 3
+    requirements:
+      isk: 3500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 42
+      lp: 1750
+  16374:
+    id: 16374
+    name: Low-Grade Mimesis Alpha(BPC)
+    product:
+      itemid: 52674
+      itemname: Low-Grade Mimesis Alpha
+      quantity: 1
+    requirements:
+      isk: 1500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 20
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 11
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 12
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 30
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 82
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 89
+      lp: 1000
+  16375:
+    id: 16375
+    name: Low-Grade Mimesis Beta(BPC)
+    product:
+      itemid: 52679
+      itemname: Low-Grade Mimesis Beta
+      quantity: 1
+    requirements:
+      isk: 2500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 25
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 11
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 13
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 32
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 86
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 94
+      lp: 1500
+  16376:
+    id: 16376
+    name: Low-Grade Mimesis Gamma(BPC)
+    product:
+      itemid: 52680
+      itemname: Low-Grade Mimesis Gamma
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 38
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 12
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 13
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 33
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 90
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 98
+      lp: 2000
+  16377:
+    id: 16377
+    name: Low-Grade Mimesis Delta(BPC)
+    product:
+      itemid: 52681
+      itemname: Low-Grade Mimesis Delta
+      quantity: 1
+    requirements:
+      isk: 5000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 56
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 12
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 14
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 35
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 94
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 103
+      lp: 3000
+  16379:
+    id: 16379
+    name: Low-Grade Mimesis Epsilon(BPC)
+    product:
+      itemid: 52682
+      itemname: Low-Grade Mimesis Epsilon
+      quantity: 1
+    requirements:
+      isk: 7500000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 84
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 13
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 14
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 36
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 98
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 107
+      lp: 5000
+  16380:
+    id: 16380
+    name: Low-Grade Mimesis Omega(BPC)
+    product:
+      itemid: 52683
+      itemname: Low-Grade Mimesis Omega
+      quantity: 1
+    requirements:
+      isk: 11000000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 127
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 32
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 36
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 91
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 245
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 268
+      lp: 7500

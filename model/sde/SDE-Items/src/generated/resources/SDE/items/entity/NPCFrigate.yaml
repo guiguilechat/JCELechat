@@ -54,7 +54,7 @@ items:
     published: false
     volume: 17100.0
   ♦ Condor:
-    id: 43565
+    id: 43616
     mass: 1100000.0
     name: ♦ Condor
     published: false
@@ -245,9 +245,9 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  �� Condor:
-    id: 43616
+  ��� Condor:
+    id: 43565
     mass: 1100000.0
-    name: �� Condor
+    name: ��� Condor
     published: false
     volume: 18000.0

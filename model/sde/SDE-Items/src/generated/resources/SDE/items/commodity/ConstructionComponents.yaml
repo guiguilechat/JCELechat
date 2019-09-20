@@ -114,7 +114,7 @@ items:
   Lattice Locked Dekaisogen:
     MoonMiningAmount: 1
     id: 52314
-    marketGroup: 802
+    marketGroup: 2658
     mass: 1.0
     name: Lattice Locked Dekaisogen
     published: true
@@ -242,7 +242,7 @@ items:
   Radiation Absorption Thruster:
     MoonMiningAmount: 1
     id: 52310
-    marketGroup: 802
+    marketGroup: 2658
     mass: 1.0
     name: Radiation Absorption Thruster
     published: true
@@ -258,7 +258,7 @@ items:
   'Singularity Radiation Convertor ':
     MoonMiningAmount: 1
     id: 52311
-    marketGroup: 802
+    marketGroup: 2658
     mass: 1.0
     name: 'Singularity Radiation Convertor '
     published: true
@@ -314,7 +314,7 @@ items:
   Trinary State Processor:
     MoonMiningAmount: 1
     id: 52313
-    marketGroup: 802
+    marketGroup: 2658
     mass: 1.0
     name: Trinary State Processor
     published: true
@@ -330,7 +330,7 @@ items:
   Zero-Point Field Manipulator:
     MoonMiningAmount: 1
     id: 52312
-    marketGroup: 802
+    marketGroup: 2658
     mass: 1.0
     name: Zero-Point Field Manipulator
     published: true

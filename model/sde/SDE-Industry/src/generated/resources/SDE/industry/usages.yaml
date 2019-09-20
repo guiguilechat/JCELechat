@@ -21528,6 +21528,12 @@ usages:
       Mid-grade Ascendancy Beta Blueprint: null
       Mid-grade Ascendancy Delta Blueprint: null
       Mid-grade Ascendancy Omega Blueprint: null
+      Low-Grade Mimesis Alpha Blueprint: null
+      Low-Grade Mimesis Beta Blueprint: null
+      Low-Grade Mimesis Gamma Blueprint: null
+      Low-Grade Mimesis Delta Blueprint: null
+      Low-Grade Mimesis Epsilon Blueprint: null
+      Low-Grade Mimesis Omega Blueprint: null
   Cryptic Data Interface:
     productManuf: !!set
       Cryptic Data Interface Blueprint: null
@@ -38530,6 +38536,36 @@ usages:
       '''Yurt'' Mobile Depot Blueprint': null
       Mobile Micro Jump Unit Blueprint: null
       Entosis Link II Blueprint: null
+  High-grade Amulet Alpha:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  High-grade Amulet Beta:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  High-grade Amulet Delta:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  High-grade Amulet Epsilon:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  High-grade Amulet Gamma:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  High-grade Amulet Omega:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
   High-grade Ascendancy Alpha:
     productManuf: !!set
       High-grade Ascendancy Alpha Blueprint: null
@@ -38725,36 +38761,6 @@ usages:
       Zydrine: 1.0
       Megacyte: 1.0
   High-grade Jackal Omega:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  High-grade Slave Alpha:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  High-grade Slave Beta:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  High-grade Slave Delta:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  High-grade Slave Epsilon:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  High-grade Slave Gamma:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  High-grade Slave Omega:
     reprocess:
       Nocxium: 1.0
       Zydrine: 1.0
@@ -40412,6 +40418,28 @@ usages:
   Industrial Core II Blueprint:
     productInvention: !!set
       Industrial Core I Blueprint: null
+  Industrial Cynosural Field:
+    reprocess:
+      Tritanium: 6.0
+      Pyerite: 17.0
+      Strontium Clathrates: 11.0
+      Mexallon: 22.0
+      Isogen: 1.0
+      Nocxium: 1.0
+      Megacyte: 2.0
+      Nanotransistors: 1.0
+      Hypersynaptic Fibers: 1.0
+  Industrial Cynosural Field Generator:
+    productManuf: !!set
+      Industrial Cynosural Field Generator Blueprint: null
+    reprocess:
+      Tritanium: 22494.0
+      Pyerite: 14349.0
+      Mexallon: 2556.0
+      Isogen: 1220.0
+      Nocxium: 542.0
+      Zydrine: 478.0
+      Megacyte: 960.0
   Inertial Stabilizers I:
     materialManuf: !!set
       Inertial Stabilizers II Blueprint: null
@@ -43185,6 +43213,7 @@ usages:
       Structure EXERT Conduit Coupler Blueprint: null
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
+      Industrial Cynosural Field Generator Blueprint: null
   Iteron Inner Zone Shipping Edition:
     reprocess:
       Iteron Mark V: 1.0
@@ -46744,6 +46773,12 @@ usages:
       Nergal Blueprint: null
       Ikitursa Blueprint: null
       Draugur Blueprint: null
+      Low-Grade Mimesis Alpha Blueprint: null
+      Low-Grade Mimesis Beta Blueprint: null
+      Low-Grade Mimesis Gamma Blueprint: null
+      Low-Grade Mimesis Delta Blueprint: null
+      Low-Grade Mimesis Epsilon Blueprint: null
+      Low-Grade Mimesis Omega Blueprint: null
   Launcher Processor Rig I:
     reprocess:
       Burned Logic Circuit: 111.0
@@ -48329,6 +48364,54 @@ usages:
       Isogen: 5.9
       Nocxium: 0.5
       Megacyte: 0.2
+  Low-Grade Mimesis Alpha:
+    productManuf: !!set
+      Low-Grade Mimesis Alpha Blueprint: null
+  Low-Grade Mimesis Beta:
+    productManuf: !!set
+      Low-Grade Mimesis Beta Blueprint: null
+  Low-Grade Mimesis Delta:
+    productManuf: !!set
+      Low-Grade Mimesis Delta Blueprint: null
+  Low-Grade Mimesis Epsilon:
+    productManuf: !!set
+      Low-Grade Mimesis Epsilon Blueprint: null
+  Low-Grade Mimesis Gamma:
+    productManuf: !!set
+      Low-Grade Mimesis Gamma Blueprint: null
+  Low-Grade Mimesis Omega:
+    productManuf: !!set
+      Low-Grade Mimesis Omega Blueprint: null
+  Low-grade Amulet Alpha:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Low-grade Amulet Beta:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Low-grade Amulet Delta:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Low-grade Amulet Epsilon:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Low-grade Amulet Gamma:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Low-grade Amulet Omega:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
   Low-grade Asklepian Alpha:
     reprocess:
       Nocxium: 1.0
@@ -48595,36 +48678,6 @@ usages:
       Zydrine: 1.0
       Megacyte: 1.0
   Low-grade Nomad Omega:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Low-grade Slave Alpha:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Low-grade Slave Beta:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Low-grade Slave Delta:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Low-grade Slave Epsilon:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Low-grade Slave Gamma:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Low-grade Slave Omega:
     reprocess:
       Nocxium: 1.0
       Zydrine: 1.0
@@ -53375,6 +53428,7 @@ usages:
       Structure EXERT Conduit Coupler Blueprint: null
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
+      Industrial Cynosural Field Generator Blueprint: null
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
@@ -54631,6 +54685,7 @@ usages:
       Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
+      Industrial Cynosural Field Generator Blueprint: null
   Miasmos:
     productManuf: !!set
       Miasmos Blueprint: null
@@ -55220,6 +55275,36 @@ usages:
       Nocxium: 11.0
       Zydrine: 89.0
       Megacyte: 244.0
+  Mid-grade Amulet Alpha:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Mid-grade Amulet Beta:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Mid-grade Amulet Delta:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Mid-grade Amulet Epsilon:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Mid-grade Amulet Gamma:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
+  Mid-grade Amulet Omega:
+    reprocess:
+      Nocxium: 1.0
+      Zydrine: 1.0
+      Megacyte: 1.0
   Mid-grade Ascendancy Alpha:
     productManuf: !!set
       Mid-grade Ascendancy Alpha Blueprint: null
@@ -55475,36 +55560,6 @@ usages:
       Zydrine: 1.0
       Megacyte: 1.0
   Mid-grade Nomad Omega:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Mid-grade Slave Alpha:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Mid-grade Slave Beta:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Mid-grade Slave Delta:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Mid-grade Slave Epsilon:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Mid-grade Slave Gamma:
-    reprocess:
-      Nocxium: 1.0
-      Zydrine: 1.0
-      Megacyte: 1.0
-  Mid-grade Slave Omega:
     reprocess:
       Nocxium: 1.0
       Zydrine: 1.0
@@ -58147,6 +58202,12 @@ usages:
       Nergal Blueprint: null
       Ikitursa Blueprint: null
       Draugur Blueprint: null
+      Low-Grade Mimesis Alpha Blueprint: null
+      Low-Grade Mimesis Beta Blueprint: null
+      Low-Grade Mimesis Gamma Blueprint: null
+      Low-Grade Mimesis Delta Blueprint: null
+      Low-Grade Mimesis Epsilon Blueprint: null
+      Low-Grade Mimesis Omega Blueprint: null
   Motley Compound:
     reprocess:
       Isogen: 40.0
@@ -60156,6 +60217,7 @@ usages:
       Drekavac Blueprint: null
       Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
+      Industrial Cynosural Field Generator Blueprint: null
   Noir. Modified Entosis Link:
     productManuf: !!set
       Noir. Modified Entosis Link Blueprint: null
@@ -66353,6 +66415,7 @@ usages:
       Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint: null
       Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
       Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
+      Industrial Cynosural Field Generator Blueprint: null
   Pyroxeres:
     reprocess:
       Tritanium: 3.51
@@ -88588,6 +88651,12 @@ usages:
       Armor Command Burst I Blueprint: null
       Information Command Burst I Blueprint: null
       Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint: null
+      Low-Grade Mimesis Alpha Blueprint: null
+      Low-Grade Mimesis Beta Blueprint: null
+      Low-Grade Mimesis Gamma Blueprint: null
+      Low-Grade Mimesis Delta Blueprint: null
+      Low-Grade Mimesis Epsilon Blueprint: null
+      Low-Grade Mimesis Omega Blueprint: null
   System Scanner I:
     reprocess:
       Tritanium: 1111.0
@@ -91178,6 +91247,12 @@ usages:
       Nergal Blueprint: null
       Ikitursa Blueprint: null
       Draugur Blueprint: null
+      Low-Grade Mimesis Alpha Blueprint: null
+      Low-Grade Mimesis Beta Blueprint: null
+      Low-Grade Mimesis Gamma Blueprint: null
+      Low-Grade Mimesis Delta Blueprint: null
+      Low-Grade Mimesis Epsilon Blueprint: null
+      Low-Grade Mimesis Omega Blueprint: null
   Triple Neutron Blaster Cannon I:
     materialManuf: !!set
       Regulated Compact Triple Neutron Blaster Cannon Blueprint: null
@@ -92624,6 +92699,7 @@ usages:
       Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
+      Industrial Cynosural Field Generator Blueprint: null
   True Sansha Adaptive Nano Plating:
     reprocess:
       Tritanium: 806.0
@@ -98941,6 +99017,7 @@ usages:
       Structure EXERT Conduit Coupler Blueprint: null
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
+      Industrial Cynosural Field Generator Blueprint: null
   testArmorMod_PLACEHOLDER:
     reprocess:
       Tritanium: 12461.0
@@ -99077,16 +99154,16 @@ usages:
   万王宝座级YC117年特别版:
     reprocess:
       Megathron: 1.0
-  乌鸦级YC117年特别��:
+  乌鸦级YC117���特别版:
     reprocess:
       Raven: 1.0
   伊什塔级YC117年特别版:
     reprocess:
       Ishtar: 1.0
-  响���蛇级YC117年特别版:
+  响尾蛇级YC117年特别版:
     reprocess:
       Rattlesnake: 1.0
-  地狱天使级YC117年特别���:
+  地狱天使级YC117年特别版:
     reprocess:
       Abaddon: 1.0
   多米尼克斯级YC117年特别版:
@@ -99095,7 +99172,7 @@ usages:
   幼龙级YC117年特别版:
     reprocess:
       Drake: 1.0
-  末日沙场级YC117年特别版:
+  末日沙场��YC117年特别版:
     reprocess:
       Armageddon: 1.0
   毒蜥级YC117年特别版:
@@ -99104,9 +99181,9 @@ usages:
   灾难级YC117年特别版:
     reprocess:
       Apocalypse: 1.0
-  银鹰级YC117年特别版:
+  银鹰级YC117��特别版:
     reprocess:
       Eagle: 1.0
-  马克瑞级YC117��特别版:
+  马克瑞级YC117年特别���:
     reprocess:
       Machariel: 1.0

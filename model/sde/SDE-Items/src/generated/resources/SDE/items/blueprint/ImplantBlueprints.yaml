@@ -41,6 +41,42 @@ items:
     name: High-grade Ascendancy Omega Blueprint
     published: true
     volume: 0.01
+  Low-Grade Mimesis Alpha Blueprint:
+    TechLevel: 1
+    id: 52684
+    name: Low-Grade Mimesis Alpha Blueprint
+    published: true
+    volume: 0.01
+  Low-Grade Mimesis Beta Blueprint:
+    TechLevel: 1
+    id: 52685
+    name: Low-Grade Mimesis Beta Blueprint
+    published: true
+    volume: 0.01
+  Low-Grade Mimesis Delta Blueprint:
+    TechLevel: 1
+    id: 52687
+    name: Low-Grade Mimesis Delta Blueprint
+    published: true
+    volume: 0.01
+  Low-Grade Mimesis Epsilon Blueprint:
+    TechLevel: 1
+    id: 52688
+    name: Low-Grade Mimesis Epsilon Blueprint
+    published: true
+    volume: 0.01
+  Low-Grade Mimesis Gamma Blueprint:
+    TechLevel: 1
+    id: 52686
+    name: Low-Grade Mimesis Gamma Blueprint
+    published: true
+    volume: 0.01
+  Low-Grade Mimesis Omega Blueprint:
+    TechLevel: 1
+    id: 52689
+    name: Low-Grade Mimesis Omega Blueprint
+    published: true
+    volume: 0.01
   Mid-grade Ascendancy Alpha Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2

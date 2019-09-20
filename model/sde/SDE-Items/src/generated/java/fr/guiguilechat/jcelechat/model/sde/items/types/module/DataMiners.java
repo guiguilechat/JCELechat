@@ -46,6 +46,13 @@ public class DataMiners
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
+     * If set, this module cannot be activated and made to autorepeat.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowRepeatingActivation;
+    /**
      * Length of activation time.
      */
     @HighIsGood(false)
@@ -166,6 +173,10 @@ public class DataMiners
             case  50 :
             {
                 return Cpu;
+            }
+            case  1014 :
+            {
+                return DisallowRepeatingActivation;
             }
             case  73 :
             {

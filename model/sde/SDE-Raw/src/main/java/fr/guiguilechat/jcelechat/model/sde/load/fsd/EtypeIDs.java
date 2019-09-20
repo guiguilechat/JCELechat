@@ -83,6 +83,7 @@ public class EtypeIDs {
 	public int marketGroupID;
 	public double mass;
 	public HashMap<Integer, List<Integer>> masteries = new HashMap<>();
+	public int metaGroupID;
 	public HashMap<String, String> name = new HashMap<>();
 	public int portionSize;
 	public boolean published;
@@ -91,6 +92,8 @@ public class EtypeIDs {
 	public String sofFactionName;
 	public int sofMaterialSetID;
 	public int soundID;
+	public int variationParentTypeID;
+
 
 	public Etraits traits;
 

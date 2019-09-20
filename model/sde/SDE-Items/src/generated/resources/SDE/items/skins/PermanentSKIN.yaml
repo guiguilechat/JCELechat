@@ -269,6 +269,12 @@ items:
     name: Algos Glittering Dream SKIN (Permanent)
     published: true
     volume: 0.01
+  Algos Inner Zone Vanguard SKIN (Permanent):
+    id: 52722
+    marketGroup: 1996
+    name: Algos Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Algos Intaki Syndicate SKIN (Permanent):
     id: 34706
     marketGroup: 1996
@@ -417,6 +423,12 @@ items:
     name: Anshar Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Anshar Inner Zone Vanguard SKIN (Permanent):
+    id: 52765
+    marketGroup: 2097
+    name: Anshar Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Anshar Intaki Syndicate SKIN (Permanent):
     id: 36405
     marketGroup: 2097
@@ -473,6 +485,12 @@ items:
     id: 42785
     marketGroup: 1964
     name: Apocalypse Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apocalypse Crown and Swords SKIN (Permanent):
+    id: 52775
+    marketGroup: 1964
+    name: Apocalypse Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Apocalypse EoM SKIN (Permanent):
@@ -542,6 +560,12 @@ items:
     id: 42789
     marketGroup: 2108
     name: Apocalypse Navy Issue Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apocalypse Navy Issue Crown and Swords SKIN (Permanent):
+    id: 52776
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Apocalypse Navy Issue EoM SKIN (Permanent):
@@ -758,6 +782,12 @@ items:
     name: Arazu Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Arazu Inner Zone Vanguard SKIN (Permanent):
+    id: 52735
+    marketGroup: 2083
+    name: Arazu Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Arazu Intaki Syndicate SKIN (Permanent):
     id: 36382
     marketGroup: 2083
@@ -859,7 +889,7 @@ items:
     volume: 0.01
   Arbitrator Triglavian Twilight SKIN (Permanent):
     id: 52407
-    marketGroup: 1964
+    marketGroup: 1990
     name: Arbitrator Triglavian Twilight SKIN (Permanent)
     published: true
     volume: 0.01
@@ -961,6 +991,12 @@ items:
     id: 46934
     marketGroup: 2061
     name: Ares Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Ares Inner Zone Vanguard SKIN (Permanent):
+    id: 52717
+    marketGroup: 2061
+    name: Ares Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Ares Intaki Syndicate SKIN (Permanent):
@@ -1065,6 +1101,12 @@ items:
     name: Armageddon Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Armageddon Crown and Swords SKIN (Permanent):
+    id: 52777
+    marketGroup: 1964
+    name: Armageddon Crown and Swords SKIN (Permanent)
+    published: true
+    volume: 0.01
   Armageddon EoM SKIN (Permanent):
     id: 36282
     name: Armageddon EoM SKIN (Permanent)
@@ -1121,6 +1163,12 @@ items:
     id: 42790
     marketGroup: 2108
     name: Armageddon Navy Issue Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Armageddon Navy Issue Crown and Swords SKIN (Permanent):
+    id: 52778
+    marketGroup: 2108
+    name: Armageddon Navy Issue Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Armageddon Navy Issue EoM SKIN (Permanent):
@@ -1226,6 +1274,12 @@ items:
     id: 46954
     marketGroup: 2106
     name: Astarte Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Astarte Inner Zone Vanguard SKIN (Permanent):
+    id: 52743
+    marketGroup: 2106
+    name: Astarte Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Astarte Intaki Syndicate SKIN (Permanent):
@@ -1344,6 +1398,12 @@ items:
     id: 47503
     marketGroup: 2004
     name: Atron Hunter's Quiver SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Atron Inner Zone Vanguard SKIN (Permanent):
+    id: 52706
+    marketGroup: 2004
+    name: Atron Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Atron Intaki Syndicate SKIN (Permanent):
@@ -1530,6 +1590,12 @@ items:
     id: 42794
     marketGroup: 1978
     name: Avatar Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Avatar Crown and Swords SKIN (Permanent):
+    id: 52781
+    marketGroup: 1978
+    name: Avatar Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Avatar Deathglow Hunters SKIN (Permanent):
@@ -2232,6 +2298,12 @@ items:
     name: Brutix IGC SKIN (Permanent)
     published: true
     volume: 0.01
+  Brutix Inner Zone Vanguard SKIN (Permanent):
+    id: 52740
+    marketGroup: 1958
+    name: Brutix Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Brutix Intaki Syndicate SKIN (Permanent):
     id: 34612
     marketGroup: 1958
@@ -2265,6 +2337,12 @@ items:
     id: 48559
     marketGroup: 2103
     name: Brutix Navy Issue IGC SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Brutix Navy Issue Inner Zone Vanguard SKIN (Permanent):
+    id: 52745
+    marketGroup: 2103
+    name: Brutix Navy Issue Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Brutix Navy Issue Intaki Syndicate SKIN (Permanent):
@@ -2401,6 +2479,12 @@ items:
     id: 46870
     marketGroup: 2089
     name: Bustard Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Bustard Kimotoro Eskeitan SKIN (Permanent):
+    id: 52640
+    marketGroup: 2089
+    name: Bustard Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Bustard Lodestrike SKIN (Permanent):
@@ -2601,6 +2685,12 @@ items:
     name: Caracal IGC SKIN (Permanent)
     published: true
     volume: 0.01
+  Caracal Kimotoro Eskeitan SKIN (Permanent):
+    id: 52636
+    marketGroup: 1991
+    name: Caracal Kimotoro Eskeitan SKIN (Permanent)
+    published: true
+    volume: 0.01
   Caracal Matigu Seabeast SKIN (Permanent):
     id: 40598
     marketGroup: 1991
@@ -2740,6 +2830,12 @@ items:
     name: Catalyst Inner Zone Shipping Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Catalyst Inner Zone Vanguard SKIN (Permanent):
+    id: 52723
+    marketGroup: 1996
+    name: Catalyst Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Catalyst Intaki Syndicate SKIN (Permanent):
     id: 34710
     marketGroup: 1996
@@ -2824,6 +2920,12 @@ items:
     id: 44183
     marketGroup: 1992
     name: Celestis Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Celestis Inner Zone Vanguard SKIN (Permanent):
+    id: 52727
+    marketGroup: 1992
+    name: Celestis Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Celestis Intaki Syndicate SKIN (Permanent):
@@ -3363,6 +3465,12 @@ items:
     name: Confessor Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Confessor Crown and Swords SKIN (Permanent):
+    id: 52770
+    marketGroup: 2310
+    name: Confessor Crown and Swords SKIN (Permanent)
+    published: true
+    volume: 0.01
   Confessor Eros Blossom SKIN (Permanent):
     id: 50069
     marketGroup: 2310
@@ -3498,6 +3606,12 @@ items:
     id: 45013
     marketGroup: 1995
     name: Cormorant IGC SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Cormorant Kimotoro Eskeitan SKIN (Permanent):
+    id: 52631
+    marketGroup: 1995
+    name: Cormorant Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Cormorant Matigu Seabeast SKIN (Permanent):
@@ -3673,6 +3787,12 @@ items:
     id: 46869
     marketGroup: 2089
     name: Crane Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Crane Kimotoro Eskeitan SKIN (Permanent):
+    id: 52639
+    marketGroup: 2089
+    name: Crane Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Crane Lodestrike SKIN (Permanent):
@@ -3912,6 +4032,12 @@ items:
     name: Curse Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Curse Crown and Swords SKIN (Permanent):
+    id: 52771
+    marketGroup: 2081
+    name: Curse Crown and Swords SKIN (Permanent)
+    published: true
+    volume: 0.01
   Curse EoM SKIN (Permanent):
     id: 36309
     marketGroup: 2081
@@ -4116,6 +4242,12 @@ items:
     name: Damnation Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Damnation Crown and Swords SKIN (Permanent):
+    id: 52774
+    marketGroup: 2104
+    name: Damnation Crown and Swords SKIN (Permanent)
+    published: true
+    volume: 0.01
   Damnation EoM SKIN (Permanent):
     id: 36314
     marketGroup: 2104
@@ -4248,6 +4380,12 @@ items:
     name: Deimos Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Deimos Inner Zone Vanguard SKIN (Permanent):
+    id: 52731
+    marketGroup: 2071
+    name: Deimos Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Deimos Intaki Syndicate SKIN (Permanent):
     id: 36387
     marketGroup: 2071
@@ -4282,6 +4420,12 @@ items:
     id: 42772
     marketGroup: 2073
     name: Devoter Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Devoter Crown and Swords SKIN (Permanent):
+    id: 52772
+    marketGroup: 2073
+    name: Devoter Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Devoter EoM SKIN (Permanent):
@@ -4378,6 +4522,12 @@ items:
     name: Dominix Inner Zone Shipping Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Dominix Inner Zone Vanguard SKIN (Permanent):
+    id: 52746
+    marketGroup: 1966
+    name: Dominix Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Dominix Intaki Syndicate SKIN (Permanent):
     id: 34634
     marketGroup: 1966
@@ -4411,6 +4561,12 @@ items:
     id: 47535
     marketGroup: 2108
     name: Dominix Navy Issue Glittering Dream SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Dominix Navy Issue Inner Zone Vanguard SKIN (Permanent):
+    id: 52751
+    marketGroup: 2108
+    name: Dominix Navy Issue Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Dominix Navy Issue Intaki Syndicate SKIN (Permanent):
@@ -4748,8 +4904,15 @@ items:
     name: Dramiel Spirit SKIN (Permanent)
     published: true
     volume: 0.01
+  Draugur Niflhel Gildclaw SKIN (Permanent):
+    id: 52698
+    marketGroup: 2521
+    name: Draugur Niflhel Gildclaw SKIN (Permanent)
+    published: true
+    volume: 0.01
   Draugur Singularity Storm SKIN (Permanent):
     id: 52352
+    marketGroup: 2521
     name: Draugur Singularity Storm SKIN (Permanent)
     published: true
     volume: 0.01
@@ -4817,6 +4980,12 @@ items:
     id: 46842
     marketGroup: 2070
     name: Eagle Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Eagle Kimotoro Eskeitan SKIN (Permanent):
+    id: 52634
+    marketGroup: 2070
+    name: Eagle Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Eagle Matigu Seabeast SKIN (Permanent):
@@ -5000,6 +5169,12 @@ items:
     name: Enyo Glittering Dream SKIN (Permanent)
     published: true
     volume: 0.01
+  Enyo Inner Zone Vanguard SKIN (Permanent):
+    id: 52712
+    marketGroup: 2049
+    name: Enyo Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Enyo Intaki Syndicate SKIN (Permanent):
     id: 36389
     marketGroup: 2049
@@ -5042,6 +5217,12 @@ items:
     name: Eos Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Eos Inner Zone Vanguard SKIN (Permanent):
+    id: 52744
+    marketGroup: 2106
+    name: Eos Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Eos Intaki Syndicate SKIN (Permanent):
     id: 36398
     marketGroup: 2106
@@ -5082,6 +5263,12 @@ items:
     id: 46968
     marketGroup: 2009
     name: Epithal Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Epithal Inner Zone Vanguard SKIN (Permanent):
+    id: 52757
+    marketGroup: 2009
+    name: Epithal Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Epithal Intaki Syndicate SKIN (Permanent):
@@ -5178,6 +5365,12 @@ items:
     name: Erebus Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
+  Erebus Inner Zone Vanguard SKIN (Permanent):
+    id: 52756
+    marketGroup: 1979
+    name: Erebus Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Erebus Intaki Syndicate SKIN (Permanent):
     id: 36375
     marketGroup: 1979
@@ -5247,6 +5440,12 @@ items:
     id: 46940
     marketGroup: 2040
     name: Eris Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Eris Inner Zone Vanguard SKIN (Permanent):
+    id: 52725
+    marketGroup: 2040
+    name: Eris Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Eris Intaki Syndicate SKIN (Permanent):
@@ -5378,6 +5577,12 @@ items:
     name: Exequror Hunter's Quiver SKIN (Permanent)
     published: true
     volume: 0.01
+  Exequror Inner Zone Vanguard SKIN (Permanent):
+    id: 52728
+    marketGroup: 1992
+    name: Exequror Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Exequror Intaki Syndicate SKIN (Permanent):
     id: 34691
     marketGroup: 1992
@@ -5405,6 +5610,12 @@ items:
     id: 46949
     marketGroup: 2063
     name: Exequror Navy Issue Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Exequror Navy Issue Inner Zone Vanguard SKIN (Permanent):
+    id: 52738
+    marketGroup: 2063
+    name: Exequror Navy Issue Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Exequror Navy Issue Intaki Syndicate SKIN (Permanent):
@@ -5507,6 +5718,12 @@ items:
     id: 46937
     marketGroup: 2000
     name: Federation Navy Comet Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Federation Navy Comet Inner Zone Vanguard SKIN (Permanent):
+    id: 52720
+    marketGroup: 2000
+    name: Federation Navy Comet Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Federation Navy Comet Intaki Syndicate SKIN (Permanent):
@@ -5702,6 +5919,12 @@ items:
     name: Flycatcher Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Flycatcher Kimotoro Eskeitan SKIN (Permanent):
+    id: 52632
+    marketGroup: 2039
+    name: Flycatcher Kimotoro Eskeitan SKIN (Permanent)
+    published: true
+    volume: 0.01
   Flycatcher Matigu Seabeast SKIN (Permanent):
     id: 40596
     marketGroup: 2039
@@ -5790,6 +6013,12 @@ items:
     id: 47510
     marketGroup: 2030
     name: Gila Ace of Podhunters SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Gila Aetheric Raiders SKIN (Permanent):
+    id: 52704
+    marketGroup: 2030
+    name: Gila Aetheric Raiders SKIN (Permanent)
     published: true
     volume: 0.01
   Gila Deathglow Hunters SKIN (Permanent):
@@ -6321,6 +6550,12 @@ items:
     name: Harpy Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Harpy Kimotoro Eskeitan SKIN (Permanent):
+    id: 52629
+    marketGroup: 2048
+    name: Harpy Kimotoro Eskeitan SKIN (Permanent)
+    published: true
+    volume: 0.01
   Harpy Matigu Seabeast SKIN (Permanent):
     id: 40585
     marketGroup: 2048
@@ -6369,6 +6604,12 @@ items:
     name: Hawk Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Hawk Kimotoro Eskeitan SKIN (Permanent):
+    id: 52630
+    marketGroup: 2048
+    name: Hawk Kimotoro Eskeitan SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hawk Matigu Seabeast SKIN (Permanent):
     id: 40586
     marketGroup: 2048
@@ -6415,6 +6656,12 @@ items:
     id: 47528
     marketGroup: 2356
     name: Hecate Glittering Dream SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hecate Inner Zone Vanguard SKIN (Permanent):
+    id: 52726
+    marketGroup: 2356
+    name: Hecate Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Hecate Kopis Edge SKIN (Permanent):
@@ -6546,6 +6793,12 @@ items:
     id: 46931
     marketGroup: 2053
     name: Helios Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Helios Inner Zone Vanguard SKIN (Permanent):
+    id: 52714
+    marketGroup: 2053
+    name: Helios Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Helios Intaki Syndicate SKIN (Permanent):
@@ -7172,6 +7425,12 @@ items:
     name: Hyperion Inner Zone Shipping Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Hyperion Inner Zone Vanguard SKIN (Permanent):
+    id: 52747
+    marketGroup: 1966
+    name: Hyperion Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hyperion Intaki Syndicate SKIN (Permanent):
     id: 36403
     marketGroup: 1966
@@ -7232,8 +7491,15 @@ items:
     name: Ibis Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Ikitursa Niflhel Gildclaw SKIN (Permanent):
+    id: 52699
+    marketGroup: 2485
+    name: Ikitursa Niflhel Gildclaw SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ikitursa Singularity Storm SKIN (Permanent):
     id: 52353
+    marketGroup: 2485
     name: Ikitursa Singularity Storm SKIN (Permanent)
     published: true
     volume: 0.01
@@ -7258,6 +7524,12 @@ items:
   Imicus Inner Zone Shipping Serenity Only SKIN (Permanent):
     id: 36988
     name: Imicus Inner Zone Shipping Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Imicus Inner Zone Vanguard SKIN (Permanent):
+    id: 52707
+    marketGroup: 2004
+    name: Imicus Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Imicus Intaki Syndicate SKIN (Permanent):
@@ -7385,6 +7657,12 @@ items:
     name: Imperial Navy Slicer Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Imperial Navy Slicer Crown and Swords SKIN (Permanent):
+    id: 52767
+    marketGroup: 2000
+    name: Imperial Navy Slicer Crown and Swords SKIN (Permanent)
+    published: true
+    volume: 0.01
   Imperial Navy Slicer EoM SKIN (Permanent):
     id: 36304
     marketGroup: 2000
@@ -7453,6 +7731,12 @@ items:
   Incursus Inner Zone Shipping Serenity Only SKIN (Permanent):
     id: 36990
     name: Incursus Inner Zone Shipping Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Incursus Inner Zone Vanguard SKIN (Permanent):
+    id: 52708
+    marketGroup: 2004
+    name: Incursus Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Incursus Intaki Syndicate SKIN (Permanent):
@@ -7584,6 +7868,12 @@ items:
     name: Ishkur Glittering Dream SKIN (Permanent)
     published: true
     volume: 0.01
+  Ishkur Inner Zone Vanguard SKIN (Permanent):
+    id: 52713
+    marketGroup: 2049
+    name: Ishkur Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ishkur Intaki Syndicate SKIN (Permanent):
     id: 36388
     marketGroup: 2049
@@ -7661,6 +7951,12 @@ items:
     name: Ishtar IGC SKIN (Permanent)
     published: true
     volume: 0.01
+  Ishtar Inner Zone Vanguard SKIN (Permanent):
+    id: 52732
+    marketGroup: 2071
+    name: Ishtar Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ishtar Intaki Syndicate SKIN (Permanent):
     id: 36385
     marketGroup: 2071
@@ -7735,6 +8031,12 @@ items:
   Iteron Mark V Inner Zone Shipping Serenity Only SKIN (Permanent):
     id: 37130
     name: Iteron Mark V Inner Zone Shipping Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Iteron Mark V Inner Zone Vanguard SKIN (Permanent):
+    id: 52758
+    marketGroup: 2009
+    name: Iteron Mark V Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Iteron Mark V Intaki Syndicate SKIN (Permanent):
@@ -7833,6 +8135,7 @@ items:
     volume: 0.01
   Jackdaw Vitalshift EGO SKIN (Permanent):
     id: 52554
+    marketGroup: 2391
     name: Jackdaw Vitalshift EGO SKIN (Permanent)
     published: true
     volume: 0.01
@@ -7900,6 +8203,12 @@ items:
     id: 46933
     marketGroup: 2057
     name: Keres Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Keres Inner Zone Vanguard SKIN (Permanent):
+    id: 52716
+    marketGroup: 2057
+    name: Keres Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Keres Intaki Syndicate SKIN (Permanent):
@@ -8134,6 +8443,12 @@ items:
     name: Kronos Inner Zone Shipping SKIN (Permanent)
     published: true
     volume: 0.01
+  Kronos Inner Zone Vanguard SKIN (Permanent):
+    id: 52750
+    marketGroup: 2026
+    name: Kronos Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Kronos Intaki Syndicate SKIN (Permanent):
     id: 36404
     marketGroup: 2026
@@ -8204,6 +8519,12 @@ items:
     name: Kryos Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Kryos Inner Zone Vanguard SKIN (Permanent):
+    id: 52759
+    marketGroup: 2009
+    name: Kryos Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Kryos Intaki Syndicate SKIN (Permanent):
     id: 36371
     name: Kryos Intaki Syndicate SKIN (Permanent)
@@ -8243,6 +8564,12 @@ items:
     id: 46947
     marketGroup: 2083
     name: Lachesis Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Lachesis Inner Zone Vanguard SKIN (Permanent):
+    id: 52736
+    marketGroup: 2083
+    name: Lachesis Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Lachesis Intaki Syndicate SKIN (Permanent):
@@ -8380,6 +8707,12 @@ items:
     id: 49425
     marketGroup: 2092
     name: Leviathan Headhunter SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Leviathan Kimotoro Eskeitan SKIN (Permanent):
+    id: 52643
+    marketGroup: 2092
+    name: Leviathan Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Leviathan Matigu Seabeast SKIN (Permanent):
@@ -8824,6 +9157,12 @@ items:
     name: Magus Glittering Dream SKIN (Permanent)
     published: true
     volume: 0.01
+  Magus Inner Zone Vanguard SKIN (Permanent):
+    id: 52724
+    marketGroup: 2144
+    name: Magus Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Magus Kopis Edge SKIN (Permanent):
     id: 46401
     marketGroup: 2144
@@ -8858,6 +9197,12 @@ items:
     id: 42758
     marketGroup: 2059
     name: Malediction Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Malediction Crown and Swords SKIN (Permanent):
+    id: 52768
+    marketGroup: 2059
+    name: Malediction Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Malediction EoM SKIN (Permanent):
@@ -9184,6 +9529,12 @@ items:
     name: Maulus Inner Zone Shipping Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Maulus Inner Zone Vanguard SKIN (Permanent):
+    id: 52709
+    marketGroup: 2004
+    name: Maulus Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Maulus Intaki Syndicate SKIN (Permanent):
     id: 34743
     marketGroup: 2004
@@ -9211,6 +9562,12 @@ items:
     id: 46938
     marketGroup: 2000
     name: Maulus Navy Issue Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Maulus Navy Issue Inner Zone Vanguard SKIN (Permanent):
+    id: 52721
+    marketGroup: 2000
+    name: Maulus Navy Issue Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Maulus Navy Issue Intaki Syndicate SKIN (Permanent):
@@ -9278,6 +9635,12 @@ items:
     name: Megathron Inner Zone Shipping Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Megathron Inner Zone Vanguard SKIN (Permanent):
+    id: 52748
+    marketGroup: 1966
+    name: Megathron Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Megathron Intaki Syndicate SKIN (Permanent):
     id: 34639
     marketGroup: 1966
@@ -9305,6 +9668,12 @@ items:
     id: 46963
     marketGroup: 2108
     name: Megathron Navy Issue Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Megathron Navy Issue Inner Zone Vanguard SKIN (Permanent):
+    id: 52752
+    marketGroup: 2108
+    name: Megathron Navy Issue Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Megathron Navy Issue Intaki Syndicate SKIN (Permanent):
@@ -9507,6 +9876,12 @@ items:
     name: Miasmos Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Miasmos Inner Zone Vanguard SKIN (Permanent):
+    id: 52760
+    marketGroup: 2009
+    name: Miasmos Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Miasmos Intaki Syndicate SKIN (Permanent):
     id: 36373
     name: Miasmos Intaki Syndicate SKIN (Permanent)
@@ -9584,6 +9959,12 @@ items:
     name: Minokawa Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Minokawa Kimotoro Eskeitan SKIN (Permanent):
+    id: 52641
+    marketGroup: 2279
+    name: Minokawa Kimotoro Eskeitan SKIN (Permanent)
+    published: true
+    volume: 0.01
   Minokawa Matigu Seabeast SKIN (Permanent):
     id: 41683
     marketGroup: 2279
@@ -9636,6 +10017,12 @@ items:
     id: 40772
     marketGroup: 1991
     name: Moa Guristas SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Moa Kimotoro Eskeitan SKIN (Permanent):
+    id: 52633
+    marketGroup: 1991
+    name: Moa Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Moa Lai Dai SKIN (Permanent):
@@ -9706,6 +10093,12 @@ items:
     id: 46964
     marketGroup: 1982
     name: Moros Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Moros Inner Zone Vanguard SKIN (Permanent):
+    id: 52753
+    marketGroup: 1982
+    name: Moros Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Moros Intaki Syndicate SKIN (Permanent):
@@ -9854,6 +10247,12 @@ items:
     id: 46952
     marketGroup: 1958
     name: Myrmidon Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Myrmidon Inner Zone Vanguard SKIN (Permanent):
+    id: 52741
+    marketGroup: 1958
+    name: Myrmidon Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Myrmidon Intaki Syndicate SKIN (Permanent):
@@ -10067,6 +10466,12 @@ items:
     name: Navitas Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Navitas Inner Zone Vanguard SKIN (Permanent):
+    id: 52710
+    marketGroup: 2004
+    name: Navitas Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Navitas Intaki Syndicate SKIN (Permanent):
     id: 34744
     marketGroup: 2004
@@ -10120,6 +10525,12 @@ items:
     name: Nemesis Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Nemesis Inner Zone Vanguard SKIN (Permanent):
+    id: 52715
+    marketGroup: 2053
+    name: Nemesis Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nemesis Intaki Syndicate SKIN (Permanent):
     id: 36381
     marketGroup: 2053
@@ -10162,6 +10573,12 @@ items:
     name: Nereus Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Nereus Inner Zone Vanguard SKIN (Permanent):
+    id: 52761
+    marketGroup: 2009
+    name: Nereus Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nereus Intaki Syndicate SKIN (Permanent):
     id: 36370
     name: Nereus Intaki Syndicate SKIN (Permanent)
@@ -10197,8 +10614,15 @@ items:
     name: Nereus Valimor Legacy SKIN (Permanent)
     published: true
     volume: 0.01
+  Nergal Niflhel Gildclaw SKIN (Permanent):
+    id: 52697
+    marketGroup: 2486
+    name: Nergal Niflhel Gildclaw SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nergal Singularity Storm SKIN (Permanent):
     id: 52351
+    marketGroup: 2486
     name: Nergal Singularity Storm SKIN (Permanent)
     published: true
     volume: 0.01
@@ -10439,6 +10863,12 @@ items:
     name: Ninazu Glittering Dream SKIN (Permanent)
     published: true
     volume: 0.01
+  Ninazu Inner Zone Vanguard SKIN (Permanent):
+    id: 52766
+    marketGroup: 2280
+    name: Ninazu Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ninazu Kopis Edge SKIN (Permanent):
     id: 46443
     marketGroup: 2280
@@ -10553,6 +10983,12 @@ items:
     name: Nyx Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
+  Nyx Inner Zone Vanguard SKIN (Permanent):
+    id: 52755
+    marketGroup: 1976
+    name: Nyx Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nyx Intaki Syndicate SKIN (Permanent):
     id: 36402
     marketGroup: 1976
@@ -10652,6 +11088,12 @@ items:
     name: Obelisk Inner Zone Shipping Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Obelisk Inner Zone Vanguard SKIN (Permanent):
+    id: 52764
+    marketGroup: 1986
+    name: Obelisk Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Obelisk Intaki Syndicate SKIN (Permanent):
     id: 36396
     marketGroup: 1986
@@ -10715,6 +11157,12 @@ items:
     id: 46973
     marketGroup: 2090
     name: Occator Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Occator Inner Zone Vanguard SKIN (Permanent):
+    id: 52763
+    marketGroup: 2090
+    name: Occator Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Occator Intaki Syndicate SKIN (Permanent):
@@ -10928,6 +11376,12 @@ items:
     name: Oneiros Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Oneiros Inner Zone Vanguard SKIN (Permanent):
+    id: 52734
+    marketGroup: 2079
+    name: Oneiros Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Oneiros Intaki Syndicate SKIN (Permanent):
     id: 36384
     marketGroup: 2079
@@ -10980,6 +11434,12 @@ items:
     id: 46843
     marketGroup: 2074
     name: Onyx Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Onyx Kimotoro Eskeitan SKIN (Permanent):
+    id: 52635
+    marketGroup: 2074
+    name: Onyx Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Onyx Matigu Seabeast SKIN (Permanent):
@@ -11292,6 +11752,12 @@ items:
     name: Osprey Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Osprey Kimotoro Eskeitan SKIN (Permanent):
+    id: 52637
+    marketGroup: 1991
+    name: Osprey Kimotoro Eskeitan SKIN (Permanent)
+    published: true
+    volume: 0.01
   Osprey Matigu Seabeast SKIN (Permanent):
     id: 40600
     marketGroup: 1991
@@ -11591,6 +12057,12 @@ items:
     id: 46944
     marketGroup: 2075
     name: Phobos Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Phobos Inner Zone Vanguard SKIN (Permanent):
+    id: 52733
+    marketGroup: 2075
+    name: Phobos Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Phobos Intaki Syndicate SKIN (Permanent):
@@ -12084,6 +12556,12 @@ items:
     name: Prophecy Cold Iron SKIN (Permanent)
     published: true
     volume: 0.01
+  Prophecy Crown and Swords SKIN (Permanent):
+    id: 52773
+    marketGroup: 1956
+    name: Prophecy Crown and Swords SKIN (Permanent)
+    published: true
+    volume: 0.01
   Prophecy EoM SKIN (Permanent):
     id: 36302
     name: Prophecy EoM SKIN (Permanent)
@@ -12317,6 +12795,12 @@ items:
     name: Proteus Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Proteus Inner Zone Vanguard SKIN (Permanent):
+    id: 52737
+    marketGroup: 2372
+    name: Proteus Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Proteus Kopis Edge SKIN (Permanent):
     id: 46414
     marketGroup: 2372
@@ -12344,6 +12828,12 @@ items:
     id: 42799
     marketGroup: 1984
     name: Providence Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Providence Crown and Swords SKIN (Permanent):
+    id: 52782
+    marketGroup: 1984
+    name: Providence Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Providence EoM SKIN (Permanent):
@@ -12531,6 +13021,12 @@ items:
     id: 42755
     marketGroup: 2051
     name: Purifier Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Purifier Crown and Swords SKIN (Permanent):
+    id: 52769
+    marketGroup: 2051
+    name: Purifier Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Purifier EoM SKIN (Permanent):
@@ -12749,6 +13245,12 @@ items:
     name: Rattlesnake Ace of Podhunters SKIN (Permanent)
     published: true
     volume: 0.01
+  Rattlesnake Aetheric Raiders SKIN (Permanent):
+    id: 52705
+    marketGroup: 1963
+    name: Rattlesnake Aetheric Raiders SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rattlesnake Glacial Drift SKIN (Permanent):
     id: 46875
     marketGroup: 1963
@@ -12957,6 +13459,12 @@ items:
     id: 42787
     marketGroup: 2110
     name: Redeemer Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Redeemer Crown and Swords SKIN (Permanent):
+    id: 52779
+    marketGroup: 2110
+    name: Redeemer Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Redeemer EoM SKIN (Permanent):
@@ -13205,6 +13713,12 @@ items:
     id: 42791
     marketGroup: 1980
     name: Revelation Cold Iron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Revelation Crown and Swords SKIN (Permanent):
+    id: 52780
+    marketGroup: 1980
+    name: Revelation Crown and Swords SKIN (Permanent)
     published: true
     volume: 0.01
   Revelation EoM SKIN (Permanent):
@@ -14304,6 +14818,12 @@ items:
     name: Sin Glittering Dream SKIN (Permanent)
     published: true
     volume: 0.01
+  Sin Inner Zone Vanguard SKIN (Permanent):
+    id: 52749
+    marketGroup: 2112
+    name: Sin Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Sin Intaki Syndicate SKIN (Permanent):
     id: 36397
     marketGroup: 2112
@@ -15011,6 +15531,12 @@ items:
     name: Talos Headhunter SKIN (Permanent)
     published: true
     volume: 0.01
+  Talos Inner Zone Vanguard SKIN (Permanent):
+    id: 52742
+    marketGroup: 1958
+    name: Talos Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Talos Intaki Syndicate SKIN (Permanent):
     id: 36376
     marketGroup: 1958
@@ -15133,6 +15659,12 @@ items:
     name: Taranis Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Taranis Inner Zone Vanguard SKIN (Permanent):
+    id: 52718
+    marketGroup: 2061
+    name: Taranis Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Taranis Intaki Syndicate SKIN (Permanent):
     id: 36379
     marketGroup: 2061
@@ -15185,6 +15717,12 @@ items:
     id: 46868
     marketGroup: 2008
     name: Tayra Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Tayra Kimotoro Eskeitan SKIN (Permanent):
+    id: 52638
+    marketGroup: 2008
+    name: Tayra Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Tayra Lodestrike SKIN (Permanent):
@@ -15409,6 +15947,12 @@ items:
     name: Thalia Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Thalia Inner Zone Vanguard SKIN (Permanent):
+    id: 52719
+    marketGroup: 2139
+    name: Thalia Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Thalia Kopis Edge SKIN (Permanent):
     id: 46396
     marketGroup: 2139
@@ -15473,6 +16017,12 @@ items:
     id: 47504
     marketGroup: 1976
     name: Thanatos Hunter's Quiver SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Thanatos Inner Zone Vanguard SKIN (Permanent):
+    id: 52754
+    marketGroup: 1976
+    name: Thanatos Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Thanatos Intaki Syndicate SKIN (Permanent):
@@ -15577,6 +16127,12 @@ items:
   Thorax Inner Zone Shipping Serenity Only SKIN (Permanent):
     id: 37101
     name: Thorax Inner Zone Shipping Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Thorax Inner Zone Vanguard SKIN (Permanent):
+    id: 52729
+    marketGroup: 1992
+    name: Thorax Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Thorax Intaki Syndicate SKIN (Permanent):
@@ -15879,6 +16435,12 @@ items:
   Tristan Inner Zone Shipping Serenity Only SKIN (Permanent):
     id: 38149
     name: Tristan Inner Zone Shipping Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Tristan Inner Zone Vanguard SKIN (Permanent):
+    id: 52711
+    marketGroup: 2004
+    name: Tristan Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Tristan Intaki Syndicate SKIN (Permanent):
@@ -16486,6 +17048,12 @@ items:
     name: Vexor IGC SKIN (Permanent)
     published: true
     volume: 0.01
+  Vexor Inner Zone Vanguard SKIN (Permanent):
+    id: 52730
+    marketGroup: 1992
+    name: Vexor Inner Zone Vanguard SKIN (Permanent)
+    published: true
+    volume: 0.01
   Vexor Intaki Syndicate SKIN (Permanent):
     id: 34694
     marketGroup: 1992
@@ -16542,6 +17110,12 @@ items:
     id: 48556
     marketGroup: 2063
     name: Vexor Navy Issue IGC SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vexor Navy Issue Inner Zone Vanguard SKIN (Permanent):
+    id: 52739
+    marketGroup: 2063
+    name: Vexor Navy Issue Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Vexor Navy Issue Intaki Syndicate SKIN (Permanent):
@@ -16648,6 +17222,12 @@ items:
     id: 46978
     marketGroup: 2090
     name: Viator Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Viator Inner Zone Vanguard SKIN (Permanent):
+    id: 52762
+    marketGroup: 2090
+    name: Viator Inner Zone Vanguard SKIN (Permanent)
     published: true
     volume: 0.01
   Viator Intaki Syndicate SKIN (Permanent):
@@ -16989,6 +17569,12 @@ items:
     name: Worm Ace of Podhunters SKIN (Permanent)
     published: true
     volume: 0.01
+  Worm Aetheric Raiders SKIN (Permanent):
+    id: 52703
+    marketGroup: 2031
+    name: Worm Aetheric Raiders SKIN (Permanent)
+    published: true
+    volume: 0.01
   Worm Glacial Drift SKIN (Permanent):
     id: 46873
     marketGroup: 2031
@@ -17082,6 +17668,12 @@ items:
     id: 49424
     marketGroup: 1975
     name: Wyvern Headhunter SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Wyvern Kimotoro Eskeitan SKIN (Permanent):
+    id: 52642
+    marketGroup: 1975
+    name: Wyvern Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
   Wyvern Matigu Seabeast SKIN (Permanent):
@@ -17195,11 +17787,5 @@ items:
     id: 52580
     marketGroup: 2069
     name: Zealot Star Captain SKIN (Permanent)
-    published: true
-    volume: 0.01
-  unnamed_g1950_ic0:
-    id: 52542
-    marketGroup: 2391
-    name: unnamed_g1950_ic0
     published: true
     volume: 0.01

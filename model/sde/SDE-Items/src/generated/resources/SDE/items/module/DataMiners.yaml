@@ -2,6 +2,7 @@ items:
   Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
     MaxRange: 5000
@@ -22,6 +23,7 @@ items:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
     Cpu: 25.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
     MaxRange: 6000
@@ -43,6 +45,7 @@ items:
     AccessDifficultyBonus: 6
     CapacitorNeed: 20.0
     Cpu: 25.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
     MaxRange: 6000
@@ -65,6 +68,7 @@ items:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
     Cpu: 25.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
     MaxRange: 5000
@@ -89,6 +93,7 @@ items:
     AccessDifficultyBonus: 5
     CanFitShipType1: 3532
     CapacitorNeed: 20.0
+    DisallowRepeatingActivation: 1
     Duration: 8000.0
     Hp: 40
     MaxRange: 10000
@@ -109,6 +114,7 @@ items:
   Relic Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
     MaxRange: 5000
@@ -129,6 +135,7 @@ items:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
     Cpu: 25.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
     MaxRange: 6000
@@ -150,6 +157,7 @@ items:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
     Cpu: 30.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
     MaxRange: 6000

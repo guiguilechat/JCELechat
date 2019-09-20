@@ -11,6 +11,7 @@ items:
     Hp: 70
     KineticDamage: 122.0
     LauncherGroup: 510
+    MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     MetaGroupID: 4
     RequiredSkill1: 3322
@@ -39,6 +40,7 @@ items:
     ExplosionDelay: 6500
     Hp: 70
     LauncherGroup: 510
+    MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     MetaGroupID: 4
     RequiredSkill1: 3322
@@ -69,6 +71,7 @@ items:
     ExplosionDelay: 6500
     Hp: 70
     LauncherGroup: 510
+    MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     MetaGroupID: 4
     RequiredSkill1: 3322
@@ -97,6 +100,7 @@ items:
     ExplosionDelay: 6500
     Hp: 70
     LauncherGroup: 510
+    MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
@@ -126,6 +130,7 @@ items:
     ExplosionDelay: 6500
     Hp: 70
     LauncherGroup: 510
+    MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
@@ -154,6 +159,7 @@ items:
     ExplosiveDamage: 107.0
     Hp: 70
     LauncherGroup: 510
+    MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
@@ -182,6 +188,7 @@ items:
     ExplosiveDamage: 122.0
     Hp: 70
     LauncherGroup: 510
+    MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     MetaGroupID: 4
     RequiredSkill1: 3322
@@ -211,6 +218,7 @@ items:
     Hp: 70
     KineticDamage: 107.0
     LauncherGroup: 510
+    MaxFOFTargetRange: 150000
     MaxVelocity: 4300.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1

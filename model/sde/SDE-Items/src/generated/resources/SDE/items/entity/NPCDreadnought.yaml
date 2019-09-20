@@ -6,8 +6,14 @@ items:
     published: false
     volume: 1.625E7
   ♦ Chemosh:
-    id: 45474
+    id: 45470
     mass: 1.29E9
     name: ♦ Chemosh
+    published: false
+    volume: 1.85E7
+  �� Chemosh:
+    id: 45474
+    mass: 1.29E9
+    name: �� Chemosh
     published: false
     volume: 1.85E7

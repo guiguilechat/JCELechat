@@ -16,6 +16,7 @@ items:
     CovertOpsStealthBomberTargettingDelay: 20000
     CpuNeedBonus: -99
     CpuOutput: 800
+    DurationBonus: -50
     EliteBonusBlackOps1: 10.0
     EliteBonusBlackOps2: 1.25
     EliteBonusBlackOps3: 20
@@ -128,6 +129,7 @@ items:
     CpuOutput: 510
     DroneBandwidth: 125
     DroneCapacity: 175
+    DurationBonus: -50
     EliteBonusBlackOps1: 5.0
     EliteBonusBlackOps2: 1.25
     EmDamageResonance: 0.6700000166893005
@@ -226,6 +228,7 @@ items:
     CpuOutput: 505
     DroneBandwidth: 125
     DroneCapacity: 125
+    DurationBonus: -50
     EliteBonusBlackOps1: 7.5
     EliteBonusBlackOps2: 1.25
     EmDamageResonance: 0.6700000166893005
@@ -324,6 +327,7 @@ items:
     CpuOutput: 600
     DroneBandwidth: 125
     DroneCapacity: 400
+    DurationBonus: -50
     EliteBonusBlackOps1: -5.0
     EliteBonusBlackOps2: 1.25
     EmDamageResonance: 0.6700000166893005
@@ -423,6 +427,7 @@ items:
     CpuOutput: 800
     DroneBandwidth: 75
     DroneCapacity: 75
+    DurationBonus: -50
     EliteBonusBlackOps1: 30.0
     EliteBonusBlackOps2: 1.25
     EmDamageResonance: 0.6700000166893005

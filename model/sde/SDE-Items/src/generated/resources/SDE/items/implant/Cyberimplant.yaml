@@ -1,5 +1,203 @@
 items:
+  High-grade Amulet Alpha:
+    ArmorHpBonus: 1
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.149999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 1
+    PerceptionBonus: 4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 20499
+    marketGroup: 618
+    name: High-grade Amulet Alpha
+    published: true
+    volume: 1.0
+  High-grade Amulet Beta:
+    ArmorHpBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.149999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 2
+    MemoryBonus: 4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 20501
+    marketGroup: 619
+    name: High-grade Amulet Beta
+    published: true
+    volume: 1.0
+  High-grade Amulet Delta:
+    ArmorHpBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.149999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 4
+    IntelligenceBonus: 4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 20503
+    marketGroup: 621
+    name: High-grade Amulet Delta
+    published: true
+    volume: 1.0
+  High-grade Amulet Epsilon:
+    ArmorHpBonus: 5
+    CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.149999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 20505
+    marketGroup: 622
+    name: High-grade Amulet Epsilon
+    published: true
+    volume: 1.0
+  High-grade Amulet Gamma:
+    ArmorHpBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.149999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    WillpowerBonus: 4
+    id: 20507
+    marketGroup: 620
+    name: High-grade Amulet Gamma
+    published: true
+    volume: 1.0
+  High-grade Amulet Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.5
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 20509
+    marketGroup: 1506
+    name: High-grade Amulet Omega
+    published: true
+    volume: 1.0
   High-grade Ascendancy Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -21,6 +219,7 @@ items:
     PerceptionBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 1
     id: 33516
@@ -29,6 +228,8 @@ items:
     published: true
     volume: 1.0
   High-grade Ascendancy Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -50,6 +251,7 @@ items:
     MemoryBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 2
     id: 33525
@@ -59,6 +261,8 @@ items:
     published: true
     volume: 1.0
   High-grade Ascendancy Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -80,6 +284,7 @@ items:
     IntelligenceBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 4
     id: 33526
@@ -90,6 +295,8 @@ items:
     volume: 1.0
   High-grade Ascendancy Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -110,6 +317,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 5
     id: 33527
@@ -119,6 +327,8 @@ items:
     published: true
     volume: 1.0
   High-grade Ascendancy Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -139,6 +349,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 3
     WillpowerBonus: 4
@@ -149,6 +360,8 @@ items:
     published: true
     volume: 1.0
   High-grade Ascendancy Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -169,6 +382,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33529
     marketGroup: 1506
@@ -178,6 +392,8 @@ items:
     volume: 1.0
   High-grade Asklepian Alpha:
     ArmorRepairBonus: 1
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -200,6 +416,7 @@ items:
     PerceptionBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42210
     marketGroup: 618
@@ -209,6 +426,8 @@ items:
     volume: 1.0
   High-grade Asklepian Beta:
     ArmorRepairBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -231,6 +450,7 @@ items:
     MemoryBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42211
     marketGroup: 619
@@ -240,6 +460,8 @@ items:
     volume: 1.0
   High-grade Asklepian Delta:
     ArmorRepairBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -262,6 +484,7 @@ items:
     IntelligenceBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42213
     marketGroup: 621
@@ -272,6 +495,8 @@ items:
   High-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -293,6 +518,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42214
     marketGroup: 622
@@ -302,6 +528,8 @@ items:
     volume: 1.0
   High-grade Asklepian Gamma:
     ArmorRepairBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -323,6 +551,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 4
     id: 42212
@@ -332,6 +561,8 @@ items:
     published: true
     volume: 1.0
   High-grade Asklepian Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -353,6 +584,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42215
     marketGroup: 1506
@@ -361,6 +593,8 @@ items:
     published: true
     volume: 1.0
   High-grade Crystal Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -382,6 +616,7 @@ items:
     PerceptionBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
     id: 20121
@@ -391,6 +626,8 @@ items:
     published: true
     volume: 1.0
   High-grade Crystal Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -412,6 +649,7 @@ items:
     MemoryBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
     id: 20157
@@ -421,6 +659,8 @@ items:
     published: true
     volume: 1.0
   High-grade Crystal Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -442,6 +682,7 @@ items:
     IntelligenceBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
     id: 20159
@@ -452,6 +693,8 @@ items:
     volume: 1.0
   High-grade Crystal Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -472,6 +715,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
     id: 20160
@@ -481,6 +725,8 @@ items:
     published: true
     volume: 1.0
   High-grade Crystal Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -501,6 +747,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
     WillpowerBonus: 4
@@ -511,6 +758,8 @@ items:
     published: true
     volume: 1.0
   High-grade Crystal Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -531,6 +780,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 20161
     marketGroup: 1506
@@ -539,6 +789,8 @@ items:
     published: true
     volume: 1.0
   High-grade Grail Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -561,6 +813,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanRadarStrengthPercent: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31954
     marketGroup: 618
@@ -568,6 +821,8 @@ items:
     published: true
     volume: 1.0
   High-grade Grail Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -590,6 +845,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanRadarStrengthPercent: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31955
     marketGroup: 619
@@ -597,6 +853,8 @@ items:
     published: true
     volume: 1.0
   High-grade Grail Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -619,6 +877,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanRadarStrengthPercent: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31956
     marketGroup: 621
@@ -627,6 +886,8 @@ items:
     volume: 1.0
   High-grade Grail Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -648,6 +909,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanRadarStrengthPercent: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31957
     marketGroup: 622
@@ -655,6 +917,8 @@ items:
     published: true
     volume: 1.0
   High-grade Grail Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -676,6 +940,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanRadarStrengthPercent: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 4
     id: 31958
@@ -684,6 +949,8 @@ items:
     published: true
     volume: 1.0
   High-grade Grail Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -704,6 +971,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31959
     marketGroup: 1506
@@ -711,6 +979,8 @@ items:
     published: true
     volume: 1.0
   High-grade Halo Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -732,6 +1002,7 @@ items:
     PerceptionBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.0
     TechLevel: 2
     id: 20498
@@ -740,6 +1011,8 @@ items:
     published: true
     volume: 1.0
   High-grade Halo Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -761,6 +1034,7 @@ items:
     MemoryBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.25
     TechLevel: 2
     id: 20500
@@ -769,6 +1043,8 @@ items:
     published: true
     volume: 1.0
   High-grade Halo Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -790,6 +1066,7 @@ items:
     IntelligenceBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.5
     TechLevel: 2
     id: 20502
@@ -799,6 +1076,8 @@ items:
     volume: 1.0
   High-grade Halo Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -819,6 +1098,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -2.0
     TechLevel: 2
     id: 20504
@@ -827,6 +1107,8 @@ items:
     published: true
     volume: 1.0
   High-grade Halo Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -847,6 +1129,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.75
     TechLevel: 2
     WillpowerBonus: 4
@@ -856,6 +1139,8 @@ items:
     published: true
     volume: 1.0
   High-grade Halo Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.5
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -876,6 +1161,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 20508
     marketGroup: 1506
@@ -883,6 +1169,8 @@ items:
     published: true
     volume: 1.0
   High-grade Jackal Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -905,6 +1193,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanLadarStrengthPercent: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31974
     marketGroup: 618
@@ -912,6 +1201,8 @@ items:
     published: true
     volume: 1.0
   High-grade Jackal Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -934,6 +1225,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanLadarStrengthPercent: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31975
     marketGroup: 619
@@ -941,6 +1233,8 @@ items:
     published: true
     volume: 1.0
   High-grade Jackal Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -963,6 +1257,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanLadarStrengthPercent: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31976
     marketGroup: 621
@@ -971,6 +1266,8 @@ items:
     volume: 1.0
   High-grade Jackal Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -992,6 +1289,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanLadarStrengthPercent: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31977
     marketGroup: 622
@@ -999,6 +1297,8 @@ items:
     published: true
     volume: 1.0
   High-grade Jackal Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1020,6 +1320,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanLadarStrengthPercent: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 4
     id: 31978
@@ -1028,6 +1329,8 @@ items:
     published: true
     volume: 1.0
   High-grade Jackal Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1048,191 +1351,16 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31979
     marketGroup: 1506
     name: High-grade Jackal Omega
     published: true
     volume: 1.0
-  High-grade Slave Alpha:
-    ArmorHpBonus: 1
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.149999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 1
-    PerceptionBonus: 4
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 2
-    id: 20499
-    marketGroup: 618
-    name: High-grade Slave Alpha
-    published: true
-    volume: 1.0
-  High-grade Slave Beta:
-    ArmorHpBonus: 2
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.149999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 2
-    MemoryBonus: 4
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 2
-    id: 20501
-    marketGroup: 619
-    name: High-grade Slave Beta
-    published: true
-    volume: 1.0
-  High-grade Slave Delta:
-    ArmorHpBonus: 4
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.149999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 4
-    IntelligenceBonus: 4
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 2
-    id: 20503
-    marketGroup: 621
-    name: High-grade Slave Delta
-    published: true
-    volume: 1.0
-  High-grade Slave Epsilon:
-    ArmorHpBonus: 5
-    CharismaBonus: 4
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.149999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 5
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 2
-    id: 20505
-    marketGroup: 622
-    name: High-grade Slave Epsilon
-    published: true
-    volume: 1.0
-  High-grade Slave Gamma:
-    ArmorHpBonus: 3
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.149999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 3
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 2
-    WillpowerBonus: 4
-    id: 20507
-    marketGroup: 620
-    name: High-grade Slave Gamma
-    published: true
-    volume: 1.0
-  High-grade Slave Omega:
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.5
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 6
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 2
-    id: 20509
-    marketGroup: 1506
-    name: High-grade Slave Omega
-    published: true
-    volume: 1.0
   High-grade Snake Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1255,6 +1383,7 @@ items:
     PerceptionBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
     VelocityBonus: 0.5
@@ -1265,6 +1394,8 @@ items:
     published: true
     volume: 1.0
   High-grade Snake Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1287,6 +1418,7 @@ items:
     MemoryBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
     VelocityBonus: 0.625
@@ -1297,6 +1429,8 @@ items:
     published: true
     volume: 1.0
   High-grade Snake Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1319,6 +1453,7 @@ items:
     IntelligenceBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.03999999910593033
     TechLevel: 2
     VelocityBonus: 0.875
@@ -1330,6 +1465,8 @@ items:
     volume: 1.0
   High-grade Snake Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1351,6 +1488,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
     VelocityBonus: 1.0
@@ -1361,6 +1499,8 @@ items:
     published: true
     volume: 1.0
   High-grade Snake Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1382,6 +1522,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
     VelocityBonus: 0.75
@@ -1393,6 +1534,8 @@ items:
     published: true
     volume: 1.0
   High-grade Snake Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1414,6 +1557,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 19556
     marketGroup: 1506
@@ -1422,6 +1566,8 @@ items:
     published: true
     volume: 1.0
   High-grade Spur Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1444,6 +1590,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthPercent: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31968
     marketGroup: 618
@@ -1451,6 +1598,8 @@ items:
     published: true
     volume: 1.0
   High-grade Spur Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1473,6 +1622,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthPercent: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31969
     marketGroup: 619
@@ -1480,6 +1630,8 @@ items:
     published: true
     volume: 1.0
   High-grade Spur Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1502,6 +1654,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthPercent: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31970
     marketGroup: 621
@@ -1510,6 +1663,8 @@ items:
     volume: 1.0
   High-grade Spur Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1531,6 +1686,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanMagnetometricStrengthPercent: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31971
     marketGroup: 622
@@ -1538,6 +1694,8 @@ items:
     published: true
     volume: 1.0
   High-grade Spur Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1559,6 +1717,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthPercent: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 4
     id: 31972
@@ -1567,6 +1726,8 @@ items:
     published: true
     volume: 1.0
   High-grade Spur Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1587,6 +1748,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31973
     marketGroup: 1506
@@ -1594,6 +1756,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talisman Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -1
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.149999976158142
@@ -1616,6 +1780,7 @@ items:
     PerceptionBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 19534
     marketGroup: 618
@@ -1624,6 +1789,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talisman Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -2
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.149999976158142
@@ -1646,6 +1813,7 @@ items:
     MemoryBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 19535
     marketGroup: 619
@@ -1654,6 +1822,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talisman Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -4
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.149999976158142
@@ -1676,6 +1846,7 @@ items:
     IntelligenceBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 19537
     marketGroup: 621
@@ -1685,6 +1856,8 @@ items:
     volume: 1.0
   High-grade Talisman Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -5
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.149999976158142
@@ -1706,6 +1879,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 19538
     marketGroup: 622
@@ -1714,6 +1888,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talisman Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -3
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.149999976158142
@@ -1735,6 +1911,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 4
     id: 19536
@@ -1744,6 +1921,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talisman Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.5
     ImplantSetCaldariNavy: 1.0
@@ -1764,6 +1943,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 19539
     marketGroup: 1506
@@ -1772,6 +1952,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talon Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.149999976158142
@@ -1794,6 +1976,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31962
     marketGroup: 618
@@ -1801,6 +1984,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talon Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.149999976158142
@@ -1823,6 +2008,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31963
     marketGroup: 619
@@ -1830,6 +2016,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talon Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.149999976158142
@@ -1852,6 +2040,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanGravimetricStrengthPercent: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31964
     marketGroup: 621
@@ -1860,6 +2049,8 @@ items:
     volume: 1.0
   High-grade Talon Epsilon:
     CharismaBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.149999976158142
@@ -1881,6 +2072,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanGravimetricStrengthPercent: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31965
     marketGroup: 622
@@ -1888,6 +2080,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talon Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.149999976158142
@@ -1909,6 +2103,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanGravimetricStrengthPercent: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 4
     id: 31966
@@ -1917,6 +2112,8 @@ items:
     published: true
     volume: 1.0
   High-grade Talon Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 2.0
@@ -1937,14 +2134,400 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 31967
     marketGroup: 1506
     name: High-grade Talon Omega
     published: true
     volume: 1.0
+  Low-Grade Mimesis Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: -0.33000001311302185
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 1
+    PerceptionBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.2000000476837158
+    TechLevel: 2
+    id: 52674
+    marketGroup: 618
+    name: Low-Grade Mimesis Alpha
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Low-Grade Mimesis Beta:
+    DamageMultiplierBonusMaxModifier: 1.5
+    DamageMultiplierBonusPerCycleModifier: -0.33000001311302185
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 2
+    MemoryBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.2000000476837158
+    TechLevel: 2
+    id: 52679
+    marketGroup: 619
+    name: Low-Grade Mimesis Beta
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Low-Grade Mimesis Delta:
+    DamageMultiplierBonusMaxModifier: 2.5
+    DamageMultiplierBonusPerCycleModifier: -0.33000001311302185
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 4
+    IntelligenceBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.2000000476837158
+    TechLevel: 2
+    id: 52681
+    marketGroup: 621
+    name: Low-Grade Mimesis Delta
+    published: true
+    volume: 1.0
+  Low-Grade Mimesis Epsilon:
+    CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 3.0
+    DamageMultiplierBonusPerCycleModifier: -0.33000001311302185
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.2000000476837158
+    TechLevel: 2
+    id: 52682
+    marketGroup: 622
+    name: Low-Grade Mimesis Epsilon
+    published: true
+    volume: 1.0
+  Low-Grade Mimesis Gamma:
+    DamageMultiplierBonusMaxModifier: 2.0
+    DamageMultiplierBonusPerCycleModifier: -0.33000001311302185
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.2000000476837158
+    TechLevel: 2
+    WillpowerBonus: 2
+    id: 52680
+    marketGroup: 620
+    name: Low-Grade Mimesis Gamma
+    published: true
+    volume: 1.0
+  Low-Grade Mimesis Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.5
+    TechLevel: 2
+    id: 52683
+    marketGroup: 1506
+    name: Low-Grade Mimesis Omega
+    published: true
+    volume: 1.0
+  Low-grade Amulet Alpha:
+    ArmorHpBonus: 1
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.024999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 1
+    PerceptionBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 33953
+    marketGroup: 618
+    name: Low-grade Amulet Alpha
+    published: true
+    volume: 1.0
+  Low-grade Amulet Beta:
+    ArmorHpBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.024999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 2
+    MemoryBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 33954
+    marketGroup: 619
+    name: Low-grade Amulet Beta
+    published: true
+    volume: 1.0
+  Low-grade Amulet Delta:
+    ArmorHpBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.024999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 4
+    IntelligenceBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 33955
+    marketGroup: 621
+    name: Low-grade Amulet Delta
+    published: true
+    volume: 1.0
+  Low-grade Amulet Epsilon:
+    ArmorHpBonus: 5
+    CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.024999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 33956
+    marketGroup: 622
+    name: Low-grade Amulet Epsilon
+    published: true
+    volume: 1.0
+  Low-grade Amulet Gamma:
+    ArmorHpBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.024999976158142
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    WillpowerBonus: 2
+    id: 33957
+    marketGroup: 620
+    name: Low-grade Amulet Gamma
+    published: true
+    volume: 1.0
+  Low-grade Amulet Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.100000023841858
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 33958
+    marketGroup: 1506
+    name: Low-grade Amulet Omega
+    published: true
+    volume: 1.0
   Low-grade Asklepian Alpha:
     ArmorRepairBonus: 1
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1967,6 +2550,7 @@ items:
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42145
     marketGroup: 618
@@ -1975,6 +2559,8 @@ items:
     volume: 1.0
   Low-grade Asklepian Beta:
     ArmorRepairBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -1997,6 +2583,7 @@ items:
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42146
     marketGroup: 619
@@ -2005,6 +2592,8 @@ items:
     volume: 1.0
   Low-grade Asklepian Delta:
     ArmorRepairBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2027,6 +2616,7 @@ items:
     IntelligenceBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42200
     marketGroup: 621
@@ -2036,6 +2626,8 @@ items:
   Low-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2057,6 +2649,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42201
     marketGroup: 622
@@ -2065,6 +2658,8 @@ items:
     volume: 1.0
   Low-grade Asklepian Gamma:
     ArmorRepairBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2086,6 +2681,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 42202
@@ -2094,6 +2690,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Asklepian Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2115,6 +2713,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42203
     marketGroup: 1506
@@ -2122,6 +2721,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Centurion Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2144,6 +2745,7 @@ items:
     RangeSkillBonus: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33917
     marketGroup: 618
@@ -2151,6 +2753,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Centurion Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2173,6 +2777,7 @@ items:
     RangeSkillBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33918
     marketGroup: 619
@@ -2180,6 +2785,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Centurion Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2202,6 +2809,7 @@ items:
     RangeSkillBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33919
     marketGroup: 621
@@ -2210,6 +2818,8 @@ items:
     volume: 1.0
   Low-grade Centurion Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2231,6 +2841,7 @@ items:
     RangeSkillBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33920
     marketGroup: 622
@@ -2238,6 +2849,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Centurion Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2259,6 +2872,7 @@ items:
     RangeSkillBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 33921
@@ -2267,6 +2881,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Centurion Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2287,6 +2903,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33922
     marketGroup: 1506
@@ -2294,6 +2911,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Crystal Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2315,6 +2934,7 @@ items:
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
     id: 33923
@@ -2323,6 +2943,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Crystal Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2344,6 +2966,7 @@ items:
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
     id: 33924
@@ -2352,6 +2975,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Crystal Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2373,6 +2998,7 @@ items:
     IntelligenceBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
     id: 33925
@@ -2382,6 +3008,8 @@ items:
     volume: 1.0
   Low-grade Crystal Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2402,6 +3030,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
     id: 33926
@@ -2410,6 +3039,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Crystal Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2430,6 +3061,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
     WillpowerBonus: 2
@@ -2439,6 +3071,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Crystal Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2459,6 +3093,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33928
     marketGroup: 1506
@@ -2467,6 +3102,8 @@ items:
     volume: 1.0
   Low-grade Edge Alpha:
     BoosterAttributeModifier: -1
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2488,6 +3125,7 @@ items:
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33929
     marketGroup: 618
@@ -2496,6 +3134,8 @@ items:
     volume: 1.0
   Low-grade Edge Beta:
     BoosterAttributeModifier: -2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2517,6 +3157,7 @@ items:
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33930
     marketGroup: 619
@@ -2525,6 +3166,8 @@ items:
     volume: 1.0
   Low-grade Edge Delta:
     BoosterAttributeModifier: -4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2546,6 +3189,7 @@ items:
     IntelligenceBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33931
     marketGroup: 621
@@ -2555,6 +3199,8 @@ items:
   Low-grade Edge Epsilon:
     BoosterAttributeModifier: -5
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2575,6 +3221,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33932
     marketGroup: 622
@@ -2583,6 +3230,8 @@ items:
     volume: 1.0
   Low-grade Edge Gamma:
     BoosterAttributeModifier: -3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2603,6 +3252,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 33933
@@ -2611,6 +3261,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Edge Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2631,6 +3283,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33934
     marketGroup: 1506
@@ -2638,6 +3291,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Grail Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2660,6 +3315,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanRadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32101
     marketGroup: 618
@@ -2667,6 +3323,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Grail Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2689,6 +3347,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanRadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32102
     marketGroup: 619
@@ -2696,6 +3355,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Grail Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2718,6 +3379,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanRadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32103
     marketGroup: 621
@@ -2726,6 +3388,8 @@ items:
     volume: 1.0
   Low-grade Grail Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2747,6 +3411,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanRadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32104
     marketGroup: 622
@@ -2754,6 +3419,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Grail Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2775,6 +3442,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanRadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 32105
@@ -2783,6 +3451,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Grail Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2803,6 +3473,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32122
     marketGroup: 1506
@@ -2810,6 +3481,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Halo Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2831,6 +3504,7 @@ items:
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.0
     TechLevel: 2
     id: 33935
@@ -2839,6 +3513,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Halo Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2860,6 +3536,7 @@ items:
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.25
     TechLevel: 2
     id: 33936
@@ -2868,6 +3545,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Halo Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2889,6 +3568,7 @@ items:
     IntelligenceBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.5
     TechLevel: 2
     id: 33937
@@ -2898,6 +3578,8 @@ items:
     volume: 1.0
   Low-grade Halo Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2918,6 +3600,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -2.0
     TechLevel: 2
     id: 33938
@@ -2926,6 +3609,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Halo Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2946,6 +3631,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.75
     TechLevel: 2
     WillpowerBonus: 2
@@ -2955,6 +3641,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Halo Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -2975,6 +3663,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33940
     marketGroup: 1506
@@ -2982,6 +3671,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Harvest Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3004,6 +3695,7 @@ items:
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33941
     marketGroup: 618
@@ -3011,6 +3703,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Harvest Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3033,6 +3727,7 @@ items:
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33942
     marketGroup: 619
@@ -3040,6 +3735,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Harvest Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3062,6 +3759,7 @@ items:
     MaxRangeBonus: 4.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33943
     marketGroup: 621
@@ -3070,6 +3768,8 @@ items:
     volume: 1.0
   Low-grade Harvest Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3091,6 +3791,7 @@ items:
     MaxRangeBonus: 5.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33944
     marketGroup: 622
@@ -3098,6 +3799,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Harvest Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3119,6 +3822,7 @@ items:
     MaxRangeBonus: 3.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 33945
@@ -3127,6 +3831,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Harvest Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3147,6 +3853,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33946
     marketGroup: 1506
@@ -3154,6 +3861,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Jackal Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3176,6 +3885,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanLadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32117
     marketGroup: 618
@@ -3183,6 +3893,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Jackal Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3205,6 +3917,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanLadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32118
     marketGroup: 619
@@ -3212,6 +3925,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Jackal Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3234,6 +3949,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanLadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32119
     marketGroup: 621
@@ -3242,6 +3958,8 @@ items:
     volume: 1.0
   Low-grade Jackal Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3263,6 +3981,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanLadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32120
     marketGroup: 622
@@ -3270,6 +3989,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Jackal Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3291,6 +4012,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanLadarStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 32121
@@ -3299,6 +4021,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Jackal Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3319,6 +4043,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32123
     marketGroup: 1506
@@ -3327,6 +4052,8 @@ items:
     volume: 1.0
   Low-grade Nomad Alpha:
     AgilityBonus: -1.0
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3348,6 +4075,7 @@ items:
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33947
     marketGroup: 618
@@ -3356,6 +4084,8 @@ items:
     volume: 1.0
   Low-grade Nomad Beta:
     AgilityBonus: -2.0
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3377,6 +4107,7 @@ items:
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33948
     marketGroup: 619
@@ -3385,6 +4116,8 @@ items:
     volume: 1.0
   Low-grade Nomad Delta:
     AgilityBonus: -4.0
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3406,6 +4139,7 @@ items:
     IntelligenceBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33949
     marketGroup: 621
@@ -3415,6 +4149,8 @@ items:
   Low-grade Nomad Epsilon:
     AgilityBonus: -5.0
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3435,6 +4171,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33950
     marketGroup: 622
@@ -3443,6 +4180,8 @@ items:
     volume: 1.0
   Low-grade Nomad Gamma:
     AgilityBonus: -3.0
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3463,6 +4202,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 33951
@@ -3471,6 +4211,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Nomad Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3491,191 +4233,16 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33952
     marketGroup: 1506
     name: Low-grade Nomad Omega
     published: true
     volume: 1.0
-  Low-grade Slave Alpha:
-    ArmorHpBonus: 1
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.024999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 1
-    PerceptionBonus: 2
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 2
-    id: 33953
-    marketGroup: 618
-    name: Low-grade Slave Alpha
-    published: true
-    volume: 1.0
-  Low-grade Slave Beta:
-    ArmorHpBonus: 2
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.024999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 2
-    MemoryBonus: 2
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 2
-    id: 33954
-    marketGroup: 619
-    name: Low-grade Slave Beta
-    published: true
-    volume: 1.0
-  Low-grade Slave Delta:
-    ArmorHpBonus: 4
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.024999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 4
-    IntelligenceBonus: 2
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 2
-    id: 33955
-    marketGroup: 621
-    name: Low-grade Slave Delta
-    published: true
-    volume: 1.0
-  Low-grade Slave Epsilon:
-    ArmorHpBonus: 5
-    CharismaBonus: 2
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.024999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 5
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 2
-    id: 33956
-    marketGroup: 622
-    name: Low-grade Slave Epsilon
-    published: true
-    volume: 1.0
-  Low-grade Slave Gamma:
-    ArmorHpBonus: 3
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.024999976158142
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 3
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 2
-    WillpowerBonus: 2
-    id: 33957
-    marketGroup: 620
-    name: Low-grade Slave Gamma
-    published: true
-    volume: 1.0
-  Low-grade Slave Omega:
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.100000023841858
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 6
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 2
-    id: 33958
-    marketGroup: 1506
-    name: Low-grade Slave Omega
-    published: true
-    volume: 1.0
   Low-grade Snake Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3698,6 +4265,7 @@ items:
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
     VelocityBonus: 0.5
@@ -3707,6 +4275,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Snake Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3729,6 +4299,7 @@ items:
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
     VelocityBonus: 0.625
@@ -3738,6 +4309,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Snake Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3760,6 +4333,7 @@ items:
     IntelligenceBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
     VelocityBonus: 0.875
@@ -3770,6 +4344,8 @@ items:
     volume: 1.0
   Low-grade Snake Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3791,6 +4367,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
     VelocityBonus: 1.0
@@ -3800,6 +4377,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Snake Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3821,6 +4400,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
     VelocityBonus: 0.75
@@ -3831,6 +4411,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Snake Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3852,6 +4434,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33964
     marketGroup: 1506
@@ -3859,6 +4442,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Spur Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3881,6 +4466,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32107
     marketGroup: 618
@@ -3888,6 +4474,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Spur Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3910,6 +4498,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32108
     marketGroup: 619
@@ -3917,6 +4506,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Spur Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3939,6 +4530,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32109
     marketGroup: 621
@@ -3947,6 +4539,8 @@ items:
     volume: 1.0
   Low-grade Spur Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3968,6 +4562,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanMagnetometricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32110
     marketGroup: 622
@@ -3975,6 +4570,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Spur Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -3996,6 +4593,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 32111
@@ -4004,6 +4602,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Spur Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4024,6 +4624,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32124
     marketGroup: 1506
@@ -4031,6 +4632,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talisman Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -1
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.024999976158142
@@ -4053,6 +4656,7 @@ items:
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33965
     marketGroup: 618
@@ -4060,6 +4664,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talisman Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -2
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.024999976158142
@@ -4082,6 +4688,7 @@ items:
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33966
     marketGroup: 619
@@ -4089,6 +4696,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talisman Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -4
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.024999976158142
@@ -4111,6 +4720,7 @@ items:
     IntelligenceBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33967
     marketGroup: 621
@@ -4119,6 +4729,8 @@ items:
     volume: 1.0
   Low-grade Talisman Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -5
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.024999976158142
@@ -4140,6 +4752,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33968
     marketGroup: 622
@@ -4147,6 +4760,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talisman Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -3
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.024999976158142
@@ -4168,6 +4783,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 33969
@@ -4176,6 +4792,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talisman Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.100000023841858
     ImplantSetCaldariNavy: 1.0
@@ -4196,6 +4814,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33970
     marketGroup: 1506
@@ -4203,6 +4822,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talon Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4225,6 +4846,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanGravimetricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32112
     marketGroup: 618
@@ -4232,6 +4854,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talon Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4254,6 +4878,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanGravimetricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32113
     marketGroup: 619
@@ -4261,6 +4886,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talon Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4283,6 +4910,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanGravimetricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32114
     marketGroup: 621
@@ -4291,6 +4919,8 @@ items:
     volume: 1.0
   Low-grade Talon Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4312,6 +4942,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanGravimetricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32115
     marketGroup: 622
@@ -4319,6 +4950,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talon Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4340,6 +4973,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanGravimetricStrengthModifier: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 32116
@@ -4348,6 +4982,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Talon Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4368,6 +5004,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 32125
     marketGroup: 1506
@@ -4375,6 +5012,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Virtue Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4397,6 +5036,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanStrengthBonus: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33971
     marketGroup: 618
@@ -4404,6 +5044,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Virtue Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4426,6 +5068,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanStrengthBonus: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33972
     marketGroup: 619
@@ -4433,6 +5076,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Virtue Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4455,6 +5100,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanStrengthBonus: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33973
     marketGroup: 621
@@ -4463,6 +5109,8 @@ items:
     volume: 1.0
   Low-grade Virtue Epsilon:
     CharismaBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4484,6 +5132,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanStrengthBonus: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33974
     marketGroup: 622
@@ -4491,6 +5140,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Virtue Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4512,6 +5163,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanStrengthBonus: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 2
     id: 33975
@@ -4520,6 +5172,8 @@ items:
     published: true
     volume: 1.0
   Low-grade Virtue Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4540,13 +5194,212 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33976
     marketGroup: 1506
     name: Low-grade Virtue Omega
     published: true
     volume: 1.0
+  Mid-grade Amulet Alpha:
+    ArmorHpBonus: 1
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.100000023841858
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 1
+    PerceptionBonus: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 22119
+    marketGroup: 618
+    name: Mid-grade Amulet Alpha
+    published: true
+    volume: 1.0
+  Mid-grade Amulet Beta:
+    ArmorHpBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.100000023841858
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 2
+    MemoryBonus: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 22120
+    marketGroup: 619
+    name: Mid-grade Amulet Beta
+    published: true
+    volume: 1.0
+  Mid-grade Amulet Delta:
+    ArmorHpBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.100000023841858
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 4
+    IntelligenceBonus: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 22121
+    marketGroup: 621
+    name: Mid-grade Amulet Delta
+    published: true
+    volume: 1.0
+  Mid-grade Amulet Epsilon:
+    ArmorHpBonus: 5
+    CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.100000023841858
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 22122
+    marketGroup: 622
+    name: Mid-grade Amulet Epsilon
+    published: true
+    volume: 1.0
+  Mid-grade Amulet Gamma:
+    ArmorHpBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.100000023841858
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    WillpowerBonus: 3
+    id: 22123
+    marketGroup: 620
+    name: Mid-grade Amulet Gamma
+    published: true
+    volume: 1.0
+  Mid-grade Amulet Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAmulet: 1.25
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
+    TechLevel: 2
+    id: 22124
+    marketGroup: 1506
+    name: Mid-grade Amulet Omega
+    published: true
+    volume: 1.0
   Mid-grade Ascendancy Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4568,6 +5421,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 1
     id: 33555
@@ -4576,6 +5430,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Ascendancy Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4597,6 +5453,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 2
     id: 33557
@@ -4606,6 +5463,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Ascendancy Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4627,6 +5486,7 @@ items:
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 4
     id: 33559
@@ -4637,6 +5497,8 @@ items:
     volume: 1.0
   Mid-grade Ascendancy Epsilon:
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4657,6 +5519,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 5
     id: 33561
@@ -4666,6 +5529,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Ascendancy Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4686,6 +5551,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WarpSBonus: 3
     WillpowerBonus: 3
@@ -4696,6 +5562,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Ascendancy Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4716,6 +5584,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 33565
     marketGroup: 1506
@@ -4725,6 +5594,8 @@ items:
     volume: 1.0
   Mid-grade Asklepian Alpha:
     ArmorRepairBonus: 1
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4747,6 +5618,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42204
     marketGroup: 618
@@ -4755,6 +5627,8 @@ items:
     volume: 1.0
   Mid-grade Asklepian Beta:
     ArmorRepairBonus: 2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4777,6 +5651,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42205
     marketGroup: 619
@@ -4785,6 +5660,8 @@ items:
     volume: 1.0
   Mid-grade Asklepian Delta:
     ArmorRepairBonus: 4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4807,6 +5684,7 @@ items:
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42207
     marketGroup: 621
@@ -4816,6 +5694,8 @@ items:
   Mid-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4837,6 +5717,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42208
     marketGroup: 622
@@ -4845,6 +5726,8 @@ items:
     volume: 1.0
   Mid-grade Asklepian Gamma:
     ArmorRepairBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4866,6 +5749,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 3
     id: 42206
@@ -4874,6 +5758,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Asklepian Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4895,6 +5781,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 42209
     marketGroup: 1506
@@ -4902,6 +5789,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Centurion Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4924,6 +5813,7 @@ items:
     RangeSkillBonus: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28790
     marketGroup: 618
@@ -4931,6 +5821,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Centurion Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4953,6 +5845,7 @@ items:
     RangeSkillBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28791
     marketGroup: 619
@@ -4960,6 +5853,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Centurion Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -4982,6 +5877,7 @@ items:
     RangeSkillBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28792
     marketGroup: 621
@@ -4990,6 +5886,8 @@ items:
     volume: 1.0
   Mid-grade Centurion Epsilon:
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5011,6 +5909,7 @@ items:
     RangeSkillBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28793
     marketGroup: 622
@@ -5018,6 +5917,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Centurion Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5039,6 +5940,7 @@ items:
     RangeSkillBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 3
     id: 28794
@@ -5047,6 +5949,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Centurion Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5067,6 +5971,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28795
     marketGroup: 1506
@@ -5074,6 +5979,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Crystal Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5095,6 +6002,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
     id: 22107
@@ -5103,6 +6011,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Crystal Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5124,6 +6034,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
     id: 22108
@@ -5132,6 +6043,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Crystal Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5153,6 +6066,7 @@ items:
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
     id: 22109
@@ -5162,6 +6076,8 @@ items:
     volume: 1.0
   Mid-grade Crystal Epsilon:
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5182,6 +6098,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
     id: 22110
@@ -5190,6 +6107,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Crystal Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5210,6 +6129,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
     WillpowerBonus: 3
@@ -5219,6 +6139,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Crystal Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5239,6 +6161,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 22112
     marketGroup: 1506
@@ -5247,6 +6170,8 @@ items:
     volume: 1.0
   Mid-grade Edge Alpha:
     BoosterAttributeModifier: -1
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5268,6 +6193,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28814
     marketGroup: 618
@@ -5276,6 +6202,8 @@ items:
     volume: 1.0
   Mid-grade Edge Beta:
     BoosterAttributeModifier: -2
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5297,6 +6225,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28815
     marketGroup: 619
@@ -5305,6 +6234,8 @@ items:
     volume: 1.0
   Mid-grade Edge Delta:
     BoosterAttributeModifier: -4
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5326,6 +6257,7 @@ items:
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28816
     marketGroup: 621
@@ -5335,6 +6267,8 @@ items:
   Mid-grade Edge Epsilon:
     BoosterAttributeModifier: -5
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5355,6 +6289,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28817
     marketGroup: 622
@@ -5363,6 +6298,8 @@ items:
     volume: 1.0
   Mid-grade Edge Gamma:
     BoosterAttributeModifier: -3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5383,6 +6320,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 3
     id: 28818
@@ -5391,6 +6329,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Edge Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5411,6 +6351,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28819
     marketGroup: 1506
@@ -5418,6 +6359,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Halo Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5439,6 +6382,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.0
     TechLevel: 2
     id: 22113
@@ -5447,6 +6391,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Halo Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5468,6 +6414,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.25
     TechLevel: 2
     id: 22114
@@ -5476,6 +6423,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Halo Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5497,6 +6446,7 @@ items:
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.5
     TechLevel: 2
     id: 22115
@@ -5506,6 +6456,8 @@ items:
     volume: 1.0
   Mid-grade Halo Epsilon:
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5526,6 +6478,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -2.0
     TechLevel: 2
     id: 22116
@@ -5534,6 +6487,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Halo Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5554,6 +6509,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SignatureRadiusBonus: -1.75
     TechLevel: 2
     WillpowerBonus: 3
@@ -5563,6 +6519,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Halo Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.25
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5583,6 +6541,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 22118
     marketGroup: 1506
@@ -5590,6 +6549,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Harvest Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5612,6 +6573,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28802
     marketGroup: 618
@@ -5619,6 +6581,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Harvest Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5641,6 +6605,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28803
     marketGroup: 619
@@ -5648,6 +6613,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Harvest Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5670,6 +6637,7 @@ items:
     MaxRangeBonus: 4.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28804
     marketGroup: 621
@@ -5678,6 +6646,8 @@ items:
     volume: 1.0
   Mid-grade Harvest Epsilon:
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5699,6 +6669,7 @@ items:
     MaxRangeBonus: 5.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28805
     marketGroup: 622
@@ -5706,6 +6677,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Harvest Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5727,6 +6700,7 @@ items:
     MaxRangeBonus: 3.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 3
     id: 28806
@@ -5735,6 +6709,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Harvest Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5755,6 +6731,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28807
     marketGroup: 1506
@@ -5763,6 +6740,8 @@ items:
     volume: 1.0
   Mid-grade Nomad Alpha:
     AgilityBonus: -1.0
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5784,6 +6763,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28796
     marketGroup: 618
@@ -5792,6 +6772,8 @@ items:
     volume: 1.0
   Mid-grade Nomad Beta:
     AgilityBonus: -2.0
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5813,6 +6795,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28797
     marketGroup: 619
@@ -5821,6 +6804,8 @@ items:
     volume: 1.0
   Mid-grade Nomad Delta:
     AgilityBonus: -4.0
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5842,6 +6827,7 @@ items:
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28798
     marketGroup: 621
@@ -5851,6 +6837,8 @@ items:
   Mid-grade Nomad Epsilon:
     AgilityBonus: -5.0
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5871,6 +6859,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28799
     marketGroup: 622
@@ -5879,6 +6868,8 @@ items:
     volume: 1.0
   Mid-grade Nomad Gamma:
     AgilityBonus: -3.0
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5899,6 +6890,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 3
     id: 28800
@@ -5907,6 +6899,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Nomad Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -5927,191 +6921,16 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28801
     marketGroup: 1506
     name: Mid-grade Nomad Omega
     published: true
     volume: 1.0
-  Mid-grade Slave Alpha:
-    ArmorHpBonus: 1
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.100000023841858
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 1
-    PerceptionBonus: 3
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 2
-    id: 22119
-    marketGroup: 618
-    name: Mid-grade Slave Alpha
-    published: true
-    volume: 1.0
-  Mid-grade Slave Beta:
-    ArmorHpBonus: 2
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.100000023841858
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 2
-    MemoryBonus: 3
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 2
-    id: 22120
-    marketGroup: 619
-    name: Mid-grade Slave Beta
-    published: true
-    volume: 1.0
-  Mid-grade Slave Delta:
-    ArmorHpBonus: 4
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.100000023841858
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 4
-    IntelligenceBonus: 3
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 2
-    id: 22121
-    marketGroup: 621
-    name: Mid-grade Slave Delta
-    published: true
-    volume: 1.0
-  Mid-grade Slave Epsilon:
-    ArmorHpBonus: 5
-    CharismaBonus: 3
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.100000023841858
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 5
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 2
-    id: 22122
-    marketGroup: 622
-    name: Mid-grade Slave Epsilon
-    published: true
-    volume: 1.0
-  Mid-grade Slave Gamma:
-    ArmorHpBonus: 3
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.100000023841858
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 3
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 2
-    WillpowerBonus: 3
-    id: 22123
-    marketGroup: 620
-    name: Mid-grade Slave Gamma
-    published: true
-    volume: 1.0
-  Mid-grade Slave Omega:
-    ImplantSetAngel: 1.0
-    ImplantSetBloodraider: 2.0
-    ImplantSetCaldariNavy: 1.0
-    ImplantSetFederationNavy: 1.0
-    ImplantSetGuristas: 1.0
-    ImplantSetImperialNavy: 1.0
-    ImplantSetLGCaldariNavy: 1.0
-    ImplantSetLGFederationNavy: 1.0
-    ImplantSetLGImperialNavy: 1.0
-    ImplantSetLGRepublicFleet: 1.0
-    ImplantSetMordus: 1.0
-    ImplantSetORE: 1.0
-    ImplantSetRepublicFleet: 1.0
-    ImplantSetSansha: 1.25
-    ImplantSetSisters: 1.0
-    ImplantSetSyndicate: 1.0
-    ImplantSetThukker: 1.0
-    ImplantSetWarpSpeed: 1.0
-    Implantness: 6
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 2
-    id: 22124
-    marketGroup: 1506
-    name: Mid-grade Slave Omega
-    published: true
-    volume: 1.0
   Mid-grade Snake Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6134,6 +6953,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
     VelocityBonus: 0.5
@@ -6143,6 +6963,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Snake Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6165,6 +6987,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
     VelocityBonus: 0.625
@@ -6174,6 +6997,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Snake Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6196,6 +7021,7 @@ items:
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
     VelocityBonus: 0.875
@@ -6206,6 +7032,8 @@ items:
     volume: 1.0
   Mid-grade Snake Epsilon:
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6227,6 +7055,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
     VelocityBonus: 1.0
@@ -6236,6 +7065,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Snake Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6257,6 +7088,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
     VelocityBonus: 0.75
@@ -6267,6 +7099,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Snake Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6288,6 +7122,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 22130
     marketGroup: 1506
@@ -6295,6 +7130,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Talisman Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -1
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.100000023841858
@@ -6317,6 +7154,7 @@ items:
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 22131
     marketGroup: 618
@@ -6324,6 +7162,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Talisman Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -2
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.100000023841858
@@ -6346,6 +7186,7 @@ items:
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 22133
     marketGroup: 619
@@ -6353,6 +7194,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Talisman Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -4
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.100000023841858
@@ -6375,6 +7218,7 @@ items:
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 22134
     marketGroup: 621
@@ -6383,6 +7227,8 @@ items:
     volume: 1.0
   Mid-grade Talisman Epsilon:
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -5
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.100000023841858
@@ -6404,6 +7250,7 @@ items:
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 22135
     marketGroup: 622
@@ -6411,6 +7258,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Talisman Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     DurationBonus: -3
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.100000023841858
@@ -6432,6 +7281,7 @@ items:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 3
     id: 22136
@@ -6440,6 +7290,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Talisman Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.25
     ImplantSetCaldariNavy: 1.0
@@ -6460,6 +7312,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 22137
     marketGroup: 1506
@@ -6467,6 +7320,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Virtue Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6489,6 +7344,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanStrengthBonus: 1
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28808
     marketGroup: 618
@@ -6496,6 +7352,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Virtue Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6518,6 +7376,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     ScanStrengthBonus: 2
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28809
     marketGroup: 619
@@ -6525,6 +7384,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Virtue Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6547,6 +7408,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanStrengthBonus: 4
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28810
     marketGroup: 621
@@ -6555,6 +7417,8 @@ items:
     volume: 1.0
   Mid-grade Virtue Epsilon:
     CharismaBonus: 3
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6576,6 +7440,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     ScanStrengthBonus: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28811
     marketGroup: 622
@@ -6583,6 +7448,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Virtue Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6604,6 +7471,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanStrengthBonus: 3
+    SetBonusMimesis: 1.0
     TechLevel: 2
     WillpowerBonus: 3
     id: 28812
@@ -6612,6 +7480,8 @@ items:
     published: true
     volume: 1.0
   Mid-grade Virtue Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
     ImplantSetCaldariNavy: 1.0
@@ -6632,6 +7502,7 @@ items:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
+    SetBonusMimesis: 1.0
     TechLevel: 2
     id: 28813
     marketGroup: 1506

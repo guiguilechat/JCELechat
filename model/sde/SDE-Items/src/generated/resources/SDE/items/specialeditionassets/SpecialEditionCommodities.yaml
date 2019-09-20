@@ -476,13 +476,6 @@ items:
     name: Crunch Fuel
     published: true
     volume: 1.0
-  DO NOT TRANSLATE - Unused Crate:
-    CpuMultiplier: 1.0
-    id: 48645
-    marketGroup: 1661
-    name: DO NOT TRANSLATE - Unused Crate
-    published: true
-    volume: 100.0
   Damaged Ancient PEG:
     CpuMultiplier: 1.0
     id: 47053
@@ -1266,6 +1259,14 @@ items:
     name: Offensive Content Reports, Jan. YC120, vol. I
     published: true
     volume: 1.0
+  Pax e Kilizhi Do:
+    CpuMultiplier: 1.0
+    id: 52783
+    marketGroup: 1661
+    mass: 1.0
+    name: Pax e Kilizhi Do
+    published: true
+    volume: 1.0
   Permaband Tour Cap Crate:
     CpuMultiplier: 1.0
     id: 52292
@@ -1483,12 +1484,12 @@ items:
     name: Rules of Engagement
     published: true
     volume: 0.01
-  SCC Guidelines – Lotteries For Dummies:
+  SCC Guidelines �� Lotteries For Dummies:
     CpuMultiplier: 1.0
     id: 34425
     marketGroup: 1661
     mass: 10.0
-    name: SCC Guidelines – Lotteries For Dummies
+    name: SCC Guidelines �� Lotteries For Dummies
     published: true
     volume: 3.0
   Sani Sabik Murder Security Tapes:
@@ -1844,18 +1845,18 @@ items:
     name: YC117 Symposium On Emergent Threats Access Pass
     published: true
     volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Ardishapur:
-    CpuMultiplier: 1.0
-    id: 37892
-    marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree – House Ardishapur
-    published: true
-    volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Kador:
     CpuMultiplier: 1.0
     id: 37893
     marketGroup: 1661
     name: YC118 Succession Trial Champion’s Decree – House Kador
+    published: true
+    volume: 0.01
+  YC118 Succession Trial Champion’s Decree – House Khanid:
+    CpuMultiplier: 1.0
+    id: 37894
+    marketGroup: 1661
+    name: YC118 Succession Trial Champion’s Decree – House Khanid
     published: true
     volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Kor-Azor:
@@ -1879,11 +1880,11 @@ items:
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
     published: true
     volume: 0.01
-  YC118 Succession Trial Champion’s Decree �� House Khanid:
+  YC118 Succession Trial Champion���s Decree – House Ardishapur:
     CpuMultiplier: 1.0
-    id: 37894
+    id: 37892
     marketGroup: 1661
-    name: YC118 Succession Trial Champion’s Decree �� House Khanid
+    name: YC118 Succession Trial Champion���s Decree – House Ardishapur
     published: true
     volume: 0.01
   YC121 Guardian's Gala Ticket:

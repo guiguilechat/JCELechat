@@ -485,7 +485,7 @@ items:
     ShipBonusCC: 5
     ShipBonusGC: 7.5
     ShipBonusGC2: 10.0
-    ShipBonusGC3: 5
+    ShipBonusGC3: 5.0
     SignatureRadius: 145
     StructureUniformity: 1.0
     TechLevel: 2

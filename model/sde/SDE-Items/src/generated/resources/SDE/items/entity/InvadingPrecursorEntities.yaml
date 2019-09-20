@@ -1,152 +1,386 @@
 items:
   Anchoring Damavik:
-    id: 52484
+    id: 52207
     mass: 950000.0
     name: Anchoring Damavik
     published: false
     volume: 28600.0
   Anchoring Kikimora:
-    id: 52485
+    id: 52213
     mass: 1350000.0
     name: Anchoring Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
+  Anchoring Raznaborg Damavik:
+    id: 52650
+    mass: 950000.0
+    name: Anchoring Raznaborg Damavik
+    published: false
+    volume: 28600.0
+  Anchoring Raznaborg Kikimora:
+    id: 52651
+    mass: 1350000.0
+    name: Anchoring Raznaborg Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
+  Anchoring Sudenic Damavik:
+    id: 52484
+    mass: 950000.0
+    name: Anchoring Sudenic Damavik
+    published: false
+    volume: 28600.0
+  Anchoring Sudenic Kikimora:
+    id: 52485
+    mass: 1350000.0
+    name: Anchoring Sudenic Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
   Blinding Damavik:
-    id: 52493
+    id: 52209
     mass: 950000.0
     name: Blinding Damavik
     published: false
     volume: 28600.0
   Blinding Kikimora:
-    id: 52497
+    id: 52217
     mass: 1350000.0
     name: Blinding Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
   Blinding Leshak:
-    id: 52494
+    id: 52216
     mass: 6.3E7
     name: Blinding Leshak
     price: 1.125E8
     published: false
     volume: 495000.0
+  Blinding Raznaborg Damavik:
+    id: 52648
+    mass: 950000.0
+    name: Blinding Raznaborg Damavik
+    published: false
+    volume: 28600.0
+  Blinding Raznaborg Kikimora:
+    id: 52653
+    mass: 1350000.0
+    name: Blinding Raznaborg Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
+  Blinding Sudenic Damavik:
+    id: 52493
+    mass: 950000.0
+    name: Blinding Sudenic Damavik
+    published: false
+    volume: 28600.0
+  Blinding Sudenic Kikimora:
+    id: 52497
+    mass: 1350000.0
+    name: Blinding Sudenic Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
+  Blinding Sudenic Leshak:
+    id: 52494
+    mass: 6.3E7
+    name: Blinding Sudenic Leshak
+    price: 1.125E8
+    published: false
+    volume: 495000.0
   Ghosting Damavik:
-    id: 52486
+    id: 52210
     mass: 950000.0
     name: Ghosting Damavik
     published: false
     volume: 28600.0
   Ghosting Drekavac:
-    id: 52487
+    id: 52218
     mass: 9900000.0
     name: Ghosting Drekavac
     price: 1.65E8
     published: false
     volume: 233000.0
+  Ghosting Raznaborg Damavik:
+    id: 52652
+    mass: 950000.0
+    name: Ghosting Raznaborg Damavik
+    published: false
+    volume: 28600.0
+  Ghosting Sudenic Damavik:
+    id: 52486
+    mass: 950000.0
+    name: Ghosting Sudenic Damavik
+    published: false
+    volume: 28600.0
+  Ghosting Sudenic Drekavac:
+    id: 52487
+    mass: 9900000.0
+    name: Ghosting Sudenic Drekavac
+    price: 1.65E8
+    published: false
+    volume: 233000.0
   Harrowing Damavik:
-    id: 52498
+    id: 52206
     mass: 950000.0
     name: Harrowing Damavik
     published: false
     volume: 28600.0
   Harrowing Kikimora:
-    id: 52499
+    id: 52212
     mass: 1350000.0
     name: Harrowing Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
-  Harrowing Vedmak:
+  Harrowing Raznaborg Damavik:
+    id: 52656
+    mass: 950000.0
+    name: Harrowing Raznaborg Damavik
+    published: false
+    volume: 28600.0
+  Harrowing Raznaborg Kikimora:
+    id: 52657
+    mass: 1350000.0
+    name: Harrowing Raznaborg Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
+  Harrowing Sudenic Damavik:
+    id: 52498
+    mass: 950000.0
+    name: Harrowing Sudenic Damavik
+    published: false
+    volume: 28600.0
+  Harrowing Sudenic Kikimora:
+    id: 52499
+    mass: 1350000.0
+    name: Harrowing Sudenic Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
+  Harrowing Sudenic Vedmak:
     id: 52500
+    mass: 9530000.0
+    name: Harrowing Sudenic Vedmak
+    published: false
+    volume: 118000.0
+  Harrowing Vedmak:
+    id: 52211
     mass: 9530000.0
     name: Harrowing Vedmak
     published: false
     volume: 118000.0
   Liminal Damavik:
-    id: 52478
+    id: 52182
     mass: 950000.0
     name: Liminal Damavik
     published: false
     volume: 28600.0
   Liminal Drekavac:
-    id: 52482
+    id: 52187
     mass: 9900000.0
     name: Liminal Drekavac
     price: 1.65E8
     published: false
     volume: 233000.0
   Liminal Kikimora:
-    id: 52479
+    id: 52185
     mass: 1350000.0
     name: Liminal Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
   Liminal Leshak:
-    id: 52483
+    id: 52184
     mass: 6.3E7
     name: Liminal Leshak
     price: 1.125E8
     published: false
     volume: 495000.0
   Liminal Rodiva:
-    id: 52481
+    id: 52186
     mass: 1.012E7
     name: Liminal Rodiva
     price: 7500000.0
     published: false
     volume: 118000.0
   Liminal Vedmak:
-    id: 52480
+    id: 52183
     mass: 9530000.0
     name: Liminal Vedmak
     published: false
     volume: 118000.0
+  Raznaborg Damavik:
+    id: 52645
+    mass: 950000.0
+    name: Raznaborg Damavik
+    published: false
+    volume: 28600.0
+  Raznaborg Kikimora:
+    id: 52649
+    mass: 1350000.0
+    name: Raznaborg Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
   Renewing Damavik:
-    id: 52490
+    id: 52208
     mass: 950000.0
     name: Renewing Damavik
     published: false
     volume: 28600.0
   Renewing Leshak:
-    id: 52492
+    id: 52215
     mass: 6.3E7
     name: Renewing Leshak
     price: 1.125E8
     published: false
     volume: 495000.0
+  Renewing Raznaborg Damavik:
+    id: 52647
+    mass: 950000.0
+    name: Renewing Raznaborg Damavik
+    published: false
+    volume: 28600.0
   Renewing Rodiva:
-    id: 52491
+    id: 52214
     mass: 1.012E7
     name: Renewing Rodiva
     price: 7500000.0
     published: false
     volume: 118000.0
+  Renewing Sudenic Damavik:
+    id: 52490
+    mass: 950000.0
+    name: Renewing Sudenic Damavik
+    published: false
+    volume: 28600.0
+  Renewing Sudenic Leshak:
+    id: 52492
+    mass: 6.3E7
+    name: Renewing Sudenic Leshak
+    price: 1.125E8
+    published: false
+    volume: 495000.0
+  Renewing Sudenic Rodiva:
+    id: 52491
+    mass: 1.012E7
+    name: Renewing Sudenic Rodiva
+    price: 7500000.0
+    published: false
+    volume: 118000.0
   Starving Damavik:
-    id: 52488
+    id: 52205
     mass: 950000.0
     name: Starving Damavik
     published: false
     volume: 28600.0
   Starving Drekavac:
-    id: 52489
+    id: 52234
     mass: 9900000.0
     name: Starving Drekavac
     price: 1.65E8
     published: false
     volume: 233000.0
+  Starving Raznaborg Damavik:
+    id: 52646
+    mass: 950000.0
+    name: Starving Raznaborg Damavik
+    published: false
+    volume: 28600.0
+  Starving Sudenic Damavik:
+    id: 52488
+    mass: 950000.0
+    name: Starving Sudenic Damavik
+    published: false
+    volume: 28600.0
+  Starving Sudenic Drekavac:
+    id: 52489
+    mass: 9900000.0
+    name: Starving Sudenic Drekavac
+    price: 1.65E8
+    published: false
+    volume: 233000.0
+  Sudenic Damavik:
+    id: 52478
+    mass: 950000.0
+    name: Sudenic Damavik
+    published: false
+    volume: 28600.0
+  Sudenic Drekavac:
+    id: 52482
+    mass: 9900000.0
+    name: Sudenic Drekavac
+    price: 1.65E8
+    published: false
+    volume: 233000.0
+  Sudenic Kikimora:
+    id: 52479
+    mass: 1350000.0
+    name: Sudenic Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
+  Sudenic Leshak:
+    id: 52483
+    mass: 6.3E7
+    name: Sudenic Leshak
+    price: 1.125E8
+    published: false
+    volume: 495000.0
+  Sudenic Rodiva:
+    id: 52481
+    mass: 1.012E7
+    name: Sudenic Rodiva
+    price: 7500000.0
+    published: false
+    volume: 118000.0
+  Sudenic Vedmak:
+    id: 52480
+    mass: 9530000.0
+    name: Sudenic Vedmak
+    published: false
+    volume: 118000.0
   Tangling Damavik:
-    id: 52495
+    id: 52232
     mass: 950000.0
     name: Tangling Damavik
     published: false
     volume: 28600.0
   Tangling Kikimora:
-    id: 52496
+    id: 52233
     mass: 1350000.0
     name: Tangling Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
+  Tangling Raznaborg Damavik:
+    id: 52654
+    mass: 950000.0
+    name: Tangling Raznaborg Damavik
+    published: false
+    volume: 28600.0
+  Tangling Raznaborg Kikimora:
+    id: 52655
+    mass: 1350000.0
+    name: Tangling Raznaborg Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
+  Tangling Sudenic Damavik:
+    id: 52495
+    mass: 950000.0
+    name: Tangling Sudenic Damavik
+    published: false
+    volume: 28600.0
+  Tangling Sudenic Kikimora:
+    id: 52496
+    mass: 1350000.0
+    name: Tangling Sudenic Kikimora
     price: 3.35E7
     published: false
     volume: 43000.0
@@ -183,6 +417,13 @@ items:
     price: 1.125E8
     published: false
     volume: 495000.0
+  Zorya's Kikimora:
+    id: 52658
+    mass: 1350000.0
+    name: Zorya's Kikimora
+    price: 3.35E7
+    published: false
+    volume: 43000.0
   Zorya's Leshak:
     id: 52475
     mass: 6.3E7
@@ -190,6 +431,12 @@ items:
     price: 1.125E8
     published: false
     volume: 495000.0
+  Zorya's Vedmak:
+    id: 52659
+    mass: 9530000.0
+    name: Zorya's Vedmak
+    published: false
+    volume: 118000.0
   Zorya's Voivode TTC-243:
     id: 52501
     mass: 9900000.0

@@ -421,27 +421,6 @@ items:
     price: 32768.0
     published: true
     volume: 1.0
-  Extended 'Canicule' Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 18109.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
-    id: 52524
-    mass: 1.0
-    name: Extended 'Canicule' Cerebral Accelerator
-    price: 32768.0
-    published: true
-    volume: 1.0
   Impetus Potency-50 Glamourex Booster:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 18175.458984375
@@ -751,27 +730,6 @@ items:
     mass: 1.0
     name: Quafe Zero
     price: 8192.0
-    published: true
-    volume: 1.0
-  Standard 'Canicule' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 18109.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
-    id: 52523
-    mass: 1.0
-    name: Standard 'Canicule' Cerebral Accelerator
-    price: 32768.0
     published: true
     volume: 1.0
   Standard Blue Pill Booster:

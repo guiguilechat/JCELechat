@@ -10531,17 +10531,17 @@ id2name:
   20494: Armored Command
   20495: Information Command
   20498: High-grade Halo Alpha
-  20499: High-grade Slave Alpha
+  20499: High-grade Amulet Alpha
   20500: High-grade Halo Beta
-  20501: High-grade Slave Beta
+  20501: High-grade Amulet Beta
   20502: High-grade Halo Delta
-  20503: High-grade Slave Delta
+  20503: High-grade Amulet Delta
   20504: High-grade Halo Epsilon
-  20505: High-grade Slave Epsilon
+  20505: High-grade Amulet Epsilon
   20506: High-grade Halo Gamma
-  20507: High-grade Slave Gamma
+  20507: High-grade Amulet Gamma
   20508: High-grade Halo Omega
-  20509: High-grade Slave Omega
+  20509: High-grade Amulet Omega
   20510: Potent Viral Agent
   20514: Siege Warfare Link - Shield Harmonizing I
   20517: Private Citizen Tsuna's Passcard
@@ -11751,12 +11751,12 @@ id2name:
   22116: Mid-grade Halo Epsilon
   22117: Mid-grade Halo Gamma
   22118: Mid-grade Halo Omega
-  22119: Mid-grade Slave Alpha
-  22120: Mid-grade Slave Beta
-  22121: Mid-grade Slave Delta
-  22122: Mid-grade Slave Epsilon
-  22123: Mid-grade Slave Gamma
-  22124: Mid-grade Slave Omega
+  22119: Mid-grade Amulet Alpha
+  22120: Mid-grade Amulet Beta
+  22121: Mid-grade Amulet Delta
+  22122: Mid-grade Amulet Epsilon
+  22123: Mid-grade Amulet Gamma
+  22124: Mid-grade Amulet Omega
   22125: Mid-grade Snake Alpha
   22126: Mid-grade Snake Beta
   22127: Mid-grade Snake Delta
@@ -18396,7 +18396,7 @@ id2name:
   30949: Josameto Verification Center
   30950: Corporate Liaison
   30951: Verification Key
-  30952: Dossier – Author Unknown
+  30952: Dossier ��� Author Unknown
   30953: Cargo Facility 7A-21
   30954: Hyasyoda Captain
   30955: S.I Formula Sheet
@@ -20737,12 +20737,12 @@ id2name:
   33950: Low-grade Nomad Epsilon
   33951: Low-grade Nomad Gamma
   33952: Low-grade Nomad Omega
-  33953: Low-grade Slave Alpha
-  33954: Low-grade Slave Beta
-  33955: Low-grade Slave Delta
-  33956: Low-grade Slave Epsilon
-  33957: Low-grade Slave Gamma
-  33958: Low-grade Slave Omega
+  33953: Low-grade Amulet Alpha
+  33954: Low-grade Amulet Beta
+  33955: Low-grade Amulet Delta
+  33956: Low-grade Amulet Epsilon
+  33957: Low-grade Amulet Gamma
+  33958: Low-grade Amulet Omega
   33959: Low-grade Snake Alpha
   33960: Low-grade Snake Beta
   33961: Low-grade Snake Delta
@@ -21159,7 +21159,7 @@ id2name:
   34422: Rooks & Kings – The Clarion Call Compilation
   34423: Pre-Completed CSM 10 Ballot Paper
   34424: Titanium Plated Cranial Shielding
-  34425: SCC Guidelines – Lotteries For Dummies
+  34425: SCC Guidelines �� Lotteries For Dummies
   34426: Sort Dragon’s Guide To Diplomacy
   34427: Polaris Eviction Notice
   34428: Jump Portal Generation Instruction Holoreel
@@ -21191,29 +21191,29 @@ id2name:
   34454: Archive Sentry Tower
   34455: Impaired Archive Sentry Tower
   34456: Angel Fence
-  34457: 末日沙场级YC117年特别版
+  34457: 末日沙场��YC117年特别版
   34458: 末日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
-  34461: 马克瑞级YC117年特别版
+  34461: 马克瑞级YC117年特别���
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
-  34464: 响尾蛇级YC117年特��版蓝图
+  34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
-  34467: 万王宝座级YC117年特���版
+  34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
-  34469: 乌鸦级YC117年特别版
-  34470: 乌鸦级YC117年特别版蓝图
+  34469: 乌鸦级YC117���特别版
+  34470: 乌鸦级YC117年特���版蓝图
   34471: 灾难级YC117年特别版
   34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
-  34474: ���龙级YC117年特别版蓝图
+  34474: 幼龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
-  34476: 毒蜥��YC117年特别版蓝图
-  34477: 银鹰级YC117年特别版
+  34476: 毒蜥级YC117年特别版蓝图
+  34477: 银鹰级YC117��特别版
   34478: 银鹰级YC117年特别版蓝图
-  34479: 伊什塔级YC117��特别版
+  34479: 伊什塔级YC117年特别版
   34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
@@ -23875,9 +23875,9 @@ id2name:
   37887: Counterfeit Dominix Model
   37888: Starsi
   37889: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
-  37892: YC118 Succession Trial Champion’s Decree – House Ardishapur
+  37892: YC118 Succession Trial Champion���s Decree – House Ardishapur
   37893: YC118 Succession Trial Champion’s Decree – House Kador
-  37894: YC118 Succession Trial Champion’s Decree �� House Khanid
+  37894: YC118 Succession Trial Champion’s Decree – House Khanid
   37895: YC118 Succession Trial Champion’s Decree – House Kor-Azor
   37896: YC118 Succession Trial Champion’s Decree – House Sarum
   37897: Apocalypse Ardishapur Serenity Only SKIN (Permanent)
@@ -26919,7 +26919,7 @@ id2name:
   41022: Bifrost Tronhadar Ink Serenity Only SKIN (365 Days)
   41023: Convoy Hawk 6 Escort Roster
   41024: Audio Log Backup – 115/11/11 A-0477
-  41025: Audio Log Backup – 117/07/01 G-6640
+  41025: Audio Log Backup ��� 117/07/01 G-6640
   41026: Manifest – Cargo 118/01/06 – CLEARENCE 1B
   41027: Secure Comms Uplink ALPHA-6
   41028: Medical Report 0401A – 117/01/19
@@ -26929,7 +26929,7 @@ id2name:
   41032: Denny Enduring Omnidirectional Tracking Link
   41033: N-JM Compact Omnidirectional Tracking Enhancer
   41034: AE-K Compact Drone Damage Amplifier
-  41035: 未来人���纪念章
+  41035: 未来人类纪念章
   41036: Men's 'Boneweld' Facial Augmentation
   41038: Republic Fleet Stasis Webifier
   41040: Heavy Stasis Grappler I
@@ -28473,7 +28473,7 @@ id2name:
   42737: Beret Female Concord
   42738: Women's ‘Liberator’ Beret (Minmatar Republic)
   42739: Men's ‘Defender’ Beret (Gallente Federation)
-  42740: Women's ‘Protector’ Beret (Caldari State)
+  42740: Women's ‘Protector�� Beret (Caldari State)
   42741: Men’s ‘Crusader’ Beret (Amarr Empire)
   42742: Cap Female Concord
   42743: Cap Male Guristas
@@ -29190,13 +29190,13 @@ id2name:
   43556: Skirmish Command Burst II
   43557: ♦ Omen
   43558: ♦ Augoror
-  43559: �� Arbitrator
+  43559: ♦ Arbitrator
   43560: ♦ Maller
   43561: ♦ Apocalypse
   43562: ♦ Armageddon
   43563: ♦ Kestrel
   43564: ♦ Bantam
-  43565: ♦ Condor
+  43565: ��� Condor
   43566: ♦ Merlin
   43567: ♦ Griffin
   43568: ♦ Caracal
@@ -29247,14 +29247,14 @@ id2name:
   43613: ♦ Bustard
   43614: ♦ Kestrel
   43615: ♦ Bantam
-  43616: �� Condor
+  43616: ♦ Condor
   43617: ♦ Worm
   43618: ♦ Griffin
   43622: ♦ Caracal
   43623: ♦ Osprey
   43624: ♦ Gila
   43625: ♦ Blackbird
-  43626: ♦ Raven
+  43626: �� Raven
   43627: ♦ Rattlesnake
   43630: Mini Skill Injector
   43633: ♦ Dramiel
@@ -30530,7 +30530,7 @@ id2name:
   45471: ♦ Molok
   45472: ♦ Molok
   45473: ♦ Dagon
-  45474: ♦ Chemosh
+  45474: �� Chemosh
   45475: Stratios YC119 SKIN (Permanent)
   45476: Stratios YC119 SKIN (7 Days)
   45477: Stratios YC119 SKIN (30 Days)
@@ -31110,7 +31110,7 @@ id2name:
   46064: Medium Refinery Placement State Default
   46065: Large Refinery Placement State Default
   46066: ♦ Punisher
-  46067: ♦ Omen
+  46067: ��� Omen
   46068: ♦ Harbinger
   46069: ♦ Apocalypse
   46070: ♦ Merlin
@@ -31746,7 +31746,7 @@ id2name:
   46754: Crane Lodestrike SKIN (Permanent)
   46755: Bustard Lodestrike SKIN (Permanent)
   46756: Headhunter Crate
-  46760: �� Moa
+  46760: ♦ Moa
   46766: Glacial Drift Festival Box
   46767: Amarr Trade Post
   46770: Pashanai Bombing Monument
@@ -32681,7 +32681,7 @@ id2name:
   47745: 500MN Abyssal Microwarpdrive
   47746: Decayed 1MN Afterburner Mutaplasmid
   47747: Unstable 1MN Afterburner Mutaplasmid
-  47748: Gravid 1MN Afterburner MutaPlasmid
+  47748: Gravid 1MN Afterburner Mutaplasmid
   47749: 1MN Abyssal Afterburner
   47750: Decayed 10MN Afterburner Mutaplasmid
   47751: Unstable 10MN Afterburner Mutaplasmid
@@ -34645,38 +34645,39 @@ id2name:
   52475: Zorya's Leshak
   52476: Majorana Light Missile
   52477: Majorana Heavy Missile
-  52478: Liminal Damavik
-  52479: Liminal Kikimora
-  52480: Liminal Vedmak
-  52481: Liminal Rodiva
-  52482: Liminal Drekavac
-  52483: Liminal Leshak
-  52484: Anchoring Damavik
-  52485: Anchoring Kikimora
-  52486: Ghosting Damavik
-  52487: Ghosting Drekavac
-  52488: Starving Damavik
-  52489: Starving Drekavac
-  52490: Renewing Damavik
-  52491: Renewing Rodiva
-  52492: Renewing Leshak
-  52493: Blinding Damavik
-  52494: Blinding Leshak
-  52495: Tangling Damavik
-  52496: Tangling Kikimora
-  52497: Blinding Kikimora
-  52498: Harrowing Damavik
-  52499: Harrowing Kikimora
-  52500: Harrowing Vedmak
+  52478: Sudenic Damavik
+  52479: Sudenic Kikimora
+  52480: Sudenic Vedmak
+  52481: Sudenic Rodiva
+  52482: Sudenic Drekavac
+  52483: Sudenic Leshak
+  52484: Anchoring Sudenic Damavik
+  52485: Anchoring Sudenic Kikimora
+  52486: Ghosting Sudenic Damavik
+  52487: Ghosting Sudenic Drekavac
+  52488: Starving Sudenic Damavik
+  52489: Starving Sudenic Drekavac
+  52490: Renewing Sudenic Damavik
+  52491: Renewing Sudenic Rodiva
+  52492: Renewing Sudenic Leshak
+  52493: Blinding Sudenic Damavik
+  52494: Blinding Sudenic Leshak
+  52495: Tangling Sudenic Damavik
+  52496: Tangling Sudenic Kikimora
+  52497: Blinding Sudenic Kikimora
+  52498: Harrowing Sudenic Damavik
+  52499: Harrowing Sudenic Kikimora
+  52500: Harrowing Sudenic Vedmak
   52501: Zorya's Voivode TTC-243
   52502: Zorya's Voivode TTC-3
   52503: Zorya's Voivode TTC-729
   52510: Triglavian World Ark Spawner A
   52511: Triglavian World Ark Spawner B
+  52517: TG construction phase 4
+  52518: Cemetery Monument
   52520: 10,000 Skill Points
-  52523: Standard 'Canicule' Cerebral Accelerator
-  52524: Extended 'Canicule' Cerebral Accelerator
-  52542: unnamed_g1950_ic0
+  52523: Expired Standard 'Canicule' Cerebral Accelerator
+  52524: Expired Extended 'Canicule' Cerebral Accelerator
   52552: Manticore Vitalshift EGO SKIN (Permanent)
   52553: Cormorant Vitalshift EGO SKIN (Permanent)
   52554: Jackdaw Vitalshift EGO SKIN (Permanent)
@@ -34712,11 +34713,156 @@ id2name:
   52587: Impel Star Captain SKIN (Permanent)
   52588: Apostle Star Captain SKIN (Permanent)
   52589: Archon Star Captain SKIN (Permanent)
-  52590: C-J6 Monument
+  52590: C-J6MT A History of War Monument
   52595: Succubus True Deliverance SKIN (Permanent)
   52596: Nightmare True Deliverance SKIN (Permanent)
   52597: Phantasm True Deliverance SKIN (Permanent)
   52598: Revenant True Deliverance SKIN (Permanent)
+  52629: Harpy Kimotoro Eskeitan SKIN (Permanent)
+  52630: Hawk Kimotoro Eskeitan SKIN (Permanent)
+  52631: Cormorant Kimotoro Eskeitan SKIN (Permanent)
+  52632: Flycatcher Kimotoro Eskeitan SKIN (Permanent)
+  52633: Moa Kimotoro Eskeitan SKIN (Permanent)
+  52634: Eagle Kimotoro Eskeitan SKIN (Permanent)
+  52635: Onyx Kimotoro Eskeitan SKIN (Permanent)
+  52636: Caracal Kimotoro Eskeitan SKIN (Permanent)
+  52637: Osprey Kimotoro Eskeitan SKIN (Permanent)
+  52638: Tayra Kimotoro Eskeitan SKIN (Permanent)
+  52639: Crane Kimotoro Eskeitan SKIN (Permanent)
+  52640: Bustard Kimotoro Eskeitan SKIN (Permanent)
+  52641: Minokawa Kimotoro Eskeitan SKIN (Permanent)
+  52642: Wyvern Kimotoro Eskeitan SKIN (Permanent)
+  52643: Leviathan Kimotoro Eskeitan SKIN (Permanent)
+  52645: Raznaborg Damavik
+  52646: Starving Raznaborg Damavik
+  52647: Renewing Raznaborg Damavik
+  52648: Blinding Raznaborg Damavik
+  52649: Raznaborg Kikimora
+  52650: Anchoring Raznaborg Damavik
+  52651: Anchoring Raznaborg Kikimora
+  52652: Ghosting Raznaborg Damavik
+  52653: Blinding Raznaborg Kikimora
+  52654: Tangling Raznaborg Damavik
+  52655: Tangling Raznaborg Kikimora
+  52656: Harrowing Raznaborg Damavik
+  52657: Harrowing Raznaborg Kikimora
+  52658: Zorya's Kikimora
+  52659: Zorya's Vedmak
+  52660: Triglavian Minor Wreck
+  52661: Triglavian Moderate Wreck
+  52662: Triglavian Major Wreck
+  52663: Triglavian Small Wreck
+  52664: Triglavian Medium Wreck
+  52665: Triglavian Large Wreck
+  52667: Drd State 1
+  52668: Drd State 2
+  52669: Drd State 3
+  52670: Xordazh Transfer Conduit
+  52671: Caldari Coms Station
+  52672: Caldari Elevator Hub
+  52674: Low-Grade Mimesis Alpha
+  52675: Caldari Connection 01
+  52676: Caldari Connection 02
+  52677: Caldari Connection 03
+  52678: Jita Trade Hub
+  52679: Low-Grade Mimesis Beta
+  52680: Low-Grade Mimesis Gamma
+  52681: Low-Grade Mimesis Delta
+  52682: Low-Grade Mimesis Epsilon
+  52683: Low-Grade Mimesis Omega
+  52684: Low-Grade Mimesis Alpha Blueprint
+  52685: Low-Grade Mimesis Beta Blueprint
+  52686: Low-Grade Mimesis Gamma Blueprint
+  52687: Low-Grade Mimesis Delta Blueprint
+  52688: Low-Grade Mimesis Epsilon Blueprint
+  52689: Low-Grade Mimesis Omega Blueprint
+  52694: Industrial Cynosural Field Generator
+  52695: Industrial Cynosural Field Generator Blueprint
+  52696: Industrial Cynosural Field
+  52697: Nergal Niflhel Gildclaw SKIN (Permanent)
+  52698: Draugur Niflhel Gildclaw SKIN (Permanent)
+  52699: Ikitursa Niflhel Gildclaw SKIN (Permanent)
+  52703: Worm Aetheric Raiders SKIN (Permanent)
+  52704: Gila Aetheric Raiders SKIN (Permanent)
+  52705: Rattlesnake Aetheric Raiders SKIN (Permanent)
+  52706: Atron Inner Zone Vanguard SKIN (Permanent)
+  52707: Imicus Inner Zone Vanguard SKIN (Permanent)
+  52708: Incursus Inner Zone Vanguard SKIN (Permanent)
+  52709: Maulus Inner Zone Vanguard SKIN (Permanent)
+  52710: Navitas Inner Zone Vanguard SKIN (Permanent)
+  52711: Tristan Inner Zone Vanguard SKIN (Permanent)
+  52712: Enyo Inner Zone Vanguard SKIN (Permanent)
+  52713: Ishkur Inner Zone Vanguard SKIN (Permanent)
+  52714: Helios Inner Zone Vanguard SKIN (Permanent)
+  52715: Nemesis Inner Zone Vanguard SKIN (Permanent)
+  52716: Keres Inner Zone Vanguard SKIN (Permanent)
+  52717: Ares Inner Zone Vanguard SKIN (Permanent)
+  52718: Taranis Inner Zone Vanguard SKIN (Permanent)
+  52719: Thalia Inner Zone Vanguard SKIN (Permanent)
+  52720: Federation Navy Comet Inner Zone Vanguard SKIN (Permanent)
+  52721: Maulus Navy Issue Inner Zone Vanguard SKIN (Permanent)
+  52722: Algos Inner Zone Vanguard SKIN (Permanent)
+  52723: Catalyst Inner Zone Vanguard SKIN (Permanent)
+  52724: Magus Inner Zone Vanguard SKIN (Permanent)
+  52725: Eris Inner Zone Vanguard SKIN (Permanent)
+  52726: Hecate Inner Zone Vanguard SKIN (Permanent)
+  52727: Celestis Inner Zone Vanguard SKIN (Permanent)
+  52728: Exequror Inner Zone Vanguard SKIN (Permanent)
+  52729: Thorax Inner Zone Vanguard SKIN (Permanent)
+  52730: Vexor Inner Zone Vanguard SKIN (Permanent)
+  52731: Deimos Inner Zone Vanguard SKIN (Permanent)
+  52732: Ishtar Inner Zone Vanguard SKIN (Permanent)
+  52733: Phobos Inner Zone Vanguard SKIN (Permanent)
+  52734: Oneiros Inner Zone Vanguard SKIN (Permanent)
+  52735: Arazu Inner Zone Vanguard SKIN (Permanent)
+  52736: Lachesis Inner Zone Vanguard SKIN (Permanent)
+  52737: Proteus Inner Zone Vanguard SKIN (Permanent)
+  52738: Exequror Navy Issue Inner Zone Vanguard SKIN (Permanent)
+  52739: Vexor Navy Issue Inner Zone Vanguard SKIN (Permanent)
+  52740: Brutix Inner Zone Vanguard SKIN (Permanent)
+  52741: Myrmidon Inner Zone Vanguard SKIN (Permanent)
+  52742: Talos Inner Zone Vanguard SKIN (Permanent)
+  52743: Astarte Inner Zone Vanguard SKIN (Permanent)
+  52744: Eos Inner Zone Vanguard SKIN (Permanent)
+  52745: Brutix Navy Issue Inner Zone Vanguard SKIN (Permanent)
+  52746: Dominix Inner Zone Vanguard SKIN (Permanent)
+  52747: Hyperion Inner Zone Vanguard SKIN (Permanent)
+  52748: Megathron Inner Zone Vanguard SKIN (Permanent)
+  52749: Sin Inner Zone Vanguard SKIN (Permanent)
+  52750: Kronos Inner Zone Vanguard SKIN (Permanent)
+  52751: Dominix Navy Issue Inner Zone Vanguard SKIN (Permanent)
+  52752: Megathron Navy Issue Inner Zone Vanguard SKIN (Permanent)
+  52753: Moros Inner Zone Vanguard SKIN (Permanent)
+  52754: Thanatos Inner Zone Vanguard SKIN (Permanent)
+  52755: Nyx Inner Zone Vanguard SKIN (Permanent)
+  52756: Erebus Inner Zone Vanguard SKIN (Permanent)
+  52757: Epithal Inner Zone Vanguard SKIN (Permanent)
+  52758: Iteron Mark V Inner Zone Vanguard SKIN (Permanent)
+  52759: Kryos Inner Zone Vanguard SKIN (Permanent)
+  52760: Miasmos Inner Zone Vanguard SKIN (Permanent)
+  52761: Nereus Inner Zone Vanguard SKIN (Permanent)
+  52762: Viator Inner Zone Vanguard SKIN (Permanent)
+  52763: Occator Inner Zone Vanguard SKIN (Permanent)
+  52764: Obelisk Inner Zone Vanguard SKIN (Permanent)
+  52765: Anshar Inner Zone Vanguard SKIN (Permanent)
+  52766: Ninazu Inner Zone Vanguard SKIN (Permanent)
+  52767: Imperial Navy Slicer Crown and Swords SKIN (Permanent)
+  52768: Malediction Crown and Swords SKIN (Permanent)
+  52769: Purifier Crown and Swords SKIN (Permanent)
+  52770: Confessor Crown and Swords SKIN (Permanent)
+  52771: Curse Crown and Swords SKIN (Permanent)
+  52772: Devoter Crown and Swords SKIN (Permanent)
+  52773: Prophecy Crown and Swords SKIN (Permanent)
+  52774: Damnation Crown and Swords SKIN (Permanent)
+  52775: Apocalypse Crown and Swords SKIN (Permanent)
+  52776: Apocalypse Navy Issue Crown and Swords SKIN (Permanent)
+  52777: Armageddon Crown and Swords SKIN (Permanent)
+  52778: Armageddon Navy Issue Crown and Swords SKIN (Permanent)
+  52779: Redeemer Crown and Swords SKIN (Permanent)
+  52780: Revelation Crown and Swords SKIN (Permanent)
+  52781: Avatar Crown and Swords SKIN (Permanent)
+  52782: Providence Crown and Swords SKIN (Permanent)
+  52783: Pax e Kilizhi Do
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -38996,6 +39142,7 @@ name2group:
   Algos Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Algos Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Algos Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Algos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Algos Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Algos Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Algos Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -39434,6 +39581,10 @@ name2group:
   Anchoring: skill/StructureManagement
   Anchoring Damavik: entity/InvadingPrecursorEntities
   Anchoring Kikimora: entity/InvadingPrecursorEntities
+  Anchoring Raznaborg Damavik: entity/InvadingPrecursorEntities
+  Anchoring Raznaborg Kikimora: entity/InvadingPrecursorEntities
+  Anchoring Sudenic Damavik: entity/InvadingPrecursorEntities
+  Anchoring Sudenic Kikimora: entity/InvadingPrecursorEntities
   Anchoring Vila Damavik: entity/AbyssalSpaceshipEntities
   Ancient Amarrian Relic: commodity/Miscellaneous
   Ancient Ciphering Totem: commodity/AccelerationGateKeys
@@ -39648,6 +39799,7 @@ name2group:
   Anshar Blueprint: blueprint/FreighterBlueprint
   Anshar Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Anshar Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Anshar Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Anshar Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Anshar Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Anshar Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -39702,6 +39854,7 @@ name2group:
   Apocalypse Blueprint: blueprint/BattleshipBlueprint
   Apocalypse Capsuleer Day XV SKIN (Permanent): skins/PermanentSKIN
   Apocalypse Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Apocalypse Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Apocalypse EoM SKIN (Permanent): skins/PermanentSKIN
   Apocalypse Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Apocalypse Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -39726,6 +39879,7 @@ name2group:
   Apocalypse Navy Issue: ship/Battleship
   Apocalypse Navy Issue Blueprint: blueprint/BattleshipBlueprint
   Apocalypse Navy Issue Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Apocalypse Navy Issue Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Apocalypse Navy Issue EoM SKIN (Permanent): skins/PermanentSKIN
   Apocalypse Navy Issue Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Apocalypse Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -39782,6 +39936,7 @@ name2group:
   Arazu Blueprint: blueprint/CruiserBlueprint
   Arazu Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Arazu Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Arazu Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Arazu Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Arazu Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Arazu Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -39936,6 +40091,7 @@ name2group:
   Ares Blueprint: blueprint/FrigateBlueprint
   Ares Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Ares Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Ares Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Ares Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Ares Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Ares Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -39964,6 +40120,7 @@ name2group:
   Armageddon "Blaze" Squadron SKIN (Permanent): skins/PermanentSKIN
   Armageddon Blueprint: blueprint/BattleshipBlueprint
   Armageddon Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Armageddon Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Armageddon EoM SKIN (Permanent): skins/PermanentSKIN
   Armageddon Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Armageddon Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -39982,6 +40139,7 @@ name2group:
   Armageddon Navy Issue: ship/Battleship
   Armageddon Navy Issue Blueprint: blueprint/BattleshipBlueprint
   Armageddon Navy Issue Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Armageddon Navy Issue Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Armageddon Navy Issue EoM SKIN (Permanent): skins/PermanentSKIN
   Armageddon Navy Issue Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Armageddon Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -40122,6 +40280,7 @@ name2group:
   Astarte Blueprint: blueprint/BattlecruiserBlueprint
   Astarte Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Astarte Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Astarte Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Astarte Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Astarte Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Astarte Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -40194,6 +40353,7 @@ name2group:
   Atron Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Atron Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Atron Hunter's Quiver SKIN (Permanent): skins/PermanentSKIN
+  Atron Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Atron Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Atron Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Atron Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -40284,6 +40444,7 @@ name2group:
   Avatar Blueprint: blueprint/TitanBlueprint
   Avatar Capsuleer Elite XV SKIN (Permanent): skins/PermanentSKIN
   Avatar Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Avatar Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Avatar Deathglow Hunters SKIN (Permanent): skins/PermanentSKIN
   Avatar EoM SKIN (Permanent): skins/PermanentSKIN
   Avatar Eros Blossom SKIN (Permanent): skins/PermanentSKIN
@@ -40663,6 +40824,11 @@ name2group:
   Blinding Damavik: entity/InvadingPrecursorEntities
   Blinding Kikimora: entity/InvadingPrecursorEntities
   Blinding Leshak: entity/InvadingPrecursorEntities
+  Blinding Raznaborg Damavik: entity/InvadingPrecursorEntities
+  Blinding Raznaborg Kikimora: entity/InvadingPrecursorEntities
+  Blinding Sudenic Damavik: entity/InvadingPrecursorEntities
+  Blinding Sudenic Kikimora: entity/InvadingPrecursorEntities
+  Blinding Sudenic Leshak: entity/InvadingPrecursorEntities
   Blinding Vila Damavik: entity/AbyssalSpaceshipEntities
   Blockade General Sade: entity/DeadspaceOverseerFrigate
   Blood Apostle: entity/AsteroidBloodRaidersBattleship
@@ -41065,6 +41231,7 @@ name2group:
   Brutix Inner Zone Shipping SKIN (365 Days): skins/Max1YearSKIN
   Brutix Inner Zone Shipping SKIN (7 Days): skins/Max7DaySKIN
   Brutix Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
+  Brutix Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Brutix Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Brutix Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Brutix Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -41077,6 +41244,7 @@ name2group:
   Brutix Navy Issue Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Brutix Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Brutix Navy Issue IGC SKIN (Permanent): skins/PermanentSKIN
+  Brutix Navy Issue Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Brutix Navy Issue Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Brutix Navy Issue Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Brutix Navy Issue Police SKIN (Permanent): skins/PermanentSKIN
@@ -41175,6 +41343,7 @@ name2group:
   Bustard Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Bustard Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Bustard Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Bustard Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Bustard Lodestrike SKIN (Permanent): skins/PermanentSKIN
   Bustard Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Bustard Raata Sunset SKIN (Permanent): skins/PermanentSKIN
@@ -42418,6 +42587,7 @@ name2group:
   Caracal Headhunter SKIN (Permanent): skins/PermanentSKIN
   Caracal Hunter's Quiver SKIN (Permanent): skins/PermanentSKIN
   Caracal IGC SKIN (Permanent): skins/PermanentSKIN
+  Caracal Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Caracal Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Caracal Navy Issue: ship/Cruiser
   Caracal Navy Issue Blueprint: blueprint/CruiserBlueprint
@@ -42523,6 +42693,7 @@ name2group:
   Catalyst Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Catalyst Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Catalyst Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Catalyst Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Catalyst Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Catalyst Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Catalyst Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -42562,6 +42733,7 @@ name2group:
   Celestis Blueprint: blueprint/CruiserBlueprint
   Celestis Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Celestis Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Celestis Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Celestis Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Celestis Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Celestis Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -43282,6 +43454,7 @@ name2group:
   Confessor: ship/TacticalDestroyer
   Confessor Blueprint: blueprint/TacticalDestroyerBlueprint
   Confessor Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Confessor Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Confessor Eros Blossom SKIN (Permanent): skins/PermanentSKIN
   Confessor Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Confessor Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -43570,6 +43743,7 @@ name2group:
   Cormorant Guristas SKIN (90 Days): skins/Max90DaySKIN
   Cormorant Guristas SKIN (Permanent): skins/PermanentSKIN
   Cormorant IGC SKIN (Permanent): skins/PermanentSKIN
+  Cormorant Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Cormorant Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Cormorant Octopus Orange Flight SKIN (Permanent): skins/PermanentSKIN
   Cormorant Octopus Red Flight SKIN (Permanent): skins/PermanentSKIN
@@ -43797,6 +43971,7 @@ name2group:
   Crane Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Crane Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Crane Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Crane Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Crane Lodestrike SKIN (Permanent): skins/PermanentSKIN
   Crane Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Crane Raata Sunset SKIN (Permanent): skins/PermanentSKIN
@@ -44032,6 +44207,7 @@ name2group:
   Curse: ship/CombatReconShip
   Curse Blueprint: blueprint/CruiserBlueprint
   Curse Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Curse Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Curse EoM SKIN (Permanent): skins/PermanentSKIN
   Curse Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Curse Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -44142,7 +44318,6 @@ name2group:
   DED Special Ops Raptor: entity/MissionCONCORDCruiser
   DNA Sample: commodity/Miscellaneous
   DNA Samples of Republic Commandos: commodity/Commodities
-  DO NOT TRANSLATE - Unused Crate: specialeditionassets/SpecialEditionCommodities
   DUST 'Horizon' Kaalakiota Sniper Rifle: infantry/InfantryWeapons
   DUST Prometheus: infantry/InfantryVehicles
   Dagan: commodity/Livestock
@@ -44194,6 +44369,7 @@ name2group:
   Damnation: ship/CommandShip
   Damnation Blueprint: blueprint/BattlecruiserBlueprint
   Damnation Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Damnation Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Damnation EoM SKIN (Permanent): skins/PermanentSKIN
   Damnation Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Damnation Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -44606,6 +44782,7 @@ name2group:
   Deimos Eros Blossom SKIN (Permanent): skins/PermanentSKIN
   Deimos Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Deimos Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Deimos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Deimos Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Deimos Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Deimos Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -44658,6 +44835,7 @@ name2group:
   Devoter: ship/HeavyInterdictionCruiser
   Devoter Blueprint: blueprint/CruiserBlueprint
   Devoter Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Devoter Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Devoter EoM SKIN (Permanent): skins/PermanentSKIN
   Devoter Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Devoter Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -44980,6 +45158,7 @@ name2group:
   Dominix Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Dominix Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Dominix Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Dominix Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Dominix Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Dominix Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Dominix Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -44992,6 +45171,7 @@ name2group:
   Dominix Navy Issue Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Dominix Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Dominix Navy Issue Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Dominix Navy Issue Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Dominix Navy Issue Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Dominix Navy Issue Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Dominix Navy Issue Sapphire Sungrazer SKIN (Permanent): skins/PermanentSKIN
@@ -45022,7 +45202,7 @@ name2group:
   Doomsday Rapid Firing: skill/Gunnery
   Dorga Roes: commodity/Commodities
   Dorim Fatimar's Punisher: entity/DestructibleAgentsInSpace
-  Dossier – Author Unknown: commodity/Miscellaneous
+  Dossier ��� Author Unknown: commodity/Miscellaneous
   Dr. Castille's Data Core (Property of CreoDron): commodity/Miscellaneous
   Draben Kuvakei: entity/MissionGenericBattleships
   Draclira Merlonne: entity/AsteroidBloodRaidersOfficer
@@ -45127,6 +45307,7 @@ name2group:
   Dramiel Spirit SKIN (Permanent): skins/PermanentSKIN
   Draugur: ship/CommandDestroyer
   Draugur Blueprint: blueprint/CommandDestroyerBlueprint
+  Draugur Niflhel Gildclaw SKIN (Permanent): skins/PermanentSKIN
   Draugur Singularity Storm SKIN (Permanent): skins/PermanentSKIN
   Drazin Jaruk: entity/MissionGenericCruisers
   Drazin's Keycard: commodity/AccelerationGateKeys
@@ -45662,6 +45843,7 @@ name2group:
   Eagle Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Eagle Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Eagle Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Eagle Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Eagle Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Eagle Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Eagle Serenity YC117 SKIN (30 Days): skins/Max30DaySKIN
@@ -46081,6 +46263,7 @@ name2group:
   Enyo Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Enyo Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Enyo Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Enyo Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Enyo Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Enyo Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Enyo Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -46105,6 +46288,7 @@ name2group:
   Eos Blueprint: blueprint/BattlecruiserBlueprint
   Eos Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Eos Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Eos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Eos Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Eos Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Eos Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -46130,6 +46314,7 @@ name2group:
   Epithal Blueprint: blueprint/IndustrialBlueprint
   Epithal Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Epithal Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Epithal Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Epithal Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Epithal Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Epithal Planetary Extraction (Upwell) SKIN (Permanent): skins/PermanentSKIN
@@ -46160,6 +46345,7 @@ name2group:
   Erebus Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Erebus Glittering Dream SKIN (Permanent): skins/PermanentSKIN
   Erebus Headhunter SKIN (Permanent): skins/PermanentSKIN
+  Erebus Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Erebus Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Erebus InterBus SKIN (30 Days): skins/Max30DaySKIN
   Erebus InterBus SKIN (365 Days): skins/Max1YearSKIN
@@ -46178,6 +46364,7 @@ name2group:
   Eris Blueprint: blueprint/DestroyerBlueprint
   Eris Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Eris Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Eris Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Eris Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Eris Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Eris Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -46274,6 +46461,7 @@ name2group:
   Exequror Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Exequror Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Exequror Hunter's Quiver SKIN (Permanent): skins/PermanentSKIN
+  Exequror Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Exequror Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Exequror Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Exequror Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -46285,6 +46473,7 @@ name2group:
   Exequror Navy Issue Blueprint: blueprint/CruiserBlueprint
   Exequror Navy Issue Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Exequror Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Exequror Navy Issue Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Exequror Navy Issue Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Exequror Navy Issue Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Exequror Navy Issue Sapphire Sungrazer SKIN (Permanent): skins/PermanentSKIN
@@ -46377,7 +46566,6 @@ name2group:
   Explosives: infantry/InfantrySkills
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   'Exsanguinator ': entity/DeadspaceOverseerCruiser
-  Extended 'Canicule' Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extremely Powerful EM Forcefield: entity/LargeCollidableStructure
@@ -46616,6 +46804,7 @@ name2group:
   Federation Navy Comet Blueprint: blueprint/FrigateBlueprint
   Federation Navy Comet Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Federation Navy Comet Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Federation Navy Comet Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Federation Navy Comet Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Federation Navy Comet Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Federation Navy Comet Police Pursuit SKIN (30 Days): skins/Max30DaySKIN
@@ -46901,6 +47090,7 @@ name2group:
   Flycatcher Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Flycatcher Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Flycatcher Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Flycatcher Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Flycatcher Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Flycatcher Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Flycatcher Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
@@ -47351,6 +47541,9 @@ name2group:
   Ghalen Pastries: commodity/Frozen
   Ghosting Damavik: entity/InvadingPrecursorEntities
   Ghosting Drekavac: entity/InvadingPrecursorEntities
+  Ghosting Raznaborg Damavik: entity/InvadingPrecursorEntities
+  Ghosting Sudenic Damavik: entity/InvadingPrecursorEntities
+  Ghosting Sudenic Drekavac: entity/InvadingPrecursorEntities
   Ghosting Vila Damavik: entity/AbyssalSpaceshipEntities
   Giant Freight Container: celestial/FreightContainer
   Giant Freight Container Blueprint: blueprint/ContainerBlueprints
@@ -47362,6 +47555,7 @@ name2group:
   Gila Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Gila Abyssal Thunderstorm SKIN (Permanent): skins/PermanentSKIN
   Gila Ace of Podhunters SKIN (Permanent): skins/PermanentSKIN
+  Gila Aetheric Raiders SKIN (Permanent): skins/PermanentSKIN
   Gila Blueprint: blueprint/CruiserBlueprint
   Gila Deathglow Hunters SKIN (Permanent): skins/PermanentSKIN
   Gila Emperor Bear SKIN (Permanent): skins/PermanentSKIN
@@ -47683,7 +47877,7 @@ name2group:
   Graphene Nanoribbons Reaction Formula: blueprint/PolymerReactionFormulas
   Gravid 100MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Gravid 10MN Afterburner Mutaplasmid: commodity/Mutaplasmids
-  Gravid 1MN Afterburner MutaPlasmid: commodity/Mutaplasmids
+  Gravid 1MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Gravid 500MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Gravid 50MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Gravid 5MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
@@ -48270,6 +48464,7 @@ name2group:
   Harpy Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Harpy Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Harpy Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Harpy Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Harpy Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Harpy Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Harpy Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
@@ -48277,6 +48472,11 @@ name2group:
   Harroken Ikero: commodity/Livestock
   Harrowing Damavik: entity/InvadingPrecursorEntities
   Harrowing Kikimora: entity/InvadingPrecursorEntities
+  Harrowing Raznaborg Damavik: entity/InvadingPrecursorEntities
+  Harrowing Raznaborg Kikimora: entity/InvadingPrecursorEntities
+  Harrowing Sudenic Damavik: entity/InvadingPrecursorEntities
+  Harrowing Sudenic Kikimora: entity/InvadingPrecursorEntities
+  Harrowing Sudenic Vedmak: entity/InvadingPrecursorEntities
   Harrowing Vedmak: entity/InvadingPrecursorEntities
   Harrowing Vila Vedmak: entity/AbyssalSpaceshipEntities
   Haruo Wako: entity/StorylineMissionBattleship
@@ -48293,6 +48493,7 @@ name2group:
   Hawk Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Hawk Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Hawk Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Hawk Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Hawk Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Hawk Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Hawk Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
@@ -48483,6 +48684,7 @@ name2group:
   Hecate Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Hecate Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Hecate Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Hecate Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Hecate Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Hecate Ruby Sungrazer SKIN (Permanent): skins/PermanentSKIN
   Hecate Sapphire Sungrazer SKIN (Permanent): skins/PermanentSKIN
@@ -48521,6 +48723,7 @@ name2group:
   Helios Blueprint: blueprint/FrigateBlueprint
   Helios Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Helios Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Helios Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Helios Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Helios Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Helios Ruby Sungrazer SKIN (Permanent): skins/PermanentSKIN
@@ -48591,6 +48794,12 @@ name2group:
   High-Tech Scanner: commodity/Miscellaneous
   High-Tech Small Arms: commodity/Miscellaneous
   High-Tech Transmitters: planetarycommodities/SpecializedCommoditiesTier3
+  High-grade Amulet Alpha: implant/Cyberimplant
+  High-grade Amulet Beta: implant/Cyberimplant
+  High-grade Amulet Delta: implant/Cyberimplant
+  High-grade Amulet Epsilon: implant/Cyberimplant
+  High-grade Amulet Gamma: implant/Cyberimplant
+  High-grade Amulet Omega: implant/Cyberimplant
   High-grade Ascendancy Alpha: implant/Cyberimplant
   High-grade Ascendancy Alpha Blueprint: blueprint/ImplantBlueprints
   High-grade Ascendancy Beta: implant/Cyberimplant
@@ -48633,12 +48842,6 @@ name2group:
   High-grade Jackal Epsilon: implant/Cyberimplant
   High-grade Jackal Gamma: implant/Cyberimplant
   High-grade Jackal Omega: implant/Cyberimplant
-  High-grade Slave Alpha: implant/Cyberimplant
-  High-grade Slave Beta: implant/Cyberimplant
-  High-grade Slave Delta: implant/Cyberimplant
-  High-grade Slave Epsilon: implant/Cyberimplant
-  High-grade Slave Gamma: implant/Cyberimplant
-  High-grade Slave Omega: implant/Cyberimplant
   High-grade Snake Alpha: implant/Cyberimplant
   High-grade Snake Beta: implant/Cyberimplant
   High-grade Snake Delta: implant/Cyberimplant
@@ -48874,6 +49077,7 @@ name2group:
   Hyperion Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Hyperion Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Hyperion Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Hyperion Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Hyperion Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Hyperion Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Hyperion Police SKIN (Permanent): skins/PermanentSKIN
@@ -48929,6 +49133,7 @@ name2group:
   Identity Data Chip: commodity/Commodities
   Ikitursa: ship/HeavyAssaultCruiser
   Ikitursa Blueprint: blueprint/CruiserBlueprint
+  Ikitursa Niflhel Gildclaw SKIN (Permanent): skins/PermanentSKIN
   Ikitursa Singularity Storm SKIN (Permanent): skins/PermanentSKIN
   Illian Gara: entity/StorylineMissionBattleship
   Illian's Passcard: commodity/Commodities
@@ -48945,6 +49150,7 @@ name2group:
   Imicus Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Imicus Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Imicus Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Imicus Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Imicus Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Imicus Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Imicus Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -49209,6 +49415,7 @@ name2group:
   Imperial Navy Slicer: ship/Frigate
   Imperial Navy Slicer Blueprint: blueprint/FrigateBlueprint
   Imperial Navy Slicer Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Imperial Navy Slicer Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Imperial Navy Slicer EoM SKIN (Permanent): skins/PermanentSKIN
   Imperial Navy Slicer Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Imperial Navy Slicer Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -49356,6 +49563,7 @@ name2group:
   Incursus Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Incursus Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Incursus Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Incursus Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Incursus Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Incursus Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Incursus Quafe SKIN (Permanent): skins/PermanentSKIN
@@ -49514,6 +49722,8 @@ name2group:
   Industrial Core I Blueprint: blueprint/SiegeModuleBlueprint
   Industrial Core II: module/SiegeModule
   Industrial Core II Blueprint: blueprint/SiegeModuleBlueprint
+  Industrial Cynosural Field Generator: module/CynosuralFieldGenerator
+  Industrial Cynosural Field Generator Blueprint: blueprint/GangCoordinatorBlueprint
   Industrial Derelict: entity/DeadspaceOverseerSStructure
   Industrial Explosives: planetarycommodities/SpecializedCommoditiesTier3
   Industrial Fibers: planetarycommodities/BasicCommoditiesTier1
@@ -49866,6 +50076,7 @@ name2group:
   Ishkur Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Ishkur Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Ishkur Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Ishkur Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Ishkur Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Ishkur Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Ishkur Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -49881,6 +50092,7 @@ name2group:
   Ishtar Glittering Dream SKIN (Permanent): skins/PermanentSKIN
   Ishtar Golden SKIN (Permanent): skins/PermanentSKIN
   Ishtar IGC SKIN (Permanent): skins/PermanentSKIN
+  Ishtar Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Ishtar Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Ishtar Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Ishtar Police SKIN (Permanent): skins/PermanentSKIN
@@ -49926,6 +50138,7 @@ name2group:
   Iteron Mark V Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Iteron Mark V Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Iteron Mark V Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Iteron Mark V Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Iteron Mark V Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Iteron Mark V InterBus SKIN (30 Days): skins/Max30DaySKIN
   Iteron Mark V InterBus SKIN (365 Days): skins/Max1YearSKIN
@@ -50011,6 +50224,7 @@ name2group:
   Jihar Okham: entity/StorylineMissionCruiser
   Jin-Mei Silk Cord: specialeditionassets/SpecialEditionCommodities
   Jita Protest YC113: specialeditionassets/SpecialEditionCommodities
+  Jita Trade Hub: station/Station
   Joint Harvesting Strong Box: commodity/StrongBoxes
   Jols Eytur: entity/DeadspaceOverseerFrigate
   Jorek Lephny: commodity/Livestock
@@ -50120,6 +50334,7 @@ name2group:
   Keres Blueprint: blueprint/FrigateBlueprint
   Keres Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Keres Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Keres Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Keres Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Keres Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Keres Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -50332,6 +50547,7 @@ name2group:
   Kronos Inner Zone Shipping SKIN (7 Days): skins/Max7DaySKIN
   Kronos Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Kronos Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
+  Kronos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Kronos Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Kronos Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Kronos Police SKIN (30 Days): skins/Max30DaySKIN
@@ -50359,6 +50575,7 @@ name2group:
   Kryos Blueprint: blueprint/IndustrialBlueprint
   Kryos Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Kryos Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Kryos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Kryos Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Kryos Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Kryos Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -50396,6 +50613,7 @@ name2group:
   Lachesis Blueprint: blueprint/CruiserBlueprint
   Lachesis Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Lachesis Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Lachesis Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Lachesis Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Lachesis Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Lachesis Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -51094,6 +51312,7 @@ name2group:
   Leviathan Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Leviathan Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Leviathan Headhunter SKIN (Permanent): skins/PermanentSKIN
+  Leviathan Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Leviathan Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Leviathan Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Leviathan Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
@@ -51367,7 +51586,25 @@ name2group:
   Lorentz Fluid: material/SalvagedMaterials
   Lori Tzen: entity/MissionGenericFrigates
   Lost reminder to pay sov bill: specialeditionassets/SpecialEditionCommodities
+  Low-Grade Mimesis Alpha: implant/Cyberimplant
+  Low-Grade Mimesis Alpha Blueprint: blueprint/ImplantBlueprints
+  Low-Grade Mimesis Beta: implant/Cyberimplant
+  Low-Grade Mimesis Beta Blueprint: blueprint/ImplantBlueprints
+  Low-Grade Mimesis Delta: implant/Cyberimplant
+  Low-Grade Mimesis Delta Blueprint: blueprint/ImplantBlueprints
+  Low-Grade Mimesis Epsilon: implant/Cyberimplant
+  Low-Grade Mimesis Epsilon Blueprint: blueprint/ImplantBlueprints
+  Low-Grade Mimesis Gamma: implant/Cyberimplant
+  Low-Grade Mimesis Gamma Blueprint: blueprint/ImplantBlueprints
+  Low-Grade Mimesis Omega: implant/Cyberimplant
+  Low-Grade Mimesis Omega Blueprint: blueprint/ImplantBlueprints
   Low-Tech Deadspace Energy Harvester: entity/DeadspaceOverseerSStructure
+  Low-grade Amulet Alpha: implant/Cyberimplant
+  Low-grade Amulet Beta: implant/Cyberimplant
+  Low-grade Amulet Delta: implant/Cyberimplant
+  Low-grade Amulet Epsilon: implant/Cyberimplant
+  Low-grade Amulet Gamma: implant/Cyberimplant
+  Low-grade Amulet Omega: implant/Cyberimplant
   Low-grade Asklepian Alpha: implant/Cyberimplant
   Low-grade Asklepian Beta: implant/Cyberimplant
   Low-grade Asklepian Delta: implant/Cyberimplant
@@ -51422,12 +51659,6 @@ name2group:
   Low-grade Nomad Epsilon: implant/Cyberimplant
   Low-grade Nomad Gamma: implant/Cyberimplant
   Low-grade Nomad Omega: implant/Cyberimplant
-  Low-grade Slave Alpha: implant/Cyberimplant
-  Low-grade Slave Beta: implant/Cyberimplant
-  Low-grade Slave Delta: implant/Cyberimplant
-  Low-grade Slave Epsilon: implant/Cyberimplant
-  Low-grade Slave Gamma: implant/Cyberimplant
-  Low-grade Slave Omega: implant/Cyberimplant
   Low-grade Snake Alpha: implant/Cyberimplant
   Low-grade Snake Beta: implant/Cyberimplant
   Low-grade Snake Delta: implant/Cyberimplant
@@ -51643,6 +51874,7 @@ name2group:
   Magus Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Magus Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Magus Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Magus Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Magus Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Magus Serpentis SKIN (Permanent): skins/PermanentSKIN
   Magus Spirit SKIN (Permanent): skins/PermanentSKIN
@@ -51660,6 +51892,7 @@ name2group:
   Malediction Blueprint: blueprint/FrigateBlueprint
   Malediction Capsuleer Day XV SKIN (Permanent): skins/PermanentSKIN
   Malediction Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Malediction Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Malediction EoM SKIN (Permanent): skins/PermanentSKIN
   Malediction Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Malediction Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -51842,6 +52075,7 @@ name2group:
   Maulus Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Maulus Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Maulus Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Maulus Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Maulus Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Maulus Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Maulus Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -51853,6 +52087,7 @@ name2group:
   Maulus Navy Issue Blueprint: blueprint/FrigateBlueprint
   Maulus Navy Issue Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Maulus Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Maulus Navy Issue Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Maulus Navy Issue Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Maulus Navy Issue Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Maulus Navy Issue Sapphire Sungrazer SKIN (Permanent): skins/PermanentSKIN
@@ -52424,6 +52659,7 @@ name2group:
   Megathron Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Megathron Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Megathron Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Megathron Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Megathron Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Megathron Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Megathron Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -52435,6 +52671,7 @@ name2group:
   Megathron Navy Issue Blueprint: blueprint/BattleshipBlueprint
   Megathron Navy Issue Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Megathron Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Megathron Navy Issue Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Megathron Navy Issue Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Megathron Navy Issue Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Megathron Navy Issue Sapphire Sungrazer SKIN (Permanent): skins/PermanentSKIN
@@ -52807,6 +53044,7 @@ name2group:
   Miasmos Blueprint: blueprint/IndustrialBlueprint
   Miasmos Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Miasmos Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Miasmos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Miasmos Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Miasmos Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Miasmos Quafe Ultra Edition: ship/Industrial
@@ -52856,6 +53094,12 @@ name2group:
   Microwave S Blueprint: blueprint/FrequencyCrystalBlueprint
   Microwave XL: charge/FrequencyCrystal
   Microwave XL Blueprint: blueprint/FrequencyCrystalBlueprint
+  Mid-grade Amulet Alpha: implant/Cyberimplant
+  Mid-grade Amulet Beta: implant/Cyberimplant
+  Mid-grade Amulet Delta: implant/Cyberimplant
+  Mid-grade Amulet Epsilon: implant/Cyberimplant
+  Mid-grade Amulet Gamma: implant/Cyberimplant
+  Mid-grade Amulet Omega: implant/Cyberimplant
   Mid-grade Ascendancy Alpha: implant/Cyberimplant
   Mid-grade Ascendancy Alpha Blueprint: blueprint/ImplantBlueprints
   Mid-grade Ascendancy Beta: implant/Cyberimplant
@@ -52910,12 +53154,6 @@ name2group:
   Mid-grade Nomad Epsilon: implant/Cyberimplant
   Mid-grade Nomad Gamma: implant/Cyberimplant
   Mid-grade Nomad Omega: implant/Cyberimplant
-  Mid-grade Slave Alpha: implant/Cyberimplant
-  Mid-grade Slave Beta: implant/Cyberimplant
-  Mid-grade Slave Delta: implant/Cyberimplant
-  Mid-grade Slave Epsilon: implant/Cyberimplant
-  Mid-grade Slave Gamma: implant/Cyberimplant
-  Mid-grade Slave Omega: implant/Cyberimplant
   Mid-grade Snake Alpha: implant/Cyberimplant
   Mid-grade Snake Beta: implant/Cyberimplant
   Mid-grade Snake Delta: implant/Cyberimplant
@@ -53348,6 +53586,7 @@ name2group:
   Minokawa Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Minokawa Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Minokawa Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Minokawa Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Minokawa Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Minokawa Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Minokawa Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
@@ -53464,6 +53703,7 @@ name2group:
   Moa Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Moa Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Moa Guristas SKIN (Permanent): skins/PermanentSKIN
+  Moa Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Moa Lai Dai SKIN (30 Days): skins/Max30DaySKIN
   Moa Lai Dai SKIN (365 Days): skins/Max1YearSKIN
   Moa Lai Dai SKIN (7 Days): skins/Max7DaySKIN
@@ -53591,6 +53831,7 @@ name2group:
   Moros Blueprint: blueprint/DreadnoughtBlueprint
   Moros Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Moros Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Moros Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Moros Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Moros InterBus SKIN (30 Days): skins/Max30DaySKIN
   Moros InterBus SKIN (365 Days): skins/Max1YearSKIN
@@ -53663,6 +53904,7 @@ name2group:
   Myrmidon Capsuleer Day XV SKIN (Permanent): skins/PermanentSKIN
   Myrmidon Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Myrmidon Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Myrmidon Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Myrmidon Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Myrmidon Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Myrmidon Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -53812,6 +54054,7 @@ name2group:
   Navitas Blueprint: blueprint/FrigateBlueprint
   Navitas Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Navitas Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Navitas Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Navitas Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Navitas Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Navitas Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -53844,6 +54087,7 @@ name2group:
   Nemesis Caille Neon SKIN (Permanent): skins/PermanentSKIN
   Nemesis Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Nemesis Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Nemesis Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Nemesis Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Nemesis Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Nemesis Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -53858,6 +54102,7 @@ name2group:
   Nereus Blueprint: blueprint/IndustrialBlueprint
   Nereus Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Nereus Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Nereus Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Nereus Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Nereus Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Nereus Ruby Sungrazer SKIN (Permanent): skins/PermanentSKIN
@@ -53866,6 +54111,7 @@ name2group:
   Nereus Valimor Legacy SKIN (Permanent): skins/PermanentSKIN
   Nergal: ship/AssaultFrigate
   Nergal Blueprint: blueprint/FrigateBlueprint
+  Nergal Niflhel Gildclaw SKIN (Permanent): skins/PermanentSKIN
   Nergal Singularity Storm SKIN (Permanent): skins/PermanentSKIN
   Nerve Sticks: commodity/Drugs
   Nestor: ship/Battleship
@@ -53965,6 +54211,7 @@ name2group:
   Ninazu Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Ninazu Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Ninazu Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Ninazu Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Ninazu Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Ninazu Police SKIN (Permanent): skins/PermanentSKIN
   Ninazu Valimor Legacy SKIN (Permanent): skins/PermanentSKIN
@@ -54133,6 +54380,7 @@ name2group:
   Nyx Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Nyx Glittering Dream SKIN (Permanent): skins/PermanentSKIN
   Nyx Headhunter SKIN (Permanent): skins/PermanentSKIN
+  Nyx Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Nyx Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Nyx InterBus SKIN (30 Days): skins/Max30DaySKIN
   Nyx InterBus SKIN (365 Days): skins/Max1YearSKIN
@@ -54177,6 +54425,7 @@ name2group:
   Obelisk Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Obelisk Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Obelisk Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Obelisk Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Obelisk Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Obelisk Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Obelisk Quafe SKIN (30 Days): skins/Max30DaySKIN
@@ -54196,6 +54445,7 @@ name2group:
   Occator Blueprint: blueprint/EliteIndustrialBlueprint
   Occator Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Occator Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Occator Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Occator Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Occator Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Occator Lodestrike SKIN (Permanent): skins/PermanentSKIN
@@ -54347,6 +54597,7 @@ name2group:
   Oneiros Emergency Response Squad SKIN (Permanent): skins/PermanentSKIN
   Oneiros Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Oneiros Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Oneiros Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Oneiros Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Oneiros Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Oneiros Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -54364,6 +54615,7 @@ name2group:
   Onyx Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Onyx Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Onyx Heart of Valor: commodity/Miscellaneous
+  Onyx Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Onyx Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Onyx Ochre: asteroid/DarkOchre
   Onyx Raata Sunset SKIN (Permanent): skins/PermanentSKIN
@@ -54501,6 +54753,7 @@ name2group:
   Osprey Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Osprey Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Osprey Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Osprey Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Osprey Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Osprey Navy Issue: ship/Cruiser
   Osprey Navy Issue Blueprint: blueprint/CruiserBlueprint
@@ -54692,6 +54945,7 @@ name2group:
   Patronager: entity/Convoy
   Pax Amarria: commodity/Miscellaneous
   Pax Ammaria: commodity/Miscellaneous
+  Pax e Kilizhi Do: specialeditionassets/SpecialEditionCommodities
   Payo Ming: entity/StorylineMissionBattleship
   Peddler: entity/Convoy
   Pellucid Crokite: asteroid/Crokite
@@ -54734,6 +54988,7 @@ name2group:
   Phobos Blueprint: blueprint/CruiserBlueprint
   Phobos Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Phobos Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Phobos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Phobos Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Phobos Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Phobos Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -55234,6 +55489,7 @@ name2group:
   Prophecy Blood Raiders SKIN (Permanent): skins/PermanentSKIN
   Prophecy Blueprint: blueprint/BattlecruiserBlueprint
   Prophecy Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Prophecy Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Prophecy EoM SKIN (Permanent): skins/PermanentSKIN
   Prophecy Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Prophecy Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -55323,6 +55579,7 @@ name2group:
   Proteus Defensive - Nanobot Injector Blueprint: blueprint/SubsystemBlueprints
   Proteus Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Proteus Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Proteus Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Proteus Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Proteus Offensive - Drone Synthesis Projector: subsystem/OffensiveSystems
   Proteus Offensive - Drone Synthesis Projector Blueprint: blueprint/SubsystemBlueprints
@@ -55389,6 +55646,7 @@ name2group:
   Providence Ardishapur Serenity Only SKIN (Permanent): skins/PermanentSKIN
   Providence Blueprint: blueprint/FreighterBlueprint
   Providence Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Providence Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Providence EoM SKIN (Permanent): skins/PermanentSKIN
   Providence Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Providence Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -55498,6 +55756,7 @@ name2group:
   Purifier: ship/StealthBomber
   Purifier Blueprint: blueprint/FrigateBlueprint
   Purifier Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Purifier Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Purifier EoM SKIN (Permanent): skins/PermanentSKIN
   Purifier Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Purifier Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -55769,6 +56028,7 @@ name2group:
   Rattati's Modified Assault gk.0 (Master): infantry/InfantryDropsuits
   Rattlesnake: ship/Battleship
   Rattlesnake Ace of Podhunters SKIN (Permanent): skins/PermanentSKIN
+  Rattlesnake Aetheric Raiders SKIN (Permanent): skins/PermanentSKIN
   Rattlesnake Blueprint: blueprint/BattleshipBlueprint
   Rattlesnake Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Rattlesnake Hostile Takeover SKIN (Permanent): skins/PermanentSKIN
@@ -55864,6 +56124,8 @@ name2group:
   Raysere's Modified Tachyon Beam Laser: module/EnergyWeapon
   Raysere's Modified Thermal Plating: module/ArmorCoating
   Raytio Family Supplies: commodity/Commodities
+  Raznaborg Damavik: entity/InvadingPrecursorEntities
+  Raznaborg Kikimora: entity/InvadingPrecursorEntities
   Reactions: skill/ResourceProcessing
   Reactive Armor Hardener: module/ArmorResistanceShiftHardener
   Reactive Armor Hardener Blueprint: blueprint/ArmorResistanceShiftHardenerBlueprint
@@ -55904,6 +56166,7 @@ name2group:
   Redeemer: ship/BlackOps
   Redeemer Blueprint: blueprint/BattleshipBlueprint
   Redeemer Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Redeemer Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Redeemer EoM SKIN (Permanent): skins/PermanentSKIN
   Redeemer Eros Blossom SKIN (Permanent): skins/PermanentSKIN
   Redeemer Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
@@ -55999,7 +56262,11 @@ name2group:
   Renegade Serpentis Assassin: entity/DeadspaceSerpentisCruiser
   Renewing Damavik: entity/InvadingPrecursorEntities
   Renewing Leshak: entity/InvadingPrecursorEntities
+  Renewing Raznaborg Damavik: entity/InvadingPrecursorEntities
   Renewing Rodiva: entity/InvadingPrecursorEntities
+  Renewing Sudenic Damavik: entity/InvadingPrecursorEntities
+  Renewing Sudenic Leshak: entity/InvadingPrecursorEntities
+  Renewing Sudenic Rodiva: entity/InvadingPrecursorEntities
   Rent-A-Dream Pleasure Gardens: entity/DeadspaceOverseerSStructure
   Renyn Meten: entity/IncursionSanshaSNationFrigate
   Repair Drone Operation: skill/Drones
@@ -56459,6 +56726,7 @@ name2group:
   Revelation - Under Construction: entity/LargeCollidableStructure
   Revelation Blueprint: blueprint/DreadnoughtBlueprint
   Revelation Cold Iron SKIN (Permanent): skins/PermanentSKIN
+  Revelation Crown and Swords SKIN (Permanent): skins/PermanentSKIN
   Revelation EoM SKIN (Permanent): skins/PermanentSKIN
   Revelation Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Revelation Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -56717,7 +56985,7 @@ name2group:
   SARO Emblem: commodity/Miscellaneous
   SARO Frigate: entity/MissionCONCORDFrigate
   SB-39 Rail Rifle: infantry/InfantryWeapons
-  SCC Guidelines – Lotteries For Dummies: specialeditionassets/SpecialEditionCommodities
+  SCC Guidelines �� Lotteries For Dummies: specialeditionassets/SpecialEditionCommodities
   SK9M Breach Submachine Gun: infantry/InfantryWeapons
   SKIN: abstrct/Miscellaneous
   SL-4 Assault Rail Rifle: infantry/InfantryWeapons
@@ -58145,6 +58413,7 @@ name2group:
   Sin Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Sin Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Sin Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Sin Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Sin Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Sin Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Sin Ruby Sungrazer SKIN (Permanent): skins/PermanentSKIN
@@ -59036,7 +59305,6 @@ name2group:
   Staff Recruiter Scrambler Pistol: infantry/InfantryWeapons
   Staff Recruiter Sniper Rifle: infantry/InfantryWeapons
   Standard 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
-  Standard 'Canicule' Cerebral Accelerator: implant/Booster
   Standard Assault A-I: infantry/InfantryDropsuits
   Standard Assault C-I: infantry/InfantryDropsuits
   Standard Assault G-I: infantry/InfantryDropsuits
@@ -59710,6 +59978,9 @@ name2group:
   Starving Damavik: entity/InvadingPrecursorEntities
   Starving Drekavac: entity/InvadingPrecursorEntities
   Starving Leshak: entity/AbyssalSpaceshipEntities
+  Starving Raznaborg Damavik: entity/InvadingPrecursorEntities
+  Starving Sudenic Damavik: entity/InvadingPrecursorEntities
+  Starving Sudenic Drekavac: entity/InvadingPrecursorEntities
   Starving Vedmak: entity/AbyssalSpaceshipEntities
   Stasis Field Effect Subpylon: entity/LargeCollidableStructure
   Stasis Webification Battery: starbase/StasisWebificationBattery
@@ -60101,6 +60372,12 @@ name2group:
   Succubus Blueprint: blueprint/FrigateBlueprint
   Succubus Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Succubus True Deliverance SKIN (Permanent): skins/PermanentSKIN
+  Sudenic Damavik: entity/InvadingPrecursorEntities
+  Sudenic Drekavac: entity/InvadingPrecursorEntities
+  Sudenic Kikimora: entity/InvadingPrecursorEntities
+  Sudenic Leshak: entity/InvadingPrecursorEntities
+  Sudenic Rodiva: entity/InvadingPrecursorEntities
+  Sudenic Vedmak: entity/InvadingPrecursorEntities
   Suho Tatanal's Investigation Dossier: commodity/Commodities
   Sukuuvestaa Transport Ship: entity/MissionGenericCruisers
   Sulfuric Acid: material/IntermediateMaterials
@@ -60430,6 +60707,7 @@ name2group:
   Talos Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Talos Glittering Dream SKIN (Permanent): skins/PermanentSKIN
   Talos Headhunter SKIN (Permanent): skins/PermanentSKIN
+  Talos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Talos Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Talos InterBus SKIN (30 Days): skins/Max30DaySKIN
   Talos InterBus SKIN (365 Days): skins/Max1YearSKIN
@@ -60469,6 +60747,10 @@ name2group:
   Tangling Damavik: entity/InvadingPrecursorEntities
   Tangling Kikimora: entity/InvadingPrecursorEntities
   Tangling Leshak: entity/AbyssalSpaceshipEntities
+  Tangling Raznaborg Damavik: entity/InvadingPrecursorEntities
+  Tangling Raznaborg Kikimora: entity/InvadingPrecursorEntities
+  Tangling Sudenic Damavik: entity/InvadingPrecursorEntities
+  Tangling Sudenic Kikimora: entity/InvadingPrecursorEntities
   Tangling Vila Damavik: entity/AbyssalSpaceshipEntities
   Tantima Areki: commodity/Livestock
   Tantima Areki's Raven: entity/MissionCaldariStateBattleship
@@ -60480,6 +60762,7 @@ name2group:
   Taranis Blueprint: blueprint/FrigateBlueprint
   Taranis Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Taranis Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Taranis Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Taranis Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Taranis Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Taranis Serpentis SKIN (Permanent): skins/PermanentSKIN
@@ -60514,6 +60797,7 @@ name2group:
   Tayra Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Tayra Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Tayra Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Tayra Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Tayra Lodestrike SKIN (Permanent): skins/PermanentSKIN
   Tayra Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Tayra Raata Sunset SKIN (Permanent): skins/PermanentSKIN
@@ -60676,6 +60960,7 @@ name2group:
   Thalia Blueprint: blueprint/FrigateBlueprint
   Thalia Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Thalia Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Thalia Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Thalia Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Thalia Serpentis SKIN (Permanent): skins/PermanentSKIN
   Thalia Spirit SKIN (Permanent): skins/PermanentSKIN
@@ -60689,6 +60974,7 @@ name2group:
   Thanatos Glittering Dream SKIN (Permanent): skins/PermanentSKIN
   Thanatos Headhunter SKIN (Permanent): skins/PermanentSKIN
   Thanatos Hunter's Quiver SKIN (Permanent): skins/PermanentSKIN
+  Thanatos Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Thanatos Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Thanatos Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Thanatos Quafe SKIN (30 Days): skins/Max30DaySKIN
@@ -60810,6 +61096,7 @@ name2group:
   Thorax Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Thorax Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Thorax Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Thorax Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Thorax Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Thorax Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Thorax Luminaire Zenith SKIN (Permanent): skins/PermanentSKIN
@@ -61158,6 +61445,7 @@ name2group:
   Tristan Inner Zone Shipping SKIN (90 Days): skins/Max90DaySKIN
   Tristan Inner Zone Shipping SKIN (Permanent): skins/PermanentSKIN
   Tristan Inner Zone Shipping Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Tristan Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Tristan Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Tristan Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Tristan Quafe SKIN (30 Days): skins/Max30DaySKIN
@@ -62063,6 +62351,7 @@ name2group:
   Vexor Glittering Dream SKIN (Permanent): skins/PermanentSKIN
   Vexor Headhunter SKIN (Permanent): skins/PermanentSKIN
   Vexor IGC SKIN (Permanent): skins/PermanentSKIN
+  Vexor Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Vexor Intaki Syndicate SKIN (30 Days): skins/Max30DaySKIN
   Vexor Intaki Syndicate SKIN (365 Days): skins/Max1YearSKIN
   Vexor Intaki Syndicate SKIN (7 Days): skins/Max7DaySKIN
@@ -62083,6 +62372,7 @@ name2group:
   Vexor Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Vexor Navy Issue Glittering Dream SKIN (Permanent): skins/PermanentSKIN
   Vexor Navy Issue IGC SKIN (Permanent): skins/PermanentSKIN
+  Vexor Navy Issue Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Vexor Navy Issue Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Vexor Navy Issue Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Vexor Navy Issue Luminaire Rising SKIN (Permanent): skins/PermanentSKIN
@@ -62115,6 +62405,7 @@ name2group:
   Viator Blueprint: blueprint/EliteIndustrialBlueprint
   Viator Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Viator Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Viator Inner Zone Vanguard SKIN (Permanent): skins/PermanentSKIN
   Viator Intaki Syndicate SKIN (Permanent): skins/PermanentSKIN
   Viator Kopis Edge SKIN (Permanent): skins/PermanentSKIN
   Viator Lodestrike SKIN (Permanent): skins/PermanentSKIN
@@ -62799,11 +63090,12 @@ name2group:
   Women's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
   Women's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Women's ‘Liberator’ Cap (Minmatar Republic): apparel/Headwear
-  Women's ‘Protector’ Beret (Caldari State): apparel/Headwear
+  Women's ‘Protector�� Beret (Caldari State): apparel/Headwear
   'Women''s “Mirelle” Upwell Executive Spectacles ': apparel/Eyewear
   World Ark (Xordazh-class): entity/LargeCollidableStructure
   Worm: ship/Frigate
   Worm Ace of Podhunters SKIN (Permanent): skins/PermanentSKIN
+  Worm Aetheric Raiders SKIN (Permanent): skins/PermanentSKIN
   Worm Blueprint: blueprint/FrigateBlueprint
   Worm Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Worm Hostile Takeover SKIN (Permanent): skins/PermanentSKIN
@@ -62846,6 +63138,7 @@ name2group:
   Wyvern Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Wyvern Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Wyvern Headhunter SKIN (Permanent): skins/PermanentSKIN
+  Wyvern Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Wyvern Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Wyvern Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Wyvern Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
@@ -62920,12 +63213,12 @@ name2group:
   Xulan Anieu: entity/MissionGenericFrigates
   Y-Axis Calibration Coordinate: commodity/Miscellaneous
   YC117 Symposium On Emergent Threats Access Pass: specialeditionassets/SpecialEditionCommodities
-  YC118 Succession Trial Champion’s Decree – House Ardishapur: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Kador: specialeditionassets/SpecialEditionCommodities
+  YC118 Succession Trial Champion’s Decree – House Khanid: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Kor-Azor: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Sarum: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Tash-Murkon: specialeditionassets/SpecialEditionCommodities
-  YC118 Succession Trial Champion’s Decree �� House Khanid: specialeditionassets/SpecialEditionCommodities
+  YC118 Succession Trial Champion���s Decree – House Ardishapur: specialeditionassets/SpecialEditionCommodities
   YC121 Guardian's Gala Ticket: specialeditionassets/SpecialEditionCommodities
   YO-5000 Rapid Heavy Missile Launcher: module/MissileLauncherRapidHeavy
   Yaekun Ogdin: entity/MissionGenericBattleships
@@ -63238,11 +63531,13 @@ name2group:
   Zorya's Hospodar TTC-243: entity/InvadingPrecursorEntities
   Zorya's Hospodar TTC-3: entity/InvadingPrecursorEntities
   Zorya's Hospodar TTC-729: entity/InvadingPrecursorEntities
+  Zorya's Kikimora: entity/InvadingPrecursorEntities
   Zorya's Leshak: entity/InvadingPrecursorEntities
   Zorya's Light Entropic Disintegrator: module/PrecursorWeapon
   Zorya's Light Entropic Disintegrator Blueprint: blueprint/PrecursorWeaponBlueprint
   Zorya's Supratidal Entropic Disintegrator: module/PrecursorWeapon
   Zorya's Supratidal Entropic Disintegrator Blueprint: blueprint/PrecursorWeaponBlueprint
+  Zorya's Vedmak: entity/InvadingPrecursorEntities
   Zorya's Voivode TTC-243: entity/InvadingPrecursorEntities
   Zorya's Voivode TTC-3: entity/InvadingPrecursorEntities
   Zorya's Voivode TTC-729: entity/InvadingPrecursorEntities
@@ -63282,7 +63577,6 @@ name2group:
   resource harvesting and combat prototype: worldspace/WorldSpace
   swarren: worldspace/WorldSpace
   testing group: entity/MissionGenericBattleCruisers
-  unnamed_g1950_ic0: skins/PermanentSKIN
   unnamed_g306_ic0: entity/SpawnContainer
   weapon_container: entity/SpawnContainer
   wrecktest: worldspace/WorldSpace
@@ -63398,6 +63692,7 @@ name2group:
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  �� Arbitrator: entity/NPCCruiser
-  �� Condor: entity/NPCFrigate
-  �� Moa: entity/NPCCruiser
+  �� Chemosh: entity/NPCDreadnought
+  �� Raven: entity/NPCBattleship
+  ��� Condor: entity/NPCFrigate
+  ��� Omen: entity/NPCCruiser

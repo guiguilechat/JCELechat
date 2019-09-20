@@ -2031,6 +2031,7 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
+    WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 49712
     marketGroup: 2428
@@ -2896,7 +2897,7 @@ items:
     published: true
     volume: 115000.0
   Vexor Navy Issue:
-    Agility: 0.4399999976158142
+    Agility: 0.5099999904632568
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
     ArmorHP: 3000
@@ -2906,8 +2907,8 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 1500.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
-    CpuOutput: 310
-    DroneBandwidth: 125
+    CpuOutput: 350
+    DroneBandwidth: 75
     DroneCapacity: 200
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -2936,12 +2937,12 @@ items:
     MaxLockedTargets: 7
     MaxPassengers: 760
     MaxTargetRange: 52500
-    MaxVelocity: 220.0
+    MaxVelocity: 210.0
     MedSlots: 4
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.25
-    PowerOutput: 800
+    PowerOutput: 850
     PowerToSpeed: 1
     PropulsionGraphicID: 394
     RechargeRate: 490000.0
@@ -2960,12 +2961,14 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusCC: 5
+    ShipBonusGC: 10.0
     ShipBonusGC2: 10.0
-    SignatureRadius: 145
+    ShipBonusGC3: 7.5
+    SignatureRadius: 130
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TurretSlotsLeft: 2
+    TurretSlotsLeft: 3
     TypeColorScheme: 11328
     Uniformity: 1.0
     UpgradeCapacity: 400
@@ -2974,7 +2977,7 @@ items:
     WarpSpeedMultiplier: 3.0
     id: 17843
     marketGroup: 1370
-    mass: 1.131E7
+    mass: 9700000.0
     name: Vexor Navy Issue
     published: true
     volume: 112000.0

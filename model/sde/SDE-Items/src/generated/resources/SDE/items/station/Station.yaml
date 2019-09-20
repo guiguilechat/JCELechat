@@ -314,6 +314,15 @@ items:
     price: 600000.0
     published: false
     volume: 1.0
+  Jita Trade Hub:
+    ArmorUniformity: 1.0
+    Hp: 100000000
+    SignatureRadius: 100
+    id: 52678
+    name: Jita Trade Hub
+    price: 600000.0
+    published: false
+    volume: 1.0
   Jovian Construct:
     ArmorUniformity: 1.0
     SignatureRadius: 100
