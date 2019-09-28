@@ -202,28 +202,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			int nbPages = res.getNbPages();
 			boolean[] mismatch = new boolean[] { false };
 			if (res.isOk() && nbPages > 1) {
-				res.getOK().addAll(IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
-					var ret = resourceAccess.apply(page, parameters);
-					if (ret.isServerError()) {
-						for (int pageretry = 0; ret.isServerError() && pageretry < 3; pageretry++) {
-							logger.debug("fetching " + ret.getURL() + " again because error " + ret.getResponseCode() + " : "
-									+ ret.getError());
-							ret = resourceAccess.apply(page, parameters);
-						}
-					}
-					return ret;
-				}).peek(pageRes -> {
-					if (!pageRes.isOk()) {
-						res.responseCode = pageRes.getResponseCode();
-						res.error = pageRes.getError();
-					}
-					if (!pageRes.getHeaders().get("Expires").equals(res.getHeaders().get("Expires"))) {
-						logger.warn("mismatching page cache data [url=" + pageRes.getURL() + " Expires="
-								+ pageRes.getHeaders().get("Expires") + "] with first page [url=" + res.getURL() + " Expires="
-								+ res.getHeaders().get("Expires") + "]");
-						mismatch[0] = true;
-					}
-				}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr)).collect(Collectors.toList()));
+				res.getOK().addAll(fetchPagesFrom2(nbPages, resourceAccess, parameters, res, mismatch));
 			}
 			if (!mismatch[0]) {
 				if (res.responseCode != 200 && res.responseCode != 304) {
@@ -235,6 +214,34 @@ public abstract class ConnectedImpl implements ITransfer {
 			logger.debug("mismatch, fetching again " + res.getURL());
 		}
 		return null;
+	}
+
+	protected <T> List<T> fetchPagesFrom2(int nbPages,
+			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess, Map<String, String> parameters,
+			RequestedImpl<List<T>> res, boolean[] mismatch) {
+		List<T> listret = IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
+			var ret = resourceAccess.apply(page, parameters);
+			if (ret.isServerError()) {
+				for (int pageretry = 0; ret.isServerError() && pageretry < 3; pageretry++) {
+					logger.debug(
+							"fetching " + ret.getURL() + " again because error " + ret.getResponseCode() + " : " + ret.getError());
+					ret = resourceAccess.apply(page, parameters);
+				}
+			}
+			return ret;
+		}).peek(pageRes -> {
+			if (!pageRes.isOk()) {
+				res.responseCode = pageRes.getResponseCode();
+				res.error = pageRes.getError();
+			}
+			if (!pageRes.getHeaders().get("Expires").equals(res.getHeaders().get("Expires"))) {
+				logger.warn(
+						"mismatching page cache data [url=" + pageRes.getURL() + " Expires=" + pageRes.getHeaders().get("Expires")
+						+ "] with first page [url=" + res.getURL() + " Expires=" + res.getHeaders().get("Expires") + "]");
+				mismatch[0] = true;
+			}
+		}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr)).collect(Collectors.toList());
+		return listret;
 	}
 
 	protected <T> RequestedImpl<List<T>> convertToList(Requested<T[]> apply) {
