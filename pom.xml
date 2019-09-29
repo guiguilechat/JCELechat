@@ -48,6 +48,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<openjfx-version>12.0.2</openjfx-version>
+		<tools.version>1.0.2</tools.version>
 	</properties>
 	<build>
 		<plugins>
@@ -164,12 +165,12 @@
 			<dependency>
 				<groupId>fr.lelouet.tools</groupId>
 				<artifactId>Compilation</artifactId>
-				<version>0.3.12</version>
+				<version>${tools.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.lelouet.tools</groupId>
 				<artifactId>CollectionsHolders</artifactId>
-				<version>0.2.1-SNAPSHOT</version>
+				<version>${tools.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
