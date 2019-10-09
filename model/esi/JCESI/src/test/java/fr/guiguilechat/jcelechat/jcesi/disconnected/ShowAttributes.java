@@ -28,8 +28,7 @@ public class ShowAttributes {
 		// showEntity(48125);
 
 		// covetor
-		showEntity(17476);
-
+		// showEntity(17476);
 		// hobgoblin
 		// showEntity(2454);
 		// 250mm railgun II
@@ -45,6 +44,8 @@ public class ShowAttributes {
 		// showEntity(34144);
 		// base angel escort dramiel
 		// showEntity(35689);
+		// dire pithum mortifier
+		showEntity(24095);
 
 		// diamond arbitrator
 		// showEntity(43559);
