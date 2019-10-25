@@ -13,6 +13,10 @@ import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 
+/**
+ * cache over an instance of {@link ESIStatic}. Typical use case is to call
+ * {@link ESIStatic#INSTANCE}.cache
+ */
 public class CacheStatic extends SwaggerDCCache<ESIStatic> {
 
 	public CacheStatic(ESIStatic swag) {

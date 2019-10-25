@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Market;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.SystemAsset;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
@@ -35,6 +36,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
@@ -426,6 +428,28 @@ public class Corporation {
 	public ObsListHolder<R_get_corporations_corporation_id_roles_history> getRolesHistory() {
 		// already cached for direct resource
 		return con.raw.cache.corporations.roles_history(getId());
+	}
+
+	//
+	// wars
+	//
+
+	private ObsListHolder<R_get_wars_war_id> cachedMonthWars = null;
+
+	/**
+	 *
+	 * @return the cached observable list of wars, which started in thelast month,
+	 *         and for which this corporation is either aggressor or defender.
+	 */
+	public ObsListHolder<R_get_wars_war_id> getMonthWars() {
+		if (cachedMonthWars == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedMonthWars == null) {
+					cachedMonthWars = ESIAccess.INSTANCE.wars.getMonthWars()
+							.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
+				}});
+		}
+		return cachedMonthWars;
 	}
 
 }

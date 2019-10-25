@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 
+/** modeled access to the esi disconnected operation. */
 public class ESIAccess {
 
 	public final ESIStatic connection;
@@ -13,6 +14,7 @@ public class ESIAccess {
 		markets = new Markets(connection);
 		route = new Route(connection);
 		universe = new Universe(connection);
+		wars = new Wars(connection);
 	}
 
 	public static final ESIAccess INSTANCE = new ESIAccess(ESIStatic.INSTANCE);
@@ -26,5 +28,7 @@ public class ESIAccess {
 	public final Route route;
 
 	public final Universe universe;
+
+	public final Wars wars;
 
 }
