@@ -85,17 +85,10 @@ public class ESIAccountHelper {
 		System.out.println("acces token is " + accessToken);
 	}
 
-	public static void openBrowserForApp(String appID, String appCalllback, String... scopes) {
-		String uri = "https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=" + appCalllback
-				+ "&client_id=" + appID;
-		if (scopes != null && scopes.length != 0) {
-			uri = uri + "&scope=" + Stream.of(scopes).collect(Collectors.joining("%20"));
-		}
-		String urif = uri;
-		openBrowser(urif);
-	}
-
-	/** open a browser to given url */
+	/**
+	 * Open a browser to given URL. This is done in another thread otherwise it
+	 * can crash. Don't ask.
+	 */
 	public static void openBrowser(String url) {
 		new Thread(() -> {
 			if (Desktop.isDesktopSupported()) {
@@ -108,24 +101,64 @@ public class ESIAccountHelper {
 		}).start();
 	}
 
+	/**
+	 * open browser for the client to log in his account for an app.
+	 *
+	 * @param appID
+	 *          the public application id to connect to.
+	 * @param appCalllback
+	 *          the callback, must match the app's callback.
+	 * @param scopes
+	 *          the optional scopes to request for the app.
+	 */
+	public static void openBrowserForApp(String appID, String appCalllback, String... scopes) {
+		String uri = "https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=" + appCalllback
+				+ "&client_id=" + appID;
+		if (scopes != null && scopes.length != 0) {
+			uri = uri + "&scope=" + Stream.of(scopes).collect(Collectors.joining("%20"));
+		}
+		String urif = uri;
+		openBrowser(urif);
+	}
+
+	/**
+	 * open a new web page to create an application.
+	 */
 	public static void openBrowserForDevCreate() {
 		openBrowser("https://developers.eveonline.com/applications/create");
 	}
 
+	/**
+	 * open a web page to list the applications.
+	 */
 	public static void openBrowserForDevRetrieve() {
 		openBrowser("https://developers.eveonline.com/applications");
 	}
 
 	public static final Pattern appIdPat = Pattern.compile("^[0-9a-fA-F]{32}$");
 
-	public static boolean checkAppId(String value) {
-		return appIdPat.matcher(value).matches();
+	/**
+	 * check if an application ID string matches the requested format.
+	 *
+	 * @param appId
+	 *          the application ID to check
+	 * @return true if the appId is in correct format
+	 */
+	public static boolean checkAppId(String appId) {
+		return appIdPat.matcher(appId).matches();
 	}
 
-	public static final Pattern appKeyPat = Pattern.compile("^[0-9a-zA-Z]{40}$");
+	public static final Pattern appSecretPat = Pattern.compile("^[0-9a-zA-Z]{40}$");
 
-	public static boolean checkAppSecret(String value) {
-		return appKeyPat.matcher(value).matches();
+	/**
+	 * check if an application secret string matches the requested format.
+	 *
+	 * @param appSecret
+	 *          the application secret to check
+	 * @return true if the appSecret is in correct format
+	 */
+	public static boolean checkAppSecret(String appSecret) {
+		return appSecretPat.matcher(appSecret).matches();
 	}
 
 	public static String extractStringFromClipboard() {
@@ -152,10 +185,13 @@ public class ESIAccountHelper {
 	}
 
 	/**
+	 * convert a url that was sent as redirect from the eve auth server, to the
+	 * auth code.
+	 *
 	 * @param redirectURL
-	 *          the url the client was redirected to
+	 *          the url the server redirected the client to.
 	 * @param callback
-	 *          the app's callback
+	 *          the application's callback. It must be removed from the url.
 	 * @return the auth code from the returned url
 	 */
 	public static String callbackURLToAuthCode(String redirectURL, String callback) {
@@ -164,6 +200,7 @@ public class ESIAccountHelper {
 		}
 		return redirectURL.substring(callback.length() + "?code=".length());
 	}
+
 
 	public static String getCodeByClipboard(String appID, String callback, String... scopes) {
 		if (callback == null) {

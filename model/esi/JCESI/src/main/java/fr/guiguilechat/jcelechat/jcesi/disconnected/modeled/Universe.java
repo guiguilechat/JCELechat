@@ -37,6 +37,10 @@ public class Universe {
 		cache = connection.cache.universe;
 	}
 
+	//
+	// names
+	//
+
 	/**
 	 * assuming a request takes at max 100 characters, and a max url size of 2083,
 	 * each int will use this number of characters(+1 for the comma)
@@ -79,6 +83,10 @@ public class Universe {
 		}
 	}
 
+	//
+	// access to public structures
+	//
+
 	private Set<Long> publicStructures = new HashSet<>();
 
 	public boolean isPublicStructure(long structureid) {
@@ -90,11 +98,33 @@ public class Universe {
 		return publicStructures.contains(structureid);
 	}
 
+	public boolean isPublicDockable(long locationID) {
+		if (locationID < 60000000l) {
+			return false;
+		}
+		if (locationID < 61000000l) {
+			return true;
+		}
+		return isPublicStructure(locationID);
+	}
+
+	//
+	// distances between systems, constellations, regions
+	//
+
+	/**
+	 * a trip from a place to another is both a number of AU to jump, as well as a
+	 * number of jumps to perform. This is a simplification because "short jump"
+	 * take more time per AU to do them.
+	 *
+	 */
 	public static class TripDistance {
-		// number of jumps taken
+		/** number of jumps taken */
 		public int jumps;
-		// total distance in AU between gates, the original station, and the ending
-		// sun
+		/**
+		 * total distance in AU between gates, the original station, and the ending
+		 * sun
+		 */
 		public double AU;
 
 		@Override
@@ -103,6 +133,14 @@ public class Universe {
 		}
 	}
 
+	/**
+	 * get the distances to the sun of systems that are on the constellation, or
+	 * the adjacent constellations, of a station.
+	 *
+	 * @param stationId
+	 *          the id of the station
+	 * @return the map for each system to its tripdistance
+	 */
 	public Map<R_get_universe_systems_system_id, TripDistance> distancesOneConstelJump(int stationId) {
 		R_get_universe_stations_station_id station = cache.stations(stationId).get();
 		R_get_universe_systems_system_id system = cache.systems(station.system_id).get();
@@ -215,6 +253,12 @@ public class Universe {
 		return ret;
 	}
 
+	/**
+	 * check if an id is correct for a region.
+	 *
+	 * @param regionID
+	 * @return
+	 */
 	public boolean correctRegionID(int regionID) {
 		return cache.regions().get().contains(regionID);
 	}
@@ -226,22 +270,55 @@ public class Universe {
 		return Math.sqrt(Math.pow(pos1.x - pos2.x, 2) + Math.pow(pos1.y - pos2.y, 2) + Math.pow(pos1.z - pos2.z, 2));
 	}
 
-	public static int time_travel(int nbjumps, double nbAU, double warpseed, int align, double speedmps) {
+	/**
+	 * evaluates the time, in seconds, to travel through given parameters assuming
+	 * a ship with given stats
+	 *
+	 * @param nbGates
+	 *          total number of gate to take to make. amount of warp jumps is
+	 *          assumed to be this number plus one.
+	 * @param nbAU
+	 *          total number of AU traveled. this is the sum, per gate-to-gate, of
+	 *          the distance from one gate to another, and per start and end, from
+	 *          the warp destination to the warp exit.
+	 * @param warpseed
+	 *          ship warp speed, in AU per second.
+	 * @param align
+	 *          ship align time, in seconds. This needs to be rounded up from the
+	 *          exact ship align time due to server tick mechanism.
+	 * @param speedmps
+	 *          the subwarp speed, in metter per second, of the ship. This value
+	 *          being <200 can increase the exit off warp delay.
+	 * @return
+	 */
+	public static int time_travel(int nbGates, double nbAU, double warpseed, int align, double speedmps) {
+		// time to accelerate from 0 to cruise speed
 		double time_accel = Math.log(M_PER_AU) / warpseed;
+		// effective deceleration warpspeed
 		double decel_warpseed = Math.min(warpseed / 3, 2);
+		// speed at which we can exit warp.
 		double decel_speed = Math.min(100, speedmps / 2);
+		// time to reach from cruise speed to decel speed.
 		double time_decel = Math.log(warpseed * M_PER_AU / decel_speed) / decel_warpseed;
+		// distance in AU to decelerate from cruise to exit warp.
 		double dist_decel = warpseed / decel_warpseed;
-		int time_per_jump = (int) (10 + align + Math.ceil(time_accel + time_decel));
-		double cruise_distance = Math.max(nbAU - (nbjumps + 1) * (dist_decel + 1), 0);
-		// System.err.println("ship goes " + warpseed + "AU/s and " + speedmps +
-		// "m/s, align " + align + " : time per jump="
-		// + time_per_jump + " distDecel" + dist_decel + ", time accel " +
-		// time_accel + " ,time decel " + time_decel);
-		return (int) (time_per_jump * nbjumps + align + Math.ceil(time_accel + time_decel)
-		+ Math.ceil(cruise_distance / warpseed));
+		int nbjumps = nbGates + 1;
+		// time required to go from 0 speed to cruise speed, and then exit warp.
+		int time_per_jump_change = (int) (align + Math.ceil(time_accel + time_decel));
+		// cruise distance is the effective distance we travel at cruise speed.
+		double cruise_distance = Math.max(nbAU - nbjumps * (dist_decel + 1), 0);
+
+		return (int) (time_per_jump_change * nbjumps + nbGates * 10
+				+ Math.ceil(cruise_distance / warpseed));
 	}
 
+	/**
+	 * get the highest distance, in AU, between gates in a system
+	 *
+	 * @param system
+	 *          the system.
+	 * @return
+	 */
 	@SuppressWarnings("unchecked")
 	public double systemRadiusGates(R_get_universe_systems_system_id system) {
 		double maxdist = 0;
