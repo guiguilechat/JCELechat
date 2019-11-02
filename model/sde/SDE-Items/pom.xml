@@ -24,10 +24,6 @@
 			<artifactId>testng</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>SDE-Tools</artifactId>
-		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

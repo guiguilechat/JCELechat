@@ -25,8 +25,8 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>SDE-Tools</artifactId>
+			<groupId>fr.lelouet.tools</groupId>
+			<artifactId>YamlSettings</artifactId>
 		</dependency>
 	</dependencies>
 	<name>SDE-raw</name>

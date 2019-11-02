@@ -49,4 +49,11 @@ public class TestUniverse {
 		Assert.assertEquals(Universe.time_travel(0, 10, 6, 2, 500), 2 + 4 + 1 + 11 + 1);
 	}
 
+	static int jita = 30000142;
+
+	@Test
+	public void testAdjacent() {
+		Assert.assertEquals(uni.getAdjacentSystems(jita).get().size(), 7);
+	}
+
 }

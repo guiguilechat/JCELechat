@@ -27,10 +27,6 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>SDE-Tools</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Items</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>

@@ -45,7 +45,6 @@
 		<dependency>
 			<groupId>fr.lelouet.tools</groupId>
 			<artifactId>YamlSettings</artifactId>
-			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<scm>

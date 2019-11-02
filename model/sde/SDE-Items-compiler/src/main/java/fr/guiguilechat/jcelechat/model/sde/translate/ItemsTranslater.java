@@ -36,9 +36,9 @@ import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
-import fr.guiguilechat.jcelechat.model.sde.yaml.CleanRepresenter;
-import fr.guiguilechat.jcelechat.model.sde.yaml.YAMLTools;
 import fr.lelouet.tools.compilation.inmemory.DynamicClassLoader;
+import fr.lelouet.tools.settings.yaml.CleanRepresenter;
+import fr.lelouet.tools.settings.yaml.YAMLTools;
 
 /**
  * translates sde into yaml files using compiled data. Also modifies the

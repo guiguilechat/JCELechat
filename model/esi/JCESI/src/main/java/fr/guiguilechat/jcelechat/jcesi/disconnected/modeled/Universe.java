@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -24,6 +25,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 
 public class Universe {
 
@@ -364,6 +366,54 @@ public class Universe {
 			}
 		}
 		return maxdist;
+	}
+
+	/**
+	 * get the HS anomaly rate of a system, over a range. This rate is equal to
+	 * the number of HS systems in that range, with lower truesec than the system
+	 * considered, divided by the total number of systems with lower truesec than
+	 * the system considered.
+	 *
+	 * @param system
+	 *          the center system we consider
+	 * @param minDist
+	 *          minimal distance (in gate jumps) at which we consider the area.
+	 * @param maxDist
+	 *          maximal distance (in gate jumps) at which we consider the area.
+	 * @return the rate.
+	 */
+	public double systemHSAnomRate(R_get_universe_systems_system_id system, int minDist, int maxDist) {
+		Set<Integer> doneSystems = new HashSet<>();
+		Set<Integer> reachableHS = new HashSet<>();
+		reachableHS.add(system.system_id);
+		List<R_get_universe_systems_system_id> nextRange = Arrays.asList(system);
+		for (int dist = 1; dist <= maxDist; dist++) {
+			for( R_get_universe_systems_system_id s : nextRange) {
+				doneSystems.add(s.system_id);
+			}
+			nextRange = nextRange.parallelStream().map(sys -> getAdjacentSystems(sys.system_id))
+					.flatMap(h -> h.get().stream()).distinct().filter(s -> !doneSystems.contains(s.system_id))
+					.collect(Collectors.toList());
+		}
+		return 0.0;
+	}
+
+	private HashMap<Integer, ObsListHolder<R_get_universe_systems_system_id>> cachedAdjacentSystems = new HashMap<>();
+
+	public ObsListHolder<R_get_universe_systems_system_id> getAdjacentSystems(int systemId) {
+		ObsListHolder<R_get_universe_systems_system_id> ret = cachedAdjacentSystems.get(systemId);
+		if (ret == null) {
+			synchronized (cachedAdjacentSystems) {
+				ret = cachedAdjacentSystems.get(systemId);
+				if (ret == null) {
+					ret = cache.systems(systemId).toList(
+							sys -> IntStream.of(sys.stargates).mapToObj(i -> cache.stargates(i)).collect(Collectors.toList()))
+							.mapItems(sgh -> cache.systems(sgh.get().destination.system_id)).mapItems(sysh -> sysh.get());
+					cachedAdjacentSystems.put(systemId, ret);
+				}
+			}
+		}
+		return ret;
 	}
 
 }

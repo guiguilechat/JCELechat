@@ -8,8 +8,8 @@ import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.Yaml;
 
-import fr.guiguilechat.jcelechat.model.sde.yaml.CleanRepresenter;
-import fr.guiguilechat.jcelechat.model.sde.yaml.YAMLTools;
+import fr.lelouet.tools.settings.yaml.CleanRepresenter;
+import fr.lelouet.tools.settings.yaml.YAMLTools;
 
 public class Agent {
 

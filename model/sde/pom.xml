@@ -19,7 +19,6 @@
 		<module>SDE-Full</module>
 		<module>SDE-NPCs</module>
 		<module>SDE-Industry</module>
-		<module>SDE-Tools</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
@@ -37,11 +36,6 @@
 				<groupId>org.mdkt.compiler</groupId>
 				<artifactId>InMemoryJavaCompiler</artifactId>
 				<version>1.3.0</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>SDE-Tools</artifactId>
-				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
