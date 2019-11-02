@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
 import java.io.File;
 import java.util.LinkedHashMap;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region;
@@ -18,12 +19,19 @@ public class Universe {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
 			cache = new Universe();
-			for (File f : new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/universe/eve/").listFiles()) {
-				cache.eve.put(f.getName(), Region.load(f));
-			}
-			for (File f : new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/universe/wormhole/").listFiles()) {
-				cache.wormhole.put(f.getName(), Region.load(f));
-			}
+			Stream.of(new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/universe/eve/").listFiles()).parallel().forEach(f -> {
+				Region reg = Region.load(f);
+				synchronized (cache) {
+					cache.eve.put(f.getName(), reg);
+				}
+			});
+			Stream.of(new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/universe/wormhole/").listFiles()).parallel()
+					.forEach(f -> {
+						Region reg = Region.load(f);
+						synchronized (cache) {
+							cache.wormhole.put(f.getName(), reg);
+						}
+					});
 		}
 		return cache;
 	}

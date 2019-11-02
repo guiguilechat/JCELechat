@@ -39,6 +39,8 @@ public class LocationsTranslater {
 
 	public static final Logger logger = LoggerFactory.getLogger(LocationsTranslater.class);
 
+	static long timeStart;
+
 	/**
 	 *
 	 * @param args
@@ -48,7 +50,7 @@ public class LocationsTranslater {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
-		long timeStart = System.currentTimeMillis();
+		timeStart = System.currentTimeMillis();
 		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
 		FileTools.delDir(folderOut);
 		folderOut.mkdirs();
@@ -58,7 +60,9 @@ public class LocationsTranslater {
 		LinkedHashMap<String, SolarSystem> systems = new LinkedHashMap<>();
 		LinkedHashMap<String, Station> stations = new LinkedHashMap<>();
 
+
 		translate(regions, constellations, systems, stations);
+
 
 		// sort
 
@@ -71,14 +75,13 @@ public class LocationsTranslater {
 			}
 		});
 
+
 		// save
 
 		Region.export(regions, folderOut);
 		Constellation.export(constellations, folderOut);
 		SolarSystem.export(systems, folderOut);
 		Station.export(stations, folderOut);
-
-		System.err.println("exported locations in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 
 
 	}
@@ -87,12 +90,13 @@ public class LocationsTranslater {
 			LinkedHashMap<String, Constellation> constellations, LinkedHashMap<String, SolarSystem> systems,
 			LinkedHashMap<String, Station> stations) {
 		Universe uni = Universe.load();
-		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region> e : uni.eve.entrySet()) {
-			addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, false);
-		}
-		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region> e : uni.wormhole.entrySet()) {
-			addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, true);
-		}
+
+
+		uni.eve.entrySet().stream()
+		.forEach(e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, false));
+		uni.wormhole.entrySet().stream()
+		.forEach(e -> addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, true));
+
 
 		// fill all the adjacent systems, constellations, regions
 		// translate all the gates to their system
@@ -104,8 +108,10 @@ public class LocationsTranslater {
 			}
 		});
 
-		Stream.of(uni.eve, uni.wormhole).flatMap(e -> e.values().stream()).flatMap(r -> r.constellations.values().stream())
-		.flatMap(c -> c.systems.entrySet().stream()).forEach(e -> {
+
+		Stream.of(uni.eve, uni.wormhole).parallel().flatMap(e -> e.values().stream())
+		.flatMap(r -> r.constellations.values().stream()).flatMap(c -> c.systems.entrySet().stream())
+		.forEachOrdered(e -> {
 			SolarSystem oSystem = systems.get(e.getKey());
 			Constellation oConstel = constellations.get(oSystem.constellation);
 			Region oRegion = regions.get(oSystem.region);
@@ -167,8 +173,7 @@ public class LocationsTranslater {
 	public static Constellation addConstellation(String name,
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation constellation, String regionName,
 			LinkedHashMap<String, Constellation> constellations, LinkedHashMap<String, SolarSystem> systems,
-			LinkedHashMap<String, Station> stations,
-			boolean isWormhole) {
+			LinkedHashMap<String, Station> stations, boolean isWormhole) {
 		Constellation c = new Constellation();
 		constellations.put(name, c);
 		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem> e : constellation.systems
