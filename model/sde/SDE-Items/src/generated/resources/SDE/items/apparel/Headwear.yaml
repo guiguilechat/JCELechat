@@ -445,10 +445,10 @@ items:
     name: Women's ‘Liberator’ Cap (Minmatar Republic)
     published: true
     volume: 0.1
-  Women's ‘Protector�� Beret (Caldari State):
+  Women's ‘Protector’ Beret (Caldari State):
     Gender: 3
     id: 42740
     marketGroup: 1943
-    name: Women's ‘Protector�� Beret (Caldari State)
+    name: Women's ‘Protector’ Beret (Caldari State)
     published: true
     volume: 0.1

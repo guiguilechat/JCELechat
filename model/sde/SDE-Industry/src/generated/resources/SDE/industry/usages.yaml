@@ -21534,6 +21534,12 @@ usages:
       Low-Grade Mimesis Delta Blueprint: null
       Low-Grade Mimesis Epsilon Blueprint: null
       Low-Grade Mimesis Omega Blueprint: null
+      Mid-Grade Mimesis Alpha Blueprint: null
+      Mid-Grade Mimesis Beta Blueprint: null
+      Mid-Grade Mimesis Delta Blueprint: null
+      Mid-Grade Mimesis Epsilon Blueprint: null
+      Mid-Grade Mimesis Gamma Blueprint: null
+      Mid-Grade Mimesis Omega Blueprint: null
   Cryptic Data Interface:
     productManuf: !!set
       Cryptic Data Interface Blueprint: null
@@ -46779,6 +46785,12 @@ usages:
       Low-Grade Mimesis Delta Blueprint: null
       Low-Grade Mimesis Epsilon Blueprint: null
       Low-Grade Mimesis Omega Blueprint: null
+      Mid-Grade Mimesis Alpha Blueprint: null
+      Mid-Grade Mimesis Beta Blueprint: null
+      Mid-Grade Mimesis Delta Blueprint: null
+      Mid-Grade Mimesis Epsilon Blueprint: null
+      Mid-Grade Mimesis Gamma Blueprint: null
+      Mid-Grade Mimesis Omega Blueprint: null
   Launcher Processor Rig I:
     reprocess:
       Burned Logic Circuit: 111.0
@@ -48367,21 +48379,57 @@ usages:
   Low-Grade Mimesis Alpha:
     productManuf: !!set
       Low-Grade Mimesis Alpha Blueprint: null
+    reprocess:
+      Morphite: 12.0
+      Trinary State Processor: 30.0
+      Synthetic Synapses: 82.0
+      Lattice Locked Dekaisogen: 11.0
+      Cryoprotectant Solution: 89.0
   Low-Grade Mimesis Beta:
     productManuf: !!set
       Low-Grade Mimesis Beta Blueprint: null
+    reprocess:
+      Morphite: 13.0
+      Trinary State Processor: 32.0
+      Synthetic Synapses: 86.0
+      Lattice Locked Dekaisogen: 11.0
+      Cryoprotectant Solution: 94.0
   Low-Grade Mimesis Delta:
     productManuf: !!set
       Low-Grade Mimesis Delta Blueprint: null
+    reprocess:
+      Morphite: 14.0
+      Trinary State Processor: 35.0
+      Synthetic Synapses: 94.0
+      Lattice Locked Dekaisogen: 12.0
+      Cryoprotectant Solution: 103.0
   Low-Grade Mimesis Epsilon:
     productManuf: !!set
       Low-Grade Mimesis Epsilon Blueprint: null
+    reprocess:
+      Morphite: 14.0
+      Trinary State Processor: 36.0
+      Synthetic Synapses: 98.0
+      Lattice Locked Dekaisogen: 13.0
+      Cryoprotectant Solution: 107.0
   Low-Grade Mimesis Gamma:
     productManuf: !!set
       Low-Grade Mimesis Gamma Blueprint: null
+    reprocess:
+      Morphite: 13.0
+      Trinary State Processor: 33.0
+      Synthetic Synapses: 90.0
+      Lattice Locked Dekaisogen: 12.0
+      Cryoprotectant Solution: 98.0
   Low-Grade Mimesis Omega:
     productManuf: !!set
       Low-Grade Mimesis Omega Blueprint: null
+    reprocess:
+      Morphite: 36.0
+      Trinary State Processor: 91.0
+      Synthetic Synapses: 245.0
+      Lattice Locked Dekaisogen: 32.0
+      Cryoprotectant Solution: 268.0
   Low-grade Amulet Alpha:
     reprocess:
       Nocxium: 1.0
@@ -55275,6 +55323,60 @@ usages:
       Nocxium: 11.0
       Zydrine: 89.0
       Megacyte: 244.0
+  Mid-Grade Mimesis Alpha:
+    productManuf: !!set
+      Mid-Grade Mimesis Alpha Blueprint: null
+    reprocess:
+      Morphite: 17.0
+      Trinary State Processor: 44.0
+      Synthetic Synapses: 118.0
+      Lattice Locked Dekaisogen: 15.0
+      Cryoprotectant Solution: 129.0
+  Mid-Grade Mimesis Beta:
+    productManuf: !!set
+      Mid-Grade Mimesis Beta Blueprint: null
+    reprocess:
+      Morphite: 18.0
+      Trinary State Processor: 46.0
+      Synthetic Synapses: 124.0
+      Lattice Locked Dekaisogen: 16.0
+      Cryoprotectant Solution: 136.0
+  Mid-Grade Mimesis Delta:
+    productManuf: !!set
+      Mid-Grade Mimesis Delta Blueprint: null
+    reprocess:
+      Morphite: 20.0
+      Trinary State Processor: 50.0
+      Synthetic Synapses: 136.0
+      Lattice Locked Dekaisogen: 18.0
+      Cryoprotectant Solution: 149.0
+  Mid-Grade Mimesis Epsilon:
+    productManuf: !!set
+      Mid-Grade Mimesis Epsilon Blueprint: null
+    reprocess:
+      Morphite: 21.0
+      Trinary State Processor: 53.0
+      Synthetic Synapses: 142.0
+      Lattice Locked Dekaisogen: 18.0
+      Cryoprotectant Solution: 155.0
+  Mid-Grade Mimesis Gamma:
+    productManuf: !!set
+      Mid-Grade Mimesis Gamma Blueprint: null
+    reprocess:
+      Morphite: 19.0
+      Trinary State Processor: 48.0
+      Synthetic Synapses: 130.0
+      Lattice Locked Dekaisogen: 17.0
+      Cryoprotectant Solution: 142.0
+  Mid-Grade Mimesis Omega:
+    productManuf: !!set
+      Mid-Grade Mimesis Omega Blueprint: null
+    reprocess:
+      Morphite: 52.0
+      Trinary State Processor: 132.0
+      Synthetic Synapses: 355.0
+      Lattice Locked Dekaisogen: 46.0
+      Cryoprotectant Solution: 388.0
   Mid-grade Amulet Alpha:
     reprocess:
       Nocxium: 1.0
@@ -58208,6 +58310,12 @@ usages:
       Low-Grade Mimesis Delta Blueprint: null
       Low-Grade Mimesis Epsilon Blueprint: null
       Low-Grade Mimesis Omega Blueprint: null
+      Mid-Grade Mimesis Alpha Blueprint: null
+      Mid-Grade Mimesis Beta Blueprint: null
+      Mid-Grade Mimesis Delta Blueprint: null
+      Mid-Grade Mimesis Epsilon Blueprint: null
+      Mid-Grade Mimesis Gamma Blueprint: null
+      Mid-Grade Mimesis Omega Blueprint: null
   Motley Compound:
     reprocess:
       Isogen: 40.0
@@ -88657,6 +88765,12 @@ usages:
       Low-Grade Mimesis Delta Blueprint: null
       Low-Grade Mimesis Epsilon Blueprint: null
       Low-Grade Mimesis Omega Blueprint: null
+      Mid-Grade Mimesis Alpha Blueprint: null
+      Mid-Grade Mimesis Beta Blueprint: null
+      Mid-Grade Mimesis Delta Blueprint: null
+      Mid-Grade Mimesis Epsilon Blueprint: null
+      Mid-Grade Mimesis Gamma Blueprint: null
+      Mid-Grade Mimesis Omega Blueprint: null
   System Scanner I:
     reprocess:
       Tritanium: 1111.0
@@ -91253,6 +91367,12 @@ usages:
       Low-Grade Mimesis Delta Blueprint: null
       Low-Grade Mimesis Epsilon Blueprint: null
       Low-Grade Mimesis Omega Blueprint: null
+      Mid-Grade Mimesis Alpha Blueprint: null
+      Mid-Grade Mimesis Beta Blueprint: null
+      Mid-Grade Mimesis Delta Blueprint: null
+      Mid-Grade Mimesis Epsilon Blueprint: null
+      Mid-Grade Mimesis Gamma Blueprint: null
+      Mid-Grade Mimesis Omega Blueprint: null
   Triple Neutron Blaster Cannon I:
     materialManuf: !!set
       Regulated Compact Triple Neutron Blaster Cannon Blueprint: null
@@ -99045,17 +99165,6 @@ usages:
       Sustained Shield Emitter: 8.0
       Morphite: 11.0
       Superconductors: 15.0
-  ‘Cold Wind’ Kinetic Reaper:
-    productManuf: !!set
-      ‘Cold Wind’ Kinetic Reaper Blueprint: null
-    reprocess:
-      Tritanium: 1870088.0
-      Pyerite: 1188818.0
-      Mexallon: 459131.0
-      Isogen: 281014.0
-      Nocxium: 334137.0
-      Zydrine: 42474.0
-      Megacyte: 48231.0
   ‘Divine Harvest’ Electromagnetic Reaper:
     productManuf: !!set
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
@@ -99154,7 +99263,7 @@ usages:
   万王宝座级YC117年特别版:
     reprocess:
       Megathron: 1.0
-  乌鸦级YC117���特别版:
+  乌鸦级YC117年特别版:
     reprocess:
       Raven: 1.0
   伊什塔级YC117年特别版:
@@ -99166,13 +99275,13 @@ usages:
   地狱天使级YC117年特别版:
     reprocess:
       Abaddon: 1.0
-  多米尼克斯级YC117年特别版:
+  多��尼克斯级YC117年特别版:
     reprocess:
       Dominix: 1.0
   幼龙级YC117年特别版:
     reprocess:
       Drake: 1.0
-  末日沙场��YC117年特别版:
+  末日沙场级YC117年特别版:
     reprocess:
       Armageddon: 1.0
   毒蜥级YC117年特别版:
@@ -99181,9 +99290,20 @@ usages:
   灾难级YC117年特别版:
     reprocess:
       Apocalypse: 1.0
-  银鹰级YC117��特别版:
+  银鹰级YC117年特别版:
     reprocess:
       Eagle: 1.0
-  马克瑞级YC117年特别���:
+  马克瑞级YC117年特别版:
     reprocess:
       Machariel: 1.0
+  ���Cold Wind’ Kinetic Reaper:
+    productManuf: !!set
+      ‘Cold Wind’ Kinetic Reaper Blueprint: null
+    reprocess:
+      Tritanium: 1870088.0
+      Pyerite: 1188818.0
+      Mexallon: 459131.0
+      Isogen: 281014.0
+      Nocxium: 334137.0
+      Zydrine: 42474.0
+      Megacyte: 48231.0

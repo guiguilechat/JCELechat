@@ -114,7 +114,7 @@ items:
     published: false
     volume: 29500.0
   ♦ Inquisitor:
-    id: 43597
+    id: 42842
     mass: 1630000.0
     name: ♦ Inquisitor
     published: false
@@ -125,12 +125,6 @@ items:
     name: ♦ Kestrel
     published: false
     volume: 19700.0
-  ♦ Lynx:
-    id: 43638
-    mass: 1200000.0
-    name: ♦ Lynx
-    published: false
-    volume: 22500.0
   ♦ Maulus:
     id: 43577
     mass: 1063000.0
@@ -245,9 +239,21 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  ��� Condor:
-    id: 43565
-    mass: 1100000.0
-    name: ��� Condor
+  ��� Dramiel:
+    id: 43633
+    mass: 950000.0
+    name: ��� Dramiel
     published: false
-    volume: 18000.0
+    volume: 27289.0
+  ��� Inquisitor:
+    id: 43597
+    mass: 1630000.0
+    name: ��� Inquisitor
+    published: false
+    volume: 28700.0
+  ��� Lynx:
+    id: 43638
+    mass: 1200000.0
+    name: ��� Lynx
+    published: false
+    volume: 22500.0

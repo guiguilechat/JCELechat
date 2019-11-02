@@ -74,7 +74,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 2836
     marketGroup: 1621
     mass: 1.11E7
@@ -157,7 +157,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 11993
     marketGroup: 450
     mass: 1.272E7
@@ -240,7 +240,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 12023
     marketGroup: 451
     mass: 1.146E7
@@ -325,7 +325,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 12011
     marketGroup: 450
     mass: 1.172E7
@@ -411,7 +411,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 52252
     marketGroup: 2535
     mass: 1.19E7
@@ -496,7 +496,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 12005
     marketGroup: 451
     mass: 1.06E7
@@ -582,7 +582,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 32209
     marketGroup: 1621
     mass: 1.165E7
@@ -667,7 +667,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 12015
     marketGroup: 452
     mass: 1.1E7
@@ -752,7 +752,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 12019
     marketGroup: 449
     mass: 1.175E7
@@ -837,7 +837,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 11999
     marketGroup: 452
     mass: 1.159E7
@@ -923,7 +923,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 3518
     marketGroup: 1621
     mass: 1.189E7
@@ -1007,7 +1007,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
+    WarpSpeedMultiplier: 4.5
     id: 12003
     marketGroup: 449
     mass: 1.258E7

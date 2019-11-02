@@ -89,9 +89,3 @@ items:
     name: ♦ test_boss
     published: false
     volume: 1010000.0
-  �� Raven:
-    id: 43626
-    mass: 9.93E7
-    name: �� Raven
-    published: false
-    volume: 486000.0

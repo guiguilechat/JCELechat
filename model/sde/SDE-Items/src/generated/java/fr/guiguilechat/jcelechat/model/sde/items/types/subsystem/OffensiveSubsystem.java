@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Subsystem;
 import org.yaml.snakeyaml.Yaml;
 
-public class OffensiveSystems
+public class OffensiveSubsystem
     extends Subsystem
 {
     /**
@@ -241,7 +241,7 @@ public class OffensiveSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareLinkCPUPenalty;
-    public static final OffensiveSystems.MetaGroup METAGROUP = new OffensiveSystems.MetaGroup();
+    public static final OffensiveSubsystem.MetaGroup METAGROUP = new OffensiveSubsystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -382,18 +382,18 @@ public class OffensiveSystems
     }
 
     @Override
-    public IMetaGroup<OffensiveSystems> getGroup() {
+    public IMetaGroup<OffensiveSubsystem> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<OffensiveSystems>
+        implements IMetaGroup<OffensiveSubsystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
-        private Map<String, OffensiveSystems> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSubsystem.yaml";
+        private Map<String, OffensiveSubsystem> cache = (null);
 
         @Override
-        public IMetaCategory<? super OffensiveSystems> category() {
+        public IMetaCategory<? super OffensiveSubsystem> category() {
             return Subsystem.METACAT;
         }
 
@@ -404,14 +404,14 @@ public class OffensiveSystems
 
         @Override
         public String getName() {
-            return "OffensiveSystems";
+            return "OffensiveSubsystem";
         }
 
         @Override
-        public synchronized Map<String, OffensiveSystems> load() {
+        public synchronized Map<String, OffensiveSubsystem> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(OffensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(OffensiveSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -420,7 +420,7 @@ public class OffensiveSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, OffensiveSystems> items;
+            public LinkedHashMap<String, OffensiveSubsystem> items;
         }
     }
 }

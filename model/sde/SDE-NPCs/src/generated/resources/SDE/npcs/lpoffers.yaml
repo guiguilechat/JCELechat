@@ -30830,3 +30830,177 @@ offers:
         itemname: Cryoprotectant Solution
         quantity: 268
       lp: 7500
+  16381:
+    id: 16381
+    name: Mid-Grade Mimesis Alpha(BPC)
+    product:
+      itemid: 52785
+      itemname: Mid-Grade Mimesis Alpha
+      quantity: 1
+    requirements:
+      isk: 2175000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 29
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 15
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 17
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 44
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 118
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 129
+      lp: 1450
+  16383:
+    id: 16383
+    name: Mid-Grade Mimesis Beta(BPC)
+    product:
+      itemid: 52786
+      itemname: Mid-Grade Mimesis Beta
+      quantity: 1
+    requirements:
+      isk: 3625000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 36
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 16
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 18
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 46
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 124
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 136
+      lp: 2175
+  16384:
+    id: 16384
+    name: Mid-Grade Mimesis Gamma(BPC)
+    product:
+      itemid: 52787
+      itemname: Mid-Grade Mimesis Gamma
+      quantity: 1
+    requirements:
+      isk: 5075000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 54
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 17
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 19
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 48
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 130
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 142
+      lp: 2900
+  16385:
+    id: 16385
+    name: Mid-Grade Mimesis Delta(BPC)
+    product:
+      itemid: 52788
+      itemname: Mid-Grade Mimesis Delta
+      quantity: 1
+    requirements:
+      isk: 7250000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 82
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 18
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 20
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 50
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 136
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 149
+      lp: 4350
+  16386:
+    id: 16386
+    name: Mid-Grade Mimesis Epsilon(BPC)
+    product:
+      itemid: 52789
+      itemname: Mid-Grade Mimesis Epsilon
+      quantity: 1
+    requirements:
+      isk: 10875000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 122
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 18
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 21
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 53
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 142
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 155
+      lp: 5000
+  16387:
+    id: 16387
+    name: Mid-Grade Mimesis Omega(BPC)
+    product:
+      itemid: 52790
+      itemname: Mid-Grade Mimesis Omega
+      quantity: 1
+    requirements:
+      isk: 15950000
+      items:
+      - itemid: 48121
+        itemname: Triglavian Survey Database
+        quantity: 184
+      - itemid: 52314
+        itemname: Lattice Locked Dekaisogen
+        quantity: 46
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 52
+      - itemid: 52313
+        itemname: Trinary State Processor
+        quantity: 132
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 355
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 388
+      lp: 7500

@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Subsystem;
 import org.yaml.snakeyaml.Yaml;
 
-public class CoreSystems
+public class CoreSubsystem
     extends Subsystem
 {
     /**
@@ -136,7 +136,7 @@ public class CoreSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int SubsystemEnergyNeutFittingReduction;
-    public static final CoreSystems.MetaGroup METAGROUP = new CoreSystems.MetaGroup();
+    public static final CoreSubsystem.MetaGroup METAGROUP = new CoreSubsystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -217,18 +217,18 @@ public class CoreSystems
     }
 
     @Override
-    public IMetaGroup<CoreSystems> getGroup() {
+    public IMetaGroup<CoreSubsystem> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<CoreSystems>
+        implements IMetaGroup<CoreSubsystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/subsystem/CoreSystems.yaml";
-        private Map<String, CoreSystems> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/items/subsystem/CoreSubsystem.yaml";
+        private Map<String, CoreSubsystem> cache = (null);
 
         @Override
-        public IMetaCategory<? super CoreSystems> category() {
+        public IMetaCategory<? super CoreSubsystem> category() {
             return Subsystem.METACAT;
         }
 
@@ -239,14 +239,14 @@ public class CoreSystems
 
         @Override
         public String getName() {
-            return "CoreSystems";
+            return "CoreSubsystem";
         }
 
         @Override
-        public synchronized Map<String, CoreSystems> load() {
+        public synchronized Map<String, CoreSubsystem> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(CoreSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(CoreSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -255,7 +255,7 @@ public class CoreSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, CoreSystems> items;
+            public LinkedHashMap<String, CoreSubsystem> items;
         }
     }
 }

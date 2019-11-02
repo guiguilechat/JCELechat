@@ -95,7 +95,7 @@ items:
     CapacitorCapacity: 285.0
     CpuOutput: 125
     EliteBonusInterceptor: -15
-    EliteBonusInterceptor2: 5.0
+    EliteBonusInterceptor2: 10.0
     EliteBonusInterceptorRole: -80
     EmDamageResonance: 0.6700000166893005
     EntosisCPUPenalty: 10000
@@ -259,7 +259,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 415.0
-    CpuOutput: 120
+    CpuOutput: 145
     EliteBonusInterceptor: -15
     EliteBonusInterceptor2: 7.5
     EliteBonusInterceptorRole: -80
@@ -311,6 +311,7 @@ items:
     ShieldRechargeRate: 625000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
+    ShipBonusAF: 10.0
     SignatureRadius: 32
     StructureUniformity: 1.0
     TechLevel: 2
@@ -562,7 +563,7 @@ items:
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
-    ShipBonusCF: 5
+    ShipBonusCF: 10
     SignatureRadius: 34
     StructureUniformity: 1.0
     TechLevel: 2
@@ -674,7 +675,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 355.0
-    CpuOutput: 150
+    CpuOutput: 160
     DroneBandwidth: 10
     DroneCapacity: 10
     EliteBonusInterceptor: -15
@@ -729,7 +730,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
-    ShipBonusGF: 10.0
+    ShipBonusGF: 15.0
     SignatureRadius: 36
     StructureUniformity: 1.0
     TechLevel: 2

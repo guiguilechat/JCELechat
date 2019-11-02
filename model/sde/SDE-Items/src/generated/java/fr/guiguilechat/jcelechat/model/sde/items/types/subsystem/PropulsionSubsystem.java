@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Subsystem;
 import org.yaml.snakeyaml.Yaml;
 
-public class PropulsionSystems
+public class PropulsionSubsystem
     extends Subsystem
 {
     /**
@@ -101,7 +101,7 @@ public class PropulsionSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpBubbleImmuneModifier;
-    public static final PropulsionSystems.MetaGroup METAGROUP = new PropulsionSystems.MetaGroup();
+    public static final PropulsionSubsystem.MetaGroup METAGROUP = new PropulsionSubsystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -162,18 +162,18 @@ public class PropulsionSystems
     }
 
     @Override
-    public IMetaGroup<PropulsionSystems> getGroup() {
+    public IMetaGroup<PropulsionSubsystem> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<PropulsionSystems>
+        implements IMetaGroup<PropulsionSubsystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSystems.yaml";
-        private Map<String, PropulsionSystems> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSubsystem.yaml";
+        private Map<String, PropulsionSubsystem> cache = (null);
 
         @Override
-        public IMetaCategory<? super PropulsionSystems> category() {
+        public IMetaCategory<? super PropulsionSubsystem> category() {
             return Subsystem.METACAT;
         }
 
@@ -184,14 +184,14 @@ public class PropulsionSystems
 
         @Override
         public String getName() {
-            return "PropulsionSystems";
+            return "PropulsionSubsystem";
         }
 
         @Override
-        public synchronized Map<String, PropulsionSystems> load() {
+        public synchronized Map<String, PropulsionSubsystem> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(PropulsionSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(PropulsionSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -200,7 +200,7 @@ public class PropulsionSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, PropulsionSystems> items;
+            public LinkedHashMap<String, PropulsionSubsystem> items;
         }
     }
 }

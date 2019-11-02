@@ -7089,6 +7089,12 @@ corporations:
     - 16377
     - 16379
     - 16380
+    - 16381
+    - 16383
+    - 16384
+    - 16385
+    - 16386
+    - 16387
     name: DED
   Deep Core Mining Inc.:
     concordRate: 0.8

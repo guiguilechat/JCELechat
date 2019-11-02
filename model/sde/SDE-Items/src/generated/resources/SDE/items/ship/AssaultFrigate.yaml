@@ -124,7 +124,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 42500
-    MaxVelocity: 340.0
+    MaxVelocity: 306.0
     MedSlots: 3
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -288,7 +288,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 50000
-    MaxVelocity: 312.0
+    MaxVelocity: 281.0
     MedSlots: 4
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -371,7 +371,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 45000
-    MaxVelocity: 322.0
+    MaxVelocity: 290.0
     MedSlots: 5
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -455,7 +455,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 47500
-    MaxVelocity: 339.0
+    MaxVelocity: 308.0
     MedSlots: 3
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -509,7 +509,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 325.0
-    CpuOutput: 185
+    CpuOutput: 180
     DroneBandwidth: 10
     DroneCapacity: 20
     EliteBonusAssaultShips1: 75
@@ -540,11 +540,11 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 37500
-    MaxVelocity: 405.0
+    MaxVelocity: 368.0
     MedSlots: 5
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    PowerOutput: 43
+    PowerOutput: 39
     PowerToSpeed: 1
     PropulsionGraphicID: 394
     RechargeRate: 187500.0
@@ -703,7 +703,7 @@ items:
     MaxLockedTargets: 5
     MaxPassengers: 12
     MaxTargetRange: 45000
-    MaxVelocity: 313.0
+    MaxVelocity: 283.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
     PowerOutput: 55
@@ -787,7 +787,7 @@ items:
     MaxLockedTargets: 5
     MaxPassengers: 12
     MaxTargetRange: 40000
-    MaxVelocity: 300.0
+    MaxVelocity: 275.0
     MedSlots: 2
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -949,7 +949,7 @@ items:
     MaxLockedTargets: 5
     MaxPassengers: 12
     MaxTargetRange: 38000
-    MaxVelocity: 322.0
+    MaxVelocity: 195.0
     MedSlots: 3
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -1030,7 +1030,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 40000
-    MaxVelocity: 415.0
+    MaxVelocity: 375.0
     MedSlots: 2
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806

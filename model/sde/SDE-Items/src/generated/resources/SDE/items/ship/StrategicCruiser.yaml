@@ -77,7 +77,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     id: 29986
     marketGroup: 1139
     mass: 1.45E7
@@ -162,7 +162,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     id: 29990
     marketGroup: 1142
     mass: 1.38E7
@@ -247,7 +247,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     id: 29988
     marketGroup: 1141
     mass: 1.33E7
@@ -332,7 +332,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     id: 29984
     marketGroup: 1140
     mass: 1.44E7

@@ -1511,6 +1511,12 @@ items:
     name: Offline Talocan Reactor Spire
     published: false
     volume: 1.0E8
+  Overcharge Node:
+    id: 52700
+    mass: 1000.0
+    name: Overcharge Node
+    published: false
+    volume: 1000.0
   Partially constructed Megathron:
     id: 16734
     mass: 100000.0

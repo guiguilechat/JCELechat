@@ -91,6 +91,13 @@ items:
     price: 1.125E8
     published: false
     volume: 495000.0
+  Chislov Leshak:
+    id: 52692
+    mass: 6.3E7
+    name: Chislov Leshak
+    price: 1.65E8
+    published: false
+    volume: 495000.0
   Ghosting Damavik:
     id: 52210
     mass: 950000.0
@@ -384,6 +391,14 @@ items:
     price: 3.35E7
     published: false
     volume: 43000.0
+  TestDread:
+    id: 52701
+    name: TestDread
+    published: false
+  TestDreadFriendly:
+    id: 52815
+    name: TestDreadFriendly
+    published: false
   Zorya's Damavik:
     id: 52474
     mass: 950000.0

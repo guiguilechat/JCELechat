@@ -19,6 +19,8 @@ import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.lelouet.tools.settings.xdg.XDGApp;
+
 /**
  * store the SDE locally
  *
@@ -37,50 +39,55 @@ public class SDECache {
 		return new InputStreamReader(new FileInputStream(file), Charset.forName("UTF-8"));
 	}
 
+	private XDGApp app = new XDGApp("sde.ccp.is");
+
 	/**
 	 * where we want to extract the SDE
 	 */
-	protected File CACHEDIR = new File(System.getProperties().getProperty("user.tmpDir", "target/"));
-
 	public File cacheDir() {
-		return CACHEDIR;
+		return app.cacheFile();
 	}
 
 	/**
 	 * the directory that should be present when we cached the sde
 	 */
-	protected File CHECKDIR = new File(CACHEDIR, "sde");
-
 	public File checkDir() {
-		return CHECKDIR;
+		return new File(cacheDir(), "sde");
 	}
 
-	protected File LAST_DL = new File(CHECKDIR, "last.txt");
+	/**
+	 * the file that contains the information about last downloaded sde, if any.
+	 *
+	 * @return
+	 */
+	protected File last_dl() {
+		return new File(checkDir(), "last.txt");
+	}
 
 	private boolean triedDL = false;
 
 	/**
-	 * if {@link #CHECKDIR} is not a directory, download the full yaml from the
-	 * sde . those files will be extracted and placed in {@link #CACHEDIR}
+	 * if {@link #checkDir()} is not a directory, download the full yaml from the
+	 * sde . those files will be extracted and placed in {@link #cacheDir()}
 	 */
 	@SuppressWarnings("resource")
 	public synchronized void donwloadSDE() {
 		if (triedDL) {
 			return;
 		}
-		CACHEDIR.mkdirs();
+		cacheDir().mkdirs();
 		String url = findLastURL();
 		try {
-			if (LAST_DL.exists() && url.equals(new BufferedReader(new FileReader(LAST_DL)).readLine())) {
-				logger.info("already last version of sde in  " + CACHEDIR.getAbsolutePath());
+			if (last_dl().exists() && url.equals(new BufferedReader(new FileReader(last_dl())).readLine())) {
+				logger.info("already last version of sde in  " + cacheDir().getAbsolutePath());
 				return;
 			}
-			if(LAST_DL.exists()) {
-				logger.info("new version of sde to download from " + url + " into " + CACHEDIR.getAbsolutePath());
+			if (last_dl().exists()) {
+				logger.info("new version of sde to download from " + url + " into " + cacheDir().getAbsolutePath());
 			} else {
-				logger.info(
-						"no existing download information in file " + LAST_DL.getAbsolutePath() + ", downloading sde from " + url
-						+ " into " + CACHEDIR.getAbsolutePath());
+				logger
+				.info("no existing download information in file " + last_dl().getAbsolutePath() + ", downloading sde from "
+						+ url + " into " + cacheDir().getAbsolutePath());
 			}
 		} catch (IOException e1) {
 			System.err.println(e1);
@@ -90,7 +97,7 @@ public class SDECache {
 			ZipEntry e;
 			try (ZipInputStream zis = new ZipInputStream(is)) {
 				while ((e = zis.getNextEntry()) != null) {
-					File out = new File(CACHEDIR, e.getName());
+					File out = new File(cacheDir(), e.getName());
 					out.getParentFile().mkdirs();
 					FileWriter fw = new FileWriter(out);
 					byte[] b = new byte[100];
@@ -104,7 +111,7 @@ public class SDECache {
 				}
 			}
 
-			FileWriter fw = new FileWriter(LAST_DL);
+			FileWriter fw = new FileWriter(last_dl());
 			fw.write(url);
 			fw.close();
 			triedDL = true;

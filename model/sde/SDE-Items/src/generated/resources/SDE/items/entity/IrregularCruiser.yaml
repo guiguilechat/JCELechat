@@ -1,4 +1,10 @@
 items:
+  Amarr Cruiser:
+    id: 52797
+    mass: 1.275E7
+    name: Amarr Cruiser
+    published: false
+    volume: 118000.0
   Auspex Slaver:
     id: 48130
     mass: 1.3E7

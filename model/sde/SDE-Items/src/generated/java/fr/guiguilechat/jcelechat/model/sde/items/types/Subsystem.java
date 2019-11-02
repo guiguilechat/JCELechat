@@ -9,10 +9,10 @@ import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.items.types.subsystem.CoreSystems;
-import fr.guiguilechat.jcelechat.model.sde.items.types.subsystem.DefensiveSystems;
-import fr.guiguilechat.jcelechat.model.sde.items.types.subsystem.OffensiveSystems;
-import fr.guiguilechat.jcelechat.model.sde.items.types.subsystem.PropulsionSystems;
+import fr.guiguilechat.jcelechat.model.sde.items.types.subsystem.CoreSubsystem;
+import fr.guiguilechat.jcelechat.model.sde.items.types.subsystem.DefensiveSubsystem;
+import fr.guiguilechat.jcelechat.model.sde.items.types.subsystem.OffensiveSubsystem;
+import fr.guiguilechat.jcelechat.model.sde.items.types.subsystem.PropulsionSubsystem;
 
 public abstract class Subsystem
     extends Item
@@ -162,7 +162,7 @@ public abstract class Subsystem
 
         @Override
         public Collection<IMetaGroup<? extends Subsystem>> groups() {
-            return Arrays.asList(DefensiveSystems.METAGROUP, OffensiveSystems.METAGROUP, PropulsionSystems.METAGROUP, CoreSystems.METAGROUP);
+            return Arrays.asList(DefensiveSubsystem.METAGROUP, OffensiveSubsystem.METAGROUP, PropulsionSubsystem.METAGROUP, CoreSubsystem.METAGROUP);
         }
     }
 }

@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Subsystem;
 import org.yaml.snakeyaml.Yaml;
 
-public class DefensiveSystems
+public class DefensiveSubsystem
     extends Subsystem
 {
     /**
@@ -178,7 +178,7 @@ public class DefensiveSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
-    public static final DefensiveSystems.MetaGroup METAGROUP = new DefensiveSystems.MetaGroup();
+    public static final DefensiveSubsystem.MetaGroup METAGROUP = new DefensiveSubsystem.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -283,18 +283,18 @@ public class DefensiveSystems
     }
 
     @Override
-    public IMetaGroup<DefensiveSystems> getGroup() {
+    public IMetaGroup<DefensiveSubsystem> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<DefensiveSystems>
+        implements IMetaGroup<DefensiveSubsystem>
     {
-        public static final String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
-        private Map<String, DefensiveSystems> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSubsystem.yaml";
+        private Map<String, DefensiveSubsystem> cache = (null);
 
         @Override
-        public IMetaCategory<? super DefensiveSystems> category() {
+        public IMetaCategory<? super DefensiveSubsystem> category() {
             return Subsystem.METACAT;
         }
 
@@ -305,14 +305,14 @@ public class DefensiveSystems
 
         @Override
         public String getName() {
-            return "DefensiveSystems";
+            return "DefensiveSubsystem";
         }
 
         @Override
-        public synchronized Map<String, DefensiveSystems> load() {
+        public synchronized Map<String, DefensiveSubsystem> load() {
             if (cache == null) {
                 try {
-                    cache = new Yaml().loadAs(new InputStreamReader(DefensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                    cache = new Yaml().loadAs(new InputStreamReader(DefensiveSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
@@ -321,7 +321,7 @@ public class DefensiveSystems
         }
 
         private static class Container {
-            public LinkedHashMap<String, DefensiveSystems> items;
+            public LinkedHashMap<String, DefensiveSubsystem> items;
         }
     }
 }

@@ -90,7 +90,7 @@ items:
     published: false
     volume: 101000.0
   ♦ Omen:
-    id: 43601
+    id: 46067
     mass: 1.3E7
     name: ♦ Omen
     published: false
@@ -143,9 +143,9 @@ items:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  ��� Omen:
-    id: 46067
-    mass: 1.3E7
-    name: ��� Omen
+  ��� Augoror:
+    id: 43558
+    mass: 1.287E7
+    name: ��� Augoror
     published: false
-    volume: 118000.0
+    volume: 115000.0

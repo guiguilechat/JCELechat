@@ -1259,6 +1259,12 @@ items:
     name: Ashimmu Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Ashimmu Malagrin Marshlight SKIN (Permanent):
+    id: 53020
+    marketGroup: 2030
+    name: Ashimmu Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ashimmu Serenity Splatter (Ashimmu) SKIN (Permanent):
     id: 49461
     name: Ashimmu Serenity Splatter (Ashimmu) SKIN (Permanent)
@@ -1674,6 +1680,12 @@ items:
     name: Avatar Lavacore Imperial SKIN (Permanent)
     published: true
     volume: 0.01
+  Avatar Malagrin Marshlight SKIN (Permanent):
+    id: 53009
+    marketGroup: 1978
+    name: Avatar Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Avatar Purity of the Throne SKIN (Permanent):
     id: 42594
     marketGroup: 1978
@@ -1928,6 +1940,12 @@ items:
     name: Bellicose Krusual Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Bellicose Snowline Bladeracer SKIN (Permanent):
+    id: 52865
+    marketGroup: 1993
+    name: Bellicose Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Bellicose Tronhadar Ink SKIN (Permanent):
     id: 40484
     marketGroup: 1993
@@ -2004,6 +2022,12 @@ items:
     name: Bhaalgorn Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Bhaalgorn Malagrin Marshlight SKIN (Permanent):
+    id: 53021
+    marketGroup: 1963
+    name: Bhaalgorn Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Bifrost Exoplanets Hunter SKIN (Permanent):
     id: 45951
     marketGroup: 2145
@@ -2014,6 +2038,12 @@ items:
     id: 46890
     marketGroup: 2145
     name: Bifrost Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Bifrost Snowline Bladeracer SKIN (Permanent):
+    id: 52862
+    marketGroup: 2145
+    name: Bifrost Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Bifrost Valklear Glory SKIN (Permanent):
@@ -2208,6 +2238,12 @@ items:
     name: Breacher Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Breacher Snowline Bladeracer SKIN (Permanent):
+    id: 52844
+    marketGroup: 2005
+    name: Breacher Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Breacher Tronhadar Ink SKIN (Permanent):
     id: 40467
     marketGroup: 2005
@@ -2260,6 +2296,12 @@ items:
     id: 36434
     marketGroup: 2076
     name: Broadsword Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Broadsword Snowline Bladeracer SKIN (Permanent):
+    id: 52871
+    marketGroup: 2076
+    name: Broadsword Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Broadsword Tronhadar Ink SKIN (Permanent):
@@ -2319,6 +2361,12 @@ items:
     id: 46417
     marketGroup: 1958
     name: Brutix Kopis Edge SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Brutix Malagrin Marshlight SKIN (Permanent):
+    id: 53013
+    marketGroup: 1958
+    name: Brutix Malagrin Marshlight SKIN (Permanent)
     published: true
     volume: 0.01
   Brutix Navy Issue Exoplanets Hunter SKIN (Permanent):
@@ -2443,6 +2491,12 @@ items:
   Burst Justice SKIN (Permanent):
     id: 36413
     name: Burst Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Burst Snowline Bladeracer SKIN (Permanent):
+    id: 52845
+    marketGroup: 2005
+    name: Burst Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Burst Tronhadar Ink SKIN (Permanent):
@@ -3147,6 +3201,12 @@ items:
     name: Cheetah Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Cheetah Snowline Bladeracer SKIN (Permanent):
+    id: 52852
+    marketGroup: 2054
+    name: Cheetah Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Cheetah Tronhadar Ink SKIN (Permanent):
     id: 40475
     marketGroup: 2054
@@ -3278,6 +3338,12 @@ items:
     name: Claw Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Claw Snowline Bladeracer SKIN (Permanent):
+    id: 52855
+    marketGroup: 2062
+    name: Claw Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Claw Tronhadar Ink SKIN (Permanent):
     id: 40478
     marketGroup: 2062
@@ -3312,6 +3378,12 @@ items:
     id: 36448
     marketGroup: 2107
     name: Claymore Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Claymore Snowline Bladeracer SKIN (Permanent):
+    id: 52881
+    marketGroup: 2107
+    name: Claymore Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Claymore Tronhadar Ink SKIN (Permanent):
@@ -3978,6 +4050,12 @@ items:
     name: Cruor Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Cruor Malagrin Marshlight SKIN (Permanent):
+    id: 53019
+    marketGroup: 2031
+    name: Cruor Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Crusader Cold Iron SKIN (Permanent):
     id: 42757
     marketGroup: 2059
@@ -4124,6 +4202,12 @@ items:
     id: 48233
     marketGroup: 1959
     name: Cyclone Luminaire Zenith SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Cyclone Snowline Bladeracer SKIN (Permanent):
+    id: 52878
+    marketGroup: 1959
+    name: Cyclone Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Cyclone Thukker Tribe SKIN (Permanent):
@@ -4276,6 +4360,12 @@ items:
     id: 43514
     marketGroup: 2104
     name: Damnation Ironblood SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Damnation Malagrin Marshlight SKIN (Permanent):
+    id: 53007
+    marketGroup: 2104
+    name: Damnation Malagrin Marshlight SKIN (Permanent)
     published: true
     volume: 0.01
   Damnation Purity of the Throne SKIN (Permanent):
@@ -4780,6 +4870,12 @@ items:
     name: Drake IGC SKIN (Permanent)
     published: true
     volume: 0.01
+  Drake Malagrin Marshlight SKIN (Permanent):
+    id: 53010
+    marketGroup: 1957
+    name: Drake Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Drake Matigu Seabeast SKIN (Permanent):
     id: 40607
     marketGroup: 1957
@@ -4902,6 +4998,12 @@ items:
     id: 44951
     marketGroup: 2031
     name: Dramiel Spirit SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Draugur All-Stars Casino Clash SKIN (Permanent):
+    id: 53024
+    marketGroup: 2521
+    name: Draugur All-Stars Casino Clash SKIN (Permanent)
     published: true
     volume: 0.01
   Draugur Niflhel Gildclaw SKIN (Permanent):
@@ -5796,6 +5898,12 @@ items:
     name: Fenrir Krusual Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Fenrir Snowline Bladeracer SKIN (Permanent):
+    id: 52900
+    marketGroup: 1987
+    name: Fenrir Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Fenrir Tronhadar Ink SKIN (Permanent):
     id: 40514
     marketGroup: 1987
@@ -6187,6 +6295,12 @@ items:
   Golem Kaalakiota Serenity Only SKIN (Permanent):
     id: 37122
     name: Golem Kaalakiota Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Golem Malagrin Marshlight SKIN (Permanent):
+    id: 53011
+    marketGroup: 2025
+    name: Golem Malagrin Marshlight SKIN (Permanent)
     published: true
     volume: 0.01
   Golem Matigu Seabeast SKIN (Permanent):
@@ -6760,6 +6874,12 @@ items:
     name: Hel Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Hel Malagrin Marshlight SKIN (Permanent):
+    id: 53018
+    marketGroup: 1977
+    name: Hel Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hel Sebiestor SKIN (Permanent):
     id: 34658
     marketGroup: 1977
@@ -6769,6 +6889,12 @@ items:
   Hel Sebiestor Serenity Only SKIN (Permanent):
     id: 38628
     name: Hel Sebiestor Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hel Snowline Bladeracer SKIN (Permanent):
+    id: 52893
+    marketGroup: 1977
+    name: Hel Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Hel Tronhadar Ink SKIN (Permanent):
@@ -6972,6 +7098,12 @@ items:
     name: Hoarder Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Hoarder Snowline Bladeracer SKIN (Permanent):
+    id: 52895
+    marketGroup: 2010
+    name: Hoarder Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hoarder Tronhadar Ink SKIN (Permanent):
     id: 40509
     marketGroup: 2010
@@ -7014,6 +7146,12 @@ items:
     name: Hound Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Hound Snowline Bladeracer SKIN (Permanent):
+    id: 52853
+    marketGroup: 2054
+    name: Hound Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hound Tronhadar Ink SKIN (Permanent):
     id: 40476
     marketGroup: 2054
@@ -7054,6 +7192,12 @@ items:
     id: 36430
     marketGroup: 2084
     name: Huginn Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Huginn Snowline Bladeracer SKIN (Permanent):
+    id: 52873
+    marketGroup: 2084
+    name: Huginn Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Huginn Tronhadar Ink SKIN (Permanent):
@@ -7261,6 +7405,12 @@ items:
     name: Hurricane Fleet Issue Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Hurricane Fleet Issue Snowline Bladeracer SKIN (Permanent):
+    id: 52883
+    marketGroup: 2103
+    name: Hurricane Fleet Issue Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hurricane Glacial Drift SKIN (Permanent):
     id: 46905
     marketGroup: 1959
@@ -7311,6 +7461,12 @@ items:
   Hurricane Sebiestor Serenity Only SKIN (Permanent):
     id: 38627
     name: Hurricane Sebiestor Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hurricane Snowline Bladeracer SKIN (Permanent):
+    id: 52879
+    marketGroup: 1959
+    name: Hurricane Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Hurricane Spirit SKIN (Permanent):
@@ -7365,6 +7521,12 @@ items:
     id: 36428
     marketGroup: 2058
     name: Hyena Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hyena Snowline Bladeracer SKIN (Permanent):
+    id: 52854
+    marketGroup: 2058
+    name: Hyena Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Hyena Tronhadar Ink SKIN (Permanent):
@@ -7489,6 +7651,12 @@ items:
     id: 44147
     marketGroup: 2353
     name: Ibis Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Ikitursa All-Stars Casino Clash SKIN (Permanent):
+    id: 53023
+    marketGroup: 2485
+    name: Ikitursa All-Stars Casino Clash SKIN (Permanent)
     published: true
     volume: 0.01
   Ikitursa Niflhel Gildclaw SKIN (Permanent):
@@ -8181,6 +8349,12 @@ items:
     name: Jaguar Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Jaguar Snowline Bladeracer SKIN (Permanent):
+    id: 52850
+    marketGroup: 2050
+    name: Jaguar Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Jaguar Tronhadar Ink SKIN (Permanent):
     id: 40473
     marketGroup: 2050
@@ -8715,6 +8889,12 @@ items:
     name: Leviathan Kimotoro Eskeitan SKIN (Permanent)
     published: true
     volume: 0.01
+  Leviathan Malagrin Marshlight SKIN (Permanent):
+    id: 53012
+    marketGroup: 2092
+    name: Leviathan Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Leviathan Matigu Seabeast SKIN (Permanent):
     id: 40620
     marketGroup: 2092
@@ -8769,6 +8949,12 @@ items:
     name: Lif Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Lif Snowline Bladeracer SKIN (Permanent):
+    id: 52902
+    marketGroup: 2281
+    name: Lif Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Lif Tronhadar Ink SKIN (Permanent):
     id: 41687
     marketGroup: 2281
@@ -8815,6 +9001,12 @@ items:
     id: 52428
     marketGroup: 2373
     name: Loki In Rust We Trust SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Loki Snowline Bladeracer SKIN (Permanent):
+    id: 52875
+    marketGroup: 2373
+    name: Loki Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Machariel Amaranthine Mantle SKIN (Permanent):
@@ -9039,6 +9231,12 @@ items:
   Maelstrom Nefantar Serenity Only SKIN (Permanent):
     id: 37118
     name: Maelstrom Nefantar Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Maelstrom Snowline Bladeracer SKIN (Permanent):
+    id: 52884
+    marketGroup: 1967
+    name: Maelstrom Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Maelstrom Tronhadar Ink SKIN (Permanent):
@@ -9362,6 +9560,12 @@ items:
     name: Mammoth Nefantar Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Mammoth Snowline Bladeracer SKIN (Permanent):
+    id: 52896
+    marketGroup: 2010
+    name: Mammoth Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Mammoth Tronhadar Ink SKIN (Permanent):
     id: 40510
     marketGroup: 2010
@@ -9498,6 +9702,12 @@ items:
     id: 46749
     marketGroup: 2091
     name: Mastodon Lodestrike SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Mastodon Snowline Bladeracer SKIN (Permanent):
+    id: 52899
+    marketGroup: 2091
+    name: Mastodon Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Mastodon Valklear Glory SKIN (Permanent):
@@ -9656,6 +9866,12 @@ items:
     id: 46425
     marketGroup: 1966
     name: Megathron Kopis Edge SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Megathron Malagrin Marshlight SKIN (Permanent):
+    id: 53014
+    marketGroup: 1966
+    name: Megathron Malagrin Marshlight SKIN (Permanent)
     published: true
     volume: 0.01
   Megathron Navy Issue Exoplanets Hunter SKIN (Permanent):
@@ -10213,6 +10429,12 @@ items:
     name: Muninn Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Muninn Snowline Bladeracer SKIN (Permanent):
+    id: 52869
+    marketGroup: 2072
+    name: Muninn Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Muninn Tronhadar Ink SKIN (Permanent):
     id: 40488
     marketGroup: 2072
@@ -10436,6 +10658,12 @@ items:
     name: Naglfar Justice Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Naglfar Snowline Bladeracer SKIN (Permanent):
+    id: 52891
+    marketGroup: 1983
+    name: Naglfar Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Naglfar Spirit SKIN (Permanent):
     id: 47320
     marketGroup: 1983
@@ -10614,6 +10842,12 @@ items:
     name: Nereus Valimor Legacy SKIN (Permanent)
     published: true
     volume: 0.01
+  Nergal All-Stars Casino Clash SKIN (Permanent):
+    id: 53022
+    marketGroup: 2486
+    name: Nergal All-Stars Casino Clash SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nergal Niflhel Gildclaw SKIN (Permanent):
     id: 52697
     marketGroup: 2486
@@ -10759,6 +10993,12 @@ items:
   Nidhoggur Krusual Serenity Only SKIN (Permanent):
     id: 38622
     name: Nidhoggur Krusual Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Nidhoggur Snowline Bladeracer SKIN (Permanent):
+    id: 52892
+    marketGroup: 1977
+    name: Nidhoggur Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Nidhoggur Spirit SKIN (Permanent):
@@ -10929,6 +11169,12 @@ items:
     name: Nomad Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Nomad Snowline Bladeracer SKIN (Permanent):
+    id: 52901
+    marketGroup: 2098
+    name: Nomad Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nomad Tronhadar Ink SKIN (Permanent):
     id: 40515
     marketGroup: 2098
@@ -11010,6 +11256,12 @@ items:
     id: 46432
     marketGroup: 1976
     name: Nyx Kopis Edge SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Nyx Malagrin Marshlight SKIN (Permanent):
+    id: 53015
+    marketGroup: 1976
+    name: Nyx Malagrin Marshlight SKIN (Permanent)
     published: true
     volume: 0.01
   Nyx Police SKIN (Permanent):
@@ -11928,6 +12180,12 @@ items:
     name: Paladin Luminaire Rising SKIN (Permanent)
     published: true
     volume: 0.01
+  Paladin Malagrin Marshlight SKIN (Permanent):
+    id: 53008
+    marketGroup: 2024
+    name: Paladin Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Paladin Purity of the Throne SKIN (Permanent):
     id: 42588
     marketGroup: 2024
@@ -12015,6 +12273,12 @@ items:
     id: 48216
     marketGroup: 2113
     name: Panther Luminaire Rising SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Panther Snowline Bladeracer SKIN (Permanent):
+    id: 52887
+    marketGroup: 2113
+    name: Panther Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Panther Tronhadar Ink SKIN (Permanent):
@@ -12416,6 +12680,12 @@ items:
   Probe Justice SKIN (Permanent):
     id: 36410
     name: Probe Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Probe Snowline Bladeracer SKIN (Permanent):
+    id: 52846
+    marketGroup: 2005
+    name: Probe Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Probe Tronhadar Ink SKIN (Permanent):
@@ -12930,6 +13200,12 @@ items:
     name: Prowler Lodestrike SKIN (Permanent)
     published: true
     volume: 0.01
+  Prowler Snowline Bladeracer SKIN (Permanent):
+    id: 52898
+    marketGroup: 2091
+    name: Prowler Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Prowler Valklear Glory SKIN (Permanent):
     id: 36794
     marketGroup: 2091
@@ -13131,6 +13407,12 @@ items:
     name: Ragnarok Shakim Warlord SKIN (Permanent)
     published: true
     volume: 0.01
+  Ragnarok Snowline Bladeracer SKIN (Permanent):
+    id: 52894
+    marketGroup: 2093
+    name: Ragnarok Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ragnarok Tronhadar Ink SKIN (Permanent):
     id: 40508
     marketGroup: 2093
@@ -13171,6 +13453,12 @@ items:
     id: 36431
     marketGroup: 2084
     name: Rapier Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rapier Snowline Bladeracer SKIN (Permanent):
+    id: 52874
+    marketGroup: 2084
+    name: Rapier Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Rapier Tronhadar Ink SKIN (Permanent):
@@ -13557,6 +13845,12 @@ items:
     name: Republic Fleet Firetail Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Republic Fleet Firetail Snowline Bladeracer SKIN (Permanent):
+    id: 52858
+    marketGroup: 2000
+    name: Republic Fleet Firetail Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Retribution Cold Iron SKIN (Permanent):
     id: 42752
     marketGroup: 2047
@@ -13927,6 +14221,12 @@ items:
     name: Rifter Nefantar Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Rifter Snowline Bladeracer SKIN (Permanent):
+    id: 52847
+    marketGroup: 2005
+    name: Rifter Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rifter Tronhadar Ink SKIN (Permanent):
     id: 40470
     marketGroup: 2005
@@ -14295,6 +14595,12 @@ items:
     name: Rupture Serenity Cloud SKIN (Permanent)
     published: true
     volume: 0.01
+  Rupture Snowline Bladeracer SKIN (Permanent):
+    id: 52866
+    marketGroup: 1993
+    name: Rupture Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rupture Tronhadar Ink SKIN (Permanent):
     id: 40485
     marketGroup: 1993
@@ -14359,6 +14665,12 @@ items:
     id: 52287
     marketGroup: 2041
     name: Sabre Permaband - Warp to the Dance Floor SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sabre Snowline Bladeracer SKIN (Permanent):
+    id: 52863
+    marketGroup: 2041
+    name: Sabre Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Sabre Tronhadar Ink SKIN (Permanent):
@@ -14451,6 +14763,12 @@ items:
     name: Scalpel Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Scalpel Snowline Bladeracer SKIN (Permanent):
+    id: 52857
+    marketGroup: 2140
+    name: Scalpel Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Scalpel Valklear Glory SKIN (Permanent):
     id: 40325
     marketGroup: 2140
@@ -14497,6 +14815,12 @@ items:
     id: 36432
     marketGroup: 2080
     name: Scimitar Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Scimitar Snowline Bladeracer SKIN (Permanent):
+    id: 52872
+    marketGroup: 2080
+    name: Scimitar Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Scimitar Tronhadar Ink SKIN (Permanent):
@@ -14677,6 +15001,12 @@ items:
     name: Scythe Fleet Issue Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Scythe Fleet Issue Snowline Bladeracer SKIN (Permanent):
+    id: 52876
+    marketGroup: 2063
+    name: Scythe Fleet Issue Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Scythe Glacial Drift SKIN (Permanent):
     id: 46893
     marketGroup: 1993
@@ -14686,6 +15016,12 @@ items:
   Scythe Justice SKIN (Permanent):
     id: 36417
     name: Scythe Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Scythe Snowline Bladeracer SKIN (Permanent):
+    id: 52867
+    marketGroup: 1993
+    name: Scythe Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Scythe Tronhadar Ink SKIN (Permanent):
@@ -15045,6 +15381,12 @@ items:
     name: Slasher Luminaire Zenith SKIN (Permanent)
     published: true
     volume: 0.01
+  Slasher Snowline Bladeracer SKIN (Permanent):
+    id: 52848
+    marketGroup: 2005
+    name: Slasher Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Slasher Tronhadar Ink SKIN (Permanent):
     id: 40471
     marketGroup: 2005
@@ -15097,6 +15439,12 @@ items:
     id: 36446
     marketGroup: 2107
     name: Sleipnir Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Sleipnir Snowline Bladeracer SKIN (Permanent):
+    id: 52882
+    marketGroup: 2107
+    name: Sleipnir Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Sleipnir Storm Bear SKIN (Permanent):
@@ -15165,6 +15513,12 @@ items:
     name: Stabber Fleet Issue Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Stabber Fleet Issue Snowline Bladeracer SKIN (Permanent):
+    id: 52877
+    marketGroup: 2063
+    name: Stabber Fleet Issue Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Stabber Glacial Drift SKIN (Permanent):
     id: 46894
     marketGroup: 1993
@@ -15208,6 +15562,12 @@ items:
   Stabber Nefantar Serenity Only SKIN (Permanent):
     id: 37104
     name: Stabber Nefantar Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Stabber Snowline Bladeracer SKIN (Permanent):
+    id: 52868
+    marketGroup: 1993
+    name: Stabber Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Stabber Spirit SKIN (Permanent):
@@ -15262,6 +15622,12 @@ items:
     id: 36426
     marketGroup: 2062
     name: Stiletto Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Stiletto Snowline Bladeracer SKIN (Permanent):
+    id: 52856
+    marketGroup: 2062
+    name: Stiletto Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Stiletto Tronhadar Ink SKIN (Permanent):
@@ -15484,6 +15850,12 @@ items:
     name: Svipul In Rust We Trust SKIN (Permanent)
     published: true
     volume: 0.01
+  Svipul Snowline Bladeracer SKIN (Permanent):
+    id: 52864
+    marketGroup: 2392
+    name: Svipul Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Taipan Hostile Takeover SKIN (Permanent):
     id: 45505
     marketGroup: 2360
@@ -15627,6 +15999,12 @@ items:
   Talwar Sebiestor Serenity Only SKIN (Permanent):
     id: 38629
     name: Talwar Sebiestor Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Talwar Snowline Bladeracer SKIN (Permanent):
+    id: 52860
+    marketGroup: 1997
+    name: Talwar Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Talwar Triglavian Twilight SKIN (Permanent):
@@ -15819,6 +16197,12 @@ items:
     name: Tempest Fleet Issue Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Tempest Fleet Issue Snowline Bladeracer SKIN (Permanent):
+    id: 52889
+    marketGroup: 2108
+    name: Tempest Fleet Issue Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Tempest Glacial Drift SKIN (Permanent):
     id: 46911
     marketGroup: 1967
@@ -15850,6 +16234,12 @@ items:
   Tempest Nefantar Serenity Only SKIN (Permanent):
     id: 37120
     name: Tempest Nefantar Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Tempest Snowline Bladeracer SKIN (Permanent):
+    id: 52885
+    marketGroup: 1967
+    name: Tempest Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Tempest Spirit SKIN (Permanent):
@@ -16247,6 +16637,12 @@ items:
     name: Thrasher Nefantar Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Thrasher Snowline Bladeracer SKIN (Permanent):
+    id: 52861
+    marketGroup: 1997
+    name: Thrasher Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Thrasher Thukker Tribe SKIN (Permanent):
     id: 34716
     name: Thrasher Thukker Tribe SKIN (Permanent)
@@ -16379,6 +16775,12 @@ items:
     name: Tornado Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Tornado Malagrin Marshlight SKIN (Permanent):
+    id: 53016
+    marketGroup: 1959
+    name: Tornado Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
   Tornado Nefantar SKIN (Permanent):
     id: 34621
     marketGroup: 1959
@@ -16388,6 +16790,12 @@ items:
   Tornado Nefantar Serenity Only SKIN (Permanent):
     id: 38619
     name: Tornado Nefantar Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Tornado Snowline Bladeracer SKIN (Permanent):
+    id: 52880
+    marketGroup: 1959
+    name: Tornado Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Tornado Tronhadar Ink SKIN (Permanent):
@@ -16568,6 +16976,12 @@ items:
     name: Typhoon Fleet Issue Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Typhoon Fleet Issue Snowline Bladeracer SKIN (Permanent):
+    id: 52890
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Typhoon Glacial Drift SKIN (Permanent):
     id: 46912
     marketGroup: 1967
@@ -16612,6 +17026,18 @@ items:
   Typhoon Krusual Serenity Only SKIN (Permanent):
     id: 38621
     name: Typhoon Krusual Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Typhoon Malagrin Marshlight SKIN (Permanent):
+    id: 53017
+    marketGroup: 1967
+    name: Typhoon Malagrin Marshlight SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Typhoon Snowline Bladeracer SKIN (Permanent):
+    id: 52886
+    marketGroup: 1967
+    name: Typhoon Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Typhoon Triglavian Twilight SKIN (Permanent):
@@ -16683,6 +17109,12 @@ items:
     id: 36433
     marketGroup: 2072
     name: Vagabond Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vagabond Snowline Bladeracer SKIN (Permanent):
+    id: 52870
+    marketGroup: 2072
+    name: Vagabond Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Vagabond Tronhadar Ink SKIN (Permanent):
@@ -16764,6 +17196,12 @@ items:
   Vargur Nefantar SKIN (Permanent):
     id: 34821
     name: Vargur Nefantar SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vargur Snowline Bladeracer SKIN (Permanent):
+    id: 52888
+    marketGroup: 2027
+    name: Vargur Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Vargur Thukker Tribe SKIN (Permanent):
@@ -17314,6 +17752,12 @@ items:
     name: Vigil Fleet Issue Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Vigil Fleet Issue Snowline Bladeracer SKIN (Permanent):
+    id: 52859
+    marketGroup: 2000
+    name: Vigil Fleet Issue Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Vigil Glacial Drift SKIN (Permanent):
     id: 44165
     marketGroup: 2005
@@ -17334,6 +17778,12 @@ items:
   Vigil Krusual Serenity Only SKIN (Permanent):
     id: 38626
     name: Vigil Krusual Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Vigil Snowline Bladeracer SKIN (Permanent):
+    id: 52849
+    marketGroup: 2005
+    name: Vigil Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Vigil Spirit SKIN (Permanent):
@@ -17551,6 +18001,12 @@ items:
     name: Wolf Justice SKIN (Permanent)
     published: true
     volume: 0.01
+  Wolf Snowline Bladeracer SKIN (Permanent):
+    id: 52851
+    marketGroup: 2050
+    name: Wolf Snowline Bladeracer SKIN (Permanent)
+    published: true
+    volume: 0.01
   Wolf Tronhadar Ink SKIN (Permanent):
     id: 40474
     marketGroup: 2050
@@ -17614,6 +18070,12 @@ items:
   Wreathe Justice SKIN (Permanent):
     id: 36421
     name: Wreathe Justice SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Wreathe Snowline Bladeracer SKIN (Permanent):
+    id: 52897
+    marketGroup: 2010
+    name: Wreathe Snowline Bladeracer SKIN (Permanent)
     published: true
     volume: 0.01
   Wreathe Tronhadar Ink SKIN (Permanent):

@@ -34,25 +34,25 @@ items:
     marketGroup: 2317
     name: Blood Raider Chemosh Blueprint Armored Cache
     published: true
-    volume: 20000.0
+    volume: 400000.0
   Blood Raider Dagon Blueprint Armored Cache:
     id: 45679
     marketGroup: 2317
     name: Blood Raider Dagon Blueprint Armored Cache
     published: true
-    volume: 20000.0
+    volume: 400000.0
   Blood Raider Molok Blueprint Armored Cache:
     id: 45677
     marketGroup: 2317
     name: Blood Raider Molok Blueprint Armored Cache
     published: true
-    volume: 20000.0
+    volume: 400000.0
   Blood Raider Standup Module Blueprint Armored Cache:
     id: 46579
     marketGroup: 2317
     name: Blood Raider Standup Module Blueprint Armored Cache
     published: true
-    volume: 20000.0
+    volume: 400000.0
   Blood Raider Strong Box:
     MetaGroupID: 4
     id: 43696
@@ -77,19 +77,19 @@ items:
     marketGroup: 2317
     name: Guristas Caiman Blueprint Armored Cache
     published: true
-    volume: 20000.0
+    volume: 400000.0
   Guristas Komodo Blueprint Armored Cache:
     id: 46603
     marketGroup: 2317
     name: Guristas Komodo Blueprint Armored Cache
     published: true
-    volume: 20000.0
+    volume: 400000.0
   Guristas Loggerhead Blueprint Armored Cache:
     id: 46601
     marketGroup: 2317
     name: Guristas Loggerhead Blueprint Armored Cache
     published: true
-    volume: 20000.0
+    volume: 400000.0
   Guristas Production Strong Box:
     MetaGroupID: 4
     id: 43697
@@ -102,7 +102,7 @@ items:
     marketGroup: 2317
     name: Guristas Standup Module Blueprint Armored Cache
     published: true
-    volume: 20000.0
+    volume: 400000.0
   HZO Refinery Strong Box:
     id: 43684
     marketGroup: 2317

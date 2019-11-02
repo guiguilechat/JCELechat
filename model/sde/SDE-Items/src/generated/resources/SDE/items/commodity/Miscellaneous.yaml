@@ -1549,12 +1549,12 @@ items:
     name: Ditanium Metal Plates
     published: true
     volume: 30.0
-  Dossier ��� Author Unknown:
+  Dossier – Author Unknown:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 30952
     mass: 10.0
-    name: Dossier ��� Author Unknown
+    name: Dossier – Author Unknown
     published: true
     volume: 0.1
   Dr. Castille's Data Core (Property of CreoDron):

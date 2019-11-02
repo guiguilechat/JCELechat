@@ -293,7 +293,7 @@ items:
     name: Four Freedoms Firework
     published: true
     volume: 0.1
-  Halloween 2019 Firework:
+  Halloween Horrors Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
@@ -311,7 +311,7 @@ items:
     id: 52219
     marketGroup: 1663
     mass: 100.0
-    name: Halloween 2019 Firework
+    name: Halloween Horrors Firework
     published: true
     volume: 0.1
   Nation Uplifts Firework:

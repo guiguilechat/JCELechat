@@ -852,6 +852,55 @@ items:
     name: Hair Accessory Shipment (Damaged)
     published: true
     volume: 0.1
+  Halloween Horrors Astero SKIN:
+    CpuMultiplier: 1.0
+    id: 53055
+    marketGroup: 1661
+    name: Halloween Horrors Astero SKIN
+    published: true
+    volume: 4.0
+  Halloween Horrors Avatar SKIN and Fireworks Crate:
+    CpuMultiplier: 1.0
+    id: 53059
+    marketGroup: 1661
+    name: Halloween Horrors Avatar SKIN and Fireworks Crate
+    published: true
+    volume: 4.0
+  Halloween Horrors Fireworks Crate:
+    CpuMultiplier: 1.0
+    id: 53056
+    marketGroup: 1661
+    name: Halloween Horrors Fireworks Crate
+    published: true
+    volume: 4.0
+  Halloween Horrors Fireworks and Launcher Crate:
+    CpuMultiplier: 1.0
+    id: 53053
+    marketGroup: 1661
+    name: Halloween Horrors Fireworks and Launcher Crate
+    published: true
+    volume: 4.0
+  Halloween Horrors Gila SKIN:
+    CpuMultiplier: 1.0
+    id: 53057
+    marketGroup: 1661
+    name: Halloween Horrors Gila SKIN
+    published: true
+    volume: 4.0
+  Halloween Horrors Headhunter Cruiser SKINs:
+    CpuMultiplier: 1.0
+    id: 53060
+    marketGroup: 1661
+    name: Halloween Horrors Headhunter Cruiser SKINs
+    published: true
+    volume: 4.0
+  Halloween Horrors Machariel SKIN:
+    CpuMultiplier: 1.0
+    id: 53058
+    marketGroup: 1661
+    name: Halloween Horrors Machariel SKIN
+    published: true
+    volume: 4.0
   Headhunter Crate:
     CpuMultiplier: 1.0
     id: 46756
@@ -1484,12 +1533,12 @@ items:
     name: Rules of Engagement
     published: true
     volume: 0.01
-  SCC Guidelines �� Lotteries For Dummies:
+  SCC Guidelines – Lotteries For Dummies:
     CpuMultiplier: 1.0
     id: 34425
     marketGroup: 1661
     mass: 10.0
-    name: SCC Guidelines �� Lotteries For Dummies
+    name: SCC Guidelines – Lotteries For Dummies
     published: true
     volume: 3.0
   Sani Sabik Murder Security Tapes:
@@ -1845,6 +1894,13 @@ items:
     name: YC117 Symposium On Emergent Threats Access Pass
     published: true
     volume: 0.01
+  YC118 Succession Trial Champion’s Decree – House Ardishapur:
+    CpuMultiplier: 1.0
+    id: 37892
+    marketGroup: 1661
+    name: YC118 Succession Trial Champion’s Decree – House Ardishapur
+    published: true
+    volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Kador:
     CpuMultiplier: 1.0
     id: 37893
@@ -1878,13 +1934,6 @@ items:
     id: 37889
     marketGroup: 1661
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
-    published: true
-    volume: 0.01
-  YC118 Succession Trial Champion���s Decree – House Ardishapur:
-    CpuMultiplier: 1.0
-    id: 37892
-    marketGroup: 1661
-    name: YC118 Succession Trial Champion���s Decree – House Ardishapur
     published: true
     volume: 0.01
   YC121 Guardian's Gala Ticket:

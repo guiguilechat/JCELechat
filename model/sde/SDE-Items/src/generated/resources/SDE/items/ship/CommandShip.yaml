@@ -76,7 +76,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     id: 22448
     marketGroup: 825
     mass: 1.33E7
@@ -162,7 +162,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     id: 22466
     marketGroup: 831
     mass: 1.23E7
@@ -248,7 +248,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     WingCommandBonus: 5
     id: 22468
     marketGroup: 834
@@ -335,7 +335,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     WingCommandBonus: 5
     id: 22474
     marketGroup: 825
@@ -421,7 +421,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     WingCommandBonus: 5
     id: 22442
     marketGroup: 831
@@ -508,7 +508,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     id: 22470
     marketGroup: 828
     mass: 1.481E7
@@ -594,7 +594,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     id: 22444
     marketGroup: 834
     mass: 1.28E7
@@ -680,7 +680,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 4.0
     WingCommandBonus: 5
     id: 22446
     marketGroup: 828

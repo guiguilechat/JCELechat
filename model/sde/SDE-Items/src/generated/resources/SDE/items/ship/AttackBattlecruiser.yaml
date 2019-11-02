@@ -69,7 +69,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 2.700000047683716
+    WarpSpeedMultiplier: 3.5
     id: 4306
     marketGroup: 471
     mass: 1.5E7
@@ -147,7 +147,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 2.700000047683716
+    WarpSpeedMultiplier: 3.5
     id: 4302
     marketGroup: 470
     mass: 1.476E7
@@ -186,7 +186,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.6499999761581421
     HiSlots: 8
-    Hp: 2160
+    Hp: 2170
     KineticDamageResonance: 0.6700000166893005
     LowSlots: 5
     MainColor: 16777215
@@ -227,7 +227,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 2.700000047683716
+    WarpSpeedMultiplier: 3.5
     id: 4308
     marketGroup: 472
     mass: 1.5552E7
@@ -305,7 +305,7 @@ items:
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 2.700000047683716
+    WarpSpeedMultiplier: 3.5
     id: 4310
     marketGroup: 473
     mass: 1.5228E7
