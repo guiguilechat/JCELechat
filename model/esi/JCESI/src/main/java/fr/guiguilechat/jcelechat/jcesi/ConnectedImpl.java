@@ -513,7 +513,11 @@ public abstract class ConnectedImpl implements ITransfer {
 						if (etag != null) {
 							if (!etag.equals(lastEtag)) {
 								if (res.isOk()) {
-									cacheHandler.accept(res.getOK());
+									try {
+										cacheHandler.accept(res.getOK());
+									} catch (Exception e) {
+										logger.warn("for " + res.getURL(), e);
+									}
 								} else if (res.isClientError() && res.getResponseCode() != 420) {
 									logger.debug(loggingName + " setting null in cache for request response type " + res.getError());
 									cacheHandler.accept(null);
@@ -522,16 +526,24 @@ public abstract class ConnectedImpl implements ITransfer {
 							lastEtag = etag;
 						} else if (res.isOk()) {
 							lastEtag = res.getETag();
-							cacheHandler.accept(res.getOK());
+							try {
+								cacheHandler.accept(res.getOK());
+							} catch (Exception e) {
+								logger.warn("for " + res.getURL(), e);
+							}
 						} else if (res.isRedirect() && res.getResponseCode() == 304) {
 							lastEtag = res.getETag();
 						} else if (res.isClientError() || res.isRedirect()) {
 							logger.debug(loggingName + " " + res.getError() + " : setting data to null");
-							cacheHandler.accept(null);
+							try {
+								cacheHandler.accept(null);
+							} catch (Exception e) {
+								logger.warn("for " + res.getURL(), e);
+							}
 						} else {
 							logger.debug(loggingName + res.getResponseCode() + " : " + res.getError());
 						}
-						// add a delay to avoid refetching the data too fast
+						// add a delay to avoid re fetching the data too fast
 						delay_ms = res.getCacheExpire() + 1000;
 						if (res.isServerError()) {
 							logger.debug(loggingName + " waiting 5s " + res.getError());
