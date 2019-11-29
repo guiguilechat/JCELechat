@@ -49,6 +49,12 @@ items:
     name: Drone Creation Compound
     published: false
     volume: 1.0E8
+  Drone Hive:
+    id: 53084
+    mass: 1000.0
+    name: Drone Hive
+    published: false
+    volume: 1000.0
   Guristas Fleet Outpost:
     id: 29021
     mass: 1000.0

@@ -210,6 +210,13 @@ items:
     name: Assistant's Keychain
     published: true
     volume: 0.1
+  Astronavigational Tracking Program:
+    id: 53082
+    marketGroup: 1840
+    mass: 1.0
+    name: Astronavigational Tracking Program
+    published: true
+    volume: 0.1
   Avrue's Token:
     id: 24730
     mass: 1.0
@@ -588,6 +595,12 @@ items:
     name: Dorga Roes
     published: true
     volume: 1.0
+  Dreadnought Systems Diagram:
+    id: 53291
+    marketGroup: 20
+    name: Dreadnought Systems Diagram
+    published: true
+    volume: 0.1
   Drill:
     id: 23273
     mass: 1.0
@@ -2068,6 +2081,13 @@ items:
     name: Surveillance Recordings
     published: true
     volume: 0.1
+  Survey Data:
+    id: 53083
+    marketGroup: 1840
+    mass: 1.0
+    name: Survey Data
+    published: true
+    volume: 0.1
   Sweet Leaves:
     id: 26462
     mass: 1000.0
@@ -2317,6 +2337,12 @@ items:
     id: 24287
     mass: 1.0
     name: Zach's Note
+    published: true
+    volume: 0.1
+  Zirnitra Blueprint Data Vault:
+    id: 53299
+    marketGroup: 20
+    name: Zirnitra Blueprint Data Vault
     published: true
     volume: 0.1
   Zydrine Burn:

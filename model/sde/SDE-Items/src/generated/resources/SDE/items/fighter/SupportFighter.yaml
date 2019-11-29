@@ -97,7 +97,7 @@ items:
     FighterAbilityStasisWebifierDuration: 10000
     FighterAbilityStasisWebifierOptimalRange: 8000
     FighterAbilityStasisWebifierResistanceID: 2115
-    FighterAbilityStasisWebifierSpeedPenalty: -15
+    FighterAbilityStasisWebifierSpeedPenalty: -10
     FighterRefuelingTime: 2000
     FighterSquadronIsSupport: 1
     FighterSquadronMaxSize: 3
@@ -141,7 +141,7 @@ items:
     FighterAbilityStasisWebifierDuration: 10000
     FighterAbilityStasisWebifierOptimalRange: 16000
     FighterAbilityStasisWebifierResistanceID: 2115
-    FighterAbilityStasisWebifierSpeedPenalty: -20
+    FighterAbilityStasisWebifierSpeedPenalty: -15
     FighterRefuelingTime: 2000
     FighterSquadronIsSupport: 1
     FighterSquadronMaxSize: 3
@@ -451,7 +451,7 @@ items:
     FighterAbilityStasisWebifierDuration: 10000
     FighterAbilityStasisWebifierOptimalRange: 8000
     FighterAbilityStasisWebifierResistanceID: 2115
-    FighterAbilityStasisWebifierSpeedPenalty: -15
+    FighterAbilityStasisWebifierSpeedPenalty: -10
     FighterRefuelingTime: 2000
     FighterSquadronIsStandupSupport: 1
     FighterSquadronMaxSize: 3
@@ -492,7 +492,7 @@ items:
     FighterAbilityStasisWebifierDuration: 10000
     FighterAbilityStasisWebifierOptimalRange: 16000
     FighterAbilityStasisWebifierResistanceID: 2115
-    FighterAbilityStasisWebifierSpeedPenalty: -20
+    FighterAbilityStasisWebifierSpeedPenalty: -15
     FighterRefuelingTime: 2000
     FighterSquadronIsStandupSupport: 1
     FighterSquadronMaxSize: 3

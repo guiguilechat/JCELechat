@@ -8,8 +8,6 @@ items:
     Hp: 10
     LauncherGroup: 56
     MissileNeverDoesDamage: 1
-    RequiredSkill1Level: 1
-    RequiredSkill2Level: 1
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -29,8 +27,6 @@ items:
     LauncherGroup: 56
     MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
-    RequiredSkill1Level: 1
-    RequiredSkill2Level: 1
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1

@@ -80,6 +80,12 @@ items:
     price: 9000000.0
     published: true
     volume: 0.01
+  Ultratidal Entropic Disintegrator I Blueprint:
+    id: 53030
+    name: Ultratidal Entropic Disintegrator I Blueprint
+    price: 4.300626E7
+    published: true
+    volume: 0.01
   Veles Heavy Entropic Disintegrator Blueprint:
     id: 52349
     marketGroup: 293

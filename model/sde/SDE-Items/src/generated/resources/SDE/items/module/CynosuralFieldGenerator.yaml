@@ -74,6 +74,7 @@ items:
     CanFitShipGroup01: 28
     CanFitShipGroup02: 1202
     CanFitShipGroup03: 380
+    CanFitShipType1: 32880
     ConsumptionQuantity: 800
     ConsumptionType: 16273
     Cpu: 50.0

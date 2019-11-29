@@ -1,4 +1,10 @@
 items:
+  Capital Absorption Thruster Array Blueprint:
+    id: 53034
+    name: Capital Absorption Thruster Array Blueprint
+    price: 1.393368E9
+    published: true
+    volume: 0.01
   Capital Armor Plates Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21018
@@ -111,6 +117,12 @@ items:
     price: 1.253962E9
     published: true
     volume: 0.01
+  Capital Radiation Conversion Unit Blueprint:
+    id: 53033
+    name: Capital Radiation Conversion Unit Blueprint
+    price: 1.393368E9
+    published: true
+    volume: 0.01
   Capital Sensor Cluster Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21014
@@ -149,5 +161,11 @@ items:
     marketGroup: 796
     name: Capital Turret Hardpoint Blueprint
     price: 1.462602E9
+    published: true
+    volume: 0.01
+  Capital Ultratidal Entropic Mounting Blueprint:
+    id: 53032
+    name: Capital Ultratidal Entropic Mounting Blueprint
+    price: 1.393368E9
     published: true
     volume: 0.01

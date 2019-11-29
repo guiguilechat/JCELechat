@@ -11,6 +11,12 @@ items:
     name: Triglavian Biocombinative Cache
     published: false
     volume: 1.0E8
+  Triglavian Biocombinative Schematic Cache:
+    id: 53294
+    mass: 100000.0
+    name: Triglavian Biocombinative Schematic Cache
+    published: false
+    volume: 1.0E8
   Triglavian Cladistic Cache:
     id: 49690
     mass: 100000.0

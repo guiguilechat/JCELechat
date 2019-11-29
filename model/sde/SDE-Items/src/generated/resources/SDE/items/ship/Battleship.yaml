@@ -1116,7 +1116,7 @@ items:
     ShipBonusCB: 5
     ShipBonusGB: 7.5
     ShipBonusRole7: -25.0
-    ShipRoleBonusWarpSpeed: 50
+    ShipRoleBonusWarpSpeed: 25
     SignatureRadius: 380
     StructureUniformity: 1.0
     TechLevel: 1
@@ -2432,7 +2432,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusAB: 5.0
     ShipBonusCB: 5
-    ShipBonusMB2: -5.0
+    ShipBonusMB2: -7.5
     SignatureRadius: 350
     StructureUniformity: 1.0
     TechLevel: 1
@@ -2592,7 +2592,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusAB: 5.0
     ShipBonusCB: 5
-    ShipBonusMB2: 5.0
+    ShipBonusMB2: 7.5
     SignatureRadius: 330
     StructureUniformity: 1.0
     TechLevel: 1

@@ -456,6 +456,40 @@ items:
     name: Supratidal Scoped Entropic Disintegrator
     published: true
     volume: 20.0
+  Ultratidal Entropic Disintegrator I:
+    CanFitShipType1: 52907
+    CapacitorNeed: 384.0
+    ChargeGroup1: 1987
+    ChargeRate: 1
+    ChargeSize: 4
+    Cpu: 480.0
+    DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.05000000074505806
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 13.300000190734863
+    Hp: 40
+    MaxRange: 52000
+    OptimalSigRadius: 40000
+    OverloadDamageModifier: 15
+    Power: 825000
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 52998
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3300
+    RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 13000
+    TechLevel: 1
+    TrackingSpeed: 0.019999999552965164
+    TypeColorScheme: 11313
+    id: 52915
+    marketGroup: 2691
+    mass: 40000.0
+    name: Ultratidal Entropic Disintegrator I
+    published: true
+    volume: 1600.0
   Veles Heavy Entropic Disintegrator:
     CanFitShipType1: 47270
     CanFitShipType2: 48635

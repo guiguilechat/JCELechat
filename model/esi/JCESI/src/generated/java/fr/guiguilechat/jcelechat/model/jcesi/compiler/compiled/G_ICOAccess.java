@@ -763,8 +763,7 @@ public interface G_ICOAccess
      * Get current ship
      * <p>
      * Get the current ship type, name and id<br />
-     * This route is cached for up to 5 seconds<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/ship/)
+     * This route is cached for up to 5 seconds
      * </p>
      * 
      * @param character_id
@@ -2453,7 +2452,8 @@ public interface G_ICOAccess
     /**
      * Calculate a CSPA charge cost
      * <p>
-     * Takes a source character ID in the url and a set of target character ID's in the body, returns a CSPA charge cost
+     * Takes a source character ID in the url and a set of target character ID's in the body, returns a CSPA charge cost<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#POST-/characters/{character_id}/cspa/)
      * </p>
      * 
      * @param character_id

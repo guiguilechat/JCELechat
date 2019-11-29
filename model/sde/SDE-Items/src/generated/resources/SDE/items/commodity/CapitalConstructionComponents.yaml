@@ -1,4 +1,12 @@
 items:
+  Capital Absorption Thruster Array:
+    MoonMiningAmount: 1
+    id: 53037
+    marketGroup: 2693
+    mass: 10000.0
+    name: Capital Absorption Thruster Array
+    published: true
+    volume: 10000.0
   Capital Armor Plates:
     MoonMiningAmount: 100
     id: 21017
@@ -111,6 +119,14 @@ items:
     name: Capital Propulsion Engine
     published: true
     volume: 10000.0
+  Capital Radiation Conversion Unit:
+    MoonMiningAmount: 1
+    id: 53036
+    marketGroup: 2693
+    mass: 10000.0
+    name: Capital Radiation Conversion Unit
+    published: true
+    volume: 10000.0
   Capital Sensor Cluster:
     MoonMiningAmount: 100
     id: 21013
@@ -149,5 +165,13 @@ items:
     marketGroup: 781
     mass: 10000.0
     name: Capital Turret Hardpoint
+    published: true
+    volume: 10000.0
+  Capital Ultratidal Entropic Mounting:
+    MoonMiningAmount: 1
+    id: 53035
+    marketGroup: 2693
+    mass: 10000.0
+    name: Capital Ultratidal Entropic Mounting
     published: true
     volume: 10000.0

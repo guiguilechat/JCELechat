@@ -59,30 +59,6 @@ items:
     name: Patriarch Alvus
     published: false
     volume: 1010000.0
-  Rogue Drone Infested Abaddon:
-    id: 52833
-    mass: 2.1E7
-    name: Rogue Drone Infested Abaddon
-    published: false
-    volume: 1010000.0
-  Rogue Drone Infested Dominix:
-    id: 52834
-    mass: 2.1E7
-    name: Rogue Drone Infested Dominix
-    published: false
-    volume: 1010000.0
-  Rogue Drone Infested Raven:
-    id: 52835
-    mass: 2.1E7
-    name: Rogue Drone Infested Raven
-    published: false
-    volume: 1010000.0
-  Rogue Drone Infested Typhoon:
-    id: 52836
-    mass: 2.1E7
-    name: Rogue Drone Infested Typhoon
-    published: false
-    volume: 1010000.0
   Spearhead Alvus:
     id: 23498
     mass: 2.1E7
@@ -93,6 +69,30 @@ items:
     id: 23500
     mass: 2.1E7
     name: Supreme Alvus Parasite
+    published: false
+    volume: 1010000.0
+  'Swarm Overmind #0102':
+    id: 52833
+    mass: 2.1E7
+    name: 'Swarm Overmind #0102'
+    published: false
+    volume: 1010000.0
+  'Swarm Overmind #0415':
+    id: 52834
+    mass: 2.1E7
+    name: 'Swarm Overmind #0415'
+    published: false
+    volume: 1010000.0
+  'Swarm Overmind #1801':
+    id: 52835
+    mass: 2.1E7
+    name: 'Swarm Overmind #1801'
+    published: false
+    volume: 1010000.0
+  'Swarm Overmind #2025':
+    id: 52836
+    mass: 2.1E7
+    name: 'Swarm Overmind #2025'
     published: false
     volume: 1010000.0
   Swarm Overmind Primus:

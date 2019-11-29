@@ -188,7 +188,7 @@ items:
     RequiredSkill2: 24562
     RequiredSkill2Level: 1
     SiegeModeWarpStatus: 100
-    SignatureRadius: 2000
+    SignatureRadius: 10000
     SpeedFactor: -100.0
     TechLevel: 1
     ThermalDamage: 10000.0
@@ -266,6 +266,55 @@ items:
     id: 42522
     marketGroup: 2325
     name: Pulse Activated Nexus Invulnerability Core
+    price: 2.40947786E8
+    published: true
+    volume: 8000.0
+  ‘Cold Wind’ Kinetic Reaper:
+    CanCloak: 1
+    CanFitShipType1: 3764
+    CanFitShipType2: 45649
+    CapacitorNeed: 32500.0
+    ConsumptionQuantity: 50000
+    ConsumptionType: 17888
+    Cpu: 100.0
+    DamageDelayDuration: 10000
+    DisallowDocking: 1
+    DisallowEarlyDeactivation: 1
+    DisallowInEmpireSpace: 1
+    DisallowRepeatingActivation: 1
+    DisallowTethering: 1
+    DoomsdayAOEShape: 2
+    DoomsdayDamageCycleTime: 1000
+    DoomsdayDamageDuration: 10000
+    DoomsdayDamageRadius: 5000
+    DoomsdayEnergyNeutAmount: 32500
+    DoomsdayEnergyNeutRadius: 10000
+    DoomsdayEnergyNeutResistanceID: 2045
+    DoomsdayEnergyNeutSignatureRadius: 20000
+    DoomsdayImmobilityDuration: 30000
+    DoomsdayNoJumpOrCloakDuration: 300000
+    DoomsdayRangeIsFixed: 1
+    DoomsdayWarningDuration: 10000
+    Duration: 300000.0
+    Hp: 99999
+    IsPointTargeted: 2
+    KineticDamage: 100000.0
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MaxRange: 150000
+    Power: 100000
+    RequiredSkill1: 24563
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3346
+    RequiredSkill2Level: 1
+    SiegeModeWarpStatus: 100
+    SignatureRadius: 3500
+    SpeedFactor: -100.0
+    TechLevel: 1
+    id: 41442
+    marketGroup: 2268
+    mass: 100.0
+    name: ‘Cold Wind’ Kinetic Reaper
     price: 2.40947786E8
     published: true
     volume: 8000.0
@@ -613,55 +662,6 @@ items:
     marketGroup: 2269
     mass: 100.0
     name: ‘Phalarica’ Thermal Lance
-    price: 2.40947786E8
-    published: true
-    volume: 8000.0
-  ���Cold Wind’ Kinetic Reaper:
-    CanCloak: 1
-    CanFitShipType1: 3764
-    CanFitShipType2: 45649
-    CapacitorNeed: 32500.0
-    ConsumptionQuantity: 50000
-    ConsumptionType: 17888
-    Cpu: 100.0
-    DamageDelayDuration: 10000
-    DisallowDocking: 1
-    DisallowEarlyDeactivation: 1
-    DisallowInEmpireSpace: 1
-    DisallowRepeatingActivation: 1
-    DisallowTethering: 1
-    DoomsdayAOEShape: 2
-    DoomsdayDamageCycleTime: 1000
-    DoomsdayDamageDuration: 10000
-    DoomsdayDamageRadius: 5000
-    DoomsdayEnergyNeutAmount: 32500
-    DoomsdayEnergyNeutRadius: 10000
-    DoomsdayEnergyNeutResistanceID: 2045
-    DoomsdayEnergyNeutSignatureRadius: 20000
-    DoomsdayImmobilityDuration: 30000
-    DoomsdayNoJumpOrCloakDuration: 300000
-    DoomsdayRangeIsFixed: 1
-    DoomsdayWarningDuration: 10000
-    Duration: 300000.0
-    Hp: 99999
-    IsPointTargeted: 2
-    KineticDamage: 100000.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MaxRange: 150000
-    Power: 100000
-    RequiredSkill1: 24563
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3346
-    RequiredSkill2Level: 1
-    SiegeModeWarpStatus: 100
-    SignatureRadius: 3500
-    SpeedFactor: -100.0
-    TechLevel: 1
-    id: 41442
-    marketGroup: 2268
-    mass: 100.0
-    name: ���Cold Wind’ Kinetic Reaper
     price: 2.40947786E8
     published: true
     volume: 8000.0

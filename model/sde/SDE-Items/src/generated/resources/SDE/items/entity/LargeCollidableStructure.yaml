@@ -554,6 +554,18 @@ items:
     name: Bursar
     published: false
     volume: 1.0E8
+  CONCORD Observatory Overcharge Unit:
+    id: 53046
+    mass: 1000.0
+    name: CONCORD Observatory Overcharge Unit
+    published: false
+    volume: 1000.0
+  CONCORD Stellar Observatory:
+    id: 53047
+    mass: 1000.0
+    name: CONCORD Stellar Observatory
+    published: false
+    volume: 1000.0
   Caldari Barricade:
     id: 16780
     mass: 100000.0
@@ -1512,7 +1524,7 @@ items:
     published: false
     volume: 1.0E8
   Overcharge Node:
-    id: 52700
+    id: 53305
     mass: 1000.0
     name: Overcharge Node
     published: false
@@ -2143,6 +2155,12 @@ items:
     name: Supply Depot_event
     published: false
     volume: 1.0E8
+  Survey Array:
+    id: 53080
+    mass: 100000.0
+    name: Survey Array
+    published: false
+    volume: 1.0E8
   Tough Gallente Starbase Control Tower:
     id: 26737
     mass: 100000.0
@@ -2167,6 +2185,22 @@ items:
     id: 52359
     name: Triglavian Graviton Monitor
     published: false
+  Triglavian Observatory Defense Subpylon:
+    id: 53045
+    name: Triglavian Observatory Defense Subpylon
+    published: false
+  Triglavian Stellar Accelerator:
+    id: 53292
+    mass: 1000.0
+    name: Triglavian Stellar Accelerator
+    published: false
+    volume: 1000.0
+  Triglavian Stellar Observatory:
+    id: 52842
+    mass: 1000.0
+    name: Triglavian Stellar Observatory
+    published: false
+    volume: 1000.0
   Tutorial Fuel Depot:
     id: 3858
     mass: 100000.0
@@ -2215,6 +2249,12 @@ items:
     name: Weakened Sleeper Drone Hangar
     published: false
     volume: 1.0E8
+  Weapon Overcharge Subpylon:
+    id: 52700
+    mass: 1000.0
+    name: Weapon Overcharge Subpylon
+    published: false
+    volume: 1000.0
   Weapon's Storage Facility:
     id: 26240
     mass: 1000000.0

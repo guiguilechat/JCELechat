@@ -7,6 +7,7 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 45492
     marketGroup: 2396
@@ -23,6 +24,7 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46284
     marketGroup: 2396
@@ -39,6 +41,7 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46286
     marketGroup: 2396
@@ -55,6 +58,7 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46282
     marketGroup: 2396
@@ -71,6 +75,7 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46280
     marketGroup: 2396
@@ -87,6 +92,7 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 45493
     marketGroup: 2396
@@ -103,6 +109,7 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46285
     marketGroup: 2396
@@ -119,6 +126,7 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46287
     marketGroup: 2396
@@ -135,6 +143,7 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46283
     marketGroup: 2396
@@ -151,6 +160,7 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46281
     marketGroup: 2396
@@ -167,6 +177,7 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 45491
     marketGroup: 2396
@@ -183,6 +194,7 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 45490
     marketGroup: 2396

@@ -1,0 +1,70 @@
+items:
+  State Navy Basilisk:
+    id: 52935
+    mass: 1.313E7
+    name: State Navy Basilisk
+    price: 1.3340104E7
+    published: false
+    volume: 107000.0
+  State Navy Cerberus:
+    id: 52936
+    mass: 1.272E7
+    name: State Navy Cerberus
+    price: 1.795095E7
+    published: false
+    volume: 92000.0
+  State Navy Drake:
+    id: 52938
+    mass: 1.35E7
+    name: State Navy Drake
+    price: 3.8E7
+    published: false
+    volume: 252000.0
+  State Navy Kirin:
+    id: 52933
+    mass: 1480000.0
+    name: State Navy Kirin
+    price: 2000000.0
+    published: false
+    volume: 20000.0
+  State Navy Kitsune:
+    id: 52932
+    mass: 1228700.0
+    name: State Navy Kitsune
+    price: 2426356.0
+    published: false
+    volume: 19400.0
+  State Navy Phoenix:
+    id: 52965
+    mass: 100000.0
+    name: State Navy Phoenix
+    price: 1.5415511E9
+    published: false
+    volume: 1.625E7
+  State Navy Raptor:
+    id: 52934
+    mass: 1050000.0
+    name: State Navy Raptor
+    published: false
+    volume: 18000.0
+  State Navy Raven:
+    id: 52940
+    mass: 9.73E7
+    name: State Navy Raven
+    price: 1.0875E8
+    published: false
+    volume: 486000.0
+  State Navy Rook:
+    id: 52937
+    mass: 1.273E7
+    name: State Navy Rook
+    price: 1.5001492E7
+    published: false
+    volume: 96000.0
+  State Navy Scorpion:
+    id: 52939
+    mass: 1.036E8
+    name: State Navy Scorpion
+    price: 7.125E7
+    published: false
+    volume: 468000.0

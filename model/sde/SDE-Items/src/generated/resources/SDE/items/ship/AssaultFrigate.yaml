@@ -949,7 +949,7 @@ items:
     MaxLockedTargets: 5
     MaxPassengers: 12
     MaxTargetRange: 38000
-    MaxVelocity: 195.0
+    MaxVelocity: 295.0
     MedSlots: 3
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806

@@ -46,3 +46,9 @@ items:
     name: Vehement Blueprint
     published: true
     volume: 0.01
+  Zirnitra Blueprint:
+    id: 53029
+    name: Zirnitra Blueprint
+    price: 2.0E9
+    published: true
+    volume: 0.01

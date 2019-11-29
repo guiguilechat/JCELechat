@@ -7773,9 +7773,6 @@ usages:
       Nocxium: 40.0
       Zydrine: 18.0
       Megacyte: 4.0
-  Asteroid B UNUSED:
-    reprocess:
-      Chromodynamic Tricarboxyls: 0.04
   Asteroid C UNUSED:
     reprocess:
       Chromodynamic Tricarboxyls: 0.04
@@ -8203,6 +8200,14 @@ usages:
       Tritanium: 0.0054
       Pyerite: 0.0042
       Crystalline Isogen-10: 4.0E-4
+  Baryon Exotic Plasma XL:
+    productManuf: !!set
+      Baryon Exotic Plasma XL Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 0.025
+      Tritanium: 0.0916
+      Pyerite: 0.116
+      Crystalline Isogen-10: 0.001
   Basic Adaptive Nano Plating:
     reprocess:
       Tritanium: 192.0
@@ -12037,6 +12042,11 @@ usages:
       Nocxium: 15823.0
       Zydrine: 4534.0
       Megacyte: 2266.0
+  Capital Absorption Thruster Array:
+    materialManuf: !!set
+      Zirnitra Blueprint: null
+    productManuf: !!set
+      Capital Absorption Thruster Array Blueprint: null
   Capital Algid Energy Administrations Unit I:
     productManuf: !!set
       Capital Algid Energy Administrations Unit I Blueprint: null
@@ -12314,6 +12324,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Armor Plates Blueprint: null
     reprocess:
@@ -12516,6 +12527,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Capacitor Battery Blueprint: null
     reprocess:
@@ -12709,6 +12721,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Computer System Blueprint: null
     reprocess:
@@ -12804,6 +12817,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Construction Parts Blueprint: null
     reprocess:
@@ -12933,6 +12947,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Corporate Hangar Bay Blueprint: null
     reprocess:
@@ -13950,6 +13965,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Jump Drive Blueprint: null
     reprocess:
@@ -14476,6 +14492,11 @@ usages:
       Tungsten Carbide: 2222.0
       Nanotransistors: 11.0
       Hypersynaptic Fibers: 22.0
+  Capital Radiation Conversion Unit:
+    materialManuf: !!set
+      Zirnitra Blueprint: null
+    productManuf: !!set
+      Capital Radiation Conversion Unit Blueprint: null
   Capital Radiative Scoped Remote Capacitor Transmitter:
     productManuf: !!set
       Capital Radiative Scoped Remote Capacitor Transmitter Blueprint: null
@@ -14749,6 +14770,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Sensor Cluster Blueprint: null
     reprocess:
@@ -14847,6 +14869,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Shield Emitter Blueprint: null
     reprocess:
@@ -14944,6 +14967,7 @@ usages:
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Ship Maintenance Bay Blueprint: null
     reprocess:
@@ -14972,6 +14996,7 @@ usages:
       Chemosh Blueprint: null
       Loggerhead Blueprint: null
       Caiman Blueprint: null
+      Zirnitra Blueprint: null
     productManuf: !!set
       Capital Siege Array Blueprint: null
     reprocess:
@@ -15017,6 +15042,11 @@ usages:
   Capital Signal Focusing Kit II Blueprint:
     productInvention: !!set
       Capital Signal Focusing Kit I Blueprint: null
+  Capital Singularity Radiation Convertor:
+    materialManuf: !!set
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
   Capital Solace Scoped Remote Armor Repairer:
     productManuf: !!set
       Capital Solace Scoped Remote Armor Repairer Blueprint: null
@@ -15204,6 +15234,11 @@ usages:
   Capital Trimark Armor Pump II Blueprint:
     productInvention: !!set
       Capital Trimark Armor Pump I Blueprint: null
+  Capital Trinary State Processor:
+    materialManuf: !!set
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
   Capital Tungsten Carbide Armor Plate:
     materialManuf: !!set
       Ark Blueprint: null
@@ -15234,6 +15269,11 @@ usages:
       Nocxium: 2358.0
       Zydrine: 876.0
       Megacyte: 386.0
+  Capital Ultratidal Entropic Mounting:
+    materialManuf: !!set
+      Zirnitra Blueprint: null
+    productManuf: !!set
+      Capital Ultratidal Entropic Mounting Blueprint: null
   Capital Warhead Calefaction Catalyst I:
     productManuf: !!set
       Capital Warhead Calefaction Catalyst I Blueprint: null
@@ -15302,6 +15342,11 @@ usages:
   Capital Warp Core Optimizer II Blueprint:
     productInvention: !!set
       Capital Warp Core Optimizer I Blueprint: null
+  Capital Zero-Point Field Manipulator:
+    materialManuf: !!set
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
   Caracal:
     materialManuf: !!set
       Cerberus Blueprint: null
@@ -21540,6 +21585,12 @@ usages:
       Mid-Grade Mimesis Epsilon Blueprint: null
       Mid-Grade Mimesis Gamma Blueprint: null
       Mid-Grade Mimesis Omega Blueprint: null
+      High-Grade Mimesis Alpha Blueprint: null
+      High-Grade Mimesis Beta Blueprint: null
+      High-Grade Mimesis Delta Blueprint: null
+      High-Grade Mimesis Epsilon Blueprint: null
+      High-Grade Mimesis Gamma Blueprint: null
+      High-Grade Mimesis Omega Blueprint: null
   Cryptic Data Interface:
     productManuf: !!set
       Cryptic Data Interface Blueprint: null
@@ -21705,6 +21756,13 @@ usages:
       Veles Light Entropic Disintegrator Blueprint: null
       Veles Heavy Entropic Disintegrator Blueprint: null
       Veles Supratidal Entropic Disintegrator Blueprint: null
+      Ultratidal Entropic Disintegrator I Blueprint: null
+      Baryon Exotic Plasma XL Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
+      Tetryon Exotic Plasma XL Blueprint: null
+      Meson Exotic Plasma XL Blueprint: null
   Cthonic Attar:
     reprocess:
       Chromodynamic Tricarboxyls: 0.04
@@ -37647,6 +37705,9 @@ usages:
       Pyerite: 1287.0
       Mexallon: 1199.0
       Megacyte: 2.0
+  Heavy Cthonic Attar:
+    reprocess:
+      Chromodynamic Tricarboxyls: 0.04
   Heavy Diminishing Power System Drain I:
     reprocess:
       Tritanium: 10952.0
@@ -38516,6 +38577,60 @@ usages:
   Hiemal Tricarboxyl Vapor:
     reprocess:
       Chromodynamic Tricarboxyls: 0.06666666666666667
+  High-Grade Mimesis Alpha:
+    productManuf: !!set
+      High-Grade Mimesis Alpha Blueprint: null
+    reprocess:
+      Morphite: 35.0
+      Trinary State Processor: 88.0
+      Synthetic Synapses: 236.0
+      Lattice Locked Dekaisogen: 30.0
+      Cryoprotectant Solution: 259.0
+  High-Grade Mimesis Beta:
+    productManuf: !!set
+      High-Grade Mimesis Beta Blueprint: null
+    reprocess:
+      Morphite: 37.0
+      Trinary State Processor: 92.0
+      Synthetic Synapses: 248.0
+      Lattice Locked Dekaisogen: 32.0
+      Cryoprotectant Solution: 272.0
+  High-Grade Mimesis Delta:
+    productManuf: !!set
+      High-Grade Mimesis Delta Blueprint: null
+    reprocess:
+      Morphite: 40.0
+      Trinary State Processor: 101.0
+      Synthetic Synapses: 272.0
+      Lattice Locked Dekaisogen: 35.0
+      Cryoprotectant Solution: 298.0
+  High-Grade Mimesis Epsilon:
+    productManuf: !!set
+      High-Grade Mimesis Epsilon Blueprint: null
+    reprocess:
+      Morphite: 42.0
+      Trinary State Processor: 105.0
+      Synthetic Synapses: 284.0
+      Lattice Locked Dekaisogen: 37.0
+      Cryoprotectant Solution: 311.0
+  High-Grade Mimesis Gamma:
+    productManuf: !!set
+      High-Grade Mimesis Gamma Blueprint: null
+    reprocess:
+      Morphite: 38.0
+      Trinary State Processor: 96.0
+      Synthetic Synapses: 260.0
+      Lattice Locked Dekaisogen: 33.0
+      Cryoprotectant Solution: 285.0
+  High-Grade Mimesis Omega:
+    productManuf: !!set
+      High-Grade Mimesis Omega Blueprint: null
+    reprocess:
+      Morphite: 104.0
+      Trinary State Processor: 263.0
+      Synthetic Synapses: 709.0
+      Lattice Locked Dekaisogen: 91.0
+      Cryoprotectant Solution: 776.0
   High-Tech Data Chip:
     materialManuf: !!set
       Ligature Integrated Analyzer Blueprint: null
@@ -43093,7 +43208,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr��� Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -43220,6 +43335,10 @@ usages:
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
       Industrial Cynosural Field Generator Blueprint: null
+      Ultratidal Entropic Disintegrator I Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
   Iteron Inner Zone Shipping Edition:
     reprocess:
       Iteron Mark V: 1.0
@@ -46791,6 +46910,12 @@ usages:
       Mid-Grade Mimesis Epsilon Blueprint: null
       Mid-Grade Mimesis Gamma Blueprint: null
       Mid-Grade Mimesis Omega Blueprint: null
+      High-Grade Mimesis Alpha Blueprint: null
+      High-Grade Mimesis Beta Blueprint: null
+      High-Grade Mimesis Delta Blueprint: null
+      High-Grade Mimesis Epsilon Blueprint: null
+      High-Grade Mimesis Gamma Blueprint: null
+      High-Grade Mimesis Omega Blueprint: null
   Launcher Processor Rig I:
     reprocess:
       Burned Logic Circuit: 111.0
@@ -53372,7 +53497,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr��� Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -53477,6 +53602,10 @@ usages:
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
       Industrial Cynosural Field Generator Blueprint: null
+      Ultratidal Entropic Disintegrator I Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
@@ -53639,6 +53768,14 @@ usages:
       Tritanium: 0.0054
       Pyerite: 0.0042
       Crystalline Isogen-10: 4.0E-4
+  Meson Exotic Plasma XL:
+    productManuf: !!set
+      Meson Exotic Plasma XL Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 0.025
+      Tritanium: 0.0916
+      Pyerite: 0.116
+      Crystalline Isogen-10: 0.001
   Metal Scraps:
     reprocess:
       Tritanium: 500.0
@@ -54626,7 +54763,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr��� Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -54734,6 +54871,10 @@ usages:
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
       Industrial Cynosural Field Generator Blueprint: null
+      Ultratidal Entropic Disintegrator I Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
   Miasmos:
     productManuf: !!set
       Miasmos Blueprint: null
@@ -58316,6 +58457,12 @@ usages:
       Mid-Grade Mimesis Epsilon Blueprint: null
       Mid-Grade Mimesis Gamma Blueprint: null
       Mid-Grade Mimesis Omega Blueprint: null
+      High-Grade Mimesis Alpha Blueprint: null
+      High-Grade Mimesis Beta Blueprint: null
+      High-Grade Mimesis Delta Blueprint: null
+      High-Grade Mimesis Epsilon Blueprint: null
+      High-Grade Mimesis Gamma Blueprint: null
+      High-Grade Mimesis Omega Blueprint: null
   Motley Compound:
     reprocess:
       Isogen: 40.0
@@ -60210,7 +60357,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr��� Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -60326,6 +60473,9 @@ usages:
       Rodiva Blueprint: null
       Structure EXERT Conduit Coupler Blueprint: null
       Industrial Cynosural Field Generator Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
   Noir. Modified Entosis Link:
     productManuf: !!set
       Noir. Modified Entosis Link Blueprint: null
@@ -66405,7 +66555,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr��� Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -66524,6 +66674,13 @@ usages:
       Heavy Mutadaptive Compact Remote Armor Repairer Blueprint: null
       Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: null
       Industrial Cynosural Field Generator Blueprint: null
+      Ultratidal Entropic Disintegrator I Blueprint: null
+      Baryon Exotic Plasma XL Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
+      Tetryon Exotic Plasma XL Blueprint: null
+      Meson Exotic Plasma XL Blueprint: null
   Pyroxeres:
     reprocess:
       Tritanium: 3.51
@@ -88771,6 +88928,12 @@ usages:
       Mid-Grade Mimesis Epsilon Blueprint: null
       Mid-Grade Mimesis Gamma Blueprint: null
       Mid-Grade Mimesis Omega Blueprint: null
+      High-Grade Mimesis Alpha Blueprint: null
+      High-Grade Mimesis Beta Blueprint: null
+      High-Grade Mimesis Delta Blueprint: null
+      High-Grade Mimesis Epsilon Blueprint: null
+      High-Grade Mimesis Gamma Blueprint: null
+      High-Grade Mimesis Omega Blueprint: null
   System Scanner I:
     reprocess:
       Tritanium: 1111.0
@@ -90174,6 +90337,14 @@ usages:
       Tritanium: 0.0054
       Pyerite: 0.0042
       Crystalline Isogen-10: 4.0E-4
+  Tetryon Exotic Plasma XL:
+    productManuf: !!set
+      Tetryon Exotic Plasma XL Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 0.025
+      Tritanium: 0.0916
+      Pyerite: 0.116
+      Crystalline Isogen-10: 0.001
   Thalia:
     productManuf: !!set
       Thalia Blueprint: null
@@ -91373,6 +91544,12 @@ usages:
       Mid-Grade Mimesis Epsilon Blueprint: null
       Mid-Grade Mimesis Gamma Blueprint: null
       Mid-Grade Mimesis Omega Blueprint: null
+      High-Grade Mimesis Alpha Blueprint: null
+      High-Grade Mimesis Beta Blueprint: null
+      High-Grade Mimesis Delta Blueprint: null
+      High-Grade Mimesis Epsilon Blueprint: null
+      High-Grade Mimesis Gamma Blueprint: null
+      High-Grade Mimesis Omega Blueprint: null
   Triple Neutron Blaster Cannon I:
     materialManuf: !!set
       Regulated Compact Triple Neutron Blaster Cannon Blueprint: null
@@ -92679,7 +92856,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr��� Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -92820,6 +92997,13 @@ usages:
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
       Industrial Cynosural Field Generator Blueprint: null
+      Ultratidal Entropic Disintegrator I Blueprint: null
+      Baryon Exotic Plasma XL Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
+      Tetryon Exotic Plasma XL Blueprint: null
+      Meson Exotic Plasma XL Blueprint: null
   True Sansha Adaptive Nano Plating:
     reprocess:
       Tritanium: 806.0
@@ -94366,6 +94550,17 @@ usages:
       Tritanium: 10000.0
       Isogen: 1.0
       Megacyte: 10.0
+  Ultratidal Entropic Disintegrator I:
+    productManuf: !!set
+      Ultratidal Entropic Disintegrator I Blueprint: null
+    reprocess:
+      Tritanium: 2452300.0
+      Pyerite: 808817.0
+      Mexallon: 296600.0
+      Isogen: 48300.0
+      Nocxium: 13807.0
+      Zydrine: 4946.0
+      Megacyte: 2100.0
   Ultraviolet L:
     productManuf: !!set
       Ultraviolet L Blueprint: null
@@ -98315,6 +98510,13 @@ usages:
       Veles Light Entropic Disintegrator Blueprint: null
       Veles Heavy Entropic Disintegrator Blueprint: null
       Veles Supratidal Entropic Disintegrator Blueprint: null
+      Ultratidal Entropic Disintegrator I Blueprint: null
+      Baryon Exotic Plasma XL Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
+      Tetryon Exotic Plasma XL Blueprint: null
+      Meson Exotic Plasma XL Blueprint: null
   Zero-Point Field Manipulator:
     materialManuf: !!set
       Zarmazd Blueprint: null
@@ -98349,6 +98551,19 @@ usages:
       Hafnium: 0.5
       Silicates: 0.15
       Titanium: 0.1
+  Zirnitra:
+    productManuf: !!set
+      Zirnitra Blueprint: null
+    reprocess:
+      Zero-Point Condensate: 850.0
+      Tritanium: 1.1716296E7
+      Pyerite: 2930004.0
+      Mexallon: 733304.0
+      Isogen: 186361.0
+      Nocxium: 45699.0
+      Zydrine: 21186.0
+      Crystalline Isogen-10: 730.0
+      Megacyte: 6575.0
   Zor's Custom Navigation Hyper-Link:
     reprocess:
       Nocxium: 2.0
@@ -99032,7 +99247,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr��� Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -99138,6 +99353,9 @@ usages:
       ML-EKP 'Polybolos' Ballistic Control System Blueprint: null
       Frostline 'Omnivore' Harvester Upgrade Blueprint: null
       Industrial Cynosural Field Generator Blueprint: null
+      Capital Ultratidal Entropic Mounting Blueprint: null
+      Capital Radiation Conversion Unit Blueprint: null
+      Capital Absorption Thruster Array Blueprint: null
   testArmorMod_PLACEHOLDER:
     reprocess:
       Tritanium: 12461.0
@@ -99165,6 +99383,17 @@ usages:
       Sustained Shield Emitter: 8.0
       Morphite: 11.0
       Superconductors: 15.0
+  ‘Cold Wind’ Kinetic Reaper:
+    productManuf: !!set
+      ‘Cold Wind’ Kinetic Reaper Blueprint: null
+    reprocess:
+      Tritanium: 1870088.0
+      Pyerite: 1188818.0
+      Mexallon: 459131.0
+      Isogen: 281014.0
+      Nocxium: 334137.0
+      Zydrine: 42474.0
+      Megacyte: 48231.0
   ‘Divine Harvest’ Electromagnetic Reaper:
     productManuf: !!set
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
@@ -99222,7 +99451,7 @@ usages:
       Megacyte: 46295.0
   ‘Jormungandr’ Explosive Reaper:
     productManuf: !!set
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr��� Explosive Reaper Blueprint: null
     reprocess:
       Tritanium: 1650078.0
       Pyerite: 1360078.0
@@ -99275,10 +99504,10 @@ usages:
   地狱天使级YC117年特别版:
     reprocess:
       Abaddon: 1.0
-  多��尼克斯级YC117年特别版:
+  多米尼克斯级YC117年特别版:
     reprocess:
       Dominix: 1.0
-  幼龙级YC117年特别版:
+  幼龙级YC117年���别版:
     reprocess:
       Drake: 1.0
   末日沙场级YC117年特别版:
@@ -99296,14 +99525,3 @@ usages:
   马克瑞级YC117年特别版:
     reprocess:
       Machariel: 1.0
-  ���Cold Wind’ Kinetic Reaper:
-    productManuf: !!set
-      ‘Cold Wind’ Kinetic Reaper Blueprint: null
-    reprocess:
-      Tritanium: 1870088.0
-      Pyerite: 1188818.0
-      Mexallon: 459131.0
-      Isogen: 281014.0
-      Nocxium: 334137.0
-      Zydrine: 42474.0
-      Megacyte: 48231.0

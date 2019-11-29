@@ -109,7 +109,7 @@ items:
     CapacitorNeed: 32.0
     Cpu: 28.0
     DisallowRepeatingActivation: 1
-    Duration: 13000.0
+    Duration: 11700.0
     Hp: 40
     HullEmDamageResonance: 0.699999988079071
     HullExplosiveDamageResonance: 0.699999988079071
@@ -142,7 +142,7 @@ items:
     CapacitorNeed: 35.0
     Cpu: 35.0
     DisallowRepeatingActivation: 1
-    Duration: 15000.0
+    Duration: 13500.0
     Hp: 40
     HullEmDamageResonance: 0.6000000238418579
     HullExplosiveDamageResonance: 0.6000000238418579
@@ -456,7 +456,7 @@ items:
     CapacitorNeed: 32.0
     Cpu: 24.0
     DisallowRepeatingActivation: 1
-    Duration: 13000.0
+    Duration: 11700.0
     Hp: 40
     HullEmDamageResonance: 0.699999988079071
     HullExplosiveDamageResonance: 0.699999988079071
@@ -489,7 +489,7 @@ items:
     CapacitorNeed: 26.0
     Cpu: 28.0
     DisallowRepeatingActivation: 1
-    Duration: 13000.0
+    Duration: 11700.0
     Hp: 40
     HullEmDamageResonance: 0.699999988079071
     HullExplosiveDamageResonance: 0.699999988079071
@@ -605,7 +605,7 @@ items:
     CapacitorNeed: 30.0
     Cpu: 24.0
     DisallowRepeatingActivation: 1
-    Duration: 16000.0
+    Duration: 14400.0
     Hp: 40
     HullEmDamageResonance: 0.6000000238418579
     HullExplosiveDamageResonance: 0.6000000238418579

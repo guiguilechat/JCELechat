@@ -43,9 +43,9 @@ public class ShowAttributes {
 		// agent cruor
 		// showEntity(34144);
 		// base angel escort dramiel
-		// showEntity(35689);
+		showEntity(35689);
 		// dire pithum mortifier
-		showEntity(24095);
+		// showEntity(24095);
 
 		// diamond arbitrator
 		// showEntity(43559);

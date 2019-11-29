@@ -225,7 +225,7 @@ items:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
     RequiredSkill1: 3436
-    RequiredSkill1Level: 3
+    RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 1
     id: 24241

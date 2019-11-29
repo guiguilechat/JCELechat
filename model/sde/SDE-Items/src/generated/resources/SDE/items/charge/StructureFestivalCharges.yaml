@@ -9,8 +9,6 @@ items:
     LauncherGroup: 1974
     MaxVelocity: 2000.0
     MissileNeverDoesDamage: 1
-    RequiredSkill1Level: 1
-    RequiredSkill2Level: 1
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
@@ -30,8 +28,6 @@ items:
     LauncherGroup: 1974
     MaxVelocity: 2000.0
     MissileNeverDoesDamage: 1
-    RequiredSkill1Level: 1
-    RequiredSkill2Level: 1
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1

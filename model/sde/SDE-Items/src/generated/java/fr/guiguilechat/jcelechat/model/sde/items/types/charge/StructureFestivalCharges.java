@@ -95,20 +95,6 @@ public class StructureFestivalCharges
     @DefaultIntValue(0)
     public int MissileNeverDoesDamage;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      */
     @HighIsGood(false)
@@ -178,14 +164,6 @@ public class StructureFestivalCharges
             case  1075 :
             {
                 return MissileNeverDoesDamage;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
-            }
-            case  278 :
-            {
-                return RequiredSkill2Level;
             }
             case  204 :
             {

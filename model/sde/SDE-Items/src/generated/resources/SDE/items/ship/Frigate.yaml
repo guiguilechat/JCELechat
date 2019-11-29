@@ -1086,7 +1086,7 @@ items:
     ShipBonusGF: 7.5
     ShipBonusMF: 10.0
     ShipBonusRole7: 100.0
-    ShipRoleBonusWarpSpeed: 50
+    ShipRoleBonusWarpSpeed: 25
     SignatureRadius: 30
     StructureUniformity: 1.0
     TechLevel: 1
@@ -2918,6 +2918,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
+    ShipBonusMF: -5.0
     ShipBonusMF2: 10.0
     SignatureRadius: 35
     StructureUniformity: 1.0
@@ -3364,6 +3365,7 @@ items:
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
     CapacitorCapacity: 250.0
+    ConsumptionQuantityBonusPercentage: -50
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 240
     DroneBandwidth: 10

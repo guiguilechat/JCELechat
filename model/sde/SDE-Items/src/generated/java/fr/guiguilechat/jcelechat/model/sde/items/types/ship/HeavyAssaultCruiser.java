@@ -29,8 +29,8 @@ public class HeavyAssaultCruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int EliteBonusHeavyGunship1;
+    @DefaultDoubleValue(0.0)
+    public double EliteBonusHeavyGunship1;
     /**
      * 
      */

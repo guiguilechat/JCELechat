@@ -17,6 +17,12 @@ items:
     price: 50000.0
     published: true
     volume: 0.01
+  Baryon Exotic Plasma XL Blueprint:
+    id: 53031
+    name: Baryon Exotic Plasma XL Blueprint
+    price: 3.0E7
+    published: true
+    volume: 0.01
   Meson Exotic Plasma L Blueprint:
     id: 48109
     name: Meson Exotic Plasma L Blueprint
@@ -35,6 +41,12 @@ items:
     price: 40000.0
     published: true
     volume: 0.01
+  Meson Exotic Plasma XL Blueprint:
+    id: 53304
+    name: Meson Exotic Plasma XL Blueprint
+    price: 400000.0
+    published: true
+    volume: 0.01
   Tetryon Exotic Plasma L Blueprint:
     id: 48107
     name: Tetryon Exotic Plasma L Blueprint
@@ -51,5 +63,11 @@ items:
     id: 48097
     name: Tetryon Exotic Plasma S Blueprint
     price: 100000.0
+    published: true
+    volume: 0.01
+  Tetryon Exotic Plasma XL Blueprint:
+    id: 53303
+    name: Tetryon Exotic Plasma XL Blueprint
+    price: 1000000.0
     published: true
     volume: 0.01

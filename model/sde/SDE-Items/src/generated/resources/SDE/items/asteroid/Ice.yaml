@@ -5,6 +5,7 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28627
     mass: 1000.0
@@ -21,6 +22,7 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 16264
     marketGroup: 1855
@@ -38,6 +40,7 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 16262
     marketGroup: 1855
@@ -53,6 +56,7 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28433
     marketGroup: 1855
@@ -68,6 +72,7 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28434
     marketGroup: 1855
@@ -83,6 +88,7 @@ items:
     OreBasicType: 16267
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28435
     marketGroup: 1855
@@ -98,6 +104,7 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28436
     marketGroup: 1855
@@ -113,6 +120,7 @@ items:
     OreBasicType: 16268
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28437
     marketGroup: 1855
@@ -128,6 +136,7 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28438
     marketGroup: 1855
@@ -143,6 +152,7 @@ items:
     OreBasicType: 16266
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28439
     marketGroup: 1855
@@ -158,6 +168,7 @@ items:
     OreBasicType: 16269
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28440
     marketGroup: 1855
@@ -173,6 +184,7 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28441
     marketGroup: 1855
@@ -188,6 +200,7 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28442
     marketGroup: 1855
@@ -203,6 +216,7 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28443
     marketGroup: 1855
@@ -218,6 +232,7 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28444
     marketGroup: 1855
@@ -232,6 +247,7 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28628
     mass: 1000.0
@@ -247,6 +263,7 @@ items:
     OreBasicType: 16267
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 16267
     marketGroup: 1855
@@ -264,6 +281,7 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17978
     marketGroup: 1855
@@ -281,6 +299,7 @@ items:
     OreBasicType: 16268
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 16268
     marketGroup: 1855
@@ -298,6 +317,7 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 16263
     marketGroup: 1855
@@ -315,6 +335,7 @@ items:
     OreBasicType: 16266
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 16266
     marketGroup: 1855
@@ -332,6 +353,7 @@ items:
     OreBasicType: 16269
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 16269
     marketGroup: 1855
@@ -349,6 +371,7 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17976
     marketGroup: 1855
@@ -366,6 +389,7 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17977
     marketGroup: 1855
@@ -383,6 +407,7 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17975
     marketGroup: 1855
@@ -400,6 +425,7 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 16265
     marketGroup: 1855

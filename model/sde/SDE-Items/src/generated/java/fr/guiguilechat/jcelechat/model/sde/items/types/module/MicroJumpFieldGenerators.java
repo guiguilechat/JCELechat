@@ -103,6 +103,13 @@ public class MicroJumpFieldGenerators
     @DefaultIntValue(0)
     public int MjdJumpRange;
     /**
+     * The maximum number of ships that can be jumped per activation
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int MjdShipJumpCap;
+    /**
      * range effected by mjfg scoop
      */
     @HighIsGood(true)
@@ -204,6 +211,10 @@ public class MicroJumpFieldGenerators
             case  2066 :
             {
                 return MjdJumpRange;
+            }
+            case  2832 :
+            {
+                return MjdShipJumpCap;
             }
             case  2067 :
             {

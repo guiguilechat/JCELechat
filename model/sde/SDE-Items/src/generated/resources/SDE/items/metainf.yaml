@@ -625,6 +625,10 @@ group2class:
   entity/PirateDrone: fr.guiguilechat.jcelechat.model.sde.items.types.entity.PirateDrone
   entity/PoliceDrone: fr.guiguilechat.jcelechat.model.sde.items.types.entity.PoliceDrone
   entity/PrecursorCache: fr.guiguilechat.jcelechat.model.sde.items.types.entity.PrecursorCache
+  entity/RetaliatingAmarrEntities: fr.guiguilechat.jcelechat.model.sde.items.types.entity.RetaliatingAmarrEntities
+  entity/RetaliatingCaldariEntities: fr.guiguilechat.jcelechat.model.sde.items.types.entity.RetaliatingCaldariEntities
+  entity/RetaliatingGallenteEntities: fr.guiguilechat.jcelechat.model.sde.items.types.entity.RetaliatingGallenteEntities
+  entity/RetaliatingMinmatarEntities: fr.guiguilechat.jcelechat.model.sde.items.types.entity.RetaliatingMinmatarEntities
   entity/RoamingAngelCartelBattleship: fr.guiguilechat.jcelechat.model.sde.items.types.entity.RoamingAngelCartelBattleship
   entity/RoamingAngelCartelCruiser: fr.guiguilechat.jcelechat.model.sde.items.types.entity.RoamingAngelCartelCruiser
   entity/RoamingAngelCartelFrigate: fr.guiguilechat.jcelechat.model.sde.items.types.entity.RoamingAngelCartelFrigate
@@ -21192,27 +21196,27 @@ id2name:
   34455: Impaired Archive Sentry Tower
   34456: Angel Fence
   34457: 末日沙场级YC117年特别版
-  34458: 末��沙场级YC117年特别版蓝图
+  34458: 末日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
   34461: 马克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
   34464: 响尾蛇级YC117年特别版蓝图
-  34465: 多��尼克斯级YC117年特别版
+  34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
   34469: 乌鸦级YC117年特别版
   34470: 乌鸦级YC117年特别版蓝图
   34471: 灾难级YC117年特别版
-  34472: 灾难级YC117年特别版蓝图
-  34473: 幼龙级YC117年特别版
-  34474: 幼龙级YC117年特别��蓝图
+  34472: 灾难级YC117年特��版蓝图
+  34473: 幼龙级YC117年���别版
+  34474: 幼龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
-  34476: 毒蜥级YC117年特别版蓝图
+  34476: 毒蜥���YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
-  34478: ��鹰级YC117年特别版蓝图
+  34478: 银鹰级YC117年特别版蓝图
   34479: 伊什塔级YC117年特别版
   34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
@@ -23877,7 +23881,7 @@ id2name:
   37889: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
   37892: YC118 Succession Trial Champion’s Decree – House Ardishapur
   37893: YC118 Succession Trial Champion’s Decree – House Kador
-  37894: YC118 Succession Trial Champion’s Decree – House Khanid
+  37894: YC118 Succession Trial Champion���s Decree – House Khanid
   37895: YC118 Succession Trial Champion’s Decree – House Kor-Azor
   37896: YC118 Succession Trial Champion’s Decree – House Sarum
   37897: Apocalypse Ardishapur Serenity Only SKIN (Permanent)
@@ -26918,7 +26922,7 @@ id2name:
   41021: Bifrost Tronhadar Ink Serenity Only SKIN (90 Days)
   41022: Bifrost Tronhadar Ink Serenity Only SKIN (365 Days)
   41023: Convoy Hawk 6 Escort Roster
-  41024: Audio Log Backup �� 115/11/11 A-0477
+  41024: Audio Log Backup – 115/11/11 A-0477
   41025: Audio Log Backup – 117/07/01 G-6640
   41026: Manifest – Cargo 118/01/06 – CLEARENCE 1B
   41027: Secure Comms Uplink ALPHA-6
@@ -27312,7 +27316,7 @@ id2name:
   41439: ‘Iron Pike’ Kinetic Lance
   41440: ‘Phalarica’ Thermal Lance
   41441: ‘Geiravor’ Explosive Lance
-  41442: ���Cold Wind’ Kinetic Reaper
+  41442: ‘Cold Wind’ Kinetic Reaper
   41443: ‘Guillotine’ Thermal Reaper
   41444: ‘Jormungandr’ Explosive Reaper
   41445: ‘Holy Destiny’ Electromagnetic Lance Blueprint
@@ -27321,7 +27325,7 @@ id2name:
   41448: ‘Geiravor’ Explosive Lance Blueprint
   41449: ‘Cold Wind’ Kinetic Reaper Blueprint
   41450: ‘Guillotine’ Thermal Reaper Blueprint
-  41451: ‘Jormungandr’ Explosive Reaper Blueprint
+  41451: ‘Jormungandr��� Explosive Reaper Blueprint
   41452: ‘Divine Harvest’ Electromagnetic Reaper Blueprint
   41456: CONCORD 25000mm Steel Plates
   41457: Dark Blood 25000mm Steel Plates
@@ -29189,12 +29193,12 @@ id2name:
   43555: Shield Command Burst II
   43556: Skirmish Command Burst II
   43557: ♦ Omen
-  43558: ��� Augoror
+  43558: ♦ Augoror
   43559: ♦ Arbitrator
   43560: ♦ Maller
   43561: ♦ Apocalypse
   43562: ♦ Armageddon
-  43563: ♦ Kestrel
+  43563: ��� Kestrel
   43564: ♦ Bantam
   43565: ♦ Condor
   43566: ♦ Merlin
@@ -29228,7 +29232,7 @@ id2name:
   43594: ♦ Tempest
   43595: ♦ Typhoon
   43596: ♦ Punisher
-  43597: ��� Inquisitor
+  43597: ♦ Inquisitor
   43598: ♦ Executioner
   43599: ♦ Crucifier
   43600: ♦ Cruor
@@ -29257,11 +29261,11 @@ id2name:
   43626: ♦ Raven
   43627: ♦ Rattlesnake
   43630: Mini Skill Injector
-  43633: ��� Dramiel
+  43633: ♦ Dramiel
   43634: ♦ Swordspine
   43635: ♦ Fury
   43636: ♦ Medusa
-  43638: ��� Lynx
+  43638: ♦ Lynx
   43640: Empire Civilian Container
   43641: ♦ Cynabal
   43642: ♦ Ixion
@@ -30530,7 +30534,7 @@ id2name:
   45471: ♦ Molok
   45472: ♦ Molok
   45473: ♦ Dagon
-  45474: ��� Chemosh
+  45474: �� Chemosh
   45475: Stratios YC119 SKIN (Permanent)
   45476: Stratios YC119 SKIN (7 Days)
   45477: Stratios YC119 SKIN (30 Days)
@@ -31112,7 +31116,7 @@ id2name:
   46066: ♦ Punisher
   46067: ♦ Omen
   46068: ♦ Harbinger
-  46069: ♦ Apocalypse
+  46069: ��� Apocalypse
   46070: ♦ Merlin
   46071: ♦ Caracal
   46072: ♦ Drake
@@ -33590,7 +33594,7 @@ id2name:
   48906: Decimator Alvi
   48907: Render Alvi
   48916: Cthonic Attar
-  48917: Asteroid B UNUSED
+  48917: Heavy Cthonic Attar
   48918: Asteroid C UNUSED
   48919: Asteroid D UNUSED
   48920: Cthonic Attar Cluster
@@ -34785,8 +34789,8 @@ id2name:
   52697: Nergal Niflhel Gildclaw SKIN (Permanent)
   52698: Draugur Niflhel Gildclaw SKIN (Permanent)
   52699: Ikitursa Niflhel Gildclaw SKIN (Permanent)
-  52700: Overcharge Node
-  52701: TestDread
+  52700: Weapon Overcharge Subpylon
+  52701: Liminal Zirnitra
   52703: Worm Aetheric Raiders SKIN (Permanent)
   52704: Gila Aetheric Raiders SKIN (Permanent)
   52705: Rattlesnake Aetheric Raiders SKIN (Permanent)
@@ -34897,8 +34901,8 @@ id2name:
   52810: Basic 'Synapse' Overmind Accelerator
   52811: Standard 'Synapse' Overmind Accelerator
   52812: Extended 'Synapse' Overmind Accelerator
-  52813: Standard 'Canicule' Cerebral Accelerator
-  52814: Extended 'Canicule' Cerebral Accelerator
+  52813: Expired Cerebral Accelerator
+  52814: Expired Cerebral Accelerator
   52815: TestDreadFriendly
   52818: Basic 'Equality' Cerebral Accelerator Blueprint
   52819: Standard 'Equality' Cerebral Accelerator Blueprint
@@ -34915,10 +34919,12 @@ id2name:
   52830: Basic 'Synapse' Overmind Accelerator Blueprint
   52831: Standard 'Synapse' Overmind Accelerator Blueprint
   52832: Extended 'Synapse' Overmind Accelerator Blueprint
-  52833: Rogue Drone Infested Abaddon
-  52834: Rogue Drone Infested Dominix
-  52835: Rogue Drone Infested Raven
-  52836: Rogue Drone Infested Typhoon
+  52833: 'Swarm Overmind #0102'
+  52834: 'Swarm Overmind #0415'
+  52835: 'Swarm Overmind #1801'
+  52836: 'Swarm Overmind #2025'
+  52841: TestSpawner
+  52842: Triglavian Stellar Observatory
   52844: Breacher Snowline Bladeracer SKIN (Permanent)
   52845: Burst Snowline Bladeracer SKIN (Permanent)
   52846: Probe Snowline Bladeracer SKIN (Permanent)
@@ -34978,7 +34984,76 @@ id2name:
   52900: Fenrir Snowline Bladeracer SKIN (Permanent)
   52901: Nomad Snowline Bladeracer SKIN (Permanent)
   52902: Lif Snowline Bladeracer SKIN (Permanent)
+  52907: Zirnitra
+  52915: Ultratidal Entropic Disintegrator I
+  52916: Baryon Exotic Plasma XL
+  52917: High-Grade Mimesis Alpha
+  52918: High-Grade Mimesis Beta
+  52919: High-Grade Mimesis Delta
+  52920: High-Grade Mimesis Epsilon
+  52921: High-Grade Mimesis Gamma
+  52922: High-Grade Mimesis Omega
+  52923: Imperial Navy Sentinel
+  52924: Imperial Navy Deacon
+  52925: Imperial Navy Crusader
+  52926: Imperial Navy Guardian
+  52927: Imperial Navy Zealot
+  52928: Imperial Navy Pilgrim
+  52929: Imperial Navy Harbinger
+  52930: Imperial Navy Armageddon
+  52931: Imperial Navy Apocalypse
+  52932: State Navy Kitsune
+  52933: State Navy Kirin
+  52934: State Navy Raptor
+  52935: State Navy Basilisk
+  52936: State Navy Cerberus
+  52937: State Navy Rook
+  52938: State Navy Drake
+  52939: State Navy Scorpion
+  52940: State Navy Raven
+  52941: Federal Navy Keres
+  52947: Federal Navy Thalia
+  52948: Federal Navy Taranis
+  52949: Federal Navy Oneiros
+  52950: Federal Navy Deimos
+  52951: Federal Navy Lachesis
+  52952: Federal Navy Brutix
+  52953: Federal Navy Dominix
+  52954: Federal Navy Megathron
+  52955: Republic Fleet Hyena
+  52956: Republic Fleet Scalpel
+  52957: Republic Fleet Claw
+  52958: Republic Fleet Scimitar
+  52959: Republic Fleet Muninn
+  52960: Republic Fleet Huginn
+  52961: Republic Fleet Hurricane
+  52962: Republic Fleet Typhoon
+  52963: Republic Fleet Tempest
+  52964: Imperial Navy Revelation
+  52965: State Navy Phoenix
+  52966: Federal Navy Moros
+  52967: Republic Fleet Naglfar
+  52972: High-Grade Mimesis Alpha Blueprint
+  52974: High-Grade Mimesis Beta Blueprint
+  52975: High-Grade Mimesis Delta Blueprint
+  52976: High-Grade Mimesis Epsilon Blueprint
+  52977: High-Grade Mimesis Gamma Blueprint
+  52978: High-Grade Mimesis Omega Blueprint
+  52981: Triglavian Gate Spawner
+  52982: Triglavian Pocket Spawner
+  52983: Triglavian Dread Wave Spawner
+  52984: Triglavian Structure Wave Spawner
+  52985: Triglavian Dread Spawner
+  52986: Empire Gate Spawner
+  52987: Empire Pocket Spawner
+  52988: Empire Dread Wave Spawner
+  52989: Empire Structure Wave Spawner
+  52990: Empire Dread Spawner
+  52991: Empire Friendly Dread Spawner
+  52992: Trig Friendly Dread Spawner
   52996: InterStellar Kredits (ISK)
+  52997: Precursor Dreadnought
+  52998: Capital Precursor Weapon
   53007: Damnation Malagrin Marshlight SKIN (Permanent)
   53008: Paladin Malagrin Marshlight SKIN (Permanent)
   53009: Avatar Malagrin Marshlight SKIN (Permanent)
@@ -34997,6 +35072,25 @@ id2name:
   53022: Nergal All-Stars Casino Clash SKIN (Permanent)
   53023: Ikitursa All-Stars Casino Clash SKIN (Permanent)
   53024: Draugur All-Stars Casino Clash SKIN (Permanent)
+  53025: Triglavian Dreadnought Wreck
+  53029: Zirnitra Blueprint
+  53030: Ultratidal Entropic Disintegrator I Blueprint
+  53031: Baryon Exotic Plasma XL Blueprint
+  53032: Capital Ultratidal Entropic Mounting Blueprint
+  53033: Capital Radiation Conversion Unit Blueprint
+  53034: Capital Absorption Thruster Array Blueprint
+  53035: Capital Ultratidal Entropic Mounting
+  53036: Capital Radiation Conversion Unit
+  53037: Capital Absorption Thruster Array
+  53038: 53038_Male_Makeup_BodyAugmentations_BodyAugmentation_M01_Types_BodyAugmentationM01_Black.png
+  53039: 53039_Male_Makeup_BodyAugmentations_BodyAugmentation_M01_Types_BodyAugmentationM01_Blue.png
+  53040: 53040_Male_Makeup_BodyAugmentations_BodyAugmentation_M01_Types_BodyAugmentationM01_GoldDesign.png
+  53041: 53041_Male_Makeup_BodyAugmentations_BodyAugmentation_M01_Types_BodyAugmentationM01_Red.png
+  53042: 53042_Male_Makeup_BodyAugmentations_BodyAugmentation_M01_Types_BodyAugmentationM01_WhiteDesign.png
+  53043: 53043_Male_Makeup_BodyAugmentations_BodyAugmentation_M01_Types_BodyAugmentationM01_YellowDesign.png
+  53045: Triglavian Observatory Defense Subpylon
+  53046: CONCORD Observatory Overcharge Unit
+  53047: CONCORD Stellar Observatory
   53053: Halloween Horrors Fireworks and Launcher Crate
   53055: Halloween Horrors Astero SKIN
   53056: Halloween Horrors Fireworks Crate
@@ -35004,14 +35098,107 @@ id2name:
   53058: Halloween Horrors Machariel SKIN
   53059: Halloween Horrors Avatar SKIN and Fireworks Crate
   53060: Halloween Horrors Headhunter Cruiser SKINs
+  53068: Triglavian Destroyer Wreck
+  53069: Triglavian Elite Frigate Wreck
+  53070: Triglavian Elite Cruiser Wreck
+  53071: Triglavian Elite Destroyer Wreck
+  53072: Triglavian Battlecruiser Wreck
+  53080: Survey Array
+  53081: Survey Ship
+  53082: Astronavigational Tracking Program
+  53083: Survey Data
+  53084: Drone Hive
+  53085: Supply Cache
+  53086: Drone Lookout
+  53087: Wrecked Prospector Ship
+  53088: Wrecked Battleship
+  53089: Wrecked Dreadnought
+  53090: Wrecked Battleship
   53091: Defensive Ship Module
   53092: Daily Gift 'Overclocker' SB5 Dose II
-  53093: Frigate-Class Starship
+  53093: Frigate Class Starship
   53094: Destroyer Skillbook
-  53095: Destroyer-Class Starship
+  53095: Destroyer Class Starship
   53096: Cruiser Starship Blueprint
   53097: Frigate SKIN
   53098: Destroyer SKIN
+  53129: Apocalypse Abyssal Firestorm SKIN (Permanent)
+  53130: Arbitrator Abyssal Firestorm SKIN (Permanent)
+  53131: Prophecy Abyssal Firestorm SKIN (Permanent)
+  53132: Coercer Abyssal Firestorm SKIN (Permanent)
+  53133: Caracal Abyssal Firestorm SKIN (Permanent)
+  53134: Scorpion Abyssal Firestorm SKIN (Permanent)
+  53135: Drake Abyssal Firestorm SKIN (Permanent)
+  53136: Cormorant Abyssal Firestorm SKIN (Permanent)
+  53137: Thorax Abyssal Firestorm SKIN (Permanent)
+  53138: Megathron Abyssal Firestorm SKIN (Permanent)
+  53140: Algos Abyssal Firestorm SKIN (Permanent)
+  53141: Stabber Abyssal Firestorm SKIN (Permanent)
+  53142: Typhoon Abyssal Firestorm SKIN (Permanent)
+  53143: Hurricane Abyssal Firestorm SKIN (Permanent)
+  53144: Talwar Abyssal Firestorm SKIN (Permanent)
+  53149: Bantam Zento Isideko Combine SKIN (Permanent)
+  53150: Condor Zento Isideko Combine SKIN (Permanent)
+  53151: Griffin Zento Isideko Combine SKIN (Permanent)
+  53152: Heron Zento Isideko Combine SKIN (Permanent)
+  53153: Kestrel Zento Isideko Combine SKIN (Permanent)
+  53154: Merlin Zento Isideko Combine SKIN (Permanent)
+  53155: Harpy Zento Isideko Combine SKIN (Permanent)
+  53156: Hawk Zento Isideko Combine SKIN (Permanent)
+  53157: Buzzard Zento Isideko Combine SKIN (Permanent)
+  53158: Manticore Zento Isideko Combine SKIN (Permanent)
+  53159: Kitsune Zento Isideko Combine SKIN (Permanent)
+  53160: Crow Zento Isideko Combine SKIN (Permanent)
+  53161: Raptor Zento Isideko Combine SKIN (Permanent)
+  53162: Kirin Zento Isideko Combine SKIN (Permanent)
+  53163: Caldari Navy Hookbill Zento Isideko Combine SKIN (Permanent)
+  53164: Griffin Navy Issue Zento Isideko Combine SKIN (Permanent)
+  53165: Corax Zento Isideko Combine SKIN (Permanent)
+  53166: Cormorant Zento Isideko Combine SKIN (Permanent)
+  53167: Stork Zento Isideko Combine SKIN (Permanent)
+  53168: Flycatcher Zento Isideko Combine SKIN (Permanent)
+  53169: Jackdaw Zento Isideko Combine SKIN (Permanent)
+  53170: Blackbird Zento Isideko Combine SKIN (Permanent)
+  53171: Caracal Zento Isideko Combine SKIN (Permanent)
+  53172: Moa Zento Isideko Combine SKIN (Permanent)
+  53173: Osprey Zento Isideko Combine SKIN (Permanent)
+  53174: Cerberus Zento Isideko Combine SKIN (Permanent)
+  53175: Eagle Zento Isideko Combine SKIN (Permanent)
+  53176: Onyx Zento Isideko Combine SKIN (Permanent)
+  53177: Basilisk Zento Isideko Combine SKIN (Permanent)
+  53178: Falcon Zento Isideko Combine SKIN (Permanent)
+  53179: Rook Zento Isideko Combine SKIN (Permanent)
+  53180: Tengu Zento Isideko Combine SKIN (Permanent)
+  53181: Caracal Navy Issue Zento Isideko Combine SKIN (Permanent)
+  53182: Osprey Navy Issue Zento Isideko Combine SKIN (Permanent)
+  53183: Drake Zento Isideko Combine SKIN (Permanent)
+  53184: Ferox Zento Isideko Combine SKIN (Permanent)
+  53185: Naga Zento Isideko Combine SKIN (Permanent)
+  53186: Nighthawk Zento Isideko Combine SKIN (Permanent)
+  53187: Vulture Zento Isideko Combine SKIN (Permanent)
+  53188: Drake Navy Issue Zento Isideko Combine SKIN (Permanent)
+  53189: Raven Zento Isideko Combine SKIN (Permanent)
+  53190: Rokh Zento Isideko Combine SKIN (Permanent)
+  53191: Scorpion Zento Isideko Combine SKIN (Permanent)
+  53192: Widow Zento Isideko Combine SKIN (Permanent)
+  53193: Golem Zento Isideko Combine SKIN (Permanent)
+  53194: Raven Navy Issue Zento Isideko Combine SKIN (Permanent)
+  53195: Scorpion Navy Issue Zento Isideko Combine SKIN (Permanent)
+  53196: Phoenix Zento Isideko Combine SKIN (Permanent)
+  53197: Chimera Zento Isideko Combine SKIN (Permanent)
+  53198: Wyvern Zento Isideko Combine SKIN (Permanent)
+  53199: Leviathan Zento Isideko Combine SKIN (Permanent)
+  53200: Badger Zento Isideko Combine SKIN (Permanent)
+  53201: Tayra Zento Isideko Combine SKIN (Permanent)
+  53202: Crane Zento Isideko Combine SKIN (Permanent)
+  53203: Bustard Zento Isideko Combine SKIN (Permanent)
+  53204: Charon Zento Isideko Combine SKIN (Permanent)
+  53205: Rhea Zento Isideko Combine SKIN (Permanent)
+  53206: Minokawa Zento Isideko Combine SKIN (Permanent)
+  53207: Punisher Harmonious Ascension SKIN (Permanent)
+  53208: Merlin Harmonious Ascension SKIN (Permanent)
+  53209: Incursus Harmonious Ascension SKIN (Permanent)
+  53210: Rifter Harmonious Ascension SKIN (Permanent)
   53217: Merlin Nugoeihuvi SKIN (180 Days)
   53218: Rifter Krusual SKIN (180 Days)
   53219: Punisher Kador SKIN (180 Days)
@@ -35020,7 +35207,62 @@ id2name:
   53222: Thrasher Blue Tiger SKIN (180 Days)
   53223: Coercer Raata Sunset SKIN (180 Days)
   53224: Catalyst Intaki Syndicate SKIN (180 Days)
+  53226: 53226_Female_Makeup_BodyAugmentations_BodyAugmentation_F01_Types_BodyAugmentationF01_Black.png
+  53227: 53227_Female_Makeup_BodyAugmentations_BodyAugmentation_F01_Types_BodyAugmentationF01_Blue.png
+  53228: 53228_Female_Makeup_BodyAugmentations_BodyAugmentation_F01_Types_BodyAugmentationF01_GoldCamo.png
+  53229: 53229_Female_Makeup_BodyAugmentations_BodyAugmentation_F01_Types_BodyAugmentationF01_Red.png
+  53230: 53230_Female_Makeup_BodyAugmentations_BodyAugmentation_F01_Types_BodyAugmentationF01_WhiteCamo.png
+  53231: 53231_Female_Makeup_BodyAugmentations_BodyAugmentation_F01_Types_BodyAugmentationF01_YellowCamo.png
   53232: Fireworks Package
+  53244: Brutix Abyssal Firestorm SKIN (Permanent)
+  53257: Imperial Navy Elite Frigate Wreck
+  53258: Imperial Navy Elite Cruiser Wreck
+  53259: Imperial Navy Battlecruiser Wreck
+  53260: Imperial Navy Battleship Wreck
+  53261: Imperial Navy Dreadnought Wreck
+  53262: State Navy Elite Frigate Wreck
+  53263: State Navy Elite Cruiser Wreck
+  53264: State Navy Battlecruiser Wreck
+  53265: State Navy Battleship Wreck
+  53266: State Navy Dreadnought Wreck
+  53267: Federal Navy Elite Frigate Wreck
+  53268: Federal Navy Elite Cruiser Wreck
+  53269: Federal Navy Battlecruiser Wreck
+  53270: Federal Navy Battleship Wreck
+  53271: Federal Navy Dreadnought Wreck
+  53272: Republic Fleet Elite Frigate Wreck
+  53273: Republic Fleet Elite Cruiser Wreck
+  53274: Republic Fleet Battlecruiser Wreck
+  53275: Republic Fleet Battleship Wreck
+  53276: Republic Fleet Dreadnought Wreck
+  53277: Liminal Zirnitra Wreck
+  53287: Starter Gift Cerebral Accelerator
+  53288: Capital Singularity Radiation Convertor
+  53289: Capital Zero-Point Field Manipulator
+  53290: Capital Trinary State Processor
+  53291: Dreadnought Systems Diagram
+  53292: Triglavian Stellar Accelerator
+  53294: Triglavian Biocombinative Schematic Cache
+  53299: Zirnitra Blueprint Data Vault
+  53300: Stellar Accelerator Wreckage
+  53301: Tetryon Exotic Plasma XL
+  53302: Meson Exotic Plasma XL
+  53303: Tetryon Exotic Plasma XL Blueprint
+  53304: Meson Exotic Plasma XL Blueprint
+  53305: Overcharge Node
+  53306: Overcharge Node Wreck
+  53307: Coercer Harmonious Ascension SKIN (Permanent)
+  53308: Cormorant Harmonious Ascension SKIN (Permanent)
+  53309: Catalyst Harmonious Ascension SKIN (Permanent)
+  53310: Thrasher Harmonious Ascension SKIN (Permanent)
+  53314: Ikitursa Liminal Crossings SKIN (Permanent)
+  53315: Nergal Liminal Crossings SKIN (Permanent)
+  53316: Draugur Liminal Crossings SKIN (Permanent)
+  53320: CONCORD Stellar Observatory Wreck
+  53328: Observatory Assault Conduit
+  53341: Faded Astrometric Chart
+  53342: unnamed_g1975_ic0
+  53390: Liminal Zirnitra
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -39295,6 +39537,7 @@ name2group:
   Alfven Enduring Remote Tracking Computer: module/RemoteTrackingComputer
   Algiophobia Bonus: bonus/PhobiaHandicap
   Algos: ship/Destroyer
+  Algos Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Algos Blueprint: blueprint/DestroyerBlueprint
   Algos Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Algos Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -39997,6 +40240,7 @@ name2group:
   Aortal Purifier: commodity/Commodities
   Apocalypse: ship/Battleship
   Apocalypse 125ms 2500m: entity/PirateDrone
+  Apocalypse Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Apocalypse Ardishapur SKIN (30 Days): skins/Max30DaySKIN
   Apocalypse Ardishapur SKIN (365 Days): skins/Max1YearSKIN
   Apocalypse Ardishapur SKIN (7 Days): skins/Max7DaySKIN
@@ -40108,6 +40352,7 @@ name2group:
   Arbalest Compact XL Torpedo Launcher Blueprint: blueprint/MissileLauncherBlueprint
   Arbiter: infantry/InfantryDropsuits
   Arbitrator: ship/Cruiser
+  Arbitrator Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Arbitrator Ardishapur SKIN (30 Days): skins/Max30DaySKIN
   Arbitrator Ardishapur SKIN (365 Days): skins/Max1YearSKIN
   Arbitrator Ardishapur SKIN (7 Days): skins/Max7DaySKIN
@@ -40498,6 +40743,7 @@ name2group:
   Astrometrics: skill/Scanning
   Astronautic Engineering: skill/Science
   Astronautics Rigging: skill/Rigging
+  Astronavigational Tracking Program: commodity/Commodities
   Asynchronous Fire Control: infantry/InfantryModules
   Athanor: structure/Refinery
   Athanor Blueprint: blueprint/StructureBlueprints
@@ -40663,6 +40909,7 @@ name2group:
   Badger Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Badger Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Badger Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Badger Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Badly Corrupted Holoreel: specialeditionassets/SpecialEditionCommodities
   Badly Mangled Components: commodity/Miscellaneous
   Bag of Counterfeit Credits: commodity/Commodities
@@ -40706,6 +40953,7 @@ name2group:
   Bantam Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Bantam Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Bantam Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Bantam Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Barbed Wire Scanner: commodity/Commodities
   Barbican Alignment Unit 0: entity/SpawnContainer
   Barbican Alignment Unit 1: entity/SpawnContainer
@@ -40769,6 +41017,8 @@ name2group:
   Baryon Exotic Plasma M Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Baryon Exotic Plasma S: charge/ExoticPlasmaCharge
   Baryon Exotic Plasma S Blueprint: blueprint/ExoticPlasmaChargeBlueprint
+  Baryon Exotic Plasma XL: charge/ExoticPlasmaCharge
+  Baryon Exotic Plasma XL Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Base Metals: planetaryresources/PlanetSolidRawResource
   Basic 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
   Basic 120mm Armor Plates: infantry/InfantryModules
@@ -40860,6 +41110,7 @@ name2group:
   Basilisk Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Basilisk Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Basilisk Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Basilisk Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Bastion Master Key: commodity/AccelerationGateKeys
   Bastion Module I: module/SiegeModule
   Bastion Module I Blueprint: blueprint/SiegeModuleBlueprint
@@ -40975,6 +41226,7 @@ name2group:
   Blackbird Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Blackbird Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Blackbird Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Blackbird Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Blaque Voucher: commodity/Miscellaneous
   Blasted Neon Sign: entity/SpawnContainer
   Blasted Neon Sign_mission: entity/DeadspaceOverseerSStructure
@@ -41386,6 +41638,7 @@ name2group:
   Brothel: entity/DeadspaceOverseerSStructure
   Brute Render Alvi: entity/DeadspaceRogueDroneFrigate
   Brutix: ship/CombatBattlecruiser
+  Brutix Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Brutix Blueprint: blueprint/BattlecruiserBlueprint
   Brutix Cordite Blossom SKIN (Permanent): skins/PermanentSKIN
   Brutix Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
@@ -41516,6 +41769,7 @@ name2group:
   Bustard Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Bustard Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Bustard Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Bustard Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Buzzard: ship/CovertOps
   Buzzard Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Buzzard Blueprint: blueprint/FrigateBlueprint
@@ -41526,6 +41780,7 @@ name2group:
   Buzzard Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Buzzard Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Buzzard Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Buzzard Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   C-7 Flux Grenade: infantry/InfantryWeapons
   C-IR Compact Guidance Disruptor: module/WeaponDisruptor
   C-O-1: station/Station
@@ -41577,6 +41832,7 @@ name2group:
   CONCORD MTAC: commodity/Miscellaneous
   CONCORD MTAC Factory: entity/SpawnContainer
   CONCORD Modified Cloaking Device: module/CloakingDevice
+  CONCORD Observatory Overcharge Unit: entity/LargeCollidableStructure
   CONCORD Officer Emblem: commodity/EmpireInsigniaDrops
   CONCORD Panther Emblem: commodity/EmpireInsigniaDrops
   CONCORD Piranha Emblem: commodity/EmpireInsigniaDrops
@@ -41594,6 +41850,7 @@ name2group:
   CONCORD Star Emblem: commodity/EmpireInsigniaDrops
   CONCORD Starship: entity/MissionCONCORDBattleship
   CONCORD Starship Vessel: entity/MissionCONCORDBattleship
+  CONCORD Stellar Observatory: entity/LargeCollidableStructure
   CONCORD Surveillance Drone: entity/MissionDrone
   CONCORD Universal Translator: specialeditionassets/SpecialEditionCommodities
   CONCORD Warp Disruption Field Generator: module/WarpDisruptFieldGenerator
@@ -41924,6 +42181,7 @@ name2group:
   Caldari Navy Hookbill Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Caldari Navy Hookbill Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Caldari Navy Hookbill Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Caldari Navy Hookbill Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Caldari Navy Hornet: drone/CombatDrone
   Caldari Navy Inferno Cruise Missile: charge/CruiseMissile
   Caldari Navy Inferno Heavy Assault Missile: charge/HeavyAssaultMissile
@@ -42139,6 +42397,8 @@ name2group:
   Capacitor Systems Operation: skill/Engineering
   Capital ACM Compact Armor Repairer: module/ArmorRepairUnit
   Capital ACM Compact Armor Repairer Blueprint: blueprint/ArmorRepairUnitBlueprint
+  Capital Absorption Thruster Array: commodity/CapitalConstructionComponents
+  Capital Absorption Thruster Array Blueprint: blueprint/CapitalConstructionBlueprints
   Capital Algid Energy Administrations Unit I: module/RigEnergyWeapon
   Capital Algid Energy Administrations Unit I Blueprint: blueprint/RigBlueprint
   Capital Algid Energy Administrations Unit II: module/RigEnergyWeapon
@@ -42538,6 +42798,7 @@ name2group:
   Capital Powergrid Subroutine Maximizer I Blueprint: blueprint/RigBlueprint
   Capital Powergrid Subroutine Maximizer II: module/RigCore
   Capital Powergrid Subroutine Maximizer II Blueprint: blueprint/RigBlueprint
+  Capital Precursor Weapon: skill/Gunnery
   Capital Processor Overclocking Unit I: module/RigCore
   Capital Processor Overclocking Unit I Blueprint: blueprint/RigBlueprint
   Capital Processor Overclocking Unit II: module/RigCore
@@ -42572,6 +42833,8 @@ name2group:
   Capital Quantum Microprocessor Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
   Capital Radar Sensor Cluster: commodity/AdvancedCapitalConstructionComponents
   Capital Radar Sensor Cluster Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
+  Capital Radiation Conversion Unit: commodity/CapitalConstructionComponents
+  Capital Radiation Conversion Unit Blueprint: blueprint/CapitalConstructionBlueprints
   Capital Radiative Scoped Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
   Capital Radiative Scoped Remote Capacitor Transmitter Blueprint: blueprint/RemoteCapacitorTransmitterBlueprint
   Capital Railgun Specialization: skill/Gunnery
@@ -42649,6 +42912,7 @@ name2group:
   Capital Signal Focusing Kit I Blueprint: blueprint/RigBlueprint
   Capital Signal Focusing Kit II: module/RigScanning
   Capital Signal Focusing Kit II Blueprint: blueprint/RigBlueprint
+  Capital Singularity Radiation Convertor: commodity/ConstructionComponents
   Capital Solace Scoped Remote Armor Repairer: module/RemoteArmorRepairer
   Capital Solace Scoped Remote Armor Repairer Blueprint: blueprint/RemoteArmorRepairerBlueprint
   Capital Stasis Drone Augmentor I: module/RigDrones
@@ -42689,10 +42953,13 @@ name2group:
   Capital Trimark Armor Pump I Blueprint: blueprint/RigBlueprint
   Capital Trimark Armor Pump II: module/RigArmor
   Capital Trimark Armor Pump II Blueprint: blueprint/RigBlueprint
+  Capital Trinary State Processor: commodity/ConstructionComponents
   Capital Tungsten Carbide Armor Plate: commodity/AdvancedCapitalConstructionComponents
   Capital Tungsten Carbide Armor Plate Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
   Capital Turret Hardpoint: commodity/CapitalConstructionComponents
   Capital Turret Hardpoint Blueprint: blueprint/CapitalConstructionBlueprints
+  Capital Ultratidal Entropic Mounting: commodity/CapitalConstructionComponents
+  Capital Ultratidal Entropic Mounting Blueprint: blueprint/CapitalConstructionBlueprints
   Capital Warhead Calefaction Catalyst I: module/RigLauncher
   Capital Warhead Calefaction Catalyst I Blueprint: blueprint/RigBlueprint
   Capital Warhead Calefaction Catalyst II: module/RigLauncher
@@ -42709,6 +42976,7 @@ name2group:
   Capital Warp Core Optimizer I Blueprint: blueprint/RigBlueprint
   Capital Warp Core Optimizer II: module/RigNavigation
   Capital Warp Core Optimizer II Blueprint: blueprint/RigBlueprint
+  Capital Zero-Point Field Manipulator: commodity/ConstructionComponents
   Capped Locus Grenade: infantry/InfantryWeapons
   Capsule Capsuleer Elite XV SKIN (Permanent): skins/PermanentSKIN
   Capsule Palatine SKIN (Permanent): skins/PermanentSKIN
@@ -42745,6 +43013,7 @@ name2group:
   Captured Caldari State Shuttle: entity/MissionCaldariStateFrigate
   Captured Civilians: commodity/Livestock
   Caracal: ship/Cruiser
+  Caracal Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Caracal Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Caracal Blueprint: blueprint/CruiserBlueprint
   Caracal Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
@@ -42763,6 +43032,7 @@ name2group:
   Caracal Navy Issue Octopus Orange Flight SKIN (Permanent): skins/PermanentSKIN
   Caracal Navy Issue Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Caracal Navy Issue Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Caracal Navy Issue Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Caracal Nugoeihuvi SKIN (30 Days): skins/Max30DaySKIN
   Caracal Nugoeihuvi SKIN (365 Days): skins/Max1YearSKIN
   Caracal Nugoeihuvi SKIN (7 Days): skins/Max7DaySKIN
@@ -42786,6 +43056,7 @@ name2group:
   Caracal Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Caracal Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Caracal Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Caracal Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Caravan: entity/Convoy
   Carbide Compact Dual 1000mm Railgun: module/HybridWeapon
   Carbide Compact Dual 1000mm Railgun Blueprint: blueprint/HybridWeaponBlueprint
@@ -42853,6 +43124,7 @@ name2group:
   Catalyst Blueprint: blueprint/DestroyerBlueprint
   Catalyst Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Catalyst Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Catalyst Harmonious Ascension SKIN (Permanent): skins/PermanentSKIN
   Catalyst Inner Zone Shipping SKIN (30 Days): skins/Max30DaySKIN
   Catalyst Inner Zone Shipping SKIN (365 Days): skins/Max1YearSKIN
   Catalyst Inner Zone Shipping SKIN (7 Days): skins/Max7DaySKIN
@@ -43080,6 +43352,7 @@ name2group:
   Cerberus Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Cerberus Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Cerberus Yoiul Festival YC121 SKIN (Permanent): skins/PermanentSKIN
+  Cerberus Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Cerebral Accelerator: implant/Booster
   Cerebral Slice: commodity/Miscellaneous
   Cerebrum In A Container: specialeditionassets/SpecialEditionCommodities
@@ -43136,6 +43409,7 @@ name2group:
   Charon Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Charon Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Charon Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Charon Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Charred Micro Circuit: material/SalvagedMaterials
   Charron: infantry/InfantryVehicles
   'Charron ': infantry/InfantryVehicles
@@ -43224,6 +43498,7 @@ name2group:
   Chimera Spirit SKIN (Permanent): skins/PermanentSKIN
   Chimera Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Chimera Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Chimera Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Chiral Structures: planetarycommodities/BasicCommoditiesTier1
   Chislov Leshak: entity/InvadingPrecursorEntities
   Choiji the Vanquisher: entity/StorylineMissionBattleship
@@ -43367,6 +43642,7 @@ name2group:
   Cobaltite: asteroid/CommonMoonAsteroids
   Coded Research Zone Key: commodity/AccelerationGateKeys
   Coercer: ship/Destroyer
+  Coercer Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Coercer Ardishapur SKIN (30 Days): skins/Max30DaySKIN
   Coercer Ardishapur SKIN (365 Days): skins/Max1YearSKIN
   Coercer Ardishapur SKIN (7 Days): skins/Max7DaySKIN
@@ -43383,6 +43659,7 @@ name2group:
   Coercer EoM SKIN (Permanent): skins/PermanentSKIN
   Coercer Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Coercer Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Coercer Harmonious Ascension SKIN (Permanent): skins/PermanentSKIN
   Coercer Imperial Jubilee SKIN (Permanent): skins/PermanentSKIN
   Coercer Ironblood SKIN (Permanent): skins/PermanentSKIN
   Coercer Luminaire Zenith SKIN (Permanent): skins/PermanentSKIN
@@ -43618,6 +43895,7 @@ name2group:
   Condor Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Condor Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Condor Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Condor Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Conductive Polymer: material/SalvagedMaterials
   Conductive Thermoplastic: material/SalvagedMaterials
   'Conference Center ': entity/MissionContainer
@@ -43707,6 +43985,7 @@ name2group:
   Corax Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Corax Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Corax Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Corax Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Core A-Type 100MN Afterburner: module/PropulsionModule
   Core A-Type 500MN Microwarpdrive: module/PropulsionModule
   Core A-Type Armor EM Hardener: module/ArmorHardener
@@ -43902,6 +44181,7 @@ name2group:
   Cormack's Modified Thermal Plating: module/ArmorCoating
   Cormack's Modified Tracking Computer: module/TrackingComputer
   Cormorant: ship/Destroyer
+  Cormorant Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Cormorant Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Cormorant Blueprint: blueprint/DestroyerBlueprint
   Cormorant Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
@@ -43912,6 +44192,7 @@ name2group:
   Cormorant Guristas SKIN (7 Days): skins/Max7DaySKIN
   Cormorant Guristas SKIN (90 Days): skins/Max90DaySKIN
   Cormorant Guristas SKIN (Permanent): skins/PermanentSKIN
+  Cormorant Harmonious Ascension SKIN (Permanent): skins/PermanentSKIN
   Cormorant IGC SKIN (Permanent): skins/PermanentSKIN
   Cormorant Kimotoro Eskeitan SKIN (Permanent): skins/PermanentSKIN
   Cormorant Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
@@ -43922,6 +44203,7 @@ name2group:
   Cormorant Triglavian Twilight SKIN (Permanent): skins/PermanentSKIN
   Cormorant Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Cormorant Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Cormorant Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Corpatis Bishop: entity/DeadspaceBloodRaidersBattleCruiser
   Corpatis Exorcist: entity/DeadspaceBloodRaidersBattleCruiser
   Corpatis Fanatic: entity/DeadspaceBloodRaidersBattleCruiser
@@ -44147,6 +44429,7 @@ name2group:
   Crane Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Crane Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Crane Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Crane Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Crash: commodity/Drugs
   Crash Ultra: commodity/Commodities
   Crate of Aerogel Counteragent: commodity/Miscellaneous
@@ -44286,6 +44569,7 @@ name2group:
   Crow Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Crow Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Crow Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Crow Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Crown Imperial Firework: charge/FestivalCharges
   Crucifier: ship/Frigate
   Crucifier Blueprint: blueprint/FrigateBlueprint
@@ -45438,6 +45722,7 @@ name2group:
   Drake: ship/CombatBattlecruiser
   Drake & Oracle Argyros SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Drake & Rupture SKIN Crate: specialeditionassets/SpecialEditionCommodities
+  Drake Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Drake Argyros Elite XVI SKIN (Permanent): skins/PermanentSKIN
   Drake Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Drake Blueprint: blueprint/BattlecruiserBlueprint
@@ -45460,6 +45745,7 @@ name2group:
   Drake Navy Issue Octopus Orange Flight SKIN (Permanent): skins/PermanentSKIN
   Drake Navy Issue Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Drake Navy Issue Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Drake Navy Issue Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Drake Octopus Orange Flight SKIN (Permanent): skins/PermanentSKIN
   Drake Octopus Red Flight SKIN (Permanent): skins/PermanentSKIN
   Drake Raata Sunset SKIN (Permanent): skins/PermanentSKIN
@@ -45472,6 +45758,7 @@ name2group:
   Drake Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Drake Triglavian Twilight SKIN (Permanent): skins/PermanentSKIN
   Drake Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Drake Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Dramiel: ship/Frigate
   Dramiel Angel's Hex SKIN (Permanent): skins/PermanentSKIN
   Dramiel Blueprint: blueprint/FrigateBlueprint
@@ -45482,6 +45769,7 @@ name2group:
   Draugur: ship/CommandDestroyer
   Draugur All-Stars Casino Clash SKIN (Permanent): skins/PermanentSKIN
   Draugur Blueprint: blueprint/CommandDestroyerBlueprint
+  Draugur Liminal Crossings SKIN (Permanent): skins/PermanentSKIN
   Draugur Niflhel Gildclaw SKIN (Permanent): skins/PermanentSKIN
   Draugur Singularity Storm SKIN (Permanent): skins/PermanentSKIN
   Drazin Jaruk: entity/MissionGenericCruisers
@@ -45727,6 +46015,7 @@ name2group:
   Dread Pithum Nullifier: entity/DeadspaceGuristasCruiser
   Dread Pithum Silencer: entity/DeadspaceGuristasCruiser
   Dread Pithum Vindicator: entity/DeadspaceOverseerCruiser
+  Dreadnought Systems Diagram: commodity/Commodities
   Drekavac: ship/CombatBattlecruiser
   Drekavac Blackfire Steel SKIN (Permanent): skins/PermanentSKIN
   Drekavac Blueprint: blueprint/BattlecruiserBlueprint
@@ -46029,6 +46318,7 @@ name2group:
   Eagle Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Eagle Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Eagle Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Eagle Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Easter Firework: charge/FestivalCharges
   Echelon: ship/Frigate
   Echelon Blueprint: blueprint/FrigateBlueprint
@@ -46804,6 +47094,7 @@ name2group:
   Faction Booster Minmatar (90-Day): infantry/InfantrySkillEnhancers
   Factory Folder: station/StationServices
   Factory Gatekey: commodity/AccelerationGateKeys
+  Faded Astrometric Chart: specialeditionassets/SpecialEditionCommodities
   Faint Epsilon Scoped Warp Scrambler: module/WarpScrambler
   Faint Scoped Warp Disruptor: module/WarpScrambler
   Fajah Ateshi: commodity/Livestock
@@ -46818,6 +47109,7 @@ name2group:
   Falcon Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Falcon Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Falcon Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Falcon Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Fall of Fort Knocks YC120: specialeditionassets/SpecialEditionCommodities
   Falling Vapor: effects/ParticleSystems
   Famon Gurch: entity/StorylineMissionCruiser
@@ -46834,6 +47126,16 @@ name2group:
   FedNav F.O.F Identifier Tag AC-106V:FNSBR: commodity/AccelerationGateKeys
   Federal Defense Union Scout G-I: infantry/InfantryDropsuits
   Federal Intelligence Officer: commodity/Livestock
+  Federal Navy Brutix: entity/RetaliatingGallenteEntities
+  Federal Navy Deimos: entity/RetaliatingGallenteEntities
+  Federal Navy Dominix: entity/RetaliatingGallenteEntities
+  Federal Navy Keres: entity/RetaliatingGallenteEntities
+  Federal Navy Lachesis: entity/RetaliatingGallenteEntities
+  Federal Navy Megathron: entity/RetaliatingGallenteEntities
+  Federal Navy Moros: entity/RetaliatingGallenteEntities
+  Federal Navy Oneiros: entity/RetaliatingGallenteEntities
+  Federal Navy Taranis: entity/RetaliatingGallenteEntities
+  Federal Navy Thalia: entity/RetaliatingGallenteEntities
   Federal Star of Justice: commodity/Miscellaneous
   Federation 'Atlas' Sentinel: infantry/VisualCustomization
   Federation 'Centurion' Commando: infantry/VisualCustomization
@@ -47204,6 +47506,7 @@ name2group:
   Ferox Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Ferox Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Ferox Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Ferox Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Ferrofluid: material/IntermediateMaterials
   Ferrofluid Reaction Formula: blueprint/CompositeReactionFormulas
   Ferrogel: material/Composite
@@ -47271,6 +47574,7 @@ name2group:
   Flycatcher Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Flycatcher Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Flycatcher Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Flycatcher Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Focused Afocal Medium Maser I: module/EnergyWeapon
   Focused Afocal Pulse Maser I: module/EnergyWeapon
   Focused Anode Medium Particle Stream I: module/EnergyWeapon
@@ -48016,6 +48320,7 @@ name2group:
   Golem Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Golem Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Golem Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Golem Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Gorgon: infantry/InfantryVehicles
   Gorgon - Hatch: infantry/InfantryVehicles
   Gorgon Blueprint: infantry/InfantryVehicles
@@ -48123,10 +48428,12 @@ name2group:
   Griffin Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Griffin Navy Issue Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Griffin Navy Issue Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Griffin Navy Issue Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Griffin Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Griffin Spirit SKIN (Permanent): skins/PermanentSKIN
   Griffin Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Griffin Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Griffin Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Grimsnes: infantry/InfantryVehicles
   Group of Angel Cartel VIPs: commodity/Miscellaneous
   Group of Army Recruits: commodity/Livestock
@@ -48653,6 +48960,7 @@ name2group:
   Harpy Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Harpy Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Harpy Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Harpy Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Harroken Ikero: commodity/Livestock
   Harrowing Damavik: entity/InvadingPrecursorEntities
   Harrowing Kikimora: entity/InvadingPrecursorEntities
@@ -48682,6 +48990,7 @@ name2group:
   Hawk Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Hawk Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Hawk Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Hawk Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Hawker: entity/Convoy
   Hazardous Chemical Silo: starbase/Silo
   Hazardous Chemical Silo Blueprint: blueprint/StarbaseBlueprint
@@ -48957,6 +49266,7 @@ name2group:
   Heron Sukuuvestaa SKIN (Permanent): skins/PermanentSKIN
   Heron Sukuuvestaa SKIN Serenity Only (Permanent): skins/PermanentSKIN
   Heron Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Heron Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Heuristic Selfassemblers: material/AncientSalvage
   Hexa 2500mm Repeating Cannon I: module/ProjectileWeapon
   Hexa 2500mm Repeating Cannon I Blueprint: blueprint/ProjectileWeaponBlueprint
@@ -48975,6 +49285,18 @@ name2group:
   High Roller's Passcard: commodity/AccelerationGateKeys
   High Speed Maneuvering: skill/Navigation
   High-G Tolerance Bonus: bonus/PhysicalBenefit
+  High-Grade Mimesis Alpha: implant/Cyberimplant
+  High-Grade Mimesis Alpha Blueprint: blueprint/ImplantBlueprints
+  High-Grade Mimesis Beta: implant/Cyberimplant
+  High-Grade Mimesis Beta Blueprint: blueprint/ImplantBlueprints
+  High-Grade Mimesis Delta: implant/Cyberimplant
+  High-Grade Mimesis Delta Blueprint: blueprint/ImplantBlueprints
+  High-Grade Mimesis Epsilon: implant/Cyberimplant
+  High-Grade Mimesis Epsilon Blueprint: blueprint/ImplantBlueprints
+  High-Grade Mimesis Gamma: implant/Cyberimplant
+  High-Grade Mimesis Gamma Blueprint: blueprint/ImplantBlueprints
+  High-Grade Mimesis Omega: implant/Cyberimplant
+  High-Grade Mimesis Omega Blueprint: blueprint/ImplantBlueprints
   High-Tech Data Chip: commodity/Miscellaneous
   High-Tech Manufacturing Tools: commodity/Miscellaneous
   High-Tech Scanner: commodity/Miscellaneous
@@ -49185,6 +49507,7 @@ name2group:
   Huriki Vunau: entity/StorylineMissionCruiser
   Hurricane: ship/CombatBattlecruiser
   Hurricane "Blaze" Squadron SKIN (Permanent): skins/PermanentSKIN
+  Hurricane Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Hurricane Bloody Hands SKIN (Permanent): skins/PermanentSKIN
   Hurricane Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Hurricane Blueprint: blueprint/BattlecruiserBlueprint
@@ -49326,6 +49649,7 @@ name2group:
   Ikitursa: ship/HeavyAssaultCruiser
   Ikitursa All-Stars Casino Clash SKIN (Permanent): skins/PermanentSKIN
   Ikitursa Blueprint: blueprint/CruiserBlueprint
+  Ikitursa Liminal Crossings SKIN (Permanent): skins/PermanentSKIN
   Ikitursa Niflhel Gildclaw SKIN (Permanent): skins/PermanentSKIN
   Ikitursa Singularity Storm SKIN (Permanent): skins/PermanentSKIN
   Illian Gara: entity/StorylineMissionBattleship
@@ -49472,8 +49796,8 @@ name2group:
   Imperial Navy Acolyte: drone/CombatDrone
   Imperial Navy Adaptive Nano Plating: module/ArmorCoating
   Imperial Navy Adaptive Nano Plating Blueprint: blueprint/ArmorCoatingBlueprint
-  Imperial Navy Apocalypse: entity/MissionAmarrEmpireBattleship
-  Imperial Navy Armageddon: entity/MissionAmarrEmpireBattleship
+  Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
+  Imperial Navy Armageddon: entity/RetaliatingAmarrEntities
   Imperial Navy Armor EM Hardener: module/ArmorHardener
   Imperial Navy Armor EM Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Imperial Navy Armor Explosive Hardener: module/ArmorHardener
@@ -49492,7 +49816,9 @@ name2group:
   Imperial Navy Colonel Insignia I: commodity/EmpireInsigniaDrops
   Imperial Navy Command Mindlink: implant/CyberLeadership
   Imperial Navy Crucifer: entity/MissionAmarrEmpireFrigate
+  Imperial Navy Crusader: entity/RetaliatingAmarrEntities
   Imperial Navy Curator: drone/CombatDrone
+  Imperial Navy Deacon: entity/RetaliatingAmarrEntities
   Imperial Navy Delta I Support Frigate: entity/MissionAmarrEmpireFrigate
   Imperial Navy Delta II Support Frigate: entity/MissionAmarrEmpireFrigate
   Imperial Navy Detective: entity/MissionAmarrEmpireFrigate
@@ -49534,6 +49860,8 @@ name2group:
   Imperial Navy General: entity/FactionDrone
   Imperial Navy General Insignia I: commodity/EmpireInsigniaDrops
   Imperial Navy General Insignia II: commodity/EmpireInsigniaDrops
+  Imperial Navy Guardian: entity/RetaliatingAmarrEntities
+  Imperial Navy Harbinger: entity/RetaliatingAmarrEntities
   Imperial Navy Heat Sink: module/HeatSink
   Imperial Navy Heat Sink Blueprint: blueprint/HeatSinkBlueprint
   Imperial Navy Heavy Beam Laser: module/EnergyWeapon
@@ -49590,6 +49918,7 @@ name2group:
   Imperial Navy Officer: entity/MissionAmarrEmpireCruiser
   Imperial Navy Omen: entity/MissionAmarrEmpireCruiser
   Imperial Navy Omnidirectional Tracking Enhancer: module/DroneTrackingEnhancer
+  Imperial Navy Pilgrim: entity/RetaliatingAmarrEntities
   Imperial Navy Praetor: drone/CombatDrone
   Imperial Navy Quad Beam Laser: module/EnergyWeapon
   Imperial Navy Radio L: charge/FrequencyCrystal
@@ -49597,7 +49926,9 @@ name2group:
   Imperial Navy Radio S: charge/FrequencyCrystal
   Imperial Navy Raid Leader: entity/MissionAmarrEmpireCruiser
   Imperial Navy Raid Leader Insignia: commodity/EmpireInsigniaDrops
+  Imperial Navy Revelation: entity/RetaliatingAmarrEntities
   Imperial Navy Scout: entity/MissionAmarrEmpireFrigate
+  Imperial Navy Sentinel: entity/RetaliatingAmarrEntities
   Imperial Navy Sergeant: entity/FactionDrone
   Imperial Navy Sergeant Elite Insignia: commodity/EmpireInsigniaDrops
   Imperial Navy Sergeant Insignia I: commodity/EmpireInsigniaDrops
@@ -49640,6 +49971,7 @@ name2group:
   Imperial Navy Xray L: charge/FrequencyCrystal
   Imperial Navy Xray M: charge/FrequencyCrystal
   Imperial Navy Xray S: charge/FrequencyCrystal
+  Imperial Navy Zealot: entity/RetaliatingAmarrEntities
   Imperial Origen: entity/MissionAmarrEmpireBattleship
   Imperial Paladin: entity/MissionAmarrEmpireFrigate
   Imperial R-9 Drop Uplink: infantry/InfantryEquipment
@@ -49750,6 +50082,7 @@ name2group:
   Incursus Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Incursus Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Incursus Glittering Dream SKIN (Permanent): skins/PermanentSKIN
+  Incursus Harmonious Ascension SKIN (Permanent): skins/PermanentSKIN
   Incursus Inner Zone Shipping SKIN (30 Days): skins/Max30DaySKIN
   Incursus Inner Zone Shipping SKIN (365 Days): skins/Max1YearSKIN
   Incursus Inner Zone Shipping SKIN (7 Days): skins/Max7DaySKIN
@@ -50363,6 +50696,7 @@ name2group:
   Jackdaw Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Jackdaw Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Jackdaw Yoiul Festival YC121 SKIN (Permanent): skins/PermanentSKIN
+  Jackdaw Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Jade Lebache: entity/MissionGenericFrigates
   Jaguar: ship/AssaultFrigate
   Jaguar Blue Tiger SKIN (Permanent): skins/PermanentSKIN
@@ -50556,6 +50890,7 @@ name2group:
   Kestrel Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Kestrel Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Kestrel Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Kestrel Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Ketta Tomin2: entity/StorylineMissionCruiser
   Ketta Tommin: entity/StorylineMissionBattleship
   Key To Lord Manel's Mansion: commodity/Commodities
@@ -50697,6 +51032,7 @@ name2group:
   Kirin Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Kirin Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Kirin Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
+  Kirin Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Kitsune: ship/ElectronicAttackShip
   Kitsune Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Kitsune Blueprint: blueprint/FrigateBlueprint
@@ -50707,6 +51043,7 @@ name2group:
   Kitsune Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Kitsune Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Kitsune Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Kitsune Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Knaaninn Aranuri's Rattlesnake: entity/DestructibleAgentsInSpace
   Kois City: entity/DeadspaceOverseerSSentry
   Kois Entry Passcard: commodity/Commodities
@@ -51512,6 +51849,7 @@ name2group:
   Leviathan Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Leviathan Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Leviathan Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Leviathan Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Liberation Elixir: commodity/Commodities
   Liberty Spear Gallente Battleship: entity/HiddenZenithGallenteBattleship
   Liberty Spear Gallente Cruiser: entity/HiddenZenithGallenteCruiser
@@ -51618,6 +51956,7 @@ name2group:
   Liminal Leshak: entity/InvadingPrecursorEntities
   Liminal Rodiva: entity/InvadingPrecursorEntities
   Liminal Vedmak: entity/InvadingPrecursorEntities
+  Liminal Zirnitra: entity/InvadingPrecursorEntities
   Limited 'Anointed' EM Ward Field: module/ShieldHardener
   Limited 'Limos' Heavy Assault Missile Launcher I: module/MissileLauncherHeavyAssault
   Limited 'Limos' Rapid Light Missile Launcher: module/MissileLauncherRapidLight
@@ -52179,6 +52518,7 @@ name2group:
   Manticore Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Manticore Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Manticore Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Manticore Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Mantis I: fighter/HeavyFighter
   Mantis I Blueprint: blueprint/HeavyFighterBlueprint
   Mantis II: fighter/HeavyFighter
@@ -52847,6 +53187,7 @@ name2group:
   Megacorp Management: skill/CorporationManagement
   Megacyte: material/Mineral
   Megathron: ship/Battleship
+  Megathron Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Megathron Blueprint: blueprint/BattleshipBlueprint
   Megathron Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Megathron Federate Issue: ship/Battleship
@@ -53197,6 +53538,7 @@ name2group:
   Merlin Ghostbird SKIN (Permanent): skins/PermanentSKIN
   Merlin Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Merlin Guristas SKIN (Permanent): skins/PermanentSKIN
+  Merlin Harmonious Ascension SKIN (Permanent): skins/PermanentSKIN
   Merlin Headhunter SKIN (Permanent): skins/PermanentSKIN
   Merlin Hunter's Quiver SKIN (Permanent): skins/PermanentSKIN
   Merlin Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
@@ -53217,12 +53559,15 @@ name2group:
   Merlin Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Merlin Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Merlin Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Merlin Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Meson Exotic Plasma L: charge/ExoticPlasmaCharge
   Meson Exotic Plasma L Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Meson Exotic Plasma M: charge/ExoticPlasmaCharge
   Meson Exotic Plasma M Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Meson Exotic Plasma S: charge/ExoticPlasmaCharge
   Meson Exotic Plasma S Blueprint: blueprint/ExoticPlasmaChargeBlueprint
+  Meson Exotic Plasma XL: charge/ExoticPlasmaCharge
+  Meson Exotic Plasma XL Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Message from the Governor: commodity/Miscellaneous
   Metadrones - LM-G-2 - B: entity/SpawnContainer
   Metadrones - LM-G-2 - F: entity/SpawnContainer
@@ -53804,6 +54149,7 @@ name2group:
   Minokawa Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Minokawa Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Minokawa Yoiul Festival YC121 SKIN (Permanent): skins/PermanentSKIN
+  Minokawa Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Missile Bombardment: skill/Missiles
   Missile Guidance Computer I: module/MissileGuidanceComputer
   Missile Guidance Computer I Blueprint: blueprint/MissileGuidanceComputerBlueprint
@@ -53929,6 +54275,7 @@ name2group:
   Moa Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Moa Valkyrie SKIN (Permanent): skins/PermanentSKIN
   Moa Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Moa Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Mobile Cynosural Inhibitor: deployable/MobileCynoInhibitor
   Mobile Cynosural Inhibitor Blueprint: blueprint/MobileCynosuralInhibitorBlueprint
   Mobile Decoy Unit Blueprint: blueprint/MobileDecoyUnitBlueprint
@@ -54207,6 +54554,7 @@ name2group:
   Naga Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Naga Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Naga Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Naga Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Naglfar: ship/Dreadnought
   Naglfar Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Naglfar Blueprint: blueprint/DreadnoughtBlueprint
@@ -54327,6 +54675,7 @@ name2group:
   Nergal: ship/AssaultFrigate
   Nergal All-Stars Casino Clash SKIN (Permanent): skins/PermanentSKIN
   Nergal Blueprint: blueprint/FrigateBlueprint
+  Nergal Liminal Crossings SKIN (Permanent): skins/PermanentSKIN
   Nergal Niflhel Gildclaw SKIN (Permanent): skins/PermanentSKIN
   Nergal Singularity Storm SKIN (Permanent): skins/PermanentSKIN
   Nerve Sticks: commodity/Drugs
@@ -54416,6 +54765,7 @@ name2group:
   Nighthawk Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Nighthawk Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Nighthawk Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Nighthawk Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Nightmare: ship/Battleship
   Nightmare Blueprint: blueprint/BattleshipBlueprint
   Nightmare Glacial Drift SKIN (Permanent): skins/PermanentSKIN
@@ -54840,6 +55190,7 @@ name2group:
   Onyx Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Onyx Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Onyx Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Onyx Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Oofus's Repair Shop: entity/DeadspaceOverseerSStructure
   'Operation Stillwater: Synopsis': commodity/Miscellaneous
   Optical Compact Tracking Computer: module/TrackingComputer
@@ -54982,6 +55333,7 @@ name2group:
   Osprey Navy Issue Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Osprey Navy Issue Vitalshift EGO SKIN (Permanent): skins/PermanentSKIN
   Osprey Navy Issue Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Osprey Navy Issue Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Osprey Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Osprey Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Osprey Wiyrkomi SKIN (30 Days): skins/Max30DaySKIN
@@ -54990,6 +55342,7 @@ name2group:
   Osprey Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Osprey Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Osprey Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Osprey Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Ostingele Tectum: entity/IncursionSanshaSNationBattleship
   Otavite: asteroid/UncommonMoonAsteroids
   Otsalen Mano's Corpse: commodity/Commodities
@@ -55241,6 +55594,7 @@ name2group:
   Phoenix Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Phoenix Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Phoenix Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Phoenix Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Photic Abyssal Overmind: entity/AbyssalSpaceshipEntities
   Photon Microprocessor: commodity/ConstructionComponents
   Photon Microprocessor Blueprint: blueprint/ConstructionComponentBlueprints
@@ -55585,6 +55939,7 @@ name2group:
   Precursor Battleship: skill/SpaceshipCommand
   Precursor Cruiser: skill/SpaceshipCommand
   Precursor Destroyer: skill/SpaceshipCommand
+  Precursor Dreadnought: skill/SpaceshipCommand
   Precursor Frigate: skill/SpaceshipCommand
   Predator Alvior: entity/DeadspaceRogueDroneDestroyer
   Predator Drone: entity/AsteroidRogueDroneDestroyer
@@ -55705,6 +56060,7 @@ name2group:
   Propel Dynamics Propagandist: entity/StorylineMissionCruiser
   Propel Dynamics Reports: commodity/Commodities
   Prophecy: ship/CombatBattlecruiser
+  Prophecy Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Prophecy Blood Raiders SKIN (30 Days): skins/Max30DaySKIN
   Prophecy Blood Raiders SKIN (365 Days): skins/Max1YearSKIN
   Prophecy Blood Raiders SKIN (7 Days): skins/Max7DaySKIN
@@ -55926,6 +56282,7 @@ name2group:
   Punisher EoM SKIN (Permanent): skins/PermanentSKIN
   Punisher Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Punisher Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Punisher Harmonious Ascension SKIN (Permanent): skins/PermanentSKIN
   Punisher Ironblood SKIN (Permanent): skins/PermanentSKIN
   Punisher Kador SKIN (30 Days): skins/Max30DaySKIN
   Punisher Kador SKIN (365 Days): skins/Max1YearSKIN
@@ -56241,6 +56598,7 @@ name2group:
   Raptor Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Raptor Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Raptor Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Raptor Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Rare Moon Ore Mining Crystal I: charge/MiningCrystal
   Rare Moon Ore Mining Crystal I Blueprint: blueprint/MiningCrystalBlueprint
   Rare Moon Ore Mining Crystal II: charge/MiningCrystal
@@ -56298,6 +56656,7 @@ name2group:
   Raven Navy Issue Octopus Orange Flight SKIN (Permanent): skins/PermanentSKIN
   Raven Navy Issue Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Raven Navy Issue Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Raven Navy Issue Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Raven Nugoeihuvi SKIN (30 Days): skins/Max30DaySKIN
   Raven Nugoeihuvi SKIN (365 Days): skins/Max1YearSKIN
   Raven Nugoeihuvi SKIN (7 Days): skins/Max7DaySKIN
@@ -56320,6 +56679,7 @@ name2group:
   Raven Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Raven Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Raven Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Raven Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Raysere Giant: entity/AsteroidBloodRaidersOfficer
   Raysere Giant's Tag: commodity/CriminalTags
   Raysere's Modified Adaptive Nano Plating: module/ArmorCoating
@@ -56627,6 +56987,7 @@ name2group:
   Republic Fleet Carbonized Lead M: charge/ProjectileAmmo
   Republic Fleet Carbonized Lead S: charge/ProjectileAmmo
   Republic Fleet Carbonized Lead XL: charge/ProjectileAmmo
+  Republic Fleet Claw: entity/RetaliatingMinmatarEntities
   Republic Fleet Command Mindlink: implant/CyberLeadership
   Republic Fleet Command Ship: entity/MissionMinmatarRepublicBattleship
   Republic Fleet Commander: entity/FactionDrone
@@ -56682,6 +57043,9 @@ name2group:
   Republic Fleet High Captain Insignia I: commodity/EmpireInsigniaDrops
   Republic Fleet High Captain Insignia II: commodity/EmpireInsigniaDrops
   Republic Fleet High Commander: entity/FactionDrone
+  Republic Fleet Huginn: entity/RetaliatingMinmatarEntities
+  Republic Fleet Hurricane: entity/RetaliatingMinmatarEntities
+  Republic Fleet Hyena: entity/RetaliatingMinmatarEntities
   Republic Fleet Keeper: entity/DeadspaceOverseerCruiser
   Republic Fleet Kinetic Deflection Amplifier: module/ShieldResistanceAmplifier
   Republic Fleet Kinetic Deflection Amplifier Blueprint: blueprint/ShieldResistanceAmplifierBlueprint
@@ -56704,6 +57068,8 @@ name2group:
   Republic Fleet Midshipman Insignia I: commodity/EmpireInsigniaDrops
   Republic Fleet Midshipman Insignia II: commodity/EmpireInsigniaDrops
   Republic Fleet Midshipman Insignia III: commodity/EmpireInsigniaDrops
+  Republic Fleet Muninn: entity/RetaliatingMinmatarEntities
+  Republic Fleet Naglfar: entity/RetaliatingMinmatarEntities
   Republic Fleet Naglfar - Under Construction: entity/LargeCollidableStructure
   Republic Fleet Nanofiber Structure: module/NanofiberInternalStructure
   Republic Fleet Navy Commander Insignia: commodity/EmpireInsigniaDrops
@@ -56742,6 +57108,8 @@ name2group:
   Republic Fleet Rocket Launcher: module/MissileLauncherRocket
   Republic Fleet Rocket Launcher Blueprint: blueprint/MissileLauncherBlueprint
   Republic Fleet Rupture: entity/MissionMinmatarRepublicCruiser
+  Republic Fleet Scalpel: entity/RetaliatingMinmatarEntities
+  Republic Fleet Scimitar: entity/RetaliatingMinmatarEntities
   Republic Fleet Scout: entity/MissionMinmatarRepublicFrigate
   Republic Fleet Shield Boost Amplifier: module/ShieldBoostAmplifier
   Republic Fleet Shield Boost Amplifier Blueprint: blueprint/ShieldBoostAmplifierBlueprint
@@ -56759,7 +57127,7 @@ name2group:
   Republic Fleet Stabber: entity/MissionMinmatarRepublicCruiser
   Republic Fleet Stasis Webifier: module/StasisWeb
   Republic Fleet Target Painter: module/TargetPainter
-  Republic Fleet Tempest: entity/MissionMinmatarRepublicBattleship
+  Republic Fleet Tempest: entity/RetaliatingMinmatarEntities
   Republic Fleet Thermal Dissipation Amplifier: module/ShieldResistanceAmplifier
   Republic Fleet Thermal Dissipation Amplifier Blueprint: blueprint/ShieldResistanceAmplifierBlueprint
   Republic Fleet Thermal Plating: module/ArmorCoating
@@ -56771,7 +57139,7 @@ name2group:
   Republic Fleet Torpedo Launcher: module/MissileLauncherTorpedo
   Republic Fleet Tracking Enhancer: module/TrackingEnhancer
   Republic Fleet Tracking Enhancer Blueprint: blueprint/TrackingEnhancerBlueprint
-  Republic Fleet Typhoon: entity/MissionMinmatarRepublicBattleship
+  Republic Fleet Typhoon: entity/RetaliatingMinmatarEntities
   Republic Fleet Valkyrie: drone/CombatDrone
   Republic Fleet Vigil: entity/MissionMinmatarRepublicFrigate
   Republic Fleet Warp Disruptor: module/WarpScrambler
@@ -56991,6 +57359,7 @@ name2group:
   Rhea Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Rhea Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Rhea Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Rhea Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Ribbon: abstrct/Decorations
   Rich Plagioclase: asteroid/Plagioclase
   Rifles: commodity/Commodities
@@ -57001,6 +57370,7 @@ name2group:
   Rifter Dawn of Liberation SKIN (Permanent): skins/PermanentSKIN
   Rifter Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Rifter Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Rifter Harmonious Ascension SKIN (Permanent): skins/PermanentSKIN
   Rifter Hazard Control SKIN (Permanent): skins/PermanentSKIN
   Rifter Justice SKIN (Permanent): skins/PermanentSKIN
   Rifter Krusual SKIN (30 Days): skins/Max30DaySKIN
@@ -57064,10 +57434,6 @@ name2group:
   Rogue Drone Gatherer: entity/AsteroidRogueDroneHauler
   Rogue Drone Harvester: entity/AsteroidRogueDroneHauler
   Rogue Drone Hauler: entity/AsteroidRogueDroneHauler
-  Rogue Drone Infested Abaddon: entity/DeadspaceRogueDroneBattleship
-  Rogue Drone Infested Dominix: entity/DeadspaceRogueDroneBattleship
-  Rogue Drone Infested Raven: entity/DeadspaceRogueDroneBattleship
-  Rogue Drone Infested Typhoon: entity/DeadspaceRogueDroneBattleship
   Rogue Drone Liaisons Captain: entity/DeadspaceOverseerBattleship
   Rogue Drone Loader: entity/AsteroidRogueDroneHauler
   Rogue Drone Logistic Overseer: entity/DeadspaceOverseerCruiser
@@ -57111,6 +57477,7 @@ name2group:
   Rokh Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Rokh Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Rokh Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Rokh Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Roland: entity/MissionGenericCruisers
   Rolette Residence: entity/SpawnContainer
   Rolled Tungsten Alloy: material/IntermediateMaterials
@@ -57127,6 +57494,7 @@ name2group:
   Rook Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Rook Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Rook Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Rook Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Rooks & Kings – The Clarion Call Compilation: specialeditionassets/SpecialEditionCommodities
   Rorqual: ship/CapitalIndustrialShip
   Rorqual Amarr Industrial Livery SKIN (Permanent): skins/PermanentSKIN
@@ -57636,6 +58004,7 @@ name2group:
   Scordite Mining Crystal II Blueprint: blueprint/MiningCrystalBlueprint
   Scordite Processing: skill/ResourceProcessing
   Scorpion: ship/Battleship
+  Scorpion Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Scorpion Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Scorpion Blueprint: blueprint/BattleshipBlueprint
   Scorpion Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
@@ -57655,12 +58024,14 @@ name2group:
   Scorpion Navy Issue Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Scorpion Navy Issue Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Scorpion Navy Issue Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Scorpion Navy Issue Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Scorpion Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Scorpion Spirit SKIN (Permanent): skins/PermanentSKIN
   Scorpion Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Scorpion Triglavian Twilight SKIN (Permanent): skins/PermanentSKIN
   Scorpion Valkyrie SKIN (Permanent): skins/PermanentSKIN
   Scorpion Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Scorpion Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Scorpionfly Apis: entity/IrregularDrone
   Scorpionfly Drone: entity/AsteroidRogueDroneSwarm
   Scotsman's Modified Scout gk.0: infantry/InfantryDropsuits
@@ -59498,6 +59869,7 @@ name2group:
   St. Arzad: commodity/Miscellaneous
   St. Tetrimon's Finger: specialeditionassets/SpecialEditionCommodities
   Stabber: ship/Cruiser
+  Stabber Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Stabber Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Stabber Blueprint: blueprint/CruiserBlueprint
   Stabber Dawn of Liberation SKIN (Permanent): skins/PermanentSKIN
@@ -60321,6 +60693,16 @@ name2group:
   State Nagasa: entity/MissionCaldariStateFrigate
   State Nanite Injector: infantry/InfantryEquipment
   State Nanohive: infantry/InfantryEquipment
+  State Navy Basilisk: entity/RetaliatingCaldariEntities
+  State Navy Cerberus: entity/RetaliatingCaldariEntities
+  State Navy Drake: entity/RetaliatingCaldariEntities
+  State Navy Kirin: entity/RetaliatingCaldariEntities
+  State Navy Kitsune: entity/RetaliatingCaldariEntities
+  State Navy Phoenix: entity/RetaliatingCaldariEntities
+  State Navy Raptor: entity/RetaliatingCaldariEntities
+  State Navy Raven: entity/RetaliatingCaldariEntities
+  State Navy Rook: entity/RetaliatingCaldariEntities
+  State Navy Scorpion: entity/RetaliatingCaldariEntities
   State Oni: entity/MissionCaldariStateBattlecruiser
   State Oshiro: entity/MissionCaldariStateBattleship
   State Protectorate Assault C-I: infantry/InfantryDropsuits
@@ -60432,6 +60814,7 @@ name2group:
   Stork Glacial Drift SKIN (Permanent): skins/PermanentSKIN
   Stork Matigu Seabeast SKIN (Permanent): skins/PermanentSKIN
   Stork Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
+  Stork Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Storm Advanced Industry Facility: planetaryinteraction/Processors
   Storm Aqueous Liquid Extractor: planetaryinteraction/Extractors
   Storm Base Metals Extractor: planetaryinteraction/Extractors
@@ -60695,6 +61078,8 @@ name2group:
   Surgical Warp Disrupt Probe: charge/InterdictionProbe
   Surveillance Recordings: commodity/Commodities
   Survey: skill/Scanning
+  Survey Array: entity/LargeCollidableStructure
+  Survey Data: commodity/Commodities
   Survey Networks 1: infrastructureupgrades/IndustrialUpgrades
   Survey Networks 1 Blueprint: blueprint/InfrastructureUpgradeBlueprint
   Survey Networks 2: infrastructureupgrades/IndustrialUpgrades
@@ -60736,6 +61121,10 @@ name2group:
   Swarm Launcher Proficiency: infantry/InfantrySkills
   Swarm Launcher Rapid Reload: infantry/InfantrySkills
   Swarm Launcher Sharpshooter: infantry/InfantrySkills
+  'Swarm Overmind #0102': entity/DeadspaceRogueDroneBattleship
+  'Swarm Overmind #0415': entity/DeadspaceRogueDroneBattleship
+  'Swarm Overmind #1801': entity/DeadspaceRogueDroneBattleship
+  'Swarm Overmind #2025': entity/DeadspaceRogueDroneBattleship
   Swarm Overmind Primus: entity/DeadspaceRogueDroneBattleship
   Swarm Overmind Primus x01: entity/IrregularBattleship
   Swarm Overmind Secundus: entity/DeadspaceRogueDroneBattleCruiser
@@ -60971,6 +61360,7 @@ name2group:
   Talos Valimor Legacy SKIN (Permanent): skins/PermanentSKIN
   Talos Yoiul Festival YC121 SKIN (Permanent): skins/PermanentSKIN
   Talwar: ship/Destroyer
+  Talwar Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Talwar Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Talwar Blueprint: blueprint/DestroyerBlueprint
   Talwar Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
@@ -61053,6 +61443,7 @@ name2group:
   Tayra Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Tayra Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Tayra Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Tayra Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Tazmyr: entity/MissionGenericFrigates
   Tazmyr's Capsule: entity/MissionGenericFrigates
   Technetium: material/MoonMaterials
@@ -61167,6 +61558,7 @@ name2group:
   Tengu Sukuuvestaa SKIN (Permanent): skins/PermanentSKIN
   Tengu Ultra Jungle (Ladar) SKIN (Permanent): skins/PermanentSKIN
   Tengu Ultra Jungle (Magneto) SKIN (Permanent): skins/PermanentSKIN
+  Tengu Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Terachi Tash-Murkon's Insignia: commodity/EmpireInsigniaDrops
   Terahertz Metamaterials: material/Composite
   Terahertz Metamaterials Reaction Formula: blueprint/CompositeReactionFormulas
@@ -61191,7 +61583,6 @@ name2group:
   Test LCO Drone: entity/LCODrone
   Test Steam: effects/ParticleSystems
   Test Suit: infantry/InfantryDropsuits
-  TestDread: entity/InvadingPrecursorEntities
   TestDreadFriendly: entity/InvadingPrecursorEntities
   TestNPC001: entity/DeadspaceOverseerCruiser
   TestProphetBlood: entity/DeadspaceOverseerBattleship
@@ -61204,6 +61595,8 @@ name2group:
   Tetryon Exotic Plasma M Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Tetryon Exotic Plasma S: charge/ExoticPlasmaCharge
   Tetryon Exotic Plasma S Blueprint: blueprint/ExoticPlasmaChargeBlueprint
+  Tetryon Exotic Plasma XL: charge/ExoticPlasmaCharge
+  Tetryon Exotic Plasma XL Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Thale's TAR-07 Sniper Rifle: infantry/InfantryWeapons
   Thalia: ship/LogisticsFrigate
   Thalia Blueprint: blueprint/FrigateBlueprint
@@ -61329,6 +61722,7 @@ name2group:
   Thorak's Biodome Garden: entity/DeadspaceOverseerSStructure
   Thorak's Private Key: commodity/AccelerationGateKeys
   Thorax: ship/Cruiser
+  Thorax Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Thorax Aliastra SKIN (30 Days): skins/Max30DaySKIN
   Thorax Aliastra SKIN (365 Days): skins/Max1YearSKIN
   Thorax Aliastra SKIN (7 Days): skins/Max7DaySKIN
@@ -61372,6 +61766,7 @@ name2group:
   Thrasher Exoplanets Hunter SKIN (Permanent): skins/PermanentSKIN
   Thrasher Firewall Breach SKIN (Permanent): skins/PermanentSKIN
   Thrasher Glacial Drift SKIN (Permanent): skins/PermanentSKIN
+  Thrasher Harmonious Ascension SKIN (Permanent): skins/PermanentSKIN
   Thrasher Justice SKIN (Permanent): skins/PermanentSKIN
   Thrasher Luminaire Zenith SKIN (Permanent): skins/PermanentSKIN
   Thrasher Nefantar SKIN (30 Days): skins/Max30DaySKIN
@@ -61644,6 +62039,7 @@ name2group:
   Trigger-happy Bonus: bonus/PhysicalHandicap
   Triglavian Bioadaptive Cache: entity/PrecursorCache
   Triglavian Biocombinative Cache: entity/PrecursorCache
+  Triglavian Biocombinative Schematic Cache: entity/PrecursorCache
   Triglavian Cladistic Cache: entity/PrecursorCache
   Triglavian Encryption Methods: skill/Science
   Triglavian Entropic Monitor: entity/LargeCollidableStructure
@@ -61652,7 +62048,10 @@ name2group:
   Triglavian Extraction SubNode: entity/PrecursorCache
   Triglavian Fermion Monitor: entity/LargeCollidableStructure
   Triglavian Graviton Monitor: entity/LargeCollidableStructure
+  Triglavian Observatory Defense Subpylon: entity/LargeCollidableStructure
   Triglavian Quantum Engineering: skill/Science
+  Triglavian Stellar Accelerator: entity/LargeCollidableStructure
+  Triglavian Stellar Observatory: entity/LargeCollidableStructure
   Triglavian Survey Database: commodity/TriglavianData
   Triglavian Trinary Datastream AEA1: commodity/TriglavianDatastreams
   Triglavian Trinary Datastream AEA2: commodity/TriglavianDatastreams
@@ -62027,6 +62426,7 @@ name2group:
   Type-G Powergrid Expansion System: infantry/InfantryModules
   Typhoon: ship/Battleship
   Typhoon Absent Heroes SKIN (Permanent): skins/PermanentSKIN
+  Typhoon Abyssal Firestorm SKIN (Permanent): skins/PermanentSKIN
   Typhoon Bloody Hands SKIN (Permanent): skins/PermanentSKIN
   Typhoon Blue Tiger SKIN (Permanent): skins/PermanentSKIN
   Typhoon Blueprint: blueprint/BattleshipBlueprint
@@ -62084,6 +62484,8 @@ name2group:
   Uleen Bloodsworn: entity/MissionGenericFrigates
   Uleen Bloodsworn's Tag: commodity/CriminalTags
   Ultra! Promotional Holoreel: commodity/Miscellaneous
+  Ultratidal Entropic Disintegrator I: module/PrecursorWeapon
+  Ultratidal Entropic Disintegrator I Blueprint: blueprint/PrecursorWeaponBlueprint
   Ultraviolet L: charge/FrequencyCrystal
   Ultraviolet L Blueprint: blueprint/FrequencyCrystalBlueprint
   Ultraviolet M: charge/FrequencyCrystal
@@ -62823,6 +63225,7 @@ name2group:
   Vulture Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Vulture Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Vulture Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Vulture Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Vylade Dien: entity/IncursionSanshaSNationCruiser
   Wakeful Sentry Tower: entity/DestructibleSentryGun
   Wallekon Nezmar: entity/MissionGenericFrigates
@@ -62900,6 +63303,7 @@ name2group:
   Weapon Disruption: skill/ElectronicSystems
   Weapon Disruption Burst Projector: module/BurstProjectors
   Weapon Disruption Burst Projector Blueprint: blueprint/BurstProjectorBlueprint
+  Weapon Overcharge Subpylon: entity/LargeCollidableStructure
   Weapon Upgrades: skill/Engineering
   Weapon's Storage Facility: entity/LargeCollidableStructure
   Weaponry: infantry/InfantrySkills
@@ -62931,6 +63335,7 @@ name2group:
   Widow Raata Sunset SKIN (Permanent): skins/PermanentSKIN
   Widow Steel Cardinal SKIN (Permanent): skins/PermanentSKIN
   Widow Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
+  Widow Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   Wildfire Khumaak: commodity/Miscellaneous
   Wing Command: skill/FleetSupport
   Wings of Victory Firework: charge/FestivalCharges
@@ -63409,6 +63814,7 @@ name2group:
   Wyvern Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Wyvern Wiyrkomi SKIN (Permanent): skins/PermanentSKIN
   Wyvern Wiyrkomi Serenity Only SKIN (Permanent): skins/PermanentSKIN
+  Wyvern Zento Isideko Combine SKIN (Permanent): skins/PermanentSKIN
   X-3 Quantum Nanohive: infantry/InfantryEquipment
   X-Axis Calibration Coordinate: commodity/Miscellaneous
   X-Instinct: commodity/Drugs
@@ -63476,10 +63882,10 @@ name2group:
   YC117 Symposium On Emergent Threats Access Pass: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Ardishapur: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Kador: specialeditionassets/SpecialEditionCommodities
-  YC118 Succession Trial Champion’s Decree – House Khanid: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Kor-Azor: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Sarum: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Tash-Murkon: specialeditionassets/SpecialEditionCommodities
+  YC118 Succession Trial Champion���s Decree – House Khanid: specialeditionassets/SpecialEditionCommodities
   YC121 Guardian's Gala Ticket: specialeditionassets/SpecialEditionCommodities
   YO-5000 Rapid Heavy Missile Launcher: module/MissileLauncherRapidHeavy
   Yaekun Ogdin: entity/MissionGenericBattleships
@@ -63779,6 +64185,9 @@ name2group:
   Zeugma Integrated Analyzer Blueprint: blueprint/DataMinerBlueprint
   Zidan Kloveni: entity/MissionGenericFrigates
   Zircon: asteroid/RareMoonAsteroids
+  Zirnitra: ship/Dreadnought
+  Zirnitra Blueprint: blueprint/DreadnoughtBlueprint
+  Zirnitra Blueprint Data Vault: commodity/Commodities
   Zor: entity/MissionGenericBattleships
   Zor's Custom Navigation Hyper-Link: implant/CyberNavigation
   Zor's Custom Navigation Link: implant/CyberNavigation
@@ -63841,6 +64250,7 @@ name2group:
   unnamed_g306_ic0: entity/SpawnContainer
   weapon_container: entity/SpawnContainer
   wrecktest: worldspace/WorldSpace
+  ‘Cold Wind’ Kinetic Reaper: module/SuperWeapon
   ‘Cold Wind’ Kinetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Divine Harvest’ Electromagnetic Reaper: module/SuperWeapon
   ‘Divine Harvest’ Electromagnetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
@@ -63853,7 +64263,7 @@ name2group:
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Jormungandr’ Explosive Reaper: module/SuperWeapon
-  ‘Jormungandr’ Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Jormungandr��� Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Phalarica’ Thermal Lance: module/SuperWeapon
   ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
@@ -63903,6 +64313,7 @@ name2group:
   ♦ Iteron Mark V: entity/NPCMiningHauler
   ♦ Ixion: entity/NPCCruiser
   ♦ Kestrel: entity/NPCFrigate
+  ♦ Lynx: entity/NPCFrigate
   ♦ Machariel: entity/NPCBattleship
   ♦ Maller: entity/NPCCruiser
   ♦ Mammoth: entity/NPCMiningHauler
@@ -63951,9 +64362,6 @@ name2group:
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  ��� Augoror: entity/NPCCruiser
-  ��� Chemosh: entity/NPCDreadnought
-  ��� Dramiel: entity/NPCFrigate
-  ��� Inquisitor: entity/NPCFrigate
-  ��� Lynx: entity/NPCFrigate
-  ���Cold Wind’ Kinetic Reaper: module/SuperWeapon
+  �� Chemosh: entity/NPCDreadnought
+  ��� Apocalypse: entity/NPCBattleship
+  ��� Kestrel: entity/NPCFrigate

@@ -1,0 +1,70 @@
+items:
+  Imperial Navy Apocalypse:
+    id: 52931
+    mass: 9.71E7
+    name: Imperial Navy Apocalypse
+    price: 1.0875E8
+    published: false
+    volume: 495000.0
+  Imperial Navy Armageddon:
+    id: 52930
+    mass: 1.052E8
+    name: Imperial Navy Armageddon
+    price: 6.625E7
+    published: false
+    volume: 486000.0
+  Imperial Navy Crusader:
+    id: 52925
+    mass: 1050000.0
+    name: Imperial Navy Crusader
+    published: false
+    volume: 28100.0
+  Imperial Navy Deacon:
+    id: 52924
+    mass: 1630000.0
+    name: Imperial Navy Deacon
+    price: 2000000.0
+    published: false
+    volume: 28700.0
+  Imperial Navy Guardian:
+    id: 52926
+    mass: 1.198E7
+    name: Imperial Navy Guardian
+    price: 1.2567518E7
+    published: false
+    volume: 115000.0
+  Imperial Navy Harbinger:
+    id: 52929
+    mass: 1.55E7
+    name: Imperial Navy Harbinger
+    price: 3.85E7
+    published: false
+    volume: 234000.0
+  Imperial Navy Pilgrim:
+    id: 52928
+    mass: 1.137E7
+    name: Imperial Navy Pilgrim
+    price: 1.5013042E7
+    published: false
+    volume: 120000.0
+  Imperial Navy Revelation:
+    id: 52964
+    mass: 100000.0
+    name: Imperial Navy Revelation
+    price: 1.53900689E9
+    published: false
+    volume: 1.85E7
+  Imperial Navy Sentinel:
+    id: 52923
+    mass: 1223200.0
+    name: Imperial Navy Sentinel
+    price: 2401508.0
+    published: false
+    volume: 28100.0
+  Imperial Navy Zealot:
+    id: 52927
+    mass: 1.258E7
+    name: Imperial Navy Zealot
+    price: 1.7956216E7
+    published: false
+    volume: 118000.0

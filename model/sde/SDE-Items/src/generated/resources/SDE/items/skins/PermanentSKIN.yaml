@@ -251,6 +251,12 @@ items:
     name: Aeon Star Captain SKIN (Permanent)
     published: true
     volume: 0.01
+  Algos Abyssal Firestorm SKIN (Permanent):
+    id: 53140
+    marketGroup: 1996
+    name: Algos Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Algos Exoplanets Hunter SKIN (Permanent):
     id: 45887
     marketGroup: 1996
@@ -457,6 +463,12 @@ items:
     id: 37595
     marketGroup: 2097
     name: Anshar Valimor Legacy SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Apocalypse Abyssal Firestorm SKIN (Permanent):
+    id: 53129
+    marketGroup: 1964
+    name: Apocalypse Abyssal Firestorm SKIN (Permanent)
     published: true
     volume: 0.01
   Apocalypse Ardishapur SKIN (Permanent):
@@ -816,6 +828,12 @@ items:
     id: 37571
     marketGroup: 2083
     name: Arazu Valimor Legacy SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Arbitrator Abyssal Firestorm SKIN (Permanent):
+    id: 53130
+    marketGroup: 1990
+    name: Arbitrator Abyssal Firestorm SKIN (Permanent)
     published: true
     volume: 0.01
   Arbitrator Ardishapur SKIN (Permanent):
@@ -1751,6 +1769,12 @@ items:
     name: Badger Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Badger Zento Isideko Combine SKIN (Permanent):
+    id: 53200
+    marketGroup: 2008
+    name: Badger Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Bantam Blue Tiger SKIN (Permanent):
     id: 36705
     marketGroup: 2003
@@ -1802,6 +1826,12 @@ items:
   Bantam Wiyrkomi SKIN (Permanent):
     id: 36326
     name: Bantam Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Bantam Zento Isideko Combine SKIN (Permanent):
+    id: 53149
+    marketGroup: 2003
+    name: Bantam Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Barghest "Blaze" Squadron SKIN (Permanent):
@@ -1898,6 +1928,12 @@ items:
     id: 36343
     marketGroup: 2078
     name: Basilisk Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Basilisk Zento Isideko Combine SKIN (Permanent):
+    id: 53177
+    marketGroup: 2078
+    name: Basilisk Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Bellicose Blue Tiger SKIN (Permanent):
@@ -2103,6 +2139,12 @@ items:
   Blackbird Wiyrkomi SKIN (Permanent):
     id: 36331
     name: Blackbird Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Blackbird Zento Isideko Combine SKIN (Permanent):
+    id: 53170
+    marketGroup: 1991
+    name: Blackbird Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Blood Raider Victory SKIN (Permanent):
@@ -2314,6 +2356,12 @@ items:
     id: 36773
     marketGroup: 2076
     name: Broadsword Valklear Glory SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Brutix Abyssal Firestorm SKIN (Permanent):
+    id: 53244
+    marketGroup: 1958
+    name: Brutix Abyssal Firestorm SKIN (Permanent)
     published: true
     volume: 0.01
   Brutix Cordite Blossom SKIN (Permanent):
@@ -2577,6 +2625,12 @@ items:
     name: Bustard Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Bustard Zento Isideko Combine SKIN (Permanent):
+    id: 53203
+    marketGroup: 2089
+    name: Bustard Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Buzzard Blue Tiger SKIN (Permanent):
     id: 36713
     marketGroup: 2052
@@ -2625,6 +2679,12 @@ items:
     name: Buzzard Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Buzzard Zento Isideko Combine SKIN (Permanent):
+    id: 53157
+    marketGroup: 2052
+    name: Buzzard Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Caiman Glacial Drift SKIN (Permanent):
     id: 46876
     marketGroup: 2380
@@ -2661,6 +2721,12 @@ items:
     name: Caldari Navy Hookbill Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Caldari Navy Hookbill Zento Isideko Combine SKIN (Permanent):
+    id: 53163
+    marketGroup: 2000
+    name: Caldari Navy Hookbill Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Caldari Shuttle Exoplanets Hunter SKIN (Permanent):
     id: 45810
     marketGroup: 2388
@@ -2695,6 +2761,12 @@ items:
     id: 45482
     marketGroup: 2285
     name: Capsule YC119 Capsuleer Day SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Caracal Abyssal Firestorm SKIN (Permanent):
+    id: 53133
+    marketGroup: 1991
+    name: Caracal Abyssal Firestorm SKIN (Permanent)
     published: true
     volume: 0.01
   Caracal Blue Tiger SKIN (Permanent):
@@ -2787,6 +2859,12 @@ items:
     name: Caracal Navy Issue Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Caracal Navy Issue Zento Isideko Combine SKIN (Permanent):
+    id: 53181
+    marketGroup: 2063
+    name: Caracal Navy Issue Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Caracal Nugoeihuvi SKIN (Permanent):
     id: 34685
     marketGroup: 1991
@@ -2850,6 +2928,12 @@ items:
     name: Caracal Wiyrkomi Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Caracal Zento Isideko Combine SKIN (Permanent):
+    id: 53171
+    marketGroup: 1991
+    name: Caracal Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Catalyst Aliastra SKIN (Permanent):
     id: 34708
     marketGroup: 1996
@@ -2871,6 +2955,12 @@ items:
     id: 44180
     marketGroup: 1996
     name: Catalyst Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Catalyst Harmonious Ascension SKIN (Permanent):
+    id: 53309
+    marketGroup: 1996
+    name: Catalyst Harmonious Ascension SKIN (Permanent)
     published: true
     volume: 0.01
   Catalyst Inner Zone Shipping SKIN (Permanent):
@@ -3112,6 +3202,12 @@ items:
     name: Cerberus Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
+  Cerberus Zento Isideko Combine SKIN (Permanent):
+    id: 53174
+    marketGroup: 2070
+    name: Cerberus Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Charon Blue Tiger SKIN (Permanent):
     id: 36749
     marketGroup: 1985
@@ -3169,6 +3265,12 @@ items:
   Charon Wiyrkomi Serenity Only SKIN (Permanent):
     id: 37971
     name: Charon Wiyrkomi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Charon Zento Isideko Combine SKIN (Permanent):
+    id: 53204
+    marketGroup: 1985
+    name: Charon Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Cheetah Blue Tiger SKIN (Permanent):
@@ -3302,6 +3404,12 @@ items:
     name: Chimera Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Chimera Zento Isideko Combine SKIN (Permanent):
+    id: 53197
+    marketGroup: 1975
+    name: Chimera Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Claw Blue Tiger SKIN (Permanent):
     id: 36809
     marketGroup: 2062
@@ -3398,6 +3506,12 @@ items:
     name: Claymore Valklear Glory SKIN (Permanent)
     published: true
     volume: 0.01
+  Coercer Abyssal Firestorm SKIN (Permanent):
+    id: 53132
+    marketGroup: 1994
+    name: Coercer Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Coercer Ardishapur SKIN (Permanent):
     id: 34700
     marketGroup: 1994
@@ -3435,6 +3549,12 @@ items:
     id: 44140
     marketGroup: 1994
     name: Coercer Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Coercer Harmonious Ascension SKIN (Permanent):
+    id: 53307
+    marketGroup: 1994
+    name: Coercer Harmonious Ascension SKIN (Permanent)
     published: true
     volume: 0.01
   Coercer Imperial Jubilee SKIN (Permanent):
@@ -3529,6 +3649,12 @@ items:
   Condor Wiyrkomi SKIN (Permanent):
     id: 36327
     name: Condor Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Condor Zento Isideko Combine SKIN (Permanent):
+    id: 53150
+    marketGroup: 2003
+    name: Condor Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Confessor Cold Iron SKIN (Permanent):
@@ -3644,6 +3770,18 @@ items:
     name: Corax Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Corax Zento Isideko Combine SKIN (Permanent):
+    id: 53165
+    marketGroup: 1995
+    name: Corax Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Cormorant Abyssal Firestorm SKIN (Permanent):
+    id: 53136
+    marketGroup: 1995
+    name: Cormorant Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Cormorant Blue Tiger SKIN (Permanent):
     id: 36719
     marketGroup: 1995
@@ -3672,6 +3810,12 @@ items:
     id: 40774
     marketGroup: 1995
     name: Cormorant Guristas SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Cormorant Harmonious Ascension SKIN (Permanent):
+    id: 53308
+    marketGroup: 1995
+    name: Cormorant Harmonious Ascension SKIN (Permanent)
     published: true
     volume: 0.01
   Cormorant IGC SKIN (Permanent):
@@ -3731,6 +3875,12 @@ items:
   Cormorant Wiyrkomi SKIN (Permanent):
     id: 36351
     name: Cormorant Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Cormorant Zento Isideko Combine SKIN (Permanent):
+    id: 53166
+    marketGroup: 1995
+    name: Cormorant Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Covetor Amarr Industrial Livery SKIN (Permanent):
@@ -3897,6 +4047,12 @@ items:
     name: Crane Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Crane Zento Isideko Combine SKIN (Permanent):
+    id: 53202
+    marketGroup: 2089
+    name: Crane Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Crow Blue Tiger SKIN (Permanent):
     id: 36716
     marketGroup: 2060
@@ -3943,6 +4099,12 @@ items:
     id: 36335
     marketGroup: 2060
     name: Crow Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Crow Zento Isideko Combine SKIN (Permanent):
+    id: 53160
+    marketGroup: 2060
+    name: Crow Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Crucifier Cold Iron SKIN (Permanent):
@@ -4810,6 +4972,12 @@ items:
     name: Dragoon Tash-Murkon Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Drake Abyssal Firestorm SKIN (Permanent):
+    id: 53135
+    marketGroup: 1957
+    name: Drake Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Drake Argyros Elite XVI SKIN (Permanent):
     id: 52285
     marketGroup: 1957
@@ -4924,6 +5092,12 @@ items:
     name: Drake Navy Issue Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Drake Navy Issue Zento Isideko Combine SKIN (Permanent):
+    id: 53188
+    marketGroup: 2103
+    name: Drake Navy Issue Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Drake Octopus Orange Flight SKIN (Permanent):
     id: 47615
     marketGroup: 1957
@@ -4970,6 +5144,12 @@ items:
     name: Drake Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Drake Zento Isideko Combine SKIN (Permanent):
+    id: 53183
+    marketGroup: 1957
+    name: Drake Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Dramiel Angel's Hex SKIN (Permanent):
     id: 49146
     marketGroup: 2031
@@ -5004,6 +5184,12 @@ items:
     id: 53024
     marketGroup: 2521
     name: Draugur All-Stars Casino Clash SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Draugur Liminal Crossings SKIN (Permanent):
+    id: 53316
+    marketGroup: 2521
+    name: Draugur Liminal Crossings SKIN (Permanent)
     published: true
     volume: 0.01
   Draugur Niflhel Gildclaw SKIN (Permanent):
@@ -5123,6 +5309,12 @@ items:
     id: 36346
     marketGroup: 2070
     name: Eagle Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Eagle Zento Isideko Combine SKIN (Permanent):
+    id: 53175
+    marketGroup: 2070
+    name: Eagle Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Endurance Amarr Industrial Livery SKIN (Permanent):
@@ -5810,6 +6002,12 @@ items:
     name: Falcon Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Falcon Zento Isideko Combine SKIN (Permanent):
+    id: 53178
+    marketGroup: 2082
+    name: Falcon Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Federation Navy Comet Exoplanets Hunter SKIN (Permanent):
     id: 45885
     marketGroup: 2000
@@ -6003,6 +6201,12 @@ items:
     name: Ferox Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Ferox Zento Isideko Combine SKIN (Permanent):
+    id: 53184
+    marketGroup: 1957
+    name: Ferox Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Flycatcher Blue Tiger SKIN (Permanent):
     id: 36720
     marketGroup: 2039
@@ -6055,6 +6259,12 @@ items:
     id: 36357
     marketGroup: 2039
     name: Flycatcher Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Flycatcher Zento Isideko Combine SKIN (Permanent):
+    id: 53168
+    marketGroup: 2039
+    name: Flycatcher Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Gallente Shuttle Exoplanets Hunter SKIN (Permanent):
@@ -6350,6 +6560,12 @@ items:
     name: Golem Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Golem Zento Isideko Combine SKIN (Permanent):
+    id: 53193
+    marketGroup: 2025
+    name: Golem Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Griffin Blue Tiger SKIN (Permanent):
     id: 36707
     marketGroup: 2003
@@ -6416,6 +6632,12 @@ items:
     name: Griffin Navy Issue Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Griffin Navy Issue Zento Isideko Combine SKIN (Permanent):
+    id: 53164
+    marketGroup: 2000
+    name: Griffin Navy Issue Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Griffin Raata Sunset SKIN (Permanent):
     id: 36635
     marketGroup: 2003
@@ -6437,6 +6659,12 @@ items:
   Griffin Wiyrkomi SKIN (Permanent):
     id: 36328
     name: Griffin Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Griffin Zento Isideko Combine SKIN (Permanent):
+    id: 53151
+    marketGroup: 2003
+    name: Griffin Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Guardian Cold Iron SKIN (Permanent):
@@ -6694,6 +6922,12 @@ items:
     name: Harpy Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Harpy Zento Isideko Combine SKIN (Permanent):
+    id: 53155
+    marketGroup: 2048
+    name: Harpy Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hawk Blue Tiger SKIN (Permanent):
     id: 36712
     marketGroup: 2048
@@ -6746,6 +6980,12 @@ items:
     id: 36339
     marketGroup: 2048
     name: Hawk Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hawk Zento Isideko Combine SKIN (Permanent):
+    id: 53156
+    marketGroup: 2048
+    name: Hawk Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Hecate Caille Neon SKIN (Permanent):
@@ -7075,6 +7315,12 @@ items:
     name: Heron Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Heron Zento Isideko Combine SKIN (Permanent):
+    id: 53152
+    marketGroup: 2003
+    name: Heron Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Hoarder Blue Tiger SKIN (Permanent):
     id: 36838
     marketGroup: 2010
@@ -7337,6 +7583,12 @@ items:
     id: 47104
     marketGroup: 1959
     name: Hurricane "Blaze" Squadron SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Hurricane Abyssal Firestorm SKIN (Permanent):
+    id: 53143
+    marketGroup: 1959
+    name: Hurricane Abyssal Firestorm SKIN (Permanent)
     published: true
     volume: 0.01
   Hurricane Bloody Hands SKIN (Permanent):
@@ -7659,6 +7911,12 @@ items:
     name: Ikitursa All-Stars Casino Clash SKIN (Permanent)
     published: true
     volume: 0.01
+  Ikitursa Liminal Crossings SKIN (Permanent):
+    id: 53314
+    marketGroup: 2485
+    name: Ikitursa Liminal Crossings SKIN (Permanent)
+    published: true
+    volume: 0.01
   Ikitursa Niflhel Gildclaw SKIN (Permanent):
     id: 52699
     marketGroup: 2485
@@ -7888,6 +8146,12 @@ items:
     id: 47522
     marketGroup: 2004
     name: Incursus Glittering Dream SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Incursus Harmonious Ascension SKIN (Permanent):
+    id: 53209
+    marketGroup: 2004
+    name: Incursus Harmonious Ascension SKIN (Permanent)
     published: true
     volume: 0.01
   Incursus Inner Zone Shipping SKIN (Permanent):
@@ -8313,6 +8577,12 @@ items:
     name: Jackdaw Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
+  Jackdaw Zento Isideko Combine SKIN (Permanent):
+    id: 53169
+    marketGroup: 2391
+    name: Jackdaw Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Jaguar Blue Tiger SKIN (Permanent):
     id: 36804
     marketGroup: 2050
@@ -8468,6 +8738,12 @@ items:
     name: Kestrel Wiyrkomi Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Kestrel Zento Isideko Combine SKIN (Permanent):
+    id: 53153
+    marketGroup: 2003
+    name: Kestrel Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Kikimora Blackfire Steel SKIN (Permanent):
     id: 49923
     marketGroup: 2521
@@ -8534,6 +8810,12 @@ items:
     name: Kirin Steel Cardinal SKIN (Permanent)
     published: true
     volume: 0.01
+  Kirin Zento Isideko Combine SKIN (Permanent):
+    id: 53162
+    marketGroup: 2138
+    name: Kirin Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Kitsune Blue Tiger SKIN (Permanent):
     id: 36715
     marketGroup: 2056
@@ -8580,6 +8862,12 @@ items:
     id: 36338
     marketGroup: 2056
     name: Kitsune Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Kitsune Zento Isideko Combine SKIN (Permanent):
+    id: 53159
+    marketGroup: 2056
+    name: Kitsune Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Komodo Glacial Drift SKIN (Permanent):
@@ -8917,6 +9205,12 @@ items:
     id: 36334
     marketGroup: 2092
     name: Leviathan Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Leviathan Zento Isideko Combine SKIN (Permanent):
+    id: 53199
+    marketGroup: 2092
+    name: Leviathan Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Lif Bloody Hands SKIN (Permanent):
@@ -9632,6 +9926,12 @@ items:
     name: Manticore Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Manticore Zento Isideko Combine SKIN (Permanent):
+    id: 53158
+    marketGroup: 2052
+    name: Manticore Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Marshal CONCORD Aerospace 'Prototype' SKIN (Permanent):
     id: 47159
     marketGroup: 2406
@@ -9822,6 +10122,12 @@ items:
     name: Maulus Valimor Legacy SKIN (Permanent)
     published: true
     volume: 0.01
+  Megathron Abyssal Firestorm SKIN (Permanent):
+    id: 53138
+    marketGroup: 1966
+    name: Megathron Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Megathron Exoplanets Hunter SKIN (Permanent):
     id: 45913
     marketGroup: 1966
@@ -10010,6 +10316,12 @@ items:
     name: Merlin Guristas SKIN (Permanent)
     published: true
     volume: 0.01
+  Merlin Harmonious Ascension SKIN (Permanent):
+    id: 53208
+    marketGroup: 2003
+    name: Merlin Harmonious Ascension SKIN (Permanent)
+    published: true
+    volume: 0.01
   Merlin Headhunter SKIN (Permanent):
     id: 46712
     marketGroup: 2003
@@ -10078,6 +10390,12 @@ items:
   Merlin Wiyrkomi Serenity Only SKIN (Permanent):
     id: 36987
     name: Merlin Wiyrkomi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Merlin Zento Isideko Combine SKIN (Permanent):
+    id: 53154
+    marketGroup: 2003
+    name: Merlin Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Miasmos Exoplanets Hunter SKIN (Permanent):
@@ -10205,6 +10523,12 @@ items:
     name: Minokawa Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
+  Minokawa Zento Isideko Combine SKIN (Permanent):
+    id: 53206
+    marketGroup: 2279
+    name: Minokawa Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Moa Blue Tiger SKIN (Permanent):
     id: 36723
     marketGroup: 1991
@@ -10279,6 +10603,12 @@ items:
   Moa Wiyrkomi SKIN (Permanent):
     id: 36330
     name: Moa Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Moa Zento Isideko Combine SKIN (Permanent):
+    id: 53172
+    marketGroup: 1991
+    name: Moa Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Molok Glacial Drift SKIN (Permanent):
@@ -10605,6 +10935,12 @@ items:
     name: Naga Wiyrkomi Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Naga Zento Isideko Combine SKIN (Permanent):
+    id: 53185
+    marketGroup: 1957
+    name: Naga Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Naglfar Blue Tiger SKIN (Permanent):
     id: 36834
     marketGroup: 1983
@@ -10848,6 +11184,12 @@ items:
     name: Nergal All-Stars Casino Clash SKIN (Permanent)
     published: true
     volume: 0.01
+  Nergal Liminal Crossings SKIN (Permanent):
+    id: 53315
+    marketGroup: 2486
+    name: Nergal Liminal Crossings SKIN (Permanent)
+    published: true
+    volume: 0.01
   Nergal Niflhel Gildclaw SKIN (Permanent):
     id: 52697
     marketGroup: 2486
@@ -11065,6 +11407,12 @@ items:
     id: 36358
     marketGroup: 2105
     name: Nighthawk Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Nighthawk Zento Isideko Combine SKIN (Permanent):
+    id: 53186
+    marketGroup: 2105
+    name: Nighthawk Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Nightmare Glacial Drift SKIN (Permanent):
@@ -11718,6 +12066,12 @@ items:
     name: Onyx Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Onyx Zento Isideko Combine SKIN (Permanent):
+    id: 53176
+    marketGroup: 2074
+    name: Onyx Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Oracle "Blaze" Squadron SKIN (Permanent):
     id: 47101
     marketGroup: 1956
@@ -12052,6 +12406,12 @@ items:
     name: Osprey Navy Issue Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Osprey Navy Issue Zento Isideko Combine SKIN (Permanent):
+    id: 53182
+    marketGroup: 2063
+    name: Osprey Navy Issue Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Osprey Raata Sunset SKIN (Permanent):
     id: 36652
     marketGroup: 1991
@@ -12073,6 +12433,12 @@ items:
   Osprey Wiyrkomi Serenity Only SKIN (Permanent):
     id: 37972
     name: Osprey Wiyrkomi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Osprey Zento Isideko Combine SKIN (Permanent):
+    id: 53173
+    marketGroup: 1991
+    name: Osprey Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Pacifier CONCORD Aerospace 'Prototype' SKIN (Permanent):
@@ -12447,6 +12813,12 @@ items:
     name: Phoenix Wiyrkomi Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Phoenix Zento Isideko Combine SKIN (Permanent):
+    id: 53196
+    marketGroup: 1981
+    name: Phoenix Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Pilgrim Cold Iron SKIN (Permanent):
     id: 42775
     marketGroup: 2081
@@ -12813,6 +13185,12 @@ items:
     id: 43844
     marketGroup: 2319
     name: Procurer Sansha Industrial Livery SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Prophecy Abyssal Firestorm SKIN (Permanent):
+    id: 53131
+    marketGroup: 1956
+    name: Prophecy Abyssal Firestorm SKIN (Permanent)
     published: true
     volume: 0.01
   Prophecy Blood Raiders SKIN (Permanent):
@@ -13247,6 +13625,12 @@ items:
     name: Punisher Glacial Drift SKIN (Permanent)
     published: true
     volume: 0.01
+  Punisher Harmonious Ascension SKIN (Permanent):
+    id: 53207
+    marketGroup: 2002
+    name: Punisher Harmonious Ascension SKIN (Permanent)
+    published: true
+    volume: 0.01
   Punisher Ironblood SKIN (Permanent):
     id: 43486
     marketGroup: 2002
@@ -13527,6 +13911,12 @@ items:
     name: Raptor Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Raptor Zento Isideko Combine SKIN (Permanent):
+    id: 53161
+    marketGroup: 2060
+    name: Raptor Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rattlesnake Ace of Podhunters SKIN (Permanent):
     id: 47511
     marketGroup: 1963
@@ -13680,6 +14070,12 @@ items:
     name: Raven Navy Issue Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Raven Navy Issue Zento Isideko Combine SKIN (Permanent):
+    id: 53194
+    marketGroup: 2108
+    name: Raven Navy Issue Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Raven Nugoeihuvi SKIN (Permanent):
     id: 34799
     name: Raven Nugoeihuvi SKIN (Permanent)
@@ -13729,6 +14125,12 @@ items:
   Raven Wiyrkomi Serenity Only SKIN (Permanent):
     id: 37969
     name: Raven Wiyrkomi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Raven Zento Isideko Combine SKIN (Permanent):
+    id: 53189
+    marketGroup: 1965
+    name: Raven Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Reaper Exoplanets Hunter SKIN (Permanent):
@@ -14157,6 +14559,12 @@ items:
     name: Rhea Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Rhea Zento Isideko Combine SKIN (Permanent):
+    id: 53205
+    marketGroup: 2096
+    name: Rhea Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rifter Absent Heroes SKIN (Permanent):
     id: 49156
     marketGroup: 2005
@@ -14185,6 +14593,12 @@ items:
     id: 44166
     marketGroup: 2005
     name: Rifter Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rifter Harmonious Ascension SKIN (Permanent):
+    id: 53210
+    marketGroup: 2005
+    name: Rifter Harmonious Ascension SKIN (Permanent)
     published: true
     volume: 0.01
   Rifter Hazard Control SKIN (Permanent):
@@ -14345,6 +14759,12 @@ items:
     name: Rokh Wiyrkomi Serenity Only SKIN (Permanent)
     published: true
     volume: 0.01
+  Rokh Zento Isideko Combine SKIN (Permanent):
+    id: 53190
+    marketGroup: 1965
+    name: Rokh Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Rook Blue Tiger SKIN (Permanent):
     id: 36730
     marketGroup: 2082
@@ -14397,6 +14817,12 @@ items:
     id: 36342
     marketGroup: 2082
     name: Rook Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Rook Zento Isideko Combine SKIN (Permanent):
+    id: 53179
+    marketGroup: 2082
+    name: Rook Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Rorqual Amarr Industrial Livery SKIN (Permanent):
@@ -14835,6 +15261,12 @@ items:
     name: Scimitar Valklear Glory SKIN (Permanent)
     published: true
     volume: 0.01
+  Scorpion Abyssal Firestorm SKIN (Permanent):
+    id: 53134
+    marketGroup: 1965
+    name: Scorpion Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Scorpion Blue Tiger SKIN (Permanent):
     id: 36738
     marketGroup: 1965
@@ -14906,6 +15338,12 @@ items:
     name: Scorpion Navy Issue Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Scorpion Navy Issue Zento Isideko Combine SKIN (Permanent):
+    id: 53195
+    marketGroup: 2108
+    name: Scorpion Navy Issue Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Scorpion Raata Sunset SKIN (Permanent):
     id: 36666
     marketGroup: 1965
@@ -14939,6 +15377,12 @@ items:
   Scorpion Wiyrkomi SKIN (Permanent):
     id: 36332
     name: Scorpion Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Scorpion Zento Isideko Combine SKIN (Permanent):
+    id: 53191
+    marketGroup: 1965
+    name: Scorpion Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Scythe Bloody Hands SKIN (Permanent):
@@ -15471,6 +15915,12 @@ items:
     name: Sleipnir Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
+  Stabber Abyssal Firestorm SKIN (Permanent):
+    id: 53141
+    marketGroup: 1993
+    name: Stabber Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Stabber Blue Tiger SKIN (Permanent):
     id: 36817
     marketGroup: 1993
@@ -15682,6 +16132,12 @@ items:
     id: 46107
     marketGroup: 2143
     name: Stork Steel Cardinal SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Stork Zento Isideko Combine SKIN (Permanent):
+    id: 53167
+    marketGroup: 2143
+    name: Stork Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Stratios Crystal Blast SKIN (Permanent):
@@ -15967,6 +16423,12 @@ items:
     name: Talos Yoiul Festival YC121 SKIN (Permanent)
     published: true
     volume: 0.01
+  Talwar Abyssal Firestorm SKIN (Permanent):
+    id: 53144
+    marketGroup: 1997
+    name: Talwar Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Talwar Blue Tiger SKIN (Permanent):
     id: 36811
     marketGroup: 1997
@@ -16136,6 +16598,12 @@ items:
   Tayra Wiyrkomi Serenity Only SKIN (Permanent):
     id: 37129
     name: Tayra Wiyrkomi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Tayra Zento Isideko Combine SKIN (Permanent):
+    id: 53201
+    marketGroup: 2008
+    name: Tayra Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Tempest Bloody Hands SKIN (Permanent):
@@ -16325,6 +16793,12 @@ items:
     name: Tengu Ultra Jungle (Magneto) SKIN (Permanent)
     published: true
     volume: 0.01
+  Tengu Zento Isideko Combine SKIN (Permanent):
+    id: 53180
+    marketGroup: 2370
+    name: Tengu Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Thalia Exoplanets Hunter SKIN (Permanent):
     id: 45884
     marketGroup: 2139
@@ -16479,6 +16953,12 @@ items:
     name: Thanatos Valimor Legacy SKIN (Permanent)
     published: true
     volume: 0.01
+  Thorax Abyssal Firestorm SKIN (Permanent):
+    id: 53137
+    marketGroup: 1992
+    name: Thorax Abyssal Firestorm SKIN (Permanent)
+    published: true
+    volume: 0.01
   Thorax Aliastra SKIN (Permanent):
     id: 34692
     marketGroup: 1992
@@ -16613,6 +17093,12 @@ items:
     id: 44167
     marketGroup: 1997
     name: Thrasher Glacial Drift SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Thrasher Harmonious Ascension SKIN (Permanent):
+    id: 53310
+    marketGroup: 1997
+    name: Thrasher Harmonious Ascension SKIN (Permanent)
     published: true
     volume: 0.01
   Thrasher Justice SKIN (Permanent):
@@ -16908,6 +17394,12 @@ items:
     id: 49157
     marketGroup: 1967
     name: Typhoon Absent Heroes SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Typhoon Abyssal Firestorm SKIN (Permanent):
+    id: 53142
+    marketGroup: 1967
+    name: Typhoon Abyssal Firestorm SKIN (Permanent)
     published: true
     volume: 0.01
   Typhoon Bloody Hands SKIN (Permanent):
@@ -17917,6 +18409,12 @@ items:
     name: Vulture Wiyrkomi SKIN (Permanent)
     published: true
     volume: 0.01
+  Vulture Zento Isideko Combine SKIN (Permanent):
+    id: 53187
+    marketGroup: 2105
+    name: Vulture Zento Isideko Combine SKIN (Permanent)
+    published: true
+    volume: 0.01
   Widow Blue Tiger SKIN (Permanent):
     id: 36739
     marketGroup: 2111
@@ -17963,6 +18461,12 @@ items:
     id: 36355
     marketGroup: 2111
     name: Widow Wiyrkomi SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Widow Zento Isideko Combine SKIN (Permanent):
+    id: 53192
+    marketGroup: 2111
+    name: Widow Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Wolf Blue Tiger SKIN (Permanent):
@@ -18165,6 +18669,12 @@ items:
   Wyvern Wiyrkomi Serenity Only SKIN (Permanent):
     id: 37970
     name: Wyvern Wiyrkomi Serenity Only SKIN (Permanent)
+    published: true
+    volume: 0.01
+  Wyvern Zento Isideko Combine SKIN (Permanent):
+    id: 53198
+    marketGroup: 1975
+    name: Wyvern Zento Isideko Combine SKIN (Permanent)
     published: true
     volume: 0.01
   Zarmazd Blackfire Steel SKIN (Permanent):

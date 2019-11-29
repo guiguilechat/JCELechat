@@ -7,6 +7,30 @@ items:
     name: Antimatter Reactor Unit
     published: true
     volume: 1.0
+  Capital Singularity Radiation Convertor:
+    MoonMiningAmount: 1
+    id: 53288
+    marketGroup: 2658
+    mass: 1.0
+    name: Capital Singularity Radiation Convertor
+    published: true
+    volume: 1.0
+  Capital Trinary State Processor:
+    MoonMiningAmount: 1
+    id: 53290
+    marketGroup: 2658
+    mass: 1.0
+    name: Capital Trinary State Processor
+    published: true
+    volume: 1.0
+  Capital Zero-Point Field Manipulator:
+    MoonMiningAmount: 1
+    id: 53289
+    marketGroup: 2658
+    mass: 1.0
+    name: Capital Zero-Point Field Manipulator
+    published: true
+    volume: 1.0
   Crystalline Carbonide Armor Plate:
     MoonMiningAmount: 100
     id: 11545

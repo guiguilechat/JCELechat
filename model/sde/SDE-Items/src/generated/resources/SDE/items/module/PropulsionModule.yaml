@@ -496,7 +496,6 @@ items:
     MaxGroupActive: 1
     OverloadSpeedFactorBonus: 50
     Power: 1
-    RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     SpeedBoostFactor: 1500000
     SpeedFactor: 60.0

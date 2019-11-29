@@ -1109,7 +1109,7 @@ items:
     ChargeSize: 2
     Cpu: 18.0
     DamageMultiplier: 2.7720000743865967
-    Falloff: 9460
+    Falloff: 9933
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -1125,7 +1125,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4725
+    Speed: 4583
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1142,7 +1142,7 @@ items:
     ChargeSize: 2
     Cpu: 16.0
     DamageMultiplier: 2.42549991607666
-    Falloff: 9460
+    Falloff: 9933
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -1158,7 +1158,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4725
+    Speed: 4583
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1175,7 +1175,7 @@ items:
     ChargeSize: 2
     Cpu: 19.0
     DamageMultiplier: 2.5409998893737793
-    Falloff: 9460
+    Falloff: 9933
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -1191,7 +1191,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4725
+    Speed: 4583
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1208,7 +1208,7 @@ items:
     ChargeSize: 2
     Cpu: 17.0
     DamageMultiplier: 2.6565001010894775
-    Falloff: 9460
+    Falloff: 9933
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -1224,7 +1224,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4725
+    Speed: 4583
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1241,7 +1241,7 @@ items:
     ChargeSize: 2
     Cpu: 21.0
     DamageMultiplier: 2.309999942779541
-    Falloff: 9460
+    Falloff: 9933
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -1256,7 +1256,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4725
+    Speed: 4583
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
@@ -1274,7 +1274,7 @@ items:
     ChargeSize: 2
     Cpu: 22.0
     DamageMultiplier: 2.7720000743865967
-    Falloff: 9460
+    Falloff: 9933
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -1292,7 +1292,7 @@ items:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4725
+    Speed: 4583
     TechLevel: 2
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11343
@@ -1779,7 +1779,7 @@ items:
     ChargeSize: 2
     Cpu: 24.0
     DamageMultiplier: 2.887500047683716
-    Falloff: 10320
+    Falloff: 10836
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -1794,7 +1794,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -1812,7 +1812,7 @@ items:
     ChargeSize: 2
     Cpu: 25.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 10320
+    Falloff: 10836
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -1830,7 +1830,7 @@ items:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 2
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11343
@@ -1848,7 +1848,7 @@ items:
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 3.1762499809265137
-    Falloff: 11352
+    Falloff: 11920
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -1865,7 +1865,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11341
@@ -1882,7 +1882,7 @@ items:
     ChargeSize: 2
     Cpu: 21.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 10320
+    Falloff: 10836
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -1898,7 +1898,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -1915,7 +1915,7 @@ items:
     ChargeSize: 2
     Cpu: 19.0
     DamageMultiplier: 3.0327000617980957
-    Falloff: 10320
+    Falloff: 10836
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -1931,7 +1931,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -1948,7 +1948,7 @@ items:
     ChargeSize: 2
     Cpu: 22.0
     DamageMultiplier: 3.1762499809265137
-    Falloff: 10320
+    Falloff: 10836
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -1964,7 +1964,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -1981,7 +1981,7 @@ items:
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 3.3214499950408936
-    Falloff: 10320
+    Falloff: 10836
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -1997,7 +1997,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
@@ -3101,7 +3101,7 @@ items:
     ChargeSize: 2
     Cpu: 14.0
     DamageMultiplier: 2.887500047683716
-    Falloff: 9460
+    Falloff: 9933
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -3118,7 +3118,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4725
+    Speed: 4583
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11318
@@ -3206,7 +3206,7 @@ items:
     ChargeSize: 2
     Cpu: 17.0
     DamageMultiplier: 3.6101999282836914
-    Falloff: 10320
+    Falloff: 10836
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -3223,7 +3223,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11318
@@ -3346,7 +3346,7 @@ items:
     ChargeSize: 2
     Cpu: 13.0
     DamageMultiplier: 2.5789499282836914
-    Falloff: 8600
+    Falloff: 9030
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -3363,7 +3363,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11318
@@ -3557,7 +3557,7 @@ items:
     ChargeSize: 2
     Cpu: 16.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 8600
+    Falloff: 9030
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -3573,7 +3573,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3590,7 +3590,7 @@ items:
     ChargeSize: 2
     Cpu: 18.0
     DamageMultiplier: 2.0625
-    Falloff: 8600
+    Falloff: 9030
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -3605,7 +3605,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3623,7 +3623,7 @@ items:
     ChargeSize: 2
     Cpu: 19.0
     DamageMultiplier: 2.4749999046325684
-    Falloff: 8600
+    Falloff: 9030
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -3641,7 +3641,7 @@ items:
     RequiredSkill3Level: 1
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 2
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11343
@@ -3658,7 +3658,7 @@ items:
     ChargeSize: 2
     Cpu: 14.0
     DamageMultiplier: 2.166450023651123
-    Falloff: 8600
+    Falloff: 9030
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -3674,7 +3674,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3691,7 +3691,7 @@ items:
     ChargeSize: 2
     Cpu: 17.0
     DamageMultiplier: 2.268749952316284
-    Falloff: 8600
+    Falloff: 9030
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -3707,7 +3707,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -3724,7 +3724,7 @@ items:
     ChargeSize: 2
     Cpu: 15.0
     DamageMultiplier: 2.3726999759674072
-    Falloff: 8600
+    Falloff: 9030
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -3740,7 +3740,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
@@ -4610,7 +4610,7 @@ items:
     ChargeSize: 2
     Cpu: 20.0
     DamageMultiplier: 3.4649999141693115
-    Falloff: 8256
+    Falloff: 8669
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -4630,7 +4630,7 @@ items:
     ResistanceKiller: 100
     ResistanceKillerHull: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 2
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11461
@@ -5102,7 +5102,7 @@ items:
     ChargeSize: 2
     Cpu: 14.0
     DamageMultiplier: 2.887500047683716
-    Falloff: 9460
+    Falloff: 9933
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -5119,7 +5119,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4725
+    Speed: 4583
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11339
@@ -5207,7 +5207,7 @@ items:
     ChargeSize: 2
     Cpu: 17.0
     DamageMultiplier: 3.6101999282836914
-    Falloff: 10320
+    Falloff: 10836
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -5224,7 +5224,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 5625
+    Speed: 5456
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11339
@@ -5347,7 +5347,7 @@ items:
     ChargeSize: 2
     Cpu: 13.0
     DamageMultiplier: 2.5789499282836914
-    Falloff: 8600
+    Falloff: 9030
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.699999988079071
     Hp: 40
@@ -5364,7 +5364,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     Slots: 1
-    Speed: 4500
+    Speed: 4365
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11339

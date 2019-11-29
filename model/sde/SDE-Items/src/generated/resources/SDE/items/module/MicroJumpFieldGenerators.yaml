@@ -13,6 +13,7 @@ items:
     MaxGroupFitted: 1
     MetaLevel: 1
     MjdJumpRange: 100000
+    MjdShipJumpCap: 25
     MjfgRadius: 6000
     ModuleReactivationDelay: 160000
     Power: 5

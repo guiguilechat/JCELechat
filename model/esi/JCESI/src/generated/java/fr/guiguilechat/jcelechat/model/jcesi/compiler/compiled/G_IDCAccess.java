@@ -136,7 +136,7 @@ public interface G_IDCAccess
      * Get corporation history
      * <p>
      * Get a list of all the corporations a character has been a member of<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 86400 seconds
      * </p>
      * 
      * @param character_id
@@ -1152,7 +1152,9 @@ public interface G_IDCAccess
      * Get alliance information
      * <p>
      * Public information about an alliance<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 3600 seconds<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/alliances/{alliance_id}/)
      * </p>
      * 
      * @param alliance_id
@@ -1198,7 +1200,7 @@ public interface G_IDCAccess
      * Get character's public information
      * <p>
      * Public information about a character<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 86400 seconds
      * </p>
      * 
      * @param character_id

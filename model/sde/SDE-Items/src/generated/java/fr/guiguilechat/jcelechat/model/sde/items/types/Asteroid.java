@@ -84,6 +84,13 @@ public abstract class Asteroid
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
      * Resistance against Stasis Webifiers
      */
     @HighIsGood(false)
@@ -118,6 +125,10 @@ public abstract class Asteroid
             case  182 :
             {
                 return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
             }
             case  2115 :
             {

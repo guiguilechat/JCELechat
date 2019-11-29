@@ -817,7 +817,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 2
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 44
@@ -1006,7 +1006,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 2
     ScanMagnetometricStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 55
@@ -1069,7 +1069,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 2
     ScanGravimetricStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 198
@@ -1448,7 +1448,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 2
     ScanLadarStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 110
@@ -1635,7 +1635,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 1
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 40
@@ -2004,7 +2004,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 2
     ScanGravimetricStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 432
@@ -2552,7 +2552,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 2
     ScanMagnetometricStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 120
@@ -2985,7 +2985,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 1
     ScanMagnetometricStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 50
@@ -3109,7 +3109,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 1
     ScanGravimetricStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 180
@@ -3234,7 +3234,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 2
     ScanRadarStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 96
@@ -4035,7 +4035,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 2
     ScanLadarStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 240
@@ -4462,7 +4462,7 @@ items:
     RequiredSkill1: 24241
     RequiredSkill1Level: 1
     RequiredSkill3: 3436
-    RequiredSkill3Level: 3
+    RequiredSkill3Level: 1
     ScanLadarStrength: 7.5
     ScanSpeed: 2000
     ShieldCapacity: 100

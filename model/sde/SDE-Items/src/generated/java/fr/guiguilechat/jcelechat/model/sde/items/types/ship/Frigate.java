@@ -42,6 +42,13 @@ public class Frigate
      * 
      */
     @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ConsumptionQuantityBonusPercentage;
+    /**
+     * 
+     */
+    @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(30000)
     public int CovertOpsAndReconOpsCloakModuleDelay;
@@ -440,6 +447,10 @@ public class Frigate
             case  216 :
             {
                 return CapacitorNeedMultiplier;
+            }
+            case  1296 :
+            {
+                return ConsumptionQuantityBonusPercentage;
             }
             case  1034 :
             {

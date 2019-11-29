@@ -1163,6 +1163,23 @@ items:
     price: 40000.0
     published: true
     volume: 0.01
+  Precursor Dreadnought:
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 167
+    RequiredSkill1: 20533
+    RequiredSkill1Level: 3
+    RequiredSkill2: 47869
+    RequiredSkill2Level: 3
+    RequiredSkill3: 22043
+    RequiredSkill3Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 12
+    id: 52997
+    marketGroup: 377
+    name: Precursor Dreadnought
+    price: 1.5E8
+    published: true
+    volume: 0.01
   Precursor Frigate:
     PrimaryAttribute: 167
     RequiredSkill1: 3327

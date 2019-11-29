@@ -439,12 +439,40 @@ public class Dreadnought
     @DefaultIntValue(0)
     public int ShipBonusDreadnoughtM3;
     /**
+     * Multiplied by Triglavian Dreadnought skill level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtPC1;
+    /**
+     * Multiplied by Triglavian Dreadnought skill level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtPC2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtPC3;
+    /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
@@ -749,9 +777,25 @@ public class Dreadnought
             {
                 return ShipBonusDreadnoughtM3;
             }
+            case  2830 :
+            {
+                return ShipBonusDreadnoughtPC1;
+            }
+            case  2829 :
+            {
+                return ShipBonusDreadnoughtPC2;
+            }
+            case  2831 :
+            {
+                return ShipBonusDreadnoughtPC3;
+            }
             case  2298 :
             {
                 return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
             }
             case  2300 :
             {

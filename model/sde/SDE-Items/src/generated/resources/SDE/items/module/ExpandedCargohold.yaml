@@ -19,7 +19,6 @@ items:
     CargoCapacityMultiplier: 1.100000023841858
     Hp: 40
     MaxVelocityModifier: 0.800000011920929
-    RequiredSkill1Level: 1
     StructureHPMultiplier: 0.699999988079071
     TechLevel: 1
     id: 21855

@@ -1,4 +1,40 @@
 items:
+  High-Grade Mimesis Alpha Blueprint:
+    TechLevel: 1
+    id: 52972
+    name: High-Grade Mimesis Alpha Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Mimesis Beta Blueprint:
+    TechLevel: 1
+    id: 52974
+    name: High-Grade Mimesis Beta Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Mimesis Delta Blueprint:
+    TechLevel: 1
+    id: 52975
+    name: High-Grade Mimesis Delta Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Mimesis Epsilon Blueprint:
+    TechLevel: 1
+    id: 52976
+    name: High-Grade Mimesis Epsilon Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Mimesis Gamma Blueprint:
+    TechLevel: 1
+    id: 52977
+    name: High-Grade Mimesis Gamma Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Mimesis Omega Blueprint:
+    TechLevel: 1
+    id: 52978
+    name: High-Grade Mimesis Omega Blueprint
+    published: true
+    volume: 0.01
   High-grade Ascendancy Alpha Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2

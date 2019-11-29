@@ -221,6 +221,13 @@ items:
     name: Liminal Vedmak
     published: false
     volume: 118000.0
+  Liminal Zirnitra:
+    id: 53390
+    mass: 1.1E9
+    name: Liminal Zirnitra
+    price: 1.53900689E9
+    published: false
+    volume: 1.85E7
   Raznaborg Damavik:
     id: 52645
     mass: 950000.0
@@ -391,10 +398,6 @@ items:
     price: 3.35E7
     published: false
     volume: 43000.0
-  TestDread:
-    id: 52701
-    name: TestDread
-    published: false
   TestDreadFriendly:
     id: 52815
     name: TestDreadFriendly

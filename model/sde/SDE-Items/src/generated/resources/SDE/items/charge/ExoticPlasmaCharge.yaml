@@ -50,6 +50,23 @@ items:
     name: Baryon Exotic Plasma S
     published: true
     volume: 0.01
+  Baryon Exotic Plasma XL:
+    ChargeSize: 4
+    EntityFlyRangeMultiplier: 0.5
+    ExplosiveDamage: 644.0
+    Hp: 1
+    LauncherGroup: 1986
+    MainColor: 11646664
+    TechLevel: 1
+    ThermalDamage: 980.0
+    TrackingSpeedMultiplier: 1.0
+    WeaponRangeMultiplier: 1.100000023841858
+    id: 52916
+    marketGroup: 2692
+    mass: 1.0
+    name: Baryon Exotic Plasma XL
+    published: true
+    volume: 0.01
   Meson Exotic Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -101,6 +118,23 @@ items:
     name: Meson Exotic Plasma S
     published: true
     volume: 0.01
+  Meson Exotic Plasma XL:
+    ChargeSize: 4
+    EntityFlyRangeMultiplier: 0.5
+    ExplosiveDamage: 476.0
+    Hp: 1
+    LauncherGroup: 1986
+    MainColor: 11646664
+    TechLevel: 1
+    ThermalDamage: 756.0
+    TrackingSpeedMultiplier: 1.0
+    WeaponRangeMultiplier: 1.7999999523162842
+    id: 53302
+    marketGroup: 2692
+    mass: 1.0
+    name: Meson Exotic Plasma XL
+    published: true
+    volume: 0.01
   Tetryon Exotic Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -150,5 +184,22 @@ items:
     marketGroup: 2465
     mass: 1.0
     name: Tetryon Exotic Plasma S
+    published: true
+    volume: 0.01
+  Tetryon Exotic Plasma XL:
+    ChargeSize: 4
+    EntityFlyRangeMultiplier: 0.5
+    ExplosiveDamage: 532.0
+    Hp: 1
+    LauncherGroup: 1986
+    MainColor: 11646664
+    TechLevel: 1
+    ThermalDamage: 1204.0
+    TrackingSpeedMultiplier: 1.0
+    WeaponRangeMultiplier: 0.699999988079071
+    id: 53301
+    marketGroup: 2692
+    mass: 1.0
+    name: Tetryon Exotic Plasma XL
     published: true
     volume: 0.01

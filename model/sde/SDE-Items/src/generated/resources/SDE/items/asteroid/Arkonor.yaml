@@ -9,6 +9,7 @@ items:
     OreBasicType: 22
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 22
     marketGroup: 512
@@ -25,6 +26,7 @@ items:
     OreBasicType: 22
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28367
     marketGroup: 512
@@ -41,6 +43,7 @@ items:
     OreBasicType: 22
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28385
     marketGroup: 512
@@ -57,6 +60,7 @@ items:
     OreBasicType: 46678
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46691
     marketGroup: 512
@@ -73,6 +77,7 @@ items:
     OreBasicType: 22
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28387
     marketGroup: 512
@@ -91,6 +96,7 @@ items:
     OreBasicType: 22
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17425
     marketGroup: 512
@@ -109,6 +115,7 @@ items:
     OreBasicType: 22
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 46678
     marketGroup: 512
@@ -124,6 +131,7 @@ items:
     OreBasicType: 22
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 28625
     mass: 1.0E35
@@ -141,6 +149,7 @@ items:
     OreBasicType: 22
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
+    RequiredSkill1Level: 1
     StasisWebifierResistance: 1.0
     id: 17426
     marketGroup: 512
