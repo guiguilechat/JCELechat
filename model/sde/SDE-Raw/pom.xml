@@ -24,10 +24,6 @@
 			<artifactId>slf4j-simple</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>fr.lelouet.tools</groupId>
-			<artifactId>YamlSettings</artifactId>
-		</dependency>
 	</dependencies>
 	<name>SDE-raw</name>
 	<description>load the data from CCP's SDE and putit in cache. Then allow to use those data in java</description>

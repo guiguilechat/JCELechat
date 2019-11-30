@@ -73,4 +73,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+		<dependency>
+			<groupId>fr.lelouet.tools</groupId>
+			<artifactId>YamlSettings</artifactId>
+		</dependency>
+	</dependencies>
 </project>
