@@ -1,6 +1,7 @@
 items:
   '''Lance'' Medium EMP Smartbomb I':
     CapacitorNeed: 75.0
+    Cpu: 40.0
     Duration: 10000.0
     EmDamage: 140.0
     EmpFieldRange: 4800
@@ -23,6 +24,7 @@ items:
     volume: 10.0
   '''Pike'' Small EMP Smartbomb I':
     CapacitorNeed: 30.0
+    Cpu: 24.0
     Duration: 10000.0
     EmDamage: 70.0
     EmpFieldRange: 3600
@@ -45,6 +47,7 @@ items:
     volume: 5.0
   '''Warhammer'' Large EMP Smartbomb I':
     CapacitorNeed: 200.0
+    Cpu: 64.0
     Duration: 10000.0
     EmDamage: 350.0
     EmpFieldRange: 6000
@@ -66,7 +69,10 @@ items:
     published: true
     volume: 50.0
   Ahremen's Modified Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 488.0
     EmpFieldRange: 9750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -86,7 +92,10 @@ items:
     published: true
     volume: 50.0
   Ammatar Navy Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 375.0
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -106,7 +115,10 @@ items:
     published: true
     volume: 50.0
   Ammatar Navy Medium EMP Smartbomb:
+    CapacitorNeed: 49.0
+    Cpu: 50.0
     Duration: 10000.0
+    EmDamage: 150.0
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -126,7 +138,10 @@ items:
     published: true
     volume: 10.0
   Ammatar Navy Micro EMP Smartbomb:
+    CapacitorNeed: 10.0
+    Cpu: 20.0
     Duration: 10000.0
+    EmDamage: 38.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -146,7 +161,10 @@ items:
     published: true
     volume: 2.5
   Ammatar Navy Small EMP Smartbomb:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
     Duration: 10000.0
+    EmDamage: 75.0
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -166,7 +184,10 @@ items:
     published: true
     volume: 5.0
   Brokara's Modified Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 413.0
     EmpFieldRange: 8250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -186,6 +207,8 @@ items:
     published: true
     volume: 50.0
   Brynn's Modified Large Plasma Smartbomb:
+    CapacitorNeed: 140.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 7425
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -199,6 +222,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 372.0
     id: 15152
     marketGroup: 381
     mass: 100.0
@@ -206,11 +230,14 @@ items:
     published: true
     volume: 50.0
   Caldari Navy Large Graviton Smartbomb:
+    CapacitorNeed: 160.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 313.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
@@ -226,11 +253,14 @@ items:
     published: true
     volume: 50.0
   Caldari Navy Medium Graviton Smartbomb:
+    CapacitorNeed: 60.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 125.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
@@ -246,11 +276,14 @@ items:
     published: true
     volume: 10.0
   Caldari Navy Micro Graviton Smartbomb:
+    CapacitorNeed: 12.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 31.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
@@ -266,11 +299,14 @@ items:
     published: true
     volume: 2.5
   Caldari Navy Small Graviton Smartbomb:
+    CapacitorNeed: 24.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 63.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
@@ -286,7 +322,10 @@ items:
     published: true
     volume: 5.0
   Chelm's Modified Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 525.0
     EmpFieldRange: 10500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -306,6 +345,8 @@ items:
     published: true
     volume: 50.0
   Cormack's Modified Large Plasma Smartbomb:
+    CapacitorNeed: 140.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 9450
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -319,6 +360,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 473.0
     id: 15158
     marketGroup: 381
     mass: 100.0
@@ -326,7 +368,10 @@ items:
     published: true
     volume: 50.0
   Dark Blood Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 375.0
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -346,7 +391,10 @@ items:
     published: true
     volume: 50.0
   Dark Blood Medium EMP Smartbomb:
+    CapacitorNeed: 49.0
+    Cpu: 50.0
     Duration: 10000.0
+    EmDamage: 150.0
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -366,7 +414,10 @@ items:
     published: true
     volume: 10.0
   Dark Blood Micro EMP Smartbomb:
+    CapacitorNeed: 10.0
+    Cpu: 20.0
     Duration: 10000.0
+    EmDamage: 38.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -386,7 +437,10 @@ items:
     published: true
     volume: 2.5
   Dark Blood Small EMP Smartbomb:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
     Duration: 10000.0
+    EmDamage: 75.0
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -406,8 +460,11 @@ items:
     published: true
     volume: 5.0
   Domination Large Proton Smartbomb:
+    CapacitorNeed: 150.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6500
+    ExplosiveDamage: 325.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -426,8 +483,11 @@ items:
     published: true
     volume: 50.0
   Domination Medium Proton Smartbomb:
+    CapacitorNeed: 56.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 5200
+    ExplosiveDamage: 130.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -446,8 +506,11 @@ items:
     published: true
     volume: 10.0
   Domination Micro Proton Smartbomb:
+    CapacitorNeed: 12.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2600
+    ExplosiveDamage: 33.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -466,8 +529,11 @@ items:
     published: true
     volume: 2.5
   Domination Small Proton Smartbomb:
+    CapacitorNeed: 23.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3900
+    ExplosiveDamage: 65.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -486,7 +552,10 @@ items:
     published: true
     volume: 5.0
   Draclira's Modified Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 525.0
     EmpFieldRange: 10500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -506,11 +575,14 @@ items:
     published: true
     volume: 50.0
   Dread Guristas Large Graviton Smartbomb:
+    CapacitorNeed: 160.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 313.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
@@ -526,11 +598,14 @@ items:
     published: true
     volume: 50.0
   Dread Guristas Medium Graviton Smartbomb:
+    CapacitorNeed: 60.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 125.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
@@ -546,11 +621,14 @@ items:
     published: true
     volume: 10.0
   Dread Guristas Micro Graviton Smartbomb:
+    CapacitorNeed: 12.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 31.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
@@ -566,11 +644,14 @@ items:
     published: true
     volume: 2.5
   Dread Guristas Small Graviton Smartbomb:
+    CapacitorNeed: 24.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 63.0
     MetaGroupID: 4
     MetaLevel: 9
     OverloadSelfDurationBonus: -15.0
@@ -586,11 +667,14 @@ items:
     published: true
     volume: 5.0
   Estamel's Modified Large Graviton Smartbomb:
+    CapacitorNeed: 160.0
+    Cpu: 112.0
     Duration: 10000.0
     EmpFieldRange: 8750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 438.0
     MetaGroupID: 5
     MetaLevel: 14
     OverloadSelfDurationBonus: -15.0
@@ -606,6 +690,8 @@ items:
     published: true
     volume: 50.0
   Federation Navy Large Plasma Smartbomb:
+    CapacitorNeed: 140.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6750
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -619,6 +705,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 338.0
     id: 15955
     marketGroup: 381
     mass: 100.0
@@ -626,6 +713,8 @@ items:
     published: true
     volume: 50.0
   Federation Navy Medium Plasma Smartbomb:
+    CapacitorNeed: 53.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 5400
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -639,6 +728,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 135.0
     id: 15953
     marketGroup: 383
     mass: 100.0
@@ -646,6 +736,8 @@ items:
     published: true
     volume: 10.0
   Federation Navy Micro Plasma Smartbomb:
+    CapacitorNeed: 11.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2700
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -659,6 +751,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 34.0
     id: 15951
     marketGroup: 380
     mass: 100.0
@@ -666,6 +759,8 @@ items:
     published: true
     volume: 2.5
   Federation Navy Small Plasma Smartbomb:
+    CapacitorNeed: 21.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 4050
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -679,6 +774,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 68.0
     id: 15949
     marketGroup: 382
     mass: 10.0
@@ -686,8 +782,11 @@ items:
     published: true
     volume: 5.0
   Gotan's Modified Large Proton Smartbomb:
+    CapacitorNeed: 150.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 8450
+    ExplosiveDamage: 423.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -706,8 +805,11 @@ items:
     published: true
     volume: 50.0
   Hakim's Modified Large Proton Smartbomb:
+    CapacitorNeed: 150.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 7800
+    ExplosiveDamage: 390.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -726,7 +828,10 @@ items:
     published: true
     volume: 50.0
   Imperial Navy Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 375.0
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -746,7 +851,10 @@ items:
     published: true
     volume: 50.0
   Imperial Navy Medium EMP Smartbomb:
+    CapacitorNeed: 49.0
+    Cpu: 50.0
     Duration: 10000.0
+    EmDamage: 150.0
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -766,7 +874,10 @@ items:
     published: true
     volume: 10.0
   Imperial Navy Micro EMP Smartbomb:
+    CapacitorNeed: 10.0
+    Cpu: 20.0
     Duration: 10000.0
+    EmDamage: 38.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -786,7 +897,10 @@ items:
     published: true
     volume: 2.5
   Imperial Navy Small EMP Smartbomb:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
     Duration: 10000.0
+    EmDamage: 75.0
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -806,11 +920,14 @@ items:
     published: true
     volume: 5.0
   Kaikka's Modified Large Graviton Smartbomb:
+    CapacitorNeed: 160.0
+    Cpu: 88.0
     Duration: 10000.0
     EmpFieldRange: 6875
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 344.0
     MetaGroupID: 5
     MetaLevel: 11
     OverloadSelfDurationBonus: -15.0
@@ -826,7 +943,10 @@ items:
     published: true
     volume: 50.0
   Khanid Navy Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 375.0
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -846,7 +966,10 @@ items:
     published: true
     volume: 50.0
   Khanid Navy Medium EMP Smartbomb:
+    CapacitorNeed: 49.0
+    Cpu: 50.0
     Duration: 10000.0
+    EmDamage: 150.0
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -866,7 +989,10 @@ items:
     published: true
     volume: 10.0
   Khanid Navy Small EMP Smartbomb:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
     Duration: 10000.0
+    EmDamage: 75.0
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -886,8 +1012,11 @@ items:
     published: true
     volume: 5.0
   Large 'Notos' Explosive Charge I:
+    CapacitorNeed: 200.0
+    Cpu: 76.0
     Duration: 10000.0
     EmpFieldRange: 5000
+    ExplosiveDamage: 300.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -905,7 +1034,10 @@ items:
     published: true
     volume: 50.0
   Large 'Vehemence' Shockwave Charge:
+    CapacitorNeed: 200.0
+    Cpu: 64.0
     Duration: 10000.0
+    EmDamage: 300.0
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -925,6 +1057,7 @@ items:
     volume: 50.0
   Large Degenerative Concussion Bomb I:
     CapacitorNeed: 200.0
+    Cpu: 68.0
     Duration: 10000.0
     EmpFieldRange: 6000
     ExplosiveDamage: 250.0
@@ -947,7 +1080,9 @@ items:
     volume: 50.0
   Large EMP Smartbomb I:
     CapacitorNeed: 200.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 250.0
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -966,6 +1101,7 @@ items:
     volume: 50.0
   Large EMP Smartbomb II:
     CapacitorNeed: 220.0
+    Cpu: 80.0
     Duration: 10000.0
     EmDamage: 300.0
     EmpFieldRange: 6000
@@ -987,11 +1123,13 @@ items:
     volume: 50.0
   Large Graviton Smartbomb I:
     CapacitorNeed: 200.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 250.0
     OverloadSelfDurationBonus: -15.0
     Power: 1000
     RequiredSkill1: 3421
@@ -1006,6 +1144,7 @@ items:
     volume: 50.0
   Large Graviton Smartbomb II:
     CapacitorNeed: 220.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -1027,6 +1166,7 @@ items:
     volume: 50.0
   Large Plasma Smartbomb I:
     CapacitorNeed: 200.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1038,6 +1178,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 250.0
     id: 3987
     marketGroup: 381
     mass: 100.0
@@ -1046,6 +1187,7 @@ items:
     volume: 50.0
   Large Plasma Smartbomb II:
     CapacitorNeed: 220.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -1067,6 +1209,7 @@ items:
     volume: 50.0
   Large Proton Smartbomb I:
     CapacitorNeed: 200.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 5000
     ExplosiveDamage: 250.0
@@ -1087,6 +1230,7 @@ items:
     volume: 50.0
   Large Proton Smartbomb II:
     CapacitorNeed: 220.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6000
     ExplosiveDamage: 300.0
@@ -1107,11 +1251,14 @@ items:
     published: true
     volume: 50.0
   Large Rudimentary Concussion Bomb I:
+    CapacitorNeed: 200.0
+    Cpu: 72.0
     Duration: 10000.0
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 300.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 1000
@@ -1126,6 +1273,8 @@ items:
     published: true
     volume: 50.0
   Large YF-12a Smartbomb:
+    CapacitorNeed: 200.0
+    Cpu: 68.0
     Duration: 10000.0
     EmpFieldRange: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1138,6 +1287,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 300.0
     id: 9808
     marketGroup: 381
     mass: 100.0
@@ -1145,8 +1295,11 @@ items:
     published: true
     volume: 50.0
   Medium 'Notos' Explosive Charge I:
+    CapacitorNeed: 75.0
+    Cpu: 47.0
     Duration: 10000.0
     EmpFieldRange: 4000
+    ExplosiveDamage: 120.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -1164,7 +1317,10 @@ items:
     published: true
     volume: 10.0
   Medium 'Vehemence' Shockwave Charge:
+    CapacitorNeed: 75.0
+    Cpu: 40.0
     Duration: 10000.0
+    EmDamage: 120.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1184,6 +1340,7 @@ items:
     volume: 10.0
   Medium Degenerative Concussion Bomb I:
     CapacitorNeed: 75.0
+    Cpu: 43.0
     Duration: 10000.0
     EmpFieldRange: 4800
     ExplosiveDamage: 100.0
@@ -1206,7 +1363,9 @@ items:
     volume: 10.0
   Medium EMP Smartbomb I:
     CapacitorNeed: 75.0
+    Cpu: 50.0
     Duration: 10000.0
+    EmDamage: 100.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1225,7 +1384,9 @@ items:
     volume: 25.0
   Medium EMP Smartbomb II:
     CapacitorNeed: 75.0
+    Cpu: 50.0
     Duration: 10000.0
+    EmDamage: 140.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
@@ -1245,11 +1406,13 @@ items:
     volume: 10.0
   Medium Graviton Smartbomb I:
     CapacitorNeed: 75.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 100.0
     OverloadSelfDurationBonus: -15.0
     Power: 200
     RequiredSkill1: 3421
@@ -1264,11 +1427,13 @@ items:
     volume: 25.0
   Medium Graviton Smartbomb II:
     CapacitorNeed: 75.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 140.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 200
@@ -1284,6 +1449,7 @@ items:
     volume: 10.0
   Medium Plasma Smartbomb I:
     CapacitorNeed: 75.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1295,6 +1461,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 100.0
     id: 3947
     marketGroup: 383
     mass: 100.0
@@ -1303,6 +1470,7 @@ items:
     volume: 25.0
   Medium Plasma Smartbomb II:
     CapacitorNeed: 75.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -1315,6 +1483,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    ThermalDamage: 140.0
     id: 3949
     marketGroup: 383
     mass: 100.0
@@ -1323,6 +1492,7 @@ items:
     volume: 10.0
   Medium Proton Smartbomb I:
     CapacitorNeed: 75.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 4000
     ExplosiveDamage: 100.0
@@ -1343,6 +1513,7 @@ items:
     volume: 25.0
   Medium Proton Smartbomb II:
     CapacitorNeed: 75.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 4000
     ExplosiveDamage: 140.0
@@ -1363,11 +1534,14 @@ items:
     published: true
     volume: 10.0
   Medium Rudimentary Concussion Bomb I:
+    CapacitorNeed: 75.0
+    Cpu: 45.0
     Duration: 10000.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 120.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 200
@@ -1382,6 +1556,8 @@ items:
     published: true
     volume: 10.0
   Medium YF-12a Smartbomb:
+    CapacitorNeed: 75.0
+    Cpu: 42.0
     Duration: 10000.0
     EmpFieldRange: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1394,6 +1570,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 120.0
     id: 9800
     marketGroup: 383
     mass: 100.0
@@ -1401,8 +1578,11 @@ items:
     published: true
     volume: 10.0
   Micro 'Notos' Explosive Charge I:
+    CapacitorNeed: 15.0
+    Cpu: 19.0
     Duration: 10000.0
     EmpFieldRange: 2000
+    ExplosiveDamage: 30.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -1420,7 +1600,10 @@ items:
     published: true
     volume: 2.5
   Micro 'Vehemence' Shockwave Charge:
+    CapacitorNeed: 15.0
+    Cpu: 16.0
     Duration: 10000.0
+    EmDamage: 30.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1440,6 +1623,7 @@ items:
     volume: 2.5
   Micro Degenerative Concussion Bomb I:
     CapacitorNeed: 30.0
+    Cpu: 26.0
     Duration: 10000.0
     EmpFieldRange: 3600
     ExplosiveDamage: 50.0
@@ -1462,7 +1646,9 @@ items:
     volume: 5.0
   Micro EMP Smartbomb I:
     CapacitorNeed: 15.0
+    Cpu: 20.0
     Duration: 10000.0
+    EmDamage: 25.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1481,7 +1667,9 @@ items:
     volume: 2.5
   Micro EMP Smartbomb II:
     CapacitorNeed: 15.0
+    Cpu: 20.0
     Duration: 10000.0
+    EmDamage: 35.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
@@ -1501,11 +1689,13 @@ items:
     volume: 2.5
   Micro Graviton Smartbomb I:
     CapacitorNeed: 15.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 25.0
     OverloadSelfDurationBonus: -15.0
     Power: 5
     RequiredSkill1: 3421
@@ -1520,11 +1710,13 @@ items:
     volume: 2.5
   Micro Graviton Smartbomb II:
     CapacitorNeed: 15.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 35.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 5
@@ -1540,6 +1732,7 @@ items:
     volume: 2.5
   Micro Plasma Smartbomb I:
     CapacitorNeed: 15.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1551,6 +1744,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 25.0
     id: 3907
     marketGroup: 380
     mass: 100.0
@@ -1559,6 +1753,7 @@ items:
     volume: 2.5
   Micro Plasma Smartbomb II:
     CapacitorNeed: 15.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -1571,6 +1766,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    ThermalDamage: 35.0
     id: 3909
     marketGroup: 380
     mass: 100.0
@@ -1579,6 +1775,7 @@ items:
     volume: 2.5
   Micro Proton Smartbomb I:
     CapacitorNeed: 15.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2000
     ExplosiveDamage: 25.0
@@ -1599,6 +1796,7 @@ items:
     volume: 2.5
   Micro Proton Smartbomb II:
     CapacitorNeed: 15.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2000
     ExplosiveDamage: 35.0
@@ -1619,11 +1817,14 @@ items:
     published: true
     volume: 2.5
   Micro Rudimentary Concussion Bomb I:
+    CapacitorNeed: 15.0
+    Cpu: 18.0
     Duration: 10000.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 30.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 5
@@ -1638,6 +1839,8 @@ items:
     published: true
     volume: 2.5
   Micro YF-12a Smartbomb:
+    CapacitorNeed: 15.0
+    Cpu: 17.0
     Duration: 10000.0
     EmpFieldRange: 2000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1650,6 +1853,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 30.0
     id: 9790
     marketGroup: 380
     mass: 100.0
@@ -1657,8 +1861,11 @@ items:
     published: true
     volume: 2.5
   Mizuro's Modified Large Proton Smartbomb:
+    CapacitorNeed: 150.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 7150
+    ExplosiveDamage: 358.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -1677,7 +1884,10 @@ items:
     published: true
     volume: 50.0
   Raysere's Modified Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 450.0
     EmpFieldRange: 9000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1697,8 +1907,11 @@ items:
     published: true
     volume: 50.0
   Republic Fleet Large Proton Smartbomb:
+    CapacitorNeed: 150.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6500
+    ExplosiveDamage: 325.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -1717,8 +1930,11 @@ items:
     published: true
     volume: 50.0
   Republic Fleet Medium Proton Smartbomb:
+    CapacitorNeed: 56.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 5200
+    ExplosiveDamage: 130.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -1737,8 +1953,11 @@ items:
     published: true
     volume: 10.0
   Republic Fleet Micro Proton Smartbomb:
+    CapacitorNeed: 12.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2600
+    ExplosiveDamage: 33.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -1757,8 +1976,11 @@ items:
     published: true
     volume: 2.5
   Republic Fleet Small Proton Smartbomb:
+    CapacitorNeed: 23.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3900
+    ExplosiveDamage: 65.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -1777,7 +1999,10 @@ items:
     published: true
     volume: 5.0
   Selynne's Modified Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 450.0
     EmpFieldRange: 9000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1797,6 +2022,8 @@ items:
     published: true
     volume: 50.0
   Setele's Modified Large Plasma Smartbomb:
+    CapacitorNeed: 140.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 8775
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1810,6 +2037,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 440.0
     id: 15156
     marketGroup: 381
     mass: 100.0
@@ -1817,6 +2045,8 @@ items:
     published: true
     volume: 50.0
   Shadow Serpentis Large Plasma Smartbomb:
+    CapacitorNeed: 140.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 6750
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1830,6 +2060,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 338.0
     id: 14206
     marketGroup: 381
     mass: 100.0
@@ -1837,6 +2068,8 @@ items:
     published: true
     volume: 50.0
   Shadow Serpentis Medium Plasma Smartbomb:
+    CapacitorNeed: 53.0
+    Cpu: 50.0
     Duration: 10000.0
     EmpFieldRange: 5400
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1850,6 +2083,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 135.0
     id: 14220
     marketGroup: 383
     mass: 100.0
@@ -1857,6 +2091,8 @@ items:
     published: true
     volume: 10.0
   Shadow Serpentis Micro Plasma Smartbomb:
+    CapacitorNeed: 11.0
+    Cpu: 20.0
     Duration: 10000.0
     EmpFieldRange: 2700
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1870,6 +2106,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 34.0
     id: 14218
     marketGroup: 380
     mass: 100.0
@@ -1877,6 +2114,8 @@ items:
     published: true
     volume: 2.5
   Shadow Serpentis Small Plasma Smartbomb:
+    CapacitorNeed: 21.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 4050
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1890,6 +2129,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 68.0
     id: 14228
     marketGroup: 382
     mass: 10.0
@@ -1897,8 +2137,11 @@ items:
     published: true
     volume: 5.0
   Small 'Notos' Explosive Charge I:
+    CapacitorNeed: 30.0
+    Cpu: 28.0
     Duration: 10000.0
     EmpFieldRange: 3000
+    ExplosiveDamage: 60.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -1916,7 +2159,10 @@ items:
     published: true
     volume: 5.0
   Small 'Vehemence' Shockwave Charge:
+    CapacitorNeed: 30.0
+    Cpu: 24.0
     Duration: 10000.0
+    EmDamage: 60.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1936,6 +2182,7 @@ items:
     volume: 5.0
   Small Degenerative Concussion Bomb I:
     CapacitorNeed: 15.0
+    Cpu: 17.0
     Duration: 10000.0
     EmpFieldRange: 2400
     ExplosiveDamage: 25.0
@@ -1958,7 +2205,9 @@ items:
     volume: 2.5
   Small EMP Smartbomb I:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 10000.0
+    EmDamage: 50.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1977,7 +2226,9 @@ items:
     volume: 12.5
   Small EMP Smartbomb II:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 10000.0
+    EmDamage: 70.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
@@ -1997,11 +2248,13 @@ items:
     volume: 5.0
   Small Graviton Smartbomb I:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 50.0
     OverloadSelfDurationBonus: -15.0
     Power: 8
     RequiredSkill1: 3421
@@ -2016,11 +2269,13 @@ items:
     volume: 12.5
   Small Graviton Smartbomb II:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 70.0
     MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
     Power: 8
@@ -2036,6 +2291,7 @@ items:
     volume: 5.0
   Small Plasma Smartbomb I:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -2047,6 +2303,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 50.0
     id: 1557
     marketGroup: 382
     mass: 10.0
@@ -2055,6 +2312,7 @@ items:
     volume: 12.5
   Small Plasma Smartbomb II:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -2067,6 +2325,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    ThermalDamage: 70.0
     id: 1559
     marketGroup: 382
     mass: 40.0
@@ -2075,6 +2334,7 @@ items:
     volume: 5.0
   Small Proton Smartbomb I:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3000
     ExplosiveDamage: 50.0
@@ -2095,6 +2355,7 @@ items:
     volume: 12.5
   Small Proton Smartbomb II:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 10000.0
     EmpFieldRange: 3000
     ExplosiveDamage: 70.0
@@ -2115,11 +2376,14 @@ items:
     published: true
     volume: 5.0
   Small Rudimentary Concussion Bomb I:
+    CapacitorNeed: 30.0
+    Cpu: 27.0
     Duration: 10000.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 60.0
     MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
     Power: 8
@@ -2134,6 +2398,8 @@ items:
     published: true
     volume: 5.0
   Small YF-12a Smartbomb:
+    CapacitorNeed: 30.0
+    Cpu: 25.0
     Duration: 10000.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -2146,6 +2412,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 60.0
     id: 9784
     marketGroup: 382
     mass: 10.0
@@ -2153,7 +2420,10 @@ items:
     published: true
     volume: 5.0
   Tairei's Modified Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 413.0
     EmpFieldRange: 8250
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -2173,11 +2443,14 @@ items:
     published: true
     volume: 50.0
   Thon's Modified Large Graviton Smartbomb:
+    CapacitorNeed: 160.0
+    Cpu: 96.0
     Duration: 10000.0
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 375.0
     MetaGroupID: 5
     MetaLevel: 12
     OverloadSelfDurationBonus: -15.0
@@ -2193,8 +2466,11 @@ items:
     published: true
     volume: 50.0
   Tobias' Modified Large Proton Smartbomb:
+    CapacitorNeed: 150.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 9100
+    ExplosiveDamage: 455.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
@@ -2214,7 +2490,9 @@ items:
     volume: 50.0
   True Sansha Large EMP Smartbomb:
     CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 375.0
     EmpFieldRange: 7500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -2235,7 +2513,9 @@ items:
     volume: 50.0
   True Sansha Medium EMP Smartbomb:
     CapacitorNeed: 49.0
+    Cpu: 50.0
     Duration: 10000.0
+    EmDamage: 150.0
     EmpFieldRange: 6000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -2256,7 +2536,9 @@ items:
     volume: 10.0
   True Sansha Micro EMP Smartbomb:
     CapacitorNeed: 10.0
+    Cpu: 20.0
     Duration: 10000.0
+    EmDamage: 38.0
     EmpFieldRange: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -2277,7 +2559,9 @@ items:
     volume: 2.5
   True Sansha Small EMP Smartbomb:
     CapacitorNeed: 20.0
+    Cpu: 30.0
     Duration: 10000.0
+    EmDamage: 75.0
     EmpFieldRange: 4500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -2297,6 +2581,8 @@ items:
     published: true
     volume: 5.0
   Tuvan's Modified Large Plasma Smartbomb:
+    CapacitorNeed: 140.0
+    Cpu: 80.0
     Duration: 10000.0
     EmpFieldRange: 8100
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -2310,6 +2596,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    ThermalDamage: 405.0
     id: 15154
     marketGroup: 381
     mass: 100.0
@@ -2317,11 +2604,14 @@ items:
     published: true
     volume: 50.0
   Vepas' Modified Large Graviton Smartbomb:
+    CapacitorNeed: 160.0
+    Cpu: 104.0
     Duration: 10000.0
     EmpFieldRange: 8125
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
     Hp: 40
+    KineticDamage: 407.0
     MetaGroupID: 5
     MetaLevel: 13
     OverloadSelfDurationBonus: -15.0
@@ -2337,7 +2627,10 @@ items:
     published: true
     volume: 50.0
   Vizan's Modified Large EMP Smartbomb:
+    CapacitorNeed: 130.0
+    Cpu: 80.0
     Duration: 10000.0
+    EmDamage: 488.0
     EmpFieldRange: 9750
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137

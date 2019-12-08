@@ -7,10 +7,12 @@ items:
     ExplosionDelay: 100000
     Hp: 10
     LauncherGroup: 56
+    MaxVelocity: 1000.0
     MissileNeverDoesDamage: 1
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    ThermalDamage: -10.0
     id: 19658
     marketGroup: 1663
     mass: 100.0

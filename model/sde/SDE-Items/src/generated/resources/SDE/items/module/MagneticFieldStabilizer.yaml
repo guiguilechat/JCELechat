@@ -44,6 +44,7 @@ items:
     published: true
     volume: 1.0
   Brynn's Modified Magnetic Field Stabilizer:
+    Cpu: 22.0
     DamageMultiplier: 1.1299999952316284
     Hp: 40
     MetaGroupID: 5
@@ -59,6 +60,7 @@ items:
     published: true
     volume: 5.0
   Cormack's Modified Magnetic Field Stabilizer:
+    Cpu: 28.0
     DamageMultiplier: 1.1449999809265137
     Hp: 40
     MetaGroupID: 5
@@ -74,6 +76,7 @@ items:
     published: true
     volume: 5.0
   Federation Navy Magnetic Field Stabilizer:
+    Cpu: 20.0
     DamageMultiplier: 1.1200000047683716
     Hp: 40
     MetaGroupID: 4
@@ -119,6 +122,7 @@ items:
     published: true
     volume: 5.0
   Magnetic Field Stabilizer II:
+    Cpu: 30.0
     DamageMultiplier: 1.100000023841858
     Hp: 40
     MetaLevel: 5
@@ -133,6 +137,7 @@ items:
     published: true
     volume: 5.0
   Naiyon's Modified Magnetic Field Stabilizer:
+    Cpu: 24.0
     DamageMultiplier: 1.1375000476837158
     Hp: 40
     MetaGroupID: 3
@@ -148,6 +153,7 @@ items:
     published: true
     volume: 5.0
   Setele's Modified Magnetic Field Stabilizer:
+    Cpu: 26.0
     DamageMultiplier: 1.1399999856948853
     Hp: 40
     MetaGroupID: 5
@@ -163,6 +169,7 @@ items:
     published: true
     volume: 5.0
   Shadow Serpentis Magnetic Field Stabilizer:
+    Cpu: 20.0
     DamageMultiplier: 1.1200000047683716
     Hp: 40
     MetaGroupID: 4
@@ -194,6 +201,7 @@ items:
     published: true
     volume: 5.0
   Tuvan's Modified Magnetic Field Stabilizer:
+    Cpu: 24.0
     DamageMultiplier: 1.1349999904632568
     Hp: 40
     MetaGroupID: 5

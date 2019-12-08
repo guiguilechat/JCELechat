@@ -13,6 +13,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 21000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 35000
@@ -69,6 +70,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 249000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 150000
@@ -125,6 +127,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 16000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 26000
@@ -181,6 +184,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 225000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 112000
@@ -237,6 +241,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 21000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 35000
@@ -294,6 +299,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 249000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 150000
@@ -351,6 +357,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 16000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 26000
@@ -408,6 +415,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 225000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 112000
@@ -465,6 +473,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 10000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 17000
@@ -522,6 +531,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 150000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 75000
@@ -579,6 +589,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 21000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 35000
@@ -636,6 +647,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 249000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 150000
@@ -693,6 +705,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 16000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 26000
@@ -750,6 +763,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 225000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 112000
@@ -807,6 +821,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 10000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 17000
@@ -864,6 +879,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 150000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 75000
@@ -921,6 +937,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 10000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 17000
@@ -977,6 +994,7 @@ items:
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 150000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     Falloff: 75000

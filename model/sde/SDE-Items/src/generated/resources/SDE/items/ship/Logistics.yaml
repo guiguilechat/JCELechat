@@ -242,6 +242,7 @@ items:
     ShieldRechargeRate: 1250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
+    ShipBonusAC: 150.0
     ShipBonusAC2: 60.0
     ShipBonusCC: 5
     ShipBonusGC: 5.0

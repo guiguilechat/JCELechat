@@ -61,6 +61,7 @@ items:
     MaxPassengers: 150
     MaxRangeBonus: 400.0
     MaxTargetRange: 200000
+    MaxVelocity: 60.0
     MedSlots: 7
     PowerOutput: 420000
     PowerToSpeed: 1

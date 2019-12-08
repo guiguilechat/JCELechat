@@ -45,6 +45,7 @@ items:
     volume: 5.0
   Expanded Probe Launcher I:
     ChargeGroup1: 479
+    Cpu: 220.0
     DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
@@ -133,6 +134,7 @@ items:
     volume: 5.0
   Sisters Expanded Probe Launcher:
     ChargeGroup1: 479
+    Cpu: 210.0
     DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40

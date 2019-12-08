@@ -1,5 +1,6 @@
 items:
   '''Hypnos'' Signal Distortion Amplifier I':
+    Cpu: 29.0
     EcmRangeBonus: 10
     EcmStrengthBonusPercent: 10
     Hp: 40
@@ -15,6 +16,7 @@ items:
     published: true
     volume: 5.0
   Compulsive Signal Distortion Amplifier I:
+    Cpu: 28.0
     EcmRangeBonus: 9
     EcmStrengthBonusPercent: 9
     Hp: 40
@@ -30,6 +32,7 @@ items:
     published: true
     volume: 5.0
   Induced Signal Distortion Amplifier I:
+    Cpu: 27.0
     EcmRangeBonus: 8
     EcmStrengthBonusPercent: 8
     Hp: 40
@@ -45,6 +48,7 @@ items:
     published: true
     volume: 5.0
   Initiated Signal Distortion Amplifier I:
+    Cpu: 26.0
     EcmRangeBonus: 7
     EcmStrengthBonusPercent: 7
     Hp: 40
@@ -60,6 +64,7 @@ items:
     published: true
     volume: 5.0
   Signal Distortion Amplifier I:
+    Cpu: 30.0
     EcmRangeBonus: 5
     EcmStrengthBonusPercent: 5
     Hp: 40
@@ -74,6 +79,7 @@ items:
     published: true
     volume: 5.0
   Signal Distortion Amplifier II:
+    Cpu: 30.0
     EcmRangeBonus: 10
     EcmStrengthBonusPercent: 10
     Hp: 40

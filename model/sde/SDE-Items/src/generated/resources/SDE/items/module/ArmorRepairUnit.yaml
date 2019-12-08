@@ -2,6 +2,7 @@ items:
   '''Gorget'' Small Armor Repairer I':
     ArmorDamageAmount: 92
     CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -26,6 +27,7 @@ items:
   '''Greaves'' Medium Armor Repairer I':
     ArmorDamageAmount: 368
     CapacitorNeed: 160.0
+    Cpu: 20.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -50,6 +52,7 @@ items:
   '''Harmony'' Small Armor Repairer I':
     ArmorDamageAmount: 104
     CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
@@ -74,6 +77,7 @@ items:
   '''Hauberk'' Large Armor Repairer I':
     ArmorDamageAmount: 920
     CapacitorNeed: 400.0
+    Cpu: 40.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -98,6 +102,7 @@ items:
   '''Meditation'' Medium Armor Repairer I':
     ArmorDamageAmount: 414
     CapacitorNeed: 160.0
+    Cpu: 20.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
@@ -122,6 +127,7 @@ items:
   '''Protest'' Large Armor Repairer I':
     ArmorDamageAmount: 1035
     CapacitorNeed: 400.0
+    Cpu: 40.0
     Duration: 16875.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
@@ -145,6 +151,8 @@ items:
     volume: 50.0
   Ahremen's Modified Large Armor Repairer:
     ArmorDamageAmount: 1346
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -168,6 +176,8 @@ items:
     volume: 50.0
   Ammatar Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -191,6 +201,8 @@ items:
     volume: 50.0
   Ammatar Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
+    CapacitorNeed: 180.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -214,6 +226,8 @@ items:
     volume: 10.0
   Ammatar Navy Small Armor Repairer:
     ArmorDamageAmount: 104
+    CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -237,6 +251,8 @@ items:
     volume: 5.0
   Brokara's Modified Large Armor Repairer:
     ArmorDamageAmount: 1139
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -260,6 +276,8 @@ items:
     volume: 50.0
   Brynn's Modified Large Armor Repairer:
     ArmorDamageAmount: 1012
+    CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -329,6 +347,7 @@ items:
   Capital Armor Repairer I:
     ArmorDamageAmount: 9600
     CapacitorNeed: 2400.0
+    Cpu: 75.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137
@@ -393,6 +412,7 @@ items:
   Centii A-Type Small Armor Repairer:
     ArmorDamageAmount: 135
     CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -417,6 +437,7 @@ items:
   Centii B-Type Small Armor Repairer:
     ArmorDamageAmount: 124
     CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -441,6 +462,7 @@ items:
   Centii C-Type Small Armor Repairer:
     ArmorDamageAmount: 114
     CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -465,6 +487,7 @@ items:
   Centum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 538
     CapacitorNeed: 180.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -489,6 +512,7 @@ items:
   Centum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 497
     CapacitorNeed: 180.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -513,6 +537,7 @@ items:
   Centum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 455
     CapacitorNeed: 180.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -537,6 +562,7 @@ items:
   Centus A-Type Large Armor Repairer:
     ArmorDamageAmount: 1346
     CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -561,6 +587,7 @@ items:
   Centus B-Type Large Armor Repairer:
     ArmorDamageAmount: 1242
     CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -585,6 +612,7 @@ items:
   Centus C-Type Large Armor Repairer:
     ArmorDamageAmount: 1139
     CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -609,6 +637,7 @@ items:
   Centus X-Type Large Armor Repairer:
     ArmorDamageAmount: 1449
     CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -632,6 +661,8 @@ items:
     volume: 50.0
   Chelm's Modified Large Armor Repairer:
     ArmorDamageAmount: 1449
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -656,6 +687,7 @@ items:
   Civilian Armor Repairer:
     ArmorDamageAmount: 15
     CapacitorNeed: 3.0
+    Cpu: 1.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 8.0
@@ -676,6 +708,7 @@ items:
   Core A-Type Large Armor Repairer:
     ArmorDamageAmount: 1196
     CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -700,6 +733,7 @@ items:
   Core B-Type Large Armor Repairer:
     ArmorDamageAmount: 1104
     CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -724,6 +758,7 @@ items:
   Core C-Type Large Armor Repairer:
     ArmorDamageAmount: 1012
     CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -748,6 +783,7 @@ items:
   Core X-Type Large Armor Repairer:
     ArmorDamageAmount: 1288
     CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -772,6 +808,7 @@ items:
   Coreli A-Type Small Armor Repairer:
     ArmorDamageAmount: 120
     CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -796,6 +833,7 @@ items:
   Coreli B-Type Small Armor Repairer:
     ArmorDamageAmount: 110
     CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -820,6 +858,7 @@ items:
   Coreli C-Type Small Armor Repairer:
     ArmorDamageAmount: 101
     CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -844,6 +883,7 @@ items:
   Corelum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 478
     CapacitorNeed: 160.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -868,6 +908,7 @@ items:
   Corelum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 442
     CapacitorNeed: 160.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -892,6 +933,7 @@ items:
   Corelum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 405
     CapacitorNeed: 160.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -915,6 +957,8 @@ items:
     volume: 10.0
   Cormack's Modified Large Armor Repairer:
     ArmorDamageAmount: 1288
+    CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -939,6 +983,7 @@ items:
   Corpii A-Type Small Armor Repairer:
     ArmorDamageAmount: 135
     CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -963,6 +1008,7 @@ items:
   Corpii B-Type Small Armor Repairer:
     ArmorDamageAmount: 124
     CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -987,6 +1033,7 @@ items:
   Corpii C-Type Small Armor Repairer:
     ArmorDamageAmount: 114
     CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1011,6 +1058,7 @@ items:
   Corpum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 538
     CapacitorNeed: 180.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1035,6 +1083,7 @@ items:
   Corpum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 497
     CapacitorNeed: 180.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1059,6 +1108,7 @@ items:
   Corpum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 455
     CapacitorNeed: 180.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1083,6 +1133,7 @@ items:
   Corpus A-Type Large Armor Repairer:
     ArmorDamageAmount: 1346
     CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1107,6 +1158,7 @@ items:
   Corpus B-Type Large Armor Repairer:
     ArmorDamageAmount: 1242
     CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1131,6 +1183,7 @@ items:
   Corpus C-Type Large Armor Repairer:
     ArmorDamageAmount: 1139
     CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1155,6 +1208,7 @@ items:
   Corpus X-Type Large Armor Repairer:
     ArmorDamageAmount: 1449
     CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1201,6 +1255,8 @@ items:
     volume: 4000.0
   Dark Blood Large Armor Repairer:
     ArmorDamageAmount: 1035
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1224,6 +1280,8 @@ items:
     volume: 50.0
   Dark Blood Medium Armor Repairer:
     ArmorDamageAmount: 414
+    CapacitorNeed: 180.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1247,6 +1305,8 @@ items:
     volume: 10.0
   Dark Blood Small Armor Repairer:
     ArmorDamageAmount: 104
+    CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1270,6 +1330,8 @@ items:
     volume: 5.0
   Domination Large Armor Repairer:
     ArmorDamageAmount: 828
+    CapacitorNeed: 360.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1293,6 +1355,8 @@ items:
     volume: 50.0
   Domination Medium Armor Repairer:
     ArmorDamageAmount: 331
+    CapacitorNeed: 144.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1316,6 +1380,8 @@ items:
     volume: 10.0
   Domination Small Armor Repairer:
     ArmorDamageAmount: 83
+    CapacitorNeed: 36.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1339,6 +1405,8 @@ items:
     volume: 5.0
   Draclira's Modified Large Armor Repairer:
     ArmorDamageAmount: 1449
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1362,6 +1430,8 @@ items:
     volume: 50.0
   Federation Navy Large Armor Repairer:
     ArmorDamageAmount: 920
+    CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1385,6 +1455,8 @@ items:
     volume: 50.0
   Federation Navy Medium Armor Repairer:
     ArmorDamageAmount: 368
+    CapacitorNeed: 160.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1408,6 +1480,8 @@ items:
     volume: 10.0
   Federation Navy Small Armor Repairer:
     ArmorDamageAmount: 92
+    CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1431,6 +1505,8 @@ items:
     volume: 5.0
   Gotan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1076
+    CapacitorNeed: 360.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1454,6 +1530,8 @@ items:
     volume: 50.0
   Imperial Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1477,6 +1555,8 @@ items:
     volume: 50.0
   Imperial Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
+    CapacitorNeed: 180.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1500,6 +1580,8 @@ items:
     volume: 10.0
   Imperial Navy Small Armor Repairer:
     ArmorDamageAmount: 104
+    CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1523,6 +1605,8 @@ items:
     volume: 5.0
   Khanid Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1546,6 +1630,8 @@ items:
     volume: 50.0
   Khanid Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
+    CapacitorNeed: 180.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1569,6 +1655,8 @@ items:
     volume: 10.0
   Khanid Navy Small Armor Repairer:
     ArmorDamageAmount: 104
+    CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1592,6 +1680,8 @@ items:
     volume: 5.0
   Large 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 828
+    CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1615,6 +1705,7 @@ items:
   Large 'Reprieve' Vestment Reconstructer I:
     ArmorDamageAmount: 1104
     CapacitorNeed: 400.0
+    Cpu: 72.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.400000095367432
@@ -1648,6 +1739,7 @@ items:
   Large Armor Repairer I:
     ArmorDamageAmount: 690
     CapacitorNeed: 400.0
+    Cpu: 50.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1670,6 +1762,7 @@ items:
   Large Armor Repairer II:
     ArmorDamageAmount: 920
     CapacitorNeed: 400.0
+    Cpu: 55.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.400000095367432
@@ -1692,6 +1785,8 @@ items:
     volume: 50.0
   Large Automated Carapace Restoration:
     ArmorDamageAmount: 794
+    CapacitorNeed: 400.0
+    Cpu: 49.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1714,6 +1809,8 @@ items:
     volume: 50.0
   Large I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 725
+    CapacitorNeed: 400.0
+    Cpu: 47.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1736,6 +1833,8 @@ items:
     volume: 50.0
   Large Inefficient Armor Repair Unit:
     ArmorDamageAmount: 759
+    CapacitorNeed: 400.0
+    Cpu: 48.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1758,6 +1857,8 @@ items:
     volume: 50.0
   Medium 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 331
+    CapacitorNeed: 160.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1792,6 +1893,7 @@ items:
   Medium Armor Repairer I:
     ArmorDamageAmount: 276
     CapacitorNeed: 160.0
+    Cpu: 25.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1813,6 +1915,8 @@ items:
     volume: 10.0
   Medium Armor Repairer II:
     ArmorDamageAmount: 368
+    CapacitorNeed: 160.0
+    Cpu: 28.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.300000190734863
@@ -1835,6 +1939,8 @@ items:
     volume: 10.0
   Medium Automated Carapace Restoration:
     ArmorDamageAmount: 317
+    CapacitorNeed: 160.0
+    Cpu: 20.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1857,6 +1963,8 @@ items:
     volume: 10.0
   Medium I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 290
+    CapacitorNeed: 160.0
+    Cpu: 22.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1879,6 +1987,8 @@ items:
     volume: 10.0
   Medium Inefficient Armor Repair Unit:
     ArmorDamageAmount: 304
+    CapacitorNeed: 160.0
+    Cpu: 23.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1902,6 +2012,7 @@ items:
   Medium Nano Armor Repair Unit I:
     ArmorDamageAmount: 405
     CapacitorNeed: 160.0
+    Cpu: 24.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.300000190734863
@@ -1923,6 +2034,8 @@ items:
     volume: 10.0
   Mizuro's Modified Large Armor Repairer:
     ArmorDamageAmount: 911
+    CapacitorNeed: 360.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1946,6 +2059,8 @@ items:
     volume: 50.0
   Raysere's Modified Large Armor Repairer:
     ArmorDamageAmount: 1242
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1969,6 +2084,8 @@ items:
     volume: 50.0
   Republic Fleet Large Armor Repairer:
     ArmorDamageAmount: 828
+    CapacitorNeed: 360.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -1992,6 +2109,8 @@ items:
     volume: 50.0
   Republic Fleet Medium Armor Repairer:
     ArmorDamageAmount: 331
+    CapacitorNeed: 144.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -2015,6 +2134,8 @@ items:
     volume: 10.0
   Republic Fleet Small Armor Repairer:
     ArmorDamageAmount: 83
+    CapacitorNeed: 36.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2038,6 +2159,8 @@ items:
     volume: 5.0
   Selynne's Modified Large Armor Repairer:
     ArmorDamageAmount: 1242
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2061,6 +2184,8 @@ items:
     volume: 50.0
   Setele's Modified Large Armor Repairer:
     ArmorDamageAmount: 1196
+    CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2107,6 +2232,8 @@ items:
     volume: 4000.0
   Shadow Serpentis Large Armor Repairer:
     ArmorDamageAmount: 920
+    CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2130,6 +2257,8 @@ items:
     volume: 50.0
   Shadow Serpentis Medium Armor Repairer:
     ArmorDamageAmount: 368
+    CapacitorNeed: 160.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -2153,6 +2282,8 @@ items:
     volume: 10.0
   Shadow Serpentis Small Armor Repairer:
     ArmorDamageAmount: 92
+    CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2176,6 +2307,8 @@ items:
     volume: 5.0
   Small 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 83
+    CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2210,6 +2343,7 @@ items:
   Small Armor Repairer I:
     ArmorDamageAmount: 69
     CapacitorNeed: 40.0
+    Cpu: 5.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2231,6 +2365,8 @@ items:
     volume: 5.0
   Small Armor Repairer II:
     ArmorDamageAmount: 92
+    CapacitorNeed: 40.0
+    Cpu: 6.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.400000095367432
@@ -2253,6 +2389,8 @@ items:
     volume: 5.0
   Small Automated Carapace Restoration:
     ArmorDamageAmount: 79
+    CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2275,6 +2413,8 @@ items:
     volume: 5.0
   Small I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 72
+    CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2297,6 +2437,8 @@ items:
     volume: 5.0
   Small Inefficient Armor Repair Unit:
     ArmorDamageAmount: 76
+    CapacitorNeed: 40.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2319,6 +2461,8 @@ items:
     volume: 5.0
   Tairei's Modified Large Armor Repairer:
     ArmorDamageAmount: 1139
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2342,6 +2486,8 @@ items:
     volume: 50.0
   True Sansha Large Armor Repairer:
     ArmorDamageAmount: 1035
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2365,6 +2511,8 @@ items:
     volume: 50.0
   True Sansha Medium Armor Repairer:
     ArmorDamageAmount: 414
+    CapacitorNeed: 180.0
+    Cpu: 21.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -2388,6 +2536,8 @@ items:
     volume: 10.0
   True Sansha Small Armor Repairer:
     ArmorDamageAmount: 104
+    CapacitorNeed: 45.0
+    Cpu: 4.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2411,6 +2561,8 @@ items:
     volume: 5.0
   Tuvan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1104
+    CapacitorNeed: 400.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -2434,6 +2586,8 @@ items:
     volume: 50.0
   Vizan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1346
+    CapacitorNeed: 450.0
+    Cpu: 46.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432

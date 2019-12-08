@@ -13,6 +13,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1001:
+    ArmorHpBonus2: 1.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
@@ -36,6 +37,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1003:
+    ArmorHpBonus2: 3.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
@@ -59,6 +61,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1005:
+    ArmorHpBonus2: 5.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
@@ -80,6 +83,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1008:
+    ArmorHpBonus2: 8.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5

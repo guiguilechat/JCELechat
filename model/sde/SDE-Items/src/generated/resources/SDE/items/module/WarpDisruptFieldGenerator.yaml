@@ -166,6 +166,7 @@ items:
     CanFitShipGroup01: 894
     CapacitorNeed: 150.0
     ChargeGroup1: 908
+    Cpu: 50.0
     DisallowAssistance: 1
     DisallowInEmpireSpace: 1
     Duration: 30000.0

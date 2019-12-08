@@ -87,6 +87,7 @@ items:
     CapacitorNeed: 4.0
     ChargeGroup1: 907
     ChargeSize: 1
+    Cpu: 35.0
     Duration: 30000.0
     FalloffBonus: 10.0
     HeatAbsorbtionRateModifier: 0.009999999776482582

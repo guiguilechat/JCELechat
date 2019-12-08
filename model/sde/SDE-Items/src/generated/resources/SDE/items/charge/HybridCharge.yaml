@@ -2,9 +2,11 @@ items:
   Antimatter Charge L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
+    KineticDamage: 28.0
     LauncherGroup: 74
     MainColor: 16764120
     TechLevel: 1
+    ThermalDamage: 20.0
     WeaponRangeMultiplier: 0.5
     id: 238
     marketGroup: 106
@@ -16,9 +18,11 @@ items:
   Antimatter Charge M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
+    KineticDamage: 14.0
     LauncherGroup: 74
     MainColor: 16764120
     TechLevel: 1
+    ThermalDamage: 10.0
     WeaponRangeMultiplier: 0.5
     id: 230
     marketGroup: 108
@@ -30,9 +34,11 @@ items:
   Antimatter Charge S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
+    KineticDamage: 7.0
     LauncherGroup: 74
     MainColor: 16764120
     TechLevel: 1
+    ThermalDamage: 5.0
     WeaponRangeMultiplier: 0.5
     id: 222
     marketGroup: 107
@@ -44,9 +50,11 @@ items:
   Antimatter Charge XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
+    KineticDamage: 56.0
     LauncherGroup: 74
     MainColor: 16764120
     TechLevel: 1
+    ThermalDamage: 40.0
     WeaponRangeMultiplier: 0.5
     id: 17648
     marketGroup: 504
@@ -2633,9 +2641,11 @@ items:
     CapNeedBonus: -24
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.2000000476837158
+    KineticDamage: 16.0
     LauncherGroup: 74
     MainColor: 6201492
     TechLevel: 1
+    ThermalDamage: 12.0
     WeaponRangeMultiplier: 1.2000000476837158
     id: 233
     marketGroup: 106
@@ -2648,9 +2658,11 @@ items:
     CapNeedBonus: -24
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.2000000476837158
+    KineticDamage: 8.0
     LauncherGroup: 74
     MainColor: 6201492
     TechLevel: 1
+    ThermalDamage: 6.0
     WeaponRangeMultiplier: 1.2000000476837158
     id: 225
     marketGroup: 108
@@ -2663,9 +2675,11 @@ items:
     CapNeedBonus: -24
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.2000000476837158
+    KineticDamage: 4.0
     LauncherGroup: 74
     MainColor: 6201492
     TechLevel: 1
+    ThermalDamage: 3.0
     WeaponRangeMultiplier: 1.2000000476837158
     id: 217
     marketGroup: 107
@@ -2678,9 +2692,11 @@ items:
     CapNeedBonus: -24
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.2000000476837158
+    KineticDamage: 32.0
     LauncherGroup: 74
     MainColor: 6201492
     TechLevel: 1
+    ThermalDamage: 24.0
     WeaponRangeMultiplier: 1.2000000476837158
     id: 17650
     marketGroup: 504
@@ -2693,9 +2709,11 @@ items:
     CapNeedBonus: -30
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.600000023841858
+    KineticDamage: 12.0
     LauncherGroup: 74
     MainColor: 5202838
     TechLevel: 1
+    ThermalDamage: 8.0
     WeaponRangeMultiplier: 1.600000023841858
     id: 231
     marketGroup: 106
@@ -2708,9 +2726,11 @@ items:
     CapNeedBonus: -30
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.600000023841858
+    KineticDamage: 6.0
     LauncherGroup: 74
     MainColor: 5202838
     TechLevel: 1
+    ThermalDamage: 4.0
     WeaponRangeMultiplier: 1.600000023841858
     id: 223
     marketGroup: 108
@@ -2723,9 +2743,11 @@ items:
     CapNeedBonus: -30
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.600000023841858
+    KineticDamage: 3.0
     LauncherGroup: 74
     MainColor: 5202838
     TechLevel: 1
+    ThermalDamage: 2.0
     WeaponRangeMultiplier: 1.600000023841858
     id: 215
     marketGroup: 107
@@ -2738,9 +2760,11 @@ items:
     CapNeedBonus: -30
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.600000023841858
+    KineticDamage: 24.0
     LauncherGroup: 74
     MainColor: 5202838
     TechLevel: 1
+    ThermalDamage: 16.0
     WeaponRangeMultiplier: 1.600000023841858
     id: 17652
     marketGroup: 504
@@ -2753,9 +2777,11 @@ items:
     CapNeedBonus: -50
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.0
+    KineticDamage: 20.0
     LauncherGroup: 74
     MainColor: 8301159
     TechLevel: 1
+    ThermalDamage: 12.0
     WeaponRangeMultiplier: 1.0
     id: 234
     marketGroup: 106
@@ -2768,9 +2794,11 @@ items:
     CapNeedBonus: -50
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.0
+    KineticDamage: 10.0
     LauncherGroup: 74
     MainColor: 8301159
     TechLevel: 1
+    ThermalDamage: 6.0
     WeaponRangeMultiplier: 1.0
     id: 226
     marketGroup: 108
@@ -2783,9 +2811,11 @@ items:
     CapNeedBonus: -50
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.0
+    KineticDamage: 5.0
     LauncherGroup: 74
     MainColor: 8301159
     TechLevel: 1
+    ThermalDamage: 3.0
     WeaponRangeMultiplier: 1.0
     id: 218
     marketGroup: 107
@@ -2798,9 +2828,11 @@ items:
     CapNeedBonus: -50
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.0
+    KineticDamage: 40.0
     LauncherGroup: 74
     MainColor: 8301159
     TechLevel: 1
+    ThermalDamage: 24.0
     WeaponRangeMultiplier: 1.0
     id: 17654
     marketGroup: 504
@@ -2813,9 +2845,11 @@ items:
     CapNeedBonus: -5
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.625
+    KineticDamage: 24.0
     LauncherGroup: 74
     MainColor: 12487062
     TechLevel: 1
+    ThermalDamage: 20.0
     WeaponRangeMultiplier: 0.625
     id: 237
     marketGroup: 106
@@ -2828,9 +2862,11 @@ items:
     CapNeedBonus: -5
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.625
+    KineticDamage: 12.0
     LauncherGroup: 74
     MainColor: 12487062
     TechLevel: 1
+    ThermalDamage: 10.0
     WeaponRangeMultiplier: 0.625
     id: 229
     marketGroup: 108
@@ -2843,9 +2879,11 @@ items:
     CapNeedBonus: -5
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.625
+    KineticDamage: 6.0
     LauncherGroup: 74
     MainColor: 12487062
     TechLevel: 1
+    ThermalDamage: 5.0
     WeaponRangeMultiplier: 0.625
     id: 221
     marketGroup: 107
@@ -2858,9 +2896,11 @@ items:
     CapNeedBonus: -5
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.625
+    KineticDamage: 48.0
     LauncherGroup: 74
     MainColor: 12487062
     TechLevel: 1
+    ThermalDamage: 40.0
     WeaponRangeMultiplier: 0.625
     id: 17656
     marketGroup: 504
@@ -3445,9 +3485,11 @@ items:
     CapNeedBonus: -40
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.875
+    KineticDamage: 20.0
     LauncherGroup: 74
     MainColor: 10727277
     TechLevel: 1
+    ThermalDamage: 16.0
     WeaponRangeMultiplier: 0.875
     id: 235
     marketGroup: 106
@@ -3460,9 +3502,11 @@ items:
     CapNeedBonus: -40
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.875
+    KineticDamage: 10.0
     LauncherGroup: 74
     MainColor: 10727277
     TechLevel: 1
+    ThermalDamage: 8.0
     WeaponRangeMultiplier: 0.875
     id: 227
     marketGroup: 108
@@ -3475,9 +3519,11 @@ items:
     CapNeedBonus: -40
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.875
+    KineticDamage: 5.0
     LauncherGroup: 74
     MainColor: 10727277
     TechLevel: 1
+    ThermalDamage: 4.0
     WeaponRangeMultiplier: 0.875
     id: 219
     marketGroup: 107
@@ -3490,9 +3536,11 @@ items:
     CapNeedBonus: -40
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.875
+    KineticDamage: 40.0
     LauncherGroup: 74
     MainColor: 10727277
     TechLevel: 1
+    ThermalDamage: 32.0
     WeaponRangeMultiplier: 0.875
     id: 17658
     marketGroup: 504
@@ -3505,9 +3553,11 @@ items:
     CapNeedBonus: -27
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.399999976158142
+    KineticDamage: 16.0
     LauncherGroup: 74
     MainColor: 5801883
     TechLevel: 1
+    ThermalDamage: 8.0
     WeaponRangeMultiplier: 1.399999976158142
     id: 232
     marketGroup: 106
@@ -3520,9 +3570,11 @@ items:
     CapNeedBonus: -27
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.399999976158142
+    KineticDamage: 8.0
     LauncherGroup: 74
     MainColor: 5801883
     TechLevel: 1
+    ThermalDamage: 4.0
     WeaponRangeMultiplier: 1.399999976158142
     id: 224
     marketGroup: 108
@@ -3535,9 +3587,11 @@ items:
     CapNeedBonus: -27
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.399999976158142
+    KineticDamage: 4.0
     LauncherGroup: 74
     MainColor: 5801883
     TechLevel: 1
+    ThermalDamage: 2.0
     WeaponRangeMultiplier: 1.399999976158142
     id: 216
     marketGroup: 107
@@ -3550,9 +3604,11 @@ items:
     CapNeedBonus: -27
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.399999976158142
+    KineticDamage: 32.0
     LauncherGroup: 74
     MainColor: 5801883
     TechLevel: 1
+    ThermalDamage: 16.0
     WeaponRangeMultiplier: 1.399999976158142
     id: 17660
     marketGroup: 504
@@ -3565,9 +3621,11 @@ items:
     CapNeedBonus: -8
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.75
+    KineticDamage: 24.0
     LauncherGroup: 74
     MainColor: 11835778
     TechLevel: 1
+    ThermalDamage: 16.0
     WeaponRangeMultiplier: 0.75
     id: 236
     marketGroup: 106
@@ -3580,9 +3638,11 @@ items:
     CapNeedBonus: -8
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.75
+    KineticDamage: 12.0
     LauncherGroup: 74
     MainColor: 11835778
     TechLevel: 1
+    ThermalDamage: 8.0
     WeaponRangeMultiplier: 0.75
     id: 228
     marketGroup: 108
@@ -3595,9 +3655,11 @@ items:
     CapNeedBonus: -8
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.75
+    KineticDamage: 6.0
     LauncherGroup: 74
     MainColor: 11835778
     TechLevel: 1
+    ThermalDamage: 4.0
     WeaponRangeMultiplier: 0.75
     id: 220
     marketGroup: 107
@@ -3610,9 +3672,11 @@ items:
     CapNeedBonus: -8
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.75
+    KineticDamage: 48.0
     LauncherGroup: 74
     MainColor: 11835778
     TechLevel: 1
+    ThermalDamage: 32.0
     WeaponRangeMultiplier: 0.75
     id: 17662
     marketGroup: 504

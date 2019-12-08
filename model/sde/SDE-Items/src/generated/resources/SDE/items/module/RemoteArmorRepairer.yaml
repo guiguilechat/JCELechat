@@ -161,6 +161,7 @@ items:
   Capital Remote Armor Repairer I:
     ArmorDamageAmount: 730
     CapacitorNeed: 1770.0
+    Cpu: 40.0
     Duration: 15000.0
     FalloffEffectiveness: 4000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -651,6 +652,7 @@ items:
   Large Remote Armor Repairer I:
     ArmorDamageAmount: 392
     CapacitorNeed: 330.0
+    Cpu: 40.0
     Duration: 6000.0
     FalloffEffectiveness: 3500
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -674,6 +676,7 @@ items:
   Large Remote Armor Repairer II:
     ArmorDamageAmount: 512
     CapacitorNeed: 365.0
+    Cpu: 48.0
     Duration: 6000.0
     FalloffEffectiveness: 4200
     HeatAbsorbtionRateModifier: 0.009999999776482582

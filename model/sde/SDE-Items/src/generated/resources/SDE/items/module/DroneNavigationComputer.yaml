@@ -1,5 +1,6 @@
 items:
   Drone Navigation Computer I:
+    Cpu: 30.0
     Hp: 40
     Power: 1
     RequiredSkill1: 12305

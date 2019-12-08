@@ -3,6 +3,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000

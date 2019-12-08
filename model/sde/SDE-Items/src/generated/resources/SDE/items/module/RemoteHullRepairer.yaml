@@ -52,6 +52,7 @@ items:
     volume: 4000.0
   Large Remote Hull Repairer I:
     CapacitorNeed: 488.0
+    Cpu: 90.0
     Duration: 6000.0
     FalloffEffectiveness: 7000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -98,6 +99,7 @@ items:
     volume: 50.0
   Medium Remote Hull Repairer I:
     CapacitorNeed: 244.0
+    Cpu: 68.0
     Duration: 6000.0
     FalloffEffectiveness: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -144,6 +146,7 @@ items:
     volume: 10.0
   Small Remote Hull Repairer I:
     CapacitorNeed: 122.0
+    Cpu: 45.0
     Duration: 6000.0
     FalloffEffectiveness: 5000
     HeatAbsorbtionRateModifier: 0.009999999776482582

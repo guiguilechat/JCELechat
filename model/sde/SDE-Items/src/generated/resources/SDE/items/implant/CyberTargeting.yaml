@@ -1,6 +1,7 @@
 items:
   Zainou 'Gypsy' Long Range Targeting LT-801:
     Implantness: 8
+    MaxTargetRangeBonus: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -24,6 +25,7 @@ items:
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-803:
     Implantness: 8
+    MaxTargetRangeBonus: 3.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -47,6 +49,7 @@ items:
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-805:
     Implantness: 8
+    MaxTargetRangeBonus: 5.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -72,6 +75,7 @@ items:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
+    ScanResolutionBonus: 1.0
     TechLevel: 1
     id: 27131
     marketGroup: 1765
@@ -95,6 +99,7 @@ items:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
+    ScanResolutionBonus: 3.0
     TechLevel: 1
     id: 10244
     marketGroup: 1765
@@ -118,6 +123,7 @@ items:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
+    ScanResolutionBonus: 5.0
     TechLevel: 1
     id: 27130
     marketGroup: 1765

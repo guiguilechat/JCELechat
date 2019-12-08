@@ -119,6 +119,7 @@ items:
     CapacitorNeed: 15.0
     ChargeGroup1: 909
     ChargeSize: 1
+    Cpu: 32.0
     Duration: 10000.0
     FalloffBonus: -16.239999771118164
     FalloffEffectiveness: 20000
@@ -289,6 +290,7 @@ items:
     CapacitorNeed: 15.0
     ChargeGroup1: 909
     ChargeSize: 1
+    Cpu: 40.0
     Duration: 10000.0
     FalloffBonus: -15.300000190734863
     FalloffEffectiveness: 20000
@@ -315,6 +317,7 @@ items:
     CapacitorNeed: 18.0
     ChargeGroup1: 909
     ChargeSize: 1
+    Cpu: 48.0
     Duration: 10000.0
     FalloffBonus: -17.190000534057617
     FalloffEffectiveness: 24000

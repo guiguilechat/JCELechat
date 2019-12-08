@@ -17,6 +17,7 @@ items:
     published: true
     volume: 25.0
   Drone Link Augmentor I:
+    Cpu: 50.0
     DroneRangeBonus: 20000
     Hp: 40
     Power: 1
@@ -31,6 +32,7 @@ items:
     published: true
     volume: 25.0
   Drone Link Augmentor II:
+    Cpu: 55.0
     DroneRangeBonus: 24000
     Hp: 40
     MetaLevel: 5

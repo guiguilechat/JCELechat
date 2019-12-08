@@ -3,6 +3,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
@@ -36,6 +37,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 0.75
@@ -69,6 +71,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
@@ -102,6 +105,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     EmDamageResonanceMultiplier: 0.75
     ExplosiveDamageResonanceMultiplier: 1.0

@@ -217,6 +217,7 @@ items:
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
+    ShipBonusAB: -10.0
     ShipBonusAB2: 5.0
     ShipBonusCB: 5
     ShipBonusMB: 5.0
@@ -457,6 +458,7 @@ items:
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
+    ShipBonusAB: -10.0
     ShipBonusAB2: -5.0
     ShipBonusCB: 5
     ShipBonusMB: 5.0
@@ -787,6 +789,7 @@ items:
     ShipBonusAB: 5.0
     ShipBonusCB: 5
     ShipBonusGB: 7.5
+    ShipBonusGB2: 10.0
     ShipBonusMB: 5.0
     SignatureRadius: 465
     StructureUniformity: 1.0
@@ -1115,6 +1118,7 @@ items:
     ShipBonusAB: 5.0
     ShipBonusCB: 5
     ShipBonusGB: 7.5
+    ShipBonusMB: 5.0
     ShipBonusRole7: -25.0
     ShipRoleBonusWarpSpeed: 25
     SignatureRadius: 380
@@ -2351,6 +2355,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusAB: 5.0
     ShipBonusCB: 5
+    ShipBonusMB: 5.0
     ShipBonusMB2: -7.5
     SignatureRadius: 360
     StructureUniformity: 1.0
@@ -2432,6 +2437,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusAB: 5.0
     ShipBonusCB: 5
+    ShipBonusMB: 5.0
     ShipBonusMB2: -7.5
     SignatureRadius: 350
     StructureUniformity: 1.0
@@ -2513,6 +2519,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusAB: 5.0
     ShipBonusCB: 5
+    ShipBonusMB: 5.0
     ShipBonusMB2: -5.0
     SignatureRadius: 340
     StructureUniformity: 1.0
@@ -2592,6 +2599,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusAB: 5.0
     ShipBonusCB: 5
+    ShipBonusMB: -5.0
     ShipBonusMB2: 7.5
     SignatureRadius: 330
     StructureUniformity: 1.0

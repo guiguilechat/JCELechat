@@ -1015,6 +1015,7 @@ items:
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-701:
+    FalloffBonus: 1.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
@@ -1038,6 +1039,7 @@ items:
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-703:
+    FalloffBonus: 3.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
@@ -1061,6 +1063,7 @@ items:
     published: true
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-705:
+    FalloffBonus: 5.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3

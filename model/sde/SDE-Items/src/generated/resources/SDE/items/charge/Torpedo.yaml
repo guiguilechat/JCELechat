@@ -13,6 +13,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 2
     RequiredSkill1: 3325
@@ -45,6 +46,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 2
     RequiredSkill1: 3325
@@ -76,6 +78,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 2
     RequiredSkill1: 3325
@@ -107,6 +110,7 @@ items:
     KineticDamage: 517.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 2
     RequiredSkill1: 3325
@@ -137,6 +141,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 3
     RequiredSkill1: 3325
@@ -169,6 +174,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 3
     RequiredSkill1: 3325
@@ -200,6 +206,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 3
     RequiredSkill1: 3325
@@ -231,6 +238,7 @@ items:
     KineticDamage: 540.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 3
     RequiredSkill1: 3325
@@ -261,6 +269,7 @@ items:
     Hp: 480
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 1
     RequiredSkill1: 3325
@@ -293,6 +302,7 @@ items:
     Hp: 480
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 1
     RequiredSkill1: 3325
@@ -324,6 +334,7 @@ items:
     Hp: 480
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 1
     RequiredSkill1: 3325
@@ -355,6 +366,7 @@ items:
     KineticDamage: 495.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     MetaGroupID: 4
     MetaLevel: 1
     RequiredSkill1: 3325
@@ -385,6 +397,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -415,6 +428,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -444,6 +458,7 @@ items:
     Hp: 360
     KineticDamageResonance: 1.0
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319
@@ -473,6 +488,7 @@ items:
     KineticDamage: 450.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508
+    MaxVelocity: 1500.0
     RequiredSkill1: 3325
     RequiredSkill1Level: 1
     RequiredSkill2: 3319

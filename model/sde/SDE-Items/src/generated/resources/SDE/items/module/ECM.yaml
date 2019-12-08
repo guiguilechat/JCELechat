@@ -276,6 +276,7 @@ items:
     volume: 5.0
   Estamel's Modified Multispectral ECM:
     CapacitorNeed: 115.0
+    Cpu: 80.0
     Duration: 20000.0
     FalloffEffectiveness: 34200
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -357,6 +358,7 @@ items:
     volume: 5.0
   Gravimetric ECM I:
     CapacitorNeed: 48.0
+    Cpu: 40.0
     Duration: 20000.0
     FalloffEffectiveness: 27000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -382,6 +384,7 @@ items:
     volume: 5.0
   Gravimetric ECM II:
     CapacitorNeed: 58.0
+    Cpu: 48.0
     Duration: 20000.0
     FalloffEffectiveness: 32400
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -516,6 +519,7 @@ items:
     volume: 5.0
   Kaikka's Modified Multispectral ECM:
     CapacitorNeed: 93.0
+    Cpu: 65.0
     Duration: 20000.0
     FalloffEffectiveness: 26100
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -543,6 +547,7 @@ items:
     volume: 5.0
   Ladar ECM I:
     CapacitorNeed: 48.0
+    Cpu: 40.0
     Duration: 20000.0
     FalloffEffectiveness: 27000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -568,6 +573,7 @@ items:
     volume: 5.0
   Ladar ECM II:
     CapacitorNeed: 58.0
+    Cpu: 48.0
     Duration: 20000.0
     FalloffEffectiveness: 32400
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -621,6 +627,7 @@ items:
     volume: 5.0
   Legion Gravimetric ECM:
     CapacitorNeed: 50.0
+    Cpu: 43.0
     Duration: 20000.0
     FalloffEffectiveness: 33750
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -648,6 +655,7 @@ items:
     volume: 5.0
   Legion Ladar ECM:
     CapacitorNeed: 50.0
+    Cpu: 43.0
     Duration: 20000.0
     FalloffEffectiveness: 33750
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -675,6 +683,7 @@ items:
     volume: 5.0
   Legion Magnetometric ECM:
     CapacitorNeed: 50.0
+    Cpu: 43.0
     Duration: 20000.0
     FalloffEffectiveness: 33750
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -702,6 +711,7 @@ items:
     volume: 5.0
   Legion Multispectral ECM:
     CapacitorNeed: 74.0
+    Cpu: 50.0
     Duration: 20000.0
     FalloffEffectiveness: 25200
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -729,6 +739,7 @@ items:
     volume: 5.0
   Legion Radar ECM:
     CapacitorNeed: 50.0
+    Cpu: 43.0
     Duration: 20000.0
     FalloffEffectiveness: 33750
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -756,6 +767,7 @@ items:
     volume: 5.0
   Magnetometric ECM I:
     CapacitorNeed: 48.0
+    Cpu: 40.0
     Duration: 20000.0
     FalloffEffectiveness: 27000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -781,6 +793,7 @@ items:
     volume: 5.0
   Magnetometric ECM II:
     CapacitorNeed: 58.0
+    Cpu: 48.0
     Duration: 20000.0
     FalloffEffectiveness: 32400
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -834,6 +847,7 @@ items:
     volume: 5.0
   Multispectral ECM I:
     CapacitorNeed: 72.0
+    Cpu: 50.0
     Duration: 20000.0
     FalloffEffectiveness: 18000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -886,6 +900,7 @@ items:
     volume: 5.0
   Radar ECM I:
     CapacitorNeed: 48.0
+    Cpu: 40.0
     Duration: 20000.0
     FalloffEffectiveness: 27000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -911,6 +926,7 @@ items:
     volume: 5.0
   Radar ECM II:
     CapacitorNeed: 58.0
+    Cpu: 48.0
     Duration: 20000.0
     FalloffEffectiveness: 32400
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -964,6 +980,7 @@ items:
     volume: 5.0
   Thon's Modified Multispectral ECM:
     CapacitorNeed: 100.0
+    Cpu: 70.0
     Duration: 20000.0
     FalloffEffectiveness: 28800
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1018,6 +1035,7 @@ items:
     volume: 5.0
   Vepas' Modified Multispectral ECM:
     CapacitorNeed: 108.0
+    Cpu: 75.0
     Duration: 20000.0
     FalloffEffectiveness: 31500
     HeatAbsorbtionRateModifier: 0.009999999776482582

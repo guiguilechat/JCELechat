@@ -1,5 +1,6 @@
 items:
   M51 Benefactor Compact Shield Recharger:
+    Cpu: 20.0
     Hp: 40
     MetaLevel: 1
     Power: 1
@@ -28,6 +29,7 @@ items:
     published: true
     volume: 5.0
   Shield Recharger I:
+    Cpu: 25.0
     Hp: 40
     Power: 1
     RequiredSkill1: 3425
@@ -40,6 +42,7 @@ items:
     published: true
     volume: 5.0
   Shield Recharger II:
+    Cpu: 30.0
     Hp: 40
     MetaLevel: 5
     Power: 1

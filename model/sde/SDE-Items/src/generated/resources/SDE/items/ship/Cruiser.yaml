@@ -1172,6 +1172,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusCC: 5
+    ShipBonusGC: 5.0
     ShipBonusGC2: 1.0
     SignatureRadius: 140
     StructureUniformity: 1.0
@@ -1417,6 +1418,7 @@ items:
     ShieldRechargeRate: 1250000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
+    ShipBonusAC: -10.0
     ShipBonusAC2: -5.0
     ShipBonusCC: 5
     ShipBonusGC: 5.0
@@ -1563,6 +1565,7 @@ items:
     MaxLockedTargets: 5
     MaxPassengers: 500
     MaxTargetRange: 20000
+    MaxVelocity: 250.0
     MedSlots: 3
     MetaLevel: 9
     MinTargetVelDmgMultiplier: 0.25
@@ -2105,6 +2108,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusCC: 5
     ShipBonusGC: 5.0
+    ShipBonusMC: -5.0
     ShipBonusMC2: 5.0
     SignatureRadius: 125
     StructureUniformity: 1.0
@@ -2712,6 +2716,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusCC: 5
+    ShipBonusGC: 5.0
     ShipBonusGC2: 7.5
     SignatureRadius: 120
     StructureUniformity: 1.0
@@ -2879,6 +2884,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusCC: 5
+    ShipBonusGC: 5.0
     ShipBonusGC2: 10.0
     SignatureRadius: 145
     StructureUniformity: 1.0

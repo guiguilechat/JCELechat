@@ -1,5 +1,6 @@
 items:
   Imperial Special Ops Field Enhancer - Standard:
+    ArmorHpBonus2: 5.0
     Implantness: 1
     PerceptionBonus: 4
     RequiredSkill1: 3411

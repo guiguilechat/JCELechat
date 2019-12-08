@@ -1,6 +1,7 @@
 items:
   Ahremen's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 650
     EntityCapacitorLevelModifierLarge: 0.875
@@ -27,6 +28,7 @@ items:
     volume: 5.0
   Ammatar Navy Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 600
     EntityCapacitorLevelModifierLarge: 0.875
@@ -53,6 +55,7 @@ items:
     volume: 5.0
   Ammatar Navy Medium Energy Neutralizer:
     CapacitorNeed: 150.0
+    Cpu: 20.0
     Duration: 12000.0
     EnergyNeutralizerAmount: 180
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
@@ -79,6 +82,7 @@ items:
     volume: 5.0
   Ammatar Navy Small Energy Neutralizer:
     CapacitorNeed: 45.0
+    Cpu: 10.0
     Duration: 6000.0
     EnergyNeutralizerAmount: 55
     EntityCapacitorLevelModifierLarge: 0.987500011920929
@@ -105,6 +109,7 @@ items:
     volume: 5.0
   Brokara's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 650
     EntityCapacitorLevelModifierLarge: 0.875
@@ -238,6 +243,7 @@ items:
     volume: 4000.0
   Chelm's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 650
     EntityCapacitorLevelModifierLarge: 0.875
@@ -562,6 +568,7 @@ items:
     volume: 4000.0
   Dark Blood Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 600
     EntityCapacitorLevelModifierLarge: 0.875
@@ -588,6 +595,7 @@ items:
     volume: 5.0
   Dark Blood Medium Energy Neutralizer:
     CapacitorNeed: 150.0
+    Cpu: 20.0
     Duration: 12000.0
     EnergyNeutralizerAmount: 180
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
@@ -614,6 +622,7 @@ items:
     volume: 5.0
   Dark Blood Small Energy Neutralizer:
     CapacitorNeed: 45.0
+    Cpu: 10.0
     Duration: 6000.0
     EnergyNeutralizerAmount: 55
     EntityCapacitorLevelModifierLarge: 0.987500011920929
@@ -640,6 +649,7 @@ items:
     volume: 5.0
   Draclira's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 650
     EntityCapacitorLevelModifierLarge: 0.875
@@ -666,6 +676,7 @@ items:
     volume: 5.0
   Heavy 'Moat' Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 32.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 600
     EntityCapacitorLevelModifierLarge: 0.875
@@ -704,6 +715,7 @@ items:
     volume: 50.0
   Heavy Energy Neutralizer I:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 500
     EntityCapacitorLevelModifierLarge: 0.8958333134651184
@@ -728,6 +740,7 @@ items:
     volume: 50.0
   Heavy Energy Neutralizer II:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 600
     EntityCapacitorLevelModifierLarge: 0.875
@@ -805,6 +818,7 @@ items:
     volume: 5.0
   Imperial Navy Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 600
     EntityCapacitorLevelModifierLarge: 0.875
@@ -831,6 +845,7 @@ items:
     volume: 5.0
   Imperial Navy Medium Energy Neutralizer:
     CapacitorNeed: 150.0
+    Cpu: 20.0
     Duration: 12000.0
     EnergyNeutralizerAmount: 180
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
@@ -857,6 +872,7 @@ items:
     volume: 5.0
   Imperial Navy Small Energy Neutralizer:
     CapacitorNeed: 45.0
+    Cpu: 10.0
     Duration: 6000.0
     EnergyNeutralizerAmount: 55
     EntityCapacitorLevelModifierLarge: 0.987500011920929
@@ -883,6 +899,7 @@ items:
     volume: 5.0
   Medium 'Ditch' Energy Neutralizer:
     CapacitorNeed: 150.0
+    Cpu: 16.0
     Duration: 12000.0
     EnergyNeutralizerAmount: 180
     EntityCapacitorLevelModifierLarge: 0.9645833373069763
@@ -921,6 +938,7 @@ items:
     volume: 5.0
   Medium Energy Neutralizer I:
     CapacitorNeed: 150.0
+    Cpu: 20.0
     Duration: 12000.0
     EnergyNeutralizerAmount: 150
     EntityCapacitorLevelModifierLarge: 0.96875
@@ -945,6 +963,7 @@ items:
     volume: 5.0
   Medium Energy Neutralizer II:
     CapacitorNeed: 150.0
+    Cpu: 20.0
     Duration: 12000.0
     EnergyNeutralizerAmount: 180
     EntityCapacitorLevelModifierLarge: 0.9645833373069763
@@ -1022,6 +1041,7 @@ items:
     volume: 5.0
   Raysere's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 650
     EntityCapacitorLevelModifierLarge: 0.875
@@ -1048,6 +1068,7 @@ items:
     volume: 5.0
   Selynne's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 650
     EntityCapacitorLevelModifierLarge: 0.875
@@ -1074,6 +1095,7 @@ items:
     volume: 5.0
   Small 'Caltrop' Energy Neutralizer:
     CapacitorNeed: 45.0
+    Cpu: 8.0
     Duration: 6000.0
     EnergyNeutralizerAmount: 55
     EntityCapacitorLevelModifierLarge: 0.9895833134651184
@@ -1112,6 +1134,7 @@ items:
     volume: 5.0
   Small Energy Neutralizer I:
     CapacitorNeed: 45.0
+    Cpu: 10.0
     Duration: 6000.0
     EnergyNeutralizerAmount: 45
     EntityCapacitorLevelModifierLarge: 0.9916666746139526
@@ -1136,6 +1159,7 @@ items:
     volume: 5.0
   Small Energy Neutralizer II:
     CapacitorNeed: 45.0
+    Cpu: 10.0
     Duration: 6000.0
     EnergyNeutralizerAmount: 55
     EntityCapacitorLevelModifierLarge: 0.9895833134651184
@@ -1213,6 +1237,7 @@ items:
     volume: 5.0
   Tairei's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 650
     EntityCapacitorLevelModifierLarge: 0.875
@@ -1267,6 +1292,7 @@ items:
     volume: 4000.0
   True Sansha Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 600
     EntityCapacitorLevelModifierLarge: 0.875
@@ -1293,6 +1319,7 @@ items:
     volume: 5.0
   True Sansha Medium Energy Neutralizer:
     CapacitorNeed: 150.0
+    Cpu: 20.0
     Duration: 12000.0
     EnergyNeutralizerAmount: 180
     EntityCapacitorLevelModifierLarge: 0.9624999761581421
@@ -1319,6 +1346,7 @@ items:
     volume: 5.0
   True Sansha Small Energy Neutralizer:
     CapacitorNeed: 45.0
+    Cpu: 10.0
     Duration: 6000.0
     EnergyNeutralizerAmount: 55
     EntityCapacitorLevelModifierLarge: 0.987500011920929
@@ -1345,6 +1373,7 @@ items:
     volume: 5.0
   Vizan's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
+    Cpu: 40.0
     Duration: 24000.0
     EnergyNeutralizerAmount: 650
     EntityCapacitorLevelModifierLarge: 0.875

@@ -4,11 +4,13 @@ items:
     ArmorHP: 3000000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -57,11 +59,13 @@ items:
     ArmorHP: 3000000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -110,11 +114,13 @@ items:
     ArmorHP: 3000000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -163,11 +169,13 @@ items:
     ArmorHP: 3000000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -216,11 +224,13 @@ items:
     ArmorHP: 2250000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -269,11 +279,13 @@ items:
     ArmorHP: 2250000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -322,11 +334,13 @@ items:
     ArmorHP: 2250000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -375,11 +389,13 @@ items:
     ArmorHP: 2250000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -428,11 +444,13 @@ items:
     ArmorHP: 1500000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -480,11 +498,13 @@ items:
     ArmorHP: 1500000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -532,11 +552,13 @@ items:
     ArmorHP: 1500000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000
@@ -584,11 +606,13 @@ items:
     ArmorHP: 1500000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 5000
+    Cpu: 50.0
     DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 200000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FalloffEffectiveness: 100000

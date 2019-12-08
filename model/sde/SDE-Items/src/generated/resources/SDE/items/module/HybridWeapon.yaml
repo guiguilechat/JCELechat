@@ -1720,6 +1720,7 @@ items:
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 1
+    Cpu: 4.0
     DamageMultiplier: 1.815000057220459
     Falloff: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1754,6 +1755,7 @@ items:
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 1
+    Cpu: 4.0
     DamageMultiplier: 1.7324999570846558
     Falloff: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1788,6 +1790,7 @@ items:
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 1
+    Cpu: 4.0
     DamageMultiplier: 1.8975000381469727
     Falloff: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1822,6 +1825,7 @@ items:
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 1
+    Cpu: 5.0
     DamageMultiplier: 1.649999976158142
     Falloff: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1856,6 +1860,7 @@ items:
     ChargeGroup2: 373
     ChargeRate: 1
     ChargeSize: 1
+    Cpu: 6.0
     DamageMultiplier: 1.9800000190734863
     Falloff: 3000
     HeatAbsorbtionRateModifier: 0.019999999552965164
@@ -1892,6 +1897,7 @@ items:
     ChargeGroup1: 85
     ChargeRate: 1
     ChargeSize: 1
+    Cpu: 4.0
     DamageMultiplier: 1.9800000190734863
     Falloff: 3000
     HeatAbsorbtionRateModifier: 0.009999999776482582

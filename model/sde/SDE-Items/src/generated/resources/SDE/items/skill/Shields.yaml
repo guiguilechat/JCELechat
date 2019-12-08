@@ -120,6 +120,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
+    ShieldCapacityBonus: 5.0
     SkillTimeConstant: 3
     id: 3419
     marketGroup: 1747

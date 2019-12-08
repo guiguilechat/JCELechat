@@ -39,6 +39,7 @@ items:
     published: true
     volume: 0.01
   Long Range Targeting:
+    MaxTargetRangeBonus: 5.0
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
@@ -80,6 +81,7 @@ items:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
+    ScanResolutionBonus: 5.0
     SecondaryAttribute: 166
     SkillTimeConstant: 1
     id: 3431

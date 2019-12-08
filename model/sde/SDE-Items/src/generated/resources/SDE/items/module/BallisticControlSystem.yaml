@@ -28,6 +28,7 @@ items:
     published: true
     volume: 1.0
   Ballistic Control System I:
+    Cpu: 35.0
     Hp: 40
     MissileDamageMultiplierBonus: 1.0700000524520874
     Power: 1
@@ -42,6 +43,7 @@ items:
     published: true
     volume: 5.0
   Ballistic Control System II:
+    Cpu: 40.0
     Hp: 40
     MetaLevel: 5
     MissileDamageMultiplierBonus: 1.100000023841858
@@ -97,6 +99,7 @@ items:
     published: true
     volume: 5.0
   Caldari Navy Ballistic Control System:
+    Cpu: 24.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -146,6 +149,7 @@ items:
     published: true
     volume: 5.0
   Dread Guristas Ballistic Control System:
+    Cpu: 24.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -162,6 +166,7 @@ items:
     published: true
     volume: 5.0
   Estamel's Modified Ballistic Control System:
+    Cpu: 34.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 17
@@ -229,6 +234,7 @@ items:
     published: true
     volume: 5.0
   Kaikka's Modified Ballistic Control System:
+    Cpu: 26.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -245,6 +251,7 @@ items:
     published: true
     volume: 5.0
   Khanid Navy Ballistic Control System:
+    Cpu: 24.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -312,6 +319,7 @@ items:
     published: true
     volume: 5.0
   Thon's Modified Ballistic Control System:
+    Cpu: 29.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 13
@@ -345,6 +353,7 @@ items:
     published: true
     volume: 5.0
   Vepas' Modified Ballistic Control System:
+    Cpu: 31.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 15

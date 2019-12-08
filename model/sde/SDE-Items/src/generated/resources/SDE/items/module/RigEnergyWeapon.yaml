@@ -262,6 +262,7 @@ items:
   Large Energy Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
+    FalloffBonus: 15.0
     Hp: 40
     RigSize: 3
     SpeedMultiplier: 1.0
@@ -277,6 +278,7 @@ items:
   Large Energy Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
+    FalloffBonus: 20.0
     Hp: 40
     MetaLevel: 5
     RigSize: 3

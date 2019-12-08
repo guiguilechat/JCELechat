@@ -55,6 +55,7 @@ items:
   Reinforced Bulkheads I:
     AgilityMultiplier: 3.0
     CargoCapacityMultiplier: 0.8999999761581421
+    Cpu: 35.0
     Hp: 40
     Power: 1
     RequiredSkill1: 3394
@@ -70,6 +71,7 @@ items:
   Reinforced Bulkheads II:
     AgilityMultiplier: 5.0
     CargoCapacityMultiplier: 0.8899999856948853
+    Cpu: 40.0
     Hp: 40
     MetaLevel: 5
     Power: 1

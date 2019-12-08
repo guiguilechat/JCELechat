@@ -3,6 +3,7 @@ items:
     ChargeGroup1: 772
     ChargeGroup2: 654
     ChargeRate: 1
+    Cpu: 49.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8500000238418579
     Hp: 40
@@ -30,6 +31,7 @@ items:
     ChargeGroup1: 772
     ChargeGroup2: 654
     ChargeRate: 1
+    Cpu: 36.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
@@ -57,6 +59,7 @@ items:
     ChargeGroup1: 772
     ChargeGroup2: 654
     ChargeRate: 1
+    Cpu: 49.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8500000238418579
     Hp: 40
@@ -83,6 +86,7 @@ items:
   Experimental XT-2800 Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
+    Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
     Hp: 40
@@ -108,6 +112,7 @@ items:
   Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
+    Cpu: 45.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2000000476837158
     Hp: 40
@@ -133,6 +138,7 @@ items:
     ChargeGroup1: 772
     ChargeGroup2: 654
     ChargeRate: 1
+    Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.0
     Hp: 40
@@ -159,6 +165,7 @@ items:
     ChargeGroup1: 772
     ChargeGroup2: 654
     ChargeRate: 1
+    Cpu: 42.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8500000238418579
     Hp: 40
@@ -185,6 +192,7 @@ items:
   Limited 'Limos' Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
+    Cpu: 41.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.100000023841858
     Hp: 40
@@ -239,6 +247,7 @@ items:
   Prototype 'Arbalest' Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
+    Cpu: 39.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
     Hp: 40
@@ -265,6 +274,7 @@ items:
     ChargeGroup1: 772
     ChargeGroup2: 654
     ChargeRate: 1
+    Cpu: 36.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
@@ -292,6 +302,7 @@ items:
     ChargeGroup1: 772
     ChargeGroup2: 654
     ChargeRate: 1
+    Cpu: 36.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.8999999761581421
     Hp: 40
@@ -318,6 +329,7 @@ items:
   Upgraded 'Malkuth' Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
+    Cpu: 36.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.100000023841858
     Hp: 40

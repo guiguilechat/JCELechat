@@ -18,6 +18,7 @@ items:
     volume: 5.0
   Auto Targeting System I:
     CapacitorNeed: 8.0
+    Cpu: 1.0
     Duration: 5000.0
     Hp: 40
     MaxLockedTargetsBonus: 2
@@ -34,6 +35,7 @@ items:
     volume: 5.0
   Auto Targeting System II:
     CapacitorNeed: 10.0
+    Cpu: 35.0
     Duration: 5000.0
     Hp: 40
     MaxLockedTargetsBonus: 3

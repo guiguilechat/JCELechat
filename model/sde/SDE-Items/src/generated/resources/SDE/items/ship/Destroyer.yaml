@@ -110,6 +110,7 @@ items:
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 450
+    MaxRangeBonus: 50.0
     MaxTargetRange: 33000
     MaxVelocity: 265.0
     MedSlots: 2
@@ -184,6 +185,7 @@ items:
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 6
     MaxPassengers: 450
+    MaxRangeBonus: 50.0
     MaxTargetRange: 30000
     MaxVelocity: 255.0
     MedSlots: 2
@@ -335,6 +337,7 @@ items:
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 7
     MaxPassengers: 450
+    MaxRangeBonus: 50.0
     MaxTargetRange: 36000
     MaxVelocity: 250.0
     MedSlots: 3
@@ -723,6 +726,7 @@ items:
     MaxDirectionalVelocity: 2000
     MaxLockedTargets: 6
     MaxPassengers: 450
+    MaxRangeBonus: 50.0
     MaxTargetRange: 27000
     MaxVelocity: 270.0
     MedSlots: 3

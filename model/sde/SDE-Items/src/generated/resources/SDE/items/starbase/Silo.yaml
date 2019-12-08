@@ -4,6 +4,7 @@ items:
     ArmorHP: 15000
     ArmorUniformity: 0.75
     CargoGroup: 711
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -32,6 +33,7 @@ items:
     ArmorHP: 15000
     ArmorUniformity: 0.75
     CargoGroup: 284
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -59,6 +61,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 10000
     ArmorUniformity: 0.75
+    Cpu: 155.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -88,6 +91,7 @@ items:
     ArmorUniformity: 0.75
     CargoGroup: 280
     CargoGroup2: 1042
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -116,6 +120,7 @@ items:
     ArmorHP: 15000
     ArmorUniformity: 0.75
     CargoGroup: 712
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -172,6 +177,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 15000
     ArmorUniformity: 0.75
+    Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000

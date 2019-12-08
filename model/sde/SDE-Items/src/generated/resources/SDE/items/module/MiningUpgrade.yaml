@@ -1,5 +1,6 @@
 items:
   '''Anguis'' Ice Harvester Upgrade':
+    Cpu: 35.0
     CpuPenaltyPercent: 6.0
     Hp: 40
     IceHarvestCycleBonus: -9.0
@@ -35,6 +36,7 @@ items:
     published: true
     volume: 5.0
   '''Carpo'' Mining Laser Upgrade':
+    Cpu: 35.0
     CpuPenaltyPercent: 6.0
     Hp: 40
     MetaGroupID: 3
@@ -123,6 +125,7 @@ items:
     published: true
     volume: 5.0
   Ice Harvester Upgrade I:
+    Cpu: 30.0
     CpuPenaltyPercent: 10.0
     Hp: 40
     IceHarvestCycleBonus: -5.0
@@ -138,6 +141,7 @@ items:
     published: true
     volume: 5.0
   Ice Harvester Upgrade II:
+    Cpu: 40.0
     CpuPenaltyPercent: 12.5
     Hp: 40
     IceHarvestCycleBonus: -9.0
@@ -154,6 +158,7 @@ items:
     published: true
     volume: 5.0
   Mining Laser Upgrade I:
+    Cpu: 30.0
     CpuPenaltyPercent: 10.0
     Hp: 40
     MiningAmountBonus: 5
@@ -169,6 +174,7 @@ items:
     published: true
     volume: 5.0
   Mining Laser Upgrade II:
+    Cpu: 40.0
     CpuPenaltyPercent: 12.5
     Hp: 40
     MetaLevel: 5

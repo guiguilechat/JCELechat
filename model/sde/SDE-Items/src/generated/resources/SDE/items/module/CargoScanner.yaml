@@ -18,6 +18,7 @@ items:
   Cargo Scanner II:
     CapacitorNeed: 4.0
     CargoScanRange: 70000
+    Cpu: 5.0
     DisallowRepeatingActivation: 1
     Duration: 3000.0
     Hp: 40
@@ -34,6 +35,7 @@ items:
   PL-0 Scoped Cargo Scanner:
     CapacitorNeed: 4.0
     CargoScanRange: 65000
+    Cpu: 4.0
     DisallowRepeatingActivation: 1
     Duration: 4000.0
     Hp: 40
@@ -50,6 +52,7 @@ items:
   Type-E Enduring Cargo Scanner:
     CapacitorNeed: 3.0
     CargoScanRange: 55000
+    Cpu: 4.0
     DisallowRepeatingActivation: 1
     Duration: 3500.0
     Hp: 40

@@ -59,6 +59,7 @@ items:
     published: true
     volume: 5.0
   F-293 Scoped Remote Tracking Computer:
+    CapacitorNeed: 20.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 30.0
@@ -87,8 +88,10 @@ items:
     published: true
     volume: 5.0
   Federation Navy Remote Tracking Computer:
+    CapacitorNeed: 20.0
     ChargeGroup1: 907
     ChargeSize: 1
+    Cpu: 30.0
     DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 16.0
@@ -115,6 +118,7 @@ items:
     published: true
     volume: 5.0
   P-S Compact Remote Tracking Computer:
+    CapacitorNeed: 20.0
     ChargeGroup1: 907
     ChargeSize: 1
     Cpu: 24.0
@@ -143,8 +147,10 @@ items:
     published: true
     volume: 5.0
   Remote Tracking Computer I:
+    CapacitorNeed: 20.0
     ChargeGroup1: 907
     ChargeSize: 1
+    Cpu: 30.0
     DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 12.0
@@ -198,8 +204,10 @@ items:
     published: true
     volume: 5.0
   Shadow Serpentis Remote Tracking Computer:
+    CapacitorNeed: 20.0
     ChargeGroup1: 907
     ChargeSize: 1
+    Cpu: 30.0
     DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 16.0

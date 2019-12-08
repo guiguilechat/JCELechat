@@ -700,6 +700,7 @@ items:
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-801:
     Implantness: 8
+    MissileVelocityBonus: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
@@ -725,6 +726,7 @@ items:
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-803:
     Implantness: 8
+    MissileVelocityBonus: 3.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
@@ -750,6 +752,7 @@ items:
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-805:
     Implantness: 8
+    MissileVelocityBonus: 5.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     SpeedFactor: 1.0

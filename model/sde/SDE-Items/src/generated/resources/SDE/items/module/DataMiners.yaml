@@ -2,6 +2,7 @@ items:
   Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
+    Cpu: 20.0
     DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40
@@ -114,6 +115,7 @@ items:
   Relic Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
+    Cpu: 20.0
     DisallowRepeatingActivation: 1
     Duration: 10000.0
     Hp: 40

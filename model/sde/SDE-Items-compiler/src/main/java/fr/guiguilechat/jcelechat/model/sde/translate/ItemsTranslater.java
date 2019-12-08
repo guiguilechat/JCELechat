@@ -145,7 +145,11 @@ public class ItemsTranslater {
 						Field f = built.getClass().getField(fieldName);
 						f.setAccessible(true);
 						if (f.getType() == double.class) {
-							f.set(built, c.getValue().valueFloat);
+							double value = c.getValue().valueFloat;
+							if (value == 0) {
+								value = c.getValue().valueInt;
+							}
+							f.set(built, value);
 						} else {
 							if (c.getValue().valueFloat != 0) {
 								f.set(built, (int) c.getValue().valueFloat);

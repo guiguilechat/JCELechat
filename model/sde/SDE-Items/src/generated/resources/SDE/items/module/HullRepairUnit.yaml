@@ -99,6 +99,8 @@ items:
     published: true
     volume: 4000.0
   Large 'Hope' Hull Reconstructor I:
+    CapacitorNeed: 120.0
+    Cpu: 96.0
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.900000095367432
@@ -121,6 +123,7 @@ items:
     volume: 50.0
   Large 'Integrative' Hull Repair Unit:
     CapacitorNeed: 120.0
+    Cpu: 102.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
@@ -143,6 +146,8 @@ items:
     published: true
     volume: 50.0
   Large Automated Structural Restoration:
+    CapacitorNeed: 120.0
+    Cpu: 114.0
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.400000095367432
@@ -165,6 +170,7 @@ items:
     volume: 50.0
   Large Hull Repairer I:
     CapacitorNeed: 120.0
+    Cpu: 120.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.699999809265137
@@ -186,6 +192,7 @@ items:
     volume: 50.0
   Large Hull Repairer II:
     CapacitorNeed: 120.0
+    Cpu: 132.0
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.699999809265137
@@ -207,6 +214,8 @@ items:
     published: true
     volume: 50.0
   Large I-b Polarized Structural Regenerator:
+    CapacitorNeed: 120.0
+    Cpu: 102.0
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.099999904632568
@@ -229,6 +238,7 @@ items:
     volume: 50.0
   Large Inefficient Hull Repair Unit:
     CapacitorNeed: 120.0
+    Cpu: 108.0
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.599999904632568
@@ -250,6 +260,8 @@ items:
     published: true
     volume: 50.0
   Medium 'Hope' Hull Reconstructor I:
+    CapacitorNeed: 60.0
+    Cpu: 48.0
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.800000190734863
@@ -272,6 +284,7 @@ items:
     volume: 10.0
   Medium 'Integrative' Hull Repair Unit:
     CapacitorNeed: 60.0
+    Cpu: 51.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -294,6 +307,8 @@ items:
     published: true
     volume: 10.0
   Medium Automated Structural Restoration:
+    CapacitorNeed: 60.0
+    Cpu: 57.0
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 7.599999904632568
@@ -316,6 +331,7 @@ items:
     volume: 10.0
   Medium Hull Repairer I:
     CapacitorNeed: 60.0
+    Cpu: 60.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 8.0
@@ -337,6 +353,7 @@ items:
     volume: 25.0
   Medium Hull Repairer II:
     CapacitorNeed: 60.0
+    Cpu: 66.0
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 8.0
@@ -358,6 +375,8 @@ items:
     published: true
     volume: 10.0
   Medium I-b Polarized Structural Regenerator:
+    CapacitorNeed: 60.0
+    Cpu: 51.0
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 7.199999809265137
@@ -380,6 +399,7 @@ items:
     volume: 10.0
   Medium Inefficient Hull Repair Unit:
     CapacitorNeed: 60.0
+    Cpu: 54.0
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.400000095367432
@@ -401,6 +421,8 @@ items:
     published: true
     volume: 10.0
   Small 'Hope' Hull Reconstructor I:
+    CapacitorNeed: 30.0
+    Cpu: 24.0
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 11.300000190734863
@@ -423,6 +445,7 @@ items:
     volume: 5.0
   Small 'Integrative' Hull Repair Unit:
     CapacitorNeed: 30.0
+    Cpu: 26.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 8.899999618530273
@@ -445,6 +468,8 @@ items:
     published: true
     volume: 5.0
   Small Automated Structural Restoration:
+    CapacitorNeed: 30.0
+    Cpu: 28.0
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 12.699999809265137
@@ -467,6 +492,7 @@ items:
     volume: 5.0
   Small Hull Repairer I:
     CapacitorNeed: 30.0
+    Cpu: 30.0
     Duration: 30000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 13.300000190734863
@@ -488,6 +514,7 @@ items:
     volume: 12.5
   Small Hull Repairer II:
     CapacitorNeed: 30.0
+    Cpu: 33.0
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 13.300000190734863
@@ -509,6 +536,8 @@ items:
     published: true
     volume: 5.0
   Small I-b Polarized Structural Regenerator:
+    CapacitorNeed: 30.0
+    Cpu: 25.0
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 12.0
@@ -531,6 +560,7 @@ items:
     volume: 5.0
   Small Inefficient Hull Repair Unit:
     CapacitorNeed: 30.0
+    Cpu: 27.0
     Duration: 24000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 10.699999809265137

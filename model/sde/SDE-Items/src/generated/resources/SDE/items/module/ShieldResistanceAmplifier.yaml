@@ -60,6 +60,7 @@ items:
     published: true
     volume: 5.0
   Basic EM Ward Amplifier:
+    Cpu: 10.0
     EmDamageResistanceBonus: -25.0
     Hp: 40
     RequiredSkill1: 3413
@@ -71,6 +72,7 @@ items:
     published: true
     volume: 5.0
   Basic Explosive Deflection Amplifier:
+    Cpu: 10.0
     ExplosiveDamageResistanceBonus: -25.0
     Hp: 40
     RequiredSkill1: 3413
@@ -82,6 +84,7 @@ items:
     published: true
     volume: 5.0
   Basic Kinetic Deflection Amplifier:
+    Cpu: 10.0
     Hp: 40
     KineticDamageResistanceBonus: -25.0
     RequiredSkill1: 3413
@@ -93,6 +96,7 @@ items:
     published: true
     volume: 5.0
   Basic Thermal Dissipation Amplifier:
+    Cpu: 10.0
     Hp: 40
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -284,6 +288,7 @@ items:
     published: true
     volume: 5.0
   EM Ward Amplifier I:
+    Cpu: 25.0
     EmDamageResistanceBonus: -32.5
     Hp: 40
     Power: 1
@@ -296,6 +301,7 @@ items:
     published: true
     volume: 5.0
   EM Ward Amplifier II:
+    Cpu: 30.0
     EmDamageResistanceBonus: -37.5
     Hp: 40
     MetaLevel: 5
@@ -369,6 +375,7 @@ items:
     published: true
     volume: 5.0
   Explosive Deflection Amplifier I:
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
     Power: 1
@@ -381,6 +388,7 @@ items:
     published: true
     volume: 5.0
   Explosive Deflection Amplifier II:
+    Cpu: 30.0
     ExplosiveDamageResistanceBonus: -37.5
     Hp: 40
     MetaLevel: 5
@@ -694,6 +702,7 @@ items:
     published: true
     volume: 5.0
   Kinetic Deflection Amplifier I:
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -32.5
     Power: 1
@@ -706,6 +715,7 @@ items:
     published: true
     volume: 5.0
   Kinetic Deflection Amplifier II:
+    Cpu: 30.0
     Hp: 40
     KineticDamageResistanceBonus: -37.5
     MetaLevel: 5
@@ -959,6 +969,7 @@ items:
     published: true
     volume: 5.0
   Supplemental EM Ward Amplifier:
+    Cpu: 6.0
     EmDamageResistanceBonus: -25.0
     Hp: 40
     RequiredSkill1: 3413
@@ -970,6 +981,7 @@ items:
     published: true
     volume: 5.0
   Supplemental Explosive Deflection Amplifier:
+    Cpu: 8.0
     ExplosiveDamageResistanceBonus: -25.0
     Hp: 40
     RequiredSkill1: 3413
@@ -981,6 +993,7 @@ items:
     published: true
     volume: 5.0
   Supplemental Kinetic Deflection Amplifier:
+    Cpu: 7.0
     Hp: 40
     KineticDamageResistanceBonus: -25.0
     RequiredSkill1: 3413
@@ -992,6 +1005,7 @@ items:
     published: true
     volume: 5.0
   Supplemental Thermal Dissipation Amplifier:
+    Cpu: 9.0
     Hp: 40
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -1003,6 +1017,7 @@ items:
     published: true
     volume: 5.0
   Thermal Dissipation Amplifier I:
+    Cpu: 25.0
     Hp: 40
     Power: 1
     RequiredSkill1: 3425
@@ -1015,6 +1030,7 @@ items:
     published: true
     volume: 5.0
   Thermal Dissipation Amplifier II:
+    Cpu: 30.0
     Hp: 40
     MetaLevel: 5
     Power: 1
@@ -1148,6 +1164,7 @@ items:
     published: true
     volume: 5.0
   Upgraded EM Ward Amplifier I:
+    Cpu: 20.0
     EmDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 1

@@ -148,6 +148,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonusCC: 5
     ShipBonusGC: 5.0
+    ShipBonusMC: -5.0
     ShipBonusMC2: 10.0
     SignatureRadius: 120
     StructureUniformity: 1.0

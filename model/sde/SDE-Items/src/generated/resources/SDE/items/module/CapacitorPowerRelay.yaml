@@ -33,6 +33,7 @@ items:
     volume: 5.0
   Ahremen's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
+    Cpu: 16.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 13
@@ -48,6 +49,7 @@ items:
     volume: 5.0
   Ammatar Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -63,6 +65,7 @@ items:
     volume: 5.0
   Brokara's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
+    Cpu: 8.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -78,6 +81,7 @@ items:
     volume: 5.0
   Capacitor Power Relay I:
     CapacitorRechargeRateMultiplier: 0.800000011920929
+    Cpu: 4.0
     Hp: 40
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
@@ -91,6 +95,7 @@ items:
     volume: 5.0
   Capacitor Power Relay II:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
+    Cpu: 8.0
     Hp: 40
     MetaLevel: 5
     RequiredSkill1: 3424
@@ -105,6 +110,7 @@ items:
     volume: 5.0
   Chelm's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.675000011920929
+    Cpu: 20.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 14
@@ -120,6 +126,7 @@ items:
     volume: 5.0
   Dark Blood Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -135,6 +142,7 @@ items:
     volume: 5.0
   Draclira's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.675000011920929
+    Cpu: 20.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 14
@@ -150,6 +158,7 @@ items:
     volume: 5.0
   Imperial Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -165,6 +174,7 @@ items:
     volume: 5.0
   Khanid Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -180,6 +190,7 @@ items:
     volume: 5.0
   Makur's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
+    Cpu: 16.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -210,6 +221,7 @@ items:
     volume: 5.0
   Raysere's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
+    Cpu: 12.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 12
@@ -225,6 +237,7 @@ items:
     volume: 5.0
   Selynne's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
+    Cpu: 12.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 12
@@ -240,6 +253,7 @@ items:
     volume: 5.0
   Tairei's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
+    Cpu: 8.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -255,6 +269,7 @@ items:
     volume: 5.0
   True Sansha Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -285,6 +300,7 @@ items:
     volume: 5.0
   Vizan's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
+    Cpu: 16.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 13

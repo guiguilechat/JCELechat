@@ -4,6 +4,7 @@ items:
     ChargeGroup1: 663
     ChargeGroup2: 482
     ChargeSize: 1
+    Cpu: 80.0
     Duration: 180000.0
     Hp: 40
     MaxRange: 10000

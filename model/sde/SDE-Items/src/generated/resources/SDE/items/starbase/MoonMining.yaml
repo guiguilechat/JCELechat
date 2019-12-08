@@ -4,6 +4,7 @@ items:
     AnchoringSecurityLevelMax: 0.4000000059604645
     ArmorHP: 10000
     ArmorUniformity: 0.75
+    Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     HarvesterQuality: 1

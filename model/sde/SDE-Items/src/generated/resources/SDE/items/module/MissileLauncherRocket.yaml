@@ -2,6 +2,7 @@ items:
   '''Arbalest'' Rocket Launcher I':
     ChargeGroup1: 387
     ChargeRate: 1
+    Cpu: 13.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -28,6 +29,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 13.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
     Hp: 40
@@ -54,6 +56,7 @@ items:
   '''Limos'' Rocket Launcher I':
     ChargeGroup1: 387
     ChargeRate: 1
+    Cpu: 14.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
     Hp: 40
@@ -79,6 +82,7 @@ items:
   '''Malkuth'' Rocket Launcher I':
     ChargeGroup1: 387
     ChargeRate: 1
+    Cpu: 12.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
     Hp: 40
@@ -105,6 +109,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 17.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -132,6 +137,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 12.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -159,6 +165,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 17.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -186,6 +193,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 17.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -213,6 +221,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 13.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
     Hp: 40
@@ -239,6 +248,7 @@ items:
   OE-5200 Rocket Launcher:
     ChargeGroup1: 387
     ChargeRate: 1
+    Cpu: 14.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -294,6 +304,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 12.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -320,6 +331,7 @@ items:
   Rocket Launcher I:
     ChargeGroup1: 387
     ChargeRate: 1
+    Cpu: 15.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
     Hp: 40
@@ -345,6 +357,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 17.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.800000011920929
     Hp: 40
@@ -371,6 +384,7 @@ items:
     ChargeGroup1: 387
     ChargeGroup3: 648
     ChargeRate: 1
+    Cpu: 12.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40

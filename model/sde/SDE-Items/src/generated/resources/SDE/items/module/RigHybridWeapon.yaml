@@ -278,6 +278,7 @@ items:
   Large Hybrid Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
+    FalloffBonus: 15.0
     Hp: 40
     MaxRangeMultiplier: 1
     RigSize: 3
@@ -294,6 +295,7 @@ items:
   Large Hybrid Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
+    FalloffBonus: 20.0
     Hp: 40
     MaxRangeMultiplier: 1
     MetaLevel: 5

@@ -3,6 +3,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 2000
     ArmorUniformity: 0.75
+    Cpu: 600.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -33,6 +34,7 @@ items:
   Experimental Laboratory:
     AnchoringDelay: 5000
     ArmorHP: 2000
+    Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -95,6 +97,7 @@ items:
     AnchoringDelay: 5000
     ArmorHP: 2000
     ArmorUniformity: 0.75
+    Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000

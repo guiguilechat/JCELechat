@@ -218,6 +218,7 @@ items:
   Large Ancillary Current Router I:
     Hp: 40
     MaxGangModules: 3
+    PowerEngineeringOutputBonus: 10.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
@@ -232,6 +233,7 @@ items:
     Hp: 40
     MaxGangModules: 3
     MetaLevel: 5
+    PowerEngineeringOutputBonus: 15.0
     RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
@@ -243,6 +245,7 @@ items:
     published: true
     volume: 20.0
   Large Capacitor Control Circuit I:
+    CapRechargeBonus: -15.0
     Hp: 40
     MaxGangModules: 3
     RigSize: 3
@@ -256,6 +259,7 @@ items:
     published: true
     volume: 20.0
   Large Capacitor Control Circuit II:
+    CapRechargeBonus: -20.0
     Hp: 40
     MaxGangModules: 3
     MetaLevel: 5
@@ -399,6 +403,7 @@ items:
     published: true
     volume: 5.0
   Large Semiconductor Memory Cell I:
+    CapacitorCapacityBonus: 15.0
     Hp: 40
     MaxGangModules: 3
     RigSize: 3
@@ -412,6 +417,7 @@ items:
     published: true
     volume: 20.0
   Large Semiconductor Memory Cell II:
+    CapacitorCapacityBonus: 20.0
     Hp: 40
     MaxGangModules: 3
     MetaLevel: 5

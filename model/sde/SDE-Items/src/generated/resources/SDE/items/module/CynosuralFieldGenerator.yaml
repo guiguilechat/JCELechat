@@ -12,6 +12,7 @@ items:
     CanFitShipType3: 42245
     ConsumptionQuantity: 50
     ConsumptionType: 16273
+    Cpu: 50.0
     CynosuralFieldSpawnRadius: 5000
     DeadspaceUnsafe: 2
     DisallowActivateOnWarp: 1
@@ -44,6 +45,7 @@ items:
     CanFitShipGroup02: 898
     ConsumptionQuantity: 500
     ConsumptionType: 16273
+    Cpu: 50.0
     CynosuralFieldSpawnRadius: 5000
     DeadspaceUnsafe: 2
     DisallowActivateOnWarp: 1

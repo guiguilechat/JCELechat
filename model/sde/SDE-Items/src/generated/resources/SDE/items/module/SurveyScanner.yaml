@@ -1,6 +1,7 @@
 items:
   ML-3 Scoped Survey Scanner:
     CapacitorNeed: 5.0
+    Cpu: 4.0
     DisallowRepeatingActivation: 1
     Duration: 4500.0
     Hp: 40
@@ -35,6 +36,7 @@ items:
     volume: 5.0
   Survey Scanner II:
     CapacitorNeed: 6.0
+    Cpu: 6.0
     DisallowRepeatingActivation: 1
     Duration: 4000.0
     Hp: 40

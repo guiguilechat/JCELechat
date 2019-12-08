@@ -72,6 +72,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-801:
+    CapacitorCapacityBonus: 1.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
@@ -95,6 +96,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-803:
+    CapacitorCapacityBonus: 3.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
@@ -118,6 +120,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-805:
+    CapacitorCapacityBonus: 5.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
@@ -141,6 +144,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-601:
+    CapRechargeBonus: -1.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
@@ -164,6 +168,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-603:
+    CapRechargeBonus: -3.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
@@ -187,6 +192,7 @@ items:
     published: true
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-605:
+    CapRechargeBonus: -5.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
@@ -355,6 +361,7 @@ items:
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-601:
     Implantness: 6
+    PowerEngineeringOutputBonus: 1.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
@@ -378,6 +385,7 @@ items:
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-603:
     Implantness: 6
+    PowerEngineeringOutputBonus: 3.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
@@ -401,6 +409,7 @@ items:
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-605:
     Implantness: 6
+    PowerEngineeringOutputBonus: 5.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
@@ -423,6 +432,7 @@ items:
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-601:
+    CpuOutputBonus2: 1.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
@@ -446,6 +456,7 @@ items:
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-603:
+    CpuOutputBonus2: 3.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
@@ -469,6 +480,7 @@ items:
     published: true
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-605:
+    CpuOutputBonus2: 5.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4

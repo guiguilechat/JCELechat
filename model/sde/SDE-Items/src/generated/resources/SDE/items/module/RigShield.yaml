@@ -408,6 +408,7 @@ items:
     Drawback: 10
     Hp: 40
     RigSize: 3
+    ShieldCapacityBonus: 15.0
     TechLevel: 1
     UpgradeCost: 50
     id: 26088
@@ -421,6 +422,7 @@ items:
     Hp: 40
     MetaLevel: 5
     RigSize: 3
+    ShieldCapacityBonus: 20.0
     TechLevel: 2
     UpgradeCost: 75
     id: 26448

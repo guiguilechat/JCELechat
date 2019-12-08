@@ -2,6 +2,7 @@ items:
   Capital Tractor Beam I:
     CanFitShipGroup01: 883
     CapacitorNeed: 50.0
+    Cpu: 100.0
     Duration: 5000.0
     Hp: 40
     MainColor: 8627698
@@ -45,6 +46,7 @@ items:
     volume: 4000.0
   Small Tractor Beam I:
     CapacitorNeed: 5.0
+    Cpu: 20.0
     Duration: 5000.0
     Hp: 40
     MainColor: 8627698

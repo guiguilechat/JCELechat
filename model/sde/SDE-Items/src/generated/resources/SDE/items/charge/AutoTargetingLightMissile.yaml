@@ -12,6 +12,7 @@ items:
     KineticDamage: 70.0
     LauncherGroup: 509
     MaxFOFTargetRange: 100000
+    MaxVelocity: 3750.0
     MetaGroupID: 4
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
@@ -40,6 +41,7 @@ items:
     Hp: 70
     LauncherGroup: 509
     MaxFOFTargetRange: 100000
+    MaxVelocity: 3750.0
     MetaGroupID: 4
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
@@ -70,6 +72,7 @@ items:
     Hp: 70
     LauncherGroup: 509
     MaxFOFTargetRange: 100000
+    MaxVelocity: 3750.0
     MetaGroupID: 4
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
@@ -98,6 +101,7 @@ items:
     Hp: 70
     LauncherGroup: 509
     MaxFOFTargetRange: 100000
+    MaxVelocity: 3750.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -127,6 +131,7 @@ items:
     Hp: 70
     LauncherGroup: 509
     MaxFOFTargetRange: 100000
+    MaxVelocity: 3750.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -155,6 +160,7 @@ items:
     Hp: 70
     LauncherGroup: 509
     MaxFOFTargetRange: 100000
+    MaxVelocity: 3750.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321
@@ -183,6 +189,7 @@ items:
     Hp: 70
     LauncherGroup: 509
     MaxFOFTargetRange: 100000
+    MaxVelocity: 3750.0
     MetaGroupID: 4
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
@@ -212,6 +219,7 @@ items:
     KineticDamage: 62.0
     LauncherGroup: 509
     MaxFOFTargetRange: 100000
+    MaxVelocity: 3750.0
     RequiredSkill1: 3322
     RequiredSkill1Level: 1
     RequiredSkill2: 3321

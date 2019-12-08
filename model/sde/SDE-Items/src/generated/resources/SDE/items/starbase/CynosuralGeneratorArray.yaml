@@ -5,6 +5,7 @@ items:
     ArmorHP: 15000000
     ArmorUniformity: 0.75
     ControlTowerMinimumDistance: 25000
+    Cpu: 150.0
     DisallowOffensiveModifiers: 1
     Duration: 10000.0
     EmDamageResonance: 1.0

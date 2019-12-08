@@ -6,10 +6,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 386
     ControlTowerMinimumDistance: 5000
+    Cpu: 40.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -58,10 +60,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 386
     ControlTowerMinimumDistance: 5000
+    Cpu: 40.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -111,10 +115,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 89
     ControlTowerMinimumDistance: 5000
+    Cpu: 80.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -164,10 +170,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 476
     ControlTowerMinimumDistance: 5000
+    Cpu: 160.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -217,10 +225,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 386
     ControlTowerMinimumDistance: 5000
+    Cpu: 40.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -270,10 +280,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 89
     ControlTowerMinimumDistance: 5000
+    Cpu: 80.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -323,10 +335,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 476
     ControlTowerMinimumDistance: 5000
+    Cpu: 160.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -376,10 +390,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 89
     ControlTowerMinimumDistance: 5000
+    Cpu: 80.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -428,10 +444,12 @@ items:
     ArmorUniformity: 0.75
     ChargeGroup1: 476
     ControlTowerMinimumDistance: 5000
+    Cpu: 160.0
     DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     EntityAttackDelayMax: 30000
     EntityAttackDelayMin: 7500
+    EntityFlyRange: 175000.0
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1

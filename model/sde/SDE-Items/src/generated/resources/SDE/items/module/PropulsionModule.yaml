@@ -737,6 +737,7 @@ items:
   500MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 280.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -763,6 +764,7 @@ items:
   500MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 260.0
+    Cpu: 64.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -790,6 +792,7 @@ items:
   500MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 320.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -815,6 +818,7 @@ items:
   500MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 350.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -906,6 +910,7 @@ items:
   50MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 160.0
+    Cpu: 50.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -932,6 +937,7 @@ items:
   50MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 140.0
+    Cpu: 43.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -959,6 +965,7 @@ items:
   50MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 180.0
+    Cpu: 50.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -984,6 +991,7 @@ items:
   50MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 200.0
+    Cpu: 50.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -1075,6 +1083,7 @@ items:
   5MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 35.0
+    Cpu: 25.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -1101,6 +1110,7 @@ items:
   5MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 35.0
+    Cpu: 21.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -1128,6 +1138,7 @@ items:
   5MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 45.0
+    Cpu: 25.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -1153,6 +1164,7 @@ items:
   5MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 50.0
+    Cpu: 25.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -1583,6 +1595,7 @@ items:
   Coreli B-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 40.0
+    Cpu: 30.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -1636,6 +1649,7 @@ items:
   Coreli C-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 40.0
+    Cpu: 29.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -1689,6 +1703,7 @@ items:
   Corelum A-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 160.0
+    Cpu: 63.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -1796,6 +1811,7 @@ items:
   Corelum C-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 160.0
+    Cpu: 58.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2023,6 +2039,7 @@ items:
   Domination 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 320.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2050,6 +2067,7 @@ items:
   Domination 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 180.0
+    Cpu: 50.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2077,6 +2095,7 @@ items:
   Domination 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 45.0
+    Cpu: 25.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2182,6 +2201,7 @@ items:
   Federation Navy 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 280.0
+    Cpu: 83.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2209,6 +2229,7 @@ items:
   Federation Navy 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 160.0
+    Cpu: 55.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2236,6 +2257,7 @@ items:
   Federation Navy 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 40.0
+    Cpu: 28.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2289,6 +2311,7 @@ items:
   Gist A-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 320.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2342,6 +2365,7 @@ items:
   Gist B-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 320.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2395,6 +2419,7 @@ items:
   Gist C-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 320.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2448,6 +2473,7 @@ items:
   Gist X-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2501,6 +2527,7 @@ items:
   Gistii A-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 45.0
+    Cpu: 25.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2554,6 +2581,7 @@ items:
   Gistii B-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 45.0
+    Cpu: 25.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2607,6 +2635,7 @@ items:
   Gistii C-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 45.0
+    Cpu: 25.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2660,6 +2689,7 @@ items:
   Gistum A-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 180.0
+    Cpu: 50.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2713,6 +2743,7 @@ items:
   Gistum B-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 180.0
+    Cpu: 50.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -2766,6 +2797,7 @@ items:
   Gistum C-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 180.0
+    Cpu: 50.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -3033,6 +3065,7 @@ items:
   Republic Fleet 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 320.0
+    Cpu: 75.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -3060,6 +3093,7 @@ items:
   Republic Fleet 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 180.0
+    Cpu: 50.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -3087,6 +3121,7 @@ items:
   Republic Fleet 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 45.0
+    Cpu: 25.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -3314,6 +3349,7 @@ items:
   Shadow Serpentis 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 280.0
+    Cpu: 83.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -3341,6 +3377,7 @@ items:
   Shadow Serpentis 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 160.0
+    Cpu: 55.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
@@ -3368,6 +3405,7 @@ items:
   Shadow Serpentis 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 40.0
+    Cpu: 28.0
     DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033

@@ -1,5 +1,7 @@
 items:
   Ship Scanner I:
+    CapacitorNeed: 5.0
+    Cpu: 15.0
     DisallowRepeatingActivation: 1
     Duration: 2000.0
     Hp: 40
@@ -17,6 +19,7 @@ items:
     volume: 5.0
   Ship Scanner II:
     CapacitorNeed: 5.0
+    Cpu: 17.0
     DisallowRepeatingActivation: 1
     Duration: 1500.0
     Hp: 40
@@ -34,6 +37,7 @@ items:
     published: true
     volume: 5.0
   Ta3 Compact Ship Scanner:
+    CapacitorNeed: 5.0
     Cpu: 11.0
     DisallowRepeatingActivation: 1
     Duration: 1800.0

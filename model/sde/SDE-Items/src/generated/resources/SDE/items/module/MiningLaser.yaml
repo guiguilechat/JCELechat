@@ -1,6 +1,7 @@
 items:
   '''Habitat'' Miner I':
     CapacitorNeed: 20.0
+    Cpu: 54.0
     Duration: 60000.0
     Hp: 40
     MaxRange: 12000
@@ -18,6 +19,7 @@ items:
     volume: 5.0
   '''Wild'' Miner I':
     CapacitorNeed: 40.0
+    Cpu: 54.0
     Duration: 60000.0
     Hp: 40
     MaxRange: 12400
@@ -54,6 +56,7 @@ items:
     volume: 5.0
   Deep Core Mining Laser I:
     CapacitorNeed: 240.0
+    Cpu: 150.0
     CrystalsGetDamaged: 1
     DamageCloudChance: 5.0
     Duration: 60000.0
@@ -158,6 +161,7 @@ items:
     volume: 5.0
   Miner I:
     CapacitorNeed: 20.0
+    Cpu: 60.0
     Duration: 60000.0
     Hp: 40
     MaxRange: 10000
@@ -176,6 +180,7 @@ items:
     volume: 5.0
   Miner II:
     CapacitorNeed: 70.0
+    Cpu: 80.0
     Duration: 60000.0
     Hp: 40
     MaxRange: 12000
@@ -195,6 +200,7 @@ items:
     volume: 5.0
   ORE Deep Core Mining Laser:
     CapacitorNeed: 240.0
+    Cpu: 150.0
     CrystalsGetDamaged: 1
     DamageCloudChance: 5.0
     Duration: 60000.0
@@ -241,6 +247,7 @@ items:
     volume: 5.0
   ORE Miner:
     CapacitorNeed: 70.0
+    Cpu: 80.0
     Duration: 60000.0
     Hp: 40
     MaxRange: 16000
@@ -280,6 +287,7 @@ items:
     published: true
     volume: 5.0
   Single Diode Basic Mining Laser:
+    CapacitorNeed: 10.0
     Cpu: 45.0
     Duration: 60000.0
     Hp: 40

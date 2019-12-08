@@ -31,6 +31,7 @@ items:
     volume: 100.0
   CONCORD Modified Cloaking Device:
     CloakingTargetingDelay: 22500
+    Cpu: 84.0
     Hp: 40
     MaxVelocityModifier: 0.30250000953674316
     MetaGroupID: 4
@@ -48,6 +49,7 @@ items:
     volume: 100.0
   Caldari Navy Cloaking Device:
     CloakingTargetingDelay: 25000
+    Cpu: 60.0
     Hp: 40
     MaxVelocityModifier: 0.2750000059604645
     MetaGroupID: 4
@@ -94,6 +96,7 @@ items:
     volume: 100.0
   Dread Guristas Cloaking Device:
     CloakingTargetingDelay: 25000
+    Cpu: 60.0
     Hp: 40
     MaxVelocityModifier: 0.2750000059604645
     MetaGroupID: 4
@@ -111,6 +114,7 @@ items:
     volume: 100.0
   Estamel's Modified Cloaking Device:
     CloakingTargetingDelay: 20000
+    Cpu: 108.0
     Hp: 40
     MaxVelocityModifier: 0.33000001311302185
     MetaGroupID: 5
@@ -128,6 +132,7 @@ items:
     volume: 100.0
   Improved 'Guise' Cloaking Device II:
     CloakingTargetingDelay: 19000
+    Cpu: 51.0
     Hp: 40
     MaxVelocityModifier: 0.25
     MetaGroupID: 3
@@ -146,6 +151,7 @@ items:
     volume: 100.0
   Improved Cloaking Device II:
     CloakingTargetingDelay: 20000
+    Cpu: 60.0
     Hp: 40
     MaxVelocityModifier: 0.25
     MetaLevel: 5
@@ -163,6 +169,7 @@ items:
     volume: 100.0
   Kaikka's Modified Cloaking Device:
     CloakingTargetingDelay: 23750
+    Cpu: 72.0
     Hp: 40
     MaxVelocityModifier: 0.2887499928474426
     MetaGroupID: 5
@@ -180,6 +187,7 @@ items:
     volume: 100.0
   Prototype 'Poncho' Cloaking Device I:
     CloakingTargetingDelay: 29000
+    Cpu: 26.0
     Hp: 40
     MaxVelocityModifier: 0.10000000149011612
     MetaGroupID: 3
@@ -198,6 +206,7 @@ items:
     volume: 100.0
   Prototype Cloaking Device I:
     CloakingTargetingDelay: 30000
+    Cpu: 30.0
     Hp: 40
     MaxVelocityModifier: 0.10000000149011612
     ModuleReactivationDelay: 30000
@@ -233,6 +242,7 @@ items:
     volume: 100.0
   Thon's Modified Cloaking Device:
     CloakingTargetingDelay: 22500
+    Cpu: 84.0
     Hp: 40
     MaxVelocityModifier: 0.30250000953674316
     MetaGroupID: 5
@@ -250,6 +260,7 @@ items:
     volume: 100.0
   Vepas' Modified Cloaking Device:
     CloakingTargetingDelay: 21250
+    Cpu: 96.0
     Hp: 40
     MaxVelocityModifier: 0.3162499964237213
     MetaGroupID: 5

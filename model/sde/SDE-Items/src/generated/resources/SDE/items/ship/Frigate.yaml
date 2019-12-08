@@ -153,6 +153,8 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
+    ShipBonusGF: 5.0
+    ShipBonusGF2: 10.0
     SignatureRadius: 35
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1237,6 +1239,8 @@ items:
     ShieldRechargeRate: 625000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
+    ShipBonus2AF: -10.0
+    ShipBonusAF: 5.0
     SignatureRadius: 31
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1999,6 +2003,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
+    ShipBonusGF: 5.0
     ShipBonusGF2: 7.5
     SignatureRadius: 42
     StructureUniformity: 1.0
@@ -2165,6 +2170,7 @@ items:
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
     ShipBonusCF: 10
+    ShipBonusCF2: 5.0
     SignatureRadius: 38
     StructureUniformity: 1.0
     TechLevel: 1
@@ -3083,6 +3089,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
+    ShipBonusMF: 5.0
     ShipBonusMF2: 7.5
     SignatureRadius: 30
     StructureUniformity: 1.0

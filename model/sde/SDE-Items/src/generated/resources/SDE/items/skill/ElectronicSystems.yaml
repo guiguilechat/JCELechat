@@ -41,6 +41,7 @@ items:
     published: true
     volume: 0.01
   Frequency Modulation:
+    FalloffBonus: 10.0
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 3

@@ -40,6 +40,7 @@ items:
   Ahremen's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0674999952316284
     CapacitorRechargeRateMultiplier: 0.8463749885559082
+    Cpu: 22.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 13
@@ -58,6 +59,7 @@ items:
   Ammatar Navy Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
+    Cpu: 16.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -76,6 +78,7 @@ items:
   Brokara's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0625
     CapacitorRechargeRateMultiplier: 0.8921250104904175
+    Cpu: 18.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -132,6 +135,7 @@ items:
   Chelm's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0700000524520874
     CapacitorRechargeRateMultiplier: 0.8234999775886536
+    Cpu: 24.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 14
@@ -169,6 +173,7 @@ items:
   Dark Blood Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
+    Cpu: 16.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -187,6 +192,7 @@ items:
   Draclira's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0700000524520874
     CapacitorRechargeRateMultiplier: 0.8234999775886536
+    Cpu: 24.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 14
@@ -205,6 +211,7 @@ items:
   Mark I Compact Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0449999570846558
     CapacitorRechargeRateMultiplier: 0.9200000166893005
+    Cpu: 17.0
     Hp: 40
     MetaLevel: 1
     PowerOutputMultiplier: 1.0549999475479126
@@ -222,6 +229,7 @@ items:
   Power Diagnostic System I:
     CapacitorCapacityMultiplier: 1.0399999618530273
     CapacitorRechargeRateMultiplier: 0.925000011920929
+    Cpu: 20.0
     Hp: 40
     PowerOutputMultiplier: 1.0499999523162842
     RequiredSkill1: 3424
@@ -256,6 +264,7 @@ items:
   Raysere's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.065000057220459
     CapacitorRechargeRateMultiplier: 0.8692499995231628
+    Cpu: 20.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 12
@@ -274,6 +283,7 @@ items:
   Selynne's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.065000057220459
     CapacitorRechargeRateMultiplier: 0.8692499995231628
+    Cpu: 20.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 12
@@ -330,6 +340,7 @@ items:
   Tairei's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0625
     CapacitorRechargeRateMultiplier: 0.8921250104904175
+    Cpu: 18.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -367,6 +378,7 @@ items:
   True Sansha Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
+    Cpu: 16.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -404,6 +416,7 @@ items:
   Vizan's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0674999952316284
     CapacitorRechargeRateMultiplier: 0.8463749885559082
+    Cpu: 22.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 13

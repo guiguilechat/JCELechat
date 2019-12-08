@@ -1138,6 +1138,7 @@ items:
     RequiredSkill1Level: 1
     RigSize: 2
     RigSlots: 3
+    ScanRadarStrength: 4.0
     ScanResolution: 85
     ScanSpeed: 7500
     ShieldCapacity: 780

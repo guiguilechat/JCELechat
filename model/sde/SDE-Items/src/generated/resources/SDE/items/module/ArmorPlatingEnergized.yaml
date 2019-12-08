@@ -1,6 +1,7 @@
 items:
   '''Mafia'' Energized Kinetic Membrane I':
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     Hp: 40
     KineticDamageResistanceBonus: -37.5
     MetaGroupID: 3
@@ -17,6 +18,7 @@ items:
     volume: 5.0
   '''Moonshine'' Energized Thermal Membrane I':
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     Hp: 40
     MetaGroupID: 3
     MetaLevel: 6
@@ -33,6 +35,7 @@ items:
     volume: 5.0
   '''Pilfer'' Energized Adaptive Nano Membrane I':
     ArmorHPMultiplier: 1.0
+    Cpu: 24.0
     EmDamageResistanceBonus: -20.0
     ExplosiveDamageResistanceBonus: -20.0
     Hp: 40
@@ -52,6 +55,7 @@ items:
     volume: 5.0
   Ahremen's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 38.0
     EmDamageResistanceBonus: -28.3125
     ExplosiveDamageResistanceBonus: -28.3125
     Hp: 40
@@ -71,6 +75,7 @@ items:
     volume: 5.0
   Ahremen's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     EmDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 5
@@ -87,6 +92,7 @@ items:
     volume: 5.0
   Ahremen's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     ExplosiveDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 5
@@ -103,6 +109,7 @@ items:
     volume: 5.0
   Ahremen's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     KineticDamageResistanceBonus: -44.5
     MetaGroupID: 5
@@ -119,6 +126,7 @@ items:
     volume: 5.0
   Ahremen's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 13
@@ -135,6 +143,7 @@ items:
     volume: 5.0
   Ammatar Navy Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -22.5
     ExplosiveDamageResistanceBonus: -22.5
     Hp: 40
@@ -154,6 +163,7 @@ items:
     volume: 5.0
   Ammatar Navy Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -170,6 +180,7 @@ items:
     volume: 5.0
   Ammatar Navy Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -186,6 +197,7 @@ items:
     volume: 5.0
   Ammatar Navy Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -40.0
     MetaGroupID: 4
@@ -202,6 +214,7 @@ items:
     volume: 5.0
   Ammatar Navy Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 9
@@ -218,6 +231,7 @@ items:
     volume: 5.0
   Basic Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 24.0
     EmDamageResistanceBonus: -14.0
     ExplosiveDamageResistanceBonus: -14.0
     Hp: 40
@@ -235,6 +249,7 @@ items:
     volume: 25.0
   Basic Energized Armor Layering Membrane:
     ArmorHPMultiplier: 1.100000023841858
+    Cpu: 20.0
     Hp: 40
     Power: 1
     RequiredSkill1: 3394
@@ -248,6 +263,7 @@ items:
     volume: 25.0
   Basic Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     EmDamageResistanceBonus: -30.0
     Hp: 40
     Power: 1
@@ -262,6 +278,7 @@ items:
     volume: 25.0
   Basic Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     ExplosiveDamageResistanceBonus: -30.0
     Hp: 40
     Power: 1
@@ -276,6 +293,7 @@ items:
     volume: 25.0
   Basic Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     Hp: 40
     KineticDamageResistanceBonus: -30.0
     Power: 1
@@ -290,6 +308,7 @@ items:
     volume: 25.0
   Basic Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     Hp: 40
     Power: 1
     RequiredSkill1: 3394
@@ -304,6 +323,7 @@ items:
     volume: 25.0
   Brokara's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 33.0
     EmDamageResistanceBonus: -24.4375
     ExplosiveDamageResistanceBonus: -24.4375
     Hp: 40
@@ -323,6 +343,7 @@ items:
     volume: 5.0
   Brokara's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     EmDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 5
@@ -339,6 +360,7 @@ items:
     volume: 5.0
   Brokara's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     ExplosiveDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 5
@@ -355,6 +377,7 @@ items:
     volume: 5.0
   Brokara's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     KineticDamageResistanceBonus: -41.5
     MetaGroupID: 5
@@ -371,6 +394,7 @@ items:
     volume: 5.0
   Brokara's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -387,6 +411,7 @@ items:
     volume: 5.0
   Brynn's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 33.0
     EmDamageResistanceBonus: -24.4375
     ExplosiveDamageResistanceBonus: -24.4375
     Hp: 40
@@ -406,6 +431,7 @@ items:
     volume: 5.0
   Brynn's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     EmDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 5
@@ -422,6 +448,7 @@ items:
     volume: 5.0
   Brynn's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     ExplosiveDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 5
@@ -438,6 +465,7 @@ items:
     volume: 5.0
   Brynn's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     KineticDamageResistanceBonus: -41.5
     MetaGroupID: 5
@@ -454,6 +482,7 @@ items:
     volume: 5.0
   Brynn's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -470,6 +499,7 @@ items:
     volume: 5.0
   Centum A-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 38.0
     EmDamageResistanceBonus: -28.3125
     ExplosiveDamageResistanceBonus: -28.3125
     Hp: 40
@@ -489,6 +519,7 @@ items:
     volume: 5.0
   Centum A-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     EmDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 6
@@ -505,6 +536,7 @@ items:
     volume: 5.0
   Centum A-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     ExplosiveDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 6
@@ -521,6 +553,7 @@ items:
     volume: 5.0
   Centum A-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     KineticDamageResistanceBonus: -44.5
     MetaGroupID: 6
@@ -537,6 +570,7 @@ items:
     volume: 5.0
   Centum A-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 13
@@ -553,6 +587,7 @@ items:
     volume: 5.0
   Centum B-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 36.0
     EmDamageResistanceBonus: -26.375
     ExplosiveDamageResistanceBonus: -26.375
     Hp: 40
@@ -572,6 +607,7 @@ items:
     volume: 5.0
   Centum B-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 6
@@ -588,6 +624,7 @@ items:
     volume: 5.0
   Centum B-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     ExplosiveDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 6
@@ -604,6 +641,7 @@ items:
     volume: 5.0
   Centum B-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     KineticDamageResistanceBonus: -43.0
     MetaGroupID: 6
@@ -620,6 +658,7 @@ items:
     volume: 5.0
   Centum B-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 12
@@ -636,6 +675,7 @@ items:
     volume: 5.0
   Centum C-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 33.0
     EmDamageResistanceBonus: -24.4375
     ExplosiveDamageResistanceBonus: -24.4375
     Hp: 40
@@ -655,6 +695,7 @@ items:
     volume: 5.0
   Centum C-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     EmDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 6
@@ -671,6 +712,7 @@ items:
     volume: 5.0
   Centum C-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     ExplosiveDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 6
@@ -687,6 +729,7 @@ items:
     volume: 5.0
   Centum C-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     KineticDamageResistanceBonus: -41.5
     MetaGroupID: 6
@@ -703,6 +746,7 @@ items:
     volume: 5.0
   Centum C-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 11
@@ -719,6 +763,7 @@ items:
     volume: 5.0
   Chelm's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 40.0
     EmDamageResistanceBonus: -30.25
     ExplosiveDamageResistanceBonus: -30.25
     Hp: 40
@@ -738,6 +783,7 @@ items:
     volume: 5.0
   Chelm's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     EmDamageResistanceBonus: -46.0
     Hp: 40
     MetaGroupID: 5
@@ -754,6 +800,7 @@ items:
     volume: 5.0
   Chelm's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     ExplosiveDamageResistanceBonus: -46.0
     Hp: 40
     MetaGroupID: 5
@@ -770,6 +817,7 @@ items:
     volume: 5.0
   Chelm's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     Hp: 40
     KineticDamageResistanceBonus: -46.0
     MetaGroupID: 5
@@ -786,6 +834,7 @@ items:
     volume: 5.0
   Chelm's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 14
@@ -802,6 +851,7 @@ items:
     volume: 5.0
   Corelum A-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 38.0
     EmDamageResistanceBonus: -28.3125
     ExplosiveDamageResistanceBonus: -28.3125
     Hp: 40
@@ -821,6 +871,7 @@ items:
     volume: 5.0
   Corelum A-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     EmDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 6
@@ -837,6 +888,7 @@ items:
     volume: 5.0
   Corelum A-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     ExplosiveDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 6
@@ -853,6 +905,7 @@ items:
     volume: 5.0
   Corelum A-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     KineticDamageResistanceBonus: -44.5
     MetaGroupID: 6
@@ -869,6 +922,7 @@ items:
     volume: 5.0
   Corelum A-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 13
@@ -885,6 +939,7 @@ items:
     volume: 5.0
   Corelum B-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 36.0
     EmDamageResistanceBonus: -26.375
     ExplosiveDamageResistanceBonus: -26.375
     Hp: 40
@@ -904,6 +959,7 @@ items:
     volume: 5.0
   Corelum B-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 6
@@ -920,6 +976,7 @@ items:
     volume: 5.0
   Corelum B-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     ExplosiveDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 6
@@ -936,6 +993,7 @@ items:
     volume: 5.0
   Corelum B-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     KineticDamageResistanceBonus: -43.0
     MetaGroupID: 6
@@ -952,6 +1010,7 @@ items:
     volume: 5.0
   Corelum B-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 12
@@ -968,6 +1027,7 @@ items:
     volume: 5.0
   Corelum C-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 33.0
     EmDamageResistanceBonus: -24.4375
     ExplosiveDamageResistanceBonus: -24.4375
     Hp: 40
@@ -1004,6 +1064,7 @@ items:
     volume: 5.0
   Corelum C-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     ExplosiveDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 6
@@ -1020,6 +1081,7 @@ items:
     volume: 5.0
   Corelum C-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     KineticDamageResistanceBonus: -41.5
     MetaGroupID: 6
@@ -1036,6 +1098,7 @@ items:
     volume: 5.0
   Corelum C-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 11
@@ -1052,6 +1115,7 @@ items:
     volume: 5.0
   Cormack's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 40.0
     EmDamageResistanceBonus: -30.25
     ExplosiveDamageResistanceBonus: -30.25
     Hp: 40
@@ -1071,6 +1135,7 @@ items:
     volume: 5.0
   Cormack's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     EmDamageResistanceBonus: -46.0
     Hp: 40
     MetaGroupID: 5
@@ -1087,6 +1152,7 @@ items:
     volume: 5.0
   Cormack's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     ExplosiveDamageResistanceBonus: -46.0
     Hp: 40
     MetaGroupID: 5
@@ -1103,6 +1169,7 @@ items:
     volume: 5.0
   Cormack's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     Hp: 40
     KineticDamageResistanceBonus: -46.0
     MetaGroupID: 5
@@ -1119,6 +1186,7 @@ items:
     volume: 5.0
   Cormack's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 14
@@ -1135,6 +1203,7 @@ items:
     volume: 5.0
   Corpum A-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 38.0
     EmDamageResistanceBonus: -28.3125
     ExplosiveDamageResistanceBonus: -28.3125
     Hp: 40
@@ -1154,6 +1223,7 @@ items:
     volume: 5.0
   Corpum A-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     EmDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 6
@@ -1170,6 +1240,7 @@ items:
     volume: 5.0
   Corpum A-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     ExplosiveDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 6
@@ -1186,6 +1257,7 @@ items:
     volume: 5.0
   Corpum A-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     KineticDamageResistanceBonus: -44.5
     MetaGroupID: 6
@@ -1202,6 +1274,7 @@ items:
     volume: 5.0
   Corpum A-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 13
@@ -1218,6 +1291,7 @@ items:
     volume: 5.0
   Corpum B-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 36.0
     EmDamageResistanceBonus: -26.375
     ExplosiveDamageResistanceBonus: -26.375
     Hp: 40
@@ -1237,6 +1311,7 @@ items:
     volume: 5.0
   Corpum B-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 6
@@ -1253,6 +1328,7 @@ items:
     volume: 5.0
   Corpum B-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     ExplosiveDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 6
@@ -1269,6 +1345,7 @@ items:
     volume: 5.0
   Corpum B-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     KineticDamageResistanceBonus: -43.0
     MetaGroupID: 6
@@ -1285,6 +1362,7 @@ items:
     volume: 5.0
   Corpum B-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 12
@@ -1301,6 +1379,7 @@ items:
     volume: 5.0
   Corpum C-Type Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 33.0
     EmDamageResistanceBonus: -24.4375
     ExplosiveDamageResistanceBonus: -24.4375
     Hp: 40
@@ -1320,6 +1399,7 @@ items:
     volume: 5.0
   Corpum C-Type Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     EmDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 6
@@ -1336,6 +1416,7 @@ items:
     volume: 5.0
   Corpum C-Type Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     ExplosiveDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 6
@@ -1352,6 +1433,7 @@ items:
     volume: 5.0
   Corpum C-Type Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     KineticDamageResistanceBonus: -41.5
     MetaGroupID: 6
@@ -1368,6 +1450,7 @@ items:
     volume: 5.0
   Corpum C-Type Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     MetaGroupID: 6
     MetaLevel: 11
@@ -1384,6 +1467,7 @@ items:
     volume: 5.0
   Dark Blood Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -22.5
     ExplosiveDamageResistanceBonus: -22.5
     Hp: 40
@@ -1403,6 +1487,7 @@ items:
     volume: 5.0
   Dark Blood Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -1419,6 +1504,7 @@ items:
     volume: 5.0
   Dark Blood Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -1435,6 +1521,7 @@ items:
     volume: 5.0
   Dark Blood Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -40.0
     MetaGroupID: 4
@@ -1451,6 +1538,7 @@ items:
     volume: 5.0
   Dark Blood Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 9
@@ -1467,6 +1555,7 @@ items:
     volume: 5.0
   Draclira's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 40.0
     EmDamageResistanceBonus: -30.25
     ExplosiveDamageResistanceBonus: -30.25
     Hp: 40
@@ -1486,6 +1575,7 @@ items:
     volume: 5.0
   Draclira's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     EmDamageResistanceBonus: -46.0
     Hp: 40
     MetaGroupID: 5
@@ -1502,6 +1592,7 @@ items:
     volume: 5.0
   Draclira's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     ExplosiveDamageResistanceBonus: -46.0
     Hp: 40
     MetaGroupID: 5
@@ -1518,6 +1609,7 @@ items:
     volume: 5.0
   Draclira's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     Hp: 40
     KineticDamageResistanceBonus: -46.0
     MetaGroupID: 5
@@ -1534,6 +1626,7 @@ items:
     volume: 5.0
   Draclira's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 14
@@ -1550,6 +1643,7 @@ items:
     volume: 5.0
   Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -15.0
     ExplosiveDamageResistanceBonus: -15.0
     Hp: 40
@@ -1567,6 +1661,7 @@ items:
     volume: 25.0
   Energized Adaptive Nano Membrane II:
     ArmorHPMultiplier: 1.0
+    Cpu: 36.0
     EmDamageResistanceBonus: -20.0
     ExplosiveDamageResistanceBonus: -20.0
     Hp: 40
@@ -1585,6 +1680,7 @@ items:
     volume: 5.0
   Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
+    Cpu: 25.0
     Hp: 40
     Power: 1
     RequiredSkill1: 3394
@@ -1598,6 +1694,7 @@ items:
     volume: 25.0
   Energized Armor Layering Membrane II:
     ArmorHPMultiplier: 1.149999976158142
+    Cpu: 30.0
     Hp: 40
     MetaLevel: 5
     Power: 1
@@ -1612,6 +1709,7 @@ items:
     volume: 5.0
   Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -32.5
     Hp: 40
     Power: 1
@@ -1626,6 +1724,7 @@ items:
     volume: 25.0
   Energized EM Membrane II:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -37.5
     Hp: 40
     MetaLevel: 5
@@ -1641,6 +1740,7 @@ items:
     volume: 5.0
   Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
     Power: 1
@@ -1655,6 +1755,7 @@ items:
     volume: 25.0
   Energized Explosive Membrane II:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     ExplosiveDamageResistanceBonus: -37.5
     Hp: 40
     MetaLevel: 5
@@ -1670,6 +1771,7 @@ items:
     volume: 5.0
   Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -32.5
     Power: 1
@@ -1684,6 +1786,7 @@ items:
     volume: 25.0
   Energized Kinetic Membrane II:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     KineticDamageResistanceBonus: -37.5
     MetaLevel: 5
@@ -1699,6 +1802,7 @@ items:
     volume: 5.0
   Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     Power: 1
     RequiredSkill1: 3394
@@ -1713,6 +1817,7 @@ items:
     volume: 25.0
   Energized Thermal Membrane II:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     MetaLevel: 5
     Power: 1
@@ -1728,6 +1833,7 @@ items:
     volume: 5.0
   Experimental Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -15.0
     ExplosiveDamageResistanceBonus: -15.0
     Hp: 40
@@ -1746,6 +1852,7 @@ items:
     volume: 5.0
   Experimental Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
+    Cpu: 21.0
     Hp: 40
     MetaLevel: 3
     Power: 1
@@ -1760,6 +1867,7 @@ items:
     volume: 5.0
   Experimental Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 21.0
     EmDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 3
@@ -1775,6 +1883,7 @@ items:
     volume: 5.0
   Experimental Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 21.0
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 3
@@ -1790,6 +1899,7 @@ items:
     volume: 5.0
   Experimental Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 21.0
     Hp: 40
     KineticDamageResistanceBonus: -32.5
     MetaLevel: 3
@@ -1805,6 +1915,7 @@ items:
     volume: 5.0
   Experimental Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 21.0
     Hp: 40
     MetaLevel: 3
     Power: 1
@@ -1820,6 +1931,7 @@ items:
     volume: 5.0
   Federation Navy Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -20.0
     ExplosiveDamageResistanceBonus: -20.0
     Hp: 40
@@ -1839,6 +1951,7 @@ items:
     volume: 5.0
   Federation Navy Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -37.5
     Hp: 40
     MetaGroupID: 4
@@ -1855,6 +1968,7 @@ items:
     volume: 5.0
   Federation Navy Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -37.5
     Hp: 40
     MetaGroupID: 4
@@ -1871,6 +1985,7 @@ items:
     volume: 5.0
   Federation Navy Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -37.5
     MetaGroupID: 4
@@ -1887,6 +2002,7 @@ items:
     volume: 5.0
   Federation Navy Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -1903,6 +2019,7 @@ items:
     volume: 5.0
   Imperial Navy Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -22.5
     ExplosiveDamageResistanceBonus: -22.5
     Hp: 40
@@ -1922,6 +2039,7 @@ items:
     volume: 5.0
   Imperial Navy Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -1938,6 +2056,7 @@ items:
     volume: 5.0
   Imperial Navy Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -1954,6 +2073,7 @@ items:
     volume: 5.0
   Imperial Navy Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -40.0
     MetaGroupID: 4
@@ -1970,6 +2090,7 @@ items:
     volume: 5.0
   Imperial Navy Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 9
@@ -1986,6 +2107,7 @@ items:
     volume: 5.0
   Khanid Navy Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -22.5
     ExplosiveDamageResistanceBonus: -22.5
     Hp: 40
@@ -2005,6 +2127,7 @@ items:
     volume: 5.0
   Khanid Navy Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -2021,6 +2144,7 @@ items:
     volume: 5.0
   Khanid Navy Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -2037,6 +2161,7 @@ items:
     volume: 5.0
   Khanid Navy Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -40.0
     MetaGroupID: 4
@@ -2053,6 +2178,7 @@ items:
     volume: 5.0
   Khanid Navy Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 9
@@ -2069,6 +2195,7 @@ items:
     volume: 5.0
   Limited Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 27.0
     EmDamageResistanceBonus: -15.0
     ExplosiveDamageResistanceBonus: -15.0
     Hp: 40
@@ -2087,6 +2214,7 @@ items:
     volume: 5.0
   Limited Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
+    Cpu: 23.0
     Hp: 40
     MetaLevel: 2
     Power: 1
@@ -2101,6 +2229,7 @@ items:
     volume: 5.0
   Limited Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 23.0
     EmDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 2
@@ -2116,6 +2245,7 @@ items:
     volume: 5.0
   Limited Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 23.0
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 2
@@ -2131,6 +2261,7 @@ items:
     volume: 5.0
   Limited Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 23.0
     Hp: 40
     KineticDamageResistanceBonus: -32.5
     MetaLevel: 2
@@ -2146,6 +2277,7 @@ items:
     volume: 5.0
   Limited Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 23.0
     Hp: 40
     MetaLevel: 2
     Power: 1
@@ -2161,6 +2293,7 @@ items:
     volume: 5.0
   Prototype Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 24.0
     EmDamageResistanceBonus: -15.0
     ExplosiveDamageResistanceBonus: -15.0
     Hp: 40
@@ -2179,6 +2312,7 @@ items:
     volume: 5.0
   Prototype Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
+    Cpu: 20.0
     Hp: 40
     MetaLevel: 4
     Power: 1
@@ -2193,6 +2327,7 @@ items:
     volume: 5.0
   Prototype Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     EmDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 4
@@ -2208,6 +2343,7 @@ items:
     volume: 5.0
   Prototype Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 4
@@ -2223,6 +2359,7 @@ items:
     volume: 5.0
   Prototype Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     Hp: 40
     KineticDamageResistanceBonus: -32.5
     MetaLevel: 4
@@ -2238,6 +2375,7 @@ items:
     volume: 5.0
   Prototype Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 20.0
     Hp: 40
     MetaLevel: 4
     Power: 1
@@ -2253,6 +2391,7 @@ items:
     volume: 5.0
   Raysere's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 36.0
     EmDamageResistanceBonus: -26.375
     ExplosiveDamageResistanceBonus: -26.375
     Hp: 40
@@ -2272,6 +2411,7 @@ items:
     volume: 5.0
   Raysere's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 5
@@ -2288,6 +2428,7 @@ items:
     volume: 5.0
   Raysere's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     ExplosiveDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 5
@@ -2304,6 +2445,7 @@ items:
     volume: 5.0
   Raysere's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     KineticDamageResistanceBonus: -43.0
     MetaGroupID: 5
@@ -2320,6 +2462,7 @@ items:
     volume: 5.0
   Raysere's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 12
@@ -2336,6 +2479,7 @@ items:
     volume: 5.0
   Selynne's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 36.0
     EmDamageResistanceBonus: -26.375
     ExplosiveDamageResistanceBonus: -26.375
     Hp: 40
@@ -2355,6 +2499,7 @@ items:
     volume: 5.0
   Selynne's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 5
@@ -2371,6 +2516,7 @@ items:
     volume: 5.0
   Selynne's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     ExplosiveDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 5
@@ -2387,6 +2533,7 @@ items:
     volume: 5.0
   Selynne's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     KineticDamageResistanceBonus: -43.0
     MetaGroupID: 5
@@ -2403,6 +2550,7 @@ items:
     volume: 5.0
   Selynne's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 12
@@ -2419,6 +2567,7 @@ items:
     volume: 5.0
   Setele's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 38.0
     EmDamageResistanceBonus: -28.3125
     ExplosiveDamageResistanceBonus: -28.3125
     Hp: 40
@@ -2438,6 +2587,7 @@ items:
     volume: 5.0
   Setele's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     EmDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 5
@@ -2454,6 +2604,7 @@ items:
     volume: 5.0
   Setele's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     ExplosiveDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 5
@@ -2470,6 +2621,7 @@ items:
     volume: 5.0
   Setele's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     KineticDamageResistanceBonus: -44.5
     MetaGroupID: 5
@@ -2486,6 +2638,7 @@ items:
     volume: 5.0
   Setele's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 13
@@ -2502,6 +2655,7 @@ items:
     volume: 5.0
   Shadow Serpentis Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -20.0
     ExplosiveDamageResistanceBonus: -20.0
     Hp: 40
@@ -2521,6 +2675,7 @@ items:
     volume: 5.0
   Shadow Serpentis Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -37.5
     Hp: 40
     MetaGroupID: 4
@@ -2537,6 +2692,7 @@ items:
     volume: 5.0
   Shadow Serpentis Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -37.5
     Hp: 40
     MetaGroupID: 4
@@ -2553,6 +2709,7 @@ items:
     volume: 5.0
   Shadow Serpentis Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -37.5
     MetaGroupID: 4
@@ -2569,6 +2726,7 @@ items:
     volume: 5.0
   Shadow Serpentis Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
@@ -2585,6 +2743,7 @@ items:
     volume: 5.0
   Shaqil's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 40.0
     EmDamageResistanceBonus: -30.299999237060547
     ExplosiveDamageResistanceBonus: -30.299999237060547
     Hp: 40
@@ -2604,6 +2763,7 @@ items:
     volume: 5.0
   Shaqil's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 34.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 14
@@ -2620,6 +2780,7 @@ items:
     volume: 5.0
   Tairei's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 33.0
     EmDamageResistanceBonus: -24.4375
     ExplosiveDamageResistanceBonus: -24.4375
     Hp: 40
@@ -2639,6 +2800,7 @@ items:
     volume: 5.0
   Tairei's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     EmDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 5
@@ -2655,6 +2817,7 @@ items:
     volume: 5.0
   Tairei's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     ExplosiveDamageResistanceBonus: -41.5
     Hp: 40
     MetaGroupID: 5
@@ -2671,6 +2834,7 @@ items:
     volume: 5.0
   Tairei's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     KineticDamageResistanceBonus: -41.5
     MetaGroupID: 5
@@ -2687,6 +2851,7 @@ items:
     volume: 5.0
   Tairei's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 11
@@ -2703,6 +2868,7 @@ items:
     volume: 5.0
   True Sansha Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -22.5
     ExplosiveDamageResistanceBonus: -22.5
     Hp: 40
@@ -2722,6 +2888,7 @@ items:
     volume: 5.0
   True Sansha Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     EmDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -2738,6 +2905,7 @@ items:
     volume: 5.0
   True Sansha Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -40.0
     Hp: 40
     MetaGroupID: 4
@@ -2754,6 +2922,7 @@ items:
     volume: 5.0
   True Sansha Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     KineticDamageResistanceBonus: -40.0
     MetaGroupID: 4
@@ -2770,6 +2939,7 @@ items:
     volume: 5.0
   True Sansha Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 9
@@ -2786,6 +2956,7 @@ items:
     volume: 5.0
   Tuvan's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 36.0
     EmDamageResistanceBonus: -26.375
     ExplosiveDamageResistanceBonus: -26.375
     Hp: 40
@@ -2805,6 +2976,7 @@ items:
     volume: 5.0
   Tuvan's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     EmDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 5
@@ -2821,6 +2993,7 @@ items:
     volume: 5.0
   Tuvan's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     ExplosiveDamageResistanceBonus: -43.0
     Hp: 40
     MetaGroupID: 5
@@ -2837,6 +3010,7 @@ items:
     volume: 5.0
   Tuvan's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     KineticDamageResistanceBonus: -43.0
     MetaGroupID: 5
@@ -2853,6 +3027,7 @@ items:
     volume: 5.0
   Tuvan's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 30.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 12
@@ -2869,6 +3044,7 @@ items:
     volume: 5.0
   Upgraded Energized Adaptive Nano Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 28.0
     EmDamageResistanceBonus: -15.0
     ExplosiveDamageResistanceBonus: -15.0
     Hp: 40
@@ -2887,6 +3063,7 @@ items:
     volume: 5.0
   Upgraded Energized Armor Layering Membrane I:
     ArmorHPMultiplier: 1.125
+    Cpu: 24.0
     Hp: 40
     MetaLevel: 1
     Power: 1
@@ -2901,6 +3078,7 @@ items:
     volume: 5.0
   Upgraded Energized EM Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 24.0
     EmDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 1
@@ -2916,6 +3094,7 @@ items:
     volume: 5.0
   Upgraded Energized Explosive Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 24.0
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
     MetaLevel: 1
@@ -2931,6 +3110,7 @@ items:
     volume: 5.0
   Upgraded Energized Kinetic Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 24.0
     Hp: 40
     KineticDamageResistanceBonus: -32.5
     MetaLevel: 1
@@ -2946,6 +3126,7 @@ items:
     volume: 5.0
   Upgraded Energized Thermal Membrane I:
     ArmorHPMultiplier: 1.0
+    Cpu: 24.0
     Hp: 40
     MetaLevel: 1
     Power: 1
@@ -2961,6 +3142,7 @@ items:
     volume: 5.0
   Vizan's Modified Energized Adaptive Nano Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 38.0
     EmDamageResistanceBonus: -28.3125
     ExplosiveDamageResistanceBonus: -28.3125
     Hp: 40
@@ -2980,6 +3162,7 @@ items:
     volume: 5.0
   Vizan's Modified Energized EM Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     EmDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 5
@@ -2996,6 +3179,7 @@ items:
     volume: 5.0
   Vizan's Modified Energized Explosive Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     ExplosiveDamageResistanceBonus: -44.5
     Hp: 40
     MetaGroupID: 5
@@ -3012,6 +3196,7 @@ items:
     volume: 5.0
   Vizan's Modified Energized Kinetic Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     KineticDamageResistanceBonus: -44.5
     MetaGroupID: 5
@@ -3028,6 +3213,7 @@ items:
     volume: 5.0
   Vizan's Modified Energized Thermal Membrane:
     ArmorHPMultiplier: 1.0
+    Cpu: 32.0
     Hp: 40
     MetaGroupID: 5
     MetaLevel: 13

@@ -1,6 +1,7 @@
 items:
   '''Basic'' Shield Power Relay':
     CapacitorRechargeRateMultiplier: 1.2000000476837158
+    Cpu: 10.0
     Hp: 40
     MetaGroupID: 3
     MetaLevel: 6
@@ -47,6 +48,7 @@ items:
     volume: 5.0
   Shield Power Relay I:
     CapacitorRechargeRateMultiplier: 1.2999999523162842
+    Cpu: 20.0
     Hp: 40
     Rechargeratebonus: -20
     RequiredSkill1: 3424

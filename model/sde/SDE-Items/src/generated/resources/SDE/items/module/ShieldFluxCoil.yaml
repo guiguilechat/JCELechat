@@ -1,5 +1,6 @@
 items:
   '''Basic'' Shield Flux Coil':
+    Cpu: 10.0
     Hp: 40
     MetaGroupID: 3
     MetaLevel: 6
@@ -46,6 +47,7 @@ items:
     published: true
     volume: 5.0
   Shield Flux Coil I:
+    Cpu: 20.0
     Hp: 40
     RequiredSkill1: 3424
     RequiredSkill1Level: 2

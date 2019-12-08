@@ -19,6 +19,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 350
+    EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FalloffBonus: -5.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -28,6 +29,7 @@ items:
     MaxLockedTargets: 8
     MaxRange: 5000
     MaxRangeBonus: -5.0
+    MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
     RechargeRate: 2500000.0
@@ -80,6 +82,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 250
+    EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 235
@@ -87,6 +90,7 @@ items:
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxRange: 10000
+    MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
     RechargeRate: 2500000.0
@@ -139,6 +143,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
+    EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 200
@@ -147,6 +152,7 @@ items:
     MaxLockedTargets: 8
     MaxRange: 7500
     MaxTargetRangeBonus: -12.0
+    MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
     RechargeRate: 2500000.0
@@ -199,6 +205,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 350
+    EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 100
@@ -207,6 +214,7 @@ items:
     MaxLockedTargets: 8
     MaxRange: 5000
     MaxTargetRangeBonus: -8.0
+    MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
     RechargeRate: 2500000.0
@@ -262,12 +270,14 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 350
+    EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 50
     KineticDamageResonance: 1.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
+    MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
     RechargeRate: 2500000.0
@@ -320,6 +330,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
+    EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FalloffBonus: -12.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -329,6 +340,7 @@ items:
     MaxLockedTargets: 8
     MaxRange: 7500
     MaxRangeBonus: -12.0
+    MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
     RechargeRate: 2500000.0
@@ -381,6 +393,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 250
+    EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 300
@@ -389,6 +402,7 @@ items:
     MaxLockedTargets: 8
     MaxRange: 10000
     MaxTargetRangeBonus: -25.0
+    MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
     RechargeRate: 2500000.0
@@ -441,6 +455,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 250
+    EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FalloffBonus: -25.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -450,6 +465,7 @@ items:
     MaxLockedTargets: 8
     MaxRange: 10000
     MaxRangeBonus: -25.0
+    MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
     RechargeRate: 2500000.0
@@ -502,6 +518,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
+    EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 110
@@ -509,6 +526,7 @@ items:
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxRange: 7500
+    MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
     RechargeRate: 2500000.0
@@ -564,12 +582,14 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
+    EntityFlyRange: 750.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 100
     KineticDamageResonance: 1.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
+    MaxVelocity: 2750.0
     OptimalSigRadius: 25
     ProximityRange: 5000
     RechargeRate: 2500000.0
@@ -624,6 +644,7 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 350
+    EntityFlyRange: 500.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 80
@@ -631,6 +652,7 @@ items:
     MaxAttackTargets: 1
     MaxLockedTargets: 8
     MaxRange: 5000
+    MaxVelocity: 3200.0
     OptimalSigRadius: 25
     ProximityRange: 3500
     RechargeRate: 2500000.0
@@ -686,12 +708,14 @@ items:
     EntityChaseMaxDuration: 2500
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 250
+    EntityFlyRange: 1000.0
     ExplosiveDamageResonance: 1.0
     FighterAbilityAntiFighterMissileResistance: 1
     Hp: 200
     KineticDamageResonance: 1.0
     MaxAttackTargets: 1
     MaxLockedTargets: 8
+    MaxVelocity: 2000.0
     OptimalSigRadius: 25
     ProximityRange: 7000
     RechargeRate: 2500000.0

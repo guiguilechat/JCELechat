@@ -3,6 +3,7 @@ items:
     CapacitorNeed: 20.0
     ChargeGroup1: 911
     ChargeSize: 1
+    Cpu: 28.0
     Duration: 10000.0
     FalloffEffectiveness: 60000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -115,6 +116,7 @@ items:
     CapacitorNeed: 30.0
     ChargeGroup1: 911
     ChargeSize: 1
+    Cpu: 35.0
     Duration: 10000.0
     FalloffEffectiveness: 50000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -141,6 +143,7 @@ items:
     CapacitorNeed: 36.0
     ChargeGroup1: 911
     ChargeSize: 1
+    Cpu: 42.0
     Duration: 10000.0
     FalloffEffectiveness: 60000
     HeatAbsorbtionRateModifier: 0.019999999552965164

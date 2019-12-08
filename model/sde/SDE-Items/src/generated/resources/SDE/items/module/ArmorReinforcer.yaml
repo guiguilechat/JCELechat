@@ -81,6 +81,7 @@ items:
     volume: 10.0
   '''Citadella'' 100mm Steel Plates':
     ArmorHPBonusAdd: 175
+    Cpu: 4.0
     Hp: 40
     MassAddition: 25000
     MetaGroupID: 3
@@ -111,6 +112,7 @@ items:
     volume: 5.0
   100mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 250
+    Cpu: 8.0
     Hp: 40
     MassAddition: 35000
     MetaLevel: 1
@@ -125,6 +127,7 @@ items:
     volume: 5.0
   100mm Steel Plates I:
     ArmorHPBonusAdd: 200
+    Cpu: 10.0
     Hp: 40
     MassAddition: 35000
     Power: 5
@@ -183,6 +186,7 @@ items:
     volume: 20.0
   1600mm Steel Plates I:
     ArmorHPBonusAdd: 3500
+    Cpu: 30.0
     Hp: 40
     MassAddition: 3500000
     Power: 500
@@ -241,6 +245,7 @@ items:
     volume: 10.0
   200mm Steel Plates I:
     ArmorHPBonusAdd: 450
+    Cpu: 15.0
     Hp: 40
     MassAddition: 140000
     Power: 10
@@ -358,6 +363,7 @@ items:
     volume: 10.0
   400mm Steel Plates I:
     ArmorHPBonusAdd: 900
+    Cpu: 20.0
     Hp: 40
     MassAddition: 350000
     Power: 30
@@ -371,6 +377,7 @@ items:
     volume: 25.0
   400mm Steel Plates II:
     ArmorHPBonusAdd: 1200
+    Cpu: 23.0
     Hp: 40
     MassAddition: 375000
     MetaLevel: 5
@@ -415,6 +422,7 @@ items:
     volume: 20.0
   800mm Steel Plates I:
     ArmorHPBonusAdd: 1750
+    Cpu: 25.0
     Hp: 40
     MassAddition: 1350000
     Power: 200
@@ -428,6 +436,7 @@ items:
     volume: 50.0
   800mm Steel Plates II:
     ArmorHPBonusAdd: 2400
+    Cpu: 28.0
     Hp: 40
     MassAddition: 1450000
     MetaLevel: 5
@@ -739,6 +748,7 @@ items:
     volume: 10.0
   Syndicate 800mm Steel Plates:
     ArmorHPBonusAdd: 2500
+    Cpu: 28.0
     Hp: 40
     MassAddition: 1000000
     MetaGroupID: 4

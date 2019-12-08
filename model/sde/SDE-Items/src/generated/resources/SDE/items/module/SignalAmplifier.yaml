@@ -83,6 +83,7 @@ items:
     published: true
     volume: 5.0
   Signal Amplifier I:
+    Cpu: 20.0
     Hp: 40
     MaxLockedTargetsBonus: 1
     MaxTargetRangeBonus: 25.0

@@ -221,6 +221,7 @@ items:
     KineticDamageResonance: 1.0
     MaxLockedTargets: 8
     MaxRange: 5000
+    MaxVelocity: 300.0
     MiningAmount: 13
     OrbitRange: 200
     ProximityRange: 250
@@ -231,6 +232,10 @@ items:
     RequiredSkill2Level: 2
     RequiredSkill3: 3436
     RequiredSkill3Level: 1
+    ScanGravimetricStrength: 1.0
+    ScanLadarStrength: 1.0
+    ScanMagnetometricStrength: 1.0
+    ScanRadarStrength: 1.0
     ShieldCapacity: 20
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
@@ -279,6 +284,10 @@ items:
     RequiredSkill2Level: 2
     RequiredSkill3: 3436
     RequiredSkill3Level: 1
+    ScanGravimetricStrength: 1.0
+    ScanLadarStrength: 1.0
+    ScanMagnetometricStrength: 1.0
+    ScanRadarStrength: 1.0
     ShieldCapacity: 70
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
@@ -411,6 +420,7 @@ items:
     KineticDamageResonance: 1.0
     MaxLockedTargets: 8
     MaxRange: 5000
+    MaxVelocity: 400.0
     MiningAmount: 25
     OrbitRange: 200
     ProximityRange: 250
@@ -421,6 +431,10 @@ items:
     RequiredSkill2Level: 2
     RequiredSkill3: 3436
     RequiredSkill3Level: 1
+    ScanGravimetricStrength: 1.0
+    ScanLadarStrength: 1.0
+    ScanMagnetometricStrength: 1.0
+    ScanRadarStrength: 1.0
     ShieldCapacity: 30
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
@@ -456,6 +470,7 @@ items:
     KineticDamageResonance: 1.0
     MaxLockedTargets: 8
     MaxRange: 5000
+    MaxVelocity: 500.0
     MetaLevel: 5
     MiningAmount: 33
     OrbitRange: 200

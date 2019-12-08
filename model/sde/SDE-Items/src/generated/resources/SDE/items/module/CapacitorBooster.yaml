@@ -2,6 +2,7 @@ items:
   '''Harness'' Medium Capacitor Booster I':
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -24,6 +25,7 @@ items:
   '''Plough'' Heavy Capacitor Booster I':
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
@@ -46,6 +48,7 @@ items:
   '''Saddle'' Small Capacitor Booster I':
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 13750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -68,6 +71,7 @@ items:
   Ahremen's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 9562.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
@@ -90,6 +94,7 @@ items:
   Ammatar Navy Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
@@ -112,6 +117,7 @@ items:
   Ammatar Navy Medium Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
@@ -134,6 +140,7 @@ items:
   Ammatar Navy Micro Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 10.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -156,6 +163,7 @@ items:
   Ammatar Navy Small Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -178,6 +186,7 @@ items:
   Brokara's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 10687.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.9000000953674316
@@ -265,6 +274,7 @@ items:
   Chelm's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 9000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
@@ -310,6 +320,7 @@ items:
   Dark Blood Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
@@ -332,6 +343,7 @@ items:
   Dark Blood Medium Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
@@ -354,6 +366,7 @@ items:
   Dark Blood Micro Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 10.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -376,6 +389,7 @@ items:
   Dark Blood Small Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -398,6 +412,7 @@ items:
   Draclira's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 9000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
@@ -420,6 +435,7 @@ items:
   Heavy 'Brave' Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 34.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
@@ -442,6 +458,7 @@ items:
   Heavy Brief Capacitor Overcharge I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 14250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
@@ -463,6 +480,7 @@ items:
   Heavy Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -483,6 +501,7 @@ items:
   Heavy Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.200000047683716
@@ -504,6 +523,7 @@ items:
   Heavy Electrochemical Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
@@ -525,6 +545,7 @@ items:
   Heavy F-RX Prototype Capacitor Boost:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 12750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
@@ -546,6 +567,7 @@ items:
   Heavy Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5999999046325684
@@ -567,6 +589,7 @@ items:
   Imperial Navy Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
@@ -589,6 +612,7 @@ items:
   Imperial Navy Medium Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
@@ -611,6 +635,7 @@ items:
   Imperial Navy Micro Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 10.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -633,6 +658,7 @@ items:
   Imperial Navy Small Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -655,6 +681,7 @@ items:
   Medium 'Gattotte' Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 21.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
@@ -677,6 +704,7 @@ items:
   Medium Brief Capacitor Overcharge I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 14250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.800000190734863
@@ -698,6 +726,7 @@ items:
   Medium Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -718,6 +747,7 @@ items:
   Medium Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 4.0
@@ -739,6 +769,7 @@ items:
   Medium Electrochemical Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
@@ -760,6 +791,7 @@ items:
   Medium F-RX Prototype Capacitor Boost:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 12750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.300000190734863
@@ -781,6 +813,7 @@ items:
   Medium Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
@@ -802,6 +835,7 @@ items:
   Micro Brief Capacitor Overcharge I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 9.0
     Duration: 14250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.300000190734863
@@ -823,6 +857,7 @@ items:
   Micro Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 10.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -843,6 +878,7 @@ items:
   Micro Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 10.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.699999809265137
@@ -864,6 +900,7 @@ items:
   Micro Electrochemical Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 8.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -885,6 +922,7 @@ items:
   Micro F-RX Prototype Capacitor Boost:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 8.0
     Duration: 12750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.699999809265137
@@ -906,6 +944,7 @@ items:
   Micro Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 9.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
@@ -927,6 +966,7 @@ items:
   Raysere's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 10125.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.700000047683716
@@ -949,6 +989,7 @@ items:
   Selynne's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 10125.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.700000047683716
@@ -971,6 +1012,7 @@ items:
   Small 'Siesta' Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 13.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
@@ -993,6 +1035,7 @@ items:
   Small Brief Capacitor Overcharge I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 14250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.300000190734863
@@ -1014,6 +1057,7 @@ items:
   Small Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 15000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.699999809265137
@@ -1034,6 +1078,7 @@ items:
   Small Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.300000190734863
@@ -1055,6 +1100,7 @@ items:
   Small Electrochemical Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.300000190734863
@@ -1076,6 +1122,7 @@ items:
   Small F-RX Prototype Capacitor Boost:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 12750.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.699999809265137
@@ -1097,6 +1144,7 @@ items:
   Small Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 13500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.0
@@ -1118,6 +1166,7 @@ items:
   Tairei's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 10687.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.9000000953674316
@@ -1163,6 +1212,7 @@ items:
   True Sansha Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
@@ -1185,6 +1235,7 @@ items:
   True Sansha Medium Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 25.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.799999952316284
@@ -1207,6 +1258,7 @@ items:
   True Sansha Micro Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 10.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -1229,6 +1281,7 @@ items:
   True Sansha Small Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 15.0
     Duration: 11250.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
@@ -1251,6 +1304,7 @@ items:
   Vizan's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
+    Cpu: 40.0
     Duration: 9562.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684

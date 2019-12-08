@@ -28,6 +28,7 @@ items:
     volume: 5.0
   Burst Jammer I:
     CapacitorNeed: 240.0
+    Cpu: 30.0
     Duration: 30000.0
     EcmBurstRange: 10000
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -130,6 +131,7 @@ items:
     volume: 5.0
   Rash Compact Burst Jammer:
     CapacitorNeed: 240.0
+    Cpu: 24.0
     Duration: 30000.0
     EcmBurstRange: 10000
     HeatAbsorbtionRateModifier: 0.009999999776482582

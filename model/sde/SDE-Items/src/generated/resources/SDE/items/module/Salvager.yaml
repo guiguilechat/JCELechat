@@ -2,6 +2,7 @@ items:
   Salvager I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
+    Cpu: 20.0
     Duration: 10000.0
     Hp: 40
     MaxRange: 5000

@@ -166,6 +166,7 @@ items:
     PrimaryAttribute: 165
     SecondaryAttribute: 167
     SkillTimeConstant: 1
+    VelocityBonus: 5.0
     id: 3449
     marketGroup: 374
     name: Navigation

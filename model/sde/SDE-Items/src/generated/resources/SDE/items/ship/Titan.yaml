@@ -59,6 +59,7 @@ items:
     MaxOperationalUsers: 2
     MaxPassengers: 150
     MaxTargetRange: 250000
+    MaxVelocity: 60.0
     MedSlots: 5
     PowerOutput: 1250000
     PowerToSpeed: 1
@@ -171,6 +172,7 @@ items:
     MaxOperationalUsers: 2
     MaxPassengers: 1500
     MaxTargetRange: 250000
+    MaxVelocity: 70.0
     MedSlots: 6
     PowerOutput: 1050000
     PowerToSpeed: 1
@@ -409,6 +411,7 @@ items:
     MaxOperationalUsers: 2
     MaxPassengers: 1500
     MaxTargetRange: 250000
+    MaxVelocity: 60.0
     MedSlots: 8
     PowerOutput: 755000
     PowerToSpeed: 1
@@ -641,6 +644,7 @@ items:
     MaxOperationalUsers: 2
     MaxPassengers: 150
     MaxTargetRange: 250000
+    MaxVelocity: 80.0
     MedSlots: 7
     PowerOutput: 965000
     PowerToSpeed: 1

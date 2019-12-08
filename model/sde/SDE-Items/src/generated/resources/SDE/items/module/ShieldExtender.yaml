@@ -211,6 +211,7 @@ items:
     volume: 20.0
   Large Shield Extender I:
     CapacityBonus: 1900
+    Cpu: 40.0
     Hp: 40
     Power: 150
     RequiredSkill1: 3425
@@ -440,6 +441,7 @@ items:
     volume: 5.0
   Small Shield Extender I:
     CapacityBonus: 400
+    Cpu: 20.0
     Hp: 40
     Power: 2
     RequiredSkill1: 3425
@@ -453,6 +455,7 @@ items:
     volume: 5.0
   Small Shield Extender II:
     CapacityBonus: 520
+    Cpu: 23.0
     Hp: 40
     MetaLevel: 5
     Power: 3

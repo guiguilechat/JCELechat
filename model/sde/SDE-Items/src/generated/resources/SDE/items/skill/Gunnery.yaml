@@ -790,6 +790,7 @@ items:
     published: true
     volume: 0.01
   Trajectory Analysis:
+    FalloffBonus: 5.0
     PrimaryAttribute: 167
     RequiredSkill1: 3300
     RequiredSkill1Level: 4

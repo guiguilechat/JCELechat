@@ -18,6 +18,7 @@ items:
     published: true
     volume: 5.0
   Domination Tracking Enhancer:
+    Cpu: 8.0
     FalloffBonus: 21.0
     Hp: 40
     MaxRangeBonus: 10.5
@@ -52,6 +53,7 @@ items:
     published: true
     volume: 5.0
   Gotan's Modified Tracking Enhancer:
+    Cpu: 16.0
     FalloffBonus: 24.0
     Hp: 40
     MaxRangeBonus: 12.0
@@ -69,6 +71,7 @@ items:
     published: true
     volume: 5.0
   Hakim's Modified Tracking Enhancer:
+    Cpu: 14.0
     FalloffBonus: 23.0
     Hp: 40
     MaxRangeBonus: 11.5
@@ -86,6 +89,7 @@ items:
     published: true
     volume: 5.0
   Mizuro's Modified Tracking Enhancer:
+    Cpu: 12.0
     FalloffBonus: 22.0
     Hp: 40
     MaxRangeBonus: 11.0
@@ -103,6 +107,7 @@ items:
     published: true
     volume: 5.0
   Republic Fleet Tracking Enhancer:
+    Cpu: 8.0
     FalloffBonus: 21.0
     Hp: 40
     MaxRangeBonus: 10.5
@@ -120,6 +125,7 @@ items:
     published: true
     volume: 5.0
   Tobias' Modified Tracking Enhancer:
+    Cpu: 18.0
     FalloffBonus: 25.0
     Hp: 40
     MaxRangeBonus: 12.5
@@ -137,6 +143,7 @@ items:
     published: true
     volume: 5.0
   Tracking Enhancer I:
+    Cpu: 10.0
     FalloffBonus: 14.5
     Hp: 40
     MaxRangeBonus: 7.25
@@ -152,6 +159,7 @@ items:
     published: true
     volume: 5.0
   Tracking Enhancer II:
+    Cpu: 15.0
     FalloffBonus: 20.0
     Hp: 40
     MaxRangeBonus: 10.0

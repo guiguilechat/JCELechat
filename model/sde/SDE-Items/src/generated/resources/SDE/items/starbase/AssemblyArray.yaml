@@ -5,6 +5,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 1000.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -39,6 +40,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -73,6 +75,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -107,6 +110,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -141,6 +145,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 1000.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -175,6 +180,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -209,6 +215,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -243,6 +250,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -277,6 +285,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 150.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -346,6 +355,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 500.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -380,6 +390,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 200.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -414,6 +425,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 250.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000
@@ -483,6 +495,7 @@ items:
     AnchoringSecurityLevelMin: -1.0
     ArmorHP: 20000
     ArmorUniformity: 0.75
+    Cpu: 2000.0
     DisallowOffensiveModifiers: 1
     FighterAbilityAntiCapitalMissileResistance: 1
     Hp: 10000

@@ -267,6 +267,7 @@ items:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
     ChargeSize: 1
+    Cpu: 20.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
@@ -326,6 +327,7 @@ items:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
     ChargeSize: 1
+    Cpu: 18.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
