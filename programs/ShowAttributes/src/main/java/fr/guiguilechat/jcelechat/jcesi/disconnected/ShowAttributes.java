@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_effects_effect_id_modifiers;
+import fr.guiguilechat.jcelechat.model.sde.meta.Unit;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 
 public class ShowAttributes {
@@ -174,12 +175,16 @@ public class ShowAttributes {
 
 	public static String printAttValue(Map<Integer, Float> attIdToValue, int attId) {
 		R_get_dogma_attributes_attribute_id attribute = ESIStatic.INSTANCE.cache.dogma.attributes(attId).get();
-		return "" + attIdToValue.getOrDefault(attId, attribute.default_value) + " " + getUnit(attribute.unit_id);
+		return getUnit(attribute.unit_id, attIdToValue.getOrDefault(attId, attribute.default_value));
 	}
 
 	public static float getAttValue(Map<Integer, Float> attIdToValue, int attId) {
 		R_get_dogma_attributes_attribute_id attribute = ESIStatic.INSTANCE.cache.dogma.attributes(attId).get();
 		return attIdToValue.getOrDefault(attId, attribute.default_value);
+	}
+
+	public static String getUnit(int unit_id, float value) {
+		return Unit.load().get(unit_id).value(value);
 	}
 
 	public static String getUnit(int unit_id) {

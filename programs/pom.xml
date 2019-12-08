@@ -19,7 +19,8 @@
 		<module>Praisal</module>
 		<module>MoonWorth</module>
 		<module>InsuranceFraud</module>
-		
+
+		<module>ShowAttributes</module>
 	</modules>
 	<dependencies>
 		<dependency>

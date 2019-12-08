@@ -1,0 +1,243 @@
+units:
+  0:
+    name: null_unit
+    suffix: ø
+  103:
+    id: 103
+    name: MegaPascals
+  122:
+    id: 122
+    name: Fitting slots
+  1:
+    id: 1
+    name: Length
+    suffix: m
+  2:
+    id: 2
+    name: Mass
+    suffix: kg
+  3:
+    id: 3
+    name: Time
+    suffix: sec
+  4:
+    id: 4
+    name: Electric Current
+    suffix: A
+  5:
+    id: 5
+    name: Temperature
+    suffix: K
+  6:
+    id: 6
+    name: Amount Of Substance
+    suffix: mol
+  7:
+    id: 7
+    name: Luminous Intensity
+    suffix: cd
+  8:
+    id: 8
+    name: Area
+    suffix: m2
+  9:
+    id: 9
+    name: Volume
+    suffix: m3
+  10:
+    id: 10
+    name: Speed
+    suffix: m/sec
+  11:
+    id: 11
+    name: Acceleration
+    suffix: m/sec
+  12:
+    id: 12
+    name: Wave Number
+    suffix: m-1
+  13:
+    id: 13
+    name: Mass Density
+    suffix: kg/m3
+  14:
+    id: 14
+    name: Specific Volume
+    suffix: m3/kg
+  15:
+    id: 15
+    name: Current Density
+    suffix: A/m2
+  16:
+    id: 16
+    name: Magnetic Field Strength
+    suffix: A/m
+  17:
+    id: 17
+    name: Amount-Of-Substance Concentration
+    suffix: mol/m3
+  18:
+    id: 18
+    name: Luminance
+    suffix: cd/m2
+  19:
+    id: 19
+    name: Mass Fraction
+    suffix: kg/kg = 1
+  101:
+    id: 101
+    name: Milliseconds
+    suffix: s
+  102:
+    id: 102
+    name: Millimeters
+    suffix: mm
+  104:
+    id: 104
+    name: Multiplier
+    suffix: x
+  105:
+    id: 105
+    name: Percentage
+    suffix: '%'
+  106:
+    id: 106
+    name: Teraflops
+    suffix: tf
+  107:
+    id: 107
+    name: MegaWatts
+    suffix: MW
+  108:
+    id: 108
+    name: Inverse Absolute Percent
+    suffix: '%'
+  109:
+    id: 109
+    name: Modifier Percent
+    suffix: '%'
+  111:
+    id: 111
+    name: Inversed Modifier Percent
+    suffix: '%'
+  112:
+    id: 112
+    name: Radians/Second
+    suffix: rad/sec
+  113:
+    id: 113
+    name: Hitpoints
+    suffix: HP
+  114:
+    id: 114
+    name: capacitor units
+    suffix: GJ
+  115:
+    id: 115
+    name: groupID
+    suffix: groupID
+  116:
+    id: 116
+    name: typeID
+    suffix: typeID
+  118:
+    id: 118
+    name: Ore units
+    suffix: Ore units
+  119:
+    id: 119
+    name: attributeID
+    suffix: attributeID
+  120:
+    id: 120
+    name: attributePoints
+    suffix: points
+  121:
+    id: 121
+    name: realPercent
+    suffix: '%'
+  123:
+    id: 123
+    name: trueTime
+    suffix: sec
+  124:
+    id: 124
+    name: Modifier Relative Percent
+    suffix: '%'
+  125:
+    id: 125
+    name: Newton
+    suffix: N
+  126:
+    id: 126
+    name: Light Year
+    suffix: ly
+  127:
+    id: 127
+    name: Absolute Percent
+    suffix: '%'
+  128:
+    id: 128
+    name: Drone bandwidth
+    suffix: Mbit/sec
+  133:
+    id: 133
+    name: Money
+    suffix: ISK
+  134:
+    id: 134
+    name: Logistical Capacity
+    suffix: m3/hour
+  135:
+    id: 135
+    name: Astronomical Unit
+    suffix: AU
+  136:
+    id: 136
+    name: Slot
+    suffix: Slot
+  137:
+    enums:
+    - 'False'
+    - 'True'
+    id: 137
+    name: Boolean
+  138:
+    id: 138
+    name: Units
+    suffix: units
+  139:
+    id: 139
+    name: Bonus
+    suffix: +
+  140:
+    id: 140
+    name: Level
+    suffix: Level
+  141:
+    id: 141
+    name: Hardpoints
+    suffix: hardpoints
+  142:
+    enums:
+    - null
+    - Male
+    - Unisex
+    - Female
+    id: 142
+    name: Sex
+  129:
+    id: 129
+    name: Hours
+  143:
+    id: 143
+    name: Datetime
+  117:
+    enums:
+    - null
+    - small
+    - medium
+    - large
+    - x-large
+    id: 117
+    name: Sizeclass
