@@ -215,11 +215,11 @@ public class RegionTypeHistory {
 	private HashMap<Integer, ObsObjHolder<Long>> cachedBestVolumes = new HashMap<>();
 
 	/**
-	 * get the total volume for given number of days, excluding the first percent
-	 * of the highest volume days.
-	 *
-	 * @param days
-	 *          number of days to sum up the volume
+	 * get best daily of sale, excluding the first percent.<br />
+	 * eg if I set percent 0, I will have the highest daily volume of sales in the
+	 * last year, if percent is 50 I will have median, and if percent is 100 I
+	 * will have lowest
+	 * 
 	 * @param offsetPct
 	 *          percent of the best days we skip to start summing up
 	 * @return
