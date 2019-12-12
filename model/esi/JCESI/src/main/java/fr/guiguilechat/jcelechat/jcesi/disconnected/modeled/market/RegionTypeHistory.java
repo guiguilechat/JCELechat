@@ -308,7 +308,7 @@ public class RegionTypeHistory {
 							double highBoundratio = index - missingdays - i;
 							volume = Math.round(sovolumes[i] * (1 - highBoundratio) + sovolumes[i + 1] * highBoundratio);
 						}
-						logger.debug(
+						logger.trace(
 								"type=" + typeID + " bestSOSorted[" + sovolumes.length + "]="
 										+ DoubleStream.of(sovolumes).mapToLong(d -> (long) d).boxed().collect(Collectors.toList())
 										+ " with missing " + missingdays
