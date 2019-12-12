@@ -7,8 +7,12 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
@@ -29,12 +33,17 @@ import javafx.collections.ObservableList;
  */
 public class RegionTypeHistory {
 
+	private static final Logger logger = LoggerFactory.getLogger(RegionTypeHistory.class);
+
 	public final CacheStatic caches;
 
 	private final ObsListHolder<R_get_markets_region_id_history> history;
 
+	public final int typeID;
+
 	public RegionTypeHistory(CacheStatic cache, int regionID, int typeID) {
 		caches = cache;
+		this.typeID = typeID;
 		history = caches.markets.history(regionID, typeID).sorted((a, b) -> b.date.compareTo(a.date));
 	}
 
@@ -219,9 +228,9 @@ public class RegionTypeHistory {
 	 * eg if I set percent 0, I will have the highest daily volume of sales in the
 	 * last year, if percent is 50 I will have median, and if percent is 100 I
 	 * will have lowest
-	 * 
+	 *
 	 * @param offsetPct
-	 *          percent of the best days we skip to start summing up
+	 *          percent of the best days values
 	 * @return
 	 */
 	public ObsObjHolder<Long> getBestVolume(int offsetPct) {
@@ -239,6 +248,74 @@ public class RegionTypeHistory {
 						}
 					});
 					cachedBestVolumes.put(offsetPct, ret2);
+				}
+				return ret2;
+			});
+		}
+		return ret;
+	}
+
+	/** cached offsetpct => bestSO */
+	private HashMap<Integer, ObsObjHolder<Long>> cachedBestSO = new HashMap<>();
+
+	/**
+	 * get best daily SO completed, excluding the first percent.<br />
+	 * eg if I set percent 0, I will have the highest daily volume of SO completed
+	 * in the last year, if percent is 50 I will have median, and if percent is
+	 * 100 I will have lowest<br />
+	 * The volume of SO completed for a day is evaluated as : SO = volume *
+	 * (avg-min) / (max-min)
+	 *
+	 *
+	 * @param offsetPct
+	 *          percentile of the best values
+	 * @return
+	 */
+	public ObsObjHolder<Long> getBestSO(int offsetPct) {
+		ObsObjHolder<Long> ret = cachedBestSO.get(offsetPct);
+		if (ret == null) {
+			ret = LockWatchDog.BARKER.syncExecute(cachedBestSO, () -> {
+				ObsObjHolder<Long> ret2 = cachedBestSO.get(offsetPct);
+				if (ret2 == null) {
+					ret2 = history.map(l -> {
+						if (l.size() == 0) {
+							return 0l;
+						}
+						R_get_markets_region_id_history first = l.get(l.size() - 1);
+						LocalDate firstDate = DateTimeFormatter.ISO_LOCAL_DATE.parse(first.date, LocalDate::from);
+						LocalDate now = LocalDate.now(Clock.systemUTC());
+						int nbDays = (int) (now.toEpochDay() - firstDate.toEpochDay()) + 1;
+						int missingdays = nbDays - l.size();
+						// the index of the centile value, over the total number of days
+						double index = nbDays - 0.01 * offsetPct * nbDays;
+						if (index < missingdays || index < 0) {
+							return 0l;
+						}
+						// get the existing so volumes sorted increasing
+						double[] sovolumes = l.stream().mapToDouble(daily -> {
+							if (daily.highest == daily.lowest) {
+								return 0.5 * daily.volume;
+							}
+							return daily.volume * (daily.average - daily.lowest) / (daily.highest - daily.lowest);
+						}).sorted().toArray();
+						long volume = 0l;
+						if (index >= nbDays) {
+							volume = Math.round(sovolumes[sovolumes.length - 1]);
+						} else if (Math.round(index) == index) {
+							volume = Math.round(sovolumes[(int) (index - missingdays)]);
+						} else {
+							int i = (int) Math.floor(index - missingdays);
+							double highBoundratio = index - missingdays - i;
+							volume = Math.round(sovolumes[i] * (1 - highBoundratio) + sovolumes[i + 1] * highBoundratio);
+						}
+						logger.debug(
+								"type=" + typeID + " bestSOSorted[" + sovolumes.length + "]="
+										+ DoubleStream.of(sovolumes).mapToLong(d -> (long) d).boxed().collect(Collectors.toList())
+										+ " with missing " + missingdays
+										+ " days; percentile=" + offsetPct + " index=" + index + " volume=" + volume);
+						return volume;
+					});
+					cachedBestSO.put(offsetPct, ret2);
 				}
 				return ret2;
 			});
