@@ -21,10 +21,18 @@ public class RegionTypeOrders {
 				.sorted((o1, o2) -> -Double.compare(o1.price, o2.price));
 	}
 
+	/**
+	 *
+	 * @return the observable list of buy orders, sorted by decreasing value
+	 */
 	public ObsListHolder<R_get_markets_region_id_orders> listBuyOrders() {
 		return buyOrders;
 	}
 
+	/**
+	 *
+	 * @return the observable list of sell orders, sorted by increasing value
+	 */
 	public ObsListHolder<R_get_markets_region_id_orders> listSellOrders() {
 		return sellOrders;
 	}
@@ -68,6 +76,22 @@ public class RegionTypeOrders {
 			}
 		}
 		return ret;
+	}
+
+	/**
+	 * @return the quantity of items on sale lower than given SO value
+	 * @param maxvalue maximum price of the sell orders.
+	 */
+	public long getSOLower(double maxvalue) {
+		long qtty = 0;
+		for (R_get_markets_region_id_orders order : listSellOrders().get()) {
+			if (order.price <= maxvalue) {
+				qtty+=order.volume_remain;
+			} else {
+				return qtty;
+			}
+		}
+		return qtty;
 	}
 
 }
