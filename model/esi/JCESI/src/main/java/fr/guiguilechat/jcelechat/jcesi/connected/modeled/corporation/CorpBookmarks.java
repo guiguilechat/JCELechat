@@ -30,7 +30,7 @@ public class CorpBookmarks {
 	 */
 	private ObservableMap<String, ObservableMap<Integer, M_get_bookmarks_9>> bookmarks = null;
 
-	private ObsMapHolder<String, ObservableMap<Integer, M_get_bookmarks_9>> bookmarksHolder = null;
+	private ObsMapHolderImpl<String, ObservableMap<Integer, M_get_bookmarks_9>> bookmarksHolder = null;
 
 	/**
 	 *

@@ -1,9 +1,14 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 
 import java.util.HashMap;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
@@ -20,7 +25,7 @@ public class Market {
 	}
 
 	//
-	// market orders
+	// market orders of the character
 	//
 
 	private ObsMapHolder<Integer, Integer> cachedSOs = null;
@@ -98,6 +103,26 @@ public class Market {
 			});
 		}
 		return cachedOrderIds;
+	}
+
+	//
+	// public market orders on structures
+	//
+
+	private final HashMap<Integer, Object> cachedRegionalPublicOrders = new HashMap<>();
+
+	public void getRegionalPublicOrders(int regionId) {
+		Set<Integer> allowedConstels = IntStream
+				.of(ESIAccess.INSTANCE.universe.cache.regions(regionId).get().constellations).boxed()
+				.collect(Collectors.toSet());
+
+		ObsSetHolder<Long> structIdInRegion = con.universe.publicStructures(filter.market)
+				.filter(null,
+						stru -> allowedConstels
+						.contains(ESIAccess.INSTANCE.universe.cache.systems(stru.solar_system_id).get().constellation_id))
+				.keys();
+		// structIdInRegion
+
 	}
 
 }

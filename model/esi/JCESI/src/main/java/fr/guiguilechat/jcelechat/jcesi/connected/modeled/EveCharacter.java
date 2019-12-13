@@ -36,6 +36,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_base;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_hq;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_other;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.impl.numbers.ObsDoubleHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
@@ -273,7 +274,7 @@ public class EveCharacter {
 	//
 
 	// locationid->typeid->number
-	private ObsMapHolder<Long, ObservableMap<Integer, Integer>> cachedAssets = null;
+	private ObsMapHolderImpl<Long, ObservableMap<Integer, Integer>> cachedAssets = null;
 
 	/**
 	 *

@@ -39,11 +39,11 @@ public class Contracts {
 		}
 	}
 
-	private HashMap<Integer, ObsMapHolder<Integer, ContractDesc>> caches = new HashMap<>();
+	private HashMap<Integer, ObsMapHolderImpl<Integer, ContractDesc>> caches = new HashMap<>();
 
 	/** observe the contracts on given region. */
 	public ObsMapHolder<Integer, ContractDesc> getItemContracts(int regionId) {
-		ObsMapHolder<Integer, ContractDesc> ret = caches.get(regionId);
+		ObsMapHolderImpl<Integer, ContractDesc> ret = caches.get(regionId);
 		if (ret == null) {
 			synchronized (caches) {
 				ret = caches.get(regionId);
@@ -84,7 +84,7 @@ public class Contracts {
 							underlying.putAll(newContracts);
 						});
 					});
-					ObsMapHolder<Integer, ContractDesc> finalRet = ret;
+					ObsMapHolderImpl<Integer, ContractDesc> finalRet = ret;
 					CHolder.follow((l) -> finalRet.dataReceived());
 					caches.put(regionId, ret);
 				}

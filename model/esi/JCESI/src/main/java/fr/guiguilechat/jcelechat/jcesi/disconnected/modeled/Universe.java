@@ -416,4 +416,13 @@ public class Universe {
 		return ret;
 	}
 
+	//
+	// public structures
+	//
+
+	public void publicStructures() {
+		// TODO ? is it doable ?
+		cache.structures(null).map(sid -> cache);
+	}
+
 }

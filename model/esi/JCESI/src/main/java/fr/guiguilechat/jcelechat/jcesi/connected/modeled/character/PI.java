@@ -57,7 +57,7 @@ public class PI {
 
 	}
 
-	private ObsMapHolder<Integer, ColonyInfo> planets = null;
+	private ObsMapHolderImpl<Integer, ColonyInfo> planets = null;
 
 	public ObsMapHolder<Integer, ColonyInfo> getPlanets() {
 		if (planets == null) {
