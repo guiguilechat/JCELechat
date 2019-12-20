@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.translate;
 
 import java.io.File;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -12,6 +15,10 @@ import fr.guiguilechat.jcelechat.model.sde.load.bsd.EeveUnits;
 import fr.guiguilechat.jcelechat.model.sde.meta.Unit;
 
 public class UnitTranslater {
+
+	/** hardcoded human written list of  all the units name that should use the prefixed value */
+	public static final Set<String> UNIT_NAMES_FOR_PREFIX = new HashSet<>(
+			Arrays.asList("Multiplier", "groupID", "typeID", "attributeID", "Slot", "Bonus", "Level"));
 
 	public static LinkedHashMap<Integer, Unit> load() {
 		LinkedHashMap<Integer, Unit> ret = new LinkedHashMap<>();
@@ -41,7 +48,11 @@ public class UnitTranslater {
 					created.enums[e.getKey()] = e.getValue();
 				}
 			} else {
-				created.suffix = unit.displayName;
+				if (UNIT_NAMES_FOR_PREFIX.contains(unit.unitName)) {
+					created.prefix = unit.displayName.length() == 1 ? unit.displayName : unit.displayName + " ";
+				} else {
+					created.suffix = unit.displayName;
+				}
 			}
 			ret.put(created.id, created);
 		}

@@ -95,7 +95,7 @@ units:
   104:
     id: 104
     name: Multiplier
-    suffix: x
+    prefix: x
   105:
     id: 105
     name: Percentage
@@ -135,11 +135,11 @@ units:
   115:
     id: 115
     name: groupID
-    suffix: groupID
+    prefix: 'groupID '
   116:
     id: 116
     name: typeID
-    suffix: typeID
+    prefix: 'typeID '
   118:
     id: 118
     name: Ore units
@@ -147,7 +147,7 @@ units:
   119:
     id: 119
     name: attributeID
-    suffix: attributeID
+    prefix: 'attributeID '
   120:
     id: 120
     name: attributePoints
@@ -195,7 +195,7 @@ units:
   136:
     id: 136
     name: Slot
-    suffix: Slot
+    prefix: 'Slot '
   137:
     enums:
     - 'False'
@@ -209,11 +209,11 @@ units:
   139:
     id: 139
     name: Bonus
-    suffix: +
+    prefix: +
   140:
     id: 140
     name: Level
-    suffix: Level
+    prefix: 'Level '
   141:
     id: 141
     name: Hardpoints

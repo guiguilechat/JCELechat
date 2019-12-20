@@ -56,6 +56,7 @@ public class Unit {
 	// structure
 
 	public String name;
+	public String prefix;
 	public String suffix;
 	public int id;
 	public String[] enums;
@@ -68,12 +69,14 @@ public class Unit {
 		if (isEnum()) {
 			if (value >= enums.length || value < 0) {
 				logger.warn("out of bound for unit " + name + " value " + value);
-				return "" + value + " " + suffix;
+				return (prefix == null || prefix.length() == 0 ? "" : prefix) + value
+						+ (suffix == null || suffix.length() == 0 ? "" : suffix);
 			} else {
 				return enums[(int) value];
 			}
 		} else {
-			return "" + value + " " + suffix;
+			return (prefix == null || prefix.length() == 0 ? "" : prefix) + value + " "
+					+ (suffix == null || suffix.length() == 0 ? "" : suffix);
 		}
 	}
 
