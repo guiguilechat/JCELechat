@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.guiguilechat</groupId>
 	<artifactId>JCELechat</artifactId>
-	<version>5.4.4</version>
+	<version>${jcelechat-revision}</version>
 	<prerequisites>
 		<maven>3.0</maven>
 	</prerequisites>
@@ -48,7 +48,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<openjfx-version>12.0.2</openjfx-version>
-		<tools.version>1.0.6</tools.version>
+		<tools.version>1.0.7</tools.version>
+		<jcelechat-revision>5.4.5</jcelechat-revision>
 	</properties>
 	<build>
 		<plugins>
@@ -135,12 +136,12 @@
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 				<artifactId>JCESI</artifactId>
-				<version>${project.version}</version>
+				<version>${jcelechat-revision}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 				<artifactId>SDE-Full</artifactId>
-				<version>${project.version}</version>
+				<version>${jcelechat-revision}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.helger</groupId>

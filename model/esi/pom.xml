@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
-		<version>5.4.4</version>
+		<version>${jcelechat-revision}</version>
 		<artifactId>model</artifactId>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.model</groupId>

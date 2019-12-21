@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.jcelechat.model</groupId>
     <artifactId>sde</artifactId>
-    <version>5.4.4</version>
+    <version>${jcelechat-revision}</version>
   </parent>
   <groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
   <artifactId>SDE-Full</artifactId>
