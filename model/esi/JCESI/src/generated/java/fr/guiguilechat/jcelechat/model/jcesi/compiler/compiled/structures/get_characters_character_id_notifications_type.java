@@ -293,6 +293,12 @@ public enum get_characters_character_id_notifications_type {
     OrbitalReinforced("OrbitalReinforced"),
     @JsonProperty("OwnershipTransferred")
     OwnershipTransferred("OwnershipTransferred"),
+    @JsonProperty("RaffleCreated")
+    RaffleCreated("RaffleCreated"),
+    @JsonProperty("RaffleExpired")
+    RaffleExpired("RaffleExpired"),
+    @JsonProperty("RaffleFinished")
+    RaffleFinished("RaffleFinished"),
     @JsonProperty("ReimbursementMsg")
     ReimbursementMsg("ReimbursementMsg"),
     @JsonProperty("ResearchMissionAvailableMsg")

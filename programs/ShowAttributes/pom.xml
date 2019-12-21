@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.jcelechat</groupId>
     <artifactId>programs</artifactId>
-    <version>${jcelechat-revision}</version>
+    <version>5.4.5</version>
   </parent>
   <artifactId>ShowAttributes</artifactId>
 </project>

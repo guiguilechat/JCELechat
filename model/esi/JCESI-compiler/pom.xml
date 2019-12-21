@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.model</groupId>
 		<artifactId>esi</artifactId>
-		<version>${jcelechat-revision}</version>
+		<version>5.4.5</version>
 	</parent>
 	<artifactId>JCESI-compiler</artifactId>
 	<name>JCESI compiler</name>
@@ -32,7 +32,6 @@
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>JCESI-interfaces</artifactId>
-			<version>${jcelechat-revision}</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>

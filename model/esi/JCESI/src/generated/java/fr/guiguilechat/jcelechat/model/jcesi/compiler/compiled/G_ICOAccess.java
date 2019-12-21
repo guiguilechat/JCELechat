@@ -2452,8 +2452,7 @@ public interface G_ICOAccess
     /**
      * Calculate a CSPA charge cost
      * <p>
-     * Takes a source character ID in the url and a set of target character ID's in the body, returns a CSPA charge cost<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#POST-/characters/{character_id}/cspa/)
+     * Takes a source character ID in the url and a set of target character ID's in the body, returns a CSPA charge cost
      * </p>
      * 
      * @param character_id
