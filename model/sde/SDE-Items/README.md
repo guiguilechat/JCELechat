@@ -80,3 +80,15 @@ As shown in this test class, you can also load the metagroup and metacategories 
 In [this test case](src/test/java/fr/guiguilechat/jcelechat/sde/items/HighestBSBumper.java) I load the group of the battleships, and then deduce their maximum energy ratio with a MWD to find out which is the best bumper.
 
 In [this one](src/test/java/fr/guiguilechat/jcelechat/sde/items/ShipMaxSpeed.java) I evaluate the max speed of small ships, with a MWD if possible. I don't consider the T3D so it does not work ^^.
+
+
+## Model
+
+There are three levels for items : 
+1. MetaCat is the category in Eve. eg the Drone Item is abstract, but its MetaCat Drone.METACAT allow to list the groups of this category.
+2. MetaGroup is the group in Eve. eg the CombatDrone Item is abstract, extends Drone (so its meta cat is Drone.METACAT), proposes its group as CombatDrone.METAGROUP , which can be used to list all the items in this group, eg with CombatDrone.METAGROUP.load().
+
+A specific item can be found by its id, or its name, using ItemIndex.getItem(search), which internally loads all the categories and all the groups. It's also possible to load all the items of a group, and all the groups of a category, using the metagroup/metacat load() calls. Typically if I want to load all the fighters I can do 
+```java
+  var allfighters=Figther.METACAT.groups.stream().flatMap(g-> g.load().values().stream()).collect(Collectors.toList())
+```
