@@ -12,7 +12,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
-import fr.lelouet.collectionholders.impl.collections.AObsCollectionHolder;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsCollectionHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
@@ -131,12 +130,12 @@ public class Market {
 									stru -> allowedConstels
 									.contains(ESIAccess.INSTANCE.universe.cache.systems(stru.solar_system_id).get().constellation_id))
 							.keys();
-					ObsCollectionHolder<R_get_markets_region_id_orders, ?, ?> publicStructureOrders = AObsCollectionHolder
-							.flatten(structIdInRegion.mapItems(structid -> {
+					ObsCollectionHolder<R_get_markets_region_id_orders, ?, ?> publicStructureOrders = structIdInRegion
+							.flatten(structid -> {
 								int system_id = con.universe.location(structid).system().system_id;
 								return con.raw.cache.markets.structures(structid)
 										.mapItems(orderstruct -> convertStructOrder(orderstruct, system_id));
-							}));
+							});
 					ret = publicStructureOrders;
 					cachedRegionalPublicOrders.put(regionId, ret);
 				}

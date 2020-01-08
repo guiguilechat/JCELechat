@@ -1152,9 +1152,7 @@ public interface G_IDCAccess
      * Get alliance information
      * <p>
      * Public information about an alliance<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Warning: This route has an upgrade available<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/alliances/{alliance_id}/)
+     * This route is cached for up to 3600 seconds
      * </p>
      * 
      * @param alliance_id
