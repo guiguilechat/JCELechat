@@ -74,5 +74,9 @@ When you want to update the version, you just change the property in the root po
 
 The code is available in the package [fr.guiguilechat.jcelechat.model.sde.items](src/generated/java/fr/guiguilechat/jcelechat/model/sde/items)
 
-The main class is ItemIndex that allows to resolve items, either by name, or by id. See src/test/java/fr/guiguilechat/jcelechat/sde/items/TestLoad.java for examples of doing so.
+The main class is [ItemIndex](src/generated/java/fr/guiguilechat/jcelechat/model/sde/items/ItemIndex.java) that allows to resolve items, either by name, or by id. See [this test class](src/test/java/fr/guiguilechat/jcelechat/sde/items/TestLoad.java) for examples of doing so.
+As shown in this test class, you can also load the metagroup and metacategories to list their items.
 
+In [this test case](src/test/java/fr/guiguilechat/jcelechat/sde/items/HighestBSBumper.java) I load the group of the battleships, and then deduce their maximum energy ratio with a MWD to find out which is the best bumper.
+
+In [this one](src/test/java/fr/guiguilechat/jcelechat/sde/items/ShipMaxSpeed.java) I evaluate the max speed of small ships, with a MWD if possible. I don't consider the T3D so it does not work ^^.
