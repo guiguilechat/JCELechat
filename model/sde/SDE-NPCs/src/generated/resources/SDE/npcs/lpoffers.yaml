@@ -27383,38 +27383,6 @@ offers:
         itemname: Megacyte
         quantity: 4
       lp: 30000
-  15835:
-    id: 15835
-    name: Astero(BPC)
-    product:
-      itemid: 33468
-      itemname: Astero
-      quantity: 1
-    requirements:
-      isk: 10000000
-      items:
-      - itemid: 34
-        itemname: Tritanium
-        quantity: 24022
-      - itemid: 35
-        itemname: Pyerite
-        quantity: 8044
-      - itemid: 36
-        itemname: Mexallon
-        quantity: 2822
-      - itemid: 37
-        itemname: Isogen
-        quantity: 467
-      - itemid: 38
-        itemname: Nocxium
-        quantity: 40
-      - itemid: 39
-        itemname: Zydrine
-        quantity: 18
-      - itemid: 40
-        itemname: Megacyte
-        quantity: 4
-      lp: 20000
   15836:
     id: 15836
     name: Stratios(BPC)
@@ -27447,38 +27415,6 @@ offers:
         itemname: Megacyte
         quantity: 356
       lp: 120000
-  15837:
-    id: 15837
-    name: Stratios(BPC)
-    product:
-      itemid: 33470
-      itemname: Stratios
-      quantity: 1
-    requirements:
-      isk: 20000000
-      items:
-      - itemid: 34
-        itemname: Tritanium
-        quantity: 614356
-      - itemid: 35
-        itemname: Pyerite
-        quantity: 154233
-      - itemid: 36
-        itemname: Mexallon
-        quantity: 39907
-      - itemid: 37
-        itemname: Isogen
-        quantity: 9687
-      - itemid: 38
-        itemname: Nocxium
-        quantity: 2387
-      - itemid: 39
-        itemname: Zydrine
-        quantity: 1202
-      - itemid: 40
-        itemname: Megacyte
-        quantity: 356
-      lp: 80000
   15838:
     id: 15838
     name: Stratios
@@ -27499,26 +27435,6 @@ offers:
     requirements:
       isk: 10000000
       lp: 100000
-  15840:
-    id: 15840
-    name: Stratios
-    product:
-      itemid: 33470
-      itemname: Stratios
-      quantity: 1
-    requirements:
-      isk: 15000000
-      lp: 240000
-  15841:
-    id: 15841
-    name: Astero
-    product:
-      itemid: 33468
-      itemname: Astero
-      quantity: 1
-    requirements:
-      isk: 5000000
-      lp: 80000
   16064:
     id: 16064
     name: Nestor
@@ -27529,16 +27445,6 @@ offers:
     requirements:
       isk: 100000000
       lp: 1000000
-  16065:
-    id: 16065
-    name: Nestor
-    product:
-      itemid: 33472
-      itemname: Nestor
-      quantity: 1
-    requirements:
-      isk: 80000000
-      lp: 800000
   16066:
     id: 16066
     name: Nestor(BPC)
@@ -27571,38 +27477,6 @@ offers:
         itemname: Megacyte
         quantity: 7528
       lp: 600000
-  16067:
-    id: 16067
-    name: Nestor(BPC)
-    product:
-      itemid: 33472
-      itemname: Nestor
-      quantity: 1
-    requirements:
-      isk: 100000000
-      items:
-      - itemid: 34
-        itemname: Tritanium
-        quantity: 12159425
-      - itemid: 35
-        itemname: Pyerite
-        quantity: 3018046
-      - itemid: 36
-        itemname: Mexallon
-        quantity: 733135
-      - itemid: 37
-        itemname: Isogen
-        quantity: 188974
-      - itemid: 38
-        itemname: Nocxium
-        quantity: 46632
-      - itemid: 39
-        itemname: Zydrine
-        quantity: 20635
-      - itemid: 40
-        itemname: Megacyte
-        quantity: 7528
-      lp: 400000
   16068:
     id: 16068
     name: Astero(BPC)
