@@ -234,7 +234,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				res.responseCode = pageRes.getResponseCode();
 				res.error = pageRes.getError();
 			}
-			if (pageRes.getCacheExpire() != res.getCacheExpire()) {
+			if (!pageRes.getHeaders().get("Expires").equals(res.getHeaders().get("Expires"))) {
 				logger.warn(
 						"mismatching page cache data [url=" + pageRes.getURL() + " Expires=" + pageRes.getHeaders().get("Expires")
 						+ "] with first page [url=" + res.getURL() + " Expires=" + res.getHeaders().get("Expires") + "]");
