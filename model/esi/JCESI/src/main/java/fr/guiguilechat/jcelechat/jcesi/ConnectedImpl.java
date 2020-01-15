@@ -194,24 +194,24 @@ public abstract class ConnectedImpl implements ITransfer {
 			Map<String, String> parameters) {
 		for (int retry = 3; retry > 0; retry--) {
 			Requested<T[]> applied = resourceAccess.apply(1, parameters);
-			RequestedImpl<List<T>> res = convertToList(applied);
-			if (res == null) {
+			RequestedImpl<List<T>> page1 = convertToList(applied);
+			if (page1 == null) {
 				logger.debug("received null for " + applied.getURL());
 				return null;
 			}
-			int nbPages = res.getNbPages();
+			int nbPages = page1.getNbPages();
 			boolean[] mismatch = new boolean[] { false };
-			if (res.isOk() && nbPages > 1) {
-				res.getOK().addAll(fetchPagesFrom2(nbPages, resourceAccess, parameters, res, mismatch));
+			if (page1.isOk() && nbPages > 1) {
+				page1.getOK().addAll(fetchPagesFrom2(nbPages, resourceAccess, parameters, page1, mismatch));
 			}
 			if (!mismatch[0]) {
-				if (res.responseCode != 200 && res.responseCode != 304) {
+				if (page1.responseCode != 200 && page1.responseCode != 304) {
 					logger
-					.debug(res.getURL() + " request pages received responsecode=" + res.responseCode + " error=" + res.error);
+					.debug(page1.getURL() + " request pages received responsecode=" + page1.responseCode + " error=" + page1.error);
 				}
-				return res;
+				return page1;
 			}
-			logger.debug("mismatch, fetching again " + res.getURL());
+			logger.debug("mismatch, fetching again " + page1.getURL());
 		}
 		return null;
 	}
@@ -234,7 +234,7 @@ public abstract class ConnectedImpl implements ITransfer {
 				res.responseCode = pageRes.getResponseCode();
 				res.error = pageRes.getError();
 			}
-			if (!pageRes.getHeaders().get("Expires").equals(res.getHeaders().get("Expires"))) {
+			if (pageRes.getCacheExpire() != res.getCacheExpire()) {
 				logger.warn(
 						"mismatching page cache data [url=" + pageRes.getURL() + " Expires=" + pageRes.getHeaders().get("Expires")
 						+ "] with first page [url=" + res.getURL() + " Expires=" + res.getHeaders().get("Expires") + "]");

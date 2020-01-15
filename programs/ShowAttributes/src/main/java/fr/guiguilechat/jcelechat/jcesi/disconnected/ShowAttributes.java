@@ -23,7 +23,7 @@ public class ShowAttributes {
 
 	public static void main(String[] args) {
 		// invading entities
-		// showGroup(4028);
+		showGroup(4028);
 		// tableGroup(4028);
 		// starving leshak
 		// showEntity(48125);
@@ -44,7 +44,7 @@ public class ShowAttributes {
 		// agent cruor
 		// showEntity(34144);
 		// base angel escort dramiel
-		showEntity(35689);
+		// showEntity(35689);
 		// dire pithum mortifier
 		// showEntity(24095);
 
