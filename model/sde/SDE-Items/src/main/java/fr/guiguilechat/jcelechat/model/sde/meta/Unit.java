@@ -60,6 +60,8 @@ public class Unit {
 	public String suffix;
 	public int id;
 	public String[] enums;
+	public String description;
+	public double base = 0;
 
 	public boolean isEnum() {
 		return enums != null && enums.length > 0;
@@ -75,8 +77,15 @@ public class Unit {
 				return enums[(int) value];
 			}
 		} else {
-			return (prefix == null || prefix.length() == 0 ? "" : prefix) + value + " "
-					+ (suffix == null || suffix.length() == 0 ? "" : suffix);
+			if (base != 0) {
+				value/=base;
+			}
+			if ((prefix == null || prefix.length() == 0) && (suffix == null || suffix.length() == 0)) {
+				return value+" "+name;
+			} else {
+				return (prefix == null || prefix.length() == 0 ? "" : prefix) + value + " "
+						+ (suffix == null || suffix.length() == 0 ? "" : suffix);
+			}
 		}
 	}
 

@@ -32,6 +32,7 @@ public class UnitTranslater {
 			created = new Unit();
 			created.name = unit.unitName;
 			created.id = unit.unitID;
+			created.description = unit.description;
 			String enumString = null;
 			if (unit.displayName != null && isEnum(unit.displayName)) {
 				enumString = unit.displayName;
@@ -52,6 +53,11 @@ public class UnitTranslater {
 					created.prefix = unit.displayName.length() == 1 ? unit.displayName : unit.displayName + " ";
 				} else {
 					created.suffix = unit.displayName;
+				}
+				if (unit.unitName.startsWith("Milli") || unit.unitName.startsWith("milli")) {
+					if (unit.displayName != null && !unit.displayName.startsWith("m")) {
+						created.base = 1000;
+					}
 				}
 			}
 			ret.put(created.id, created);

@@ -23,7 +23,7 @@ public class ShowAttributes {
 
 	public static void main(String[] args) {
 		// invading entities
-		showGroup(4028);
+		// showGroup(4028);
 		// tableGroup(4028);
 		// starving leshak
 		// showEntity(48125);
@@ -47,6 +47,10 @@ public class ShowAttributes {
 		// showEntity(35689);
 		// dire pithum mortifier
 		// showEntity(24095);
+		// arch gistii outlaw
+		// showEntity(16895);
+		// serpentis artillery
+		showEntity(23428);
 
 		// diamond arbitrator
 		// showEntity(43559);
@@ -151,8 +155,12 @@ public class ShowAttributes {
 					System.out.println(
 							"\t\tdischarge(" + e.discharge_attribute_id + ")=" + printAttValue(attIdToValue, e.discharge_attribute_id));
 				}
-				System.out.println("\t\tpre=" + e.pre_expression);
-				System.out.println("\t\tpost=" + e.post_expression);
+				if (e.pre_expression != 0) {
+					System.out.println("\t\tpre=" + e.pre_expression);
+				}
+				if (e.post_expression != 0) {
+					System.out.println("\t\tpost=" + e.post_expression);
+				}
 			}
 		}
 		if (type.dogma_attributes != null) {
@@ -185,66 +193,6 @@ public class ShowAttributes {
 
 	public static String getUnit(int unit_id, float value) {
 		return Unit.load().get(unit_id).value(value);
-	}
-
-	public static String getUnit(int unit_id) {
-		switch (unit_id) {
-		case 0:
-			return "ø";
-		case 1:
-			return "m";
-		case 2: // mass
-			return "kg";
-		case 3: // duration
-			return "ms";
-		case 9:
-			return "m³";
-		case 10: // cruise speed
-		case 11:// velocity
-			return "m/s";
-		case 101: // seconds
-			return "ms";
-		case 102: // scan res
-			return "mm";
-		case 104: // mult
-			return "×";
-		case 105:// percentage
-			return "%";
-		case 106:// CPU
-			return "tf";
-		case 107: // powergrid
-			return "MW";
-		case 108: // resonance = reduction of damage
-			return "×";
-		case 109: // missileentityXmultiplier
-			return "×";
-		case 113:
-			return "hp";
-		case 114: // capacitor capacity
-			return "GJ";
-		case 115: // charge group
-			return "group";
-		case 116:
-			return "id";
-		case 117: //
-			return "size";
-		case 120: // sensor strength
-			return "points";
-		case 121:
-			return "%";
-		case 124: // speed factor
-			return "%";
-		case 127:// damage increase for trig guns
-			return "×";
-		case 128: // drone bandwidth
-			return "Mbit/s";
-		case 137: // disallow assistance
-			return "bool";
-		case 140:// tech/meta level
-			return "L";
-		default:
-			return "?u" + unit_id;
-		}
 	}
 
 	public static String getOperator(int opId) {

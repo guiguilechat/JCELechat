@@ -9,82 +9,102 @@ units:
     id: 122
     name: Fitting slots
   1:
+    description: Meter
     id: 1
     name: Length
     suffix: m
   2:
+    description: Kilogram
     id: 2
     name: Mass
     suffix: kg
   3:
+    description: Second
     id: 3
     name: Time
     suffix: sec
   4:
+    description: Ampere
     id: 4
     name: Electric Current
     suffix: A
   5:
+    description: Kelvin
     id: 5
     name: Temperature
     suffix: K
   6:
+    description: Mole
     id: 6
     name: Amount Of Substance
     suffix: mol
   7:
+    description: Candela
     id: 7
     name: Luminous Intensity
     suffix: cd
   8:
+    description: Square meter
     id: 8
     name: Area
     suffix: m2
   9:
+    description: Cubic meter
     id: 9
     name: Volume
     suffix: m3
   10:
+    description: Meter per second
     id: 10
     name: Speed
     suffix: m/sec
   11:
+    description: Meter per second squared
     id: 11
     name: Acceleration
     suffix: m/sec
   12:
+    description: Reciprocal meter
     id: 12
     name: Wave Number
     suffix: m-1
   13:
+    description: Kilogram per cubic meter
     id: 13
     name: Mass Density
     suffix: kg/m3
   14:
+    description: Cubic meter per kilogram
     id: 14
     name: Specific Volume
     suffix: m3/kg
   15:
+    description: Ampere per square meter
     id: 15
     name: Current Density
     suffix: A/m2
   16:
+    description: Ampere per meter
     id: 16
     name: Magnetic Field Strength
     suffix: A/m
   17:
+    description: Mole per cubic meter
     id: 17
     name: Amount-Of-Substance Concentration
     suffix: mol/m3
   18:
+    description: Candela per square meter
     id: 18
     name: Luminance
     suffix: cd/m2
   19:
+    description: Kilogram per kilogram, which may be represented by the number 1
     id: 19
     name: Mass Fraction
     suffix: kg/kg = 1
   101:
+    base: 1000.0
     id: 101
     name: Milliseconds
     suffix: s
@@ -93,6 +113,7 @@ units:
     name: Millimeters
     suffix: mm
   104:
+    description: Indicates that the unit is a multiplier.
     id: 104
     name: Multiplier
     prefix: x
@@ -109,18 +130,23 @@ units:
     name: MegaWatts
     suffix: MW
   108:
+    description: "Used for resistance.\r\n0.0 = 100% 1.0 = 0%\r\n"
     id: 108
     name: Inverse Absolute Percent
     suffix: '%'
   109:
+    description: "Used for multipliers displayed as %\r\n1.1 = +10%\r\n0.9 = -10%"
     id: 109
     name: Modifier Percent
     suffix: '%'
   111:
+    description: "Used to modify damage resistance. Damage resistance bonus.\r\n0.1\
+      \ = 90%\r\n0.9 = 10%"
     id: 111
     name: Inversed Modifier Percent
     suffix: '%'
   112:
+    description: Rotation speed.
     id: 112
     name: Radians/Second
     suffix: rad/sec
@@ -129,6 +155,7 @@ units:
     name: Hitpoints
     suffix: HP
   114:
+    description: Giga Joule
     id: 114
     name: capacitor units
     suffix: GJ
@@ -153,14 +180,17 @@ units:
     name: attributePoints
     suffix: points
   121:
+    description: Used for real percentages, i.e. the number 5 is 5%
     id: 121
     name: realPercent
     suffix: '%'
   123:
+    description: Shows seconds directly
     id: 123
     name: trueTime
     suffix: sec
   124:
+    description: Used for relative percentages displayed as %
     id: 124
     name: Modifier Relative Percent
     suffix: '%'
@@ -173,48 +203,60 @@ units:
     name: Light Year
     suffix: ly
   127:
+    description: 0.0 = 0% 1.0 = 100%
     id: 127
     name: Absolute Percent
     suffix: '%'
   128:
+    description: Mega bits per second
     id: 128
     name: Drone bandwidth
     suffix: Mbit/sec
   133:
+    description: ISK
     id: 133
     name: Money
     suffix: ISK
   134:
+    description: Bandwidth for PI
     id: 134
     name: Logistical Capacity
     suffix: m3/hour
   135:
+    description: Used to denote distance, 1AU = The distance from the Earth to the
+      Sun.
     id: 135
     name: Astronomical Unit
     suffix: AU
   136:
+    description: Slot number prefix for various purposes
     id: 136
     name: Slot
     prefix: 'Slot '
   137:
+    description: For displaying boolean flags 1=True 0=False
     enums:
     - 'False'
     - 'True'
     id: 137
     name: Boolean
   138:
+    description: Units of something, for example fuel
     id: 138
     name: Units
     suffix: units
   139:
+    description: Forces a plus sign for positive values
     id: 139
     name: Bonus
     prefix: +
   140:
+    description: For anything which is divided by levels
     id: 140
     name: Level
     prefix: 'Level '
   141:
+    description: For various counts to do with turret, launcher and rig hardpoints
     id: 141
     name: Hardpoints
     suffix: hardpoints
@@ -227,12 +269,15 @@ units:
     id: 142
     name: Sex
   129:
+    description: Hours
     id: 129
     name: Hours
   143:
+    description: Date and time
     id: 143
     name: Datetime
   117:
+    description: 1=small 2=medium 3=large 4=x-large
     enums:
     - null
     - small
