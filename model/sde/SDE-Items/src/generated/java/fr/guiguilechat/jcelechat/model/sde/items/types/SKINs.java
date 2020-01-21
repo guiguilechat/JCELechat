@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.skins.Max30DaySKIN;
 import fr.guiguilechat.jcelechat.model.sde.items.types.skins.Max7DaySKIN;
 import fr.guiguilechat.jcelechat.model.sde.items.types.skins.Max90DaySKIN;
 import fr.guiguilechat.jcelechat.model.sde.items.types.skins.PermanentSKIN;
+import fr.guiguilechat.jcelechat.model.sde.items.types.skins.VolatileSKIN;
 
 public abstract class SKINs
     extends Item
@@ -37,7 +38,7 @@ public abstract class SKINs
 
         @Override
         public Collection<IMetaGroup<? extends SKINs>> groups() {
-            return Arrays.asList(PermanentSKIN.METAGROUP, Max7DaySKIN.METAGROUP, Max30DaySKIN.METAGROUP, Max90DaySKIN.METAGROUP, Max1YearSKIN.METAGROUP);
+            return Arrays.asList(PermanentSKIN.METAGROUP, VolatileSKIN.METAGROUP, Max7DaySKIN.METAGROUP, Max30DaySKIN.METAGROUP, Max90DaySKIN.METAGROUP, Max1YearSKIN.METAGROUP);
         }
     }
 }

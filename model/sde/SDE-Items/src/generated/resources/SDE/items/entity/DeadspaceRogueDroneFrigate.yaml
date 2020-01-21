@@ -35,6 +35,12 @@ items:
     name: Devilfish Alvi
     published: false
     volume: 60.0
+  Frigate:
+    id: 53323
+    mass: 100000.0
+    name: Frigate
+    published: false
+    volume: 60.0
   Hunter Alvi:
     id: 18564
     mass: 100000.0

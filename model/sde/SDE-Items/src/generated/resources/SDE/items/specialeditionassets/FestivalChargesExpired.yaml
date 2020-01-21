@@ -1,4 +1,24 @@
 items:
+  Melted Snowball:
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 56
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    ThermalDamage: -10.0
+    id: 33569
+    marketGroup: 1663
+    mass: 100.0
+    name: Melted Snowball
+    published: true
+    volume: 0.1
   Melted Snowball CVII:
     Agility: 3000.0
     AimedLaunch: 1
@@ -39,3 +59,23 @@ items:
     name: Melted Snowball CX
     published: true
     volume: 1.0
+  Melted Snowball CXIV:
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 56
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    ThermalDamage: -10.0
+    id: 30221
+    marketGroup: 1663
+    mass: 100.0
+    name: Melted Snowball CXIV
+    published: true
+    volume: 0.1

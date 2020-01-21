@@ -17,6 +17,12 @@ items:
     name: Decimator Alvi
     published: false
     volume: 60.0
+  Dragonaurs Manticore:
+    id: 53528
+    mass: 1470000.0
+    name: Dragonaurs Manticore
+    published: false
+    volume: 28100.0
   Eosian Defender:
     id: 46344
     mass: 1910000.0

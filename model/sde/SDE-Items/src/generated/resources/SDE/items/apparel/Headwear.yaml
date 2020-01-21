@@ -105,6 +105,14 @@ items:
     name: Men's 'Tectonic' Headwear (white)
     published: true
     volume: 0.1
+  Men's Aurora Universalis Cap:
+    Gender: 2
+    id: 53384
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Aurora Universalis Cap
+    published: true
+    volume: 0.1
   Men's Beret (Blood Raiders):
     Gender: 1
     id: 42708
@@ -355,6 +363,14 @@ items:
     name: Women's 'Spiderweb' Headwear (metallic)
     published: true
     volume: 0.1
+  Women's Aurora Universalis Cap:
+    Gender: 2
+    id: 53381
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Aurora Universalis Cap
+    published: true
+    volume: 0.1
   Women's Beret (Blood Raiders):
     Gender: 3
     id: 42733
@@ -424,11 +440,11 @@ items:
     name: Women's YC119 Yoiul Festival Cap
     published: true
     volume: 0.1
-  Women's ‘Defender’ Beret (Gallente Federation):
+  Women's ‘Defender�� Beret (Gallente Federation):
     Gender: 3
     id: 42709
     marketGroup: 1943
-    name: Women's ‘Defender’ Beret (Gallente Federation)
+    name: Women's ‘Defender�� Beret (Gallente Federation)
     published: true
     volume: 0.1
   Women's ‘Liberator’ Beret (Minmatar Republic):

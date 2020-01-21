@@ -212,7 +212,6 @@ items:
     volume: 0.1
   Astronavigational Tracking Program:
     id: 53082
-    marketGroup: 1840
     mass: 1.0
     name: Astronavigational Tracking Program
     published: true
@@ -1042,6 +1041,12 @@ items:
     name: Hybrid Weapon Assembly Instructions
     published: true
     volume: 0.5
+  HyperCore:
+    id: 52568
+    marketGroup: 2701
+    name: HyperCore
+    published: true
+    volume: 0.01
   ID Card Generator:
     id: 22152
     mass: 2500.0
@@ -2083,7 +2088,6 @@ items:
     volume: 0.1
   Survey Data:
     id: 53083
-    marketGroup: 1840
     mass: 1.0
     name: Survey Data
     published: true

@@ -117,3 +117,9 @@ items:
     price: 7.5E7
     published: false
     volume: 414000.0
+  Vimoksha Envoy:
+    id: 53520
+    mass: 9.93E7
+    name: Vimoksha Envoy
+    published: false
+    volume: 486000.0

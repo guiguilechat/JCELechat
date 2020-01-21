@@ -28,6 +28,9 @@ agents:
     isLocator: false
     level: 2
     name: Aakeo Oshaima
+    station: Dantumi IV - Moon 14 - Wiyrkomi Corporation Factory
+    stationId: 60001246
+    system: Dantumi
     type: EventMissionAgent
   Aakie Sekichi:
     corporation: Guristas
@@ -750,6 +753,9 @@ agents:
     isLocator: false
     level: 2
     name: Abotur Kverkinn
+    station: Teonusude VII - Moon 1 - Vherokior Tribe Treasury
+    stationId: 60004552
+    system: Teonusude
     type: EventMissionAgent
   Abouh Isin:
     corporation: Royal Khanid Navy
@@ -1275,6 +1281,9 @@ agents:
     isLocator: false
     level: 1
     name: Adani Yusev
+    station: Malkalen III - Ishukone Watch Assembly Plant
+    stationId: 60003964
+    system: Malkalen
     type: EpicArcAgent
   Adarald Ugge:
     corporation: DED
@@ -1294,6 +1303,9 @@ agents:
     isLocator: false
     level: 3
     name: Adari Jammalgen
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Adartazir Shazhdas:
     corporation: Ministry of War
@@ -1500,6 +1512,9 @@ agents:
     isLocator: false
     level: 1
     name: Ader Finn
+    station: Sukirah VIII - Moon 5 - Amarr Trade Registry Archives
+    stationId: 60008248
+    system: Sukirah
     type: EventMissionAgent
   Aderon Arde:
     corporation: CreoDron
@@ -4607,6 +4622,9 @@ agents:
     isLocator: false
     level: 4
     name: Airkio Yanjulen
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Airos Yanshamon:
     corporation: Ytiri
@@ -4670,6 +4688,9 @@ agents:
     isLocator: false
     level: 3
     name: Aisha Gojivi
+    station: Saisio VIII - Moon 20 - Sukuuvestaa Corporation Warehouse
+    stationId: 60002734
+    system: Saisio
     type: EventMissionAgent
   Aishio Arilalmon:
     corporation: Intaki Syndicate
@@ -5096,6 +5117,9 @@ agents:
     isLocator: false
     level: 4
     name: Akelf Ortar
+    station: Arlulf III - Moon 11 - Republic Justice Department Law School
+    stationId: 60004924
+    system: Arlulf
     type: EventMissionAgent
   Akemon Tolan:
     corporation: Amarr Navy
@@ -5104,6 +5128,9 @@ agents:
     isLocator: false
     level: 4
     name: Akemon Tolan
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Akenul Moutid:
     corporation: Amarr Navy
@@ -5343,6 +5370,9 @@ agents:
     isLocator: false
     level: 3
     name: Akira Helkelen
+    station: Isseras IV - Zainou Biotech Production
+    stationId: 60001765
+    system: Isseras
     type: EventMissionAgent
   Akiras Issota:
     corporation: Modern Finances
@@ -5505,6 +5535,9 @@ agents:
     isLocator: false
     level: 2
     name: Akraun Maertigor
+    station: Rens VI - Six Kin Development Warehouse
+    stationId: 60005725
+    system: Rens
     type: EventMissionAgent
   Akredold Teir:
     corporation: Core Complexion Inc.
@@ -5964,6 +5997,9 @@ agents:
     isLocator: false
     level: 1
     name: Albedur Vatzako
+    station: Eram VIII - Moon 13 - Sebiestor Tribe Bureau
+    stationId: 60004480
+    system: Eram
     type: EventMissionAgent
   Albeleeles Moedamia:
     corporation: True Creations
@@ -7169,6 +7205,9 @@ agents:
     isLocator: false
     level: 2
     name: Alliot Graferr
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Allisi Pirunara:
     corporation: Joint Harvesting
@@ -7496,6 +7535,9 @@ agents:
     isLocator: false
     level: 3
     name: Alon Ahrassine
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Alona Toris:
     corporation: State Protectorate
@@ -7779,6 +7821,9 @@ agents:
     isLocator: false
     level: 1
     name: Altan Uigot
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Altecir Sineru:
     corporation: Imperial Academy
@@ -8106,6 +8151,9 @@ agents:
     isLocator: false
     level: 3
     name: Amatin Chens
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Amattold Ullbjell:
     corporation: Boundless Creation
@@ -8565,6 +8613,9 @@ agents:
     isLocator: false
     level: 3
     name: Aminn Flosin
+    station: Alentene VI - Moon 6 - Roden Shipyards Warehouse
+    stationId: 60010300
+    system: Alentene
     type: EventMissionAgent
   Aminnard Stensaine:
     corporation: Federal Freight
@@ -8595,6 +8646,9 @@ agents:
     isLocator: false
     level: 3
     name: Amir Arshah
+    station: Penirgman IV - Imperial Armaments Factory
+    stationId: 60006400
+    system: Penirgman
     type: EventMissionAgent
   Amirker Analven:
     corporation: Impro
@@ -8702,6 +8756,9 @@ agents:
     isLocator: false
     level: 4
     name: Ammargal Detrone
+    station: Amarr VIII (Oris) - Emperor Family Academy
+    stationId: 60008494
+    system: Amarr
     type: EventMissionAgent
   Amme Lynch:
     corporation: Federation Navy
@@ -8842,6 +8899,9 @@ agents:
     isLocator: false
     level: 4
     name: Ampsin Achippon
+    station: Boystin VI - Moon 13 - Combined Harvest Plantation
+    stationId: 60009730
+    system: Boystin
     type: EventMissionAgent
   Amsen Kulen:
     corporation: Expert Distribution
@@ -9643,6 +9703,9 @@ agents:
     isLocator: false
     level: 4
     name: Androver Hnill
+    station: Arlulf III - Moon 11 - Republic Justice Department Law School
+    stationId: 60004924
+    system: Arlulf
     type: EventMissionAgent
   Andt Ossche:
     corporation: Garoun Investment Bank
@@ -10387,6 +10450,9 @@ agents:
     isLocator: false
     level: 2
     name: Anou Dechien
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Anpes Crebbaerone:
     corporation: Quafe Company
@@ -11406,6 +11472,9 @@ agents:
     isLocator: false
     level: 1
     name: Apheta Zenakon
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Aphor Esubara:
     corporation: Amarr Constructions
@@ -11623,6 +11692,9 @@ agents:
     isLocator: false
     level: 3
     name: Aradin Ucham
+    station: Bashakru IV - Ministry of Internal Order Assembly Plant
+    stationId: 60008128
+    system: Bashakru
     type: EventMissionAgent
   Araencheres Eppied:
     corporation: Material Acquisition
@@ -11708,6 +11780,9 @@ agents:
     isLocator: false
     level: 3
     name: Arajna Ashia
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EpicArcAgent
   Arak Bitatun:
     corporation: Nefantar Miner Association
@@ -12024,6 +12099,9 @@ agents:
     isLocator: false
     level: 3
     name: Arato Sirkya
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Arau Turtel:
     corporation: FedMart
@@ -12461,6 +12539,9 @@ agents:
     isLocator: false
     level: 2
     name: Ardoen Dasaner
+    station: Alentene VI - Moon 6 - Roden Shipyards Warehouse
+    stationId: 60010300
+    system: Alentene
     type: EventMissionAgent
   Ardollique Isavergne:
     corporation: Aliastra
@@ -13415,6 +13496,9 @@ agents:
     isLocator: false
     level: 3
     name: Arment Caute
+    station: Renyn IX - Moon 4 - Federal Intelligence Office Logistic Support
+    stationId: 60011914
+    system: Renyn
     type: EpicArcAgent
   Armette Mayen:
     corporation: Material Acquisition
@@ -14335,6 +14419,9 @@ agents:
     isLocator: false
     level: 4
     name: Arsten Takalo
+    station: Rens VI - Moon 8 - Brutor Tribe Treasury
+    stationId: 60004588
+    system: Rens
     type: EpicArcAgent
   Artaja Ininerva:
     corporation: Kaalakiota Corporation
@@ -14694,6 +14781,9 @@ agents:
     isLocator: false
     level: 3
     name: Arvo Watanen
+    station: Amsen VI - Moon 1 - Science and Trade Institute School
+    stationId: 60004450
+    system: Amsen
     type: EventMissionAgent
   Arvoras Kabira:
     corporation: Deep Core Mining Inc.
@@ -16397,6 +16487,9 @@ agents:
     isLocator: false
     level: 3
     name: Astroo Opeau
+    station: Bourynes VII - Moon 2 - University of Caille
+    stationId: 60011566
+    system: Bourynes
     type: EventMissionAgent
   Asturi Arakenda:
     corporation: Corporate Police Force
@@ -16932,6 +17025,9 @@ agents:
     isLocator: false
     level: 3
     name: Atma Aulato
+    station: Elonaya X - Moon 21 - Ytiri Storage
+    stationId: 60000310
+    system: Elonaya
     type: EpicArcAgent
   Atmiel Hakarvin:
     corporation: Joint Harvesting
@@ -16973,6 +17069,9 @@ agents:
     isLocator: false
     level: 3
     name: Aton Hordner
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EpicArcAgent
   Atonder Oldbias:
     corporation: X-Sense
@@ -18609,6 +18708,9 @@ agents:
     isLocator: false
     level: 4
     name: Aursa Kunivuri
+    station: Liekuri VII - Moon 22 - Expert Distribution Warehouse
+    stationId: 60002428
+    system: Liekuri
     type: EpicArcAgent
   Aurtie Ogidel:
     corporation: Federal Intelligence Office
@@ -18914,6 +19016,9 @@ agents:
     isLocator: false
     level: 1
     name: Autaris Pia
+    station: Kisogo VII - State War Academy
+    stationId: 60014659
+    system: Kisogo
     type: EventMissionAgent
   Autes Gelloure:
     corporation: CreoDron
@@ -19549,6 +19654,9 @@ agents:
     isLocator: false
     level: 4
     name: Aville Ancare
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Avingazit Shalah:
     corporation: Imperial Armaments
@@ -20294,6 +20402,9 @@ agents:
     isLocator: false
     level: 4
     name: Babalu Wrezka
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Babanulf Kerane:
     corporation: Minmatar Mining Corporation
@@ -20412,6 +20523,9 @@ agents:
     isLocator: false
     level: 1
     name: Baftot Asluzof
+    station: 37S-KO III - Moon 1 - True Creations Shipyard
+    stationId: 60014149
+    system: 37S-KO
     type: EventMissionAgent
   Bagidold Hedledia:
     corporation: Tribal Liberation Force
@@ -20563,6 +20677,9 @@ agents:
     isLocator: false
     level: 4
     name: Bakkla Viftuin
+    station: M-MD3B X - Moon 3 - Thukker Mix Factory
+    stationId: 60014059
+    system: M-MD3B
     type: EventMissionAgent
   Bakshma Deka:
     corporation: Archangels
@@ -20747,6 +20864,9 @@ agents:
     isLocator: false
     level: 3
     name: Bamona Pizteed
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Bamtusha Ahrdia:
     corporation: Kador Family
@@ -21107,6 +21227,9 @@ agents:
     isLocator: false
     level: 4
     name: Barou Lardoss
+    station: Elore IV - Moon 1 - Material Acquisition Mining Outpost
+    stationId: 60009430
+    system: Elore
     type: EventMissionAgent
   Bars Evetille:
     corporation: Chemal Tech
@@ -21126,6 +21249,9 @@ agents:
     isLocator: false
     level: 3
     name: Bartezo Maphante
+    station: Laddiaha VI - Moon 7 - Ducia Foundry Mining Outpost
+    stationId: 60006772
+    system: Laddiaha
     type: EventMissionAgent
   Barthakar Cherq:
     corporation: Further Foodstuffs
@@ -21706,6 +21832,9 @@ agents:
     isLocator: false
     level: 3
     name: Beduim Quereg
+    station: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
+    stationId: 60008650
+    system: SarumPrime
     type: EventMissionAgent
   Beedaener Handriveau:
     corporation: Intaki Commerce
@@ -22187,6 +22316,9 @@ agents:
     isLocator: false
     level: 1
     name: Beris Nitrus
+    station: X-7OMU IV - Moon 16 - Food Relief Plantation
+    stationId: 60013075
+    system: X-7OMU
     type: EventMissionAgent
   Beritte Broin:
     corporation: Federal Freight
@@ -22370,6 +22502,9 @@ agents:
     isLocator: false
     level: 1
     name: Beteux Maron
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Betilda Klet:
     corporation: Guardian Angels
@@ -22686,6 +22821,9 @@ agents:
     isLocator: false
     level: 1
     name: Binnie Nigolier
+    station: Elore IV - Moon 1 - Material Acquisition Mining Outpost
+    stationId: 60009430
+    system: Elore
     type: EventMissionAgent
   Binoda Zunarus:
     corporation: Amarr Navy
@@ -23090,6 +23228,9 @@ agents:
     isLocator: false
     level: 4
     name: Bleur Hein
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Bley Oreriel:
     corporation: Serpentis Corporation
@@ -23098,6 +23239,9 @@ agents:
     isLocator: false
     level: 4
     name: Bley Oreriel
+    station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
+    stationId: 60012859
+    system: SerpentisPrime
     type: EventMissionAgent
   Blie Ignoget:
     corporation: Astral Mining Inc.
@@ -23128,6 +23272,9 @@ agents:
     isLocator: false
     level: 1
     name: Blique Hazardt
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Blistatyn Cabairon:
     corporation: True Power
@@ -23477,6 +23624,9 @@ agents:
     isLocator: false
     level: 1
     name: Bollen Odridur
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Bomana Elchen:
     corporation: Amarr Trade Registry
@@ -24573,6 +24723,9 @@ agents:
     isLocator: false
     level: 1
     name: Brus Colterne
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EpicArcAgent
   Bruspin Pemmune:
     corporation: CreoDron
@@ -24768,6 +24921,9 @@ agents:
     isLocator: false
     level: 3
     name: Bukar Robaerger
+    station: Rens VI - Moon 8 - Brutor Tribe Treasury
+    stationId: 60004588
+    system: Rens
     type: EventMissionAgent
   Bulban Benteinn:
     corporation: Six Kin Development
@@ -25479,6 +25635,9 @@ agents:
     isLocator: false
     level: 4
     name: Carvaire Botesane
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Carvaire Cet:
     corporation: Federation Customs
@@ -26223,6 +26382,9 @@ agents:
     isLocator: false
     level: 2
     name: Chari Shakai
+    station: Shesha VII - Nurtura Plantation
+    stationId: 60007513
+    system: Shesha
     type: EventMissionAgent
   Chari Zarkafa:
     corporation: Zoar and Sons
@@ -26286,6 +26448,9 @@ agents:
     isLocator: false
     level: 4
     name: Charit Rish
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Charmes Palinard:
     corporation: Combined Harvest
@@ -26580,6 +26745,9 @@ agents:
     isLocator: false
     level: 4
     name: Chichiro Rati
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Chigas Ovoken:
     corporation: State War Academy
@@ -26939,6 +27107,9 @@ agents:
     isLocator: false
     level: 3
     name: Cimalo Mahnab
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Ciner Oitou:
     corporation: Federation Customs
@@ -27145,6 +27316,9 @@ agents:
     isLocator: false
     level: 4
     name: Cliene Veine
+    station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
+    stationId: 60012859
+    system: SerpentisPrime
     type: EventMissionAgent
   Cloellire Moncitant:
     corporation: Federation Navy
@@ -27913,6 +28087,9 @@ agents:
     isLocator: false
     level: 4
     name: Croir Arghe
+    station: Bourynes VII - Moon 2 - University of Caille
+    stationId: 60011566
+    system: Bourynes
     type: EventMissionAgent
   Crucarne Odeune:
     corporation: Aliastra
@@ -28119,6 +28296,9 @@ agents:
     isLocator: false
     level: 4
     name: Daemire Adamia
+    station: 4C-B7X VIII - Moon 1 - Outer Ring Excavations Mining Outpost
+    stationId: 60012583
+    system: 4C-B7X
     type: EventMissionAgent
   Daemire Cylelle:
     corporation: Federal Navy Academy
@@ -28193,6 +28373,9 @@ agents:
     isLocator: false
     level: 3
     name: Dagras Kutill
+    station: Eram VIII - Moon 13 - Sebiestor Tribe Bureau
+    stationId: 60004480
+    system: Eram
     type: EventMissionAgent
   Dahin Tafsas:
     corporation: Amarr Certified News
@@ -28267,6 +28450,9 @@ agents:
     isLocator: false
     level: 2
     name: Daitsu Ikonen
+    station: Malkalen V - Moon 1 - Ishukone Corporation Factory
+    stationId: 60002065
+    system: Malkalen
     type: EventMissionAgent
   Dakba Fikpoun:
     corporation: 24th Imperial Crusade
@@ -28374,6 +28560,9 @@ agents:
     isLocator: false
     level: 4
     name: Dalitat Dakpor
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Dalkar Kersos:
     corporation: Krusual Tribe
@@ -28382,6 +28571,9 @@ agents:
     isLocator: false
     level: 3
     name: Dalkar Kersos
+    station: Hek IV - Krusual Tribe Bureau
+    stationId: 60004516
+    system: Hek
     type: EventMissionAgent
   Dalle Audre:
     corporation: Bank of Luminaire
@@ -28455,6 +28647,9 @@ agents:
     isLocator: false
     level: 4
     name: Damos Ossiam
+    station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
+    stationId: 60008686
+    system: Kor-AzorPrime
     type: EventMissionAgent
   Damsia Chadla:
     corporation: Nurtura
@@ -28617,6 +28812,9 @@ agents:
     isLocator: false
     level: 2
     name: Darabu Harva
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Daras Utrola:
     corporation: Poksu Mineral Group
@@ -28713,6 +28911,9 @@ agents:
     isLocator: false
     level: 4
     name: Dars Amene
+    station: Orvolle VI - Moon 1 - The Scope Development Studio
+    stationId: 60010636
+    system: Orvolle
     type: EventMissionAgent
   Darwaedur Abeildefder:
     corporation: CONCORD
@@ -29194,6 +29395,9 @@ agents:
     isLocator: false
     level: 1
     name: Demi Lazerus
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Demuror Moum:
     corporation: Carthum Conglomerate
@@ -29356,6 +29560,9 @@ agents:
     isLocator: false
     level: 3
     name: Derqa Mandame
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Derraucet Espire:
     corporation: Sisters of EVE
@@ -29419,6 +29626,9 @@ agents:
     isLocator: false
     level: 1
     name: Desra Nekri
+    station: Bagodan I - HZO Refinery Mining Outpost
+    stationId: 60006907
+    system: Bagodan
     type: EventMissionAgent
   Destaseke Zertavenne:
     corporation: Federation Navy
@@ -30098,6 +30308,9 @@ agents:
     isLocator: false
     level: 4
     name: Dorim Fatimar
+    station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
+    stationId: 60008758
+    system: Tash-MurkonPrime
     type: EventMissionAgent
   Doritte Sybbolia:
     corporation: TransStellar Shipping
@@ -30348,6 +30561,9 @@ agents:
     isLocator: false
     level: 1
     name: Drone Mind
+    station: FDZ4-A VIII - Moon 3 - Society of Conscious Thought School
+    stationId: 60012730
+    system: FDZ4-A
     type: EventMissionAgent
   Drovora Egiber:
     corporation: Republic Parliament
@@ -30367,6 +30583,9 @@ agents:
     isLocator: false
     level: 3
     name: Drusk Amakkit
+    station: M-MD3B X - Moon 3 - Thukker Mix Factory
+    stationId: 60014059
+    system: M-MD3B
     type: EventMissionAgent
   Dubahar Veche:
     corporation: Ducia Foundry
@@ -31629,6 +31848,9 @@ agents:
     isLocator: false
     level: 4
     name: Eget Skovilen
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Eggeldold Oakka:
     corporation: Republic Security Services
@@ -32484,6 +32706,9 @@ agents:
     isLocator: false
     level: 2
     name: Ekdit Spitek
+    station: Abudban X - Moon 10 - Urban Management Bureau Offices
+    stationId: 60005044
+    system: Abudban
     type: EventMissionAgent
   Ekela Janikia:
     corporation: Caldari Navy
@@ -33196,6 +33421,9 @@ agents:
     isLocator: false
     level: 3
     name: Ellar Stin
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EpicArcAgent
   Elles Agatier:
     corporation: Federal Freight
@@ -33633,6 +33861,9 @@ agents:
     isLocator: false
     level: 4
     name: Emma Tharkin
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Emmacieves Coriault:
     corporation: Material Acquisition
@@ -34159,6 +34390,9 @@ agents:
     isLocator: false
     level: 1
     name: Enna Ahruneh
+    station: Bagodan I - HZO Refinery Mining Outpost
+    stationId: 60006907
+    system: Bagodan
     type: EventMissionAgent
   Enna Knaatanen:
     corporation: Perkone
@@ -34420,6 +34654,9 @@ agents:
     isLocator: false
     level: 4
     name: Erakki Kihu
+    station: Nonni III - Moon 1 - Kaalakiota Corporation Factory
+    stationId: 60000976
+    system: Nonni
     type: EventMissionAgent
   Erakki Kihuo:
     corporation: Kaalakiota Corporation
@@ -35836,6 +36073,9 @@ agents:
     isLocator: false
     level: 4
     name: Esordik Mitt
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Esourdaris Adodoure:
     corporation: Federation Customs
@@ -36251,6 +36491,9 @@ agents:
     isLocator: false
     level: 3
     name: Eteri Tazaki
+    station: Airkio IX - Moon 7 - Lai Dai Protection Service Assembly Plant
+    stationId: 60003940
+    system: Airkio
     type: EventMissionAgent
   Ethral Perchevan:
     corporation: Blood Raiders
@@ -36270,6 +36513,9 @@ agents:
     isLocator: false
     level: 1
     name: Etien Duloure
+    station: Ostingele VIII - Moon 3 - FedMart Warehouse
+    stationId: 60010951
+    system: Ostingele
     type: EventMissionAgent
   Etinckbrault Brancke:
     corporation: Federation Navy
@@ -36705,6 +36951,9 @@ agents:
     isLocator: false
     level: 2
     name: Eutor Jogmundt
+    station: Hagilur IV - Moon 2 - Minmatar Mining Corporation Mining Outpost
+    stationId: 60005233
+    system: Hagilur
     type: EventMissionAgent
   Euvon Allelluc:
     corporation: The Scope
@@ -37373,6 +37622,9 @@ agents:
     isLocator: false
     level: 4
     name: Fam Kishemas
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Famas Khaseh:
     corporation: Zoar and Sons
@@ -37491,6 +37743,9 @@ agents:
     isLocator: false
     level: 1
     name: Fara Bokh
+    station: Bei VII - Moon 8 - Freedom Extension Storage
+    stationId: 60005770
+    system: Bei
     type: EventMissionAgent
   Faradana Nobina:
     corporation: Royal Amarr Institute
@@ -37510,6 +37765,9 @@ agents:
     isLocator: false
     level: 4
     name: Farak Kali
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Fararouz Chamume:
     corporation: Noble Appliances
@@ -37650,6 +37908,9 @@ agents:
     isLocator: false
     level: 4
     name: Fassara Nazarut
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Fassara Shehila:
     corporation: Zoar and Sons
@@ -38054,6 +38315,9 @@ agents:
     isLocator: false
     level: 1
     name: Fetosa Kanim
+    station: Paara I - Deep Core Mining Inc. Mining Outpost
+    stationId: 60000610
+    system: Paara
     type: EventMissionAgent
   Fette Aleartener:
     corporation: Astral Mining Inc.
@@ -38227,6 +38491,9 @@ agents:
     isLocator: false
     level: 3
     name: Fims Artalanche
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Finena Ralever:
     corporation: Carthum Conglomerate
@@ -38961,6 +39228,9 @@ agents:
     isLocator: false
     level: 2
     name: Frera Elgas
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Freye Strodmont:
     corporation: Astral Mining Inc.
@@ -38980,6 +39250,9 @@ agents:
     isLocator: false
     level: 2
     name: Frie Tasmulo
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Friens Drur:
     corporation: Freedom Extension
@@ -39241,6 +39514,9 @@ agents:
     isLocator: false
     level: 2
     name: Fumiku Viljanen
+    station: Amsen VI - Moon 1 - Science and Trade Institute School
+    stationId: 60004450
+    system: Amsen
     type: EventMissionAgent
   Fumu Erasouh:
     corporation: Zoar and Sons
@@ -39370,6 +39646,9 @@ agents:
     isLocator: false
     level: 1
     name: Furas Vaupero
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Furmint Akaza:
     corporation: Genolution
@@ -39476,6 +39755,9 @@ agents:
     isLocator: false
     level: 3
     name: Fynnir Torsont
+    station: X-7OMU IV - Moon 3 - Sisters of EVE Academy
+    stationId: 60012595
+    system: X-7OMU
     type: EventMissionAgent
   Ga Suomonoksa:
     corporation: Lai Dai Corporation
@@ -39825,6 +40107,9 @@ agents:
     isLocator: false
     level: 1
     name: Galhar Lahara
+    station: Bagodan I - HZO Refinery Mining Outpost
+    stationId: 60006907
+    system: Bagodan
     type: EventMissionAgent
   Galiahervan Hiasan:
     corporation: Ministry of Internal Order
@@ -39998,6 +40283,9 @@ agents:
     isLocator: false
     level: 4
     name: Gara Kort
+    station: Dantumi VI - Moon 1 - Wiyrkomi Peace Corps Assembly Plant
+    stationId: 60004264
+    system: Dantumi
     type: EventMissionAgent
   Gara Minsk:
     corporation: Serpentis Inquest
@@ -41139,6 +41427,9 @@ agents:
     isLocator: false
     level: 4
     name: Gian Parele
+    station: Atlanins III - Impetus Publisher
+    stationId: 60010486
+    system: Atlanins
     type: EpicArcAgent
   Gian Rouppon:
     corporation: Center for Advanced Studies
@@ -41543,6 +41834,9 @@ agents:
     isLocator: false
     level: 3
     name: Godun Sakt
+    station: Elgoi VI - Moon 1 - Eifyr and Co. Biotech Production
+    stationId: 60005719
+    system: Elgoi
     type: EventMissionAgent
   Gofrat Rondralass:
     corporation: Noble Appliances
@@ -41705,6 +41999,9 @@ agents:
     isLocator: false
     level: 1
     name: Golarad Hjom
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Goligere Debanelis:
     corporation: Serpentis Inquest
@@ -41713,6 +42010,9 @@ agents:
     isLocator: false
     level: 1
     name: Goligere Debanelis
+    station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
+    stationId: 60013993
+    system: SerpentisPrime
     type: EventMissionAgent
   Gollain Direrie:
     corporation: Duvolle Laboratories
@@ -41798,6 +42098,9 @@ agents:
     isLocator: false
     level: 1
     name: Gomosabin Zerdanne
+    station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
+    stationId: 60013993
+    system: SerpentisPrime
     type: EventMissionAgent
   Gonakis Eraettafrin:
     corporation: Republic Military School
@@ -41915,6 +42218,9 @@ agents:
     isLocator: false
     level: 3
     name: Goru Nikainen
+    station: Josameto VIII - Nugoeihuvi Corporation Publisher
+    stationId: 60001825
+    system: Josameto
     type: EventMissionAgent
   Gosauvel Aulbres:
     corporation: Federal Navy Academy
@@ -42384,6 +42690,9 @@ agents:
     isLocator: false
     level: 1
     name: Grisier Challier
+    station: Elore IV - Moon 1 - Material Acquisition Mining Outpost
+    stationId: 60009430
+    system: Elore
     type: EventMissionAgent
   Grocrerdier Autto:
     corporation: Egonics Inc.
@@ -42590,6 +42899,9 @@ agents:
     isLocator: false
     level: 1
     name: Gue Mouey
+    station: F67E-Q VIII - Moon 2 - Intaki Commerce Trading Post
+    stationId: 60013381
+    system: F67E-Q
     type: EventMissionAgent
   Guemtel Pinorire:
     corporation: Astral Mining Inc.
@@ -43258,6 +43570,9 @@ agents:
     isLocator: false
     level: 3
     name: Habad Rokusten
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Habalu Taidecar:
     corporation: HZO Refinery
@@ -43990,6 +44305,9 @@ agents:
     isLocator: false
     level: 4
     name: Hakkuna Baille
+    station: 4C-B7X VIII - Moon 1 - Outer Ring Excavations Mining Outpost
+    stationId: 60012583
+    system: 4C-B7X
     type: EventMissionAgent
   Hakkunnada Mamonaitoh:
     corporation: Poksu Mineral Group
@@ -44009,6 +44327,9 @@ agents:
     isLocator: false
     level: 1
     name: Hakno Lekan
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Hakodan Getasori:
     corporation: Hyasyoda Corporation
@@ -44545,6 +44866,9 @@ agents:
     isLocator: false
     level: 4
     name: Hana Isourin
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Hananumo Orulen:
     corporation: Wiyrkomi Corporation
@@ -44718,6 +45042,9 @@ agents:
     isLocator: false
     level: 1
     name: Hansu Turu
+    station: Josameto VIII - Nugoeihuvi Corporation Publisher
+    stationId: 60001825
+    system: Josameto
     type: EventMissionAgent
   Hanterola Puitamaa:
     corporation: Caldari Business Tribunal
@@ -44792,6 +45119,9 @@ agents:
     isLocator: false
     level: 4
     name: Hara Lafleur
+    station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
+    stationId: 60013993
+    system: SerpentisPrime
     type: EventMissionAgent
   Haraila Aruta:
     corporation: Caldari Business Tribunal
@@ -45382,6 +45712,9 @@ agents:
     isLocator: false
     level: 1
     name: Hasaziras Assa
+    station: 54-VNO XI - Moon 2 - Jove Navy Testing Facilities
+    stationId: 60013555
+    system: 54-VNO
     type: EventMissionAgent
   Hasaziras Isemi:
     corporation: Ytiri
@@ -45620,6 +45953,9 @@ agents:
     isLocator: false
     level: 3
     name: Hatia Madase
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Hatoh Yoma:
     corporation: Caldari Business Tribunal
@@ -45826,6 +46162,9 @@ agents:
     isLocator: false
     level: 1
     name: Hazar Arjidsi
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Hazara Nat:
     corporation: Amarr Navy
@@ -46054,6 +46393,9 @@ agents:
     isLocator: false
     level: 1
     name: Hefaka Chubid
+    station: Kihtaled VIII - Moon 7 - Royal Khanid Navy Assembly Plant
+    stationId: 60013933
+    system: Kihtaled
     type: EventMissionAgent
   Hefer Rye:
     corporation: CreoDron
@@ -46326,6 +46668,9 @@ agents:
     isLocator: false
     level: 1
     name: Heiraitah Siakkano
+    station: 6NJ8-V VI - Moon 6 - Guristas Production Shipyard
+    stationId: 60013261
+    system: 6NJ8-V
     type: EventMissionAgent
   Heireshin Oisen:
     corporation: CBD Corporation
@@ -46543,6 +46888,9 @@ agents:
     isLocator: false
     level: 2
     name: Helmi Nakamuta
+    station: Haatomo VI - Moon 1 - Caldari Provisions Warehouse
+    stationId: 60000856
+    system: Haatomo
     type: EventMissionAgent
   Helusdere Yrmeko:
     corporation: Ammatar Fleet
@@ -46628,6 +46976,9 @@ agents:
     isLocator: false
     level: 4
     name: Henara Vern
+    station: YZ-LQL VI - Moon 19 - Guardian Angels Logistic Support
+    stationId: 60012910
+    system: YZ-LQL
     type: EventMissionAgent
   Hendik Golmuald:
     corporation: Ammatar Consulate
@@ -47065,6 +47416,9 @@ agents:
     isLocator: false
     level: 2
     name: Hetras Dakumon
+    station: Penirgman IV - Imperial Armaments Factory
+    stationId: 60006400
+    system: Penirgman
     type: EventMissionAgent
   Hetsen Bukken:
     corporation: Poksu Mineral Group
@@ -47788,6 +48142,9 @@ agents:
     isLocator: false
     level: 3
     name: Hinrich Tekrawhol
+    station: M-MD3B X - Moon 3 - Thukker Mix Factory
+    stationId: 60014059
+    system: M-MD3B
     type: EventMissionAgent
   Hintanen Tasiwa:
     corporation: Expert Distribution
@@ -48049,6 +48406,9 @@ agents:
     isLocator: false
     level: 3
     name: Hitami Magye
+    station: Sirseshin VI - Moon 1 - Mercantile Club Bureau
+    stationId: 60003394
+    system: Sirseshin
     type: EventMissionAgent
   Hitodan Setsepailen:
     corporation: Nugoeihuvi Corporation
@@ -48134,6 +48494,9 @@ agents:
     isLocator: false
     level: 4
     name: Hiva Shesha
+    station: Hek IV - Krusual Tribe Bureau
+    stationId: 60004516
+    system: Hek
     type: EpicArcAgent
   Hivas Aummi:
     corporation: Perkone
@@ -48274,6 +48637,9 @@ agents:
     isLocator: false
     level: 1
     name: Hlebnar Tonari
+    station: Teonusude VII - Moon 1 - Vherokior Tribe Treasury
+    stationId: 60004552
+    system: Teonusude
     type: EventMissionAgent
   Hlervolget Dronetta:
     corporation: Republic Parliament
@@ -48920,6 +49286,9 @@ agents:
     isLocator: false
     level: 1
     name: Horir Firvoon
+    station: 37S-KO III - Moon 1 - True Creations Shipyard
+    stationId: 60014149
+    system: 37S-KO
     type: EventMissionAgent
   Horkkisen Katala:
     corporation: Modern Finances
@@ -49082,6 +49451,9 @@ agents:
     isLocator: false
     level: 1
     name: Hosiwo Onima
+    station: Amsen VI - Moon 1 - Science and Trade Institute School
+    stationId: 60004450
+    system: Amsen
     type: EventMissionAgent
   Hosoras Ieyahomon:
     corporation: Ishukone Corporation
@@ -49123,6 +49495,9 @@ agents:
     isLocator: false
     level: 4
     name: Hotaru Ahti
+    station: Paara I - Deep Core Mining Inc. Mining Outpost
+    stationId: 60000610
+    system: Paara
     type: EventMissionAgent
   Hoteviba Balete:
     corporation: Carthum Conglomerate
@@ -50483,6 +50858,9 @@ agents:
     isLocator: false
     level: 2
     name: Ichmari Obesa
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Ichoda Fukikaga:
     corporation: Caldari Steel
@@ -51766,6 +52144,9 @@ agents:
     isLocator: false
     level: 3
     name: Ikimara Hochi
+    station: Antiainen III - State and Region Bank Depository
+    stationId: 60003184
+    system: Antiainen
     type: EventMissionAgent
   Ikita Jusken:
     corporation: Expert Distribution
@@ -52037,6 +52418,9 @@ agents:
     isLocator: false
     level: 2
     name: Iliere Angetyn
+    station: M-MD3B IV - Trust Partners Warehouse
+    stationId: 60014374
+    system: M-MD3B
     type: EventMissionAgent
   Iliete Janydens:
     corporation: Material Acquisition
@@ -52100,6 +52484,9 @@ agents:
     isLocator: false
     level: 4
     name: Ilkur Eiren
+    station: Arlulf III - Moon 11 - Republic Justice Department Law School
+    stationId: 60004924
+    system: Arlulf
     type: EventMissionAgent
   Illadie Elemite:
     corporation: FedMart
@@ -53384,6 +53771,9 @@ agents:
     isLocator: false
     level: 4
     name: Ippana Maltyr
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Ippara Orsaisio:
     corporation: Caldari Constructions
@@ -53953,6 +54343,9 @@ agents:
     isLocator: false
     level: 4
     name: Isana Dagin
+    station: Poitot V - Moon 14 - Intaki Syndicate Bureau
+    stationId: 60013465
+    system: Poitot
     type: EventMissionAgent
   Isana Daginn:
     corporation: Intaki Syndicate
@@ -54533,6 +54926,9 @@ agents:
     isLocator: false
     level: 4
     name: Ison Tiadala
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Isondulf Ateurdarder:
     corporation: Trust Partners
@@ -54640,6 +55036,9 @@ agents:
     isLocator: false
     level: 2
     name: Istei Poyri
+    station: Josameto VIII - Nugoeihuvi Corporation Publisher
+    stationId: 60001825
+    system: Josameto
     type: EventMissionAgent
   Isu Jokaga:
     corporation: Home Guard
@@ -54648,6 +55047,9 @@ agents:
     isLocator: false
     level: 3
     name: Isu Jokaga
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Isudakken Reima:
     corporation: CBD Corporation
@@ -55459,6 +55861,9 @@ agents:
     isLocator: false
     level: 1
     name: Jaak Rozake
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Jaapukka Yushi:
     corporation: Spacelane Patrol
@@ -55555,6 +55960,9 @@ agents:
     isLocator: false
     level: 1
     name: Jachael Menson
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Jacheed Yalia:
     corporation: Imperial Armaments
@@ -55739,6 +56147,9 @@ agents:
     isLocator: false
     level: 4
     name: Jakuzi Makar
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Jalar Berabal:
     corporation: Blood Raiders
@@ -55758,6 +56169,9 @@ agents:
     isLocator: false
     level: 2
     name: Jali Tanaka
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Jaliri Gavan:
     corporation: Zoar and Sons
@@ -55975,6 +56389,9 @@ agents:
     isLocator: false
     level: 1
     name: Jannegiers Estacan
+    station: Bourynes VII - Moon 2 - University of Caille
+    stationId: 60011566
+    system: Bourynes
     type: EventMissionAgent
   Janninck Aydet:
     corporation: Aliastra
@@ -56027,6 +56444,9 @@ agents:
     isLocator: false
     level: 4
     name: Jaquon Jalibar
+    station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
+    stationId: 60013993
+    system: SerpentisPrime
     type: EventMissionAgent
   Jara Kumora:
     corporation: Mordu's Legion
@@ -56167,6 +56587,9 @@ agents:
     isLocator: false
     level: 4
     name: Jarvas Ladier
+    station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
+    stationId: 60012859
+    system: SerpentisPrime
     type: EventMissionAgent
   Jas Uittatoh:
     corporation: Spacelane Patrol
@@ -56472,6 +56895,9 @@ agents:
     isLocator: false
     level: 4
     name: Jeeta Neek
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Jehasar Laddira:
     corporation: Society of Conscious Thought
@@ -56667,6 +57093,9 @@ agents:
     isLocator: false
     level: 2
     name: Jeremy Tacs
+    station: Yulai IX (Kjarval) - CONCORD Bureau
+    stationId: 60012256
+    system: Yulai
     type: EventMissionAgent
   Jersani Hanab:
     corporation: Civic Court
@@ -56839,6 +57268,9 @@ agents:
     isLocator: false
     level: 4
     name: Jippon Frain
+    station: Eram VIII - Moon 13 - Sebiestor Tribe Bureau
+    stationId: 60004480
+    system: Eram
     type: EventMissionAgent
   Jissi Rahmogheb:
     corporation: Ministry of War
@@ -57121,6 +57553,9 @@ agents:
     isLocator: false
     level: 4
     name: Jordan Usquen
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Jorerout Aunon:
     corporation: Federal Administration
@@ -57360,6 +57795,9 @@ agents:
     isLocator: false
     level: 4
     name: Juki Khoun
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Jukinoue Jurechi:
     corporation: Poksu Mineral Group
@@ -57643,6 +58081,9 @@ agents:
     isLocator: false
     level: 2
     name: Jur Zehbani
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Jurband Atirsand:
     corporation: Republic Parliament
@@ -57794,6 +58235,9 @@ agents:
     isLocator: false
     level: 1
     name: Juvoire Sche
+    station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
+    stationId: 60013993
+    system: SerpentisPrime
     type: EventMissionAgent
   Kaaleskailen Engas:
     corporation: Caldari Provisions
@@ -57956,6 +58400,9 @@ agents:
     isLocator: false
     level: 3
     name: Kaeg Zkaen
+    station: Tanoo V - Moon 1 - Ammatar Consulate Bureau
+    stationId: 60012526
+    system: Tanoo
     type: EventMissionAgent
   Kaemunadik Betenindus:
     corporation: True Creations
@@ -58184,6 +58631,9 @@ agents:
     isLocator: false
     level: 4
     name: Kaiko Maina
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Kaila Ietsio:
     corporation: Expert Housing
@@ -58335,6 +58785,9 @@ agents:
     isLocator: false
     level: 2
     name: Kaiya Tuuri
+    station: Airkio IX - Moon 7 - Lai Dai Protection Service Assembly Plant
+    stationId: 60003940
+    system: Airkio
     type: EventMissionAgent
   Kajari Shoma:
     corporation: Wiyrkomi Corporation
@@ -58409,6 +58862,9 @@ agents:
     isLocator: false
     level: 4
     name: Kakala Ikkawa
+    station: Nonni III - Moon 1 - Kaalakiota Corporation Factory
+    stationId: 60000976
+    system: Nonni
     type: EventMissionAgent
   Kakalin Ilpa:
     corporation: Propel Dynamics
@@ -59176,6 +59632,9 @@ agents:
     isLocator: false
     level: 4
     name: Kanmilia Oldit
+    station: YZ-LQL VI - Moon 19 - Guardian Angels Logistic Support
+    stationId: 60012910
+    system: YZ-LQL
     type: EventMissionAgent
   Kannaka Abegias:
     corporation: Imperial Armaments
@@ -59217,6 +59676,9 @@ agents:
     isLocator: false
     level: 4
     name: Kanouchi Hisama
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Kanozul Heva:
     corporation: Joint Harvesting
@@ -59368,6 +59830,9 @@ agents:
     isLocator: false
     level: 1
     name: Kara Morato
+    station: 6NJ8-V VI - Moon 6 - Guristas Production Shipyard
+    stationId: 60013261
+    system: 6NJ8-V
     type: EventMissionAgent
   Kara Takin:
     corporation: Kaalakiota Corporation
@@ -59453,6 +59918,9 @@ agents:
     isLocator: false
     level: 4
     name: Karde Romu
+    station: Bashakru IV - Ministry of Internal Order Assembly Plant
+    stationId: 60008128
+    system: Bashakru
     type: EpicArcAgent
   Kardimo Menka:
     corporation: Dominations
@@ -59461,6 +59929,9 @@ agents:
     isLocator: false
     level: 4
     name: Kardimo Menka
+    station: Utopia VI - Moon 22 - Dominations Assembly Plant
+    stationId: 60013069
+    system: Utopia
     type: EventMissionAgent
   Karhoum Ykta:
     corporation: True Power
@@ -59469,6 +59940,9 @@ agents:
     isLocator: false
     level: 4
     name: Karhoum Ykta
+    station: 37S-KO VII - True Power Mining Outpost
+    stationId: 60014284
+    system: 37S-KO
     type: EventMissionAgent
   Kariemi Tankitainen:
     corporation: Caldari Constructions
@@ -59576,6 +60050,9 @@ agents:
     isLocator: false
     level: 4
     name: Karo Zulak
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Karodan Nietira:
     corporation: X-Sense
@@ -60387,6 +60864,9 @@ agents:
     isLocator: false
     level: 4
     name: Kaymotin Gradance
+    station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
+    stationId: 60012859
+    system: SerpentisPrime
     type: EventMissionAgent
   Kazaka Uoraa:
     corporation: Caldari Provisions
@@ -61647,6 +62127,9 @@ agents:
     isLocator: false
     level: 1
     name: Kikko Roisen
+    station: Korama VI - Moon 10 - Minedrill Mining Outpost
+    stationId: 60000766
+    system: Korama
     type: EventMissionAgent
   Kikkoshi Ohvalainen:
     corporation: CBD Corporation
@@ -62281,6 +62764,9 @@ agents:
     isLocator: false
     level: 1
     name: Kitar Ang
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EpicArcAgent
   Kitkontailen Pahumaa:
     corporation: Home Guard
@@ -62432,6 +62918,9 @@ agents:
     isLocator: false
     level: 1
     name: Knaaninn Aranuri
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: StorylineMissionAgent
   Knaatanen Mulanta:
     corporation: Zainou
@@ -62539,6 +63028,9 @@ agents:
     isLocator: false
     level: 3
     name: Kochi Utrainen
+    station: Sirseshin VI - Moon 1 - Mercantile Club Bureau
+    stationId: 60003394
+    system: Sirseshin
     type: EventMissionAgent
   Kodamailen Oijari:
     corporation: Ytiri
@@ -62580,6 +63072,9 @@ agents:
     isLocator: false
     level: 4
     name: Kofur Karveran
+    station: Kador Prime VI - Moon 1 - Kador Family Bureau
+    stationId: 60008614
+    system: KadorPrime
     type: EventMissionAgent
   Kogaras Okayumi:
     corporation: CBD Corporation
@@ -63324,6 +63819,9 @@ agents:
     isLocator: false
     level: 1
     name: Korhonomi Oti
+    station: Todaki VI - Moon 1 - School of Applied Knowledge
+    stationId: 60004420
+    system: Todaki
     type: EventMissionAgent
   Kori Latamaki:
     corporation: Guristas
@@ -63849,6 +64347,9 @@ agents:
     isLocator: false
     level: 1
     name: Kraimir Mork
+    station: Yrmori V - Moon 4 - The Leisure Group Development Studio
+    stationId: 60006040
+    system: Yrmori
     type: EventMissionAgent
   Krak Hakkars:
     corporation: Republic Fleet
@@ -63857,6 +64358,9 @@ agents:
     isLocator: false
     level: 3
     name: Krak Hakkars
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Krakan Rost:
     corporation: Archangels
@@ -63865,6 +64369,9 @@ agents:
     isLocator: false
     level: 3
     name: Krakan Rost
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Krar Irwo:
     corporation: Brutor Tribe
@@ -63884,6 +64391,9 @@ agents:
     isLocator: false
     level: 4
     name: Krard Wengalill
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Kratide Aldiko:
     corporation: Freedom Extension
@@ -63903,6 +64413,9 @@ agents:
     isLocator: false
     level: 3
     name: Krester Rupptofs
+    station: M-MD3B IV - Trust Partners Warehouse
+    stationId: 60014374
+    system: M-MD3B
     type: EventMissionAgent
   Krethar Mann:
     corporation: True Power
@@ -63911,6 +64424,9 @@ agents:
     isLocator: false
     level: 4
     name: Krethar Mann
+    station: 37S-KO VII - True Power Mining Outpost
+    stationId: 60014284
+    system: 37S-KO
     type: EpicArcAgent
   Kreust On:
     corporation: Minmatar Mining Corporation
@@ -64172,6 +64688,9 @@ agents:
     isLocator: false
     level: 2
     name: Kui Hisken
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Kukakka Utriken:
     corporation: Wiyrkomi Corporation
@@ -64719,6 +65238,9 @@ agents:
     isLocator: false
     level: 1
     name: Kusan Niemenen
+    station: Hampinen V - Poksu Mineral Group Mining Outpost
+    stationId: 60000646
+    system: Hampinen
     type: EventMissionAgent
   Kusen Abiken:
     corporation: Corporate Police Force
@@ -64749,6 +65271,9 @@ agents:
     isLocator: false
     level: 4
     name: Kushan Horeat
+    station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
+    stationId: 60008758
+    system: Tash-MurkonPrime
     type: EventMissionAgent
   Kusken Otiai:
     corporation: Rapid Assembly
@@ -65153,6 +65678,9 @@ agents:
     isLocator: false
     level: 4
     name: Lafuni Oduntra
+    station: Arlulf III - Moon 11 - Republic Justice Department Law School
+    stationId: 60004924
+    system: Arlulf
     type: EventMissionAgent
   Lagemorne Lallerordon:
     corporation: The Scope
@@ -65744,6 +66272,9 @@ agents:
     isLocator: false
     level: 4
     name: Lauka Ikunol
+    station: Nonni III - Moon 1 - Kaalakiota Corporation Factory
+    stationId: 60000976
+    system: Nonni
     type: EventMissionAgent
   Laulbrent Catelnau:
     corporation: Federal Intelligence Office
@@ -65895,6 +66426,9 @@ agents:
     isLocator: false
     level: 1
     name: Lear Evanus
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EpicArcAgent
   Leckerot Gottins:
     corporation: Federal Intelligence Office
@@ -67112,6 +67646,9 @@ agents:
     isLocator: false
     level: 4
     name: Lunuin Eurek
+    station: Utopia VI - Moon 22 - Dominations Assembly Plant
+    stationId: 60013069
+    system: Utopia
     type: EventMissionAgent
   Luratene Edmoure:
     corporation: True Power
@@ -67164,6 +67701,9 @@ agents:
     isLocator: false
     level: 4
     name: Luthetion Preque
+    station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
+    stationId: 60013993
+    system: SerpentisPrime
     type: EventMissionAgent
   Luvald Anfrard:
     corporation: Core Complexion Inc.
@@ -67370,6 +67910,9 @@ agents:
     isLocator: false
     level: 1
     name: Mabvrion Atlete
+    station: Elore IV - Moon 1 - Material Acquisition Mining Outpost
+    stationId: 60009430
+    system: Elore
     type: EventMissionAgent
   Machal Asesamy:
     corporation: Amarr Civil Service
@@ -67466,6 +68009,9 @@ agents:
     isLocator: false
     level: 4
     name: Madibe Arnadi
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Madisa Tadabram:
     corporation: Theology Council
@@ -67518,6 +68064,9 @@ agents:
     isLocator: false
     level: 4
     name: Madri Asshala
+    station: Amdonen VIII - Moon 14 - Joint Harvesting Plantation
+    stationId: 60007243
+    system: Amdonen
     type: EventMissionAgent
   Maeed Azzed:
     corporation: Shapeset
@@ -68032,6 +68581,9 @@ agents:
     isLocator: false
     level: 4
     name: Makor Desto
+    station: Illuin III - Republic Parliament Bureau
+    stationId: 60004624
+    system: Illuin
     type: EventMissionAgent
   Makra Ozman:
     corporation: Blood Raiders
@@ -68491,6 +69043,9 @@ agents:
     isLocator: false
     level: 1
     name: Mamin Choonka
+    station: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
+    stationId: 60008650
+    system: SarumPrime
     type: EventMissionAgent
   Mammazin Paral:
     corporation: Ministry of Internal Order
@@ -68521,6 +69076,9 @@ agents:
     isLocator: false
     level: 1
     name: Mamo Guerre
+    station: Ostingele VIII - Moon 3 - FedMart Warehouse
+    stationId: 60010951
+    system: Ostingele
     type: EventMissionAgent
   Mamonaitoh Oichidomon:
     corporation: CBD Corporation
@@ -68672,6 +69230,9 @@ agents:
     isLocator: false
     level: 4
     name: Mandor Neek
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Mandra Gadest:
     corporation: Amarr Trade Registry
@@ -68713,6 +69274,9 @@ agents:
     isLocator: false
     level: 1
     name: Manel Kador
+    station: Kador Prime VI - Moon 1 - Kador Family Bureau
+    stationId: 60008614
+    system: KadorPrime
     type: EventMissionAgent
   Manera Faba:
     corporation: Emperor Family
@@ -69051,6 +69615,9 @@ agents:
     isLocator: false
     level: 1
     name: Maray Ygier
+    station: Ostingele VIII - Moon 3 - FedMart Warehouse
+    stationId: 60010951
+    system: Ostingele
     type: EventMissionAgent
   Marbranner Piasangrei:
     corporation: Republic Fleet
@@ -69136,6 +69703,9 @@ agents:
     isLocator: false
     level: 1
     name: Marera Arghun
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Marerlur Simnika:
     corporation: Minmatar Mining Corporation
@@ -69331,6 +69901,9 @@ agents:
     isLocator: false
     level: 3
     name: Maro Yama
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Maromerie Gelemon:
     corporation: TransStellar Shipping
@@ -69471,6 +70044,9 @@ agents:
     isLocator: false
     level: 4
     name: Marvernois Ruemin
+    station: Orvolle VI - Moon 1 - The Scope Development Studio
+    stationId: 60010636
+    system: Orvolle
     type: EventMissionAgent
   Marveziad Fohtar:
     corporation: Amarr Certified News
@@ -69732,6 +70308,9 @@ agents:
     isLocator: false
     level: 1
     name: Matani Jitainen
+    station: Airkio VII - Moon 3 - Lai Dai Corporation Factory
+    stationId: 60002245
+    system: Airkio
     type: EventMissionAgent
   Mataria Ekta:
     corporation: Genolution
@@ -69806,6 +70385,9 @@ agents:
     isLocator: false
     level: 4
     name: Matna Meri
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Matoh Aketiya:
     corporation: Corporate Police Force
@@ -69869,6 +70451,9 @@ agents:
     isLocator: false
     level: 2
     name: Mattheu Rochet
+    station: Lirsautton IV - Moon 1 - Garoun Investment Bank Depository
+    stationId: 60011506
+    system: Lirsautton
     type: EventMissionAgent
   Mau Aginnault:
     corporation: Federation Navy
@@ -70152,6 +70737,9 @@ agents:
     isLocator: false
     level: 4
     name: Mazed Karadom
+    station: Amdonen VIII - Moon 14 - Joint Harvesting Plantation
+    stationId: 60007243
+    system: Amdonen
     type: EventMissionAgent
   Maziman Etarib:
     corporation: Nurtura
@@ -71348,6 +71936,9 @@ agents:
     isLocator: false
     level: 3
     name: Midoki Urigamu
+    station: Ossa VII - Moon 7 - Propel Dynamics Factory
+    stationId: 60002368
+    system: Ossa
     type: EventMissionAgent
   Miel Karouyan:
     corporation: Noble Appliances
@@ -71411,6 +72002,9 @@ agents:
     isLocator: false
     level: 4
     name: Migart Anunat
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Miguel Maktar:
     corporation: True Power
@@ -71419,6 +72013,9 @@ agents:
     isLocator: false
     level: 4
     name: Miguel Maktar
+    station: 37S-KO VII - True Power Mining Outpost
+    stationId: 60014284
+    system: 37S-KO
     type: EventMissionAgent
   Mih Runit:
     corporation: Civic Court
@@ -71493,6 +72090,9 @@ agents:
     isLocator: false
     level: 2
     name: Mika Etsuya
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Mikaio Hekkiren:
     corporation: Nugoeihuvi Corporation
@@ -71699,6 +72299,9 @@ agents:
     isLocator: false
     level: 4
     name: Minas Iksan
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Minata Khasra:
     corporation: Zoar and Sons
@@ -71839,6 +72442,9 @@ agents:
     isLocator: false
     level: 3
     name: Mintu Oshima
+    station: Passari VI - Echelon Entertainment Development Studio
+    stationId: 60002005
+    system: Passari
     type: EventMissionAgent
   Mirena Dirara:
     corporation: Civic Court
@@ -71880,6 +72486,9 @@ agents:
     isLocator: false
     level: 2
     name: Mirmon Gorgoz
+    station: Yrmori V - Moon 4 - The Leisure Group Development Studio
+    stationId: 60006040
+    system: Yrmori
     type: EventMissionAgent
   Mirose Sahalondri:
     corporation: Amarr Navy
@@ -71998,6 +72607,9 @@ agents:
     isLocator: false
     level: 3
     name: Misnik Sarbaert
+    station: M-MD3B X - Moon 3 - Thukker Mix Factory
+    stationId: 60014059
+    system: M-MD3B
     type: EventMissionAgent
   Misouvon Iques:
     corporation: Pend Insurance
@@ -72116,6 +72728,9 @@ agents:
     isLocator: false
     level: 2
     name: Mitsu Hekken
+    station: Saisio VIII - Moon 20 - Sukuuvestaa Corporation Warehouse
+    stationId: 60002734
+    system: Saisio
     type: EventMissionAgent
   Mitte Archone:
     corporation: Jovian Directorate
@@ -72223,6 +72838,9 @@ agents:
     isLocator: false
     level: 2
     name: Mobas Jouey
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Mobber Angycel:
     corporation: Roden Shipyards
@@ -73243,6 +73861,9 @@ agents:
     isLocator: false
     level: 4
     name: Mourmarie Mone
+    station: Renyn IX - Moon 4 - Federal Intelligence Office Logistic Support
+    stationId: 60011914
+    system: Renyn
     type: EpicArcAgent
   Mourrene Versa:
     corporation: Joint Harvesting
@@ -73812,6 +74433,9 @@ agents:
     isLocator: false
     level: 4
     name: Mutama Czeik
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Mutanen Otsaras:
     corporation: Caldari Steel
@@ -73963,6 +74587,9 @@ agents:
     isLocator: false
     level: 3
     name: Mwaku Ristiger
+    station: Illuin III - Republic Parliament Bureau
+    stationId: 60004624
+    system: Illuin
     type: EventMissionAgent
   Mya Nieurmestre:
     corporation: Impetus
@@ -74103,6 +74730,9 @@ agents:
     isLocator: false
     level: 3
     name: Nabur Verkort
+    station: Rens VI - Moon 8 - Brutor Tribe Treasury
+    stationId: 60004588
+    system: Rens
     type: EventMissionAgent
   Nachi Havahori:
     corporation: Caldari Navy
@@ -74199,6 +74829,9 @@ agents:
     isLocator: false
     level: 2
     name: Nafrid Sharum
+    station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
+    stationId: 60008758
+    system: Tash-MurkonPrime
     type: EventMissionAgent
   Nag Payah:
     corporation: Amarr Trade Registry
@@ -74493,6 +75126,9 @@ agents:
     isLocator: false
     level: 1
     name: Nakkito Ihadechi
+    station: Kisogo VII - State War Academy
+    stationId: 60014659
+    system: Kisogo
     type: EventMissionAgent
   Nakounir Sashni:
     corporation: Ministry of Internal Order
@@ -75139,6 +75775,9 @@ agents:
     isLocator: false
     level: 4
     name: Nassor Tromkurt
+    station: YZ-LQL VI - Moon 19 - Guardian Angels Logistic Support
+    stationId: 60012910
+    system: YZ-LQL
     type: EventMissionAgent
   Nasub Basta:
     corporation: Amarr Constructions
@@ -75784,6 +76423,9 @@ agents:
     isLocator: false
     level: 1
     name: Nemphad Azbias
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Nendezo Hulenedur:
     corporation: Republic Fleet
@@ -75968,6 +76610,9 @@ agents:
     isLocator: false
     level: 4
     name: Neyan Khahsel
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Neyi Karooh:
     corporation: Nurtura
@@ -76218,6 +76863,9 @@ agents:
     isLocator: false
     level: 1
     name: Nikmar Jyran
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Nikpipa Amben:
     corporation: Viziam
@@ -76259,6 +76907,9 @@ agents:
     isLocator: false
     level: 4
     name: Nilf Abruskur
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EpicArcAgent
   Nilinaiken Korika:
     corporation: Genolution
@@ -76278,6 +76929,9 @@ agents:
     isLocator: false
     level: 3
     name: Nilla Elermare
+    station: Alentene VI - Moon 6 - Roden Shipyards Warehouse
+    stationId: 60010300
+    system: Alentene
     type: EventMissionAgent
   Niltasen Onuori:
     corporation: Echelon Entertainment
@@ -76341,6 +76995,9 @@ agents:
     isLocator: false
     level: 4
     name: Nimpor Fatimar
+    station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
+    stationId: 60008758
+    system: Tash-MurkonPrime
     type: EventMissionAgent
   Nina Darrchien:
     corporation: The Sanctuary
@@ -76349,6 +77006,9 @@ agents:
     isLocator: false
     level: 2
     name: Nina Darrchien
+    station: X-7OMU II - Moon 7 - The Sanctuary School
+    stationId: 60014056
+    system: X-7OMU
     type: EventMissionAgent
   Ninail Manartad:
     corporation: Nurtura
@@ -77183,6 +77843,9 @@ agents:
     isLocator: false
     level: 3
     name: Nossa Farad
+    station: Kador Prime VI - Moon 1 - Kador Family Bureau
+    stationId: 60008614
+    system: KadorPrime
     type: EventMissionAgent
   Notaraka Ysen:
     corporation: Ytiri
@@ -77356,6 +78019,9 @@ agents:
     isLocator: false
     level: 5
     name: Numa Fashit
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Numo Humo:
     corporation: Caldari Provisions
@@ -77430,6 +78096,9 @@ agents:
     isLocator: false
     level: 4
     name: Nuo Tuotura
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Nuomo Kaavunin:
     corporation: Kaalakiota Corporation
@@ -77438,6 +78107,9 @@ agents:
     isLocator: false
     level: 4
     name: Nuomo Kaavunin
+    station: Nonni III - Moon 1 - Kaalakiota Corporation Factory
+    stationId: 60000976
+    system: Nonni
     type: EventMissionAgent
   Nuosiken Raulmanen:
     corporation: Ishukone Corporation
@@ -77874,6 +78546,9 @@ agents:
     isLocator: false
     level: 1
     name: Ocho Shusiian
+    station: Paara I - Deep Core Mining Inc. Mining Outpost
+    stationId: 60000610
+    system: Paara
     type: EventMissionAgent
   Ochoras Ueha:
     corporation: Ytiri
@@ -77981,6 +78656,9 @@ agents:
     isLocator: false
     level: 3
     name: Odan Poun
+    station: Sukirah VIII - Moon 5 - Amarr Trade Registry Archives
+    stationId: 60008248
+    system: Sukirah
     type: EventMissionAgent
   Odap Jolammaz:
     corporation: Imperial Academy
@@ -78319,6 +78997,9 @@ agents:
     isLocator: false
     level: 3
     name: Odoosh Teroul
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Odor Bonnvekin:
     corporation: Krusual Tribe
@@ -78426,6 +79107,9 @@ agents:
     isLocator: false
     level: 4
     name: Oduma Pakane
+    station: Nonni III - Moon 1 - Kaalakiota Corporation Factory
+    stationId: 60000976
+    system: Nonni
     type: EventMissionAgent
   Odumeria Amattens:
     corporation: TransStellar Shipping
@@ -78819,6 +79503,9 @@ agents:
     isLocator: false
     level: 1
     name: Oguet Aene
+    station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
+    stationId: 60013993
+    system: SerpentisPrime
     type: EventMissionAgent
   Oguken Saakkatoh:
     corporation: State Protectorate
@@ -79773,6 +80460,9 @@ agents:
     isLocator: false
     level: 4
     name: Oisedia Gync
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Oishenen Nalvola:
     corporation: Sisters of EVE
@@ -80397,6 +81087,9 @@ agents:
     isLocator: false
     level: 3
     name: Oko Alo
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Okogairos Jaarashin:
     corporation: CONCORD
@@ -81207,6 +81900,9 @@ agents:
     isLocator: false
     level: 1
     name: Ollen Alulama
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Ollia Evuksdiko:
     corporation: Republic Justice Department
@@ -82348,6 +83044,9 @@ agents:
     isLocator: false
     level: 2
     name: Oniya Arkimo
+    station: Airkio VII - Moon 3 - Lai Dai Corporation Factory
+    stationId: 60002245
+    system: Airkio
     type: EventMissionAgent
   Onkar Erkikur:
     corporation: Ammatar Fleet
@@ -82565,6 +83264,9 @@ agents:
     isLocator: false
     level: 3
     name: Onreun Coen
+    station: Renyn IX - Moon 4 - Federal Intelligence Office Logistic Support
+    stationId: 60011914
+    system: Renyn
     type: EventMissionAgent
   Ons Gubeber:
     corporation: Ammatar Fleet
@@ -82595,6 +83297,9 @@ agents:
     isLocator: false
     level: 1
     name: Ontaa Jila
+    station: Airkio VII - Moon 3 - Lai Dai Corporation Factory
+    stationId: 60002245
+    system: Airkio
     type: EventMissionAgent
   Onti Isida:
     corporation: Wiyrkomi Corporation
@@ -82779,6 +83484,9 @@ agents:
     isLocator: false
     level: 4
     name: Ophana Zett
+    station: 37S-KO VII - True Power Mining Outpost
+    stationId: 60014284
+    system: 37S-KO
     type: EventMissionAgent
   Ophelame Aubalin:
     corporation: Garoun Investment Bank
@@ -83491,6 +84199,9 @@ agents:
     isLocator: false
     level: 3
     name: Ormon Parsik
+    station: Avair VII - Moon 25 - Theology Council Tribunal
+    stationId: 60008914
+    system: Avair
     type: EventMissionAgent
   Orn Bennolar:
     corporation: Core Complexion Inc.
@@ -83664,6 +84375,9 @@ agents:
     isLocator: false
     level: 4
     name: Oronata Vion
+    station: Korama VI - Moon 10 - Minedrill Mining Outpost
+    stationId: 60000766
+    system: Korama
     type: EventMissionAgent
   Orone Algana:
     corporation: FedMart
@@ -84178,6 +84892,9 @@ agents:
     isLocator: false
     level: 4
     name: Osidei Esama
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Osie Ohmahailen:
     corporation: State War Academy
@@ -85484,6 +86201,9 @@ agents:
     isLocator: false
     level: 4
     name: Ovon Flac
+    station: Orvolle VI - Moon 1 - The Scope Development Studio
+    stationId: 60010636
+    system: Orvolle
     type: EventMissionAgent
   Oyami Kapumara:
     corporation: Ytiri
@@ -85734,6 +86454,9 @@ agents:
     isLocator: false
     level: 1
     name: Ozomi Obanen
+    station: Paara I - Deep Core Mining Inc. Mining Outpost
+    stationId: 60000610
+    system: Paara
     type: EventMissionAgent
   Ozunoa Poskat:
     corporation: Home Guard
@@ -85742,6 +86465,9 @@ agents:
     isLocator: false
     level: 4
     name: Ozunoa Poskat
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Ozur Arfrog:
     corporation: Republic Parliament
@@ -86575,6 +87301,9 @@ agents:
     isLocator: false
     level: 2
     name: Pandon Ardillan
+    station: Orvolle VI - Moon 1 - The Scope Development Studio
+    stationId: 60010636
+    system: Orvolle
     type: EventMissionAgent
   Panen Konihela:
     corporation: Poksu Mineral Group
@@ -87144,6 +87873,9 @@ agents:
     isLocator: false
     level: 1
     name: Pattok Nortul
+    station: M-MD3B IV - Trust Partners Warehouse
+    stationId: 60014374
+    system: M-MD3B
     type: EventMissionAgent
   Paukonsuo Ihoya:
     corporation: Serpentis Corporation
@@ -87350,6 +88082,9 @@ agents:
     isLocator: false
     level: 1
     name: Peeta Waikon
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Pekena Mizzerba:
     corporation: Sarum Family
@@ -87567,6 +88302,9 @@ agents:
     isLocator: false
     level: 2
     name: Penda Rakken
+    station: Illuin III - Republic Parliament Bureau
+    stationId: 60004624
+    system: Illuin
     type: EventMissionAgent
   Peneciete Mouttolouis:
     corporation: Salvation Angels
@@ -88818,6 +89556,9 @@ agents:
     isLocator: false
     level: 4
     name: Pol Pat
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Polarala Opiai:
     corporation: Genolution
@@ -88870,6 +89611,9 @@ agents:
     isLocator: false
     level: 1
     name: Pomari Maara
+    station: Todaki VI - Moon 1 - School of Applied Knowledge
+    stationId: 60004420
+    system: Todaki
     type: EventMissionAgent
   Pome Falian:
     corporation: 24th Imperial Crusade
@@ -88933,6 +89677,9 @@ agents:
     isLocator: false
     level: 4
     name: Pondah Shanjih
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Ponelalie Sabenaret:
     corporation: FedMart
@@ -89084,6 +89831,9 @@ agents:
     isLocator: false
     level: 4
     name: Poreg Murchor
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Porhila Huken:
     corporation: Caldari Provisions
@@ -89377,6 +90127,9 @@ agents:
     isLocator: false
     level: 2
     name: Preaux Gallot
+    station: Bourynes VII - Moon 2 - University of Caille
+    stationId: 60011566
+    system: Bourynes
     type: EventMissionAgent
   Preer Hullaert:
     corporation: Federal Administration
@@ -90341,6 +91094,9 @@ agents:
     isLocator: false
     level: 4
     name: Ragot Parah
+    station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
+    stationId: 60008758
+    system: Tash-MurkonPrime
     type: EventMissionAgent
   Ragtvittak Eraleder:
     corporation: Tribal Liberation Force
@@ -90382,6 +91138,9 @@ agents:
     isLocator: false
     level: 1
     name: Rahli Saronu
+    station: Bagodan I - HZO Refinery Mining Outpost
+    stationId: 60006907
+    system: Bagodan
     type: EventMissionAgent
   Rahoshi Ichinumo:
     corporation: True Power
@@ -90423,6 +91182,9 @@ agents:
     isLocator: false
     level: 2
     name: Raidon Setala
+    station: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
+    stationId: 60003334
+    system: NewCaldari
     type: EventMissionAgent
   Raigaken Arakenda:
     corporation: Guristas
@@ -90595,6 +91357,9 @@ agents:
     isLocator: false
     level: 2
     name: Rakka Tahiri
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Rakkadan Haukono:
     corporation: Hyasyoda Corporation
@@ -90735,6 +91500,9 @@ agents:
     isLocator: false
     level: 3
     name: Ramakell Tikrest
+    station: Teonusude VII - Moon 1 - Vherokior Tribe Treasury
+    stationId: 60004552
+    system: Teonusude
     type: EventMissionAgent
   Ramaku Basta:
     corporation: Archangels
@@ -91072,6 +91840,9 @@ agents:
     isLocator: false
     level: 1
     name: Rasa Jaswelu
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Rasavas Funuruoto:
     corporation: Minedrill
@@ -91201,6 +91972,9 @@ agents:
     isLocator: false
     level: 4
     name: Ratan Saturi
+    station: Gekutami V - Moon 1 - Prompt Delivery Storage
+    stationId: 60000274
+    system: Gekutami
     type: EventMissionAgent
   Rattinck Elelleem:
     corporation: Federal Administration
@@ -91462,6 +92236,9 @@ agents:
     isLocator: false
     level: 1
     name: Ravacesel Roque
+    station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
+    stationId: 60013993
+    system: SerpentisPrime
     type: EventMissionAgent
   Raveeva Astihr:
     corporation: Guristas
@@ -91954,6 +92731,9 @@ agents:
     isLocator: false
     level: 2
     name: Remy Ouche
+    station: Elgoi VI - Moon 1 - Eifyr and Co. Biotech Production
+    stationId: 60005719
+    system: Elgoi
     type: EventMissionAgent
   Renen Kirtikko:
     corporation: Expert Housing
@@ -92006,6 +92786,9 @@ agents:
     isLocator: false
     level: 4
     name: Reqqa Bratesch
+    station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
+    stationId: 60008758
+    system: Tash-MurkonPrime
     type: EventMissionAgent
   Reraka Hemakid:
     corporation: Nurtura
@@ -92146,6 +92929,9 @@ agents:
     isLocator: false
     level: 2
     name: Retin Ariato
+    station: Dantumi IV - Moon 14 - Wiyrkomi Corporation Factory
+    stationId: 60001246
+    system: Dantumi
     type: EventMissionAgent
   Retroken Tari:
     corporation: Perkone
@@ -92440,6 +93226,9 @@ agents:
     isLocator: false
     level: 2
     name: Rie Nissiken
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Rieresh Bhahrnet:
     corporation: Imperial Shipment
@@ -92470,6 +93259,9 @@ agents:
     isLocator: false
     level: 4
     name: Riff Hebian
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EpicArcAgent
   Rigaraz Vashkah:
     corporation: Theology Council
@@ -92544,6 +93336,9 @@ agents:
     isLocator: false
     level: 1
     name: Rilbedur Tjar
+    station: Eram VIII - Moon 13 - Sebiestor Tribe Bureau
+    stationId: 60004480
+    system: Eram
     type: EventMissionAgent
   Rildboko Ereid:
     corporation: Thukker Mix
@@ -92651,6 +93446,9 @@ agents:
     isLocator: false
     level: 1
     name: Riluko Hik
+    station: Hagilur IV - Moon 2 - Minmatar Mining Corporation Mining Outpost
+    stationId: 60005233
+    system: Hagilur
     type: EventMissionAgent
   Rilune Larlelie:
     corporation: Roden Shipyards
@@ -93054,6 +93852,9 @@ agents:
     isLocator: false
     level: 3
     name: Robikk Gurmurkur
+    station: Yrmori V - Moon 4 - The Leisure Group Development Studio
+    stationId: 60006040
+    system: Yrmori
     type: EventMissionAgent
   Rochah Mafah:
     corporation: True Power
@@ -93260,6 +94061,9 @@ agents:
     isLocator: false
     level: 4
     name: Roineron Aviviere
+    station: Atlanins III - Impetus Publisher
+    stationId: 60010486
+    system: Atlanins
     type: EpicArcAgent
   Roinunoikas Vanonari:
     corporation: State Protectorate
@@ -93301,6 +94105,9 @@ agents:
     isLocator: false
     level: 1
     name: Rokuza Taman
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Rolenese Azoenberon:
     corporation: Federal Defense Union
@@ -93364,6 +94171,9 @@ agents:
     isLocator: false
     level: 4
     name: Rolnia Houmar
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Romene Belagers:
     corporation: Bank of Luminaire
@@ -93823,6 +94633,9 @@ agents:
     isLocator: false
     level: 3
     name: Rozor Mothrus
+    station: Hagilur IV - Moon 3 - Boundless Creation Factory
+    stationId: 60005683
+    system: Hagilur
     type: EventMissionAgent
   Rpirmilfelbod Arnranher:
     corporation: Ammatar Fleet
@@ -94216,6 +95029,9 @@ agents:
     isLocator: false
     level: 4
     name: Ruupas Vonni
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Ruus Nikkasi:
     corporation: Ishukone Corporation
@@ -94290,6 +95106,9 @@ agents:
     isLocator: false
     level: 3
     name: Ryoke Aura
+    station: Liekuri VII - Moon 22 - Expert Distribution Warehouse
+    stationId: 60002428
+    system: Liekuri
     type: EventMissionAgent
   Ryssacier Lorumier:
     corporation: Poteque Pharmaceuticals
@@ -94309,6 +95128,9 @@ agents:
     isLocator: false
     level: 1
     name: Ryuki Sakkaro
+    station: Gekutami V - Moon 1 - Prompt Delivery Storage
+    stationId: 60000274
+    system: Gekutami
     type: EventMissionAgent
   Saakanen Nakkomo:
     corporation: Wiyrkomi Corporation
@@ -95637,6 +96459,9 @@ agents:
     isLocator: false
     level: 3
     name: Sanderi Ualmun
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Saner Solbata:
     corporation: Ministry of War
@@ -96041,6 +96866,9 @@ agents:
     isLocator: false
     level: 4
     name: Sari Arkhi
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Sarichen Ateh:
     corporation: Joint Harvesting
@@ -96808,6 +97636,9 @@ agents:
     isLocator: false
     level: 3
     name: Schabs Xalot
+    station: Alentene VI - Moon 6 - Roden Shipyards Warehouse
+    stationId: 60010300
+    system: Alentene
     type: EventMissionAgent
   Schebach Korten:
     corporation: Sebiestor Tribe
@@ -96816,6 +97647,9 @@ agents:
     isLocator: false
     level: 3
     name: Schebach Korten
+    station: Eram VIII - Moon 13 - Sebiestor Tribe Bureau
+    stationId: 60004480
+    system: Eram
     type: EventMissionAgent
   Scheesere Osmalene:
     corporation: Aliastra
@@ -96901,6 +97735,9 @@ agents:
     isLocator: false
     level: 3
     name: Sebast Mathon
+    station: Bourynes VII - Moon 2 - University of Caille
+    stationId: 60011566
+    system: Bourynes
     type: EventMissionAgent
   Sebi Chadara:
     corporation: Nurtura
@@ -97239,6 +98076,9 @@ agents:
     isLocator: false
     level: 1
     name: Selate Kalami
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Selen Iwalula:
     corporation: CBD Sell Division
@@ -97610,6 +98450,9 @@ agents:
     isLocator: false
     level: 1
     name: Sevan Fagided
+    station: Kihtaled VIII - Moon 7 - Royal Khanid Navy Assembly Plant
+    stationId: 60013933
+    system: Kihtaled
     type: EventMissionAgent
   Sevan Gamis:
     corporation: Carthum Conglomerate
@@ -97793,6 +98636,9 @@ agents:
     isLocator: false
     level: 1
     name: Shafra Gulias
+    station: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
+    stationId: 60013858
+    system: KhanidPrime
     type: EventMissionAgent
   Shafrak Seswek:
     corporation: Imperial Armaments
@@ -98383,6 +99229,9 @@ agents:
     isLocator: false
     level: 4
     name: Sheroz Amokin
+    station: Nererut II - Moon 1 - Amarr Constructions Production Plant
+    stationId: 60006100
+    system: Nererut
     type: EventMissionAgent
   Shes Saal:
     corporation: Khanid Transport
@@ -99600,6 +100449,9 @@ agents:
     isLocator: false
     level: 3
     name: Sifor Patrenn
+    station: X-7OMU II - Moon 7 - The Sanctuary School
+    stationId: 60014056
+    system: X-7OMU
     type: EventMissionAgent
   Sigathim Alurva:
     corporation: Ministry of War
@@ -99663,6 +100515,9 @@ agents:
     isLocator: false
     level: 4
     name: Sigulo Ansa
+    station: Arlulf III - Moon 11 - Republic Justice Department Law School
+    stationId: 60004924
+    system: Arlulf
     type: EventMissionAgent
   Sihan Zama:
     corporation: Noble Appliances
@@ -99902,6 +100757,9 @@ agents:
     isLocator: false
     level: 4
     name: Sinas Egassuo
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EpicArcAgent
   Sindalat Yolitsa:
     corporation: Kador Family
@@ -99976,6 +100834,9 @@ agents:
     isLocator: false
     level: 2
     name: Sinogor Nitrut
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Sinosi Itmend:
     corporation: Zoar and Sons
@@ -100083,6 +100944,9 @@ agents:
     isLocator: false
     level: 3
     name: Siringwe Opainen
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Sirita Komosa:
     corporation: Amarr Trade Registry
@@ -100256,6 +101120,9 @@ agents:
     isLocator: false
     level: 2
     name: Sish Iaokih
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Sishanuta Nalvula:
     corporation: Internal Security
@@ -100506,6 +101373,9 @@ agents:
     isLocator: false
     level: 5
     name: Skami Zarton
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Skartufer Arnor:
     corporation: Brutor Tribe
@@ -100558,6 +101428,9 @@ agents:
     isLocator: false
     level: 4
     name: Skia Alfota
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Skiadore Kerane:
     corporation: Archangels
@@ -100731,6 +101604,9 @@ agents:
     isLocator: false
     level: 2
     name: Skurk Tekkurs
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Sladams Houruene:
     corporation: Garoun Investment Bank
@@ -101080,6 +101956,9 @@ agents:
     isLocator: false
     level: 2
     name: Sokei Kirku
+    station: Elonaya X - Moon 21 - Ytiri Storage
+    stationId: 60000310
+    system: Elonaya
     type: EventMissionAgent
   Sokkalen Oraliola:
     corporation: Nugoeihuvi Corporation
@@ -101923,6 +102802,9 @@ agents:
     isLocator: false
     level: 2
     name: Stem Robikar
+    station: Askonak III - Moon 2 - Inherent Implants Biotech Production
+    stationId: 60006943
+    system: Askonak
     type: EventMissionAgent
   Stembakedur Jotane:
     corporation: Republic Security Services
@@ -102172,6 +103054,9 @@ agents:
     isLocator: false
     level: 2
     name: Subin Barama
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Subomous Arraz:
     corporation: Ministry of War
@@ -102400,6 +103285,9 @@ agents:
     isLocator: false
     level: 3
     name: Suky Karkinen
+    station: New Caldari V (Oniteseru) - Moon 2 - House of Records Archives
+    stationId: 60003724
+    system: NewCaldari
     type: EventMissionAgent
   Sula Kate:
     corporation: Caldari Funds Unlimited
@@ -102529,6 +103417,9 @@ agents:
     isLocator: false
     level: 3
     name: Sungur Tyrfin
+    station: Hagilur IV - Moon 3 - Boundless Creation Factory
+    stationId: 60005683
+    system: Hagilur
     type: EventMissionAgent
   Sunika Hopara:
     corporation: Serpentis Corporation
@@ -103141,6 +104032,9 @@ agents:
     isLocator: false
     level: 4
     name: Sydri Namian
+    station: Pimebeka VII - Moon 16 - Carthum Conglomerate Factory
+    stationId: 60006220
+    system: Pimebeka
     type: EventMissionAgent
   Sydweine Ardreas:
     corporation: Trust Partners
@@ -103369,6 +104263,9 @@ agents:
     isLocator: false
     level: 3
     name: Tagrina Angi
+    station: Eram VIII - Moon 13 - Sebiestor Tribe Bureau
+    stationId: 60004480
+    system: Eram
     type: EventMissionAgent
   Tahaki Karin:
     corporation: Society of Conscious Thought
@@ -103850,6 +104747,9 @@ agents:
     isLocator: false
     level: 3
     name: Tamoko Raytio
+    station: Airkio VII - Moon 3 - Lai Dai Corporation Factory
+    stationId: 60002245
+    system: Airkio
     type: EventMissionAgent
   Tamota Outalaakko:
     corporation: Caldari Steel
@@ -104155,6 +105055,9 @@ agents:
     isLocator: false
     level: 3
     name: Tarak Horkund
+    station: Rens VI - Moon 8 - Brutor Tribe Treasury
+    stationId: 60004588
+    system: Rens
     type: EventMissionAgent
   Tarawa Elola:
     corporation: Expert Distribution
@@ -104284,6 +105187,9 @@ agents:
     isLocator: false
     level: 1
     name: Taru Kubona
+    station: Sirseshin VI - Moon 1 - Mercantile Club Bureau
+    stationId: 60003394
+    system: Sirseshin
     type: EventMissionAgent
   Tarurard Golgen:
     corporation: Core Complexion Inc.
@@ -104413,6 +105319,9 @@ agents:
     isLocator: false
     level: 1
     name: Taspar Zolankor
+    station: Safizon II - Moon 1 - Amarr Navy Assembly Plant
+    stationId: 60008368
+    system: Safizon
     type: EventMissionAgent
   Tastoh Kaaserinen:
     corporation: Ishukone Watch
@@ -104564,6 +105473,9 @@ agents:
     isLocator: false
     level: 1
     name: Tatsuo Rahkamo
+    station: 6NJ8-V VI - Moon 6 - Guristas Production Shipyard
+    stationId: 60013261
+    system: 6NJ8-V
     type: EventMissionAgent
   Tattabando Anttunen:
     corporation: Rapid Assembly
@@ -104660,6 +105572,9 @@ agents:
     isLocator: false
     level: 1
     name: Tauma Rikkiryo
+    station: Sirseshin VI - Moon 1 - Mercantile Club Bureau
+    stationId: 60003394
+    system: Sirseshin
     type: EventMissionAgent
   Tava Jopri:
     corporation: Ministry of Internal Order
@@ -104877,6 +105792,9 @@ agents:
     isLocator: false
     level: 1
     name: Tehjus Otsini
+    station: 6NJ8-V VI - Moon 6 - Guristas Production Shipyard
+    stationId: 60013261
+    system: 6NJ8-V
     type: EventMissionAgent
   Tehurita Hijo:
     corporation: House of Records
@@ -104962,6 +105880,9 @@ agents:
     isLocator: false
     level: 3
     name: Tekirye Awazhen
+    station: Poinen V - Moon 12 - Internal Security Assembly Plant
+    stationId: 60003934
+    system: Poinen
     type: EventMissionAgent
   Tekomon Shenji:
     corporation: Expert Distribution
@@ -105058,6 +105979,9 @@ agents:
     isLocator: false
     level: 2
     name: Temer Rugaert
+    station: Eram VIII - Moon 13 - Sebiestor Tribe Bureau
+    stationId: 60004480
+    system: Eram
     type: EventMissionAgent
   Tendfran Aertur:
     corporation: The Leisure Group
@@ -105264,6 +106188,9 @@ agents:
     isLocator: false
     level: 4
     name: Terrus Harkan
+    station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
+    stationId: 60008686
+    system: Kor-AzorPrime
     type: EpicArcAgent
   Tertlaert Auste:
     corporation: Poteque Pharmaceuticals
@@ -105338,6 +106265,9 @@ agents:
     isLocator: false
     level: 4
     name: Teston Hrinz
+    station: 5ZXX-K V - Moon 17 - Mordu's Legion Testing Facilities
+    stationId: 60012580
+    system: 5ZXX-K
     type: EventMissionAgent
   Tetarumi Ahakka:
     corporation: Nugoeihuvi Corporation
@@ -105456,6 +106386,9 @@ agents:
     isLocator: false
     level: 1
     name: Tevis Jak
+    station: 4C-B7X VIII - Moon 1 - Outer Ring Excavations Mining Outpost
+    stationId: 60012583
+    system: 4C-B7X
     type: EpicArcAgent
   Teyrs Naspegier:
     corporation: Bank of Luminaire
@@ -105486,6 +106419,9 @@ agents:
     isLocator: false
     level: 2
     name: Thakor Udokas
+    station: Emrayur III - Moon 1 - Royal Amarr Institute School
+    stationId: 60007702
+    system: Emrayur
     type: EventMissionAgent
   Thamih Urikh:
     corporation: Amarr Civil Service
@@ -105626,6 +106562,9 @@ agents:
     isLocator: false
     level: 3
     name: The Curator
+    station: Avair VII - Moon 25 - Theology Council Tribunal
+    stationId: 60008914
+    system: Avair
     type: EventMissionAgent
   Thellain Arovais:
     corporation: Quafe Company
@@ -105645,6 +106584,9 @@ agents:
     isLocator: false
     level: 2
     name: Them Burkur
+    station: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
+    stationId: 60005053
+    system: Pator
     type: EventMissionAgent
   Thererie Kelbene:
     corporation: Federal Intelligence Office
@@ -105829,6 +106771,9 @@ agents:
     isLocator: false
     level: 4
     name: Thora Desto
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Thora Norn:
     corporation: Republic Fleet
@@ -105892,6 +106837,9 @@ agents:
     isLocator: false
     level: 3
     name: Thumal Ebotiz
+    station: Nakregde II - Amarr Certified News Development Studio
+    stationId: 60007183
+    system: Nakregde
     type: EventMissionAgent
   Tiatulf Klortalmar:
     corporation: Republic Justice Department
@@ -105933,6 +106881,9 @@ agents:
     isLocator: false
     level: 1
     name: Tida Aikato
+    station: Muvolailen X - Moon 3 - CBD Corporation Storage
+    stationId: 60000004
+    system: Muvolailen
     type: EventMissionAgent
   Tidooress Momohsa:
     corporation: DED
@@ -106106,6 +107057,9 @@ agents:
     isLocator: false
     level: 1
     name: Tillen Matsu
+    station: Amsen VI - Moon 1 - Science and Trade Institute School
+    stationId: 60004450
+    system: Amsen
     type: EventMissionAgent
   Tilnar Bhoosh:
     corporation: Ducia Foundry
@@ -106136,6 +107090,9 @@ agents:
     isLocator: false
     level: 3
     name: Timafa Esihiz
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Timeor Otash:
     corporation: Imperial Shipment
@@ -106165,6 +107122,9 @@ agents:
     isLocator: false
     level: 4
     name: Timmothy Sawyr
+    station: Villore VII - Moon 6 - Senate Bureau
+    stationId: 60011602
+    system: Villore
     type: EventMissionAgent
   Timsieuwe Weyllaenalle:
     corporation: Intaki Space Police
@@ -106448,6 +107408,9 @@ agents:
     isLocator: false
     level: 4
     name: Tizeli Reymta
+    station: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
+    stationId: 60012124
+    system: Sasta
     type: EventMissionAgent
   Tjor Pidgur:
     corporation: Jove Navy
@@ -106665,6 +107628,9 @@ agents:
     isLocator: false
     level: 3
     name: Tojawara Saziras
+    station: Nonni III - Home Guard Testing Facilities
+    stationId: 60004000
+    system: Nonni
     type: EventMissionAgent
   Tokaka Junsen:
     corporation: Rapid Assembly
@@ -106915,6 +107881,9 @@ agents:
     isLocator: false
     level: 4
     name: Tomi Hakiro
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Tompsanon Livainon:
     corporation: TransStellar Shipping
@@ -107132,6 +108101,9 @@ agents:
     isLocator: false
     level: 4
     name: Tori Aman
+    station: Kihtaled VIII - Moon 7 - Royal Khanid Navy Assembly Plant
+    stationId: 60013933
+    system: Kihtaled
     type: EventMissionAgent
   Toridar Adden:
     corporation: Core Complexion Inc.
@@ -107239,6 +108211,9 @@ agents:
     isLocator: false
     level: 3
     name: Torval Kerth
+    station: Pimebeka VII - Moon 16 - Carthum Conglomerate Factory
+    stationId: 60006220
+    system: Pimebeka
     type: EventMissionAgent
   Torvas Kojaken:
     corporation: Caldari Constructions
@@ -107588,6 +108563,9 @@ agents:
     isLocator: false
     level: 2
     name: Trex Ameisoure
+    station: Litom III - Salvation Angels Trading Post
+    stationId: 60012778
+    system: Litom
     type: EventMissionAgent
   Tria Asant:
     corporation: Quafe Company
@@ -108608,6 +109586,9 @@ agents:
     isLocator: false
     level: 1
     name: Tzumi Pokkolen
+    station: Hampinen V - Poksu Mineral Group Mining Outpost
+    stationId: 60000646
+    system: Hampinen
     type: EventMissionAgent
   Tzunda Bamuna:
     corporation: Imperial Shipment
@@ -109253,6 +110234,9 @@ agents:
     isLocator: false
     level: 1
     name: Uiswin Aurtur
+    station: Hagilur IV - Moon 2 - Minmatar Mining Corporation Mining Outpost
+    stationId: 60005233
+    system: Hagilur
     type: EventMissionAgent
   Uittakka Ueharis:
     corporation: Poksu Mineral Group
@@ -109909,6 +110893,9 @@ agents:
     isLocator: false
     level: 4
     name: Unnaya Mafir
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Unranuldegur Odbeldur:
     corporation: Vherokior Tribe
@@ -110280,6 +111267,9 @@ agents:
     isLocator: false
     level: 4
     name: Urandi Krilin
+    station: CL-85V IX - Moon 2 - Archangels Assembly Plant
+    stationId: 60012211
+    system: CL-85V
     type: EventMissionAgent
   Uranen Surtilen:
     corporation: Sukuuvestaa Corporation
@@ -110310,6 +111300,9 @@ agents:
     isLocator: false
     level: 4
     name: Urat Mehrekar
+    station: Akhragan VIII - Ministry of War Archives
+    stationId: 60007888
+    system: Akhragan
     type: EventMissionAgent
   Urawarras Arainiki:
     corporation: Ytiri
@@ -111418,6 +112411,9 @@ agents:
     isLocator: false
     level: 1
     name: Vaktan Sido
+    station: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
+    stationId: 60003754
+    system: Perimeter
     type: EventMissionAgent
   Valedt Midalle:
     corporation: The Scope
@@ -111426,6 +112422,9 @@ agents:
     isLocator: false
     level: 4
     name: Valedt Midalle
+    station: Orvolle VI - Moon 1 - The Scope Development Studio
+    stationId: 60010636
+    system: Orvolle
     type: EventMissionAgent
   Valemata Susilakko:
     corporation: Expert Distribution
@@ -111819,6 +112818,9 @@ agents:
     isLocator: false
     level: 4
     name: Varma Fujimo
+    station: Airkio VII - Moon 3 - Lai Dai Corporation Factory
+    stationId: 60002245
+    system: Airkio
     type: EventMissionAgent
   Varn Reideber:
     corporation: Boundless Creation
@@ -112157,6 +113159,9 @@ agents:
     isLocator: false
     level: 1
     name: Vausitte Yrier
+    station: Ostingele VIII - Moon 3 - FedMart Warehouse
+    stationId: 60010951
+    system: Ostingele
     type: EventMissionAgent
   Vautaras Hakkonus:
     corporation: Zainou
@@ -112484,6 +113489,9 @@ agents:
     isLocator: false
     level: 2
     name: Veko Tallaja
+    station: Dantumi IV - Moon 14 - Wiyrkomi Corporation Factory
+    stationId: 60001246
+    system: Dantumi
     type: EventMissionAgent
   Velara Tasule:
     corporation: Zoar and Sons
@@ -112580,6 +113588,9 @@ agents:
     isLocator: false
     level: 1
     name: Vena Saapialen
+    station: Paara I - Deep Core Mining Inc. Mining Outpost
+    stationId: 60000610
+    system: Paara
     type: EventMissionAgent
   Vendalek Manneiri:
     corporation: Sebiestor Tribe
@@ -113193,6 +114204,9 @@ agents:
     isLocator: false
     level: 1
     name: Vianes Ounid
+    station: 37S-KO III - Moon 1 - True Creations Shipyard
+    stationId: 60014149
+    system: 37S-KO
     type: EventMissionAgent
   Vibogi Ekting:
     corporation: Core Complexion Inc.
@@ -114015,6 +115029,9 @@ agents:
     isLocator: false
     level: 2
     name: Vlas Takson
+    station: Abudban X - Moon 10 - Urban Management Bureau Offices
+    stationId: 60005044
+    system: Abudban
     type: EventMissionAgent
   Vlayn Aille:
     corporation: Federal Freight
@@ -115221,6 +116238,9 @@ agents:
     isLocator: false
     level: 1
     name: Wenda Lamort
+    station: Algogille XIII - Federation Navy Testing Facilities
+    stationId: 60011734
+    system: Algogille
     type: EventMissionAgent
   Wente Aisnanaert:
     corporation: Intaki Syndicate
@@ -115284,6 +116304,9 @@ agents:
     isLocator: false
     level: 4
     name: Wessette Gauze
+    station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
+    stationId: 60012859
+    system: SerpentisPrime
     type: EventMissionAgent
   West Ludorim:
     corporation: Sebiestor Tribe
@@ -115292,6 +116315,9 @@ agents:
     isLocator: false
     level: 1
     name: West Ludorim
+    station: Eram VIII - Moon 13 - Sebiestor Tribe Bureau
+    stationId: 60004480
+    system: Eram
     type: EventMissionAgent
   Westes Pacheteur:
     corporation: CONCORD
@@ -115684,6 +116710,9 @@ agents:
     isLocator: false
     level: 4
     name: Wirdar Erazako
+    station: Pator VII (Kulheim) - Moon 1 - Republic Fleet Testing Facilities
+    stationId: 60004744
+    system: Pator
     type: EventMissionAgent
   Wire Cherere:
     corporation: Bank of Luminaire
@@ -116000,6 +117029,9 @@ agents:
     isLocator: false
     level: 4
     name: Wrtuk Formur
+    station: M-MD3B IV - Trust Partners Warehouse
+    stationId: 60014374
+    system: M-MD3B
     type: EventMissionAgent
   Wudgurtar Eindranodur:
     corporation: Republic Security Services
@@ -116206,6 +117238,9 @@ agents:
     isLocator: false
     level: 3
     name: Yada Vinjivas
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EpicArcAgent
   Yadia Itsevyoor:
     corporation: 24th Imperial Crusade
@@ -116917,6 +117952,9 @@ agents:
     isLocator: false
     level: 4
     name: Yekti Kimebu
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Yelos Girgen:
     corporation: Spacelane Patrol
@@ -117101,6 +118139,9 @@ agents:
     isLocator: false
     level: 3
     name: Yka Katori
+    station: 6NJ8-V VII - Moon 2 - Guristas Logistic Support
+    stationId: 60012556
+    system: 6NJ8-V
     type: EventMissionAgent
   Ykken Alanama:
     corporation: Caldari Provisions
@@ -117450,6 +118491,9 @@ agents:
     isLocator: false
     level: 4
     name: Yochuko Eskaila
+    station: Poinen V - Moon 12 - Internal Security Assembly Plant
+    stationId: 60003934
+    system: Poinen
     type: EventMissionAgent
   Yoduzer Afsha:
     corporation: Ducia Foundry
@@ -117535,6 +118579,9 @@ agents:
     isLocator: false
     level: 1
     name: Yoko Pihrava
+    station: Saisio VIII - Moon 20 - Sukuuvestaa Corporation Warehouse
+    stationId: 60002734
+    system: Saisio
     type: EventMissionAgent
   Yolawelle Viette:
     corporation: Astral Mining Inc.
@@ -117884,6 +118931,9 @@ agents:
     isLocator: false
     level: 1
     name: Yoti Haraisha
+    station: KFIE-Z VIII - Moon 18 - Blood Raiders Logistic Support
+    stationId: 60014943
+    system: KFIE-Z
     type: EventMissionAgent
   Yoti Yahta:
     corporation: Carthum Conglomerate
@@ -117958,6 +119008,9 @@ agents:
     isLocator: false
     level: 3
     name: Yru Hatamei
+    station: Airkio IX - Moon 7 - Lai Dai Protection Service Assembly Plant
+    stationId: 60003940
+    system: Airkio
     type: EventMissionAgent
   Ysannync Yvoorlalin:
     corporation: Pend Insurance
@@ -118010,6 +119063,9 @@ agents:
     isLocator: false
     level: 2
     name: Ystvia Lamuette
+    station: Bourynes VII - Moon 2 - University of Caille
+    stationId: 60011566
+    system: Bourynes
     type: EventMissionAgent
   Ytee Ponebins:
     corporation: Chemal Tech
@@ -118447,6 +119503,9 @@ agents:
     isLocator: false
     level: 4
     name: Zabonn Michi
+    station: Korama VI - Moon 10 - Minedrill Mining Outpost
+    stationId: 60000766
+    system: Korama
     type: EventMissionAgent
   Zach Dormondan:
     corporation: Imperial Chancellor
@@ -118466,6 +119525,9 @@ agents:
     isLocator: false
     level: 4
     name: Zach Himun
+    station: Mikhir V - Moon 23 - Imperial Chancellor Archives
+    stationId: 60007732
+    system: Mikhir
     type: EventMissionAgent
   Zaestra Kuramor:
     corporation: Emperor Family
@@ -118474,6 +119536,9 @@ agents:
     isLocator: false
     level: 4
     name: Zaestra Kuramor
+    station: Amarr VIII (Oris) - Emperor Family Academy
+    stationId: 60008494
+    system: Amarr
     type: EventMissionAgent
   Zafarara Fari:
     corporation: Hedion University
@@ -118569,6 +119634,9 @@ agents:
     isLocator: false
     level: 4
     name: Zaknar Cente
+    station: Poitot VI - Moon 17 - Intaki Space Police Assembly Plant
+    stationId: 60013405
+    system: Poitot
     type: EventMissionAgent
   Zakt Alvald:
     corporation: Core Complexion Inc.
@@ -118665,6 +119733,9 @@ agents:
     isLocator: false
     level: 4
     name: Zama Fedas
+    station: Kihtaled VIII - Moon 7 - Royal Khanid Navy Assembly Plant
+    stationId: 60013933
+    system: Kihtaled
     type: EventMissionAgent
   Zamadi Halada:
     corporation: Imperial Armaments
@@ -118816,6 +119887,9 @@ agents:
     isLocator: false
     level: 4
     name: Zar Forari
+    station: Leva IX - Moon 5 - Imperial Shipment Storage
+    stationId: 60007003
+    system: Leva
     type: EventMissionAgent
   Zarghin Shika:
     corporation: Zoar and Sons
@@ -119449,6 +120523,9 @@ agents:
     isLocator: false
     level: 4
     name: Zoun Makui
+    station: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
+    stationId: 60003334
+    system: NewCaldari
     type: EventMissionAgent
   Zuen Carlune:
     corporation: Pend Insurance
@@ -119534,6 +120611,9 @@ agents:
     isLocator: false
     level: 1
     name: Zwod Aden
+    station: Hagilur IV - Moon 2 - Minmatar Mining Corporation Mining Outpost
+    stationId: 60005233
+    system: Hagilur
     type: EventMissionAgent
   exploration:
     corporation: Trust Partners

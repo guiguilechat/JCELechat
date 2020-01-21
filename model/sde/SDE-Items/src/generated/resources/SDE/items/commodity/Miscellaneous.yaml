@@ -3905,6 +3905,15 @@ items:
     price: 10000.0
     published: true
     volume: 0.01
+  Subcranial Nanocontrollers:
+    ExportTaxMultiplier: 1
+    ImportTaxMultiplier: 1
+    id: 53476
+    marketGroup: 20
+    mass: 1.0
+    name: Subcranial Nanocontrollers
+    published: true
+    volume: 1.0
   Survivors:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1

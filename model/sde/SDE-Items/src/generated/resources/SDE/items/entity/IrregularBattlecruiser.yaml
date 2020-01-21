@@ -11,6 +11,12 @@ items:
     name: Deathglow Splendorcook
     published: false
     volume: 118000.0
+  Dragonaurs Drake:
+    id: 53523
+    mass: 1.35E7
+    name: Dragonaurs Drake
+    published: false
+    volume: 252000.0
   Guardian Angels Hanael:
     id: 42129
     mass: 1.09E7

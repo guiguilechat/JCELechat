@@ -11,3 +11,8 @@ items:
     name: ♦ Orca
     published: false
     volume: 1.025E7
+  ♦ Providence:
+    id: 53568
+    mass: 9.0E8
+    name: ♦ Providence
+    published: false

@@ -1773,6 +1773,18 @@ items:
     name: Suntendi Research Outpost
     published: false
     volume: 1150.0
+  Survey Array:
+    id: 53080
+    mass: 100000.0
+    name: Survey Array
+    published: false
+    volume: 1.0E8
+  Survey Ship:
+    id: 53081
+    mass: 10000.0
+    name: Survey Ship
+    published: false
+    volume: 27500.0
   Suspicious Ship Wreck:
     id: 2850
     mass: 10000.0

@@ -35,6 +35,42 @@ items:
     name: High-Grade Mimesis Omega Blueprint
     published: true
     volume: 0.01
+  High-Grade Nirvana Alpha Blueprint:
+    TechLevel: 1
+    id: 53728
+    name: High-Grade Nirvana Alpha Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Nirvana Beta Blueprint:
+    TechLevel: 1
+    id: 53729
+    name: High-Grade Nirvana Beta Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Nirvana Delta Blueprint:
+    TechLevel: 1
+    id: 53730
+    name: High-Grade Nirvana Delta Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Nirvana Epsilon Blueprint:
+    TechLevel: 1
+    id: 53731
+    name: High-Grade Nirvana Epsilon Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Nirvana Gamma Blueprint:
+    TechLevel: 1
+    id: 53732
+    name: High-Grade Nirvana Gamma Blueprint
+    published: true
+    volume: 0.01
+  High-Grade Nirvana Omega Blueprint:
+    TechLevel: 1
+    id: 53733
+    name: High-Grade Nirvana Omega Blueprint
+    published: true
+    volume: 0.01
   High-grade Ascendancy Alpha Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
@@ -147,6 +183,42 @@ items:
     TechLevel: 1
     id: 52796
     name: Mid-Grade Mimesis Omega Blueprint
+    published: true
+    volume: 0.01
+  Mid-Grade Nirvana Alpha Blueprint:
+    TechLevel: 1
+    id: 53722
+    name: Mid-Grade Nirvana Alpha Blueprint
+    published: true
+    volume: 0.01
+  Mid-Grade Nirvana Beta Blueprint:
+    TechLevel: 1
+    id: 53723
+    name: Mid-Grade Nirvana Beta Blueprint
+    published: true
+    volume: 0.01
+  Mid-Grade Nirvana Delta Blueprint:
+    TechLevel: 1
+    id: 53724
+    name: Mid-Grade Nirvana Delta Blueprint
+    published: true
+    volume: 0.01
+  Mid-Grade Nirvana Epsilon Blueprint:
+    TechLevel: 1
+    id: 53725
+    name: Mid-Grade Nirvana Epsilon Blueprint
+    published: true
+    volume: 0.01
+  Mid-Grade Nirvana Gamma Blueprint:
+    TechLevel: 1
+    id: 53726
+    name: Mid-Grade Nirvana Gamma Blueprint
+    published: true
+    volume: 0.01
+  Mid-Grade Nirvana Omega Blueprint:
+    TechLevel: 1
+    id: 53727
+    name: Mid-Grade Nirvana Omega Blueprint
     published: true
     volume: 0.01
   Mid-grade Ascendancy Alpha Blueprint:

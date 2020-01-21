@@ -1545,6 +1545,173 @@ items:
     name: High-grade Jackal Omega
     published: true
     volume: 1.0
+  High-grade Nirvana Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53710
+    marketGroup: 618
+    name: High-grade Nirvana Alpha
+    published: true
+    volume: 1.0
+  High-grade Nirvana Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53711
+    marketGroup: 619
+    name: High-grade Nirvana Beta
+    price: 800000.0
+    published: true
+    volume: 1.0
+  High-grade Nirvana Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53712
+    marketGroup: 621
+    name: High-grade Nirvana Delta
+    price: 800000.0
+    published: true
+    volume: 1.0
+  High-grade Nirvana Epsilon:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53713
+    marketGroup: 622
+    name: High-grade Nirvana Epsilon
+    price: 800000.0
+    published: true
+    volume: 1.0
+  High-grade Nirvana Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53715
+    marketGroup: 620
+    name: High-grade Nirvana Gamma
+    price: 800000.0
+    published: true
+    volume: 1.0
+  High-grade Nirvana Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53714
+    marketGroup: 1506
+    name: High-grade Nirvana Omega
+    price: 800000.0
+    published: true
+    volume: 1.0
   High-grade Snake Alpha:
     DamageMultiplierBonusMaxModifier: 1.0
     DamageMultiplierBonusPerCycleModifier: 1.0
@@ -7110,6 +7277,173 @@ items:
     id: 28807
     marketGroup: 1506
     name: Mid-grade Harvest Omega
+    published: true
+    volume: 1.0
+  Mid-grade Nirvana Alpha:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53704
+    marketGroup: 618
+    name: Mid-grade Nirvana Alpha
+    published: true
+    volume: 1.0
+  Mid-grade Nirvana Beta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53705
+    marketGroup: 619
+    name: Mid-grade Nirvana Beta
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Mid-grade Nirvana Delta:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53706
+    marketGroup: 621
+    name: Mid-grade Nirvana Delta
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Mid-grade Nirvana Epsilon:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53707
+    marketGroup: 622
+    name: Mid-grade Nirvana Epsilon
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Mid-grade Nirvana Gamma:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53708
+    marketGroup: 620
+    name: Mid-grade Nirvana Gamma
+    price: 800000.0
+    published: true
+    volume: 1.0
+  Mid-grade Nirvana Omega:
+    DamageMultiplierBonusMaxModifier: 1.0
+    DamageMultiplierBonusPerCycleModifier: 1.0
+    ImplantSetAngel: 1.0
+    ImplantSetBloodraider: 2.0
+    ImplantSetCaldariNavy: 1.0
+    ImplantSetFederationNavy: 1.0
+    ImplantSetGuristas: 1.0
+    ImplantSetImperialNavy: 1.0
+    ImplantSetLGCaldariNavy: 1.0
+    ImplantSetLGFederationNavy: 1.0
+    ImplantSetLGImperialNavy: 1.0
+    ImplantSetLGRepublicFleet: 1.0
+    ImplantSetMordus: 1.0
+    ImplantSetORE: 1.0
+    ImplantSetRepublicFleet: 1.0
+    ImplantSetSisters: 1.0
+    ImplantSetSyndicate: 1.0
+    ImplantSetThukker: 1.0
+    ImplantSetWarpSpeed: 1.0
+    SetBonusMimesis: 1.0
+    TechLevel: 1
+    id: 53709
+    marketGroup: 1506
+    name: Mid-grade Nirvana Omega
+    price: 800000.0
     published: true
     volume: 1.0
   Mid-grade Nomad Alpha:

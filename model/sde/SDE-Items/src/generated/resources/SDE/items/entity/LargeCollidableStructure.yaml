@@ -2155,12 +2155,6 @@ items:
     name: Supply Depot_event
     published: false
     volume: 1.0E8
-  Survey Array:
-    id: 53080
-    mass: 100000.0
-    name: Survey Array
-    published: false
-    volume: 1.0E8
   Tough Gallente Starbase Control Tower:
     id: 26737
     mass: 100000.0

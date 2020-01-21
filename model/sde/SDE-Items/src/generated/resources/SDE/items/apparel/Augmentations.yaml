@@ -47,6 +47,14 @@ items:
     name: Men's 'Domino Turquoise' Facial Augmentation
     published: true
     volume: 0.1
+  Men's 'Eico Auroralite' Facial Augmentation:
+    Gender: 2
+    id: 53393
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'Eico Auroralite' Facial Augmentation
+    published: true
+    volume: 0.1
   Men's 'Eico Azurbrak' Facial Augmentation:
     Gender: 2
     id: 49678
@@ -111,12 +119,28 @@ items:
     name: Men's 'Mistborne Rime' Augmentation
     published: true
     volume: 0.1
+  Men's 'Oculina Carmina' Facial Augmentation:
+    Gender: 2
+    id: 53394
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'Oculina Carmina' Facial Augmentation
+    published: true
+    volume: 0.1
   Men's 'Rikkadori' Facial Augmentation:
     Gender: 2
     id: 49679
     marketGroup: 1836
     mass: 0.5
     name: Men's 'Rikkadori' Facial Augmentation
+    published: true
+    volume: 0.1
+  Men's 'RubySet TorsoRig' Body Augmentation:
+    Gender: 2
+    id: 53041
+    marketGroup: 1836
+    mass: 0.5
+    name: Men's 'RubySet TorsoRig' Body Augmentation
     published: true
     volume: 0.1
   Men's 'Setcouple' Facial Augmentation:
@@ -191,6 +215,14 @@ items:
     name: Women's 'Domino Turquoise' Facial Augmentation
     published: true
     volume: 0.1
+  Women's 'Eico Auroralite' Facial Augmentation:
+    Gender: 2
+    id: 53386
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Eico Auroralite' Facial Augmentation
+    published: true
+    volume: 0.1
   Women's 'Eico Azurchev' Facial Augmentation:
     Gender: 2
     id: 49669
@@ -255,12 +287,28 @@ items:
     name: Women's 'Mistborne Rime' Augmentation
     published: true
     volume: 0.1
+  Women's 'Oculina Carmina' Facial Augmentation:
+    Gender: 2
+    id: 53385
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'Oculina Carmina' Facial Augmentation
+    published: true
+    volume: 0.1
   Women's 'Openyagi' Facial Augmentation:
     Gender: 3
     id: 41053
     marketGroup: 1836
     mass: 0.1
     name: Women's 'Openyagi' Facial Augmentation
+    published: true
+    volume: 0.1
+  Women's 'RubySet TorsoRig' Body Augmentation:
+    Gender: 2
+    id: 53229
+    marketGroup: 1836
+    mass: 0.5
+    name: Women's 'RubySet TorsoRig' Body Augmentation
     published: true
     volume: 0.1
   Women's 'Shadowglam' Facial Augmentation:

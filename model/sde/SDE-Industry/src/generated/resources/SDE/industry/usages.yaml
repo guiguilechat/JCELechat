@@ -4507,14 +4507,10 @@ usages:
   Abyssal Ballistic Control System:
     reprocess:
       Tritanium: 1351.0
-      Miniature Electronics: 5.0
       Mexallon: 636.0
-      Quantum Microprocessor: 9.0
       Isogen: 4.0
       Zydrine: 14.0
-      Morphite: 5.0
       Megacyte: 4.0
-      Mechanical Parts: 1.0
   Abyssal Damage Control:
     reprocess:
       Tritanium: 1062.0
@@ -21591,6 +21587,14 @@ usages:
       High-Grade Mimesis Epsilon Blueprint: null
       High-Grade Mimesis Gamma Blueprint: null
       High-Grade Mimesis Omega Blueprint: null
+      Mid-Grade Nirvana Alpha Blueprint: null
+      Mid-Grade Nirvana Beta Blueprint: null
+      Mid-Grade Nirvana Delta Blueprint: null
+      Mid-Grade Nirvana Omega Blueprint: null
+      High-Grade Nirvana Alpha Blueprint: null
+      High-Grade Nirvana Beta Blueprint: null
+      High-Grade Nirvana Delta Blueprint: null
+      High-Grade Nirvana Omega Blueprint: null
   Cryptic Data Interface:
     productManuf: !!set
       Cryptic Data Interface Blueprint: null
@@ -34745,6 +34749,12 @@ usages:
       Mid-grade Ascendancy Gamma Blueprint: null
       Mid-grade Ascendancy Omega Blueprint: null
       Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint: null
+      Mid-Grade Nirvana Beta Blueprint: null
+      Mid-Grade Nirvana Gamma Blueprint: null
+      Mid-Grade Nirvana Omega Blueprint: null
+      High-Grade Nirvana Beta Blueprint: null
+      High-Grade Nirvana Gamma Blueprint: null
+      High-Grade Nirvana Omega Blueprint: null
   Gelidus:
     reprocess:
       Heavy Water: 345.0
@@ -38886,6 +38896,24 @@ usages:
       Nocxium: 1.0
       Zydrine: 1.0
       Megacyte: 1.0
+  High-grade Nirvana Alpha:
+    productManuf: !!set
+      High-Grade Nirvana Alpha Blueprint: null
+  High-grade Nirvana Beta:
+    productManuf: !!set
+      High-Grade Nirvana Beta Blueprint: null
+  High-grade Nirvana Delta:
+    productManuf: !!set
+      High-Grade Nirvana Delta Blueprint: null
+  High-grade Nirvana Epsilon:
+    productManuf: !!set
+      High-Grade Nirvana Epsilon Blueprint: null
+  High-grade Nirvana Gamma:
+    productManuf: !!set
+      High-Grade Nirvana Gamma Blueprint: null
+  High-grade Nirvana Omega:
+    productManuf: !!set
+      High-Grade Nirvana Omega Blueprint: null
   High-grade Snake Alpha:
     reprocess:
       Nocxium: 1.0
@@ -43208,7 +43236,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr��� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -44953,7 +44981,7 @@ usages:
       Zydrine: 18.0
       Self-Harmonizing Power Core: 1.0
       Megacyte: 52.0
-  Large C5-L Emergency Shield Overload I:
+  Large C5-L Compact Shield Booster:
     reprocess:
       Mexallon: 597.0
       Isogen: 216.0
@@ -45017,7 +45045,7 @@ usages:
   Large Cargohold Optimization II Blueprint:
     productInvention: !!set
       Large Cargohold Optimization I Blueprint: null
-  Large Clarity Ward Booster I:
+  Large Clarity Ward Enduring Shield Booster:
     reprocess:
       Mexallon: 597.0
       Isogen: 216.0
@@ -50609,7 +50637,7 @@ usages:
       Pyerite: 322.0
       Mexallon: 32.0
       Isogen: 9.0
-  Medium C5-L Emergency Shield Overload I:
+  Medium C5-L Compact Shield Booster:
     reprocess:
       Pyerite: 597.0
       Mexallon: 216.0
@@ -50702,7 +50730,7 @@ usages:
   Medium Cargohold Optimization II Blueprint:
     productInvention: !!set
       Medium Cargohold Optimization I Blueprint: null
-  Medium Clarity Ward Booster I:
+  Medium Clarity Ward Enduring Shield Booster:
     reprocess:
       Pyerite: 597.0
       Mexallon: 216.0
@@ -53497,7 +53525,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr��� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -54763,7 +54791,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr��� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -55777,6 +55805,24 @@ usages:
       Nocxium: 1.0
       Zydrine: 1.0
       Megacyte: 1.0
+  Mid-grade Nirvana Alpha:
+    productManuf: !!set
+      Mid-Grade Nirvana Alpha Blueprint: null
+  Mid-grade Nirvana Beta:
+    productManuf: !!set
+      Mid-Grade Nirvana Beta Blueprint: null
+  Mid-grade Nirvana Delta:
+    productManuf: !!set
+      Mid-Grade Nirvana Delta Blueprint: null
+  Mid-grade Nirvana Epsilon:
+    productManuf: !!set
+      Mid-Grade Nirvana Epsilon Blueprint: null
+  Mid-grade Nirvana Gamma:
+    productManuf: !!set
+      Mid-Grade Nirvana Gamma Blueprint: null
+  Mid-grade Nirvana Omega:
+    productManuf: !!set
+      Mid-Grade Nirvana Omega Blueprint: null
   Mid-grade Nomad Alpha:
     reprocess:
       Nocxium: 1.0
@@ -58463,6 +58509,18 @@ usages:
       High-Grade Mimesis Epsilon Blueprint: null
       High-Grade Mimesis Gamma Blueprint: null
       High-Grade Mimesis Omega Blueprint: null
+      Mid-Grade Nirvana Alpha Blueprint: null
+      Mid-Grade Nirvana Beta Blueprint: null
+      Mid-Grade Nirvana Delta Blueprint: null
+      Mid-Grade Nirvana Epsilon Blueprint: null
+      Mid-Grade Nirvana Gamma Blueprint: null
+      Mid-Grade Nirvana Omega Blueprint: null
+      High-Grade Nirvana Alpha Blueprint: null
+      High-Grade Nirvana Beta Blueprint: null
+      High-Grade Nirvana Delta Blueprint: null
+      High-Grade Nirvana Epsilon Blueprint: null
+      High-Grade Nirvana Gamma Blueprint: null
+      High-Grade Nirvana Omega Blueprint: null
   Motley Compound:
     reprocess:
       Isogen: 40.0
@@ -58916,6 +58974,18 @@ usages:
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
+      Mid-Grade Nirvana Alpha Blueprint: null
+      Mid-Grade Nirvana Beta Blueprint: null
+      Mid-Grade Nirvana Delta Blueprint: null
+      Mid-Grade Nirvana Epsilon Blueprint: null
+      Mid-Grade Nirvana Gamma Blueprint: null
+      Mid-Grade Nirvana Omega Blueprint: null
+      High-Grade Nirvana Alpha Blueprint: null
+      High-Grade Nirvana Beta Blueprint: null
+      High-Grade Nirvana Delta Blueprint: null
+      High-Grade Nirvana Epsilon Blueprint: null
+      High-Grade Nirvana Gamma Blueprint: null
+      High-Grade Nirvana Omega Blueprint: null
   Nanoelectrical Co-Processor:
     reprocess:
       Mexallon: 3.0
@@ -60357,7 +60427,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr��� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -66555,7 +66625,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr��� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -79685,7 +79755,7 @@ usages:
       Pyerite: 2.0
       Mexallon: 35.0
       Isogen: 6.0
-  Small C5-L Emergency Shield Overload I:
+  Small C5-L Compact Shield Booster:
     reprocess:
       Tritanium: 597.0
       Pyerite: 216.0
@@ -79774,7 +79844,7 @@ usages:
   Small Cargohold Optimization II Blueprint:
     productInvention: !!set
       Small Cargohold Optimization I Blueprint: null
-  Small Clarity Ward Booster I:
+  Small Clarity Ward Enduring Shield Booster:
     reprocess:
       Tritanium: 597.0
       Pyerite: 216.0
@@ -88934,6 +89004,12 @@ usages:
       High-Grade Mimesis Epsilon Blueprint: null
       High-Grade Mimesis Gamma Blueprint: null
       High-Grade Mimesis Omega Blueprint: null
+      Mid-Grade Nirvana Alpha Blueprint: null
+      Mid-Grade Nirvana Epsilon Blueprint: null
+      Mid-Grade Nirvana Omega Blueprint: null
+      High-Grade Nirvana Alpha Blueprint: null
+      High-Grade Nirvana Epsilon Blueprint: null
+      High-Grade Nirvana Omega Blueprint: null
   System Scanner I:
     reprocess:
       Tritanium: 1111.0
@@ -91301,6 +91377,12 @@ usages:
       Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint: null
       Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint: null
+      Mid-Grade Nirvana Delta Blueprint: null
+      Mid-Grade Nirvana Epsilon Blueprint: null
+      Mid-Grade Nirvana Gamma Blueprint: null
+      High-Grade Nirvana Delta Blueprint: null
+      High-Grade Nirvana Epsilon Blueprint: null
+      High-Grade Nirvana Gamma Blueprint: null
   Transmitter:
     materialManuf: !!set
       Warp Scrambler II Blueprint: null
@@ -92856,7 +92938,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr��� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -94541,6 +94623,18 @@ usages:
       Mobile Tractor Unit Blueprint: null
       '''Packrat'' Mobile Tractor Unit Blueprint': null
       '''Magpie'' Mobile Tractor Unit Blueprint': null
+      Mid-Grade Nirvana Alpha Blueprint: null
+      Mid-Grade Nirvana Beta Blueprint: null
+      Mid-Grade Nirvana Delta Blueprint: null
+      Mid-Grade Nirvana Epsilon Blueprint: null
+      Mid-Grade Nirvana Gamma Blueprint: null
+      Mid-Grade Nirvana Omega Blueprint: null
+      High-Grade Nirvana Alpha Blueprint: null
+      High-Grade Nirvana Beta Blueprint: null
+      High-Grade Nirvana Delta Blueprint: null
+      High-Grade Nirvana Epsilon Blueprint: null
+      High-Grade Nirvana Gamma Blueprint: null
+      High-Grade Nirvana Omega Blueprint: null
   Uleen Bloodsworn's Tag:
     reprocess:
       Isogen: 2.0
@@ -96864,7 +96958,7 @@ usages:
       Isogen: 1860.0
       Nocxium: 491.0
       Megacyte: 1.0
-  X-Large C5-L Emergency Shield Overload I:
+  X-Large C5-L Compact Shield Booster:
     reprocess:
       Isogen: 597.0
       Nocxium: 216.0
@@ -96889,7 +96983,7 @@ usages:
       Morphite: 8.0
       Zydrine: 18.0
       Superconductors: 8.0
-  X-Large Clarity Ward Booster I:
+  X-Large Clarity Ward Enduring Shield Booster:
     reprocess:
       Isogen: 597.0
       Nocxium: 216.0
@@ -99247,7 +99341,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr��� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -99451,7 +99545,7 @@ usages:
       Megacyte: 46295.0
   ‘Jormungandr’ Explosive Reaper:
     productManuf: !!set
-      ‘Jormungandr��� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
     reprocess:
       Tritanium: 1650078.0
       Pyerite: 1360078.0
@@ -99507,12 +99601,9 @@ usages:
   多米尼克斯级YC117年特别版:
     reprocess:
       Dominix: 1.0
-  幼龙级YC117年���别版:
+  幼龙级YC117年特别版:
     reprocess:
       Drake: 1.0
-  末日沙场级YC117年特别版:
-    reprocess:
-      Armageddon: 1.0
   毒蜥级YC117年特别版:
     reprocess:
       Gila: 1.0
@@ -99525,3 +99616,6 @@ usages:
   马克瑞级YC117年特别版:
     reprocess:
       Machariel: 1.0
+  ��日沙场级YC117年特别版:
+    reprocess:
+      Armageddon: 1.0

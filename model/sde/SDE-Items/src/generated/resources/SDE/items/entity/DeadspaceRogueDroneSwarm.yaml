@@ -59,6 +59,18 @@ items:
     name: Scorpionfly Apis
     published: false
     volume: 20000.0
+  Swarm C:
+    id: 53321
+    mass: 2000000.0
+    name: Swarm C
+    published: false
+    volume: 20000.0
+  Swarm G:
+    id: 53322
+    mass: 2000000.0
+    name: Swarm G
+    published: false
+    volume: 20000.0
   Tarantula Apis:
     id: 10991
     mass: 2000000.0

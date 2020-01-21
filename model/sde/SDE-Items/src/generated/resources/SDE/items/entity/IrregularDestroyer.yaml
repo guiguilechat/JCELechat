@@ -5,6 +5,12 @@ items:
     name: Deathglow Brainjuicer
     published: false
     volume: 28600.0
+  Dragonaurs Cormorant:
+    id: 53527
+    mass: 1700000.0
+    name: Dragonaurs Cormorant
+    published: false
+    volume: 52000.0
   Eosian Warden:
     id: 46345
     mass: 1.09E7

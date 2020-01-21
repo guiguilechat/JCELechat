@@ -67,7 +67,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 617
-    marketGroup: 1619
+    marketGroup: 2702
     mass: 1157000.0
     name: Echo
     published: true
@@ -141,7 +141,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 33079
-    marketGroup: 1619
+    marketGroup: 2702
     mass: 1148000.0
     name: Hematos
     published: true
@@ -287,7 +287,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 615
-    marketGroup: 1619
+    marketGroup: 2702
     mass: 1148000.0
     name: Immolator
     published: true
@@ -511,7 +511,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 33081
-    marketGroup: 1619
+    marketGroup: 2702
     mass: 1163000.0
     name: Taipan
     published: true
@@ -658,7 +658,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 33083
-    marketGroup: 1619
+    marketGroup: 2702
     mass: 1148000.0
     name: Violator
     published: true

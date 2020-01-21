@@ -192,14 +192,6 @@ items:
     name: Dramiel Blueprint
     published: true
     volume: 0.01
-  Echelon Blueprint:
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1
-    id: 3533
-    name: Echelon Blueprint
-    price: 300000.0
-    published: true
-    volume: 0.01
   Endurance Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 2

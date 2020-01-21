@@ -29,6 +29,12 @@ items:
     name: Anti-Stabilizer Drone
     published: false
     volume: 1010000.0
+  Battleship Elite:
+    id: 53326
+    mass: 2.1E7
+    name: Battleship Elite
+    published: false
+    volume: 1010000.0
   Domination Alvus:
     id: 23499
     mass: 2.1E7

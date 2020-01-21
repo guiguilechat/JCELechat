@@ -420,6 +420,14 @@ items:
     name: Men's Amarr 'Loyalist' T-Shirt
     published: true
     volume: 0.1
+  Men's Aurora Universalis T-Shirt:
+    Gender: 2
+    id: 53383
+    marketGroup: 1398
+    mass: 0.5
+    name: Men's Aurora Universalis T-Shirt
+    published: true
+    volume: 0.1
   Men's CONCORD Test Pilot T-Shirt:
     Gender: 1
     id: 37809
@@ -1062,6 +1070,14 @@ items:
     marketGroup: 1406
     mass: 0.5
     name: Women's Amarr 'Loyalist' T-Shirt
+    published: true
+    volume: 0.1
+  Women's Aurora Universalis T-Shirt:
+    Gender: 2
+    id: 53380
+    marketGroup: 1406
+    mass: 0.5
+    name: Women's Aurora Universalis T-Shirt
     published: true
     volume: 0.1
   Women's CONCORD Test Pilot T-Shirt:

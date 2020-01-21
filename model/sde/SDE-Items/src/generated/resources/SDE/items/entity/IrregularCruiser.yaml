@@ -29,6 +29,22 @@ items:
     name: Destructor Alvum
     published: false
     volume: 60.0
+  Dragonaurs Caracal:
+    id: 53525
+    mass: 1.191E7
+    name: Dragonaurs Caracal
+    published: false
+    volume: 92000.0
+  Dragonaurs Moa:
+    id: 53526
+    mass: 1.2E7
+    name: Dragonaurs Moa
+    published: false
+  Dragonaurs Osprey Navy Issue:
+    id: 53524
+    mass: 1.178E7
+    name: Dragonaurs Osprey Navy Issue
+    published: false
   Drifter Strike Cruiser:
     id: 47722
     mass: 1000000.0

@@ -137,12 +137,6 @@ items:
     name: ♦ Maulus
     published: false
     volume: 23000.0
-  ♦ Medusa:
-    id: 43636
-    mass: 1200000.0
-    name: ♦ Medusa
-    published: false
-    volume: 17500.0
   ♦ Merlin:
     id: 46070
     mass: 997000.0
@@ -245,9 +239,9 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  ��� Kestrel:
-    id: 43563
-    mass: 1113000.0
-    name: ��� Kestrel
+  �� Medusa:
+    id: 43636
+    mass: 1200000.0
+    name: �� Medusa
     published: false
-    volume: 19700.0
+    volume: 17500.0

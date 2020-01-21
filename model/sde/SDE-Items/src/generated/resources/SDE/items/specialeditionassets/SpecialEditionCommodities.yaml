@@ -705,6 +705,133 @@ items:
     name: Federation Grand Prix Silver Package
     published: true
     volume: 10000.0
+  Festival Battlecruiser SKINs and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53509
+    marketGroup: 1661
+    name: Festival Battlecruiser SKINs and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Battleship SKINs, HyperCore and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53514
+    marketGroup: 1661
+    name: Festival Battleship SKINs, HyperCore and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Calm Dark Filament and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53492
+    name: Festival Calm Dark Filament and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Calm Electrical Filament and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53516
+    name: Festival Calm Electrical Filament and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Calm Gamma Filament and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53495
+    name: Festival Calm Gamma Filament and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Calm Gamma Filament, T-Shirt and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53506
+    name: Festival Calm Gamma Filament, T-Shirt and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Cap and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53498
+    marketGroup: 1661
+    name: Festival Cap and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Cruiser SKINs, Calm Firestorm Filament and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53505
+    name: Festival Cruiser SKINs, Calm Firestorm Filament and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Destroyer SKINs and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53491
+    marketGroup: 1661
+    name: Festival Destroyer SKINs and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Exploration Suit and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53496
+    marketGroup: 1661
+    name: Festival Exploration Suit and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Facial Augmentation and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53513
+    marketGroup: 1661
+    name: Festival Facial Augmentation and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Fireworks Crate:
+    CpuMultiplier: 1.0
+    id: 53494
+    marketGroup: 1661
+    name: Festival Fireworks Crate
+    published: true
+    volume: 4.0
+  Festival Frigate SKINs and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53486
+    marketGroup: 1661
+    name: Festival Frigate SKINs and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival HyperCore and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53512
+    marketGroup: 1661
+    name: Festival HyperCore and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival HyperCore, Body Augmentation and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53508
+    marketGroup: 1661
+    name: Festival HyperCore, Body Augmentation and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Skill Points and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53517
+    marketGroup: 1661
+    name: Festival Skill Points and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Skill Points, Calm Electrical Filament and Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53511
+    name: Festival Skill Points, Calm Electrical Filament and Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Snowballs Crate:
+    CpuMultiplier: 1.0
+    id: 53488
+    marketGroup: 1661
+    name: Festival Snowballs Crate
+    published: true
+    volume: 4.0
+  Festival Tier 1 Filament Crate:
+    CpuMultiplier: 1.0
+    id: 53490
+    marketGroup: 1661
+    name: Festival Tier 1 Filament Crate
+    published: true
+    volume: 4.0
   Festive Firecrackers:
     CpuMultiplier: 1.0
     id: 37879
@@ -1714,6 +1841,14 @@ items:
     name: Tarot of St. Jamyl
     published: true
     volume: 1.0
+  Templis Dragonaurs Log 1220107-VC47:
+    CpuMultiplier: 1.0
+    id: 53846
+    marketGroup: 1661
+    mass: 1.0
+    name: Templis Dragonaurs Log 1220107-VC47
+    published: true
+    volume: 0.1
   Ten Most Wanted Slavers:
     CpuMultiplier: 1.0
     id: 48592
@@ -1849,6 +1984,14 @@ items:
     name: Vial of Mikramurka
     published: true
     volume: 1.0
+  Vimoksha Chorus Log 1220108-TD53:
+    CpuMultiplier: 1.0
+    id: 53851
+    marketGroup: 1661
+    mass: 1.0
+    name: Vimoksha Chorus Log 1220108-TD53
+    published: true
+    volume: 0.1
   Vincent Pryce’s Warp Disruption Field Generator:
     CpuMultiplier: 1.0
     id: 34429
@@ -1915,6 +2058,13 @@ items:
     name: YC118 Succession Trial Champion’s Decree – House Kador
     published: true
     volume: 0.01
+  YC118 Succession Trial Champion’s Decree – House Khanid:
+    CpuMultiplier: 1.0
+    id: 37894
+    marketGroup: 1661
+    name: YC118 Succession Trial Champion’s Decree – House Khanid
+    published: true
+    volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Kor-Azor:
     CpuMultiplier: 1.0
     id: 37895
@@ -1934,13 +2084,6 @@ items:
     id: 37889
     marketGroup: 1661
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
-    published: true
-    volume: 0.01
-  YC118 Succession Trial Champion���s Decree – House Khanid:
-    CpuMultiplier: 1.0
-    id: 37894
-    marketGroup: 1661
-    name: YC118 Succession Trial Champion���s Decree – House Khanid
     published: true
     volume: 0.01
   YC121 Guardian's Gala Ticket:

@@ -47,3 +47,8 @@ items:
     name: ♦ Occator
     published: false
     volume: 390000.0
+  ♦ Providence:
+    id: 53570
+    mass: 1.35E7
+    name: ♦ Providence
+    published: false

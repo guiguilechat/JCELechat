@@ -43,6 +43,7 @@ items:
     CanCloak: 1
     CanFitShipGroup01: 833
     CanFitShipGroup02: 898
+    CanFitShipType1: 11019
     ConsumptionQuantity: 500
     ConsumptionType: 16273
     Cpu: 50.0

@@ -41,6 +41,18 @@ items:
     name: COSMOS Viral Infector Drone
     published: false
     volume: 60.0
+  Cruiser:
+    id: 53324
+    mass: 100000.0
+    name: Cruiser
+    published: false
+    volume: 60.0
+  Cruiser Elite:
+    id: 53325
+    mass: 100000.0
+    name: Cruiser Elite
+    published: false
+    volume: 60.0
   Destructor Alvum:
     id: 18082
     mass: 100000.0

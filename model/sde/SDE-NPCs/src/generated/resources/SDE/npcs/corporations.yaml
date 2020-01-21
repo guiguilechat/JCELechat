@@ -20292,6 +20292,16 @@ corporations:
     - 16273
     - 16274
     name: Outer Ring Prospecting
+  PKN Cryptographic:
+    concordRate: 0.8
+    faction: Caldari State
+    id: 1000299
+    name: PKN Cryptographic
+  PKN Interstellar:
+    concordRate: 0.8
+    faction: Caldari State
+    id: 1000300
+    name: PKN Interstellar
   Paladin Survey Force:
     concordRate: 0.8
     faction: Amarr Empire
@@ -28032,11 +28042,6 @@ corporations:
     - 16076
     - 16172
     name: Tash-Murkon Family
-  Templis Dragonaurs:
-    concordRate: 0.8
-    faction: Caldari State
-    id: 1000197
-    name: Templis Dragonaurs
   The Convocation of Triglav:
     faction: Triglavian Collective
     id: 1000298

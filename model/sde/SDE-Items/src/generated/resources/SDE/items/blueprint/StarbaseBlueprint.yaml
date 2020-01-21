@@ -109,7 +109,6 @@ items:
   Cynosural Generator Array Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2788
-    marketGroup: 1342
     name: Cynosural Generator Array Blueprint
     price: 2.5E8
     published: true
@@ -117,7 +116,6 @@ items:
   Cynosural System Jammer Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2789
-    marketGroup: 1343
     name: Cynosural System Jammer Blueprint
     price: 2.5E8
     published: true
@@ -183,7 +181,6 @@ items:
   Jump Bridge Blueprint:
     IndustryBlueprintRank: 80.0
     id: 2800
-    marketGroup: 1346
     name: Jump Bridge Blueprint
     price: 2.5E8
     published: true

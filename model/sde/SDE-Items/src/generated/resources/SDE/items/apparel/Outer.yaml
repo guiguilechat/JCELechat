@@ -583,6 +583,14 @@ items:
     name: Men's ORE Claim Surveyor Suit
     published: true
     volume: 0.5
+  Men's Polar Aurora Exploration Suit:
+    Gender: 2
+    id: 53382
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Polar Aurora Exploration Suit
+    published: true
+    volume: 0.1
   Men's Republic Fleet Ordnance Jacket:
     Gender: 2
     id: 46674
@@ -1487,6 +1495,14 @@ items:
     marketGroup: 1405
     mass: 0.5
     name: Women's ORE Claim Surveyor Suit
+    published: true
+    volume: 0.1
+  Women's Polar Aurora Exploration Suit:
+    Gender: 2
+    id: 53357
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Polar Aurora Exploration Suit
     published: true
     volume: 0.1
   Women's Republic Fleet Ordnance Jacket:
