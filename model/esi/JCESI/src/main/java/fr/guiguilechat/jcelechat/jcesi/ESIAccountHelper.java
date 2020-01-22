@@ -228,6 +228,12 @@ public class ESIAccountHelper {
 	 */
 	protected static String getAuthLine(String appAuth, String transmitData) {
 		try {
+			if (appAuth == null) {
+				throw new UnsupportedOperationException("can't auth with null appAuth");
+			}
+			if (transmitData == null) {
+				throw new UnsupportedOperationException("can't auth with null transmitData");
+			}
 			String url = "https://login.eveonline.com/oauth/token";
 			URL target = new URL(url);
 			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
@@ -241,10 +247,15 @@ public class ESIAccountHelper {
 			wr.close();
 			int responseCode = con.getResponseCode();
 			if (responseCode != 200) {
+				logger.error("while fetching url=" + url + " properties=" + con.getRequestProperties() + " appAuth=" + appAuth
+						+ " transmit=" + transmitData + " : response="
+						+ responseCode + " ");
 				System.err.println("response is " + responseCode);
 				System.err.println("properties are " + con.getRequestProperties());
-				System.err.println("returned error :");
-				new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(System.err::println);
+				if (con.getErrorStream() != null) {
+					System.err.println("returned error :");
+					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(System.err::println);
+				}
 				return null;
 			} else {
 				return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
