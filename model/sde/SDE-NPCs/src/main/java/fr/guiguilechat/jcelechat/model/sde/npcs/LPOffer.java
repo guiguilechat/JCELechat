@@ -71,4 +71,9 @@ public class LPOffer {
 	public String name;
 	public int id;
 
+	@Override
+	public String toString() {
+		return name;
+	}
+
 }
