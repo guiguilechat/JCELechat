@@ -7,7 +7,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems_cost_indices;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 
 public class Industry {
 
@@ -16,7 +16,7 @@ public class Industry {
 
 	public final G_IDCAccess con;
 
-	private ObsMapHolderImpl<Integer, IndustryIndices> indicesMap = null;
+	private ObsMapHolder<Integer, IndustryIndices> indicesMap = null;
 
 	public Industry(G_IDCAccess conn) {
 		con = conn;
@@ -26,7 +26,7 @@ public class Industry {
 		if (indicesMap == null) {
 			synchronized (this) {
 				if (indicesMap == null) {
-					indicesMap = ObsMapHolderImpl.toMap(ESIStatic.INSTANCE.cache.industry.systems(), r -> {
+					indicesMap = ESIStatic.INSTANCE.cache.industry.systems().toMap(r -> {
 						return r.solar_system_id;
 					}, IndustryIndices::new);
 				}

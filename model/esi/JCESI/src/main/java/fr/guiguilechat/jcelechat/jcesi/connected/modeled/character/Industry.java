@@ -5,7 +5,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_blueprints_location_flag;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 
 public class Industry {
@@ -87,7 +86,8 @@ public class Industry {
 		if (blueprints == null) {
 			synchronized (this) {
 				if (blueprints == null) {
-					blueprints = ObsMapHolderImpl.toMap(con.raw.cache.characters.blueprints(con.characterId()), b -> b.item_id,
+					blueprints = con.raw.cache.characters.blueprints(con.characterId())
+							.toMap(b -> b.item_id,
 							this::convertBlueprint);
 				}
 			}
