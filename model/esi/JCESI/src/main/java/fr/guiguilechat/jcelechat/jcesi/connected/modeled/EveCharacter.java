@@ -1,12 +1,23 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag.AutoFit;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag.Deliveries;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag.Hangar;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag.HangarAll;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag.Locked;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag.ShipHangar;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag.Unlocked;
+
 import java.time.OffsetDateTime;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Attributes;
@@ -273,6 +284,11 @@ public class EveCharacter {
 	// assets
 	//
 
+	public ObsListHolder<R_get_characters_character_id_assets> getAssetsList() {
+		// caching is already present at the cache level.
+		return con.raw.cache.characters.assets(con.characterId());
+	}
+
 	// locationid->typeid->number
 	private ObsMapHolderImpl<Long, ObservableMap<Integer, Integer>> cachedAssets = null;
 
@@ -359,6 +375,63 @@ public class EveCharacter {
 				om.putAll(e.getValue());
 			}
 		}
+	}
+
+	private ObsMapHolder<Long, Map<Integer, Integer>> availableAssets = null;
+
+	public ObsMapHolder<Long, Map<Integer, Integer>> getAvailableAssets() {
+		if (availableAssets == null) {
+			ObsListHolder<R_get_characters_character_id_assets> assetList = getAssetsList();
+			synchronized (assetList) {
+				if (availableAssets == null) {
+					ObservableMap<Long, Map<Integer, Integer>> internal = FXCollections.observableMap(new LinkedHashMap<>());
+					ObsMapHolderImpl<Long, Map<Integer, Integer>> ret = new ObsMapHolderImpl<>(internal);
+					assetList.follow(l -> {
+						Map<Long, Map<Integer, Integer>> newmap = availableAssetsByLocation(l);
+						internal.keySet().retainAll(newmap.keySet());
+						internal.putAll(newmap);
+						ret.dataReceived();
+					});
+				}
+			}
+		}
+		return availableAssets;
+	}
+
+	private static final HashSet<get_characters_character_id_assets_location_flag> availableAssetsFlags = new HashSet<>(
+			Arrays.asList(AutoFit, Deliveries, Hangar, HangarAll, Locked, ShipHangar, Unlocked));
+
+	/**
+	 * filter and group the assets from an asset lists
+	 *
+	 * @param assets
+	 *          the list of assets
+	 * @return the map locationid -> typeid -> qtty
+	 */
+	public static Map<Long, Map<Integer, Integer>> availableAssetsByLocation(
+			Iterable<R_get_characters_character_id_assets> assets) {
+		// remove all the items that have a bad location_flag
+		R_get_characters_character_id_assets[] itemsArr = StreamSupport.stream(assets.spliterator(),
+				false)
+				.filter(asset -> !asset.is_singleton
+						&& availableAssetsFlags
+						.contains(asset.location_flag))
+				.toArray(R_get_characters_character_id_assets[]::new);
+
+		// we make the map of itemid->locations. if a location is actually an
+		// asset, we iteratively map it to this asset's location instead
+		Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
+				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (l1, l2) -> l1));
+		Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
+			Long ret = e.getValue();
+			while (baseLocationMap.containsKey(ret)) {
+				ret = baseLocationMap.get(ret);
+			}
+			return ret;
+		}));
+		Map<Long, Map<Integer, Integer>> ret = Stream.of(itemsArr)
+				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), EveCharacter::makeMap, EveCharacter::mergeMap));
+		return ret;
 	}
 
 	private static Map<Integer, Integer> makeMap(R_get_characters_character_id_assets asset) {

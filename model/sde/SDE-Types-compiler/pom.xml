@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.guiguilechat.jcelechat.model</groupId>
+		<artifactId>sde</artifactId>
+		<version>5.1.1</version>
+	</parent>
+	<artifactId>SDE-Types-compiler</artifactId>
+	<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+	<description>Generate classes corresponding to the dogma structure of the Static Data Export from CCP.
+This module is designed to be used pre-compile time in order to load the SDE from CCP and generate both the classes and the corresponding classes data.
+At the moment it creates classes for items in the SDE, considering their attributes.</description>
+	<name>SDE-Types-compiler</name>
+	<dependencies>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>SDE-Raw</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>fr.lelouet.tools</groupId>
+			<artifactId>Compilation</artifactId>
+		</dependency>
+	</dependencies>
+</project>

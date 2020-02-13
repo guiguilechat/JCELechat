@@ -19,10 +19,10 @@ import org.yaml.snakeyaml.constructor.SafeConstructor;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
-import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
-import fr.guiguilechat.jcelechat.model.sde.items.types.Blueprint;
+import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
+import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 import fr.lelouet.tools.settings.yaml.CleanRepresenter;
 import fr.lelouet.tools.settings.yaml.YAMLTools;
 
@@ -56,7 +56,7 @@ public class LootAnalysis {
 			ArrayList<Object> containsBP = new ArrayList<>();
 			e.loots.forEach((id, nb) -> {
 				totalDrop.put(id, totalDrop.getOrDefault(id, 0) + nb);
-				Item t = ItemIndex.getItem(id);
+				EveType t = TypeIndex.getType(id);
 				if (t != null) {
 					if (t.getCategory().equals(Blueprint.METACAT)) {
 						containsBP.add(null);

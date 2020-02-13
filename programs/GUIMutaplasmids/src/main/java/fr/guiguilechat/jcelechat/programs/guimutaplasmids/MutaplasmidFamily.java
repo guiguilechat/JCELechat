@@ -13,8 +13,8 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
-import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.mutaplasmids.Muta1MN;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.mutaplasmids.MutaDisrupt;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.mutaplasmids.MutaScram;
@@ -30,7 +30,7 @@ import javafx.beans.value.ObservableNumberValue;
  */
 public abstract class MutaplasmidFamily {
 
-	public final Set<Item> allowedItems;
+	public final Set<EveType> allowedItems;
 
 	public static enum MutaStr {
 		DECAYED, GRAVID, UNSTABLE, ABNORMAL;
@@ -56,7 +56,7 @@ public abstract class MutaplasmidFamily {
 	private Map<Attribute, double[]> maxmults = null;
 	private Map<MutaStr, Integer> strIDs = new HashMap<>();
 
-	protected MutaplasmidFamily(Stream<? extends Item> allowedItems, Object[][] data) {
+	protected MutaplasmidFamily(Stream<? extends EveType> allowedItems, Object[][] data) {
 
 		this.allowedItems = Collections.unmodifiableSet(allowedItems.collect(Collectors.toSet()));
 		// System.err.println("allowed items are " + this.allowedItems);
@@ -107,9 +107,9 @@ public abstract class MutaplasmidFamily {
 			return highRangeValues;
 		}
 
-		private Item item;
+		private EveType item;
 
-		public Item item() {
+		public EveType item() {
 			return item;
 		}
 
@@ -168,7 +168,7 @@ public abstract class MutaplasmidFamily {
 		return results;
 	}
 
-	protected ModifiedItem modify(Item item, MutaStr str) {
+	protected ModifiedItem modify(EveType item, MutaStr str) {
 		ModifiedItem ret = new ModifiedItem();
 		ret.item = item;
 		ret.strength = str;

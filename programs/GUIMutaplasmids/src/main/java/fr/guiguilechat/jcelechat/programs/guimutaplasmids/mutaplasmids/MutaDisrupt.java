@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.programs.guimutaplasmids.mutaplasmids;
 
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.Cpu;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.MaxRange;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.WarpScrambler;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.types.module.WarpScrambler;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily;
 
 public class MutaDisrupt extends MutaplasmidFamily {

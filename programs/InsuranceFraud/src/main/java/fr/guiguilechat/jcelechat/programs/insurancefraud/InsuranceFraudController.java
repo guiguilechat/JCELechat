@@ -15,15 +15,15 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
-import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.MetaLevel;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.items.types.Asteroid;
-import fr.guiguilechat.jcelechat.model.sde.items.types.Ship;
-import fr.guiguilechat.jcelechat.model.sde.items.types.asteroid.Ice;
+import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
+import fr.guiguilechat.jcelechat.model.sde.types.Ship;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Ice;
 import fr.guiguilechat.tools.PriceCellFactory;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -66,7 +66,7 @@ public class InsuranceFraudController {
 		public HashMap<String, Double> requiredOres = new HashMap<>();
 
 		public InsuranceAnalyzis(R_get_insurance_prices prices) {
-			Ship item = (Ship) ItemIndex.getItem(prices.type_id);
+			Ship item = (Ship) TypeIndex.getType(prices.type_id);
 			if (item != null) {
 				name.set(item.name);
 				published = true;
@@ -302,7 +302,8 @@ public class InsuranceFraudController {
 				ArrayList<MaterialReq> requiredMats = bpo.manufacturing.materials;
 				if (requiredMats != null) {
 					ret.isks = costMult * requiredMats.parallelStream()
-							.mapToDouble(mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(ItemIndex.getItem(mat.name).id))
+							.mapToDouble(
+									mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(TypeIndex.getType(mat.name).id))
 							.sum();
 					double produced = bpo.manufacturing.products.get(0).quantity * bpo.manufacturing.products.get(0).probability;
 					Map<String, Double> mapMat = requiredMats.stream().collect(Collectors.toMap(req -> req.name,

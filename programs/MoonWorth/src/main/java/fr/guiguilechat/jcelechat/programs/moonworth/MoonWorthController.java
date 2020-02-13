@@ -10,18 +10,18 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionTypeID;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
-import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionQuantityNeeded;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionTypeID;
-import fr.guiguilechat.jcelechat.model.sde.items.types.Asteroid;
-import fr.guiguilechat.jcelechat.model.sde.items.types.Material;
-import fr.guiguilechat.jcelechat.model.sde.items.types.material.IceProduct;
-import fr.guiguilechat.jcelechat.model.sde.items.types.material.Mineral;
-import fr.guiguilechat.jcelechat.model.sde.items.types.material.MoonMaterials;
 import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
+import fr.guiguilechat.jcelechat.model.sde.types.Material;
+import fr.guiguilechat.jcelechat.model.sde.types.material.IceProduct;
+import fr.guiguilechat.jcelechat.model.sde.types.material.Mineral;
+import fr.guiguilechat.jcelechat.model.sde.types.material.MoonMaterials;
 import fr.guiguilechat.tools.JFXTools;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
@@ -84,8 +84,8 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
 				double ret = 0;
-				for (Entry<String, Double> e : IndustryUsage.load().get(ItemIndex.getItem(typeID).name).reprocess.entrySet()) {
-					Material mat = (Material) ItemIndex.getItem(e.getKey());
+				for (Entry<String, Double> e : IndustryUsage.load().get(TypeIndex.getType(typeID).name).reprocess.entrySet()) {
+					Material mat = (Material) TypeIndex.getType(e.getKey());
 					double matval = controller.matReprocess(mat) * BO.value(mat.id, controller);
 					ret += matval;
 				}
@@ -96,8 +96,8 @@ public class MoonWorthController {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
 				double ret = 0;
-				for (Entry<String, Double> e : IndustryUsage.load().get(ItemIndex.getItem(typeID).name).reprocess.entrySet()) {
-					Material mat = (Material) ItemIndex.getItem(e.getKey());
+				for (Entry<String, Double> e : IndustryUsage.load().get(TypeIndex.getType(typeID).name).reprocess.entrySet()) {
+					Material mat = (Material) TypeIndex.getType(e.getKey());
 					double matval = controller.matReprocess(mat) * MONTH.value(mat.id, controller);
 					ret += matval;
 				}
@@ -265,7 +265,7 @@ public class MoonWorthController {
 			}
 			String[] split = line.split("\t");
 			if (split.length == 7 && split[0].length() == 0) {
-				Asteroid astero = (Asteroid) ItemIndex.getItem(Integer.parseInt(split[3]));
+				Asteroid astero = (Asteroid) TypeIndex.getType(Integer.parseInt(split[3]));
 				Double qtty = Double.parseDouble(split[2]);
 				lastMoon.put(astero, qtty);
 			}
@@ -283,7 +283,7 @@ public class MoonWorthController {
 		Asteroid.METACAT.load().values().stream().filter(ast -> ast.marketGroup != 0).forEach(ast -> {
 			double volumicPrice = eval.value(ast.id, this) / ast.volume;
 			try {
-				Asteroid compressed = (Asteroid) ItemIndex.getItem(ast.attribute(CompressionTypeID.INSTANCE).intValue());
+				Asteroid compressed = (Asteroid) TypeIndex.getType(ast.attribute(CompressionTypeID.INSTANCE).intValue());
 				double compressionRequired = ast.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
 				double volumicprice2 = eval.value(compressed.id, this) / ast.volume / compressionRequired;
 				if (volumicprice2 > volumicPrice) {

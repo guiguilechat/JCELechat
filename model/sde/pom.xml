@@ -12,13 +12,13 @@
 	<name>sde</name>
 	<packaging>pom</packaging>
 	<modules>
-		<module>SDE-Items</module>
-		<module>SDE-Locations</module>
-		<module>SDE-Raw</module>
-		<module>SDE-Items-compiler</module>
 		<module>SDE-Full</module>
-		<module>SDE-NPCs</module>
 		<module>SDE-Industry</module>
+		<module>SDE-Locations</module>
+		<module>SDE-NPCs</module>
+		<module>SDE-Raw</module>
+		<module>SDE-Types</module>
+		<module>SDE-Types-compiler</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>

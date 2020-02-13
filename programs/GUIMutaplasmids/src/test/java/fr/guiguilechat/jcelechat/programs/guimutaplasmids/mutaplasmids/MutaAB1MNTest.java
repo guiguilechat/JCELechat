@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.programs.guimutaplasmids.mutaplasmids;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily.MutaStr;
 
 public class MutaAB1MNTest {

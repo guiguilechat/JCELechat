@@ -7,9 +7,9 @@ import java.util.Map.Entry;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
+import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
-import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
 import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.tools.JFXTools;
@@ -57,25 +57,25 @@ public class PraisalController {
 			marketHolder2 = new SimpleObjectProperty<>();
 
 	@FXML
-	private TableView<Entry<Item, Integer>> table;
+	private TableView<Entry<EveType, Integer>> table;
 
 	@FXML
-	private TableColumn<Entry<Item, Integer>, String> itemname;
+	private TableColumn<Entry<EveType, Integer>, String> itemname;
 
 	@FXML
-	private TableColumn<Entry<Item, Integer>, Double> itemavgvol;
+	private TableColumn<Entry<EveType, Integer>, Double> itemavgvol;
 
 	@FXML
-	private TableColumn<Entry<Item, Integer>, Double> itembuyback1;
+	private TableColumn<Entry<EveType, Integer>, Double> itembuyback1;
 
 	@FXML
-	private TableColumn<Entry<Item, Integer>, Double> itembuybackr1;
+	private TableColumn<Entry<EveType, Integer>, Double> itembuybackr1;
 
 	@FXML
-	private TableColumn<Entry<Item, Integer>, Double> itembuyback2;
+	private TableColumn<Entry<EveType, Integer>, Double> itembuyback2;
 
 	@FXML
-	private TableColumn<Entry<Item, Integer>, Double> itembuybackr2;
+	private TableColumn<Entry<EveType, Integer>, Double> itembuybackr2;
 
 	@FXML
 	private void initialize() {
@@ -171,7 +171,7 @@ public class PraisalController {
 		table.sort();
 	}
 
-	public DoubleBinding reprocessValue(Item item, int qtty, Property<RegionalMarket> marketholder, DoubleProperty tax,
+	public DoubleBinding reprocessValue(EveType item, int qtty, Property<RegionalMarket> marketholder, DoubleProperty tax,
 			DoubleProperty volumicprice) {
 		IndustryUsage usage = IndustryUsage.load().get(item.name);
 		double totalVol = 0;
@@ -184,7 +184,7 @@ public class PraisalController {
 		};
 		if (usage != null) {
 			for (Entry<String, Double> e : usage.reprocess.entrySet()) {
-				Item product = ItemIndex.getItem(e.getKey());
+				EveType product = TypeIndex.getType(e.getKey());
 				if (product == null) {
 					System.err.println("can't find item " + e.getKey());
 					continue;
@@ -201,11 +201,11 @@ public class PraisalController {
 		return totalPrice.multiply(tax.divide(100).negate().add(1.0)).subtract(volumicprice.multiply(totalVol));
 	}
 
-	public static Map<Item, Integer> parse(String list) {
-		HashMap<Item, Integer> item2qtty = new HashMap<>();
+	public static Map<EveType, Integer> parse(String list) {
+		HashMap<EveType, Integer> item2qtty = new HashMap<>();
 		for (String line : list.split("\n")) {
 			String[] arr = line.split("\t");
-			Item it = ItemIndex.getItem(arr[0]);
+			EveType it = TypeIndex.getType(arr[0]);
 			if (it != null && arr[1].length() > 0) {
 				item2qtty.put(it, Integer.parseInt(arr[1].replaceAll("[^0-9]", "")) + item2qtty.getOrDefault(it, 0));
 			}

@@ -1,10 +1,10 @@
 package fr.guiguilechat.jcelechat.programs.guimutaplasmids.mutaplasmids;
 
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.Cpu;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.SpeedFactor;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.PropulsionModule;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.types.module.PropulsionModule;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily;
 
 public class Muta1MN extends MutaplasmidFamily {

@@ -12,7 +12,7 @@
   <dependencies>
   	<dependency>
   		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-  		<artifactId>SDE-Items</artifactId>
+  		<artifactId>SDE-Types</artifactId>
   		<version>${project.version}</version>
   	</dependency>
   	<dependency>

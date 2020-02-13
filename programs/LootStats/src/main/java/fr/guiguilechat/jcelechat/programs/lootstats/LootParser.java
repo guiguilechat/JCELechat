@@ -14,8 +14,8 @@ import java.util.HashSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
+import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 
 public class LootParser {
 
@@ -70,7 +70,7 @@ public class LootParser {
 						state = 0;
 					} else {
 						String[] tokens = line.split("\\t");
-						Item t = ItemIndex.getItem(tokens[0]);
+						EveType t = TypeIndex.getType(tokens[0]);
 						if (t == null) {
 							if (undecoded.add(tokens[0])) {
 								if (!isFilenamePrinted) {

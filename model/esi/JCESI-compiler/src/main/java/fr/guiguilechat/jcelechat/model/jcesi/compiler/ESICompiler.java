@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.writer.JCMWriter;
+import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.FetchTranslator.OpType;
 import io.swagger.models.ArrayModel;
@@ -45,7 +46,7 @@ public class ESICompiler {
 		File dir = new File(args[1]);
 		delDir(dir);
 		dir.mkdirs();
-		new JCMWriter(cm).build(dir);
+		new JCMWriter(cm).build(dir, (IProgressTracker) null);
 		logger.info("compiled esi in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 

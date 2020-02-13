@@ -1,13 +1,30 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.AutoFit;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG1;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG2;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG3;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG4;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG5;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG6;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG7;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Deliveries;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Hangar;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.HangarAll;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Locked;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.ShipHangar;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Unlocked;
+
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
 import org.slf4j.Logger;
 
@@ -157,25 +174,26 @@ public class Corporation {
 				case SYSTEM:
 					// the location_id is a system :
 					// this is our structure
-					sysasset = getSystemAsset(ret, resolved.name);
+					sysasset = ret.computeIfAbsent(resolved.name,k-> new SystemAsset());
 					sysasset.owned.put(Location.resolve(con, folder.asset.item_id).name, folder);
 					break;
 				case STRUCTURE:
 					// location_id is a structure, that we don't own
 					if (resolved.ref == null) {
 						// we can't resolved the structure. it's in system "unresolved"
-						sysasset = getSystemAsset(ret, "unresolved");
+						sysasset =ret.computeIfAbsent("unresolved",k-> new SystemAsset());
 					} else {
 						// structure is resolved. get its system.
-						sysasset = getSystemAsset(ret,
-								Location.resolve(con, ((R_get_universe_structures_structure_id) resolved.ref).solar_system_id).name);
+						String name = Location.resolve(con, ((R_get_universe_structures_structure_id) resolved.ref).solar_system_id).name;
+						sysasset = ret.computeIfAbsent(name, k -> new SystemAsset());
 					}
 					sysasset.rent.put(resolved.name, folder);
 					break;
 				case STATION:
 					// this is a hangar we rent in a station
 					R_get_universe_stations_station_id station = (R_get_universe_stations_station_id) resolved.ref;
-					sysasset = getSystemAsset(ret, Location.resolve(con, station.system_id).name);
+					String name = Location.resolve(con, station.system_id).name;
+					sysasset = ret.computeIfAbsent(name, k -> new SystemAsset());
 					sysasset.rent.put(resolved.name, folder);
 					break;
 				default:
@@ -185,16 +203,6 @@ public class Corporation {
 		}
 		return ret;
 	}
-
-	protected static SystemAsset getSystemAsset(Map<String, SystemAsset> data, String name) {
-		SystemAsset ret = data.get(name);
-		if (ret == null) {
-			ret = new SystemAsset();
-			data.put(name, ret);
-		}
-		return ret;
-	}
-
 	/**
 	 *
 	 * @return the location->typeid->quantity
@@ -241,6 +249,62 @@ public class Corporation {
 			logger.warn("while getting assets", e);
 		}
 		return assets;
+	}
+
+	private ObsMapHolder<Long, Map<Integer, Integer>> availableAssets = null;
+
+	public ObsMapHolder<Long, Map<Integer, Integer>> getAvailableAssets() {
+		if (availableAssets == null) {
+			ObsListHolder<R_get_corporations_corporation_id_assets> assetList = getAssetsList();
+			synchronized (assetList) {
+				if (availableAssets == null) {
+					ObservableMap<Long, Map<Integer, Integer>> internal = FXCollections.observableMap(new LinkedHashMap<>());
+					ObsMapHolderImpl<Long, Map<Integer, Integer>> ret = new ObsMapHolderImpl<>(
+							internal);
+					assetList.follow(l -> {
+						Map<Long, Map<Integer, Integer>> newmap = availableAssetsByLocation(l);
+						internal.keySet().retainAll(newmap.keySet());
+						internal.putAll(newmap);
+						ret.dataReceived();
+					});
+				}
+			}
+		}
+		return availableAssets;
+	}
+
+	private static final HashSet<get_corporations_corporation_id_assets_location_flag> availableAssetsFlags = new HashSet<>(
+			Arrays.asList(AutoFit, CorpSAG1, CorpSAG2, CorpSAG3, CorpSAG4, CorpSAG5, CorpSAG6, CorpSAG7, Deliveries, Hangar,
+					HangarAll, Locked, ShipHangar, Unlocked));
+
+	/**
+	 * filter and group the assets from an asset lists
+	 *
+	 * @param assets
+	 *          the list of assets
+	 * @return the map locationid -> typeid -> qtty
+	 */
+	public static Map<Long, Map<Integer, Integer>> availableAssetsByLocation(
+			Iterable<R_get_corporations_corporation_id_assets> assets) {
+		// remove all the items that have a bad location_flag
+		R_get_corporations_corporation_id_assets[] itemsArr = StreamSupport.stream(assets.spliterator(), false)
+				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(asset.location_flag))
+				.toArray(R_get_corporations_corporation_id_assets[]::new);
+
+		// we make the map of itemid->locations. if a location is actually an
+		// asset, we iteratively map it to this asset's location instead
+		Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
+				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (l1, l2) -> l1));
+		Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
+			Long ret = e.getValue();
+			while (baseLocationMap.containsKey(ret)) {
+				ret = baseLocationMap.get(ret);
+			}
+			return ret;
+		}));
+		Map<Long, Map<Integer, Integer>> ret = Stream.of(itemsArr)
+				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
+		return ret;
 	}
 
 	private static Map<Integer, Integer> makeMap(R_get_corporations_corporation_id_assets asset) {

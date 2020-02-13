@@ -3,11 +3,11 @@ package fr.guiguilechat.jcelechat.programs.oreworth;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
-import fr.guiguilechat.jcelechat.model.sde.items.ItemIndex;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionQuantityNeeded;
-import fr.guiguilechat.jcelechat.model.sde.items.types.Asteroid;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
+import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import javafx.beans.property.Property;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.SimpleObjectProperty;
@@ -78,7 +78,7 @@ public class OreWorthController {
 
 	protected double mineVolume(Asteroid ore) {
 		if (ore.name.startsWith("Compressed ")) {
-			Asteroid basic = (Asteroid) ItemIndex.getItem(ore.OreBasicType);
+			Asteroid basic = (Asteroid) TypeIndex.getType(ore.OreBasicType);
 			return basic.volume * basic.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
 		}
 		return ore.volume;

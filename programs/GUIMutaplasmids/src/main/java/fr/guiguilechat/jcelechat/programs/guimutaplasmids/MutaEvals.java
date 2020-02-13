@@ -6,7 +6,7 @@ import java.util.function.Function;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
-import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily.ModifiedItem;
 import fr.guiguilechat.jcelechat.programs.guimutaplasmids.MutaplasmidFamily.MutaStr;
