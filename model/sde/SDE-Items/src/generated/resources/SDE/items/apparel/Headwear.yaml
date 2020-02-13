@@ -202,11 +202,11 @@ items:
     name: Men's ‘Liberator’ Cap (Minmatar Republic)
     published: true
     volume: 0.1
-  Men's ‘Protector’ Beret (Caldari State):
+  Men's ‘Protector�� Beret (Caldari State):
     Gender: 1
     id: 42736
     marketGroup: 1943
-    name: Men's ‘Protector’ Beret (Caldari State)
+    name: Men's ‘Protector�� Beret (Caldari State)
     published: true
     volume: 0.1
   Men’s ‘Crusader’ Beret (Amarr Empire):
@@ -440,11 +440,11 @@ items:
     name: Women's YC119 Yoiul Festival Cap
     published: true
     volume: 0.1
-  Women's ‘Defender�� Beret (Gallente Federation):
+  Women's ‘Defender’ Beret (Gallente Federation):
     Gender: 3
     id: 42709
     marketGroup: 1943
-    name: Women's ‘Defender�� Beret (Gallente Federation)
+    name: Women's ‘Defender’ Beret (Gallente Federation)
     published: true
     volume: 0.1
   Women's ‘Liberator’ Beret (Minmatar Republic):

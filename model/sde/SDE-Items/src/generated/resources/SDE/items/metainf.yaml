@@ -21196,14 +21196,14 @@ id2name:
   34454: Archive Sentry Tower
   34455: Impaired Archive Sentry Tower
   34456: Angel Fence
-  34457: ��日沙场级YC117年特别版
-  34458: 末日沙场级YC117年特别版蓝图
+  34457: 末日沙场级YC117年特别版
+  34458: 末日沙场级YC117年特别版蓝���
   34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
   34461: 马克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
-  34463: 响尾蛇级YC117年特别版
-  34464: 响尾蛇���YC117年特别版蓝图
+  34463: 响���蛇级YC117年特别版
+  34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
@@ -21213,11 +21213,11 @@ id2name:
   34471: 灾难级YC117年特别版
   34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
-  34474: 幼龙级YC117年特别版��图
+  34474: 幼龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
   34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
-  34478: 银鹰级YC117年特别版��图
+  34478: 银��级YC117年特别版蓝图
   34479: 伊什塔级YC117年特别版
   34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
@@ -28447,7 +28447,7 @@ id2name:
   42706: Women's 'Outlaw' Coat (Blood Raiders extra red)
   42707: Women's 'Sterling' Dress Blouse (Blood Raider)
   42708: Men's Beret (Blood Raiders)
-  42709: Women's ‘Defender�� Beret (Gallente Federation)
+  42709: Women's ‘Defender’ Beret (Gallente Federation)
   42710: Men's Federation Grand Prix 'Pit Stop' Cap
   42711: Cap Male Green
   42712: Men's ‘Liberator’ Beret (Minmatar Republic)
@@ -28474,7 +28474,7 @@ id2name:
   42733: Women's Beret (Blood Raiders)
   42734: Women's 'Sable' Cap (Black)
   42735: Cap Female Orange
-  42736: Men's ‘Protector’ Beret (Caldari State)
+  42736: Men's ‘Protector�� Beret (Caldari State)
   42737: Beret Female Concord
   42738: Women's ‘Liberator’ Beret (Minmatar Republic)
   42739: Men's ‘Defender’ Beret (Gallente Federation)
@@ -28565,7 +28565,7 @@ id2name:
   42838: Evasive Maneuvers Charge
   42839: Interdiction Maneuvers Charge
   42840: Rapid Deployment Charge
-  42841: ♦ Tormentor
+  42841: �� Tormentor
   42842: ♦ Inquisitor
   42843: ♦ Executioner
   42844: Amarr Apostle
@@ -29216,7 +29216,7 @@ id2name:
   43577: ♦ Maulus
   43578: ♦ Tristan
   43579: ♦ Thorax
-  43580: ��� Exequror
+  43580: ♦ Exequror
   43581: ♦ Celestis
   43582: ♦ Vexor
   43583: ♦ Megathron
@@ -29265,7 +29265,7 @@ id2name:
   43633: ♦ Dramiel
   43634: ♦ Swordspine
   43635: ♦ Fury
-  43636: �� Medusa
+  43636: ♦ Medusa
   43638: ♦ Lynx
   43640: Empire Civilian Container
   43641: ♦ Cynabal
@@ -30516,7 +30516,7 @@ id2name:
   45051: Amarr CA Destroyer
   45053: Test Asteroid 1
   45054: Test Asteroid 2
-  45055: �� Bhaalgorn
+  45055: ♦ Bhaalgorn
   45056: ♦ Apocalypse
   45057: Amarr CA Cruiser
   45060: Vintage Frigate Blueprints
@@ -32163,7 +32163,7 @@ id2name:
   47191: Men's Capsuleer Elite XV Cap
   47192: Women's Capsuleer Elite XV T-Shirt
   47193: Women's Capsuleer Elite XV Cap
-  47194: ♦ test_drone_damage
+  47194: ��� test_drone_damage
   47195: ♦ test_drone_logi
   47196: ♦ test_damage
   47197: ♦ test_ewar
@@ -53848,7 +53848,7 @@ name2group:
   Men's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
   Men's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Liberator’ Cap (Minmatar Republic): apparel/Headwear
-  Men's ‘Protector’ Beret (Caldari State): apparel/Headwear
+  Men's ‘Protector�� Beret (Caldari State): apparel/Headwear
   Men's “Mirelle” Upwell Executive Spectacles: apparel/Eyewear
   Men’s ‘Crusader’ Beret (Amarr Empire): apparel/Headwear
   Mercenary Commander: entity/MissionGenericCruisers
@@ -64160,7 +64160,7 @@ name2group:
   Women's YC119 Yoiul Festival Cap: apparel/Headwear
   Women's YC119 Yoiul Festival Pants: apparel/Bottoms
   Women's YC119 Yoiul Festival T-shirt: apparel/Tops
-  Women's ‘Defender�� Beret (Gallente Federation): apparel/Headwear
+  Women's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
   Women's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Women's ‘Liberator’ Cap (Minmatar Republic): apparel/Headwear
   Women's ‘Protector’ Beret (Caldari State): apparel/Headwear
@@ -64711,6 +64711,7 @@ name2group:
   ♦ Drake: entity/NPCBattlecruiser
   ♦ Dramiel: entity/NPCFrigate
   ♦ Executioner: entity/NPCFrigate
+  ♦ Exequror: entity/NPCCruiser
   ♦ Fury: entity/NPCFrigate
   ♦ Gila: entity/NPCCruiser
   ♦ Griffin: entity/NPCFrigate
@@ -64730,6 +64731,7 @@ name2group:
   ♦ Mammoth: entity/NPCMiningHauler
   ♦ Mastodon: entity/NPCMiningHauler
   ♦ Maulus: entity/NPCFrigate
+  ♦ Medusa: entity/NPCFrigate
   ♦ Megathron: entity/NPCBattleship
   ♦ Merlin: entity/NPCFrigate
   ♦ Moa: entity/NPCCruiser
@@ -64759,7 +64761,6 @@ name2group:
   ♦ Swordspine: entity/NPCFrigate
   ♦ Tempest: entity/NPCBattleship
   ♦ Thorax: entity/NPCCruiser
-  ♦ Tormentor: entity/NPCFrigate
   ♦ Tristan: entity/NPCFrigate
   ♦ Typhoon: entity/NPCBattleship
   ♦ Venture: entity/NPCMiningFrigate
@@ -64770,9 +64771,7 @@ name2group:
   ♦ Worm: entity/NPCFrigate
   ♦ test_boss: entity/NPCBattleship
   ♦ test_damage: entity/NPCFrigate
-  ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  �� Bhaalgorn: entity/NPCBattleship
-  �� Medusa: entity/NPCFrigate
-  ��� Exequror: entity/NPCCruiser
+  �� Tormentor: entity/NPCFrigate
+  ��� test_drone_damage: entity/NPCFrigate

@@ -137,6 +137,12 @@ items:
     name: ♦ Maulus
     published: false
     volume: 23000.0
+  ♦ Medusa:
+    id: 43636
+    mass: 1200000.0
+    name: ♦ Medusa
+    published: false
+    volume: 17500.0
   ♦ Merlin:
     id: 46070
     mass: 997000.0
@@ -191,12 +197,6 @@ items:
     name: ♦ Swordspine
     published: false
     volume: 21120.0
-  ♦ Tormentor:
-    id: 42841
-    mass: 1080000.0
-    name: ♦ Tormentor
-    published: false
-    volume: 24398.0
   ♦ Tristan:
     id: 43578
     mass: 956000.0
@@ -221,12 +221,6 @@ items:
     name: ♦ test_damage
     published: false
     volume: 27289.0
-  ♦ test_drone_damage:
-    id: 47194
-    mass: 4000.0
-    name: ♦ test_drone_damage
-    published: false
-    volume: 5.0
   ♦ test_drone_logi:
     id: 47195
     mass: 4000.0
@@ -239,9 +233,15 @@ items:
     name: ♦ test_ewar
     published: false
     volume: 27289.0
-  �� Medusa:
-    id: 43636
-    mass: 1200000.0
-    name: �� Medusa
+  �� Tormentor:
+    id: 42841
+    mass: 1080000.0
+    name: �� Tormentor
     published: false
-    volume: 17500.0
+    volume: 24398.0
+  ��� test_drone_damage:
+    id: 47194
+    mass: 4000.0
+    name: ��� test_drone_damage
+    published: false
+    volume: 5.0

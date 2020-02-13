@@ -31402,3 +31402,321 @@ offers:
         itemname: Triglavian Survey Database
         quantity: 250
       lp: 20000
+  16416:
+    id: 16416
+    name: Mid-grade Nirvana Alpha(BPC)
+    product:
+      itemid: 53704
+      itemname: Mid-grade Nirvana Alpha
+      quantity: 1
+    requirements:
+      isk: 7500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 48
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 257
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 326
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 357
+      lp: 7500
+  16417:
+    id: 16417
+    name: Mid-grade Nirvana Beta(BPC)
+    product:
+      itemid: 53705
+      itemname: Mid-grade Nirvana Beta
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 69
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 251
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 326
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 372
+      lp: 10000
+  16418:
+    id: 16418
+    name: Mid-grade Nirvana Delta(BPC)
+    product:
+      itemid: 53706
+      itemname: Mid-grade Nirvana Delta
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 94
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 253
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 532
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 543
+      lp: 25000
+  16419:
+    id: 16419
+    name: Mid-grade Nirvana Epsilon(BPC)
+    product:
+      itemid: 53707
+      itemname: Mid-grade Nirvana Epsilon
+      quantity: 1
+    requirements:
+      isk: 45000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 103
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 259
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 642
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 757
+      lp: 45000
+  16420:
+    id: 16420
+    name: Mid-grade Nirvana Gamma(BPC)
+    product:
+      itemid: 53708
+      itemname: Mid-grade Nirvana Gamma
+      quantity: 1
+    requirements:
+      isk: 15000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 88
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 261
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 414
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 532
+      lp: 15000
+  16421:
+    id: 16421
+    name: Mid-grade Nirvana Omega(BPC)
+    product:
+      itemid: 53709
+      itemname: Mid-grade Nirvana Omega
+      quantity: 1
+    requirements:
+      isk: 85000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 110
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 255
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 366
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 392
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 412
+      lp: 85000
+  16423:
+    id: 16423
+    name: High-grade Nirvana Alpha(BPC)
+    product:
+      itemid: 53710
+      itemname: High-grade Nirvana Alpha
+      quantity: 1
+    requirements:
+      isk: 23000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 79
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 515
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 542
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 594
+      lp: 23625
+  16424:
+    id: 16424
+    name: High-grade Nirvana Beta(BPC)
+    product:
+      itemid: 53711
+      itemname: High-grade Nirvana Beta
+      quantity: 1
+    requirements:
+      isk: 32000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 114
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 503
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 542
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 620
+      lp: 31500
+  16425:
+    id: 16425
+    name: High-grade Nirvana Delta(BPC)
+    product:
+      itemid: 53712
+      itemname: High-grade Nirvana Delta
+      quantity: 1
+    requirements:
+      isk: 75000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 157
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 497
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 888
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 906
+      lp: 78750
+  16426:
+    id: 16426
+    name: High-grade Nirvana Epsilon(BPC)
+    product:
+      itemid: 53713
+      itemname: High-grade Nirvana Epsilon
+      quantity: 1
+    requirements:
+      isk: 140000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 172
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 527
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 1070
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 1261
+      lp: 141750
+  16427:
+    id: 16427
+    name: High-grade Nirvana Gamma(BPC)
+    product:
+      itemid: 53715
+      itemname: High-grade Nirvana Gamma
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 146
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 531
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 691
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 887
+      lp: 47250
+  16428:
+    id: 16428
+    name: High-grade Nirvana Omega(BPC)
+    product:
+      itemid: 53714
+      itemname: High-grade Nirvana Omega
+      quantity: 1
+    requirements:
+      isk: 265000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 183
+      - itemid: 17136
+        itemname: Ukomi Superconductors
+        quantity: 499
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 609
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 654
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 687
+      lp: 267750

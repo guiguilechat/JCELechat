@@ -2246,7 +2246,9 @@ public interface G_ICOAccess
      * Get character assets
      * <p>
      * Return a list of the characters assets<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 3600 seconds<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/assets/)
      * </p>
      * 
      * @param character_id
@@ -2279,7 +2281,8 @@ public interface G_ICOAccess
     /**
      * Respond to an event
      * <p>
-     * Set your response status to an event
+     * Set your response status to an event<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#PUT-/characters/{character_id}/calendar/{event_id}/)
      * </p>
      * 
      * @param character_id
@@ -2376,7 +2379,9 @@ public interface G_ICOAccess
      * <p>
      * Return a list of the corporation assets<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director
+     * Requires one of the following EVE corporation role(s): Director<br />
+     * Warning: This route has an upgrade available<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/assets/)
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES here}

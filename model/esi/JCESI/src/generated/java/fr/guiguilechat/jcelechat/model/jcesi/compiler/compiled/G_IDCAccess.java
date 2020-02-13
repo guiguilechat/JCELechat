@@ -393,7 +393,7 @@ public interface G_IDCAccess
      * Get a single killmail
      * <p>
      * Return a single killmail from its ID and hash<br />
-     * This route is cached for up to 1209600 seconds
+     * This route is cached for up to 30758400 seconds
      * </p>
      * 
      * @param killmail_hash

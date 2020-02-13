@@ -99592,7 +99592,7 @@ usages:
   伊什塔级YC117年特别版:
     reprocess:
       Ishtar: 1.0
-  响尾蛇级YC117年特别版:
+  响���蛇级YC117年特别版:
     reprocess:
       Rattlesnake: 1.0
   地狱天使级YC117年特别版:
@@ -99604,6 +99604,9 @@ usages:
   幼龙级YC117年特别版:
     reprocess:
       Drake: 1.0
+  末日沙场级YC117年特别版:
+    reprocess:
+      Armageddon: 1.0
   毒蜥级YC117年特别版:
     reprocess:
       Gila: 1.0
@@ -99616,6 +99619,3 @@ usages:
   马克瑞级YC117年特别版:
     reprocess:
       Machariel: 1.0
-  ��日沙场级YC117年特别版:
-    reprocess:
-      Armageddon: 1.0

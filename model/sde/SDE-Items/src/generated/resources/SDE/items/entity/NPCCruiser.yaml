@@ -59,6 +59,12 @@ items:
     name: ♦ DED Special Operation Captain
     published: false
     volume: 101000.0
+  ♦ Exequror:
+    id: 43580
+    mass: 1.102E7
+    name: ♦ Exequror
+    published: false
+    volume: 113000.0
   ♦ Gila:
     id: 46056
     mass: 9600000.0
@@ -137,9 +143,3 @@ items:
     name: ♦ Vigilant
     published: false
     volume: 101000.0
-  ��� Exequror:
-    id: 43580
-    mass: 1.102E7
-    name: ��� Exequror
-    published: false
-    volume: 113000.0
